@@ -12,12 +12,12 @@ ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
-description: トレーニング ビデオ、PowerPoint デッキ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
+description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
 ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/30/2019
 ms.locfileid: "31003821"
@@ -25,7 +25,7 @@ ms.locfileid: "31003821"
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
 
-トレーニング リソースを使用して、チームについて、人に教える、またはワーク ショップを実行します。 新しいコンテンツをここに戻って頻繁にチェックします。 
+トレーニング リソースを使用してTeams について学び、他のユーザーに教えたりワーク ショップを行います。 頻繁にここをチェックし、新しいコンテンツを確認してください。 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -39,7 +39,7 @@ ms.locfileid: "31003821"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>チームとチャネルのいくつかの高速を使い始める</h3>
+                        <h3>一部のチームとチャンネルですばやく始めましょう</h3>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ ms.locfileid: "31003821"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>YouTube でクラウドのチャネルでコーヒーのベスト ・ プラクティスと方法のビデオを表示します。</h3>
+                        <h3>YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。</h3>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ ms.locfileid: "31003821"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>ユーザーのトレーニングを受ける</h3>
+                        <h3>ユーザー向けのトレーニング</h3>
                     </div>
                 </div>
             </div>
@@ -85,35 +85,35 @@ ms.locfileid: "31003821"
 </ul>
 
 
-<h2>テクニカル ・ トレーニング</h2>
+<h2>テクニカルなトレーニング</h2>
 
 | モジュール | ビデオ | PowerPoint デッキ |
 | ------------ | -------------------- | -------------------- |
-| コア ・ コンポーネントの基礎」 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
+| コア コンポーネントの基礎 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
-| ガバナンス、管理、およびライフ サイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
+| ガバナンス、管理とライフサイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
 | セキュリティとコンプライアンス | [ビデオ](https://aka.ms/teams-security-compliance) | [デッキ](https://aka.ms/teams-security-compliance-deck) |
 | ネットワークの計画 | [ビデオ](https://aka.ms/teams-networking) | [デッキ](https://aka.ms/teams-networking-deck) |
 | 通話品質の概要 | [ビデオ](https://aka.ms/teams-quality) | [デッキ](https://aka.ms/teams-quality-deck) |
 | 会議の概要 | [ビデオ](https://aka.ms/teams-meetings-intro) | [デッキ](https://aka.ms/teams-meetings-intro-deck) |
 | ライブ イベント | [ビデオ](https://aka.ms/teams-live-events-session) | [デッキ](https://aka.ms/teams-live-events-deck) |
 | 電話システムの概要 | [ビデオ](https://aka.ms/teams-phone-system) | [デッキ](https://aka.ms/teams-phone-system-deck) |
-| 直接のルーティング | [ビデオ](https://aka.ms/teams-direct-routing) | [デッキ](https://aka.ms/teams-direct-routing-deck) |
-| Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者の経験](https://aka.ms/teams-upgrade-admin) | [デッキ](https://aka.ms/teams-upgrade-deck)|
+| ダイレクト ルーティング | [ビデオ](https://aka.ms/teams-direct-routing) | [デッキ](https://aka.ms/teams-direct-routing-deck) |
+| Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードの計画](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者体験](https://aka.ms/teams-upgrade-admin) | [デッキ](https://aka.ms/teams-upgrade-deck)|
 
-<h2>クイック ・ スタート ガイド</h2>
+<h2>クイック スタート ガイド</h2>
 
-- [クイック スタート: 教育の管理者のチーム](teams-quick-start-edu.yml)
-- [クイック スタート: チームの計画を呼び出すことを構成します。](configuring-teams-calling-quickstartguide.md)
+- [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
+- [クイック スタート: Teamsでの通話プランの構成](configuring-teams-calling-quickstartguide.md)
 
 <h2>チュートリアル</h2>
 
 - [チュートリアル: Skype for Business から Teams への移行](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [チュートリアル: Teams での会議](tutorial-meetings-in-teams.yml)
 - [チュートリアル: Teams での電話会議](tutorial-audio-conferencing.yml)
-- [チュートリアル: Teams での通話について理解する](tutorial-calling-in-teams.yml)
+- [チュートリアル: Teams での通話の理解](tutorial-calling-in-teams.yml)
 
 <h2>コース</h2>
 
-- [マイクロソフト チームとチームワークを有効にします。](https://aka.ms/edx-cld267x-about)
-- [マイクロソフトのサービス採用のスペシャ リスト](https://aka.ms/AdoptionCert)
+- [Microsoft Teamsでチームワークを可能に](https://aka.ms/edx-cld267x-about)
+- [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
