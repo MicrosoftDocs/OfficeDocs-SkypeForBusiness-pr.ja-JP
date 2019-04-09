@@ -12,20 +12,20 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
-description: ビデオ、チュートリアル、およびその他のリソースを使用して、チーム、組織内のユーザーをトレーニングします。
+description: 組織のユーザー向けトレーニング ビデオ、チュートリアル、その他のリソースで、Teams の使用方法を説明します。
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 01246103d321e40316df01799c3c7f5a82940340
 ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/08/2019
 ms.locfileid: "30493667"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams のエンド ユーザー トレーニング
 
-チームを最大限に活用、組織内のユーザーを支援するのにには、これらのトレーニング リソースを使用します。
+これらのトレーニング リソースを使用して、組織内のユーザーが Teams を最大限に活用できるようにします。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -39,8 +39,8 @@ ms.locfileid: "30493667"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>チームへようこそ!<br>
-このショート ビデオのチームに導入します。</h3>
+                        <h3>Teams へようこそ!<br>
+Teams の概要に関するこのショート ビデオをご覧ください。</h3>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ ms.locfileid: "30493667"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>このクイック ・ スタートをすばやく起動して実行中のチームに、次</h3>
+                    <h3>このクイック スタートを読むと、Teams をすぐにお使いになれます。</h3>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ ms.locfileid: "30493667"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>チームのヘルプ センターのヘルプと使い方」のドキュメントを取得します。</h3>
+                        <h3>Teams ヘルプ センターのヘルプと使い方のマニュアルを入手する</h3>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@ ms.locfileid: "30493667"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>チームのトレーニング ビデオを見る</h3>
+                        <h3>Teams のトレーニング ビデオを視聴する</h3>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@ ms.locfileid: "30493667"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>YouTube でチームのチャネルを確認します。</h3>
+                        <h3>YouTube で Teams のチャンネルをチェックする</h3>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@ ms.locfileid: "30493667"
 
 ---
 
-<h2>おすすめトレーニング</h2>
+<h2>おすすめのトレーニング</h2>
 <ul class="panelContent cardsW">
      <li>
         <div class="cardSize">
@@ -133,8 +133,8 @@ ms.locfileid: "30493667"
                 <div class="card">
                     <div class="cardText">
                         <h3>クイック スタート</h3>
-                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">このクイック スタート ガイド (PDF) の基礎を学ぶのダウンロードします。</a></p>
-                        <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">以下のこのクイック スタートのことで、迅速に最新の記事</a></p>
+                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">このクイック スタート ガイド (PDF) をダウンロードして基礎を学ぶ</a></p>
+                        <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">このクイック スタートの記事に従って、すぐに使えるようになる</a></p>
                     </div>
                 </div>
             </div>
@@ -144,10 +144,10 @@ ms.locfileid: "30493667"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>チームの概要</h3>
-                        <p><a href="https://teamsdemo.office.com/">チームの対話型デモ</a></p>  
-                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">オン ・ デマンド ・ トレーニング: #ThisisTeams - どのようにチームの機能について</a></p>
-                        <p><a href="https://aka.ms/teamsgettingstartedondemand">オン ・ デマンド ・ トレーニング: チームの概要</a></p>
+                        <h3>Teams の概要</h3>
+                        <p><a href="https://teamsdemo.office.com/">Teams の対話型のデモ</a></p>  
+                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">オンデマンドのライブ トレーニング: #ThisisTeams - Teams の仕組み</a></p>
+                        <p><a href="https://aka.ms/teamsgettingstartedondemand">オンデマンドのライブ トレーニング: Teams を始める</a></p>
                     </div>
                 </div>
             </div>
@@ -158,10 +158,10 @@ ms.locfileid: "30493667"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>ビジネスの Skype からのチームに切り替える</h3>
-                         <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">チームにビジネス用の Skype からの記事: スイッチ</a></p>
-                         <p><a href="https://aka.ms/upgrade101ondemand">オン ・ デマンド ・ トレーニング: アップグレード 101: チームにビジネス用の Skype からのアップグレードを理解します。</a></p>
-                        <p><a href="https://aka.ms/fromskypetoteamsondemand">オン ・ デマンド ・ トレーニング: ビジネスでのチームから Skype</a></p>
+                        <h3>Skype for Business から Teams に切り替える</h3>
+                         <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">記事: Skype for Business から Teams に切り替える</a></p>
+                         <p><a href="https://aka.ms/upgrade101ondemand">オンデマンドのライブ トレーニング: 101 をアップグレードする: Skype for Business から Teams へのアップグレードについて理解する</a></p>
+                        <p><a href="https://aka.ms/fromskypetoteamsondemand">オンデマンドでのライブ トレーニング: Skype for Business から Teams へ</a></p>
                     </div>
                 </div>
             </div>
@@ -171,11 +171,11 @@ ms.locfileid: "30493667"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>チームを設定します</h3>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">ビデオ: チームを稼動させる</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">チームの所有者のガイドを目指すビデオ:</a></p>
-                         <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">ビデオ: チーム リストを整理します。</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">チーム、チャネル、およびタブを設定するためのビデオ: ガイダンス</a></p> 
+                        <h3>チームを設定する</h3>
+                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">ビデオ: 自分のチームを立ち上げて稼動させる</a></p>
+                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">ビデオ: チーム所有者向けの導入ガイド</a></p>
+                         <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">ビデオ: チーム リストを整理する</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">ビデオ: チーム、チャネル、タブの設定のガイダンス</a></p> 
                     </div>
                 </div>
             </div>
@@ -186,10 +186,10 @@ ms.locfileid: "30493667"
                 <div class="card">
                     <div class="cardText">
                         <h3>チームとチャネル</h3>
-                         <p><a href="https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46">チームとチャネルのビデオ: 概要</a></p>
-                         <p><a href="https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba">ビデオ: お気に入りと次のチャンネル</a></p>
-                         <p><a href="https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e">チャネルでの作業をビデオ。</a></p>
-                         <p><a href="https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca">ビデオ: ヒント - チャネルの電子メールを送信</a></p>
+                         <p><a href="https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46">ビデオ: チームとチャネルの概要</a></p>
+                         <p><a href="https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba">ビデオ: チャネルをお気に入りに追加し、フォローする</a></p>
+                         <p><a href="https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e">ビデオ: チャネルの操作方法</a></p>
+                         <p><a href="https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca">ビデオ: ヒント - チャネルにメールを送信する</a></p>
                     </div>
                 </div>
             </div>
@@ -200,10 +200,11 @@ ms.locfileid: "30493667"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>_AMP_ メッセージを投稿します。</h3>
-                         <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">ビデオ: 作成し、投稿の書式設定</a></p>
-                         <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">ビデオ: が @mentions に注意を引く</a></p>
-                         <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">投稿またはメッセージを保存するビデオ。</a></p>
+                        <h3>投稿とメッセージ</h3>
+                         <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">ビデオ: 投稿を作成、書式設定する</a></p>
+                         <p>
+  <a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">ビデオ: @メンションで注意を引く</a></p>
+                         <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">ビデオ: 投稿またはメッセージを保存する</a></p>
                     </div>
                 </div>
             </div>
@@ -213,10 +214,10 @@ ms.locfileid: "30493667"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>チャット、& 会議の呼び出し</h3>
-                       <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">ビデオ: チャットを開始し、呼び出しを行う</a></p>
-                       <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">ビデオ: 会議を作成するインスタントを満たすようになりました</a></p>
-                       <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">ビデオ: ミーティングを管理します。</a></p>
+                        <h3>チャット、通話、会議</h3>
+                       <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">ビデオ: チャットを開始して通話を発信する</a></p>
+                       <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">ビデオ: "今すぐ会議" ですばやく会議を作成する</a></p>
+                       <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">ビデオ: 会議を管理する</a></p>
                     </div>
                 </div>
             </div>
@@ -227,10 +228,10 @@ ms.locfileid: "30493667"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>アプリ & ツール</h3>
-                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">ビデオ: タブのツールを追加します。</a></p>
-                        <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">ビデオ: タブにファイルを有効にします。</a></p>
-                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">[コマンド] ボックスを使用するビデオ。</a></p>
+                        <h3>アプリとツール</h3>
+                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">ビデオ: タブでツールを追加する</a></p>
+                        <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">ビデオ: ファイルをタブとして表示する</a></p>
+                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">ビデオ: コマンド ボックスを使用する</a></p>
                         <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">ビデオ: コマンド バーの概要</a></p>
                     </div>
                 </div>
@@ -243,8 +244,8 @@ ms.locfileid: "30493667"
                 <div class="card">
                     <div class="cardText">
                         <h3>アクティビティ フィード</h3>
-                         <p><a href="https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08">ビデオ: アクティビティ フィードをフィルターします。</a></p>
-                         <p><a href="https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096">ビデオ: 通知の設定を管理します。</a></p>
+                         <p><a href="https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08">ビデオ: アクティビティ フィードをフィルタリングする</a></p>
+                         <p><a href="https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096">ビデオ: 通知設定を管理する</a></p>
                     </div>
                 </div>
             </div>
@@ -254,8 +255,8 @@ ms.locfileid: "30493667"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>チーム & のヒントとテクニック</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">記事: チームの & のヒントとテクニック</a></p>
+                        <h3>Teams のヒントとテクニック</h3>
+                        <p><a href="https://support.office.com/office-training-center/Teams-tips">記事: Teams のヒントとテクニック</a></p>
                     </div>
                 </div>
             </div>

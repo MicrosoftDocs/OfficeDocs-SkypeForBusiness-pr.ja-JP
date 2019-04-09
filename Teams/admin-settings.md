@@ -3,12 +3,12 @@ title: Microsoft Teams でのアプリの管理設定
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag
-description: 外部アプリのサイドロードなど、Microsoft Teams でのアプリの許可と有効化について説明します。
+ms.reviewer: ritikag, lajin
+description: Microsoft Teams で組織のアプリの管理に使用できるポリシーと設定について説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -18,54 +18,52 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad61e412bbbe0a880a279179f40124895d6e38a5
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
-ms.translationtype: MT
+ms.openlocfilehash: f013b888b61424c9a3b7dec9950fe45941cd5e6a
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30568409"
 ---
-<a name="admin-settings-for-apps-in-microsoft-teams"></a><span data-ttu-id="27330-103">Microsoft Teams でのアプリの管理設定</span><span class="sxs-lookup"><span data-stu-id="27330-103">Admin settings for apps in Microsoft Teams</span></span>
+<a name="admin-settings-for-apps-in-microsoft-teams"></a><span data-ttu-id="57c8b-103">Microsoft Teams でのアプリの管理設定</span><span class="sxs-lookup"><span data-stu-id="57c8b-103">Admin settings for apps in Microsoft Teams</span></span>
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-<span data-ttu-id="27330-104">アプリケーションは、タブ、コネクタ、ボット、またはチーム (ファースト パーティのアプリケーションとも呼ばれる既定アプリケーション) または (外部のアプリケーションとも呼ばれます)、サード パーティによって提供されるこれら 3 つの任意の組み合わせです。</span><span class="sxs-lookup"><span data-stu-id="27330-104">Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, and also known as default apps) or by a third-party (also known as external apps).</span></span> <span data-ttu-id="27330-105">Microsoft 365 管理センターを有効にして既定のアプリケーションを無効にして外部のアプリケーションを制御する設定を構成します。</span><span class="sxs-lookup"><span data-stu-id="27330-105">In the Microsoft 365 admin center, you can enable and disable default apps and configure settings to control external apps.</span></span> <span data-ttu-id="27330-106">これらの設定を使用して、読み込み側のアプリケーションを許可するかどうか、外部コンテンツが許可され、許可されていない外部のアプリケーションの新しい動作を指定できます。</span><span class="sxs-lookup"><span data-stu-id="27330-106">These settings let you specify which external apps are allowed and disallowed, new external app behavior, and whether side-loading apps is allowed.</span></span>
+<span data-ttu-id="57c8b-104">アプリは、組織が Teams を活用できるよう最先端のツールを提供しています。</span><span class="sxs-lookup"><span data-stu-id="57c8b-104">Apps provide out-of-the-box tools for your organization to get more out of Teams.</span></span> <span data-ttu-id="57c8b-105">このアプリは、Microsoft が提供する、サードパーティがまたは組織の開発者が開発したタブ、メッセージング拡張機能、コネクタ、ボットの機能を組み合わせたものです。</span><span class="sxs-lookup"><span data-stu-id="57c8b-105">These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.</span></span>
 
- <span data-ttu-id="27330-107">チームでのアプリケーションの管理設定を管理する Microsoft 365 の管理ページに移動し、**設定**を選択して > **サービス & アドイン** > **マイクロソフトのチーム**です。</span><span class="sxs-lookup"><span data-stu-id="27330-107">To manage admin settings for apps in Teams, go to the Microsoft 365 admin center and choose **Settings** > **Services & add-ins** > **Microsoft Teams**.</span></span> <span data-ttu-id="27330-108">Office 365 管理者としてサインインしている場合は、次のリンクから移動できます。</span><span class="sxs-lookup"><span data-stu-id="27330-108">If you're signed in as an Office 365 admin, this link should take you there:</span></span>
+<span data-ttu-id="57c8b-106">Microsoft Teams 管理センターで、**Teams アプリ**の組織向けアプリを管理します。</span><span class="sxs-lookup"><span data-stu-id="57c8b-106">You manage apps for your organization in **Teams apps** in the Microsoft Teams admin center.</span></span> <span data-ttu-id="57c8b-107">組織内の Teams ユーザーが利用できるアプリを制御したり、ユーザーにとって最も重要なアプリを固定して Teams をカスタマイズしたり、ユーザーがカスタム アプリをアップロードできるかどうか (サイドローディングとしても知られています) を指定したりできます。</span><span class="sxs-lookup"><span data-stu-id="57c8b-107">You can set policies to control what apps are available to Teams users in your organization, customize Teams by pinning apps that are most important for your users, and specify whether users can upload custom apps (also known as sideloading).</span></span> <span data-ttu-id="57c8b-108">これらのポリシーと設定により、利用可能なアプリ、Teams でのアプリの見え方、組織のニーズに応じて利用できるユーザーを細かく管理できます。</span><span class="sxs-lookup"><span data-stu-id="57c8b-108">These policies and settings give you granular control over what apps are available, how they appear in Teams, and who can use them based on the needs of your organization.</span></span>
 
-https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+## <a name="app-permission-policies"></a><span data-ttu-id="57c8b-109">アプリケーションのアクセス許可ポリシー</span><span class="sxs-lookup"><span data-stu-id="57c8b-109">App permission policies</span></span>
 
-<span data-ttu-id="27330-109">アプリの管理設定の詳細については、次のビデオをご覧ください。</span><span class="sxs-lookup"><span data-stu-id="27330-109">To learn more about admin settings for apps, see the following video:</span></span> 
- 
-|  |  |
-|---------|---------|
-| <span data-ttu-id="27330-110">Managing the App Experience in Microsoft Teams (Microsoft Teams でのアプリの機能と操作性を管理する)</span><span class="sxs-lookup"><span data-stu-id="27330-110">Managing the App Experience in Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-## <a name="allow-external-apps-in-teams"></a><span data-ttu-id="27330-111">Allow external apps in Teams (Teams で外部アプリを許可する)</span><span class="sxs-lookup"><span data-stu-id="27330-111">Allow external apps in Teams</span></span>
+<span data-ttu-id="57c8b-110">アプリのアクセス許可ポリシーで、アプリを組織全体あるいは特定のユーザーにブロックまたは許可できます。</span><span class="sxs-lookup"><span data-stu-id="57c8b-110">With app permission policies, you can block or allow apps, either org-wide or for specific users.</span></span>  <span data-ttu-id="57c8b-111">アプリをブロックした場合、アプリとのすべての通信が無効になり、アプリがユーザーの Teams に表示されません。</span><span class="sxs-lookup"><span data-stu-id="57c8b-111">When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.</span></span>
 
-<span data-ttu-id="27330-112">既定では、[**Allow external apps in Microsoft Teams (Microsoft Teams で外部アプリを許可する)**] がオンになり、すべてのアプリが選択されます。</span><span class="sxs-lookup"><span data-stu-id="27330-112">By default, **Allow external apps in Microsoft Teams** is turned on, with all apps selected.</span></span> <span data-ttu-id="27330-113">この設定をオフにすると、外部のサードパーティのアプリケーションをすべて無効となります。</span><span class="sxs-lookup"><span data-stu-id="27330-113">If you turn off this setting, all external third-party apps are disabled.</span></span> 
+<span data-ttu-id="57c8b-112">たとえば、アプリのアクセス許可ポリシーは次のことに使用できます。</span><span class="sxs-lookup"><span data-stu-id="57c8b-112">For example, you can use app permission policies to:</span></span>
 
-## <a name="enable-new-external-apps-by-default"></a><span data-ttu-id="27330-114">Enable new external apps by default (既定で新しい外部アプリを有効にする)</span><span class="sxs-lookup"><span data-stu-id="27330-114">Enable new external apps by default</span></span>
+- <span data-ttu-id="57c8b-113">組織にアクセス許可やデータ損失のリスクをもたらすアプリを無効にする。</span><span class="sxs-lookup"><span data-stu-id="57c8b-113">Disable an app that poses a permission or data loss risk to your organization.</span></span>
+- <span data-ttu-id="57c8b-114">特定のユーザーに新しいサード パーティ製またはカスタムビルド版のアプリを徐々に展開する。</span><span class="sxs-lookup"><span data-stu-id="57c8b-114">Gradually roll out new third-party or custom built apps to specific users.</span></span>
+- <span data-ttu-id="57c8b-115">組織全体で Teams の展開を開始する際に、特にユーザーの作業を簡略化する。</span><span class="sxs-lookup"><span data-stu-id="57c8b-115">Simplify the user experience, especially when you start rolling out Teams across your organization.</span></span>
 
-#### <a name="trophy-best-practice-manage-external-apps-individually"></a><span data-ttu-id="27330-115">:トロフィー: ベスト プラクティス: 外部アプリを個別に管理する</span><span class="sxs-lookup"><span data-stu-id="27330-115">:trophy: Best practice: Manage external apps individually</span></span> 
- 
-<span data-ttu-id="27330-116">一部のアプリをオンにする (その他のアプリはオフにする) には、[**Allow sideloading of external apps (外部アプリのサイドロードを許可する)**] をオフにします。</span><span class="sxs-lookup"><span data-stu-id="27330-116">To turn on some apps (and turn off others), turn off **Allow sideloading of external apps**.</span></span> <span data-ttu-id="27330-117">自分のユーザーに使用されないようにするアプリをすべてオフにします。</span><span class="sxs-lookup"><span data-stu-id="27330-117">Then turn off any apps you don't want your users to use.</span></span> <span data-ttu-id="27330-118">オプション: [**Enable new external apps by default (既定で新しい外部アプリを有効にする)**] をオフにします (新しいアプリを制御する場合)。</span><span class="sxs-lookup"><span data-stu-id="27330-118">Optional: Turn off **Enable new external apps by default** (if you want to control new apps).</span></span> 
+<span data-ttu-id="57c8b-116">詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」にアクセスしてください。</span><span class="sxs-lookup"><span data-stu-id="57c8b-116">To learn more, go to [Manage app permission policies in Teams](teams-app-permission-policies.md).</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="27330-119">、マイクロソフトによって作成されたものなど、既定のアプリケーションは、**既定では、新しい外部アプリケーションを有効にする**設定の影響を受けません。</span><span class="sxs-lookup"><span data-stu-id="27330-119">Default apps, such as those built by Microsoft, are not affected by the **Enable new external apps by default** setting.</span></span> <span data-ttu-id="27330-120">マイクロソフトからリリースされたときに既定では、新しいアプリケーションが有効になります。</span><span class="sxs-lookup"><span data-stu-id="27330-120">New apps are enabled by default when released by Microsoft.</span></span>
+## <a name="app-setup-policies"></a><span data-ttu-id="57c8b-117">アプリケーションの設定ポリシー</span><span class="sxs-lookup"><span data-stu-id="57c8b-117">App setup policies</span></span>
 
-<span data-ttu-id="27330-121">この設定をオンにすると、新しいアプリのユーザーがアクティブにチーム アプリケーション カタログに追加するいるとすぐに。</span><span class="sxs-lookup"><span data-stu-id="27330-121">When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog.</span></span> <span data-ttu-id="27330-122">Teams アプリ カタログを開くには、Teams の下部にある [**ストア**] をクリックして、[**アプリ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="27330-122">To open the Teams app catalog, click **Store** at the bottom of Teams, then click **Apps**.</span></span> <span data-ttu-id="27330-123">どのアプリが利用できるかを制御する場合は、この設定をオフにします。</span><span class="sxs-lookup"><span data-stu-id="27330-123">If you want to control which apps are available, turn off this setting.</span></span> <span data-ttu-id="27330-124">これをオフにする場合は、自分の組織で優れた新しいアプリを利用する機会を失うことがないように、新しいアプリについて忘れずに定期的に確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="27330-124">Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on cool new apps.</span></span> 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-<span data-ttu-id="27330-125">サイドローディングは、チームに直接 zip ファイルをアップロードすることによって Teams にアプリを追加する方法です。</span><span class="sxs-lookup"><span data-stu-id="27330-125">Sideloading is how you add an app to Teams by uploading a zip file directly to a team.</span></span> <span data-ttu-id="27330-126">サイドローディングにより、開発途中のアプリをテストすることができます。</span><span class="sxs-lookup"><span data-stu-id="27330-126">Sideloading lets you test an app as it's being developed.</span></span> <span data-ttu-id="27330-127">内部使用に限定するアプリを構築して、Office ストアの Teams アプリ カタログに送らずにチーム内で共有することができます。</span><span class="sxs-lookup"><span data-stu-id="27330-127">It also lets you build an app for internal use only and share it with your team without submitting it to the Teams app catalog in the Office Store.</span></span> 
+<span data-ttu-id="57c8b-118">アプリケーションの設定ポリシーで、ユーザーのアプリでの操作をカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="57c8b-118">App setup policies let you customize the app experience for your users.</span></span> <span data-ttu-id="57c8b-119">Teams クライアントのアプリ バーに固定するアプリと、アプリが Web、デスクトップ、モバイル クライアントに表示される順序を選択します。</span><span class="sxs-lookup"><span data-stu-id="57c8b-119">You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients.</span></span>
 
-<span data-ttu-id="27330-128">チーム所有者またはアクセス許可が付与されたメンバーのみが、アプリを Teams にサイドロードすることができます。</span><span class="sxs-lookup"><span data-stu-id="27330-128">Only team owners, or members who are granted permissions, can sideload apps into Teams.</span></span>  
+<span data-ttu-id="57c8b-120">アプリの設定ポリシーの活用例は以下のとおりです。</span><span class="sxs-lookup"><span data-stu-id="57c8b-120">Here's some examples of how you can use app setup policies:</span></span>
+- <span data-ttu-id="57c8b-121">主要アプリの認識と導入を促進する。</span><span class="sxs-lookup"><span data-stu-id="57c8b-121">Drive awareness and adoption of core apps.</span></span> <span data-ttu-id="57c8b-122">たとえば、人事チームのユーザー用のカスタム採用管理と人材管理アプリを固定します。</span><span class="sxs-lookup"><span data-stu-id="57c8b-122">For example, pin a custom recruiting and talent management app for users on your HR team.</span></span>
+- <span data-ttu-id="57c8b-123">チャット、Teams、通話などの主要な Teams 機能を選択して固定します。</span><span class="sxs-lookup"><span data-stu-id="57c8b-123">Selectively pin core Teams features, such as Chat, Teams, and Calling.</span></span> <span data-ttu-id="57c8b-124">これを行うと、ユーザーが確実に Teams 内の特定のアクティビティに取り組めるようになります。</span><span class="sxs-lookup"><span data-stu-id="57c8b-124">Doing so can help ensure users are engaged in specific activities within Teams.</span></span>
 
-<span data-ttu-id="27330-129">![拡張の外部アプリケーションでの画面です]。(media/teams-tenant-wide-settings-external-apps.png "外部のアプリケーションを示す展開された外部のアプリケーション セクションのスクリーン ショット")</span><span class="sxs-lookup"><span data-stu-id="27330-129">![Screen shot of the expanded External Apps section.](media/teams-tenant-wide-settings-external-apps.png "Screen shot of the expanded External Apps section showing external apps")</span></span>
+<span data-ttu-id="57c8b-125">詳細については、「[Teams でアプリの設定ポリシーを管理する](teams-app-setup-policies.md)」を確認してください。</span><span class="sxs-lookup"><span data-stu-id="57c8b-125">To learn more, check out [Manage app setup policies in Teams](teams-app-setup-policies.md).</span></span>
 
-## <a name="creating-and-uploading-app-packages"></a><span data-ttu-id="27330-130">アプリのパッケージの作成とアップロード</span><span class="sxs-lookup"><span data-stu-id="27330-130">Creating and uploading app packages</span></span> 
+## <a name="custom-app-policies-and-settings"></a><span data-ttu-id="57c8b-126">カスタム アプリ ポリシーと設定</span><span class="sxs-lookup"><span data-stu-id="57c8b-126">Custom app policies and settings</span></span>
 
-<span data-ttu-id="27330-131">アプリケーションに関する詳細については、[チーム開発のアプリケーション](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="27330-131">To learn more about apps, see [Develop apps for Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview).</span></span> 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
+<span data-ttu-id="57c8b-127">Teams により、組織の開発者がその他のユーザーにカスタム アプリを構築、テスト、展開できるようにします。</span><span class="sxs-lookup"><span data-stu-id="57c8b-127">Teams allows developers in your organization to build, test, and deploy custom apps to other users.</span></span> <span data-ttu-id="57c8b-128">カスタム パッケージは、.zip ファイルのアプリ パッケージをチームに直接アップロードするか、個人のコンテキストにアップロードして、チームに追加できます。</span><span class="sxs-lookup"><span data-stu-id="57c8b-128">Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context.</span></span> <span data-ttu-id="57c8b-129">組織でカスタム アプリをアップロードできる人物を管理するアプリの設定ポリシーを使用できます。</span><span class="sxs-lookup"><span data-stu-id="57c8b-129">You can use app setup policies to control who in your organization can upload custom apps.</span></span> <span data-ttu-id="57c8b-130">ユーザーが特定のカスタム アプリを操作するかどうかを制御する組織全体の設定を設定することもできます。</span><span class="sxs-lookup"><span data-stu-id="57c8b-130">You can also set org-wide settings to control whether users can interact with specific custom  apps.</span></span>
 
-
+<span data-ttu-id="57c8b-131">詳細については、「[Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)」にアクセスしてください。</span><span class="sxs-lookup"><span data-stu-id="57c8b-131">To learn more, go to [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).</span></span>
