@@ -19,16 +19,16 @@ search.appverid: MET150
 description: マイクロソフトのチームおよび組織内のユーザーのチームをカスタマイズするのには暗証番号 (pin) のアプリケーションを使用するアプリケーション設定のポリシーについて説明します。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 7e4eaf604c075f8ab95cd40ec7588515c428360c
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517104"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749750"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 管理者としては、マイクロソフトのチームは、ユーザーにとって最も重要なアプリケーションを強調表示をカスタマイズするのにはアプリケーションの設定のポリシーを使用できます。 固定し、表示される順序を設定するアプリケーションを選択します。 アプリケーション設定のポリシーを使用するサード ・ パーティまたは組織内の開発者によって構築されたものなど、組織内のユーザーを必要とするアプリケーションを紹介します。 どの組み込みの機能を管理するアプリケーション設定のポリシーを使用することも表示されます。
 

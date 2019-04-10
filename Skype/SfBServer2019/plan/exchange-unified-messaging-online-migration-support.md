@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: マイクロソフトは 2020年 2 月によって Exchange ユニファイド メッセージング オンライン (ExchUMO) サービスを撤去します。 この資料がどのような影響を受けるをまとめたものお客様が知っているし、ビジネス継続性の計画を行う必要があります。
-ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
+ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026245"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31740934"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート  
 
@@ -66,7 +66,7 @@ Exchange ユニファイド メッセージング オンライン サービス�
 
 3. **自動応答移行を計画します。**
     
-    管理者からへの移行、自動アテンダント ExchUMO クラウドの自動応答はいつでも開始できます。 詳細については、[電話システムの自動応答の設定](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)を参照してください。 マイクロソフトは、お客様は、2019年 3 月によって、移行のための重要な検討する追加の自動応答機能を提供する予定です。 管理者は、機能セットを評価し、それに応じて、自動応答のインスタンスを移行する必要があります。 フィーチャー リストの比較は、 [ExchUMO と Azure クラウド ベースのサービスの機能のマトリックス](#exchumo-and-azure-cloud-based-services-feature-matrix)を参照してください。
+    管理者からへの移行、自動アテンダント ExchUMO クラウドの自動応答はいつでも開始できます。 詳細については、[電話システムの自動応答の設定](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)を参照してください。 マイクロソフトは、お客様は、2019年 3 月によって、移行のための重要な検討する追加の自動応答機能を提供する予定です。 管理者は、機能セットを評価し、それに応じて、自動応答のインスタンスを移行する必要があります。 フィーチャー リストの比較は、 [ExchUMO と Azure クラウド ベースのサービスの機能のマトリックス](#exchumo-and-azure-cloud-based-services-feature-matrix)を参照してください。
 
 4. **ボイスメール、移行後の検証のための計画し、テスト**
 
@@ -93,10 +93,10 @@ Exchange ユニファイド メッセージング オンライン サービス�
 
 
 
-| サービス | 機能レベル | 機能 | 備考  | クラウドの VM と AA  | ExUMO |
+| サービス | 機能レベル | 機能 | ノート  | クラウドの VM と AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VM  | サービスの機能| サード パーティの PBX をサポートします。    |  | N   | Y    |
-| VM | サービスの機能  | Skype をビジネスのサーバーをサポートします。   |  | Q1CY19 | Y    |
+| VM  | サービスの機能| サード パーティの PBX をサポートします。    | MWI (メッセージ待機インジケーター) の SIP を使用するなどのサード パーティ製 PBX に提供されるすべての機能を含む、Exchange オンライン UM からのメッセージを通知します。 | N   | Y    |
+| VM | サービスの機能  | Skype をビジネスのサーバーをサポートします。   |  | Y | Y    |
 | VM | サービスの機能 | マイクロソフトのチームをサポートします。|  | Y | N    |
 | VM | サービスの機能 | 電子的証拠開示と保持  | セキュリティとコンプライアンスの  | Y | Y    |
 | VM | サービスの機能 | Exchange ルールをサポートします。 | セキュリティとコンプライアンスの  | Y | Y    |
@@ -119,7 +119,7 @@ Exchange ユニファイド メッセージング オンライン サービス�
 | VM | ユーザー機能 | 音声メッセージをユーザーのグループに送信します。  |ボイスメール ブロードキャスト   | N | Y   |
 | VM | ユーザー機能 | SMS を使用してボイス メール通知    | 新しいボイスメールを持っている場合、ユーザーは、SMS を受け取ることができます。    | N | Y    |
 | VM | ユーザー機能 | あいさつ文の言語をサポート | ここの詳細:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
-| VM | ユーザー機能 | 通話応答ルール |  | Q1CY19 | Y    |
+| VM | ユーザー機能 | 通話応答ルール |  | Y | Y    |
 | VM | ユーザー機能 | 電話 (PSTN) で再生 - メッセージを再生するには | ボイス メッセージをリッスンするようにセルに連絡します。  | N | Y    |
 | VM | ユーザー機能 | (認証) を電話で再生 - メッセージを再生するには | 認証されたデバイス上で私を呼び出す  | Y | Y    |
 | VM | ユーザー機能 | 複数のユーザー間で共有されているメールボックス |  | Y | Y    |

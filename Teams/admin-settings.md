@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f013b888b61424c9a3b7dec9950fe45941cd5e6a
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30568409"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749670"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams でのアプリの管理設定
 ==========================================
@@ -36,7 +36,7 @@ Microsoft Teams 管理センターで、**Teams アプリ**の組織向けアプ
 
 ## <a name="app-permission-policies"></a>アプリケーションのアクセス許可ポリシー
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 アプリのアクセス許可ポリシーで、アプリを組織全体あるいは特定のユーザーにブロックまたは許可できます。  アプリをブロックした場合、アプリとのすべての通信が無効になり、アプリがユーザーの Teams に表示されません。
 
@@ -50,7 +50,7 @@ Microsoft Teams 管理センターで、**Teams アプリ**の組織向けアプ
 
 ## <a name="app-setup-policies"></a>アプリケーションの設定ポリシー
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 アプリケーションの設定ポリシーで、ユーザーのアプリでの操作をカスタマイズできます。 Teams クライアントのアプリ バーに固定するアプリと、アプリが Web、デスクトップ、モバイル クライアントに表示される順序を選択します。
 
@@ -62,7 +62,7 @@ Microsoft Teams 管理センターで、**Teams アプリ**の組織向けアプ
 
 ## <a name="custom-app-policies-and-settings"></a>カスタム アプリ ポリシーと設定
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 Teams により、組織の開発者がその他のユーザーにカスタム アプリを構築、テスト、展開できるようにします。 カスタム パッケージは、.zip ファイルのアプリ パッケージをチームに直接アップロードするか、個人のコンテキストにアップロードして、チームに追加できます。 組織でカスタム アプリをアップロードできる人物を管理するアプリの設定ポリシーを使用できます。 ユーザーが特定のカスタム アプリを操作するかどうかを制御する組織全体の設定を設定することもできます。
 

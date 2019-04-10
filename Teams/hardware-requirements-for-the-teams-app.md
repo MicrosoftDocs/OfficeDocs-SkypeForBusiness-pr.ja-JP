@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f699352625d512c20e6b0b0b2384a08eafcb1872
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 66a5b4a5ef64f83f61d106a6cd2052516cda95a7
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891629"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749678"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 
@@ -63,7 +63,11 @@ ms.locfileid: "30891629"
 
 - iOS - には、iOS 10.0 またはそれ以降が必要です。 IPhone、iPad、iPod のタッチと互換性があります。
 
-### <a name="related-topics"></a>関連項目
+## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>仮想デスクトップ インフラストラクチャ (VDI) の環境でチームのアプリケーションのハードウェア要件
+
+仮想化環境でチームを実行するための要件については、[デスクトップ インフラストラクチャの仮想化のチーム](teams-for-vdi.md)を参照してください。 
+
+### <a name="related-topics"></a>関連トピック
 - [チームのアプリケーションを取得します。](get-clients.md)
 - [モバイル デバイスに関するマイクロソフトのチーム](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [MSI を使用してマイクロソフトのチームのアプリケーションをインストールします。](msi-deployment.md)

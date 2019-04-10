@@ -1,5 +1,5 @@
 ---
-title: カスタム アプリケーションのポリシーおよびマイクロソフトのチームでの設定を管理します。
+title: Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,16 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: カスタム アプリケーションのポリシーと、組織のマイクロソフトのチームでカスタム アプリケーションをアップロードできるユーザーを制御する設定を管理する方法について説明します。
-ms.openlocfilehash: f914048c33bf611c53646d7d512c6af276209960
-ms.sourcegitcommit: 1337975398a750bc06d2b03a7d6eb61716dcefb0
+ms.openlocfilehash: 3cbd517cdfe8066eebff0164457c8e2e3aa37a5d
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "30677237"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749758"
 ---
-# <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>カスタム アプリケーションのポリシーおよびマイクロソフトのチームでの設定を管理します。
+# <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
 
 管理者としては、カスタム アプリケーションのポリシーと、組織でマイクロソフトのチームに、カスタム アプリケーションをアップロードできるユーザーを制御する設定を使用できます。 管理者がカスタム アプリケーションをアップロードできるユーザーを決定し、管理者とチームの所有者は、組織内の特定のチームがそれらに追加するカスタム アプリケーションを許可するかどうかを判断できます。  
 
@@ -48,7 +48,7 @@ ms.locfileid: "30677237"
 
 ### <a name="user-custom-app-policy"></a>ユーザーのカスタム アプリケーションのポリシー
 
-[アプリケーション設定のポリシー](teams-app-setup-policies.md)の一部として、管理者はポリシーの設定、**ユーザーがアップロードできるは、カスタム アプリケーション**を使用できます、ユーザーかどうかを制御するためにアップロードできるカスタム アプリケーション チームです。
+[アプリケーション設定のポリシー](teams-app-setup-policies.md)の一部として、管理者はチームにユーザーがカスタム アプリケーションをアップロードできるかどうか制御するポリシー設定、**カスタム アプリケーションのアップロードを許可する**を使用できます。
  
 場合はこの設定がオフになっています。
 
@@ -67,7 +67,7 @@ ms.locfileid: "30677237"
 
 1. マイクロソフトのチーム管理センターの左側のナビゲーションで**チームのアプリケーション**に移動する > **のポリシーを設定**します。
 2. **新しいポリシー**を選択します。
-3. を有効または無効**のユーザーがカスタム アプリケーションをアップロードできます**。
+3. 有効にするまたは**カスタム アプリケーションのアップロードを許可する**をオフにします。
 4. ポリシーにするその他の設定を選択します。
 5. **[保存]** をクリックします。
 
@@ -125,7 +125,7 @@ ms.locfileid: "30677237"
 | オン     | オン     | オフ         | ユーザーは、カスタム アプリケーションをアップロードできません。       |
 | オン    | オン        | オン        | ユーザーは、ユーザーがチームのオーナーであるかにかかわらず、チームに、カスタム アプリケーションをアップロードできます。 ユーザーは、個人のコンテキストでカスタム アプリケーションをアップロードできます。       |
 
- ## <a name="related-topics"></a>関連項目
+ ## <a name="related-topics"></a>関連トピック
 - [Teams でのアプリの管理設定](admin-settings.md)
 - [Microsoft Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
 - [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)

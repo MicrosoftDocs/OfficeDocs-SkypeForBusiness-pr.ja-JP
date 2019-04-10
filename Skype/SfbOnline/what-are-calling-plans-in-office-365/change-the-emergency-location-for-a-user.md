@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
+ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516944"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31744282"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所の割り当てまたは変更
 
@@ -74,6 +74,8 @@ Office 365 の通話プランの取得方法とかかる費用については、
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[コマンドレットのセット CsOnlineVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
   
  
