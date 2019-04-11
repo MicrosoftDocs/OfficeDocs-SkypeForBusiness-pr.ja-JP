@@ -1,5 +1,5 @@
 ---
-title: 自動応答の電話システムとは?
+title: 電話システムの自動応答とは
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 自動応答の電話システムとはどのようなものとそれらを使用する方法について説明します。
-ms.openlocfilehash: 1f5d54308836f0677db26e63003ab04c60ef395a
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 46828acc60f6960416f8aeb18452da0ae5e31e68
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517256"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31808087"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>自動応答の電話システムとは?
+# <a name="what-are-phone-system-auto-attendants"></a>電話システムの自動応答とは
 
 Office 365 の電話システムには、自動応答は、外部を使用することができますが用意されていて、内部の呼び出し元を探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送する] メニューの [システムを通過します。
   
@@ -57,12 +57,16 @@ Office 365 で電話システムの自動応答を設定するには、[電話�
 - 自動応答は、関連付けられているリソース アカウントを持っている必要があります。 リソース アカウントの詳細については、[チーム内のリソース アカウントの管理](manage-resource-accounts.md)を参照してください。
 - 取得し、リソース アカウントに次のライセンスを割り当てる必要があります直接ルーティング番号を割り当てる場合は、 \(Office 365 エンタープライズ E1、E3、E5、電話システムのアドオンを\)。
 - 取得し、リソース アカウントに次のライセンスを割り当てる必要がある場合は代わりに、マイクロソフトのサービス番号を割り当てることは、 \(Office 365 エンタープライズ E1、E3、E5、電話システムのアドオンを呼び出す計画と\)。
+- のみ、電話番号が割り当てられているリソース アカウントのライセンスを取得する必要があります。 入れ子になった自動アテンダントまたは呼び出しキューを自動応答の残りの部分にライセンスを取得またはそれに関連付けられた電話番号がない場合は、キューを呼び出す必要はありません。 
+
+> [!NOTE]
+> 直接のルーティング サービスの番号は自動アテンダントと呼び出しのキューは、マイクロソフトのチームのユーザーとエージェントの時点でのみサポートされています。
 
 > [!NOTE] 
 > マイクロソフトは、ユーザー数ライセンス モデルを使用する必要がありますのクラウドの自動応答、通話キューなどのアプリケーションの適切なライセンス ・ モデルの中です。
     
-    > [!TIP]
-    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > [!TIP]
+   > 演算子または**電話システム**のライセンスを持つオンラインのユーザーは、メニュー ・ オプションへの呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするまたは割り当てを呼び出すことを計画にする必要があります。 [マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。 Windows PowerShell を使用することもできます。 たとえば、次を実行します。
   
 - 取得し、自動応答のサービスのフリー ダイヤル番号を使用して、通信のクレジットを設定する必要があります。 これを行うを参照してください[通信のクレジットは何ですか?](what-are-communications-credits.md)し、[組織の通信のクレジットを設定](set-up-communications-credits-for-your-organization.md)。
 
@@ -130,8 +134,8 @@ Office 365 で電話システムの自動応答を設定するには、[電話�
 |:-----|:-----|:-----|:-----|
 |FirstName + LastName |完全 |Amos Marble |Amos Marble |
 |LastName + FirstName |完全  |Marble Amos |Amos Marble |
-|FirstName |完全 |Amos |Amos Marble の場合は 1 を押すか 1 と言う  <br/> Amos Jones の場合は 2 を押すか 2 と言う |
-|LastName |完全 |Marble |Amos Marble の場合は 1 を押すか 1 と言う  <br/> Ben Marble の場合は 2 を押すか 2 と言う |
+|[部署名] |完全 |Amos |Amos Marble の場合は 1 を押すか 1 と言う  <br/> Amos Jones の場合は 2 を押すか 2 と言う |
+|[氏名] |完全 |Marble |Amos Marble の場合は 1 を押すか 1 と言う  <br/> Ben Marble の場合は 2 を押すか 2 と言う |
 
 > [!NOTE]
 > ディレクトリに一覧表示、ダイヤルの名前で Active Directory レプリケーションの遅延のための音声認識でその名前を持つ新しいユーザーには、最大で 36 時間がかかる場合があります。

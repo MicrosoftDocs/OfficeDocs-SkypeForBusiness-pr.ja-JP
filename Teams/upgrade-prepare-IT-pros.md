@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50102058aa14d988ad92bf832609500e049d6174
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
+ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459621"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "31765206"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -38,7 +38,7 @@ Office 365 テナント管理者、技術責任者、およびサポート デ�
 IT スタッフのメンバーと、次のリソースを共有し、チームへのアップグレードを開始する前にユーザーをサポートするために準備ができていることを確認します。
 
 - [Microsoft Teams の管理者トレーニング](itadmin-readiness.md)
-- [Microsoft Teams のサポート リソース](support-resources.md)
+- [管理者ヘルプのビジネス製品のサポートに問い合わせてください。](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Microsoft Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 - [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
 
@@ -47,6 +47,6 @@ IT スタッフのメンバーと、次のリソースを共有し、チーム�
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>導入およびサポート チームに参加する可能性のあるユーザーすべてのサポート スタッフを関与するでしょうか。</li><li>契約時の他のスタッフのトレーニング計画、アップグレードの進行に合わせて開発したでしょうか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>IT スタッフが必要な情報を持っていることを確認します。</li><li>新機能がリリースされると、トレーニングと準備の計画を再検討します。</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>IT スタッフが必要な情報を持っていることを確認します。</li><li>新機能がリリースされると、トレーニングと準備の計画を再検討します。</li></ul>|
 
 チームがお客様の IT スタッフを準備した後は、お客様の環境がすべて[の前提条件](upgrade-plan-journey-prerequisites.md)を満たしていることを確認します。

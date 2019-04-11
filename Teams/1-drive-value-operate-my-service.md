@@ -15,12 +15,12 @@ description: タスクとサービスの稼働状態を監視および評価の�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 47628a52d91c3a9d0492accf9bcb8bce926f3649
+ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569480"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "31765182"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 
@@ -42,7 +42,7 @@ ms.locfileid: "30569480"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>チームの操作を実装する方法を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>チームの操作を実装する方法を決定します。</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>完全に運用ガイドを参照してください。</li><li>ワークロードの音声品質とクラウドの信頼性を提供する、組織の目標に合わせて運用戦略を実装します。</li><li>レビュー ガイドの経験の質を確認します。</li><li> クラウドのボイスの展開がそのピーク性能で動作しているかどうかを確認するのには体験レビューの品質を定期的に実行するオペレーション戦略を実装します。</li></ul></td></tr>
 </table>
 
@@ -440,7 +440,7 @@ Wi-fi ドライバーは、問題が発生する可能性があります。 た�
 
 4.  **マイクロソフト チームのコミュニティを参照してください:**[マイクロソフト チームのコミュニティ](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)では、チーム専用のスペースを提供しています。 チームのコミュニティでは、ディスカッションのリスト、ブログの投稿、およびチームを中心としたお知らせを提供します。 質問を投稿したり、お客様の問題にソリューションの以前のディスカッションを検索できます。
 
-5.  **マイクロソフト サポートにお問い合わせください:** マイクロソフト サポートに連絡するにはオンラインまたは電話でのチームの問題をします。 については、[マイクロソフトのチームのサポートの連絡先](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)を参照してください。
+5.  **マイクロソフト サポートにお問い合わせください:** マイクロソフト サポートに連絡するにはオンラインまたは電話でのチームの問題をします。 については、[ビジネス製品に関するサポートの連絡先](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を参照してください。
     プレミアのお客様にガイダンスに従って、要求を開始することができますサポート[マイクロソフト チームのサポートにお問い合わせください (プレミア顧客)](https://support.microsoft.com/premier/contacts)。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>毎日/毎週/月単位と必要に応じたタスク
@@ -465,7 +465,7 @@ Wi-fi ドライバーは、問題が発生する可能性があります。 た�
 
 [Microsoft Teams のサービスの正常性を確認する](service-health.md)
 
-[管理者ヘルプのビジネス製品のサポートに問い合わせてください。](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[管理者ヘルプのビジネス製品のサポートに問い合わせてください。](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [連絡先のプレミア ・ サポート](https://support.microsoft.com/premier/contacts)
 
@@ -514,7 +514,7 @@ Wi-fi ドライバーは、問題が発生する可能性があります。 た�
 
 組織の拡大や縮小、それがライセンスの現在および将来のニーズを計画することが重要です。 [(電話システム](here-s-what-you-get-with-phone-system.md)および[オーディオ会議](https://products.office.com/skype-for-business/audio-conferencing)) のクラウドのボイス機能のライセンスだけでなく、基本チーム ライセンスがあります。
 
-電話システム用のライセンスではチームの[計画を呼び出すこと](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)に関連するライセンスが必要です。 計画のライセンスを呼び出すことになり、国内または国際電話をかけたりできます。 これらの計画は、使用率に基づくし、分のプールに関連付けられています。 [通信のクレジット](what-are-communications-credits.md)を提供すれば、サービスを実行することはありません。
+電話システム用のライセンスではチームの[計画を呼び出すこと](calling-plan-landing-page.md)に関連するライセンスが必要です。 計画のライセンスを呼び出すことになり、国内または国際電話をかけたりできます。 これらの計画は、使用率に基づくし、分のプールに関連付けられています。 [通信のクレジット](what-are-communications-credits.md)を提供すれば、サービスを実行することはありません。
 
 Tolled のダイヤルイン会議および国内のダイヤルアウト会議サービスにより、オーディオ会議。 無料のダイヤルイン会議またはダイアル アウト シナリオの国内ではないと、どの[通信のクレジット](what-are-communications-credits.md)の追加料金を請求するのには必要です。
 
