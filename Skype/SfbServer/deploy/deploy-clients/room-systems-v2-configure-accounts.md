@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: マイクロソフト チームの会議室のアカウントを設定すると、Exchange とビジネス用の Skype については、このトピックを参照してください。
-ms.openlocfilehash: cbff055a80a156deab0446e5da08fa4fe9bb3808
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 7606f31dde96236111b4a44919427245fa32215d
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012892"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31828952"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>マイクロソフト チームの会議室のアカウントを構成します。
  
@@ -52,7 +52,7 @@ ms.locfileid: "31012892"
 - デバイスのアカウントを検証し、適切な Microsoft サービスに到達するためにマイクロソフト チームの部屋を許可するには、お客様のインフラストラクチャを構成しなければなりません。
     
 > [!IMPORTANT]
-> ハードウェアを実際に設置するよりも十分に前もってアカウントを作成しておくことを、強くお勧めします。 設置の 2 週間から 3 週間前にアカウントの準備を開始するのが理想的です。 
+> ハードウェアを実際に設置するよりも十分に前もってアカウントを作成しておくことを、強くお勧めします。 設置の 2 週間から 3 週間前にアカウントの準備を開始するのが理想的です。 ハイブリッド環境でマイクロソフト チームの会議室に使用するアカウントには AAD の同期で有効になっているマイクロソフト チームの会議室の認証 0ffice 365 認証を必要とするためのパスワード同期が必要です。
   
 デバイスのアカウントは、リソース アカウントのユーザーが、会議室の会議の空き容量またはのアカウントとして認識されると考えることができます。 こうした会議室を使用する会議を予約する場合は、そのアカウントを会議に招待します。 マイクロソフト チームの会議室を最も効果的に使用するには、それぞれに割り当てられているデバイスのアカウントを使用して同じを行います。
   
@@ -88,5 +88,5 @@ Windows PowerShell コマンドレット経由で Office 365 の UI を使用す
   
 [マイクロソフト チームの会議室のコンソールを構成します。](console.md)
   
-[マイクロソフト チームの会議室を管理します。](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

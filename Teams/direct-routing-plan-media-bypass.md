@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 電話システムの直接のルーティングのメディア バイ パスを計画する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: b3a31e23ef065840d830c111c64e0618d90aa71b
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517248"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31827882"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -66,7 +66,7 @@ ms.locfileid: "31517248"
 
 次の図は、メディアをバイパスすると、呼び出しの流れが有効になっている、クライアントは、内部および SBC (ダイレクト ・ メディア) のパブリック IP アドレスにアクセスできるクライアントを示しています。 
 
-- 矢印と数値を指定のパスのマイクロソフトのチーム オンラインを呼び出すフロー ドキュメント。
+- 矢印と数値を指定のパスの[マイクロソフトのチームは、フローを呼び出す](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)資料です。
 
 - パス 4 は、常に SIP シグナリングと 4' (トラフィックの方向) に依存します。 メディアは、ローカルのままし、5 b のパスは、です。
 
@@ -87,7 +87,7 @@ ms.locfileid: "31517248"
 
 メディアをバイパスすると、呼び出しの流れが有効になっている、クライアントは、外部クライアントは、セッション ボーダー コント ローラー (メディアはチームのトランスポートのリレーで中継) のパブリック IP アドレスに到達できない次の図を示しています。
 
-- 矢印と数値を指定のパスのマイクロソフトのチーム オンラインを呼び出すフロー ドキュメント。
+- 矢印と数値を指定のパスの[マイクロソフトのチームは、フローを呼び出す](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)資料です。
 
 - メディアは、パス 3、3'、4 を使用して中継は、4'
 
@@ -101,7 +101,7 @@ ms.locfileid: "31517248"
 
 メディアをバイパスすると、呼び出しの流れが有効になっている、クライアントは、外部、および SBC (ダイレクト ・ メディア) のパブリック IP アドレスがクライアントに到達できる次の図を示しています。
 
-- 矢印と数値を指定のパスのマイクロソフトのチーム オンラインを呼び出すフロー ドキュメント。
+- 矢印と数値を指定のパスの[マイクロソフトのチームは、フローを呼び出す](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)資料です。
 
 - パス 3 は、常に SIP シグナリングおよび 3' (トラフィックの方向) に依存します。 メディア フローが 2 のパスを使用します。
 
@@ -125,7 +125,7 @@ ms.locfileid: "31517248"
 
 - SIP プロキシは、SIP をチームで使用されている HTTP の残りの信号に変換するコンポーネントです。    
 
-![番組が 2 つの呼び出しのフローを示しています: メディア バイ パスのいずれかを有効にし、2 番目はメディア バイ パスが無効になります)](media/direct-routing-media-bypass-6.png)
+![– メディア バイ パスが有効になっていると、メディア バイ パスが無効になっているもう一方の 2 つの呼び出しフローを示しています)](media/direct-routing-media-bypass-6.png)
 
 
 次の表は、メディア プロセッサとトランスポートの中継の違いをまとめたものです。
