@@ -1,12 +1,12 @@
 ---
-title: ビジネス用の Skype をマイクロソフト チームのアップグレードを計画。導入フレームワーク
+title: Skype for Business から Microsoft Teams へのアップグレードを計画する | 導入フレームワーク
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 最初に、利害関係者を参加させると、プロジェクトのスコープで、アップグレードを計画します。
+description: 最初に関係者を参加させてからプロジェクトの範囲を設定して、アップグレードを計画します。
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -16,18 +16,18 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4810e98910186e3c4c5a9b2fb7e4cf62df6876c7
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30649421"
 ---
-![ことを確認して、プロジェクトは、適切なプロジェクト チームを成功に設定されています。プロジェクトのスコープ、目標、およびタイムラインを定義します。技術とユーザーの両方の準備を確認します。ロールアウト計画を実行します。結果を最大化するための勢いを維持します]。(media/upgrade-banner-main.png "アップグレードに向けてスタートしましょう")
+![プロジェクトが適切なプロジェクトチームの成功のために設定されていることを確認してください。プロジェクトの範囲、目標、およびスケジュールを定義します。技術的な準備とユーザーの準備を確認します。展開計画を実行します。結果を最大化するために推進力を維持します。](media/upgrade-banner-main.png "アップグレードの行程を始める")
 
 # <a name="plan-for-your-upgrade"></a>アップグレードの計画
 
-正常な技術環境、ユーザーの継続的な導入、およびすべて、お客様のビジネス目標の実現は、適切な計画を開始します。 ソリッドのプランでは、アップグレード プロジェクトのフレームワークを使用して、により、利害関係者全員が同じ目標に向かって作業しています。 で成功を正しく定義するのには時間、中に、展開での結果を測定し、希望する結果を達成できていることを確認できます。 旅の計画が含まれています。
+健全な技術環境、持続的なユーザー採用、そしてビジネス目標の実現はすべて、適切な計画から始まります。 しっかりした計画はアップグレード プロジェクトのためのフレームワークを与え、すべての関係者が同じ目標に向かって取り組んでいることを保証します。 時間をかけて成功を適切に定義することで、展開を進めながら結果を測定し、期待した結果を達成していることを確認できます。 行程の計画は以下のとおりです。
 
-- [プロジェクトの利害関係者への参加](upgrade-enlist-stakeholders.md)をします。
-- [プロジェクトのスコープを定義](https://aka.ms/SkypetoTeams-Scope)します。
-- [共存とビジネスとチームの Skype の相互運用性を理解すること](https://aka.ms/SkypeToTeams-Coexist)です。
+- [プロジェクトの関係者を参加させる](upgrade-enlist-stakeholders.md)。
+- [プロジェクトの範囲を定義する](https://aka.ms/SkypetoTeams-Scope)。
+- [Skype for Business と Teams の共存と相互運用性を理解する](https://aka.ms/SkypeToTeams-Coexist)。
