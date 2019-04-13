@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 の Skype を実装する方法については、これらのリンクを表示します。'
-ms.openlocfilehash: e2a915eb017158698fb228a913541e11ee155dfe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e5a0997fd30447792640364978fea8edefdfe3ed
+ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893691"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31836849"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
@@ -33,7 +33,7 @@ ms.locfileid: "30893691"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>プラン</h3>
+                        <h3>計画</h3>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ ms.locfileid: "30893691"
         </a>
     </li>
     <li> 
-        <a href="https://go.microsoft.com/fwlink/?linkid=2005336">
+        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-business-server-2019">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

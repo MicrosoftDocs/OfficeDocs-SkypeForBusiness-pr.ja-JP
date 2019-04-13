@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 会議の移行サービス (MMS) は、バック グラウンドで実行され、ユーザーのビジネスおよびマイクロソフトのチームの会議に Skype が自動的に更新するサービスです。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
-ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
+description: 会議の移行サービス (MMS) は、バック グラウンドで実行され、ユーザーのビジネスおよびマイクロソフトのチームの会議に Skype が自動的に更新するサービスです。 MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
+ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
+ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28019578"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31836858"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>会議の移行サービス (MMS) を使用してください。
 
@@ -41,7 +41,7 @@ ms.locfileid: "28019578"
 既定では、MMS 自動的にトリガーのような場合、管理者が無効にする、テナントのレベルがされます。 さらに、管理者は、手動で特定のユーザーの会議の移行を開始するのに PowerShell コマンドレットを使用することができます。
 
 > [!NOTE]
-> チームの会議に会議の Skype を変換する機能と電話会議の設定を変更するのには既存のチーム ミーティングを更新する機能は、タップのお客様のみに制限されて。
+> チームの会議に会議の Skype を変換する機能と電話会議の設定を変更するのには既存のチーム ミーティングを更新する機能は、タップのお客様のみに制限されて。 マイクロソフトでは、月 2019年のいずれかの時点にこの機能をすべてのお客様に利用できるようにするのには期待しています。
 
 **制限**: 会議次のいずれかの場合、移行サービスを使用できません。
 
@@ -113,7 +113,7 @@ MMS では以下の場合では、ビジネスおよびマイクロソフトの�
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>TeamsUpgradePolicy を割り当てる場合は、会議を更新
 
 > [!NOTE]
-> だけがタップの顧客に利用できる現在の機能について説明します。
+> だけがタップの顧客に利用できる現在の機能について説明します。 マイクロソフトでは、月 2019年のいずれかの時点にこの機能をすべてのお客様に利用できるようにするのには期待しています。
 
 既定では、会議の移行は、自動的に起動のインスタンスがユーザーに付与されると`TeamsUpgradePolicy`と`mode=TeamsOnly`または`mode= SfBWithTeamsCollabAndMeetings`。 これらのモードのいずれかを付与する場合は、会議を移行し、指定しない場合は、`MigrateMeetingsToTeams $false`の`Grant-CsTeamsUpgradePolicy`。
 
@@ -209,8 +209,8 @@ MMS が組織で有効になっている、オーディオ会議の更新が有�
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [オンプレミスとクラウドの間でユーザーの移動](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
