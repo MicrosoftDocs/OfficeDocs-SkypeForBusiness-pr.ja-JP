@@ -26,7 +26,7 @@ ms.locfileid: "30458805"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-ボットは、検索要求に応答したり、ユーザーが興味のある情報や最新情報の更新や通知を提供する自動プログラムです。ボットによって、ユーザーは、Microsoft Teams のチャット会話を介して、タスク マネージメント、スケジューリング、ポーリングなどのクラウド サービスと情報交換する事ができます。Microsoft Teams のボットは [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370) に組み込まれています。このフレームワークにより作成されたボットは Microsoft Teams で簡単に有効にできます。詳細については「[Office 365 の組織で Microsoft Teams の機能を管理する](enable-features-office-365.md)」をご覧ください。
+ボットは、検索要求に応答したり、ユーザーが興味のある情報や最新情報の更新や通知を提供する自動プログラムです。ボットによって、ユーザーは、Microsoft Teams のチャット会話を介して、タスク マネージメント、スケジューリング、ポーリングなどのクラウド サービスと情報交換する事ができます。Microsoft Teams のボットは [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370) に組み込まれています。このフレームワークにより作成されたボットは Microsoft Teams で簡単に有効にできます。詳細については[Office 365 の組織で Microsoft Teams の機能を管理する](enable-features-office-365.md)をご覧ください。
 
 現在、Microsoft Teams は、チーム内のプライベート チャットとチャネルにおけるボットをサポートしています。管理者は、Office 365 テナント内でのボットの使用可否を管理できます。<span id="_T-Bot" class="anchor"></span>
 

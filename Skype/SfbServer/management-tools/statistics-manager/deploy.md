@@ -1,5 +1,5 @@
 ---
-title: Skype® for Business 2015 サーバーの統計情報マネージャーの展開
+title: Skype for Business Server の統計情報マネージャーの展開
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: '概要: このトピックでは、Skype® for Business 2015 サーバーの統計情報マネージャーを展開する方法について説明します。'
+description: '概要: このトピックでは、Skype for Business Server の統計情報マネージャーを展開する方法について説明します。'
 ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
 ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
@@ -18,16 +18,16 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/27/2019
 ms.locfileid: "30898259"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype® for Business 2015 サーバーの統計情報マネージャーの展開
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの展開
  
-**Summary:** このトピックでは、Skype® for Business 2015 サーバーの 統計情報マネージャーを展開する方法について説明します。
+**概要:** このトピックでは、Skype for Business Server の 統計情報マネージャーを展開する方法について説明します。
   
- Skype® for Business 2015 サーバーの統計情報マネージャーは、リアルタイムでビジネス サーバーの状態とパフォーマンス データを Skype で表示する事ができる強力なツールです。   数秒ごとに数百のサーバーのパフォーマンス データをポーリングでき、その結果をすぐに統計情報 マネージャーのウェブ サイト上に表示することができます。
+ Skype for Business Server 統計情報マネージャーは、リアルタイムでビジネス サーバーの状態とパフォーマンス データを Skype で表示する事ができる強力なツールです。   数秒ごとに数百のサーバーのパフォーマンス データをポーリングでき、その結果をすぐに統計情報 マネージャーのウェブ サイト上に表示することができます。
   
-統計情報マネージャーをインストールする前に、ソフトウェア、ネットワーク、ハードウェアの要件について理解しておいてください。 詳細については、[Skype® for Business 2015 サーバーの統計情報マネージャーの計画](plan.md)を参照ください。
+統計情報マネージャーをインストールする前に、ソフトウェア、ネットワーク、ハードウェアの要件について理解しておいてください。 詳細については、[Skype for Business Server の統計情報マネージャーの計画](plan.md)を参照ください。
   
 > [!NOTE]
-> 統計情報マネージャーを以前のバージョンからアップグレードする場合は、[Skype® for Business 2015 サーバーの統計情報マネージャーのアップグレード](upgrade.md)を参照してください。 
+> 統計情報マネージャーを以前のバージョンからアップグレードする場合は、[Skype for Business Server の統計情報マネージャーのアップグレード](upgrade.md)を参照してください。 
   
 > [!NOTE]
 > 統計情報マネージャーのウェブ サイトはテスト済みで Internet Explorer 11 以降、Edge 20.10240 以降、Chrome 46 以降 (現在広く使用されているバージョン) で正常に動作します。 
@@ -53,12 +53,12 @@ ms.locfileid: "30898259"
     
 3. Web サイトをホスト コンピューターにインストールします。
     
-4. 監視したい各 Skype® for Business 2015 サーバーにエージェントをインストールします。
+4. 監視したい各 Skype for Business Server にエージェントをインストールします。
     
 5. 監視しているサーバーのトポロジをインポートします。
     
 > [!NOTE]
-> Redis、リスナー サービス、Web サイトは同一のホスト コンピューターにインストールされる必要があります。 ホスト コンピューターに Skype® for Business 2015 サーバーがインストールされていないことを確認してください。 
+> Redis、リスナー サービス、Web サイトは同一のホスト コンピューターにインストールされる必要があります。 ホスト コンピューターに Skype for Business Server がインストールされていないことを確認してください。 
   
 ### <a name="prepare-the-listener-host-machine"></a>リスナーのホスト コンピューターの準備
 
@@ -124,7 +124,7 @@ StatsManPerfAgentListener.msi を実行し、以下を指定することによ�
     
 ### <a name="install-the-website"></a>Web サイトのインストール
 
-([Skype® for Business 2015 サーバー、リアルタイム 統計情報マネージャー (64-bit)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)に含まれる) StatsManWebSite.msi を実行し、ホスト コンピューターにウェブサイトをインストールし、以下の指定をします。
+([Skype for Business Server、リアルタイム 統計情報マネージャー (64-bit)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)に含まれる) StatsManWebSite.msi を実行し、ホスト コンピューターにウェブサイトをインストールし、以下の指定をします。
   
 1. 使用許諾契約書の内容を確認して、同意する場合は [**使用許諾契約書に同意します**] を選択して、[**次へ**] をクリックします。 
     
@@ -138,7 +138,7 @@ StatsManPerfAgentListener.msi を実行し、以下を指定することによ�
     
 3. **[インストール]** をクリックします。
     
-ウェブサイトを表示するには、ブラウザーを開いてhttp://localhostウェブ ポート\>/ に移動します。
+ウェブサイトを表示するには、ブラウザーを開いてhttp://localhost、ウェブ ポート\>/ に移動します。
   
 状態の情報のみを表示するには、ブラウザーを開いてhttp://localhost:\<webport\>/healthcheck/に移動します。
   
@@ -148,7 +148,7 @@ Web インストーラーは StatsManWebSiteUsers というローカル セキ�
   
 ### <a name="install-the-agents"></a>エージェントのインストール
 
-StatsManPerfAgent.msi を実行して以下を指定することによって、監視したい各 Skype® for Business 2015 サーバーにエージェントをインストールします。
+StatsManPerfAgent.msi を実行して以下を指定することによって、監視したい各 Skype for Business Server にエージェントをインストールします。
   
 1. 使用許諾契約書の内容を確認して、同意する場合は [**使用許諾契約書に同意します**] を選択して、[**次へ**] をクリックします。 
     
@@ -177,11 +177,11 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>トポロジのインポート
 <a name="BKMK_ImportTopology"> </a>
 
-統計情報マネージャーがインストールされ起動した後で、統計情報マネージャーが、各サーバーのサイト、プール、ロールを認識できるようにするため、Skype® for Business 2015 サーバートポロジをインポートする必要があります。 Skype® for Business 2015 サーバー トポロジをインポートするには、[Get-CsPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) コマンドレットを使用して、組織で使用中の各プールについての情報を検索し、その情報を統計情報マネージャーにインポートします。
+統計情報マネージャーがインストールされ起動した後で、統計情報マネージャーが、各サーバーのサイト、プール、ロールを認識できるようにするため、Skype for Business Server トポロジをインポートする必要があります。 Skype for Business Server トポロジをインポートするには、[Get-CsPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) コマンドレットを使用して、組織で使用中の各プールについての情報を検索し、その情報を統計情報マネージャーにインポートします。
   
-Skype® for Business 2015 サーバートポロジをインポートするには、以下の手順を実行します。
+Skype for Business Server トポロジをインポートするには、以下の手順を実行します。
   
-1. Skype® for Business 2015 サーバー PowerShell コマンドレットのあるホスト：
+1. Skype for Business Server PowerShell コマンドレットのあるホスト：
     
     a. 次のコマンドを実行します。 
     
@@ -218,7 +218,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
 .\Get-StatsManServerInfo.ps1
 ```
 
-Skype® for Business 2015 サーバー トポロジにないサーバー (例えば Exchange Server) を監視する場合には、リスナーを実行するホスト上で単一サーバーのインポートができます。 単一サーバーのインポートを実行するには、次の手順を実行します。
+Skype for Business Server トポロジにないサーバー (例えば Exchange Server) を監視する場合には、リスナーを実行するホスト上で単一サーバーのインポートができます。 単一サーバーのインポートを実行するには、次の手順を実行します。
   
 1. リスナーがインストールされているディレクトリに移動します。 既定値は次のとおりです。 
     
@@ -265,7 +265,7 @@ Skype® for Business 2015 サーバー トポロジにないサーバー (例え
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-アプリケーション イベント ログで確認できるすべてのイベントについての情報は、[Skype® for Business 2015 サーバーの統計情報マネージャーの トラブルシューティング ](troubleshoot.md)を参照してください。
+アプリケーション イベント ログで確認できるすべてのイベントについての情報は、[Skype for Business Server の統計情報マネージャーの トラブルシューティング ](troubleshoot.md)を参照してください。
   
 ## <a name="create-a-self-signed-certificate"></a>自己署名証明書の作成
 <a name="BKMK_SelfCert"> </a>
@@ -282,7 +282,7 @@ Microsoft は、必ず信頼済みの認証局によって署名された証明�
     
 3. **個人** に移動して、 **証明書**を開きます。
     
-4. **StatsManListener-\>を右クリックして、すべてのタスク-\>秘密キーの管理…** 
+4. **StatsManListener-\>を右クリックして、すべてのタスク-\>秘密キーの管理…** の順に選択します。
     
 5. [**追加**] をクリックします。
     
@@ -299,8 +299,8 @@ Microsoft は、必ず信頼済みの認証局によって署名された証明�
 
 詳細については、以下を参照してください。
   
-- [Skype® for Business 2015 サーバーの統計情報マネージャーの計画](plan.md)
+- [Skype for Business Server の統計情報マネージャーの計画](plan.md)
     
-- [Skype® for Business 2015 サーバーの統計情報マネージャーのアップグレード](upgrade.md)
+- [Skype for Business Server の統計情報マネージャーのアップグレード](upgrade.md)
     
-- [Skype® for Business 2015 サーバーの統計情報マネージャーのトラブルシューティング](troubleshoot.md) ß
+- [Skype for Business Server の統計情報マネージャーのトラブルシューティング](troubleshoot.md) ß
