@@ -108,7 +108,7 @@ ms.locfileid: "31026104"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Safari Web クライアント サポート  <br/> | Teams は Safari 11.1+ on macOS のプレビューで使用できます。 プレビュー中に、Safari の Intelligent Tracking Prevention に関連する問題[Safari の既知の問題](https://go.microsoft.com/fwlink/?linkid=2062082)が発生する場合があります。  <br/> | Safari ブラウザー サポートがプレビュー中に、**環境設定 > プライバシー** を選択してから **サイト越えトラッキングを防ぐ**  設定をオフにします。 ブラウザーを閉じ、Safari の teams.microsoft.com に戻ります。 <br/> |2016/11/02  <br/> |
+|Safari Web クライアント サポート  <br/> | Teams は Safari 11.1+ on macOS のプレビューで使用できます。 プレビュー中に、Safari の Intelligent Tracking Prevention に関連する問題 [Safari の既知の問題](https://go.microsoft.com/fwlink/?linkid=2062082)が発生する場合があります。  <br/> | Safari ブラウザー サポートがプレビュー中に、**環境設定 > プライバシー** を選択してから **サイト越えトラッキングを防ぐ**  設定をオフにします。 ブラウザーを閉じ、Safari の teams.microsoft.com に戻ります。 <br/> |2016/11/02  <br/> |
 
 
 ## <a name="channels"></a>チャネル
