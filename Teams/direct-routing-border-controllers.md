@@ -13,17 +13,17 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 appliesto: Microsoft Teams
-description: SBCs を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
+description: マイクロソフトは、選択した SBC ベンダーと提携して、SBC がダイレクト ルーティングと連携することを保証しています。
 ms.openlocfilehash: 142cda95c8bd45e3e52059863ad837927e144aa7
 ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/11/2019
 ms.locfileid: "31808047"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
-マイクロソフトと提携することを確認するための選択されているセッション ボーダー コント ローラー (SBC) ベンダー、SBCs の作業に直接ルーティングします。 
+マイクロソフトは、選択したセッション ボーダー コントローラー (SBC) ベンダーと提携して、SBC がダイレクト ルーティングと連携していることを保証しています。 
 
 各ベンダーと、マイクロソフトは次のことを行います。 
 
@@ -41,7 +41,7 @@ ms.locfileid: "31808047"
 [ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認証プログラムに関する質問がある場合は、drsbccertification@microsoft.com にメールでお問い合わせください。
 
 
-|                                                       ベンダー                                                        |       製品       | 非メディア バイパス | メディア バイパス | ソフトウェア バージョン |
+|                                                       仕入先                                                        |       Product       | 非メディア バイパス | メディア バイパス | ソフトウェア バージョン |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
@@ -56,14 +56,14 @@ ms.locfileid: "31808047"
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |
-|                                                                                                                     |    SBC のスウェーデン語のライト     |     &#10004;     |  &#10004;    |      v8.0.1    |
-|                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   保留中    |       V1.4       |
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |
+|                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  | 
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |                                             
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
-|                     [TE システム](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
 
-フィードバックを製品チームは、新機能のアイデアなどを参照してください[Uservoice](https://microsoftteams.uservoice.com)
+新機能のアイデアなど、Teams に関する製品フィードバックをお寄せになりたい場合は、[Uservoice](https://microsoftteams.uservoice.com) を参照してください。
