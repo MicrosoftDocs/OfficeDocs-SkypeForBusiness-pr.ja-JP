@@ -101,6 +101,7 @@
 #### [MSI を使用した Teams のインストール](msi-deployment.md)
 #### [組織で Teams を有効にする](Office-365-set-up.md)
 #### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
+#### [仮想デスクトップ インフラストラクチャ (VDI) 用の Teams](teams-for-vdi.md)
 #### [Surface Hub の Teams を展開する](teams-surface-hub.md)
 
 ### ライセンス
@@ -144,7 +145,7 @@
 ### [チュートリアル: Teams での電話会議](Tutorial-Audio-Conferencing.yml)
 ### [Office 365 での電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [電話会議の無料ダイヤル アウト期間](complimentary-dial-out-period.md)
-
+### [電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット](audio-conferencing-subscription-dial-out.md)
 
 ### [Microsoft Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)
 
@@ -547,7 +548,7 @@
 #### [組織用にコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)
 #### [資金を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
 
-### [Microsoft Teams オンライン通話のフロー](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams 通話のフロー](microsoft-teams-online-call-flows.md)
 
 ## 大規模組織の実践的なガイダンス
 ### [チュートリアル: Teams での通話](Tutorial-calling-in-teams.yml)
@@ -702,7 +703,7 @@
 
 ## トラブルシューティングとサポート
 ### [Teams の既知の問題](Known-issues.md)
-### [Teams のサポート リソース](support-resources.md)
+### [Teams のサポート リソース](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 ### [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
 ### [Teams のサービス正常性を確認する](service-health.md)
