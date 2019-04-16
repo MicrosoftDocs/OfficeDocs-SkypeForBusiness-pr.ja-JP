@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1491932206812f81843c784274ffc7ea4102ee0b
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.openlocfilehash: c351e0cefc5e4de4ff74a175af4dee064bf96f3f
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808071"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869831"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャのチーム
 
@@ -49,7 +49,7 @@ ms.locfileid: "31808071"
 
 呼び出すと、プライベート通話オプションを使用できるユーザーとグループのチャットをするかどうかは、コントロールに**CSTeamsCallingPolicy**コマンドレットを使用します。 ここでは、ポリシーの設定と推奨される値の一覧です。
 
-|ポリシー名  |Description |推奨値  |
+|ポリシー名  |説明 |推奨値  |
 |---------|---------|---------|
 |AllowCalling    |コントロールの相互運用機能を呼び出すことです。 Skype 通話を 1 対 1 のチームのユーザーと、その逆もビジネス ユーザーには、これをオンにできます。         |ビジネス ユーザーがチームでの着陸の Skype からの通話を禁止するのには、False に設定します。          |
 |AllowPrivateCalling     | 通話アプリはチームのクライアントの左側にあるバーで、アプリケーションで使用できるかどうかと、ユーザーが通話とビデオのプライベート チャットのオプションを呼び出すを参照してくださいかどうかを制御します。         |チームの左側にあるバーで、アプリケーションから呼び出すアプリケーションを削除するのには、プライベート チャットで通話とビデオ通話のオプションを削除するのには False に設定します。          |
@@ -95,7 +95,7 @@ ms.locfileid: "31808071"
 
 **CsTeamsMeetingPolicy**コマンドレットを使用して、ユーザーが作成した会議、会議中にアクセスできる機能、匿名ユーザーおよび外部ユーザーに利用可能な会議の機能の種類を制御します。 ここでは、ポリシーの設定と推奨される値の一覧です。
 
-|ポリシー名 |Description|推奨値                   |
+|ポリシー名 |説明|推奨値                   |
 |-------------------|-----------------|-----------------------|
 |AllowPrivateMeetingScheduling  | 秘密の会議をスケジュールするユーザーに許可するかどうかを決定します。| 秘密の会議をスケジュールすることからユーザーを禁止するのには False に設定します。  |
 |AllowChannelMeetingScheduling  | チャネルの会議をスケジュールするユーザーに許可するかどうかを決定します。 | チャネルの会議をスケジュールすることからユーザーを禁止する False に設定します。                       |
@@ -149,7 +149,7 @@ ms.locfileid: "31808071"
         AllowExternalParticipantGiveRequestControl  : False
         AllowSharedNotes                            : False
         AllowWhiteboard                             : False
-        AlowTranscription                           : False
+        AllowTranscription                          : False
         MediaBitRateKb                              : False
         ScreenSharingMode                           : False
 

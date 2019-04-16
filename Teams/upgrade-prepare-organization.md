@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76367a02920500a8e329ff5a2fa984f922d763ca
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4bfbc65edac21c39a7135588d420c3515344d45d
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465045"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869823"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -36,7 +36,7 @@ ms.locfileid: "30465045"
 チームから最大の価値を実現するには、ユーザーする必要があります実際に使用するが、それらの作業方法を変更するユーザーを取得できるとは限りません。 変更を容易にして、チームの導入を迅速化にかかる時間が、ユーザーを理解し、適切な対応計画を設計することができます。 技術への対応準備と並行して、これらのアクティビティを完了する必要があります。
 
 - [準備を変更する組織を評価する](https://aka.ms/OrgReadiness): これは、新しいテクノロジを使用しますか、ユーザー、および変更に合わせて簡単にする方法を理解することも含まれます。 これが、フォーカスのある契約時からメリットを享受する特定のユーザー プロファイルを識別することです。
-- [ユーザーの準備の計画を準備しています](https://aka.ms/UserReadinessPlan): 意識、トレーニング、およびサポート活動で構成される、準備計画は、広範なユーザー ベースの両方に対処する必要があり、[変更の準備を評価する](https://aka.ms/OrgReadiness)資料の参照として、プロファイルを対象とします。
+- [ユーザーの準備の計画を準備しています](https://aka.ms/UserReadinessPlan): 意識、トレーニング、およびサポート活動で構成される、準備計画する必要があります住所、広範なユーザー ベースと対象となるプロファイルは、[変更の準備を評価する](https://aka.ms/OrgReadiness)資料に記載します。
 
 > [!Tip]
 > テンプレート ユーザー準備資料、通信など、サンプル プロジェクトのアップグレードの計画とパイロット テスト計画の他のユーザーの調査の[成功のアップグレード キット](https://aka.ms/UpgradeSuccessKit)をダウンロードします。
