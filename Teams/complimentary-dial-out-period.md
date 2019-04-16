@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: お客様は、ビジネス オンライン PSTN サービス使用条件およびお客様のボリューム ライセンス契約は、Skype で許可されている Office 365 のプランを呼び出すと、Office 365 のオーディオ会議を使用することがあります。
-ms.openlocfilehash: 37e42cfe15e592822286936f6a0994cb9862d5b2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 4255df94166416a7743a1d9715b465164cdaf627
+ms.sourcegitcommit: 2731231f7e1cb518ce34c81bd00e619c3a1972e3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569642"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "31875022"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 
@@ -35,6 +35,10 @@ ms.locfileid: "30569642"
 
 お客様は、ビジネス オンライン PSTN サービス使用条件およびお客様のボリューム ライセンス契約は、Skype で許可されている Office 365 のプランを呼び出すと、Office 365 のオーディオ会議を使用することがあります。 PSTN サービスの使用条件は、[ライセンス条項やドキュメント](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)を参照してください。
   
+### <a name="end-of-complimentary-dial-out-period"></a>無料のダイアル アウト期間の終了
+
+開始 2019 年 12 月 1日無料のダイアル アウト機能が終了します。 詳細については、[オーディオ会議のサブスクリプションは、ダイヤルアウトし、福利厚生に電話](audio-conferencing-subscription-dial-out.md)を参照してください。 
+
 ### <a name="complimentary-dial-out-period-details"></a>期間の詳細を無料ダイヤル
 
 Office 365 のオーディオ会議サービスを導入するお客様は、マイクロソフトは 2019年 6 月を Office 365 のオーディオ会議サブスクリプション ライセンスを割り当てられたユーザーによって開催されるミーティングからダイヤルアウトに関連するその他の補完的利点を提供しています。 この無料期間中に Microsoft により、ミーティングの開催者または出席者が権限のある会議にダイアル アウトをかけるからミーティング内で、premium 以外の電話番号を以下に示す 44「ゾーン A」の国でのポリシー設定で定義されています。 この給付金は、オーディオ会議毎月のサブスクリプション ライセンスには適用し、オーディオ会議の 1 分あたりの支払のライセンスには適用されません。
