@@ -61,6 +61,7 @@
 ### [組織内での Teams の機能の管理](enable-features-office-365.md)
 ### [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 ### [Microsoft Teams 管理センターで Teams を管理する](manage-teams-in-modern-portal.md)
+### [無料版の Teams を管理する](manage-freemium.md)
 ### [Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 ### [別の組織の Teams ユーザーとの通信](let-your-teams-users-communicate-with-other-people.md)
@@ -325,6 +326,7 @@
 #### [自動応答および呼び出しキューの通話に Teams から直接応答する](answer-auto-attendant-and-call-queue-calls.md)
 ### [コール パークおよび取得](call-park-and-retrieve.md)
 ### [通話の共有およびグループ通話ピックアップ](call-sharing-and-group-call-pickup.md)
+### [通話ポリシー](teams-calling-policy.md)
 ### [回線共有機能](shared-line-appearance.md)
 
 ## [通話プラン](calling-plan-landing-page.md)
