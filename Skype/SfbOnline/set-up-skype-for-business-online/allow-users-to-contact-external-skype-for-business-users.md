@@ -27,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'ユーザーが別の組織内のユーザーに問い合わせるか、外にそれらの連絡先を使用できるようにするのにはビジネス用の Skype を構成する方法を参照してください。 '
-ms.openlocfilehash: 24cedb4a9fd612c3aa0c4886a9a35dd89b52fbe7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 352973816e07ce60cff650f43ac6fced7f81e3b1
+ms.sourcegitcommit: 1bb3bf4b16394aaa1fdf9bab8d766afe040b9aac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887595"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31907499"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
 
@@ -52,33 +52,35 @@ ms.locfileid: "30887595"
 
 これを行う 2 つの組織で Office 365 の[管理者のアクセス許可](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **チームの管理センターを使用して**
   
 1. Office 365 管理者アカウントでサインインします。 
     
-2. Office 365 管理センターでは、**管理センター**に移動 > **ビジネス用の Skype**です。
+2. Office 365 管理センターでは、**管理センター**に移動 > **チーム**です。
     
-    ![ビジネス管理センターの Skype を選択します。](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
+    ![チーム管理者を選択します。](../images/MS-Teams-Admin.png)
   
-3. **ビジネス管理センターの Skype**では、**組織**を選択します。 > **外部との連絡**。
-    
-4. 設定するには、特定のビジネスで、または、ドロップ ダウン ボックスで、別のドメイン内のユーザーとの通信**にのみ許可されるドメイン**を選択します。
+3. **チーム センター**では、 **Skype**を選択します>**レガシー ポータル** 
+ ![デバイスの従来のポータルを選択します。](../images/SFBlegacy-size65.png)
+ 
+4. **ビジネス管理センターの Skype**では、**組織**を選択します。 > **外部との連絡**。
+5. 設定するには、特定のビジネスで、または、ドロップ ダウン ボックスで、別のドメイン内のユーザーとの通信**にのみ許可されるドメイン**を選択します。
     
     ビジネス ポリシーでは、Skype の選択を開くには世界中の他のすべてとの通信を有効にするかどうか、または、**をブロックするドメインを除く**。 これは既定の設定です。
     
-5. [**ブロックまたは許可するドメイン**] を選択して**+** を許可するドメインの名前を追加します。
+6. [**ブロックまたは許可するドメイン**] を選択して**+** を許可するドメインの名前を追加します。
     
-6. その他の組織の管理者には、**ビジネス管理センターの Skype**では、次の同じ手順を確認します。 などの**ドメインを許可する**ボックスの一覧で、管理者が自社のドメインを入力する必要があります。
+7. その他の組織の管理者には、**ビジネス管理センターの Skype**では、次の同じ手順を確認します。 などの**ドメインを許可する**ボックスの一覧で、管理者が自社のドメインを入力する必要があります。
     
-7. Windows ファイアウォールを使用している場合は、Skype のビジネスに必要なポートが自動的に開きます。
+8. Windows ファイアウォールを使用している場合は、Skype のビジネスに必要なポートが自動的に開きます。
     
     組織がインターネットへの接続をネットワーク上のコンピューターを制限する別のファイアウォール ソリューションを使用している場合は、クライアント コンピューターは、次の[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)にアクセスすることを確認します。 インフラストラクチャの構成、ファイアウォールやプロキシのリストを許可する、送信する Fqdn を追加することがあります:**\*です。 api.skype.com**、 \***です。 users.storage.live.com**、と**graph.skype.com**。 お使いのファイアウォールでポートを開く方法の詳細については、それに付属のマニュアルを確認してください。
     
     すべてのポートを開く必要のリストは、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)を参照してください。
 
-8. 管理者は、組織では、次の手順の後にもことを確認します。
+9. 管理者は、組織では、次の手順の後にもことを確認します。
     
-9. **テストするのには最大で 24 時間を待機**します。 外部通信の設定を変更するすべてのデータ センター間で設定を変更するには、最大 24 時間かかります。
+10. **テストするのには最大で 24 時間を待機**します。 外部通信の設定を変更するすべてのデータ センター間で設定を変更するには、最大 24 時間かかります。
     
 ![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Skype、無料のコンシューマー アプリケーションを使用して他のユーザーと IM を検索して、ユーザーを許可します。 詳細については、[ビジネス ユーザー向けの Skype は、Skype 連絡先を追加する](let-skype-for-business-users-add-skype-contacts.md)を参照してください。
   
@@ -146,7 +148,7 @@ ms.locfileid: "30887595"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 <a name="bk_preview"> </a>
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)

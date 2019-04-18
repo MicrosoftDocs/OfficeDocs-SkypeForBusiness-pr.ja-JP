@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 電話システム呼び出しキューを使用すれば、組織、保留中の音楽の挨拶と配布リストおよびセキュリティ グループ内のエージェントを呼び出しへの呼び出しをリダイレクトするための電話システムを設定する方法について説明します。 You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 1260f74deecefd93dcb9e8d99c4ea5063918a720
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: クラウド呼び出しキューをする、組織、保留中の音楽の挨拶と配布リストおよびセキュリティ グループ内のエージェントを呼び出しへの呼び出しをリダイレクトするための電話システムを設定する方法について説明します。 You can also set the maximum queue size, time out, and call handling options.
+ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808063"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914645"
 ---
-# <a name="create-a-phone-system-call-queue"></a>電話システムの呼び出しキューを作成する
+# <a name="create-a-cloud-call-queue"></a>クラウド呼び出しキューを作成します。
 
-Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+クラウド呼び出しキューには、自動的に保留中の呼び出しを配置することなどを検索する機能の呼び出しとなっている人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントのための電話番号への呼び出し際に使用するあいさつ文が含まれます保留中の音楽を聴きます。 組織の 1 つまたは複数の呼び出しキューを作成します。
   
-電話システムの通話キューは次の機能を提供します:
+クラウド呼び出しキューを提供します。
   
 - 組織の応答メッセージ。
 - 通話の保留中に再生される保留音。
@@ -76,12 +76,12 @@ Phone System call queues include greetings that are used when someone calls in t
   
 - Office 365 のプランを呼び出す方法の詳細については、[電話システムを呼び出すことを計画](calling-plan-landing-page.md)し、 [Office 365 のプランを呼び出す](calling-plans-for-office-365.md)を参照してください。
 
-- 有料電話番号と**マイクロソフトのチーム管理センター**でまたは別のサービス プロバイダーからの呼び出しの電話システムのキューに転送する電話番号をフリー ダイヤル サービスをのみ割り当てることができます。 取得し、サービスのフリー ダイヤル番号を使用して、通信のクレジットを設定する必要があります。
+- 有料電話番号と**マイクロソフトのチーム管理センター**でまたは別のサービス プロバイダーからクラウド呼び出しキューに転送するフリー ダイヤル サービスの電話番号をのみ割り当てることができます。 取得し、サービスのフリー ダイヤル番号を使用して、通信のクレジットを設定する必要があります。
 
     > [!NOTE]
     > ユーザー (購読者) の電話番号を通話キューに割り当てることはできません。サービスの有料電話番号または無料電話番号のみを使用できます。
   
-- 電話システム呼び出しキューからの着信呼び出しを配布するときは、コール エージェントのこれらのクライアントがサポートされます。
+- クラウド呼び出しキューからの着信呼び出しを配布するときは、コール エージェントのこれらのクライアントがサポートされます。
 
   - Skype for Business デスクトップ クライアント 2016 (32 および 64 ビット バージョン)
 

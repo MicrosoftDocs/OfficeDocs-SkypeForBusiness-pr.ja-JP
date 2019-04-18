@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: マイクロソフトのチームで休日を設定し、自動応答に接続する方法を説明します。
-ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517120"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914579"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams で休日を設定する
 
@@ -33,7 +33,7 @@ ms.locfileid: "31517120"
 
 良い例は、作業には多数の従業員とのクリスマスの休日を作成しています。 休日を作成し、主に休日を追加すると、時間を設定した後の自動作成したオーディオのメッセージを聞くで人を呼び出す、ときに、応答します。 以下のような"私たちにクローズされた、クリスマス 12 月 27日から 12 月 22日から。 ください私たちボイス メッセージを残すため、オフィスにいるとき、呼び出しを返すことができます私たち。」
 
-自動アテンダントの詳細については、[自動応答の電話システムは何ですか](what-are-phone-system-auto-attendants.md)を参照してください。  
+自動アテンダントの詳細については、[自動応答をクラウドと](what-are-phone-system-auto-attendants.md)を参照してくださいでしょうか。  
 
 ## <a name="create-a-holiday"></a>休日を作成します。
 
@@ -88,4 +88,4 @@ ms.locfileid: "31517120"
 
 ## <a name="related-topics"></a>関連トピック
 
-[自動応答の電話システムは何ですか](what-are-phone-system-auto-attendants.md)?
+[クラウドの自動応答は何ですか](what-are-phone-system-auto-attendants.md)?

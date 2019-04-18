@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa224306f3d42d4746f8e8f2276b44208fc568bd
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 885872b62d15091faf8b14609aed69b274c1ae74
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520217"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914587"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>マイクロソフト チームの変化に、マイクロソフトの StaffHub チームを移動します。
 
@@ -68,7 +68,7 @@ Microsoft 365 の管理センターでのチームのライセンスを管理し
 
 - StaffHub チームの準備ではないアカウントを削除し、アカウントを追加、[削除 StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps)コマンドレットは、UPN を使用してバックアップし、管理者は、[追加 StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps)を実行できます。
 
-### <a name="install-the-staffhub-powershell-module"></a>StaffHub PowerShell モジュールをインストールします。
+### <a name="install-the-staffhub-powershell-module"></a>StaffHub PowerShell モジュールをインストールする
 
 いない場合は、 [StaffHub の PowerShell モジュールをインストール](install-the-staffhub-powershell-module.md)します。
 
@@ -101,29 +101,37 @@ StaffHub チームを移動すると、移動要求は、常に前提条件を�
 StaffHub チームを移動するのには、次を実行します。
 
 ```
-Move-StaffHubTeam -Identity <String>
+Move-StaffHubTeam -TeamId <String>
+
+Sample:
+
+Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
 ここでは、StaffHub チームをチームに移動する要求を送信するときのような応答の例です。
 
 ```
-    jobId   teamId                                      teamAlreadyInMicrosofteams  
-    -----   ------                                      ------------          
-        1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
+    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+    ---------------------------------------    ----------------------------------------    ---------------------------          
+    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
 ```
 
 移動要求のステータスを確認するには、次の手順を実行します。
 
 ```
-Get-TeamMigrationJobStatus <Int32>
+Get-TeamMigrationJobStatus <String>
+
+Sample:
+Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
+
 ```
 
 ここでは、移動の実行中のときのような応答の例です。
 
 ```
-    jobId   status       teamId                                     isO365GroupCreated  Error
-    -----   ------       ------                                     ------------------  -----    
-        1   InProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  True                None
+    jobId                                     status       teamId                                     isO365GroupCreated  Error
+    ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
+    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
 ## <a name="make-the-transition-from-staffhub-to-teams"></a>チームに StaffHub からの移行を行う
@@ -141,44 +149,56 @@ StaffHub チームを一括で移動するのには次の手順を使用しま�
 組織のすべての StaffHub チームの一覧を取得するのには、次を実行します。
 
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant
+$StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
 次に、すべてのチームを移動するのには、次を実行します。
 
 ```
-$StaffHubTeams | foreach {Move-StaffHubTeam -Identity {$_.Id}}
+$StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
 ```
 
 ここでは、応答の例です。
 
+既にチームに移動するか、チーム内に既に存在するすべてのチームのジョブ Id は null になります""ジョブは、そのチームの移動に提出する必要があるようです。
+
 ```
-    jobId   teamId                                      teamAlreadyInMicrosofteams  
-    -----   ------                                      ------------          
-        1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
-        2   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   False
+    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+    ----------------------------------------   -----------------------------------------   --------------------------         
+    null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
+    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
 #### <a name="move-specific-staffhub-teams-coming-soon"></a>(準備中) 特定の StaffHub チームを移動します。
 
-組織のすべての StaffHub チームの一覧を取得するのには、次を実行します。
+組織内のすべての StaffHub チームの Id の一覧を取得するのには、次を実行します。
 
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant
+Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-コンマ区切り値 (CSV) ファイルを作成し、移動しチームの Id を追加します。
-ここで例を示します。
+によって返される結果に、`Get-StaffHubteamsForTenant`コマンドレットを実行する前、移動するには、チーム Id」を選択し、コンマ区切り値 (CSV) ファイルに追加します。
+
+ここでは、CSV ファイルの書式設定方法の例です。
 
 |Id  |
 |---------|
 |TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2-0 fc 9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2-0 fc 9-408b-85ff-c14a26700000|
 
-CSV ファイルで指定したチームを移動するのには、次を実行します。
+CSV ファイルを作成した後は、CSV ファイルで指定したチームを移動するのには、次を実行します。
 
 ```
-Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -Identity {$_.Id}}
+Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
 ```
+### <a name="confirm-that-your-staffhub-teams-have-moved-to-teams-coming-soon"></a>(準備中) チーム、StaffHub チームに移動することを確認します。
+
+シフトで、組織のすべてのチームの一覧を取得するのには、次を実行します。 
+
+```
+Get-StaffHubTeamsForTenant -ManagedBy "Teams"
+```
+
+#### 
 
 ## <a name="monitor-teams-usage"></a>チームの使用率を監視します。
 
@@ -186,5 +206,5 @@ Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -Identity {$_.Id}}
 
 ## <a name="related-topics"></a>関連トピック
 - [Microsoft StaffHub はまもなく廃止予定です](microsoft-staffhub-to-be-retired.md)
-- [Microsoft Teams で組織のShifts アプリを管理する](manage-the-shifts-app-for-your-organization-in-teams.md)
+- [Microsoft Teams で組織のシフト アプリを管理する](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [StaffHub PowerShell 参照](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)

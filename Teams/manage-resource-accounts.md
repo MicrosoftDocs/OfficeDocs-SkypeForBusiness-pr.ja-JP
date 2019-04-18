@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: マイクロソフトのチーム内のリソース アカウントの管理についてください。
-ms.openlocfilehash: 3e3dbfb43498041296cb9cfb79341a3f40f2eda0
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.openlocfilehash: e8d3da4938a5040972b3c4853434808ca7457c90
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808055"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914595"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -127,13 +127,13 @@ Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 
 チームまたは Skype のオンライン ビジネスの実装では。
 
-[電話システムの自動応答とは](what-are-phone-system-auto-attendants.md)
+[自動応答をクラウドとは?](what-are-phone-system-auto-attendants.md)
 
-[電話システムの自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[クラウドの自動応答を設定します](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [小規模ビジネスの例: 自動応答をセットアップする](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[電話システムの呼び出しキューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[クラウド呼び出しキューを作成します。](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [新しい-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

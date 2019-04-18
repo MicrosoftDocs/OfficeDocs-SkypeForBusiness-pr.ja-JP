@@ -15,12 +15,12 @@ search.appverid: MET150
 description: チームでクラウドの音声を展開するためのランディング ・ ページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: 47c534eba93c6f5af21a75fa20b5015fac00c674
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948378"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914613"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft Teams での Cloud Voice
 
@@ -127,20 +127,20 @@ Office 365 の電話システムの機能で、ダイヤル プランは、承�
 
 ### <a name="call-queues"></a>通話キュー
 
-電話システム キューには、保留中の呼び出しを自動的に配置する機能などを検索する人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントの機能の電話番号への呼び出し際に使用するあいさつ文が含まれています。呼び出しが保留中の音楽をリッスンしています。 組織の 1 つまたは複数の呼び出しキューを作成します。 
+クラウド呼び出しキューには、自動的に保留中の呼び出しを配置することなどを検索する機能の呼び出しとなっている人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントのための電話番号への呼び出し際に使用するあいさつ文が含まれます保留中の音楽を聴きます。 組織の 1 つまたは複数の呼び出しキューを作成します。 
 
 
 |確認事項|アクション |
 |:------------|:-------|
-| 自分の所属組織はキューを呼び出して必要がありますでしょうか。 | 詳細については、[電話システムの呼び出しキューを作成](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)し[、電話システムの設定](setting-up-your-phone-system.md)を参照してください。 |
+| 自分の所属組織はキューを呼び出して必要がありますでしょうか。 | 詳細については、[クラウドの呼び出しキューを作成](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)し[、電話システムの設定](setting-up-your-phone-system.md)を参照してください。 |
 
 ### <a name="auto-attendants"></a>自動応答
 
-電話システムの自動応答を使用して、内部および外部の呼び出し元では、組織のメニュー システムを作成することは、メニューを探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送するシステムを移動します。
+外部では、組織のメニュー システムを作成するのにはクラウドの自動応答を使用することができ、内部の呼び出し元を探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送する] メニューの [システムを通過します。
 
 |確認事項|アクション |
 |:------------|:-------|
-| 自分の所属組織は自動応答を必要ですか。 | 詳細については、[自動応答の電話システムとは](what-are-phone-system-auto-attendants.md)[電話システムの自動応答の設定](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を参照してください。 |
+| 自分の所属組織は自動応答を必要ですか。 | 詳細については、[自動応答をクラウド](what-are-phone-system-auto-attendants.md)とは[クラウドの自動応答の設定](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を参照してください。 |
 
 ### <a name="devices"></a>デバイス
 

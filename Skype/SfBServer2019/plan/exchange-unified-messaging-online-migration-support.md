@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: マイクロソフトは 2020年 2 月によって Exchange ユニファイド メッセージング オンライン (ExchUMO) サービスを撤去します。 この資料がどのような影響を受けるをまとめたものお客様が知っているし、ビジネス継続性の計画を行う必要があります。
-ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
-ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
+ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31740934"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914678"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート  
 
@@ -66,7 +66,7 @@ Exchange ユニファイド メッセージング オンライン サービス�
 
 3. **自動応答移行を計画します。**
     
-    管理者からへの移行、自動アテンダント ExchUMO クラウドの自動応答はいつでも開始できます。 詳細については、[電話システムの自動応答の設定](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)を参照してください。 マイクロソフトは、お客様は、2019年 3 月によって、移行のための重要な検討する追加の自動応答機能を提供する予定です。 管理者は、機能セットを評価し、それに応じて、自動応答のインスタンスを移行する必要があります。 フィーチャー リストの比較は、 [ExchUMO と Azure クラウド ベースのサービスの機能のマトリックス](#exchumo-and-azure-cloud-based-services-feature-matrix)を参照してください。
+    管理者からへの移行、自動アテンダント ExchUMO クラウドの自動応答はいつでも開始できます。 詳細については、[クラウドの自動応答の設定](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)を参照してください。 マイクロソフトは、お客様は、2019年 3 月によって、移行のための重要な検討する追加の自動応答機能を提供する予定です。 管理者は、機能セットを評価し、それに応じて、自動応答のインスタンスを移行する必要があります。 フィーチャー リストの比較は、 [ExchUMO と Azure クラウド ベースのサービスの機能のマトリックス](#exchumo-and-azure-cloud-based-services-feature-matrix)を参照してください。
 
 4. **ボイスメール、移行後の検証のための計画し、テスト**
 
@@ -197,4 +197,4 @@ Exchange ユニファイド メッセージング オンライン サービス�
 
 #### <a name="admin-auto-attendant-management-experience"></a>管理自動応答管理経験 
 
-構成と自動応答の管理に関する詳細については、[電話システムの自動応答の設定](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)を参照してください。 
+構成と自動応答の管理に関する詳細については、[クラウドの自動応答の設定](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)を参照してください。 

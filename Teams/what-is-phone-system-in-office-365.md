@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '電話システムで何ができる場合について説明します。 '
-ms.openlocfilehash: 41694fcc91ccb1d7bdf4df38c39a6554851d2a8f
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: a4ac90d24863ecaf56ca471d412474bf81653a50
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934781"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914621"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは
 
@@ -65,15 +65,15 @@ Office 365 の通話プランを使用すると、検索、取得、およびユ
 
 ## <a name="phone-system-with-services"></a>電話システム サービス
  Aso に使えるサービスとボイスメール システムの電話します。
-- **自動応答** Office 365 の自動応答を使用して、内部および外部の呼び出し元では、組織のメニュー システムを作成することで、電話システムは、メニューを探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送するシステムを移動します。 参照してください[電話システムの自動応答は何ですか?](what-are-phone-system-auto-attendants.md)
+- **自動応答** Office 365 の自動応答を使用して、内部および外部の呼び出し元では、組織のメニュー システムを作成することで、電話システムは、メニューを探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送するシステムを移動します。 参照してください[雲の自動応答は何ですか?](what-are-phone-system-auto-attendants.md)
 
-- **キューを呼び出す** 電話システムでは、組織の電話番号への呼び出し使用される呼び出しキューのあいさつ文を作成できます。これには、保留中の呼び出しを自動的に配置する機能、および呼び出しが保留中の音楽をリッスンしている人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントを検索する機能が含まれます。 組織の 1 つまたは複数の呼び出しキューを作成します。 [電話システム呼び出しキューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)を参照してください。
+- **キューを呼び出す** 電話システムでは、組織の電話番号への呼び出し使用される呼び出しキューのあいさつ文を作成できます。これには、保留中の呼び出しを自動的に配置する機能、および呼び出しが保留中の音楽をリッスンしている人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントを検索する機能が含まれます。 組織の 1 つまたは複数の呼び出しキューを作成します。 [クラウド呼び出しキューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)を参照してください。
 
 - **ボイスメール**ユーザーの電話システムのライセンスを取得する場合、そのユーザーは呼び出し元が残っているボイスメールを取得することになります。 クラウドのボイスメールを自動的に設定と電話番号の電話システムのライセンスを割り当てるには、ユーザーの準備します。 [クラウドのボイス メールの設定](set-up-phone-system-voicemail.md)を参照してください。
 
 開始する準備ができた場合は、[組織内の電話システムの設定](setting-up-your-phone-system.md)を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 - [Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
