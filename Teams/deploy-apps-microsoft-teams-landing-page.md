@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e182732647b79f5a3a2ae48940ce3423b157c61f
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993533"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams のアプリ、ボット、およびコネクタ
 
@@ -76,7 +76,7 @@ Teams には、Microsoft とサード パーティが公開する複数のアプ
 
 ### <a name="office-365-and-custom-connectors"></a>Office 365 コネクタとカスタム コネクタ
 
-コネクタにより、頻繁に使用するサービスからコンテンツと更新内容がチャネルに直接配信されるため、チームは最新の状態に保たれます。 コネクタを使用すると、Teams のユーザーは大手のサービス (Twitter、Trello、Wunderlist、GitHub、Visual Studio Team Services (VSTS) など) からの更新内容を Teams のチャットで受信できます。
+コネクタにより、頻繁に使用するサービスからコンテンツと更新内容がチャネルに直接配信されるため、チームは最新の状態に保たれます。 コネクタを使用すると、Teams ユーザーはTwitter、Trello、Wunderlist、GitHub、Azure DevOps ServicesなどのポピュラーなサービスからTeams チャットで最新情報を受け取ることができます。
 
 | 確認事項 | アクション |
 |--------------|--------|
