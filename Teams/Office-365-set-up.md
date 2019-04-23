@@ -1,5 +1,5 @@
 ---
-title: Office 365 の組織で、マイクロソフトのチームを有効に
+title: Office 365 の組織で Microsoft Teams を有効にする
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1bf865f9efd7960e7c0df10859d6c821130990b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460925"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959149"
 ---
 # <a name="enable-teams-in-your-organization"></a>組織内のチームを有効にします。
 
@@ -32,7 +32,7 @@ ms.locfileid: "30460925"
 既定では、Teams はすべての組織でオンになります。 プレビュー期間において Teams を使用した場合、Teams プレビューの間に設定したものと同じ設定がそのまま維持されます。 
 
 
-組織の管理者は、チームは、個々 のアクセス権を制御するためのユーザー ライセンスを割り当てることができを許可またはブロックのチームでどのようなコンテンツ ソースを使用することができます。 詳細については、 [Office 365 の組織での Microsoft チームの管理機能](enable-features-office-365.md)または[マイクロソフトのチームでのアプリケーションの管理者の設定](admin-settings.md)を参照してください。 
+組織の管理者は、チームは、個々 のアクセス権を制御するためのユーザー ライセンスを割り当てることができを許可またはブロックのチームでどのようなコンテンツ ソースを使用することができます。 詳細については[、組織の Microsoft チームの管理の設定](enable-features-office-365.md)または[マイクロソフトのチームでのアプリケーションの管理者の設定](admin-settings.md)を参照してください。 
 
 
  

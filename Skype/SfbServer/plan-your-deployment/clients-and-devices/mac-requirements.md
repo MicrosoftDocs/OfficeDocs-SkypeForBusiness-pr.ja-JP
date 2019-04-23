@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: ハードウェア、ソフトウェア、およびビジネス用の Skype を実行して、mac 上のインフラストラクチャの要件の詳細については、このトピックを読む
-ms.openlocfilehash: 694f64933f4618b5c2157f7a35acdf9339d52919
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bd8522684131d1119ce91c100a2aeeeec4797a70
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993558"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Mac クライアントの要件にビジネス用の Skype
  
@@ -27,7 +27,7 @@ ms.locfileid: "23965628"
   
 [Mac クライアントのビジネス用の Skype](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac)は、ダウンロード可能です。
   
-## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a>Mac での Skype for Business のハードウェア要件およびソフトウェア要件
+## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac でのビジネス用の Skype のハードウェアおよびソフトウェアの要件
 
 Mac クライアントのビジネスの Skype では、Mac OS X 許可されて、それ以上を必要とし、少なくとも 100 MB のディスク領域を使用します。 すべての内蔵オーディオ デバイスおよび内蔵ビデオ デバイスの使用をサポートしています。 外付けデバイスは、 [Skype](https://partnersolutions.skypeforbusiness.com/solutionscatalog)でなければなりません。 
   
@@ -44,7 +44,7 @@ Mac クライアントのビジネスの Skype では、Mac OS X 許可されて
  
 ビジネス サーバー 2019 の Skype によって、これらのクライアントがサポートされていません。
    
-## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a>Mac 上の Skype for Business インフラストラクチャー要件
+## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Skype Mac でのビジネスのためのインフラストラクチャ要件
 <a name="Infrastructure"> </a>
 
 Mac クライアントのビジネス用の Skype は、ユニファイド コミュニケーション Web API (UCWA)、モビリティ クライアントを使用するだけでなく、ユニファイド コミュニケーション管理プラットフォーム (UCMP) を活用します。
@@ -74,7 +74,7 @@ HTTP 証明書失効リストが定義済みで、クライアントがアクセ
     
 詳細についてを参照してください: [Lync Server 2013 でのモビリティの展開](https://go.microsoft.com/fwlink/p/?LinkId=798224)、および[Microsoft Lync Server 2010 モビリティのガイド](https://go.microsoft.com/fwlink//p/?LinkId=798226)です。
   
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="Infrastructure"> </a>
 
 [Skype のビジネス サーバー用の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)

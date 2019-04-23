@@ -1,6 +1,6 @@
 ---
-title: クラウド ビデオ マイクロソフト チームの相互運用機能を設定します。
-author: lolaj
+title: Microsoft Teams のクラウド ビデオ相互運用性の設定
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b51bcd5cd5813c317c79a5f89656e11423d91412
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b171b3fb5e73561ea5aea54e6e4f25bfabe6b0dc
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993622"
 ---
-# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>クラウド ビデオ マイクロソフト チームの相互運用機能を設定します。
+# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性の設定
 
 [ビデオの相互運用機能をクラウド取引先を選択](cloud-video-interop.md)したら、導入、プロビジョニングの詳細とパートナーのテナントのキーと、組織内のビデオの相互運用アプリケーションに同意の取得の設定を計画する必要があります。 プロセスの概要を次の図に示します。 
 

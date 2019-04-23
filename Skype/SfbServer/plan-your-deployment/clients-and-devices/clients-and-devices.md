@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'ビジネス用の Skype のサポートされているクライアントとアプリケーションの概要: レビューします。'
-ms.openlocfilehash: 56d397d1cdab0f63c856934c4ff66c834b0b8137
-ms.sourcegitcommit: c355738d09c2697834373e27ffa1a010457ed583
+ms.openlocfilehash: 4d8230969a7fa5383f72d504e426638d09ee998b
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993385"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントおよびデバイスの計画
 
@@ -48,8 +48,6 @@ Skype ビジネス サーバーは、クライアント、クライアントの�
 
 ビジネス 2015年の Skype は、Skype のビジネス サーバー 2015 または 2019 のフル機能を備えたクライアントです。 ビジネス ユーザー ・ インタ フェースの Skype は完全に再設計し、呼び出しの監視、Skype ディレクトリの統合、絵文字などなど、新たに統合された機能が含まれます。 変更の概要を参照してください[Lync が、Skype のビジネス-新機能を参照してください](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612)。 クライアント機能のサポートの詳細については、 [Skype ビジネス用のデスクトップ クライアントの機能の比較](desktop-feature-comparison.md)および[ビジネスの Skype のヘルプ](https://support.office.com/en-US/Skype-for-business)では、ユーザー マニュアルです。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
 
-より少ない機能をサポートする無料の Basic クライアントも利用できます。 両方のバージョンは、[すべてのデバイスでのビジネス用の Skype のダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)からダウンロードできます。 クライアントのフル ・ バックアップと基本の違いについては、[基本的なクライアントの制限](desktop-feature-comparison.md#Full-Basic)] セクションで説明します。
-
 ### <a name="skype-for-business-on-mac"></a>Mac でのビジネス用の Skype
 
 [Mac でのビジネス用の Skype](https://www.microsoft.com/en-us/download/details.aspx?id=54108)クライアントは、ダウンロードできます。 前提条件を確認するのには[Mac クライアントの要件にビジネス用の Skype](mac-requirements.md)を参照してください。
@@ -67,7 +65,7 @@ Skype ビジネス サーバーは、クライアント、クライアントの�
 
 ### <a name="skype-for-business-web-app-and-skype-meetings-app"></a>Skype ビジネス Web アプリケーションおよび Skype 会議アプリケーション
 
-ユーザーのコンピューターにビジネス用の Skype がインストールされていないと、ユーザーが会議出席依頼に会議のリンクをクリックすると、Skype の会議アプリケーションやビジネスの Web アプリケーションの Skype をインストールするを開きます.  Skype 会議アプリケーションは、組織の外部の参加者に最適なクライアントです。 これらのクライアントを使用するための要件の[計画会議クライアント (Web アプリケーションおよび会議アプリケーション)](meetings-clients.md)を参照してください。
+ユーザーのコンピューターにビジネス用の Skype がインストールされていないと、ユーザーが Windows コンピューターで会議出席依頼に会議のリンクをクリックすると、Skype の会議アプリケーションやビジネスの Web アプリケーションの Skype をインストールするを開きます.  Skype 会議アプリケーションは、組織の外部の参加者に最適なクライアントです。 なお、Mac では、Mac でのビジネス用の Skype がインストールされ、開きます。これらのクライアントを使用するための要件の[計画会議クライアント (Web アプリケーションおよび会議アプリケーション)](meetings-clients.md)を参照してください。
 
 
 ### <a name="skype-for-business-web-scheduler"></a>ビジネス Web スケジューラの Skype
@@ -78,7 +76,7 @@ Web ベース[ビジネス Web スケジューラの Skype](https://sched.lync.c
 
 仮想デスクトップ インフラストラクチャ (VDI) 環境は、非常に高度なセキュリティとコンプライアンスが求められる組織で使用します。 ビジネスの Skype を使用すると、完全にオーディオとビデオ接続ではそのような必要がありますオーディオの負荷が高いと、仮想デスクトップ クライアントで処理するビデオが置かれています。 VDI の追加のプラグイン ソフトウェアが利用可能なをエンド ・ ユーザーのローカル マシンには、その処理の負荷を軽減し、仮想デスクトップ上の負荷を軽減します。 これらのプラグインの使用の詳細については、「[Plan for Skype for Business in VDI environments](vdi-environments.md)」を参照してください。
 
-### <a name="microsoft-teams-rooms"></a>マイクロソフトのチーム会議室
+### <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
 マイクロソフト チームの会議室は、使い慣れたインターフェイスを使用し、容易に導入するマイクロソフトの最新の会議ソリューションと、インストールの容易さのための LCD パネルのように管理するには、既存の機器を活用することです。 マイクロソフト チームの会議室、特化した UWP でアプリケーションを実行、Surface Pro 4 または Surface Pro のコンソール モードでの使用 (UWP のアプリケーションを展開した後は、デバイス上で実行される唯一のアプリケーション) で、独自の実装にデバイスのアカウントを必要とします。 Windows ストアと Windows の更新プログラムの両方を使用してソフトウェアを更新します。 参照してくださいhttps://aka.ms/MTRDocsについては、環境でこれらの部屋のコンソールを使用します。 
 

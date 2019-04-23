@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: マイクロソフトのチーム内のリソース アカウントの管理についてください。
-ms.openlocfilehash: e8d3da4938a5040972b3c4853434808ca7457c90
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914595"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959506"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -65,51 +65,65 @@ ms.locfileid: "31914595"
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>マイクロソフトのチーム管理センターのリソース アカウントを作成します。
 
-マイクロソフトのチーム管理センターのリソース アカウントを作成するには、**組織全体の設定**に移動 > **リソース アカウント**を [ **+ 追加**] をクリックします。 、ポップアップで表示名を入力し、(ドメイン名を自動的に設定する必要があります)、リソース アカウントのユーザー名、[**保存**] をクリックします。
+マイクロソフトのチーム管理センターでは、**組織全体の設定**に移動 > **リソースのアカウント**です。 
+
+![asd](media/r-a-master.png)
+
+![番号 1](media/sfbcallout1.png)
+
+新しいリソースを作成するには、アカウント**と新しいアカウント**をクリックします。 、ポップアップで表示名を入力し、(ドメイン名を自動的に設定する必要があります)、リソース アカウントのユーザー名、[**保存**] をクリックします。
 
 ![リソース アカウント](media/res-acct.png)
 
-必要、リソース アカウントにライセンスを適用する[ビジネス向けの Office 365 のユーザーにライセンスを割り当てる](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)で説明するよう
+次に、する必要があります、リソース アカウントにライセンスを適用する[ビジネス向けの Office 365 のユーザーにライセンスを割り当てる](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)で説明するよう
 
-リソース アカウントを作成し、ライセンスが割り当てられているまで、**割り当て/割り当て解除**または自動アテンダントまたは呼び出しキューにリソース アカウントを割り当てるには、リソース アカウントに電話番号を割り当てるにをクリックします。
+![番号の 3](media/sfbcallout3.png)リソース アカウントを作成したら、ライセンスが割り当てられているをクリックすると、リソース アカウントに電話番号を割り当てるには、**割り当て/割り当て解除**または割り当てリソースのアカウントの自動応答をまたは呼び出しキューが既に存在します。 場合、呼び出しキューまたは自動アテンダントを作成する必要がある、それを作成するときにリソース アカウントをリンクすることができます。 終わったら、[**保存**] をクリックします。
+
+![リソース アカウントを割り当てる](media/r-a-assign.png)
+
+![番号の 2](media/sfbcallout2.png) **の編集**] オプションを使用してリソース アカウントの表示名を編集することができます。  終わったら、[**保存**] をクリックします。
+![リソース アカウントを編集します。](media/r-a-edit.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>Powershell でのリソース アカウントを作成します。
 
 マイクロソフトの通話プランを割り当てることができますのみ有料電話番号と**マイクロソフトのチーム管理センター**にするか、または移植するフリー ダイヤル サービスの電話番号別のサービス プロバイダーからリソース アカウントにします。 取得し、サービスのフリー ダイヤル番号を使用して、通信のクレジットを設定する必要があります。
 
-によってかどうか、電話番号のオンラインまたは設置型で、適切な管理者特権を持つ Powershell プロンプトに接続する必要があります。
+かどうかによって、リソース アカウントにあるオンライン施設内で、適切な管理者特権を持つ Powershell プロンプトに接続する必要があります。 
+- [新規 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)を使用してオンラインのホーム リソース アカウントを作成するのには次の Powershell コマンドレットの例は、リソース アカウントのオンライン ホームをしました。
 
+- リソース アカウント ホーム設置型では、Skype のビジネス サーバー 2019 を呼び出してキューのクラウドとクラウドの自動応答で使用できる、[クラウドを呼び出してキューの構成](/skypeforbusiness/SfbHybrid/hybrid/configure-call-queue.md)や[クラウドの自動応答の構成](/skypeforbusiness/SfbHybrid/hybrid/configure-cloud-auto-attendant.md)を参照してください。 (番号が置かれている直接ルーティング) ハイブリッド実装では、[新しい CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)を使用します。
 
-- (番号が置かれている直接ルーティング) ハイブリッド実装は、設置型のホーム サーバーは、リソース アカウントを作成するのに[新規 CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)を使用します。  
-- オンラインでだけは[新しい CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)を使用してオンライン ホーム サーバーは、リソース アカウントを持っています。
+アプリケーション ID のインスタンスは、アプリケーションの作成時に使用する必要があります。
+- **自動応答:** ce933385-9390-45d1-9512-c8d228074e07
+- **キューの呼び出し:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-次は、自動アテンダント付きアプリケーション Id を持つリソース アカウントを作成するオンライン環境例です。 呼び出しキューは、次付きアプリケーション Id 11cd3e2e-fccb-42ad-ad00-878b93575e07 を使用できます。
+> [!NOTE]
+> 呼び出しキューを選択した場合、または自動アテンダントのオンプレミスのユーザーが検索できるようにする場合は、オンラインのリソース アカウントが Active Directory に同期されていないため、リソース アカウントの設置型を作成してください。
+
+1. 作成するには、オンライン リソース アカウントを使用、自動アテンダントを使用して次のコマンドです。  
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ```
 
-このコマンドの詳細については、[新規 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)を参照してください。
+2. ライセンスを適用するまで、リソース アカウントを使用することはできません。 O365 管理センターのアカウントにライセンスを適用するには、[企業向け Office 365 のユーザーに割り当てるライセンス] を参照してください方法については (https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user [ビジネス ライセンスの Skype を割り当てる](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)とします。
 
-> [!NOTE]
-> 次のセクションで説明したように、マイクロソフトのチーム管理センターを使用してオンラインの電話番号を設定するのには最も簡単です。 使用することも、`Set-CsOnlineVoiceApplicationInstance`コマンドを割り当てるリソース アカウントに電話番号の最初の作成にようにします。
+3. (省略可能)リソース アカウントに適切なライセンスが適用されるとは、次のように、リソース アカウントに電話番号を設定できます。 すべてのリソース アカウントには、電話番号が必要となります。 リソース アカウントにライセンスを適用しなかった場合は、電話番号の割り当ては失敗します。
 
 ``` Powershell
-Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
+Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com
  -TelephoneNumber +14255550100
 Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
-リソース アカウントを作成するときにライセンスを適用しない場合は、電話番号の割り当ては失敗します。 
-
 このコマンドの詳細については、[一連の CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps)を参照してください。
 
-
+> [!NOTE]
+> 前述のように、マイクロソフトのチーム管理センターを使用してオンラインの電話番号を設定するのには最も簡単です。
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>マイクロソフトのチーム管理センターのリソース アカウントの設定を管理します。
 
-マイクロソフトのチーム管理センターのリソース アカウントの設定を管理する**組織全体の設定**に移動  > **リソース アカウント**、リソース アカウントの設定を変更する必要があり、[**編集**] ボタンをクリックします。 **リソース アカウントの編集**画面で、ことができますを変更します。
+マイクロソフトのチーム管理センターのリソース アカウントの設定を管理する**組織全体の設定**に移動  > **リソース アカウント**、リソース アカウントの設定を変更する必要があり、[**編集**] ボタンをクリックします。 **リソース アカウントの編集**画面で、これらの設定を変更することができます。
 
 - アカウントの**表示名**
 - キューを呼び出したり、自動アテンダント アカウントを使用します。
@@ -127,13 +141,13 @@ Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 
 チームまたは Skype のオンライン ビジネスの実装では。
 
-[自動応答をクラウドとは?](what-are-phone-system-auto-attendants.md)
+[クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
 
-[クラウドの自動応答を設定します](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[クラウドの自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [小規模ビジネスの例: 自動応答をセットアップする](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[クラウド呼び出しキューを作成します。](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[クラウドの通話キューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [新しい-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

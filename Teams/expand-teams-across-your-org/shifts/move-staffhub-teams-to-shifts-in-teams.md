@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 885872b62d15091faf8b14609aed69b274c1ae74
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: 14f94428ddeba7b5a648b4b8dbd7bd5ef8fae0e4
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914587"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959483"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>マイクロソフト チームの変化に、マイクロソフトの StaffHub チームを移動します。
 
@@ -160,7 +160,7 @@ $StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
 
 ここでは、応答の例です。
 
-既にチームに移動するか、チーム内に既に存在するすべてのチームのジョブ Id は null になります""ジョブは、そのチームの移動に提出する必要があるようです。
+チームへ既に移動されたか、チーム内に既に存在するすべてのチームのジョブ Id は null になります""ジョブは、そのチームの移動に提出する必要があるようです。
 
 ```
     jobId                                      teamId                                      teamAlreadyInMicrosofteams  
@@ -197,8 +197,6 @@ Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
 ```
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
-
-#### 
 
 ## <a name="monitor-teams-usage"></a>チームの使用率を監視します。
 

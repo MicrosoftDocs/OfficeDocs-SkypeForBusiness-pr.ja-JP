@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 組織内のユーザーのスケジュールを設定するチームの会議の設定を管理する方法について説明します。
-ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494254"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959538"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -100,6 +100,6 @@ _ポート範囲および DSCP マーキング_
 
 \*割り当てるポートの範囲は、重ねることはできませんし、互いに隣接する必要があります。
 
-リアルタイム メディアを処理するときの 1 つのステップは、種類の異なるトラフィックのポート範囲を設定する、詳細な[サービスの品質 (QoS)](qos-in-teams.md)を参照してください。 有効にするか、チームの管理センターの設定を変更した場合は、チームでの QoS への変更を完全に実装する[すべてのユーザーのデバイスに一致する設定を適用](QoS-in-Teams-clients.md)し、内部のネットワーク デバイスに必要があります。
+リアルタイム メディアを処理するときの 1 つのステップは、種類の異なるトラフィックのポート範囲を設定します。詳細な[サービスの品質 (QoS)](qos-in-teams.md)を参照してください。 有効にするか、マイクロソフトのチーム管理センターの設定を変更した場合は、チームでの QoS への変更を完全に実装する[すべてのユーザーのデバイスに一致する設定を適用](QoS-in-Teams-clients.md)し、内部のネットワーク デバイスに必要があります。
 
 QoS が使用された後、しばらくの間、これら 3 つのワークロードごとに、オン ・ デマンドでの使用状況に関する情報があり、どのような変更を加えるに基づいて、特定のニーズを選択することができます。 [品質のダッシュ ボードを呼び出す](turning-on-and-using-call-quality-dashboard.md)と便利になります。

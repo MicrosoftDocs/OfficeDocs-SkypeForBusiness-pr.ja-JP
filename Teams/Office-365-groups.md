@@ -4,7 +4,7 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/29/2018
+ms.date: 04/16/2019
 ms.topic: conceptual
 ms.service: msteams
 description: Office 365 グループとグループ メンバーシップがどのように Microsoft Teams と連携しているかについて説明します。
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a456e0777d354585eddf3676f2fdcae56ae9485
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 77c8125425bf7aaaf6f619edc9463b17967e4133
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890095"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959277"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 のグループとマイクロソフトのチーム
 =====================================
@@ -31,6 +31,8 @@ ms.locfileid: "30890095"
 Office 365 のグループは、Office 365 の間アプリケーションのメンバーシップ サービスです。 基本的なレベルでは、Office 365 グループは、Azure Active Directory のオブジェクトのメンバーは、疎結合、Yammer グループでは、SharePoint チーム サイトを含む関連の作業負荷を一覧で Exchange メールボックスのリソース、プランナー、電源の BI および OneNote の共有します。 追加したり、Active Directory 内の他のグループ ベースのセキュリティ オブジェクトと同じように、グループにユーザーを削除することができます。
 
 Office 365 管理者は、Office 365 のグループを定義、メンバーの追加、および交換、共有メールボックス、SharePoint ドキュメント ライブラリ、Yammer のグループなどのように機能を活用します。 Office 365 のグループの詳細については、 [Office 365 のグループについての説明](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)を参照してください。
+
+[IT 設計者向けのマイクロソフトの 365 のグループ](teams-architecture-solutions-posters.md#groups-in-microsoft-365)のポスターをお見逃しなきます。
 
 <a name="how-office-365-groups-work"></a>Office 365 のグループがどのように動作するか
 --------------------------

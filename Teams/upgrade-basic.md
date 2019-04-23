@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e31cfcecf519489f21a99e9e68c14d92639a624c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494166"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959387"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -64,7 +64,7 @@ ms.locfileid: "30494166"
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>手順 2 です。 チームの組織を準備します。
+## <a name="step-2-prepare-your-organization-for-teams"></a>手順 2 です。 Teams に向けて組織を準備する
 
 *(アップグレード前に約 4 ~ 6 週間)*
 
@@ -78,7 +78,7 @@ ms.locfileid: "30494166"
 - [Teams の概要](Teams-overview.md)
 - [チームとのチャンネルについてください。](teams-channels-overview.md)
 - [技術的な計画を完了します。](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Skype ルームのシステムを管理します。](https://aka.ms/srsdocs)
+- [Microsoft Teams Rooms を管理する](https://aka.ms/MTRDocs)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -113,7 +113,7 @@ ms.locfileid: "30494166"
 
 **リソース:**
 
-- [組織内のチームの機能を管理します。](enable-features-office-365.md)
+- [組織のマイクロソフト チームの設定を管理します。](enable-features-office-365.md)
 - [電子メールのサンプル: ビジネス用の Skype についてユーザーにお知らせ](upgrade-emails-surveys.md#step-4-email)
 
 [ページのトップへ](#about-upgrade-basic)
@@ -164,7 +164,7 @@ ms.locfileid: "30494166"
 
 **リソース:**
 
-- [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
+- [共存およびアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)
 - [電子メールのサンプル: ユーザーがチームの開始](upgrade-emails-surveys.md#step-7-email)
 
 [ページのトップへ](#about-upgrade-basic)

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams での通話の共有およびグループ通話ピックアップ
 ms.author: lolaj
-author: lolaj
+author: LolaJacobsen
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 共有を呼び出すし、グループ通話ピックアップできるように、ユーザーが利用できない場合、呼び出しをキャプチャできるように、着信呼び出しを同僚と共有します。
-ms.openlocfilehash: df98dd4df064b23b687ddcc569e6c5a431137527
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: e822d06e48f3d7df548f0fd0d04645e7e9328598
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993582"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 分析機能を呼び出すと品質のダッシュ ボードを呼び出すを監視し、通話品質の問題のトラブルシューティングに使用する場合について説明します。
-ms.openlocfilehash: 057d74a5c0dcda70119eb16eed3a048b459c087c
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993655"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通話分析および通話品質ダッシュボード
 
@@ -77,7 +77,7 @@ ms.locfileid: "31026222"
 ![通話品質のダッシュ ボードの位置が強化されたレポートのスクリーン ショットです。 示されるタブは、概要については、建物のワイヤード (有線)、建物、WiFi、および携帯 (LTE) です。 特定の建物内のストリームを表示するのには、フィルターが適用されます。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
-> 救難の建物固有のビューを有効にするには、管理者は救難のテナントのデータのアップロード] ページの[建物の情報をアップロード](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload)する必要があります。
+> 救難の構築またはエンドポイントに固有のビューを有効にするには、管理者は救難のテナントのデータのアップロード] ページの[建物またはエンドポイントの情報をアップロード](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)する必要があります。 
 
 非管理者、ヘルプデスクの担当者などをする場合は品質ダッシュ ボードの呼び出しを使用するのには割り当てることができますそれらのユーザー**通信のサポート ・ エンジニアのチーム**、**チーム ・ コミュニケーション ・ サポート ・ スペシャ リスト**、または**レポートの閲覧者**の役割。 次のロールを持つユーザーは、品質のダッシュ ボードの呼び出しでアクセスできます。
 
@@ -86,7 +86,7 @@ ms.locfileid: "31026222"
 - Teams サービス管理者
 - Teams 通信管理者
 - Teams 通信サポート エンジニア
-- チーム ・ コミュニケーション ・ サポート ・ スペシャ リスト
+- Teams 通信サポート スペシャリスト
 - レポート リーダー
 
 > [!NOTE]
@@ -96,7 +96,7 @@ ms.locfileid: "31026222"
 
 救難に関する詳細について[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用して](turning-on-and-using-call-quality-dashboard.md)、[ディメンションとメジャーのマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しで使用可能な](dimensions-and-measures-available-in-call-quality-dashboard.md)を参照してください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [ビデオ: 通話品質の概要](https://aka.ms/teams-quality)
 

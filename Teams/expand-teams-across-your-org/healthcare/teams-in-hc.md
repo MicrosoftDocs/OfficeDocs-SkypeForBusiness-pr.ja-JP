@@ -1,5 +1,5 @@
 ---
-title: 医療機関向けのチームを始める
+title: 医療関係組織のためのTeamsを始めましょう
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 医療機関向けのチームを始める
-ms.openlocfilehash: 9e9d43d5bd4b7f2f0b15727a2f5c52bda6bb7afb
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: 医療関係組織のためのTeamsを始めましょう
+ms.openlocfilehash: 4ba465c69477f3e9ff6d541ddeb55dc41100b7ec
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013778"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959427"
 ---
-# <a name="get-started-with-teams-for-healthcare-organizations"></a>医療機関向けのチームを始める
+# <a name="get-started-with-teams-for-healthcare-organizations"></a>医療関係組織のためのTeamsを始めましょう
 
 マイクロソフトのチームには、いくつかの病院およびその他の医療機関の便利な機能が用意されています。 チームは、機能の病院を支援するために開発中です。
 
@@ -58,4 +58,5 @@ ms.locfileid: "31013778"
  以下の資料を参照してください。
 
 - [マイクロソフト チームの変化に、マイクロソフトの StaffHub チームを移動します。](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+
 - [Microsoft Teams で組織のシフト アプリを管理する](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)

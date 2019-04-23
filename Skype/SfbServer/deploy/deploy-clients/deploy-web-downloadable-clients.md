@@ -1,5 +1,5 @@
 ---
-title: Skype のダウンロード可能なクライアントの Web をビジネスのサーバーの展開します。
+title: Skype for Business Server で Web ダウンロード可能なクライアントを展開する
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'ビジネス Web アプリケーションの概要: が、Skype を導入し、Skype 会議アプリケーションがビジネスの Skype を使用します。'
-ms.openlocfilehash: 7fabbbbd279e2f72f3468fbe73a55b86e532f6cf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c974ff9d202c56b0a32c9983706a60b5d73c4de6
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531546"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959561"
 ---
-# <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Skype のダウンロード可能なクライアントの Web をビジネスのサーバーの展開します。
+# <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Skype for Business Server で Web ダウンロード可能なクライアントを展開する
 
 **の概要:** ビジネス 2015年の Web アプリケーションの Skype と Skype でビジネスのサーバーが使用する Skype の会議アプリケーションを展開します。
 
-ビジネス Web アプリケーションの Skype は、Skype をビジネスのサーバーの実行中のサーバーにインストールされている、インターネット インフォメーション サービス (IIS) web クライアントとビジネス クライアント用の Skype をまだ持っていない会議のユーザーに要求時に既定で展開します。 このような会議ユーザーは通常ネットワークの外部から接続します。 ユーザーは会議 URL をクリックしたが、ビジネス クライアントがインストールされている Skype がない、常にユーザーにビジネス Web アプリケーションまたは Skype 会議アプリケーションの Skype の最新バージョンを使用してミーティングに参加するためのオプションが表示されます。
+ビジネス Web アプリケーションの Skype は、Skype をビジネスのサーバーの実行中のサーバーにインストールされている、インターネット インフォメーション サービス (IIS) web クライアントとビジネス クライアント用の Skype をまだ持っていない会議のユーザーに要求時に既定で展開します。 このような会議ユーザーは通常ネットワークの外部から接続します。 For mac ビジネス Web アプリケーション、Skype 会議アプリケーション、またはビジネス用の Skype の Skype の最新バージョンを使用してミーティングに参加するオプションを使用してユーザーに表示されますユーザー会議 URL をクリックすると、ビジネス クライアントがインストールされている Skype がないときに
 
 ビジネス Web アプリケーションは、ユーザーのブラウザーでプラグインとして使用される Microsoft ActiveX コントロールを必要とするは、Skype の機能を音声、ビデオ、および共有します。 ActiveX コントロールを事前にインストールするか、インストールするメッセージが表示されたら、初めてのビジネス Web アプリケーションの Skype を使用する場合は、ユーザーを許可するか、機能にアクセスする最初の時間が必要な ActiveX コントロールです。
 
@@ -31,7 +31,7 @@ ms.locfileid: "26531546"
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Skype のビジネス Web アプリケーション用の多要素認証を有効にします。
 <a name="MFA"> </a>
 
-ビジネス Web アプリケーションの Skype と Skype 会議アプリケーションは、多要素認証をサポートします。 だけでなくユーザー名とパスワード、スマート カードまたは外部ネットワークからビジネス ・ ミーティングの Skype にサインインするときに参加するユーザーを認証するために、ピンなどの追加の認証方法を要求できます。 多要素認証を有効にするには、Active Directory フェデレーション サービス (AD FS) のフェデレーション サーバーを展開し、パッシブ サーバーで認証では、Skype をビジネスを有効にします。 AD FS を構成すると、Skype をビジネス ・ ミーティングに参加しようとする外部のユーザーが表示され、ユーザー名を格納する、AD FS の多要素認証の web ページとパスワードのこと、追加の認証方法と課題構成します。
+ビジネス Web アプリケーション、Skype 会議アプリケーションでは、Skype for Mac のビジネス用の Skype では、多要素認証をサポートします。 だけでなくユーザー名とパスワード、スマート カードまたは外部ネットワークからビジネス ・ ミーティングの Skype にサインインするときに参加するユーザーを認証するために、ピンなどの追加の認証方法を要求できます。 多要素認証を有効にするには、Active Directory フェデレーション サービス (AD FS) のフェデレーション サーバーを展開し、パッシブ サーバーで認証では、Skype をビジネスを有効にします。 AD FS を構成すると、Skype をビジネス ・ ミーティングに参加しようとする外部のユーザーが表示され、ユーザー名を格納する、AD FS の多要素認証の web ページとパスワードのこと、追加の認証方法と課題構成します。
 
 > [!IMPORTANT]
 > 多要素認証の AD FS を構成する場合の重要な考慮事項を次に示します。
@@ -121,7 +121,7 @@ Windows Server 2008 R2 を実行しているコンピューター上のプラグ
 
 ### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>簡素化された会議参加と Skype 会議アプリを有効にする
 
-1. ユーザーが CDN オンラインに接続し、Skype の会議アプリケーションを取得することがあり、単純化を使用して、コンテンツ配信ネットワーク (CDN) へのアクセスを有効にすると、会議の参加経験します。
+1. ユーザーが CDN オンライン接続し、Mac (Mac)、上のビジネスの Skype 会議のアプリケーション (Windows) で、Skype を取得することし、単純化を使用して、コンテンツ配信ネットワーク (CDN) へのアクセスを有効にすると、会議の参加経験します。
 
    ```
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
@@ -133,7 +133,7 @@ Windows Server 2008 R2 を実行しているコンピューター上のプラグ
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Microsoft に送信された情報は、「[Skype for Business のデータ収集](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)」が厳格に適用されます。
+    マイクロソフトに送信される情報が、 [Skype](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)を厳格に遵守します。
 
 3. CDN を使用できない場合は、クリアテキストへのフォールバック Skype をローカルにホストされる Web アプリケーションのビジネス経験をする前にタイムアウトを設定します。 既定値は 6 秒です。 この値を 0 に設定すると、タイムアウトはなくなります。
 
@@ -141,7 +141,7 @@ Windows Server 2008 R2 を実行しているコンピューター上のプラグ
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="SMA_Enable"> </a>
 
 [会議クライアント用の計画 (Web アプリおよび会議アプリ)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)

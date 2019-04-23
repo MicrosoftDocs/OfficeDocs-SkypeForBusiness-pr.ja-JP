@@ -14,17 +14,17 @@ search.appverid: MET150
 description: コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95053dbc4526ca3502ba986414c8e757d2cb7ad3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: bdb4184ed203994f1275c9c074371655a627b1fe
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993440"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する
 =======================================================
 
-コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。コネクタを使用すると、Microsoft Teams ユーザーは Twitter、Trelloｍ、Wunderlistｍ、GitHub、VSTS などの人気のサービスからの更新情報をチームのチャット ストリームで受け取ることができます。
+コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。 コネクタを使用、マイクロソフトのチームのユーザーは、Twitter、Trello、Wunderlist、GitHub では、Azure DevOps サービスなど、チーム内のチャット ストリーム内での人気のあるサービスから更新を受信することができます。
 
 チームのメンバーは、チームのアクセス許可、およびサービス活動のすべてのチーム メンバーに通知する場合、コネクタを使用した一般的なクラウド サービスをチームを接続できます。 コネクタは、コネクタのままには、セットアップでは最初に、メンバーの後でも機能を引き続きします。 追加と削除] アクセス許可を持つすべてのチーム メンバーには、他のメンバーがコネクタの設定を変更できます。
 

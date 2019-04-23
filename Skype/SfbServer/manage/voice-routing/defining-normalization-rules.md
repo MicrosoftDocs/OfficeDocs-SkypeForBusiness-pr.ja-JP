@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype ビジネス サーバーの正規化ルールをダイヤルされた電話番号を E.164 形式に変換するのに.NET Framework の正規表現を使用します。つまり、正規化の規則は、ユーザーがダイヤルした電話番号をとるし、その数ビジネス サーバーの Skype で内部的に使用される形式に変換します。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: 8e32ac485763c626d7d4347bb194fb4c4f3dba44
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a1157e9cf435fdd655e9d1772294fa3f57acf3f4
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993516"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>ビジネス サーバーの Skype の正規化ルールを定義します。
 
@@ -36,7 +36,7 @@ Skype ビジネス サーバーの正規化ルールをダイヤルされた電�
 
 1. RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、[セットアップのアクセス許可の委任](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx)を参照してください。
 2. 、ブラウザー ウィンドウを開くし、コントロール パネルを開くための管理 URL を入力します。 ビジネス コントロール パネルの Skype を起動することができますを使用するさまざまな方法についての詳細は、[インストールと管理ツールを開く](../../management-tools/install-and-open-administrative-tools.md)を参照してください。
-3. (省略可能)手順 10 で手順 11] または [[変更のダイヤル プラン](GET LINK AFTER MIGRATION)で[ダイヤル プランの作成](GET LINK AFTER MIGRATION)の手順に従います。 
+3. (省略可能)手順 10 で手順 11] または [[変更のダイヤル プラン](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan)で[ダイヤル プランの作成](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan)の手順に従います。 
 4. [**新しい正規化ルール**] または [**正規化ルールの編集**] の [**名前**] に、正規化される番号パターンについてわかりやすい名前 (たとえば、**5DigitExtension**) を入力します。
 5. (オプション) [**説明**] ボックスに、正規化ルールの説明を入力します (たとえば、「5 桁の内線番号を変換」)。
 6. [**正規化ルールの構築**] で、次のフィールドに値を入力します。
