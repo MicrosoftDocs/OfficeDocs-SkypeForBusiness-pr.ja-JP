@@ -12,12 +12,12 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: a33fc22f3a00d995c5399a99537508a769be9e89
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.openlocfilehash: 31ade1137987bc67e4f45ea2fe8b51a4501bcd7c
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993525"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -180,6 +180,25 @@ ms.locfileid: "30952380"
                                             <div class="cardText">
                                                 <h3>現場担当者と Teams</h3>
                                                 <p>Teams で新しくリリースされた現場担当者向けの機能について説明します。 (対象ユーザー: エンド ユーザー)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://aka.ms/TeamsForGov">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image10.png" alt="government" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>米国政府仕様のTeams（GCC）の概要</h3>
+                                                <p>コラボレーションのベストプラクティスを紹介するTeams in Office 365 GCCのインタラクティブな概要に、ぜひご参加ください。 （対象者：ITプロフェッショナル、エンドユーザー）</p>
                                             </div>
                                         </div>
                                     </div>
