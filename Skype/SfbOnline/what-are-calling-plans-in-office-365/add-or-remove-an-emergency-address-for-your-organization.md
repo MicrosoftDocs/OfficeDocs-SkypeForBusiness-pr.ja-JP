@@ -1,5 +1,5 @@
 ---
-title: 追加、変更、または組織のシステムのアドレスを削除します。
+title: 組織の緊急対応の住所を追加、変更、削除する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to add an emergency address to your Skype for Business account. '
+description: 'Skype for Business のアカウントに緊急対応の住所を追加する方法を学びます。 '
 ms.openlocfilehash: b3fab8d41c1b6f59961feee09f5eae888d32b362
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32170917"
 ---
-# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>追加、変更、または組織のシステムのアドレスを削除します。
+# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>組織の緊急対応の住所を追加、変更、削除する
 
 緊急アドレス、電話番号に関連付けられている必要がありますが、国や地域によって異なることができますこれが発生します。 例えば米国では、電話番号をユーザーに割り当てるときに、緊急対応の住所を関連付ける必要があります。 英国では、Office 365 から電話番号を取得するか、現在のサービス プロバイダーから電話番号を移すときに、緊急対応の住所をその電話番号に関連付ける必要があります。
   
-どの国や地域であっても、緊急対応の住所に 1 つ以上の場所を追加すること、また、緊急対応の住所を削除することができます。 、組織内の物理的な場所の数によっては建物、フロア、オフィスのそれらを作成できます。 詳細については、「[緊急対応の場所、住所、通話のルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」 をご覧ください。
+No matter which country/region you are in, it's possible to add a location or locations to an emergency address or remove an emergency address. Depending on the number of physical locations in your organization, you can create them for buildings, floors, and offices. See [What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for some details.
   
 Office 365 の通話プランの取得方法とプランの費用については、「[Skype for Business と Microsoft Teams アドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」をご覧ください。
   
@@ -52,7 +52,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 5. すべての住所の情報を入力したら、[**確認**] をクリックします。
     
     > [!IMPORTANT]
-    > 住所の検証では、住所が正規の住所で、形式が正しいことが確認されます。 緊急アドレスは部分的に正しいなど、市区町村の名前を誤って入力する場合と渡すことがまだ検証が可能です。 誤記があっても検証をパスした場合、誤記がある市区町村名と住所の他の正しい部分の組み合わせによって、適切な緊急派遣センターに通話をルーティングするために十分な情報になります。 
+    > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center. 
     
     > 注: ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインが正常に Office 365 を使用する数を取得するために緊急の場所で住所の設定で電話番号を有効にすることを理解することが重要と一致しなければなりません、番号の市外局番に電話します。
   
@@ -73,7 +73,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 4. 変更を加え、[**検証**] をクリックします。
 
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
 ## <a name="remove-an-emergency-address"></a>緊急アドレスを削除します。
 

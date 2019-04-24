@@ -14,20 +14,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30569983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180369"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
 
 > [!Tip]
-> Teams がAzure Active Directory（AAD）、Office 365グループ、Exchange、SharePoint、およびOneDrive for Businessとどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teamsの基礎](https://aka.ms/teams-foundations)。
+> Teams が Azure Active Directory (AAD)、Office 365 グループ、Exchange、SharePoint、および OneDrive for Business とどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teamsの基礎](https://aka.ms/teams-foundations)。
 
-Microsoft Teams の全機能を活用するには、どのユーザーも Exchange Online、SharePoint Online、Office 365 グループの作成へのアクセスを許可されている必要があります。
+Teams のすべての機能を活用するために、すべてのユーザーは Exchange Online、SharePoint Online、および Office 365 グループの作成が可能になっている必要があります。
 
 ユーザーの Exchange メールボックスは、オンラインまたはオンプレミスにホストすることができます。Exchange Online または Exchange 専用 vNext にホストされるユーザーは、Teams の全機能を使用できます。チームやチャネルの作成およびそれらへの参加、会議の作成および表示、通話とチャット、ユーザー プロフィールの写真の変更、コネクタやタブ、ボットの追加と構成を行うことができます。
 
@@ -37,20 +37,20 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 **サポートされるアクション:** 
 
-| ユーザーのメールボックスのホスト先: | 電子情報開示| 法的な&nbsp;保全 | 保持| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先を管理します | Outlook の連絡先にアクセスします | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
+| ユーザーのメールボックスのホスト先: | 電子情報開示| 法的な&nbsp;保全 | 保持| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|
 |**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2,3</sup>|はい <sup>4|はい|いいえ|いいえ|はい|はい|いいえ|はい <sup>5|はい|はい|はい|
-|**Exchange On-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2,3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|はい (Exchange 2016 CU3+)|はい|はい|いいえ|はい <sup>5|はい|はい|はい|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|はい|いいえ|いいえ|はい|はい|いいえ|はい <sup>5|はい|はい|はい|
+|**Exchange On-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|はい (Exchange 2016 CU3+)|はい|はい|いいえ|はい <sup>5|はい|はい|はい|
 
 <sup>1</sup> Exchange 2016 CU3 以降でサポートされます  
-<sup>2</sup>チャネルメッセージのコンプライアンスに関する電子情報開示および法的な保全は、すべてのホスティングオプションでサポートされています。  
-<sup>3</sup>Teamsのプライベートチャットメッセージは、このホスティングオプションの法的な保全ではまだサポートされていません。
+<sup>2</sup> チャネル メッセージのコンプライアンスに関する電子情報開示および法的な保全は、すべてのホスティング オプションでサポートされています。  
+<sup>3</sup> Teams のプライベート チャット メッセージは、このホスティングオプションの法的な保全ではまだサポートされていません。
 
-<sup>4</sup> 保持には、オンラインユーザーがメッセージを保存するためのシャドウメールボックスを使用します。 [Microsoft Teamsは、Exchange ハイブリッド環境でTeamsでの電子情報開示ユーザーをサポートします](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
+<sup>4</sup> 保持には、オンラインユーザーがメッセージを保存するためのシャドウ メールボックスを使用します。 [Microsoft Teams で、Teams ユーザーの電子情報開示が Exchange ハイブリッド環境でサポートされるようになりました](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
 
-<sup>5</sup> オンプレミスのExchangeメールボックスを持つチームユーザーは、Teamsでボイスメールを使用してOutlookでボイスメールメッセージを受信できますが、ボイスメールメッセージをTeamsクライアント内で表示または再生することはできません。
+<sup>5</sup> オンプレミスの Exchange メールボックスを持つ Teams のユーザーは、Teamsでボイスメールを使用して Outlook でボイスメール メッセージを受信できますが、ボイスメール メッセージを Teams クライアント内で表示または再生することはできません。
 
 追加情報: 
 
@@ -66,13 +66,15 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 -   Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
 
--   オンプレミスのExchangeの場合は、[ExchangeとExchange Onlineの組織間のOAuth認証の構成](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)の説明に従って、新しいExchange OAuth認証プロトコルを構成する必要があります。 
+-   オンプレミスの Exchange の場合は、「[Exchange と Exchange Online の組織間の OAuth 認証の構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)」の説明に従って、新しい Exchange OAuth 認証プロトコルを構成する必要があります。 
+
+-  制御し、チームと条件付きのアクセスを使用して Exchange のコンプライアンス ・ ポリシーの構成を保護します。 詳細についてを参照してください[は条件付きのアクセス ポリシーのしくみのチームですか?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
 
 > [!NOTE]
 > 現在、すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者にExchangeオンプレミスメールボックスがある場合は、プライベート会議を無効にする必要があります。
 > 
 > [!IMPORTANT]
-> Exchangeハイブリッド展開では、チャット参加者がクラウドベースのメールボックスかオンプレミスメールボックスを持っているかにかかわらず、チャットメッセージのコンテンツを検索できます。 詳細については、[Office 365でのオンプレミスユーザーのクラウドベースメールボックスの検索](https://docs.microsoft.com/ja-JP/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)を参照してください。 Teams でコンテンツを検索する方法については、[Office 365セキュリティ/コンプライアンスセンターのコンテンツ検索](https://docs.microsoft.com/ja-JP/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)をご覧ください。
+> Exchangeハイブリッド展開では、チャット参加者がクラウドベースのメールボックスかオンプレミスメールボックスを持っているかにかかわらず、チャットメッセージのコンテンツを検索できます。 詳細については、[Office 365でのオンプレミスユーザーのクラウドベースメールボックスの検索](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)を参照してください。 Teams でコンテンツを検索する方法については、[Office 365セキュリティ/コンプライアンスセンターのコンテンツ検索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)をご覧ください。
 > 
 > [!TIP]
 > Azure AD Connect を使用して Azure Active Directory と同期する方法については、[オンプレミス ID と Azure Active Directory の統合](https://go.microsoft.com/fwlink/?linkid=854600)をご覧ください。

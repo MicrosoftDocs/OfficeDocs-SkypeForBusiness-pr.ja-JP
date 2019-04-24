@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 既存のフロントエンド プールまたは Standard Edition サーバーの設定を編集するには、以下のセクションに示す手順に従って操作します。
 ms.openlocfilehash: 411dd91a47fc00a5f3233ae21e9bc97c4ddd6f73
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180401"
 ---
 # <a name="front-end-general-settings-expander"></a>フロントエンド全般設定エキスパンダー
 

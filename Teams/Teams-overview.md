@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 01/28/2019
+ms.date: 04/18/2019
 ms.reviewer: LolaJ
 description: Microsoft Teams を組織に展開するための正しい経路を見つけます。 Teams のインフラストラクチャと、Office 365 での Teams の使用について説明します。
 localization_priority: Priority
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cb72d55b41edf6c44b84461d234c42782ee6873
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: cf50b6f7acba602ec001c340e2cbe999c610e693
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649285"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959229"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
@@ -29,26 +29,31 @@ Teams について不慣れな場合や、詳細が必要な場合は、この�
 
 ## <a name="overview-of-teams"></a>Teams の概要
 
-Teams を初めて使用する場合は、短いビデオ「[Teams の紹介](https://youtu.be/s3aQV3T0D6c)」を参照してください。 Teams は Office 365 グループ、Office Graph、および他の Office 365 と同じエンタープライズ レベルのセキュリティ、コンプライアンス、管理容易性で構築されています。 Teams は Azure Active Directory (Azure AD) に保存された ID を活用します。 チームを作成すると、次のものが作成されることになります。
+Teams を初めて使用する場合は、短いビデオ「[Teams の紹介](https://youtu.be/s3aQV3T0D6c)」を参照してください。 Teams は Office 365 グループ、Office Graph、および他の Office 365 と同じエンタープライズ レベルのセキュリティ、コンプライアンス、管理容易性で構築されています。 Teams は Azure Active Directory (Azure AD) に保存された ID を活用します。 TeamsがMicrosoft 365のコンテキストのどこに適しているかを確認するには、次のアーキテクチャーポスターを参照してください: [Microsoft 365の一部としてのTeams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+
+チームを作成すると、次のものが作成されることになります。
 - 新しい [Office 365 グループ](office-365-groups.md)
 - チームのファイルを保存するための [SharePoint Online](sharepoint-onedrive-interact.md) サイトとドキュメント ライブラリ
 - [Exchange Online](exchange-teams-interact.md) の共有メールボックスとカレンダー
 - OneNote ノートブック
 - Planner や Power BI などのその他の Office 365 アプリとの連動
 
-既存のグループからチームを作成する場合は、グループのメンバーシップ、サイト、メールボックス、ノートブックが Teams に表示されます。 新しい[組織全体のチーム](create-an-org-wide-team.md)について、必ず理解してください。これは、自分の組織内のあらゆるユーザーを引き入れて、ユーザーが組織に参加したり組織から脱退したりするたびに、Active Directory を使用してメンバーシップを最新の状態に維持する、特別な種類のチームです。 
+既存のグループからチームを作成する場合は、グループのメンバーシップ、サイト、メールボックス、ノートブックが Teams に表示されます。 詳細については、こちらのポスターをご覧ください: [ITアーキテクト向けMicrosoft 365のグループ](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Teams をカスタマイズおよび拡張するには、[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を使用してサードパーティ アプリを追加します。 Teams では、組織の外部のユーザーを[ゲストとして追加する](guest-access.md)ことで、チームまたはチャネルに含めることができます。 Office 365 の一部として、Teams は強力な[開発プラットフォーム](https://docs.microsoft.com/ja-JP/microsoftteams/platform)を提供します。これにより、ユーザーは組織に必要なチームワーク ハブを構築できます。 
+[組織全体のチーム](create-an-org-wide-team.md)、組織内のすべてのユーザーが参加し、組織でユーザーの出入りがあってもActive Directoryのメンバーシップを最新の状態に保つ特別なタイプのチームについて必ずチェックして理解するようにしてください。 
+
+Teams をカスタマイズおよび拡張するには、[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を使用してサードパーティ アプリを追加します。 Teams では、組織の外部のユーザーを[ゲストとして追加する](guest-access.md)ことで、チームまたはチャネルに含めることができます。 Office 365 の一部として、Teams は強力な[開発プラットフォーム](https://docs.microsoft.com/microsoftteams/platform)を提供します。これにより、ユーザーは組織に必要なチームワーク ハブを構築できます。 
 
 ![Teams のデスクトップ アプリとモバイル アプリ](media/teams-overview-hub.png)
 
 
 ## <a name="managing-teams"></a>Teams を管理する
 
-ユーザーは管理者として、Microsoft Teams 管理センター経由で Teams を管理します。 詳細情報
+ユーザーは管理者として、Microsoft Teams 管理センター経由で Teams を管理します。 詳細情報:
+- [Teams 管理者ロールを使用してTeams を管理します](using-admin-roles.md)
 - [Microsoft Teams 管理センターで Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 - [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-in-modern-portal.md)
-
+- [Office 365組織のチーム機能を管理します](enable-features-office-365.md)
 
 Teams およびその他の Office 365 製品とサービスに今後導入される機能についての最新情報を常に取得するには、必ず[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) と [Teams ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)を確認してください。 新機能および更新された機能、計画済みの変更、および問題についての通知を取得して、常に情報を把握して準備を整えられるようになります。 
 

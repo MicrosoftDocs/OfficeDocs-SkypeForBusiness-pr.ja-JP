@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 12/10/2018
-ms.topic: article
+ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fdeba0e4540d64e98eb2853b73e6d1edb5110e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 5633250ce07d0baed78ab98220ea39e76cd691ff
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569616"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959419"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
@@ -124,7 +124,7 @@ Teams へのアクセスをオフにするには:
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>試用版ライセンスを持つユーザーの Teams を管理する
 
-試用版ライセンスを持っているユーザーは、通常の有料ライセンスを持っているユーザーと同じように管理できます。 詳細については、「[Office 365 組織内での Microsoft Teams の機能を管理する](enable-features-office-365.md)」を参照してください。
+試用版ライセンスを持っているユーザーは、通常の有料ライセンスを持っているユーザーと同じように管理できます。 詳細については、[組織のMicrosoft Teams 設定の管理](enable-features-office-365.md)を参照してください。
 
 ### <a name="upgrade-users-from-the-trial-license"></a>試用版ライセンスからユーザーをアップグレードする
 

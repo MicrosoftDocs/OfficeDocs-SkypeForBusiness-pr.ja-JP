@@ -15,13 +15,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 65da6bfa0ec87534d39e1665079f991e8c92aaa9
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32181429"
 ---
-<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトのための環境の検出
+<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>マイクロソフト チーム展開の環境の探索
 ===================================================
 
 探索は、非常に最初に、主要な手順を計画する際、旅のマイクロソフトのチームの。
@@ -45,7 +45,7 @@ ms.locfileid: "30462301"
 
 ロールアウト チーム プロジェクトの主要利害関係者に関する詳細情報をキャプチャします。 その 1 人のユーザーがプロジェクト全体にわたっていくつかの役割を再生できることを注意してください。
 
-> | 役割 | 名、電子メール アドレス、電話番号 | タイム ゾーンの場所 | コメント |
+> | ロール | 名、電子メール アドレス、電話番号 | タイム ゾーンの場所 | コメント |
 > |---|---|---|---|
 > | エグゼクティブ スポンサー | | | |
 > | プロジェクト リード | | | |
@@ -176,11 +176,11 @@ Office 365 テナントに関する情報をキャプチャするのにには、
 > | ユーザーが使用しているデスクトップ OS は何ですか? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac ([コメント] 列でバージョンを指定します。) <br/> <input type="checkbox">他の (詳細については、[コメント] 列に注意してください)。 | |
 > | Microsoft Office のバージョンを展開します。 <br>これらのデバイスですか。 | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office for Mac 2011 <br/> <input type="checkbox">2016年 Office for Mac <br/> <input type="checkbox">他の (詳細については、[コメント] 列に注意してください)。 | |
 > | Office の展開テクノロジは使用されています。 <br>組織でしょうか。 | <input type="checkbox">MSI <br/> <input type="checkbox">クイック実行 | |
-> | どのような許可は、モバイル サポート <br>使用中のプラットフォームですか。 <br/>該当するものすべてを選択します。 | <input type="checkbox">Windows <br/> <input type="checkbox"> 携帯電話 <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">他の (詳細については、[コメント] 列に注意してください)。 | |
+> | どのような許可は、モバイル サポート <br>使用中のプラットフォームですか。 <br/>該当するものすべてを選択します。 | <input type="checkbox">Windows <br/> <input type="checkbox">モバイル <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">他の (詳細については、[コメント] 列に注意してください)。 | |
 > | モバイル デバイスはどのように提供されますか? <br/>該当するものすべてを選択します。 | <input type="checkbox">企業のデバイス <br/> <input type="checkbox">独自のデバイスを表示します。 | |
 > | どのようなデバイスはユーザーが現在のアクセスに使用 <br>音声会議サービス <br>(ハンドセット、ヘッドセット、電話、ビデオ) でしょうか。 | | |
 
-<a name="operations"></a>運用
+<a name="operations"></a>操作
 ---
 
 環境の運用上の側面の詳細を取得するのにには、次の表を使用します。
