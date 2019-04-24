@@ -14,19 +14,19 @@ localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: '[地域リンク] ダイアログ ボックスを使用して、環境で使用可能な地域リンクを検索します。 既存の地域リンクを使用するには、一覧で地域リンクをクリックして [OK] をクリックします。'
 ms.openlocfilehash: 0a5bda6f55b6f476558390e6a052b3f3ac0672ab
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200577"
 ---
-# <a name="select-a-region-link"></a><span data-ttu-id="aeb06-104">地域リンクの選択</span><span class="sxs-lookup"><span data-stu-id="aeb06-104">Select a Region Link</span></span>
+# <a name="select-a-region-link"></a><span data-ttu-id="c0e88-104">地域リンクの選択</span><span class="sxs-lookup"><span data-stu-id="c0e88-104">Select a Region Link</span></span>
  
-<span data-ttu-id="aeb06-p102">[**地域リンク**] ダイアログ ボックスを使用して、環境で使用可能な地域リンクを検索します。既存の地域リンクを使用するには、一覧で地域リンクをクリックして [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="aeb06-p102">Use the **Region Link** dialog box to find region links available in your environment. To use an existing region link, click a region link in the list and then click **OK**.</span></span>
+<span data-ttu-id="c0e88-p102">[**地域リンク**] ダイアログ ボックスを使用して、環境で使用可能な地域リンクを検索します。既存の地域リンクを使用するには、一覧で地域リンクをクリックして [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c0e88-p102">Use the **Region Link** dialog box to find region links available in your environment. To use an existing region link, click a region link in the list and then click **OK**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="aeb06-107">使用可能な地域リンクすべてを取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="aeb06-107">To retrieve all available region links, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="c0e88-107">使用可能な地域リンクすべてを取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="c0e88-107">To retrieve all available region links, do not type anything in the search box and then click the search icon.</span></span> 
   
-<span data-ttu-id="aeb06-108">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="aeb06-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="c0e88-108">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c0e88-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

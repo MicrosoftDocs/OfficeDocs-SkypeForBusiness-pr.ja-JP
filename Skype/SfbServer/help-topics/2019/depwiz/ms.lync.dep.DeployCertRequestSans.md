@@ -14,17 +14,17 @@ ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[追加のサブジェクト代替名の構成] を使用すると、証明書を完了して要求する前に、追加のサブジェクト代替名 (SAN) を証明書に追加できます。 SAN を追加するには、SAN の完全修飾ドメイン名 (FQDN) を入力して、[追加] をクリックします。 追加した SAN を削除する必要がある場合は、SAN エントリを強調表示して [削除] をクリックします。 追加したすべての SAN エントリを削除するには、[すべてクリア] をクリックします。'
 ms.openlocfilehash: d7ab2e2c1fe427e437ba35ee6ef2e46641d22faf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216355"
 ---
-# <a name="certificate-request-additional-subject-alternate-names"></a><span data-ttu-id="7ba9d-106">証明書要求 (追加のサブジェクト代替名)</span><span class="sxs-lookup"><span data-stu-id="7ba9d-106">Certificate Request (Additional Subject Alternate Names)</span></span>
+# <a name="certificate-request-additional-subject-alternate-names"></a><span data-ttu-id="1a454-106">証明書要求 (追加のサブジェクト代替名)</span><span class="sxs-lookup"><span data-stu-id="1a454-106">Certificate Request (Additional Subject Alternate Names)</span></span>
  
-<span data-ttu-id="7ba9d-p102">[**追加のサブジェクト代替名の構成**] を使用すると、証明書を完了して要求する前に、追加のサブジェクト代替名 (SAN) を証明書に追加できます。SAN を追加するには、SAN の完全修飾ドメイン名 (FQDN) を入力して、[**追加**] をクリックします。追加した SAN を削除する必要がある場合は、SAN エントリを強調表示して [**削除**] をクリックします。追加したすべての SAN エントリを削除するには、[**すべてクリア**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7ba9d-p102">The **Configure Additional Subject Alternate Names** option provides the opportunity to add any additional subject alternate names (SANs) to the certificate before finalizing and requesting the certificate. To add the SAN, type the fully qualified domain name (FQDN) of the SAN and then click **Add**. If you have added a SAN that you must delete, highlight the SAN entry and click **Remove**. To remove all SAN entries that you have added, click **Clear All**.</span></span>
+<span data-ttu-id="1a454-p102">[**追加のサブジェクト代替名の構成**] を使用すると、証明書を完了して要求する前に、追加のサブジェクト代替名 (SAN) を証明書に追加できます。SAN を追加するには、SAN の完全修飾ドメイン名 (FQDN) を入力して、[**追加**] をクリックします。追加した SAN を削除する必要がある場合は、SAN エントリを強調表示して [**削除**] をクリックします。追加したすべての SAN エントリを削除するには、[**すべてクリア**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1a454-p102">The **Configure Additional Subject Alternate Names** option provides the opportunity to add any additional subject alternate names (SANs) to the certificate before finalizing and requesting the certificate. To add the SAN, type the fully qualified domain name (FQDN) of the SAN and then click **Add**. If you have added a SAN that you must delete, highlight the SAN entry and click **Remove**. To remove all SAN entries that you have added, click **Clear All**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="7ba9d-p103">[**削除**] または [**すべてクリア**] は、このページで追加した SAN エントリでのみ機能します。これらのボタンは、現在証明書で使用されている SAN エントリには影響しません。</span><span class="sxs-lookup"><span data-stu-id="7ba9d-p103">The **Remove** or **Clear All** buttons work only on SAN entries that are added on this page. The buttons will not affect SAN entries that are currently on the certificate.</span></span>
+> <span data-ttu-id="1a454-p103">[**削除**] または [**すべてクリア**] は、このページで追加した SAN エントリでのみ機能します。これらのボタンは、現在証明書で使用されている SAN エントリには影響しません。</span><span class="sxs-lookup"><span data-stu-id="1a454-p103">The **Remove** or **Clear All** buttons work only on SAN entries that are added on this page. The buttons will not affect SAN entries that are currently on the certificate.</span></span>
   
 

@@ -1,6 +1,6 @@
 ---
-title: マイクロソフトのチーム会議室
-ms.reviewer: null
+title: Microsoft Teams Rooms
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,9 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: マイクロソフト チームの会議室を展開し、システムを管理する方法を導入するための関連の考慮事項です。
+ms.openlocfilehash: 078554d7d480507f7966abe844ce9aa8eef8c851
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206198"
 ---
-
-<h2>マイクロソフトのチーム会議室</h2>
+<h2>Microsoft Teams Rooms</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
@@ -56,7 +61,7 @@ description: マイクロソフト チームの会議室を展開し、システ
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>プラン</h3>
+                        <h3>計画</h3>
                     </div>
                 </div>
             </div>

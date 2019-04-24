@@ -12,140 +12,140 @@ ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: ビジネス サーバーの Skype でのウイルス対策プログラムの相互運用の概要です。
 ms.openlocfilehash: 377c9e8fb9de71187978fe541a23f43cc2282749
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213670"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a><span data-ttu-id="17420-103">ビジネス サーバーの Skype の除外リストをスキャンするウイルス対策</span><span class="sxs-lookup"><span data-stu-id="17420-103">Antivirus scanning exclusions for Skype for Business Server</span></span>
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a><span data-ttu-id="cc58a-103">ビジネス サーバーの Skype の除外リストをスキャンするウイルス対策</span><span class="sxs-lookup"><span data-stu-id="cc58a-103">Antivirus scanning exclusions for Skype for Business Server</span></span>
 
-<span data-ttu-id="17420-104">ビジネス サーバーの Skype でのウイルス対策プログラムの相互運用の概要です。</span><span class="sxs-lookup"><span data-stu-id="17420-104">Overview of antivirus scanner interoperation with Skype for Business Server.</span></span>
+<span data-ttu-id="cc58a-104">ビジネス サーバーの Skype でのウイルス対策プログラムの相互運用の概要です。</span><span class="sxs-lookup"><span data-stu-id="cc58a-104">Overview of antivirus scanner interoperation with Skype for Business Server.</span></span>
 
-<span data-ttu-id="17420-105">この資料には、管理者は Active Directory ドメインでのウイルス対策ソフトウェアで使用されている場合、サポートされているバージョンの Microsoft Windows を実行しているコンピューター上の潜在的な不安定の原因を特定するのに役立つ推奨事項が含まれています。環境またはマネージ ビジネス環境です。</span><span class="sxs-lookup"><span data-stu-id="17420-105">This article contains recommendations that may help an administrator determine the cause of potential instability on a computer that is running a supported version of Microsoft Windows when it is used with antivirus software in an Active Directory domain environment or in a managed business environment.</span></span>
+<span data-ttu-id="cc58a-105">この資料には、管理者は Active Directory ドメインでのウイルス対策ソフトウェアで使用されている場合、サポートされているバージョンの Microsoft Windows を実行しているコンピューター上の潜在的な不安定の原因を特定するのに役立つ推奨事項が含まれています。環境またはマネージ ビジネス環境です。</span><span class="sxs-lookup"><span data-stu-id="cc58a-105">This article contains recommendations that may help an administrator determine the cause of potential instability on a computer that is running a supported version of Microsoft Windows when it is used with antivirus software in an Active Directory domain environment or in a managed business environment.</span></span>
 
-<span data-ttu-id="17420-106">システムを評価するためにこれらの手順を一時的に適用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="17420-106">We recommend that you temporarily apply these procedures to evaluate a system.</span></span> <span data-ttu-id="17420-107">場合はここで行われるための推奨事項により、システムのパフォーマンスや安定性が向上し、またはウイルス対策ソフトウェアの更新されたバージョンの手順については、ウイルス対策ソフトウェアの製造元に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="17420-107">If your system performance or stability is improved by the recommendations that are made in this article, contact your antivirus software vendor for instructions or for an updated version of the antivirus software.</span></span>
+<span data-ttu-id="cc58a-106">システムを評価するためにこれらの手順を一時的に適用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="cc58a-106">We recommend that you temporarily apply these procedures to evaluate a system.</span></span> <span data-ttu-id="cc58a-107">場合はここで行われるための推奨事項により、システムのパフォーマンスや安定性が向上し、またはウイルス対策ソフトウェアの更新されたバージョンの手順については、ウイルス対策ソフトウェアの製造元に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="cc58a-107">If your system performance or stability is improved by the recommendations that are made in this article, contact your antivirus software vendor for instructions or for an updated version of the antivirus software.</span></span>
 
-<span data-ttu-id="17420-108">この資料には、セキュリティ設定を低くする方法、またはコンピューターのセキュリティ機能を一時的に無効する方法を示す情報が含まれています。</span><span class="sxs-lookup"><span data-stu-id="17420-108">This article contains information that shows how to help lower security settings or how to temporarily turn off security features on a computer.</span></span> <span data-ttu-id="17420-109">特定の問題の性質を理解するのにはこれらの変更を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="17420-109">You can make these changes to understand the nature of a specific problem.</span></span> <span data-ttu-id="17420-110">これらの変更を行う前に、特定の環境でこの回避策の実装に関連付けられているリスクを評価することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="17420-110">Before you make these changes, we recommend that you evaluate the risks that are associated with implementing this workaround in your particular environment.</span></span> <span data-ttu-id="17420-111">この回避策を実装する場合は、不要になったウイルス対策ソフトウェアによってスキャンされているファイルには、コンピューターを保護するために適切な追加の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="17420-111">If you implement this workaround, take any appropriate additional steps to help protect the computer for the files that are no longer being scanned by your antivirus software.</span></span>
+<span data-ttu-id="cc58a-108">この資料には、セキュリティ設定を低くする方法、またはコンピューターのセキュリティ機能を一時的に無効する方法を示す情報が含まれています。</span><span class="sxs-lookup"><span data-stu-id="cc58a-108">This article contains information that shows how to help lower security settings or how to temporarily turn off security features on a computer.</span></span> <span data-ttu-id="cc58a-109">特定の問題の性質を理解するのにはこれらの変更を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="cc58a-109">You can make these changes to understand the nature of a specific problem.</span></span> <span data-ttu-id="cc58a-110">これらの変更を行う前に、特定の環境でこの回避策の実装に関連付けられているリスクを評価することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="cc58a-110">Before you make these changes, we recommend that you evaluate the risks that are associated with implementing this workaround in your particular environment.</span></span> <span data-ttu-id="cc58a-111">この回避策を実装する場合は、不要になったウイルス対策ソフトウェアによってスキャンされているファイルには、コンピューターを保護するために適切な追加の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="cc58a-111">If you implement this workaround, take any appropriate additional steps to help protect the computer for the files that are no longer being scanned by your antivirus software.</span></span>
 
-<span data-ttu-id="17420-112">ウイルス対策スキャナーが、Skype のビジネス サーバーの操作に干渉しないことを確認するには、ウイルス対策スキャナーを実行するビジネスのサーバーまたはサーバーの役割の各 Skype の特定のプロセスおよびディレクトリを除外する必要があります。</span><span class="sxs-lookup"><span data-stu-id="17420-112">To ensure that the antivirus scanner does not interfere with the operation of Skype for Business Server, you must exclude specific processes and directories for each Skype for Business Server server or server role on which you run an antivirus scanner.</span></span> <span data-ttu-id="17420-113">除外が必要なプロセスとディレクトリを以下に示します。</span><span class="sxs-lookup"><span data-stu-id="17420-113">The following processes and directories should be excluded:</span></span>
+<span data-ttu-id="cc58a-112">ウイルス対策スキャナーが、Skype のビジネス サーバーの操作に干渉しないことを確認するには、ウイルス対策スキャナーを実行するビジネスのサーバーまたはサーバーの役割の各 Skype の特定のプロセスおよびディレクトリを除外する必要があります。</span><span class="sxs-lookup"><span data-stu-id="cc58a-112">To ensure that the antivirus scanner does not interfere with the operation of Skype for Business Server, you must exclude specific processes and directories for each Skype for Business Server server or server role on which you run an antivirus scanner.</span></span> <span data-ttu-id="cc58a-113">除外が必要なプロセスとディレクトリを以下に示します。</span><span class="sxs-lookup"><span data-stu-id="cc58a-113">The following processes and directories should be excluded:</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="17420-114">以下のフォルダーとファイルの場所は、Skype のビジネス サーバーの既定の場所です。</span><span class="sxs-lookup"><span data-stu-id="17420-114">Folder and file locations listed below are the default locations for Skype for Business Server.</span></span> <span data-ttu-id="17420-115">既定の設定を使用しなかったすべての場所については、ここに示す既定の場所の代わりに、組織で指定した場所を除外してください。</span><span class="sxs-lookup"><span data-stu-id="17420-115">For any locations for which you did not use the default, exclude the locations you specified for your organization instead of the default locations specified in this topic.</span></span>
+> <span data-ttu-id="cc58a-114">以下のフォルダーとファイルの場所は、Skype のビジネス サーバーの既定の場所です。</span><span class="sxs-lookup"><span data-stu-id="cc58a-114">Folder and file locations listed below are the default locations for Skype for Business Server.</span></span> <span data-ttu-id="cc58a-115">既定の設定を使用しなかったすべての場所については、ここに示す既定の場所の代わりに、組織で指定した場所を除外してください。</span><span class="sxs-lookup"><span data-stu-id="cc58a-115">For any locations for which you did not use the default, exclude the locations you specified for your organization instead of the default locations specified in this topic.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="17420-116">一部のウイルス対策プログラムでは、除外リストに相対パスでなく絶対パスが必要な場合があります。</span><span class="sxs-lookup"><span data-stu-id="17420-116">Please note that some antivirus programs may need absolute, not relative paths, for their exclusion list.</span></span>
+> <span data-ttu-id="cc58a-116">一部のウイルス対策プログラムでは、除外リストに相対パスでなく絶対パスが必要な場合があります。</span><span class="sxs-lookup"><span data-stu-id="cc58a-116">Please note that some antivirus programs may need absolute, not relative paths, for their exclusion list.</span></span>
 
-- <span data-ttu-id="17420-117">ビジネス サーバー用の Skype を処理します。</span><span class="sxs-lookup"><span data-stu-id="17420-117">Skype for Business Server processes:</span></span>
+- <span data-ttu-id="cc58a-117">ビジネス サーバー用の Skype を処理します。</span><span class="sxs-lookup"><span data-stu-id="cc58a-117">Skype for Business Server processes:</span></span>
 
-  - <span data-ttu-id="17420-118">ABServer.exe</span><span class="sxs-lookup"><span data-stu-id="17420-118">ABServer.exe</span></span>
+  - <span data-ttu-id="cc58a-118">ABServer.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-118">ABServer.exe</span></span>
 
-  - <span data-ttu-id="17420-119">ASMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="17420-119">ASMCUSvc.exe</span></span>
+  - <span data-ttu-id="cc58a-119">ASMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-119">ASMCUSvc.exe</span></span>
 
-  - <span data-ttu-id="17420-120">AVMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="17420-120">AVMCUSvc.exe</span></span>
+  - <span data-ttu-id="cc58a-120">AVMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-120">AVMCUSvc.exe</span></span>
 
-  - <span data-ttu-id="17420-121">ChannelService.exe</span><span class="sxs-lookup"><span data-stu-id="17420-121">ChannelService.exe</span></span>
+  - <span data-ttu-id="cc58a-121">ChannelService.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-121">ChannelService.exe</span></span>
 
-  - <span data-ttu-id="17420-122">ClsAgent.exe</span><span class="sxs-lookup"><span data-stu-id="17420-122">ClsAgent.exe</span></span>
+  - <span data-ttu-id="cc58a-122">ClsAgent.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-122">ClsAgent.exe</span></span>
 
-  - <span data-ttu-id="17420-123">ComplianceService.exe</span><span class="sxs-lookup"><span data-stu-id="17420-123">ComplianceService.exe</span></span>
+  - <span data-ttu-id="cc58a-123">ComplianceService.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-123">ComplianceService.exe</span></span>
 
-  - <span data-ttu-id="17420-124">DataMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="17420-124">DataMCUSvc.exe</span></span>
+  - <span data-ttu-id="cc58a-124">DataMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-124">DataMCUSvc.exe</span></span>
 
-  - <span data-ttu-id="17420-125">DataProxy.exe</span><span class="sxs-lookup"><span data-stu-id="17420-125">DataProxy.exe</span></span>
+  - <span data-ttu-id="cc58a-125">DataProxy.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-125">DataProxy.exe</span></span>
 
-  - <span data-ttu-id="17420-126">FileTransferAgent.exe</span><span class="sxs-lookup"><span data-stu-id="17420-126">FileTransferAgent.exe</span></span>
+  - <span data-ttu-id="cc58a-126">FileTransferAgent.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-126">FileTransferAgent.exe</span></span>
 
-  - <span data-ttu-id="17420-127">HealthAgent.exe</span><span class="sxs-lookup"><span data-stu-id="17420-127">HealthAgent.exe</span></span>
+  - <span data-ttu-id="cc58a-127">HealthAgent.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-127">HealthAgent.exe</span></span>
 
-  - <span data-ttu-id="17420-128">IMMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="17420-128">IMMCUSvc.exe</span></span>
+  - <span data-ttu-id="cc58a-128">IMMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-128">IMMCUSvc.exe</span></span>
   
-  - <span data-ttu-id="17420-129">LyncBackupService.exe</span><span class="sxs-lookup"><span data-stu-id="17420-129">LyncBackupService.exe</span></span>
+  - <span data-ttu-id="cc58a-129">LyncBackupService.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-129">LyncBackupService.exe</span></span>
 
-  - <span data-ttu-id="17420-130">LysSvc.exe</span><span class="sxs-lookup"><span data-stu-id="17420-130">LysSvc.exe</span></span>
+  - <span data-ttu-id="cc58a-130">LysSvc.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-130">LysSvc.exe</span></span>
 
-  - <span data-ttu-id="17420-131">MasterReplicatorAgent.exe</span><span class="sxs-lookup"><span data-stu-id="17420-131">MasterReplicatorAgent.exe</span></span>
+  - <span data-ttu-id="cc58a-131">MasterReplicatorAgent.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-131">MasterReplicatorAgent.exe</span></span>
 
-  - <span data-ttu-id="17420-132">MediaRelaySvc.exe</span><span class="sxs-lookup"><span data-stu-id="17420-132">MediaRelaySvc.exe</span></span>
+  - <span data-ttu-id="cc58a-132">MediaRelaySvc.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-132">MediaRelaySvc.exe</span></span>
 
-  - <span data-ttu-id="17420-133">MediationServerSvc.exe</span><span class="sxs-lookup"><span data-stu-id="17420-133">MediationServerSvc.exe</span></span>
+  - <span data-ttu-id="cc58a-133">MediationServerSvc.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-133">MediationServerSvc.exe</span></span>
 
-  - <span data-ttu-id="17420-134">MRASSvc.exe</span><span class="sxs-lookup"><span data-stu-id="17420-134">MRASSvc.exe</span></span>
+  - <span data-ttu-id="cc58a-134">MRASSvc.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-134">MRASSvc.exe</span></span>
 
-  - <span data-ttu-id="17420-135">OcsAppServerHost.exe</span><span class="sxs-lookup"><span data-stu-id="17420-135">OcsAppServerHost.exe</span></span>
+  - <span data-ttu-id="cc58a-135">OcsAppServerHost.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-135">OcsAppServerHost.exe</span></span>
 
-  - <span data-ttu-id="17420-136">ReplicaReplicatorAgent.exe</span><span class="sxs-lookup"><span data-stu-id="17420-136">ReplicaReplicatorAgent.exe</span></span>
+  - <span data-ttu-id="cc58a-136">ReplicaReplicatorAgent.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-136">ReplicaReplicatorAgent.exe</span></span>
 
-  - <span data-ttu-id="17420-137">ReplicationApp.exe</span><span class="sxs-lookup"><span data-stu-id="17420-137">ReplicationApp.exe</span></span>
+  - <span data-ttu-id="cc58a-137">ReplicationApp.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-137">ReplicationApp.exe</span></span>
 
-  - <span data-ttu-id="17420-138">RtcHost.exe</span><span class="sxs-lookup"><span data-stu-id="17420-138">RtcHost.exe</span></span>
+  - <span data-ttu-id="cc58a-138">RtcHost.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-138">RtcHost.exe</span></span>
 
-  - <span data-ttu-id="17420-139">RTCSrv.exe</span><span class="sxs-lookup"><span data-stu-id="17420-139">RTCSrv.exe</span></span>
+  - <span data-ttu-id="cc58a-139">RTCSrv.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-139">RTCSrv.exe</span></span>
 
-  - <span data-ttu-id="17420-140">XmppProxy.exe</span><span class="sxs-lookup"><span data-stu-id="17420-140">XmppProxy.exe</span></span>
+  - <span data-ttu-id="cc58a-140">XmppProxy.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-140">XmppProxy.exe</span></span>
 
-  - <span data-ttu-id="17420-141">XmppTGW.exe</span><span class="sxs-lookup"><span data-stu-id="17420-141">XmppTGW.exe</span></span>
+  - <span data-ttu-id="cc58a-141">XmppTGW.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-141">XmppTGW.exe</span></span>
 
-- <span data-ttu-id="17420-142">Windows Fabric Host Service のプロセス:</span><span class="sxs-lookup"><span data-stu-id="17420-142">Windows Fabric Host Service processes:</span></span>
+- <span data-ttu-id="cc58a-142">Windows Fabric Host Service のプロセス:</span><span class="sxs-lookup"><span data-stu-id="cc58a-142">Windows Fabric Host Service processes:</span></span>
 
-  - <span data-ttu-id="17420-143">Fabric.exe</span><span class="sxs-lookup"><span data-stu-id="17420-143">Fabric.exe</span></span>
+  - <span data-ttu-id="cc58a-143">Fabric.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-143">Fabric.exe</span></span>
 
-  - <span data-ttu-id="17420-144">FabricDCA.exe</span><span class="sxs-lookup"><span data-stu-id="17420-144">FabricDCA.exe</span></span>
+  - <span data-ttu-id="cc58a-144">FabricDCA.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-144">FabricDCA.exe</span></span>
 
-  - <span data-ttu-id="17420-145">FabricHost.exe</span><span class="sxs-lookup"><span data-stu-id="17420-145">FabricHost.exe</span></span>
+  - <span data-ttu-id="cc58a-145">FabricHost.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-145">FabricHost.exe</span></span>
 
-- <span data-ttu-id="17420-146">IIS のプロセス:</span><span class="sxs-lookup"><span data-stu-id="17420-146">IIS processes:</span></span>
+- <span data-ttu-id="cc58a-146">IIS のプロセス:</span><span class="sxs-lookup"><span data-stu-id="cc58a-146">IIS processes:</span></span>
 
-  - <span data-ttu-id="17420-147">%systemroot%\system32\inetsrv\w3wp.exe</span><span class="sxs-lookup"><span data-stu-id="17420-147">%systemroot%\system32\inetsrv\w3wp.exe</span></span>
+  - <span data-ttu-id="cc58a-147">%systemroot%\system32\inetsrv\w3wp.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-147">%systemroot%\system32\inetsrv\w3wp.exe</span></span>
 
-  - <span data-ttu-id="17420-148">%systemroot%\SysWOW64\inetsrv\w3wp.exe</span><span class="sxs-lookup"><span data-stu-id="17420-148">%systemroot%\SysWOW64\inetsrv\w3wp.exe</span></span>
+  - <span data-ttu-id="cc58a-148">%systemroot%\SysWOW64\inetsrv\w3wp.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-148">%systemroot%\SysWOW64\inetsrv\w3wp.exe</span></span>
 
-- <span data-ttu-id="17420-149">SQL Server バックエンドのプロセス:</span><span class="sxs-lookup"><span data-stu-id="17420-149">SQL Server Back-End processes:</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="17420-150">これらのパスは、SQL Server バージョン固有のパスです。</span><span class="sxs-lookup"><span data-stu-id="17420-150">Note that these paths are specific to SQL Server version.</span></span>
-
-  - <span data-ttu-id="17420-151">%ProgramFiles%\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\Binn\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="17420-151">%ProgramFiles%\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\Binn\SQLServr.exe</span></span>
-
-  - <span data-ttu-id="17420-152">%ProgramFiles%\Microsoft SQL Server\MSRS11.MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe</span><span class="sxs-lookup"><span data-stu-id="17420-152">%ProgramFiles%\Microsoft SQL Server\MSRS11.MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe</span></span>
-
-  - <span data-ttu-id="17420-153">%ProgramFiles%\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Bin\MSMDSrv.exe</span><span class="sxs-lookup"><span data-stu-id="17420-153">%ProgramFiles%\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Bin\MSMDSrv.exe</span></span>
-
-- <span data-ttu-id="17420-154">SQL Server フロントエンドのプロセス:</span><span class="sxs-lookup"><span data-stu-id="17420-154">SQL Server Front-End processes:</span></span>
-
-  - <span data-ttu-id="17420-155">%ProgramFiles%\Microsoft SQL Server\MSSQL12.LYNCLOCAL\MSSQL\Binn\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="17420-155">%ProgramFiles%\Microsoft SQL Server\MSSQL12.LYNCLOCAL\MSSQL\Binn\SQLServr.exe</span></span>
-
-  - <span data-ttu-id="17420-156">%ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="17420-156">%ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe</span></span>
-
-  - <span data-ttu-id="17420-157">Standard Edition インストールの RTC インスタンス</span><span class="sxs-lookup"><span data-stu-id="17420-157">Standard Edition Installation RTC Instance</span></span>
-
-  - <span data-ttu-id="17420-158">%ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="17420-158">%ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe</span></span>
-
-- <span data-ttu-id="17420-159">ディレクトリとファイル:</span><span class="sxs-lookup"><span data-stu-id="17420-159">Directories and files:</span></span>
-
-  - <span data-ttu-id="17420-160">%systemroot%\System32\LogFiles</span><span class="sxs-lookup"><span data-stu-id="17420-160">%systemroot%\System32\LogFiles</span></span>
-
-  - <span data-ttu-id="17420-161">%systemroot%\SysWow64\LogFiles</span><span class="sxs-lookup"><span data-stu-id="17420-161">%systemroot%\SysWow64\LogFiles</span></span>
-
-  - <span data-ttu-id="17420-162">%systemroot%\Microsoft.NET\assembly\GAC_MSIL</span><span class="sxs-lookup"><span data-stu-id="17420-162">%systemroot%\Microsoft.NET\assembly\GAC_MSIL</span></span>
+- <span data-ttu-id="cc58a-149">SQL Server バックエンドのプロセス:</span><span class="sxs-lookup"><span data-stu-id="cc58a-149">SQL Server Back-End processes:</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="17420-163">これらのパスがビジネスのサーバーのバージョンの Skype に固有に注意してください。</span><span class="sxs-lookup"><span data-stu-id="17420-163">Note that these paths are specific to Skype for Business Server version.</span></span>
+    > <span data-ttu-id="cc58a-150">これらのパスは、SQL Server バージョン固有のパスです。</span><span class="sxs-lookup"><span data-stu-id="cc58a-150">Note that these paths are specific to SQL Server version.</span></span>
 
-  - <span data-ttu-id="17420-164">%programfiles%\Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="17420-164">%programfiles%\Skype for Business Server 2015</span></span>
+  - <span data-ttu-id="cc58a-151">%ProgramFiles%\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\Binn\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-151">%ProgramFiles%\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\Binn\SQLServr.exe</span></span>
 
-  - <span data-ttu-id="17420-165">%programfiles%\Common Files\Skype for Business Server 2015\Watcher Node</span><span class="sxs-lookup"><span data-stu-id="17420-165">%programfiles%\Common Files\Skype for Business Server 2015\Watcher Node</span></span>
+  - <span data-ttu-id="cc58a-152">%ProgramFiles%\Microsoft SQL Server\MSRS11.MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-152">%ProgramFiles%\Microsoft SQL Server\MSRS11.MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe</span></span>
 
-  - <span data-ttu-id="17420-166">%programfiles%\Common Files\Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="17420-166">%programfiles%\Common Files\Skype for Business Server 2015</span></span>
+  - <span data-ttu-id="cc58a-153">%ProgramFiles%\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Bin\MSMDSrv.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-153">%ProgramFiles%\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Bin\MSMDSrv.exe</span></span>
 
-  - <span data-ttu-id="17420-167">%programfiles%\Common Files\Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="17420-167">%programfiles%\Common Files\Skype for Business Online</span></span>
+- <span data-ttu-id="cc58a-154">SQL Server フロントエンドのプロセス:</span><span class="sxs-lookup"><span data-stu-id="cc58a-154">SQL Server Front-End processes:</span></span>
 
-  - <span data-ttu-id="17420-168">%SystemDrive%\RtcReplicaRoot</span><span class="sxs-lookup"><span data-stu-id="17420-168">%SystemDrive%\RtcReplicaRoot</span></span>
+  - <span data-ttu-id="cc58a-155">%ProgramFiles%\Microsoft SQL Server\MSSQL12.LYNCLOCAL\MSSQL\Binn\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-155">%ProgramFiles%\Microsoft SQL Server\MSSQL12.LYNCLOCAL\MSSQL\Binn\SQLServr.exe</span></span>
 
-  - <span data-ttu-id="17420-p105">ファイル共有ストア (トポロジ ビルダーで指定)。ファイル ストアはトポロジ ビルダーで指定されています。</span><span class="sxs-lookup"><span data-stu-id="17420-p105">File share store (specified in Topology Builder). File stores are specified in Topology Builder.</span></span>
+  - <span data-ttu-id="cc58a-156">%ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-156">%ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe</span></span>
 
-  - <span data-ttu-id="17420-p106">SQL Server のデータおよびログ ファイル (バックエンド データベース、ユーザー ストア、アーカイブ ストア、監視ストア、およびアプリケーション ストア用のものを含みます)。データベースとログ ファイルは、トポロジ ビルダーで指定できます。既定の名前など、各データベースのデータおよびログ ファイルの詳細については、「展開」のドキュメントの「[SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="17420-p106">SQL Server data and log files, including those for the back-end database, user store, archiving store, monitoring store, and application store. Database and log files can be specified in Topology Builder. For details about the data and log files for each database, including default names, see [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) in the Deployment documentation.</span></span>
+  - <span data-ttu-id="cc58a-157">Standard Edition インストールの RTC インスタンス</span><span class="sxs-lookup"><span data-stu-id="cc58a-157">Standard Edition Installation RTC Instance</span></span>
 
-  - <span data-ttu-id="17420-174">SQL Server データ ファイルとログ ファイル、Skype ビジネス ストア、および RtcDatabase のストアのフロント エンド データベースを含みます。</span><span class="sxs-lookup"><span data-stu-id="17420-174">SQL Server data and log files, including those for the Front-end database, Skype for Business store, and RtcDatabase store.</span></span> <span data-ttu-id="17420-175">これらは通常、%localdrive%\CSData の下位にあります。</span><span class="sxs-lookup"><span data-stu-id="17420-175">They are normally under %localdrive%\CSData.</span></span>
+  - <span data-ttu-id="cc58a-158">%ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="cc58a-158">%ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe</span></span>
+
+- <span data-ttu-id="cc58a-159">ディレクトリとファイル:</span><span class="sxs-lookup"><span data-stu-id="cc58a-159">Directories and files:</span></span>
+
+  - <span data-ttu-id="cc58a-160">%systemroot%\System32\LogFiles</span><span class="sxs-lookup"><span data-stu-id="cc58a-160">%systemroot%\System32\LogFiles</span></span>
+
+  - <span data-ttu-id="cc58a-161">%systemroot%\SysWow64\LogFiles</span><span class="sxs-lookup"><span data-stu-id="cc58a-161">%systemroot%\SysWow64\LogFiles</span></span>
+
+  - <span data-ttu-id="cc58a-162">%systemroot%\Microsoft.NET\assembly\GAC_MSIL</span><span class="sxs-lookup"><span data-stu-id="cc58a-162">%systemroot%\Microsoft.NET\assembly\GAC_MSIL</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="cc58a-163">これらのパスがビジネスのサーバーのバージョンの Skype に固有に注意してください。</span><span class="sxs-lookup"><span data-stu-id="cc58a-163">Note that these paths are specific to Skype for Business Server version.</span></span>
+
+  - <span data-ttu-id="cc58a-164">%programfiles%\Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="cc58a-164">%programfiles%\Skype for Business Server 2015</span></span>
+
+  - <span data-ttu-id="cc58a-165">%programfiles%\Common Files\Skype for Business Server 2015\Watcher Node</span><span class="sxs-lookup"><span data-stu-id="cc58a-165">%programfiles%\Common Files\Skype for Business Server 2015\Watcher Node</span></span>
+
+  - <span data-ttu-id="cc58a-166">%programfiles%\Common Files\Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="cc58a-166">%programfiles%\Common Files\Skype for Business Server 2015</span></span>
+
+  - <span data-ttu-id="cc58a-167">%programfiles%\Common Files\Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="cc58a-167">%programfiles%\Common Files\Skype for Business Online</span></span>
+
+  - <span data-ttu-id="cc58a-168">%SystemDrive%\RtcReplicaRoot</span><span class="sxs-lookup"><span data-stu-id="cc58a-168">%SystemDrive%\RtcReplicaRoot</span></span>
+
+  - <span data-ttu-id="cc58a-p105">ファイル共有ストア (トポロジ ビルダーで指定)。ファイル ストアはトポロジ ビルダーで指定されています。</span><span class="sxs-lookup"><span data-stu-id="cc58a-p105">File share store (specified in Topology Builder). File stores are specified in Topology Builder.</span></span>
+
+  - <span data-ttu-id="cc58a-p106">SQL Server のデータおよびログ ファイル (バックエンド データベース、ユーザー ストア、アーカイブ ストア、監視ストア、およびアプリケーション ストア用のものを含みます)。データベースとログ ファイルは、トポロジ ビルダーで指定できます。既定の名前など、各データベースのデータおよびログ ファイルの詳細については、「展開」のドキュメントの「[SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cc58a-p106">SQL Server data and log files, including those for the back-end database, user store, archiving store, monitoring store, and application store. Database and log files can be specified in Topology Builder. For details about the data and log files for each database, including default names, see [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) in the Deployment documentation.</span></span>
+
+  - <span data-ttu-id="cc58a-174">SQL Server データ ファイルとログ ファイル、Skype ビジネス ストア、および RtcDatabase のストアのフロント エンド データベースを含みます。</span><span class="sxs-lookup"><span data-stu-id="cc58a-174">SQL Server data and log files, including those for the Front-end database, Skype for Business store, and RtcDatabase store.</span></span> <span data-ttu-id="cc58a-175">これらは通常、%localdrive%\CSData の下位にあります。</span><span class="sxs-lookup"><span data-stu-id="cc58a-175">They are normally under %localdrive%\CSData.</span></span>
 
 

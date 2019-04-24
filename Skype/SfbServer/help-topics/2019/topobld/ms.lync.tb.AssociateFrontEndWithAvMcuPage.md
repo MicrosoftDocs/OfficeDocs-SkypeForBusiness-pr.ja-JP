@@ -14,16 +14,16 @@ ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 ROBOTS: NOINDEX, NOFOLLOW
 description: A V 会議により、リアルタイムのオーディオおよびビデオの通信、ユーザーの間でと (つまり、ヘッドセット、オーディオ会議、ビデオ会議用の web カメラなどの適切なクライアント デバイスがある) 場合です。 展開が会議をサポートし、web 会議および A の両方を有効にするかどうかは V の会議に集約できます/A/V 会議サーバー、フロント エンド サーバー)、または 1 つまたは複数のスタンドアロン A を展開することができます/V 会議サーバー (A/V 会議プール). スタンドアロン A を展開するためのオプションを選択するかどうかは V 会議サーバーでは、必要がありますで定義したトポロジ ビルダーとします。
 ms.openlocfilehash: 7c0f8d3b265aabb85373013fbc3caadfba8e0eb8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202519"
 ---
-# <a name="associate-front-end-with-av-mcu"></a><span data-ttu-id="7d9b6-105">フロントエンドと AV MCU の関連付け</span><span class="sxs-lookup"><span data-stu-id="7d9b6-105">Associate Front End With AV MCU</span></span>
+# <a name="associate-front-end-with-av-mcu"></a><span data-ttu-id="9c707-105">フロントエンドと AV MCU の関連付け</span><span class="sxs-lookup"><span data-stu-id="9c707-105">Associate Front End With AV MCU</span></span>
  
-<span data-ttu-id="7d9b6-106">A V 会議により、リアルタイムのオーディオおよびビデオの通信、ユーザーの間でと (つまり、ヘッドセット、オーディオ会議、ビデオ会議用の web カメラなどの適切なクライアント デバイスがある) 場合です。</span><span class="sxs-lookup"><span data-stu-id="7d9b6-106">A/V Conferencing enables real-time audio and video communications between your users (that is, if they have appropriate client devices, such as headsets for audio conferences, and webcams for video conferences).</span></span> <span data-ttu-id="7d9b6-107">展開が会議をサポートし、web 会議および A の両方を有効にするかどうかは V の会議に集約できます/A/V 会議サーバー、フロント エンド サーバー)、または 1 つまたは複数のスタンドアロン A を展開することができます/V 会議サーバー (A/V 会議プール).</span><span class="sxs-lookup"><span data-stu-id="7d9b6-107">If your deployment supports conferencing and you enable both web conferencing and A/V Conferencing, you can collocate the A/V Conferencing Server with the Front End Server), or you can deploy one or more stand-alone A/V Conferencing Servers (A/V Conferencing pool).</span></span> <span data-ttu-id="7d9b6-108">スタンドアロン A を展開するためのオプションを選択するかどうかは V 会議サーバーでは、必要がありますで定義したトポロジ ビルダーとします。</span><span class="sxs-lookup"><span data-stu-id="7d9b6-108">If you choose the option to deploy a stand-alone A/V Conferencing Server, you must define it in Topology Builder.</span></span>
+<span data-ttu-id="9c707-106">A V 会議により、リアルタイムのオーディオおよびビデオの通信、ユーザーの間でと (つまり、ヘッドセット、オーディオ会議、ビデオ会議用の web カメラなどの適切なクライアント デバイスがある) 場合です。</span><span class="sxs-lookup"><span data-stu-id="9c707-106">A/V Conferencing enables real-time audio and video communications between your users (that is, if they have appropriate client devices, such as headsets for audio conferences, and webcams for video conferences).</span></span> <span data-ttu-id="9c707-107">展開が会議をサポートし、web 会議および A の両方を有効にするかどうかは V の会議に集約できます/A/V 会議サーバー、フロント エンド サーバー)、または 1 つまたは複数のスタンドアロン A を展開することができます/V 会議サーバー (A/V 会議プール).</span><span class="sxs-lookup"><span data-stu-id="9c707-107">If your deployment supports conferencing and you enable both web conferencing and A/V Conferencing, you can collocate the A/V Conferencing Server with the Front End Server), or you can deploy one or more stand-alone A/V Conferencing Servers (A/V Conferencing pool).</span></span> <span data-ttu-id="9c707-108">スタンドアロン A を展開するためのオプションを選択するかどうかは V 会議サーバーでは、必要がありますで定義したトポロジ ビルダーとします。</span><span class="sxs-lookup"><span data-stu-id="9c707-108">If you choose the option to deploy a stand-alone A/V Conferencing Server, you must define it in Topology Builder.</span></span>
   
-<span data-ttu-id="7d9b6-109">サイトのすべてのプールと複数の中央サイトのプールには、同じ A を使用できます/V 会議サーバーは、使用量が A の容量を超えていない場合/V 会議サーバーです。</span><span class="sxs-lookup"><span data-stu-id="7d9b6-109">All pools at a site and the pools of multiple central sites can use the same A/V Conferencing Server, if usage does not exceed the capacity of the A/V Conferencing Server.</span></span> 
+<span data-ttu-id="9c707-109">サイトのすべてのプールと複数の中央サイトのプールには、同じ A を使用できます/V 会議サーバーは、使用量が A の容量を超えていない場合/V 会議サーバーです。</span><span class="sxs-lookup"><span data-stu-id="9c707-109">All pools at a site and the pools of multiple central sites can use the same A/V Conferencing Server, if usage does not exceed the capacity of the A/V Conferencing Server.</span></span> 
   
 
