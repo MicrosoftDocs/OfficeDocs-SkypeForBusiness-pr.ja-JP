@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: 現代の認証 (これは、Active Directory 認証ライブラリ (ADAL) と OAuth 2.0 に基づく) 2016年 3 月を参照しているを使用する方法を説明するビジネス サーバー 2015 の Skype のビジネス用の Skype 用の累積的な更新です。
 ms.openlocfilehash: d6e78d60371b56c3a2cc959ded0ec7d7394d82cb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32191524"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Skype for Business で先進認証 (ADAL) を使用する方法
  
