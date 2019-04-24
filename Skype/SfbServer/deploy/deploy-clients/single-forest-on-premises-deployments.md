@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: このトピックでは、単一フォレストのオンプレミス環境で Skype Room System を展開する方法について説明します。
 ms.openlocfilehash: 5fd9ab3f2a2e581f2f1675bea0f663b95cfa3eb5
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214997"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>単一フォレストのオンプレミス環境での Skype Room System の展開
  
@@ -25,7 +25,7 @@ ms.locfileid: "25699715"
   
 ## <a name="single-forest-on-premises-deployments"></a>単一フォレストのオンプレミス展開
 
-会議室用のリソース メールボックス アカウントが既存の場合は、そのアカウントを使用できます。 ない場合は、新しいアカウントを作成する必要があります。 新しいリソース メールボックス アカウントの作成には Exchange 管理シェル (PowerShell) または Exchange 管理コンソールを使用できます。 新しいを使用することをお勧めします。 (古いメールボックスを削除して再作成) Skype ルーム システムのリソース メールボックスです。 Outlook クライアントを使用して、削除する前にメールボックス データをバックアップし、作成し直したメールボックスにバックアップをあらためて読み込んでください (詳細については、「メッセージ、予定表、タスク、連絡先をエクスポートまたはバックアップする」を参照してください)。 メールボックスの削除で失われた会議を復元する方法については、「[削除されたメールボックスの接続または復元](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)」を参照してください。 
+会議室用のリソース メールボックス アカウントが既存の場合は、そのアカウントを使用できます。 ない場合は、新しいアカウントを作成する必要があります。 新しいリソース メールボックス アカウントの作成には Exchange 管理シェル (PowerShell) または Exchange 管理コンソールを使用できます。 新しいを使用することをお勧めします。 (古いメールボックスを削除して再作成) Skype ルーム システムのリソース メールボックスです。 Outlook クライアントを使用して、削除する前にメールボックス データをバックアップし、作成し直したメールボックスにバックアップをあらためて読み込んでください (詳細については、「メッセージ、予定表、タスク、連絡先をエクスポートまたはバックアップする」を参照してください)。 メールボックスを削除することによって失われた会議を復元するには、 [[接続] または [削除済みメールボックスの復元](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)を参照してください。 
   
 既存のリソース メールボックス アカウント (LRS-01 など) を使用するには、以下の手順に従います。
   

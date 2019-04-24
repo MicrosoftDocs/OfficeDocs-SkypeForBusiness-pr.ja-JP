@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream テーブルには、ネットワーク ストリームのアプリケーションを共有するために使用される高品質なエクスペリエンスの測定基準が含まれています。 このテーブルは、Microsoft Lync Server 2013 で導入されました。
 ms.openlocfilehash: 8e01cc4d35269b34e3e6fba13fd331139e3f7ae7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212342"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream テーブル
  

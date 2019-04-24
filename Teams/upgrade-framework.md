@@ -7,7 +7,7 @@ ms.date: 12/18/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: チームへのビジネスのための Skype から、組織のアップグレードの旅を支援する実証済みの成功フレームワークを使用してください。
+description: 確実な実績のあるフレームワークを使用して、Skype for Business から Teams に組織のアップグレードの過程をサポートする
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: cf114075b4c35b19beeab9a4c28a1ade97330300
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227654"
 ---
 # <a name="about-the-upgrade-framework"></a>アップグレードのフレームワークについて
 
@@ -29,7 +29,7 @@ ms.locfileid: "30649277"
 
 最初に右の利害関係者を統合することと定義のアップグレードの計画 (例えば。 スコープ、目標、およびタイムライン)。 計画を確立するには、技術的な環境や、エンド ・ ユーザーは、チームの準備ができていることを確認します。 アップグレードを実装段階では、パイロットから組織全体のアップグレード準備ができたときに移動します。 組織は、チームでは後の品質を監視し、ユーザーの採用を加速する実践計画を確立します。
 
-![ことを確認して、プロジェクトは、適切なプロジェクト チームを成功に設定されています。プロジェクトのスコープ、目標、およびタイムラインを定義します。技術とユーザーの両方の準備を確認します。ロールアウト計画を実行します。結果を最大化するための勢いを維持します]。(media/upgrade-banner-main.png "アップグレードに向けてスタートしましょう")
+![プロジェクトが適切なプロジェクトチームの成功のために設定されていることを確認してください。プロジェクトの範囲、目標、およびスケジュールを定義します。技術的な準備とユーザーの準備を確認します。展開計画を実行します。結果を最大化するために推進力を維持します。](media/upgrade-banner-main.png "アップグレードの行程を始める")
 
 このフレームワークのグラフィック関連のページは、アップグレード ・ プロセスであるかを識別するを確認します。
 

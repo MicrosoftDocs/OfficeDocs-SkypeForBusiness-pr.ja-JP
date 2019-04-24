@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: このセクションでは、サーバーのビジネス クラスとその他のクラスに組み込むことができるクラスの各 Skype で組み込むことができるスキーマの属性を一覧表示します。 すべてのクラスとその説明のリストは、スキーマのクラスおよびビジネス サーバーの Skype での説明を参照してください。 すべての属性とその説明のリストは、スキーマの属性および Skype ビジネス サーバーの説明を参照してください。
 ms.openlocfilehash: a2dc6ee09730c1245a3242f88ad25ad07f9b582a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213369"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Skype ビジネス サーバー用のクラスでのスキーマの属性
  

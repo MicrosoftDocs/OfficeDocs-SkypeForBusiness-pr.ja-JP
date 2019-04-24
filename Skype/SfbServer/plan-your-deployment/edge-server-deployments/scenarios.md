@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: '概要: ビジネス サーバーの Skype で、エッジ サーバーのトポロジを計画するためのこれらのシナリオを確認します。'
 ms.openlocfilehash: 26bdb7e007c3ba0da6c5590db4c1e6953e43e701
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32208909"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Skype のビジネス サーバーのサーバーのシナリオをエッジします。
  

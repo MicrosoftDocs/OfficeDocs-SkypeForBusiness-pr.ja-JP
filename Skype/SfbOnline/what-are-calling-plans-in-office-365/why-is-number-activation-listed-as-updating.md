@@ -1,5 +1,5 @@
 ---
-title: 番号のアクティブ化が更新中として表示される理由
+title: 更新と番号のライセンス認証が表示されるはなぜですか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
 ms.openlocfilehash: dc1bf738f301dfc800b0e0e4975322fae6a1568e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227826"
 ---
-# <a name="why-is-number-activation-listed-as-updating"></a>番号のアクティブ化が更新中として表示される理由
+# <a name="why-is-number-activation-listed-as-updating"></a>更新と番号のライセンス認証が表示されるはなぜですか。
 
 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 場合は電話番号はアクティブにし、アドレスの検証のため**の更新**として表示されているいくつかの理由を作成し、サービス リクエストを送信する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
   
@@ -96,7 +96,7 @@ ms.locfileid: "25370711"
 > Office 365 管理センターの [**サービス リクエスト**] ページに、参照番号が表示されます。
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
   
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)

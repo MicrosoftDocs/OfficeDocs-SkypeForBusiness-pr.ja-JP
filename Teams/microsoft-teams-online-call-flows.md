@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チーム呼び出しのフロー
+title: Microsoft Teams 通話のフロー
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 description: チームがさまざまなトポロジでは、Office 365 のフローをどのように使用する方法について説明します。
 ms.openlocfilehash: ecdeb6dc4e1e7219dc8c01c710877437661e0ceb
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232160"
 ---
-# <a name="microsoft-teams-call-flows"></a>マイクロソフト チーム呼び出しのフロー
+# <a name="microsoft-teams-call-flows"></a>Microsoft Teams 通話のフロー
 
 > [!Tip]
 > チームが、ネットワークを活用する方法、および最適なネットワーク接続を計画する方法を説明するのには次のセッションを監視する:[チームのネットワークの計画](https://aka.ms/teams-networking)

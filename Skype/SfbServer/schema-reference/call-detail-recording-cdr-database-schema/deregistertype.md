@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
 description: DeRegisterType テーブルは、可能性のあるユーザーの一覧を格納する静的なテーブルが 'クライアントの開始'、'登録の期限が切れて' 'クライアントが応答を停止して' などの種類を登録解除
 ms.openlocfilehash: be6fd10388c9f85315554605fd491aafa9d3a0d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213194"
 ---
 # <a name="deregistertype-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での DeRegisterType テーブル
  

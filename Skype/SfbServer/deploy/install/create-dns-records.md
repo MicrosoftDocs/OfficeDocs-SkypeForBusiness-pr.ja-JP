@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: '概要: は、DNS を構成し、ビジネス サーバーの Skype のインストール用の DNS レコードを作成する方法を説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
 ms.openlocfilehash: 35e8aecea74cc74cda6ea086a1765642885a091e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210719"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Skype のビジネス サーバー用の DNS レコードを作成します。
  

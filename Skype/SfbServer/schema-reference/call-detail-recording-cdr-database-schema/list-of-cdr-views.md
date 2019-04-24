@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: ビューでは、CDR データベースからデータを返すために使用される最も一般的なシナリオに関する情報にアクセスする簡単な方法を提供します。 データベース テーブルの実際の CDR を使用する代わりにカスタム ・ レポートを構築するためのビューを使用することをお勧めデータベース ビューとは逆方向の将来のリリースとの互換性を維持する可能性が高いためにです。
 ms.openlocfilehash: 7767a80069201e5ec07ea68d4bdef3a6a5977e4d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213009"
 ---
 # <a name="list-of-cdr-views"></a>CDR ビューのリスト
  

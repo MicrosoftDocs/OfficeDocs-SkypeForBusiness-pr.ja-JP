@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '以前のバージョンでは、拡張可能なメッセージングおよびプレゼンス プロトコル (XMPP) ゲートウェイ XMPP 環境とのフェデレーションを許可する個別のサーバーの役割として展開されているが用意されています。 XMPP 機能が利用可能な & のビジネス サーバー 2019 の Skype では非推奨ではありません。 従来のバージョンと coexitence の環境で有効 XMPP の機能を続行する場合を (ビジネス サーバー 2015 の Skype と Lync Server 2013) です。 XMPP の機能は 2 つの部分のインストール: として、XMPP プロキシ上で動作する従来のエッジ サーバー、および XMPP ゲートウェイが従来のフロント エンド サーバー上で実行します。'
 ms.openlocfilehash: fa91741c1be8d80443363caba7c840b1d985d8f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231631"
 ---
 # <a name="migrating-xmpp-federation"></a>XMPP フェデレーションの移行
 

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2231b8d9d80507be863d1aef64e8aa0d91cddeec
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241710"
 ---
 # <a name="prepare-my-users"></a>ユーザーを準備する
 
@@ -153,5 +153,5 @@ ms.locfileid: "30569272"
 
 <table>
 <tr><th>通信</th><th>トレーニング</th><th>Support</th></tr>
-<tr><td><ul><li>電子メール&mdash;、<a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">ボイス ・ メール ・ テンプレート</a>をカスタマイズします。</li><li>ポスターやデジタル ・ サイネージ </li><li>イベントを起動します。</li><li>部署の責任者</li><li>チャンピオン</li><li>チームとチャネル</li><li>Gamification</li></ul></td><td><ul><li>記事および Microsoft からのビデオ:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">ビジネスの Skype からのチームに切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">チームのビデオ トレーニング</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">会議と呼び出し</a></li></li></ul><li>社内ヘルプ (ヘルプ)</li><li>社内トレーニング チーム</li><li>パートナー ・ トレーニング ・ チーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>外部委託のサポート デスク</li><li>セルフヘルプ (イントラネット サイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">オンライン ヘルプと使い方</a></li><li>床師とチャンピオン</li><li>フィードバック ループ&mdash;<a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">サンプルのユーザーからのフィードバックの調査</a>を参照してください。</li></td></tr>
+<tr><td><ul><li>電子メール&mdash;、<a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">ボイス ・ メール ・ テンプレート</a>をカスタマイズします。</li><li>ポスターやデジタル ・ サイネージ </li><li>イベントを起動します。</li><li>部署の責任者</li><li>チャンピオン</li><li>Teams とチャネル</li><li>Gamification</li></ul></td><td><ul><li>記事および Microsoft からのビデオ:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Skype for Business から Teams に切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">チームのビデオ トレーニング</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">会議と通話</a></li></li></ul><li>社内ヘルプ (ヘルプ)</li><li>社内トレーニング チーム</li><li>パートナー ・ トレーニング ・ チーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>外部委託のサポート デスク</li><li>セルフヘルプ (イントラネット サイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">オンライン ヘルプと使い方</a></li><li>床師とチャンピオン</li><li>フィードバック ループ&mdash;<a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">サンプルのユーザーからのフィードバックの調査</a>を参照してください。</li></td></tr>
 </table>

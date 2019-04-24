@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue は、Node テーブルで使用されている属性の表示/非表示と動作の値を含むハードコーディングされたテーブルです。
 ms.openlocfilehash: 579b2747ea753b8a701d11dd806178427cbb27b3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212881"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
