@@ -14,21 +14,21 @@ localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: 229dc2e2e26f17839e0660e242af746c7ce64eaf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220001"
 ---
-# <a name="web-service-security-settings"></a><span data-ttu-id="41ee9-104">Web サービスのセキュリティ設定</span><span class="sxs-lookup"><span data-stu-id="41ee9-104">Web Service Security Settings</span></span>
+# <a name="web-service-security-settings"></a><span data-ttu-id="90e6d-104">Web サービスのセキュリティ設定</span><span class="sxs-lookup"><span data-stu-id="90e6d-104">Web Service Security Settings</span></span>
 
-<span data-ttu-id="41ee9-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="41ee9-105">What do you want to do?</span></span> <span data-ttu-id="41ee9-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="41ee9-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="90e6d-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="90e6d-105">What do you want to do?</span></span> <span data-ttu-id="90e6d-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="90e6d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="41ee9-107">Skype for Business 2015 での Web サービス構成設定の管理</span><span class="sxs-lookup"><span data-stu-id="41ee9-107">Manage Web Service configuration settings in Skype for Business Server 2015</span></span>](../../manage/authentication/web-service-configuration-settings.md)
+- [<span data-ttu-id="90e6d-107">Skype for Business 2015 での Web サービス構成設定の管理</span><span class="sxs-lookup"><span data-stu-id="90e6d-107">Manage Web Service configuration settings in Skype for Business Server 2015</span></span>](../../manage/authentication/web-service-configuration-settings.md)
 
-- [<span data-ttu-id="41ee9-108">既存の Web サービスを変更します。</span><span class="sxs-lookup"><span data-stu-id="41ee9-108">Modify an Existing Web Service</span></span>](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
+- [<span data-ttu-id="90e6d-108">既存の Web サービスを変更します。</span><span class="sxs-lookup"><span data-stu-id="90e6d-108">Modify an Existing Web Service</span></span>](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
 
-- [<span data-ttu-id="41ee9-109">Web サービスを削除します。</span><span class="sxs-lookup"><span data-stu-id="41ee9-109">Delete a Web Service</span></span>](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
+- [<span data-ttu-id="90e6d-109">Web サービスを削除します。</span><span class="sxs-lookup"><span data-stu-id="90e6d-109">Delete a Web Service</span></span>](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
 
-<span data-ttu-id="41ee9-110">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="41ee9-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="90e6d-110">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="90e6d-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
