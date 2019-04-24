@@ -3,8 +3,8 @@ layout: HubPage
 hide_bc: true
 title: Microsoft Teams のテクニカル ドキュメンテーション
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: lolaj
+author: lolajacobsen
 description: Microsoft Teams のテクニカル ドキュメンテーション
 ms.topic: hub-page
 localization_priority: Priority
@@ -13,12 +13,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 4c62c045bde4492ac4035145d3460ea7f7eea5af
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: 71b751e66f2067c9131aceef13f87c7487495895
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026043"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959141"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -44,43 +44,6 @@ ms.locfileid: "31026043"
                                             <div class="cardText">
                                                 <h3>Teams へようこそ</h3>
                                                 <P>Teams の概要を確認し、Teams 管理者または IT 技術者として必要な技術サポートを把握します</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li>
-                           <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams"><div class="cardSize">
-                                <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="Deploy" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Teams のロールアウト方法</h3>
-                                                <P>中小規模の企業の場合も多国籍企業の場合も、正しく Teams をロールアウトするには、ここから始めてください</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li> 
-                            <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>使用を開始する</h3>
-                                                <P>クイック スタート ガイドを使用すると、2 ～ 3 のチームとチャネルを使ってすぐに開始できます。</p>
                                             </div>
                                         </div>
                                     </div>
@@ -144,10 +107,85 @@ ms.locfileid: "31026043"
                                 </div>
                             </a>
                             </li>
+                            <li>
+                                <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-architecture-solutions-posters?branch=lolaj-architecture-poster-page">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/cloud-architecture2.svg" alt="Cloud architecture" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>ポスター：Teams アーキテクチャ、テレフォニーソリューション</h3>
+                                                <P>Teams のITアーキテクチャとテレフォニーソリューションの印刷可能なイラストを入手します</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page"><div class="cardSize">
+                                <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Teams を組織全体で展開します</h3>
+                                                <P>ヘルスケア、第一線の労働者、小売、政府、および教育を含む、あなたの業界に合ったカスタムソリューションを見つけます</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li> 
 <li class="fullSpan">
                   <hr>
                   <br>
                   <ul class="cardsF panelContent singlePanelContent" style="display:flex!important;">
+                        <li>
+                            <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" target="_blank" data-linktype="external">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Community">
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Teams 技術コミュニティ</h3>
+                                            <p>Teams技術コミュニティに参加して、質問し &amp;答えを得ていただき、Teamsブログを読んでください。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li> 
+                        <li>
+                            <a href="https://support.office.com/Teams">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help">
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Teams エンド ユーザー のヘルプ</h3>
+                                            <p>ヘルプ、トレーニング、およびエンドユーザー向けの新しいコンテンツに移動します。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </li>
                         <li>
                             <a href="https://docs.microsoft.com/microsoftteams/platform/overview">        
                             <div class="cardSize">
@@ -167,44 +205,6 @@ ms.locfileid: "31026043"
                             </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" target="_blank" data-linktype="external">
-                            <div class="cardSize">
-                                <div class="cardPadding">
-                                    <div class="card">
-                                        <div class="cardImageOuter">
-                                            <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Community">
-                                            </div>
-                                        </div>
-                                        <div class="cardText">
-                                            <h3>Teams 技術コミュニティ</h3>
-                                            <p>Teams 技術コミュニティに参加すれば、Teams に関する質問とその回答を確認し、Teams ブログを閲覧できます</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </a>
-                        </li> 
-                        <li>
-                            <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
-                            <div class="cardSize">
-                                <div class="cardPadding">
-                                    <div class="card">
-                                        <div class="cardImageOuter">
-                                            <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/settings-teams.svg" alt="Settings">
-                                            </div>
-                                        </div>
-                                        <div class="cardText">
-                                            <h3>Teams の PowerShell コマンドレット リファレンス</h3>
-                                            <p>Teams 用の PowerShell モジュールとコマンドレットを取得します</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        </a>
-                                    </li>
                               </ul>
                             </li>
                        </ul>

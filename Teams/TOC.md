@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
 # [Teams へようこそ](teams-overview.md)
 # [Teams のロールアウト方法](How-to-roll-out-teams.md)
-
+# [ポスター：Teams アーキテクチャとテレフォニーソリューション](teams-architecture-solutions-posters.md)
 #       
 #        
 
@@ -25,6 +25,7 @@
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [プレゼンス](presence-admins.md)
 ## [別の組織の Teams ユーザーとの通信](let-your-teams-users-communicate-with-other-people.md)
+## [アーカイブまたはチームを削除します](archive-or-delete-a-team.md)
 
 
 
@@ -58,11 +59,12 @@
 ## [外部アクセス (フェデレーション)](manage-external-access.md)
 
 ## [Teams の管理](using-admin-roles.md)
-### [組織内での Teams の機能の管理](enable-features-office-365.md)
+### [組織のMicrosoft Teams の設定を管理します](enable-features-office-365.md)
 ### [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 ### [Microsoft Teams 管理センターで Teams を管理する](manage-teams-in-modern-portal.md)
 ### [無料版の Teams を管理する](manage-freemium.md)
 ### [Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
+### [一括でTeams のユーザー設定を編集します](edit-user-settings-in-bulk.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 ### [別の組織の Teams ユーザーとの通信](let-your-teams-users-communicate-with-other-people.md)
 ### [インライン メッセージの翻訳の使用](inline-message-translation-teams.md)
@@ -75,6 +77,7 @@
 
 
 ## リファレンス
+
 ### Teams のロールアウトの準備
 #### [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 #### [Teams 用に組織のネットワークを準備する](prepare-network.md)
@@ -84,6 +87,8 @@
 #### [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
 #### [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)
 #### [Teams でのガバナンスを計画する](plan-teams-governance.md)
+
+
 
 
 ### Office 365 との相互運用性
@@ -723,7 +728,7 @@
 #### [通話品質ダッシュボードでのストリームの分類](stream-classification-in-call-quality-dashboard.md)
 
 ## [Teams での PowerShell の概要](teams-powershell-overview.md)
-### [Teams の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams)
+### [Teams の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Teams の開発者向けドキュメント](https://docs.microsoft.com/microsoftteams/platform)
 ## [Microsoft Teams でヘルプを利用する](get-help-in-microsoft-teams.md)
