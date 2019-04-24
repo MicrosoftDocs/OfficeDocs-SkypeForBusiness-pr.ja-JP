@@ -15,11 +15,11 @@ ms.collection:
 appliesto: Microsoft Teams
 description: ユーザーの作成」と「どの組み合わせがサポートまたはサポートされていないのさまざまな組み合わせについて説明します。
 ms.openlocfilehash: 88f679d5028cd2626ce4e85f0794aafb38317c9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232620"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
 
@@ -58,11 +58,11 @@ PSTN への接続でのビジネスのハイブリッド環境に、Skype では
 | ------------ | --------- | --------- | --------- | -------- |
 |オンプレミス AD| オンプレミス |Skype for Business   | エンタープライズ VoIP   |はい|
 |オンプレミス AD|オンライン| Skype for Business  | ハイブリッド音声接続   |はい |
-|オンプレミス AD|オンライン |Microsoft Teams |直接のルーティング  |はい |
+|オンプレミス AD|オンライン |Microsoft Teams |ダイレクト ルーティング  |はい |
 |**サポートされていない組み合わせ**    | |         |         |      |
 |Azure AD| 設置型またはオンラインで | Skype ビジネスと Microsoft のチームの|接続または直接ルーティングするエンタープライズ VoIP/ハイブリッド音声  |ユーザー オブジェクトを作成する必要がなく、オンプレミス AD 最初 |
 |オンプレミス AD  |オンプレミス| Microsoft Teams| 接続または直接ルーティングするエンタープライズ VoIP/ハイブリッド音声   |残念ですが、マイクロソフトのチームのクライアントは、ビジネスのためのオンプレミス Skype でサポートされていません |     
-|オンプレミス AD  |オンライン |Skype for Business  | 直接のルーティング  |残念ですが、直接ルーティングではサポートされておらず Skype でビジネスのクライアントに、ユーザーは、最初にビジネス用の Skype でエンタープライズ VoIP に対して有効にする必要があります。  |
+|オンプレミス AD  |オンライン |Skype for Business  | ダイレクト ルーティング  |残念ですが、直接ルーティングではサポートされておらず Skype でビジネスのクライアントに、ユーザーは、最初にビジネス用の Skype でエンタープライズ VoIP に対して有効にする必要があります。  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>PSTN のハイブリッド環境のサポート ステートメント
