@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 description: 通話受付管理 (CAC) は、地域、サイト、およびサブネットで構成されるネットワークで、使用可能な帯域幅に基づいてオーディオおよびビデオ伝送に制限を課すことができます。CAC のネットワークを構成した後は、帯域幅の制限を有効にするために CAC を有効にする必要があります。
 ms.openlocfilehash: 7152596fa8db00ed4bbc31d196c96da8ab7d3942
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887422"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226909"
 ---
 # <a name="call-admission-control-settings-expander"></a>通話受付管理設定エキスパンダー
  

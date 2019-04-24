@@ -16,15 +16,16 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211363"
 ---
-# <a name="quality-of-experience-review-guide"></a>レビュー ガイドの経験の質
+# <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
-<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->このガイドでは、マイクロソフトのチームとビジネス オンラインの Skype のドライブの値位相について。 このガイドの[Word のバージョンのダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)を実行できます。
+<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
+このガイドでは、マイクロソフトのチームとビジネス オンラインの Skype のドライブの値位相について。 このガイドの[Word のバージョンのダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)を実行できます。
 
 ## <a name="introduction"></a>概要
 
@@ -647,8 +648,8 @@ _表 5 - ファイル構造を構築します。_
 | 国            | String    | ご                        | 推奨 |
 | 都道府県              | String    | WA                        | 推奨 |
 | Region             | String    | MSU                      | 推奨 |
-| InsideCorp         | ブール値      | 1                         | 必須    |
-| ExpressRoute       | ブール値      | 0                         | 必須    |
+| InsideCorp         | ブール      | 1                         | 必須    |
+| ExpressRoute       | ブール      | 0                         | 必須    |
 
 \*救難では必要ありません、建物およびネットワークを表示するテンプレートが構成されている名前です。
 
@@ -812,7 +813,7 @@ _表 6 - アラートの診断_
 | 警告                                                                | 詳細情報             |
 |----------------------------------------------------------------------|------------------------------|
 | 正常の低いクライアントのバージョンを使用しています。                   | [クライアントのバージョン](#client-versions)              |
-| オーディオ ドライバーが原因での呼び出しの切断                                 | [デバイス](#devices)                      |
+| オーディオ ドライバーが原因での呼び出しの切断                                 | [Devices](#devices)                      |
 | 呼び出しセットアップの失敗の原因では、ファイアウォールの制限         | [セットアップ エラーの調査](#setup-failure-investigations) |
 | 呼び出しセットアップの失敗の原因となって詳細なパケット検査                | [セットアップ エラーの調査](#setup-failure-investigations) |
 | Wi-fi ネットワーク上の会議室のデバイスが原因で不適切な通話の音質 | [品質調査](#quality-investigations)       |
@@ -970,7 +971,7 @@ _表 9 - 呼び出しの次の手順は、修復をドロップ_
 |------------------------------------------|-------------------------------|
 | **ネットワーク/インターネット**                         | **輻輳**: 過負荷であれば、問題があることを確認するのには特定の建物やサブネットの帯域幅を監視するためのネットワーク チームと協力します。 ネットワークの輻輳があることを確認する操作を行います場合、は、その建物への帯域幅を増やすか、QoS を適用することを検討してください。 使用して、[品質の低いストリームの概要レポート](#quality-investigations)に含まれてジッター、待機時間、およびパケット損失、問題について、問題のサブネットを確認するのには削除されたストリームの前に多くの場合これらのため。<br><br>組織の帯域幅のニーズの理解を深めるために[ネットワーク プランナー ツール](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)を使用することもできます。<br><br>**QoS**: 帯域幅の増加が現実的ではありませんまたはコストが膨大である場合は、QoS を実装することを検討してください。 このツールでは、輻輳のあるネットワーク トラフィックを管理するのには非常に効果的では、管理対象のネットワーク上のパケットのメディアがメディア以外のトラフィックより優先度付けを保証することができます。 または、帯域幅は、原因を明確な証拠がない場合は、これらのソリューションを検討します。<ul><li>[マイクロソフト チームの QoS のガイダンス](qos-in-teams.md)</li><li>[Skype ビジネス QoS について](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**ネットワーク対応の評価を実行する**: 予想される帯域幅の使用状況に関する詳細情報を提供するネットワークの評価、ネットワークの帯域幅対応とする方法が変更され、チーム、およびビジネスのための Skype のネットワーク ・ プラクティスをお勧めします。 ソースとしては、上記の表を使用して、建物や、評価のための優れた候補となるサブネットのリストがあります。<ul><li>[マイクロソフトのチームはネットワーク対応評価](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype のビジネス ネットワーク対応の評価](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft ネットワーク評価ツール:** チームのネットワークは、どの程度を判断するのには、ネットワークのパフォーマンスの簡単なテストのこのツールを使用または Skype のオンライン ビジネスの呼び出しです。 ツールを使用して、サブネットのパフォーマンスを評価し、Microsoft パフォーマンス[要件](https://aka.ms/performancerequirements)を満たすネットワークの準備を確認することができます。<ul><li>[ネットワーク評価ツールをダウンロードします。](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
 | **クライアント (ビジネス用の Skype オンラインのみ)** | 旧バージョンのクライアントが既知の場合、メディアの信頼性に問題が記載されています。 複数の影響を受けるユーザーからの呼び出しの分析レポートを確認するか、CQD は特定の建物またはサブネットと、ドロップされた合計呼び出し失敗 % 測定をフィルター処理でクライアントのバージョン テーブルのカスタム レポートを作成します。 その特定の建物での呼び出しの落下と、クライアントの特定のバージョンとの間のリレーションシップが存在するかどうかを理解するには、この情報が役立ちます。     |
-| **デバイス**                                  | 発生しているすべてのユーザーが削除を呼び出すことをお勧めします。- または悪いが一般に呼び出し- と統合デバイスを使用する必要がありますを[ヘッドセットまたはスピーカー フォンを認定](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)の品質と信頼性の潜在的なソースとして、これを排除するようにプロビジョニングします。 |
+| **Devices**                                  | 発生しているすべてのユーザーが削除を呼び出すことをお勧めします。- または悪いが一般に呼び出し- と統合デバイスを使用する必要がありますを[ヘッドセットまたはスピーカー フォンを認定](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)の品質と信頼性の潜在的なソースとして、これを排除するようにプロビジョニングします。 |
 | **ユーザー動作**                            | ネットワーク、デバイス、またはクライアントのどちらも問題があると判断した場合は、結合し、会議を終了する方法をユーザーに教育するユーザーの導入計画の作成方法については[自分のアドバイザー](https://aka.ms/myadvisor)を行うことを検討してください。 高度なチームとビジネス ユーザーの Skype は、会議のすべての参加者のユーザー エクスペリエンスを向上を生成します。 (カバーを閉じたとき) でスリープ状態に自分のラップトップは、ミーティングを終了せず、ユーザーは、予期しない呼び出しドロップとして分類されます。   |
 
 ## <a name="quality-investigations"></a>品質調査
@@ -1056,7 +1057,7 @@ _表 10 - 高 PSR を一般的な貢献者_
 |**ネットワーク デバイス** | 大規模な組織では、何百ものネットワークに分散するデバイスがあります。 ユーザーからインターネットへのネットワーク デバイスは必ず保持している最新の状態、ネットワーク チームと協力します。 |
 | **VPN**  | VPN アプライアンスは、従来からリアルタイム メディアのワークロードを処理するために設計されていません。 VPN 構成の一部は、UDP (メディアの優先プロトコル) の使用を禁止してのみ TCP を使用します。 低品質のソースとして、VPN を少なくための[スプリット トンネル ソリューションの VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9)の実装を検討してください。 |
 | **クライアント** <br>(ビジネス用の Skype オンラインのみ) | 古いクライアントがわかっているメディアに問題が発生します。 クライアントが、リリースの 6 か月以内パッチが適用されていることを確認します。 クライアントの準備方法の開発に関するガイダンスについては、 [MyAdvisor](https://aka.ms/myadvisor)を使用して、[クイック実行](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)を展開します。 |
-| **デバイス** | [デバイスの最適化](https://partnersolutions.skypeforbusiness.com/solutionscatalog)の使用は、ユーザー エクスペリエンスが大幅に向上するのに役立ちます。 すべての条件が等しければ、最適化されたデバイスは、チームおよびビジネス用の Skype ユーザーの操作性を最大化し、優れた品質を生成する設計されています。 デバイスの準備計画の作成に関するガイダンスについては、 [MyAdvisor](https://aka.ms/myadvisor)を使用します。 |
+| **Devices** | [デバイスの最適化](https://partnersolutions.skypeforbusiness.com/solutionscatalog)の使用は、ユーザー エクスペリエンスが大幅に向上するのに役立ちます。 すべての条件が等しければ、最適化されたデバイスは、チームおよびビジネス用の Skype ユーザーの操作性を最大化し、優れた品質を生成する設計されています。 デバイスの準備計画の作成に関するガイダンスについては、 [MyAdvisor](https://aka.ms/myadvisor)を使用します。 |
 | **ドライバー** | ネットワーク (イーサネットと Wifi)、オーディオ、ビデオ、および USB ドライバーのパッチを適用する必要があります、修正プログラム管理戦略全体の一部です。 多くの品質の問題を解決するには、ドライバーを更新します。 |
 | **Wi-fi での会議室** | 強くお勧めするミーティング ルームのデバイスは、少なくとも、1 Gbps のイーサネット接続を使用してネットワークに接続します。 会議室デバイスは通常画面の共有、会議の内容と共に、複数のオーディオおよびビデオ ストリームが含まれ、ビジネス エンドポイントの他のチームまたは Skype よりも上位のネットワーク要件があります。 会議室では、インストール時にのみ Wi-fi が福利厚生を静止した状態のデバイスの定義です。<br><br>会議室は、十分に注意し、これらのデバイスの使用経験が会議や、予想を上回ることを確認するのには注意して扱う必要があります。 会議室での品質の問題は、上級レベルのスタッフがよく利用しているためすぐに、エスカレーションする通常です。<br><br>(利便性) とは別に等しくなる点はすべて、Wi-fi パフォーマンスは、多くの場合、有線接続よりも小さい。 聞ける独自のデバイス ポリシーの台頭とノート パソコンの普及により、Wi-fi アクセス ポイントはよく活用します。 リアルタイム メディア可能性がありますいない優先順位を付ける Wi-fi ネットワークでは、ピーク使用時に品質の問題につながるのです。 この使用率が高いことができます会議と一致しているそれぞれに、独自のラップトップやスマート フォン、会議と同じ Wi-fi アクセス ポイントに接続されているすべての参加に十数人がある可能性があります、部屋のデバイスです。<br><br>Wi-fi は、モバイルのインストール、または Wi-fi はビジネス クラスの実際の時間ベースのメディアをサポートするために正しく準備されているときに一時的な解決策としてのみ検討してください。 |
 
@@ -1237,7 +1238,7 @@ _図 30 - クライアント バージョンのレポート_
 
 -   [リリースの Office 用のリソースへの更新情報](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Office 365 用リソースの更新履歴](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
--   [ビジネス用の Skype をダウンロードし、更新](/SkypeForBusiness/software-updates)
+-   [Skype for Business のダウンロードと更新プログラム](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>デバイス
 
@@ -1347,7 +1348,7 @@ _表 12 - ネットワークのパフォーマンスの要件_
 
 -   [通話分析をセットアップする](set-up-call-analytics.md)
 
--   [通話分析と通話品質ダッシュボードの違い](difference-between-call-analytics-and-call-quality-dashboard.md)
+-   [分析機能の呼び出しと呼び出し品質のダッシュ ボードの違いは何ですか。](difference-between-call-analytics-and-call-quality-dashboard.md)
 
 -   [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 

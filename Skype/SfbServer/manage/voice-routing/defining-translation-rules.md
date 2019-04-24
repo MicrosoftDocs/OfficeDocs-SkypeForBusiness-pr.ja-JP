@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバーのエンタープライズ VoIP の Skype では、電話番号を E.164 形式に正規化を基に呼をルーティングします。 つまり、一致する SIP URI に翻訳できるように、番号の逆引き参照 (RNL) を実行するための E.164 形式にすべてのダイヤル文字列を正規化する必要があります。 Skype ビジネス サーバー用には、呼び出された ID には、呼び出し元 ID のプレゼンテーションを操作する機能が用意されています。
 ms.openlocfilehash: b85241cfa7fc8f14732c92994660cdeb2088c874
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214653"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Skype のビジネス サーバーの変換規則を定義します。
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 description: ConferenceMessageCount ビューでは、メッセージの数は、ユーザーが会議に送信された情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
 ms.openlocfilehash: f2290eef7d2738831ed3ce72c794a36659858b8b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213712"
 ---
 # <a name="conferencemessagecount-view"></a>ConferenceMessageCount ビュー
  

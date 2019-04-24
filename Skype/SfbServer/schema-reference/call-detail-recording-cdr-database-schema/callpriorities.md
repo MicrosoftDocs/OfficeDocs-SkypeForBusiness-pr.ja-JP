@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
 description: CallPriorities テーブルは、'緊急'、'緊急'、または '通常' など、可能な呼び出しの優先順位の一覧を格納する静的なテーブルです。
 ms.openlocfilehash: faf4e7f04d7a63b096cb2369c21916e5fcb71a24
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213334"
 ---
 # <a name="callpriorities-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での CallPriorities テーブル
  

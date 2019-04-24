@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: '概要: ビジネス クライアント用の Skype でスマートの連絡先リストの機能を有効にする方法を説明します。'
 ms.openlocfilehash: 52de1eb889b1373dc6928c90a9e0e298f467d3fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896659"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212776"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>ビジネス クライアント用の Skype でスマート アドレス帳を構成します。
 

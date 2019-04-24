@@ -14,11 +14,11 @@ ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 ROBOTS: NOINDEX, NOFOLLOW
 description: このプール内のフロント エンド サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 一覧にコンピューターを追加した後でも、トポロジを公開するまでの間は、いつでもコンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。 トポロジ ビルダーでは、サーバーを削除し、新しい FQDN を持つプールに新しいサーバーを追加、トポロジを公開すると、FQDN を変更する必要です。 トポロジにフロント エンド プールを追加する方法の詳細を定義して構成するフロント エンド プールを展開に関するドキュメントを参照してください。
 ms.openlocfilehash: c93b109a10addb8e25015c6052e4cfde68c48682
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220942"
 ---
 # <a name="add-front-end-machine"></a>フロントエンド コンピューターの追加
 

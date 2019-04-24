@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
 description: Skype ビジネス サーバー用には、高水準のセキュリティを維持しながら管理タスクを委任できるようにするための役割に基づくアクセス制御 (RBAC) グループが含まれています。 これらのグループはフォレストの準備の際に作成されます。 フォレストの準備に関する詳細については、ビジネスのサーバーの Skype 用の Active Directory ドメイン サービスを参照してください。 フォレストの準備によって作成された特定のグループに関する詳細については、フォレストの準備で Skype ビジネス サーバーの展開に関するドキュメントでの変更を参照してください。
 ms.openlocfilehash: 461fa82809b16ccf6db1ac02e7c8d0e6698e2b61
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213586"
 ---
 # <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>Skype ビジネス サーバーの役割に基づくアクセス制御 (RBAC)
  

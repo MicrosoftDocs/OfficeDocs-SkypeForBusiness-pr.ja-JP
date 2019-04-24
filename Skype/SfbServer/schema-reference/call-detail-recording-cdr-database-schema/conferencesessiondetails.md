@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: ConferenceSessionDetails ビューでは、マルチパーティのセッションに関する情報を格納します。 各レコードでは、フォーカスのあるセッションまたは特定の会議サーバーとのセッションのいずれかにある可能性があります 1 つの会議セッションを表します。 このビューは、Microsoft Lync Server 2013 で導入されました。
 ms.openlocfilehash: 448b73326f7caf7657d146939eb01729e97628f9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213229"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails ビュー
  

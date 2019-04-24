@@ -12,11 +12,11 @@ ms.collection: M365-voice
 localization_priority: Normal
 description: この資料では、マイクロソフト チームの会議室のライフ サイクルのサポートについて説明します。
 ms.openlocfilehash: c73e40328721ce8ed4836829a62d4e765e75bf9e
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993495"
+ms.locfileid: "32214485"
 ---
 # <a name="microsoft-teams-room-app-version-support"></a>マイクロソフト チーム ルーム アプリケーションのバージョンのサポート
  

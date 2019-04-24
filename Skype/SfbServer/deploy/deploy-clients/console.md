@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この資料では、マイクロソフト チームの会議室のコンソールとその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 2d3d9acdc3c72754232304364812fd2af9f3f6cb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212755"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>マイクロソフト チームの会議室のコンソールを構成します。
 
@@ -259,4 +259,4 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
   
 [マイクロソフト チームの会議室のコンソールを構成します。](console.md)
   
-[マイクロソフト チームの会議室を管理します。](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

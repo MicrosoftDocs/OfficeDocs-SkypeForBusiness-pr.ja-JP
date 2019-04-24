@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: AppSharingMetricsThreshold テーブルには、アプリケーション共有で使用される高品質のエクスペリエンスの測定値の最適なと許容可能な値が含まれています。 これらのしきい値を使用すると、経験を共有するアプリケーションを不十分な分類するかかどうかを決定します。
 ms.openlocfilehash: bddad99803ab6683985b0f44ed5df509b84344f3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877043"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212328"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>AppSharingMetricsThreshold テーブル
  

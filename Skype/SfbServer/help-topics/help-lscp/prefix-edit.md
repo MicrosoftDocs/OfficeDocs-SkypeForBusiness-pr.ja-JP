@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: プレフィックスを定義するかを含め、このルートを処理する必要があります番号の接頭番号を追加、数字を開始して、必要な場合は + です。 たとえば、+123 で始まるすべての番号を照合することができます。
 ms.openlocfilehash: a6c2856395104a00535e3792c9c79254f1510ded
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220348"
 ---
 # <a name="prefix-edit"></a>プレフィックスの編集
  

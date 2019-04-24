@@ -14,11 +14,11 @@ ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: エージェントは、応答グループの呼び出しに応答するように指定されているユーザーです。 応答グループには、そのグループへの呼び出しを受信できるエージェントを示すエージェント グループが割り当てられている必要があります。 エージェント グループを作成する方法の 1 つは、適格なユーザーを選択してカスタム グループを定義することです。 対象となるユーザーは、ビジネスのサーバーおよびエンタープライズ VoIP Skype は有効です。
 ms.openlocfilehash: e4599d4fbcedc2e99810c96e186d90801f963534
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877064"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215193"
 ---
 # <a name="select-agents"></a>エージェントの選択
 

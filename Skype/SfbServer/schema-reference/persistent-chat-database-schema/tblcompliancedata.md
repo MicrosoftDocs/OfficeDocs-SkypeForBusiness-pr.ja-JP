@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 description: tblComplianceData には、まだ対応アダプターで処理されていないコンプライアンス イベントが含まれています。
 ms.openlocfilehash: e617f7821fcf026f279f333d45f526a1322509a1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212615"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  

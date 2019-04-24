@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
 description: このテーブルには、ルーティングおよび接続のビジネス サーバー 2015 が関係するの Skype 内のさまざまなプロセスに関する情報を格納します。
 ms.openlocfilehash: 3525943066845b485888bc0d467df7fd478d5bb8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213376"
 ---
 # <a name="application-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype でのアプリケーション ・ テーブル
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 description: コマンドの実行] ページには、サーバーに証明書を割り当てるには、タスクで実行される処理が表示されます。 タスクが完了したときは、証明書の割り当てプロセスの詳細に示すログを表示できます。 ログ ファイルを表示するには、[ログの表示] をクリックします。
 ms.openlocfilehash: 3398ddf76f99e7e4a4582532e247a4a1f4c92b75
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235136"
 ---
 # <a name="certificate-assignment-invoke"></a>証明書の割り当て (起動)
  

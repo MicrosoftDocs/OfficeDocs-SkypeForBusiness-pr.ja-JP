@@ -16,11 +16,11 @@ description: クラウド、同期済み、フェデレーションなど、Micr
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 34e70313d83bfa7873e990a2d77bc165dfd8dfbe
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234939"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams での ID モデルと認証
 ==========================================

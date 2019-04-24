@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42ec1ce60a206fa0a67f40c08db4658c0c53e543
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: ae1f3149ca915e2fd5a9ddf59fdb0bfad2be2ca2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30641193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235564"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 ======================================
@@ -37,7 +37,7 @@ ms.locfileid: "30641193"
 
 ゲスト アクセスにより、組織内のチームは、1 つまたは複数のテナントでの既存のチームやチャネルにアクセス権を組織外のユーザーに付与することで、共同作業することができるようになります。 Outlook、Gmail などの勤務先または通常のメール アカウントを持っている全てのユーザーは、チーム チャット、会議、ファイルにフル アクセス権を持つゲストとして Teams に参加することができます。
 
-ゲスト アクセスは、Office 365 Business Premium、Office 365 Enterprise、Office 365 Education のすべてのサブスクリプションに含まれており、追加のライセンスは必要ありません。 テナントでライセンスされたユーザーごとに、5 人のゲストまでを追加することができます。 ライセンスに関する詳細については、[Azure Active Directory B2B コラボレーションのライセンスに関するガイダンス](https://docs.microsoft.com/ja-JP/azure/active-directory/b2b/licensing-guidance)をご覧ください。 
+ゲスト アクセスは、Office 365 Business Premium、Office 365 Enterprise、Office 365 Education のすべてのサブスクリプションに含まれており、追加のライセンスは必要ありません。 テナントでライセンスされたユーザーごとに、5 人のゲストまでを追加することができます。 ライセンスに関する詳細については、[Azure Active Directory B2B コラボレーションのライセンスに関するガイダンス](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance)をご覧ください。 
 
 ゲスト アクセスは Microsoft Teams ではテナントレベルの設定であり、既定ではオフになっています。 ゲスト アクセスは Azure AD および Office 365 のサービス制限に適用されます。
 
@@ -60,7 +60,7 @@ Teams は、Office 365 グループに基づき構築されており、Office 36
 
 ## <a name="more-information"></a>詳細情報
     
-[Microsoft Teams のサポート リソース](support-resources.md)  
+[管理者ヘルプのビジネス製品のサポートに問い合わせてください。](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 
   [Office 365 グループのゲスト アクセス](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   

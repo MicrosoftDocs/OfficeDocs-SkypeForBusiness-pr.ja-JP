@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
 description: ErrorCategory テーブルには、ビジネス サーバー 2015 診断分類の各 Skype のフレンドリ名が含まれています。 ビジネス サーバー 2015 の Skype は、既定では、次の分類を使用します。
 ms.openlocfilehash: 70322d30b516d003fcac015a4eda7382a13cd2be
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213117"
 ---
 # <a name="errorcategory-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での ErrorCategory テーブル
  

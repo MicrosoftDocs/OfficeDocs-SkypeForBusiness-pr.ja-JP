@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: 各レコードは、ピア ツー ピア セッションで使用される 1 つのメディアの種類を表します。 セッションは 1 つで表されます、テーブル内の複数のレコード 1 つ以上のメディア タイプを使用する場合。
 ms.openlocfilehash: f0525b279fbef5cc7d4a1bc2ce0fce9212636a96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212938"
 ---
 # <a name="media-table"></a>Media テーブル
  

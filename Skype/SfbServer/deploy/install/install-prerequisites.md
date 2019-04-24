@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: '概要: については、サーバーとサーバーの役割の業務サーバーの Skype をインストールする前に構成する必要があります。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
 ms.openlocfilehash: 0efa8a7fb06c1577d1b55fe42bfe88ca238e485e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210481"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>ビジネス サーバーの Skype のための前提条件をインストールします。
  

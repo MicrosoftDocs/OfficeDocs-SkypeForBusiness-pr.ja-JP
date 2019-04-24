@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
 description: tblPrincipalInvites には、上のすべてのノードへの招待が自動的にプロビジョニングされたすべてのユーザーの招待状が含まれています。
 ms.openlocfilehash: fbf61265f4970b57ffa95a52c8bafa395fb3a331
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212468"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  

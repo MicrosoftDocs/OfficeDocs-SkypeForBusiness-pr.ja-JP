@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: 各レコードは、ユーザー登録の 1 つのイベントを表します。
 ms.openlocfilehash: 1dd8f623799753e078d112d08de960076618dfac
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212846"
 ---
 # <a name="registration-table"></a>Registration テーブル
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: 5b63dbb3d89a8ba526804b69fdf82bce79c81bfa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234817"
 ---
 # <a name="associate-a-subnet"></a>サブネットの関連付け
 

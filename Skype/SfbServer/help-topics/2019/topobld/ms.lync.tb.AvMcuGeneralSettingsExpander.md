@@ -14,11 +14,11 @@ ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
 description: A のプロパティを編集するのには V 会議サーバーのプールを/定義済みで、次を行うことができます。
 ms.openlocfilehash: fca06e88124a9e29428a407e5cadd73571cd00cf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220671"
 ---
 # <a name="av-mcu-general-settings-expander"></a>AV MCU 全般設定の展開
  

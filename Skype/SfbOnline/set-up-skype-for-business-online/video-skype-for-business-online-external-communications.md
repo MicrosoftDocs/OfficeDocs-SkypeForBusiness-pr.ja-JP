@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'ユーザーは、Skype の外部の連絡先と通信できるのオンライン ビジネスの外部通信のため、Skype をセットアップについて説明します。 '
 ms.openlocfilehash: b01d7b72ab0f3daf660fccf0bc78ac78e394e764
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888910"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225982"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>ビデオ: Skype for Business Online の外部通信
 
@@ -36,7 +36,7 @@ ms.locfileid: "30888910"
 
 ***
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype オンライン ビジネスの外部通信の設定](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications)(チュートリアル)
 
 [外部の Skype for Business ユーザーに連絡できるようにする](allow-users-to-contact-external-skype-for-business-users.md)

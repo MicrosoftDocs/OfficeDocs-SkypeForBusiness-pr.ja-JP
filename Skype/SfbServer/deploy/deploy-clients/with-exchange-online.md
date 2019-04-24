@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange オンラインでマイクロソフト チームの会議室を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 09a9cf6ed01ea4b523e6f790d30a586e92b5c4f5
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 4bff1fb6adce254608aa9286ec080cf6677c1a48
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214829"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>オンライン Exchange とマイクロソフトのチームの会議室を配置します。
 
@@ -67,19 +67,12 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. Azure AD に接続して、アカウント設定をいくつか適用する必要があります。 次のコマンドレットを実行して接続することができます。
 
-  ``` PowerShell
- Connect-MsolService -Credential $cred
-  ```
-<!--   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ``` -->
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>オンプレミスのドメイン アカウントに電子メール アドレスを追加する
 
-1. **Active Directory ユーザーとコンピューターの AD**ツールで、フォルダーまたはアカウントを作成するのには、マイクロソフト チーム ルームは、[**新規**作成] をクリックし、] をクリックして**ユーザー**の組織単位を右クリックします。
-2. 前のコマンドレットで得た表示名を [**フル ネーム**] ボックスに入力し、エイリアスを [**ユーザー ログオン名**] ボックスに入力します。[**次へ**] をクリックします。
+1. **Active Directory ユーザーとコンピューターの AD**のツールでは、右クリック、コンテナーまたは組織単位ので、アカウントを作成する、マイクロソフト チームの会議室が [**新規**作成] をクリックし、し、[**ユーザー**] をクリックします。
+2. 表示名を入力 (-識別情報) から、**完全名**] ボックスと、**ユーザー ログオン名**] ボックスにエイリアスを前のコマンドレット (一連のメールボックスや新規メールボックス)。 [**次へ**] をクリックします。
 3. このアカウントのパスワードを入力します。確認のためにもう一度入力する必要があります。[**パスワードを無期限にする**] チェック ボックスだけがオンになっていることを確認します。
 
     > [!NOTE]
@@ -90,9 +83,18 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="assign-an-office-365-license"></a>Office 365 ライセンスを割り当てる
 
-1. ユーザー アカウントは、Exchange と Skype のビジネス サーバーが動作することを確認するのには有効な Office 365 ライセンスを所有する必要があります。 ライセンスがあれば、利用場所を割り当てるユーザー アカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定です。
-2. 次を使用して、`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 テナントの使用可能な Sku の一覧を取得します。
-3. ライセンスを使用してを追加するには、Sku を一覧表示すると、`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> コマンドレットです。 この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。 
+1. 最初に、いくつかのアカウントの設定を適用するのには Azure AD に接続します。 次のコマンドレットを実行して接続することができます。
+
+  ``` PowerShell
+ Connect-MsolService -Credential $cred
+  ```
+<!--   ``` Powershell
+   Connect-AzureAD -Credential $cred
+   ``` -->
+
+2. ユーザー アカウントは、Exchange と Skype のビジネス サーバーが動作することを確認するのには有効な Office 365 ライセンスを所有する必要があります。 ライセンスがあれば、利用場所を割り当てるユーザー アカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定です。 次の手順で割り当てを行うでしょう。
+3. 次を使用して、`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 テナントの使用可能な Sku の一覧を取得します。
+4. ライセンスを使用してを追加するには、Sku を一覧表示すると、`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> コマンドレットです。 この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。 
 
   ```
     Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
@@ -149,4 +151,4 @@ Skype for Business (プラン 3)] を選択します。 マイクロソフト �
   
 [マイクロソフト チームの会議室のコンソールを構成します。](console.md)
   
-[マイクロソフト チームの会議室を管理します。](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

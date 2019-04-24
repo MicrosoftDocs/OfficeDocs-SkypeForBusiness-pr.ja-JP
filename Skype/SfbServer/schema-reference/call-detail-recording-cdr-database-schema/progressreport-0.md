@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: ProgressReport ビューでは、完了したセッションに関する情報を格納します。 進行状況レポートは、呼び出しと Lync Server 2013 では、診断に役立つことがありますを決定するためのセッションにのみ書き込まれます。 このビューは、Microsoft Lync Server 2013 で導入されました。
 ms.openlocfilehash: 5f7cbba2580b83a65dbce00588f3c567317f4df4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212874"
 ---
 # <a name="progressreport-view"></a>ProgressReport ビュー
  

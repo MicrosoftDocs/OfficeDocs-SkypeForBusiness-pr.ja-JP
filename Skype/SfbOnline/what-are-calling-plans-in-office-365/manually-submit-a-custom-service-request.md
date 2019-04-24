@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
 ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229859"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>カスタム サービスの依頼を手動で送信する
 
@@ -98,7 +98,7 @@ ms.locfileid: "25371875"
 8. 情報を確認して、[**リクエストの送信**] をクリックします。
     
 > [!TIP]
-> Office 365 管理センターの [ **お問い合わせ**] ページに、参照番号が表示されます。
+> Office 365 管理センターの [**サービス リクエスト**] ページに、参照番号が表示されます。
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>電話番号の移行について知っておくべきその他のこと
 
@@ -107,7 +107,7 @@ ms.locfileid: "25371875"
 - 各ユーザーに、利用可能な新しい電話番号を割り当てる必要があります。 [割り当て、変更、またはユーザーの電話番号を削除](assign-change-or-remove-a-phone-number-for-a-user.md)します。
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)

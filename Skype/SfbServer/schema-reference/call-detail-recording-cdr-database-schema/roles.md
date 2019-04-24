@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
 description: ロール」テーブルは、出席者と発表者など、可能な会議の役割の一覧を格納する静的なテーブルです。
 ms.openlocfilehash: 2b7759cc600471a8bf1b989ce429f6b2a4149ee0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212832"
 ---
 # <a name="roles-table"></a>Roles テーブル
  

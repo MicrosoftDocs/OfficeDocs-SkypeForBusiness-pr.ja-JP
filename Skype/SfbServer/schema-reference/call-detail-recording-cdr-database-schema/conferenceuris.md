@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
 description: ConfereneUris テーブルは、さまざまな会議をデータベースに記録されている会議セッションに参加している Uri のリストを格納するサポート テーブルです。 テーブル内の各レコードは、1 つの会議の URI を表します。
 ms.openlocfilehash: 6f373774b652e9858af84dd4c16b51fcb3c5d493
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213215"
 ---
 # <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での ConferenceUris テーブル
  

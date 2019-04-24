@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: 登録ビューは、ユーザー登録に関する情報を格納します。 このビューは、Lync Server 2013 で導入されました。
 ms.openlocfilehash: bf6797bee124653515744d3c1bcd481c2ea1bfc2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212853"
 ---
 # <a name="registration-view"></a>登録の表示
  

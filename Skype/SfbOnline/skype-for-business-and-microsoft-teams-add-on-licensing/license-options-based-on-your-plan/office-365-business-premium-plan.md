@@ -21,11 +21,11 @@ ms.custom:
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Business Premium プランを購入する方法について説明します。 '
 ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238936"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 

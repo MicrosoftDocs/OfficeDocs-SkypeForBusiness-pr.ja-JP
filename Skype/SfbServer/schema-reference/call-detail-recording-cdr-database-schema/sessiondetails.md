@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: 各レコードは、VoIP VoIP 電話をかける、2 パーティの IM セッション、または他の種類のセッションの 1 つのピア ツー ピア セッションを表します。 このセッションに関連する各メディアの詳細を検索するメディアのテーブルとテーブルの結合を行うことができます。
 ms.openlocfilehash: e499c8d443742bacfcdbe9c129e884cae4dd96a0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889925"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212804"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails テーブル
  

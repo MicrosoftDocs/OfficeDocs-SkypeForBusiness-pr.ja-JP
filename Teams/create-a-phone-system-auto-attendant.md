@@ -1,5 +1,5 @@
 ---
-title: クラウドの自動応答を設定します
+title: クラウドの自動応答をセットアップする
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: 設定し、組織の処理効率の呼び出しに自動応答をクラウドをテストする方法について説明します。
 ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218837"
 ---
-# <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答を設定します
+# <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
 自動応答は、組織へのコールし、右の部門にそれらを取得するには、キュー、人、または演算子を呼び出すメニュー システムを移動するユーザーを使用できます。 マイクロソフトのチーム管理センターを使用して、組織の自動応答を作成できます。 **音声**には、左側のナビゲーションで、**自動応答**を選択し、新しい自動アテンダントを作成する > **新規追加**します。
 
@@ -371,6 +371,6 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[自動応答をクラウドとは?](what-are-phone-system-auto-attendants.md)
+[クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
 
 [小規模ビジネスの例: 自動応答をセットアップする](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'メディア バイパスを有効にしてトランクを構成するには、次の手順を実行します。 '
 ms.openlocfilehash: 468c03668a7097252aee4e0593b8576bebd5c55c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214941"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのメディア バイ パスを使用してトランクを構成します。
 

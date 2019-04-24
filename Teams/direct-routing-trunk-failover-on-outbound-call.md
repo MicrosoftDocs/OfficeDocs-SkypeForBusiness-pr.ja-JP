@@ -15,11 +15,11 @@ ms.collection:
 appliesto: Microsoft Teams
 description: セッション ボーダー コント ローラー (SBC) にチームから発信呼び出しのトランクのフェイル オーバーを処理する方法の詳細については、このトピックを参照してください。
 ms.openlocfilehash: 1a40cc3fa94bfba3c637769774f5f5b829d29ed4
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232648"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>発信通話でのトランクのフェイルオーバー
 

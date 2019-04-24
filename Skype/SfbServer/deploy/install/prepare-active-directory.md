@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '概要: は、Skype のインストールのビジネス サーバーの Active Directory ドメインを準備する方法を説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
 ms.openlocfilehash: de5de35377e526844a7badeb9897fe29b4b15db4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210621"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Skype のビジネス サーバーの Active Directory を準備します。
  
@@ -157,7 +157,7 @@ Skype ビジネス サーバーは、Active Directory ドメイン サービス 
     
     c. [**CSAdministrator のプロパティ**] で、[**メンバー**] タブをクリックします。
     
-    d. [**メンバー**] タブで [**追加**] をクリックします。 [**ユーザー、連絡先、コンピューター、サービス アカウント、またはグループの選択**] で、[**選択するオブジェクト名を入力してください**] を見つけます。 CSAdministrators グループに追加するユーザー名またはグループ名を入力します。 [**OK**] をクリックします。
+    d. [**メンバー**] タブで [**追加**] をクリックします。 [**ユーザー、連絡先、コンピューター、サービス アカウント、またはグループの選択**] で、[**選択するオブジェクト名を入力してください**] を見つけます。 CSAdministrators グループに追加するユーザー名またはグループ名を入力します。 **[OK]** をクリックします。
     
     e。 [**メンバー**] タブで、選択したユーザーまたはグループが表示されていることを確認します。 [**OK**] をクリックします。
     
