@@ -84,7 +84,6 @@
 #### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
 #### [Teams の制限と仕様](limits-specifications-teams.md)
 #### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
-#### [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
 #### [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)
 #### [Teams でのガバナンスを計画する](plan-teams-governance.md)
 

@@ -1,1 +1,1 @@
-<span data-ttu-id="9e43d-101">マイクロソフトは機能を管理する方法を頻繁に更新しているため、ここでの手順が実際の手順と少し異なる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="9e43d-101">We are frequently updating how you can manage features found in Microsoft Teams, so the steps here might be a little different.</span></span>
+<span data-ttu-id="19a08-101">マイクロソフトは機能を管理する方法を頻繁に更新しているため、ここでの手順が実際の手順と少し異なる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="19a08-101">We are frequently updating how you can manage features, so the steps here might be a little different from what you see.</span></span>
