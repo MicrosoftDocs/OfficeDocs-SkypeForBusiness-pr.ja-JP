@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: これらのセクションでは、エクスペリエンスの品質 (QoE) データベースのスキーマのテーブルの各列について詳しく説明します。
 ms.openlocfilehash: 3008fe59733f6bd7d148dd7f3ec16a05fb609e90
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212159"
 ---
 # <a name="qoe-table-details"></a>QoE テーブルの詳細
  

@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: チームのクラウド サービスに保留中の通話をパークおよび取得を使用します。
 ms.openlocfilehash: 798e53ef9a0638be659da8567419b7bd3d3c3555
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993503"
+ms.locfileid: "32211839"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 

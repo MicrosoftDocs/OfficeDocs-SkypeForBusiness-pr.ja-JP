@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
 description: VideoMetricsThreshold テーブルには、ビデオ通話の品質の指標の最適化と許容可能な値が含まれています。
 ms.openlocfilehash: 560012374ab6a9ef5ea741d2046afb095336d3c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212033"
 ---
 # <a name="videometricsthreshold-table"></a>VideoMetricsThreshold テーブル
  

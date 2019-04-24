@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 呼び出し受付制御、実行されている場合は、Skype のビジネス サーバーのエンタープライズ VoIP の品質の悪いメディアであるがからの呼び出しを防ぐことができますについて説明します。
 ms.openlocfilehash: f02952c45badf26fa2e02a9d3d8349d087bbe6e8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207539"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で通話受付制御を計画します。
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: ビジネス サーバーの Skype の呼び出しを使用して作業の計画、できます Skype のビジネスとお使いの PBX 電話システムとの統合ユーザーは、PBX 電話を制御するビジネス用の Skype を使用できるようにします。
 ms.openlocfilehash: 3a2452f732d55f305d91cee9cd2b940f7bb3c88e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891665"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207245"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Skype ビジネス サーバーの作業時間を使用して呼び出すのための計画
  

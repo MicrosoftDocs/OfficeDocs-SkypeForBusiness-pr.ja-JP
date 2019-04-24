@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
 description: 領域はテーブルをサポートします。 各レコードは、ネットワーク構成設定で定義されている 1 つの国/地域を表します。
 ms.openlocfilehash: 1fcc6c0b4b2d9cbe1edc0a7127cda7f54cd079ed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212131"
 ---
 # <a name="region-table"></a>Region テーブル
  

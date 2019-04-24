@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 場所の取得を含むビジネス サーバーのエンタープライズ VoIP の Skype の拡張 9-1-1 (~ 9-1-1) サービスについては、呼のルーティングします。
 ms.openlocfilehash: 4dba79c1c1b1b1fed0f60ea4f4c4a9a1d1baea92
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207644"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で緊急サービスを計画します。
 

@@ -1,5 +1,5 @@
 ---
-title: アーカイブまたはマイクロソフトのチームでチームの削除
+title: Microsoft Teamsでチームをアーカイブまたは削除する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -18,13 +18,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5eaa26a3092c0612b006c28bb7ab543313a55dfe
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211070"
 ---
-<a name="archive-or-delete-a-team-in-microsoft-teams"></a>アーカイブまたはマイクロソフトのチームでチームの削除
+<a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teamsでチームをアーカイブまたは削除する
 ===========================================
 
 時間の経過と共にマイクロソフトのチームで作成したチームが使用でなくなったことがありますか、アーカイブまたはチーム プロジェクトの末尾を削除することができます。 マイクロソフト チームの管理者である場合は、アーカイブまたは不要になったとしているチームを削除するには、この資料の手順に従います。 チームを整理するとそのチームのすべてのアクティビティが停止するしますが、も追加またはメンバーを削除して役割を更新およびチャネル、ファイル、およびチャットでチームのすべてのアクティビティを表示できます。 チームを削除すると、関連付けられているチャネル、ファイル、およびチャットでチームの活動も削除されます。 

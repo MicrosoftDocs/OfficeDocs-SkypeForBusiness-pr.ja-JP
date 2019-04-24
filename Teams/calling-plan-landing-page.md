@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでの通話プラン
+title: Microsoft Teams の通話プラン
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,13 +16,13 @@ description: 計画のランディング ページを呼び出す
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211984"
 ---
-# <a name="phone-system-with-calling-plans"></a>通話プランが設定された電話システム 
+# <a name="phone-system-with-calling-plans"></a>通話プランと電話システム 
 
 [開始](get-started-with-teams-quick-start.md)するが完了しました。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 かもしれません[& 会議の会議](deploy-meetings-microsoft-teams-landing-page.md)を導入しました。 クラウド音声のワークロードを追加する準備が整いましたし、を公衆交換電話網 (PSTN) を接続する計画を呼び出すことでマイクロソフトの電話システムを使用すると判断しました。 
 
@@ -33,7 +33,7 @@ ms.locfileid: "30460757"
 
 次の記事では、展開して、マイクロソフトでは予定の呼び出しを使用しての詳細についてを提供します。
 
-- [Office 365 での電話システム](what-is-phone-system-in-office-365.md)
+- [Office 365 の電話システム](what-is-phone-system-in-office-365.md)
 - [Office 365 の通話プラン](calling-plans-for-office-365.md)
 - [通話プランの設定](set-up-calling-plans.md)
 
@@ -60,7 +60,7 @@ ms.locfileid: "30460757"
 チーム、現在のサービス プロバイダーから自分の電話番号に転送するのには簡単です。 チームに自分の電話番号を移植した後、Microsoft は、サービス ・ プロバイダーになり、に対する料金を請求している電話番号。 詳細については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。
 
 
-### <a name="phone-numbers-and-emergency-locations"></a>電話番号と緊急対応の場所
+### <a name="phone-numbers-and-emergency-locations"></a>電話番号と緊急時の場所
 
 Office 365 のプランを呼び出すこと、内向きの一意な直通を組織のニーズのすべてのユーザーは、番号と対応する検証済みの緊急アドレス電話 (でした)。 緊急のアドレス (オフィス番号またはフロア番号など) では、緊急の場所を指定することもできます。 
 
@@ -69,9 +69,9 @@ Office 365 のプランを呼び出すこと、内向きの一意な直通を組
 |詳細な方法が必要に緊急時のアドレスと場所の情報か、 |詳細についてを参照してください[緊急の場所、住所、および通話のルーティングには何ですか?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)です。
 
 
-### <a name="calling-identity"></a>発信者番号
+### <a name="calling-identity"></a>識別情報を呼び出す
 
-既定では、すべての発信呼び出しは、呼び出し元の id (呼び出し元 ID) として割り当てられた電話番号を使用します。 通話の受信者は即座にその発信者を識別して通話を受け入れるか拒否するか決めることができます。
+既定では、すべての発信呼び出しは、呼び出し元の id (呼び出し元 ID) として割り当てられた電話番号を使用します。 呼び出しの受信者は、呼び出し元を識別する迅速かつ呼び出しを承認または拒否かどうかを決定します。
 
 |確認事項|アクション |
 |:------------|:-------|

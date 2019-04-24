@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8a94f8220cca2058e993f73241e62ff3ad0ea4f2
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210934"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および呼び出しキューの通話に Teams から直接応答する
 ===========================================================
@@ -62,7 +62,7 @@ ms.locfileid: "31914545"
 ## <a name="related-topics"></a>関連トピック
 
 -   [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
--   [クラウド呼び出しキューを作成します。](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [自動応答をクラウドとは?](what-are-phone-system-auto-attendants.md)
--   [クラウドの自動応答を設定します](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [クラウドの通話キューを作成する](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
+-   [クラウドの自動応答をセットアップする](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

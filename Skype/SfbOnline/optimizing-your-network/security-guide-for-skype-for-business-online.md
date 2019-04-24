@@ -21,11 +21,11 @@ ms.custom:
 - Security
 description: Skype for Business Online セキュリティ ガイド <add description>
 ms.openlocfilehash: 555a7bd3e4a57c637c0375ea406caeca3c221be7
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248005"
 ---
 # <a name="security-and-skype-for-business-online"></a>セキュリティと Skype for Business Online
 

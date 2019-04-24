@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: IT 専門家向けに、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラム関連情報へのリンクを提供します。
 ms.openlocfilehash: 8b82923625b8ce686a5898a3d271734aeb8e4ab0
-ms.sourcegitcommit: 4175b376cb8b406dcb3c338dcddf9f01c15eca5e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31398373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211976"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
 
@@ -308,6 +308,6 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 | [Lync 2010 試用版 (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | 2010 年 11 月 |
 | [Lync 2010 試用版 (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | 2010 年 11 月 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Skype for Business Server の更新プログラム](sfb-server-updates.md)

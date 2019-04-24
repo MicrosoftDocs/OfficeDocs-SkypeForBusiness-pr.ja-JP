@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 description: 各レコードには、ビデオの呼び出しで 1 つのエンドポイントのクライアント イベントが含まれています。 通常、1 回の呼び出しでは、2 つのレコード用の呼び出し元と呼び出し先の 1 つがあります。
 ms.openlocfilehash: 314e4df9313a3d111d71b6eaa06565edcbb765d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212040"
 ---
 # <a name="videoclientevent-table"></a>VideoClientEvent テーブル
  
