@@ -12,24 +12,24 @@ ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: 次のメトリックを使用すると、各サイトおよびそのトラフィックをサポートするのにために必要なポートの数にユーザーのトラフィックを見積もる。
 ms.openlocfilehash: 4475be7d233bbfa34c1d2aa8b62d578ebb985423
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197675"
 ---
-# <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a><span data-ttu-id="9bad9-103">Skype のビジネス サーバーの音声の使用率とトラフィックを見積もる</span><span class="sxs-lookup"><span data-stu-id="9bad9-103">Estimating voice usage and traffic for Skype for Business Server</span></span>
+# <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a><span data-ttu-id="f4427-103">Skype のビジネス サーバーの音声の使用率とトラフィックを見積もる</span><span class="sxs-lookup"><span data-stu-id="f4427-103">Estimating voice usage and traffic for Skype for Business Server</span></span>
  
-<span data-ttu-id="9bad9-104">次のメトリックを使用すると、各サイトおよびそのトラフィックをサポートするのにために必要なポートの数にユーザーのトラフィックを見積もる。</span><span class="sxs-lookup"><span data-stu-id="9bad9-104">You can use the following metric to estimate user traffic at each site and the number of ports that are required to support that traffic.</span></span>
+<span data-ttu-id="f4427-104">次のメトリックを使用すると、各サイトおよびそのトラフィックをサポートするのにために必要なポートの数にユーザーのトラフィックを見積もる。</span><span class="sxs-lookup"><span data-stu-id="f4427-104">You can use the following metric to estimate user traffic at each site and the number of ports that are required to support that traffic.</span></span>
   
-> <span data-ttu-id="9bad9-105">**軽度のトラフィック** (1 人あたり 1 時間に 1 PSTN 通話) の場合、1 ポートに対して 15 ユーザーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="9bad9-105">For **Light traffic** (one PSTN call per user per hour), figure 15 users per port.</span></span>
+> <span data-ttu-id="f4427-105">**軽度のトラフィック** (1 人あたり 1 時間に 1 PSTN 通話) の場合、1 ポートに対して 15 ユーザーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="f4427-105">For **Light traffic** (one PSTN call per user per hour), figure 15 users per port.</span></span>
 > 
-> <span data-ttu-id="9bad9-106">**中度のトラフィック** (1 人あたり 1 時間に 2 PSTN 通話) の場合、1 ポートに対して 10 ユーザーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="9bad9-106">For **Medium traffic** (2 PSTN calls per user per hour), figure 10 users per port.</span></span>
+> <span data-ttu-id="f4427-106">**中度のトラフィック** (1 人あたり 1 時間に 2 PSTN 通話) の場合、1 ポートに対して 10 ユーザーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="f4427-106">For **Medium traffic** (2 PSTN calls per user per hour), figure 10 users per port.</span></span>
 > 
-> <span data-ttu-id="9bad9-107">**重度のトラフィック** (1 人あたり 1 時間に 3 以上の PSTN 通話) の場合、1 ポートに対して 5 ユーザーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="9bad9-107">For **Heavy traffic** (3 or more PSTN per user calls per hour), figure 5 users per port.</span></span>
+> <span data-ttu-id="f4427-107">**重度のトラフィック** (1 人あたり 1 時間に 3 以上の PSTN 通話) の場合、1 ポートに対して 5 ユーザーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="f4427-107">For **Heavy traffic** (3 or more PSTN per user calls per hour), figure 5 users per port.</span></span>
     
-<span data-ttu-id="9bad9-108">ポートの数には、仲介サーバーとゲートウェイが必要になることの順番を決定します。</span><span class="sxs-lookup"><span data-stu-id="9bad9-108">The number of ports in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="9bad9-109">960 個のポートに 2 つのポートからのサイズの範囲を展開するほとんどの組織を検討している公衆交換電話網 (PSTN) ゲートウェイです。</span><span class="sxs-lookup"><span data-stu-id="9bad9-109">The public switched telephone network (PSTN) gateways that most organizations consider deploying range in size from 2 ports to as many as 960 ports.</span></span> <span data-ttu-id="9bad9-110">(がさらに大きくゲートウェイがこれらの主にテレフォニー サービス プロバイダーによって使用されます)。</span><span class="sxs-lookup"><span data-stu-id="9bad9-110">(There are even larger gateways, but these are used mainly by telephony service providers.)</span></span>
+<span data-ttu-id="f4427-108">ポートの数には、仲介サーバーとゲートウェイが必要になることの順番を決定します。</span><span class="sxs-lookup"><span data-stu-id="f4427-108">The number of ports in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="f4427-109">960 個のポートに 2 つのポートからのサイズの範囲を展開するほとんどの組織を検討している公衆交換電話網 (PSTN) ゲートウェイです。</span><span class="sxs-lookup"><span data-stu-id="f4427-109">The public switched telephone network (PSTN) gateways that most organizations consider deploying range in size from 2 ports to as many as 960 ports.</span></span> <span data-ttu-id="f4427-110">(がさらに大きくゲートウェイがこれらの主にテレフォニー サービス プロバイダーによって使用されます)。</span><span class="sxs-lookup"><span data-stu-id="f4427-110">(There are even larger gateways, but these are used mainly by telephony service providers.)</span></span>
   
-<span data-ttu-id="9bad9-p102">たとえば、10,000 名のユーザーを擁する中度のトラフィックの組織の場合、1000 ポートが必要となります。必要となるゲートウェイ数は、ゲートウェイの総合した処理能力によって決まる、必要とされるポート数の合計と同じになります。</span><span class="sxs-lookup"><span data-stu-id="9bad9-p102">For example, an organization with 10,000 users and medium traffic would require 1000 ports. The number of gateways required would equal the total number of ports required as determined by the total capacity of the gateways.</span></span>
+<span data-ttu-id="f4427-p102">たとえば、10,000 名のユーザーを擁する中度のトラフィックの組織の場合、1000 ポートが必要となります。必要となるゲートウェイ数は、ゲートウェイの総合した処理能力によって決まる、必要とされるポート数の合計と同じになります。</span><span class="sxs-lookup"><span data-stu-id="f4427-p102">For example, an organization with 10,000 users and medium traffic would require 1000 ports. The number of gateways required would equal the total number of ports required as determined by the total capacity of the gateways.</span></span>
   
 

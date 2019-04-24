@@ -14,14 +14,14 @@ ms.assetid: ece37fc3-365a-439e-ad03-800f8e7a33eb
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開をサポートしたい各追加のドメインのドメイン名を指定します。 たとえば、プライマリ セッション開始プロトコル (SIP) ドメインとして contoso.net を指定すると、配置内の SIP トラフィックの fabrikam.net をサポートする、サポートされている追加のドメインとして fabrikam.net を指定します。
 ms.openlocfilehash: b4813b74c35cda6be8a5e479444b3309e0634c2f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202332"
 ---
-# <a name="add-additional-sip-domains"></a><span data-ttu-id="fd460-104">追加の SIP ドメインの追加</span><span class="sxs-lookup"><span data-stu-id="fd460-104">Add Additional SIP Domains</span></span>
+# <a name="add-additional-sip-domains"></a><span data-ttu-id="9cac7-104">追加の SIP ドメインの追加</span><span class="sxs-lookup"><span data-stu-id="9cac7-104">Add Additional SIP Domains</span></span>
  
-<span data-ttu-id="fd460-105">展開をサポートしたい各追加のドメインのドメイン名を指定します。</span><span class="sxs-lookup"><span data-stu-id="fd460-105">Specify the domain name of each additional domain that you want to support in your deployment.</span></span> <span data-ttu-id="fd460-106">たとえば、プライマリ セッション開始プロトコル (SIP) ドメインとして contoso.net を指定すると、配置内の SIP トラフィックの fabrikam.net をサポートする、サポートされている追加のドメインとして fabrikam.net を指定します。</span><span class="sxs-lookup"><span data-stu-id="fd460-106">For example, if you have specified contoso.net as the primary Session Initiation Protocol (SIP) domain and you also want to support fabrikam.net for SIP traffic in your deployment, specify fabrikam.net as an additional supported domain.</span></span>
+<span data-ttu-id="9cac7-105">展開をサポートしたい各追加のドメインのドメイン名を指定します。</span><span class="sxs-lookup"><span data-stu-id="9cac7-105">Specify the domain name of each additional domain that you want to support in your deployment.</span></span> <span data-ttu-id="9cac7-106">たとえば、プライマリ セッション開始プロトコル (SIP) ドメインとして contoso.net を指定すると、配置内の SIP トラフィックの fabrikam.net をサポートする、サポートされている追加のドメインとして fabrikam.net を指定します。</span><span class="sxs-lookup"><span data-stu-id="9cac7-106">For example, if you have specified contoso.net as the primary Session Initiation Protocol (SIP) domain and you also want to support fabrikam.net for SIP traffic in your deployment, specify fabrikam.net as an additional supported domain.</span></span>
   
 

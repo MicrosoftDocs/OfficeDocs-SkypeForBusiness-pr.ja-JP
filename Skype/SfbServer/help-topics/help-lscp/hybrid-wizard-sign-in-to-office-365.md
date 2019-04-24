@@ -18,20 +18,20 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。
 ms.openlocfilehash: 00e01132f1f8330ba46fe25bcfe2d08db41a2410
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200801"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="40d98-103">ハイブリッド ウィザード: Office 365 へのサインイン</span><span class="sxs-lookup"><span data-stu-id="40d98-103">Hybrid wizard: Sign in to Office 365</span></span>
+# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="85962-103">ハイブリッド ウィザード: Office 365 へのサインイン</span><span class="sxs-lookup"><span data-stu-id="85962-103">Hybrid wizard: Sign in to Office 365</span></span>
 
-<span data-ttu-id="40d98-104">ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。</span><span class="sxs-lookup"><span data-stu-id="40d98-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
+<span data-ttu-id="85962-104">ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。</span><span class="sxs-lookup"><span data-stu-id="85962-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
 
-## <a name="sign-in-to-office-365"></a><span data-ttu-id="40d98-105">Office 365 にサインインする</span><span class="sxs-lookup"><span data-stu-id="40d98-105">Sign in to Office 365</span></span>
+## <a name="sign-in-to-office-365"></a><span data-ttu-id="85962-105">Office 365 にサインインする</span><span class="sxs-lookup"><span data-stu-id="85962-105">Sign in to Office 365</span></span>
 
-<span data-ttu-id="40d98-p101">Office 365 テナント用のユーザー名とパスワードを入力して、Office 365 テナントを使用する内部設置型の展開にログインして接続します。Office 365 にサインアップしたときに onmicrosoft ドメイン用に作成された管理アカウント (admin@contoso.onmicrosoft.com など) を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="40d98-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
+<span data-ttu-id="85962-p101">Office 365 テナント用のユーザー名とパスワードを入力して、Office 365 テナントを使用する内部設置型の展開にログインして接続します。Office 365 にサインアップしたときに onmicrosoft ドメイン用に作成された管理アカウント (admin@contoso.onmicrosoft.com など) を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="85962-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
 
-<span data-ttu-id="40d98-108">ハイブリッドの環境を構成する方法の詳細については、「[Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="40d98-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
+<span data-ttu-id="85962-108">ハイブリッドの環境を構成する方法の詳細については、「[Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="85962-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
 
 

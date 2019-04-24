@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 description: 次ホップの FQDN は、従来のエッジ サーバーが内部トラフィックをルーティングする次ホップのサーバーを識別します。 このエッジ サーバーが内部トラフィックをルーティングする次ホップのサーバーの完全修飾ドメイン名 (FQDN) を入力し、フロント エンド プールまたはディレクターであるかどうかを選択します。
 ms.openlocfilehash: 0e498a7181b77ec86b1f1b6d12d673feba372097
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200181"
 ---
-# <a name="legacy-merge-next-hop"></a><span data-ttu-id="18303-104">従来版のマージの次ホップ</span><span class="sxs-lookup"><span data-stu-id="18303-104">Legacy Merge Next Hop</span></span>
+# <a name="legacy-merge-next-hop"></a><span data-ttu-id="3b48f-104">従来版のマージの次ホップ</span><span class="sxs-lookup"><span data-stu-id="3b48f-104">Legacy Merge Next Hop</span></span>
  
-<span data-ttu-id="18303-105">**次ホップの FQDN**は、従来のエッジ サーバーが内部トラフィックをルーティングする次ホップのサーバーを識別します。</span><span class="sxs-lookup"><span data-stu-id="18303-105">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic.</span></span> <span data-ttu-id="18303-106">このエッジ サーバーが内部トラフィックをルーティングする次ホップのサーバーの完全修飾ドメイン名 (FQDN) を入力し、**フロント エンド プール**または**ディレクター**であるかどうかを選択します。</span><span class="sxs-lookup"><span data-stu-id="18303-106">Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
+<span data-ttu-id="3b48f-105">**次ホップの FQDN**は、従来のエッジ サーバーが内部トラフィックをルーティングする次ホップのサーバーを識別します。</span><span class="sxs-lookup"><span data-stu-id="3b48f-105">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic.</span></span> <span data-ttu-id="3b48f-106">このエッジ サーバーが内部トラフィックをルーティングする次ホップのサーバーの完全修飾ドメイン名 (FQDN) を入力し、**フロント エンド プール**または**ディレクター**であるかどうかを選択します。</span><span class="sxs-lookup"><span data-stu-id="3b48f-106">Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
   
 

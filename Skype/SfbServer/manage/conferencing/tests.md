@@ -11,65 +11,65 @@ localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: '概要: は、Skype のビジネス サーバーのダイヤルイン会議をテストする方法を説明します。'
 ms.openlocfilehash: 99d91a4d3e9729da7b86f723f4a980a887d88b5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197773"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a><span data-ttu-id="858bd-103">Skype のビジネス サーバーのダイヤルイン会議をテストします。</span><span class="sxs-lookup"><span data-stu-id="858bd-103">Test dial-in conferencing in Skype for Business Server</span></span>
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a><span data-ttu-id="bf4a2-103">Skype のビジネス サーバーのダイヤルイン会議をテストします。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-103">Test dial-in conferencing in Skype for Business Server</span></span>
  
-<span data-ttu-id="858bd-104">**の概要:** Skype のビジネス サーバーのダイヤルイン会議をテストする方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="858bd-104">**Summary:** Learn how to test dial-in conferencing in Skype for Business Server.</span></span>
+<span data-ttu-id="bf4a2-104">**の概要:** Skype のビジネス サーバーのダイヤルイン会議をテストする方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-104">**Summary:** Learn how to test dial-in conferencing in Skype for Business Server.</span></span>
   
-<span data-ttu-id="858bd-105">ダイヤルイン会議構成の最後の確認作業として、どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランやダイヤルイン会議の地域が指定されていないアクセス番号を検索します。</span><span class="sxs-lookup"><span data-stu-id="858bd-105">As final verification of your dial-in conferencing configuration, you can search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have not specified a dial-in conferencing region.</span></span> <span data-ttu-id="858bd-106">ダイヤルイン会議の設定の Web ページとダイヤルイン アクセス番号が正しく動作していることも確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="858bd-106">You should also verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly.</span></span>
+<span data-ttu-id="bf4a2-105">ダイヤルイン会議構成の最後の確認作業として、どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランやダイヤルイン会議の地域が指定されていないアクセス番号を検索します。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-105">As final verification of your dial-in conferencing configuration, you can search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have not specified a dial-in conferencing region.</span></span> <span data-ttu-id="bf4a2-106">ダイヤルイン会議の設定の Web ページとダイヤルイン アクセス番号が正しく動作していることも確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-106">You should also verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly.</span></span>
   
-## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a><span data-ttu-id="858bd-107">どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランの検索</span><span class="sxs-lookup"><span data-stu-id="858bd-107">Find dial plans with a dial-in conferencing region that is not used by an access number</span></span>
+## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a><span data-ttu-id="bf4a2-107">どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランの検索</span><span class="sxs-lookup"><span data-stu-id="bf4a2-107">Find dial plans with a dial-in conferencing region that is not used by an access number</span></span>
 
-1. <span data-ttu-id="858bd-108">コンピューターに RTCUniversalServerAdmins グループのメンバーとしてログオンするか、Cs-ServerAdministrator または CsAdministrator 役割のメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="858bd-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="bf4a2-108">コンピューターに RTCUniversalServerAdmins グループのメンバーとしてログオンするか、Cs-ServerAdministrator または CsAdministrator 役割のメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="858bd-109">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="858bd-109">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="bf4a2-109">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-109">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="858bd-110">コマンド プロンプトで次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="858bd-110">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="bf4a2-110">コマンド プロンプトで次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-110">Run the following at the command prompt:</span></span>
     
    ```
    Get-CsDialinConferencingAccessNumber -EmptyRegion
    ```
 
-    <span data-ttu-id="858bd-111">このコマンドレットは、どのアクセス番号も使用していないダイヤルイン会議の地域がある、すべてのダイヤル プランを返します。</span><span class="sxs-lookup"><span data-stu-id="858bd-111">This cmdlet returns all of the dial plans that have a dial-in conferencing region that is not used by an access number.</span></span>
+    <span data-ttu-id="bf4a2-111">このコマンドレットは、どのアクセス番号も使用していないダイヤルイン会議の地域がある、すべてのダイヤル プランを返します。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-111">This cmdlet returns all of the dial plans that have a dial-in conferencing region that is not used by an access number.</span></span>
     
-<span data-ttu-id="858bd-112">詳細については、 [Get CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="858bd-112">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
+<span data-ttu-id="bf4a2-112">詳細については、 [Get CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-112">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
   
-## <a name="find-access-numbers-without-assigned-regions"></a><span data-ttu-id="858bd-113">地域が割り当てられていないアクセス番号の検索</span><span class="sxs-lookup"><span data-stu-id="858bd-113">Find access numbers without assigned regions</span></span>
+## <a name="find-access-numbers-without-assigned-regions"></a><span data-ttu-id="bf4a2-113">地域が割り当てられていないアクセス番号の検索</span><span class="sxs-lookup"><span data-stu-id="bf4a2-113">Find access numbers without assigned regions</span></span>
 
-1. <span data-ttu-id="858bd-114">コンピューターに RTCUniversalServerAdmins グループのメンバーとしてログオンするか、Cs-ServerAdministrator または CsAdministrator 役割のメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="858bd-114">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="bf4a2-114">コンピューターに RTCUniversalServerAdmins グループのメンバーとしてログオンするか、Cs-ServerAdministrator または CsAdministrator 役割のメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-114">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="858bd-115">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="858bd-115">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="bf4a2-115">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-115">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="858bd-116">コマンド プロンプトで次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="858bd-116">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="bf4a2-116">コマンド プロンプトで次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-116">Run the following at the command prompt:</span></span>
     
    ```
    Get-CsDialinConferencingAccessNumber -Region NULL
    ```
 
-    <span data-ttu-id="858bd-117">このコマンドレットは、地域に関連付けられていないダイヤルイン会議アクセス番号をすべて返します。</span><span class="sxs-lookup"><span data-stu-id="858bd-117">This cmdlet returns all the dial-in conferencing access numbers that are not associated with a region.</span></span>
+    <span data-ttu-id="bf4a2-117">このコマンドレットは、地域に関連付けられていないダイヤルイン会議アクセス番号をすべて返します。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-117">This cmdlet returns all the dial-in conferencing access numbers that are not associated with a region.</span></span>
     
-<span data-ttu-id="858bd-118">詳細については、 [Get CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="858bd-118">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
+<span data-ttu-id="bf4a2-118">詳細については、 [Get CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-118">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
   
-## <a name="test-webpage-and-access-numbers"></a><span data-ttu-id="858bd-119">Web ページとアクセス番号のテスト</span><span class="sxs-lookup"><span data-stu-id="858bd-119">Test webpage and access numbers</span></span>
+## <a name="test-webpage-and-access-numbers"></a><span data-ttu-id="bf4a2-119">Web ページとアクセス番号のテスト</span><span class="sxs-lookup"><span data-stu-id="bf4a2-119">Test webpage and access numbers</span></span>
 
-<span data-ttu-id="858bd-120">ダイヤルイン会議の設定の Web ページとダイヤルイン アクセス番号が正しく動作していることを確認するには、以下を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="858bd-120">To verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly, you need to do the following:</span></span>
+<span data-ttu-id="bf4a2-120">ダイヤルイン会議の設定の Web ページとダイヤルイン アクセス番号が正しく動作していることを確認するには、以下を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-120">To verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly, you need to do the following:</span></span>
   
-- <span data-ttu-id="858bd-121">簡易 URL にサインインして、ダイヤルイン会議の設定の Web ページをテストします。</span><span class="sxs-lookup"><span data-stu-id="858bd-121">Test the Dial-in Conferencing Settings webpage by signing in to the simple URL.</span></span>
+- <span data-ttu-id="bf4a2-121">簡易 URL にサインインして、ダイヤルイン会議の設定の Web ページをテストします。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-121">Test the Dial-in Conferencing Settings webpage by signing in to the simple URL.</span></span>
     
-- <span data-ttu-id="858bd-p102">この後のスクリプトを実行して、特定のプールでそのアクセス番号が正しく動作することをテストします。このスクリプトは、アクセス番号への通話をシミュレートします。このスクリプトを使用するには、特定のプールでホストされている 1 つの統合コミュニケーション (UC) クライアントの SIP アドレスと資格情報が必要です。</span><span class="sxs-lookup"><span data-stu-id="858bd-p102">Test that access numbers work correctly for a specific pool by running the script later in this topic. This script simulates calls to access numbers. You need the SIP address and credentials of one unified communications (UC) client that is hosted on the specific pool to use this script.</span></span>
+- <span data-ttu-id="bf4a2-p102">この後のスクリプトを実行して、特定のプールでそのアクセス番号が正しく動作することをテストします。このスクリプトは、アクセス番号への通話をシミュレートします。このスクリプトを使用するには、特定のプールでホストされている 1 つの統合コミュニケーション (UC) クライアントの SIP アドレスと資格情報が必要です。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-p102">Test that access numbers work correctly for a specific pool by running the script later in this topic. This script simulates calls to access numbers. You need the SIP address and credentials of one unified communications (UC) client that is hosted on the specific pool to use this script.</span></span>
     
-### <a name="to-test-access-numbers-for-a-specific-pool"></a><span data-ttu-id="858bd-125">特定のプールのアクセス番号をテストするには</span><span class="sxs-lookup"><span data-stu-id="858bd-125">To test access numbers for a specific pool</span></span>
+### <a name="to-test-access-numbers-for-a-specific-pool"></a><span data-ttu-id="bf4a2-125">特定のプールのアクセス番号をテストするには</span><span class="sxs-lookup"><span data-stu-id="bf4a2-125">To test access numbers for a specific pool</span></span>
 
-1. <span data-ttu-id="858bd-126">コンピューターに RTCUniversalServerAdmins グループのメンバーとしてログオンするか、Cs-ServerAdministrator または CsAdministrator 役割のメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="858bd-126">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="bf4a2-126">コンピューターに RTCUniversalServerAdmins グループのメンバーとしてログオンするか、Cs-ServerAdministrator または CsAdministrator 役割のメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-126">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="858bd-127">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="858bd-127">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="bf4a2-127">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-127">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="858bd-128">コマンド プロンプトで次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="858bd-128">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="bf4a2-128">コマンド プロンプトで次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-128">Run the following at the command prompt:</span></span>
     
    ```
    $credentials = Get-Credential
@@ -78,8 +78,8 @@ ms.locfileid: "30880918"
    Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
    ```
 
-    <span data-ttu-id="858bd-129">結果レポートに、コマンドの成否と特定の診断情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="858bd-129">The resulting report shows either Success or Failure, along with specific diagnostic information.</span></span> <span data-ttu-id="858bd-130">-フラグの詳細についてはどのように多くのアクセス番号が見つかりませんでしたし、それらについての詳細の詳細を提供します。</span><span class="sxs-lookup"><span data-stu-id="858bd-130">The -Verbose flag provides more detailed information about how many access numbers were found and details about them.</span></span>
+    <span data-ttu-id="bf4a2-129">結果レポートに、コマンドの成否と特定の診断情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-129">The resulting report shows either Success or Failure, along with specific diagnostic information.</span></span> <span data-ttu-id="bf4a2-130">-フラグの詳細についてはどのように多くのアクセス番号が見つかりませんでしたし、それらについての詳細の詳細を提供します。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-130">The -Verbose flag provides more detailed information about how many access numbers were found and details about them.</span></span>
     
-<span data-ttu-id="858bd-131">詳細については、[テスト CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="858bd-131">For more information, see [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).</span></span>
+<span data-ttu-id="bf4a2-131">詳細については、[テスト CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bf4a2-131">For more information, see [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).</span></span>
   
 

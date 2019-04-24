@@ -14,19 +14,19 @@ localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: 使用できる既存のボイス ルートを検索するのにには、ルートの選択] ダイアログ ボックスを使用します。
 ms.openlocfilehash: cffb5c8436b4227c136dc3f956c9345c120b44c6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220194"
 ---
-# <a name="select-routes"></a><span data-ttu-id="25b9f-103">ルートの選択</span><span class="sxs-lookup"><span data-stu-id="25b9f-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="4850d-103">ルートの選択</span><span class="sxs-lookup"><span data-stu-id="4850d-103">Select Routes</span></span>
  
-<span data-ttu-id="25b9f-104">使用できる既存のボイス ルートを検索するのにには、**ルートの選択**] ダイアログ ボックスを使用します。</span><span class="sxs-lookup"><span data-stu-id="25b9f-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="4850d-104">使用できる既存のボイス ルートを検索するのにには、**ルートの選択**] ダイアログ ボックスを使用します。</span><span class="sxs-lookup"><span data-stu-id="4850d-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="25b9f-105">利用可能な音声のすべてのルートを取得するためには検索ボックスには何も入力されず、[検索] アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="25b9f-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="4850d-105">利用可能な音声のすべてのルートを取得するためには検索ボックスには何も入力されず、[検索] アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="4850d-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
-<span data-ttu-id="25b9f-106">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="25b9f-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="4850d-106">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4850d-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

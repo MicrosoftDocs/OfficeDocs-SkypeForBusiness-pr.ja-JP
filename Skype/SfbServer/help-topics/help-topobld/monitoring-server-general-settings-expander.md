@@ -14,18 +14,18 @@ localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: トポロジ ビルダーで、個々の監視サーバーのプロパティを編集できます。それには、コンソール ツリーで監視サーバーを右クリックしてからツール バーで [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックしてから [プロパティの編集] をクリックし、次のオプションのいずれかを変更します。
 ms.openlocfilehash: d096603f2a3ec5f0644c666f8f76b02b8d01d99d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200002"
 ---
-# <a name="monitoring-server-general-settings-expander"></a><span data-ttu-id="3a6a4-103">監視サーバー全般設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="3a6a4-103">Monitoring Server General Settings Expander</span></span>
+# <a name="monitoring-server-general-settings-expander"></a><span data-ttu-id="2ede8-103">監視サーバー全般設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="2ede8-103">Monitoring Server General Settings Expander</span></span>
  
-<span data-ttu-id="3a6a4-104">トポロジ ビルダーで、個々の監視サーバーのプロパティを編集できます。それには、コンソール ツリーで監視サーバーを右クリックしてからツール バーで [**アクション**] をクリックするか、[操作] ウィンドウでタスクをクリックしてから [**プロパティの編集**] をクリックし、次のオプションのいずれかを変更します。</span><span class="sxs-lookup"><span data-stu-id="3a6a4-104">In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:</span></span>
+<span data-ttu-id="2ede8-104">トポロジ ビルダーで、個々の監視サーバーのプロパティを編集できます。それには、コンソール ツリーで監視サーバーを右クリックしてからツール バーで [**アクション**] をクリックするか、[操作] ウィンドウでタスクをクリックしてから [**プロパティの編集**] をクリックし、次のオプションのいずれかを変更します。</span><span class="sxs-lookup"><span data-stu-id="2ede8-104">In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:</span></span>
   
-- <span data-ttu-id="3a6a4-105">**FQDN**。監視サーバーとして展開するサーバーの完全修飾ドメイン名 (FQDN) を変更する場合に使用します。</span><span class="sxs-lookup"><span data-stu-id="3a6a4-105">**FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.</span></span>
+- <span data-ttu-id="2ede8-105">**FQDN**。監視サーバーとして展開するサーバーの完全修飾ドメイン名 (FQDN) を変更する場合に使用します。</span><span class="sxs-lookup"><span data-stu-id="2ede8-105">**FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.</span></span>
     
-- <span data-ttu-id="3a6a4-p101">**SQL ストア**。監視 SQL Server データベースに使用する SQL Server のインスタンスを変更する場合に使用します。監視サーバーの SQL Server データベースを変更する場合、変更を有効にするためには、監視サーバーを再起動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3a6a4-p101">**SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.</span></span>
+- <span data-ttu-id="2ede8-p101">**SQL ストア**。監視 SQL Server データベースに使用する SQL Server のインスタンスを変更する場合に使用します。監視サーバーの SQL Server データベースを変更する場合、変更を有効にするためには、監視サーバーを再起動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2ede8-p101">**SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.</span></span>
     
 

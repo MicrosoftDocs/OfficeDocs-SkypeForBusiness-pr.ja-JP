@@ -15,39 +15,39 @@ ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: '概要: は、Skype のビジネス サーバーの SIP トランクに関する情報を表示する方法を説明します。'
 ms.openlocfilehash: 105d093b302bc61816464ed3998ab985769f5e54
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222527"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a><span data-ttu-id="b62c9-103">ビジネス サーバーの Skype での個々 の SIP トランクに関する情報を表示</span><span class="sxs-lookup"><span data-stu-id="b62c9-103">View information about individual SIP trunks in Skype for Business Server</span></span>
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a><span data-ttu-id="0d248-103">ビジネス サーバーの Skype での個々 の SIP トランクに関する情報を表示</span><span class="sxs-lookup"><span data-stu-id="0d248-103">View information about individual SIP trunks in Skype for Business Server</span></span>
  
-<span data-ttu-id="b62c9-104">**の概要:** Skype のビジネス サーバーの SIP トランクに関する情報を表示する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="b62c9-104">**Summary:** Learn how to view information about SIP trunks in Skype for Business Server.</span></span>
+<span data-ttu-id="0d248-104">**の概要:** Skype のビジネス サーバーの SIP トランクに関する情報を表示する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="0d248-104">**Summary:** Learn how to view information about SIP trunks in Skype for Business Server.</span></span>
   
-<span data-ttu-id="b62c9-105">SIP トランクを使用して、Skype をビジネス サーバーの音声トラフィックの IP 電話ネットワークに、パブリック交換電話網 (PSTN) 経由で接続します。</span><span class="sxs-lookup"><span data-stu-id="b62c9-105">SIP trunks are used to connect Skype for Business Server Voice over IP phone network with the Public Switched Telephone Network (PSTN).</span></span> <span data-ttu-id="b62c9-106">以前のバージョンの製品では、トランクを使用して仲介サーバーから PSTN ゲートウェイに発信通話がルーティングされ、各ゲートウェイは 1 つのトランクに制限されていました。</span><span class="sxs-lookup"><span data-stu-id="b62c9-106">In previous version of the product, trunks were used to route outbound calls from a Mediation Server to a PSTN gateway and each gateway was limited to a single trunk.</span></span> <span data-ttu-id="b62c9-107">その結果、PSTN ゲートウェイと SIP トランクは実質的に同一でした。</span><span class="sxs-lookup"><span data-stu-id="b62c9-107">As a result, a PSTN gateway and a SIP trunk were essentially identical.</span></span> <span data-ttu-id="b62c9-108">管理者にとって、このことは、関連付けられている PSTN ゲートウェイに関する情報を表示するだけで個々の SIP トランクに関する情報を表示できることを意味していました。</span><span class="sxs-lookup"><span data-stu-id="b62c9-108">For administrators, that meant they could view information about an individual SIP trunk simply by viewing information about the associated PSTN gateway.</span></span>
+<span data-ttu-id="0d248-105">SIP トランクを使用して、Skype をビジネス サーバーの音声トラフィックの IP 電話ネットワークに、パブリック交換電話網 (PSTN) 経由で接続します。</span><span class="sxs-lookup"><span data-stu-id="0d248-105">SIP trunks are used to connect Skype for Business Server Voice over IP phone network with the Public Switched Telephone Network (PSTN).</span></span> <span data-ttu-id="0d248-106">以前のバージョンの製品では、トランクを使用して仲介サーバーから PSTN ゲートウェイに発信通話がルーティングされ、各ゲートウェイは 1 つのトランクに制限されていました。</span><span class="sxs-lookup"><span data-stu-id="0d248-106">In previous version of the product, trunks were used to route outbound calls from a Mediation Server to a PSTN gateway and each gateway was limited to a single trunk.</span></span> <span data-ttu-id="0d248-107">その結果、PSTN ゲートウェイと SIP トランクは実質的に同一でした。</span><span class="sxs-lookup"><span data-stu-id="0d248-107">As a result, a PSTN gateway and a SIP trunk were essentially identical.</span></span> <span data-ttu-id="0d248-108">管理者にとって、このことは、関連付けられている PSTN ゲートウェイに関する情報を表示するだけで個々の SIP トランクに関する情報を表示できることを意味していました。</span><span class="sxs-lookup"><span data-stu-id="0d248-108">For administrators, that meant they could view information about an individual SIP trunk simply by viewing information about the associated PSTN gateway.</span></span>
   
-<span data-ttu-id="b62c9-109">ビジネス サーバーの Skype でただし、複数のトランク今すぐに割り当て可能、1 つの PSTN ゲートウェイこれは、ゲートウェイとトランクに 1 つだけが不要になったことを意味します。</span><span class="sxs-lookup"><span data-stu-id="b62c9-109">In Skype for Business Server, however, multiple trunks can now be assigned to a single PSTN gateway; this means that gateways and trunks are no longer one and the same.</span></span> <span data-ttu-id="b62c9-110">つまり、管理者が個々 の SIP トランクに関する情報を表示するために新しい[Get CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps)コマンドレットを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="b62c9-110">In turn, that means that administrators must use the new [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) cmdlet in order to view information about an individual SIP trunk.</span></span>
+<span data-ttu-id="0d248-109">ビジネス サーバーの Skype でただし、複数のトランク今すぐに割り当て可能、1 つの PSTN ゲートウェイこれは、ゲートウェイとトランクに 1 つだけが不要になったことを意味します。</span><span class="sxs-lookup"><span data-stu-id="0d248-109">In Skype for Business Server, however, multiple trunks can now be assigned to a single PSTN gateway; this means that gateways and trunks are no longer one and the same.</span></span> <span data-ttu-id="0d248-110">つまり、管理者が個々 の SIP トランクに関する情報を表示するために新しい[Get CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps)コマンドレットを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0d248-110">In turn, that means that administrators must use the new [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) cmdlet in order to view information about an individual SIP trunk.</span></span>
   
-### <a name="to-view-information-for-all-your-sip-trunks"></a><span data-ttu-id="b62c9-111">すべての SIP トランクに関する情報の表示</span><span class="sxs-lookup"><span data-stu-id="b62c9-111">To view information for all your SIP trunks</span></span>
+### <a name="to-view-information-for-all-your-sip-trunks"></a><span data-ttu-id="0d248-111">すべての SIP トランクに関する情報の表示</span><span class="sxs-lookup"><span data-stu-id="0d248-111">To view information for all your SIP trunks</span></span>
 
-- <span data-ttu-id="b62c9-112">次のコマンドは、組織で使用中のすべての SIP トランクに関する情報を返します。</span><span class="sxs-lookup"><span data-stu-id="b62c9-112">The following command returns information about all the SIP trunks in use in your organization:</span></span>
+- <span data-ttu-id="0d248-112">次のコマンドは、組織で使用中のすべての SIP トランクに関する情報を返します。</span><span class="sxs-lookup"><span data-stu-id="0d248-112">The following command returns information about all the SIP trunks in use in your organization:</span></span>
     
   ```
   Get-CsTrunk
   ```
 
-### <a name="to-view-information-for-a-specific-sip-trunk"></a><span data-ttu-id="b62c9-113">特定の SIP トランクに関する情報の表示</span><span class="sxs-lookup"><span data-stu-id="b62c9-113">To view information for a specific SIP trunk</span></span>
+### <a name="to-view-information-for-a-specific-sip-trunk"></a><span data-ttu-id="0d248-113">特定の SIP トランクに関する情報の表示</span><span class="sxs-lookup"><span data-stu-id="0d248-113">To view information for a specific SIP trunk</span></span>
 
-- <span data-ttu-id="b62c9-114">このコマンドは、PstnGateway:192.168.0.240 という Identity を持つ SIP トランクに関する情報のみを返します。</span><span class="sxs-lookup"><span data-stu-id="b62c9-114">This command returns information only for the SIP trunk with the Identity PstnGateway:192.168.0.240:</span></span>
+- <span data-ttu-id="0d248-114">このコマンドは、PstnGateway:192.168.0.240 という Identity を持つ SIP トランクに関する情報のみを返します。</span><span class="sxs-lookup"><span data-stu-id="0d248-114">This command returns information only for the SIP trunk with the Identity PstnGateway:192.168.0.240:</span></span>
     
   ```
   Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
   ```
 
-### <a name="view-information-for-all-the-sip-trunks-assigned-to-a-pool"></a><span data-ttu-id="b62c9-115">プールに割り当てられているすべての SIP トランクに関する情報を表示する</span><span class="sxs-lookup"><span data-stu-id="b62c9-115">View information for all the SIP trunks assigned to a pool</span></span>
+### <a name="view-information-for-all-the-sip-trunks-assigned-to-a-pool"></a><span data-ttu-id="0d248-115">プールに割り当てられているすべての SIP トランクに関する情報を表示する</span><span class="sxs-lookup"><span data-stu-id="0d248-115">View information for all the SIP trunks assigned to a pool</span></span>
 
-- <span data-ttu-id="b62c9-116">この例では、プール atl-cs-001.litwareinc.com に割り当てられているすべての SIP トランクについて情報が返されます。</span><span class="sxs-lookup"><span data-stu-id="b62c9-116">In this example, information is returned for all the SIP trunks assigned to the pool atl-cs-001.litwareinc.com:</span></span>
+- <span data-ttu-id="0d248-116">この例では、プール atl-cs-001.litwareinc.com に割り当てられているすべての SIP トランクについて情報が返されます。</span><span class="sxs-lookup"><span data-stu-id="0d248-116">In this example, information is returned for all the SIP trunks assigned to the pool atl-cs-001.litwareinc.com:</span></span>
     
   ```
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"

@@ -11,43 +11,43 @@ localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: '概要: は、Skype のビジネス サーバーの会議ポリシーを表示する方法を説明します。'
 ms.openlocfilehash: 034de4e8d1a5d1a4a89589d3f6361d22e5a783be
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197871"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server"></a><span data-ttu-id="751d3-103">Skype ビジネス サーバー用の会議ポリシーの表示</span><span class="sxs-lookup"><span data-stu-id="751d3-103">View conferencing policies in Skype for Business Server</span></span>
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a><span data-ttu-id="85735-103">Skype ビジネス サーバー用の会議ポリシーの表示</span><span class="sxs-lookup"><span data-stu-id="85735-103">View conferencing policies in Skype for Business Server</span></span>
  
-<span data-ttu-id="751d3-104">**の概要:** ビジネス サーバーの Skype での会議ポリシーを表示する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="751d3-104">**Summary:** Learn how to view conferencing policies in Skype for Business Server.</span></span>
+<span data-ttu-id="85735-104">**の概要:** ビジネス サーバーの Skype での会議ポリシーを表示する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="85735-104">**Summary:** Learn how to view conferencing policies in Skype for Business Server.</span></span>
   
-<span data-ttu-id="751d3-105">ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、会議ポリシーを表示できます。</span><span class="sxs-lookup"><span data-stu-id="751d3-105">You can view conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="85735-105">ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、会議ポリシーを表示できます。</span><span class="sxs-lookup"><span data-stu-id="85735-105">You can view conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
   
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="751d3-106">ビジネス サーバーのコントロール パネルの Skype を使用して会議ポリシーの表示</span><span class="sxs-lookup"><span data-stu-id="751d3-106">View conferencing policies by using Skype for Business Server Control Panel</span></span>
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="85735-106">ビジネス サーバーのコントロール パネルの Skype を使用して会議ポリシーの表示</span><span class="sxs-lookup"><span data-stu-id="85735-106">View conferencing policies by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="751d3-107">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="751d3-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="85735-107">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="85735-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2.  <span data-ttu-id="751d3-108">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="751d3-108">Open Skype for Business Server Control Panel.</span></span>
+2.  <span data-ttu-id="85735-108">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="85735-108">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="751d3-109">左側のナビゲーション バーで、[**会議**] をクリックし、[**会議ポリシー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="751d3-109">In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.</span></span>
+3. <span data-ttu-id="85735-109">左側のナビゲーション バーで、[**会議**] をクリックし、[**会議ポリシー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="85735-109">In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.</span></span>
     
-4. <span data-ttu-id="751d3-110">[**会議ポリシー**] ページで、表示する会議ポリシーをダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="751d3-110">On the **Conferencing Policy** page, double-click the conferencing policy that you would like to view.</span></span>
+4. <span data-ttu-id="85735-110">[**会議ポリシー**] ページで、表示する会議ポリシーをダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="85735-110">On the **Conferencing Policy** page, double-click the conferencing policy that you would like to view.</span></span>
     
-5. <span data-ttu-id="751d3-111">[**ファイル フィルターの編集**] で、[**詳細の表示**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="751d3-111">In **Edit File Filter**, select the **Show Details** check box.</span></span>
+5. <span data-ttu-id="85735-111">[**ファイル フィルターの編集**] で、[**詳細の表示**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="85735-111">In **Edit File Filter**, select the **Show Details** check box.</span></span>
     
-    <span data-ttu-id="751d3-112">**会議ポリシーの編集 -\<ポリシー\>** が開き、選択したポリシーの設定を表示します。</span><span class="sxs-lookup"><span data-stu-id="751d3-112">**Edit Conferencing Policy - \<policy\>** opens displaying the settings for the selected policy.</span></span>
+    <span data-ttu-id="85735-112">**会議ポリシーの編集 -\<ポリシー\>** が開き、選択したポリシーの設定を表示します。</span><span class="sxs-lookup"><span data-stu-id="85735-112">**Edit Conferencing Policy - \<policy\>** opens displaying the settings for the selected policy.</span></span>
     
-    <span data-ttu-id="751d3-113">詳細設定の構成については、 [Skype ビジネス サーバー用の会議ポリシーを作成する](create-policies.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="751d3-113">For details about configuring the settings, see [Create conferencing policies in Skype for Business Server](create-policies.md).</span></span>
+    <span data-ttu-id="85735-113">詳細設定の構成については、 [Skype ビジネス サーバー用の会議ポリシーを作成する](create-policies.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="85735-113">For details about configuring the settings, see [Create conferencing policies in Skype for Business Server](create-policies.md).</span></span>
     
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="751d3-114">Skype ビジネス サーバー管理シェルを使用して会議ポリシーの表示</span><span class="sxs-lookup"><span data-stu-id="751d3-114">View conferencing policies by using Skype for Business Server Management Shell</span></span>
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="85735-114">Skype ビジネス サーバー管理シェルを使用して会議ポリシーの表示</span><span class="sxs-lookup"><span data-stu-id="85735-114">View conferencing policies by using Skype for Business Server Management Shell</span></span>
 
-<span data-ttu-id="751d3-115">会議ポリシーを表示するには、**Get-CsConferencingPolicy** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="751d3-115">To view conferencing policies, use the **Get-CsConferencingPolicy** cmdlet:</span></span>
+<span data-ttu-id="85735-115">会議ポリシーを表示するには、**Get-CsConferencingPolicy** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="85735-115">To view conferencing policies, use the **Get-CsConferencingPolicy** cmdlet:</span></span>
   
 ```
 Get-CsConferencingPolicy
 ```
 
-<span data-ttu-id="751d3-116">コマンドレットを実行すると、次のような情報が返されます。</span><span class="sxs-lookup"><span data-stu-id="751d3-116">The cmdlet returns information such as the following:</span></span>
+<span data-ttu-id="85735-116">コマンドレットを実行すると、次のような情報が返されます。</span><span class="sxs-lookup"><span data-stu-id="85735-116">The cmdlet returns information such as the following:</span></span>
   
 <pre>
 Identity                                  : Global
@@ -86,6 +86,6 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-<span data-ttu-id="751d3-117">詳細については、完全な構文の説明と、パラメーターの一覧を含む[Get CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="751d3-117">For more information, including a complete syntax description and list of parameters, see [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="85735-117">詳細については、完全な構文の説明と、パラメーターの一覧を含む[Get CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="85735-117">For more information, including a complete syntax description and list of parameters, see [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).</span></span>
   
 

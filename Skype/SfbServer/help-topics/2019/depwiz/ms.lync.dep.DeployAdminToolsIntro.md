@@ -14,14 +14,14 @@ ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開ウィザードを使用して、ビジネスのサーバーの Skype をインストールする詳細については、ビジネスのサーバーの Skype のインストールを参照してください。
 ms.openlocfilehash: d2437d6991adf43adbf88f3104afc8083b82eeef
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216593"
 ---
-# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="5dd15-103">展開ウィザード: 管理ツール</span><span class="sxs-lookup"><span data-stu-id="5dd15-103">Deployment Wizard: Admin Tools</span></span>
+# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="3de4f-103">展開ウィザード: 管理ツール</span><span class="sxs-lookup"><span data-stu-id="3de4f-103">Deployment Wizard: Admin Tools</span></span>
  
-<span data-ttu-id="5dd15-104">展開ウィザードを使用して、ビジネスのサーバーの Skype をインストールする詳細については、[ビジネスのサーバー用の Skype のインストール](../../../deploy/install/install.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5dd15-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="3de4f-104">展開ウィザードを使用して、ビジネスのサーバーの Skype をインストールする詳細については、[ビジネスのサーバー用の Skype のインストール](../../../deploy/install/install.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3de4f-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

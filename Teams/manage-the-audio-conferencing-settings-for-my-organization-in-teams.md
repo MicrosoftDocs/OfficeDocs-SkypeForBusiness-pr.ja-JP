@@ -22,207 +22,207 @@ ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
 ms.openlocfilehash: 201da13370852b6506fe7aa32f695d973bcc637a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202766"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a><span data-ttu-id="fdc65-103">Microsoft Teams で組織の電話会議の設定を管理する</span><span class="sxs-lookup"><span data-stu-id="fdc65-103">Manage the Audio Conferencing settings for your organization in Microsoft Teams</span></span>
+# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a><span data-ttu-id="bc30f-103">Microsoft Teams で組織の電話会議の設定を管理する</span><span class="sxs-lookup"><span data-stu-id="bc30f-103">Manage the Audio Conferencing settings for your organization in Microsoft Teams</span></span>
 
-<span data-ttu-id="fdc65-104">1 つの場所で Microsoft Teams のすべての電話会議設定を確認することが、より簡単になります。</span><span class="sxs-lookup"><span data-stu-id="fdc65-104">It might be easier for you to see all of the audio conferencing settings for Microsoft Teams in one place.</span></span> 
+<span data-ttu-id="bc30f-104">1 つの場所で Microsoft Teams のすべての電話会議設定を確認することが、より簡単になります。</span><span class="sxs-lookup"><span data-stu-id="bc30f-104">It might be easier for you to see all of the audio conferencing settings for Microsoft Teams in one place.</span></span> 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="assign-an-audio-conferencing-license"></a><span data-ttu-id="fdc65-105">電話会議のライセンスを割り当てる</span><span class="sxs-lookup"><span data-stu-id="fdc65-105">Assign an Audio Conferencing license</span></span>
+## <a name="assign-an-audio-conferencing-license"></a><span data-ttu-id="bc30f-105">電話会議のライセンスを割り当てる</span><span class="sxs-lookup"><span data-stu-id="bc30f-105">Assign an Audio Conferencing license</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="fdc65-106">Teams を使用してライセンスを割り当てることはできません。</span><span class="sxs-lookup"><span data-stu-id="fdc65-106">You can't assign licenses using Teams.</span></span> <span data-ttu-id="fdc65-107">Office 365 管理センターを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fdc65-107">You must use the Office 365 admin center.</span></span> <span data-ttu-id="fdc65-108">In the left navigation of the Office 365 admin center, go to UsersActive users > and then select the user or users from the list of available users.</span><span class="sxs-lookup"><span data-stu-id="fdc65-108">See [Assign Skype for Business and Microsoft Teams licenses](assign-teams-licenses.md).</span></span> 
+> <span data-ttu-id="bc30f-106">Teams を使用してライセンスを割り当てることはできません。</span><span class="sxs-lookup"><span data-stu-id="bc30f-106">You can't assign licenses using Teams.</span></span> <span data-ttu-id="bc30f-107">Office 365 管理センターを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bc30f-107">You must use the Office 365 admin center.</span></span> <span data-ttu-id="bc30f-108">In the left navigation of the Office 365 admin center, go to UsersActive users > and then select the user or users from the list of available users.</span><span class="sxs-lookup"><span data-stu-id="bc30f-108">See [Assign Skype for Business and Microsoft Teams licenses](assign-teams-licenses.md).</span></span> 
   
- <span data-ttu-id="fdc65-109">最大 20 人までのライセンスを同時に割り当てている場合は、[ ビューの選択] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。次に [ 編集]、[ 次へ] を 2 回クリックし、ライセンスを選択して、[ 送信] をクリックします。また、Windows Powershell を使用してライセンスを複数のユーザーに割り当てることもできます。操作手順と PowerShell のサンプル スクリプトについては、「Skype for Business と Microsoft Teams のライセンスを割り当てる」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-109">**To assign a license for a user**</span></span>
+ <span data-ttu-id="bc30f-109">最大 20 人までのライセンスを同時に割り当てている場合は、[ ビューの選択] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。次に [ 編集]、[ 次へ] を 2 回クリックし、ライセンスを選択して、[ 送信] をクリックします。また、Windows Powershell を使用してライセンスを複数のユーザーに割り当てることもできます。操作手順と PowerShell のサンプル スクリプトについては、「Skype for Business と Microsoft Teams のライセンスを割り当てる」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-109">**To assign a license for a user**</span></span>
   
-1. <span data-ttu-id="fdc65-110">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-110">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="bc30f-110">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-110">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="fdc65-111">次に [ **編集**]、[ **次へ**] を 2 回クリックし、ライセンスを選択して、[  > ] をクリックします。\*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="fdc65-111">In the left navigation of the **Office 365 admin center**, go to **Users** > **Active users**, and then select the user or users from the list of available users.</span></span>
+2. <span data-ttu-id="bc30f-111">次に [ **編集**]、[ **次へ**] を 2 回クリックし、ライセンスを選択して、[  > ] をクリックします。\*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="bc30f-111">In the left navigation of the **Office 365 admin center**, go to **Users** > **Active users**, and then select the user or users from the list of available users.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="fdc65-112">操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-112">If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view.</span></span> <span data-ttu-id="fdc65-113">次に [**編集**]、[**次へ**] を 2 回クリックしてからライセンスを選択し、[**送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-113">Then click **Edit**, **Next** twice then select the license and click **Submit**.</span></span>  
+    > <span data-ttu-id="bc30f-112">操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-112">If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view.</span></span> <span data-ttu-id="bc30f-113">次に [**編集**]、[**次へ**] を 2 回クリックしてからライセンスを選択し、[**送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-113">Then click **Edit**, **Next** twice then select the license and click **Submit**.</span></span>  
   
-3. <span data-ttu-id="fdc65-114">操作ウィンドウの [**製品ライセンス**] で [ **編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-114">In the Action pane under **Product licenses**, click **Edit**.</span></span> 
+3. <span data-ttu-id="bc30f-114">操作ウィンドウの [**製品ライセンス**] で [ **編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-114">In the Action pane under **Product licenses**, click **Edit**.</span></span> 
     
-4. <span data-ttu-id="fdc65-115">[**製品ライセンス**] ページで、**電話会議**を有効にして、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-115">On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**.</span></span> <span data-ttu-id="fdc65-116">ライセンスの詳細は、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-116">For more on licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
+4. <span data-ttu-id="bc30f-115">[**製品ライセンス**] ページで、**電話会議**を有効にして、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-115">On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**.</span></span> <span data-ttu-id="bc30f-116">ライセンスの詳細は、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-116">For more on licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="fdc65-p104">ユーザーに会議 ID を割り当てる</span><span class="sxs-lookup"><span data-stu-id="fdc65-p104">After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the Office 365 admin center or press CTRL+F5 to refresh the browser window.</span></span> 
+> <span data-ttu-id="bc30f-p104">ユーザーに会議 ID を割り当てる</span><span class="sxs-lookup"><span data-stu-id="bc30f-p104">After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the Office 365 admin center or press CTRL+F5 to refresh the browser window.</span></span> 
   
-## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a><span data-ttu-id="fdc65-119">電話会議ユーザーに送信されたメールを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="fdc65-119">Enable or disable emails sent to audio conferencing users</span></span>
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a><span data-ttu-id="bc30f-119">電話会議ユーザーに送信されたメールを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="bc30f-119">Enable or disable emails sent to audio conferencing users</span></span>
 
-<span data-ttu-id="fdc65-120">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="fdc65-120">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="bc30f-120">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="bc30f-120">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="fdc65-121">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-121">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+1. <span data-ttu-id="bc30f-121">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-121">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-2. <span data-ttu-id="fdc65-122">[**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-122">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
+2. <span data-ttu-id="bc30f-122">[**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-122">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
 
-3. <span data-ttu-id="fdc65-123">[**ブリッジの設定**] ペインで、[**ダイヤルイン設定が変わると、ユーザーに自動的に電子メールが送信されます**] を有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-123">In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.</span></span>
+3. <span data-ttu-id="bc30f-123">[**ブリッジの設定**] ペインで、[**ダイヤルイン設定が変わると、ユーザーに自動的に電子メールが送信されます**] を有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-123">In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.</span></span>
 
-4. <span data-ttu-id="fdc65-124">[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-124">Click **Save**.</span></span>
+4. <span data-ttu-id="bc30f-124">[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-124">Click **Save**.</span></span>
 
     
-<span data-ttu-id="fdc65-125">**Windows PowerShell を使用する**</span><span class="sxs-lookup"><span data-stu-id="fdc65-125">**Using Windows PowerShell**</span></span>
+<span data-ttu-id="bc30f-125">**Windows PowerShell を使用する**</span><span class="sxs-lookup"><span data-stu-id="bc30f-125">**Using Windows PowerShell**</span></span>
   
-<span data-ttu-id="fdc65-126">詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-126">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="bc30f-126">詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-126">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
   
-## <a name="reset-the-meeting-conference-id"></a><span data-ttu-id="fdc65-127">Sign in to Office 365 with your work or school account.</span><span class="sxs-lookup"><span data-stu-id="fdc65-127">Reset the meeting conference ID</span></span>
+## <a name="reset-the-meeting-conference-id"></a><span data-ttu-id="bc30f-127">Sign in to Office 365 with your work or school account.</span><span class="sxs-lookup"><span data-stu-id="bc30f-127">Reset the meeting conference ID</span></span>
 
-<span data-ttu-id="fdc65-128">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="fdc65-128">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="bc30f-128">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="bc30f-128">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="fdc65-129">左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-129">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
+1. <span data-ttu-id="bc30f-129">左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-129">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
 
-2. <span data-ttu-id="fdc65-130">[**オーディオ会議**、**会議 ID のリセット**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-130">Under **Audio Conferencing**, click **Reset conference ID**.</span></span>  
+2. <span data-ttu-id="bc30f-130">[**オーディオ会議**、**会議 ID のリセット**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-130">Under **Audio Conferencing**, click **Reset conference ID**.</span></span>  
 
-3. <span data-ttu-id="fdc65-131">**会議 ID をリセットしますか?** ] ウィンドウで、[**リセット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-131">In the **Reset conference ID?** window, click **Reset**.</span></span> <span data-ttu-id="fdc65-132">会議 ID が自動的に作成され、ユーザーに電子メールを送信することが有効になっているかどうか、新しい会議 ID を使用してユーザーに電子メールを送信します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-132">A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled.</span></span> <span data-ttu-id="fdc65-133">既定で有効です。</span><span class="sxs-lookup"><span data-stu-id="fdc65-133">It's enabled by default.</span></span>
+3. <span data-ttu-id="bc30f-131">**会議 ID をリセットしますか?** ] ウィンドウで、[**リセット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-131">In the **Reset conference ID?** window, click **Reset**.</span></span> <span data-ttu-id="bc30f-132">会議 ID が自動的に作成され、ユーザーに電子メールを送信することが有効になっているかどうか、新しい会議 ID を使用してユーザーに電子メールを送信します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-132">A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled.</span></span> <span data-ttu-id="bc30f-133">既定で有効です。</span><span class="sxs-lookup"><span data-stu-id="bc30f-133">It's enabled by default.</span></span>
 
-<span data-ttu-id="fdc65-134">[ユーザーの会議 ID のリセット](reset-a-conference-id-for-a-user-in-teams.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-134">See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).</span></span>
+<span data-ttu-id="bc30f-134">[ユーザーの会議 ID のリセット](reset-a-conference-id-for-a-user-in-teams.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-134">See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).</span></span>
   
-## <a name="reset-a-conference-organizers-pin"></a><span data-ttu-id="fdc65-135">会議開催者の PIN をリセットする</span><span class="sxs-lookup"><span data-stu-id="fdc65-135">Reset a conference organizer's PIN</span></span>
+## <a name="reset-a-conference-organizers-pin"></a><span data-ttu-id="bc30f-135">会議開催者の PIN をリセットする</span><span class="sxs-lookup"><span data-stu-id="bc30f-135">Reset a conference organizer's PIN</span></span>
 
-<span data-ttu-id="fdc65-136">ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得</span><span class="sxs-lookup"><span data-stu-id="fdc65-136">Each meeting that a user schedules will get assigned a unique conference ID.</span></span> <span data-ttu-id="fdc65-137">会議 ID が自動的に作成され、ユーザーに割り当てられているがあります、ユーザーは、この 1 つを使用する場合は、特定の数に設定するとユーザーが覚えられないか、会議 ID が失われています。</span><span class="sxs-lookup"><span data-stu-id="fdc65-137">Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID.</span></span> 
+<span data-ttu-id="bc30f-136">ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得</span><span class="sxs-lookup"><span data-stu-id="bc30f-136">Each meeting that a user schedules will get assigned a unique conference ID.</span></span> <span data-ttu-id="bc30f-137">会議 ID が自動的に作成され、ユーザーに割り当てられているがあります、ユーザーは、この 1 つを使用する場合は、特定の数に設定するとユーザーが覚えられないか、会議 ID が失われています。</span><span class="sxs-lookup"><span data-stu-id="bc30f-137">Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID.</span></span> 
 
-<span data-ttu-id="fdc65-138">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="fdc65-138">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="bc30f-138">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="bc30f-138">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="fdc65-139">左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-139">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
+1. <span data-ttu-id="bc30f-139">左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-139">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
 
-2. <span data-ttu-id="fdc65-140">**オーディオ会議**では、[ **PIN のリセット**] をクリックし、[**リセット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-140">Under **Audio Conferencing**, click **Reset PIN**, and then click **Reset**.</span></span> 
+2. <span data-ttu-id="bc30f-140">**オーディオ会議**では、[ **PIN のリセット**] をクリックし、[**リセット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-140">Under **Audio Conferencing**, click **Reset PIN**, and then click **Reset**.</span></span> 
   
-<span data-ttu-id="fdc65-p107">リセットの直後に 1 回表示された後は、ユーザーのプロパティには PIN に代わって "\*\*\*\*\*" が表示されます。</span><span class="sxs-lookup"><span data-stu-id="fdc65-p107">Users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent and you will have to manually send the PIN to the user. The PIN will only be shown once after it has been reset. After it's displayed just after being reset, the PIN won't be shown anymore on the user properties; instead, \*\*\*\*\* will be shown.</span></span> 
+<span data-ttu-id="bc30f-p107">リセットの直後に 1 回表示された後は、ユーザーのプロパティには PIN に代わって "\*\*\*\*\*" が表示されます。</span><span class="sxs-lookup"><span data-stu-id="bc30f-p107">Users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent and you will have to manually send the PIN to the user. The PIN will only be shown once after it has been reset. After it's displayed just after being reset, the PIN won't be shown anymore on the user properties; instead, \*\*\*\*\* will be shown.</span></span> 
   
-<span data-ttu-id="fdc65-145">[オーディオ会議の PIN のリセット](reset-the-audio-conferencing-pin-in-teams.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-145">See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md).</span></span>
+<span data-ttu-id="bc30f-145">[オーディオ会議の PIN のリセット](reset-the-audio-conferencing-pin-in-teams.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-145">See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md).</span></span>
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a><span data-ttu-id="fdc65-146">オーディオ会議の情報を使用して電子メールをユーザーに送信します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-146">Send an email with Audio Conferencing information to a user</span></span>
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a><span data-ttu-id="bc30f-146">オーディオ会議の情報を使用して電子メールをユーザーに送信します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-146">Send an email with Audio Conferencing information to a user</span></span>
 
-<span data-ttu-id="fdc65-147">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="fdc65-147">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="bc30f-147">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="bc30f-147">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="fdc65-148">左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-148">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
+1. <span data-ttu-id="bc30f-148">左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-148">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
 
-2. <span data-ttu-id="fdc65-149">[**電話会議**] の [**電話会議情報をメールで送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-149">Under **Audio Conferencing**, click **Send conference info in email**.</span></span> 
+2. <span data-ttu-id="bc30f-149">[**電話会議**] の [**電話会議情報をメールで送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-149">Under **Audio Conferencing**, click **Send conference info in email**.</span></span> 
 
     > [!NOTE]
-    > <span data-ttu-id="fdc65-150">この操作を行っても、電話会議の PIN はユーザーに送信されません。</span><span class="sxs-lookup"><span data-stu-id="fdc65-150">When you do this, the audio conferencing PIN isn't sent to the user.</span></span> 
+    > <span data-ttu-id="bc30f-150">この操作を行っても、電話会議の PIN はユーザーに送信されません。</span><span class="sxs-lookup"><span data-stu-id="bc30f-150">When you do this, the audio conferencing PIN isn't sent to the user.</span></span> 
 
-<span data-ttu-id="fdc65-151">[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-151">See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).</span></span>
+<span data-ttu-id="bc30f-151">[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-151">See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).</span></span>
   
-## <a name="set-the-phone-numbers-included-on-invites"></a><span data-ttu-id="fdc65-152">出席依頼に含まれている電話番号を設定する</span><span class="sxs-lookup"><span data-stu-id="fdc65-152">Set the phone numbers included on invites</span></span>
+## <a name="set-the-phone-numbers-included-on-invites"></a><span data-ttu-id="bc30f-152">招待状に含まれている電話番号を設定する</span><span class="sxs-lookup"><span data-stu-id="bc30f-152">Set the phone numbers included on invites</span></span>
 
-<span data-ttu-id="fdc65-153">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="fdc65-153">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="bc30f-153">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="bc30f-153">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="fdc65-154">左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-154">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
+1. <span data-ttu-id="bc30f-154">左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-154">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
 
-2. <span data-ttu-id="fdc65-155">**オーディオ会議**の横にある [**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-155">Next to **Audio Conferencing**, click **Edit**.</span></span>
+2. <span data-ttu-id="bc30f-155">**オーディオ会議**の横にある [**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-155">Next to **Audio Conferencing**, click **Edit**.</span></span>
  
-3. <span data-ttu-id="fdc65-156">**オーディオ会議**のウィンドウで**電話番号**を設定でき、許可された場合、**フリー ダイヤルの番号**です。</span><span class="sxs-lookup"><span data-stu-id="fdc65-156">In the **Audio Conferencing** pane, you can set the **Toll number** and, if allowed, the **Toll-free number**.</span></span>
+3. <span data-ttu-id="bc30f-156">**オーディオ会議**のウィンドウで**電話番号**を設定でき、許可された場合、**フリー ダイヤルの番号**です。</span><span class="sxs-lookup"><span data-stu-id="bc30f-156">In the **Audio Conferencing** pane, you can set the **Toll number** and, if allowed, the **Toll-free number**.</span></span>
 
-4. <span data-ttu-id="fdc65-157">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-157">Click **Save**.</span></span>
+4. <span data-ttu-id="bc30f-157">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-157">Click **Save**.</span></span>
     
-<span data-ttu-id="fdc65-158">[携帯電話への招待に含まれている番号の設定](set-the-phone-numbers-included-on-invites-in-teams.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-158">See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).</span></span>
+<span data-ttu-id="bc30f-158">[携帯電話への招待に含まれている番号の設定](set-the-phone-numbers-included-on-invites-in-teams.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-158">See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).</span></span>
   
   
-## <a name="choose-audio-conferencing-bridge-settings"></a><span data-ttu-id="fdc65-159">オーディオ会議ブリッジの設定を選択します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-159">Choose audio conferencing bridge settings</span></span>
+## <a name="choose-audio-conferencing-bridge-settings"></a><span data-ttu-id="bc30f-159">オーディオ会議ブリッジの設定を選択します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-159">Choose audio conferencing bridge settings</span></span>
 
-<span data-ttu-id="fdc65-160">**呼び出し元がミーティングに参加するときは、会議の経験を設定します。**</span><span class="sxs-lookup"><span data-stu-id="fdc65-160">**Set the meeting experience when callers join a meeting**</span></span>
+<span data-ttu-id="bc30f-160">**呼び出し元がミーティングに参加するときは、会議の経験を設定します。**</span><span class="sxs-lookup"><span data-stu-id="bc30f-160">**Set the meeting experience when callers join a meeting**</span></span>
 
-<span data-ttu-id="fdc65-161">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="fdc65-161">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="bc30f-161">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="bc30f-161">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="fdc65-162">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-162">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+1. <span data-ttu-id="bc30f-162">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-162">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-2. <span data-ttu-id="fdc65-163">**会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-163">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
+2. <span data-ttu-id="bc30f-163">**会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-163">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
 
-3. <span data-ttu-id="fdc65-164">[**ブリッジ設定**] ウィンドウで、[**会議の開始と終了の通知**] を有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-164">In the **Bridge settings** pane, enable or disable **Meeting entry and exit notifications**.</span></span>
+3. <span data-ttu-id="bc30f-164">[**ブリッジ設定**] ウィンドウで、[**会議の開始と終了の通知**] を有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-164">In the **Bridge settings** pane, enable or disable **Meeting entry and exit notifications**.</span></span>
 
-    <span data-ttu-id="fdc65-165">これは既定で有効になります。</span><span class="sxs-lookup"><span data-stu-id="fdc65-165">This is enabled by default.</span></span> <span data-ttu-id="fdc65-166">このオプションを無効にした場合データを入力したり、会議を離れるときに既定では、会議に参加しているユーザーが通知されません。</span><span class="sxs-lookup"><span data-stu-id="fdc65-166">If you disable this option, users who have already joined the meeting by default won't be notified when someone enters or leaves the meeting.</span></span>
+    <span data-ttu-id="bc30f-165">これは既定で有効になります。</span><span class="sxs-lookup"><span data-stu-id="bc30f-165">This is enabled by default.</span></span> <span data-ttu-id="bc30f-166">このオプションを無効にした場合データを入力したり、会議を離れるときに既定では、会議に参加しているユーザーが通知されません。</span><span class="sxs-lookup"><span data-stu-id="bc30f-166">If you disable this option, users who have already joined the meeting by default won't be notified when someone enters or leaves the meeting.</span></span>
 
-4. <span data-ttu-id="fdc65-167">**開始/終了のお知らせの種類**、[**トーン**] または [**名前または電話番号**を選択します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-167">Under **Entry/exit announcement type**, choose either **Tones** or **Names or phone numbers**.</span></span> 
+4. <span data-ttu-id="bc30f-167">**開始/終了のお知らせの種類**、[**トーン**] または [**名前または電話番号**を選択します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-167">Under **Entry/exit announcement type**, choose either **Tones** or **Names or phone numbers**.</span></span> 
 
-    <span data-ttu-id="fdc65-168">**名前や電話番号**を選択する場合を有効にするまたは、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**を無効にすることもできます。</span><span class="sxs-lookup"><span data-stu-id="fdc65-168">If you choose **Names or phone numbers**, you can also choose to enable or disable **Ask callers to record their name before joining the meeting**.</span></span> 
+    <span data-ttu-id="bc30f-168">**名前や電話番号**を選択する場合を有効にするまたは、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**を無効にすることもできます。</span><span class="sxs-lookup"><span data-stu-id="bc30f-168">If you choose **Names or phone numbers**, you can also choose to enable or disable **Ask callers to record their name before joining the meeting**.</span></span> 
 
-5. <span data-ttu-id="fdc65-169">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-169">Click **Save**.</span></span>
-
-    
-<span data-ttu-id="fdc65-170">Go to the Office 365 admin centerSkype for Business.[](change-the-settings-for-an-audio-conferencing-bridge.md)</span><span class="sxs-lookup"><span data-stu-id="fdc65-170">See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).</span></span>
-  
- <span data-ttu-id="fdc65-171">**In the Skype for Business admin center, in the left navigation go to dial-in conferencingMicrosoft bridge settings.**</span><span class="sxs-lookup"><span data-stu-id="fdc65-171">**Set the PIN length for meetings**</span></span>
-
-1. <span data-ttu-id="fdc65-172">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-172">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
-
-2. <span data-ttu-id="fdc65-173">**会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-173">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
-
-3. <span data-ttu-id="fdc65-174">**ブリッジの設定**ウィンドウで、 **PIN の長さ**] ボックスの一覧で、[暗証番号 (pin) に使用桁の番号を入力し、し、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-174">In the **Bridge settings** pane, enter the number of digits you want for the PIN in the **PIN length** list, and then click **Save**.</span></span>
-
-    <span data-ttu-id="fdc65-p109">The PIN can only be from 4 to 12 digits.</span><span class="sxs-lookup"><span data-stu-id="fdc65-p109">The PIN must be between 4 and 12 digits. The default is 5.</span></span>
+5. <span data-ttu-id="bc30f-169">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-169">Click **Save**.</span></span>
 
     
-<span data-ttu-id="fdc65-177">職場または学校のアカウントを使用して、Office 365 にサインインします。[](change-the-settings-for-an-audio-conferencing-bridge.md)</span><span class="sxs-lookup"><span data-stu-id="fdc65-177">See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).</span></span>
+<span data-ttu-id="bc30f-170">Go to the Office 365 admin centerSkype for Business.[](change-the-settings-for-an-audio-conferencing-bridge.md)</span><span class="sxs-lookup"><span data-stu-id="bc30f-170">See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).</span></span>
   
- <span data-ttu-id="fdc65-178">**Sign in to Office 365 with your work or school account.**</span><span class="sxs-lookup"><span data-stu-id="fdc65-178">**Enable or disable email from being sent to audio users**</span></span>
+ <span data-ttu-id="bc30f-171">**In the Skype for Business admin center, in the left navigation go to dial-in conferencingMicrosoft bridge settings.**</span><span class="sxs-lookup"><span data-stu-id="bc30f-171">**Set the PIN length for meetings**</span></span>
 
-1. <span data-ttu-id="fdc65-179">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-179">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+1. <span data-ttu-id="bc30f-172">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-172">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-2. <span data-ttu-id="fdc65-180">**会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-180">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
+2. <span data-ttu-id="bc30f-173">**会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-173">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
 
-3. <span data-ttu-id="fdc65-181">**ブリッジの設定**ウィンドウを有効にするか **、オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**を無効にします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-181">In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their audio conferencing settings change**.</span></span>
+3. <span data-ttu-id="bc30f-174">**ブリッジの設定**ウィンドウで、 **PIN の長さ**] ボックスの一覧で、[暗証番号 (pin) に使用桁の番号を入力し、し、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-174">In the **Bridge settings** pane, enter the number of digits you want for the PIN in the **PIN length** list, and then click **Save**.</span></span>
 
-4. <span data-ttu-id="fdc65-182">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-182">Click **Save**.</span></span> 
+    <span data-ttu-id="bc30f-p109">The PIN can only be from 4 to 12 digits.</span><span class="sxs-lookup"><span data-stu-id="bc30f-p109">The PIN must be between 4 and 12 digits. The default is 5.</span></span>
+
+    
+<span data-ttu-id="bc30f-177">職場または学校のアカウントを使用して、Office 365 にサインインします。[](change-the-settings-for-an-audio-conferencing-bridge.md)</span><span class="sxs-lookup"><span data-stu-id="bc30f-177">See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).</span></span>
+  
+ <span data-ttu-id="bc30f-178">**Sign in to Office 365 with your work or school account.**</span><span class="sxs-lookup"><span data-stu-id="bc30f-178">**Enable or disable email from being sent to audio users**</span></span>
+
+1. <span data-ttu-id="bc30f-179">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-179">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+
+2. <span data-ttu-id="bc30f-180">**会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-180">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
+
+3. <span data-ttu-id="bc30f-181">**ブリッジの設定**ウィンドウを有効にするか **、オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**を無効にします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-181">In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their audio conferencing settings change**.</span></span>
+
+4. <span data-ttu-id="bc30f-182">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-182">Click **Save**.</span></span> 
  
-    <span data-ttu-id="fdc65-183">ユーザーのオーディオ会議のプロパティに移動し、**電子メールで会議の情報を送信**] をクリックしてユーザーに、電話会議の設定を使用する電子メールを送信することも。</span><span class="sxs-lookup"><span data-stu-id="fdc65-183">You can also send email to the user with the audio conferencing settings, by going to the user's audio conferencing properties and clicking **Send conference info in email**.</span></span>
+    <span data-ttu-id="bc30f-183">ユーザーのオーディオ会議のプロパティに移動し、**電子メールで会議の情報を送信**] をクリックしてユーザーに、電話会議の設定を使用する電子メールを送信することも。</span><span class="sxs-lookup"><span data-stu-id="bc30f-183">You can also send email to the user with the audio conferencing settings, by going to the user's audio conferencing properties and clicking **Send conference info in email**.</span></span>
     
-    <span data-ttu-id="fdc65-184">この操作を行うと、会議 ID と電話会議の番号のみが含まれるメールが送信されますが、そのメールに PIN は含まれません。</span><span class="sxs-lookup"><span data-stu-id="fdc65-184">If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.</span></span>
+    <span data-ttu-id="bc30f-184">この操作を行うと、会議 ID と電話会議の番号のみが含まれるメールが送信されますが、そのメールに PIN は含まれません。</span><span class="sxs-lookup"><span data-stu-id="bc30f-184">If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.</span></span>
 
-<span data-ttu-id="fdc65-185">[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-185">See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).</span></span>
+<span data-ttu-id="bc30f-185">[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-185">See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).</span></span>
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a><span data-ttu-id="fdc65-186">参照してくださいし、オーディオ会議ブリッジに (既定値) をプライマリとセカンダリ (代替) の言語を設定します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-186">See and set the primary (default) and secondary (alternate) languages on an audio conferencing bridge</span></span>
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a><span data-ttu-id="bc30f-186">参照してくださいし、オーディオ会議ブリッジに (既定値) をプライマリとセカンダリ (代替) の言語を設定します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-186">See and set the primary (default) and secondary (alternate) languages on an audio conferencing bridge</span></span>
 
-<span data-ttu-id="fdc65-187">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="fdc65-187">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="bc30f-187">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="bc30f-187">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="fdc65-188">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-188">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+1. <span data-ttu-id="bc30f-188">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-188">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-2. <span data-ttu-id="fdc65-189">リストから電話番号を選択し、[**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-189">Select a phone number from the list and click **Edit**.</span></span>
+2. <span data-ttu-id="bc30f-189">リストから電話番号を選択し、[**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-189">Select a phone number from the list and click **Edit**.</span></span>
 
-3. <span data-ttu-id="fdc65-190">[**既定の言語**および **(省略可能) 別の言語**の言語を選択してください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-190">Choose the languages you want under **Default language** and **Alternate languages (optional)**.</span></span>
+3. <span data-ttu-id="bc30f-190">[**既定の言語**および **(省略可能) 別の言語**の言語を選択してください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-190">Choose the languages you want under **Default language** and **Alternate languages (optional)**.</span></span>
 
-4. <span data-ttu-id="fdc65-191">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-191">Click **Save**.</span></span>
+4. <span data-ttu-id="bc30f-191">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-191">Click **Save**.</span></span>
 
 
-<span data-ttu-id="fdc65-192">You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider. The order that you select in the drop-downs will be the order of the languages that will be presented to the callers.[](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)</span><span class="sxs-lookup"><span data-stu-id="fdc65-192">See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).</span></span>
+<span data-ttu-id="bc30f-192">You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider. The order that you select in the drop-downs will be the order of the languages that will be presented to the callers.[](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)</span><span class="sxs-lookup"><span data-stu-id="bc30f-192">See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).</span></span>
   
-## <a name="see-audio-conferencing-dial-in-numbers"></a><span data-ttu-id="fdc65-193">You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider.</span><span class="sxs-lookup"><span data-stu-id="fdc65-193">See audio conferencing dial-in numbers</span></span>
+## <a name="see-audio-conferencing-dial-in-numbers"></a><span data-ttu-id="bc30f-193">You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider.</span><span class="sxs-lookup"><span data-stu-id="bc30f-193">See audio conferencing dial-in numbers</span></span>
 
-<span data-ttu-id="fdc65-194">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="fdc65-194">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="bc30f-194">![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**</span><span class="sxs-lookup"><span data-stu-id="bc30f-194">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="fdc65-195">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-195">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+1. <span data-ttu-id="bc30f-195">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-195">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-2. <span data-ttu-id="fdc65-196">リストから電話番号を選択し、[**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fdc65-196">Select a phone number from the list and click **Edit**.</span></span> <span data-ttu-id="fdc65-197">ここでは次のようなことができます。</span><span class="sxs-lookup"><span data-stu-id="fdc65-197">Here you can:</span></span>
+2. <span data-ttu-id="bc30f-196">リストから電話番号を選択し、[**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc30f-196">Select a phone number from the list and click **Edit**.</span></span> <span data-ttu-id="bc30f-197">ここでは次のようなことができます。</span><span class="sxs-lookup"><span data-stu-id="bc30f-197">Here you can:</span></span>
     
-   - <span data-ttu-id="fdc65-198">電話会議で使うために Office 365 によって設定された電話番号を表示する。</span><span class="sxs-lookup"><span data-stu-id="fdc65-198">View the phone numbers that are set by Office 365 to be used for Audio Conferencing.</span></span> 
+   - <span data-ttu-id="bc30f-198">電話会議で使うために Office 365 によって設定された電話番号を表示する。</span><span class="sxs-lookup"><span data-stu-id="bc30f-198">View the phone numbers that are set by Office 365 to be used for Audio Conferencing.</span></span> 
     
-   - <span data-ttu-id="fdc65-199">場所、およびオーディオ会議自動アテンダントによって使用される主言語を表示します。</span><span class="sxs-lookup"><span data-stu-id="fdc65-199">View the location, and the primary language, that will be used by the Audio Conferencing auto attendant.</span></span>
+   - <span data-ttu-id="bc30f-199">場所、およびオーディオ会議自動アテンダントによって使用される主言語を表示します。</span><span class="sxs-lookup"><span data-stu-id="bc30f-199">View the location, and the primary language, that will be used by the Audio Conferencing auto attendant.</span></span>
 
   
-<span data-ttu-id="fdc65-200">You can select the dial-in conferencing default phone number that will be given to users when they are enabled for dial-in conferencing.[](see-a-list-of-audio-conferencing-numbers-in-teams.md)</span><span class="sxs-lookup"><span data-stu-id="fdc65-200">See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).</span></span>
+<span data-ttu-id="bc30f-200">You can select the dial-in conferencing default phone number that will be given to users when they are enabled for dial-in conferencing.[](see-a-list-of-audio-conferencing-numbers-in-teams.md)</span><span class="sxs-lookup"><span data-stu-id="bc30f-200">See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).</span></span>
   
 
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="fdc65-201">Windows PowerShell の詳細情報</span><span class="sxs-lookup"><span data-stu-id="fdc65-201">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="bc30f-201">Windows PowerShell の詳細情報</span><span class="sxs-lookup"><span data-stu-id="bc30f-201">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="fdc65-p111">Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-p111">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="bc30f-p111">Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-p111">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="fdc65-205">Office 365 PowerShell を使用する必要がある理由</span><span class="sxs-lookup"><span data-stu-id="fdc65-205">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="bc30f-205">Office 365 PowerShell を使用する必要がある理由</span><span class="sxs-lookup"><span data-stu-id="bc30f-205">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="fdc65-206">Windows PowerShell で Office 365 を管理するための最善の方法</span><span class="sxs-lookup"><span data-stu-id="fdc65-206">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="bc30f-206">Windows PowerShell で Office 365 を管理するための最善の方法</span><span class="sxs-lookup"><span data-stu-id="bc30f-206">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="fdc65-207">Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="fdc65-207">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="bc30f-207">Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="bc30f-207">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
   
     
-## <a name="related-topics"></a><span data-ttu-id="fdc65-208">関連トピック</span><span class="sxs-lookup"><span data-stu-id="fdc65-208">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="bc30f-208">関連トピック</span><span class="sxs-lookup"><span data-stu-id="bc30f-208">Related topics</span></span>
 
-[<span data-ttu-id="fdc65-209">ユーザーの電話会議の設定を管理する</span><span class="sxs-lookup"><span data-stu-id="fdc65-209">Manage the Audio Conferencing settings for a user</span></span>](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+[<span data-ttu-id="bc30f-209">ユーザーの電話会議の設定を管理する</span><span class="sxs-lookup"><span data-stu-id="bc30f-209">Manage the Audio Conferencing settings for a user</span></span>](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 

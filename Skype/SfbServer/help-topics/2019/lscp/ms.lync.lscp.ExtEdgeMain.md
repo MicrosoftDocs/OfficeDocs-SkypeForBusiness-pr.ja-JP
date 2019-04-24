@@ -14,26 +14,26 @@ ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: 3b6312b1d589db9204700ce9224ba11108c9a2a0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874330"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215963"
 ---
-# <a name="access-edge-configuration"></a><span data-ttu-id="79bfc-104">アクセス エッジ構成</span><span class="sxs-lookup"><span data-stu-id="79bfc-104">Access Edge Configuration</span></span>
+# <a name="access-edge-configuration"></a><span data-ttu-id="a0d47-104">アクセス エッジ構成</span><span class="sxs-lookup"><span data-stu-id="a0d47-104">Access Edge Configuration</span></span>
 
-<span data-ttu-id="79bfc-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="79bfc-105">What do you want to do?</span></span> <span data-ttu-id="79bfc-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="79bfc-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a0d47-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="a0d47-105">What do you want to do?</span></span> <span data-ttu-id="a0d47-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="a0d47-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="79bfc-107">Enable or Disable Remote User Access for Your Organization</span><span class="sxs-lookup"><span data-stu-id="79bfc-107">Enable or Disable Remote User Access for Your Organization</span></span>](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
+- [<span data-ttu-id="a0d47-107">Enable or Disable Remote User Access for Your Organization</span><span class="sxs-lookup"><span data-stu-id="a0d47-107">Enable or Disable Remote User Access for Your Organization</span></span>](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
 
-- [<span data-ttu-id="79bfc-108">Enable or Disable Federation for Your Organization</span><span class="sxs-lookup"><span data-stu-id="79bfc-108">Enable or Disable Federation for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [<span data-ttu-id="a0d47-108">Enable or Disable Federation for Your Organization</span><span class="sxs-lookup"><span data-stu-id="a0d47-108">Enable or Disable Federation for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 
-- [<span data-ttu-id="79bfc-109">Enable or Disable Discovery of Federation Partners</span><span class="sxs-lookup"><span data-stu-id="79bfc-109">Enable or Disable Discovery of Federation Partners</span></span>](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
+- [<span data-ttu-id="a0d47-109">Enable or Disable Discovery of Federation Partners</span><span class="sxs-lookup"><span data-stu-id="a0d47-109">Enable or Disable Discovery of Federation Partners</span></span>](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
 
-- [<span data-ttu-id="79bfc-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span><span class="sxs-lookup"><span data-stu-id="79bfc-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span></span>](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
+- [<span data-ttu-id="a0d47-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span><span class="sxs-lookup"><span data-stu-id="a0d47-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span></span>](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
 
-- [<span data-ttu-id="79bfc-111">Enable or Disable Anonymous User Access for Your Organization</span><span class="sxs-lookup"><span data-stu-id="79bfc-111">Enable or Disable Anonymous User Access for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [<span data-ttu-id="a0d47-111">Enable or Disable Anonymous User Access for Your Organization</span><span class="sxs-lookup"><span data-stu-id="a0d47-111">Enable or Disable Anonymous User Access for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 
-- [<span data-ttu-id="79bfc-112">Create or Modify a Conferencing Policy</span><span class="sxs-lookup"><span data-stu-id="79bfc-112">Create or Modify a Conferencing Policy</span></span>](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
+- [<span data-ttu-id="a0d47-112">Create or Modify a Conferencing Policy</span><span class="sxs-lookup"><span data-stu-id="a0d47-112">Create or Modify a Conferencing Policy</span></span>](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
 
 

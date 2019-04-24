@@ -21,43 +21,43 @@ ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams から、ダイヤルイン会議で有効になっている組織のユーザーのリストを表示する方法を説明します。 '
 ms.openlocfilehash: 2e1c74ccd856f32e8ff577ed7f718715e9e3c1b7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204995"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="50025-103">Microsoft Teams で電話会議用に有効になっているユーザーのリストを表示する</span><span class="sxs-lookup"><span data-stu-id="50025-103">See a list of users that are enabled for Audio Conferencing in Microsoft Teams</span></span>
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="83fa8-103">Microsoft Teams で電話会議用に有効になっているユーザーのリストを表示する</span><span class="sxs-lookup"><span data-stu-id="83fa8-103">See a list of users that are enabled for Audio Conferencing in Microsoft Teams</span></span>
 
-<span data-ttu-id="50025-104">オーディオ会議の組織でマイクロソフトのチームのユーザーを有効にした後は、有効になっているユーザーの一覧を表示できます。</span><span class="sxs-lookup"><span data-stu-id="50025-104">After you have enabled Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled.</span></span> 
+<span data-ttu-id="83fa8-104">オーディオ会議の組織でマイクロソフトのチームのユーザーを有効にした後は、有効になっているユーザーの一覧を表示できます。</span><span class="sxs-lookup"><span data-stu-id="83fa8-104">After you have enabled Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled.</span></span> 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="viewing-a-list-of-users"></a><span data-ttu-id="50025-105">ユーザーの一覧を表示します。</span><span class="sxs-lookup"><span data-stu-id="50025-105">Viewing a list of users</span></span>
+## <a name="viewing-a-list-of-users"></a><span data-ttu-id="83fa8-105">ユーザーの一覧を表示します。</span><span class="sxs-lookup"><span data-stu-id="83fa8-105">Viewing a list of users</span></span>
 
-- <span data-ttu-id="50025-106">マイクロソフトのチーム管理センターで、左側のナビゲーションでは、**ユーザー**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="50025-106">In the Microsoft Teams admin center, in the left navigation, click **Users**.</span></span>
+- <span data-ttu-id="83fa8-106">マイクロソフトのチーム管理センターで、左側のナビゲーションでは、**ユーザー**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83fa8-106">In the Microsoft Teams admin center, in the left navigation, click **Users**.</span></span>
 
 
-## <a name="what-else-should-i-know"></a><span data-ttu-id="50025-107">他に必要な情報はありますか?</span><span class="sxs-lookup"><span data-stu-id="50025-107">What else should I know?</span></span>
+## <a name="what-else-should-i-know"></a><span data-ttu-id="83fa8-107">他に必要な情報はありますか?</span><span class="sxs-lookup"><span data-stu-id="83fa8-107">What else should I know?</span></span>
 
-- <span data-ttu-id="50025-108">有効になっているユーザーの一覧を表示すると、そのユーザーの電話会議の設定を編集する] ボックスの一覧からユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="50025-108">When you view the list of users that are enabled, you can select a user from the list to edit the audio conferencing settings for that user.</span></span>
+- <span data-ttu-id="83fa8-108">有効になっているユーザーの一覧を表示すると、そのユーザーの電話会議の設定を編集する] ボックスの一覧からユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="83fa8-108">When you view the list of users that are enabled, you can select a user from the list to edit the audio conferencing settings for that user.</span></span>
     
-- <span data-ttu-id="50025-109">1 人のユーザーを選択すると、その他の関連する音声会議の設定をユーザーに割り当てられている既定の電話番号を表示できます。</span><span class="sxs-lookup"><span data-stu-id="50025-109">When you select a single user, you can view the default phone number assigned to the user and any other relevant audio conferencing settings.</span></span>    
+- <span data-ttu-id="83fa8-109">1 人のユーザーを選択すると、その他の関連する音声会議の設定をユーザーに割り当てられている既定の電話番号を表示できます。</span><span class="sxs-lookup"><span data-stu-id="83fa8-109">When you select a single user, you can view the default phone number assigned to the user and any other relevant audio conferencing settings.</span></span>    
    
-- <span data-ttu-id="50025-110">[検索] ボタンを使用するには、リスト内の個々 のユーザーを検索します。</span><span class="sxs-lookup"><span data-stu-id="50025-110">You can use the search button to search for an individual user in the list.</span></span>
+- <span data-ttu-id="83fa8-110">[検索] ボタンを使用するには、リスト内の個々 のユーザーを検索します。</span><span class="sxs-lookup"><span data-stu-id="83fa8-110">You can use the search button to search for an individual user in the list.</span></span>
     
     
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="50025-111">Windows PowerShell の詳細情報</span><span class="sxs-lookup"><span data-stu-id="50025-111">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="83fa8-111">Windows PowerShell の詳細情報</span><span class="sxs-lookup"><span data-stu-id="83fa8-111">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="50025-p101">Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="50025-p101">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="83fa8-p101">Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="83fa8-p101">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="50025-115">Windows PowerShell で Office 365 を管理するための最善の方法</span><span class="sxs-lookup"><span data-stu-id="50025-115">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="83fa8-115">Office 365 PowerShell を使用する必要がある理由</span><span class="sxs-lookup"><span data-stu-id="83fa8-115">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="50025-116">Windows PowerShell で Office 365 を管理するための最善の方法</span><span class="sxs-lookup"><span data-stu-id="50025-116">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="83fa8-116">Windows PowerShell で Office 365 を管理するための最善の方法</span><span class="sxs-lookup"><span data-stu-id="83fa8-116">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="50025-117">Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="50025-117">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="83fa8-117">Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="83fa8-117">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="50025-118">関連トピック</span><span class="sxs-lookup"><span data-stu-id="50025-118">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="83fa8-118">関連トピック</span><span class="sxs-lookup"><span data-stu-id="83fa8-118">Related topics</span></span>
 
-[<span data-ttu-id="50025-119">Office 365 での電話会議を使用または購入する</span><span class="sxs-lookup"><span data-stu-id="50025-119">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="83fa8-119">Office 365 での電話会議を試用または購入する</span><span class="sxs-lookup"><span data-stu-id="83fa8-119">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -15,14 +15,14 @@ ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 計画ツールは、展開で使用するポートの数を判断するためにユーザーのトラフィックに関する情報を使用します。 この数には、仲介サーバーとゲートウェイが必要になることの順番を決定します。 詳細については、ビジネスのサーバーの Skype の音声の使用率を概算し、トラフィックを参照してください。
 ms.openlocfilehash: 836ce70dff6f6568ec0d3511131daf7b438eab88
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202354"
 ---
-# <a name="voice-traffic-planning-tool"></a><span data-ttu-id="d907a-105">Voice Traffic (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="d907a-105">Voice Traffic (Planning Tool)</span></span>
+# <a name="voice-traffic-planning-tool"></a><span data-ttu-id="062ca-105">Voice Traffic (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="062ca-105">Voice Traffic (Planning Tool)</span></span>
  
-<span data-ttu-id="d907a-106">計画ツールは、展開で使用するポートの数を判断するためにユーザーのトラフィックに関する情報を使用します。</span><span class="sxs-lookup"><span data-stu-id="d907a-106">The planning tool uses information about user traffic to determining the number of ports to use in the deployment.</span></span> <span data-ttu-id="d907a-107">この数には、仲介サーバーとゲートウェイが必要になることの順番を決定します。</span><span class="sxs-lookup"><span data-stu-id="d907a-107">This number in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="d907a-108">詳細については、[音声の使用率を概算し Skype のビジネス サーバーへのトラフィック](../../../plan-your-deployment/capacity/estimating-voice-traffic.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d907a-108">For details, see [Estimating voice usage and traffic for Skype for Business Server](../../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span></span>
+<span data-ttu-id="062ca-106">計画ツールは、展開で使用するポートの数を判断するためにユーザーのトラフィックに関する情報を使用します。</span><span class="sxs-lookup"><span data-stu-id="062ca-106">The planning tool uses information about user traffic to determining the number of ports to use in the deployment.</span></span> <span data-ttu-id="062ca-107">この数には、仲介サーバーとゲートウェイが必要になることの順番を決定します。</span><span class="sxs-lookup"><span data-stu-id="062ca-107">This number in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="062ca-108">詳細については、[音声の使用率を概算し Skype のビジネス サーバーへのトラフィック](../../../plan-your-deployment/capacity/estimating-voice-traffic.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="062ca-108">For details, see [Estimating voice usage and traffic for Skype for Business Server](../../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span></span>
   
 
