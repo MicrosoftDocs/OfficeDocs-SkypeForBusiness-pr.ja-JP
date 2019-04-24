@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
 description: 展開ウィザードを使用して、ビジネス サーバー 2015 の Skype をインストールする詳細については、ビジネス サーバー 2015 の Skype のインストールを参照してください。
 ms.openlocfilehash: 590d024dcccc45a624a0ebdde95487f6743a0c66
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220404"
 ---
-# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="d6702-103">展開ウィザード: 管理ツール</span><span class="sxs-lookup"><span data-stu-id="d6702-103">Deployment Wizard: Admin Tools</span></span>
+# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="86041-103">展開ウィザード: 管理ツール</span><span class="sxs-lookup"><span data-stu-id="86041-103">Deployment Wizard: Admin Tools</span></span>
  
-<span data-ttu-id="d6702-104">展開ウィザードを使用して、ビジネス サーバー 2015 の Skype をインストールする詳細については、[ビジネス サーバー 2015 の Skype のインストール](../../deploy/install/install.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d6702-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="86041-104">展開ウィザードを使用して、ビジネス サーバー 2015 の Skype をインストールする詳細については、[ビジネス サーバー 2015 の Skype のインストール](../../deploy/install/install.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="86041-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 

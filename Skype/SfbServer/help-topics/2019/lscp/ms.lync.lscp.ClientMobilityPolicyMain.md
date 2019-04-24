@@ -14,44 +14,44 @@ ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: ClientsMobility ポリシーのページには、モビリティ ポリシーの展開に使用できるが表示されます。
 ms.openlocfilehash: 6aa41d784f59767c62f2dc0d67440b8098009457
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215823"
 ---
-# <a name="clients-mobility-policy"></a><span data-ttu-id="bc597-103">クライアント: モビリティ ポリシー</span><span class="sxs-lookup"><span data-stu-id="bc597-103">Clients: Mobility Policy</span></span>
+# <a name="clients-mobility-policy"></a><span data-ttu-id="b1d86-103">クライアント: モビリティ ポリシー</span><span class="sxs-lookup"><span data-stu-id="b1d86-103">Clients: Mobility Policy</span></span>
 
-<span data-ttu-id="bc597-104">**モビリティ ポリシー**の**クライアント**] ページでは、モビリティ ポリシーの展開に使用できるが表示されます。</span><span class="sxs-lookup"><span data-stu-id="bc597-104">The **Clients** **Mobility Policy** page displays the mobility policies available in your deployment.</span></span>
+<span data-ttu-id="b1d86-104">**モビリティ ポリシー**の**クライアント**] ページでは、モビリティ ポリシーの展開に使用できるが表示されます。</span><span class="sxs-lookup"><span data-stu-id="b1d86-104">The **Clients** **Mobility Policy** page displays the mobility policies available in your deployment.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="bc597-105">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="bc597-105">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="b1d86-105">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="b1d86-105">Tasks you can perform</span></span>
 
-<span data-ttu-id="bc597-106">**モビリティ ポリシー**のページには、次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="bc597-106">You can perform the following tasks on the **Mobility Policy** page:</span></span>
+<span data-ttu-id="b1d86-106">**モビリティ ポリシー**のページには、次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="b1d86-106">You can perform the following tasks on the **Mobility Policy** page:</span></span>
 
-- <span data-ttu-id="bc597-107">既存のモビリティ ポリシーを表示します。</span><span class="sxs-lookup"><span data-stu-id="bc597-107">View existing mobility policies</span></span>
+- <span data-ttu-id="b1d86-107">既存のモビリティ ポリシーを表示します。</span><span class="sxs-lookup"><span data-stu-id="b1d86-107">View existing mobility policies</span></span>
 
-- <span data-ttu-id="bc597-108">新しいモビリティ ポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="bc597-108">Create a new mobility policy</span></span>
+- <span data-ttu-id="b1d86-108">新しいモビリティ ポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="b1d86-108">Create a new mobility policy</span></span>
 
-- <span data-ttu-id="bc597-109">モビリティ ポリシーを編集します。</span><span class="sxs-lookup"><span data-stu-id="bc597-109">Edit a mobility policy</span></span>
+- <span data-ttu-id="b1d86-109">モビリティ ポリシーを編集します。</span><span class="sxs-lookup"><span data-stu-id="b1d86-109">Edit a mobility policy</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="bc597-110">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="bc597-110">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="b1d86-110">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="b1d86-110">UI Reference</span></span>
 
-<span data-ttu-id="bc597-111">以下は、ページ上のメニュー、コマンド、フィールド、およびプロパティについての説明です。</span><span class="sxs-lookup"><span data-stu-id="bc597-111">The following lists describe the menus, command, fields, and properties on the page.</span></span>
+<span data-ttu-id="b1d86-111">以下は、ページ上のメニュー、コマンド、フィールド、およびプロパティについての説明です。</span><span class="sxs-lookup"><span data-stu-id="b1d86-111">The following lists describe the menus, command, fields, and properties on the page.</span></span>
 
 
 
-- <span data-ttu-id="bc597-112">**検索フィールド**ポリシーの表示にフィルターを適用するテキスト ボックスに文字列を入力します。</span><span class="sxs-lookup"><span data-stu-id="bc597-112">**Search field** Type a string in the text box to filter the policies displayed.</span></span>
+- <span data-ttu-id="b1d86-112">**検索フィールド**ポリシーの表示にフィルターを適用するテキスト ボックスに文字列を入力します。</span><span class="sxs-lookup"><span data-stu-id="b1d86-112">**Search field** Type a string in the text box to filter the policies displayed.</span></span>
 
-- <span data-ttu-id="bc597-113">**新しい**[**新規**作成] をクリックし、**サイト**または**ユーザー**のいずれかに新しいモビリティ ポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="bc597-113">**New** Click **New**, and then select either **Site** or **User** to create a new mobility policy.</span></span>
+- <span data-ttu-id="b1d86-113">**新しい**[**新規**作成] をクリックし、**サイト**または**ユーザー**のいずれかに新しいモビリティ ポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="b1d86-113">**New** Click **New**, and then select either **Site** or **User** to create a new mobility policy.</span></span>
 
-- <span data-ttu-id="bc597-114">**編集**ポリシーを選択し、**編集**を選択したポリシーのプロパティを編集する] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc597-114">**Edit** Select a policy, and then click **Edit** to edit the properties of the selected policy.</span></span>
+- <span data-ttu-id="b1d86-114">**編集**ポリシーを選択し、**編集**を選択したポリシーのプロパティを編集する] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b1d86-114">**Edit** Select a policy, and then click **Edit** to edit the properties of the selected policy.</span></span>
 
-- <span data-ttu-id="bc597-115">**更新**表示されるポリシーの一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="bc597-115">**Refresh** Refreshes the list of policies displayed.</span></span> <span data-ttu-id="bc597-116">**更新**] をクリックすると、検索フィルターの文字列をオフにして、すべての既存のポリシーが表示されます。</span><span class="sxs-lookup"><span data-stu-id="bc597-116">When you click **Refresh**, the search filter string is cleared and all existing policies are displayed.</span></span>
+- <span data-ttu-id="b1d86-115">**更新**表示されるポリシーの一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="b1d86-115">**Refresh** Refreshes the list of policies displayed.</span></span> <span data-ttu-id="b1d86-116">**更新**] をクリックすると、検索フィルターの文字列をオフにして、すべての既存のポリシーが表示されます。</span><span class="sxs-lookup"><span data-stu-id="b1d86-116">When you click **Refresh**, the search filter string is cleared and all existing policies are displayed.</span></span>
 
-<span data-ttu-id="bc597-117">モビリティ ポリシーの構成に関する詳細については、[モビリティ ポリシーの構成](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc597-117">For details about configuring mobility policies, see [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).</span></span>
+<span data-ttu-id="b1d86-117">モビリティ ポリシーの構成に関する詳細については、[モビリティ ポリシーの構成](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b1d86-117">For details about configuring mobility policies, see [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="bc597-118">関連項目</span><span class="sxs-lookup"><span data-stu-id="bc597-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b1d86-118">関連項目</span><span class="sxs-lookup"><span data-stu-id="b1d86-118">See also</span></span>
 
-[<span data-ttu-id="bc597-119">モビリティの計画</span><span class="sxs-lookup"><span data-stu-id="bc597-119">Planning for Mobility</span></span>](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[<span data-ttu-id="b1d86-119">モビリティの計画</span><span class="sxs-lookup"><span data-stu-id="b1d86-119">Planning for Mobility</span></span>](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
-[<span data-ttu-id="bc597-120">モビリティを展開します。</span><span class="sxs-lookup"><span data-stu-id="bc597-120">Deploying Mobility</span></span>](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[<span data-ttu-id="b1d86-120">モビリティを展開します。</span><span class="sxs-lookup"><span data-stu-id="b1d86-120">Deploying Mobility</span></span>](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)

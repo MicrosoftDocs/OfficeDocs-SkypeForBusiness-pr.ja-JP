@@ -14,21 +14,21 @@ ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 ROBOTS: NOINDEX, NOFOLLOW
 description: UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
 ms.openlocfilehash: 7dd8c61a27d4294b96e281a0f11eae33af6c32de
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221230"
 ---
-# <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a><span data-ttu-id="aa016-103">音声ポリシー: PSTN 使用法レコードの新規作成または既存の PSTN 使用法レコードの編集</span><span class="sxs-lookup"><span data-stu-id="aa016-103">Voice Policy: Create New or Edit Existing PSTN Usage Record</span></span>
+# <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a><span data-ttu-id="0a18c-103">音声ポリシー: PSTN 使用法レコードの新規作成または既存の PSTN 使用法レコードの編集</span><span class="sxs-lookup"><span data-stu-id="0a18c-103">Voice Policy: Create New or Edit Existing PSTN Usage Record</span></span>
 
-<span data-ttu-id="aa016-104">UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)</span><span class="sxs-lookup"><span data-stu-id="aa016-104">UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)</span></span>
+<span data-ttu-id="0a18c-104">UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)</span><span class="sxs-lookup"><span data-stu-id="0a18c-104">UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)</span></span>
 
-- [<span data-ttu-id="aa016-105">作成し、音声ポリシーを変更または Skype ビジネスのために PSTN 使用法レコードを構成します。</span><span class="sxs-lookup"><span data-stu-id="aa016-105">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [<span data-ttu-id="0a18c-105">作成し、音声ポリシーを変更または Skype ビジネスのために PSTN 使用法レコードを構成します。</span><span class="sxs-lookup"><span data-stu-id="0a18c-105">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [<span data-ttu-id="aa016-106">音声ポリシーの変更し、PSTN 使用法レコードを構成します。</span><span class="sxs-lookup"><span data-stu-id="aa016-106">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [<span data-ttu-id="0a18c-106">音声ポリシーの変更し、PSTN 使用法レコードを構成します。</span><span class="sxs-lookup"><span data-stu-id="0a18c-106">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
-- [<span data-ttu-id="aa016-107">ビジネス用の Skype の PSTN 使用法レコードの表示</span><span class="sxs-lookup"><span data-stu-id="aa016-107">View PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [<span data-ttu-id="0a18c-107">ビジネス用の Skype の PSTN 使用法レコードの表示</span><span class="sxs-lookup"><span data-stu-id="0a18c-107">View PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
 
 

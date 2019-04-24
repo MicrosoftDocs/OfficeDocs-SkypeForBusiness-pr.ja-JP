@@ -14,14 +14,14 @@ ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
 description: オンライン証明機関に発行されてくださいが、手動の承認プロセスを必要とする管理者によって設定されている要求は、保留中のオンライン証明書要求の処理には、次へをクリックします。
 ms.openlocfilehash: c8882eb2f93dd210b5888ad55bc5d85a6abedc12
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216516"
 ---
-# <a name="pending-certificate-intro"></a><span data-ttu-id="dd24a-103">保留中の証明書 (開始)</span><span class="sxs-lookup"><span data-stu-id="dd24a-103">Pending Certificate (Intro)</span></span>
+# <a name="pending-certificate-intro"></a><span data-ttu-id="9aae4-103">保留中の証明書 (開始)</span><span class="sxs-lookup"><span data-stu-id="9aae4-103">Pending Certificate (Intro)</span></span>
  
-<span data-ttu-id="dd24a-104">オンライン証明機関に発行されていますが、手動の承認プロセスを必要とする、[**次へ**] をクリックして管理者によって設定されている要求は、保留中のオンライン証明書要求を処理します。</span><span class="sxs-lookup"><span data-stu-id="dd24a-104">To process a pending online certificate request, that is, a request that has been issued to your online certification authority but is administratively set to require a manual approval process, click **Next**.</span></span>
+<span data-ttu-id="9aae4-104">オンライン証明機関に発行されていますが、手動の承認プロセスを必要とする、[**次へ**] をクリックして管理者によって設定されている要求は、保留中のオンライン証明書要求を処理します。</span><span class="sxs-lookup"><span data-stu-id="9aae4-104">To process a pending online certificate request, that is, a request that has been issued to your online certification authority but is administratively set to require a manual approval process, click **Next**.</span></span>
   
 

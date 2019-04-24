@@ -14,19 +14,19 @@ ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: 3aa77423a2b17aaaf0dd506f14703c9722c7c68d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215543"
 ---
-# <a name="file-filter-create-new-or-edit-existing"></a><span data-ttu-id="940a6-104">ファイル フィルター: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="940a6-104">File Filter: Create New or Edit Existing</span></span>
+# <a name="file-filter-create-new-or-edit-existing"></a><span data-ttu-id="bd319-104">ファイル フィルター: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="bd319-104">File Filter: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="940a6-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="940a6-105">What do you want to do?</span></span> <span data-ttu-id="940a6-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="940a6-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="bd319-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="bd319-105">What do you want to do?</span></span> <span data-ttu-id="bd319-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="bd319-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="940a6-107">デフォルトのファイル転送フィルターを変更します。</span><span class="sxs-lookup"><span data-stu-id="940a6-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [<span data-ttu-id="bd319-107">デフォルトのファイル転送フィルターを変更します。</span><span class="sxs-lookup"><span data-stu-id="bd319-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 
-- [<span data-ttu-id="940a6-108">新しいファイル転送フィルターを特定のサイトの作成します。</span><span class="sxs-lookup"><span data-stu-id="940a6-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [<span data-ttu-id="bd319-108">新しいファイル転送フィルターを特定のサイトの作成します。</span><span class="sxs-lookup"><span data-stu-id="bd319-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
 
 
 

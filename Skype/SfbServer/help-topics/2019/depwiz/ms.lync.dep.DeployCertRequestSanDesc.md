@@ -14,16 +14,16 @@ ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: サブジェクト名と、サブジェクト代替名] ページでは、サブジェクト名と証明書を構成するすべてのサブジェクト代替名の概要を提供します。 サブジェクト名とサブジェクト代替名の表示名は、トポロジ ビルダーで、配置を定義したときに作成されているために、定義のドキュメントから収集されます。
 ms.openlocfilehash: c3de09f21ee0b1121d5bb081c33a5d4d32ea7518
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873297"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216467"
 ---
-# <a name="certificate-request-subject-alternate-names"></a><span data-ttu-id="71a37-104">証明書要求 (サブジェクトの別名)</span><span class="sxs-lookup"><span data-stu-id="71a37-104">Certificate Request (Subject Alternate Names)</span></span>
+# <a name="certificate-request-subject-alternate-names"></a><span data-ttu-id="39c51-104">証明書要求 (サブジェクトの別名)</span><span class="sxs-lookup"><span data-stu-id="39c51-104">Certificate Request (Subject Alternate Names)</span></span>
  
-<span data-ttu-id="71a37-105">**のサブジェクト名またはサブジェクト代替名**ページのサブジェクト名と証明書を構成するすべてのサブジェクト代替名の概要を示します。</span><span class="sxs-lookup"><span data-stu-id="71a37-105">The **Subject Name / Subject Alternative Names** page presents a summary of the subject name and all subject alternative names that will populate the certificate.</span></span> <span data-ttu-id="71a37-106">サブジェクト名とサブジェクト代替名の表示名は、トポロジ ビルダーで、配置を定義したときに作成されているために、定義のドキュメントから収集されます。</span><span class="sxs-lookup"><span data-stu-id="71a37-106">The names presented for subject name and subject alternative names are gathered from the definition document, as it was created when you defined the deployment in Topology Builder.</span></span>
+<span data-ttu-id="39c51-105">**のサブジェクト名またはサブジェクト代替名**ページのサブジェクト名と証明書を構成するすべてのサブジェクト代替名の概要を示します。</span><span class="sxs-lookup"><span data-stu-id="39c51-105">The **Subject Name / Subject Alternative Names** page presents a summary of the subject name and all subject alternative names that will populate the certificate.</span></span> <span data-ttu-id="39c51-106">サブジェクト名とサブジェクト代替名の表示名は、トポロジ ビルダーで、配置を定義したときに作成されているために、定義のドキュメントから収集されます。</span><span class="sxs-lookup"><span data-stu-id="39c51-106">The names presented for subject name and subject alternative names are gathered from the definition document, as it was created when you defined the deployment in Topology Builder.</span></span>
   
-<span data-ttu-id="71a37-107">サブジェクト名またはサブジェクト代替名のいずれかに変更を行う必要がある場合は、証明書の要求ウィザードを終了し、トポロジ ビルダーを再実行の**キャンセル**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="71a37-107">If you must make changes to the subject name or any of the subject alternative names, click **Cancel** to exit the Certificate Request Wizard and rerun Topology Builder.</span></span> <span data-ttu-id="71a37-108">正しく定義されている件名、件名の代替名を使用して新しい構成を再発行します。</span><span class="sxs-lookup"><span data-stu-id="71a37-108">Then republish the new configuration with the correctly defined subject and subject alternative names.</span></span>
+<span data-ttu-id="39c51-107">サブジェクト名またはサブジェクト代替名のいずれかに変更を行う必要がある場合は、証明書の要求ウィザードを終了し、トポロジ ビルダーを再実行の**キャンセル**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="39c51-107">If you must make changes to the subject name or any of the subject alternative names, click **Cancel** to exit the Certificate Request Wizard and rerun Topology Builder.</span></span> <span data-ttu-id="39c51-108">正しく定義されている件名、件名の代替名を使用して新しい構成を再発行します。</span><span class="sxs-lookup"><span data-stu-id="39c51-108">Then republish the new configuration with the correctly defined subject and subject alternative names.</span></span>
   
 
