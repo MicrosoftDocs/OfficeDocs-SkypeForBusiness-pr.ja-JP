@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: 場所ポリシーを構成すると、拡張 9-1-1 (E9-1-1) を有効にするかどうか、E9-1-1 の使用方法、およびユーザーと連絡先での場所情報の使用方法を指定することができます。
 ms.openlocfilehash: 50769e3f6aec7d495ee5f9ea1c835c2e0849dc01
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200836"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>場所のポリシー: 新規作成または現在の形式のままで編集
 

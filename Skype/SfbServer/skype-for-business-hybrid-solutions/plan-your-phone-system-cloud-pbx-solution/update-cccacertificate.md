@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
 description: 'Update-CcCACertificate コマンドレットは、Skype for Business Cloud Connector エディションの有効期限が近づいている、またはすでに有効期限が切れているルート CA 証明書を更新します。 '
 ms.openlocfilehash: d123474240fb18ffcb6c1c037cc5407eb4c6c4e3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250626"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  

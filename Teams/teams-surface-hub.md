@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: add4b7ece81fd2c4184453b03c889a27982c830b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 086edb4f7c949154dae49cb6a371a1d9d11bc43a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204462"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Surface Hub の Microsoft Teams を展開する
 ======================================
@@ -78,19 +78,19 @@ ms.locfileid: "30460117"
 
 ### <a name="option-2-configure-via-mdm-such-as-intune"></a>Intune などの MDM を使用してオプション 2: を構成します。 
 
-Intune を使用して既定の通話や会議のアプリケーション ポリシーを構成するのにには、次を使用します。 [展開 Intune を使用してサーフェスのハブのアプリケーションのマイクロソフトのチーム](https://blogs.technet.microsoft.com/y0av/2018/07/16/97/)のブログを参照してください。
+Intune を使用して既定の通話や会議のアプリケーション ポリシーを構成するのにには、次を使用します。 [展開 Intune を使用してサーフェスのハブのアプリケーションのマイクロソフトのチーム](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/)のブログを参照してください。
 
 |設定   |値    |説明    |
 |----------|---------|---------|
-| Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
+|Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
 |データ型 | 整数 (0-2)   |0 - [開始] 画面で [チームの会議が利用可能な Skype 優先のアプリケーション<br>1 のチーム開始画面で、Skype の会議が利用可能なアプリケーションを優先します。<br>2-チームは、開始画面 (Skype アプリケーションではありません排他的なアプリケーション |
-|運用| 取得、設定        |
+|操作| 取得、設定        |
 
 |設定   |値    |
 |----------|---------|
-| Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
+|Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
 |データ型 | 文字列 - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe としてチームのアプリケーション パッケージ ID に文字列を設定します。チーム** |
-|運用| 取得、設定        |
+|操作| 取得、設定        |
 
 サーフェス ハブ デバイスを再起動します。 デバイスを再起動した後は、開始画面から、チームのアプリケーションを起動し、カレンダーから会議に参加することができます。
 

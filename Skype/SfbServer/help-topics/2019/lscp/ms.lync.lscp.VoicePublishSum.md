@@ -14,11 +14,11 @@ ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 変更が完了しない場合、このダイアログ ボックスでメッセージを確認して、音声ルーティング構成を変更してやり直します。
 ms.openlocfilehash: 3b3dcad6649d8c0ec43efa561cfe296265412a77
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221519"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>音声ルーティング: 音声ルーティング構成のコミット変更の状態
  

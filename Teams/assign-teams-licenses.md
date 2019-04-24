@@ -15,11 +15,11 @@ description: オーディオ会議、電話システムのような機能や、�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 46966b7cad855ef6336b501564cde89dffd6b2b2
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993630"
+ms.locfileid: "32198738"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>マイクロソフトのチームのライセンスを割り当てる
 

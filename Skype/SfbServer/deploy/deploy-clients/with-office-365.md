@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft Office 365 でのチーム会議室を展開する方法の詳細については、このトピックを参照してください。
 ms.openlocfilehash: 5ef6c4ea8b76a34b19da6a74d82badf8000e007c
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214843"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 でマイクロソフトのチームの会議室を配置します。
 
@@ -258,6 +258,6 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [マイクロソフト チームの会議室のコンソールを構成します。](console.md)
 
-[マイクロソフト チームの会議室を管理します。](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [ライセンス マイクロソフト チーム会議室](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

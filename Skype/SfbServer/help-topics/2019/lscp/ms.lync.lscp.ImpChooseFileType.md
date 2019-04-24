@@ -14,11 +14,11 @@ ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: ブロック (ブロック) をオンまたはオフにできるようにする) を許可するファイルの拡張子を選択するのには、[ファイルの拡張子を選択] ダイアログ ボックスを使用して [ファイル] 拡張機能のチェック ボックスは、拡張子を入力します。 カテゴリを展開し、すべてのファイルの拡張子は、そのカテゴリの表示にある矢印をクリックします。 すべてのカテゴリのファイルの拡張子を選択する場合は、カテゴリ名を選択します。
 ms.openlocfilehash: 17ded977e4b5d4dc217ca8d2743d1e5ac369c342
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215571"
 ---
 # <a name="select-file-type-extensions"></a>ファイル種類の拡張子の選択
  

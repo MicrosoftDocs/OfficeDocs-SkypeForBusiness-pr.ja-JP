@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '概要: は、コール品質ダッシュ ボードを使用する方法について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
 ms.openlocfilehash: 856035642d1d8a818abe5f0a106c90270d706516
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217710"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Skype の通話品質のダッシュ ボードを使用して、ビジネスのサーバーの
  

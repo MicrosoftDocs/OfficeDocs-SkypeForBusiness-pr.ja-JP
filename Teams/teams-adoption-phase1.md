@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d01f99baba0d9a648897cd28a87979eb75f03e44
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204545"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams の導入段階 1 - 開始
 
@@ -44,7 +44,7 @@ ms.locfileid: "30647562"
 
 プロジェクト チームの中心的な役割を次の表にします。 小規模な組織では、これらの役割の一部が実行する同じ人が。
 
-| [役割] | 責任 | 部門 |
+| ロール | 責任 | 部門 |
 | ---- | ---------------- | ---------- |
 | エグゼクティブ スポンサー<sup>1</sup> | 高度なビジョンを通信します。 チームの実装を会社のコア ・ ミッションと優先順位のイニシアティブに接続します。 | 経営幹部のリーダーシップ |
 | 成功の所有者<sup>1</sup> | チームの展開から、ビジネスの目標が実現されることを確認します。 | その他の部門 |

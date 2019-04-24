@@ -14,11 +14,11 @@ ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'SQL Server ベースのデータベースと SQL Server のインスタンスを指定することを意味する、新しい SQL ストアを定義するのには: 既定インスタンスまたは名前付きインスタンスのいずれか、次を指定します。'
 ms.openlocfilehash: 5f362d66f7764c69e51a3d54c51ba251a93ae5f9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201999"
 ---
 # <a name="add-sql-store"></a>SQL ストアの追加
 

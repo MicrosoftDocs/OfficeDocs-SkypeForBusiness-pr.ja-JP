@@ -19,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ・ ライセンス、機能、および Office 365 エンタープライズ E1 と E3 の計画のために購入する方法について説明します。 '
-ms.openlocfilehash: 853cc90b8c0e6a0a5fd42a104ae9c972437995d7
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: fc3dfc987a36f458f0480fbec03d340f730d51e3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204516"
 ---
-# <a name="office-365-enterprise-e1-and-e3"></a>Office 365 エンタープライズ E1 と E3
+# <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 および E3
 
 既に[Office 365 エンタープライズ E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)または[E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)のプランを購入した場合、マイクロソフトのチームのより多くの機能を取得するのには購入する必要がありますアドオン ・ ライセンスを示します。
 
@@ -35,7 +35,7 @@ ms.locfileid: "30541425"
 |電話会議 <br/> <br/> |**オーディオ会議のアドオン**を購入してください。 <br/>スケジュールまたはダイヤルイン会議をホストする各ユーザーに対して 1 つのオーディオ会議のライセンスを購入します。 Attendees do not need licenses.<br/> ライセンスを購入すると、Microsoft が電話会議プロバイダーになります。 |
 |世界中の任意の電話番号を呼び出すことによって他のユーザーを追加するのには、会議、および会議から発信する機能には、ダイヤルインのアクセスのフリー ダイヤルの番号<br/> | [通信のクレジット](../add-funds-and-manage-communications-credits.md)を購入します。|
 |電話システム <br/> |<ol><li>Office 365 の電話システムのアドオンを購入してください。 </li><li>Office 365 の[プランを呼び出すこと](../calling-plans-for-office-365.md)を購入してください。</li></ul>または、 [現在お使いのプロバイダーから提供された電話サービス](microsoft-teams-add-on-licensing.md#bkmk_existing) を使用します。  <br/> |
-|電話システムのボイスメール<br/> |E1 プランでは、Exchange オンライン計画 2 を購入します。 <br/>または、Office 365 E3 などの Exchange Online Plan 2 に同梱されてくる Office Suite に切り替えます。 |
+|クラウド ボイスメール<br/> |E1 プランでは、Exchange オンライン計画 2 を購入します。 <br/>または、Office 365 E3 などの Exchange Online Plan 2 に同梱されてくる Office Suite に切り替えます。 |
 |通話プラン<br/> |<ol><li>電話システム アドオンを購入します。</li><li>購入の[計画を呼び出す](../calling-plans-for-office-365.md): のみを購入できるこの**電話システム**のアドオンを購入した後です。</li></ol> <br/> |
    
   

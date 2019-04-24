@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の Statistics Manager のアップグレード
+title: Skype for Business Server の統計情報マネージャーのアップグレード
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: '概要: は、Skype のビジネス サーバーの統計情報マネージャーをアップグレードする方法の詳細については、このトピックを読みます。'
 ms.openlocfilehash: 8ff7eeb9c0abbd0482248f9b69db4013edda6495
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198455"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の Statistics Manager のアップグレード
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーのアップグレード
  
 **の概要:** Skype のビジネス サーバーの統計情報マネージャーをアップグレードする方法の詳細については、このトピックを参照してください。
   
-Skype のビジネス サーバーの統計マネージャーの既存のインストールをアップグレードする方法について説明-Skype をビジネスのサーバーの稼働状態とパフォーマンスのデータをリアルタイムに表示できるようにする強力なツールです。 数秒ごとに数百のサーバー間でのパフォーマンス データをポーリングし、統計マネージャーの web サイトですぐに結果を表示できます。 
+Skype のビジネス サーバーの統計マネージャーの既存のインストールをアップグレードする方法について説明-Skype をビジネスのサーバーの稼働状態とパフォーマンスのデータをリアルタイムに表示できるようにする強力なツールです。 数秒ごとに数百のサーバーのパフォーマンス データをポーリングでき、その結果をすぐに統計情報 マネージャーのウェブ サイト上に表示することができます。 
   
 統計マネージャーおよびリリース 2.0 の新機能に関する詳細については、 [Skype のビジネス サーバー統計マネージャーを計画](plan.md)し、 [Skype のビジネス サーバーの統計マネージャーの展開](deploy.md)を参照してください。
   
@@ -107,7 +107,7 @@ Skype のビジネス サーバーの統計マネージャーの既存のイン�
 
 詳細については、以下を参照してください。
   
-- [Skype for Business Server の Statistics Manager の計画](plan.md)
+- [Skype for Business Server の統計情報マネージャーの計画](plan.md)
     
 - [Skype for Business Server の Statistics Manager の展開](deploy.md)
     

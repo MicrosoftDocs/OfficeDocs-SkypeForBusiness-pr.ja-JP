@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c249c6e63b8342b524b54afc2a6d30be3e92b25
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
-ms.translationtype: HT
+ms.openlocfilehash: 427a0dc26ef3c5b9901ddbe9cefe1288c905ccbb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771767"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223377"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -44,7 +44,7 @@ ms.locfileid: "30771767"
 - Teams 会議で有効なビデオ共有 (*TeamsMeetingPolicy -AllowIPVideo パラメーター = True*)。
 - Teams 会議で有効な画面共有 (*TeamsMeetingPolicy -ScreenSharingMode パラメーター = EntireScreen*)。
 - Teams でのライブ イベントのスケジューリングが有効である (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling パラメーター = True*)。
-- Microsoft Stream でライブ イベントを作成する許可 ([外部エンコーダー作成](#production)の場合)。
+- Microsoft Stream でライブ イベントを作成する許可 (外部エンコーダー作成の場合)。
 
 > [!IMPORTANT]
 > Office 365 ゲスト、フェデレーション ユーザー、匿名ユーザーは、Teams ライブ イベントのプロデューサーや発表者としては招待できません。 Office 365 ゲストとフェデレーション ユーザーは、ライブ イベントを匿名で視聴することのみ可能です。 

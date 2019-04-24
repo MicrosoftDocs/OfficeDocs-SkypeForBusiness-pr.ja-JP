@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: 名前とセキュリティの設定] ページでは、ビット長のプライベートとパブリック キーのペア、および証明書の秘密キーにエクスポート可能のマークを有効にするチェック ボックスのドロップ ダウン リストのフレンドリ名を定義するのにはテキスト ボックスを提供します。
 ms.openlocfilehash: 4803feab68422217e268823bda6252d3103691b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235151"
 ---
 # <a name="certificate-request-basic"></a>証明書要求 (基本)
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 description: 1 台のエッジ サーバーまたは負荷分散されたエッジ サーバーの構成情報を指定するのには、[次へ] をクリックしますを統合します。 展開されているエッジの各サーバーの構成を変更する統合エッジを設定するには、Lync Server 2013 と結合できるようにする前に。
 ms.openlocfilehash: c7bc67f8114eaaa37646e5d5c7dcc307217413a0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200202"
 ---
 # <a name="legacy-merge-edge-type"></a>従来版のマージ: エッジの種類
  

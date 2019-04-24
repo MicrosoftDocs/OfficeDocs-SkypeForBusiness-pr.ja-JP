@@ -14,11 +14,11 @@ ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: コマンドの実行] ページでは、保留中の証明書を取得するコマンドのステータスを表示します。 タスクが完了すると、保留中の証明書を取得・ ログ ・ ファイルがあります。 処理とタスク完了ステータスを確認するのにはログの表示] をクリックします。 [次へ] をクリックします。
 ms.openlocfilehash: f9c22f5a427c289ebae2509ea56c6f1f2f2a7edc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216460"
 ---
 # <a name="pending-certificate-invoke"></a>保留中の証明書 (起動)
  

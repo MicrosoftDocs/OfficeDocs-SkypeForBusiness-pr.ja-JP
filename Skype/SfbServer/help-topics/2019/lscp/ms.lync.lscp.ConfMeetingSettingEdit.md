@@ -14,11 +14,11 @@ ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会議の構成の設定では、ユーザーによってスケジュールされている会議にユーザーが参加するときの操作方法を定義します。 これらの設定は、スケジュールされている会議にのみ適用されます。 これらの設定は、クライアントで [今すぐミーティング] オプションをクリックして作成された臨時の会議には適用されません。
 ms.openlocfilehash: cc997e2ed523ad958c08325112dc661c5a56e6ca
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216152"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>会議構成: 新規作成または現在の形式のままで編集
 

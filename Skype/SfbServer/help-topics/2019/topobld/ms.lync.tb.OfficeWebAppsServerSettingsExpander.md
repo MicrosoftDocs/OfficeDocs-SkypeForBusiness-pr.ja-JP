@@ -14,11 +14,11 @@ ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 構成されている Office の Web アプリケーション サーバーのプロパティを編集するとします。 編集できるプロパティは次のとおりです。
 ms.openlocfilehash: 0ef79728f389bfd87078aef5f9bbaca8f45e18dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899793"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201687"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Office Web Apps サーバーの設定を編集する
 

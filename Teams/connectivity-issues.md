@@ -15,11 +15,11 @@ description: ファイアウォールまたはプロキシ接続が主な原因�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d208671415e44ca5ec83313d0d8af666534f2b20
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194679"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Microsoft Teams クライアントの接続性の問題をトラブルシューティングする
 ==============================================================

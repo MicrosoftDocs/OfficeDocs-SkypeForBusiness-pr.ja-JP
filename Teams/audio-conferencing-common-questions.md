@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: オーディオ会議を使用する場合、お客様から取得する上位の質問の一部を次に示します。
-ms.openlocfilehash: 104f4affe4eb5459d8647174fea1801af4bff826
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e66b9d7abbed35cf73119b05d283aa0d408f3b8a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198777"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
@@ -147,7 +147,7 @@ Skype の会議のブロードキャストに参加する電話会議が有効�
 
 - **オプション 1**: 既定では、会議の開催者とすべての参加者がミーティングへの参加、電話を使用する場合、会議の開催者する必要がありますを開始するのには自分のオーディオ会議 PIN を入力します。 オンライン会議の電話番号にダイヤルするときに、特定の会議の開催者として認証するかどうかの呼び出し元を出しします。 主催者が開始する、ロビーで音楽を聴くが前にダイヤルインを使用してミーティングに参加するすべての参加者を保持します。 開催者は、オーディオ会議 PIN を入力してそれを起動するとロビー内のすべての参加者に自動的に会議に参加します。
 
-- **オプション 2**: 特定のオーガナイザーをインストールするには、(既定で無効になっている)「できるようにするには、会議の最初の人を呼び出し元が認証されていない」の設定が有効になっているかどうかは、そのユーザーがスケジュールされているすべての会議は、開催者を入力することなしに起動するようになりますか電話会議の暗証番号 (pin) です。 この設定を有効にすると、最初の参加者がダイヤルインの電話番号を使用して結合し、彼または彼女は配置できません。 ロビーとすぐにミーティングを開始します。 追加情報を参照してください、[マイクロソフトのチーム内のユーザーの電話会議の管理設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)または[オンライン ビジネスの Skype のユーザーの電話会議の管理設定](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)します。
+- **オプション 2**: 特定のオーガナイザーをインストールするには、(既定で無効になっている)「できるようにするには、会議の最初の人を呼び出し元が認証されていない」の設定が有効になっているかどうかは、そのユーザーがスケジュールされているすべての会議は開催者を持つ彼を入力せずに起動するようになりますか電話会議の暗証番号 (pin) です。 この設定を有効にすると、最初の参加者がダイヤルインの電話番号を使用して結合し、彼または彼女は配置できません。 ロビーとすぐにミーティングを開始します。 追加情報を参照してください、[マイクロソフトのチーム内のユーザーの電話会議の管理設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)または[オンライン ビジネスの Skype のユーザーの電話会議の管理設定](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)します。
    
 ## <a name="related-topics"></a>関連トピック
 

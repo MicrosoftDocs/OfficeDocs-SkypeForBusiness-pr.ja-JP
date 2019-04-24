@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e72b4b4fdfdbe6d31ca3543d23b67cb515568e4f
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494030"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194540"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>マイクロソフトのチームでのサービス品質 (QoS) を実装します。
 
@@ -47,7 +47,7 @@ _図 1 です。組織のネットワークおよび Office 365 のサービス�
 
 ## <a name="verify-your-network-is-ready"></a>ネットワークが準備ができていることを確認します。
 
-QoS の実装を検討する場合は既にが決まったら、帯域幅の要件およびその他の[ネットワークの要件](prepare-network.md)です。 Microsoft Teams の帯域幅の計算は複雑であるため、それを支援する計算ツールが用意されています。 計算機にアクセスするには、MyAdvisor では、[ネットワークの計画](https://aka.ms/bwcalc/)に移動します。
+QoS の実装を検討する場合は既にが決まったら、帯域幅の要件およびその他の[ネットワークの要件](prepare-network.md)です。 マイクロソフト チームの帯域幅の計算は複雑で、これを支援するため、電卓が作成されました。 計算機にアクセスするには、MyAdvisor では、[ネットワークの計画](https://aka.ms/bwcalc/)に移動します。
   
   ネットワーク間でトラフィックの輻輳は、メディアの品質に著しい影響を与えます。 帯域幅の不足は、パフォーマンスが低下し、ユーザー エクスペリエンスの低下につながります。 チームの導入と使用率が増大すると、レポート作成[分析機能の呼び出し、および品質のダッシュ ボードを呼び出す](difference-between-call-analytics-and-call-quality-dashboard.md)問題を特定し、QoS および選択的な帯域幅の追加機能を使用して調整を使用します。
 
@@ -156,7 +156,7 @@ QoS を実装するために準備するときは、次のガイドラインに�
   - ISP に Microsoft ネットワークのエッジ – 3 ホップ
   - 最終的な宛先-無関係に Microsoft ネットワークのエッジ
 
-ファイアウォール ポートを構成する方法の詳細については、 [Office 365 の Url と IP の範囲](office-365-urls-ip-address-ranges.md)を参照してください。
+ファイアウォールのポートを構成する方法については、「 [Office 365 の URL と IP 範囲](office-365-urls-ip-address-ranges.md)」をご覧ください。
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>チームの管理センターでの送信元ポートを管理します。
 
@@ -203,7 +203,7 @@ GPO によってマーキングされている各ワークロードについて�
 
 ## <a name="more-information"></a>詳細情報
 
-[ビデオ: ネットワークの計画](https://aka.ms/teams-networking)
+[ビデオ : ネットワーク計画](https://aka.ms/teams-networking)
 
 [Microsoft Teams 用に組織のネットワークを準備する](prepare-network.md)
 
