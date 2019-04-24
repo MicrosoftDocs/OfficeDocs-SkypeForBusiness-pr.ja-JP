@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'ビジネス サーバー 2019 展開新しい Skype にユーザーを移動するには、ビジネス サーバーのコントロール パネルまたは Skype のビジネス サーバー管理シェルのいずれかの Skype を使用します。 ビジネス サーバー 2019 の Skype へのスムーズな移行を確実にいくつかの要件を満たす必要があります。 このトピックの手順を完了するための前提条件についての詳細は、移行のためのクライアントを構成するを参照してください。 ユーザーの移動に関する詳細な手順については、フェーズ 4 を参照してください: パイロット プールにテスト ユーザーを移動します。'
 ms.openlocfilehash: 9f984b7fac919decce521c6dafc587a4ac86de50
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878325"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231589"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Skype をビジネス サーバー 2019 の残りのユーザーを移動します。
 

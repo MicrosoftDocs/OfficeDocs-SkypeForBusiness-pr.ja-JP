@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: '概要: は、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部であるユーザー設定のサービスについて説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
 ms.openlocfilehash: 8cb30c0f079834c14879e2ce6cbd14201f5bbdcb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217524"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>通話品質のダッシュ ボード (救難) のユーザー設定のサービス
  

@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d35f146ee7c52aa6c32f44e5fcefdad855dfbd3e
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218607"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft Teams へのアップグレードを開始する
 
@@ -53,8 +53,8 @@ ms.locfileid: "30649501"
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> マイクロソフトのチームには、ビジネスの Skype からのアップグレードの詳細については、次のセッションを確認してください。
+> Skype for Business から Microsoft Teams へのアップグレードについては、次のセッションをご覧ください。
 > - [アップグレードの概要](https://aka.ms/teams-upgrade-intro)
-> - [アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)
-> - [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [管理者の経験](https://aka.ms/teams-upgrade-admin)
+> - [アップグレードの計画](https://aka.ms/teams-upgrade-plan)
+> - [共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理者の操作環境](https://aka.ms/teams-upgrade-admin)

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: SQL は、トポロジ内のノード リストが SQL Server データベースを格納します。 以下のアクションを実行できます。
 ms.openlocfilehash: c9ff02ca1514d1b77d2d633aaff02a5269ca0693
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219079"
 ---
 # <a name="sql-instances-scope-node"></a>SQL インスタンス スコープ ノード
  

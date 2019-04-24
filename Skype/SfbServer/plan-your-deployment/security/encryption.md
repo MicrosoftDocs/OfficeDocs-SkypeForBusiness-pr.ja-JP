@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: ビジネス サーバー用の Skype は、インスタント メッセージの暗号化に TLS および MTLS を使用します。 トラフィックが内部ネットワークに限定されているか、内部ネットワークの境界を越えるかに関係なく、MTLS は、サーバー間のすべてのトラフィックに必要です。 Skype をビジネス サーバーのサード パーティ製の IPPBX システムまたは SIP トランク TLS 接続があるとき省略可能ですが、仲介サーバーとメディア ゲートウェイの間で強く推奨されます。 この接続に TLS を構成する場合は MTLS も必要です。 そのため、ゲートウェイは、仲介サーバーによって信頼されている CA から証明書を構成しなければなりません。
 ms.openlocfilehash: e4a58cf10d268dedadb34556206e1c7227d4fdf5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213621"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Skype のビジネス サーバー用の暗号化
  

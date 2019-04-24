@@ -26,11 +26,11 @@ metadata:
   ms.custom:
   - NewAdminCenter_Update
   ms.openlocfilehash: faafc90009801aa06fc39cc4eec34028a1a5fa24
-  ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+  ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 04/18/2019
-  ms.locfileid: "31914604"
+  ms.lasthandoff: 04/23/2019
+  ms.locfileid: "32233437"
 items:
 - durationInMinutes: 2
   content: "\n[マイクロソフトのチーム](/MicrosoftTeams/Teams-overview.md)と[ビジネス用の Skype](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7)は、チャット、電話での会話、ボイスメール、会議、ファイル、および 1 つの場所にアプリケーションを提供する Office 365 の両方の部分です。 両者には、呼制御と Office 365 のクラウド内の PBX の機能を有効にするのには、[**電話システム**用のライセンス](/MicrosoftTeams/what-is-phone-system-in-office-365)が必要があります。 E5 のエンタープライズ ライセンスに含まれている電話システムのライセンスを使用するか、エンタープライズの E3 のライセンスを追加します。 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)ビジネス アドオンのライセンスのライセンスの詳細があります。 \n\n電話システムのライセンスでは、[機能の設定](/MicrosoftTeams/here-s-what-you-get-with-phone-system)ルートの会社のいずれかをお客様のビジネスに通話する相手を呼び出す可能性のあるエージェントの呼び出しキューを含む、既存の PBX システムを交換することができますし、塗りつぶしの顧客サービスの要求または販売に注文します。 呼び出しキューは、ビジネスのチームまたは Skype のいずれかを使用できます。 マイクロソフトのチーム管理センターを使用して、組織の呼び出しキューを作成するとします。 呼び出しキューのリソース アカウントに電話番号を割り当てることが、ことができるまたは呼び出しキューは直接関連付けられている電話番号に自動応答のオプション選択をすることができます。\n\n呼び出しキューを設定するメッセージが表示されたら、この資料は計画と実装の架空のビジネスの効率化の 1 つの例を提供します。  \n\n## <a name=\"before-you-begin\"></a>始める前に\n\n次既に行ったと仮定します。 \n- [計画を呼び出す](/MicrosoftTeams/calling-plan-landing-page)電話番号をユーザーに提供するために[、組織内の電話システムの設定](/MicrosoftTeams/setting-up-your-phone-system.md)をします。\n- [電話システム ボイスメールをセットアップする](/MicrosoftTeams/set-up-phone-system-voicemail.md) \n- レビュー[は自動的に応答し、キューを呼び出すか?](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls.md)呼び出しキューと対話できる電話システムの機能の理解を深めるために。\n"

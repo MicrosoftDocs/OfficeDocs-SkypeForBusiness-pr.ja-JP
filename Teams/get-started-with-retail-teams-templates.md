@@ -1,5 +1,5 @@
 ---
-title: 小売のチーム テンプレートを使い始める
+title: 小売業の Teams テンプレートの使用を開始する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245747"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>小売のチーム テンプレートを使い始める 
+# <a name="get-started-with-teams-templates-in-retail"></a>小売業の Teams テンプレートの使用を開始する 
 
 チーム テンプレートでは、迅速にすることし、設定、チャネル、およびプリインストールされているアプリケーションの定義済みのテンプレートを提供することで簡単にチームを作成します。
 
@@ -58,7 +58,7 @@ ms.locfileid: "30664709"
 
 | 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに用意されているプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 小売- <br>ストア | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| チャネル <ul><li>運用\*</li><li>学習\*</li></ul>\*自動お気に入りチャンネル<br><br>チーム プロパティ <ul><li>チームの可視性が Private に設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルの作成、更新または削除ができます。 </li><li>アプリケーションの追加と削除できます。 </li><li>作成/更新/削除タブをことができます。</li><li>コネクタの作成/更新/削除をことができます。</li><ul>|
+| 小売- <br>ストア | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| チャネル <ul><li>操作\*</li><li>学習\*</li></ul>\*自動お気に入りチャンネル<br><br>チーム プロパティ <ul><li>チームの可視性が Private に設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルの作成、更新または削除ができます。 </li><li>アプリケーションの追加と削除できます。 </li><li>作成/更新/削除タブをことができます。</li><li>コネクタの作成/更新/削除をことができます。</li><ul>|
 ||||
 
 組織のマネージャーの共同作業のテンプレートをカスタマイズする方法をお勧めします。

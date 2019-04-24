@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
 description: 会議の表は、補助テーブルです。 各レコードは、1 つの会議またはピア ツー ピア セッションを表します。
 ms.openlocfilehash: bae144ff574f19155e11b8a2fbfd3548df356c2a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212264"
 ---
 # <a name="conference-table"></a>Conference テーブル
  

@@ -1,5 +1,5 @@
 ---
-title: サービス住所に記入する内容について
+title: 入れるもの、サービスのアドレスのでしょうか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,20 +22,20 @@ ms.custom:
 - Calling Plans
 description: 'については、サービスのアドレスとは、請求先住所との違いし、それを見つけることができます。 '
 ms.openlocfilehash: dfdbb46dcbba6707ae746b004f5d97cdb20c5776
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227836"
 ---
-# <a name="what-should-i-put-in-for-the-service-address"></a>サービス住所に記入する内容について
+# <a name="what-should-i-put-in-for-the-service-address"></a>入れるもの、サービスのアドレスのでしょうか。
 
 サービスのアドレスは、キャリアまたは電話サービス プロバイダーに登録した請求や緊急時のアドレスとは異なります。 これがわからない、自分のアカウントに記載されているサービスのアドレスを確認するのには、サービスプロバイダーまたは通信業者に問い合わせることができます。
   
  **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
   
 ## <a name="related-topics"></a>関連トピック

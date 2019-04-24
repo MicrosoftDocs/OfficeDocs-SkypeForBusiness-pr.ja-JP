@@ -14,11 +14,11 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 14f94428ddeba7b5a648b4b8dbd7bd5ef8fae0e4
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246101"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>マイクロソフト チームの変化に、マイクロソフトの StaffHub チームを移動します。
 

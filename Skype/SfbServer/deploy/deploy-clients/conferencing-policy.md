@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: このトピックでは、Skype Room System アカウントに会議ポリシーを割り当てる方法について説明します。
 ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699574"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219466"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype Room System アカウント用の電話会議ポリシー
  
@@ -27,28 +27,28 @@ Skype ルームのシステム アカウントに割り当てられている会�
   
 |機能  <br/> |値  <br/> |コメント  <br/> |
 |:-----|:-----|:-----|
-|AllowIPAudio  <br/> |True  <br/> |Skype ルーム システムのオーディオの場合は true である必要があります。  <br/> |
-|AllowIPVideo  <br/> |True  <br/> |Skype ルーム システムで即時相互 (ad hoc) のホワイト ボード セッションで動作する Skype ルーム システム オーディオの場合は true である必要があります。  <br/> |
-|AllowMultiView  <br/> |True  <br/> |Skype ルーム システム、複数のビューを表示するのには複数のビデオ ストリームでは、します。  <br/> |
-|AllowParticipantControl  <br/> |True  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowAnnotations  <br/> |True  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|DisablePowerPointAnnotations  <br/> |False  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowUserToScheduleMeetingsWithAppSharing  <br/> |True  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |False  <br/> |アカウントがエンタープライズ VoIP (EV) 有効になっている (を参照してください Skype の Skype ルーム システムの有効にするアカウントのビジネス セクション) であるかによって異なります  <br/> |
-|AllowAnonymousUsersToDialOut  <br/> |False  <br/> |アカウントでエンタープライズ VoIP (EV) が有効であるかにどうかに応じて異なります  <br/> |
-|AllowAnonymousParticipantsInMeetings  <br/> |True  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowExternalUsersToSaveContent  <br/> |True  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowExternalUserControl  <br/> |False  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowExternalUsersToRecordMeeting  <br/> |False  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowPolls  <br/> |True  <br/> |即時相互 (ad hoc) の会議で「n/a」ですが、Skype 部屋のシステム、部屋の前に画面上ポーリングに応答できます。  <br/> |
-|AllowSharedNotes  <br/> |True  <br/> |即時相互 (ad hoc) の会議で「n/a」ですが、Skype 部屋のシステム、部屋の前に画面上ポーリングに応答できます。  <br/> |
-|EnableDialInConferencing  <br/> |True  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
+|AllowIPAudio  <br/> |TRUE  <br/> |Skype ルーム システムのオーディオの場合は true である必要があります。  <br/> |
+|AllowIPVideo  <br/> |TRUE  <br/> |Skype ルーム システムで即時相互 (ad hoc) のホワイト ボード セッションで動作する Skype ルーム システム オーディオの場合は true である必要があります。  <br/> |
+|AllowMultiView  <br/> |TRUE  <br/> |Skype ルーム システム、複数のビューを表示するのには複数のビデオ ストリームでは、します。  <br/> |
+|AllowParticipantControl  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
+|AllowAnnotations  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
+|DisablePowerPointAnnotations  <br/> |FALSE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
+|AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
+|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |アカウントがエンタープライズ VoIP (EV) 有効になっている (を参照してください Skype の Skype ルーム システムの有効にするアカウントのビジネス セクション) であるかによって異なります  <br/> |
+|AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |アカウントでエンタープライズ VoIP (EV) が有効であるかにどうかに応じて異なります  <br/> |
+|AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
+|AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
+|AllowExternalUserControl  <br/> |FALSE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
+|AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
+|AllowPolls  <br/> |TRUE  <br/> |即時相互 (ad hoc) の会議で「n/a」ですが、Skype 部屋のシステム、部屋の前に画面上ポーリングに応答できます。  <br/> |
+|AllowSharedNotes  <br/> |TRUE  <br/> |即時相互 (ad hoc) の会議で「n/a」ですが、Skype 部屋のシステム、部屋の前に画面上ポーリングに応答できます。  <br/> |
+|EnableDialInConferencing  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
 |EnableAppDesktopSharing  <br/> |Desktop  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowConferenceRecording  <br/> |False  <br/> |Skype ルーム システムの該当なし。 True の場合、通話先で記録できます  <br/> |
-|EnableP2PRecording  <br/> |False  <br/> |Skype ルーム システムの該当なし。 True の場合、通話先で記録できます  <br/> |
-|EnableFileTransfer: False  <br/> |True  <br/> |該当なし  <br/> |
-|EnableP2PFileTransfer  <br/> |True  <br/> |該当なし  <br/> |
-|EnableP2PVideo  <br/> |True  <br/> |Skype ルーム システム クライアントがピア ツー ピア ビデオ セッションに参加するには  <br/> |
+|AllowConferenceRecording  <br/> |FALSE  <br/> |Skype ルーム システムの該当なし。 True の場合、通話先で記録できます  <br/> |
+|EnableP2PRecording  <br/> |FALSE  <br/> |Skype ルーム システムの該当なし。 True の場合、通話先で記録できます  <br/> |
+|EnableFileTransfer: False  <br/> |True  <br/> |N/A  <br/> |
+|EnableP2PFileTransfer  <br/> |True  <br/> |N/A  <br/> |
+|EnableP2PVideo  <br/> |TRUE  <br/> |Skype ルーム システム クライアントがピア ツー ピア ビデオ セッションに参加するには  <br/> |
 |AllowLargeMeetings  <br/> |False  <br/> |該当なし  <br/> |
 |EnableDataCollaboration  <br/> |True  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Skype ビジネス サーバーの無視、Skype ルームのシステムを使用して、HD1080  <br/> |

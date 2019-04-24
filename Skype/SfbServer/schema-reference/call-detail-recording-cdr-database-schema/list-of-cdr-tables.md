@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: 通話詳細記録 (CDR) データベース スキーマは、次の表で構成されています。
 ms.openlocfilehash: 977c48b58c5b1d1c0f21fbac07a28ec6efb0bfd6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213016"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での CDR のテーブルの一覧
  

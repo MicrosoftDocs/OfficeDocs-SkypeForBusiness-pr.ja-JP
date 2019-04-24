@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 description: ビジネス サーバー 2015 の Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。 詳細については、「Planning for Mobility」を参照してください。
 ms.openlocfilehash: 8c2fd0c0f3b0278a4d004c035f796a358d17199f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222661"
 ---
 # <a name="client-settings-planning-tool"></a>Client Settings (Planning Tool)
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: 次のトピックでは、永続的なチャットのデータベース スキーマのテーブルの各列を説明します。
 ms.openlocfilehash: 5ee15bfab456f2e2e5c1ea535a1b521f9544a352
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212671"
 ---
 # <a name="persistent-chat-server-table-details"></a>常設チャット サーバー テーブルの詳細
  

@@ -1,5 +1,5 @@
 ---
-title: ベルギーのフリー ダイヤルのダイヤルの制限
+title: ベルギーでのフリーダイヤル制限
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,13 +23,13 @@ ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
 ms.openlocfilehash: 28a34ac1ab9fb0c671088635185b5a8a0fb8c1a4
-ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31407756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223449"
 ---
-# <a name="toll-free-dialing-restrictions-in-belgium"></a>ベルギーのフリー ダイヤルのダイヤルの制限
+# <a name="toll-free-dialing-restrictions-in-belgium"></a>ベルギーでのフリーダイヤル制限
 
 [別の国または地域を検索する](../toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。
 

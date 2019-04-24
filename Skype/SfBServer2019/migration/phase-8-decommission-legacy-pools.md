@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: httpsfix
 description: 次のトピックでは、DNS エントリを更新、コンテンツの管理サーバーを移動、プールを使用停止しの非アクティブ化および従来の展開からサーバーとプールを削除するためのガイダンスを提供します。 このセクションに記載されている手順の一部は、必要があります。 マニュアルを参照し、どの使用停止の手順を使用するを決定します。
 ms.openlocfilehash: 2363b90f1bcc71c3c8c1ee42d258101240bcacb7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231512"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>フェーズ 8: レガシ プールの使用停止
 

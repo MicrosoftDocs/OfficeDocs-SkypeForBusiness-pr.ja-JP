@@ -14,11 +14,11 @@ ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: クライアント バージョン ポリシーは、一連のクライアント バージョン ルールで構成されます。これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。
 ms.openlocfilehash: d1de600a3907d3e981bb1f706cdedbff05e965f0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215900"
 ---
 # <a name="client-version-rule"></a>クライアント バージョン ルール
 

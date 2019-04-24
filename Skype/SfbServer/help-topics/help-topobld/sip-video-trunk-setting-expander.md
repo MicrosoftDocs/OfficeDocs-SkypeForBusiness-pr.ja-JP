@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバー 2015 のください。
 ms.openlocfilehash: bfab660ab5bb6286c58f79402272eed02d24ee52
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219346"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>SIP ビデオ トランク設定エキスパンダー
  

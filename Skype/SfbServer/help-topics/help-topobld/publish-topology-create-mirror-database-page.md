@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
 ms.openlocfilehash: c5efe9f89adb999667ab82ca1b9909fa5dc1795c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219248"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>トポロジの公開でのミラー データベースの作成ページ
  

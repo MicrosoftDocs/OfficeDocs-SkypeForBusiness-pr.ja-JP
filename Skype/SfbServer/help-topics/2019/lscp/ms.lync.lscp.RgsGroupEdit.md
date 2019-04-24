@@ -14,11 +14,11 @@ ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: エージェント グループでは、応答グループへの呼び出しに応答できるユーザー (エージェントと呼ばれます) およびグループ内のすべてのエージェントに適用される設定が定義されています。
 ms.openlocfilehash: 044fd86109b7c413d414b174a5f9527e8c535d42
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215207"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>応答グループ: エージェント グループの新規作成または既存エージェント グループの編集
 

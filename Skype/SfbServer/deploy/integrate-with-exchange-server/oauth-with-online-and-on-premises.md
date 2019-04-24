@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: OAuth を構成するオンライン ビジネスの社内の Exchange と Skype との間の認証は、ビジネスおよび Exchange の統合機能の機能のサポート」に記載の Skype を使用できます。
 ms.openlocfilehash: 976aae8287c1d9f209975d53ebc64ac80033c591
-ms.sourcegitcommit: 42666cf15b37279244d205715016a10e01fc752e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31040017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216663"
 ---
 # <a name="configure-integration-between-skype-for-business-online-or-microsoft-teams-and-exchange-server"></a>オンライン ビジネス用の Skype またはマイクロソフトのチームと Exchange Server との統合を構成します。 
 
@@ -89,6 +89,6 @@ New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1
 
 [を設定するには 1 つの例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)を次のとおりですが、このプロセスに着手するときに任意のネットワーク トレース ツールを使用することができます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Exchange および Exchange Online 組織間の OAuth 認証を構成します。](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

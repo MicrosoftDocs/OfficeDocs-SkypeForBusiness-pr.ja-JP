@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: '概要: このビジネス サーバーの会議機能、および Skype の機能について説明するを参照できます。'
 ms.openlocfilehash: cefd631f1750d7eaa4404a2fe2ffa8aa91675824
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214380"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で会議を計画します。
  

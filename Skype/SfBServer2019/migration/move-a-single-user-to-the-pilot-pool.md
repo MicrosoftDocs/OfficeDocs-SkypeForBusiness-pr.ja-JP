@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 パイロット プールのビジネス サーバー 2019 のコントロール パネルまたは Skype の Skype を使用してビジネス サーバー 2019 管理シェルには、Skype を従来のプールからユーザーを移動できます。 レジストラー プール] 列に、次の例で pool01.contoso.net は、従来のプールでは、および 6 のこれらのユーザーがこのプールに接続しています。 ビジネス サーバー 2019 プールのサーバー管理シェルのビジネスのビジネス サーバー 2019 のコントロール パネルと Skype の Skype を使用して、Skype にユーザーを移動するのにには、次の手順を使用します。
 ms.openlocfilehash: 94896ce2ea05a3102d5a7643e3f26430e74bfe19
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231596"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>1 人のユーザーをパイロット プールに移動します。
 
@@ -34,7 +34,7 @@ ms.locfileid: "30880250"
     
 6. 」ドロップ ダウン リストから、Skype のビジネス サーバー 2019 プールを選択します。
     
-7. [**アクション**] をクリックし、**プールを選択したユーザーの移動**] をクリックします。 [**OK**] をクリックします。
+7. [**アクション**] をクリックし、**プールを選択したユーザーの移動**] をクリックします。 **[OK]** をクリックします。
   
 8. **レジストラー プール**] 列ユーザーにはに今すぐビジネス サーバー 2019 のプールは、ユーザーが正常に移動されたことを示します、Skype が含まれていることを確認します。 
     

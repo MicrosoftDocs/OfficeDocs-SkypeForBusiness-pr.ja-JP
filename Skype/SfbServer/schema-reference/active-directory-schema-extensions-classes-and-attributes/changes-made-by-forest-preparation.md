@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: このセクションでは、グローバル設定とオブジェクト、およびフォレストの準備手順で作成されたユニバーサル サービスと管理グループについて説明します。
 ms.openlocfilehash: 27b8e183f4c76c7c5db71af1422ba9185206632a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213425"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Skype でビジネス サーバーは、フォレストの準備によって加えられた変更
 

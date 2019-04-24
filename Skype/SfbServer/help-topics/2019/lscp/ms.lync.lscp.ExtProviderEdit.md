@@ -14,11 +14,11 @@ ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: c16be2b316fc1ba1ff7dc5dee75d1e6a319d3898
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215613"
 ---
 # <a name="sip-federated-providers-create-new-or-edit-existing"></a>SIP フェデレーション プロバイダー: 新規作成または現在の形式のままで編集
 

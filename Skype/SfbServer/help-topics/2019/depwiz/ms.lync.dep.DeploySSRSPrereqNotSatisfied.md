@@ -14,11 +14,11 @@ ms.assetid: b6be29df-b882-4ba8-ba40-8062eb3bb14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: このページは、インフラストラクチャに監視サーバーが展開されていない場合に表示されます。これは、監視サーバーのレポートを展開するための最小要件を満たしていないことを示しています。
 ms.openlocfilehash: 38766ec5d59df7777a0673c8ec447eda023218fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215970"
 ---
 # <a name="sql-server-reporting-services-prerequisites-not-satisfied"></a>SQL Server Reporting Services (前提条件を満たしていない)
 

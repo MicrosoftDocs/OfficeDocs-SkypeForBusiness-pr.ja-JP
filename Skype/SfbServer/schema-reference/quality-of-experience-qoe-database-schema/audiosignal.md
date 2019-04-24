@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: 各レコードは、1 つのエンドポイントのオーディオ信号の測定値を表します。 通常、各呼び出しには、2 つのレコードが含まれています、1 に対して、呼び出し元、呼び出し先の 1 つは、です。
 ms.openlocfilehash: 7a064f13b6f34f61dcfb72169a4b1620cd81b01f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212314"
 ---
 # <a name="audiosignal-table"></a>AudioSignal テーブル
  

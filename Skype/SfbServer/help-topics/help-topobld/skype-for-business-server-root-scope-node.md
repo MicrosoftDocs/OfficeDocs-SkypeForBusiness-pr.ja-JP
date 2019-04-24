@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: Lync Server ノードには、トポロジでは、セントラル サイトが一覧表示されます。 以下のアクションを実行できます。
 ms.openlocfilehash: c58386048aef8fd41a192cb9ad8755933a885cf0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219065"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server ルート スコープ ノード
  

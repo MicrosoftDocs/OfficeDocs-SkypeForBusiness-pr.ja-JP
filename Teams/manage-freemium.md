@@ -1,12 +1,12 @@
 ---
-title: マイクロソフト チームの無料版を管理します。
+title: 無料版の Microsoft Teams を管理する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 04/12/2019
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: daryav
 search.appverid: MET150
 description: 空きチームでの管理機能について説明します。
 localization_priority: Normal
@@ -17,14 +17,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4a3d72374e2d49df0298002b99272c80d78ffe0
-ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
+ms.openlocfilehash: b6eb43669761e6f61d88299fe155501e807e1100
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31854151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222334"
 ---
-<a name="manage-the-free-version-of-microsoft-teams"></a>マイクロソフト チームの無料版を管理します。
+<a name="manage-the-free-version-of-microsoft-teams"></a>無料版の Microsoft Teams を管理する
 ==========================================
 
 最初に、組織内の署名した人では、無料バージョンのマイクロソフトのチームで、制限付きの管理者ロールがあります。 この制限されたロールを持つユーザーは、追加品を獲得し、チーム メンバーを削除して誰でも、他のメンバーを招待できますですが、マイクロソフトのチーム管理センターにない高度な管理機能とアクセス許可なしにこのユーザーが持っているかどうかを指定できます。 

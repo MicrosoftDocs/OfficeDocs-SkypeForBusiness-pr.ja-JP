@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 作成ネットワーク地域、ネットワーク サイトを変更してビジネス サーバーの Skype のネットワークのサブネットを関連付けます。 これらのすべては、高度なエンタープライズ VoIP 機能に使用します。 メディアのバイパス、受付制御、およびロケーション ベースのルーティングを呼び出します。
 ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223114"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>ネットワーク領域、サイト、およびビジネスの Skype でサブネットを配置します。
 

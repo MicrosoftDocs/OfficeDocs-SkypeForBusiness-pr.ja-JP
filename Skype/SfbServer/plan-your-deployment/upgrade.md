@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: '概要: は、ビジネス サーバー 2015 の Skype へのアップグレードを計画する場合を考慮する必要がある事項について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
 ms.openlocfilehash: 711b675c902824e6aab31ed64266a946a135b7fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213487"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Skype for Business Server 2015 へのアップグレードの計画
  
@@ -187,7 +187,7 @@ Lync Server 2010 および Lync Server 2013 の共存トポロジに Lync Server
 ## <a name="see-also"></a>関連項目
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-[Upgrade to Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
+[Skype for Business Server 2015 へのアップグレード](../deploy/upgrade-to-skype-for-business-server.md)
   
 [Environmental requirements for Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
   

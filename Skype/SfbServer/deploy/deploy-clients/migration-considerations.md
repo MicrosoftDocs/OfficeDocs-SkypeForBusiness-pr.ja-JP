@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: ビジネス サーバーと Lync Server の複数のバージョンの Skype を持つ環境で Skype ルームのシステムを展開する方法の詳細については、このトピックを参照してください。
 ms.openlocfilehash: fef5e3e0a64fd1d533a53586b470584421a165ea
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219431"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype Room System の移行に関する考慮事項
  

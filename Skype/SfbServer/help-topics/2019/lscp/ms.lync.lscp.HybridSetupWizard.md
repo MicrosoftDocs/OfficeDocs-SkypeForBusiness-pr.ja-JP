@@ -14,11 +14,11 @@ ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
 description: ハイブリッド管理ウィザードを使用するにはいくつかのオンライン ビジネスの Skype でハイブリッド展開を設定するのにために必要な構成タスクを実行します。 ハイブリッド展開を構成する方法の詳細については、ハイブリッドの管理ウィザードを使用して、環境の構成を参照してください。
 ms.openlocfilehash: d0770e193d84337189cdd7a24fdb471faa275b9b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215564"
 ---
 # <a name="hybrid-manageability-wizard"></a>ハイブリッド管理ウィザード
 

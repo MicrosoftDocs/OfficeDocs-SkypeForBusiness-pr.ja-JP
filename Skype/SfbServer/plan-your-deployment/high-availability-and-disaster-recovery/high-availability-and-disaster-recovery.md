@@ -14,11 +14,11 @@ ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: Skype ビジネス サーバーのサーバーのプール、プールの組み合わせ、およびバック エンド サーバーの高可用性、AlwaysOn 可用性グループ、データベース ミラーリングは、SQL フェールオーバー クラスタ リングなどのいくつかのモードでの災害復旧と高可用性を提供します。
 ms.openlocfilehash: 9e48fa65572dea5c0e6a297397d2a502cefcdc36
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214062"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>ビジネスのサーバーに、Skype での高可用性と災害復旧を計画します。
  

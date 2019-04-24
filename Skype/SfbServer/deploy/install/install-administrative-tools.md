@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: '概要では、Skype のインストールに必要なビジネス サーバーの管理ツールをインストールする方法について説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
 ms.openlocfilehash: 48c6234b04f3c594f8cc50bda82ffca8cb256552
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210726"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Skype のビジネス サーバーの管理ツールをインストールします。
  

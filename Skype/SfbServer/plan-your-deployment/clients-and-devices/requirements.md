@@ -13,11 +13,11 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: この資料は、マイクロソフト チームの会議室をサポートするための要件をまとめたものです。
 ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012995"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214506"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>マイクロソフト チームの会議室の要件
 
@@ -151,6 +151,6 @@ ms.locfileid: "31012995"
 
 [マイクロソフト チームの会議室のコンソールを構成します。](../../deploy/deploy-clients/console.md)
 
-[マイクロソフト チームの会議室を管理します。](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Skype for Business アドオンのライセンス](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: このテーブルの各レコードには、呼び出しの詳細については、ユーザーまたは結合と会議サーバーの 1 つの組み合わせが含まれています。 などのユーザーは、web 会議、オーディオとビデオの要素を含む会議を結合する場合、そのユーザーの web 会議の結合の 1 つのレコードが作成され、ユーザーのオーディオ/ビデオ会議の結合の別のレコードが作成されます。
 ms.openlocfilehash: 7a31564ed770c956baa0ef7e968d0fba1dc3fd7d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212981"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での McuJoinsAndLeaves テーブル
  

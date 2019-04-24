@@ -14,11 +14,11 @@ ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 ROBOTS: NOINDEX, NOFOLLOW
 description: 永続的なチャット ルームの Url に関連付けるには、永続的なチャット ページの追加のセクションを使用できます。 これらの URL は、チャット ルームにいるクライアントの会話拡張機能ウィンドウに表示されます。 管理者が登録済みアドインの一覧にアドインを追加し、チャット ルームのマネージャー/作成者が登録済みアドインの 1 つにルームを関連付けると、ユーザーはクライアントでこのアップグレードを表示できるようになります。
 ms.openlocfilehash: f5cdc444a5cca1a79d16042fc356c02c9ef77342
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215312"
 ---
 # <a name="persistent-chat-add-in"></a>常設チャット アドイン
 

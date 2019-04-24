@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: a235289f81cf8c7b74d3db1b271c34e104d02680
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219987"
 ---
 # <a name="users-new-contact-objects"></a>ユーザー: 新しい連絡先オブジェクト
 

@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '概要: 開始またはビジネス サーバー 2015 の Skype のログ サービスの一元的なログのキャプチャ セッションを停止する方法を説明します。'
 ms.openlocfilehash: 982aecf9da4e8ca08d734a4adb35d8a34a3bb816
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217567"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での CLS ログ キャプチャの開始または終了
  

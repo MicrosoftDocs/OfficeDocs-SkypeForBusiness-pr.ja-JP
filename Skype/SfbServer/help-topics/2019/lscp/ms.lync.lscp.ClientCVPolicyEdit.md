@@ -14,11 +14,11 @@ ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。
 ms.openlocfilehash: 5648d96e69869171d78a3a28634bdb2b0221a234
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216404"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>クライアント バージョン ポリシー: 新規作成または現在の形式のままで編集
 

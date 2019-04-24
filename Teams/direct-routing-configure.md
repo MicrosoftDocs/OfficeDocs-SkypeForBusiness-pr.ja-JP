@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
 ms.openlocfilehash: a26972e16758a00e2afc5d39029cfb1504b974c4
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233658"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 

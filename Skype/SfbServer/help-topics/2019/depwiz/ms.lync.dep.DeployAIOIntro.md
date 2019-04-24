@@ -14,11 +14,11 @@ ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 中央管理ストアとその他の配置されているサービスを選択することを保持するビジネス サーバーの Standard Edition サーバーは、Skype のインストールを開始するには、となるサーバー上のローカルの Administrators グループのメンバーとしてログインする必要があります。Standard Edition サーバーです。 [単一の Standard Edition サーバーの準備] ページに、初期インストールの要件が表示されます。 コンピューターが展開先のドメインのメンバーであり、フォレストでスキーマ、フォレスト、およびドメインの準備を正常に完了している必要があります。
 ms.openlocfilehash: b4b211899ba907a20d11f8adf4d2640599dc6f91
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216586"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>単一の Standard Edition サーバーの準備 (開始)
  

@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
 ms.openlocfilehash: 413610285a187fc85d7aa926a77f09cccbb15643
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875907"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226016"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Outlook 会議で使用するコンテンツ プリロードの有効化と無効化
 
@@ -103,7 +103,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

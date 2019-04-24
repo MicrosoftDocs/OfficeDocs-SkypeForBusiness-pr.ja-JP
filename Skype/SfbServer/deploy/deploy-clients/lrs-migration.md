@@ -12,11 +12,11 @@ ms.collection: M365-voice
 ms.assetid: ''
 description: マイクロソフト チームの会議室のソフトウェアを使用して Lync ルーム システム デバイスを移行する方法の詳細については、このトピックを参照してください。
 ms.openlocfilehash: 2d9187643d8ffa72a843cbd72a47f4fd4a564f6e
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219396"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Lync ルーム システム (LRS) デバイスをマイクロソフト チームの会議室に移行します。
 

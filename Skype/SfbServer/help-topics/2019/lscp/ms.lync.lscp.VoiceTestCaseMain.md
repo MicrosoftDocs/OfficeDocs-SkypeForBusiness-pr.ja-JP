@@ -14,11 +14,11 @@ ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: 2cdd4fac098f0a3906a380ba947229cef50d7ea2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221181"
 ---
 # <a name="test-voice-routing-test-cases"></a>音声ルーティングのテスト: テスト ケース
 

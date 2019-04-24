@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: 全体の展開を解除したい場合にのみ展開の削除ウィザードを実行します。 このウィザードでは、1 つのフロント エンド サーバーで構成される空のトポロジを作成します。 このウィザードを実行し、空のトポロジを公開すると後、は、元のトポロジに戻すことはできません。
 ms.openlocfilehash: a9b58c76ccd027e5a9641fb7b2d2f8bbf6ef58ca
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219360"
 ---
 # <a name="remove-deployment-introduction"></a>展開の削除の概要
  

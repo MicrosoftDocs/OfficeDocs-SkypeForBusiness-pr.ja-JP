@@ -1,0 +1,1 @@
+この資料では、まだリリースされていないマイクロソフトのチーム機能について説明します。 それが発表されましたと準備中です。管理者は、メッセージ センター ([Microsoft 365 管理センター](https://portal.office.com/adminportal/home)) でこの機能のリリース日を確認できます。 期限の迫っているチームの機能の詳細に把握すると、 [Microsoft 365 のロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)を確認してください。

@@ -15,11 +15,11 @@ ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバー 25 の Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。 詳細については、「Planning for Mobility」を参照してください。
 ms.openlocfilehash: a940925d2d1a89a3ea4a158e041adf05f5263b8b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221019"
 ---
 # <a name="client-settings-planning-tool"></a>Client Settings (Planning Tool)
 

@@ -14,11 +14,11 @@ ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループ キューは、エージェントが呼び出しに応答するまでの応答グループへの呼び出しを保持します。 キューには、エージェント グループが割り当てられます。 作成または、キューを編集するときは、キューに割り当てる 1 つまたは複数のエージェント グループを選択するのにグループの選択] ダイアログ ボックスを使用します。
 ms.openlocfilehash: 1ea3d43241d5cdac2ebcc860333ab326d45fd274
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215186"
 ---
 # <a name="select-groups"></a>グループの選択
 

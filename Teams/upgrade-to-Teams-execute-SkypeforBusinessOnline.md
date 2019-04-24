@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 82577b8e8102baca9ea9681bb94d4a0c73f8b01e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218678"
 ---
 ![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
@@ -34,7 +34,7 @@ ms.locfileid: "30465157"
 - [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
 - [パイロットを実施した](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-from-skype-for-business-online-to-teams"></a>チームをオンラインでビジネス用の Skype からのアップグレード
+# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Skype for Business Online から Teams にアップグレードする
 
 完全 Skype をオンライン ビジネスを展開しているし、ビジネスの Skype からのチームにユーザーをアップグレードする場合のこの資料の指示に従います。 ユーザーを選択的にアップグレードすることができますまたはアップグレードをに基づいて、オールインワンの旅を適切な共存およびアップグレード モードをユーザーに割り当てることにより、組織が選択されます。
 

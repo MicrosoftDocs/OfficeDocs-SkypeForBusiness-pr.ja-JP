@@ -1,5 +1,5 @@
 ---
-title: 組織での通話品質の使用
+title: 組織で、品質の呼び出しを使用します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 description: 設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。
 ms.openlocfilehash: 5ba24a8c4d8f74a2a43f28f3f42280a1be40f814
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227290"
 ---
-# <a name="using-call-quality-in-your-organization"></a>組織での通話品質の使用
+# <a name="using-call-quality-in-your-organization"></a>組織で、品質の呼び出しを使用します。
 
 

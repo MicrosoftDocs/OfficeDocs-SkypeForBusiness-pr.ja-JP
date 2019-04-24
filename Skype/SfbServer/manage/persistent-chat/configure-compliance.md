@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: '概要: は、Skype のビジネス サーバー 2015 の永続的なチャット サーバーのコンプライアンス サービスを構成する方法について説明します。'
 ms.openlocfilehash: 8364719f7d42b0627de579c7a0aa94c1e6370c45
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222081"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのコンプライアンス サービスの構成
 

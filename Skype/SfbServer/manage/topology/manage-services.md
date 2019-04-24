@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: サービスの状態を表示、起動し、サービスを停止し、サービスのセッションを防止する方法を説明します。
 ms.openlocfilehash: 6913ce2cbef6c12a61d7d4751b35a71371ffb991
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215172"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Skype のサービスをビジネス サーバーを管理します。
 

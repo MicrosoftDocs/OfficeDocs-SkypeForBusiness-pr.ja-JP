@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 各レコードは、メディアの 1 つの行を表します。 (通常 1 つのオーディオ セッションには、オーディオ メディアの 1 つの行が含まれています。 1 つのオーディオおよびビデオ (A/V) セッションには通常が含まれていますオーディオ メディアの 1 つの行と 1 つのビデオ メディア ラインが、セッションには会議用デバイスが使用されている場合、またはギャラリーのビューを使用する場合 2 つのビデオ メディア ラインが含まれて可能性があります。
 ms.openlocfilehash: 11c309091211ce0bc480fa032e0f1dbbbbf533cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212545"
 ---
 # <a name="medialine-table"></a>MediaLine テーブル
  

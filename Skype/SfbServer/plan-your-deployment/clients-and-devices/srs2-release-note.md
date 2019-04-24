@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.collection: M365-voice
 description: この資料では、マイクロソフト チームの会議室での累積的な機能強化について説明します。
 ms.openlocfilehash: 3d80c1c2e4aa2fcad241f566b832e8ddbc662120
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214492"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -218,7 +218,7 @@ Introduced in this update:
 <a name="See"> </a>  
 ## <a name="see-also"></a>関連項目
 
-[マイクロソフト チームの会議室のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms ヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [環境を準備する](srs-v2-prep.md)
 
@@ -228,4 +228,4 @@ Introduced in this update:
 
 [マイクロソフト チームの会議室のプラン](skype-room-systems-v2-0.md)
 
-[マイクロソフト チームの会議室を管理します。](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 概要では、取得、更新、およびビジネス サーバー 2015 の Skype で集中ログ サービスの構成設定を作成する方法について説明します。
 ms.openlocfilehash: 1aab363f88b7639e2eb61f9101864bac20cc0aa0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217515"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の集中ログ サービスの構成設定の管理
 

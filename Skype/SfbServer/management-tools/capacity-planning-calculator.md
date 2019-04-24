@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: '概要: 容量計算機の使用方法'
 ms.openlocfilehash: 9ec15c4bdcfee98e2f018a443c84384ebde8aaeb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217853"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype for Business Server の容量計画計算ツール
  

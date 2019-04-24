@@ -14,11 +14,11 @@ ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループ エージェント グループ、キュー、およびワークフローで構成されます。 応答グループ ワークフローは、応答グループ アプリケーションが電話の呼び出しを受信するときに実行するアクションを定義します。
 ms.openlocfilehash: fad6e7ac71e36f89df712054d1322f8150bc1083
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215137"
 ---
 # <a name="response-groups-workflow"></a>応答グループのワークフロー
 

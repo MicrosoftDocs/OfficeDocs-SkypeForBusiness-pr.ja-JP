@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: '概要: ビジネス サーバーのコントロール パネルの Skype を使用してトランク構成設定のコレクションを削除する方法を説明します。'
 ms.openlocfilehash: da86cbaf45afa47de580c02ab74e3b0b9bb344bf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890551"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223156"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype で SIP トランク構成設定の既存のコレクションを削除します。
  

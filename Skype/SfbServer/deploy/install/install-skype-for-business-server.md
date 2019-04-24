@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: '概要では、トポロジ内の各サーバーでサーバーのビジネス システムのコンポーネントの Skype をインストールする方法について説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
 ms.openlocfilehash: caa933e3469227fe0fa2aab680f53ddee445256e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891903"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210991"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>トポロジ内のサーバーへの Skype for Business Server のインストール
  

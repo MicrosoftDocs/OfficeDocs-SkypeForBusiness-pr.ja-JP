@@ -14,11 +14,11 @@ ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 ROBOTS: NOINDEX, NOFOLLOW
 description: ユーザーの暗証番号 (pin) を生成するために選択は自動的に、有効な暗証番号 (pin) を生成します。
 ms.openlocfilehash: 15be84521e13d5702ce7cacc3fc36a86b4619077
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214927"
 ---
 # <a name="set-pin"></a>PIN の設定
 

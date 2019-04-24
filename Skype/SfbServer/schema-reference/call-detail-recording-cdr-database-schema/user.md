@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: ユーザー ビューでは、呼び出しまたはデータベースのレコードが存在するセッションに関連するユーザーに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
 ms.openlocfilehash: 9e631c101660e8f14bca25f019f5d991a0d9aadd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213180"
 ---
 # <a name="user-view"></a>ユーザーの表示
  

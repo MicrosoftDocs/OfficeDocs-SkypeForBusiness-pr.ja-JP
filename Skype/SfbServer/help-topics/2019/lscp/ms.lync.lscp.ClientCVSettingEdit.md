@@ -14,11 +14,11 @@ ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: クライアント バージョンの構成設定は、クライアント バージョンの制御を有効または無効にするために使用します。 グローバル クライアント バージョンの構成では、ビジネス サーバーの Skype をインストールしを有効にするか、クライアントのバージョン管理サーバー全体の展開を無効にするために使用します。 グローバル構成を有効にすると、ユーザーがログオンを試みたときに、適用されているすべてのクライアント バージョン ポリシーが有効になります。 クライアント バージョン制御を行わないようにする場合は、グローバル クライアントバージョン構成を無効にできます。
 ms.openlocfilehash: 3b91ca6b9c3d3f801a8a247eef5641673dc86556
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216327"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>クライアント バージョンの構成: 新規作成または現在の形式のままで編集
 

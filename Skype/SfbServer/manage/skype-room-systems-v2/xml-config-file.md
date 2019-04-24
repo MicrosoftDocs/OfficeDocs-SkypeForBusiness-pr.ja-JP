@@ -13,11 +13,11 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice
 description: この資料では、カスタム テーマを適用するなど、マイクロソフトのチーム会議室デバイスによって使用される既定の設定のリモート管理について説明します。
 ms.openlocfilehash: 2dc99046647fc1cbda8fcb7643dbdf06d2d24c82
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013030"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214744"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>マイクロソフト チームの会議室のコンソールの設定を XML 構成ファイルを使用してリモートで管理します。
  
@@ -89,7 +89,7 @@ XML ファイルの作成でエラーが含まれる場合 (変数値の型に�
 |\<SendLogs\>   |Container   |最初の & #x 2776。  ||
 |\<EmailAddressForLogsAndFeedback\>   |文字列 & #x 2778 です。  ||[フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションの電子メール アドレスを設定します。   |
 |\<SendLogsAndFeedback\>   |ブール & #x 2777 です。  || true の場合、ログが管理者に送信されます。それ以外の場合、フィードバックのみが管理者に送信されます (ログは送信されません)。  |
-| \<デバイス\>  |Container   |最初の & #x 2776。  | 子要素内の接続済みのオーディオ デバイス名は、デバイス マネージャー アプリにリスト表示された値と同一のものになります。 この構成には、現在コンソールに接続していない A/V デバイスなど、現在システムに存在しないデバイスを含めることができます。 この構成はそれぞれのデバイスに対して保持されます。  |
+| \<Devices\>  |Container   |最初の & #x 2776。  | 子要素内の接続済みのオーディオ デバイス名は、デバイス マネージャー アプリにリスト表示された値と同一のものになります。 この構成には、現在コンソールに接続していない A/V デバイスなど、現在システムに存在しないデバイスを含めることができます。 この構成はそれぞれのデバイスに対して保持されます。  |
 |\<MicrophoneForCommunication\>   |文字列 & #x 2778 です。  ||会議で録音デバイスとして使用されるマイクを設定します。   |
 |\<SpeakerForCommunication\>   |文字列 & #x 2778 です。  ||会議のスピーカーとして使用されるデバイス。 この設定は、使用されるスピーカー デバイスに、通話中の音声を聞かせるよう設定するために使用されます。   |
 |\<DefaultSpeaker\>   |文字列 & #x 2778 です。  ||HDMI インジェスト ソースから音声を再生するために使用されるデバイス。   |
@@ -132,6 +132,6 @@ XML 構成ファイルはデバイスの起動時に更新され、テーマ画�
 ## <a name="see-also"></a>関連項目
 
 
-[マイクロソフト チームの会議室を管理します。](skype-room-systems-v2.md)
+[Microsoft Teams Rooms を管理する](skype-room-systems-v2.md)
 
 [ファイル項目を構成します。](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

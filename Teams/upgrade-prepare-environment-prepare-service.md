@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2ed761f9bf716281a427012dce89162d1db68c06
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218717"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -62,7 +62,7 @@ ms.locfileid: "30463253"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>契約時チェックリストの完了を監督する責任者がされますか。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>契約時のチェックリストをダウンロードしてください。</li><li>契約時チェックリストの項目の手順に従って、組織の展開計画を使用します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>契約時のチェックリストをダウンロードしてください。</li><li>契約時チェックリストの項目の手順に従って、組織の展開計画を使用します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -14,11 +14,11 @@ ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: デバイス更新 Web サービスは、デバイス更新アクティビティが記録されるログ ファイルを自動的に作成します。 組織のデータ管理戦略の一環として、ログ データのキャッシュのサイズ、ログ ファイルのサイズ、またはパージされる前にログ ファイルが保持される期間の長さのしきい値を設定する可能性があります。 組織の要件に従って、これらの設定を変更することができます。 デバイス更新 Web サービスが自動的にログ ファイルを削除しないようにした場合は、ログ ファイルを必要に応じて手動で削除する必要があります。 ログ設定はグローバルに、またはサイトごとに変更できます。
 ms.openlocfilehash: 68e5e7d569f3a0436f80bb081b0785e5278bcb0d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892393"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216012"
 ---
 # <a name="device-log-configuration"></a>デバイス ログの構成
 

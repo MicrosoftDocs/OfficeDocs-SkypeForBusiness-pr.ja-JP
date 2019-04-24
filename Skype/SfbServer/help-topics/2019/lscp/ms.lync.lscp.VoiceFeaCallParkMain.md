@@ -14,11 +14,11 @@ ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 呼び出しを保持するとときに、転送されます一時的な番号に呼び出しが他のユーザーには、それを取得するか、タイムアウトするまでに保持されます。停止の呼び出し用に予約は内線番号の範囲を持つテーブルを構成する必要があります。 これらの内線番号は、仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要があります。 コール パーク アプリケーションを実行する各プールには、拡張機能の 1 つまたは複数の範囲を持つことができます。 これらの範囲は、展開全体でグローバルに一意である必要があります。
 ms.openlocfilehash: f23ec10607c8cd1f6ec15dca3f9e3b99666abf1a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221582"
 ---
 # <a name="call-park"></a>コール パーク
 

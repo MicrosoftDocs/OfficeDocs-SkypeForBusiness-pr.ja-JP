@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 プールのユーザーを移動した後 Skype は、応答グループを移行できます。 移行する応答グループには、エージェント グループ、キュー、ワークフロー、オーディオのファイルをコピーし、ビジネス サーバー 2019 プールの Skype にレガシー環境からの応答のグループの連絡先オブジェクトを移動が含まれています。 従来の応答グループを移行した後、応答グループへの呼び出しは、プールのビジネス サーバー 2019 Skype で応答グループ アプリケーションによって処理されます。 応答グループへの呼び出しは、不要になったレガシ プールによって処理されます。
 ms.openlocfilehash: 17ba19be3b574436f3a175457264654d8c28ebd0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231652"
 ---
 # <a name="migrate-response-groups"></a>応答グループの移行
 

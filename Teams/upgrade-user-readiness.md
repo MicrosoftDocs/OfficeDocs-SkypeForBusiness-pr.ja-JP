@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3172d85065f72d16df800d77e196632181c7d7bd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218663"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -31,7 +31,7 @@ ms.locfileid: "30459709"
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-a-user-readiness-plan"></a>ユーザーの準備の計画を準備します。
+# <a name="prepare-a-user-readiness-plan"></a>ユーザーの研修計画を準備する
 
 最適なユーザーの対応計画には、どのようにするでしょうとの通信、訓練し、パイロット、オンボード、およびチームにアップグレードすると、ユーザーをサポートが組み込まれています。 [組織の評価を変更する準備](https://aka.ms/OrgReadiness)にお気づきのよう準備はニーズによって異なるものではありません。 ペルソナが定義されている cohorts に特化した新しいテクノロジーへの最適な receptiveness をことを確認して、トレーニング、広くは (ビジョンと値のメッセージングおよびユニバーサルのユース ケースを組み込む) メッセージングとメッセージの組み合わせを使用して、サポートして遅滞者にします。 個人用に設定されたこの計画より迅速に関連付けるチームは、お客様のニーズを理解することを実証しているときにユーザーを有効にすることによってユーザーの導入を容易にするために役立ちます。
 
@@ -40,14 +40,14 @@ ms.locfileid: "30459709"
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>容易にして、新しいソリューションのユーザーの採用を促進する準備計画を作成することができますでしょうか。</li><li>右の意識、トレーニング、およびサポート リソースを変更し、定義されているユーザーのペルソナを扱うユーザーの機能の連携をしていますか。</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>容易にして、新しいソリューションのユーザーの採用を促進する準備計画を作成することができますでしょうか。</li><li>右の意識、トレーニング、およびサポート リソースを変更し、定義されているユーザーのペルソナを扱うユーザーの機能の連携をしていますか。</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>準備計画のアイデアを生成するのにには、以下のリストを使用します。 最も関連するアクティビティを選択-独自の追加または、組織用に最適化された対応計画を設計します。 最大の結果の一般公開用の組織全体) と (遅滞者または特定のペルソナ) の対象となるキャンペーンの組み合わせを使用することを忘れないでください。</li></ul>|
 
 <div class="mx-tableFixed">
 <table>
 <tbody>
 <tr><th>どのような通信チャネルを活用する、でしょうか。</th><th>トレーニング チャンネルを活用するでしょうか。</th><th>チャネルにどのようなサポートを使用するか。</th></tr>
-<tr><td><ul><li>Email<br><strong>ヒント:</strong>サンプル、パイロット、共存を使用し、e メール キャンペーンをカスタマイズするのには電子メールをアップグレードします。</li><li>ポスターやデジタル ・ サイネージ</li><li>イベントを起動します。</li><li>部署の責任者</li><li>チャンピオン</li><li>チーム/チャンネル</li><li>Gamification</li></ul></td><td><ul><li>マイクロソフト発行のオンライン記事およびビデオ</li><li>リソース:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">ビジネスの Skype からのチームに切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">チームのビデオ トレーニング</a></li></ul></li><li>製品内ヘルプ (ヘルプ)</li><li>社内トレーニング チーム</li><li>パートナー ・ トレーニング ・ チーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>外部委託のサポート デスク</li><li>セルフ サービス (イントラネット サイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">オンライン ヘルプと使い方</a></li><li>床師とチャンピオン</li><li>フィードバックのループ (アンケート、評価)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>ヒント:</strong>サンプル、パイロット、共存を使用し、e メール キャンペーンをカスタマイズするのには電子メールをアップグレードします。</li><li>ポスターやデジタル ・ サイネージ</li><li>イベントを起動します。</li><li>部署の責任者</li><li>チャンピオン</li><li>チーム/チャンネル</li><li>Gamification</li></ul></td><td><ul><li>マイクロソフト発行のオンライン記事およびビデオ</li><li>リソース:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Skype for Business から Teams に切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">チームのビデオ トレーニング</a></li></ul></li><li>製品内ヘルプ (ヘルプ)</li><li>社内トレーニング チーム</li><li>パートナー ・ トレーニング ・ チーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>外部委託のサポート デスク</li><li>セルフ サービス (イントラネット サイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">オンライン ヘルプと使い方</a></li><li>床師とチャンピオン</li><li>フィードバックのループ (アンケート、評価)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

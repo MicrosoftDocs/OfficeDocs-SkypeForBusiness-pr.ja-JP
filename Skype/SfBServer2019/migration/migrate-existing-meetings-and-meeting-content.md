@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ユーザー アカウントに移動した場合、Skype をビジネス サーバー 2019 サーバーに対して、次の情報がそのユーザー アカウントに移動します。
 ms.openlocfilehash: bf10fa6b4ad4d555ce80dee5ec4e4a6584020ac7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231659"
 ---
 # <a name="migrate-existing-meetings-and-meeting-content"></a>既存の会議および会議コンテンツの移行
 

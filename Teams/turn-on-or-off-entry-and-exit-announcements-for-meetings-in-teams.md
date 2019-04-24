@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams の会議の入退室通知をオンまたはオフにする方法について説明します。 '
 ms.openlocfilehash: d7e900a86a8292c56e9ce0d941506b8a894c8141
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228476"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Microsoft Teams で会議の入退室通知をオンまたはオフにする
 
@@ -56,7 +56,7 @@ Office 365 の電話会議をセットアップしている場合、電話会議
 
 Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     

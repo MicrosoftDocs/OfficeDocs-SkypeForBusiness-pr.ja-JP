@@ -14,11 +14,11 @@ ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'ドメインの準備手順 1 で実行のレプリケーションを確認する: スキーマの準備、Skype からビジネス サーバー管理シェル Lync Server 管理シェルのコマンドレットを実行する必要があります。 Windows PowerShell コマンドレットを実行するには、Domain Admins グループのメンバーと、準備したドメインのメンバーであるコンピューターにログオンします。 次の手順を実行します。'
 ms.openlocfilehash: 8adec80d9f0874e395150941cada02f58099bce9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216075"
 ---
 # <a name="verify-replication-in-the-domain"></a>ドメイン内のレプリケーションの確認
  

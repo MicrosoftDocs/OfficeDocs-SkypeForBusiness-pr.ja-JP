@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails ビューでは、ピア ツー ピア セッションでは、VoIP VoIP 電話をかける、2 パーティの IM セッション、またはその他の種類のセッションに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
 ms.openlocfilehash: c62f6e2c1bb505bf00d56898a562db2c00d298d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212818"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails ビュー
  

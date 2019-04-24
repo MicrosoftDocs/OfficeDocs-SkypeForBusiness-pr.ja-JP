@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
 description: Mcu のビューでは、会議セッションに参加した Mcu に関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
 ms.openlocfilehash: dd215d0d5d1dd500058dd8556785d4e3d1afc3b0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212967"
 ---
 # <a name="mcus-view"></a>Mcu ビュー
  

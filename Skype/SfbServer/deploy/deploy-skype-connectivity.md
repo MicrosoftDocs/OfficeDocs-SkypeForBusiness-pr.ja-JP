@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: は、Skype の消費者とビジネスのサーバーの Skype を接続する方法を説明します。 これは、Skype 接続とも呼ばれます。'
 ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219699"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>ビジネス サーバーの Skype の Skype の接続を展開します。
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
 description: 各レコードは、~ 9-1-1 の呼び出しと同様に、緊急の呼び出しで 1 つの場所の参照を表します。
 ms.openlocfilehash: 180a094ef10cc54b4fd65a30adb0909789afa3d6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213002"
 ---
 # <a name="locations-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での場所のテーブル
  

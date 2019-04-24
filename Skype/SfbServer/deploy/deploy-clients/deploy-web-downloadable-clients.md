@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'ビジネス Web アプリケーションの概要: が、Skype を導入し、Skype 会議アプリケーションがビジネスの Skype を使用します。'
 ms.openlocfilehash: c974ff9d202c56b0a32c9983706a60b5d73c4de6
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219438"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Skype for Business Server で Web ダウンロード可能なクライアントを展開する
 

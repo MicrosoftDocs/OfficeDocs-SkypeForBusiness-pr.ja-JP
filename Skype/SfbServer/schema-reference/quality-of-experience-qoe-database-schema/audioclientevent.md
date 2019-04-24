@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: 各レコードには、オーディオの呼び出しで 1 つのエンドポイントのクライアント イベントが含まれています。 通常、1 回の呼び出しでは、2 つのレコード用の呼び出し元と呼び出し先の 1 つがあります。
 ms.openlocfilehash: 307406446d71adf462cdc8a0345aa823129a8f99
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212321"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent テーブル
  

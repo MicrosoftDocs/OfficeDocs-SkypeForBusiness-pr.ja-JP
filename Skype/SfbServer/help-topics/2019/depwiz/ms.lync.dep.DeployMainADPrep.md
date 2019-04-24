@@ -14,11 +14,11 @@ ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype のビジネス サーバーのインストールを開始するには、Active Directory ドメイン サービスのスキーマ、フォレスト、およびサーバーとユーザーをホストするドメインを準備する必要があります。 ビジネス サーバーの展開ウィザードの Skype では、Active Directory スキーマを使用して、フォレストの準備をし、開始の準備に必要な手順を説明します。 Active Directory のレプリケーションが成功したことを確認した後、ユーザーまたはサーバーをホストする各ドメインを準備します。
 ms.openlocfilehash: be4d0b6dbd5ee7ff69bdf0a1e354ca5529fdef0b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216229"
 ---
 # <a name="prepare-active-directory"></a>Active Directory の準備
 

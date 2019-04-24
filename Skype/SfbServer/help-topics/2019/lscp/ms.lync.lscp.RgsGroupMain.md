@@ -14,11 +14,11 @@ ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループ エージェント グループ、キュー、およびワークフローで構成されます。 エージェント グループは、応答グループの呼び出しに応答するように指定されているユーザーのグループです。
 ms.openlocfilehash: 52032cd3c5141ce407809301db7cfc3a93557de5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215221"
 ---
 # <a name="response-groups-group"></a>応答グループ: グループ
 

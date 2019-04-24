@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この資料では、Azure のモニターを使用して、統合されたエンド ・ ツー ・ エンドの方法でマイクロソフト チームの会議室のデバイスの管理を展開する方法について説明します。
 ms.openlocfilehash: 599cbb7abce2b20dac27ffebacb041062a254905
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219520"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure のモニターを使用して Microsoft チームの会議室の管理を展開します。
 

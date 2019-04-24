@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 電話会議は Skype for Business Online の重要な部分です。電話会議により、ユーザーのグループがオンラインで一緒にスライドやビデオを表示したり、アプリケーションを共有したり、ファイルをやり取りしたり、連絡を取り合って共同作業することができるようになります。
 ms.openlocfilehash: 46e22191875709f13936db395563eb9f7326300f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237472"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>組織の電話会議ポリシーをセットアップする
 
@@ -144,7 +144,7 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)
 
 [ブロック ポイント ツー ポイントのファイルの転送](block-point-to-point-file-transfers.md)

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: このトピックでは、フロント エンド プールまたはサーバーを標準的な版フロント エンド サーバーを削除するプロセスについて説明します。 フロント エンド プールを削除すると、各フロント エンド サーバー プールの削除処理の一部として、プールに属しているを削除します。 標準 Edition フロント エンド サーバーを削除すると、トポロジ ビルダーで SQL ストアの定義を削除する必要があります。
 ms.openlocfilehash: 394edcd6f5c89478ed98abebe0be29720d009107
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231547"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>フロントエンド プールまたは Standard Edition サーバーの削除
 

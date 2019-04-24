@@ -1,5 +1,5 @@
 ---
-title: 追加して、場所データを更新します。
+title: 場所データの追加と更新
 author: tonysmit
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a84b022c7b5553a15ff8862a175ba5f856cdd149
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222318"
 ---
-<a name="adding-and-updating-locations-data"></a>追加して、場所データを更新します。
+<a name="adding-and-updating-locations-data"></a>場所データの追加と更新
 ============================
 
 場所は、オフィス、建物、または組織のサイトの物理的な場所を示すために、組織で使用されます。 場所のページで、テキスト ファイル (.csv または .tsv) を提供することで管理者は、物理的な場所と、関連付けられているネットワークのサブネットの一覧が含まれています。 このファイルは、レポートを生成するために分析機能を呼び出すと呼び出し品質のダッシュ ボードで使用されます。 お客様は、そのサブネットのマッピングをアップロードするときにこれらのサービスが提供するレポートには、場所の名前も、レポートを容易に理解し、潜在的な問題の修復に使用が含まれます。
@@ -57,6 +57,6 @@ ms.locfileid: "30494078"
 データ ファイルの書式設定の詳細については、[テナントのデータ ファイルの形式とデータ ファイルの構造を構築](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure)を参照してください。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話分析をセットアップする](set-up-call-analytics.md)

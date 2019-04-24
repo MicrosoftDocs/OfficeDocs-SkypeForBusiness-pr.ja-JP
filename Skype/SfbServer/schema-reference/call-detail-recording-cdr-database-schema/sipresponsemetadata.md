@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: cf723737-4a75-4352-829b-f4954aa59716
 description: SIPResponseMetaDataTable には、SIP 応答コードの分類とそのコードのそれぞれの定義の一覧が含まれています。 これらのコードは SIP デバイスに影響するイベントへの応答として生成され、SIP 通信セッションです。などの SIP デバイスが、要求を行ったが、その要求を尊重する、サーバーが拒否した場合に、403 応答コードが生成されます。
 ms.openlocfilehash: 7b60ffff90434c341fcf15fb75ddc93ac9f26201
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212797"
 ---
 # <a name="sipresponsemetadata-table"></a>SIPResponseMetaData テーブル
  

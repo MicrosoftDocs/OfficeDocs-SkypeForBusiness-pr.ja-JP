@@ -14,11 +14,11 @@ ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: 7d187827b7ccf3ca133b30aceed17331cadb4f60
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221216"
 ---
 # <a name="voice-route"></a>音声ルート
 

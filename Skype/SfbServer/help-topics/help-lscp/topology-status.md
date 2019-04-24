@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: '[トポロジ]: [状態] ページには、Skype for Business トポロジ内のサーバーの状態が表示されます。'
 ms.openlocfilehash: 9e448dd4916671be04aa02b66f37a58d8735f962
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220022"
 ---
 # <a name="topology-status"></a>トポロジ: ステータス
 

@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: この記事では、Skype for Business Online および ExpressRoute の核となるコール フローの原則について説明し、これらのサービスを正しく理解し計画できるよう詳細な例をいくつか示します。
 ms.openlocfilehash: 2406badc671fec8ede36039ebf230115a5920e97
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213025"
 ---
 # <a name="call-flow-using-expressroute"></a>ExpressRoute を使用したコール フロー
 
@@ -231,8 +231,8 @@ Cloud Connector に接続するユーザーはすべて自宅オンラインで�
 |PSTN 通話  <br/> |Cloud Connector エディションを使用したネットワーク上のオンライン ユーザー。  <br/> |ローカル  <br/> |ローカル  <br/> |[Skype for Business Cloud Connector エディションを使用した PSTN 通話](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |PSTN 通話  <br/> |Cloud Connector エディションを使用したインターネットを使用したオンライン ユーザー。  <br/> |インターネット  <br/> |インターネット  <br/> |[Office 365 を使用して、オンプレミスのエッジ サーバーには、会議がホストされている](call-flow-using-expressroute.md#bk_Figure5)し、 [Skype ビジネス クラウド コネクタのエディションを使用して PSTN の呼び出し](call-flow-using-expressroute.md#bk_Figure6)の組み合わせ。  <br/> |インターネット ユーザーは Cloud Connector に含まれているエッジサーバー経由で接続し、Cloud Connector は PSTN ネットワークに接続します。  <br/> |
 
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>関連トピック
 
-[ExpressRoute のドキュメント](https://go.microsoft.com/fwlink/?LinkId=690285)
+[ExpressRoute のマニュアル](https://go.microsoft.com/fwlink/?LinkId=690285)
 
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: ビジネス サーバーは、DFS を使用して Skype でファイル共有の可用性を確認する方法について説明します。
 ms.openlocfilehash: 0b5d2f577775635b95add15dd7b7576ca24c883f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214069"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Skype で高可用性をビジネス サーバーの共有ファイル
  

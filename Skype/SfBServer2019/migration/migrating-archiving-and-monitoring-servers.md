@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: レガシ環境でのアーカイブ サーバーと監視サーバーを展開した場合、フロント エンド プールを移行した後、サーバー 2019 のビジネス環境について、Skype でこれらのサーバーを展開できます。 ただし、アーカイブおよび監視機能は、組織にとって重要な場合は、アーカイブ、および機能は、移行プロセス中に使用できるように、移行する前に、Skype をビジネス サーバー 2019 パイロット プールの監視を追加します。
 ms.openlocfilehash: 24dc3e3007fd9a58c23f9c15a31cccc766d45e83
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231645"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>アーカイブおよび監視サーバーを移行します。
 

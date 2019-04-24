@@ -14,11 +14,11 @@ ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: ブロック、警告メッセージを送信、または (可能) にする (ブロック、または警告メッセージを送信) をオンまたはオフにできるようにするハイパーリンクの種類を選択するのには、[ハイパーリンク プレフィックスの選択] ダイアログ ボックスを使用して、下にあるカテゴリの中から、拡張子のチェック ボックスハイパーリンクのプレフィックスです。 矢印をクリックして、カテゴリを展開し、すべてのカテゴリのハイパーリンクのプレフィックスを表示します。 すべてのカテゴリのプレフィックスのハイパーリンクを選択する場合は、カテゴリ名を選択します。
 ms.openlocfilehash: 59e5c5c4b5dd84ce12ffc7cf52717cdd5c6cc3cb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215557"
 ---
 # <a name="select-hyperlink-prefix"></a>ハイパーリンクのプレフィックスの選択
  

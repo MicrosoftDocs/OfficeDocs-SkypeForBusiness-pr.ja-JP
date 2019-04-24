@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'Skype オンライン ビジネスのサービス計画にはない有効なエラーの後にユーザーの有効なサービスの計画を割り当てる場所を参照してください。 '
 ms.openlocfilehash: a6e42e26b9a0257005d735b0e5cda13af6f11b67
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237195"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>オンラインのビジネスのサービス プランのユーザーの Skype が正しくありません。
 
@@ -33,7 +33,7 @@ ms.locfileid: "30888022"
   
 **Office 365 管理センター**を参照して > このユーザーに**アクティブなユーザー**および割り当ての有効なサービスを計画します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

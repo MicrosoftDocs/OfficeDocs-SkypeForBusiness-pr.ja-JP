@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: 一時音声ルーティング テスト_ケースを保存するのには、[音声ルーティング テスト_ケース情報の保存] ダイアログ ボックスを使用できます。 [音声ルーティング テスト_ケース情報を保存、名前でこのテスト_ケースを指定し、[OK] をクリックする名前を入力します。
 ms.openlocfilehash: 3ec9ed0a878f6d6482d2756d929221eb26dccb92
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220243"
 ---
 # <a name="save-voice-routing-test-case-information"></a>音声ルーティングのテスト ケース情報の保存
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Cloud Connector エディションで複数の PSTN サイトを展開する方法について説明します。
 ms.openlocfilehash: 194eaf0b68489b37a5ab1fc2d5d501177edd0b35
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227902"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Cloud Connector でマルチサイトを展開する
  
@@ -77,7 +77,7 @@ ExternalMRPublicIPs=104.42.226.134
 
 次の表に、HA 対応の単一サイトとマルチサイト展開の違いのリストを示します。
   
-|**[カテゴリ]**|**項目**|**HA 対応の単一サイト**|**マルチサイト**|
+|**カテゴリ**|**項目**|**HA 対応の単一サイト**|**マルチサイト**|
 |:-----|:-----|:-----|:-----|
 |構成  <br/> |アプライアンスのホスト名 <br/> |複数のアプライアンス全体にわたって**異なる** <br/> |複数の PSTN サイト全体にわたって**異なる** <br/> |
 |セットアップ  <br/> |共有フォルダー  <br/> |アプライアンスの間で**同一**の共有フォルダーが必要です。 <br/> |複数のアプライアンス全体にわたって**異なる**共有フォルダーが必要 <br/> |

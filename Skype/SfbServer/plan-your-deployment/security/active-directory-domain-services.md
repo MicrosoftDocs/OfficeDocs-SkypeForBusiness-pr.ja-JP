@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory ドメイン サービスは、ディレクトリ サービスでは、Windows Server 2003、Windows Server 2008、Windows Server 2012 では、Windows Server 2012 R2 のネットワークとして機能します。 Active Directory ドメイン サービスは、Skype ビジネス サーバーのセキュリティ インフラストラクチャを構築する基盤としても機能します。 このセクションの目的は、IM、Web 会議、メディア、および音声の信頼できる環境を作成する、Skype のビジネス サーバーが Active Directory ドメイン サービスを使用する方法について説明します。 Active Directory ドメイン サービスのお客様の環境を準備する方法の詳細についてを参照してくださいインストール Skype ビジネス サーバーの展開に関するドキュメント。 Windows Server ネットワークで Active Directory ドメイン サービスの役割についての詳細は、使用しているオペレーティング システムのバージョンのドキュメントを参照してください。
 ms.openlocfilehash: 1664f3b354078c79429b20e7654b363ce9fccb7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892386"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213663"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Skype ビジネス サーバーの active Directory ドメイン サービス
  

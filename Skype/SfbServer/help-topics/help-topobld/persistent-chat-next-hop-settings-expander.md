@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: 永続的なチャットの次ホップ プールを構成するには、フロント エンド サーバーまたはフロント エンド プールをリストから選択します。
 ms.openlocfilehash: 9aebee08f1b8004df096e21a65bb3639ccfcee08
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219297"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>常設チャットの次ホップ設定エキスパンダー
  

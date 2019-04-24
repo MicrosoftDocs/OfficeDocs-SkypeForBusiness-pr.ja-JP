@@ -14,11 +14,11 @@ ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: コマンドの実行中のウィンドウの [概要] パネルには、ビジネスのサーバーの役割を持つサーバーを展開することで Skype のサービスを開始するに発行されたタスクのステータスが表示されます。
 ms.openlocfilehash: db2e0282e15b1995aa6b83bcfdd4ecbecd922207
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215956"
 ---
 # <a name="start-services-invoke"></a>サービスの開始 (起動)
  

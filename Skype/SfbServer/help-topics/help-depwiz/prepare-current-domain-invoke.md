@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 description: 'コマンドの実行] ページでは、実行中にタスクの概要が表示されます。 サマリー画面を確認し、タスクが成功したことと、エラーがないかどうかを確認します。 予想されることを確認する警告を確認します。 要約のウィンドウでは、次タスクの進捗状況が表示されます: 完了しました。 」ドロップ ダウン リストで、[ログ ファイルを準備するドメインが表示されます。 そうでない場合は、ログ ファイルを選択し、詳細なアクションとタスクの結果を確認するのにはログの表示] をクリックします。 ドメインの準備を完了するには、[完了] をクリックします。'
 ms.openlocfilehash: 4260f9aeeefcfe14248ed4945d0f90b2bf4c7792
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234976"
 ---
 # <a name="prepare-current-domain-invoke"></a>現在のドメインの準備 (起動)
  

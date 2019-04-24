@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: '概要: は、Skype のビジネス サーバーの CDR 構成設定を削除する方法を説明します。'
 ms.openlocfilehash: 470aade77fce211ba771c628b913efa4376a4a6f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218960"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>CDR 構成設定の Skype ビジネス サーバーの既存のコレクションを削除します。
  

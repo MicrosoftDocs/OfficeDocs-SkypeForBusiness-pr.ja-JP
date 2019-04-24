@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 の Skype に移行した後は、中央管理サーバーを移動する、Skype ビジネス 2019 フロント エンド サーバーまたはプールのレガシ サーバーを削除する前にする必要があります。
 ms.openlocfilehash: dc85548a3c81e55267bc0ed3a32e53860e4bce09
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231575"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype に従来のサーバーの全体管理サーバーを移動します。
 

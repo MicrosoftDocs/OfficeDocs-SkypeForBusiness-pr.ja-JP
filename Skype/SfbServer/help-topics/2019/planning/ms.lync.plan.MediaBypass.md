@@ -15,11 +15,11 @@ ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
 description: メディア バイ パスは、仲介サーバーを通過する信号の呼び出しを可能な限りメディア パスから仲介サーバーを削除することを意味します。 詳細については、ビジネスの Skype で使用しないメディアの計画を参照してください。
 ms.openlocfilehash: f0045ae5b4124d1135c6d3f771c501e3c35a1dd0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220963"
 ---
 # <a name="media-bypass-planning-tool"></a>Media Bypass (Planning Tool)
  

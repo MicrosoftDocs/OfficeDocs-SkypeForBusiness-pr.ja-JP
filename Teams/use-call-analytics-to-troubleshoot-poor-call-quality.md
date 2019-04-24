@@ -25,11 +25,11 @@ ms.custom:
 - Reporting
 description: ビジネス通話や会議のためのマイクロソフトのチームと Skype ユーザーの問題のトラブルシューティングを行うには、分析機能の呼び出しの詳細については、デバイス、ネットワーク、および接続を使用します。
 ms.openlocfilehash: e437401f759e92aa13c0d6680ef30eabd20ffc56
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218649"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低品質の通話をトラブルシューティングする
 
@@ -84,11 +84,11 @@ ms.locfileid: "30543184"
   
 |**問題**|**分野**|**説明**|
 |:-----|:-----|:-----|
-|呼び出しのセットアップ  <br/> |セッション  <br/> |20 ~ 29 の Ms の diag のエラーコードでは、呼び出しのセットアップが失敗したことを示します。 ユーザーは、通話や会議に参加できませんでした。  <br/> |
-|オーディオ ネットワークに不適切な呼び出しが分類されます。  <br/> |セッション  <br/> |パケット損失、ジッター、NMOS の低下、RTT、または非表示の文字列の比率) などのネットワーク品質の問題が発生しました。 不適切な呼び出しを分類するための条件の詳細については、この[マイクロソフトのブログ記事](https://go.microsoft.com/fwlink/p/?linkid=852133)を参照してください。  <br/> |
-|デバイスが機能しません。  <br/> |デバイス  <br/> | デバイスが正常に機能はありません。 比率が機能していないデバイスは次のとおりです。 <br/>  DeviceRenderNotFunctioningEventRatio _gt = 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio _gt = 0.005 <br/> |
+|呼び出しのセットアップ  <br/> |Session  <br/> |20 ~ 29 の Ms の diag のエラーコードでは、呼び出しのセットアップが失敗したことを示します。 ユーザーは、通話や会議に参加できませんでした。  <br/> |
+|オーディオ ネットワークに不適切な呼び出しが分類されます。  <br/> |Session  <br/> |パケット損失、ジッター、NMOS の低下、RTT、または非表示の文字列の比率) などのネットワーク品質の問題が発生しました。 不適切な呼び出しを分類するための条件の詳細については、この[マイクロソフトのブログ記事](https://go.microsoft.com/fwlink/p/?linkid=852133)を参照してください。  <br/> |
+|デバイスが機能しません。  <br/> |Device  <br/> | デバイスが正常に機能はありません。 比率が機能していないデバイスは次のとおりです。 <br/>  DeviceRenderNotFunctioningEventRatio _gt = 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio _gt = 0.005 <br/> |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [通話分析をセットアップする](set-up-call-analytics.md)
 
 [通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)

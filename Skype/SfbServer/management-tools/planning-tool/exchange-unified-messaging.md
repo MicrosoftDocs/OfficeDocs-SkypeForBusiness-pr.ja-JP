@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: ビジネス サーバー 2015 の Skype では、ボイス メッセージングと電子メールのメッセージを単一のメッセージング インフラストラクチャを組み合わせる場合の Exchange ユニファイド メッセージング (UM) との統合をサポートしています。
 ms.openlocfilehash: dd5697bcae4ec35c5e194d67b7226b3965832b73
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222654"
 ---
 # <a name="exchange-unified-messaging-planning-tool"></a>Exchange Unified Messaging (Planning Tool)
 

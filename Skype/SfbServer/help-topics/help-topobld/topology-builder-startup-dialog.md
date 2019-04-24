@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: プロパティと、Microsoft Lync Server 2013 展開の構成を構成するのにはトポロジ ビルダーを起動するとします。 、起動時には、トポロジ ビルダーは、トポロジ ドキュメントのソースで何ができるかを確認するダイアログを表示します。 3 つのオプションのいずれかを選択するとします。
 ms.openlocfilehash: df784ea76497cb038eb46f929844662066a298aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219107"
 ---
 # <a name="topology-builder-startup-dialog"></a>トポロジ ビルダー起動ダイアログ
 

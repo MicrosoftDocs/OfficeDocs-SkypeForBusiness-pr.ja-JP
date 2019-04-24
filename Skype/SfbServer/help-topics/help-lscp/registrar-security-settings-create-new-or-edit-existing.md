@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: 4a09f6da994c095f08d9ed51c3f42b238ad16276
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220229"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>レジストラーのセキュリティ設定: 新規作成または現在の形式のままで編集
 

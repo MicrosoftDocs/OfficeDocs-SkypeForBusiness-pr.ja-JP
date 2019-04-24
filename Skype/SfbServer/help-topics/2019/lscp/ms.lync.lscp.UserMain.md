@@ -14,11 +14,11 @@ ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype のビジネス サーバーのユーザーを構成するのには、検索クエリの結果を使用できます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 ユーザーの検索には、Lync Server コントロール パネルまたは Active Directory ユーザーおよびコンピューター スナップインを使用できます。
 ms.openlocfilehash: 9ffcb7c0046c80f684450f8d8c9e30814f8ef4ea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214969"
 ---
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
 

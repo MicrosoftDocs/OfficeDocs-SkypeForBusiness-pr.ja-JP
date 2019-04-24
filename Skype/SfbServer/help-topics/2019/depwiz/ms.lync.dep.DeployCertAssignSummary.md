@@ -14,11 +14,11 @@ ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 ROBOTS: NOINDEX, NOFOLLOW
 description: 証明書の割り当てが完了したら、前に割り当てられる証明書の詳細が一覧表示される証明書の割り当ての概要が表示されます。 サブジェクト名とサブジェクト代替名が正しいことを確認する情報を確認します。 証明書の概要を確認したら、次へをクリックします。
 ms.openlocfilehash: 4d86ce216ffcd611c303ec721be105c4144a9754
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216523"
 ---
 # <a name="certificate-assignment-summary"></a>証明書の割り当て (概要)
  

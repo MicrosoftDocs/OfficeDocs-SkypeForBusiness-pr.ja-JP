@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: 展開プロセスとビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの手順を実行します。
 ms.openlocfilehash: 96925df57a36373ee6f031b953f1933b3bac5681
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223042"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>ビジネス サーバーの Skype [お知らせ] アプリケーションの展開プロセス
  

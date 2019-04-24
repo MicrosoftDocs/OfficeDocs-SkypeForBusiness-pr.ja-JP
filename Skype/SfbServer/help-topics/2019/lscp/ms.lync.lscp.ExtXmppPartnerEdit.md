@@ -14,11 +14,11 @@ ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: 24f37f1ba3324a5b379fb2a12bd3dce1282b686c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215627"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP フェデレーション パートナー: 新規作成または現在の形式のままで編集
 

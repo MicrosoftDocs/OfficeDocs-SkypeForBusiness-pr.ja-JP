@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype ビジネス 2015年のストレスおよびパフォーマンス ツールについてよく寄せられる質問 (FAQ)、どのようなツールの構成がサポートされているを検索、ツールに関する問題のトラブルシューティング、およびストレスおよびパフォーマンス ツールを実行するときに表示される動作を明確にすることに便利です。.
 ms.openlocfilehash: f71ff02d1bcb6bb858aa4e00144e55bf43c4cbd5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236124"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>ビジネス 2015 のサーバの負荷とパフォーマンス ツールの Skype のよく寄せられる質問
  

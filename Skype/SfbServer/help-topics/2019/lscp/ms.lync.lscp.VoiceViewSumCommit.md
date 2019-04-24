@@ -14,11 +14,11 @@ ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[未確定の音声構成設定] ダイアログ ボックスを使用すると、加えた変更をすべて確認することができます。 ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。 終了したら、[コミット] をクリックしてそれらの変更をすべて確定するか、[キャンセル] をクリックして戻り、変更点を修正します。'
 ms.openlocfilehash: 19e60df24656ff9a65b6eb93af1a53929d912d0f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221110"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>コミットされていない音声構成設定: コミット
  

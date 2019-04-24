@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: 5b1464e905ee413bbf2d206881c6fdaf5e1ce644
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219959"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>変換ルール: 新規作成または現在の形式のままで編集
 

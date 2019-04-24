@@ -19,11 +19,11 @@ MS.collection:
 - M365-collaboration
 description: 組織内のユーザーのスケジュールを設定するチームの会議の設定を管理する方法について説明します。
 ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231895"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 

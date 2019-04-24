@@ -14,11 +14,11 @@ ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: 3aa77423a2b17aaaf0dd506f14703c9722c7c68d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215543"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>ファイル フィルター: 新規作成または現在の形式のままで編集
 

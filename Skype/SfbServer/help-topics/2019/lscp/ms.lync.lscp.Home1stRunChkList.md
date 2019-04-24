@@ -14,11 +14,11 @@ ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバー ・ コントロール ・ パネル、Skype のビジネス サーバー用の管理用の web ベースのユーザー インターフェイスは、Skype を開始します。 このコントロール パネルを使用して、以前のリリースの Microsoft 管理コンソールを使用して実行されていた種類の管理タスクを実行することができます。
 ms.openlocfilehash: fbd260679b7418535a7775b24b3ade98de790029
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215620"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルの最初の実行チェックリスト
 

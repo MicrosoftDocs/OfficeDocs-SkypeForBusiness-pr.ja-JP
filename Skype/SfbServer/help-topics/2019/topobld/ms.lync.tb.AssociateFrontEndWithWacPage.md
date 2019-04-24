@@ -14,11 +14,11 @@ ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。
 ms.openlocfilehash: 2f00851409411f7b2a0ddd01378943c5af4f46ee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220763"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>フロントエンドと Office Web Apps サーバーとの関連付けページ
 

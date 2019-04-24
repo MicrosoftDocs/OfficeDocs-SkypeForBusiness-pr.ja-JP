@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 description: '従来の電話サービスと緊急サービス (911) どのようにして呼び出しを実行する方法について説明します。 '
 ms.openlocfilehash: 8b67f1ef79d3c0782caa5316e88e5a1549e00b2e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244456"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>緊急通話の利用条件
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: 新しい永続的なチャットのサーバーまたは永続的なチャット プールを右クリックして、新しい永続的なチャットのプールを選択して、トポロジ ビルダーでの永続的なチャット サーバー プールの作成を開始するには
 ms.openlocfilehash: 72177ea9a070979c358afc7ebde2192773607f26
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219304"
 ---
 # <a name="persistent-chat-scope-node"></a>常設チャット スコープ ノード
  

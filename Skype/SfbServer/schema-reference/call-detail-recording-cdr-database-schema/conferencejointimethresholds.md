@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: ConferenceJoinTimeThresholds テーブルには、会議への参加時の概要レポートで使用される分類の境界が含まれています。 会議の参加時の要約レポートが正常には会議に参加するユーザーに必要な時間をまとめたもの平均とし、次のカテゴリのいずれかで、これらの時間の値が報告されます。
 ms.openlocfilehash: d6fbae0d077719782b3e93c0fe008ee35ce3370e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213292"
 ---
 # <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での ConferenceJoinTimeThresholds テーブル
  

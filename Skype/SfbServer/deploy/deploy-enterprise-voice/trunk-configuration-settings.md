@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: '概要: ビジネス サーバーのコントロール パネルの Skype を使用して、構成設定のトランクの新しいコレクションを作成する方法を説明します。'
 ms.openlocfilehash: 5f3fd6b704a99be13ab71153352b174f769a28cc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877686"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222703"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype でトランクの新しいコレクションの構成設定を作成します。 
 

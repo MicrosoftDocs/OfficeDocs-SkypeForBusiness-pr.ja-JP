@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: 復元機能では、レジストラー プールの高可用性と災害復旧を提供します。 プライマリのレジストラーでは、レジストラーは、障害が発生したレジストラーに引き継ぐことができますバックアップの障害が発生した場合は、バックアップ レジストラーを提供することにより、ユーザーがログオンし、通信を許可します。 可能性のある環境での機能の制限、プライマリ レジストラーによっては、システムが失敗しました。
 ms.openlocfilehash: afe640a5560c11f90381875aa67f5fe25c70044c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219156"
 ---
 # <a name="registrar-settings-expander"></a>レジストラー設定エキスパンダー
  

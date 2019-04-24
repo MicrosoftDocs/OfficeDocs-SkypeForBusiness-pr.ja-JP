@@ -21,11 +21,11 @@ metadata:
   appliesto:
   - Microsoft Teams
   ms.openlocfilehash: 441e1166547ac17842704df47d9e992d892de87f
-  ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+  ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/07/2019
-  ms.locfileid: "30462509"
+  ms.lasthandoff: 04/23/2019
+  ms.locfileid: "32231965"
 items:
 - durationInMinutes: 1
   content: >
@@ -86,7 +86,7 @@ items:
   content: "\nこの練習では、チームの会議のオーディオをテストする機会があります。\n各操作の実行方法については説明しませんが、いくつかのシナリオを試してみることをお勧めします。\n\n###<a name=\"requirements\"></a>要件\n-   Teams を使用するための適切なライセンスを備えた Office 365 テナント\n    -   テスト専用のテナントを使用することを強く推奨します。\n    -   テスト用のテナントがない場合は、[Office 365 Enterprise E5 Trial](https://go.microsoft.com/fwlink/p/?LinkID=698279) で試用テナントの利用を登録することができます。\n    -   実稼働環境ではいかなるテストも実行しないでください。 設定またはポリシーの変更により、すべてのユーザーに悪影響が及び、ユーザー エクスペリエンスにも影響が生じる可能性があります。\n-   2 つ以上のエンドポイント\n    -   エンドポイントは 2 台の PC でも構いませんが、携帯電話上でクライアントを使用することもできます。\n    -   会議にダイヤルインし、アウトするためにダイヤルする電話\n\n###<a name=\"suggested-scenarios-to-test\"></a>推奨されるテスト シナリオ\n-   オーディオ会議のユーザーを有効にします。\n-   ユーザーごとに別の会議ブリッジ番号を設定します。\n-   テナントのためには、既定の会議ブリッジ番号を変更します。\n-   会議ブリッジの番号 (別の言語) の設定を変更します。\n-   会議ブリッジの (会議の開始と終了の通知、暗証番号 (pin) の長さ、電子メール通知) のグローバル設定を変更します。\n-   電子メールをユーザーに送信されることを確認します。\n-   チーム ミーティングをスケジュールし、ミーティングの招待状を確認します。\n-   電話から会議に参加します。\n-   電話会議から発信します。\n-   ミュートし、携帯電話のミュートを解除する会議中にデュアル トーン多重周波数コントロールを使用します。\n"
 - title: 価値を創出.
   durationInMinutes: 1
-  content: "\nレポートの観点から見て 2 つの領域があります。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 のみ、さらに調査して理由を指定できます。\n    理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。 使用量のレポートの詳細については、「[管理センターの Office 365 レポート - Microsoft Teams ユーザー アクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (推定所要時間: 5 分) をご覧ください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   [自分のサービスを実施します。](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
+  content: "\nレポートの観点から見て 2 つの領域があります。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 のみ、さらに調査して理由を指定できます。\n    理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。 使用量のレポートの詳細については、「[管理センターの Office 365 レポート - Microsoft Teams ユーザー アクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (推定所要時間: 5 分) をご覧ください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   [サービスを運用する](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
 - title: 次のステップ
   durationInMinutes: 1
   content: >-

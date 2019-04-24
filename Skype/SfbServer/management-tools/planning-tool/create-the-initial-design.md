@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Skype のビジネス サーバー計画ツールのインストールが完了したら後、は、計画ツールを起動し、サーバー 2015 のビジネス ・ インフラストラクチャの提案された Skype の設計を開始する準備が整ったら。
 ms.openlocfilehash: 132db1bfacac5d5faec17c2edceb72fe7736f887
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217230"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の初期トポロジ設計の作成
 

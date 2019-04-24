@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: '概要: ビジネスのサーバーで Exchange 2013 または 2016 の Skype を統合するために計画するときにこのトピックを参照します。'
 ms.openlocfilehash: f2c76dd4708246f5eff124c7d04cff459531a24e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213964"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>オンプレミス ユニファイド メッセージングと Skype for Business を統合するための展開プロセスの概要
  

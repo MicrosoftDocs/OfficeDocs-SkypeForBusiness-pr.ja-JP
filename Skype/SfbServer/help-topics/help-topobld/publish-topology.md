@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
 description: 発行プロセスを開始するときは、公開トポロジ] ページが表示されます。 読み、続行する前に表示されるタスクが完了することを確認します。 続行する準備ができたら、次へをクリックします。 発行プロセスを閉じる必要がある場合、は、[キャンセル] をクリックします。
 ms.openlocfilehash: 4f781f355c9dabe4af2d4ce71a387e883934e67d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219186"
 ---
 # <a name="publish-topology"></a>トポロジの公開
  

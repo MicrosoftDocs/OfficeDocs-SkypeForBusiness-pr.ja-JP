@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: を準備してお客様の環境で TLS 1.0 および 1.1 を無効にするを実装します。'
 ms.openlocfilehash: dc835a68e47f9fac6036724d92ad336ead795e50
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214778"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype では、TLS 1.0 または 1.1 を無効にします。
 
@@ -66,7 +66,7 @@ TLS 1.0 と 1.1 を無効にするためのサポート Skype のビジネス �
 #### <a name="devices"></a>デバイス
 
 - Lync ルーム システム (別名 SRSv1)
-- マイクロソフトのチーム会議室
+- Microsoft Teams Rooms
 - Surface Hub
 - 2015 ベースのリカバリ性に優れたブランチ アプライアンス (SBA) またはリカバリ性に優れたブランチ サーバー (SBS)
 
