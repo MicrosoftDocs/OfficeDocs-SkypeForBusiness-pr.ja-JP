@@ -12,59 +12,59 @@ localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: Get-CcApplianceLogDirectory コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンスのログが保存されている現在のディレクトリを示します。
 ms.openlocfilehash: d1298454bb347356718fdf24d6761acfea1b71b1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233953"
 ---
-# <a name="get-ccappliancelogdirectory"></a><span data-ttu-id="cdf12-103">Get-CcApplianceLogDirectory</span><span class="sxs-lookup"><span data-stu-id="cdf12-103">Get-CcApplianceLogDirectory</span></span>
+# <a name="get-ccappliancelogdirectory"></a><span data-ttu-id="3745a-103">Get-CcApplianceLogDirectory</span><span class="sxs-lookup"><span data-stu-id="3745a-103">Get-CcApplianceLogDirectory</span></span>
  
-<span data-ttu-id="cdf12-104">Get-CcApplianceLogDirectory コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンスのログが保存されている現在のディレクトリを示します。</span><span class="sxs-lookup"><span data-stu-id="cdf12-104">The Get-CcApplianceLogDirectory cmdlet shows the current directory where logs for a Skype for Business Cloud Connector Edition appliance are stored.</span></span>
+<span data-ttu-id="3745a-104">Get-CcApplianceLogDirectory コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンスのログが保存されている現在のディレクトリを示します。</span><span class="sxs-lookup"><span data-stu-id="3745a-104">The Get-CcApplianceLogDirectory cmdlet shows the current directory where logs for a Skype for Business Cloud Connector Edition appliance are stored.</span></span>
   
-<span data-ttu-id="cdf12-105">このコマンドレットは Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。</span><span class="sxs-lookup"><span data-stu-id="cdf12-105">This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.</span></span>
-  
-```
-Get-CcApplianceLogDirectory
-```
-
-## <a name="parameters"></a><span data-ttu-id="cdf12-106">パラメーター</span><span class="sxs-lookup"><span data-stu-id="cdf12-106">Parameters</span></span>
-
-<span data-ttu-id="cdf12-107">なし</span><span class="sxs-lookup"><span data-stu-id="cdf12-107">None</span></span>
-  
-## <a name="examples"></a><span data-ttu-id="cdf12-108">例</span><span class="sxs-lookup"><span data-stu-id="cdf12-108">Examples</span></span>
-<span data-ttu-id="cdf12-109"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="cdf12-109"></span></span>
-
-### <a name="example-1"></a><span data-ttu-id="cdf12-110">例 1</span><span class="sxs-lookup"><span data-stu-id="cdf12-110">Example 1</span></span>
-
-<span data-ttu-id="cdf12-111">クラウド コネクタの現在のアプライアンスは、ログが保存されている現在のフォルダーを次の例に示します。</span><span class="sxs-lookup"><span data-stu-id="cdf12-111">The following example shows the current folder where logs for the current appliance of Cloud Connector are stored:</span></span>
+<span data-ttu-id="3745a-105">このコマンドレットは Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。</span><span class="sxs-lookup"><span data-stu-id="3745a-105">This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.</span></span>
   
 ```
 Get-CcApplianceLogDirectory
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="cdf12-112">解説</span><span class="sxs-lookup"><span data-stu-id="cdf12-112">Detailed Description</span></span>
-<span data-ttu-id="cdf12-113"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="cdf12-113"></span></span>
+## <a name="parameters"></a><span data-ttu-id="3745a-106">パラメーター</span><span class="sxs-lookup"><span data-stu-id="3745a-106">Parameters</span></span>
 
-<span data-ttu-id="cdf12-114">Get CcApplianceLogDirectory コマンドレットでは、コネクタのクラウド アプライアンスは、ログが保存されている現在のディレクトリを示しています。</span><span class="sxs-lookup"><span data-stu-id="cdf12-114">The Get-CcApplianceLogDirectory cmdlet shows the current directory where logs for a Cloud Connector appliance are stored.</span></span> <span data-ttu-id="cdf12-115">既定のフォルダーは、C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs。</span><span class="sxs-lookup"><span data-stu-id="cdf12-115">The default folder is C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs.</span></span> 
+<span data-ttu-id="3745a-107">なし</span><span class="sxs-lookup"><span data-stu-id="3745a-107">None</span></span>
   
-<span data-ttu-id="cdf12-116">このディレクトリは、Set-CcApplianceDirectory コマンドレットを使用して変更できます。</span><span class="sxs-lookup"><span data-stu-id="cdf12-116">You can change the directory by using the Set-CcApplianceDirectory cmdlet.</span></span> 
-  
-<span data-ttu-id="cdf12-117">メモ: アプライアンス ディレクトリを変更することなく、ログ フォルダーの場所のみを変更するコマンドレットはありません。</span><span class="sxs-lookup"><span data-stu-id="cdf12-117">Note: There is no cmdlet that changes only the log folder location without changing the appliance directory.</span></span>
-  
-## <a name="input-types"></a><span data-ttu-id="cdf12-118">入力の種類</span><span class="sxs-lookup"><span data-stu-id="cdf12-118">Input Types</span></span>
-<span data-ttu-id="cdf12-119"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="cdf12-119"></span></span>
+## <a name="examples"></a><span data-ttu-id="3745a-108">例</span><span class="sxs-lookup"><span data-stu-id="3745a-108">Examples</span></span>
+<span data-ttu-id="3745a-109"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="3745a-109"></span></span>
 
-<span data-ttu-id="cdf12-p102">なし。Get-CcApplianceLogDirectory コマンドレットはパイプライン入力を受け入れません。</span><span class="sxs-lookup"><span data-stu-id="cdf12-p102">None. The Get-CcApplianceLogDirectory cmdlet does not accept pipelined input.</span></span>
-  
-## <a name="return-types"></a><span data-ttu-id="cdf12-122">戻り値の種類</span><span class="sxs-lookup"><span data-stu-id="cdf12-122">Return Types</span></span>
-<span data-ttu-id="cdf12-123"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="cdf12-123"></span></span>
+### <a name="example-1"></a><span data-ttu-id="3745a-110">例 1</span><span class="sxs-lookup"><span data-stu-id="3745a-110">Example 1</span></span>
 
-<span data-ttu-id="cdf12-124">このコマンドはファイル パスを返します。</span><span class="sxs-lookup"><span data-stu-id="cdf12-124">This command returns a file path.</span></span>
+<span data-ttu-id="3745a-111">クラウド コネクタの現在のアプライアンスは、ログが保存されている現在のフォルダーを次の例に示します。</span><span class="sxs-lookup"><span data-stu-id="3745a-111">The following example shows the current folder where logs for the current appliance of Cloud Connector are stored:</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="cdf12-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="cdf12-125">See also</span></span>
-<span data-ttu-id="cdf12-126"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="cdf12-126"></span></span>
+```
+Get-CcApplianceLogDirectory
+```
 
-[<span data-ttu-id="cdf12-127">Set-CcApplianceDirectory</span><span class="sxs-lookup"><span data-stu-id="cdf12-127">Set-CcApplianceDirectory</span></span>](set-ccappliancedirectory.md)
+## <a name="detailed-description"></a><span data-ttu-id="3745a-112">解説</span><span class="sxs-lookup"><span data-stu-id="3745a-112">Detailed Description</span></span>
+<span data-ttu-id="3745a-113"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="3745a-113"></span></span>
+
+<span data-ttu-id="3745a-114">Get CcApplianceLogDirectory コマンドレットでは、コネクタのクラウド アプライアンスは、ログが保存されている現在のディレクトリを示しています。</span><span class="sxs-lookup"><span data-stu-id="3745a-114">The Get-CcApplianceLogDirectory cmdlet shows the current directory where logs for a Cloud Connector appliance are stored.</span></span> <span data-ttu-id="3745a-115">既定のフォルダーは、C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs。</span><span class="sxs-lookup"><span data-stu-id="3745a-115">The default folder is C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs.</span></span> 
+  
+<span data-ttu-id="3745a-116">このディレクトリは、Set-CcApplianceDirectory コマンドレットを使用して変更できます。</span><span class="sxs-lookup"><span data-stu-id="3745a-116">You can change the directory by using the Set-CcApplianceDirectory cmdlet.</span></span> 
+  
+<span data-ttu-id="3745a-117">メモ: アプライアンス ディレクトリを変更することなく、ログ フォルダーの場所のみを変更するコマンドレットはありません。</span><span class="sxs-lookup"><span data-stu-id="3745a-117">Note: There is no cmdlet that changes only the log folder location without changing the appliance directory.</span></span>
+  
+## <a name="input-types"></a><span data-ttu-id="3745a-118">入力の種類</span><span class="sxs-lookup"><span data-stu-id="3745a-118">Input Types</span></span>
+<span data-ttu-id="3745a-119"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="3745a-119"></span></span>
+
+<span data-ttu-id="3745a-p102">なし。Get-CcApplianceLogDirectory コマンドレットはパイプライン入力を受け入れません。</span><span class="sxs-lookup"><span data-stu-id="3745a-p102">None. The Get-CcApplianceLogDirectory cmdlet does not accept pipelined input.</span></span>
+  
+## <a name="return-types"></a><span data-ttu-id="3745a-122">戻り値の種類</span><span class="sxs-lookup"><span data-stu-id="3745a-122">Return Types</span></span>
+<span data-ttu-id="3745a-123"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="3745a-123"></span></span>
+
+<span data-ttu-id="3745a-124">このコマンドはファイル パスを返します。</span><span class="sxs-lookup"><span data-stu-id="3745a-124">This command returns a file path.</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="3745a-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="3745a-125">See also</span></span>
+<span data-ttu-id="3745a-126"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="3745a-126"></span></span>
+
+[<span data-ttu-id="3745a-127">Set-CcApplianceDirectory</span><span class="sxs-lookup"><span data-stu-id="3745a-127">Set-CcApplianceDirectory</span></span>](set-ccappliancedirectory.md)
   
 
