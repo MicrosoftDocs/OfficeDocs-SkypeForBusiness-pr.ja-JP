@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '概要: は、Skype のビジネス サーバーの DNS レコードを実装する前にこのトピックの簡単な URL の注意事項を確認します。'
 ms.openlocfilehash: 1fffb1303381797a800a235d3965fe387e4d8eb2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878551"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213803"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Skype で簡単な Url のビジネス サーバー用の DNS の要件
 

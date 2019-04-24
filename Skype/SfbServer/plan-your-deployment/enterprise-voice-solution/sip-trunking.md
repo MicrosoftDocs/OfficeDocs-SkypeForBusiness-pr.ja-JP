@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: ビジネス サーバーのエンタープライズ VoIP の Skype での SIP トランクに関する説明します。
 ms.openlocfilehash: 98b107d02d223ea8bad555c5aa0802f8f7581807
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206833"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Skype ビジネス サーバーでの SIP トランク
 

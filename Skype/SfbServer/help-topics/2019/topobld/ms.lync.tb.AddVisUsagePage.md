@@ -14,11 +14,11 @@ ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
 ms.openlocfilehash: 7eea715fa17850515e24e11fcd6cf3768d887aa7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201928"
 ---
 # <a name="add-vis-usage"></a>VIS 使用法の追加
  

@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: Microsoft Teams での電話会議番号に対応する電話会議の自動案内の言語を選択する方法を確認します。
 ms.openlocfilehash: ce0462dd1e855402aee424a5f677e37efba1a7e3
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869815"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204889"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議の自動案内の言語を設定する
 

@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
 ms.openlocfilehash: 4e9fd0d3fa9fabc1f9b2176a4dc2b7ac59206352
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211709"
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>緊急の場所、住所、および通話のルーティングとは
 
@@ -69,7 +69,7 @@ Office 365 のプランの呼び出しを構成する場合は、電話番号を
 
     
 ## <a name="related-topics"></a>関連トピック
-[住所検証について](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
+[住所検証とは何ですか?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
 [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

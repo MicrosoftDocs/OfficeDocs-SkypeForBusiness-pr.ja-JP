@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: 展開して、ビジネス サーバー、Skype で運用する前にスキーマを拡張することによって Active Directory ドメイン サービスを準備する必要があります。 スキーマの拡張機能は、Skype でビジネスのサーバーのために必要な属性とクラスを追加します。
 ms.openlocfilehash: ba76f57197e9cd812163c8abac5f51005933eace
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213355"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Skype ビジネス サーバーのスキーマの変更
  

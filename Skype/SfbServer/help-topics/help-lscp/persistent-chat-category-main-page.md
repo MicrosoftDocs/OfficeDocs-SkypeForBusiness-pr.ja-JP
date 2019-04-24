@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: '[常設チャット] ページの [カテゴリ] セクションを使用してカテゴリを構成できます。 永続的なチャット ルームのカテゴリは、チャット ルームを整理するための論理構造です。 カテゴリは、チャット ルームの作成やチャット ルームへの参加を許可するユーザーとユーザー グループを制御するアクセス制御リスト (ACL) の既定のセットを定義します。 カテゴリを使用して、組織内の異なる部門間に倫理的境界を設置できます。'
 ms.openlocfilehash: b54a8d5299049f33bc366cde0988bcb92be5640e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200689"
 ---
 # <a name="persistent-chat-category-main-page"></a>常設チャット カテゴリ メイン ページ
  

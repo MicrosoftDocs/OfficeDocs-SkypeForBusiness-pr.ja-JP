@@ -14,11 +14,11 @@ description: 展開するための実用的なガイドでは、マイクロソ�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198434"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
 

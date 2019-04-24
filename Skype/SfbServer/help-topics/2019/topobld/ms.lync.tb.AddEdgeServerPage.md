@@ -14,11 +14,11 @@ ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ設計にエッジ サーバーまたはエッジ サーバー プールを含めるには、エッジ サーバーまたはエッジ サーバー プールを展開するサーバーの完全修飾ドメイン名 (FQDN) を指定する必要があります。 エッジ サーバーまたはエッジ サーバー プールを含むトポロジを公開し、Skype をビジネスのサーバーのインストール、する前に作成した外部ユーザー アクセスを展開するためのすべての前提条件です。 これらの前提条件の詳細については、「展開」のドキュメントの「Preparing for Installation of Servers in the Perimeter Network」を参照してください。
 ms.openlocfilehash: e54deff6c6dcf371ba86f3fbfa1b974489cb3f11
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202118"
 ---
 # <a name="add-edge-server"></a>エッジ サーバーの追加
 

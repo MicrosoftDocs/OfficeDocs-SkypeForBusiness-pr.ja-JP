@@ -20,11 +20,11 @@ ms.custom:
 - Phone System
 description: 共有行の外観は、回答や、ユーザーに代わって呼び出しを処理する代理人を選択するユーザーをことができます。
 ms.openlocfilehash: d16fe4b3241e814609999d8068ee47743bfca516
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993541"
+ms.locfileid: "32204492"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams での回線共有機能
 

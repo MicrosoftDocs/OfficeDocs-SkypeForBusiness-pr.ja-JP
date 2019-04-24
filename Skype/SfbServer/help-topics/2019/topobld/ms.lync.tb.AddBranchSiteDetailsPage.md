@@ -14,11 +14,11 @@ ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: サイトのサイト詳細を指定するには、次の操作を実行します。
 ms.openlocfilehash: a9ba31fcbe5a8bfedfc722e6d822874b46336056
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202237"
 ---
 # <a name="add-branch-site-details"></a>ブランチ サイトの詳細の追加
 

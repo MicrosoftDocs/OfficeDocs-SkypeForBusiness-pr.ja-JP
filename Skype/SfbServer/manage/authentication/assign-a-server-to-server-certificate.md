@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: '概要: は、Skype のビジネス サーバーのサーバーのサーバー認証証明書を割り当てます。'
 ms.openlocfilehash: 8d66023a08e3b7e64d7422700e2cac32821e1ee3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211892"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Skype をビジネスのサーバーのサーバーのサーバー認証証明書を割り当てる
 **の概要:** Skype のビジネス サーバーのサーバーのサーバー認証証明書を割り当てます。

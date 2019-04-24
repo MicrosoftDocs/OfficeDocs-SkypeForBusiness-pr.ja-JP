@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Skype で中央サイトとブランチ サイトの両方で、ビジネス サーバーのエンタープライズ VoIP の音声の復元機能をサポートする方法について説明します。 リカバリ性に優れたブランチ アプライアンスまたはブランチのリカバリ性に優れたサーバーを展開するブランチ サイトのオプションが含まれます。
 ms.openlocfilehash: 8b6b414cc1667c0764ac8878ea0f06da7468e781
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207175"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
 

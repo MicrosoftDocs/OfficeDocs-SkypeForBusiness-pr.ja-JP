@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype ビジネス サーバーは、クライアントとサーバー間で、別のサーバーの役割間の信頼のチェーンを確立するためにサーバー認証の証明書に依存します。 Windows Server 2012 R2、Windows Server 2012 の、Windows Server 2008 R2、および Windows Server 2008 公開キー基盤 (PKI) を確立して、この信頼チェーンを検証するためのインフラストラクチャを提供します。
 ms.openlocfilehash: e8e1230074dff58c46880b759038834a8d16c444
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213600"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Skype ビジネス サーバーのための公開キー基盤
  

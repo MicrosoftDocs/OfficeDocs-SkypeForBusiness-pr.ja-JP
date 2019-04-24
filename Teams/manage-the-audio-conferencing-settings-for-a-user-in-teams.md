@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Office 365 の管理者は、組織内の個別のユーザーについて、プロバイダー、既定の有料電話番号または無料電話番号、会議 ID、または PIN などの Microsoft Teams の電話会議の設定を編集することができます。 '
 ms.openlocfilehash: 55d9b326b98dd24cb98262b7104e7de1361a6e8e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202701"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの電話会議の設定を管理する
 
@@ -42,7 +42,7 @@ Office 365 管理者としてSkype for Business Onlineの電話会議の設定 �
 
 |**設定**|**説明**|
 |:-----|:-----|
-|**音声会議**|音声会議をオンまたはオフ、ユーザーをクリックして**音声会議**の横にあるし、[**電話会議**] ウィンドウで**編集**を、**オーディオ会議**で、オフを切り替えます。|
+|**電話会議**|音声会議をオンまたはオフ、ユーザーをクリックして**音声会議**の横にあるし、[**電話会議**] ウィンドウで**編集**を、**オーディオ会議**で、オフを切り替えます。|
 |**会議の情報を電子メールで送信します。**  |ユーザーに電子メールで会議 ID と電話番号とをすぐに送信する場合にのみ、このリンクをクリックします。 (PINはこのメールは含まれません。) [ユーザーに電子メールで電話会議の情報を送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)を参照してください。  |
 |**会議 ID**  |ユーザーの会議 ID をリセットする必要がある場合は、**会議 ID のリセット**をクリックします。 詳細については、 [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)を参照してください。  |
 |**暗証番号 (PIN)** |ユーザーの PIN をリセットする必要がある場合は、 **PIN のリセット**をクリックします。 詳細については、 [電話会議の PIN のリセット](reset-the-audio-conferencing-pin-in-teams.md)を参照してください。 |
@@ -59,6 +59,6 @@ Office 365 管理者としてSkype for Business Onlineの電話会議の設定 �
 
 ## <a name="related-topics"></a>関連トピック
 
-[組織のオーディオ会議設定を管理します。](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+[組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
 [電話会議に関するよくある質問](audio-conferencing-common-questions.md)

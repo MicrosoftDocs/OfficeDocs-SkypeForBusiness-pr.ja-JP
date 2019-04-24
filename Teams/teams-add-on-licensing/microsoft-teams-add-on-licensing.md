@@ -20,11 +20,11 @@ ms.custom:
 - LIL_Placement
 description: についてはアドオンのライセンスに関する機能を各ライセンス、それらをお使いの製品の購入方法と、既存のキャリアを使用する方法と表示されます。 Office 365 では、通信のクレジットの価格設定と計画の詳細についての情報を入手でき、通話プランします。
 ms.openlocfilehash: 497881fc073297df36f0b26280e51694c69babcf
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204563"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams アドオン ライセンス
 
@@ -55,7 +55,7 @@ ms.locfileid: "31013067"
 |**会議へのダイヤルイン アクセスのための無料電話番号や、世界中の電話番号に発信して誰かを追加するために会議からダイヤルアウトする機能** <br/> |オーディオ会議を追加する場合は、 [コミュニケーション クレジットを設定](../set-up-communications-credits-for-your-organization.md)することをおすすめします。 <br/> |
 |**電話システム** <br/> |PBX は、企業内電話システムです。 Office 365 の電話システムは、ホストされている電話サービスです。 革新的な従来の PBX 機能を使用することがなく、複雑で高価な機器です。 [Office 365 の電話システムで何が得られます](../here-s-what-you-get-with-phone-system.md)。  <br/> を検索する方法をはるかにコストがある場合は、[電話システム](https://products.office.com/microsoft-teams/voice-calling)を参照してください。  <br/> |
 |**通話プラン** <br/> |他のチームのユーザーへの呼び出しを自由がする場合は、お客様のビジネスの電話番号を呼び出すことができることをユーザー[を呼び出すことを計画](../calling-plans-for-office-365.md)します。 Office 365 には国内通話プランと、国内および国際通話プランがあります。  <br/> 探している方法より、コスト、[価格設定の計画を呼び出すこと](https://products.office.com/en-us/microsoft-teams/voice-calling)が表示されます。  <br/> |
-|**マイクロソフトのチーム会議室** <br/> |これはアドオンではありませんが、会議室にビデオ、音声、コンテンツの共有をもたらす機能です。 [マイクロソフト チームの会議室](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)を参照してください。  <br/> |
+|**Microsoft Teams ルーム** <br/> |これはアドオンではありませんが、会議室にビデオ、音声、コンテンツの共有をもたらす機能です。 [マイクロソフト チームの会議室](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)を参照してください。  <br/> |
 
 他のすべてのアドオン ・ オプションについて説明する必要がありますか。 [ビジネス製品 - 管理者ヘルプのサポートに問い合わせてください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
@@ -68,7 +68,7 @@ ms.locfileid: "31013067"
 - [Office 365 エンタープライズ E1 または E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (電話会議なし)](office-365-enterprise-e5-without-audio-conferencing.md)
-- [マイクロソフトのチーム会議室](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Microsoft Teams ルーム](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [政府機関、教育機関、非営利団体](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>価格の確認とアドオン ライセンスの購入方法
@@ -91,11 +91,11 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 <!---
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 --->
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [チームを設定します](../microsoft-teams.md)
     
-- [クラウドのボイス メールの管理のヘルプを設定します](../set-up-phone-system-voicemail.md)
+- [クラウド ボイスメールのセットアップ - Admin ヘルプ](../set-up-phone-system-voicemail.md)
     
 - [Office 365 のプランを呼び出す](../calling-plans-for-office-365.md)と、[プランの呼び出しを設定します](../set-up-calling-plans.md)
     

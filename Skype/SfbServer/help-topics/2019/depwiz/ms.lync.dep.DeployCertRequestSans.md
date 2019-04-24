@@ -14,11 +14,11 @@ ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[追加のサブジェクト代替名の構成] を使用すると、証明書を完了して要求する前に、追加のサブジェクト代替名 (SAN) を証明書に追加できます。 SAN を追加するには、SAN の完全修飾ドメイン名 (FQDN) を入力して、[追加] をクリックします。 追加した SAN を削除する必要がある場合は、SAN エントリを強調表示して [削除] をクリックします。 追加したすべての SAN エントリを削除するには、[すべてクリア] をクリックします。'
 ms.openlocfilehash: d7ab2e2c1fe427e437ba35ee6ef2e46641d22faf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216355"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>証明書要求 (追加のサブジェクト代替名)
  

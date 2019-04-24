@@ -14,11 +14,11 @@ ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
 ROBOTS: NOINDEX, NOFOLLOW
 description: ドロップ ダウン リストから定義済みのエンタープライズ エディションのフロント エンド プールまたは標準的なフロント エンド サーバーのエディションを選択することによって、信頼されたアプリケーション サーバー プールの次ホップのサーバーを指定できます。 ディレクターまたはディレクター プールは、アプリケーションの信頼されたサーバー次ホップの選択が有効ではありませんし、一覧に表示されません。 そのまま使用し、変更を保存するには、[ok] をクリックします。 変更を破棄してプロパティ ページを終了するには、[キャンセル] をクリックします。
 ms.openlocfilehash: 6a42dc808ea48ba2e414bdc23b968cb68a5d0e66
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201844"
 ---
 # <a name="external-application-next-hop-settings-expander"></a>外部アプリケーションの次ホップ設定エキスパンダー
  

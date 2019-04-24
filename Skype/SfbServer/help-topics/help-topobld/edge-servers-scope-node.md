@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: '[エッジ プール] ノードには、トポロジ内のエッジ プールの一覧が表示されます。 以下のアクションを実行できます。'
 ms.openlocfilehash: 7cdd190f1a39d51815ccfd3751f193adacd02cca
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891686"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203166"
 ---
 # <a name="edge-servers-scope-node"></a>エッジ サーバーのスコープ ノード
  

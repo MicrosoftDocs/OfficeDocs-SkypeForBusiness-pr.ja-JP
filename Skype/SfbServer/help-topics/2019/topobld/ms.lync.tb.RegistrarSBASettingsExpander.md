@@ -14,11 +14,11 @@ ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 弾力性の設定を編集し、次のプロパティを構成します。
 ms.openlocfilehash: 35cff0566286f61a5d3dcedaf719da0e4e7eefcb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201609"
 ---
 # <a name="registrar-sba-settings-expander"></a>レジストラー SBA 設定エキスパンダー
 

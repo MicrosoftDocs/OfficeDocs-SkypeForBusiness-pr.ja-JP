@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 description: サブネット テーブルはサポート テーブルです。 各レコードは、ネットワーク構成設定で定義されている 1 つのサブネットを表します。
 ms.openlocfilehash: aa91202bfb46a96f86ea3a631be3b964a17a6058
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212089"
 ---
 # <a name="subnet-table"></a>Subnet テーブル
  

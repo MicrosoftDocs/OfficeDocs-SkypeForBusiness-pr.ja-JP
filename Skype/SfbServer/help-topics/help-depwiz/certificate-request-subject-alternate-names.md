@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 description: サブジェクト名と、サブジェクト代替名] ページでは、サブジェクト名と証明書を構成するすべてのサブジェクト代替名の概要を提供します。 サブジェクト名とサブジェクト代替名の表示名は、トポロジ ビルダーで、配置を定義したときに作成されているために、定義のドキュメントから収集されます。
 ms.openlocfilehash: 6ece1fb410314daf32799546dda0fcffeba73e61
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201347"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>証明書要求 (サブジェクトの別名)
  

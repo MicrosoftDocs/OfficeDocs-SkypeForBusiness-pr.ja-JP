@@ -14,11 +14,11 @@ ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: IP または電話交換電話網 (PSTN) ゲートウェイの IPv4 または IPv6 アドレスを定義するを有効にする IPv4 または IPv6 を有効にするのいずれかを選択します。 いずれかの方法を使用して、すべての構成された IP アドレスまたは IP アドレスを選択したサービスの使用を制限することができます。
 ms.openlocfilehash: 9323db1915388dda5c2fff2da85845fea86a2262
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201985"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>IP または PSTN ゲートウェイの IP アドレスの定義
 

@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 description: '概要: Microsoft Teams をリードする Microsoft 365 での生産性サービスの論理的なアーキテクチャについて説明します。 Teams テレフォニーソリューションについても説明します。 '
 ms.openlocfilehash: 4ffa53d11ad7e6a57bd09892c38838e8fd52c58c
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31988998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225009"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT アーキテクチャとテレフォニー ソリューション ポスター
 

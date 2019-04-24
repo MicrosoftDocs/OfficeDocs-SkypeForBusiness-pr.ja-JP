@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves ビューでは、ユーザーの結合に関する情報が格納され、1 つの会議サーバーの情報のままにします。 このビュー内の各レコードには、呼び出しの詳細については、ユーザーまたは結合と会議サーバーの 1 つの組み合わせが含まれています。 このビューは、Microsoft Lync Server 2013 で導入されました。
 ms.openlocfilehash: db759e324689cfbad92389f30c8fd632c24ebd5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892809"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212988"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves ビュー
  

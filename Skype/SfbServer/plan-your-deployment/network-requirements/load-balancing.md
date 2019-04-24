@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: '概要: は、ロード ・ バランシング ・ Skype をビジネスのサーバーを実装する前に注意事項を確認します。'
 ms.openlocfilehash: a7e8e70088c83276c36334c5d9a1e3be1538ca38
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206488"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Skype for Business の負荷分散の要件
  

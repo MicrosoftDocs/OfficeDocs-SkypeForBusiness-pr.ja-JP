@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: クラウド呼び出しキューをする、組織、保留中の音楽の挨拶と配布リストおよびセキュリティ グループ内のエージェントを呼び出しへの呼び出しをリダイレクトするための電話システムを設定する方法について説明します。 You can also set the maximum queue size, time out, and call handling options.
 ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199300"
 ---
-# <a name="create-a-cloud-call-queue"></a>クラウド呼び出しキューを作成します。
+# <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 
 クラウド呼び出しキューには、自動的に保留中の呼び出しを配置することなどを検索する機能の呼び出しとなっている人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントのための電話番号への呼び出し際に使用するあいさつ文が含まれます保留中の音楽を聴きます。 組織の 1 つまたは複数の呼び出しキューを作成します。
   

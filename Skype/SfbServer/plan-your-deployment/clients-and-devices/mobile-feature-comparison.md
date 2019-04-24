@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: '概要: Skype ビジネス サーバーの計画中にモバイル クライアントの機能のサポートを確認します。'
 ms.openlocfilehash: 6d43d5dbadbc11abaabde8858c75273a0190b324
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207336"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Skype for Business のモバイル クライアント機能の比較
  

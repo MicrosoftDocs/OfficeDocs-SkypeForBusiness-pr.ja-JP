@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 description: レコードは、ユーザーが少なくとも 1 つ 1 つの 2 パーティ呼び出しは VoIP ユーザーを各です。
 ms.openlocfilehash: 304efbd8148c363afaa792abe97d0b15ab5a34fd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212734"
 ---
 # <a name="voipdetails-table"></a>VoipDetails テーブル
  

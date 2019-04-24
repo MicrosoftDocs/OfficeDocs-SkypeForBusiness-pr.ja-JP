@@ -14,11 +14,11 @@ ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 永続的なチャット サーバーのデータベースのバックアップを提供するように SQL Server に格納されてバックアップ コンプライアンスまたは SQL Server に格納する永続的なチャット サーバー コンプライアンスを構成するとします。
 ms.openlocfilehash: 58e2d8e791b5e22e753887c790275dc8148c9d44
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202027"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>常設チャット コンプライアンス バックアップ SQL Server ストアの追加
 

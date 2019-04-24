@@ -14,11 +14,11 @@ ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーを使用して構成したトポロジを公開します。 フロント エンド サーバーまたはフロント エンド プールは、中央管理ストアを保持しているの役割を仮定したリストから選択するように求められます。 フロント エンド サーバーまたはフロント エンド プールを 1 つだけでは、任意の時点で、この役割を保持できます。
 ms.openlocfilehash: 0c80fa30721fe47fc3bc4725ca4f50f8a75f7009
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201694"
 ---
 # <a name="publish-topology-select-cms-page"></a>トポロジの公開での CMS の選択ページ
  

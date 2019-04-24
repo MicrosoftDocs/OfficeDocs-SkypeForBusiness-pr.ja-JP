@@ -1,6 +1,6 @@
 ---
 title: 国および地域ごとの電話会議および通話プランの利用可能性
-ms.date: 05/23/2018
+ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: 817b74a0dd98ccb2d580fc71b5efa0a75f3484bc
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 6fd448d3ab2efd8f5337e0f5a080bee9fd644bf0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200268"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -158,12 +158,12 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 > [!CAUTION]
 > 一部の無料電話番号は、特定の国内または特定の国のエリア内から使用する場合のみに機能するため、有料電話番号または無料電話番号にダイヤルアウトすることができない場合があります。 たとえば、米国からブラジル国内の無料電話番号にダイヤルアウトする場合、その通話はブラジル国内またはブラジルの特定の地域から発生したものでなかったために、失敗してしまうことがあります。 無料電話番号にダイヤルアウトする機能は、ダイヤルされた無料電話番号の制限に応じて大きく異なります。 Office 365 においては、この動作を制御することはできません。そのため、ダイヤルされた無料電話番号と、無料電話番号の制限によって、機能や操作のエクスペリエンスが異なる可能性があります。 
   
-以下のリストにない世界の他の国/地域に会議からダイヤルアウトすることは、[Office 365 コミュニケーション クレジット](../what-are-communications-credits.md)を使用して行うことができます。 このようなユーザーの場合は、[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)必要があります。
+以下のリストにない世界の他の国/地域に会議からダイヤルアウトすることは、[Office 365 コミュニケーション クレジット](../what-are-communications-credits.md)を使用して行うことができます。 これらのユーザーは、[組織の通信のクレジットを設定](../set-up-communications-credits-for-your-organization.md)する必要があります。
   
 ### <a name="phone-system"></a>電話システム
 電話システムでは、自分の組織の着信通話に応答させるために (有料電話番号または無料電話番号で) 自動応答や通話キューを作成することができます。また、ユーザーのために通話プランを追加すると、それらのユーザーは Skype for Business を使用して通話の発信と受信、通話の転送、ミュートとミュートの解除などの基本的な通話制御タスクを処理できるようになります。 **電話システム**のユーザーがアドレス帳の名前をクリックすると、Skype for Business によってその連絡先に通話が発信されます。 **電話システム**のユーザーは、Skype for Business で利用できるモバイル デバイス、ノート PC や PC のヘッドセット、さまざまな IP 電話を使って、通話の発信と受信を行うことができます。
 
-Office 365 から個々のユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジ用) や、自動応答および通話キューといったサービスのための有料電話番号または無料電話番号を検索して取得することもできます。 これらはサービス番号と呼ばれます。 電話番号を取得[するサービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 これらの電話番号を検索するには、するには、[ユーザーの電話番号を取得](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)するに移動します。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)」をご覧ください。 
+> これらの場所の一部では、有料電話番号の使用可能性が、在庫レベルによって随時変わる場合があります。 Office 365 から個々のユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジ用) や、自動応答および通話キューといったサービスのための有料電話番号または無料電話番号を検索して取得することもできます。 これらはサービス番号と呼ばれます。 電話番号を取得[するサービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 これらの電話番号を検索するには、するには、[ユーザーの電話番号を取得](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)するに移動します。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)」をご覧ください。 
 
 [電話システムの料金](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -173,7 +173,7 @@ Office 365 から個々のユーザーの電話番号を取得することに加
 ページの上部にあるドロップダウン リストを使用して、国または地域を検索し、どのサービスを利用できるかを確認します。
 
 ### <a name="calling-plans"></a>通話プラン
-電話システムとともに通話プランを利用することで、ユーザーは通話を発信したり着信したりすることができるようになります。 まず、ユーザー (サブスクライバー) の電話番号 (サービス番号以外) を取得する必要があります。その番号をユーザーに割り当ててから、通話プランを割り当てます。 利用できる通話プランの種類は、**国内**通話プランと、**国内および国際**通話プランの 2 つがあります。 詳細については、「[通話プランについて](../what-are-calling-plans-in-office-365.md)」をご覧ください。
+電話システムとともに通話プランを利用することで、ユーザーは通話を発信したり着信したりすることができるようになります。 まず、ユーザー (サブスクライバー) の電話番号 (サービス番号以外) を取得する必要があります。その番号をユーザーに割り当ててから、通話プランを割り当てます。 利用できる通話プランの種類は、**国内**通話プランと、**国内および国際**通話プランの 2 つがあります。 詳細については、[電話システムおよび計画の呼び出し](../calling-plan-landing-page.md)を参照してください。
 
 ライセンスの情報については、「[電話システムと通話プランのライセンス](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」をご覧ください。
 

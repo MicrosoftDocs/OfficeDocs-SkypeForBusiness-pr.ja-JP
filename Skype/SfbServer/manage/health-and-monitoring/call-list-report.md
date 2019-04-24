@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: '概要: は、Skype のビジネス サーバーの応答グループ アプリケーションについて説明します。'
 ms.openlocfilehash: 5fe2665a90d5a2122965dd89fdf58087d910de47
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197956"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype で応答グループ通話リスト レポート
 

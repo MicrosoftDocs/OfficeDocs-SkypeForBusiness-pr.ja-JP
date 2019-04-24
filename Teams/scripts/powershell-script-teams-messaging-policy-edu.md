@@ -1,5 +1,5 @@
 ---
-title: PowerShell スクリプトのサンプルを作成し、メッセージング ポリシーを割り当てる
+title: PowerShell サンプル スクリプト - メッセージング ポリシーの作成と割り当て
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -14,13 +14,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d65deff9f424fad8fed11d7b10cbe40ced387161
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463045"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205075"
 ---
-<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell スクリプトのサンプルを作成し、メッセージング ポリシーを割り当てる
+<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell サンプル スクリプト - メッセージング ポリシーの作成と割り当て
 -------------------------------------------------------------------------
 
 この PowerShell スクリプトを使用して、マイクロソフトのチームでのメッセージング ポリシーを作成し、ユーザーに割り当てることにします。 

@@ -1,11 +1,17 @@
---- 
+---
 layout: HubPage
 hide_bc: true
 title: Skype for Business
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 description: Skype for Business
+ms.openlocfilehash: a08b6ecdaf09ade237332e08a23ddbfeb9c5eb64
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195017"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -140,8 +146,8 @@ description: Skype for Business
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>マイクロソフトのチーム会議室</h3>
-                                                    <p>計画、展開、およびマイクロソフト チームの会議室を管理する方法について説明します。</p>
+                                                    <h3>Microsoft Teams Rooms</h3>
+                                                    <p>Microsoft Teams Rooms の計画、展開、管理方法について説明します。</p>
                                                 </div>
                                             </div>
                                         </div>

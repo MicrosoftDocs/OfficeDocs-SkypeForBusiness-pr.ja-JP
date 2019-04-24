@@ -14,11 +14,11 @@ appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ms.openlocfilehash: c5e9015bb13dd21ff503ac5767cce5b9704eef03
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205664"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================
@@ -549,4 +549,4 @@ Office 365 の電話システム機能には、次の 2 種類のダイヤル �
 <br>
 ## <a name="see-also"></a>関連項目
 
-[マイクロソフト チームの電話会議を設定します](set-up-audio-conferencing-in-teams.md)
+[Microsoft Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)

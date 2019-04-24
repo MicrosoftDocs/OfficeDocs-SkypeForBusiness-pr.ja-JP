@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: このダイアログ ボックス内の仲介サーバーのプロパティを編集するとします。 左側にあるをクリックすると全般的な設定、次のホップの設定、および PSTN ゲートウェイの設定の設定へのクイック リンクのセットです。 各セクションで、次の設定です。
 ms.openlocfilehash: a5af8e844c82d1af194e0c59fde67725c019ec99
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200089"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用の仲介サーバー全般設定の展開
 

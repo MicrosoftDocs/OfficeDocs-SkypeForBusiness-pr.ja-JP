@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 description: このパターンのフィールドの一致を使用して、変換する番号と一致するパターンを指定します。 変換ルール] フィールドに、変換後の番号の書式のパターンを指定します。 入力する場合など、^\+(\d{9}\d+)$ このパターンを一致フィールドと 011$ 1 の変換ルール] フィールドに、ルールは +441235551010 が 011441235551010 に変換されます。
 ms.openlocfilehash: f6fa4b1d0225f081d041adfeb1b0a86385813b8f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200444"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>変換ルール: 正規表現の入力
  

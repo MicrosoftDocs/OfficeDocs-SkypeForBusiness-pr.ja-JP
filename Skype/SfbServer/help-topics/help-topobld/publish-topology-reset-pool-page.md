@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
 ms.openlocfilehash: 02f567c8fe1842f2a56a610b2d1d9b9074605b6a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219220"
 ---
 # <a name="publish-topology-reset-pool-page"></a>トポロジの公開でのプールのリセット ページ
  

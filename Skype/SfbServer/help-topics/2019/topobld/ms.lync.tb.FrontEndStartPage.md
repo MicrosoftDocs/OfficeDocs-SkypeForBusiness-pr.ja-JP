@@ -14,11 +14,11 @@ ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 ROBOTS: NOINDEX, NOFOLLOW
 description: このウィザードを使用すると、サイトの新しいフロント エンド プールを定義します。 各サイトには、少なくとも 1 つのエンタープライズ プールまたは Standard Edition サーバーが必要です。 ウィザードを使用して、新しいフロント エンド プールを作成するための要件についての詳細を定義して構成するフロント エンド プールを展開に関するドキュメントを参照してください。
 ms.openlocfilehash: a2dc972898a970f63468a8402148b1fa4c021c04
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220453"
 ---
 # <a name="front-end-start-page"></a>フロントエンド スタート ページ
 

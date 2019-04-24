@@ -12,19 +12,19 @@ ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: '概要: は、Skype をビジネスのサーバーを維持管理する方法については、これらのリンクを表示します。'
 ms.openlocfilehash: a2f9b33c4ab5a33e9b4cb3a20d77008ee1b0e315
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874445"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199058"
 ---
 # <a name="manage-skype-for-business-server"></a>Skype for Business Server の管理 
 
 **の概要:** Skype をビジネスのサーバーを維持管理する方法については、これらのリンクを表示します。
   
-ビジネス サーバー用の Skype は、インスタント メッセージング (IM)、プレゼンス、会議、ビデオ、およびエンタープライズ レベルのコラボレーション要件をサポートするテレフォニー ソリューションを提供します。 このトピックでは、構成、監視、およびビジネスのサーバーの展開に、Skype を管理する方法に関する情報へのリンクを提供します。 
+Skype for Business Server は、エンタープライズレベルのコラボレーションの要件をサポートできる、インスタント メッセージング (IM)、プレゼンス、会議、ビデオ、およびテレフォニーのソリューションを提供します。 このトピックでは、構成、監視、およびビジネスのサーバーの展開に、Skype を管理する方法に関する情報へのリンクを提供します。 
   
-新たな情報が入手されたりユーザーからフィードバックが寄せられたりするたびに執筆担当者が継続的に記事を更新しています。 このページは頻繁に更新されるので、随時にチェックしてください。
+記事は、情報の新規公開やユーザーからのフィードバックに応じて随時更新されます。 このページは頻繁に更新されるので、随時にチェックしてください。
 
 ## <a name="visual-resources-about-how-to-manage-skype-for-business-server"></a>Skype をビジネスのサーバーの管理方法に関するリソースを視覚的
 
@@ -33,7 +33,7 @@ Skype をビジネスのサーバーを管理する方法の詳細について�
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
 |![技術図面のアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |アーキテクチャの選択肢を大きな図で示します。  <br/> |
-|![ビデオのアイコン](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|ビデオ デモおよびトレーニング ・*準備中!*  <br/> |ビデオ プレゼンテーション、Skype のビジネス サーバー用のトレーニングを検出します。  <br/> |
+|![ビデオのアイコン](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|ビデオ デモおよびトレーニング ・*準備中!*  <br/> |Skype for Business Server 向けのビデオ プレゼンテーションやトレーニングが用意されています。  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>Skype をビジネスのサーバーの管理に関する記事
 
@@ -47,14 +47,14 @@ Skype をビジネスのサーバーを管理する方法の詳細について�
 |![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 2015 での常設チャット サーバーの管理](persistent-chat/persistent-chat.md) <br/> |このセクションのトピックは、ビジネス サーバー管理シェルのビジネス サーバーのコントロール パネルの Skype と Skype を使用して、永続的なチャット サーバーを管理するための操作手順を説明します。  <br/> **注:** これは、ビジネス 2015年の Skype の利用可能なだけです。|
 |![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 管理シェル](management-shell.md) <br/> |このセクションのトピックでは、ビジネスのサーバーのビジネス サーバー管理シェルの Skype を使用して、Skype を管理する方法について説明します。  <br/> |
    
-## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Skype ビジネス サーバーの計画に関するその他のリソース
+## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Skype for Business Server の計画に関するその他の参考資料
 
-ビジネスのサーバーに、Skype を計画する方法については、次のリソースは、他の分野の専門家から使用できます。 
+Skype for Business Server の計画方法に関する次の参考資料がその他の専門部門から入手できます。 
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![ドキュメントのアイコン](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[IT 担当者向けのビジネス サーバーの Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |アクセスのビデオ、コミュニティ サイト、ドキュメント、ダウンロード、および詳細には、リソース センターを参照してください。 |
-|![開発者向けコンテンツのアイコン](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|開発者向け Skype for Business Server  <br/> |ビジネス サーバーには、コード サンプル、トレーニング、および Sdk を含む、Skype の開発者向けリソースを検索します。 |
-|![ニュース、ブログなどのアイコン](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office のブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 の技術的なブログ](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype チームのブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |ビジネス サーバーのチームを作成してドキュメント Skype からのニュースを維持します。  |
+|![ドキュメントのアイコン](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server (IT 担当者向け)](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |アクセスのビデオ、コミュニティ サイト、ドキュメント、ダウンロード、および詳細には、リソース センターを参照してください。 |
+|![開発者向けコンテンツのアイコン](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|開発者向け Skype for Business Server  <br/> |Skype for Business Server 用の開発者向けリソースとして、コード サンプル、トレーニング、SDK などが用意されています。 |
+|![ニュース、ブログなどのアイコン](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 の技術的なブログ](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype チーム ブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Skype for Business Server を開発し、ドキュメントを提供しているチームからのお知らせを定期的にチェックしてください。  |
    
 

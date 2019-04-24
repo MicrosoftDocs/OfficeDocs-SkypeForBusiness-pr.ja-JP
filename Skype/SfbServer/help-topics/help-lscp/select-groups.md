@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: 応答グループ キューは、エージェントが呼び出しに応答するまでの応答グループへの呼び出しを保持します。 キューには、エージェント グループが割り当てられます。 作成または、キューを編集するときは、キューに割り当てる 1 つまたは複数のエージェント グループを選択するのにグループの選択] ダイアログ ボックスを使用します。
 ms.openlocfilehash: fc03bbc95c1604ef13380a52fa214f9fd65f35b4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200556"
 ---
 # <a name="select-groups"></a>グループの選択
 

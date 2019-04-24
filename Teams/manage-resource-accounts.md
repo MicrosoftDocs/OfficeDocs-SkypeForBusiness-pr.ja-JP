@@ -19,11 +19,11 @@ f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: マイクロソフトのチーム内のリソース アカウントの管理についてください。
 ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203302"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 

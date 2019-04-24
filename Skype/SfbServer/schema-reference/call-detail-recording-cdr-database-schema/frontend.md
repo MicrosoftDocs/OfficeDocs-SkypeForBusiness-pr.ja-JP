@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8207af80-41fa-4bec-9523-b0332e8231d9
 description: フロント エンドは、内部使用のみです。 このテーブルは、Microsoft Lync Server 2013 で導入されました。
 ms.openlocfilehash: 8dc2287574b132fe2ca3f3ec041dbf169cf4e3b6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213061"
 ---
 # <a name="frontend-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype でのフロント エンド テーブル
  

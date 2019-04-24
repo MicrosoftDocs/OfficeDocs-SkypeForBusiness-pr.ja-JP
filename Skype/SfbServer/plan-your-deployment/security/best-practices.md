@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段をすでに講じていることでしょう。 これらのプラクティスは、ビジネスのサーバー インフラストラクチャのため、Skype だけでなく、ネットワーク全体を活用できます。 これらのプラクティスを実装していない場合は、設定するように Skype をビジネス サーバーを展開する前にすることをお勧めします。
 ms.openlocfilehash: 86d18e1d9d34b5f65f4cb938e13a9829af1646bb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213628"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Skype ビジネス サーバー用のコア ・ インフラストラクチャに関するベスト プラクティス
  

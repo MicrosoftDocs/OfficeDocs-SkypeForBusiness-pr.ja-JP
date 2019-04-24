@@ -17,11 +17,11 @@ description: 管理者が Microsoft Teams のゲスト ユーザーに関する�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 9a54d9f23bd32fd84e53f5e285014b92679000f2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203546"
 ---
 <a name="view-guest-users-in-a-team"></a>チームのゲスト ユーザーを表示する
 ==========================

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: ダイアログを使用して選択、オーバーフロー キュー キューを選択する応答グループ キューがいっぱいになったときに呼び出しを転送する先となります。
 ms.openlocfilehash: d86a11efbfa775f38737eeee3704866e43cbc15d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879568"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200535"
 ---
 # <a name="select-overflow-queue"></a>オーバーフロー キューの選択
  

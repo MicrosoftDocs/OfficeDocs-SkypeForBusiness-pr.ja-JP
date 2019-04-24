@@ -1,14 +1,14 @@
 ---
-title: Office 365 を使用する組織で Microsoft Teams の機能を管理する
+title: 組織の Microsoft Teams の設定を管理する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/29/2018
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Office 365 を使用する組織での、タブ、コネクタ、ボット、またはそれらの組み合わせを含む、Microsoft Teams のアプリをオンまたはオフに切り替える方法について説明します。
+description: アプリ、外部アクセス、ゲストアクセス、Teams の設定、Teams のアップグレード設定など、あなたの組織に対する Microsoft Teams の組織全体の設定をオンまたはオフにする方法について説明します。
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
@@ -17,20 +17,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a302d27884f92fb5cf17cc605cead6addbe98bfd
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30683893"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959269"
 ---
-# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を管理する
+# <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
 もうすぐ、すべての Teams の設定が新しい Microsoft Teams 管理センターに移行されます。Teams の機能のうち、アプリのみが Microsoft 365 管理センターで管理されます。 
 
 特に明記されていない限り、オプションの既定値は [**オン**] です。
 
-## <a name="tenant-wide-settings"></a>テナント全体の設定 
+## <a name="tenant-wide-settings-in-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターでのテナント全体の設定
 
 Microsoft 365 管理センターの [**テナント全体の設定**] で Teams のアプリをオフにしたりオンにしたりすることができます。 
 
@@ -62,13 +62,19 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 詳細については、「[Teams でのアプリの管理設定](admin-settings.md)」をご覧ください。 
 
-## <a name="teams-org-wide-settings"></a>Teams の組織全体の設定
-
+## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams の組織全体の設定
 Microsoft Teams 管理センターで、組織全体のユーザー設定を制御することができます。組織全体の設定を編集するには、Microsoft Teams 管理センターに移動して、**[Org-wide settings (組織全体の設定)]** を選択します。次の設定を構成することができます。
 
 ### <a name="external-access"></a>外部アクセス
 
 **外部アクセス**では、Teams および Skype for Business のユーザーが、組織の外部ユーザーと通信するように設定することができます。外部アクセスを構成するには、[[Let your Teams users chat and communicate with users in another Teams organization (Teams ユーザーが別の Teams の組織に所属するユーザーと通信することを許可する) ](let-your-teams-users-communicate-with-other-people.md)] に移動します。
+
+ドメインを追加またはブロックします。
+
+1. [**ドメインの追加**] を選択します。
+2. [ドメインの追加] ウィンドウで、ドメイン名を入力し、スペース バーをクリックして名前を保存します。
+3. [**許可**] または [**禁止**]を選択します。
+4. [**完了**] を選んで変更内容を保存します。 
 
 ### <a name="guest-access"></a>ゲスト アクセス
 
@@ -100,7 +106,7 @@ Microsoft Teams での**ゲスト アクセス**により、組織内のチー�
 - **Set content PIN (コンテンツ PIN を設定する)** – ドキュメントに対する未承認のアクセスを防ぐためにこの PIN を入力するようにユーザーに要求します。これにより、未承認のユーザーが今後の会議に参加したり、添付ファイルを参照したりすることを防ぐことができます。
 - **Resource accounts can send messages (リソース アカウントがメッセージを送信することができる)** – この設定を [**オン**] にすると、メッセージが Surface Hub リソース アカウントから送信されるようになります。
 
-#### <a name="search"></a>検索
+#### <a name="search-by-name"></a>名前で検索
 
 Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳ポリシー (APB) を使用して、組織がどのように組織内のユーザーを検索するか、およびそれらのユーザーと通信するかを制御するために、仮想の境界を作成することができます。範囲指定ディレクトリ検索を使用することが考えられる状況は次のとおりです。
 
