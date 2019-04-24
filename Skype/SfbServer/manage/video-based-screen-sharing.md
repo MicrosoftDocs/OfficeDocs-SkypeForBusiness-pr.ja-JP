@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 画面ビデオ ・ ベース (VbSS) を共有するためのビジネス サーバーの計画と構成について
 ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215004"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Skype for Business Server のビデオベースの画面共有 
  

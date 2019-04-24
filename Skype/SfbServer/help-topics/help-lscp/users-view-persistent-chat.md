@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: CsPersistentChatAdministrator ロール (永続的なチャット管理者) のメンバーには、他のユーザーにし、自らをチャット ルームの管理者の権限およびアクセス許可を与えることができます。
 ms.openlocfilehash: fda25be9d156c4f2c884fd76518dc09369be7487
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200398"
 ---
 # <a name="users-view-persistent-chat"></a>ユーザー: 常設チャットの表示
 

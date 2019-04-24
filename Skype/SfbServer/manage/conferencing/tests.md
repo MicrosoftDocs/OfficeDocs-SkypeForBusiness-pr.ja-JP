@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: '概要: は、Skype のビジネス サーバーのダイヤルイン会議をテストする方法を説明します。'
 ms.openlocfilehash: 99d91a4d3e9729da7b86f723f4a980a887d88b5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197773"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Skype のビジネス サーバーのダイヤルイン会議をテストします。
  

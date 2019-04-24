@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
 description: 展開全体の確定を解除する最初の手順として、[終了] をクリックして空のトポロジを作成します。
 ms.openlocfilehash: e74d10d894fc46dba8d8eebd2f02cf7da192935c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885164"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219114"
 ---
 # <a name="remove-deployment"></a>展開の削除
  

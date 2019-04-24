@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: '概要: ビジネス サーバー Skype でデュアル トーン多重周波数 (DTMF) コマンドのキー マッピングを管理する方法を説明します。'
 ms.openlocfilehash: 33ab031e6032b6246dd637bc55c9ec6b600f0c82
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198012"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>ビジネス サーバー Skype の DTMF コマンドのキー マッピングを管理します。
  

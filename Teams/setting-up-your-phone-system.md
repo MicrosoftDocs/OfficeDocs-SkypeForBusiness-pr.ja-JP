@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: '組織の電話システム (PBX をクラウド) を設定する方法について説明します。 '
 ms.openlocfilehash: 7a180817fb4a3885748a5ca80c494ef1b69143a4
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205545"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 

@@ -15,11 +15,11 @@ appliesto:
 - Microsoft Teams
 description: このドキュメントでは、割り当てられている TeamsUpgrade モードに基づくチャット、通話のルーティング、およびチームのユーザーとテナントのと、フェデレーションの両方のビジネス、Skype のプレゼンスの動作を説明します。 ルーティングの最適化、プレゼンスの動作だけでなく、*散在*する*従来*からの既定の TeamsUpgrade モードの変更と*従来*の差し迫った退職が含まれています。
 ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198785"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 

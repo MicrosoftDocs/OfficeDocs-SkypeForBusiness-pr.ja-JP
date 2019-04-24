@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 description: Lync Server 2013 を右クリックして、Lync Server 2013 のノード トポロジ ビルダーで新しいサーバーの役割を作成、新規作成] を選択しを作成するサーバーの役割を選択できます。
 ms.openlocfilehash: e15c2f326642903df7b1512009f56897f26ebec5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200096"
 ---
 # <a name="lync-server-2013-create-new-expander"></a>Lync Server 2013 の新規作成エキスパンダー
  

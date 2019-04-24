@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Skype の同時共鳴し、委任との相互作用を含む、場所ベースのルーティングのシナリオをサポートするビジネス サーバー エンタープライズ VoIP の場所ベースのルーティングを計画します。
 ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206790"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Skype のビジネスの場所ベースのルーティングの計画
 

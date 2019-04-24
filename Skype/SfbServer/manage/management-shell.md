@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: ビジネス サーバー管理シェルの Skype では、サーバーの管理と管理のコマンド ライン インターフェイスを提供します。 Windows PowerShell の上に構築し、Skype と従来の Lync server 製品に固有のコマンドレットが管理の包括的なセットが含まれています。
 ms.openlocfilehash: 243ff7a684bb14f73ef9f4836ce00e8048fbb236
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199232"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェル
  

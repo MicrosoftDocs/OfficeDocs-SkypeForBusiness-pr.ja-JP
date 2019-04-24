@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: 要求を送信するには、使用する証明機関 (CA) は、ユーザーとしてログインして現在のものとは別の資格情報を必要があります。 として別のユーザー証明書の要求を許可するには、] チェック ボックスを指定する代替の資格情報の証明機関を選択し、ユーザー名またはユーザー証明書を要求できるユーザーのドメイン \ ユーザー名を入力し、します。 [パスワード] ボックスで、指定したユーザーのパスワードを入力します。 ユーザー名とパスワードは、オンライン CA に証明書の要求のプロセスのではなく、実際の証明書要求の一部として、送信されます。
 ms.openlocfilehash: 4580b402198da6d11355675d862387e6fdeb80a4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201437"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>証明書要求 (証明機関のアカウント)
  

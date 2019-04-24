@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: このセクションでは、Skype のビジネス サーバーのセキュリティ フレームワークを形成する基本的な要素の概要を提供します。 これらの要素がどのように連携を理解することは、ビジネス サーバーの展開についての特定、Skype のセキュリティ保護に関する情報に基づいた決定を行う必要があります。
 ms.openlocfilehash: 7c678e1f005178b569f8e4136d40fd911483a3d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213614"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Skype ビジネス サーバー用のセキュリティ フレームワーク
  

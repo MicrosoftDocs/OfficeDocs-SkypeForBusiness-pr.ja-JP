@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 description: 各プール内のエッジ サーバーとして追加するコンピューターの完全修飾ドメイン名 (FQDN) を指定します。 コンピューターを一覧に追加すると、コンピューターの FQDN を更新したり、トポロジを公開する前にいつでも、プールから削除できます。 トポロジ ビルダーでは、サーバーを削除し、新しい FQDN を持つプールに新しいサーバーを追加、トポロジを公開すると、FQDN を変更する必要です。 エッジ プールのトポロジの設計についての詳細は、エッジの展開に関するドキュメントでエッジ トポロジの定義を参照してください。
 ms.openlocfilehash: c372b748860510417b7cfa113d81341b59253910
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203159"
 ---
 # <a name="edge-server-add-machine"></a>エッジ サーバー コンピューターの追加
 

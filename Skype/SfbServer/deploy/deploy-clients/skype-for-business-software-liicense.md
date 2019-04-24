@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: このトピックでは、Skype for Business ソフトウェア ボリューム ライセンスがあるかどうかを確認する方法について説明します。
 ms.openlocfilehash: e4ba03dacdce0056cb130299f551921042a6790d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207932"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Room System: Skype for Business ソフトウェア ライセンス
  
@@ -31,7 +31,7 @@ KMS では、ビジネスのボリューム ライセンスのアクティブ化
   
 詳細については、 [DNS を使用して、Office と Windows の KMS ホストを検出し、不正なインスタンスを削除する方法](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx)を参照してください。 
   
-KMS のセットアップについては、[「Office 2013 の KMS のライセンス認証](https://technet.microsoft.com/library/ee624357.aspx)」および「[Office 2013 の KMS と Active Directory ライセンス認証用の GVLK](https://technet.microsoft.com/library/dn385360.aspx)」を参照してください。
+KMS を設定するには、 [Office 2013 の KMS ライセンス認証](https://technet.microsoft.com/library/ee624357.aspx)と[の Office 2013 KMS と Active Directory のライセンス認証のための GVLKs](https://technet.microsoft.com/library/dn385360.aspx)を参照してください。
   
 Lync の Office 2013 汎用ボリューム ライセンス キー: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (このキーと、ネットワーク上の KMS を検索する Skype ルーム システムのことです)。
   
@@ -41,7 +41,7 @@ Lync の Office 2013 汎用ボリューム ライセンス キー: 2MG3G-3BNTT-3
   
 VLA を保持する顧客は、契約を管理し、MAK を取得するために使用する自身の VLSC 資格情報を確認する必要があります。 、不明な場合は、お客様の財務部門がの VLA のお客様が支払われたかどうかを確認すること場合があります。
   
-MAK を取得するには、ボリューム ライセンス サービス センターにアクセスして契約を表示し、プロダクト キー (MAK) をダウンロードしてください。 詳細については、[ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/default.aspx)にアクセスしてください。 
+MAK を取得するには、ボリューム ライセンス サービス センターにアクセスして契約を表示し、プロダクト キー (MAK) をダウンロードしてください。 詳細については、[ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/default.aspx)を参照してください。 
   
 ## <a name="mak-for-office-365-without-vlsc-access"></a>VLSC アクセスのない Office 365 用の MAK
 

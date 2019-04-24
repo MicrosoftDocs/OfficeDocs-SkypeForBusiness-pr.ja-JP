@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
-ms.translationtype: HT
+ms.openlocfilehash: c089aed27acb4f7864bf5dc1948b0b55a4643790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203088"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams でのアプリの管理設定
 ==========================================
@@ -49,8 +49,6 @@ Microsoft Teams 管理センターで、**Teams アプリ**の組織向けアプ
 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」にアクセスしてください。
 
 ## <a name="app-setup-policies"></a>アプリケーションの設定ポリシー
-
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 アプリケーションの設定ポリシーで、ユーザーのアプリでの操作をカスタマイズできます。 Teams クライアントのアプリ バーに固定するアプリと、アプリが Web、デスクトップ、モバイル クライアントに表示される順序を選択します。
 

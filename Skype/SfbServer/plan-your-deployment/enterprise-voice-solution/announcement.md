@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: ビジネス サーバーのエンタープライズ VoIP の Skype [お知らせ] アプリケーションの計画を構成、組織に割り当てられていない電話番号への電話の処理をします。 また、オーディオ ファイルの要件についても説明します。
 ms.openlocfilehash: 5e3b9af1a6bdc83081a1a8f17cd4963337efbbb6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207105"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>ビジネス用の Skype で知らせアプリケーションの計画
 

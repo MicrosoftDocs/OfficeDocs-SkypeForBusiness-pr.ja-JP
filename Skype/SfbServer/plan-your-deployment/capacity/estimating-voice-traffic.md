@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: 次のメトリックを使用すると、各サイトおよびそのトラフィックをサポートするのにために必要なポートの数にユーザーのトラフィックを見積もる。
 ms.openlocfilehash: 4475be7d233bbfa34c1d2aa8b62d578ebb985423
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197675"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Skype のビジネス サーバーの音声の使用率とトラフィックを見積もる
  

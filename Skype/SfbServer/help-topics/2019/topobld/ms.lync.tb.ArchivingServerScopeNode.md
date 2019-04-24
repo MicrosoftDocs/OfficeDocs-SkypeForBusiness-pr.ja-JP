@@ -14,11 +14,11 @@ ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーでは、コンソール ツリーで、プールを右クリックし、アーカイブを実行するサーバーに関連するタスクを実行することができ、プロパティの編集] を選択します。 [プロパティの編集] ページで、アーカイブを実行しているサーバーの完全修飾ドメイン名 (FQDN)、アーカイブ SQL Server データベース、およびアーカイブ ファイル ストアを変更できます。
 ms.openlocfilehash: 34e0472cf12ebf1d45a409631175f147f3217df1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201921"
 ---
 # <a name="archiving-server-scope-node"></a>アーカイブ サーバー スコープ ノード
  

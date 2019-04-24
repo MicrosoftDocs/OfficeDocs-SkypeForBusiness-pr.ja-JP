@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 1 つまたは複数のエッジ サーバーを展開するには後、は、組織でサポートされる外部からのアクセスの種類を有効にする必要があります。
 ms.openlocfilehash: bdc1a87476849a6e8383d5561af6e1b3af477869
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199885"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>組織の外部アクセス ポリシーの管理
 

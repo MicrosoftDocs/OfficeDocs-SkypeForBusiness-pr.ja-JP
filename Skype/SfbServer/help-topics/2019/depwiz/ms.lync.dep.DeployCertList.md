@@ -14,11 +14,11 @@ ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 証明書を割り当てるには、ローカル証明書ストアから証明書を選択します。 [次へ] をクリックして続行します。
 ms.openlocfilehash: f48f65cae587b7fa0b2dfe278978649db37ccf95
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216481"
 ---
 # <a name="certificate-list"></a>証明書のリスト
  

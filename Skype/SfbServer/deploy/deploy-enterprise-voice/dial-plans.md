@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: '概要: ビジネス サーバーのコントロール パネルの Skype を使用してダイヤル プランを変更または作成する方法を説明します。'
 ms.openlocfilehash: b8f2e2831a611679f74aebcf49bcc24086adef7e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207518"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype のダイヤル プランを変更します。
 

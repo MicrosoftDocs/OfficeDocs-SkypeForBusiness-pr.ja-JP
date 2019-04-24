@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: '概要: は、ビジネス サーバー 2015 の Skype のサービス管理ツールの使用方法について説明します。'
 ms.openlocfilehash: 0d3a4ec86fd1110fbbb75da399db990f1694e5cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217626"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Skype for Business Server 2015 管理ツール
  
@@ -27,7 +27,7 @@ ms.locfileid: "30875251"
   
 ## <a name="skype-for-business-server-2015-tools"></a>Skype for Business Server 2015 のツール
 
-||**内容**|**説明**|
+||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
 ||[Microsoft 呼び出し品質方法論のスコアカード、v1.5](https://go.microsoft.com/fwlink/p/?LinkId=615208)(.zip のダウンロード) <br/> [ビジネス用の Skype の CQM のポスター](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [Lync 2013 の CQM のポスター](https://go.microsoft.com/fwlink/p/?LinkId=391841) <br/> |Lync Server 用の Microsoft の呼び出し品質方法論 (CQM) スコアカードおよびビジネス サーバー 2015 の Skype の最新バージョンです。 CQM のスコアカードを呼び出し品質方法論を体系的に定義し、ネットワー キング ガイド 』 に記載されている方法に基づく通話の音質をアサートするのに包括的な方法を実装するために使用できます。 CQM は、Lync を分割 Skype の 10 個の別々 の領域にビジネスの実装に影響を及ぼすと品質、ターゲットとの 1 つずつ改善計画を定義します。 CQM は、通話品質の問題に取り組むためのフレームワーク - ネットワーク上の特定の条件に対応するように拡張または変更できます。  <br/> CQM のポスターには、CQM の学習に役立つことができます、問題に影響を与える通話品質とユーザー エクスペリエンスの Lync の Lync の電話の品質手法と特定し、排除するために役立つビジネス用の Skype または Skype ビジネス実装では、エンタープライズ ボイスは、機能します。  <br/>**注:** これらのツールは、ビジネス サーバー 2019 の Skype は更新されません。 |
 |![ダッシュボードのアイコン](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[通話品質ダッシュボード](https://go.microsoft.com/fwlink/p/?LinkId=534842) <br/> |通話品質ダッシュボード (CQD) は、Skype for Business または Lync 環境からの QoE (Quality of Experience) データに基づいて、レポートをすばやく作成し、構成することができる Web ポータルです。CQD は SSAS キューブを展開して、QoEMetrics データベース内のデータを集計します。ユーザーは、レポートを作成および変更し、リアルタイムで更新を確認できます。さらに、CQD では Web API が公開されているので、ユーザーはキューブ データにプログラムからアクセスし、カスタム ダッシュボードで使用できます。  <br/> |

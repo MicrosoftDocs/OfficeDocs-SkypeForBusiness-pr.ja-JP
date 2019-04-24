@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ce14fee8e9039f538d39c61ef4436c69160b222
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: 072fc92184841be318e84e7891a204d1b7576215
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30640947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246171"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
@@ -117,7 +117,7 @@ Teams にはポリシーを介して、メッセージング、会議、通話�
 
 自分の組織での各設定の実行についての技術的なガイダンスを含む、すべての設定の詳細なリストについては、次の記事を参照してください。
 
--   [Office 365 の組織で Microsoft Teams の機能を管理する](enable-features-office-365.md)
+-   [組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md)
 -   [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 -   [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
 

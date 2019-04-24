@@ -8,11 +8,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 移行する前にお客様の環境に更新を適用する必要があります。 最新情報については、更新プログラム リソース センターを参照してくださいhttps://go.microsoft.com/fwlink/p/?linkid=232630。
 ms.openlocfilehash: 5042b5da2b01a1191b4c9c441b0652f76e53a63a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238790"
 ---
 # <a name="apply-updates"></a>更新プログラムを適用します。
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: '概要: は、サーバーのビジネスの Skype でピア ツー ピア アクティビティ診断レポートについて説明します。'
 ms.openlocfilehash: 097b323d2a9484e14dd056196b7344b61b412339
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198114"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype でピア ツー ピア アクティビティ診断レポート
  

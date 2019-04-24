@@ -19,11 +19,11 @@ localization_priority: Normal
 f1keywords: None
 description: マイクロソフトのチームで休日を設定し、自動応答に接続する方法を説明します。
 ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204777"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams で休日を設定する
 

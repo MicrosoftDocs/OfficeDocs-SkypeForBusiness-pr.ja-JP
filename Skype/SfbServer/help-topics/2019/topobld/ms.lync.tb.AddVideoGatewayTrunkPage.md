@@ -14,11 +14,11 @@ ms.assetid: 9485bea9-c646-4eb7-b3d0-dcbc57cdfbda
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
 ms.openlocfilehash: c4222011089aaa1f650b24c1d5cc51f9af9fe3ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201957"
 ---
 # <a name="add-video-gateway-trunk"></a>ビデオ ゲートウェイ トランクの追加
  

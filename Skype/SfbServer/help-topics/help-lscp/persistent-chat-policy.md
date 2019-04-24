@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: 永続的なチャット グループの永続的なチャットのポリシー] ページを使用するには既定のグローバル ポリシーを構成するポリシーを作成する 1 つまたは複数追加ユーザーとサイトの展開など、グローバル、プール、サイト、またはユーザー レベルでポリシーを管理します。 ポリシーによってユーザーの永続的なチャット サーバーが有効である場合は、そのクライアントに永続的なチャット サーバー環境が表示されます。
 ms.openlocfilehash: fc994f74acc0abf8d4d615d3d85ea3662c367904
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200640"
 ---
 # <a name="persistent-chat-policy"></a>常設チャットのポリシー
  

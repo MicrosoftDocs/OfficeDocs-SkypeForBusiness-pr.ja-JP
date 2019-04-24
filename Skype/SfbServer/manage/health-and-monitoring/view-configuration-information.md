@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: '概要: は、Skype のビジネス サーバーの呼び出しの詳細記録 (CDR) を使用する方法を説明します。'
 ms.openlocfilehash: edf3f719ed3d859ff6d7a6c4fcebbf22356277d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197473"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのビューの CDR 構成の情報
  

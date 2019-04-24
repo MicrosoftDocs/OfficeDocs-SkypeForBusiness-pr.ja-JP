@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 意思決定の計画に必要な場所情報のデータベース、または ~ 9-1-1 展開のビジネス サーバーのエンタープライズ VoIP の Skype で、ELIN ゲートウェイを使用して、ような外部データベースです。
 ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206937"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>ビジネス サーバーの Skype の ELIN ゲートウェイの場所を管理します。
 

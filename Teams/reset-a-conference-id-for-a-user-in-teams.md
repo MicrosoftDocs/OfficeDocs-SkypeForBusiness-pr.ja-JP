@@ -20,11 +20,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams でユーザーの会議 ID をリセットする手順と、会議の更新および移行のツールへのリンクを取得する手順を説明します。 '
 ms.openlocfilehash: f5926d838d61d38eb5b8e9f840cd9d7a4694253f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206587"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの会議 ID をリセットする
 
@@ -67,7 +67,7 @@ ms.locfileid: "30542848"
 
 Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -75,4 +75,4 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
     
 ## <a name="related-topics"></a>関連トピック
 
-[オーディオ会議の暗証番号 (pin) をリセットします。](reset-the-audio-conferencing-pin-in-teams.md)
+[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin-in-teams.md)

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype ビジネス サーバーの強化された 9-1-1 (~ 9-1-1) ビジネス クライアント用の Skype からの呼び出しをサポートします。 ~ 9-1-1 の Skype ビジネス サーバーを構成する場合、ビジネス用の Skype から緊急呼び出しには、場所情報サービス データベースからの緊急応答ロケーション (ERL) 情報が含まれます。
 ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200303"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>拡張 9-1-1 と Skype でロケーション サービスをビジネス用のサーバーを管理します。
 
@@ -142,7 +142,7 @@ Skype ビジネス サーバーの強化された 9-1-1 (~ 9-1-1) ビジネス �
 
 5.  [**編集**] メニューの [**削除**] をクリックします。
 
-6.  [**OK**] をクリックします。
+6.  **[OK]** をクリックします。
 
     > [!IMPORTANT]  
     > グローバルな場所ポリシーを削除することはできません。 グローバル ポリシーを削除しようとする場合は、警告メッセージが表示され、そのポリシーを既定値にリセットされます。

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Skype で通話受付制御用ネットワークのサイト、地域、および帯域幅に関する情報の収集を含むビジネス サーバーのエンタープライズ VoIP の計画の詳細な例を提供します。
 ms.openlocfilehash: b406db2a4ddf2b0ff25128774577407e0e3acaf6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207777"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>例: の要件を収集受付制御に電話 Skype ビジネス サーバー
 

@@ -14,11 +14,11 @@ ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 ROBOTS: NOINDEX, NOFOLLOW
 description: ディレクター プールの FQDN を定義するには、負荷分散されたプール内の 2 つ以上の取締役で構成される複数のコンピューター プール] または [単一コンピューターのプールを選択します。 ディレクター プールまたは 1 つのディレクターの FQDN への接続に使用される完全修飾ドメイン名 (FQDN) を入力する必要があります。 ディレクターのコンピューターのプールのハードウェア ロード バランサーの仮想 ip アドレスのドメイン ネーム システム (DNS) エントリまたは DNS の負荷分散のための共有の DNS エントリになります。
 ms.openlocfilehash: f659b45fd758d07b9cf96b59b57654bb8cf2fd28
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202209"
 ---
 # <a name="add-director-pool"></a>ディレクター プールの追加
  

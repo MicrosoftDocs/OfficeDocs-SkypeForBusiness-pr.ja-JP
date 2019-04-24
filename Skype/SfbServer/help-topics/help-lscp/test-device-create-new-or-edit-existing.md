@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: テスト デバイス機能はデバイス更新機能と連携して動作します。 [テスト デバイス] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。
 ms.openlocfilehash: 8f97ed387d8ce585fad64f3f4552ef1fb3eeb50f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200493"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>テスト デバイス: 新規作成または現在の形式のままで編集
 

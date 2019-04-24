@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: ミラー データベースの設定を構成するには、以下を定義します。
 ms.openlocfilehash: 2a468333fff6cde69ce96eaf3d9170500bfb6648
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200230"
 ---
 # <a name="install-mirror-database-option-page"></a>ミラー データベースのインストール オプション ページ
  

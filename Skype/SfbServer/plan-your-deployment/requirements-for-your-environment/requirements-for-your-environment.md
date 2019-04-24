@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: 'システム要件およびビジネス サーバー 2015 の Skype のネットワークやインフラストラクチャの要件に関するトピックの概要: アウトライン。 Skype for Business Server 2015 をインストールおよび展開するために何かをインストールまたは構成する必要がある場合は、ここで説明します。'
 ms.openlocfilehash: e43fc9bda052abc952bf4a4a1a8921b4ab276427
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206163"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>2015 のビジネス環境について、Skype の要件
  

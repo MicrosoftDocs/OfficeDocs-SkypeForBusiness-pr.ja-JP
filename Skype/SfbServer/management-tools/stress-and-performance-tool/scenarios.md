@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: タスクのストレスおよびパフォーマンス ツールを使用してパフォーマンスとロード テストを実行するサーバー 2015 のビジネス用の Skype を構成するのには実行する必要があります。
 ms.openlocfilehash: 53504b714304b4b3cd18e44397ce0f06fcc59b63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194619"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>ビジネス 2015 のサーバの負荷とパフォーマンス ツールの Skype のパフォーマンスのシナリオ
  

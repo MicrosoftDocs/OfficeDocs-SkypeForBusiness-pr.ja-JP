@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ユーザーを制御、匿名ユーザーをサポートするための会議ポリシーを構成して、特定のユーザーにその会議のポリシーを適用することによって匿名ユーザーを招待することができます。
 ms.openlocfilehash: 62ff84b19fadbeaf0f26fa3e5869026254d28d1f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197724"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Skype のビジネス サーバーの匿名ユーザーをサポートする会議ポリシーを割り当てください。 
 

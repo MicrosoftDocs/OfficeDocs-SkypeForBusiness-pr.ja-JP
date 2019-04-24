@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: このノードには、この信頼されたアプリケーション プールの完全修飾ドメイン名 (FQDN)、レプリケーション設定、および次ホップ プールが表示されます。以下のアクションを実行できます。
 ms.openlocfilehash: d1ae8f5f6bfb4d6d517c9889d730b98f7f5d2322
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194001"
 ---
 # <a name="external-application-scope-node"></a>外部アプリケーション スコープ ノード
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Skype でグループを呼び出すのピックアップのためビジネス サーバーのエンタープライズ VoIP に対してユーザーを有効にして、グループ番号を割り当てます。
 ms.openlocfilehash: f2d02aa4993e103b786894f642dd88ca93dcf354
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212496"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>ユーザーのグループを呼び出すピックアップを有効にして、ビジネスの Skype でグループ番号を割り当てる
 

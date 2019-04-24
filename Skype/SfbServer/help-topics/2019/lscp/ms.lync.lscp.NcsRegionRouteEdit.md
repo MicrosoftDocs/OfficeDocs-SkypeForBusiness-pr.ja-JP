@@ -14,11 +14,11 @@ ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: fdf1beb2d62e2d2879b3a47884feb3fa23669e00
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883008"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215468"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>ネットワーク地域ルートの構成: 新規作成または現在の形式のままで編集
 

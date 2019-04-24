@@ -14,11 +14,11 @@ ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: このページを使用すると、内部の IP アドレスおよびエッジ サーバーの内部の完全修飾ドメイン名 (FQDN) を指定します。
 ms.openlocfilehash: 94a74fd434f1fe9ae62925ddc7ee76f1114f46fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202181"
 ---
 # <a name="add-edge-machine-internal-ip"></a>エッジ コンピューター内部 IP の追加
 

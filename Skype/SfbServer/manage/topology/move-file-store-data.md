@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: ビジネス サーバーの展開、Skype のファイル ストアとしての機能になっているファイル サーバーを削除する必要がありますかは、現在の変更を保存使用できないその他のために必要な場合、新しい共有を作成する必要があります。 次の手順を実行する必要があります。
 ms.openlocfilehash: 45e088446ce607a9621174b84cb52ad1f4875684
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894396"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214688"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Skype ビジネス サーバー用の新しいファイル ストアにデータをファイル ストアの移動
 

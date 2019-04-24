@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: 意思決定の計画に必要な場所情報のデータベース、または ~ 9-1-1 展開のビジネス サーバーのエンタープライズ VoIP の Skype で、SIP トランキング プロバイダーを使用して、ような外部データベースです。
 ms.openlocfilehash: 07b6c95ad36e740d5dec6bb882766f876da52626
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206727"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、SIP トランク サービス プロバイダーの場所を管理します。
 

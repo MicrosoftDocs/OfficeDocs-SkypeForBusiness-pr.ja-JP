@@ -23,11 +23,11 @@ ms.custom:
 - Audio Conferencing
 description: '呼び出し元のメッセージを表示し、ビジネスまたはマイクロソフトのチームのアプリケーションの Skype を使用していないことと、名前と会議の開催者のピンを収集するために使用する会議用ブリッジの設定を変更する必要があります手順を取得します。 '
 ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30633234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198561"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 

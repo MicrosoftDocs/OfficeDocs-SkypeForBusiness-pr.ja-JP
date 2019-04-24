@@ -22,11 +22,11 @@ ms.custom:
 - Reporting
 description: 設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。
 ms.openlocfilehash: ebd5ec0ea60a59e50c3ce7137f518d9a596074a5
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204821"
 ---
 # <a name="set-up-call-analytics"></a>通話分析をセットアップする
 
@@ -58,7 +58,7 @@ ms.locfileid: "30542328"
   
 通信のサポート ・ スペシャ リストは、基本的な通話品質の問題を処理します。 会議に関する問題を調査するありません。 関連情報を収集し、通信のサポート ・ エンジニアにエスカレーションします。 通信のサポート エンジニアは、サポート ・ スペシャ リストの通信から非表示にする詳細な呼び出しのログ内の情報を参照してください。 次の表は、分析機能の呼び出しを使用するときに、通信のサポートのスペシャ リストとの通信のサポート エンジニアに利用可能な情報の概要を示します。
 
-|**アクティビティ**|**コール分析の情報**|**どのような通信のサポート ・ スペシャ リストが表示されます。**|**どのような通信のサポート ・ エンジニアが表示されます。**|
+|**活動**|**コール分析の情報**|**どのような通信のサポート ・ スペシャ リストが表示されます。**|**どのような通信のサポート ・ エンジニアが表示されます。**|
 |:-----|:-----|:-----|:-----|
 |**通話** <br/> |呼び出し元の名前  <br/> |エージェントが検索対象となるユーザーの名前のみです。  <br/> |ユーザー名です。  <br/> |
 ||受取人の名前  <br/> |内部ユーザーまたは外部のユーザーとして表示されます。  <br/> |受信者の名前です。  <br/> |
@@ -89,7 +89,7 @@ Azure Active Directory で管理役割を割り当てる方法については、
   
 .Tsv または .csv ファイルを最初から作成する場合は、[テナントのデータ ファイルの形式とデータ ファイルの構造の構築](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile)を参照してください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 <a name="BKMK_UploadFiles"> </a>
 
 [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)

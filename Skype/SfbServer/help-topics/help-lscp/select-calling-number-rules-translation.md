@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: '[発信者番号の変換ルールを選択] ダイアログ ボックスには、展開に構成された変換ルールが表示されます。 変換ルールの詳細については、次のトピックを参照してください。'
 ms.openlocfilehash: 4a9ac4b6c48f6d4faf30b9527c2e536fb0532caf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200549"
 ---
 # <a name="select-calling-number-rules-translation"></a>発信者番号ルールの変換の選択
 

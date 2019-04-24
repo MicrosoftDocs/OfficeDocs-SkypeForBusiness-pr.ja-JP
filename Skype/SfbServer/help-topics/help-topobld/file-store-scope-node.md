@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: このノードには、このファイル ストアの完全修飾ドメイン名 (FQDN) および依存プールが表示されます。 以下のアクションを実行できます。
 ms.openlocfilehash: f793b7779486ea788f00780c697bf39e9a150a15
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194071"
 ---
 # <a name="file-store-scope-node"></a>ファイル ストア スコープ ノード
  

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953c971c39bde9d112619fcaee145008c378f1a3
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: d4089e0e9ff9ce0ecbff63e55a43d2dc9f2ca7d1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194758"
 ---
 # <a name="cloud-voice-deployment"></a>Cloud Voice の展開
 
@@ -48,7 +48,7 @@ Office 365 の電話会議では、参加者はどの電話端末からでも Te
 
 通話プランは、オンライン ビジネスのチームと Skype 経由で配信、電話システムの機能のアドオン サービスです。 通話プランには、マイクロソフトのチームで作業するのにはビジネス オンラインの Skype で該当するユーザーが所属することが必要です。 通話プランを提供、お客様のビジネスの基本の電話番号と、行い、PSTN 上で、組織外の電話を受信することができます。
 
-詳細についてを参照して[ここでは Office 365 の電話システムで取得して](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) [Office 365 のプランを呼び出すことは何ですか?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+詳細については、「 [Office 365 の電話システムで何が得られます](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)し、、[電話システムおよび計画呼び出し](calling-plan-landing-page.md)の使用」を参照してください。
 
 
 ## <a name="phone-system-direct-routing-direct-routing"></a>システムの電話、直接ルーティング (「ダイレクト ルーティング」)

@@ -14,11 +14,11 @@ ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
 description: アーカイブ サーバーには、アーカイブ ・ データを格納する SQL Server データベース ソフトウェアのサポートされている 64 ビット版が必要です。 アーカイブに使用するか、SQL Server データベースが格納されているサーバーと SQL Server のインスタンスの完全修飾ドメイン名 (FQDN) を指定することで新しい SQL Server データベースを定義する定義済みの SQL Server データベースを選択するかを新しい SQL Server データベース (既定のインスタンスまたは名前付きインスタンスを指定することができます) を使用するには。
 ms.openlocfilehash: f16a405551822041ad7d792ac9307e29df19ee45
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889330"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202297"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>アーカイブ サーバー SQL Server ストアの追加
 

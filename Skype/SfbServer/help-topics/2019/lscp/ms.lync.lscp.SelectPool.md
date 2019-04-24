@@ -14,11 +14,11 @@ ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[サービスの選択] ダイアログ ボックスを使用して、環境で使用可能なサービスを検索します。 既存のサービスを使用するには、一覧でサービスをクリックして [OK] をクリックします。'
 ms.openlocfilehash: 0482dd0832d76d1b0e56c7aa978073e514b62090
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215095"
 ---
 # <a name="select-a-service"></a>サービスの選択
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: 応答グループ エージェント グループ、キュー、およびワークフローで構成されます。 エージェント グループは、応答グループの呼び出しに応答するように指定されているユーザーのグループです。
 ms.openlocfilehash: 9f7e28aad186467938df9d0ec64e7a5de151d7aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200619"
 ---
 # <a name="response-groups-group"></a>応答グループ: グループ
 

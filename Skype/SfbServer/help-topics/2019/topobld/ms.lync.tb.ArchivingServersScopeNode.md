@@ -14,11 +14,11 @@ ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーでは、コンソール ツリーの [アーカイブ サーバー] を右クリックするか、ツール バーの [アクション] をクリックするか、または [アクション] ウィンドウでタスクをクリックして、次のアーカイブ サーバー オプションをクリックすることにより、個々のアーカイブ サーバーに関連するタスクを実行できます。
 ms.openlocfilehash: e6233c42576b6346852146b9a58ccc06d0df4e25
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220720"
 ---
 # <a name="archiving-servers-scope-node"></a>アーカイブ サーバーのスコープ ノード
  

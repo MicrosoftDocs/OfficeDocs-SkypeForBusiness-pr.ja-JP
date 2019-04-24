@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '組織のビジネス用の Skype を導入する場合を統合 Skype の 1 つまたは複数のドメインを持つビジネス オンラインのお客様です。 '
 ms.openlocfilehash: 70eda58c5d01b09c9f3e00ef8f3ac0391a90ed07
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199871"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのオンライン ビジネスのお客様は Skype のフェデレーション サポートを構成します。 
 

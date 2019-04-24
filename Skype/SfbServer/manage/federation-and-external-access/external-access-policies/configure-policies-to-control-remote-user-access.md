@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: リモート ユーザーがビジネスのサーバーのユーザーの内部の Skype で共同作業を行うかどうかは、コントロールに 1 つまたは複数の外部ユーザー アクセス ポリシーを構成します。 リモート ユーザー アクセスを制御するには、グローバル ポリシー、サイト、およびユーザー レベルを構成できます。
 ms.openlocfilehash: f6d316f022e671bc7f7e70ebbe2a801b0b3e312c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199892"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのリモート ユーザー アクセスを制御するポリシーを構成します。
 

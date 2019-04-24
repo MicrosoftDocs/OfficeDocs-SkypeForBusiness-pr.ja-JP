@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: 共有を呼び出すし、グループ通話ピックアップできるように、ユーザーが利用できない場合、呼び出しをキャプチャできるように、着信呼び出しを同僚と共有します。
 ms.openlocfilehash: e822d06e48f3d7df548f0fd0d04645e7e9328598
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993582"
+ms.locfileid: "32211824"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 

@@ -25,11 +25,11 @@ ms.custom:
 - Calling Plans
 description: このトピックには、呼び出す予定がある場合、ユーザーはへの発信コールを配置できる国/地域のすべてが含まれます。
 ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
-ms.sourcegitcommit: 13445200c9b2991d5a88c8e203048cd7d094382c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30645425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200252"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>ユーザーが通話を発信できる相手先の国や地域
 

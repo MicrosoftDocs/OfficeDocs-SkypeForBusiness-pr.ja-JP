@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 640ea739b91a8e4904d5ac93a73c533d980033c1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218740"
 ---
 ![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
@@ -38,7 +38,7 @@ ms.locfileid: "30463981"
 
 Skype ビジネスのための現在の配置に基づいて、アップグレードの旅を選択します。
 
-- [チームをオンラインでビジネス用の Skype からのアップグレード](https://aka.ms/SkypeToTeams-UpgradeOnline)
+- [Skype for Business Online から Teams にアップグレードする](https://aka.ms/SkypeToTeams-UpgradeOnline)
 - [Skype からチームへのビジネスのハイブリッドをアップグレードします。](https://aka.ms/SkypeToTeams-UpgradeHybrid)
 - [Skype から設置型のビジネスにアップグレード チーム](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
 

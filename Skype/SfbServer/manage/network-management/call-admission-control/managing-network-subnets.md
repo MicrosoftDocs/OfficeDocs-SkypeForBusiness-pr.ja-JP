@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 呼受付制御 (CAC) が実装されているビジネス サーバーの Skype のほとんどの展開では通常あるサブネットの数が多い。 このため、お勧め多くの場合ビジネス サーバー管理シェルには、Skype からサブネットを構成します。
 ms.openlocfilehash: 3b61ad1b4e1eb7f11d61b32c15e337bcd4ff77c8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198909"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク サブネットの管理
 
@@ -132,7 +132,7 @@ Windows PowerShell と Get CsNetworkSubnet コマンドレットを使用して�
 
 5.  [**編集**] メニューの [**削除**] をクリックします。
 
-6.  [**OK**] をクリックします。
+6.  **[OK]** をクリックします。
 
 
 ## <a name="see-also"></a>関連項目

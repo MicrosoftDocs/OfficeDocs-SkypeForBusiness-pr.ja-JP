@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 ms.openlocfilehash: ca66c8a21bcd5938574c593543bd40dceb72c2c4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891330"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200458"
 ---
 # <a name="topology-trusted-application"></a>トポロジ: 信頼されたアプリケーション
 

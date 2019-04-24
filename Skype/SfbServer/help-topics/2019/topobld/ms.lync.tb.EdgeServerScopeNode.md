@@ -14,11 +14,11 @@ ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、このエッジ プールの完全修飾ドメイン名 (FQDN) およびその他の基本設定が表示されます。以下のアクションを実行できます。
 ms.openlocfilehash: 9df6d1c25c49024572dcdc7806053ccdeaa4a43b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220524"
 ---
 # <a name="edge-server-scope-node"></a>エッジ サーバー スコープ ノード
  

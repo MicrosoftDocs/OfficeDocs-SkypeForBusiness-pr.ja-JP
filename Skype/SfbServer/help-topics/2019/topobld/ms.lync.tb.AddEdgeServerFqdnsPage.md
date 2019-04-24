@@ -14,11 +14,11 @@ ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 単一の FQDN の使用を選択しなかった場合は、 &amp; IP アドレスのオプションを選択します] ページの機能、および A の Web 会議エッジ サービスの FQDN を指定することもする必要があります/音声ビデオ エッジ サービスです。
 ms.openlocfilehash: 07591bf9e98f74d9092e34e34b62b8cb2bdcf525
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202167"
 ---
 # <a name="add-edge-server-fqdn"></a>エッジ サーバーの FQDN の追加
  

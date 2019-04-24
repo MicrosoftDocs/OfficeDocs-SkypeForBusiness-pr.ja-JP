@@ -14,11 +14,11 @@ ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'トポロジ ビルダーでは、ツールバーの [操作] をクリックしてまたは [操作] ウィンドウで、タスクをクリックするのいずれかをクリックすると、コンソール ツリーで、監視を実行するサーバーを右クリックしていずれかの監視を実行している個々 のサーバーに関連するタスクを実行できます。監視を実行するサーバーの次のオプション:'
 ms.openlocfilehash: 2f156b660dc60a16c67ac9bdf54e8114ce17a0ed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235355"
 ---
 # <a name="monitoring-scope-node"></a>監視のスコープ ノード
  

@@ -14,11 +14,11 @@ ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
 description: ディレクター プールの監視サーバーを追加する場合は、監視 (CDR および QoE 指標) を選択します。
 ms.openlocfilehash: c61ec5703758e05845dbb1f56f25793d6867c850
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202367"
 ---
 # <a name="add-director-features"></a>ディレクターの機能の追加
 

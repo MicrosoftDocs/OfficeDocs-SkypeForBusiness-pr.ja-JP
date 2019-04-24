@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
 description: 後で送信する要求、またはオフラインの要求を作成するには、[要求を準備して後で送信する (オフライン証明書要求)] を選択します。 (通常、システム内部で、組織の公開キー基盤) のオンライン証明機関に直ちに要求を作成するには、[オンライン証明機関に直ちに要求を送信を選択します。
 ms.openlocfilehash: d49b3027a2d6c5bfa2c27dfcbde598748aba29f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201672"
 ---
 # <a name="certificate-request-online-offline"></a>証明書要求 (オンライン オフライン)
  

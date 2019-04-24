@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: UserAgentDef テーブルは、エージェントの説明的な名前にユーザー エージェントの id をマップします。 ユーザー エージェントは、Skype ビジネス サーバーの接続に使用されるソフトウェア ・ クライアントです。
 ms.openlocfilehash: 8f607be022851a6622060c47dedc5ac36358a3c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212055"
 ---
 # <a name="useragentdef-table-qoe"></a>UserAgentDef テーブル (QoE)
  

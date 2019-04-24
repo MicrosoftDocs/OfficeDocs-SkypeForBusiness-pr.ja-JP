@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 description: '手順 3: を要求するには、インストールまたは実行をクリックすると、証明書ウィザードで証明書の開始を割り当てます。 ウィザードで構成されている証明書は、ビジネス サーバー 2015 トポロジが構成され、中央管理ストアにトポロジ ビルダーによって公開されるため、Skype の定義に基づいています。 を組織内のオンライン証明機関 (CA) の証明書ウィザードを正常に実行するには、コンピューターのローカル管理者グループのメンバーであるユーザーとしてコンピューターにログオンしている必要があります。 コンピューターと CA が存在するドメインで認証されたドメイン ユーザーである必要があります。 証明書ウィザードでは、組織の CA にアクセスするための代替の資格情報を指定する機能を提供します。'
 ms.openlocfilehash: 616e370663a2cee1b067b31cfd04ae2d1fc9e323
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201196"
 ---
 # <a name="request-install-or-assign-certificates"></a>証明書の要求、インストール、または割り当て
  

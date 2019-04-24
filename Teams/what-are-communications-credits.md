@@ -22,11 +22,11 @@ ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
 ms.openlocfilehash: 8fa06f22d1fb31f592f520ba3b1d17c8fcaf0ccb
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30649189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211770"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -96,7 +96,7 @@ You can also see information about pricing by [signing in to the Office 365 admi
   
 ライセンスまたはライセンスの機能ごとにする必要があるテーブルを表示するには、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business PSTN 使用状況レポート](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   

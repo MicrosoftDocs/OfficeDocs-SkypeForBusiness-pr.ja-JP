@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: リモート通話コントロールでは、Lync Server は PBX 電話を制御するユーザーを有効にする Lync Server の以前のバージョンの機能をしました。 ビジネス サーバーの Skype は、この機能は作業時間を使用して呼び出しを交換済み。 Skype ビジネス サーバー 2015 と進行中の転送、リモート呼び出しのクライアント バージョンではコントロールは、クライアントで構成するのには使用できなく、使用するため削除されました
 ms.openlocfilehash: 31ee089e5f4142a0db728878d2bd35d86b628804
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206509"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>ビジネス用の Skype でのリモート通話コントロールの計画
  

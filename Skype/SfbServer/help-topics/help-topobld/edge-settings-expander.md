@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 既存の単一サーバー エッジ プールまたは複数サーバー エッジ プールの設定を編集するために、次のセクションが表示されます。
 ms.openlocfilehash: 23162ee4100c077d072d6cc1d72946059611ce7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203117"
 ---
 # <a name="edge-settings-expander"></a>エッジ設定エキスパンダー
 

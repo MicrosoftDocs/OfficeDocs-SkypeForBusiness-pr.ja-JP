@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: '概要: ビジネス サーバーの Skype のレジストラー構成設定を管理します。'
 ms.openlocfilehash: a1dda801049313cc2fc4dead94b524c300885924
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217314"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype のレジストラー構成設定を管理します。
  

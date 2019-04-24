@@ -22,11 +22,11 @@ ms.custom:
 - Reporting
 description: 分析機能を呼び出すと品質のダッシュ ボードを呼び出すを監視し、通話品質の問題のトラブルシューティングに使用する場合について説明します。
 ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993655"
+ms.locfileid: "32199812"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通話分析および通話品質ダッシュボード
 

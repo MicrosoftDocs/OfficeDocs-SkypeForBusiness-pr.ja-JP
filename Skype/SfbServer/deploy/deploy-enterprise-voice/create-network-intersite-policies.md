@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: サイト間ポリシー、Skype でのエンタープライズ VoIP 通話受付制御がビジネスのサーバーに使用するネットワークを作成します。
 ms.openlocfilehash: 6619787bf071afe719c715de39e23b992d6e6ede
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223472"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>ビジネス サーバーの Skype のネットワーク サイト間ポリシーを作成します。
  

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: プール、クォーラムの損失、および 2 つのフロント エンド サーバーとプールの特別な手順の管理を含むビジネス サーバーは、Skype でのフロント エンド プールの管理について説明します。
 ms.openlocfilehash: 43c8e3fffb010bf268f94970b5cca25ecee7cd58
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214076"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  

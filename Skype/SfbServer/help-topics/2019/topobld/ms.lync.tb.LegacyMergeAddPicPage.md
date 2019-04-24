@@ -14,11 +14,11 @@ ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
 description: Web 会議の外部 FQDN は、外部ユーザーがオンプレミス会議への参加を許可します。 従来のエッジ サーバーの web 会議の外部インターフェイスの完全修飾ドメイン名 (FQDN) を入力します。
 ms.openlocfilehash: 5402508ac733eb7a550fe4984850f8e889ae3929
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889064"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220432"
 ---
 # <a name="legacy-merge"></a>従来版のマージ
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a99fe6ea-e529-4ea7-acc4-914ab8ce5468
 description: SyndicatorsTenantMap は、内部使用のみです。 このテーブルは、Microsoft Lync Server 2013 で導入されました。
 ms.openlocfilehash: 3b8248643bf46bf84d13325dc3f44bdfb1a119e1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212790"
 ---
 # <a name="syndicatorstenantmap-table"></a>SyndicatorsTenantMap テーブル
  

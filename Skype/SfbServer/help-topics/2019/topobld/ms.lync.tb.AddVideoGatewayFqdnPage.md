@@ -14,11 +14,11 @@ ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
 ms.openlocfilehash: 3ea10d8368eb64d45badee9ef1722292a203b738
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201964"
 ---
 # <a name="add-video-gateway-fqdn"></a>ビデオ ゲートウェイの FQDN の追加
  

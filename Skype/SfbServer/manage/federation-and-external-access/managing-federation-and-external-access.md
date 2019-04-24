@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 有効にして、サポートされている外部ユーザーがビジネスのサーバーのユーザーの内部の Skype で共同作業を行うかどうか、外部ユーザー コントロールへのアクセスを構成します。
 ms.openlocfilehash: c48914ca6dc7faf03fea1a3877bd2e349e39e290
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197598"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>ビジネス サーバーのフェデレーションと Skype への外部アクセスを管理します。
 

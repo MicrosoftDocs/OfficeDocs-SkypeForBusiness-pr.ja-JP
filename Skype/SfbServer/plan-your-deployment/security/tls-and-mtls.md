@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 description: TLS プロトコルと MTLS プロトコルにより、インターネット上での通信の暗号化とエンドポイント認証機能が提供されます。 Skype ビジネス サーバーは、信頼されたサーバーのネットワークを作成して、そのネットワーク上のすべての通信が暗号化されていることを確認するのにはこれら 2 つのプロトコルを使用します。 サーバー間のすべての SIP 通信は MTLS により行われます。 クライアントからサーバーへの SIP 通信は TLS により行われます。
 ms.openlocfilehash: b00ce2102d858db36500f78af47596677ce6d6dd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213502"
 ---
 # <a name="tls-and-mtls-for-skype-for-business-server"></a>TLS と Skype ビジネス サーバー用の MTLS
  

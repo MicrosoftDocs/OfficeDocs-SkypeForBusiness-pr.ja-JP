@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: '概要: は、サーバーのエッジをビジネス環境に、Skype を計画します。 このトピックでは、エッジの概念を紹介し、より詳細なトピックで体系的に学習できるようにします。'
 ms.openlocfilehash: e2154abd7e263b92011ca198ddaa1b90f8bd38c7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207140"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Skype でビジネス サーバー用のエッジ サーバー展開の計画
  

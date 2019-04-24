@@ -14,11 +14,11 @@ ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: アーカイブには、Microsoft SQL Server データベース ・ ソフトウェア ・ アーカイブ ・ データを格納するのにサポートされている 64 ビット版が必要です。 アーカイブに使用する定義済みの SQL Server データベースを選択するか、SQL Server データベースを SQL の Se のインスタンスだけでなく、あるサーバーの完全修飾ドメイン名 (FQDN) を指定することにより、新しい SQL Server データベースの定義した rver の新しい SQL Server データベース (既定のインスタンスまたは名前付きインスタンスを指定することができます) を使用します。
 ms.openlocfilehash: e43d7de6598a24306cc9622f24bea0b2b7e7cc25
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202090"
 ---
 # <a name="add-front-end-archiving-store"></a>フロントエンド アーカイブ ストアの追加
 

@@ -19,11 +19,11 @@ ms.custom:
 hideEdit: true
 description: カナダの IP 中継アカウントにはため息をついたりする方法です。
 ms.openlocfilehash: ce63d4fb99d44584d2628c9b5e891e4931814b12
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194230"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>カナダでの IP 中継 - サインアップ
 
@@ -31,12 +31,12 @@ ms.locfileid: "23862829"
 
 |||
 |:-----|:-----|
-|最初と最後の名前:||
+|最初の & ラスト ネーム:||
 |Office 365 テナント ドメインの名前。 <br/>(例: Contoso.com)||
 |Office 365 ユーザーの電話番号: <br/>例: +1 XXX XXX XXXX) ||
 |パスワード (8 ~ 16 文字): ||
 |最も可能性の高い物理アドレス <br/>緊急の時に。||
-|番地と名前:||
+|ストリート番号 & の名前。||
 |アパートメント/スイート。||
 |都市:||
 |州の状態とします。||

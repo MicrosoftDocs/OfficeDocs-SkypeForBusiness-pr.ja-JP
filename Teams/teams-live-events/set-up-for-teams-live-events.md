@@ -17,11 +17,11 @@ f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 957db93e2eb8cba5b2b35388b00ed4d38b21d6ca
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204608"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 

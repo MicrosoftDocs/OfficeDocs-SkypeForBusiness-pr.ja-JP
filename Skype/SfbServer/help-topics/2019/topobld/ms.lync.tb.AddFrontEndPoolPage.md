@@ -14,11 +14,11 @@ ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 作成しているフロント エンド プールの完全修飾ドメイン名 (FQDN) を指定します。 フロント エンド プールを含むトポロジを公開した後は、プールの FQDN を変更できません。 プールの名前を変更する場合は、プールを削除し、新しい FQDN を持つ新しいプールを追加します。
 ms.openlocfilehash: 28e831df0cdf86620eefc1a22ced199507026c46
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202062"
 ---
 # <a name="add-front-end-pool-fqdn"></a>フロントエンド プールの FQDN の追加
  

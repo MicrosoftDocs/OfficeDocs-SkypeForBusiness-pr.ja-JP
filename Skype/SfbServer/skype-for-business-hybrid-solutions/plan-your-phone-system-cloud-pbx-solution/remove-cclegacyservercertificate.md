@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: Remove-CcLegacyServerCertificate コマンドレットは、Renew-CcCACertificate または Renew CcServerCertificate コマンドレットの実行後に、中央管理ストア、仲介サーバーおよびエッジ サーバー上にあるレガシー サーバーの証明書を削除します。
 ms.openlocfilehash: 5f148aa083b646565adf0158f34fb15314296170
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250899"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  

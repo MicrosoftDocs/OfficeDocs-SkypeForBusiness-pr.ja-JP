@@ -14,11 +14,11 @@ ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 ROBOTS: NOINDEX, NOFOLLOW
 description: ディレクターのファイル ストアとして使用するファイル共有を指定する必要があります。既存のファイル共有をファイル ストアに使用できます。または、ファイル共有を配置するファイル サーバーの完全修飾ドメイン名 (FQDN) と新しいファイル共有のフォルダー名を指定して、新しいファイル共有を指定することもできます。
 ms.openlocfilehash: a393d64bd353b1f0f93da9046900c3503611fef1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235499"
 ---
 # <a name="add-director-file-store"></a>ディレクターのファイル ストアの追加
 

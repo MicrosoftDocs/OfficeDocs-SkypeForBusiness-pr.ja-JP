@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: ErrorReport テーブルでは、発生したエラーに関する情報を格納します。 各レコードは、1 つのエラーの発生です。 エラーは、フロント エンド サーバーで実行されている CDR エージェントがいずれかの方法を取得またはクライアントから送信されます。
 ms.openlocfilehash: 99dcdc7aa78b20f555f94614ba94c80103b56211
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213131"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype で ErrorReport テーブル
  

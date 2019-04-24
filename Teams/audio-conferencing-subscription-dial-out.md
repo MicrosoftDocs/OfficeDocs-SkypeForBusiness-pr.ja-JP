@@ -1,5 +1,5 @@
 ---
-title: オーディオ会議サブスクリプション「ダイヤルアウト」を呼び出す私にメリット/
+title: 電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Licensing
 description: 'お客様は、2019 年 11 月 30 日に終了する無料のダイヤル ・ アウト機能を提供されています。  開始 2019 年 12 月 1日オーディオ会議サービスは、1 か月にこのドキュメントで説明したように、ゾーン A 国のいずれかのユーザー 1 人あたり 60 分を提供します。 '
 ms.openlocfilehash: 890441987eb0f08d67afe8a7f231c9a534c59a7f
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31809430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198617"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>オーディオ会議サブスクリプション「ダイヤルアウト」を呼び出す私にメリット/
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>マイクロソフトのチームと PSTN 電話会議のビジネス用の Skype
 

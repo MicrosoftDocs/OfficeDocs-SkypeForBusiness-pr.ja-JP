@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: Search-CcLog コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンス ログ ディレクトリで着信および発信の通話ログを検索します。
 ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892766"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250900"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  

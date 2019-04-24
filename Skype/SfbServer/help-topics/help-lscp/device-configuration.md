@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: デバイスの構成は、全体またはサイト内のいずれか、ビジネス電話のエディション デバイスでは、Skype を管理するために使用される設定のコレクションです。 これらの設定により、必要なセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定などを構成したり、指定した非アクティブ期間の経過後、電話を自動的にロックするかどうかを指定したりすることができます。
 ms.openlocfilehash: 20f288ab601fb53aa9d4dbb622170da8964fc9e3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200766"
 ---
 # <a name="device-configuration"></a>デバイス構成
  

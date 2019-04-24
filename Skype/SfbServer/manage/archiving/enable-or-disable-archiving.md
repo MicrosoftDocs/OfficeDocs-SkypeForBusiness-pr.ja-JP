@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: '概要: は、有効または、Skype のビジネス サーバーのアーカイブを無効にする方法を説明します。'
 ms.openlocfilehash: b7f9ab424a9fc24c733fa61c75c1d4564b636941
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250911"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>有効にするか、Skype のビジネス サーバーのアーカイブを無効にします。
 

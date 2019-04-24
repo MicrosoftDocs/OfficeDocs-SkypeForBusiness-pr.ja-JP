@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: e62dd8a19e2207f6b40864cab19a3fda48d184fe
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204658"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -39,9 +39,9 @@ ms.locfileid: "31517080"
 
 |ユーザーの有効なモード|チームのクライアントで発生します。|
 |---|---|
-|ビジネス モードでは、Skype|通話とチャット<sup>1</sup>が無効になります。|
+|ビジネス モードでは、Skype|通話とチャットが無効になります。|
 |SfBWithTeamsCollabAndMeetings|会議のスケジュール設定があります。|
-|SfBWithTeamsCollab または SfBOnly の<sup>2</sup>|会議のスケジュール設定は使用できません。|
+|SfBWithTeamsCollab または SfBOnly<sup>1</sup>|会議のスケジュール設定は使用できません。|
 |||
 
 次のスクリーン ショットは、TeamsOnly または島のモードとその他のすべてのモードの違いを示しています。 チャットと通話のアイコンは、TeamsOnly または島モード (スクリーン ショットを左)、しない場合は、その他のモード (右のスクリーン ショット) で使用に注意してください。
@@ -50,10 +50,8 @@ ms.locfileid: "31517080"
 
 
  
-**メモ:**
-<sup>1</sup>会議チャットが利用できます。
-
-<sup>2</sup>ここでは、SfBwithTeamsCollab と SfBOnly の動作は同じですが、SfBOnly モードでもチームでのチャネル、およびファイルの機能を無効にすることが目的ただし、設定されていない現在無効にするチームでこの機能を可能にします。
+**注:**
+ここでは、SfBwithTeamsCollab と SfBOnly<sup>1</sup>の動作は同じですが、SfBOnly モードでもチームでのチャネル、およびファイルの機能を無効にすることが目的ただし、設定されていない現在無効にするチームでこの機能を可能にします。
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>モードの他のポリシー設定への影響
@@ -75,7 +73,7 @@ ms.locfileid: "31517080"
 |SfBWithTeamsCollab または SfBOnly|無効|無効|無効|無効|
 ||||||
 
-近い将来に、`Grant-CsTeamsUpgradePolicy`コマンドレットがこれらの設定は、TeamsUpgradePolicy によって上書きされますが、その場合を決定するには、TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy に対応する設定の構成を確認します。PowerShell では、情報メッセージが提供されます。  上記で述べたようにこれらのポリシー設定を設定する必要はありません。 以下には、次のようにどのような PowerShell の警告の例を示します。
+PowerShell を使用する場合、`Grant-CsTeamsUpgradePolicy`コマンドレットは、これらの設定は、TeamsUpgradePolicy によって上書きされますが、その場合を決定するには、TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy に対応する設定の構成を確認します。PowerShell では、情報メッセージが提供されます。  上記で述べたようにこれらのポリシー設定を設定する必要はありません。 以下には、次のようにどのような PowerShell の警告の例を示します。
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

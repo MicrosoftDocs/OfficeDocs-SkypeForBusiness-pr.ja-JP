@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されます無料電話番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 854b471cff9affeb6c051a1a7d8993aeb27f7f6d
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 3fe9985d6f87672927bd0f6dfe24783455948111
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204446"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>無料電話ダイヤルの制限事項
 
@@ -39,8 +39,9 @@ ms.locfileid: "30649397"
 
 > [!div class="op_single_selector"]    
 > - [アルゼンチン](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
-> - [Australia]toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+> - [オーストラリア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 > - [ベラルーシ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+> - [Belgium](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 > - [ベリーズ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 > - [ボスニア・ヘルツェゴビナ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 > - [ブラジル](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)

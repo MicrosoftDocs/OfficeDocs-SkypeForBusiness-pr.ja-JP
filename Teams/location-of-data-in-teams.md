@@ -16,26 +16,26 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7a5c8ca2676b62382c146f897453ffa4e8624ecc
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222356"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams のデータの場所
 
 Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現時点では、チームでは、オーストラリア、カナダ、インド、日本、アメリカ合衆国、南北アメリカ、APAC、および EMEA 地域をサポートしています。 
 
 > [!IMPORTANT]
-> チーム現在提供していますデータの常駐サービス、オーストラリア、カナダ、インド、日本、および英国で新しいテナントのみのです。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 APAC 地域に格納されている、チームのデータが存在するオーストラリア、インド、日本からの既存のテナントが続行されます。 カナダ、英国内の既存のテナントは、南北アメリカに格納されているデータには、EMEA 地域では、それぞれ。
+> チーム現在提供していますデータの常駐サービス、オーストラリア、カナダ、インド、日本、および英国で新しいテナントのみのです。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 オーストラリア、インド、日本の既存のテナントは、引き続き APAC 地域に保存されている Teams のデータを保有します。 カナダ、英国内の既存のテナントは、南北アメリカに格納されているデータには、EMEA 地域では、それぞれ。
 
 チームのインドとイギリスのデータの常駐サービスの起動に関する詳細については、[マイクロソフトのチームがインド データ常駐サービス、その他の地域の準備中を起動](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)Ansuman Acharya のブログの投稿を参照してください。 
 
-チームのカナダのデータの常駐サービスの詳細については、[マイクロソフト チーム カナダ データ常駐の起動、オーストラリアおよび日本の準備中](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)に、Varun Sagar のブログ投稿を参照してください。 
+Teams でのカナダにおけるデータ常駐の詳細については、Varun Sagar (バルン・サガール) 氏のブログ投稿記事「[Microsoft Teams Launches Canada Data Residency, Australia and Japan coming soon (Microsoft Teams によるカナダでのデータ常駐が開始、オーストラリアと日本では近日中に開始)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)」をご覧ください。 
 
-チームのオーストラリアと日本のデータ常駐サービスの起動に関する詳細については、[マイクロソフト チームの起動のオーストラリアと日本のデータの常駐](https://go.microsoft.com/fwlink/?linkid=867773)Varun Sagar のブログ記事を参照してください。 
+Teams のオーストラリアと日本におけるデータ常駐開始の詳細については、Varun Sagar (バルン・サガール) 氏のブログ投稿記事「[Microsoft Teams Launches Australia and Japan Data Residency (Microsoft Teams がオーストラリアと日本のデータ常駐を開始)](https://go.microsoft.com/fwlink/?linkid=867773)」をご覧ください。 
 
-どの地域、テナントのデータを格納するを表示するにはを参照して、 [Office 365 管理者センター](https://portal.office.com/adminportal/home) > **設定** > **組織プロファイル**です。 下にスクロールして [**データの場所**] に移動します。 
+どの地域でご利用のテナントのデータが格納されるかを確認するには、[[Office 365 管理センター](https://portal.office.com/adminportal/home)]  >  [**設定**]  >  [**組織概要**] に移動してください。 下にスクロールして [**データの場所**] に移動します。 
 
 ![Office 365 の管理ページで、チームを含む、データの場所テーブルのスクリーン ショットです。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

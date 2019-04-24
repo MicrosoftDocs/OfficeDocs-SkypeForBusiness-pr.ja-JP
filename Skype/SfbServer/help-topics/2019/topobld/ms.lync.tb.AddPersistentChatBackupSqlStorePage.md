@@ -14,11 +14,11 @@ ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 永続的なチャット サーバーまたはプールの永続的なチャット サーバーのデータベースのバックアップを提供する SQL Server のバックアップ ストアを構成するとします。
 ms.openlocfilehash: e5556018a69e87a462f7f06f09e69f9312f1dde2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202013"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>常設チャット バックアップ SQL Server ストアの追加
 

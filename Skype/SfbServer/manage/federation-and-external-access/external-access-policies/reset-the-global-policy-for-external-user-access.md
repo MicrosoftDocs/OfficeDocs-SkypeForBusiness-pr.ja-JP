@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: グローバル ポリシーを完全に削除することはできません。 外部ユーザー アクセス オプションのサポートが含まれていない既定の設定をグローバル ポリシーをリセットすることがのみグローバル ポリシーを**削除**する] オプションを使用します。
 ms.openlocfilehash: 048d1f1aabd2e188cefa25358068ea6ec150b8f3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197626"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>ビジネス サーバーの Skype での外部ユーザー アクセスのグローバル ポリシーをリセットします。 
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: '概要: は、Skype のビジネスのサーバーが使用する会議の活動レポートについて説明します。'
 ms.openlocfilehash: 09ad67452c9c24aff8e0f67998b654ade8d929fd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199914"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Skype のビジネス サーバーの会議の活動をレポート
  

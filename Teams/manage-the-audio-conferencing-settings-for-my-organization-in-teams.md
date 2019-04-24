@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
 ms.openlocfilehash: 201da13370852b6506fe7aa32f695d973bcc637a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202766"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -112,7 +112,7 @@ ms.locfileid: "30463893"
 
 [電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) を参照してください。
   
-## <a name="set-the-phone-numbers-included-on-invites"></a>出席依頼に含まれている電話番号を設定する
+## <a name="set-the-phone-numbers-included-on-invites"></a>招待状に含まれている電話番号を設定する
 
 ![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
 

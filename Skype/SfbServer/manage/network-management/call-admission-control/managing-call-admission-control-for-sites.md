@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ネットワーク サイトは、オフィスや受付制御 (CAC)、~ 9-1-1、およびメディア バイ パスの展開の場合は、各ネットワーク地域内の場所を呼び出します。
 ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199225"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Skype for Business Server でのサイトの通話受付管理サービスの管理
 
@@ -184,7 +184,7 @@ Windows PowerShell と Get CsNetworkSite コマンドレットを使用してネ
 
 5.  [**編集**] メニューの [**削除**] をクリックします。
 
-6.  [**OK**] をクリックします。
+6.  **[OK]** をクリックします。
     
 
     > [!WARNING]  

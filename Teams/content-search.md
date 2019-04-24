@@ -14,11 +14,11 @@ description: コンテンツの検索では、マイクロソフトのチーム�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1860f3e5f79cd1ff2a2a63a8b49bf0dcfd65638f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30540617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194671"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams のコンテンツ検索を使用する
 =====================================
@@ -34,5 +34,5 @@ ms.locfileid: "30540617"
 > [!TIP]
 > 検索条件を追加すると、レポートまたはデータを分析には、コンピューターにエクスポートできます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [電子的証拠開示の場合は、Office 365 のセキュリティ & コンプライアンス センター](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

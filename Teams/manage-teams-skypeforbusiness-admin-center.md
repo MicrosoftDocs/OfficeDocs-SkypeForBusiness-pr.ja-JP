@@ -20,11 +20,11 @@ appliesto:
 - Microsoft Teams
 - Skype for Business Online
 ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199568"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
 ======================================================
@@ -53,27 +53,27 @@ ms.locfileid: "30493693"
 |カスタム クラウド ストレージ     |Google ドライブ        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
 |カスタム クラウド ストレージ     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
 |ユーザーとライセンスの種類を設定     |すべてのユーザーの Microsoft チームのオンとオフをオンにします。          |廃止<sup>1</sup>        |         |
-|チームとチャネル     |         |Azure Active Directory グループの管理 (現在のエクスペリエンスと同じ) にリダイレクトします。              |ユーザー         |
-|チームとチャネル     |         |AAD グループの管理 (現在のエクスペリエンスと同じ) にリダイレクトします。             |ユーザー          |
+|Teams とチャネル     |         |Azure Active Directory グループの管理 (現在のエクスペリエンスと同じ) にリダイレクトします。              |ユーザー         |
+|Teams とチャネル     |         |AAD グループの管理 (現在のエクスペリエンスと同じ) にリダイレクトします。             |ユーザー          |
 |アプリ|Enable new external apps by default (既定で新しい外部アプリを有効にする)|組織全体にわたるアプリケーションの設定|テナント|
 |アプリ|外部のアプリケーションを許可します。|組織全体にわたるアプリケーションの設定|テナント|
 |アプリ|外部アプリケーション<sup>2</sup>の sideloading を許可します。|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|ユーザー|
 |アプリ|既定のアプリケーション<sup>3</sup>|TeamsAppPermissionPolicy|ユーザー|
 |アプリ|外部アプリケーション<sup>3</sup>|TeamsAppPermissionPolicy|ユーザー|
-|通話や会議     |プライベート会議の予約を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
+|通話や会議     |個人の会議のスケジュールを設定できるようにします。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
 |通話や会議     |アドホック チャネルの meetup を許可します。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
-|通話や会議     |チャネル会議の予約を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
+|通話や会議     |チャネルの会議のスケジュールを設定できるようにします。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
 |通話や会議     |会議のビデオを許可します。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
 |通話や会議     |画面の会議で共有を許可します。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
 |通話や会議     |プライベート通話を許可します。         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |ユーザー          |
-|メッセージング     |Gif を会話に追加できるように、Giphy を有効にします。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング     |コンテンツの規制         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング     |Memes のユーザーは編集したり、会話に追加するを有効にします。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング     |ユーザーが編集および会話に追加できるステッカーを有効にします。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング     |所有者がすべてのメッセージを削除するのには         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング     |独自のメッセージの編集を許可します。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング     |独自のメッセージを削除するユーザーを許可します。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング     |個別にチャットすることができます。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |Gif を会話に追加できるように、Giphy を有効にします。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |コンテンツの規制         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |Memes のユーザーは編集したり、会話に追加するを有効にします。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |ユーザーが編集および会話に追加できるステッカーを有効にします。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |所有者がすべてのメッセージを削除するのには         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |独自のメッセージの編集を許可します。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |独自のメッセージを削除するユーザーを許可します。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |個別にチャットすることができます。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
 
 <sup>1</sup>は、ゲストから廃止されます。 ゲストを有効にする無効にすると管理できるように、マイクロソフトのチーム管理センターで。 企業、Edu の学生のチームを有効にする無効にして、Edu 教職員がすぐに使用できません。 これは、Office 365 の管理センターでのライセンスを割り当てることによって管理する必要があります。 [マイクロソフトのチームへのユーザー アクセスの管理](user-access.md)を参照してください。
 <br><br>
@@ -95,20 +95,20 @@ ms.locfileid: "30493693"
 
 |機能  |マイクロソフトのチーム管理センター                      |Skype のビジネス管理センター (レガシ)  |Office 365 管理者センター  |
 |---------|:---------:|:---------:|:---------:|
-|チームが、メッセージング、会議、およびイベントのライブのポリシー     |     ○    |         |         |
-|チームのアップグレードのポリシー     |    ○     |         |         |
-|ゲストのメッセージ、会議、および音声の設定     |   ○      |         |         |
-|チームのライフ サイクル管理   |    ○    |      |       |
-|チームの設定   |    ○    |      |       |
-|外部アクセスの設定     |    ○    |      |       |
-|ユーザーの管理    |         |         |    ○     |    
-|オーディオ会議     |    X     |    X     |         |
-|通話プラン     |         |    ○     |         |
-|電話システム    |         |     ○    |         |
-|電話番号の管理     |         |   ○      |         |
-|クラウドの音声機能のライセンス     |         |         |    ○     |
-|自動応答     |         |    ○     |         |
-|通話キュー     |         |    ○     |         |
+|チームが、メッセージング、会議、およびイベントのライブのポリシー     |     X    |         |         |
+|チームのアップグレードのポリシー     |    X     |         |         |
+|ゲストのメッセージ、会議、および音声の設定     |   X      |         |         |
+|チームのライフ サイクル管理   |    X    |      |       |
+|チームの設定   |    X    |      |       |
+|外部アクセスの設定     |    X    |      |       |
+|ユーザーの管理    |         |         |    X     |    
+|電話会議     |    X     |    X     |         |
+|通話プラン     |         |    X     |         |
+|電話システム    |         |     X    |         |
+|電話番号の管理     |         |   X      |         |
+|クラウドの音声機能のライセンス     |         |         |    X     |
+|自動応答     |         |    X     |         |
+|通話キュー     |         |    X     |         |
 
 ## <a name="manage-settings-after-the-migration"></a>移行後の設定を管理します。
 

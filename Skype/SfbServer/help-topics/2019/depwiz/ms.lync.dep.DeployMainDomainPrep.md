@@ -14,11 +14,11 @@ ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'ビジネス サーバーのユーザーのビジネス サーバーまたは Skype の Skype を実行しているホスト サーバーにドメインを準備するには、手順 5 を完了する必要があります: 準備現在のドメイン、ドメインの準備の実行に使用するセットアップのトピックで説明されているようです。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
 ms.openlocfilehash: 0544381fbb4965bd370f1ac128d2e203de0cb109
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216173"
 ---
 # <a name="prepare-current-domain"></a>現在のドメインの準備
 

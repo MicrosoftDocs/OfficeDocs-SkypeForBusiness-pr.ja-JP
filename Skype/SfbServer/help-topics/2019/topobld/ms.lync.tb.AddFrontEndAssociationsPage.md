@@ -14,11 +14,11 @@ ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: サーバーの役割をフロントエンド プールに今すぐ関連付けて、他のサーバーの展開に必要な特定の機能のサポートを有効にできます。後でサーバーの役割をフロントエンド プールに関連付けることもできます。フロントエンド プールに関連付けることができるサーバーの役割には、次のものがあります。
 ms.openlocfilehash: 112c9c4d843e7b51ff52ccbb79eec0cd9df1bc40
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202074"
 ---
 # <a name="add-front-end-associations"></a>フロントエンドの関連付けの追加
 

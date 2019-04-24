@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: ネットワーク領域、ネットワーク サイト、および IP サブネットについて説明します。 これらの計画、ビジネスの Skype でメディアをバイパスするために計画を展開するように構成する必要がありますすべて受付制御に電話 Skype ビジネス サーバー)、または Skype のビジネス サーバーのビジネス サーバーのエンタープライズ VoIP の Skype で緊急サービスを計画します。
 ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206558"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Skype で高度なエンタープライズ VoIP 機能のビジネス サーバー用のネットワーク設定
 

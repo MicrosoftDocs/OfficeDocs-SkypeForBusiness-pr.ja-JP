@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype では、コール パーク軌道範囲テーブルを変更します。
 ms.openlocfilehash: 23de2c42ff7b7e8bf3c020eaf3bb5050524b87d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212531"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>作成またはビジネス用の Skype でコール パークの移動範囲を変更します。
 

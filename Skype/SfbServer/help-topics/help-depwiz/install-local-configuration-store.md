@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: ビジネス サーバー 2015 の役割を持つサーバーの新しい Skype のインストールを開始するには、最初にローカル構成ストアをホストするローカルの SQL Server をインストールする必要があります。 ローカル構成ストアは、ビジネスのサーバーの中央管理ストア (CMS) の Skype の読み取り専用レプリカとして機能します。 [ローカル構成ストアのインストール] 手順を実行しているサーバーに、そのコンピューターのローカル管理者としてログオンすると共に、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーシップを持っている必要があります。 エッジ サーバーでセットアップを実行する場合は、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーでなくても構いません。 トポロジ ビルダー定義ドキュメントの代わりに中央管理ストアからエクスポートした定義ドキュメントから読み取られます。 トポロジ ビルダー定義ドキュメントをエクスポートしてエッジ サーバーを使用できるように、エッジのインストールのトピックのトポロジーのエクスポートとコピーして、外部メディアを参照してください。
 ms.openlocfilehash: 758b32178dcb574e5e929c88bc5744d495b6420f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201252"
 ---
 # <a name="install-local-configuration-store"></a>ローカル構成ストアのインストール
 

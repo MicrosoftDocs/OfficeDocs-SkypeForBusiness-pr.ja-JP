@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバー 2015 のください。
 ms.openlocfilehash: 166c2a367f7b93f6e20fa0e13f0ca86a76ef7c2f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222341"
 ---
 # <a name="add-vis-usage"></a>VIS 使用法の追加
  

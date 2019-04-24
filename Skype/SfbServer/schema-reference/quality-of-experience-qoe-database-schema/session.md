@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 各レコードは、オーディオまたはオーディオとビデオでは、1 つのセッションを表します。 セッションに関する全体的な情報が含まれています。 セッションは、2 つのエンドポイント間でオーディオまたはビデオのセッション開始プロトコル (SIP) ダイアログとして定義されます。
 ms.openlocfilehash: 7a0ea3f9753529c22299ef46017b863c314319b5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212377"
 ---
 # <a name="session-table"></a>Session テーブル
  

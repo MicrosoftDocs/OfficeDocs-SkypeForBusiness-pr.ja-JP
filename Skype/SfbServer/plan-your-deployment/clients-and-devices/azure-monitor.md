@@ -12,11 +12,11 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: M365-voice
 description: この資料では、Azure のモニターを使用して企業やチームの実装については、Skype でマイクロソフト チームの会議室のデバイスを管理するための計画に関する考慮事項について説明します。
 ms.openlocfilehash: dfa65435da63eb9783422e1e7ee10e66ba33b891
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214574"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure のモニターを使用して Microsoft チームの会議室の管理を計画します。
  

@@ -14,11 +14,11 @@ ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、このフロントエンド プールまたは Standard Edition サーバーの構成情報が表示されます。 以下のアクションを実行できます。
 ms.openlocfilehash: 509f5c71b9eeff12edd5c183fcdef19de3d3b767
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220474"
 ---
 # <a name="front-end-server-scope-node"></a>フロントエンド サーバーのスコープ ノード
  

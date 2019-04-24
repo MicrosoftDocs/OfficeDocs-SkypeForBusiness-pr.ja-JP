@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ublic のインスタント メッセージング (IM) 接続では、パブリック IM サービス プロバイダーが提供する IM サービスのユーザーと通信するために IM を使用する、組織内のユーザーを使用できます。
 ms.openlocfilehash: 3ed19bf692ccc7dfc39466e304b3b1371164758c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197612"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>ビジネス サーバーの Skype のパブリック ユーザー アクセスを制御するポリシーを構成します。
 

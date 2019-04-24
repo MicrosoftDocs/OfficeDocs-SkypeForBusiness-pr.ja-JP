@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: '概要: は、Skype のビジネス サーバーのアーカイブのユーザー ポリシーを管理する方法を説明します。'
 ms.openlocfilehash: 289902ded6f1530c74f9c945517a3c853c99d364
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211056"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのアーカイブ ・ ポリシーを管理します。
 

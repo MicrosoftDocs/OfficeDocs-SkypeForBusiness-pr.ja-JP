@@ -16,19 +16,19 @@ ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: '概要: は、これらの概念、論理を開発する方法について説明へのリンクと Skype のビジネス サーバー 2015 機能、サーバー、およびトポロジの構成の物理設計について説明します。'
 ms.openlocfilehash: bc0df4bb1cf4c10b915c181f7f76c2586cf001be
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207791"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Skype for Business Server 2015 展開の計画
  
 **の概要:** これらの概念、論理を開発する方法について説明へのリンクと Skype のビジネス サーバー 2015 機能、サーバー、およびトポロジの構成の物理設計について説明します。
   
-ビジネス サーバー用の Skype は、インスタント メッセージング (IM)、プレゼンス、会議、ビデオ、およびエンタープライズ レベルのコラボレーション要件をサポートするテレフォニー ソリューションを提供します。 このトピックでは、ビジネス サーバーの展開の成功の Skype を計画する方法に関する情報へのリンクを提供します。 
+Skype for Business Server は、エンタープライズレベルのコラボレーションの要件をサポートできる、インスタント メッセージング (IM)、プレゼンス、会議、ビデオ、およびテレフォニーのソリューションを提供します。 このトピックでは、ビジネス サーバーの展開の成功の Skype を計画する方法に関する情報へのリンクを提供します。 
   
-新たな情報が入手されたりユーザーからフィードバックが寄せられたりするたびに執筆担当者が継続的に記事を更新しています。 このページは頻繁に更新されるので、随時にチェックしてください。
+記事は、情報の新規公開やユーザーからのフィードバックに応じて随時更新されます。 このページは頻繁に更新されるので、随時にチェックしてください。
 ## <a name="visual-resources-about-how-to-plan-for-skype-for-business-server"></a>ビジネス サーバーに、Skype を計画する方法に関するリソースを視覚的
 
 Skype をビジネス サーバーの展開を計画する方法の詳細については、次のリソースを表示します。
@@ -54,12 +54,12 @@ Skype をビジネス サーバーの展開を計画する方法の詳細につ�
 |**[ビジネス サーバーとオンライン ビジネスの Skype の Skype 間のハイブリッド接続の計画](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)** ビジネス サーバーの設置型の Skype と Skype のオンライン ビジネスの両方に置かれているユーザーを使用していますか。 If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain. <br/> ||
 |**[ビジネス サーバー 2015 の Skype でエッジ サーバーの展開の計画](edge-server-deployments/edge-server-deployments.md)** 組織は、内部ネットワーク外のユーザーと通信しますか。 その場合は、組織のファイアウォールを越えて通信をサポートするためにエッジ サーバーを展開する方法について参照してください。 <br/> ||
    
-## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Skype ビジネス サーバーの計画に関するその他のリソース
+## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Skype for Business Server の計画に関するその他の参考資料
 
-ビジネスのサーバーに、Skype を計画する方法については、次のリソースは、他の分野の専門家から使用できます。 
+Skype for Business Server の計画方法に関する次の参考資料がその他の専門部門から入手できます。 
   
 ||**コンテンツ**|**説明**|
 |:--- |:--- |:--- |
-|![ドキュメントのアイコン](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[IT 担当者向けのビジネス サーバーの Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |アクセスのビデオ、コミュニティ サイト、ドキュメント、ダウンロード、および詳細には、リソース センターを参照してください。  <br/> |
-|![開発者向けコンテンツのアイコン](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype の開発者用プラットフォーム](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |ビジネス サーバーには、コード サンプル、トレーニング、および Sdk を含む、Skype の開発者向けリソースを検索します。  <br/> |
-|![ニュース、ブログなどのアイコン](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office のブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 の技術的なブログ](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype チームのブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |ビジネス サーバーのチームを作成してドキュメント Skype からのニュースを維持します。  <br/> |
+|![ドキュメントのアイコン](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server (IT 担当者向け)](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |ビデオ、コミュニティ サイト、ドキュメント、ダウンロードなどを利用するには、リソース センターにアクセスしてください。  <br/> |
+|![開発者向けコンテンツのアイコン](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype 開発者用プラットフォーム](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Skype for Business Server 用の開発者向けリソースとして、コード サンプル、トレーニング、SDK などが用意されています。  <br/> |
+|![ニュース、ブログなどのアイコン](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 の技術的なブログ](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype チーム ブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Skype for Business Server を開発し、ドキュメントを提供しているチームからのお知らせを定期的にチェックしてください。  <br/> |

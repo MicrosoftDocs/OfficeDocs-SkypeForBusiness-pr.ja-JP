@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: 'トポロジ: 展開では、サーバー アプリケーションがサーバー アプリケーションのページに表示されます。'
 ms.openlocfilehash: 8f49a587dc77de96e0097025e0bc493ca7d66132
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220064"
 ---
 # <a name="topology-server-application"></a>トポロジ: サーバー アプリケーション
 

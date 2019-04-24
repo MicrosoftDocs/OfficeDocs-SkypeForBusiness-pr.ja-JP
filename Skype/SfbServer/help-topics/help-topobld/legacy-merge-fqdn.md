@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: アクセス エッジ プールの内部 FQDN は、フェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続の外部ユーザーと内部ユーザーの通信、さまざまなシナリオに使用されます。 レガシ環境で負荷分散されたエッジ サーバーが配置された場合は、内部ロード バランサー機器の完全修飾ドメイン名 (FQDN) を入力します。
 ms.openlocfilehash: 38febd8b6d37d186706dc6d4ce43df5a9585c475
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200188"
 ---
 # <a name="legacy-merge-fqdn"></a>従来版のマージ FQDN
  

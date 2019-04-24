@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 description: このテーブルの各レコードは、1 つの IM 会議に 1 人のユーザーを表し、そのユーザーから送信されたメッセージの数が含まれています。 各会議は、このテーブル内の複数のレコードで表されます。ユーザーごとに 1 つのレコードです。
 ms.openlocfilehash: 60fa79de17c2db14116bd0ffe211e25a61ec9136
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213278"
 ---
 # <a name="conferencemessagecount-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での ConferenceMessageCount テーブル
  

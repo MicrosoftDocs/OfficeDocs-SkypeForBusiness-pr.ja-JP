@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: '概要: は、Skype でビジネス サーバー用のエクスペリエンスの品質 (QoE) の設定について説明します。'
 ms.openlocfilehash: 971d3488d0c6d20586e33424c1fbb2b197b31241
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198240"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーのため、Skype で高品質なエクスペリエンスの構成設定を作成します。
  

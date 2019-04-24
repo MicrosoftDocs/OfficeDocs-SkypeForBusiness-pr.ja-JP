@@ -14,11 +14,11 @@ ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
 ROBOTS: NOINDEX, NOFOLLOW
 description: エッジ サーバーの単一 FQDN ページに関する情報です。
 ms.openlocfilehash: 3592bcef47a372bb4ee188c64840c2798ee311d2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202125"
 ---
 # <a name="add-edge-server-with-single-fqdn-page"></a>単一 FQDN ページを持つエッジ サーバーを追加する
  

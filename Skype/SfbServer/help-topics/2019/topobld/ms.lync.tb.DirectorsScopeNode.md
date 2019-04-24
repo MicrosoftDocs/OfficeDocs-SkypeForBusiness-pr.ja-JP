@@ -14,11 +14,11 @@ ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ディレクター プール] ノードには、トポロジ内のディレクター プールが一覧表示されます。 以下のアクションを実行できます。'
 ms.openlocfilehash: 8d0298c68cbc845116c0a08c5e21b0d59186be9f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220678"
 ---
 # <a name="directors-scope-node"></a>ディレクターのスコープ ノード
  
