@@ -1,5 +1,5 @@
 ---
-title: チームのシフト
+title: Shifts for Teams
 description: 設定し、スケジュール管理ツールで、チームでのシフトを管理する必要があります管理者ガイドを取得します。
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245909"
 ---
-# <a name="shifts-for-teams"></a>チームのシフト
+# <a name="shifts-for-teams"></a>Shifts for Teams
 
 チームでは、先頭行の作業者、組織の通信し共同作業を効果的に行うし、最適な作業を行うに必要なツールです。 管理者ガイドを設定し、スケジュール管理ツールで、チームでのシフトを管理する必要がありますがあります。
 
