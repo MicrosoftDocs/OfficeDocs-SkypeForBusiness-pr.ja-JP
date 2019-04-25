@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームにすぐに今後の機能の先頭行の作業者
+title: 現場担当者の管理機能が間もなくMicrosoft Teamsに登場
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -14,13 +14,13 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c96510d0015e8ff026dee28567c7626196007fd6
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245817"
 ---
-# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>マイクロソフトのチームにすぐに今後の機能の先頭行の作業者
+# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>現場担当者の管理機能が間もなくMicrosoft Teamsに登場
 
 > [!IMPORTANT]
 > 2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 マイクロソフトのチームに StaffHub 機能が進められています。 今日では、チームには、スケジュール管理のためのシフトのアプリケーションが含まれていて、その他の機能が時間の経過と共に展開されます。 StaffHub は、2019 年 10 月 1 日ですべてのユーザーの作業を停止します。 StaffHub を開こうとするとすべての人がチームをダウンロードすることを指示するメッセージ表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。
@@ -47,7 +47,7 @@ ms.locfileid: "31013194"
 
 についてはしている、先頭行の従業員のニーズを伺い、 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)にフィードバックを送信する機能の構築に取り組んできました。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)
-- [チームの変化に、マイクロソフトの StaffHub チームを移動します。](move-staffhub-teams-to-shifts-in-teams.md)
+- [Microsoft StaffHub はまもなく廃止予定です](microsoft-staffhub-to-be-retired.md)
+- [Microsoft StaffHub のチームを Teams の Shifts に移動する](move-staffhub-teams-to-shifts-in-teams.md)

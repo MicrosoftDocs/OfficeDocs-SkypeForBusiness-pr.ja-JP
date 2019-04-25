@@ -1,7 +1,7 @@
 ---
 title: 電話会議のサービスに関する決定を行う - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 12/28/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241541"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -161,7 +161,7 @@ Office 365 の電話会議サービスには次が含まれます。
 
 会議ブリッジの電話番号の詳細については、以下の資料を確認してください。
 
--   [マイクロソフト チームの電話会議を設定します](set-up-audio-conferencing-in-teams.md)
+-   [Microsoft Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)
 
 -   [電話会議の電話番号](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 

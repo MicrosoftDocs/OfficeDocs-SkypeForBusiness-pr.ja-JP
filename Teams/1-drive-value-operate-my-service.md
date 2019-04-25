@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の操作ガイド
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 04/12/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241821"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 
@@ -42,8 +42,8 @@ ms.locfileid: "31959237"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>チームの操作を実装する方法を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>完全に運用ガイドを参照してください。</li><li>ワークロードの音声品質とクラウドの信頼性を提供する、組織の目標に合わせて運用戦略を実装します。</li><li>レビュー ガイドの経験の質を確認します。</li><li> クラウドのボイスの展開がそのピーク性能で動作しているかどうかを確認するのには体験レビューの品質を定期的に実行するオペレーション戦略を実装します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>チームの操作を実装する方法を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>完全に運用ガイドを参照してください。</li><li>ワークロードの音声品質とクラウドの信頼性を提供する、組織の目標に合わせて運用戦略を実装します。</li><li>レビュー ガイドの経験の質を確認します。</li><li> クラウドのボイスの展開がそのピーク性能で動作しているかどうかを確認するのには体験レビューの品質を定期的に実行するオペレーション戦略を実装します。</li></ul></td></tr>
 </table>
 
 
@@ -62,7 +62,7 @@ Envision フェーズの早い段階で行う計画には、特定のアクテ�
 契約が適用されて、対応する各チームの役割を運用するのには起動できます。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td>
 <td><ul><li>操作上の役割のマッピングの手順を容易にするのにには、このドキュメントを使用します。</li><li>必要なアクティビティのリストの各項目に名前を割り当てるにはそれぞれのサポート チームに対応します。</li><li>承認を得ること、または割り当てられているロールに対して承認をします。</li><li>それらの必要な作業を完了するのには適切なトレーニング、準備、およびリソースに対応するチームがあることを確認します。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>チーム サービスの依存関係

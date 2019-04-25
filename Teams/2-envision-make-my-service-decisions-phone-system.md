@@ -1,7 +1,7 @@
 ---
 title: 通話プランが設定された電話システムのサービスに関する決定を行う - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242418"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -177,11 +177,11 @@ Office 365 のプランを呼び出すことで、組織内のすべてのユー
 > |ユーザー  |発信の呼び出し元 ID のマスキングを有効にします。  |呼び出し元 ID のマスキング タイプ  |ユーザーの上書きを許可します。  | 着信の呼び出し元 ID のマスキングを有効にします。  |
 > |---------|---------|---------|---------|---------|
 > |Emily Braun|いいえ|該当なし|はい|いいえ|
-> |Lidia Holloway|はい|サービス番号 (OrgAA、+44 20 7946 0000)|不可|あり|
+> |Lidia Holloway|はい|サービス番号 (OrgAA、+44 20 7946 0000)|いいえ|はい|
 > |ルイ Lahr|いいえ|該当なし|はい|いいえ|
-> |Marcel Beauchamp|はい|サービス番号 (OrgAA、TBA)|不可|あり|
+> |Marcel Beauchamp|はい|サービス番号 (OrgAA、TBA)|いいえ|はい|
 > |Rachelle Cormier|はい|匿名|はい|いいえ|
-> |Isabell Potvin|はい|サービス番号 (OrgAA、TBA)|不可|あり|
+> |Isabell Potvin|はい|サービス番号 (OrgAA、TBA)|いいえ|はい|
 
 <!--ENDOFSECTION-->
 
@@ -365,7 +365,7 @@ Office 365 の電話システムの機能では、ダイヤル プランの 2 �
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>組織にカスタマイズされたダイヤル プランが (ビジネス要件、導入要件、およびなど) が必要かどうかを決定します。</li><li>該当する場合、テナントのダイヤル プランのスコープを決定 (テナント グローバルまたはテナントのユーザー) カスタマイズしたダイヤル プランのお客様の要件をサポートします。</li><li>該当する場合は、クラウドのボイス実装のスコープ内のユーザーの所在地、またはオフィスをサポートするために作成するテナントのダイヤル プランを決定します。</li><li>該当する場合、カスタマイズされたダイヤル プランとテナントのダイヤル プランの各ユーザーに割り当てられるユーザーが必要なを決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>クラウド ボイスの実装の一部として構成するには、カスタム ダイヤル プランと関連付けられている正規化ルールを文書化します。</li><li>カスタマイズされたダイヤル プランとユーザーごとに割り当てられるテナントのダイヤル プランに割り当てられるユーザーを文書化します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>クラウド ボイスの実装の一部として構成するには、カスタマイズされたダイヤル プランと関連付けられている正規化ルールを文書化します。</li><li>カスタマイズされたダイヤル プランとユーザーごとに割り当てられるテナントのダイヤル プランに割り当てられるユーザーを文書化します。</li></ul>|
 
 > [!TIP]
 > プロジェクトに適用可能な場合は、テナントのダイヤル プランの設定を文書化するのには次のテンプレートを使用できます。

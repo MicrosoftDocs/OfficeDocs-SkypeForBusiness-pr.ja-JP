@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 239996abd87c52905758d6bff5ddeb6bf7805e89
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 06f3371233b4ff16be8d55813e1621c3b08566d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247104"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Microsoft 365 政府の DoD の展開の計画
 
@@ -50,7 +50,7 @@ Microsoft 365 政府 – DoD の米国政府の[Office 365 の政府の計画](h
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 政府の DoD は、組織の適切なかどうかを決定します。</li><li>組織が適格性の要件を満たしていることを確認します。</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft 365 政府の DoD は、組織の適切なかどうかを決定します。</li><li>組織が適格性の要件を満たしていることを確認します。</li></ul> |
 
 > [!Note]
 > Microsoft 365 政府の DoD をアメリカ合衆国ではできるだけです。 -米国以外の政府機関のお客様は、いくつかの[Office 365 の政府の計画](https://products.office.com/en/government/compare-office-365-government-plans)から選択できます。
@@ -78,12 +78,12 @@ Microsoft 365 政府 – DoD の米国政府の[Office 365 の政府の計画](h
 | ベース | ログイン | 利用可能 |
 | | プレゼンス | 利用可能 |
 | | 統合されたプレゼンス (Skype のビジネスと統合チーム) | 政府のバックログに |
-| アクティビティ | フィード | 利用可能 |
+| 活動 | フィード | 利用可能 |
 |  | マイ アクティビティ | 利用可能 |
 | チャット | 会話 | 利用可能 |
 | | ファイル | 利用可能 |
 | | 組織図 | 利用可能 |
-| | アクティビティ | 利用可能 |
+| | 活動 | 利用可能 |
 | | 相互運用機能 (1:1 チームの Skype ビジネス チャット用) | 政府のバックログに |
 | Teams | チャンネル メッセージ | 利用可能 |
 | | チャンネル ファイル | 利用可能 |
@@ -100,7 +100,7 @@ Microsoft 365 政府 – DoD の米国政府の[Office 365 の政府の計画](h
 | | クラウドの記録 | 政府のバックログに |
 | | 会議ノート | 利用可能 |
 | | 会議をブロードキャストします。 | 政府のバックログに |
-| | 連合の会議 | 利用可能 |
+| | 内クラウド (DoD DoD) 連合の会議 | 利用可能 |
 | | サーフェス ・ ハブのサポート | 政府のバックログに |
 | 通話 | 連絡先 | 利用可能 |
 | | 履歴 | 利用可能 |
@@ -133,7 +133,7 @@ Microsoft 365 政府 – DoD の米国政府の[Office 365 の政府の計画](h
 | | ファイル | 利用可能 |
 | | スラッシュ コマンド | 利用可能 |
 | コンプライアンス | コンプライアンス ・ コンテンツの検索 | 利用可能 |
-| | 保存期間 | 利用可能 |
+| | 保持 | 利用可能 |
 | | 監査ログの検索 | 利用可能 |
 | | 法的保持義務 | 利用可能 |
 | | 電子情報開示 | 利用可能 |

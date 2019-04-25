@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Microsoft Teams でユーザーが会議に参加したときに自分の名前を記録できるようにするかどうかの設定方法について説明します。
 ms.openlocfilehash: ce2e2c019018ac3e2585928567632ea4a74b70fa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246030"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Microsoft Teams でユーザーが会議に参加したときに自分の名前を記録できるようにする
 
@@ -55,7 +55,7 @@ ms.locfileid: "30461141"
 
 Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -63,4 +63,4 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
   
 ## <a name="related-topics"></a>関連トピック
 
-[Office 365 での電話会議を使用または購入する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Office 365 での電話会議を試用または購入する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

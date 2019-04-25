@@ -1,7 +1,7 @@
 ---
 title: IT 専門家向けの Microsoft Education のガバナンスに関するよくある質問 - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: article
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e2be87b8d48970c9f33a4a49ae9970bee6fb3da3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246163"
 ---
-# <a name="microsoft-education-governance-faq-for-admins"></a>管理者のマイクロソフト教育ガバナンスに関する FAQ
+# <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
 
 > [!Tip]
 > マイクロソフトのチームでの管理の詳細については、次のセッションを見る:[管理、管理、およびマイクロソフトのチームでのライフ サイクル](https://aka.ms/teams-governance)
@@ -113,7 +113,7 @@ ms.locfileid: "30461181"
 
 はい。 ポリシーを使用してコントロール特定のメッセージ、会議、通話、およびライブ イベントの機能をユーザーがアクセスできます。 テナント全体の設定を使用して、すべてに同じ設定を適用したり、必要な場合は、ユーザー レベルのポリシーを適用できます。 
 
-チームのポリシーの詳細については、 [Office 365 の組織での Microsoft チームの管理機能](enable-features-office-365.md)を参照してください。
+チームのポリシーの詳細については、[組織の Microsoft チームの管理の設定](enable-features-office-365.md)を参照してください。
  
 ## <a name="can-i-control-what-external-parties-my-faculty-and-students-collaborate-with"></a>どのような外部の関係者が自分の教職員と学生との共同作業を制御することができますか。
 

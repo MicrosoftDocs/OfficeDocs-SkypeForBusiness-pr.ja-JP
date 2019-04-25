@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 'Skype for Business の既定のシステム メッセージにどの言語を設定できるかを理解します。 '
 ms.openlocfilehash: eb16bc3e8826cb38727258db64ac061bf969479f
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30569488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245239"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>ボイスメールの応答メッセージとメッセージで使用する言語
 

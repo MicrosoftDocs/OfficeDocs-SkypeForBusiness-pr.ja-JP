@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b3aab01d03b3239918c48bfb250df00208f76a7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246291"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 政府の GCC の高い展開の計画
 
@@ -134,7 +134,7 @@ Microsoft 365 政府 – GCC 高の米国政府の[Office 365 の政府の計画
 | | ファイル | 利用可能 |
 | | スラッシュ コマンド | 利用可能 |
 | コンプライアンス | コンプライアンス ・ コンテンツの検索 | 利用可能 |
-| | 保存期間 | 利用可能 |
+| | 保持 | 利用可能 |
 | | 監査ログの検索 | 利用可能 |
 | | 法的保持義務 | 利用可能 |
 | | 電子情報開示 | 利用可能 |

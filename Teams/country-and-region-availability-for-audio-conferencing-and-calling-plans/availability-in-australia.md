@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: オーストラリアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
 ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541289"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245001"
 ---
 # <a name="availability-in-australia"></a>オーストラリアでの利用可能性
 
@@ -42,7 +42,7 @@ ms.locfileid: "30541289"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |あり  <br/> |
+|電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ。 [お問い合わせください](mailto:ptnapac@microsoft.com)。 <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
 
@@ -50,7 +50,7 @@ ms.locfileid: "30541289"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |あり  <br/> |
+|電話システムは購入できますか?  <br/> |はい  <br/> |
 |自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
@@ -75,8 +75,8 @@ ms.locfileid: "30541289"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | <ul><li>アデレード <li>ブリスベン <li>  キャンベラ <li>ダーウィン <li>メルボルン <li>ニューカッスル <li> パース <li>シドニー <li>ウロンゴン  |
-|有料電話番号は使用できますか?  <br/> |あり  <br/> |
-|無料電話番号は使用できますか?  <br/> |あり  <br/> |
+|有料電話番号は使用できますか?  <br/> |はい  <br/> |
+|無料電話番号は使用できますか?  <br/> |はい  <br/> |
 
 自動アテンダントの有料電話番号と無料電話番号を取得する場合は、キュー] または [[お問い合わせは](mailto:ptnapac@microsoft.com)、オーディオ会議サービス番号を呼び出します。
 

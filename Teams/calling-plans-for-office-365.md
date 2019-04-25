@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 697a822b70a93fc14b6bf0309167e4fc4c6e6a34
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245037"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 の通話プラン
 
@@ -90,11 +90,11 @@ ms.locfileid: "30664733"
 - [Office 365 の電話システム (クラウド PBX) ソリューションを計画する](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Skype for Business Online のセットアップ](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [電話システムのボイスメールをセットアップする - 管理のヘルプ](set-up-phone-system-voicemail.md)
+- [クラウド ボイスメールのセットアップ - Admin ヘルプ](set-up-phone-system-voicemail.md)
     
 - [通話プランの設定](set-up-calling-plans.md)
     

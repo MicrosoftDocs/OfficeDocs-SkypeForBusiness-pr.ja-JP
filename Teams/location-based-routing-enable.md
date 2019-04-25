@@ -17,11 +17,11 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245255"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
@@ -162,7 +162,7 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 - [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 - [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
 - [場所に基づくルーティングの用語集](location-based-routing-terminology.md)
