@@ -20,29 +20,29 @@ ms.custom:
 - SMB
 description: Skype 会議のブロードキャストを有効にして設定し、ミーティングのポリシーに変更を加えます。
 ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226276"
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a><span data-ttu-id="2fb9e-103">組織の Skype 会議のブロードキャストの設定を変更をします。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-103">Make changes to Skype Meeting Broadcast settings for your organization</span></span>
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a><span data-ttu-id="89961-103">組織の Skype 会議のブロードキャストの設定を変更をします。</span><span class="sxs-lookup"><span data-stu-id="89961-103">Make changes to Skype Meeting Broadcast settings for your organization</span></span>
 
-<span data-ttu-id="2fb9e-104">Skype 会議のブロードキャストを有効にして設定し、ミーティングのポリシーに変更を加えます。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-104">You can enable Skype Meeting Broadcast and make changes to settings and policies for those meetings.</span></span>
+<span data-ttu-id="89961-104">Skype 会議のブロードキャストを有効にして設定し、ミーティングのポリシーに変更を加えます。</span><span class="sxs-lookup"><span data-stu-id="89961-104">You can enable Skype Meeting Broadcast and make changes to settings and policies for those meetings.</span></span>
   
-- <span data-ttu-id="2fb9e-105">**Skype の会議のブロードキャストを有効にします。** Skype の会議のブロードキャストを有効にします。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-105">**Enable Skype Meeting Broadcast** Enables Skype Meeting Broadcast.</span></span> <span data-ttu-id="2fb9e-106">Skype 会議のブロードキャストを有効にした後は、 [Skype 会議のブロードキャストのネットワークをセットアップ](set-up-your-network-for-skype-meeting-broadcast.md)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-106">After you enable Skype Meeting Broadcast, you need to [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md).</span></span> <span data-ttu-id="2fb9e-107">人、組織外からのウェビナー、他のブロードキャストを保持したい場合は、この手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-107">Do this step if you want to hold webinars and other broadcasts for people outside of your business.</span></span> 
+- <span data-ttu-id="89961-105">**Skype の会議のブロードキャストを有効にします。** Skype の会議のブロードキャストを有効にします。</span><span class="sxs-lookup"><span data-stu-id="89961-105">**Enable Skype Meeting Broadcast** Enables Skype Meeting Broadcast.</span></span> <span data-ttu-id="89961-106">Skype 会議のブロードキャストを有効にした後は、 [Skype 会議のブロードキャストのネットワークをセットアップ](set-up-your-network-for-skype-meeting-broadcast.md)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="89961-106">After you enable Skype Meeting Broadcast, you need to [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md).</span></span> <span data-ttu-id="89961-107">人、組織外からのウェビナー、他のブロードキャストを保持したい場合は、この手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="89961-107">Do this step if you want to hold webinars and other broadcasts for people outside of your business.</span></span> 
     
-- <span data-ttu-id="2fb9e-108">**組織内でのプレビューをブロードキャスト Skype 会議を有効にする機能**カスタマー ・ ビジネス ・ プログラムは、Skype では、新製品および機能への早期アクセスを提供します。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-108">**Enable Skype Meeting Broadcast Preview features for my organization** The Skype for Business customer programs provide you early access to new products and features.</span></span> <span data-ttu-id="2fb9e-109">これにより、組織は何が送信されると、独自の環境で新しい機能をテストし、フィードバックを一般に公開する製品ビルドをリリースする前にすることでプレビューできます。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-109">This gives your organization a sneak peek at what's coming and the opportunity to test the new features in your own environment and give feedback before we release product builds to the general public.</span></span><br/>[<span data-ttu-id="2fb9e-110">Skype ビジネス プレビューを表示します。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-110">Skype for Business preview</span></span>](https://www.skypepreview.com/)
+- <span data-ttu-id="89961-108">**組織内でのプレビューをブロードキャスト Skype 会議を有効にする機能**カスタマー ・ ビジネス ・ プログラムは、Skype では、新製品および機能への早期アクセスを提供します。</span><span class="sxs-lookup"><span data-stu-id="89961-108">**Enable Skype Meeting Broadcast Preview features for my organization** The Skype for Business customer programs provide you early access to new products and features.</span></span> <span data-ttu-id="89961-109">これにより、組織は何が送信されると、独自の環境で新しい機能をテストし、フィードバックを一般に公開する製品ビルドをリリースする前にすることでプレビューできます。</span><span class="sxs-lookup"><span data-stu-id="89961-109">This gives your organization a sneak peek at what's coming and the opportunity to test the new features in your own environment and give feedback before we release product builds to the general public.</span></span><br/>[<span data-ttu-id="89961-110">Skype ビジネス プレビューを表示します。</span><span class="sxs-lookup"><span data-stu-id="89961-110">Skype for Business preview</span></span>](https://www.skypepreview.com/)
     
-- <span data-ttu-id="2fb9e-111">**匿名の会議をスケジュールするのには、[開催者**これにより、開催者がサインインする必要なしに参加する、組織外のユーザーを許可するブロードキャストのイベントを作成します。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-111">**Allow organizers to schedule anonymous meetings** This lets organizers create broadcast events that allow anyone outside their organization to join without a requirement to sign in.</span></span>
+- <span data-ttu-id="89961-111">**匿名の会議をスケジュールするのには、[開催者**これにより、開催者がサインインする必要なしに参加する、組織外のユーザーを許可するブロードキャストのイベントを作成します。</span><span class="sxs-lookup"><span data-stu-id="89961-111">**Allow organizers to schedule anonymous meetings** This lets organizers create broadcast events that allow anyone outside their organization to join without a requirement to sign in.</span></span>
     
-- <span data-ttu-id="2fb9e-112">**記録するブロードキャストの会議を許可します。** これは、発表者または開催者によって記録する必要があるすべての会議を使用できます。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-112">**Allow broadcast meetings to be recorded** This enables any meetings you have to be recorded by the presenter or organizer.</span></span>
+- <span data-ttu-id="89961-112">**記録するブロードキャストの会議を許可します。** これは、発表者または開催者によって記録する必要があるすべての会議を使用できます。</span><span class="sxs-lookup"><span data-stu-id="89961-112">**Allow broadcast meetings to be recorded** This enables any meetings you have to be recorded by the presenter or organizer.</span></span>
     
-- <span data-ttu-id="2fb9e-113">**ヘルプデスクは、出席者の URL をサポート**ヘルプを接続するか、ブロードキャストのミーティングへの参加が必要な場合に使用するブロードキャストの参加者を会議にリンクを入力します。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-113">**Helpdesk support URL for attendees** Enter a link for meeting broadcast attendees to use if they need help connecting or attending a broadcast meeting.</span></span>
+- <span data-ttu-id="89961-113">**ヘルプデスクは、出席者の URL をサポート**ヘルプを接続するか、ブロードキャストのミーティングへの参加が必要な場合に使用するブロードキャストの参加者を会議にリンクを入力します。</span><span class="sxs-lookup"><span data-stu-id="89961-113">**Helpdesk support URL for attendees** Enter a link for meeting broadcast attendees to use if they need help connecting or attending a broadcast meeting.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="2fb9e-114">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="2fb9e-114">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="89961-114">関連トピック</span><span class="sxs-lookup"><span data-stu-id="89961-114">Related topics</span></span>
 
-[<span data-ttu-id="2fb9e-115">Skype 会議ブロードキャスト用にネットワークをセットアップする</span><span class="sxs-lookup"><span data-stu-id="2fb9e-115">Set up your network for Skype Meeting Broadcast</span></span>](set-up-your-network-for-skype-meeting-broadcast.md)
+[<span data-ttu-id="89961-115">Skype 会議ブロードキャスト用にネットワークをセットアップする</span><span class="sxs-lookup"><span data-stu-id="89961-115">Set up your network for Skype Meeting Broadcast</span></span>](set-up-your-network-for-skype-meeting-broadcast.md)
 
   
  

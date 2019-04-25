@@ -18,48 +18,48 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f19d78de9b9227dcbc42073b177fffd9596e5ffb
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225049"
 ---
-# <a name="microsoft-teams-adoption-quick-start-checklist"></a><span data-ttu-id="e1ff5-103">Microsoft Teams の導入クイック スタートのチェックリスト</span><span class="sxs-lookup"><span data-stu-id="e1ff5-103">Microsoft Teams adoption quick start checklist</span></span>
+# <a name="microsoft-teams-adoption-quick-start-checklist"></a><span data-ttu-id="bdc42-103">Microsoft Teams の導入クイック スタートのチェックリスト</span><span class="sxs-lookup"><span data-stu-id="bdc42-103">Microsoft Teams adoption quick start checklist</span></span>
 
-[<span data-ttu-id="e1ff5-104">チェックリストのコピーをダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-104">Download a copy of the checklist</span></span>](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-quickstart-checklist-oct2018.pdf?raw=true)
+[<span data-ttu-id="bdc42-104">チェックリストのコピーをダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="bdc42-104">Download a copy of the checklist</span></span>](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-quickstart-checklist-oct2018.pdf?raw=true)
 
-## <a name="get-started-driving-adoption-of-microsoft-teams"></a><span data-ttu-id="e1ff5-105">Microsoft Teams の導入の推進を開始する</span><span class="sxs-lookup"><span data-stu-id="e1ff5-105">Get started driving adoption of Microsoft Teams</span></span>
+## <a name="get-started-driving-adoption-of-microsoft-teams"></a><span data-ttu-id="bdc42-105">Microsoft Teams の導入の推進を開始する</span><span class="sxs-lookup"><span data-stu-id="bdc42-105">Get started driving adoption of Microsoft Teams</span></span>
 
-- [<span data-ttu-id="e1ff5-106">採用の前提条件</span><span class="sxs-lookup"><span data-stu-id="e1ff5-106">Adoption prerequisites</span></span>](teams-adoption-get-started.md)
+- [<span data-ttu-id="bdc42-106">採用の前提条件</span><span class="sxs-lookup"><span data-stu-id="bdc42-106">Adoption prerequisites</span></span>](teams-adoption-get-started.md)
 
-## <a name="phase-1---start"></a><span data-ttu-id="e1ff5-107">段階 1 - 開始</span><span class="sxs-lookup"><span data-stu-id="e1ff5-107">Phase 1 - Start</span></span>
+## <a name="phase-1---start"></a><span data-ttu-id="bdc42-107">フェーズ 1: 開始</span><span class="sxs-lookup"><span data-stu-id="bdc42-107">Phase 1 - Start</span></span>
 
-- [<span data-ttu-id="e1ff5-108">チームとチャネルを理解します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-108">Understand teams and channels</span></span>](teams-adoption-understand-teams-and-channels.md)
-- [<span data-ttu-id="e1ff5-109">最初のチームを作成します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-109">Create your first teams</span></span>](teams-adoption-your-first-teams.md)
-- [<span data-ttu-id="e1ff5-110">チームの準備ができているでしょうか。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-110">Are you ready for Teams?</span></span>](teams-adoption-assess-readiness.md)
-- [<span data-ttu-id="e1ff5-111">利害関係者とのミーティングします。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-111">Meet with stakeholders</span></span>](teams-adoption-assess-readiness.md#assess-your-stakeholders)
-- [<span data-ttu-id="e1ff5-112">初期採用者を識別します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-112">Identify early adopters</span></span>](teams-adoption-assess-readiness.md#identify-early-adopters)
+- [<span data-ttu-id="bdc42-108">チームとチャネルについて理解する</span><span class="sxs-lookup"><span data-stu-id="bdc42-108">Understand teams and channels</span></span>](teams-adoption-understand-teams-and-channels.md)
+- [<span data-ttu-id="bdc42-109">最初のチームを作成する</span><span class="sxs-lookup"><span data-stu-id="bdc42-109">Create your first teams</span></span>](teams-adoption-your-first-teams.md)
+- [<span data-ttu-id="bdc42-110">チームの準備ができているでしょうか。</span><span class="sxs-lookup"><span data-stu-id="bdc42-110">Are you ready for Teams?</span></span>](teams-adoption-assess-readiness.md)
+- [<span data-ttu-id="bdc42-111">利害関係者とのミーティングします。</span><span class="sxs-lookup"><span data-stu-id="bdc42-111">Meet with stakeholders</span></span>](teams-adoption-assess-readiness.md#assess-your-stakeholders)
+- [<span data-ttu-id="bdc42-112">初期採用者を識別します。</span><span class="sxs-lookup"><span data-stu-id="bdc42-112">Identify early adopters</span></span>](teams-adoption-assess-readiness.md#identify-early-adopters)
 
-## <a name="phase-2---experiment"></a><span data-ttu-id="e1ff5-113">フェーズ 2 - 実験</span><span class="sxs-lookup"><span data-stu-id="e1ff5-113">Phase 2 - Experiment</span></span>
+## <a name="phase-2---experiment"></a><span data-ttu-id="bdc42-113">フェーズ 2: 試用</span><span class="sxs-lookup"><span data-stu-id="bdc42-113">Phase 2 - Experiment</span></span>
 
-- [<span data-ttu-id="e1ff5-114">エキスパート プログラムを作成します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-114">Create your champions program</span></span>](teams-adoption-create-champions-program.md)
-- [<span data-ttu-id="e1ff5-115">ガバナンスのクイック スタートを完了します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-115">Complete the governance quick start</span></span>](teams-adoption-governance-quick-start.md)
-- [<span data-ttu-id="e1ff5-116">使用シナリオを定義します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-116">Define the usage scenarios</span></span>](teams-adoption-define-usage-scenarios.md)
-- [<span data-ttu-id="e1ff5-117">ビジネス関係者にインタビューします。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-117">Interview business stakeholders</span></span>](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
-- [<span data-ttu-id="e1ff5-118">マップし、ビジネス シナリオの優先順位を付ける</span><span class="sxs-lookup"><span data-stu-id="e1ff5-118">Map and prioritize business scenarios</span></span>](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
-- [<span data-ttu-id="e1ff5-119">オンボードの早期導入とフィードバックの収集</span><span class="sxs-lookup"><span data-stu-id="e1ff5-119">Onboard early adopters and gather feedback</span></span>](teams-adoption-onboard-early-adopters.md)
-- [<span data-ttu-id="e1ff5-120">オンボードのサポート</span><span class="sxs-lookup"><span data-stu-id="e1ff5-120">Onboard support</span></span>](teams-adoption-onboard-support.md)
+- [<span data-ttu-id="bdc42-114">主導者プログラムを作成する</span><span class="sxs-lookup"><span data-stu-id="bdc42-114">Create your champions program</span></span>](teams-adoption-create-champions-program.md)
+- [<span data-ttu-id="bdc42-115">ガバナンスのクイック スタートを完了します。</span><span class="sxs-lookup"><span data-stu-id="bdc42-115">Complete the governance quick start</span></span>](teams-adoption-governance-quick-start.md)
+- [<span data-ttu-id="bdc42-116">使用シナリオを定義します。</span><span class="sxs-lookup"><span data-stu-id="bdc42-116">Define the usage scenarios</span></span>](teams-adoption-define-usage-scenarios.md)
+- [<span data-ttu-id="bdc42-117">ビジネス関係者にインタビューします。</span><span class="sxs-lookup"><span data-stu-id="bdc42-117">Interview business stakeholders</span></span>](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [<span data-ttu-id="bdc42-118">マップし、ビジネス シナリオの優先順位を付ける</span><span class="sxs-lookup"><span data-stu-id="bdc42-118">Map and prioritize business scenarios</span></span>](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
+- [<span data-ttu-id="bdc42-119">アーリー アダプターに関与してフィードバックを収集する</span><span class="sxs-lookup"><span data-stu-id="bdc42-119">Onboard early adopters and gather feedback</span></span>](teams-adoption-onboard-early-adopters.md)
+- [<span data-ttu-id="bdc42-120">参加サポート</span><span class="sxs-lookup"><span data-stu-id="bdc42-120">Onboard support</span></span>](teams-adoption-onboard-support.md)
 
-## <a name="phase-3---scale"></a><span data-ttu-id="e1ff5-121">フェーズ 3 - スケール</span><span class="sxs-lookup"><span data-stu-id="e1ff5-121">Phase 3 - Scale</span></span>
+## <a name="phase-3---scale"></a><span data-ttu-id="bdc42-121">フェーズ 3: スケール</span><span class="sxs-lookup"><span data-stu-id="bdc42-121">Phase 3 - Scale</span></span>
 
-- [<span data-ttu-id="e1ff5-122">結果と成功のメジャーを定義します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-122">Define outcomes and success measures</span></span>](teams-adoption-define-outcomes.md)
-- [<span data-ttu-id="e1ff5-123">サービスの有効化の戦略を選択します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-123">Select a service enablement strategy</span></span>](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
-- [<span data-ttu-id="e1ff5-124">利害関係者を協力します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-124">Engage stakeholders</span></span>](teams-adoption-define-outcomes.md#engage-stakeholders)
-- [<span data-ttu-id="e1ff5-125">実装チームを展開します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-125">Expand your implementation team</span></span>](teams-adoption-define-outcomes.md#expand-your-implementation-team)
-- [<span data-ttu-id="e1ff5-126">ガバナンスと情報管理のポリシーを展開します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-126">Expand your governance and information management policies</span></span>](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
-- [<span data-ttu-id="e1ff5-127">フィードバックおよびレポート作成を最適化します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-127">Optimize feedback and reporting</span></span>](teams-adoption-optimize-feedback-and-reporting.md)
-- [<span data-ttu-id="e1ff5-128">ドライブの認識とトレーニングを実装します。</span><span class="sxs-lookup"><span data-stu-id="e1ff5-128">Drive awareness and implement training</span></span>](teams-adoption-drive-awareness.md)
-- [<span data-ttu-id="e1ff5-129">スケジュール サービスのレビュー</span><span class="sxs-lookup"><span data-stu-id="e1ff5-129">Schedule service reviews</span></span>](teams-adoption-schedule-service-health-reviews.md)
+- [<span data-ttu-id="bdc42-122">結果と成功のメジャーを定義します。</span><span class="sxs-lookup"><span data-stu-id="bdc42-122">Define outcomes and success measures</span></span>](teams-adoption-define-outcomes.md)
+- [<span data-ttu-id="bdc42-123">サービスの有効化の戦略を選択します。</span><span class="sxs-lookup"><span data-stu-id="bdc42-123">Select a service enablement strategy</span></span>](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
+- [<span data-ttu-id="bdc42-124">利害関係者を協力します。</span><span class="sxs-lookup"><span data-stu-id="bdc42-124">Engage stakeholders</span></span>](teams-adoption-define-outcomes.md#engage-stakeholders)
+- [<span data-ttu-id="bdc42-125">実装チームを展開します。</span><span class="sxs-lookup"><span data-stu-id="bdc42-125">Expand your implementation team</span></span>](teams-adoption-define-outcomes.md#expand-your-implementation-team)
+- [<span data-ttu-id="bdc42-126">ガバナンスと情報管理のポリシーを展開します。</span><span class="sxs-lookup"><span data-stu-id="bdc42-126">Expand your governance and information management policies</span></span>](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
+- [<span data-ttu-id="bdc42-127">フィードバックとレポートを最適化する</span><span class="sxs-lookup"><span data-stu-id="bdc42-127">Optimize feedback and reporting</span></span>](teams-adoption-optimize-feedback-and-reporting.md)
+- [<span data-ttu-id="bdc42-128">啓発とトレーニングの実施</span><span class="sxs-lookup"><span data-stu-id="bdc42-128">Drive awareness and implement training</span></span>](teams-adoption-drive-awareness.md)
+- [<span data-ttu-id="bdc42-129">スケジュール サービスのレビュー</span><span class="sxs-lookup"><span data-stu-id="bdc42-129">Schedule service reviews</span></span>](teams-adoption-schedule-service-health-reviews.md)
 
 
 

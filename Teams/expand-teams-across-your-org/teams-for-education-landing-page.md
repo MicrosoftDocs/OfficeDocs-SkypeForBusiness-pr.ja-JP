@@ -10,18 +10,19 @@ ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8704f1d3cae6bb6e0f8d26befb2a21d71d5460cf
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: f44f5d5ad76da0385fa63203d61da3a82923047d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245723"
 ---
 # <a name="teams-for-education"></a>教育用 Teams
 
-チーム、機関、学校作成共同学校の教室、本格的な学習のコミュニティに接続し、学校の職員との通信。 導入、導入、および、機関内のチームを管理するためここでは、管理リソースを使用します。  
+チーム、教師と教職員作成共同学校の教室、本格的な学習のコミュニティに接続し、生徒と教師との通信。 管理リソースを使用して、ここで正常に展開し、採用、および、機関、学校のチームを管理するため。 
 
 <ul class="panelContent cardsFTitle">
     <li>

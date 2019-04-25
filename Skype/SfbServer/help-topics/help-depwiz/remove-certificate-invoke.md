@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
 description: コマンドの実行] ページは、証明書を削除するための詳細を提供します。 証明書の削除の概要情報を確認します。 証明書の削除のログ ファイルがボックスの一覧に表示されていることを確認し、証明書の削除の詳細を確認するログの表示] をクリックします。 概要およびログ ファイルの確認が終了したら、[完了] をクリックします。
 ms.openlocfilehash: beba0856e1ece3e639f2153022047e639e1c0fcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234955"
 ---
-# <a name="remove-certificate-invoke"></a><span data-ttu-id="d7333-106">証明書の削除 (起動)</span><span class="sxs-lookup"><span data-stu-id="d7333-106">Remove Certificate (Invoke)</span></span>
+# <a name="remove-certificate-invoke"></a><span data-ttu-id="8c51a-106">証明書の削除 (起動)</span><span class="sxs-lookup"><span data-stu-id="8c51a-106">Remove Certificate (Invoke)</span></span>
  
-<span data-ttu-id="d7333-107">**コマンドの実行**] ページは、証明書を削除するための詳細を提供します。</span><span class="sxs-lookup"><span data-stu-id="d7333-107">The **Executing Commands** page provides details for removing the certificate.</span></span> <span data-ttu-id="d7333-108">証明書の削除の概要情報を確認します。</span><span class="sxs-lookup"><span data-stu-id="d7333-108">Review the summary information from the certificate removal.</span></span> <span data-ttu-id="d7333-109">証明書の削除のログ ファイルがボックスの一覧に表示されていることを確認し、証明書の削除の詳細を確認する**ログの表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d7333-109">Be sure that the Remove Certificate log file is visible in the drop-down list, and then click **View Log** to review the details of the certificate removal.</span></span> <span data-ttu-id="d7333-110">概要およびログ ファイルの確認が終了したら、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d7333-110">When you have finished reviewing the summary and the log file, click **Finish**.</span></span>
+<span data-ttu-id="8c51a-107">**コマンドの実行**] ページは、証明書を削除するための詳細を提供します。</span><span class="sxs-lookup"><span data-stu-id="8c51a-107">The **Executing Commands** page provides details for removing the certificate.</span></span> <span data-ttu-id="8c51a-108">証明書の削除の概要情報を確認します。</span><span class="sxs-lookup"><span data-stu-id="8c51a-108">Review the summary information from the certificate removal.</span></span> <span data-ttu-id="8c51a-109">証明書の削除のログ ファイルがボックスの一覧に表示されていることを確認し、証明書の削除の詳細を確認する**ログの表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8c51a-109">Be sure that the Remove Certificate log file is visible in the drop-down list, and then click **View Log** to review the details of the certificate removal.</span></span> <span data-ttu-id="8c51a-110">概要およびログ ファイルの確認が終了したら、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8c51a-110">When you have finished reviewing the summary and the log file, click **Finish**.</span></span>
   
 

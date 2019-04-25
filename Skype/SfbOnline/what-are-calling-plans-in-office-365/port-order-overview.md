@@ -22,33 +22,33 @@ ms.custom:
 - Calling Plans
 description: 'サービス プロバイダーでの電話番号を Skype for Business に移行する方法の簡単な概要を理解します。 '
 ms.openlocfilehash: 9ef870abbab8760a09db667a481d7f3f53708423
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229809"
 ---
-# <a name="port-order-overview"></a><span data-ttu-id="da0a7-103">番号移行注文の概要</span><span class="sxs-lookup"><span data-stu-id="da0a7-103">Port order overview</span></span>
+# <a name="port-order-overview"></a><span data-ttu-id="93c0b-103">番号移行注文の概要</span><span class="sxs-lookup"><span data-stu-id="93c0b-103">Port order overview</span></span>
 
-<span data-ttu-id="da0a7-104">電話サービスプロバイダーまたは通信業者が現在あるして、ユーザーの電話番号が既にある場合、[*ポートの順序*] オンライン ビジネスのそれらの電話番号を Skype に転送すると呼ばれるを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="da0a7-104">If you currently have a phone service provider or carrier and already have phone numbers for your users, you will need to create what is called a "*port order*" that transfers those phone number to Skype for Business Online.</span></span> <span data-ttu-id="da0a7-105">番号が移行されると、それらの電話番号を自分のユーザーに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="da0a7-105">Once the numbers are ported over, you can assign those phone numbers to your users.</span></span>
+<span data-ttu-id="93c0b-104">電話サービスプロバイダーまたは通信業者が現在あるして、ユーザーの電話番号が既にある場合、[*ポートの順序*] オンライン ビジネスのそれらの電話番号を Skype に転送すると呼ばれるを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="93c0b-104">If you currently have a phone service provider or carrier and already have phone numbers for your users, you will need to create what is called a "*port order*" that transfers those phone number to Skype for Business Online.</span></span> <span data-ttu-id="93c0b-105">番号が移行されると、それらの電話番号を自分のユーザーに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="93c0b-105">Once the numbers are ported over, you can assign those phone numbers to your users.</span></span>
   
-<span data-ttu-id="da0a7-106">電話番号を Office 365 の Skype for Business Online に移行した後は、Microsoft がサービス プロバイダーになり、これまでのサービス プロバイダーまたは通信事業者によるサービスを切断できます。</span><span class="sxs-lookup"><span data-stu-id="da0a7-106">After you port your phone numbers over to Skype for Business Online in Office 365, Microsoft will become your service provider and you can disconnect your service with you old service provider or carrier.</span></span>
+<span data-ttu-id="93c0b-106">電話番号を Office 365 の Skype for Business Online に移行した後は、Microsoft がサービス プロバイダーになり、これまでのサービス プロバイダーまたは通信事業者によるサービスを切断できます。</span><span class="sxs-lookup"><span data-stu-id="93c0b-106">After you port your phone numbers over to Skype for Business Online in Office 365, Microsoft will become your service provider and you can disconnect your service with you old service provider or carrier.</span></span>
   
- <span data-ttu-id="da0a7-107">**完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="da0a7-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
+ <span data-ttu-id="93c0b-107">**完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="93c0b-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
 
  > [!NOTE]
-> <span data-ttu-id="da0a7-108">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="da0a7-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="93c0b-108">さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="93c0b-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="da0a7-109">関連トピック</span><span class="sxs-lookup"><span data-stu-id="da0a7-109">Related topics</span></span>
-[<span data-ttu-id="da0a7-110">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="da0a7-110">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="93c0b-109">関連トピック</span><span class="sxs-lookup"><span data-stu-id="93c0b-109">Related topics</span></span>
+[<span data-ttu-id="93c0b-110">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="93c0b-110">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="da0a7-111">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="da0a7-111">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="93c0b-111">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="93c0b-111">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-<span data-ttu-id="da0a7-112">[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="da0a7-112">[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)</span></span>
+<span data-ttu-id="93c0b-112">[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="93c0b-112">[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)</span></span>
 
-[<span data-ttu-id="da0a7-113">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="da0a7-113">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="93c0b-113">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="93c0b-113">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="da0a7-114">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="da0a7-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="93c0b-114">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="93c0b-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

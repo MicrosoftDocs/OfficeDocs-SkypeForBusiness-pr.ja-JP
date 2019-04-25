@@ -10,26 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 従来のフロント エンド プールは、呼受付制御 (CAC) でホストされている場合、CAC は、従来のフロント エンド プールを削除する前に、Skype のビジネス サーバー 2019 プールにホストを移動する必要があります。
 ms.openlocfilehash: 3b94322b86feb2c647f88102617ab1dcc9d5f8bc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231391"
 ---
-# <a name="reset-call-admission-control"></a><span data-ttu-id="78064-103">通話受付管理のリセット</span><span class="sxs-lookup"><span data-stu-id="78064-103">Reset call admission control</span></span>
+# <a name="reset-call-admission-control"></a><span data-ttu-id="61159-103">通話受付管理のリセット</span><span class="sxs-lookup"><span data-stu-id="61159-103">Reset call admission control</span></span>
 
-<span data-ttu-id="78064-104">従来のフロント エンド プールは、呼受付制御 (CAC) でホストされている場合、CAC は、従来のフロント エンド プールを削除する前に、Skype のビジネス サーバー 2019 プールにホストを移動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="78064-104">If a legacy Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Skype for Business Server 2019 pool before you can remove the legacy Front End pool.</span></span>
+<span data-ttu-id="61159-104">従来のフロント エンド プールは、呼受付制御 (CAC) でホストされている場合、CAC は、従来のフロント エンド プールを削除する前に、Skype のビジネス サーバー 2019 プールにホストを移動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="61159-104">If a legacy Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Skype for Business Server 2019 pool before you can remove the legacy Front End pool.</span></span>
   
-### <a name="to-reset-cac"></a><span data-ttu-id="78064-105">CAC をリセットするのには</span><span class="sxs-lookup"><span data-stu-id="78064-105">To reset CAC</span></span>
+### <a name="to-reset-cac"></a><span data-ttu-id="61159-105">CAC をリセットするのには</span><span class="sxs-lookup"><span data-stu-id="61159-105">To reset CAC</span></span>
 
-1. <span data-ttu-id="78064-106">トポロジ ビルダーを開きます。</span><span class="sxs-lookup"><span data-stu-id="78064-106">Open Topology Builder.</span></span>
+1. <span data-ttu-id="61159-106">トポロジ ビルダーを開きます。</span><span class="sxs-lookup"><span data-stu-id="61159-106">Open Topology Builder.</span></span>
     
-2. <span data-ttu-id="78064-107">[サイト] ノードを右クリックし、**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="78064-107">Right-click the site node, and then click **Edit Properties**.</span></span>
+2. <span data-ttu-id="61159-107">[サイト] ノードを右クリックし、**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="61159-107">Right-click the site node, and then click **Edit Properties**.</span></span>
     
-3. <span data-ttu-id="78064-108">**呼の受付制御の設定**、[**電話受付制御を有効にする**が選択されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="78064-108">Under **Call Admission Control setting**, make sure **Enable Call Admission Control** is selected.</span></span> 
+3. <span data-ttu-id="61159-108">**呼の受付制御の設定**、[**電話受付制御を有効にする**が選択されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="61159-108">Under **Call Admission Control setting**, make sure **Enable Call Admission Control** is selected.</span></span> 
     
-4. <span data-ttu-id="78064-109">**呼受付制御 (CAC) を実行するフロント エンド プール**] の下には、CAC をホストするビジネス サーバー 2019 プールの Skype を選択し、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="78064-109">Under **Front End pool to run call admission control (CAC)**, select the Skype for Business Server 2019 pool that is to host CAC, and then click **OK**.</span></span>
+4. <span data-ttu-id="61159-109">**呼受付制御 (CAC) を実行するフロント エンド プール**] の下には、CAC をホストするビジネス サーバー 2019 プールの Skype を選択し、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="61159-109">Under **Front End pool to run call admission control (CAC)**, select the Skype for Business Server 2019 pool that is to host CAC, and then click **OK**.</span></span>
     
-5. <span data-ttu-id="78064-110">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="78064-110">Publish the topology.</span></span>
+5. <span data-ttu-id="61159-110">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="61159-110">Publish the topology.</span></span>
     
 

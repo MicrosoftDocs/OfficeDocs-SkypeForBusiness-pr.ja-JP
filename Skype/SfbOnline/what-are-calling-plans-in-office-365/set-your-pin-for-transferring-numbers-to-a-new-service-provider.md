@@ -22,60 +22,60 @@ ms.custom:
 - Calling Plans
 description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
 ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229926"
 ---
-# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a><span data-ttu-id="315c9-104">番号を新しいサービス プロバイダーに移行するための PIN を設定する</span><span class="sxs-lookup"><span data-stu-id="315c9-104">Set your PIN for transferring numbers to a new service provider</span></span>
+# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a><span data-ttu-id="0a43c-104">番号を新しいサービス プロバイダーに移行するための PIN を設定する</span><span class="sxs-lookup"><span data-stu-id="0a43c-104">Set your PIN for transferring numbers to a new service provider</span></span>
 
-<span data-ttu-id="315c9-p102">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.</span><span class="sxs-lookup"><span data-stu-id="315c9-p102">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.</span></span> 
+<span data-ttu-id="0a43c-p102">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.</span><span class="sxs-lookup"><span data-stu-id="0a43c-p102">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="315c9-107">移行した PIN は、米国内の組織においてのみ使用されます。</span><span class="sxs-lookup"><span data-stu-id="315c9-107">A port out PIN is only used for organizations in the United States.</span></span> 
+> <span data-ttu-id="0a43c-107">移行した PIN は、米国内の組織においてのみ使用されます。</span><span class="sxs-lookup"><span data-stu-id="0a43c-107">A port out PIN is only used for organizations in the United States.</span></span> 
   
-<span data-ttu-id="315c9-108">電話番号の転送と移行の詳細については、「[Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="315c9-108">See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) for more information about transferring and porting in/out phone numbers.</span></span>
+<span data-ttu-id="0a43c-108">電話番号の転送と移行の詳細については、「[Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0a43c-108">See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) for more information about transferring and porting in/out phone numbers.</span></span>
   
-<span data-ttu-id="315c9-109">この PIN に関して知っておくべき特定の情報を以下に記載します。</span><span class="sxs-lookup"><span data-stu-id="315c9-109">Here is some specific information about this PIN you should know:</span></span>
+<span data-ttu-id="0a43c-109">この PIN に関して知っておくべき特定の情報を以下に記載します。</span><span class="sxs-lookup"><span data-stu-id="0a43c-109">Here is some specific information about this PIN you should know:</span></span>
   
-- <span data-ttu-id="315c9-110">PIN が設定されていない場合、Skype for Business Online から電話番号を転送または移行できません。</span><span class="sxs-lookup"><span data-stu-id="315c9-110">If a PIN isn't set, you won't be able to transfer or port out phone numbers from Skype for Business Online.</span></span>
+- <span data-ttu-id="0a43c-110">PIN が設定されていない場合、Skype for Business Online から電話番号を転送または移行できません。</span><span class="sxs-lookup"><span data-stu-id="0a43c-110">If a PIN isn't set, you won't be able to transfer or port out phone numbers from Skype for Business Online.</span></span>
     
-- <span data-ttu-id="315c9-111">PIN は、6 - 10 桁 (数字) で指定できます。</span><span class="sxs-lookup"><span data-stu-id="315c9-111">It can contain 6-10 digits (numbers).</span></span>
+- <span data-ttu-id="0a43c-111">PIN は、6 - 10 桁 (数字) で指定できます。</span><span class="sxs-lookup"><span data-stu-id="0a43c-111">It can contain 6-10 digits (numbers).</span></span>
     
-- <span data-ttu-id="315c9-112">文字または特殊文字は使用できません。</span><span class="sxs-lookup"><span data-stu-id="315c9-112">It can't contain letters or special characters.</span></span>
+- <span data-ttu-id="0a43c-112">文字または特殊文字は使用できません。</span><span class="sxs-lookup"><span data-stu-id="0a43c-112">It can't contain letters or special characters.</span></span>
     
-- <span data-ttu-id="315c9-113">既定の PIN は空白となっていますが、数字を入力すると、その数字を削除することも、空白に戻すこともできません。</span><span class="sxs-lookup"><span data-stu-id="315c9-113">The default PIN is blank, but if you put one in, you can't remove or set it back to blank.</span></span>
+- <span data-ttu-id="0a43c-113">既定の PIN は空白となっていますが、数字を入力すると、その数字を削除することも、空白に戻すこともできません。</span><span class="sxs-lookup"><span data-stu-id="0a43c-113">The default PIN is blank, but if you put one in, you can't remove or set it back to blank.</span></span>
     
-- <span data-ttu-id="315c9-114">PIN の入力後に、PIN の更新または変更が行えます。</span><span class="sxs-lookup"><span data-stu-id="315c9-114">You can update or change the PIN after you put one in.</span></span>
+- <span data-ttu-id="0a43c-114">PIN の入力後に、PIN の更新または変更が行えます。</span><span class="sxs-lookup"><span data-stu-id="0a43c-114">You can update or change the PIN after you put one in.</span></span>
     
-## <a name="set-up-your-pin"></a><span data-ttu-id="315c9-115">PIN の設定</span><span class="sxs-lookup"><span data-stu-id="315c9-115">Set up your PIN</span></span>
+## <a name="set-up-your-pin"></a><span data-ttu-id="0a43c-115">PIN の設定</span><span class="sxs-lookup"><span data-stu-id="0a43c-115">Set up your PIN</span></span>
 
-<span data-ttu-id="315c9-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**</span><span class="sxs-lookup"><span data-stu-id="315c9-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="0a43c-116">![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**</span><span class="sxs-lookup"><span data-stu-id="0a43c-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="315c9-117">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="315c9-117">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="0a43c-117">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="0a43c-117">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="315c9-118">**マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。</span><span class="sxs-lookup"><span data-stu-id="315c9-118">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
+2. <span data-ttu-id="0a43c-118">**マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。</span><span class="sxs-lookup"><span data-stu-id="0a43c-118">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
     
-3. <span data-ttu-id="315c9-119">左側のナビゲーションの**音声**を選択します > **ポート注文**します。</span><span class="sxs-lookup"><span data-stu-id="315c9-119">In the left navigation, choose **Voice** > **Port orders**.</span></span>
+3. <span data-ttu-id="0a43c-119">左側のナビゲーションの**音声**を選択します > **ポート注文**します。</span><span class="sxs-lookup"><span data-stu-id="0a43c-119">In the left navigation, choose **Voice** > **Port orders**.</span></span>
     
-4. <span data-ttu-id="315c9-120">別の通信業者に転送または移行する番号に使われる **[PIN の設定と管理]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="315c9-120">Click **Set up and manage the PIN** that is used for transferring or porting numbers to another service carrier.</span></span>
+4. <span data-ttu-id="0a43c-120">別の通信業者に転送または移行する番号に使われる **[PIN の設定と管理]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0a43c-120">Click **Set up and manage the PIN** that is used for transferring or porting numbers to another service carrier.</span></span>
     
-5. <span data-ttu-id="315c9-121">[**移行する PIN の設定または変更**] パネルで、PIN を入力し、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="315c9-121">In the **Set or change your port out PIN** panel, enter your PIN and click **Save**.</span></span>
+5. <span data-ttu-id="0a43c-121">[**移行する PIN の設定または変更**] パネルで、PIN を入力し、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0a43c-121">In the **Set or change your port out PIN** panel, enter your PIN and click **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="315c9-122">さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="315c9-122">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="0a43c-122">さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="0a43c-122">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="315c9-123">関連トピック</span><span class="sxs-lookup"><span data-stu-id="315c9-123">Related topics</span></span>
-[<span data-ttu-id="315c9-124">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="315c9-124">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="0a43c-123">関連トピック</span><span class="sxs-lookup"><span data-stu-id="0a43c-123">Related topics</span></span>
+[<span data-ttu-id="0a43c-124">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="0a43c-124">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="315c9-125">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="315c9-125">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="0a43c-125">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="0a43c-125">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-<span data-ttu-id="315c9-126">[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="315c9-126">[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)</span></span>
+<span data-ttu-id="0a43c-126">[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="0a43c-126">[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)</span></span>
 
-[<span data-ttu-id="315c9-127">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="315c9-127">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="0a43c-127">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="0a43c-127">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="315c9-128">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="315c9-128">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="0a43c-128">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="0a43c-128">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

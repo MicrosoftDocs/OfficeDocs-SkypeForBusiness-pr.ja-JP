@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: に移行した後 Microsoft Skype ビジネス サーバー 2019 の System Center Operations Manager を使用するサーバー 2019 のビジネス用の Skype を構成するのには、いくつかのタスクを完了する必要があります。
 ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238724"
 ---
-# <a name="configure-scom-monitoring"></a><span data-ttu-id="4f8c6-103">SCOM 監視の構成</span><span class="sxs-lookup"><span data-stu-id="4f8c6-103">Configure SCOM monitoring</span></span>
+# <a name="configure-scom-monitoring"></a><span data-ttu-id="039e5-103">SCOM 監視の構成</span><span class="sxs-lookup"><span data-stu-id="039e5-103">Configure SCOM monitoring</span></span>
 
-<span data-ttu-id="4f8c6-104">に移行した後 Skype ビジネス サーバー 2019 の System Center Operations Manager を使用するサーバー 2019 のビジネス用の Skype を構成するのには、いくつかのタスクを完了する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-104">After migrating to Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager.</span></span>
+<span data-ttu-id="039e5-104">に移行した後 Skype ビジネス サーバー 2019 の System Center Operations Manager を使用するサーバー 2019 のビジネス用の Skype を構成するのには、いくつかのタスクを完了する必要があります。</span><span class="sxs-lookup"><span data-stu-id="039e5-104">After migrating to Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager.</span></span>
   
-- <span data-ttu-id="4f8c6-105">中央の検出ロジックを管理することを選択するサーバーに更新プログラムを適用します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-105">Apply updates to a server elected to manage the central discovery logic.</span></span>
+- <span data-ttu-id="039e5-105">中央の検出ロジックを管理することを選択するサーバーに更新プログラムを適用します。</span><span class="sxs-lookup"><span data-stu-id="039e5-105">Apply updates to a server elected to manage the central discovery logic.</span></span>
     
-- <span data-ttu-id="4f8c6-106">中央の検索候補のサーバーのレジストリ キーを更新します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-106">Update the central discovery candidate server registry key.</span></span>
+- <span data-ttu-id="039e5-106">中央の検索候補のサーバーのレジストリ キーを更新します。</span><span class="sxs-lookup"><span data-stu-id="039e5-106">Update the central discovery candidate server registry key.</span></span>
     
-- <span data-ttu-id="4f8c6-107">候補の中心的な探索ノードを上書きする、プライマリの System Center Operations Manager 管理サーバーを構成します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-107">Configure your primary System Center Operations Manager management server to override the candidate central discovery node.</span></span>
+- <span data-ttu-id="039e5-107">候補の中心的な探索ノードを上書きする、プライマリの System Center Operations Manager 管理サーバーを構成します。</span><span class="sxs-lookup"><span data-stu-id="039e5-107">Configure your primary System Center Operations Manager management server to override the candidate central discovery node.</span></span>
     
-<span data-ttu-id="4f8c6-108">これらのタスクを実行するための手順が記載されています。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-108">Instructions for carrying out each of these tasks are provided below.</span></span>
+<span data-ttu-id="039e5-108">これらのタスクを実行するための手順が記載されています。</span><span class="sxs-lookup"><span data-stu-id="039e5-108">Instructions for carrying out each of these tasks are provided below.</span></span>
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a><span data-ttu-id="4f8c6-109">中央の検出ロジックを管理することを選択するサーバーに更新プログラムを適用します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-109">Apply updates to a server elected to manage the central discovery logic.</span></span>
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a><span data-ttu-id="039e5-109">中央の検出ロジックを管理することを選択するサーバーに更新プログラムを適用します。</span><span class="sxs-lookup"><span data-stu-id="039e5-109">Apply updates to a server elected to manage the central discovery logic.</span></span>
 
-1. <span data-ttu-id="4f8c6-110">System Center Operations Manager エージェントのファイルがインストールされ、候補探索ノードとして構成されているサーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-110">Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node.</span></span> 
+1. <span data-ttu-id="039e5-110">System Center Operations Manager エージェントのファイルがインストールされ、候補探索ノードとして構成されているサーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="039e5-110">Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node.</span></span> 
     
-2. <span data-ttu-id="4f8c6-111">このサーバーに更新プログラムを適用します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-111">Apply updates to this server.</span></span> <span data-ttu-id="4f8c6-112">[更新プログラムの適用](apply-updates.md)のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-112">See the topic [Apply updates](apply-updates.md).</span></span>
+2. <span data-ttu-id="039e5-111">このサーバーに更新プログラムを適用します。</span><span class="sxs-lookup"><span data-stu-id="039e5-111">Apply updates to this server.</span></span> <span data-ttu-id="039e5-112">[更新プログラムの適用](apply-updates.md)のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="039e5-112">See the topic [Apply updates](apply-updates.md).</span></span>
     
-### <a name="update-the-central-discovery-candidate-server-registry-key"></a><span data-ttu-id="4f8c6-113">中央の検索候補のサーバーのレジストリ キーを更新します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-113">Update the central discovery candidate server registry key.</span></span>
+### <a name="update-the-central-discovery-candidate-server-registry-key"></a><span data-ttu-id="039e5-113">中央の検索候補のサーバーのレジストリ キーを更新します。</span><span class="sxs-lookup"><span data-stu-id="039e5-113">Update the central discovery candidate server registry key.</span></span>
 
-1. <span data-ttu-id="4f8c6-114">中央の検出ロジックを管理することを選択、サーバー上には、Windows PowerShell のコマンド ウィンドウを開きます。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-114">On the server elected to manage the central discovery logic, open a Windows PowerShell command window.</span></span> 
+1. <span data-ttu-id="039e5-114">中央の検出ロジックを管理することを選択、サーバー上には、Windows PowerShell のコマンド ウィンドウを開きます。</span><span class="sxs-lookup"><span data-stu-id="039e5-114">On the server elected to manage the central discovery logic, open a Windows PowerShell command window.</span></span> 
     
-2. <span data-ttu-id="4f8c6-115">コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-115">At the command line, type the following:</span></span>
+2. <span data-ttu-id="039e5-115">コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="039e5-115">At the command line, type the following:</span></span>
     
    ```
    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
@@ -49,18 +49,18 @@ ms.locfileid: "30887415"
    ```
 
     > [!NOTE]
-    > <span data-ttu-id="4f8c6-116">レジストリを編集するたびに、レジストリ キーが既に存在する場合、コマンドが失敗しましたというエラーが発生するように。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-116">Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists.</span></span> <span data-ttu-id="4f8c6-117">この状況が発生する場合は、エラーを無視してかまいません。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-117">If you experience this, you can safely ignore the error.</span></span> 
+    > <span data-ttu-id="039e5-116">レジストリを編集するたびに、レジストリ キーが既に存在する場合、コマンドが失敗しましたというエラーが発生するように。</span><span class="sxs-lookup"><span data-stu-id="039e5-116">Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists.</span></span> <span data-ttu-id="039e5-117">この状況が発生する場合は、エラーを無視してかまいません。</span><span class="sxs-lookup"><span data-stu-id="039e5-117">If you experience this, you can safely ignore the error.</span></span> 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a><span data-ttu-id="4f8c6-118">候補の中心的な検出の監視ノードを上書きする、プライマリの System Center Operations Manager 管理サーバーを構成します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-118">Configure your primary System Center Operations Manager management server to override the candidate central discovery watcher node.</span></span>
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a><span data-ttu-id="039e5-118">候補の中心的な検出の監視ノードを上書きする、プライマリの System Center Operations Manager 管理サーバーを構成します。</span><span class="sxs-lookup"><span data-stu-id="039e5-118">Configure your primary System Center Operations Manager management server to override the candidate central discovery watcher node.</span></span>
 
-1. <span data-ttu-id="4f8c6-119">System Center Operations Manager コンソールがインストールされているコンピューター、[**管理パック オブジェクト**を展開し、**オブジェクト検出**します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-119">On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.</span></span>
+1. <span data-ttu-id="039e5-119">System Center Operations Manager コンソールがインストールされているコンピューター、[**管理パック オブジェクト**を展開し、**オブジェクト検出**します。</span><span class="sxs-lookup"><span data-stu-id="039e5-119">On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.</span></span>
     
-2. <span data-ttu-id="4f8c6-120">[**スコープの変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-120">Click **Change Scope**</span></span>
+2. <span data-ttu-id="039e5-120">[**スコープの変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="039e5-120">Click **Change Scope**</span></span>
     
-3. <span data-ttu-id="4f8c6-121">**管理パック オブジェクトのスコープ**] ページで、 **LS の検索候補**を選択します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-121">From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.</span></span>
+3. <span data-ttu-id="039e5-121">**管理パック オブジェクトのスコープ**] ページで、 **LS の検索候補**を選択します。</span><span class="sxs-lookup"><span data-stu-id="039e5-121">From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.</span></span>
     
-4. <span data-ttu-id="4f8c6-122">**LS 検索候補の有効値**の前の手順で選択した候補のサーバーの名前をオーバーライドします。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-122">Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure.</span></span> 
+4. <span data-ttu-id="039e5-122">**LS 検索候補の有効値**の前の手順で選択した候補のサーバーの名前をオーバーライドします。</span><span class="sxs-lookup"><span data-stu-id="039e5-122">Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure.</span></span> 
     
-<span data-ttu-id="4f8c6-123">変更内容を確定するには、システム センター操作マネージャー ルートの管理サーバーの稼働状態サービスを再起動します。</span><span class="sxs-lookup"><span data-stu-id="4f8c6-123">To finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.</span></span>
+<span data-ttu-id="039e5-123">変更内容を確定するには、システム センター操作マネージャー ルートの管理サーバーの稼働状態サービスを再起動します。</span><span class="sxs-lookup"><span data-stu-id="039e5-123">To finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.</span></span>
   
 

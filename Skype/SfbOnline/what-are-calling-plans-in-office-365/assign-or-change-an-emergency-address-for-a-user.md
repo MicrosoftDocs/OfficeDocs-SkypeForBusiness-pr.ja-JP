@@ -1,5 +1,5 @@
 ---
-title: ユーザーの緊急番号の割り当て、変更を行う
+title: ユーザーの緊急対応の住所の割り当てまたは変更
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,55 +22,55 @@ ms.custom:
 - Calling Plans
 description: 公衆交換電話網 (PSTN) を使用して業務を行うユーザーの緊急対応の住所と電話番号を設定する方法の手順を説明します。
 ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233254"
 ---
-# <a name="assign-or-change-an-emergency-address-for-a-user"></a><span data-ttu-id="1dac3-103">ユーザーの緊急番号の割り当て、変更を行う</span><span class="sxs-lookup"><span data-stu-id="1dac3-103">Assign or change an emergency address for a user</span></span>
+# <a name="assign-or-change-an-emergency-address-for-a-user"></a><span data-ttu-id="ecd6a-103">ユーザーの緊急対応の住所の割り当てまたは変更</span><span class="sxs-lookup"><span data-stu-id="ecd6a-103">Assign or change an emergency address for a user</span></span>
 
-<span data-ttu-id="1dac3-104">Office 365 の通話プランを設定している場合、電話番号またはユーザーごとに緊急対応の住所を割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="1dac3-104">When you are setting up Calling Plans in Office 365, you will need to assign an emergency address to each phone number or user.</span></span> <span data-ttu-id="1dac3-105">欧州諸国では、Office 365 から電話番号を取得するとき、または Office 365 に電話番号を転送するときに、緊急対応の住所が電話番号と関連付けられます。</span><span class="sxs-lookup"><span data-stu-id="1dac3-105">In European countries, the emergency address is associated with the phone number when you get it from Office 365 or when you transfer a phone number over to Office 365.</span></span> <span data-ttu-id="1dac3-106">米国では、電話番号がユーザーに割り当てられるときに、緊急対応の住所が電話番号と関連付けられます。</span><span class="sxs-lookup"><span data-stu-id="1dac3-106">In the United States, the emergency address is associated with the phone number when it is assigned to the user.</span></span> <span data-ttu-id="1dac3-107">緊急対応の住所が割り当てられたユーザーが新しい場所に引っ越す場合、緊急対応の住所は変更できます。</span><span class="sxs-lookup"><span data-stu-id="1dac3-107">The emergency address can be changed if the user it is assigned to moves to a new location.</span></span> <span data-ttu-id="1dac3-108">緊急対応の場所および住所の詳細については、「[緊急対応の場所、アドレス、通話ルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1dac3-108">For more about emergency addresses and locations, see [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)</span></span>
+<span data-ttu-id="ecd6a-104">Office 365 の通話プランを設定している場合、電話番号またはユーザーごとに緊急対応の住所を割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-104">When you are setting up Calling Plans in Office 365, you will need to assign an emergency address to each phone number or user.</span></span> <span data-ttu-id="ecd6a-105">欧州諸国では、Office 365 から電話番号を取得するとき、または Office 365 に電話番号を転送するときに、緊急対応の住所が電話番号と関連付けられます。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-105">In European countries, the emergency address is associated with the phone number when you get it from Office 365 or when you transfer a phone number over to Office 365.</span></span> <span data-ttu-id="ecd6a-106">米国では、電話番号がユーザーに割り当てられるときに、緊急対応の住所が電話番号と関連付けられます。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-106">In the United States, the emergency address is associated with the phone number when it is assigned to the user.</span></span> <span data-ttu-id="ecd6a-107">緊急対応の住所が割り当てられたユーザーが新しい場所に引っ越す場合、緊急対応の住所は変更できます。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-107">The emergency address can be changed if the user it is assigned to moves to a new location.</span></span> <span data-ttu-id="ecd6a-108">緊急対応の場所および住所の詳細については、「[緊急対応の場所、アドレス、通話ルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-108">For more about emergency addresses and locations, see [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)</span></span>
   
-<span data-ttu-id="1dac3-109">Office 365 の通話プランの取得方法とかかる費用については、「[Skype for Business と Microsoft Teams アドオン ライセンシング](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1dac3-109">To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
+<span data-ttu-id="ecd6a-109">Office 365 の通話プランの取得方法とかかる費用については、「[Skype for Business と Microsoft Teams アドオン ライセンシング](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-109">To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
   
-## <a name="assign-or-change-an-emergency-address"></a><span data-ttu-id="1dac3-110">割り当てるか、緊急時のアドレスを変更します。</span><span class="sxs-lookup"><span data-stu-id="1dac3-110">Assign or change an emergency address</span></span>
+## <a name="assign-or-change-an-emergency-address"></a><span data-ttu-id="ecd6a-110">割り当てるか、緊急時のアドレスを変更します。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-110">Assign or change an emergency address</span></span>
 
-1. <span data-ttu-id="1dac3-111">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="1dac3-111">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="ecd6a-111">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-111">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="1dac3-112">**マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。</span><span class="sxs-lookup"><span data-stu-id="1dac3-112">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
+2. <span data-ttu-id="ecd6a-112">**マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-112">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
     
-3. <span data-ttu-id="1dac3-113">左側のナビゲーションには、 **音声**、し、 **ユーザーの音声**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1dac3-113">In the left navigation go to **Voice**, then click **Voice users**.</span></span>
+3. <span data-ttu-id="ecd6a-113">左側のナビゲーションには、 **音声**、し、 **ユーザーの音声**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-113">In the left navigation go to **Voice**, then click **Voice users**.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="1dac3-114">ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1dac3-114">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="ecd6a-114">ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-114">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
     
-4. <span data-ttu-id="1dac3-115">**音声ユーザー**ページで、緊急対応の住所を変更するユーザーを見つけて、選択します。</span><span class="sxs-lookup"><span data-stu-id="1dac3-115">On the **Voice users** page, locate and select the user you want to change the emergency address for.</span></span>
+4. <span data-ttu-id="ecd6a-115">**音声ユーザー**ページで、緊急対応の住所を変更するユーザーを見つけて、選択します。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-115">On the **Voice users** page, locate and select the user you want to change the emergency address for.</span></span>
     
-5. <span data-ttu-id="1dac3-116">操作ウィンドウの [ **緊急対応の場所**] で [ **変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1dac3-116">In the Action pane, under **Emergency location**, click **Change**.</span></span>
+5. <span data-ttu-id="ecd6a-116">操作ウィンドウの [ **緊急対応の場所**] で [ **変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-116">In the Action pane, under **Emergency location**, click **Change**.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="1dac3-117">既に検証が済んだ緊急対応の住所のみ変更できます。</span><span class="sxs-lookup"><span data-stu-id="1dac3-117">You can only change an emergency address that has already been validated.</span></span> <span data-ttu-id="1dac3-118">検証されていない緊急対応の住所を変更するには、その住所を変更して、別の緊急対応の住所を作成します。</span><span class="sxs-lookup"><span data-stu-id="1dac3-118">To change an emergency address that hasn't been validated, delete it and create another emergency address.</span></span> 
+    > <span data-ttu-id="ecd6a-117">既に検証が済んだ緊急対応の住所のみ変更できます。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-117">You can only change an emergency address that has already been validated.</span></span> <span data-ttu-id="ecd6a-118">検証されていない緊急対応の住所を変更するには、その住所を変更して、別の緊急対応の住所を作成します。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-118">To change an emergency address that hasn't been validated, delete it and create another emergency address.</span></span> 
   
-6. <span data-ttu-id="1dac3-119">**番号の割り当て**] ページで、[**場所の変更**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1dac3-119">On the **Assign number** page, click **Change location**.</span></span>
+6. <span data-ttu-id="ecd6a-119">**番号の割り当て**] ページで、[**場所の変更**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-119">On the **Assign number** page, click **Change location**.</span></span>
     
-7. <span data-ttu-id="1dac3-120">**緊急アドレスへの変更**、[市区町村の名前を入力してくださいし、[**検索**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1dac3-120">Under **Change emergency address to**, enter the name of the city and click **Search**.</span></span>
+7. <span data-ttu-id="ecd6a-120">**緊急アドレスへの変更**、[市区町村の名前を入力してくださいし、[**検索**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-120">Under **Change emergency address to**, enter the name of the city and click **Search**.</span></span>
     
-8. <span data-ttu-id="1dac3-121">アドレスのドロップダウン リストから緊急対応の住所を選択し、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1dac3-121">Select the emergency address from the address drop-down list, and then click **Save**.</span></span> 
+8. <span data-ttu-id="ecd6a-121">アドレスのドロップダウン リストから緊急対応の住所を選択し、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ecd6a-121">Select the emergency address from the address drop-down list, and then click **Save**.</span></span> 
     
-## <a name="related-topics"></a><span data-ttu-id="1dac3-122">関連トピック</span><span class="sxs-lookup"><span data-stu-id="1dac3-122">Related topics</span></span>
-## <a name="related-topics"></a><span data-ttu-id="1dac3-123">関連トピック</span><span class="sxs-lookup"><span data-stu-id="1dac3-123">Related topics</span></span>
-[<span data-ttu-id="1dac3-124">追加、変更、または組織のシステムのアドレスを削除します。</span><span class="sxs-lookup"><span data-stu-id="1dac3-124">Add, change, or remove an emergency address for your organization</span></span>](add-or-remove-an-emergency-address-for-your-organization.md)
+## <a name="related-topics"></a><span data-ttu-id="ecd6a-122">関連トピック</span><span class="sxs-lookup"><span data-stu-id="ecd6a-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ecd6a-123">関連トピック</span><span class="sxs-lookup"><span data-stu-id="ecd6a-123">Related topics</span></span>
+[<span data-ttu-id="ecd6a-124">組織の緊急対応の住所を追加、変更、削除する</span><span class="sxs-lookup"><span data-stu-id="ecd6a-124">Add, change, or remove an emergency address for your organization</span></span>](add-or-remove-an-emergency-address-for-your-organization.md)
 
-[<span data-ttu-id="1dac3-125">組織の緊急対応の場所を追加、変更、削除する</span><span class="sxs-lookup"><span data-stu-id="1dac3-125">Add, change, or remove an emergency location for your organization</span></span>](add-change-or-remove-an-emergency-location-for-your-organization.md)
+[<span data-ttu-id="ecd6a-125">組織の緊急対応の場所を追加、変更、削除する</span><span class="sxs-lookup"><span data-stu-id="ecd6a-125">Add, change, or remove an emergency location for your organization</span></span>](add-change-or-remove-an-emergency-location-for-your-organization.md)
 
-[<span data-ttu-id="1dac3-126">住所検証について</span><span class="sxs-lookup"><span data-stu-id="1dac3-126">What is address validation?</span></span>](what-is-address-validation.md)
+[<span data-ttu-id="ecd6a-126">住所検証とは何ですか?</span><span class="sxs-lookup"><span data-stu-id="ecd6a-126">What is address validation?</span></span>](what-is-address-validation.md)
 
-<span data-ttu-id="1dac3-127">[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="1dac3-127">[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)</span></span>
+<span data-ttu-id="ecd6a-127">[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="ecd6a-127">[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)</span></span>
 
-[<span data-ttu-id="1dac3-128">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="1dac3-128">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="ecd6a-128">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="ecd6a-128">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="1dac3-129">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="1dac3-129">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="ecd6a-129">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="ecd6a-129">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
