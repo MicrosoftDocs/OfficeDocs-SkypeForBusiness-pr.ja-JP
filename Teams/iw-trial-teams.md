@@ -3,10 +3,10 @@ title: Microsoft Teams の商用クラウドの試用提供を管理する
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 12/10/2018
+ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: marubins
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -16,17 +16,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5633250ce07d0baed78ab98220ea39e76cd691ff
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.openlocfilehash: baad7614cbcb622017de7629fa62799be330dc88
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222441"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
 
 Microsoft Teams は、組織に最適な共同作業ツールです。 Office 365 の機能を使用して、ユーザーやチームがアイデアのディスカッション、導入、共有を行うことができます。 Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版を開始するための Microsoft Teams ライセンスを所有していない、組織内の既存の Office 365 ユーザーを対象にしています。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。
+
+> [!IMPORTANT]
+> Microsoft Teams の商用クラウドの試用版は、Teams の機能を増やす追加のサービス プランを含む更新がされ、現在組織の請求管理者によって所有し管理されています。これは、試用をより管理しやすくし、その他の Microsoft 365 のすべての特典に一貫性を持たせることができます。 既存の Teams の商用クラウドの試用版のユーザーは、新しいプランに移行されます。
 
 ## <a name="whats-in-the-offer"></a>オファーの内容
 
@@ -34,13 +37,16 @@ Microsoft Teams は、組織に最適な共同作業ツールです。 Office 36
 
 - Exchange の基礎
 - Office 365 プラン 1 のフロー
+- フォーム
 - Microsoft Planner
 - Microsoft Teams (Teams1、Teams IW)
 - Office Online
 - PowerApps for Office 365 プラン 1
 - SharePoint Online Kiosk
+- Stream
 - Sway
-- Yammer Enterprise
+- Whiteboard
+- Yammer Enterprise 
 
 試用版では、組織全体に 1 年間の試用版サブスクリプションを付与します。 試用版では、500,000 ライセンスが割り当て可能になります。 割り当てられたライセンスごとに、試用版では 2 GB の SharePoint Online 記憶域が割り当てられます。 
 
@@ -52,17 +58,13 @@ Teams を含む Office 365 ライセンスを所有していないユーザー�
 
 ## <a name="who-is-not-eligible"></a>対象外
 
-次の場合、組織は試用版の対象外になります。 
-
-- シンジケーション パートナーのお客様
-- 再販業者パートナーのお客様
-- 政府機関または教育機関のお客様
+シンジケート パートナー顧客である場合、または GCC、GCC High、DoD、または教育機関の顧客である場合、あなたの組織は試用版の対象ではありません。
 
 組織が Microsoft Teams 商用クラウド試用版オファーの対象外の場合は、**[ユーザーに試用版アプリとサービスのインストールを許可する]** スイッチは表示されません。
 
 ## <a name="how-users-sign-up-for-the-trial"></a>ユーザーが試用版にサインアップする方法
 
-対象となるユーザーは、Teams ([teams.microsoft.com](https://teams.microsoft.com)) にログインして試用版オファーにサインアップできます。 試用版を開始するために、次の画面が表示されます。 
+対象となるユーザーは、Teams ([teams.microsoft.com](https://teams.microsoft.com)) にサインインして試用版オファーにサインアップできます。 試用版を開始するために、次の画面が表示されます。 
 
 ![Teams IW 試用版のスタート ページのスクリーン ショット。](media/iw-trial-start-screen.png)
 
@@ -70,7 +72,7 @@ Teams を含む Office 365 ライセンスを所有していないユーザー�
 
 ## <a name="manage-the-trial"></a>試用版の管理
 
-管理者は、サインアップしたユーザーのライセンスを管理できます。 
+試用版のライセンスには、管理者によって割り当てられたその他のサブスクリプションの取得と同じ方法が割り当てられます。 詳細については、「[Office 365 for businessライセンスをユーザーに割り当てる](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)」を参照してください。 
 
 さらに、管理者はエンド ユーザーが組織内で試用版アプリおよびサービスを要求できないようにすることも可能です。 現時点では、この記事で説明している試用版が、このカテゴリの唯一の試用版ですが、将来、別の同様のプログラムに適用される可能性があります。 
 
@@ -89,7 +91,7 @@ Teams を含む Office 365 ライセンスを所有していないユーザー�
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Teams が含まれているライセンスを持つユーザーの試用版利用可能性を管理する
 
-Teams が含まれているライセンスの割り当てられたユーザーは、試用版の対象になりません。 Teams のサービス プランが有効なときには、そのユーザーは Teams にログインして Teams を使用できます。 サービス プランが無効な場合、そのユーザーはログインすることも、試用版のオプションが表示されることもありません。
+Teams が含まれているライセンスの割り当てられたユーザーは、試用版の対象になりません。 Teams のサービス プランが有効なときには、そのユーザーは Teams にログインして使用できます。 サービス プランが無効な場合、そのユーザーはログインすることも、試用版のオプションが表示されることもありません。
 
 Teams へのアクセスをオフにするには:
 
@@ -120,7 +122,7 @@ Teams へのアクセスをオフにするには:
     ![[製品ライセンス] ウィンドウの Teams 試用版ライセンスの設定を示すスクリーンショット](media/iW-trial-enable-4.png)
     
 >[!Note]
->Microsoft Teams Trial の切り替えスイッチは、組織内で最初のユーザーが試用版にサインアップした後に表示されます。
+>Microsoft Teams の試用版の切り替えスイッチは、組織内の最初のユーザーが試用版にサインアップした後に表示されます。
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>試用版ライセンスを持つユーザーの Teams を管理する
 
@@ -137,3 +139,6 @@ Teams へのアクセスをオフにするには:
 3. 新しく購入したライセンスを割り当てます。
 
 詳細については、「[Microsoft Teams 用の Office 365 ライセンス](Office-365-licensing.md)」を参照してください。
+
+> [!NOTE]
+> 試用期間が終了し、Teams を含むサブスクリプションにユーザーがすぐにアップグレードされない場合は、ユーザー データは削除されません。 ユーザーは引き続き Azure Active Directory に残り、Teams 内のすべてのデータが残されたままになります。 ユーザーに新しいライセンスが割り当てられると、Teams の機能は再び有効になり、すべてのコンテンツが残ります。 
