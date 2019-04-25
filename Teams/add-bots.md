@@ -14,12 +14,12 @@ ms.reviewer: lucarras
 description: プライベート チャットとチャネル用に Microsoft Teams にボットを追加する方法、カスタム ボットを作成する方法、プライベート チャット用に独自のボットをサイド ロードする方法について紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c6956e2e907a8d32b9274a3cda0ee3b42b10dc6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a4e921ea668fc59b520fdb068355db82bfe24481
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226616"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298525"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートのチャットやチャネルのボットを追加する
 ==========================================================
@@ -64,8 +64,8 @@ Microsoft ボット フレームワークを使用して、LOB アプリケー�
 
 ここでは、ボットを同僚と共有する場合の、さまざまなチームのチャネルにボットを追加する方法を紹介します。
 
-1. [ボットのアプリ パッケージを作成](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload)したら、Teams を開き、サイド ローディングするボットのチームを参照します。
-2. **[App Studio](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-app-studio)** マイクロソフトのチームにアプリケーションを追加します。
+1. [ボットのアプリ パッケージを作成](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)したら、Teams を開き、サイド ローディングするボットのチームを参照します。
+2. **[App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)** マイクロソフトのチームにアプリケーションを追加します。
 3. App Studio では、**マニフェスト エディター** ] タブを選択します![マニフェスト エディター] タブのスクリーン ショットです。](media/Adding_Bot_To_Teams.png)
 4. 追加する機能で、bot、ボットを選択、既存のボットを追加することを選択し、ドロップから、既存のボットを選択するオプションがあるか、既存のコンポーネントの 1 つの Id を入力します。
 ![既に作成して、ボットを選択します。](media/Select_Existing_Bot.png)

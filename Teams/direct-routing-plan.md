@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569943"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298573"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -44,7 +45,7 @@ Microsoft 電話システム直接ルーティングするには、マイクロ�
 - 組織では、サード ・ パーティ製のアナログ デバイス、コール センターへの接続が必要です。 
 - 組織には、PSTN のキャリアで既存の契約があります。
 
-直接ルーティングでは、Microsoft を呼び出す予定の追加のライセンスを持つユーザーもサポートしています。 詳細については、 [Office 365 のプランを呼び出す](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)と、[使用許諾契約とその他の要件](#licensing-and-other-requirements)を参照してください。 
+直接ルーティングでは、Microsoft を呼び出す予定の追加のライセンスを持つユーザーもサポートしています。 詳細については、[電話システムおよび計画の呼び出し](calling-plan-landing-page.md)を参照してください。 
 
 直接ルーティングでは、ユーザーは、スケジュールされた会議に参加すると、ダイヤルイン番号が Microsoft オーディオ会議サービスは、適切なライセンスを必要とするによって提供されます。  発信では、Microsoft のオーディオ会議サービスは、適切なライセンスを必要とするオンラインの呼び出し機能を使用して呼び出しを配置します。 (その発信ルーティングせず直接ルーティングを使用に注意してください)。詳細については、[チームとのオンライン会議](https://products.office.com/microsoft-teams/online-meeting-solutions)を参照してください。 
  
