@@ -9,11 +9,11 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 description: Skype for Business の紹介と、その計画と導入、運用の方法を管理者に説明するトレーニング ビデオです。
 ms.openlocfilehash: dd9d114beb0ebfb3765fac72f7391ac2ab202272
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247454"
 ---
 <a name="admin-training-for-skype-for-business-online"></a>Skype for Business Online 管理者トレーニング
 ==================================

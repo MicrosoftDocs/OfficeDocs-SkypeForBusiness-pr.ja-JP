@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: 'このレポートとは、ビジネス レポートの場合は、他の Skype によって、PSTN の使用法を含む、組織全体での活動の詳細情報が表示します。 '
 ms.openlocfilehash: 2cd12c19911df796ae33bd841e8fd15b987cf366
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239841"
 ---
 # <a name="users-blocked-report"></a>ブロックされているユーザーのレポート
 
@@ -36,7 +36,7 @@ ms.locfileid: "30453958"
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>ビジネス ユーザー向け Skype を取得する方法は、レポートをブロックします。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 - **Office 365 管理センター**を参照して > **管理センター** > **ビジネス管理センターの Skype** > **レポート** > **のユーザーがブロックされています**。
     

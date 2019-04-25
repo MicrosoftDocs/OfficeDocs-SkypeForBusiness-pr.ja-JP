@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: '概要: ビジネスのサーバーの一部またはすべてのユーザーの Skype の呼び出しを使用して作業を配置する方法を説明します。'
 ms.openlocfilehash: d0cee2cbf3a88514983efd77e2b1728b2df1e792
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227537"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Skype ビジネス サーバーの作業時間を使用して呼び出しを配置します。
  

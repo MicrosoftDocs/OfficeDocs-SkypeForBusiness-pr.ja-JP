@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: '概要: は、Skype のビジネス サーバーのユーザーの暗証番号 (pin) の情報を表示します。'
 ms.openlocfilehash: 2960e31a54dd531598254ccea41dda516e9f7335
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222822"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>ユーザー暗証番号 (pin) について、Skype のビジネス サーバーの表示
  

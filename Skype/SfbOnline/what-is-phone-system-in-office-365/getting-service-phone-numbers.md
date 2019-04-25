@@ -1,5 +1,5 @@
 ---
-title: サービスの電話番号の取得
+title: サービス電話番号を取得する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
 ms.openlocfilehash: e1f4020e7062066451eebd626832da8d4a633069
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227876"
 ---
-# <a name="getting-service-phone-numbers"></a>サービスの電話番号の取得
+# <a name="getting-service-phone-numbers"></a>サービス電話番号を取得する
 
 In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
   
@@ -46,7 +46,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
   
 ## <a name="get-new-service-numbers"></a>新しいサービス番号を取得する
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     

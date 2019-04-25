@@ -23,11 +23,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
 ms.openlocfilehash: b474a5c905566b3ee0c01249f7b20f11e3dbabfc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223171"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Microsoft Teams で Office 365 の Skype の電話会議を試用または購入する
 
@@ -87,13 +87,13 @@ ms.locfileid: "30460981"
 
 2. [携帯電話への招待に含まれている番号を設定](set-the-phone-numbers-included-on-invites-in-teams.md)します。 これは、ユーザーが参加を予定している会議で表示される電話番号です。
 
-3. 発信者が電話会議の電話番号にかけたときに、電話会議の自動応答が発信者に応答する際に使われる[電話会議の自動応答言語を設定します](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)。 この手順は、Microsoft を電話会議プロバイダーとして使用している場合にのみ適用されます。
+3. [オーディオ会議の自動応答の言語設定](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)で、電話会議の電話番号にダイヤルするときに、呼び出し元を呼びかけられるように設定するのには、オーディオ会議自動アテンダントを使用します。 この手順は、オーディオ会議プロバイダーとして Microsoft を使用している場合にのみ適用されます。
 
 4. [オーディオ会議の会議の暗証番号 (pin) の長さを設定](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)します。
 
 
 > [!NOTE]
-> 中国の 21Vianet で運用される Office 365 を使用している顧客は、まだこの機能を使用できません。 詳細については、 [21Vianet で運用される Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)を参照してください。
+> 中国の 21Vianet で運用される Office 365 を使用している顧客は、まだこの機能を使用できません。 詳細については、 [21Vianet で運用される Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE) を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 

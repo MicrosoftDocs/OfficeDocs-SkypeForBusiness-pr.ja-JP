@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'して使用することはできません Skype でビジネス管理センター、および他の機能、サービスを別の Microsoft のデータ センターに移行されている場合について説明します。 '
 ms.openlocfilehash: 57ffa6e37c18de8e87e5af00750eef276649f4f5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226319"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>使用できない理由、Skype オンライン ビジネスの管理センターに今すぐですか。
 
@@ -65,7 +65,7 @@ Skype のオンライン ビジネスの管理センターにアクセスする�
 
 もちろん。 オンライン ビジネス サービス、Skype に移行している間、Office 365 (たとえば、Office 365 と Exchange 管理中心) の他の管理センターを使用できます。 ただし、オンライン ビジネスの管理センターの Skype とすることはできませんビジネス オンライン リモート PowerShell コマンドレットの移行中に、Skype を使用します。 
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

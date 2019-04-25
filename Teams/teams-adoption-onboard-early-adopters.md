@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0225f439f8a8ffef245e94f5536251fb2ad43e94
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227051"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する
 
@@ -39,7 +39,7 @@ ms.locfileid: "30462133"
 
 プロジェクトのフィードバックを収集するのにには、Office 365 のコンポーネントを使用します。
   
-![判断ポイント アイコン。](media/teams-adoption-decision-icon.png) 意思決定: Yammer ネットワークでの組織に既にに投資した場合、ことができますとして使用するフィードバック フォーラム、早期採用プログラムにします。 そうでない場合は、2500 未満のメンバーが、早期採用プログラムには、フィードバックを収集し、トレーニングを提供するチームで、チームを作成します。
+![判断ポイント アイコン。](media/teams-adoption-decision-icon.png) 意思決定: Yammer ネットワークでの組織に既にに投資した場合、ことができますとして使用するフィードバック フォーラム、早期採用プログラムにします。 そうでない場合は、メンバー数が 5,000 未満であるが、早期採用プログラムには、フィードバックを収集し、トレーニングを提供するチームで、チームを作成します。
   
 > [!Note]
 > 一部の組織では、早期導入者のフィードバック チャネルをチームワークのエキスパート プログラム チームに結合します。 これは、多くの早期導入がチャンピオン、将来より強力なコミュニティが構築されますので、有効なアプローチです。 

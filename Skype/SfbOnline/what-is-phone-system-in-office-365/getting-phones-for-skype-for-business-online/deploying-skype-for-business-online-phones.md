@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てるビジネス オンライン電話の Skype の設定を構成する配置手順を説明します。
 ms.openlocfilehash: 9bc2a4754560b6d6caaed349377039c0b257936e
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32230437"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 

@@ -14,11 +14,11 @@ ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: コール パーク番号範囲では、一時停止の呼び出しが誰かを取得するか、タイムアウトするまで保持される数値を定義します。
 ms.openlocfilehash: 466dc1d02ee15ae25e6c8fe6e9e8a0006298a60d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221339"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>コール パーク: 新規作成または現在の形式のままで編集
 

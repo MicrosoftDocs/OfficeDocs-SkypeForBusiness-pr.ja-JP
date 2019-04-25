@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: トポロジ ビルダーは、SQL Server にデータベースをインストールする方法を提供します。 トポロジ ビルダーを使用してデータベースをインストールしてアプリケーション トポロジから情報を読み取り、指定された SQL Server コンピューターまたは SQL Server クラスターに必要なデータベースがインストールされます。 トポロジ ビルダーを使用したデータベースのインストールは、この方法のみです。 特定のコンピューター上の特定のデータベースをインストールする必要がありますか、Windows PowerShell のコマンド ライン インターフェイスおよびインストール CsDatabase コマンドレットが代わりに使用する必要がある場合は配置されているデータベースをインストールする必要があります。
 ms.openlocfilehash: 9b9d3e3678fe0015281a75aa04b2a2a88daf5d2f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226972"
 ---
 # <a name="create-database"></a>データベースの作成
  

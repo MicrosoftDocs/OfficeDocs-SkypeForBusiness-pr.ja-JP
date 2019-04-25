@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: '概要: は、項目のサービスの一部の項目の取得操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
 ms.openlocfilehash: ad4be2c09de9d71499cd7592989334ccf4cf17c9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235731"
 ---
 # <a name="get-items"></a>アイテムの取得
  

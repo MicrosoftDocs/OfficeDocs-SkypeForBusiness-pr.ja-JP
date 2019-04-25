@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバーの Skype では、単純な Url をサポートします。
 ms.openlocfilehash: 02f4cc729a50459a8125e216265b935d557007c6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238752"
 ---
 # <a name="change-simple-urls-after-migration"></a>移行後の簡易 URL の変更
 

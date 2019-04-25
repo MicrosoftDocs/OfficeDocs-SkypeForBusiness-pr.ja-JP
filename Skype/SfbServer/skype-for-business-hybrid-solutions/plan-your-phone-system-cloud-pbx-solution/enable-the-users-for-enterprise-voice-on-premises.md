@@ -1,5 +1,6 @@
 ---
 title: 設置型のエンタープライズ VoIP のユーザーを有効にします。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 電話システムを使用して、Office 365 (クラウド PBX) でユーザーが、最初にエンタープライズ VoIP を有効にして、電話番号を割り当てる必要があります。 これを行う設置型展開で、ユーザーのホームでも、設置型の展開を使用しています。
-ms.openlocfilehash: 8d00120b0b0fd74baed1ceb003a46cfc2468d502
-ms.sourcegitcommit: 7ca7f5cd38742b6a1967bd792113348dfe689850
+ms.openlocfilehash: 1b8329ec4deb90aed6bb9ae93c4a202beebb673c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30657448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234078"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>設置型のエンタープライズ VoIP のユーザーを有効にします。
  

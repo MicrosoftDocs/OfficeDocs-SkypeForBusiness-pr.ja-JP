@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
 ms.openlocfilehash: 3d01d23172d7c187d09930c644390bdbf7a273b2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237892"
 ---
 # <a name="customize-meeting-invitations"></a>会議出席依頼をカスタマイズする
 
@@ -72,10 +72,10 @@ ms.locfileid: "30897336"
     
     ![カスタム出席依頼がどのようなものかを図を使用せずに以下に示します](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 <a name="__top"> </a>
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

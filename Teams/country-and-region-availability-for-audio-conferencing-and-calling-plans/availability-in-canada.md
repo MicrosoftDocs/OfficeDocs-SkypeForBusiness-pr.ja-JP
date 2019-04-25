@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: カナダで利用できる Skype for Business と Microsoft Teams の Office 365 サービスを以下に示します。
 ms.openlocfilehash: 6b90ae826c24bf3af3d05ba0f65a3208b54cee1c
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248202"
 ---
 # <a name="availability-in-canada"></a>カナダでの利用可能性
 
@@ -50,7 +50,7 @@ ms.locfileid: "30543176"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |あり  <br/> |
+|電話システムは購入できますか?  <br/> |はい  <br/> |
 | 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
@@ -72,8 +72,8 @@ ms.locfileid: "30543176"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | <ul><li>カルガリー <li>  モントリオール <li>  トロント <li>  バンクーバー <li>  ウィニペグ </ul> |
-|有料電話番号は使用できますか?  <br/> |あり  <br/> |
-|無料電話番号は使用できますか?  <br/> |あり  <br/> |
+|有料電話番号は使用できますか?  <br/> |はい  <br/> |
+|無料電話番号は使用できますか?  <br/> |はい  <br/> |
 
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。
 

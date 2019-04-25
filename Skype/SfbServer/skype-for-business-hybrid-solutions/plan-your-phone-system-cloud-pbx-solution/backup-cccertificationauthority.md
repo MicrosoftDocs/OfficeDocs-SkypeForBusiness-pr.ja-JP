@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: Backup-CcCertificationAuthority コマンドレットは、Skype for Business Cloud Connector エディションの証明機関サービスをファイルにバックアップして、サイト共有ディレクトリの下にある CA フォルダーに保存します。
 ms.openlocfilehash: 2f85a4da58a586852b3331f1f8e482ee17e29e02
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234552"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  

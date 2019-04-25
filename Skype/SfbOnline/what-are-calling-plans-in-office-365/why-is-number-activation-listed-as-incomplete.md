@@ -1,5 +1,5 @@
 ---
-title: 番号のアクティブ化が未完了として表示される理由
+title: 理由番号のライセンス認証があると不完全なでしょうか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
 ms.openlocfilehash: bcc4ad06d922c4d0f65dc4f98a7d0780904e1d18
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229557"
 ---
-# <a name="why-is-number-activation-listed-as-incomplete"></a>番号のアクティブ化が未完了として表示される理由
+# <a name="why-is-number-activation-listed-as-incomplete"></a>理由番号のライセンス認証があると不完全なでしょうか。
 
 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 場合は電話番号はアクティブにし、アドレスの検証のため**不完全である**と記載されているいくつかの理由を作成し、サービス リクエストを送信する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
   
@@ -96,7 +96,7 @@ ms.locfileid: "25374701"
 > Office 365 管理センターの [**サービス リクエスト**] ページに、参照番号が表示されます。
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
   
 ## <a name="related-topics"></a>関連トピック

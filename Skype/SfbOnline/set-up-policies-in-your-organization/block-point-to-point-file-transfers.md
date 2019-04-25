@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: ビジネス オンラインの Skype は、既存の会議ポリシー設定の一部として、ポイント ツー ポイント (P2P) ファイルの転送を制御する機能があります。 ただし、これにより、またはファイルかどうかは、ファイルを転送するユーザーは、同じ組織内に、または別の組織からのフェデレーション ユーザーにユーザーの転送をブロックします。 次の手順では、次のまたはパートナーのフェデレーション組織との P2P のファイル転送をブロックできます。
 ms.openlocfilehash: 9b7d229c7f0ea0565dc3174286b4117984a2b606
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237540"
 ---
 # <a name="block-point-to-point-file-transfers"></a>ポイント ツー ポイントのファイル転送を禁止する
 
@@ -110,7 +110,7 @@ ms.locfileid: "30883245"
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。
     
@@ -120,7 +120,7 @@ ms.locfileid: "30883245"
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)
 
 [組織のクライアント ポリシーをセットアップする](set-up-client-policies-for-your-organization.md)

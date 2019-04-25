@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Skype for Business Onlineでダイヤルイン会議の番号を検索する方法。 '
 ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229226"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Skype for Business Onlineの電話会議の番号の一覧を見る
 
@@ -53,7 +53,7 @@ If there is only one phone number available in your organization, it will be use
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
     
 3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **マイクロソフトのブリッジ**をし。
     
@@ -65,7 +65,7 @@ If there is only one phone number available in your organization, it will be use
 > You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
 
   
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Go to the Office 365 admin centerSkype for Business.
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
 - 時間を短縮または、これを自動化するには、 [Get CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691)コマンドレットを使用することができます。
     
@@ -86,7 +86,7 @@ If there is only one phone number available in your organization, it will be use
     > [!NOTE]
     > Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行[](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: '概要: を削除する方法を学習する Skype ビジネス サーバーの構成設定に対応します。'
 ms.openlocfilehash: 47cde99751c90b71a52b70a0bde9aaf15acf0154
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222759"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>削除 Skype ビジネス サーバーの構成設定を満たす
  

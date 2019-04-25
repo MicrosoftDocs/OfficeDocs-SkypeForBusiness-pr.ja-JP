@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8ea80d3ba87a6499cba3bf52b5f70d45d0619c8a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242014"
 ---
 # <a name="deploy-my-service"></a>サービスを展開する
 
@@ -52,7 +52,7 @@ ms.locfileid: "30568465"
 -   サービス対応の検証
     - 電話会議
     - 通話プラン
-    - 直接のルーティング
+    - ダイレクト ルーティング
 
 -   ユーザーの有効化
 

@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: ユーザーが着信、ボイス メール、インスタント メッセージの未読通知を受信するために携帯電話の通知をオンまたはオフにする方法を説明します。
 ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226399"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>携帯電話の通知をオン/オフする
 
@@ -56,7 +56,7 @@ On Android and Windows Phones, Skype for Business notifications pop up in real t
 > [!IMPORTANT]
 >  Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 

@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン会議から、Skype のビジネス管理センター内では有効になっている、組織内のユーザーの一覧を表示する方法について説明します。 '
 ms.openlocfilehash: 722f9e411e1781529ea68f6995a2109f58d39cb0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229263"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>ビジネス オンラインの Skype で電話会議を有効になっているユーザーの一覧を参照してください。
 
@@ -40,7 +40,7 @@ ms.locfileid: "23881997"
 ## <a name="viewing-a-list-of-users"></a>ユーザーの一覧を表示します。
 
    
-- In the left navigation go to **Dial-in conferencing** > **Dial-in users**. Select the user that you want to enable for dial-in conferencing.
+- 左側のナビゲーションでは、**オーディオ会議**に移動 > **のユーザー**です。
 
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
@@ -72,13 +72,13 @@ ms.locfileid: "23881997"
     
   - 選択されたユーザーの電話会議をアクティブにするのには匿名ユーザーを許可または禁止します。
     
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Go to the Office 365 admin centerSkype for Business.
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell は、ユーザーを管理するユーザーを許可または許可されません。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。
     
@@ -86,8 +86,8 @@ ms.locfileid: "23881997"
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

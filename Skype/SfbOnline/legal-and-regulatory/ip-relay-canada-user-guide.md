@@ -19,11 +19,11 @@ ms.custom:
 hideEdit: true
 description: カナダの IP 中継アカウントを使用する方法です。
 ms.openlocfilehash: b5f6d268db302b4b0446c5f692bb7e27daa60b17
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224194"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>カナダでの IP 中継 - 『ユーザーガイド』
 
@@ -80,7 +80,7 @@ IP メッセージ リレー オペレーターは 911 にお問い合わせく�
 > [!IMPORTANT]
 > Northern911 は、マイクロソフトのための IP のリレー サービスを管理します。
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [カナダでの IP 中継 - サインアップ](ip-relay-canada-email-signup.md)
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ休日セットを変更します。
 ms.openlocfilehash: cc34c7a2e3f03b99bc29852766926e6c63c2463f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225647"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。
  

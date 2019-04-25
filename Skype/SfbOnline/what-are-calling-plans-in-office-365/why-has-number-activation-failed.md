@@ -1,5 +1,5 @@
 ---
-title: 電話番号のアクティブ化に失敗する理由
+title: 番号のライセンス認証が失敗しました
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
 ms.openlocfilehash: 8cb2e7b9f901ce4ab1db13e2869d002c62529537
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229567"
 ---
-# <a name="why-has-number-activation-failed"></a>電話番号のアクティブ化に失敗する理由
+# <a name="why-has-number-activation-failed"></a>番号のライセンス認証が失敗しました
 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 場合は何らかの理由により、電話番号はアドレスの検証のためにアクティブには、サービス リクエストを作成する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>150 ユーザー以下の組織の場合は、次の手順を実行します。
@@ -95,7 +95,7 @@ ms.locfileid: "25371654"
 > Office 365 管理センターの [**サービス リクエスト**] ページに、参照番号が表示されます。
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
   
 ## <a name="related-topics"></a>関連トピック

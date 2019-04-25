@@ -1,5 +1,5 @@
 ---
-title: 英国の住所情報の入力で問題が発生する理由
+title: 英国を入力する問題が生じる理由 アドレス情報ですか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: なぜことができる問題は、アドレスや英国 (英国) でを正しく検証するためにアドレスを取得するいくつかの理由を次に示します。
 ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227816"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>英国の住所情報の入力で問題が発生する理由
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>英国を入力する問題が生じる理由 アドレス情報ですか。
 
 なぜことができる問題は、アドレスや英国 (英国) でを正しく検証するためにアドレスを取得するいくつかの理由を次に示します。
   
@@ -107,7 +107,7 @@ ms.locfileid: "24958283"
 |AA # _ #AA  <br/> |FN35 1TH  <br/> |
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
    
 ## <a name="related-topics"></a>関連トピック

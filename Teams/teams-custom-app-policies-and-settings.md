@@ -18,11 +18,11 @@ localization_priority: Normal
 search.appverid: MET150
 description: カスタム アプリケーションのポリシーと、組織のマイクロソフトのチームでカスタム アプリケーションをアップロードできるユーザーを制御する設定を管理する方法について説明します。
 ms.openlocfilehash: 3cbd517cdfe8066eebff0164457c8e2e3aa37a5d
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749758"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224631"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 

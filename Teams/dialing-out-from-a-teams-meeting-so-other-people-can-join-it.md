@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Teams を使用して会議の開催者がダイヤルアウトするために何が必要か、およびその方法について説明します。
 ms.openlocfilehash: 37f44eb96a33307b12eef485e2fdabf985ab8562
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236091"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
@@ -58,6 +58,6 @@ ms.locfileid: "30543273"
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>オーディオ会議の詳細を知りたいとしていますか。
 
-[Office 365 での電話会議を使用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[Office 365 での電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

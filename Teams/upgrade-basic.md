@@ -19,11 +19,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227576"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -113,7 +113,7 @@ ms.locfileid: "31959387"
 
 **リソース:**
 
-- [組織のマイクロソフト チームの設定を管理します。](enable-features-office-365.md)
+- [組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md)
 - [電子メールのサンプル: ビジネス用の Skype についてユーザーにお知らせ](upgrade-emails-surveys.md#step-4-email)
 
 [ページのトップへ](#about-upgrade-basic)

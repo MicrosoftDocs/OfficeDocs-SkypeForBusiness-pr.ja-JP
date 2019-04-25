@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 管理者は、オーディオ会議、エンド ・ ユーザー PSTN の呼び出しのユーザーが可能なタイプを制御できます。
 ms.openlocfilehash: 36f116acb62cd16863cb547a11fe5687457a8a4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229789"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 

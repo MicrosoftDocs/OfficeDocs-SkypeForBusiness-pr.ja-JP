@@ -17,11 +17,11 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222364"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>場所に基づくルーティングのネットワーク設定を構成する
 
@@ -106,6 +106,6 @@ New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description 
 ## <a name="next-steps"></a>次のステップ
 [直接ルーティングのための場所ベースのルーティングを有効にするの](location-based-routing-enable.md)に移動します。
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 - [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 - [場所に基づくルーティングの用語集](location-based-routing-terminology.md)

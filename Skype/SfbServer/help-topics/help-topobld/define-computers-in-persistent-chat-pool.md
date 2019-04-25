@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: コンピューターの FQDN で、完全修飾ドメイン名 (FQDN) を入力することによって永続的なチャット サーバー プールの一部となるコンピューターを定義します。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。
 ms.openlocfilehash: 78a6912dc3cd77e82a998f858abd78c9bb719869
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226901"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>常設チャット プールのコンピューターの定義
  

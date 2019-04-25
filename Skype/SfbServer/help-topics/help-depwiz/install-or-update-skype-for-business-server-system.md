@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 description: インストールを開始する、またはビジネス サーバー 2015 の Skype の既存の配置を更新するには、ビジネスのサーバーのインストールまたは Skype の更新をクリックします。 このセクションの手順では、トポロジ ビルダー ドキュメントに基づいて、特定のサーバー ロールに特定のコンポーネントがインストールされます。 この一連の手順を開始する前に、トポロジ ビルダーで、配置を定義する必要があります。 展開先のコンピューターに、ローカル管理者として、およびサーバーが配置されているドメインの Domain Admins グループのメンバーとしてログインすることも必要です。 コンピューターは、この手順を完了する前にドメインに参加させる必要があります。
 ms.openlocfilehash: 98b727f8e1890837a110656b5c0628a696019ed8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883831"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235122"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Skype for Business Server システムのインストールまたは更新
 

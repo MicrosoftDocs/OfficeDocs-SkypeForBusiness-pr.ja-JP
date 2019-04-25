@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: 組織のために設定しているすべての Skype for Business Online の機能を長期間にわたり健全で正常に使用するには、次の要件に従うことが重要です。このドキュメントは技術的な専門性に長けているユーザー向けですが、専門的な知識がないユーザーにとっても参考になります。Skype for Business Online の設定でサポートが必要な場合は、このドキュメントをお読みの上、検討する必要がある事項についてよく理解するようにしてください。このドキュメントは、Microsoft FastTrack Center、お客様の Microsoft Services とアカウント チーム、または Microsoft パートナーと連携してこれらの要件に適合できる方法を見つけ出すときに検討が必要な内容も記載しています。
 ms.openlocfilehash: aac6a85b78df7477a6e62ddbf766015182bb7a2b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851497"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234530"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Skype for Business Online 向けのネットワークの最適化
 
@@ -58,7 +58,7 @@ IP 上のリアルタイム メディア (オーディオ、ビデオ、アプ�
   
 - [ExpressRoute を使用したコール フロー](call-flow-using-expressroute.md)
     
-- [Skype for Business Online の ExpressRoute および QoS](expressroute-and-qos-in-skype-for-business-online.md)
+- [Skype for Business Online での ExpressRoute および QoS](expressroute-and-qos-in-skype-for-business-online.md)
     
 - [Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](media-quality-and-network-connectivity-performance.md)
     
@@ -144,7 +144,7 @@ Skype for Business Online をサポートするために追加のネットワー
   
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。 
+## <a name="related-topics"></a>関連トピック 
 
 [Skype for Business Online の ExpressRoute および QoS](expressroute-and-qos-in-skype-for-business-online.md)
   

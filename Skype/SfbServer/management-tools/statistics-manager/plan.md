@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '概要: は、Skype のビジネス サーバーの統計マネージャーの概要を学習するには、このトピックを読みます。'
 ms.openlocfilehash: 7e086dda9bfea755265d2c77413989f8cc634df7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236151"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の Statistics Manager の計画
 
 **の概要:** Skype のビジネス サーバーの統計マネージャーの概要を学習するには、このトピックを参照してください。
 
- Skype ビジネス サーバーの統計情報マネージャーとは、Skype をビジネスのサーバーの稼働状態とパフォーマンスのデータをリアルタイムに表示できるようにする強力なツールです。 数秒ごとに数百のサーバー間でのパフォーマンス データをポーリングし、統計マネージャーの web サイトですぐに結果を表示できます。
+ Skype for Business Server 統計情報マネージャーは、リアルタイムでビジネス サーバーの状態とパフォーマンス データを Skype で表示する事ができる強力なツールです。   数秒ごとに数百のサーバーのパフォーマンス データをポーリングでき、その結果をすぐに統計情報 マネージャーのウェブ サイト上に表示することができます。
 
 統計マネージャーを使用するには継続的なパフォーマンス問題を特定する、お客様の環境を計画的な変更の結果を表示、停止、解像度などの作業を追跡します。 統計マネージャーは、キーの状態インジケーター (KHI) のしきい値が設定されているし、配置のニーズに合わせてカスタマイズできます。
 

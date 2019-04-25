@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3fe995522f1557ed18c8edc0713f3c219b626dcb
+ms.sourcegitcommit: fc18ad4fdc737f6208a2fbf9c98a680c47c0f582
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463957"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "32453516"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、導入
 
@@ -48,6 +48,6 @@ ms.locfileid: "30463957"
 
 [Teams のための IT 管理者の準備状況のリソース](ITAdmin-readiness.md)
 
-[Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
+[導入のためのツール](adopt-tools-and-downloads.md)
 
 

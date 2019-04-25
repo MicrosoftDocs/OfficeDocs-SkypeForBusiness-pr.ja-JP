@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'サービス プロバイダーでの電話番号を Skype for Business に移行する方法の簡単な概要を理解します。 '
 ms.openlocfilehash: 9ef870abbab8760a09db667a481d7f3f53708423
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229809"
 ---
 # <a name="port-order-overview"></a>番号移行注文の概要
 
@@ -37,7 +37,7 @@ ms.locfileid: "24958363"
  **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
 
  > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
   
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)

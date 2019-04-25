@@ -18,11 +18,11 @@ ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: 'このトピックでは、Office 365 の電話システムの設置の PSTN への接続を持つユーザーを有効にする方法について説明します。 このトピックの手順を実行する前に、以下を参照する必要があります: です。'
 ms.openlocfilehash: a3eec7adbd4897889cbc2ef8c7e985231c53bc99
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234071"
 ---
 # <a name="enable-users-for-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>ユーザー Office 365 の電話システムに Skype で設置した PSTN 接続を持つサーバーで有効にビジネス
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: '概要: ビジネス サーバーの Skype で会議サーバーの構成設定を管理する方法を説明します。'
 ms.openlocfilehash: a12226f9f7d56f9f8a61b6f820a2c0f9744121fc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222843"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>会議サーバーの構成設定で Skype のビジネス サーバーを管理します。
  

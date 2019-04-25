@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
 ms.openlocfilehash: 5c8d30106397d18957c7866d9b4961cfa1409f83
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237748"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Skype for Business Online でプレゼンスを設定する
 
@@ -53,7 +53,7 @@ ms.locfileid: "30894159"
 
 - [ビジネス用の Skype のステータス オプションを設定します。](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 

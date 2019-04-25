@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: '概要: ビジネス サーバーの Skype での会議ポリシーを割り当てる方法を説明します。'
 ms.openlocfilehash: 44e29842fd11d600aa5a692e98b5ddbb72149ade
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222871"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>ビジネス サーバーの Skype での会議ポリシーを割り当てる
  

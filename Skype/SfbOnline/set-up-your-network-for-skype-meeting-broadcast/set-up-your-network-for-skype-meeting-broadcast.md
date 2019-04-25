@@ -19,17 +19,17 @@ ms.custom:
 - SMB
 description: ビジネス オンライン スケジュール、生産、およびブロードキャストの会議、またはイベントを 10,000 の出席者に大規模なオンライン ユーザーを対象にできるようにするには、Skype の Skype 会議のブロードキャスト機能について説明します。
 ms.openlocfilehash: b29ec51ddcb672f6727f7bc43958872962245ebb
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226164"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャスト用にネットワークをセットアップする
 
 Skype 会議のブロードキャストの[Skype 会議のブロードキャストを有効に](enable-skype-meeting-broadcast.md)した後、ネットワークを構成する必要があります。 人、組織外からのウェビナー、他のブロードキャストを保持したい場合は、この手順を実行します。
 
-ファイアウォールの構成に慣れていない場合は、[マイクロソフトのパートナー](https://go.microsoft.com/fwlink/?linkid=391089)に依頼してこの手順を実行することを考慮してください。
+した経験がお使いのファイアウォールを構成する場合は、自動的にこの手順を実行するのには[マイクロソフトのパートナー](https://go.microsoft.com/fwlink/?linkid=391089)の採用を検討してください。
 
 この手順を省略し、代わりに、ブロードキャストに招待するため、フェデレーションに別のビジネスを追加、[ビジネス ユーザー向けの外部の Skype に連絡を許可する](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)の手順に従います。
 
@@ -53,7 +53,7 @@ Skype 会議のブロードキャストの[Skype 会議のブロードキャス�
 
    - resources.lync.com
 
-3. [**保存**] をクリックします。
+3. **[保存]** をクリックします。
 
 ## #
 
@@ -99,7 +99,7 @@ Skype 会議のブロードキャストの[Skype 会議のブロードキャス�
 
 [Skype 会議ブロードキャストを有効にする](enable-skype-meeting-broadcast.md)
 
-[Office 365 URL および IP アドレス範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[Office 365 の URL と IP アドレスの範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
 [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

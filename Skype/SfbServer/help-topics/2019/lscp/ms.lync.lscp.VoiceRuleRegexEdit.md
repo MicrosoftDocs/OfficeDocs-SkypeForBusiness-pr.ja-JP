@@ -14,11 +14,11 @@ ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'このパターンのフィールドの一致を使用して、変換する番号と一致するパターンを指定します。 変換ルール] フィールドに、変換後の番号の書式のパターンを指定します。 '
 ms.openlocfilehash: d75bde018b0a16ab3fb8e505d5ae8d0bc2d4604f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221505"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>変換ルール: 正規表現の入力
  

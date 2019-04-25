@@ -17,13 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-- Skype for Business Online
-ms.openlocfilehash: d8365792ead4422786d8e54c2541ff42d79f35b6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3f97e3a22122b08c9b554d0c1a395a8d714d92e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227621"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする
 ======================================================
@@ -95,4 +94,5 @@ Office 365 のサブスクリプションに含まれているチームの完全
 - チームのバージョンとその機能の詳細については、[比較のチームの計画](https://products.office.com/microsoft-teams/free)を参照してください。
 - チームの完全なバージョンへのアップグレードの詳細については、[自由にチームのチームからのアップグレード](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)を参照してください。
 - ユーザー ライセンスの追加を含め、ユーザーのアップグレードに関連するその他の管理タスクのユーザー名を変更して、一時的なパスワードを割り当てることは、[管理者がサブスクリプションを購入する無料のチームからのアップグレードを](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)参照してください。
+- チーム、組織の自由を管理する方法の詳細については、[マイクロソフトのチームの無料版の管理](manage-freemium.md)を参照してください。
 

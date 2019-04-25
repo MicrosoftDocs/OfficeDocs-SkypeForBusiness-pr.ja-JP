@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 63ddff805d0898b40cddae8a0fb9072359507da8
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227168"
 ---
 ![プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階")
 
@@ -34,7 +34,7 @@ ms.locfileid: "30647434"
 組織を使用して Skype ビジネスの現在と、ビジネスの Skype と共にチームの使用を開始する場合、チームへのアップグレードを開始するか、方法 2 つのアプリケーション、共存との相互運用方法と方法を理解することが重要にチームにビジネス用の Skype から、最終的なアップグレードに至るユーザーの移行を管理します。
 
 > [!Tip]
-> [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)について学習するのには次のセッションを見る
+> [共存および相互運用性の詳細については、こちらのセッション](https://aka.ms/teams-upgrade-coexistence-interop)をご覧ください。
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>ビジネスのチームと Skype の共存
 

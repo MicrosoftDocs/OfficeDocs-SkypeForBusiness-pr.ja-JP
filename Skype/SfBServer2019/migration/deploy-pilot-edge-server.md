@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: このトピックでは、Skype をビジネス 2019 エッジ サーバーを展開する前に注意する必要があります構成の設定が強調表示されます。 ビジネス サーバー 2019 の Skype の展開と構成のプロセスは、ビジネス サーバー 2015 の Skype に非常に似ています。 のみ、このセクションには、パイロット プール展開の一環として検討する必要がある重要なポイントが強調表示されます。 詳細な手順を参照してください Skype で外部ユーザー アクセスを導入するビジネス サーバー 2019 の展開に関するドキュメントは、展開プロセスについて説明し、外部ユーザー アクセスの構成情報も示されます。
 ms.openlocfilehash: 5b755d0ba8802c47a176cb3375a87b6523f35fad
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239856"
 ---
 # <a name="deploy-pilot-edge-server"></a>パイロット エッジ サーバーの展開
 

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4832be7a89bbfc337fc481e213c67f69b179935e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227584"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>サンプルの電子メールおよびアップグレードの基本的な通信のためのアンケート
 
@@ -200,7 +200,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 チームとに関する詳細については、希望する 1 つまたは複数のアクティビティがあるかどうかの次のアクティビティを実行するのには熟練した方法を示します。
 
-| &nbsp; | 非常に熟練しました。 | 多少のスキルを持つ | まったくないスキルを持つ | 詳しく知りたいです。 | 該当なし | よく分からないいない一般的です | | | | |
+| &nbsp; | 非常に熟練しました。 | 多少のスキルを持つ | まったくないスキルを持つ | 詳しく知りたいです。 | N/A | よく分からないいない一般的です | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | IM とチャットを楽しむためのチームを使用して、他の人と | | | | | | | | | | |
 | チームを使用して、オンラインの会議 | | | | | | | | | | |
@@ -222,7 +222,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 **可能性は、マイクロソフトのチームを友人や同僚にお勧めすることでしょうか。(0 =... 可能性10 = が非常に可能性があります)**
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

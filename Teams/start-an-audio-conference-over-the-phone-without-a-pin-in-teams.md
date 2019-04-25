@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: '匿名の発信者が Teams 管理センターから会議に参加することを有効または無効にする方法を説明します。 '
 ms.openlocfilehash: 5f2dbd84b71058e75b710f37994e41c9adb488ef
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227096"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Microsoft Teams で PIN を使用せずに電話で電話会議を開始する
 

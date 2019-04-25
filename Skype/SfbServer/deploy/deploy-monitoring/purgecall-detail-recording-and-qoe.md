@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: '概要: は、CDR および QoE データベース Skype ビジネス サーバーの使用からのレコードを手動で削除する方法について説明します。'
 ms.openlocfilehash: 55582d28541e798e8ab1c488fb6eeed266bd29b9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225470"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>ビジネス サーバーの通話詳細記録と Skype で高品質なエクスペリエンスのデータベースを手動で削除します。
  

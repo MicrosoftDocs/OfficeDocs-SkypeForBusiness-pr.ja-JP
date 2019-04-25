@@ -20,11 +20,11 @@ ms.custom:
 - SMB
 description: Skype 会議のブロードキャストを有効にして設定し、ミーティングのポリシーに変更を加えます。
 ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226276"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>組織の Skype 会議のブロードキャストの設定を変更をします。
 
@@ -40,7 +40,7 @@ Skype 会議のブロードキャストを有効にして設定し、ミーテ�
     
 - **ヘルプデスクは、出席者の URL をサポート**ヘルプを接続するか、ブロードキャストのミーティングへの参加が必要な場合に使用するブロードキャストの参加者を会議にリンクを入力します。
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [Skype 会議ブロードキャスト用にネットワークをセットアップする](set-up-your-network-for-skype-meeting-broadcast.md)
 

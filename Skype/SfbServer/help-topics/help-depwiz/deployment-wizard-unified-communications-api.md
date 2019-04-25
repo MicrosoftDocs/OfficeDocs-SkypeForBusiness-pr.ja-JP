@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 description: 展開ウィザードを使用して、ビジネス サーバー 2015 の Skype をインストールする詳細については、ビジネス サーバー 2015 の Skype のインストールを参照してください。
 ms.openlocfilehash: 76624a6a6d5eb570bb1e17e09abe36a32e15560e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235066"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>展開ウィザード: 統合コミュニケーション API
  

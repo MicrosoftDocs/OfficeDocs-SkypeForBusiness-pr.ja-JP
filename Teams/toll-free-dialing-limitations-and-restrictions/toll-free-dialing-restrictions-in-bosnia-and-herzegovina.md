@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
 ms.openlocfilehash: 15f89c32e6ba2c6914ab7fe6d97e75a11459a7f3
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223354"
 ---
 # <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>ボスニア・ヘルツェゴビナでのフリーダイヤル制限
 
@@ -46,8 +46,8 @@ ms.locfileid: "30542760"
 |携帯電話ネットワークの状態  <br/> |部分的。 コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |HT Eronet/Mostar、Telekom Srpske/MTEL、BHT 固定回線および携帯電話ネットワークからアクセス可能。  <br/> |
    
-## <a name="related-topics"></a>関連項目
-[フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a>関連トピック
+[無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

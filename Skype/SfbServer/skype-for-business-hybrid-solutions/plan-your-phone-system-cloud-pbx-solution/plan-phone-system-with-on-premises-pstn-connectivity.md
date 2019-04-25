@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
 ms.openlocfilehash: 3c3dcb8316cdd3665d7570d16777a8b4195c4a82
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237586"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。
 

@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
 ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229926"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに移行するための PIN を設定する
 
@@ -51,7 +51,7 @@ To transfer or  *port out*  phone numbers from Skype for Business Online to anot
     
 ## <a name="set-up-your-pin"></a>PIN の設定
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     

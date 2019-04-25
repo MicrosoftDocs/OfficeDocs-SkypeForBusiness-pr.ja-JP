@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: '概要: は、Skype のビジネス サーバーのアーカイブの免責事項を構成する方法の詳細については、このトピックを読みます。'
 ms.openlocfilehash: 9511dacb23773a4cd411844abd1d38216026019e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227560"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Skype のビジネス サーバーの外部のユーザーのアーカイブの免責事項を構成します。
  

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 監視サーバーを削除するには、オフに関連付けられているフロント エンド プール、フロント エンド サーバー、リカバリ性に優れたブランチ アプライアンスおよび存続可能ブランチ サーバーへの依存関係を変更する必要があります。 依存関係を削除するのにはフロント エンド サーバー、リカバリ性に優れたブランチ アプライアンスおよび存続可能ブランチ サーバー、フロント エンド プールのプロパティを編集するとします。 依存関係をオフにし、トポロジ ビルダーでサーバーを削除した後、トポロジ ビルダーに関連付けられているデータベース ストアのオブジェクトも削除されることが通知されます。
 ms.openlocfilehash: 854e95969d08d14d626bb374073091ae4ae39630
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231459"
 ---
 # <a name="remove-the-monitoring-server-association"></a>監視サーバーの関連付けの削除
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: この資料では、Business Server の Skype のユーザー モデル」に記載の使用状況に応じてそのサイトでのユーザーの数のサイトにする必要があるサーバーの数にガイダンスを提供します。
 ms.openlocfilehash: 13c7a1bdbbfc20f13dec2c6d9999b80caf4078dd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228401"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>キャパシティ プランニングの業務サーバーの Skype のユーザー モデルの使用状況
 

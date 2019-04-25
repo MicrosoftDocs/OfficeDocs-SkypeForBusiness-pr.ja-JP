@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Skype for Business Online で電話会議情報を記載した電子メールをユーザーに送信します。
 ms.openlocfilehash: 80cfbd88b8c933e2b1e66d6348deff111a45f8e3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229323"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>ビジネス オンラインの Skype で電話会議情報を持つユーザーに電子メールを送信します。
 
@@ -83,7 +83,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
     
 - By default, the sender of the emails will be from Office 365, but you can change the email address and display name by using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) cmdlet. To make changes to the email address that is sending the email to users, you must:
     
-  - Enter the email display name in the  SendEmailFromDisplayName parameter.
+  - SendEmailFromAddress パラメーターでは、電子メール アドレスを入力します。
     
   - メール アドレス情報を変更したい場合は、カスタムのメール アドレスから送信されるメールが、組織の受信メール ポリシーで許可されていることを確認する必要があります。
     
@@ -94,7 +94,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
     > [!NOTE]
     > メール アドレス情報を変更する場合、設定した独自のメール アドレスから送信されるメールが、組織の受信メール ポリシーで許可されることを確認する必要があります。 
   
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
 - 時間を節約したり、自動化したりするには、[Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) コマンドレットを使用できます。
     
@@ -106,7 +106,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
 
 - Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -121,6 +121,6 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
     > [!NOTE]
     > Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行[](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

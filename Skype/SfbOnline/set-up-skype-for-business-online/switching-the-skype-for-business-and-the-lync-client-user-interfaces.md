@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
 ms.openlocfilehash: f248da01bb7046174fd241ed01ad6c0c93111cd9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238003"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Skype for Business と Lync クライアントのユーザー インターフェイスを切り替える
 
@@ -277,7 +277,7 @@ You can turn the tutorial back on by setting the **Value data** to **1**.
     
 You can also verify that the GPO has successfully updated the registry on a user's computer by examining the registry. Open Registry Editor and navigate to the **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]** key. If the GPO successfully updated the registry you will see a value named EnableSkypeUI with a value of 0.
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

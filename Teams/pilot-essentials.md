@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: de8041bb9557ec224c2ab2b3a5fa4f92de1280cf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236731"
 ---
 ![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
@@ -33,7 +33,7 @@ ms.locfileid: "30463581"
 - [環境を準備した](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
 
-# <a name="conduct-a-user-pilot"></a>ユーザーのパイロットを実施します。
+# <a name="conduct-a-user-pilot"></a>ユーザー パイロットを指導する
 
 新しいテクノロジを展開するには、組織がコスト削減、セキュリティへの準拠、従業員の満足度、および運用効率の向上などのビジネス ・ バリューを実現できますが、ユーザーの生産性と組織のインフラストラクチャ (にも影響ネットワーク)。 組織全体にわたって、新しいテクノロジを有効にする前にユーザーの正式なパイロットを実施します。 全体の領域を描画する前に壁の色の小さなパッチをペイントすると、同じようにするは小さい縮尺での広範な展開をテストするには、技術的な検証するためにパイロットとユーザーの準備を行うこと、識別の問題を軽減して確実に成功させる組織全体の実装です。
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 場合は、従来の配置には、ビジネス サーバー 2019 の Skype に移行した後のアーカイブ サーバーまたは監視サーバーが含まれているの残りの従来のプールから削除されたすべてのユーザーに提供されるこれらのサーバーは、従来の環境から削除できます。 任意のシーケンスでは、アーカイブ サーバーまたは監視サーバーを削除できます。 重要な要件は、すべてのユーザーが、残りの従来のプールから削除されていることです。
 ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231424"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>従来のアーカイブ サーバーおよび監視サーバーの削除
 

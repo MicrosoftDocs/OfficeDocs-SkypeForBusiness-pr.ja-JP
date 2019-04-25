@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で知らせアプリケーションの配置を確認しています。 これは、割り当てられていない番号への通話の処理方法に影響します。
 ms.openlocfilehash: 8f20c9d35a8349c0e02af7a5c3d67532ec2d9236
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225640"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(省略可能)ビジネス用の Skype で知らせの展開を確認します。
  

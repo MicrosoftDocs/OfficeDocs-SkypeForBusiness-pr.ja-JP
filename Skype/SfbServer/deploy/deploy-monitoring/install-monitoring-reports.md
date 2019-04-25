@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: '概要: は、Skype のビジネス サーバーの監視レポートを生成するサービスをインストールする方法を説明します。'
 ms.openlocfilehash: ee500d3440e4211bc42566a7cbdd47ee2cd4cc0e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225505"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Skype のビジネス サーバーの監視レポートをインストールします。
  

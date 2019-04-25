@@ -1,5 +1,5 @@
 ---
-title: メディア バイ パスを直接ルーティングの構成します。
+title: ダイレクト ルーティングでメディア バイパスを構成する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 電話システムの直接のルーティングを使用してメディア バイ パスを構成する方法については、このトピックを参照してください。
-ms.openlocfilehash: 405f71fd0a1e0ea3e8fec6ee1061786c93fabf1b
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 459ebd80a175fbf2c213a016436a2bf130ae9982
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232697"
 ---
-# <a name="configure-media-bypass-with-direct-routing"></a>メディア バイ パスを直接ルーティングの構成します。
+# <a name="configure-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを構成する
 
 構成のメディアは、直接ルーティングをバイパスする前に、[メディアの計画に直接ルーティングをバイパス](direct-routing-plan-media-bypass.md)を読んだことを確認します。
 
@@ -53,16 +53,8 @@ ms.locfileid: "30631066"
 - リボン
 - TE ・ システム (AnyNode)    
 
-今回の発表の時点で、次の SBCs が徹底的なテスト/メディア バイ パスで機能する認定は。
+セッション ボーダー コント ローラー (SBCs) が直接ルーティングするための認定のリストは、[リストのセッション Broder コント ローラーが直接ルーティングの認定](direct-routing-border-controllers.md)を参照してください。
 
-- 9000 V7.20A.204.222、SBC では M800B/V7.20A.250.003
-
--   リボン
-    - - xxx 5210 v06.02.xx 
-    - 5400、v06.02.xx xxx
-    - 5110、v06.02.xx xxx
-
--   TE システム AnyNode v 3.16.2 
 
 
 ## <a name="see-also"></a>関連項目

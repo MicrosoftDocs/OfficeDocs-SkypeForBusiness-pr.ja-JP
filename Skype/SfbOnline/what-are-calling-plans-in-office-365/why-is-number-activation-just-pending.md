@@ -1,5 +1,5 @@
 ---
-title: 番号のアクティブ化が保留状態になっている理由
+title: だけで保留中の番号のライセンス認証がなぜですか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
 ms.openlocfilehash: 9e59b7372b0d998ea4a453d5e1b96c3ab9c4e98f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227806"
 ---
-# <a name="why-is-number-activation-just-pending"></a>番号のアクティブ化が保留状態になっている理由
+# <a name="why-is-number-activation-just-pending"></a>だけで保留中の番号のライセンス認証がなぜですか。
 
 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 何らかの理由により、電話番号はアクティブに、アドレスの検証のため**保留中**と表示されている場合は、作成し、サービス リクエストを送信する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
   
@@ -97,7 +97,7 @@ ms.locfileid: "25370721"
 
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
   
 ## <a name="related-topics"></a>関連トピック

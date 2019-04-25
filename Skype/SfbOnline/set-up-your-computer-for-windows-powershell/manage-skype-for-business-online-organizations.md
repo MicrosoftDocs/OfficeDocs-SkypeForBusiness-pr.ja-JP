@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: オンライン ビジネスのテナントに、Skype に関する情報を取得するのにには、Windows PowerShell と Get CsTenant と Get CsTenantLicensingConfiguration コマンドレットを使用します。
 ms.openlocfilehash: b71c89967ab34909fa461f71fc5f67c1cf99a408
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224447"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Skype のオンライン ビジネスの組織を管理します。
 
@@ -47,7 +47,7 @@ Get-CsTenant | Select-Object Name, TenantID
   
 指定したテナントのライセンス情報は、Skype のオンライン ビジネスの管理センターで使用できるかどうかに関する情報を検索するには、 [Get CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606)コマンドレットを使用します。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します](set-up-your-computer-for-windows-powershell.md)
 
   

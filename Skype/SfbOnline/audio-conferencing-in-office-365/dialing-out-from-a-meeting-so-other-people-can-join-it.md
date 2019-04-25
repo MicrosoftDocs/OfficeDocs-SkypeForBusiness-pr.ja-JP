@@ -19,20 +19,20 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
+description: Skype for Business を使用して会議の開催者が他のユーザーを呼び出せるようにするための必要事項とその方法を説明します。
 ms.openlocfilehash: 49130a14391e014d1e7aea21c62abaf2385296d8
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229537"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるようにビジネス会議のため、Skype からの発信
 
 > [!NOTE]
 > Teams の会議からのダイヤル アウトについての情報をお求めの場合は、「[他のユーザーが参加できるように Teams 会議からダイアル アウトする](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)」を参照してください。
 
-会議の開催者としては、携帯電話を使用して同じ会議に他の人の結合を使用するビジネス アプリケーションの Skype を使用してダイヤルできます。 必須ではありませんが、誰かにダイヤルアウトするときには、国/地域番号が含まれる完全な番号をダイヤルすることをお勧めします。 ダイヤルアウトを実行するには、次の手順に従います。
+As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
   
 - ことができますダイヤル ・ アウトのビジネス アプリケーション、Skype を使用してミーティングに参加する場合にのみ。
     
@@ -57,9 +57,9 @@ ms.locfileid: "27788949"
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>オーディオ会議の詳細を知りたいとしていますか。
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Skype ビジネス アドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Skype for Business アドオンのライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>関連トピック
 

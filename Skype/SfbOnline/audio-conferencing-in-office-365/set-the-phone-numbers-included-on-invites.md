@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
 ms.openlocfilehash: c78a3fb140431dd46b3850e1d01e7fb29fb29210
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229416"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Skype for Business Onlineの招待状に含まれる電話番号を設定する
 
@@ -92,7 +92,7 @@ By default, when you change a user's conferencing settings, an email is sent to 
 > [!IMPORTANT]
 > ユーザーの電話会議の設定を変更すると、会議の定期的な予定と将来の Skype の更新し、出席者に送信する必要があります。 
   
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
 - 時間を節約したり、自動化したりするには、[Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) コマンドレットを使用できます。
     
@@ -135,7 +135,7 @@ By default, when you change a user's conferencing settings, an email is sent to 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。
     
@@ -145,6 +145,6 @@ By default, when you change a user's conferencing settings, an email is sent to 
     
   - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

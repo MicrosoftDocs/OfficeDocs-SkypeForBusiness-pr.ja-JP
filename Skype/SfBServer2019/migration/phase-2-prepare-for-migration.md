@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
 description: ビジネス サーバー 2019 の Skype への移行を開始する前に、このセクションで説明した手順に従います。
 ms.openlocfilehash: 2895472119aa7effe5562817713b29cefe338dcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231568"
 ---
 # <a name="phase-2-prepare-for-migration"></a>フェーズ 2: 移行の準備
 

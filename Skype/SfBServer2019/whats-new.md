@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、ビジネス サーバー 2019 の Skype にします。'
 ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239577"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では、どのような
 

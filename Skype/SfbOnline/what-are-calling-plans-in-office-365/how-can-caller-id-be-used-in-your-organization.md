@@ -1,5 +1,5 @@
 ---
-title: 組織内での発信者番号の使用方法
+title: 組織での発信者番号の利用方法
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
 ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229889"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a>組織内での発信者番号の使用方法
+# <a name="how-can-caller-id-be-used-in-your-organization"></a>組織での発信者番号の利用方法
 
 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
   
@@ -69,12 +69,12 @@ The EnableUserOverride attribute enables single or multiple users to change thei
   
 ||||
 |:-----|:-----|:-----|
-|**Windows** <br/> |**Version** <br/> |**サポート** <br/> |
-|クイック実行  <br/> |2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル  <br/> |あり  <br/> |
-|クイック実行  <br/> |2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース  <br/> |あり  <br/> |
+|**Windows** <br/> |**バージョン** <br/> |**サポート** <br/> |
+|クイック実行  <br/> |2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル  <br/> |はい  <br/> |
+|クイック実行  <br/> |2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース  <br/> |はい  <br/> |
 |クイック実行  <br/> |2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル  <br/> |はい  <br/> |
-|MSI  <br/> |Skype for Business  <br/> |なし  <br/> |
-|Mac  <br/> |Skype for Business  <br/> |なし  <br/> |
+|MSI  <br/> |Skype for Business  <br/> |いいえ  <br/> |
+|Mac  <br/> |Skype for Business  <br/> |いいえ  <br/> |
    
 ## <a name="inbound-caller-id"></a>着信側の発信者番号通知
 

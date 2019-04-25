@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス 2019 エッジ サーバーのフェデレーション ルート、Skype を移行した後は、フェデレーションが期待どおりに実行されることを確認するのにはいくつかの機能テストを行う必要があります。 外部ユーザー アクセスのテストには、次の一部またはすべてを含む、組織をサポートする外部ユーザーの種類を含める必要があります。
 ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231351"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>外部ユーザーのフェデレーションとリモート アクセスの確認
 

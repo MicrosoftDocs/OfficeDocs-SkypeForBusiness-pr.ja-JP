@@ -15,11 +15,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 77730db17e900951f0fe1a60b7c0ae2ccdbfbc5b
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228424"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>マイクロソフトのチームで QoS と通話品質の監視を実装します。
 
@@ -39,7 +39,7 @@ ms.locfileid: "30641074"
 
 **呼び出し品質ダッシュ ボード (救難)** は、管理者を支援するように設計されていて、ネットワーク エンジニア、***ネットワーク***を最適化、解析されず、1 回の呼び出しのトラブルシューティングを行います。 救難は、組織全体の集計情報を確認するのには特定のユーザーからフォーカスを移動します。 これは、こともできますを特定して問題を解決します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [マイクロソフトのチームでのサービス品質 (QoS) を実装します。](QoS-in-Teams.md)
 

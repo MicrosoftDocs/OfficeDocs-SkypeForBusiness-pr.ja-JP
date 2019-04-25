@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 構成する方法の詳細については、このトピックでは、Skype で緊急サービス (~ 9-1-1) の場所のポリシーを強化ビジネス サーバーのエンタープライズ VoIP を参照してください。
 ms.openlocfilehash: 2e3c25586c09e8cb517f781ec9e9dc33c58d81da
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223530"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Skype でビジネスのサーバーの場所のポリシーを作成します。
 

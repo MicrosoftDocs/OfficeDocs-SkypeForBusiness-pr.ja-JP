@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: '電話会議およびビデオ会議の記録を有効にし、対処方法を説明する方法は、レコーディングには含まれていません。 '
 ms.openlocfilehash: 0e642dc8075c4a7cdcc6d3846cf0c69bca3e2e01
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237568"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>音声やビデオ会議をレコーディングする
 
@@ -46,7 +46,7 @@ When recording is turned on, organizers or presenters can record a Skype for Bus
    
 詳細については、 [[Lync の記録を保存して公開](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) ]および[ [Lync の記録マネージャー](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)]を参照してください。 
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
 ms.openlocfilehash: 3992c2b4be9cbaaee5f7e7c9648f90d8034bc6aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226006"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>オフライン メッセージの有効化と無効化 (管理者向け)
 
@@ -114,7 +114,7 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

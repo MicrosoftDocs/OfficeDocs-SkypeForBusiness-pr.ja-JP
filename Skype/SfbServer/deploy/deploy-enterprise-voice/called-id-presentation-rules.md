@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: '概要: ビジネス サーバーの Skype でビルド規則の翻訳ツールを使用して変換ルールを定義する方法を説明します。'
 ms.openlocfilehash: 947dc6a76482fc5b00efaeb71463b35eab9f9cea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223748"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype で呼び出された ID プレゼンテーションの変換ルールを変更
 

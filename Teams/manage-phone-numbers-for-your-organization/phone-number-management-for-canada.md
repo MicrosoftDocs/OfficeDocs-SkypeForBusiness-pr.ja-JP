@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: この表で、カナダでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
 ms.openlocfilehash: 99dca2bc7f6584faf292d213fc597cd1f3cf8cf4
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245271"
 ---
 # <a name="phone-number-management-for-canada"></a>カナダでの電話番号の管理
 

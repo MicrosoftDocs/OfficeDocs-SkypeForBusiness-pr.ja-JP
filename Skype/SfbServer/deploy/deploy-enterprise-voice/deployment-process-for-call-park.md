@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: 展開プロセスとビジネス サーバーのエンタープライズ VoIP の Skype のコール パークの手順を実行します。
 ms.openlocfilehash: 470a8a2f918a69324a747fe667692c8ab36ee542
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223100"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>ビジネス用の Skype のコール パークの展開プロセス
  

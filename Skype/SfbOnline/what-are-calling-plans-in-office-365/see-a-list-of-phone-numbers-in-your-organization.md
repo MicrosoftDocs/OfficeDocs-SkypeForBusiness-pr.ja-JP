@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 組織のすべての電話番号、ユーザーに割り当てられているすべての電話番号、Skype for Business 管理センターから音声ユーザーに割り当てられているすべての電話番号のリストを表示する方法について説明します。
 ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229946"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織の電話番号のリストを表示する
 
@@ -34,7 +34,7 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>組織のすべての電話番号のリストを表示するには
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
@@ -64,7 +64,7 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>ユーザーに割り当てられているすべての電話番号を表示するには
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 
 ユーザーを設定する場合、ユーザーに既に割り当てられている電話番号と、ユーザーに割り当て可能な電話番号のリストを確認できます。
@@ -88,7 +88,7 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>音声ユーザーに割り当てられているすべての電話番号を表示するには
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 
 When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the list of the users that have phone numbers assigned to users, those that don't and whether a user is hosted Online or on-premises.

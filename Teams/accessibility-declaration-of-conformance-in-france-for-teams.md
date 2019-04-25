@@ -20,11 +20,11 @@ ms.custom:
 hideEdit: true
 description: "マイクロソフト チーム est l'outil de チャット collaboratif d'Office 365 qui intègre toutes les personnes、contenus et besoin 流し込み être と impliquée、outils ない votre équipe et efficace。 "
 ms.openlocfilehash: 3c3d7f364f53e7317b90388642a5bd18d4c0cab2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231799"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration デ conformité en matière d'accessibilité
 
@@ -205,6 +205,6 @@ Le présent ドキュメント n'est pas la norme EN 301 549 v 1.1.2 (2015-04) e
 
 Le présent ドキュメント est fourni 比べて titre indicatif。 MICROSOFT NE FOURNIT AUCUNE GARANTIE、EXPRESSE OU TACITE、DANS LE PRÉSENT のドキュメントです。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [フランスでの Skype for Business Online のアクセシビリティ ソリューション](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

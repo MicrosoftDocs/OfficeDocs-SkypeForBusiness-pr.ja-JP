@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: Enter CcUpdate コマンドレットでは、メンテナンス モードで配置することによって更新プロセスにホスト サーバーでビジネス クラウド コネクタ版 Skype を準備します。 アプライアンスの isdrained-は、既存のすべての呼び出しは完了しますが、新しい呼び出しは拒否されます。
 ms.openlocfilehash: 45972058cd9263330b6a4c0a68a5a1b800a85d9d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234064"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
  

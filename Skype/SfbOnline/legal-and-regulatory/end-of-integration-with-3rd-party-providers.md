@@ -20,11 +20,11 @@ ms.custom:
 hideEdit: true
 description: 2020 年 4 月 1日に、[ライフ プログラムの最後に、ビジネス用の Skype のサード ・ パーティ製のオーディオ会議プロバイダーとの統合のため (サード パーティ製の ACP)。
 ms.openlocfilehash: 4846875a8fb288683e896454a33e9213eec3a2ac
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223865"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>ビジネス用の Skype のサード ・ パーティ製のオーディオ会議プロバイダーとの統合のためのライフ プログラムの終了 
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この手順を正常に完了するには、サーバーまたはドメイン管理者グループのメンバーまたは DnsAdmins グループのメンバーとしてドメインにログオンする必要があります。
 ms.openlocfilehash: 5cdf98d065abbb57b3cb654c8b770f8f1f87500c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231384"
 ---
 # <a name="update-dns-srv-records"></a>DNS SRV レコードの更新
 
@@ -32,7 +32,7 @@ ms.locfileid: "30872725"
     
 4. **このサービスを提供しているホスト**を、ホストの FQDN がプールのビジネス サーバー 2019 Skype を指すように更新します。
     
-5. [**OK**] をクリックします。
+5. **[OK]** をクリックします。
     
 ## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>フロント エンド プールまたは Standard Edition サーバーの FQDN を解決できることを確認するには
 

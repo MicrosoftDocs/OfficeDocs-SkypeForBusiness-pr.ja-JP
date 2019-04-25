@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fcd7fcbc2de14f5ecf90ceffdaaafccab8ce2fc
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
+ms.openlocfilehash: d5e9857a04d1499e7ca9527044a2a66320291ac8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245875"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
@@ -32,7 +32,7 @@ ms.locfileid: "31043414"
 
 #### <a name="when-will-staffhub-be-retired"></a>StaffHub を退職するとき
 
-2019年 4 月の中央を開始するには、マイクロソフトの StaffHub は新しいテナントを利用できなくし、Office 365 アプリケーション起動プログラムからアプリケーションにアクセスすることができなきます。 現在のユーザーは 10 月までサービスを使用できる 1,2019、ただし機能が追加されない使用可能になります。
+2019年 4 月の中央を開始するには、マイクロソフトの StaffHub は新しいテナントを利用できなくし、Office 365 アプリケーション起動プログラムからアプリケーションにアクセスすることができなきます。 現在のユーザーは 2019年 10 月 1日、ただしこれ以上の機能を使用可能になるまで、サービスを使用することがあります。
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>StaffHub が退職したらどうなりますか。
 

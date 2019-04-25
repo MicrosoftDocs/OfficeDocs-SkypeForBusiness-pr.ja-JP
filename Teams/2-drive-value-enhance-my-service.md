@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 64bc20fa270bb3ff9b59efd4e5ad7b8053a5fb6e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242899"
 ---
 # <a name="enhance-my-service"></a>サービスを強化する
 

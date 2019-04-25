@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 新しいセッション開始プロトコル (SIP) トランクを定義するには、次の情報を提供します。
 ms.openlocfilehash: adb96085949a353443cf74031feee78500d7d4d7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226943"
 ---
 # <a name="define-a-new-trunk"></a>新しいトランクの定義
 

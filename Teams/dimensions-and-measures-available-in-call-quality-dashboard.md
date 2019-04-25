@@ -21,11 +21,11 @@ ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
 ms.openlocfilehash: 1510ab20ebce38c9610f4edb537f932dfd40567f
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232668"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用できるディメンションとメジャー
 
@@ -502,7 +502,7 @@ The <sort order string> is used to control the sort order when presenting the da
 |Media Failed Due To Firewall DPI Stream Count  <br/> |ストリームの数  <br/> |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームの数。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |パーセンテージ  <br/> |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームのパーセンテージ。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。  <br/> |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
 
 [使用呼び出しの分析業務の不適切な Skype のトラブルシューティングを行うには、品質を呼び出す](use-call-analytics-to-troubleshoot-poor-call-quality.md)

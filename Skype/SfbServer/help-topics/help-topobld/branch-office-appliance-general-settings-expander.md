@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 既存のリカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの設定を編集するのには次のセクションが表示されます。
 ms.openlocfilehash: 336d64edfac0bda730a289284075267d7e7984d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884944"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227591"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>ブランチ オフィス アプライアンス全般設定エキスパンダー
 

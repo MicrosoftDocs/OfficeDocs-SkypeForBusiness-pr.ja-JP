@@ -20,11 +20,11 @@ ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てる共通領域電話の設定を構成、展開の手順を説明します。
 ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231157"
 ---
 # <a name="set-up-common-area-phones"></a>共通エリア電話機を設定する
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -83,7 +83,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 ![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) 電話番号を割り当てるには、 **Skype for Business 管理センター** を使用してください。
 
-1. Office 365 管理センター >**管理センター** > **ビジネス用の Skype**です。
+1. Office 365 の管理センター _gt**管理センター**内 > **ビジネス用の Skype**です。
 2. **[Skype for Business 管理センター]** >  **[音声]** > **[電話番号]** に移動します。
 3. 電話番号のリストから番号を選択し、** [割り当て]**  をクリックします。
 4. **[割り当て]** ページで、**[音声ユーザー]** ボックスに電話機に使用するユーザーの名前を入力し、**[音声ユーザーを選択]** ドロップダウンでユーザーを選択します。

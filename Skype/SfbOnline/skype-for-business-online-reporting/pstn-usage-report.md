@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 使用状況を把握して、組織内での使用状況を確認するのには請求先の詳細を呼び出すように、呼び出しのコストを含むオーディオ会議の PSTN 使用法の詳細を表示することができます。
 ms.openlocfilehash: 2a0db39852169cbb4c1dacab178d2f5b3b96dc7e
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993550"
+ms.locfileid: "32239873"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
 

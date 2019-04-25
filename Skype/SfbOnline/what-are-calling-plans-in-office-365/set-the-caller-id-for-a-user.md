@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Office 365 の電話システムは、ユーザーの割り当てられた電話番号である既定の発信者番号を提供します。ユーザーのために発信者番号 (通話回線番号) を変更または禁止することができます。組織での発信者番号の使用方法の詳細については、組織内での発信者番号の使用方法をご覧ください。
 ms.openlocfilehash: e9d2cced647eef2f4db7729c4446068a19000176
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229739"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>ユーザーに発信者番号を設定する
 [] Office 365 の電話システムは、ユーザーの割り当てられた電話番号である既定の発信者番号を提供します。ユーザーのために発信者番号 (通話回線番号) を変更または禁止することができます。組織での発信者番号の使用方法の詳細については、[組織内での発信者番号の使用方法](how-can-caller-id-be-used-in-your-organization.md)をご覧ください。

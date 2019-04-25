@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Skype をビジネス クラウド コネクタ版、オンライン ビジネスの電話システムと Skype のインターネット電話サービスを Office 365 (クラウド PBX) で、設置型音声インフラストラクチャの統合を有効にするのには最小限の設置型のトポロジを構成する方法について説明します。
 ms.openlocfilehash: 5d057a299e51bfb83bd6711fcf1fbe8b4ee98f02
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227916"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの構成と管理
  

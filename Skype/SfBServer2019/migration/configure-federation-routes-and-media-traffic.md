@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: フェデレーションとは、ネットワークの境界を越えて通信するために別の組織でユーザーを許可する 2 つまたは複数の SIP ドメイン間の信頼関係です。 パイロット プールに移行した後する必要がありますへの移行から、Skype のフェデレーション ルートには、前バージョン エッジ サーバーのフェデレーション ルートからビジネス サーバー 2019 エッジ サーバーにします。
 ms.openlocfilehash: 607d98c3c831ae9fd911b9fd2782490dcfb0e4f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238745"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>フェデレーション ルートとメディア トラフィックの構成
 

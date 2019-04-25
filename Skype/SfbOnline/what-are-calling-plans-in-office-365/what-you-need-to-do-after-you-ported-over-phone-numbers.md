@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: ビジネス用の Skype に電話番号を移植した後次の操作に必要なものを参照してください。
 ms.openlocfilehash: edcf796be766f62a99686c2182091daa13d3a810
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229588"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>自分の電話番号の上に移植した後に、何をする必要がありますか。
 
@@ -38,10 +38,10 @@ ms.locfileid: "24958323"
     
 - 場合は、電話番号がある緊急のアドレスを[追加、変更、または組織には、緊急時の場所を削除](add-change-or-remove-an-emergency-location-for-your-organization.md)します。
     
-- [ユーザーの電話番号の割り当て、変更、削除を行う](assign-change-or-remove-a-phone-number-for-a-user.md)
+- [ユーザーの電話番号を割り当て、変更、または削除する](assign-change-or-remove-a-phone-number-for-a-user.md)
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
     
 ## <a name="related-topics"></a>関連トピック

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と障害回復を構成する方法の詳細については、このトピックを読みます。'
 ms.openlocfilehash: 7bc1ae0b71df3916c36acfdc7fabce91caa297e8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225449"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの高可用性および障害復旧の構成
  

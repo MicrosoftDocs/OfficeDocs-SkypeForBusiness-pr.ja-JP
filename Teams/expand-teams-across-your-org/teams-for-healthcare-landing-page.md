@@ -1,5 +1,5 @@
 ---
-title: 医療チームの編成
+title: 医療関係組織向けのTeams
 description: 医療組織内のチームを最大限に活用するには、これらのリソースを使用します。
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245700"
 ---
-# <a name="teams-for-healthcare"></a>医療チームの編成
+# <a name="teams-for-healthcare"></a>医療関係組織向けのTeams
 
 チームは、治療チームや医療スタッフは、通信し、治療の質を調整し、運用効率を向上させるために安全な方法です。 医療のチーム、組織内のチームを管理する必要があります管理リソースがあります。
 
@@ -35,7 +35,7 @@ ms.locfileid: "31026198"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>医療機関向けのチームを始める</h3>
+                        <h3>医療関係組織のためのTeamsを始めましょう</h3>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ ms.locfileid: "31026198"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>医療機関向けの Teams テンプレートの概要</h3>
+                        <h3>医療関係組織向けテンプレートでTeamsを始めましょう</h3>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ ms.locfileid: "31026198"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>医療機関向けのメッセージをセキュリティで保護を開始します。</h3>
+                        <h3>医療関係組織向けセキュアメッセージングでTeamsを始めましょう</h3>
                     </div>
                 </div>
             </div>

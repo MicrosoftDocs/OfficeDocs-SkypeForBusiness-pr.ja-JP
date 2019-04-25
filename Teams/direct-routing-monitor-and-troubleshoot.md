@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: この資料では、監視し、直接ルーティングの構成をトラブルシューティングする方法について説明します。
-ms.openlocfilehash: 89cbf47433fb26867ff2546a98360e1fa715e349
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e21d3e020f477fd1518017e0d6fc484e7ea10344
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894246"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298661"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>ダイレクト ルーティングの監視とトラブルシューティング
 

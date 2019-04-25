@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
+description: '国または地域、都道府県、市区町村別に、ユーザーに割り当てられる電話番号を検索し、必要な番号の数を指定する方法を説明します。 '
 ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32230061"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>ユーザーの電話番号を検索する
 
-電話の通話を送受信するには、組織内のユーザーを設定すると、 **Skype**を使用し、最初のユーザーに割り当てることができる電話番号を取得ください。 ユーザーに割り当てる電話番号は組織用に選んだ電話番号であり、ユーザーのプロパティを編集して [ **番号を割り当てる**] をクリックすると、その番号はドロップダウン リストに一覧表示されます。
+When you are setting up users in your organization to make and receive phone calls, you must use the **Skype for Business admin center** and first get phone numbers that can be assigned to users. The phone number you assign to a user will be a phone number that you have chosen for your organization and will be listed in the drop-down list when you edit the properties of the user and click **Assign**.
   
-Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. **国/地域**、**状態**、および**市区町村**を検索し、ユーザーにする必要がありますが、電話番号の番号を入力できます。 
+Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. You can search by **Country/region**, **State**, and **City**, and then enter the number of phone numbers you will need for your users. 
   
 電話番号を取得するいくつかのヘルプが必要な場合は、[組織の電話番号の管理](/microsoftteams/manage-phone-numbers-for-your-organization)や[ビジネス製品の管理のヘルプのサポートの連絡先](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)を確認すること
   
@@ -40,7 +40,7 @@ Before you can assign phone numbers to your users, you must use the **New number
 
  **ユーザーの電話番号を検索するには**
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -59,12 +59,12 @@ Before you can assign phone numbers to your users, you must use the **New number
     > [!NOTE]
     > [ **取得できる合計ユーザー数**] の横に表示されるライセンス数に基づいた電話番号の数を確認できます。 
   
-6. [ **番号を表示**] をクリックすると、電話番号の完全なリストを表示できます。 リストで特定の電話番号を選択したくない場合に便利です。
+6. You can click **Show numbers** to see the full list of phone numbers. リストで特定の電話番号を選択したくない場合に便利です。
     
 7. 目的の電話番号を選んでから、[ **番号の入手**] を選びます。
     
     > [!IMPORTANT]
-    > ライセンスがある場合よりも、他の電話番号を取得することができます。 取得できる電話番号の数を確認するには、保持しているライセンス数にライセンス数の 10% を加算し、さらに 10 を加えます。 たとえば、**国内を呼び出すことを計画****国際対応の計画を呼び出すこと**の 100 のライセンスがあれば、予約できます 120 の電話番号、100 ユーザーのためのいくつかの電話番号を既に入手していないすると仮定した場合します。 詳細は、「[取得できる電話番号の数について](/microsoftteams/how-many-phone-numbers-can-you-get)」を参照してください
+    > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
 
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)

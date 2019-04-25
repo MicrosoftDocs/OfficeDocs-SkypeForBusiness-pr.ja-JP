@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
 ms.openlocfilehash: 07cc390cdc4e65d0ce8f59c42c6eb57f4900e949
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237185"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Skype for Business Online に関する問題のトラブルシューティング
 
@@ -83,7 +83,7 @@ Skype for Business Online ユーザーが直面する問題の多くはパスワ
 > [!NOTE]
 > 中国で 21Vianet が運営する Office 365 を使用している場合は、[21Vianet のサポート チームにお問い合わせください](https://go.microsoft.com/fwlink/p/?linkid=847978)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

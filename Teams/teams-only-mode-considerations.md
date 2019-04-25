@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dd0bf20219b8d213c354f5fc239ae3924a0d21c0
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226640"
 ---
 # <a name="teams-only-mode-considerations"></a>Teams Only モードの考慮事項
 
@@ -53,7 +53,7 @@ ms.locfileid: "30649389"
 
 **ユーザー固有の考慮事項**: 一部のユーザー シナリオはまだ発展段階、および管理者は、組織内の他のユーザーをアップグレードするときに一時的に特定のユーザーのアップグレードを延期することができます。 これらのシナリオに対処することに取り組んでいますお知らせの[Office 365 のロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap)のサイトを監視してください。
 
-| シナリオ | メモ |
+| シナリオ | ノート |
 |----------|-------|
 |ユーザーの主な作業のデバイスは、Mac、およびユーザーが Outlook の仕事仲間の可用性を確認する必要があります。 | Outlook プレゼンスをチームでサポートされていませんまだ完全に Mac デバイスの。 |
 | ユーザーは、顧客や別の地域での外部パートナーとのミーティングを実施して定期的にします。 | IM を別の地理的な場所でのテナントが存在する外部の出席者が表示されていない**フェデレーション**会議中にチャットできます。 参加者は、匿名ユーザーとして会議にも参加できます。 |

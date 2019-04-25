@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: 'Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online. '
 ms.openlocfilehash: f7b7fa418b31a7b826319fc75c943819193161ea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225815"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Skype for Business Online Connector モジュールをダウンロードしてインストールする
 
@@ -59,7 +59,7 @@ Skype for Business Online Connector モジュール のインストールに加�
   
 お使いのコンピューターに現在インストールされている Connector モジュールのバージョン番号を検証するには、[ **プログラムと機能** ] を開いて、 **Skype for Business Online、Windows PowerShell Module** のバージョン番号を確認してください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します](set-up-your-computer-for-windows-powershell.md)
 
   

@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
 ms.openlocfilehash: e8cc303c503d52a9424c400617c7a982aec99d1f
-ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31397050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229577"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>ポート注文のステータスとは
 
@@ -38,10 +38,10 @@ ms.locfileid: "31397050"
 |**処理** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |管理者が注文を作成し、Microsoft が受信されました。  <br/> |
 |**配送業者に連絡** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |注文を受信して、マイクロソフトによって承認され、承認に失われた通信事業者と協力しています。  <br/> |
 |**転送の承認** <br/> |はい  <br/> |Commitment(FOC) の注文を確定します。  <br/> |はい  <br/> |いいえ  <br/> |順序が失われたキャリアによって受諾され、早さ日が設定されています。  <br/> |
-|**保留中の転送します。** <br/> |はい  <br/> |いいえ  <br/> |なし  <br/> |いいえ  <br/> |転送は 24 時間以内、注文は不要になった編集またはキャンセルされたので  <br/> |
-|**エラー** <br/> |いいえ  <br/> |はい  <br/> |はい  <br/> |はい (現時点では、削除できませんポート順序エラーが表示される場合。 ポートの順序を再作成する必要があるか、[ビジネス製品の管理のヘルプのサポートに問い合わせてください](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)する必要があります。  <br/> |失われたキャリアには、注文が拒否されました。  <br/> |
-|**完了** <br/> |はい  <br/> |いいえ  <br/> |なし  <br/> |いいえ  <br/> |数値が正常に転送されました。  <br/> |
-|**キャンセル** <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |管理者は、注文をキャンセルしました。  <br/> |
+|**保留中の転送します。** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |転送は 24 時間以内、注文は不要になった編集またはキャンセルされたので  <br/> |
+|**エラー** <br/> |いいえ  <br/> |はい  <br/> |可  <br/> |はい (現時点では、削除できませんポート順序エラーが表示される場合。 ポートの順序を再作成する必要があるか、[ビジネス製品の管理のヘルプのサポートに問い合わせてください](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)する必要があります。  <br/> |失われたキャリアには、注文が拒否されました。  <br/> |
+|**完了** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |数値が正常に転送されました。  <br/> |
+|**キャンセル** <br/> |いいえ  <br/> |はい  <br/> |なし  <br/> |いいえ  <br/> |管理者は、注文をキャンセルしました。  <br/> |
    
  **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
  

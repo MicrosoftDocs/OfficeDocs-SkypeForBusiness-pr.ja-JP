@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f19d78de9b9227dcbc42073b177fffd9596e5ffb
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225049"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams の導入クイック スタートのチェックリスト
 
@@ -32,33 +32,33 @@ ms.locfileid: "30464014"
 
 - [採用の前提条件](teams-adoption-get-started.md)
 
-## <a name="phase-1---start"></a>段階 1 - 開始
+## <a name="phase-1---start"></a>フェーズ 1: 開始
 
-- [チームとチャネルを理解します。](teams-adoption-understand-teams-and-channels.md)
-- [最初のチームを作成します。](teams-adoption-your-first-teams.md)
+- [チームとチャネルについて理解する](teams-adoption-understand-teams-and-channels.md)
+- [最初のチームを作成する](teams-adoption-your-first-teams.md)
 - [チームの準備ができているでしょうか。](teams-adoption-assess-readiness.md)
 - [利害関係者とのミーティングします。](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [初期採用者を識別します。](teams-adoption-assess-readiness.md#identify-early-adopters)
 
-## <a name="phase-2---experiment"></a>フェーズ 2 - 実験
+## <a name="phase-2---experiment"></a>フェーズ 2: 試用
 
-- [エキスパート プログラムを作成します。](teams-adoption-create-champions-program.md)
+- [主導者プログラムを作成する](teams-adoption-create-champions-program.md)
 - [ガバナンスのクイック スタートを完了します。](teams-adoption-governance-quick-start.md)
 - [使用シナリオを定義します。](teams-adoption-define-usage-scenarios.md)
 - [ビジネス関係者にインタビューします。](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
 - [マップし、ビジネス シナリオの優先順位を付ける](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
-- [オンボードの早期導入とフィードバックの収集](teams-adoption-onboard-early-adopters.md)
-- [オンボードのサポート](teams-adoption-onboard-support.md)
+- [アーリー アダプターに関与してフィードバックを収集する](teams-adoption-onboard-early-adopters.md)
+- [参加サポート](teams-adoption-onboard-support.md)
 
-## <a name="phase-3---scale"></a>フェーズ 3 - スケール
+## <a name="phase-3---scale"></a>フェーズ 3: スケール
 
 - [結果と成功のメジャーを定義します。](teams-adoption-define-outcomes.md)
 - [サービスの有効化の戦略を選択します。](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
 - [利害関係者を協力します。](teams-adoption-define-outcomes.md#engage-stakeholders)
 - [実装チームを展開します。](teams-adoption-define-outcomes.md#expand-your-implementation-team)
 - [ガバナンスと情報管理のポリシーを展開します。](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
-- [フィードバックおよびレポート作成を最適化します。](teams-adoption-optimize-feedback-and-reporting.md)
-- [ドライブの認識とトレーニングを実装します。](teams-adoption-drive-awareness.md)
+- [フィードバックとレポートを最適化する](teams-adoption-optimize-feedback-and-reporting.md)
+- [啓発とトレーニングの実施](teams-adoption-drive-awareness.md)
 - [スケジュール サービスのレビュー](teams-adoption-schedule-service-health-reviews.md)
 
 

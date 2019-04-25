@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 有効にするか、Skype でオンライン ビジネスの会議に参加するときに、ユーザーがそれらの名前を記録できるようであるかどうかを無効にする方法を説明します。
 ms.openlocfilehash: 7b28a038edf9b812532283ecaa766b86e2bc8de8
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229303"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Skype でオンライン ビジネスの会議に参加するときに自分の名前を記録するようにユーザーを有効にします。
 
@@ -36,7 +36,7 @@ ms.locfileid: "25371760"
   
 ユーザーが電話を使って会議にダイヤルインすると、その通話は会議ブリッジによって応答されます。会議ブリッジでは、自動応答の音声プロンプトで発信者に応答してから、設定に応じて、お知らせを再生したり、発信者に名前を記録するように依頼したり、会議開催者の PIN セキュリティをセットアップしたりします。PIN が会議開催者に与えられて、開催者は会議を開始できるようになります。ただし、PIN がなくても会議を開始できるように設定できます。
 
-## <a name="set-whether-callers-should-record-their-name"></a>発信者が名前を記録すべきかどうかを設定する
+## <a name="set-whether-callers-should-record-their-name"></a>呼び出し元が自分の名前を記録するかどうかを設定します。
     
 1. 既定値は 5 です。******** > ****
     
@@ -72,6 +72,6 @@ ms.locfileid: "25371760"
     > [!NOTE]
     > Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行[](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '概要: Skype ビジネス サーバーの使用、ミラー データベースの監視レポートを関連付ける方法を説明します。'
 ms.openlocfilehash: ea087ad53466abd35f6ff221b8c9b2aec781922f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225526"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Skype でミラー データベース ビジネス サーバーの監視レポートを関連付ける 
  

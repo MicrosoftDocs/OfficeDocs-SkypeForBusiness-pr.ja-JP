@@ -1,5 +1,5 @@
 ---
-title: 会社名に記入する内容について
+title: 入れるもの、会社名のでしょうか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,20 +22,20 @@ ms.custom:
 - Calling Plans
 description: '会社のビジネスでは、Skype での配置し、それを見つけることができます。 '
 ms.openlocfilehash: 49b26c5fce7cd11ad5cb2cbdf15f32144198898f
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958333"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229597"
 ---
-# <a name="what-should-i-put-in-for-the-company-name"></a>会社名に記入する内容について
+# <a name="what-should-i-put-in-for-the-company-name"></a>入れるもの、会社名のでしょうか。
 
 これは、会社または組織の名前です。 会社の名前は、次のような空白が含まれている、25 文字までに制限します。 ポート注文要求を処理する会社の名前が使用されていません。争議の場合に使用されますか何かがない正しい電話番号を移植するとき。 ボックスに会社名の全体を収めることはできません、ファイルと、遅延はありませんか、ポートの注文をキャンセルします。
   
  **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
  
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
   
 ## <a name="related-topics"></a>関連トピック

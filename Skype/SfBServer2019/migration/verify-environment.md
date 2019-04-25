@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 共存状態でのビジネス サーバー 2019 の Skype を導入する前に従来のサービスを構成および開始されたことを確認する必要があります。 重要なサービスと、Skype のビジネス サーバー 2019 パイロット プールを展開する前に、従来の環境に存在する機能を特定するのには重要です。 Microsoft Skype を展開する、従来の XMPP 展開との共存状態でのビジネス サーバー 2019 XMPP の前に従来の XMPP サービスを構成および開始を確認し、XMPP の従来の構成は、どちらのフェデレーション パートナーを識別する必要があります。サポートします。
 ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887349"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235115"
 ---
 # <a name="verify-the-legacy-environment"></a>レガシー環境を確認します。
 

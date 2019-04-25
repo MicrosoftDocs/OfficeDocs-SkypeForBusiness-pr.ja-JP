@@ -22,11 +22,11 @@ ms.custom:
 - Setup
 description: 有効になっているユーザー数、電話会議に対応しているユーザー数、Office 365 を利用できるユーザー数などの、Skype for Business のユーザーの統計情報で利用できるものについて説明します。
 ms.openlocfilehash: 785a5c8323eda012f50c290e2241321f54c4834f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225996"
 ---
 # <a name="user-statistics-and-organization-information"></a>ユーザーの統計および組織の情報
 

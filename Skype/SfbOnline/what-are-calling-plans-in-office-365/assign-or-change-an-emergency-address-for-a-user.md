@@ -1,5 +1,5 @@
 ---
-title: ユーザーの緊急番号の割り当て、変更を行う
+title: ユーザーの緊急対応の住所の割り当てまたは変更
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 公衆交換電話網 (PSTN) を使用して業務を行うユーザーの緊急対応の住所と電話番号を設定する方法の手順を説明します。
 ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233254"
 ---
-# <a name="assign-or-change-an-emergency-address-for-a-user"></a>ユーザーの緊急番号の割り当て、変更を行う
+# <a name="assign-or-change-an-emergency-address-for-a-user"></a>ユーザーの緊急対応の住所の割り当てまたは変更
 
 Office 365 の通話プランを設定している場合、電話番号またはユーザーごとに緊急対応の住所を割り当てる必要があります。 欧州諸国では、Office 365 から電話番号を取得するとき、または Office 365 に電話番号を転送するときに、緊急対応の住所が電話番号と関連付けられます。 米国では、電話番号がユーザーに割り当てられるときに、緊急対応の住所が電話番号と関連付けられます。 緊急対応の住所が割り当てられたユーザーが新しい場所に引っ越す場合、緊急対応の住所は変更できます。 緊急対応の場所および住所の詳細については、「[緊急対応の場所、アドレス、通話ルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」を参照してください。
   
@@ -60,11 +60,11 @@ Office 365 の通話プランの取得方法とかかる費用については、
     
 ## <a name="related-topics"></a>関連トピック
 ## <a name="related-topics"></a>関連トピック
-[追加、変更、または組織のシステムのアドレスを削除します。](add-or-remove-an-emergency-address-for-your-organization.md)
+[組織の緊急対応の住所を追加、変更、削除する](add-or-remove-an-emergency-address-for-your-organization.md)
 
 [組織の緊急対応の場所を追加、変更、削除する](add-change-or-remove-an-emergency-location-for-your-organization.md)
 
-[住所検証について](what-is-address-validation.md)
+[住所検証とは何ですか?](what-is-address-validation.md)
 
 [[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
 

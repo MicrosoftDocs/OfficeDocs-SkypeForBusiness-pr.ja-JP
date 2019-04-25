@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams で会議の出席依頼をカスタマイズする
+title: Microsoft Teams でミーティングの出席依頼をカスタマイズする
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: 会議出席依頼で、ロゴ、免責事項、およびその他の情報を含める方法について説明します。
 ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955007"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236047"
 ---
-# <a name="customize-meeting-invitations-in-microsoft-teams"></a>Microsoft Teams で会議の出席依頼をカスタマイズする
+# <a name="customize-meeting-invitations-in-microsoft-teams"></a>Microsoft Teams でミーティングの出席依頼をカスタマイズする
 
 管理者として行うことができますすべてのマイクロソフト チームが会議出席依頼には、サポート用 web サイトと免責事項、会社のロゴ、およびその他のテキストを追加するへのリンクなど、ユーザーが必要がありますいくつかの有益な情報が含まれます。 
 
@@ -49,6 +49,6 @@ ms.locfileid: "30955007"
 5.  **保存**を選択します。
 6.  Office 365 サービス全体に変更が反映されるまで 1 時間ほど待ちます。 その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Microsoft Teams で会議の設定を管理する](meeting-settings-in-teams.md)

@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 などのビジネス PSTN 分プール レポートの Skype を使用すると、組織内で現在の月の期間中に消費する分の数を参照してください。
 ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454018"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239900"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN の利用分数プール レポート
 
@@ -41,7 +41,7 @@ ms.locfileid: "30454018"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>ビジネス PSTN 分プール レポートの Skype を取得する方法
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 - **Office 365 管理センター**を参照して > **管理センター** > **ビジネス管理センターの Skype** > **レポート** > **PSTN の分をプール**します。
     

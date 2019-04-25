@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4cec1b2d-80b4-4cc0-b250-19449c7b136b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 119660d90d7a0ce334c989ec6f80ba6480201a31
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d2e0b5f950a33cd8255a82991ee9ee5cfa981836
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223433"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>インドネシアでのフリーダイヤル制限
 
@@ -37,7 +37,7 @@ ms.locfileid: "30461117"
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |あり  <br/> |
+|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 001 803 CCC XXXX <br/>  007 803 CCC XXXX <br/> |
 |国/地域の ISO コード  <br/> |ID  <br/> |
 |対象となる島/地域  <br/> |該当しない  <br/> |
@@ -48,7 +48,7 @@ ms.locfileid: "30461117"
    
 ## <a name="related-topics"></a>関連トピック
 
-[フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
+[無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

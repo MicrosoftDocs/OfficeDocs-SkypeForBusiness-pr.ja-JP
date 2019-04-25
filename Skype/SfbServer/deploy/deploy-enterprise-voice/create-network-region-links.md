@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 作成または、Skype でのエンタープライズ VoIP 通話受付制御ビジネスのサーバーの使用は、ネットワーク地域リンクを変更します。
 ms.openlocfilehash: 729b20010390bf0a8865adce96a398d362009552
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223361"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Skype のビジネス サーバーのネットワーク地域リンクを作成します。
  

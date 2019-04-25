@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: (プエルトリコ) の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
 ms.openlocfilehash: 8a245f67e4542f532ec7282abaea429a0a3b95f5
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232707"
 ---
 # <a name="availability-in-puerto-rico"></a>プエルトリコでの利用可能性
 
@@ -42,15 +42,15 @@ ms.locfileid: "30542832"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |あり  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |不要  <br/> |
+|電話会議は購入できますか?  <br/> |はい  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |あり  <br/> |
+|電話システムは購入できますか?  <br/> |はい  <br/> |
 | 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
@@ -69,8 +69,8 @@ ms.locfileid: "30542832"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |サンフアン  <br/> |
-|有料電話番号は使用できますか?  <br/> |あり  <br/> |
-|無料電話番号は使用できますか?  <br/> |あり  <br/> |
+|有料電話番号は使用できますか?  <br/> |はい  <br/> |
+|無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。
   

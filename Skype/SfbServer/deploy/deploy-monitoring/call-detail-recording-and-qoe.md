@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: '概要: は、Skype のビジネス サーバーの CDR および QoE を構成する方法について説明します。'
 ms.openlocfilehash: 846411692bc114678e34754f73fc00cd9be8d9d4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225477"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype の通話の詳細記録と品質のエクスペリエンスの設定を構成します。
  

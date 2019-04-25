@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 移動 CsUser コマンドレットを実行するときの最初のレプリケーションは完全ではありませんので、ユーザー情報を Active Directory ドメイン サービス (AD DS) とデータベースのビジネス サーバー 2019 Skype との間はとれていないため障害が発生した可能性があります。 サーバー 2019 ユーザー レプリケーターのビジネス サービスの初期同期のための Skype が正常に完了にかかる時間は、ビジネスの Skype をホストしている Active Directory フォレスト内でホストされているドメイン コント ローラーの数によって異なります。サーバー 2019年プールです。 サーバー 2019 ユーザー レプリケーターのビジネス サービスの初期同期プロセスの Skype は、ビジネス 2019 フロント エンド サーバーの Skype が最初に起動したときに発生します。 その後は、同期は、ユーザー レプリケーター間隔をに基づいてください。 移動 CsUser コマンドレットを実行する前にユーザーの複製が完了していることを確認するのには次の手順を完了します。
 ms.openlocfilehash: bab54e91ebda7a10804980e368e05bb58ff911ff
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231337"
 ---
 # <a name="verify-user-replication-has-completed"></a>ユーザー レプリケーションの完了の確認
 

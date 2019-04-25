@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループのエージェント グループを変更します。
 ms.openlocfilehash: 16dafbfc3157e08a187be5799c5901115d738b48
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223199"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>作成するか、ビジネスの Skype でエージェント グループを変更
  

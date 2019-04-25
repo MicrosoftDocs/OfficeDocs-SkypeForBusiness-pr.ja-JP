@@ -23,11 +23,11 @@ ms.custom:
 - LIL_Placement
 description: '電話会議に参加するのには、電話を使用する必要があるビジネス人のダイヤルインまたはオーディオ会議を設定する方法について説明します。 '
 ms.openlocfilehash: d57eedec13d9bd1c01ec9365fd42c0a4dfdc2d96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229313"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>ビジネス用の Skype の電話会議を設定します。
 

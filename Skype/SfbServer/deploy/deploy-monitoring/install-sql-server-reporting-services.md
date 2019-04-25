@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 description: '概要: Skype ビジネス サーバーの使用、[SQL Server レポート サービスに関する情報の検索に移動する場所を説明します。'
 ms.openlocfilehash: b83d0d1a7bcf820571a8aaf01b2f0fff54d48203
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225463"
 ---
 # <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Skype のビジネス サーバーの SQL Server レポート サービスをインストールします。 
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Office 365 の電話システム (クラウド PBX) とともに展開および使用するために Cloud Connector アプライアンスを準備する方法について説明します。
 ms.openlocfilehash: 3716c7c4b9d4b8daa0a4995ed7e3d77b400b587f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240883"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Cloud Connector アプライアンスの準備
 

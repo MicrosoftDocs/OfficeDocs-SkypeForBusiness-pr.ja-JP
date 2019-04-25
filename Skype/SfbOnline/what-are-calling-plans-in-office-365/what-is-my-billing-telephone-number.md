@@ -1,5 +1,5 @@
 ---
-title: 請求先電話番号について
+title: 請求先電話番号とは何ですか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,20 +22,20 @@ ms.custom:
 - Calling Plans
 description: については、Skype をビジネスの電話番号を請求するは、数値を転送する方法に関するステップ バイ ステップの指示を取得する場所です。
 ms.openlocfilehash: b0eb2d3b2a4740759b2ea13eb5cddb1691392a48
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229617"
 ---
-# <a name="what-is-my-billing-telephone-number"></a>請求先電話番号について
+# <a name="what-is-my-billing-telephone-number"></a>請求先電話番号とは何ですか。
 
 請求先電話番号 (BTN) は、料金の請求書に含まれており、サービスプロバイダーまたは通信業者によって請求されるメインの電話番号です。 1 つだけの電話番号を持つアカウントから電話番号を転送する場合にこの電話番号を配置する必要があります。 持つ複数のアカウントからの電話番号を転送する場合は、請求書を見てまたは自分のアカウントの請求先の電話番号を特定するには、サービスプロバイダーまたは通信業者に問い合わせてください。
   
  **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
   
 ## <a name="related-topics"></a>関連トピック

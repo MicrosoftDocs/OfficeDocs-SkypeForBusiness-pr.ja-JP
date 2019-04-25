@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: ビジネス オンラインの Skype での音声会議自動アテンダントの言語のオーディオ会議の番号を選択する方法を参照してください。
 ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229216"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online で電話会議の自動案内の言語を設定する
 
@@ -44,7 +44,7 @@ ms.locfileid: "27788987"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
 
-この手順を実行するには、[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)または[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)としてログインしている必要があります。
+この手順を実行するには、 [Office 365 のグローバル管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)または[ビジネス管理者の Skype](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)をする必要があります。
     
 1. **Skype**ビジネス管理センターの左のナビゲーションでは、**従来のポータル**に移動します。 1 回従来のポータルでは、**オーディオ会議**、し**Microsoft ブリッジ**] をクリックします。
     
@@ -71,6 +71,6 @@ ms.locfileid: "27788987"
   
 詳細については、「[Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)」をご覧ください。
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

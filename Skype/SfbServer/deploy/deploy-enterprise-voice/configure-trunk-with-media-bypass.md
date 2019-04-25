@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: '概要: は、Skype のビジネス サーバー対応メディア バイ パスを持つトランクを構成します。 これは、オプションを選択する、SIP トランク プロバイダーでサポートされていると仮定した、仲介サーバーの数を最小化することができます。'
 ms.openlocfilehash: e63ec28f863f93eed03eb4a1d2955c90434cc6ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223607"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのメディア バイ パスを使用してトランクを構成します。
 
@@ -121,7 +121,7 @@ ms.locfileid: "30892689"
 
    - この PSTN 使用法レコードに関連付けられているルートを編集するには、ルートを選択して [**詳細の表示**] をクリックします。
 
-     c. [**OK**] をクリックします。
+     c. **[OK]** をクリックします。
 
      > [!IMPORTANT]
      > 仲介サーバーのピアを構成するトランクに関連付けられている PSTN 使用法レコードに関連付ける必要があります。 仲介サーバーのピアが PSTN ゲートウェイまたはセッション ボーダー コント ローラー (SBC) の場合は、トランクの構成が PSTN のコピー先またはその他のダウン ストリーム システムへのルートは、Skype で接続されている PSTN 使用法レコードに関連付けられているではないことは強くお勧めビジネス サーバーです。

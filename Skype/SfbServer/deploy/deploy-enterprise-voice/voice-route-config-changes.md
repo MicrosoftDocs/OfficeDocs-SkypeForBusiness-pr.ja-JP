@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: '概要: 確認、発行、またはビジネスのサーバーのビジネス サーバーのコントロール パネルの Skype を使用して、Skype での音声ルーティング構成の変更をキャンセルする方法を説明します。'
 ms.openlocfilehash: 9878e719234a5d7eff2e7321fa71e30c094d489a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222458"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>発行保留中のビジネス用の Skype で音声ルーティング構成の変更
  

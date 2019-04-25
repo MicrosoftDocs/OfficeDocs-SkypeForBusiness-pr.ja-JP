@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: A のプロパティを編集するのには V 会議サーバーのプールを/定義済みで、次を行うことができます。
 ms.openlocfilehash: ac09b249aff61c0b7a020f2e8b802648f13718f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227362"
 ---
 # <a name="av-mcu-general-settings-expander"></a>AV MCU 全般設定の展開
  

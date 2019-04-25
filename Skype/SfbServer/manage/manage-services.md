@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: この資料では、ビジネスのサーバー トポロジの場合、Skype で実行されているサービスを管理する方法について説明します。
 ms.openlocfilehash: 4f5e1c4d91d5412470edebf3ed8d320101153da1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225329"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Skype のサービスをビジネスのサーバーを管理します。
 

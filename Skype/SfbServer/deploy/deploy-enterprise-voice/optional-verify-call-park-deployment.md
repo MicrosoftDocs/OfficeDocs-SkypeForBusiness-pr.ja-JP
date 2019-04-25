@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: ビジネス サーバーのエンタープライズ VoIP の Skype のコール パークの展開を確認しています。
 ms.openlocfilehash: 514c82590d56a2de16ca31cc892032afe5e7a34c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225633"
 ---
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(省略可能)ビジネス用の Skype のコール パーク展開を確認します。
  

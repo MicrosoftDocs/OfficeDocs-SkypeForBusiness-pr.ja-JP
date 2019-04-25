@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: '概要: は、Skype での Exchange の記憶域を持つビジネス サーバーの統合を構成する方法については、このトピックを読みます。'
 ms.openlocfilehash: b60924d351114a088910795ec0eb43aa1ed7972f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229447"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Exchange の記憶域を持つ Skype のビジネス サーバーの統合を構成します。
  

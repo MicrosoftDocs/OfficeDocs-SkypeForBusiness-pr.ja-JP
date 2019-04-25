@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 78b90349ebaf5dfea878d32c750d03d379c14cab
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227631"
 ---
 ![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")
 

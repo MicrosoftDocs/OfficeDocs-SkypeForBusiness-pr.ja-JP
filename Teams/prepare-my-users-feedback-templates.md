@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームやビジネス用の Skype でのユーザーからのフィードバックの調査
+title: Microsoft Teams または Skype for Business でのユーザー フィードバック調査
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 74594c81d86bf19b80cf40ad8292517705e7e690
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235888"
 ---
 # <a name="user-feedback-surveys"></a>ユーザーからのフィードバックの調査 
 
@@ -57,13 +57,13 @@ ms.locfileid: "30463877"
 
 友人や同僚に電話としてチームを使用することをお勧めするか。 (0 =... 可能性10 = が非常に可能性があります)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 可能性は、友人や同僚に電話デバイスをお勧めすることでしょうか。 (0 =... 可能性10 = が非常に可能性があります)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

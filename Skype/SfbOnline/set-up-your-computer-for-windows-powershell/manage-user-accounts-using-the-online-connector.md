@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: オンライン ビジネスのユーザーに対して、組織の Skype に関する情報を取得するのには Windows PowerShell の Get CsOnlineUser コマンドレットを使用します。
 ms.openlocfilehash: 4c2e7e581146c179f3171f38e82eff219871a90a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224390"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>オンラインのコネクタを使用してユーザー アカウントを管理します。
 
@@ -114,7 +114,7 @@ Get-CsOnlineUser | Get-Member
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します](set-up-your-computer-for-windows-powershell.md)
 
 

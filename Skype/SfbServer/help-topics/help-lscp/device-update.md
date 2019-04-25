@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: マイクロソフトは定期的に、ビジネス電話編集用に、サーバーにインポートし、ユーザーに配布する、Skype のデバイスのファームウェアの更新プログラムの新しいセットを解放します。 最新の更新プログラム パッケージに、ヘルプとサポート] ページに、マイクロソフト web サイトに、forPhone Edition.Download を検索してデバイス更新ルールの最新のセットを取得し、更新プログラムをアップロードするは、コンピューターのフォルダーにファイルを抽出できます。 ファイルが抽出されたら、抽出したにデバイス更新ルールをインポートするインポート CsDeviceUpdate コマンドレットを使用できます。CAB ファイルの名前は UCUpdates.cab)。 詳細については、インポートの CsDeviceUpdate を参照してください。
 ms.openlocfilehash: 271803e5a04f09ceda1fb98aced4501d3a08183e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234651"
 ---
 # <a name="device-update"></a>デバイスの更新
 

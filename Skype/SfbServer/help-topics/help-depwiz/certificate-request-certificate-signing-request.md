@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: オフライン要求を作成するには、まず証明書署名要求 (CSR) を作成する必要があります。 ファイル名] テキスト ボックスでは、CSR のパスとファイル名を入力します。 CSR を作成する場所を選択するには、[参照] をクリックできます。 [次へ] をクリックします。
 ms.openlocfilehash: aae9882d81c8772becac2eb93e66eddaf22fed37
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235089"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>証明書要求 (証明書の署名要求)
  

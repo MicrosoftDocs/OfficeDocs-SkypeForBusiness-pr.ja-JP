@@ -13,13 +13,14 @@ ms.reviewer: crowe
 search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: 直接ルーティングのランディング ・ ページ
-appliesto: Microsoft Teams
-ms.openlocfilehash: 8f2e213b1e77217640f66e050f470b66f9750ef0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 59f7cf4f1249956f3c763d12fcd96bf5c10a9fac
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198093"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298653"
 ---
 # <a name="phone-system-direct-routing"></a>電話システムのダイレクト ルーティング
 

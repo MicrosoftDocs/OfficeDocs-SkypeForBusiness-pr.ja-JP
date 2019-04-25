@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン会議プロバイダー、ステータス、およびいくつかの回避策として、Microsoft を使用する場合は、既知の問題の一覧を取得します。 '
 ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229186"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>電話会議のトラブルシューティングと既知の問題
 
@@ -44,6 +44,6 @@ Microsoft を電話会議プロバイダーとして使う電話会議には、�
 |電話会議の通話が利用状況レポートに表示されるのに最大 24 時間かかる。  <br/> |将来のサービスの更新では、この点について機能強化が図られることが予定されています。  <br/> |回避策なし。  <br/> |8/30/2017  <br/> |
 |Skype for Business ユーザーが会議をロックした後で、発信者が会議ブリッジにダイヤルインしても、ユーザーがロビーで待っていることを知らせる通知がSkype for Business アプリにない。  <br/> |これは現在の設計上の仕様ですが、今後のサービス更新でこの機能のサポートに関するフィードバックを採用しています。  <br/> |回避策なし。  <br/> |8/30/2017  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

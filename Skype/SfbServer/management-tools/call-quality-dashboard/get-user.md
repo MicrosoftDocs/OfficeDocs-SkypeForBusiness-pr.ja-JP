@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: '概要: は、ユーザー サービスの一部を取得するユーザーの操作について説明します。 ユーザー サービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
 ms.openlocfilehash: 2d3c5febe30af2ea4d41d94aec026c25e27f21b9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235724"
 ---
 # <a name="get-user"></a>ユーザーの取得
  

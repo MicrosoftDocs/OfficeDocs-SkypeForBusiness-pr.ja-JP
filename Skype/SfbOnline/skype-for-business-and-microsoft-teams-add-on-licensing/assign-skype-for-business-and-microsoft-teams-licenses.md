@@ -21,11 +21,11 @@ ms.custom:
 - Licensing
 description: '電話システム、電話会議、通話プランやコミュニケーション クレジットを使用するために Skype for Business  のライセンスを割り当てる方法について説明します。 '
 ms.openlocfilehash: e81c4c4d2fc11202ac114912ca309d93b00f2062
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226122"
 ---
 # <a name="assign-skype-for-business-licenses"></a>ユーザーに会議 ID を割り当てる
 
@@ -197,7 +197,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
 Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
   
 [通話プランの設定](/microsoftteams/set-up-calling-plans)
   

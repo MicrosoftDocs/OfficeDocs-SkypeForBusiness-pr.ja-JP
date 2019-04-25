@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: 移行する直接ルーティングでは、Skype のオンライン ビジネスとチームの構成の分析観点の必要なものについて説明します。
-ms.openlocfilehash: 46533a17ced1bfaf808bcc5b17e4dd8f2e73ef51
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 995883bd6f62607cd156f82e2c86255bab182303
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887646"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298645"
 ---
 # <a name="migrate-to-direct-routing"></a>ダイレクト ルーティングに移行する
 

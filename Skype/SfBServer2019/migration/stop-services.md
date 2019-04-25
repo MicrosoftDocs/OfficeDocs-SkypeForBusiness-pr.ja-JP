@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 開始または特定のコンピューターで実行されているすべての従来のサービスを停止または開始または停止する従来の特定のサービスには、ビジネス サーバーのコントロール パネルの Skype を使用できます。
 ms.openlocfilehash: 237d0dcd44855bbea9ea1b084df429946e8f5f15
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231411"
 ---
 # <a name="stop-legacy-services"></a>レガシ サービスの停止
 

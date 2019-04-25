@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 作成または、Skype でのエンタープライズ VoIP 通話受付制御がビジネスのサーバーに使用する帯域幅ポリシーを変更します。
 ms.openlocfilehash: 26f0e81d4f148888b9c8f61b774dcd476bd102d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223516"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>ビジネス サーバーの Skype で帯域幅ポリシー プロファイルの作成します。 
  

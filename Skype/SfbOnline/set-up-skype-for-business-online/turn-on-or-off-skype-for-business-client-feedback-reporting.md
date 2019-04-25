@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: ユーザーの問題を報告し、経験についてマイクロソフトに直接フィードバックを提供できるようにするビジネス アプリケーションからのフィードバックのツールの組み込みの Skype を使用するビジネス ユーザー向けに、Skype を有効にできます。
 ms.openlocfilehash: f803c1fe88de564f8fb4870446ef6d1d1058a841
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226673"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Skype for Business クライアントのフィードバック レポートをオンまたはオフにする
 
@@ -95,7 +95,7 @@ ms.locfileid: "30891433"
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

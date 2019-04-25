@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Get-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を返します。
 ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898396"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233996"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  

@@ -22,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
 ms.openlocfilehash: 0cbfe5fec234ab237bd0c6bf108cfaa968685f0f
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229406"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft を電話会議プロバイダーとして割り当てる
 
-Skype for Business と Microsoft Teams で Office 365 の電話会議を使用するには、組織内のユーザーは、それらに割り当てる電話会議ライセンスを取得する必要があります。 ライセンス付与と必要コストの詳細については、 [Office 365 の電話会議のトライアルと購入](try-or-purchase-audio-conferencing-in-office-365.md) を参照してください。
+To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them. See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.
 
-Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を提供します。会議の参加者はこれらを使用して組織の会議に参加することができます。 オーディオ会議プロバイダーとしてマイクロソフトをスケジュールまたは Skype をビジネスまたはマイクロソフトのチーム会議をリードする人に割り当てる必要があるだけです。
+Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization. You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -45,14 +45,14 @@ Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を
     
 2. **Skype**ビジネス管理センターは、左側のナビゲーションでは、[**電話会議**に移動します。
     
-3. バナーが表示されて「割り当てられた**電話会議** ライセンスはあるが、電話会議プロバイダーとしての Microsoft のセットがないユーザーが存在します」という通知を受けた場合は、[**クリックしてユーザーを移動**] をクリックします。 バナーが表示されない場合は、[**Skype for Business 管理センター**] で [**ユーザー**] をクリックし、[**電話会議に移動する準備のできたユーザー**] フィルターを選択します。
+3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
 4. [**プロバイダー名**] で、ユーザーの [プロパティ] ページのドロップダウン ボックスの一覧で**Microsoft**を選択します。
     
     > [!NOTE]
     > オーディオ会議プロバイダーとして、Microsoft を使用している複数の電話番号があるため、ユーザーの既定の音声番号を選択するのには、**有料電話番号が既定**のドロップ ダウン リストを使用できます。
   
-5. [ **保存**] をクリックします。
+5. **[保存]** をクリックします。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: に移行した後 Microsoft Skype ビジネス サーバー 2019 の System Center Operations Manager を使用するサーバー 2019 のビジネス用の Skype を構成するのには、いくつかのタスクを完了する必要があります。
 ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238724"
 ---
 # <a name="configure-scom-monitoring"></a>SCOM 監視の構成
 

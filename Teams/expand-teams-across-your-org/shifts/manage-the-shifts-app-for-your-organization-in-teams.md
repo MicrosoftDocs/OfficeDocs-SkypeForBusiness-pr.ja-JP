@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1ef7ee44b1d6318b85461b5d6b9d4173cc8552
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 9927da9aea89eeb4d5b1b71eac2818c5deb52925
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245937"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -58,8 +58,6 @@ Teams を含む Office 365 サブスクリプションの一覧など、Teams �
     ![[既定のアプリ] セクションのスクリーンショット](../../media/firstline-worker-enable-disable-shifts.png "シフト アプリを含むアプリの一覧を示す、Microsoft 365 管理センターの [既定のアプリ] セクションのスクリーンショット")
 
 ### <a name="use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams"></a>チームに暗証番号 (pin) のシフトに先頭行の作業者のアプリケーション セットアップ ポリシーを使用します。
-
-> [!INCLUDE [Preview customer token](../../includes/preview-feature.md)]
 
 アプリ セットアップ ポリシーを使用すると、組織内のユーザーにとって最も重要なアプリを強調表示するように Teams をカスタマイズできます。 ポリシーに設定されたアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。 
  

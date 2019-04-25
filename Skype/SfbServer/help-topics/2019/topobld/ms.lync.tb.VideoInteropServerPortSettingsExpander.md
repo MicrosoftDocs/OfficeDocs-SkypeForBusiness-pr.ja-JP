@@ -14,11 +14,11 @@ ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
 ms.openlocfilehash: 755285f475361529f89d1c7eed3bce16f5aad88d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890473"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235172"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>ビデオ相互運用サーバー ポート設定エキスパンダー
  
