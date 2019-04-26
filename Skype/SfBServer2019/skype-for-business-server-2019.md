@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 の Skype を実装する方法については、これらのリンクを表示します。'
 ms.openlocfilehash: e5a0997fd30447792640364978fea8edefdfe3ed
-ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31836849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240094"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
@@ -33,7 +33,7 @@ ms.locfileid: "31836849"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>計画</h3>
+                        <h3>プラン</h3>
                     </div>
                 </div>
             </div>

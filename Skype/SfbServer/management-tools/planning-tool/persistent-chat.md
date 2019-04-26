@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: 永続的なチャット サーバーでは、時間の経過と共に永続化する、トピック ベースのマルチパーティ会話に参加することができます。
 ms.openlocfilehash: 076afe1f1322e8724ddd7d59c147d3ea34c05452
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235710"
 ---
-# <a name="persistent-chat-planning-tool"></a><span data-ttu-id="6c6a7-103">Persistent Chat (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="6c6a7-103">Persistent Chat (Planning Tool)</span></span>
+# <a name="persistent-chat-planning-tool"></a><span data-ttu-id="0fb9b-103">Persistent Chat (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="0fb9b-103">Persistent Chat (Planning Tool)</span></span>
  
-<span data-ttu-id="6c6a7-104">永続的なチャット サーバーでは、時間の経過と共に永続化する、トピック ベースのマルチパーティ会話に参加することができます。</span><span class="sxs-lookup"><span data-stu-id="6c6a7-104">Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.</span></span>
+<span data-ttu-id="0fb9b-104">永続的なチャット サーバーでは、時間の経過と共に永続化する、トピック ベースのマルチパーティ会話に参加することができます。</span><span class="sxs-lookup"><span data-stu-id="0fb9b-104">Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.</span></span>
   
-<span data-ttu-id="6c6a7-105">永続的なチャット サーバーの環境を準備する方法の詳細については、「[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6c6a7-105">For more details about preparing your environment for Persistent Chat Server, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).</span></span>
+<span data-ttu-id="0fb9b-105">永続的なチャット サーバーの環境を準備する方法の詳細については、「[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0fb9b-105">For more details about preparing your environment for Persistent Chat Server, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).</span></span>
   
 
