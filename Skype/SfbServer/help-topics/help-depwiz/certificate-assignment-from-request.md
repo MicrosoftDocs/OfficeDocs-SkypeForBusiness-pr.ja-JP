@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 description: '[証明書の割り当て] ページでは、役割サーバーでの要求された使用法に証明書を割り当てるプロセスを開始します。 [証明書の詳細の表示] をクリックして証明書を表示します。 [全般] タブ、[詳細] タブまたは [証明のパス] タブを選択することができます。発行元の証明機関と秘密キーの状態など、証明書に関する基本的な情報は、[全般] タブが表示されます。 [詳細] タブには、サブジェクト名、サブジェクトの別名など、証明書の詳細な情報が表示されます。 [証明のパス] タブでは、ルート証明機関に trustfrom、発行元または中間証明機関 (存在する場合) から証明書の certificatechain が表示されます。'
 ms.openlocfilehash: 544f101fa68c5dc5a66c522fd2cdbd19352d99d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235165"
 ---
 # <a name="certificate-assignment-from-request"></a>証明書の割り当て (要求から)
  

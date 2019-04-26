@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 従来のインストールにアップロードされている保留中のファイルに、カスタムの音楽でのプールのビジネス サーバー 2019 Skype を提供するアプリケーションが含まれているパークの移行、サービス レベルの設定を復元して、すべてのコール パークの再ターゲット周囲を回りながらに、ビジネス サーバー 2019 プールの Skype です。 カスタマイズされた音楽-保留中のファイルは、プール内に構成されている場合、これらのファイルはビジネス サーバー 2019 プールの新しい Skype にコピーする必要があります。 さらに、音楽の保留中のファイルからのカスタマイズされた音楽-保留中のファイルのアップロードされたコール パークの独立したバックアップ ・ コピーを保持する別の出力先をカスタマイズ、コール パークをバックアップすることをお勧めします。 プールのファイル ストアには、コール パーク アプリケーションのカスタマイズされた音楽-保留中のファイルが格納されています。 プールのファイル ストアから、Skype ビジネス サーバー 2019 ファイル ストア用にオーディオ ファイルをコピーするには、次のパラメーターで Xcopy コマンドを使用します。
 ms.openlocfilehash: 3d9c2904d66ac5d35bdd94631ec23c67288a5c3a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238374"
 ---
 # <a name="migrate-call-park-application-settings"></a>コール パーク アプリケーション設定の移行
 

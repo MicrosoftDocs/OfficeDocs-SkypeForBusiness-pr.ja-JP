@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 一般に、アドレス帳は、トポロジの残りの部分と共に移行されます。 ただし、レガシ環境で以下を設定している場合は、いくつかの移行後の手順を実行する必要があります。
 ms.openlocfilehash: 728ae97270cd8451178c6ef962f05e0351118119
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890649"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238425"
 ---
 # <a name="migrate-address-book"></a>アドレス帳の移行
 

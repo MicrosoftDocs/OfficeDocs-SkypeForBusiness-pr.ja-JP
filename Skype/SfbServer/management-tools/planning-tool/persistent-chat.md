@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: 永続的なチャット サーバーでは、時間の経過と共に永続化する、トピック ベースのマルチパーティ会話に参加することができます。
 ms.openlocfilehash: 076afe1f1322e8724ddd7d59c147d3ea34c05452
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235710"
 ---
 # <a name="persistent-chat-planning-tool"></a>Persistent Chat (Planning Tool)
  

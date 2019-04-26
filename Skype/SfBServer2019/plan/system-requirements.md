@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 サーバーおよびドメイン インフラストラクチャをこのトピックでは、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、DNS の証明書と、ファイル共有、および Active Directory については、ここでは正常にインストールし、サーバー ファームの展開を行うには。'
 ms.openlocfilehash: 86ef54a5a269a47fb1e2b8dff04808bf85b5b296
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242006"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 Skype のシステム要件
  
@@ -25,7 +25,7 @@ ms.locfileid: "30875645"
   
 - [ハードウェア](system-requirements.md#Hardware)
   
-- [オペレーティング ・ システム](system-requirements.md#OS)
+- [オペレーティング システム](system-requirements.md#OS)
   
 - [ソフトウェア](system-requirements.md#Software)
 

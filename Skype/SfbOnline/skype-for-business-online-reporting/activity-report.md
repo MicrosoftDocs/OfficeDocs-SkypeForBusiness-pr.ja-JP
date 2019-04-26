@@ -1,5 +1,5 @@
 ---
-title: アクティビティ レポート
+title: 活動レポート
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Reporting
 description: 'ビジネス アクティビティ レポートの場合、Skype を取得する方法、含まれる内容、およびデータを解釈する方法について説明します。 '
 ms.openlocfilehash: 3d78d2e155c5364baf9c2650466022a27cc4ed9b
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241988"
 ---
-# <a name="activity-report"></a>アクティビティ レポート
+# <a name="activity-report"></a>活動レポート
 
 [] 新しい Office 365 の [ **レポート**] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 各製品内のアクティビティに関するより詳細な洞察を提供する個々 の製品レベルのレポートへドリルすることができます。 などの**Skype**ビジネス アクティビティのレポートを使用して、ユーザーがピア ツー ピアを使用してどの程度か、会議セッション、または会議セッションに関与しているどのくらい別に整理します。 
 

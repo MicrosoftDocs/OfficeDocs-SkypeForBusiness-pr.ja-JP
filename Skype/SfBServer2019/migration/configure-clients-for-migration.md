@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: このトピックには、ビジネス サーバー 2019 の Skype に移行する前に行う必要が推奨されるクライアントの展開の手順が含まれています。 ビジネス サーバー 2015 の Lync Server 2013 または Skype でこれらの構成変更を行ってください。
 ms.openlocfilehash: 9e855907cc5be97e494195651ff48ce60004aeda
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238738"
 ---
 # <a name="configure-clients-for-migration"></a>移行のためのクライアントの構成
 

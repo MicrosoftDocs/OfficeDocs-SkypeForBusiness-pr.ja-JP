@@ -14,11 +14,11 @@ ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Enterprise Edition 展開の場合、A V 会議サービスがフロント エンド プールに併設されているとします。 また、フロント エンド プールに仲介サーバーに集約できます。 またはスタンドアロン サーバーとして展開することができます。 A V 会議サービスは、常に同じ場所に会議が有効になっている場合とします。
 ms.openlocfilehash: a9f0f46cbd93681b068ef7d87e269c5ff4024385
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235506"
 ---
 # <a name="add-front-end-server-collocations"></a>フロントエンド サーバーの併置の追加
 

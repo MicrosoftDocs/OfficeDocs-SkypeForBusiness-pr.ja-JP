@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: このトピックは、オンライン ビジネス サービスの Skype のネットワーク パフォーマンスの要件のセットを定義し、ネットワークの評価に基づくビジネス オンラインの Skype、ネットワーク間の接続、インターネットまたは ExpressRoute を使用する選択する方法接続します。 Azure ExpressRoute Office 365 に専用の接続を導入する場合、別の Skype のオンライン ビジネスの展開シナリオで、ExpressRoute の接続を計画する方法のガイダンスも提供します。
 ms.openlocfilehash: 00d77bc72cbfd99d496bf458e008cce3da7970c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236925"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス
 
@@ -155,7 +155,7 @@ PSTN の呼び出しのシナリオでは、メディア パスには、以下�
 |**指標** <br/> |**Target** <br/> |
 |遅延 (一方向)  <br/> |< 30 ミリ秒  <br/> |
 |遅延時間 (RTT)  <br/> |< 60 ミリ秒  <br/> |
-|バースト パケット損失  <br/> |< 任意の 200 ミリ秒間隔で 1%  <br/> |
+|バースト パケット損失  <br/> |200 ミリ秒間隔で <1%  <br/> |
 |パケット損失  <br/> |< 任意の 15 秒間隔で 0.1%  <br/> |
 |パケット到着間ジッター  <br/> |< 任意の 15 秒間隔で 15 ミリ秒  <br/> |
 |パケットの並べ替え  <br/> |< 順序が適切でないパケットが 0.01%  <br/> |
@@ -175,7 +175,7 @@ PSTN の呼び出しのシナリオでは、メディア パスには、以下�
   
 ||||
 |:-----|:-----|:-----|
-|**IP アドレス** <br/> |**種類** <br/> |**場所** <br/> |
+|**IP アドレス** <br/> |**型** <br/> |**場所** <br/> |
 |13.107.8.2  <br/> |VIP  <br/> |ワールド ワイドのエニー キャスト IP  <br/> |
    
  **次のネットワーク パフォーマンスを評価するために高レベルの推奨事項を以下に示します。**

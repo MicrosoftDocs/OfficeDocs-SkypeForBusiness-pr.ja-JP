@@ -1,5 +1,5 @@
 ---
-title: 'Skype ビジネス オンライン計画 1 退職後に '
+title: 'Skype for Business Online プラン 1 のサポート終了 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Licensing
 description: 計画 1 のビジネス オンラインの Skype が使用されなくなっています。 ただし、プラン 1 のビジネス オンラインの Skype への現在のサブスクリプションがあれば、この変更は影響しませんするでしょうか。 新しいプランに移動する準備ができたら、今すぐ、または更新時に、3 つのオプションがあります。
 ms.openlocfilehash: d8468fa2d070e98cb19a1f41fff6884ac7c3517e
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24968613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248715"
 ---
-# <a name="skype-for-business-online-plan-1-retirement"></a>Skype ビジネス オンライン計画 1 退職後に 
+# <a name="skype-for-business-online-plan-1-retirement"></a>Skype for Business Online プラン 1 のサポート終了 
 
 計画 1 のビジネス オンラインの Skype が使用されなくなっています。 ただし、プラン 1 のビジネス オンラインの Skype への現在のサブスクリプションがあれば、この変更は影響しませんするでしょうか。 グローバルの Office 365 の管理者としてが電子メールの更新プログラムを受信し、アクションを実行する必要がある場合についてのメッセージ センター (Office 365 の管理センターの一部) への投稿を参照してください。 それまでは、ビジネス オンライン計画 1 ライセンスで、既存の Skype を使用する続行できます。
 

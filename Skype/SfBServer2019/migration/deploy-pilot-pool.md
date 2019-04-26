@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: パイロット プールを展開するビジネス サーバー 2019 の Skype への移行に必要な最初の手順のいずれかです。 パイロットのプールとは、従来の展開とビジネス サーバー 2019 の Skype の共存をテストします。 共存とは、移動したすべてのユーザーとプール Skype のビジネス サーバー 2019 まで存続する一時的な状態です。
 ms.openlocfilehash: 26f391a485c991aa3575498b98b181f1b5ac761c
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238536"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>ビジネス サーバー 2019 パイロット プールに Skype を導入します。
 

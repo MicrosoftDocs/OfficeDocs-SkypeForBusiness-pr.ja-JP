@@ -21,11 +21,11 @@ ms.custom:
 - LIL_Placement
 description: アドオン ・ ライセンス、機能、および Office 365 用リソース、または Skype のビジネス オンライン スタンドアロン プラン 2 を購入する方法について説明します。
 ms.openlocfilehash: 79f2638f8c2da923846ac522752a3f2bc0a940ec
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238356"
 ---
 # <a name="office-365-proplus-or-skype-for-business-online-standalone-plan-2"></a>Office 365 用リソース、またはスタンドアロン プラン 2 オンライン ビジネスの Skype
 

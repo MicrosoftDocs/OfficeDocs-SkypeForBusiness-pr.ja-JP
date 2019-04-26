@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 の Skype に移行するダイヤルイン アクセス番号は、連絡先オブジェクトを移行するのには移動 CsApplicationEndpoint コマンドレットを実行する必要があります。 従来のインストールと Skype ビジネス サーバー 2019 共存の期間には、ビジネス サーバー 2019 の Skype で作成したダイヤルイン アクセス番号と同様に動作では、従来のインストールでは、作成するダイヤルイン アクセス番号これで説明するようセクションです。
 ms.openlocfilehash: 7f7aef113018a27e70b88e166d365195c07dce9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239584"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>ダイヤルイン アクセス番号の移行
 

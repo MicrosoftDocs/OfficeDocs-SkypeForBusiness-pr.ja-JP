@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: すべてのリカバリ性に優れたブランチ アプライアンス (SBA) は、SBA のバックアップ レジストラーとして使用するフロント エンド プールに関連付けられます。 プールは、ビジネス サーバー 2019 の Skype に移行された後、プールがアップグレード中に、フロント エンド プールからプールは、ビジネス サーバー 2019、SBA の Skype に移行がフロント エンドを解除する必要があります、ときに、SBA がアップグレードされたフロントの E に再に関連付けることができます。nd プールです。 これには、SBA の従来トポロジ ビルダーでトポロジから削除し、[トポロジのビジネス サーバー 2019 Skype SBA が含まれます。 従来の SBA 最初に移動する別のフロント エンド プール トポロジから SBA を削除する前に所属していたユーザーです。 ビジネス サーバー 2019 トポロジの Skype に SBA を追加すると、それらのユーザーし、再び移動できます SBA にします。 次の手順を次に示します。
 ms.openlocfilehash: e4917b20e9e680627e92935dcb10ebf06c2e3d2d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238655"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>存続可能ブランチ アプライアンスの接続
 

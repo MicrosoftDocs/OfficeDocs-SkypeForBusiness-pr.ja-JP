@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 混在環境で、新しい信頼されたアプリケーション サーバーを作成する場合、次ホップ プールのプールのビジネス サーバー 2019、Skype を設定する必要があります。 混在環境で、従来のプールとプールのビジネス サーバー 2019 Skype の両方がドロップ ダウン リストに表示されます。 従来のプールを選択することはサポートされていません。
 ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238683"
 ---
 # <a name="configure-trusted-application-servers"></a>信頼済みアプリケーション サーバーの構成
 

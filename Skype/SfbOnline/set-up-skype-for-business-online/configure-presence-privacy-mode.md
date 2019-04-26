@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'ユーザーが、利用可能時間を表示する方法より細かく制御できますように、ユーザーのプライバシー モードを設定する方法について説明します。 '
 ms.openlocfilehash: e51c4b6a545b59dc6eed713a1518f44f1cd25443
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237418"
 ---
 # <a name="configure-presence-privacy-mode"></a>プレゼンス プライバシー モードを設定する
 
@@ -42,7 +42,7 @@ ms.locfileid: "30874225"
 |**プレゼンス情報を自動的に表示する** <br/> |[ **外部** ] または [ **禁止済み** ] プライバシー グループに属していないすべての Skype for Business ユーザー。 <br/> |
 |**プレゼンス情報をユーザーの連絡先にのみ表示します。** <br/> |ユーザーの連絡先] ボックスの一覧または**ブロック**の**外部**のプライバシー グループに属さないユーザーにすべてのユーザー。 <br/> 個々 のユーザーは、Skype のビジネス**のオプション**] ダイアログ ボックスでこの設定を変更できます。 <br/> |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

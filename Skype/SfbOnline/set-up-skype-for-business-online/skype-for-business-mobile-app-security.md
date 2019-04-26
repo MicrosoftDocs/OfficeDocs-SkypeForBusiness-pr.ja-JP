@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'ユーザーのモバイル アプリケーションのセキュリティの設定について説明します。 '
 ms.openlocfilehash: 0c07bbbe7d186774c4c8aa13d7fcb08bf81dcb63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237260"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Skype for Business のモバイル アプリのセキュリティ
 
@@ -40,7 +40,7 @@ ms.locfileid: "30886833"
    
 **注:** 各モバイル プラットフォームの上で利用可能なデバイスの暗証番号 (pin) 強制については、[このパブリックのドキュメント](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune)を参照してください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

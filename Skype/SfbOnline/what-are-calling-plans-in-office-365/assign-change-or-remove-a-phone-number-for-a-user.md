@@ -1,5 +1,5 @@
 ---
-title: ユーザーの電話番号の割り当て、変更、削除を行う
+title: ユーザーの電話番号を割り当て、変更、または削除する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 外部のビジネスやクライアントがコールインできるように、勤務先電話番号を Skype for Business ユーザーに割り当てる、変更する、または削除する方法を学びます。
 ms.openlocfilehash: 0e354956d1077b2f81de7b889d8085f05db038c4
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047750"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235694"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号の割り当て、変更、削除を行う
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号を割り当て、変更、または削除する
 
 Office 365 のプランの呼び出しを設定すると、ユーザーに電話番号を割り当てます。 
 
@@ -54,7 +54,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
   
  ## <a name="assign-a-phone-number-to-a-user"></a>ユーザーに電話番号を割り当てる
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -86,7 +86,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
 
  ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更します。
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -104,13 +104,13 @@ Office 365 の通話プランの取得方法とかかる費用については、
     
 8. 関連付けられた緊急対応の住所を変更するには、[**場所を変更**] をクリックして、**緊急対応の住所の変更**の下で、一覧から場所を選択します。または、定義されている場所が多くある場合、[検索] ボックスに都市の名前を入力して、[**検索**] をクリックします。
     
-9. [**保存**] をクリックします。
+9. **[保存]** をクリックします。
     
 
 
  ## <a name="remove-a-phone-number-from-a-user"></a>ユーザーの電話番号を削除する
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -126,7 +126,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
     
 
 ## <a name="related-topics"></a>関連トピック
-[住所検証について](what-is-address-validation.md)
+[住所検証とは何ですか?](what-is-address-validation.md)
 
 [[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
 

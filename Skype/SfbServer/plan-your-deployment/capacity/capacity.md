@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
 description: このセクションのトピックでは、計画し、組織とその活動を生成するサーバーの負荷の計画のユーザーの数を適切に計画できるように、ビジネスのサーバーの Skype を導入する方法を理解できます。
 ms.openlocfilehash: e7974704c4c39ac269b763043dbc50b83fc02c96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236102"
 ---
 # <a name="capacity-planning-for-skype-for-business-server"></a>Skype ビジネス サーバーの計画容量
  

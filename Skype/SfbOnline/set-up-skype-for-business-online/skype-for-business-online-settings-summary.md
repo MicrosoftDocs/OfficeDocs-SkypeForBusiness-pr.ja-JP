@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'Skype のビジネス組織とユーザー設定の概要では、パブリック IM 接続、会議出席依頼が、呼び出しと、会議の記録の詳細についてはできます。  '
 ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237250"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online の設定の概要
 
@@ -54,7 +54,7 @@ ms.locfileid: "30876065"
 |匿名の出席者のダイヤルアウト  <br/> |電話会議プロバイダーに電話をかけてもらうことにより、匿名の Skype for Business Online 会議出席者の接続を許可する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |アーカイブされていない機能を無効にする  <br/> | 組織が、Exchange 管理センターでの[電子情報開示センターでの大文字と小文字および場所のソースに追加のコンテンツを保持](https://go.microsoft.com/fwlink/?LinkId=529482)を設定しているときにキャプチャされていない機能をオフにします。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/>  電子的に保存した情報の保管を法律で要請されている場合は、このオプションを選んでください。 <br/> |無効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
