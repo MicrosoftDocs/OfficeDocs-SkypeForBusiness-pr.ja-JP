@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のサービスを拡張する
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64bc20fa270bb3ff9b59efd4e5ad7b8053a5fb6e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fbc287254503c9c38f6a13bc77d747d91566b8d6
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32242899"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304398"
 ---
 # <a name="enhance-my-service"></a>サービスを強化する
 

@@ -3,7 +3,7 @@ title: Microsoft Teams のクライアントを取得する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/05/2018
+ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43344ac9ea00c15bcb4fb7518d727ccc9cff92de
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
-ms.translationtype: HT
+ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934716"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304726"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -31,7 +31,9 @@ ms.locfileid: "30934716"
 Microsoft Teams には、Web、デスクトップ (Windows、Mac)、およびモバイル (Android、iOS) で利用できるクライアントがあります。これらのクライアントはすべてインターネット接続が必要で、オフライン モードをサポートしていません。
 
 > [!NOTE]
-> 2018 年 11 月 29 日付で、Microsoft Store から入手可能な Microsoft Teams の Windows 10 S (プレビュー) アプリが使用できなくなります。 11 月 29 日 以降は、この記事で後述するTeams アプリを使用することをお勧めします。
+> 2018 年 11 月 29 日付で、Microsoft Store から入手可能な Microsoft Teams の Windows 10 S (プレビュー) アプリが使用できなくなります。 代わりに、今すぐダウンロードして Windows 10 秒の各モードを実行しているデバイスにチームのデスクトップ クライアントをインストールします。 デスクトップ クライアントをダウンロードするには[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)です。 チームのデスクトップ クライアントの MSI ビルドはまだ Windows の 10 秒の各モードを実行しているデバイスで利用可能
+>
+> Windows の 10 秒の各モードの詳細については、 [S モードでの Windows 10 の概要](https://www.microsoft.com/windows/s-mode)を参照してください。 
 
 <a name="desktop-client"></a>デスクトップ クライアント
 --------------
@@ -45,7 +47,7 @@ Microsoft Teams デスクトップ クライアントはスタンドアロン �
 
 デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを PC にインストールする場合には必要ありませんが、Mac では必要になります) 。
 
-IT 管理者は好きな方法で、System Center Configuration Manager (Windows)、または Jamf Pro (macOS) などのインストール ファイルを組織のコンピューターに配布できます。 Windows ディストリビューションの MSI パッケージを取得するには、[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)を参照ください。
+IT 管理者は好きな方法で、System Center Configuration Manager (Windows)、または Jamf Pro (macOS) などのインストール ファイルを組織のコンピューターに配布できます。 Windows ディストリビューションの MSI パッケージを取得するには、[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)を参照ください。  
 
 > [!NOTE]
 > これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。
@@ -133,7 +135,7 @@ Microsoft Teams モバイル アプリのサポートされるモバイル プ�
 <a name="client-update-management"></a>クライアントの更新管理
 ------------------------
 
-クライアントは現在、IT 管理者の介入を必要とせずに Microsoft Teams サービスによって自動的に更新されています。利用可能な更新がある場合、クライアントは自動的にその更新をダウンロードします。アプリが一定時間アイドル状態となった場合には更新処理が開始されます。
+クライアントは現在によって自動的に更新、マイクロソフトのチームのサービスに必要な IT 管理者の介入なしにします。 更新が利用可能な場合は、クライアントが自動的に更新プログラムをダウンロードしと、アプリケーションは、一定の時間のアイドリングが、更新プロセスが開始します。
 
 <a name="client-side-configurations"></a>クライアント側の設定
 ---------------------------
