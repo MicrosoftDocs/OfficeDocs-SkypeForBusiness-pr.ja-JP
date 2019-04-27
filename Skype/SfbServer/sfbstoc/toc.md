@@ -104,12 +104,6 @@
 #### [会議クライアント](../plan-your-deployment/clients-and-devices/meetings-clients.md)
 ##### [Skype 会議アプリの最小ネットワーク要件](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Windows Phoneの要件](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
-<!-- #### [Microsoft Teams Rooms](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
-##### [Support for current branch versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
-##### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
-##### [Prepare your Environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
-##### [Requirements](../plan-your-deployment/clients-and-devices/requirements.md)
-##### [OMS management](../plan-your-deployment/clients-and-devices/oms-management.md) -->
 #### [VDI 環境](../plan-your-deployment/clients-and-devices/vdi-environments.md)
 ### [高可用性と障害復旧](../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
 #### [高可用性](../plan-your-deployment/high-availability-and-disaster-recovery/high-availability.md)
