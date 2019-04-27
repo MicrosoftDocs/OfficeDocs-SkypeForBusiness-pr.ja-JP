@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: ビジネス サーバーには、AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス、データベース ミラーリング、SQL のフェールオーバー クラスタ リングなど、Skype でサポートされているバック エンド サーバーの高可用性オプションについて説明します。
-ms.openlocfilehash: 5f95ea1a1a856db945e1d0fac5683b1fb8c4c02e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6a466c398e5b25793d7e07f9e07815ba5387140
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214104"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33356219"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Skype の最後のサーバーの高可用性をビジネスのサーバーのバックアップします。
  
@@ -50,7 +50,7 @@ ms.locfileid: "32214104"
     
 
 > [!NOTE]
-> 2016 の SQL Server は、ビジネス サーバー 2019 の Skype によってサポートされている唯一のバージョンです。
+> SQL ミラーリング ビジネス サーバー 2015 の Skype で利用できるが、ビジネス サーバー 2019 の Skype でサポートされていません。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタ リング手法は、ビジネス サーバー 2019 の Skype で優先します。
     
 非同期データベース ミラーリングは Skype のバック エンド サーバーの高可用性のビジネス サーバーです。 これ以降、特に指定がない限り、データベース ミラーリングは同期データベース ミラーリングを意味するものとします。 
   

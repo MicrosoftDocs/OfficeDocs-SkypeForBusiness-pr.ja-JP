@@ -14,17 +14,17 @@ search.appverid: MET150
 description: IT 管理者は、これらのドメインからのユーザーがチームに参加できるようにするのには他のドメイン (フェデレーション) の外部アクセスを構成できます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 98dc47ec66861d2f0c77c0eff45851c09e8bc353
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245578"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33356189"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Microsoft Teams での外部アクセス (フェデレーション) の管理
 ======================================================
 
-マイクロソフト チームの外部アクセス、他のドメインからのユーザーのチャットと通話に参加できます。 参加するビジネス用の Skype を使用しても外部のユーザーを許可することもできます。 
+マイクロソフト チームの外部アクセス、他のドメインからのユーザーのチャットと通話に参加できます。 外部のユーザーもを使用している Skype のオンライン ビジネスやビジネス上の prem の Skype への参加を許可することもできます。 
 
 (フェデレーション) の外部アクセスおよびゲスト アクセスは、異なります。
 
