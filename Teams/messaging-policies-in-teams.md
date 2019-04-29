@@ -17,11 +17,11 @@ f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージング ポリシーとそれらを使用してメッセージング チームのチャットを制御する方法について説明します。
 ms.openlocfilehash: f0dd52dac1bd2563a0ef5c500714ab63eeadf84d
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298454"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401421"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams のメッセージング ポリシーを管理する
 

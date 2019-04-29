@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: a26972e16758a00e2afc5d39029cfb1504b974c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 514be758042284f40dfab055eacf5b0f3222afd7
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233658"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402524"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 

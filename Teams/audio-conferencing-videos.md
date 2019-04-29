@@ -17,11 +17,11 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6706fc789ed4a5e8a33e88059319d298791f84dd
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304406"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400687"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>ビデオ: Audio Conferencing in Microsoft Teams (Microsoft Teams での電話会議)
 =============================================

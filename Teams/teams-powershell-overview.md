@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell のコントロールを使用して、マイクロソフトのチームを管理するために説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a56783a4958038710440fc899081abfdd24f1dec
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204470"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401631"
 ---
 # <a name="teams-powershell-overview"></a>チーム PowerShell の概要
 
@@ -43,6 +43,37 @@ PowerShell コマンドレットの別の管理者の役割が利用できるよ
 チームによって支えられて O365 グループでは、これとチームを作成する、グループを作成します。 コア ・ チームとその設定を操作するために用意されているコマンドレットのセットがある (``new-team``、 ``get-team``、 ``set-team``)、チームのユーザーを管理する (``add-teamuser``、 ``remove-teamuser``)、およびチームのチャネルを管理するためのコマンドレット (``new-teamchannel``、 ``remove-teamchannel``)。 エンド ・ ユーザーとして実行できるすべてのこれらのコマンドレットが所有する、またはのメンバーをチームにのみ動作します。 場合は、グローバル管理者またはチームのサービス管理者は、組織内のすべてのチームを操作することができます。
 
 > マイクロソフト チームの PowerShell モジュールのコマンドレットで使用されている**グループ Id**は、 **Identity**プロパティによって返される``Get-UnifiedGroup``Exchange PowerShell モジュールにします。
+
+### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>プレビューし、一般に利用可能なマイクロソフトのチームの PowerShell モジュール間の相違点
+
+一般に利用可能なバージョンの PowerShell モジュールをリリースしました、いくつかのコマンドレットがままベータ版専用のモジュールに次の表で説明したよう。
+
+| コマンドレット | プレビューで使用可能です | 1.0 で利用可能です |
+|------- | -------------------- | ------------------------------ |
+| 追加 TeamUser | はい | はい |
+| 接続 MicrosoftTeams | はい | はい |
+| 切断 MicrosoftTeams | はい | はい |
+| Get チーム | はい | はい |
+| Get TeamChannel | はい | はい |
+| Get TeamFunSettings | 1.0 のみをリリースする前に | いいえ |
+| Get TeamGuestSettings | 1.0 のみをリリースする前に | いいえ |
+| Get TeamHelp | はい | はい |
+| Get TeamMemberSettings | 1.0 のみをリリースする前に | いいえ |
+| Get TeamMessagingSettings | 1.0 のみをリリースする前に | いいえ |
+| Get TeamUser | はい | はい |
+| 新しいチーム | はい | はい |
+| 新しい-TeamChannel | はい | はい |
+| 削除チーム | はい | はい |
+| 削除 TeamChannel | はい | はい |
+| 削除 TeamUser | はい | はい |
+| セット チーム | はい | はい |
+| セット TeamChannel | はい | はい |
+| セット TeamFunSettings | 1.0 のみをリリースする前に | いいえ |
+| セット TeamGuestSettings | 1.0 のみをリリースする前に | いいえ |
+| セット TeamMemberSettings | 1.0 のみをリリースする前に | いいえ |
+| セット TeamMessagingSettings | 1.0 のみをリリースする前に | いいえ |
+| セット TeamPicture | はい | 残念ですが、計画 |
+
 
 ## <a name="managing-policies-via-powershell"></a>PowerShell を使用してポリシーの管理
 
