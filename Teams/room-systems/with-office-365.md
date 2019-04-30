@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft Office 365 でのチーム会議室を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 462f5a6727a3c67e221b0d7ac019849ed3eb6f52
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 16d0fad14bd52a13fa6735ec0b786cb15f3ce8c1
+ms.sourcegitcommit: 728507d34031d01f663d9b551cd4794867244854
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362905"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33467535"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 でマイクロソフトのチームの会議室を配置します。
 
@@ -39,7 +39,7 @@ Microsoft Office 365 でのチーム会議室を展開する前に、要件を�
 
 - テナント ユーザーは、Exchange のメールボックスが必要です。
 
-- チームの会議室を Microsoft アカウントにする必要が最低限、Skype ビジネス オンライン (プラン 2) のライセンスが、Exchange Online のライセンスは必要ありません。 詳細については、[マイクロソフト チームの会議室のライセンス](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)を参照してください。
+- チームの会議室を Microsoft アカウントにする必要が最低限、Skype ビジネス オンライン (プラン 2) のライセンスが、Exchange Online のライセンスは必要ありません。 詳細については、[マイクロソフト チームの会議室のライセンス](skype-room-systems-v2.md)を参照してください。
 
 Skype のビジネスのオンラインの計画の詳細については、 [Skype](https://technet.microsoft.com/library/jj822172.aspx)を参照してください。
 

@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60e6d6b02719bf1055b5f8e9faa3c31febdf0bcb
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 0f0337fb71e766b96f7648c15b46d665d846e1fb
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647554"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470670"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
@@ -65,6 +65,6 @@ ms.locfileid: "30647554"
 
 Hashtag の #TeamsStories を簡単に取得するために、フィードバックのチャンネルから取得した情報を共有します。 1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。 共有をご導入の推進フォーラム (英語) にマイクロソフトのテクニカル コミュニティで。 これら実際の例から、自分の会社内での共有、ユーザー コミュニティ内で時間の経過と共に継続的な変更を実現するのには非常に重要です。
 
-[Office 365 の管理センターでマイクロソフトのチームの利用状況レポートの詳細を表示します。](teams-activity-reports.md)
+[Microsoft 365 の管理センターでマイクロソフトのチームの利用状況レポートの詳細を表示します。](teams-activity-reports.md)
 
 ![次の手順を実行アイコン](media/teams-adoption-next-icon.png)次:[スケジュール サービスの稼働状態を確認](teams-adoption-schedule-service-health-reviews.md)

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f9f992b31dcdade2d5ba0dd85757ce99980fb80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a3418de96bc08de90ce09faaba1b5d7ed9b959ec
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233014"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470595"
 ---
 ![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")
 
@@ -240,7 +240,7 @@ Office 365 サービスの稼働状態および変更をプログラムでアク
 
 使用率では、期待どおりにならない場合は場合、は、展開の問題では、可能性がありますか、採用計画は適切に実行された、またはその他の問題がないです。 使用頻度の低いの背後にある実際の理由によってサービス管理者は、使用法の障害を取り除くために関連するチームと共同作業が必要です。
 
-### <a name="measuring-usage-with-the-office-365-admin-center"></a>Office 365 管理センターの利用状況を測定します。
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターの利用状況を測定します。
 
 チームからの利用状況データは、レポート作成ダッシュ ボードで使用できます。 チームの利用状況データは、3 つの異なるレポートを参照しています。 最初のレポートは、ユーザーの通信し、共同作業をさまざまなサービスを使用して、Office 365 でのクロス積のビューを提供します。 このレポートを参照してください: [Office 365 のアクティブなユーザー レポート](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -281,9 +281,9 @@ Office 365 サービスの稼働状態および変更をプログラムでアク
 
 ### <a name="references"></a>参照設定
 
-[Office 365 管理センターについて](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Microsoft 365 管理センターについて](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Microsoft 365 の管理センターでの活動レポート](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 
