@@ -232,7 +232,8 @@
 ### [組織内の電話システムの設定](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [クラウドの自動応答とは](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [クラウドの自動応答をセットアップする](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [小規模ビジネスの例: 自動応答をセットアップする](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+#### [小規模ビジネスの例: 自動応答をセットアップする](../what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)  
+#### [小規模ビジネスの例 - 呼び出しキューをセットアップする](../what-is-phone-system-in-office-365/tutorial-cq.yml?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [クラウドの通話キューを作成する](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 
