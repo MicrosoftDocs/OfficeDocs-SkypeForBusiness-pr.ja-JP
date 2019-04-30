@@ -11,16 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015 および Lync 2013 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 7aa5a6735a0a3f9fd3544a5f0980f47b4af74213
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f3ce33cb77a5285b96a077b44c02e42007500190
+ms.sourcegitcommit: f82994504d8ca89f05c39eae5318475c5a5b09eb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199583"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33472511"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
-[Skype for Business Server 2015](#skype-for-business-server-2015-update-history)、[Lync 2013](#Lync-2013-update-history)、および [Lync Server 2010](#lync-server-2010-update-history) 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
+検索し、[ビジネス サーバー 2015 の Skype](#skype-for-business-server-2015-update-history)、 [Lync Server 2013](#lync-server-2013-update-history)、および 1 つの場所では、 [Lync Server 2010](#lync-server-2010-update-history)の更新プログラムを管理します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
 
 ビジネスをオンラインで、Office 365 の更新プログラムの最新の Skype、[マイクロソフトの 365 のロードマップ](https://go.microsoft.com/fwlink/p/?linkid=529454)を参照してください。
 
