@@ -16,12 +16,12 @@ MS.collection:
 description: マイクロソフトのチームの管理センターでチームを組織内のユーザーの接続を確認するチームのデバイスの使用状況レポートを使用する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1cd1ec97732b851246e03f6fcd56382ccdedf59
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: df5b912a9a4d76fd1be2947cea6dd2750ddbaa49
+ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401413"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33495902"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams のデバイス使用状況レポート
 
@@ -45,7 +45,7 @@ ms.locfileid: "33401413"
 |**3**   |<ul><li>グラフの X 軸は、チームへの接続に使用されるさまざまなデバイス (**Windows**、 **Mac**、 **iOS**、 **Android の電話**) を表します。 </li><li>Y 軸は、選択した期間にわたってデバイスを使用してユーザーの数です。</li> </ul>バーにポインターを置くチームに接続するデバイスを使用しているユーザーの数を表示するデバイスを表します。|
 |**4**   |表では、ユーザーがデバイスの使用状況の内訳を示します。 <ul><li>**表示名**は、ユーザーの表示名です。 マイクロソフトのチームの管理センターでユーザーの設定] ページに移動するのには表示名をクリックすることができます。 </li><li>**Windows**は、ユーザーがチームのデスクトップ クライアントを Windows ベースのコンピューター上でアクティブな場合に選択されます。</li><li>**Mac**は、ユーザーが macOS コンピューター上のチームのデスクトップ クライアントでアクティブな場合に選択されます。 </li> <li>ユーザーは、iOS のチームのモバイル クライアント上でアクティブだった場合は、 **iOS**が選択されます。</li><li>**Android の電話**は、ユーザーが Android のチームのモバイル クライアント上でアクティブな場合に選択されます。 <li>**最後のアクティビティ**は、ユーザーがチームの活動に参加した最後の日付 (UTC) です。</li> </ul> 表に希望する情報を表示するには、表に列を追加する必要があります。 |
 |**5**   |[**列の編集**] を選択して表で列を追加または削除します。 |
-|**6**   |[**˙˙˙**] を選択してから、[**グラフを印刷**] でグラフを印刷します。 |
+|**6**   |オフラインで分析できる CSV ファイルにレポートをエクスポートすることができます。 [ **Excel にエクスポート**する] をクリックし、[**ダウンロード**] タブの [**ダウンロード**の準備ができたときに、レポートをダウンロードする] をクリックします。<br>![ダウンロードするレポートをエクスポートするかを示す [ダウンロード] タブのスクリーン ショット](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>関連トピック
 - [Teams の分析とレポート](teams-reporting-reference.md)

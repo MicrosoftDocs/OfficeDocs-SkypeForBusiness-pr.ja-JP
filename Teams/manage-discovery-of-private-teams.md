@@ -17,14 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: プライベート チームをチームのギャラリーおよび検索結果内の提案をマイクロソフトのチームのユーザーが検出できるかどうかを制御する方法について説明します。
-ms.openlocfilehash: 70d5b81bba719a9e6cc6a51d38d58fd309e07a3b
-ms.sourcegitcommit: 9329d740a2060f9c055c5c0c03107a9268c0df5b
+ms.openlocfilehash: 3609a592c3c940e9f7cbec6ca5c58fd072322c46
+ms.sourcegitcommit: 0bb55cad74b15fc821ae916799aa8c0cb13dd31d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "33262763"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497954"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>マイクロソフトのチームでの秘密のチームの検索を管理します。
+
+> [!INCLUDE [preview feature](includes/preview-feature.md)] 
 
 管理者とチームの所有者は、マイクロソフトのチームのユーザーが組織内でプライベート チームを検出できるかどうかを制御できます。 プライベート チームが検出すると、検索結果に表示し、チーム内のパブリックのチームと共にチームのギャラリーで提案に含まれています。 これによりのプライベート チームに参加するを検索するを容易にします。 チームの所有者を承認または拒否できますし、プライベート チームに参加するユーザーを要求できます。
 
@@ -62,7 +64,7 @@ PowerShell を使用して行うことができます管理者とチームの所
 
 ![既存のプライベート チームの探索の設定](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell"></a>PowerShell を使用します。
+### <a name="using-powershell-coming-soon"></a>(準備中) PowerShell を使用します。
 
 **セット チーム**コマンドレットを使用して、オフにするか、既存のプライベート チームの探索の設定をオンにします。 チームを検出可能にする方法の例を以下に示します。
 
