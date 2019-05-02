@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8694abbec22e577983889bdf6cdc3d6038d3c80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5ad250e133ebe3d9a203a1439f04a8f1f3cc41d9
+ms.sourcegitcommit: ceba3ec2d5618fceaa57e18f7ca6858e8d5d5ee5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245608"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33509685"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 
@@ -44,7 +44,15 @@ Teams を使用すると、すぐに組織内外のチームとユーザーを�
 
 ## <a name="before-you-get-started"></a>使用を開始する前に
 
-すべてのユーザーが Teams のライセンスを所有していることを確認してください。 「[Teams のプランを比較](https://products.office.com/microsoft-teams/free)」と「[Teams 用 Office 365 ライセンス](office-365-licensing.md)」を確認してください。 
+使用を開始する前に、Teams のロールアウトを計画するために次の事項を確認します:
+
+- [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
+- [Teams 用に組織のネットワークを準備する](prepare-network.md)
+- [デスクトップ、Web、モバイル クライアントをインストールするメリットについて学ぶ](get-clients.md)
+
+また、すべてのユーザーに Teams のライセンスが付与されていることを確認する必要があります。 「[Teams のプランを比較](https://products.office.com/microsoft-teams/free)」と「[Teams 用 Office 365 ライセンス](office-365-licensing.md)」を確認してください。 
+
+
 
 ## <a name="next-steps"></a>次のステップ
 「[最初のチームとチャネルを作成する](get-started-with-teams-create-your-first-teams-and-channels.md)」に移動します。
