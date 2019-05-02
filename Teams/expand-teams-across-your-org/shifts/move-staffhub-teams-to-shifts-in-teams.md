@@ -13,19 +13,19 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14f94428ddeba7b5a648b4b8dbd7bd5ef8fae0e4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8ca4249c88ce5793cd04eb2e2cc1ed3035915975
+ms.sourcegitcommit: 790ca37e2b12e4c8adcc526b1695017161749f51
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246101"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33526857"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>マイクロソフト チームの変化に、マイクロソフトの StaffHub チームを移動します。
 
 > [!IMPORTANT]
 > 2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 マイクロソフトのチームに StaffHub 機能が進められています。 今日では、チームには、スケジュール管理のためのシフトのアプリケーションが含まれていて、その他の機能が時間の経過と共に展開されます。 StaffHub は、2019 年 10 月 1 日ですべてのユーザーの作業を停止します。 StaffHub を開こうとするとすべての人がチームをダウンロードすることを指示するメッセージ表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。
 
-> この資料で説明した機能は、まだリリースされていません。 発表されてはまもなく、2019 の 4 月の最後の方です。 管理者にする場合を調べることができますこのが使用できます ( [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)) のメッセージ センターにするとします。
+> この資料で説明した機能は、まだリリースされていません。 発表されてはまもなく、2019年 5 月の中央にします。 管理者にする場合を調べることができますこのが使用できます ( [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)) のメッセージ センターにするとします。
 
 チームでシフトのアプリケーションでは、スケジュール、および shift キーを交換し、日常的に発生するキャンセルの一定のフローを管理するための単純なアプローチを提供します。 チーム メンバーは、スケジュールにアクセスできるし、shift キーを押しの情報直接アプリケーションでは、プレファレンスを設定するようにデバイスの間で彼らのスケジュールを管理オフ時間を要求します。
 
