@@ -21,6 +21,7 @@
 ## [Microsoft Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)
+## [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [プレゼンス](presence-admins.md)
@@ -76,54 +77,6 @@
 ### [Microsoft 365 管理センターでの Teams のアクティビティ レポート](teams-activity-reports.md)
 
 
-## リファレンス
-
-### Teams のロールアウトの準備
-#### [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
-#### [Teams 用に組織のネットワークを準備する](prepare-network.md)
-#### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
-#### [Teams の制限と仕様](limits-specifications-teams.md)
-#### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
-#### [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)
-#### [Teams でのガバナンスを計画する](plan-teams-governance.md)
-
-
-
-
-### Office 365 との相互運用性
-#### [共存およびアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)
-#### [Office 365 グループと Teams](office-365-groups.md)
-#### [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
-#### [Exchange と Teams の連携](exchange-teams-interact.md)
-##### [Teams で使用する Exchange ハイブリッド展開の組織を構成する](exchange-hybrid-organization.md)
-##### [Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する](smtp-accepted-domain.md)
-#### [Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)
-#### [Office 365 複数地域対応テナントでの Teams のエクスペリエンス](teams-experience-o365odb-spo-multi-geo.md)
-
-### Teams のインストール
-#### [Teams のクライアントを取得する](get-clients.md)
-#### [Teams アプリのハードウェア要件](hardware-requirements-for-the-teams-app.md)
-#### [MSI を使用した Teams のインストール](msi-deployment.md)
-#### [組織で Teams を有効にする](Office-365-set-up.md)
-#### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
-#### [仮想デスクトップ インフラストラクチャ (VDI) 用の Teams](teams-for-vdi.md)
-#### [Surface Hub の Teams を展開する](teams-surface-hub.md)
-
-### ライセンス
-#### [Teams へのユーザー アクセスを管理する](user-access.md)
-#### [Teams の Office 365 ライセンス](office-365-licensing.md)
-#### [Teams のライセンスを割り当てる](assign-teams-licenses.md)
-#### [Teams アドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-##### プランに基づいたライセンスオプション
-###### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
-###### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
-###### [Office 365 Enterprise E1 および E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-###### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-###### [Office 365 Enterprise E5 (電話会議なし)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-###### [GOV、EDU、および非営利団体](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
-#### [Teams の商用試用版サービスの管理](iw-trial-teams.md)
-#### [Teams を無料で Office 365 月額プラン バージョンにアップグレードする](upgrade-freemium.md)
-
 
 
 <!-- ============================================================ -->
@@ -141,6 +94,7 @@
 ## [Teams のクラウド会議の記録](cloud-recording.md)
 ## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ## [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Microsoft Teams ミーティング](room-systems/index.md)
 
 
 ## [電話会議](deploy-audio-conferencing-teams-landing-page.md)
@@ -325,6 +279,7 @@
 #### [クラウド自動応答とは](what-are-phone-system-auto-attendants.md)
 #### [クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
 #### [小規模ビジネスの例: 自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [小規模ビジネスの例 - 呼び出しキューをセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Microsoft Teams のリソースのアカウントの管理](manage-resource-accounts.md)
 #### [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
 #### [自動応答および呼び出しキューの通話に Teams から直接応答する](answer-auto-attendant-and-call-queue-calls.md)
@@ -653,6 +608,7 @@
 
 ## [教育機関向けの Teams ](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
+### [教育機関向けの Teams の課題 ](expand-teams-across-your-org/assignments-in-teams.md)
 ### [教育機関管理者向けの Teams のリソース](resources-teams-edu.md)
 ### [Microsoft Education のガバナンスに関するよくある質問 (管理者向け)](plan-teams-governance-edu.md)
 
@@ -678,7 +634,59 @@
 <!-- ============================================================ -->
 
 
-# リファレンス
+# 参照
+
+
+## Teams のロールアウトの準備
+### [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
+### [Teams 用に組織のネットワークを準備する](prepare-network.md)
+### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
+### [Teams の制限と仕様](limits-specifications-teams.md)
+### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
+### [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)
+### [Teams でのガバナンスを計画する](plan-teams-governance.md)
+
+
+
+
+
+
+## Teams のインストール
+### [Teams のクライアントを取得する](get-clients.md)
+### [Teams アプリのハードウェア要件](hardware-requirements-for-the-teams-app.md)
+### [MSI を使用した Teams のインストール](msi-deployment.md)
+### [組織で Teams を有効にする](Office-365-set-up.md)
+### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
+### [仮想デスクトップ インフラストラクチャ (VDI) 用の Teams](teams-for-vdi.md)
+### [Surface Hub の Teams を展開する](teams-surface-hub.md)
+
+## ライセンス
+### [Teams へのユーザー アクセスを管理する](user-access.md)
+### [Teams の Office 365 ライセンス](office-365-licensing.md)
+### [Teams のライセンスを割り当てる](assign-teams-licenses.md)
+### [Teams アドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+#### プランに基づいたライセンスオプション
+##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
+##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Office 365 Enterprise E1 および E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
+##### [Office 365 Enterprise E5 (電話会議なし)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+##### [GOV、EDU、および非営利団体](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Teams の商用試用版サービスの管理](iw-trial-teams.md)
+### [Teams を無料で Office 365 月額プラン バージョンにアップグレードする](upgrade-freemium.md)
+
+
+## Office 365 との相互運用性
+### [共存およびアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)
+### [Office 365 グループと Teams](office-365-groups.md)
+### [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
+### [Exchange と Teams の連携](exchange-teams-interact.md)
+#### [Teams で使用する Exchange ハイブリッド展開の組織を構成する](exchange-hybrid-organization.md)
+#### [Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する](smtp-accepted-domain.md)
+### [Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)
+### [Office 365 複数地域対応テナントでの Teams のエクスペリエンス](teams-experience-o365odb-spo-multi-geo.md)
+
+
 
 ## サポート対象のデバイス
 ### [Teams でのデバイスの管理](device-management.md)
@@ -689,6 +697,7 @@
 
 
 ## [セキュリティとコンプライアンス](security-compliance-overview.md)
+### [Teams の情報障壁 ](information-barriers-in-teams.md)
 ### [Teams のコンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
 ### [Teams での ID モデルと認証](identify-models-authentication.md)
 ### [先進認証を使用して Teams にサインインする](sign-in-teams.md)
