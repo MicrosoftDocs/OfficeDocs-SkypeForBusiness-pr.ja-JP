@@ -13,50 +13,95 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織のためのTeamsを始めましょう
-ms.openlocfilehash: 4ba465c69477f3e9ff6d541ddeb55dc41100b7ec
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7f68a21e835edb3b5ebcd8ff794f4fd3d0716bee
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245891"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632295"
 ---
-# <a name="get-started-with-teams-for-healthcare-organizations"></a><span data-ttu-id="9d179-103">医療関係組織のためのTeamsを始めましょう</span><span class="sxs-lookup"><span data-stu-id="9d179-103">Get started with Teams for Healthcare organizations</span></span>
+# <a name="get-started-with-teams-for-healthcare-organizations"></a><span data-ttu-id="15fee-103">医療関係組織のためのTeamsを始めましょう</span><span class="sxs-lookup"><span data-stu-id="15fee-103">Get started with Teams for Healthcare organizations</span></span>
 
-<span data-ttu-id="9d179-104">マイクロソフトのチームには、いくつかの病院およびその他の医療機関の便利な機能が用意されています。</span><span class="sxs-lookup"><span data-stu-id="9d179-104">Microsoft Teams offers a number of features useful for hospitals and other Healthcare organizations.</span></span> <span data-ttu-id="9d179-105">チームは、機能の病院を支援するために開発中です。</span><span class="sxs-lookup"><span data-stu-id="9d179-105">Teams features are under development to aid hospitals with:</span></span>
+<span data-ttu-id="15fee-104">マイクロソフトのチームには、いくつかの病院およびその他の医療機関の便利な機能が用意されています。</span><span class="sxs-lookup"><span data-stu-id="15fee-104">Microsoft Teams offers a number of features useful for hospitals and other Healthcare organizations.</span></span> <span data-ttu-id="15fee-105">チームは、機能の病院を支援するために開発中です。</span><span class="sxs-lookup"><span data-stu-id="15fee-105">Teams features are under development to aid hospitals with:</span></span>
 
-- <span data-ttu-id="9d179-106">ケアの調整</span><span class="sxs-lookup"><span data-stu-id="9d179-106">Care Coordination</span></span>
-- <span data-ttu-id="9d179-107">メッセージのセキュリティ保護します。</span><span class="sxs-lookup"><span data-stu-id="9d179-107">Secure Messaging</span></span>
-- <span data-ttu-id="9d179-108">電子医療記録 (EHR) の統合</span><span class="sxs-lookup"><span data-stu-id="9d179-108">Electronic Healthcare Record (EHR) integration</span></span>
-- <span data-ttu-id="9d179-109">先頭行の作業者の統合</span><span class="sxs-lookup"><span data-stu-id="9d179-109">Firstline Worker integration</span></span>
+- <span data-ttu-id="15fee-106">ケアの調整</span><span class="sxs-lookup"><span data-stu-id="15fee-106">Care Coordination</span></span>
+- <span data-ttu-id="15fee-107">メッセージのセキュリティ保護します。</span><span class="sxs-lookup"><span data-stu-id="15fee-107">Secure Messaging</span></span>
+- <span data-ttu-id="15fee-108">電子医療記録 (EHR) の統合</span><span class="sxs-lookup"><span data-stu-id="15fee-108">Electronic Healthcare Record (EHR) integration</span></span>
+- <span data-ttu-id="15fee-109">先頭行の作業者の統合</span><span class="sxs-lookup"><span data-stu-id="15fee-109">Firstline Worker integration</span></span>
 
-## <a name="care-coordination"></a><span data-ttu-id="9d179-110">ケアの調整</span><span class="sxs-lookup"><span data-stu-id="9d179-110">Care Coordination</span></span>
+## <a name="care-coordination---microsoft-teams-patients-app"></a><span data-ttu-id="15fee-110">注意調整 - マイクロソフト チームが患者のアプリ</span><span class="sxs-lookup"><span data-stu-id="15fee-110">Care Coordination - Microsoft Teams Patients app</span></span>
 
-<span data-ttu-id="9d179-111">ケアの調整は、医療業界におけるマイクロソフトのチームで投資の主な利点の 1 つです。</span><span class="sxs-lookup"><span data-stu-id="9d179-111">Care coordination is one of the key pillars for our investments in Microsoft Teams in healthcare.</span></span> <span data-ttu-id="9d179-112">ソリューションは、複数の患者にケアを調整するためのセキュリティで保護されたハブを医療チームに提供します。</span><span class="sxs-lookup"><span data-stu-id="9d179-112">The solution gives healthcare teams a secure hub for coordinating care across multiple patients.</span></span> <span data-ttu-id="9d179-113">電子医療記録 (EHR) のシステムとの統合し、注意して患者の治療について通信するためにプロバイダーを有効にチームのセキュリティで保護されたプラットフォーム内でのリアルタイムです。</span><span class="sxs-lookup"><span data-stu-id="9d179-113">It integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform.</span></span> <span data-ttu-id="9d179-114">チームでは、組織のような問題を解決することができます。</span><span class="sxs-lookup"><span data-stu-id="9d179-114">Teams allows organizations to address problems like:</span></span>
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-- <span data-ttu-id="9d179-115">手のトレードオフとケアの連続性の全体にわたって重要な通信の効率が低</span><span class="sxs-lookup"><span data-stu-id="9d179-115">Low efficiency in hand-offs and critical communication throughout the care continuum</span></span>
-- <span data-ttu-id="9d179-116">医療システムの管理上の負荷を作成するリポジトリの情報</span><span class="sxs-lookup"><span data-stu-id="9d179-116">Siloed information that creates administrative burden in the healthcare system</span></span>
-- <span data-ttu-id="9d179-117">断片化して複雑なコラボレーション ・ ツールと医師の間での不満</span><span class="sxs-lookup"><span data-stu-id="9d179-117">Dissatisfaction among clinicians with complex and fragmented collaboration tools</span></span>
-- <span data-ttu-id="9d179-118">あまり臨床の時間とコストを消費することの専門家の間で非効率的で個人での調整</span><span class="sxs-lookup"><span data-stu-id="9d179-118">Inefficient and in-person coordination among professionals that can consume too much clinical time and cost</span></span>
+<span data-ttu-id="15fee-111">マイクロソフトのチームでは、注意を払って調整ソリューションの最善の治療を提供するための最終的な目標を満たすために医療機関を特定できるようになりました。</span><span class="sxs-lookup"><span data-stu-id="15fee-111">Microsoft Teams now has a care coordination solution specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care.</span></span> <span data-ttu-id="15fee-112">チーム患者の Microsoft アプリケーションでは、注意を払って調整ソリューションの核心は、初めてのパーティ タブ アプリケーションに重要な医療機関の相互運用性リソース ([FHIR](https://www.hl7.org/fhir/)) 高速なインターフェイスを使用して電子医療記録 (EHR) システムと統合します。医療情報をマイクロソフトのチームに。</span><span class="sxs-lookup"><span data-stu-id="15fee-112">The crux of the care coordination solution, the  Microsoft Teams Patients app, is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams.</span></span>  
 
-<span data-ttu-id="9d179-119">病院環境に適用する開発チームを作成するための新しいテンプレートと、すぐに予想以上。</span><span class="sxs-lookup"><span data-stu-id="9d179-119">New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon.</span></span> <span data-ttu-id="9d179-120">これにより、医療従事者がさまざまな部門またはそして患者の治療を調整するために使用するチームを作成する簡単になります。</span><span class="sxs-lookup"><span data-stu-id="9d179-120">This makes it easier to create Teams that Healthcare workers use to coordinate care for patients in various departments or wards.</span></span> <span data-ttu-id="9d179-121">[医療機関向けのチーム テンプレートを使用して開始](healthcare-templates.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9d179-121">See [Get started with Teams templates for Healthcare organizations](healthcare-templates.md).</span></span> <span data-ttu-id="9d179-122">心臓科などの社内の部署や注意のそしてチームを開始することができ、他のテンプレートは、開発中です。</span><span class="sxs-lookup"><span data-stu-id="9d179-122">Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.</span></span>
+<span data-ttu-id="15fee-113">ケア連携ソリューションの患者のアプリケーションを HL7v2 と FHIR のように既存の正常性データの標準を使用して、EHR システムに接続可能な独立系ソフトウェア ベンダー (Isv) とインターフェイスことができます。</span><span class="sxs-lookup"><span data-stu-id="15fee-113">The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients app to your EHR systems using existing health data standards like HL7v2 and FHIR.</span></span> <span data-ttu-id="15fee-114">マイクロソフトは、電子医療記録の統合チームを確立するために、次の業界リーダーと提携します。</span><span class="sxs-lookup"><span data-stu-id="15fee-114">Microsoft partners with the following industry leaders to establish electronic health record integration with Teams:</span></span>
 
-## <a name="secure-messaging"></a><span data-ttu-id="9d179-123">メッセージのセキュリティ保護します。</span><span class="sxs-lookup"><span data-stu-id="9d179-123">Secure Messaging</span></span>
+- <span data-ttu-id="15fee-115">を通じて自社の[CMI](https://datica.com/compliant-managed-integration/)製品) Datica</span><span class="sxs-lookup"><span data-stu-id="15fee-115">Datica (through their [CMI](https://datica.com/compliant-managed-integration/) offering)</span></span>
+- <span data-ttu-id="15fee-116">情報のクローバー型インターチェンジを[避けます FHIR ブリッジ](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))</span><span class="sxs-lookup"><span data-stu-id="15fee-116">Infor Cloverleaf (through the [Infor FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))</span></span>
+- <span data-ttu-id="15fee-117">Redox (を通じて、 [R ^ FHIR server](https://www.redoxengine.com/fhir/))</span><span class="sxs-lookup"><span data-stu-id="15fee-117">Redox (through the [R^FHIR server](https://www.redoxengine.com/fhir/))</span></span>
+- <span data-ttu-id="15fee-118">( [FHIR の Corolar](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)) から Dapasoft</span><span class="sxs-lookup"><span data-stu-id="15fee-118">Dapasoft (through [Corolar on FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))</span></span>
 
-<span data-ttu-id="9d179-124">セキュリティで保護されたメッセージングをサポートしています内でのコラボレーション治療チームは、いくつかの新機能を含む:</span><span class="sxs-lookup"><span data-stu-id="9d179-124">Secure messaging supports collaboration within care teams, including several new features:</span></span>
+<span data-ttu-id="15fee-119">EHR の統合と相互運用機能のパートナーがマイクロソフトのチームを医療機関の組織に実装しようとしては、患者のアプリの医療機関の組織の EHR システムをセキュリティで保護され認証された接続を提供する必要があります。</span><span class="sxs-lookup"><span data-stu-id="15fee-119">An EHR integration and interop partner trying to implement Microsoft Teams for a healthcare provider organization needs to provide the Patients app a secure and authenticated connection with the healthcare provider organization's EHR systems.</span></span> <span data-ttu-id="15fee-120">これにより、患者アプリケーションに関連する患者記録の第 1 方向 (読み取り専用) の流れです。</span><span class="sxs-lookup"><span data-stu-id="15fee-120">This enables the one-directional (Read only) flow of the relevant patient records into to the Patients app.</span></span> <span data-ttu-id="15fee-121">患者のアプリケーションは、FHIR DSTU2 または STU3 HL7v2 などのさまざまな他の形式から集約されたデータに変換するため、パートナーはまた、FHIR 形式を理解しています。</span><span class="sxs-lookup"><span data-stu-id="15fee-121">The Patients app understands the FHIR format, so the partner is also responsible for transforming the aggregated data from various other formats like HL7v2, etc. into FHIR DSTU2 or STU3.</span></span>
 
-- <span data-ttu-id="9d179-125">メッセージの送信者は、受信者は繰り返し通知を受け取るまで、メッセージを読むためのメッセージでは、特別な優先度を設定できます。</span><span class="sxs-lookup"><span data-stu-id="9d179-125">A message sender can set a special priority for their message, so the recipient is repeatedly notified until they read the message.</span></span>
-- <span data-ttu-id="9d179-126">メッセージの受信者が送信したメッセージを開封した時に通知するため、メッセージの送信者は、開封確認メッセージを要求できます。</span><span class="sxs-lookup"><span data-stu-id="9d179-126">A message sender can request a read receipt, so they are notified when a message they sent was read by the message recipient.</span></span>
+<br>
 
-<span data-ttu-id="9d179-127">これらの機能には、緊急メッセージと、メッセージが受信され、読み取られる自信を持って迅速な対応ができるようにします。</span><span class="sxs-lookup"><span data-stu-id="9d179-127">Together, these features allow quicker attention to urgent messages and confidence that the message was received and read.</span></span> <span data-ttu-id="9d179-128">患者ごとにこれらの機能を使用して新しいケアのチームを作成できます。</span><span class="sxs-lookup"><span data-stu-id="9d179-128">New care teams using these features can be created on a per-patient basis.</span></span> <span data-ttu-id="9d179-129">これらの機能は、ポリシー ・ ベースでと、個人またはチーム全体に割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="9d179-129">These features are policy-based, and can be assigned to individuals or entire Teams.</span></span>
+![EHR の統合](../../media/ehr-1.png)
 
-<span data-ttu-id="9d179-130">詳細については、[医療機関向けのポリシーをセキュリティで保護されたメッセージングを開始](messaging-policies-hc.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9d179-130">See [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md) for further details.</span></span>
+<br>
 
-## <a name="firstline-worker-integration"></a><span data-ttu-id="9d179-131">先頭行の作業者の統合</span><span class="sxs-lookup"><span data-stu-id="9d179-131">Firstline Worker integration</span></span>
+<span data-ttu-id="15fee-123">患者アプリケーションは、電子医療記録 (EHR) のシステムと統合できるように注意して患者の治療について通信するためにプロバイダー内のチームのセキュリティで保護されたプラットフォームでリアルタイム。</span><span class="sxs-lookup"><span data-stu-id="15fee-123">The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform.</span></span> <span data-ttu-id="15fee-124">患者のアプリケーションは、次の課題を解決することを目的とするケアの調整] 領域で最初の主要な投資です。</span><span class="sxs-lookup"><span data-stu-id="15fee-124">The Patients app is the first major investment in the care coordination area which aims to address the following challenges:</span></span>
 
-<span data-ttu-id="9d179-132">マイクロソフトのチームでは、先頭行の作業者、shift キーのリソースの割り当て機能などを調整するために使用できると統合します。</span><span class="sxs-lookup"><span data-stu-id="9d179-132">Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing features and more.</span></span>
+- <span data-ttu-id="15fee-125">手のトレードオフと患者の経験から重要な通信の効率が低</span><span class="sxs-lookup"><span data-stu-id="15fee-125">Low efficiency in hand-offs and critical communication through the patient experience</span></span>
+- <span data-ttu-id="15fee-126">孤立した情報管理の負担を作成します。</span><span class="sxs-lookup"><span data-stu-id="15fee-126">Siloed information that creates administrative burdens</span></span>
+- <span data-ttu-id="15fee-127">断片化して複雑なコラボレーション ・ ツールと医師の間での不満</span><span class="sxs-lookup"><span data-stu-id="15fee-127">Dissatisfaction among clinicians with complex and fragmented collaboration tools</span></span>
+- <span data-ttu-id="15fee-128">あまり高価な治療時間を書き込むことが非効率的な人の注意を払って調整</span><span class="sxs-lookup"><span data-stu-id="15fee-128">Inefficient in-person care coordination that can burn too much expensive clinical time</span></span>
 
- <span data-ttu-id="9d179-133">以下の資料を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9d179-133">See the following articles:</span></span>
+<span data-ttu-id="15fee-129">マイクロソフト チームは、医師、医師、看護士、および共同作業を効率的に他のスタッフを有効にします。</span><span class="sxs-lookup"><span data-stu-id="15fee-129">Microsoft Teams enables physicians, clinicians, nurses, and other staff to collaborate efficiently by:</span></span>
 
-- [<span data-ttu-id="9d179-134">マイクロソフト チームの変化に、マイクロソフトの StaffHub チームを移動します。</span><span class="sxs-lookup"><span data-stu-id="9d179-134">Move your Microsoft StaffHub teams to Shifts in Microsoft Teams</span></span>](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+- <span data-ttu-id="15fee-130">動作し、Office ドキュメントとの共同作業を 1 つの仮想化チームの一部であります。</span><span class="sxs-lookup"><span data-stu-id="15fee-130">Being part of a single virtualized team that works and collaborates on Office documents</span></span>
+- <span data-ttu-id="15fee-131">別の患者が注意を必要とする永続的な会話</span><span class="sxs-lookup"><span data-stu-id="15fee-131">Having persistent conversations about different patients needing attention</span></span>
+- <span data-ttu-id="15fee-132">タブのチャネルを使用してタブをするには、情報源を固定することができますから、追加のヘルプを自分の作業を構造化する方法として</span><span class="sxs-lookup"><span data-stu-id="15fee-132">Using channels with tabs as a way to structure their work, with additional help from tabs to which they can pin information sources</span></span>
+- <span data-ttu-id="15fee-133">チームのオーディオ、ビデオ、画面共有、記録、および議事録作成機能の電源を毎日の会議を管理するためにチャネルの会議を使用します。</span><span class="sxs-lookup"><span data-stu-id="15fee-133">Using channel meetings with the power of Teams audio, video, screen sharing, recording, and transcription features to manage daily meetings</span></span>
+- <span data-ttu-id="15fee-134">患者のアプリケーションを使用して、curate、監視する必要があり、EHR システムから、最新の情報を取得するリスクの高い患者の一覧です。</span><span class="sxs-lookup"><span data-stu-id="15fee-134">Using the Patients app to curate a list of high-risk patients that must be monitored, and pulls their latest details from the EHR system.</span></span> <span data-ttu-id="15fee-135">患者アプリそのものには、マイクロソフトのチームに次の機能が追加されます。</span><span class="sxs-lookup"><span data-stu-id="15fee-135">The Patients app itself adds the following features to Microsoft Teams:</span></span>
 
-- [<span data-ttu-id="9d179-135">Microsoft Teams で組織のシフト アプリを管理する</span><span class="sxs-lookup"><span data-stu-id="9d179-135">Manage the Shifts app for your organization in Microsoft Teams</span></span>](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+    - <span data-ttu-id="15fee-136">1 つのチャネル内で複数の患者を作成する機能が一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="15fee-136">Ability to create multiple patient lists within a single channel.</span></span>
+    - <span data-ttu-id="15fee-137">表示し、表示される構成可能な列を患者の情報をソートする機能。</span><span class="sxs-lookup"><span data-stu-id="15fee-137">Ability to view and sort information displayed about patients through configurable columns.</span></span>
+    - <span data-ttu-id="15fee-138">チーム テンプレートからアプリケーションの自動プロビジョニングする機能。</span><span class="sxs-lookup"><span data-stu-id="15fee-138">Ability to auto-provision the app through a team template.</span></span>
+    - <span data-ttu-id="15fee-139">マイクロソフト チームの web とデスクトップのクライアントだけでなく、モバイルの最初の医療従事者のチーム アプリの iOS および Android で使用できます。</span><span class="sxs-lookup"><span data-stu-id="15fee-139">Available on the Teams App for iOS and Android for mobile first healthcare workers as well as Microsoft Teams web and desktop client.</span></span>
+    - <span data-ttu-id="15fee-140">準拠のステートメントの解析を使用して FHIR の DSTU2 と STU3 のバージョンをサポートします。</span><span class="sxs-lookup"><span data-stu-id="15fee-140">Support for FHIR DSTU2 and STU3 versions via parsing of conformance statement.</span></span>
+    - <span data-ttu-id="15fee-141">HIPAA のガイドラインに従って、PHI を保護するには、そのユーザー インターフェイス上のすべてのビューおよび検索アクションのログを監査します。</span><span class="sxs-lookup"><span data-stu-id="15fee-141">Audit Logs for all view and search actions on its user interface to safeguard PHI per HIPAA guidelines.</span></span>
+
+<span data-ttu-id="15fee-142">患者アプリケーションは、チームの機能拡張のプラットフォーム上に構築され、チャネル内で患者リッチ ・ コンテンツを表示するタブのフレームワークを活用します。</span><span class="sxs-lookup"><span data-stu-id="15fee-142">The Patients app is built on the Teams extensibility platform and takes advantage of the Tabs framework to display rich patient content within a channel.</span></span> <span data-ttu-id="15fee-143">他のチームのアプリケーションおよびプラットフォームそのものの詳細については、[マイクロソフトのチームのアプリケーション](/microsoftteams/platform/concepts/apps/apps-overview)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="15fee-143">To learn more about other Teams apps and the platform itself, please see [Apps for Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-overview).</span></span>  
+
+> [!NOTE]
+> <span data-ttu-id="15fee-144">患者アプリケーションがプライベートのプレビューでは、ベータ版では、FHIR インタ フェース。</span><span class="sxs-lookup"><span data-stu-id="15fee-144">The Patients app is in private preview and the FHIR interface is in beta.</span></span> <span data-ttu-id="15fee-145">リリース バージョンを旧バージョンと互換性を持つ必要はありません。</span><span class="sxs-lookup"><span data-stu-id="15fee-145">Released versions are not expected to be backward compatible.</span></span>
+
+![患者アプリケーションのスクリーン ショット](../../media/ehr-2.png)
+
+<span data-ttu-id="15fee-147">実装の詳細については、[マイクロソフトのチームに電子医療記録を統合すること](patients-app.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="15fee-147">See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md) for implementation details,.</span></span>
+
+## <a name="templates"></a><span data-ttu-id="15fee-148">テンプレート</span><span class="sxs-lookup"><span data-stu-id="15fee-148">Templates</span></span>
+
+<span data-ttu-id="15fee-149">病院環境に適用する開発チームを作成するための新しいテンプレートと、すぐに予想以上。</span><span class="sxs-lookup"><span data-stu-id="15fee-149">New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon.</span></span> <span data-ttu-id="15fee-150">これにより、医療従事者がさまざまな部門またはそして患者の治療を調整するために使用するチームを作成する簡単になります。</span><span class="sxs-lookup"><span data-stu-id="15fee-150">This makes it easier to create Teams that Healthcare workers use to coordinate care for patients in various departments or wards.</span></span> <span data-ttu-id="15fee-151">[医療機関向けのチーム テンプレートを使用して開始](healthcare-templates.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="15fee-151">See [Get started with Teams templates for Healthcare organizations](healthcare-templates.md).</span></span> <span data-ttu-id="15fee-152">心臓科などの社内の部署や注意のそしてチームを開始することができ、他のテンプレートは、開発中です。</span><span class="sxs-lookup"><span data-stu-id="15fee-152">Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.</span></span>
+
+## <a name="secure-messaging"></a><span data-ttu-id="15fee-153">メッセージのセキュリティ保護します。</span><span class="sxs-lookup"><span data-stu-id="15fee-153">Secure Messaging</span></span>
+
+<span data-ttu-id="15fee-154">セキュリティで保護されたメッセージングをサポートしています内でのコラボレーション治療チームは、いくつかの新機能を含む:</span><span class="sxs-lookup"><span data-stu-id="15fee-154">Secure messaging supports collaboration within care teams, including several new features:</span></span>
+
+- <span data-ttu-id="15fee-155">メッセージの送信者は、受信者は繰り返し通知を受け取るまで、メッセージを読むためのメッセージでは、特別な優先度を設定できます。</span><span class="sxs-lookup"><span data-stu-id="15fee-155">A message sender can set a special priority for their message, so the recipient is repeatedly notified until they read the message.</span></span>
+- <span data-ttu-id="15fee-156">メッセージの受信者が送信したメッセージを開封した時に通知するため、メッセージの送信者は、開封確認メッセージを要求できます。</span><span class="sxs-lookup"><span data-stu-id="15fee-156">A message sender can request a read receipt, so they are notified when a message they sent was read by the message recipient.</span></span>
+
+<span data-ttu-id="15fee-157">これらの機能には、緊急メッセージと、メッセージが受信され、読み取られる自信を持って迅速な対応ができるようにします。</span><span class="sxs-lookup"><span data-stu-id="15fee-157">Together, these features allow quicker attention to urgent messages and confidence that the message was received and read.</span></span> <span data-ttu-id="15fee-158">患者ごとにこれらの機能を使用して新しいケアのチームを作成できます。</span><span class="sxs-lookup"><span data-stu-id="15fee-158">New care teams using these features can be created on a per-patient basis.</span></span> <span data-ttu-id="15fee-159">これらの機能は、ポリシー ・ ベースでと、個人またはチーム全体に割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="15fee-159">These features are policy-based, and can be assigned to individuals or entire Teams.</span></span>
+
+<span data-ttu-id="15fee-160">詳細については、[医療機関向けのポリシーをセキュリティで保護されたメッセージングを開始](messaging-policies-hc.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="15fee-160">See [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md) for further details.</span></span>
+
+## <a name="firstline-worker-integration"></a><span data-ttu-id="15fee-161">先頭行の作業者の統合</span><span class="sxs-lookup"><span data-stu-id="15fee-161">Firstline Worker integration</span></span>
+
+<span data-ttu-id="15fee-162">マイクロソフトのチームでは、先頭行の作業者、shift キーのリソースの割り当て機能などを調整するために使用できると統合します。</span><span class="sxs-lookup"><span data-stu-id="15fee-162">Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing features and more.</span></span>
+
+ <span data-ttu-id="15fee-163">以下の資料を参照してください。</span><span class="sxs-lookup"><span data-stu-id="15fee-163">See the following articles:</span></span>
+
+- [<span data-ttu-id="15fee-164">マイクロソフト チームの変化に、マイクロソフトの StaffHub チームを移動します。</span><span class="sxs-lookup"><span data-stu-id="15fee-164">Move your Microsoft StaffHub teams to Shifts in Microsoft Teams</span></span>](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+
+- [<span data-ttu-id="15fee-165">Microsoft Teams で組織のシフト アプリを管理する</span><span class="sxs-lookup"><span data-stu-id="15fee-165">Manage the Shifts app for your organization in Microsoft Teams</span></span>](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
