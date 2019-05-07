@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0252a138fd34e26d6fd2f1237a2fdbfd9b5f5410
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211363"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632267"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
@@ -74,7 +74,7 @@ _図 1 - このガイドで対象となるキーの業務分野_
 
 または、レポート作成機能のみにアクセスできるようにするのには Office 365 のユーザー アカウントに次のロールを割り当てることができます。
 
--   **リーダーの報告:** Office 365 の管理センターの[コンテンツ パックを Office 365 の導入](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)からのレポート、救難のレポートですべての[アクティビティのレポート](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)を表示できます。
+-   **リーダーの報告:** Office 365 の管理センターの[Microsoft 365 採用コンテンツ パック](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)からのレポート、救難レポートでは、すべての[活動レポート](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)を表示できます。
 
 ## <a name="what-is-quality"></a>品質とは何ですか。
 
@@ -823,9 +823,9 @@ _表 6 - アラートの診断_
 
 ### <a name="message-center"></a>メッセージ センター
 
-メッセージ センターでは、新しい更新プログラム、機能、または問題について警告します。 メッセージ センターは、サービス管理者に Office 365 の管理センター内で使用できます。 個々 の投稿では、更新プログラム、機能、または問題が、ユーザーに影響を与えるし、より詳細な情報へのリンクを提供方法の概要を提供します。
+メッセージ センターでは、新しい更新プログラム、機能、または問題について警告します。 メッセージ センターは、サービス管理者が Microsoft 365 管理センター内で使用できます。 個々 の投稿では、更新プログラム、機能、または問題が、ユーザーに影響を与えるし、より詳細な情報へのリンクを提供方法の概要を提供します。
 
-**状態**にメッセージ センターで、Office 365 の管理センターで開くと、 > **メッセージ センター**、または**ホーム**のダッシュ ボードのメッセージ センターのカードを選択します。 ダッシュ ボードには、[メッセージ センター] ページに投稿された最後の 3 つのメッセージとリンクが表示されます。
+**状態**にメッセージ センターでは、Microsoft の 365 の管理センターで開くと、 > **メッセージ センター**、または**ホーム**のダッシュ ボードのメッセージ センターのカードを選択します。 ダッシュ ボードには、[メッセージ センター] ページに投稿された最後の 3 つのメッセージとリンクが表示されます。
  
 
 ![メッセージ センターのカードには、転記された最後の 3 つのメッセージが表示されます。](media/qerguide-image-messagecentercard.png)

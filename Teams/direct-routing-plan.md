@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 3ed03225105e7c265687d6659cb98d162da85f91
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402463"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632211"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -207,6 +207,7 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>メディア トラフィック: ポートの範囲
+場合以下の要件が適用されますメディア バイ パスなしの直接ルーティングを展開する ant です。 メディア バイ パス用のファイアウォールの要件は、[直接ルーティングでのメディア バイ パスの計画](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)を参照してください。
 
 メディア トラフィックは、マイクロソフトのクラウド内の個別のサービスとの間をフローします。 メディア トラフィック用の IP の範囲。
 - 52.112.0.0/14 (IP アドレス 52.112.0.1 から 52.115.255.254 に)。

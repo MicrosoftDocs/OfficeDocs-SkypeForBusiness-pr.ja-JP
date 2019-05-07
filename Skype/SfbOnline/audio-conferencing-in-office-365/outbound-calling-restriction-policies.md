@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理者は、オーディオ会議、エンド ・ ユーザー PSTN の呼び出しのユーザーが可能なタイプを制御できます。
-ms.openlocfilehash: 36f116acb62cd16863cb547a11fe5687457a8a4e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: acd75df192211465071940148e35bc7e269c7976
+ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229789"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33584225"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -39,14 +39,14 @@ ms.locfileid: "32229789"
 |エンド ・ ユーザーの PSTN の呼び出し|呼び出しの種類を制限します。 </br>ユーザーが可能です。|国際および国内 (既定値)</br>国内</br>なし|
 
    > [!NOTE]
-   > 呼び出しは、国内の場合は、開催者の会議 (オーディオ会議) の場合、またはエンド ・ ユーザー (エンド ・ ユーザーの PSTN 通話) の場合に Office 365 に設定されている国の国と同じでは、呼び出し先の電話番号が決定されます。 
+   > 呼び出しは、国内の会議 (オーディオ会議) の場合、またはエンド ・ ユーザー (エンド ・ ユーザーの PSTN 通話) の場合のオーガナイザーの Office 365 設定されている同じ国の場合は、ダイヤルされた番号と見なされます。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>オーディオ会議の発信を制限します。 
 
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
@@ -56,7 +56,7 @@ ms.locfileid: "32229789"
 
 4. **会議からの発信アクセス許可**を [ダイヤルアウトの制限オプションを選択を選択します。
 
-5. **[保存]** をクリックします。 
+5. [**保存**] をクリックします。 
 
 ![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
@@ -68,7 +68,7 @@ ms.locfileid: "32229789"
 
     ![ダイアル アウトのオプションを制限](../images/restrictions-to-dial-outs.png)
 
-5. **[保存]** をクリックします。
+5. [**保存**] をクリックします。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

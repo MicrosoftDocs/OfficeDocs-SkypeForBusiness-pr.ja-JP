@@ -3,7 +3,7 @@ title: Microsoft Teams の発信通話制限ポリシー
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/15/2019
+ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,15 +17,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e56f0c89859b940a82e76f8de35ff524a757ec9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225001"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632370"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams の発信通話制限ポリシー
-==========================================
+===================================
 
 マイクロソフト チーム、ポリシー制御、通話の呼び出しと呼び出しの転送機能ユーザーが利用できます。 通話ポリシー呼び出しの転送を使用して、または同時に他のユーザーまたは外部の電話番号が鳴ってボイスメール、電話のグループでは、送信呼び出しに呼び出しをルートを使用して着信および発信呼び出しのための委任のユーザーは、秘密の呼び出しを行うことができます、かどうかを判断していうようにします。 既定のグローバル ポリシーは自動的に作成されますが、管理者の作成し呼び出し元のユーザー設定のポリシーを割り当てることができますもします。
 
@@ -97,5 +97,8 @@ ms.locfileid: "32225001"
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>取り込みに時間が通話中に利用可能です
 
-(使用中のオプション) 取り込み中にビジー状態) は、保留中のユーザーが通話や会議であるかの呼び出しには、着信呼び出しを構成するのには、呼び出し元のポリシーが処理されるチームの新しい設定を配置します。 ビジー信号を新規または着信呼び出しを拒否できます。 テナント レベルまたはユーザー レベルでの使用中のオプションを有効にすることができます。 使用中のオプションの構成方法に関係なく電話会議、または保留中の呼び出しを持つユーザーは禁止されません新しい通話や会議を開始します。 この設定は既定で無効になります。
+(使用中のオプション) 取り込み中にビジー状態) は、保留中のユーザーが通話や会議であるかの呼び出しには、着信呼び出しを構成することができます呼び出し元のポリシーが処理されるチームの新しい設定を配置します。 ビジー信号を新規または着信呼び出しを拒否できます。 テナント レベルまたはユーザー レベルでの使用中のオプションを有効にすることができます。 使用中のオプションの構成方法に関係なく電話会議、または保留中の呼び出しを持つユーザーは禁止されません新しい通話や会議を開始します。 この設定は既定で無効になります。
 
+## <a name="see-also"></a>関連項目
+
+[セット CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)

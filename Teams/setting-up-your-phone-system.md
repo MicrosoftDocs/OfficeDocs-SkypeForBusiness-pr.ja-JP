@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '組織の電話システム (PBX をクラウド) を設定する方法について説明します。 '
-ms.openlocfilehash: 7a180817fb4a3885748a5ca80c494ef1b69143a4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d37771863ae2146567e338fa7ee2395e452561d5
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205545"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632259"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 
@@ -58,9 +58,9 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
  
 ![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場、学校のアカウントを使用して Microsoft 365 にサインインします。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. **Microsoft 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
 3. 左側のナビゲーションでは、**音声**に移動 > **電話番号**、**新しい番号を追加**をクリックして![[追加] ボタン](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)、し、**新しいユーザーの番号**をクリックします。
     
@@ -87,7 +87,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. **Microsoft 365 管理センター**を参照して > **ビジネス用の Skype**です。
 
 3. 左側のナビゲーションでは、**音声**に移動 > **電話番号** > **新しい番号を追加**し、**新しいサービスの番号**をクリックします。
 
@@ -232,11 +232,11 @@ Auto attendants let people that call in to your organization and navigate a menu
 
 Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
 
-- 電話会議用に専用番号を会議用ブリッジに割り当てることができます。それには、 **Office 365 の管理センター** > **管理センター** > **Skype for Business** > **電話会議** に進み、会議ブリッジをクリックするか、 [電話会議ブリッジ上の有料・無料番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md) を参照してください。
+- オーディオ会議では、割り当てることができます専用番号会議用ブリッジを**Microsoft 365 管理センター**に移動して > **管理センター** > **ビジネス用の Skype** > **電話会議**をクリックして、会議ブリッジまたは[有料または、オーディオ会議ブリッジ上のフリー ダイヤル番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)を参照しています。
 
-- 自動応答では、自動アテンダントに専用番号を割り当てることができます。それには、  **Office 365 の管理センター** > **管理センター** > **Skype for Business** > **通話ルーティング** > **自動応答** に進み、自動応答 をクリックします。 既存のサービス番号は、 **全般** ページの **電話番号** ドロップダウンのリストに表示されます。 詳細については、[クラウドの自動応答の設定](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)を参照してください。
+- 自動応答を割り当てることができます専用番号自動アテンダントを**Microsoft 365 管理センター**に移動して > **管理センター** > **ビジネス用の Skype** > **呼のルーティング** > **自動応答**[自動応答] をクリックします。 既存のサービス番号は、 **全般** ページの **電話番号** ドロップダウンのリストに表示されます。 詳細については、[クラウドの自動応答の設定](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)を参照してください。
 
-- 通話キューでは、通話キューに専用番号を割り当てることができます。それには、  **Office 365 の管理センター** > **管理センター** > **Skype for Business** > **通話ルーティング** > **通話キュー** と進み、「通話キュー」をクリックします。 既存のサービス番号は、 **全般** ページの **電話番号** ドロップダウンのリストに表示されます。 詳細については、[クラウドの呼び出しキューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)を参照してください。
+- キューの呼び出しに割り当てることができます専用番号呼び出しキューに**Microsoft 365 管理センター**に移動して > **管理センター** > **ビジネス用の Skype** > **呼のルーティング** > **キューを呼び出す**と] をクリックします呼び出しキューです。 既存のサービス番号は、 **全般** ページの **電話番号** ドロップダウンのリストに表示されます。 詳細については、[クラウドの呼び出しキューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)を参照してください。
 
 **新しいサービス番号を取得し、既存のサービス番号を転送する方法の詳細については、 [サービスの電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)  を参照してください。**
 
@@ -249,7 +249,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 ### <a name="to-set-up-communications-credits"></a>通信のクレジットを設定するには
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場、学校のアカウントを使用して Microsoft 365 にサインインします。
 
 2. Office 365 管理ページ左側のナビゲーションで  **請求** > **サブスクリプション** > **アドオン** > **アドオンの購入** に進み、 **コミュニケーションクレジット** > **今すぐ購入** を選択してください。
 
@@ -265,7 +265,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. Office 365 管理ページの左側のナビゲーションで、 **ユーザー** > **アクティブなユーザー** に進み、そのリストから一人、または複数のユーザーを選択します。
+2. Microsoft 365 の管理ページの左側のナビゲーションでは、**ユーザー**に移動 > **アクティブなユーザー**のリストからユーザーまたはユーザーを選択します。
 
 3. 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 8fa06f22d1fb31f592f520ba3b1d17c8fcaf0ccb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d4bf99cc42fa415eb5e46962afe1769f1a439696
+ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211770"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33584316"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -59,20 +59,20 @@ ms.locfileid: "32211770"
 Skype for Business で無料電話番号を使用する場合は、通話が分単位で請求されるため、コミュニケーション クレジットを設定する必要があります。また、 **PSTN 発信先** にダイヤルアウトする機能が必要な 通話プラン/電話会議ユーザー向けにコミュニケーション クレジットを設定することをお勧めします。ご利用の通話プランまたは電話会議のサブスクリプションでは、多くの国や地域が含まれていますが、一部の発信先が含まれていない可能性があります。コミュニケーション クレジットを設定しない場合や、ユーザーにライセンスを割り当てない場合に (通話プラン、電話会議プラン、または国/地域に基づき) 組織の通話分数が不足すると、これらのユーザーは通話を発信することや、オンラインの電話会議からダイヤルアウトすることができなくなります。
   
 > [!NOTE]
-> You must set up Communications Credits and then assign a Communications Credits license for each user in the **Office 365 admin center** > **Users** > **Active Users**. 
+> 通信のクレジットを設定し、 **Microsoft 365 管理センター**内の各ユーザーの通信のクレジットのライセンスを割り当てる必要があります > **ユーザー** > **アクティブなユーザー**です。 
   
 コミュニケーション クレジットの最適な設定を把握するために、組織の PSTN サービスの利用状況を注意深く評価することをお勧めします。 [電話システムを呼び出すことを計画](calling-plan-landing-page.md)し、[オーディオ会議のよく寄せられる質問](Audio-Conferencing-common-questions.md)を参照して、PSTN サービスの詳細を表示できます。
   
 追加機能プラン請求は、前払い残高の **一度払い** **を使用するか、** **自動リチャージ** 額 ( **推奨** ) を設定することで設定できます。後者の場合、リチャージ分を購入するタイミングを決める最低残高を指定できます。最初は、自動リチャージ額の設定をお勧めします。そうすると、実際の通話量を監視してニーズや使用パターンに合った自動リチャージの限度額を知ることができます。コミュニケーション クレジットは、ある程度の期間をかけて測定し、それぞれの組織のニーズに応じて最低残高やリチャージ額を調整する必要があります。
   
 > [!NOTE]
-> You can see the plans and pricing by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**. 
+> できます、計画と[Microsoft 365 の管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して価格と**請求**しようとしていますを参照してください > **購読** > **サブスクリプションを追加**します。 
   
-In the **Office 365 admin center** > **Billing** > **Subscriptions**, you can add credit manually at any time. You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
+**Microsoft 365 管理センター**の > **請求** > **サブスクリプション**では、することができますクレジットを手動で追加はいつでもできます。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
-Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. For organizations using Skype for Business already as their service provider, you can get usage data by reviewing it in either **Office 365 admin center** > **Reports** or **Skype for Business admin center** > **Reports** > **PSTN usage details**.
+Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. 組織でのビジネスのサービス ・ プロバイダーとして既に Skype を使用して、いずれかの**Microsoft 365 管理センター**で確認することで利用状況データを取得できます > **レポート**や**ビジネス管理センターの Skype** > **レポート**  >  **PSTN 使用法の詳細**です。
   
 コミュニケーション クレジットを設定する場合は、組織の通話の利用状況を調べて、入力する必要のある料金を決める必要があります。通話の利用状況の情報は、[ **PSTN 利用状況の詳細**] レポートで確認できます。このレポートを使うと、カスタム レポートを作成したり、通話データ記録を Excel にエクスポートしたりすることができます。
   
@@ -92,7 +92,7 @@ Each organization will have a different usage of Calling Plans volume and rates 
     
 - [電話システム](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-You can also see information about pricing by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
+[Microsoft 365 の管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して価格と**請求**しようとしてに関する情報を表示することも > **のサブスクリプション** > **サブスクリプションを追加**します。
   
 ライセンスまたはライセンスの機能ごとにする必要があるテーブルを表示するには、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
   

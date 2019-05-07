@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: HT
+ms.openlocfilehash: 85678529f25e46b7c75c08976d86870fc4566694
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884056"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632315"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -114,7 +114,7 @@ Office 365 のセキュリティとコンプライアンスに関する詳細に
 |![判断ポイント アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |判断ポイント         |お客様の組織はセキュリティとコンプライアンスのビジネス要件を満たすために必要なライセンスを所有していますか?         |
 |![次のステップ アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |次のステップ         |所属する組織の現在のライセンスを調べて、コンプライアンスとセキュリティのすべてのビジネス要件を満たしていることを確認します。         |
 
-これらの機能を有効にする前に、Office 365 管理センターのセキュリティ/コンプライアンス センターにアクセスできることを確認します。 既定では、テナントの管理者がアクセス権を持っています。
+これらの機能を有効にする前に Microsoft 365 管理センターのセキュリティ & コンプライアンス センターへのアクセスがあることを確認します。 既定では、テナントの管理者がアクセス権を持っています。
 
 コンテンツ検索と電子情報開示については、セキュリティ & コンプライアンス センター内で有効にする操作は不要です。
 
@@ -132,7 +132,7 @@ Teams でのカナダにおけるデータ常駐の詳細については、Varun
 
 Teams のオーストラリアと日本におけるデータ常駐開始の詳細については、Varun Sagar (バルン・サガール) 氏のブログ投稿記事「[Microsoft Teams Launches Australia and Japan Data Residency (Microsoft Teams がオーストラリアと日本のデータ常駐を開始)](https://go.microsoft.com/fwlink/?linkid=867773)」をご覧ください。 
 
-どの地域でご利用のテナントのデータが格納されるかを確認するには、[[Office 365 管理センター](https://portal.office.com/adminportal/home)]  >  [**設定**]  >  [**組織概要**] に移動してください。 下にスクロールして [**データの場所**] に移動します。 
+[Microsoft 365 管理センター](https://portal.office.com/adminportal/home)にはどの地域、テナントのデータを格納するを表示するには、 > **の設定** > **組織プロファイル**です。 下にスクロールして [**データの場所**] に移動します。 
 
 ![Office 365 管理センターの、Teams を含む、[データの場所] の表を示すスクリーンショット。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

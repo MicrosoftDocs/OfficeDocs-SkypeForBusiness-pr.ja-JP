@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ロビー、受付、および会議室の共通領域電話を設定する方法を学習します。 '
-ms.openlocfilehash: 74806d3dfc66c27c144d6c3a4e1ddd5c6c7e7c60
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204867"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632378"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 
@@ -38,7 +38,7 @@ ms.locfileid: "32204867"
 
 ## <a name="step-1---buy-the-licenses"></a>手順 1  - ライセンスを購入する
 
-1. Office 365 管理センターでは、**請求先**に移動 > **購買サービス**し、**他の計画**を展開します。
+1. Microsoft 365 管理センターでは、**請求先**に移動 > **購買サービス**し、**他の計画**を展開します。
 
     ![共通領域電話を示すスクリーン ショットを並べて表示します。](media/set-up-common-area-phone-image1.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "32204867"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>手順 2  - 電話機の新しいユーザアカウントを作成し、ライセンスを割り当てます
 
-1. **ユーザー**には、Office 365 管理センターで、 > **アクティブなユーザー** > **ユーザーを追加**します。
+1. Microsoft 365 管理センターでは、**ユーザー**に移動 > **アクティブなユーザー** > **ユーザーを追加**します。
 
 2. ユーザー名"Main"のように [名] および [受信] の 2 番目の名前を入力します。
 

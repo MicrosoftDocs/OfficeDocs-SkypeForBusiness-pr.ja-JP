@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e759fe9981728c97914c271dba69bfca6aebdd2b
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204716"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632251"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -58,7 +58,7 @@ ms.locfileid: "32204716"
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Office 365 の管理ページの左側のナビゲーションでは、**請求**に移動 > **購読** > **サブスクリプションを追加**します。
+2. Microsoft 365 の管理ページの左側のナビゲーションで**課金**に移動 > **サブスクリプション** > **サブスクリプションを追加**します。
 
 3. **アドオンのサブスクリプション**を展開し、**通信のクレジット**を選択し、 > **今すぐ購入**します。
     
@@ -91,7 +91,7 @@ Each organization will have a different usage of Calling Plan volume and rates t
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Office 365 管理ページの左側のナビゲーションで、 **ユーザー** > **アクティブなユーザー** に進み、そのリストから一人、または複数のユーザーを選択します。
+2. Microsoft 365 の管理ページの左側のナビゲーションでは、**ユーザー**に移動 > **アクティブなユーザー**のリストからユーザーまたはユーザーを選択します。
     
 3. 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。
     
@@ -110,7 +110,7 @@ Each organization will have a different usage of Calling Plan volume and rates t
     
 - [電話システム プラン](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
+[Microsoft 365 の管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)しても情報を確認でき、**課金**しようとしています。 > **サブスクリプション** > **追加のサブスクリプション**。
   
 ライセンスまたはライセンスの機能ごとにする必要があるテーブルを表示するには、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
   

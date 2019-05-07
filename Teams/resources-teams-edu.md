@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5737d7d93a3ae9c28bed70d18e726ac68c43a8ef
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 65b8a2e29a2de9a659ba81650efa738449e7b2ac
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206675"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632243"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向けの Microsoft Teams のリソース
 ==============================================
@@ -48,7 +48,7 @@ ms.locfileid: "32206675"
 ## <a name="call-to-action"></a>アクション ・ プランします。
 
 - 実践的な「[Microsoft Teams Interactive Demo (Microsoft Teams のインタラクティブなデモ)](https://teamsdemo.office.com/)」を確認する (所要時間 5 分)
-- [Office 365 管理センター](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)で Microsoft Teams をオンにする (Office 365 管理者でサインインする)
+- [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (Office 365 管理者の記号) で、マイクロソフトのチームを有効にします。
 - Teams クライアントをダウンロードする: [すべてのデバイスで Teams をオンにする](https://teams.microsoft.com/downloads)
 - [Education ヘルプ センター](https://support.office.com/education)で Office 365 for Education について学ぶ
 
