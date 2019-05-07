@@ -14,12 +14,12 @@ description: どのようにビデオ、およびマイクロソフトのチー�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c2564cc3da4f9df551ee9c9e5155a4cb81e4a37
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 01dfa91c13625e1f1f18fdce5840cf6ba2baeb79
+ms.sourcegitcommit: 47e5f6a0440f646d67bc3ca7c232df9558f78040
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204698"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33641494"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -36,6 +36,9 @@ Microsoft 365 のライブ イベントは、接続全体の契約のライフ �
 では、本題に入りましょう。 最初に、Microsoft 365 のライブ イベントとの接続方法に関連する高レベルのコンポーネントを示しています次の図を見てみましょう。 
 
 ![ライブ イベントは、の主要なコンポーネントを示す図、マイクロソフトのストリームの生産のスケジューリング プラットフォームでは、認定 eCDN のサード パーティ プロバイダー](../media/teams-live-events.png  "ライブ イベントは、の主要なコンポーネントを示す図、マイクロソフトのストリームの生産のスケジューリング プラットフォームでは、認定 eCDN のサード パーティ プロバイダー")
+
+### <a name="event-group-roles"></a>イベント グループの役割
+チームでのライブ イベントでは、複数の役割 (開催者、プロデューサー、プレゼンター、および出席者) を正常にブロードキャストし、イベントに参加を支援します。 詳細については、[イベント グループのロール](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)を参照してください。
 
 ## <a name="key-components"></a>主要なコンポーネント
 チームでのライブ イベントで使用される 4 つの主要コンポーネントが、上記の図からわかるようにがあります。
