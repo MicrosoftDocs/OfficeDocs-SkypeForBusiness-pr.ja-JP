@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: マイクロソフトのチーム内のリソース アカウントの管理についてください。
-ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dea4a154e25c719ddabc572ba26ddb7d25c43d71
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203302"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835419"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -44,7 +44,7 @@ ms.locfileid: "32203302"
 - のみ、電話番号が割り当てられているリソース アカウントのライセンスを取得する必要があります。 入れ子になった自動アテンダントまたは呼び出しキューでは自動応答の残りの部分にライセンスを取得またはそれに関連付けられた電話番号がない場合は、キューを呼び出す必要はありません。
 
 > [!NOTE] 
-> 直接ルーティング サービス番号の自動アテンダントと時点でのみマイクロソフトのチームのユーザーとエージェントのキューの呼び出しがサポートされています。
+> 自動アテンダントおよび呼び出しキューの直接のルーティング サービスの番号は、マイクロソフトのチームのユーザーとエージェントだけでサポートされてです。
 
 > [!NOTE] 
 > マイクロソフトは、ユーザー数ライセンス モデルを使用する必要がありますのクラウドの自動応答、通話キューなどのアプリケーションの適切なライセンス ・ モデルの中です。
@@ -77,7 +77,7 @@ ms.locfileid: "32203302"
 
 次に、する必要があります、リソース アカウントにライセンスを適用する[ビジネス向けの Office 365 のユーザーにライセンスを割り当てる](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)で説明するよう
 
-![番号の 3](media/sfbcallout3.png)リソース アカウントを作成したら、ライセンスが割り当てられているをクリックすると、リソース アカウントに電話番号を割り当てるには、**割り当て/割り当て解除**または割り当てリソースのアカウントの自動応答をまたは呼び出しキューが既に存在します。 場合、呼び出しキューまたは自動アテンダントを作成する必要がある、それを作成するときにリソース アカウントをリンクすることができます。 終わったら、[**保存**] をクリックします。
+![番号の 3](media/sfbcallout3.png) 、リソース アカウントを作成すると、ライセンスが割り当てられているアカウントに割り当てるサービス番号を呼び出すことを計画、リソース、**割り当て/割り当て解除**をクリックしてしたり、自動アテンダントまたは呼び出しキューにリソース アカウントを割り当てる既に存在します。 直接ルーティング番号を割り当てることを実行するコマンドレットを使用するだけです。 場合、呼び出しキューまたは自動アテンダントを作成する必要がある、それを作成するときにリソース アカウントをリンクすることができます。 終わったら、[**保存**] をクリックします。
 
 ![リソース アカウントを割り当てる](media/r-a-assign.png)
 
@@ -106,7 +106,7 @@ ms.locfileid: "32203302"
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
 ```
 
-2. ライセンスを適用するまで、リソース アカウントを使用することはできません。 O365 管理センターのアカウントにライセンスを適用するには、[企業向け Office 365 のユーザーに割り当てるライセンス] を参照してください方法については (https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user [ビジネス ライセンスの Skype を割り当てる](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)とします。
+2. ライセンスを適用するまで、リソース アカウントを使用することはできません。 方法については O365 管理センターのアカウントにライセンスを適用するには、[ビジネス向けの Office 365 のユーザーにライセンスを割り当てる](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user)と、[ビジネス ライセンスの割り当ての Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)を参照してください。
 
 3. (省略可能)リソース アカウントに適切なライセンスが適用されるとは、次のように、リソース アカウントに電話番号を設定できます。 すべてのリソース アカウントには、電話番号が必要となります。 リソース アカウントにライセンスを適用しなかった場合は、電話番号の割り当ては失敗します。
 
@@ -130,6 +130,17 @@ Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 - アカウントに割り当てられた電話番号
 
 終了したら、**保存**をクリックします。
+
+## <a name="delete-a-resource-account"></a>リソース アカウントを削除します。
+
+保留中のモードでスタックしている、サービス番号が表示されないようにするのには、それを削除する前にリソース アカウントの電話番号の関連付けを解除することを確認します。 次の内線番号を使用することを行うことができます。 
+
+``` Powershell
+Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -TelephoneNumber $null
+```
+                
+その後は、O365 の管理者用ポータルの [ユーザー] タブから、リソース アカウントを削除できます。
+
 
 ## <a name="related-information"></a>関連情報
 

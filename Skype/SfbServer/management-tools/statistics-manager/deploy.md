@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: このトピックでは、Skype for Business Server の統計情報マネージャーを展開する方法について説明します。'
-ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: HT
+ms.openlocfilehash: c70bb596914142fb03e87ccd7e2f1df606aac31f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898259"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864905"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの展開
  
@@ -118,7 +118,7 @@ StatsManPerfAgentListener.msi を実行し、以下を指定することによ�
     
    - 正常性チェックのページが表示される場合は、リスナーのインストールは正常に完了しています。
     
-   - KnownServersCount が 1 以上である場合は、Redis への接続が確立されます。
+   - KnownServerCount が 1 以上の場合は、Redis への接続が確立されます。
     
    - 数秒間経過してから、および少なくとも 1 つのエージェントがインストールされてから、ValuesWritten カウンターの数値が増えていることを確認します。
     

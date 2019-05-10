@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 会議の移行サービス (MMS) は、バック グラウンドで実行され、ユーザーのビジネスおよびマイクロソフトのチームの会議に Skype が自動的に更新するサービスです。 MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 会議の移行サービス (MMS) は、バック グラウンドで実行され、ユーザーのビジネスおよびマイクロソフトのチームの会議に Skype が自動的に更新するサービスです。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
+ms.openlocfilehash: 9a133cb2a91e50ad21b263009f8f2c64cd3d8ccb
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229243"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835121"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>会議の移行サービス (MMS) を使用してください。
 
@@ -34,14 +34,12 @@ ms.locfileid: "32229243"
 
 - ユーザーを移行するとき、オンプレミス (Skype のビジネスをオンラインにするか TeamsOnly) クラウドに移行します。
 - 管理者がユーザーの電話会議の設定に変更を行う場合 
-- チームのみ、または TeamsUpgradePolicy で、ユーザーのモードは SfBwithTeamsCollabAndMeetings (タップのお客様のみ) に設定されている場合に、オンラインのユーザーをアップグレードするとき
+- チームのみ、または TeamsUpgradePolicy で、ユーザーのモードが SfBwithTeamsCollabAndMeetings に設定されている場合に、オンラインのユーザーをアップグレードするとき
 - PowerShell を使用する場合 
 
 
 既定では、MMS 自動的にトリガーのような場合、管理者が無効にする、テナントのレベルがされます。 さらに、管理者は、手動で特定のユーザーの会議の移行を開始するのに PowerShell コマンドレットを使用することができます。
 
-> [!NOTE]
-> チームの会議に会議の Skype を変換する機能と電話会議の設定を変更するのには既存のチーム ミーティングを更新する機能は、タップのお客様のみに制限されて。 マイクロソフトでは、月 2019年のいずれかの時点にこの機能をすべてのお客様に利用できるようにするのには期待しています。
 
 **制限**: 会議次のいずれかの場合、移行サービスを使用できません。
 
@@ -78,20 +76,18 @@ MMS がトリガーされた場合、通常かかるユーザーの会議は、�
 
 - クラウドへの設置からユーザーが移行されるとき
 - 管理者がユーザーの電話会議の設定に変更を行う場合 
-- TeamsUpgradePolicy でユーザーのモードが TeamsOnly または SfBWithTeamsCollabAndMeetings (タップのお客様のみ) のいずれかに設定されている場合
-- PowerShell を使用する場合 
+- TeamsUpgradePolicy でユーザーのモードが TeamsOnly または SfBWithTeamsCollabAndMeetings を使用して Powershell またはチームの管理者用ポータルのいずれか) のいずれかに設定されている場合
+- 開始 CsExMeetingMigration、PowerShell コマンドレットを使用する場合
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>オンプレミスのユーザーをクラウドに移行するときに、会議を更新
 
 これは、MMS により、ユーザーのスムーズなトランジションを作成する最も一般的なシナリオです。 会議の移行せずユーザーがオンラインに移動すると Skype のビジネス サーバー設置型のユーザーが既存のミーティングは動作しなく。 したがって、設置型の管理ツールを使用する (か、`Move-CsUser`またはコントロール パネルの [管理者) ユーザーをクラウドに移動するに既存の会議は自動的に移動、クラウドに次のように。
 
-- 場合、`MoveToTeams`でスイッチを`Move-CsUser`が指定されている会議は、チームに直接移行できます。 このスイッチを使用するには、CU8 を持つサーバーをビジネスの Skype が必要です。
+- 場合、`MoveToTeams`でスイッチを`Move-CsUser`が指定されている会議は、チームに直接移行し、TeamsOnly モードでユーザーになります。 このスイッチを使用するには、CU8 を持つサーバーをビジネスの Skype が必要です。 これらのユーザーがいる可能性がありますに招待、ビジネス クライアント用の Skype または Skype 会議アプリケーションを使用してビジネス会議のため、Skype 参加できます。
 - それ以外の場合の会議は、ビジネス オンラインの Skype に移行されます。
 
 どちらの場合も、[ユーザー割り当てられている場合、オーディオ会議のライセンスをクラウドに移動する前に、会議は、ダイヤルインの座標を使用して作成されます。 オンプレミスからクラウドに移行するユーザーを移動すると、そのユーザーの音声会議を使用する、1 つだけの会議の移行をトリガーするためにユーザーを移動する前にまず、オーディオ会議を割り当てることをお勧めします。
 
-> [!NOTE]
-> 現在の会議を MoveToTeams スイッチを使用してチームに直接移行することは、タップでできるだけです。 タップのお客様が、MoveToTeams スイッチを指定する場合は、ユーザーは、TeamsOnly モードに移動されますが、会議は、ビジネス オンラインの Skype に移動されます。 場合でも、ユーザーは、TeamsOnly モードに参加できますビジネス会議のため、Skype。
 
 ### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>ユーザーの電話会議の設定が変更されるときの会議の更新
 
@@ -112,23 +108,28 @@ MMS では以下の場合では、ビジネスおよびマイクロソフトの�
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>TeamsUpgradePolicy を割り当てる場合は、会議を更新
 
-> [!NOTE]
-> だけがタップの顧客に利用できる現在の機能について説明します。 マイクロソフトでは、月 2019年のいずれかの時点にこの機能をすべてのお客様に利用できるようにするのには期待しています。
-
-既定では、会議の移行は、自動的に起動のインスタンスがユーザーに付与されると`TeamsUpgradePolicy`と`mode=TeamsOnly`または`mode= SfBWithTeamsCollabAndMeetings`。 これらのモードのいずれかを付与する場合は、会議を移行し、指定しない場合は、`MigrateMeetingsToTeams $false`の`Grant-CsTeamsUpgradePolicy`。
+既定では、会議の移行が自動的にトリガーのインスタンスがユーザーに付与されると`TeamsUpgradePolicy`と`mode=TeamsOnly`または`mode= SfBWithTeamsCollabAndMeetings`。 これらのモードのいずれかを付与する場合は、会議を移行し、指定しない場合は、`MigrateMeetingsToTeams $false`の`Grant-CsTeamsUpgradePolicy`(PowerShell を使用する) 場合 (チームの管理ポータルを使用する) 場合は、ユーザーの共存モードを設定するときに、会議を移行する] ボックスをオフにしますか。
 
 また、次の点を注意してください。
 
-- 会議の移行のみ呼び出されるを与えるときに`TeamsUpgradePolicy`の特定のユーザーです。 付与する場合は`TeamsUpgradePolicy`と`mode=TeamsOnly`または`mode=SfBWithTeamsCollabAndMeetings`テナント単位で会議の移行は呼び出されません。
+- 会議の移行のみ呼び出されるを与えるときに`TeamsUpgradePolicy`の特定のユーザーです。 付与する場合は`TeamsUpgradePolicy`と`mode=TeamsOnly`または`mode=SfBWithTeamsCollabAndMeetings`*テナント*単位で会議の移行は呼び出されません。
 - ユーザーことができますだけに付与する TeamsOnly モードの場合は、ユーザーのオンライン ホームします。 使用してホーム設置型ではユーザーを移動する必要があります`Move-CsUser`、上記のとおりです。
 - TeamsOnly または SfBWithTeamsCollabAndMeetings 以外のモードを許可する変換されません既存のチーム ミーティング Skype をビジネス ・ ミーティングの。
 
-### <a name="trigger-meeting-migration-manually-via-powershell"></a>PowerShell を使用して手動でトリガー会議の移行
+### <a name="trigger-meeting-migration-manually-via-powershell-cmdlet"></a>PowerShell コマンドレットを使用して手動でトリガー会議の移行
 
-会議予定の自動移行の場合、だけでなく管理者手動でトリガーできますユーザーの会議の移行コマンドレットを実行して`Start-CsExMeetingMigration`。 このコマンドレットは、指定したユーザーの移行要求をキューします。 新しい`TargetMeetingType`は技術導入プログラムの参加者に制限されて) パラメーターを使用すると、会議を移行する方法を指定します。 
+会議予定の自動移行の場合、だけでなく管理者手動でトリガーできますユーザーの会議の移行コマンドレットを実行して`Start-CsExMeetingMigration`。 このコマンドレットは、指定したユーザーの移行要求をキューします。  必要なだけでなく`Identity`パラメーター、2 つの省略可能なパラメーターには、`SourceMeetingType`と`TargetMeetingType`、会議を移行する方法を指定できます。
 
-- 使用して`TargetMeetingType Current`、ビジネス会議のための Skype は、ビジネス ・ ミーティングの Skype を維持され、チームの会議のチーム会議を維持するを指定します。 ただしオーディオ会議の調整を変更する可能性があり、ビジネス会議のため、設置型の Skype は、ビジネス オンラインの Skype に移行するとします。
+**TargetMeetingType。**
+
+- 使用して`TargetMeetingType Current`、ビジネス会議のための Skype は、ビジネス ・ ミーティングの Skype を維持され、チームの会議のチーム会議を維持するを指定します。 ただしオーディオ会議の調整を変更する可能性があり、ビジネス会議のため、設置型の Skype は、ビジネス オンラインの Skype に移行するとします。 これは、TargetMeetingType の既定値です。
 - 使用して`TargetMeetingType Teams`のチームに、既存の会議を移行する必要がある、オンライン ビジネスの設置、Skype で会議がホストされるかどうかに関係なくとかどうかに関係なく、オーディオ会議の更新プログラムは、必要を指定します。 
+
+**SourceMeetingType。**
+- 使用して`SourceMeetingType SfB`を示しますその唯一の Skype ビジネス会議の (かどうか、オンプレミスまたはオンライン) 更新する必要があります。
+- 使用して`SourceMeetingType Teams`チームの会議のみを更新することを示します。
+- 使用して`SourceMeetingType All`ビジネス会議やチームの会議のための両方の Skyep を更新する必要があることを示します。 これは、SourceMeetingType の既定値です。
+    
 
 次の例は、すべての会議は、チームに移行できるように、ユーザーの ashaw@contoso.com の会議の移行を開始する方法を示しています。
 
@@ -136,8 +137,6 @@ MMS では以下の場合では、ビジネスおよびマイクロソフトの�
 Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 ```
 
-> [!NOTE]
-> 開始 CsExMeetingMigration コマンドレットは、すべての顧客に利用可能ですが、新しい TargetMeetingTypeParameter 現在のみタップの顧客の機能です。 
 
 
 ## <a name="managing-mms"></a>MMS の管理

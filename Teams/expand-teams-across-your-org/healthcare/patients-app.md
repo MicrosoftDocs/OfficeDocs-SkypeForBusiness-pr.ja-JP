@@ -13,20 +13,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: チーム患者の Microsoft アプリケーションの EHR の統合
-ms.openlocfilehash: 25eb1b4ee09eec8395db2ac821d19624a508c937
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: f157061666dc72a8420b9b9331387b42d6918cea
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33643124"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865039"
 ---
-# <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>マイクロソフトのチームに電子医療記録を統合します。
+# <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>電子医療記録を Microsoft Teams に統合する
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+
+プライベート プレビューに参加するには、[プライベートのプレビューでの登録](#enroll-in-the-private-preview)を参照してください。
 
 この資料は、一般的な医療情報の IT 開発者がマイクロソフトのチームに接続するための医療情報システムの上に FHIR Api を使用する必要です。 これは、結果、医療機関のニーズに合ったケア調整シナリオです。
 
-この資料には、FHIR インタ フェースの仕様チーム患者の Microsoft アプリケーションと FHIR サーバーをセットアップして、開発の environment\tenant の患者のアプリケーションへの接続に必要な知識がドキュメント。 必要を理解するを選択したら、FHIR のサーバのマニュアル、サポートされているオプションのいずれかでなければなりません。
+リンク先の記事がチーム患者の Microsoft アプリケーションでは、FHIR インターフェイスの仕様を文書化し、次のセクションでは、FHIR サーバーをセットアップして、開発環境またはテナントで患者のアプリケーションへの接続に必要なものについて説明します。 必要を理解するを選択したら、FHIR のサーバのマニュアル、サポートされているオプションのいずれかでなければなりません。
 - を通じて自社の[CMI](https://datica.com/compliant-managed-integration/)製品) Datica
 - 情報のクローバー型インターチェンジを[避けます FHIR ブリッジ](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
 - Redox (を通じて、 [R ^ FHIR server](https://www.redoxengine.com/fhir/))
@@ -73,12 +75,13 @@ ms.locfileid: "33643124"
 
 アクセス トークンの要求は、次のパラメーターで構成されます。
 
-    POST /token HTTP/1.1
-    Host: authorization-server.com
+* * *
 
-    grant-type=client_credentials
-    &client_id=xxxxxxxxxx
-    &client_secret=xxxxxxxxxx
+    投稿/token/で HTTP 1.1 ホスト: 承認 server.com
+
+    交付タイプ = client_credentials &client_id = xxxxxxxxxx &client_secret = xxxxxxxxxx
+
+* * *
 
 パートナー サービスは、患者のアプリケーション、パートナーの側での認証登録ポータルを介して管理の client_id と client_secret を提供します。 パートナー サービスは、クライアント資格情報のフローを使用して要求のアクセス トークンにエンドポイントを提供します。 正常な応答は、token_type、access_token および expires_in パラメーターを含める必要があります。
 
@@ -135,12 +138,12 @@ FHIR にマイクロソフト チームの EHR の統合インターフェイス
 FHIR サーバーのソースを開く、作成した後は、以下に説明する手順を実行して、テナント内の患者のアプリケーションに接続するのには実に簡単です。
 
 1. 次の最初の詳細の[お問い合わせ](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview):  
-    - お名前 * 
-    - 自分の位置 
+    - お名前 *
+    - 位置
     - 会社または組織を表す
-    - EHR の統合のための患者のアプリに興味のある理由です。 
+    - EHR の統合のための患者のアプリに興味のある理由
 
-    戻るをできるだけ早くその他の質問で、プライベート プレビューの設定を取得するプロセスについて説明しては。
+    戻るをできるだけ早くその他の質問で、プライベート プレビュー設定を取得するプロセスについて説明しては。
 
 2. カスタムを sideloading ことを確認どこに患者のアプリを試すテナントでアプリケーションを有効にします。 [アプリケーションのアクセス許可ポリシー](../../admin-settings.md)を有効にするチームの管理センターから、または、お客様のテナントの方法についてを参照してください。
 

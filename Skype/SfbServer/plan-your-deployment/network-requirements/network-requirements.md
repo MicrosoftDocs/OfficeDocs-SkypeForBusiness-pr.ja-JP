@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '概要: は、Skype をビジネスのサーバーを実装する前に以下のコンポーネントのネットワークの考慮事項を確認します。'
-ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 631de0031a027ab8364f987f20b7e10e3f2e47f0
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206262"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33834974"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -128,6 +128,9 @@ Network performance and needs are directly linked to the traffic load placed on 
 |SILK (広帯域)  <br/> |ピアツーピア  <br/> |26.0  <br/> |42.0  <br/> |54.0  <br/> |80.0  <br/> |
 |SILK (広帯域)  <br/> |ピアツーピア  <br/> |20.0  <br/> |36.0  <br/> |48.0  <br/> |68.0  <br/> |
 |広帯域ナローバンド/絹  <br/> |ピアツーピア  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
+
+> [!NOTE]
+> ビジネス クライアント用の Skype から PSTN の呼び出しは、通常 G.711 codec は、高帯域幅を必要とするを使用します。 十分な帯域幅は、そのコーデックの場合、呼び出しは、メディア ログに次のようなエラーで失敗ことができます: **1 つのコーデックを有効にする必要があります、少なくとも hr: c0042004**。 メディア ログ (.blog ファイル) は、暗号化され、Microsoft サポート担当者だけがデコードすることができます。
 
 この表の帯域幅数は、20 ms パケット化 (50 パケット/秒) に基づいており、Siren および G.722 コーデックでは、電話会議シナリオからのセキュア リアルタイム転送プロトコル (SRTP) による追加オーバーヘッドが含まれ、ストリームが 100% アクティブであることが前提となっています。前方向エラー訂正 (FEC) は、リンク上にパケット損失がある場合に、音声ストリームの品質確保を支えるために動的に使用されます。
 

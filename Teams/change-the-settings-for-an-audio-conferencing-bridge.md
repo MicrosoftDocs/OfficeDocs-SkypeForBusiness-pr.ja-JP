@@ -21,99 +21,99 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
-description: '呼び出し元のメッセージを表示し、ビジネスまたはマイクロソフトのチームのアプリケーションの Skype を使用していないことと、名前と会議の開催者のピンを収集するために使用する会議用ブリッジの設定を変更する必要があります手順を取得します。 '
+description: 'Skype for Business または Microsoft Teams アプリを使用していない場合に、発信者にメッセージを表示し、会議開催者の名前やピンを集めるために使用される会議ブリッジの設定を変更する際に必要な手順を説明します。 '
 ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
 ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32198561"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 
-Office 365 に電話会議を設定する場合、オーディオ会議ブリッジと呼ばれますから、ユーザーの電話番号が表示されます。 会議用ブリッジは、1 つまたは複数の電話番号を含めることができます。 これらの電話番号は、呼び出し元が、会議にダイヤルインするときに使用されます。 電話番号では、ビジネスまたはマイクロソフトのチームの会議出席依頼の Skype の下部に含まれています。
+Office 365 で電話会議を設定している場合、電話会議ブリッジと呼ばれるものからユーザーの電話番号を受信します。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 この電話番号は、発信者が会議にダイヤルインするときに使用されます。 電話番号は、Skype for Business または Microsoft Teams の会議出席依頼の下部にあります。
   
-会議用ブリッジが呼び出しに応答し、会議自動アテンダント、およびその後、設定によってを使用して音声メッセージを呼び出し元を確認できます通知を再生、自分の名前を記録するための呼び出し元を確認、暗証番号 (pin) の設定を制御します。 ピンはされたミーティングの開催者に許可するように、会議を開始するが使用していない、Skype アプリのビジネスまたはマイクロソフトのチームにします。
+電話会議ブリッジは着信に応答し、会議の自動応答を使用して音声案内で発信者を案内し、それから設定に応じて、通知メッセージを再生し、発信者に自分の名前を記録することと、PIN の設定を管理することを求めます。 PIN は 会議の開催者に付与され、Skype for Business または Microsoft Teams のアプリを使用していないときに会議を開始できます。
 
   > [!IMPORTANT]
-  > PIN がだけが必要なとき、Skype アプリケーション ユーザーのビジネスまたはマイクロソフトのチームの会議の開催者が会議を既に開始していません。 場合はすべてのユーザーがダイヤルイン会議、暗証番号 (pin) は会議の開催者、会議を開始する必要があります。 
+  > PIN が必要になるのは、Skype for Business または Microsoft Teams のアプリのユーザーがまだ会議を開始していないときの、会議の開催者のみです。 全員が会議にダイヤルインすると、会議の開催者が会議を開始するために PIN が必要になります。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) マイクロソフトのチーム管理センターを使用してください。
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30.png](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
+1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
-2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
+2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
 
-3. **ブリッジの設定**ウィンドウで、次のコマンドを選択します。 
-   - **ミーティングのエントリと終了の通知**場合はこのオプションをオフにすると、データを入力したり、会議を離れると、会議に参加しているユーザーが通知はありません。
+3. [**ブリッジ設定**] ウィンドウで、 
+   - [**会議の開始と終了の通知**] を選択します。この選択を外すと、既に参加済みのユーザーは、誰かが入ってきたり退出したりしたときに通知を受け取りません。
     
-     **会議の開始と終了の通知**を有効にするときは、これらのオプションを選択できます。
+     [**会議の開始と終了通知**] を有効にすると、以下のオプションを選択できます。
     
-   - **名前や電話番号**ユーザーが会議にダイヤルインするときは、それに参加するときに、電話番号が再生されます。
+   - [**名前または電話番号**] ユーザーが会議にダイヤルインすると、ユーザーの参加時に参加者の電話番号が再生されます。
     
-   - **トーン**ユーザーが会議にダイヤルインするときは、それに参加するときに、オーディオの音が再生されます。
+   - [**トーン**] ユーザーが会議にダイヤルインすると、ユーザーの参加時にオーディオ トーンが再生されます。
       
-   - **ミーティングに参加する前に自分の名前を記録する呼び出し元を確認**このオプションをオフにすると場合、は、会議に参加する前に自分の名前を記録するための呼び出し元を求められますされません。
+   - [**発信者に会議に参加する前に自分の名前を記録するように要求する**] これをオフにすると、発信者は会議に参加する前に名前を録音するように求められません。
 
-4. 会議の暗証番号 (pin) の長さを設定するには、**暗証番号 (pin) の長さ**] ボックスの一覧に PIN の桁数を選択します。
+4. 電話会議の PIN の長さを設定するには、[**PIN の長さ**] リストの PIN に希望の桁数を選択します。
 
-5. ユーザーに電子メールを送信するかどうかを指定するには、有効または **、オーディオ会議の構成が変更された場合、ユーザーに e メールを自動的に送信**を無効にします。
-    詳細については、[マイクロソフトのチームで、オーディオ会議の設定を変更する場合にユーザーに自動的に電子メールの送信](emails-sent-to-users-when-their-settings-change-in-teams.md)または[Skype のオンライン ビジネスでの設定を変更するときにユーザーに送信された電子メール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)を参照してください。
+5. ユーザーに電子メールを送信するかどうか指定するには、[**電話会議設定を変更した場合ユーザーに自動的に電子メールを送信する**] を有効または無効にします。
+    詳細については、「[Microsoft Teams で電話会議の設定を変更したときにユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)」または「[Skype for Business Online で設定を変更したときにユーザーに送信されるメール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)」を参照してください。
  
-6. **[保存]** をクリックします。 
+6. [**保存**] をクリックします。 
 
 
-## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Skype for Business 管理センターを使用する
+## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Skype for Business 管理センターの使用
 
- **呼び出し元がミーティングに参加するときに会議の経験を設定します。**
+ **発信者が会議に参加するときの会議エクスペリエンスを設定する**
     
-1. **ビジネス管理センターの Skype**では、左側のナビゲーションで移動**電話会議**に > **Microsoft ブリッジ設定**します。
+1. **Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
     
-2. **Microsoft ブリッジの設定**ページで、[**会議参加の経験**をするには、次のコマンドを選択します。
+2. [**Microsoft ブリッジ設定**] ページの [**会議に参加**] から次を選択します。
     
-   - **会議エントリを有効にして終了の通知をオンにする**これがデフォルトで選択されます。 チェック ボックスをオフにするとデータを入力したり、会議を離れると、会議に参加しているユーザーが通知はありません。
+   - [**会議の開始と終了の通知を有効にする**] これは既定で選択されています。 このチェック ボックスの選択を外すと、誰かが入室したり退出したりしたときに、既に参加済みのユーザーは通知を受け取りません。
     
-   - **会議エントリを有効にして終了の通知をオンにする**を選択すると、**開始/終了のお知らせの種類**] ボックスの一覧からこれらのオプションを選択します。
+   - [**会議の開始と終了の通知を有効にする**] を選択すると、[**開始または終了のお知らせの種類**] リストから次のオプションを選択できます。
     
-   - **名前や電話番号**ユーザーが会議にダイヤルインするときは、それに参加するときに、電話番号が再生されます。
+   - [**名前または電話番号**] ユーザーが会議にダイヤルインすると、ユーザーの参加時に参加者の電話番号が再生されます。
     
-   - **トーン**ユーザーが会議にダイヤルインするときは、それに参加するときに、オーディオの音が再生されます。
+   - [**トーン**] ユーザーが会議にダイヤルインすると、ユーザーの参加時にオーディオ トーンが再生されます。
   
-   - **ミーティングに参加する前に自分の名前を記録する呼び出し元を確認**これがデフォルトで選択されます。 チェック ボックスをオフにした場合は、会議に参加する前に自分の名前を記録する呼び出し元を求められますされません。
+   - [**発信者に会議に参加する前に自分の名前を記録するように要求する**] これは既定で選択されています。 チェック ボックスから選択を外すと、発信者が会議に参加する前に自分の名前を記録するよう求められることはありません。
     
-3. Sign in to Office 365 with your work or school account.****
+3. 変更を完了したら、[**保存**] をクリックします。
     
 **In the Skype for Business admin center, in the left navigation go to dial-in conferencingMicrosoft bridge settings.**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Sign in to Office 365 with your work or school account.**** > ****
+2. Go to the **Office 365 admin center** > **Skype for Business**.
     
 3. 既定値は 5 です。******** > ****
     
-4. **Microsoft ブリッジの設定**] ページの [**セキュリティ**] の下に**暗証番号 (pin) の長さ**] ボックスの一覧で、[暗証番号 (pin) に使用桁の番号を入力し、し、[**保存**] をクリックします。
+4. [**Microsoft ブリッジの設定**] ウィンドウの [**セキュリティ**] で、[**PIN の長さ**] リストに PIN の桁数を入力し、[**保存**] をクリックします。
     
     > [!IMPORTANT]
-    > 暗証番号 (pin) は、4 桁から 12 桁の間である必要があります。 
+    > PIN は 4 桁から 12 桁の間の値にする必要があります。 
   
-**ユーザーに電子メールを送信するかどうかを選択します。**
+**ユーザーにメールを送信するかどうかを選択する**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Sign in to Office 365 with your work or school account.**** > ****
+2. Go to the **Office 365 admin center** > **Skype for Business**.
     
 3. 既定値は 5 です。******** > ****
     
-4. **Microsoft ブリッジの設定**] ページで、選択や**ダイヤルイン情報を変更した場合、ユーザーに e メールを自動的に送信**を、し、[**保存**] をクリックします。
+4. [**Microsoft ブリッジ設定**] ページで [**ダイヤルイン情報を変更したらユーザーに自動的に電子メールを送信する**] を選択または選択解除して [**保存**] をクリックします。
     
-    詳細については、[マイクロソフトのチームで、オーディオ会議の設定を変更する場合にユーザーに自動的に電子メールの送信](emails-sent-to-users-when-their-settings-change-in-teams.md)または[Skype のオンライン ビジネスでの設定を変更するときにユーザーに送信された電子メール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)を参照してください。
+    詳細については、「[Microsoft Teams で電話会議の設定を変更したときにユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)」または「[Skype for Business Online で設定を変更したときにユーザーに送信されるメール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)」を参照してください。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
-- 時間を節約またはこのプロセスを自動化するには、[セット CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686)コマンドレットを使用することができます。
+- 時間を節約したり、このプロセスを自動化したりするには、[Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617686) コマンドレットを使用できます。
     
 - Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
@@ -123,7 +123,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
     
 - 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。 次のトピックで、これらの利点を説明します。 
     
-  - [Windows PowerShell と Lync Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -132,8 +132,8 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
     > [!NOTE]
     > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Microsoft Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)
 
-[オンライン ビジネスの Skype の電話会議を設定します。](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Skype for Business Online 用電話会議を設定する](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca4249c88ce5793cd04eb2e2cc1ed3035915975
-ms.sourcegitcommit: 790ca37e2b12e4c8adcc526b1695017161749f51
+ms.openlocfilehash: 74a9b23479f5357c0014ef5ef88b3f5da03ace7f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33526857"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865053"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>マイクロソフト チームの変化に、マイクロソフトの StaffHub チームを移動します。
 
@@ -45,7 +45,15 @@ ms.locfileid: "33526857"
 
 StaffHub のすべてのチームには、対応する Office 365 のグループが必要があります。 StaffHub チームには、それに関連付けられている Office 365 グループが割り当てられていない、1 つの移行をサポートする自動的に作成されます。 チームとチームと StaffHub の間でグループの名前付けの違いを指定するには、チーム内の別のチーム名を確認できます。
 
-チームに StaffHub からのチームを移行してユーザーは、彼らのスケジュールへのアクセスを StaffHub でチームの変化にリダイレクトされます。 システム停止を最小限に抑えるとするを採用し、チームを促進する組織全体でこの変更を通信することをお勧めします。
+チームに StaffHub からのチームを移行してユーザーは、彼らのスケジュールへのアクセスを StaffHub でチームの変化にリダイレクトされます。 システム停止を最小限に抑えるとするを採用し、チームを促進する組織全体でこの変更を通信することをお勧めします。 Azure AD プレミアムがあれば、この変更について理解する必要がある、組織内の StaffHub のユーザーの一覧を表示する[レポートの実行](run-report-to-show-staffhub-usage.md)をすることができます。  
+
+StaffHub チームをチームに移動した後、ロールバック オプションはありません。
+
+### <a name="user-experience-when-you-move-a-team"></a>チームを移動する場合のユーザー エクスペリエンス
+
+最小限のダウンタイム (1 秒未満である場合はすべて) のユーザー、チームがチームの変化に StaffHub から切り替えられたとき。 ユーザーは、チームへの移行が完了するまで、StaffHub を使用して続行できます。 移動が完了すると、チーム メンバーにチームで、チームのスケジュールにアクセスするためのシフトを使用する必要があることを知らせるメッセージが表示されます。 ここでは、ユーザーに表示されるメッセージの例です。
+
+![StaffHub チームは、チームに移動した後、StaffHub で表示されるメッセージの例です]。(../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "StaffHub StaffHub チームは、チームに移動した後でユーザーに表示されるメッセージの例")
 
 ## <a name="prepare"></a>準備
 

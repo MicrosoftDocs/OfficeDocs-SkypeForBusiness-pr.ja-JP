@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
-ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
-ms.translationtype: HT
+ms.openlocfilehash: 80ae1944a2208393a38032bd6a988e807f803938
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "30795587"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827662"
 ---
 <a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -59,7 +59,7 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□  手順 1: Azure AD ビジネス ツー ビジネスの設定を構成する
 
-1. https://portal.azure.com にサインインします。
+1. サインインします。https://portal.azure.com
 2. 左ペインで **Azure Active Directory** をクリックします。
 3. [**管理**] の下で、[**ユーザー設定**] をクリックします。
 4. [**外部ユーザー**] の下で、[**外部コラボレーションの設定を管理します**] をクリックします。

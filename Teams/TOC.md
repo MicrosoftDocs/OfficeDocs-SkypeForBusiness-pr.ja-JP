@@ -41,6 +41,7 @@
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ### [Office 365 コネクタとカスタム コネクタの使用](Office-365-custom-connectors.md)
 ### [Teams テナント アプリ カタログにアプリを公開する](tenant-apps-catalog-teams.md)
+### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -604,7 +605,10 @@
 ## [医療関係組織向けのTeams](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
 ### [医療関係組織のためのTeamsを始めましょう](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [医療関係組織向けテンプレートでTeamsを始めましょう](expand-teams-across-your-org/healthcare/healthcare-templates.md)
-### [医療関係組織向けセキュアメッセージングでTeamsを始めましょう](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [医療組織向け Secure Messaging で Teams を始めましょう](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [電子医療記録を Microsoft Teams に統合する](expand-teams-across-your-org/healthcare/patients-app.md)
+#### [DSTU2 インターフェイスの仕様](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+#### [STU3 インターフェイスの仕様](expand-teams-across-your-org/healthcare/stu3-interface.md)
 
 ## [教育機関向けの Teams ](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)

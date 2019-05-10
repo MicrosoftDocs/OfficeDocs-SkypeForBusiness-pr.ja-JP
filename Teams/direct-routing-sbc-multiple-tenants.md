@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 複数のテナントを処理する 1 つのセッション ボーダー コント ローラー (SBC) を構成する方法について説明します。
-ms.openlocfilehash: 5338046724cc3768929b41dceb060aec1cee0bd6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 83173a1972906629d7213d80e1290d789e021a87
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401489"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868657"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -103,7 +103,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>キャリア テナント内の適切な権限があることを確認します。
 
-大域管理者として Office 365 管理センターにサインインする場合にのみ、新しいドメインを追加できます。 
+グローバル ・ アドミニストレーターとして Microsoft 365 管理センターにサインインする場合にのみ、新しいドメインを追加できます。 
 
 ある役割を検証するにサインインしてください Microsoft 365 の管理センター (https://portal.office.com)**ユーザー**には、 > **アクティブなユーザー**、グローバル管理者ロールがあることを確認します。 
 
@@ -144,7 +144,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>お客様のテナント内の適切な権限があることを確認します。
 
-大域管理者として Office 365 管理センターにサインインする場合にのみ、新しいドメインを追加できます。 
+グローバル ・ アドミニストレーターとして Microsoft 365 管理センターにサインインする場合にのみ、新しいドメインを追加できます。 
 
 ある役割を検証するにサインインしてください Microsoft 365 の管理センター (https://portal.office.com)**ユーザー**には、 > **アクティブなユーザー**、グローバル管理者ロールがあることを確認します。 
 

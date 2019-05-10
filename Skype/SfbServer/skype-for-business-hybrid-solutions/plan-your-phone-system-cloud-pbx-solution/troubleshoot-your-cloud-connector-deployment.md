@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: コネクタ Edition のクラウド展開のトラブルシューティングを行います。
-ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b9ade46f46898d22bab862c3044e045de441b007
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240751"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864919"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Cloud Connector 展開をトラブルシューティングする
  
@@ -204,7 +204,11 @@ ms.locfileid: "32240751"
     **証明機関の証明書が侵害され、サイトでは、アプライアンスが 1 つだけがある場合**は、次の手順を実行します。
     
 1. Enter-CcUpdate コマンドレットを実行して、サービスをドレインし、アプライアンスをメンテナンス モードにします。
-    
+   
+   ```
+   Enter-CcUpdate
+   ```
+   
 2. 次のコマンドレットを実行して、リセットし、新しい証明機関の証明書とすべての内部サーバー証明書を作成します。
     
     2.0 より前に、のリリースをクラウド コネクタ。
@@ -222,20 +226,37 @@ ms.locfileid: "32240751"
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
     ```
+    
+3. ゲートウェイと仲介サーバー間で TLS を使用する場合、アプライアンスからのエクスポート CcRootCertificate コマンドレットを実行し、PSTN ゲートウェイにエクスポートする証明書をインストールします。 ゲートウェイ上の証明書を再実行するにする必要があります。
 
-3. サービスを開始し、保守モードを終了する終了 CcUpdate コマンドレットを実行します。
-    
-4. アプライアンスのローカル ファイルで Export-CcRootCertificate コマンドレットを実行し、エクスポートした証明書を PSTN ゲートウェイにコピーしてインストールします。
-    
+   ```
+   Export-CcRootCertificate
+   ```
+
+4. サービスを開始し、保守モードを終了する終了 CcUpdate コマンドレットを実行します。
+
+   ```
+   Exit-CcUpdate
+   ```
+
+
     **証明機関の証明書が侵害され、は、サイト内の複数のアプライアンスのかどうか**は、サイト内には、各アプライアンスを次の一連のステップを実行します。
     
     非ピーク時間帯には、次の手順を実行することをお勧めします。
     
-   - 最初のアプライアンスでは、CA をクリーンアップのバックアップ内のファイルを削除 CcCertificationAuthorityFile コマンドレットを実行します\<SiteRoot\>ディレクトリです。
+1. 最初のアプライアンスでは、CA をクリーンアップのバックアップ内のファイルを削除 CcCertificationAuthorityFile コマンドレットを実行します\<SiteRoot\>ディレクトリです。
+
+     ```
+     Remove-CcCertificationAuthorityFile
+     ```
     
-   - サービスと、各アプライアンスをメンテナンス モードにするのには Enter CcUpdate コマンドレットを実行します。
+2. サービスと、各アプライアンスをメンテナンス モードにするのには Enter CcUpdate コマンドレットを実行します。
+
+     ```
+     Enter-CcUpdate
+     ```
     
-   - 次のコマンドレットを実行して、リセットし、新しい証明機関の証明書とすべての内部サーバー証明書を作成します。
+3. 最初のアプライアンスをリセットし、新しい証明機関の証明書およびすべての内部サーバーの証明書を作成するのには、次のコマンドレットを実行します。
     
      2.0 より前に、のリリースをクラウド コネクタ。
     
@@ -253,15 +274,32 @@ ms.locfileid: "32240751"
      Remove-CcLegacyServerCertificate 
      ```
 
-   - 最初のアプライアンスでは、CA のファイルのバックアップを作成するのには次のコマンドレットを実行します\<SiteRoot\>フォルダー。 以降では、同じサイト内の他のすべてのアプライアンス、リセット CcCACertificate コマンドレットでは、CA のバックアップ ファイルを自動的に消費されます. アプライアンスでは、同じルート証明書を使用します。
+4. 最初のアプライアンスでは、CA のファイルのバックアップを作成するのには次のコマンドレットを実行します\<SiteRoot\>フォルダー。
     
      ```
      Backup-CcCertificationAuthority
      ```
+   
+5. すべての他のアプライアンス上の同じサイトに、アプライアンスを選択し、すべて、同じルート証明書を使用し、新しい証明書を要求するように CA のバックアップ ファイルを使用する次のコマンドを実行します。 
+   
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
+     
+6. ゲートウェイと仲介サーバー間で TLS を使用する場合サイトでは、いずれのアプライアンスからのエクスポート CcRootCertificate コマンドレットを実行し、PSTN ゲートウェイにエクスポートする証明書をインストールします。 ゲートウェイ上の証明書を再実行するにする必要があります。
+  
+     ```
+     Export-CcRootCertificate
+     ```
+     
+7. サービスを開始し、保守モードを終了する終了 CcUpdate コマンドレットを実行します。 
 
-   - サービスを開始し、保守モードを終了する終了 CcUpdate コマンドレットを実行します。 
+     ```
+     Exit-CcUpdate
+     ```
     
-   - ゲートウェイと仲介サーバー間で TLS を使用する場合サイトでは、いずれのアプライアンスからのエクスポート CcRootCertificate コマンドレットを実行し、PSTN ゲートウェイにエクスポートする証明書をインストールします。 
     
 - **問題: クラウド コネクタ管理サービスのログに、"C:\Program Files\Skype のビジネス クラウド コネクタ Edition\ManagementService\CceManagementService.log"次のエラー メッセージが表示する: CceService エラー: 0: 予期しない例外とオンライン ステータスの報告: System.Management.Automation.CmdletInvocationException: ユーザーのログオンに失敗しました\<グローバル テナント管理\>。正しいユーザー名とパスワードを使用していることを確認する、新しい資格情報オブジェクトを作成してください。---\>**
     

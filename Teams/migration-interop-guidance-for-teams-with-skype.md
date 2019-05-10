@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcce9f30784e717052b494ad99e4fb25788455bf
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 58b2548e4c1c409314146d1675bbc06b2f95f7e5
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402083"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835460"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
@@ -49,7 +49,7 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 
 7.  TeamsOnly モードにユーザーをアップグレードすると、すべての着信のチャットや通話がから送信されたクライアントに関係なく、ユーザーのチームのクライアントで着陸が常にいるようにします。 また、アップグレードされたユーザーは新しい会議を Teams でスケジュールするようになります。 TeamsOnly モードにするには、ユーザーが Skype for Business でオンラインに所属している必要があります。 これは、Teams ユーザーの確実な相互運用、フェデレーション、完全な管理のために必要です。ユーザーを TeamsOnly にアップグレードするには、次の操作を実行します。
     - ユーザーが Skype for Business Online に所属している (または Skype アカウントを所有したことがない) 場合、PowerShell で "UpgradeToTeams" を使用して、Mode=TeamsOnly で TeamsUpgradePolicy をそのユーザーに付与します。または、Teams 管理センターを使用して TeamsOnly モードを選択します。
-    - ユーザーがオンプレミスに所属している場合、オンプレミスの管理ツールから `Move-CsUser` を使用して、まずそのユーザーを Skype for Business Online に移動します。  Skype for Business Server 2019 または CU8 for Skype for Business Server 2015 をお持ちの場合、`Move-CsUser` で `-MoveToTeams` スイッチを指定して、オンラインへの移行の一環としてユーザーを直接 Teams に移動することができます。 このオプションでは、ユーザーの会議も Teams に移行されます (ただし、会議の移行が可能なのは現在、TAP のお客様のみです)。 `-MoveToTeams` が指定されていないか使用できない場合、`Move-CsUser` の完了後に PowerShell または Teams 管理センターを使用して、TeamsOnly モードをそのユーザーに割り当てます。 詳細については、「[ユーザーのオンプレミスとクラウド間の移動](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)」を参照してください。  会議の移行の詳細については、「[会議移行サービス (MMS) の使用](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
+    - ユーザーがオンプレミスに所属している場合、オンプレミスの管理ツールから `Move-CsUser` を使用して、まずそのユーザーを Skype for Business Online に移動します。  Skype for Business Server 2019 または CU8 for Skype for Business Server 2015 をお持ちの場合、`Move-CsUser` で `-MoveToTeams` スイッチを指定して、オンラインへの移行の一環としてユーザーを直接 Teams に移動することができます。 このオプションは、チームにユーザーの会議を移行してもします。 `-MoveToTeams` が指定されていないか使用できない場合、`Move-CsUser` の完了後に PowerShell または Teams 管理センターを使用して、TeamsOnly モードをそのユーザーに割り当てます。 詳細については、「[ユーザーのオンプレミスとクラウド間の移動](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)」を参照してください。  会議の移行の詳細については、「[会議移行サービス (MMS) の使用](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
 
 8.  ユーザーが Teams 電話システムを Teams で使用するには、TeamsOnly モードである (つまり、Skype for Business Online に所属しており、Teams にアップグレードされている) 必要があります。また、Microsoft 電話システムの[ダイレクト ルーティング](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (自分の SIP トランクと SBC で電話システムを使用するための機能) 向けに構成されているか、または Office 365 通話プランを利用している必要があります。   
 
@@ -81,11 +81,11 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 
 |モード|通話とチャット|会議のスケジュール<sup>1</sup>|チームとチャンネル|使用例|
 |---|---|---|---|---|
-|**TeamsOnly**</br>*Skype for Business Online に所属していることが必要*|Teams|Teams|はい|アップグレード過程の最終的な状態。 シートが 500 未満の新しいテナントの既定値でもあります。|
+|**TeamsOnly<sup>2</sup>**</br>*Skype for Business Online に所属していることが必要*|Teams|Teams|はい|アップグレード過程の最終的な状態。 シートが 500 未満の新しいテナントの既定値でもあります。|
 |アイランド|いずれか|いずれか|はい|既定の構成。 サイド バイ サイドの両方のクライアントを評価するために 1 人のユーザーを使用できます。 チャットと通話はいずれかのクライアントに届くので、ユーザーは両方のクライアントを常に起動しておく必要があります。|
-|SfBWithTeamsCollabAndMeetings|Skype for Business|Teams|あり|"会議優先"。 まだクラウドへの呼び出しを移動する準備がされていない場合、チームの会議の機能を利用するのには、設置型の組織を主にします。|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|あり|"会議優先"。 まだクラウドへの呼び出しを移動する準備がされていない場合、チームの会議の機能を利用するのには、設置型の組織を主にします。|
 |SfBWithTeamsCollab|Skype for Business|Skype for Business|あり|緊密に管理を必要とする複雑な組織の別の開始点です。|
-|SfBOnly|Skype for Business|Skype for Business|なし<sup>2</sup>|データ コントロールの周囲の厳格な要件を持つ企業のシナリオに特化します。 Teams は、他のユーザーがスケジュールした会議に参加する場合にのみ使用します。|
+|SfBOnly|Skype for Business|Skype for Business|なし<sup>3</sup>|データ コントロールの周囲の厳格な要件を持つ企業のシナリオに特化します。 Teams は、他のユーザーがスケジュールした会議に参加する場合にのみ使用します。|
 ||||||
 
 </br>
@@ -95,7 +95,9 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 
 <sup>1</sup> 既存の (Teams または Skype for Business でスケジュールされた) 会議に参加できるかどうかは、モードによって制御されません。 既定では、ユーザーは常に招待されたすべての会議に参加できます。
 
-<sup>2</sup>現在、チームは存在しないので、これは有効のままここでは、チームとチャネルの機能を無効にする機能です。
+<sup>2</sup> TeamsOnly または SfbWithTeamsCollabAndMeetings のいずれかを個々 のユーザーに割り当てる場合、既定で、既存の Skype の将来のユーザーがスケジュールされている会議に変換されますチームの会議。 必要な場合したままのままにこのようなミーティングとしてする Skype のいずれかを指定するビジネス ・ ミーティング`-MigrateMeetingsToTeams $false`TeamsUpgradePolicy を付与する場合、またはチームの管理ポータルでチェック ボックスを選択解除します。   チームにビジネス用の Skype から会議に変換する機能ではないこと勤務テナント全体で TeamsUpgradePolicy を付与するときに注意してください。 
+
+<sup>3</sup> Teams では現在、チームとチャンネル機能を無効にすることはできないため、今の段階では有効のままとなります。
 
 
 
@@ -190,4 +192,4 @@ TeamsInteropPolicy は TeamsUpgradePolicy に置き換えられました。 以�
 
 [Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-
+[会議の移行サービス (MMS) を使用してください。](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

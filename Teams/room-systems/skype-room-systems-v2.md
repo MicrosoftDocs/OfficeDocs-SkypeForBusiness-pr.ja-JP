@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チームの会議室のライセンス
+title: Microsoft Teams ミーティング ライセンス
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,22 +21,23 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'マイクロソフト チームの会議室で利用できる機能について説明します。 '
-ms.openlocfilehash: c25234fa6a5a83e71398fa9138a6a84e65c2d883
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: cef845197d8b76dfc6248f1976f08879680ace5f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362878"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865023"
 ---
-# <a name="microsoft-teams-rooms-licenses"></a>マイクロソフト チームの会議室のライセンス
+# <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams ミーティング ライセンス
 <a name="bkmk_srs"> </a>
 
 ために購入する必要があるマイクロソフト チームの会議室とどのようなライセンス供与を受けるので使用可能なライセンスに依存して機能を次の表に一覧します。
   
 > [!NOTE]
 > セットアップされている会議室はユーザー オブジェクトであり、該当するライセンスが割り当てられている必要があります。
+> 新しい会議室のライセンスは、Office 365 にされています。
 
-|マイクロソフト チームの会議室のシナリオ |現在 Office 365 Premium、Office 365 ProPlus0、または Skype for Business スタンドアロン プラン 2 があります。  <br/> 購入する必要のあるもの:  |現在、Enterprise ベースのプランをご利用の場合。  <br/> 購入する必要のあるもの: |Skype for Business Server 2015 (オンプレミスまたはハイブリッド) をご利用の場合。 <br/> 購入する必要のあるもの:|
+|マイクロソフト チームの会議室のシナリオ |ビジネス プラン 2 のスタンドアロン Office 365 のプレミアム、Office 365 用リソース、または Skype がある現在です。  <br/> 購入する必要のあるもの:  |現在、Enterprise ベースのプランをご利用の場合。  <br/> 購入する必要のあるもの: |Skype for Business Server 2015 (オンプレミスまたはハイブリッド) をご利用の場合。 <br/> 購入する必要のあるもの:|
 |:-----|:-----|:-----|:-----|
 |スケジュールされたミーティングに参加します。  |Skype for Business スタンドアロン プラン 1 |E1、3、4、または 5  |Skype for Business Server Standard CAL  |
 |臨時の会議を開始します。 |Skype for Business スタンドアロン プラン 2 |E1、3、4、または 5 |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|

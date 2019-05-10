@@ -12,62 +12,62 @@ localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: 組織内に保持されているチームのライブ イベントの設定を管理する方法について説明します。
+description: 組織内に保持されている Teams のライブ イベントの設定を管理する方法について説明します。
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
 ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32204749"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
-チームのライブ イベントの設定を使用すると、組織内で保持されているライブのイベントの設定を構成します。 サポート URL を設定し、サード ・ パーティ製ビデオ配信プロバイダーを構成することができます。 これらの設定は、組織内に作成されるすべてのライブ イベントに適用されます。 
+Teams のライブ イベント設定を使用して、組織で保持されているライブ イベントの設定を構成します。 サポート URL を設定して、サード パーティ製のビデオ配信プロバイダーを設定できます。 この設定は、組織で作成したすべてのライブ イベントに適用します。 
 
-マイクロソフトのチームの管理センターでこれらの設定を簡単に管理することができます。 左側のナビゲーションで**の会議**に移動する > **のライブ イベントを設定**します。 
+Microsoft Teams 管理センターでこの設定を簡単にできます。 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。 
 
-![ライブ イベント settings.png](../media/teams-live-events-settings.png "チームのスクリーン ショットは、マイクロソフトのチームの管理センターで構成可能なイベントの設定をライブ") 
+![live-event-settings.png](../media/teams-live-events-settings.png " Microsoft Teams 管理センターで構成可能な Teams ライブ イベント設定のスクリーン ショット") 
 
-## <a name="set-up-event-support-url"></a>イベント サポートの URL を設定します
+## <a name="set-up-event-support-url"></a>イベントのサポート URL を設定する
 
-ライブ イベントの参加者には、この URL が表示されます。 ライブ イベント中に、サポートに連絡する方法を参加者に提供する組織のサポート URL を追加します。
+この URL は、ライブ イベントの参加者に表示されます。 ライブ イベント中にサポートへの連絡方法を参加者に提供する組織のサポートの URL を追加します。
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) マイクロソフトのチーム管理センターを使用してください。
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30.png](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
-1. 左側のナビゲーションでは、**会議**に移動 > **ライブ イベントを設定**します。
-2. [**サポート URL**] には、組織のサポートの URL を入力します。 
+1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
+2. [**サポート URL**] で組織のサポート URL を入力します。 
 
-    ![ライブ マイクロソフト チームの管理センターでのイベントのサポート URL の設定](../media/teams-live-events-settings-supporturl.png "スクリーン ショットは、チームのライブ イベントを設定する URL をサポート")
+    ![Microsoft Teams 管理センターのライブ イベントのサポート URL 設定](../media/teams-live-events-settings-supporturl.png " Teams ライブ イベントのサポート URL 設定のスクリーン ショット")
 
-### <a name="using-windows-powershell"></a>The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.
-次のコマンドレットを実行します。
+### <a name="using-windows-powershell"></a>Windows PowerShell の使用
+次のコマンドを実行します。
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
-詳細については、[一連の CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)を参照してください。
-## <a name="configure-a-third-party-video-distribution-provider"></a>サード ・ パーティ製ビデオ配信プロバイダーを構成します。 
+詳細については、[CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。
+## <a name="configure-a-third-party-video-distribution-provider"></a>サード パーティ製のビデオ配信プロバイダーを設定する 
 
-購入し、定義されているソフトウェアのネットワーク (SDN) ソリューションや Microsoft ビデオ配信パートナーを通じて、エンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを設定すると場合、は、チームでのライブ イベントのプロバイダーを構成します。 
+Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネットワーク (SDN) ソリューションまたはエンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを購入してセット アップした場合は、Teams でライブ イベント プロバイダーを構成します。 
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) マイクロソフトのチーム管理センターを使用してください。
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30.png](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
-1. 左側のナビゲーションでは、**会議**に移動 > **ライブ イベントを設定**します。
-2. [**サード パーティのビデオ配信プロバイダー**では、次の手順を完了します。 
+1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
+2. [**サード パーティ製ビデオ配信プロバイダー**] で次を実行します。 
 
-    ![マイクロソフトのチームの管理センターでのサード ・ パーティ製ビデオ配信プロバイダーの設定](../media/teams-live-events-settings-distribution-provider.png "サード ・ パーティ製ビデオ配信プロバイダーの設定のスクリーン ショットのライブ イベント")
+    ![Microsoft Teams 管理センターのサード パーティ製ビデオ配信プロバイダーの設定](../media/teams-live-events-settings-distribution-provider.png "ライブ イベントのサード パーティ製ビデオ配信プロバイダーの設定のスクリーン ショット")
 
-    - **配布のサード ・ パーティ製プロバイダーを使用**サード ・ パーティ製ビデオ配信プロバイダーを有効にするには、これを有効にします。
-    - **SDN プロバイダー名**使用しているプロバイダーを選択します。
-    - **プロバイダー ライセンス ・ キー**相手のプロバイダーから入手したライセンス ID を入力します。
-    - **SDN API テンプレートの URL**相手のプロバイダーから入手した API のテンプレートの URL を入力します。
+    - **サード パーティ製配信プロバイダーを使用する** これを選択してサード パーティ製ビデオ配信プロバイダーを有効にします。
+    - **SDN プロバイダー名** お使いのプロバイダーを選択します。
+    - **プロバイダー ライセンス キー** プロバイダーの連絡先から取得したライセンス ID を入力します。
+    - **SDN API テンプレート URL** プロバイダーの連絡先から取得した API のテンプレート URL を入力します。
 
-### <a name="using-windows-powershell"></a>The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.
-プロバイダーの連絡先からライセンス ID または API トークンおよび API のテンプレートを取得し、お使いのプロバイダーに応じて、次のいずれかを実行します。
+### <a name="using-windows-powershell"></a>Windows PowerShell の使用
+プロバイダーの連絡先からのライセンス ID または API トークンと API テンプレートを取得し、お使いのプロバイダーに合わせて次のいずれかを実行します。
 
-**ハイブ** 
+**Hive** 
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
@@ -75,12 +75,12 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
-詳細については、[一連の CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)を参照してください。
+詳細については、[CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。
 
 > [!NOTE]
-> 外部エンコーダーを使用して、ライブのイベントを作成する場合は、[マイクロソフトのストリームで、eCDN のプロバイダーを設定](https://docs.microsoft.com/stream/network-caching)する必要もあります。 
+> 外部のエンコーダーを使用するライブ イベントの作成を考えている場合には、[Microsoft Stream で eCDN プロバイダーを構成する](https://docs.microsoft.com/stream/network-caching)必要もあります。 
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams のライブ イベントをセットアップする](set-up-for-teams-live-events.md)

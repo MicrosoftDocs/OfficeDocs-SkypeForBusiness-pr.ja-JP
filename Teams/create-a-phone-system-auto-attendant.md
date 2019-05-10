@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 設定し、組織の処理効率の呼び出しに自動応答をクラウドをテストする方法について説明します。
-ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e98233bd610cd83afdbc727a5edeba77951d1989
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218837"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868817"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -59,7 +59,7 @@ ms.locfileid: "32218837"
 > [!IMPORTANT]
 > すべての自動応答は、関連付けられている[リソースのアカウント](manage-resource-accounts.md)を持っている必要があります。 最初に、リソース アカウントを作成する必要がありますし、自動応答に関連付けることができます。
 
-### <a name="using-the-microsoft-teams-admin-center"></a>マイクロソフトのチーム管理センターを使用してください。
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
 **マイクロソフトのチーム管理センター**の [**音声**] をクリックします > **自動応答**、 **+ 新規**] をクリックします。
 
@@ -355,7 +355,7 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
 
   - [Office 365 PowerShell を使用する必要がある理由](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
-- Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。
+- Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなどの Microsoft 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
 
   - [Office 365 の PowerShell では、Office 365 を管理します。](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
@@ -363,7 +363,7 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
 
 ## <a name="related-topics"></a>関連トピック
 
-[Office 365 での電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Office 365 の電話システムでできること](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [サービス電話番号を取得する](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -371,6 +371,6 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
+[クラウドの自動応答とは？](what-are-phone-system-auto-attendants.md)
 
 [小規模ビジネスの例: 自動応答をセットアップする](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

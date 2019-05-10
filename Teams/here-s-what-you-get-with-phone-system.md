@@ -1,5 +1,5 @@
 ---
-title: Office 365 での電話システムで利用できる機能
+title: Office 365 の電話システムでできること
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -22,14 +22,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '機能、可用性、およびお客様のビジネス電話システム (PBX をクラウド) の計画およびセットアップする方法です。 '
-ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245530"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868673"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 での電話システムで利用できる機能
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
 
 PBX は、企業内電話システムです。 Office 365 のアドオンの電話システムが PBX の機能を使用することがなく、複雑で高価な機器です。 
   
@@ -44,7 +44,7 @@ PBX は、企業内電話システムです。 Office 365 のアドオンの電�
 |||
 |:-----|:-----|
 |**Office 365 の機能で電話システム** <br/> |**説明** <br/> |
-|[クラウドの自動応答とは](what-are-phone-system-auto-attendants.md) <br/> |外部では、組織のメニュー システムを作成するのにはクラウドの自動応答を使用することができ、内部の呼び出し元を探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送する] メニューの [システムを通過します。  <br/> |
+|[クラウドの自動応答とは？](what-are-phone-system-auto-attendants.md) <br/> |外部では、組織のメニュー システムを作成するのにはクラウドの自動応答を使用することができ、内部の呼び出し元を探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送する] メニューの [システムを通過します。  <br/> |
 |(名前と番号) を呼び出し応答/開始  <br/> |、タッチでの着信呼び出しに応答し、完全な電話番号をダイヤルするか、ビジネスまたは Outlook の Skype の名前をクリックすると、発信コールを配置します。  <br/> |
 |[ビジネス用の Skype での呼び出しの転送オプションを設定します。](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |サポートするマネージャーのための呼び出しに応答するかします。 通知、チェック ボックスをオフにすべての参加者の呼び出しがされているときに応答されたか、他のユーザーに対して行われます。  <br/> |
 |[着信の転送と同時にリング](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |これらの機能を使用するはどこへ行くと、ため、呼び出しを転送するには、仕事仲間やボイスメールの転送ルールを設定できます。  <br/> |
@@ -66,6 +66,7 @@ PBX は、企業内電話システムです。 Office 365 のアドオンの電�
 |[ビジネス用の Skype での呼び出しの転送オプションを設定します。](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |送信、チームは、期間または一定の時間後にすぐにします。  <br/> |
 |[ビジネスの Skype を使用してビデオ通話を受信し、](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 質問に応答する準備が完了することは、発表者の名前と小規模のフローティング ウィンドウでは、ビデオ ストリームを確認できます。 <br/> |
 |[Skype をビジネスのボイスメールとオプションを確認します。](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |ここではクラウドのボイスメールのしくみ: ユーザーは、ボイスメールを受信すると添付ファイルとしてボイス メール メッセージを電子メールとして自分のメールボックスに配信します。 メッセージを待機する、Skype 認定デスクトップ電話、ビジネス ・ アプリケーションのすべての Skype または Mac 2011 の Lync の上。  <br/> クラウドのボイス メールには、パーソナライズされたあいさつ文、メッセージ待機インジケーター、および呼び出しの応答が含まれています。 すべてのメールボックスに到着できるほか、ボイスメールを持つことができ、PC、モバイル デバイスは、IP 電話のビジネス用の Skype を介して利用可能にします。  <br/> |
+|保留音 | 2019 の 6 月に利用可能な電話システムは音楽を再生する既定値、外部から、公衆交換電話網 (PSTN) 通話保留中の場合は、サービスによって定義されています。  この機能は、呼び出しキューへの呼び出しだけでなく 1 対 1 の PSTN-チームへの呼び出しで動作します。 この機能は、他のプラットフォームとパリティを保留中の通知を提供します。 (他のすべてのプラットフォーム、視覚的保留中のユーザーが配置されますが、PSTN の呼び出し元が知る方法がないとされます。 最初のリリースでは、この機能は管理者が設定可能ではありません。| 
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Office 365 の電話システムの計画およびセットアップ
 <a name="bkmk_setup"> </a>

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: この資料では、マイクロソフト チームの会議室を展開するためのインフラストラクチャの準備作業について説明します。
-ms.openlocfilehash: 4c46618da43b12b53b6b6e4ba99f7ddb408bc4da
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b1830ba68b61c322b6eeef95f29b1e72d2b93303
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362883"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865015"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -27,7 +27,7 @@ ms.locfileid: "33362883"
     
 2. デバイスが使用する、正常に動作しているネットワーク/インターネット接続があることを確認します。 
     
-   - DHCP を使用して IP アドレスを受信できる必要があります (注: 単位の最初の起動時に静的 IP アドレスを持つ Microsoft チームの会議室を構成することはできません)
+   - DHCP を使用して IP アドレスを受信できる必要があります。 (単位の最初の起動時に、静的 IP アドレスを持つ Microsoft チームの会議室を構成することはできませんが、その後デバイス上または上位のスイッチまたはルータのデバイスに静的 IP を構成する可能性があります)。
     
    - これは、他メディアの通常のポートを開く) を開き、これらのポートが必要です。
     
@@ -57,7 +57,7 @@ ms.locfileid: "33362883"
 - Active Directory または Azure Active Directory (Azure AD) インスタンスと、Microsoft Exchange および Skype for Business Server へのアクセス。
 - DHCP を使用して IP アドレスを提供することができるサーバーへのアクセス。 マイクロソフト チームの会議室は、静的 IP アドレスを構成できません。
 - HTTP ポート 80 と 443 へのアクセス。
-- TCP および UDP のポートとして構成されている記載されている[サーバーのポートとプロトコルの要件](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)に設置型のビジネス実装では、Skype または[Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)のマイクロソフトのチームやビジネス用の Skype オンライン実装します。
+- TCP および UDP のポートとして構成されている記載されている[サーバーに必要な](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)の設置型の Skype ビジネス サーバー実装では、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)のマイクロソフトのチームまたはビジネス用の Skype オンライン実装します。
 
 > [!IMPORTANT]
 > 有線の 1 Gbps ネットワーク接続を使用して、必要な帯域幅を確保してください。

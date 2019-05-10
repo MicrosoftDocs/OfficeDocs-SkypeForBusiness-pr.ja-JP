@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 016831a9c3d5cac6c331d6112adbc2738ec8382b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aca7dcf2607fd90bfea15ef324034be96770a822
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236132"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835016"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft Teams でチームを作成するときの Office 365 グループの計画
 ==========================================================
@@ -31,7 +31,7 @@ Office 365 グループの計画と Microsoft Teams による影響 (または M
 
 -   最初に、顧客グループに既存の投資があって後は、現在サポートしてパブリックとプライベートの両方のグループのメンバー数が 5,000 未満であります。 前述のように、ユーザーが Office 365 管理 web コンソールではなく、チームのクライアントを使用して、チームのメンバーシップを管理するためにします。 このシナリオでは、ユーザーが Office 365 のグループでの会話のスレッドに使用されている場合、ことがグループの会話にメールしていないチームのチャネルにチャット メッセージの形式は本質的にことを示すだけの価値です。 この違いについてユーザーを教育し、Outlook または OWA を使用してグループの電子メールを送信すると、チームでより柔軟性のあるチャット メッセージの形式を採用することを提案します。
 
--   第 2 に、Office 365 で定義されている既存のグループを持たないお客様の場合は、作成することも、Office 365 管理ポータルでは、チームの web またはデスクトップ クライアントを使用しています。前述のように、すべての将来チームのクライアントを使用して Office 365 のグループ メンバーシップを管理します。チームのメンバーシップは、メンバーシップを定義する、Office 365 のグループには、ので、この変更の人を準備する必要があります。
+-   第 2 に、Office 365 で定義されている既存のグループを持たないお客様の場合は、作成することも、Office 365 管理ポータルでは、チームの web またはデスクトップ クライアントを使用しています。 前述のように、すべての将来チームのクライアントを使用して Office 365 のグループ メンバーシップを管理します。 チームのメンバーシップは、メンバーシップを定義する、Office 365 のグループには、ので、この変更の人を準備する必要があります。
  
 
 
@@ -48,6 +48,6 @@ Office 365 グループの計画と Microsoft Teams による影響 (または M
 
 -   [Get more with groups in Outlook (Outlook でグループを活用する)](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
--   [追加または Office 365 の管理センターを使用して Office 365 のグループからメンバーを削除します。](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [追加または Microsoft 365 管理センターを使用して Office 365 のグループからメンバーを削除します。](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
 -   [削除された Office 365 のグループを復元します。](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

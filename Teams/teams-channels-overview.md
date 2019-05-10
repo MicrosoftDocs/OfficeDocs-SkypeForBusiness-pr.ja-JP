@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415f4d94cf64de76ed3d7b4a7243d419d092999c
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
-ms.translationtype: HT
+ms.openlocfilehash: 039838172bf155d5c050fbb59fd4cc260fdbb4c3
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043366"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864898"
 ---
 > [!NOTE]
 > 以下の情報を確認して、Teamsでのチャット、チーム、チャンネル、およびアプリを理解してください。 次に、[Teamsでのチャット、チーム、チャンネル、およびアプリの展開](deploy-chat-teams-channels-microsoft-teams-landing-page.md)に進み、Teams の立ち上げに重要な決定事項のリストを確認します。
@@ -41,11 +41,11 @@ ms.locfileid: "31043366"
     
     チームは、何かの仕事を完成させるために緊密に作業している人たちを 1 つにまとめるために設計されています。 Teams はプロジェクト単位の作業 (製品の立ち上げや、デジタル作戦指令室を作るなど) において、現在進行中の作業も含めて、組織の内部構造 (たとえば、部署やオフィスの場所など) を反映して、動的に機能します。 複数のチーム チャネルにわたる会話、ファイル、ノートはチームのメンバーだけが見ることができます。
 
--   **チャネル**は、チーム内の専用セクションで、チームで機能しているすべてのことについて、たとえば特定のトピック、プロジェクト、分野などの別に会話をまとめ、保存します。
+-   **チャネル**は、チーム内の専用セクションで、チームで機能しているすべてのことについて、たとえば特定のトピック、プロジェクト、分野などの別に会話をまとめ、保存します。 ([ファイル] タブ) のチャネルで共有するファイルは、SharePoint に格納されます。 詳細については、 [SharePoint Online 方法とビジネスの OneDrive と相互作用のチーム](SharePoint-OneDrive-interact.md)を参照してください。
 
-    -   チーム チャネルは、チームの全員がオープンに会話できる場です。プライベート チャットはチャット内のユーザーのみに表示されます。
+    -   チーム チャンネルとは、会話をオープンしたチームの全員、場所です。 プライベート チャットは、チャットでユーザーに表示されているのみ (およびビジネスのための OneDrive でチャットを共有するファイルが格納されます)。 
 
-    -   チャネルは、タブ、コネクタ、およびボットを含んでいるアプリで拡張することで最大の価値を発揮するようになり、チームのメンバーにとってのチャネルの価値が高まります。
+    -   チャネルは、タブ、コネクタ、およびボットを含んでいるアプリで拡張することで最大の価値を発揮するようになり、チームのメンバーにとってのチャネルの価値が高まります。 詳細については、[アプリケーション、ボット、チーム内の & コネクタ](deploy-apps-microsoft-teams-landing-page.md)を参照してください。
 
 チームとチャネルを作成するためのベストプラクティスの詳細について、この短いビデオをご覧ください。
 
@@ -82,7 +82,7 @@ Microsoft Teams は、縦割り組織を解体して機能横断型チームを�
 |チームのタイプ  |考えられるチャネル  |アプリ (タブ ![タブ アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/コネクタ ![コネクタ アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/ボット ![ボット アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |売上     |年次販売会議<br></br> 四半期ビジネス レビュー<br></br> 月次売上パイプライン レビュー<br></br> 売上戦略 |Power BI<br></br>Trello<br></br>CRM<br></br>サマライズ ボット         |
-|広報活動     |プレス リリース<br></br>ニュースおよび更新情報<br></br>ファクト チェック         |RSS フィード<br></br>ツイッター         |
+|広報活動     |プレス リリース<br></br>ニュースおよび更新情報<br></br>ファクト チェック         |RSS フィード<br></br>Twitter         |
 |イベント計画     |マーケティング<br></br>物流およびスケジュール<br></br>会場<br></br>予算         |ツイッター<br></br>Facebook<br></br>プランナー<br></br>PDF         |
 |マーケティング/市場開拓   |市場調査<br></br>メッセージ ピラー<br></br>コミュニケーション プラン<br></br>部品表のマーケティング        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
 |技術運用    |インシデント管理<br></br>スプリント計画<br></br>作業項目<br></br>インフラストラクチャおよび運用         |Team Services<br></br>Jira<br></br>AzureBot         |

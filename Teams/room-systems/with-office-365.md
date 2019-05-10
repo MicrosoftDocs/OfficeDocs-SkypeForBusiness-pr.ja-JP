@@ -1,5 +1,5 @@
 ---
-title: Office 365 でマイクロソフトのチームの会議室を配置します。
+title: Office 365 での Microsoft Teams ミーティングを展開する
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft Office 365 でのチーム会議室を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 16d0fad14bd52a13fa6735ec0b786cb15f3ce8c1
-ms.sourcegitcommit: 728507d34031d01f663d9b551cd4794867244854
+ms.openlocfilehash: 05b6bc05200bd6664fc597b937d2a45fba1c9e2b
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33467535"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835256"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 でマイクロソフトのチームの会議室を配置します。
+# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 での Microsoft Teams ミーティングを展開する
 
 マイクロソフト、マイクロソフトのチームまたは Skype ビジネスと Exchange の両方がオンラインで、Office 365 でのチーム会議室を展開する方法の詳細については、このトピックを参照してください。
 
@@ -108,8 +108,12 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
 
    詳細な構文とパラメーター情報は、[一連の CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)を参照してください。
 
-4. MS オンラインの PowerShell を実行して、Active Directory の設定を行うことへの接続、 `Connect-MsolService -Credential $cred` powershell コマンドレットです。   詳細については、Active Directory は、 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)を参照してください。 <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
-    1. パスワードを期限切れにしたくない場合は、次の構文を使用します。
+4. MS オンラインの PowerShell を実行して、Active Directory の設定を行うことへの接続、 `Connect-MsolService -Credential $cred` powershell コマンドレットです。   詳細については、Active Directory は、 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)を参照してください。 
+
+   > [!NOTE]
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0)はサポートされていません。 
+
+5. パスワードを期限切れにしたくない場合は、次の構文を使用します。
 
     ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true

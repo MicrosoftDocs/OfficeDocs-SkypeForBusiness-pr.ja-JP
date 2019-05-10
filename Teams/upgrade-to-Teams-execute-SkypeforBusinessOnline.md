@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82577b8e8102baca9ea9681bb94d4a0c73f8b01e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bc1334e019abadb030199518df15b0dde74dde52
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218678"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835336"
 ---
 ![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
@@ -43,7 +43,7 @@ ms.locfileid: "32218678"
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>共存およびアップグレード モードを割り当てる
 
-ビジネス リモートの Windows Powershell セッションでマイクロソフトのチームの管理センターや、Skype を使用して実行することができる TeamsUpgradePolicy の TeamsOnly モードを割り当てることによって、チームがユーザーをアップグレードできます。
+ビジネス リモートの Windows Powershell セッションでマイクロソフトのチームの管理センターや、Skype を使用して実行することができる TeamsUpgradePolicy の UpgradeToTeams インスタンスを割り当てることによって、TeamsOnly モードにユーザーをアップグレードできます。 できますこれを行うユーザーごと、またはテナント単位で 1 つのステップで全体のテナントにアップグレードする場合。 
 
 詳細については、「[共存およびアップグレードを設定する](https://aka.ms/SkypeToTeams-SetCoexistence)」および「[TeamsUpgradePolicy: 移行と共存の管理](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)」を参照してください。
 
@@ -51,45 +51,48 @@ ms.locfileid: "32218678"
 
 この手順では、一度に 1 つのチームにすべてのユーザーをアップグレードします。
 
-### <a name="step-1-notify-the-users-of-the-change"></a>手順 1: ユーザーに変更を通知します。
+### <a name="step-1-notify-the-users-of-the-change-optional"></a>ステップ 1: (省略可能) の変更をユーザーに通知します。
 
 1. マイクロソフトのチーム管理センターで、**組織全体の設定**を選択して > **のチームをアップグレード**します。
 2. **共存モード**では、[**上**に**チームへのアップグレードが利用可能なビジネス ・ ユーザーの通知の Skype**のスイッチを変更します。
 
-### <a name="step-2-set-the-coexistence-mode-for-the-users"></a>ステップ 2: ユーザーの共存モードを設定します。
+### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>ステップ 2: TeamsOnly に組織で共存モードを設定します。
 
 1. マイクロソフトのチーム管理センターでは、**組織全体の設定**を選択します。
 2. **共存モード**」ドロップ ダウン リストから**チームのみ**のモードを選択します。
 
 ## <a name="upgrade-users-in-stages"></a>ユーザーを段階的にアップグレードします。
 
-チームにユーザーを段階的にアップグレードする場合は、以下の手順を実行します。
+TeamsOnly にユーザーを段階的にアップグレードする場合は、以下の手順を実行します。
 
-### <a name="step-1-create-your-user-cohorts-for-the-upgrade"></a>手順 1: アップグレードのため、ユーザーの cohorts を作成します。
+### <a name="step-1-identify-groups-of-users-for-upgrade"></a>ステップ 1: アップグレードのためのユーザーのグループを識別します。
 
-Cohorts のユーザーは、同時にチームのみのモードに移動するユーザーのグループです。
+組織では多くの場合は、ユーザーの成功の波に自分の組織をアップグレードすることができます。  検索できるように簡単にそれらのマイクロソフトのチームの管理センターで最初にこれらのユーザーを識別します。 またはより効率的にこれを行うに PowerShell を使用する場合があります。 アップグレード ウェーブの特定のユーザーのセットを識別した後は、残りの手順を続行します。
 
-ユーザーの cohorts (追加のユーザーの選択] ページへのリンク) を作成するには
+### <a name="step-2-set-notification-for-the-users-in-the-current-ugprade-wave-optional"></a>ステップ 2: 通知を設定、ユーザーの現在のアップグレードのウェーブで (省略可能)
 
-### <a name="step-2-set-the-user-mode-to-islands"></a>ステップ 2: 島へのユーザー モードを設定します。
+マイクロソフトのチームの管理センターを使用する場合、一度に最大 20 個のユーザーの TeamsUpgradePolicy を構成できます。
+1. マイクロソフトのチーム管理センターで、**ユーザー**、および検索と複数選択チェック ボックスをオンに最大 20 個のユーザーがアップグレードする必要があります。 
+2. リスト ビューの左上隅で**設定を編集**を選択します。 
+3. **チームのアップグレード**をするには、下、右上の**設定を編集**] ウィンドウでは、**上**に**通知 Skype ビジネス ユーザーの**スイッチを変更します。 注: 共存モードの値が使用して組織全体にわたる設定」の場合は、表示されませんこのスイッチでは、最初にこれらのユーザーに、組織の既定値は、どのような共存モードを明示的に設定する必要があります。
 
-1. マイクロソフトのチーム管理センターで、**ユーザー**を選択し、ユーザーの cohort します。
-2. **チームのアップグレード**をするには、横の**編集**を選択します。
-3. **共存モード**では、下の**チームのアップグレード**ウィンドウのドロップ ダウン リストから**島**を選択します。
+または、する場合がありますほうが簡単な PowerShell を使用して、一度にユーザーのグループに通知を有効にします。 
 
-### <a name="step-3-set-notification-for-the-user-optional"></a>ユーザーの通知を設定 (省略可能) 手順 3。
+### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>ステップ 3: ユーザーがチームのみの共存モードを設定します。
 
-1. マイクロソフトのチーム管理センターでは、**ユーザー**を選択し、ユーザー cohort を選択します。
-2. **チームのアップグレード**をするには、横の**編集**を選択します。
-3. **共存モード**では、下の**チームのアップグレード**ウィンドウの**上**に**通知 Skype ビジネス ユーザーの**スイッチを変更します。
+現在の波形で、唯一のアプリケーションとして、チームを使用するユーザーをアップグレードする準備ができたら、チームだけにユーザーの共存モードを設定します。
 
-### <a name="step-4-set-the-user-mode-to-teams-only"></a>手順 4: チームのみに、ユーザー モードを設定します。
+マイクロソフトのチームの管理センターを使用する場合、一度に最大 20 個のユーザーの TeamsUpgradePolicy を構成できます。
+1. マイクロソフトのチーム管理センターで、**ユーザー**を選択し、最大 20 個のユーザーのチェック ボックスを選択します。
+2. リスト ビューの左上隅で**設定を編集**を選択します。
+3. 右側の**チームをアップグレード**] セクションで、[**設定の編集**ウィンドウでドロップ ダウン リストで**チームのみ**に共存モードを設定します。
 
-唯一のアプリケーションとして、チームを使用するユーザーをアップグレードする準備ができたら、チームだけにユーザーの共存モードを設定します。
+または、する場合がありますほうが簡単な PowerShell を使用して、一度にユーザーのグループをアップグレードします。 
 
-1. マイクロソフトのチーム管理センターで、**ユーザー**を選択し、ユーザーの cohort します。
-2. **チームのアップグレード**をするには、横の**編集**を選択します。
-3. **チームのアップグレード**ウィンドウの [、**共存モード**では、ドロップ ダウン リストからの**チームのみ**を選択します。
+### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>手順 4: ユーザーの連続した波の手順 1 ~ 3 を繰り返します
+
+チームのみのモードへのアップグレードの検証を展開する準備ができているより多くのユーザーに TeamsOnly を適用する前の手順を繰り返します。  
+
 
 ## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
 

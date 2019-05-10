@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: テナント全体を管理する方法を理解し、チームのチームから移行する際のユーザーの設定が新しいマイクロソフトのチーム管理センターに Office 365 の管理センターで発生します。
+description: テナント全体を管理する方法を理解し、チームのチームから移行する際のユーザーの設定が新しいマイクロソフトのチーム管理センターに Microsoft 365 管理センターで発生します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a89910c96a428b45d13b99725081d47d1cd7e245
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199568"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827797"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
 ======================================================
@@ -42,7 +42,7 @@ ms.locfileid: "32199568"
 
 移行され、新しい管理ポータルで現在の設定とポリシーの関係を示しているチームの経験のセクションを次の表に示します。
 
-|Office 365 管理センターでのチームのセクション  |名 (テナント レベル) を設定します。  |マイクロソフトのチーム管理センターのポリシー   |レベル: テナントまたはユーザー   |
+|Microsoft 365 管理センターでのチームのセクション  |名 (テナント レベル) を設定します。  |マイクロソフトのチーム管理センターのポリシー   |レベル: テナントまたはユーザー   |
 |---------|---------|---------|---------|
 |General     |個人プロファイルで組織のチャットを表示します。        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  テナント       |
 |General     |ビジネスの Skype を使用して、チームを持っていない受信者         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
@@ -75,7 +75,7 @@ ms.locfileid: "32199568"
 |メッセージング      |独自のメッセージを削除するユーザーを許可します。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
 |メッセージング      |個別にチャットすることができます。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
 
-<sup>1</sup>は、ゲストから廃止されます。 ゲストを有効にする無効にすると管理できるように、マイクロソフトのチーム管理センターで。 企業、Edu の学生のチームを有効にする無効にして、Edu 教職員がすぐに使用できません。 これは、Office 365 の管理センターでのライセンスを割り当てることによって管理する必要があります。 [マイクロソフトのチームへのユーザー アクセスの管理](user-access.md)を参照してください。
+<sup>1</sup>は、ゲストから廃止されます。 ゲストを有効にする無効にすると管理できるように、マイクロソフトのチーム管理センターで。 企業、Edu の学生のチームを有効にする無効にして、Edu 教職員がすぐに使用できません。 Microsoft 365 の管理センターでのライセンスを割り当てることによってこれを管理する必要があります。 [マイクロソフトのチームへのユーザー アクセスの管理](user-access.md)を参照してください。
 <br><br>
 <sup>2</sup> Sideloading に次のように分割されます。
 
@@ -85,15 +85,15 @@ ms.locfileid: "32199568"
 <sup>3</sup>既定のアプリケーションと外部アプリケーションが有効になって、TeamsAppPermissionPolicy のユーザー レベルで無効になります。 さらに、組織全体にわたるアプリケーションの設定ですべてのユーザーとテナント レベルの設定をオーバーライドするテナント レベルでアプリケーションをブロックできます。 
 
 > [!NOTE]
-> Office 365 の管理センターでチームとのチャネルに関連する構成のグループのダッシュ ボードを使用する続行するでしょう。 アプリケーションの設定は、Office 365 の管理センターの [チーム] 領域で残され、後で移行されます。 
+> Microsoft 365 の管理センターでチームとチャネルに関連する構成のグループのダッシュ ボードを使用する続行するでしょう。 アプリケーションの設定は、Microsoft 365 管理センターの [チーム] 領域で残され、後で移行されます。 
 
 ## <a name="manage-settings-during-the-migration"></a>移行時に設定を管理します。
 
-セクションの移行が、テナントの完了するまで、Office 365 管理センターでは、ビジネス管理センターの Skype の設定を変更するのには続行することができます。 
+セクションの移行が、テナントの完了するまで、Microsoft 365 管理センターでは、ビジネス管理センターの Skype の設定を変更するのには続行することができます。 
 
 移行時に、機能を管理する場所を次の表に示します。
 
-|機能  |マイクロソフトのチーム管理センター                      |Skype のビジネス管理センター (レガシ)  |Office 365 管理者センター  |
+|機能  |マイクロソフトのチーム管理センター                      |Skype のビジネス管理センター (レガシ)  |Microsoft 365 管理者センター  |
 |---------|:---------:|:---------:|:---------:|
 |チームが、メッセージング、会議、およびイベントのライブのポリシー     |     X    |         |         |
 |チームのアップグレードのポリシー     |    X     |         |         |

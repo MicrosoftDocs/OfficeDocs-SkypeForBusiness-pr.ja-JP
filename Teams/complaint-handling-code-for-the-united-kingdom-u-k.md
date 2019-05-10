@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 207f2f6e9d11182986e0eff9d16ad418586105e2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 47c6b05ea89b1401a9ef8900f8f3c357b3b3a68a
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198332"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868681"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 での通話プラン - 英国 (U.K.) での苦情処理基準
 
@@ -39,7 +39,7 @@ Skype for Business では、顧客満足を最優先にしています。 ただ
 
 - 無料電話番号: 0800 032 6417
 
-- オンライン: Office 365 管理センターにサインインし、[ **サポート**] の [ **新しいサービス リクエスト**] を選び、サービス リクエストを送信します。
+- Microsoft 365 の管理センターにサインインしてオンラインにします。 と**サポート**] の下の**新しいサービス ・ リクエスト**を選択することでサービス リクエストを送信します。
 
 ## <a name="timelines"></a>タイムライン
 

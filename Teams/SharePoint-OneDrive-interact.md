@@ -3,7 +3,7 @@ title: Microsoft Teams との SharePoint Online と OneDrive for Business の連
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/12/2018
+ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -15,15 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 169008f7af8f52be60c7f15d7a4613f77ed161df
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
-ms.translationtype: HT
+ms.openlocfilehash: f790a01050811ee46526fe37a4d6c14f107491b5
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720324"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827741"
 ---
-<a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
-=============================================================================
+# <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 
 > [!Tip]
 > TeamsがAzure Active Directory（AAD）、Office 365グループ、Exchange、SharePoint、およびOneDrive for Businessとどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teams の基礎](https://aka.ms/teams-foundations)
@@ -37,7 +36,7 @@ Microsoft Teams の各チームには SharePoint Online にチーム サイト�
 SharePoint Online ドキュメント ライブラリと OneDrive for Business にファイルを格納することで、テナントレベルで構成されるすべてのコンプライアンス ルールが順守されます。 
 
 > [!NOTE]
-> 現時点で Microsoft TeamsのSharepoint オンプレミスとの統合はサポートされていません。
+> この時点でマイクロソフトのチームは、SharePoint の設置型との統合がサポートされていません。
 
 チーム、チャネル、ドキュメント ライブラリの関係の例を次に示します。
 
@@ -58,8 +57,29 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 
 ![各ユーザーのチャットに対応する、Microsoft Teams Chat Files という名前が付けられた OneDrive フォルダーの図。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-<a name="more-information"></a>詳細情報
-----------------
+## <a name="channel-files-tab"></a>チャネルの [ファイル] タブ
+
+> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
+
+チームで、[**ファイル**] タブには、SharePoint のドキュメントのビューがよく似ています。 [**ファイル**] タブで、ユーザーは次のタスクを実行できます。
+
+- **新規**の [ファイル] メニューの [追加のオプションを参照してください。
+- ローカル ドライブにファイルを同期します。
+- 上**のすべてのドキュメント**] メニューの [**リスト**] ビューの**最適化] ボックスの一覧**にビューに切り替えます**タイル**。
+- 注意が必要、またはマルウェアのファイルを識別します。
+- ファイルが読み取り専用か、またはチェックされたのかどうかをすぐに確認をします。
+- チェック アウトし、ファイルをチェックインします。
+- 固定し、固定を解除すると、ファイルの並べ替え順序を変更します。
+- メタデータを必要があるファイルを識別します。
+- 多数のフィルター オプションを選択します。
+- 列見出しに基づいてファイルをグループ化。
+- (移動左側または右側、非表示の列の設定と列の幅を変更します。
+
+## <a name="default-link-type-setting"></a>既定のリンクの種類の設定
+
+SharePoint および OneDrive ファイルに作成されるリンクの既定のリンクの種類を指定するため、管理者の設定があります。 チームは、管理者が SharePoint と OneDrive の設定の設定を再利用することによってその同じアプローチを採用しています。 この方法の詳細については、[リンクの種類では、ユーザーが共有へのリンクを取得するときに既定値を変更](https://docs.microsoft.com/sharepoint/change-default-sharing-link)することで説明します。 
+
+## <a name="more-information"></a>詳細情報
 
 SharePointがTeams とどのように連携するかの詳細については、[SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)を参照してください。
 

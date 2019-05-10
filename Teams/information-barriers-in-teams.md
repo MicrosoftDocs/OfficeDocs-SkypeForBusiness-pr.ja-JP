@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: 情報障壁とチームにどのように影響について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a529784ba9968835ce5fb9d8e8648022e46beda5
-ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33506752"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827789"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>マイクロソフト チームのプレビューでの情報障壁
 
@@ -77,7 +77,7 @@ ms.locfileid: "33506752"
 
 ## <a name="required-licenses-and-permissions"></a>必要なライセンスと権限
 
-現時点では、情報のバリア機能が、プライベートのプレビューです。 これらの機能が一般に利用可能なときは、それらがするサブスクリプションに含まれる、次のように。
+現在、情報バリア機能は、パブリック プレビューでは。 これらの機能が一般に利用可能なときは、それらがするサブスクリプションに含まれる、次のように。
 
 - Microsoft 365 E5
 - Office 365 E5

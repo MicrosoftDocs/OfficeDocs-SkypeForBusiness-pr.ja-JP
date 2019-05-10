@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: c35c2455c3164f04dd9fdbbb210e20809a719bc6
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632370"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835328"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams の発信通話制限ポリシー
 ===================================
@@ -85,11 +85,16 @@ ms.locfileid: "33632370"
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>グループを呼び出すに着信呼び出しをルーティングすることができます。 
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 この設定は、着信呼び出しを呼び出しグループに転送できるかどうかを制御します。
 
 ### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>着信および発信通話の委任を許可します。
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 この設定は、対象となるアクセス許可を委任するがユーザーによって送信呼び出しを行うデリゲートを許可する代理人に転送される着信呼び出しを有効にします。 詳細については、[代理人に電話回線の共有](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)を参照してください。
+
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>有料のバイパスを防止し、PSTN 経由で呼び出しを送信します。 
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、ビジネス サーバー 2019 の Skype にします。'
-ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239577"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835240"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では、どのような
 
@@ -29,7 +29,7 @@ ms.locfileid: "32239577"
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>ユニファイド メッセージング サービス: クラウドのボイスメール
 
-Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の Exchange 2013 または Exchange 2016 2019 のビジネス用の Skype を統合する場合です。 2019 の Exchange でのサポートの変更により、Exchange UM の統合は、ボイスメールのクラウドとクラウドの自動応答の機能のための emphasised ことです。  
+Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の Exchange 2013 または Exchange 2016 2019 のビジネス用の Skype を統合する場合です。 2019 の Exchange でのサポートの変更により、Exchange UM の統合は、ボイスメールのクラウドとクラウドの自動応答の機能に重要ではなくことです。  
 
 クラウドのボイスメールは、設置型または online& #x 2014 はマイクロソフトのクラウドで同じボイス メール サービスにアクセスするに置かれているかどうかのビジネス 2019 users& #x 2014 は、すべての Skype を使用できます。 ボイスメールのクラウドでは、オンプレミスとオンラインのユーザーの両方の次の利点があります。
 

@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織のためのTeamsを始めましょう
-ms.openlocfilehash: 7f68a21e835edb3b5ebcd8ff794f4fd3d0716bee
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: b2e7019183da06484b533fe66fd092c588c65e3f
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632295"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835442"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療関係組織のためのTeamsを始めましょう
 
@@ -91,10 +91,13 @@ EHR の統合と相互運用機能のパートナーがマイクロソフトの�
 
 - メッセージの送信者は、受信者は繰り返し通知を受け取るまで、メッセージを読むためのメッセージでは、特別な優先度を設定できます。
 - メッセージの受信者が送信したメッセージを開封した時に通知するため、メッセージの送信者は、開封確認メッセージを要求できます。
+- 
 
 これらの機能には、緊急メッセージと、メッセージが受信され、読み取られる自信を持って迅速な対応ができるようにします。 患者ごとにこれらの機能を使用して新しいケアのチームを作成できます。 これらの機能は、ポリシー ・ ベースでと、個人またはチーム全体に割り当てることができます。
 
 詳細については、[医療機関向けのポリシーをセキュリティで保護されたメッセージングを開始](messaging-policies-hc.md)を参照してください。
+
+関連するメッセージングをセキュリティで保護する、豊富なテナントの間の通信を許可する、医療関係組織でフェデレーション テナントは他の機能。 ([外部アクセスの管理 (連合) では、マイクロソフトのチーム](../../manage-external-access.md)を参照してください)。
 
 ## <a name="firstline-worker-integration"></a>先頭行の作業者の統合
 
