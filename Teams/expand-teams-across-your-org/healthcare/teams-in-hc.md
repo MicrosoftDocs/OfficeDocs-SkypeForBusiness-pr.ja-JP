@@ -13,27 +13,28 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織のためのTeamsを始めましょう
-ms.openlocfilehash: b2e7019183da06484b533fe66fd092c588c65e3f
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 0a169a61471e2c0c74024012b777fbf0bf2dc0cb
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835442"
+ms.locfileid: "33865031"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療関係組織のためのTeamsを始めましょう
 
 マイクロソフトのチームには、いくつかの病院およびその他の医療機関の便利な機能が用意されています。 チームは、機能の病院を支援するために開発中です。
 
-- ケアの調整
+- ケアの調整と共同作業
 - メッセージのセキュリティ保護します。
-- 電子医療記録 (EHR) の統合
-- 先頭行の作業者の統合
+- Telehealth
+
+を介して電子医療記録 (EHR) 統合システムの統合の先頭行の作業者と会議/通話、およびメッセージングのようなマイクロソフトのチームの他の基本的な機能です。 
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>注意調整 - マイクロソフト チームが患者のアプリ
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-マイクロソフトのチームでは、注意を払って調整ソリューションの最善の治療を提供するための最終的な目標を満たすために医療機関を特定できるようになりました。 チーム患者の Microsoft アプリケーションでは、注意を払って調整ソリューションの核心は、初めてのパーティ タブ アプリケーションに重要な医療機関の相互運用性リソース ([FHIR](https://www.hl7.org/fhir/)) 高速なインターフェイスを使用して電子医療記録 (EHR) システムと統合します。医療情報をマイクロソフトのチームに。  
+マイクロソフトのチームでは、注意を払って調整ソリューションの最善の治療を提供するための最終的な目標を満たすために医療機関を特定できるようになりました。 チーム患者の Microsoft アプリケーションでは、注意を払って調整ソリューションの核心は、初めてのパーティ タブ アプリケーションに重要な医療機関の相互運用性リソース ([FHIR](https://www.hl7.org/fhir/)) 高速なインターフェイスを使用して電子医療記録 (EHR) システムと統合します。臨床共同作業とコミュニケーションを有効にするコンテキストでのマイクロソフトのチームに医療情報です。  
 
 ケア連携ソリューションの患者のアプリケーションを HL7v2 と FHIR のように既存の正常性データの標準を使用して、EHR システムに接続可能な独立系ソフトウェア ベンダー (Isv) とインターフェイスことができます。 マイクロソフトは、電子医療記録の統合チームを確立するために、次の業界リーダーと提携します。
 

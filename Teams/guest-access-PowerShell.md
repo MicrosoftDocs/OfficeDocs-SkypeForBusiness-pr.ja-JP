@@ -14,17 +14,17 @@ search.appverid: MET150
 description: PowerShell を使用して、Microsoft Teams のチームへのゲスト アクセスを許可または拒否できます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ca05e48d28986a944debe150d5dbf25129ca73c
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 0efb3a8054008d179b9d2e7e674b3482fe62a32c
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827670"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865091"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell を使用してチームへのゲスト アクセスを制御する
 ================================================
 
-Office 365 管理センターと Azure Active Directory ポータルに加え、Windows PowerShell を使用してゲスト アクセスを制御することもできます。 PowerShell を使用すると、次の操作を行うことができます。
+Microsoft 365 管理センターでは、Active Directory の Azure ポータルを使用する以外は、ゲスト アクセスを制御するのに Windows PowerShell を使用できます。 PowerShell を使用すると、次の操作を行うことができます。
   
 - すべてのチームおよび Office 365 グループへのゲスト アクセスを許可または拒否する
     

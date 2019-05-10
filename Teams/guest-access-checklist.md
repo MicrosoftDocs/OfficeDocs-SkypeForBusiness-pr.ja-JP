@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80ae1944a2208393a38032bd6a988e807f803938
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 0273a9b6c308d8d53fdb640bac6787568398c5be
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827662"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865099"
 ---
 <a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -123,7 +123,7 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 
 ## <a name="-step-5-verify-sharing-setting-in-sharepoint"></a>□ 手順 5: SharePoint での共有設定を確認する
 
-1. Office 365 管理センターにサインインします。
+1. Microsoft 365 管理センターにサインインします。
 2. [**管理センター**] をクリックして [**SharePoint**] を選びます。
 3. SharePoint 管理センターで、[**共有**] を選択します。
 4. [**組織外との共有を許可しない**] の選択が*解除*されていることを確認します。
