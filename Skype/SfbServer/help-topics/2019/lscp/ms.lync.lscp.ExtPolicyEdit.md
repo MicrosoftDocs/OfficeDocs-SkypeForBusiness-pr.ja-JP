@@ -1,8 +1,8 @@
 ---
 title: 外部アクセス ポリシーを新規作成または既存の編集
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 8b91054bd0fd976ff3cde8448ac061cc2b33ba15
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0fc4578704a5a681245ccfde2e35988054d5f1b4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215669"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891573"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>外部アクセス ポリシー: 新規作成または現在の形式のままで編集
 

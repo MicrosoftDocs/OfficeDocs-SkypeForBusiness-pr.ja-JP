@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の通話プランが設定された電話システムのエンタープライズ テスト計画
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cb95414940cbea6eb47945e43d96eb35f4de8bd
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 1534c1b327e7fda146894430ca750f01c53e8fa4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401017"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898755"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>定義し、企業のチームのテスト計画での計画を呼び出すと、電話のシステムを文書化 
 ============================================================================================

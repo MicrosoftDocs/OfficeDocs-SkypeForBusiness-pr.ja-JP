@@ -1,8 +1,8 @@
 ---
 title: ビジネス用の Skype のアプリケーション レベルの応答グループの設定を管理します。
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で、保留中の音楽やリングバックの設定など、アプリケーション レベルの応答グループ設定を管理します。
-ms.openlocfilehash: ceb59b041918836f00f2a568ab8f93f638ecdac5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 41daedd21c5d7ea6f210594c66e3f20906ad90a5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223035"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892336"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>ビジネス用の Skype のアプリケーション レベルの応答グループの設定を管理します。
  

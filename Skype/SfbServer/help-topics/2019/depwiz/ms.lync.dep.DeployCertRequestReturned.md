@@ -1,8 +1,8 @@
 ---
 title: 証明書要求 (結果)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: オンライン証明書要求の状態のページは、その結果を正常に作成し、オンラインの証明書の要求の発行から重要な情報が表示されます。 このページには、証明書を一意に識別する証明書の拇印が用意されています。 既定では、Skype をビジネスのサーバー証明書の使用法の証明書を割り当てる] チェック ボックスが選択されます。 場合は [完了] をクリックすると、証明書に自動的に割り当てられます Skype ビジネス サーバーの証明書の要求の作成手順を実行中に定義するためにします。 既定では、証明書が割り当てられるため。
-ms.openlocfilehash: 70868129dc759e19960d2f6d9e3a9a1dc3d2f941
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f9d4094cb42690dfc6db252cbd8d7ad82fbab2a8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216369"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893903"
 ---
 # <a name="certificate-request-returned"></a>証明書要求 (結果)
  

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams ユーザーの導入計画 | ベスト プラクティス
-author: dearbeen
-ms.author: dearbeen
+author: kenwith
+ms.author: kenwith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb457ff6f5ba40575a8a7fc35738d8dda1ce45f5
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: 2c50bdc25cda1ce8c1ef742ab4141c753ca3a791
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30569975"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898502"
 ---
 ![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")
 

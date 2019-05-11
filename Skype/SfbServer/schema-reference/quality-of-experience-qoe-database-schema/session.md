@@ -1,8 +1,8 @@
 ---
 title: Session テーブル
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 各レコードは、オーディオまたはオーディオとビデオでは、1 つのセッションを表します。 セッションに関する全体的な情報が含まれています。 セッションは、2 つのエンドポイント間でオーディオまたはビデオのセッション開始プロトコル (SIP) ダイアログとして定義されます。
-ms.openlocfilehash: 7a0ea3f9753529c22299ef46017b863c314319b5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8aff8bb8be8366fe2e81e4d649d62562e899aab9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212377"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897156"
 ---
 # <a name="session-table"></a>Session テーブル
  

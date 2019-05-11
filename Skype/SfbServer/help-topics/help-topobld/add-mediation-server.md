@@ -1,8 +1,8 @@
 ---
 title: 仲介サーバーの追加
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 965eda6f-5d11-4b94-8cc4-5968bc4e7018
 description: 仲介サーバーを定義するには、仲介サーバー プールの完全修飾ドメイン名 (FQDN) を指定します。 仲介サーバーのプールを作成する場合は、展開する仲介サーバーのプールの名前を指定します。 個々のサーバーの FQDN は、別の手順で定義します。 単一の仲介サーバーを展開する場合は、指定した FQDN が単一の仲介サーバーの FQDN になります。 詳細については、ビジネス サーバー 2015 の Skype でトポロジ ビルダーでは、仲介サーバーの展開を参照してください。
-ms.openlocfilehash: 54c1be6c851916d754b2beacd28d2d86a0b848b6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 18728b7582fedfaa6b806f3782904da463973dfa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888676"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897668"
 ---
 # <a name="add-mediation-server"></a>仲介サーバーの追加
  
