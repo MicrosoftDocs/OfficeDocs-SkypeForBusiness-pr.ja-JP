@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server に PIN 非使用の会議参加を構成する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: '概要: レス暗証番号 (pin) を構成する方法を説明する会議のビジネス サーバーの Skype に参加するオプションです。'
-ms.openlocfilehash: 4ea20f68b123f6593c5a98fc82dbca62f90f31b1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c865d234b58b29890957a2c895a91d84b9a31bb0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198268"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888108"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Skype for Business Server に PIN 非使用の会議参加を構成する
  

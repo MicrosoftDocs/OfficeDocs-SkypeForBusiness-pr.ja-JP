@@ -1,8 +1,8 @@
 ---
 title: CQD の開発サンプル
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: '概要: は、品質のダッシュ ボードを呼び出すためのチュートリアルと開発のサンプルを確認します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: eb2e195a9eaac54b01af6d0da498fda6fafe374c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f227785cea2291b0314d309b0929f0a55948ba65
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232859"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930568"
 ---
 # <a name="cqd-development-samples"></a>CQD の開発サンプル
 

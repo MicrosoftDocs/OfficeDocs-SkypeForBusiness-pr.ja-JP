@@ -1,8 +1,8 @@
 ---
 title: ダイヤルイン アクセス番号を新規作成または既存の編集
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: c588c76c9e84a8f384c404de5aaee6640b21f063
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96d4597c3b147474f79935a11bfcc112248aea3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215781"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891622"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>ダイヤルイン アクセス番号: 新規作成または現在の形式のままで編集
 

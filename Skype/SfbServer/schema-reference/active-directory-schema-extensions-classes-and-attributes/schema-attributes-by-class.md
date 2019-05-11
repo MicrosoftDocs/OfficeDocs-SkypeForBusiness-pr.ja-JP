@@ -1,8 +1,8 @@
 ---
 title: Skype ビジネス サーバー用のクラスでのスキーマの属性
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: このセクションでは、サーバーのビジネス クラスとその他のクラスに組み込むことができるクラスの各 Skype で組み込むことができるスキーマの属性を一覧表示します。 すべてのクラスとその説明のリストは、スキーマのクラスおよびビジネス サーバーの Skype での説明を参照してください。 すべての属性とその説明のリストは、スキーマの属性および Skype ビジネス サーバーの説明を参照してください。
-ms.openlocfilehash: a2dc6ee09730c1245a3242f88ad25ad07f9b582a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1560e7100fb3fe48f0ef1aa03bd55d65a8894b37
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213369"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924935"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Skype ビジネス サーバー用のクラスでのスキーマの属性
  

@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーに、Skype で複数の緊急番号を計画します。
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: ビジネス サーバーに、Skype で複数の緊急番号を計画する方法については、このトピックを参照してください。
-ms.openlocfilehash: e3ecbc039dac510a1ebc5eb989773c1f32c3b6ac
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f44c8397bb03c014a51ffd3b2bbc30e64b3f2ebe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214160"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919347"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で複数の緊急番号を計画します。
  

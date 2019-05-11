@@ -1,8 +1,8 @@
 ---
 title: 作成またはビジネス サーバーの Skype でお知らせを削除します。
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype のアプリケーションを発表のお知らせを削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
-ms.openlocfilehash: cf6fc0ce754e30e4d52e968dc3a167bbe87a5a83
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 79298dbe415071d9d773375f524dff95516cc4fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223523"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893008"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype でお知らせを削除します。
 

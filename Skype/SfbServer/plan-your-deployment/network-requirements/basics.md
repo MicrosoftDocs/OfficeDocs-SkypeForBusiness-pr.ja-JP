@@ -1,8 +1,8 @@
 ---
 title: DNS の基礎
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 には、DNS ポリシーのシナリオ ガイドなどの使用可能なドキュメントを確認することがありますので、DNS サービスを提供する組み込みのソフトウェアがあります。 使用する場合は、サードパーティ製のソリューションが存在することができます。
-ms.openlocfilehash: 2ba20c6aabd296f13ea5e84053d140123097f114
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 246b482aa94f3989261310c7d36551360708d0b1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213894"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929049"
 ---
 # <a name="dns-basics"></a>DNS の基礎
  

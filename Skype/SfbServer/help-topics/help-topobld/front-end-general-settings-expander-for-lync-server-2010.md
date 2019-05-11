@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2010 用のフロントエンド全般設定の展開
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: フロント エンド サーバーまたはフロント エンド プールのプロパティを編集するには、編集または、次の属性を構成します。 構成] ページでは、次のセクションに分かれています。
-ms.openlocfilehash: 34f026b6e802bb83c550d2a81e5630a64765e27d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c2941f683fe6fe9282c4dda00fb4fd255722a10e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180376"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888717"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のフロントエンド全般設定の展開
 

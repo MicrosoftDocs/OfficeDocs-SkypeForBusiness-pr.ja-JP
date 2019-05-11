@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype の高品質のエクスペリエンスの設定を変更します。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 概要では、Skype のビジネス サーバーの QoE データの保存期間を指定する方法について説明します。
-ms.openlocfilehash: 4a2197d3d66a5b871682ba187bf607480f2da175
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19342bb3f24f9e93919d0f1a292153d553f4c450
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197766"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929512"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype の高品質のエクスペリエンスの設定を変更します。
 

@@ -1,7 +1,7 @@
 ---
 title: Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: qingy
 ms.audience: ITPro
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: IT 専門家向けに、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラム関連情報へのリンクを提供します。
-ms.openlocfilehash: 8b82923625b8ce686a5898a3d271734aeb8e4ab0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b7dadb5b302a1f8221d5fac05d28bfc2b696eb1d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211976"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924438"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
 
 このページのリンクを使用して、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラムの詳細情報の確認やダウンロードを行うことができます。
 
 > [!NOTE]
-> - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
+> - この記事の情報は、WIndows インストーラー (MSI) のインストール テクノロジを使用する Skype for Business の永続バージョンについてのみ適用されます。 具体的には、Office Professional Plus 2016 に含まれている Skype for Business のような、Skype for Business のボリューム ライセンスのバージョンをインストールした場合です。
 > - この記事の情報は、Office 365 ProPlus に含まれている Skype for Business のような、Skype for Businss の Office 365 バージョンについては適用されません。
 > - 最新のモバイル クライアントの更新プログラムの場合は、お使いのモバイル クライアントのアプリ ストア (iTunes、Google Play、または Microsoft Store) に移動して、詳細を表示して更新プログラムをインストールしてください。
 > - 現在使用している Skype for Business のバージョンを確認する場合は、「[What version of Skype for Business do I have? (利用している Skype for Business のバージョンは何でしょうか?)](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)」をご覧ください。
@@ -30,7 +30,7 @@ ms.locfileid: "32211976"
 
 Office 365 との Skype for Business の互換性およびオンプレミス環境は、お使いの展開に応じて異なります。
 
-- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
+- Office 365 は、Skype for Business 2016 の最新バージョンを含む、メインストリーム サポート内の Skype for Business のすべてのバージョンと連携して機能します。 Skype for Business の以前のバージョンについては、Office 365 と連携して機能し続ける可能性があるのは、拡張サポートが有効なバージョンのみです。ただし、利用できる機能は削減されます。 詳細については、「[マイクロソフト製品サポート ライフサイクル ポリシー](https://support.microsoft.com/lifecycle)」をご覧ください。
 
 - Skype for Business Server のオンプレミス展開については、次に示すお使いの Skype for Business のバージョンのシステム要件に従ってください。
 

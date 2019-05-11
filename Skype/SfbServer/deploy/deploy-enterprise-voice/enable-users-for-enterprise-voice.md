@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '概要: は、Skype のビジネス サーバーのエンタープライズ VoIP を使用して呼び出しを受信しユーザーを有効にする方法を説明します。'
-ms.openlocfilehash: b02155f424e8b3f29881caf8c4a29db6f76cb807
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d99f5f84780ea0f1915edbc50d3f6181eac90a99
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212475"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892441"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。
  

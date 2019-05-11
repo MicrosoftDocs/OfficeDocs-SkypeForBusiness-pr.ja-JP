@@ -1,8 +1,8 @@
 ---
 title: Skype ビジネス サーバー用のコア ・ インフラストラクチャに関するベスト プラクティス
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段をすでに講じていることでしょう。 これらのプラクティスは、ビジネスのサーバー インフラストラクチャのため、Skype だけでなく、ネットワーク全体を活用できます。 これらのプラクティスを実装していない場合は、設定するように Skype をビジネス サーバーを展開する前にすることをお勧めします。
-ms.openlocfilehash: 86d18e1d9d34b5f65f4cb938e13a9829af1646bb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 66725331c84e3f2d24e496489e0db8ef9866d0e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213628"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896355"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Skype ビジネス サーバー用のコア ・ インフラストラクチャに関するベスト プラクティス
  

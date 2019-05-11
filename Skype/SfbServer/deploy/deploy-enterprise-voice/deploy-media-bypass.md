@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype でのメディア バイ パスを展開します。
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: ビジネス サーバーのエンタープライズ VoIP の Skype でのメディア バイ パスを展開します。 前提条件と展開プロセスのチェックリストも掲載しています。
-ms.openlocfilehash: 307c3ff66adf042a984c544a722517d2709154d0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0a2e485b0aed5d1d2a8bd9276d05e3bb9f3f66e4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223107"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892686"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのメディア バイ パスを展開します。
  

@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams ミーティング ライセンス
-ms.author: tonysmit
-author: tonysmit
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.reviewer: mikedav
+ms.reviewer: davgroom
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'マイクロソフト チームの会議室で利用できる機能について説明します。 '
-ms.openlocfilehash: cef845197d8b76dfc6248f1976f08879680ace5f
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 667c10c93af5d25f9f9d8cc94a2ecef9dc517b37
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865023"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916484"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams ミーティング ライセンス
 <a name="bkmk_srs"> </a>

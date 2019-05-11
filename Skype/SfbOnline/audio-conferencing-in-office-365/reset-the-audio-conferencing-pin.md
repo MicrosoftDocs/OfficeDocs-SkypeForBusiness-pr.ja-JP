@@ -1,6 +1,6 @@
 ---
 title: オンライン ビジネスの電話会議の Skype では、暗証番号 (pin) をリセットします。
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ピンについて何を理解する必要があり、オンライン ビジネスの Skype でそれらをリセットする方法を紹介します。 '
-ms.openlocfilehash: 257f59f59d4fc86c91aa5496fe3db42573269065
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0b2c6ae7a26d23fbcb0f18da45886ba13853037f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229253"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906798"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>オンライン ビジネスの電話会議の Skype では、暗証番号 (pin) をリセットします。
 
@@ -102,6 +102,6 @@ PIN は、電話会議が有効になっているビジネス ユーザーの各
     > [!NOTE]
     > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user.md)

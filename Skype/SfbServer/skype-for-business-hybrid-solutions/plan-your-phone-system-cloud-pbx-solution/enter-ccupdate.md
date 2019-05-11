@@ -4,18 +4,19 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 ms.date: 3/31/2017
+manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: Enter CcUpdate コマンドレットでは、メンテナンス モードで配置することによって更新プロセスにホスト サーバーでビジネス クラウド コネクタ版 Skype を準備します。 アプライアンスの isdrained-は、既存のすべての呼び出しは完了しますが、新しい呼び出しは拒否されます。
-ms.openlocfilehash: 45972058cd9263330b6a4c0a68a5a1b800a85d9d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 42c8f7fa668fa94040276e7749e93b5832d511cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234064"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929432"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
  

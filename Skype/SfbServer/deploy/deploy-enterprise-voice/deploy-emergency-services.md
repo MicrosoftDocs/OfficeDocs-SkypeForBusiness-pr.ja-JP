@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype で緊急サービスを展開します。
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: ビジネス サーバーのエンタープライズ VoIP は、Skype で ~ 9-1-1 を展開します。 前提条件と展開プロセスのチェックリストも掲載しています。
-ms.openlocfilehash: b24bdfdd40787c8be57b541f3a163e3c21f3012a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7dddbd338ac496de995d3971b6298f5a37885bba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223128"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892728"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>ビジネス サーバーの Skype で緊急サービスを展開します。
  

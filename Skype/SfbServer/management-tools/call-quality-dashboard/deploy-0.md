@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype の通話品質のダッシュ ボードを展開します。
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '概要: は、品質のダッシュ ボードを呼び出すための展開プロセスについて説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: ee67ddd0c0c9c3f2d169831c50dda49240d2ec7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: d048031ad7284b16f968d0f4641f0b31f9c984a9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883617"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887161"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバーの Skype の通話品質のダッシュ ボードを展開します。
  

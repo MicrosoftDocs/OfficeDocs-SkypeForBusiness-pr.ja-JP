@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams で Cloud Voice ワークロードを構成するための使用開始チェックリスト
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3da65a7203f8597824a43be15d5980a5ab53cb2f
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 416cf03d07918834ebd06dbfd717bd28b7edff2d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400845"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33899054"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>マイクロソフトのチームでの音声のワークロードをクラウドを構成します。
 
@@ -34,7 +34,7 @@ ms.locfileid: "33400845"
 | 4  | 既定会議ブリッジの電話番号を構成します。 | 組織の既定会議ブリッジの電話番号、有効にされているが、会議ブリッジの電話番号を明示的に割り当てられているユーザーに割り当てられているを構成することができます。 既定の番号は、組織の中心の位置に揃える必要があります。 | | [招待状に含まれている電話番号を設定する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites) |
 | 5  | 会議ブリッジの電話番号の言語を設定します | 会議ブリッジの電話番号のプライマリとセカンダリの言語を構成します。 <br/><br/>ユーザーをサポートする適切な言語、地域会議ブリッジの電話番号が割り当てられていることを確認します。 | | [電話会議の自動案内の言語を設定する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) |
 | 6  | 会議ブリッジの設定を構成します。 | 会議を構成する経験、暗証番号 (pin) の長さ、および会議の開始/終了のお知らせの設定に参加します。 これら会議ブリッジの設定、組織の目標との位置を合わせます。 | | [電話会議ブリッジの設定を変更する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge) |
-| 7  | 会議出席依頼をカスタマイズする | 管理者は、ミーティング招待状のヘルプまたは法的な情報にリンクしている Url を含めることができます。 ロゴを更新し、招待状にフッター テキストを追加できます。 | | [会議出席依頼をカスタマイズする](https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/customize-meeting-invitations) |
+| 7  | 会議の出席依頼をカスタマイズする | 管理者は、ミーティング招待状のヘルプまたは法的な情報にリンクしている Url を含めることができます。 ロゴを更新し、招待状にフッター テキストを追加できます。 | | [会議の出席依頼をカスタマイズする](https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/customize-meeting-invitations) |
 | 8  | ダイヤル プランを構成する | ダイヤル プランには、ユーザーが電話番号をダイヤルするには、市内通話、市外局番を省略すること、国内通話用の国コードを省略すると、会議中に他のユーザーにダイヤルアウトするのには短い桁のダイヤルを使用してもなど、ために使用していることができます。 <br/><br/>サービスのダイヤル プラン: 既定値: ユーザーの Office 365 の使用状況の場所に基づいており、変更することはできません。 <br/><br/>既定サービスのダイヤル プランがニーズを満たしていない場合は、テナントまたはユーザー レベルでのテナントのダイヤル プランを構成できます。 | | [マイクロソフト チームのオーディオ会議のダイヤル プラン](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing#dial-plans) <br/><br/>[Office 365 ダイヤル プランの計画を呼び出す](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) |
 | 9  | 会議番号と Pin をユーザーに割り当てる | 会議の番号が既定の番号に従ってユーザーに割り当てられている既定では、チームには、管理者が選択されています。 ピンがランダムに生成された最初のユーザーは、暗証番号 (pin) ポリシーに基づいています。<br/><br/> ユーザーは、会議電話番号と Pin を電子メールに表示されます。 ユーザーは Pin を変更できます。 <br/><br/>管理者は、ダイヤルイン ユーザーが既定の番号とは異なる場所にローカル会議の番号を使用するを有効にできます。 | | |
 | 10 | 準備し、ユーザー受け入れテストを実行します。 | 準備し、ダイヤルインとダイヤルアウトのシナリオを含む、ユーザー受け入れテストを実行します。 | | [オーディオ会議のためのテスト計画](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing) |

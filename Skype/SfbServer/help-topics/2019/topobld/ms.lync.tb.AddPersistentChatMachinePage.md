@@ -1,8 +1,8 @@
 ---
 title: 常設チャット プールのコンピューターの定義
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: コンピューターの FQDN で、完全修飾ドメイン名 (FQDN) を入力することによって永続的なチャット サーバー プールの一部となるコンピューターを定義します。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。
-ms.openlocfilehash: 956fba56e1a14c90f7d535c5bce0ea8d1f49544a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6e15966f9ae517cb5b944f989b699007e3268d1c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220819"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912282"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>常設チャット プールのコンピューターの定義
 
