@@ -1,8 +1,8 @@
 ---
 title: Office Web Apps サーバーの設定を編集する
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 8/19/2016
 ms.audience: ITPro
@@ -13,25 +13,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 構成されている Office の Web アプリケーション サーバーのプロパティを編集するとします。 編集できるプロパティは次のとおりです。
-ms.openlocfilehash: 163c2d8623175af0e41b69e2422734513835e2d3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b64060cd3e51dbe8fe8398137c3fc323cd9daa2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194013"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924431"
 ---
-# <a name="edit-office-web-apps-server-settings"></a><span data-ttu-id="c6609-104">Office Web Apps サーバーの設定を編集する</span><span class="sxs-lookup"><span data-stu-id="c6609-104">Edit Office Web Apps Server Settings</span></span>
+# <a name="edit-office-web-apps-server-settings"></a><span data-ttu-id="f3bc6-104">Office Web Apps サーバーの設定を編集する</span><span class="sxs-lookup"><span data-stu-id="f3bc6-104">Edit Office Web Apps Server Settings</span></span>
 
-<span data-ttu-id="c6609-105">構成されている Office の Web アプリケーション サーバーのプロパティを編集するとします。</span><span class="sxs-lookup"><span data-stu-id="c6609-105">You edit the properties of the configured Office Web Apps Server.</span></span> <span data-ttu-id="c6609-106">編集できるプロパティは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="c6609-106">The following properties are available to edit:</span></span>
+<span data-ttu-id="f3bc6-105">構成されている Office の Web アプリケーション サーバーのプロパティを編集するとします。</span><span class="sxs-lookup"><span data-stu-id="f3bc6-105">You edit the properties of the configured Office Web Apps Server.</span></span> <span data-ttu-id="f3bc6-106">編集できるプロパティは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="f3bc6-106">The following properties are available to edit:</span></span>
 
- <span data-ttu-id="c6609-107">**Office Web アプリケーション サーバーの FQDN**: このプロパティは、Office Web アプリケーション サーバーの完全修飾ドメイン名を定義し、ドメイン ネーム システム (DNS) ホストの A または AAAA (IPv6 が使用されている) 場合に一致する必要がありますレコードです。</span><span class="sxs-lookup"><span data-stu-id="c6609-107">**Office Web Apps Server FQDN**: This property defines the fully qualified domain name of the Office Web Apps Server and should match a domain name system (DNS) host A or AAAA (if IPv6 is being used) record.</span></span>
+ <span data-ttu-id="f3bc6-107">**Office Web アプリケーション サーバーの FQDN**: このプロパティは、Office Web アプリケーション サーバーの完全修飾ドメイン名を定義し、ドメイン ネーム システム (DNS) ホストの A または AAAA (IPv6 が使用されている) 場合に一致する必要がありますレコードです。</span><span class="sxs-lookup"><span data-stu-id="f3bc6-107">**Office Web Apps Server FQDN**: This property defines the fully qualified domain name of the Office Web Apps Server and should match a domain name system (DNS) host A or AAAA (if IPv6 is being used) record.</span></span>
 
- <span data-ttu-id="c6609-108">**Office Web アプリケーション サーバーの検出 URL**: Office Web アプリケーション サーバーへのクライアント アクセスの統一リソース ロケーター (URL)、別のネットワーク ゾーンの内部ネットワーク以外のサーバーが配置されている場合既定値からこのアドレスを編集する必要があります、展開します。</span><span class="sxs-lookup"><span data-stu-id="c6609-108">**Office Web Apps Server discovery URL**: The uniform resource locator (URL) for client access to the Office Web Apps Server, you may need to edit this address from its default if the server is placed in another network zone other than the internal network for your deployment.</span></span>
+ <span data-ttu-id="f3bc6-108">**Office Web アプリケーション サーバーの検出 URL**: Office Web アプリケーション サーバーへのクライアント アクセスの統一リソース ロケーター (URL)、別のネットワーク ゾーンの内部ネットワーク以外のサーバーが配置されている場合既定値からこのアドレスを編集する必要があります、展開します。</span><span class="sxs-lookup"><span data-stu-id="f3bc6-108">**Office Web Apps Server discovery URL**: The uniform resource locator (URL) for client access to the Office Web Apps Server, you may need to edit this address from its default if the server is placed in another network zone other than the internal network for your deployment.</span></span>
 
-<span data-ttu-id="c6609-109">このサーバーの展開先が境界ネットワークであるか、または内部展開から境界ネットワーク、信頼性の低いネットワーク、およびインターネットを分離する内部ファイアウォールの外にある他のネットワーク ゾーンである場合は、[**Office Web Apps サーバーは外部ネットワークで展開**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="c6609-109">Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.</span></span>
+<span data-ttu-id="f3bc6-109">このサーバーの展開先が境界ネットワークであるか、または内部展開から境界ネットワーク、信頼性の低いネットワーク、およびインターネットを分離する内部ファイアウォールの外にある他のネットワーク ゾーンである場合は、[**Office Web Apps サーバーは外部ネットワークで展開**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="f3bc6-109">Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.</span></span>
 
 ![Office Web Apps 設定エキスパンダー](../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a><span data-ttu-id="c6609-111">関連項目</span><span class="sxs-lookup"><span data-stu-id="c6609-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f3bc6-111">関連項目</span><span class="sxs-lookup"><span data-stu-id="f3bc6-111">See also</span></span>
 
-[<span data-ttu-id="c6609-112">Components and Topologies for Conferencing</span><span class="sxs-lookup"><span data-stu-id="c6609-112">Components and Topologies for Conferencing</span></span>](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[<span data-ttu-id="f3bc6-112">Components and Topologies for Conferencing</span><span class="sxs-lookup"><span data-stu-id="f3bc6-112">Components and Topologies for Conferencing</span></span>](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

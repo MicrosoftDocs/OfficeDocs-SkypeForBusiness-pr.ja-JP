@@ -1,6 +1,6 @@
 ---
 title: Skype 会議をブロードキャストのプレビュー設定
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
@@ -20,21 +20,21 @@ f1keywords:
 ms.custom:
 - SMB
 description: ビジネス カスタマー プレビュー プログラムの Skype では、新しい製品や機能を早期アクセスを提供します。 次に来るテクノロジー、独自の環境に新しい機能をテストし、フィードバックを一般に公開する製品ビルドをリリースする前にプレビューを取得するのには、組織が有効にします。 詳細については、プレビューを表示するビジネス Skype を参照してください。
-ms.openlocfilehash: 1f563292e2e5927cf037e5d2a9b24405d0a336a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0769d33885e3782a4e716797ef0c8995047f9659
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226146"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906571"
 ---
-# <a name="skype-meeting-broadcast-preview-settings"></a><span data-ttu-id="b5151-105">Skype 会議をブロードキャストのプレビュー設定</span><span class="sxs-lookup"><span data-stu-id="b5151-105">Skype Meeting Broadcast Preview settings</span></span>
+# <a name="skype-meeting-broadcast-preview-settings"></a><span data-ttu-id="24b57-105">Skype 会議をブロードキャストのプレビュー設定</span><span class="sxs-lookup"><span data-stu-id="24b57-105">Skype Meeting Broadcast Preview settings</span></span>
 
-<span data-ttu-id="b5151-106">ビジネス カスタマー プレビュー プログラムの Skype では、新しい製品や機能を早期アクセスを提供します。</span><span class="sxs-lookup"><span data-stu-id="b5151-106">The Skype for Business customer preview program provides you early access to new products and features.</span></span> <span data-ttu-id="b5151-107">次に来るテクノロジー、独自の環境に新しい機能をテストし、フィードバックを一般に公開する製品ビルドをリリースする前にプレビューを取得するのには、組織が有効にします。</span><span class="sxs-lookup"><span data-stu-id="b5151-107">It enables your organization to get a sneak peek at what's coming, test out the new features in your own environment, and give feedback before we release product builds to the general public.</span></span> <span data-ttu-id="b5151-108">詳細については、 [Skype](https://www.skypepreview.com/)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b5151-108">To find out more, see [Skype for Business preview](https://www.skypepreview.com/).</span></span>
+<span data-ttu-id="24b57-106">ビジネス カスタマー プレビュー プログラムの Skype では、新しい製品や機能を早期アクセスを提供します。</span><span class="sxs-lookup"><span data-stu-id="24b57-106">The Skype for Business customer preview program provides you early access to new products and features.</span></span> <span data-ttu-id="24b57-107">次に来るテクノロジー、独自の環境に新しい機能をテストし、フィードバックを一般に公開する製品ビルドをリリースする前にプレビューを取得するのには、組織が有効にします。</span><span class="sxs-lookup"><span data-stu-id="24b57-107">It enables your organization to get a sneak peek at what's coming, test out the new features in your own environment, and give feedback before we release product builds to the general public.</span></span> <span data-ttu-id="24b57-108">詳細については、 [Skype](https://www.skypepreview.com/)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="24b57-108">To find out more, see [Skype for Business preview](https://www.skypepreview.com/).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="b5151-109">関連トピック</span><span class="sxs-lookup"><span data-stu-id="b5151-109">Related topics</span></span>
-[<span data-ttu-id="b5151-110">Windows PowerShell と Skype for Business Online の概要</span><span class="sxs-lookup"><span data-stu-id="b5151-110">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+## <a name="related-topics"></a><span data-ttu-id="24b57-109">関連トピック</span><span class="sxs-lookup"><span data-stu-id="24b57-109">Related topics</span></span>
+[<span data-ttu-id="24b57-110">Windows PowerShell と Skype for Business Online の概要</span><span class="sxs-lookup"><span data-stu-id="24b57-110">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
   
-[<span data-ttu-id="b5151-111">Skype for Business Online のセットアップ</span><span class="sxs-lookup"><span data-stu-id="b5151-111">Set up Skype for Business Online</span></span>](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[<span data-ttu-id="24b57-111">Skype for Business Online のセットアップ</span><span class="sxs-lookup"><span data-stu-id="24b57-111">Set up Skype for Business Online</span></span>](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
  

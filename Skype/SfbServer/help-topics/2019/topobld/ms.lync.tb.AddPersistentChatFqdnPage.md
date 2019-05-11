@@ -1,8 +1,8 @@
 ---
 title: 常設チャットの FQDN の定義
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 新しい永続的なチャットのサーバーまたは新しい永続的なチャット プールの定義ウィザードを使用して永続的なチャット サーバー プールを作成するとします。 複数コンピューター プールまたは単一コンピューター プールを選択してください。 単一コンピューター プールを選択し、後で複数コンピューター プールが必要になった場合は、その単一コンピューター プールを削除してから複数コンピューター プールを定義する必要があります。
-ms.openlocfilehash: e05eb50751b92c9f4ce6b05c23314683afd5b5dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c288cf1f468213cafa721987fddee7fda080b1c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220840"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912233"
 ---
-# <a name="define-persistent-chat-fqdn"></a><span data-ttu-id="0ee12-105">常設チャットの FQDN の定義</span><span class="sxs-lookup"><span data-stu-id="0ee12-105">Define Persistent Chat FQDN</span></span>
+# <a name="define-persistent-chat-fqdn"></a><span data-ttu-id="981b4-105">常設チャットの FQDN の定義</span><span class="sxs-lookup"><span data-stu-id="981b4-105">Define Persistent Chat FQDN</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="0ee12-106">永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="0ee12-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="0ee12-107">同じ機能は、チームで使用できます。</span><span class="sxs-lookup"><span data-stu-id="0ee12-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="0ee12-108">詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0ee12-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="0ee12-109">永続的なチャットの使用が必要な場合、選択肢としてはチームにこの機能を必要とするユーザーを移行するか、ビジネス サーバー 2015 の Skype を使用し続けます。</span><span class="sxs-lookup"><span data-stu-id="0ee12-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="981b4-106">永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="981b4-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="981b4-107">同じ機能は、チームで使用できます。</span><span class="sxs-lookup"><span data-stu-id="981b4-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="981b4-108">詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="981b4-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="981b4-109">永続的なチャットの使用が必要な場合、選択肢としてはチームにこの機能を必要とするユーザーを移行するか、ビジネス サーバー 2015 の Skype を使用し続けます。</span><span class="sxs-lookup"><span data-stu-id="981b4-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
