@@ -1,8 +1,8 @@
 ---
 title: ネットワーク地域リンクの構成
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 53791fa0e6c4a5ac29fdc124e9ef05e1e152897c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 632487f8e0a423ba619709adc96208c090db570d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215333"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891104"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="72b40-104">ネットワーク地域リンクの構成</span><span class="sxs-lookup"><span data-stu-id="72b40-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="3e8c8-104">ネットワーク地域リンクの構成</span><span class="sxs-lookup"><span data-stu-id="3e8c8-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="72b40-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="72b40-105">What do you want to do?</span></span> <span data-ttu-id="72b40-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="72b40-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3e8c8-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="3e8c8-105">What do you want to do?</span></span> <span data-ttu-id="3e8c8-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="3e8c8-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="72b40-107">ネットワーク地域リンクを構成します。</span><span class="sxs-lookup"><span data-stu-id="72b40-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="3e8c8-107">ネットワーク地域リンクを構成します。</span><span class="sxs-lookup"><span data-stu-id="3e8c8-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 

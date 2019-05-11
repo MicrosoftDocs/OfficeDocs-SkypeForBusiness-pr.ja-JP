@@ -1,8 +1,8 @@
 ---
 title: 音声のルーティングのテスト_ケースをテストします。
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,24 +13,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 61d704a97cf094aa77f3b33fab80d60ade499380
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1cf50d5496304e11073915fb68add146b569c8a7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220050"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929603"
 ---
-# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="9ddc7-104">音声ルーティングのテスト: テスト ケース</span><span class="sxs-lookup"><span data-stu-id="9ddc7-104">Test Voice Routing: Test Cases</span></span>
+# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="40093-104">音声ルーティングのテスト: テスト ケース</span><span class="sxs-lookup"><span data-stu-id="40093-104">Test Voice Routing: Test Cases</span></span>
 
-<span data-ttu-id="9ddc7-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="9ddc7-105">What do you want to do?</span></span> <span data-ttu-id="9ddc7-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="9ddc7-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="40093-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="40093-105">What do you want to do?</span></span> <span data-ttu-id="40093-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="40093-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="9ddc7-107">音声ルーティング テスト_ケースを作成します。</span><span class="sxs-lookup"><span data-stu-id="9ddc7-107">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [<span data-ttu-id="40093-107">音声ルーティング テスト_ケースを作成します。</span><span class="sxs-lookup"><span data-stu-id="40093-107">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
 
-- [<span data-ttu-id="9ddc7-108">音声ルーティング テスト_ケースをエクスポートします。</span><span class="sxs-lookup"><span data-stu-id="9ddc7-108">Export Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
+- [<span data-ttu-id="40093-108">音声ルーティング テスト_ケースをエクスポートします。</span><span class="sxs-lookup"><span data-stu-id="40093-108">Export Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
 
-- [<span data-ttu-id="9ddc7-109">音声ルーティング テスト_ケースをインポートします。</span><span class="sxs-lookup"><span data-stu-id="9ddc7-109">Import Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
+- [<span data-ttu-id="40093-109">音声ルーティング テスト_ケースをインポートします。</span><span class="sxs-lookup"><span data-stu-id="40093-109">Import Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
 
-- [<span data-ttu-id="9ddc7-110">音声ルーティング テスト_ケースを実行します。</span><span class="sxs-lookup"><span data-stu-id="9ddc7-110">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+- [<span data-ttu-id="40093-110">音声ルーティング テスト_ケースを実行します。</span><span class="sxs-lookup"><span data-stu-id="40093-110">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
 
-<span data-ttu-id="9ddc7-111">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9ddc7-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="40093-111">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="40093-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

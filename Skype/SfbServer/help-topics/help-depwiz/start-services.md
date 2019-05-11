@@ -1,8 +1,8 @@
 ---
 title: サービスの開始
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 description: サービスを開始すると、展開されたサーバーの役割を手順 4 で実行] をクリックします。 サービスを開始します。 または同等のローカルの Administrators グループのメンバーとしてログオンする必要があります。
-ms.openlocfilehash: 7b376936cf81cb16ec646293b4fbc643c2daf11f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 237f70d4208cb31db8f4d9d788253eb27741b95d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234888"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925167"
 ---
-# <a name="start-services"></a><span data-ttu-id="3945a-104">サービスの開始</span><span class="sxs-lookup"><span data-stu-id="3945a-104">Start Services</span></span>
+# <a name="start-services"></a><span data-ttu-id="77fe8-104">サービスの開始</span><span class="sxs-lookup"><span data-stu-id="77fe8-104">Start Services</span></span>
  
-<span data-ttu-id="3945a-105">サービスを開始すると、展開されたサーバーの役割を [**実行**] をクリックします**ステップ 4: サービスを開始**。</span><span class="sxs-lookup"><span data-stu-id="3945a-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="3945a-106">または同等のローカルの Administrators グループのメンバーとしてログオンする必要があります。</span><span class="sxs-lookup"><span data-stu-id="3945a-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
+<span data-ttu-id="77fe8-105">サービスを開始すると、展開されたサーバーの役割を [**実行**] をクリックします**ステップ 4: サービスを開始**。</span><span class="sxs-lookup"><span data-stu-id="77fe8-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="77fe8-106">または同等のローカルの Administrators グループのメンバーとしてログオンする必要があります。</span><span class="sxs-lookup"><span data-stu-id="77fe8-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="3945a-107">**サービスの開始**が実行された場合**の再実行**] をクリックしてコマンドを再実行できます。</span><span class="sxs-lookup"><span data-stu-id="3945a-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
+> <span data-ttu-id="77fe8-107">**サービスの開始**が実行された場合**の再実行**] をクリックしてコマンドを再実行できます。</span><span class="sxs-lookup"><span data-stu-id="77fe8-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
   
 

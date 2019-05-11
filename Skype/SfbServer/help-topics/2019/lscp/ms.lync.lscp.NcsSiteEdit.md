@@ -1,8 +1,8 @@
 ---
 title: ネットワーク サイトの構成を新規作成または既存の編集
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: a0e2c82be2f2c11953fc2a98b4fd518a8d72acf4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4370b26306fed78c3390afcca3932d0f7ebf2eca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215326"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891412"
 ---
-# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="ace76-104">ネットワーク サイトの構成: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="ace76-104">Configure a Network Site: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="33340-104">ネットワーク サイトの構成: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="33340-104">Configure a Network Site: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="ace76-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="ace76-105">What do you want to do?</span></span> <span data-ttu-id="ace76-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="ace76-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="33340-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="33340-105">What do you want to do?</span></span> <span data-ttu-id="33340-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="33340-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="ace76-107">ネットワーク サイトを構成します。</span><span class="sxs-lookup"><span data-stu-id="ace76-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="33340-107">ネットワーク サイトを構成します。</span><span class="sxs-lookup"><span data-stu-id="33340-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
 
 

@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (開始)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 description: 各フロント エンド プールおよびリカバリ性に優れたブランチ アプライアンスは、サーバーの監視は、それに関連付けられている 1 つだけでことができます。 サイトの監視を有効にすると、呼び出しの詳細記録 (CDR) と高品質のエクスペリエンス (QoE) データの収集とレポート サーバーの監視を提供します。
-ms.openlocfilehash: acbaa205472cacad13c32086b2e93017c8b9dcec
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a64444ca5b47de4527c27b7e08d4011646c604dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234910"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925124"
 ---
-# <a name="sql-server-reporting-services-intro"></a><span data-ttu-id="c5d5c-104">SQL Server Reporting Services (開始)</span><span class="sxs-lookup"><span data-stu-id="c5d5c-104">SQL Server Reporting Services (Intro)</span></span>
+# <a name="sql-server-reporting-services-intro"></a><span data-ttu-id="81f68-104">SQL Server Reporting Services (開始)</span><span class="sxs-lookup"><span data-stu-id="81f68-104">SQL Server Reporting Services (Intro)</span></span>
  
-<span data-ttu-id="c5d5c-105">各フロント エンド プールおよびリカバリ性に優れたブランチ アプライアンスは、サーバーの監視は、それに関連付けられている 1 つだけでことができます。</span><span class="sxs-lookup"><span data-stu-id="c5d5c-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="c5d5c-106">サイトの監視を有効にすると、呼び出しの詳細記録 (CDR) と高品質のエクスペリエンス (QoE) データの収集とレポート サーバーの監視を提供します。</span><span class="sxs-lookup"><span data-stu-id="c5d5c-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
+<span data-ttu-id="81f68-105">各フロント エンド プールおよびリカバリ性に優れたブランチ アプライアンスは、サーバーの監視は、それに関連付けられている 1 つだけでことができます。</span><span class="sxs-lookup"><span data-stu-id="81f68-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="81f68-106">サイトの監視を有効にすると、呼び出しの詳細記録 (CDR) と高品質のエクスペリエンス (QoE) データの収集とレポート サーバーの監視を提供します。</span><span class="sxs-lookup"><span data-stu-id="81f68-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
   
-<span data-ttu-id="c5d5c-107">使用率の監視サーバーの容量を超えていない場合、サイトのすべてのプールと複数の中央サイトのプールも、同じサーバーの監視に使用します。</span><span class="sxs-lookup"><span data-stu-id="c5d5c-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> <span data-ttu-id="c5d5c-108">監視をサポートするためにトポロジの設計についての詳細は、展開に関するドキュメントで[ビジネス サーバー 2015 の Skype でのフロント エンド プールを使用して監視ストアを関連付ける](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c5d5c-108">For details about designing a topology to support monitoring, see [Associate a monitoring store with a Front End pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="81f68-107">使用率の監視サーバーの容量を超えていない場合、サイトのすべてのプールと複数の中央サイトのプールも、同じサーバーの監視に使用します。</span><span class="sxs-lookup"><span data-stu-id="81f68-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> <span data-ttu-id="81f68-108">監視をサポートするためにトポロジの設計についての詳細は、展開に関するドキュメントで[ビジネス サーバー 2015 の Skype でのフロント エンド プールを使用して監視ストアを関連付ける](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="81f68-108">For details about designing a topology to support monitoring, see [Associate a monitoring store with a Front End pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) in the Deployment documentation.</span></span>
   
 
