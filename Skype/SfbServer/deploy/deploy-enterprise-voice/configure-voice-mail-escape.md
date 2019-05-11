@@ -1,8 +1,8 @@
 ---
 title: ビジネス用の Skype でボイス メールのエスケープを構成します。
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: '概要: ビジネス サーバー管理シェルには、Skype を使用して、Skype のビジネス サーバーのボイス メールのエスケープを構成する方法を説明します。'
-ms.openlocfilehash: 6c1c6977949eb45c28cce482f98be67295ee4eef
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 29d8f03a23ba562cdb6636cd2aa7f3166e17404c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223509"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893043"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>ビジネス用の Skype でボイス メールのエスケープを構成します。
 

@@ -1,8 +1,8 @@
 ---
 title: フロントエンドの関連付けの追加 (2010)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: この時点でサーバーの役割をフロント エンド プールに関連付けることによって他のサーバーの配置を必要とする特定の機能のサポートを有効にすることができます。 後でサーバーの役割をフロントエンド プールに関連付けることもできます。 フロントエンド プールに関連付けることができるサーバーの役割には、次のものがあります。
-ms.openlocfilehash: c2480b38d7923bba0f6a8f4b575277ebb5cd385f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: f2cd5a185fc5ff9851b2c1be8a8f6c1cc34e8b94
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895273"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886221"
 ---
 # <a name="add-front-end-associations-2010"></a>フロントエンドの関連付けの追加 (2010)
 

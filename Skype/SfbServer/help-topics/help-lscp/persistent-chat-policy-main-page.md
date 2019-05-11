@@ -1,8 +1,8 @@
 ---
 title: 常設チャット ポリシー メイン ページ
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: 永続的なチャット グループの永続的なチャットのポリシー] ページを使用するには既定のグローバル ポリシーを構成するポリシーを作成する 1 つまたは複数追加ユーザーとサイトの展開など、グローバル、プール、サイト、またはユーザー レベルでポリシーを管理します。 永続的なチャット サーバーのポリシーによって、ユーザーが有効な場合は、それらのクライアントに永続的なチャット サーバーの環境が表示されます。
-ms.openlocfilehash: c44986a053fc891d7d8d956d21b12012fd62fc5c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 562de77408fea4f23beabf8b8ef70a3a6fc1caf0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220334"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929194"
 ---
 # <a name="persistent-chat-policy-main-page"></a>常設チャット ポリシー メイン ページ
  

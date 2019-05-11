@@ -1,8 +1,8 @@
 ---
 title: Enterprise Voice (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: エンタープライズ VoIP では、Skype ビジネス サーバーの拡張または置換の従来の構内交換 (機 PBX) システムを提供するスタンドアロンのボイス オーバー インターネット プロトコル (VoIP) を提供します。
-ms.openlocfilehash: 2a25de34494d6a5e13e90072136b396e8da8a13d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9a401ae1b78460211cfce083fbe9c76d56a79bae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220984"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889438"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  

@@ -1,8 +1,8 @@
 ---
 title: ユーザーを表示または外部アクセス ポリシーを構成します。
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: a13a13f19243ad6d5335173185dbb457385c675b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 65247a09fe1e13ef38a9101cb4ac6ad013c675b4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879743"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890747"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>ユーザー: 外部アクセス ポリシーの表示または構成
 

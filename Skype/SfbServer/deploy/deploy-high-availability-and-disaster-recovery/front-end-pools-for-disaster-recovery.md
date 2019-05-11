@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype での災害復旧のための一対のフロント エンド プールを展開します。
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: ペアのフロント エンド プールを使い障害復旧保護を実現できますが、これは必須要件ではありません。
-ms.openlocfilehash: 028e0b4966a15b81b3e6e5627e63261207835f1f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b281b8d0e9453de2f3faeab5abad88c846633f12
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225540"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894550"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>ビジネス サーバーの Skype での災害復旧のための一対のフロント エンド プールを展開します。
  

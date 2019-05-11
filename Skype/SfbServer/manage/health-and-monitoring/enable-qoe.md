@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype での経験の質を有効にします。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: '概要: ビジネスのサーバーの高品質のエクスペリエンス (QoE) では、Skype を有効にする方法を説明します。'
-ms.openlocfilehash: ba3b34769e5fb74aa641d89168ef7203bec0d2d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: df036bda96055e6bf8236ac5f45924c706e3aa14
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892344"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926579"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>ビジネス サーバーの Skype での経験の質を有効にします。
 

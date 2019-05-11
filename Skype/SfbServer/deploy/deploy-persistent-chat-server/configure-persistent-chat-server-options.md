@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 での常設チャット サーバー オプションの構成
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '概要: は、Skype のビジネス サーバー 2015 のグローバル オプションを永続的なチャット サーバー、サイト、またはプールのレベルを構成する方法について説明します。'
-ms.openlocfilehash: fd4d9ed10c2629f714d336190e5c85b2dfe1621e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fa2f5aec3a4061191927563437b36504cbb3a119
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225442"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894487"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバー オプションの構成
  

@@ -1,8 +1,8 @@
 ---
 title: フロントエンド サーバーのスコープ ノード
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、このフロントエンド プールまたは Standard Edition サーバーの構成情報が表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: 509f5c71b9eeff12edd5c183fcdef19de3d3b767
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 21550750b80a9c7e20e94ffef060f905616be7f5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220474"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919767"
 ---
 # <a name="front-end-server-scope-node"></a>フロントエンド サーバーのスコープ ノード
  

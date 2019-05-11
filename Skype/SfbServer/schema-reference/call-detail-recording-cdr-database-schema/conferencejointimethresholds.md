@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバー 2015 の Skype での ConferenceJoinTimeThresholds テーブル
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: ConferenceJoinTimeThresholds テーブルには、会議への参加時の概要レポートで使用される分類の境界が含まれています。 会議の参加時の要約レポートが正常には会議に参加するユーザーに必要な時間をまとめたもの平均とし、次のカテゴリのいずれかで、これらの時間の値が報告されます。
-ms.openlocfilehash: d6fbae0d077719782b3e93c0fe008ee35ce3370e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 75df75e16d2a4ed34f667c94f2b2f0960f56e7ff
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213292"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901437"
 ---
 # <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での ConferenceJoinTimeThresholds テーブル
  

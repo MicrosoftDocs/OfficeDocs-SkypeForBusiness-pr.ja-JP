@@ -5,20 +5,20 @@ ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '組織のビジネス用の Skype を導入する場合を統合 Skype の 1 つまたは複数のドメインを持つビジネス オンラインのお客様です。 '
-ms.openlocfilehash: 70eda58c5d01b09c9f3e00ef8f3ac0391a90ed07
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d829b9688af315cb0d8dd0f143d651035a196417
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199871"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903300"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのオンライン ビジネスのお客様は Skype のフェデレーション サポートを構成します。 
 

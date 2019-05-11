@@ -1,8 +1,8 @@
 ---
 title: レジストラーのセキュリティ設定
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 20cb4bfd9954f93e92f46488ca842d9fb7a9bc59
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b03a6fcf964cc0bc8e098bc095558a90b95b9a92
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215130"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891013"
 ---
 # <a name="registrar-security-settings"></a>レジストラーのセキュリティ設定
 

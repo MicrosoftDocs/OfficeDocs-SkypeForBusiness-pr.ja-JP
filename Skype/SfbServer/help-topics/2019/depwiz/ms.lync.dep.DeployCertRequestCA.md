@@ -1,8 +1,8 @@
 ---
 title: 証明書要求 (証明機関)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[証明機関 (CA) を選択してください] ページでオンライン証明機関 (CA) (通常、内部ネットワーク上のサーバー) に対して証明書要求を行う場合、次の 2 つのオプションが表示されます。'
-ms.openlocfilehash: 64e4b5b52f0ebf6eb5dab6b60c7aa9c140ada080
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: be47dba48d448f73cf43890921fd7531a336d124
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216873"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893764"
 ---
 # <a name="certificate-request-certificate-authority"></a>証明書要求 (証明機関)
  

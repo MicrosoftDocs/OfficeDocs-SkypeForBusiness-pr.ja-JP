@@ -1,8 +1,8 @@
 ---
 title: PurgeSettings テーブル
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings テーブルには、(そのとき) を指定する情報が含まれている旧式の呼び出しの詳細レコードが CDR データベースから自動的に削除されます。 パージに関連する情報もから取得できます、Skype 内でビジネス サーバー 2015 の次のコマンドを実行して、注意してください。
-ms.openlocfilehash: 10dd9c6969f84453c880de130222b3b9d71db77a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f1e982d50ab029ec2756e8fb4a92f5c01dc327b8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212839"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930722"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings テーブル
  

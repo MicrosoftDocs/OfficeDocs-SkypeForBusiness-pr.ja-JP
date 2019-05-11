@@ -1,8 +1,8 @@
 ---
 title: フロントエンドとアーカイブの関連付け
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 description: 各フロント エンド プールおよびブランチ アプライアンスのリカバリ性に優れたアーカイブ サーバーが関連付けられている 1 つだけ持つことができます。 サイトのアーカイブを有効にすると、アーカイブ サーバーを収集し、およびインスタント メッセージング (IM) メッセージのコンテンツと web 会議のコンテンツ、ユーザーに関係する会話からレコードが関連付けられているプールとブランチ アプライアンスのリカバリ性に優れた置かれています。
-ms.openlocfilehash: c603187e58f8a47d74f20581b666381f7db588ff
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 56316a8a7d030bae61814673a86c9c07d7031004
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227425"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925068"
 ---
 # <a name="associate-front-end-with-archiving"></a>フロントエンドとアーカイブの関連付け
  

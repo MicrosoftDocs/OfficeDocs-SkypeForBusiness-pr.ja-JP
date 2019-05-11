@@ -1,8 +1,8 @@
 ---
 title: 作成またはビジネス用の Skype のコール ピックアップのグループ番号の範囲を変更します。
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype のコール ピックアップのグループ番号の範囲を変更します。
-ms.openlocfilehash: 0032d46507c6cb91629b94662ec67bf9c67b7cc4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 569e1ed16e706e89ff2cf03c330f8161824e3bd2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223220"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892938"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>作成またはビジネス用の Skype のコール ピックアップのグループ番号の範囲を変更します。
 

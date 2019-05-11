@@ -1,8 +1,8 @@
 ---
 title: 監視サーバーの追加
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 description: 監視サーバーをトポロジを設計に組み込むには、監視サーバーを展開するサーバーの完全修飾ドメイン名 (FQDN) を指定する必要があります。 監視サーバーを含むトポロジを公開し、Skype をビジネスのサーバーのサーバーにインストールする前に、監視を展開するためのすべての前提条件を完了する必要があります。 これらの前提条件の詳細については、「展開」のドキュメントの「Deploying Monitoring」を参照してください。
-ms.openlocfilehash: 628eeb03abdf146fd92722528efbead313aab191
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: d3f14e917839eb011dd884a5053ecedf1fffb86b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876705"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897717"
 ---
 # <a name="add-monitoring-server"></a>監視サーバーの追加
 

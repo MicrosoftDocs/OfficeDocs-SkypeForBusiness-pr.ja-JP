@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバー 2015 の Skype での EdgeServers テーブル
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeda8c01-c88c-4f56-b3d0-bac475fae449
 description: EdgeServers はテーブルをサポートします。 各レコードは、レコードがデータベースに存在する呼び出しが関係している 1 つのエッジ サーバーに関する情報を格納します。
-ms.openlocfilehash: 253190f23d130d12a1b4af701bf68922717d8da8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a55a72f9a98dda0295256803a7f9318116ecf969
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213138"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901053"
 ---
 # <a name="edgeservers-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での EdgeServers テーブル
  

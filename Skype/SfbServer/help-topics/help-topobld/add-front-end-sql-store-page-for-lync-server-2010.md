@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2010 用のフロントエンド SQL ストアの追加ページ
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: 構成している新しいフロント エンド プールの SQL Server ストアのプロパティを定義するとします。
-ms.openlocfilehash: a8d919732bb1c58025e042e8394b292b60009d8a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: c60828952368d16d425feba6648ba420fe36b0fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885334"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903727"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Lync Server 2010 用のフロントエンド SQL ストアの追加ページ
  

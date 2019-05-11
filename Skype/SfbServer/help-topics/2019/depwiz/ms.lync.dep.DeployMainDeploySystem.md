@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server システムのインストールまたは更新
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
 description: インストールを開始する、またはビジネス サーバーの Skype の既存の配置を更新するには、ビジネスのサーバーのインストールまたは Skype の更新をクリックします。 このセクションの手順では、トポロジ ビルダー ドキュメントに基づいて、特定のサーバー ロールに特定のコンポーネントがインストールされます。 この一連の手順を開始する前に、トポロジ ビルダーで、配置を定義する必要があります。 展開先のコンピューターに、ローカル管理者として、およびサーバーが配置されているドメインの Domain Admins グループのメンバーとしてログインすることも必要です。 コンピューターは、この手順を完了する前にドメインに参加させる必要があります。
-ms.openlocfilehash: 2f452b521302ac8cb743a79ebba4b30cad8c6595
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b9ef976fda6fd5afef73edf0f3c9ce1eaa191b8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216166"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893715"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Skype for Business Server システムのインストールまたは更新
 

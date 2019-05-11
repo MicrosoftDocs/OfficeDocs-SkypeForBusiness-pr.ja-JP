@@ -1,14 +1,14 @@
 ---
 title: 'クイック スタート ガイド: Microsoft Teams での通話プランの設定'
-author: arachmanGitHub
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: Rowille, lolaj
+ms.reviewer: rowille, crowe
 search.appverid: MET150
-description: Microsoft Teams で通話プランを設定するためのクイック スタート ガイドです。
+description: マイクロソフトのチームでの通話プランを構成するためのクイック スタート ガイドです。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
@@ -16,27 +16,27 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f6c719d17938986ff6568b73864bc131667e4e7
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: fd1e9484b522a657a92916815c1ae8940dcc2117
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401984"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898524"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 ==============================================================
 
-このガイドでは、ユーザーが Teams で通話プランを利用できるように設定する手順について説明します。
+一連のユーザーおよびチームの計画を呼び出すを参照できるように実行するを取得する際に役立ちます。
 
-Teams の通話プランに関する 2017 年 12 月 12 日付けの発表「[Intelligent Communications takes the next step with calling in Teams](https://aka.ms/ipyqus)」(英語) をお読みください。
+チームの計画を呼び出すの 2017 年 12 月 12日、お知らせを読む:[インテリジェント通信チームでの呼び出しには、次の手順を実行します。](https://aka.ms/ipyqus)
 
 > [!NOTE]
 > このクイック スタート ガイドとの併用とを参照する[計画を呼び出すと、電話システム](calling-plan-landing-page.md) [fasttrack という](https://aka.ms/cloudvoice)計画とドライブに展開の成功をお勧めします。
 
-Skype for Business が提供する Office 365 の機能の 1 つである通話プランを追加することで、Teams で公衆交換電話網 (PSTN) を介して固定電話や携帯電話に対する通話の発信および受信を行えるようになります。
+計画を Office 365 機能により、ビジネスの Skype の呼び出しを追加することによって土地の明細行および公衆交換電話網 (PSTN) 経由で携帯電話からの電話呼び出しを送受信するチームを使用できます。
 
-![Teams での通話](media/Calling_in_Teams.png)
-## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams の [**通話**] タブを有効にするための前提条件
+![チームでの通話](media/Calling_in_Teams.png)
+## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>チームでは、[**通話**] タブを有効にするための前提条件
 チームでは、[**通話**] タブを有効にするには、ユーザーを呼び出すチームで有効になっていると、1 対 1 のチームを呼び出すことをサポートしているチームのクライアントを使用して 1:1 がある必要があります。 1 対 1 のチームで呼び出しを管理する方法については、[一連の CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)を参照してください。 通話をサポートするクライアントについては、[制限しマイクロソフトのチームの仕様](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)を参照してください。
 
 > [!NOTE]

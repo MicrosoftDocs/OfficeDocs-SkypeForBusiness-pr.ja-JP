@@ -1,8 +1,8 @@
 ---
 title: ビジネス用の Skype で複数の緊急番号を構成します。
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Skype のビジネス サーバーの複数の緊急番号を構成する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 26d533b277bd8d57166cd65c7326b0e80739bf4e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb4fbfcbcd1388c34a1babce4b2a5d122d711d2a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223677"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893064"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>ビジネス用の Skype で複数の緊急番号を構成します。
 

@@ -1,8 +1,8 @@
 ---
 title: Skype のビジネス サーバーの VIS プールを作成します。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: '概要: は、トポロジ ビルダーを使用してビジネスのサーバーの Skype でビデオの相互運用機能のサーバー プールを作成します。'
-ms.openlocfilehash: 484cb1c504680dde393d24ce65606e415d070edb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f290da287dc4e45a35d5d088e331d2c2540585ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219637"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894713"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Skype のビジネス サーバーの VIS プールを作成します。
  

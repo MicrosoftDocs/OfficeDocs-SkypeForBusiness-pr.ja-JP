@@ -1,8 +1,8 @@
 ---
 title: ProgressReport テーブル
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: 進行状況レポートは、呼び出し、またはセッションが完了した後に、データベースにクライアントによってアップロードされたデータに基づいています。 進行状況レポートは、呼び出しとビジネス サーバー 2015 の Skype では、診断に役立つことがありますを決定するためのセッションにのみ書き込まれます。
-ms.openlocfilehash: 6d638411f39956664c977e87785a1269ee788a5f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3ed5805b74a242003d8ce910fa5a01538789d626
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212867"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930596"
 ---
 # <a name="progressreport-table"></a>ProgressReport テーブル
  

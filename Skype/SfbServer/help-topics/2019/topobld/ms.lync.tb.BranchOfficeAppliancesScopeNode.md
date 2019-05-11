@@ -1,8 +1,8 @@
 ---
 title: ブランチ オフィス アプライアンス スコープ ノード
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
 description: リカバリ性に優れたブランチ アプライアンス ・ ノードには、このブランチ サイトでのリカバリ性に優れたブランチ アプライアンスが一覧表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: 994ed5a87ca1615f64eba423db97e9f11127fa16
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3a1d6b2454f4e378be1f3370adc43d0dc2707052
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220664"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916071"
 ---
 # <a name="branch-office-appliances-scope-node"></a>ブランチ オフィス アプライアンス スコープ ノード
  

@@ -1,8 +1,8 @@
 ---
 title: Skype のビジネス サーバーの SQL Server レポート サービスをインストールします。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 description: '概要: Skype ビジネス サーバーの使用、[SQL Server レポート サービスに関する情報の検索に移動する場所を説明します。'
-ms.openlocfilehash: b83d0d1a7bcf820571a8aaf01b2f0fff54d48203
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6a8646fb664f78e9e3b957476362474cb1058d0b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225463"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894494"
 ---
 # <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Skype のビジネス サーバーの SQL Server レポート サービスをインストールします。 
  

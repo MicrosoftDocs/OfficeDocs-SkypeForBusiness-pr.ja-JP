@@ -1,7 +1,7 @@
 ---
 title: 複数フォレストのオンプレミス環境での Skype Room System の展開
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: このトピックでは、複数フォレストのオンプレミス環境で Skype Room System を展開する方法について説明します。
-ms.openlocfilehash: 507040a1d8274817e7a4a0780135ee8f6642c77c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 607177a1b091fb4d7872b726fa31cd0329b3b975
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219417"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895041"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>複数フォレストのオンプレミス環境での Skype Room System の展開
  
