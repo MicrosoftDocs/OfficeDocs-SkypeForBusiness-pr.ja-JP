@@ -1,8 +1,8 @@
 ---
 title: サイトの詳細の追加
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c34def73-c5a1-4e89-80c2-f2c6cd654924
 description: 市区町村、都道府県/州、または国/地域コードを含む、サイトの場所の詳細を指定できます。 すべてのこれらの場所の詳細については、オプションです。
-ms.openlocfilehash: 146700240047d4ea2ca9dc9b662c0f48fcf07ab5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 2868ae32481b47bc20795a5d59d91d658a59278c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875736"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897346"
 ---
-# <a name="add-site-details"></a><span data-ttu-id="f304d-104">サイトの詳細の追加</span><span class="sxs-lookup"><span data-stu-id="f304d-104">Add Site Details</span></span>
+# <a name="add-site-details"></a><span data-ttu-id="26a85-104">サイトの詳細の追加</span><span class="sxs-lookup"><span data-stu-id="26a85-104">Add Site Details</span></span>
  
-<span data-ttu-id="f304d-105">市区町村、都道府県/州、または国/地域コードを含む、サイトの場所の詳細を指定できます。</span><span class="sxs-lookup"><span data-stu-id="f304d-105">You can specify location details for your site, including a city, state/province, or country/region code.</span></span> <span data-ttu-id="f304d-106">すべてのこれらの場所の詳細については、オプションです。</span><span class="sxs-lookup"><span data-stu-id="f304d-106">All of these location details are optional.</span></span>
+<span data-ttu-id="26a85-105">市区町村、都道府県/州、または国/地域コードを含む、サイトの場所の詳細を指定できます。</span><span class="sxs-lookup"><span data-stu-id="26a85-105">You can specify location details for your site, including a city, state/province, or country/region code.</span></span> <span data-ttu-id="26a85-106">すべてのこれらの場所の詳細については、オプションです。</span><span class="sxs-lookup"><span data-stu-id="26a85-106">All of these location details are optional.</span></span>
   
 

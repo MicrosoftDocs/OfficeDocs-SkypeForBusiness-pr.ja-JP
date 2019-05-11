@@ -1,8 +1,8 @@
 ---
 title: ウィザード Windows 更新プログラムの展開
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 description: 展開ウィザードを使用して、ビジネス サーバー 2015 の Skype をインストールする詳細については、ビジネス サーバー 2015 の Skype のインストールを参照してください。
-ms.openlocfilehash: a5956afa1038ffff90e2adecf236f6d1fc5704be
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2fcdb9f1cacb384011ecc036965391050c40ff23
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235080"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921091"
 ---
-# <a name="deployment-wizard-windows-update"></a><span data-ttu-id="6687e-103">展開ウィザード: Windows Update</span><span class="sxs-lookup"><span data-stu-id="6687e-103">Deployment Wizard: Windows Update</span></span>
+# <a name="deployment-wizard-windows-update"></a><span data-ttu-id="342a5-103">展開ウィザード: Windows Update</span><span class="sxs-lookup"><span data-stu-id="342a5-103">Deployment Wizard: Windows Update</span></span>
  
-<span data-ttu-id="6687e-104">展開ウィザードを使用して、ビジネス サーバー 2015 の Skype をインストールする詳細については、[ビジネス サーバー 2015 の Skype のインストール](../../deploy/install/install.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6687e-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="342a5-104">展開ウィザードを使用して、ビジネス サーバー 2015 の Skype をインストールする詳細については、[ビジネス サーバー 2015 の Skype のインストール](../../deploy/install/install.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="342a5-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 

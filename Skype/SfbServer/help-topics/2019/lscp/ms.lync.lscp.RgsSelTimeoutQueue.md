@@ -1,8 +1,8 @@
 ---
 title: タイムアウト キューの選択
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,19 +13,19 @@ localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 ROBOTS: NOINDEX, NOFOLLOW
 description: ダイアログを使用して選択、タイムアウト キュー キューを選択するのには呼び出しがタイムアウトしたときに転送されます。
-ms.openlocfilehash: ef3c174bd5bab92975e26c1859fbd4ad792a2853
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 62570e3ce84d40d57a341083c0c16d907d351ed6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215151"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891090"
 ---
-# <a name="select-time-out-queue"></a><span data-ttu-id="e2901-103">タイムアウト キューの選択</span><span class="sxs-lookup"><span data-stu-id="e2901-103">Select Time-out Queue</span></span>
+# <a name="select-time-out-queue"></a><span data-ttu-id="32ab5-103">タイムアウト キューの選択</span><span class="sxs-lookup"><span data-stu-id="32ab5-103">Select Time-out Queue</span></span>
  
-<span data-ttu-id="e2901-104">呼び出しがタイムアウトしたときに転送されるキューを選択するのには、[**キューのタイムアウトを選択**] ダイアログ ボックスを使用します。</span><span class="sxs-lookup"><span data-stu-id="e2901-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
+<span data-ttu-id="32ab5-104">呼び出しがタイムアウトしたときに転送されるキューを選択するのには、[**キューのタイムアウトを選択**] ダイアログ ボックスを使用します。</span><span class="sxs-lookup"><span data-stu-id="32ab5-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
   
-<span data-ttu-id="e2901-105">[検索] ボックスで、使用するキューの名前のすべてまたは一部を入力します。</span><span class="sxs-lookup"><span data-stu-id="e2901-105">In the search box, type all or part of the name of the queue you want to use.</span></span> <span data-ttu-id="e2901-106">使用可能なすべてのキューを取得するには、[検索] ボックスを空白のままし、検索アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="e2901-106">To return all available queues, leave the search box empty and click the search icon.</span></span>
+<span data-ttu-id="32ab5-105">[検索] ボックスで、使用するキューの名前のすべてまたは一部を入力します。</span><span class="sxs-lookup"><span data-stu-id="32ab5-105">In the search box, type all or part of the name of the queue you want to use.</span></span> <span data-ttu-id="32ab5-106">使用可能なすべてのキューを取得するには、[検索] ボックスを空白のままし、検索アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="32ab5-106">To return all available queues, leave the search box empty and click the search icon.</span></span>
   
-<span data-ttu-id="e2901-107">検索によって返されるキューの一覧では、タイムアウトの呼び出しに使用するキューを選択します。</span><span class="sxs-lookup"><span data-stu-id="e2901-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
+<span data-ttu-id="32ab5-107">検索によって返されるキューの一覧では、タイムアウトの呼び出しに使用するキューを選択します。</span><span class="sxs-lookup"><span data-stu-id="32ab5-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
   
 
