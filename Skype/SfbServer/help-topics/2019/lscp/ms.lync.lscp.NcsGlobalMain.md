@@ -1,8 +1,8 @@
 ---
 title: ネットワーク構成のグローバル設定
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: f1495ab62c0b9cf25944361ddee687aaecfd6bc7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c3f20b3567ae69deb10cd9f02e198f9cb973cb8c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215389"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891244"
 ---
 # <a name="network-configuration-global-setting"></a>ネットワーク構成: グローバル設定
 

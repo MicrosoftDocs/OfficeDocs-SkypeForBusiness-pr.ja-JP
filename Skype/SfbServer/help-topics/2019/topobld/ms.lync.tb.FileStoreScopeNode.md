@@ -1,8 +1,8 @@
 ---
 title: ファイル ストア スコープ ノード
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、このファイル ストアの完全修飾ドメイン名 (FQDN) および依存プールが表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: c68e9dbfbcd5e97439bc1a274c470aef264a986f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 217309016d0397f2e44aabf092bc2b4e988755fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220517"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912247"
 ---
 # <a name="file-store-scope-node"></a>ファイル ストア スコープ ノード
  

@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバー 2015 の Skype のポスター |Office 365 音声 PSTN
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: hub-page
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: '概要: は、計画、実装、または Skype をビジネスのサーバーの管理中に、必要に応じてこれらのポスターを確認します。'
-ms.openlocfilehash: 8ab18ead860d84ecc4146eb29c49e7002c715ded
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a4062266af50f55e8590315adceadf1095fd407f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241741"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898509"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Technical diagrams for Skype for Business Server
 

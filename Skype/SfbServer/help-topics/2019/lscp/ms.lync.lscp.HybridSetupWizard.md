@@ -1,8 +1,8 @@
 ---
 title: ハイブリッド管理ウィザード
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
 description: ハイブリッド管理ウィザードを使用するにはいくつかのオンライン ビジネスの Skype でハイブリッド展開を設定するのにために必要な構成タスクを実行します。 ハイブリッド展開を構成する方法の詳細については、ハイブリッドの管理ウィザードを使用して、環境の構成を参照してください。
-ms.openlocfilehash: d0770e193d84337189cdd7a24fdb471faa275b9b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 27335da50b38488b4fbdb7beabfae243a32f5533
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215564"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891468"
 ---
 # <a name="hybrid-manageability-wizard"></a>ハイブリッド管理ウィザード
 

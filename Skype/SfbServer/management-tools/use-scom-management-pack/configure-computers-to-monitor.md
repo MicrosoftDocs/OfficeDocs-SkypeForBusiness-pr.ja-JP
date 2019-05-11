@@ -1,8 +1,8 @@
 ---
 title: 監視対象の Skype for Business Server コンピューターの構成
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: '概要: は、Operations Manager エージェントにファイルをインストール、監視対象サーバー 2015 のビジネス コンピューターの Skype と System Center のプロキシとして動作するコンピューターを構成します。'
-ms.openlocfilehash: 55d862517eeaad6fbfb567fe4327c375fc1ce2e1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e345699fc002fbafdd756f4f93df77b585033915
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895021"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33904581"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>監視対象の Skype for Business Server コンピューターの構成
 

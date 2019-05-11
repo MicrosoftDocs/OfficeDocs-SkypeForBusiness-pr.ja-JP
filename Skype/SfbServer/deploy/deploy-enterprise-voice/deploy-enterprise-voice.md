@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype でエンタープライズ VoIP を展開します。
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: '概要: は、Skype のビジネス サーバーをセントラル サイトでのエンタープライズ VoIP を展開する方法を説明します。'
-ms.openlocfilehash: 463eb0a7fce174a33116bcb63f129aa59c8eba9c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8fb434a4fe02ec5755d78d549f870da9860b2910
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223121"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892714"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>ビジネス サーバーの Skype でエンタープライズ VoIP を展開します。
 

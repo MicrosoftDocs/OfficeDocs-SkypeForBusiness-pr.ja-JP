@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms の回復ツールを使用する
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: davgroom
 ms.date: 4/17/2018
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
 description: この資料では、サポートされている状態にする最新のシステムを使用する Microsoft のチーム会議室の回復ツールを使用する方法について説明します。
-ms.openlocfilehash: 9580a94c96b7982a3030ccc0435be8e05f7c4a25
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: d784e20656d6f97340e8cfa797d9f64bcb83d4b4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362880"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916544"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Microsoft Teams Rooms の回復ツールを使用する
  

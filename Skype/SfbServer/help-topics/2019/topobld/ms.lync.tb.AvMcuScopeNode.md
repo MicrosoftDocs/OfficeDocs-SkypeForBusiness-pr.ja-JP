@@ -1,8 +1,8 @@
 ---
 title: AV MCU スコープ ノード
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、この音声ビデオ会議プールのプール完全修飾ドメイン名 (FQDN) および関連付けられたフロントエンド プールが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 6ae9471e7b6321e92bd141b90e49941f9f2d6cc1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e8bd6c34e07c8fb522d10e71987ca8128a33756
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201851"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915847"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU スコープ ノード
  

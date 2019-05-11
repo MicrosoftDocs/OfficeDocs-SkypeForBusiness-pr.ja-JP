@@ -1,8 +1,8 @@
 ---
 title: Skype のビジネス サーバーの診断レポートを呼び出す
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: '概要: は、Skype のビジネスのサーバーが使用する、マルチ ユーザーの呼び出しの診断レポートについて説明します。'
-ms.openlocfilehash: 9695331f5f586d97fb5c2de3680e2af5d2c34b03
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 95bc7b67b1ff2c15fb1e87fb11d3e93f154081b1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197780"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903349"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Skype のビジネス サーバーの診断レポートを呼び出す
  

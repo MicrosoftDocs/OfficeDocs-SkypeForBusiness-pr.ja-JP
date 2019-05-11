@@ -1,20 +1,20 @@
 ---
 title: ビジネス サーバーの Skype でのメディア バイ パスを使用してトランクを構成します。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'メディア バイパスを有効にしてトランクを構成するには、次の手順を実行します。 '
-ms.openlocfilehash: 468c03668a7097252aee4e0593b8576bebd5c55c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7375038bf9927093b245ee0812d303eff6193a44
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214941"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911890"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのメディア バイ パスを使用してトランクを構成します。
 

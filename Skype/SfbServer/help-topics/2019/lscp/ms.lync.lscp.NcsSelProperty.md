@@ -1,8 +1,8 @@
 ---
 title: プロパティの割り当て
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 同時に複数のサブネットに、説明、およびネットワークのサイト ID を指定するのにプロパティの割り当て] ダイアログ ボックスを使用します。 [説明] に、選択したサブネットを使用する説明を入力します。 [ネットワーク サイト ID に割り当てる] を選択したサブネットをネットワーク サイト ID を選択します。 これらのプロパティを選択したサブネットに割り当てるには、[OK] をクリックします。
-ms.openlocfilehash: af104b9bb86817690175c8c82ddef94d8b0431b9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dbee855e973ca0386a99094b17f8d8fd052285a3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215270"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891279"
 ---
 # <a name="assign-properties"></a>プロパティの割り当て
  

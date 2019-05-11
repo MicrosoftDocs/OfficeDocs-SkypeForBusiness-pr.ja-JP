@@ -1,8 +1,8 @@
 ---
 title: ユーザーの移動
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ユーザーの移動] ページでは、選択されているユーザーの移動先となるプールを選択できます。'
-ms.openlocfilehash: 1dbac7af993cb4f95dbd6c161af55e7121e06719
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3588f07f9eba4d66387db3b46beb87527cdb6f59
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214955"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890866"
 ---
 # <a name="move-user"></a>ユーザーの移動
 

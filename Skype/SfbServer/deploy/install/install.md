@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server のインストール
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/14/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: '概要: ビジネス サーバーの Skype のインストール環境を準備する方法を説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 041c60c23e5edc56a0332f7e0321fd1aac5970f8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ab3b66b99ff1c144631622dfd59a7326e516154b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216822"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894331"
 ---
 # <a name="install-skype-for-business-server"></a>Skype for Business Server のインストール
  

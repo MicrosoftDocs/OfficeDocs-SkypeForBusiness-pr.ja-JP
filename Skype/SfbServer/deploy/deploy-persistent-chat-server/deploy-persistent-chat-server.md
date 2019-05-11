@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 での常設チャット サーバーの展開
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: '概要: は、Skype をビジネス 2015 永続的なチャット サーバーの展開方法について説明するには、このトピックを読みます。'
-ms.openlocfilehash: 85f77445acca86d8de14178e8c3baa61eb193783
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2b88d20437a85c9a634bf8a156a3dcec214c60fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225387"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894466"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの展開
  

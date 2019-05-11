@@ -1,8 +1,8 @@
 ---
 title: Skype ビジネス サーバー用のブランチ サイトの SIP トランク
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: ビジネス サーバーのエンタープライズ VoIP は、Skype でのブランチ サイトに SIP トランクについて説明します。
-ms.openlocfilehash: 333cb5f150efb431d4c7c43a0d78b601cb8ff268
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ac92b2c02279568d7658315808e5419d2263d6a5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207084"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895571"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Skype ビジネス サーバー用のブランチ サイトの SIP トランク
  

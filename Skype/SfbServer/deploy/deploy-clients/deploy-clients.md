@@ -1,7 +1,7 @@
 ---
 title: Skype のクライアントのビジネス サーバーを展開します。
-ms.author: chucked
-author: chuckedmonson
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: PhillipGarding
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'ビジネスで Skype の企業クライアントのインストール方法の概要: 概要。'
-ms.openlocfilehash: 31d3f6b9fbc611ae434e10bc1208d95a645ba3bd
-ms.sourcegitcommit: 47e5f6a0440f646d67bc3ca7c232df9558f78040
+ms.openlocfilehash: db5b1a4ed51aed5986cd954af9cdbecab208647d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33641471"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893463"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Skype のクライアントのビジネス サーバーを展開します。
  

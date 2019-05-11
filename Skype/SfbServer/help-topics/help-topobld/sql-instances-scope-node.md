@@ -1,8 +1,8 @@
 ---
 title: SQL インスタンス スコープ ノード
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: SQL は、トポロジ内のノード リストが SQL Server データベースを格納します。 以下のアクションを実行できます。
-ms.openlocfilehash: c9ff02ca1514d1b77d2d633aaff02a5269ca0693
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 28451a21485f4e7143c899e331d6cbf43dda244a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219079"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903503"
 ---
 # <a name="sql-instances-scope-node"></a>SQL インスタンス スコープ ノード
  

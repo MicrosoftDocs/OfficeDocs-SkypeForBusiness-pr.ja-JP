@@ -1,21 +1,22 @@
 ---
 title: 計画のヘルプ
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
+ms.date: 1/1/1900
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2287aef6-c7b6-4170-9d4d-e1e54e5236b5
-ROBOTS: NOINDEX, NOFOLLOW
 description: 計画ツールに関するトピック
-ms.openlocfilehash: 5a8098de4b1330958bc72bb8d2512935dd37dfdf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 21106c8eb595b2280ef7f92cf0ad40451e41528f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221131"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890411"
 ---
 # <a name="help-planning"></a>計画のヘルプ
  

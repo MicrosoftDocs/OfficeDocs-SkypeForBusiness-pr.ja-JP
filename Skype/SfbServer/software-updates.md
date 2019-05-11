@@ -1,8 +1,8 @@
 ---
 title: Skype for Business のダウンロードと更新プログラム
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 07/23/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 検索して、Skype のビジネス サーバーまたは Lync 2013 の更新プログラムを管理します。 詳細を取得し、更新プログラムをダウンロードするリンクを使用します。
-ms.openlocfilehash: 1f76130ee290e32ecc5e4fbdde03a3f1802470c8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4714446a4e9f123691668f9e916632f1b3270d26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872795"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902258"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business のダウンロードと更新プログラム
 
@@ -51,4 +51,4 @@ Technet であった_Skype_ビジネスのダウンロードおよび更新プ�
         - [グループ チャット](sfb-server-updates.md#group-chat)
         - [試用版ソフトウェア](sfb-server-updates.md#trial-software)
     - [その他の情報](sfb-server-updates.md#additional-information)
-    - [関連項目](sfb-server-updates.md#related-topics)
+    - [関連トピック](sfb-server-updates.md#related-topics)

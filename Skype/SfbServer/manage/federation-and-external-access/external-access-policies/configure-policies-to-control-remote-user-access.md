@@ -5,20 +5,20 @@ ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: リモート ユーザーがビジネスのサーバーのユーザーの内部の Skype で共同作業を行うかどうかは、コントロールに 1 つまたは複数の外部ユーザー アクセス ポリシーを構成します。 リモート ユーザー アクセスを制御するには、グローバル ポリシー、サイト、およびユーザー レベルを構成できます。
-ms.openlocfilehash: f6d316f022e671bc7f7e70ebbe2a801b0b3e312c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3355ee979bdf0e5be954aea69f365084271223fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199892"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920454"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのリモート ユーザー アクセスを制御するポリシーを構成します。
 

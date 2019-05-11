@@ -1,8 +1,8 @@
 ---
 title: CMS 設定エキスパンダー
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: 中央管理サーバーを、ある定義済みのフロントエンドのプールから別の定義済みのフロントエンドのプールに変更できます。 中央管理サーバーの場所を変更するには、[中央管理サーバーをインストールするフロントエンド サーバー] の下のドロップダウン リストからフロントエンド プールを選択します。 フロントエンド サーバーは、Enterprise Edition フロントエンドのプールまたは Standard Edition フロントエンド サーバーのいずれかにできます。
-ms.openlocfilehash: 2808f71bf0bef6cdcc3521f879e6755a8f540f5e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ad758859688f0e9880fff7bec5c845526b3ddf65
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226837"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903769"
 ---
 # <a name="cms-settings-expander"></a>CMS 設定エキスパンダー
  

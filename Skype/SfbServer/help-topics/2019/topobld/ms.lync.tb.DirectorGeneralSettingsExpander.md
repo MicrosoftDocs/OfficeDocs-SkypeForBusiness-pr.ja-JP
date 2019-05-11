@@ -1,8 +1,8 @@
 ---
 title: ディレクターの全般設定の展開
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存の担当ディレクターの設定を編集するのには次のセクションが表示されます。
-ms.openlocfilehash: 9d400f44fd3b0ee288de2e3f91eebfb6e90604c6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 10960d057f806b1d3cdd1b68c22f786861fe7cd5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220594"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915889"
 ---
 # <a name="director-general-settings-expander"></a>ディレクターの全般設定の展開
  

@@ -1,8 +1,8 @@
 ---
 title: 正規化ルールを新規作成または既存の編集
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 5edc9a7679c58d35a461698951c77dd9def42408
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 579c1099c37fdb6749ff0cf5309d618484776cea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221360"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890721"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>正規化ルール: 新規作成または現在の形式のままで編集
 

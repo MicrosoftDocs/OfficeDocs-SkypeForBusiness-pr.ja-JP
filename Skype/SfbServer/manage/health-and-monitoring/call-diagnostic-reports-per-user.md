@@ -1,8 +1,8 @@
 ---
 title: Skype のビジネス サーバーの (ユーザー) ごとに診断レポートを呼び出す
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: '概要: は、Skype のビジネスのサーバーが使用する、ユーザーごとのコールの診断レポートについて説明します。'
-ms.openlocfilehash: 0c8e17151ab07814db2b07d1f0dda3ead3a509f9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 46ecaf7b18def0bb7e52c6238d1c1fc4a1f96fac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200310"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902812"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Skype のビジネス サーバーの (ユーザー) ごとに診断レポートを呼び出す
   

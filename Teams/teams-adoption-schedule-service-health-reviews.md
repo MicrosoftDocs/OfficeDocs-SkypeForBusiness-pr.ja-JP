@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の導入のためにサービス健全性のレビューをスケジュールする
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38842914c05104983f7a8aedecddf877da50266d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a8f7958184946ec800c99c819d4707b7f37e9abf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204555"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930421"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入のためにサービス健全性のレビューをスケジュールする
 

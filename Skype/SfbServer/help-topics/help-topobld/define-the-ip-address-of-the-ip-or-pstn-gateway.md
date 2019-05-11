@@ -1,8 +1,8 @@
 ---
 title: IP または PSTN ゲートウェイの IP アドレスの定義
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: IP または電話交換電話網 (PSTN) ゲートウェイの IPv4 または IPv6 アドレスを定義するを有効にする IPv4 または IPv6 を有効にするのいずれかを選択します。 いずれかの方法を使用して、すべての構成された IP アドレスまたは IP アドレスを選択したサービスの使用を制限することができます。
-ms.openlocfilehash: 4def45565685b819fa587e61e1c7588a3664d225
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5dbae2c471c15b20da45cc6412f4bbabecff10ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226965"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915186"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>IP または PSTN ゲートウェイの IP アドレスの定義
 

@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバー 2015 の Skype での McuJoinsAndLeaves テーブル
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: このテーブルの各レコードには、呼び出しの詳細については、ユーザーまたは結合と会議サーバーの 1 つの組み合わせが含まれています。 などのユーザーは、web 会議、オーディオとビデオの要素を含む会議を結合する場合、そのユーザーの web 会議の結合の 1 つのレコードが作成され、ユーザーのオーディオ/ビデオ会議の結合の別のレコードが作成されます。
-ms.openlocfilehash: 7a31564ed770c956baa0ef7e968d0fba1dc3fd7d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d6bcd51e9c0e5832939004647348abe7368a2e43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212981"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930298"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での McuJoinsAndLeaves テーブル
  

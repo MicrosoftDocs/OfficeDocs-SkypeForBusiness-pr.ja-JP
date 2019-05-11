@@ -1,20 +1,20 @@
 ---
 title: 拡張 9-1-1 および場所のサービスを管理します。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype ビジネス サーバーの強化された 9-1-1 (~ 9-1-1) ビジネス クライアント用の Skype からの呼び出しをサポートします。 ~ 9-1-1 の Skype ビジネス サーバーを構成する場合、ビジネス用の Skype から緊急呼び出しには、場所情報サービス データベースからの緊急応答ロケーション (ERL) 情報が含まれます。
-ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: baf470708e2abe367f05b3abfc2353d710c33920
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200303"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919431"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>拡張 9-1-1 と Skype でロケーション サービスをビジネス用のサーバーを管理します。
 
