@@ -1,7 +1,7 @@
 ---
 title: マイクロソフトのチームのためのトレーニングします。IT サポートの管理の問題
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a0334b13b79348203666c81e597af7b6f00a6190
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203935"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906849"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -46,7 +46,7 @@ IT スタッフのメンバーと、次のリソースを共有し、チーム�
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>導入およびサポート チームに参加する可能性のあるユーザーすべてのサポート スタッフを関与するでしょうか。</li><li>契約時の他のスタッフのトレーニング計画、アップグレードの進行に合わせて開発したでしょうか。</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>導入およびサポート チームに参加する可能性のあるユーザーすべてのサポート スタッフを関与するでしょうか。</li><li>契約時の他のスタッフのトレーニング計画、アップグレードの進行に合わせて開発したでしょうか。</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>IT スタッフが必要な情報を持っていることを確認します。</li><li>新機能がリリースされると、トレーニングと準備の計画を再検討します。</li></ul>|
 
 チームがお客様の IT スタッフを準備した後は、お客様の環境がすべて[の前提条件](upgrade-plan-journey-prerequisites.md)を満たしていることを確認します。

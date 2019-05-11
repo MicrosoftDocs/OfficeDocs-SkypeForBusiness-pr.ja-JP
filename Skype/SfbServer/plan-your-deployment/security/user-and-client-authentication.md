@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype のユーザーとクライアントの認証
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 信頼されたユーザーは、Skype で信頼されたサーバーによってビジネスのサーバーの認証された資格情報を 1 つ。 このサーバーは、通常、Standard Edition サーバー、エンタープライズ版フロント エンド サーバーまたはディレクターです。 Skype ビジネス サーバーは、ユーザーの資格情報、信頼できる単一のバックエンド ・ リポジトリとして、Active Directory ドメイン サービスに依存します。
-ms.openlocfilehash: f8f006ac3f727553f612070ea9bdbf696d81a97e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6d6a796f521ce79fe3c78c7becb48a495eafd473
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213460"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885462"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>ビジネス サーバーの Skype のユーザーとクライアントの認証
  

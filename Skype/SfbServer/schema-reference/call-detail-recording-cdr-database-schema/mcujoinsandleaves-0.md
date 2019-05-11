@@ -1,8 +1,8 @@
 ---
 title: McuJoinsAndLeaves ビュー
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves ビューでは、ユーザーの結合に関する情報が格納され、1 つの会議サーバーの情報のままにします。 このビュー内の各レコードには、呼び出しの詳細については、ユーザーまたは結合と会議サーバーの 1 つの組み合わせが含まれています。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: db759e324689cfbad92389f30c8fd632c24ebd5e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 756f9656e31f180ac6b724c8c31c6a7226cada08
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212988"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930235"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves ビュー
  

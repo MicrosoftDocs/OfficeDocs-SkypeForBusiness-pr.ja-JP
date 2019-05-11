@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバー用の Skype の通話品質のダッシュ ボードの計画
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: は、コール品質のダッシュ ボードを計画する際の考慮事項について説明します。'
-ms.openlocfilehash: ee82d56747ee4f4241f2630a5a6fd3136ff42be4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8f26ecd90a9804a68656f76080c3865f5cb7360b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217787"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915347"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバー用の Skype の通話品質のダッシュ ボードの計画 
  

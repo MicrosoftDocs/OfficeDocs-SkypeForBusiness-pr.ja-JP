@@ -1,8 +1,8 @@
 ---
 title: ビジネス用の Skype でプライベート電話回線の計画
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: ビジネス サーバーのエンタープライズ VoIP は、Skype でのプライベートの (セカンダリ) 電話回線を計画します。
-ms.openlocfilehash: 16c5b6e29041280bf92f849bd327d864c7b58e15
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 527ebc75311fdab280d258c0fd7f331f78056717
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206537"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913601"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>ビジネス用の Skype でプライベート電話回線の計画
  

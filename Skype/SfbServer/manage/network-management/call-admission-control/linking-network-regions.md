@@ -1,20 +1,20 @@
 ---
 title: ネットワークの領域をリンクします。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '呼受付制御 (CAC) の一環として 2 つのネットワーク領域間のリンクを構成することができます。 '
-ms.openlocfilehash: 4ea6ddcc72d2cadea32608288d1db93ba8505aee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 30d4a020826b24c3615ce059809645481466efc3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884685"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888353"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域のリンクの設定
 
@@ -126,7 +126,7 @@ Windows PowerShell と**Get CsNetworkRegionLink**コマンドレットを使用�
 
 5.  **[編集**] メニューから [**削除**] を選択します。
 
-6.  [**OK**] をクリックします。
+6.  **[OK]** をクリックします。
 
 
 ## <a name="see-also"></a>関連項目

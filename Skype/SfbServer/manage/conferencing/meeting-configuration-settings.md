@@ -1,8 +1,8 @@
 ---
 title: 管理会議の Skype ビジネス サーバーの構成設定
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: '概要: を管理する方法を学習する Skype ビジネス サーバーの構成設定に対応します。'
-ms.openlocfilehash: 90d1004101f1dd3b4737c7bfa4414438a65c54a6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2e4a3dae9eac83b94f6623faf07e5ee6e8e346db
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197977"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888178"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>管理会議の Skype ビジネス サーバーの構成設定
  

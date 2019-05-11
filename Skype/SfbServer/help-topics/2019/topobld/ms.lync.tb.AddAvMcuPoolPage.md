@@ -1,8 +1,8 @@
 ---
 title: 音声ビデオ MCU プールの追加
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: すべてエンタープライズ エディション フロント エンド サーバーのセントラル サイトに配置されている必要はありませんが A V 会議サービスの使用同じスタンドアロン A/V 会議のプールです。 各 A の V 会議のプール、プールおよび A は 1 つだけ必要があるかどうかの完全修飾ドメイン名 (FQDN) を指定する必要があります V 会議サーバーまたは複数の負荷分散/A/V 会議サーバーです。
-ms.openlocfilehash: f88476165ce6affe23e9e5cbb33e03a997c04971
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dd2dd53ae2d3b66da88d39567b4d20e0960633e2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202304"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889322"
 ---
 # <a name="add-av-mcu-pool"></a>音声ビデオ MCU プールの追加
  

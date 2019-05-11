@@ -1,20 +1,20 @@
 ---
 title: ビジネス サーバーの Skype での個々 の SIP トランクに関する情報を表示
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバーの Skype で複数トランクを 1 つの PSTN ゲートウェイを割り当てることができます。つまり、ゲートウェイおよびトランクは、特定の 1 つだけ、管理者は個々 の SIP トランクに関する情報を表示するのには、Get CsTrunk コマンドレットを使用する必要があります。
-ms.openlocfilehash: 4c57bdfb8671c8aee3f0bb3dbc48fdc5cb920b07
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bf9229dba17b7b2e49eb9a05d9469f42c0b9b998
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214618"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930821"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>ビジネス サーバーの Skype での個々 の SIP トランクに関する情報を表示
 

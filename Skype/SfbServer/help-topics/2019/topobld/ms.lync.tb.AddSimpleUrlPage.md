@@ -1,8 +1,8 @@
 ---
 title: 簡易 URL の追加
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開の定義に追加の簡単な Url を追加するには、新しい簡単な URL の URL を指定します。
-ms.openlocfilehash: 393f5b39ea19a156f814a4c3dc5b0a13aab35fce
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 21261bf0704824e986df6211fc95b9a8bf004f9f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201978"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912191"
 ---
 # <a name="add-simple-url"></a>簡易 URL の追加
  

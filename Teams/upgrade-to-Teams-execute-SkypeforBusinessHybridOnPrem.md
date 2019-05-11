@@ -1,7 +1,7 @@
 ---
 title: Skype for Business のハイブリッド環境またはオンプレミス環境から Teams にアップグレードする - Microsoft Teams
-author: arachmanGitHub
-ms.author: arachman
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: article
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38a9c3bd2e9649ea657a559f1c6d41aab86edd56
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3fd4e78149dfaee58e85b9969062f324e90b7e6a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464765"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930814"
 ---
 ![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 

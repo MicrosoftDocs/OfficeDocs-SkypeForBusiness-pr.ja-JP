@@ -1,7 +1,7 @@
 ---
 title: Exchange ユニファイド メッセージングの移行サポート
 ms.author: heidip
-author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: waseemh, dstrome, balinger
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: マイクロソフトは 2020年 2 月によって Exchange ユニファイド メッセージング オンライン (ExchUMO) サービスを撤去します。 この資料がどのような影響を受けるをまとめたものお客様が知っているし、ビジネス継続性の計画を行う必要があります。
-ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: e7bb1f7f73406f6585cac7b95f98b57c48d9ab40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914678"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911404"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート  
 

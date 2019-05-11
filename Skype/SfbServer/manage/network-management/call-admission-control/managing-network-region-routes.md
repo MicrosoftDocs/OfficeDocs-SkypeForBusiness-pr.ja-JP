@@ -1,20 +1,20 @@
 ---
 title: ネットワーク地域ルートの管理
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ネットワーク地域のルートは、ネットワーク地域のペア間のルートを定義します。 通話受付管理展開のネットワーク地域の各ペアには、ネットワーク地域のルートが必要です。
-ms.openlocfilehash: 12e8d9072df3affdb6e47b6ddb0452e0ee5982a5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 53b6383e08196fb22784f3fcd1e8d797c9b138de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898124"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888850"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域ルートの管理
 
@@ -130,7 +130,7 @@ Windows PowerShell と Get CsNetworkInterRegionRoute コマンドレットを使
 
 5.  [**編集**] メニューの [**削除**] をクリックします。
 
-6.  [**OK**] をクリックします。
+6.  **[OK]** をクリックします。
 
 
 

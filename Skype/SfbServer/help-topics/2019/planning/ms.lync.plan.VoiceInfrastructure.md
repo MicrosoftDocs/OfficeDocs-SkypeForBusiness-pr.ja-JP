@@ -1,8 +1,8 @@
 ---
 title: Voice Infrastructure (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype ビジネス サーバーは、SIP トランク、PSTN ゲートウェイでは、直接 SIP 接続または PBX への直接の SIP 接続を使用して信頼性の高いスケーラブルな PSTN 接続を提供します。 詳細についてを参照してください計画 PSTN への接続では、Skype のビジネス サーバーのです。
-ms.openlocfilehash: 422d9af716bdb1c2af55860d697d94dc50b4975a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e5a234560d59298ebece6758fe346e3c502ace24
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202339"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889298"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>Voice Infrastructure (Planning Tool)
  

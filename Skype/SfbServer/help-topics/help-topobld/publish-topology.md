@@ -1,8 +1,8 @@
 ---
 title: トポロジの公開
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
 description: 発行プロセスを開始するときは、公開トポロジ] ページが表示されます。 読み、続行する前に表示されるタスクが完了することを確認します。 続行する準備ができたら、次へをクリックします。 発行プロセスを閉じる必要がある場合、は、[キャンセル] をクリックします。
-ms.openlocfilehash: 4f781f355c9dabe4af2d4ce71a387e883934e67d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f48c6fa3bfb5401c80a63a48bcea578d2ad6b972
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219186"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910320"
 ---
 # <a name="publish-topology"></a>トポロジの公開
  

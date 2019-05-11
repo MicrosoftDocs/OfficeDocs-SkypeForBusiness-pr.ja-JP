@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams よく寄せられる質問 | 会議、電話会議、通話機能
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 069c7f067ee1d408ad92cb980d81b807bce0d880
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19aa57453227edf366ea663b4d9fee01c6d8ed12
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180589"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868697"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -202,7 +202,7 @@ Skype Room Systems v1 (別名: Lync Room Systems) では、それらのデバイ
 
 ### <a name="whats-planned-for-new-management-experiences"></a>新しい管理エクスペリエンスについての計画を教えてください。
 
-Microsoft では、Office 365 管理センター内に IT 専門家向けの [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)を立ち上げました。 Skype for Business 管理コンソールと同様に、この新しいポータルは、新しいエクスペリエンスを管理するための単一の場所となります。 2018 年の第 1 四半期に予定されているこのポータルの初回リリースは、Teams のみを使用するお客様向けの企業対応ポリシー モデルを通して、Teams の既存の管理インターフェースに取って代わる管理機能をサポートするように設計されています。 このポータルにより、Microsoft はカスタムのプレゼンス、チャット、アプリ、会議、ボイスのポリシーを作成し、これらのポリシーを Teams ユーザーに割り当てることができるようになります。
+Microsoft では、Microsoft 365 管理センター内に IT 専門家向けの [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)を立ち上げました。 Skype for Business 管理コンソールと同様に、この新しいポータルは、新しいエクスペリエンスを管理するための単一の場所となります。 2018 年の第 1 四半期に予定されているこのポータルの初回リリースは、Teams のみを使用するお客様向けの企業対応ポリシー モデルを通して、Teams の既存の管理インターフェースに取って代わる管理機能をサポートするように設計されています。 このポータルにより、Microsoft はカスタムのプレゼンス、チャット、アプリ、会議、ボイスのポリシーを作成し、これらのポリシーを Teams ユーザーに割り当てることができるようになります。
 
 ## <a name="device-compatibility"></a>デバイスの互換性
 

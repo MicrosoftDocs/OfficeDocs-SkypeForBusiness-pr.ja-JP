@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 の常設チャット サーバーの処理能力の計画
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/23/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: '概要: 容量ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 08c360b26efd04c34ca1833b0c0022394f8c4ac2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2ec69a5569eb73dba229a24528d811ab916de14c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213775"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906593"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット サーバーの処理能力の計画
  

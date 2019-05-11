@@ -1,7 +1,7 @@
 ---
 title: 社内の Exchange と Microsoft チームの会議室を配置します。
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: 社内の Exchange とのハイブリッド環境でマイクロソフト チームの会議室を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 6d00b1523e5ae4d98e18f492370d5a9a02174f00
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 1c1dd5ad49cedb2aee41b036f71bbc6b840aed96
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835291"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916212"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>社内の Exchange と Microsoft チームの会議室を配置します。
 

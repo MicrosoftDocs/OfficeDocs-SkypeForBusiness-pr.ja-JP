@@ -1,8 +1,8 @@
 ---
 title: 仲介の次ホップ設定エキスパンダー
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
 description: プールの仲介サーバーまたは仲介サーバーの次のホップを指定するには、ドロップ ダウン リストから定義済みのエンタープライズ エディションのフロント エンド プールまたは標準的なフロント エンド サーバーのエディションを選択します。 ディレクターまたはディレクター プール プールの仲介サーバーまたは仲介サーバーの次ホップの選択が有効ではありませんし、一覧に表示されません。 そのまま使用し、変更を保存するには、[ok] をクリックします。 変更を破棄してプロパティ ページを終了するには、[キャンセル] をクリックします。
-ms.openlocfilehash: fcb1c9151da69d222898335347aa04ee9c658a84
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c9f965b206fa8abe5340b13ebc47ee6aee4078d3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235384"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885533"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>仲介の次ホップ設定エキスパンダー
  

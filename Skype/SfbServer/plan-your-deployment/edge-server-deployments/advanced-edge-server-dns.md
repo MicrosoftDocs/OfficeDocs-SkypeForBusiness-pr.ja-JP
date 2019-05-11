@@ -1,10 +1,11 @@
 ---
 title: 高度なエッジ サーバーの DNS を計画する Skype のビジネス サーバー
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.audience: ITPro
 ms.topic: conceptual
+manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: '概要: は、Skype のビジネス サーバーの展開オプションのシナリオを確認します。 単一サーバーを使用したいと考えている場合も、DNS または HLB と共にサーバー プールを使用することを優先する場合も、このトピックは役に立ちます。'
-ms.openlocfilehash: e6619056d7c8a69f63fa22007a7702b41480719f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 85dac9e6bf41576baef962f2ff4082b51905a44d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207182"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885091"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高度なエッジ サーバーの DNS を計画する Skype のビジネス サーバー
  

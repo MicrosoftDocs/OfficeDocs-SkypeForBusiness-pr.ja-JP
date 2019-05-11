@@ -1,8 +1,8 @@
 ---
 title: アーカイブ構成を新規作成または既存の編集
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 展開のアーカイブ オプションを制御するには、アーカイブ構成を使用します。アーカイブ構成には、グローバル構成と、オプションで 1 つ以上のサイト構成およびプール構成が含まれます。
-ms.openlocfilehash: 2167b0ccc65a9bfc6ae731add156fa0b0925eaf2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d9c1d63b01afd472850a0c311ab8a001c1c80b95
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234846"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887210"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>アーカイブ構成: 新規作成または現在の形式のままで編集
  

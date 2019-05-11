@@ -1,8 +1,8 @@
 ---
 title: ビジネスのサーバーに、Skype でエンタープライズ VoIP を計画します。
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: エンタープライズ VoIP の Skype の基本の Business Server の計画、サイト、地域、サイト間のネットワーク リンクを含むおよび音声の使用量のトラフィックを見積もるします。
-ms.openlocfilehash: 281dfefedb05cd60e1d050d708bacae4eec2baa2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7a540721cd8b8e9dc24436bc54138cfd503d4de8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206895"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924389"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>ビジネスのサーバーに、Skype でエンタープライズ VoIP を計画します。
  

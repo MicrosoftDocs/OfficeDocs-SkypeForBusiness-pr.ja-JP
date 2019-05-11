@@ -1,8 +1,8 @@
 ---
 title: 常設チャット全般設定エキスパンダー
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 構成するか、これらのプロパティを定義することによって、永続的なチャット サーバーまたはプールの永続的なチャット サーバーの全般的な設定を編集します。
-ms.openlocfilehash: 5300a6353bb683bfe2a010cda00c43e0faa839b8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 873989177c9830b8fb55ec7b55ba05976a9b10b3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219290"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910512"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>常設チャット全般設定エキスパンダー
  

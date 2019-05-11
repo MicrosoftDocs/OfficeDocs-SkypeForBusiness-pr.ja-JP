@@ -1,8 +1,8 @@
 ---
 title: 従来版のマージ FQDN
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: アクセス エッジ プールの内部 FQDN は、フェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続の外部ユーザーと内部ユーザーの通信、さまざまなシナリオに使用されます。 レガシ環境で負荷分散されたエッジ サーバーが配置された場合は、内部ロード バランサー機器の完全修飾ドメイン名 (FQDN) を入力します。
-ms.openlocfilehash: 38febd8b6d37d186706dc6d4ce43df5a9585c475
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 83a85a31049b936bbc52f51e10855938aa049249
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200188"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888570"
 ---
 # <a name="legacy-merge-fqdn"></a>従来版のマージ FQDN
  

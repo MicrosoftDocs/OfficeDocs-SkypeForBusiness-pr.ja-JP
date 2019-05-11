@@ -1,8 +1,8 @@
 ---
 title: フロントエンド プールの高可用性と管理
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: プール、クォーラムの損失、および 2 つのフロント エンド サーバーとプールの特別な手順の管理を含むビジネス サーバーは、Skype でのフロント エンド プールの管理について説明します。
-ms.openlocfilehash: 43c8e3fffb010bf268f94970b5cca25ecee7cd58
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bab9d4b40132665719a1e9d019b8f34e2d96622d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214076"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910229"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  

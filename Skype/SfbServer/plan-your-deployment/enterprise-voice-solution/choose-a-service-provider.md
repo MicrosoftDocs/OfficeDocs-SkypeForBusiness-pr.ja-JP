@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server の E9-1-1 サービス プロバイダーの選択
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 展開の場合、サービス ・ プロバイダーを選択します。
-ms.openlocfilehash: f79a6a6f8265580cc1b935c1ba491656b31cdc22
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e15eccd94010a2ed515bdd1c95806cc38b20e102
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207007"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33909107"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Skype for Business Server の E9-1-1 サービス プロバイダーの選択
  

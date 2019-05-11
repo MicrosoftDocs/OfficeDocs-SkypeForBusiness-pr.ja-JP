@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype では、アーカイブの構成を削除します。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: '概要: ビジネス サーバーの Skype では、アーカイブの構成を削除する方法を説明します。'
-ms.openlocfilehash: 5e567a08606bb9d0475033515b4b9148deb2f446
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 3b6f79247a03beae4abc917d38a6844d67324082
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895584"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33884980"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、アーカイブの構成を削除します。
 

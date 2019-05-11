@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype では、アーカイブの構成を作成します。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 概要では、Skype のビジネス サーバーのアーカイブ構成を作成する方法について説明します。
-ms.openlocfilehash: 2a45a627ab8bbeedd18d1cbda636606ebc641745
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 3f20b763644f74b0b2265706d4190d27b28ddffd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881285"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885025"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、アーカイブの構成を作成します。
 

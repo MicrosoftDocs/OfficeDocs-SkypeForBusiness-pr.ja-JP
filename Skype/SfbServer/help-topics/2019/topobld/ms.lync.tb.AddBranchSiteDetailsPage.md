@@ -1,8 +1,8 @@
 ---
 title: ブランチ サイトの詳細の追加
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: サイトのサイト詳細を指定するには、次の操作を実行します。
-ms.openlocfilehash: a9ba31fcbe5a8bfedfc722e6d822874b46336056
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6a7c13c81c3106bfe7aca5ce32e3da86c1a5203f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202237"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889193"
 ---
 # <a name="add-branch-site-details"></a>ブランチ サイトの詳細の追加
 

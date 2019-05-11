@@ -1,8 +1,8 @@
 ---
 title: メディアを表示します。
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: メディア ビューでは、ピア ツー ピア セッションで使用される 1 つのメディアの種類に関する情報を格納します。 セッションは 1 つで表されます、テーブル内の複数のレコード 1 つ以上のメディア タイプを使用する場合。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 148f74117ba42849d58e4012e4e963b3ef1b7a3c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 83caf609efae4e97961e7c62c3a1ed6c6004e8e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212924"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930694"
 ---
 # <a name="media-view"></a>メディアを表示します。
  

@@ -1,8 +1,8 @@
 ---
 title: エッジ サーバーの FQDN の追加
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 単一の FQDN の使用を選択しなかった場合は、 &amp; IP アドレスのオプションを選択します] ページの機能、および A の Web 会議エッジ サービスの FQDN を指定することもする必要があります/音声ビデオ エッジ サービスです。
-ms.openlocfilehash: 33856832407e6e12a3c0854fb2d2c87a1bde376c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a76efab9c34984c5c514e9301ddbf17fdb2fb025
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880019"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886418"
 ---
 # <a name="add-edge-server-fqdn"></a>エッジ サーバーの FQDN の追加
  

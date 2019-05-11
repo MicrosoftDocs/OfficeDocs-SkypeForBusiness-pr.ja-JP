@@ -1,8 +1,8 @@
 ---
 title: グループの選択
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: 応答グループ キューは、エージェントが呼び出しに応答するまでの応答グループへの呼び出しを保持します。 キューには、エージェント グループが割り当てられます。 作成または、キューを編集するときは、キューに割り当てる 1 つまたは複数のエージェント グループを選択するのにグループの選択] ダイアログ ボックスを使用します。
-ms.openlocfilehash: fc03bbc95c1604ef13380a52fa214f9fd65f35b4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dcd5ae1078a792049928d4d2f16e6837040ec20d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200556"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924641"
 ---
 # <a name="select-groups"></a>グループの選択
 

@@ -1,8 +1,8 @@
 ---
 title: 証明書のインポート (概要)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 description: インポート証明書の概要のページでは、ファイル名、パス、および秘密キーが存在することの概要が表示されます。 概要をクリックを次に確認した後で続行します。
-ms.openlocfilehash: 52ae6c49ac8ff1131167e39e0b6cfe95dc5da0fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af3663954a486cfb8bcd85f79333849ef897f809
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235052"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910996"
 ---
 # <a name="import-certificate-summary"></a>証明書のインポート (概要)
  

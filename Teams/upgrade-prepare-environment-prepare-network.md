@@ -1,12 +1,12 @@
 ---
 title: マイクロソフト チームのネットワークを準備します。 ファイアウォールのポートの要件
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: このガイダンスを使用して、お使いのネットワークを Teams の展開とロールアウトのために準備します。
+description: このガイドを使用して、チームの導入と展開のネットワークを準備するのには
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7a26792cb16c103c6e8a47c5049efa84e5b1120
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 13cdddb008b59a89598926185910f98e3d48fa08
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218705"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910849"
 ---
-![技術面の準備段階を強調した、アップグレード手順の各段階](media/upgrade-banner-tech-readiness.png "技術面の準備段階を強調した、アップグレード手順の各段階")
+![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
-この記事は、アップグレードの手順において、ユーザーの準備段階と並行して完了するアクティビティである、技術的な準備段階の一部を説明します。 先に進む前に、これまでの各段階で以下のアクティビティを完了していることを確認してください。
+この資料は、ユーザーの準備段階と並行して、完了したアクティビティ、アップグレード、旅の技術的な準備段階の一部です。 次に進む前に前の段階からこれらの活動を完了していることを確認します。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)

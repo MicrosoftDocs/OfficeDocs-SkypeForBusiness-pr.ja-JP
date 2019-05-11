@@ -1,8 +1,8 @@
 ---
 title: 証明書のリスト
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 description: 証明書を割り当てるには、ローカル証明書ストアから証明書を選択します。 [次へ] をクリックして続行します。
-ms.openlocfilehash: 3b8f18c84bbd0b7efba201430255f057556268cf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7e9f76434de049f4d54f3022302b33a72c21037e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235158"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911248"
 ---
 # <a name="certificate-list"></a>証明書のリスト
  

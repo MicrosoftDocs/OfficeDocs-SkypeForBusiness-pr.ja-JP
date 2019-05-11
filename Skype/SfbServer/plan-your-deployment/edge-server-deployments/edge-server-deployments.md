@@ -1,8 +1,8 @@
 ---
 title: Skype でビジネス サーバー用のエッジ サーバー展開の計画
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: '概要: は、サーバーのエッジをビジネス環境に、Skype を計画します。 このトピックでは、エッジの概念を紹介し、より詳細なトピックで体系的に学習できるようにします。'
-ms.openlocfilehash: e2154abd7e263b92011ca198ddaa1b90f8bd38c7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4c4348d0d3aa56aa82b8ea8930176d9d135a64f4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207140"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885076"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Skype でビジネス サーバー用のエッジ サーバー展開の計画
  

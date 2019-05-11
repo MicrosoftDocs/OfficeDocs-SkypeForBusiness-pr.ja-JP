@@ -1,8 +1,8 @@
 ---
 title: 単一の Standard Edition サーバーの準備 (起動)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: コマンドの実行中] ページで、[作業ウィンドウで SQL Server Express をインストールして、中央管理ストアとして機能するように構成するタスクを表示できます。 既定では、RTC をという名前の SQL Server ベースのデータベースのインスタンスが作成されます。 サーバーとデータベース インスタンスと通信するためにクライアントの受信および送信のアクセスを許可するファイアウォール規則が作成されます。 タスクが完了したら、ドロップダウン リストからログ ファイルを選択できます。 ログ ファイルをローカル コンピューターのブートス トラップといいます。 ログ ファイルを選択すると、ログの表示] をクリックします。 エラーと警告のログ ファイルを確認します。 続行する準備ができたら、[完了] をクリックします。 されていない場合は、ここでトポロジ ビルダーでトポロジを定義してください。
-ms.openlocfilehash: 665075799794d94328e0a5a3d9e1f9c603813ed7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fad1a7e4ab611ccf8ee152bf24c1eb1898d9cd51
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234969"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910722"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>単一の Standard Edition サーバーの準備 (起動)
  

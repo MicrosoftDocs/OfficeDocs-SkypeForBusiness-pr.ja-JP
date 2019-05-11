@@ -1,8 +1,8 @@
 ---
 title: Skype のビジネスのサーバーの場所のポリシーを計画します。
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で、拡張緊急サービス (~ 9-1-1) の配置の場所のポリシーを計画する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 6717d6b7940ccf9cf7de403797d8bd4712f18144
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7bb92559f79be7cb2f8c62f89620f4b93f76cb8f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206762"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924207"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Skype のビジネスのサーバーの場所のポリシーを計画します。
  

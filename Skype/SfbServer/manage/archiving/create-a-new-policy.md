@@ -1,8 +1,8 @@
 ---
 title: Skype のビジネス サーバーの新しいアーカイブ ・ ポリシーを作成します。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: '概要: は、Skype のビジネス サーバーの新しいアーカイブ ・ ポリシーを作成する方法を説明します。'
-ms.openlocfilehash: b8cd31e1fb921313cdbd53ad67ba55a81dda81ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e01655c5d144dd558b545bcaeaaf6a09ca4fbba3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893442"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885014"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Skype のビジネス サーバーの新しいアーカイブ ・ ポリシーを作成します。
 

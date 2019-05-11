@@ -1,8 +1,8 @@
 ---
 title: コール パークを新規作成または既存の編集
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: コール パーク番号範囲では、一時停止の呼び出しが誰かを取得するか、タイムアウトするまで保持される数値を定義します。
-ms.openlocfilehash: 6948bc42616ee85c77eb7fe250fe922420d6919b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4788cf3bf51785005d88dbde6977f7f86e2efbb5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234810"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916043"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>コール パーク: 新規作成または現在の形式のままで編集
 

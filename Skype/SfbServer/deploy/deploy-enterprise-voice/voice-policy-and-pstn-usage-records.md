@@ -1,8 +1,8 @@
 ---
 title: 作成し、音声ポリシーを変更または Skype ビジネスのために PSTN 使用法レコードを構成します。
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: '概要: は、作成および音声ポリシーを変更またはビジネス サーバーのコントロール パネルの Skype を使用して、PSTN 使用法レコードを構成します。'
-ms.openlocfilehash: 9a7847e918be71b88a7ba32c986c18f7659905ee
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e3314923c4227a630549dd2fc9cce1600263c4aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222520"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892245"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>作成し、音声ポリシーを変更または Skype ビジネスのために PSTN 使用法レコードを構成します。
 

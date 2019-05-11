@@ -1,8 +1,8 @@
 ---
 title: MediaLine テーブル
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 各レコードは、メディアの 1 つの行を表します。 (通常 1 つのオーディオ セッションには、オーディオ メディアの 1 つの行が含まれています。 1 つのオーディオおよびビデオ (A/V) セッションには通常が含まれていますオーディオ メディアの 1 つの行と 1 つのビデオ メディア ラインが、セッションには会議用デバイスが使用されている場合、またはギャラリーのビューを使用する場合 2 つのビデオ メディア ラインが含まれて可能性があります。
-ms.openlocfilehash: 11c309091211ce0bc480fa032e0f1dbbbbf533cd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 42c770486c3b2b457e1715dfa5c5a5b028022f26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212545"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920146"
 ---
 # <a name="medialine-table"></a>MediaLine テーブル
  

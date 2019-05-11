@@ -1,8 +1,8 @@
 ---
 title: ルートの選択
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用できる既存のボイス ルートを検索するのにには、ルートの選択] ダイアログ ボックスを使用します。
-ms.openlocfilehash: 2c2f1d34976ed1f709e948af74f83999a368933e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 57f8644c4c90551b35b4f8a8afb7da8304f72a57
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221159"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890313"
 ---
 # <a name="select-routes"></a>ルートの選択
  

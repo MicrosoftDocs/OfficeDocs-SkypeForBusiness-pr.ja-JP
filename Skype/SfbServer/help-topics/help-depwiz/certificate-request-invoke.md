@@ -1,8 +1,8 @@
 ---
 title: 証明書要求 (起動)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 description: コマンドの実行] ページでは、証明書の要求の生成時に実行されたコマンドとタスクのステータス ウィンドウが表示されます。 タスクが完了したら、[概要] パネルの下のドロップ ダウン リストには、ログ ファイルの一覧が含まれています。 」ドロップ ダウン リストを使用して、表示するにはログ ファイルを選択し、ログの表示] をクリックします。 Internet Explorer が起動し、ログ ファイルを表示します。 、失敗した要求が発生した場合は、エラーの原因を特定するのにはログ ファイルを確認します。 問題を解決するのには証明書の要求を再実行することができます、問題を修正する、ログ ファイルに示されます。 証明書の要求ページを続行し、再度証明書を要求します。
-ms.openlocfilehash: 3b87f63c8d12deb753dc8225861d4fc38bacf3a9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af894564859b078587c564aa67cff47751d03a49
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235031"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911122"
 ---
 # <a name="certificate-request-invoke"></a>証明書要求 (起動)
  

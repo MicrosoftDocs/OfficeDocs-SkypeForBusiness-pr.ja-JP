@@ -1,8 +1,8 @@
 ---
 title: アイテムの親の取得
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: '概要: は、項目のサービスの一部では、アイテムの先祖を取得する操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 7afeecb81d1933b0a308b174e49f6d8ff45a93dd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 22672146ec9ab071041c85c31a466d766ffe31b9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873113"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930638"
 ---
 # <a name="get-item-ancestors"></a>アイテムの親の取得
  

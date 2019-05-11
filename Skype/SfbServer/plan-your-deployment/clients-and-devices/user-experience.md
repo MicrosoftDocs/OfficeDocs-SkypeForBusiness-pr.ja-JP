@@ -1,7 +1,7 @@
 ---
 title: ビジネス 2015年クライアント エクスペリエンスのユーザーのための Skype を計画します。
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: ': の概要については、新しい Skype のビジネスとオンライン ビジネス、ビジネス サーバー 2019 の Skype、Skype のビジネス サーバー 2015、Lync Server 2013 では、Skype を使用しているかどうか、更新プログラムのユーザー、お客様の環境を準備するための手順やLync Server 2010。'
-ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9b6f7bbe5fdeecc8a017b973e7b77912819da789
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207259"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886474"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>ビジネス 2015年クライアント エクスペリエンスのユーザーのための Skype を計画します。
  

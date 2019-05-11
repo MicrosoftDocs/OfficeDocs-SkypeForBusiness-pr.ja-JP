@@ -1,7 +1,7 @@
 ---
 title: Skype for Business から Microsoft Teams へのアップグレードを計画する | 導入フレームワーク
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4810e98910186e3c4c5a9b2fb7e4cf62df6876c7
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: ad023ae7495bd91db248d133198075dfd5a75ce3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30649421"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885619"
 ---
 ![プロジェクトが適切なプロジェクトチームの成功のために設定されていることを確認してください。プロジェクトの範囲、目標、およびスケジュールを定義します。技術的な準備とユーザーの準備を確認します。展開計画を実行します。結果を最大化するために推進力を維持します。](media/upgrade-banner-main.png "アップグレードの行程を始める")
 

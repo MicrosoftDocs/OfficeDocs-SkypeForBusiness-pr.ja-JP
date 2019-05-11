@@ -1,8 +1,8 @@
 ---
 title: 信頼済みアプリケーション プールの FQDN の追加
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 信頼されたアプリケーション プールの完全修飾ドメイン名 (FQDN) を定義するには、次のように指定します。
-ms.openlocfilehash: 12ea56f285dfffbe78b74c8eece8211a8676333e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 11331569e7db06fba6d7dc99529fe83ad3fe2ddd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202097"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888969"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>信頼済みアプリケーション プールの FQDN の追加
  

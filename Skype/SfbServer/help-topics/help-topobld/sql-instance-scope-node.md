@@ -1,8 +1,8 @@
 ---
 title: SQL インスタンス スコープ ノード
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: このノードは、そのサーバーとプールまたはこの SQL Server を使用するサーバーにこの Microsoft SQL Server と SQL Server のインスタンスの完全修飾ドメイン名 (FQDN) を示しています。 以下のアクションを実行できます。
-ms.openlocfilehash: 18da478ce1cda34c6ce36c5cfc10141d57878c3b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9fb3ee8c1ee4bff5e192e50734e509798cfbf163
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219199"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930799"
 ---
 # <a name="sql-instance-scope-node"></a>SQL インスタンス スコープ ノード
  

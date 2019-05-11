@@ -1,20 +1,20 @@
 ---
 title: 呼受付制御を有効にします。
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: " 呼び出し受付制御 (CAC) ネットワークを構成すると、CAC 帯域幅の制限を適用するを有効にする必要があります。"
-ms.openlocfilehash: a683fe0f437fc1c3fa92784313135d094e43c8b1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a819f3a42078c094c0fc8bf10f788bbaf3361e20
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32228408"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888332"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Skype for Business Server での通話受付管理の有効化
 
