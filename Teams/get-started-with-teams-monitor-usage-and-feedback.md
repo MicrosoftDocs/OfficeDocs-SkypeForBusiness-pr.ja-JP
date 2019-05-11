@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53ed44f4377d90ae0d43b8c8971f651d940b839
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.openlocfilehash: 0447e006bfb276858d2fcdf02524bb1d2f0f1227
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298482"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865181"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams での使用状況とフィードバックを監視する
 ユーザーがどのように Teams を使用していているか、また Teams に関するユーザーのエクスペリエンスはどのようなものかを知ることは重要です。 使用状況レポートは、使用パターンを正しく理解するために役立ちます。また、ユーザーのフィードバックと併用することで、広範な展開の情報を確認し、トレーニングとコミュニケーションの取り組みに関する優先順位を決定するための見識が得られます。
@@ -51,10 +51,10 @@ Microsoft Teams 管理センターでの Teams のレポートにより、Teams 
 
 詳細については、「[Teams の分析とレポート](teams-analytics-and-reports/teams-reporting-reference.md)」を参照してください。 
 
-### <a name="teams-activity-reports-office-365-admin-center"></a>Teams のアクティビティ レポート (Office 365 管理センター)
-Teams のアクティビティは、Office 365 管理センターから利用可能なレポートで確認することもできます。 これに該当するレポートは、Office 365 管理センターの Office 365 レポートに含まれていて、ユーザー アクティビティとデバイス使用状況に関する情報が示されます。 
+### <a name="teams-activity-reports-microsoft-365-admin-center"></a>(Microsoft 365 管理センターでの) Teams のアクティビティ レポート
+Teams のアクティビティは、 Microsoft 365 管理センターから利用可能なレポートで確認することもできます。 これに該当するレポートは、Microsoft  365 管理センターの Office 365 レポートに含まれていて、ユーザー アクティビティとデバイス使用状況に関する情報が示されます。 
 
-このレポートを表示するには、Office 365 管理センターに移動して **[レポート]** > **[使用状況]** をクリックします。 **[レポートの選択]** で、**[Microsoft Teams]** をクリックします。 ここから、表示するレポートを選択します。
+このレポートを表示するには、 Microsoft 365 管理センターに移動して **[レポート]** > **[使用状況]** をクリックします。 **[レポートの選択]** で、**[Microsoft Teams]** をクリックします。 ここから、表示するレポートを選択します。
 
 詳細については、「[Teams のアクティビティ レポートを使用する](teams-activity-reports.md)」を参照してください。
 

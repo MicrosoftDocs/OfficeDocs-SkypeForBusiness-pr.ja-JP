@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baad7614cbcb622017de7629fa62799be330dc88
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 75bb17e70cc1e7da4081064074a0862bb93122fc
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402516"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865173"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
@@ -52,7 +52,7 @@ Microsoft Teams は、組織に最適な共同作業ツールです。 Office 36
 
 ## <a name="who-is-eligible"></a>対象者
 
-ユーザーがアプリや試用版にサインアップできるようにする必要があります (Office 365 管理センターで)。 詳細については、この記事で後述する「[試用版を管理する](#manage-the-trial)」を参照してください。 
+ユーザーが (Microsoft 365 管理センターで) アプリや試用版にサインアップできるようにする必要があります。 詳細については、この記事で後述する「[試用版を管理する](#manage-the-trial)」を参照してください。 
 
 Teams を含む Office 365 ライセンスを所有していないユーザーは、Microsoft Teams 商用クラウド試用版のオファーを開始できます。 たとえば、ユーザーが Office 365 Business (Teams を含まない) を所有している場合、ユーザーは試用版の対象になります。
 
