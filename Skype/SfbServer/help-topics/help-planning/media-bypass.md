@@ -1,8 +1,8 @@
 ---
 title: Media Bypass (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/8/2016
 ms.audience: ITPro
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 description: メディア バイ パスは、仲介サーバーを通過する信号の呼び出しを可能な限りメディア パスから仲介サーバーを削除することを意味します。 詳細については、ビジネス 2015年の Skype で使用しないメディアの計画を参照してください。
-ms.openlocfilehash: a361969e5054ed3ca4f659d45068e1affa563f68
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 30e8c923e27df69b0b9cdcd1b2929eac52407d8b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237145"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885752"
 ---
-# <a name="media-bypass-planning-tool"></a><span data-ttu-id="757a0-104">Media Bypass (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="757a0-104">Media Bypass (Planning Tool)</span></span>
+# <a name="media-bypass-planning-tool"></a><span data-ttu-id="b5891-104">Media Bypass (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="b5891-104">Media Bypass (Planning Tool)</span></span>
  
-<span data-ttu-id="757a0-105">メディア バイ パスは、仲介サーバーを通過する信号の呼び出しを可能な限りメディア パスから仲介サーバーを削除することを意味します。</span><span class="sxs-lookup"><span data-stu-id="757a0-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="757a0-106">詳細については、[ビジネス 2015年の Skype で使用しないメディアの計画](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="757a0-106">For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
+<span data-ttu-id="b5891-105">メディア バイ パスは、仲介サーバーを通過する信号の呼び出しを可能な限りメディア パスから仲介サーバーを削除することを意味します。</span><span class="sxs-lookup"><span data-stu-id="b5891-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="b5891-106">詳細については、[ビジネス 2015年の Skype で使用しないメディアの計画](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b5891-106">For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
   
 

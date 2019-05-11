@@ -1,8 +1,8 @@
 ---
 title: PSTN ゲートウェイ スコープ ノード
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,25 +13,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: '[PSTN ゲートウェイ] ノードには、トポロジ内の公衆交換電話網 (PSTN) ゲートウェイが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: 45e33d99b02e52b2d262c9bf897cd78aeb7a6ade
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4bad513e507d07dd624a0ef3c5b43c225fdf9713
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219227"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910645"
 ---
-# <a name="pstn-gateways-scope-node"></a><span data-ttu-id="3e0de-104">PSTN ゲートウェイ スコープ ノード</span><span class="sxs-lookup"><span data-stu-id="3e0de-104">PSTN Gateways Scope Node</span></span>
+# <a name="pstn-gateways-scope-node"></a><span data-ttu-id="5d0a3-104">PSTN ゲートウェイ スコープ ノード</span><span class="sxs-lookup"><span data-stu-id="5d0a3-104">PSTN Gateways Scope Node</span></span>
  
-<span data-ttu-id="3e0de-p102">[**PSTN ゲートウェイ**] ノードには、トポロジ内の公衆交換電話網 (PSTN) ゲートウェイが一覧表示されます。以下のアクションを実行できます。</span><span class="sxs-lookup"><span data-stu-id="3e0de-p102">The **PSTN Gateways** node lists the public switched telephone networks (PSTN) gateways in your topology. You can perform the following action:</span></span>
+<span data-ttu-id="5d0a3-p102">[**PSTN ゲートウェイ**] ノードには、トポロジ内の公衆交換電話網 (PSTN) ゲートウェイが一覧表示されます。以下のアクションを実行できます。</span><span class="sxs-lookup"><span data-stu-id="5d0a3-p102">The **PSTN Gateways** node lists the public switched telephone networks (PSTN) gateways in your topology. You can perform the following action:</span></span>
   
-- <span data-ttu-id="3e0de-p103">**新しい IP/PSTN ゲートウェイ**。トポロジに新しい PSTN ゲートウェイを追加する場合に使用する、[**新しい IP/PSTN ゲートウェイの定義**] ウィザードを起動します。</span><span class="sxs-lookup"><span data-stu-id="3e0de-p103">**New IP/PSTN Gateway**. Starts the **Define New IP/PSTN Gateway** wizard, which you use to add a new PSTN gateway to the topology.</span></span>
+- <span data-ttu-id="5d0a3-p103">**新しい IP/PSTN ゲートウェイ**。トポロジに新しい PSTN ゲートウェイを追加する場合に使用する、[**新しい IP/PSTN ゲートウェイの定義**] ウィザードを起動します。</span><span class="sxs-lookup"><span data-stu-id="5d0a3-p103">**New IP/PSTN Gateway**. Starts the **Define New IP/PSTN Gateway** wizard, which you use to add a new PSTN gateway to the topology.</span></span>
     
-<span data-ttu-id="3e0de-109">PSTN ゲートウェイ オプションに加えて、次の一般的なタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="3e0de-109">In addition to the PSTN gateway options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="5d0a3-109">PSTN ゲートウェイ オプションに加えて、次の一般的なタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="5d0a3-109">In addition to the PSTN gateway options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="3e0de-p104">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="3e0de-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="5d0a3-p104">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="5d0a3-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="3e0de-p105">**表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="3e0de-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="5d0a3-p105">**表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="5d0a3-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="3e0de-p106">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="3e0de-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="5d0a3-p106">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="5d0a3-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

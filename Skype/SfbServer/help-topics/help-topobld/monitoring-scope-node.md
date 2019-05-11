@@ -1,8 +1,8 @@
 ---
 title: 監視のスコープ ノード
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,25 +13,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: Lync Server 2013 トポロジ ビルダーでは、ツールバーの [操作] をクリックしてまたは [操作] ウィンドウで、タスクをクリックすると、コンソール ツリーで、監視を実行するサーバーを右クリックしていずれかの監視を実行している個々 のサーバーに関連するタスクを実行でき、監視を実行するサーバーのオプションを次のいずれかをクリックします。
-ms.openlocfilehash: cbefbef6872daeaadbf4972cafb440b58270622c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3880ad774d28605942f4fa5bcf2bd07d00a3a7aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200039"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888360"
 ---
-# <a name="monitoring-scope-node"></a><span data-ttu-id="11311-103">監視のスコープ ノード</span><span class="sxs-lookup"><span data-stu-id="11311-103">Monitoring Scope Node</span></span>
+# <a name="monitoring-scope-node"></a><span data-ttu-id="6c25a-103">監視のスコープ ノード</span><span class="sxs-lookup"><span data-stu-id="6c25a-103">Monitoring Scope Node</span></span>
  
-<span data-ttu-id="11311-104">Lync Server 2013 トポロジ ビルダーでは、コンソール ツリーで、監視を実行して、ツールバーの [**操作**] をクリックして、またはアクションのタスクをクリックすると、サーバーを右クリックしていずれかの監視を実行している個々 のサーバーに関連するタスクを実行することができます。ウィンドウ、および監視を実行するサーバーのオプションを次のいずれかをクリックします。</span><span class="sxs-lookup"><span data-stu-id="11311-104">In Lync Server 2013 Topology Builder, you can perform tasks related to an individual server running Monitoring by either right-clicking the server running Monitoring in the console tree, clicking **Action** in the toolbar, or clicking a task in the Actions pane, and then clicking one of the following options for the server running Monitoring:</span></span>
+<span data-ttu-id="6c25a-104">Lync Server 2013 トポロジ ビルダーでは、コンソール ツリーで、監視を実行して、ツールバーの [**操作**] をクリックして、またはアクションのタスクをクリックすると、サーバーを右クリックしていずれかの監視を実行している個々 のサーバーに関連するタスクを実行することができます。ウィンドウ、および監視を実行するサーバーのオプションを次のいずれかをクリックします。</span><span class="sxs-lookup"><span data-stu-id="6c25a-104">In Lync Server 2013 Topology Builder, you can perform tasks related to an individual server running Monitoring by either right-clicking the server running Monitoring in the console tree, clicking **Action** in the toolbar, or clicking a task in the Actions pane, and then clicking one of the following options for the server running Monitoring:</span></span>
   
-- <span data-ttu-id="11311-105">**プロパティの編集**。</span><span class="sxs-lookup"><span data-stu-id="11311-105">**Edit Properties**.</span></span> <span data-ttu-id="11311-106">監視や監視の SQL Server データベースを実行するサーバーの完全修飾ドメイン名 (FQDN) を変更することができます、監視を実行するサーバーの**プロパティの編集**] ページを開きます。</span><span class="sxs-lookup"><span data-stu-id="11311-106">Opens the **Edit Properties** page for the server running Monitoring, where you can change the fully qualified domain name (FQDN) of the server running Monitoring or the monitoring SQL Server database.</span></span>
+- <span data-ttu-id="6c25a-105">**プロパティの編集**。</span><span class="sxs-lookup"><span data-stu-id="6c25a-105">**Edit Properties**.</span></span> <span data-ttu-id="6c25a-106">監視や監視の SQL Server データベースを実行するサーバーの完全修飾ドメイン名 (FQDN) を変更することができます、監視を実行するサーバーの**プロパティの編集**] ページを開きます。</span><span class="sxs-lookup"><span data-stu-id="6c25a-106">Opens the **Edit Properties** page for the server running Monitoring, where you can change the fully qualified domain name (FQDN) of the server running Monitoring or the monitoring SQL Server database.</span></span>
     
-- <span data-ttu-id="11311-107">**削除**。</span><span class="sxs-lookup"><span data-stu-id="11311-107">**Delete**.</span></span> <span data-ttu-id="11311-108">トポロジおよび監視の SQL Server データベースから監視を実行するサーバーを削除します。</span><span class="sxs-lookup"><span data-stu-id="11311-108">Deletes the server running Monitoring from the topology and the monitoring SQL Server database.</span></span>
+- <span data-ttu-id="6c25a-107">**削除**。</span><span class="sxs-lookup"><span data-stu-id="6c25a-107">**Delete**.</span></span> <span data-ttu-id="6c25a-108">トポロジおよび監視の SQL Server データベースから監視を実行するサーバーを削除します。</span><span class="sxs-lookup"><span data-stu-id="6c25a-108">Deletes the server running Monitoring from the topology and the monitoring SQL Server database.</span></span>
     
-<span data-ttu-id="11311-p103">このトピックで既に述べた監視を実行しているサーバーのオプションに加えて、監視ノードからは、コンソール ツリーの他のノードからも使用可能な全般的なオプションを選択できます。これには、次のオプションが含まれます。</span><span class="sxs-lookup"><span data-stu-id="11311-p103">In addition to the options for the server running Monitoring that are described earlier in this topic, you have general options from the Monitoring node that are also available from other nodes in the console tree. This includes the following options:</span></span>
+<span data-ttu-id="6c25a-p103">このトピックで既に述べた監視を実行しているサーバーのオプションに加えて、監視ノードからは、コンソール ツリーの他のノードからも使用可能な全般的なオプションを選択できます。これには、次のオプションが含まれます。</span><span class="sxs-lookup"><span data-stu-id="6c25a-p103">In addition to the options for the server running Monitoring that are described earlier in this topic, you have general options from the Monitoring node that are also available from other nodes in the console tree. This includes the following options:</span></span>
   
-- <span data-ttu-id="11311-p104">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="11311-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, or remove the deployment.</span></span>
+- <span data-ttu-id="6c25a-p104">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="6c25a-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, or remove the deployment.</span></span>
     
-- <span data-ttu-id="11311-p105">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="11311-p105">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="6c25a-p105">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="6c25a-p105">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

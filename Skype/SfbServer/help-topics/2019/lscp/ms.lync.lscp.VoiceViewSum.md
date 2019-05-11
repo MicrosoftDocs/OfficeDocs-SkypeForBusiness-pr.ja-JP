@@ -1,8 +1,8 @@
 ---
 title: コミットされていない音声構成設定の確認
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 ROBOTS: NOINDEX, NOFOLLOW
 description: コミットされていない音声構成設定] ダイアログ ボックスを使用すると、すべての行った変更を確認できます。 ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。 終了したら、[閉じる] をクリックします。 このダイアログ ボックスを閉じると、変更内容を変更したり、それらをコミットできます。
-ms.openlocfilehash: 9fbaaff594bd432fcd36e74878ecac40be0e33ce
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d59edc1ea64c1a2db114ae6c7cc1521afdcf8392
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221209"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890362"
 ---
-# <a name="uncommitted-voice-configuration-settings-review"></a><span data-ttu-id="85c9e-106">コミットされていない音声構成設定: 確認</span><span class="sxs-lookup"><span data-stu-id="85c9e-106">Uncommitted Voice Configuration Settings: Review</span></span>
+# <a name="uncommitted-voice-configuration-settings-review"></a><span data-ttu-id="dd3a8-106">コミットされていない音声構成設定: 確認</span><span class="sxs-lookup"><span data-stu-id="dd3a8-106">Uncommitted Voice Configuration Settings: Review</span></span>
  
-<span data-ttu-id="85c9e-107">**コミットされていない音声構成設定**] ダイアログ ボックスを使用すると、すべての行った変更を確認できます。</span><span class="sxs-lookup"><span data-stu-id="85c9e-107">Use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made.</span></span> <span data-ttu-id="85c9e-108">ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。</span><span class="sxs-lookup"><span data-stu-id="85c9e-108">Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections.</span></span> <span data-ttu-id="85c9e-109">終了したら、[**閉じる**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="85c9e-109">When you are finished, click **Close**.</span></span> <span data-ttu-id="85c9e-110">このダイアログ ボックスを閉じると、変更内容を変更したり、それらをコミットできます。</span><span class="sxs-lookup"><span data-stu-id="85c9e-110">After you close this dialog box, you can modify your changes or commit them.</span></span>
+<span data-ttu-id="dd3a8-107">**コミットされていない音声構成設定**] ダイアログ ボックスを使用すると、すべての行った変更を確認できます。</span><span class="sxs-lookup"><span data-stu-id="dd3a8-107">Use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made.</span></span> <span data-ttu-id="dd3a8-108">ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。</span><span class="sxs-lookup"><span data-stu-id="dd3a8-108">Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections.</span></span> <span data-ttu-id="dd3a8-109">終了したら、[**閉じる**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dd3a8-109">When you are finished, click **Close**.</span></span> <span data-ttu-id="dd3a8-110">このダイアログ ボックスを閉じると、変更内容を変更したり、それらをコミットできます。</span><span class="sxs-lookup"><span data-stu-id="dd3a8-110">After you close this dialog box, you can modify your changes or commit them.</span></span>
   
  
   

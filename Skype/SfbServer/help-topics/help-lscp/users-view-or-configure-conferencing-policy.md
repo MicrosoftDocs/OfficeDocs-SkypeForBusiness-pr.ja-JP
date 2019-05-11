@@ -1,8 +1,8 @@
 ---
 title: ユーザーを表示または会議ポリシーを構成します。
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: c667c07b6e2b3ccc1953765e6670ae8f54e28609
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ed68701b7e944bd7040c2c21b753b7b74855661c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200380"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924305"
 ---
-# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="aeee7-104">ユーザー: 会議ポリシーの表示または構成</span><span class="sxs-lookup"><span data-stu-id="aeee7-104">Users: View or Configure Conferencing Policy</span></span>
+# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="d6939-104">ユーザー: 会議ポリシーの表示または構成</span><span class="sxs-lookup"><span data-stu-id="d6939-104">Users: View or Configure Conferencing Policy</span></span>
 
-<span data-ttu-id="aeee7-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="aeee7-105">What do you want to do?</span></span> <span data-ttu-id="aeee7-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="aeee7-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="d6939-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="d6939-105">What do you want to do?</span></span> <span data-ttu-id="d6939-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="d6939-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="aeee7-107">ユーザーの既定の会議エクスペリエンスを変更する会議ポリシーを割り当てください。</span><span class="sxs-lookup"><span data-stu-id="aeee7-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="d6939-107">ユーザーの既定の会議エクスペリエンスを変更する会議ポリシーを割り当てください。</span><span class="sxs-lookup"><span data-stu-id="d6939-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-<span data-ttu-id="aeee7-108">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="aeee7-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="d6939-108">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d6939-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

@@ -1,8 +1,8 @@
 ---
 title: 従来のマージの開始
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバーの Skype での従来の配置をマージするには、次へをクリックします。
-ms.openlocfilehash: c920ede0266136f7a16393b3383264794a2c50b6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: be4d1060860c71471058b2eb1cbda70dcef994ba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235467"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885470"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="267ba-103">従来のマージの開始</span><span class="sxs-lookup"><span data-stu-id="267ba-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="f245c-103">従来のマージの開始</span><span class="sxs-lookup"><span data-stu-id="f245c-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="267ba-104">ビジネス サーバーの Skype での従来の配置をマージするには、**次**の手順をクリックします。</span><span class="sxs-lookup"><span data-stu-id="267ba-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
+<span data-ttu-id="f245c-104">ビジネス サーバーの Skype での従来の配置をマージするには、**次**の手順をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f245c-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
   
 
