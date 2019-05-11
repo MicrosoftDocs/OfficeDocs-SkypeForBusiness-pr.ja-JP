@@ -1,8 +1,8 @@
 ---
 title: フロントエンドの機能の追加
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,30 +13,30 @@ localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: フロント エンド プールを有効にする各機能を選択します。 最低限、インスタント メッセージング (IM) を展開する必要がありますが常に有効になっているし、選択を解除することはできません。 また、会議、エンタープライズ VoIP など、他の機能を展開するオプションがあり、受付制御 (CAC) を呼び出します。 いくつかの機能は、トポロジに依存します。
-ms.openlocfilehash: 1657c85a4ee7361f7f1d2853ef14f60553eabd70
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 31d886d53db6fdfdd38f295233b55d6e96287f70
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202083"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897724"
 ---
-# <a name="add-front-end-features"></a><span data-ttu-id="84b14-106">フロントエンドの機能の追加</span><span class="sxs-lookup"><span data-stu-id="84b14-106">Add Front End Features</span></span>
+# <a name="add-front-end-features"></a><span data-ttu-id="b822c-106">フロントエンドの機能の追加</span><span class="sxs-lookup"><span data-stu-id="b822c-106">Add Front End Features</span></span>
 
-<span data-ttu-id="84b14-107">フロント エンド プールを有効にする各機能を選択します。</span><span class="sxs-lookup"><span data-stu-id="84b14-107">Select each feature that you want to enable for the Front End pool.</span></span> <span data-ttu-id="84b14-108">最低限、インスタント メッセージング (IM) を展開する必要がありますが常に有効になっているし、選択を解除することはできません。</span><span class="sxs-lookup"><span data-stu-id="84b14-108">At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected.</span></span> <span data-ttu-id="84b14-109">また、会議、エンタープライズ VoIP など、他の機能を展開するオプションがあり、受付制御 (CAC) を呼び出します。</span><span class="sxs-lookup"><span data-stu-id="84b14-109">You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC).</span></span> <span data-ttu-id="84b14-110">いくつかの機能は、トポロジに依存します。</span><span class="sxs-lookup"><span data-stu-id="84b14-110">Some features are dependent on your topology.</span></span>
+<span data-ttu-id="b822c-107">フロント エンド プールを有効にする各機能を選択します。</span><span class="sxs-lookup"><span data-stu-id="b822c-107">Select each feature that you want to enable for the Front End pool.</span></span> <span data-ttu-id="b822c-108">最低限、インスタント メッセージング (IM) を展開する必要がありますが常に有効になっているし、選択を解除することはできません。</span><span class="sxs-lookup"><span data-stu-id="b822c-108">At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected.</span></span> <span data-ttu-id="b822c-109">また、会議、エンタープライズ VoIP など、他の機能を展開するオプションがあり、受付制御 (CAC) を呼び出します。</span><span class="sxs-lookup"><span data-stu-id="b822c-109">You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC).</span></span> <span data-ttu-id="b822c-110">いくつかの機能は、トポロジに依存します。</span><span class="sxs-lookup"><span data-stu-id="b822c-110">Some features are dependent on your topology.</span></span>
 
-- <span data-ttu-id="84b14-111">会議</span><span class="sxs-lookup"><span data-stu-id="84b14-111">Conferencing</span></span>
+- <span data-ttu-id="b822c-111">会議</span><span class="sxs-lookup"><span data-stu-id="b822c-111">Conferencing</span></span>
 
-- <span data-ttu-id="84b14-112">エンタープライズ VoIP</span><span class="sxs-lookup"><span data-stu-id="84b14-112">Enterprise Voice</span></span>
+- <span data-ttu-id="b822c-112">エンタープライズ VoIP</span><span class="sxs-lookup"><span data-stu-id="b822c-112">Enterprise Voice</span></span>
 
-- <span data-ttu-id="84b14-113">呼受付制御 (CAC)</span><span class="sxs-lookup"><span data-stu-id="84b14-113">Call Admission Control (CAC)</span></span>
+- <span data-ttu-id="b822c-113">呼受付制御 (CAC)</span><span class="sxs-lookup"><span data-stu-id="b822c-113">Call Admission Control (CAC)</span></span>
 
-- <span data-ttu-id="84b14-114">アーカイブ</span><span class="sxs-lookup"><span data-stu-id="84b14-114">Archiving</span></span>
+- <span data-ttu-id="b822c-114">アーカイブ</span><span class="sxs-lookup"><span data-stu-id="b822c-114">Archiving</span></span>
 
-- <span data-ttu-id="84b14-115">監視</span><span class="sxs-lookup"><span data-stu-id="84b14-115">Monitoring</span></span>
+- <span data-ttu-id="b822c-115">監視</span><span class="sxs-lookup"><span data-stu-id="b822c-115">Monitoring</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="84b14-116">展開で CAC を有効にするには、中央サイトあたり 1 つのプールで CAC を有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="84b14-116">If you would like to enable CAC in your deployment, you must enable CAC in exactly one pool per central site.</span></span> <span data-ttu-id="84b14-117">音声機能または A を配置する場合は、CAC をお勧め/V 会議。</span><span class="sxs-lookup"><span data-stu-id="84b14-117">We recommend CAC if you are deploying voice features or A/V Conferencing.</span></span>
+> <span data-ttu-id="b822c-116">展開で CAC を有効にするには、中央サイトあたり 1 つのプールで CAC を有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="b822c-116">If you would like to enable CAC in your deployment, you must enable CAC in exactly one pool per central site.</span></span> <span data-ttu-id="b822c-117">音声機能または A を配置する場合は、CAC をお勧め/V 会議。</span><span class="sxs-lookup"><span data-stu-id="b822c-117">We recommend CAC if you are deploying voice features or A/V Conferencing.</span></span>
 
-<span data-ttu-id="84b14-118">Enterprise Edition プールの機能を指定する方法の詳細は、展開に関するドキュメントの[定義およびフロント エンド プールを構成する](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="84b14-118">For details about specifying features for an Enterprise Edition pool, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
+<span data-ttu-id="b822c-118">Enterprise Edition プールの機能を指定する方法の詳細は、展開に関するドキュメントの[定義およびフロント エンド プールを構成する](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b822c-118">For details about specifying features for an Enterprise Edition pool, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
 
 

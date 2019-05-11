@@ -1,10 +1,10 @@
 ---
 title: Microsoft Teams を導入する
-ms.reviewer: ''
+ms.reviewer: karuanag
 description: 計画およびマイクロソフトのチームを組織に展開するためには、これらのリソースの導入を使用します。
 ms.topic: landing-page
-author: karuanag
-ms.author: karuanag
+author: kenwith
+ms.author: kenwith
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7afbc40b97863bf1456f5654aa8a0c0aea4e69b5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 26a7d77db81026782507575cab6d3f09500dde93
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32210920"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902726"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
@@ -155,7 +155,7 @@ ms.locfileid: "32210920"
                     </div>
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">開始</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">使用を開始する</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">はじめに</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">チームとチャネルについて理解する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">最初のチームを作成する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">文化、組織の導入準備を評価します。</a></p>

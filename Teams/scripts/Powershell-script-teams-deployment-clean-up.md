@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams の展開のクリーン アップを支援する PowerShell スクリプトのサンプル
 ms.reviewer: ''
-author: Lester-Hewett
-ms.author: lehewe
+author: kenwith
+ms.author: kenwith
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
@@ -10,22 +10,22 @@ ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
-description: この PowerShell スクリプトを使用して、対象のマシン上の、または特定のユーザーの Microsoft Teams をクリーン アップします。
+description: ターゲット マシン上または特定のユーザーに対して、マイクロソフトのチームをクリーンアップするには、この PowerShell スクリプトを使用します。
 localization_priority: Normal
-ms.openlocfilehash: a047326a1598ea497318b77ce27c09c6807f25dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cd19bb3b0d26069d339b61b5d4bf059fef724407
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201680"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920613"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="2391b-103">PowerShell スクリプトのサンプル - Microsoft Teams の展開のクリーン アップ</span><span class="sxs-lookup"><span data-stu-id="2391b-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="c3a77-103">PowerShell スクリプトのサンプルをマイクロソフトのチームの配置のクリーンアップします。</span><span class="sxs-lookup"><span data-stu-id="c3a77-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="2391b-104">この PowerShell スクリプトは、対象のマシンまたはユーザーから Microsoft Teams をクリーンアップするために利用することができます。</span><span class="sxs-lookup"><span data-stu-id="2391b-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="2391b-105">これは、対象のマシン上のユーザーそれぞれについて、実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2391b-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="c3a77-104">この PowerShell スクリプトは、ターゲット コンピューターまたはユーザーからマイクロソフトのチームのクリーンアップを活用できます。</span><span class="sxs-lookup"><span data-stu-id="c3a77-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="c3a77-105">対象となるコンピューター上のすべてのユーザーのアクティビティが実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c3a77-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="2391b-106">サンプル スクリプト</span><span class="sxs-lookup"><span data-stu-id="2391b-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="c3a77-106">サンプル スクリプト</span><span class="sxs-lookup"><span data-stu-id="c3a77-106">Sample script</span></span>
 
 ````powershell
 <#

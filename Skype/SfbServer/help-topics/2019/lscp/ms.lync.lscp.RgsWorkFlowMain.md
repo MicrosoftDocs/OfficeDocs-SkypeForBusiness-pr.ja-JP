@@ -1,8 +1,8 @@
 ---
 title: 応答グループのワークフロー
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,51 +13,51 @@ localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループ エージェント グループ、キュー、およびワークフローで構成されます。 応答グループ ワークフローは、応答グループ アプリケーションが電話の呼び出しを受信するときに実行するアクションを定義します。
-ms.openlocfilehash: fad6e7ac71e36f89df712054d1322f8150bc1083
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b223227ae91bf2cae19d4d46da2206e74a492a40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215137"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891041"
 ---
-# <a name="response-groups-workflow"></a><span data-ttu-id="9bc2f-104">応答グループのワークフロー</span><span class="sxs-lookup"><span data-stu-id="9bc2f-104">Response Groups Workflow</span></span>
+# <a name="response-groups-workflow"></a><span data-ttu-id="d6e71-104">応答グループのワークフロー</span><span class="sxs-lookup"><span data-stu-id="d6e71-104">Response Groups Workflow</span></span>
 
-<span data-ttu-id="9bc2f-105">応答グループ エージェント グループ、キュー、およびワークフローで構成されます。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="9bc2f-106">応答グループ ワークフローは、応答グループ アプリケーションが電話の呼び出しを受信するときに実行するアクションを定義します。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-106">Response Group workflows define the actions that are taken when the Response Group application receives a phone call.</span></span>
+<span data-ttu-id="d6e71-105">応答グループ エージェント グループ、キュー、およびワークフローで構成されます。</span><span class="sxs-lookup"><span data-stu-id="d6e71-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="d6e71-106">応答グループ ワークフローは、応答グループ アプリケーションが電話の呼び出しを受信するときに実行するアクションを定義します。</span><span class="sxs-lookup"><span data-stu-id="d6e71-106">Response Group workflows define the actions that are taken when the Response Group application receives a phone call.</span></span>
 
-<span data-ttu-id="9bc2f-107">**応答グループ** - **ワークフロー** ] ページには、組織に対して定義されているすべての応答グループ ワークフローの一覧が表示されます。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-107">The **Response Groups** - **Workflow** page displays a list of all the Response Group workflows that are defined for your organization.</span></span>
+<span data-ttu-id="d6e71-107">**応答グループ** - **ワークフロー** ] ページには、組織に対して定義されているすべての応答グループ ワークフローの一覧が表示されます。</span><span class="sxs-lookup"><span data-stu-id="d6e71-107">The **Response Groups** - **Workflow** page displays a list of all the Response Group workflows that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="9bc2f-108">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="9bc2f-108">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="d6e71-108">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="d6e71-108">Tasks you can perform</span></span>
 
-<span data-ttu-id="9bc2f-109">**応答のグループ**から次の作業を行うことができます - **ワークフロー**ページ。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-109">You can perform the following tasks from the **Response Groups** - **Workflow** page:</span></span>
+<span data-ttu-id="d6e71-109">**応答のグループ**から次の作業を行うことができます - **ワークフロー**ページ。</span><span class="sxs-lookup"><span data-stu-id="d6e71-109">You can perform the following tasks from the **Response Groups** - **Workflow** page:</span></span>
 
-- <span data-ttu-id="9bc2f-110">ハント グループ ワークフローの変更をします。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-110">Create or change a hunt group workflow</span></span>
+- <span data-ttu-id="d6e71-110">ハント グループ ワークフローの変更をします。</span><span class="sxs-lookup"><span data-stu-id="d6e71-110">Create or change a hunt group workflow</span></span>
 
-- <span data-ttu-id="9bc2f-111">作成または対話型のワークフローを変更します。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-111">Create or change an interactive workflow</span></span>
+- <span data-ttu-id="d6e71-111">作成または対話型のワークフローを変更します。</span><span class="sxs-lookup"><span data-stu-id="d6e71-111">Create or change an interactive workflow</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="9bc2f-112">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="9bc2f-112">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="d6e71-112">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="d6e71-112">UI Reference</span></span>
 
-<span data-ttu-id="9bc2f-113">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-113">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="d6e71-113">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="d6e71-113">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="9bc2f-114">**作成または編集ワークフロー**作成または編集するワークフローの応答グループ構成ツールを開きます。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-114">**Create or edit a workflow** Opens the Response Group Configuration Tool for creating or editing a workflow.</span></span>
+- <span data-ttu-id="d6e71-114">**作成または編集ワークフロー**作成または編集するワークフローの応答グループ構成ツールを開きます。</span><span class="sxs-lookup"><span data-stu-id="d6e71-114">**Create or edit a workflow** Opens the Response Group Configuration Tool for creating or editing a workflow.</span></span>
 
-- <span data-ttu-id="9bc2f-115">**更新**ワークフローのリストを更新します。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-115">**Refresh** Refreshes the list of workflows.</span></span>
+- <span data-ttu-id="d6e71-115">**更新**ワークフローのリストを更新します。</span><span class="sxs-lookup"><span data-stu-id="d6e71-115">**Refresh** Refreshes the list of workflows.</span></span>
 
-<span data-ttu-id="9bc2f-116">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-116">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="d6e71-116">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="d6e71-116">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="9bc2f-117">**名**ワークフローに割り当てられている一意の名前。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-117">**Name** The unique name that is assigned to the workflow.</span></span>
+- <span data-ttu-id="d6e71-117">**名**ワークフローに割り当てられている一意の名前。</span><span class="sxs-lookup"><span data-stu-id="d6e71-117">**Name** The unique name that is assigned to the workflow.</span></span>
 
-- <span data-ttu-id="9bc2f-118">**サービス**ワークフローをホストする**アプリケーション サーバー**のサービスです。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-118">**Service** The **ApplicationServer** service that hosts the workflow.</span></span>
+- <span data-ttu-id="d6e71-118">**サービス**ワークフローをホストする**アプリケーション サーバー**のサービスです。</span><span class="sxs-lookup"><span data-stu-id="d6e71-118">**Service** The **ApplicationServer** service that hosts the workflow.</span></span>
 
-- <span data-ttu-id="9bc2f-119">**SIP アドレス**ワークフローへの呼び出しに応答するグループの SIP アドレスです。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-119">**SIP address** The SIP address of the group that will answer calls to the workflow.</span></span>
+- <span data-ttu-id="d6e71-119">**SIP アドレス**ワークフローへの呼び出しに応答するグループの SIP アドレスです。</span><span class="sxs-lookup"><span data-stu-id="d6e71-119">**SIP address** The SIP address of the group that will answer calls to the workflow.</span></span>
 
-- <span data-ttu-id="9bc2f-120">**電話**この応答グループに到達するために呼び出される電話番号です。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-120">**Telephone** The phone number that is called to reach this response group.</span></span>
+- <span data-ttu-id="d6e71-120">**電話**この応答グループに到達するために呼び出される電話番号です。</span><span class="sxs-lookup"><span data-stu-id="d6e71-120">**Telephone** The phone number that is called to reach this response group.</span></span>
 
-- <span data-ttu-id="9bc2f-121">**言語**音声認識と音声合成のために使用される言語です。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-121">**Language** The language that is used for speech recognition and text-to-speech.</span></span>
+- <span data-ttu-id="d6e71-121">**言語**音声認識と音声合成のために使用される言語です。</span><span class="sxs-lookup"><span data-stu-id="d6e71-121">**Language** The language that is used for speech recognition and text-to-speech.</span></span>
 
-- <span data-ttu-id="9bc2f-122">**IVR**ハント グループまたは対話型のワークフローのワークフローは、あるかどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-122">**IVR** Indicates whether the workflow is a hunt group or an interactive workflow.</span></span>
+- <span data-ttu-id="d6e71-122">**IVR**ハント グループまたは対話型のワークフローのワークフローは、あるかどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="d6e71-122">**IVR** Indicates whether the workflow is a hunt group or an interactive workflow.</span></span>
 
-- <span data-ttu-id="9bc2f-123">**有効になっています。** 呼び出しを受信するワークフローがアクティブかどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-123">**Enabled** Indicates whether the workflow is activated to receive calls.</span></span>
+- <span data-ttu-id="d6e71-123">**有効になっています。** 呼び出しを受信するワークフローがアクティブかどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="d6e71-123">**Enabled** Indicates whether the workflow is activated to receive calls.</span></span>
 
-<span data-ttu-id="9bc2f-124">応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバーの Skype で応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-124">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="9bc2f-125">応答グループ ワークフローの操作についての詳細は、操作マニュアルを参照に[応答グループ ワークフローの管理](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9bc2f-125">For details about working with Response Group workflows, see [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="d6e71-124">応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバーの Skype で応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d6e71-124">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="d6e71-125">応答グループ ワークフローの操作についての詳細は、操作マニュアルを参照に[応答グループ ワークフローの管理](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d6e71-125">For details about working with Response Group workflows, see [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in the Operations documentation.</span></span>
 
 

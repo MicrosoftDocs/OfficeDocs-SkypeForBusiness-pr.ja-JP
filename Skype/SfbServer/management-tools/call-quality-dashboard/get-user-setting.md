@@ -1,8 +1,8 @@
 ---
 title: ユーザー設定の取得
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,41 +11,41 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: '概要: は、ユーザー設定のサービスの一部では、ユーザー設定の取得操作について説明します。 ユーザー設定のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 003850ed4e6f1e49fc0e8bafe8dfa7d828cae63f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 91f8c60a33c6126f61901c4d73e4a6f2c5b5e1f4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889001"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930729"
 ---
-# <a name="get-user-setting"></a><span data-ttu-id="37bcc-105">ユーザー設定の取得</span><span class="sxs-lookup"><span data-stu-id="37bcc-105">Get User Setting</span></span>
+# <a name="get-user-setting"></a><span data-ttu-id="9d54d-105">ユーザー設定の取得</span><span class="sxs-lookup"><span data-stu-id="9d54d-105">Get User Setting</span></span>
  
-<span data-ttu-id="37bcc-106">**の概要:** ユーザー設定のサービスの一部では、ユーザー設定の取得操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="37bcc-106">**Summary:** Learn about the Get User Setting operation, which is part of the User Settings Service.</span></span> <span data-ttu-id="37bcc-107">ユーザー設定のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="37bcc-107">The User Settings Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="37bcc-108">通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。</span><span class="sxs-lookup"><span data-stu-id="37bcc-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="9d54d-106">**の概要:** ユーザー設定のサービスの一部では、ユーザー設定の取得操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="9d54d-106">**Summary:** Learn about the Get User Setting operation, which is part of the User Settings Service.</span></span> <span data-ttu-id="9d54d-107">ユーザー設定のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="9d54d-107">The User Settings Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="9d54d-108">通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。</span><span class="sxs-lookup"><span data-stu-id="9d54d-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="37bcc-109">ユーザー設定の取得操作は、ユーザーの設定でのサービス品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="37bcc-109">The Get User Setting operation is part of the User Settings Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="9d54d-109">ユーザー設定の取得操作は、ユーザーの設定でのサービス品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="9d54d-109">The Get User Setting operation is part of the User Settings Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="get-user-setting"></a><span data-ttu-id="37bcc-110">ユーザー設定の取得</span><span class="sxs-lookup"><span data-stu-id="37bcc-110">Get User Setting</span></span>
+## <a name="get-user-setting"></a><span data-ttu-id="9d54d-110">ユーザー設定の取得</span><span class="sxs-lookup"><span data-stu-id="9d54d-110">Get User Setting</span></span>
 
-<span data-ttu-id="37bcc-111">ユーザーの設定を返します。 1 つのユーザー設定を取得します。</span><span class="sxs-lookup"><span data-stu-id="37bcc-111">Get User Setting returns a single user setting.</span></span>
+<span data-ttu-id="9d54d-111">ユーザーの設定を返します。 1 つのユーザー設定を取得します。</span><span class="sxs-lookup"><span data-stu-id="9d54d-111">Get User Setting returns a single user setting.</span></span>
   
 
-|<span data-ttu-id="37bcc-112">**メソッド**</span><span class="sxs-lookup"><span data-stu-id="37bcc-112">**Method**</span></span>|<span data-ttu-id="37bcc-113">**URI を要求します。**</span><span class="sxs-lookup"><span data-stu-id="37bcc-113">**Request URI**</span></span>|<span data-ttu-id="37bcc-114">**HTTP のバージョン**</span><span class="sxs-lookup"><span data-stu-id="37bcc-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="9d54d-112">**メソッド**</span><span class="sxs-lookup"><span data-stu-id="9d54d-112">**Method**</span></span>|<span data-ttu-id="9d54d-113">**URI を要求します。**</span><span class="sxs-lookup"><span data-stu-id="9d54d-113">**Request URI**</span></span>|<span data-ttu-id="9d54d-114">**HTTP のバージョン**</span><span class="sxs-lookup"><span data-stu-id="9d54d-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="37bcc-115">取得</span><span class="sxs-lookup"><span data-stu-id="37bcc-115">GET</span></span>  <br/> |<span data-ttu-id="37bcc-116">https://\<ポータル\>/QoERepositoryService/リポジトリとユーザー/{ユーザー Id}/setting/{キー}</span><span class="sxs-lookup"><span data-stu-id="37bcc-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}/setting/{key}</span></span>  <br/> |<span data-ttu-id="37bcc-117">HTTP 1.1/</span><span class="sxs-lookup"><span data-stu-id="37bcc-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="9d54d-115">取得</span><span class="sxs-lookup"><span data-stu-id="9d54d-115">GET</span></span>  <br/> |<span data-ttu-id="9d54d-116">https://\<ポータル\>/QoERepositoryService/リポジトリとユーザー/{ユーザー Id}/setting/{キー}</span><span class="sxs-lookup"><span data-stu-id="9d54d-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}/setting/{key}</span></span>  <br/> |<span data-ttu-id="9d54d-117">HTTP 1.1/</span><span class="sxs-lookup"><span data-stu-id="9d54d-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="37bcc-118">**URI パラメーター**を [なし] です。</span><span class="sxs-lookup"><span data-stu-id="37bcc-118">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="9d54d-118">**URI パラメーター**を [なし] です。</span><span class="sxs-lookup"><span data-stu-id="9d54d-118">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="37bcc-119">**要求ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="37bcc-119">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="9d54d-119">**要求ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="9d54d-119">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="37bcc-120">**リクエストの本文**の [なし] です。</span><span class="sxs-lookup"><span data-stu-id="37bcc-120">**Request Body** - None.</span></span>
+ <span data-ttu-id="9d54d-120">**リクエストの本文**の [なし] です。</span><span class="sxs-lookup"><span data-stu-id="9d54d-120">**Request Body** - None.</span></span>
   
- <span data-ttu-id="37bcc-121">**応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="37bcc-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="9d54d-121">**応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="9d54d-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="37bcc-122">**ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。</span><span class="sxs-lookup"><span data-stu-id="37bcc-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="9d54d-122">**ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。</span><span class="sxs-lookup"><span data-stu-id="9d54d-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
- <span data-ttu-id="37bcc-123">**応答ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="37bcc-123">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="9d54d-123">**応答ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="9d54d-123">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="37bcc-124">**応答本体**の JSON のサンプル応答の内容を次に示します。</span><span class="sxs-lookup"><span data-stu-id="37bcc-124">**Response Body** - Below is a sample response payload in JSON.</span></span>
+ <span data-ttu-id="9d54d-124">**応答本体**の JSON のサンプル応答の内容を次に示します。</span><span class="sxs-lookup"><span data-stu-id="9d54d-124">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 ```
 {
@@ -55,10 +55,10 @@ ms.locfileid: "30889001"
 }
 ```
 
- <span data-ttu-id="37bcc-125">*ユーザー Id*がユーザーの ID。</span><span class="sxs-lookup"><span data-stu-id="37bcc-125">*userId*  - ID of the user.</span></span>
+ <span data-ttu-id="9d54d-125">*ユーザー Id*がユーザーの ID。</span><span class="sxs-lookup"><span data-stu-id="9d54d-125">*userId*  - ID of the user.</span></span>
   
- <span data-ttu-id="37bcc-126">*キー*の設定のキーです。</span><span class="sxs-lookup"><span data-stu-id="37bcc-126">*key*  - Key of the setting.</span></span>
+ <span data-ttu-id="9d54d-126">*キー*の設定のキーです。</span><span class="sxs-lookup"><span data-stu-id="9d54d-126">*key*  - Key of the setting.</span></span>
   
- <span data-ttu-id="37bcc-127">*値*の設定の値です。</span><span class="sxs-lookup"><span data-stu-id="37bcc-127">*value*  - Value of the setting.</span></span>
+ <span data-ttu-id="9d54d-127">*値*の設定の値です。</span><span class="sxs-lookup"><span data-stu-id="9d54d-127">*value*  - Value of the setting.</span></span>
   
 

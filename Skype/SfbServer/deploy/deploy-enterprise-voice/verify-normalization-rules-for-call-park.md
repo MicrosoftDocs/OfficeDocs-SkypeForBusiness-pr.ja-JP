@@ -1,8 +1,8 @@
 ---
 title: ビジネス用の Skype のコール パークの正規化ルールを確認します。
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,23 +14,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 description: ビジネス サーバーのエンタープライズ VoIP は、Skype のコール パークの正規化規則について説明します。
-ms.openlocfilehash: 794d64efcefbc4b36fac84e6356df46df76dc5a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6f27daca3ef3f1bcdc4c70f04b92ccaa29a569a4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222556"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892266"
 ---
-# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a><span data-ttu-id="b36e6-103">ビジネス用の Skype のコール パークの正規化ルールを確認します。</span><span class="sxs-lookup"><span data-stu-id="b36e6-103">Verify normalization rules for Call Park in Skype for Business</span></span>
+# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a><span data-ttu-id="72915-103">ビジネス用の Skype のコール パークの正規化ルールを確認します。</span><span class="sxs-lookup"><span data-stu-id="72915-103">Verify normalization rules for Call Park in Skype for Business</span></span>
  
-<span data-ttu-id="b36e6-104">ビジネス サーバーのエンタープライズ VoIP は、Skype のコール パークの正規化規則について説明します。</span><span class="sxs-lookup"><span data-stu-id="b36e6-104">Learn about normalization rules for Call Park in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="72915-104">ビジネス サーバーのエンタープライズ VoIP は、Skype のコール パークの正規化規則について説明します。</span><span class="sxs-lookup"><span data-stu-id="72915-104">Learn about normalization rules for Call Park in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="b36e6-105">パーク軌道を正規化する必要がありますはありません。</span><span class="sxs-lookup"><span data-stu-id="b36e6-105">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="b36e6-106">ダイヤル プランでオービット番号が正規化されていないことを確認してください。</span><span class="sxs-lookup"><span data-stu-id="b36e6-106">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="b36e6-107">軌道が正規化されていることを防ぐため、追加の正規化ルールを作成する必要がある場合の手順を[を作成するビジネス サーバーの Skype のダイヤル プランを変更または](dial-plans.md)ため、新しい正規化ルールを定義するのにはその**パターンに一致するには**軌道範囲を識別**変換パターン**は、 **$1**とします。</span><span class="sxs-lookup"><span data-stu-id="b36e6-107">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="b36e6-108">などの場合、コール パークの移動範囲は 7000-7999 の場合、**一致させるパターン**は、 **^(7\d{3})$** **$1**で、**翻訳のパターン**です。</span><span class="sxs-lookup"><span data-stu-id="b36e6-108">For example, if your Call Park orbit range is 7000 - 7999, the **Pattern to match** is **^(7\d{3})$** and **Translation pattern** is **$1**.</span></span>
+<span data-ttu-id="72915-105">パーク軌道を正規化する必要がありますはありません。</span><span class="sxs-lookup"><span data-stu-id="72915-105">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="72915-106">ダイヤル プランでオービット番号が正規化されていないことを確認してください。</span><span class="sxs-lookup"><span data-stu-id="72915-106">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="72915-107">軌道が正規化されていることを防ぐため、追加の正規化ルールを作成する必要がある場合の手順を[を作成するビジネス サーバーの Skype のダイヤル プランを変更または](dial-plans.md)ため、新しい正規化ルールを定義するのにはその**パターンに一致するには**軌道範囲を識別**変換パターン**は、 **$1**とします。</span><span class="sxs-lookup"><span data-stu-id="72915-107">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="72915-108">などの場合、コール パークの移動範囲は 7000-7999 の場合、**一致させるパターン**は、 **^(7\d{3})$** **$1**で、**翻訳のパターン**です。</span><span class="sxs-lookup"><span data-stu-id="72915-108">For example, if your Call Park orbit range is 7000 - 7999, the **Pattern to match** is **^(7\d{3})$** and **Translation pattern** is **$1**.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="b36e6-109">ダイヤル プランの既定正規化ルールが含まれていないかどうかを必ず **^(\d\*)**。</span><span class="sxs-lookup"><span data-stu-id="b36e6-109">Be sure that the default normalization rule in your dial plans does not contain **^(\d\*)**.</span></span> <span data-ttu-id="b36e6-110">それ以外の場合、コール パーク正規化ルールは実行されません。</span><span class="sxs-lookup"><span data-stu-id="b36e6-110">Otherwise, your Call Park normalization rule will never run.</span></span>
+> <span data-ttu-id="72915-109">ダイヤル プランの既定正規化ルールが含まれていないかどうかを必ず **^(\d\*)**。</span><span class="sxs-lookup"><span data-stu-id="72915-109">Be sure that the default normalization rule in your dial plans does not contain **^(\d\*)**.</span></span> <span data-ttu-id="72915-110">それ以外の場合、コール パーク正規化ルールは実行されません。</span><span class="sxs-lookup"><span data-stu-id="72915-110">Otherwise, your Call Park normalization rule will never run.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b36e6-111">関連項目</span><span class="sxs-lookup"><span data-stu-id="b36e6-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="72915-111">関連項目</span><span class="sxs-lookup"><span data-stu-id="72915-111">See also</span></span>
 
-[<span data-ttu-id="b36e6-112">作成またはビジネス サーバーの Skype のダイヤル プランを変更します。</span><span class="sxs-lookup"><span data-stu-id="b36e6-112">Create or modify a dial plan in Skype for Business Server</span></span>](dial-plans.md)
+[<span data-ttu-id="72915-112">作成またはビジネス サーバーの Skype のダイヤル プランを変更します。</span><span class="sxs-lookup"><span data-stu-id="72915-112">Create or modify a dial plan in Skype for Business Server</span></span>](dial-plans.md)
 
