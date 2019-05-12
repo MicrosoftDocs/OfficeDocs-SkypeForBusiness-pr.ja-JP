@@ -1,7 +1,7 @@
 ---
 title: マイクロソフトのチームにビジネスの Skype のアップグレードを準備します。ユーザーの導入を計画します。
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bfbc65edac21c39a7135588d420c3515344d45d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 23d09a1d580cf933994fb116dd4df9c7e450f274
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218598"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885576"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 

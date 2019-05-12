@@ -1,8 +1,8 @@
 ---
 title: ダイヤル プランの新規作成または既存の編集
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: c4388950e5241ea14fb40b486b1db3c9c3de2eca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8bff26c3802d674cef661acb262e52a87b42e23c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234605"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901495"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>ダイヤル プラン: 新規作成または現在の形式のままで編集
 

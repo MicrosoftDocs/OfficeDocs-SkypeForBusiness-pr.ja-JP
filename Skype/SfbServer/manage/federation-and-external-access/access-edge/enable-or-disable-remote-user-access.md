@@ -5,20 +5,20 @@ ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: リモート ユーザーのリモート ユーザー アクセスを有効にした場合サポートされているリモート ユーザーは、インターネット経由で接続し、Skype を使用してビジネスのサーバーの内部のユーザーと共同作業するために VPN を使用して接続する必要はありません。
-ms.openlocfilehash: aea136e6c8758fd646a20b8bc7a64a393d45a3e7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7586d6af408c4f6dd6290ccf1fc9f19dbc23a87e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199928"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919475"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>有効にするか、ビジネスのサーバーの Skype でのリモート ユーザー アクセスを無効にします。
 

@@ -1,6 +1,6 @@
 ---
 title: 自動応答および呼び出しキューの通話に Teams から直接応答する
-ms.reviewer: ''
+ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a94f8220cca2058e993f73241e62ff3ad0ea4f2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: beb4b043798ba5348da1d460f49ff93e6aff55e1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32210934"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33900931"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および呼び出しキューの通話に Teams から直接応答する
 ===========================================================
@@ -31,7 +31,7 @@ ms.locfileid: "32210934"
 
 自動応答をクラウドには、一連の音声プロンプトまたは組織に電話するときに、人間のオペレーターではなく相手に対して再生するオーディオ ファイルが用意されています。 自動応答により、発信者はメニュー システムを介して、通話、電話機のキーパッド (DTMF) を使用したユーザーの特定、音声認識を使用した音声入力を行うことができます。
 
-クラウド呼び出しキューには、自動的に保留中の呼び出しを配置することなどを検索する機能の呼び出しとなっている人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントのための電話番号への呼び出し際に使用するあいさつ文が含まれます保留中の音楽を聴きます。 組織の 1 つまたは複数の呼び出しキューを作成します。
+Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>自動アテンダントまたは呼び出しキューの呼び出しを処理します。
 

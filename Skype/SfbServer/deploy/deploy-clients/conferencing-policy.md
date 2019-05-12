@@ -1,7 +1,7 @@
 ---
 title: Skype Room System アカウント用の電話会議ポリシー
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: davgroom
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: このトピックでは、Skype Room System アカウントに会議ポリシーを割り当てる方法について説明します。
-ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7574824e03be7dd48163befb6243bc557833bd5e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219466"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895406"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype Room System アカウント用の電話会議ポリシー
  

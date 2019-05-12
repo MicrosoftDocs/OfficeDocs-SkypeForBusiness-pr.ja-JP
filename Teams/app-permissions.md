@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams アプリのアクセス許可と考慮事項
-author: Lester-Hewett
-ms.author: lehewe
+author: rmw2890
+ms.author: rowille
 manager: serdars
 ms.date: 10/18/2018
 ms.topic: conceptual
@@ -10,38 +10,38 @@ MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 search.appverid: MET150
-ms.reviewer: lehewe
-description: 組織に対してアプリが要求しているデータアクセス許可について説明します。
+ms.reviewer: rowille
+description: 組織から要求がアプリケーションのデータとアクセス許可について説明します。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2618f4ad5a09e6fff33580f9e9085d6d282797a6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dff53f079442da6c0430f66a679243d4268a5fb2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211109"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897304"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
-Microsoft Teams アプリは、1 つまたは複数の機能がまとめられた、インストール、アップグレード、アンインストールすることができる_アプリ パッケージ_として提供されます。 次の機能が含まれます。
+マイクロソフト チームのアプリケーションは、インストール、アップグレード、およびアンインストールできる_アプリケーションのパッケージ_に 1 つまたは複数の機能を集約する方法です。 機能は次のとおりです。
 
--   ボット
+-   Bot
 -   メッセージングの拡張機能
 -   タブ
 -   コネクタ
 
-ポリシーの観点では、アプリはユーザーによって承諾され、IT 担当によって管理されます。 しかしながら、大部分において、アプリのアクセス許可とリスク プロファイルは、アプリに含まれる機能のアクセス許可とリスク プロファイルによって定義されます。 このため、この記事では、機能レベルでのアクセス許可と考慮事項について、焦点をあてます。
+アプリケーションがユーザーに同意したし、によって管理されているポリシーの観点から IT です。 ただし、ほとんどの場合、アプリケーションのアクセス許可とリスクのプロファイルによって定義されます、アクセス許可とリスクのプロファイルが含まれている機能の。 そのため、この資料では、アクセス許可と機能レベルでの考慮事項について説明します。
 
-RECEIVE_MESSAGE や REPLYTO_MESSAGE のように、以下に大文字で一覧表示されたアクセス許可は、[Microsoft Teams 開発者向けドキュメント](https://aka.ms/teamsdevdocs)や [Microsoft Graph のアクセス許可](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)にはまったく表示されません。 これらは、この記事で説明上の目的のために使われる省略表記です。
+大文字で RECEIVE_MESSAGE と REPLYTO_MESSAGE では、たとえば次に示すアクセス許可は、[マイクロソフトのチームの開発者向けドキュメント](https://aka.ms/teamsdevdocs)や[Microsoft Graph のアクセス許可](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)で任意の場所に表示されません。 この資料の目的でわかりやすい簡単なだけであります。
 
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>下記の表は、調べているアプリが要求しているアクセス許可を知るためのガイドとして使用します。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>アプリまたはサービス自体を調査して、自分の組織内でそのアプリやサービスへのアクセスを許可するかどうかを決めます。 たとえば、ボットがユーザーからのメッセージを送受信するが、それらのボットは、エンタープライズ向けの基幹業務ボットではない限り、コンプライアンスの範囲外の領域に配置されている場合です。 このため、ボットを含んでいるアプリは、これらのアクセス許可を必要とし、少なくともリスク プロファイルを持つことになります。 </li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>ガイドとして、調査しているアプリケーションが要求するアクセス許可を理解するのには以下の表を使用します。</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アプリケーションを調査またはサービス自体を組織内でアクセスを許可するかどうかを決定します。 Bot 送信など、ユーザーからメッセージを受信と -企業の基幹業務の bot 以外: コンプライアンスの境界の外側に配置します。 したがって、bot を含むすべてのアプリケーションはこれらのアクセス許可が必要ですし、少なくともそのリスクのプロファイルには。 </li></ul>|
 
-## <a name="global-app-permissions-and-considerations"></a>グローバル アプリのアクセス許可と考慮事項
+## <a name="global-app-permissions-and-considerations"></a>グローバル アプリケーション アクセス許可および考慮事項
 
 <table>
   <tr>
@@ -52,11 +52,11 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE のように、以下に大文字で一覧�
   <tr>
     <td valign="top">なし</td>
     <td valign="top">なし</td>
-    <td valign="top">アプリはどのデータを使用し、データが何のために使用されるかを、その使用規約およびプライバシー ポリシーのリンクで公開する必要があります。</td>
+    <td valign="top">アプリケーションを使用してどのようなデータとどのようなデータを使用およびプライバシー ポリシーのリンクの条件での使用を開示する必要があります。</td>
   </tr>
 </table>
 
-## <a name="bots-and-messaging-extensions"></a>ボットとメッセージングの拡張機能
+## <a name="bots-and-messaging-extensions"></a>Bot とメッセージングの拡張機能
 
 <table>
  <thead>
@@ -69,14 +69,14 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE のように、以下に大文字で一覧�
 </thead>
 <tbody>
    <tr>
-    <td valign="top" colspan="2"><ul><li>   RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ボットはユーザーからメッセージを受信して、ユーザーに返信することができます。<sup>1</sup></li><li>POST_MESSAGE_USER。 ユーザーがメッセージをボットに送信した後、ボットはユーザーにダイレクト メッセージ (<em>プロアクティブ メッセージ</em>とも言います) をいつでも送信することができます。</li><li>GET_CHANNEL_LIST。 チームに追加されたボットは、チーム内のチャネルの名前と ID のリストを取得できます。</li></ul></td>
-    <td valign="top"><ul><li>IDENTITY。 It& #39 #39、app&、チャネルで使用される s; s bot (名、姓、名、ユーザー プリンシパル名 [UPN]、e メール アドレス) は、チーム メンバーの基本的な id 情報にアクセスできますit& #39; s の個人またはグループのチャット、bot で使用されている各ユーザーが同じ情報にアクセスできます。</li><li> POST_MESSAGE_TEAM。 App& では、#39; s bot を直接 (事前対応型) にメッセージを送信、チーム メンバーはいつでも場合でも、ユーザーが前に bot まで、説明しません。</li><li>以下は明示的なアクセス許可ではありませんが、RECEIVE_MESSAGE と REPLYTO_MESSAGE によって暗黙で示され、ボットを使用することができる範囲が明示的に宣言されています。 <ul><li>RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL。</li><li>RECEIVE_MESSAGE_GROUPCHAT、 REPLYTO_MESSAGE_GROUPCHAT<sup>2</sup> </li><li>RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM</li></ul><li>SEND_FILES、RECEIVE_FILES。<sup>3</sup> パーソナル チャットでファイルを送受信できるかどうかを制御します (グループ チャットやチャネルではサポートされていません)。</li></ul></td>
-    <td valign="top"><ul><li>Bot がどの they& #39 の範囲内にチームへのアクセスを必要があるだけ ve されて追加されたか、それらをインストールしているユーザーにします。</li><li>Bot だけどの they& #39 でメッセージを受信します。 re に明示的に記載されているユーザーが このデータは、企業ネットワークから出ることになります。</li><li>    Bot はどの they& #39 での会話にのみ返信できます; re に記載されています。</li><li>後、ボットは、その user& #39 を保存する場合は、ユーザーが、bot の conversed が; s の ID、メッセージを送信できるユーザー直接任意の時点。 </li><li>ボットのメッセージにフィッシングのリンクやマルウェアのサイトを含めるようにすることは理論的には可能ですが、ボットはユーザーやテナント管理者によって、またはマイクロソフトによってグローバルにブロックすることができます。 </li><li>ボットは、アプリが追加済みのチーム メンバーや、パーソナル チャットやグループ チャットの個別のユーザーについて、基本的な識別情報を取得 (および保存) することができます。 これらのユーザーについてより詳細な情報を取得するには、ボットがユーザーに対して Azure Active Directory (Azure AD) にサインインするよう要求する必要があります。 </li><li>ボットはチーム内のチャネルのリストを取得 (および保存) することができます。このデータは、企業ネットワークから出ることになります。 </li><li>ファイルがボットに送信されると、ファイルは企業ネットワークから出ることになります。 ファイルの送受信では、ファイルごとにユーザーの承認が必要です。 </li><li>ボット don& #39 は、既定で、ユーザーの代わりに動作する機能が、bot がサインインするにはユーザーに問い合わせることができます。ユーザーがサインインするとすぐに bot が追加作業を実行できます、アクセス トークンがあります。 追加の操作が具体的に何であるかは、ボットによって、およびユーザーがどこでサインインしたかによって異なります。ボットは <a href="https://apps.dev.microsoft.com/">https://apps.dev.microsoft.com/</a> で登録済みの Azure AD アプリで、独自のアクセス許可のセットを持っています。</li><li>ボットには、ユーザーが追加されたとき、およびチームから削除されたときに、必ず通知が入ります。</li><li>ボット don& #39; t を参照してください users& #39 です。IP アドレスやその他の参照元の情報です。 すべての情報はマイクロソフトから提供されます。 (1 つの例外: bot は、独自のサインイン処理を実装している場合は、サインインの UI を参照してください users& #39 です。IP アドレスや参照元情報を使用します。)</li><li>メッセージングの拡張機能は、その一方で、操作を行いますを参照してください users& #39 です。IP アドレス、参照元の情報。</li><li>アプリのガイドライン (および AppSource のレビュー プロセス) では、パーソナル チャットのメッセージを正当な目的で (POST_MESSAGE_TEAM のアクセス許可を介して) ユーザーに投稿することについての裁量権が要求されます。 迷惑行為が発生した場合、ユーザーがボットをブロックしたり、テナント管理者がアプリをブロックしたり、必要な場合はマイクロソフトがボットを一元的にブロックしたりすることができます。</li></ul></td>
+    <td valign="top" colspan="2"><ul><li>   RECEIVE_MESSAGE、REPLYTO_MESSAGE。 Bot では、ユーザーからメッセージを受信でき、それらに返信することができます。<sup>1</sup></li><li>POST_MESSAGE_USER。 ユーザーが bot にメッセージを送信した後、bot メッセージを送信できるユーザー直接 (<em>事前対応型のメッセージ</em>とも呼ばれます) はいつでもします。</li><li>GET_CHANNEL_LIST。 Bot のチームに追加は、チーム内のチャネルの名前および Id の一覧を取得できます。</li></ul></td>
+    <td valign="top"><ul><li>ID です。 It& #39 #39、app&、チャネルで使用される s; s bot (名、姓、名、ユーザー プリンシパル名 [UPN]、e メール アドレス) は、チーム メンバーの基本的な id 情報にアクセスできますit& #39; s の個人またはグループのチャット、bot で使用されている各ユーザーが同じ情報にアクセスできます。</li><li> POST_MESSAGE_TEAM。 App& では、#39; s bot を直接 (事前対応型) にメッセージを送信、チーム メンバーはいつでも場合でも、ユーザーが前に bot まで、説明しません。</li><li>次、明示的なアクセス許可ではないですが、RECEIVE_MESSAGE と REPLYTO_MESSAGE と、bot が使用できますが、マニフェストで宣言されているスコープによって暗黙的に指定します。 <ul><li>RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL</li><li>RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT<sup>2</sup> </li><li>RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM</li></ul><li>SEND_FILES、RECEIVE_FILES。<sup>3</sup> bot を送受信するかどうかは個人のチャット (グループ チャットやチャンネルではサポートされていません) のファイルを制御します。</li></ul></td>
+    <td valign="top"><ul><li>Bot がどの they& #39 の範囲内にチームへのアクセスを必要があるだけ ve されて追加されたか、それらをインストールしているユーザーにします。</li><li>Bot だけどの they& #39 でメッセージを受信します。 re に明示的に記載されているユーザーが このデータは、企業ネットワークを残します。</li><li>    Bot はどの they& #39 での会話にのみ返信できます; re に記載されています。</li><li>後、ボットは、その user& #39 を保存する場合は、ユーザーが、bot の conversed が; s の ID、メッセージを送信できるユーザー直接任意の時点。 </li><li>Bot へのメッセージ、フィッシング詐欺やマルウェアのサイトへのリンクが含まれている理論的に可能ですが、テナント管理者、ユーザー、または Microsoft によってグローバルにボットをブロックすることができます。 </li><li>Bot を取得できます (および格納可能性があります)、アプリケーションの追加には、チーム メンバーや個人またはグループのチャットの個々 のユーザーの非常に基本的な id 情報。 さらにこれらのユーザーに関する情報を取得、bot は Azure Active Directory (AD の Azure) にサインインすることを求める必要があります。 </li><li>Bot を取得できます (および格納可能性があります)、チーム内のチャンネルのリストこのデータは、企業ネットワークを残します。 </li><li>Bot にファイルを送信すると、ファイルは、企業ネットワークを残します。 ファイルを送受信するファイルごとにユーザーの承認が必要です。 </li><li>ボット don& #39 は、既定で、ユーザーの代わりに動作する機能が、bot がサインインするにはユーザーに問い合わせることができます。ユーザーがサインインするとすぐに bot が追加作業を実行できます、アクセス トークンがあります。 Bot と、ユーザーがサインインした場所によって異なります正確にどのようなこれらの要素を追加、: bot に登録されている AD の Azure アプリケーションでは<a href="https://apps.dev.microsoft.com/">https://apps.dev.microsoft.com/</a>と、独自のアクセス許可のセットを持つことができます。</li><li>ユーザーを追加またはチームから削除されるたびに、bot は式ではありません。</li><li>ボット don& #39; t を参照してください users& #39 です。IP アドレスやその他の参照元の情報です。 すべての情報は、Microsoft から取得されます。 (1 つの例外: bot は、独自のサインイン処理を実装している場合は、サインインの UI を参照してください users& #39 です。IP アドレスや参照元情報を使用します。)</li><li>メッセージングの拡張機能は、その一方で、操作を行いますを参照してください users& #39 です。IP アドレス、参照元の情報。</li><li>アプリのガイドラインなど、AppSource のレビュー プロセス用に有効な (POST_MESSAGE_TEAM のアクセス許可) を使用してユーザーに個人用のチャット メッセージを投稿することで判断が必要です。 迷惑行為、発生時にユーザーは、ボットをブロックできます、テナント管理者は、アプリケーションをブロックできます Microsoft ブロック bot 集中的に必要な場合。</li></ul></td>
 </tr>
 </tbody>
 <tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3">一部のボットは、メッセージの送信のみを行います (POST_MESSAGE_USER)。 They& #39; re と呼ばれる&quot;通知のみ&quot;ボット、ですが、用語 doesn& #39; t は、どのような bot を許可または許可しないを参照してください、ボット doesn& #39 の範囲内を意味する t が会話の経験を公開します。 チームでは、このフィールドを使用して、通常は有効になります; する UI の機能を無効にします。ボット isn& #39 t がどのような it& #39 で制限されている; s の会話の経験を公開しているボットに比較を行うに許可します。</td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3">現在、開発者プレビューです。</td></tr>
+<tr><td align="right"><sup>1</sup></td><td colspan="3">いくつかのボットは、(POST_MESSAGE_USER) のメッセージを送信するのみです。 They& #39; re と呼ばれる&quot;通知のみ&quot;ボット、ですが、用語 doesn& #39; t は、どのような bot を許可または許可しないを参照してください、ボット doesn& #39 の範囲内を意味する t が会話の経験を公開します。 チームでは、このフィールドを使用して、通常は有効になります; する UI の機能を無効にします。ボット isn& #39 t がどのような it& #39 で制限されている; s の会話の経験を公開しているボットに比較を行うに許可します。</td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3">Developer Preview 現在の。</td></tr>
 <tr><td align="right"><sup>3</sup></td><td colspan="3">によって管理される、<code>supportsFiles</code>アプリケーションの manifest.json ファイル内の bot オブジェクトにブール型のプロパティです。</td>
 </tr>
 </tfoot>

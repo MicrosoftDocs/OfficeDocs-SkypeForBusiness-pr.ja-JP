@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams Rooms
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 layout: LandingPage
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: マイクロソフト チームの会議室を展開し、システムを管理する方法を導入するための関連の考慮事項です。
-ms.openlocfilehash: 2a4f22f3520d2d0e27ef0aaf04bfd446da291be9
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 7a55b5ba8b682aed398daff1f373acba453110bc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362874"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916388"
 ---
 <h2>Microsoft Teams Rooms</h2>
 <ul class="panelContent cardsW cols cols2">

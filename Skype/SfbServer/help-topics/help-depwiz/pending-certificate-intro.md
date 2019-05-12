@@ -1,8 +1,8 @@
 ---
 title: 保留中の証明書 (開始)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 description: オンライン証明機関に発行されてくださいが、手動の承認プロセスを必要とする管理者によって設定されている要求は、保留中のオンライン証明書要求の処理には、次へをクリックします。
-ms.openlocfilehash: 8b474d4b577cbbac90863a291f1c197ccf9f572d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 32e2d1ee256e49af7c203bea8edc0d99bf5be83c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201175"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921068"
 ---
 # <a name="pending-certificate-intro"></a>保留中の証明書 (開始)
  

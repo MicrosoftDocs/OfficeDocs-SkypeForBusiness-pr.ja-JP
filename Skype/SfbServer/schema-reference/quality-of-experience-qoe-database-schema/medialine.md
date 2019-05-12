@@ -1,8 +1,8 @@
 ---
 title: MediaLine ビュー
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: MediaLine ビューは、データベース内の各メディアの明細行に関する情報を格納します。 通常、1 つのオーディオ セッションには、オーディオ メディアの 1 つの行が含まれています。 1 つのオーディオおよびビデオ (A/V) セッションでは通常 1 つのオーディオ メディアの行と 1 つのビデオ メディア ラインです。ただし、セッション可能性がありますが含まれている 2 つのビデオ メディア ライン会議用デバイスが使用されている場合、またはギャラリーのビューを使用する場合。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 04037bae4b2f04058667d42205a2e0b33abacb4f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4fcfa22c17cc47c37e33d1f68bdab9815840c332
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212201"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920139"
 ---
 # <a name="medialine-view"></a>MediaLine ビュー
  

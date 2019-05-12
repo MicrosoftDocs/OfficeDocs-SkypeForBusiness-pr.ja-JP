@@ -1,8 +1,8 @@
 ---
 title: レジストラー設定エキスパンダー
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 復元機能では、レジストラー プールの高可用性と災害復旧を提供します。 プライマリのレジストラーでは、レジストラーは、障害が発生したレジストラーに引き継ぐことができますバックアップの障害が発生した場合は、バックアップ レジストラーを提供することにより、ユーザーがログオンし、通信を許可します。 可能性のある環境での機能の制限、プライマリ レジストラーによっては、システムが失敗しました。
-ms.openlocfilehash: dff7561a1e461283768601515a52207de1b4140b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0902c8490d650208c072ed7d2856738b9bd7f2c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235260"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906733"
 ---
 # <a name="registrar-settings-expander"></a>レジストラー設定エキスパンダー
  

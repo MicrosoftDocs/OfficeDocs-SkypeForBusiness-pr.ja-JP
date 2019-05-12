@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバー用の Skype では、Office Web アプリケーション サーバーとの統合を構成します。
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: '概要: は、PowerPoint のプレゼンテーションを web 会議を有効にするには、Office Web アプリケーション サーバーと Skype ビジネス サーバーの間の統合を構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: 69cdbd50387f2e3267a0fc2acb38e47260970578
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96920a5de9ac30e8fa0705a9fc596eb416dedc5d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223825"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893323"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>ビジネス サーバー用の Skype では、Office Web アプリケーション サーバーとの統合を構成します。
  

@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype でのピア ツー ピア セッション詳細レポート
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: '概要: は、ビジネスのサーバーの Skype でピア ツー ピア セッション詳細レポートについて説明します。'
-ms.openlocfilehash: 41d4b7d78c674afbc2136911913e88837a4f5095
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 77b5a80c2280d5242e4efcc0dc696c6720da4f64
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897244"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925230"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのピア ツー ピア セッション詳細レポート
  

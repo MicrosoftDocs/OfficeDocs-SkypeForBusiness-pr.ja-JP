@@ -1,7 +1,7 @@
 ---
 title: サービスの管理と品質を計画します。技術への対応
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45dafd29302dc26dae80461a7c4082c6a73469c8
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.openlocfilehash: a1f663bc801a7b2d864c59051b08ae66d52123cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304965"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896435"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 

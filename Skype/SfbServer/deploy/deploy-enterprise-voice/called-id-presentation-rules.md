@@ -1,8 +1,8 @@
 ---
 title: 作成またはビジネス サーバーの Skype で呼び出された ID プレゼンテーションの変換ルールを変更
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: '概要: ビジネス サーバーの Skype でビルド規則の翻訳ツールを使用して変換ルールを定義する方法を説明します。'
-ms.openlocfilehash: 947dc6a76482fc5b00efaeb71463b35eab9f9cea
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a8a967e3c0f6d808e8e08fea0f08f5fb6bcfbeb0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223748"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893120"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype で呼び出された ID プレゼンテーションの変換ルールを変更
 

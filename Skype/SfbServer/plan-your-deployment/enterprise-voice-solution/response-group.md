@@ -1,8 +1,8 @@
 ---
 title: Business Server に Skype で応答グループ アプリケーションの計画
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Skype で応答グループのビジネス サーバーのエンタープライズ VoIP の計画を使用するユーザーのグループに通話をルーティングを設定します。 また、オーディオ ファイルの要件についても説明します。
-ms.openlocfilehash: 68a693715739d58488e134934416790641dd091e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 856b525137f0b4fc85ef3bf0f9390f6ca2a580e9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206495"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913549"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Business Server に Skype で応答グループ アプリケーションの計画
 

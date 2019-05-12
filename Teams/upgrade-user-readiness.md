@@ -1,7 +1,7 @@
 ---
 title: Skype for Business から Teams にアップグレードする前にユーザーの準備状況計画を用意する
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3172d85065f72d16df800d77e196632181c7d7bd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d38884b5e1f868dd206f7382c91f00502c0ca5ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218663"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33884848"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 

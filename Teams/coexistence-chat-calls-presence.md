@@ -1,7 +1,7 @@
 ---
 title: Skype for Business と共存する
-author: jambirk
-ms.author: francoid
+author: kenwith
+ms.author: kenwith
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: このドキュメントでは、割り当てられている TeamsUpgrade モードに基づくチャット、通話のルーティング、およびチームのユーザーとテナントのと、フェデレーションの両方のビジネス、Skype のプレゼンスの動作を説明します。 ルーティングの最適化、プレゼンスの動作だけでなく、*散在*する*従来*からの既定の TeamsUpgrade モードの変更と*従来*の差し迫った退職が含まれています。
-ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3c88bd93805e6c2a33eb2f5c03ee04d4e7d55535
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198785"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929106"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 

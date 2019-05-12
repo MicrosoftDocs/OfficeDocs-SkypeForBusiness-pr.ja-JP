@@ -1,8 +1,8 @@
 ---
 title: UserSite テーブル
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
 description: UserSite はテーブルをサポートします。 各レコードは、ネットワーク構成設定で定義されている 1 つのユーザー サイトを表します。
-ms.openlocfilehash: a52f5cd9aa7059e2b545dec3bcc7ccb86191347a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 519cedc35c03fd9bcb5479ea3cecf75ec617917c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212047"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906954"
 ---
 # <a name="usersite-table"></a>UserSite テーブル
  

@@ -5,20 +5,20 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ublic のインスタント メッセージング (IM) 接続では、パブリック IM サービス プロバイダーが提供する IM サービスのユーザーと通信するために IM を使用する、組織内のユーザーを使用できます。
-ms.openlocfilehash: 3ed19bf692ccc7dfc39466e304b3b1371164758c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6cccef5de36b733e1af13092137bf0a35e843b4d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197612"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920440"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>ビジネス サーバーの Skype のパブリック ユーザー アクセスを制御するポリシーを構成します。
 

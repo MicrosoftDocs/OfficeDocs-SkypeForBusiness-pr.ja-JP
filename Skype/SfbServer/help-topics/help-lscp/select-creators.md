@@ -1,8 +1,8 @@
 ---
 title: 作成者の選択
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: 作成し、永続的なチャット ルームを管理するカテゴリを使用して簡単にです。 永続的なチャット管理者は、各カテゴリに属している AllowedMembers および作成者を定義して、チャット ルームのデフォルトの設定と、カテゴリで作成したすべてのチャット ルームに適用される動作を定義することも。 永続的なチャット管理者は、作成し、Skype をビジネス サーバーのコントロール パネルまたは Windows PowerShell コマンドレットを使用してカテゴリを管理します。
-ms.openlocfilehash: 85c9a2be4e2afcd28823bc656f18c733594b44b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 26a99cd950e05810e65d3f51c7737fba2703fd9a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200598"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924529"
 ---
 # <a name="select-creators"></a>作成者の選択
 
