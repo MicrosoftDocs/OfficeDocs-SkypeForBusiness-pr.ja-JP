@@ -1,8 +1,8 @@
 ---
 title: AV MCU 設定エキスパンダー
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,29 +13,29 @@ localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: A のプロパティを編集するのには次の操作が定義されている、V 会議サーバー プールとします。
-ms.openlocfilehash: 60e5a5b8600dd82d4ec66c7f68581e1d32a182aa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 191a745fbfa4663f03716f751393f92086d5aa77
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220727"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916344"
 ---
-# <a name="av-mcu-settings-expander"></a><span data-ttu-id="7811d-103">AV MCU 設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="7811d-103">AV MCU Settings Expander</span></span>
+# <a name="av-mcu-settings-expander"></a><span data-ttu-id="03721-103">AV MCU 設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="03721-103">AV MCU Settings Expander</span></span>
  
-<span data-ttu-id="7811d-104">A のプロパティを編集するのには次の操作が定義されている、V 会議サーバー プールとします。</span><span class="sxs-lookup"><span data-stu-id="7811d-104">To edit the properties for an A/V Conferencing Server pool that you have already defined, do the following:</span></span>
+<span data-ttu-id="03721-104">A のプロパティを編集するのには次の操作が定義されている、V 会議サーバー プールとします。</span><span class="sxs-lookup"><span data-stu-id="03721-104">To edit the properties for an A/V Conferencing Server pool that you have already defined, do the following:</span></span>
   
-## <a name="general-settings"></a><span data-ttu-id="7811d-105">全般設定</span><span class="sxs-lookup"><span data-stu-id="7811d-105">General Settings</span></span>
+## <a name="general-settings"></a><span data-ttu-id="03721-105">全般設定</span><span class="sxs-lookup"><span data-stu-id="03721-105">General Settings</span></span>
 
-<span data-ttu-id="7811d-106">A の完全修飾ドメイン名 (FQDN) を更新するのには V 会議サーバー プールとプールの名前を入力は、ドメイン ネーム システム (DNS) で定義されているとします。</span><span class="sxs-lookup"><span data-stu-id="7811d-106">To update the fully qualified domain name (FQDN) of the A/V Conferencing Server pool, type in the name of the pool as it is defined in the Domain Name System (DNS).</span></span> <span data-ttu-id="7811d-107">A に対応する DNS ホスト (A) レコードを持つ必要があります V 会議サーバーのプール名とします。</span><span class="sxs-lookup"><span data-stu-id="7811d-107">You must have a DNS host (A) record that corresponds with the A/V Conferencing Server pool name.</span></span>
+<span data-ttu-id="03721-106">A の完全修飾ドメイン名 (FQDN) を更新するのには V 会議サーバー プールとプールの名前を入力は、ドメイン ネーム システム (DNS) で定義されているとします。</span><span class="sxs-lookup"><span data-stu-id="03721-106">To update the fully qualified domain name (FQDN) of the A/V Conferencing Server pool, type in the name of the pool as it is defined in the Domain Name System (DNS).</span></span> <span data-ttu-id="03721-107">A に対応する DNS ホスト (A) レコードを持つ必要があります V 会議サーバーのプール名とします。</span><span class="sxs-lookup"><span data-stu-id="03721-107">You must have a DNS host (A) record that corresponds with the A/V Conferencing Server pool name.</span></span>
   
-## <a name="av-conferencing-service"></a><span data-ttu-id="7811d-108">A/V 会議サービス</span><span class="sxs-lookup"><span data-stu-id="7811d-108">A/V Conferencing Service</span></span>
+## <a name="av-conferencing-service"></a><span data-ttu-id="03721-108">A/V 会議サービス</span><span class="sxs-lookup"><span data-stu-id="03721-108">A/V Conferencing Service</span></span>
 
-<span data-ttu-id="7811d-109">A を関連付けるには V 会議サーバーのプール、フロント エンド プールを選択するか、プール/A と関連付ける必要が/V 会議サーバーのプールです。</span><span class="sxs-lookup"><span data-stu-id="7811d-109">To associate an A/V Conferencing Server pool, select the Front End pool or pools that you have to associate with the A/V Conferencing Server pool.</span></span>
+<span data-ttu-id="03721-109">A を関連付けるには V 会議サーバーのプール、フロント エンド プールを選択するか、プール/A と関連付ける必要が/V 会議サーバーのプールです。</span><span class="sxs-lookup"><span data-stu-id="03721-109">To associate an A/V Conferencing Server pool, select the Front End pool or pools that you have to associate with the A/V Conferencing Server pool.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="7811d-110">フロント エンド プールが表示されない場合は、**この A に関連付けるフロント エンド プール] を選択/V 会議プール**ウィンドウで、A が併設されているか、/V 会議サーバー、フロント エンド プール、**の中で会議を追加するのには選択されていませんか機能**のフロント エンド プールのプロパティのセクションです。</span><span class="sxs-lookup"><span data-stu-id="7811d-110">If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool, or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.</span></span>
+> <span data-ttu-id="03721-110">フロント エンド プールが表示されない場合は、**この A に関連付けるフロント エンド プール] を選択/V 会議プール**ウィンドウで、A が併設されているか、/V 会議サーバー、フロント エンド プール、**の中で会議を追加するのには選択されていませんか機能**のフロント エンド プールのプロパティのセクションです。</span><span class="sxs-lookup"><span data-stu-id="03721-110">If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool, or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.</span></span>
   
 
-<span data-ttu-id="7811d-111">A の編集を完了するのには **[ok]** をクリックしたら、V 会議サーバー プールの設定とします。</span><span class="sxs-lookup"><span data-stu-id="7811d-111">When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings.</span></span> <span data-ttu-id="7811d-112">変更を破棄するには、[**キャンセル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7811d-112">Click **Cancel** to discard any changes.</span></span>
+<span data-ttu-id="03721-111">A の編集を完了するのには **[ok]** をクリックしたら、V 会議サーバー プールの設定とします。</span><span class="sxs-lookup"><span data-stu-id="03721-111">When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings.</span></span> <span data-ttu-id="03721-112">変更を破棄するには、[**キャンセル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="03721-112">Click **Cancel** to discard any changes.</span></span>
   
 
