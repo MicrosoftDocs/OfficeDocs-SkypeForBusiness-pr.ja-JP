@@ -1,11 +1,11 @@
 ---
 title: マイクロソフト チームの前提条件。採用アップグレードの依存関係
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: turgayo
+ms.reviewer: dearbeen
 description: このガイドを使用して、前提条件、およびチームを組織に展開する環境の依存関係について説明するには
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39483e7b3c8e511f2081f907b187d97dbbaf526f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 784c2ac08ca6dbfece5cdc8c99fee2b308325576
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203344"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895934"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 

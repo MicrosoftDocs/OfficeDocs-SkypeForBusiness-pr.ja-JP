@@ -1,8 +1,8 @@
 ---
 title: 会議ポリシーを新規作成または既存の編集
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: 会議ポリシーにより、会議 (ミーティングとも呼ばれます) でユーザーが使用できる機能が定義されます。
-ms.openlocfilehash: 393ced559593f63068dd8cf0761096330b8c4544
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a1d44b78efe93f554fcf0e36dca0ebb2bf914b47
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234708"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929183"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>会議ポリシー: 新規作成または現在の形式のままで編集
 

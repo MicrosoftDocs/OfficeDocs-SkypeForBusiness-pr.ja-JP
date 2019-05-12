@@ -1,8 +1,8 @@
 ---
 title: 発信の音声が Skype のビジネス サーバーのルーティングの計画
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 発信の音声が Skype で通話ルーティングの設定を含むビジネス サーバーのエンタープライズ VoIP のルーティングについて、計画、正規化の規則、音声ポリシー、PSTN 使用法レコード、およびボイス ルートをダイヤルします。
-ms.openlocfilehash: 61e2721f2dac3ea6f49708213b1da9752300cbed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: abcf601c40819c336416e8db5701bd7bb37219ce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206551"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913688"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>発信の音声が Skype のビジネス サーバーのルーティングの計画
  

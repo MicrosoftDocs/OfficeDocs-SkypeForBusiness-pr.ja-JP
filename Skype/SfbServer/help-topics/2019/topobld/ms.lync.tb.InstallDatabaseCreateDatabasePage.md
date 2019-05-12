@@ -1,8 +1,8 @@
 ---
 title: データベースのインストールと作成
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開を作成するデータベースを選択します。 既定では、データベース定義済みのサイトでは、定義済みの SQL Server 上に作成されますと、自動的に展開および構成データベースを配置するのには、SQL Server のデータベース ファイルです。
-ms.openlocfilehash: f9b345a741182968e32bc0907d70c0924a61ea3f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a0a49f5c751503c166d83c16e815a1cd63db751a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201794"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906635"
 ---
 # <a name="install-and-create-databases"></a>データベースのインストールと作成
 

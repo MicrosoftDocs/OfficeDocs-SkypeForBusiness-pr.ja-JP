@@ -1,8 +1,8 @@
 ---
 title: AppSharingMetricsThreshold テーブル
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: AppSharingMetricsThreshold テーブルには、アプリケーション共有で使用される高品質のエクスペリエンスの測定値の最適なと許容可能な値が含まれています。 これらのしきい値を使用すると、経験を共有するアプリケーションを不十分な分類するかかどうかを決定します。
-ms.openlocfilehash: bddad99803ab6683985b0f44ed5df509b84344f3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 32a3a8e4942ad41fc7c1969c14c915bc95aa9e82
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212328"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924893"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>AppSharingMetricsThreshold テーブル
  

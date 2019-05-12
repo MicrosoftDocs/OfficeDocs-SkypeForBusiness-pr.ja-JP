@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '機能、可用性、およびお客様のビジネス電話システム (PBX をクラウド) の計画およびセットアップする方法です。 '
-ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 325d25bf8019a1e58c62867d3e558769ddc64da8
+ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868673"
+ms.locfileid: "33882902"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
 
@@ -61,7 +61,6 @@ PBX は、企業内電話システムです。 Office 365 のアドオンの電�
 |エンタープライズ カレンダーの通話のルーティング  <br/> |エンタープライズ カレンダーの通話のルーティングを有効にするか、着信の転送およびビジネス用の Skype の同時呼び出しを無効にするのには、Exchange 予定表の営業時間を使用できます。  <br/> |
 |統合のダイヤル パッド  <br/> | 名前または番号検索バーの任意の場所に、ダイヤル パッドでは、発信呼び出しを行うプロセスを高速化をダイヤルしてください。 <br/> |
 |[卓上電話を使用して、Skype のビジネスの呼び出しを行う](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |卓上電話は、構成すると、Office 365 のサインイン情報に、オンライン ビジネスの Skype に登録するのには、オーディオに携帯電話を経由する呼び出しの卓上電話を使用して、組織で人を呼び出すことができます。  <br/>  |
-|保留音  <br/> |あなたがまだ存在し、呼び出しを削除していない誤って、呼び出し元が知っているので、保留中の通話を確立するときに音楽を再生します。  <br/> |
 |Skype と連合の呼び出し  <br/> |Skype ディレクトリ内のすべてのユーザーを検索し、安全に接続、通信、するそれらとの共同作業できます。  <br/> |
 |[ビジネス用の Skype での呼び出しの転送オプションを設定します。](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |送信、チームは、期間または一定の時間後にすぐにします。  <br/> |
 |[ビジネスの Skype を使用してビデオ通話を受信し、](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 質問に応答する準備が完了することは、発表者の名前と小規模のフローティング ウィンドウでは、ビデオ ストリームを確認できます。 <br/> |

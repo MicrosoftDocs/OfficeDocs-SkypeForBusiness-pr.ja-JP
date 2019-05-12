@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーの Skype の暗証番号 (pin) ポリシーを削除します。
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: '概要: は、Skype のビジネス サーバーのユーザーのダイヤルイン会議の PIN を削除します。'
-ms.openlocfilehash: d8b8a901e15e0b301dcce149b3f55a27f8298af6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b281716c2e0560936ea2f94b773c8191f3e8987e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211026"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919648"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>ビジネス サーバーの Skype の暗証番号 (pin) ポリシーを削除します。
  

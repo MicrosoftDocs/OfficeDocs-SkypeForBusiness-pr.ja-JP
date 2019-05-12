@@ -1,7 +1,7 @@
 ---
 title: ビジネス サーバー 2015 の Skype のデスクトップ クライアントの機能の比較
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: どのような機能がどのクライアントでサポートされているを理解するのにこれらのテーブルを使用できるは、ビジネス サーバー 2015 の Skype または Skype オンライン ビジネス管理者の。'
-ms.openlocfilehash: 498d444fa79b25d2a85f8e7bf04968512b00bf66
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5ce0fae838f860bfae3dabfccdc60f1e9d7a7fc2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207420"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33923820"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のデスクトップ クライアントの機能の比較
 

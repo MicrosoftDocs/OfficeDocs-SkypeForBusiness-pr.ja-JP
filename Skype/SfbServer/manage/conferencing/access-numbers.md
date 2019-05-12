@@ -1,8 +1,8 @@
 ---
 title: 'Skype でダイヤルイン会議のアクセス番号をビジネスのサーバーの管理します。 '
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: '概要: ビジネス サーバーのダイヤルイン会議アクセス番号を Skype を管理する方法を説明します。'
-ms.openlocfilehash: c074cb9417e39d8964996f643b90f8fe3e0fd7b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: aa386b1c2dd868634539be32062ed7728e27c1e7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883522"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919410"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Skype でダイヤルイン会議のアクセス番号をビジネスのサーバーの管理します。
  

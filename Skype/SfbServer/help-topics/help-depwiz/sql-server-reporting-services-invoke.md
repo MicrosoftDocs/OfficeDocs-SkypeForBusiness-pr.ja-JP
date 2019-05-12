@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (起動)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 description: 監視サーバーの展開を Microsoft SQL Server 2008 r2 でレポートまたは表示するのには Microsoft SQL Server 2012 レポート サービスでは、ページを実行するコマンドをインストールするのには、発行するコマンドの概要について必要な情報を入力したら、SQL Server Reporting Services にレポートします。
-ms.openlocfilehash: f1cc4ee2f2a53ea8e6d3ba1f1fcd24c59c915990
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bb73c456e062a4fc6e3c045db907e6e889d958d9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234903"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925103"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (起動)
  

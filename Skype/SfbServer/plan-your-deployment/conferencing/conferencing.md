@@ -1,8 +1,8 @@
 ---
 title: ビジネス サーバーに、Skype で会議を計画します。
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: '概要: このビジネス サーバーの会議機能、および Skype の機能について説明するを参照できます。'
-ms.openlocfilehash: cefd631f1750d7eaa4404a2fe2ffa8aa91675824
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a375976e0f2211e33270de6e7d36f1d6dcebcdbd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214380"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897402"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で会議を計画します。
  
