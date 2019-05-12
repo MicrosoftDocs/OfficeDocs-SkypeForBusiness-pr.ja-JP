@@ -1,8 +1,8 @@
 ---
 title: 証明書のインポート (起動)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 description: コマンドの実行] ページで、インポートする証明書の要約情報を確認します。 ボックスの一覧で、証明書のインポート ログ ファイルを選択します。 証明書のインポート ログ ファイルがドロップ ダウン リストに表示されていることを確認します。 [証明書のインポートの詳細を確認するのにはログの表示] をクリックします。 サマリーとログ ファイルの確認が終了したら、[完了] をクリックします。
-ms.openlocfilehash: cf2791b2fe208264ba5d6d17d3d6d7aa38749a20
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7cfe53c212ff145d11358916b367403d50844cf8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201238"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921083"
 ---
-# <a name="import-certificate-invoke"></a><span data-ttu-id="16daa-107">証明書のインポート (起動)</span><span class="sxs-lookup"><span data-stu-id="16daa-107">Import Certificate (Invoke)</span></span>
+# <a name="import-certificate-invoke"></a><span data-ttu-id="9b084-107">証明書のインポート (起動)</span><span class="sxs-lookup"><span data-stu-id="9b084-107">Import Certificate (Invoke)</span></span>
  
-<span data-ttu-id="16daa-108">**コマンドの実行**] ページで、インポートする証明書の要約情報を確認します。</span><span class="sxs-lookup"><span data-stu-id="16daa-108">On the **Executing Commands** page, review the summary information for the imported certificate.</span></span> <span data-ttu-id="16daa-109">ボックスの一覧で、証明書のインポート ログ ファイルを選択します。</span><span class="sxs-lookup"><span data-stu-id="16daa-109">In the drop-down list, select the Import Certificate log file.</span></span> <span data-ttu-id="16daa-110">証明書のインポート ログ ファイルがドロップ ダウン リストに表示されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="16daa-110">Be sure that the Import Certificate log file is visible in the drop-down list.</span></span> <span data-ttu-id="16daa-111">[証明書のインポートの詳細を確認するのには**ログの表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16daa-111">Click **View Log** to review the details of the certificate import.</span></span> <span data-ttu-id="16daa-112">サマリーとログ ファイルの確認が終了したら、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16daa-112">When you are finished reviewing the summary and the log file, click **Finish**.</span></span>
+<span data-ttu-id="9b084-108">**コマンドの実行**] ページで、インポートする証明書の要約情報を確認します。</span><span class="sxs-lookup"><span data-stu-id="9b084-108">On the **Executing Commands** page, review the summary information for the imported certificate.</span></span> <span data-ttu-id="9b084-109">ボックスの一覧で、証明書のインポート ログ ファイルを選択します。</span><span class="sxs-lookup"><span data-stu-id="9b084-109">In the drop-down list, select the Import Certificate log file.</span></span> <span data-ttu-id="9b084-110">証明書のインポート ログ ファイルがドロップ ダウン リストに表示されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="9b084-110">Be sure that the Import Certificate log file is visible in the drop-down list.</span></span> <span data-ttu-id="9b084-111">[証明書のインポートの詳細を確認するのには**ログの表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9b084-111">Click **View Log** to review the details of the certificate import.</span></span> <span data-ttu-id="9b084-112">サマリーとログ ファイルの確認が終了したら、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9b084-112">When you are finished reviewing the summary and the log file, click **Finish**.</span></span>
   
 
