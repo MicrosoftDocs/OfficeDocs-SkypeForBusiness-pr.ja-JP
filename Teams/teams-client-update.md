@@ -3,7 +3,7 @@ title: チーム プロセスを更新します。
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
+ms.date: 05/13/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -14,16 +14,16 @@ search.appverid: MET150
 description: チームのデスクトップ クライアントを更新する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04b7d1e66905e7859139605b90b3093a48e8afbd
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 08381341903d21deb42ca83b3769c49f67d18b14
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33829097"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970277"
 ---
 # <a name="teams-update-process"></a>チーム プロセスを更新します。
 
-チームの Web アプリケーションは、毎週更新されます。
+チームの web アプリケーションは、毎週更新されます。
 
 チーム デスクトップ クライアント更新がリリースされた内部の厳格なテストおよび検証した後は 2 週間ごと、技術導入プログラム (タップ) を使用します。 これは通常、火曜日にします。 重要な更新が必要な場合は、チームはこのスケジュールを使用しないし、使用可能になるとすぐに更新プログラムをリリースします。
 

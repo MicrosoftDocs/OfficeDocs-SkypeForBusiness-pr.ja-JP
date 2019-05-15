@@ -1,7 +1,7 @@
 ---
 title: IT 専門家向けの Microsoft Education のガバナンスに関するよくある質問 - Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 425dc91384dd97af1b61ab6c0a19d003e20330be
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b381fc7dfbfaee85b42abdeadb3a9a5a66e18829
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401600"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902472"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
 

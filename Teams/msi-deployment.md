@@ -1,11 +1,11 @@
 ---
 title: MSI を使用して SCCM 経由で Microsoft Teams をインストールする
-author: Lester-Hewett
-ms.author: lehewe
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: rowille
 description: 管理者は Teams MSI を使用して、Microsoft Teams を選択したユーザーまたはコンピューターに一括展開することができます。
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8412b6998e824c05ac4d7f394d2283c265f78b04
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ea2f6b85dc4802f2caac4df5b69754d27e8fb9a6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225556"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33899018"
 ---
 <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 =================================

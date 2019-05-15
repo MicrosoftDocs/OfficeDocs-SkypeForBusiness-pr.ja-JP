@@ -5,20 +5,20 @@ ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
 ms:contentKeyID: 48183661
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Windows 以外のオペレーティング システムを使用する組織で使用するデバイスの QoS を有効にする方法を説明します。
-ms.openlocfilehash: b1f3dae2d2b499b334995d7754282c56872ce111
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 24d27b25112ecc982a6fdc2b8d1874c4be992937
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232714"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913057"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>ビジネス サーバーの Windows ベース以外のデバイスに Skype で QoS を有効にします。
 

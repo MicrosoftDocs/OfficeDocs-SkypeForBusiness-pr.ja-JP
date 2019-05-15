@@ -5,20 +5,20 @@ ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: エッジ トランスポート サーバーのポート範囲を構成する方法と、1 つのサービスの品質ポリシーを構成する方法について説明/V エッジ サーバー。
-ms.openlocfilehash: 11fdb542c6256c21e169480194bc5154bf1c1428
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 38fb71f995b1e4569b1bae11cc809ff0c5b358cc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214934"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913077"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Skype でエッジ サーバーのビジネス サーバーのポート範囲およびサービスの品質ポリシーの構成
 

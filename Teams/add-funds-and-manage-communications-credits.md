@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'ビジネス サービスの通信のクレジット (PSTN の消費) の Skype のお支払いし、継続的な電話システムのアクセス権を持つユーザーを保持する計画を参照してくださいする方法について説明します。 '
-ms.openlocfilehash: 0305e432534188f0dd8276fb29c9c764cc26bfeb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aceb1fab6cfffeaca174c156b1f54ffd9bcd09bb
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231807"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970285"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
@@ -76,7 +76,7 @@ ms.locfileid: "32231807"
     
 - [電話システムを計画します。](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
+[Microsoft 365 の管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)しても情報を確認でき、**課金**しようとしています。 > **サブスクリプション** > **追加のサブスクリプション**。
   
 ライセンスまたはライセンスの機能ごとにする必要があるテーブルを表示するには、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
   

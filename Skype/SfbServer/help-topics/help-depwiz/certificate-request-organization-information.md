@@ -1,8 +1,8 @@
 ---
 title: 証明書要求 (組織情報)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 description: 組織の情報ウィンドウを使用すると、組織と証明書を要求する組織単位 (OU) (通常の事業部や部門) の名前を指定できます。 組織および組織単位] ボックスに入力した情報は、証明書に表示され、他のユーザーが証明書を表示したときに、証明書を要求ユーザーの識別に使用します。
-ms.openlocfilehash: ac5906177e6ae23bd1b703b7b79339bf9d54f866
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 27fbbd711f7f1e4f920f4b59ac6a09f2760833bc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201361"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911129"
 ---
 # <a name="certificate-request-organization-information"></a>証明書要求 (組織情報)
  

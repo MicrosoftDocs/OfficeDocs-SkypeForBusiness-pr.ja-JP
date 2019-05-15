@@ -2,7 +2,7 @@
 title: Microsoft Teams のユーザー アクティビティ レポートを使用する
 author: ChuckEdmonson
 ms.author: chucked
-manager: lolaj
+manager: serdars
 ms.date: 04/17/2018
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ MS.collection:
 description: 活動レポートを使用して、組織内のユーザーがマイクロソフトのチームを使用する方法を参照してくださいする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff7104a6991ad940ad4082e1b3d24c36c3392582
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 202e40439c874aec493b96f8707ff218423d2339
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632307"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894353"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft Teams のユーザー アクティビティ レポートを使用する 
 ========================================

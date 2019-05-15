@@ -1,7 +1,7 @@
 ---
 title: マイクロソフト チームの会議室の要件
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 2/16/2018
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: この資料は、マイクロソフト チームの会議室をサポートするための要件をまとめたものです。
-ms.openlocfilehash: c7923948dcfc989375c7fb5de30ff6c52b54d487
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: a24ffdb21bb510a0ba973f1cff8174d505c00e91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362873"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916426"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>マイクロソフト チームの会議室の要件
 

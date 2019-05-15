@@ -1,8 +1,8 @@
 ---
 title: PurgeSettings テーブル (QoE)
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: PurgeSettings テーブルには、(そのとき) を指定する情報が含まれている高品質のエクスペリエンスの古いレコードは QoE データベースから自動的に削除されます。 パージに関連する情報もから取得できます、Skype 内でビジネス サーバー管理シェルの次のコマンドを実行して、注意してください。
-ms.openlocfilehash: b9aaa8b5fd988e1fb1476ec75077507b55aaf9d1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2b78f066907d6d0763fab7faa9d378e51f3715fc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212335"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924788"
 ---
 # <a name="purgesettings-table-qoe"></a>PurgeSettings テーブル (QoE)
  

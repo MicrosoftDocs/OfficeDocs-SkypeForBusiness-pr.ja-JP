@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: それぞれの国/地域のダイヤルイン会議の言語と割り当てられたカルチャ ID (en-US、da-DK、de-DE など) を検索します。
-ms.openlocfilehash: 32e2c93cc43d548e96c2cda7c2e501e3b94fab80
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: 0f745cc88299db756f85a1f892fef22332e788df
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30569663"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970293"
 ---
 # <a name="audio-conferencing-supported-languages"></a>電話会議でサポートされている言語
 
@@ -99,7 +99,7 @@ Office 365 で電話会議をセットアップして構成するときに、呼
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。 
+- Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなど、Microsoft 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
