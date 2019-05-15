@@ -12,20 +12,20 @@ MS.collection:
 - M365-collaboration
 description: ターゲット マシン上または特定のユーザーに対して、マイクロソフトのチームをクリーンアップするには、この PowerShell スクリプトを使用します。
 localization_priority: Normal
-ms.openlocfilehash: cd19bb3b0d26069d339b61b5d4bf059fef724407
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f89f35bb34ec3b72cfaec79c651b4c95d5e5bbdd
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920613"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993857"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="c3a77-103">PowerShell スクリプトのサンプルをマイクロソフトのチームの配置のクリーンアップします。</span><span class="sxs-lookup"><span data-stu-id="c3a77-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="00f46-103">PowerShell スクリプトのサンプルをマイクロソフトのチームの配置のクリーンアップします。</span><span class="sxs-lookup"><span data-stu-id="00f46-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="c3a77-104">この PowerShell スクリプトは、ターゲット コンピューターまたはユーザーからマイクロソフトのチームのクリーンアップを活用できます。</span><span class="sxs-lookup"><span data-stu-id="c3a77-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="c3a77-105">対象となるコンピューター上のすべてのユーザーのアクティビティが実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c3a77-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="00f46-104">この PowerShell スクリプトは、ターゲット コンピューターまたはユーザーからマイクロソフトのチームのクリーンアップを活用できます。</span><span class="sxs-lookup"><span data-stu-id="00f46-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="00f46-105">対象となるコンピューター上のすべてのユーザーのアクティビティが実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="00f46-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="c3a77-106">サンプル スクリプト</span><span class="sxs-lookup"><span data-stu-id="c3a77-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="00f46-106">サンプル スクリプト</span><span class="sxs-lookup"><span data-stu-id="00f46-106">Sample script</span></span>
 
 ````powershell
 <#
@@ -49,7 +49,8 @@ try
     }
     if (Test-Path -Path $TeamsPath) {
         Write-Host "Deleting Teams directory"
-        Remove-Item –Path $TeamsPath -Recurse
+        Remove-Item -Path $TeamsPath -Recurse
+                    
     }
 }
 catch
