@@ -1,9 +1,9 @@
 ---
-title: マイクロソフト チームのプレビューでの情報障壁
+title: Microsoft Teams プレビューでの情報障壁
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/30/2019
+ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,14 +12,14 @@ ms.reviewer: vikramju
 description: 情報障壁とチームにどのように影響について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 5cf9891e44df3e656255da90dc495d8f0bda8c72
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827789"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993922"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>マイクロソフト チームのプレビューでの情報障壁
+# <a name="information-barriers-in-microsoft-teams-preview"></a>Microsoft Teams プレビューでの情報障壁
 
 > [!INCLUDE [Preview feature](includes/preview-feature.md)]
 
@@ -28,6 +28,7 @@ ms.locfileid: "33827789"
 > [!NOTE]
 > - テナント間での情報障壁のグループを作成できません。
 > - Bot を使用してユーザーを追加するのには、バージョン 1 ではサポートされていません。
+> - 情報障壁のバージョン 1 には、SharePoint とビジネスの OneDrive のサポートが含まれていません。 SharePoint の機能を有効にすることで作業しているし、通信に使用可能になるとします。
 
 情報障壁のポリシーは、検索および検出にも禁止します。 このする必要があると通信していないユーザーと通信しようとする場合するが見つけることをそのユーザー ユーザー選択ウィンドウにします。
 

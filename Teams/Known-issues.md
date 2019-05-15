@@ -15,18 +15,25 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1be129edfbac1bff1120785596eb3fe8bcc8bb2f
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225953"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970192"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
 この記事では、Microsoft Teams の既知の問題を、機能の領域ごとにまとめています。
 
 ## <a name="administration"></a>管理
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|    
+|:-----|:-----|:-----|:-----|
+|リソース アカウントで部門が正しく構成されなかった <br/> |2019 年 1 月以前に自動応答または通話キューに関連付けられているリソース アカウントでは、適切な部門パラメーター セットを持っていませんので、それが原因で電話番号の割り当てに失敗することがあります。 この問題を解決するための修正プログラムに取り組んでいます。 <br/> |この問題を削減するには、次の Cmdlet を実行し、部門パラメーターを設定します。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft コミュニケーション アプリケーション インスタンス" <br/> |2019 年 5 月 8 日 <br/> |
+
+
+
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

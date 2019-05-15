@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
-ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
-ms.translationtype: HT
+ms.openlocfilehash: 624e6a72daae12d0e40b351cea6039fbe5eb432b
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30512990"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33994136"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -40,7 +40,7 @@ Teams の会議アドインは、Microsoft Teams と Office 2013 または Offic
 Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
 
 > [!NOTE]
-> Outlook 用の Teams の会議アドインは、現時点では Mac ユーザーは利用できません。
+> 16.20 と後で、Outlook は本番環境のビルドを実行している場合、Mac のリボンは Outlook で Outlook for Mac で、チーム会議] ボタンが表示されます。
 
 ## <a name="authentication-requirements"></a>認証要件
 

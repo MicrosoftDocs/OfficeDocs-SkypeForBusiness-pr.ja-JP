@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 取得し、オーストラリアの電話番号を Skype のビジネスをオンラインで、マイクロソフトのチームの管理上の情報を検索するのにには、次の表を使用します。
-ms.openlocfilehash: b576aa51d3fa5d773b054b8fe8eeb44db3d2b520
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 23a1b5a3a672685d7e9cb78a5fcb69892f82ab42
+ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245538"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34036653"
 ---
 # <a name="phone-number-management-for-australia"></a>オーストラリアでの電話番号の管理
 当社はオーストラリアで、通話プランの購入と事前設定に関して Telstra 社 と提携しました。 Telstra 社は、通話プランを販売し、自動応答とコール キューに関して、ユーザーとサービス電話番号両方に電話番号管理のサポートを提供します。 ただし、電話会議用のサービス電話番号とライセンスは、引き続き Office 365 で販売、管理します。
@@ -44,7 +44,7 @@ ms.locfileid: "32245538"
 |ユーザー、自動応答、および呼び出しキューを Office 365 に転送する電話番号を取得します。  <br/> |新規の電話番号を取得するには、「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」にお問い合わせください。 同社が組織にこれらの番号を追加します。  <br/> |
 |オーディオ会議で使用するために Office 365 に転送する電話番号を取得します。  |[お問い合わせください](mailto:ptnapac@microsoft.com) |
 |コール プラン電話番号を持っているユーザーに割り当てられた緊急アドレス指定を変更する。 |緊急アドレスを変更するには 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」にお問い合わせください。 同社がこの情報を更新します。|
-|サービス番号には、ユーザー数を変更します。 |オーストラリアでは、この種類のサービスはサポートされていません。
+|サービス番号には、ユーザー数を変更します。 |Telstra は、Office 365 の呼び出しを使用する場合をサポートします。
 
 ## <a name="related-topics"></a>関連トピック
 

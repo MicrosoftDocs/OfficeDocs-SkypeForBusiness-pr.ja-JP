@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
-ms.translationtype: HT
+ms.openlocfilehash: 514348d0f861ae2bda4d146de4851f788b703444
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043358"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993865"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 =============================================
@@ -86,6 +86,9 @@ Microsoft Teams チャット機能は、Microsoft Exchange のバックエンド
 &dagger; メッセージがこの制限を超えると、プレビュー メッセージが生成され、ユーザーは提供されたリンクから元のメールを表示/ダウンロードするように求められます。
 
 &Dagger; 添付ファイルまたはイメージの数がこの制限を超えると、メッセージは処理されず、NDR メールが送信者に送信され、エラーを通知します。
+
+> [!NOTE]
+> メッセージ サイズ、添付ファイル、およびインライン イメージの制限すべての Office 365 のライセンスで同じですが。
 
 詳細については、[「 Exchange Online の制限 」](https://technet.microsoft.com/library/exchange-online-limits.aspx)をご覧ください。
 

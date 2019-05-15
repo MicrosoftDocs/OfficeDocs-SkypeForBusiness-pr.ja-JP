@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 24a85ab6fced284fc264db5bcc394769e4a0bfca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7213b3b8a8155e8b23b8f710d241af4425a8dbe4
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198595"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970301"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 における電話会議
 Office 365 での音声会議では、電話から会議の呼び出しすることができます。 オーディオ会議では、最大で 250 の電話の参加者を使用できます。
@@ -41,7 +41,7 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
 - 人がミーティングに参加できる「ハンド フリー」Bluetooth デバイスを使用します。
 - 人の検索が容易になりますし、状況にあった方が便利です。
 
-電話会議のセットアップは、ミーティングのスケジュールを設定するユーザーまたはミーティングを主催するユーザーにのみ必要です。 ダイヤルインする会議参加者には、割り当てられたライセンスやその他のセットアップは必要ありません。
+You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
 
 出席者が会議に参加した後しことができますダイヤル、Skype ビジネスまたはマイクロソフトのチームの会議のために他の呼び出し元を招待します。 [他のユーザーが参加できるように、チーム会議からの発信](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)または[他のユーザーが参加できるように、ビジネス会議のため、Skype からの発信](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)を参照してください。
 
@@ -56,7 +56,7 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
 オーディオ会議、組織の目的を決定したら、組織内のユーザーが、オーディオ会議のスケジュールおよびホストする場合、各ユーザーの**電話会議**の 1 つのライセンスを購入する必要があります。
 
 ## <a name="how-do-conferencing-bridges-work"></a>会議用ブリッジの動作ですか。
-ビジネスまたはマイクロソフトのチームの Skype の電話会議を設定は、ときに、オーディオ会議ブリッジが表示されます。 会議用ブリッジは、1 つまたは複数の電話番号を含めることができます。 設定した電話番号はビジネスおよびマイクロソフトのチームのアプリケーションの Skype の会議の招待に含まれます。 [会議用ブリッジは、上の電話番号を変更](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)することができ、[他のオーディオ会議ブリッジの設定を変更](change-the-settings-for-an-audio-conferencing-bridge.md)することもします。 
+ビジネスまたはマイクロソフトのチームの Skype の電話会議を設定は、ときに、オーディオ会議ブリッジが表示されます。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 設定した電話番号はビジネスおよびマイクロソフトのチームのアプリケーションの Skype の会議の招待に含まれます。 [会議用ブリッジは、上の電話番号を変更](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)することができ、[他のオーディオ会議ブリッジの設定を変更](change-the-settings-for-an-audio-conferencing-bridge.md)することもします。 
   
 オーディオ会議ブリッジ、電話を使用して会議にダイヤルインしている人のための呼び出しに応答します。 、自動応答から、設定によっては、音声メッセージを呼び出し元に応答、通知を再生し、名前を記録するための呼び出し元を依頼することがします。 **マイクロソフトのブリッジ設定**を使用すると、会議の通知の設定を変更して会議の参加、ミーティングの開催者によって使用されているピンの長さを設定[マイクロソフトのチームで](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)または[Skype](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings)にします。 ミーティングの開催者は、ビジネスまたはマイクロソフトのチームのアプリケーションに、Skype を使用してミーティングに参加することはできない場合は、会議を開始するためのピンを使用します。
 
@@ -75,7 +75,7 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
 電話会議の電話番号に自動的に割り当てられるように音声会議では有効にしている場合を共有します。 電話番号が割り当てられる場合、電話番号は会議ブリッジの既定の電話番号として割り当てられます。 ブリッジの既定の番号として割り当てられた電話番号は、組織の国/地域のものです。
   
 > [!NOTE]
-> **組織プロファイル**の下にある**Office 365 管理センター**にサインインし、組織の国または地域の場所をご覧ください。 
+> **Microsoft 365 管理センター**にサインインし、**組織プロファイル**の検索で、組織の国または地域の場所をご覧ください。 
   
 > [!CAUTION]
 > 組織がこれらの国/地域は、ベネズエラ、インドネシア、アラブ首長国連邦 (アラブ首長国連邦) の有料電話番号の可用性に制限のため、オーディオ会議の有料電話番号が自動的に割り当てられているを必要はありません。 これらの場所からの無料電話番号は、利用可能なインベントリに応じて利用可能になります。 
