@@ -260,7 +260,6 @@
 ### [コミュニケーション クレジットについて](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Skype for Business Online をセットアップする](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [Skype for Business Online の管理者トレーニング](../set-up-skype-for-business-online/skypeacademy-training.md)
 ### [ユーザーが外部の Skype for Business ユーザーに連絡できるようにする](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [Skype for Business Online でプレゼンスを構成する](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [プレゼンス プライバシー モードを設定する](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)
