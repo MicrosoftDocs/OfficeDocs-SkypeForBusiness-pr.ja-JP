@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b4c18bdd39e7978258c90bd4c757eb3e2e86a3b3
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402106"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082666"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -41,7 +41,7 @@ Microsoft Teams には、Web、デスクトップ (Windows、Mac)、およびモ
 > [!Tip]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Microsoft Teams デスクトップ クライアントはスタンドアロン アプリケーションであり、現在は Office 365 Pro Plus の一部ではありません。 Microsoft Teams は、Windows (7 以上) の32 ビット、 64 ビット バージョン、および macOS (10.10 以上) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 
+マイクロソフト チームのデスクトップ クライアントは、スタンドアロン アプリケーションでは、 [Office 365 用リソースの利用可能な](https://docs.microsoft.com/en-us/deployoffice/teams-install)も。 Microsoft Teams は、Windows (7 以上) の32 ビット、 64 ビット バージョン、および macOS (10.10 以上) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 

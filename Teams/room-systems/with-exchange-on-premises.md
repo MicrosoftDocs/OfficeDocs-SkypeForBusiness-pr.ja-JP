@@ -1,5 +1,5 @@
 ---
-title: 社内の Exchange と Microsoft チームの会議室を配置します。
+title: オンプレミスで Exchange を使用し Microsoft Teams ミーティング を展開
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,14 +12,14 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: 社内の Exchange とのハイブリッド環境でマイクロソフト チームの会議室を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 1c1dd5ad49cedb2aee41b036f71bbc6b840aed96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7ab9a582e26db15159677343d9edddd6bd9c45f9
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916212"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082723"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>社内の Exchange と Microsoft チームの会議室を配置します。
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>オンプレミスで Exchange を使用し Microsoft Teams ミーティング を展開
 
 マイクロソフト チームの会議室を設置型およびマイクロソフトのチームでの Exchange または Skype のハイブリッド環境でオンライン ビジネスの展開方法の詳細については、このトピックを参照してください。
   
@@ -62,7 +62,7 @@ ms.locfileid: "33916212"
     > [!NOTE]
     > Skype マイクロソフト チームの部屋にサーバーをビジネスのための要件は、**パスワードを無期限にする**を選択します。 ドメイン ルールによって無期限のパスワードが禁止される場合があります。 場合は、マイクロソフトのチーム会議室デバイスのアカウントごとに例外を作成する必要があります。
   
-4. アカウントを作成したら、ディレクトリの同期を実行します。 それが完了すると、Office 365 の管理センターで [ユーザー] ページに移動しを前の手順で作成したアカウントは、マージ オンラインことを確認します。
+4. アカウントを作成したら、ディレクトリの同期を実行します。 完了とは、Microsoft 365 管理センターの [ユーザー] ページに移動しを前の手順で作成したアカウントは、マージ オンラインことを確認します。
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>リモート メールボックスを有効にしてプロパティを設定する
 

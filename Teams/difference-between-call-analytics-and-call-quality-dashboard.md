@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 分析機能を呼び出すと品質のダッシュ ボードを呼び出すを監視し、通話品質の問題のトラブルシューティングに使用する場合について説明します。
-ms.openlocfilehash: 410b8a55fb2e0860f9b888ffc7ec26513a2d91fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6165a4473e8770e20a595e368402ff1cf5bfe6e0
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902676"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082739"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通話分析および通話品質ダッシュボード
 
@@ -82,6 +82,7 @@ ms.locfileid: "33902676"
 非管理者、ヘルプデスクの担当者などをする場合は品質ダッシュ ボードの呼び出しを使用するのには割り当てることができますそれらのユーザー**通信のサポート ・ エンジニアのチーム**、**チーム ・ コミュニケーション ・ サポート ・ スペシャ リスト**、または**レポートの閲覧者**の役割。 次のロールを持つユーザーは、品質のダッシュ ボードの呼び出しでアクセスできます。
 
 - グローバル管理者
+- グローバル リーダー
 - Skype のビジネス管理者
 - Teams サービス管理者
 - Teams 通信管理者

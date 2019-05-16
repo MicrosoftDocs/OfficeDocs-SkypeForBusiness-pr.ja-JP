@@ -3,7 +3,7 @@ title: 会議ポリシーを管理する
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/22/2019
+ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: cef3c30c8c435f0bb8433df3d8b511dc4c3c5ea5
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 99458e71ae02eb6307b3f363dbf7e060e1b4ed5b
+ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970393"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34036630"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
