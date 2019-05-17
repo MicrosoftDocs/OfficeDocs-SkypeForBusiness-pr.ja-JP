@@ -1,12 +1,12 @@
 ---
 title: Microsoft Teams で使用する Exchange ハイブリッド展開の組織を構成する
-author: LolaJacobsen
-ms.author: lolaj
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.reviewer: crowe
+ms.reviewer: dstrome
 description: Microsoft Teams で使用する Exchange ハイブリッド展開の組織を構成する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4dfc6b476498fef4484718a90f9c242a565cd64
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b3b41f0ae30fb0c21baab1f7e01b86e79300008e
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180281"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108637"
 ---
-<a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a><span data-ttu-id="c8d95-103">Microsoft Teams で使用する Exchange ハイブリッド展開の組織を構成する</span><span class="sxs-lookup"><span data-stu-id="c8d95-103">Configure an Exchange hybrid organization for use with Microsoft Teams</span></span>
+<a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a><span data-ttu-id="466d3-103">Microsoft Teams で使用する Exchange ハイブリッド展開の組織を構成する</span><span class="sxs-lookup"><span data-stu-id="466d3-103">Configure an Exchange hybrid organization for use with Microsoft Teams</span></span>
 ======================================================================
 
-<span data-ttu-id="c8d95-p101">一般に、マイクロソフトのチームで使用するための Exchange Online の機能を構成する必要はありません。ただし、Exchange ハイブリッド シナリオでは、手順があるグループのメンバーシップは、Exchange Server (設置型) および Exchange Online の間で同期することを確認するために必要です。Azure AD 接続すると、さまざまな初期化スクリプトでは、グループの書き戻し機能の有効化は、この: [Office 365 グループの構成で、オンプレミス Exchange ハイブリッド](https://go.microsoft.com/fwlink/?linkid=854389)。</span><span class="sxs-lookup"><span data-stu-id="c8d95-p101">Generally, you should not have to configure any Exchange Online functionality for use with Microsoft Teams. However, for Exchange Hybrid scenarios, there are steps necessary to ensure Group memberships are synchronized between Exchange Server (on-premises) and Exchange Online. This involves enablement of Group Writeback functionality in Azure AD Connect along with various initialization scripts: [Configure Office 365 Groups with on-premises Exchange hybrid](https://go.microsoft.com/fwlink/?linkid=854389).</span></span>
+<span data-ttu-id="466d3-104">一般に、マイクロソフトのチームで使用するための Exchange Online の機能を構成する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="466d3-104">Generally, you should not have to configure any Exchange Online functionality for use with Microsoft Teams.</span></span> <span data-ttu-id="466d3-105">ただし、Exchange ハイブリッド シナリオでは、手順があるグループのメンバーシップは、Exchange Server (設置型) および Exchange Online の間で同期することを確認するために必要です。</span><span class="sxs-lookup"><span data-stu-id="466d3-105">However, for Exchange Hybrid scenarios, there are steps necessary to ensure Group memberships are synchronized between Exchange Server (on-premises) and Exchange Online.</span></span> <span data-ttu-id="466d3-106">Azure AD 接続すると、さまざまな初期化スクリプトでは、グループの書き戻し機能の有効化は、この: [Office 365 グループの構成で、オンプレミス Exchange ハイブリッド](https://go.microsoft.com/fwlink/?linkid=854389)。</span><span class="sxs-lookup"><span data-stu-id="466d3-106">This involves enablement of Group Writeback functionality in Azure AD Connect along with various initialization scripts: [Configure Office 365 Groups with on-premises Exchange hybrid](https://go.microsoft.com/fwlink/?linkid=854389).</span></span>
