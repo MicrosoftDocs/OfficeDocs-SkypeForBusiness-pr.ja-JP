@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: ビジネス サーバーには、AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス、データベース ミラーリング、SQL のフェールオーバー クラスタ リングなど、Skype でサポートされているバック エンド サーバーの高可用性オプションについて説明します。
-ms.openlocfilehash: d40ceb237ff52434074de29363704fdb1de5b78c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c200596ac43099d92b7fd37e850a524cf92a24ce
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916559"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106300"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Skype の最後のサーバーの高可用性をビジネスのサーバーのバックアップします。
  
@@ -42,6 +42,8 @@ ms.locfileid: "33916559"
 
 ビジネス サーバーの Skype では、次のデータベース ソフトウェアでミラーリングがサポートされています。
   
+- SQL Server Enterprise Edition と Standard Edition の両方の 2017
+
 - SQL Server Enterprise Edition と Standard Edition の両方の 2016
 
 - SQL Server Enterprise Edition と Standard Edition の両方の 2014
@@ -100,9 +102,29 @@ SQL ミラーリングでは、データベース復旧モードは常に [**完
   
 ## <a name="alwayson-availability-groups-and-alwayson-failover-cluster-instances"></a>AlwaysOn 可用性グループと AlwaysOn フェールオーバー クラスター インスタンス
 
-AlwaysOn 可用性グループおよび AlwaysOn フェールオーバー クラスター インスタンスは 2014 エンタープライズ エディションの SQL Server と SQL Server 2012 の Enterprise Edition でのみサポートされます。 ビジネス サーバーの Skype では、アクティブ/パッシブ、アクティブ/アクティブのないとしてのみ AlwaysOn 可用性グループをサポートしています。 
+ビジネス サーバーの Skype では、アクティブ/パッシブ、アクティブ/アクティブのないとしてのみ AlwaysOn 可用性グループをサポートしています。 
   
 AlwaysOn 可用性グループまたは AlwaysOn フェールオーバー クラスター インスタンスを使用するには、最初に設定して高可用性ソリューションを構成する SQL Server を使用します。 フロント エンド プールに関連付けることをトポロジ ビルダーを使用できます。
+
+ビジネス サーバーの Skype では、次のデータベース ソフトウェアを AlwaysOn をサポートしています。
+
+- 2017 エンタープライズ エディションの SQL Server
+
+- 制限があります、SQL Server 2017 の Standard Edition は、以下の注を参照してください。
+
+- 2016 エンタープライズ エディションの SQL Server
+
+- 制限があります、SQL Server 2016 の Standard Edition は、以下の注を参照してください。
+
+- 2014 エンタープライズ エディションの SQL Server
+    
+- SQL Server 2012 の SP2 には、Enterprise Edition の CU2
+
+> [!NOTE]
+> 2017 の SQL Server と SQL Server の 2016 は、ビジネス サーバー 2019 の Skype によってサポートされている唯一のバージョンです。
+
+> [!NOTE]
+> 可用性グループに常には、SQL 2016、2017 標準エディションではサポートされて**いません**が、フェールオーバー クラスター インスタンスに常に使用することができます。 [エディションと 2016 年の SQL Server のサポートされている機能](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017)の詳細を参照してください。
   
 > [!IMPORTANT]
 > AlwaysOn 可用性グループの複数のインスタンスのインスタンス名は同じである必要があります。 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会議の移行サービス (MMS) は、バック グラウンドで実行され、ユーザーのビジネスおよびマイクロソフトのチームの会議に Skype が自動的に更新するサービスです。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 9a133cb2a91e50ad21b263009f8f2c64cd3d8ccb
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: da1b21b65794354a023632e785c463b494cc38f5
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835121"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106176"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>会議の移行サービス (MMS) を使用してください。
 
@@ -83,7 +83,7 @@ MMS がトリガーされた場合、通常かかるユーザーの会議は、�
 
 これは、MMS により、ユーザーのスムーズなトランジションを作成する最も一般的なシナリオです。 会議の移行せずユーザーがオンラインに移動すると Skype のビジネス サーバー設置型のユーザーが既存のミーティングは動作しなく。 したがって、設置型の管理ツールを使用する (か、`Move-CsUser`またはコントロール パネルの [管理者) ユーザーをクラウドに移動するに既存の会議は自動的に移動、クラウドに次のように。
 
-- 場合、`MoveToTeams`でスイッチを`Move-CsUser`が指定されている会議は、チームに直接移行し、TeamsOnly モードでユーザーになります。 このスイッチを使用するには、CU8 を持つサーバーをビジネスの Skype が必要です。 これらのユーザーがいる可能性がありますに招待、ビジネス クライアント用の Skype または Skype 会議アプリケーションを使用してビジネス会議のため、Skype 参加できます。
+- 場合、`MoveToTeams`でスイッチを`Move-CsUser`が指定されている会議は、チームに直接移行し、TeamsOnly モードでユーザーになります。 このスイッチを使用するには、ビジネスのサーバー 2015 CU8 以降の Skype が必要です。 これらのユーザーがいる可能性がありますに招待、ビジネス クライアント用の Skype または Skype 会議アプリケーションを使用してビジネス会議のため、Skype 参加できます。
 - それ以外の場合の会議は、ビジネス オンラインの Skype に移行されます。
 
 どちらの場合も、[ユーザー割り当てられている場合、オーディオ会議のライセンスをクラウドに移動する前に、会議は、ダイヤルインの座標を使用して作成されます。 オンプレミスからクラウドに移行するユーザーを移動すると、そのユーザーの音声会議を使用する、1 つだけの会議の移行をトリガーするためにユーザーを移動する前にまず、オーディオ会議を割り当てることをお勧めします。

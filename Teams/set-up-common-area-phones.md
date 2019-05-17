@@ -21,14 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ロビー、受付、および会議室の共通領域電話を設定する方法を学習します。 '
-ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 66f84cb1ce768cc86a7c31a6ac345f0fcc135726
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632378"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108748"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
+> [!NOTE]
+> 共通領域電話には、ボイスメールをサポートしていません。
 
 共通領域電話は通常、ロビーのような領域、またはをかけるには多くの人々 に利用できる別の領域に配置しています。たとえば、受信エリア、ロビー、または会議電話します。 共通領域電話は、ユーザーではなくデバイスとして設定して、ネットワークに自動的に署名できます。
 

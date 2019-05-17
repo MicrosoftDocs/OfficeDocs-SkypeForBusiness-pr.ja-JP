@@ -15,14 +15,14 @@ search.appverid: MET150
 description: 計画のランディング ページを呼び出す
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d85546df76b7699986d28152ff08003612df8331
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211984"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108756"
 ---
-# <a name="phone-system-with-calling-plans"></a>通話プランと電話システム 
+# <a name="which-calling-plan-is-right-for-you"></a>呼び出すことを計画するが適切でしょうか。 
 
 [開始](get-started-with-teams-quick-start.md)するが完了しました。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 かもしれません[& 会議の会議](deploy-meetings-microsoft-teams-landing-page.md)を導入しました。 クラウド音声のワークロードを追加する準備が整いましたし、を公衆交換電話網 (PSTN) を接続する計画を呼び出すことでマイクロソフトの電話システムを使用すると判断しました。 
 
