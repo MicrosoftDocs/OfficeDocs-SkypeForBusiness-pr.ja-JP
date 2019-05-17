@@ -13,205 +13,206 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: このドキュメントでは、割り当てられている TeamsUpgrade モードに基づくチャット、通話のルーティング、およびチームのユーザーとテナントのと、フェデレーションの両方のビジネス、Skype のプレゼンスの動作を説明します。 ルーティングの最適化、プレゼンスの動作だけでなく、*散在*する*従来*からの既定の TeamsUpgrade モードの変更と*従来*の差し迫った退職が含まれています。
+description: このドキュメントでは、割り当てられている TeamsUpgrade モードに基づいて、テナント内とフェデレーションの両方で、Teams と Skype for Business のユーザー間のチャット、通話ルーティング、プレゼンスの動作について説明します。 これには、ルーティングの最適化、プレゼンスの動作、さらに*レガシ*から*アイランド*への既定の TeamsUpgrade モードの変更、および間もなくサポートが終了する*レガシ*が含まれます。
 ms.openlocfilehash: 3c88bd93805e6c2a33eb2f5c03ee04d4e7d55535
 ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/11/2019
 ms.locfileid: "33929106"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
-共存と Skype ビジネスとチームのクライアントとユーザー間の相互運用性は、TeamsUpgrade モードでは、[移行とビジネス用の Skype とチームを使用する組織の相互運用性ガイド](migration-interop-guidance-for-teams-with-skype.md)で説明されているによって定義されます。
+Skype for Business と Teams の各クライアントとユーザー間における共存と相互運用性は、「[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md)」で説明されている TeamsUpgrade モードで定義されています。
 
-指定されたユーザー常に割り当てられます、TeamsUpgrade モードでは、既定で、または管理者によって明示的にいずれか。 既定値は、*島*です。 ユーザーがチームへのアップグレードには、 *TeamsOnly*のモードがあります。 *SfBOnly*、 *SfBWithTeamsCollab*、および*SfBWithTeamsCollabAndMeetings*も可能なモードです。
+指定されたユーザーには、既定でまたは管理者によって明示的に、TeamsUpgrade モードが常に割り当てられます。 既定値は*アイランド*です。 Teams にアップグレードされたユーザーのモードは *TeamsOnly* です。 また、*SfBOnly*、*SfBWithTeamsCollab*、*SfBWithTeamsCollabAndMeetings* の各モードである場合もあります。
 
 
 ## <a name="routing-parameters"></a>ルーティング パラメーター
 
-受信者の TeamsUpgrade モードは、チャット、呼び出し、およびプレゼンス、テナント内および連合のテナント間での動作を決定するキーです。
+受信者の TeamsUpgrade モードは、テナント内およびフェデレーション テナント全体でのチャット、通話、プレゼンスの動作を決定する上で重要なキーとなります。
 
-送信者は、チームで使用されている場合、ルーティングが決定、新しいスレッドを作成するときです。 チームで既存のテーマ スレッドのスレッドが作成されたときを決定するルーティング方法を必ず常時保持する: チームは、永続的なスレッドをサポートしています。
+送信者が Teams を使用している場合は、新しい会話スレッドの作成時にルーティングが決定されます。 Teams の既存の会話スレッドには、スレッドの作成時に決定されたルーティング方式が常に適用されます。Teams は永続スレッドをサポートしています。
 
- スレッドのルーティング方法は次のとおりです。  
+ スレッドのルーティング方法は以下のとおりです。  
 
-- *ネイティブ*チームがチームの会話のテナントに
-- ビジネス会話のテナントの Skype へのチームの*相互運用機能*
-- テナント間でのフェデレーション会話の*連合*を
+- テナント内での Teams から Teams への会話の場合は、*ネイティブ*
+- テナント内での Team から Skype for business への会話の場合は、*相互運用*
+- テナント間でのフェデレーション会話の場合は、*フェデレーション*
 
-スレッドのルーティング方法を決定するパラメーターは次のとおりです。
+スレッドのルーティング方法を決定するパラメーターは、以下のとおりです。
 
 - 受信者の TeamsUpgrade モード
-- 送信者によって使用されるクライアント
-- 会話は、新規、または既存のスレッドの一部であるかどうか
-- かどうか、会話は、テナントの連合
+- 送信者が使用するクライアント
+- 会話が、新しい会話または既存のスレッドの一部のどちらであるか
+- 会話が、テナント内またはフェデレーションのどちらであるか
 - 会話が可能かどうか
-    - *テナント内*の相互運用性では、テナントは、いずれかの必要があります純粋なオンラインまたは Skype のビジネスのハイブリッドです。 純粋なオンプレミスのテナントは、テナント内の相互運用性を持つことはできません。
-    - 常に、*テナント型の間のフェデレーション*では、両方のテナントから適切なチームのフェデレーションの構成だけでなく、ビジネスのフェデレーションの構成の適切な Skype が必要です。 ビジネスのハイブリッドの Skype は、テナントの必要ではありません。
-    - 発信者のビジネス アカウントの Skype がホームの設置型の場合は、そのユーザーは、テナント内の相互運用性またはフェデレーションのチームのクライアントを使用できません。 のみ、そのユーザーは、ビジネス クライアントの相互運用性とフェデレーションの Skype を使用できます。
-    - チームがチームのコミュニケーションは、常にテナントでのことです。
+    - *テナント内*相互運用性では、テナントが純粋なオンラインか Skype for Business ハイブリッドのいずれかであることが必要です。 純粋なオンプレミス テナントには、テナント内相互運用性を持たせることはできません。
+    - *テナント間フェデレーション*には、両方のテナントからの適切な Skype for Business のフェデレーション構成と、適切な Teams のフェデレーション構成が常に必要です。 Skype for Business ハイブリッドには、いずれのテナントも必要はありません。
+    - 発信者の Skype for Business アカウントがオンプレミスに所属している場合、そのユーザーはテナント内相互運用性にもフェデレーションにも Teams クライアントを使用できません。 そのユーザーが相互運用性とフェデレーションのために使用できるのは、Skype for Business クライアントのみです。
+    - Teams 間の通信は、常にテナント内で可能です。
 
 > [!NOTE]
-> 現時点では、チームに関連するすべてのフェデレーションでは、ビジネス連合のパイプラインの Skype だけでなくチーム – ビジネスの相互運用のための Skype を活用します。 ネイティブ チーム-チーム連合計画しております。 現在のドキュメントは、ネイティブのフェデレーションのすべてのリリース時に更新されます。
+> 現時点では、Teams に関連するすべてのフェデレーションでは、Skype for Business フェデレーション パイプラインだけでなく、Teams と Skype for Business 間の相互運用性を活用しています。 また、現在、ネイティブの Teams 間フェデレーションを計画中です。 本ドキュメントは、ネイティブのフェデレーションのリリース時に更新されます。
 
 # <a name="chat-and-call-routing"></a>チャットと通話のルーティング
 
-## <a name="in-tenant-routing-for-new-chats-or-calls"></a>テナントに新しいチャットまたは通話のルーティング 
+## <a name="in-tenant-routing-for-new-chats-or-calls"></a>新しいチャットまたは通話のテナント内ルーティング 
 
-次の表では、テナントのチャットと通話のルーティングをキャプチャして、新しい呼び出しまたは既存のスレッドから開始されていないチャットに有効なします。 呼び、左側、右側のテナントに受信者のユーザーのユーザーによって作成された場合は新しい電話またはチャットでは、どのクライアントが表示されます。
+以下の表は、テナント内のチャットと通話のルーティングをキャプチャしたものであり、既存のスレッドから開始されていない新しい通話やチャットに対して利用できます。 表には、左側に記載されているユーザーが右側に記載されているテナント内受信者ユーザーに発信した場合に、新しい通話またはチャットを受信するクライアントが示されています。
 
-TeamsOnly のユーザーに送信されたメッセージは、チームを常にルーティングします。 デバイスに送信されるメッセージ\*ユーザーは常にルーティング、ビジネスの Skype 会話が可能なは、上記で説明した場合。 島のユーザーに送信されたメッセージは、常に同じ送信元クライアントにルーティングします。
+TeamsOnly ユーザーに送信されたメッセージは、常に Teams にルーティングされます。 SfB\* ユーザーに送信されたメッセージは、上述のように会話が可能な場合は、常に Skype for Business にルーティングされます。 アイランド ユーザーに送信されたメッセージは、常にメッセージの送信元の同じクライアントにルーティングされます。
 
-次に示す特定のモードでは、どのクライアントはオリジネータのモードを選択すると、クライアントによって送信元 (3 つの左端列) からの呼び出しを受信し、ビジネスのクライアントは、Skype のホーム テーブル (prem 上またはオンライン)。
+以下の表は、発信者のモード、選択したクライアント、また Skype for Business クライアントの所属場所 (オンプレミスまたはオンライン) に応じて、指定されたモードのどのクライアントが発信者 (左端の 3 列) から通話を受けるかを示しています。
 
-で次の表。 
-- **デバイス\*** 次のモードのいずれかを表します: *SfBOnly*、 *SfBWithTeamsCollab*、 *SfBWithTeamsCollabAndMeetings*。
+以下の表では、次のように表されます。 
+- **SfB\*** は、次のモードのいずれかを表します。*SfBOnly*、*SfBWithTeamsCollab*、*SfBWithTeamsCollabAndMeetings*。
 
-- *斜体のテキスト*は、相互運用機能の会話を強調表示します。
+- *斜体のテキスト*は、相互運用の会話を強調表示しています。
 
-- **不可能**で、チャットや通話はない可能性のある状況を表します。 発信者する必要があります代わりに Skype ビジネスのような場合です。 Prem とハイブリッドのお客様に、マイクロソフトの規範的なガイダンスが諸島 (通常 SfBWithTeamsCollab) 以外のモードを使用するようになる理由の 1 つは、このチームへアップグレードの旅の出発点として。
+- **不可**は、チャットまたは通話が不可能である状況を表します。 このような場合は、発信者は代わりに Skype for Business を使用する必要があります。 これは、オンプレミス/ハイブリッドの顧客に Microsoft が提供する規範的なガイダンスにおいて、Teams へのアップグレード行程の出発点として、アイランド以外のモード (通常は SfBWithTeamsCollab) を使用している理由の 1 つです。
 
-**表 1 a: テナント型の新しいチャットまたは島モードの受信者にルーティングを呼び出す**
+**表 1a: アイランド モードの受信者への新しいテナント内チャットまたはテナント内通話のルーティング**
 
-| <br/><br/> Mode | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | | 受信者 <br/><br/> アイランド  |
+| <br/><br/> モード | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 | | 受信者 <br/><br/> アイランド  |
 |--- |--- |--- |--- |--- |
-| アイランド | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| オンライン<br/> オンライン<br/> Prem<br/>Prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
-|デバイス\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> Prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
+| アイランド | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| オンライン<br/> オンライン<br/> オンプレミス<br/>オンプレミス| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
+|SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> オンプレミス<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Teams| オンライン<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
-**表 1 b: テナント型の新しいチャット、または、デバイス内の受信者へのルーティングを呼び出す\*モード**
+**表 1b: SfB\* モードの受信者への新しいテナント内チャットまたはテナント内通話のルーティング**
 
-| <br/><br/> Mode   | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | |   受信者 <br/><br/> デバイス\*   |
+| <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 | |   受信者 <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| アイランド |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **無理です** <br/>Skype for Business<br/> |
-|デバイス\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> Prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
+| アイランド |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **不可** <br/>Skype for Business<br/> |
+|SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> オンプレミス<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
 |TeamsOnly |Teams| オンライン<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
 | | | | | |
 
-**表 1 c: テナント型の新しいチャットまたは TeamsOnly モードの受信者へのルーティングを呼び出す**
+**表 1c: TeamsOnly モードの受信者への新しいテナント内チャットまたはテナント内通話のルーティング**
 
-| <br/><br/> Mode   | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | |   受信者 <br/><br/> TeamsOnly  |
+| <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 | |   受信者 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| アイランド   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
-|デバイス\*  | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> Prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
+| アイランド   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+|SfB\*  | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> オンプレミス<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | オンライン |  &boxv; |Teams   |
 |  |  |  | | |
 
-## <a name="federated-routing-for-new-chats-or-calls"></a>新しいチャットまたは通話のルーティングを連合
+## <a name="federated-routing-for-new-chats-or-calls"></a>新しいチャットまたは通話のフェデレーション ルーティング
   
-次の表では、チャット、および連合の呼び出しのルーティングをキャプチャして、新しい通話またはチャットを有効します。 フェデレーション対象ユーザーの右に、左上のユーザーによって作成された場合は新しい電話またはチャットでは、どのクライアントが表示されますについて説明すること。
+以下の表は、フェデレーションの通話とチャットのルーティングをキャプチャしたものであり、新しい通話やチャットに対して利用できます。 表には、左側に記載されているユーザーが右側に記載されているフェデレーション対象ユーザーに発信した場合に、新しい通話またはチャットを受信するクライアントが示されています。
 
-要約すると、会話できる場合は、上記で説明した TeamsOnly のユーザーに送信されるメッセージが常に着陸チームです。デバイスに送信されるメッセージ\*ユーザーが業務用 Skype で着陸が常に島のユーザーに送信されたメッセージは、送信元のクライアントに関係なくビジネス用の Skype で常に着陸します。 チャットをフェデレーション用のルーティングと、テナント内にその島は常に受信フェデレーション通信ビジネスの Skype でのルーティングとは異なる呼び出しします。
+要約すると、上述のように会話が可能である場合、TeamsOnly ユーザーに送信されたメッセージは常に Teams に送信され、SfB\* ユーザーに送信されたメッセージは常に Skype for Business に送信され、アイランド ユーザーに送信されたメッセージは、メッセージの送信元のクライアントに関係なく、常に Skype for Business に送信されます。 フェデレーションのチャットと通話のルーティングは、アイランド ユーザーが Skype for Business で常にフェデレーション通信を受信するという点で、テナント内ルーティングとは異なります。
 
-ビジネス パートナーのフェデレーション Skype 既にを使用してチーム島モードにある場合と仮定できないためにです。 諸島がデフォルト モードでは、島のすべてのユーザーのチームを実行すると仮定できません。 ビジネス用の Skype へのルーティング島のユーザーとの通信が失敗しないことを確認します。 私たちは、チームにルーティングされている場合の通信が失われる場合、ターゲットでは、チームを使用していない場合。 ビジネス用の Skype へのルーティング、メッセージは常に受信するようにします。  
+これは、Skype for Business のフェデレーション パートナーがアイランド モードである場合、パートナーが既に Teams を使用しているとは想定できないためです。 アイランドは既定のモードですが、すべてのユーザーが Teams を実行しているとは限りません。 Skype for Business にルーティングすることで、アイランド ユーザーへの通信が失敗しないようにしています。 Teams にルーティングした場合、ターゲットが Teams を使用していなければ、その通信は失われる可能性があります。 Skype for Business にルーティングすれば、メッセージは常に受信されるようになります。  
 
 > [!NOTE]
-> チーム連合の現在の実装は、Skype のビジネス連合に基づいて、相互運用性のインフラストラクチャを活用し、そのため (次のいずれか、発信者のテナントがありますが、純粋なオンラインまたはビジネスのハイブリッドの Skype) が用意されていて、ネイティブ スレッドと比較した機能のセットです。 チーム連合、将来、どの時点でスレッドがネイティブされ、フル機能を提供するネイティブのチームを提供しようと思っています。
+> 現在の Teams フェデレーションの実装は Skype for Business フェデレーションに基づいています。そのため、相互運用性インフラストラクチャ (発信者のテナントが純粋なオンラインまたは Skype for Business ハイブリッドのいずれかであることが必須) を活用しているので、ネイティブ スレッドと比較して機能セットが少なくて済みます。 将来的には、ネイティブの Teams 間フェデレーションが提供される予定です。その時点で、スレッドはネイティブになり、完全な機能が使用できるようになります。
 
-どのクライアントでは、(3 つの左端列) によっては、発信者のモードでは、クライアントを選択、発生元からの呼び出しが、次の表の説明、ビジネス クライアント用の Skype が所属している場所 (prem 上またはオンライン)。
+以下の表は、発信者のモード、選択したクライアント、また Skype for Business クライアントの所属場所 (オンプレミスまたはオンライン) に応じて、どのクライアントが発信者 (左端の 3 列) から通話を受けるかを示しています。
 
-**表 2 a: 新しいチャットや通話の島の受信者にルーティングの連合**
+**表 2a: アイランド受信者への新しいフェデレーション チャットまたはフェデレーション通話のルーティング**
 
-| <br/><br/>Mode   | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| | 受信者<br/><br/> アイランド |
+| <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属| | 受信者<br/><br/> アイランド |
 |--- |--- |--- |--- |--- |
-| アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **無理です**   <br/> Skype for Business |
-| デバイス\* |Skype for Business <br/>Skype for Business |オンライン<br/> Prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
+| アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可**   <br/> Skype for Business |
+| SfB\* |Skype for Business <br/>Skype for Business |オンライン<br/> オンプレミス<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
 | TeamsOnly |Teams |オンライン| &boxv;|*Skype for Business* |
 |  | | | | 
 
-**表 2 b: 新しいチャットや通話は、デバイス内の受信者にルーティングの連合\*モード**
+**表 2b: SfB\* モードの受信者への新しいフェデレーション チャットまたはフェデレーション通話のルーティング**
 
-| <br/><br/>Mode   | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| |  受信者<br/><br/> デバイス\* |  
+| <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属| |  受信者<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **無理です** <br/>Skype for Business <br/> |  
-| デバイス\* |Skype for Business <br/>Skype for Business  |オンライン<br/> Prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
+| アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可** <br/>Skype for Business <br/> |  
+| SfB\* |Skype for Business <br/>Skype for Business  |オンライン<br/> オンプレミス<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
 | TeamsOnly | Teams|オンライン |&boxv; |*Skype for Business*  |
 |  | | | | |
 
-**表 2 c: 新しいチャットや通話の TeamsOnly モードの受信者にルーティングの連合**
+**表 2c: TeamsOnly モードの受信者への新しいフェデレーション チャットまたはフェデレーション通話のルーティング**
 
-| <br/><br/>Mode | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| |  受信者<br/>  <br/> TeamsOnly  |
+| <br/><br/>モード | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属| |  受信者<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| アイランド  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**無理です** <br/>*Teams* |
-| デバイス\* |Skype for Business <br/>Skype for Business  | オンライン<br/> Prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
+| アイランド  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**不可** <br/>*Teams* |
+| SfB\* |Skype for Business <br/>Skype for Business  | オンライン<br/> オンプレミス| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Teams |オンライン |&boxv; |Teams |
 |  | | | | |
 
-## <a name="chats-and-calls-from-pre-existing-threads"></a>チャットし、既存のスレッドからの呼び出し
+## <a name="chats-and-calls-from-pre-existing-threads"></a>既存のスレッドからのチャットと通話
 
-### <a name="from-teams"></a>チームから
+### <a name="from-teams"></a>Teams から
 
-既存のチームでの永続的なスレッドは、スレッドと同じようにルーティングされるルーティング オプションはまだ利用可能な場合は、通話やチャットが開始しました。
+該当するルーティング オプションが引き続き利用できる場合は、Teams の既存の永続スレッドから開始された通話またはチャットは、そのスレッドと同じ方法でルーティングされます。
 
-チーム内の既存の永続的なスレッドのネイティブ スレッド (つまり、チームに転送する) 場合は、他のチャット メッセージとそのスレッドからの呼び出しがチームに送られます。 いた場合は、相互運用機能のスレッド (つまり、Skype のビジネスにルーティングする)、その他のチャット メッセージと呼び出しが Skype (ルーティング オプションがあると仮定してもう一度) ビジネスのために移動します。
+Teams の既存の永続スレッドがネイティブ スレッド (つまり、Teams にルーティングされたスレッド) であった場合、そのスレッドからの追加のチャット メッセージと通話は Teams に送信されます。 相互運用スレッド (つまり、Skype for Business にルーティングされたスレッド) であった場合は、追加のチャット メッセージと通話は Skype for Business に送信されます (この場合も、ルーティング オプションが利用可能であることを想定)。
 
 > [!NOTE]
-> 不要になったスレッドがチームを今すぐにアップグレードするユーザーに相互運用機能のスレッドをした場合など、ルーティング可能なチーム内の既存のスレッドのことができます。 相互運用機能のスレッドとして作成された、ため、スレッドにルーティングは、ビジネスの Skype ですが、不要になった使用できる Skype ビジネスのチャットと通話の。 場合、スレッドは無効になり、さらに通信ができません。
+> スレッドが Teams にアップグレードされるようになったユーザーへの相互運用スレッドだった場合など、Teams の既存のスレッドがルーティングできなくなる可能性があります。 相互運用スレッドとして作成されたため、スレッドは Skype for Business にルーティングされますが、そのユーザーはチャットや通話に Skype for Business を使用できなくなります。 その場合、スレッドは無効になり、それ以降の通信は許可されなくなります。
 
-### <a name="from-skype-for-business"></a>ビジネス用の Skype から
+### <a name="from-skype-for-business"></a>Skype for Business から
 
-SIP セッションの 10 分のタイムアウトを超えたビジネスのスレッドの Skype は保持されません。 チャットおよび SIP セッションの有効期限前にビジネス用の Skype で既存のスレッドからの呼び出しは、スレッドと同じようにルーティングされます。 呼び出しと SIP セッションのタイムアウトを超えたビジネスの Skype で既存のスレッドからのチャットは、ビジネス、どのクライアントに関係なく元のスレッドから送信相手の側でのリモート側の Skype にルーティングされます。
+Skype for Business のスレッドは、10 分間の SIP セッション タイムアウトを超えると保持されません。 SIP セッションの有効期限が切れる前の Skype for Business の既存スレッドからのチャットと通話は、スレッドと同じ方法でルーティングされます。 SIP セッション タイムアウトを超えた Skype for Business の既存スレッドからの通話とチャットは、相手側から送信された元のスレッドのクライアントに関係なく、通話先の Skype for Business にルーティングされます。
 
-## <a name="availability"></a>可用性
+## <a name="availability"></a>使用するための条件
 
-両方のテナントで、フェデレーションの動作上で説明した利用可能な以下の制限事項のとおりです。
+前述のように、テナント内動作とフェデレーション動作の両方が利用できますが、使用には次の制限があります。
 
-- 外部の出席者をさまざまな GoLocal 配置や地理的な場所でのテナントが存在するには IM はありませんを参照してください「統合された」会議中にチャット
-- フェデレーションおよびマルチ テナント O365 と Sovereign 雲との間の相互運用機能がサポートされていません
+- テナントが別の GoLocal 展開または場所に存在する外部の出席者には、"フェデレーション" 会議中に IM チャットが表示されません
+- マルチテナント型の O365 とソブリン クラウド間のフェデレーションと相互運用はサポートされていません
 
 # <a name="presence"></a>プレゼンス
 
-チームのクライアントを使用している一部のユーザー、他のユーザーが引き続き使用して、Skype クライアントのビジネスの状況がある場合は、両方のクライアントを使用しているユーザーの数があります。 個々 のユーザーがどのようなクライアントとは無関係にすべてのユーザーと共有するプレゼンス状態がよろしい。 これが組織全体で共有される場合ユーザーがより適切に判断するかどうかは、チャットを開始または呼び出しを実行する適切です。
+Teams クライアントを使用しているユーザーと、まだ Skype for Business クライアントを使用しているユーザーが混在している場合、両方のクライアントを使用しているユーザーが多数いる可能性があります。 この場合でも、個々のユーザーがどのクライアントを使用しているかに関係なく、引き続きプレゼンス状態をすべてのユーザーと共有する必要があります。 これが組織全体で共有されている場合、ユーザーはチャットを開始するのか電話をかけるのか、どちらが適切であるかをより適切に判断できます。
 
-などの場合は、発信者のチャットや通話は、ビジネス クライアント用のターゲットの Skype に着陸する必要がありますは、発信者に提示されるビジネス クライアントのプレゼンスの Skype ターゲットのチームのクライアントに着陸する必要がある場合、は、チームのクライアントのプレゼンスを表示することです。
+たとえば、発信者のチャットまたは通話をターゲットの Skype for Business クライアントに送信する必要がある場合、発信者に表示されるのは Skype for Business クライアントのプレゼンスです。 ターゲットの Teams クライアントに送信する必要がある場合は、表示されるのは Teams クライアントのプレゼンスです。
 
-期待にどのような動作を知るために、ユーザーの共存モードに基づいてプレゼンス共有されていることを理解する必要があります。
+予期される動作を把握するには、プレゼンスがユーザーの共存モードに基づいて共有されていることを理解する必要があります。
 
-* (チームやビジネス用の Skype でかどうか)、他のユーザーが TeamsOnly ユーザーのチームの存在を表示し、TeamsOnly モードでは、ユーザーの場合
-* ユーザーが、デバイスのいずれかの場合\*モード (SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings)、(チームやビジネス用の Skype でかどうか)、他のユーザーが参照してくださいそのデバイス\*ビジネスの存在をユーザーの Skype
-* 諸島 (レガシ) で、ユーザーがモードでは、チームでの参加とビジネス用の Skype のプレゼンスは、(値が一致が必要な場合) およびその他のユーザーがいずれか、または、他のユーザーの存在、諸島、同じテナント内、または、federat であるかどうかに応じてを参照してください。ed のテナントとなるクライアントを使用します。
-    * チームから同じテナント内の他のユーザーを参照してください孤立ユーザーのチームが存在します。これは、上、テナントのルーティング テーブルに揃えられます
-    * チーム、連合のテナントで、他のユーザーを参照してください。 ビジネスの存在を孤立ユーザーの Skypeフェデレーション ルーティング テーブル上に配置この
-    * 他のユーザーからビジネスの Skype は、自社の情報を (テナント内および連合); の孤立ユーザーの Skype が表示されます。これは、上のルーティング テーブルに揃えられます
+* ユーザーが TeamsOnly モードを使用している場合は、他のユーザー (Teams または Skype for Business を使用しているかを問わず) には、その TeamsOnly ユーザーの Teams プレゼンスが表示されます。
+* ユーザーがいずれかの SfB\* モード (SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings) を使用している場合は、他のユーザー (Teams または Skype for Business を使用しているかを問わず) には、その SfB\* ユーザーの Skype for Business プレゼンスが表示されます。
+* ユーザーがアイランド (またはレガシ) モードを使用している場合は、Teams でのプレゼンスと Skype for Business でのプレゼンスは独立しており (値が一致する必要はありません)、他のユーザーには、同じテナントにいるのかフェデレーション テナントにいるのか、またどのクライアントを使用しているのかに応じて、アイランド ユーザーのどちらか一方のプレゼンスが表示されます。
+    * Teams からの場合は、同じテナント内にいる他のユーザーにはアイランド ユーザーの Teams プレゼンスが表示されます。これは、上記のテナント内ルーティングの表と合致しています。
+    * Teams からの場合は、フェデレーション テナント内にいる他のユーザーにはアイランド ユーザーの Skype for Business プレゼンスが表示されます。これは、上記のフェデレーション ルーティングの表と合致しています。
+    * Skype for Business からの場合は、他のユーザーにはアイランド ユーザーの Skype for Business プレゼンス (テナント内とフェデレーションの両方) が表示されます。これは、上記のルーティングの表と合致しています。
 
 
-## <a name="in-tenant-presence"></a>テナントの有無
+## <a name="in-tenant-presence"></a>テナント内プレゼンス
 
-TeamsOnly のユーザーに送信されたメッセージは、常にチームで着陸します。 デバイスに送信されるメッセージ\*会話が可能なは、上記で説明した場合、ユーザーはビジネスでは、Skype で着陸常にします。 島のユーザーに送信されたメッセージは、元となるクライアントに常に着陸します。
+TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送信されます。 SfB\* ユーザーに送信されたメッセージは、上述のように会話が可能な場合は、常に Skype for Business に送信されます。 アイランド ユーザーに送信されたメッセージは、常にメッセージの送信元のクライアントに送信されます。
 
-テーブルでは、発行元のモードと (新しいスレッド) のウォッチャーのクライアントによって、ウォッチャーに表示される発行元の存在について説明します。
+次の表は、発行元のモードとウォッチャーのクライアントに応じて (新しいスレッドの場合)、ウォッチャーで表示される発行元のプレゼンスを示しています。
 
-**表 3: テナントのプレゼンス (新しいスレッド)**
+**表 3: テナント内プレゼンス (新しいスレッド)**
 
-|ウォッチャー <br/><br/>クライアント| |<br/><br/>アイランド |Publisher <br/><br/>デバイス\* |<br/>Teams Only|
+|ウォッチャー <br/><br/>クライアント| |<br/><br/>アイランド |発行元 <br/><br/>SfB\* |<br/>Teams のみ|
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv;|Skype for Business | Skype for Business | Teams|
 |Teams |&boxv; |Teams |Skype for Business |Teams |
 | | | | |
 
-## <a name="federated-presence"></a>連合の存在
+## <a name="federated-presence"></a>フェデレーション プレゼンス
 
-連合の存在は、表 2 に示すように連合の到達可能性に基づいています。
+フェデレーション プレゼンスは、表 2 に示されているフェデレーションの到達可能性に基づいています。
 
-次の表では、発行元のモードと (新しいスレッド) のウォッチャーのクライアントによって、ウォッチャーに表示される発行元の存在について説明します。 実習では、ウォッチャーのクライアントにはこの段階でのフェデレーションに違いはありません。
+以下の表は、発行元のモードとウォッチャーのクライアントに応じて (新しいスレッドの場合)、ウォッチャーで表示される発行元のプレゼンスを示しています。 実際には、この段階でウォッチャーのクライアントにはフェデレーションに関して違いはありません。
 
-**表 4: フェデレーションのプレゼンス (新しいスレッド)**
+**表 4: フェデレーション プレゼンス (新しいスレッド)**
 
-|ウォッチャー <br/><br/> クライアント | |<br/><br/> アイランド  |Publisher <br/><br/> デバイス\* |<br/><br/> Teams Only |
+|ウォッチャー <br/><br/> クライアント | |<br/><br/> アイランド  |発行元 <br/><br/> SfB\* |<br/><br/> Teams のみ |
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Teams  |
 |Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
-## <a name="presence-in-pre-existing-threads"></a>既存スレッドの有無
+## <a name="presence-in-pre-existing-threads"></a>既存のスレッドでのプレゼンス
 
-存在しを既存のスレッド、スレッドがスレッドのルーティングを配置する必要があるという点で公開されるターゲットのプレゼンスの到達可能性を調整するために前提とするとルーティング可能性があります。
+既存のスレッドでプレゼンスと到達可能性を調整するには、ルーティングが可能であることを想定の上、そのスレッドで公開されているターゲットのプレゼンスをスレッドのルーティングと合致させる必要があります。
 
-具体的には、受信者を作っていた場合に永続的な相互運用機能の会話のスレッドは、スレッドが、正確なプレゼンスを反映していないと、ルーティング可能なしなくなる、チームにアップグレードされました。 新しいスレッドを開始する必要があります。
+具体的には、永続的な相互運用の会話スレッドをやり取りしていた受信者が Teams にアップグレードされた場合、そのスレッドは正確なプレゼンスを反映しなくなり、ルーティングできなくなります。 この場合は、新しいスレッドを開始する必要があります。
 
 ## <a name="related-links"></a>関連リンク
-[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
-[ビデオ: 共存とデバイスとのチームとの間の相互運用性を管理します。](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
+  [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/ja-JP/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+
+[ビデオ: SfB と Teams 間の共存と相互運用性を管理する](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
