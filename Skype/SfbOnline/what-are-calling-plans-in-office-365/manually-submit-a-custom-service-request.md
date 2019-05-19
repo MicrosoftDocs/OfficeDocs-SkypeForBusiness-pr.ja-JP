@@ -21,21 +21,21 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 73978d5cc01d2cde7739b6653fcd6c75e83950ec
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229859"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158975"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>カスタム サービスの依頼を手動で送信する
 
-ダイヤルイン会議用ブリッジ、自動応答、またはその他のサービス番号の番号をサービスがあれば、無料電話番号も、ビジネスの Skype に転送する必要がある 999 を超える数のユーザー (サブスクライバー) の電話番号する必要があります[管理する電話組織の番号](/microsoftteams/manage-phone-numbers-for-your-organization)です。
+ダイヤルイン会議ブリッジのサービス番号、自動応答、またはその他のサービス番号、フリーダイヤル電話番号、または Skype for Business に移行する必要がある999ユーザー (加入者) 電話番号がある場合は、電話を管理する必要があります。 [組織の番号](/microsoftteams/manage-phone-numbers-for-your-organization)。
 
-一部の国/地域の電話番号を取得またはリリース番号、またはアドレスを変更する場合に、カスタム サービスの要求を手動で送信する必要がも。 それぞれの国や地域に必要なものや移植数の詳細については、[組織の電話番号の管理](/microsoftteams/manage-phone-numbers-for-your-organization)を参照してください。
+一部の国/地域では、電話番号を取得したり、番号を解放したり、住所を変更したりする場合は、カスタムサービス要求を手動で送信する必要があります。 国または地域ごとに何が必要かを確認するには、番号移行の詳細については、「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)する」を参照してください。
 
 
-## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>場合は作成し、サービスの要求に従って、次の手順を送信する必要があります。
+## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>サービスリクエストを作成して送信する必要がある場合は、次の手順に従います。
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>150 ユーザー以下の組織の場合は、次の手順を実行します。
 1. [**Office 365 管理センター**] で、[**ヘルプが必要ですか?**] を選択します。
@@ -44,7 +44,7 @@ ms.locfileid: "32229859"
     - [**電話連絡を許可 (推奨)**]: 連絡先番号を確認して、[**折り返し連絡**] を押します。 折り返し連絡されるまでの待ち時間の予測が [**ヘルプが必要ですか?**] ペインに示されます。
     - [**電子メールを送信**]: メールアドレスを確認して、[**送信**] を選択します。 通話の応答時間が [**ヘルプが必要ですか?**] ペインに示されます。
 
-### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>150 件を超えるユーザーを持つ組織には、以下のサービス リクエストを作成する手順を実行します。
+### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>150を超えるユーザーがいる組織では、次の手順に従ってサービスリクエストを作成します。
 
 1. 職場または学校のアカウントを使用して、Office 365 に管理者としてサインインします。
     
@@ -102,9 +102,9 @@ ms.locfileid: "32229859"
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>電話番号の移行について知っておくべきその他のこと
 
-- 購入し、ライセンスをユーザーに割り当てる必要があります計画の呼び出しを使用します。 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)です。
+- 通話プランを使用するには、ライセンスを購入してユーザーに割り当てる必要があります。 [Skype For business および Microsoft Teams のアドオンライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
     
-- 各ユーザーに、利用可能な新しい電話番号を割り当てる必要があります。 [割り当て、変更、またはユーザーの電話番号を削除](assign-change-or-remove-a-phone-number-for-a-user.md)します。
+- 各ユーザーに、利用可能な新しい電話番号を割り当てる必要があります。 [ユーザーの電話番号を割り当て、変更、または削除](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)します。
 
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

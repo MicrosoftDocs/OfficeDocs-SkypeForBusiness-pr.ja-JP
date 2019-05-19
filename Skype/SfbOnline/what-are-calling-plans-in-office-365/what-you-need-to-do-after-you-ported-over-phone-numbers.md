@@ -1,5 +1,5 @@
 ---
-title: 自分の電話番号の上に移植した後に、何をする必要がありますか。
+title: 電話番号を移植した後に何を行う必要がありますか?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,25 @@ f1keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
-description: ビジネス用の Skype に電話番号を移植した後次の操作に必要なものを参照してください。
-ms.openlocfilehash: edcf796be766f62a99686c2182091daa13d3a810
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 電話番号を Skype for Business に移植した後、次に何を行う必要があるかを参照してください。
+ms.openlocfilehash: fc63f734b9be26db928488f7b759ca5e68ddc29b
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229588"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159176"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>自分の電話番号の上に移植した後に、何をする必要がありますか。
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>電話番号を移植した後に何を行う必要がありますか?
 
-ポート注文を送信した後は、キャリアにお問い合わせくださいされ、それらの詳細されます。 最終転送日が設定されている電子メールを使用するを通知します。 ただし、順序を受け入れ、さあ、必要な緊急のアドレスを作成するためにキャリアを待っている間に、これらの数値を使用します。
+ポート注文を送信すると、お使いの携帯電話会社に連絡して、詳細情報を表示します。 最終転送日が設定されたら、メールでお知らせします。 ただし、お客さまのご注文については、ご利用の電話会社にお問い合わせになり、これらの番号で使用する必須の緊急対応の住所を作成してください。
   
-- 詳細については[緊急の場所、住所、および通話のルーティングとは?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
+- [緊急対応の場所、アドレス、通話ルーティング](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)について、詳細はこちらをご覧ください。
     
-- ことができます[追加または削除する、組織の緊急事態に対処](add-or-remove-an-emergency-address-for-your-organization.md)する必要がある場合。
+- 必要に応じ[て、組織の緊急対応の住所を追加または削除](add-or-remove-an-emergency-address-for-your-organization.md)できます。
     
-- 場合は、電話番号がある緊急のアドレスを[追加、変更、または組織には、緊急時の場所を削除](add-change-or-remove-an-emergency-location-for-your-organization.md)します。
+- 電話番号に既に緊急対応の住所がある場合は、[組織の緊急対応の場所を追加、変更、または削除](add-change-or-remove-an-emergency-location-for-your-organization.md)します。
     
-- [ユーザーの電話番号を割り当て、変更、または削除する](assign-change-or-remove-a-phone-number-for-a-user.md)
+- [ユーザーの電話番号を割り当て、変更、または削除する](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

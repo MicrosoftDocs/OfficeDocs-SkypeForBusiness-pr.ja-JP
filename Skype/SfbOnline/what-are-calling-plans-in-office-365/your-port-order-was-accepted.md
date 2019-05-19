@@ -21,26 +21,26 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 450781d2318b11e7f199c6c68041aaf6bc66b21c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 56656e85f23a4c6c7082bebff628c12aea9843b4
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229517"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159186"
 ---
 # <a name="your-port-order-was-accepted"></a>ポート注文は承諾されました
 
-ポート注文が承認されました。 **ビジネス管理センターの Skype**に電話番号を探して > **音声** > **の電話番号**です。
+お客さまのポート注文は承認されています。 **Skype for business 管理センター** > の**ボイス** > **フォン番号**で電話番号を探します。
   
  **重要**: Skype for Business 管理センターの左のナビゲーションに [ **音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、 **電話システム**アドオン ライセンス、または **電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
   
-これで承認され、自分の電話番号は、準備ができている、すべてのセットアップを取得するのにはいくつかの操作を実行する必要があります。
+これで承認され、電話番号の準備ができました。すべての設定を行うには、いくつかの操作を行う必要があります。
   
-- 次の[Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)のアドオンのライセンス ビジネス、マイクロソフトのチームのことを確認します。 **電話システム**と**国内を呼び出すことを計画**または**国際を呼び出すことを計画**する必要があります。
+- [Skype For business および Microsoft Teams のアドオンライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を確認します。 **電話システム**と**国内通話**プランまたは**国際通話プラン**が必要です。
     
-- を作成、[追加または削除する、組織の緊急事態に対処](add-or-remove-an-emergency-address-for-your-organization.md)する場合は、[追加、変更、または組織には、緊急時の場所を削除](add-change-or-remove-an-emergency-location-for-your-organization.md)し、(一部の国/地域で、アドレスを取得緊急電話番号を持つ)。
+- [組織の緊急対応の住所を追加または削除](add-or-remove-an-emergency-address-for-your-organization.md)し、必要に応じて、[組織の緊急対応の場所を追加、変更、または削除](add-change-or-remove-an-emergency-location-for-your-organization.md)します (一部の国/地域では、電話番号を使って緊急対応の住所を取得します)。
     
-- さあ[の割り当て、変更、またはユーザーの電話番号を削除する](assign-change-or-remove-a-phone-number-for-a-user.md)とします。
+- [ユーザーの電話番号を割り当て、変更、または削除](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)します。
 
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

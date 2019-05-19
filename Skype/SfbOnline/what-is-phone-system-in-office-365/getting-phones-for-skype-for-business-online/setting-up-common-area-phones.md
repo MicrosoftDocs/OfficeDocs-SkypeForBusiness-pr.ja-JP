@@ -18,16 +18,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てる共通領域電話の設定を構成、展開の手順を説明します。
-ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 適切なファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、一般的な市外電話の設定を構成するための展開手順について説明します。
+ms.openlocfilehash: 0e673bc0a236cbf12aa305c3fc658dffe039c0e3
+ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231157"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34162584"
 ---
 # <a name="set-up-common-area-phones"></a>共通エリア電話機を設定する
-A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
+共用エリア電話機（CAP）は、一般に、ロビーや多くの人々が利用できるエリアに配置されます。 たとえば、受付エリアの電話機、ドアホンまたは会議室の電話機など、CAPは、ユーザーではなくデバイスとして設定され、自動的にネットワークにサインインされます。 以下の手順では、電話システムとコールプランのアカウントを設定して、所属する組織にこれらのタイプの電話機を導入する方法を説明します。
 
 ## <a name="prerequisites-for-common-area-phones"></a>共用エリア電話の前提条件
 
@@ -35,15 +35,15 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 - 共用エリア電話のライセンスとコールプランを購入してください。
 - 承認された電話機を検索して購入してください（リストを表示する [ここに](deploying-skype-for-business-online-phones.md)）。
-- Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-  - **VVX のポリコム電話**:**設定**に移動し > **ステータス** > **プラットフォーム** > **アプリケーション** > **メイン**です。
-  - **Yealink 電話**: 電話のメイン画面の**ステータス**に移動します。
-  - **電話**: **] メニュー**に移動 > **デバイスの状態** > 開始画面から、**ファームウェアのバージョン**です。
-  - **Lync の電話のエディション (LPE) 電話**: **] メニュー**に移動 > 開始画面から**システム情報**です。
+- 電話機のファームウェアを更新します（[ このトピックで](getting-phones-for-skype-for-business-online.md) 、サポートされているファームウェアを参照してください）。  以下のことを行うことで電話機のファームウェアを確認することができます：
+  - **Polycom vvx 電話**:**設定** > **状態** > **プラットフォーム** > **アプリケーション** > の**メイン**に移動します。
+  - **携帯**電話: メインの電話画面で [**ステータス**] に移動します。
+  - **Audiocodes 電話**: スタート画面から**メニュー** > **デバイス状態** > の**ファームウェアバージョン**に移動します。
+  - **Lync Phone Edition (lpe) 電話**: スタート画面から**メニュー** > **システム情報**に移動します。
 
-    Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
+    ファームウェアのアップデートは、Skype for Business Serviceによって管理されます。 Skype for Business で認証された電話機のファームウェアはすべて Skype for Business Update サーバーにアップロードされ、既定ではすべての電話機でデバイス アップデートが有効になります。
 
-    Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the  [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) cmdlet and setting the *EnableDeviceUpdate* parameter to `false`.
+    電話機の非アクティブ時間とポーリング間隔に応じて、電話機は自動的に最新の認定ビルドをダウンロードしてインストールします。 デバイスのアップデート設定を無効にするには、 [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) コマンドレットを使用し、 *EnableDeviceUpdate* パラメータを `false` に設定します。
 
 ## <a name="setting-up-a-common-area-phone"></a>共用エリア電話機の設定
 以下の手順を実行する必要があります：
@@ -53,19 +53,19 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
     ![CAP-license.png](../../images/cap-license.png)
 2. **[共用エリア電話機]** > **[今すぐ購入]** をクリックし、**[チェックアウト]** ページで **[今すぐ購入]** をクリックします。
-3. Click on to expand **Add-on subscriptions** and then click on to buy a Calling Plan. Choose either the **Domestic Calling Plan** or **Domestic and International Calling Plan**.
+3. クリックして **[アドオン購読]** を拡大し、さらにクリックしてコールプランを購入します。 **国内通話プラン**または**国内および国際通話プラン**のいずれかを選択します。
 
 > [!Note]
-> You don't need a Phone System license. It's included with the **Common Area Phone** license.
+> 電話システムのライセンスは必要ありません。 ** 共用エリア電話機 ** のライセンスに含まれています。
 
-ライセンスの詳細については、 [Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
+ライセンスの詳細については、「 [Skype For business および Microsoft Teams のアドオンライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>手順 2  - 電話機の新しいユーザアカウントを作成し、ライセンスを割り当てます
 1. Office 365の管理センターでは、 **[ユーザー]** > **[アクティブユーザー]** > **[ユーザーを追加する]** に移動してください。
 2. **ユーザー名** に、最初の名前を "Main"、2番目の名前を"Reception" のように入力します。
 3. "Main Reception" のように自動生成しない場合は、**表示名** に入力してください。
 4. **[ユーザー名]** に "Main Reception" または"Mainlobby" のように入力します。
-5. For common area phones, you might want to set a password manually or have the same password for all of you common area phones. Also, you might think about unselecting **Make this user change their password when they first sign in**.
+5. 共用エリア電話機では、パスワードを手動で設定するか、すべての共用エリア電話機に対して同じパスワードを設定した方がよい場合があります。 また、 **このユーザーが最初にログインしたときにパスワードを変更する** を選択しないという方法も考えられます。
 6. [追加] をクリックしていない場合は、このユーザーにライセンスを割り当てます。 同じページで、**[製品ライセンス]** をクリックして拡大してください。 次の機能をオンにします。
    - 共用エリア電話機
    - そして、 **[国内電話プラン]** または [国内および **国際電話プラン**] のいずれかを選択する必要があります。
@@ -83,7 +83,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 ![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) 電話番号を割り当てるには、 **Skype for Business 管理センター** を使用してください。
 
-1. Office 365 の管理センター _gt**管理センター**内 > **ビジネス用の Skype**です。
+1. Office 365 管理センターで、>**管理センター** > **Skype for business**を管理します。
 2. **[Skype for Business 管理センター]** >  **[音声]** > **[電話番号]** に移動します。
 3. 電話番号のリストから番号を選択し、** [割り当て]**  をクリックします。
 4. **[割り当て]** ページで、**[音声ユーザー]** ボックスに電話機に使用するユーザーの名前を入力し、**[音声ユーザーを選択]** ドロップダウンでユーザーを選択します。
@@ -95,9 +95,9 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
    > [!Note]
    > **電話システム** ライセンスが適用さている場合のみ、ユーザーが表示されます。 この操作を実行したばかりだと、ユーザーがリストに表示されるまでに時間がかかることがあります。
 
-さらなる情報については、 [[ユーザーの電話番号を取得する]](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md) を参照してください。
+さらなる情報については、 [[ユーザーの電話番号を取得する]](/microsoftteams/getting-phone-numbers-for-your-users) を参照してください。
 
-迷っている場合は、別のキャリアや "*ポート* " で持っている電話番号を使用するか、それらをOffice 365 へ移行することもできます。 参照してください、 [Office 365 に電話番号を転送](/microsoftteams/transfer-phone-numbers-to-office-365)します。
+迷っている場合は、別のキャリアや "*ポート* " で持っている電話番号を使用するか、それらをOffice 365 へ移行することもできます。 「 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)」を参照してください。
 
 ### <a name="step-4---setting-up-your-phone"></a>手順 4  - 電話機を設定する
 
@@ -115,7 +115,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 - 以上で CAP モードが有効になったので、電話機のディスプレイを使用して電話機を設定します。 ディスプレイに「 **CaAPが有効です**」と表示されます。 次に、以下を実行してください。
 
     1. **[設定]** をクリックします。
-    2. **詳細設定**を選択します。
+    2. [**詳細設定**] を選びます。
     3. パスワードを入力します。
     4. **[管理設定]** で、**[共用エリア電話機の設定]** を選択します。
     5. **[CAP]** および **[CAP管理モード]** を有効にします。
@@ -137,7 +137,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 
 > [!NOTE]
-> CAP 事前設定サイトには、CAP アカウントのパスワードがランダムなパスワードにリセットされると記載されています。 CAP が参照しているアカウントが Azure Active Directory（AAD）アカウントであることに注意してください。 AAD でアカウントを作成した場合は、そのプロセスは簡単です。 設置型 AAD に Active Directory を同期して、サード ・ パーティ製の IDP または ad FS を使用して、CAP のプロビジョニングは失敗します。 この例では、する必要があります Office 365 と Azure Active Directory アカウントのみ (たとえば、 **onmicrosoft.com**ドメインでのアカウント) を使用するキャップが作業する準備をします。
+> CAP 事前設定サイトには、CAP アカウントのパスワードがランダムなパスワードにリセットされると記載されています。 CAP が参照しているアカウントが Azure Active Directory（AAD）アカウントであることに注意してください。 AAD でアカウントを作成した場合は、そのプロセスは簡単です。 オンプレミスの Active Directory を AAD と同期していて、サードパーティの IDP または ADFS を使用している場合、CAP プロビジョニングは失敗します。 この場合は、CAP provisioning を機能させるために、Office 365/Azure Active Directory アカウントのみ (たとえば、 **onmicrosoft.com**ドメインのアカウント) を使用する必要があります。
 
 
 ### <a name="related-topics"></a>関連トピック
