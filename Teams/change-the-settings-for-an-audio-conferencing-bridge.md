@@ -86,13 +86,13 @@ Office 365 で電話会議を設定している場合、電話会議ブリッジ
     
 3. 変更を完了したら、[**保存**] をクリックします。
     
-**In the Skype for Business admin center, in the left navigation go to dial-in conferencingMicrosoft bridge settings.**
+**会議の PIN の長さを設定する**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. **Microsoft 365 管理センター** > **Skype for Business** の順に移動します。
     
-3. 既定値は 5 です。******** > ****
+3. **Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
     
 4. [**Microsoft ブリッジの設定**] ウィンドウの [**セキュリティ**] で、[**PIN の長さ**] リストに PIN の桁数を入力し、[**保存**] をクリックします。
     
@@ -105,7 +105,7 @@ Office 365 で電話会議を設定している場合、電話会議ブリッジ
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
-3. 既定値は 5 です。******** > ****
+3. **Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
     
 4. [**Microsoft ブリッジ設定**] ページで [**ダイヤルイン情報を変更したらユーザーに自動的に電子メールを送信する**] を選択または選択解除して [**保存**] をクリックします。
     

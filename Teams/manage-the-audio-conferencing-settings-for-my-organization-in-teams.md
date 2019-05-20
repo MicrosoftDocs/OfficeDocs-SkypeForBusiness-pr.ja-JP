@@ -38,9 +38,9 @@ ms.locfileid: "32202766"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> Teams を使用してライセンスを割り当てることはできません。 Office 365 管理センターを使用する必要があります。 In the left navigation of the Office 365 admin center, go to UsersActive users > and then select the user or users from the list of available users. 
+> Teams を使用してライセンスを割り当てることはできません。 Office 365 管理センターを使用する必要があります。 [Skype for Business と Microsoft Teams のライセンスを割り当てる](assign-teams-licenses.md)を参照してください。 
   
- 最大 20 人までのライセンスを同時に割り当てている場合は、[ ビューの選択] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。次に [ 編集]、[ 次へ] を 2 回クリックし、ライセンスを選択して、[ 送信] をクリックします。また、Windows Powershell を使用してライセンスを複数のユーザーに割り当てることもできます。操作手順と PowerShell のサンプル スクリプトについては、「Skype for Business と Microsoft Teams のライセンスを割り当てる」をご覧ください。
+ **ユーザーにライセンスを割り当てる**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -54,7 +54,7 @@ ms.locfileid: "32202766"
 4. [**製品ライセンス**] ページで、[**電話会議**] を有効にし、[**保存**] をクリックします。ライセンスの詳細については、「[Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
     
 > [!NOTE]
-> ユーザーに会議 ID を割り当てる 
+> ライセンスを割り当てた後に、Microsoft では、電話会議プロバイダーとしてリストに最初に表示されない場合があります。この状況が生じた場合は、Office 365 管理センターからログアウトするか、CTRL+F5 を同時に押すかして、ブラウザー ウィンドウを更新します。 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>電話会議ユーザーに送信されたメールを有効または無効にする
 
@@ -95,7 +95,7 @@ ms.locfileid: "32202766"
 
 2. [**電話会議**] で、[**PIN のリセット**] をクリックしてから [**リセット**] をクリックします。 
   
-リセットの直後に 1 回表示された後は、ユーザーのプロパティには PIN に代わって "*****" が表示されます。 
+ユーザーは、電話会議の PIN が有効になっているか、PIN が再設定されている場合、自分の PIN を使ってメールを受け取れます。しかし、自動で送信するメールが無効になっている場合、 PIN リセットのメールは送信されませんので、手動でユーザーに前述の PIN を送信する必要があります。 PIN が再設定されるとその PIN は一度だけ表示されます。再設定された直後に表示された後、その PIN はユーザーのプロパティ上に表示されることはなく、その代わりに ***** と表示されます。 
   
 「[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin-in-teams.md)」を参照してください。
   
@@ -148,9 +148,9 @@ ms.locfileid: "32202766"
 5. [**保存**] をクリックします。
 
     
-Go to the Office 365 admin centerSkype for Business.[](change-the-settings-for-an-audio-conferencing-bridge.md)
+[電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)を参照してください。
   
- **In the Skype for Business admin center, in the left navigation go to dial-in conferencingMicrosoft bridge settings.**
+ **会議の PIN の長さを設定する**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -163,7 +163,7 @@ Go to the Office 365 admin centerSkype for Business.[](change-the-settings-for-a
     
 職場または学校のアカウントを使用して、Office 365 にサインインします。[](change-the-settings-for-an-audio-conferencing-bridge.md)
   
- **Sign in to Office 365 with your work or school account.**
+ **電話会議 ユーザーに送信されているメールを有効または無効にする**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -192,7 +192,7 @@ Go to the Office 365 admin centerSkype for Business.[](change-the-settings-for-a
 4. [**保存**] をクリックします。
 
 
-You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider. The order that you select in the drop-downs will be the order of the languages that will be presented to the callers.[](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+[電話会議の自動案内の言語を設定する](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)を参照してください。
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>電話会議のダイヤルイン番号を確認する
 
