@@ -12,38 +12,38 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: チームでクラウドの音声を展開するためのランディング ・ ページ
+description: Teams でクラウドボイスを展開するためのランディングページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47c534eba93c6f5af21a75fa20b5015fac00c674
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 99c4f9d32dbdd914803c1b58f77ce472248c325d
+ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198372"
+ms.lasthandoff: 05/19/2019
+ms.locfileid: "34185325"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft Teams での Cloud Voice
 
-[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 かもしれません[& 会議の会議](deploy-meetings-microsoft-teams-landing-page.md)を導入しました。 ユーザーのクラウドの音声機能を追加する準備が整いました。 
+[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 [会議 & 会議](deploy-meetings-microsoft-teams-landing-page.md)を展開したことがあるかもしれません。 これで、ユーザーにクラウド音声機能を追加する準備ができました。 
 
-クラウドの音声は、プライベート構内交換機 (PBX) の機能が用意されています、、公衆交換電話網 (PSTN) を接続するためのオプションです。
+クラウドボイスは、構内交換機 (PBX) 機能と、公衆交換電話網 (PSTN) に接続するためのオプションを提供します。
 
-この資料では、その手順を説明する各変更し、組織のプロファイルとビジネス要件に基づいて、既定のクラウド音声設定のいずれかを変更する必要があるかどうかを決定できます。 中核となる一連の[変更](#core-deployment-decisions)、2 つのグループの設定を分割しました。 2 番目のグループには、組織のニーズ応じた構成が求められる可能性がある[追加の設定](#additional-deployment-decisions)が含まれています。
+この記事では、組織のプロファイルとビジネス要件に基づいて、既定のクラウドボイス設定を変更する必要があるかどうかを決定するのに役立ちます。次に、それぞれの変更について説明します。 設定を2つのグループに分割しました。これからは、主要[な変更](#core-deployment-decisions)の中心となります。 2 番目のグループには、組織のニーズ応じた構成が求められる可能性がある[追加の設定](#additional-deployment-decisions)が含まれています。
 
-すべての組織が主要な意思決定を進めるし、組織に追加の要件がある場合が、以下の内容を確認しをお勧めします。
+すべての組織が主要な決定を行い、その他の要件が組織にある場合は、次の資料を参照してください。
 
 
 
-## <a name="learn-more-about-cloud-voice"></a>クラウドの声の詳細を表示します
+## <a name="learn-more-about-cloud-voice"></a>クラウドの音声について、詳細はこちらをご覧ください
 
-次の記事では、展開して、クラウドの音声機能を使用して、チームでの詳細についてを提供します。
+次の記事では、Teams でのクラウド音声機能の展開と使用に関する詳細情報を提供しています。
 
 - [Office 365 の電話システム](what-is-phone-system-in-office-365.md)
-- [通話プランと電話システム](calling-plan-landing-page.md)
+- [通話プランを使用した電話システム](calling-plan-landing-page.md)
 - [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 - [Cloud Voice の展開](cloud-voice-deployment.md)
 - [Microsoft テレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
-- 電話システムの詳細については、次のセッションを監視する:[マイクロソフトのチームでの電話システムの概要](https://aka.ms/teams-phone-system)
+- 電話システムの詳細については、次のセッションをご覧ください。 [Microsoft Teams での電話システムの紹介](https://aka.ms/teams-phone-system)
 
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
@@ -52,103 +52,103 @@ ms.locfileid: "32198372"
 
 ## <a name="phone-system-office-365"></a>電話システム (Office 365)
 
-電話システムは、通話の制御、Office 365 のクラウド内のプライベート構内交換機 (PBX) 機能を有効にする Microsoft のテクノロジです。 電話システムを使用すると、Office 365 から直接配信し、企業のクラウドの生産性の経験と密接に統合の機能のセットを使用して、既存のプライベート構内交換機 (PBX) システムを置き換えることができます。
+電話システムは Microsoft の技術であり、Office 365 クラウドで、通話制御と構内交換 (PBX) 機能を有効にすることができます。 電話システムを使用すると、既存の構内交換機 (PBX) システムを、Office 365 から直接配布された機能セットに置き換えることができます。また、会社のクラウド生産性エクスペリエンスに密接に統合されています。
 
 
 |確認事項|アクション |
 |:------------|:-------|
-|電話システムはどのユーザーの所在地、またはオフィスで実装されますか。 |電話システムの詳細については、 [Office 365 の電話システムと](what-is-phone-system-in-office-365.md)を参照してください。</li></ul>|
+|電話システムを実装するのは、どのようなユーザーの場所またはオフィスですか? |電話システムの詳細については、「 [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)」を参照してください。</li></ul>|
 |||
 
-## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>一般への接続は、電話網 (PSTN) を切り替える
+## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>公衆交換電話網 (PSTN) への接続
 
-世界中のユーザーが電話をかけることができますされるように、公衆交換電話網 (PSTN) 電話システムを接続するには、ビジネス ・ ニーズに基づいてのオプションがあります。  以下を確認してください。
+電話システムを公衆交換電話網 (PSTN) に接続して、ユーザーが世界中で電話をかけることができるようにするには、ビジネスニーズに応じたオプションがあります。  次のことを確認してください。
 
 
 |確認事項|アクション |
 | :------------|:-------|
-| [テレフォニーのキャリアとして Microsoft の計画を呼び出すを使用するか。 | 詳細については、[計画を呼び出すと、電話システム](calling-plan-landing-page.md)を参照してください。|
-| 自分のテレフォニーのキャリアを使用する必要がありますか。 | 詳細については、[直接ルーティングの電話システム](direct-routing-landing-page.md)を参照してください。
+| テレフォニーキャリアとして Microsoft 通話プランを使用しますか? | 詳細については、「[通話プランを使用した電話システム](calling-plan-landing-page.md)」を参照してください。|
+| 自分のテレフォニーキャリアを使用する必要はありますか? | 詳細については、「[ダイレクトルーティングを使用した電話システム](direct-routing-landing-page.md)」を参照してください。
 |||
 
 
 ## <a name="additional-deployment-decisions"></a>その他の展開に関する決定事項
 
-、次の設定を変更することも、組織のニーズに基づいて構成します。
+組織のニーズと構成に基づいて、次の設定を変更することができます。
 
 - ボイスメール
-- 識別情報を呼び出す
-- マイクロソフトの電話番号
+- 通話 id
+- Microsoft からの電話番号
 - ダイヤル プラン
 - 通話キュー
 - 自動応答
 
 ### <a name="voicemail"></a>ボイスメール
 
-電源は、Azure のボイスメール サービスが、クラウドのボイスメール ボイスメール出金のみの Exchange メールボックスをサポートしている、サード ・ パーティ製の電子メール システムをサポートしていません クラウドのボイス メールには、組織内のすべてのユーザーに対して既定で有効には、ボイスメールの議事録が含まれています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。
+Azure ボイスメールサービスを利用したクラウドボイスメールは、Exchange メールボックスのみを対象としたボイスメールのデポジットをサポートしており、サードパーティのメールシステムをサポートしていません。 クラウドボイスメールには、既定で組織内のすべてのユーザーに対して有効になるボイスメールの議事録が含まれています。 ビジネスニーズによっては、特定のユーザーまたは組織全体のすべてのユーザーに対してボイスメールを無効にする必要がある場合があります。
 
 |確認事項|アクション |
 |:------------|:-------|
-| クラウドのボイスメールを有効にするか。 | ボイスメールの設定手順は、「[クラウドのボイスメールを設定](set-up-phone-system-voicemail.md)」を参照してください。
-| ボイスメールの議事録の一部またはすべてのユーザーを有効にするか。 | ボイスメールの議事録作成を無効にするには、[組織内のボイス メール ポリシーの設定](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)を参照してください。</li></ul>|
+| クラウドボイスメールを有効にしますか? | ボイスメールのセットアップ手順については、「[クラウドボイスメール](set-up-phone-system-voicemail.md)をセットアップする」をご覧ください。
+| 一部またはすべてのユーザーに対してボイスメールの書き起こしを有効にしますか? | ボイスメールのトランスクリプト機能をオフにするには、「[組織でボイスメールポリシーを設定](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)する」を参照してください。</li></ul>|
 |||
 
-### <a name="calling-identity"></a>識別情報を呼び出す
+### <a name="calling-identity"></a>通話 id
 
-既定では、すべての発信呼び出しは、呼び出し元の id (呼び出し元 ID) として割り当てられた電話番号を使用します。 呼び出しの受信者は、呼び出し元を識別する迅速かつ呼び出しを承認または拒否かどうかを決定します。
+既定では、すべての発信通話で、割り当てられた電話番号が発信 id (発信者番号) として使用されます。 通話の受信者は、すぐに発信者を特定して、通話を承諾または拒否するかどうかを決定できます。
 
 |確認事項|アクション |
 |:------------|:-------|
-|マスクしたり、発信者番号通知を無効にするか。 | 呼び出し元 ID のブロックを変更または、[ユーザーの発信者番号の設定](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user)を参照してください。 |
+|発信者番号認識を無効にするか、無効にしますか? | 発信者番号通知を変更またはブロックするには、「[ユーザーに発信者番号を設定](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user)する」を参照してください。 |
 |||
 
-### <a name="phone-numbers-from-microsoft"></a>マイクロソフトの電話番号
+### <a name="phone-numbers-from-microsoft"></a>Microsoft からの電話番号
 
-マイクロソフトでは、2 種類の利用可能な電話番号:*サブスクライバー* (ユーザー) の番号は、組織内のユーザーに割り当てることができる、および*サービス*の番号、有料電話番号と無料サービスの番号より高い同時実行の呼び出しとして利用可能加入者番号よりも容量と、オーディオ会議、自動応答、またはキューの呼び出しなどのサービスに割り当てることができます。
+Microsoft には、2種類の電話番号が用意されています。*加入者*(ユーザー) 番号は、組織内** のユーザーに割り当てることができます。また、電話番号は有料またはフリーダイヤルのサービス番号として利用できます。加入者番号よりもキャパシティ。電話会議、自動応答、通話キューなどのサービスに割り当てることができます。
 
 |確認事項|アクション |
 | :------------|:-------|
-| どのユーザーの場所には、マイクロソフトからの新しい電話番号が必要ですか。 | 電話番号の取得方法の詳細については、[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)し[、ユーザーの電話番号の取得](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)を参照してください。 
-| 電話番号 (サブスクライバーまたはサービス) の種類が必要ですか。 | 必要がある電話番号の種類を選択するために、[さまざまな種類](different-kinds-of-phone-numbers-used-for-calling-plans.md)を参照してください。
-Office 365 を既存の電話番号をポートするには?|詳細については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。
+| Microsoft からの新しい電話番号が必要なユーザーの場所 | 電話番号を取得する方法については、「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」および「[ユーザーの電話番号を取得](getting-phone-numbers-for-your-users.md)する」を参照してください。 
+| 必要な電話番号の種類 (加入者またはサービス) | 必要な電話番号の種類を選択するには、「[通話プラン用に使用される電話番号が異なる](different-kinds-of-phone-numbers-used-for-calling-plans.md)」を参照してください。
+既存の電話番号を Office 365 に移植するにはどうすればよいですか?|詳細については、「 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)」を参照してください。
 |||
 
 ### <a name="dial-plans"></a>ダイヤル プラン
 
-Office 365 の電話システムの機能で、ダイヤル プランは、承認と通話のルーティングの他の形式 (通常は E.164 形式) に電話番号をダイヤルに変換する正規化ルールのセットです。
+Office 365 の電話システム機能のダイヤルプランは、ダイヤルされた電話番号を別の形式 (通常は164形式) に変換する正規化ルールのセットです。これは、通話承認と通話ルーティングに適しています。
 
 ダイヤル プランの詳細については、「[ダイヤル プランについて](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)」を参照してください。
 
 |確認事項|アクション |
 |:------------|:-------|
-| 組織はダイヤル プランのカスタマイズを必要としているか? | カスタムのダイヤル プランを使用する場合を判断するためには、[テナントを計画するダイヤル プラン](what-are-dial-plans.md#planning-for-tenant-dial-plans)を参照してください。|
-どのユーザーがダイヤル プランのカスタマイズを要求していて、どのテナント ダイヤル プランを各ユーザーに割り当てる必要があるか? | PowerShell でカスタマイズされたダイヤル プランにユーザーを追加するを参照してください[を作成するダイヤル プランの管理と](create-and-manage-dial-plans.md)。 |
+| 組織はダイヤル プランのカスタマイズを必要としているか? | カスタムダイヤルプランが必要かどうかを判断する方法については、「[テナントダイヤルプランの計画](what-are-dial-plans.md#planning-for-tenant-dial-plans)」を参照してください。|
+どのユーザーがダイヤル プランのカスタマイズを要求していて、どのテナント ダイヤル プランを各ユーザーに割り当てる必要があるか? | PowerShell のカスタマイズされたダイヤルプランにユーザーを追加する方法については、「[ダイヤルプランを作成して管理](create-and-manage-dial-plans.md)する」を参照してください。 |
 |||
 
 ### <a name="call-queues"></a>通話キュー
 
-クラウド呼び出しキューには、自動的に保留中の呼び出しを配置することなどを検索する機能の呼び出しとなっている人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントのための電話番号への呼び出し際に使用するあいさつ文が含まれます保留中の音楽を聴きます。 組織の 1 つまたは複数の呼び出しキューを作成します。 
+Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. 
 
 
 |確認事項|アクション |
 |:------------|:-------|
-| 自分の所属組織はキューを呼び出して必要がありますでしょうか。 | 詳細については、[クラウドの呼び出しキューを作成](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)し[、電話システムの設定](setting-up-your-phone-system.md)を参照してください。 |
+| 組織には通話キューが必要ですか? | 詳細については、「[クラウドの通話キューを作成する](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」と「[電話システム](setting-up-your-phone-system.md)をセットアップする」を参照してください。 |
 
 ### <a name="auto-attendants"></a>自動応答
 
-外部では、組織のメニュー システムを作成するのにはクラウドの自動応答を使用することができ、内部の呼び出し元を探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送する] メニューの [システムを通過します。
+クラウド自動応答を使用すると、外部および内部の発信者がメニューシステムを通じて組織内の会社のユーザーや部署に通話を発信したり、転送したりできるように、組織のメニューシステムを作成することができます。
 
 |確認事項|アクション |
 |:------------|:-------|
-| 自分の所属組織は自動応答を必要ですか。 | 詳細については、[自動応答をクラウド](what-are-phone-system-auto-attendants.md)とは[クラウドの自動応答の設定](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を参照してください。 |
+| 組織に自動応答が必要ですか? | 詳細については、「[クラウド自動応答](what-are-phone-system-auto-attendants.md)と[クラウド自動応答のセットアップ](create-a-phone-system-auto-attendant.md)とは」を参照してください。 |
 
 ### <a name="devices"></a>デバイス
 
-サポートされているデバイスの詳細については、以下を参照してください。
+サポートされているデバイスの詳細については、次を参照してください。
 
 - [Microsoft Teams でのデバイスを管理する](device-management.md)
 - [IP 電話](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [USB オーディオ デバイスおよびビデオ デバイス](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [デバイスのインテリジェント通信](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [デバイスのインテリジェントな通信](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: クラウドの自動応答とキューを呼び出すし、チームでこれらの呼び出しを回答する方法を説明します。
+description: クラウド自動応答と通話キューについて説明し、Teams でこれらの通話に応答する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,54 +15,54 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: beb4b043798ba5348da1d460f49ff93e6aff55e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a78ed7e0bb40d83f7b46d4d4a008f964180c32d0
+ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33900931"
+ms.lasthandoff: 05/19/2019
+ms.locfileid: "34185296"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および呼び出しキューの通話に Teams から直接応答する
 ===========================================================
 
-チームのユーザーでは、受信でき、クラウドの自動応答とそのチームのクライアントから直接呼び出しキューからの呼び出しに応答することができます。 チーム ユーザーの場合は、自動アテンダントの機能が、一般的に使用できる、および呼び出しキュー機能は、プレビューでは。 
+Teams ユーザーは、クラウド自動応答からの通話の受信と応答を、チームクライアントから直接行うことができます。 Teams ユーザーの場合は、自動応答機能が通常利用可能になり、通話キュー機能がプレビューに表示されます。 
 
-## <a name="what-are-auto-attendants-and-call-queues"></a>自動応答とキューを呼び出すか。
+## <a name="what-are-auto-attendants-and-call-queues"></a>自動応答と通話キューとは何ですか?
 
-自動応答をクラウドには、一連の音声プロンプトまたは組織に電話するときに、人間のオペレーターではなく相手に対して再生するオーディオ ファイルが用意されています。 自動応答により、発信者はメニュー システムを介して、通話、電話機のキーパッド (DTMF) を使用したユーザーの特定、音声認識を使用した音声入力を行うことができます。
+クラウド自動応答は、ユーザーが組織にコールインしたときに、発信者が人間のオペレーターではなく、一連の音声プロンプトや音声ファイルを提供します。 自動応答により、発信者はメニュー システムを介して、通話、電話機のキーパッド (DTMF) を使用したユーザーの特定、音声認識を使用した音声入力を行うことができます。
 
 Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
 
-## <a name="handling-an-auto-attendant-or-call-queue-call"></a>自動アテンダントまたは呼び出しキューの呼び出しを処理します。
+## <a name="handling-an-auto-attendant-or-call-queue-call"></a>自動応答または通話キューの呼び出しを処理する
 
-ユーザーは通話に応答する前に、自動アテンダントまたは呼び出しキューからの着信呼び出しを区別することになります。 名前や呼び出し元の数、および呼び出しのたびにした呼び出し元がアクセスしようと、呼び出し元に対応するため、内容をユーザーに与えるについての情報が含まれます。
+ユーザーは、通話に応答する前に、自動応答または通話キューからの着信通話を区別することができます。 呼び出し元の名前や番号と共に、発信者が発信しようとしている相手に関する情報が含まれているため、ユーザーは呼び出し元に対処するための適切なコンテキストを提供します。
 
-ユーザーに、自動アテンダントまたは呼び出しキューからの着信呼び出しを表示する方法を次の図に示します。
+次の図は、自動応答または通話キューからの着信がユーザーにどのように表示されるかを示しています。
 
-![着信通知](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![着信通話の通知](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-ユーザーが、他の呼び出し & #x 2014; のような呼び出しを処理できる、自動アテンダントまたは呼び出しキューの呼び出しが応答すると、1 回追加することや会議の他のユーザーまたは別の関係者への呼び出しを転送します。 また、自動アテンダントの呼び出しは、ユーザーの構成に基づいて転送されます。
+自動応答または通話キューの呼び出しに応答すると、ユーザーは他の通話 & # x2014 と同様に通話を処理できます。他のユーザに追加したり、別のユーザに会議を発信したり、通話を別の相手に転送したりできます。 また、自動応答の呼び出しは、ユーザーの設定に基づいて転送されます。
 
 > [!NOTE] 
-> ユーザーの構成に基づくキューの呼び出しの呼び出しは転送されません。 これは、呼び出し元は、エージェントが通話に応答するまでキューに残ることを確認するのには、呼び出し元が予期せずに転送されていないとします。
+> 通話キューの呼び出しは、ユーザーの構成に基づいて転送されません。 これは、エージェントが呼び出しに応答し、呼び出し元が予期せず転送されるまで、呼び出し元がキューに残るようにするためです。
 
 ## <a name="supported-clients"></a>サポートされているクライアント
 
-自動アテンダントおよび呼び出しキューの呼び出しのサポートは、次のクライアントで利用可能なです。
+自動応答と通話キューの呼び出しのサポートは、次のクライアントで利用できます。
 
 -   Microsoft Teams Windows クライアント (バージョン 32 および 64 ビット)
 -   Microsoft Teams Mac クライアント
--   マイクロソフト チームの iPhone アプリ
--   マイクロソフト チーム Android アプリ
+-   Microsoft Teams iPhone アプリ
+-   Microsoft Teams Android アプリ
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>マイクロソフト チームの自動応答、および呼び出しキューのサポートを構成します。
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft Teams の自動応答と通話キューのサポートを構成する
 
-自動応答を受信し、マイクロソフトのチームにキューの呼び出しを呼び出しには、相互運用性ポリシーを構成し、ポリシーをアップグレードする必要があります。 [移行とビジネス用の Skype とチームを使用する組織の相互運用性](migration-interop-guidance-for-teams-with-skype.md)を確認してください。 自動応答がない場合や呼び出しキューを構成したいと考えては、[クラウドの自動応答を設定](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)し、[クラウドの呼び出しキューを作成する](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)を参照してください。
+Microsoft Teams で自動応答と通話キューの通話を受信するには、相互運用性ポリシーとアップグレードポリシーを構成する必要があります。 [チームと Skype For business を併用している組織のために、移行と相互運用性](migration-interop-guidance-for-teams-with-skype.md)を確認してください。 自動応答やコールキューが構成されていない場合は、「[クラウドの自動応答を設定](create-a-phone-system-auto-attendant.md)して、[クラウドの通話キューを作成](create-a-phone-system-call-queue.md)する」を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 
 -   [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
--   [クラウドの通話キューを作成する](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
 -   [クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
--   [クラウドの自動応答をセットアップする](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
 

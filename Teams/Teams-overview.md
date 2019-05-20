@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf50b6f7acba602ec001c340e2cbe999c610e693
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2908c7f16f353d49ca25db0ef297601cc82db371
+ms.sourcegitcommit: 64cb4e9db6c83d25c2f5de0cc8b835675af80f0b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226155"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34100866"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
@@ -78,6 +78,10 @@ Skype for Business を実行していて、Teams にアップグレードする�
 - **Yammer** は、組織全体にわたるユーザーを接続するために使用します。 会社全体の取り組みを推進したり、ベスト プラクティスを共有したり、一般的な領域または関心のある話題や実践に関するコミュニティを構築したりすることができます。 クラウドソーシングのアイデアで、会社全体にわたるユーザーとのオープンなディスカッションを促進します。
 
 - **Office アプリ**は、Word、Excel、 PowerPoint、OneNote などを含む、すべてユーザーが良く知っていて、恒常的に使用している、慣れ親しんだツールです。 
+
+## <a name="teams-content-updates"></a>Teams のコンテンツ アップデート
+
+「[更新された Teams のトピックの週間リスト](teams-updates.md)」をご覧ください。
 
 ## <a name="teams-known-issues"></a>Teams の既知の問題
 
