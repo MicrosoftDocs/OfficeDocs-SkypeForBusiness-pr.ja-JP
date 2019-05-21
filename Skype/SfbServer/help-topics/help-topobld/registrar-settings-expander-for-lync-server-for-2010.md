@@ -5,33 +5,33 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
-description: 弾力性の設定を編集し、次のプロパティを構成します。
-ms.openlocfilehash: d02462b03b7255860695e373af276a69d92956e0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 回復性の設定を編集し、次のプロパティを構成します。
+ms.openlocfilehash: 5ed1311e73ea035b7672ba75bab337c9212e8816
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910250"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282239"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Lync Server 2010 用のレジストラー設定の展開
  
-**弾力性**の設定を編集し、次のプロパティを構成します。
+**回復性**の設定を編集し、次のプロパティを構成します。
   
-- **関連バックアップ レジストラー プール**をリストから選択します。
+- 一覧から [**関連付けられているバックアップレジストラープール**] を選びます。
     
-    必要に応じて、**自動フェイル オーバーおよびフェイル バック音声**のチェック ボックスを選択します。
+    必要に応じて、[**自動フェールオーバーと音声のフェールバック**] チェックボックスをオンにします。
     
-    **音声障害検出の間隔 (秒)** と**音声のフェイル バックの間隔 (秒)** を構成します。 既定では、間隔は、音声障害を検出するための 120 秒ボイスのフェイル バックの 240 秒です。
+    **ボイスエラー検出間隔 (sec)** と**ボイスバックの間隔 (秒)** を構成します。 既定では、音声の障害検出と240秒のボイスバックの間隔は120秒です。
     
     > [!CAUTION]
-    > 復元が期待どおりに動作するためには、フェイル オーバーとフェイル バックの間隔を定義する秒数を慎重にテストする必要があります。 間隔を低に設定する (つまりより小さい 120 秒) や、フェイル オーバーとフェイル バックの設定が非常に密接に実際のフェールオーバーおよびフェールバックが期待どおりに動作していません。 
+    > フェールオーバーとフェールバックの間隔に対して定義した秒数は、回復性が期待どおりに動作することを確認するために慎重にテストする必要があります。 間隔を低 (つまり、120秒未満) に設定した場合、またはフェールオーバーとフェールバックがあまりにも設定されていない場合は、実際のフェールオーバーが予期したとおりに機能しないことがあります。 
   
   [**OK**]: ダイアログでの変更を受け入れて確定します。
   

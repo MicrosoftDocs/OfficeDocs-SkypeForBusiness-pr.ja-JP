@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: Unregister-CcAppliance コマンドレットは、オンラインのテナント構成内の PSTN サイトから、現在の Skype for Business Cloud Connector エディションのアプライアンスを登録解除します。
-ms.openlocfilehash: 6ee21f66c2b189aff8c8aa7d831369536618b18c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: fafe374371cd01b2ec7c67ade89dd2a905e16d18
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892005"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286874"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
@@ -58,7 +58,7 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 Register-CcAppliance コマンドレットと同様に、CloudConnector.ini ファイルでエッジ サーバーの外部 FQDN と組み合わされた SiteName は PSTN サイトの ID として考慮されます。同じく、CloudConnector.ini ファイルで仲介サーバーの FQDN と組み合わされた ApplianceName は、アプライアンス ID として考慮されます。
   
-アプライアンスは、登録されているが、再起動、クラウドのコネクタの管理サービスとログの NetworkService アカウントとして。
+アプライアンスの登録が解除されたら、クラウドコネクタ管理サービスを再起動し、NetworkService アカウントとしてログオンします。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>

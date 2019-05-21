@@ -1,31 +1,31 @@
 ---
-title: 有効にするか、Skype のビジネス サーバーのアーカイブを無効にします。
+title: Skype for Business Server でアーカイブを有効または無効にする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
-description: '概要: は、有効または、Skype のビジネス サーバーのアーカイブを無効にする方法を説明します。'
-ms.openlocfilehash: 27cb7aab08c6a85f21e058848963bb42de6e1635
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server でアーカイブを有効または無効にする方法について説明します。'
+ms.openlocfilehash: 0e4ef4dde27ffa5856f2b73b69ffbadc24399c59
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885032"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286145"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>有効にするか、Skype のビジネス サーバーのアーカイブを無効にします。
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Skype for Business Server でアーカイブを有効または無効にする
 
-**の概要:** 有効にするか、Skype のビジネス サーバーのアーカイブを無効にする方法を説明します。
+**概要:** Skype for Business Server でアーカイブを有効または無効にする方法について説明します。
   
 ## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>コントロール パネルを使用してアーカイブを有効または無効にする
 
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     

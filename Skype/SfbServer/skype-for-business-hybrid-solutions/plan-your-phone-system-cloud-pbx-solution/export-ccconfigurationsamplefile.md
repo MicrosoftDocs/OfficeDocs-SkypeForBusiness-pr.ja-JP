@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: Export-CcConfigurationSampleFile コマンドレットは、Skype for Business Cloud Connector エディションのサンプル構成ファイル (.ini) を Cloud Connector アプライアンスのアプライアンス ディレクトリにエクスポートします。このファイルの名前は、お使いの展開での使用に合わせて変更できます。
-ms.openlocfilehash: 3154ff3492899de244c3033e4e35345132d04f20
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 440253bc6b9c4e980a6f7ac4aae0c82ebad05660
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233989"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287382"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
@@ -37,7 +37,7 @@ Export-CcConfigurationSampleFile
 
 ### <a name="example-1"></a>例 1
 
-次の例では、マイクロソフトのサイトからサンプルの構成ファイルをダウンロードし、コネクタのクラウド アプライアンスのアプライアンスのディレクトリに書き込みます。
+次の例では、Microsoft サイトからサンプルの構成ファイルをダウンロードし、クラウドコネクタのアプライアンスの appliance ディレクトリに書き込みます。
   
 ```
 Export-CcConfigurationSampleFile
@@ -46,9 +46,9 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-クラウド コネクタの現在のバージョンでは、.ini ファイル内のいくつかのパラメーターを指定する必要があります。クラウド コネクタ コンポーネント、コンポーネント名、ゲートウェイ パラメーター、およびなどの仮想マシンの IP アドレスなどのパラメーターなど。
+Cloud Connector の現在のバージョンでは、.ini ファイルにいくつかのパラメーターを指定する必要があります。たとえば、クラウドコネクタコンポーネントの仮想マシンの IP アドレス、コンポーネント名、ゲートウェイパラメーターなどのパラメーターがあります。
   
-クラウドのコネクタのホスト マシン上で実行すると、このコマンドレットでは、マイクロソフトのサイトから、サンプル .ini ファイルの構成の例をダウンロードします。 コマンドレットでは、コネクタのクラウド アプライアンスのアプライアンスのディレクトリにファイルを書き込みます。 アプライアンス ディレクトリは Set-CcApplianceDirectory コマンドレットを使用して指定されます。
+このコマンドレットは、クラウドコネクタのホストコンピューターで実行すると、Microsoft サイトの構成例と共にサンプルの .ini ファイルをダウンロードします。 このコマンドレットは、クラウドコネクタアプライアンスのアプライアンスディレクトリにファイルを書き込みます。 アプライアンス ディレクトリは Set-CcApplianceDirectory コマンドレットを使用して指定されます。
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>

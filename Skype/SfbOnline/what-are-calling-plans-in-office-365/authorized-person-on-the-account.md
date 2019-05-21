@@ -1,5 +1,5 @@
 ---
-title: アカウントの権限のあるユーザー
+title: アカウントの認証済みユーザー
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,22 +20,22 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
 ms.custom:
 - Calling Plans
-description: 新しいローカル番号のポートの注文ウィザードを使用すると、アカウントに変更を加える権限を持つ人を追加する必要がある理由について説明します。
-ms.openlocfilehash: 0220e999a2454cd4fb80fadd19678e9108e4707b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 新しい電話番号のポート注文ウィザードを使用するときに、アカウントを変更できる認証済みユーザーを追加する必要がある理由について説明します。
+ms.openlocfilehash: 58348e1220d0534f2c8ec282c65496d71707a35c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233237"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303863"
 ---
-# <a name="authorized-person-on-the-account"></a>アカウントの権限のあるユーザー
+# <a name="authorized-person-on-the-account"></a>アカウントの認証済みユーザー
 
-**新しいローカル番号のポートの順序**と、ウィザードでは、サービスプロバイダーまたは通信業者のアカウントを変更する権限を与えられた人の名前を入力してください。 名前はポート注文の処理には使用されませんが、問題が発生して、使用か、誤りがある場合、番号移植します。 この人が責任を負うことに、文字の承認 (ロード) ポートの順になります。
+**新しい電話番号のポート注文**ウィザードでは、サービスプロバイダーまたは携帯電話会社のアカウントに変更を加える権限を持つユーザーの名前を入力する必要があります。 この名前は、ポート注文の処理には使用されませんが、紛争の場合に使用されます。または、番号の移植時に何らかの問題が発生した場合に使います。 この人物は、ポート注文の承認状 (LOA) に対して責任を負うものとします。
   
 > [!NOTE]
-> ボックスが 15 の文字 (スペースを含む) に限定されるため、完全な名前がないの遅延はありませんまたはポートの注文をキャンセルします。 
+> ボックスは15文字 (スペースを含む) に制限されているため、完全な名前を指定していない場合は、ポート注文の遅延やキャンセルは行われません。 
   
- **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
+ **詳細な手順については、「 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)」を参照してください。**
 
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

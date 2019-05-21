@@ -1,33 +1,33 @@
 ---
-title: Skype のビジネス サーバーの会議の活動をレポート
+title: Skype for Business Server の会議アクティビティレポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: '概要: は、Skype のビジネスのサーバーが使用する会議の活動レポートについて説明します。'
-ms.openlocfilehash: 10327c002e8c3b320593d252b7401f990adeeafc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で使用されている会議アクティビティレポートについて説明します。'
+ms.openlocfilehash: 790a9d5076a371dda7c8862a74f253fdb8508296
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902775"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303879"
 ---
-# <a name="conference-activity-report-in-skype-for-business-server"></a>Skype のビジネス サーバーの会議の活動をレポート
+# <a name="conference-activity-report-in-skype-for-business-server"></a>Skype for Business Server の会議アクティビティレポート
  
-**の概要:** ビジネス サーバーの Skype で使用される会議の活動レポートについて説明します。
+**概要:** Skype for Business Server で使用されている会議アクティビティレポートについて説明します。
   
-電話会議動作状況レポートを使用すると、たとえば 1 日に開催されている電話会議の数や、その時間帯に関する質問に簡単に答えることができます。 このような情報はそれ自体が有用であるだけでなく、トラブルシューティング ツールとしても役立ちます。 たとえば、昼頃になるとネットワークが著しく遅くなるという苦情がユーザーから寄せられているとします。 会議の活動をざっと見て報告が可能な理由の 1 つを提案する可能性があります: 10時 00分 AM の時間と他の時点で、午後 2時 00分の間でより多くの会議がスケジュールされています。
+電話会議動作状況レポートを使用すると、たとえば 1 日に開催されている電話会議の数や、その時間帯に関する質問に簡単に答えることができます。 このような情報はそれ自体が有用であるだけでなく、トラブルシューティング ツールとしても役立ちます。 たとえば、昼頃になるとネットワークが著しく遅くなるという苦情がユーザーから寄せられているとします。 会議アクティビティレポートの概要については、考えられる理由の1つとして、10:00 AM と 2:00 PM の間でスケジュールされている会議の数を確認します。
   
 ネットワーク速度が遅いために問題が起きている場合は、一部の電話会議の予定をトラフィックが少ない時間帯にずらしてもらうようにユーザーに働きかけることができます。
   
 ## <a name="accessing-the-conference-activity-report"></a>電話会議動作状況レポートにアクセスする
 
-会議活動のレポートは、次の測定値のいずれかをクリックすると、 [Business Server の Skype での会議の概要レポート](conference-summary-report.md)からアクセスされます。
+会議アクティビティレポートには、 [Skype For Business Server の会議の概要レポート](conference-summary-report.md)からアクセスできます。次のいずれかの指標をクリックします。
   
 - 電話会議の合計数
     

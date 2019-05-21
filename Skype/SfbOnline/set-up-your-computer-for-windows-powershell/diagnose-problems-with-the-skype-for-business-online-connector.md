@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 276385a1de2fe79ca03afaeeac3bb6c28945c7f7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e614ce02d9d47c1da2a8263ac8d2e1a307edb8f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225840"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284828"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Skype for Business Online Connector との接続の問題を診断する
 
@@ -52,9 +52,9 @@ ms.locfileid: "32225840"
 
 PowerShell 実行ポリシーは、PowerShell コンソールに読み込む構成ファイルやそのコンソールからユーザーが実行できるスクリプトを決定するのに役立ちます。実行ポリシーを RemoteSigned に設定していない場合、Skype for Business Online Connector モジュール をインポートすることはできません。この設定を行っていない場合にモジュールをインポートしようとすると、次のエラー メッセージが表示されます。
   
-- **エラー**:<em>モジュールのインポート: ファイル c:\\プログラム ファイル\\共通ファイル\\Microsoft Lync Server 2013\\モジュール\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 は、実行されているために、読み込むことができませんこのシステムでは、スクリプトが無効です。詳細についてを参照してくださいに about_Execution_Policieshttps://go.microsoft.com/fwlink/?LinkID=135170です</em>。
+- **エラー**:<em>インポート-モジュール: ファイル C:\\Program Files\\共通ファイル\\Microsoft Lync Server 2013\\モジュール\\LyncOnlineConnector\\LyncOnlineConnectorStartup が実行されているため読み込めません。このシステムではスクリプトが無効になっています。詳細については、「 https://go.microsoft.com/fwlink/?LinkID=135170about_Execution_Policies」を参照してください。</em>
 
-- **解像度**この問題を解決するには、管理者は、PowerShell を開始し、次のコマンドを実行します。
+- **解決策**この問題を解決するには、管理者として PowerShell を起動し、次のコマンドを実行します。
     ```
     Set-ExecutionPolicy RemoteSigned
     ```
@@ -65,18 +65,18 @@ PowerShell 実行ポリシーは、PowerShell コンソールに読み込む構�
 
 Skype for Business Online Connector モジュール は、Windows PowerShell 3.0 のバージョンでのみ実行できます。PowerShell より前のバージョンでモジュールをインポートしようとすると、インポート処理が次のようなエラー メッセージにより失敗します。
   
-  - **エラー**: インポート モジュールの *: '2.0' は、読み込まれた PowerShell のバージョンです。モジュール ' d:\\Program Files\\共通ファイル\\Microsoft Lync Server 2013\\モジュール\\LyncOnlineConnector\\LyncOnlineConnector.psd1' を実行するには、'3.0' の最小 PowerShell バージョンが必要です。PowerShell のインストールを確認して再試行してください*。
+  - **エラー**:*インポート-モジュール: 読み込まれた PowerShell のバージョンは ' 2.0 ' です。このモジュールでは\\、Program\\Files の\\一般的なファイル Microsoft\\Lync\\Server\\2013 モジュール LyncOnlineConnector LyncOnlineConnector ' を実行するには、少なくとが PowerShell バージョンの ' 3.0 ' が必要です。PowerShell のインストールを確認して、もう一度やり直してください。*
 
-- **解像度**: この問題を解決する唯一の方法は、Microsoft ダウンロード センターから入手可能ですが、Windows PowerShell 3.0 をインストールするのには、 [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)。
+- **解決策**: この問題を解決するには、Microsoft ダウンロードセンターから入手できる Windows PowerShell 3.0 をインストールする方法しか[https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)ありません。
   
 ## <a name="failed-to-connect-to-live-id-server"></a>Live ID Server への接続の失敗
 <a name="BKMKFailedConnect"> </a>
 
 次のエラー メッセージにより接続が失敗する場合は、通常 3 つの原因が考えられます。
 
-  - **エラー**: *Get CsWebTicket: ライブ id サーバーの接続に失敗しました。プロキシが有効になっているマシンには、live id のサーバーへのネットワーク接続を確認します*。
+  - **エラー**: *Get-cswebticket: live id サーバーへの接続に失敗しました。プロキシが有効になっていることを確認するか、マシンに live id サーバへのネットワーク接続があることを確認します。*
 
-- **解像度**: このエラーが Microsoft オンライン サービス サインイン アシスタントが実行されていないことを意味することがよくあります。 このサービスの状況を確認するには、PowerShell プロンプトから次のコマンドを実行します。 
+- **解決策**: 多くの場合、このエラーは Microsoft Online Services サインインアシスタントが実行されていないことを意味します。 このサービスの状況を確認するには、PowerShell プロンプトから次のコマンドを実行します。 
     ```
     Get-Service "msoidsvc"
     ```
@@ -94,18 +94,18 @@ Skype for Business Online Connector モジュール は、Windows PowerShell 3.0
 
 PowerShell を使用して Skype for Business Online を管理するための前提条件として、Microsoft Online Services サインイン アシスタント のインストールがあります。サインイン アシスタントをインストールしていない場合は、Skype for Business Online でリモート セッションを確立しようとすると次のエラー メッセージが表示されます。
 
-- **エラー**: *Get CsWebTicket: Live Id モジュールを読み込むことはできません。Live Id サインイン アシスタントのバージョンがインストールされている修正がいることを確認します*。
+- **エラー**: *Get-Cswebticket: Live Id モジュールを読み込むことができません。正しいバージョンの Live Id サインインアシスタントがインストールされていることを確認します。*
 
-- **解像度**:「Microsoft オンライン サービス サインイン アシスタントは、 [Microsoft オンライン サービス サインイン アシスタントの IT プロフェッショナルの RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)に Microsoft ダウンロード センターで利用可能な
+- **解決**方法: microsoft Online services サインインアシスタントは、 [it プロフェッショナル向けの Microsoft Online SERVICES サインインアシスタントプロフェッショナル用 rtwhttp://go.microsoft.com/fwlink/?linkid=625123](https://www.microsoft.com/en-us/download/details.aspx?id=28177)を参照してください。
 
 ## <a name="logon-failed-for-the-user"></a>ユーザーのログオンの失敗
 <a name="BKMKLogonFailed"> </a>
 
 Skype for Business Online にリモート接続するには、有効な Skype for Business Online ユーザー アカウントのユーザー名とパスワードを提供する必要があります。正しい資格情報を提供しないと、次のようなエラー メッセージによりログオンが失敗します。
 
-- **エラー**: *Get CsWebTicket: 'kenmyer@litwareinc.com' のユーザーのログオンに失敗しました。正しいユーザー名とパスワードを使用していることを確認する、新しい PSCredential オブジェクトを作成してください*。
+- **エラー**: *Get-cswebticket: ユーザー ' Kenmyer@litwareinc.com ' のログオンに失敗しました。新しい PSCredential オブジェクトを作成して、正しいユーザー名とパスワードを使用していることを確認してください。*
 
-- **解像度**: ログオンし直して、正しいパスワードがあると、有効なユーザー アカウントを使用するいると思われる場合。 それでも失敗する場合は、同じ資格情報を使用して [https://login.microsoftonline.com/](https://login.microsoftonline.com/) にログオンしてみてください。 そこでもログオンできない場合は、Office 365 サポートにお問い合わせください。 
+- **解決策**: 有効なユーザーアカウントを使用していて、正しいパスワードを持っていると思われる場合は、もう一度ログインしてみてください。 それでも失敗する場合は、同じ資格情報を使用して [https://login.microsoftonline.com/](https://login.microsoftonline.com/) にログオンしてみてください。 そこでもログオンできない場合は、Office 365 サポートにお問い合わせください。 
 
   
 ## <a name="the-user-does-not-have-permission-to-manage-this-tenant"></a>このテナントを管理する権限がユーザーにない
@@ -113,39 +113,39 @@ Skype for Business Online にリモート接続するには、有効な Skype fo
 
 テナント管理者グループのメンバー以外は、PowerShell へのリモート Skype for Business Online 接続を行うことはできません。メンバーでない場合は、接続が失敗し、次のエラー メッセージが表示されます。
 
-- **エラー**: 新規 PSSession を *: [admin.vdomain.com] admin.vdomain.com のリモート サーバーからのデータの処理は、次のエラー メッセージで失敗しました: ユーザー 'user@foo.com' には、このテナントを管理する権限はありません。適切な RBAC の役割にユーザーを割り当てることにより、アクセス許可を与えることができます。詳細については、[リモートでのトラブルシューティング](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)を参照してください*。
+- **エラー**:*新しい-PSSession: [admin.vdomain.com] リモートサーバー admin.vdomain.com からデータを処理するときに、次のエラーメッセージが表示されました。ユーザー ' user@foo.com ' にはこのテナントを管理する権限がありません。権限を付与するには、適切な RBAC の役割をユーザーに割り当てます。詳細については、「[リモートのトラブルシューティング](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)」を参照してください。*
 
-- **解決方法**: Office 365 のサポートに連絡する必要があります、または、テナント管理者グループのメンバーであることになっていることと思われる場合。
+- **解決策**: テナント管理者グループのメンバーであると考えられる場合は、Office 365 サポートに連絡する必要があります。
   
 ## <a name="ability-to-connect-to-tenant-has-been-disabled-in-skype-for-business-online"></a>テナントに接続する機能が Skype for Business Online で無効化されている
 <a name="BKMKAbilityConnect"> </a>
 
 PowerShell を使用して Skype for Business Online を管理するには、テナント PowerShell ポリシーの EnableRemotePowerShellAccess プロパティを  `True` に設定する必要があります。この設定を行っていない場合は、接続が失敗し、次のエラー メッセージが表示されます。
 
-- **エラー**: 新規 PSSession を *: [admin.vdomain.com] admin.vdomain.com のリモート サーバーからのデータの処理は、次のエラー メッセージで失敗しました: リモート PowerShell セッションを使用してこのテナントに接続する機能が無効になっています。このテナントのテナント Powershell のポリシーを確認するのには、Lync ヘルプにお問い合わせください。詳細については、[リモートでのトラブルシューティング](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)を参照してください*。
+- **エラー**:*新しい-PSSession: [admin.vdomain.com] リモートサーバー admin.vdomain.com からデータを処理するときに、次のエラーメッセージが表示されました。リモート PowerShell セッションを使用してこのテナントに接続する機能が無効になりました。このテナントのテナント Powershell ポリシーを確認するには、Lync のヘルプにお問い合わせください。詳細については、「[リモートのトラブルシューティング](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)」を参照してください。*
 
-- **解決方法**: Office 365 のサポートに連絡し、PowerShell のリモート アクセスを有効にする必要がありますこのエラー メッセージが表示された場合。
+- **解決策**: このエラーメッセージが表示される場合は、Office 365 サポートに連絡して、リモート PowerShell アクセスを有効にする必要があります。
   
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded"></a>Skype for Business Online でのこのユーザーの同時シェルの最大数を超過している
 <a name="BKMKMaxNumberShellsUser"> </a>
 
 各管理者は、Skype for Business Online への同時リモート接続の最大数が 3 に設定されています。3 つのリモート PowerShell 接続を開始し、実行している場合に 4 つ目の同時接続を試行すると、次のエラー メッセージにより失敗します。
 
-- **エラー**: 新規 PSSession を *: [admin.vdomain.com] admin.vdomain.com のリモート サーバーへの接続は、次のエラー メッセージで失敗しました:、WS-Management サービスは要求を処理できません。このユーザーの同時実行のシェルの最大数を超えています。既存のシェルを閉じるか、このユーザーのクォータを生成します。詳細については、[リモート トラブルシューティング] を参照してください (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **エラー**:*新しい-PSSession: [admin.vdomain.com] リモートサーバー admin.vdomain.com に接続できませんでした。次のエラーメッセージが表示されます: ws-management サービスは要求を処理できません。このユーザーの同時シェルの最大数を超過しています。このユーザーの既存のシェルを閉じるか、またはクォータを増やします。詳細については、「[リモートトラブルシューティングhttps://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 ]」を参照してください*。
 
-- **解像度**: この問題を解決する唯一の方法は、1 つ以上の以前の接続を閉じることです。 Skype for Business Online セッションが終了したら、 **Remove-PSSession** コマンドレットを使用してそのセッションを切断することをお勧めします。 そうすることにより、この問題が発生することを防ぐことができます。
+- **解決策**: この問題を解決するには、1つまたは複数の以前の接続を閉じる方法しかありません。 Skype for Business Online セッションが終了したら、 **Remove-PSSession** コマンドレットを使用してそのセッションを切断することをお勧めします。 そうすることにより、この問題が発生することを防ぐことができます。
   
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>Skype for Business Online でのこのテナントの同時シェルの最大数を超過している
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-各管理者は、Skype のオンライン ビジネスのテナントに最大で 3 つの同時接続を許可されていますが、20 件以上の同時接続を使用して単一のテナントは許可されません。 たとえば、6 つの管理者がありますそれぞれ 3 つの開いているセッション。 場合 4 番目の管理者が (21 の同時接続の合計の結果として)、2 つ以上の接続を確立しようとすると、この失敗します、次のエラー メッセージ。
+各管理者には、Skype for Business Online テナントへの同時接続が最大3つまで許可されていますが、1つのテナントで同時接続を20個以下にすることはできません。 たとえば、6人の管理者が開いたセッションを3つ持っている場合があります。 4つの管理者が2つ以上の接続を試みる場合 (合計21個の同時接続の結果)、この試みは失敗し、次のエラーメッセージが表示されます。
   
-- **エラー**: 新規 PSSession を *: [admin.vdomain.com] admin.vdomain.com のリモート サーバーへの接続は、次のエラー メッセージで失敗しました:、WS-Management サービスは要求を処理できません。このテナントの同時シェルの最大数を超えています。既存のシェルを閉じるか、このテナントのクォータを生成します。詳細については、[リモート トラブルシューティング] を参照してください (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **エラー**:*新しい-PSSession: [admin.vdomain.com] リモートサーバー admin.vdomain.com に接続できませんでした。次のエラーメッセージが表示されます: ws-management サービスは要求を処理できません。このテナントの同時シェルの最大数を超過しています。既存のシェルを閉じるか、このテナントのクォータを上げます。詳細については、「[リモートトラブルシューティングhttps://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 ]」を参照してください*。
 
-- **解像度**: この問題を解決する唯一の方法は、1 つ以上の以前の接続を閉じることです。 Skype for Business Online セッションが終了したら、 **Remove-PSSession** コマンドレットを使用してそのセッションを切断することをお勧めします。 そうすることにより、この問題が発生することを防ぐことができます。  
+- **解決策**: この問題を解決するには、1つまたは複数の以前の接続を閉じる方法しかありません。 Skype for Business Online セッションが終了したら、 **Remove-PSSession** コマンドレットを使用してそのセッションを切断することをお勧めします。 そうすることにより、この問題が発生することを防ぐことができます。  
  
 ## <a name="related-topics"></a>関連トピック
-[Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します](set-up-your-computer-for-windows-powershell.md)
+[Windows PowerShell を使用して skype for business online 管理用にコンピューターをセットアップする](set-up-your-computer-for-windows-powershell.md)
 
   
  

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: フランスの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 883a6e7119a27871a93830783d6eae4bd68d1ad3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: フランス向けの Skype for Business および Microsoft Teams の Office 365 サービスを次に示します。
+ms.openlocfilehash: 6aa19380d26e48990801fdaf5487c6e333b75a94
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226338"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282971"
 ---
 # <a name="availability-in-france"></a>フランスでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-フランスの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+フランス向けの Skype for Business および Microsoft Teams の Office 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。<br/><ul><li> パリ</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li> パリ</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -60,8 +60,8 @@ ms.locfileid: "32226338"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|分の計画を呼び出すに使用できます。 |1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分、国内の計画を呼び出す </li><li>240 分、国内の計画を呼び出す</li></li><li>1200 分、国内の計画を呼び出す </li></li><li>国内と国際を呼び出す計画: 国内 OR 600 時間 (分) の (どちらかに達すると最初の予定表の月の)、国際通話 1200 分</li></li> 
-|フランスのプレミアム番号への発信コールができるでしょうか。 <br/> | [はい]、1 分あたりの支払にクレジットの通信を使用する場合は完全にサポートします。 <br/> |
+|通話プランの利用可能な時間 (分)。 |カレンダーの月ごとに、次の4つのプランオプションを利用できます。 <ul><li>120分国内通話プラン </li><li>240分国内通話プラン</li></li><li>1200分国内通話プラン </li></li><li>国内および国際通話プラン: 1200 分 (600 国内通話 (予定表の月の最初に到達した方)</li></li> 
+|フランスの有料電話番号を発信することはできますか? <br/> | はい、通信クレジットを使って分単位の支払いを行う場合に完全にサポートされます。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号

@@ -1,35 +1,35 @@
 ---
-title: ピア ツー ピア音声および業務サーバーの Skype でのビデオ レポート
+title: Skype for Business Server のピアツーピア音声とビデオレポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: '概要: をピア ツー ピア音声および業務サーバーの Skype でのビデオのレポートについて説明します。'
-ms.openlocfilehash: 74ab2f5056c66bbd819834a573a307bd8cf82773
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のピアツーピア音声とビデオに関するレポートについて説明します。'
+ms.openlocfilehash: 8ba665886e91371373358f98f69fa15b8d62a9dd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898039"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279635"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>ピア ツー ピア音声および業務サーバーの Skype でのビデオ レポート
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Skype for Business Server のピアツーピア音声とビデオレポート
  
-**の概要:** ピア ツー ピア音声および業務サーバーの Skype でのビデオのレポートについて説明します。
+**概要:** Skype for Business Server のピアツーピア音声とビデオに関するレポートについて説明します。
   
 ピアツーピア音声およびビデオ レポートは、指定した期間における音声通話やビデオ通話の配信に関する詳細を提供します (たとえば、1 時間あたりの通話回数または 1 日あたりの通話回数)。また、行われたすべての音声通話とビデオ通話を表示したり、正常な通話または失敗した通話のみを表示したりできます。レポートでは、次のグループに分割した通話情報が表示されます。
   
 - プール別の通話
     
-- 呼び出しの種類 (たとえば、ビジネスで Skype、Skype ビジネスの呼び出しの PSTN ネットワーク上のユーザーとビジネスの呼び出し Skype) あたりの呼び出し
+- 通話の種類 (skype for business から Skype for business 通話への通話、および skype for business から PSTN ネットワークへの通話など) あたりの通話
     
 - アクセスの種類別の通話 (内部ネットワークにログオンしているユーザー、外部ネットワークにログオンしているユーザー)
     
-- 仲介サーバーあたりの呼び出し
+- 仲介サーバーあたりの通話
     
 ## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a>ピアツーピア音声およびビデオ レポートにアクセスするには
 
@@ -70,7 +70,7 @@ ms.locfileid: "33898039"
 
 |**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
-|**プール** <br/> |いいえ  <br/> |レジストラー プールまたはエッジ サーバーの呼び出しに使用される名前です。  <br/> |
+|**プール** <br/> |いいえ  <br/> |通話に使用されるレジストラープールまたはエッジサーバーの名前。  <br/> |
 |**日付/時刻** <br/> |いいえ  <br/> |通話が行われた日付と時間。  <br/> |
 |**合計** <br/> |いいえ  <br/> |セッション数またはメッセージ数の合計。  <br/> |
    
@@ -100,13 +100,13 @@ ms.locfileid: "33898039"
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>仲介サーバー別のピアツーピア音声およびビデオ アクティビティの指標
 
-次の表は、各仲介サーバーのピア ツー ピア音声およびビデオ レポートに表示される情報を一覧します。
+次の表は、各仲介サーバーのピアツーピア音声およびビデオレポートで提供される情報をまとめたものです。
   
 **仲介サーバー別のピアツーピア音声およびビデオ アクティビティの指標**
 
 |**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
-|**仲介サーバー** <br/> |不可  <br/> |仲介サーバーの名前です。  <br/> |
+|**仲介サーバー** <br/> |不可  <br/> |仲介サーバーの名前。  <br/> |
 |**日付/時刻** <br/> |不可  <br/> |通話が行われた日付と時間。  <br/> |
 |**合計** <br/> |いいえ  <br/> |セッション数またはメッセージ数の合計。  <br/> |
    

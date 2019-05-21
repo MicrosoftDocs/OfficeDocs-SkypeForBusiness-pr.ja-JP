@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,29 +18,29 @@ f1keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
-description: 'ユーザーが、利用可能時間を表示する方法より細かく制御できますように、ユーザーのプライバシー モードを設定する方法について説明します。 '
-ms.openlocfilehash: e51c4b6a545b59dc6eed713a1518f44f1cd25443
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'ユーザーにプライバシーモードを設定する方法について説明します。ユーザーは、自分の空き時間情報の表示方法を制御しやすくすることができます。 '
+ms.openlocfilehash: 42c902c11cd54d97e94499e23ac769161cfebbb9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237418"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285316"
 ---
 # <a name="configure-presence-privacy-mode"></a>プレゼンス プライバシー モードを設定する
 
-ビジネス オンライン プレゼンスの設定の Skype では、会議室、またはオフィスの外に使用されるかどうかを参照できるメンバーがより詳細に制御人を示します。 詳細については Skype のビジネスが存在し、プライバシーの設定、[ビジネス オンラインの Skype のプレゼンスを構成する](configure-presence-in-skype-for-business-online.md)を参照してください。 
+Skype for Business Online のプレゼンス設定を使用すると、ユーザーは連絡可能か、会議中か、または外出中かをより詳細に制御できます。 Skype for Business のプレゼンスとプライバシーの設定の詳細については、「 [skype For Business Online でプレゼンスを設定する](configure-presence-in-skype-for-business-online.md)」を参照してください。 
   
-## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>組織内のすべてのユーザーの既定のオンライン プレゼンスの設定を選択します。
+## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>組織内のすべてのユーザーに対して既定のオンラインプレゼンス設定を選択する
 <a name="__top"> </a>
 
-1. ビジネス オンライン管理センター _gt**組織 _gt 全般**の Skype に移動します。
+1. Skype for Business Online 管理センターの >**組織 _GT_ 全般**に移動します。
     
-2. [**プレゼンス プライバシー モード**の場合は、設定を選択し、し、[**保存**] をクリックします。
+2. [**プレゼンスプライバシーモード**] で設定を選択し、[**保存**] をクリックします。
     
-|**設定**|**ユーザーのプレゼンスを表示できるユーザー**|
+|**]**|**ユーザーのプレゼンスを表示できるユーザー**|
 |:-----|:-----|
 |**プレゼンス情報を自動的に表示する** <br/> |[ **外部** ] または [ **禁止済み** ] プライバシー グループに属していないすべての Skype for Business ユーザー。 <br/> |
-|**プレゼンス情報をユーザーの連絡先にのみ表示します。** <br/> |ユーザーの連絡先] ボックスの一覧または**ブロック**の**外部**のプライバシー グループに属さないユーザーにすべてのユーザー。 <br/> 個々 のユーザーは、Skype のビジネス**のオプション**] ダイアログ ボックスでこの設定を変更できます。 <br/> |
+|**プレゼンス情報をユーザーの連絡先にのみ表示する** <br/> |ユーザーの連絡先リストに含まれる人のうち、[**外部**] または [**禁止**済み] プライバシーグループに属していない人 <br/> 個々のユーザーは、Skype for Business の [**オプション**] ダイアログボックスでこの設定を変更できます。 <br/> |
    
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)

@@ -1,10 +1,10 @@
 ---
-title: Skype のビジネス サーバーのネットワーク地域リンクを作成します。
+title: Skype for Business Server でネットワーク領域リンクを作成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: 作成または、Skype でのエンタープライズ VoIP 通話受付制御ビジネスのサーバーの使用は、ネットワーク地域リンクを変更します。
-ms.openlocfilehash: c3b0f24ffdeea1724c89951ffc88516aea4dffb5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server のエンタープライズボイス通話受付制御によって使用されるネットワーク地域リンクを作成または変更します。
+ms.openlocfilehash: 60d4d6f1279e7f6ad3946a6b25fb32ecd589ab07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892959"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286271"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server"></a>Skype のビジネス サーバーのネットワーク地域リンクを作成します。
+# <a name="create-network-region-links-in-skype-for-business-server"></a>Skype for Business Server でネットワーク領域リンクを作成する
  
-作成または、Skype でのエンタープライズ VoIP 通話受付制御ビジネスのサーバーの使用は、ネットワーク地域リンクを変更します。 
+Skype for Business Server のエンタープライズボイス通話受付制御によって使用されるネットワーク地域リンクを作成または変更します。 
   
 ネットワーク内の地域は、物理的な WAN 接続を経由してリンクされます。 ネットワーク地域リンクは、通話受付管理 (CAC) 用に構成された 2 つの地域間のリンクを作成し、これらの地域間の音声トラフィックとビデオ トラフィックに帯域幅制限を設定します。
   
-トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 地域リンクの帯域幅情報の表に示すよう WAN の帯域幅が指定されている各地域のこれらのリンクの[の使用例: ビジネス サーバー Skype の呼受付制御の要件の収集](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
+トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 これらの地域リンクはそれぞれ、WAN の帯域幅によって制限されます。「地域リンクの帯域幅情報」の表 (「 [Skype For Business Server での通話受付制御の要件を収集する](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)」を参照してください)。
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用してネットワーク地域リンクを作成するには
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワーク領域リンクを作成するには
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
@@ -43,9 +43,9 @@ ms.locfileid: "33892959"
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用してネットワーク地域リンクを作成するには
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用してネットワーク領域のリンクを作成するには
 
-1. Skype をビジネス サーバーのコントロール パネルを開きます。
+1. Skype for Business Server コントロールパネルを開きます。
     
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
     
@@ -74,6 +74,6 @@ ms.locfileid: "33892959"
   
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[セット CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[削除 CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[CsNetworkRegionLink を削除する](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)

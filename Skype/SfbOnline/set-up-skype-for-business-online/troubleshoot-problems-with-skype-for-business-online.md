@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 07cc390cdc4e65d0ce8f59c42c6eb57f4900e949
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237185"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285056"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Skype for Business Online に関する問題のトラブルシューティング
 
@@ -31,7 +31,7 @@ ms.locfileid: "32237185"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Skype for Business Online に関する管理者の問題のトラブルシューティング
 
-[Skype のビジネス オンラインのサインインのエラーの一般的な原因を確認](troubleshooting-sign-in-errors-for-admins.md#toc323194094)してオンライン ビジネスについては、Skype のほとんどの回答が得られます。 この KB 資料は、トラブルシューティングの多くのリソースとエラーにも、コードの参照: [Skype のビジネスをオンラインでサインインの問題をトラブルシューティングする方法](https://go.microsoft.com/fwlink/p/?LinkId=747952)。
+Skype for business online の[サインインエラーの一般的な原因をチェック](troubleshooting-sign-in-errors-for-admins.md#toc323194094)することで、Skype For business online のほとんどの質問に対する回答を得ることができます。 このサポート技術情報には、「 [Skype For Business Online でのサインインの問題のトラブルシューティング方法」](https://go.microsoft.com/fwlink/p/?LinkId=747952)も参照してください。
 
 ダイヤルイン会議の問題については、「[電話会議のトラブルシューティングと既知の問題](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)」を参照してください。
 
@@ -65,13 +65,13 @@ Skype for Business Online ユーザーが直面する問題の多くはパスワ
 
 - [Skype for Business 会議のヘルプ](https://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
 
-- [Skype ビジネス トレーニング](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
+- [Skype for Business のトレーニング](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
 
 - [Skype for Business でプログラムを表示する](https://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
 
 - [Skype for Business (Lync) のエラー ログを有効にする](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)
 
-## <a name="still-need-help-contact-support"></a>さらにサポートが必要な場合のサポート サービス
+## <a name="still-need-help-contact-support"></a>さらにヘルプが必要な場合 サポートにお問い合わせください。
 <a name="BK_SupportBridge_1"> </a>
 
 一般法人向け Office 365 の管理者は、知識の豊富なサポート担当者に無料で問い合わせて、購入前のお問い合わせ、アカウント、課金に関するサポート、および技術的な問題の解決についての支援を受けることができます。組織の Office 365 ユーザーに代わって[サポートに問い合わせる](https://go.microsoft.com/fwlink/p/?LinkID=518322)こともできます。

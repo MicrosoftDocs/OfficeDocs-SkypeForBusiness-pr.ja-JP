@@ -1,10 +1,10 @@
 ---
-title: Skype ビジネス サーバーの作業時間を使用して呼び出しを配置します。
+title: Skype for Business Server での作業による通話の展開
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,47 +12,47 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: '概要: ビジネスのサーバーの一部またはすべてのユーザーの Skype の呼び出しを使用して作業を配置する方法を説明します。'
-ms.openlocfilehash: 3518d5a4d2977ae976450dff4e028365bebe0703
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: 一部またはすべてのユーザーに対して、Skype for Business Server で作業を通じて通話を展開する方法について説明します。'
+ms.openlocfilehash: a2d4783f39ca19fd751295f4725f686d843f8d5b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893526"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286391"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Skype ビジネス サーバーの作業時間を使用して呼び出しを配置します。
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Skype for Business Server での作業による通話の展開
  
-**の概要:** ビジネス サーバーの一部またはすべてのユーザーの Skype の呼び出しを使用して作業を配置する方法について説明します。
+**概要:** 一部またはすべてのユーザーに対して、Skype for Business Server で作業を通じて通話を展開する方法について説明します。
   
-ユーザーの作業を使用して呼び出しを配置するのにには、次の手順を使用します。 計画に関する考慮事項については、 [Skype ビジネス サーバー用の呼び出しを使用して作業の計画](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)で説明します。 Lync Server のリモート呼び出しの以前のバージョンでは、コントロールは、Lync Server は PBX 電話を制御するユーザーを有効にする機能でした。 ビジネス サーバーの Skype は、この機能は作業時間を使用して呼び出しを交換済み。 
+次の手順を使用して、ユーザーの勤務先で通話を展開します。 計画の考慮事項については、「 [Skype For Business Server での作業による通話の計画](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)」をご紹介します。 以前のバージョンの Lync Server リモート通話コントロールは、ユーザーが Lync Server を使って PBX 電話を制御できるようにする機能です。 Skype for Business Server では、この機能は勤務先からの通話に置き換えられました。 
   
-## <a name="prerequisites-for-call-via-work"></a>作業を使用して呼び出すのための前提条件
+## <a name="prerequisites-for-call-via-work"></a>勤務先での通話の前提条件
 
-作業による呼び出しは、ユニファイド コミュニケーション Web API (UCWA)、ビジネス サーバーのフロント エンド サーバーのすべての Skype で自動的にインストールされるを使用します。 作業による呼び出しでユーザーを有効にするのにも必要次の前提条件の場所でです。 
+勤務先での通話ユニファイドコミュニケーション Web API (UCWA) は、すべての Skype for Business Server フロントエンドサーバーに自動的にインストールされます。 勤務先のユーザーによる通話を有効にするには、次の前提条件が設定されている必要があります。 
   
-- サーバーをフロント エンド サーバーの一部として、またはスタンドアロンの役割として展開するには、仲介サーバーが必要です。 また、IP-PBX ゲートウェイの展開も必要です。
+- フロントエンドサーバーの一部として、またはスタンドアロンの役割として、仲介サーバーが展開されている必要があります。 また、IP-PBX ゲートウェイの展開も必要です。
     
-- 作業を使用して呼び出しを有効化するすべてのユーザーには、PBX 電話システムに直接内側ダイヤル (DID) 必要があります。 
+- 職場経由で通話を有効にするすべてのユーザーは、PBX 電話システムで、直接の内側ダイヤル (DID) を使用する必要があります。 
     
-- エンタープライズ VoIP のすべての作業の呼び出しを使用してユーザーを有効にする必要があります。 これを行うと、対応する PBX 電話システムの対応する DID 番号を各ユーザーの数のビジネスでしたの Skype を構成しなければなりません。 
+- エンタープライズ Voip の勤務先ユーザーから、すべての通話を有効にする必要があります。 この操作を行う場合、各ユーザーの Skype for Business の電話番号を、対応する PBX 電話システムの対応する DID 番号に設定する必要があります。 
     
-- 作業を使用して呼び出しを使用するすべてのユーザーには、ビジネス クライアント用の Skype では、その**接続の高度な**オプションで選択されている**自動構成**が必要です。 これにより、クライアントが UCWA の Url を検出します。 [**自動構成**] は既定で選択されています。
+- 勤務先で通話を使用するすべてのユーザーは、Skype for Business クライアントの **[Advanced Connections** ] オプションで**自動構成**を選択する必要があります。 これにより、クライアントは UCWA Url を検出できるようになります。 [**自動構成**] は既定で選択されています。
     
-- 作業の呼び出しを使用してユーザーごとに、着信の転送および同時呼び出しを有効にします。 
+- 職場ユーザーからの通話ごとに、着信の転送と同時呼び出しを有効にします。 
     
-- 作業の呼び出しを使用して、ユーザーごとにダイヤルイン会議および会議のダイヤル ・ アウトが有効になっていることを確認します。 これにより、これらのユーザーにビジネス会議のために、Skype を取得します。
+- 職場ユーザーからの通話ごとに、ダイヤルイン会議と会議のダイヤルアウトが有効になっていることを確認します。 こうすることで、これらのユーザーは Skype for Business 会議にアクセスできます。
     
-- 作業を使用して呼び出しのすべてのユーザーの委任、チーム呼び出し、および応答グループが無効になっていることを確認します。
+- すべての通話について、[委任]、[チーム呼び出し]、[応答] グループが [すべて] で無効になっていることを確認します。
     
 ## <a name="deploy-call-via-work"></a>"勤務先から通話" の展開
 
 前提条件が満たされたら、次の操作を行います。
   
-- ビジネス用の Skype を作業の呼び出しを使用して呼び出しを行うユーザーの PBX の呼び出し元 ID の表示を展開するためのグローバル電話番号を作成します。 
+- 展開用のグローバル電話番号を作成します。 Skype for Business では、勤務先から通話を発信しているユーザーの PBX の発信者番号認識が表示されます。 
     
-- 1 つまたは複数の作業の呼び出しを使用してポリシーを作成します。
+- 勤務先ポリシーを使用して1つ以上の通話を作成する
     
-- 作業を使用して呼び出しを有効化する各ユーザーに作業を使用して呼び出すポリシーを割り当てる
+- 勤務先ポリシー経由で通話を有効にする各ユーザーに、職場ポリシー経由で通話を割り当てます。
     
 ### <a name="create-the-call-via-work-global-phone-number"></a>"勤務先から通話" グローバル電話番号の作成
 
@@ -76,13 +76,13 @@ ms.locfileid: "33893526"
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
-    などの次のコマンドレット ContosoUser1CvWP と呼ばれる作業の呼び出しを使用してポリシーを作成、管理のコールバック番号を使用するユーザーが必要で、コールバック番号を 1-555-789-1234 に設定。
+    たとえば、次のコマンドレットでは、ContosoUser1CvWP という勤務ポリシーを使って通話を作成し、管理者のコールバック番号を使用するようにユーザーに要求し、そのコールバック番号を1-555-789-1234 に設定します。
     
   ```
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
-### <a name="assign-a-call-via-work-policy-to-a-user"></a>作業の呼び出しを使用してポリシーをユーザーに割り当てる
+### <a name="assign-a-call-via-work-policy-to-a-user"></a>勤務ポリシーを使ってユーザーに通話を割り当てる
 
 - 次のコマンドレットを入力します。
     
@@ -90,7 +90,7 @@ ms.locfileid: "33893526"
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    たとえば、次のコマンドレットでは、 **ContosoUser1**をという名前のユーザーに作業の呼び出しを使用してポリシーの"ContosoUser1CvWP"が割り当てられます。
+    たとえば、次のコマンドレットは、Work policy "ContosoUser1CvWP" を使って呼び出しを、 **ContosoUser1**という名前のユーザーに割り当てます。
     
   ```
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
@@ -98,5 +98,5 @@ ms.locfileid: "33893526"
 
 ## <a name="see-also"></a>関連項目
 
-[Skype ビジネス サーバーの作業時間を使用して呼び出すのための計画](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Skype for Business Server での勤務先での通話の計画](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

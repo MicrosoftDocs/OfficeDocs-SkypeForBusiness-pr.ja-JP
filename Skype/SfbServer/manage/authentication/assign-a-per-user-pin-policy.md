@@ -1,28 +1,28 @@
 ---
-title: ビジネス サーバーの Skype のユーザー単位の PIN ポリシーを割り当てる
+title: Skype for Business Server でユーザーごとの PIN ポリシーを割り当てる
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: '概要: ステージの AV と OAuth の証明書ビジネス サーバーの Skype のです。'
-ms.openlocfilehash: 777944be2a2db32e4662b8afecac0023bdd2ab91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server 用の AV と OAuth 証明書のステージ'
+ms.openlocfilehash: dafb70239552b9ee2c5e84e7624e881711e8ce6f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902668"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278357"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>ビジネス サーバーの Skype のユーザー単位の PIN ポリシーを割り当てる
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Skype for Business Server でユーザーごとの PIN ポリシーを割り当てる
 
-**の概要:** ステージ AV と OAuth の証明書ビジネス サーバーの Skype のです。
+**概要:** Skype for Business Server 用の AV と OAuth 証明書のステージ
   
-ダイヤルイン会議の個人識別番号 (PIN) ポリシーは、個々 のビジネス サーバーのコントロール パネルの Skype で構成可能なユーザー アカウントの設定のいずれかです。
+ダイヤルイン会議の暗証番号 (PIN) ポリシーは、Skype for Business Server コントロールパネルで構成できるユーザーアカウントの個別の設定の1つです。
   
 ユーザーは 1 つまたは複数のユーザー単位の PIN ポリシーを展開できますが、この展開はオプションです。また、グローバルレベルの PIN ポリシーまたはサイトレベルの PIN ポリシーだけを展開することもできます。ユーザー単位のポリシーを展開する場合は、ポリシーをユーザー、グループ、または連絡先オブジェクトに明示的に割り当てる必要があります。特定のサイトレベルのポリシーやユーザー単位のポリシーが割り当てられていない場合は、ダイヤルイン会議での PIN の使用に関するユーザーの権限およびアクセス許可により、グローバルレベルの PIN ポリシーで定義された既定の設定が自動的に適用されます。
   
@@ -32,7 +32,7 @@ ms.locfileid: "33902668"
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。  
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
     
@@ -55,7 +55,7 @@ ms.locfileid: "33902668"
     > [!TIP]
     > クエリにその他の検索句を追加するには、[**フィルターの追加**] をクリックします。 
   
-   e。 [**検索**] をクリックします。
+   •. [**検索**] をクリックします。
     
 6. 検索結果のユーザーをクリックして、[**アクション**] をクリックしてから、[**ポリシーの割り当て**] をクリックします。
     
@@ -65,9 +65,9 @@ ms.locfileid: "33902668"
 7. [**ポリシーの割り当て**] の [**PIN ポリシー**] で、次のいずれかの手順を実行します。
     
     > [!NOTE]
-    > **ポリシーの割り当て**] ダイアログ ボックスを使用して構成することができます複数のポリシーがあるため**\<は、してください\>** のすべてのポリシー] ダイアログ ボックスで既定で選択します。 この設定を変更しないで、以前にユーザーに割り当てたポリシーを使用して続行します。
+    > [**ポリシーの割り当て**] ダイアログボックスを使って構成できる複数のポリシーがあるため、ダイアログボックスのすべてのポリシーで既定で [ ** \<その\>まま**実行する] が選択されています。 この設定を変更しないで、以前にユーザーに割り当てたポリシーを使用して続行します。
   
-   - Skype ビジネス サーバーを自動的にグローバル レベル ポリシーを選択するを許可するか、サイト レベルのポリシーを定義します。
+   - [Skype for Business Server] では、グローバルレベルポリシー、または定義されている場合はサイトレベルポリシーのいずれかを自動的に選択できます。
     
    - [**PIN ポリシー**] ページであらかじめ定義した、ユーザー単位の PIN ポリシーの名前をクリックします。
     
@@ -76,9 +76,9 @@ ms.locfileid: "33902668"
   
 8. 終了したら、[**OK**] をクリックします。
     
-## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ユーザー単位の PIN ポリシーを割り当てる
+## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してユーザーごとの PIN ポリシーを割り当てる
 
-Windows PowerShell と**与える CsPinPolicy**コマンドレットを使用してユーザー単位の PIN ポリシーを割り当てることができます。 ビジネス サーバー管理シェルの Skype とは Windows PowerShell のリモート セッションからは、このコマンドレットを実行することができます。 ビジネス サーバーの Skype に接続するリモートの Windows PowerShell を使用する詳細については、ブログ記事の[「クイック スタート:: を管理する Microsoft Lync サーバー 2010 を使用してリモート PowerShell」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 プロセスは、Skype のビジネス サーバーで同じです。
+ユーザーごとの PIN ポリシーを割り当てるには、Windows PowerShell と**Grant-CsPinPolicy**コマンドレットを使用します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「[クイックスタート: リモート PowerShell を使用した Microsoft Lync server 2010 の管理」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 このプロセスは、Skype for Business Server でも同じです。
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>ユーザー単位の PIN ポリシーを単一のユーザーに割り当てるには
 
@@ -90,7 +90,7 @@ Windows PowerShell と**与える CsPinPolicy**コマンドレットを使用し
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>ユーザー単位の PIN ポリシーを複数のユーザーに割り当てるには
 
-- 次のコマンドは、ユーザー単位の PIN ポリシー RedmondUsersPinPolicy を Redmond 市で働くすべてのユーザーに割り当てます。 詳細については、このコマンドで使用される、LdapFilter パラメーターは、 [Get CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)を参照してください。
+- 次のコマンドは、ユーザー単位の PIN ポリシー RedmondUsersPinPolicy を Redmond 市で働くすべてのユーザーに割り当てます。 このコマンドで使用される LdapFilter パラメーターの詳細については、「[ユーザーの取得](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)」を参照してください。
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -104,8 +104,8 @@ Windows PowerShell と**与える CsPinPolicy**コマンドレットを使用し
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-詳細については、[補助金 CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps)を参照してください。
+詳細については、「 [Grant-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps)」を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype のビジネス サーバーの新しい暗証番号 (pin) ポリシーを作成します。](create-a-new-pin-policy.md)
+[Skype for Business Server で新しい PIN ポリシーを作成する](create-a-new-pin-policy.md)

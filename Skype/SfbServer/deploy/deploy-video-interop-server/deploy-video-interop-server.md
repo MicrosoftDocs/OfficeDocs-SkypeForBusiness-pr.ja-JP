@@ -1,45 +1,45 @@
 ---
-title: ビジネス サーバーの Skype でのビデオの相互運用サーバーを展開します。
+title: Skype for Business Server でビデオ相互運用機能サーバーを展開する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
-description: '概要: ビジネス サーバーの Skype で VIS のサーバーの役割を展開します。'
-ms.openlocfilehash: 0576596d40def9470e46984c525a9add4423d1f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: VIS server の役割を Skype for Business Server に展開します。'
+ms.openlocfilehash: c6ee0e52a4ac84622fee9ba281a64d1094c38c4c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894564"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302736"
 ---
-# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのビデオの相互運用サーバーを展開します。
+# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Skype for Business Server でビデオ相互運用機能サーバーを展開する
  
-**の概要:** ビジネス サーバーの Skype で VIS のサーバーの役割を展開します。
+**概要:** VIS server の役割を Skype for Business Server に展開します。
   
-Skype ビジネス サーバーの Cisco C60 または Cisco MX300 のような Cisco 遠隔会議システム (VTCs) と直接統合できます。 これには、新しいサーバーの役割、ビデオの相互運用機能サーバー (VIS)、および、VIS と機器の両方の構成が正しいと呼ばれることと相互作用の導入が必要です。 などシスコ ユニファイド コミュニケーション マネージャー (CUCM)、既存の Cisco インフラストラクチャと、VTC を登録し、CUCM と VIS のプールとの間にビデオの SIP トランクを使用します。
+Skype for Business Server は、cisco C60 や Cisco MX300 などの Cisco の会議システム (VTCs) と直接統合できるようになりました。 これには、ビデオ相互運用サーバー (VIS) と呼ばれる新しいサーバーの役割が導入され、VIS と相互運用する機器の両方が適切に構成されている必要があります。 Cisco ユニファイドコミュニケーションマネージャー (CUCM) などの既存の Cisco インフラストラクチャとの VTC レジスタ、およびビデオ SIP トランクは、CUCM と VIS プールの間で使用されます。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
 VIS サーバーまたはプールと VTC システムの間の相互運用を構成するには、次の 5 つの手順を実行する必要があります。 
   
-- [Skype のビジネス サーバーの VIS プールを作成します。](create-a-vis-pool.md)
+- [Skype for Business Server で VIS プールを作成する](create-a-vis-pool.md)
     
-- [Skype で VIS のサーバーの役割をビジネスのサーバーの展開します。](deploy-the-vis-server-role.md)
+- [VIS server の役割を Skype for Business Server に展開する](deploy-the-vis-server-role.md)
     
-- [ビジネス サーバー用の Skype でビデオの相互運用機能のサーバーを構成します。](configure-the-vis.md)
+- [Skype for Business Server でビデオ相互運用機能サーバーを構成する](configure-the-vis.md)
     
-- [CUCM を Skype ビジネス サーバーの相互運用の構成します。](configure-cucm-for-interoperation.md)
+- [Skype for Business Server との相互運用用に CUCM を構成する](configure-cucm-for-interoperation.md)
     
-- [ビジネス サーバーの Skype での相互運用のため、VTC を構成します。](configure-a-vtc-for-interoperation.md)
+- [Skype for Business Server との相互運用用に VTC を構成する](configure-a-vtc-for-interoperation.md)
     
-## <a name="related-sections"></a>関連項目
+## <a name="related-sections"></a>関連セクション
 
-[ビジネス サーバーに、Skype でのビデオの相互運用サーバーを計画します。](../../plan-your-deployment/video-interop-server.md)
+[Skype for Business Server のビデオ相互運用機能サーバーを計画する](../../plan-your-deployment/video-interop-server.md)
   
 

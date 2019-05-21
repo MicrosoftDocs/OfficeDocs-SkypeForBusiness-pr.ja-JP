@@ -10,38 +10,38 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Office 365 の Outlook on the web (Outlook Web App) では、ナビゲーション バーから基本的な Skype for Business Web クライアントを利用できます。 このクライアントの基本的なユーザーが使用できるオンラインの管理者が Office 365 組織の修飾の URL を構成していません。 ユーザーのアカウントは、オンライン、修飾の URL を持っていない限りが表示されます、経験、組織はホーム設置は、一部のユーザー アカウントを持っている場合でも。 ユーザー アカウント、オンプレミス (かどうかがある修飾の URL か) があるか、または Microsoft によって管理されるユーザーは、Lync の経験、Outlook web app で表示されます。
-ms.openlocfilehash: 0d98d2490510b54ec0aabd4fefb7ed4137b449b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Office 365 の Outlook on the web (Outlook Web App) では、ナビゲーション バーから基本的な Skype for Business Web クライアントを利用できます。 この基本クライアントは、管理者が Office 365 組織のバニティ URL を構成していないオンラインユーザーに対して利用できます。 ユーザーのアカウントがオンラインであり、バニティの URL がない限り、組織のユーザーアカウントにオンプレミスのユーザーアカウントがある場合でも、エクスペリエンスは依然として表示されます。 オンプレミスの (バニティ URL を使用しているかどうかにかかわらず) ユーザーアカウントを持っているユーザー、または Microsoft によって管理されているユーザーには、Outlook web app で Lync エクスペリエンスが表示されます。
+ms.openlocfilehash: 3a985bd8ad0a04198501ca8d1ec780496c59f561
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237233"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285086"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Outlook on the web での Skype for Business Online のサポート
 
-[] Office 365 の Outlook on the web (Outlook Web App) では、ナビゲーション バーから基本的な Skype for Business Web クライアントを利用できます。 このクライアントの基本的なユーザーが使用できるオンラインの管理者が Office 365 組織の修飾の URL を構成していません。 ユーザーのアカウントは、オンライン、修飾の URL を持っていない限りが表示されます、経験、組織はホーム設置は、一部のユーザー アカウントを持っている場合でも。 ユーザー アカウント、オンプレミス (かどうかがある修飾の URL か) があるか、または Microsoft によって管理されるユーザーは、Lync の経験、Outlook web app で表示されます。
+Office 365 の Outlook on the web (Outlook Web App) では、ナビゲーション バーから基本的な Skype for Business Web クライアントを利用できます。 この基本クライアントは、管理者が Office 365 組織のバニティ URL を構成していないオンラインユーザーに対して利用できます。 ユーザーのアカウントがオンラインであり、バニティの URL がない限り、組織のユーザーアカウントにオンプレミスのユーザーアカウントがある場合でも、エクスペリエンスは依然として表示されます。 オンプレミスの (バニティ URL を使用しているかどうかにかかわらず) ユーザーアカウントを持っているユーザー、または Microsoft によって管理されているユーザーには、Outlook web app で Lync エクスペリエンスが表示されます。
   
-次の表では、する必要のある別の設定と使用されている web クライアントを使用しています。
+次の表は、使用する可能性がある設定と、使用されている web クライアントの種類をまとめたものです。
   
 ||||
 |:-----|:-----|:-----|
 |**ユーザー アカウントの場所** <br/> |**バニティ URL が設定されているか、専用の組織がある** <br/> |**Skype for Business または Lync のエクスペリエンス** <br/> |
-|オンライン  <br/> |なし  <br/> |Skype for Business の Web エクスペリエンス  <br/> |
+|オンライン  <br/> |いいえ  <br/> |Skype for Business の Web エクスペリエンス  <br/> |
 |オンライン  <br/> |はい  <br/> |Lync の Web エクスペリエンス  <br/> |
-|ハイブリッドでオンラインに存在する  <br/> |なし  <br/> |Skype for Business の Web エクスペリエンス  <br/> |
+|ハイブリッドでオンラインに存在する  <br/> |いいえ  <br/> |Skype for Business の Web エクスペリエンス  <br/> |
 |ハイブリッドでオンラインに存在する  <br/> |はい  <br/> |Lync の Web エクスペリエンス  <br/> |
 |ハイブリッドでオンプレミスに存在する  <br/> |なし  <br/> |Lync の Web エクスペリエンス  <br/> |
 |ハイブリッドでオンプレミスに存在する  <br/> |はい  <br/> |Lync の Web エクスペリエンス  <br/> |
-|Prem の純粋です  <br/> |なし  <br/> |Lync の Web エクスペリエンス  <br/> |
-|Prem の純粋です  <br/> |はい  <br/> |Lync の Web エクスペリエンス  <br/> |
+|ピュアオンプレミス  <br/> |なし  <br/> |Lync の Web エクスペリエンス  <br/> |
+|ピュアオンプレミス  <br/> |はい  <br/> |Lync の Web エクスペリエンス  <br/> |
    
 
 ## <a name="related-topics"></a>関連トピック

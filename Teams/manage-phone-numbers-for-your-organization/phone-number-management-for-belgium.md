@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表で、ベルギーでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: 41900ace3d9992ee6e14ebaed6cb55ba100c0122
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 891a1fe2cecc79e3d42cd1067d3cb5d36842d300
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245286"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282747"
 ---
 # <a name="phone-number-management-for-belgium"></a>ベルギーでの電話番号の管理
 
@@ -36,10 +36,10 @@ ms.locfileid: "32245286"
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|新しいユーザーとビジネス管理センターの Skype に記載されていないサービスの電話番号を取得します。   <br/> |ベルギーでは、Skype for Business 管理センターを使用して電話番号を取得することはできません。新しい電話番号の申請を送信する必要があります。 <br/><br/>次のフォームのいずれかをダウンロードします。 <br/>  [ベルギー (v.4.0)(de-be) の電話番号の新しい要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(de-be).pdf?raw=true) <br/> [ベルギー (v.4.0)(fr-be) の電話番号の新しい要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(fr-be).pdf?raw=true) <br/> [ベルギー (v.4.0)(nl-be) の電話番号の新しい要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(nl-be).pdf?raw=true) <br/> [ベルギー (v.4.0)(en-us) の電話番号の新しい要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(en-us).pdf?raw=true) <br/>  <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> 
-|私たちに転送する電話番号を取得します。  <br/> | これらのフォームのいずれかをダウンロードします。 <br/> <br/> ユーザーの電話番号。 <br/>[文字の承認 (ロード) ベルギー (地理的な番号) (v.1.0) (デ ・する)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de-be).pdf?raw=true) <br/> [文字の承認 (ロード) ベルギー (地理的な番号) (v.1.0) (fr にする)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr-be).pdf?raw=true) <br/> [文字の承認 (ロード) ベルギー (地理的な番号) (v.1.0) (nl ・する)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl-be).pdf?raw=true)  <br/>  <br/><br/> フリー ダイヤル番号。 <br/>[文字の承認 (ロード) ベルギー (フリー ダイヤル番号) (v.1.0) (デ ・する)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(de-be).pdf?raw=true) <br/> [文字の承認 (ロード) ベルギー (フリー ダイヤル番号) (v.1.0) (fr にする)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(fr-be).pdf?raw=true) <br/> [文字の承認 (ロード) ベルギー (フリー ダイヤル番号) (v.1.0) (nl ・する)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(nl-be).pdf?raw=true) <br/> <br/>   記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/> |
-|全国の電話帳の電話番号を公開/非公開します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。      <br/> |
-|サービス番号には、ユーザーの数を変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|Skype for Business 管理センターに表示されていない新しいユーザーとサービスの電話番号を取得します。   <br/> |ベルギーでは、Skype for Business 管理センターを使用して電話番号を取得することはできません。新しい電話番号の申請を送信する必要があります。 <br/><br/>次のフォームのいずれかをダウンロードします。 <br/>  [ベルギー (v.) の新しい電話番号要求 (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(de-be).pdf?raw=true) <br/> [ベルギー (神奈川県) の新しい電話番号要求 (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(fr-be).pdf?raw=true) <br/> [ベルギー (nl) の新しい電話番号要求 (nl) (nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(nl-be).pdf?raw=true) <br/> [ベルギーへの新しい電話番号要求 (米国) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(en-us).pdf?raw=true) <br/>  <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> 
+|お客さまの電話番号をお送りします。  <br/> | 次のいずれかのフォームをダウンロードします。 <br/> <br/> ユーザの電話番号: <br/>[ベルギーの承認状 (LOA) (地域番号) (v) (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de-be).pdf?raw=true) <br/> [ベルギーの承認状 (LOA) (地理的な番号) (fr-ca) (fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr-be).pdf?raw=true) <br/> [ベルギーの承認状 (LOA) (地理的な番号) (nl) (nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl-be).pdf?raw=true)  <br/>  <br/><br/> 無料電話番号の場合: <br/>[ベルギーの承認状 (LOA) (無料電話番号) (v ~ 1.0) (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(de-be).pdf?raw=true) <br/> [ベルギーの承認状 (LOA) (無料電話番号) (v ~ 1.0) (fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(fr-be).pdf?raw=true) <br/> [ベルギーの承認状 (LOA) (無料電話番号) (nl) (nl) (nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(nl-be).pdf?raw=true) <br/> <br/>   記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/> |
+|国内電話ディレクトリの電話番号を公開/非公開にします。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。      <br/> |
+|ユーザーの電話番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 
 
 ## <a name="related-topics"></a>関連トピック

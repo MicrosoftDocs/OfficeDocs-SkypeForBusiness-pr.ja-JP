@@ -1,10 +1,10 @@
 ---
-title: ビジネス用の Skype のコール パーク設定を構成します。
+title: Skype for Business のコールパーク設定を構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Skype ビジネス サーバーのエンタープライズ VoIP のコール パーク設定を変更します。
-ms.openlocfilehash: 2f833e956f09213f1dfa3da440a6c6d9b17fa6b2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice でのコールパーク設定を変更します。
+ms.openlocfilehash: c456a519fc9f567bdef812adc533adaf03c4360a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893071"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303391"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>ビジネス用の Skype のコール パーク設定を構成します。
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Skype for Business のコールパーク設定を構成する
 
-Skype ビジネス サーバーのエンタープライズ VoIP のコール パーク設定を変更します。
+Skype for Business Server Enterprise Voice でのコールパーク設定を変更します。
 
-コール パークの既定の設定を使用しない場合は、それらをカスタマイズできます。 コール パーク アプリケーションをインストールすると、グローバル設定は、既定で構成されます。 グローバルの設定を変更することができ、サイト固有の設定を指定することもできます。 **新規 CsCpsConfiguration**コマンドレットを使用すると、サイト固有の設定を新しいを作成します。 **セット CsCpsConfiguration**コマンドレットを使用して、既存の設定を変更します。
+既定のコールパーク設定を使用しない場合は、カスタマイズすることができます。 コールパークアプリケーションをインストールすると、既定でグローバル設定が構成されます。 グローバル設定を変更できます。また、サイト固有の設定を指定することもできます。 新しいサイト固有の設定を作成するには、 **CsCpsConfiguration**コマンドレットを使用します。 既存の設定を変更するには、 **CsCpsConfiguration**コマンドレットを使用します。
 
 > [!NOTE]
 > 少なくとも、保留された通話が時間切れになりリングバックが失敗した場合に使用する代替宛先の [**OnTimeoutURI**] オプションは構成することをお勧めします。
@@ -40,7 +40,7 @@ Skype ビジネス サーバーのエンタープライズ VoIP のコール パ
 | **MaxCallPickupAttempts** <br/>      | 保留された通話が [**OnTimeoutURI**] で指定した代替 URI (Uniform Resource Identifier) に転送される前に、応答電話にかけ直される回数。既定値は 1 です。<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | **MaxCallPickupAttempts** を超過した場合に、応答のない保留通話のルーティング先となるユーザーまたは応答グループの SIP アドレス。 <br/> 値は、文字列 sip: で始まる SIP URI にする必要があります。たとえば、sip:bob@contoso.com などです。既定値は転送アドレスではありません。<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>コール パーク設定を構成するには
+### <a name="to-configure-call-park-settings"></a>コールパークの設定を構成するには
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
 
@@ -51,7 +51,7 @@ Skype ビジネス サーバーのエンタープライズ VoIP のコール パ
    ```
 
    > [!TIP]
-   > サイトを識別するには、**Get-CsSite** コマンドレットを使用します。 詳細については、サーバー管理シェルのビジネス ドキュメントの Skype を参照してください。
+   > サイトを識別するには、**Get-CsSite** コマンドレットを使用します。 詳細については、「Skype for Business Server 管理シェルのドキュメント」を参照してください。
 
     次に例を示します。
 
@@ -63,8 +63,8 @@ Skype ビジネス サーバーのエンタープライズ VoIP のコール パ
 
 [Skype for Business 2015 でのコール パーク保留音のカスタマイズ](customize-call-park-music-on-hold.md)
 
-[新しい-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[新規-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
-[セット CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
+[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 
-[Get CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
+[CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)

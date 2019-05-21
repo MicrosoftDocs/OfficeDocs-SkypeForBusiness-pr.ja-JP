@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Get-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を返します。
-ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 87dd3934767a4be7afb57889fd0641e8507fba13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233996"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287336"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
 Get-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を返します。 
   
-バージョン 2.0 以降のバージョンとは、TenantAdmin、DomainAdmin、および VMAdmin のパスワードを表示するのには-DisplayPassword パラメーターを使用することができますもします。
+バージョン2.0 以降では、-DisplayPassword パラメーターを使用して、TenantAdmin、DomainAdmin、および VMAdmin のパスワードを表示することもできます。
   
 ```
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
@@ -62,7 +62,7 @@ Write-Host $text
 
 |**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |必須  <br/> | System.String <br/> | AccountType の値は次のいずれかになります。 <br/>  VmAdmin: 仮想マシンのクラウドのコネクタのローカル管理者。 <br/>  DomainAdmin: Cloud Connector 仮想マシン ドメインのドメイン管理者。 <br/>  SafeModeAdmin: Cloud Connector 仮想マシンのドメイン コントローラーの SafeModeAdmin。 <br/>  ExternalCert: エッジー サーバー上にインストールされた外部証明書のアカウント。 <br/>  TenantAdmin: O365 テナントの管理者。 <br/> |
+| AccountType <br/> |必須  <br/> | System.String <br/> | AccountType の値は次のいずれかになります。 <br/>  VmAdmin: クラウドコネクタ仮想マシンのローカル管理者。 <br/>  DomainAdmin: Cloud Connector 仮想マシン ドメインのドメイン管理者。 <br/>  SafeModeAdmin: Cloud Connector 仮想マシンのドメイン コントローラーの SafeModeAdmin。 <br/>  ExternalCert: エッジー サーバー上にインストールされた外部証明書のアカウント。 <br/>  TenantAdmin: O365 テナントの管理者。 <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>

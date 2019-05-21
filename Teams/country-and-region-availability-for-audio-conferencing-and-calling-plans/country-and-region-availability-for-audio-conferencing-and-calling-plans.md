@@ -13,7 +13,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -25,18 +25,18 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: 400d202d32f6c539a9750f5c035ff49e8abbaee4
-ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
+ms.openlocfilehash: 51c5667330aec2881ce443600d311254655fe657
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34082731"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286694"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
-国または組織にどのようなクラウドの音声機能を利用して地域を選択できます。
+国または地域を選択して、組織で利用可能なクラウド音声機能を確認することができます。
 ***
-## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>国または地域、組織の使用を参照してください。
+## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>お客様の国または地域を選択して、組織で利用可能な機能を確認してください
 
 > [!div class="op_single_selector"]    
 > - [アルゼンチン](availability-in-argentina.md)
@@ -126,7 +126,7 @@ ms.locfileid: "34082731"
 > - [ベネズエラ](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**すべての国や地域では、挿入されたスプレッドシートを探している場合をダウンロードして[クラウド音声機能の国の可用性のスプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-03132019)-(en-us).xlsx?raw=true)を保存**します。
+**すべての国と地域でスプレッドシートをお探しの場合は、[クラウドボイス機能の国/地域の可用性スプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-03132019)-(en-us).xlsx?raw=true)をダウンロードして保存**します。
 
 ***
 
@@ -134,14 +134,14 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 
 > [!NOTE]
 > 
-> ユーザーの他の電話番号を取得するのを参照してください[、ユーザーの電話番号を取得](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)または、電話番号の要求フォームは、[組織の電話番号を管理](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)します。
+> ユーザー用の電話番号を追加する必要がある場合は、「[ユーザーの電話番号を取得](/microsoftteams/getting-phone-numbers-for-your-users)する」または「電話番号要求フォーム」の「[組織の電話](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)番号を管理する」を参照してください。
 
 
 ## <a name="want-to-learn-more-about-these-services"></a>これらのサービスについて詳しく知りたい場合
 
 ### <a name="audio-conferencing"></a>電話会議
 
-自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business および Microsoft Teams には、こういった状況に最適な、電話会議機能があります。 ユーザーは、モバイル デバイスまたは PC 上で Skype for Business や Microsoft Teams のアプリを使用する代わりに、電話機を使用して会議にダイヤル インすることができます。 オーディオ会議、組織の目的を決定したら、組織内のユーザーが、オーディオ会議のスケジュールおよびホストする場合、各ユーザーの**電話会議**の 1 つのライセンスを購入する必要があります。
+自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business および Microsoft Teams には、こういった状況に最適な、電話会議機能があります。 ユーザーは、モバイル デバイスまたは PC 上で Skype for Business や Microsoft Teams のアプリを使用する代わりに、電話機を使用して会議にダイヤル インすることができます。 組織の電話会議を使用することにした場合は、電話会議をスケジュール/主催しようとしている組織内の各ユーザーに対して、1つの**電話会議**ライセンスを購入する必要があります。
   
 電話会議では、ユーザーが会議にダイヤルインするために使用できる有料電話番号と無料電話番号があります。 次に示す国や地域からの有料電話番号は、組織が電話会議を利用できるよう有効になっている場合に、共有の電話会議の電話番号として自動的に組織に割り当てられます。 専用の有料電話番号および無料電話番号は、追加の都市から組織に割り当てることができます。
 
@@ -158,12 +158,12 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 > [!CAUTION]
 > 一部の無料電話番号は、特定の国内または特定の国のエリア内から使用する場合のみに機能するため、有料電話番号または無料電話番号にダイヤルアウトすることができない場合があります。 たとえば、米国からブラジル国内の無料電話番号にダイヤルアウトする場合、その通話はブラジル国内またはブラジルの特定の地域から発生したものでなかったために、失敗してしまうことがあります。 無料電話番号にダイヤルアウトする機能は、ダイヤルされた無料電話番号の制限に応じて大きく異なります。 Office 365 においては、この動作を制御することはできません。そのため、ダイヤルされた無料電話番号と、無料電話番号の制限によって、機能や操作のエクスペリエンスが異なる可能性があります。 
   
-以下のリストにない世界の他の国/地域に会議からダイヤルアウトすることは、[Office 365 コミュニケーション クレジット](../what-are-communications-credits.md)を使用して行うことができます。 これらのユーザーは、[組織の通信のクレジットを設定](../set-up-communications-credits-for-your-organization.md)する必要があります。
+以下のリストにない世界の他の国/地域に会議からダイヤルアウトすることは、[Office 365 コミュニケーション クレジット](../what-are-communications-credits.md)を使用して行うことができます。 これらのユーザーの場合は、[組織の通信クレジットを設定](../set-up-communications-credits-for-your-organization.md)する必要があります。
   
 ### <a name="phone-system"></a>電話システム
 電話システムでは、自分の組織の着信通話に応答させるために (有料電話番号または無料電話番号で) 自動応答や通話キューを作成することができます。また、ユーザーのために通話プランを追加すると、それらのユーザーは Skype for Business を使用して通話の発信と受信、通話の転送、ミュートとミュートの解除などの基本的な通話制御タスクを処理できるようになります。 **電話システム**のユーザーがアドレス帳の名前をクリックすると、Skype for Business によってその連絡先に通話が発信されます。 **電話システム**のユーザーは、Skype for Business で利用できるモバイル デバイス、ノート PC や PC のヘッドセット、さまざまな IP 電話を使って、通話の発信と受信を行うことができます。
 
-> これらの場所の一部では、有料電話番号の使用可能性が、在庫レベルによって随時変わる場合があります。 Office 365 から個々のユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジ用) や、自動応答および通話キューといったサービスのための有料電話番号または無料電話番号を検索して取得することもできます。 これらはサービス番号と呼ばれます。 電話番号を取得[するサービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 これらの電話番号を検索するには、するには、[ユーザーの電話番号を取得](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)するに移動します。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)」をご覧ください。 
+> これらの場所の一部では、有料電話番号の使用可能性が、在庫レベルによって随時変わる場合があります。 Office 365 から個々のユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジ用) や、自動応答および通話キューといったサービスのための有料電話番号または無料電話番号を検索して取得することもできます。 これらはサービス番号と呼ばれます。 「[サービス電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を取得して電話番号を取得する」を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 これらの電話番号を見つけるには、「[ユーザーの電話番号を取得](/microsoftteams/getting-phone-numbers-for-your-users)する」を参照してください。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)」をご覧ください。 
 
 [電話システムの料金](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -173,12 +173,12 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 ページの上部にあるドロップダウン リストを使用して、国または地域を検索し、どのサービスを利用できるかを確認します。
 
 ### <a name="calling-plans"></a>通話プラン
-電話システムとともに通話プランを利用することで、ユーザーは通話を発信したり着信したりすることができるようになります。 まず、ユーザー (サブスクライバー) の電話番号 (サービス番号以外) を取得する必要があります。その番号をユーザーに割り当ててから、通話プランを割り当てます。 利用できる通話プランの種類は、**国内**通話プランと、**国内および国際**通話プランの 2 つがあります。 詳細については、[電話システムおよび計画の呼び出し](../calling-plan-landing-page.md)を参照してください。
+電話システムとともに通話プランを利用することで、ユーザーは通話を発信したり着信したりすることができるようになります。 まず、ユーザー (サブスクライバー) の電話番号 (サービス番号以外) を取得する必要があります。その番号をユーザーに割り当ててから、通話プランを割り当てます。 利用できる通話プランの種類は、**国内**通話プランと、**国内および国際**通話プランの 2 つがあります。 詳細については[、「電話システムと通話プラン](../calling-plan-landing-page.md)」を参照してください。
 
 ライセンスの情報については、「[電話システムと通話プランのライセンス](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」をご覧ください。
 
 > [!NOTE]
-> 国/地域は、 **Microsoft 365 管理センター**でユーザーのライセンスの場所に基づいて > **アクティブなユーザー** **Microsoft 365 管理ツールで**組織のプロファイル**の下で請求先住所が表示されて**いない**とセンター**です。 
+> [国/地域] は、 **microsoft 365 管理センター** > の**アクティブユーザー**でのユーザーのライセンスの場所を基にしていますが、microsoft 365 管理者の**組織プロファイル**の下に表示されている請求先住所は含まれて**いません**。 **中央揃え**。 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -186,7 +186,7 @@ Office 365 から個々のユーザーの電話番号を取得することに加
   
 電話会議と通話プランで使用する有料サービス番号を取得できる首都および主要都市のリストを以下に示します。 [**Skype for Business 管理センター**] を使用して、これらの場所から有料サービス番号を取得することができます。
   
-を有料または無料のサービスの数を取得する場合は、[取得サービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を表示できます。 別のプロバイダーから移行したい有料サービス番号または無料サービス番号を既に持っている場合は、「[組織のための電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).」をご覧ください。
+有料または無料のサービス番号を取得するには、「[サービス電話番号を取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)する」を参照してください。 別のプロバイダーから移行したい有料サービス番号または無料サービス番号を既に持っている場合は、「[組織のための電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).」をご覧ください。
 
 ページの上部にあるドロップダウン リストを使用して、国または地域を検索し、どのサービスを利用できるかを確認します。
 

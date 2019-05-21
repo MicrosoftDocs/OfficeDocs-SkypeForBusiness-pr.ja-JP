@@ -1,25 +1,25 @@
 ---
-title: Skype のビジネス サーバーの診断の概要レポートを呼び出す
+title: Skype for Business Server の通話診断の概要レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: '概要: は、呼び出す診断の概要レポート ビジネス サーバーの Skype で使用されるについて説明します。'
-ms.openlocfilehash: 7c204649a5819b4f119c975e71c6ac52e487b933
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で使用されている通話診断の概要レポートについて説明します。'
+ms.openlocfilehash: baa34340214b1eb905777c977c0e9fa8ebaea788
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915298"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279742"
 ---
-# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Skype のビジネス サーバーの診断の概要レポートを呼び出す
+# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Skype for Business Server の通話診断の概要レポート
  
-**の概要:** 呼び出す診断の概要レポート ビジネス サーバーの Skype で使用されるについて説明します。
+**概要:** Skype for Business Server で使用されている通話診断の概要レポートについて説明します。
   
 通話診断の概要レポートでは、失敗したピアツーピア セッションや会議セッションの概要を確認できます。このレポートでは、両方の種類のセッション全体のエラー率が表示され、エラー情報がセッション モダリティごとに分類されます。
   
@@ -35,7 +35,7 @@ ms.locfileid: "33915298"
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>通話診断の概要レポートへのアクセス
 
-呼び出しの診断・ サマリ ・ レポートは、監視レポートのホーム ページからアクセスします。 呼び出しの診断・ サマリ ・ レポートからレポートのピア ツー ピア セッションの概要] セクションの [エラー率のメトリックをクリックすると、 [Business Server の Skype でのピア ツー ピア アクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)を表示できます。 会議の次の測定値のいずれかをクリックすると、 [Business Server の Skype での会議診断レポート](conference-diagnostic-report.md)をアクセスすることも。
+通話診断の概要レポートは、監視レポートのホームページからアクセスされます。 通話診断の概要レポートでは、 [Skype For Business Server のピアツーピアアクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)にアクセスできます。これは、レポートの [ピアツーピアセッションの概要] セクションの下にある [失敗率] メトリックをクリックすると表示されます。 [Skype For Business Server の会議診断レポート](conference-diagnostic-report.md)には、次のいずれかの電話会議の指標をクリックしてアクセスすることもできます。
   
 - 全体的なセッション エラー率
     
@@ -45,7 +45,7 @@ ms.locfileid: "33915298"
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>通話診断の概要レポートの活用
 
-呼び出しの診断の概要レポートには、Skype のビジネスのサーバーが使用するさまざまな様相の障害発生率を比較するグラフが含まれています。 これらのグラフ内の列は、実際にホットリンクです。などのピア ツー ピア セッションのインスタント メッセージングの列をクリックすると後に到達する[ビジネス サーバーの Skype でのピア ツー ピア アクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)のすべての詳細情報を提供するレポートのインスタンスのインスタントのメッセージング セッションの呼び出しの診断の概要レポートに含まれています。
+通話診断の概要レポートには、Skype for Business Server で使用されているさまざまなモダリティのエラー率を比較するグラフが含まれています。 これらのグラフの列は、実際にはホットリンクです。たとえば、ピアツーピアセッションのインスタントメッセージ (Im) 列をクリックすると、 [Skype For Business Server のピアツーピアアクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)のインスタンスにドリルダウンすることになります。これには、すべての詳細情報が記載されたレポートがあります。通話診断の概要レポートに含まれているインスタントメッセージセッション。
   
 ## <a name="filters"></a>フィルター
 
@@ -66,7 +66,7 @@ ms.locfileid: "33915298"
 
 次の表に、ピアツーピア セッション (参加者が 2 人だけのセッション) の通話診断の概要レポートで提供される情報を示します。
   
-**ピア ツー ピア セッションの指標**
+**ピアツーピアセッションのメトリック**
 
 |**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
@@ -77,7 +77,7 @@ ms.locfileid: "33915298"
 
 次の表に、電話会議セッション (参加者が 3 人以上のセッション) の通話診断レポートで提供される情報を示します。
   
-**会議セッションの指標**
+**会議セッションのメトリック**
 
 |**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|

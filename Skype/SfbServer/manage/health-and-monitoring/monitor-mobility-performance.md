@@ -1,30 +1,30 @@
 ---
-title: Skype でのパフォーマンスをビジネスのサーバーの移動を監視します。
+title: Skype for Business Server のパフォーマンスを監視する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: '概要: は、ビジネスのサーバーに、モビリティ サービス (Mcx)、Skype では、ユニファイド コミュニケーション Web API (UCWA) について説明します。'
-ms.openlocfilehash: e2da6f073dc14268442e3c49273189b002eaadc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のモビリティサービス (Mcx) とユニファイドコミュニケーション Web API (UCWA) について説明します。'
+ms.openlocfilehash: 7b8340d90b5e1fa18c4dfaa7d61f986344ccbb33
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902834"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279922"
 ---
-# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Skype でのパフォーマンスをビジネスのサーバーの移動を監視します。
+# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Skype for Business Server のパフォーマンスを監視する
  
-**の概要:** Business Server には、モビリティ サービス (Mcx)、Skype では、ユニファイド コミュニケーション Web API (UCWA) について説明します。
+**概要:** Skype for Business Server のモビリティサービス (Mcx) とユニファイドコミュニケーション Web API (UCWA) について説明します。
   
-ビジネス サーバー移動サービス (Mcx) と、ユニファイド コミュニケーション Web API (UCWA) の Skype では、フロント エンド サーバーとフロント エンド プールの負荷が増加します。 Lync 2013 モバイルを実行しているアプリとアップルのデバイスと同様に Lync 2010 のモバイルを実行している Android および Nokia のデバイスなど、モバイル アプリケーションが最小化されている場合でも、サーバーへの接続を維持するモバイル デバイスがデバイスよりも大きな負荷を課すことモバイル アプリケーションが最小化したときに、サーバーへの接続を終了します。 モビリティの使用量が増えるにつれて、モビリティのパフォーマンス、容量を増やす必要がある場合を決定するを監視する必要があります。
+Skype for Business Server Mobility Service (Mcx) とユニファイドコミュニケーション Web API (UCWA) では、フロントエンドサーバーとフロントエンドプールの負荷が高くなります。 モバイルアプリケーションが最小化されている場合でもサーバーへの接続を維持するモバイルデバイス (lync 2010 Mobile を実行している Android や Nokia デバイス、Lync 2013 Mobile を実行している Android および Apple デバイスなど) には、高負荷の負荷がかかることがあります。モバイルアプリケーションが最小化されているときに、サーバーとの接続を終了します。 モバイル使用の増加に応じて、容量を増やす必要があるタイミングを判断するために、モビリティのパフォーマンスを監視する必要があります。
 
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
+> Skype for Business Server 2019 では、従来のモバイルクライアントに対する MCX (モバイルサービス) のサポートは利用できなくなりました。 現在のすべての Skype for Business のモバイルクライアントでは、インスタントメッセージング (IM)、プレゼンス、連絡先をサポートするために、既にユニファイドコミュニケーション Web API (UCWA) を使用しています。 MCX を使用するレガシクライアントを使っているユーザーは、現在のクライアントにアップグレードする必要があります。
   
 モビリティのパフォーマンスに影響を与えるいくつかの制限値があります。 
   
@@ -40,14 +40,14 @@ ms.locfileid: "33902834"
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype ビジネス サーバー用にサーバーのメモリ容量制限のためのモニター](server-memory-capacity-limits.md)
+- [Skype for Business Server でサーバーのメモリ容量の上限を監視する](server-memory-capacity-limits.md)
     
-- [ビジネス サーバーの Skype での移動サービスおよび UCWA の使用状況を監視します。](service-and-ucwa-usage.md)
+- [Skype for Business Server のモビリティサービスと UCWA の使用状況を監視する](service-and-ucwa-usage.md)
     
-- [Skype のビジネス サーバー用の高パフォーマンスのモバイル サービスを構成します。](configure-service.md)
+- [Skype for Business Server で高パフォーマンスのモビリティサービスを構成する](configure-service.md)
     
-- [Skype 内のログ ファイルのトレースをビジネスのサーバーを IIS 要求を監視します。](iis-request-tracing-log-files.md)
+- [Skype for Business Server で IIS 要求トレースログファイルを監視する](iis-request-tracing-log-files.md)
     
-- [Skype ビジネス サーバーの移動のパフォーマンス カウンター](performance-counters.md)
+- [Skype for Business Server のモバイルパフォーマンスカウンター](performance-counters.md)
     
 

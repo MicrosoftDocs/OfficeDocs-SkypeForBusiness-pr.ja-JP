@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織外の企業や顧客が電話をかけられるように、チームまたは Skype for Business ユーザーの勤務先電話番号を割り当て、変更、または削除する方法について説明します。
-ms.openlocfilehash: 547d9d4a4af68ef3cdd19a6f11c2854a4c2ba4ec
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: f9792edf76d5d86a562516aa620bfbb62d26fdd9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34164577"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286286"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号を割り当て、変更、または削除する
 

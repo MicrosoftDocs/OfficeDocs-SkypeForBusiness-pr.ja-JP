@@ -1,45 +1,45 @@
 ---
-title: Skype ビジネス サーバーの監視のレポートの使用
+title: Skype for Business Server で監視レポートを使用する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: '概要: Skype でレポートをビジネスのサーバーの監視について説明します。'
-ms.openlocfilehash: 66190e88b4b806554d29cc132e29d6419c8f693b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のレポートの監視について説明します。'
+ms.openlocfilehash: ea984a27e2322b08357719e41892fa65892b550a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920277"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279887"
 ---
-# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Skype ビジネス サーバーの監視のレポートの使用 
+# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Skype for Business Server で監視レポートを使用する 
  
-**の概要:** Skype でレポートをビジネスのサーバーの監視について説明します。
+**概要:** Skype for Business Server のレポートの監視について説明します。
   
-Skype ビジネス サーバー用には、Microsoft SQL Server レポート サービスによって公開されている標準的なレポートのセットが含まれています。 アクセスできる web ブラウザーを使用して、これらのレポートは、使用法、通話診断情報、およびメディアの品質については、すべてに基づく通話の詳細記録 (CDR) と高品質のエクスペリエンス (QoE) レコードが、CDR および QoE データベースに格納されているを提供します。
+Skype for Business Server には、Microsoft SQL Server Reporting Service によって公開されている一連の標準的なレポートが含まれています。 これらのレポートは、web ブラウザーを使用してアクセスできます。これらのレポートは、CDR と QoE データベースに保存されている通話の詳細記録 (CDR) と Quality of Experience (QoE) レコードに基づいて提供されます。
   
-これらのレポートを使用するには、SQL Server のインスタンスを実行しているコンピューターの監視レポートをインストールする必要があります。
+これらのレポートを使用するには、SQL Server のインスタンスが実行されているコンピューターに監視レポートをインストールする必要があります。
   
 ## <a name="in-this-section"></a>このセクション中
 
-- [Skype ビジネス サーバーの監視のダッシュ ボードを使用します。](monitoring-dashboard.md)システムの健全性とシステムの使用状況の概要を管理者に提供します。
+- [Skype For Business Server で監視ダッシュボードを使用する](monitoring-dashboard.md)管理者に、システムの正常性とシステム使用率の概要を簡単に示します。
     
-- [ビジネス サーバーの Skype でのシステム使用状況レポート](system-usage-reports.md)ビジネス サーバーは、Skype で収集したデータを CDR に基づくシステムの使用状況に関する情報を提供します。
+- [Skype For Business Server のシステム使用状況レポート](system-usage-reports.md)Skype for Business Server によって収集された CDR データに基づいて、システムの使用状況に関する情報を提供します。
     
-- [呼び出す診断レポート (ユーザー) ごと](call-diagnostic-reports-per-user.md)失敗したピア ツー ピア セッションおよび会議セッションのユーザーごとの情報を提供します。
+- [Skype For Business Server で診断レポート (ユーザーごと) を呼び出す](call-diagnostic-reports-per-user.md)失敗したピアツーピアと会議セッションに関するユーザーごとの情報を提供します。
     
-- [Skype ビジネス サーバーの診断レポートを呼び出す](call-diagnostic-reports.md)要約情報と失敗したピア ツー ピア会議セッションの診断データを提供します。
+- [Skype For Business Server で診断レポートを発信](call-diagnostic-reports.md)するピアツーピアと会議の失敗の概要と診断データについて説明します。
     
-- [ビジネス サーバーの Skype でのメディア品質診断レポート](media-quality-diagnostic-reports.md)呼び出しの失敗の診断およびトラブルシューティングの情報だけでなく、通話の品質に関する情報を提供します。
+- [Skype For Business Server のメディア品質診断レポート](media-quality-diagnostic-reports.md)通話品質と、失敗した通話の診断とトラブルシューティングに関する情報を提供します。
     
 ## <a name="locating-records"></a>レコードの検索
 
-監視レポートで画面上に一度に表示されるレコードの数は限られています。 実際に画面に表示されるレコードの数は、レポートによって異なります。 画面に現在表示されていないレコードを表示するのには、標準的な前方および後方コントロール (各レポートのツールバーにあります) を使用してデータを複数のページを使用できます。 また、データセットの最初または最後のページにすばやく移動できます。
+監視レポートで画面上に一度に表示されるレコードの数は限られています。 実際に画面に表示されるレコードの数は、レポートによって異なります。 現在画面に表示されていないレコードを表示するには、データをページ間で移動できる標準の forward コントロールと背面コントロール (各レポートのツールバーにあります) を使うことができます。 また、データセットの最初または最後のページにすばやく移動できます。
   
 "進む" と "戻る" のコントロールを使用する以外に、[**現在のページ**] ボックスにページ番号を入力して Enter キーを押すだけで、データセットの任意のページに移動することもできます。
   
@@ -47,7 +47,7 @@ Skype ビジネス サーバー用には、Microsoft SQL Server レポート サ
   
 前述のとおり、監視レポートには非常に基本的な検索機能しかありません。たとえば、どのフィールドで値を検索するのかは指定できません。この検索メカニズムでは、自動的にすべてのレコードのすべてのフィールドを対象にして一致する値の検索が行われます。また、検索にワイルドカードは使用できず、すべての検索は値の部分一致に基づいて行われます。つまり、"111" を検索した場合は、111 という値だけでなく、11100、811、3112、611A5B といった値や、フィールド内のどこかに "111" が含まれるその他すべてのフィールドも返されます。
   
-各レポートは、既定のレコード セットを表示するように構成されています。 たとえば、既定のユーザー登録レポートでは、この 1 週間のユーザー登録アクティビティが表示されます。 場合によっては、レポートによってレコードが 1 つも返されないことがあります。 これは、ユーザー登録がこの 1 週間に一度も行われなかったということです。 「結果フィルターに一致しないレポート」のメッセージが表示された場合は、フィルターの値を変更してください。 (過去 1 週間ではなく、過去の月には、期間を変更するなど)、クエリを再実行しています。 詳細については、後のセクション「データのフィルター処理」を参照してください。
+各レポートは、既定のレコード セットを表示するように構成されています。 たとえば、既定のユーザー登録レポートでは、この 1 週間のユーザー登録アクティビティが表示されます。 場合によっては、レポートによってレコードが 1 つも返されないことがあります。 これは、ユーザー登録がこの 1 週間に一度も行われなかったということです。 "レポートフィルターに一致する結果がありません" というメッセージが表示された場合は、フィルターの値を変更します (たとえば、期間を先週ではなく過去の月に変更してから、クエリを再実行します)。 詳細については、後のセクション「データのフィルター処理」を参照してください。
   
 ## <a name="filtering-data"></a>データのフィルター処理
 

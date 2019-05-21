@@ -1,10 +1,10 @@
 ---
-title: Skype のビジネス サーバーの SNMP アプリケーションを構成します。
+title: Skype for Business Server で SNMP アプリケーションを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,24 +13,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: ビジネス サーバーのエンタープライズ VoIP Skype で ~ 9-1-1 で使用する SNMP アプリケーションを構成します。
-ms.openlocfilehash: 7903163d6cf1cd78d7689557f4906966c2c67a2c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice で E9-1-1 と連携するように SNMP アプリケーションを構成します。
+ms.openlocfilehash: 575c982dae20ed085e49690edfbb141786390516
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893085"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303419"
 ---
-# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Skype のビジネス サーバーの SNMP アプリケーションを構成します。
+# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Skype for Business Server で SNMP アプリケーションを構成する
  
-ビジネス サーバーのエンタープライズ VoIP Skype で ~ 9-1-1 で使用する SNMP アプリケーションを構成します。 
+Skype for Business Server Enterprise Voice で E9-1-1 と連携するように SNMP アプリケーションを構成します。 
   
-Skype ビジネス サーバー用には、位置情報サービスをポートを MAC アドレスに一致して、スイッチの情報が簡易ネットワーク管理プロトコル (SNMP) アプリケーションに接続するために使用できる標準的な web サービス インターフェイスが含まれています。 
+Skype for Business Server には標準の web サービスインターフェイスが含まれています。これを使用すると、場所情報サービスを、MAC アドレスとポートおよびスイッチ情報を照合する簡易ネットワーク管理プロトコル (SNMP) アプリケーションに接続することができます。 
   
-SNMP アプリケーションがインストールされている位置情報サービスは、場所データベース内の一致を検索するのには障害が発生した場合は、位置情報サービスは自動的にクライアントから提供された MAC アドレスを使用してアプリケーションを照会します。 位置情報サービスは、SNMP アプリケーションによって返されるポートとスイッチの情報を使用してもう一度場所データベースにクエリを実行します。
+SNMP アプリケーションがインストールされていて、位置情報サービスが位置情報データベースで一致を見つけることができなかった場合、位置情報サービスは、クライアントから提供された MAC アドレスを使ってアプリケーションを自動的に照会します。 次に、位置情報サービスは、SNMP アプリケーションによって返されるポートとスイッチの情報を使用して、位置情報データベースをもう一度照会します。
   
 > [!NOTE]
-> MAC アドレスは、Windows 8 を実行するコンピューターで使用可能ではありません。 
+> MAC アドレスは、Windows 8 を実行しているコンピューターでは使用できません。 
   
 ### <a name="to-configure-the-snmp-application-url"></a>SNMP アプリケーションの URL を構成するには
 
@@ -44,5 +44,5 @@ SNMP アプリケーションがインストールされている位置情報サ
 
 ## <a name="see-also"></a>関連項目
 
-[セット CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

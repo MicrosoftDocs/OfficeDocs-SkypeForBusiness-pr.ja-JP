@@ -1,10 +1,10 @@
 ---
-title: ビジネス サーバーの Skype で通話受付制御を展開します。
+title: Skype for Business Server で通話受付制御を展開する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,34 +13,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
-description: 呼び出しの受付制御 (CAC) は、リアルタイム セッションを確立できるかどうかを決定するためのソリューションは、混雑したネットワーク上のユーザーのオーディオ/ビデオ品質の低下を防止するために利用可能な帯域幅に基づいています。
-ms.openlocfilehash: 6ea527bc48f4a61bfe128eb935231200bb88b29f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 通話受付制御 (CAC) は、使用可能な帯域幅に基づいてリアルタイムのセッションを確立して、混雑したネットワークのユーザーに対して低品質のオーディオ/ビデオ品質を防ぐことができるかどうかを決定するソリューションです。
+ms.openlocfilehash: 7f7f8dee4e25061533564ce517f797281bef042e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892763"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280440"
 ---
-# <a name="deploy-call-admission-control-in-skype-for-business-server"></a>ビジネス サーバーの Skype で通話受付制御を展開します。
+# <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Skype for Business Server で通話受付制御を展開する
  
-呼び出しの受付制御 (CAC) は、リアルタイム セッションを確立できるかどうかを決定するためのソリューションは、混雑したネットワーク上のユーザーのオーディオ/ビデオ品質の低下を防止するために利用可能な帯域幅に基づいています。 詳細については、[ビジネス サーバーの Skype で通話受付制御の計画](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)を参照してください。
+通話受付制御 (CAC) は、使用可能な帯域幅に基づいてリアルタイムのセッションを確立して、混雑したネットワークのユーザーに対して低品質のオーディオ/ビデオ品質を防ぐことができるかどうかを決定するソリューションです。 詳細については、「 [Skype For Business Server での通話受付制御の計画](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)」を参照してください。
   
 ### <a name="to-deploy-call-admission-control"></a>通話管理受付サービスを展開するには
 
-1.  説明したように、エンタープライズ ネットワーク トポロジに必要な情報のすべてを収集[の使用例: ビジネス サーバー Skype の呼受付制御の要件の収集](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
+1.  「[例: Skype For Business Server での通話受付制御の要件の収集](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)」の説明に従って、エンタープライズネットワークトポロジに必要なすべての情報を収集します。
     
-2. まだ行っていない場合は、ネットワーク地域とサイトを定義して、サブネットをネットワーク サイトに関連付ける必要があります。 詳細については、[ネットワークの領域を展開、サイトとサブネットでビジネス用の Skype](deploy-network.md)を参照してください。
+2. まだ行っていない場合は、ネットワーク地域とサイトを定義して、サブネットをネットワーク サイトに関連付ける必要があります。 詳細については、「 [Skype For business でネットワークのリージョン、サイト、サブネットを展開](deploy-network.md)する」を参照してください。
     
-3. 帯域幅[ビジネス サーバーの Skype で帯域幅ポリシー プロファイルを作成する](create-bandwidth-policy-profiles.md)を参考に、ポリシー プロファイルの作成します。
+3. 「 [Skype For Business Server での帯域幅ポリシープロファイルの作成](create-bandwidth-policy-profiles.md)」で詳しく説明するように、帯域幅ポリシープロファイルを作成します。
     
-4. [Skype ビジネス サーバー用のネットワーク地域リンクの作成](create-network-region-links.md)の詳細と、ネットワーク地域リンクを作成します。
+4. 「 [Skype For Business Server でのネットワーク領域リンクの作成](create-network-region-links.md)」で詳しく説明するように、ネットワーク領域のリンクを作成します。
     
-5. [Skype ビジネス サーバー用のネットワーク interregional ルートの作成](create-network-interregional-routes.md)の参考に、ネットワーク間の地域ルートを作成します。
+5. 「 [Skype For Business Server でネットワーク間の地域ルートを作成する](create-network-interregional-routes.md)」で詳しく説明するように、ネットワーク間のネットワーク間ルートを作成します。
     
-6. [Skype ビジネス サーバー用のネットワーク サイト間ポリシーの作成](create-network-intersite-policies.md)の参考に、ネットワーク サイト間ポリシーを作成します。
+6. 「 [Skype For Business Server でのネットワークのサイト間ポリシーの作成](create-network-intersite-policies.md)」で詳しく説明するように、ネットワークのサイト間ポリシーを作成します。
     
-7. [ビジネス サーバーの Skype で通話受付制御を有効にする](enable-call-admission-control.md)を参考に、呼び出しの受付制御を有効にします。
+7. 「 [Skype For Business Server で通話受付制御を有効にする](enable-call-admission-control.md)」で詳しく説明するように、通話受付制御を有効にします。
     
-8. いくつかの最終設定をチェックして、すべてが正しく設定されていることを確認します。 詳細についてを参照してください[電話受付制御の展開: ビジネス サーバーの Skype の最終チェックリスト](final-checklist.md)。
+8. いくつかの最終設定をチェックして、すべてが正しく設定されていることを確認します。 詳細については、「[通話受付制御の展開: Skype For Business Server の最終チェックリスト](final-checklist.md)」を参照してください。
     
 

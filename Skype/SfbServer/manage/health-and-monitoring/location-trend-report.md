@@ -1,25 +1,25 @@
 ---
-title: Skype でビジネスのサーバーの場所の傾向をレポート
+title: Skype for Business Server の位置情報トレンドレポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: '概要: は、ビジネスのサーバーの Skype での場所の傾向レポートについて説明します。'
-ms.openlocfilehash: 0eeaeb27ea18932db2005a24ec202d05ea996c8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の位置情報の傾向レポートについて説明します。'
+ms.openlocfilehash: e27dc4c42bebedc65d4af26eb1d25cb75d4b672f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911876"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280076"
 ---
-# <a name="location-trend-report-in-skype-for-business-server"></a>Skype でビジネスのサーバーの場所の傾向をレポート
+# <a name="location-trend-report-in-skype-for-business-server"></a>Skype for Business Server の位置情報トレンドレポート
  
-**の概要:** ビジネス サーバーの Skype での場所の傾向レポートについて説明します。
+**概要:** Skype for Business Server の位置情報の傾向レポートについて説明します。
   
 場所の傾向レポートは、ネットワークの場所の通話品質に関する傾向情報を提供します。
   

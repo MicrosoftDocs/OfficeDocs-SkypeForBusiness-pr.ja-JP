@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.reviewer: PhillipGarding
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: この記事では、Mac クライアント用の Skype for Business で利用できる、クライアントの基本設定と既定値について説明します。また、それらをアプリ以外から編集する方法についても説明します。
-ms.openlocfilehash: ac398ec928ac4f00b107a2fb9bff1dda8e65cd68
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fa9b809c742a87a7f522ed211406e2b97cbcfe6d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893491"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282518"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Skype for Business での Mac クライアントのエクスペリエンスをカスタマイズする
  
@@ -23,18 +23,18 @@ ms.locfileid: "33893491"
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac クライアント用の Skype for Business の基本設定
 
-特定の機能および Mac クライアントのビジネス用の Skype を利用可能な動作は、クライアント上でのプリファレンス設定によって決定されます。 次のパスにあるビジネス クライアント用の Skype がインストールされている Mac 上のファイルは、Mac の環境設定でビジネス用の Skype を参照ください。 
+Mac クライアント上の Skype for Business で利用できる特定の機能や動作は、クライアントの設定によって決まります。 Mac 版 Skype for Business の環境設定は、Mac 上にある、次のパスにある Skype for Business クライアントがインストールされているファイルにあります。 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-これらの環境設定を設定するのにはクライアントの Mac のターミナルのプロンプトを表示し、として必要な既定値ライト com.microsoft.SkypeForBusiness のキー操作が次の表に記載されている基本設定キーを使用して、入力します。
+これらの環境設定を行うには、クライアントの Mac でターミナルプロンプトを表示し、必要に応じて、次の表に記載されている設定キーを使用して、[既定の設定として使用する] を選択します。
   
 **クライアントの基本設定のキー**
 
 
 | キー | 型 | 値 | 説明 |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |ブール    |0 = 手動のサーバー構成  <br/> 1 = 自動のサーバー構成 (既定)    |ビジネス用の Skype でのトランスポートおよびサインイン時に使用するサーバーを識別する方法を指定します。 このポリシー設定を有効にする場合は、**internalAutoDiscoveryURL** および **externalAutoDiscoveryURL** を有効にする必要があります。   |
+|AutoDetectAutoDiscoveryURLs    |ブール    |0 = 手動のサーバー構成  <br/> 1 = 自動のサーバー構成 (既定)    |Skype for Business で、サインイン時に使用するトランスポートとサーバーの識別方法を指定します。 このポリシー設定を有効にする場合は、**internalAutoDiscoveryURL** および **externalAutoDiscoveryURL** を有効にする必要があります。   |
 |internalAutoDiscoveryURL    |String    |完全な自動検出 URL    |内部自動検出 URL    |
 |externalAutoDiscoveryURL    |String    |完全な自動検出 URL    |外部自動検出 URL    |
 |httpProxyDomain    |String    ||HTTP プロキシ ドメイン    |
@@ -43,19 +43,19 @@ ms.locfileid: "33893491"
 |trustedDomainList    |配列    ||HTTP リダイレクトでの信頼済みのドメインのリスト。    |
 |autoAcceptTimeout    |数値    |300 (既定)    |サーバー側の会話履歴がないユーザーの自動承認タイムアウト。    |
 |warnWhenUnknownLocationForE911    |ブール値    |0 = 無効  <br/> 1 = 有効    |不明な場所から緊急電話番号にダイヤルするときにユーザーに警告します。    |
-|sipAddress    |String    ||SIP アドレス (電子メール) ビジネスのための Skype にサインインするために使用します。    |
-|userName    |文字列    ||UPN (ユーザー名) ビジネスのための Skype にサインインするために使用します。    |
-|userNameInAdvancedOnly    |ブール    |0 = サインイン用のメイン画面にし、[詳細プロパティ] ダイアログ ボックスで、[ユーザー名] フィールドを表示  <br/> 1 = [詳細プロパティ] ダイアログ ボックス (既定値) でのみ、[ユーザー名] フィールドを表示    |サインイン時にユーザー名フィールドが表示される場所を指定します。    |
+|sipAddress    |String    ||Skype for Business にサインインするために使用される SIP アドレス (メール)。    |
+|userName    |文字列    ||Skype for Business にサインインするために使用される UPN (ユーザー名)。    |
+|userNameInAdvancedOnly    |ブール    |0 = メインのサインイン画面と [詳細プロパティ] ダイアログボックスにユーザー名フィールドを表示する  <br/> 1 = [詳細プロパティ] ダイアログボックスの [ユーザー名] フィールドのみを表示する (既定)    |サインイン時にユーザー名フィールドを表示する場所を指定します。    |
    
 ### <a name="usage-examples"></a>使用例
 
-信頼されたドメインの一覧に 1 つのドメイン (Contoso.com) を追加するには、ように、trustedDomainList キーを使用します。
+単一ドメイン (Contoso.com) を信頼できるドメインリストに追加するには、次のように trustedDomainList キーを使用します。
   
-com.microsoft.SkypeForBusiness trustedDomainList を作成する既定値の配列の"Contoso.com"を追加
+既定値として、Contoso.com を記述します。 SkypeForBusiness trustedDomainList-array-"" を追加します。
   
 複数のドメインを信頼済みのドメインのリストに追加するには、次に示すような trustedDomainList キーを使用します。
   
-com.microsoft.SkypeForBusiness trustedDomainList を作成する既定値の配列-"sfb.com"「abc.com」「test.org」を追加
+既定の設定 com. SkypeForBusiness trustedDomainList-array-add "sfb.com" "abc.com" "test.org"
   
 ### <a name="sample-unedited-settings"></a>未編集の設定のサンプル
 

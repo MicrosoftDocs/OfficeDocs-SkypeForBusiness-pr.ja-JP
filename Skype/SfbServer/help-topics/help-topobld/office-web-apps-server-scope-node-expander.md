@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: トポロジ ビルダーを使うには、次に Office の Web アプリケーション サーバーを右クリックします。
-ms.openlocfilehash: d749d6c0c34c2151f294fa7c55f4e57cde09f3b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: トポロジビルダーの Office Web Apps サーバーを右クリックして、次の操作を行います。
+ms.openlocfilehash: e861cc8ab134c7d11dd55730a3ea58d63d4ef38b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910912"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289967"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps サーバー スコープ ノード エキスパンダー
  
-トポロジ ビルダーを使うには、次の**Office Web アプリケーション サーバー**を右クリックします。
+トポロジビルダーの**Office Web Apps サーバー**を右クリックして、次の操作を行います。
   
-- **新しいオフィスの Web アプリケーション サーバー**: 新しい Office Web アプリケーション サーバーを定義するために使用する**新しいオフィス ・ Web アプリケーション サーバーの定義**ウィザードを起動します。
+- **新しい Office web Apps サーバー**: 新しい office web apps サーバーを定義するために使用される**新しい Office web Apps サーバーの定義**ウィザードを開始します。
     
-だけでなく、新しい Office の Web アプリケーション サーバー] オプションは、次の一般的なタスクを実行できます。
+[新しい Office Web Apps サーバー] オプションに加えて、次の一般的なタスクを実行できます。
   
 ![Office WebApps Server スコープ ノード](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   

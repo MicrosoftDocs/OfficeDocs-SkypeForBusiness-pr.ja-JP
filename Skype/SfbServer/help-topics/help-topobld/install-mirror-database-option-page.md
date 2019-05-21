@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallMirrorDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
-description: ミラー データベースの設定を構成するには、以下を定義します。
-ms.openlocfilehash: d6606b6fc69909297375529aebc48322cc51f959
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ミラーデータベースの設定を構成するには、次のように定義します。
+ms.openlocfilehash: 5b1cf1160fc28efc8a7787693cc5dd439ea53a17
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888619"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284257"
 ---
 # <a name="install-mirror-database-option-page"></a>ミラー データベースのインストール オプション ページ
  
-**ミラー データベースの設定**を構成するには、以下を定義します。
+**ミラーデータベースの設定**を構成するには、次のように定義します。
   
-- **ファイルへのパスを共有**ミラーリング対象のデータベースの SQL Server のバックアップ ファイルの場所を定義するを入力します。
+- **ファイル共有へのパス**を入力して、ミラーリングされるデータベースのバックアップ SQL Server ファイルの場所を定義します。
     
     > [!NOTE]
-    > プライマリ SQL Server のインスタンス (名前付きインスタンスまたは既定のインスタンス) は、ここを定義するファイル共有に対する書き込みアクセス許可が必要です。 ミラーの SQL Server のインスタンス (名前付きインスタンスまたは既定のインスタンス) 読み取り権限が必要、同じファイル共有にします。 
+    > プライマリ SQL Server インスタンス (名前付きインスタンスまたは既定のインスタンスのいずれか) には、ここで定義したファイル共有への書き込みアクセス許可が必要です。 ミラー SQL Server インスタンス (名前付きインスタンスまたは既定のインスタンス) には、同じファイル共有に対する読み取りアクセス許可が必要です。 
   
   [**OK**]: ダイアログでの変更を受け入れて確定します。
   

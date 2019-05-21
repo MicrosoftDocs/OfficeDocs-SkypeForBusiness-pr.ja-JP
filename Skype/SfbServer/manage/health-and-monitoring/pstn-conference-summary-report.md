@@ -1,27 +1,27 @@
 ---
-title: PSTN 会議の概要レポートでは、Skype ビジネス サーバー
+title: Skype for Business Server の PSTN 会議の概要レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: '概要: は、ビジネスのサーバーの概要レポートで Skype の PSTN 会議について説明します。'
-ms.openlocfilehash: 29395fe2cbaf8bf82d89c7d1fae50542c5917e39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の PSTN 会議の概要レポートについて説明します。'
+ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925209"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279985"
 ---
-# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN 会議の概要レポートでは、Skype ビジネス サーバー
+# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Skype for Business Server の PSTN 会議の概要レポート
  
-**の概要:** ビジネス サーバーの概要レポートで Skype の PSTN 会議について説明します。
+**概要:** Skype for Business Server の PSTN 会議の概要レポートについて説明します。
   
-ビジネス サーバーの Skype は、PSTN 会議を少なくとも 1 人の参加者にダイヤル オーディオ部分に PSTN (公衆交換電話網) 電話を使用して、すべての会議があります。 (PSTN の電話は、「固定」、携帯電話、または他の電話を IP 上で音声の使用を行いません)。監視レポートで PSTN 会議と呼ばれて、これらの会議はおそらく一般的と呼ばれるダイヤルイン会議。
+Skype for Business Server の PSTN 会議は、PSTN (公衆交換電話網) 電話を使って、少なくとも1人の参加者がオーディオ部分にダイヤルインする会議です。 (PSTN 電話とは、"固定電話"、携帯電話、またはボイスオーバー IP を使用しないその他の任意の電話のことです)。監視レポートでは PSTN 会議と呼ばれていますが、このような会議は、一般的にダイヤルイン会議と呼ばれることがあります。
   
 PSTN 電話会議の概要レポートは、組織で開催されるすべての PSTN 電話会議 (つまり、少なくとも 1 人のダイヤルイン ユーザーがいたすべての電話会議) に関する情報を提供します。レポートには、PSTN 電話会議の総数、これらの電話会議に参加した人数の合計、およびおそらく最も重要なダイヤルイン ユーザーの総数 (PSTN 参加者の合計数指標) に関する情報が含まれます。
   
@@ -31,9 +31,9 @@ PSTN 電話会議の概要レポートには、監視レポートのホーム �
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>PSTN 電話会議の概要レポートの最適な利用
 
-ダイヤルイン ユーザーを含む、すべての会議の割合を確認するのには、 [Business Server の Skype での会議の概要レポート](conference-summary-report.md)に合計の会議のメトリックの合計の PSTN 会議のメトリックの値を比較します。
+ダイヤルインユーザーを含むすべての会議の割合を判断するには、PSTN 会議の合計数と、 [Skype For Business Server の会議の概要レポート](conference-summary-report.md)で検出された会議の評価指標の合計の値とを比較します。
   
-予想して可能性がありますが、できるだけ多くの PSTN 会議が表示されない場合は、ダイヤルイン ユーザーが会議を整理することがユーザーに割り当てられている会議ポリシーに依存していることに留意してください: PS を保持するために許可されて、ユーザーはごくわずかである場合TN 会議が非常にほとんどの PSTN 会議は明らかに参照して 。 ビジネス サーバー管理シェルには、Skype 内で次のコマンドを実行して、PSTN 会議のスケジュールを設定するユーザーを許可する会議ポリシー (存在する場合) を即座に確認することができます。
+必要な数の PSTN 会議が表示されない場合は、ダイヤルインユーザーを許可する会議を開催できるかどうかは、ユーザーに割り当てられている会議ポリシーによって異なることに注意してください。ほとんどのユーザーが PS を保持することを許可されている場合は、次の点に注意してください。TN 会議には、ほとんどの PSTN 会議があります。 会議ポリシー (該当する場合) が、Skype for Business Server 管理シェル内から次のコマンドを実行して、PSTN 会議をスケジュールできるかどうかをすばやく確認できます。
   
 ```
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing

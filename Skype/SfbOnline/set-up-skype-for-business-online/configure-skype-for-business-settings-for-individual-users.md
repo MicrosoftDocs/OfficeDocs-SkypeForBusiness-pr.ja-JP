@@ -1,5 +1,5 @@
 ---
-title: 管理者の個々 のユーザー設定のビジネスの Skype の構成
+title: 管理者が個々のユーザー向けに Skype for Business の設定を構成する
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -21,30 +21,30 @@ f1_keywords:
 ms.custom:
 - Setup
 - LIL_Placement
-description: '個々 のユーザーについては、ビジネスの Skype を次のように変更する方法について: オーディオおよびビデオ会議、通話の記録との会議。 '
-ms.openlocfilehash: 5c9bb7cfddb496a5b3bdb0b28ea050d5958a8147
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Skype for Business の設定を変更する方法について説明します。たとえば、音声会議やビデオ会議、通話と会議の記録などがあります。 '
+ms.openlocfilehash: 5be310e47a5094a0e424624cc711311865a5b842
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238044"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285306"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
 
-この資料では、管理者がユーザーの数が少ないためにビジネスの Skype をどのように構成する方法について説明します。 一括でこれらの手順を行うには、Windows PowerShell コマンドレットを使用することができますへのリンク掲載されています。
+この記事では、管理者が Skype for Business を少数のユーザーに対して構成する方法について説明します。 これらの手順をまとめて実行するには、使用できる Windows PowerShell コマンドレットへのリンクが含まれています。
   
-許可 (またはブロック) 外部ユーザーと通信するためにお客様のビジネスのすべてのメンバーを参照してください。
+組織内のすべてのユーザーが外部ユーザーと通信できるようにする (またはブロックする) には、以下を参照してください。
   
-- [ビジネス ユーザー向けの外部の Skype に連絡を許可する](allow-users-to-contact-external-skype-for-business-users.md): 組織が使用できるように Skype をビジネス機能 (デスクトップの共有、オンラインなどは、ユーザーのファイルの場所) の高度な特定のユーザーと通信するために信頼できるビジネス (連合)。 特定のドメインとの通信をブロックする方法についても説明します。
+- [ユーザーが外部の skype For business ユーザーに連絡できるよう](allow-users-to-contact-external-skype-for-business-users.md)にする: Skype for business の高度な機能 (デスクトップの共有、オンラインのユーザーの検索など) を使用して、特定の信頼できる (フェデレーションされた) ビジネスのユーザーと通信できるようにします。 この記事では、特定のドメインとの通信をブロックする方法についても説明します。
     
-- [ビジネス ユーザー向けの Skype は、Skype 連絡先を追加](let-skype-for-business-users-add-skype-contacts.md)します。 組織のビジネスを検索するのには、Skype では、無料のアプリを使用する IM ユーザーの Skype を使用することができます。
+- [Skype For business ユーザーが skype の連絡先を追加できるように](let-skype-for-business-users-add-skype-contacts.md)します。 Skype for Business を使用して、無料のアプリである Skype を使用しているユーザーを検索したり、IM を送信したりすることができます。
     
-## <a name="configure-general-settings-for-one-user"></a>1 人のユーザーの一般的な設定を構成します。
+## <a name="configure-general-settings-for-one-user"></a>1人のユーザーの全般設定を構成する
 <a name="__toc325019204"> </a>
 
-次の手順を実行する[管理者のアクセス許可](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
+これらの手順を実行するには、[管理者権限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -54,54 +54,54 @@ ms.locfileid: "32238044"
     
     ![In the Skype for Business admin center, choose Users.](../images/7c80eeb3-6555-4fc8-91f4-61b493581e9e.png)
   
-4. 編集しユーザーを選択します。
+4. 編集するユーザーを選びます。
     
 5. 右側のウィンドウで、[ **編集**] を選びます。
     
     ![Choose the edit icon.](../images/5dd7c5bc-b8fa-4201-b6a6-1436ad8f88fb.png)
   
-6. [**全般**オプション] ページで、選択または、変更する機能の横にチェック ボックスをオフにし、**保存**します。
+6. [**全般**] オプションページで、変更する機能の横のチェックボックスをオンまたはオフにして、[**保存**] を選択します。
     
 |**オプション**|**詳細**|
 |:-----|:-----|
-|オーディオと HD ビデオ  <br/> |させるにはこのユーザーがレコードのオーディオ会議、オーディオおよびビデオ会議、または (なし)、会議をスケジュールすることを許可しません。  <br/> |
-|レコードの会話と会議  <br/> |このユーザーの許可を記録する」を選択します。  <br/> このオプションでは、ビジネスの基本の Skype で利用可能なできません。  <br/> |
-|準拠するため非アーカイブ機能を無効にします。  <br/> | 電子的に保存されている情報を保持するために法的に必要な場合は、このオプションを選択します。 <br/>  このオプションを選択することは、[インプレース保持](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)Exchange 管理センターでの設定がある場合にキャプチャされていない機能を無効にします。 次の機能をオフにします。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/> |
+|オーディオと HD ビデオ  <br/> |このユーザーが音声会議、音声会議、ビデオ会議を記録したり、会議のスケジュールを設定したりできないようにします (なし)。  <br/> |
+|会話と会議を記録する  <br/> |このユーザーが記録できる内容を選びます。  <br/> このオプションは、Skype for Business Basic では使用できません。  <br/> |
+|コンプライアンスのため、アーカイブされていない機能をオフにする  <br/> | 電子的に保存された情報を維持する必要がある場合は、このオプションを選択します。 <br/>  このオプションを選択すると、Exchange 管理センターで[インプレースホールド](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)が設定されているときにキャプチャされていない機能は無効になります。 次の機能がオフになります。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/> |
    
-一括でこれらの設定を構成するには、PowerShell を使用します。 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
+これらの設定をまとめて構成するには、PowerShell を使用します。 「 [Windows PowerShell 用にコンピューターをセットアップする」を](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)参照してください。
   
-## <a name="block-external-communications"></a>ブロック外部との連絡
+## <a name="block-external-communications"></a>外部通信をブロックする
 <a name="__toc325019206"> </a>
 
-すべてのユーザー、会社の[ビジネス ユーザー向けの Skype は、Skype 連絡先を追加](let-skype-for-business-users-add-skype-contacts.md)した後、次の手順を使用して特定の個人の外部との連絡を選択的にブロックできます。
+[Skype For business ユーザー](let-skype-for-business-users-add-skype-contacts.md)が会社のすべてのユーザーに skype 連絡先を追加できるようにすると、次の手順を使用して、特定のユーザーの外部通信を個別にブロックすることができます。
   
-1. **ユーザー**を選択し、ユーザー設定を無効にするを選択し、**編集**を選択し、![の編集](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)。
+1. [**ユーザー**] を選び、設定を無効にするユーザーを選択して**** ![、[](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)編集] を選びます。
     
-2. **外部との連絡**を選択し、必要に応じてオプションをオフにし、します。
+2. [**外部通信**] を選択し、必要に応じてオプションをオフにします。
     
-   - **ビジネス ユーザー向けの外部の Skype**: このボックスをオフにしない場合は、ユーザーがフェデレーション ドメイン内のビジネス ユーザーの Skype で通信できるようにします。
+   - **外部の skype For business ユーザー**: フェデレーションドメインの Skype for business ユーザーとの通信を可能にしない場合は、このボックスをオフにします。
     
-   - **外部 Skype ユーザー**: freeSkype アプリケーションを使用しているユーザーと通信できることをユーザーがしない場合はこのボックスをオフにします。
+   - **外部の Skype ユーザー**: freeSkype アプリを使用しているユーザーとの通信を可能にしない場合は、このボックスをオフにします。
     
-3. **[保存]** をクリックします。
+3. [**保存**] をクリックします。
     
-一括でこれらの設定を構成するには、PowerShell を使用します。 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
+これらの設定をまとめて構成するには、PowerShell を使用します。 「 [Windows PowerShell 用にコンピューターをセットアップする」を](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)参照してください。
   
-## <a name="edit-audio-conferencing-settings-for-one-user"></a>1 人のユーザーのオーディオ会議設定を編集します。
+## <a name="edit-audio-conferencing-settings-for-one-user"></a>1人のユーザーの電話会議の設定を編集する
 <a name="__toc314837483"> </a>
 
-1. **ユーザー**を選択して、電話会議の設定を編集するユーザーを選択、し、[**編集**] をクリックし、![を編集](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)。
+1. [**ユーザー**] を選び、電話会議の設定を編集するユーザーを選び、[編集**** ![] を](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)選びます。
     
-2. **オーディオ会議**を選択してオーディオ会議プロバイダーを選択して、または要求された情報を変更し、入力し、[**保存**] をクリックします。
+2. [**電話会議**] を選び、電話会議プロバイダーを選んで、要求された情報を入力または変更し、[**保存**] をクリックします。
     
 |**電話会議の設定**|**説明**|
 |:-----|:-----|
-|**プロバイダー名** <br/> |リストから、プロバイダーを選択します。  <br/> |
-|**有料電話番号** (必須) <br/> |サード ・ パーティ製 ACP では、これらの電話番号は、オーディオ会議プロバイダーから入手したものです。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 ビジネスおよびマイクロソフトのチームの会議出席依頼の Skype に表示する数値書式を設定します。  <br/> |
-|**フリー ダイヤル番号** <br/> |サード ・ パーティ製 ACP では、これらの電話番号は、オーディオ会議プロバイダーから入手したものです。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 ビジネスおよびマイクロソフトのチームの会議出席依頼の Skype に表示する数値書式を設定します。  <br/> |
-|**会議 ID と暗証番号 (pin)**(必須) <br/> |参加者暗証番号 (pin)、または会議コード、このユーザーが自動的にスケジュールし、サード ・ パーティ製のオーディオ会議プロバイダーから提供されているミーティングに参加するために使用します。 場合は、ユーザーは、Microsoft を使用してオーディオ会議プロバイダーとしては、必要な必要はありません。  <br/> |
+|**プロバイダー名** <br/> |リストからプロバイダーを選択します。  <br/> |
+|**有料電話番号** (必須) <br/> |サードパーティ ACP の場合、これらの電話番号は、電話会議プロバイダーから受け取った電話番号です。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 Skype for Business および Microsoft Teams の会議出席依頼に表示する番号の書式を設定します。  <br/> |
+|**フリー ダイヤル番号** <br/> |サードパーティ ACP の場合、これらの電話番号は、電話会議プロバイダーから受け取った電話番号です。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 Skype for Business および Microsoft Teams の会議出席依頼に表示する番号の書式を設定します。  <br/> |
+|**会議 ID と PIN**任意 <br/> |このユーザーによってスケジュールされ、サードパーティの電話会議プロバイダーから提供された会議に参加するために使用される、参加者の PIN (会議コード) です。 ユーザーが Microsoft を電話会議プロバイダーとして使用している場合は、この操作は必要ありません。  <br/> |
    
-一括でこれらの設定を構成するには、PowerShell を使用します。 [Windows PowerShell には、コンピューターのセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)[に含まれている番号への招待の電話の設定](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)を参照してください。
+これらの設定をまとめて構成するには、PowerShell を使用します。 「[招待に含まれている電話番号を設定する](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) [](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)」を参照してください。
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

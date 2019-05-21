@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,33 +24,33 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: トリニダード ・ トバゴの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 89c8ac47534ccc8097ecec6bd0ddcba25a60cb97
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 以下は、トリニダード・トバゴで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
+ms.openlocfilehash: 6e37f890fbffe805c9963bf2d2894d14800345d0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541689"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286746"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>トリニダード・トバゴでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-トリニダード ・ トバゴの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+以下は、トリニダード・トバゴで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |あり  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |不要  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
+|電話会議は購入できますか?  <br/> |はい  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |あり  <br/> |
+|電話システムは購入できますか?  <br/> |はい  <br/> |
 | 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
@@ -68,8 +68,8 @@ ms.locfileid: "30541689"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
-|有料電話番号は使用できますか?  <br/> |不要  <br/> |
-|無料電話番号は使用できますか?  <br/> |あり  <br/> |
+|有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
+|無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。
   

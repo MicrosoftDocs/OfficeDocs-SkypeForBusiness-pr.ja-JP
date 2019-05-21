@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,27 +13,27 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
-description: クラウド コネクタ版 version 2.0 以降でメディアをバイパスを展開する手順については、このトピックを参照してください。
-ms.openlocfilehash: f4ea5449e7a324ae206241af25d12ecabf9c5259
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: このトピックでは、クラウドコネクタエディションバージョン2.0 以降でメディアのバイパスを展開する手順について説明します。
+ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234085"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287546"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでメディア バイパスを展開する
  
-クラウド コネクタ版 version 2.0 以降でメディアをバイパスを展開する手順については、このトピックを参照してください。 
+このトピックでは、クラウドコネクタエディションバージョン2.0 以降でメディアのバイパスを展開する手順について説明します。 
   
-メディア バイ パスにより、公衆交換電話網 (PSTN) の次のホップに直接メディアを送信するクライアント-ゲートウェイまたはセッション ボーダー コント ローラー (SBC)-メディアのパスからクラウドのコネクタのエディションのコンポーネントを削除するとします。 [クラウド コネクタのエディションで使用しないメディアの計画](plan-for-media-bypass-in-cloud-connector-edition.md)を参照してください。
+メディアのバイパスを使用すると、クライアントは、公衆交換電話網 (PSTN) の次ホップ (ゲートウェイまたはセッションボーダーコントローラー (SBC)) にメディアを直接送信し、メディアパスからクラウドコネクタエディションコンポーネントを削除することができます。 「[クラウドコネクタエディションでのメディアバイパスの計画](plan-for-media-bypass-in-cloud-connector-edition.md)」もご覧ください。
   
 ## <a name="enable-media-bypass"></a>メディアのバイパスを有効にする
 
-メディアのバイパスを有効にするは、メディア バイ パスの web サービスの DNS 名を構成して、テナント構成では、メディア バイ パスを有効にする必要があります。 メディア バイ パスの web サービスは、すべての仲介サーバーに自動的に配置されます。 テナント管理者は、ハイブリッド音声サービス (サイト) の名前を選択する必要があり、ハイブリッドの音声を登録されている SIP ドメインからこの名前である必要があります。 サービス名は、クラウドのコネクタのすべてのアプライアンスやクライアントの場所に関係なくすべての PSTN のサイト間で同じをする必要があります。 Web サービスのみ、ネットワークの内部で使用可能な場合があります。
+メディアバイパスを有効にするには、メディアバイパス web サービスの DNS 名を構成し、テナント構成でメディアバイパスを有効にする必要があります。 メディアバイパスの web サービスは、すべての仲介サーバーで自動的に展開されます。 テナント管理者は、ハイブリッドボイスサービス (サイト) の名前を選択する必要があります。この名前は、ハイブリッドボイスに登録されている SIP ドメインから取得する必要があります。 サービス名は、クライアントの場所に関係なく、すべてのクラウドコネクタのアプライアンスとすべての PSTN サイトで同じである必要があります。 Web サービスは、ネットワーク上でのみ利用可能である必要があります。
   
-テナント管理者は、内部運用環境の Active Directory で DNS A レコードを構成する必要があります。 複雑な複数サイト環境を使っている場合の例を参照してください。[の使用例: メディアが複雑な複数サイトの環境で web サイトの DNS レコードを使用しない](deploy-media-bypass-in-cloud-connector.md#Example)。 内部ネットワーク クライアントの DNS レコードを解決するだけ外部ネットワークのクライアントに対しては解決する必要があります。
+テナント管理者は、内部の運用 Active Directory で DNS A レコードを構成する必要があります。 複雑なマルチサイト環境がある場合は、「[複雑なマルチサイト環境での web サイトの DNS レコードのバイパス](deploy-media-bypass-in-cloud-connector.md#Example)」の例を参照してください。 DNS レコードは、内部ネットワーククライアントに対してのみ解決されます。外部ネットワーククライアントに対しては解決されません。
   
-DNS を構成したら、Skype for Business 管理者の資格情報で リモート PowerShell を使用して、Skype for Business Online に接続します。 詳細については、 [Windows PowerShell には、コンピューターの設定](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
+DNS を構成したら、Skype for Business 管理者の資格情報で リモート PowerShell を使用して、Skype for Business Online に接続します。 詳細については、「 [Windows PowerShell 用にコンピューターをセットアップする](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)」を参照してください。
   
 PowerShell セッションで、次のコマンドを入力してメディア バイパスを有効にします。
   
@@ -43,7 +43,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-メディア バイ パスを有効にするとは、2 段階のプロセスです。 新規 CsNetworkMedia コマンドレットが新しい構成をすぐに保存できません。メモリの設定が作成されるだけです。 このコマンドレットによって作成されたオブジェクトを変数に保存し、ネットワーク構成の MediaBypassSettings プロパティに割り当てられますする必要があります。 詳細についてを参照してください[の使用例: メディアが複雑な複数サイトの環境で web サイトの DNS レコードを使用しない](deploy-media-bypass-in-cloud-connector.md#Example)。
+メディアのバイパスを有効にするには、2つの手順を実行します。 新しい-CsNetworkMedia コマンドレットでは、新しい構成はすぐに保存されません。メモリ内の設定のみを作成します。 このコマンドレットによって作成されたオブジェクトは、変数に保存してから、ネットワーク構成の MediaBypassSettings プロパティに割り当てる必要があります。 詳細については、「[例: 複雑なマルチサイト環境での web サイトの DNS レコードのバイパス](deploy-media-bypass-in-cloud-connector.md#Example)」を参照してください。
   
 オンプレミスとオンライン コンポーネント間のレプリケーションには最長で 24 時間かかります。したがって、ユーザーを有効化する前に必要なコマンドを実行しておくことをお勧めします。
   
@@ -51,20 +51,20 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 メディア バイパス設定は次の方法で確認できます。 
   
-テナント プールにオンライン ・ レプリケーションを確認するには、リモート PowerShell で次のコマンドを実行します。
+テナントプールへのオンラインレプリケーションを確認するには、リモート PowerShell で次のコマンドを実行します。
   
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-設置型のレプリケーションを確認して、クラウドのコネクタの仲介サーバーに接続、PowerShell で次のコマンドを実行、ことを確認するその Enabled = True と AlwaysBypass = True
+オンプレミスのレプリケーションを確認するには、クラウドコネクタの仲介サーバーに接続し、PowerShell で次のコマンドを実行し、有効であることを確認します。
   
 ```
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-クライアント設定を確認するには、ビジネス クライアント用の Skype からサインアウトにもう一度サインインし、クライアントが、サービスの URL を次のように受け取ることを確認します。
+クライアント設定を確認するには、Skype for Business クライアントからサインアウトし、もう一度サインインして、クライアントが次のようにサービス URL を受信したことを確認します。
   
 1. %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog を開きます。 
     
@@ -90,7 +90,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-変更後、すべての Cloud Connector にレプリケートされるまで時間がかかる場合があります。 レプリケーションの状態を確認するには、クラウド コネクタの仲介サーバーに、PowerShell で次のコマンドレットを実行します。 
+変更後、すべての Cloud Connector にレプリケートされるまで時間がかかる場合があります。 レプリケーションの状態を確認するには、クラウドコネクタ仲介サーバー上の PowerShell で次のコマンドレットを実行します。 
   
 ```
 Get- CsNetworkConfiguration -LocalStore
@@ -108,20 +108,20 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
 ```
 
-さらに、管理者は内部 DNS サーバーからメディア バイパスの Web アドレスを削除する必要があります。 変更を加えたら、クラウドのコネクタのすべてのアプライアンスをレプリケートする変更の時間がかかる可能性があります。 
+さらに、管理者は内部 DNS サーバーからメディア バイパスの Web アドレスを削除する必要があります。 変更を行った後は、変更がすべてのクラウドコネクタのアプライアンスに複製されるまでに時間がかかることがあります。 
   
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>例: 複雑なマルチサイト環境でのメディア バイパス Web サイトの DNS レコード
 <a name="Example"> </a>
 
-クライアントは、内部 DNS サーバーからメディア バイパス Web サービスの Web アドレスを受信します。 Web サービスの名前は同じにするすべてのコネクタのクラウド アプライアンスおよびクラウド コネクタ PSTN のサイト。 複雑なマルチサイト環境では、地理的な場所ベースのトラフィック管理用の Windows 2016 DNS ポリシーを使用して、クライアントのネットワークにおいてローカルな Web サービスにクライアントをリダイレクトできるようにすることをお勧めします。 
+クライアントは、内部 DNS サーバーからメディア バイパス Web サービスの Web アドレスを受信します。 Web サービスの名前は、すべてのクラウドコネクタのアプライアンスとクラウドコネクタの PSTN サイトで同じになります。 複雑なマルチサイト環境では、地理的な場所ベースのトラフィック管理用の Windows 2016 DNS ポリシーを使用して、クライアントのネットワークにおいてローカルな Web サービスにクライアントをリダイレクトできるようにすることをお勧めします。 
   
-Windows 2016 DNS ポリシーの詳細については、[地理的な場所ベースのトラフィックの管理のプライマリ サーバーの DNS ポリシーの使用](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location)を参照してください。
+Windows 2016 DNS ポリシーの詳細については、「[プライマリサーバーを使用した地理的な場所に基づくトラフィック管理に DNS ポリシーを使用する](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location)」を参照してください。
   
 地理的な場所ベースのトラフィック管理の Windows 2016 DNS ポリシーを使用して、複数のサイトを持つ会社の構成例を示します。
   
-使用しないサービスの名前は、'hybridvoice.adatum.biz' です。
+バイパスサービスの名前は ' hybridvoice.adatum.biz ' です。
   
-アムステルダムのサイトには、4 つのクラウド コネクタ アプライアンスを次のような仲介サーバーの IP アドレスで展開があります。
+アムステルダムのサイトには、次の仲介サーバー IP アドレスを使用して、4つのクラウドコネクタのアプライアンスが展開されています。
   
 - 192.168.1.45
     
@@ -131,7 +131,7 @@ Windows 2016 DNS ポリシーの詳細については、[地理的な場所ベ�
     
 - 192.168.1.48
     
-シアトルのサイトには、次の 3 つのクラウド コネクタ アプライアンスを次のような仲介サーバーの IP アドレスで展開があります。
+シアトルのサイトには、次の仲介サーバー IP アドレスを使用して展開された、3つのクラウドコネクタのアプライアンスが含まれています。
   
 - 10.10.1.8
     
@@ -182,7 +182,7 @@ Windows 2016 DNS ポリシーの詳細については、[地理的な場所ベ�
 この時点では、hybridvoice.adatum.biz のアムステルダムのサブネットから DNS クエリーを実行しているクライアントは 192.168.1.45、192.168.1.46、192.168.1.47、192.168.1.48 のアドレスを返します。その一方で、シアトルから同様のクエリーを実行しているクライアントは 10.10.1.8、10.10.1.9、10.10.1.10 を返します。
 
 > [!NOTE]
-> CCE アプライアンスは、更新された設定を取得するように思える場合、は、アプライアンスをリモート PowerShell を使用してテナントに接続できるかどうかを確認してください。 Get CsHybridPSTNAppliance とアプライアンスの状態を確認するか、Get CcApplianceStatus の状態を確認する CCE ホストで PowerShell を使用するリモート PowerShell を使用できます。
+> CCE アプライアンスが更新された設定になっていないように見える場合は、アプライアンスがリモート PowerShell 経由でテナントに接続できるかどうかを確認します。 リモート PowerShell を使用して、CsHybridPSTNAppliance でアプライアンスの状態を確認するか、または CCE ホストの PowerShell を使用して、CcApplianceStatus を使って状態を確認することができます。
 
   
 ## <a name="see-also"></a>関連項目

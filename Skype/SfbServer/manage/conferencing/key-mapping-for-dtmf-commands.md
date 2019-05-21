@@ -1,29 +1,29 @@
 ---
-title: ビジネス サーバー Skype の DTMF コマンドのキー マッピングを管理します。
+title: Skype for Business Server の DTMF コマンドのキーマッピングを管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: '概要: ビジネス サーバー Skype でデュアル トーン多重周波数 (DTMF) コマンドのキー マッピングを管理する方法を説明します。'
-ms.openlocfilehash: e90e51bfb3c7c66524e10f7e4428c5bfe36fdcc9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のデュアルトーンマルチ周波数 (DTMF) コマンドのキーマッピングを管理する方法について説明します。'
+ms.openlocfilehash: 713c72941a8cc147b751c82b9dbbfbc2c2d16837
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919479"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283761"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>ビジネス サーバー Skype の DTMF コマンドのキー マッピングを管理します。
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Skype for Business Server の DTMF コマンドのキーマッピングを管理する
  
-**の概要:** ビジネス サーバー Skype でデュアル トーン多重周波数 (DTMF) コマンドのキー マッピングを管理する方法について説明します。
+**概要:** Skype for Business Server のデュアルトーンマルチ周波数 (DTMF) コマンドのキーマッピングを管理する方法について説明します。
   
 ダイヤルイン会議のユーザーは、電話キーパッドのキーを押して、デュアルトーン多重周波数 (DTMF) のコマンドを実行できます。DTMF コマンドを使用すると、会議にダイヤルインするユーザーは、電話のキーパッドを使用して会議設定 (自身をミュートおよびミュート解除したり、会議をロックおよびロック解除したりするなど) を制御できます。 
   
-DTMF コマンドを使用するキーを管理するには、ビジネス サーバー管理シェルには、 **Get CsDialinConferencingDtmfConfiguration**、**セット CsDialinConferencingDtmfConfiguration****と、Skype を使用します。CsDialinConferencingDtmfConfiguration では新しい**コマンドレットです。
+DTMF コマンドに使用されるキーを管理するには、 **CsDialinConferencingDtmfConfiguration**、 **Set-CsDialinConferencingDtmfConfiguration**、および**のような Skype for business Server 管理シェルを使用します。CsDialinConferencingDtmfConfiguration**コマンドレット。
   
 サイトの新たな DTMF 設定を作成すると、そのサイト設定はグローバル設定よりも優先されるようになります。 
 
@@ -57,6 +57,6 @@ DTMF コマンドを使用するキーを管理するには、ビジネス サ�
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-詳細については、 [Get CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps)、[セット CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)、および[新しい CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)を参照してください。
+詳細については、「 [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps)、 [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)、 [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)」を参照してください。
   
 

@@ -8,67 +8,67 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 記載されている、Skype ビジネス サーバーのコントロール パネルの [外部アクセス ポリシー] ページで、サイトまたはユーザーのポリシーを削除することができます。
-ms.openlocfilehash: 517c5b015d4e2fe5de584a8079af1bb4f5ed248a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[外部アクセスポリシー] ページの [Skype for Business Server] コントロールパネルに表示されているサイトまたはユーザーポリシーは、削除することができます。'
+ms.openlocfilehash: 615df309088a329e07f5417dce16e98366a371c7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920418"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280125"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザー アクセスに関するサイト ポリシーまたはユーザー ポリシーの削除
 
-作成または、外部ユーザー アクセス ポリシーを使用する必要がなくなったように構成した場合は、次の操作を行うことができます。
+使用しない外部ユーザーアクセスポリシーを作成または構成している場合は、次の操作を行うことができます。
 
   - 作成したサイトまたはユーザーのポリシーを削除します。
 
-  - グローバル ポリシーを既定の設定にリセットします。 既定のグローバル ポリシー設定は、すべての外部ユーザー アクセスを拒否します。 グローバル ポリシーは削除できません。
+  - グローバルポリシーを既定の設定にリセットします。 既定のグローバルポリシー設定では、外部ユーザーのアクセスを拒否します。 グローバルポリシーは削除できません。
 
 
-記載されている、Skype ビジネス サーバーのコントロール パネルの [**外部アクセス ポリシー** ] ページで、サイトまたはユーザーのポリシーを削除することができます。 グローバル ポリシーを削除すると、実際には削除されず、ですが、のみが、外部ユーザー アクセス オプションのサポートが含まれていない既定の設定にリセットします。 グローバル ポリシーのリセットの詳細については、[外部ユーザー アクセス用のグローバル ポリシーのリセット](reset-the-global-policy-for-external-user-access.md)を参照してください。
+[**外部アクセスポリシー** ] ページの [Skype For Business Server] コントロールパネルに表示されているサイトまたはユーザーポリシーは、削除することができます。 グローバルポリシーを削除しても、実際に削除されるわけではありませんが、外部ユーザーアクセスオプションのサポートは含まれていない既定の設定にリセットされるだけです。 グローバルポリシーのリセットの詳細については、「[外部ユーザーアクセスのグローバルポリシーをリセット](reset-the-global-policy-for-external-user-access.md)する」を参照してください。
 
 
-## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザー アクセスのサイトまたはユーザーのポリシーを削除するのには
+## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザーアクセスのサイトまたはユーザーポリシーを削除するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
 
-3.  **外部ユーザー アクセス**] をクリックして、[**外部アクセス ポリシー**] をクリックします。
+3.  [**外部ユーザーアクセス**] をクリックし、[**外部アクセスポリシー**] をクリックします。
 
-4.  [**外部アクセス ポリシー** ] タブで、削除、**編集**] をクリックし、[**削除**] をクリックするサイトまたはユーザーのポリシーをクリックします。
+4.  [**外部アクセスポリシー** ] タブで、削除するサイトまたはユーザーのポリシーをクリックし、[**編集**] をクリックして、[**削除**] をクリックします。
 
-5.  削除の確認メッセージが表示されたら、[ **OK**を] をクリックします。
-
-
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、暗証番号 (pin) ポリシーを削除します。
-
-外部アクセス ポリシーは、Windows PowerShell と削除 CsExternalAccessPolicy コマンドレットを使用して削除できます。 ビジネス サーバー管理シェルの Skype とは Windows PowerShell のリモート セッションからは、このコマンドレットを実行できます。 
+5.  削除を確認するメッセージが表示されたら、[ **OK**] をクリックします。
 
 
-## <a name="to-remove-a-specific-external-access-policy"></a>特定の外部アクセス ポリシーを削除するには
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して PIN ポリシーを削除する
 
-  - このコマンドは、Redmond サイトに適用される外部アクセス ポリシーを削除します。
+外部アクセスポリシーは、Windows PowerShell と CsExternalAccessPolicy コマンドレットを使用して削除できます。 このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 
+
+
+## <a name="to-remove-a-specific-external-access-policy"></a>特定の外部アクセスポリシーを削除するには
+
+  - このコマンドは、Redmond サイトに適用されている外部アクセスポリシーを削除します。
     
         Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
 
-## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>外部アクセス ユーザーごとのスコープに適用されるポリシーをすべて削除するには
+## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>ユーザーごとのスコープに適用されたすべての外部アクセスポリシーを削除するには
 
-  - このコマンドは、ユーザーごとのスコープで構成されているすべての外部アクセス ポリシーを削除します。
+  - このコマンドは、ユーザーごとのスコープで構成されたすべての外部アクセスポリシーを削除します。
     
         Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
 
-## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>外部ユーザー アクセスが無効になっているすべての外部アクセス ポリシーを削除するのには
+## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>外部ユーザーアクセスが無効になっている外部アクセスポリシーをすべて削除するには
 
-  - このコマンドは、外部ユーザー アクセスが無効になってすべての外部アクセス ポリシーを削除します。
+  - このコマンドは、外部ユーザーアクセスが無効になっている外部アクセスポリシーをすべて削除します。
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 
-詳細については、[削除 CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)コマンドレットのヘルプトピックを参照してください。

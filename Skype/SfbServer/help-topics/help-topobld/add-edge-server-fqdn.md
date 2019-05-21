@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerFqdnsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
-description: アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 単一の FQDN の使用を選択しなかった場合は、 &amp; IP アドレスのオプションを選択します] ページの機能、および A の Web 会議エッジ サービスの FQDN を指定することもする必要があります/音声ビデオ エッジ サービスです。
-ms.openlocfilehash: a76efab9c34984c5c514e9301ddbf17fdb2fb025
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: アクセスエッジサービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 [機能の選択] ページで [単一の&amp; fqdn IP アドレスを使用する] オプションを選択していない場合は、Web 会議エッジサービスと a/V Edge サービスの fqdn も指定する必要があります。
+ms.openlocfilehash: fa9513d222c41cb4232832a9d6d3ba4273b6828c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886418"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302480"
 ---
 # <a name="add-edge-server-fqdn"></a>エッジ サーバーの FQDN の追加
  
-アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 選択しなかった場合、 **、1 つの FQDN を使用して、 &amp; IP アドレス**オプション**機能の選択**] ページで、A、Web 会議エッジ サービスの FQDN を指定する必要がありますもと音声ビデオ エッジ サービスです。
+アクセスエッジサービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 **[機能の選択**] ページで [**単一の&amp; fqdn IP アドレスを使用**する] オプションを選択していない場合は、Web 会議エッジサービスと a/V Edge サービスの fqdn も指定する必要があります。
   
-選択した場合、 **1 つの FQDN を使用して、 &amp; IP アドレス**オプション、エッジ サービスごとに別のポート番号を指定する必要があります (推奨されるポート設定: 444 アクセス エッジのサービス、Web 会議エッジ サービスの場合は、8057 と A の場合は 443/Vエッジ サービスの場合)。 オプションを選択しなかった場合は、次の 3 つのすべてのサービスの同じポート番号 (443) などを使用できます。
+また、[単一の FQDN IP アドレスを使用する] オプションを選択した場合、エッジサービスごとに異なるポート番号を指定する必要があります (推奨されるポートの設定 444: アクセスエッジサービスの場合は8057、Web 会議エッジサービスの場合は、a/V の場合は 443)エッジサービス)。 このオプションを選択しなかった場合は、3つのサービスすべてに同じポート番号 (443 など) を使用できます。
   
 

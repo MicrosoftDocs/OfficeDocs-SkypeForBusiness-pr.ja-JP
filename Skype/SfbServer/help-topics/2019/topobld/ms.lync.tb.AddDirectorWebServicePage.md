@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddDirectorWebServicePage
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
-description: ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web サービスの完全な URL は、 https://pool01.contoso.net、ベース URL は、pool01.contoso.net です。
-ms.openlocfilehash: 816ba625db8a2665d706a38c8a4a7d99544ad87e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web サービスの完全な URL がhttps://pool01.contoso.netの場合、ベース url は pool01.contoso.net になります。
+ms.openlocfilehash: 99307086b33b7a3b300fb32d48df51af5de3ad1e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889123"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305114"
 ---
 # <a name="add-director-web-service"></a>ディレクター Web サービスの追加
  
-ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web サービスの完全な URL は、 https://pool01.contoso.net、ベース URL は、pool01.contoso.net です。
+ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web サービスの完全な URL がhttps://pool01.contoso.netの場合、ベース url は pool01.contoso.net になります。
   
-単一のディレクターを展開する場合は、内部の Web サービス プール完全修飾ドメイン名 (FQDN) をオーバーライドできません。 内部の別のベース URL を指定するには、ドメイン ネーム システム (DNS) の負荷分散ディレクターのプールを構成する場合 (とプールの FQDN とは異なる必要があります可能性があります、たとえば、内部の\<、ベース URL\>)。
+1つのディレクターのみを展開する場合は、内部 Web サービスプールの完全修飾ドメイン名 (FQDN) を上書きすることはできません。 ディレクターのプールのドメインネームシステム (DNS) 負荷分散を構成する場合は、別の内部ベース URL を指定できます (プールの FQDN とは異なる場合があります。これは、プールの\<FQDN とは\>異なる場合があります。これは、内部のベース url などの場合もあります)。
   
-異なる外部ベース URL を指定する名前付け規則を区別するために、内部のベース URL から。 内部ドメインには、contoso.net、ですが、外部ドメイン名は、contoso.com などです。 Contoso.com ドメイン名を使用して外部ベース URL を定義します。 これは、エッジの展開のリバース プロキシ サーバーには重要です。 外部ベース URL のドメイン名は、リバース プロキシの FQDN のドメイン名と同じにする必要があります。 
+ドメイン名を区別するために、内部ベース URL とは異なる外部ベース URL を指定することができます。 たとえば、内部ドメインは contoso.net ですが、外部ドメイン名は contoso.com です。 外部ベース URL を定義するには、contoso.com ドメイン名を使用します。 これは、エッジ展開用のリバースプロキシサーバーにとって重要です。 外部ベース URL ドメイン名は、リバースプロキシの FQDN のドメイン名と同じにする必要があります。 
   
 

@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
-description: ビジネス クラウド コネクタ エディション 1.4.1 またはそれ以降の展開は、既存の Skype の構成を変更するには、このトピックの手順を実行します。
-ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: このトピックの手順に従って、既存の Skype for Business Cloud Connector エディション1.4.1 以降の展開の構成を変更します。
+ms.openlocfilehash: 7e46d614a5aaf3c34d9401e2ec53ba72e8adba71
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237610"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287049"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
  
-ビジネス クラウド コネクタ エディション 1.4.1 またはそれ以降の展開は、既存の Skype の構成を変更するには、このトピックの手順を実行します。 
+このトピックの手順に従って、既存の Skype for Business Cloud Connector エディション1.4.1 以降の展開の構成を変更します。 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>1 つのサイトの構成を変更する
 <a name="BKMK_SIngleSite"> </a>
@@ -44,7 +44,7 @@ ms.locfileid: "32237610"
 
 3. アプライアンス ディレクトリ の CloudConnector.ini ファイルを更新します。
     
-4. 構成を更新するのには次のコマンドレットを実行する: (この手順は、バージョン 2; 以前のバージョンに該当する場合のみ、次の手順に進みます)。
+4. 次のコマンドレットを実行して構成を更新します: (この手順はバージョン2にのみ適用されます。以前のバージョンでは、次の手順に進みます)。
     
    ```
    Import-CcConfiguration 
@@ -78,7 +78,7 @@ ms.locfileid: "32237610"
 
 3. アプライアンス ディレクトリ の CloudConnector.ini ファイルを更新します。
     
-4. 構成を更新するのには次のコマンドレットを実行する: (この手順は、バージョン 2; 以前のバージョンに該当する場合のみ、次の手順に進みます)。
+4. 次のコマンドレットを実行して構成を更新します: (この手順はバージョン2にのみ適用されます。以前のバージョンでは、次の手順に進みます)。
     
    ```
    Import-CcConfiguration 
@@ -96,7 +96,7 @@ ms.locfileid: "32237610"
    Publish-CcAppliance
    ```
 
-7. 現在のアプライアンスのクラウドのコネクタを再配置するのには、次のコマンドレットを実行します。
+7. 次のコマンドレットを実行して、現在のアプライアンスのクラウドコネクタを再展開します。
     
    ```
    Install-CcAppliance
@@ -105,16 +105,16 @@ ms.locfileid: "32237610"
 ## <a name="modify-the-configuration-of-multiple-sites"></a>複数のサイトの構成を変更する
 <a name="BKMK_MultipleSites"> </a>
 
-展開で複数のサイトの構成を変更するには、一度に 1 つのサイトを更新、1 つのサイトの手順を実行します。
+展開内の複数のサイトの構成を変更するには、1つのサイトの手順に従って、一度に1つのサイトを更新します。
   
 ## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>自動更新を有効にするために Office 365 テナントの構成を変更する
 <a name="BKMK_MultipleSites"> </a>
 
-オペレーティング システムの自動更新と Bits の自動更新を有効にするには、オンライン管理のためのビジネス テナント管理者のアカウントに、Skype を使用する必要があります、リモート PowerShell のテナントを次のように使用します。
+オペレーティングシステムの自動更新と Bits の自動更新を有効にするには、Skype for Business テナント管理者アカウントを使用してオンライン管理を行ってから、次のようにテナントのリモート PowerShell を使用する必要があります。
   
-オペレーティング システムの自動更新または自動更新のビットを無効にした場合、ホストと仮想マシンは、重要な Windows 更新を見落とす場合があり、クラウドのコネクタは自動的に新しいバージョンにアップグレードされません。 自動更新を有効にすることを強くお勧めします。
+オペレーティングシステムの自動更新または Bits の自動更新を無効にした場合、ホストと仮想マシンで重要な Windows の更新プログラムが失われることがあります。クラウドコネクタは、新しいバージョンに自動的にアップグレードされることはありません。 自動更新を有効にすることを強くお勧めします。
   
-1. サイトの EnableAutoUpdate プロパティは、true (既定値) に設定する必要があります。 EnableAutoUpdate が True に設定されていることを確認するには、次のコマンドレットを実行します。
+1. サイトの EnableAutoUpdate プロパティは、true (既定値) に設定されている必要があります。 EnableAutoUpdate が True に設定されていることを確認するには、次のコマンドレットを実行します。
     
    ```
    Get-CsHybridPSTNSite -Identity <SiteName>
@@ -159,9 +159,9 @@ ms.locfileid: "32237610"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>専用のテナント管理者の資格情報を更新する
 <a name="BKMK_MultipleSites"> </a>
 
-クラウド コネクタの Office 365 テナントの管理の変更は、必要なアクセス許可を持つアカウントで行われます。 クラウド コネクタ 2.0 より前のに、バージョンでは、そのアカウントが専用のグローバル テナント管理者のアカウントです。 クラウド コネクタ バージョン 2.0 以降では、そのアカウントにビジネス管理者の権利を Skype での Office 365 アカウントことができます。
+クラウドコネクタの Office 365 テナントの管理上の変更は、必要なアクセス許可を持つアカウントから行われます。 2.0 より前のクラウドコネクタのバージョンでは、そのアカウントはグローバルテナント管理者専用のアカウントです。 クラウドコネクタバージョン2.0 以降では、そのアカウントは、Skype for Business の管理者権限を持つ Office 365 アカウントになることができます。
   
-Office 365 の管理者アカウントの資格情報を変更する場合は、展開している各コネクタのクラウド アプライアンスの次の管理者の PowerShell コマンドを実行して、クラウドのコネクタのローカルにキャッシュされた資格情報を更新する必要があります。
+Office 365 で管理者アカウントの資格情報を変更した場合は、展開した各クラウドコネクタのアプライアンスで次の管理者 PowerShell コマンドを実行して、クラウドコネクタのローカルにキャッシュされた資格情報を更新する必要があります。
   
 ```
 Set-CcCredential -AccountType TenantAdmin
@@ -173,9 +173,9 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > このセクションは Cloud Connector バージョン 2.0 以降のみを対象としています。 
   
-クラウド コネクタのすべての資格情報は、次のファイルに格納されます:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml」です。 ホスト サーバーのパスワードを変更するときには、ローカルで格納されている資格情報を更新する必要があります。
+すべてのクラウドコネクタの資格情報は、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>. ホスト サーバーのパスワードを変更するときには、ローカルで格納されている資格情報を更新する必要があります。
   
-クラウド コネクタ ・ アプライアンスのローカルに保存された資格情報を更新するには、 [Get CcCredential](get-cccredential.md)と[セット CcCredential](set-cccredential.md)コマンドレットを使用して、これらの手順に従います。
+クラウドコネクタアプライアンスでローカルに保存されている資格情報を更新するには、 [cccredential](get-cccredential.md)と[cccredential](set-cccredential.md)コマンドレットを使用して、次の手順を実行します。
   
 1. 次のコマンドを実行して、後で必要になるパスワードを取得します。 
     
@@ -189,9 +189,9 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. ホスト サーバーを再起動します。
     
-4. 次のファイルを削除します。"% SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml」です。
+4. 次のファイルを削除します: "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>.
     
-5. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 Cloud Connector の展開で前回使用したパスワードと同じパスワードを入力します。
+5. 管理者として PowerShell コンソールを起動し、[この説明に従ってパスワードを再入力するには、"Register Appliance-Local]" を実行します。 Cloud Connector の展開で前回使用したパスワードと同じパスワードを入力します。
     
 既定では、VmAdmin および DomainAdmin では CceService と同じパスワードが使用されます。手順 1 で返された DomainAdmin、VMAdmin および CceService のパスワードが異なる場合は、次の手順を実行する必要があります。
   
@@ -207,25 +207,25 @@ Set-CcCredential -AccountType TenantAdmin
     
 2. 新しいアカウントの資格情報を求められた場合は、手順 1 で返された VmAdmin パスワードを入力します。 
     
-## <a name="update-the-password-for-the-cceservice-account"></a>CceService アカウントのパスワードを更新します。
+## <a name="update-the-password-for-the-cceservice-account"></a>CceService アカウントのパスワードを更新する
 <a name="BKMK_UpdatePassword"> </a>
 
 > [!NOTE]
-> クラウド コネクタ バージョン 2.0.1 に該当する場合、後でこのセクションでは。 
+> このセクションは、Cloud Connector バージョン2.0.1 以降に適用されます。 
   
-クラウド コネクタ サービスは、クラウドのコネクタの管理サービスを実行します。 CceService アカウントがクラウド コネクタのエディションの展開中に作成され、次のファイルに格納されている:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"および"%systemdrive%\programdata\cloudconnector\credentials.CceService.xml"です。
+クラウドコネクタサービスは、クラウドコネクタ管理サービスを実行します。 CceService アカウントは、クラウドコネクタエディションの展開中に作成され、次のファイルに保存されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>"と"%SystemDrive%\Programdata\Cloudconnector\credentials..CceService "。
   
-サイト ディレクトリの共有のすべてのアプライアンスにアクセスできることを確認するは、CceService のアカウントのパスワードはサイト内に展開されるすべてのアプライアンス上で同じである必要があります。 以下の点について留意してください。
+すべてのアプライアンスがサイトディレクトリ共有にアクセスできるようにするには、CceService アカウントのパスワードが、サイト内に展開されているすべてのアプライアンスで同じである必要があります。 以下の点について留意してください。
   
-- 既定では、[パスワードを無期限にする"と CceService のアカウントが構成されています。 パスワードを更新するときは、この構成を保持することをお勧めします。
+- 既定では、CceService アカウントは "パスワードを無期限にする" として構成されています。 パスワードを更新する場合は、この設定を維持することをお勧めします。
     
-- 非ピーク時間帯に、ビットまたは Windows の更新プログラムの自動更新の時間帯以外では、パスワードを更新する必要があります。 パスワードを更新すると、アプライアンス必要がありますを放電し、再起動すると、時間がかかります。 アプライアンスを再起動すると、自動更新の操作が中断されます。 
+- パスワードは、非ピーク時の使用期間内、および bits または Windows の更新プログラムの自動更新の時間帯外で更新する必要があります。 パスワードを更新する際には、アプライアンスをドレインして再起動する必要があります。これには時間がかかります。 アプライアンスを再起動すると、自動更新操作が中断されます。 
     
-- CceService アカウントのパスワードを変更すると、すべての資格情報を指定し、ローカルに保存されたファイルに更新する必要があります。 
+- CceService アカウントのパスワードを変更する場合は、すべての資格情報を指定して、ローカルに保存されているファイルで更新する必要があります。 
     
-同じ PSTN のサイトに属しているアプライアンスそれぞれに対して、次の指定が必要になります。 
+同じ PSTN サイトに属している各アプライアンスについて、次の情報を指定する必要があります。 
   
-1. 後で使用するパスワードとアカウント名を取得するために次のコマンドを実行します。
+1. 後で使用するアカウント名とパスワードを取得するには、次のコマンドを実行します。
     
    ```
    Get-CcCredential -AccountType TenantAdmin -DisplayPassword
@@ -239,15 +239,15 @@ Set-CcCredential -AccountType TenantAdmin
    Get-CcCredential -AccountType DomainAdmin -DisplayPassword
    ```
 
-2. アプライアンスを放電し、手動でのメンテナンス モードに移動する Enter CcUpdate コマンドレットを実行します。
+2. 「CcUpdate」コマンドレットを実行してアプライアンスをドレインし、手動メンテナンスモードに移行します。
     
-3. ホスト サーバー上の CceService のアカウントのパスワードを更新します。
+3. ホストサーバー上の CceService アカウントのパスワードを更新します。
     
 4. ホスト サーバーを再起動します。
     
-5. 次の説明、パスワードを再入力するのには復元 CcCredentials コマンドレットを実行します。 
+5. Restore-CcCredentials コマンドレットを実行して、説明に従ってパスワードを再入力します。 
     
-    CceService アカウントを除くクラウド コネクタの配置の前に入力したパスワードを入力することを確認します。 CceService ・ アカウントの新しいパスワードを入力します。 CceService アカウントの新しいパスワードは、PSTN のサイト内のすべてのアプライアンスで同じことを確認します。
+    CceService アカウントを除き、クラウドコネクタの展開前に入力したパスワードと同じパスワードを入力してください。 CceService アカウントの場合は、新しいパスワードを入力します。 CceService アカウントの新しいパスワードが、PSTN サイト内のすべてのアプライアンスで同じであることを確認してください。
     
 6. 既定では、VmAdmin および DomainAdmin では CceService と同じパスワードが使用されます。手順 1 で返された DomainAdmin、VMAdmin および CceService のパスワードが異なる場合は、次の手順を実行する必要があります。
     
@@ -263,28 +263,28 @@ Set-CcCredential -AccountType TenantAdmin
     
    - 新しいアカウントの資格情報を求められた場合は、手順 1 で返された VmAdmin パスワードを入力します。 
     
-9. 移動手動メンテナンス モードを終了する終了 CcUpdate コマンドレットを実行します。
+9. 終了-CcUpdate コマンドレットを実行して、手動メンテナンスモードからアプライアンスを移動します。
     
-10. 同じ PSTN サイト内のすべてのアプライアンス上の次の手順を完了すると後、は、サイトのルート ディレクトリ以下のファイルを削除します。
+10. 同じ PSTN サイト内のすべてのアプライアンスでこれらの手順を完了したら、サイトルートディレクトリ内の次のファイルを削除します。
     
     - CcLockFile
     
-    - Site_\<エッジ外部 Sip プールの fqdn\>
+    - Site_\<Edge の外部 Sip プール fqdn\>
     
-    - Tenant_\<エッジ外部 Sip プールの fqdn\>
+    - Tenant_\<Edge の外部 Sip プール fqdn\>
     
-    - TenantConfigLock_\<エッジ外部 Sip プールの fqdn\>
+    - TenantConfigLock_\<Edge の外部 Sip プール fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>新しい SIP ドメインを追加する 
 <a name="BKMK_UpdatePassword"> </a>
 
-新しい SIP ドメイン (または複数の SIP ドメイン) を既存のクラウドのコネクタの配置に追加するには、次の操作を行います。
+新しい SIP ドメイン (または複数の SIP ドメイン) を既存のクラウドコネクタ展開に追加するには、次の操作を行います。
   
-1. Office 365 でドメインを更新する手順を完了し、DNS レコードを追加できることを確認します。 Office 365 でドメインを設定する方法の詳細については、 [Office 365 にドメインの追加](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)を参照してください。
+1. Office 365 でドメインを更新する手順を完了し、DNS レコードを追加できることを確認します。 Office 365 でドメインをセットアップする方法の詳細については、「 [office 365 にドメインを追加](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)する」を参照してください。
     
-2. 新しい SIP ドメイン、またはドメインを持つクラウド コネクタ構成ファイルを更新します。
+2. 新しい SIP ドメインでクラウドコネクタ構成ファイルを更新します。
     
-3. 新しいエッジ外部証明書を要求、クラウドのコネクタ構成で定義されている各 SIP ドメインの sip.domain の他の SAN 名。 
+3. クラウドコネクタ構成で定義されている SIP ドメインごとに、追加の SAN 名を使用して、新しいエッジ外部証明書を要求します。 
     
 4. 新しい Microsoft Edge 外部証明書のパスを次のように設定します。
     
@@ -299,13 +299,13 @@ Set-CcCredential -AccountType TenantAdmin
 ## <a name="modify-the-primary-sip-domain"></a>プライマリ SIP ドメインを変更する
 <a name="BKMK_UpdatePassword"> </a>
 
-クラウド コネクタ展開にプライマリ SIP ドメインを変更する場合は、次の操作を行います。
+クラウドコネクタの展開でプライマリ SIP ドメインを変更する必要がある場合は、次の操作を行います。
   
-1. Office 365 でドメインを更新する手順を完了し、DNS レコードを追加できることを確認します。 Office 365 でドメインを設定する方法の詳細については、 [Office 365 にドメインの追加](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)を参照してください。
+1. Office 365 でドメインを更新する手順を完了し、DNS レコードを追加できることを確認します。 Office 365 でドメインをセットアップする方法の詳細については、「 [office 365 にドメインを追加](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)する」を参照してください。
     
-2. 新しい SIP ドメインとは、クラウドのコネクタの構成ファイルを更新します。
+2. 新しい SIP ドメインでクラウドコネクタ構成ファイルを更新します。
     
-3. 新しいエッジ外部証明書を要求、クラウドのコネクタ構成で定義されている各 SIP ドメインの sip.domain の他の SAN 名。 
+3. クラウドコネクタ構成で定義されている SIP ドメインごとに、追加の SAN 名を使用して、新しいエッジ外部証明書を要求します。 
     
 4. 新しい Microsoft Edge 外部証明書のパスを次のように設定します。
     
@@ -315,7 +315,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 5. 
     
-    サイト内でクラウドのコネクタの管理者 PowerShell で次のコマンドレットを実行しているアプライアンスそれぞれに対してテナント登録を削除します。
+    クラウドコネクタの管理者 PowerShell で次のコマンドレットを実行して、サイト内の各アプライアンスのテナント登録を削除します。
     
    ```
    Unregister-CcAppliance
@@ -331,7 +331,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 7. 
     
-    各アプライアンスをアンインストールするには、クラウドのコネクタの管理者 PowerShell で次のコマンドレットを実行しています。
+    Cloud Connector 上の管理者 PowerShell で次のコマンドレットを実行して、各アプライアンスをアンインストールします。
     
    ```
    Uninstall-CcAppliance
@@ -339,7 +339,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 8. 
     
-     各アプライアンスを登録するには、クラウドのコネクタの管理者 PowerShell で次のコマンドレットを実行しています。
+     各アプライアンスを登録するには、Cloud Connector の管理者 PowerShell で次のコマンドレットを実行します。
     
    ```
    Register-ccAppliance
@@ -347,7 +347,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 9. 
     
-     各アプライアンスをインストールする管理者 PowerShell でクラウド コネクタで次のコマンドレットを実行している、1 つずつ。
+     各アプライアンスを1つずつインストールします。そのためには、Cloud Connector 上の管理者 PowerShell で次のコマンドレットを実行します。
     
    ```
    Install-CcAppliance
@@ -356,9 +356,9 @@ Set-CcCredential -AccountType TenantAdmin
 ## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>外部境界の証明書を新しい証明書に置き換える
 <a name="BKMK_UpdatePassword"> </a>
 
-コネクタのクラウド アプライアンス上のエッジの外部の証明書を交換する場合は、新しいエッジの証明書を取得し、秘密キーと、完全な証明書チェーンを含む PFX ファイルを準備し、各アプライアンスで、次の操作を行います必要があります。
+クラウドコネクタのアプライアンスで外部エッジ証明書を置き換える必要がある場合は、新しいエッジ証明書を取得し、秘密キーと完全な証明書チェーンを含む PFX ファイルを準備してから、各アプライアンスで次の操作を行います。
   
-1. 入力 CcUpdate コマンドレットを使用してメンテナンス モードでのアプライアンスを配置します。
+1. 「CcUpdate の入力」コマンドレットを使用して、アプライアンスをメンテナンスモードにします。
     
 2. 次のコマンドを実行します。 
     
@@ -368,8 +368,8 @@ Set-CcCredential -AccountType TenantAdmin
 
 3. 
     
-    新しい証明書のパスワードが、以前と同じ場合は、インポートが許可されます。 パスワードが間違っている場合は、そのレジスタ CcAppliance コマンドレットを実行してパスワードをリセットする必要があります。 エラーが発生したが、パスワードが異なる場合は、-ローカルのパラメーターを使用し、繰り返しの手順 2 とします。 
+    新しい証明書のパスワードが古いものと同じである場合は、インポートは成功します。 パスワードが異なる場合は、パスワードが間違っていることを示すエラーが表示され、-Local パラメーターを使用して CcAppliance コマンドレットを実行して、手順2を繰り返して、パスワードを再設定する必要があります。 
     
-4. 終了 CcUpdate コマンドレットを使用してメンテナンス モードからアプライアンスを実行します。
+4. 終了-CcUpdate コマンドレットを使用して、アプライアンスのメンテナンスモードを終了します。
     
 

@@ -1,49 +1,49 @@
 ---
-title: ビジネス サーバーの Skype の管理制御を委任します。
+title: Skype for Business Server の管理制御を委任する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: b8da2577140ca901c31b94c4b9987f2addef7bba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1775fc4f02b7efa9ec26b962154f0aa90b59b296
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924837"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279208"
 ---
-# <a name="delegate-administrative-control-of-skype-for-business-server"></a>ビジネス サーバーの Skype の管理制御を委任します。 
+# <a name="delegate-administrative-control-of-skype-for-business-server"></a>Skype for Business Server の管理制御を委任する 
 
-ビジネス サーバーの Skype は、管理タスクは、役割ベースのアクセス制御 (RBAC) 機能を使用してユーザーに委任します。 ビジネス サーバーの Skype をインストールするときの RBAC の役割の多くが作成されます。 これらの役割は、Active Directory ドメイン サービスのユニバーサル セキュリティ グループに対応します。 などの CsHelpDesk の RBAC の役割は、Active Directory ドメイン サービス内の Users コンテナー内の CsHelpDesk グループに対応します。 さらに、各 RBAC の役割は、Skype のビジネス サーバーの Windows PowerShell コマンドレットのセットに関連付けられています。 これらのコマンドレットは、特定の RBAC の役割が割り当てられているユーザーによって実行できるタスクを表します。 などのロック ・ CsClientPin、UnlockCsClientPin コマンドレットは、CsHelpDesk の役割を割り当てられています。 つまり、CsHelpDesk の役割が割り当てられているユーザーをロックし、ユーザーの暗証番号 (pin) 番号のロックを解除します。 ただし、CsHelpDesk の役割では新規 CsVoicePolicy コマンドレットを割り当てられていませんが。 つまり、CsHelpDesk の役割が割り当てられているユーザーが新しい音声ポリシーを作成できません。
+Skype for Business Server では、管理タスクは、役割ベースのアクセス制御 (RBAC) 機能を使用してユーザーに委任されます。 Skype for Business Server をインストールすると、複数の RBAC の役割が作成されます。 これらの役割は、Active Directory ドメイン サービスのユニバーサル セキュリティ グループに対応します。 たとえば、RBAC の役割 CsHelpDesk は、Active Directory ドメインサービスの Users コンテナーに含まれる CsHelpDesk グループに対応しています。 さらに、各 RBAC の役割は、Skype for Business Server Windows PowerShell コマンドレットのセットと関連付けられています。 これらのコマンドレットは、特定の RBAC の役割が割り当てられたユーザーが実行できるタスクを表します。 たとえば、CsHelpDesk role には、Lock と UnlockCsClientPin コマンドレットが割り当てられています。 つまり、CsHelpDesk の役割が割り当てられているユーザーは、ユーザーの PIN 番号のロックとロック解除を行うことができます。 ただし、CsHelpDesk の役割には、CsVoicePolicy コマンドレットが割り当てられていません。 つまり、CsHelpDesk role を割り当てられているユーザーは、新しいボイスポリシーを作成することはできません。
 
-## <a name="viewing-information-about-rbac-roles"></a>RBAC の役割に関する情報を表示します。
+## <a name="viewing-information-about-rbac-roles"></a>RBAC ロールに関する情報を表示する
 
-ビジネス サーバー管理シェルには、Skype 内で次のコマンドを実行することによって、RBAC の役割に関する基本的な情報を取得できます。
+次のコマンドを Skype for Business Server 管理シェルから実行して、RBAC ロールに関する基本的な情報を取得できます。
 
 `Get-CsAdminRole`
 
-RBAC の役割 (たとえば、CsVoiceAdministrator) の Id は、Active Directory ドメイン サービス内の Users コンテナーにセキュリティ グループに直接マッピングを持っていることに留意してください。
+RBAC の役割 (CsVoiceAdministrator など) の Id は、Active Directory ドメインサービスの Users コンテナーにあるセキュリティグループに直接マッピングされていることに注意してください。
 
-ロールに割り当てられているコマンドレットの一覧を表示するのには次のようなコマンドを使用します。
+ロールに割り当てられているコマンドレットの一覧を表示するには、次のようなコマンドを使用します。
 
 `Get-CsAdminRole -Identity "CsHelpDesk" | Select-Object -ExpandProperty Cmdlets`
 
 ## <a name="assigning-an-rbac-role-to-a-user"></a>RBAC の役割をユーザーに割り当てる
 
-RBAC の役割をユーザーに割り当てるには、適切な Active Directory セキュリティ グループにそのユーザーを追加する必要があります。 たとえば、CsLocationAdministrator ロールをユーザーに割り当てるには、CsLocationAdministrator グループにそのユーザーを追加する必要があります。 行うには、次の手順を実行します。
+RBAC の役割をユーザーに割り当てるには、適切な Active Directory セキュリティグループにそのユーザーを追加する必要があります。 たとえば、CsLocationAdministrator の役割をユーザーに割り当てるには、そのユーザーを CsLocationAdministrator グループに追加する必要があります。 そのためには、次の手順を実行します。
 
-1. アクセス許可を持つアカウントを使用して、Active Directory グループのメンバーシップを変更、Active Directory ユーザーとコンピューターがインストールされているコンピューターにログオンします。
-2. [**スタート**] ボタン**すべてのプログラム** **[管理ツール**] をクリックして、 **Active Directory ユーザーとコンピューター**] をクリックします。
-3. Active Directory ユーザーとコンピューターでは、コンピューターのドメイン名を展開を **[Users** ] コンテナーをクリックします。
-4. **CsLocationAdministrator**、セキュリティ グループを右クリックし、[**プロパティ**] をクリックします。
-5. **プロパティ**] ダイアログ ボックスの [**メンバー** ] タブで [**追加**] をクリックします。
-6. **[ユーザー、コンピューター、連絡先、またはグループ**] ダイアログ ボックスで、ユーザー名を入力またはグループ (たとえば、Ken Myer)**を選択するオブジェクト名を入力してください**] ボックスに追加するユーザーの名前を表示でし、[ **OK**] をクリックします。
-7. **プロパティ**] ダイアログ ボックスで [ **OK**を] をクリックします。
+1. Active Directory グループのメンバーシップを変更する権限を持つアカウントを使用して、Active Directory ユーザーとコンピューターがインストールされているコンピューターにログオンします。
+2. [**スタート**] をクリックし、[**すべてのプログラム**] をクリックし、[**管理ツール**] をクリックして、[ **Active Directory ユーザーとコンピューター**] をクリックします。
+3. Active Directory ユーザーとコンピューターで、ドメインの名前を展開し、[**ユーザー** ] コンテナーをクリックします。
+4. セキュリティグループ**Cslocationadministrator 者**を右クリックし、[**プロパティ**] をクリックします。
+5. [**プロパティ**] ダイアログボックスの [**メンバー** ] タブで、[**追加**] をクリックします。
+6. **[ユーザー、コンピューター、連絡先、またはグループの選択**] ダイアログボックスで、 **[選択するオブジェクト名を入力**してください] ボックスに、グループに追加するユーザー名またはユーザー名 (Ken Myer など) を入力し、[ **OK]** をクリックします。
+7. [**プロパティ**] ダイアログボックスで、[ **OK]** をクリックします。
 
-RBAC の役割が割り当てられていることを確認するには、Get CsAdminRoleAssignment コマンドレットは、ユーザーの SamAccountName (Active Directory のログオン名) をコマンドレットに渡すことを使用します。 たとえば、ビジネス サーバー管理シェルには、Skype 内からは、このコマンドを実行します。
+RBAC の役割が割り当てられていることを確認するには、ユーザーの "SamAccountName (Active Directory のログオン名)" というコマンドレットを渡して、Csadminadminroleassignment コマンドレットを使います。 たとえば、次のコマンドを Skype for Business Server 管理シェル内から実行します。
 
 `Get-CsAdminRoleAssignment  -Identity "kenmyer"`

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.HighAvailability
@@ -13,28 +13,28 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
-description: ビジネス サーバー 2015 の Skype のほとんどのサーバーの役割の主な高可用性スキームは、プールを使用してサーバーの冗長性に基づいています。 あるサーバーの役割を実行しているサーバーに障害が発生すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。
-ms.openlocfilehash: d7b5f53f8cb0673a355af6206393ea6d070bdfcc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server 2015 のほとんどのサーバーの役割に関する高可用性の主なスキームは、プールによるサーバーの冗長性に基づいています。 あるサーバーの役割を実行しているサーバーに障害が発生すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。
+ms.openlocfilehash: 740c12439683fcefccaef11358a8cb65a4fae65a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887203"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281088"
 ---
 # <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  
-ビジネス サーバー 2015 の Skype のほとんどのサーバーの役割の主な高可用性スキームは、プールを使用してサーバーの冗長性に基づいています。 あるサーバーの役割を実行しているサーバーに障害が発生すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。
+Skype for Business Server 2015 のほとんどのサーバーの役割に関する高可用性の主なスキームは、プールによるサーバーの冗長性に基づいています。 あるサーバーの役割を実行しているサーバーに障害が発生すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。
   
-ビジネス サーバー 2015 の Skype では、高可用性を実現するために少なくとも 2 台のフロント エンド サーバーが必要です。 計画ツールでは、次の条件を使って、かどうかは、高可用性をサポートするために余分なサーバーが追加されますを決定します。
+高可用性を有効にするには、Skype for Business Server 2015 で少なくとも2台のフロントエンドサーバーが必要です。 計画ツールでは、高可用性をサポートするために追加のサーバーが追加されるかどうかを判断するために、次の条件を使用します。
   
-- 展開には、2 つまたは複数のフロント エンド サーバーが含まれています、計画ツールでは、予備のサーバーは追加されません。
+- 展開に2台以上のフロントエンドサーバーが含まれている場合、計画ツールでは追加のサーバーは追加されません。
     
-- 展開にエッジ サーバーが含まれている場合は、追加のサーバーが追加されます。 
+- 展開にエッジサーバーが含まれている場合は、追加のサーバーが追加されます。 
     
-- 展開には、永続的なチャットが含まれています、計画ツールは、余分なサーバーを追加するが、プールの数を増加しません。 など、既に展開には、4 つのサーバーが含まれている場合、計画ツール (合計 5 台のサーバー) に追加のサーバーを追加することが推奨されますが、1 つのプールが維持されます。 
+- 展開に永続的なチャットが含まれている場合、計画ツールでは、余分なサーバーが追加されますが、プール番号は増えません。 たとえば、展開に既に4台のサーバーが含まれている場合、計画ツールでは、(合計5台の) サーバーを追加することが推奨されますが、1つのプールを維持します。 
     
-計画ツールは、すべてのデータベースのミラーの SQL データベースにも追加されます。 などのフロント エンドの SQL Server データベースがある場合は、計画ツールはこの 1 つのミラー データベースとその他のデータベースを追加して名前を"フロント エンド ミラー SQL データベースとします。
+計画ツールでは、すべてのデータベースのミラー SQL データベースも追加されます。 たとえば、フロントエンドの SQL Server データベースがある場合は、計画ツールによって、そのデータベースがこのデータベースのミラーデータベースとして追加され、"フロントエンドミラー SQL データベース" という名前が付けられます。
   
-高可用性環境を準備する方法の詳細については、[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
+高可用性を実現するための環境の準備について詳しくは、「 [Skype For Business Server 2015 で高可用性と障害回復を計画する](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)」をご覧ください。
   
 

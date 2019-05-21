@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,16 +22,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 47c6b05ea89b1401a9ef8900f8f3c357b3b3a68a
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 42572abda5c99ff8e21623b88b4f66bc6cfdedd3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868681"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283379"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 での通話プラン - 英国 (U.K.) での苦情処理基準
 
-このコードは、スモール ビジネスのお客様 (企業と社員 10 名以内) で、(英国)、Office 365 のプランを呼び出すサービス (以下「サービス」) 英国通信規制基準を適用します。 その他の Skype for Business サービスは、Microsoft とのサービス規約、および特定のサービスの使用に適用されるその他の規約によって管理されます。
+このコードは、英国内の小規模企業のお客様 (英国) において、英国の通信規制に準拠した Office 365 の通話プランサービス (以下、"サービス") に関連しています。 その他の Skype for Business サービスは、Microsoft とのサービス規約、および特定のサービスの使用に適用されるその他の規約によって管理されます。
 
 ## <a name="how-to-make-a-complaint"></a>苦情申し立ての方法
 
@@ -39,7 +39,7 @@ Skype for Business では、顧客満足を最優先にしています。 ただ
 
 - 無料電話番号: 0800 032 6417
 
-- Microsoft 365 の管理センターにサインインしてオンラインにします。 と**サポート**] の下の**新しいサービス ・ リクエスト**を選択することでサービス リクエストを送信します。
+- オンライン: Microsoft 365 管理センターにサインインし、[**サポート**] の [**新しいサービスリクエスト**] を選び、サービスリクエストを送信します。
 
 ## <a name="timelines"></a>タイムライン
 
@@ -51,7 +51,7 @@ Skype for Business の担当者が問題をただちに解決できない場合�
 
 Skype for Business では、サービスに関連するすべての苦情を、受け取ってから 7 営業日以内に解決することを目標としています。
 
-サービスに関する苦情を管理する方法に満足できない場合は、サービス契約に基づく苦情をエスカレートする苦情には、電話または電子メールでの処理業務担当者の Skype を確認することがあります。 Microsoft では、苦情を受け取ってから 7 日以内に評価します。
+お客様が本サービスに関する苦情を管理していない場合は、Skype for Business の担当者に、電話またはメールで苦情を処理するよう依頼して、お客様のサービス規約に従って苦情を報告することができます。 Microsoft では、苦情を受け取ってから 7 日以内に評価します。
 
 ## <a name="alternative-dispute-resolution"></a>代わりの争議解決方法
 
@@ -63,7 +63,7 @@ Skype for Business では、サービスに関連するすべての苦情を、�
 
 オンブズマン サービスに苦情を持ち込むための手順は、オンブズマン サービスの [Web サイト](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809)に記載されています。
 
-Ombudsman サービスの web サイト上の連絡先フォームに記入して、または電話、レター、または電子メールで Ombudsman のサービスに到達することがあります。
+オンブズマン Services の web サイトまたは電話、レター、またはメールで連絡先フォームに入力することで、オンブズマンサービスにアクセスすることができます。
 
 - 連絡フォーム: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

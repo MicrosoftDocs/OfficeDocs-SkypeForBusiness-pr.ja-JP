@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SiteSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存のサイトのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: 920a159f493e2612c9ad9aa5e5be1e339414bc21
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f15ed4230d7a72b67b8df804748f9b732278293
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912002"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303082"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server サイト設定エキスパンダー
 
@@ -28,21 +28,21 @@ ms.locfileid: "33912002"
 
 ## <a name="site-properties"></a>サイトのプロパティ
 
-[サイトのプロパティを変更したり、サイトの名前 (必須)、説明 (省略可能)、市区町村 (省略可能)、州 (省略可能)、および (省略可能) の国/地域コードを変更できます。
+[サイトのプロパティ] で、サイト名 (必須)、説明 (省略可能)、市区町村 (オプション)、都道府県/州 (オプション)、国/地域コード (オプション) を変更または変更することができます。
 
-サイトのプロパティに関する詳細については、[ブランチ サイトを追加する、トポロジ](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx)を参照してください。
+サイトのプロパティの詳細については、「[トポロジにブランチサイトを追加する](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx)」を参照してください。
 
-## <a name="federation-route-properties"></a>フェデレーション ルートのプロパティ
+## <a name="federation-route-properties"></a>フェデレーションルートのプロパティ
 
-サイトのフェデレーション ルートの割り当てを設定するには、エッジ サーバーまたはエッジ サーバー プールは、有効なフェデレーション最初必要があります。 エッジ サーバーまたはプールでフェデレーションが有効でない場合は、サイトのフェデレーション ルートの割り当ての設定は変更されません。
+サイトフェデレーションルートの割り当てを設定するには、まず、エッジサーバーまたはエッジサーバープールでフェデレーションを有効にする必要があります。 エッジサーバーまたはプールでフェデレーションが有効になっていない場合は、サイトのフェデレーションルートの割り当て設定を変更できません。
 
-エッジ サーバーまたはプールでフェデレーション設定を構成すると場合、は、サイト レベルで**有効にする**を選択します。 フェデレーション ルートとして設定するのにはドロップ ダウン リストからエッジまたはディレクターを選択します。
+エッジサーバーまたはプールでフェデレーション設定が構成されている場合は、サイトレベルで [**有効**] を選びます。 次に、ドロップダウンリストから、フェデレーションルートとして設定するエッジまたはディレクターを選択します。
 
 > [!CAUTION]
-> この設定は、すべてのサイトに影響されます。 このサイトで構成している設定がすべてのサイトに対して適切であることを確認します。
+> この設定は、すべてのサイトに影響します。 このサイトで構成する設定は、すべてのサイトに対して適切であることを確認してください。
 
 ## <a name="see-also"></a>関連項目
 
-詳細については、[外部ユーザー アクセスのトポロジ](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)を参照してください。
+詳細については、「[外部ユーザーアクセスのトポロジ](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)」を参照してください。
 
 

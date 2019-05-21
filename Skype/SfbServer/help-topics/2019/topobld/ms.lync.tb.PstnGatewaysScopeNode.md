@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PstnGatewaysScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[PSTN ゲートウェイ] ノードには、トポロジ内の公衆交換電話網 (PSTN) ゲートウェイが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: cd610815f4709222a292e81f25e08499bbbd18d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4ba986f1c111aa070f3aa8a21853e309dd853c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919718"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302159"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN ゲートウェイ スコープ ノード
  

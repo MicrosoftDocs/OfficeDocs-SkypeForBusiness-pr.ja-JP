@@ -4,68 +4,68 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: レガシ プールとの共存をパイロット プールを確認するプロセスです。
-ms.openlocfilehash: ed3809bdde3109bdbd341c42eed0dc1d8cecd11f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 従来のプールとの間でパイロットプールを共存させるプロセス。
+ms.openlocfilehash: dd2edd2e6ecef26b22ba9bf5c093c631866110ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231344"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280654"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>パイロット プールとレガシ プールの共存の確認
 
- **この資料に記載されて**
+ **この記事の内容**
   
-[Skype サーバー 2019 のビジネスのサービスが開始されていることを確認します。](#sectionSection0)
+[Skype for Business Server 2019 サービスが開始されたことを確認する](#sectionSection0)
   
-[ビジネス サーバー 2019 のコントロール パネルの Skype を開く](#sectionSection1)
+[Skype for Business Server 2019 コントロールパネルを開く](#sectionSection1)
   
-[従来トポロジ ビルダーでトポロジを開くしようとしていません。](#sectionSection2)
+[従来のトポロジビルダーでトポロジを開かないようにします。](#sectionSection2)
   
-パイロット プールを展開した後は、プールの情報を表示するのには管理ツールを使用して 2 つのプールの共存を確認する必要があります。 ビジネス サーバー 2019 のプールとプールの従来の Skype、ビジネス サーバー 2019 コントロール パネルの [トポロジ ビルダー ツールの Skype を使用する必要があります。 
+パイロットプールを展開した後、管理ツールを使用してプール情報を表示し、2つのプールの共存を確認する必要があります。 Skype for Business Server 2019 プールおよび従来のプールの場合は、Skype for Business Server 2019 コントロールパネルツールとトポロジビルダーツールを使用する必要があります。 
   
-## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Skype サーバー 2019 のビジネスのサービスが開始されていることを確認します。
+## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Skype for Business Server 2019 サービスが開始されたことを確認する
 <a name="sectionSection0"> </a>
 
-1. ビジネス 2019 フロント エンド サーバーの Skype、管理 Tools\Services のアプレットに移動します。
+1. Skype for Business Server 2019 フロントエンドサーバーから、管理用の [サービス] アプレットに移動します。
     
-2. フロント エンド サーバー上で次のサービスが実行されていることを確認します。
+2. フロントエンドサーバーで次のサービスが実行されていることを確認します。
 
-    - サービス エージェントのログを一元管理
+    - 一元ログサービスエージェント
     - アプリケーション共有
-    - オーディオ テスト サービス
-    - オーディオ/ビデオ会議
+    - オーディオテストサービス
+    - 音声/ビデオ会議
     - コール パーク
     - 会議アナウンス
-    - 会議アテンダント
-    - フロント エンド
+    - 会議の応答
+    - フロントエンド
     - IM 会議
     - 仲介
-    - レプリカ レプリケーター エージェント
+    - レプリカレプリケーターエージェント
     - 応答グループ
     - Web 会議
-    - XMPP 変換ゲートウェイ
+    - XMPP の変換ゲートウェイ
 
   
-## <a name="open-the-skype-for-business-server-2019-control-panel"></a>ビジネス サーバー 2019 のコントロール パネルの Skype を開く
+## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Skype for Business Server 2019 コントロールパネルを開く
 <a name="sectionSection1"> </a>
 
-サーバー 2019 のビジネスを展開するため、Skype でフロント エンド サーバーから、Skype ビジネス サーバー 2019 のコントロール パネルの開き従来のプールを選択します。 ビジネス サーバー 2019 プールの Skype を開く手順を繰り返します。
+Skype for Business Server 2019 展開のフロントエンドサーバーから、[Skype for Business Server 2019 コントロールパネル] を開いて、従来のプールを選択します。 手順を繰り返して、Skype for Business Server 2019 プールを開きます。
   
 > [!IMPORTANT]
-> ビジネス サーバー 2019 の Skype は、上には、Silverlight ビジネス サーバーのコントロール パネルの Skype を使用する前にバージョン 5 に Silverlight をアップグレードしてください。 
+> Skype for Business Server 2019 で、Skype for Business Server コントロールパネルを使用する前に、Silverlight を Silverlight バージョン5にアップグレードする必要があります。 
   
-このトポロジには、従来と Skype ビジネス サーバー 2019 サーバーの役割です。 
+このトポロジには、レガシーおよび Skype for Business Server 2019 サーバーの役割が含まれています。 
 
   
-## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>従来トポロジ ビルダーでトポロジを開くしようとしていません。
+## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>従来のトポロジビルダーでトポロジを開かないようにします。
 <a name="sectionSection2"> </a>
 
-従来トポロジ ビルダーを使用してトポロジを表示しようとすると、次のエラーが発生します。 ビジネス サーバー 2019 のトポロジ ビルダーの Skype を使用してトポロジを表示のみできます。 ビジネス サーバー 2019 の Skype と従来のインストールの両方のプールを作成するには、ビジネス サーバー 2019 のトポロジ ビルダーの Skype を使用しなければなりません。
+従来のトポロジビルダーを使用してトポロジを開こうとすると、次のようなエラーが発生します。 このトポロジを表示するには、Skype for Business Server 2019 Topology Builder を使用します。 Skype for business server 2019 トポロジビルダーを使用して、Skype for Business Server 2019 と従来のインストールの両方のプールを作成する必要があります。
 
   
 

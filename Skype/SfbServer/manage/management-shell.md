@@ -4,30 +4,30 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
-description: ビジネス サーバー管理シェルの Skype では、サーバーの管理と管理のコマンド ライン インターフェイスを提供します。 Windows PowerShell の上に構築し、Skype と従来の Lync server 製品に固有のコマンドレットが管理の包括的なセットが含まれています。
-ms.openlocfilehash: 1daf83ea401501f6607a30aa7710f1d338c47af9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server 管理シェルには、サーバー管理と管理のためのコマンドラインインターフェイスが用意されています。 これは Windows PowerShell で構築されており、Skype および従来の Lync server 製品に固有の一連の管理と管理のコマンドレットが含まれています。
+ms.openlocfilehash: ce031b15e2146036d77c7336aa9c2b73f000fe4a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888346"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279593"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェル
  
-ビジネス サーバー管理シェルの Skype では、サーバーの管理と管理のコマンド ライン インターフェイスを提供します。 Windows PowerShell の上に構築し、Skype と従来の Lync server 製品に固有のコマンドレットが管理の包括的なセットが含まれています。
+Skype for Business Server 管理シェルには、サーバー管理と管理のためのコマンドラインインターフェイスが用意されています。 これは Windows PowerShell で構築されており、Skype および従来の Lync server 製品に固有の一連の管理と管理のコマンドレットが含まれています。
   
-Windows PowerShell を使用すると、Microsoft アプリケーションをコマンドラインから管理できます。 コマンド ライン環境、製品固有のコマンド、完全なスクリプト言語が用意されています。 Windows PowerShell は、2006 年の後半で Windows オペレーティング システム用のダウンロード可能なリリースとして初めて導入され、Microsoft Exchange Server 2007 の管理用のコマンド ライン インターフェイスとして採用されました。 それは、Lync Server 2010 から Lync と Skype のサーバーを含む、Microsoft サーバー製品の大部分に組み込まれています。 700 を超える Lync と Skype の特定のコマンドレットがビジネスのサーバー管理シェルの Skype で利用できます。
+Windows PowerShell を使用すると、コマンドラインから Microsoft アプリケーションを管理できます。 コマンド ライン環境、製品固有のコマンド、完全なスクリプト言語が用意されています。 Windows PowerShell は、最初に2006の Windows オペレーティングシステムのダウンロード可能なリリースとして導入されましたが、Microsoft Exchange Server 2007 の管理のためのコマンドラインインターフェイスとして採用されています。 Lync Server 2010 で始まる Lync および Skype サーバーを含むほとんどの Microsoft サーバー製品に組み込まれています。 Skype for Business Server 管理シェルでは、700の Lync と Skype 固有のコマンドレットを利用できます。
   
 > [!NOTE]
-> コマンドレット参照のビジネス用の Skype は、docs.microsoft.com に移動します。 以下のリンクをクリックするとクリックすると、新しい docs.microsoft.com ページです。 コンテンツは、ここでは GitHub から差し引かれるとの利用可能なコミュニティを開いている投稿です。 寄贈したいですか。 ここでは、リポジトリの索引にある readme ファイルを確認します。[https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
+> Skype for Business コマンドレットリファレンスは docs.microsoft.com に移動されました。 以下のリンクをクリックすると、新しい docs.microsoft.com ページに移動します。 これでコンテンツが公開され、GitHub を通じてコミュニティの投稿に使用できるようになりました。 投稿に興味をお持ちですか? ここでは、リポジトリ内の README を確認します。[https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
-ビジネス サーバー管理シェルには、Skype を使用してビジネス サーバーの Skype を管理する管理者を有効にするコマンドレットが 700 を超えるビジネス サーバーの Skype が同梱されています。 以下のようなコマンドを入力すると、コマンドレットのヘルプを、コマンド ラインから直接取得することができます。
+Skype for Business Server には、管理者が skype for Business Server Management Shell を使って Skype for Business Server を管理できるようにするための700コマンドレットが付属しています。 以下のようなコマンドを入力すると、コマンドレットのヘルプを、コマンド ラインから直接取得することができます。
   
 ```
 Get-Help New-CsVoicePolicy -Full
@@ -43,24 +43,24 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
 
 
 
-ビジネス サーバー用 Skype で Windows PowerShell について理解すること:
+Skype for Business Server での Windows PowerShell について知っておくべきこと:
   
-- Skype ビジネス サーバー コマンドレットを実行するには、ビジネス サーバー管理シェルには、Skype を開きます。
+- Skype for Business Server コマンドレットを実行するには、Skype for Business Server 管理シェルを開きます。
     
     > [!CAUTION]
-    > ビジネス サーバー管理シェルには、Skype ではなく、Windows PowerShell のウィンドウを開いた場合既定では、できないことがあります Skype コマンドレットを実行します。 Skype Windows PowerShell 内からのビジネス サーバー コマンドレットを実行する Windows PowerShell コマンド プロンプトで最初に、次の入力: _gt`Import-Module SkypeforBusiness`
+    > Skype for Business Server 管理シェルではなく、Windows PowerShell ウィンドウを開いた場合、既定では、Skype コマンドレットを実行することはできません。 Windows PowerShell 内から Skype for Business Server コマンドレットを実行するには、まず Windows PowerShell コマンドプロンプトで次のように入力します。 >`Import-Module SkypeforBusiness`
   
-- ビジネス サーバー エンタープライズ版フロント エンド サーバーまたは Standard Edition サーバーのすべての Skype のビジネス サーバー管理シェルの Skype が自動的にインストールします。
+- Skype for business Server 管理シェルは、すべての Skype for Business Server Enterprise Edition のフロントエンドサーバーまたは Standard Edition サーバーに自動的にインストールされます。
     
-- ビジネス サーバー管理シェルのヘルプ コンテンツの Skype を更新するには、[更新プログラムのヘルプ](https://technet.microsoft.com/en-us/library/hh849720.aspx)のコマンドレットを実行します。 更新ヘルプのコマンドレットでは、Skype ビジネス コマンドレットの更新など、コンピューターにインストールされているモジュールのすべての利用可能な最新のヘルプ ファイルをダウンロードしています。
+- Skype for Business Server 管理シェルのヘルプコンテンツは、 [update-ヘルプ](https://technet.microsoft.com/en-us/library/hh849720.aspx)コマンドレットを実行して更新できます。 更新プログラムのヘルプコマンドレットは、お使いのコンピューターにインストールされているすべてのモジュールで利用できる最新のヘルプファイルをダウンロードしてインストールします。これには、Skype for Business コマンドレットの更新が含まれます。
     
-    既定では、**更新プログラムのヘルプ**のコマンドレットは、Skype のビジネス サーバーがインストールされているすべてのモジュールを更新します。 特定のモジュールのみ更新する場合は、_Module_ パラメーターを使用してこのコマンドレットのスコープを制限できます。 次の例では、ビジネス モジュールの Skype のみを更新します。
+    既定では、[**更新] ヘルプ**コマンドレットによって、Skype For business Server にインストールされているすべてのモジュールが更新されます。 特定のモジュールのみ更新する場合は、_Module_ パラメーターを使用してこのコマンドレットのスコープを制限できます。 次の例では、Skype for Business モジュールのみが更新されます。
     
   ```
   Update-Help -Module SkypeforBusiness
   ```
 
-    インターネットに接続されていないサーバーのヘルプを更新する場合は、ヘルプの最新バージョンを取得し、指定された場所に保存する[保存ヘルプ](https://technet.microsoft.com/en-us/library/hh849724.aspx)コマンドレットを使用することができます。 選択した場所から更新済みのヘルプを表示するのにはインターネットに接続されていないサーバー上_で見つかった_パラメーターを使用して、**更新プログラムのヘルプ**のコマンドレットを使用できます。 次の使用例は、ヘルプ ファイルをネットワーク ファイル共有に保存し、ファイル共有からビジネス モジュールの Skype のヘルプを更新する方法を示しています。
+    インターネットに接続されていないサーバーでヘルプを更新する必要がある場合は、[ヘルプの[保存](https://technet.microsoft.com/en-us/library/hh849724.aspx)] コマンドレットを使用して最新バージョンのヘルプを取得し、指定した場所に保存します。 次に、インターネットに接続されていないサーバーの _-SourcePath_パラメーターを指定して**Update-ヘルプ**コマンドレットを使用して、選択した場所から更新されたヘルプを取得できます。 次の例は、ヘルプファイルをネットワークファイル共有に保存して、Skype for Business モジュールのヘルプをファイル共有から更新する方法を示しています。
     
   ```
   // Save the help files
@@ -69,9 +69,9 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
    Update-Help -Module SkypeforBusiness -SourcePath \\UpdateShare\HelpDownload
   ```
 
-    詳細については、[更新可能なヘルプについて](https://technet.microsoft.com/library/hh847735.aspx)を参照してください。
+    詳細については、「[更新可能なヘルプ](https://technet.microsoft.com/library/hh847735.aspx)」を参照してください。
     
     > [!NOTE]
-    > リモート PowerShell を使用している場合は、ファイアウォール経由の通信を許可する必要があります。 PowerShell リモート処理を使用するポートの詳細についてを参照してください[どのようなポートは PowerShell リモート処理の使用ですか?](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/)です。
+    > PowerShell をリモートで使用している場合は、ファイアウォール経由の通信を許可する必要があります。 PowerShell のリモート処理で使用されるポートの詳細については、「 [Powershell リモート処理で使用](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/)されるポートについて」を参照してください。
     
 

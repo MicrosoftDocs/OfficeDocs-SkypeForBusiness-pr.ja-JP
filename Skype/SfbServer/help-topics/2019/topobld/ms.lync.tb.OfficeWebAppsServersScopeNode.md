@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeWebAppsServersScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[Office Web Apps サーバー] をクリックし、[新しい Office Web Apps サーバー] を選択して Office Online ウィザードを開きます。'
-ms.openlocfilehash: 769f1e479d2505367b1c128545d31f630b2d699f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5988ef0d276577bc81640aa6a9be1caf35a5f1ac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885695"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303229"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps サーバーのスコープ ノード
 
@@ -32,4 +32,4 @@ ms.locfileid: "33885695"
 
 ## <a name="see-also"></a>関連項目
 
-[Office Web アプリケーション サーバーとの統合を構成します。](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[Office Web Apps サーバーとの統合を構成する](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)

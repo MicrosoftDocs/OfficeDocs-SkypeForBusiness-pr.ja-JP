@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
-description: Get CcApplianceStatus コマンドレットでは、ビジネス クラウド コネクタ ・ エディション ・ アプライアンスの Skype の診断情報を提供します。
-ms.openlocfilehash: 2c5d261b1ea2282c9eb0d564a1d39638965d2948
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: CcApplianceStatus コマンドレットは、Skype for Business Cloud Connector エディションの製品に関する診断情報を提供します。
+ms.openlocfilehash: b728ae51fba1b8f448cc161f3ea3fe5b89297488
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233779"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287343"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  
-Get CcApplianceStatus コマンドレットでは、ビジネス クラウド コネクタ ・ エディション ・ アプライアンスの Skype の診断情報を提供します。
+CcApplianceStatus コマンドレットは、Skype for Business Cloud Connector エディションの製品に関する診断情報を提供します。
   
-このコマンドレットは、クラウド コネクタ版 2.1 のビジネスには、Skype に適用されます。
+このコマンドレットは、Skype for Business Cloud Connector エディション2.1 に適用されます。
   
 ```
     Get-CcApplianceStatus 
@@ -30,7 +30,7 @@ Get CcApplianceStatus コマンドレットでは、ビジネス クラウド �
 
 ## <a name="detailed-description"></a>解説
 
-Get CcApplianceStatus コマンドレットは、クラウドのコネクタのホスト ・ マシンで実行されたときは、ビジネスのクラウドのコネクタのアプライアンスの Skype の診断情報を提供します。
+CcApplianceStatus コマンドレットをクラウドコネクタホストコンピューターで実行すると、Skype for Business Cloud Connector アプライアンスの診断情報が提供されます。
   
 ## <a name="parameters"></a>パラメーター
 
@@ -38,10 +38,10 @@ Get CcApplianceStatus コマンドレットは、クラウドのコネクタの�
   
 ## <a name="input-types"></a>入力の種類
 
-なし。 Get CcApplianceStatus コマンドレットでは、パイプラインの入力は受け付けられません。
+なし。 CcApplianceStatus コマンドレットでパイプライン入力を受け取ることはできません。
   
 ## <a name="return-types"></a>戻り値の種類
 
-コマンドでは、アプライアンスの状態を返します。
+このコマンドは、アプライアンスの状態を返します。
   
 

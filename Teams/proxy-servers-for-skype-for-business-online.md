@@ -1,5 +1,5 @@
 ---
-title: チームやビジネス オンラインの Skype のプロキシ サーバー
+title: Teams または Skype for Business Online のプロキシサーバー
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -18,27 +18,27 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: この資料では、ビジネスのためのチームまたは Skype でプロキシ サーバーを使用する方法の情報を提供します。
-ms.openlocfilehash: a09a1bf53fe4d1a38742856c051a80e5928f36ef
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: この記事では、Teams または Skype for Business でのプロキシサーバーの使用について説明します。
+ms.openlocfilehash: e0733393a40c2d2c2fd62d986a4b4d66d0c2c35f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246119"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304371"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>チームやビジネス オンラインの Skype のプロキシ サーバー
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams または Skype for Business Online のプロキシサーバー
 
-この資料では、ビジネスのためのチームまたは Skype でプロキシ サーバーを使用する方法のガイダンスを提供します。
+この記事では、Teams または Skype for Business でのプロキシサーバーの使用に関するガイダンスを提供します。
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>プロキシ サーバーの使用はお勧めしません。
 
-に関してはチームまたは Skype ビジネス トラフィックのプロキシを介して場合、は、プロキシをバイパスすることをお勧めします。 プロキシを作成しないチームやビジネス用の Skype よりセキュリティで保護されたトラフィックが既に暗号化されているためです。
+プロキシ経由の Teams または Skype for Business トラフィックについては、プロキシをバイパスすることをお勧めします。 プロキシは、トラフィックが既に暗号化されているため、チームまたは Skype for Business の安全性を高めません。
   
-プロキシを持つと、問題が発生することができます。 パフォーマンス関連の問題は、遅延とパケット損失を環境に導入できます。 リアルタイム ストリームが必要なオーディオとビデオ、ビジネス シナリオのようなチームや Skype での負の経験ではこれらの問題が発生します。
+また、プロキシを使用すると問題が発生する可能性があります。 パフォーマンスに関連する問題は、待ち時間とパケット損失によって環境に導入される可能性があります。 このような問題が発生した場合、そのようなチームまたは Skype for Business のシナリオでは、リアルタイムのストリームが不可欠であるため、オーディオとビデオとして、否定的な経験が発生する可能性があります。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>プロキシ サーバーを使用する必要がある場合
 
-一部の組織があるチームまたは Skype のビジネスのトラフィックのプロキシをバイパスするオプションなし。 そのような場合は、上記の問題について注意しておく必要があります。
+組織によっては、Teams または Skype for Business のトラフィックに対してプロキシをバイパスするオプションがありません。 そのような場合は、上記の問題について注意しておく必要があります。
   
 Microsoft は次を実行することもお勧めします。
   
@@ -48,7 +48,7 @@ Microsoft は次を実行することもお勧めします。
     
 - UDP トラフィックを許可する
     
-- ネットワーク ガイドラインの他の推奨事項に従います。
+- ネットワークガイドラインのその他の推奨事項に従ってください。
     
   - [Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
     

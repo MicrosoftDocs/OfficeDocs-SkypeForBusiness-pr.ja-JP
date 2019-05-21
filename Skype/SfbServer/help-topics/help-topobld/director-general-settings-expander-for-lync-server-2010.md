@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.DirectorGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
-description: ディレクターまたはディレクター プールの全般プロパティを構成するには。
-ms.openlocfilehash: 6c5b53ffc04784b9dcb4113237bf4022d5f7eb2d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ディレクターまたはディレクタープールの一般的なプロパティを構成するには、次の操作を行います。
+ms.openlocfilehash: 980b1f84d4d56a984b66f8bf1d027e207b3b921d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915375"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302365"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のディレクター全般設定エキスパンダー
  
-ディレクターまたはディレクター プールの**全般**プロパティを構成するには。
+ディレクターまたはディレクタープールの**一般的な**プロパティを構成するには、次の操作を行います。
   
- **FQDN**: ディレクターまたはディレクター プールの完全修飾ドメイン名を入力します。
+ [ **FQDN**: ディレクターまたはディレクタープールの完全修飾ドメイン名を入力します。
   
  **[関連付け]**
   
- **ファイルを保存**します。 リストから、ディレクターまたはディレクター プールのファイル ストアを選択します。
+ **ファイルストア**: ディレクターまたはディレクタープールのファイルストアの一覧から選択します。
   
-新しいファイル ストアを定義するのには**新規**をクリックします。
+[**新規**] をクリックして新しいファイルストアを定義する
   
-**監視サーバーを関連付ける**] チェック ボックスを選択し、監視サーバーを一覧から選択します。
+[**関連付け監視サーバー** ] チェックボックスをオンにして、一覧から監視サーバーを選びます。
   
-新しい監視サーバーを定義するのには**新規**をクリックします。
+[**新規**] をクリックして新しい監視サーバーを定義する
   
  [**OK**]: ダイアログでの変更を受け入れて確定します。
   

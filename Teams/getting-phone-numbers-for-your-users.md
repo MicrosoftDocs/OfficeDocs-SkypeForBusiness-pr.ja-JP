@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'チームまたは Skype for Business の既存の電話番号を取得、移植、または転送する方法と、ユーザーに変更を表示する方法について説明します。 '
-ms.openlocfilehash: bda538cb03efd7704b147f1e31bc815bdf7e07bc
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: 4991ef4f9cbf32c7b87ad621b1be1554cc65406c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34164569"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285513"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -53,7 +53,7 @@ ms.locfileid: "34164569"
     
 2. **Microsoft Teams 管理センター** > の**従来のポータル**に移動します。
     
-3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number**![Add button](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
+3. 左側のナビゲーションで [**音声**]  >  [**電話番号**] に移動し、[**新しい番号を追加**] ![追加ボタン](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png) をクリックし、[**新しいユーザー番号**] をクリックします。
     
     > [!IMPORTANT]
     > Skype for Business 管理センターの左のナビゲーションに [**音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、**電話システム**アドオン ライセンス、または**電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
@@ -80,7 +80,7 @@ ms.locfileid: "34164569"
   
    **使用中のサービス プロバイダーまたは携帯電話会社から電話番号を移行する**
   
-- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) to transfer your phone numbers over to Skype for Business Online.
+- 必要なユーザーの電話番号数が 999 以下である場合、Skype for Business 管理センターで**新しい電話番号のポート注文**ウィザードを使用できます。電話番号を Skype for Business Online に移動するには、「[Office 365 に電話番号を移動する](/microsoftteams/transfer-phone-numbers-to-office-365)」で説明する手順に従ってください。
     
 - 電話番号が 999 個よりも多い電話番号を移行する必要がある場合は、「[カスタム サービスの依頼を手動で送信する](/skypeforbusiness/manually-submit-a-custom-service-request)」を参照して移行注文サービスの依頼または注文を発行し、Office 365 に移行される電話番号をすべて取得します。
     

@@ -1,55 +1,55 @@
 ---
-title: ビジネス サーバー 2019 の Skype の新機能 |機能
+title: Skype for Business Server 2019 の新機能 |特性
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: '概要: これらの機能は、ビジネス サーバー 2019 の Skype にします。'
-ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+description: '概要: これらの機能は、Skype for Business Server 2019 で新しく追加されています。'
+ms.openlocfilehash: 4ede00188c8928e0fa3d89857b6d5bfdb0a44ade
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835240"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283900"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では、どのような
+# <a name="whats-in-skype-for-business-server-2019"></a>Skype for Business Server 2019 の機能
 
-**の概要:** ビジネス サーバー 2019 の Skype の新機能について学習するには、このトピックを参照してください。  
+**概要:** このトピックでは、Skype for Business Server 2019 の新機能について説明します。  
 
-ビジネス サーバー 2019 の Skype の新機能を以下に示します。
+Skype for Business Server 2019 の新機能には、次のようなものがあります。
   
 - クラウド ボイスメール  
 - 通話データ コネクタ
-- サイド バイ サイド移行
+- サイドバイサイド移行
 
-## <a name="unified-messaging-services-cloud-voicemail"></a>ユニファイド メッセージング サービス: クラウドのボイスメール
+## <a name="unified-messaging-services-cloud-voicemail"></a>ユニファイドメッセージングサービス: クラウドボイスメール
 
-Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の Exchange 2013 または Exchange 2016 2019 のビジネス用の Skype を統合する場合です。 2019 の Exchange でのサポートの変更により、Exchange UM の統合は、ボイスメールのクラウドとクラウドの自動応答の機能に重要ではなくことです。  
+Skype for business 2019 を Exchange 2013 または Exchange 2016 と統合すると、exchange UM は Skype for Business Server 2019 で利用可能になります。 Exchange 2019 のサポートが変更されたため、クラウドボイスメールとクラウド自動応答機能を利用して、Exchange UM との統合を強調することができます。  
 
-クラウドのボイスメールは、設置型または online& #x 2014 はマイクロソフトのクラウドで同じボイス メール サービスにアクセスするに置かれているかどうかのビジネス 2019 users& #x 2014 は、すべての Skype を使用できます。 ボイスメールのクラウドでは、オンプレミスとオンラインのユーザーの両方の次の利点があります。
+クラウドボイスメールを使用すると、Skype for Business 2019 users& # x2014 は、オンプレミスと online& # x2014; のどちらでも、Microsoft Cloud で同じボイスメールサービスにアクセスできます。 クラウドボイスメールでは、オンプレミスとオンラインの両方のユーザーに次の利点があります。
 
-- オンライン ビジネス、チーム、または Outlook クライアントで、Skype を使用して Exchange メールボックスにボイス メールへのアクセス
-- ボイス メール オプションを管理するために、web ベースのポータルを使用する機能
+- Skype for Business Online、Teams、または Outlook クライアントを使用して、Exchange メールボックス内のボイスメールにアクセスする
+- Web ベースのポータルを使用してボイスメールオプションを管理する機能
 
-詳細については、[クラウドのボイスメールの計画サービス](../sfbhybrid/hybrid/plan-cloud-voicemail.md)と[Skype ビジネス サーバーと Exchange Server の移行のための計画](../sfbhybrid/hybrid/plan-um-migration.md)を参照してください。
+詳細については、「[クラウドボイスメールサービスの計画](../sfbhybrid/hybrid/plan-cloud-voicemail.md)」および「 [Skype for Business Server と Exchange server の移行の計画](../sfbhybrid/hybrid/plan-um-migration.md)」を参照してください。
   
-## <a name="call-monitoring-call-data-connector"></a>監視を呼び出します呼び出しデータ コネクタ。
+## <a name="call-monitoring-call-data-connector"></a>通話監視: データコネクタの呼び出し
 
-呼び出しデータ コネクタは、設置とオンラインのツールの別のセットを使用してすべてのユーザーの通話の音質を監視する必要がないので、ハイブリッド環境での呼び出しの監視を大幅に簡略化します。  ホーム設置型またはオンライン ユーザーは、かどうかは組織全体に対してオンライン通話の品質を表示することもできます。
+データコネクタを呼び出すと、すべてのユーザーの通話品質を監視するためにオンプレミスとオンラインの各種ツールのセットを使用する必要がなくなったため、ハイブリッド環境での通話監視が大幅に簡素化されます。  ユーザーがオンプレミスとオンラインのどちらであるかにかかわらず、組織全体の通話品質をオンラインで表示するように選ぶことができます。
 
-呼び出しのデータ コネクタの 1 つのツールセットを使用して次のタスクを実行できます。
+通話データコネクタを使用すると、次のタスクを1つのツールセットを使って実行できます。
 
-- マイクロソフトのチーム、ビジネス オンラインでは、Skype、Skype ビジネス サーバーの間でユーザーの操作性を監視します。
-- 表示し、ネットワーク上の問題のトラブルシューティング
-- 表示し、各自の責任範囲のトラブルシューティングを行うヘルプデスクの従業員を支援することは、分析機能の呼び出しのヘルプデスクや管理者の役割を割り当てます。
+- Microsoft Teams、Skype for Business Online、Skype for Business Server でユーザーエクスペリエンスを監視します。
+- ネットワーク全体で問題を表示してトラブルシューティングする
+- ヘルプヘルプと管理者の役割を通話分析に割り当てて、ヘルプデスクの作業者が責任の範囲を表示し、トラブルシューティングできるようにします。
 
-詳細については、[呼び出しデータ コネクタの計画](../sfbhybrid/hybrid/plan-call-data-connector.md)を参照してください。
+詳細については、「[通話データコネクタを計画](../sfbhybrid/hybrid/plan-call-data-connector.md)する」を参照してください。
 
 ### <a name="see-also"></a>関連項目
 
-[ビジネス サーバー 2019 の Skype からどのような使用されなくなりました](deprecated.md)
+[Skype for Business Server 2019 で廃止される機能](deprecated.md)

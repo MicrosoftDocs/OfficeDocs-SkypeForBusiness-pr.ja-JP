@@ -1,73 +1,73 @@
 ---
-title: Skype のビジネス サーバーの管理者のアクセス許可をテスト
+title: Skype for Business Server で管理者権限をテストする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Skype のビジネス サーバーの管理者のアクセス許可をテストする方法
-ms.openlocfilehash: f769870991cfd5578fc8bd809d26c0aea912d03a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server で管理権限をテストする方法
+ms.openlocfilehash: 1bae61dd4e8d5a8636a64687d279536b4989d104
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898291"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279250"
 ---
-# <a name="testing-admin-permissions-in-skype-for-business-server"></a>Skype のビジネス サーバーの管理者のアクセス許可をテスト
+# <a name="testing-admin-permissions-in-skype-for-business-server"></a>Skype for Business Server で管理者権限をテストする
 
 | | |
 |--|--|
-|検証スケジュール|後ビジネス サーバーの展開の初期の Skype です。 必要に応じてアクセス許可に関連する問題が発生した場合。|
-|テスト ツール|Windows PowerShell|
-|必要なアクセス許可|ビジネス サーバー管理シェルには、Skype を使用してローカルで実行するとユーザーは RTCUniversalServerAdmins のセキュリティ グループのメンバーである必要があります。<br><br/>実行すると、Windows PowerShell のリモート インスタンスを使用してユーザーがテスト CsOUPermission コマンドレットを実行する権限を持っている RBAC の役割を割り当てられる必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。<br/><br/>Get CsAdminRole \| Where-object {$_ です。コマンドレットの「テスト CsOUPermission」に一致。|
+|確認のスケジュール|初めての Skype for Business Server の展開後。 必要に応じて、アクセス許可に関連する問題が発生します。|
+|テストツール|Windows PowerShell|
+|必要なアクセス許可|Skype for Business Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。<br><br/>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、CsOUPermission コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。<br/><br/>を\|取得します。-オブジェクト {$ _コマンドレット-match "Test-CsOUPermission"}|
 |||
 
 ## <a name="description"></a>説明
 
-RTCUniversalUserAdmins グループ ユーザー、コンピューター、連絡先、アプリケーションの連絡先、および InetOrg を管理するために必要な Active Directory アクセス許可は、セットアップ プログラムによって実行されたタスクのいずれかのビジネス サーバーの Skype をインストールするとき担当者です。 Active Directory のアクセス許可の継承を無効にした場合、セットアップはこれらのアクセス許可を割り当てることができません。 その結果、RTCUniversalUserAdmins グループのメンバーは、サーバーのビジネス エンティティの Skype を管理するためにはできません。 管理権限はドメイン管理者にのみできます。 
+Skype for Business Server をインストールすると、セットアッププログラムによって実行されたタスクの1つに、RTCUniversalUserAdmins グループにユーザー、コンピューター、連絡先、アプリケーションの連絡先、および InetOrg を管理するために必要な Active Directory アクセス許可が付与されます。連絡. Active Directory でアクセス許可の継承を無効にしている場合、セットアップでは、これらのアクセス許可を割り当てることはできません。 この結果、RTCUniversalUserAdmins グループのメンバーは、Skype for Business Server のエンティティを管理することができなくなります。 これらの管理権限は、ドメイン管理者のみが利用できます。 
 
-テスト CsOUPermission コマンドレットでは、Active Directory コンテナーにユーザー、コンピューター、およびその他のオブジェクトを管理するために必要なパーミッションが設定されているを確認します。 これらのアクセス許可が設定されていない場合は、[補助金 CsOUPermission コマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission)を実行してこの問題を解決できます。 
+ユーザー、コンピューター、その他のオブジェクトを管理するために必要なアクセス許可が Active Directory コンテナーで設定されていることを確認するために、CsOUPermission のテストコマンドレットを確認します。 これらのアクセス許可が設定されていない場合は、 [Grant-CsOUPermission コマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission)を実行することで、この問題を解決できます。 
 
-許可 CsOUPermission のみを割り当てることがアクセス許可、RTCUniversalUserAdmins グループのメンバーに注意してください。 このコマンドレットを使用して、任意のユーザーまたはグループにアクセス許可を付与できません。 ユーザー管理権限を持っている別のユーザーまたはグループを選択する場合は、RTCUniversalUserAdmins グループにそのユーザー (またはグループ) を追加する必要があります。 
+ただし、権限の付与は、RTCUniversalUserAdmins グループのメンバーに対してのみ権限を割り当てることができます。 このコマンドレットを使用して、任意のユーザーまたはグループにアクセス許可を付与することはできません。 別のユーザーまたはグループにユーザー管理のアクセス許可を与える必要がある場合は、そのユーザー (またはグループ) を RTCUniversalUserAdmins グループに追加する必要があります。 
 
 
-## <a name="running-the-test"></a>テストを実行しています。
+## <a name="running-the-test"></a>テストの実行
 
-コンテナーの管理アクセス許可が設定されていることを確認するには、コンテナーの識別名、および確認の対象とするアクセス許可の種類の後にテスト CsOUPermission コマンドレットを実行します。 たとえば、このコマンドは、OU の ou にユーザーのアクセス許可を設定するかどうかをチェック = 東京都, dc = litwareinc、dc = com。
+コンテナーに管理権限が設定されていることを確認するには、CsOUPermission コマンドレットを実行し、その後に、コンテナーの識別名と確認するアクセス許可の種類を指定します。 たとえば、次のコマンドは、ユーザー権限が OU ou で設定されているかどうかを確認します。 Redmond、dc = litwareinc、dc = com:
 
 `Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user"`
 
-1 つのコマンドを使用して複数のアクセス許可を確認するには、引用符、二重引用符で囲まれている各アクセス許可の種類し、コンマを使用して、これらの種類を区別します。 ユーザー、コンピューター、および取引先担当者に、この 1 つのコマンドを確認するなどのアクセス許可。
+1つのコマンドを使用して複数のアクセス許可を確認するには、それぞれのアクセス許可の種類を引用符で囲んで囲み、コンマを使用してそれらの型を区切ります。 たとえば、次のコマンドは、ユーザー、コンピューター、および連絡先のアクセス許可を確認します。
 
 `Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "computer", "contact"`
 
-詳細については、[テスト CsOUPermission コマンドレットのヘルプ トピック](https://docs.microsoft.com/en-us/powershell/module/skype/test-csoupermission)を参照してください。
+詳細については、「 [CsOUPermission のテスト」コマンドレットのヘルプトピック](https://docs.microsoft.com/en-us/powershell/module/skype/test-csoupermission)を参照してください。
 
-## <a name="determining-success-or-failure"></a>成功または失敗を決定します。
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-場合は既に設定されている必要なアクセス許可には、テスト CsOUPermission には、1 つの word の応答が返されます。
+必要なアクセス許可が既に設定されている場合、テスト用の CsOUPermission は1単語の応答を返します。
 
 True
 
-必要なアクセス許可が設定されていない場合、テスト CsOUPermission は値 False を返します。 この値を検索するのには少しの間を検索する必要があります。 付随するいくつかの警告の中に通常埋め込まれます。 次に例を示します。
+必要なアクセス許可が設定されていない場合は、"False" という値が返されます。 この値を検索するには、少し時間がかかる場合があります。 通常は、いくつかの関連する警告内に埋め込まれます。 次に例を示します。
 
-警告: アクセス制御エントリ (ACE) atl の cs-001\RTCUniversalUserReadOnlyGroup です。許可します。ReadProperty です。ContainerInherit です。サブフォルダーが存在します。-00aa003049e2 bf967aba-0de6-11 d 0 です。d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
+警告: アクセス制御エントリ (ACE) atl-cs-001\RTCUniversalUserReadOnlyGroup許可ReadProperty;ContainerInherit;フォルダーbf967aba-11d0-00aa003049e2;d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 
-警告: アクセス制御エントリ (Ace) オブジェクトの"OU = NorthAmerica、DC = atl の cs-001\DC = litwareinc、DC = com"準備ができていません。 
+警告: オブジェクト "OU = NorthAmerica, DC = atl-cs-001\DC = litwareinc, DC = com" のアクセス制御エントリ (Ace) の準備ができていません。 
 
 False 
 
-警告: 警告「テスト CsOUPermission」の処理が完了しました。 この実行中に「2」の警告が記録されています。 
+警告: "Test-CsOUPermission" 処理は警告で完了しています。 この実行中に警告が記録されました。 
 
-警告:"C:\Users\Admin\AppData\Local\Temp\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.html"の結果の詳細を参照しています。 
+警告: 詳細な結果は "C:\Users\Admin\AppData\Local\Temp\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.html" に記載されています。 
 
-## <a name="reasons-why-the-test-might-have-failed"></a>なぜテストが失敗した理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
 
-CsOUPermission のテストが失敗した場合は、通常、RTCUniversalUserAdmins グループに指定したアクセス許可が割り当てられていないことを意味します。 この問題を解決し、与える CsOUPermission コマンドレットを使用して、必要なアクセス許可を割り当てることがことができます。 など、このコマンドは、RTCUniversalUserAdmins グループにユーザー、連絡先、および Inetorgperson の OU のアクセス許可を使用します。
+RTCUniversalUserAdmins のテストに失敗した場合、通常は、指定したアクセス許可がグループに割り当てられていないことを意味します。 この問題を解決して、必要なアクセス許可を割り当てるには、アクセス許可の付与コマンドレットを使用します。 たとえば、次のコマンドを実行すると、ユーザー、連絡先、inetOrgPersons に対して、RTCUniversalUserAdmins グループに OU 権限が付与されます。
 
 `Grant-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "contact", "inetOrgPerson"`
 
-詳細については、[テスト CsOUPermission コマンドレットのヘルプ トピック](https://docs.microsoft.com/en-us/powershell/module/skype/test-csoupermission)を参照してください。
+詳細については、「 [CsOUPermission のテスト」コマンドレットのヘルプトピック](https://docs.microsoft.com/en-us/powershell/module/skype/test-csoupermission)を参照してください。

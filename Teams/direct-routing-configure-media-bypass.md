@@ -3,7 +3,7 @@ title: ダイレクト ルーティングでメディア バイパスを構成�
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service:
@@ -14,52 +14,52 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: 電話システムの直接のルーティングを使用してメディア バイ パスを構成する方法については、このトピックを参照してください。
-ms.openlocfilehash: 459ebd80a175fbf2c213a016436a2bf130ae9982
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: このトピックでは、電話システムのダイレクトルーティングでメディアバイパスを構成する方法について説明します。
+ms.openlocfilehash: a9769e921ff493e67614cf903ca9206f6f50bac8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232697"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290454"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを構成する
 
-構成のメディアは、直接ルーティングをバイパスする前に、[メディアの計画に直接ルーティングをバイパス](direct-routing-plan-media-bypass.md)を読んだことを確認します。
+ダイレクトルーティングを使用してメディアバイパスを構成する前に、[ダイレクトルーティングによるメディアバイパスの計画](direct-routing-plan-media-bypass.md)があることを確認してください。
 
-メディアのバイパスを有効にするのには次の条件を満たす必要があります。
+メディアのバイパスを有効にするには、次の条件を満たしている必要があります。
 
-1.  任意のセッション ボーダー コント ローラー (SBC) ベンダーがメディア バイ パスがサポートされていてを構成する手順については、SBC のバイパスは、確認します。 SBCs、するもののサポート ・ メディアは、次の回避、および手順についての説明に証明のページを参照してください。
+1.  セッション境界コントローラー (SBC) ベンダーがメディアバイパスをサポートしていることを確認し、SBC でバイパスを構成する方法について説明します。 SBCs の詳細については、認定ページを参照してください。このページでは、メディアのバイパスがサポートされているものと手順について説明します。
 
-2.  次のコマンドを使用してトランク上のメディア バイ パスを有効にする必要があります:**セット CSOnlinePSTNGateway ・ アイデンティティの <sbc_FQDN> - MediaBypass $true**。
+2.  次のコマンドを使用して、トランクでメディアバイパスを有効にする必要があります。 CSOnlinePSTNGateway-Identity <sbc_FQDN>-mediab$true yp。
 
-3.  必要なポートが開かれることを確認します。 
+3.  必要なポートが開かれていることを確認します。 
 
 
-## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>非バイパスのトランクからトランクのバイパスが有効なへの移行します。
+## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>非バイパスの trunks からバイパス対応の trunks に移行する
 
-一度にすべてのユーザーを切り替えることができますまたは段階的なアプローチを実装することができます (推奨)。
+一度にすべてのユーザーを切り替えることができます。また、段階的なアプローチを実装することもできます (推奨)。
 
-- **一度にすべてのユーザーを切り替えます。** すべての条件を満たしている場合は、バイパス モードをオンにします。 ただし、運用環境のすべてのユーザーは、同時に切り替えられます。 トランクとポートを構成するときに最初にいくつかの問題が発生する可能性があります、ため、運用環境のユーザー エクスペリエンスの影響を受けます。 
+- **一度にすべてのユーザーを切り替える。** すべての条件が満たされた場合は、バイパスモードをオンにすることができます。 ただし、すべての運用ユーザーが同時に切り替えられます。 Trunks とポートを構成するときに、最初にいくつかの問題が発生する可能性があるため、実稼働ユーザーエクスペリエンスに影響を与える可能性があります。 
 
-- **Phased アプローチです。(推奨)**。  (別のポート) を持つ同じ SBC の新しい樹幹を作成、テスト、および新しいトランクを指すようにユーザーのオンラインの音声ルーティング ポリシーを変更します。 
+- **段階的アプローチ。(推奨)**。  同じ SBC (別のポートを持つ) に新しいトランクを作成し、テストして、ユーザーが新しいトランクをポイントするようにオンラインボイスルーティングポリシーを変更します。 
 
-  これは、滑らかな切り替えと中断のないユーザー エクスペリエンスのための推奨される方法です。 このアプローチでは、SBC、新しい FQDN 名では、ファイアウォールの設定の構成が必要です。 証明書が両方のトランクをサポートしているかどうかを確認する必要があります注意してください。 SAN では、(**sbc1.contoso.com**および**sbc2.contoso.com**) の 2 つの名前またはワイルドカード証明書が存在する必要があります。
+  これは、スムーズな移行と中断のないユーザーエクスペリエンスを実現するために推奨されるアプローチです。 この方法では、SBC、新しい FQDN 名、ファイアウォールの構成が必要です。 注: 証明書で trunks の両方がサポートされていることを確認する必要があります。 SAN では、2つの名前 (**sbc1.contoso.com**と**sbc2.contoso.com**) を使用するか、ワイルドカード証明書を持っている必要があります。
 
-![非バイパスのトランクからトランクのバイパスが有効に移行)](media/direct-routing-media-bypass-8.png)
+![非バイパスの trunks からバイパス対応の trunks に移行する](media/direct-routing-media-bypass-8.png)
 
-トランクを構成し、移行を実行する方法については、SBC の製造元に問い合わせてからのマニュアルを参照してください。
+Trunks を構成して移行を実行する方法については、「SBC ベンダーのドキュメント」を参照してください。
 
 - AudioCodes
 - リボン
-- TE ・ システム (AnyNode)    
+- TE システム (AnyNode)    
 
-セッション ボーダー コント ローラー (SBCs) が直接ルーティングするための認定のリストは、[リストのセッション Broder コント ローラーが直接ルーティングの認定](direct-routing-border-controllers.md)を参照してください。
+直接ルーティング用に認定したセッション境界コントローラー (SBCs) の一覧については、「[直接ルーティング用に認定済みのセッション罫線ありコントローラーの一覧](direct-routing-border-controllers.md)」を参照してください。
 
 
 
 ## <a name="see-also"></a>関連項目
 
-[直接ルーティングでのメディア バイ パスを計画します。](direct-routing-plan-media-bypass.md)
+[ダイレクトルーティングによるメディアバイパスの計画](direct-routing-plan-media-bypass.md)
 
 
 

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,49 +18,49 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: 6dccd022d82519c1dfdce13f767e5b0a2531eb10
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6895a45f59de2c73e445c7c26345f3b3d191a5f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237694"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285286"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Office 365 で Skype for Business クライアントを展開する
 
-この資料は、**[管理者](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US)** では、配置方法ビジネス アプリケーションの Skype ユーザーに、組織内のオプションについて説明します。
+この記事では、**[管理者](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US)** が Skype for business アプリを組織内のユーザーに展開する方法に関するオプションについて説明します。
   
-ビジネス ユーザーは、Skype を展開する前に、[オンライン ビジネスの Skype の設定](set-up-skype-for-business-online.md)資料では、手順 1 ~ 3 を行っています。 これによって、ご使用のドメインで Skype for Business がセットアップされ、すべてのユーザーにライセンスが割り当てられ、組織用に IM と[Skype for Business Online でプレゼンスを設定する](configure-presence-in-skype-for-business-online.md)が構成されます。
+Skype for Business をユーザーに展開する前に、「Skype for business [Online](set-up-skype-for-business-online.md)をセットアップする」の手順1-3 を完了していることを確認してください。 これによって、ご使用のドメインで Skype for Business がセットアップされ、すべてのユーザーにライセンスが割り当てられ、組織用に IM と[Skype for Business Online でプレゼンスを設定する](configure-presence-in-skype-for-business-online.md)が構成されます。
   
 > [!NOTE]
-> ユーザーが Skype for Business アプリをインストールするためには、PC またはデバイス上のローカル管理者である必要があります。 または、PC またはデバイスにアプリをインストールできるローカル グループのメンバーであることが必要です。 ユーザーが自分のデバイスにソフトウェアをインストールするのには許可されていない場合は、それらのビジネス アプリケーションの Skype をインストールする必要があります。 
+> ユーザーが Skype for Business アプリをインストールするためには、PC またはデバイス上のローカル管理者である必要があります。 または、PC またはデバイスにアプリをインストールできるローカル グループのメンバーであることが必要です。 ユーザーがデバイスにソフトウェアをインストールすることを許可されていない場合は、Skype for Business アプリをインストールする必要があります。 
   
 ## <a name="for-most-small-and-medium-sized-businesses"></a>ほとんどの中小規模の企業の場合
 
- **ステップ バイ ステップのインストール手順:** 小規模または中規模のビジネスがある場合は、単に自分の PC 上のビジネス アプリケーションの Skype をインストールするのには、ユーザーに依頼することをお勧めします。 次の手順を参照するように:[ビジネスの Skype をインストール](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb?ui=en-US&rs=en-US&ad=US)します。 Mac を使用している場合は、 [Office 365 の Mac の 2011 年の Lync をセットアップ](https://support.office.com/en-us/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88?ui=en-US&rs=en-US&ad=US)することをポイントします。 ビジネス アプリケーションの Skype は、Office アプリケーションの残りの部分から個別にインストールします。
+ **ステップバイステップのインストール手順:** 小規模または中規模企業の場合は、Skype for Business アプリを PC にインストールするようにユーザーに依頼することをお勧めします。 次の手順を参照し[てください。 Skype For business をインストール](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb?ui=en-US&rs=en-US&ad=US)します。 Mac を使用している場合は、 [Office 365 用に Lync For Mac 2011](https://support.office.com/en-us/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88?ui=en-US&rs=en-US&ad=US)をセットアップするようにユーザーに指摘します。 Skype for Business アプリは、他の Office アプリとは別にインストールされます。
   
  **Office 365 ProPlus のお客様:** お客様の会社で E3 プランなどの Office 365 ProPlus が含まれる Office 365 プランを使用している場合、ユーザーが Word、Excel、PowerPoint などをダウンロードしてインストールすると、同時に Skype for Business アプリがインストールされます。つまり、Office をすべてアンインストールしないと Skype for Business をアンインストールできません。
   
 ### <a name="choose-whether-to-make-skype-for-business-available-to-your-users"></a>ユーザーが Skype for Business を利用できるようにするかどうかを選択する
 
-[管理者](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US)として、ユーザーがビジネス アプリケーションの Skype を使用できるようにするかどうかを選択できます。
+[管理者](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US)は、ユーザーが Skype for business アプリを利用できるようにするかどうかを選ぶことができます。
   
-- **ソフトウェアを取得するかどうか、社内のすべてのユーザーを制御する**: にサインインするのに、Office 365 の管理センター、**ソフトウェアをインストール**するには、およびユーザーの利用可能にソフトウェアを選択します。
+- **社内のすべてのユーザーがソフトウェアを取得するかどうかを制御するに**は、Office 365 管理センターにサインインし、 **[ソフトウェアのインストール**] に移動して、ユーザーが使用できるようにするソフトウェアを選びます。
     
     ![Choose the software you want to make available to the people in your company.](../images/5eb9e9d4-6ea2-4cc1-a61d-8a1af5a7c121.png)
   
-- **制御するかどうか、会社内の特定のユーザー ソフトウェアを入手する**: にサインインするのに、Office 365 の管理センターは、**ユーザー**に > 、**アクティブなユーザー**が、ソフトウェアにアクセスできるようにし人を選択し、し、[**編集**] をクリックして**製品ライセンス**の横にあるし、ライセンスを有効または無効にします。
+- 組織**内の特定のユーザーがソフトウェアを入手するかどうかを制御するに**は、Office 365 管理センターにサインインし、[**ユーザー** > の**アクティブな**ユーザー] に移動して、ソフトウェアへのアクセスを許可するユーザーを選択し、[**編集**] をクリックします。[**製品ライセンス**] の横にある [ライセンス] を有効または無効にします。
     
     ![Choose which software you want the user to access.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> 新しい Office 365 管理センター _gt**ユーザー**にサインインする必要があるどのような計画は、組織内のユーザーに割り当てられて、か > **アクティブなユーザー**です。リストからユーザーを選択し、**製品のライセンス**の下を確認します。従来の Office 365 管理センターを使用する場合は、**割り当てられたライセンス**の下で確認します。 
+> 組織内のユーザーに割り当てられているプランを確認する必要がある場合は、新しい Office 365 管理センターにサインインして、>**ユーザー** > を**アクティブ**にします。 リストからユーザーを選び、[**製品ライセンス**] を確認します。 従来の Office 365 管理センターを使用している場合は、[**割り当て済みのライセンス**] を確認します。 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>ユーザーに Skype for Business を手動で展開する
 <a name="bkmk_manual_1"> </a>
 
 If you want your users to install the Skype for Business app from a location on your network instead of from the Internet, you can download the setup files. To do this go to the **Manually deploy user software** section of the Office 365 admin center. You can then select **Install** and save the setup .exe file to a network location.
   
-別のオプションでは、ユーザーのビジネスの基本的なアプリケーションの Skype をダウンロードします。 [ビジネス基本 (32 または 64 ビット) 用の Microsoft の Skype](https://www.microsoft.com/en-us/download/details.aspx?id=49440)をダウンロードすることができます。
+もう1つのオプションは、ユーザー用の Skype for Business Basic アプリをダウンロードすることです。 [Microsoft Skype For Business Basic (32 または64ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=49440)をダウンロードできます。
   
 Skype for Business アプリのフル バージョンの場合も Basic バージョンの場合も、セットアップ ファイルをダウンロードしたら、セットアップ プログラムを実行してコンピューターにアプリをインストールできるよう、ネットワーク パスをユーザーに手動で (たとえばメールなどで) 送信する必要があります。
   
@@ -73,7 +73,7 @@ Skype for Business アプリのフル バージョンの場合も Basic バー�
   
 多くの大企業や大規模な組織では、ユーザーは自分のコンピューターにソフトウェアをインストールすることを許可されていません。代わりに、IT 部門が必要なソフトウェアをユーザーのコンピューターに展開します。また IT 部門は、組織で使用されるインターネットまたはネットワークの帯域幅を制御するために、遠くのインターネットや企業ネットワークからではなく、ネットワーク上の近くの場所からソフトウェアをインストールする必要があります。
   
-Office 365 からインストールされているかを制御する場合は、Skype のビジネス アプリケーションを展開するためのいくつかのオプションがあります。これらのオプションの一部を以下に示します。
+Office 365 では、インストール元の場所を制御するために、Skype for Business アプリを展開するためのいくつかのオプションが用意されています。 このようなオプションを次にいくつか示します。
   
 - 「[ユーザーに Skype for Business を手動で展開する](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)」に記載されているように、Office 365 管理センターからローカル ネットワークに Skype for Business アプリをダウンロードします。
     
@@ -85,7 +85,7 @@ Office 365 からインストールされているかを制御する場合は、
 
 Office 展開ツールのダウンロードの詳細および Skype for Business アプリとその他の Office 365 クライアント アプリのインストールの詳細については、「[Office 365 でユーザーのソフトウェアを管理する](https://support.office.com/en-us/article/c13051e6-f75c-4737-bc0d-7685dcedf360)」を参照してください。
   
-Office の展開ツールを使用してアプリケーションを展開するに関連する手順の概要を以下に示します。
+ここでは、Office 展開ツールを使用してアプリを展開する手順の概要を説明します。
   
 1. **[最新の Office 展開ツールをダウンロード](https://www.microsoft.com/en-us/download/details.aspx?id=49117)** します。
     
@@ -133,7 +133,7 @@ Office 365 ソフトウェアに対する更新プログラムの動作の詳細
   
 - [Office 365 ProPlus の更新プロセスの概要](https://technet.microsoft.com/en-us/library/dn761709.aspx)
     
-- [Office 365 用リソースへの更新を管理する方法を選択します。](https://technet.microsoft.com/en-us/library/dn761707.aspx)
+- [Office 365 ProPlus の更新プログラムの管理方法を選択する](https://technet.microsoft.com/en-us/library/dn761707.aspx)
     
 - [Office 365 ProPlus の更新設定を構成する](https://technet.microsoft.com/en-us/library/dn761708.aspx)
     

@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: デバイスの構成は、全体またはサイト内のいずれか、ビジネス電話のエディション デバイスでは、Skype を管理するために使用される設定のコレクションです。 これらの設定により、必要なセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定などを構成したり、指定した非アクティブ期間の経過後、電話を自動的にロックするかどうかを指定したりすることができます。
-ms.openlocfilehash: b5cc6760bf49e02f969dc4f6b081348eaad150fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: デバイス構成は、グローバルに、またはサイト内で Skype for Business 電話のエディションデバイスを管理するために使用される設定のコレクションです。 これらの設定により、必要なセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定などを構成したり、指定した非アクティブ期間の経過後、電話を自動的にロックするかどうかを指定したりすることができます。
+ms.openlocfilehash: d84d3749e46636f1ff5b1a141fd96808462851a0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913958"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285954"
 ---
 # <a name="device-configuration"></a>デバイス構成
  
-デバイスの構成は、全体またはサイト内のいずれか、ビジネス電話のエディション デバイスでは、Skype を管理するために使用される設定のコレクションです。 これらの設定により、必要なセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定などを構成したり、指定した非アクティブ期間の経過後、電話を自動的にロックするかどうかを指定したりすることができます。 
+デバイス構成は、グローバルに、またはサイト内で Skype for Business 電話のエディションデバイスを管理するために使用される設定のコレクションです。 これらの設定により、必要なセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定などを構成したり、指定した非アクティブ期間の経過後、電話を自動的にロックするかどうかを指定したりすることができます。 
   
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -36,24 +36,24 @@ ms.locfileid: "33913958"
 
 次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。
   
-- **新しい**次のスコープを持つ新しいデバイスの構成を追加することができます。
+- **新規**次のスコープを持つ新しいデバイス構成を追加できます。
     
   - グローバル
     
   - サイト
     
-- **編集**リスト内のデバイスの構成のオプションを変更することができます。 このオプションを使用すると、以下を実行できます、します。
+- **編集**リストでデバイス構成のオプションを変更できます。 このオプションを使うと、次の操作を行うことができます。
     
-  - **詳細を表示します。** このオプションは、デバイス構成のオプションを変更できるダイアログ ボックスを開きます。
+  - **詳細を表示**このオプションを選択すると、デバイス構成のオプションを変更できるダイアログボックスが表示されます。
     
-  - **すべてを選択**このオプションでは、リストですべてのデバイスの構成を選択します。
+  - **すべて選択**このオプションは、一覧にあるすべてのデバイス構成を選択します。
     
-  - **削除**このオプションは、選択したデバイスのすべての構成を削除します。
+  - **削除**このオプションは、選択したすべてのデバイス構成を削除します。
     
-- **更新**デバイス構成] の一覧のすべてのデバイスの構成オプションの状態を確認するのにを更新することができます。
+- **更新**[デバイスの構成] の一覧を更新して、すべてのデバイス構成のオプションの状態を確認できます。
     
 ## <a name="see-also"></a>関連項目
 
 [デバイス構成: 新規作成または現在の形式のままで編集](device-configuration-create-new-or-edit-existing.md)
 
-[セット CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

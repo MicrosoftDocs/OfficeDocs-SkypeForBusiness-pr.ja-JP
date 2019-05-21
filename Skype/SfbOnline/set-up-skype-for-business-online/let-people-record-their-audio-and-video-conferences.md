@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,26 +19,26 @@ f1keywords:
 ms.custom:
 - Setup
 description: '電話会議およびビデオ会議の記録を有効にし、対処方法を説明する方法は、レコーディングには含まれていません。 '
-ms.openlocfilehash: 0e642dc8075c4a7cdcc6d3846cf0c69bca3e2e01
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 31c4661f0c6ec37c8c098594dcdf737248b880b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237568"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285266"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>音声やビデオ会議をレコーディングする
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>組織で単一のユーザーまたはすべてのユーザーの設定を記録する既定値を選択します
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
-1. **Office 365 管理センター**を参照して > **ビジネス用の Skype**、し、[**ユーザー**] をクリックします。
+1. **Office 365 管理センター** > **Skype for business**に移動し、[**ユーザー**] をクリックします。
     
 2. [ **ユーザー** ] ページで、ボックスの一覧から一人のユーザーまたは複数のユーザーを選択し、[ **編集**] をクリックします。
     
 3. [ **オプション] ページ**で、[ **会話や会議を記録する**]をクリックし、[ **保存**] をクリックします。
     
-When recording is turned on, organizers or presenters can record a Skype for Business Online meeting or conference call. Turning recording on or off affects everyone in your organization.
+記録がオンになっている場合、開催者または発表者は、Skype for Business Online 会議または電話会議を記録できます。 記録をオンまたはオフにすると、組織内のすべてのユーザーに影響します。
   
 |**レコーディングに含まれています**|**レコーディングに含まれていません**|
 |:-----|:-----|

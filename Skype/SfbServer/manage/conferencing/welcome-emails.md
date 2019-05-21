@@ -1,29 +1,29 @@
 ---
-title: ダイヤルに登録完了メールを送信するビジネス サーバーの Skype のユーザー
+title: Skype for Business Server でダイヤルインユーザーにウェルカムメールを送信する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: '概要: は、Skype のビジネス サーバーのユーザーにダイヤルイン会議を開始する方法を説明します。'
-ms.openlocfilehash: 4cf05349e7539a4bd5d1551a19a59f839feb41f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server でユーザーをダイヤルイン会議にようこそ方法について説明します。'
+ms.openlocfilehash: db2e8bd84fa6a03bad845a87f7fb3c1532ae7ec2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924914"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280307"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>ダイヤルに登録完了メールを送信するビジネス サーバーの Skype のユーザー
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Skype for Business Server でダイヤルインユーザーにウェルカムメールを送信する
  
-**の概要:** Skype のビジネス サーバーのユーザーにダイヤルイン会議を開始する方法について説明します。
+**概要:** Skype for Business Server でユーザーをダイヤルイン会議にようこそ方法について説明します。
   
 ダイヤルイン電話会議を構成し、テストして正常に機能することを確認したら、ユーザーの初期暗証番号 (PIN) を設定し、その機能の可用性に関してユーザーに伝えてください。 これには、初期 PIN や、ダイヤルイン電話会議設定 Web ページへのリンクなどについての指示を含めることができます。 
   
-通常、**セット CsClientPin**コマンドレットを使用して、Pin をリセットするのには、暗証番号 (pin) の情報を紹介、登録完了メールを送信する場合は、このトピックの手順を使用できます。 ようこそメールを送信しない場合は、代わりに **Set-CsClientPin** を使用できます。
+通常、pin をリセットするには、 **CsClientPin の Set**コマンドレットを使用しますが、pin 情報を使って紹介のウェルカムメールを送信する場合は、このトピックの手順を使用できます。 ようこそメールを送信しない場合は、代わりに **Set-CsClientPin** を使用できます。
   
 PIN を設定し、1 人のユーザーにようこそメールを送信する場合は、**Set-CsPinSendCAWelcomeMail** スクリプトを使用できます。既定で、このスクリプトを実行しても、値が既に設定されている場合には PIN をリセットしませんが、Force パラメーターを使用すれば PIN のリセットを強制できます。電子メール メッセージは、SMTP (Simple Mail Transfer Protocol) を使用して送信されます。
   
@@ -52,9 +52,9 @@ PIN を設定し、1 人のユーザーにようこそメールを送信する�
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**Smtp サーバ**既定では、スクリプトはこのパラメーターは予約されている環境変数 **$PSEmailServer**の値を使用します。 **$PSEmailServer**変数が設定されていない場合は、このパラメーターを指定する必要があります。
+**Smtpserver**既定では、スクリプトはこのパラメーターに対して予約された環境変数 **$PSEmailServer**の値を使います。 **$PSEmailServer**変数が設定されていない場合は、このパラメーターを指定する必要があります。
     
-**資格情報**既定では、スクリプトは、現在のユーザーの資格情報を使用します。 現在のユーザーが、指定のための電子メールを送信するアクセス許可を持っていない場合、アドレスからは、このパラメーターを指定する必要があります。 一般的に、差出人のアドレスに電子メール アドレスを指定しない場合、このパラメーターを指定します。
+**資格情報**既定では、スクリプトは現在のユーザーの資格情報を使用します。 現在のユーザーが、指定された差出人アドレスに代わってメールを送信するアクセス許可を持っていない場合は、このパラメーターを指定する必要があります。 一般的な規則として、差出人アドレスとしてメールアドレスを指定しない場合は、このパラメーターを指定します。
     
 次の例では、新しい PIN を作成し、Marco から Bob にようこそメールを送信します。既定のテンプレートにある電子メール テキストを使用し、HTML 形式で電子メール メッセージを作成します。既定の [件名] は、"ダイヤルイン電話会議へようこそ" です。
   

@@ -11,44 +11,44 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: 計画 1 のビジネス オンラインの Skype が使用されなくなっています。 ただし、プラン 1 のビジネス オンラインの Skype への現在のサブスクリプションがあれば、この変更は影響しませんするでしょうか。 新しいプランに移動する準備ができたら、今すぐ、または更新時に、3 つのオプションがあります。
-ms.openlocfilehash: d8468fa2d070e98cb19a1f41fff6884ac7c3517e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for Business Online プラン1は廃止されました。 ただし、Skype for Business Online Plan 1 の現在のサブスクリプションを使用している場合は、この変更による影響はすぐにはありません。 新しいプランに移行する準備ができたら (今すぐまたは更新時)、3つのオプションが用意されています。
+ms.openlocfilehash: 92b8cc0b01c14cf254dd90fdd96d06b80dfd5345
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248715"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290293"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype for Business Online プラン 1 のサポート終了 
 
-計画 1 のビジネス オンラインの Skype が使用されなくなっています。 ただし、プラン 1 のビジネス オンラインの Skype への現在のサブスクリプションがあれば、この変更は影響しませんするでしょうか。 グローバルの Office 365 の管理者としてが電子メールの更新プログラムを受信し、アクションを実行する必要がある場合についてのメッセージ センター (Office 365 の管理センターの一部) への投稿を参照してください。 それまでは、ビジネス オンライン計画 1 ライセンスで、既存の Skype を使用する続行できます。
+Skype for Business Online プラン1は廃止されました。 ただし、Skype for Business Online Plan 1 の現在のサブスクリプションを使用している場合は、この変更による影響はすぐにはありません。 グローバル Office 365 管理者として、メールの更新プログラムを受信し、メッセージセンター (Office 365 管理センターの一部) に投稿を表示して、いつアクションを実行する必要があるかについての情報を表示します。 その間も、引き続き既存の Skype for Business Online プラン1のライセンスを使用することができます。
 
-新しい計画に移動する準備ができたら-今すぐ、または更新時に、Office 365 の f1 キーまたはを選択して別の Office 365 のプランに切り替えるオプションがあります。
+新しいプランに移行する準備ができたら (今すぐまたは更新時)、Office 365 F1 または選択したその他の Office 365 プランに切り替えることができます。
 
-した Skype でのビジネス オンライン計画 1 から Office 365 の新機能および機能を活用しながら、同じ機能を維持できます。 利用可能な多くの計画のオプションには、Skype のプラン 1 のオンライン ビジネスと IM とプレゼンス、ピア ツー ピア オーディオとビデオ オーバー IP、および認証済みユーザーとして会議に参加することに付属しているすべての機能が含まれます。
-
-
-## <a name="switching-to-office-365-f1"></a>Office 365 の F1 への切り替え
-
-このオプションは、追加機能を提供している Office 365 の f1 キーを利用する場合に最適です。 詳細については、価格情報の取得と、 [Office 365 の F1](https://products.office.com/en-us/business/office-365-f1)を参照してください。
+Skype for Business Online Plan 1 と同じ機能を維持しながら、Office 365 の新機能を利用することができます。 利用できるプランオプションの多くには、Skype for Business Online プラン1に付属していたすべての機能に加えて、IM、プレゼンス、IP 経由のピアツーピア音声とビデオ、および認証されたユーザーとして会議に参加できる機能が含まれています。
 
 
-### <a name="how-to-switch"></a>切り替える方法 
+## <a name="switching-to-office-365-f1"></a>Office 365 F1 に切り替える
 
-切り替える Office 365 f1 キーを今すぐまたは待機時間を更新し、更新処理中にアップグレードするまでです。 どちらにしては、演習では、アカウント担当者またはパートナー購入お申し込み、マイクロソフトから直接の場合の場合は、しない限り、スイッチに切り替えることができます Office 365 の f1 キーを自分で Office 365 の管理センターで。
+このオプションは、Office 365 F1 が提供するその他の機能を利用する場合に適しています。 さらに詳細を確認し、価格情報を取得するには、「 [Office 365 F1](https://products.office.com/en-us/business/office-365-f1)」を参照してください。
 
 
-## <a name="switching-to-another-office-365-offer"></a>別の Office 365 サービスへの切り替え
+### <a name="how-to-switch"></a>切り替え方法 
 
-ビジネス オンライン計画 1 のユーザーが Skype で楽しむ機能は、マイクロソフトのチームやビジネス、オンライン サービスによって現在使用中の Skype を使用していずれか、Office 365 スイートの多くで利用可能です。 
+今すぐ Office 365 F1 に切り替えるか、更新処理中に更新してアップグレードするまで待機することができます。 どちらの場合も、サブスクリプションを Microsoft から直接購入していない限り、アカウントの担当者またはパートナーと協力して、office 365 365 F1 に切り替えることができます。
 
-### <a name="how-to-switch"></a>切り替える方法 
 
-サブスクリプションを更新するにはプラン 1 のオンライン ビジネスの Skype は利用できる、更新プロセスの一部として別の Office 365 のプランに切り替えることができます。 更新するまで待機しない場合は、今すぐ切り替えることができます。 どちらにしても、演習では、スイッチを確認するには、アカウントの担当営業またはパートナーまたは -買ったなら Skype ビジネス オンライン計画 1 を Microsoft から直接、オンライン、自分でやって管理センターで。
+## <a name="switching-to-another-office-365-offer"></a>別の Office 365 プランに切り替える
+
+Skype for Business Online Plan 1 で利用できる機能は、現在使用しているサービスに応じて、Microsoft Teams または Skype for Business Online を使用して、多くの Office 365 スイートで利用できます。 
+
+### <a name="how-to-switch"></a>切り替え方法 
+
+サブスクリプションを更新して、Skype for Business Online プラン1を使用できなくなった場合は、更新プロセスの一環として、別の Office 365 プランに切り替えることができます。 更新されるまで待つ必要がない場合は、今すぐ切り替えることができます。 どちらの場合も、お客さまのアカウント担当者またはパートナーと協力して、スイッチを作成します。または、Microsoft から直接 Skype for Business Online プラン1を購入した場合は、管理センターで自分で行います。
