@@ -5,33 +5,33 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
-description: '概要: は、初期構成およびビジネス サーバー 2015 の Skype での永続的なチャット サービスの管理を有効にするのには永続的なチャット サーバー管理者ロールを作成する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: d483517afcb5d02667d431259f8a2e76804cc32b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: このトピックでは、Skype for Business Server 2015 で常設チャットサービスの初期構成と管理を有効にするための、常設チャットサーバー管理者の役割を作成する方法について説明します。'
+ms.openlocfilehash: 1b593f1de776f1896d43bab35a15af7b6bcf7245
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894473"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273883"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット管理者の作成
  
-**の概要:** 初期構成およびビジネス サーバー 2015 の Skype での永続的なチャット サービスの管理を有効にするのには永続的なチャット サーバー管理者ロールを作成する方法の詳細については、このトピックを参照してください。
+**概要:** このトピックでは、Skype for Business Server 2015 の常設チャットサービスの初期構成と管理を有効にするための、常設チャットサーバー管理者の役割を作成する方法について説明します。
   
-ビジネス サーバーの Skype は、特定のタスクを実行するユーザーを 1 つまたは複数の特定のグループのメンバーとして割り当てる必要があります。 ビジネス サーバー管理者の役割の定義済みの Skype ユーザーに割り当てることによって権限を付与する役割に基づくアクセス制御 (RBAC) が使用されます。 これらの役割は、Active Directory ドメイン サービスのユニバーサル セキュリティ グループに対応します。 、CsPersistentChatAdministrator、永続的なチャット管理者セキュリティ グループのメンバーは、永続的なチャット サーバーのコマンドレット、またはを使用してビジネス サーバー管理シェルの Skype、Skype ビジネスを実行することへのアクセスを許可は、サーバーのコントロール パネルです。
+Skype for Business Server では、特定のタスクを実行するユーザーは、1つ以上の特定のグループのメンバーとして割り当てる必要があります。 ロールベースのアクセス制御 (RBAC) を使用して、事前定義された Skype for Business Server の管理者ロールにユーザーを割り当てることによって特権を付与します。 これらの役割は、Active Directory ドメイン サービスのユニバーサル セキュリティ グループに対応します。 常設チャット管理者セキュリティグループ CsPersistentChatAdministrator のメンバーには、Skype for Business Server 管理シェルまたは Skype for Business を使用して実行できる常設チャットサーバーコマンドレットへのアクセスが許可されます。サーバーコントロールパネル。
   
 常設チャット サーバーを構成および管理する前に、適切なユーザー権限およびアクセス許可があること、および常設チャット管理者として活動するユーザーが常設チャット管理者セキュリティ グループに追加されていることを確認してください。
   
 > [!NOTE] 
-> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
 
 ## <a name="create-a-persistent-chat-administrator"></a>Create a Persistent Chat administrator
 
-CsPersistentChatAdministrator、永続的なチャット管理者セキュリティ グループにユーザーを追加するには、次の手順を実行します。
+常設チャット管理者セキュリティグループ CsPersistentChatAdministrator にユーザーを追加するには、次の手順を実行します。
   
 1. Active Directory グループのメンバーシップを変更できるアクセス許可を持つアカウントを使用して、Active Directory ユーザーおよびコンピューターがインストールされているコンピューターにログオンします。
     

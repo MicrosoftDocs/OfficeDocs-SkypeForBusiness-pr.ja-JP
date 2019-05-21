@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ボスニア ・ ヘルツェゴビナで使用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: f11b9f4b3cc34dd1523472f2781fde5fd78c5de2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business および Microsoft Teams の Office 365 サービスは、ボスニア・ヘルツェゴビナで利用できます。
+ms.openlocfilehash: c7326f72212965a5ebd628b3678c6d109969c4d9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919817"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283227"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>ボスニア・ヘルツェゴビナでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-ボスニア ・ ヘルツェゴビナで使用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+Skype for Business および Microsoft Teams の Office 365 サービスは、ボスニア・ヘルツェゴビナで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -44,7 +44,7 @@ ms.locfileid: "33919817"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

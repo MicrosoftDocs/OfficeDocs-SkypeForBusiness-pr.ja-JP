@@ -11,7 +11,7 @@ MS.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: mikedav
-description: オーディオ会議、電話システムのような機能や、通話プランは、ライセンスを割り当てる方法について説明します。
+description: 電話会議、電話システム、通話プランなどの機能にライセンスを割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 46966b7cad855ef6336b501564cde89dffd6b2b2
@@ -21,40 +21,40 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32198738"
 ---
-# <a name="assign-microsoft-teams-licenses"></a>マイクロソフトのチームのライセンスを割り当てる
+# <a name="assign-microsoft-teams-licenses"></a>Microsoft Teams ライセンスを割り当てる
 
-オーディオ会議、電話システム、および計画を呼び出すような機能をユーザーにライセンスを割り当てることができます。 この資料では、一括では個々 のユーザーに対してこれらのライセンスを追加する方法について説明します。 
+電話会議、電話システム、通話プランなどの機能については、ユーザーにライセンスを割り当てることができます。 この記事では、これらのライセンスを一括で追加する方法と個々のユーザー用に追加する方法について説明します。 
 
 > [!IMPORTANT]
-> 参照してください[マイクロソフト チームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)についてはどのようなライセンスを購入する必要があり、Office 365 によって、それらを購入する方法を計画、オーディオ会議、フリー ダイヤル番号、および社内外の電話番号を呼び出すこと、ユーザーが取得するためです。
+> 購入する必要があるライセンスと購入方法の詳細については、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。 Office 365 プランによっては、電話会議、無料電話番号、ビジネス以外の電話番号への通話が可能です。
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>電話システムと通話プラン: ライセンス割り当てのヒントとスクリプト
 
-ここでは、オーディオ会議、電話システム、および計画を呼び出してライセンスを割り当てる前に知っておく必要があります。
+電話会議、電話システム、通話プランのライセンスを割り当てる前に知っておくべきことを以下に示します。
 
-- **使用してオンプレミス ハイブリッド ユーザーに PSTN 接続しますか。** その場合は、のみ、電話システムのライセンスを割り当てる必要があります。 割り当てる必要がありますいない呼び出して計画します。
+- **ハイブリッドユーザー用にオンプレミスの PSTN 接続を使用している場合** その場合は、電話システムのライセンスを割り当てる必要があります。 通話プランを割り当てることはできません。
 
-- **ライセンスの割り当て後の待機時間**: Office 365 とマイクロソフトのチームとの間の遅延時間のために割り当てる計画を呼び出してライセンスを割り当てると、ユーザーには、最大で 24 時間をかかることができます。 24 時間後に計画を呼び出すことがユーザーに割り当てされていない、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
+- **ライセンスの割り当て後の待機時間**: Office 365 と Microsoft Teams の間の待機時間のため、ライセンスを割り当てた後にユーザーが通話プランを割り当てられるまでに最大24時間かかることがあります。 24時間後にユーザーに通話プランが割り当てられていない場合は、「一般[法人向け製品サポートへのお問い合わせ-管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」を参照してください。
 
 - **エラー メッセージ**: 正確な数のライセンスを購入していないとエラー メッセージが表示されます。追加の通話プランのライセンスを購入する必要がある場合は、[ **追加購入**] を選びます。
 
 - **次の手順**: ユーザーに通話プランのライセンスを割り当てたら、組織用に電話番号を取得し、それらの番号を組織内のユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](set-up-calling-plans.md)」をご覧ください。
 
-## <a name="assign-a-phone-system-and-calling-plan-license-to-one-user"></a>1 人のユーザーを呼び出すことを計画し、電話システムのライセンスを割り当てる
+## <a name="assign-a-phone-system-and-calling-plan-license-to-one-user"></a>電話システムと通話プランのライセンスを1人のユーザーに割り当てる
 
 手順は Office 365 ライセンスを割り当てる場合と同じです。 「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
 
-## <a name="assign-phone-system-and-calling-plan-licenses-in-bulk"></a>一括を呼び出すことを計画し、電話システムのライセンスを割り当てる
+## <a name="assign-phone-system-and-calling-plan-licenses-in-bulk"></a>電話システムと通話プランのライセンスを一括で割り当てる
 
-1. Microsoft オンライン サービス サインイン アシスタント RTW の IT プロフェッショナルのためにインストールします。 このモジュールがインストールされていない場合は、 [IT プロフェッショナル用 Microsoft Online Services サインイン アシスタント RTW](https://go.microsoft.com/fwlink/?LinkId=625123) を参照してダウンロードしてください。
+1. IT プロフェッショナル向け Microsoft Online Service サインインアシスタントプロフェッショナル用 RTWHTTP://GO.MICROSOFT.COM/FWLINK/?LINKID=625123 をインストールします。 このモジュールがインストールされていない場合は、 [IT プロフェッショナル用 Microsoft Online Services サインイン アシスタント RTW](https://go.microsoft.com/fwlink/?LinkId=625123) を参照してダウンロードしてください。
 
-2. Windows Azure Active Directory のモジュールをインストールします。 このモジュールがインストールされていない場合は、 ダウンロードの手順とコマンドレットの構文については、 [Windows PowerShell を使用して AD を Azure の管理](https://go.microsoft.com/fwlink/p/?LinkId=320628)を参照してください。
+2. Windows Azure Active Directory モジュールをインストールします。 このモジュールがインストールされていない場合は、 ダウンロード手順とコマンドレットの構文については、「 [Windows PowerShell を使用した AZURE AD の管理](https://go.microsoft.com/fwlink/p/?LinkId=320628)」を参照してください。
 
 3. モジュールをインストールしたら、Windows PowerShell のコマンド プロンプトと次の構文を使って、ライセンスをユーザーに割り当てます。
 
 この例では、 Enterprise E3 ライセンス と、 電話システム および 国内通話プラン ライセンスを割り当てています。
 
-斜体が (を参照してください、[電話システムおよび製品名の計画を呼び出すまたは Sku のスクリプト作成に使用](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting)することも、例の後) では、ライセンスの名前、またはスクリプト内で製品名が一覧表示されます。
+スクリプトに含まれているライセンス名または製品名が斜体で表示されます (「[電話システムと通話プランの製品名、または](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting)、例の後にスクリプトで使用される sku を参照してください)。
 
 ```
 #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
@@ -99,33 +99,33 @@ for each ($user in $users)
 | エンタープライズ E3 | ENTERPRISEPACK | 
 | エンタープライズ E1 | STANDARDPACK | 
 | 電話システム | MCOEV |
-| 国内 & の国際通話プラン | MCOPSTN2 |
-| 国内の呼び出し (u. s./PR/CA で、eu 加盟国のユーザーまたは 1 か月あたりの 1200 分のユーザーまたは 1 か月あたり 3000 分) の計画 | MCOPSTN1 |
-| 国内の呼び出し (120 分単位/月単位のユーザーのそれぞれの国) の計画 </br>*注: この計画では米国で*。 | MCOPSTN5 |
-| 国内の呼び出し (240 分単位/月単位のユーザーのそれぞれの国) の計画 </br>*注: この計画では米国で*。 | MCOPSTN6 |
+| 国内 & 国際通話プラン | MCOPSTN2 |
+| 国内通話プラン (米国/PR/月額プランの場合はユーザーあたり、1ヶ月あたり3000分、EU 諸国の場合はユーザー/月あたり1200分) | MCOPSTN1 |
+| 国内通話プラン (各国のユーザー/月あたり120分) </br>*注: このプランはご利用いただけません*。 | MCOPSTN5 |
+| 国内通話プラン (各国のユーザー/月あたり240分) </br>*注: このプランはご利用いただけません*。 | MCOPSTN6 |
 | コミュニケーション クレジット | MCOPSTNPP | 
 
-## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>オーディオ会議: ヒントとライセンスの割り当てのためのスクリプト
+## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>電話会議: ライセンスを割り当てるためのヒントとスクリプト
 
-ここでは、オーディオ会議のライセンスを割り当てる前に知っておく必要があります。
+電話会議ライセンスを割り当てる前に知っておく必要があることを以下に示します。
 
 - **サードパーティの電話会議プロバイダー**: サードパーティの電話会議プロバイダーを使用するように他のユーザーによって既に設定されている場合に、 電話会議ライセンスを割り当てると、電話会議プロバイダーとして Microsoft を使用するように変更されます。 この設定を変更して、サードパーティ プロバイダーに戻すことができます。
 
-- **次の手順**: オーディオ会議のライセンスを割り当てると、する必要があります、オーディオ会議プロバイダーを割り当てます。 [オーディオ会議プロバイダーとしてのマイクロソフトの割り当て](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)を参照してください。
+- **次の手順**: 電話会議ライセンスを割り当てると、電話会議プロバイダーを割り当てる必要があります。 「 [Microsoft を電話会議プロバイダーとして割り当てる](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。
 
-## <a name="assign-an-audio-conferencing-license-to-one-user"></a>オーディオ会議のライセンスを 1 つのユーザーに割り当てる
+## <a name="assign-an-audio-conferencing-license-to-one-user"></a>電話会議ライセンスを1人のユーザーに割り当てる
 
 手順は Office 365 ライセンスを割り当てる場合と同じです。 「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
 
-## <a name="assign-audio-conferencing-licenses-in-bulk"></a>一括で電話会議のライセンスを割り当てる
+## <a name="assign-audio-conferencing-licenses-in-bulk"></a>電話会議ライセンスを一括で割り当てる
 
 1. [IT プロフェッショナル用 Microsoft Online Services サインイン アシスタント RTW](https://go.microsoft.com/fwlink/?LinkId=625123) をダウンロードしてインストールします。
 
-2. Windows Azure Active Directory モジュール をダウンロードしてインストールします。 ダウンロードの手順とコマンドレットの構文については、 [Windows PowerShell を使用して AD を Azure の管理](https://go.microsoft.com/fwlink/p/?LinkId=320628)を参照してください。
+2. Windows Azure Active Directory モジュール をダウンロードしてインストールします。 ダウンロード手順とコマンドレットの構文については、「 [Windows PowerShell を使用した AZURE AD の管理](https://go.microsoft.com/fwlink/p/?LinkId=320628)」を参照してください。
 
 モジュールをインストールしたら、Windows PowerShell のコマンド プロンプトと次の構文を使って、ライセンスをユーザーに割り当てます。
 
-イタリック体では、ライセンスの名前、またはスクリプト内で製品名が一覧表示されます。 [オーディオ会議の製品名やスクリプト作成に使用する製品](#audio-conferencing-product-names-or-skus-used-for-scripting)のすべての製品名を参照してください。
+スクリプト内のライセンス名または製品名が斜体で表示されます。 すべての製品名の[スクリプトに使用されている電話会議の製品名または sku](#audio-conferencing-product-names-or-skus-used-for-scripting)を参照してください。
 
 この例では、Enterprise E3 ライセンスと電話会議ライセンスを割り当てています。
 
@@ -163,12 +163,12 @@ foreach ($user in $users)
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
     }
 ```
-## <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>オーディオ会議の製品名または SKU のスクリプト作成に使用
+## <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>スクリプトで使用される電話会議の製品名または SKU
 
 | 製品名 | SKU 部品名 |
 |--------------|---------------|
-| オーディオ会議 (サブスクリプション) | MCOMEETADV | 
-| オーディオ会議を支払うあたり 1 分 (従量)</br>*注: 通信のクレジットを設定し、有効にする必要があります*。 | MCOMEETACPEA |
+| 電話会議 (サブスクリプション) | MCOMEETADV | 
+| 電話会議の1分あたりの料金 (プリペイド)</br>*注: 通信クレジットを設定して有効にする必要があり*ます。 | MCOMEETACPEA |
 | エンタープライズ E1 | STANDARDPACK | 
 | エンタープライズ E3 | ENTERPRISEPACK |
 | Enterprise E5 (電話会議なし) |  ENTERPRISEPREMIUM_NOPSTNCONF |
@@ -176,17 +176,17 @@ foreach ($user in $users)
 
 ##  <a name="communications-credits"></a>コミュニケーション クレジット
 
-ここでは、通信のクレジットのライセンスを割り当てる前に知っておく必要があります。
+通信クレジットのライセンスを割り当てる前に知っておくべきことを以下に示します。
 
-- **E5 のエンタープライズのお客様**: ユーザーがエンタープライズ E5 のライセンスを割り当てられている場合でもをお勧めするユーザーを割り当てる通信のクレジットのライセンスです。
+- **Enterprise e5 のお客様**: ユーザーに enterprise e5 ライセンスが割り当てられている場合でも、通信クレジットのライセンスを割り当てることをお勧めします。
 
 - **次のステップ**: これらのライセンスを割り当てたら、組織用に電話番号を取得し、それらの番号を組織内のユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](set-up-calling-plans.md)」をご覧ください。
 
-## <a name="assign-a-communications-credits-license-to-one-user"></a>通信のクレジットのライセンスを 1 つのユーザーに割り当てる
+## <a name="assign-a-communications-credits-license-to-one-user"></a>1人のユーザーに通信クレジットのライセンスを割り当てる
 
 手順は Office 365 ライセンスを割り当てる場合と同じです。 「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
 
-## <a name="assign-communications-credits-licenses-in-bulk"></a>大量の通信のクレジットのライセンスを割り当てる
+## <a name="assign-communications-credits-licenses-in-bulk"></a>通信クレジットのライセンスを一括で割り当てる
 
 電話会議ライセンスを割り当てるサンプル スクリプトを確認します。 その情報を、 通信クレジットのライセンスを割り当てるための情報で更新します。
 

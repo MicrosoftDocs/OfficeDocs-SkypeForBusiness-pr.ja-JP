@@ -8,7 +8,7 @@ ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
 search.appverid: MET150
-description: 直接ルーティングのための場所ベースのルーティングを有効にする方法を説明します。
+description: ダイレクトルーティングで位置情報に基づくルーティングを有効にする方法について説明します。
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
@@ -27,19 +27,19 @@ ms.locfileid: "32245255"
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
-この資料の手順を実行する前に、 [Plan Location-Based を直接ルーティングのルーティング](location-based-routing-plan.md)を参照し、[場所ベースのルーティング用のネットワーク設定の構成](location-based-routing-configure-network-settings.md)手順を完了したことを確認してください。
+この記事の手順を実行する前に、「位置[情報](location-based-routing-plan.md)に基づくルーティングのための[ネットワーク設定を構成](location-based-routing-configure-network-settings.md)する」の手順を参照していることを確認してください。
 
-この資料では、直接ルーティングするための場所ベースのルーティングを有効にする方法について説明します。 電話システムの直接のルーティングを展開し、ネットワーク領域、サイト、およびサブネットを設定すると、場所ベースのルーティングを有効にする準備ができています。 この資料の手順を完了するには、PowerShell コマンドレットをある程度必要があります。 詳細については、[チームの PowerShell の概要](teams-powershell-overview.md)を参照してください。
+この記事では、ダイレクトルーティングで位置情報に基づくルーティングを有効にする方法について説明します。 電話システムのダイレクトルーティングを展開し、ネットワークのリージョン、サイト、サブネットをセットアップしたら、位置ベースのルーティングを有効にすることができます。 この記事の手順を実行するには、PowerShell コマンドレットについて理解している必要があります。 詳細については、「 [Teams PowerShell の概要](teams-powershell-overview.md)」を参照してください。
 
- 次の場所ベースのルーティングを有効にする必要があります。
+ 次の目的で、位置情報に基づくルーティングを有効にする必要があります。
 - ユーザー
-- ネットワーク サイト
-- ゲートウェイの構成
-- ポリシーを呼び出す
+- ネットワークサイト
+- ゲートウェイ構成
+- 通話ポリシー
 
-## <a name="enable-location-based-routing-for-users"></a>ユーザーの場所ベースのルーティングを有効にします。
+## <a name="enable-location-based-routing-for-users"></a>ユーザーの位置情報に基づくルーティングを有効にする
 
-1. [セット CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)コマンドレットを使用すると、PSTN の使用法を設定できます。 複数の使用状況を毎回使用をカンマで区切ります。
+1. PSTN の使用状況を設定するには、 [CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)コマンドレットを使用します。 複数の使用の場合は、それぞれの使用をコンマで区切ります。
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -48,81 +48,81 @@ ms.locfileid: "32245255"
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. ユーザーを関連付ける適切な PSTN 使用法の音声ルーティング ポリシーを作成するのにには、[新規 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps)コマンドレットを使用します。
+2. ボイスルーティングポリシーを作成するには、 [CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、ユーザーに適切な PSTN 使用法を関連付けます。
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
-    音声ルーティング ポリシーに PSTN 使用法を割り当てると、次のいずれかの操作を行うことを確認します。
-    - サイトをローカルの PSTN ゲートウェイを使用してボイス ルートに関連付けられている PSTN 使用法を使用します。
-    - 場所ベースのルーティングの制限が不要の領域内にある PSTN ゲートウェイを使用してボイス ルートに関連付けられている PSTN 使用法を使用します。
+    ボイスルーティングポリシーに PSTN 使用状況を割り当てる場合は、次のいずれかを実行してください。
+    - PSTN ゲートウェイを使っているボイスルーティングに関連付けられた PSTN の使用状況をサイトに対して使用する
+    - 場所に基づくルーティングの制限が不要な地域内の PSTN ゲートウェイを使用するボイスルーティングに関連付けられた PSTN の使用状況を使用します。
 
-    この例は、2 つの新しい音声ルーティング ポリシーを作成し、PSTN の使用法に割り当てることです。 
+    この例では、2つの新しいボイスルーティングポリシーを作成し、PSTN の使用を割り当てます。 
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Description "Delhi voice routing policy" -OnlinePstnUsages "Long Distance" 
     New-CsOnlineVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Description " Hyderabad voice routing policy" -OnlinePstnUsages "Long Distance", "Local", "Internal" 
     ```
-    次の表は、次の使用例で定義されている音声ルーティング ポリシーを示します。 
+    次の表は、この例で定義されているボイスルーティングポリシーを示しています。 
     
-    ||音声ルーティング ポリシー 1|音声ルーティング ポリシー 2|
+    ||ボイスルーティングポリシー1|ボイスルーティングポリシー2|
     |---------|---------|---------|
-    |オンラインでのボイス ポリシー ID   |デリー オンライン音声ルーティング ポリシー   |Hyderabad のオンラインの音声ルーティング ポリシー    |
-    |オンラインの PSTN 使用法  |市外通話  |長い距離、ローカルな内部  |
+    |オンラインボイスポリシー ID   |ニューデリーオンラインボイスルーティングポリシー   |Hyderabad online ボイスルーティングポリシー    |
+    |オンライン PSTN の使用状況  |長距離  |長距離、ローカル、内部  |
 
-3. [許可 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、オンライン音声ルーティング ポリシーの適用するルーティングの制限を必要とするユーザーを関連付けます。
+3. [CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、ルーティングの制限が強制されるユーザーにオンラインボイスルーティングポリシーを関連付けます。
     ```
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-## <a name="enable-location-based-routing-for-network-sites"></a>ネットワークのサイトの場所ベースのルーティングを有効にします。
-1.  場所ベースのルーティングを有効にして、ルーティングの制限を適用する必要があるネットワーク サイトの音声ルーティング ポリシーを関連付けるには、[セット CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps)コマンドレットを使用します。
+## <a name="enable-location-based-routing-for-network-sites"></a>ネットワークサイトで位置情報に基づくルーティングを有効にする
+1.  [CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps)コマンドレットを使用して、位置情報に基づくルーティングを有効にし、ルーティングの制限を適用する必要があるネットワークサイトに音声ルーティングポリシーを関連付けます。
     ```
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
-    この例では、Delhi サイトおよび Hyderabad のサイトの場所ベースのルーティングを有効にします。 
+    この例では、ニューデリーサイトと Hyderabad サイトの位置情報に基づくルーティングを有効にします。 
 
     ```
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
-    次の表は、この例では、場所ベースのルーティングを有効になっているサイトを示します。
+    次の表は、この例で位置情報に基づくルーティングが有効になっているサイトを示しています。
 
-    ||サイト 1 (デリー)  |サイト 2 (Hyderabad)  |
+    ||サイト 1 (ニューデリー)  |サイト 2 (Hyderabad)  |
     |---------|---------|---------|
-|サイト名    |サイト 1 (デリー)    |サイト 2 (Hyderabad)   
-    |EnableLocationBasedRouting    |True    |True    |
-    |サブネット     |サブネット 1 (デリー)     |サブネット 2 (Hyderabad)     |
+|サイト名    |サイト 1 (ニューデリー)    |サイト 2 (Hyderabad)   
+    |Enablelocationrouting ルーティング    |True    |True    |
+    |サブネット     |Subnet 1 (ニューデリー)     |Subnet 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-gateways"></a>ゲートウェイの場所ベースのルーティングを有効にします。
-1. [新規 CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps)コマンドレットを使用すると、ゲートウェイ、またはネットワークの各サイトのゲートウェイの構成を作成できます。 
+## <a name="enable-location-based-routing-for-gateways"></a>ゲートウェイで位置情報に基づくルーティングを有効にする
+1. [新しい-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps)コマンドレットを使用して、各ゲートウェイまたはネットワークサイトのゲートウェイ構成を作成します。 
 
     ```
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
     ```
-    複数のゲートウェイ (たとえば、ゲートウェイまたは PBX) システムに関連付けられている場合は、場所ベースのルーティングの制限を有効にするには、各ゲートウェイを変更します。 
+    複数のゲートウェイがシステム (ゲートウェイや PBX など) に関連付けられている場合は、各ゲートウェイを変更して、位置情報に基づくルーティングの制限を有効にします。 
 
-    この例では、各ゲートウェイの 1 つのゲートウェイの構成を作成します。 
+    この例では、ゲートウェイごとにゲートウェイ構成を1つ作成します。 
     ```
     New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
-    詳細については、[直接ルーティングの構成](direct-routing-configure.md)を参照してください。
+    詳細については、「[直接ルーティングを構成する](direct-routing-configure.md)」を参照してください。
     
-2. [セット CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps)コマンドレットを使用して、ルーティングの制限を適用する必要がある、ゲートウェイの場所ベースのルーティングを有効にします。 
+2. [CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps)コマンドレットを使用して、ルーティングの制限を適用する必要があるゲートウェイの位置情報に基づくルーティングを有効にします。 
 
-    呼び出しをルーティングするゲートウェイに場所ベースのルーティングを有効にする PSTN ゲートウェイが PSTN への呼び出しをルーティングし、ゲートウェイが配置されているネットワーク サイトに関連付けることにします。
+    PSTN への通話をルーティングする PSTN ゲートウェイへの通話をルーティングするゲートウェイへの位置情報に基づくルーティングを有効にし、ゲートウェイが配置されているネットワークサイトを関連付けます。
 
     ```
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
-    この例では、デリーおよび Hyderabad のサイトでの PSTN ゲートウェイに関連付けられているゲートウェイごとに場所ベースのルーティングを有効にします。 
+    この例では、ニューデリーと Hyderabad サイトの PSTN ゲートウェイに関連付けられている各ゲートウェイの位置情報に基づくルーティングを有効にします。 
     ```
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
     ```
-    PSTN への呼び出しをルーティングしないゲートウェイの場所ベースのルーティングを有効にしません。 ただし、まだ、システムが配置されているネットワーク サイトへのゲートウェイを関連付ける必要があります。 これは、場所ベースのルーティングの制限は、このゲートウェイ経由で接続されているエンドポイントに到達する PSTN の呼び出しに適用する必要があるためにです。 この例では、場所ベースのルーティングは、デリーおよび Hyderabad のサイト内の PBX システムに関連付けられている各ゲートウェイを有効になっていません。
+    PSTN への通話をルーティングしないゲートウェイの位置情報に基づくルーティングを有効にしないでください。 ただし、その場合も、システムが配置されているネットワークサイトにゲートウェイを関連付ける必要があります。 これは、このゲートウェイ経由で接続されているエンドポイントに到達するために位置情報に基づくルーティング制限が適用されるためです。 この例では、Hyderabad サイトの PBX システムに関連付けられている各ゲートウェイで、位置情報に基づくルーティングが有効になっていません。
 
     ```
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
@@ -136,27 +136,27 @@ ms.locfileid: "32245255"
     GatewaySiteLbrEnabled: $false 
     ```
 
-    (PBX など) の PSTN への呼び出しをルーティングしないシステムに接続されているエンドポイントでは、場所ベースのルーティングが有効なチームのユーザーのエンドポイントとして、同様の制限があります。 これは、これらのユーザーが配置し、ユーザーの場所に関係なくチームのユーザーとの間の呼び出しを受信することを意味します。 したりすることがどのシステムと関連付けられているネットワーク サイト (たとえば、別の PBX に接続されているエンドポイント) PSTN ネットワークへの呼び出しをルーティングしないその他のシステムとの間の呼び出しを受信します。 着信、発信、転送、PSTN エンドポイントに関連する呼び出しの転送は、場所ベースのルーティングを制限するまで対象となります。 これらの呼び出しは、このようなシステムにローカルに定義されている PSTN ゲートウェイのみを使用してください。 
+    PSTN への通話をルーティングしないシステムに接続されたエンドポイント (たとえば、PBX など) には、位置情報に基づくルーティングが有効になっている Teams ユーザーのエンドポイントと同様の制限があります。 つまり、これらのユーザーは、ユーザーの場所に関係なく、Teams ユーザーとの間での通話の発信と受信を行うことができます。 また、システムが関連付けられているネットワークサイトに関係なく、PSTN ネットワーク (たとえば、別の PBX に接続されているエンドポイント) との間で通話を送受信することはできません。 PSTN エンドポイントを含むすべての着信通話、発信通話、通話転送、通話転送には、位置に基づくルーティング enforcements が適用されます。 これらの呼び出しでは、そのシステムにローカルとして定義されている PSTN ゲートウェイのみを使用する必要があります。 
 
-    次の表は、2 つの別のネットワークのサイトに 4 つのゲートウェイのゲートウェイの構成を示します。 PBX システムに接続されている 2 つの 2 つの PSTN ゲートウェイを接続します。 
+    次の表は、2つの異なるネットワークサイトでの4ゲートウェイのゲートウェイ構成を示しています。2つは PSTN ゲートウェイに接続され、2つは PBX システムに接続されています。 
 
     ||GatewaySiteLbrEnabled   |NetworkSiteID  |
     |---------|---------|---------|
-    |PstnGateway:Gateway 1 DEL-GW    |    True     |   サイト 1 (デリー)      |
-    |PstnGateway:Gateway 2 HYD の GW     |   True      |      サイト 2 (Hyderabad)   |
-    |DEL-PBX の PstnGateway:Gateway 3    |    False     |     サイト 1 (デリー)    |
-    |PstnGateway:Gateway 4 HYD の PBX    |    False     |    サイト 2 (Hyderabad)     |
+    |PstnGateway: ゲートウェイ1の DEL-GW    |    True     |   サイト 1 (ニューデリー)      |
+    |PstnGateway: ゲートウェイ 2 HYD     |   True      |      サイト 2 (Hyderabad)   |
+    |PstnGateway: ゲートウェイ 3 DEL-PBX    |    False     |     サイト 1 (ニューデリー)    |
+    |PstnGateway: ゲートウェイ 4 HYD-PBX    |    False     |    サイト 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-calling-policies"></a>ポリシーを呼び出すための場所ベースのルーティングを有効にします。
+## <a name="enable-location-based-routing-for-calling-policies"></a>通話ポリシーで位置情報に基づくルーティングを有効にする
 
-特定のユーザーの場所ベースのルーティングを適用するには、PTSN の有料電話を防ぐために、ユーザーの音声ポリシーを設定をバイパスします。 
+特定のユーザーに対して位置情報に基づくルーティングを適用するには、ユーザーの音声ポリシーを設定して、PTSN の有料のバイパスを防ぐようにします。 
 
-[許可 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps)コマンドレットを使用して、場所ベースの PSTN 電話使用しないようにすることでルーティングを有効にします。
+PSTN の有料電話のバイパスを防止することで、位置情報に基づくルーティングを有効にするには、 [Grant-Csteam/の Grant policy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps)コマンドレットを使用します。
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
-この例では、User1 に PSTN 有料のバイパス ポリシーを呼び出すことを防ぐことです。 
+この例では、PSTN の有料電話が User1 の通話ポリシーにバイパスされるのを防ぎます。 
 
 ```
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 

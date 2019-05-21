@@ -1,5 +1,5 @@
 ---
-title: " 患者アプリケーション、EHR の DSTU2 の統合インタ フェース"
+title: " 患者のアプリと EHR の統合 DSTU2 インターフェイス"
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: チーム患者の Microsoft アプリケーションの EHR の統合
+description: Microsoft Teams の患者向けアプリ EHR の統合
 ms.openlocfilehash: 85fd90fb338f8b19762dc9433fa1dc281f3cedff
 ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
@@ -24,276 +24,276 @@ ms.locfileid: "33643115"
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-設定するか、マイクロソフト チームの患者のアプリケーションで動作する、FHIR サーバーを再構成する、アプリケーションがアクセスする必要がどのようなデータを理解する必要があります。 FHIR サーバーは、以下のリソースのバンドルを使用して POST 要求をサポートする必要があります。
+Microsoft Teams の患者と連携するように FHIR サーバーを設定または再構成するには、アプリがアクセスする必要があるデータを把握する必要があります。 FHIR サーバーでは、次のリソースについて、バンドルを使った POST 要求をサポートしている必要があります。
 
-- [患者](#patient)
-- [観測](#observation)
+- [診療](#patient)
+- [観察](#observation)
 - [状態](#condition)
-- [発生します。](#encounter)
-- [Allergy 思いがけず](#allergyintolerance)
-- [カバレッジ](#coverage)
-- [薬注文](#medication-order)
+- [状況](#encounter)
+- [Allergy intolerance](#allergyintolerance)
+- [サポート](#coverage)
+- [投薬注文](#medication-order)
 - [場所](#location)
 
 > [!NOTE]
-> 患者のリソースは、唯一の必須のリソース (せず、アプリケーションがまったく読み込まれないです。 ただし、パートナーがマイクロソフト チームの患者のアプリケーションに最適なエンド ユーザー エクスペリエンスの下で提供されている仕様ごとの上記のすべてのリソースのサポートを実装することをお勧めします。
+> 患者リソースは唯一の必須リソースであり、アプリがまったく読み込まれません。 ただし、Microsoft Teams の患者アプリを使用して、最も優れたエンドユーザーエクスペリエンスを実現するために、以下に記載されている仕様ごとに、上記のすべてのリソースのサポートを実装することをお勧めします。
 
-複数のリソースの Microsoft チームの患者のアプリケーションからのクエリは、FHIR サーバーの URL に要求のバンドル (バッチ) を転記します。 サーバーでは、各要求を処理し、各要求に一致するリソースのバンドルを返します。 詳細と例についてを参照してください[https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction)。
+Microsoft Teams の患者アプリから複数のリソースに対するクエリは、FHIR サーバーの URL への要求のバンドル (バッチ) を投稿します。 サーバーは各要求を処理し、各要求によって一致したリソースのバンドルを返します。 詳細と例については[https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction)、「」を参照してください。
 
-次の FHIR のすべてのリソースを直接リソース参照によってアクセスできることがあります。
+以下のすべての FHIR リソースは、直接リソース参照によってアクセスできる必要があります。
 
-## <a name="conformance-minimum-required-field-set"></a>準拠の最低限必要なフィールドを設定
+## <a name="conformance-minimum-required-field-set"></a>準拠している必要な最小フィールドセット
 
- FHIR サーバーに事実の概要、機能の適合に関する声明を実装しなければなりません。 予測しています、DSTU2 の FHIR サーバーのパラメーターの下。
+ FHIR サーバーでは、その機能の事実上の概要を把握するために、準拠のステートメントを実装する必要があります。 DSTU2 FHIR サーバーでは、次のパラメーターが想定されています。
 
-1. 残りの部分
+1. 後
    1. Mode
-   2. 相互作用
-   3. リソース: の種類
-   4. [OAuth の Uri の拡張機能](http://hl7.org/fhir/extension-oauth-uris.html)のセキュリティ:
-2. FhirVersion の (コードが必要ですどちらのバージョンを複数のバージョンをサポートしていますをピボットする必要があることを理解しておきたいです。
+   2. 通信
+   3. リソース: 種類
+   4. セキュリティ: [OAuth uri 用の拡張子](http://hl7.org/fhir/extension-oauth-uris.html)
+2. FhirVersion (Microsoft のコードでは、複数のバージョンをサポートするために、どのバージョンをピボットする必要があるかを理解する必要があります)。
 
-参照してください[https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)他の詳細については、このフィールドを設定します。
+この[https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)フィールドセットのその他の詳細については、を参照してください。
 
-## <a name="patient"></a>患者
+## <a name="patient"></a>診療
 
-[Argonaut 患者プロファイル](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)のフィールドのサブセットである最低限の必須フィールドがあります。
+以下は、 [Argonaut の患者プロファイル](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)フィールドのサブセットである、最小の必須フィールドです。
 
-1. Name.Family
-2. Name.Given
-3. 性別
-4. [誕生日]
+1. 家族
+2. 名前。指定された
+3. 女性
+4. 地
 5. MRN (識別子)
 
-Argonaut のフィールドだけでなく、優れたユーザー エクスペリエンスの患者のアプリケーションも次のフィールドを読み取ります。
+優れたユーザーエクスペリエンスを実現するために、Argonaut フィールドに加えて、患者アプリも次のフィールドを読み取ります。
 
-1. Name.Use
-2. Name.Prefix
-3. (患者のリソースには、この参照は、次の例に示すように表示フィールドを含める必要があります) CareProvider
+1. 名前を指定します。
+2. 名前プレフィックス
+3. CareProvider (患者リソースのこの参照には、次の例に示す表示フィールドを含める必要があります)。
 
 * * *
 
-    _LT_fhir-server>/患者/<patient ・ id> を取得する要求。
+    要求: GET <fhir-server>/患者/<patient-id>
     
-    応答: {「リソースの種類」:「患者」、"id":"<patient-id>"です。
+    応答: {"resourceType": "患者"、"id": "<patient-id>"、。
       .
       .
-      [名]: [{を使用する]:「正式な」、「プレフィックス」: [「様」]「家族」: ["Chau"]"指定": ["も"]}]、識別子]: [{を使用する]:「正式な」、「タイプ」: {"コーディング": [{システム:"http://hl7.org/fhir/v2/0203"、"コード":"様"}]}、"値":"1234567"}]、"性別":「男性」、"生年月日":」1957-06-05"、"careProvider": [{0} を表示する]: [}]}
+      "name": [{"use": "オフィシャル", "prefix": ["Mr"], "family": ["Chau"], "指定した部分": ["Hugh"]}], "識別子": [{"use": [{"]" と入力 ": {" コード ":"http://hl7.org/fhir/v2/0203"、" "": "", "" ":" "", "" ":" "," "値": "" "," "" "" ":" "", "" "1957-06-05 1234567"," careProvider ": [{" display ":" Jane Doe "}],}
 
 * * *
 
-リソース検索は、/Patient/_search し、次のパラメーターで POST メソッドを使用します。
+リソース検索では、/Patient/_search と次のパラメーターで POST メソッドを使います。
 
 1. id
-2. ファミリ: を含む = (家族の名前を持つ値を含むすべての患者のための検索)。
-3. 指定された =\<substring>
-4. 名前 =\<substring>
-5. 生年月日 =(exact match)
-6. \_カウント (返される結果の最大数) <br> 応答は、検索結果として返されるレコードの合計数を含める必要があり、\_カウントが適用されます、PatientsApp によって返されるレコードの数を制限します。
+2. ファミリ: contains = (ファミリ名に値が含まれているすべての患者を検索します。)
+3. 指定 =\<substring>
+4. name =\<substring>
+5. 生年月日 = (完全一致)
+6. \_count (返される結果の最大数) <br> 応答には、検索結果として返されるレコードの合計数が含まれ\_ている必要があります。カウントは、返されるレコードの数を制限するために PatientsApp によって使用されます。
 7. 識別子 =\<mrn>
 
-目標は、するを検索およびフィルターを次のように患者のことです。
+目標は、次のようにして患者の検索とフィルター処理を行うことができるようにすることです。
 
-- ID: これは、FHIR のすべてのリソースがリソースの ID です。
-- MRN: これは、医療スタッフが知っている患者の実際の識別子です。 この MRN が FHIR で識別子のリソースの内部識別子の種類に基づいて理解します。
+- ID: これは、FHIR のすべてのリソースが持つリソース ID です。
+- MRN: 診療員が知っている患者の実際の識別子です。 この MRN は、FHIR の識別子リソース内の識別子の種類に基づいていることを理解しています。
 - 名前
-- [誕生日]
+- 地
 
-この呼び出しの次の使用例を参照してください。
+この通話の次の例を参照してください。
 
 * * *
 
-    要求: ポスト <fhir ・ server>/患者/_search 要求本文: 指定された hugh&family を = = chau
+    要求: POST <fhir-server>/患者/_search 要求本文: 指定 = hugh&family = chau
     
-    応答: {「リソースの種類」:「バンドル」、"id":"<bundle-id>"。
+    応答: {"resourceType": "バンドル"、"id": "<bundle-id>"。
       .
       .
-      [入力]: [{「リソース」: {「リソースの種類」:「患者」、"id":"<patient id>"、「名前」: [{「テキスト」:"も Chau、"「家族」: ["Chau"]「指定」: [「も」]}]、「性別」:「男性」、「生年月日」:」1957-06-05」}、[検索]: {「モード」:「一致」}}]}
+      "entry": [{"リソース": {"resourceType": "患者"、"id": "<patient-id>", "name": [{"text": "Hugh Chau", "family": ["": [""]}, "性別": "男性": "男性": "男性"、""? "" 検索 ": {" ":") "1957-06-05
 
 * * *
 
-参照してください[https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html)他の詳細については、このフィールドを設定します。
+この[https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html)フィールドセットのその他の詳細については、を参照してください。
 
-## <a name="observation"></a>観測
+## <a name="observation"></a>観察
 
-Argonaut バイタル ・ サインのプロファイルの一部は、最低限必要なフィールドがあります。
+以下は、必須の最小フィールドであり、Argonaut の重要な署名プロファイルのサブセットです。
 
- 1. 有効 (日付時刻または期間)
- 2. Code.Coding.Code
- 3. ValueQuantity.Value
+ 1. 発効 (日付と時刻)
+ 2. コードの記述
+ 3. Valu不定の値
 
-Argonaut のフィールドだけでなく、優れたユーザー エクスペリエンスの患者のアプリケーションも次のフィールドを読み取ります。
+優れたユーザーエクスペリエンスを実現するために、Argonaut フィールドに加えて、患者アプリも次のフィールドを読み取ります。
 
- 1. Code.Coding.Display
- 2. ValueQuantity.Unit
+ 1. コード。ディスプレイ
+ 2. Valuの単位
 
-コンポーネントの観測値を使用すると、各コンポーネントの観測と同じロジックが適用されます。
+コンポーネントの所見を使う場合は、各コンポーネントの観測に同じロジックが適用されます。
 
-リソース検索では、GET メソッドと、次のパラメーターを使用します。
+リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者の id\>
-2. 並べ替え: 説明 =\<ex フィールドです。 日付\>
+1. 患者 =\<患者 id\>
+2. sort: desc =\<フィールドの例 期日\>
 
-目標は、[VitalSigns.DSTU.saz] (観察しますか?)、患者の最新のバイタル ・ サインを取得できるようにすること。
+目標は、患者の最新のバイタル・サインを取得できるようにすることです (観測された VitalSigns)。
 
 * * *
 
-    要求: 観察/<fhir ・ server> を取得? 患者 = <patient-id>&_sort:desc = date&category = 重要な記号
+    要求: GET <fhir-server>/観測? 患者 = <patient-id>&_sort: desc = date&category = バイタル・サイン
     
-    応答: {「リソースの種類」:「バンドル」、"id":"<bundle id>"、「種類」:"searchset"、「合計」: 20、[入力]: [{「リソース」: {「リソースの種類」:「観察」、"id":"<resource id>"、「カテゴリ」: {「コーディング」: [{コード":「重要な記号」}]、}、「コード」: {」コーディング": [{システム:"http://loinc.org"、「コード」:「39156-5」、「表示」:「bmi」}]}、"effectiveDateTime":」2009-12-01"、"valueQuantity": {"値": 34.4、「出荷単位」:"kg/m 2」、「システム」:」http://unitsofmeasure.org」、「コード」:"kg/m 2」}}、}、。
+    応答: {"resourceType": "バンドル"、"id": "<bundle-id>"、"「"」と入力して、"、" 集計 "と入力します: [{" リソース ": {" リソース ": {" resourceType ":" <resource "、" id ":" id> "、" id ":" ": [{code": "", "category"コーディング ": [{" system ":"http://loinc.org"," コード ":" 39156-5 "," 表示 ":" bmi "}]," effectiveDateTime ":" 2009-12-01 "," valuvalu":" ":" 値 ": 34.4," unit ":"? "http://unitsofmeasure.org" "," "システム": "", "code": "?"
         .
         .
       ] }
 
 * * *
 
-参照してください[https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html)他の詳細については、このフィールドを設定します。
+この[https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html)フィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="condition"></a>状態
 
-[Argonaut 条件プロファイル](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)の一部である最低限の必須フィールドがあります。
+以下は、 [Argonaut 条件プロファイル](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)の一部である最小必須フィールドです。
 
-1. Code.Coding[0]。表示
+1. コード。 [0]。表示
 
-Argonaut のフィールドだけでなく、優れたユーザー エクスペリエンスの患者のアプリケーションも読み取れる次のフィールド。
+優れたユーザーエクスペリエンスを実現するために、Argonaut フィールドに加えて、患者アプリでは、次のフィールドも読み取ることができます。
 
-1. 記録されている日付
-2. 重大度レベル
+1. 記録された日付
+2. 程度
 
-リソース検索では、GET メソッドと、次のパラメーターを使用します。
+リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者の id>
-2. _count =\<max results>
+1. 患者 =\<患者 id>
+2. _ count =\<max results>
 
-この呼び出しの次の使用例を参照してください。
+この通話の次の例を参照してください。
 
 * * *
 
-    要求の場合: <fhir-server> または条件を取得しますか? 患者 = <patient id>&_count = 10
+    要求: GET <fhir-server>/Condition? 患者 = <patient-id>&_count = 10
     
-    応答: {「リソースの種類」:「バンドル」、"id":"<bundle id>"、「種類」:"searchset"、「合計」: 1 の場合、[入力]: [{「リソース」: {「リソースの種類」:「条件」、"id":"<resource id>"、「コード」: {「コーディング」: [{              システム:"http://snomed.info/sct"、「コード」:「386033004」、「表示」:「Neuropathy (nerve 破損)」}]}、"dateRecorded":] 2018-09-17"、「重要度」: {"コーディング": [{0}] system":"http://snomed.info/sct"、「コード」:「24484000」、「表示」:「重大」}]}}、}]}
+    応答: {"resourceType": "<bundle"、"id": "id>"、"type": "searchset"、"total": "searchset": "<resource": {"resourceType": [{"リソース": {"resourceType": "id": "-id>", "id": ""              "システム": "http://snomed.info/sct", "コード": "386033004", "表示": "", "Neuropathy": "syst", "dateRecorded": "2018-09-17", "深刻度": {"": [{]em ":http://snomed.info/sct" "," コード ":" 24484000 "," 表示 ":" 重大 "}"}},}]}
 
 * * *
 
-参照してください[https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html)他の詳細については、このフィールドを設定します。
+この[https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html)フィールドセットのその他の詳細については、を参照してください。
 
-## <a name="encounter"></a>発生します。
+## <a name="encounter"></a>状況
 
-これらは、米国の主要な発生プロファイル」必要があります"フィールドのサブセットである最低限の必須フィールドです。
+"US Core" というプロファイルのサブセットである、最低限必要なフィールドは次のとおりです。
 
 1. 状態
-2. [0] を入力します。[0] をコーディングします。表示
+2. [0] と入力します。コーディング [0]。表示
 
-さらに、フィールドから米国の主要な発生プロファイルの次のフィールドする必要があります「サポート」
+さらに、US Core の次のフィールドは、プロファイルの "サポートが必要" フィールドを示しています。
 
-1. Period.Start
-2. [0] の場所です。Location.Display
+1. 期間. 開始日
+2. 場所 [0]場所。表示
 
-リソース検索では、GET メソッドと、次のパラメーターを使用します。
+リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者の id>
-2. _sort:desc =\<ex フィールドです。 date>
-3. _count =\<max results>
+1. 患者 =\<患者 id>
+2. (並べ替え: desc =\<フィールドの例) date>
+3. _ count =\<max results>
 
-目標は、患者の最後の既知の場所を取得できるようにすること。 各遭遇は、場所のリソースを参照します。 参照では、保管場所の表示のフィールドを含むものとも。 この呼び出しの次の使用例を参照してください。
+目標は、患者の最後の既知の場所を取得できるようにすることです。 各検出は、位置情報リソースを参照します。 参照には、場所の表示フィールドも含まれます。 この通話の次の例を参照してください。
 * * *
 
-    要求: <fhir-server>/出会いを取得しますか? 患者 = <patient-id>&_sort:desc = date&_count = 1
+    要求: GET <fhir-server>/: 患者 = <patient-id>&_sort: desc = date&_count = 1
     
-    応答: {「リソースの種類」:「バンドル」、「タイプ」:"searchset"、「合計」: 1 の場合、[入力]: [{「リソース」: {"リソースの種類」:"発生"、"id":"<resource id>"、[識別子]: [{を使用する]:「正式な」、「値」:"<id>」}]、[状態:」が到着した」、「型」: [{「コーディング」: [{を表示する]: 予定}]、}]"患者"、: {参照:"患者と <patient-id>"}"期間"、: {スタート ボタン:"09/17/2018 午後 1:00:00"}、場所: [{             [場所]: {を表示する]:「クリニック-ENT}、}]}}]}
+    応答: {"resourceType": "バンドル", "種類": "searchset", "集計": "{" リソース ": {" resourceType ":" <resource "、" id ":" id> "、" id ": [{" use ":" "、" id ":" "値"<id>: "": "到着"、"種類": [{"display": "予定"}]、}]、"患者": {"参照": "<patient"、"id>"}、"本": {"start": "09/17/2018 1:00:00 PM"}、"場所": [{             "場所": {"display": "クリニック-ENT"},} "}}]}
 
 * * *
 
-参照してください[https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm)他の詳細については、このフィールドを設定します。
+この[https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm)フィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="allergyintolerance"></a>AllergyIntolerance
 
-Argonaut AllergyIntolerance プロファイルの一部は、最低限必要なフィールドがあります。
+以下は、Argonaut AllergyIntolerance profile のサブセットである最小必須フィールドです。
 
-1. Code.Text
-2. Code.Coding[0]。表示
+1. コード。テキスト
+2. コード。 [0]。表示
 3. 状態
 
-Argonaut のフィールドだけでなく、優れたユーザー エクスペリエンスの患者のアプリケーションも次のフィールドを読み取ります。
+優れたユーザーエクスペリエンスを実現するために、Argonaut フィールドに加えて、患者アプリも次のフィールドを読み取ります。
 
 1. RecordedDate
-2. Note.Text
-3. 反 [.]。Substance.Text
-4. 反 [.]。付きマニフェスト [.]。テキスト
-5. Text.Div
+2. 注テキスト
+3. 反力 [..]物質。テキスト
+4. 反力 [..]影響 [..]テキスト
+5. テキストの Div
 
-リソース検索では、GET メソッドと、次のパラメーターを使用します。
+リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者の id>
+1. 患者 = \<患者 id>
 
-この呼び出しの次の使用例を参照してください。
+この通話の次の例を参照してください。
 
 * * *
 
-    要求の場合: <fhir-server>/AllergyIntolerance を取得しますか? 患者 = <patient id>
+    要求: GET <fhir-server>/AllergyIntolerance? 患者 = <patient-id>
     
-    応答: {「リソースの種類」:「バンドル」、"id":"<bundle id>"、「種類」:"searchset"、「合計」: 1 の場合、[入力]: [{「リソース」: {「リソースの種類」:"AllergyIntolerance"、"id":"<resource id>"、"recordedDate":"2018-09-17T07:00:00.000Z」、「物質」: {"テキスト":「までナット」}、状態:"確認"、"反": [{"物質": {「テキスト」:「までナット allergenic は、Injectable の製品を抽出」}、"manifestati: [{「文字列」:「Anaphylactic 反」}]}]}}]}
+    応答: {"resourceType": "バンドル", "id": "id>"、"<bundle" のように入力します: "searchset", "total": "AllergyIntolerance": {"resourceType": "", "id": "<resource-id>", "recordedDate": "2018", ""0Z "," 物質 ": {" text ":" Cashew ナット "}," 状態 ":" 確認 "," 反応 ": [{" 物質 ": {" 物質 ":" "Injectable": "cashew ナット allergenic extract Product"}, "manifestation ": [{" text ":" Anaphylactic 反 "}]}"}} "}
 
 * * *
 
-参照してください[https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html)他の詳細については、このフィールドを設定します。
+この[https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html)フィールドセットのその他の詳細については、を参照してください。
 
-## <a name="medication-order"></a>薬注文
+## <a name="medication-order"></a>投薬注文
 
-Argonaut MedicationOrder プロファイルの一部は、最低限必要なフィールドがあります。
+以下は、Argonaut MedicationOrder profile のサブセットである最小必須フィールドです。
 
-1. DateWritten
-2. Prescriber.Display
-3. Medication.Display (場合の参照)
-4. Medication.Text (場合の概念)
+1. 記録された日付
+2. Prescriber
+3. 投薬 (参照の場合)
+4. 投薬 (概念の場合)
 
-Argonaut のフィールドだけでなく、優れたユーザー エクスペリエンスの患者のアプリケーションも読み取れる次のフィールド。
+優れたユーザーエクスペリエンスを実現するために、Argonaut フィールドに加えて、患者アプリでは、次のフィールドも読み取ることができます。
 
 1. DateEnded
-2. DosageInstruction.Text
-3. Text.Div
+2. DosageInstruction。
+3. テキストの Div
 
-リソース検索では、GET メソッドと、次のパラメーターを使用します。
+リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者の id>
-2. _count =\<max results>
+1. 患者 =\<患者 id>
+2. _ count =\<max results>
 
-この呼び出しの次の使用例を参照してください。
+この通話の次の例を参照してください。
 
 * * *
 
-    要求の場合: <fhir-server>/MedicationOrder を取得しますか? 患者 = <patient id>&_count = 10
+    要求: GET <fhir-server>/MedicationOrder? 患者 = <patient-id>&_count = 10
     
-    応答: {「リソースの種類」:「バンドル」、"id":"<bundle id>"、「種類」:"searchset"、「合計」: 1 の場合、[入力]: [{「リソース」: {「リソースの種類」:"MedicationOrder"、"id":"<resource id>"、"dateWritten":「2018-09-17」、"・ メディア ・cationCodeableConcept": {「テキスト」:「Lisinopril 20 MG 口頭タブレット」}「prescriber」、: {を表示する]: [}、"dosageInstruction": [{「テキスト」:"1 日"}]}}]}
+    応答: {"resourceType": "<bundle"、"id": "id>"、"type": "searchset"、"total": "searchset"、"total": "MedicationOrder": ""、"id": ""、"id": "<resource-id>" 2018-09-17, "medi"cationCodeableConcept ": {" text ":" Lisinopril 20 MG 口頭タブレット "}," prescriber ": {" display ":" Jane Doe "}," dosageInstruction ": [{" テキスト ":" "{" テキスト "
 
 * * *  
 
-参照してください[https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html)他の詳細については、このフィールドを設定します。
+この[https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html)フィールドセットのその他の詳細については、を参照してください。
 
-## <a name="coverage"></a>カバレッジ
+## <a name="coverage"></a>サポート
 
-Argonaut または米国のコアのいずれかのプロファイルの対象になっていない、最低限必要なフィールドがあります。
+以下は、US Core または Argonaut のプロファイルでカバーされていない最低限の必須フィールドです。
 
-1. Payor
+1. 給料または
 
-リソース検索では、GET メソッドと、次のパラメーターを使用します。
+リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者の id>
+1. 患者 =\<患者 id>
 
-この呼び出しの次の使用例を参照してください。
+この通話の次の例を参照してください。
 
 * * *
 
-    要求の場合: <fhir-server>/対応範囲を取得しますか? 患者 = <patient id>
+    要求: GET <fhir-server>/カバレージ? 患者 = <patient-id>
     
-    応答: {「リソースの種類」:「バンドル」、「タイプ」:"searchset"、「合計」: 1 の場合、[入力]: [{「リソース」: {"リソースの種類":"補充"、"id":"<resource id>"、「計画」:「いいえ主保険」、「サブスクライバー」: {参照:"患者/<patient id>"}}}]}
+    応答: {"resourceType": "このバンドル"、"種類": "searchset"、"集計": [{"リソース": {"リソース": {"resourceType": "id>"、"id": "<resource"、"id": "" "、" id ":" ""<patient-id>" } } } ] }
 
 * * *
 
-参照してください[https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html)他の詳細については、このフィールドを設定します。
+この[https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html)フィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="location"></a>場所
 
-このリソースは、[発生する](#encounter)リソースの参照としてのみ使用されています。
+このリソースは、リソースの参照としてのみ[](#encounter)使用されます。
 
-参照してください[https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html)他の詳細については、このフィールドを設定します。
+この[https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html)フィールドセットのその他の詳細については、を参照してください。

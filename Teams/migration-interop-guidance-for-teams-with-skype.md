@@ -27,7 +27,7 @@ ms.locfileid: "33902742"
 > [!Tip] 
 > [共存および相互運用性の詳細については、こちらのセッション](https://aka.ms/teams-upgrade-coexistence-interop)をご覧ください。
 
-Skype for Business を使用する組織が Teams を導入するとき、管理者は TeamsUpgradePolicy のプロパティである共存 "モード" の概念を使用して、組織のユーザー エクスペリエンスを管理することができます。 モードを使用すると、管理者は Skype for Business から Teams への切り替えを管理するときに、相互運用と移行を管理することができます。  ユーザーのモードでは、クライアントで受信したチャットと呼び出し土地にどのようなサービス (チームやビジネス用の Skype) の新しい会議のスケジュールを決定します。 モードは今後、使用可能な機能に関して Teams クライアントの動作を定義するためにも使用されるようになります。 
+Skype for Business を使用する組織が Teams を導入するとき、管理者は TeamsUpgradePolicy のプロパティである共存 "モード" の概念を使用して、組織のユーザー エクスペリエンスを管理することができます。 モードを使用すると、管理者は Skype for Business から Teams への切り替えを管理するときに、相互運用と移行を管理することができます。  ユーザのモードによって、どのクライアントがどのような通話を受け、どのサービス (Teams または Skype for Business) の新しい会議がスケジュールされるかが決まります。 モードは今後、使用可能な機能に関して Teams クライアントの動作を定義するためにも使用されるようになります。 
 
 
 ## <a name="fundamental-concepts"></a>基礎概念
@@ -47,13 +47,13 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 
 6.  アップグレードと相互運用の動作は、後で説明するユーザーの共存モードに基づいて決定されます。 モードは、TeamsUpgradePolicy によって管理されます。 TeamsInteropPolicy は優先されなくなり、granting mode=Legacy の付与も許可されなくなりました。 
 
-7.  TeamsOnly モードにユーザーをアップグレードすると、すべての着信のチャットや通話がから送信されたクライアントに関係なく、ユーザーのチームのクライアントで着陸が常にいるようにします。 また、アップグレードされたユーザーは新しい会議を Teams でスケジュールするようになります。 TeamsOnly モードにするには、ユーザーが Skype for Business でオンラインに所属している必要があります。 これは、Teams ユーザーの確実な相互運用、フェデレーション、完全な管理のために必要です。ユーザーを TeamsOnly にアップグレードするには、次の操作を実行します。
+7.  ユーザーを TeamsOnly モードにアップグレードすると、送信元のクライアントの種類に関係なく、すべての着信チャットと通話が常にユーザーのチームクライアントに表示されます。 また、アップグレードされたユーザーは新しい会議を Teams でスケジュールするようになります。 TeamsOnly モードにするには、ユーザーが Skype for Business でオンラインに所属している必要があります。 これは、Teams ユーザーの確実な相互運用、フェデレーション、完全な管理のために必要です。ユーザーを TeamsOnly にアップグレードするには、次の操作を実行します。
     - ユーザーが Skype for Business Online に所属している (または Skype アカウントを所有したことがない) 場合、PowerShell で "UpgradeToTeams" を使用して、Mode=TeamsOnly で TeamsUpgradePolicy をそのユーザーに付与します。または、Teams 管理センターを使用して TeamsOnly モードを選択します。
-    - ユーザーがオンプレミスに所属している場合、オンプレミスの管理ツールから `Move-CsUser` を使用して、まずそのユーザーを Skype for Business Online に移動します。  Skype for Business Server 2019 または CU8 for Skype for Business Server 2015 をお持ちの場合、`Move-CsUser` で `-MoveToTeams` スイッチを指定して、オンラインへの移行の一環としてユーザーを直接 Teams に移動することができます。 このオプションは、チームにユーザーの会議を移行してもします。 `-MoveToTeams` が指定されていないか使用できない場合、`Move-CsUser` の完了後に PowerShell または Teams 管理センターを使用して、TeamsOnly モードをそのユーザーに割り当てます。 詳細については、「[ユーザーのオンプレミスとクラウド間の移動](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)」を参照してください。  会議の移行の詳細については、「[会議移行サービス (MMS) の使用](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
+    - ユーザーがオンプレミスに所属している場合、オンプレミスの管理ツールから `Move-CsUser` を使用して、まずそのユーザーを Skype for Business Online に移動します。  Skype for Business Server 2019 または CU8 for Skype for Business Server 2015 をお持ちの場合、`Move-CsUser` で `-MoveToTeams` スイッチを指定して、オンラインへの移行の一環としてユーザーを直接 Teams に移動することができます。 このオプションでは、ユーザーの会議も Teams に移行されます。 `-MoveToTeams` が指定されていないか使用できない場合、`Move-CsUser` の完了後に PowerShell または Teams 管理センターを使用して、TeamsOnly モードをそのユーザーに割り当てます。 詳細については、「[ユーザーのオンプレミスとクラウド間の移動](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)」を参照してください。  会議の移行の詳細については、「[会議移行サービス (MMS) の使用](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
 
 8.  ユーザーが Teams 電話システムを Teams で使用するには、TeamsOnly モードである (つまり、Skype for Business Online に所属しており、Teams にアップグレードされている) 必要があります。また、Microsoft 電話システムの[ダイレクト ルーティング](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (自分の SIP トランクと SBC で電話システムを使用するための機能) 向けに構成されているか、または Office 365 通話プランを利用している必要があります。   
 
-9.  (ダイヤルインまたはダイヤルアウトを PSTN 経由で)、オーディオ会議付きのチーム会議のスケジュール設定されて かどうかユーザーに属する Skype または Skype のオンライン ビジネスの設置型のビジネスに関係なく。 
+9.  電話会議 (PSTN 経由のダイヤルインまたはダイヤルアウト) でのチーム会議のスケジュールは、ユーザーが Skype for Business Online と Skype for Business のオンプレミスのどちらを使用しているかに関係なく利用できるようになりました。 
 
 
 ## <a name="coexistence-modes"></a>共存モード
@@ -65,7 +65,7 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 
 - *受信ルーティング*: 受信チャットと通話が、どのクライアント (Teams または Skype for Business) に届くのか。 
 - *プレゼンス公開*: 他のユーザーに表示されるユーザーのプレゼンスが、Teams または Skype for Business のいずれのアクティビティに基づいたものなのか。 
-- *会議のスケジュール設定*: 新しい会議をスケジュールしたり、適切なアドインが存在する Outlook でどのサービスを使用しますか? TeamsUpgradePolicy は会議への参加については制御しないことに注意してください。 ユーザーは常に、Skype for Business または Teams のいずれの会議であっても、*参加*することができます。
+- *会議のスケジュール*: 新しい会議のスケジュールを設定し、Outlook に適切なアドインが存在するかどうかを確認するために使用されるサービスはどれですか。 TeamsUpgradePolicy は会議への参加については制御しないことに注意してください。 ユーザーは常に、Skype for Business または Teams のいずれの会議であっても、*参加*することができます。
 - *クライアント エクスペリエンス*: Teams または Skype for Business で利用可能な機能はどれなのか。 ユーザーは通話やチャットを、Teams または Skype for Business のいずれで開始できるのか、または両方で開始できるのか。 チームとチャンネルのエクスペリエンスは使用可能なのか。  
 
 モードに基づくルーティングとプレゼンスの動作の詳細については、「[Skype for Business との共存](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence)」を参照してください。
@@ -82,10 +82,10 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 |モード|通話とチャット|会議のスケジュール<sup>1</sup>|チームとチャンネル|使用例|
 |---|---|---|---|---|
 |**TeamsOnly<sup>2</sup>**</br>*Skype for Business Online に所属していることが必要*|Teams|Teams|はい|アップグレード過程の最終的な状態。 シートが 500 未満の新しいテナントの既定値でもあります。|
-|アイランド|いずれか|いずれか|はい|既定の構成。 サイド バイ サイドの両方のクライアントを評価するために 1 人のユーザーを使用できます。 チャットと通話はいずれかのクライアントに届くので、ユーザーは両方のクライアントを常に起動しておく必要があります。|
-|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|あり|"会議優先"。 まだクラウドへの呼び出しを移動する準備がされていない場合、チームの会議の機能を利用するのには、設置型の組織を主にします。|
-|SfBWithTeamsCollab|Skype for Business|Skype for Business|あり|緊密に管理を必要とする複雑な組織の別の開始点です。|
-|SfBOnly|Skype for Business|Skype for Business|なし<sup>3</sup>|データ コントロールの周囲の厳格な要件を持つ企業のシナリオに特化します。 Teams は、他のユーザーがスケジュールした会議に参加する場合にのみ使用します。|
+|アイランド|いずれか|いずれか|はい|既定の構成。 1人のユーザーが両方のクライアントを並べて評価することを許可します。 チャットと通話はいずれかのクライアントに届くので、ユーザーは両方のクライアントを常に起動しておく必要があります。|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|あり|"会議優先"。 主に、オンプレミスの組織向けに、クラウドへの通話を移行する準備がまだできていない場合は、Teams の会議機能を活用できます。|
+|SfBWithTeamsCollab|Skype for Business|Skype for Business|あり|厳しく管理の制御が必要な複雑な組織のための代替の開始点です。|
+|SfBOnly|Skype for Business|Skype for Business|なし<sup>3</sup>|データコントロールに関する厳格な要件を持つ組織向けの特殊なシナリオ。 Teams は、他のユーザーがスケジュールした会議に参加する場合にのみ使用します。|
 ||||||
 
 </br>
@@ -95,7 +95,7 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 
 <sup>1</sup> 既存の (Teams または Skype for Business でスケジュールされた) 会議に参加できるかどうかは、モードによって制御されません。 既定では、ユーザーは常に招待されたすべての会議に参加できます。
 
-<sup>2</sup> TeamsOnly または SfbWithTeamsCollabAndMeetings のいずれかを個々 のユーザーに割り当てる場合、既定で、既存の Skype の将来のユーザーがスケジュールされている会議に変換されますチームの会議。 必要な場合したままのままにこのようなミーティングとしてする Skype のいずれかを指定するビジネス ・ ミーティング`-MigrateMeetingsToTeams $false`TeamsUpgradePolicy を付与する場合、またはチームの管理ポータルでチェック ボックスを選択解除します。   チームにビジネス用の Skype から会議に変換する機能ではないこと勤務テナント全体で TeamsUpgradePolicy を付与するときに注意してください。 
+<sup>2</sup>既定では、Teams sonly または SfbWithTeamsCollabAndMeetings を個々のユーザーに割り当てると、そのユーザーによって予定されている既存の Skype for business 会議が Teams 会議に変換されます。 必要に応じて、これらの会議を Skype for Business 会議として残し`-MigrateMeetingsToTeams $false`ておくには、TeamsUpgradePolicy を付与するか、Teams 管理ポータルのチェックボックスをオフにします。   Skype for Business から Teams への会議の変換機能は、テナント全体で TeamsUpgradePolicy を付与する場合は使用できません。 
 
 <sup>3</sup> Teams では現在、チームとチャンネル機能を無効にすることはできないため、今の段階では有効のままとなります。
 
@@ -149,17 +149,17 @@ TeamsUpgradePolicy は、フェデレーションされた受信チャットと�
 
 詳細については、「[Skype for Business と共存する](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence)」を参照してください。
 
-## <a name="the-teams-client-user-experience-when-using-sfb-modes"></a>チームのクライアント ユーザーが発生するデバイスのモードを使用する場合
-ユーザーが Skype for Business モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) のいずれかの場合、すべての受信チャットと通話はユーザーの Skype for Business クライアントにルーティングされます。 エンド ・ ユーザーの混乱を防止し、適切なルーティングを確保する、ユーザーは、Skype のビジネス モードのいずれかで、チームのクライアントでの通話やチャットの機能が無効になります。 同様に、チームでミーティングのスケジュール設定は SfBOnly または SfBWithTeamsCollab モードでは、ユーザーがいる場合は明示的に無効になってし、SfBWithTeamsCollabAndMeetings モードでは、ユーザーとを明示的に有効にします。 自動的に無効にする機能チャット、機能を呼び出すことと会議のモードに基づいてスケジュール設定を有効または無効に一般的に使用できます。 この新機能の詳細については、「[Teams のクライアント エクスペリエンスおよび共存モードへの準拠](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)」を参照してください。
+## <a name="the-teams-client-user-experience-when-using-sfb-modes"></a>SfB モードを使用している場合の Teams クライアントのユーザーエクスペリエンス
+ユーザーが Skype for Business モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) のいずれかの場合、すべての受信チャットと通話はユーザーの Skype for Business クライアントにルーティングされます。 ユーザーが Skype for Business モードのいずれかを使用している場合、エンドユーザーの混乱を回避して、適切なルーティング、チームクライアントの通話、チャット機能を無効にすることができます。 同様に、Teams での会議のスケジュール設定は、ユーザーが SfBOnly または Sfbwithteams・ SfBWithTeamsCollabAndMeetings モードになっているときに明示的に無効にし、ユーザーがモードにあるときに明示的に有効にします。 チャットと通話機能を自動的に無効にする機能、およびモードに基づいて会議のスケジュールを有効/無効にする機能が、通常は利用できるようになりました。 この新機能の詳細については、「[Teams のクライアント エクスペリエンスおよび共存モードへの準拠](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)」を参照してください。
 
 > [!Note] 
-> - 開始前にチームとチャネルの自動強制、SfbOnly と SfBWithTeamsCollab モード動作は同じにします。
+> - チームとチャネルの自動実施が行われる前に、SfbOnly と Sfbwithteams の各モードは同じように動作します。
 
 
 
 ## <a name="teamsinteroppolicy-and-legacy-mode-has-been-retired"></a>TeamsInteropPolicy と Legacy モードの廃止 
 
-TeamsInteropPolicy は TeamsUpgradePolicy に置き換えられました。 以前 TeamsInteropPolicy を優先していたすべてのコンポーネントが、代わりに TeamsUpgradePolicy を優先するように更新されました。 Microsoft は以前、TeamsInteropPolicy から TeamsUpgradePolicy への移行を促進するため、TeamsUpgradePolicy に "Legacy" モードを導入しました。 Legacy モードでは、TeamsUpgradePolicy を理解していたルーティング コンポーネントは TeamsInteropPolicy に戻されました。 ルーティングは現在 TeamsUpgradePolicy を完全にサポートしています。 レガシー ・ モードはサポートされていませんし、レガシー ・ モードを許可することは不要になった。
+TeamsInteropPolicy は TeamsUpgradePolicy に置き換えられました。 以前 TeamsInteropPolicy を優先していたすべてのコンポーネントが、代わりに TeamsUpgradePolicy を優先するように更新されました。 Microsoft は以前、TeamsInteropPolicy から TeamsUpgradePolicy への移行を促進するため、TeamsUpgradePolicy に "Legacy" モードを導入しました。 Legacy モードでは、TeamsUpgradePolicy を理解していたルーティング コンポーネントは TeamsInteropPolicy に戻されました。 ルーティングは現在 TeamsUpgradePolicy を完全にサポートしています。 以前のモードはサポートされなくなりました。従来のモードを許可することはできなくなりました。
 
 
 ## <a name="detailed-mode-descriptions"></a>モードの詳細な説明
@@ -168,7 +168,7 @@ TeamsInteropPolicy は TeamsUpgradePolicy に置き換えられました。 以�
 
 |Mode|解説|
 |---|---|
-|**アイランド**</br>(既定)|ユーザーは Skype for Business と Teams の両方を並べて実行します。 このユーザーは、</br><ul><li>チャットを始めることができ、VoIP が企業やチームのクライアントのいずれかの Skype の呼び出しです。 オンプレミスの Skype for Business に所属しているユーザーは、受信者のモードに関わらず、Teams から他の Skype for Business ユーザーに対して連絡することはできません。<li>ビジネス用の Skype のビジネス クライアント用の Skype の他のユーザーによるチャットの & は VoIP 呼び出しを受信します。<li>チャットを受け取る & VoIP は、*同じテナント*内にある場合、チームのクライアントで別のユーザーで開始されるチームを呼び出します。<li>チャットを受け取る & VoIP を呼び出す別のユーザーで開始されたチーム、Skype のビジネス クライアントの*連合のテナント*内にある場合。 <li>次に示すような、PSTN 機能があります。<ul><li>ユーザーがオンプレミスの Skype for Business に所属している場合、PSTN 通話が開始され、Skype for Business で受信されます。<li>ユーザーがオンラインに所属している場合、ユーザーには電話システムがあり、その場合ユーザーは、<ul><li>ダイレクト ルーティング用に構成されていれば、Teams で PSTN 通話の開始と受信を行います。<li>MS 通話プランを利用しているか、Skype for Business クラウド コネクタ エディションまたは Skype for Business Server のオンプレミス展開 (ハイブリッド音声) 経由で PSTN ネットワークに接続している場合は、Skype for Business で PSTN 通話の開始と受信を行います。</ul></ul><li>Teams または Skype for Business で会議をスケジュールすることができます (また、既定では両方のプラグインが表示されます)。<li>Skype for Business または Teams のあらゆる会議に参加できます。会議はそれぞれのクライアントで開きます。</ul>|
+|**アイランド**</br>(既定)|ユーザーは Skype for Business と Teams の両方を並べて実行します。 このユーザーは、</br><ul><li>Skype for Business または Teams クライアントで、チャットや VoIP 通話を開始できます。 オンプレミスの Skype for Business に所属しているユーザーは、受信者のモードに関わらず、Teams から他の Skype for Business ユーザーに対して連絡することはできません。<li>Skype for business クライアントの別のユーザーが、Skype for Business で開始されたチャット & VoIP 通話を受信します。<li>チームクライアント内の別のユーザーが*同じテナント*にいる場合に、チームで開始されたチャット & VoIP 通話を受信します。<li>フェデレーションされた*テナント*にいる場合は、Skype for business クライアントの別のユーザーが開始したチャット & VoIP 通話を受信します。 <li>次に示すような、PSTN 機能があります。<ul><li>ユーザーがオンプレミスの Skype for Business に所属している場合、PSTN 通話が開始され、Skype for Business で受信されます。<li>ユーザーがオンラインに所属している場合、ユーザーには電話システムがあり、その場合ユーザーは、<ul><li>ダイレクト ルーティング用に構成されていれば、Teams で PSTN 通話の開始と受信を行います。<li>MS 通話プランを利用しているか、Skype for Business クラウド コネクタ エディションまたは Skype for Business Server のオンプレミス展開 (ハイブリッド音声) 経由で PSTN ネットワークに接続している場合は、Skype for Business で PSTN 通話の開始と受信を行います。</ul></ul><li>Teams または Skype for Business で会議をスケジュールすることができます (また、既定では両方のプラグインが表示されます)。<li>Skype for Business または Teams のあらゆる会議に参加できます。会議はそれぞれのクライアントで開きます。</ul>|
 |**SfBOnly**|ユーザーは Skype for Business のみを実行します。 このユーザーは、</br><ul><li>Skype for Business からのみチャットと通話を開始することができます。<li>オンプレミスの Skype for Business に所属している Teams ユーザーが開始したものでない限り、すべてのチャット/通話を開始元に関わらず自分の Skype for Business クライアントで受信します。*<li>Skype for Business の会議のみスケジュールできます。ただし、Skype for Business 会議と Teams 会議のいずれにも参加することができます。</br>\** オンプレミスのユーザーにアイランド モードを使用することは、他の SfBOnly モードのユーザーとの組み合わせにおいて、お勧めできません。 オンプレミスの Skype for Business に所属している Teams ユーザーが、SfBOnly ユーザーに対して通話またはチャットを開始した場合、SfBOnly ユーザーには届かず、届かなかったチャット/通話に関する電子メールが送られます。*|
 |**SfBWithTeamsCollab**|ユーザーは Skype for Business と Teams の両方を並べて実行します。 このユーザーは、</br><ul><li>SfBOnly モードのユーザーと同じ機能があります。<li>Teams をグループでの共同作業 (チャネル) に関してのみ利用できます。チャット/通話/会議のスケジュールは利用できません。</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|ユーザーは Skype for Business と Teams の両方を並べて実行します。 このユーザーは、<ul><li>SfBOnly モードのユーザーと同じチャットと通話機能があります。<li>Teams をグループでの共同作業 (チャネル (チャネル会話を含む)) に対してのみ利用できます。チャットと通話は利用できません。<li>Teams 会議のみスケジュールできます。ただし、Skype for Business 会議と Teams 会議のいずれにも参加することができます。</ul>|
@@ -192,4 +192,4 @@ TeamsInteropPolicy は TeamsUpgradePolicy に置き換えられました。 以�
 
 [Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-[会議の移行サービス (MMS) を使用してください。](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[会議移行サービス (MMS) を使用する](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

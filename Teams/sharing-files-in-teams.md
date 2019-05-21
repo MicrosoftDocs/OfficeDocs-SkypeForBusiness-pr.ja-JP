@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでファイルを共有
+title: Microsoft Teams でのファイル共有
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: マイクロソフトのチームでは、共有を制御するのに OneDrive と SharePoint の設定を使用します。
+description: Microsoft Teams では、OneDrive と SharePoint の設定を使用して共有を制御します。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -22,13 +22,13 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/09/2019
 ms.locfileid: "33835076"
 ---
-# <a name="sharing-files-in-microsoft-teams"></a>マイクロソフトのチームでファイルを共有
+# <a name="sharing-files-in-microsoft-teams"></a>Microsoft Teams でのファイル共有
 
 > [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-article.md)]
 
-ファイル共有チームの機能は、組織内の他のチームのユーザーとコンテンツを共有するユーザーを使用できます。 チームでの共有は、SharePoint と OneDrive もチームで共有を制御するものを設定する SharePoint および OneDrive のように構成された設定に基づいています。
+Teams のファイル共有機能を使用すると、ユーザーは組織内の他の Teams ユーザーとコンテンツを共有できます。 Teams での共有は、SharePoint と OneDrive で構成されている設定に基づいているため、SharePoint と OneDrive のどちらを設定しても、Teams での共有が制御されます。
 
-共有チームには、次の操作をユーザーことができます。
+Teams の共有では、ユーザーが次のことを実行できます。
 
 - OneDrive からファイルを共有します。
 
@@ -36,31 +36,31 @@ ms.locfileid: "33835076"
 
 - チーム間でファイルを共有します。
 
-- 最近アクセスされたファイルの一覧からファイルを共有する (通常、これらは、ファイル共有で、ユーザーが最も関心がある)。
+- 最近アクセスしたファイルの一覧からファイルを共有します (通常は、ユーザーが共有に最も関心を持っているファイルです)。
 
-- チーム内で常にファイルを開くファイルの名前をクリックしたとき。
+- ファイル名をクリックしてファイルを開くと、チーム内でそのままの状態になります。
 
-チームには、SharePoint の URL、ブラウザー ファイルを指す URL が短くなります。 チームでは、ファイル名だけを使用して、ファイルにリンクします。 さらに、**リンクをコピーする**可能性のあるユーザーのファイルにアクセスできるように他のユーザーに関するすべての混乱を排除する**リンクを取得する**オプションが変更されました。
+チームは長い SharePoint URL とファイルを参照するブラウザー URL を短縮します。 Teams では、ファイル名のみを使用してファイルにリンクします。 さらに、[リンクの**取得**] オプションが [**リンクのコピー** ] に変更され、他のユーザーがファイルにアクセスするときに発生する可能性のある混乱を回避することができます。
 
-## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>OneDrive と SharePoint の共有を構成します。
+## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>OneDrive と SharePoint の共有を構成する
 
-OneDrive と SharePoint でのファイルの共有についての詳細についてなどの共有を構成する方法と、共有のオンとオフを有効にするを参照してください。
+OneDrive と SharePoint でのファイルの共有について詳しくは、「共有を構成する方法」と「共有を有効または無効にする方法」をご覧ください。
 
-- [外部の共有の概要](https://docs.microsoft.com/sharepoint/external-sharing-overview)では、ユーザーが共有している相手と共有しているときの動作について説明します。
+- [外部共有の概要](https://docs.microsoft.com/sharepoint/external-sharing-overview)-ユーザーが共有している内容や他のユーザーが共有しているときの動作について説明します。
 
-- 説明[外部共有のオンとオフを有効にする](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)- グローバルと、SharePoint 管理者は、SharePoint と OneDrive の組織レベルの共有の設定を変更できます。
+- [外部共有を有効または無効](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)にする-グローバルと sharepoint の管理者が Sharepoint と OneDrive の組織レベルの共有設定を変更する方法について説明します。
 
-- [外部サイトの共有の変更](https://docs.microsoft.com/sharepoint/change-external-sharing-site): 説明グローバルし、SharePoint の管理者は、外部サイトのオンとオフを共有にすることができます。
+- [サイトの外部共有を変更](https://docs.microsoft.com/sharepoint/change-external-sharing-site)する–グローバルと SharePoint 管理者がサイトの外部共有を有効または無効にする方法について説明します。
 
-- [リンクの種類では、ユーザーが共有へのリンクを取得するときに既定値を変更する](https://docs.microsoft.com/sharepoint/change-default-sharing-link)より制限の厳しいことができるように、既定のリンクの種類を設定する方法を説明します。
+- [ユーザーが共有用のリンクを取得するときの既定のリンクの種類を変更](https://docs.microsoft.com/sharepoint/change-default-sharing-link)する-既定のリンクの種類を設定して、制限を高くする方法について説明します。
 
 ## <a name="more-information"></a>詳細情報
 
 - [Microsoft Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)
 
-- [SharePoint およびチーム: 相乗効果](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
+- [SharePoint とチーム: 共同](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)作業がより簡単になります。
 
-- [OneDrive ファイルとフォルダーを共有します。](https://support.office.com/article/Share-OneDrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business)
+- [OneDrive のファイルとフォルダーを共有する](https://support.office.com/article/Share-OneDrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business)
 
-- [SharePoint のファイルまたはフォルダーを共有します。](https://support.office.com/article/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)
+- [SharePoint のファイルまたはフォルダーを共有する](https://support.office.com/article/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)
 

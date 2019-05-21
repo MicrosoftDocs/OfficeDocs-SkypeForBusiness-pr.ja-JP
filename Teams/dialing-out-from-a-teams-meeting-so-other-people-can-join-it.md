@@ -12,51 +12,51 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Teams を使用して会議の開催者がダイヤルアウトするために何が必要か、およびその方法について説明します。
-ms.openlocfilehash: 37f44eb96a33307b12eef485e2fdabf985ab8562
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 必要なものと、会議の開催者が Teams を使って他のユーザーに発信する方法について説明します。
+ms.openlocfilehash: b02a395277762c4bbd731bd839fdedc395042502
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236091"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281894"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
-会議の開催者としては、チームのアプリケーションを使用して、電話を使用して同じ会議に参加する他の人にダイヤルできます。
+会議の開催者である場合は、Teams アプリを使ってダイヤルアウトすることで、他のユーザーが自分の電話を使って同じ会議に参加できるようにすることができます。
 
-ユーザーにダイヤルアウトするときに設定するように、すべての電話番号が (国/地域番号を E.164 形式を含む) を使用してをお勧めします。
+他のユーザーにダイヤルアウトする場合は、完全な電話番号 (国/地域コード-164 形式を含む) を使用することをお勧めします。
   
-  注意してください。
+  次の点にご注意ください。
 
-- チームを使用してミーティングに参加する場合にのみダイヤルアウトすることができます。
-- 会議の開催者が有効になってオーディオ会議。
+- 会議に参加している場合のみ、チームを使ってダイヤルアウトできます。
+- 会議の開催者として、電話会議が有効になっています。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-操作するダイヤルを取得する方法を以下に示します。
+ダイヤルアウト機能を利用するには、次の手順を実行します。
 
- **手順 1:** ミーティングで使用して、**追加**![人 [追加] ボタン](media/add-people-button.png)電話番号にダイアル アウトするにはオプションです。
- **手順 2:****招待または番号をダイヤル**] ボックスで国/地域コードを含む、すべての電話番号を入力します。
+ **手順 1:** 会議で、[ユーザーの**** ![追加] ボタン](media/add-people-button.png)を使用して、電話番号にダイヤルアウトします。
+ **手順 2:**[ユーザーの招待] または [電話**番号をダイヤルする**] ボックスに、国/地域コードも含めて、すべての電話番号を入力します。
   
-![招待または、ダイヤルする番号] ボックスに、](media/invite-someone-box.png)
+![[ユーザーの招待] または [電話番号のダイヤル] ボックス](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>サポートされている国と地域
 
-ダイヤルアウトは一部の国と地域でのみ使用可能です。 完全なリストは、[オーディオ会議や予定を呼び出すための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。
+ダイヤルアウトは一部の国と地域でのみ使用可能です。 詳細な一覧については、「[電話会議と通話プランの国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)情報」を参照してください。
 
-## <a name="allow-users-to-dial-in"></a>ユーザーがダイヤルインを許可します。
+## <a name="allow-users-to-dial-in"></a>ユーザーがダイヤルインできるようにする
 
-チーム会議にダイヤルイン ユーザーに知らせるための方法の詳細について検索する場合は、[マイクロソフトのチームでの電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)を参照してください。
+ユーザーが Teams 会議にダイヤルインできるようにする手順については、「 [Microsoft Teams の電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)」を参照してください。
 
-## <a name="want-to-know-more-about-audio-conferencing"></a>オーディオ会議の詳細を知りたいとしていますか。
+## <a name="want-to-know-more-about-audio-conferencing"></a>電話会議について詳しく知りたいですか?
 
 [Office 365 での電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     

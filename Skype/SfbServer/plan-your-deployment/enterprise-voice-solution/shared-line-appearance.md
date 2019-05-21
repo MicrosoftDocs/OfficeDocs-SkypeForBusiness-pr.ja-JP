@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/21/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: ビジネス サーバー 2015 年 2015年 11 月の共有行の外観 (SLA) で Skype を計画する方法については、このトピックを参照して累積的な更新です。
-ms.openlocfilehash: fa0d8923c234773e3b21ec43bca4c4d7aafde4df
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このトピックでは、Skype for Business Server 2015、2015年11月の累積更新プログラムで共有線の外観 (SLA) を計画する方法について説明します。
+ms.openlocfilehash: 966c9f32a27ba936e880bdb51690bcefed4ffbe4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913456"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276448"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の回線共有機能の計画
  
-ビジネス サーバー 2015 年 2015年 11 月の共有行の外観 (SLA) で Skype を計画する方法については、このトピックを参照して累積的な更新です。 
+このトピックでは、Skype for Business Server 2015、2015年11月の累積更新プログラムで共有線の外観 (SLA) を計画する方法について説明します。 
   
-線の外観を共有は、共有の数と呼ばれる特定の番号に複数の呼び出しを処理するためのビジネス用の Skype の機能です。 SLA は企業を構成することができます音声が有効になって Skype ビジネス ユーザーの共有を付けて複数行に複数の呼び出しに応答します。 実際には共有番号で通話を受信するのではなく、共有番号の代理人として機能するユーザーに通話が転送されます。 いずれかの代理人が通話に応答すると、残りの代理人は誰が通話に応答したか、またその結果としてどの回線が通話中になったかを示す通知を自分の電話で受け取ります。 SLA では、回線の番号と代理人の両方を共有番号に対して構成できます。 さらに、BusyOption (すべての回線が通話中のときに実行する処理) と MissedCallOption (通話に応答できる代理人がいない場合の処理) などの高度なオプションも共有番号に対して構成できます。
+共有された線の外観は、共有番号と呼ばれる特定の電話番号で複数の通話を処理するための Skype for Business の機能です。 SLA では、エンタープライズボイス対応 Skype for Business のユーザーを、複数の回線を使って複数の通話に応答する共有番号として構成できます。 実際には共有番号で通話を受信するのではなく、共有番号の代理人として機能するユーザーに通話が転送されます。 いずれかの代理人が通話に応答すると、残りの代理人は誰が通話に応答したか、またその結果としてどの回線が通話中になったかを示す通知を自分の電話で受け取ります。 SLA では、回線の番号と代理人の両方を共有番号に対して構成できます。 さらに、BusyOption (すべての回線が通話中のときに実行する処理) と MissedCallOption (通話に応答できる代理人がいない場合の処理) などの高度なオプションも共有番号に対して構成できます。
   
-SLA は、次の電話デバイス (サポートされていない Skype のビジネス上のクライアント コンピューター、携帯電話、またはその他のデバイス) でのみサポートされます。 
+SLA は、次の電話デバイスでのみサポートされます (コンピューター、携帯電話、その他のデバイス上の Skype for Business クライアントではサポートされていません)。 
   
 - Polycom VVX300 (ファームウェア更新プログラム 5.4.1 インストール済み)
     
@@ -38,7 +38,7 @@ SLA は、次の電話デバイス (サポートされていない Skype のビ�
     
 - Polycom VVX600 (ファームウェア更新プログラム 5.4.1 インストール済み)
     
-SLA 2015年 11 月ビジネス サーバーでは、Skype の新機能は、累積的な更新です。 
+SLA は、2015年11月の累積更新プログラムである、Skype for Business Server の新機能です。 
   
 SLA の展開の詳細については、「[Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)」を参照してください。
   

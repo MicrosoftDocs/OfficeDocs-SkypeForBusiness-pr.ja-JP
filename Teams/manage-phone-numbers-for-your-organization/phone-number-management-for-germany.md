@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表で、ドイツでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: e7b27c8cc5429d535055109695f64ac61fc95b33
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 16ebaa195eabb817feb1d51ab2d830fe2634fbea
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245263"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276107"
 ---
 # <a name="phone-number-management-for-germany"></a>ドイツでの電話番号の管理
 
@@ -36,10 +36,10 @@ ms.locfileid: "32245263"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|新しいユーザーまたはビジネス管理センターの Skype に記載されていないサービスの電話番号を取得します。  <br/> | ドイツでは、Skype for Business 管理センターを使用して電話番号を取得することはできません。 新しい電話番号の申請を送信する必要があります。 最初に、このフォームをダウンロードします。 <br/> [(V.4.0)(de-de) のドイツの電話番号の新しい要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(de-de).pdf?raw=true) <br/> [(V.4.0)(en-us) のドイツの電話番号の新しい要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br>[弊社に送信](mailto:ptneu@microsoft.com)して入力します。  <br/> |
-|私たちに転送する電話番号を取得します。  <br/> | これらのフォームのいずれかをダウンロードします。 <br/> ユーザーの数。 <br/> [文字の承認 (山) (地理的な番号) をドイツの (v.1.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf?raw=true) <br/><br/> フリー ダイヤル番号。 <br/> [文字の承認 (ロード) ドイツ (フリー ダイヤル番号) のバージョン (2.0) (de de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf?raw=true) <br/><br/> 記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
-|全国の電話帳の電話番号を公開/非公開します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
-|サービス番号には、ユーザーの数を変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|Skype for Business 管理センターに表示されていない新しいユーザーまたはサービスの電話番号を取得します。  <br/> | ドイツでは、Skype for Business 管理センターを使用して電話番号を取得することはできません。 新しい電話番号の申請を送信する必要があります。 まず、このフォームをダウンロードします。 <br/> [ドイツの新しい電話番号の要求 (v.) (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(de-de).pdf?raw=true) <br/> [ドイツの新しい電話番号要求 (米国) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br>次に、その情報を入力して[送信](mailto:ptneu@microsoft.com)します。  <br/> |
+|お客さまの電話番号をお送りします。  <br/> | 次のいずれかのフォームをダウンロードします。 <br/> ユーザー番号: <br/> [ドイツ (地理的電話番号) の承認状 (LOA) (範囲外) (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf?raw=true) <br/><br/> 無料電話番号の場合: <br/> [ドイツの承認状 (LOA) (無料電話番号) (v.) (de) (デデュープ)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf?raw=true) <br/><br/> 記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
+|国内電話ディレクトリの電話番号を公開/非公開にします。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|ユーザーの電話番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
    
 ## <a name="related-topics"></a>関連トピック
 

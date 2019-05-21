@@ -1,5 +1,5 @@
 ---
-title: チーム PowerShell の概要
+title: Teams での PowerShell の概要
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
-description: PowerShell のコントロールを使用して、マイクロソフトのチームを管理するために説明します。
+description: Microsoft Teams を管理するための PowerShell コントロールの使用方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a56783a4958038710440fc899081abfdd24f1dec
@@ -20,107 +20,107 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33401631"
 ---
-# <a name="teams-powershell-overview"></a>チーム PowerShell の概要
+# <a name="teams-powershell-overview"></a>Teams での PowerShell の概要
 
-マイクロソフトのチームでは、マイクロソフトのチーム管理センター、PowerShell のコントロール、およびグラフの Api を通じて製品を管理する IT 管理者のためのツールの豊富なセットがあります。 このガイドでは、当社の PowerShell コマンドレットを使用して、IT 管理者を構成する方法について説明し、さらにドキュメントへのポインターを提供します。 さまざまなチームの管理者のロールに別のコマンドレットへのアクセスがあることに注意してください。 詳細については、[チームを管理する管理者の役割を使用してマイクロソフトのチーム](using-admin-roles.md)を参照してください。
+Microsoft Teams には、IT 管理者が Microsoft Teams 管理センター、PowerShell コントロール、Graph Api を通じて製品を管理するための豊富なツールセットが用意されています。 このガイドでは、IT 管理者が使用する PowerShell コマンドレットの構造について説明し、さらに多くのドキュメントへのポインターを提供します。 チームの管理者の役割によって、異なるコマンドレットにアクセスできることに注意してください。 詳細については、「 [Microsoft teams の管理者ロールを使用してチームを管理する](using-admin-roles.md)」を参照してください。
 
-## <a name="which-modules-do-you-need-to-use"></a>モジュールを使用するのには必要ですか。
+## <a name="which-modules-do-you-need-to-use"></a>どのモジュールを使用する必要がありますか?
 
-PowerShell の 2 つの異なるモジュールには、チームを管理するための PowerShell コントロールです。 
-- [マイクロソフト チームの PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/): すべてのコマンドレット作成し、チームを管理する必要がありますにはが、チームの PowerShell モジュールに含まれています。  
-- [ビジネスの PowerShell モジュールの Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366): ビジネスの PowerShell モジュールの「Skype にには、ポリシー、構成、およびその他のチームのツールを管理するためのコマンドレットにはが含まれています。 
+チームを管理するための PowerShell コントロールは、次の2つの異なる PowerShell モジュールに含まれています。 
+- [Microsoft Teams powershell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/): teams powershell モジュールには、teams の作成と管理に必要なすべてのコマンドレットが含まれています。  
+- [Skype For Business powershell モジュール](https://www.microsoft.com/en-us/download/details.aspx?id=39366): Skype For business powershell モジュールには、ポリシー、構成、その他のチームツールを管理するためのコマンドレットが含まれています。 
 
-PowerShell のコントロールのリファレンス ドキュメントが送信されます、調査しているコマンドレットがどのモジュールに含まれています。 (最終的には、2 つのモジュール結合されます。)
+PowerShell コントロールのリファレンスドキュメントでは、調査中のコマンドレットが含まれているモジュールを確認できます。 (最終的に、2つのモジュールが結合されます)。
 
-## <a name="what-can-each-admin-role-do"></a>できます各管理者の役割は何ですか。
+## <a name="what-can-each-admin-role-do"></a>各管理者ロールでできること
 
-PowerShell コマンドレットの別の管理者の役割が利用できるようになりますを理解する[チームを管理する管理者の役割を使用してマイクロソフトのチーム](using-admin-roles.md)を参照してください。
+「 [Microsoft Teams の管理者ロールを使用](using-admin-roles.md)してチームを管理する」を参照し、管理者ロールによって利用できる PowerShell コマンドレットについて理解してください。
 
-## <a name="creating-and-managing-teams-via-powershell"></a>作成して、PowerShell を使用してチームを管理します。
+## <a name="creating-and-managing-teams-via-powershell"></a>PowerShell を使用した teams の作成と管理
 
-[マイクロソフト チームの PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/)では、コマンドレットを作成して、チームを管理するのです。 
+チームを作成して管理するためのコマンドレットは、 [Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/)に含まれています。 
 
-チームによって支えられて O365 グループでは、これとチームを作成する、グループを作成します。 コア ・ チームとその設定を操作するために用意されているコマンドレットのセットがある (``new-team``、 ``get-team``、 ``set-team``)、チームのユーザーを管理する (``add-teamuser``、 ``remove-teamuser``)、およびチームのチャネルを管理するためのコマンドレット (``new-teamchannel``、 ``remove-teamchannel``)。 エンド ・ ユーザーとして実行できるすべてのこれらのコマンドレットが所有する、またはのメンバーをチームにのみ動作します。 場合は、グローバル管理者またはチームのサービス管理者は、組織内のすべてのチームを操作することができます。
+Teams は O365 グループによってサポートされているため、チームを作成するときにグループを作成します。 コアチームとその設定``new-team``(、 ``get-team`` ``set-team``)、チームユーザー``add-teamuser``の管理 (、 ``remove-teamuser``)、およびチーム``new-teamchannel`` ``remove-teamchannel``のチャネルを管理するコマンドレットを操作するための一連のコマンドレットが用意されています。 これらのコマンドレットはすべてエンドユーザーとして実行できますが、自分が所有している、またはメンバーであるチームでのみ機能します。 グローバル管理者または Teams のサービス管理者である場合は、組織内のすべてのチームに対して行動することができます。
 
-> マイクロソフト チームの PowerShell モジュールのコマンドレットで使用されている**グループ Id**は、 **Identity**プロパティによって返される``Get-UnifiedGroup``Exchange PowerShell モジュールにします。
+> Microsoft Teams PowerShell モジュールのコマンドレットで使用される**GroupId**は、Exchange **** PowerShell モジュール``Get-UnifiedGroup``で返される Identity プロパティと同じです。
 
-### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>プレビューし、一般に利用可能なマイクロソフトのチームの PowerShell モジュール間の相違点
+### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>プレビューと通常利用可能な Microsoft Teams PowerShell モジュールの違い
 
-一般に利用可能なバージョンの PowerShell モジュールをリリースしました、いくつかのコマンドレットがままベータ版専用のモジュールに次の表で説明したよう。
+PowerShell モジュールの一般的なバージョンをリリースすると、次の表で説明するように、ベータ版のモジュールにいくつかのコマンドレットが残されました。
 
-| コマンドレット | プレビューで使用可能です | 1.0 で利用可能です |
+| コマンドレット | プレビューで利用可能 | 1.0 で利用可能 |
 |------- | -------------------- | ------------------------------ |
-| 追加 TeamUser | はい | はい |
-| 接続 MicrosoftTeams | はい | はい |
-| 切断 MicrosoftTeams | はい | はい |
-| Get チーム | はい | はい |
-| Get TeamChannel | はい | はい |
-| Get TeamFunSettings | 1.0 のみをリリースする前に | いいえ |
-| Get TeamGuestSettings | 1.0 のみをリリースする前に | いいえ |
-| Get TeamHelp | はい | はい |
-| Get TeamMemberSettings | 1.0 のみをリリースする前に | いいえ |
-| Get TeamMessagingSettings | 1.0 のみをリリースする前に | いいえ |
-| Get TeamUser | はい | はい |
-| 新しいチーム | はい | はい |
-| 新しい-TeamChannel | はい | はい |
-| 削除チーム | はい | はい |
-| 削除 TeamChannel | はい | はい |
-| 削除 TeamUser | はい | はい |
-| セット チーム | はい | はい |
-| セット TeamChannel | はい | はい |
-| セット TeamFunSettings | 1.0 のみをリリースする前に | いいえ |
-| セット TeamGuestSettings | 1.0 のみをリリースする前に | いいえ |
-| セット TeamMemberSettings | 1.0 のみをリリースする前に | いいえ |
-| セット TeamMessagingSettings | 1.0 のみをリリースする前に | いいえ |
-| セット TeamPicture | はい | 残念ですが、計画 |
+| チームの追加ユーザー | はい | はい |
+| Connect-Microsoft Teams | はい | はい |
+| 切断-Microsoft Teams | はい | はい |
+| チームの取得 | はい | はい |
+| チームの取得チャネル | はい | はい |
+| Get-TeamFunSettings | 1.0 より前のリリースのみ | いいえ |
+| チームのゲスト設定を取得する | 1.0 より前のリリースのみ | いいえ |
+| チームヘルプ | はい | はい |
+| チームメンバーの設定を取得する | 1.0 より前のリリースのみ | いいえ |
+| チームの Messagingsettings を取得する | 1.0 より前のリリースのみ | いいえ |
+| チームのユーザーを取得する | はい | はい |
+| 新規-チーム | はい | はい |
+| 新しいチームチャネル | はい | はい |
+| チームの削除 | はい | はい |
+| チームの削除のチャネル | はい | はい |
+| チームのユーザーの削除 | はい | はい |
+| 設定-チーム | はい | はい |
+| Set-TeamChannel | はい | はい |
+| Set-TeamFunSettings | 1.0 より前のリリースのみ | いいえ |
+| チームのゲスト設定を設定する | 1.0 より前のリリースのみ | いいえ |
+| 設定-TeamMemberSettings | 1.0 より前のリリースのみ | いいえ |
+| 設定-TeamMessagingSettings | 1.0 より前のリリースのみ | いいえ |
+| 設定-TeamPicture | はい | いいえ、計画済み |
 
 
-## <a name="managing-policies-via-powershell"></a>PowerShell を使用してポリシーの管理
+## <a name="managing-policies-via-powershell"></a>PowerShell を使用したポリシーの管理
 
-ポリシーを管理するためのコマンドレットは、[コマンドレットのビジネス モジュールの Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366)では。
+ポリシーを管理するためのコマンドレットは、 [Skype For business コマンドレットモジュール](https://www.microsoft.com/en-us/download/details.aspx?id=39366)に含まれています。
 
-ポリシーは、個々 のユーザーに細かく適用できる設定のグループです。 各ポリシーの種類には、コマンドレットを作成、表示、削除、および自体には、ポリシーの更新およびユーザーにこれらのポリシーを割り当てるのための独自のセットがあります。 一般的な構造は次のとおりです。
+ポリシーとは、個々のユーザーに適用できる設定のグループです。 各ポリシーの種類には、ポリシー自体を作成、表示、削除、更新するための独自のコマンドレットのセットがあり、ユーザーにポリシーを割り当てることができます。 一般的な構造は次のとおりです。
 
-- GET コマンド (たとえば、 ``Get-CsTeamsMeetingPolicy``): 組織のポリシーを使用する Microsoft によって作成されると作成したカスタム ポリシーの両方を割り当てることで利用可能なポリシーのドキュメントを返します。
-   > 使用することができます、組織で作成したカスタム ポリシーのみを検索する場合は、 ``-Filter "tag:*"``。
+- コマンドの取得 (例``Get-CsTeamsMeetingPolicy``): 組織内で割り当てることができるポリシードキュメントを返します。これは、使用するために Microsoft によって作成されたポリシーと、作成したカスタムポリシーの両方を返します。
+   > 組織で作成したカスタムポリシーのみを検索する場合は、を使用``-Filter "tag:*"``できます。
 
-- 新しいコマンド (たとえば、 ``New-CsTeamsMeetingPolicy``): を使用して見ることが、組織内のユーザーに割り当てられる利用可能な組織の新しいポリシーを作成します。 一部のポリシーは、カスタム ポリシーの作成をサポートします。 多くの場合これは、組織内で使用するポリシーは、サポートされている設定の組み合わせであることを確認すること。
+- 新しいコマンド (など``New-CsTeamsMeetingPolicy``): 組織内のユーザーに割り当てることができる新しいポリシーを作成することができます。 すべてのポリシーでカスタムポリシーの作成がサポートされるわけではありません。 多くの場合、組織で使用しているポリシーの設定の組み合わせがサポートされていることを確認します。
 
-- 一連のコマンド (たとえば、 ``Set-CsTeamsMeetingPolicy``): 指定されたポリシーの特定の値を設定することができます。 いくつかのポリシー設定のコマンドが使用可能なしたりしないでポリシーの設定を変更できないパラメーターが含まれています。 PowerShell のそれぞれの説明は、どのパラメーターをカスタマイズすることはできませんを呼び出します。 
-   > 既定で割り当てられる割り当てられているカスタム ポリシーがない、組織内のユーザーにポリシーを編集するのには次のように実行します。 ``Set-Cs<PolicyName> -Identity Global``。
+- 次のコマンドを``Set-CsTeamsMeetingPolicy``設定します (例:)。指定したポリシーで特定の値を設定できます。 一部のポリシーでは、set コマンドを使用できないものや、ポリシーでカスタマイズできないパラメーターを含むものもあります。 各 PowerShell の説明では、カスタマイズできないパラメーターを呼び出します。 
+   > カスタムポリシーが割り当てられていない組織内のユーザーに既定で割り当てられるポリシーを編集するには``Set-Cs<PolicyName> -Identity Global``、を実行します。
 
-- 削除] コマンド (たとえば、 ``Remove-CsTeamsMeetingPolicy``): テナントで作成されたカスタム ポリシーを削除するのには、このコマンドレットを使用することができます。 場合は、組織内の少なくとも 1 つのユーザーに割り当てられているカスタム ポリシーを削除すると、そのユーザーはグローバル ポリシーをクリアテキストです。
-   > 実際には、組織のグローバル ポリシーを削除できませんが、実行することがマイクロソフトから提供された既定の設定を組織内のグローバル ポリシーをリセットする場合は、 ``Remove-Cs<PolicyName> -Identity Global``。
+- コマンドの削除 (など``Remove-CsTeamsMeetingPolicy``): このコマンドレットを使用して、テナントで作成されたカスタムポリシーを削除できます。 組織内の1人以上のユーザーに割り当てられているカスタムポリシーを削除すると、そのユーザーはグローバルポリシーに戻ります。
+   > 組織内のグローバルポリシーを実際に削除することはできませんが、組織内のグローバルポリシーを Microsoft が提供する既定の設定にリセットする場合``Remove-Cs<PolicyName> -Identity Global``は、実行できます。
 
-- GRANT コマンド (たとえば、 ``Grant-CsTeamsMeetingPolicy``): 特定のユーザーにポリシーを割り当てることができます。
-   > 実行するカスタム ポリシーの割り当てを削除して、組織内の既定のポリシーにユーザーを``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``。
+- [ ``Grant-CsTeamsMeetingPolicy``GRANT] コマンド (例:): 特定のユーザーにポリシーを割り当てることができます。
+   > カスタムポリシーの割り当てを削除して、ユーザーが組織の既定のポリシーに戻すようにする``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``には、を実行します。
 
 > [!TIP]
-> すべてのポリシーを作成するには、カスタム ポリシーを許可する、およびいくつかのポリシー設定でカスタマイズすることはできません (設定を表示することができますが、中にカスタム値を設定することはできませんので``set-``と``new-``)。 パラメーターが顧客によって使用可能な場合は、特定のコマンドレットのドキュメント呼び出します。
+> すべてのポリシーでカスタムポリシーを作成することはできません。一部のポリシーには、カスタマイズできない設定があります (そのため、設定``set-``を``new-``表示することはできますが、and でカスタム値を設定することはできません)。 ユーザーがパラメーターを使用できない場合は、特定のコマンドレットのドキュメントが呼び出されます。
 
-共通のパラメーター:
+一般的なパラメーター:
 
-- **Id**: の``Get-``、 ``Set-``、 ``New-``、および``Remove-``、 **Id**パラメーターは常に特定のポリシーのインスタンスを参照してください。 ``Grant``、 **Id**パラメーターは、ポリシーの適用先の特定のユーザー オブジェクトを参照します。
+- **Identity**: For ``Get-``、 ``Set-``, ``New-``、and ``Remove-``、 **identity**パラメーターは、常に特定のポリシーインスタンスを参照します。 の``Grant``場合、 **Identity**パラメーターは、ポリシーが適用されている特定のユーザーオブジェクトを参照します。
 
 <!--more info here?-->
 
-## <a name="managing-configurations-via-powershell"></a>PowerShell を使用して構成を管理します。
+## <a name="managing-configurations-via-powershell"></a>PowerShell を使用した構成の管理
 
-構成を管理するためのコマンドレットは、[コマンドレットのビジネス モジュールの Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366)では。
+構成を管理するためのコマンドレットは、 [Skype For business コマンドレットモジュール](https://www.microsoft.com/en-us/download/details.aspx?id=39366)に含まれています。
 
-構成は、ユーザー レベルで指定することはできませんが、サービスで保持されている設定のバケットです。 設定は、組織全体で常に適用されます。 グローバル設定は、組織内で唯一の効果的な構成です。 構成タイプごとに主な 2 つのコマンドレットではあります。
+構成は、サービスに保持されている設定のバケットであり、ユーザーレベルで指定することはできません。 設定は組織全体で常に適用されます。 グローバル構成は、組織内で唯一の有効な構成です。 各構成の種類には、2つの主なコマンドレットが用意されています。
 
-- ``Get-Cs<ConfigurationName>``(たとえば、 ``Get-CsTeamsClientConfiguration``)。 
+- ``Get-Cs<ConfigurationName>``(など``Get-CsTeamsClientConfiguration``): 
 
-- 一連のコマンド (たとえば、 ``Set-CsTeamsClientConfiguration``): その種類の構成のプロパティを設定します。 変更するパラメーターを指定します。
-   > 2 つの方法のいずれかに変更する構成を参照することができます: を指定する -**ユーザーのグローバル**、または実行によって``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``。
+- コマンド (例: ``Set-CsTeamsClientConfiguration``) を設定します。その型の構成でプロパティを設定します。 変更するパラメーターを指定します。
+   > 変更している構成は、**Id グローバル**を指定するか、または実行``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``して、次の2つの方法のいずれかで参照できます。
 
-## <a name="other-powershell-tools"></a>他の PowerShell ツール
+## <a name="other-powershell-tools"></a>その他の PowerShell ツール
 
-マイクロソフトのチームとの[マイクロソフトのチームのコマンドレットのリファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)と Skype の[で、各ポリシーの設定の詳細な説明を含む、ビジネス用の Skype を管理するための PowerShell のすべてのコントロールを使用する方法の詳細な手順を表示します。ビジネス コマンドレット参照](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
+Microsoft [teams コマンドレットリファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)および skype for business の各ポリシーの設定の詳細な説明など、microsoft Teams と Skype for business を管理するためのすべての PowerShell コントロールの使用方法について、詳細な手順を参照してください。 [Business コマンドレットリファレンス](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
 
 ## <a name="learn-more"></a>詳細情報
 
 - [Microsoft Teams コマンドレット リファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
-- [Skype ビジネス コマンドレット参照](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+- [Skype for Business コマンドレットリファレンス](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 - [Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)

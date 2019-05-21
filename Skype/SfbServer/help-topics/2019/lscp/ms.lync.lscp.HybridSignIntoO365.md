@@ -1,10 +1,10 @@
 ---
-title: ハイブリッド ウィザード Office 365 にサインイン
+title: ハイブリッドウィザード Office 365 にサインインする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.HybridSignIntoO365
@@ -16,17 +16,17 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
-description: ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。
-ms.openlocfilehash: 6d1809cc04afcf565bfa2698384255509cb95661
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server ハイブリッド管理ウィザードを使用して、Skype for Business Online とハイブリッドの環境を構成することができます。
+ms.openlocfilehash: 9f80a42149cd0bf1b30781003584d03accd6fe86
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891461"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279012"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>ハイブリッド ウィザード: Office 365 へのサインイン
 
-ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。
+Skype for Business Server ハイブリッド管理ウィザードを使用して、Skype for Business Online とハイブリッドの環境を構成することができます。
 
 ## <a name="sign-in-to-office-365"></a>Office 365 にサインインする
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a49090f8ce82d825fc0eb153910d377429595922
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 833d79d16365a1b90e8cd35e88e43468f0e25fa8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919033"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280926"
 ---
 <a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -39,6 +39,7 @@ ms.locfileid: "33919033"
 - チームの作成または修正
 - チームの参照
 - 個人対個人のチャットへのファイルのアップロード
+- ユーザーは、完全なメール ID がわかっている場合でも、チーム外のユーザーを検索して見つけることができます。 このようなことを防ぐため、IT 管理者は、ゲストを仮想 GAL に制限する機能を持つ、スコープ指定された[ディレクトリ検索](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search)などのパターンを使用できます。
 
 詳細については、「[ゲストのエクスペリエンスについて](guest-experience.md)」および「[Office 365 グループのゲスト アクセス](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」をご覧ください。
 
@@ -59,7 +60,7 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□  手順 1: Azure AD ビジネス ツー ビジネスの設定を構成する
 
-1. サインインします。https://portal.azure.com
+1. サインインするにはhttps://portal.azure.com
 2. 左ペインで **Azure Active Directory** をクリックします。
 3. [**管理**] の下で、[**ユーザー設定**] をクリックします。
 4. [**外部ユーザー**] の下で、[**外部コラボレーションの設定を管理します**] をクリックします。
@@ -96,7 +97,7 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
     ![Teams 設定の切り替えの例を示すスクリーンショット](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. この同じページで、必要な他のゲストの設定を構成します。
-4. **[保存]** をクリックします。
+4. [**保存**] をクリックします。
 
 詳細については、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」をご覧ください。
 

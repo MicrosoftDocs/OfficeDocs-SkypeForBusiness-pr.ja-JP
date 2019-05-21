@@ -11,7 +11,7 @@ MS.collection:
 search.appverid: MET150
 ms.reviewer: jastark
 f1keywords: ms.teamsadmincenter.assignments.overview
-description: 教育のチームでマイクロソフトのチームの管理センターでの割り当てを管理する方法について説明します。
+description: 教育担当の Teams で Microsoft Teams 管理センターの課題を管理する方法について説明します。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
@@ -24,53 +24,53 @@ ms.locfileid: "33914024"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
-割り当ては、タスクまたはその調査の一部としてクラスで受講生受講者またはチーム メンバーに割り当てられた作業時間の単位です。 チーム クラス内での割り当てを作成できます。
+割り当ては、学生またはチームメンバーに対して、調査の一環として、クラス内で割り当てられているタスクまたは作業単位数です。 Teams クラス内で課題を作成することができます。
 
-[割り当ての詳細を表示します](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[割り当てについて](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
-## <a name="assignments-in-the-microsoft-teams-admin-center"></a>マイクロソフトのチームの管理センターでの割り当て
+## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの課題
 
-マイクロソフトのチーム管理センターの管理設定を使用して生徒と教師は、組織内で利用できる次の機能をオンまたはオフにします。 割り当てに関連する設定は、次のように。
+Microsoft Teams 管理センターの管理設定を使用すると、組織内の学生と教師が、次の機能をオンまたはオフにできるようにすることができます。 課題に関連する設定を次に示します。
 
 <a name="#bkemaildigest"> </a>
-### <a name="weekly-guardian-email-digest"></a>ガーディアン電子メールの今週のダイジェスト
-保護者の e メールは、受講者の親または保護者に送信された電子メールを毎週です。 電子メールおよび今後の週では、前の週からの割り当てに関する情報が含まれ、週末に送信されます。 電子メールは、学校のデータの同期機能を使用して管理者が更新する必要があります。
+### <a name="weekly-guardian-email-digest"></a>1週間のガーディアンメールダイジェスト
+ガーディアンのメールは、学生の両親またはガーディアンに対して毎週メールで送信されます。 このメールには、前週と来週の課題に関する情報が含まれており、週末に送信されます。 学校のデータ同期機能を使用して、管理者がメールを更新する必要があります。
 
-この設定は既定ではオフです。
+この設定は、既定ではオフになっています。
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-MakeCode は、ブロック ・ ベースのコーディング プラットフォームで、すべての受講者用コンピューター サイエンスをもたらしです。 
+MakeCode はブロックベースのコーディングプラットフォームであり、すべての学生に対してコンピューターの科学を実現します。 
 
-これは、サード ・ パーティ製品またはサービスは独自の利用規約とプライバシー ポリシーです。 任意のサードパーティ製品およびサービスの使用に責任があります。
+これは、サードパーティの製品またはサービスであり、独自の用語とプライバシーポリシーの適用対象となります。 お客様は、サードパーティの製品とサービスの使用に関して責任を負います。
 
-この設定は既定ではオフです。
+この設定は、既定ではオフになっています。
 
-[MakeCode の詳細を表示します](https://www.microsoft.com/${locale}/makecode)
+[MakeCode について、詳細はこちらをご覧ください](https://www.microsoft.com/${locale}/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
 
-Turnitin は、盗用検出サービスです。 これは、サード ・ パーティ製品またはサービスは独自の利用規約とプライバシー ポリシーです。 任意のサードパーティ製品およびサービスの使用に責任があります。
+Turnitin は、plagiarism の検出サービスです。 これは、サードパーティの製品またはサービスであり、独自の用語とプライバシーポリシーの適用対象となります。 お客様は、サードパーティの製品とサービスの使用に関して責任を負います。
 
-この設定は既定ではオフです。
+この設定は、既定ではオフになっています。
 
-組織の Turnitin が正常に有効にするには、Turnitin のサブスクリプションを既に持っている必要があります。 Turnitin 管理者コンソールには次の追加情報を入力する必要があります。
+組織の Turnitin を正常に有効にするには、Turnitin サブスクリプションが既に存在している必要があります。 次の追加情報を入力する必要があります。これは、Turnitin 管理コンソールにあります。
 
-  * _TurnitinApiKey_: これは、管理コンソールの統合] の下に 32 文字の GUID です。
-  * _TurnitinApiUrl_: これは、Turnitin 管理者コンソールの HTTPS URL です。
+  * _TurnitinApiKey_: この32文字の GUID は、[統合] の下の管理コンソールにあります。
+  * _TurnitinApiUrl_: これは、Turnitin 管理コンソールの HTTPS URL です。
 
-この情報を取得するためのいくつかの手順を次に示します。
+この情報を取得するための手順をいくつか紹介します。
 
-TurnitinApiUrl は、管理者コンソールのホスト アドレスです。
-![TurnItInApiUrl を検索します。](./educationImages/Assignments_mopo_turnitin1.png)
+TurnitinApiUrl は、管理コンソールのホストアドレスです。
+![TurnItInApiUrl の検索](./educationImages/Assignments_mopo_turnitin1.png)
 
-統合] タブに移動し、統合環境を追加します。
-![TurnItInApiUrl を検索します。](./educationImages/Assignments_mopo_turnitin2.png)
+[インテグレーション] タブに移動して、統合機能を追加します。
+![TurnItInApiUrl の検索](./educationImages/Assignments_mopo_turnitin2.png)
 
-画面の指示を実行した後に、TurnitinApiKey が与えられます。 このキーをコピーし、マイクロソフトのチームの管理ページに貼り付けます。 
-![TurnItInApiUrl を検索します。](./educationImages/Assignments_mopo_turnitin3.png)
+プロンプトが表示された後、TurnitinApiKey が提供されます。 このキーをコピーして、Microsoft Teams 管理センターに貼り付けます。 
+![TurnItInApiUrl の検索](./educationImages/Assignments_mopo_turnitin3.png)
 
-[Turnitin とマイクロソフトのチーム間の統合の詳細を表示します](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
+[Turnitin と Microsoft Teams の統合の詳細については、こちらを参照してください。](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 
-[Turnitin の詳細を表示します](https://www.turnitin.com/)
+[Turnitin について、詳細はこちらをご覧ください](https://www.turnitin.com/)

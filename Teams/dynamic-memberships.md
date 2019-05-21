@@ -7,7 +7,7 @@ ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-description: AAD に基づく動的なチームのメンバーシップについて説明します。
+description: AAD に基づく動的なチームメンバーシップについて説明します。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -23,35 +23,35 @@ ms.locfileid: "32245416"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>チームの動的なメンバーシップの概要
 
-マイクロソフトのチームでは、動的なメンバーシップを使用して Office 365 のグループに関連付けられているチームをサポートします。 動的なメンバーシップは、特定の Azure Active Directory (AAD) でのユーザー属性をチェックする 1 つまたは複数の規則によって定義される、チームのメンバーシップを有効にします。 ユーザーは自動的に追加または、ユーザー属性を変更したり、ユーザーが参加し、テナントのままにして、的確なチームを削除します。
+Microsoft Teams は、動的メンバーシップを使用して、Office 365 グループに関連付けられているチームをサポートします。 動的メンバーシップによって、Azure Active Directory (AAD) で特定のユーザー属性を確認する1つ以上のルールによって、チームのメンバーシップを定義できます。 ユーザー属性の変更またはユーザーの参加とテナントの脱退の際に、ユーザーは適切なチームに追加または削除されます。
 
-ことができます、動的なメンバーシップを使用してセットアップ チームが特定のユーザーが組織内の cohorts。 可能なシナリオは次のとおりです。
-- 病院では、通信をブロードキャストするには、看護師、医師、および外科医の個別のチームを作成できます。 これは、病院が一時の従業員に依存している場合に特に重要です。
-- 大学では、頻繁に変更される、かつ付加的な教職員を含め、特定の大学内のすべての教職員のチームを作成できます。
-- 航空会社は、(と同じように、火曜日の午後無停止でシカゴからアトランタへ) のフライトごとにチームを作成し、自動的に割り当てられている、頻繁に変化するクルーを希望しています。
+動的なメンバーシップを使用して、組織内の特定の cohorts ユーザーに対して teams をセットアップすることができます。 次のようなシナリオが考えられます。
+- 病院は、看護師、医師、surgeons のために個別のチームを作成して、コミュニケーションをブロードキャストすることができます。 これは、病院が temp 従業員に依存している場合に特に重要です。
+- 大学では、adjunct 教職員など、特定の大学のすべての教職員のチームを作成できます。
+- 航空会社は、各フライト (たとえば、シカゴからアトランタまでの火曜日の午後) のチームを作成し、必要に応じて、頻繁に変更されるフライトクルーが自動的に割り当てまたは削除されるようにしたいと考えています。
 
-この機能では、特定のチームのメンバーの更新プログラムを自動的に使用するとは、特定のメンバーシップを手動で管理するのではなく、条件のセットに基づいています。 これを行うには、Azure AD プレミアム P1 のライセンスが必要です。 と、チームのメンバーシップは、AAD プロパティのすべてのユーザーの[テナント管理者によって割り当てられた](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)テナントと管理者用のアカウントがある場合を提供できます。 
+この機能を使用すると、メンバーシップを手動で管理する代わりに、特定の条件セットに基づいて、特定のチームメンバーが自動的に更新されます。 この操作を行うには、Azure AD Premium P1 ライセンスが必要です。また、テナント管理者がテナントと管理者のアカウントを持っているユーザーの AAD プロパティに、チームメンバーシップを[割り当てる](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)ことができます。 
 
-マイクロソフトのチームに必要数分から 2 時間まで、Office 365 のグループをチームに反映すると、動的なメンバーシップの変更を反映するように。 
+Microsoft Teams では、チームの Office 365 グループに反映された時点で動的メンバーシップの変更が反映されるまでに、数分から最大2時間かかることがあります。 
 
 > [!NOTE]
-> - ルールは、チーム メンバーを定義できますが、チームの所有者はいません。
-> - チームとチャネルのサイズの現在の制限値に対する[制限とマイクロソフトのチームの仕様](limits-specifications-teams.md)を参照してください。
-> - 所有者を追加またはメンバーが動的グループの規則によって定義されているため、チームのメンバーとしてユーザーを削除できません。
-> - メンバーは動的グループに支えられてチームのままにすることができません。
+> - ルールでは、チームメンバーになっているユーザーを定義できますが、チーム所有者とは限りません。
+> - チームおよびチャネルサイズの現在の制限については、「 [Microsoft Teams の制限と仕様](limits-specifications-teams.md)」を参照してください。
+> - メンバーは動的なグループルールによって定義されるため、所有者は、ユーザーをチームのメンバーとして追加または削除することはできません。
+> - メンバーは、動的グループによってバックアップされたチームを脱退することはできません。
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>作成し、動的なメンバーシップを使用して、Office 365 のグループを管理します。
-テナント管理者としてログインしているときに、[動的グループを作成し状態を確認するの](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)に指示します。 必要に応じて、 [Azure Active Directory のグループの動的メンバーシップの規則](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)を参照してください。
+## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>動的メンバーシップを使用して Office 365 グループを作成して管理する
+テナント管理者としてログインしているときに、「[動的グループを作成する」と「状態を確認](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)する」の手順に従います。 必要に応じて、「 [Azure Active Directory のグループの動的メンバーシップの規則」](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)を参照してください。
 
-## <a name="create-a-new-team-with-your-o365-group"></a>O365 グループで新しいチームを作成します。
+## <a name="create-a-new-team-with-your-o365-group"></a>O365 グループを使用して新しいチームを作成する
 
-今すぐメンバーシップの変更を反映させるための時間を確保して、[マイクロソフトのチームにグループを既存の Office 365 の強化](enhance-office-365-groups.md)で説明したように、新しいチームを作成します。
+次に、「 [Microsoft Teams で既存の Office 365 グループを強化](enhance-office-365-groups.md)する」の説明に従って、メンバーシップの変更を有効にして新しいチームを作成します。
 
-## <a name="apply-dynamic-membership-to-an-existing-team"></a>動的なメンバーシップを既存のチームに適用します。
+## <a name="apply-dynamic-membership-to-an-existing-team"></a>既存のチームに動的メンバーシップを適用する
 
-既存のチームを実行し、 [Azure Active Directory 内に動的に静的なグループ メンバーシップの変更](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type)で説明するように動的なメンバーシップでは、変更もできます。
+「 [Azure Active Directory で静的グループメンバーシップを動的に変更](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type)する」で説明されているように、既存のチームを取得して動的なメンバーシップを持つように変更することもできます。
 
 ## <a name="changes-in-client-behavior"></a>クライアントの動作の変更
 
-チームの動的なメンバーシップを有効にする、チームのクライアントでは、チームのメンバーの管理は実行されません。 メンバーを追加、メンバーの役割を編集、送信し結合の要求を承認およびチームのままにするためのオプションはすべて非表示にします。
+チームの動的メンバーシップを有効にすると、チームクライアントはチームのメンバー管理を許可しなくなります。 メンバーの追加、メンバーの役割の編集、参加要求の送信と承認、チームの脱退はすべて非表示にするオプション。

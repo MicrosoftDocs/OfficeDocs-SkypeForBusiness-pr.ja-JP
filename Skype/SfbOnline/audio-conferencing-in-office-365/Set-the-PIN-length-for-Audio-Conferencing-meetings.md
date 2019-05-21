@@ -1,5 +1,5 @@
 ---
-title: ビジネス オンラインの Skype で電話会議の会議の暗証番号 (pin) の長さを設定します。
+title: Skype for Business Online での電話会議の PIN の長さを設定する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,56 +12,56 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: パラメーターの長さと、PIN の要件を説明し、ビジネスの Skype での会議の長さを設定する方法を参照してください。
-ms.openlocfilehash: c5add9cff2855fd969b76d96647f05e6e6dab290
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: PIN の長さと要件のパラメーターについて説明し、「Skype for Business での会議の長さを設定する方法」を参照してください。
+ms.openlocfilehash: 95bc1c69e59e125d451a68eeee23ea15febd420f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229293"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283812"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>ビジネス オンラインの Skype で電話会議の会議の暗証番号 (pin) の長さを設定します。
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Skype for Business Online での電話会議の PIN の長さを設定する
 
 
 > [!NOTE]
-> マイクロソフトのチームでの暗証番号 (pin) の長さを設定する方法については、[マイクロソフトのチーム内の電話会議の会議の暗証番号 (pin) の長さを設定する](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams)を参照してください。
+> Microsoft Teams で PIN の長さを設定する方法については、「 [Microsoft teams で電話会議の pin の長さを設定](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams)する」を参照してください。
 
-ビジネス用の Skype の電話会議を設定するときに、オーディオ会議ブリッジが表示されます。 会議用ブリッジは、1 つまたは複数の電話番号を含めることができます。 設定した電話番号は、ビジネス アプリケーションの Skype の会議の招待に含まれます。
+Skype for Business の電話会議をセットアップするときには、電話会議ブリッジを取得します。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 設定した電話番号は、Skype for Business アプリの会議出席依頼に含まれます。
   
-オーディオ会議ブリッジ、電話を使用して会議にダイヤルインしている人のための呼び出しに応答します。 自動応答から、設定によっては、音声メッセージを呼び出し元に応答、通知を再生でき、自分の名前を記録するための呼び出し元に問い合わせてください。 **マイクロソフト ブリッジの設定**では、会議の通知の設定を変更することができ、会議の参加、会議の開催者によって使用されているピンの長さを設定します。 ミーティングの開催者は、ビジネス アプリケーションに、Skype を使用してミーティングに参加することはできない場合は、会議を開始するためのピンを使用します。
+電話会議ブリッジは、電話を使って会議にダイヤルインしているユーザーに対して、通話に応答します。 自動応答からの音声プロンプトで、発信者に応答し、設定に応じて、通知を再生し、発信者に名前を記録するように依頼することができます。 **Microsoft bridge の設定**を使用すると、会議の通知と会議の参加エクスペリエンスの設定を変更したり、会議の開催者によって使用される pin の長さを設定したりすることができます。 会議の開催者が Skype for Business アプリを使って会議に参加できない場合は、Pin を使って会議を開始します。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="setting-the-pin-length"></a>暗証番号 (pin) の長さを設定
+## <a name="setting-the-pin-length"></a>PIN の長さを設定する
  
-1. 既定値は 5 です。******** > ****
+1. **Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
     
-2. [**セキュリティ]** > **暗証番号 (pin) の長さ**を選択し、PIN の桁数を選択し、[**保存**] をクリックします。
+2. [**セキュリティ** > **pin の長さ**] で、pin に必要な数字の数を選び、[**保存**] をクリックします。
     
 > [!NOTE]
-> PIN とは異なる、会議の id です。 会議 Id は、ミーティングに参加するときに、呼び出し元が使用されます。 ミーティングに使用されます。 暗証番号 (pin) を使用して、会議の開催者は、呼び出し元を認証します。 
+> PIN が会議 ID とは異なります。 会議 Id は、発信者が会議に参加するときに使用されます。 会議を識別するために使用されます。 PIN は、会議の開催者として発信者を認証するために使用されます。 
 
-## <a name="want-to-know-more-about-pin-settings"></a>暗証番号 (pin) の設定の詳細を知りたいとしていますか。
+## <a name="want-to-know-more-about-pin-settings"></a>PIN の設定について詳しく知りたいですか?
 
-- ピンすることが 4 から 12 桁の数字です。デフォルトは 5 です。 番号は、ピンを作成するときにのみ使用されます。 文字と特殊文字は使用されません。
+- Pin は 4 ~ 12 桁にすることができます。既定値は5です。 数値はピンの作成時にのみ使用されます。 文字と特殊文字は使用されません。
     
-- のみ、暗証番号 (pin) は、会議の開催者とビジネス ユーザーは、Skype は、会議を既に開始されていない場合は必須です。 場合はすべてのユーザーがダイヤルイン会議、PIN は、会議の開催者、会議を開始するために必要。
+- PIN は、Skype for Business ユーザーが会議を開始していない場合に、会議の開催者にのみ必要です。 すべてのユーザーが会議にダイヤルインしている場合、会議の開催者が会議を開始するには、PIN が必要です。
     
-- 暗証番号 (pin) のセキュリティ設定は、すべての Microsoft のブリッジに関連付けられている電話番号に適用されます。 各ブリッジに関連付けられている電話番号を使用するすべての会議に適用されます。 
+- PIN のセキュリティ設定は、Microsoft bridge に関連付けられているすべての電話番号に適用されます。 これらは、特定のブリッジに関連付けられている電話番号を使用するすべての会議に適用されます。 
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
-- 時間を短縮または、これを自動化するには、[セット CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757)コマンドレットを使用することができます。
+- 時間を節約したり、自動化したりするには、 [-](https://go.microsoft.com/fwlink/?LinkId=715757)コマンドレットを使用します。
     
-- 8 PIN の桁数を設定します。`Set-CsOnlineDialInConferencingTenantSettings -PinLength 8`
+- PIN の桁の桁数を8に設定するには、次の操作を行います。`Set-CsOnlineDialInConferencingTenantSettings -PinLength 8`
     
 - Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     

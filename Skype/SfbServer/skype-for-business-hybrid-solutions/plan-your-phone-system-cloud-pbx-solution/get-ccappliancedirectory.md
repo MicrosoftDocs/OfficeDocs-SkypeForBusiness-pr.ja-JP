@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: Get-CcApplianceDirectory コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの作業ディレクトリを取得します。すべての展開ファイルはこのディレクトリに保存されます。
-ms.openlocfilehash: bcd80018b2286865945638f66c13e4c5198346dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ada1b587b738d882f81557e61438d6642aa03fff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233975"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287392"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
@@ -37,7 +37,7 @@ Get-CcApplianceDirectory
 
 ### <a name="example-1"></a>例 1
 
-次の使用例は、クラウドのコネクタ コンポーネントの構成と仮想マシンのファイルが保存されている現在のフォルダーを示しています。
+次の例は、クラウドコネクタコンポーネントの構成ファイルと仮想マシンファイルが保存されている現在のフォルダーを示しています。
   
 ```
 Get-CcApplianceDirectory
@@ -46,9 +46,9 @@ Get-CcApplianceDirectory
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-Get CcApplianceDirectory コマンドレットは、クラウドのコネクタのアプライアンスのすべての構成および仮想マシン ・ ファイル、ログ、および外部の証明書を保存する場所を示します。
+CcApplianceDirectory コマンドレットは、クラウドコネクタアプライアンスのすべての構成ファイル、仮想マシンのファイル、ログ、外部証明書が保存されている場所を示します。
   
-各コネクタのクラウド アプライアンスには 4 つのコンポーネント: 仲介サーバー、中央管理ストア、エッジ サーバー、およびドメイン コント ローラーです。 既定のフォルダーは、C:\Users\%userprofile%\CloudConnector\ApplianceRoot。 Set-CCApplianceDirectory コマンドレットを使用してこのフォルダーを変更できます。
+各クラウドコネクタアプライアンスには、仲介サーバー、中央管理ストア、エッジサーバー、ドメインコントローラーという4つのコンポーネントがあります。 既定のフォルダーは C:\Users\%userprofile%\CloudConnector\ApplianceRoot. Set-CCApplianceDirectory コマンドレットを使用してこのフォルダーを変更できます。
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>

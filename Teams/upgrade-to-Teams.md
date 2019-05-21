@@ -1,12 +1,12 @@
 ---
-title: マイクロソフトのチームへのアップグレード。Skype のビジネス チームのロードマップ
+title: Microsoft Teams にアップグレードする |Skype for Business Teams のロードマップ
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: マイクロソフトのチームがビジネスを展開するため、現在の Skype を基に、アップグレード ・ パスを選択します。
+description: 現在の Skype for Business 展開に基づいて、Microsoft Teams へのアップグレードパスを選ぶ
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -34,13 +34,13 @@ ms.locfileid: "33911412"
 - [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
 - [パイロットを実施した](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="perform-your-upgrade-to-teams"></a>チームへのアップグレードを実行します。
+# <a name="perform-your-upgrade-to-teams"></a>Teams へのアップグレードを実行する
 
-Skype ビジネスのための現在の配置に基づいて、アップグレードの旅を選択します。
+Skype for Business の現在の展開に基づいて、アップグレードの過程を選択します。
 
 - [Skype for Business Online から Teams にアップグレードする](https://aka.ms/SkypeToTeams-UpgradeOnline)
-- [Skype からチームへのビジネスのハイブリッドをアップグレードします。](https://aka.ms/SkypeToTeams-UpgradeHybrid)
-- [Skype から設置型のビジネスにアップグレード チーム](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
+- [Skype for Business ハイブリッドから Teams にアップグレードする](https://aka.ms/SkypeToTeams-UpgradeHybrid)
+- [オンプレミスの Skype for Business から Teams へのアップグレード](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

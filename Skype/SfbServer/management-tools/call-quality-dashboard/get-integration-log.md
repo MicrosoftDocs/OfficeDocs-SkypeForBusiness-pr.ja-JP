@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: '概要: は、統合ログの取得の操作では、品質のダッシュ ボードを呼び出すためのデータ API の一部について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 450122266caa21359b424e3abb76a13476f386c0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: 通話品質ダッシュボードのデータ API の一部である、統合ログの取得操作について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: 58be983ff3b282c94a4b42619a6c37c6270afcb5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926101"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274759"
 ---
 # <a name="get-integration-log"></a>統合ログの取得
  
-**の概要:** 統合ログの取得の操作では、品質のダッシュ ボードを呼び出すためのデータ API の一部について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**概要:** 通話品質ダッシュボードのデータ API の一部である、統合ログの取得操作について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。
   
-統合ログの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部
+"統合ログの取得" 操作は、通話品質ダッシュボードのデータ API の一部です。
   
 ## <a name="get-integration-log"></a>統合ログの取得
 
-操作が返されます QoE のキューブに含まれるアクティビティを説明するログ エントリの一覧を処理する統合ログを取得します。
+統合ログの取得操作 QoE キューブ処理のアクティビティを説明するログエントリの一覧を返します。
   
-この操作は既定ではセキュリティ上の理由で無効になります。 無効にすると、空の文字列を返します。 この操作を有効にするには、管理者はデータ API のホストの web アプリケーションの web.config を構成する必要があります。
+この操作は、セキュリティ上の理由で既定では無効になっています。 無効にすると、空の文字列が返されます。 この操作を有効にするには、管理者が Data API のホスト web アプリケーション用に web.config を構成する必要があります。
   
 
-|メソッド|**URI を要求します。**|**HTTP のバージョン**|
+|メソッド|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|取得  <br/> |https://\<ポータル\>/QoEDataService/IntegrationLog  <br/> |HTTP 1.1/  <br/> |
+|取得  <br/> |https://\<ポータル\>の/QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    
- **URI パラメーター**を [なし] です。
+ **URI パラメーター** -なし。
   
- **要求ヘッダー**の追加のヘッダーではありません。
+ **ヘッダーを要求**する-追加のヘッダーは不要です。
   
- **リクエストの本文**の [なし] です。
+ **要求本文**-なし。
   
- **応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。
+ **応答**-応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。
   
- **ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。
+ **状態コード**-正常に動作している操作は、状態コード 200 (OK) を返します。
   
- **応答ヘッダー**の追加のヘッダーではありません。
+ **応答ヘッダー** -ヘッダーは追加されません。
   
- **応答本体**のログ エントリの構造の例を次に示します。
+ **応答本文**-以下に、ログエントリのサンプル構造を示します。
   
 ```
 [

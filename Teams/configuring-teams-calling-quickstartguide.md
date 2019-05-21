@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille, crowe
 search.appverid: MET150
-description: マイクロソフトのチームでの通話プランを構成するためのクイック スタート ガイドです。
+description: Microsoft Teams で通話プランを構成するためのクイックスタートガイドです。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
@@ -26,47 +26,47 @@ ms.locfileid: "33898524"
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 ==============================================================
 
-一連のユーザーおよびチームの計画を呼び出すを参照できるように実行するを取得する際に役立ちます。
+このガイドは、チームの通話プランを調査できるように、一連のユーザーを準備し、実行するのに役立ちます。
 
-チームの計画を呼び出すの 2017 年 12 月 12日、お知らせを読む:[インテリジェント通信チームでの呼び出しには、次の手順を実行します。](https://aka.ms/ipyqus)
-
-> [!NOTE]
-> このクイック スタート ガイドとの併用とを参照する[計画を呼び出すと、電話システム](calling-plan-landing-page.md) [fasttrack という](https://aka.ms/cloudvoice)計画とドライブに展開の成功をお勧めします。
-
-計画を Office 365 機能により、ビジネスの Skype の呼び出しを追加することによって土地の明細行および公衆交換電話網 (PSTN) 経由で携帯電話からの電話呼び出しを送受信するチームを使用できます。
-
-![チームでの通話](media/Calling_in_Teams.png)
-## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>チームでは、[**通話**] タブを有効にするための前提条件
-チームでは、[**通話**] タブを有効にするには、ユーザーを呼び出すチームで有効になっていると、1 対 1 のチームを呼び出すことをサポートしているチームのクライアントを使用して 1:1 がある必要があります。 1 対 1 のチームで呼び出しを管理する方法については、[一連の CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)を参照してください。 通話をサポートするクライアントについては、[制限しマイクロソフトのチームの仕様](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)を参照してください。
+2017年12月12日、Teams での通話プランのお知らせ:[インテリジェントコミュニケーションは、teams での通話の次の手順を実行し](https://aka.ms/ipyqus)ます。
 
 > [!NOTE]
-> 現在、ボイスメールするには、[通話] タブで使用可能な PSTN の呼び出しに対して、ユーザーが有効になっています。 
+> このクイックスタートガイドと並行して、[通話プランを使って電話システム](calling-plan-landing-page.md)を読み、ロールアウトを計画して成功させるために[fasttrack](https://aka.ms/cloudvoice)を使用することをお勧めします。
 
-## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>チームでは、**ダイヤル パッド**を有効にするための前提条件
-チームで、[**ダイヤル パッド**] タブを有効にして、ユーザーが PSTN 通話を送受信できるようにするのには、電話システムおよび計画を呼び出すユーザーをプロビジョニングする必要があります。 プランの呼び出しを設定する方法については、[計画を呼び出す設定](https://docs.microsoft.com/microsoftteams/set-up-calling-plans)を参照してください。
+通話プランを追加することにより、Skype for Business を使用した Office 365 機能を利用できるようになりました。これで、チームを使って、市内電話網 (PSTN) 経由で、職場や携帯電話との通話を発信および受信することができます。
+
+![Teams での通話](media/Calling_in_Teams.png)
+## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams で「**通話**」タブを有効にするための前提条件
+Teams ユーザーの [**通話**] タブを有効にするには、teams で1:1 通話を有効にし、1:1 teams の通話をサポートするチームクライアントを使用する必要があります。 Teams で1:1 通話を管理する方法については、「 [Set-Csteamのポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)」を参照してください。 通話をサポートしているクライアントの詳細については、 [Microsoft Teams の制限事項と仕様](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)を参照してください。
 
 > [!NOTE]
-> 直接ルーティングを使用して、PSTN 通話を送受信するユーザーを許可することができますもします。 直接ルーティングを設定する方法については、[直接ルーティングの構成](https://docs.microsoft.com/microsoftteams/direct-routing-configure)を参照してください。
+> 現時点では、ユーザーが PSTN 通話を有効にしていない限り、[通話] タブでボイスメールを利用することはできません。 
 
-## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>呼び出しの着陸場所のコントロールに TeamsUpgradePolicy を使用してください。
-チームやビジネス用の Skype で着信呼び出し (およびチャット) が着陸するかどうかを制御するには、管理者は TeamsUpgradePolicy、いずれかの[マイクロソフトのチーム管理センター](https://aka.ms/teamsadmincenter)を使用するか、リモートの Windows PowerShell セッションを使用して、[ビジネスの Skype](https://docs.microsoft.com/powershell/module/skype)でを使用します。コマンドレットです。
+## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Teams で**ダイヤルパッド**を有効にするための前提条件
+Teams で [**ダイヤルパッド**] タブを有効にして、ユーザーが PSTN 通話を発信および受信できるようにするには、電話システムと通話プランのユーザーをプロビジョニングする必要があります。 通話プランの設定方法については、「[通話プラン](https://docs.microsoft.com/microsoftteams/set-up-calling-plans)をセットアップする」を参照してください。
+
+> [!NOTE]
+> また、直接ルーティングを使用して、ユーザーが PSTN 通話を発信および受信できるようにすることもできます。 ダイレクトルーティングを設定する方法については、「 [Direct ルーティングを構成](https://docs.microsoft.com/microsoftteams/direct-routing-configure)する」を参照してください。
+
+## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>TeamsUpgradePolicy を使用して、通話の陸地を制御する
+チームまたは Skype for business で着信通話 (およびチャット) が着陸するかどうかを制御するには、 [Microsoft Teams 管理センター](https://aka.ms/teamsadmincenter)を使用するか、または[skype for Business](https://docs.microsoft.com/powershell/module/skype)でリモート Windows PowerShell セッションを使用して、管理者が TeamsUpgradePolicy を使用します。cmdlet.
 
 
-TeamsUpgradePolicy の既定の構成は、諸島のモードは、その既存のビジネス ワークフローはチームに展開したときは中断されないことを確認するよう設計されています。 既定では、VoIP と PSTN、ユーザーにフェデレーションの呼び出しは引き続きチームへの着信通話を有効にするポリシーを更新するまでは、Skype のビジネスにルーティングされます。  受信者は、島のモードでは。
+TeamsUpgradePolicy の既定の構成は諸島モードであり、チームの展開時に既存のビジネスワークフローが中断されないように設計されています。 既定では、ユーザーへの VoIP、PSTN、およびフェデレーションされた通話は、ポリシーを更新してチームへの着信通話を有効にするまで、引き続き Skype for Business にルーティングされます。  受信者が諸島モードの場合:
 
- - VOIP の着信呼び出しに由来する Skype ビジネスの常にビジネス クライアント用の受信者の Skype での着陸。
- - 着信 VOIP 電話の*送信者と受信者は、同じテナントのかどうかは*、チームのチームの土地に由来します。
- - 着信の連合 (クライアントに関係なく元の場所) の VOIP と PSTN では常に受信者の Skype の土地ビジネス クライアントです。
+ - Skype for Business で発生した着信 VOIP 通話は、常に受信者の Skype for business クライアントに着陸します。
+ - *送信者と受信者が同じテナントにある場合*、teams で発生した着信 VOIP 通話。
+ - 受信したフェデレーション VOIP (クライアントの種類に関係なく) と PSTN 通話は、常に受信者の Skype for Business クライアントにあります。
  
-着信 VOIP と PSTN がように常にユーザーのチームのクライアントでの着陸をするには更新のユーザーの共存のモードを TeamsOnly (これは TeamsUpgradePolicy の"UpgradeToTeams"のインスタンスを割り当てることを意味します。  共存モードおよび TeamsUpgradePolicy の詳細については、「[チームとは、ビジネス用 Skype を使用する組織の移行と相互運用性](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)の使用」を参照してください。
+受信した VOIP と PSTN の通話が常にユーザーのチームクライアントに確実に含まれるようにするには、ユーザーの共存モードを [チームのみ] に更新します (つまり、TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てます)。  共存モードと TeamsUpgradePolicy の詳細については、「[チームと Skype For business を併用する組織向けの移行と相互運用性に関するガイダンス](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)」を参照してください。
 
-**メモ**
- - ビジネス IP 電話の Skype ユーザーが TeamsOnly モードである場合でも、呼び出しが表示されます。  
- - (例: 割り当てられている OnlineVoiceRoutingPolicy の値)、ビジネス オンラインはチームで有効になっている [通話] タブがありからの発信の PSTN 通話を配置することができますは、Skype で使用するライセンスの電話システムとプランを呼び出すことでプロビジョニングされているユーザー管理者は、管理操作を実行する必要のないチームです。
+**記録**
+ - Skype for Business の IP 電話では、ユーザーが teams モードのみを使用している場合でも、通話が受信されます。  
+ - Skype for Business Online で使用するために、電話システムと通話プランを使ってプロビジョニングされたユーザー (OnlineVoiceRoutingPolicy の値が割り当てられている場合) は、Teams で [通話] タブが有効になり、送信 PSTN 通話を発信できます。管理者がいないチームで、管理者の操作を行う必要があります。
 
 
-### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>チームでの呼び出しを受信したすべての VOIP と PSTN を受信するユーザーを構成する方法
-ユーザー チームのすべての着信 VOIP と PSTN の呼び出しを受信することを確認するには、マイクロソフトのチーム管理センターで、ユーザーの共存モードを TeamsOnly に設定またはリモートの Windows PowerShell セッションをビジネス用の Skype を使用して、次のように TeamsUpgradePolicy を更新します。
+### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Teams でのすべての受信 VOIP および PSTN 通話を受信するようにユーザーを構成する方法
+ユーザーが受信した VOIP および PSTN 通話をすべて Teams で確実に受信できるようにするには、Microsoft Teams 管理センターでユーザーの共存モードを Teams に設定するか、Skype for Business リモート Windows PowerShell セッションを使用して、次のように TeamsUpgradePolicy を更新します。
 
     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
 
@@ -76,7 +76,7 @@ TeamsUpgradePolicy の既定の構成は、諸島のモードは、その既存�
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[通話プランと電話システム](calling-plan-landing-page.md)
+[通話プランを使用した電話システム](calling-plan-landing-page.md)
 
-[Skype のビジネスの PowerShell コマンドレットのリファレンス](https://docs.microsoft.com/powershell/module/skype)
+[Skype for Business PowerShell コマンドレットリファレンス](https://docs.microsoft.com/powershell/module/skype)
 

@@ -13,7 +13,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
-description: ディレクトリのカスタマイズされたビューを提供するマイクロソフトのチームのスコープ指定されたディレクトリ検索を使用する方法について説明します。
+description: Microsoft Teams のスコープ指定ディレクトリ検索を使用して、ディレクトリのカスタマイズされたビューを提供する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
@@ -27,34 +27,34 @@ ms.locfileid: "32226654"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams の範囲指定ディレクトリ検索を使用する
 
-マイクロソフト チームのスコープ指定されたディレクトリ検索では、ユーザーが検索し、組織内の他のユーザーとの通信方法を制御する仮想の境界を作成することが可能します。 
+Microsoft Teams 範囲指定ディレクトリ検索を使用すると、組織は、ユーザーが組織内の他のユーザーを検索して通信する方法を制御する仮想境界を作成することができます。 
 
-マイクロソフトのチームでは、組織のユーザーに、ディレクトリのユーザー設定のビューを提供することができます。 マイクロソフトのチームでは、これらのカスタム ビューをサポートするために[Exchange アドレス帳ポリシー](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)を使用します。 ポリシーを有効にすると、(たとえば、チャットを開始する、またはチームにメンバーを追加するのには) 他のユーザーの検索によって返される結果は構成されているポリシーに従ってスコープします。 ユーザーは検索するか、対象とした検索が有効な場合にチームを検出することができません。 
+Microsoft Teams を使用すると、組織はディレクトリのカスタムビューをユーザーに提供できます。 Microsoft Teams では、これらのカスタムビューをサポートするために[Exchange アドレス帳ポリシー](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)が使用されています。 ポリシーを有効にすると、他のユーザーの検索結果 (チャットの開始やチームへのメンバーの追加など) は、構成されたポリシーに従って範囲設定されます。 スコープ指定された検索が有効になっている場合、ユーザーはチームを検索または検出できません。 
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>スコープ指定されたディレクトリ検索を使用する場合
+## <a name="when-should-you-use-scoped-directory-searches"></a>スコープディレクトリ検索を使用する場合
 
-スコープ指定されたディレクトリ検索からメリットを得られるシナリオでは、アドレス帳ポリシーのシナリオに似ています。 たとえば、スコープ指定されたディレクトリ検索を使用して、次のような状況でする可能性があります。
+スコープを指定したディレクトリ検索を利用するシナリオは、アドレス帳ポリシーのシナリオと似ています。 たとえば、次のような場合には、スコープ指定されたディレクトリ検索を使用することができます。
 
 - 所属する組織において、テナント内に複数の会社があり、それらを切り離された状態で維持する場合。 
 - 所属する学校において、教職員と学生との間のチャットを制限する必要がある場合。 
  
-アドレス帳ポリシーを使用する方法については、[アドレス帳ポリシー Exchange オンライン](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)を参照してください。
+アドレス帳ポリシーの使用方法については、「 [Exchange Online のアドレス帳ポリシー](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)」を参照してください。
 
 > [!IMPORTANT]
-> アドレス帳のポリシーでは、のみ、仮想の分離のユーザー ディレクトリの観点からを提供します。 ユーザーは、完全な電子メール アドレスを提供することで他のユーザーとの通信を開始することができますも。 重要なことが既にキャッシュされている、新しいまたは更新されたアドレス帳のポリシーの適用前にすべてのユーザー データはユーザーが引き続き利用を 30 日間もできます。
+> アドレス帳ポリシーは、ディレクトリの観点からのユーザーの仮想的な分離のみを提供します。 ユーザーは、完全なメールアドレスを提供して、他のユーザーとの通信を開始することができます。 また、新規または更新されたアドレス帳ポリシーを適用する前に、既にキャッシュされていたすべてのユーザーデータは、最大30日間はユーザーに対して利用可能になることに注意する必要があります。
 
-## <a name="enable-scoped-directory-search"></a>スコープ指定されたディレクトリの検索を有効にします。
+## <a name="enable-scoped-directory-search"></a>スコープ指定されたディレクトリ検索を有効にする
 
-1.  仮想サブグループに組織を構成するのにには、アドレス帳ポリシーを使用します。 詳細については、[アドレス帳ポリシーの手順](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)を参照してください。
+1.  アドレス帳ポリシーを使用して、組織を仮想サブグループに構成します。 詳細については、「[アドレス帳ポリシーの手順](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)」を参照してください。
 
-2.  Microsoft 365 の管理センターにサインインするのに、**管理センター**をを選択し、**チームの & Skype**。
+2.  Microsoft 365 管理センターにサインインし、[**管理センター**]、[ **Teams & Skype**] の順に選択します。
  
-3.  マイクロソフトのチーム管理センターで、**組織全体の設定**を選択します > **チームの設定**です。
+3.  Microsoft Teams 管理センターで、[**組織全体の設定** > **チームの設定**] を選択します。
 
-4.  **検索**、**チームが Exchange アドレス帳ポリシー (APB) を使用してディレクトリ検索のスコープ**をで **[** 表示/非表示をオンにします。 
+4.  [**検索**] の [ **Exchange アドレス帳ポリシー (apb) を使用して Teams で検索**する] の横**** にある [オン] に切り替えます。 
 
-    ![マイクロソフトのチーム管理センターのディレクトリ検索のスコープ](media/teams-scoped-directory-search-image1.png)
+    ![Microsoft Teams 管理センターでのスコープディレクトリ検索](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
-> ハイブリッド構成 (Exchange、オンプレミスのチーム) は、対象とした検索モードをサポートしていません。 
+> ハイブリッド構成 (Exchange オンプレミスの Teams) では、範囲指定検索モードはサポートされません。 
 

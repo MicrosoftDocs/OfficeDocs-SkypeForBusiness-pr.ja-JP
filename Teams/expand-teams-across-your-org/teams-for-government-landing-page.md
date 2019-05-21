@@ -1,6 +1,6 @@
 ---
 title: '政府機関用の Teams '
-description: 計画および Microsoft 365 政府機関環境でチームを配置する方法について説明します。
+description: Microsoft 365 Government 環境で Teams を計画して展開する方法について説明します。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -21,7 +21,7 @@ ms.locfileid: "32246385"
 ---
 # <a name="teams-for-government"></a>政府機関用の Teams 
 
-365 政府の Microsoft 環境でのチームの展開を計画し、これらのリソースを使用します。
+これらのリソースを使用して、Microsoft 365 Government 環境でのチームの計画と展開を行います。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -35,7 +35,7 @@ ms.locfileid: "32246385"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Microsoft 365 政府の GCC の展開の計画</h3>
+                        <h3>Microsoft 365 Government-GCC 展開を計画する</h3>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ ms.locfileid: "32246385"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Microsoft 365 政府の DOD の展開の計画</h3>
+                        <h3>Microsoft 365 Government-DOD の展開計画</h3>
                     </div>
                 </div>
             </div>

@@ -4,48 +4,48 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: '概要: は、ユーザー設定のサービスの一部では、ユーザー設定の取得操作について説明します。 ユーザー設定のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 91f8c60a33c6126f61901c4d73e4a6f2c5b5e1f4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: ユーザー設定サービスの一部である [ユーザー設定の取得] 操作について説明します。 ユーザー設定サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: 295e12405eb6a7ebbf45b87e3a06f3a745b90bad
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930729"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274654"
 ---
 # <a name="get-user-setting"></a>ユーザー設定の取得
  
-**の概要:** ユーザー設定のサービスの一部では、ユーザー設定の取得操作について説明します。 ユーザー設定のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**概要:** ユーザー設定サービスの一部である [ユーザー設定の取得] 操作について説明します。 ユーザー設定サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。
   
-ユーザー設定の取得操作は、ユーザーの設定でのサービス品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。
+"ユーザー設定の取得" 操作は、[リポジトリ API for Call Quality] ダッシュボードのユーザー設定サービスに含まれています。
   
 ## <a name="get-user-setting"></a>ユーザー設定の取得
 
-ユーザーの設定を返します。 1 つのユーザー設定を取得します。
+Get User Setting は、単一のユーザー設定を返します。
   
 
-|**メソッド**|**URI を要求します。**|**HTTP のバージョン**|
+|**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|取得  <br/> |https://\<ポータル\>/QoERepositoryService/リポジトリとユーザー/{ユーザー Id}/setting/{キー}  <br/> |HTTP 1.1/  <br/> |
+|取得  <br/> |https://\<ポータル\>の/QoERepositoryService/repository/user/{userId}/setting/{key}  <br/> |HTTP/1.1  <br/> |
    
- **URI パラメーター**を [なし] です。
+ **URI パラメーター** -なし。
   
- **要求ヘッダー**の追加のヘッダーではありません。
+ **ヘッダーを要求**する-追加のヘッダーは不要です。
   
- **リクエストの本文**の [なし] です。
+ **要求本文**-なし。
   
- **応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。
+ **応答**-応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。
   
- **ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。
+ **状態コード**-正常に動作している操作は、状態コード 200 (OK) を返します。
   
- **応答ヘッダー**の追加のヘッダーではありません。
+ **応答ヘッダー** -ヘッダーは追加されません。
   
- **応答本体**の JSON のサンプル応答の内容を次に示します。
+ **応答本文**-以下は JSON のサンプル応答ペイロードです。
   
 ```
 {
@@ -55,10 +55,10 @@ ms.locfileid: "33930729"
 }
 ```
 
- *ユーザー Id*がユーザーの ID。
+ *userId* -ユーザーの id です。
   
- *キー*の設定のキーです。
+ ** 設定のキーキー。
   
- *値*の設定の値です。
+ *値*-設定の値。
   
 

@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 08/29/2018
 ms.topic: conceptual
 ms.service: msteams
-description: チーム クライアントと Office 365 管理 web コンソールでは、についての会話を使用して、チームを教育する方法を使用して、パブリックとプライベートのグループを選択するなどの Office 365 のグループを計画する場合をする必要があります決定事項について説明します。
+description: パブリックグループとプライベートグループの選択などの Office 365 グループを計画するときに行う必要がある決定事項について説明します。チームクライアントまたは Office 365 管理 web コンソールを使用して、会話の使用についてチームを教育する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -29,9 +29,9 @@ Office 365 グループを使用する場合やチームを作成する場合は
 
 Office 365 グループの計画と Microsoft Teams による影響 (または Microsoft Teams に対する影響) に関するディスカッションは次の 2 つのシナリオに分けることができます。
 
--   最初に、顧客グループに既存の投資があって後は、現在サポートしてパブリックとプライベートの両方のグループのメンバー数が 5,000 未満であります。 前述のように、ユーザーが Office 365 管理 web コンソールではなく、チームのクライアントを使用して、チームのメンバーシップを管理するためにします。 このシナリオでは、ユーザーが Office 365 のグループでの会話のスレッドに使用されている場合、ことがグループの会話にメールしていないチームのチャネルにチャット メッセージの形式は本質的にことを示すだけの価値です。 この違いについてユーザーを教育し、Outlook または OWA を使用してグループの電子メールを送信すると、チームでより柔軟性のあるチャット メッセージの形式を採用することを提案します。
+-   最初に、顧客は既存の投資をグループに含めることができるため、現在、5000メンバーより小さいパブリックグループとプライベートグループの両方をサポートしています。 前に説明したように、Office 365 管理 web コンソールではなく、Teams クライアントを使用して、チームのメンバーのメンバーシップを管理する必要があります。 このシナリオでは、ユーザーが Office 365 グループでスレッド化された会話に使用している場合は、グループの会話が本質的にメールであり、チームチャネルのチャットメッセージと同じではないことに注意してください。 この違いについてユーザーを教育して、より柔軟なチャットメッセージ形式を Teams で採用し、Outlook または OWA を使ってグループをメールで送信することをお勧めします。
 
--   第 2 に、Office 365 で定義されている既存のグループを持たないお客様の場合は、作成することも、Office 365 管理ポータルでは、チームの web またはデスクトップ クライアントを使用しています。 前述のように、すべての将来チームのクライアントを使用して Office 365 のグループ メンバーシップを管理します。 チームのメンバーシップは、メンバーシップを定義する、Office 365 のグループには、ので、この変更の人を準備する必要があります。
+-   次に、Office 365 で既存のグループが定義されていないユーザーの場合、Office 365 管理ポータル、Teams web、またはデスクトップクライアントを使用して作成することができます。 前に説明したように、Teams クライアントを使用して、今後の Office 365 グループへのすべてのメンバーシップを管理します。 チームのメンバーシップも Office 365 グループへのメンバーシップを定義しているため、この変更についてユーザーを準備する必要があります。
  
 
 
@@ -44,10 +44,10 @@ Office 365 グループの計画と Microsoft Teams による影響 (または M
 
 詳しくは、「[Office 365 グループの名前付けポリシー](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)」をご覧ください。
 
-以下の資料は、Office 365 グループの準備と導入のコンテンツを検索するに適してです。
+次の記事は、Office 365 グループの準備および導入のためのコンテンツを見つけるのに最適な場所です。
 
 -   [Get more with groups in Outlook (Outlook でグループを活用する)](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
--   [追加または Microsoft 365 管理センターを使用して Office 365 のグループからメンバーを削除します。](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [Microsoft 365 管理センターを使用して、Office 365 グループのメンバーを追加または削除する](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
--   [削除された Office 365 のグループを復元します。](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
+-   [削除した Office 365 グループを復元する](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

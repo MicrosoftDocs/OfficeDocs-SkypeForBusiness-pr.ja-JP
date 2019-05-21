@@ -5,44 +5,44 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddFrontEndSqlStorePage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
-description: 構成している新しいフロント エンド プールの SQL Server ストアのプロパティを定義するとします。
-ms.openlocfilehash: c60828952368d16d425feba6648ba420fe36b0fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 構成する新しいフロントエンドプールの SQL Server ストアのプロパティを定義します。
+ms.openlocfilehash: 6c0fda5d2e3e1ea9dbfba1db9e6f3ed1a3f4080a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903727"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275340"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Lync Server 2010 用のフロントエンド SQL ストアの追加ページ
  
-構成している新しいフロント エンド プールの SQL Server ストアのプロパティを定義するとします。
+構成する新しいフロントエンドプールの SQL Server ストアのプロパティを定義します。
   
 > [!IMPORTANT]
-> Standard Edition サーバーを構成する場合、このダイアログ ボックスが表示されますが、設定を構成することはできません。 [**次へ**] をクリックして続行します。
+> Standard Edition サーバーを構成している場合、このダイアログボックスは表示されますが、設定を構成することはできません。 [**次へ**] をクリックして続行します。
   
-設定を構成できます。
+次の設定を構成できます。
   
-- **以前に定義された SQL Server ストアを使用する**: フロント エンド プールのストアの一覧から既存の SQL Server ストアを選択します。
+- **以前に定義された Sql server ストアを使用**します。フロントエンドプールストアの一覧から既存の sql server ストアを選択します。
     
-- 新しい SQL Server ストアを作成する**新しい SQL Server の定義を保存**を選択します。
+- [**新しい Sql server ストアの定義**] を選択して、新しい sql server ストアを作成します。
     
-    **SQL Server の FQDN**で SQL Server の完全修飾ドメイン名を入力します。
+    Sql server **FQDN**で sql server の完全修飾ドメイン名を入力する
     
-    の**既定のインスタンス**が最初に選択されます。 インスタンスを定義する場合は、**名前付きインスタンス**を選択し、作成する必要があるインスタンスの名前を入力します。
+    **既定のインスタンス**が最初に選択されます。 インスタンスを定義する場合は、[**名前付きインスタンス**] を選択し、作成する必要があるインスタンスの名前を入力します。
     
   **戻る**: 前のダイアログに戻ります。
   
-  **次**: 変更をコミットし、次のステップ] ダイアログ ボックスに移動
+  **次へ**: 変更をコミットし、次の手順のダイアログに移動します。
   
-  **キャンセル**: 変更を破棄し、構成をキャンセルします。
+  **[キャンセル]**: 変更を破棄して構成を取り消します。
   
-  **ヘルプ**: このトピックなどの情報のヘルプを表示
+  [**ヘルプ**]: このトピックなどのヘルプ情報を表示します。
   
 

@@ -1,29 +1,29 @@
 ---
-title: 修正プログラムを適用またはビジネスのサーバーの Skype のバック エンド サーバーまたは Standard Edition サーバーを更新します。
+title: Skype for Business Server のバックエンドサーバーまたは Standard Edition サーバーを修正または更新する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
-description: '概要: ビジネス サーバーの Skype のバック エンド サーバー上の更新プログラムまたは修正プログラムをインストールする方法を説明します。'
-ms.openlocfilehash: d00f740ef328abe7a58a61d831c4fcd0eae93fc8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のバックエンドサーバーに更新プログラムまたは更新プログラムをインストールする方法について説明します。'
+ms.openlocfilehash: b8a0280577147e37c52ab11aa3061541bae27610
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911995"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275123"
 ---
-# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>修正プログラムを適用またはビジネスのサーバーの Skype のバック エンド サーバーまたは Standard Edition サーバーを更新します。
+# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Skype for Business Server のバックエンドサーバーまたは Standard Edition サーバーを修正または更新する
  
-**の概要:** ビジネス サーバーの Skype のバック エンド サーバー上の更新プログラムまたは修正プログラムをインストールする方法について説明します。
+**概要:** Skype for Business Server のバックエンドサーバーに更新プログラムまたは更新プログラムをインストールする方法について説明します。
   
-このトピックでは、エンタープライズ エディション バック エンド サーバーまたは Standard Edition サーバーに更新プログラムをインストールする方法について説明します。
+このトピックでは、Enterprise Edition バックエンドサーバーまたは Standard Edition サーバーに更新プログラムをインストールする方法について説明します。
   
-場合は、バック エンド サーバーを 30 分以上にアップグレードするときに、ユーザーが復元モードに進みます。 アップグレードが完了すると、バック エンド サーバーがプール内のフロント エンド サーバーと接続がもう一度、すべての機能にユーザーが返されます。 アップグレードが 30 分未満の場合、ユーザーには影響ありません。
+アップグレード中に少なくとも30分間バックエンドサーバーが停止している場合、ユーザーは回復性モードに移行することがあります。 アップグレードが完了し、バックエンドサーバーがプール内のフロントエンドサーバーに再度接続されると、ユーザーは完全な機能に戻ります。 アップグレードが 30 分未満の場合、ユーザーには影響ありません。
   
 ### <a name="to-update-a-back-end-server-or-standard-edition-server"></a>バックエンド サーバーまたは Standard Edition サーバーを更新するには
 
@@ -31,9 +31,9 @@ ms.locfileid: "33911995"
     
 2. 更新をダウンロードして、ローカル ハードディスクに抽出します。
     
-3. ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、**ビジネスの Skype**をクリック**ビジネス サーバー管理シェルの Skype**.
+3. Skype for Business Server 管理シェルを開始します。 [**スタート**]、[**すべてのプログラム**]、[ **skype For business**]、[ **skype for business server 管理シェル**] の順にクリックします。
     
-4. Skype をビジネス サーバー サービスを停止します。 コマンド ラインで次を入力します。
+4. Skype for Business Server サービスを停止します。 コマンド ラインで次を入力します。
     
     ```
     Stop-CsWindowsService
@@ -45,13 +45,13 @@ ms.locfileid: "33911995"
     net stop w3svc
    ```
 
-6. すべての Skype ビジネス サーバー管理シェル ウィンドウを閉じます。
+6. すべての Skype for Business Server 管理シェルウィンドウを閉じます。
     
 7. 更新をインストールします。
     
-8. ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、**ビジネスの Skype**をクリック**ビジネス サーバー管理シェルの Skype**です。
+8. Skype for Business Server 管理シェルを開始します。 [**スタート**]、[**すべてのプログラム**]、[ **skype For business**]、[ **skype for business server 管理シェル**] の順にクリックします。
     
-9. -D のアセンブリをグローバル アセンブリ キャッシュ (GAC) をキャッチするには、もう一度ビジネス サーバー サービスの Skype を停止します。 コマンド ラインで次を入力します。
+9. Skype for Business Server サービスをもう一度停止して、グローバルアセンブリキャッシュ (GAC) アセンブリをキャッチします。 コマンド ラインで次を入力します。
     
     ```
     Stop-CsWindowsService
@@ -65,19 +65,19 @@ ms.locfileid: "33911995"
 
 11. 次のいずれかを実行して、SQL Server データベースに対する変更を適用します。
     
-    - エンタープライズ エディション バック エンド サーバー、アーカイブなど、サーバー上に配置されているデータベースやデータベースの監視が存在しない、する場合は、コマンド ・ ラインで次を入力します。
+    - Enterprise Edition バックエンドサーバーで、データベースのアーカイブや監視など、このサーバー上に併置されたデータベースがない場合は、コマンドラインで次のように入力します。
     
     ```
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     ```
 
-    - これは、エンタープライズ エディション バック エンド サーバーであり、このサーバー上に配置されているデータベースがある場合、は、コマンド ・ ラインで次を入力します。
+    - Enterprise Edition バックエンドサーバーで、このサーバーに併置されたデータベースがある場合は、コマンドラインで次のように入力します。
     
     ```
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     ```
 
-    - Standard Edition サーバーの場合は、コマンド ・ ラインで次を入力します。
+    - Standard Edition サーバーの場合は、コマンドラインで次のように入力します。
     
     ```
     Install-CsDatabase -Update -LocalDatabases

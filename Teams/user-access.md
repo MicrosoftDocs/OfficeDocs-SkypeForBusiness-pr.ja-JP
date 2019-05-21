@@ -28,33 +28,33 @@ ms.locfileid: "33584234"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-ユーザー レベルでは、マイクロソフトのチームへのアクセスを有効またはの割り当てまたはチームの Microsoft 製品のライセンスを削除して、ユーザーごとに無効にすることができます。
+ユーザーレベルでは、microsoft Teams 製品ライセンスを割り当てまたは削除することで、ユーザーごとに Microsoft Teams へのアクセスを有効または無効にすることができます。
 
-メッセージング ポリシー、管理、チーム管理センターから、チーム内のユーザーに利用可能などのようなチャットとチャネルのメッセージング機能を制御するために使用します。 既定のポリシーを使用したり、組織内のユーザーの 1 つまたは複数のカスタム メッセージング ポリシーを作成できます。 詳細については、[チーム内のメッセージング ポリシーの管理](messaging-policies-in-teams.md)を参照してください。
+Teams 管理センターから管理されるメッセージポリシーを使用して、Teams のユーザーが利用できるチャットおよびチャネルメッセージング機能を制御します。 組織内のユーザーに対して、既定のポリシーを使用するか、1つ以上のカスタムメッセージポリシーを作成することができます。 詳細については、「 [Teams のメッセージングポリシーを管理する」](messaging-policies-in-teams.md)を参照してください。
 
 > [!NOTE]
->オンにするチーム、会社のすべてのユーザーのプロジェクトおよびその他の動的なイニシアティブの実施はチームを形成することができますようにすることをお勧めします。 決定する場合でも、パイロットがありますされるため、すべてのユーザーに対して有効になっているチームが、ユーザーのパイロット グループへの通信のみを対象とすると便利です。
+>組織内のすべてのユーザーに対して Teams を有効にすることをお勧めします。これにより、チームはプロジェクトやその他の動的なイニシアチブの organically を形成することができます。 パイロットを決定している場合でも、チームをすべてのユーザーに対して有効にしておくことをお勧めしますが、ユーザーのパイロットグループとの通信のみを対象としています。
 
-## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターを使用してチームを管理します。
+## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターを使用してチームを管理する
 
-チームのユーザー レベルのライセンスは、Microsoft 365 管理センターのユーザーの管理インターフェイスを使用して直接管理されます。 管理者は、新しいユーザーの新しいユーザー アカウントを作成するときに、または既存のアカウントを持つユーザーにライセンスを割り当てることができます。 管理者は、マイクロソフトのチームのライセンスを管理するために Office 365 のグローバル管理者またはユーザー管理者の権限が必要です。
+Teams のユーザーレベルのライセンスは、Microsoft 365 管理センターのユーザー管理インターフェイスを使用して直接管理されます。 管理者は、新しいユーザーアカウントが作成されたとき、または既存のアカウントを持つユーザーに対して、新しいユーザーにライセンスを割り当てることができます。 管理者は、Microsoft Teams のライセンスを管理するための Office 365 グローバル管理者またはユーザー管理者の権限を持っている必要があります。
 
 E3 または E5 といったライセンス SKU をユーザーに割り当てる場合、Microsoft Teams ライセンスが自動的に割り当てられ、そのユーザーには Microsoft Teams が有効化されます。管理者はすべての Office 365 サービスとライセンスを細かく制御できます。特定のユーザーまたはグループの Microsoft Teams ライセンスを有効または無効にすることができます。
 
 ![Office 365 管理センターの [製品ライセンス] セクションのスクリーンショット。](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
 
-チームのユーザー ライセンスは、いつでも無効にできます。 ライセンスを無効にすると、マイクロソフトのチームへのユーザー アクセスが禁止され、ユーザーが Office 365 アプリケーション起動ツールをクリックし、ホームページでチームを表示しなくなります。
+Teams ユーザーライセンスは、いつでも無効にすることができます。 ライセンスを無効にすると、ユーザーは Microsoft Teams へのアクセスを許可されなくなり、Office 365 アプリ起動ツールとホームページで Teams を表示することはできなくなります。
 
 ![Microsoft Teams が選択されていることを示す Office 365 管理センターの [製品ライセンス] セクションのスクリーンショット。](media/Manage_user_access_to_Microsoft_Teams_image4.png)
 
-## <a name="manage-via-powershell"></a>PowerShell を使用して管理します。
+## <a name="manage-via-powershell"></a>PowerShell を使用して管理する
 
 > [!IMPORTANT]
-> MsolLicenseOptions では新しいがない限り、以前に無効にされたすべてのサービスを有効にする、カスタマイズされたスクリプトでは identitied explictitly です。 例として、両方の Exchange & 135、139、445、チームの無効化中に無効になっている影響を与えるのままにする場合はする必要があります各自にこのスクリプトに影響を与えるが有効になりますが認められたユーザーの両方の Exchange &。 この機能を管理するために GUI を利用する場合を参照してください: [Office 365 のライセンスのレポートおよび管理ツールを一括で削除するライセンスを割り当てる](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
+> MsolLicenseOptions を使うと、カスタマイズされたスクリプトに explictitly 識別子が関連付けられていない限り、以前に無効になったすべてのサービスを有効にすることができます。 たとえば、additonally Teams を無効にしている間も Exchange Sway を無効にする必要がある場合は、この操作をスクリプトで実行するか、または両方とも Exchange & Sway を有効にして、特定のユーザーに対して有効にする必要があります。 GUI を使用してこの機能を管理する場合は、「 [Office 365 ライセンスレポートと管理ツール-一括](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)してライセンスを削除する」を参照してください。
 
-PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。 Microsoft Teams ではサービス プランの名前は TEAMS1 になります。 GCC のサービス計画の名前は TEAMS_GOV です。 GCC の高いサービス プラン名の TEAMS_GCCHIGH。 DoD サービス計画の名前は TEAMS_DOD の (「」を参照[へのアクセスを無効にするには、Office 365 の PowerShell でサービス](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)の詳細についてです。)
+PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。 Microsoft Teams ではサービス プランの名前は TEAMS1 になります。 GCC の場合、サービスプラン名は TEAMS_GOV です。 GCC 高の場合、サービスプラン名は TEAMS_GCCHIGH です。 DoD の場合、サービスプラン名は TEAMS_DOD (詳細については、「 [Office 365 PowerShell によるサービスへのアクセスを無効](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)にする」を参照してください。)
 
-**サンプル:** クイック サンプルだけに特定のライセンスの種類のすべてのユーザーのチームを無効する方法を次に示します。 まずこの方法を行い、次にパイロットで使用する目的でアクセスが必要なユーザーに対して個別に有効にする必要があります。
+**サンプル:** 次に示すのは、特定のライセンスの種類のすべてのユーザーに対して Teams を無効にする方法の簡単なサンプルです。 まずこの方法を行い、次にパイロットで使用する目的でアクセスが必要なユーザーに対して個別に有効にする必要があります。
 
 組織内で利用可能なサブスクリプションの種類を表示するには、次のコマンドを使用します。
 
@@ -64,15 +64,15 @@ PowerShell からワークロード ライセンスとして Teams を有効ま�
 
       $acctSKU="<plan name>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
-チームを名前付きのプランのアクティブなライセンスを持つすべてのユーザーを無効にするには、次のコマンドを実行します。
+指定したプランのアクティブなライセンスを持つすべてのユーザーのチームを無効にするには、次のコマンドを実行します。
 
       Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 
 | | | |
 |---------|---------|---------|
-|![判断ポイント アイコン。](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |判断ポイント         |<ul><li>チームの契約時に、組織の計画は、組織全体にわたって何ですか。  パイロット (開く)</li></ul>         |
-|![次のステップ アイコン。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |次のステップ         |<ul><li>かどうか、ライセンスを使用して実行するか、通信を対象としたかどうか、試験運用が終了したを使用して契約時を決定します。</li><li>によって意思決定を行うパイロット ・ チームを (必要な場合) にアクセスを許可されているユーザーのみを確認する手順を実行します。</li><li>ユーザーの人は (表示されません) のガイドラインをドキュメント チームへのアクセスがあります。</li></ul>         |
+|![判断ポイント アイコン。](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |判断ポイント         |<ul><li>組織全体でのチームのオンボードの計画はどのようなものですか?  (パイロットまたはオープン)</li></ul>         |
+|![次のステップ アイコン。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |次のステップ         |<ul><li>終了したパイロットによるオンボードの場合は、ライセンスまたは対象指定の通信を使用するかどうかを決定します。</li><li>決定に応じて、チームへのアクセスが許可されているパイロットユーザー (必要な場合) だけを確認するための手順を実行します。</li><li>Teams へのアクセス権を持つ (または使用しない) ユーザーを対象としたガイドラインを文書化します。</li></ul>         |
 
-## <a name="manage-teams-at-the-office-365-tenant-level"></a>Office 365 テナントのレベルでチームを管理します。
+## <a name="manage-teams-at-the-office-365-tenant-level"></a>Office 365 テナントレベルでチームを管理する
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 

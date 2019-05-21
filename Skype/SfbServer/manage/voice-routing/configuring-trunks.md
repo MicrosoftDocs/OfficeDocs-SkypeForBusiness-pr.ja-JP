@@ -1,33 +1,33 @@
 ---
-title: ビジネス サーバーの Skype でトランクを構成します。
+title: Skype for Business Server で trunks を構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: エンタープライズ VoIP 展開の一部として、エンタープライズ VoIP クライアントと、組織内のデバイスの公衆交換電話網 (PSTN) 接続を提供するには、仲介サーバーと 1 つまたは複数のピア間のトランクを構成できます。
-ms.openlocfilehash: 293685436997833c21dbd7b0d98521202e1beb99
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: エンタープライズ Voip の展開の一部として、仲介サーバーと1つ以上のピアの間でトランクを構成して、組織内のエンタープライズ Voip クライアントとデバイスの公衆交換電話網 (PSTN) 接続を提供できます。
+ms.openlocfilehash: c350723720dccee069a28a4d9aa2c40517f6d1bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896265"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275004"
 ---
-# <a name="configuring-trunks-in-skype-for-business-server"></a>ビジネス サーバーの Skype でトランクを構成します。
+# <a name="configuring-trunks-in-skype-for-business-server"></a>Skype for Business Server で trunks を構成する
 
-エンタープライズ VoIP 展開の一部として、仲介サーバーと 1 つ以上のエンタープライズ VoIP クライアントと、組織内のデバイスの公衆交換電話網 (PSTN) 接続を提供する次のピア間のトランクを構成できます。
+エンタープライズ Voip の展開の一部として、仲介サーバーと次のピアの1つ以上にトランクを構成して、組織内のエンタープライズボイスクライアントとデバイスの公衆交換電話網 (PSTN) 接続を提供できます。
 
 - インターネット テレフォニー サービス プロバイダー (ITSP) への SIP トランク接続
 - PSTN ゲートウェイ
 - 構内交換機 (PBX)
 
-詳細については、 [Skype のビジネス サーバーの PSTN への接続の計画](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)を参照してください。
+詳細については、「 [Skype For Business Server での PSTN 接続の計画](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)」を参照してください。
 
 > [!IMPORTANT]
-> トランク構成を開始する前に、トポロジが作成されたことと、仲介サーバーとそのピアを構成および相互に関連付けられているを確認します。 詳細については、 [Skype のビジネス サーバーで、トポロジ ビルダーでゲートウェイを定義する](../../deploy/deploy-enterprise-voice/define-a-gateway.md)を参照してください。
+> トランクの構成を開始する前に、トポロジが作成され、仲介サーバーとそのピアが構成されて互いに関連付けられていることを確認します。 詳細については、「 [Skype For Business Server のトポロジビルダーでゲートウェイを定義する](../../deploy/deploy-enterprise-voice/define-a-gateway.md)」を参照してください。
 
 > [!NOTE]
-> 、トランクの構成の一部として、Skype ビジネス サーバー メディア バイパス機能は、仲介サーバーをバイパスするメディアを有効にするを有効にできます。 またはメディアのバイパスを有効にせず、トランクを構成することができますが、それを有効にすることを強くお勧めします。 詳細については、[ビジネスの Skype で使用しないメディアの計画](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)を参照してください。
+> トランク構成の一部として、Skype for Business Server media バイパス機能を有効にすることで、メディアが仲介サーバーをバイパスすることを可能にすることができます。 Trunks は、メディアのバイパスを有効にするかどうかを指定して構成できますが、有効にすることを強くお勧めします。 詳細については、「 [Skype For business のメディアバイパスの計画](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)」を参照してください。

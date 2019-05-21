@@ -8,7 +8,7 @@ ms.date: 04/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: インストールし、マイクロソフトの StaffHub の PowerShell モジュールに接続する方法を説明します。
+description: Microsoft StaffHub PowerShell モジュールをインストールして接続する方法について説明します。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -25,22 +25,22 @@ ms.locfileid: "32245917"
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell モジュールをインストールする
 
 > [!IMPORTANT]
-> 2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 マイクロソフトのチームに StaffHub 機能が進められています。 今日では、チームには、スケジュール管理のためのシフトのアプリケーションが含まれていて、その他の機能が時間の経過と共に展開されます。 StaffHub は、2019 年 10 月 1 日ですべてのユーザーの作業を停止します。 StaffHub を開こうとするとすべての人がチームをダウンロードすることを指示するメッセージ表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。  
+> 2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。 2019年10月1日の StaffHub はすべてのユーザーに対して機能しなくなります。 StaffHub を開こうとしたユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。  
 
-インストールし、マイクロソフトの StaffHub の PowerShell モジュールへの接続をこの資料の手順を使用します。 この PowerShell を使用して StaffHub を管理して、マイクロソフトのチーム、StaffHub チームに移動する必要があります。
+この記事の手順を使用して、Microsoft StaffHub PowerShell モジュールをインストールして接続します。 これは、PowerShell を使用して StaffHub を管理し、StaffHub teams を Microsoft Teams に移動するために必要となります。
 
 ## <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell モジュールをインストールする
 
 1. [StaffHub PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha)をダウンロードします。 
-2. 3.0 以降は、管理者として、Windows PowerShell を開きます。 これを行うには、[**スタート**] ボタン、 **Windows PowerShell**を入力、 **Windows PowerShell**を右クリックし [**管理者として実行**します。
-3. 次のコマンドレットを実行します。
+2. Windows PowerShell 3.0 以降を管理者として開きます。 これを行うには、[**スタート**] をクリックし、「 **windows powershell**」と入力して、[ **windows powershell**] を右クリックし、[**管理者として実行**] を選びます。
+3. 次のコマンドを実行します。
 
     ```
     $ENV:PSModulePath
     ```
 
-4. 出力フォルダーのパスを確認し、次の手順に進む前に、コンピューター上のパスのすべてのフォルダーが存在するかどうかを確認します。 フォルダーが存在しない場合は、それらを作成します。
-5. 、次を実行、&lt;パス&gt;は、手順 2 からの出力のパス。 たとえば、パスは、C:\Users\User1\Documents\WindowsPowerShell\Modules のようになります。
+4. 出力のフォルダーパスを確認し、次の手順に進む前に、パス内のすべてのフォルダーがコンピューターに存在することを確認します。 フォルダーがない場合は、フォルダーを作成します。
+5. 次を実行します&lt;。&gt;ここで、path は手順2の出力のパスです。 たとえば、パスが C:\Users\User1\Documents\WindowsPowerShell\Modules. のように表示されることがあります。
 
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
@@ -49,17 +49,17 @@ ms.locfileid: "32245917"
     Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.2
     ```
 
-## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell モジュールへの接続します。
+## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell モジュールに接続する
 
-1. 次のコマンドレットを実行します。
+1. 次のコマンドを実行します。
 
     ```
     Connect-StaffHub
     ```
 
-2. グローバル管理者としてメッセージが表示されたら、ログします。
+2. メッセージが表示されたら、グローバル管理者としてログインします。
 
 ## <a name="related-topics"></a>関連トピック
 
-- [Microsoft StaffHub PowerShell 参照](https://docs.microsoft.com/en-us/powershell/module/staffhub/?view=staffhub-ps)
+- [Microsoft StaffHub PowerShell リファレンス](https://docs.microsoft.com/en-us/powershell/module/staffhub/?view=staffhub-ps)
 - [Microsoft StaffHub のチームを Teams の Shifts に移動する](move-staffhub-teams-to-shifts-in-teams.md)

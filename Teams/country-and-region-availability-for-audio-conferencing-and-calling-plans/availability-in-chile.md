@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: チリの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: a804a8955a676df8381d1dcb6a2cab4f17dfe840
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 次に、Skype for Business および Microsoft Teams 用の Office 365 サービスをチリで利用できます。
+ms.openlocfilehash: 7a3a4b0c49041660b72b39c20596c1c42f09f7c8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248158"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283163"
 ---
 # <a name="availability-in-chile"></a>チリでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-チリの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+次に、Skype for Business および Microsoft Teams 用の Office 365 サービスをチリで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。<br/><ul><li> サンティアゴ (チリ内の組織にのみ使用可能)</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li> サンティアゴ (チリ国内の組織でのみ利用可能)</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
@@ -67,8 +67,8 @@ ms.locfileid: "32248158"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |サンティアゴ  <br/> **注:** チリ内の組織にのみ使用できます。           |
-|有料電話番号は使用できますか?  <br/> |はい  <br/> **注:** チリ内の組織にのみ使用できます。           |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |サンティアゴ  <br/> **注:** チリ国内の組織でのみ利用可能です。           |
+|有料電話番号は使用できますか?  <br/> |はい  <br/> **注:** チリ国内の組織でのみ利用可能です。           |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。

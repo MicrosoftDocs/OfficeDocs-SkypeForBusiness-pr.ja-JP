@@ -1,29 +1,29 @@
 ---
-title: Skype でミラー データベース ビジネス サーバーの監視レポートを関連付ける
+title: Skype for Business Server のミラーデータベースに監視レポートを関連付ける
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: '概要: Skype ビジネス サーバーの使用、ミラー データベースの監視レポートを関連付ける方法を説明します。'
-ms.openlocfilehash: c598e8c14c5a592203501ca40264232ce344b2bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で使用されているミラーデータベースに監視レポートを関連付ける方法について説明します。'
+ms.openlocfilehash: 0727a278b87edd0b3666b04d169dcd3460c8215c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894536"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273967"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Skype でミラー データベース ビジネス サーバーの監視レポートを関連付ける 
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Skype for Business Server のミラーデータベースに監視レポートを関連付ける 
  
-**の概要:** Skype ビジネス サーバーの使用、ミラー データベースの監視レポートを関連付ける方法について説明します。
+**概要:** Skype for Business Server で使用されているミラーデータベースで監視レポートを関連付ける方法について説明します。
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>ミラー データベースを使用する監視レポート
 
-監視データベースのミラーを構成してあると、フェイルオーバーが発生した場合にそのミラー データベースがプライマリ データベースを引き継ぎます。 ただし、Skype を使用して、サーバーの監視レポートのビジネス、フェールオーバーが発生した場合は、場合があります、監視レポートがミラー データベースに接続していません。 これは、監視レポートをインストールするときにプライマリ データベースの場所だけを指定し、ミラー データベースの場所を指定していないためです。
+監視データベースのミラーを構成してあると、フェイルオーバーが発生した場合にそのミラー データベースがプライマリ データベースを引き継ぎます。 ただし、Skype for Business Server Monitoring レポートを使用してフェールオーバーが発生した場合は、監視レポートがミラーデータベースに接続されていない可能性があります。 これは、監視レポートをインストールするときにプライマリ データベースの場所だけを指定し、ミラー データベースの場所を指定していないためです。
   
 監視レポートがミラー データベースに自動的にフェイルオーバーされるようにするには、監視レポートが使う 2 つのデータベース (通話詳細記録データ用のデータベースと Quality of Experience (QoE) データ用のデータベース) に、ミラー データベースを "フェイルオーバー パートナー" として追加する必要があります (この手順は、監視レポートをインストールした後で実行する必要があります)。フェイルオーバー パートナー情報は、2 つのデータベースが使用する接続文字列の値を手動で編集することで追加できます。この操作を行うには、次の手順に従います。
   
@@ -41,7 +41,7 @@ ms.locfileid: "33894536"
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Reporting Services ホーム ページにアクセスしたら、[**ServerReports**]、[**Reports_Content**] の順にクリックします。 クリックすると、 **Reports_Content**ページ、Skype のビジネス サーバー レポートの監視します。
+2. Reporting Services ホーム ページにアクセスしたら、[**ServerReports**]、[**Reports_Content**] の順にクリックします。 これにより、Skype for Business Server Monitoring レポートの**Reports_Content**ページに移動します。
     
 3. [**Reports_Content**] ページで、[**CDRDB**] データ ソースをクリックします。
     
@@ -67,6 +67,6 @@ ms.locfileid: "33894536"
     
 ## <a name="see-also"></a>関連項目
 
-[Skype のビジネス サーバーの監視レポートをインストールします。](install-monitoring-reports.md)
+[Skype for Business Server で監視レポートをインストールする](install-monitoring-reports.md)
   
-[Skype ビジネス サーバーの監視のレポートの使用](../../manage/health-and-monitoring/monitoring-reports.md)
+[Skype for Business Server で監視レポートを使用する](../../manage/health-and-monitoring/monitoring-reports.md)

@@ -1,5 +1,5 @@
 ---
-title: ビジネス オンラインの Skype での設定を変更するときにユーザーに送信される e メール
+title: Skype for Business Online の設定が変更されたときにユーザーに送信されたメール
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,81 +12,81 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'どのような情報については自動的にユーザーに電子メールで送信されたビジネス オンラインの Skype で、ダイヤルイン会議の設定を変更するときについて説明します。 '
-ms.openlocfilehash: 814414139c985de6571a7e48aeb0bff208aa9ce3
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+description: 'Skype for Business Online でダイヤルイン会議の設定が変更されたときに、メールで自動的に送信される情報について説明します。 '
+ms.openlocfilehash: 7f16e4dfdb108111767f173295044ca4bdfc0475
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865082"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275625"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>ビジネス オンラインの Skype での設定を変更するときにユーザーに送信される e メール
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Skype for Business Online の設定が変更されたときにユーザーに送信されたメール
 
 > [!Note]
-> マイクロソフトのチームで情報を自動的にメールを検索する場合は、[マイクロソフトのチームでの設定を変更する場合にユーザーに電子メールの送信](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)を参照してください。
+> Microsoft Teams で自動メール情報を探している場合は、「 [Microsoft teams で設定が変更されたときにユーザーに送信されるメール](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)」を参照してください。
 
-[オーディオ会議を](set-up-audio-conferencing.md)有効になっているユーザーにメールが自動送信オーディオ会議プロバイダーに Microsoft を使用します。
+Microsoft を電話会議プロバイダーとして使用する電話[会議用に有効になっ](set-up-audio-conferencing.md)ているユーザーには、メールが自動的に送信されます。
   
-既定では、電話会議が有効になっているユーザーに送信される電子メールの 4 つの種類があります。 ただし、ユーザーに送信するメールの数を制限する場合は、オフにすることができます。 Office 365 のオーディオ会議は、ユーザーの電子メールを送信時に電子メールを送信します。
+既定では、電話会議が有効になっているユーザーに送信されるメールには4種類のメールが用意されています。 ただし、ユーザーに送信されるメールの数を制限する場合は、オフにすることができます。 Office 365 の電話会議では、次の場合にユーザーのメールにメールが送信されます。
   
-- **またはマイクロソフトに電話会議プロバイダーを変更するときに、オーディオ会議のライセンスが割り当てられます。**
+- **電話会議ライセンスが割り当てられているか、電話会議プロバイダーを Microsoft に変更する場合。**
     
-     この電子メールには、会議、音声会議、ユーザーの指示およびリンク ビジネス オンライン会議の更新ツールの既存の会議を更新するために使用されるため、Skype を使用するのには、暗証番号 (pin) の既定の会議電話番号、会議 ID が含まれています、ユーザーです。 [ビジネス ライセンスの割り当ての Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)または[オーディオ会議プロバイダーとしての Microsoft の割り当て](assign-microsoft-as-the-audio-conferencing-provider.md)を参照してください。
+     このメールには、会議 ID、会議用の既定の会議電話番号、ユーザーの電話会議の PIN、ユーザーの既存の会議を更新するために使用される Skype for Business Online 会議更新ツールを使用するための手順とリンクが含まれています。ユーザーズ. 「 [Skype For business ライセンスの割り当て](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」または「 [Microsoft の電話会議プロバイダーとしての割り当て](assign-microsoft-as-the-audio-conferencing-provider.md)」を参照してください。
     
     > [!NOTE]
-    > 会議 Id を動的に組織を有効になっている、会議 Id を表す一意のすべてのユーザーの会議をスケジュールするがあります。 [組織で電話会議の動的な Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を設定できます。 
+    > 組織で動的会議 Id が有効になっている場合、スケジュールされているすべてのユーザーの会議には、固有の会議 Id が割り当てられます。 [組織内の電話会議の動的 id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を設定することができます。 
   
-    このメールの例を以下に示します。
+    このメールの例を次に示します。
     
-     ![Skype ビジネスのライセンスを確認します。](../images/audio-conferencing-user-enabled.png)
+     ![Skype for Business のライセンスを確認する](../images/audio-conferencing-user-enabled.png)
   
-    調べることができます Skype について[Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)ビジネス アドオンのライセンスを確認することによってビジネスのライセンス。
+    Skype for business のライセンスの詳細については、「 [skype For business アドオンライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。
     
-- **会議 ID または既定の会議の電話番号、ユーザーの変更。**
+- **会議 ID またはユーザーの既定の会議の電話番号が変更されます。**
     
-    この電子メールには、会議 ID、既定の会議の電話番号、指示およびリンク ビジネス オンライン会議の更新ツールを使用して、ユーザーの既存の会議を更新するため、Skype を使用するのにが含まれています。 ですが、この電子メールにはユーザーの電話会議暗証番号 (pin) にはが含まれていません。 「[ユーザーの会議通話 ID をリセットする](reset-a-conference-id-for-a-user.md)」を参照してください。
+    このメールには、会議 ID、既定の会議電話番号、およびユーザーの既存の会議を更新するために使用される Skype for Business Online Meeting 更新ツールを使用するための手順とリンクが含まれています。 ただし、このメールには、ユーザーの電話会議の PIN は含まれていません。 「[ユーザーの会議通話 ID をリセットする](reset-a-conference-id-for-a-user.md)」を参照してください。
     
     > [!NOTE]
-    > 会議 Id を動的に組織を有効になっている、会議 Id を表す一意のすべてのユーザーの会議をスケジュールするがあります。 [組織で電話会議の動的な Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を設定できます。 
+    > 組織で動的会議 Id が有効になっている場合、スケジュールされているすべてのユーザーの会議には、固有の会議 Id が割り当てられます。 [組織内の電話会議の動的 id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を設定することができます。 
   
-    このメールの例を以下に示します。
+    このメールの例を次に示します。
     
-     ![ダイヤルイン会議の情報が変更されました。](../images/audio-conferencing-info-change.png)
+     ![ダイヤルイン会議情報が変更されました。](../images/audio-conferencing-info-change.png)
   
-- **オーディオ会議のユーザーの PIN がリセットされます。**
+- **ユーザーの電話会議の PIN がリセットされます。**
     
-    この電子メールには、電話会議の開催者の暗証番号 (pin) では、既存の会議 ID、およびユーザーの既定の会議電話番号が含まれています。 「[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin.md)」を参照してください。
+    このメールには、開催者の電話会議の PIN、既存の会議 ID、ユーザー用の既定の会議電話番号が含まれています。 「[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin.md)」を参照してください。
     
     > [!NOTE]
-    > 会議 Id を動的に組織を有効になっている、会議 Id を表す一意のすべてのユーザーの会議をスケジュールするがあります。 [組織で電話会議の動的な Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を設定できます。 
+    > 組織で動的会議 Id が有効になっている場合、スケジュールされているすべてのユーザーの会議には、固有の会議 Id が割り当てられます。 [組織内の電話会議の動的 id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を設定することができます。 
   
-    このメールの例を以下に示します。
+    このメールの例を次に示します。
     
-     ![ダイヤルイン会議の暗証番号 (pin) が変更されました。](../images/audio-conferencing-pin-has-changed.png)
+     ![ダイヤルイン会議の PIN が変更されました。](../images/audio-conferencing-pin-has-changed.png)
   
-- **ユーザーのライセンスを削除またはオーディオ会議プロバイダーが変更されたときマイクロソフトから他のプロバイダー、または [なし] にします。**
+- **ユーザーのライセンスが削除されるか、電話会議プロバイダーが Microsoft から別のプロバイダーまたは [なし] に変更されたとき。**
     
-    これは、**オーディオ会議**のライセンスが削除されると、ユーザー、またはサード ・ パーティ製のオーディオ会議プロバイダーをマイクロソフトからユーザーの電話会議プロバイダーを変更する場合、プロバイダーを **[なし]** に設定する場合に発生します。 この電子メールには、説明および既定の会議電話番号] または [会議 ID などの特定の情報、オーディオ会議を削除するのには会議の更新ツールのオンライン ビジネスの Skype を使用するユーザーの情報が含まれています。
+    この問題は、**電話会議**のライセンスがユーザーから削除された場合、またはユーザーの電話会議プロバイダーを Microsoft からサードパーティの電話会議プロバイダーに変更した場合、またはプロバイダーを **[なし**] に設定した場合に発生します。 このメールには、Skype for Business Online Meeting Update ツールを使用して、既定の会議電話番号や会議 ID などの電話会議固有の情報を削除するための手順と情報が含まれています。
     
     「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
     
-    このメールの例を以下に示します。
+    このメールの例を次に示します。
     
-     ![ダイヤルイン会議が無効になります。](../images/audio-conferencing-turned-off.png)
+     ![ダイヤルイン会議が無効になっています。](../images/audio-conferencing-turned-off.png)
   
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>送信される電子メール メッセージに変更を加える
+## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>送信されたメールメッセージに変更を加える
 
-ユーザーの電子メール アドレスなど*の*連絡先情報に記載されている表示名を自動的に送信される電子メールには、変更を行うことができます。 既定では、電子メールの送信者になりますから、Office 365 は、電子メール アドレスを変更し、名前を表示できます Windows PowerShell と[セット CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用します。 ユーザーに電子メールを送信する電子メール アドレスを変更するには、次の操作を行う必要があります。
+メールアドレス、および*差出人*の連絡先情報に含まれている表示名など、ユーザーに自動的に送信されるメールを変更できます。 既定では、メールの送信者は Office 365 から送信されますが、Windows PowerShell と[-](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用してメールアドレスと表示名を変更することができます。 ユーザーにメールを送信するメールアドレスを変更するには、次のことを行う必要があります。
   
 - _SendEmailFromAddress_ パラメーターにメール アドレスを入力する
     
@@ -94,28 +94,28 @@ ms.locfileid: "33865082"
     
 - _SendEmailOverride_パラメーターを_True_に設定します。
     
-実行して、電子メール アドレスから電子メールが送信されると、電子メールの表示名など、ユーザーに送信された電子メールには、変更を加えることができます。
+次のように実行して、メールの送信元のメールアドレスやメールの表示名など、ユーザーに送信されるメールの変更を行うことができます。
   
 ```
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble -SendEmailFromDisplayName "Amos Marble"
 ```
 
 > [!NOTE]
->  電子メール アドレス情報を変更する場合は、環境内の受信電子メール ポリシーが、アドレスから指定されたユーザーから送信される電子メールを許可するかどうかを確認する必要があります。 ** 連絡先情報を上書きする場合は、電子メールがユーザーに正しく送信されるかを確認してください。 1 つのユーザー、組織内でこれをテストすることによってこれを行うことができます。
+>  メールアドレス情報を変更する場合は、カスタム指定の差出人アドレスから送信されるメールが、環境の受信メールポリシーで許可されていることを確認する必要があります。 *差出人*の連絡先情報を上書きする場合は、ユーザーにメールが正しく送信されていることを確認する必要があります。 これは、組織内の1人のユーザーとテストすることで実現できます。
   
 会議 ID をリセットする[](https://go.microsoft.com/fwlink/?LinkId=627285)
   
-## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>しない場合は電子メールを送信しますか。
+## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>メールを送信したくない場合はどうすればよいですか?
 
-ユーザーに e メールを送信を無効にするとは、ユーザーにライセンスが割り当てられているを取得するときにも電子メールが送信されません。 会議 ID は、ここでは既定の会議の電話番号、および、さらに、オーディオ会議の暗証番号 (pin) をユーザーに送信されません。 このような場合は、別の電子メールを送信することによって、またはそれらを呼び出すことによってユーザーに通知する必要があります。
+ユーザーへのメールの送信を無効にすると、ユーザーにライセンスが割り当てられてもメールは送信されません。 この場合、会議 ID、既定の会議電話番号、さらに重要なのは、電話会議の PIN はユーザーに送信されません。 この問題が発生した場合は、個別のメールを送信するか、または電話をかけて、ユーザーに通知する必要があります。
   
-既定では、e メールは、ユーザーに送信されますが、音声会議用の電子メールを受信しないようにする場合は、ビジネス管理センターまたは Windows PowerShell の Skype を使用することができます。 
+既定では、メールはユーザーに送信されますが、電話会議のメールを受信しないようにするには、Skype for Business 管理センターまたは Windows PowerShell を使用します。 
  
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png)  **ビジネス管理センターの Skype を使用します。**
+![](../images/sfb-logo-30x30.png)**Skype for business 管理センターを使用した**sfb-logo-30x30  
     
-1. 既定値は 5 です。******** > ****
+1. **Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
     
-2. **Microsoft ブリッジの設定**] ページをオンまたはオフの**オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**します。 
+2. [ **Microsoft bridge の設定**] ページで、[**電話会議の設定が変更された場合にユーザーに電子メールを自動的に送信する**] をオンまたはオフにします。 
     
 3. **[保存]** をクリックします。 
 
@@ -124,7 +124,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 **Windows PowerShell を使用する**
   
-1. 電子メールを送信するすべてのユーザーを無効にするのには、次を実行します。
+1. すべてのユーザーメールの送信を無効にするには、次の操作を実行します。
     
    ```
    Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $false
@@ -134,17 +134,17 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 ## <a name="what-else-should-you-know-about-this-email"></a>このようなメールについて知っておくべきその他のこと
 
-- 詳細を有効にして、自動的に電子メールを送信するユーザーを無効にすると、[有効にするかオーディオ会議の設定を変更すると、送信メールを無効にする](enable-or-disable-sending-emails-when-their-settings-change.md)を参照してください。
+- ユーザーへのメールの自動送信を有効または無効にする方法について詳しくは、「[電話会議の設定が変更されたときにメールを送信する](enable-or-disable-sending-emails-when-their-settings-change.md)」を参照してください。
     
-- ユーザーには、オーディオの情報が失われ、それらすべてのオーディオ情報に送信できるようにする必要があります。 ビジネス管理センターは、Skype を使用してオーディオ会議のプロパティをユーザーの [**電子メール経由での会議の情報を送信**をクリックすると、これを行うことができます。 「[電話会議の情報が記載された電子メールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information.md)」を参照してください。 ただし、この情報には、オーディオ会議暗証番号 (pin) にはが含まれていません。
+- ユーザーの音声情報が失われたり、それらの音声情報をすべて送信したりできるようにする必要があります。 これを行うには、Skype for Business 管理センターを使って、ユーザーの電話会議のプロパティの下にある [**電話会議情報をメールで送信**] をクリックします。 「[電話会議の情報が記載された電子メールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information.md)」を参照してください。 ただし、この情報には電話会議の PIN は含まれていません。
     
-    送信されるメールの例を以下に示します。
+    このメールの例を次に示します。
     
      ![ダイヤルイン会議のメール](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
-- 既定では、電子メールの送信者になりますから、Office 365 は、電子メール アドレスを変更し、名前を表示できます Windows PowerShell と[セット CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用します。
+- 既定では、メールの送信者は Office 365 から送信されますが、Windows PowerShell と[-](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用してメールアドレスと表示名を変更することができます。
     
 - Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     

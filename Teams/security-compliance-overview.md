@@ -114,7 +114,7 @@ Office 365 のセキュリティとコンプライアンスに関する詳細に
 |![判断ポイント アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |判断ポイント         |お客様の組織はセキュリティとコンプライアンスのビジネス要件を満たすために必要なライセンスを所有していますか?         |
 |![次のステップ アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |次のステップ         |所属する組織の現在のライセンスを調べて、コンプライアンスとセキュリティのすべてのビジネス要件を満たしていることを確認します。         |
 
-これらの機能を有効にする前に Microsoft 365 管理センターのセキュリティ & コンプライアンス センターへのアクセスがあることを確認します。 既定では、テナントの管理者がアクセス権を持っています。
+これらの機能を有効にする前に、Microsoft 365 管理センターのセキュリティ & コンプライアンスセンターへのアクセス権があることを確認してください。 既定では、テナントの管理者がアクセス権を持っています。
 
 コンテンツ検索と電子情報開示については、セキュリティ & コンプライアンス センター内で有効にする操作は不要です。
 
@@ -132,7 +132,7 @@ Teams でのカナダにおけるデータ常駐の詳細については、Varun
 
 Teams のオーストラリアと日本におけるデータ常駐開始の詳細については、Varun Sagar (バルン・サガール) 氏のブログ投稿記事「[Microsoft Teams Launches Australia and Japan Data Residency (Microsoft Teams がオーストラリアと日本のデータ常駐を開始)](https://go.microsoft.com/fwlink/?linkid=867773)」をご覧ください。 
 
-[Microsoft 365 管理センター](https://portal.office.com/adminportal/home)にはどの地域、テナントのデータを格納するを表示するには、 > **の設定** > **組織プロファイル**です。 下にスクロールして [**データの場所**] に移動します。 
+テナントのデータが格納されている領域を確認するには、 [Microsoft 365 管理センター](https://portal.office.com/adminportal/home) > の**設定** > **組織プロファイル**に移動します。 下にスクロールして [**データの場所**] に移動します。 
 
 ![Office 365 管理センターの、Teams を含む、[データの場所] の表を示すスクリーンショット。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

@@ -7,7 +7,7 @@ ms.date: 08/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: Office 365 組織に対してマイクロソフトのチームを有効にする方法を説明します。
+description: Office 365 組織に対して Microsoft Teams を有効にする方法について説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -24,7 +24,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32180130"
 ---
-# <a name="enable-teams-in-your-organization"></a>組織内のチームを有効にします。
+# <a name="enable-teams-in-your-organization"></a>組織内のチームを有効にする
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "32180130"
 既定では、Teams はすべての組織でオンになります。 プレビュー期間において Teams を使用した場合、Teams プレビューの間に設定したものと同じ設定がそのまま維持されます。 
 
 
-組織の管理者は、チームは、個々 のアクセス権を制御するためのユーザー ライセンスを割り当てることができを許可またはブロックのチームでどのようなコンテンツ ソースを使用することができます。 詳細については[、組織の Microsoft チームの管理の設定](enable-features-office-365.md)または[マイクロソフトのチームでのアプリケーションの管理者の設定](admin-settings.md)を参照してください。 
+組織の管理者として、チームへの個々のアクセスを制御するためのユーザーライセンスを割り当てることができます。また、Teams で使用できるコンテンツソースを許可またはブロックすることができます。 詳細については、「microsoft teams[でのアプリの](admin-settings.md)[設定を管理](enable-features-office-365.md)する」または「管理設定」を参照してください。 
 
 
  

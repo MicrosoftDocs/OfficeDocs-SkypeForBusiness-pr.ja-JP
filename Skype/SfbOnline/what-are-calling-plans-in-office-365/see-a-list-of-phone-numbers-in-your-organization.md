@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織のすべての電話番号、ユーザーに割り当てられているすべての電話番号、Skype for Business 管理センターから音声ユーザーに割り当てられているすべての電話番号のリストを表示する方法について説明します。
-ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9682e0473932337734828a13cf75a8c77e622938
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229946"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280470"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織の電話番号のリストを表示する
 
@@ -34,17 +34,17 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>組織のすべての電話番号のリストを表示するには
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
+2. **Microsoft Teams 管理センター** > の**従来のポータル**に移動します。
     
-3. **音声**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **の電話番号**です。
+3. **Skype for business 管理センター**の左側のナビゲーションで、[ **** > **電話番号**] に移動します。
     
     > [!IMPORTANT]
-    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
+    > Skype for Business 管理センターの左のナビゲーションに [**音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、**電話システム**アドオン ライセンス、または**電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
     
 4. 割り当てられている電話番号を表示するには、 **数値** の列を参照してください。
     
@@ -64,21 +64,21 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>ユーザーに割り当てられているすべての電話番号を表示するには
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
 
 ユーザーを設定する場合、ユーザーに既に割り当てられている電話番号と、ユーザーに割り当て可能な電話番号のリストを確認できます。
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
+2. **Microsoft Teams 管理センター** > の**従来のポータル**に移動します。
     
-3. **音声**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **音声ユーザー**です。
+3. **Skype for business 管理センター**の左側のナビゲーションで、[**音声** > **音声ユーザー**] に移動します。
     
     > [!IMPORTANT]
-    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
+    > Skype for Business 管理センターの左のナビゲーションに [**音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、**電話システム**アドオン ライセンス、または**電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
     
-4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
+4. ユーザーに割り当てられている電話番号またはユーザーに割り当て可能な電話番号をフィルターして表示できます。 以下の分類でフィルターすることができます。
     
    - サービス電話番号を含む**すべて** の電話番号
     
@@ -88,21 +88,21 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>音声ユーザーに割り当てられているすべての電話番号を表示するには
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
 
-When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the list of the users that have phone numbers assigned to users, those that don't and whether a user is hosted Online or on-premises.
+組織内のユーザーに電話を発信してもらうように設定する場合は、まず電話番号を取得してユーザーに割り当てる必要があります。 電話番号を取得したら、ユーザーに割り当てられている電話番号を持っているユーザーと持っていないユーザー、ならびにユーザーがオンラインでまたは内部設置型でホストされているかについてのリストを表示することができます。
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
+2. **Microsoft Teams 管理センター** > の**従来のポータル**に移動します。
     
-3. **音声**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **音声ユーザー**です。
+3. **Skype for business 管理センター**の左側のナビゲーションで、[**音声** > **音声ユーザー**] に移動します。
     
     > [!IMPORTANT]
-    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
+    > Skype for Business 管理センターの左のナビゲーションに [**音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、**電話システム**アドオン ライセンス、または**電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
     
-4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
+4. ドロップダウン リストを使用して、アクティブなユーザー、ユーザーのホストがオンラインか内部設置型か、ユーザーのライセンス状態と種類をフィルターして表示することができます。 以下の分類でフィルターすることができます。
     
    - **アクティブなユーザー** と、ユーザーがオンラインまたは内部設置型かどうか。
     

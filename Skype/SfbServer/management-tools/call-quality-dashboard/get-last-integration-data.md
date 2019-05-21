@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: '概要: は、品質のダッシュ ボードを呼び出すためのデータ API の一部では、最後の統合データの取得操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 22a7382bfd861b3cade606cd087e17c007fb947b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: 通話品質ダッシュボードのデータ API の一部である、[最終統合データの取得] 操作について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: d110bdc1fe88a9fe7f77abe7f7b9ed47a3324eb0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930687"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274696"
 ---
 # <a name="get-last-integration-data"></a>直近の統合データの取得
  
-**の概要:** 品質のダッシュ ボードを呼び出すためのデータ API の一部では、最後の統合データの取得操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**概要:** 通話品質ダッシュボードのデータ API の一部である、[最終統合データの取得] 操作について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。
   
-最後の統合データの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。
+"最終の統合データの取得" 操作は、通話品質ダッシュボードのデータ API の一部です。
   
 ## <a name="get-last-integration-data"></a>直近の統合データの取得
 
-最後の統合データの取得操作では、アーカイブ、およびキューブの処理の最後の 5 の成功または失敗のリストを返します。
+最新の統合データの取得操作アーカイブとキューブの処理の最終5回の成功/失敗のリストを返します。
   
-この機能が既定で無効になっているし、データの API を構成することによって有効にする必要があります。
+この機能は既定で無効になっており、データ API を構成して有効にする必要があります。
   
 
-|**メソッド**|**URI を要求します。**|**HTTP のバージョン**|
+|**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|取得  <br/> |https://\<ポータル\>/QoEDataService/IntegrationLog/Status  <br/> |HTTP 1.1/  <br/> |
+|取得  <br/> |https://\<ポータル\>の/QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
- **URI パラメーター**を [なし] です。
+ **URI パラメーター** -なし。
   
- **要求ヘッダー**の追加のヘッダーではありません。
+ **ヘッダーを要求**する-追加のヘッダーは不要です。
   
- **リクエストの本文**の [なし] です。
+ **要求本文**-なし。
   
- **応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。
+ **応答**-応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。
   
- **ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。
+ **状態コード**-正常に動作している操作は、状態コード 200 (OK) を返します。
   
- **応答ヘッダー**の追加のヘッダーではありません。
+ **応答ヘッダー** -ヘッダーは追加されません。
   
- **応答本文**のサンプル ログの状態を次に示します。
+ **応答本文**-以下は、ログの状態の例です。
   
 ```
 {

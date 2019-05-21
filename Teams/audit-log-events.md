@@ -40,7 +40,7 @@ Office 365 で監査されるアクティビティの完全なリストを確認
 
 ## <a name="turn-on-auditing-in-teams"></a>Teams での監査をオンにする
 
-最初に**セキュリティ & コンプライアンス センター**で監査が監査データを見ることができます、前に (https://protection.office.com)。 監査をオンにする方法の詳細については、「[Office 365 監査ログの検索を有効または無効にする](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)」をご覧ください。
+監査データを表示するには、まず**セキュリティ _AMP_ コンプライアンスセンター**で監査を有効にする必要がありhttps://protection.office.com)ます (。 監査をオンにする方法の詳細については、「[Office 365 監査ログの検索を有効または無効にする](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)」をご覧ください。
 
 
 > [!IMPORTANT]

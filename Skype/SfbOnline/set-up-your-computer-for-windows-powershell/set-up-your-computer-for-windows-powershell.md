@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Find out requirements for remote management of Skype for Business Online via Windows PowerShell, including supported operating systems.
-ms.openlocfilehash: 7854fa064420c2addeea4397e8dd882374c3b940
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f9369f23ffcc77c5d7d61fb7e764900055b4b920
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226347"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275524"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Windows PowerShell 用にコンピューターをセットアップする
 
@@ -55,10 +55,10 @@ ms.locfileid: "32226347"
   
 - [Skype for Business Online Connector モジュールをダウンロードしてインストールする](download-and-install-the-skype-for-business-online-connector.md)
     
-- [ダウンロードし、Windows PowerShell の 5.1 をインストールします。](download-and-install-windows-powershell-5-1.md)
+- [Windows PowerShell 5.1 をダウンロードしてインストールする](download-and-install-windows-powershell-5-1.md)
     
 ## <a name="related-topics"></a>関連トピック
-[ビジネス オンラインのコネクタの skype の接続に関する問題を診断します。](diagnose-problems-with-the-skype-for-business-online-connector.md)
+[Skype for business online connector との接続の問題を診断する](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
  

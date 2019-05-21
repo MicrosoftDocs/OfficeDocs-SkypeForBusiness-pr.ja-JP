@@ -27,9 +27,9 @@ ms.locfileid: "32235406"
 
 クラウドへの移行作業は各組織によって異なり、現在の状況が Teams がどのように機能するかに大きな影響を与えます。
 
-教育機関は、マイクロソフトのチームを展開する前に[学校のデータの同期を展開](https://docs.microsoft.com/schooldatasync/)するよう強くお勧めします。 学校のデータの同期では、マイクロソフトのチームや他のアプリケーションのクラスおよびグループを自動的に作成するのには、学校の SIS の名簿のデータを使用します。
+教育機関は、Microsoft Teams を展開する前に[School Data Sync を展開](https://docs.microsoft.com/schooldatasync/)することを強くお勧めします。 School Data Sync は、学校の SIS リストデータを使用して、Microsoft Teams および他のアプリケーションのクラスとグループを自動的に作成します。
 
-チームで最高のエクスペリエンスを取得するには、は、組織を Exchange Online と SharePoint Online に導入されている必要があります。 現在の環境はチームの準備ができていることを確認する必要があります。  これらのリンクのヘルプを参照してください。
+チームで最高のエクスペリエンスを得るためには、組織が Exchange Online と SharePoint Online を展開している必要があります。 また、現在の環境が Teams に対応していることを確認する必要があります。  ヘルプについては、次のリンクを参照してください。
 
 -   組織で Office 365 ワークロードのいずれも展開していない場合は、「[一般法人向け Office 365 を使い始める](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)」をご覧ください。
 
@@ -41,6 +41,6 @@ ms.locfileid: "32235406"
 
 -   組織で SharePoint Online が導入されていない場合は、「[Microsoft Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)」をご覧ください。
 
-- 組織は、教育機関、学生情報システム (SIS)、マイクロソフトのチームを展開する前に[学校のデータの同期を展開する](https://docs.microsoft.com/schooldatasync/)を使用する場合。
+- 組織が教育機関であり、学生情報システム (SIS) を使用している場合は、Microsoft Teams を展開する前に[School Data Sync を展開](https://docs.microsoft.com/schooldatasync/)してください。
 
-- 組織のビジネス サーバー (または、Lync Server) の展開用の既存のオンプレミス Skype の場合は、Office 365 で、設置ディレクトリを同期するのには、Azure の AD 接続を構成しなければなりません。  詳細については、[チーム、およびビジネスのための Skype の構成の Azure AD の接続](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect)を参照してください。
+- 組織に既存のオンプレミス Skype for Business Server (または Lync Server) の展開がある場合は、オンプレミスのディレクトリを Office 365 と同期するように Azure AD Connect を構成する必要があります。  詳細については、「 [Teams および Skype For business 用に AZURE AD Connect を構成する](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect)」を参照してください。

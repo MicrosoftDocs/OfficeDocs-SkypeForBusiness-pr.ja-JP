@@ -12,7 +12,7 @@ ms.collection:
 ms.reviewer: crowe
 search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
-description: 直接ルーティングのランディング ・ ページ
+description: 直接ルーティングのランディングページ
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 59f7cf4f1249956f3c763d12fcd96bf5c10a9fac
@@ -24,71 +24,71 @@ ms.locfileid: "33401836"
 ---
 # <a name="phone-system-direct-routing"></a>電話システムのダイレクト ルーティング
 
-[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 かもしれません[& 会議の会議](deploy-meetings-microsoft-teams-landing-page.md)を導入しました。 クラウド音声のワークロードを追加する準備が整いましたし、公衆交換電話網 (PSTN) 接続の電話システムの直接のルーティングを使用してテレフォニーのキャリアを使用すると判断しました。 直接ルーティングでは、ほぼすべてのテレフォニーのキャリアで電話システムを使用できます。
+[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 [会議 & 会議](deploy-meetings-microsoft-teams-landing-page.md)を展開したことがあるかもしれません。 これで、クラウド音声のワークロードを追加する準備ができました。電話システムのダイレクトルーティングを使用して、PSTN (公衆交換電話網) 接続用の独自のテレフォニーキャリアを使用することにしました。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
 
-この資料では、することも考えて、組織のニーズに基づいて直接ルーティングの場合と同様に考慮すべき事項の中核となる配置の決定について説明します。 マイクロソフトのクラウドの音声サービスの詳細については[マイクロソフトのチームでのクラウドの音声](cloud-voice-landing-page.md)を参照することもあります。
+この記事では、組織のニーズに基づいて、直接ルーティングを行う場合の主要な展開と、検討する必要があるその他の考慮事項について説明します。 Microsoft のクラウド音声サービスの詳細については、「 [Microsoft Teams でクラウド音声](cloud-voice-landing-page.md)を読む」もご覧ください。
 
-## <a name="learn-more-about-direct-routing"></a>直接ルーティングの詳細については
+## <a name="learn-more-about-direct-routing"></a>直接ルーティングの詳細については、こちらを参照してください
 
-次の資料を構成して、電話システムの直接のルーティングを使用の詳細を提供します。 直接ルーティングを構成するには、PSTN のルーティングの設計を理解する必要があります。 すべて計画し、直接ルーティングを構成する方法を理解するのにはこれらの記事の内容を読み取る必要があります。
+次の記事では、電話システムのダイレクトルーティングを構成して使用する方法について詳しく説明します。 直接ルーティングを構成するには、PSTN ルーティングの設計を理解している必要があります。 直接ルーティングを計画して構成する方法については、以下の記事を参照してください。
 
 - [ダイレクト ルーティングを計画する](direct-routing-plan.md) 
 - [ダイレクト ルーティングを構成する](direct-routing-configure.md)
 - [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
 - [ダイレクト ルーティングの監視とトラブルシューティング](direct-routing-monitor-and-troubleshoot.md)
 
-さらに、お客様の要件に応じて次の記事を参照することもできます。
+さらに、必要に応じて、次の記事も参照してください。
 
 -  [複数のテナントにセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
 -  [ダイレクト ルーティングに移行する](direct-routing-migrating.md)
 -  [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
-- 直接ルーティングの詳細については、次のセッションを監視する:[マイクロソフトのチームに直接ルーティング](https://aka.ms/teams-direct-routing)
+- 直接ルーティングの詳細については、次のセッションをご覧ください。 [Microsoft Teams での直接ルーティング](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
 
-これらは、直接ルーティングについて検討すべき主要な意思決定です。 
+これは、直接ルーティングについて考慮するべき主要な決定事項です。 
 
 |確認事項|アクション |
 | :------------|:-------|
-|ユーザーは有効に直接ルーティングします。 | 詳細については、[ユーザーの直接のルーティング サービスを有効にする](direct-routing-configure.md#enable-users-for-direct-routing-service)を参照してください。 |
-直接ルーティングに必要なライセンスがあるか | 詳細については、[使用許諾契約とその他の要件](direct-routing-plan.md#licensing-and-other-requirements)を参照してください。
+|どのユーザーが直接ルーティングを有効にしますか? | 詳細については、「[ユーザーが直接ルーティングサービスを有効にする](direct-routing-configure.md#enable-users-for-direct-routing-service)」を参照してください。 |
+直接ルーティングのために必要なライセンスはありますか? | 詳細については、「[ライセンスとその他の要件](direct-routing-plan.md#licensing-and-other-requirements)」を参照してください。
 |||
 
-### <a name="session-border-controller-sbc-considerations"></a>セッション ボーダー コント ローラー (SBC) に関する考慮事項
+### <a name="session-border-controller-sbc-considerations"></a>セッションボーダーコントローラー (SBC) に関する考慮事項
 
-直接ルーティングでは、電話システムに直接、独自のセッション ボーダー コント ローラー (SBC) を接続します。  認定 SBCs のリストは、[サポートされているセッション ボーダー コント ローラー](direct-routing-border-controllers.md)を参照してください。
+直接ルーティングでは、独自のセッションボーダーコントローラー (SBC) を直接電話システムに接続します。  認定された SBCs の一覧については、[サポートされているセッション境界コントローラー](direct-routing-border-controllers.md)を参照してください。
 
 |確認事項|アクション |
 |:------------|:-------|
-| 場所と方法 SBCs を展開しますか。 | 詳細については、[直接ルーティングの構成](direct-routing-configure.md)を参照してください。 | 
-複数のテナントがあるか | 詳細については、[複数のテナントのセッション ボーダー コント ローラーの構成](direct-routing-sbc-multiple-tenants.md)を参照してください。|
+| SBCs はどこで展開されますか? | 詳細については、「[直接ルーティングを構成する](direct-routing-configure.md)」を参照してください。 | 
+複数のテナントがある場合 | 詳細については、「[複数のテナントのセッション境界コントローラーを構成](direct-routing-sbc-multiple-tenants.md)する」を参照してください。|
 |||
 
 ### <a name="voice-routing-considerations"></a>音声ルーティングに関する考慮事項
 
-特定の半角英数字に呼び出しをルーティングする電話システムを構成する必要があります。
+特定の SBCs への通話をルーティングするように電話システムを構成する必要があります。
 
 |確認事項|アクション |
 |:------------|:-------|
-| どのような音声ルーティング ポリシー、PSTN 使用法、およびボイス ルートが必要を作成しますか。 | 音声のルーティング情報は、[音声ルーティングの構成](direct-routing-configure.md#configure-voice-routing)を参照してください。
-| 音声ルーティング ポリシーを定義するユーザーが割り当てられますか。 | [音声ルーティングの構成](direct-routing-configure.md#configure-voice-routing)の例を参照してください。 |
+| 作成する必要がある音声ルーティングポリシー、PSTN 使用状況、および音声ルート | 音声ルーティング情報については、「[ボイスルーティングを構成する](direct-routing-configure.md#configure-voice-routing)」をご覧ください。
+| 定義した音声ルーティングポリシーにはどのユーザーが割り当てられますか。 | 「[音声ルーティングを構成する](direct-routing-configure.md#configure-voice-routing)」の例を参照してください。 |
 |||
 
-### <a name="calling-and-interop-policies"></a>呼び出し元および相互運用機能のポリシー
+### <a name="calling-and-interop-policies"></a>通話と相互運用ポリシー
 
-直接ルーティングは、マイクロソフトのチームでのみサポートされます。 開始、または直接ルーティングでは、PSTN の呼び出しを受信、チームでの着信呼び出しが受信されるように必要なポリシーを構成する必要があります。 チームのみのモードのユーザーを構成するか、優先する呼び出し元クライアントとして、TeamsCallingPolicy と、TeamsInteropPolicy を割り当てることによってチームを構成すると、優先するクライアントの呼び出しのチームを設定するのにはユーザーを構成できます。
+直接ルーティングは、Microsoft Teams でのみサポートされます。 直接ルーティングによって PSTN 通話を発信または受信するには、Teams での着信通話を確実に受信するために必要なポリシーを構成する必要があります。 チーム専用モードのユーザーを設定するか、または teams のスケールを優先するクライアントとして構成することにより、ユーザーが通話の優先クライアントとしてチームを設定するように構成することができます。
 
 |確認事項|アクション |
 |:------------|:-------|
-|呼び出しの優先するクライアントとしてチームを設定する方法 | 詳細については、[マイクロソフトのチームを優先設定は、ユーザーのクライアントを呼び出す](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users)を参照してください。|
+|通話の優先クライアントとして Teams を設定するにはどうすればよいですか? | 詳細については、「[ユーザーの優先発信クライアントとして Microsoft Teams を設定](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users)する」を参照してください。|
 |||
 
-## <a name="additional-deployment-considerations"></a>追加の配置に関する考慮事項
+## <a name="additional-deployment-considerations"></a>その他の展開に関する考慮事項
 
-、次を考慮することが、組織のニーズに基づいて構成します。
+組織のニーズと構成に基づいて、次のことを検討してください。
 
 | 確認事項| アクション |
 | :------------|:-------|
-| ビジネス サーバー配置の既存の Skype ハイブリッド接続が構成されていますか。 |  ハイブリッド環境でユーザー アカウントを準備する方法を理解し、管理するには、 [PSTN への接続を持つハイブリッド環境でユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)を参照してください。| 
-| 移行して直接ルーティングの計画を呼び出すと、Skype のビジネス、オンプレミス環境にからでしょうか。 | 直接ルーティングするのには既存の環境からの移行について理解を深めるには、[直接ルーティングへの移行](direct-routing-migrating.md)を参照してください。 |
+| ハイブリッド接続が構成されている既存の Skype for Business Server 展開がありますか? |  ハイブリッド環境でのユーザーアカウントのプロビジョニングと管理の方法については、「 [PSTN 接続を使用したハイブリッド環境のユーザーアカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)」を参照してください。| 
+| 通話プランまたは Skype for Business オンプレミス環境からの直接ルーティングに移行していますか? | 既存の環境からの直接ルーティングへの移行の詳細については、「[ダイレクトルーティングへの移行](direct-routing-migrating.md)」を参照してください。 |
 |||

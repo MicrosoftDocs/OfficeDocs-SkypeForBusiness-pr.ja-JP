@@ -24,38 +24,38 @@ ms.locfileid: "32235144"
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft Teams で組み込みタブとカスタム タブを使用する
 ==================================================
 
-タブでは、チャネル内で、またはチャットでの専用のキャンバス上のサービスにアクセスするためのチーム メンバーを使用できます。 これにより、チームのツールとデータを直接操作して、チャネルまたはチャットのコンテキスト内でそれらについての会話です。 
+タブを使うと、チームメンバーは、チャネル内またはチャット中の専用のキャンバス上のサービスにアクセスできます。 これにより、チームはツールやデータを直接操作し、チャネルやチャットのコンテキストでそれらについての会話を行うことができます。 
 
-所有者とチーム メンバーは、チャネル、プライベート チャット、およびグループ チャットにタブを追加して、クラウド サービスの統合に役立てることができます。 やすく簡単にタブを追加することができますアクセスし、必要があるか、ほとんどの対話、データを管理します。 電源の BI レポート、ダッシュ ボード、または場合でも、 [Microsoft ストリーム](https://go.microsoft.com/fwlink/?linkid=855785)ビデオ チャンネル トレーニング ・ ビデオを公開する可能性ができます。
+所有者とチーム メンバーは、チャネル、プライベート チャット、およびグループ チャットにタブを追加して、クラウド サービスの統合に役立てることができます。 タブを追加して、ユーザーが必要なデータに簡単にアクセスして管理できるようにします。 これは、Power BI レポート、ダッシュボード、またはトレーニングビデオを公開する[Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785)ビデオチャネルであってもかまいません。
 
 ![タブにある色々なコンテンツの 3 つのスクリーンショット](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
-## <a name="work-with-tabs"></a>タブを使用します。
+## <a name="work-with-tabs"></a>タブを操作する
 
-- 既定ですべての新しいチャネルでは、2 つのタブの準備: 会話とファイルです。 
+- 新しい各チャネルでは、既定で、スレッドとファイルの2つのタブがプロビジョニングされます。 
 
     ![Marketing チームの [会話] セクションのスクリーンショット](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
-- すべてのプライベート チャットでは、4 つのタブは既定での会話、ファイル、組織や活動準備します。
+- 各プライベートチャットでは、既定で、会話、ファイル、組織、アクティビティによって、4つのタブがプロビジョニングされます。
 
-    ![チャットのタブのスクリーン ショットです。](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
+    ![チャットのタブのスクリーンショット。](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- 所有者およびチーム メンバー タブを追加できます複数チャネルまたはチャットに**追加のタブ**をクリックすると、![を示す、[タブ] ボタンの追加のスクリーン ショット、(+) 記号。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) チャネルまたはチャットの上部にあります。
+- 所有者とチームメンバーは、[タブの追加] ボタンの [**タブ** ![の追加] をクリックし、[+] 記号を表示して、チャネルまたはチャットにさらにタブを追加することができます。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) チャンネルまたはチャットの上部にあります。
 
-- タブに変換する前に、Excel、PowerPoint、Word、PDF ファイルを [**ファイル**] タブにアップロードする必要があります。 または、既存のアップロードされたファイルは次のように、1 回のクリックでは、タブに変換できます。
+- Excel、PowerPoint、Word、PDF のファイルをタブに変換するには、その前に [**ファイル**] タブにアップロードする必要があります。 または、次に示すように、既存のアップロードされたファイルを1回のクリックでタブに変換することもできます。
 
     ![PowerPoint ファイルが選択された状態の [ファイル] タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-- URL は、web サイトを追加するに交換される情報がセキュリティで保護されたままになりますので**https**プレフィックスを持つ開始する必要があります。
+- Web サイトを追加するには、URL を**https**プレフィックスで始める必要があります。これにより、交換された情報は安全な状態になります。
 
-- 詳細な手順については、そのチャネルまたはチャットにカスタム タブを追加しようとしているチーム メンバーに提供されます。 チャネルにユーザー設定のタブが追加されると、内容についての議論が中心にチームのメンバーでは、**タブの会話**が作成されます。
+- 詳細な手順は、チームメンバーが自分のチャネルまたはチャットにカスタムタブを追加しようとしたときに表示されます。 チャネルにカスタムタブを追加すると、タブの**会話**が作成されます。これにより、チームメンバーはコンテンツについて重点的にディスカッションを行うことができます。
 
     ![ウィンドウの右側にあるタブの会話が含まれているカスタム タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 ## <a name="develop-custom-tabs"></a>カスタム タブを開発する
 
-組み込みのタブだけでなく設計し、チームに統合したり、コミュニティの残りの部分と共有する独自のタブを作成できます。 適切な Office 365 のグループを構成することによって[、ユーザー設定のタブにアクセスを制御](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access)することができます。
+組み込みのタブに加えて、独自のタブを設計および開発して、チームに統合したり、コミュニティの他の部分と共有したりすることができます。 適切な Office 365 グループを構成することによって、[カスタムタブへのアクセスを制御](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access)できます。
 
-Microsoft Developer Network のでは、設計し、独自のタブと[タブのサンプル](https://go.microsoft.com/fwlink/?linkid=855787)をダウンロードすることを Microsoft が開発したを作成する[詳細な手順](https://go.microsoft.com/fwlink/?linkid=855786)を提供します。
+Microsoft 開発者ネットワークには、Microsoft が開発した独自のタブと[サンプルタブ](https://go.microsoft.com/fwlink/?linkid=855787)を設計し、構築するための[詳しい手順](https://go.microsoft.com/fwlink/?linkid=855786)が記載されています。
 
 ![Microsoft Teams のサンプル カスタム タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

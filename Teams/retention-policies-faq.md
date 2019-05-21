@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
-description: マイクロソフトのチームでのリテンション ・ ポリシーについてよく寄せられる質問です。
+description: Microsoft Teams のアイテム保持ポリシーについてよく寄せられる質問。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -24,53 +24,53 @@ ms.locfileid: "32205105"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft Teams 保持ポリシーに関するよくある質問
 
-### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>どのような種類のポリシーを設定すればよいのリテンション ・ ポリシーとどのように動作するでしょうか。
+### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>アイテム保持ポリシーでセットアップできるポリシーの種類とその機能について
 
-セキュリティ & コンプライアンス センターでは、[セットアップするときに、保持ポリシー、またはその他のワークロードでは、チームの 2 つの主な種類のポリシーを設定できます。 
-- 保存: これらのポリシーでは、エンド ユーザー ツールで何が起きても、時間の特定の期間のデータが保持されることを確認します。 これらは、コンプライアンス上の理由からデータが保存され、この時点までには、電子的証拠開示に利用可能な有効期限が切れることを確認します。 時間を経過した後、ポリシーは何もしない、またはデータを削除するかどうかを指定できます。 チームでエンド ・ ユーザー、チームのメッセージを削除する場合でも、7 年間、保持ポリシーを作成する場合これらのメッセージは保持されます電子的証拠開示の 7 年間。
-- 削除: これらのポリシーでは、データが組織の負債ではないことを確認します。 、指定した期間の後は、チームに関連するすべての記憶域からデータが削除されます。 
+セキュリティ & コンプライアンスセンターでは、アイテム保持ポリシー (Teams またはその他のワークロード) を設定するときに、次の2つの主な種類のポリシーを設定できます。 
+- 保持: これらのポリシーによって、エンドユーザーツールで行われる処理に関係なく、一定の期間、データは保持されます。 これにより、コンプライアンス上の理由でデータが保護され、この時間が経過するまで eDiscovery で利用できるようになります。 有効期限が切れると、何も行わないか、データを削除するかをポリシーで指定できます。 Teams では、保持ポリシーを7年にわたって作成した場合でも、エンドユーザーがそのチームのメッセージを削除した場合でも、これらのメッセージは7年の電子情報開示のために保持されたままになります。
+- 削除: これらのポリシーにより、データは組織の責任を負わないものとします。 指定した期間が経過すると、チーム内のすべての関連ストレージからデータが削除されます。 
 
-### <a name="can-we-include-teams-in-org-wide-policies"></a>チームを組織全体のポリシーは含めることができますか。 
+### <a name="can-we-include-teams-in-org-wide-policies"></a>チームを組織全体のポリシーに含めることはできますか? 
 
-いいえ、されていません。 チームの場所の行またはチームのこれらのコマンドレットを使用して、チームのチャットおよびチャネルのメッセージの特定のポリシーを作成する必要があります:[新しい TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [新規 TeamsComplianceRetentionRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)。 これらのコマンドレットでは、get し、同様のバージョンを設定します。
+いいえ、現在はサポートされていません。 Teams の位置情報行または次のチームコマンドレットを使用して、チームチャットとチャネルメッセージ用の特定のポリシーを作成する必要があります。 [TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & の[新規 TeamsComplianceRetentionRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)。 これらのコマンドレットには、バージョンの取得と設定も含まれています。
 
-### <a name="are-these-retention-policies-retroactive"></a>これらのアイテム保持ポリシーは、さかのぼって適用しますか。 
+### <a name="are-these-retention-policies-retroactive"></a>これらのアイテム保持ポリシーは遡及的なですか? 
 
-います。 60 日よりも古いデータを削除する保持ポリシーを作成する場合は、60 日以上前に作成したチームのデータが削除されます。 
+はい、です。 60日より前のデータを削除するアイテム保持ポリシーを作成すると、60日以上前に作成された Teams データが削除されます。 
 
-### <a name="what-is-the-default-retention-policy"></a>デフォルトの保存ポリシーとは何ですか。 
+### <a name="what-is-the-default-retention-policy"></a>既定のアイテム保持ポリシーとは 
 
-既定では、チーム チャット、チャネル、およびファイルのデータは永久保持します。 ユーザーは、何かを削除できますが、リテンション ・ ポリシーがない場合は、チームのデータ (ユーザーおよびグループ) は、Exchange オンライン メールボックスにアーカイブが常に、電子的証拠開示のないままです。 
+既定では、Teams のチャット、チャネル、ファイルのデータは永久に保持されます。 ユーザーは何かを削除することはできますが、アイテム保持ポリシーがない場合は、チームデータは常に Exchange online のメールボックス (ユーザーとグループ) にアーカイブされ、電子情報開示のために残ります。 
 
-### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>ユーザーまたはチームのポリシーのセットを対象することができますか。 
+### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>ポリシーでユーザーまたはチームのセットをターゲットにすることはできますか? 
 
-はい、次のように実行します。 ポリシーの作成ウィザードのステップでは、場所では、または (**チームは、メッセージをチャネル**) のチームまたはユーザー (**チーム チャット**) を除外して組織の対象となるポリシーを作成できます。 
+はい。 ポリシーの作成ウィザードの [場所] ステップでは、チーム (チーム**チャネルメッセージ**) またはユーザー (**チームチャット**) を含めたり除外したりすることができます。また、組織の対象ポリシーを作成することもできます。 
 
-### <a name="what-is-the-main-difference-between-using-the-group-mailbox-location-row-and-teams-channel-messages-location-row-in-retention-policies"></a>グループのメールボックスの場所の行とチームのチャネルのメッセージの場所の行を使用して、リテンション ・ ポリシーでの主な違いは何ですか。 
+### <a name="what-is-the-main-difference-between-using-the-group-mailbox-location-row-and-teams-channel-messages-location-row-in-retention-policies"></a>アイテム保持ポリシーの [グループメールボックスの場所] 行と [チームチャネルメッセージの場所] 行を使用する主な違いは何ですか。 
 
-Exchange Online のメールボックスのグループとユーザーのメールボックスの場所の行を使用する場合、チームのデータが指定されたメールボックスから削除されます。 ただし、メールボックスからこの、だけデータを削除します。 チャット サービスなど、他のチームのデータは、削除されません。 チーム ・ リテンション ・ ポリシーを使用して、チームのすべてのデータを適切に管理することをお勧めします。 チーム ・ リテンション ・ ポリシーは、すべてストレージの場所: メールボックス、チャット サービス、チーム クライアントからチームのデータを削除します。 
+Exchange Online のグループメールボックスとユーザーのメールボックスの場所の行を使用すると、チームのデータは指定したメールボックスから削除されます。 ただし、この方法ではメールボックスからデータが削除されるだけです。 他の Teams データ (チャットサービスなど) は削除されません。 チームのアイテム保持ポリシーを使用して、すべてのチームデータを適切に管理することをお勧めします。 チームアイテム保持ポリシーは、すべてのストレージの場所から teams データ (メールボックス、チャットサービス、チームクライアント) を削除します。 
 
-注: チームは、保持ポリシーの機能の起動、唯一のチーム ポリシーが Exchange メールボックスの場所 (ユーザーまたはグループ) 内に格納されているチームの項目を削除します。 メールボックスでは、他のポリシー設定は、チームのアイテムに適用できません。 これまでは、true ですが保持ポリシーの機能の起動が修正されています。 
+注: Teams のアイテム保持ポリシー機能を起動すると、Exchange メールボックスの場所 (ユーザーまたはグループ) 内に保存されている Teams アイテムが、Teams のポリシーだけで削除されます。 メールボックスに設定されている他のポリシーは、Teams のアイテムには影響しません。 これは過去にも当てはまりましたが、アイテム保持ポリシー機能の起動によって修正されました。 
 
-### <a name="what-happens-to-skype-for-business-online-and-teams-interop-chats--are-they-affected-by-retention-policies"></a>どうなる Skype ビジネス オンラインでチームの相互運用機能チャット – のリテンション ・ ポリシーによって影響をあるか
+### <a name="what-happens-to-skype-for-business-online-and-teams-interop-chats--are-they-affected-by-retention-policies"></a>Skype for Business Online と Teams の相互運用機能のチャットはどうなりますか。アイテム保持ポリシーが影響を受けていますか?
 
-はい、オンライン ビジネスとチームの相互運用機能のチャットの Skype 同様に動作します。 ビジネス オンライン チャットの Skype は、チームには、そのチーム チャットのスレッド内のメッセージとなり、取得、適切なメールボックスに取り込まれ。 動作: を同じフロー、チームの削除ポリシーはチームのスレッドからこれらのメッセージを削除します。 ただし、会話の履歴がオンになって Skype のオンライン ビジネスの場合は、オンライン ビジネスのクライアント側の Skype からそれらを保存しているメールボックスにこのチャットのデータはチーム ・ リテンション ・ ポリシーによって処理されません。
+はい。 Skype for Business Online と Teams の相互運用機能のチャットは、同じように動作します。 Skype for Business Online のチャットが Teams に届くと、Teams チャットスレッド内のメッセージとなり、適切なメールボックスに毎回が表示されます。 同じフローが機能すると、チームの削除ポリシーによって、これらのメッセージが Teams のスレッドから削除されます。 ただし、Skype for Business Online と skype for Business Online クライアント側からメールボックスに保存されている会話履歴が有効になっている場合は、このチャットデータは Teams のアイテム保持ポリシーによって処理されません。
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>どうすればこれらのセキュリティ & コンプライアンス センター コマンドレットを使用しますか。 どう使用する必要がありますか。 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>セキュリティ & コンプライアンスセンターのコマンドレットを使用して、これらを行うことはできますか? 何を使用したらよいですか? 
 
-そうですよ。 [セキュリティ & コンプライアンス センターの Powershell コマンドレット]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)を使用してチーム ・ リテンション ・ ポリシーを作成できます。 オンライン Exchange コマンドレットがないことを覚えておいてください。 ここでは、コマンドレットのチームを作成しました。 従うセキュリティ & コンプライアンス センターで現在利用可能な保存管理機能のコマンドレットから既存の用語とスタイルです。
+そうですよ。 [セキュリティ _AMP_ コンプライアンスセンターの Powershell コマンドレット]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)を使用して、チームのアイテム保持ポリシーを作成できます。 これらは Exchange Online のコマンドレットではないことに注意してください。 Teams 用に作成したコマンドレットを次に示します。 セキュリティ & コンプライアンスセンターで現在利用可能な保持コマンドレットには、既存の用語とスタイルが適用されます。
 
 |ポリシー|ルール|
 |---|---|
-|[新しい-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [新しい-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[セット TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [セット TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[削除 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [削除 TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
+|[新規-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [新規-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
+|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
+|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
+|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
 
-### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>チームのさまざまな期間、どちらかを wins での複数の保存ポリシーがある場合ですか。
+### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>異なる期間を持つ Teams の複数のアイテム保持ポリシーがある場合、それは1つの wins ですか?
 
-[リテンション ・ ポリシーの原則](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)に従ってし、も実行することをお勧めします。 短い答えは次のとおりです。 
--   削除を優先、常に情報を保持
--   最長の保存期間を常に優先します。
--   明示的なインクルードが場所で暗黙の信頼を優先します。
+ここでは、[アイテム保持ポリシーの原則](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)に従っていますが、これを行うことをお勧めします。 簡単な答えは次のとおりです。 
+-   常に wins 経由での保存が削除
+-   最長保持期間は常に wins
+-   場所に関する暗黙的な追加による明示的な追加の wins
 -   最短の削除期間 wins

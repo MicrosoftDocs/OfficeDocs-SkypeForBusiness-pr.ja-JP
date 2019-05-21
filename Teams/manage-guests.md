@@ -26,7 +26,7 @@ ms.locfileid: "33885107"
 
 **ゲスト**は、Microsoft Teams のユーザー/ライセンスの種類の 1 つで、すべての Office 365 Business Premium、Office 365 Enterprise、Office 365 Education のサブスクリプションに含まれていますす。追加の Office 365 ライセンスは必要ありません。Teams のゲスト アクセスはテナント レベルの設定であり、既定では無効になっています。ゲスト アクセスを有効にする方法について、詳しくは「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」をご覧ください。
 
-**ゲスト**ユーザーとライセンスの種類をオンにすると、コントロールでは、来園者に記載されている[、組織の設定をマイクロソフトのチームを管理](enable-features-office-365.md)し、[チームの管理新しいマイクロソフトのチームに移行する際の設定を構成できます。管理者センター](manage-teams-skypeforbusiness-admin-center.md)です。     
+**ゲスト**ユーザー/ライセンスの種類を有効にした後、「 [microsoft teams の設定を管理](enable-features-office-365.md)する」および「[新しい microsoft teams への移行中にチームを管理する」で説明されているコントロールを使用してゲストの設定を構成することができます。管理センター](manage-teams-skypeforbusiness-admin-center.md)     
     
 IT 管理者は、テナント レベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、およびゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。 これらの制御は、Microsoft Teams 管理センターを介して利用可能です。 ゲスト ユーザーのコンテンツとアクティビティには、Office 365 の他の部分と同じコンプライアンスと監査保護が適用されます。
 

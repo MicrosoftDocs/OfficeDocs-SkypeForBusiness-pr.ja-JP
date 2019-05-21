@@ -1,25 +1,25 @@
 ---
-title: ビジネス サーバー用の Skype での CDR のデータ保存期間を指定します。
+title: Skype for Business Server で CDR データの保持を指定する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: 概要では、Skype のビジネス サーバー (CDR) データを記録する呼び出しの詳細を管理する方法について説明します。
-ms.openlocfilehash: 70fa015978b9b72d020fb52cf62ef749fabb4702
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の通話の詳細記録 (CDR) データを管理する方法について説明します。'
+ms.openlocfilehash: a775098a4c41bccca42fe1d95c5f1dbf0d22f2bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898053"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279733"
 ---
-# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>ビジネス サーバー用の Skype での CDR のデータ保存期間を指定します。
+# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Skype for Business Server で CDR データの保持を指定する
  
-**の概要:** Skype のビジネス サーバー (CDR) データを記録する呼び出しの詳細を管理する方法について説明します。
+**概要:** Skype for Business Server の通話の詳細記録 (CDR) データを管理する方法について説明します。
   
 既定では、通話詳細記録 (CDR) データは 60 日後に削除されます。 [**通話詳細記録**] ページの設定を使用して、このデータを既定よりも長期間、または短期間保持できます。 CDR を無効にすると、CDR を有効にする前に取得されたデータも削除の対象になります。
   
@@ -30,9 +30,9 @@ CDR データの削除設定を構成するには、次の手順を実行しま�
   
 ### <a name="to-specify-retention-of-cdr-data"></a>CDR データの保持期間を指定するには
 
-1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
+1. RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Skype for Business Server を展開したネットワーク内のコンピューターにログオンします。.
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。  
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**通話詳細記録**] をクリックします。
     
@@ -46,9 +46,9 @@ CDR データの削除設定を構成するには、次の手順を実行しま�
     
 8. [**確定**] をクリックします。
     
-## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、CDR の保存期間を指定します。
+## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して CDR の保持期間を指定する
 
-CDR 保存期間の設定は、Windows PowerShell とセット CsCdrConfiguration コマンドレットを使用して作成できます。 実行できますこのコマンドレットのいずれか、Skype からビジネス サーバー管理シェルまたは Windows PowerShell のリモート セッションから。 ビジネス サーバーの Skype に接続するリモートの Windows PowerShell を使用する詳細については、ブログ記事の[「クイック スタート:: を管理する Microsoft Lync サーバー 2010 を使用してリモート PowerShell」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 プロセスは、Skype のビジネス サーバーで同じです。
+CDR retention の設定は、Windows PowerShell と CsCdrConfiguration コマンドレットを使って作成できます。 このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションからでも実行できます。 リモートの Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「[クイックスタート: リモート PowerShell を使用した Microsoft Lync server 2010 の管理」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 このプロセスは、Skype for Business Server でも同じです。
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>特定の場所の CDR の保持期間を指定するには
 
@@ -66,8 +66,8 @@ CDR 保存期間の設定は、Windows PowerShell とセット CsCdrConfiguratio
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
-詳細については、[セット CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)コマンドレットのヘルプトピックを参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype のビジネス サーバー (CDR) を記録する詳細を呼び出す](call-detail-recording-cdr.md)
+[Skype for Business Server での通話の詳細記録 (CDR)](call-detail-recording-cdr.md)

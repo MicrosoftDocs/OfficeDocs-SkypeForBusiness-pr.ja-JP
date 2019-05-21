@@ -7,7 +7,7 @@ ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: チームやビジネス用の Skype でクラウドの音声機能を実装する際、ユーザーにメールを送信するのにには、テンプレートを使用します。
+description: チームまたは Skype for Business でクラウドボイス機能を導入するときに、テンプレートを使用してユーザーにメールを送信します。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -22,21 +22,21 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/11/2019
 ms.locfileid: "33898661"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>新しいオンラインの電話システムのユーザーの導入を容易にします。
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>新しいオンライン電話システムのユーザーの導入を容易にする
 
-電話は、ユーザーの生存線を指定できます。 従来の電話システムから、オンラインの電話システムは、ユーザーの作業方法の変更は、生産性に悪影響を及ぼすに切り替えます。 通知、ガイド、およびこの変更によってユーザーをサポートできます好ましいユーザー環境を確保し、投資利益率を最大化するために時間をかけています。
+電話はユーザーの生存線にすることができます。 従来の電話システムからオンライン電話システムに切り替えることは、ユーザーが作業する方法の大幅な変更を意味し、生産性に悪影響を与える可能性があります。 この変更によってユーザーの通知、ガイド、サポートを行うことができます。これにより、ユーザーエクスペリエンスを向上させ、投資収益率を最大限に高めることができます。
 
-この資料には、新しい電話システムのユーザーを通知するためにカスタマイズ可能な電子メール テンプレートが含まれています。 カスタマイズし、特定のボイスの展開に合わせて自動的に適切な電子メールを送信します。 簡単なパーソナル化のセクションを示すために角かっこを使用しましたが、ユーザーに最も関連するお知らせを確認するのには組織に固有のメッセージを追加することをお勧めです。 展開に該当する場合、「Skype ビジネス」で「チーム」へすべての参照を置き換える
+この記事には、新しい電話システムについてユーザーに通知するためのカスタマイズ可能なメールテンプレートが含まれています。 特定の音声展開に合わせて、適切なメールをカスタマイズして送信します。 簡単にカスタマイズできるセクションを示すために、かっこを使用しましたが、ユーザーにとって最も関連性の高いお知らせとなるように、組織固有のメッセージを追加することをお勧めします。 展開に該当する場合は、"Teams" へのすべての参照を "Skype for Business" に置き換えます。
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>番号 1 を電子メールで送信: 送信する開始する前に 3 週間
+## <a name="email-number-1-send-three-weeks-before-launch"></a>メール番号 1: 起動する3週間前に送信する
 
-件名:
+件名行:
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-電子メールの本文:
+メールの本文:
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -93,15 +93,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>電子メールの数 2: 起動する前に 1 週間
+## <a name="email-number-2-send-one-week-before-launch"></a>メール番号 2: 起動前に1週間送信する
 
-件名:
+件名行:
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-電子メールの本文:
+メールの本文:
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -137,15 +137,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>番号 3 を電子メールで送信: 発表日に送信
+## <a name="email-number-3-send-on-launch-day"></a>メール番号 3: 起動日に送信
 
-件名:
+件名行:
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-電子メールの本文:
+メールの本文:
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -174,15 +174,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>4 の番号を電子メールで送信: 発表から 2 週間以内に送信
+## <a name="email-number-4-send-two-weeks-after-launch"></a>メール番号 4: 起動後に2週間分送信する
 
-件名:
+件名行:
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-電子メールの本文:
+メールの本文:
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

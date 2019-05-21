@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: a4ce2c9ab578111cb261d2857c65d3264e9dd436
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27df8977f9651ac363493d57a306c4355da3aebb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888584"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284306"
 ---
 # <a name="install-database-create-mirror-database-page"></a>データベースのインストールでのミラー データベースの作成ページ
  
 このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
   
-発行プロセス中に SQL Server のミラー データベースをインストールしないようにする場合は、トポロジ ビルダー内の任意のノードを右クリックして**データベースのインストール**を使用してそれらをインストールします。 ストアを選択する、ミラーをインストールします。 高度な設定を定義する**設定**をクリックします。
+公開プロセス中に SQL Server ミラーデータベースをインストールしないことを選択した場合は、トポロジビルダーの任意のノードで、[**データベースのインストール**] をクリックしてインストールします。 インストールするミラーストアを選択します。 [**設定**] をクリックして、詳細設定を定義します。
   
 ## <a name="see-also"></a>関連項目
 

@@ -1,6 +1,6 @@
 ---
 title: Shifts for Teams
-description: 設定し、スケジュール管理ツールで、チームでのシフトを管理する必要があります管理者ガイドを取得します。
+description: チームでスケジュール管理ツールのシフトのセットアップと管理を行うために必要な管理ガイダンスを取得します。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -21,9 +21,9 @@ ms.locfileid: "32245909"
 ---
 # <a name="shifts-for-teams"></a>Shifts for Teams
 
-チームでは、先頭行の作業者、組織の通信し共同作業を効果的に行うし、最適な作業を行うに必要なツールです。 管理者ガイドを設定し、スケジュール管理ツールで、チームでのシフトを管理する必要がありますがあります。
+チームは、組織内の最初のラインワーカーに、効率的にコミュニケーションや共同作業を行い、最善の作業を実行するために必要なツールを提供します。 ここでは、チームのスケジュール管理ツールであるシフトのセットアップと管理に必要な管理ガイダンスについて説明します。
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>チームの変化を StaffHub から移動します。
+### <a name="move-from-staffhub-to-shifts-in-teams"></a>Teams で StaffHub からシフトへ移動する
 
 <ul class="panelContent cardsFTitle">
  <li>
@@ -37,7 +37,7 @@ ms.locfileid: "32245909"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>StaffHub 退職し、チームの変化への移行についてください。</h3>
+                        <h3>StaffHub の廃止と Teams でのシフトの切り替えについて説明します。</h3>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ ms.locfileid: "32245909"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>StaffHub チームをチームでシフトに移動します。</h3>
+                        <h3>Teams での StaffHub teams のシフトへの移動</h3>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ ms.locfileid: "32245909"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>チームに今後の機能の先頭行の作業者</h3>
+                        <h3>Teams に登場する firstline Worker 機能</h3>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ ms.locfileid: "32245909"
     </li>
 </ul>
 
-### <a name="set-up-and-manage-shifts"></a>設定し、シフトを管理
+### <a name="set-up-and-manage-shifts"></a>シフトの設定と管理
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -96,7 +96,7 @@ ms.locfileid: "32245909"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>組織内のシフトを管理します。</h3>
+                        <h3>組織内のシフトを管理する</h3>
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@ ms.locfileid: "32245909"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>シフトの先頭行の作業者については、</h3>
+                        <h3>Firstline Worker のヘルプをシフトする</h3>
                     </div>
                 </div>
             </div>

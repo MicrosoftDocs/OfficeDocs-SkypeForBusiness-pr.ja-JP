@@ -1,10 +1,10 @@
 ---
-title: トポロジ サーバー アプリケーション
+title: Topology Server アプリケーション
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.TopoAppSvrMain
@@ -12,30 +12,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'トポロジ: 展開では、サーバー アプリケーションがサーバー アプリケーションのページに表示されます。'
-ms.openlocfilehash: ba62f636400f83d2f96d37f9f9609809502e56b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[トポロジ: サーバーアプリケーション] ページに、展開に含まれるサーバーアプリケーションが表示されます。'
+ms.openlocfilehash: 2dbb49a7ca8e0a4377450653d95cdd04452efe96
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890978"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275959"
 ---
 # <a name="topology-server-application"></a>トポロジ: サーバー アプリケーション
 
-**トポロジ**: [**サーバー アプリケーション**] ページでは、展開にサーバー アプリケーションが表示されます。
+[**トポロジ**:**サーバーアプリケーション**] ページに、展開に含まれるサーバーアプリケーションが表示されます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
-**トポロジ**には次の作業を行うことができます: [**サーバー アプリケーション**] ページ。
+**Topology**: **Server アプリケーション**ページでは、次のタスクを実行できます。
 
-- 展開にサーバー アプリケーションを表示します。
+- 展開でサーバーアプリケーションを表示する
 
-- 有効にするか、サーバー アプリケーションを無効にします。
+- サーバーアプリケーションを有効または無効にする
 
-- 選択または重要なアプリケーションの選択を解除
+- 重要としてアプリケーションを選択または選択解除する
 
 ## <a name="see-also"></a>関連項目
 
-[有効にするか、Microsoft SIP 処理ゲート コミュニティのサーバー アプリケーションを無効にします。](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+[Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションを有効または無効にする](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
 
-[Microsoft SIP 処理クリティカルまたは重要でないと、ゲート コミュニティ アプリケーションをマークします。](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+[Microsoft SIP 処理言語 (MSPL) アプリケーションを Critical または Critical としてマークする](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)

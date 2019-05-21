@@ -4,40 +4,40 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'ビジネス サーバー 2019 展開新しい Skype にユーザーを移動するには、ビジネス サーバーのコントロール パネルまたは Skype のビジネス サーバー管理シェルのいずれかの Skype を使用します。 ビジネス サーバー 2019 の Skype へのスムーズな移行を確実にいくつかの要件を満たす必要があります。 このトピックの手順を完了するための前提条件についての詳細は、移行のためのクライアントを構成するを参照してください。 ユーザーの移動に関する詳細な手順については、フェーズ 4 を参照してください: パイロット プールにテスト ユーザーを移動します。'
-ms.openlocfilehash: 9f984b7fac919decce521c6dafc587a4ac86de50
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Skype for business server コントロールパネルまたは Skype for Business Server Management Shell を使用して、ユーザーを新しい Skype for Business Server 2019 の展開に移動することができます。 Skype for Business Server 2019 にスムーズに移行するためには、いくつかの要件を満たしている必要があります。 このトピックの手順を完了するための前提条件の詳細については、「移行のためにクライアントを構成する」を参照してください。 ユーザーの移動の詳細な手順については、「フェーズ 4: テストユーザーをパイロットプールに移動する」を参照してください。'
+ms.openlocfilehash: 67bc2d3b239e65b5b1c83e2dcda81a1610d5a31c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231589"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273960"
 ---
-# <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Skype をビジネス サーバー 2019 の残りのユーザーを移動します。
+# <a name="move-remaining-users-to-skype-for-business-server-2019"></a>残りのユーザーを Skype for Business Server 2019 に移動する
 
-ビジネス サーバー 2019 展開新しい Skype にユーザーを移動するには、ビジネス サーバーのコントロール パネルまたは Skype のビジネス サーバー管理シェルのいずれかの Skype を使用します。 ビジネス サーバー 2019 の Skype へのスムーズな移行を確実にいくつかの要件を満たす必要があります。 このトピックの手順を完了するための前提条件についての詳細は、[移行のためのクライアントを構成する](configure-clients-for-migration.md)を参照してください。 ユーザーの移動に関する詳細な手順についてを参照してください[フェーズ 4: パイロット プールにテスト ユーザーの移動](phase-4-move-test-users-to-the-pilot-pool.md)。
+Skype for business server コントロールパネルまたは Skype for Business Server Management Shell を使用して、ユーザーを新しい Skype for Business Server 2019 の展開に移動することができます。 Skype for Business Server 2019 にスムーズに移行するためには、いくつかの要件を満たしている必要があります。 このトピックの手順を完了するための前提条件の詳細については、「[移行のためにクライアントを構成](configure-clients-for-migration.md)する」を参照してください。 ユーザーの移動の詳細な手順については、「[フェーズ 4: テストユーザーをパイロットプールに移動する](phase-4-move-test-users-to-the-pilot-pool.md)」を参照してください。
   
 > [!IMPORTANT]
-> ビジネス サーバー 2019 の Skype を従来の環境からユーザーを移動する、Active Directory ユーザーとコンピューター スナップインまたは従来の管理ツールを使うことはできません。 
+> Active Directory ユーザーとコンピューターのスナップインまたは従来の管理ツールを使用して、従来の環境から Skype for Business Server 2019 にユーザーを移動することはできません。 
   
-Skype のビジネス サーバー 2019 プールにユーザーを移動すると、ユーザーのデータは、新しいプールに関連付けられているバックエンド ・ データベースに移動されます。 
+ユーザーを Skype for Business Server 2019 プールに移動すると、そのユーザーのデータは、新しいプールに関連付けられているバックエンドデータベースに移動されます。 
   
 > [!IMPORTANT]
-> これには、従来のユーザーによって作成されたアクティブな会議が含まれます。 などの従来のユーザーが**自分の会議**の会議を設定している場合その会議、できるビジネス サーバー 2019 プールの新しい Skype のユーザーを移動した後。 その会議にアクセスするための詳細では、同じ**会議 URL および会議 ID**は使用できます。 唯一の違いは、ビジネス サーバー 2019 プールの場合は、Skype では、従来のプールではなく、会議がここでホストされています。 
+> これには、従来のユーザーによって作成されたアクティブな会議も含まれます。 たとえば、従来のユーザーが**会議**用の会議を構成している場合は、ユーザーが移動された後も、新しい Skype For business Server 2019 プールでその会議を利用できます。 会議にアクセスするための詳細は、会議の**URL と会議 ID と**同じである必要があります。 唯一の違いは、会議が Skype for Business Server 2019 プールでホストされ、従来のプールではホストされていないことです。 
   
 > [!NOTE]
-> ビジネス サーバー 2019 は同時にアップグレードされたクライアントを展開するは、Skype のユーザーを格納します。 新機能は、新しいクライアント ソフトウェアにアップグレードする場合にのみユーザーが利用されます。 
+> Skype for Business Server 2019 のホームユーザーは、アップグレードされたクライアントを展開する必要はありません。 新しい機能は、ユーザーが新しいクライアントソフトウェアにアップグレードした場合にのみ利用可能になります。 
   
-### <a name="post-migration-task"></a>ポスト移行タスク
+### <a name="post-migration-task"></a>移行後の作業
 
-1. ユーザーを移動した後は、それらに割り当てられている会議ポリシーを確認します。 
+1. ユーザーを移動した後、それらに割り当てられている会議ポリシーを確認します。 
     
-2. によってユーザーが開催する会議が置かれている Skype レガシー インストールのホームは、フェデレーション ユーザーとシームレスにビジネス サーバー 2019 作業のためには、移行したユーザーに割り当てられている会議ポリシーは、匿名の参加者を許可する必要があります。
+2. Skype for Business Server 2019 を使っているユーザーによって開催された会議が、レガシインストールのあるフェデレーションユーザーとシームレスに動作するようにするには、移行したユーザーに割り当てられている会議ポリシーを使用して、匿名の参加者を許可する必要があります。
     
-3. 匿名の参加者**に匿名ユーザーを招待する参加者を許可する**ビジネス サーバー 2019 のコントロール パネルの Skype で選択されているし、 **AllowAnonymousParticipantsInMeetings**を許可する会議ポリシーの設定を**True**にしますビジネス サーバー管理シェルには、Skype で**Get CsConferencingPolicy**コマンドレットから出力します。 
+3. 匿名の参加者が Skype for Business Server 2019 コントロールパネルで選択されている**匿名ユーザーを招待する**ことを許可する会議ポリシーを使用して、 **AllowAnonymousParticipantsInMeetings**が**True**に設定されているSkype for Business Server 管理シェルの**set-csconferencingpolicy**コマンドレットからの出力。 
     
 <!-- 4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
  [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->

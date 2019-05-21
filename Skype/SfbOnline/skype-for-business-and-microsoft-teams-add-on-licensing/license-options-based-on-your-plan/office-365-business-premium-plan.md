@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Business Premium プランを購入する方法について説明します。 '
-ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238936"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290075"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -33,30 +33,30 @@ ms.locfileid: "32238936"
 
  **社外のユーザーとの通話を発着信するには、次の 2 つのオプションがあります** 。
 
-- **Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **オプション 1。無料の [Skype アプリ](https://www.skype.com/)** を使用します。 非常に小さなビジネス (1-2 ユーザーなど) を使用している場合は、Skype アプリを使う方が便利です。 国内通話と国際通話で利用する場合は、より安価な手段となります。 会議通話を保留したり、ビデオ通話を発信したり、デスクトップを共有してプレゼンテーションを行ったりすることができます。 [料金と支払オプションを確認](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)してください。
 
     Skype アプリは Office 365 スイートの一部ではないため、Skype for Business のように Outlook 2016 に統合されることはありません。このため、Outlook 2016 の連絡先は Skype に表示されませんので、Skype に連絡先を追加する必要があります。
 
     最初は Skype アプリをご使用いただいて、お客様のニーズに合うものかご確認いただくことをお勧めします。ニーズに合わない場合は、次のオプションでご利用のプランをアップグレードすることをご検討ください。
 
     > [!IMPORTANT]
-    > You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
+    > 従業員が Skype for Business を使って Skype ユーザーを検索できるようにするには、トグルを設定する必要があります。 「 [Skype For business ユーザーが skype の連絡先を追加できるようにする](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)」を参照してください。
 
 
-- **オプション 2 です。計画をアップグレードし、電話システムと国内または国内および国際呼び出しのプランを購入する**です。
+- **オプション2。プランをアップグレードし、電話システムと国内または国内および国際通話プランを購入**します。
 
     > [!Important]
-    > Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.
+    > Skype for Business Online のプラン 2 は、Office Business Premium のサブスクリプションに含まれていますが、 **クラウドの音声呼び出し機能を追加することはできません**。 そのため、Enterprise E5 (または Enterprise E3) プランを検討して、そちらの方がよりコスト効率が良いか確認することをおすすめします。
 
-1. [Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.
+1. [別の一般法人向け Office 365 プランに切り替える](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 Enterprise E5 プランを検討して、そちらの方がよりコスト効率が良いか確認することをおすすめします。
 
 2. **電話システム** アドオンを購入します。
     
-3. [Office 365 のプランを呼び出すこと](/MicrosoftTeams/calling-plans-for-office-365)を購入: のみを購入できるこの**電話システム**のアドオンを購入した後です。
+3. [Office 365 の通話プラン](/MicrosoftTeams/calling-plans-for-office-365)を購入する: このプランは、**電話システム**アドオンの購入後にのみご購入いただけます。
     
     この 2 番目のオプションは、外部との通話の発着信を行うユーザーを何人か抱えている会社に適しています。
 
-## <a name="how-to-see-prices-and-buy"></a>参照してください価格と購入方法
+## <a name="how-to-see-prices-and-buy"></a>価格の表示方法と購入方法
 <a name="bkmk_buypremium"> </a>
 
  **電話会議と通信クレジットを取得するには:**
@@ -65,7 +65,7 @@ ms.locfileid: "32238936"
 
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
 
-   ![追加ライセンスを購入するには、アドオンの購入を選択します。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![アドオンライセンスを購入するには、[アドオンの購入] を選択します。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. 電話会議を購入して通信クレジットをセットアップするための価格とオプションが表示されるようになります。
 
@@ -73,7 +73,7 @@ ms.locfileid: "32238936"
 
 1. E1 か E3 プランに切り替えます。
 
-2. [Office 365 管理センター] > [**請求**]  >  [**サブスクリプション**] の順に開きます。
+2. Go to Office 365 admin center > **Billing** > **Subscriptions**.
 
 3. [ **アドオン**] を選択します。これで、電話システムの価格と、それを購入するためのオプションが表示されます。
 

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,29 +24,29 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: スイスで使用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: cda107fdd1b807d0df1f9f7c48548e4e14f9ecb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをスイスで利用できるようにする方法について説明します。
+ms.openlocfilehash: 1586b0c538b8fb8ee87343d2fda2f5535e3bb6c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221956"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282779"
 ---
 # <a name="availability-in-switzerland"></a>スイスでの利用可能性
 
 > [!NOTE]
-> 番号を取得**サービス**スイスで使用するための会議では、自動アテンダントと、キューを呼び出すことができますが、通話プランをご利用いただけませんと、スイスの**ユーザー**数を取得できません。
+> スイスでは、会議、自動応答、通話キューで使用する**サービス**番号を取得できますが、通話プランを利用できないため、スイスで**ユーザー**番号を取得することはできません。
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-スイスで使用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをスイスで利用できるようにする方法について説明します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。 <br/><ul><li> Zurich</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○: <br/><ul><li> Zurich</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム

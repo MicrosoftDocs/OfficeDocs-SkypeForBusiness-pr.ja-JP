@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: テナント全体を管理する方法を理解し、チームのチームから移行する際のユーザーの設定が新しいマイクロソフトのチーム管理センターに Microsoft 365 管理センターで発生します。
+description: Microsoft 365 管理センターの Teams エクスペリエンスから新しい Microsoft Teams 管理センターに移行しているときに、チームのテナント全体とユーザー設定を管理する方法について説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -32,86 +32,86 @@ ms.locfileid: "33827797"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>新しいマイクロソフトのチーム管理センターとは何ですか。  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターについて教えてください。  
 
-新しい admin center のエクスペリエンスにチームやビジネス用の Skype の両方を管理するための統一された操作性が提供されます。 追加機能、エンド ・ ツー ・ エンドの洞察、およびユーザー レベルでのチームの設定を管理する機能を提供することはしています。
+新しい管理センターのエクスペリエンスでは、チームと Skype for Business の両方を管理するための統一されたエクスペリエンスを提供します。 Microsoft は、追加機能、エンドツーエンドの洞察、チーム設定をユーザーレベルで管理する機能を提供しています。
 
-![マイクロソフトのチーム管理センターのスクリーン ショットです。](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Microsoft Teams 管理センターのスクリーンショット。](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>設定は新たにマイクロソフトのチーム管理センターに移行
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターに移行された設定
 
-移行され、新しい管理ポータルで現在の設定とポリシーの関係を示しているチームの経験のセクションを次の表に示します。
+次の表は、移行された Teams の環境のセクションと、現在の設定と新しい管理ポータルのポリシーの関係を示しています。
 
-|Microsoft 365 管理センターでのチームのセクション  |名 (テナント レベル) を設定します。  |マイクロソフトのチーム管理センターのポリシー   |レベル: テナントまたはユーザー   |
+|Microsoft 365 管理センターの Teams のセクション  |設定名 (テナントレベル)  |Microsoft Teams 管理センターのポリシー   |Level: テナントまたはユーザー   |
 |---------|---------|---------|---------|
-|General     |個人プロファイルで組織のチャットを表示します。        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  テナント       |
-|General     |ビジネスの Skype を使用して、チームを持っていない受信者         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
-|電子メールの統合     |チャンネルに電子メールを送信するユーザーを許可します。         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
-|電子メールの統合     |送信者を許可する] ボックスの一覧         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |テナント         |
+|General     |個人プロファイルで組織のチャットを表示する        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  テナント       |
+|General     |Teams を持っていない受信者に Skype for Business を使用する         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
+|電子メールの統合     |チャネルに電子メールを送信することをユーザーに許可する         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
+|電子メールの統合     |送信者リストを許可         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |テナント         |
 |カスタム クラウド ストレージ     |ボックス         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
-|カスタム クラウド ストレージ     |ドロップ ボックス        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
+|カスタム クラウド ストレージ     |フォルダ        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
 |カスタム クラウド ストレージ     |Google ドライブ        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
 |カスタム クラウド ストレージ     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
-|ユーザーとライセンスの種類を設定     |すべてのユーザーの Microsoft チームのオンとオフをオンにします。          |廃止<sup>1</sup>        |         |
-|Teams とチャネル     |         |Azure Active Directory グループの管理 (現在のエクスペリエンスと同じ) にリダイレクトします。              |ユーザー         |
-|Teams とチャネル     |         |AAD グループの管理 (現在のエクスペリエンスと同じ) にリダイレクトします。             |ユーザー          |
-|アプリ|Enable new external apps by default (既定で新しい外部アプリを有効にする)|組織全体にわたるアプリケーションの設定|テナント|
-|アプリ|外部のアプリケーションを許可します。|組織全体にわたるアプリケーションの設定|テナント|
-|アプリ|外部アプリケーション<sup>2</sup>の sideloading を許可します。|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|ユーザー|
-|アプリ|既定のアプリケーション<sup>3</sup>|TeamsAppPermissionPolicy|ユーザー|
-|アプリ|外部アプリケーション<sup>3</sup>|TeamsAppPermissionPolicy|ユーザー|
-|通話や会議     |個人の会議のスケジュールを設定できるようにします。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
-|通話や会議     |アドホック チャネルの meetup を許可します。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
-|通話や会議     |チャネルの会議のスケジュールを設定できるようにします。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
-|通話や会議     |会議のビデオを許可します。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
-|通話や会議     |画面の会議で共有を許可します。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
-|通話や会議     |プライベート通話を許可します。         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |ユーザー          |
-|メッセージング      |Gif を会話に追加できるように、Giphy を有効にします。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |コンテンツの規制         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |Memes のユーザーは編集したり、会話に追加するを有効にします。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |ユーザーが編集および会話に追加できるステッカーを有効にします。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |所有者がすべてのメッセージを削除するのには         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |独自のメッセージの編集を許可します。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |独自のメッセージを削除するユーザーを許可します。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |個別にチャットすることができます。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|ユーザー/ライセンスの種類別の設定     |すべてのユーザーに対して Microsoft Teams のオンとオフを切り替える          |廃止<sup>1</sup>        |         |
+|Teams とチャネル     |         |Azure Active Directory グループ管理にリダイレクトします (現在のエクスペリエンスと同じ)。              |ユーザー         |
+|Teams とチャネル     |         |AAD グループ管理にリダイレクトします (現在のエクスペリエンスと同じ)。             |ユーザー          |
+|アプリ|Enable new external apps by default (既定で新しい外部アプリを有効にする)|組織全体でのアプリの設定|テナント|
+|アプリ|外部アプリを許可する|組織全体でのアプリの設定|テナント|
+|アプリ|外部アプリのサイドローディングを許可する<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|ユーザー|
+|アプリ|既定のアプリ<sup>3</sup>|TeamsAppPermissionPolicy|ユーザー|
+|アプリ|外部アプリ<sup>3</sup>|TeamsAppPermissionPolicy|ユーザー|
+|通話と会議     |プライベート会議のスケジュールを設定する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
+|通話と会議     |アドホックチャネルの meetup を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
+|通話と会議     |チャンネル会議のスケジュールを許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
+|通話と会議     |会議でのビデオの使用を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
+|通話と会議     |会議での画面共有を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
+|通話と会議     |プライベート通話を許可する         |[Teamスケール・ポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |ユーザー          |
+|メッセージング      |ユーザーが会話に gif を追加できるように Giphy を有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |コンテンツの評価         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |ユーザーが編集して会話に追加できるミームを有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |ユーザーが編集して会話に追加できるステッカーを有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |所有者がすべてのメッセージを削除できるようにする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |ユーザーが自分のメッセージを編集できるようにする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |ユーザーが自分のメッセージを削除できるようにする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |ユーザーがプライベートでチャットすることを許可します         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
 
-<sup>1</sup>は、ゲストから廃止されます。 ゲストを有効にする無効にすると管理できるように、マイクロソフトのチーム管理センターで。 企業、Edu の学生のチームを有効にする無効にして、Edu 教職員がすぐに使用できません。 Microsoft 365 の管理センターでのライセンスを割り当てることによってこれを管理する必要があります。 [マイクロソフトのチームへのユーザー アクセスの管理](user-access.md)を参照してください。
+<sup>1</sup>ゲストの場合は廃止されました。 ゲストを有効または無効にすることで、Microsoft Teams 管理センターで管理できるようになりました。 Teams、Edu Student、Edu 教職員の Teams の有効化/無効化は、まもなく廃止されます。 これは、Microsoft 365 管理センターでライセンスを割り当てることで管理する必要があります。 「 [Microsoft Teams へのユーザーアクセスを管理する」を](user-access.md)参照してください。
 <br><br>
-<sup>2</sup> Sideloading に次のように分割されます。
+<sup>2</sup>サイドローディングは、次のように分割されます。
 
-- [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)のユーザー レベルで管理することができる sideload アプリケーションにユーザーを許可します。
-- テナント レベルで組織全体にわたるアプリケーションの設定を管理できますが、カスタム アプリケーションとの対話をテナントにできるようにします。
+- [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)のユーザーレベルで管理できるアプリをユーザーがサイドローディングできるようにします。
+- テナントのユーザーが、組織全体のアプリ設定でテナントレベルで管理できるカスタムアプリを操作できるようにします。
  
-<sup>3</sup>既定のアプリケーションと外部アプリケーションが有効になって、TeamsAppPermissionPolicy のユーザー レベルで無効になります。 さらに、組織全体にわたるアプリケーションの設定ですべてのユーザーとテナント レベルの設定をオーバーライドするテナント レベルでアプリケーションをブロックできます。 
+<sup>3 つ</sup>の既定のアプリと外部アプリは、TeamsAppPermissionPolicy のユーザーレベルで有効または無効にすることができます。 さらに、ユーザーとテナントレベルの設定を上書きする組織全体のアプリ設定で、テナントレベルでアプリをブロックすることができます。 
 
 > [!NOTE]
-> Microsoft 365 の管理センターでチームとチャネルに関連する構成のグループのダッシュ ボードを使用する続行するでしょう。 アプリケーションの設定は、Microsoft 365 管理センターの [チーム] 領域で残され、後で移行されます。 
+> 引き続き、Microsoft 365 管理センターの Groups ダッシュボードを使用して、チームとチャネルに関する構成を行います。 アプリの設定は、Microsoft 365 管理センターの [Teams] 領域に保持され、後で移行されます。 
 
-## <a name="manage-settings-during-the-migration"></a>移行時に設定を管理します。
+## <a name="manage-settings-during-the-migration"></a>移行時に設定を管理する
 
-セクションの移行が、テナントの完了するまで、Microsoft 365 管理センターでは、ビジネス管理センターの Skype の設定を変更するのには続行することができます。 
+引き続き、テナントのセクションの移行が完了するまで、Microsoft 365 管理センターと Skype for Business 管理センターで設定を変更することができます。 
 
-移行時に、機能を管理する場所を次の表に示します。
+次の表は、移行中に機能を管理できる場所を示しています。
 
-|機能  |マイクロソフトのチーム管理センター                      |Skype のビジネス管理センター (レガシ)  |Microsoft 365 管理者センター  |
+|機能  |Microsoft Teams 管理センター                      |Skype for Business 管理センター (レガシー)  |Microsoft 365 管理センター  |
 |---------|:---------:|:---------:|:---------:|
-|チームが、メッセージング、会議、およびイベントのライブのポリシー     |     X    |         |         |
-|チームのアップグレードのポリシー     |    X     |         |         |
-|ゲストのメッセージ、会議、および音声の設定     |   X      |         |         |
-|チームのライフ サイクル管理   |    X    |      |       |
-|チームの設定   |    X    |      |       |
+|Teams のメッセージング、会議、ライブイベントのポリシー     |     X    |         |         |
+|Teams のアップグレードポリシー     |    X     |         |         |
+|メッセージング、会議、音声のゲスト設定     |   X      |         |         |
+|Teams のライフサイクル管理   |    X    |      |       |
+|Teams の設定   |    X    |      |       |
 |外部アクセスの設定     |    X    |      |       |
-|ユーザーの管理    |         |         |    X     |    
+|ユーザー管理    |         |         |    X     |    
 |電話会議     |    X     |    X     |         |
 |通話プラン     |         |    X     |         |
 |電話システム    |         |     X    |         |
 |電話番号の管理     |         |   X      |         |
-|クラウドの音声機能のライセンス     |         |         |    X     |
+|クラウド音声機能のライセンス     |         |         |    X     |
 |自動応答     |         |    X     |         |
 |通話キュー     |         |    X     |         |
 
-## <a name="manage-settings-after-the-migration"></a>移行後の設定を管理します。
+## <a name="manage-settings-after-the-migration"></a>移行後に設定を管理する
 
-これらの設定の移行が完了すると、Office 365 管理センターでは、ビジネス管理センターでは、Skype でに無効にし、新しいマイクロソフトのチーム管理センターで管理することができますし。
+これらの設定の移行が完了したら、Office 365 管理センターと Skype for Business 管理センターでそれらの設定を無効にし、新しい Microsoft Teams 管理センターで管理することができます。
 
 

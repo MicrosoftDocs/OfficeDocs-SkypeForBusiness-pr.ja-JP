@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -26,122 +26,122 @@ f1_keywords:
 ms.custom:
 - Setup
 - LIL_Placement
-description: 'ユーザーが別の組織内のユーザーに問い合わせるか、外にそれらの連絡先を使用できるようにするのにはビジネス用の Skype を構成する方法を参照してください。 '
-ms.openlocfilehash: 352973816e07ce60cff650f43ac6fced7f81e3b1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'ユーザーが別の組織のユーザーと会話したり、外部からの連絡をしたりできるように Skype for Business を構成する方法について説明します。 '
+ms.openlocfilehash: 727077d87486a59b956720b52ca9e6f2cf388c07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239219"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276189"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
 
 > [!NOTE]
-> ビジネス連合の Skype を 21Vianet と Office 365 のドイツの組織によって運営されて Office 365 を使用できません。 
+> Skype for Business のフェデレーションは、21Vianet および Office 365 ドイツの組織が運用している Office 365 では使用できません。 
   
-記事の場合この手順を使用します。
+次の場合、この記事で説明する手順をご利用ください。
   
-- ビジネスで別のドメインにユーザーがあります。 たとえば、Rob@ContosoEast.com と Ann@ContosoWest.com です。
+- 会社のさまざまなドメインにユーザーがいる。 たとえば、Rob@ContosoEast.com と Ann@ContosoWest.com のような場合。
     
-- ビジネス用の Skype を使用して特定の企業、組織外の人に連絡するのには、組織で人をします。
+- 組織内のユーザーが Skype for Business を使用して、組織外の特定の企業のユーザーに連絡できるようにする場合。
     
-- 他のユーザーを検索し、連絡先、電子メール アドレスを使用することができるビジネス用の Skype を使用している世界で。 Skype のデフォルトを使用して、ビジネスの設定を自動的にこの動作はします。 しない場合は、ドメインの構成によってブロックされていないかどうかを確認する必要があります。
+- Skype for Business を使用している他のユーザーが、自分のメールアドレスを使用して、あなたを検索して連絡できるようにする必要があります。 Skype for Business の既定の設定を使用している場合は、これが自動的に有効になります。 そうでない場合は、その構成でドメインがブロックされていないことを確認する必要があります。
     
-## <a name="enable-business-to-business-communications-for-your-users"></a>ユーザーの企業間の通信を有効にします。
+## <a name="enable-business-to-business-communications-for-your-users"></a>ユーザーに対する企業間の通信を有効にする
 <a name="bk_preview"> </a>
 
-これを行う 2 つの組織で Office 365 の[管理者のアクセス許可](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
+この操作を行うには、両方の組織の Office 365 で[管理者権限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)を持っている必要があります。
 
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **チームの管理センターを使用して**
+![](../images/teams-logo-30x30.png) **Teams 管理センターを使用した**teams-logo-30x30
   
 1. Office 365 管理者アカウントでサインインします。 
     
-2. Office 365 管理センターでは、**管理センター**に移動 > **チーム**です。
+2. Office 365 管理センターで、[**管理センター** > **チーム**] に移動します。
     
-    ![チーム管理者を選択します。](../images/MS-Teams-Admin.png)
+    ![Teams 管理者を選びます。](../images/MS-Teams-Admin.png)
   
-3. **チーム センター**では、 **Skype**を選択します>**レガシー ポータル** 
- ![デバイスの従来のポータルを選択します。](../images/SFBlegacy-size65.png)
+3. **Teams センター**で、「 **Skype** > **レガシーポータル** 
+ ![」「sfb レガシーポータルを選択」を選択します。](../images/SFBlegacy-size65.png)
  
-4. **ビジネス管理センターの Skype**では、**組織**を選択します。 > **外部との連絡**。
-5. 設定するには、特定のビジネスで、または、ドロップ ダウン ボックスで、別のドメイン内のユーザーとの通信**にのみ許可されるドメイン**を選択します。
+4. **Skype for business 管理センター**で、[**組織** > の**外部通信**] を選びます。
+5. 特定の会社や別のドメインのユーザーとの通信を設定するには、ドロップダウン ボックスで [**許可したドメインに対してのみオンにする**] を選択します。
     
-    ビジネス ポリシーでは、Skype の選択を開くには世界中の他のすべてとの通信を有効にするかどうか、または、**をブロックするドメインを除く**。 これは既定の設定です。
+    または、Skype for Business のポリシーを開いている世界中のすべてのユーザーとの通信を有効にする場合は、 **[禁止したドメインを除いてオンに**する] を選びます。 これは、既定の設定です。
     
-6. [**ブロックまたは許可するドメイン**] を選択して**+** を許可するドメインの名前を追加します。
+6. [**禁止したドメインまたは許可したドメイン**] の下で [**+**] を選択し、許可するドメイン名を追加します。
     
-7. その他の組織の管理者には、**ビジネス管理センターの Skype**では、次の同じ手順を確認します。 などの**ドメインを許可する**ボックスの一覧で、管理者が自社のドメインを入力する必要があります。
+7. 他の組織の管理者が、 **Skype For business 管理センター**でこれらと同じ手順を実行していることを確認します。 たとえば、相手の組織の管理者は、その組織の**許可されたドメイン** のリストにお客様の会社のドメインを入力する必要があります。
     
-8. Windows ファイアウォールを使用している場合は、Skype のビジネスに必要なポートが自動的に開きます。
+8. Windows ファイアウォールを使用している場合、Skype for Business は必要なポートを自動的に開きます。
     
-    組織がインターネットへの接続をネットワーク上のコンピューターを制限する別のファイアウォール ソリューションを使用している場合は、クライアント コンピューターは、次の[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)にアクセスすることを確認します。 インフラストラクチャの構成、ファイアウォールやプロキシのリストを許可する、送信する Fqdn を追加することがあります:**\*です。 api.skype.com**、 \***です。 users.storage.live.com**、と**graph.skype.com**。 お使いのファイアウォールでポートを開く方法の詳細については、それに付属のマニュアルを確認してください。
+    組織で別のファイアウォールソリューションを使用していて、ネットワーク上のコンピューターがインターネットに接続されないように制限する場合は、クライアントコンピューターが次の[Office 365 url と IP アドレス範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)にアクセスできることを確認します。 ファイアウォールまたは\*プロキシインフラストラクチャ構成** \*** の送信許可リストに fqdn を追加する必要がある場合があります。 api.skype.com、 **users.storage.live.com**、 **graph.skype.com**。 ファイアウォールでこれらのポートを開く方法については、付属のマニュアルを確認してください。
     
-    すべてのポートを開く必要のリストは、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)を参照してください。
+    開く必要があるすべてのポートの一覧については、「 [Office 365 の url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)」を参照してください。
 
-9. 管理者は、組織では、次の手順の後にもことを確認します。
+9. 組織の管理者が次の手順も実行していることを確認します。
     
-10. **テストするのには最大で 24 時間を待機**します。 外部通信の設定を変更するすべてのデータ センター間で設定を変更するには、最大 24 時間かかります。
+10. **テストに最大24時間待機**します。 外部通信設定を変更すると、すべてのデータセンターに変更が反映されるまでに最大24時間かかることがあります。
     
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Skype、無料のコンシューマー アプリケーションを使用して他のユーザーと IM を検索して、ユーザーを許可します。 詳細については、[ビジネス ユーザー向けの Skype は、Skype 連絡先を追加する](let-skype-for-business-users-add-skype-contacts.md)を参照してください。
+![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png)では、無料のコンシューマーアプリである skype を使用しているすべてのユーザーに対して、検索と IM を許可することができます。 詳細については、「 [skype For business ユーザーが skype の連絡先を追加できる](let-skype-for-business-users-add-skype-contacts.md)ようにする」を参照してください。
   
-## <a name="test-and-troubleshoot"></a>テストし、トラブルシューティング
+## <a name="test-and-troubleshoot"></a>テストとトラブルシューティング
 <a name="bk_preview"> </a>
 
- **企業間の通信を設定する際に発生する最も一般的な問題は、取得[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)右です。**
+ **企業間の通信を設定する場合に最もよく発生する問題は、[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)の設定ミスによるものです。**
   
-設定をテストするには、企業ファイアウォールの背後にあるではないビジネスの Skype の連絡先が必要です。
+セットアップをテストするには、会社のファイアウォールの背後にない Skype for Business の連絡先が必要です。
   
-1. **24 までの待機時間をテスト**外部の通信設定を変更した場合。
+1. 外部通信設定を変更したら、**最大24時間待機**してテストします。
     
-2. ビジネスの Skype は、ビジネス用の Skype の連絡先の検索でチャットへの要求を送信します。
+2. Skype for Business で、Skype for Business で連絡先を検索し、チャットのリクエストを送信します。
     
-    会社のポリシーのために送信できませんでしたというメッセージが表示される場合[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)を再確認する必要があります。
+    会社のポリシーのために送信できなかったというメッセージが表示された場合は、 [Office 365 の url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)を再確認する必要があります。
     
-3. チャットへの要求を送信するビジネス用連絡先の Skype を依頼してください。 要求の場合、問題は、ファイアウォールの設定 (ファイアウォール設定が正しいことが既にわかっていると仮定した場合) です。
+3. Skype for Business の連絡先に、チャットのリクエストを送信するように依頼します。 相手からの要求を受信できない場合は、お客様のファイアウォールの設定に問題があります (相手のファイアウォールの設定が正しいことが確認済みであることが前提)。
     
-4. 問題がお使いのファイアウォールであるかどうかをテストする別の方法ではないファイアウォールの内側に、コーヒー ショップなどの wifi の場所に移動し、チャットする相手に要求を送信するのにはビジネス用の Skype を使用します。 メッセージは、そこを通過し、問題がわかっていないしたら職場場合、は、お使いのファイアウォールです。
+4. ファイアウォールで問題があるかどうかをテストするには、喫茶店など、ファイアウォールの背後にない wifi 上の場所にアクセスすることと、Skype for Business を使って、コンタクトに要求を送信してチャットする方法もあります。 メッセージをその場所からは送信できる一方、職場からは送信できない場合は、問題の原因は職場のファイアウォールであることが特定できます。
     
-## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>、他のユーザーを検索し、別のビジネスに接続するときを検出する方法
+## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>他のビジネスに接続しているときに、他のユーザーを検索して見つける方法
 <a name="bk_preview"> </a>
 
-ビジネス ユーザー向けの他の Skype での外部の通信を有効にした後、ユーザーは検索できます連合 Skype ビジネス ユーザー向けのサインイン名を検索し、: 例えば、Rob@contoso.com。 連絡先の一覧にユーザーを追加する必要があります。
+他の Skype for Business ユーザーとの外部通信を有効にすると、ユーザーはサインイン名 (たとえば、Rob@contoso.com) を検索して、フェデレーションされた Skype for Business ユーザーを見つけることができます。 次に、ユーザーを連絡先リストに追加する必要があります。
   
-![連合ビジネスでユーザーを検索するのには (これは、通常も、サインイン名)、電子メール アドレスを検索する必要があります。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![フェデレーションされたビジネスでユーザーを検索するには、メールアドレスを検索する必要があります (通常、サインイン名でもあります)。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
-## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>連合の企業との通信設定のヒント
+## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>フェデレーションされたビジネスとの通信をセットアップするためのヒント
 <a name="bk_preview"> </a>
 
-- ビジネス 2015年の Skype と Skype のオンライン ビジネスとの間のフェデレーションを構成するには、この資料を参照してください:[ビジネス オンラインの Skype でフェデレーションを構成](https://technet.microsoft.com/en-us/library/jj205126.aspx)します。
+- Skype for Business 2015 と Skype for Business Online の間のフェデレーションを構成するには、「 [skype For Business online とのフェデレーションを構成](https://technet.microsoft.com/en-us/library/jj205126.aspx)する」の記事を参照してください。
     
-- オンライン ビジネスの Lync と Skype との間のフェデレーションを構成するには、この資料を参照してください: [Lync のオンライン ・ カスタマーのフェデレーション サポートを構成します](https://technet.microsoft.com/en-us/library/hh202193.aspx)。
+- Lync と Skype for Business Online の間のフェデレーションを構成するには、次の記事を参照してください。 [Lync online の顧客のためのフェデレーションサポートの構成](https://technet.microsoft.com/en-us/library/hh202193.aspx)
     
-- Office 365 のビジネス ユーザー向けの 2 つの Skype は別のドメインに相互通信している場合 (たとえば、ビデオの会話またはデスクトップの共有) の両方の組織内有効になっているビジネス機能の Skype のみ使用できます。
+- Office 365 の2つの Skype for Business ユーザーが別々のドメインで相互に通信している場合は、両方の組織でオンになっている Skype for Business の機能 (たとえば、ビデオの会話やデスクトップ共有など) のみを使用できます。
     
-- 埋め込みまたは証拠保全に、組織内のビジネス ユーザーは、Skype を配置すると、自分のメールボックスの**回復可能な項目**でそのユーザーとその他の Skype をビジネスまたは Skype のユーザーの間ですべての IM 会話が保存されます。 これらの会話は、自分のメールボックスの**会話履歴**フォルダーに保存されません。
+- 組織内の Skype for Business ユーザーがインプレースまたは訴訟ホールドに設定されている場合、そのユーザーと他の Skype for Business または Skype ユーザー間の IM 会話は、そのユーザーのメールボックスの**回復可能なアイテム**に保存されます。 これらの会話は、自分のメールボックスの [**会話履歴**] フォルダーには保存されません。
     
-## <a name="turn-off-external-communication-for-specific-individuals"></a>特定の個人の外部通信をオフにします。
+## <a name="turn-off-external-communication-for-specific-individuals"></a>特定の個人の外部通信をオフにする
 <a name="bk_preview"> </a>
 
-全体のビジネスでは、外部の通信を有効にした後は、特定の個人の無効にすることができます。
+組織全体の外部通信を有効にした後は、特定の個人に対してのみオフにすることができます。
   
 1. Office 365 管理者アカウントでサインインします。
     
-2. **ユーザー**には、Office 365 管理センターで、 > **アクティブなユーザー**です。
+2. Office 365 管理センターで、[**アクティブな****ユーザー** > ] に移動します。
     
-3. 、ユーザーの一覧で、ユーザーの選択し、[**詳細設定**]**プロパティをビジネスの Skype を編集**] をクリックします。
+3. ユーザーの一覧でユーザーを選び、[**詳細設定**] で [ **Skype for business のプロパティの編集**] をクリックします。
     
-    ![Skype をビジネスを選択します。](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
+    ![Skype for Business を選ぶ](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
-4. **ビジネス管理センターの Skype**では、**外部の通信**を選択します。
+4. **Skype For business 管理センター**で、[**外部通信**] を選びます。
     
-    [**オプション**] ページで、すべての選択肢が選択されます。 通信を無効にするをオフにします。 次の図は、Jakob がその他の Skype ユーザーではなく、信頼されているその他の企業のユーザーと通信できることを示しています。
+    [**オプション**] ページで、すべての選択肢が選択されます。 無効にする通信をオフにします。 次の画像は、Jakob が他の Skype ユーザとは関係なく、他の信頼できる会社のユーザと通信できることを示しています。
     
-    ![外部の連絡先を選択します。](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
+    ![外部連絡先を選ぶ](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
 5. [ **保存**] を選びます。
     
 > [!NOTE]
-> 変更を有効にするには、最大で 24 時間待機する必要があります。 
+> 変更が有効になるまで最長で24時間かかる場合があります。 
   
 
 

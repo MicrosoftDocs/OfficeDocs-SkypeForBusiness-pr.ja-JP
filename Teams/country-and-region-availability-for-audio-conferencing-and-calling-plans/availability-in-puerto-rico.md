@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: (プエルトリコ) の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 8a245f67e4542f532ec7282abaea429a0a3b95f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをプエルトリコで利用できるようにする方法について説明します。
+ms.openlocfilehash: f92c35fa19c2464704c3d2827485cde6145f3b26
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232707"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287963"
 ---
 # <a name="availability-in-puerto-rico"></a>プエルトリコでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-(プエルトリコ) の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをプエルトリコで利用できるようにする方法について説明します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -61,7 +61,7 @@ ms.locfileid: "32232707"
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
 |通話プランで利用可能な通話分数  <br/> |3000 分の国内通話または 600 分の国際通話 (いずれかがその月で達するまで)。米国での国内通話に該当するのは、米国の 50 州すべてとプエルトリコへの通話です。割り当てられたライセンスの利用場所が米国および/またはプエルトリコであるユーザーは、同じ利用時間量を共有します。  <br/> |
-|プレミアム番号への発信コールを行うことができますでしょうか。 <br/> | この時点ではサポートされていません。 <br/> |
+|有料番号への通話発信は可能ですか? <br/> | この時点ではサポートされていません。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号

@@ -1,80 +1,80 @@
 ---
-title: ビジネス サーバーの Skype の正規化ルールを定義します。
+title: Skype for Business Server で正規化ルールを定義する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Skype ビジネス サーバーの正規化ルールをダイヤルされた電話番号を E.164 形式に変換するのに.NET Framework の正規表現を使用します。つまり、正規化の規則は、ユーザーがダイヤルした電話番号をとるし、その数ビジネス サーバーの Skype で内部的に使用される形式に変換します。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: dbf8b2a764d5a9370d1e117360a5773f20d6d9cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server の正規化ルールは、ダイヤルした電話番号を E-164 形式に変換するために .NET Framework の正規表現を使用します。つまり、正規化ルールは、ユーザーがダイヤルした電話番号を取得し、その番号を Skype for Business Server で内部的に使用されている形式に変換します。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
+ms.openlocfilehash: e5156816de13a8d59e3e6eea4890046d5b4f586a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896412"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274983"
 ---
-# <a name="defining-normalization-rules-in-skype-for-business-server"></a>ビジネス サーバーの Skype の正規化ルールを定義します。
+# <a name="defining-normalization-rules-in-skype-for-business-server"></a>Skype for Business Server で正規化ルールを定義する
 
-Skype ビジネス サーバーの正規化ルールをダイヤルされた電話番号を E.164 形式に変換するのに.NET Framework の正規表現を使用します。つまり、正規化の規則は、ユーザーがダイヤルした電話番号をとるし、その数ビジネス サーバーの Skype で内部的に使用される形式に変換します。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
+Skype for Business Server の正規化ルールは、ダイヤルした電話番号を E-164 形式に変換するために .NET Framework の正規表現を使用します。つまり、正規化ルールは、ユーザーがダイヤルした電話番号を取得し、その番号を Skype for Business Server で内部的に使用されている形式に変換します。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
 
-正規化規則の詳細については、[ダイヤル プランと正規化の規則](https://technet.microsoft.com/en-us/library/gg413082(v=ocs.15).aspx)を参照してください。
+正規化ルールの詳細については、「[ダイヤルプランと正規化ルール](https://technet.microsoft.com/en-us/library/gg413082(v=ocs.15).aspx)」を参照してください。
 
-正規表現を記述する方法の詳細については、 [.NET Framework の正規表現](http://go.microsoft.com/fwlink/p/?linkId=140927)を参照してください。
+正規表現の記述方法の詳細については、「 [.Net Framework の正規表現](http://go.microsoft.com/fwlink/p/?linkId=140927)」を参照してください。
 
-正規化の規則を編集または定義を次の方法のいずれかの方法を使用できます。
-- 開始数字、長さ、桁を削除して、ビジネス サーバーのコントロール パネルの Skype に対応する一致パターンと変換ルールを生成し、追加の桁の値を指定するのには、[**正規化ルールの構築**ツールを使用して](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule)あなたに。
-- 一致パターンと変換ルールを定義する[正規表現を手動で作成](#create-or-modify-a-normalization-rule-manually)をします。 
+正規化ルールを定義または編集するには、次のいずれかの方法を使用できます。
+- [ [**正規化ルールのビルド**] ツールを使用](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule)して、開始番号、長さ、削除する数字、追加する数字の値を指定し、Skype For business Server コントロールパネルで対応する一致パターンと翻訳ルールを生成します。あなたに。
+- 一致するパターンと翻訳ルールを定義するために、[正規表現を手動で記述](#create-or-modify-a-normalization-rule-manually)します。 
 
-## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>作成するか、ビルドを使用して正規化ルールの正規化ルールを変更
+## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>正規化ルールを作成または変更する
 
-作成またはビジネス サーバーのコントロール パネルの Skype の正規化ルールを変更する場合は、次の手順を完了します。 
+Skype for Business Server コントロールパネルで正規化ルールを作成または変更する場合は、次の手順を実行します。 
 
-**正規化規則をビルドを使用してルールを定義するには**
+**正規化ルールを作成してルールを定義するには**
 
-1. RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、[セットアップのアクセス許可の委任](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx)を参照してください。
-2. 、ブラウザー ウィンドウを開くし、コントロール パネルを開くための管理 URL を入力します。 ビジネス コントロール パネルの Skype を起動することができますを使用するさまざまな方法についての詳細は、[インストールと管理ツールを開く](../../management-tools/install-and-open-administrative-tools.md)を参照してください。
-3. (省略可能)手順 10 で手順 11] または [[変更のダイヤル プラン](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan)で[ダイヤル プランの作成](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan)の手順に従います。 
+1. RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「[委任のセットアップ権限](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx)」を参照してください。
+2. ブラウザーのウィンドウを開き、管理 URL を入力してコントロールパネルを開きます。 Skype for Business コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「[管理ツールをインストールして開く](../../management-tools/install-and-open-administrative-tools.md)」をご覧ください。
+3. 省略手順11で「[ダイヤルプランを作成](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan)する」または「[ダイヤルプランを変更](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan)する」の手順に従います。 
 4. [**新しい正規化ルール**] または [**正規化ルールの編集**] の [**名前**] に、正規化される番号パターンについてわかりやすい名前 (たとえば、**5DigitExtension**) を入力します。
 5. (オプション) [**説明**] ボックスに、正規化ルールの説明を入力します (たとえば、「5 桁の内線番号を変換」)。
 6. [**正規化ルールの構築**] で、次のフィールドに値を入力します。
-    - **開始桁の数字**: の先頭の桁と一致するパターンの番号をダイヤルする (オプション) を指定してください。 たとえば、425 で始まるダイヤル番号とパターンが一致するようにする場合は、「**425**」と入力します。
-    - **長さ**: 指定の桁数に一致するパターンし、この長さを正確に一致するパターンをする、ダイヤルする長さでは、少なくとも番号を一致または一致する任意の長さの番号をダイヤルするかどうかを選択します。
-    - **桁**: (オプション) を指定する番号と一致するパターンをダイヤルした番号から削除する桁数を開始します。
-    - **数字**: ダイヤルする番号を追加する (オプション) を指定する数字と一致するパターンをします。
+    - **開始**番号: (省略可能) パターンと一致させるダイヤル番号の先頭の数字を指定します。 たとえば、425 で始まるダイヤル番号とパターンが一致するようにする場合は、「**425**」と入力します。
+    - [**長さ**]: 一致するパターンの桁数を指定し、パターンをこの長さと正確に一致させるか、またはダイヤルされた電話番号に一致するかどうかを選択します。
+    - [**削除する数字**]: (省略可能) パターンと一致させる電話番号から削除する開始桁数を指定します。
+    - **追加する数字**: (省略可能) パターンと一致させるダイヤル番号に追加する数字を指定します。
     
-    これらのフィールドに入力する値は、[**一致パターン**] および [**変換ルール**] に反映されます。 たとえば、**開始桁の数字**を空のままにすると、[**長さ**] フィールドには、タイプ**7**は、**正確**を選択し、**削除するのには数字**の**0**を指定、結果として得られる正規表現**と一致するパターン**では。
+    これらのフィールドに入力する値は、[**一致パターン**] および [**変換ルール**] に反映されます。 たとえば、**数字**を空のままにしておく場合は、 **[長さ**] **** フィールドに「 **7** 」と入力して、**削除する数字**に**0**を指定すると、**一致するパターン**の正規表現は次のようになります。
 
-    **^(\d{7})$**
+    **^ (\d{7}) $**
 
 7. [**変換ルール**] で、変換される E.164 電話番号の形式のパターンを次のように指定します。
-    - 一致パターンで指定した桁数を表す値。 例では、一致するパターンは、 **^(\d{7})$**、翻訳ルールの中の $1 が 7 桁のダイヤル番号を表します。
+    - 一致パターンで指定した桁数を表す値。 たとえば、対応するパターンが **^ (\d{7}) $** の場合、翻訳ルールの $1 は7桁のダイヤル番号を表します。
     - (オプション) "**追加する数字**" フィールドに値を入力して、変換された番号に付加する数字を指定します (たとえば、「**+1425**」)。
     
-    **一致させるパターン**が含まれている場合など、 **^(\d{7})$** ダイヤルした番号と**変換ルール**のパターンが含まれている **+1425$ 1** E.164 電話番号のパターンとしてルールが +14255550100 に 5550100 を正規化します。
+    たとえば、[**一致するパターン**] に **^ (\d{7})** という文字列が含まれている場合、ダイヤルする番号と**翻訳ルール**のパターンに **+ 1425 $ 1**が含まれていると、ルールは5550100から + 14255550100 を正規化します。
 
 8. (オプション) 正規化ルールによって電話番号が組織の内線番号になる場合は、[**内線番号**] を選択します。
 9. (オプション) 正規化ルールをテストする番号を入力し、[**実行**] をクリックします。テスト結果は、[**テストする番号の入力**] の下に表示されます。
     > [!Note] 
-    > テストにまだ合格していない正規化ルールは、保存しておいて後で再構成できます。 詳細については、[音声ルーティングのテスト](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx)を参照してください。 
+    > テストにまだ合格していない正規化ルールは、保存しておいて後で再構成できます。 詳しくは、「[ボイスルーティングのテスト](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx)」をご覧ください。 
 
 10. [**OK**] をクリックして正規化ルールを保存します。
 11. [**OK**] をクリックしてダイヤル プランを保存します。
 12. [**ダイヤル プラン**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。 
     > [!Note]
-    > 正規化ルールを作成または変更するときにはいつでも、[すべて確定] コマンドを実行して構成の変更を公開する必要があります。 詳細については、[発行保留中の音声ルーティング構成の変更](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx)を参照してください。 
+    > 正規化ルールを作成または変更するときにはいつでも、[すべて確定] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「[ボイスルーティング構成に保留中の変更を公開する](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx)」を参照してください。 
 
 ## <a name="create-or-modify-a-normalization-rule-manually"></a>手動による正規化ルールの作成または変更
 
-作成または正規化ルールを手動で変更する場合は、次の手順を完了します。
+正規化ルールを手動で作成または変更する場合は、次の手順を実行します。
 
 **正規化ルールを手動で定義するには**
 
-1. RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、[セットアップのアクセス許可の委任](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx)を参照してください。
-2. 、ブラウザー ウィンドウを開くし、コントロール パネルを開くための管理 URL を入力します。 ビジネス コントロール パネルの Skype を起動することができますを使用するさまざまな方法についての詳細は、[インストールと管理ツールを開く](../../management-tools/install-and-open-administrative-tools.md)を参照してください。
-3. (省略可能)手順 10 で手順 11] または [[変更のダイヤル プラン](GET LINK AFTER MIGRATION)で[ダイヤル プランの作成](GET LINK AFTER MIGRATION)の手順に従います。  
+1. RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「[委任のセットアップ権限](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx)」を参照してください。
+2. ブラウザーのウィンドウを開き、管理 URL を入力してコントロールパネルを開きます。 Skype for Business コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「[管理ツールをインストールして開く](../../management-tools/install-and-open-administrative-tools.md)」をご覧ください。
+3. 省略手順11で「[ダイヤルプランを作成](GET LINK AFTER MIGRATION)する」または「[ダイヤルプランを変更](GET LINK AFTER MIGRATION)する」の手順に従います。  
 4. [**新しい正規化ルール**] または [**正規化ルールの編集**] の [**名前**] に、正規化される番号パターンについてわかりやすい名前を入力します (たとえば、正規化ルールに「**5DigitExtension**」という名前を付けます)。
 5. (オプション) [**説明**] ボックスに、正規化ルールの説明を入力します (たとえば、「5 桁の内線番号を変換」)。
 6. [**正規化ルールの構築**] で [**編集**] をクリックします。
@@ -82,14 +82,14 @@ Skype ビジネス サーバーの正規化ルールをダイヤルされた電�
     - [**このパターンを照合**] で、ダイヤル電話番号を照合するために使用するパターンを指定します。
     - [**変換ルール**] で、変換される E.164 電話番号の形式のパターンを指定します。
 
-    入力する場合など、 **^(\d{7})$** で**このパターンに一致して** **+1425$ 1** **翻訳ルール**では、ルールが +14255550100 に 5550100 を正規化します。
+    たとえば、"^ (\d) $" と入力する**** と、**翻訳ルール**の " **^ (\d{7}) $** " と **+ 1425 $ 1**と入力した場合、ルールは5550100から + 14255550100 に正規化されます。
 
 8. (オプション) 正規化ルールによって電話番号が組織の内線番号になる場合は、[**内線番号**] を選択します。
 9. (オプション) 正規化ルールをテストする番号を入力し、[**実行**] をクリックします。テスト結果は、[**テストする番号の入力**] の下に表示されます。
 
     > [!Note]
-    > テストにまだ合格していない正規化ルールは、保存しておいて後で再構成できます。 詳細については、[音声ルーティングのテスト](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx)を参照してください。 
+    > テストにまだ合格していない正規化ルールは、保存しておいて後で再構成できます。 詳しくは、「[ボイスルーティングのテスト](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx)」をご覧ください。 
 
 10. [**OK**] をクリックして正規化ルールを保存します。
 11. [**OK**] をクリックしてダイヤル プランを保存します。
-12. [**ダイヤル プラン**] ページは、 **Commi**t をクリックし、[**すべてコミット**] をクリックします。 
+12. [**ダイヤルプラン**] ページで、[ **commi**t] をクリックし、[**すべてコミット**] をクリックします。 

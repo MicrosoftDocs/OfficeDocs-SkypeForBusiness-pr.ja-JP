@@ -12,48 +12,48 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 共有を呼び出すし、グループ通話ピックアップできるように、ユーザーが利用できない場合、呼び出しをキャプチャできるように、着信呼び出しを同僚と共有します。
-ms.openlocfilehash: e822d06e48f3d7df548f0fd0d04645e7e9328598
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 通話共有とグループ通話のピックアップユーザーが着信した通話を同僚と共有できるようにして、ユーザーが連絡不能なときに通話をキャプチャできるようにします。
+ms.openlocfilehash: 02c6605f3a5ea1df3457eaadea9956727431a827
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211824"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283480"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 
-呼び出しの共有とグループは、着信呼び出しの合計の仕事仲間の仕事仲間は、ユーザーが使用できない時に発生する呼び出しに応答できるように、マイクロソフトのチームがユーザーの共有の機能をピックアップを呼び出します。
+Microsoft Teams の通話共有とグループ通話のピックアップ機能を使用すると、ユーザーは着信通話を同僚と共有できるため、ユーザーが連絡できない間に発生した通話に同僚が応答できます。
 
-グループ コール ピックアップは他の形式のユーザーが共有経由でオーディオとビジュアルの通知、ビジュアルだけでは、着信の通知が必要な方法を構成することができますので、着信の転送または同時呼び出し) などの共有の呼び出しよりも受信者を妨げずやバナーのチームのアプリケーションで)、および、それに応答するかどうかを決定することができます。
+グループ通話のピックアップは、他の形式の通話共有 (着信の転送または同時呼び出しなど) よりも、受信者に対してはあまり影響がありません。ユーザーは、着信共有通話の通知方法 (音声と視覚的な通知を介して) を構成することができます。または、[Teams] アプリのバナーで、それに応答するかどうかを決定できます。
 
-呼び出しを他のユーザーと共有する、するには、ユーザーが呼び出しのグループを作成しでその呼び出しを共有するユーザーを追加します。 同時呼び出しを選択するか、設定を転送します。 詳細については、[チームでの転送と同時の呼び出し音を呼び出す](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)を参照してください。
+通話を他のユーザーと共有するには、ユーザーが通話グループを作成し、通話を共有するユーザーを追加します。 次に、同時呼び出しまたは転送設定を選択します。 詳しくは[、「Teams での着信の転送と同時](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)呼び出し」をご覧ください。
 
 > [!IMPORTANT]
-> ユーザー、グループの所有者を呼び出し、および呼び出しのグループのメンバーは、展開モードではチームだけである必要があります。 チームの展開方法の詳細については、[マイクロソフト チームの理解と Skype ビジネスの共存と相互運用性を](teams-and-skypeforbusiness-coexistence-and-interoperability.md)参照してください。
+> ユーザー、通話グループの所有者、通話グループのメンバーは、Teams のみの展開モードである必要があります。 Teams の展開モードの詳細については、「 [Microsoft teams と Skype For business の共存と相互運用性につい](teams-and-skypeforbusiness-coexistence-and-interoperability.md)て」を参照してください。
 
 ## <a name="license-required"></a>ライセンスが必要
 
-ユーザーを設定し、呼び出しの共有を使用し、コール ピックアップをグループ化するを有効にするエンタープライズ VoIP をする必要があります。 ライセンス ・ モデルの詳細については、 [Office 365 は、マイクロソフトのチームのライセンス](office-365-licensing.md)を参照してください。
+通話共有とグループ通話のピックアップをセットアップして使用するには、ユーザーはエンタープライズ Voip を有効にしている必要があります。 ライセンスモデルの詳細については、「 [Microsoft Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
 
-## <a name="configure-group-call-pickup"></a>グループ コール ピックアップを設定します。
+## <a name="configure-group-call-pickup"></a>グループ通話のピックアップを構成する
 
-コール ピックアップのグループを設定するにユーザーは最初の呼び出しグループ (これは、同じセキュリティ グループ、または、Office 365 のグループとして) を構成しでその呼び出しを共有するユーザーを追加し。 同時呼び出しを選択する、転送の設定を呼び出すか。 詳細な情報および詳細な手順についてを参照してください[チームに転送し、同時のリングを呼び出します](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)。
+グループ通話のピックアップを設定するために、ユーザーは最初に通話グループ (セキュリティグループまたは Office 365 グループとは異なります) を構成し、通話を共有するユーザーを追加します。 次に、同時呼び出しまたは [着信の転送] 設定を選択します。 詳細とステップバイステップの手順については、「 [Teams での着信の転送と同時呼び出し](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)」を参照してください。
 
-グループの作成と通知の設定は、ユーザー ・ ベースの機能を呼び出す管理者は、ユーザーに対してこれらの機能を構成するのにはありません。 セキュリティ グループまたはグループを Office 365 からの呼び出しのグループを作成できません。これらは、チームで作成する必要があります。
+通話グループの作成と通知の設定は、ユーザー主導の機能です。管理者は、これらの機能をユーザーに対して構成する必要はありません。 通話グループは、セキュリティグループまたは Office 365 グループから作成することはできません。チームで作成する必要があります。
 
-管理者は、ユーザーの**TeamsCallingPolicy の AllowCallGroups**設定を使用して呼び出しのグループを有効にする必要があります。 管理者は、このユーザーが呼び出しのグループを構成できるかどうかを制御することができますだけ。 True の場合、管理者に設定すると、ビットを設定して、任意のユーザーをグループ化する呼び出しを追加することからユーザーを防ぐことはできません。
+管理者は、ユーザーの**Teampolicy のポリシー AllowCallGroups**の設定を使って、通話グループを有効にする必要があります。 管理者は、このユーザーが通話グループを構成できるかどうかを制御することのみができます。 このビットが true に設定されると、管理者は、ユーザーが選択した通話グループのユーザーを構成および追加できないようにすることはできません。
 
-## <a name="limitations"></a>制限
+## <a name="limitations"></a>伴う
 
-テナントには、最大 32,768 の呼び出しのグループを含めることができます。 最大 5 ユーザーが各呼び出しのグループのことができます。 
+テナントには、最大32768の通話グループを含めることができます。 各通話グループには、最大5人のユーザーを指定できます。 
 
 ## <a name="more-information"></a>詳細情報
 
-[着信の転送およびチームでの同時呼び出し](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+[チームでの着信の転送と同時呼び出し](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

@@ -1,24 +1,24 @@
 ---
-title: フェーズ 7 の完全な移行後の作業
+title: フェーズ7完了後の移行タスク
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: このセクションのトピックでは、ビジネス サーバー 2019 の Skype への移行を完了した後に実行する必要があるタスクについて説明します。
-ms.openlocfilehash: ef3a1f4b6d7262d223e78ebfae53e02203e9248e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: このセクションのトピックでは、Skype for Business Server 2019 への移行を完了した後に実行する必要があるタスクについて説明します。
+ms.openlocfilehash: 34977674966ab7c52e14a3036edc71e1e2f44469
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231452"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273862"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>フェーズ 7: 移行後のタスクの実行
 
-このセクションのトピックでは、ビジネス サーバー 2019 の Skype への移行を完了した後に実行する必要があるタスクについて説明します。
+このセクションのトピックでは、Skype for Business Server 2019 への移行を完了した後に実行する必要があるタスクについて説明します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
@@ -38,7 +38,7 @@ ms.locfileid: "32231452"
     
 - [信頼済みアプリケーション サーバーの構成](configure-trusted-application-servers.md)
     
-- [Skype をビジネス サーバー 2019 クライアントを展開します。](deploy-clients.md)
+- [Skype for Business Server 2019 クライアントを展開する](deploy-clients.md)
     
 - [存続可能ブランチ アプライアンスの接続](connect-a-survivable-branch-appliance.md)
     

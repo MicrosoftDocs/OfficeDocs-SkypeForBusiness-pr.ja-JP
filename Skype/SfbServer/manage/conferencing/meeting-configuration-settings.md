@@ -1,29 +1,29 @@
 ---
-title: 管理会議の Skype ビジネス サーバーの構成設定
+title: Skype for Business Server で会議の構成設定を管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
-description: '概要: を管理する方法を学習する Skype ビジネス サーバーの構成設定に対応します。'
-ms.openlocfilehash: 2e4a3dae9eac83b94f6623faf07e5ee6e8e346db
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で会議の構成設定を管理する方法について説明します。'
+ms.openlocfilehash: d9ed049fe4873428729149e1ea624bf715bb81ac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888178"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283740"
 ---
-# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>管理会議の Skype ビジネス サーバーの構成設定
+# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で会議の構成設定を管理する
  
-**の概要:** 管理する方法については Skype ビジネス サーバーの構成設定に対応します。
+**概要:** Skype for Business Server で会議の構成設定を管理する方法について説明します。
   
-このトピックでは、会議の構成設定を管理する方法について説明します。 予定し、会議を展開する方法の詳細については、[ビジネスのサーバー用の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)と[ビジネス サーバーの Skype で会議を展開](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
+このトピックでは、会議の構成設定を管理する方法について説明します。 会議の計画と展開の詳細については、「Skype for business [server で会議の計画を立てる](../../plan-your-deployment/conferencing/conferencing.md)」および「 [Skype for business server で会議を展開](../../deploy/deploy-conferencing/deploy-conferencing.md)する」を参照してください。
   
-会議の構成設定では、ユーザーが作成できる会議の種類を指定でき、さらにこの会議への匿名ユーザーやダイヤルイン会議ユーザーの参加方法について (または、参加可能かどうかについても) 制御できます。 これらの設定のみに影響を与えるスケジュールされたミーティングです。ビジネス用の Skype で即時会議のオプション] をクリックして作成、臨時会議には影響しません。
+会議の構成設定では、ユーザーが作成できる会議の種類を指定でき、さらにこの会議への匿名ユーザーやダイヤルイン会議ユーザーの参加方法について (または、参加可能かどうかについても) 制御できます。 これらの設定は、スケジュールされた会議にのみ影響します。Skype for Business の [今すぐ会議] オプションをクリックして作成されたアドホック会議には影響ありません。
   
 会議の構成設定では、次の設定を定義します。
   
@@ -35,23 +35,23 @@ ms.locfileid: "33888178"
     
 - 匿名 (認証されていない) ユーザーを既定で許可するかどうか
     
-ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、会議の特性を定義できます。 
+会議の特性は、Skype for Business Server コントロールパネルを使用するか、Skype for Business Server 管理シェルを使用して定義できます。 
   
-指定できます (デフォルトで作成)、グローバル レベルの設定を達成するには、サイト レベルでは、または、プールのレベル。 既定では、グローバル設定が会議に関する操作性を定義します。 プール レベル設定を作成すると、その設定は、そのプールがホストするすべての会議に適用されます。 プール レベル設定を作成しない場合は、サイト レベル設定が存在すればそれが適用されます。 サイト レベル設定を定義しない場合は、グローバル設定がすべての会議に適用されます。
+会議の設定は、グローバルレベル (既定で作成)、サイトレベル、またはプールレベルで指定できます。 既定では、グローバル設定が会議に関する操作性を定義します。 プール レベル設定を作成すると、その設定は、そのプールがホストするすべての会議に適用されます。 プール レベル設定を作成しない場合は、サイト レベル設定が存在すればそれが適用されます。 サイト レベル設定を定義しない場合は、グローバル設定がすべての会議に適用されます。
   
-## <a name="manage-meeting-settings-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、会議の設定を管理します。
+## <a name="manage-meeting-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用して会議の設定を管理する
 
-ビジネス サーバーのコントロール パネルの Skype を使用して、会議の設定の管理。
+Skype for Business Server コントロールパネルを使用して会議の設定を管理するには、次の操作を行います。
   
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype をビジネス サーバーのコントロール パネルを開きます。
+2.  Skype for Business Server コントロールパネルを開きます。
     
 3. 左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。
     
-## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>ビジネス サーバー管理シェルの Skype を使用して、会議の設定を管理します。
+## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議の設定を管理する
 
-Skype ビジネス サーバー管理シェルを使用して会議を管理するためには、次のコマンドレットを使用します。
+Skype for Business Server 管理シェルを使用して会議を管理するには、次のコマンドレットを使用します。
   
 **会議の構成設定**
 

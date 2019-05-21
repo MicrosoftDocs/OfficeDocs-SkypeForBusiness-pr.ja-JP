@@ -13,7 +13,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
-description: 定義済みのチャネルを持つチームを作成するチーム テンプレートを使用する方法について説明します。
+description: チームテンプレートを使用して、定義済みのチャネルでチームを作成する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
@@ -27,61 +27,61 @@ ms.locfileid: "32245594"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams のテンプレートの使用を開始する 
 
-チーム テンプレートのように設計されたビジネス ・ ニーズやプロジェクト チームの構造体の定義があらかじめ組み込まれており。 チャネルのさまざまなトピックの豊富なコラボレーション ・ スペースを簡単に作成し、ミッション ・ クリティカルなコンテンツとサービスを取得するアプリケーションをプレインストールするのには、チーム テンプレートを使用できます。 チーム テンプレートでは、組織全体で一貫性のあるチームを簡単に作成できる定義済みのチームの構造を提供します。 
+Teams テンプレートは、ビジネスニーズまたはプロジェクトに合わせて設計された、チームの構造の事前定義済みの定義です。 チームテンプレートを使用して、さまざまなトピックのチャネルと豊富なコラボレーションスペースをすばやく作成したり、アプリをプレインストールしてミッションクリティカルなコンテンツやサービスを活用したりすることができます。 Teams テンプレートには、組織全体で一貫したチームを簡単に作成できる定義済みのチーム構造が用意されています。 
 
-この記事でテンプレートの種類は、基本テンプレートで定義可能なプロパティを説明し、いくつかのサンプル テンプレートからチームを作成する要求の使用方法。
+この記事では、テンプレートで定義できるプロパティ、基本テンプレートの種類について説明します。また、いくつかのサンプル要求を使って、テンプレートからチームを作成する方法についても説明します。
  
-ならここでするは。
+この記事は、次のような場合に適しています。
 
-- 計画、展開、および組織全体で複数のチームの管理を担当します。<br>
-- 開発者はプログラムで定義済みのチャネルおよびアプリケーションとチームを作成しようとしています。 
+- 組織全体の複数のチームの計画、展開、管理を担当します。<br>
+- 事前に定義されたチャネルとアプリを使って、プログラムを使用してチームを作成する開発者 
 
-## <a name="teams-template-capabilities"></a>チーム テンプレートの機能
+## <a name="teams-template-capabilities"></a>Teams のテンプレート機能
 
-チームのほとんどのプロパティが含まれているし、テンプレートでサポートされています。 いくつかのプロパティと、現在サポートされていない機能があります。 次の表は、含まれる機能とチーム テンプレートに含まれていない内容の簡単な概要を提供します。
+チーム内のほとんどのプロパティは、テンプレートに含まれており、サポートされています。 ただし、現在サポートされていないプロパティと機能はいくつかあります。 次の表では、チームテンプレートに含まれる内容と含まれていない機能の概要を簡単に説明します。
 
-| **チーム テンプレートでサポートされているチームのプロパティ** | **チーム テンプレートではサポートされていないチームのプロパティ** |
+| **Teams テンプレートでサポートされているチームプロパティ** | **Teams テンプレートでまだサポートされていないチームプロパティ** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| 基本テンプレートの種類 | チームのメンバーシップ |
+| ベーステンプレートの種類 | チームメンバーシップ |
 | チーム名 | チームの画像 |
-| チームの説明 | チャネルの設定 |
-| チームの可視性 (パブリックまたはプライベート) | コネクタ |
-| チームの設定 (たとえば、メンバー、参照投稿 @ のゲスト) | ファイルとコンテンツ |
-| 自動お気に入りチャンネル | |
-| インストールされているアプリケーション | |
-| 固定タブ | | 
+| チームの説明 | チャンネル設定 |
+| チームの表示 (公開または非公開) | コネクタ |
+| チーム設定 (member、guest、@ メンションなど) | ファイルとコンテンツ |
+| 自動お気に入りチャネル | |
+| インストール済みのアプリ | |
+| 固定されたタブ | | 
 
 > [!NOTE]
-> 複数のテンプレートの機能は、マイクロソフトのチームの今後のリリースを追加する、サポートされているプロパティには、最新の情報をチェックしてします。
+> Microsoft Teams の将来のリリースでテンプレート機能を追加するため、サポートされているプロパティに関する最新情報を確認してください。
 
-## <a name="what-are-base-template-types"></a>基本テンプレートの種類を挙げてください。
+## <a name="what-are-base-template-types"></a>ベーステンプレートの種類とは
 
-基本テンプレートの種類とは、特定の業界にマイクロソフトが作成した特別なテンプレートです。 多くの場合、これらの基本テンプレートには、ストアとチーム プロパティをまだサポートされていない個別のチーム テンプレートでは利用できない独自のアプリケーションが含まれています。
+ベーステンプレートの種類は、Microsoft が特定の業界向けに作成した特別なテンプレートです。 多くの場合、これらのベーステンプレートには、チームテンプレートではまだサポートされていないストアとチームのプロパティでは使用できない独自のアプリが含まれています。
 
-基本テンプレートの種類を定義すると、拡張したり、これらの特別なテンプレートを指定するには追加のプロパティをオーバーライドできます。 ですが、いくつかの基本テンプレートの種類が含まれているプロパティをオーバーライドすることはできません。 
+ベーステンプレートの種類が定義されると、これらの特殊なテンプレートを追加または上書きして、追加のプロパティを指定することができます。 ただし、一部の基本テンプレートの種類には、オーバーライドできないプロパティが含まれています。 
 
-既定では、基本のテンプレートは、**標準的な**独自アプリケーションの追加や特別なプロパティが含まれていませんに設定されます。 次利用可能な種類の基本テンプレートの現在のリストに示します。
+既定では、基本テンプレートは [**標準**] に設定されています。これには、追加の固有のアプリや特別なプロパティは含まれていません。 次に示すのは、使用可能な基本テンプレートの種類の一覧です。
 
-| 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに用意されているプロパティ |
+| ベーステンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | なしのアプリケーションの追加とプロパティ |
-| 教育-<br>クラスのチーム | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | アプリケーション:<ul><li>OneNote クラスのノートブック ([**全般**] タブに固定されている) </li><li>割り当てのアプリケーション ([**全般**] タブに固定されている)</li></ul> チームのプロパティ:<ul><li>チームの表示/非表示に設定 (オーバーライドできない) **HiddenMembership**</li></ul> |
-| 教育-<br>スタッフ チーム | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | アプリケーション:<ul><li>OneNote のスタッフのノートブック ([**全般**] タブに固定されている)</li></ul> |
-|教育-<br>PLC チーム |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | アプリケーション:<ul><li>OneNote PLC のノートブック ([**全般**] タブに固定されている)</ul></li>|
-| 小売-<br>ストア | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | チャネル:<ul><li>Shift キーをハンドオフ</li><li>学習</li></ul>チーム プロパティ<ul><li>チームの可視性がパブリックに設定</li></ul>メンバーのアクセス許可<ul><li>作成、更新、またはチャネルを削除してからメンバーを禁止します。</li><li>メンバーの追加またはアプリケーションを削除することを防ぐ</li><li>作成、更新、またはコネクタを削除してからメンバーを禁止します。</li></ul> |
-| 小売-<br>マネージャーのコラボレーション | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | チャネル:<ul><li>Shift キーをハンドオフ</li><li>学習</li></ul>チームのプロパティ:<ul><li>チームの可視性が Private に設定</li></ul>メンバーのアクセス許可:<ul><li>作成、更新、またはチャネルを削除してからメンバーを禁止します。</li><li>メンバーの追加またはアプリケーションを削除することを防ぐ</li><li>作成、更新、またはコネクタを削除してからメンバーを禁止します。</li></ul>|
-| 医療・<br>ワード |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |チャネル: <ul><li>お知らせ\*</li><li>Huddles\*</li><li>ラウンド</li><li>スタッフ\*</li><li>トレーニング\*</li></ul>\*自動お気に入りチャンネル |
-|医療・<br>病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |チャネル:<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>信託</li><li>人事管理</li></li><li>薬剤</li></ul>\*自動お気に入りチャンネル|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | 追加のアプリとプロパティはありません |
+| Education<br>クラスチーム | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | アプリ<ul><li>OneNote Class Notebook ( **[全般**] タブに固定されています) </li><li>課題アプリ ( **[全般**] タブに固定されています)</li></ul> チームのプロパティ:<ul><li>チームの表示が**HiddenMembership**に設定されている (上書きできない)</li></ul> |
+| Education<br>スタッフチーム | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | アプリ<ul><li>OneNote スタッフノートブック ( **[全般**] タブに固定されています)</li></ul> |
+|Education<br>PLC チーム |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | アプリ<ul><li>OneNote PLC ノートブック ( **[全般**] タブに固定されています)</ul></li>|
+| 向け<br>ストア | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | チャネル<ul><li>シフトハンド</li><li>意欲</li></ul>チームのプロパティ<ul><li>チームの表示がパブリックに設定</li></ul>メンバーの権限<ul><li>メンバーがチャネルを作成、更新、または削除できないようにする</li><li>メンバーがアプリを追加または削除できないようにする</li><li>メンバーがコネクタを作成、更新、または削除できないようにする</li></ul> |
+| 向け<br>上司との共同作業 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | チャネル<ul><li>シフトハンド</li><li>意欲</li></ul>チームのプロパティ:<ul><li>チームの表示はプライベートに設定</li></ul>メンバーの権限:<ul><li>メンバーがチャネルを作成、更新、または削除できないようにする</li><li>メンバーがアプリを追加または削除できないようにする</li><li>メンバーがコネクタを作成、更新、または削除できないようにする</li></ul>|
+| ヘルス<br>ワード |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |チャネル <ul><li>お知らせ\*</li><li>Huddles\*</li><li>切り下げ</li><li>割り当てる\*</li><li>トレーニング\*</li></ul>\*自動お気に入りチャネル |
+|ヘルス<br>所在 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |チャネル<ul><li>お知らせ\*</li><li>コン\*</li><li>Custodial</li><li>人事</li></li><li>薬</li></ul>\*自動お気に入りチャネル|
 |||
 
 > [!NOTE]
-> 追加されていく複数の基本テンプレート型の将来のマイクロソフトのチームのリリースに関する最新情報についてのチェックには、プロパティがサポートされているようです。
+> Microsoft Teams の将来のリリースでは、より基本的なテンプレートの種類を追加するため、サポートされているプロパティについて、最新の情報を確認してください。
 
 
 ## <a name="related-topics"></a>関連トピック
 
-- [チームの作成](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)(プレビュー) で
-- [新しいチーム](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
+- [チームを作成する](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)(プレビュー中)
+- [新規-チーム](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams の管理者トレーニング](itadmin-readiness.md)
 - [小売店向けテンプレートでTeamsを始めましょう](get-started-with-retail-teams-templates.md)
 - [医療関係組織向けテンプレートでTeamsを始めましょう](expand-teams-across-your-org/healthcare/healthcare-templates.md)

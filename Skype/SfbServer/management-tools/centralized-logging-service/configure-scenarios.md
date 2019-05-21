@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
-description: '概要: は、作成、変更、およびビジネス サーバー 2015 の Skype で集中ログ サービスのシナリオを削除する方法を説明します。'
-ms.openlocfilehash: 59821fd0feeed8895d4c0a201b6fdd3f5b4e62e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server 2015 の中央集中ログサービスのシナリオを作成、変更、削除する方法について説明します。'
+ms.openlocfilehash: 89aa0c37dfb13f7614067b64e37ee9c9fb376331
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914976"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274437"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での集中ログ サービスのシナリオの構成
  
-**の概要:** 作成、変更、およびビジネス サーバー 2015 の Skype で集中ログ サービスのシナリオを削除する方法について説明します。
+**概要:** Skype for Business Server 2015 の中央集中ログサービスのシナリオを作成、変更、削除する方法について説明します。
   
-シナリオが (つまり、グローバル、サイト、プール、またはコンピューター) のスコープを定義し、一元的なログ サービスで使用するには、どのようなプロバイダーです。 シナリオを使用して、プロバイダー (S4、SIPStack、IM、プレゼンスなど) のトレースを有効または無効にします。 シナリオを構成することで、特定の問題の条件に対応する特定の論理コレクションのすべてのプロバイダーをグループ化できます。 シナリオのトラブルシューティングとログのニーズを満たすために変更する必要がある場合は、ビジネスのサーバー 2015 のデバッグ ツールの Skype に関数の namedEdit CsClsScenario を含む ClsScenarioEdit.psm1 をという名前の Windows PowerShell モジュールが提供されます。 このモジュールの目的は、指定したシナリオのプロパティを編集することです。 このトピックでは、このモジュールの使用方法の例を示します。 ビジネス サーバー 2015[のデバッグ ツール](https://go.microsoft.com/fwlink/p/?LinkId=285257)のいずれかに入る前に、Skype をダウンロードします。
+シナリオでは、スコープ (つまり、グローバル、サイト、プール、またはコンピューター) と、一元管理サービスで使用するプロバイダーを定義します。 シナリオを使用して、プロバイダー (S4、SIPStack、IM、プレゼンスなど) のトレースを有効または無効にします。 シナリオを構成することで、特定の問題の条件に対応する特定の論理コレクションのすべてのプロバイダーをグループ化できます。 トラブルシューティングとログのニーズに合わせてシナリオを変更する必要があることがわかった場合は、Skype for Business Server 2015 デバッグツールでは、ClsScenarioEdit という名前の Windows PowerShell モジュールが提供されます。これには、dlmigrationmodule.psm1 という名前の namedEdit が含まれています。 このモジュールの目的は、指定したシナリオのプロパティを編集することです。 このトピックでは、このモジュールの使用方法の例を示します。 さらに先に進む前に、Skype for Business Server 2015[デバッグツール](https://go.microsoft.com/fwlink/p/?LinkId=285257)をダウンロードしてください。
   
 > [!IMPORTANT]
-> どのスコープ (サイト、グローバル、プール、またはコンピューター) でも、一度に最大で 2 つのシナリオを実行できます。 シナリオで実行されているを確認するのには、Windows PowerShell と[Get CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)を使用します。 Windows PowerShell と[セット CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)を使用すると、どのシナリオを実行している動的に変更できます。 ログ セッション中に実行するシナリオを変更して、収集するデータや収集元のプロバイダーを変更または微調整することができます。 
+> どのスコープ (サイト、グローバル、プール、またはコンピューター) でも、一度に最大で 2 つのシナリオを実行できます。 現在実行されているシナリオを特定するには、Windows PowerShell と[Get CsClsScenario シナリオ](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)を使用します。 Windows PowerShell と[Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)を使用すると、実行されているシナリオを動的に変更することができます。 ログ セッション中に実行するシナリオを変更して、収集するデータや収集元のプロバイダーを変更または微調整することができます。 
   
-ビジネス サーバー管理シェルには、Skype を使用して、ログ サービスの集中管理機能を実行するには、CsAdministrator または CsServerAdministrator の役割に基づくアクセス制御 (RBAC) セキュリティ グループ、またはカスタムの RBAC の役割のいずれかのメンバーをする必要がありますがこれら 2 つのグループのいずれかが含まれています。 すべての RBAC のリストを返すため、このコマンドレットに割り当てられているなど、自分で作成したカスタムの RBAC の役割の役割がビジネス サーバー管理シェルまたは Windows PowerShell プロンプトの Skype から次のコマンドを実行します。
+Skype for Business Server 管理シェルを使用して一元的なログサービス機能を実行するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、または、次の2つのグループのいずれかが含まれます。 自分で作成したすべての RBAC ロールの一覧を返すには、Skype for Business Server 管理シェルまたは Windows PowerShell のプロンプトから次のコマンドを実行します。次のコマンドを実行します。
   
 ```
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -40,18 +40,18 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 201
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-このトピックの以降の部分では、トラブルシューティングを最適化するためのシナリオの定義、シナリオの変更、実行中のシナリオの取得、シナリオの削除、シナリオ内容の指定の方法を中心に説明します。 ビジネス サーバー管理シェルの Skype を使用するには Windows PowerShell コマンドを実行します。 Windows PowerShell を使用する場合は、ログ ・ セッションで使用するための新しいシナリオを定義できます。
+このトピックの以降の部分では、トラブルシューティングを最適化するためのシナリオの定義、シナリオの変更、実行中のシナリオの取得、シナリオの削除、シナリオ内容の指定の方法を中心に説明します。 Skype for Business Server 管理シェルを使用して、Windows PowerShell コマンドを発行することができます。 Windows PowerShell を使用する場合は、ログセッションで使用する新しいシナリオを定義できます。
   
-、[ビジネス 2015年の Skype のログ サービスの一元管理](centralized-logging-service.md)の導入シナリオの要素は。
+[Skype For business 2015 の中央集中ログサービス](centralized-logging-service.md)で導入されたように、シナリオの要素は次のとおりです。
   
-- **プロバイダー**OCSLogger を理解する場合は、プロバイダーはトレース エンジンからのログを収集する必要があります OCSLogger を確認する選択したコンポーネントです。 プロバイダーは、同じコンポーネントし、多くの場合 OCSLogger で、コンポーネントと同じ名前があります。 プロバイダー サーバーの役割の特定のコンポーネントは、OCSLogger に慣れていない場合は、集中ログ サービスを収集できますからログに記録します。 プロバイダーの構成に関する詳細については、[集中ログ サービスの Skype ビジネス サーバー 2015 の構成プロバイダー](configure-providers.md)を参照してください。
+- **Providers**OCSLogger に精通している場合、プロバイダーは、トレースエンジンがログを収集する必要があることを OCSLogger に伝えるために選ぶコンポーネントです。 プロバイダーは同じコンポーネントであり、多くの場合、OCSLogger のコンポーネントと同じ名前が付いています。 OCSLogger に精通していない場合は、中央のログサービスがログを収集できるサーバーの役割固有のコンポーネントはプロバイダーです。 プロバイダーの構成の詳細については、「 [Skype For Business Server 2015 で中央集中ログサービスのプロバイダーを構成する](configure-providers.md)」を参照してください。
     
-- **識別情報**パラメーターの識別情報は、シナリオの名前とスコープを設定します。 などでした「グローバル」のスコープを設定して"LyssServiceScenario"を使用してシナリオを識別します。 Id を定義する 2 つを組み合わせると、(たとえば、「LyssServiceScenario/グローバル」)。
+- **Id**パラメーター-Identity は、シナリオのスコープと名前を設定します。 たとえば、"グローバル" のスコープを設定し、"LyssServiceScenario" を使ってシナリオを特定することができます。 この2つを組み合わせると、Id (たとえば、"global/LyssServiceScenario") が定義されます。
     
-    必要に応じて、使用することができます-名前と親のパラメーターです。 Name パラメーターは、シナリオを一意に識別するために定義します。 Name を使用する場合は、Parent も使用して、グローバルまたはサイトにシナリオを追加する必要があります。 
+    必要に応じて、-Name と-Parent パラメーターを使うことができます。 Name パラメーターは、シナリオを一意に識別するために定義します。 Name を使用する場合は、Parent も使用して、グローバルまたはサイトにシナリオを追加する必要があります。 
     
     > [!IMPORTANT]
-    > 名前と親のパラメーターを使用する場合は使用できません、 **・ アイデンティティ**パラメーター。
+    > Name パラメーターと Parent パラメーターを使用する場合は、 **-Identity**パラメーターを使うことはできません。
   
 ### <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>New-CsClsScenario コマンドレットを使用して新しいシナリオを作成するには
 
@@ -73,7 +73,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
    ```
 
-    他の形式名と親の使用します。
+    -Name と-Parent を使った代替形式:
     
    ```
    New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
@@ -83,20 +83,20 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
-2. スコープごとのシナリオ数は 2 つまでに制限されています。 しかし、設定するプロバイダーの数に制限はありません。 この例では、3 つのプロバイダーを作成済みで、定義するシナリオに 3 つのプロバイダーをすべて割り当てる必要があるとします。 プロバイダー変数の名前は LyssProvider、ABServerProvider、および SIPStackProvider です。 定義し、シナリオに複数のプロバイダーを割り当てるするには、ビジネスのサーバー管理シェルまたは Windows PowerShell コマンド プロンプトで、Skype で次を入力します。
+2. スコープごとのシナリオ数は 2 つまでに制限されています。 しかし、設定するプロバイダーの数に制限はありません。 この例では、3 つのプロバイダーを作成済みで、定義するシナリオに 3 つのプロバイダーをすべて割り当てる必要があるとします。 プロバイダー変数の名前は LyssProvider、ABServerProvider、および SIPStackProvider です。 1つのシナリオに複数のプロバイダーを定義して割り当てるには、Skype for Business Server 管理シェルまたは Windows PowerShell コマンドプロンプトで次のように入力します。
     
    ```
    New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
    ```
 
     > [!NOTE]
-    > Windows PowerShell を使用して値のハッシュ テーブルを作成するための規則で認識されている`@{<variable>=<value1>, <value2>, <value>…}`assplatting と呼びます。 Windows PowerShell のスプラッティング技法に関する詳細についてを参照してください[https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760)。 
+    > Windows PowerShell でわかっているように、using `@{<variable>=<value1>, <value2>, <value>…}`という値のハッシュテーブルを作成するための規則は既知の assplatting です。 Windows PowerShell での splatting の詳細につい[https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760)ては、を参照してください。 
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>Set-CsClsScenario コマンドレットを使用して既存のシナリオを変更するには
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
-2. スコープごとのシナリオ数は 2 つまでに制限されています。 実行するシナリオは、ログ キャプチャ セッションの実行中を含め、いつでも変更できます。 実行するシナリオを再定義すると、現在のログ セッションは削除されたシナリオの使用を停止し、新しいシナリオの使用を開始します。 ただし、削除されたシナリオでキャプチャされたログ情報はキャプチャされたログに残ります。 新しいシナリオを定義する (つまり、"S4Provider"という名前の定義済みのプロバイダーの追加を想定して)、次の操作を行います。
+2. スコープごとのシナリオ数は 2 つまでに制限されています。 実行するシナリオは、ログ キャプチャ セッションの実行中を含め、いつでも変更できます。 実行するシナリオを再定義すると、現在のログ セッションは削除されたシナリオの使用を停止し、新しいシナリオの使用を開始します。 ただし、削除されたシナリオでキャプチャされたログ情報はキャプチャされたログに残ります。 新しいシナリオを定義するには、次の操作を行います (つまり、"S4Provider" という名前の定義済みプロバイダーが追加されていることを前提としています)。
     
    ```
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
@@ -148,16 +148,16 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
     > [!IMPORTANT]
-    > ClsScenarioEdit.psm1 モジュールは個別の Web ダウンロードとして提供されます。 モジュールは、ビジネス サーバー 2015 のデバッグ ツールの Skype の一部です。 既定では、デバッグ ツールは C:\Program Files\Skype for Business Server 2015\Debugging Tools ディレクトリにインストールされます。 
+    > ClsScenarioEdit.psm1 モジュールは個別の Web ダウンロードとして提供されます。 このモジュールは、Skype for Business Server 2015 デバッグツールの一部です。 既定では、デバッグ ツールは C:\Program Files\Skype for Business Server 2015\Debugging Tools ディレクトリにインストールされます。 
   
-2. Windows PowerShell で、次のように入力します。
+2. Windows PowerShell で次のように入力します。
     
    ```
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
     > [!TIP]
-    > モジュールの読み込みが成功では、Windows PowerShell コマンド プロンプトに戻ります。 モジュールが読み込まれ、編集 CsClsScenario が利用できることを確認するには、次のように入力します。 `Get-Help Edit-CsClsScenario`。 すると、EditCsClsScenario の構文の基本的な概要が表示されます。 
+    > モジュールの読み込みが成功すると、Windows PowerShell コマンドプロンプトに戻ります。 モジュールが読み込まれていること、および編集-CsClsScenario が利用可能`Get-Help Edit-CsClsScenario`であることを確認するには、「」と入力します。 すると、EditCsClsScenario の構文の基本的な概要が表示されます。 
   
 3. モジュールをアンロードするには、次のように入力します。
     
@@ -166,20 +166,20 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
     > [!TIP]
-    > 成功のアンロード モジュールを返しますする Windows PowerShell コマンド プロンプトにします。 モジュールが読み込まれていることを確認するには、次のように入力します。 `Get-Help Edit-CsClsScenario`。 Windows PowerShell コマンドレットのヘルプを検索し、失敗を試みます。 
+    > モジュールを正常にアンロードすると、Windows PowerShell コマンドプロンプトに戻ります。 モジュールがアンロードされたことを確認`Get-Help Edit-CsClsScenario`するには、「」と入力します。 Windows PowerShell は、コマンドレットのヘルプを検索して失敗します。 
   
 ### <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>Edit-ClsController モジュールを使用してシナリオから既存のプロバイダーを削除するには
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
-2. Windows PowerShell で、次のように入力します。
+2. Windows PowerShell で次のように入力します。
     
    ```
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
     > [!TIP]
-    > モジュールの読み込みが成功では、Windows PowerShell コマンド プロンプトに戻ります。 モジュールが読み込まれ、編集 CsClsScenario が利用できることを確認するには、次のように入力します。 `Get-Help Edit-CsClsScenario`。 すると、EditCsClsScenario の構文の基本的な概要が表示されます。 
+    > モジュールの読み込みが成功すると、Windows PowerShell コマンドプロンプトに戻ります。 モジュールが読み込まれていること、および編集-CsClsScenario が利用可能`Get-Help Edit-CsClsScenario`であることを確認するには、「」と入力します。 すると、EditCsClsScenario の構文の基本的な概要が表示されます。 
   
 3. AlwaysOn シナリオからプロバイダーを削除するには、次のように入力します。
     
@@ -199,7 +199,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Edit-CsClsScenario AlwaysOn ChatServer -Remove
    ```
 
-   パラメーターの値の位置で配置することにのみ適用されます - シナリオとプロバイダーです。 他のすべてのパラメーターは明示的に定義する必要があります。
+   パラメーター値の位置の配置は、シナリオとプロバイダーにのみ適用されます。 他のすべてのパラメーターは明示的に定義する必要があります。
     
 ### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>Edit-ClsController モジュールを使用してシナリオにプロバイダーを追加するには
 
@@ -217,7 +217,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
    ```
 
-    -Loglevel には、Fatal、Error、Warning、Info、Verbose、Debug、または All を指定できます。 フラグには、TF_COMPONENT、TF_DIAG など、プロバイダーがサポートするためのフラグのいずれかを指定できます。 フラグことができますのすべての値
+    -Loglevel には、Fatal、Error、Warning、Info、Verbose、Debug、または All を指定できます。 -Flag は、TF_COMPONENT、TF_DIAG など、プロバイダーがサポートしているフラグのいずれかにすることができます。 -フラグはすべての値にすることもできます。
     
    上記の例を、コマンドレットの位置指定機能を使用して入力することもできます。たとえば、プロバイダー ChatServer を AlwaysOn シナリオに追加するには、次のように入力します。
     

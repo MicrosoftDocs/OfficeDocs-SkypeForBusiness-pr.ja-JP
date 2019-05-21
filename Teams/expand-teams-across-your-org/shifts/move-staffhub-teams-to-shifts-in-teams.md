@@ -8,7 +8,7 @@ ms.date: 3/29/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft StaffHub チームを移動し、マイクロソフトのチームの変化へのデータのスケジュールを設定する方法について説明します。
+description: Microsoft StaffHub teams を移動して、Microsoft Teams のシフトにデータをスケジュールする方法について説明します。
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
@@ -20,93 +20,93 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/09/2019
 ms.locfileid: "33865053"
 ---
-# <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>マイクロソフト チームの変化に、マイクロソフトの StaffHub チームを移動します。
+# <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft Teams で Microsoft StaffHub teams をシフトに移行する
 
 > [!IMPORTANT]
-> 2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 マイクロソフトのチームに StaffHub 機能が進められています。 今日では、チームには、スケジュール管理のためのシフトのアプリケーションが含まれていて、その他の機能が時間の経過と共に展開されます。 StaffHub は、2019 年 10 月 1 日ですべてのユーザーの作業を停止します。 StaffHub を開こうとするとすべての人がチームをダウンロードすることを指示するメッセージ表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。
+> 2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。 2019年10月1日の StaffHub はすべてのユーザーに対して機能しなくなります。 StaffHub を開こうとしたユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。
 
-> この資料で説明した機能は、まだリリースされていません。 発表されてはまもなく、2019年 5 月の中央にします。 管理者にする場合を調べることができますこのが使用できます ( [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)) のメッセージ センターにするとします。
+> この記事で説明されている機能は、まだリリースされていません。 これは発表されました。まもなく、2019年5月の中央に表示されます。 管理者の場合は、この機能がメッセージセンター ( [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)) で利用可能になるタイミングを確認できます。
 
-チームでシフトのアプリケーションでは、スケジュール、および shift キーを交換し、日常的に発生するキャンセルの一定のフローを管理するための単純なアプローチを提供します。 チーム メンバーは、スケジュールにアクセスできるし、shift キーを押しの情報直接アプリケーションでは、プレファレンスを設定するようにデバイスの間で彼らのスケジュールを管理オフ時間を要求します。
+Teams のシフトアプリは、スケジュールを管理するための簡単なアプローチを提供します。また、1日のうちに発生するシフト交換とキャンセルの流れを定期的に行うことができます。 チームメンバーは、アプリやデバイス間で直接、スケジュールとシフト情報にアクセスして、ユーザー設定の設定、スケジュールの管理、休暇のリクエストを行うことができます。
 
-この資料では、組織の StaffHub チームを移動し、チームの変化へのデータのスケジュールを設定する方法について説明します。 1 つまたは 2 つの StaffHub チームと共同で小規模なビジネスや StaffHub チームの何百もの大規模な企業であれ、ここにある管理者ガイドを成功に導くための移行チームを支援する必要があります。
+この記事では、組織の StaffHub teams を移動して、チーム内のシフトにデータをスケジュールする方法について説明します。 1人または2人の StaffHub チームを持つ小規模企業でも、数百人の StaffHub teams を持つ大企業でも、チームへの移行を成功させるために必要な管理ガイダンスが記載されています。
 
-この資料の手順を実行するのにはグローバル管理者でなければなりません。 実行していない場合必要がある[StaffHub 退職に関する FAQ](microsoft-staffhub-to-be-retired.md)を参照する必要があります質問に対する回答を得ます。 
+この記事の手順を実行するには、グローバル管理者である必要があります。 まだインストールしていない場合は、 [StaffHub 定年](microsoft-staffhub-to-be-retired.md)に関する faq を参照して、お客様からの質問に回答してください。 
 
-## <a name="what-you-need-to-know-about-the-move-to-teams"></a>チームの移動について理解する必要があります。
+## <a name="what-you-need-to-know-about-the-move-to-teams"></a>Teams への移行について知っておくべきこと
 
-### <a name="when-to-move-to-teams"></a>チームに移行する時期
+### <a name="when-to-move-to-teams"></a>Teams に移動する場合
 
-効果的な 2019 年 10 月 1日 StaffHub は廃止されます。 今日のチームの使用を開始し、組織のチームと StaffHub からのユーザーの移行を開始することをお勧めします。 スケジュール管理を使用する最も一般的に使用される機能は、StaffHub をされていることをお勧めシフト アプリケーションを使用して、チームで前方に移動します。
+2019年10月1日、StaffHub は廃止されます。 今すぐ Teams の使用を開始して、組織のチームとユーザーを StaffHub から移行することをお勧めします。 StaffHub でスケジュール管理が最も一般的に使用される機能である場合は、チームでのシフトアプリの使用を進めることをお勧めします。
 
-### <a name="what-is-moved-to-teams"></a>チームにどのような移動します。
+### <a name="what-is-moved-to-teams"></a>Teams に移動されるもの
 
-チームには、ユーザーの詳細情報、スケジュール情報、およびチャットとファイルのデータが移行します。 これには、チームのメンバーシップ、チームのスケジュール、およびチャットおよび過去 90 日間のファイルが含まれます。
+ユーザの詳細、スケジュール情報、チャットとファイルデータは Teams に移行されます。 これには、チームメンバーシップ、チームのスケジュール、および過去90日間のチャットとファイルが含まれます。
 
-StaffHub のすべてのチームには、対応する Office 365 のグループが必要があります。 StaffHub チームには、それに関連付けられている Office 365 グループが割り当てられていない、1 つの移行をサポートする自動的に作成されます。 チームとチームと StaffHub の間でグループの名前付けの違いを指定するには、チーム内の別のチーム名を確認できます。
+すべての StaffHub チームには、対応する Office 365 グループが必要です。 StaffHub チームに Office 365 グループが関連付けられていない場合は、移行をサポートするために、1つが自動的に作成されます。 Teams と StaffHub の間でのチームとグループの名前の違いにより、Teams に異なるチーム名が表示されることがあります。
 
-チームに StaffHub からのチームを移行してユーザーは、彼らのスケジュールへのアクセスを StaffHub でチームの変化にリダイレクトされます。 システム停止を最小限に抑えるとするを採用し、チームを促進する組織全体でこの変更を通信することをお勧めします。 Azure AD プレミアムがあれば、この変更について理解する必要がある、組織内の StaffHub のユーザーの一覧を表示する[レポートの実行](run-report-to-show-staffhub-usage.md)をすることができます。  
+チームを StaffHub から Teams に移行すると、ユーザーは StaffHub のスケジュールにアクセスできなくなり、Teams のシフトにリダイレクトされます。 この変更を組織全体で伝達することをお勧めします。中断を最小限に抑え、ユーザーにチームの採用と検討を促します。 Azure AD Premium を使用している場合は、[レポートを実行](run-report-to-show-staffhub-usage.md)して、この変更について知っておく必要がある、組織内の StaffHub ユーザーの一覧を取得できます。  
 
-StaffHub チームをチームに移動した後、ロールバック オプションはありません。
+StaffHub チームを Teams に移動しても、ロールバックオプションはありません。
 
-### <a name="user-experience-when-you-move-a-team"></a>チームを移動する場合のユーザー エクスペリエンス
+### <a name="user-experience-when-you-move-a-team"></a>チームを移動するときのユーザーエクスペリエンス
 
-最小限のダウンタイム (1 秒未満である場合はすべて) のユーザー、チームがチームの変化に StaffHub から切り替えられたとき。 ユーザーは、チームへの移行が完了するまで、StaffHub を使用して続行できます。 移動が完了すると、チーム メンバーにチームで、チームのスケジュールにアクセスするためのシフトを使用する必要があることを知らせるメッセージが表示されます。 ここでは、ユーザーに表示されるメッセージの例です。
+チームの StaffHub からシフトへの切り替えが発生した場合、ユーザーに対してダウンタイム (1 秒未満) が最小限に抑えられます。 チームへの移動が完了するまで、ユーザーは StaffHub を引き続き使用することができます。 移動が完了すると、チームメンバーにメッセージが表示され、チームのスケジュールにアクセスするためにチームのシフトの使用を開始する必要があることがわかります。 次に、ユーザーに表示されるメッセージの例を示します。
 
-![StaffHub チームは、チームに移動した後、StaffHub で表示されるメッセージの例です]。(../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "StaffHub StaffHub チームは、チームに移動した後でユーザーに表示されるメッセージの例")
+![StaffHub チームが Teams に移動した後に StaffHub に表示されるメッセージの例。](../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "StaffHub チームが Teams に移動した後に StaffHub に表示されるメッセージの例")
 
-## <a name="prepare"></a>準備
+## <a name="prepare"></a>備える
 
-チームへの移行を準備するには。
+ここでは、Teams への移行を準備する方法について説明します。
 
 ### <a name="assign-teams-licenses"></a>Teams のライセンスを割り当てる
 
-各ユーザーは[、対象となる計画](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in)からアクティブな Microsoft 365 または Office 365 のライセンスが必要し、チームのライセンスを割り当てる必要があります。 チームのライセンスをユーザーに割り当て、それらにアクセス チーム。
+各ユーザーは、ライセンス付与された有効な Microsoft 365 [](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in)または Office 365 ライセンスを所有している必要があります。また、Teams ライセンスを割り当てる必要があります。 Teams ライセンスをユーザーに割り当てると、チームにアクセスできます。
 
-Microsoft 365 の管理センターでのチームのライセンスを管理します。 詳細については、[チームへのユーザー アクセスの管理](../../user-access.md)を参照してください。
+Teams のライセンスは、Microsoft 365 管理センターで管理します。 詳細については、「[チームへのユーザーアクセスを管理](../../user-access.md)する」を参照してください。
 
 > [!NOTE]
-> 組織は、ビジネスの Skype を使用しているすべてのユーザーをチームに移動する準備がわからない場合は、ビジネスの Skype と共にチームを実行できるよう、先頭行者のチームを有効にできます。 *島*と呼ばれるこの共存モードでは、各クライアント アプリケーションは、別のソリューションとして動作します。 詳細については、[チームの理解とビジネスの共存と相互運用性の Skype](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)を参照してください。
+> 組織で Skype for Business を使用していて、すべてのユーザーをチームに移行する準備ができていない場合は、最初に Skype for Business を使用してチームを実行できるようにすることができます。 この共存モード (*孤島*) では、各クライアントアプリは個別のソリューションとして動作します。 詳細については、「[チームと Skype For business の共存と相互運用性につい](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)て」を参照してください。
 
-### <a name="provision-accounts-for-staffhub-users-who-dont-have-an-identity-in-azure-ad"></a>Azure AD 内の id を持たない StaffHub ユーザーのアカウントをプロビジョニング
+### <a name="provision-accounts-for-staffhub-users-who-dont-have-an-identity-in-azure-ad"></a>Azure AD で id を持っていない StaffHub ユーザーのアカウントをプロビジョニングする
 
-各マネージャーとチーム メンバーに、Azure Active directory (AD の Azure) の id が必要です。 ユーザー Azure AD で id を持っていない場合、は、それらのアカウントを準備します。 これを行うには、次の操作を実行します。
+各マネージャーとチームメンバーは、Azure Active Directory (Azure AD) で id を持っている必要があります。 ユーザーがまだ Azure AD で id を持っていない場合は、アカウントをプロビジョニングします。 これを行うには、次の操作を実行します。
 
-- StaffHub チーム所有者およびマネージャーはダミーか、アクティブでないアカウントを変換し、StaffHub チームの設定] ページで有効な upn のユーザーの電子メール アドレスを変更することによって StaffHub でプロビジョニングされているアカウントにリンクします。
+- StaffHub チーム所有者と管理者は、ダミーまたは非アクティブなアカウントを変換して、StaffHub のプロビジョニングされたアカウントにユーザーのメールアドレスを変更することで、StaffHub チーム設定] ページの有効な UPN に変更することができます。
 
-- StaffHub チームの準備ではないアカウントを削除し、アカウントを追加、[削除 StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps)コマンドレットは、UPN を使用してバックアップし、管理者は、[追加 StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps)を実行できます。
+- 管理者は、 [StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps)と[StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps)のコマンドレットを実行して、StaffHub チームからプロビジョニングされていないアカウントを削除し、UPN を使用してアカウントを追加し直すことができます。
 
 ### <a name="install-the-staffhub-powershell-module"></a>StaffHub PowerShell モジュールをインストールする
 
-いない場合は、 [StaffHub の PowerShell モジュールをインストール](install-the-staffhub-powershell-module.md)します。
+まだインストールしていない場合は、 [StaffHub PowerShell モジュールをインストール](install-the-staffhub-powershell-module.md)します。
 
-StaffHub チームを移動すると、移動要求は、常に前提条件をチェックします。 移動要求が失敗する理由の理由を以下に示します。
+StaffHub チームを移動すると、移動要求によって前提条件が確認されます。 次に、移動要求が失敗する理由について説明します。
 
-- サインインしているユーザーは、グローバル管理者ではありません。
-- チームはテナント内のすべてのユーザーに対して無効になります。
-- テナントで office 365 のグループの作成が無効になっています。
-- StaffHub 別子ですが正しくないか、メンバーが存在しません。
-- StaffHub チームには、Azure AD のアカウントにリンクされていないメンバーが含まれています。  
+- サインインしたユーザーはグローバル管理者ではない
+- テナントのすべてのユーザーに対してチームが無効になっている
+- テナントで Office 365 グループの作成が無効になっている
+- StaffHub teamId が有効ではないか、メンバーがいません
+- StaffHub チームには、Azure AD アカウントにリンクされていないメンバーが含まれています  
 
-## <a name="run-a-pilot"></a>パイロットを実行します。
+## <a name="run-a-pilot"></a>パイロットを実行する
 
-早期採用者のグループの 2 つまたは 3 つの StaffHub チームを移動することによって開始することをお勧めします。 パイロットを実行すると、移行計画を調整し、チーム、組織内のすべての StaffHub のチームに移動する準備ができていることを確認することができます。 組織全体での採用を推進を支援できるエキスパートを識別します。 段階的なアプローチを必要としている中小企業の場合、このセクションの手順は、StaffHub からのチームに、スイッチを確認する必要がありますすべてで可能性があります。
+最初に、2つまたは3つの StaffHub teams を、最早採用者のグループごとに移動することをお勧めします。 パイロットを実行すると、移行計画を調整して、組織のすべての StaffHub チームをチームに移行できるようになります。 また、組織全体での導入を促進できるエキスパートも特定します。 段階的アプローチを必要としない小規模企業の場合は、このセクションの手順に従って、StaffHub から Teams に切り替える必要があります。
 
-### <a name="identify-pilot-teams"></a>パイロット チームを特定します。
+### <a name="identify-pilot-teams"></a>パイロットチームの特定
 
-パイロット チームの 2 つまたは 3 つの識別にアクセスします。 すべてのチーム メンバーは、スケジュールの管理し通信を行い、お互いの共同作業をチームでシフトを使用してにコミットする必要があります。
+パイロットチームの2つまたは3つを確認してください。 すべてのチームメンバーは、チームでシフトを使用して、スケジュールを管理し、相互に通信して共同作業を行う必要があります。
 
-### <a name="identify-team-champions"></a>エキスパートのチームを識別します。
+### <a name="identify-team-champions"></a>チームのチャンピオンの特定
 
-パイロット チーム間でのエキスパートを特定し、シフトを浸透させるために参加します。 チームのエキスパートが, それらの動作に関するサポートとガイダンスをチーム メンバーに提供する独自のな学習項目を共有します。 エキスパートのチームは、チームの所有者または管理者にあります。
+パイロットチーム全体のチャンピオンを特定し、啓蒙シフトを支援するために参加します。 チームの支持者は、チームメンバーのサポートとガイダンスを提供するために、独自の高い知識を共有しています。 チームチャンピオンはチームの所有者または管理者になることができます。
 
-チーム チャンピオンには、チーム メンバー[チームのクライアントを取得](../../get-clients.md)するすべてのユーザーの専用の時間を設定、チームにサインインするのには、シフトでスケジュールを確認し、お互いにチャットを開始する必要がありますを確認します。 StaffHub に慣れているユーザーになります起動してすぐにシフトで。 指定することもに[シフトのため](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)に追加のヘルプを表示します。
+チームのメンバーがチームの[クライアントを取得](../../get-clients.md)し、teams にサインインして、スケジュールをシフトで確認し、互いにチャットを開始するためには、チームメンバーが設定されていることを確認する必要があります。 すでに StaffHub に慣れているユーザーは、シフトですぐに稼動することになります。 その他のヘルプについては、[[シフトヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)] をポイントすることもできます。
 
-### <a name="move-a-staffhub-team-coming-soon"></a>(準備中) StaffHub チームを移動します。
+### <a name="move-a-staffhub-team-coming-soon"></a>StaffHub チームを移動する (近日公開)
 
-一度に 1 つの StaffHub チームを移動するのには次の手順を使用します。 パイロット チームが、この方法をお勧めします。 後で、組織内のすべての StaffHub のチームに移動する準備ができたら、 [StaffHub チームを移動する](#move-your-staffhub-teams-coming-soon)手順について、一度に複数のチームを移動参照してください。
+次の手順を使用して、一度に1つの StaffHub チームを移動します。 パイロットチームでは、この方法をお勧めします。 後で、組織のすべての StaffHub チームを移行する準備ができたら、「複数のチームを一度に移動する」の手順については、「 [StaffHub teams を移行](#move-your-staffhub-teams-coming-soon)する」を参照してください。
 
-StaffHub チームを移動するのには、次を実行します。
+StaffHub チームを移動するには、次を実行します。
 
 ```
 Move-StaffHubTeam -TeamId <String>
@@ -116,7 +116,7 @@ Sample:
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
-ここでは、StaffHub チームをチームに移動する要求を送信するときのような応答の例です。
+次に示すのは、StaffHub チームを Teams に移動する要求を送信するときに表示される応答の例です。
 
 ```
     jobId                                      teamId                                      teamAlreadyInMicrosofteams  
@@ -124,7 +124,7 @@ Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
     JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
 ```
 
-移動要求のステータスを確認するには、次の手順を実行します。
+移動要求の状態を確認するには、次を実行します。
 
 ```
 Get-TeamMigrationJobStatus <String>
@@ -134,7 +134,7 @@ Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 
 ```
 
-ここでは、移動の実行中のときのような応答の例です。
+次に示すのは、移動が進行中の場合に表示される応答の例です。
 
 ```
     jobId                                     status       teamId                                     isO365GroupCreated  Error
@@ -142,33 +142,33 @@ Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
     JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
-## <a name="make-the-transition-from-staffhub-to-teams"></a>チームに StaffHub からの移行を行う
+## <a name="make-the-transition-from-staffhub-to-teams"></a>StaffHub から Teams への切り替えを行う
 
-### <a name="raise-awareness"></a>意識を向上させる
+### <a name="raise-awareness"></a>認識を高める
 
-パイロット チームより先に進む準備ができたらし、チーム、組織の StaffHub のチームに移動することが重要、組織全体で変更を最初に通信します。 意識を向上させる、刺激を生成し、プロジェクトに適用するには、シフトとチームへの移行に関する単語を拡散します。
+パイロットチームを超えて組織の StaffHub チームをチームに移行する準備ができたら、まず組織全体で変更を伝えることが重要です。 シフトについての単語を広げ、チームへの切り替えを行って、認知度を上げ、興奮を生み出し、導入を推進します。
 
-### <a name="move-your-staffhub-teams-coming-soon"></a>(近日公開予定)、StaffHub チームを移動します。
+### <a name="move-your-staffhub-teams-coming-soon"></a>StaffHub teams を移動する (近日公開)
 
-StaffHub チームを一括で移動するのには次の手順を使用します。 組織内のすべての StaffHub のチームを移動したり、特定の StaffHub チームを移動することができます。 StaffHub チームが 1 つずつ移動する場合は、 [StaffHub チームの移動](#move-a-staffhub-team-coming-soon)を参照してください。
+次の手順を使用して、StaffHub teams をまとめて移動します。 組織のすべての StaffHub チームを移動するか、または特定の StaffHub teams を移動するかを選ぶことができます。 StaffHub teams を1つずつ移動する方法については、「 [StaffHub チームを移行](#move-a-staffhub-team-coming-soon)する」を参照してください。
 
-#### <a name="move-all-staffhub-teams-coming-soon"></a>(準備中) すべての StaffHub チームを移動します。
+#### <a name="move-all-staffhub-teams-coming-soon"></a>すべての StaffHub teams を移動する (近日公開)
 
-組織のすべての StaffHub チームの一覧を取得するのには、次を実行します。
+組織内のすべての StaffHub teams の一覧を取得するには、次を実行します。
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-次に、すべてのチームを移動するのには、次を実行します。
+次に、次のことを実行してすべてのチームを移動します。
 
 ```
 $StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
 ```
 
-ここでは、応答の例です。
+応答の例を次に示します。
 
-チームへ既に移動されたか、チーム内に既に存在するすべてのチームのジョブ Id は null になります""ジョブは、そのチームの移動に提出する必要があるようです。
+既に Teams に移動されているか、Teams に既に存在しているチームの場合は、そのチームに移動するためにジョブを送信する必要がないため、jobId は "null" になります。
 
 ```
     jobId                                      teamId                                      teamAlreadyInMicrosofteams  
@@ -177,40 +177,40 @@ $StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
     JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
-#### <a name="move-specific-staffhub-teams-coming-soon"></a>(準備中) 特定の StaffHub チームを移動します。
+#### <a name="move-specific-staffhub-teams-coming-soon"></a>特定の StaffHub チームを移動する (近日公開)
 
-組織内のすべての StaffHub チームの Id の一覧を取得するのには、次を実行します。
+組織内のすべての StaffHub チーム Id の一覧を取得するには、次を実行します。
 
 ```
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-によって返される結果に、`Get-StaffHubteamsForTenant`コマンドレットを実行する前、移動するには、チーム Id」を選択し、コンマ区切り値 (CSV) ファイルに追加します。
+前に実行した`Get-StaffHubteamsForTenant`コマンドレットによって返された結果で、移動するチーム id を選択し、コンマ区切り値 (CSV) ファイルに追加します。
 
-ここでは、CSV ファイルの書式設定方法の例です。
+CSV ファイルを書式設定する方法の例を次に示します。
 
 |Id  |
 |---------|
-|TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2-0 fc 9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2-0 fc 9-408b-85ff-c14a26700000|
+|TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000|
 
-CSV ファイルを作成した後は、CSV ファイルで指定したチームを移動するのには、次を実行します。
+CSV ファイルを作成したら、CSV ファイルで指定したチームを移動するには、次のように実行します。
 
 ```
 Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
 ```
-### <a name="confirm-that-your-staffhub-teams-have-moved-to-teams-coming-soon"></a>(準備中) チーム、StaffHub チームに移動することを確認します。
+### <a name="confirm-that-your-staffhub-teams-have-moved-to-teams-coming-soon"></a>StaffHub teams が Teams に移行されたことを確認する (近日公開)
 
-シフトで、組織のすべてのチームの一覧を取得するのには、次を実行します。 
+組織内のすべてのチームの一覧を取得するには、次の操作を実行します。 
 
 ```
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
 
-## <a name="monitor-teams-usage"></a>チームの使用率を監視します。
+## <a name="monitor-teams-usage"></a>チームの利用状況を監視する
 
-利用状況レポートの使用パターンを理解し、組織全体でのトレーニングとコミュニケーションの取り組みに優先順位をどこに情報を提供することができます。 シフトはチームのアプリケーションであるため、チームのレポートでの使用状況を表示できます。 詳細については、[チームは、マイクロソフト チームの管理センターに報告](../../teams-analytics-and-reports/teams-reporting-reference.md)し、 [Microsoft 365 の管理センターでチームの活動レポート](../../teams-activity-reports.md)を参照してください。
+利用状況レポートは、使用パターンをより理解しやすくするのに役立ちます。また、組織全体でトレーニングとコミュニケーション作業の優先順位を決定する場所について理解を深めます。 シフトは Teams のアプリであるため、チームレポートで利用状況を表示できます。 詳細については、microsoft [teams 管理センターのチームレポート](../../teams-analytics-and-reports/teams-reporting-reference.md)と、 [microsoft 365 管理センターの teams アクティビティレポート](../../teams-activity-reports.md)を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 - [Microsoft StaffHub はまもなく廃止予定です](microsoft-staffhub-to-be-retired.md)
 - [Microsoft Teams で組織のシフト アプリを管理する](manage-the-shifts-app-for-your-organization-in-teams.md)
-- [StaffHub PowerShell 参照](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
+- [StaffHub PowerShell リファレンス](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)

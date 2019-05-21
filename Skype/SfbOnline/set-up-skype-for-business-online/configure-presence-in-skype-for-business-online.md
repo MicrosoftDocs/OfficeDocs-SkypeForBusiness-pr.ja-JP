@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,39 +19,39 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: 5c8d30106397d18957c7866d9b4961cfa1409f83
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a22606beacd03bfefda2b3080c2ee345ccfef2fa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237748"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285326"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Skype for Business Online でプレゼンスを設定する
 
-既定に、そのユーザーがオンラインかどうかビジネスの Skype を使用して、組織内のユーザーの 1 つと通信するすべてのユーザーも表示できます。 ビジネス用の Skype は、かどうか、ユーザーはオンラインで会議中、オフライン、または他のインジケーターを示しています。
+既定では、Skype for Business を使用して組織内のいずれかのユーザーと通信できるユーザーは誰でも、そのユーザーがオンラインかどうかを確認することができます。 Skype for Business では、ユーザーがオンライン、会議、オフライン、または別のインジケーターであるかどうかが表示されます。
 
-![ビジネス用の Skype での相手のオンライン状態の例です。](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
+![Skype for Business でのユーザーのオンライン状態の例。](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
 
-すべてのユーザー、ビジネス**[管理](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** ビジネスの Skype でオンライン サイトの閲覧対象者を選択できます。
+組織内のすべてのユーザーの**[管理者](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** として、Skype for business でオンラインプレゼンスを表示できるユーザーを選ぶことができます。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
-1. **Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype**です。
+1. **Office 365 管理センター** > **管理** > センター**の Skype for business**に移動します。
 
-2. **ビジネス管理センターの Skype**では、**組織**を選択します。
+2. **Skype For business 管理センター**で、[**組織**] を選びます。
 
-3. [**プレゼンス プライバシー モード**] で、次の設定のいずれかを選択し、**保存**します。
+3. [**プレゼンスプライバシーモード**] で、次の設定のいずれかを選択し、[**保存**] を選択します。
 
-|**設定**|**ユーザーのプレゼンスを表示できるユーザー**|
+|**]**|**ユーザーのプレゼンスを表示できるユーザー**|
 |:-----|:-----|
-|**プレゼンス情報を自動的に表示する** <br/> |人の**外部**または**受信拒否**リストに追加されていない者、ビジネスでのビジネス ユーザーは、Skype をそのユーザーのオンライン プレゼンスを表示することができなくなります。 <br/> |
-|**プレゼンス情報をユーザーの連絡先にのみ表示します。** <br/> |**外部**または**受信拒否**リストに追加していないユーザー個人の連絡先の一覧にすべてのユーザー。 <br/> 個人が、Skype をビジネス アプリケーション用の既定の設定をオーバーライドできます:**設定** > **ツール** > **のオプション**です。 <br/> |
+|**プレゼンス情報を自動的に表示する** <br/> |ユーザーの**外部**または**ブロック**リストに追加されていない会社の Skype for business ユーザーは、そのユーザーのオンラインプレゼンス情報を表示できます。 <br/> |
+|**プレゼンス情報をユーザーの連絡先にのみ表示する** <br/> |他のユーザーの連絡先リストに含まれているすべてのユーザーが、**外部**または**ブロック**されたリストに追加されていない。 <br/> ユーザーは、Skype for business アプリの既定の設定を上書きすることができます。 [**設定** > **ツール** > **] オプション**。 <br/> |
 
-ビジネス用の Skype で、ユーザーが変更できる方法については、これらの記事を参照してください。
+Skype for Business でユーザーが変更できる操作については、次の記事を参照してください。
 
-- [ビジネス用の Skype で自分のプレゼンス情報へのアクセスの制御](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [Skype for Business のプレゼンス情報へのアクセスを制御する](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [ビジネス用の Skype のステータス オプションを設定します。](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [Skype for Business のステータスオプションを設定する](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## <a name="related-topics"></a>関連トピック
 

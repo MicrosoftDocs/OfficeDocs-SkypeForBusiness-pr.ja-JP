@@ -1,30 +1,30 @@
 ---
-title: Skype 内のユーザーにビジネス サーバーのアーカイブ ・ ポリシーを適用します。
+title: Skype for Business Server のユーザーにアーカイブポリシーを適用する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: '概要: は、Skype のユーザーにビジネス サーバーのアーカイブ ・ ポリシーを割り当てる方法について説明します。'
-ms.openlocfilehash: 4375aa593b106283042d89413aa65a5eed707bbb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のユーザーにアーカイブポリシーを割り当てる方法について説明します。'
+ms.openlocfilehash: 895a7fac34fcac0a4a7e39756796f6b7d2fc6377
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903159"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282050"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Skype 内のユーザーにビジネス サーバーのアーカイブ ・ ポリシーを適用します。
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Skype for Business Server のユーザーにアーカイブポリシーを適用する
 
-**の概要:** Skype 内のユーザーにビジネス サーバーのアーカイブ ・ ポリシーを割り当てる方法について説明します。
+**概要:** Skype for Business Server のユーザーにアーカイブポリシーを割り当てる方法について説明します。
   
-1 つを作成した、またはユーザーのアーカイブのための複数のユーザー ポリシーは、Skype ビジネス サーバーのホーム、それらのユーザーまたはユーザー グループに適切なポリシーを適用することによって特定のユーザーのアーカイブのサポートを実装できます。 たとえば、内部通信のアーカイブをサポートするためにポリシーを作成する場合は、ビジネス サーバー間の通信のユーザーの Skype のアーカイブをサポートするために少なくとも 1 つのユーザーまたはユーザー ・ グループに適用できます。
+Skype for Business Server を使用しているユーザー用にアーカイブ用のユーザーポリシーを1つ以上作成した場合は、それらのユーザーまたはユーザーグループに適切なポリシーを適用することで、特定のユーザーのアーカイブサポートを実装できます。 たとえば、内部通信のアーカイブをサポートするポリシーを作成する場合、ユーザーの Skype for Business Server の通信のアーカイブをサポートするために、少なくとも1人のユーザーまたはユーザーグループに適用することができます。
   
 > [!NOTE]
-> 場合は有効にする Microsoft Exchange の統合、展開、Exchange インプレース保持ポリシーの管理に Exchange のホーム サーバーはユーザーのアーカイブが有効になっているし、インプレース保持に自分のメールボックスを配置するかどうか。 詳細については、 [Skype のビジネス サーバーでアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)と[構成との統合 Skype ビジネス サーバー用の Exchange の記憶域](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)を参照してください。 
+> 展開で Microsoft Exchange の統合を有効にしている場合、Exchange のインプレースホールドポリシーは、Exchange を使用しているユーザーに対してアーカイブが有効になっているかどうかを制御します。また、メールボックスはインプレースホールドに配置されています。 詳細については、「 [skype For Business server でのアーカイブの計画](../../plan-your-deployment/archiving/archiving.md)」および「 [Skype for business Server 用の Exchange storage との統合を構成する](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)」を参照してください。 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>コントロール パネルを使用したユーザー ポリシーの適用
 
@@ -32,22 +32,22 @@ ms.locfileid: "33903159"
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックして、構成するユーザー アカウントを検索します。 
     
 4. 検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
     
-5. **アーカイブ**ポリシーでは、 **Lync Server ユーザーの編集**では、アーカイブ ユーザー ポリシーを適用するを選択します。
+5. [**アーカイブポリシー**] の [ **Lync Server ユーザーの編集**] で、適用するアーカイブユーザーポリシーを選択します。
     
     > [!NOTE]
-    > **\<自動\>** の設定は、サーバー インストールの既定の設定を適用します。 これらの設定はサーバーにより自動的に適用されます。
+    > ** \<自動\> **設定では、既定のサーバーインストール設定が適用されます。 これらの設定はサーバーにより自動的に適用されます。
   
 6. [**コミット**] をクリックします。
     
-## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Windows PowerShell を使用してユーザー ポリシーを適用します。
+## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Windows PowerShell を使用してユーザーポリシーを適用する
 
-**与える CsArchivingPolicy**の Windows PowerShell コマンドレットを使用してユーザー ポリシーを適用することもできます。
+また、Windows PowerShell **Grant-CsArchivingPolicy**コマンドレットを使用して、ユーザーポリシーを適用することもできます。
   
 次のコマンドは、ユーザー単位のアーカイブ ポリシー RedmondArchivingPolicy をユーザー Ken Myer に割り当てます。
   
@@ -55,7 +55,7 @@ ms.locfileid: "33903159"
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
-次のコマンドは、ユーザーごとのアーカイブ ポリシーである RedmondArchivingPolicy を、レジストラー プール atl-cs-001.contoso.com に所属するアカウントを持つすべてのユーザーに割り当てます。 詳細については、このコマンドで使用されるフィルター パラメーターは、 [Get CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)コマンドレットのドキュメントを参照してください。
+次のコマンドは、ユーザーごとのアーカイブ ポリシーである RedmondArchivingPolicy を、レジストラー プール atl-cs-001.contoso.com に所属するアカウントを持つすべてのユーザーに割り当てます。 このコマンドで使用される Filter パラメーターの詳細については、「 [CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)コマンドレットのドキュメント」を参照してください。
   
 ```
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
@@ -67,6 +67,6 @@ Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchiv
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 
-詳細については、[補助金 CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps)コマンドレットのドキュメントを参照してください。
+詳細については、「 [Grant-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps)コマンドレットのドキュメント」を参照してください。
   
 

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Skype for Busineses をセットアップして、組織のボイスメールの既定応答メッセージで別の言語を使用する方法を説明します。 '
-ms.openlocfilehash: 78bb744fc00f81c18bd411d2a79367d2e4c9e216
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: f36ab76f0a83fc71f9d7ca668020dcd30f4808d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33995168"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283457"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 
@@ -43,13 +43,13 @@ ms.locfileid: "33995168"
   
 - **発信ボイス メール メッセージを録音する場合は、** 「[Skype for Business ボイス メールの確認とオプション](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)」をご覧ください。
 
-- **ボイスメール メッセージの言語を変更しますか。** [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) 、**プロンプトの言語**] の下の新しい言語を選択します。
+- **ボイスメールプロンプトの言語を変更しますか?** [ [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) **プロンプト言語**] の下の新しい言語に移動して選択します。
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>組織のユーザー全員に対してシステムの言語を変更する
 
-1. [Office 365 のグローバル管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)アカウントを使用してサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。 
+1. [Office 365 グローバル管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)アカウントでサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)します。 
     
-2. Microsoft 365 管理センターの**設定**を選択します > **組織プロファイル**です。 
+2. Microsoft 365 管理センターで、[**組織プロファイル**の**設定** > ] を選択します。 
     
      ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -67,7 +67,7 @@ ms.locfileid: "33995168"
     
 - [通話プランの設定](set-up-calling-plans.md)
     
-- [Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Skype for Business Server でオンプレミスの PSTN 接続を使用して、Office 365 で電話システムを計画する](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>関連トピック
 

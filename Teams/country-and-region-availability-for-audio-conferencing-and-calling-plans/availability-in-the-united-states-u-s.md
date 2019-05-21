@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 米国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: fff28a277df0513728463a1415ed3acedbf08910
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Skype for Business および Microsoft Teams の Office 365 サービスは、米国で利用できます。
+ms.openlocfilehash: 4cb21a948fce9c419915a959eb92f73375fcded5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402548"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281940"
 ---
 # <a name="availability-in-the-united-states-us"></a>米国での利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-米国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+Skype for Business および Microsoft Teams の Office 365 サービスは、米国で利用できます。
 
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。 <br/><ul><li> シカゴ<li>ダラス<li>ロサンゼルス<li>ニューヨーク市</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○: <br/><ul><li> シカゴ<li>営業<li>ロサンゼルス<li>ニューヨーク</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
 
 ## <a name="phone-system"></a>電話システム
@@ -60,11 +60,11 @@ ms.locfileid: "33402548"
 | **機能**                                       | **詳細**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 通話プランは購入できますか?  <br/>   | はい  <br/>                                                                                                                                                                                                                                                                                                                      |
-| 分の計画を呼び出すに使用できます。              | 1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分の国内を呼び出す計画 (可用性は制限されている)</li><li>240 分、国内の呼び出しを計画 (可用性は制限されている)</li></li><li>3000 分の国内を呼び出すことを計画 </li></li><li>国内と国際を呼び出す計画: 国内 OR 600 分 (どちらかに達すると最初の予定表の月の)、国際通話の 3000 分</li></li> |
-| プレミアム番号への発信コールを行うことができますでしょうか。 <br/> | この時点ではサポートされていません。 <br/>                                                                                                                                                                                                                                                                                               |
+| 通話プランの利用可能な時間 (分)。              | カレンダーの月ごとに、次の4つのプランオプションを利用できます。 <ul><li>120分国内通話プラン (可用性は制限されています)</li><li>240分国内通話プラン (可用性は制限されています)</li></li><li>3000分国内通話プラン </li></li><li>国内および国際通話プラン: 3000 分 (600 国内通話 (予定表の月の最初に到達した方)</li></li> |
+| 有料番号への通話発信は可能ですか? <br/> | この時点ではサポートされていません。 <br/>                                                                                                                                                                                                                                                                                               |
 | 発信通話を行うことができますか?  <br/>                | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> カナダへの呼び出しは、国内通話として扱われます。
+> カナダへの通話は国内通話として扱われます。
 
 >[!Note] 
 > 米国での国内通話に該当するのは、米国の 50 州すべてとプエルトリコへの通話です。 割り当てられたライセンスの利用場所が米国および/またはプエルトリコであるユーザーは、同じ利用時間量を共有します。

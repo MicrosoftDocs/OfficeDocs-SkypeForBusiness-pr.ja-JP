@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: Set-CcExternalCertificateFilePath コマンドレットは仲介サーバーまたはエッジ サーバーの証明書が保管されているパスを指定します。
-ms.openlocfilehash: 059d0f2fbf5fee708ceccd0d6e10ad4286fe4f85
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bc22771c20277d9de99660551864d600f06b3acc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895350"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286986"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -62,7 +62,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 展開時またはトポロジを変更しているときに、エッジ サーバーの証明書のパスを指定する必要があります。必要に応じて、仲介サーバーの証明書のパスも任意で指定します。 
   
-仲介サーバーの証明書は、TLS がゲートウェイと仲介サーバーの間で使用される場合に必要となります。 クラウド コネクタのアプライアンスを導入し、TLS を展開する仲介サーバー上に配置される証明書へのパスのみ指定できます。 ただし、既に展開済みのアプライアンス上の仲介証明書を更新する場合は、パスと -Import パラメーターを指定する必要があります。 パスを表示するには、Get-CCExternalCertificateFilePath コマンドレットを使用します。
+仲介サーバーの証明書は、TLS がゲートウェイと仲介サーバーの間で使用される場合に必要となります。 クラウドコネクタのアプライアンスを展開して、TLS を展開する場合、仲介サーバーに展開される証明書へのパスのみを指定できます。 ただし、既に展開済みのアプライアンス上の仲介証明書を更新する場合は、パスと -Import パラメーターを指定する必要があります。 パスを表示するには、Get-CCExternalCertificateFilePath コマンドレットを使用します。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>

@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
-description: この PowerShell スクリプトを使用して、チームにメッセージング ポリシーを作成し、組織内のユーザーに割り当てることにします。
+description: この PowerShell スクリプトを使用して、Teams でメッセージングポリシーを作成し、組織内のユーザーに割り当てます。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -23,9 +23,9 @@ ms.locfileid: "32205075"
 <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell サンプル スクリプト - メッセージング ポリシーの作成と割り当て
 -------------------------------------------------------------------------
 
-この PowerShell スクリプトを使用して、マイクロソフトのチームでのメッセージング ポリシーを作成し、ユーザーに割り当てることにします。 
+この PowerShell スクリプトを使用して、Microsoft Teams でメッセージングポリシーを作成し、ユーザーに割り当てます。 
 
-この PowerShell スクリプトを使用しての詳細については、[教育用のクイック ・ スタート ・ チーム](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)を参照してください。
+この PowerShell スクリプトの使い方について詳しくは、「[クイックスタート-教育機関向けチーム](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)」をご覧ください。
 
 PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。
 

@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,78 +21,78 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 7213b3b8a8155e8b23b8f710d241af4425a8dbe4
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 592f9bd4e336ae454ce74146f462bfbab2a2924c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970301"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283541"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 における電話会議
-Office 365 での音声会議では、電話から会議の呼び出しすることができます。 オーディオ会議では、最大で 250 の電話の参加者を使用できます。
+Office 365 の電話会議では、ユーザーは自分の電話から会議にダイヤルインすることができます。 電話会議には最大で250の電話出席者が参加できます。
 
-## <a name="what-is-audio-conferencing"></a>オーディオ会議とは何ですか。
-会議に出席 (ダイヤルイン) に・ コールは、ユーザーが外出先であり、Skype を使用して、ラップトップやモバイル デバイスにアプリケーションをビジネスまたはマイクロソフトのチームの会議に出席できないのは非常に便利です。 会議は、コンピューター上のアプリケーションを使用してではなく、使用することで、電話、Skype のビジネスまたはマイクロソフトのチームへの参加を他のシナリオがあります。
+## <a name="what-is-audio-conferencing"></a>電話会議とは何ですか?
+会議への通話 (ダイヤルイン) は、外出先でも、ノート pc やモバイルデバイスで Skype for Business または Microsoft Teams アプリを使って会議に参加することはできません。 ただし、電話を使って Skype for Business 会議または Microsoft Teams 会議に参加する場合は、コンピューター上のアプリを使用するよりも便利な方法があります。
   
-- インターネット接続が制限されています。
-- 会議、オーディオのみです。
-- ユーザーは、Skype のビジネス会議に参加しようとしていますし、失敗しました。
-- ダイヤルするときは、通話の音質をお勧めします。
-- 人がミーティングに参加できる「ハンド フリー」Bluetooth デバイスを使用します。
-- 人の検索が容易になりますし、状況にあった方が便利です。
+- インターネット接続は制限されています。
+- 会議は音声のみである。
+- このユーザーは Skype for Business 会議に参加しようとして失敗しました。
+- 発信時に通話音質が良くなります。
+- ユーザーは、Bluetooth デバイスを使って "ハンズフリー" で会議に参加できます。
+- ユーザーは、状況に応じて、より簡単で便利な検索を行うことができます。
 
-You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
+電話会議の設定は、会議のスケジュールを設定または会議を進行するユーザーに対してのみ必要です。ダイヤルインで参加するユーザーについては、ライセンスの割り当てや他の設定は必要ありません。
 
-出席者が会議に参加した後しことができますダイヤル、Skype ビジネスまたはマイクロソフトのチームの会議のために他の呼び出し元を招待します。 [他のユーザーが参加できるように、チーム会議からの発信](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)または[他のユーザーが参加できるように、ビジネス会議のため、Skype からの発信](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)を参照してください。
+出席者が会議に参加したら、ダイヤルアウトして、他の発信者を Skype for Business または Microsoft Teams の会議に招待することもできます。 他のユーザーが会議に参加したり、 [Skype For business 会議からダイヤルアウトして他の](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)ユーザーが参加できるようにするには、「 [Teams 会議からダイヤルアウト](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)する」を参照してください。
 
-## <a name="what-does-it-cost"></a>かかる費用はいくらですか。
+## <a name="what-does-it-cost"></a>料金について教えてください。
 価格情報については、「[電話会議の価格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)」を参照してください。
 
-## <a name="where-is-it-available"></a>場所があることでしょうか。
-オーディオ会議では、ユーザーが有料電話番号と無料電話番号を使用して会議にダイヤルインすることができます。 (サービス) の有料電話番号は、電話会議には有効にしているときに自動的に組織に共有の電話会議の番号として割り当てられます。 専用の有料電話番号および無料電話番号は、追加の都市から組織に割り当てることができます。
+## <a name="where-is-it-available"></a>どこで利用できますか?
+電話会議を使用すると、ユーザーは有料電話番号と無料電話番号を使って会議にダイヤルインすることができます。 電話会議が有効になっている場合、有料 (サービス) 番号は、組織に共有電話会議番号として自動的に割り当てられます。 専用の有料電話番号および無料電話番号は、追加の都市から組織に割り当てることができます。
 
-フリー ダイヤル電話番号 (サービス番号) とは、使用できないが、一部の国/地域でのみです。 国または地域で使用可能なを表示するには、[オーディオ会議や予定を呼び出すための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。
+無料電話番号 (サービス番号) は利用できますが、一部の国/地域でのみ使用できます。 お住まいの国または地域で利用可能な機能については、「[電話会議と通話プランの国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)情報」を参照してください。
 
-オーディオ会議、組織の目的を決定したら、組織内のユーザーが、オーディオ会議のスケジュールおよびホストする場合、各ユーザーの**電話会議**の 1 つのライセンスを購入する必要があります。
+組織の電話会議を使用することにした場合は、電話会議をスケジュール/主催しようとしている組織内の各ユーザーに対して、1つの**電話会議**ライセンスを購入する必要があります。
 
-## <a name="how-do-conferencing-bridges-work"></a>会議用ブリッジの動作ですか。
-ビジネスまたはマイクロソフトのチームの Skype の電話会議を設定は、ときに、オーディオ会議ブリッジが表示されます。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 設定した電話番号はビジネスおよびマイクロソフトのチームのアプリケーションの Skype の会議の招待に含まれます。 [会議用ブリッジは、上の電話番号を変更](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)することができ、[他のオーディオ会議ブリッジの設定を変更](change-the-settings-for-an-audio-conferencing-bridge.md)することもします。 
+## <a name="how-do-conferencing-bridges-work"></a>会議ブリッジはどのように動作しますか?
+Skype for Business または Microsoft Teams の電話会議をセットアップしているときに、電話会議ブリッジを利用できます。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 設定した電話番号は、Skype for Business および Microsoft Teams アプリの会議の招待に含まれます。 [電話会議ブリッジの電話番号を変更](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)することができます。また、[その他の電話会議ブリッジの設定を変更](change-the-settings-for-an-audio-conferencing-bridge.md)することもできます。 
   
-オーディオ会議ブリッジ、電話を使用して会議にダイヤルインしている人のための呼び出しに応答します。 、自動応答から、設定によっては、音声メッセージを呼び出し元に応答、通知を再生し、名前を記録するための呼び出し元を依頼することがします。 **マイクロソフトのブリッジ設定**を使用すると、会議の通知の設定を変更して会議の参加、ミーティングの開催者によって使用されているピンの長さを設定[マイクロソフトのチームで](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)または[Skype](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings)にします。 ミーティングの開催者は、ビジネスまたはマイクロソフトのチームのアプリケーションに、Skype を使用してミーティングに参加することはできない場合は、会議を開始するためのピンを使用します。
+電話会議ブリッジは、電話を使って会議にダイヤルインしているユーザーに対して、通話に応答します。 自動応答からの音声プロンプトによって発信者に応答し、設定に応じて通知を再生して、発信者に名前を記録するように依頼することができます。 **Microsoft bridge の設定**では、会議の通知と会議の参加エクスペリエンスの設定を変更したり、 [Microsoft Teams](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)または[Skype for business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings)の会議の開催者によって使用される pin の長さを設定したりすることができます。 会議の開催者が Skype for Business または Microsoft Teams アプリを使って会議に参加できない場合は、Pin を使って会議を開始します。
 
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>ダイヤルインの電話番号、電話会議ブリッジの設定
-会議用ブリッジを割り当てることができる電話会議の電話番号の 2 つの種類があります:**共有**と**専用**です。 組織内に保持されているオーディオ会議に参加するすべての呼び出し元が両方の種類の番号を使用できます。
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>電話会議ブリッジで設定されたダイヤルイン電話番号
+会議ブリッジに割り当てることができる電話会議の電話番号には、**共有**と**専用**の2種類があります。 どちらの番号も、任意の発信者が組織内の電話会議に参加するために使用できます。
   
- **専用電話番号** とは、組織内のユーザーだけが使用できる電話番号のことです。 誰かがこれらの番号のいずれかに電話をかけるときに使用する言語を変更できます。 これらのサービスの電話番号を取得する必要があります。
+ **専用電話番号** とは、組織内のユーザーだけが使用できる電話番号のことです。 誰かがこれらの番号のいずれかに電話をかけるときに使用する言語を変更できます。 これらのサービス用の電話番号を取得する必要があります。
   
  **共有電話番号** とは、他の Office 365 組織と共有できる電話番号です。誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
   
-会議出席依頼に会議の開催者に割り当てられている既定の電話会議の番号が含まれているだけ、中に、呼び出し元はミーティングに参加するのには、会議用ブリッジに割り当てられている電話番号のいずれかを使用できます。 会議に参加するために使用する電話番号の一覧はそれぞれの会議の招待状に含まれる [ **電話番号の検索**] リンクを使用して利用できます。
+開催者に割り当てられている既定の電話会議番号は、会議出席依頼にのみ含まれていますが、発信者は会議に参加するために、会議ブリッジに割り当てられている電話番号を使うことができます。 会議に参加するために使用する電話番号の一覧はそれぞれの会議の招待状に含まれる [ **電話番号の検索**] リンクを使用して利用できます。
 
-詳細については、[マイクロソフトのチームでの電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)や[オンライン ビジネスの Skype で電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)を参照してください。
+詳細については、「 [Microsoft Teams の電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)」または「 [Skype for Business Online の電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)」を参照してください。
   
-## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>電話会議の電話番号を自動的に割り当てられます
-電話会議の電話番号に自動的に割り当てられるように音声会議では有効にしている場合を共有します。 電話番号が割り当てられる場合、電話番号は会議ブリッジの既定の電話番号として割り当てられます。 ブリッジの既定の番号として割り当てられた電話番号は、組織の国/地域のものです。
+## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>自動的に割り当てられた電話会議の電話番号
+共有電話会議の電話番号は、電話会議が有効になっている場合、組織に自動的に割り当てられます。 電話番号が割り当てられる場合、電話番号は会議ブリッジの既定の電話番号として割り当てられます。 ブリッジの既定の番号として割り当てられた電話番号は、組織の国/地域のものです。
   
 > [!NOTE]
-> **Microsoft 365 管理センター**にサインインし、**組織プロファイル**の検索で、組織の国または地域の場所をご覧ください。 
+> 組織の国または地域の場所は、 **Microsoft 365 管理センター**にサインインし、[**組織プロファイル**] の下に表示されていることがわかります。 
   
 > [!CAUTION]
-> 組織がこれらの国/地域は、ベネズエラ、インドネシア、アラブ首長国連邦 (アラブ首長国連邦) の有料電話番号の可用性に制限のため、オーディオ会議の有料電話番号が自動的に割り当てられているを必要はありません。 これらの場所からの無料電話番号は、利用可能なインベントリに応じて利用可能になります。 
+> この国/地域の組織の有料電話番号の利用には制限があるため、これらの国/地域の組織では、電話会議の有料電話番号が自動的に割り当てられることはありません。 これらの場所からの無料電話番号は、利用可能なインベントリに応じて利用可能になります。 
   
 電話番号が組織に自動的に割り当てられている国や地域のリストを確認するには、「[電話会議と通話プランを使用できる国および地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。
   
-## <a name="how-do-you-get-dedicated-phone-numbers"></a>専用の電話番号を取得するにはどうするでしょうか。
-専用の電話会議の電話番号は、サービス番号を取得し、組織に割り当てることです。 3 つの方法のいずれかで、会議用のブリッジは、専用の有料電話番号と無料電話番号を取得できます。
+## <a name="how-do-you-get-dedicated-phone-numbers"></a>専用の電話番号を取得するには、どうすればよいですか?
+専用の電話会議の電話番号は、お客様が取得して組織に割り当てることができるサービス番号です。 次の3つの方法のいずれかで、電話会議用に専用の有料電話番号と無料電話番号を取得できます。
 
-- **ビジネス管理センターは、Skype を使用します。** 一部の国/地域のビジネス管理センターは、Skype を使用して、会議ブリッジの番号を取得できます。 [取得サービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照してください。
+- **Skype for Business 管理センターを使用します。** 一部の国/地域では、Skype for Business 管理センターを使って、会議ブリッジの番号を取得できます。 「[サービスの電話番号を取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)する」をご覧ください。
     
-- **既存の番号を移行する。** ポート、または現在のサービス プロバイダーまたは電話のキャリアからの既存の番号を Office 365 に転送できます。 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)または詳細については[、組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)作業を行いやすくにを参照してください。  
+- **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社から Office 365 に、既存の電話番号を移行することもできます。 そのための詳細については、「 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)する」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。  
   
-- **新規の番号を取得するには、リクエスト フォームを使用してください。** 場合があります (国または地域) によってことはできません、Skype を使用するビジネス管理センターでは、新しい電話番号を取得するか、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。
+- **新規の番号を取得するには、リクエスト フォームを使用してください。** (お住まいの国/地域によっては)、Skype for Business 管理センターを使用して新しい電話番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。
 
-## <a name="how-do-you-set-it-up"></a>方法の操作を行いますを設定することでしょうか。
-ユーザーの電話会議を設定するを決定したらを参照してください[マイクロソフト チームの電話会議を設定](set-up-audio-conferencing-in-teams.md)または[オンライン ビジネスの Skype の電話会議を設定](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)するための手順の。
+## <a name="how-do-you-set-it-up"></a>設定方法を教えてください。
+ユーザーに対して電話会議をセットアップする場合は、「 [Microsoft Teams の電話会議をセットアップ](set-up-audio-conferencing-in-teams.md)する」または「 [Skype for business Online の電話会議](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)をセットアップする」を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 

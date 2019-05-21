@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: このトピックには、呼び出す予定がある場合、ユーザーはへの発信コールを配置できる国/地域のすべてが含まれます。
-ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: このトピックには、通話プランがある場合に、ユーザーが発信通話を発信できるすべての国/地域が含まれています。
+ms.openlocfilehash: 3f6ff1f7bb3d9659ec9429b3eb48a8ae9968d636
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200252"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281902"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>ユーザーが通話を発信できる相手先の国や地域
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>どのような国や地域のユーザーは、ユーザーは、国内および国際を呼び出す予定のライセンスを持っている場合に発信呼び出しを行うことができますを参照してください。
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>ユーザーが国内および国際通話プランのライセンスを持っている場合に、ユーザーがどの国/地域を使って発信できるかを確認する
 
-|**A-D**| **E-H**|**I - L**|**M-O**|**P-S**|**T ~ Z**|
+|**A-D**| **E-H**|**I-L**|**M-O**|**P-S**|**T-Z**|
 ---|---|---|---|---|---|
 |アフガニスタン|エクアドル |アイスランド |マカオ |パキスタン |台湾   |
 |アルバニア|エジプト |インド |マケドニア |パラオ |タジキスタン   |
@@ -65,7 +65,7 @@ ms.locfileid: "32200252"
 |ボスニア・ヘルツェゴビナ |ハイチ ||ニュージーランド |南アフリカ | 
 |ボツワナ |ホンジュラス ||ニカラグア |南スーダン |
 |ブラジル |香港 ||ニジェール |スペイン | 
-|Bunei ・ ダルサラーム国 |ハンガリー ||ナイジェリア |Sri Lanka | 
+|Bunei ・ダルサラーム国 |ハンガリー ||ナイジェリア |Sri Lanka | 
 |ブルガリア |||北マリアナ諸島 |サンピエール島・ミクロン島 |
 |ブルキナ ファソ |||ノルウェー |スーダン |
 |カンボジア |||オマーン |スリナム | 

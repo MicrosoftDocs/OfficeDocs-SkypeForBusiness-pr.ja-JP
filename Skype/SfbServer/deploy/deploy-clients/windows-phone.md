@@ -4,63 +4,63 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
-description: '概要: をインストールし、Windows Phone にビジネス用の Skype をテストする方法を説明します。'
-ms.openlocfilehash: c6aead462e0f968cae33d5e59b6265c275c888ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business を Windows Phone にインストールしてテストする方法について説明します。'
+ms.openlocfilehash: 2796f1664ec20142bd8f9399830836c8c284ac67
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895027"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278285"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Install and test Skype for Business for Windows Phone
  
-**の概要:** インストールし、Windows Phone にビジネス用の Skype をテストする方法について説明します。
+**概要:** Windows Phone で Skype for Business をインストールしてテストする方法について説明します。
   
-ビジネスの Windows Phone アプリケーションの Skype では、ビジネス プレゼンス、インスタント メッセージング (IM)、および音声とビデオ Windows モバイル デバイスへの呼び出しに Skype が表示されます。 Lync 2013 を使用しているユーザーの場合、ユーザー設定に応じて、アプリが自動的に更新されるか、手動で更新するよう求めるメッセージが表示されます。 新規ユーザーを[Windows Phone マーケットプ レース](https://go.microsoft.com/fwlink/p/?linkid=231901)からダウンロードできます。 ビジネスの Windows Phone アプリケーションの Skype をできるは、Windows Phone 8.1 およびそれ以降でだけです。
+Skype for Business for Windows Phone アプリでは、Skype for Business のプレゼンス、インスタントメッセージング (IM)、音声およびビデオ通話を Windows モバイルデバイスで利用できます。 Lync 2013 を使用しているユーザーの場合、ユーザー設定に応じて、アプリが自動的に更新されるか、手動で更新するよう求めるメッセージが表示されます。 新しいユーザーは、 [Windows Phone Marketplace](https://go.microsoft.com/fwlink/p/?linkid=231901)からダウンロードできます。 Windows Phone 版 Skype for Business アプリは、Windows Phone 8.1 以降でのみ利用できます。
   
-アプリをダウンロードするのには、組織内のユーザーを案内する、前に、お客様の環境に適切に統合されているかどうかを確認するのには次のテストを実行します。 
+組織内のユーザーにアプリをダウンロードするように指示する前に、次のテストを実行して、環境に適切に統合されていることを確認します。 
   
-## <a name="install-skype-for-business-windows-phone-81"></a>ビジネス Windows Phone 8.1 の Skype をインストールします。
+## <a name="install-skype-for-business-windows-phone-81"></a>Skype for Business Windows Phone 8.1 をインストールする
 
-1. [Windows Phone 8 を中心的な更新](https://www.windowsphone.com/en-us/how-to/wp8/update-central)を Windows Phone 8.1 に、電話を更新するを参照します。
+1. 電話を Windows Phone 8.1 に更新するには、 [Windows phone 8 更新プログラムの中央](https://www.windowsphone.com/en-us/how-to/wp8/update-central)に移動します。
     
-2. 、電話からは、**ストア**では、に移動し、 **Skype のビジネス**を検索します。
+2. お使いの携帯電話から**ストア**に移動して、 **Skype for business**を検索します。
     
 3. [**インストール**] をタップします。 
     
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Skype for Business に初めてサインインする
 
-1. [ **Start** ] 画面を表示、インストールされているアプリケーション、Windows Phone のビジネス、Skype の検索を開くには、アプリケーション アイコンをタップし、読み取りのまま。
+1. [**スタート**] 画面で、左にスワイプしてインストールされているアプリを表示し、Skype for Business For Windows Phone を検索して、アイコンをタップしてアプリを開きます。
     
-2. サインイン用アドレス (たとえば、user@domain.com) とパスワードを入力し、**完了**の順にタップします。
+2. サインインアドレス (user@domain.com など) とパスワードを入力して、[**完了**] をタップします。
     
-     場合によっては、ユーザー名とサインイン アドレスを両方とも入力する必要があります。 ユーザー名では、組織のネットワークへのサインインに使用する user@domain.com またはドメイン \ ユーザー名のいずれかです。
+     場合によっては、ユーザー名とサインイン アドレスを両方とも入力する必要があります。 ユーザー名は、組織のネットワークにサインインするために使用する user@domain.com または domain\username のどちらかです。
     
 3. [**カスタマー エクスペリエンス向上プログラム**] 画面で、[**参加**] をタップしてアプリの問題と使用状況に関する匿名データを Microsoft に送信するか、参加しない場合は [**いいえ**] をタップします。
     
-4. [**勤務先電話への着信を逃さない**] 画面で、携帯電話番号を国、地域番号も含めて入力します。 Windows Phone のビジネス用の Skype が、オーディオまたはビデオの呼び出しを行うには、Wi-fi または携帯電話データ ネットワークを使用できないを自動的にこの番号と呼ばれ、呼び出しのオーディオ部分に接続して行います。
+4. [**勤務先電話への着信を逃さない**] 画面で、携帯電話番号を国、地域番号も含めて入力します。 Skype for Business for Windows Phone では、Wi-fi または携帯電話のデータネットワークを使って音声通話やビデオ通話を行うことができない場合、この番号で自動的に呼び出され、通話の音声部分に接続されます。
     
-5. **次へ**] をタップし、通知し、電話帳のアクセスの設定を確認します。
+5. **[次へ**] をタップして、通知と電話帳のアクセス設定を確認します。
     
-   - **プッシュ通知**新しい IM またはコールを受信したときにアラートを取得します。 通常**の**(推奨)。
+   - **プッシュ通知**新しい IM または通話を受信したときに通知を受け取ります。 通常**** は (推奨)
     
      > [!IMPORTANT]
-     > この設定をオフにするにしない通知 IMs、呼び出し、またはビジネスの Windows Phone のアラートには、他の Skype のアプリケーションがアクティブになっていない限り。 
+     > この設定をオフにした場合は、アプリがアクティブでない限り、Im、通話、または Windows Phone の通知に関するその他の Skype for Business について通知されません。 
   
-   - **電話帳へのアクセスを許可します。** Windows Phone のビジネス用の Skype の連絡先を検索する場合は、携帯電話の連絡先を検索します。
+   - **電話帳へのアクセスを許可する**Skype for Business for Windows Phone で連絡先を検索するときに、携帯電話で連絡先を検索します。
     
-6. **次回**Windows Phone のビジネス用の Skype の使用を開始する] をタップします。
+6. **[次へ**] をタップして、Skype for Business For Windows Phone の使用を開始します。
     
-    [サインインのヘルプが必要ですか。](https://support.office.com/article/6b827683-ad55-471a-bd4b-3d4ec098bf75)
+    [サインインのヘルプ](https://support.office.com/article/6b827683-ad55-471a-bd4b-3d4ec098bf75)
     
 ## <a name="verify-mobile-client-installation"></a>モバイル クライアント インストールを検証する
 
-クライアントを構成するし、正常にサインインすると、モバイル デバイスの Windows Phone のビジネスについて、Skype のインストールが正常に機能していることを確認するのには次のテストを使用します。
+クライアントを構成して正常にサインインしたら、次のテストを行って、お使いのモバイルデバイスで Skype for Business for Windows Phone が正常にインストールされていることを確認します。
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>会社のディレクトリにある連絡先の検索
 
@@ -74,13 +74,13 @@ ms.locfileid: "33895027"
 
 1. 連絡先リストで、連絡先をタップします。
     
-2. 連絡先のカードでは、[インスタント メッセージング (IM)] をタップします ![Skype for Business のインスタント メッセージングのアイコン](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)アイコン。
+2. 連絡先カードで、インスタントメッセージング (IM) をタップします。 ![Skype for Business のインスタント メッセージングのアイコン](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)最小化.
     
 3. IM ウィンドウが表示されていて、IM の入力と送信が可能であることを確認します。
     
 ### <a name="test-dial-out-conferencing"></a>ダイヤルアウト会議のテスト
 
-1. Outlook では、ビジネス会議のため、Skype のスケジュールを設定します。
+1. Outlook で、Skype for Business 会議をスケジュールします。
     
 2. Windows Phone で、会議の招待状を開きます。
     
@@ -92,23 +92,23 @@ ms.locfileid: "33895027"
 
 1. このテスト用に異なる 2 つのユーザー アカウントを選択します。 
     
-2. ユーザーの Windows Phone の上でにサインインする Skype ビジネスの Windows Phone のユーザー A のアカウント。
+2. ユーザー A の Windows Phone で、ユーザー A のアカウントを使って Windows Phone 用の Skype for Business にサインインします。
     
 3. デバイスで別のアプリケーションを開きます。
     
-4. デスクトップ クライアントなど、別のクライアントにユーザー B のアカウントを使用してビジネスの Skype にサインインします。
+4. デスクトップクライアントなどの別のクライアントで、ユーザー B のアカウントを使用して Skype for Business にサインインします。
     
 5. IM をユーザー B からユーザー A に送信します。
     
-6. IM 通知がユーザー A のモバイル デバイス上に表示されていることを確認します。
+6. ユーザー A のモバイルデバイスに IM 通知が表示されることを確認します。
     
-## <a name="remove-skype-for-business-from-your-windows-phone"></a>ビジネスのため、Windows Phone から Skype を削除します。
+## <a name="remove-skype-for-business-from-your-windows-phone"></a>Windows Phone から Skype for Business を削除する
 
-モバイル デバイスから、Windows Phone のビジネス アプリケーションの Skype を削除します。 
+Skype for Business for Windows Phone アプリをモバイルデバイスから削除するには、次の操作を行います。 
   
 1. 起動画面から、アプリケーション一覧をスワイプして表示します。 
     
-2. タップし、Windows Phone のビジネス アプリケーションでは、Skype を押したままとし、[**アンインストール**] を選択します。
+2. Skype for Business for Windows Phone アプリケーションをタップして押し続け、[**アンインストール**] を選択します。
     
 
 

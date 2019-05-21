@@ -1,6 +1,6 @@
 ---
 title: 小売店向けの Teams
-description: 小売組織のチームを管理するのにには、これらのリソースを使用します。
+description: これらのリソースを使用して、小売組織のチームを管理します。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -21,7 +21,7 @@ ms.locfileid: "32245731"
 ---
 # <a name="teams-for-retail"></a>小売店向けの Teams
 
-リソースを使用して管理者は、ここを管理し、小売店舗と従業員のチームを最大限に活用します。
+ここで管理リソースを使用して、小売店や従業員向けのチームを管理し、最大限に活用することができます。
 
 <ul class="panelContent cardsFTitle">
     <li>

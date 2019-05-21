@@ -1,5 +1,5 @@
 ---
-title: 組織の Skype 会議のブロードキャストの設定を変更をします。
+title: 組織の Skype 会議ブロードキャストの設定を変更する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,27 +18,27 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: Skype 会議のブロードキャストを有効にして設定し、ミーティングのポリシーに変更を加えます。
-ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype 会議ブロードキャストを有効にして、会議の設定とポリシーを変更することができます。
+ms.openlocfilehash: 98010683c12c9c8586768f78bd9c45d0231c3e8a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226276"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280795"
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>組織の Skype 会議のブロードキャストの設定を変更をします。
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>組織の Skype 会議ブロードキャストの設定を変更する
 
-Skype 会議のブロードキャストを有効にして設定し、ミーティングのポリシーに変更を加えます。
+Skype 会議ブロードキャストを有効にして、会議の設定とポリシーを変更することができます。
   
-- **Skype の会議のブロードキャストを有効にします。** Skype の会議のブロードキャストを有効にします。 Skype 会議のブロードキャストを有効にした後は、 [Skype 会議のブロードキャストのネットワークをセットアップ](set-up-your-network-for-skype-meeting-broadcast.md)する必要があります。 人、組織外からのウェビナー、他のブロードキャストを保持したい場合は、この手順を実行します。 
+- **Skype 会議ブロードキャストを有効にする**Skype 会議ブロードキャストを有効にします。 Skype 会議ブロードキャストを有効にしたら、 [Skype 会議ブロードキャスト用にネットワークを設定](set-up-your-network-for-skype-meeting-broadcast.md)する必要があります。 社外の人に対して、ウェビナーやその他のブロードキャストを保留にする場合は、この手順を実行します。 
     
-- **組織内でのプレビューをブロードキャスト Skype 会議を有効にする機能**カスタマー ・ ビジネス ・ プログラムは、Skype では、新製品および機能への早期アクセスを提供します。 これにより、組織は何が送信されると、独自の環境で新しい機能をテストし、フィードバックを一般に公開する製品ビルドをリリースする前にすることでプレビューできます。<br/>[Skype ビジネス プレビューを表示します。](https://www.skypepreview.com/)
+- **組織で Skype 会議ブロードキャストのプレビュー機能を有効にする**Skype for Business の顧客プログラムを使用すると、新しい製品や機能にいち早くアクセスできます。 これにより、組織は、現在の環境の新機能をテストし、製品ビルドを一般公開する前にフィードバックを提供することができます。<br/>[Skype for Business のプレビュー](https://www.skypepreview.com/)
     
-- **匿名の会議をスケジュールするのには、[開催者**これにより、開催者がサインインする必要なしに参加する、組織外のユーザーを許可するブロードキャストのイベントを作成します。
+- **開催者による匿名会議のスケジュールを許可する**これにより、開催者は、サインインの必要性なく組織外のすべてのユーザーが参加できるようにするブロードキャストイベントを作成できます。
     
-- **記録するブロードキャストの会議を許可します。** これは、発表者または開催者によって記録する必要があるすべての会議を使用できます。
+- **ブロードキャスト会議を記録できるように**するこれにより、発表者または開催者によって記録されるすべての会議を有効にすることができます。
     
-- **ヘルプデスクは、出席者の URL をサポート**ヘルプを接続するか、ブロードキャストのミーティングへの参加が必要な場合に使用するブロードキャストの参加者を会議にリンクを入力します。
+- **出席者のヘルプデスクサポート URL**ブロードキャスト会議への接続または参加に関するヘルプが必要な場合に使用する、会議ブロードキャストの出席者のためのリンクを入力します。
     
 ## <a name="related-topics"></a>関連トピック
 

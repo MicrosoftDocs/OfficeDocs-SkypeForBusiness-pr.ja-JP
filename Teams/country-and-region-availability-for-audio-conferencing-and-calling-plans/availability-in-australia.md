@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: オーストラリアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをオーストラリアで利用できるようにする方法について説明します。
+ms.openlocfilehash: 0ced5fd869b54366b5b3214f76b9dee1f8f5782f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245001"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283355"
 ---
 # <a name="availability-in-australia"></a>オーストラリアでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-オーストラリアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをオーストラリアで利用できるようにする方法について説明します。
 
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -57,17 +57,17 @@ ms.locfileid: "32245001"
 
 ## <a name="calling-plans"></a>通話プラン
 > [!IMPORTANT]
-> のみで利用可能で Telstra オーストラリア ベースのテナントです。 詳細については、 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
+> オーストラリアベースのテナントの Telstra でのみ利用可能です。 詳細については、 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |はい、 [Telstra は、Office 365 の呼び出し](https://aka.ms/TelstraVoicePlan)を参照してください。  <br/> |
-|通話プランで利用可能な通話分数  <br/> |[Telstra は、Office 365 の呼び出し](https://aka.ms/TelstraVoicePlan)を参照してください。 <br/> |
-|発信通話を行うことができますか?  <br/> |[Telstra は、Office 365 の呼び出し](https://aka.ms/TelstraVoicePlan)を参照してください。 <br/> |
+|通話プランは購入できますか?  <br/> |はい。「 [Office 365 の Telstra 通話](https://aka.ms/TelstraVoicePlan)」を参照してください。  <br/> |
+|通話プランで利用可能な通話分数  <br/> |「 [Office 365 の Telstra 通話」を](https://aka.ms/TelstraVoicePlan)参照してください。 <br/> |
+|発信通話を行うことができますか?  <br/> |「 [Office 365 の Telstra 通話」を](https://aka.ms/TelstraVoicePlan)参照してください。 <br/> |
 
 > [!IMPORTANT]
-> (Telstra によって提供される) オーストラリアのサブスクライバーの削除番号に Telstra に直接問い合わせてください。
-> (Telstra によって提供される) のオーストラリアの加入者番号の緊急のアドレス情報を更新するには、直接 Telstra を連絡してください。
+> (Telstra によって提供される) オーストラリアの加入者番号を削除するには、Telstra に直接お問い合わせください。
+> Telstra によって提供されるオーストラリアの加入者番号の緊急対応の住所情報を更新するには、Telstra に直接お問い合わせください。
 > 詳細については、 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
@@ -78,7 +78,7 @@ ms.locfileid: "32245001"
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
 
-自動アテンダントの有料電話番号と無料電話番号を取得する場合は、キュー] または [[お問い合わせは](mailto:ptnapac@microsoft.com)、オーディオ会議サービス番号を呼び出します。
+自動応答の有料または無料の電話番号を取得する必要がある場合は、通話キューまたは電話会議サービス番号に[お問い合わせください](mailto:ptnapac@microsoft.com)。
 
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

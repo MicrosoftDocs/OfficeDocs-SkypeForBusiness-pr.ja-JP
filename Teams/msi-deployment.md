@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea2f6b85dc4802f2caac4df5b69754d27e8fb9a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4c009433696ac554114a2a06955b4f33beb6543f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33899018"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281618"
 ---
 <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 =================================
@@ -39,14 +39,14 @@ System Center Configuration Manager、またはグループ ポリシー、ま�
 
 ## <a name="how-the-microsoft-teams-msi-package-works"></a>Microsoft Teams MSI パッケージの仕組み
 
-### <a name="pc-installation"></a>PC インストール
+### <a name="pc-installation"></a>PC のインストール
 
 > [!Note] 
-> DesktopInfrastructure VDI (仮想) 環境にチームを配置する方法に関するガイダンスについては、 [VDI のインストール](#vdi-installation)を参照してください。
+> 仮想デスクトップインフラストラクチャ (VDI) 環境に Teams を展開する方法については、「 [vdi インストール](#vdi-installation)」を参照してください。
 
-Teams MSI はインストーラーを Program Files に配置します。 ユーザーが新しい Windows ユーザー プロファイルにサインインするたびに、インストーラーが起動され、チームのアプリケーションのコピーをそのユーザーの appdata フォルダーにインストールされます。 ユーザーが既にアプリデータ フォルダーに Teams アプリをインストール済みの場合、MSI インストーラーはそのユーザーについてはプロセスをスキップします。
+Teams MSI はインストーラーを Program Files に配置します。 ユーザーが新しい Windows ユーザープロファイルにサインインするたびに、インストーラーが起動され、Teams アプリのコピーがそのユーザーの appdata フォルダーにインストールされます。 ユーザーが既にアプリデータ フォルダーに Teams アプリをインストール済みの場合、MSI インストーラーはそのユーザーについてはプロセスをスキップします。
 
-更新プログラムを展開するのに MSI を使用しないでください。クライアントは、サービスから利用可能な新しいバージョンを見つけたら、自動更新します。 最新のインストーラーを再展開するには、以下に説明されている MSI の再展開のプロセスを使用します。MSI パッケージの以前のバージョンを展開すると、クライアントはそのユーザーが可能なときに自動更新を実行します。 非常に古いバージョンを取得を展開する場合、ユーザーはチームを使用するのには、前に MSI はアプリケーションの更新をトリガーします。 
+更新プログラムを展開するのに MSI を使用しないでください。クライアントは、サービスから利用可能な新しいバージョンを見つけたら、自動更新します。 最新のインストーラーを再展開するには、以下に説明されている MSI の再展開のプロセスを使用します。MSI パッケージの以前のバージョンを展開すると、クライアントはそのユーザーが可能なときに自動更新を実行します。 非常に古いバージョンが展開された場合、MSI は、ユーザーが Teams を使用できるようになる前に、アプリの更新をトリガーします。 
 
 > [!Important] 
 > 既定のインストール場所を変更すると、更新フローが崩れる可能性があるため、お勧めしません。 非常に昔のバージョンを利用すると、ユーザーがサービスにアクセスするのを妨げる結果になってしまいます。 
@@ -57,28 +57,28 @@ Teams MSI はインストーラーを Program Files に配置します。 ユー
 - Windows 7 以降
 - 各ユーザー プロファイルに 3 GB のディスク容量 (推奨)
 
-### <a name="vdi-installation"></a>VDI のインストール
+### <a name="vdi-installation"></a>VDI インストール
 
-ここでは、チームのデスクトップ アプリケーションを展開するプロセスです。 完全なガイドは、[デスクトップ インフラストラクチャの仮想化チームの編成](teams-for-vdi.md)を参照してください。
+Teams デスクトップアプリを展開するプロセスを次に示します。 詳細なガイダンスについては、「仮想化された[デスクトップインフラストラクチャのチーム](teams-for-vdi.md)」を参照してください。
 
-1. 環境によっては、次のリンクのいずれかを使用してチームの MSI パッケージをダウンロードします。 64 ビット バージョンは、64 ビット ・ オペレーティング ・ システムと VDI の VM をお勧めします。
+1. 環境に応じて、次のいずれかのリンクを使用して Teams MSI パッケージをダウンロードします。 64ビットのオペレーティングシステムを搭載した VDI VM の64ビットバージョンをお勧めします。
 
-    - [32 ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [64 ビット バージョン](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
+    - [32ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
+    - [64ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-2. VDI の VM に msi ファイルをインストール (または更新を実行) するには、次のコマンドを実行します。
+2. MSI を VDI VM にインストールするには、次のコマンドを実行します (または完全な更新が必要です)。
 
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
 
-    チームのプログラム ファイルをインストールします。 この時点で、ゴールド ・ イメージのセットアップは完了です。
+    これにより、チームがプログラムファイルにインストールされます。 この時点で、ゴールデンイメージのセットアップが完了しています。
 
-    次の対話型ログオン セッションでは、チームを起動し、資格情報を要求します。 チームに VDI の ALLUSER プロパティを使用してインストールする場合は、チームの自動起動を無効にすることがないことに注意してください。
+    次の対話型ログオンセッションでは、チームが起動し、資格情報を求められます。 ALLUSERS プロパティを使って team を VDI にインストールする場合、Teams の自動起動を無効にすることはできないことに注意してください。
 
-3. VDI の VM から msi ファイルをアンインストールする (またはそれを更新するための準備) するには、次のコマンドを実行します。
+3. 次のコマンドを実行して、MSI を VDI VM からアンインストールします (または、更新の準備を行います)。
 
         msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
 
-    これは、プログラム ファイルからチームをアンインストールします。
+    これにより、プログラムファイルから Teams がアンインストールします。
 
 ## <a name="clean-up-and-redeployment-procedure"></a>クリーン アップと展開の手順
 

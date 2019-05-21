@@ -24,7 +24,7 @@ ms.locfileid: "32194679"
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Microsoft Teams クライアントの接続性の問題をトラブルシューティングする
 ==============================================================
 
-マイクロソフト チーム クライアントで検出された問題のほとんどは、ファイアウォールまたはプロキシへの接続に戻るトレースできます。 必要な Url、IP アドレスしポートをファイアウォールで開くまたはプロキシの不要なトラブルシューティングが最小限に抑えられますことを確認しています。 マイクロソフトのチームに必要な ip アドレスおよび Url の特定について[Office 365 の Url と IP アドレス](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)をサポート資料を参照してください。 次のシナリオでは、特定の Url とポートをファイアウォールで開く必要があります。
+Microsoft Teams クライアントで検出されたほとんどの問題は、ファイアウォールまたはプロキシ接続で追跡できます。 必要な Url、IP アドレス、ポートがファイアウォールまたはプロキシで開かれていることを確認することで、不要なトラブルシューティングを最小限に抑えることができます。 Microsoft Teams に必要な Url と IPs の詳細については、「 [Office 365 の url と Ip アドレス](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)のサポート」を参照してください。 次のシナリオでは、特定の Url とポートをファイアウォールで開く必要があります。
 
 -   認証
 

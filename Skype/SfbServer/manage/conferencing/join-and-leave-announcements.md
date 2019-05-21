@@ -1,27 +1,27 @@
 ---
-title: 会議の参加を管理し、お知らせの Skype ビジネス サーバーのままに
+title: Skype for Business Server で会議への参加とお知らせの脱退を管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: '概要: は、会議の参加を管理し、お知らせの Skype ビジネス サーバーのままにする方法を説明します。'
-ms.openlocfilehash: ace07fdc3325d97e443297265892e7bcc4bce562
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で会議の参加を管理する方法、およびお知らせを残す方法について説明します。'
+ms.openlocfilehash: 3d9a14e36dfe6b8df51e5ee91dd329ce34452cda
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919522"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283796"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>会議の参加を管理し、お知らせの Skype ビジネス サーバーのままに
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Skype for Business Server で会議への参加とお知らせの脱退を管理する
  
-**の概要:** 会議の参加を管理し、お知らせの Skype ビジネス サーバーのままにする方法を説明します。
+**概要:** Skype for Business Server で会議の参加を管理する方法、およびお知らせを残す方法について説明します。
   
-ダイヤルイン ユーザーは、参加または会議のままにして、会議アナウンス アプリケーションの開始を発表したり、音を再生するか、名前を言うまでに終了します。 Skype ビジネス サーバー管理シェルは、次のパラメーターを使用して**セット CsDialinConferencing**コマンドレットを使用して、お知らせがどのように動作を変更できます。
+ダイヤルインユーザーが会議に参加しているとき、会議に参加しているときに、会議アナウンスメントアプリケーションは、トーンを再生したり名前を言ったりして、開始または終了することができます。 次のパラメーターを使用して、Skype for Business Server 管理シェルと**Set-csダイヤルイン会議**コマンドレットを使用して、お知らせの動作方法を変更することができます。
   
 - EnableNameRecording - 会議に出席する前に名前を記録するよう匿名参加者に依頼するかどうかを指定します。既定値は "$true" で、これは、会議に出席するときに名前を言うように匿名参加者に求めることを意味します (認証された参加者の場合は、表示名が代わりに使用されるため、名前を記録しません)。
     
@@ -44,7 +44,7 @@ ms.locfileid: "33919522"
    Get-CsDialinConferencingConfiguration
    ```
 
-このコマンドレットでは、参加者が会議に参加するときに自分の名前を記録する必要がかどうかと、参加者の参加またはダイヤルイン会議のままにするときの Skype ビジネス サーバーの応答に関する情報を取得します。
+このコマンドレットは、参加者が会議に参加するときに名前を記録する必要があるかどうか、また、参加者がダイヤルイン会議に参加または退出したときに Skype for Business Server がどのように応答するかに関する情報を取得します。
     
 4. コマンド プロンプトで次のコマンドを実行します。
     
@@ -64,6 +64,6 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-詳細については、構文やパラメーターの完全なリストを含む[セット CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)を参照してください。
+構文とパラメーターの完全な一覧を含む詳細については、「 [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)」を参照してください。
   
 

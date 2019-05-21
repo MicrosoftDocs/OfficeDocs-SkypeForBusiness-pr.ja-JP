@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: サーフェスのハブのマイクロソフトのチームの管理の設定を構成します。
+description: Surface Hub 用の Microsoft Teams の管理者設定を構成します。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom:
@@ -28,69 +28,69 @@ ms.locfileid: "32204462"
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Surface Hub の Microsoft Teams を展開する
 ======================================
 
-サーフェスのハブのチームをインストールする前に、次の操作をすることを確認します。
+Surface Hub の Teams をインストールする前に、次の操作を行ってください。
 
- □ 作成ことを確認してハードウェア、オペレーティング システム、およびその他の要件が満たされています。 詳細については、 [Microsoft Surface ハブ管理者ガイド](https://docs.microsoft.com/surface-hub/)を参照してください。<br>
- □ がチームに必要な最低限のオペレーティング システムの更新プログラムがインストールされているを確認してください。 [KB4343889](https://support.microsoft.com/help/4343889)。<br>
- □ ハブ デバイスのアカウントをチームのライセンスを割り当てます。<br>
- □ は、Skype からのビジネス オンラインでは、処理中の場合に、チームのライセンスがユーザーに割り当てられていることを確認します。
+ □ハードウェア、オペレーティングシステム、その他の要件が満たされていることを確認します。 詳細については、「 [Microsoft Surface Hub 管理者ガイド](https://docs.microsoft.com/surface-hub/)」を参照してください。<br>
+ □ Teams に必要なオペレーティングシステムの最小更新プログラムがインストールされていることを確認します。 [KB4343889](https://support.microsoft.com/help/4343889)。<br>
+ □によって、Hub デバイスアカウントに Teams ライセンスが割り当てられます。<br>
+ □ Skype for Business Online から移行している場合は、Teams ライセンスがユーザーに割り当てられていることを確認します。
 
-## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Microsoft ストアからのサーフェスのハブのチームをインストールします。 
+## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Microsoft Store から Surface Hub の Teams をインストールする 
 
-これらは、Microsoft ストアからのサーフェスのハブのチームをインストールします。 
+この手順では、Microsoft Store から Surface Hub の Teams をインストールする方法について説明します。 
  
-1. マイクロソフトのストアを開始します。<br>
-   a. **スタート**をタップして > **すべてのアプリケーション** > **の設定**です。<br> b. **サーフェス ハブ デバイスのアカウント、管理**をタップします。<br>
-   c. 左側の [**アプリケーションの & の機能**] タブをタップします。<br> d. 、右側には、**ストアを開く**] ボタンをタップします。 
-2. マイクロソフト ストアからには、*マイクロソフトのチーム*を検索します。 **サーフェスのハブのマイクロソフトのチーム**が表示されます。 インストールする**アプリケーションを取得する**ボタンをタップします。  
-3. インストールが完了すると、サーフェスのハブを再起動します。 
+1. Microsoft Store を起動します。<br>
+   a. [ **** > **すべてのアプリ** > **設定**を開始] をタップします。<br> b. **[Surface Hub デバイスアカウント] の [管理] を**タップします。<br>
+   c. 左側の [**アプリ & の機能**] タブをタップします。<br> d. 右側の [**ストアを開く**] ボタンをタップします。 
+2. Microsoft Store で、 *Microsoft Teams*を検索します。 **Surface Hub 用の Microsoft Teams**が表示されます。 インストールするには、[**アプリの取得**] ボタンをタップします。  
+3. インストールが完了したら、Surface Hub を再起動します。 
 
 > [!NOTE]
-> ページを一覧表示するストアからの**起動**をタップしないようにします。
+> [ストア登録情報] ページから [**起動**] をタップしないでください。
 
-## <a name="make-teams-the-default-calling-and-meetings-application"></a>デフォルトの通話や会議アプリケーションは、チームを作成します。
+## <a name="make-teams-the-default-calling-and-meetings-application"></a>チームを既定の通話と会議アプリケーションとして設定する
  
-通話や会議アプリケーションの既定ポリシーを構成するための 2 つのオプションがあります。 
+既定の通話と会議のアプリケーションポリシーを構成するには、次の2つのオプションがあります。 
 
 - **オプション 1**: USB キーを使用して構成します。 
-- **オプション 2**: Intune などの MDM を使用して構成します。
+- **オプション 2**: Intune などの MDM 経由で構成する。
  
-### <a name="option-1-configure-via-usb-key"></a>オプション 1: は、USB キーを使用して構成します。 
+### <a name="option-1-configure-via-usb-key"></a>オプション 1: USB キーを使用して構成する 
  
-この[ダウンロード ページ](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g)で、パッケージをご覧ください。 適切なパッケージをインストールし、USB キーにコピーする予定しているを選択します。 正しい .ppkg ファイルを使用するのには、次のように適用するにはアプリケーションの既定のポリシーによって異なります。 
+パッケージはこの[ダウンロードページ](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g)で確認できます。 インストールを計画しているパッケージに適切なものを選び、USB キーにコピーします。 使用する正しい ppkg ファイルは、次のようにして適用する既定のアプリケーションポリシーによって異なります。 
 
 |数値  |説明  |
 |---------|---------|
-|0     | [開始] 画面で [チームの会議が利用可能な Skype 優先のアプリケーション        |
-|1     | チーム優先のアプリケーション起動画面で、利用可能な Skype の会議        |
-|2     | チームの排他的なアプリケーション (Skype アプリが利用できない) の開始画面        |
+|0     | スタート画面の Skype 優先アプリ、Teams 会議が利用可能        |
+|1     | スタート画面の Teams 優先アプリ、Skype 会議が利用可能        |
+|2     | スタート画面の Teams 排他アプリ (Skype アプリは利用できません)        |
  
-1. サーフェス ハブ デバイスに USB キーを接続します。 
-2. サーフェス ハブ デバイスの**設定**アプリを開きます。 
-3. **表面ハブ デバイスのアカウントの管理**を開きます。
-4. **デバイスの管理**を開きます。 
-5. **追加またはプロビジョニング ・ パッケージを削除する**] をクリックします。 
-6. **パッケージの追加**] をクリックします。
-7. ドロップ ダウン メニューから、[**リムーバブル メディア**] オプションを選択します。 
-8. 以前、USB キーにコピーされた適切な<strong>TeamsRTMMode*.ppkg</strong>パッケージを追加します。 
-9. サーフェス ハブ デバイスを再起動します。 
-10. デバイスを再起動した後は、開始画面から、チームのアプリケーションを起動し、カレンダーから会議に参加することができます。 
+1. USB キーを Surface Hub デバイスに接続します。 
+2. Surface Hub デバイスで [**設定**] アプリを開きます。 
+3. **Surface Hub デバイスアカウントの管理**を開きます。
+4. [**デバイス管理**] を開きます。 
+5. [**プロビジョニングパッケージの追加または削除] を**クリックします。 
+6. [**パッケージの追加**] をクリックします。
+7. ドロップダウンメニューから [**リムーバブルメディア**] オプションを選択します。 
+8. 以前に USB キーにコピーした適切な<strong>Teamsrtmmode *. ppkg</strong>パッケージを追加します。 
+9. Surface Hub デバイスを再起動します。 
+10. デバイスを再起動すると、スタート画面から Teams アプリを起動して、予定表から会議に参加できるようになります。 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>Intune などの MDM を使用してオプション 2: を構成します。 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>オプション 2: Intune などの MDM で構成する 
 
-Intune を使用して既定の通話や会議のアプリケーション ポリシーを構成するのにには、次を使用します。 [展開 Intune を使用してサーフェスのハブのアプリケーションのマイクロソフトのチーム](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/)のブログを参照してください。
+Intune で既定の通話と会議のアプリケーションポリシーを構成するには、次のようにします。 また、ブログをご覧になり、 [Intune を使って Microsoft Teams For Surface Hub アプリを展開](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/)してください。
 
 |設定   |値    |説明    |
 |----------|---------|---------|
 |Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
-|データ型 | 整数 (0-2)   |0 - [開始] 画面で [チームの会議が利用可能な Skype 優先のアプリケーション<br>1 のチーム開始画面で、Skype の会議が利用可能なアプリケーションを優先します。<br>2-チームは、開始画面 (Skype アプリケーションではありません排他的なアプリケーション |
-|操作| 取得、設定        |
+|データ型 | integer (0-2)   |0-Skype 優先アプリをスタート画面に表示し、Teams 会議を利用できるようにする<br>1-チーム優先アプリスタート画面で Skype 会議が利用可能<br>2-スタート画面の Teams 排他アプリ (Skype アプリは利用できません) |
+|操作| Get、Set        |
 
 |設定   |値    |
 |----------|---------|
 |Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|データ型 | 文字列 - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe としてチームのアプリケーション パッケージ ID に文字列を設定します。チーム** |
-|操作| 取得、設定        |
+|データ型 | string-MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe として Teams アプリケーションパッケージ ID に文字列を設定し**ます。Teams** |
+|操作| Get、Set        |
 
-サーフェス ハブ デバイスを再起動します。 デバイスを再起動した後は、開始画面から、チームのアプリケーションを起動し、カレンダーから会議に参加することができます。
+Surface Hub デバイスを再起動します。 デバイスを再起動すると、スタート画面から Teams アプリを起動して、予定表から会議に参加できるようになります。
 

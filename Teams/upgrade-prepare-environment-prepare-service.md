@@ -1,12 +1,12 @@
 ---
-title: マイクロソフト チームのアップグレードの準備します。 契約時の展開のチェックリスト
+title: Microsoft Teams のアップグレードの準備 | オンボードロールアウトのチェックリスト
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: このガイドを使用して、チームの展開とロールアウトのテナントを準備するのには
+description: このガイダンスを使用して、チームの展開とロールアウトのためにテナントを準備する
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -22,56 +22,56 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/11/2019
 ms.locfileid: "33885455"
 ---
-![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
+![技術的な準備段階に重点を置いたアップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
-この資料は、ユーザーの準備段階と並行して、完了したアクティビティ、アップグレード、旅の技術的な準備段階の一部です。 次に進む前に前の段階からこれらの活動を完了していることを確認します。
+この記事は、アップグレードが行われる技術準備段階の一部であり、ユーザーの準備段階と並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-service-for-upgrading-to-teams"></a>チームにアップグレードするため、サービスを準備します。
+# <a name="prepare-your-service-for-upgrading-to-teams"></a>Teams にアップグレードするためのサービスを準備する
 
-この資料では、コラボレーションやチームと音声サービスをクラウドの組織を準備するための要件の概要を示します。 正しく準備ができたら、組織にこれらの機能を提供する準備ができていることを確認のことができます。
+この記事では、チームで共同作業およびクラウドの音声サービスを利用できるように組織を準備するための要件の概要を示します。 適切に準備したら、これらの機能を組織に提供する準備ができていることを確認します。
 
-## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>マイクロソフト チームのロールアウトの契約時のチェックリスト
+## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトのオンボードチェックリスト
 
-次のチェックリストでは、組織でマイクロソフトのチームを配置するための手順を説明します。
+次のチェックリストは、組織に Microsoft Teams を展開するための手順について説明します。
 
-- [Office 365 のチームを準備します。](onboarding-checklist-enable-office-365.md)
+- [Teams 用の Office 365 を準備する](onboarding-checklist-enable-office-365.md)
 
-- [チームの中核的な機能を構成します。](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+- [Teams のコア機能を構成する](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-- [ネットワークを構成します。](onboarding-checklist-configure-networking.md)
+- [ネットワークを構成する](onboarding-checklist-configure-networking.md)
 
-- [チームで音声のワークロードをクラウドを構成します。](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Teams でクラウド音声のワークロードを構成する](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
-- [チームに直接ルーティングを構成します。](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Teams で直接ルーティングを構成する](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
 
-タスクとこれらのチェックリストでの作業は、コラボレーションやチームでのボイス機能のそれぞれの配置に適用されるコアの"to do"アイテムです。 活動と自分のチームの旅に特有のタスクを含むようにチェックリストをカスタマイズできます。
+これらのチェックリストのタスクとアクティビティは、チームとのコラボレーションと音声機能のすべての展開に適用される "to do" のコア項目です。 このチェックリストをカスタマイズして、自分のチームの旅に固有のアクティビティとタスクを含めることができます。
 
-個々 のアクティビティとタスクのステータスを追跡するために提供されているチェックリストを使用しの重要な手順をスキップしていないことを確認します。 各アクティビティには、必要なアクションとそのアクティビティを完了するのに使用できるその他の情報への参照の詳細な説明が含まれています。
+該当するチェックリストを使用して、個々のアクティビティとタスクの状態を追跡し、クリティカルステップをスキップしていないことを確認します。 各アクティビティには、必要なアクションの詳細な説明と、そのアクティビティを完了するために使用できる追加情報への参照が含まれています。
 
-順序のチェックリストを実行することをお勧めですが、展開と構成のスコープと環境の複雑さの厳密な順序によって異なります。 いずれか、"greenfield"をサポートするために整理されています、チームの展開 (ビジネス オンライン プレゼンスのない以前の Skype で 1 つ) または Skype からチームへのビジネスをオンラインでアップグレードします。 ビジネス オンラインの Skype からアップグレードする場合がすでに完了しているこれらの活動の一部と、それらをここで無視することができます。
+チェックリストは順番に従うことをお勧めしますが、正確な順序は展開の範囲と環境の構成と複雑さによって異なります。 これらのユーザーは、"から始め" Teams の展開 (以前の Skype for Business Online プレゼンスを持たないもの) または Skype for Business Online から Teams へのアップグレードのいずれかをサポートするように開催されています。 Skype for Business Online からアップグレードしている場合は、これらのアクティビティの一部を既に完了している可能性があります。これを無視することができます。
 
-サイトごとに契約時のユーザーが表示されたら、以下のチェックリストの補足ガイドとしては、[サイトの有効化の戦略 (戦略) の音声](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)を使用することを強く推奨します。
+サイトベースでユーザーをオンにしている場合は、これらのチェックリストのガイドとして、[サイトの有効化のためのプレイリスト (プレイリスト)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)を使用することを強くお勧めします。
 
 >[!NOTE]
->ほとんどの構成設定は、チームと Skype のオンライン ビジネスの間で共通です。 これらの設定を構成するのにには、マイクロソフト チームの管理センターを使用します。
+>ほとんどの構成設定は、Teams と Skype for Business Online で共通です。 Microsoft Teams 管理センターを使って、これらの設定を構成します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>契約時チェックリストの完了を監督する責任者がされますか。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>契約時のチェックリストをダウンロードしてください。</li><li>契約時チェックリストの項目の手順に従って、組織の展開計画を使用します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>オンボードチェックリストの完了を監督する担当者を教えてください。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>オンボードチェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボードのチェックリスト項目を段階的に操作します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="continue-onboarding"></a>契約時を継続します。
+## <a name="continue-onboarding"></a>オンボードを続行する
 
-このチェックリストを完了すると後、は、次の手順に進みます:[ユーザーのパイロットの実施](pilot-essentials.md)
+このチェックリストを完了したら、次の手順に進みます。[ユーザーパイロットの実施](pilot-essentials.md)
 
-[//]: # (@Turgay、筆者この次の段落、音声対応のクラウドであります。)
+[//]: # (@Turgay、この次の段落はクラウドの音声固有のものであるため、コメントアウトしました。)
 <!--
 As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site to cloud voice, and help ensure that you plan and execute important site-specific activities.
 -->

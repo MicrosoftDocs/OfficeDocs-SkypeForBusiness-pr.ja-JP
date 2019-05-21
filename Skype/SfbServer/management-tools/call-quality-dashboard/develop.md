@@ -1,38 +1,38 @@
 ---
-title: ビジネス サーバーで、Skype の通話品質のダッシュ ボードを作成します。
+title: Skype for Business Server の通話品質ダッシュボードの開発
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
-description: '概要: は、品質のダッシュ ボードを呼び出すためのソリューションを開発する方法を説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 9b7f1034439512a88792f6663b4ebb137bea1f6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: 通話品質ダッシュボードのソリューションを開発する方法について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: debb63a80bb4a5d9d02dc3364a063399eff74e13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897472"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274780"
 ---
-# <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバーで、Skype の通話品質のダッシュ ボードを作成します。
+# <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの開発
  
-**の概要:** 品質のダッシュ ボードを呼び出すためのソリューションを開発する方法について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**概要:** 通話品質ダッシュボードのソリューションを開発する方法について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。
   
-このトピックでは、ビジネス サーバーの Skype の開発ドキュメントの呼び出し品質ダッシュ ボード (救難) を示します。
+このトピックでは、Skype for Business Server の通話品質ダッシュボード (CQD) の開発マニュアルについて説明します。
   
-## <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバーで、Skype の通話品質のダッシュ ボードを作成します。
+## <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの開発
 
-救難を拡張し、カスタム開発を使用して、レポート作成の環境に統合できます。 
+CQD は、カスタム開発を使って、レポート環境に拡張して統合することができます。 
   
-Web Api の 2 つのセットは、(Api)、データをキューブ内のデータにアクセスして 1 つずつ (リポジトリ API) を通じてレポートのメタデータにアクセスするためです。 
+2種類の web Api が用意されています。キューブ内のデータ (データ Api を介して) にアクセスする方法と、レポートメタデータにアクセスする場合 (リポジトリ API 経由) があります。 
   
-- [通話品質のダッシュ ボード (救難) ビジネス サーバーの Skype でのデータ API](data-api.md)
+- [Skype for Business Server の通話品質ダッシュボード (CQD) のデータ API](data-api.md)
     
-- [リポジトリ API 呼び出し品質ダッシュ ボード (救難) ビジネス サーバーの Skype での](repository-api.md)
+- [Skype for Business Server の通話品質ダッシュボード (CQD) 用リポジトリ API](repository-api.md)
     
 - [CQD の開発サンプル](cqd-development-samples.md)
     
