@@ -1,10 +1,10 @@
 ---
-title: 応答グループ キューを新規作成または既存の編集
+title: 応答グループキューの新規作成または既存の編集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.RgsQueueEdit
@@ -12,64 +12,64 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 応答グループ キューは、エージェントが呼び出しに応答するまでの応答グループへの呼び出しを保持します。
-ms.openlocfilehash: cb1777a87e32baac6d2bbb13a692abcf59da5931
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 応答グループキューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。
+ms.openlocfilehash: 20a2066cbbece953e8f050919d8531f887f676ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891391"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292606"
 ---
-# <a name="response-groups-queue-create-new-or-edit-existing"></a><span data-ttu-id="23605-103">応答グループのキュー: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="23605-103">Response Groups Queue: Create New or Edit Existing</span></span>
+# <a name="response-groups-queue-create-new-or-edit-existing"></a><span data-ttu-id="3ec60-103">応答グループのキュー: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="3ec60-103">Response Groups Queue: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="23605-104">応答グループ キューは、エージェントが呼び出しに応答するまでの応答グループへの呼び出しを保持します。</span><span class="sxs-lookup"><span data-stu-id="23605-104">Response Group queues hold calls to a response group until an agent answers the call.</span></span>
+<span data-ttu-id="3ec60-104">応答グループキューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-104">Response Group queues hold calls to a response group until an agent answers the call.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="23605-105">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="23605-105">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="3ec60-105">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="3ec60-105">UI Reference</span></span>
 
-<span data-ttu-id="23605-106">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="23605-106">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="3ec60-106">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-106">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="23605-107">**名**各キューには、名前が必要です。</span><span class="sxs-lookup"><span data-stu-id="23605-107">**Name** Each queue must have a name.</span></span> <span data-ttu-id="23605-108">キューの内容を示す名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="23605-108">Type a descriptive name for the queue.</span></span>
+- <span data-ttu-id="3ec60-107">**名前**各キューには名前を付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="3ec60-107">**Name** Each queue must have a name.</span></span> <span data-ttu-id="3ec60-108">キューのわかりやすい名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-108">Type a descriptive name for the queue.</span></span>
 
-- <span data-ttu-id="23605-109">**説明**このフィールドは省略可能です。</span><span class="sxs-lookup"><span data-stu-id="23605-109">**Description** This field is optional.</span></span> <span data-ttu-id="23605-110">キューに関する追加情報を提供するのにには、それを使用します。</span><span class="sxs-lookup"><span data-stu-id="23605-110">Use it to provide additional details about the queue.</span></span>
+- <span data-ttu-id="3ec60-109">**説明**このフィールドは省略可能です。</span><span class="sxs-lookup"><span data-stu-id="3ec60-109">**Description** This field is optional.</span></span> <span data-ttu-id="3ec60-110">キューの追加情報を提供する場合に使用します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-110">Use it to provide additional details about the queue.</span></span>
 
-- <span data-ttu-id="23605-111">**グループ**キューに割り当てるエージェント グループを選択します。</span><span class="sxs-lookup"><span data-stu-id="23605-111">**Groups** Select the agent groups that you want to assign to the queue.</span></span> <span data-ttu-id="23605-112">エージェント グループを一覧に追加する**選択**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="23605-112">Click **Select** to add agent groups to the list.</span></span> <span data-ttu-id="23605-113">リストから選択されたエージェントのグループを削除する**削除**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="23605-113">Click **Remove** to delete the selected agent group from the list.</span></span>
+- <span data-ttu-id="3ec60-111">**グループ**キューに割り当てるエージェントグループを選択します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-111">**Groups** Select the agent groups that you want to assign to the queue.</span></span> <span data-ttu-id="3ec60-112">[**選択**] をクリックして、エージェントグループを一覧に追加します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-112">Click **Select** to add agent groups to the list.</span></span> <span data-ttu-id="3ec60-113">[**削除**] をクリックして、選択したエージェントグループを一覧から削除します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-113">Click **Remove** to delete the selected agent group from the list.</span></span>
 
-    <span data-ttu-id="23605-114">上下矢印キー選択したエージェントのグループを上下移動、ボックスの一覧でします。</span><span class="sxs-lookup"><span data-stu-id="23605-114">The up and down arrows move a selected agent group up and down in the list.</span></span> <span data-ttu-id="23605-115">エージェント グループの順序では、Skype のビジネス サーバーが利用可能なエージェントの検索順序に影響します。</span><span class="sxs-lookup"><span data-stu-id="23605-115">The order of agent groups affects the order in which Skype for Business Server searches for an available agent.</span></span> <span data-ttu-id="23605-116">一覧の最初のグループは、2 番目のグループというように続いて、利用可能なエージェントの最初検索されます。</span><span class="sxs-lookup"><span data-stu-id="23605-116">That is, the first group in the list is searched first for an available agent, followed by the second group, and so on.</span></span>
+    <span data-ttu-id="3ec60-114">上方向キーと下方向キーを押すと、選択したエージェントグループがリスト内で上下に移動します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-114">The up and down arrows move a selected agent group up and down in the list.</span></span> <span data-ttu-id="3ec60-115">エージェントグループの順序は、Skype for Business Server が利用可能なエージェントを検索する順序に影響します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-115">The order of agent groups affects the order in which Skype for Business Server searches for an available agent.</span></span> <span data-ttu-id="3ec60-116">つまり、リスト内の最初のグループは、利用可能なエージェントを検索し、次に2番目のグループを指定します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-116">That is, the first group in the list is searched first for an available agent, followed by the second group, and so on.</span></span>
 
-- <span data-ttu-id="23605-117">**キューのタイムアウトを有効にします。** まで保留中のエージェントが呼び出しに応答を呼び出し元の時間の最大期間を指定するには、このチェック ボックスを選択します。</span><span class="sxs-lookup"><span data-stu-id="23605-117">**Enable queue time-out** Select this check box to specify a maximum period of time for a caller to wait on hold before an agent answers the call.</span></span> <span data-ttu-id="23605-118">このオプションを選択する場合は、以下を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="23605-118">If you select this option, you also need to specify the following:</span></span>
+- <span data-ttu-id="3ec60-117">**キューのタイムアウトを有効にする**このチェックボックスをオンにすると、発信者が通話に応答するまでの間、保留が待機する最大時間を指定できます。</span><span class="sxs-lookup"><span data-stu-id="3ec60-117">**Enable queue time-out** Select this check box to specify a maximum period of time for a caller to wait on hold before an agent answers the call.</span></span> <span data-ttu-id="3ec60-118">このオプションを選択する場合は、次の項目も指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3ec60-118">If you select this option, you also need to specify the following:</span></span>
 
-  - <span data-ttu-id="23605-119">**タイムアウト期間 (秒)** 選択するか、エージェントが呼び出しに応答する前に、呼び出し元が待機する秒の最大数を入力します。</span><span class="sxs-lookup"><span data-stu-id="23605-119">**Time-out period (seconds)** Select or type the maximum number of seconds a caller can wait before an agent answers the call.</span></span>
+  - <span data-ttu-id="3ec60-119">**タイムアウト期間 (秒)** エージェントが通話に応答するまで待機できる最大時間 (秒数) を選択または入力します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-119">**Time-out period (seconds)** Select or type the maximum number of seconds a caller can wait before an agent answers the call.</span></span>
 
-  - <span data-ttu-id="23605-120">**呼び出しアクション**呼び出しがタイムアウトしたときに発生するアクションを選択します。選択内容は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="23605-120">**Call action** Select the action that occurs when a call times out. Your choices are:</span></span>
+  - <span data-ttu-id="3ec60-120">**通話アクション**通話がタイムアウトになったときに発生するアクションを選択します。以下の選択肢があります。</span><span class="sxs-lookup"><span data-stu-id="3ec60-120">**Call action** Select the action that occurs when a call times out. Your choices are:</span></span>
 
-  - <span data-ttu-id="23605-121">**[切断]**</span><span class="sxs-lookup"><span data-stu-id="23605-121">**Disconnect**</span></span>
+  - <span data-ttu-id="3ec60-121">**[切断]**</span><span class="sxs-lookup"><span data-stu-id="3ec60-121">**Disconnect**</span></span>
 
-  - <span data-ttu-id="23605-122">**ボイス メールに転送する\*\*\*\*SIP アドレス**でこのオプションを選択する場合は、形式の sip にボイス ・ メール ・ アドレスを入力:<username> @ <domainname> (sip:bob@contoso.com など)。</span><span class="sxs-lookup"><span data-stu-id="23605-122">**Forward to voice mail** If you select this option, in **SIP address**, type a voice mail address in the format sip:<username>@<domainname> (for example, sip:bob@contoso.com).</span></span>
+  - <span data-ttu-id="3ec60-122">**ボイスメールに転送する**このオプションを選択した場合は、[ **sip アドレス**] に「sip:<username> @ <domainname> 」という形式でボイスメールアドレスを入力します (たとえば、sip:bob@contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="3ec60-122">**Forward to voice mail** If you select this option, in **SIP address**, type a voice mail address in the format sip:<username>@<domainname> (for example, sip:bob@contoso.com).</span></span>
 
-  - <span data-ttu-id="23605-123">**電話番号に転送する**入力形式の sip の電話番号を**SIP アドレス**でこのオプションを選択した場合:<number> @ <domainname> (sip:+14255550121@contoso.com など)。</span><span class="sxs-lookup"><span data-stu-id="23605-123">**Forward to telephone number** If you select this option, in **SIP address** type the telephone number in the format sip:<number>@<domainname> (for example, sip:+14255550121@contoso.com).</span></span>
+  - <span data-ttu-id="3ec60-123">**電話番号に転送**このオプションを選択した場合、[ **sip アドレス**] に「sip:<number> @ <domainname> 」の形式で電話番号を入力します (たとえば、sip:+14255550121@contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="3ec60-123">**Forward to telephone number** If you select this option, in **SIP address** type the telephone number in the format sip:<number>@<domainname> (for example, sip:+14255550121@contoso.com).</span></span>
 
-  - <span data-ttu-id="23605-124">**SIP アドレスに転送する**他のユーザーへの呼び出しを転送するには、このオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="23605-124">**Forward to SIP address** Select this option to forward the call to another user.</span></span> <span data-ttu-id="23605-125">**SIP アドレス**を、sip の形式でユーザーの URI を入力:<username>@<domainname>。</span><span class="sxs-lookup"><span data-stu-id="23605-125">In **SIP address**, type the URI for the user in the format sip:<username>@<domainname>.</span></span>
+  - <span data-ttu-id="3ec60-124">**SIP アドレスに転送**通話を別のユーザーに転送する場合は、このオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-124">**Forward to SIP address** Select this option to forward the call to another user.</span></span> <span data-ttu-id="3ec60-125">[ **Sip アドレス**] に、ユーザーの URI を「sip:<username>@<domainname>」という形式で入力します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-125">In **SIP address**, type the URI for the user in the format sip:<username>@<domainname>.</span></span>
 
-  - <span data-ttu-id="23605-126">**別のキューに転送する**このオプションを選択する場合は、呼び出しのタイムアウトを受信する場合の呼び出しは、キューに参照します。</span><span class="sxs-lookup"><span data-stu-id="23605-126">**Forward to another queue** If you select this option, browse to the queue that is to receive calls when the calls time out.</span></span>
+  - <span data-ttu-id="3ec60-126">**別のキューに転送する**このオプションを選択した場合は、着信がタイムアウトになったときに着信を受け取るキューを参照します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-126">**Forward to another queue** If you select this option, browse to the queue that is to receive calls when the calls time out.</span></span>
 
-- <span data-ttu-id="23605-127">**キューのオーバーフローを有効にします。** キューが保持できる呼び出しの最大数を指定するには、このチェック ボックスを選択します。</span><span class="sxs-lookup"><span data-stu-id="23605-127">**Enable queue overflow** Select this check box to specify a maximum number of calls that the queue can hold.</span></span> <span data-ttu-id="23605-128">このオプションを選択する場合は、以下を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="23605-128">If you select this option, you also need to specify the following:</span></span>
+- <span data-ttu-id="3ec60-127">**キューのオーバーフローを有効にする**このチェックボックスをオンにすると、キューに保持できる通話の最大数が指定されます。</span><span class="sxs-lookup"><span data-stu-id="3ec60-127">**Enable queue overflow** Select this check box to specify a maximum number of calls that the queue can hold.</span></span> <span data-ttu-id="3ec60-128">このオプションを選択する場合は、次の項目も指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3ec60-128">If you select this option, you also need to specify the following:</span></span>
 
-  - <span data-ttu-id="23605-129">**呼び出しの最大数**選択するかの呼び出しは、キューが保持できる最大数を入力します。</span><span class="sxs-lookup"><span data-stu-id="23605-129">**Maximum number of calls** Select or type the maximum number of calls the queue can hold.</span></span>
+  - <span data-ttu-id="3ec60-129">**通話の最大数**キューに保持できる通話の最大数を選択または入力します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-129">**Maximum number of calls** Select or type the maximum number of calls the queue can hold.</span></span>
 
-  - <span data-ttu-id="23605-130">**呼び出しを転送します。** 呼び出しは、キューのオーバーフローしきい値が満たされたときにアクションを実行するを選択します。</span><span class="sxs-lookup"><span data-stu-id="23605-130">**Forward the call** Select which call is to take action when the queue overflow threshold is met.</span></span>
+  - <span data-ttu-id="3ec60-130">**通話を転送する**キューのオーバーフローしきい値に達したときにアクションを実行する呼び出しを選択します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-130">**Forward the call** Select which call is to take action when the queue overflow threshold is met.</span></span>
 
-  - <span data-ttu-id="23605-131">**呼び出しアクション**キューのオーバーフローしきい値に達したときに発生するアクションを選択します。</span><span class="sxs-lookup"><span data-stu-id="23605-131">**Call action** Select the action that occurs when the queue overflow threshold is met.</span></span> <span data-ttu-id="23605-132">選択内容は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="23605-132">Your choices are:</span></span>
+  - <span data-ttu-id="3ec60-131">**通話アクション**キューのオーバーフローしきい値に達したときに発生するアクションを選択します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-131">**Call action** Select the action that occurs when the queue overflow threshold is met.</span></span> <span data-ttu-id="3ec60-132">以下の選択肢があります。</span><span class="sxs-lookup"><span data-stu-id="3ec60-132">Your choices are:</span></span>
 
-  - <span data-ttu-id="23605-133">**[切断]**</span><span class="sxs-lookup"><span data-stu-id="23605-133">**Disconnect**</span></span>
+  - <span data-ttu-id="3ec60-133">**[切断]**</span><span class="sxs-lookup"><span data-stu-id="3ec60-133">**Disconnect**</span></span>
 
-  - <span data-ttu-id="23605-134">**ボイス メールに転送する\*\*\*\*SIP アドレス**でこのオプションを選択する場合は、形式の sip にボイス ・ メール ・ アドレスを入力:<username> @ <domainname> (sip:bob@contoso.com など)。</span><span class="sxs-lookup"><span data-stu-id="23605-134">**Forward to voice mail** If you select this option, in **SIP address**, type a voice mail address in the format sip:<username>@<domainname> (for example, sip:bob@contoso.com).</span></span>
+  - <span data-ttu-id="3ec60-134">**ボイスメールに転送する**このオプションを選択した場合は、[ **sip アドレス**] に「sip:<username> @ <domainname> 」という形式でボイスメールアドレスを入力します (たとえば、sip:bob@contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="3ec60-134">**Forward to voice mail** If you select this option, in **SIP address**, type a voice mail address in the format sip:<username>@<domainname> (for example, sip:bob@contoso.com).</span></span>
 
-  - <span data-ttu-id="23605-135">**電話番号に転送する**入力形式の sip の電話番号を**SIP アドレス**でこのオプションを選択した場合:<number> @ <domainname> (sip:+14255550121@contoso.com など)。</span><span class="sxs-lookup"><span data-stu-id="23605-135">**Forward to telephone number** If you select this option, in **SIP address** type the telephone number in the format sip:<number>@<domainname> (for example, sip:+14255550121@contoso.com).</span></span>
+  - <span data-ttu-id="3ec60-135">**電話番号に転送**このオプションを選択した場合、[ **sip アドレス**] に「sip:<number> @ <domainname> 」の形式で電話番号を入力します (たとえば、sip:+14255550121@contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="3ec60-135">**Forward to telephone number** If you select this option, in **SIP address** type the telephone number in the format sip:<number>@<domainname> (for example, sip:+14255550121@contoso.com).</span></span>
 
-  - <span data-ttu-id="23605-136">**SIP アドレスに転送する**他のユーザーへの呼び出しを転送するには、このオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="23605-136">**Forward to SIP address** Select this option to forward the call to another user.</span></span> <span data-ttu-id="23605-137">**SIP アドレス**を、sip の形式でユーザーの URI を入力:<username>@<domainname>。</span><span class="sxs-lookup"><span data-stu-id="23605-137">In **SIP address**, type the URI for the user in the format sip:<username>@<domainname>.</span></span>
+  - <span data-ttu-id="3ec60-136">**SIP アドレスに転送**通話を別のユーザーに転送する場合は、このオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-136">**Forward to SIP address** Select this option to forward the call to another user.</span></span> <span data-ttu-id="3ec60-137">[ **Sip アドレス**] に、ユーザーの URI を「sip:<username>@<domainname>」という形式で入力します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-137">In **SIP address**, type the URI for the user in the format sip:<username>@<domainname>.</span></span>
 
-  - <span data-ttu-id="23605-138">**別のキューに転送する**このオプションを選択する場合は、キューのオーバーフローしきい値に達したときに呼び出しを受信するキューを参照します。</span><span class="sxs-lookup"><span data-stu-id="23605-138">**Forward to another queue** If you select this option, browse to the queue that is to receive calls when the queue overflow threshold is met.</span></span>
+  - <span data-ttu-id="3ec60-138">**別のキューに転送する**このオプションを選択した場合は、キューのオーバーフローしきい値に達したときに、着信を受け取るキューを参照します。</span><span class="sxs-lookup"><span data-stu-id="3ec60-138">**Forward to another queue** If you select this option, browse to the queue that is to receive calls when the queue overflow threshold is met.</span></span>
 
-<span data-ttu-id="23605-139">応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバーの Skype で応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="23605-139">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="23605-140">キューの使用の詳細については、「操作」のドキュメントの「[Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="23605-140">For details about working with queues, see [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="3ec60-139">回答グループの機能の詳細については、計画ドキュメントの「 [Skype For Business Server での応答グループアプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3ec60-139">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="3ec60-140">キューの使用の詳細については、「操作」のドキュメントの「[Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3ec60-140">For details about working with queues, see [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
 
 

@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceRouteSelGateway
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
-description: 使用できる既存の樹幹を検索するのにには、トランクの選択] ダイアログ ボックスを使用します。
-ms.openlocfilehash: c250a8400842f4e0696d76c871c69e2899afb56b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[トランクの選択] ダイアログボックスを使用して、使用できる既存のトランクを検索します。'
+ms.openlocfilehash: bb441a94d8a55121b897623040323f544c6fcacd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929561"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293285"
 ---
-# <a name="select-trunk"></a><span data-ttu-id="9bde9-103">トランクの選択</span><span class="sxs-lookup"><span data-stu-id="9bde9-103">Select Trunk</span></span>
+# <a name="select-trunk"></a><span data-ttu-id="cf9ff-103">トランクの選択</span><span class="sxs-lookup"><span data-stu-id="cf9ff-103">Select Trunk</span></span>
  
-<span data-ttu-id="9bde9-104">使用できる既存の樹幹を検索するのにには、**トランクの選択**] ダイアログ ボックスを使用します。</span><span class="sxs-lookup"><span data-stu-id="9bde9-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
+<span data-ttu-id="cf9ff-104">**[トランクの選択**] ダイアログボックスを使用して、使用できる既存のトランクを検索します。</span><span class="sxs-lookup"><span data-stu-id="cf9ff-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="9bde9-105">使用可能なすべてのトランクを取得するは、[検索] ボックスには何も入力されず、検索アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="9bde9-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="cf9ff-105">使用可能なすべての trunks を取得するには、[検索] ボックスに何も入力せずに、[検索] アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="cf9ff-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
   
-<span data-ttu-id="9bde9-106">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9bde9-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="cf9ff-106">Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cf9ff-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

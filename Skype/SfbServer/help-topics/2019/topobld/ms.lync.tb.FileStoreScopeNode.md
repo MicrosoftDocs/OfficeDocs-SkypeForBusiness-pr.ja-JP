@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FileStoreScopeNode
@@ -13,27 +13,27 @@ localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、このファイル ストアの完全修飾ドメイン名 (FQDN) および依存プールが表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: 217309016d0397f2e44aabf092bc2b4e988755fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 924f0fa2c6be16d6504b53ca5ab5297018376710
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912247"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292718"
 ---
-# <a name="file-store-scope-node"></a><span data-ttu-id="7be33-104">ファイル ストア スコープ ノード</span><span class="sxs-lookup"><span data-stu-id="7be33-104">File Store Scope Node</span></span>
+# <a name="file-store-scope-node"></a><span data-ttu-id="a8c0c-104">ファイル ストア スコープ ノード</span><span class="sxs-lookup"><span data-stu-id="a8c0c-104">File Store Scope Node</span></span>
  
-<span data-ttu-id="7be33-p102">このノードには、このファイル ストアの完全修飾ドメイン名 (FQDN) および依存プールが表示されます。以下のアクションを実行できます。</span><span class="sxs-lookup"><span data-stu-id="7be33-p102">This node shows the fully qualified domain name (FQDN) and dependent pools for this file store. You can perform the following actions:</span></span>
+<span data-ttu-id="a8c0c-p102">このノードには、このファイル ストアの完全修飾ドメイン名 (FQDN) および依存プールが表示されます。以下のアクションを実行できます。</span><span class="sxs-lookup"><span data-stu-id="a8c0c-p102">This node shows the fully qualified domain name (FQDN) and dependent pools for this file store. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="7be33-p103">**プロパティの編集**。このサーバーの [**プロパティの編集**] ページを開きます。このページでは、FQDN とファイル ストア名を変更できます。</span><span class="sxs-lookup"><span data-stu-id="7be33-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN and file store name.</span></span>
+- <span data-ttu-id="a8c0c-p103">**プロパティの編集**。このサーバーの [**プロパティの編集**] ページを開きます。このページでは、FQDN とファイル ストア名を変更できます。</span><span class="sxs-lookup"><span data-stu-id="a8c0c-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN and file store name.</span></span>
     
-- <span data-ttu-id="7be33-p104">**削除**。トポロジからファイル ストアを削除します。</span><span class="sxs-lookup"><span data-stu-id="7be33-p104">**Delete**. Deletes the file store from the topology.</span></span>
+- <span data-ttu-id="a8c0c-p104">**削除**。トポロジからファイル ストアを削除します。</span><span class="sxs-lookup"><span data-stu-id="a8c0c-p104">**Delete**. Deletes the file store from the topology.</span></span>
     
-<span data-ttu-id="7be33-111">これらのオプションに加えて、次の一般的なタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="7be33-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="a8c0c-111">これらのオプションに加えて、次の一般的なタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="a8c0c-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="7be33-p105">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="7be33-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="a8c0c-p105">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="a8c0c-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="7be33-p106">**表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="7be33-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="a8c0c-p106">**表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="a8c0c-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="7be33-p107">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="7be33-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="a8c0c-p107">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="a8c0c-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

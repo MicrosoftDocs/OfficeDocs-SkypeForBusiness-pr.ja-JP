@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceAdhocTestSave
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
-description: 一時音声ルーティング テスト_ケースを保存するのには、[音声ルーティング テスト_ケース情報の保存] ダイアログ ボックスを使用できます。 [音声ルーティング テスト_ケース情報を保存、名前でこのテスト_ケースを指定し、[OK] をクリックする名前を入力します。
-ms.openlocfilehash: 9cc5ee41c16004c6667a7e3ff999a8108b2a7610
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[ボイスルーティングテストケース情報の保存] ダイアログボックスを使用して、一時的なボイスルーティングテストケースを保存できます。 [ボイスルーティングテストケース情報を保存する] で、このテストケースの名前を [名前] に入力し、[OK] をクリックします。'
+ms.openlocfilehash: c41b1369c623c73547ec14dd9fec511a7d0c6e2e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890775"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293663"
 ---
-# <a name="save-voice-routing-test-case-information"></a><span data-ttu-id="54c35-104">音声ルーティングのテスト ケース情報の保存</span><span class="sxs-lookup"><span data-stu-id="54c35-104">Save Voice Routing Test Case Information</span></span>
+# <a name="save-voice-routing-test-case-information"></a><span data-ttu-id="6b6b2-104">音声ルーティングのテスト ケース情報の保存</span><span class="sxs-lookup"><span data-stu-id="6b6b2-104">Save Voice Routing Test Case Information</span></span>
  
-<span data-ttu-id="54c35-105">ル音声ルーティング テスト_ケースを保存するのには、[\*\*音声ルーティング テスト_ケース情報の保存\*\*] ダイアログ ボックスを使用できます。</span><span class="sxs-lookup"><span data-stu-id="54c35-105">You can use the **Save Voice Routing Test Case Information** dialog box to save atemporary voice routing test case.</span></span> <span data-ttu-id="54c35-106">[**音声ルーティング テスト_ケース情報の保存**、**名前**でこのテスト_ケースを指定し、[ **OK**] をクリックする名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="54c35-106">In **Save Voice Routing Test Case Information**, type the name you want to give this test case in **Name** and then click **OK**.</span></span> 
+<span data-ttu-id="6b6b2-105">[**ボイスルーティングテストケース情報の保存**] ダイアログボックスを使用して、atemporary ボイスルーティングテストケースを保存できます。</span><span class="sxs-lookup"><span data-stu-id="6b6b2-105">You can use the **Save Voice Routing Test Case Information** dialog box to save atemporary voice routing test case.</span></span> <span data-ttu-id="6b6b2-106">[**ボイスルーティングテストケース情報を保存**する] で、このテストケースの名前を [**名前**] に入力し、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="6b6b2-106">In **Save Voice Routing Test Case Information**, type the name you want to give this test case in **Name** and then click **OK**.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="54c35-107">一時的なテスト_ケースを保存するときは、中央管理ストアにない保存されます。</span><span class="sxs-lookup"><span data-stu-id="54c35-107">When you save a temporary test case, you are not saving it to the Central Management store.</span></span> <span data-ttu-id="54c35-108">代わりに、ほうがテストの場合、[**音声ルーティング**] ページの [**音声ルーティングのテスト**] タブから利用可能です。</span><span class="sxs-lookup"><span data-stu-id="54c35-108">Instead, it makes the test case available from the **Test Voice Routing** tab of the **Voice Routing** page.</span></span> <span data-ttu-id="54c35-109">**Uncommitted**の状態のテスト_ケースが表示されます。</span><span class="sxs-lookup"><span data-stu-id="54c35-109">The test case will appear with a state of **Uncommitted**.</span></span> <span data-ttu-id="54c35-110">テスト_ケースを中央管理ストアに保存するには、**音声ルーティング**] ページで、[**操作**] メニューから**すべてのコミット**] をクリックして音声の構成をコミットする必要があります。</span><span class="sxs-lookup"><span data-stu-id="54c35-110">To save the test case to the Central Management store, you must commit the voice configuration by clicking **Commit All** from any **Action** menu within the **Voice Routing** page.</span></span>
+> <span data-ttu-id="6b6b2-107">一時的なテストケースを保存しても、全体管理ストアに保存されるわけではありません。</span><span class="sxs-lookup"><span data-stu-id="6b6b2-107">When you save a temporary test case, you are not saving it to the Central Management store.</span></span> <span data-ttu-id="6b6b2-108">代わりに、[**ボイスルーティング**] ページの [**テストボイスルーティング**] タブからテストケースを利用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="6b6b2-108">Instead, it makes the test case available from the **Test Voice Routing** tab of the **Voice Routing** page.</span></span> <span data-ttu-id="6b6b2-109">テストケースは、**未確定**の状態で表示されます。</span><span class="sxs-lookup"><span data-stu-id="6b6b2-109">The test case will appear with a state of **Uncommitted**.</span></span> <span data-ttu-id="6b6b2-110">テストケースを中央管理ストアに保存するには、[**音声ルーティング**] ページ内の任意の**アクション**メニューから [**すべてコミット**] をクリックして、音声構成をコミットする必要があります。</span><span class="sxs-lookup"><span data-stu-id="6b6b2-110">To save the test case to the Central Management store, you must commit the voice configuration by clicking **Commit All** from any **Action** menu within the **Voice Routing** page.</span></span>
   
  
   

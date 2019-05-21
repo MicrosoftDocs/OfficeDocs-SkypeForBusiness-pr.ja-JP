@@ -1,35 +1,35 @@
 ---
-title: ユーザーの移動ポリシーの表示
+title: ユーザーによるモバイルの表示ポリシー
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserViewMobility
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
-description: ビューのモビリティ ポリシー] ダイアログ ボックスは、選択されたモビリティ ポリシーのプロパティを表示します。
-ms.openlocfilehash: 27833337eb3aa73d2b388cf51f6e58bd9897c87c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[表示-モビリティポリシー] ダイアログに、選択したモバイルポリシーのプロパティが表示されます。'
+ms.openlocfilehash: ebf59784c7947c643bb98dc52d5a206dc78c02ca
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924249"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292187"
 ---
-# <a name="users-view-mobility-policy"></a><span data-ttu-id="47b17-103">ユーザー: モビリティ ポリシーの表示</span><span class="sxs-lookup"><span data-stu-id="47b17-103">Users: View Mobility Policy</span></span>
+# <a name="users-view-mobility-policy"></a><span data-ttu-id="666e7-103">ユーザー: モビリティ ポリシーの表示</span><span class="sxs-lookup"><span data-stu-id="666e7-103">Users: View Mobility Policy</span></span>
 
-<span data-ttu-id="47b17-104">**ビュー - モビリティ ポリシー**のダイアログ ボックスは、選択されたモビリティ ポリシーのプロパティを表示します。</span><span class="sxs-lookup"><span data-stu-id="47b17-104">The **View - Mobility Policy** dialog displays the properties of the selected mobility policy.</span></span>
+<span data-ttu-id="666e7-104">[**表示-モビリティポリシー** ] ダイアログに、選択したモバイルポリシーのプロパティが表示されます。</span><span class="sxs-lookup"><span data-stu-id="666e7-104">The **View - Mobility Policy** dialog displays the properties of the selected mobility policy.</span></span>
 
-<span data-ttu-id="47b17-105">モビリティ ポリシーの割り当ての詳細については、[ユーザーごとのモビリティ ポリシーを割り当てる](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)と[モビリティ ポリシーの構成](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="47b17-105">For details about assigning mobility policies, see [Assign a Per-User Mobility Policy](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) and [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).</span></span>
+<span data-ttu-id="666e7-105">モバイル機能ポリシーの割り当ての詳細については、「[ユーザーごとのモビリティポリシーの割り当て](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)と[モビリティポリシーの構成](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="666e7-105">For details about assigning mobility policies, see [Assign a Per-User Mobility Policy](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) and [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="47b17-106">関連項目</span><span class="sxs-lookup"><span data-stu-id="47b17-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="666e7-106">関連項目</span><span class="sxs-lookup"><span data-stu-id="666e7-106">See also</span></span>
 
-[<span data-ttu-id="47b17-107">モビリティの計画</span><span class="sxs-lookup"><span data-stu-id="47b17-107">Planning for Mobility</span></span>](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[<span data-ttu-id="666e7-107">モバイル機能の計画</span><span class="sxs-lookup"><span data-stu-id="666e7-107">Planning for Mobility</span></span>](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
-[<span data-ttu-id="47b17-108">モビリティを展開します。</span><span class="sxs-lookup"><span data-stu-id="47b17-108">Deploying Mobility</span></span>](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[<span data-ttu-id="666e7-108">モバイル機能の導入</span><span class="sxs-lookup"><span data-stu-id="666e7-108">Deploying Mobility</span></span>](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
 
-[<span data-ttu-id="47b17-109">モビリティ ポリシー</span><span class="sxs-lookup"><span data-stu-id="47b17-109">Mobility Policies</span></span>](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)
+[<span data-ttu-id="666e7-109">モバイル機能ポリシー</span><span class="sxs-lookup"><span data-stu-id="666e7-109">Mobility Policies</span></span>](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)
