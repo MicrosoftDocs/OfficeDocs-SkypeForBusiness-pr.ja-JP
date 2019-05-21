@@ -1,45 +1,45 @@
 ---
-title: ビジネス サーバーの Skype のレジストラー構成設定を管理します。
+title: Skype for Business Server でレジストラー構成設定を管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
-description: '概要: ビジネス サーバーの Skype のレジストラー構成設定を管理します。'
-ms.openlocfilehash: fdeca4389ffb64bd68cb3aee7ba6b28e979c5769
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のレジストラー構成設定を管理します。'
+ms.openlocfilehash: 4ad7815da0744a78cd72208ef390362bff26c2ce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901509"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291173"
 ---
-# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype のレジストラー構成設定を管理します。
+# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server でレジストラー構成設定を管理する
  
-**の概要:** ビジネス サーバーの Skype のレジストラー構成設定を管理します。
+**概要:** Skype for Business Server のレジストラー構成設定を管理します。
   
 レジストラーを使用してプロキシ サーバーの認証方式を構成できます。指定する認証プロトコルにより、プール内のサーバーがクライアントに発行するチャレンジの種類が決まります。使用可能なプロトコルは以下のとおりです。
   
-- **Kerberos**クライアントに利用可能な最も強力なパスワード ベースの認証スキームは、これが、通常、エンタープライズ クライアントにのみ使用可能なキー配布センター (Kerberos ドメイン コント ローラー) へのクライアント接続を必要とするため。 この設定は、サーバーでエンタープライズのクライアントのみを認証する場合に適しています。
+- **Kerberos**これは、クライアントが利用できる最強のパスワードベースの認証スキームですが、通常はエンタープライズクライアントでのみ利用できます。これは、キー配布センター (Kerberos ドメインコントローラー) へのクライアント接続が必要であるためです。 この設定は、サーバーでエンタープライズのクライアントのみを認証する場合に適しています。
     
-- **NTLM**つまり、パスワード ベースの認証、パスワードにチャレンジ応答型ハッシュ スキームを使用するクライアントに使用可能です。 これは、リモート ユーザーなど、キー配布センター (Kerberos ドメイン コントローラー) に接続できないクライアントの認証で使用できる唯一のクライアント認証方式です。 サーバーでリモート ユーザーのみの認証処理を行う場合は、NTLM を選択してください。
+- **NTLM**これはパスワードベースの認証であり、パスワードに関するチャレンジ応答ハッシュスキームを使用するクライアントで利用できます。 これは、リモート ユーザーなど、キー配布センター (Kerberos ドメイン コントローラー) に接続できないクライアントの認証で使用できる唯一のクライアント認証方式です。 サーバーでリモート ユーザーのみの認証処理を行う場合は、NTLM を選択してください。
     
-- **証明書認証**これは、サーバーは、Lync の電話のエディションのクライアント、共通領域電話、ビジネス用の Skype、Lync の Windows ストア アプリから証明書を取得する必要がある場合に、新しい認証方法です。 Lync の電話のエディションのユーザー署名し個人識別番号 (PIN)、ビジネスのサーバー用の Skype を提供することで正常に認証し、ビジネス サーバーの準備、Skype、電話に SIP URI を準備した後、クライアントの署名証明書またはジョーを識別するユーザーの証明書 (Ex: SN=joe@contoso.com) に電話します。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
+- **証明書の認証**これは、サーバーが Lync Phone Edition クライアント、一般的なエリア電話、Skype for Business、Lync Windows ストアアプリから証明書を取得する必要がある場合の新しい認証方法です。 Lync Phone Edition クライアントでは、ユーザーがサインインし、暗証番号 (PIN) を指定して認証に成功した後、Skype for Business Server は電話に対して SIP URI をプロビジョニングし、Skype for Business Server を署名します。証明書または Joe (Ex: SN=joe@contoso.com) を電話に識別するユーザー証明書。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
     
 > [!NOTE]
 > サーバーがリモートとエンタープライズ両方のクライアント認証をサポートする場合は、Kerberos と NTLM の両方を有効にすることをお勧めします。エッジ サーバーと内部サーバーは通信して、NTLM 認証のみがリモート クライアントに提供されるようにします。これらのサーバーで Kerberos のみが有効な場合、リモート ユーザーを認証できません。エンタープライズ ユーザーはサーバーに対しても認証を行い、Kerberos が使用されます。 
   
-Lync Windows ストア アプリケーションのクライアントを使用する場合は、証明書認証を有効にする必要があります。
+Lync Windows ストアアプリクライアントを使用する場合は、証明書の認証を有効にする必要があります。
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>レジストラー構成設定を作成するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
+1.  RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Skype for Business Server を展開したネットワーク内のコンピューターにログオンします。.
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。  
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**レジストラー**] をクリックします。
     
@@ -68,9 +68,9 @@ Lync Windows ストア アプリケーションのクライアントを使用す
   
 ### <a name="to-modify-existing-registrar-configuration-settings"></a>既存のレジストラー構成設定を変更するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
+1.  RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Skype for Business Server を展開したネットワーク内のコンピューターにログオンします。.
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。  
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**レジストラー**] をクリックします。
     
@@ -88,9 +88,9 @@ Lync Windows ストア アプリケーションのクライアントを使用す
     
 ### <a name="to-delete-registrar-configuration-settings"></a>レジストラー構成設定を削除するには
 
-1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
+1. RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Skype for Business Server を展開したネットワーク内のコンピューターにログオンします。.
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**レジストラー**] をクリックします。
     
@@ -100,9 +100,9 @@ Lync Windows ストア アプリケーションのクライアントを使用す
     
 6. [**OK**] をクリックします。
     
-## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してレジストラー構成設定を削除します。
+## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してレジストラー構成設定を削除する
 
-レジストラー構成設定を削除するには、Windows PowerShell と**削除 CsProxyConfiguration**コマンドレットを使用します。 ビジネス サーバー管理シェルの Skype とは Windows PowerShell のリモート セッションからは、このコマンドレットを実行することができます。 ビジネス サーバーの Skype に接続するリモートの Windows PowerShell を使用する詳細については、ブログ記事の[「クイック スタート:: を管理する Microsoft Lync サーバー 2010 を使用してリモート PowerShell」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 プロセスは、Skype のビジネス サーバーで同じです。
+レジストラーの構成設定は、Windows PowerShell と**CsProxyConfiguration**コマンドレットを使用して削除できます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「[クイックスタート: リモート PowerShell を使用した Microsoft Lync server 2010 の管理」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 このプロセスは、Skype for Business Server でも同じです。
   
 ### <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>レジストラーのセキュリティ設定の特定のセットを削除するには
 
@@ -128,6 +128,6 @@ Lync Windows ストア アプリケーションのクライアントを使用す
   Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
   ```
 
-詳細については、[削除 CsProxyConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csproxyconfiguration?view=skype-ps)を参照してください。
+詳しくは、「 [CsProxyConfiguration の削除](https://docs.microsoft.com/powershell/module/skype/remove-csproxyconfiguration?view=skype-ps)」をご覧ください。
   
 

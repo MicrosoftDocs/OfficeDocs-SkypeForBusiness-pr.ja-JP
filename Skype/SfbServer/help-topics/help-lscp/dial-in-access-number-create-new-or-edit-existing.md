@@ -1,11 +1,11 @@
 ---
-title: ダイヤルイン アクセス番号を新規作成または既存の編集
+title: ダイヤルインアクセス番号新規作成または既存の編集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfCAAEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: d2af5a39fa9ff3f113a1319ad81158eb8239bad7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3078b994380f9e589cf54ea735f224c9d02d2da6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913399"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285912"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>ダイヤルイン アクセス番号: 新規作成または現在の形式のままで編集
 

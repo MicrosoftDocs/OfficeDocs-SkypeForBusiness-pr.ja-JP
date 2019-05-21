@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddVisUsagePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
-description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバー 2015 のください。
-ms.openlocfilehash: 907f7a511e204ac1767a92e50b2f029462c2ccb9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Topology Builder で新しい VIS またはビデオゲートウェイを定義するために必要な手順は、「Skype for Business Server 2015 での VIS プールの作成」で説明しています。
+ms.openlocfilehash: fdf2d09f3c58d12efad942a5b3fd0a26f4ead5ba
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885682"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288804"
 ---
 # <a name="add-vis-usage"></a>VIS 使用法の追加
  
-トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順は「オンライン[ビジネス サーバー 2015 の Skype で VIS プールを作成します](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)。
+Topology Builder で新しい VIS またはビデオゲートウェイを定義するために必要な手順は、「 [Skype For Business Server 2015 での VIS プールの作成](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)」で説明しています。
   
-Windows PowerShell を使用して、サーバー上のビデオの相互運用機能のサーバーの役割を割り当てるために必要な手順をオンライン[ビジネス サーバー 2015 の Skype で VIS のサーバーの役割の展開](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)で説明します。
+Windows PowerShell を使用してサーバーにビデオ相互運用サーバーの役割を割り当てるために必要な手順は、「 [Skype For Business server 2015 の VIS Server の役割を展開する」](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)で説明しています。
   
-[ビジネス サーバー 2015 の Skype でビデオの相互運用機能のサーバーの構成](../../deploy/deploy-video-interop-server/configure-the-vis.md)にオンライン、Windows PowerShell を使用して、新しいビデオの相互運用機能サーバーの構成手順を説明します。
+Windows PowerShell を使用した新しいビデオ相互運用サーバーの構成手順については、「 [Skype For Business server 2015 でのビデオ相互運用サーバーの構成](../../deploy/deploy-video-interop-server/configure-the-vis.md)」を参照してください。
   
- [CUCM ビジネス サーバー 2015 の Skype での相互運用のために構成](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)にオンライン、VIS と相互運用のための Cisco GUI で設定する必要があるビデオ ゲートウェイの設定を説明します。
+ VIS との相互運用のために Cisco GUI で設定する必要があるビデオゲートウェイの設定は、「 [CUCM を Skype For Business Server 2015 との相互運用のために構成](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)する」で説明されています。
   
- [ビジネス サーバー 2015 の Skype での相互運用のため、VTC の構成](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)でオンライン、ビデオ ゲートウェイ、VIS との相互運用のための Cisco の GUI で設定する必要がある VTC の設定を説明します。
+ Cisco の GUI でビデオゲートウェイと VIS を相互運用できるように設定する必要がある VTC の設定については、「 [Skype For Business Server 2015 との相互運用用に VTC を構成](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)する」で説明しています。
   
 ## <a name="see-also"></a>関連項目
 

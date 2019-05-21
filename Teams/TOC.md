@@ -7,7 +7,8 @@
 
 <!-- ============================================================ -->
 
-# [はじめに](get-started-with-teams-quick-start.md)
+# はじめに
+## [概要](get-started-with-teams-quick-start.md)
 ## [ステップ 1: 最初のチームとチャネルを作成する](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [ステップ 2: 早期導入者を参加させる](get-started-with-teams-onboard-early-adopters.md)
 ## [ステップ 3: 利用状況とフィードバックを監視する](get-started-with-teams-monitor-usage-and-feedback.md)
@@ -15,8 +16,8 @@
 
 <!-- ============================================================ -->
 
-
-# [チャット、チーム、チャネルおよびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# チャット、チーム、チャネルおよびアプリ
+## [展開の計画](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [チームとチャネルの概要](teams-channels-overview.md)
 ## [Microsoft Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
@@ -30,8 +31,9 @@
 
 
 
+## アプリ、ボットとコネクタ
 
-## [アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)
+### [概要](deploy-apps-microsoft-teams-landing-page.md)
 ### [アプリのアクセス許可と考慮事項](app-permissions.md)
 ### [Teams でのアプリの管理設定](admin-settings.md)
 ### [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
@@ -45,8 +47,8 @@
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
 
-
-## [ゲスト アクセス](guest-access.md)
+## ゲスト アクセス
+### [概要](guest-access.md)
 ### [ゲストがチームに参加する方法](guest-joins.md)
 ### [ゲストのエクスペリエンスについて](guest-experience.md)
 ### [Teams でのゲスト アクセスを承認する](teams-dependencies.md)
@@ -60,7 +62,8 @@
 
 ## [外部アクセス (フェデレーション)](manage-external-access.md)
 
-## [Teams の管理](using-admin-roles.md)
+## Teams の管理
+### [管理者ロール](using-admin-roles.md)
 ### [組織のMicrosoft Teams の設定を管理します](enable-features-office-365.md)
 ### [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 ### [Microsoft Teams 管理センターで Teams を管理する](manage-teams-in-modern-portal.md)
@@ -71,7 +74,9 @@
 ### [別の組織の Teams ユーザーとの通信](let-your-teams-users-communicate-with-other-people.md)
 ### [インライン メッセージの翻訳の使用](inline-message-translation-teams.md)
 ### [Microsoft Teams の範囲指定ディレクトリ検索を使用する](teams-scoped-directory-search.md)
-### [Microsoft Teams 管理センターでの Teams の分析とレポート](teams-analytics-and-reports/teams-reporting-reference.md)
+
+### Microsoft Teams 管理センターでの Teams の分析とレポート
+#### [概要](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams の使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams のデバイス使用状況レポート](teams-analytics-and-reports/device-usage-report.md)
@@ -82,8 +87,8 @@
 
 <!-- ============================================================ -->
 
-
-# [会議および通信会議](deploy-meetings-microsoft-teams-landing-page.md)
+# ミーティングと会議
+## [展開の計画](deploy-meetings-microsoft-teams-landing-page.md)
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
 ## [会議ポリシーを管理する](meeting-policies-in-teams.md)
 ## [会議の設定を管理する](meeting-settings-in-teams.md)
@@ -98,7 +103,8 @@
 ## [Microsoft Teams ミーティング](room-systems/index.md)
 
 
-## [電話会議](deploy-audio-conferencing-teams-landing-page.md)
+## 電話会議
+### [展開の計画](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Office 365 における電話会議](audio-conferencing-in-office-365.md)
 ### [電話会議に関するよくある質問](audio-conferencing-common-questions.md)
@@ -117,11 +123,14 @@
 #### [電話会議の電話番号のリストを表示する](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [電話会議の自動案内の言語を設定する](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 
+
 ### [組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-#### [分数ごと従量課金制電話会議](audio-conferencing-pay-per-minute.md)
 
+### [分数ごと従量課金制電話会議](audio-conferencing-pay-per-minute.md)
 
-### [ユーザーの電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+### ユーザーの電話会議の設定を管理する
+
+#### [概要](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 #### [電話会議が有効になっているユーザーのリストを表示する](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
 
@@ -149,7 +158,9 @@
 #### [電話会議でサポートされている言語](audio-conferencing-supported-languages.md)
 
 #### [電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)
-#### [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+#### 国および地域ごとの電話会議および通話プランの利用可能性
+##### [概要](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ##### [アルゼンチン](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 ##### [オーストラリア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 ##### [Austria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -262,8 +273,8 @@
 <!-- ============================================================ -->
 
 
-
-# [クラウド ボイス](cloud-voice-landing-page.md)
+# クラウド ボイス 
+## [展開の計画](cloud-voice-landing-page.md)
 ## 電話システム
 ### [電話システムとは](what-is-phone-system-in-office-365.md)
 ### [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
@@ -279,7 +290,7 @@
 ### 自動応答と呼び出しキュー 
 #### [クラウド自動応答とは](what-are-phone-system-auto-attendants.md)
 #### [クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
-#### [小規模ビジネスの例: 自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [小規模ビジネスの例: 自動応答をセットアップする](tutorial-org-aa.yml)
 #### [小規模ビジネスの例 - 呼び出しキューをセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Microsoft Teams のリソースのアカウントの管理](manage-resource-accounts.md)
 #### [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
@@ -289,12 +300,15 @@
 ### [通話ポリシー](teams-calling-policy.md)
 ### [回線共有機能](shared-line-appearance.md)
 
-## [通話プラン](calling-plan-landing-page.md)
-### [Office 365 の通話プラン](calling-plans-for-office-365.md)
+
+## 通話プラン
+### [どの通話プランが適していますか?](calling-plan-landing-page.md)
+### [通話プランを購入する方法](calling-plans-for-office-365.md)
 ### [組織の通話プランをセットアップする](set-up-calling-plans.md)
 ### [クイック スタート ガイド: 通話プランの構成](configuring-teams-calling-quickstartguide.md)
 
-## [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
+## 電話システムのダイレクト ルーティング
+### [概要](direct-routing-landing-page.md)
 ### [ダイレクト ルーティングを計画する](direct-routing-plan.md)
 ### [ダイレクト ルーティングを構成する](direct-routing-configure.md)
 ### [ダイレクト ルーティングに移行する](direct-routing-migrating.md)
@@ -319,11 +333,9 @@
 ## 電話番号
 ### [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [通話プランで使用される電話番号の種類](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-### [ユーザー用の電話番号を取得する](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [ユーザー用の電話番号を取得する](getting-phone-numbers-for-your-users.md)
 ### [取得できる電話番号の数について](how-many-phone-numbers-can-you-get.md)
-### [ユーザーの電話番号を検索する](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [組織の電話番号のリストを表示する](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [ユーザーの電話番号を割り当て、変更、または削除する](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [ユーザーの電話番号を割り当て、変更、または削除する](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [サービス電話番号を取得する](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)
 ### [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
@@ -341,7 +353,9 @@
 
 
 ## リファレンス
-### [通話プランが利用可能な国と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### 国および地域ごとの通話プランの利用可能性
+
+#### [概要](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [アルゼンチン](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [オーストラリア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 #### [Austria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -441,7 +455,8 @@
 #### [米国での電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 
-### [無料電話ダイヤルの制限事項](toll-free-dialing-limitations-and-restrictions.md)
+### 無料電話ダイヤルの制限事項と制約事項
+#### [概要](toll-free-dialing-limitations-and-restrictions.md)
 #### [アルゼンチン](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [オーストラリア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [ベラルーシ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
@@ -532,20 +547,27 @@
 
 
 <!-- ============================================================ -->
-# [導入](adopt-microsoft-teams-landing-page.md) 
+# 導入
 
+## [概要](adopt-microsoft-teams-landing-page.md) 
 ## [はじめに](teams-adoption-get-started.md)
-## [フェーズ 1: 開始](teams-adoption-phase1.md)
+
+## フェーズ 1: 開始
+### [開始](teams-adoption-phase1.md)
 ### [チームとチャネルについて理解する](teams-adoption-understand-teams-and-channels.md)
 ### [最初のチームを作成する](teams-adoption-your-first-teams.md)
 ### [Teams に対する組織の準備状況について](teams-adoption-assess-readiness.md)
-## [フェーズ 2: 試用](teams-adoption-phase2-experiment.md)
+
+## フェーズ 2: 試用
+### [試用](teams-adoption-phase2-experiment.md)
 ### [主導者プログラムを作成する](teams-adoption-create-champions-program.md)
 ### [クイック スタートのガバナンス](teams-adoption-governance-quick-start.md)
 ### [使用例を定義する](teams-adoption-define-usage-scenarios.md)
 ### [アーリー アダプターに関与してフィードバックを収集する](teams-adoption-onboard-early-adopters.md)
 ### [参加サポート](teams-adoption-onboard-support.md)
-## [フェーズ 3: スケール](teams-adoption-phase3-enable.md)
+
+## フェーズ 3: スケール
+### [スケール](teams-adoption-phase3-enable.md)
 ### [結果と成功を定義する](teams-adoption-define-outcomes.md)
 ### [フィードバックとレポートを最適化する](teams-adoption-optimize-feedback-and-reporting.md)
 ### [啓発とトレーニングの実施](teams-adoption-drive-awareness.md)
@@ -599,6 +621,7 @@
 ### [Microsoft StaffHub はまもなく廃止予定です](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [現場担当者の管理機能が間もなくMicrosoft Teamsに登場](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Microsoft StaffHub PowerShell モジュールをインストールする](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
+### [レポートを実行してアクティブな StaffHub の使用状況を表示する](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Microsoft StaffHub のチームを Teams の Shifts に移動する](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Teams で組織のシフト アプリを管理する](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -615,6 +638,7 @@
 ### [教育機関向けの Teams の課題 ](expand-teams-across-your-org/assignments-in-teams.md)
 ### [教育機関管理者向けの Teams のリソース](resources-teams-edu.md)
 ### [Microsoft Education のガバナンスに関するよくある質問 (管理者向け)](plan-teams-governance-edu.md)
+### [Moodle の統合をインストールする](install-moodle-integration.md)
 
 ## [小売店向けの Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [小売店向けテンプレートでTeamsを始めましょう](get-started-with-retail-teams-templates.md)
@@ -663,6 +687,7 @@
 ### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
 ### [仮想デスクトップ インフラストラクチャ (VDI) 用の Teams](teams-for-vdi.md)
 ### [Surface Hub の Teams を展開する](teams-surface-hub.md)
+### [Teams クライアントの更新プロセス](teams-client-update.md)
 
 ## ライセンス
 ### [Teams へのユーザー アクセスを管理する](user-access.md)
@@ -699,8 +724,8 @@
 ### [会議室のデバイスとソリューション](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business Online 対応の電話機](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
-## [セキュリティとコンプライアンス](security-compliance-overview.md)
+## セキュリティとコンプライアンス
+### [概要](security-compliance-overview.md)
 ### [Teams の情報障壁 ](information-barriers-in-teams.md)
 ### [Teams のコンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
 ### [Teams での ID モデルと認証](identify-models-authentication.md)
@@ -708,7 +733,9 @@
 ### [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
 ### [Teams でイベントの監査ログを検索する](audit-log-events.md)
 ### [Teams のコンテンツ検索を使用する](content-search.md)
-### [Teams の保持ポリシー](retention-policies.md)
+### [Teams の AppLocker アプリケーション コントロール ポリシー](applocker-in-teams.md)
+### Teams の保持ポリシー
+#### [概要](retention-policies.md)
 #### [保持ポリシーに関するよくある質問](retention-policies-FAQ.md)
 #### [保持ポリシーに関する既知の問題](retention-policies-known-issues.md)
 ### [Teams のデータの場所](location-of-data-in-teams.md)
@@ -739,8 +766,10 @@
 #### [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [通話品質ダッシュボードでのストリームの分類](stream-classification-in-call-quality-dashboard.md)
 
-## [Teams での PowerShell の概要](teams-powershell-overview.md)
-### [Teams の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+## Teams の PowerShell
+### [概要](teams-powershell-overview.md)
+### [Teams のコマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Teams の開発者向けドキュメント](https://docs.microsoft.com/microsoftteams/platform)
-## [Microsoft Teams でヘルプを利用する](get-help-in-microsoft-teams.md)
+## [チームのヘルプを表示する](get-help-in-microsoft-teams.md)
+## [Teams のコンテンツ アップデート](teams-updates.md)

@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainDomainPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
-description: 'ビジネス サーバーのユーザーのビジネス サーバー 2015 または Skype の Skype を実行しているホスト サーバーにドメインを準備するには、手順 5 を完了する必要があります: 準備現在のドメイン、ドメインの準備の実行に使用するセットアップのトピックで説明されているようです。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
-ms.openlocfilehash: 80ee047bd6c5f8ca7b153beb5c45efea953af6ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Skype for Business Server 2015 または Skype for Business Server ユーザーを実行しているホストサーバーにドメインを準備するには、「セットアップを使用してドメインの準備を行う」の説明に従って、「手順 5: 現在のドメインを準備する」を完了する必要があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
+ms.openlocfilehash: 93fef28bdcaa720f1adcf893ec634dbe8f373780
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888829"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283879"
 ---
 # <a name="prepare-current-domain"></a>現在のドメインの準備
 
-ビジネス サーバーのユーザーのビジネス サーバー 2015 または Skype の Skype を実行しているホスト サーバーにドメインを準備するのには行う必要があります**手順 5: 現在のドメインを準備する**、[ドメインの準備を実行するセットアップを使用して](https://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx)トピックの説明します。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
+Skype for Business Server 2015 または Skype for Business Server ユーザーを実行しているホストサーバーにドメインを準備するには、「[セットアップを使用してドメインの準備を](https://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx)行う」の説明に従って、「**手順 5: 現在のドメインを準備**する」を完了する必要があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
 
-1. ビジネス サーバー 2015 インストール フォルダーまたはメディアの Skype、ビジネス サーバーの展開ウィザードは、Skype を起動するのには、Setup.exe を実行します。
+1. Skype for Business Server 2015 のインストールフォルダーまたはメディアから setup.exe を実行して、Skype for Business Server 展開ウィザードを開始します。
 
 2. [**Active Directory の準備**] をクリックして、展開状態が判別されるまで待ちます。
 
@@ -32,9 +32,9 @@ ms.locfileid: "33888829"
 
 4. [**コマンドの実行**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。
 
-5. [**アクション**] 列で、**ドメインの準備**] を探して、**\<成功\>** ドメインの準備が正常に完了したことを確認して、ログを閉じるし、[**完了**] をクリックする各タスクの最後に実行の結果です。
+5. [**アクション**] 列で、[**ドメインの準備**] を展開し、各タスクの最後に** \<成功\> **の実行結果を探して、ドメインの準備が正常に完了したことを確認します。次に、[**完了**] をクリックします。
 
 > [!TIP]
-> ビジネス サーバーの展開ウィザードは、Skype によって作成されるログ ファイルを確認する必要がある場合、は、展開ウィザードの実行の手順を実行した Active Directory ドメイン サービスのユーザーのユーザー ディレクトリ内のコンピューターでそれらを検索できます。 たとえば、ユーザー Contoso.net のドメインのドメイン管理者としてログインしている場合、ログ ・ ファイル内にある: C:\Users\Administrator.Contoso\AppData\Local\Temp。
+> Skype for Business Server 展開ウィザードによって作成されたログファイルを確認する必要がある場合は、この手順を実行した Active Directory ドメインサービスユーザーの Users ディレクトリで展開ウィザードが実行されたコンピューターで確認できます。 たとえば、ユーザーがドメイン Contoso.net のドメイン管理者としてログインしている場合、ログファイルは C:\Users\Administrator.Contoso\AppData\Local\Temp. にあります。
 
 

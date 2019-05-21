@@ -1,11 +1,11 @@
 ---
-title: フェデレーション ドメインを新規作成または既存の編集
+title: フェデレーションドメイン新規作成または既存の編集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtDomainEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 29f95b5c4ef166e383165f1799e1316c8fb912d9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 83d4275f395ea2cc1135a75877ca58fe6e0df728
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920265"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285814"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>フェデレーション ドメイン: 新規作成または現在の形式のままで編集
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FrontEndServersScopeNode
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: '[Enterprise Edition フロントエンドのプール] ノードには、このサイトのフロントエンドのプールが一覧表示され、[Standard Edition フロントエンド サーバー] ノードには、このサイトの Standard Edition サーバーが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: e18561e6b065f464255c072908d5cdb6be456cc9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 612c46f828ce3f2396d501b8b3ab81b02adf5b46
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888654"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284383"
 ---
 # <a name="front-end-servers-scope-node"></a>フロントエンド サーバー スコープ ノード
  

@@ -5,42 +5,42 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
-description: '[モビリティ ポリシーの編集] ダイアログ ボックスでは、モビリティ ポリシーの詳細を編集できます。'
-ms.openlocfilehash: de739a52f4bf62e3a57058f7c58ac843ae7b63c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[モビリティーポリシーの編集] ダイアログボックスで、モバイル機能ポリシーの詳細を編集できます。'
+ms.openlocfilehash: 8cffac19cd91fd90e93035d3ef705a254958aa98
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901537"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285856"
 ---
 # <a name="edit-client-mobility-policy"></a>クライアント モビリティ ポリシーの編集
 
-[**モビリティ ポリシーの編集**] ダイアログ ボックスでは、モビリティ ポリシーの詳細を編集できます。
+[**モビリティーポリシーの編集**] ダイアログボックスで、モバイル機能ポリシーの詳細を編集できます。
 
 ## <a name="ui-reference"></a>UI リファレンス
 
 以下は、ページ上のメニュー、コマンド、フィールド、およびプロパティについての説明です。
 
 
-- **コミット**ポリシーの設定に変更を保存する] をクリックします。
+- **Commit**ポリシー設定の変更を保存するには、をクリックします。
 
-- **キャンセル**ポリシーの編集を停止し、ポリシーの設定に加えた変更を破棄する] をクリックします。
+- **キャンセル**ポリシーの編集を終了し、ポリシー設定に加えた変更を破棄するには、をクリックします。
 
-- **名**モビリティ ポリシーの名前。
+- **名前**モバイル機能ポリシーの名前です。
 
-- **説明**モビリティ ポリシーの説明です。
+- **説明**モバイル機能ポリシーの説明です。
 
-モビリティ ポリシーに関する詳細については、[モビリティ ポリシー](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)を参照してください。
+モビリティポリシーの詳細については、「[モバイルポリシー](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)」をご覧ください。
 
 ## <a name="see-also"></a>関連項目
 
-[モビリティの計画](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[モバイル機能の計画](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
-[モビリティを展開します。](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[モバイル機能の導入](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: インストールし、Skype のビジネス サーバーのビジー状態のオプションを構成する方法の詳細を表示します。
-ms.openlocfilehash: 5e68dd61ce668a80ccbdeb3faae5875825992650
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server で取り込み中のオプションをインストールして構成する方法について説明します。
+ms.openlocfilehash: 13f529ddd7bd3b83f9d065599d3a213662da31a4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892364"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281602"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Skype for Business Server の通話中オプションのインストールおよび構成
 
-インストールし、Skype のビジネス サーバーのビジー状態のオプションを構成する方法の詳細を表示します。
+Skype for Business Server で取り込み中のオプションをインストールして構成する方法について説明します。
 
 通話中オプションは、2016 年 7 月の累積更新プログラムで導入された新たなボイス ポリシーで、ユーザーが通話中や会議中の場合、または通話を保留にしている場合の着信処理方法を構成することができます。 着信があった場合に、話中音を流すかボイスメールに転送できます。
 
@@ -38,7 +38,7 @@ ms.locfileid: "33892364"
 
 ## <a name="install"></a>インストール 
 
-ビジネス サーバーがインストールされている Skype の最新バージョンがあるし、最新の修正プログラムがインストールされていることを確認してください。 これを行うには、最初にすべてのサービスを停止および次のようにビジネス サーバー更新プログラムのインストーラーは、Skype を実行します。
+最新バージョンの Skype for Business Server がインストールされていて、最新の更新プログラムがインストールされていることを確認してください。 これを行うには、まずすべてのサービスを停止してから、次のようにして Skype for Business Server 更新プログラムのインストーラーを実行します。
 
 1. Stop-CsWindowsService コマンドを実行する。
 
@@ -48,7 +48,7 @@ ms.locfileid: "33892364"
 
 インストーラーによって通話中オプション アプリケーションの最新バージョンが展開されますが、アプリケーションは既定で有効ではありません。次の手順で有効にします。
 
-1. グローバル オプションを有効に使用中の次の例のように[セット CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps)コマンドレットを実行するには。
+1. 次の例に示すように、 [CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps)コマンドレットを実行して、ビジーオプションをグローバルに有効にします。
 
    ```
    Set-CsVoicePolicy -EnableBusyOptions $true
@@ -56,13 +56,13 @@ ms.locfileid: "33892364"
 
 2. 次に、サイトにボイス ポリシーがある場合は、次のようにボイス ポリシー用の通話中オプションを有効にします。
 
-    最初に、サイトの名前を取得する[Get CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)を実行します。
+    最初に、 [](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) [次へ] を実行して、サイトの名前を取得します。
 
    ```
    Get-CsSite
    ```
 
-    Id 値を使用して、(例: サイト: Redmond1) 次のように、サイトの音声ポリシーを取得する Get の CsSite から取得します。
+    Redmond1 サイトから取得した Id 値 (例: Site:) を使用して、次のようにサイトの音声ポリシーを取得します。
 
    ```
    Get-CsVoicePolicy -Identity Site:Redmond1
@@ -74,22 +74,22 @@ ms.locfileid: "33892364"
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. 次に、次の例のように、サーバー アプリケーションの一覧に使用中のオプションを追加するのには[新規 CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps)コマンドレットを実行します。
+3. 次に、[新しい-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps)コマンドレットを実行して、次の例に示すように、サーバーアプリケーションの一覧に取り込み中のオプションを追加します。
 
    ```
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
-    > %Fqdn を特定のプールの完全修飾ドメイン名で置き換える必要があります。
+    > % FQDN% は、特定のプールの完全修飾ドメイン名に置き換える必要があります。
 
-4. 次に、次の例に示すように使用中のオプションのコマンドレットの役割に基づくアクセス制御 (RBAC) 役割を更新する[更新プログラム CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps)コマンドレットを実行します。
+4. 次に、次の例に示すように、[更新プログラム] と [ [CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) ] のコマンドレットを実行して、Busy オプションのコマンドレットの役割ベースのアクセス制御 (RBAC) の役割を更新します。
 
    ```
    Update-CsAdminRole
    ```
 
-5. 最後に、ビジー状態のオプションがインストールされ、[開始 CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps)コマンドを実行して有効になっているすべてのプール内のすべてのフロント エンド サーバーを Windows サーバーのビジネス サービスの Skype を起動します。
+5. 最後に、Busy オプションがインストールされて有効になっているすべてのプール内のすべてのフロントエンドサーバーで、Skype for Business [](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) Server の Windows サービスを開始します。次の操作を実行します。
 
    ```
    Start-CsWindowsService
@@ -111,7 +111,7 @@ Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-[Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) cmdlet を使用して、通話中オプションに関する構成情報を取得できます。 次の例では、"KenMyer@Contoso.com"の使用中のオプション設定を返します。
+[Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) cmdlet を使用して、通話中オプションに関する構成情報を取得できます。 次の例では、"KenMyer@Contoso.com" の [取り込み中] オプションの設定を返します。
 
 ```
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
@@ -123,7 +123,7 @@ Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
-ビジー状態のオプションを構成するのにを使用するコマンドレットの詳細については、[セット CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)、 [Get CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)、および[削除 CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)のテクニカル リファレンスの内容を参照してください。
+Busy のオプションを構成するために使用するコマンドレットの詳細については、「 [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)、 [CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)、および[Remove](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)のテクニカルリファレンスコンテンツ」を参照してください。
 
 ## <a name="enable-logging"></a>ログの有効化
 
@@ -139,7 +139,7 @@ New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3}
 
 ## <a name="verify-and-troubleshoot"></a>確認とトラブルシューティング
 
-ビジー状態のオプションをインストールすると、サーバー アプリケーションの一覧を取得する[Get CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps)コマンドレットを使用して、インストールが成功したことを確認できます。 通話中オプションが正しくインストールされていれば、通話中オプション構成が次のように表示されます。
+[取り込み中] オプションをインストールした後、ユーザーが正常にインストールされたことを確認するには、 [CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps)コマンドレットを使用してサーバーアプリケーションの一覧を取得します。 通話中オプションが正しくインストールされていれば、通話中オプション構成が次のように表示されます。
 
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
@@ -152,4 +152,4 @@ ScriptName :
 Script     :
 </pre>
 
-ビジー状態のオプションのインストールが正常に完了したことと、Skype ビジネス サーバーがビジー状態のオプションを正常に読み込まれたことを確認するのに Windows イベント ビューアーを使用することもできます。 ビジー状態のオプションを確認するには、開く**イベント ビューアー -\>アプリケーションとサービス ログの\>Skype (または Lync) サーバー**およびイベント ID を検索する = 30253。
+また、Windows イベントビューアーを使用して、取り込み中のオプションが正常にインストールされたこと、および Skype for Business Server で [取り込み中] オプションが正常に読み込まれたことを確認することもできます。 取り込み中のオプションを確認するには、イベントビューアーを開きます。 **\>アプリケーションとサービスログ\> -Skype (または Lync) サーバー**で、イベント ID = 30253 を検索します。

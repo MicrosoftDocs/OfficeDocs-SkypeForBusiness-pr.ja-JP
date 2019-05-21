@@ -1,10 +1,10 @@
 ---
-title: ビジネス用の Skype のユーザーのコール パークを有効にします。
+title: Skype for Business のユーザーに対してコールパークを有効にする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,27 +13,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: ビジネス サーバーのエンタープライズ VoIP のユーザーが Skype のコール パークを有効にします。
-ms.openlocfilehash: 228ff5549487df04a264ed217bed43196d93ca8d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice でのコールパークのユーザーを有効にします。
+ms.openlocfilehash: 326b1156ea3b300301b46324d90dbc7dde088b3d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892469"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291589"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business"></a>ビジネス用の Skype のユーザーのコール パークを有効にします。
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>Skype for Business のユーザーに対してコールパークを有効にする
  
-ビジネス サーバーのエンタープライズ VoIP のユーザーが Skype のコール パークを有効にします。
+Skype for Business Server Enterprise Voice でのコールパークのユーザーを有効にします。
   
-既定では、すべてのユーザーに対してコール パークが無効になります。 ユーザーが呼び出しを駐車または音声ポリシーでコール パークの有効になるまで停止の呼び出しを取得できません。
+既定では、すべてのユーザーに対して [コールパーク] が無効になっています。 ユーザーは、音声ポリシーでのコールパークが有効になるまで、通話をパークしたり、保留中の通話を取得したりすることはできません。
   
-グローバル スコープまたはサイト スコープまたはユーザー スコープで、コール パークを有効にできます。 ユーザー スコープはサイト スコープより優先され、サイト スコープはグローバル スコープよりも優先されます。 複数のボイス ポリシーがある場合は、コール パーク、グローバル ポリシーだけではなくを有効にするすべてのポリシーを確認します。
+グローバルスコープまたはサイトのスコープまたはユーザーの範囲で、通話パークを有効にすることができます。 ユーザー スコープはサイト スコープより優先され、サイト スコープはグローバル スコープよりも優先されます。 複数のボイスポリシーがある場合は、グローバルポリシーだけでなく、すべてのポリシーを確認してコールパークを有効にします。
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>ユーザーに対してコール パークを有効にするビジネス サーバーのコントロール パネルの Skype を使用するには
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Skype for Business Server コントロールパネルを使用して、ユーザーに対してコールパークを有効にするには
 
 1. **RTCUniversalServerAdmins** グループのメンバーとしてコンピューターにログオンするか、**CsVoiceAdministrator**、**CsServerAdministrator**、または **CsAdministrator** 管理者役割のメンバーとしてコンピューターにログオンします。
     
-2. Skype をビジネス サーバーのコントロール パネルを開きます。
+2. Skype for Business Server コントロールパネルを開きます。
     
 3. 左側のナビゲーション バーで [**音声ルーティング**] をクリックします。
     
@@ -45,7 +45,7 @@ ms.locfileid: "33892469"
     
 7. [**OK**] をクリックして音声ポリシーを保存します。
     
-### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>ユーザーのコール パークを有効にするコマンドレットを使用するには
+### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>コマンドレットを使用してユーザーのコールパークを有効にするには
 
 1. RTCUniversalServerAdmins グループのメンバーとしてコンピューターにログオンするか、CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator 管理者役割のメンバーとしてコンピューターにログオンします。
     
@@ -57,7 +57,7 @@ ms.locfileid: "33892469"
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    たとえば、既定のグローバル音声ポリシーのコール パークを有効にします。
+    たとえば、既定のグローバルボイスポリシーのコールパークを有効にするには、次のようにします。
     
    ```
    Set-CsVoicePolicy -EnableCallPark $true
@@ -67,5 +67,5 @@ ms.locfileid: "33892469"
 
 
 
-[作成し、音声ポリシーを変更または Skype ビジネスのために PSTN 使用法レコードを構成します。](voice-policy-and-pstn-usage-records.md)
+[Skype for Business で音声ポリシーを作成または変更し、PSTN 使用状況レコードを構成する](voice-policy-and-pstn-usage-records.md)
 

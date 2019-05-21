@@ -1,10 +1,10 @@
 ---
-title: Skype のビジネス サーバーのセキュリティ デスクが含まれます
+title: Skype for Business Server にセキュリティデスクを追加する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-description: ビジネス サーバーのエンタープライズ VoIP の Skype で、~ 9-1-1 の展開で、組織のセキュリティ デスクを追加する方法を計画します。
-ms.openlocfilehash: d52d5dcd1c7cfb0cbb9db16740734b0171b44449
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice で、組織のセキュリティデスクを E9 の展開に含める方法を計画しています。
+ms.openlocfilehash: 7be3533879f36c897d148194345e1496945359b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913471"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276455"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server"></a>Skype のビジネス サーバーのセキュリティ デスクが含まれます
+# <a name="include-the-security-desk-in-skype-for-business-server"></a>Skype for Business Server にセキュリティデスクを追加する
  
-ビジネス サーバーのエンタープライズ VoIP の Skype で、~ 9-1-1 の展開で、組織のセキュリティ デスクを追加する方法を計画します。
+Skype for Business Server Enterprise Voice で、組織のセキュリティデスクを E9 の展開に含める方法を計画しています。
   
 会社によっては、セキュリティ デスクを緊急通話と関連させる必要があるかもしれません。セキュリティ デスクを E9-1-1 の展開に統合する方法を決定するには、以下の内容を検討する必要があります。
   
 **緊急電話をセキュリティ デスクに通知するか。**
   
-Skype ビジネス サーバーの 1 つまたは複数のセキュリティ担当者のアドレスをビジネスの SIP の Skype にインスタント メッセージング (IM) の通知を送信できるよう、場所のポリシーを構成できます。 これらの通知には、緊急電話を発信した人物の名前、番号、および場所が含まれており、セキュリティ担当者による緊急事態の支援を容易にします。
+Skype for Business Server がインスタントメッセージ (IM) の通知を Skype for Business SIP アドレスに送信するように、場所のポリシーを構成することができます。 これらの通知には、緊急電話を発信した人物の名前、番号、および場所が含まれており、セキュリティ担当者による緊急事態の支援を容易にします。
     
 **緊急電話ごとにセキュリティ デスクと協議するか。**
   

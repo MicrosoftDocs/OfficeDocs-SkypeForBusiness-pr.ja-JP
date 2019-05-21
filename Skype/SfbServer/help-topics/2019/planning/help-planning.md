@@ -3,24 +3,24 @@ title: 計画のヘルプ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
-ms.date: 1/1/1900
-manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
+manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2287aef6-c7b6-4170-9d4d-e1e54e5236b5
-description: 計画ツールに関するトピック
-ms.openlocfilehash: 21106c8eb595b2280ef7f92cf0ad40451e41528f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ROBOTS: NOINDEX, NOFOLLOW
+description: 計画ツールのトピック
+ms.openlocfilehash: 50a9deb86ff242f3808dea2ab88ae3c1f089acdf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890411"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290582"
 ---
 # <a name="help-planning"></a>計画のヘルプ
  
-このノードのトピックでは、サーバーのビジネス ・ プランニング ・ ツールを Skype のヘルプを提供します。
+このノードのトピックは、Skype for Business Server planning tool のヘルプを提供します。
   
 
   

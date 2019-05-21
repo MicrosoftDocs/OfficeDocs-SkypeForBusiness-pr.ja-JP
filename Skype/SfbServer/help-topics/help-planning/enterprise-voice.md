@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/6/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.EnterpriseVoice
@@ -13,18 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
-description: エンタープライズ VoIP のは、ビジネス サーバー 2015 の Skype は、拡張または置換の従来の構内交換 (機 PBX) システムを提供するスタンドアロンのボイス オーバー インターネット プロトコル (VoIP) を提供します。 エンタープライズ VoIP ユーザーは、組織の VoIP ネットワークや PBX、仕事仲間を呼び出すことができ、組織外の従来の電話番号を呼び出すことができます。 エンタープライズ VoIP ソリューションには、回答などの一般的な通話機能が含まれています、転送、転送、保持、そらす、リリース、駐車、および強化された 9-1-1 (~ 9-1-1) の呼び出し (~ 9-1-1 は、米国でのみ使用可能です)。エンタープライズ VoIP には、現在および以前の ip アドレスと USB デバイスの広い範囲がサポートされています。
-ms.openlocfilehash: b8cd12d73537a8938db7bd52fbb3cec65f4ef869
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: エンタープライズ Voip では、Skype for Business Server 2015 は、従来の構内交換 (PBX) システムを強化または交換するための、スタンドアロンのボイスオーバーインターネットプロトコル (VoIP) サービスを提供します。 エンタープライズボイスユーザーは、組織の VoIP ネットワークまたは PBX で同僚に通話を発信したり、組織外の従来の電話番号に通話したりすることができます。 エンタープライズ Voip ソリューションには、回答、forward、transfer、hold、転送すれば、release、パークなどの一般的な通話機能、強化された 9-1-1 (E9) 通話 (E9 は米国でのみ利用可能) が含まれています。エンタープライズボイスは、さまざまな現在および古い IP デバイスと USB デバイスもサポートしています。
+ms.openlocfilehash: 0441e71886dbf4c7972be115a35180786180ee44
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894992"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281537"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  
-エンタープライズ VoIP のは、ビジネス サーバー 2015 の Skype は、拡張または置換の従来の構内交換 (機 PBX) システムを提供するスタンドアロンのボイス オーバー インターネット プロトコル (VoIP) を提供します。 エンタープライズ VoIP ユーザーは、組織の VoIP ネットワークや PBX、仕事仲間を呼び出すことができ、組織外の従来の電話番号を呼び出すことができます。 エンタープライズ VoIP ソリューションには、回答などの一般的な通話機能が含まれています、転送、転送、保持、そらす、リリース、駐車、および強化された 9-1-1 (~ 9-1-1) の呼び出し (~ 9-1-1 は、米国でのみ使用可能です)。エンタープライズ VoIP には、現在および以前の ip アドレスと USB デバイスの広い範囲がサポートされています。
+エンタープライズ Voip では、Skype for Business Server 2015 は、従来の構内交換 (PBX) システムを強化または交換するための、スタンドアロンのボイスオーバーインターネットプロトコル (VoIP) サービスを提供します。 エンタープライズボイスユーザーは、組織の VoIP ネットワークまたは PBX で同僚に通話を発信したり、組織外の従来の電話番号に通話したりすることができます。 エンタープライズ Voip ソリューションには、回答、forward、transfer、hold、転送すれば、release、パークなどの一般的な通話機能、強化された 9-1-1 (E9) 通話 (E9 は米国でのみ利用可能) が含まれています。エンタープライズボイスは、さまざまな現在および古い IP デバイスと USB デバイスもサポートしています。
   
-エンタープライズ VoIP の計画の詳細については、 [Skype のビジネス サーバー 2015 でエンタープライズ VoIP の計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)を参照してください。 スタンドアロンの仲介サーバーを展開する方法の詳細については、 [Skype のビジネス サーバー 2015 でトポロジ ビルダーでの仲介サーバーの展開](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)を参照してください。
+エンタープライズ Voip の計画の詳細については、「 [Skype For Business Server 2015 でのエンタープライズ voip の計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)」を参照してください。 スタンドアロンの仲介サーバーの展開について詳しくは、「 [Skype For Business server 2015 でのトポロジビルダーへの仲介サーバーの展開](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)」をご覧ください。
   
 

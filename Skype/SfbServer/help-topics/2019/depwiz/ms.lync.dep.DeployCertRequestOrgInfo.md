@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestOrgInfo
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 組織の情報ウィンドウを使用すると、組織と証明書を要求する組織単位 (OU) (通常の事業部や部門) の名前を指定できます。 組織および組織単位] ボックスに入力した情報は、証明書に表示され、他のユーザーが証明書を表示したときに、証明書を要求ユーザーの識別に使用します。
-ms.openlocfilehash: 6b2c944cfee475847430af44e77e5289a7afb3df
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[組織情報] ウィンドウでは、組織の名前と、証明書を要求する組織単位 (OU) (通常は部門または部門) を指定できます。 組織および組織単位のテキストボックスに入力した情報は証明書に表示され、証明書の要求者が他のユーザーに表示されたときに、その証明書の要求者を識別するために使用されます。'
+ms.openlocfilehash: b4d448fb99c98371e364d15bb18c16a91ab0f3d5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893806"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292816"
 ---
 # <a name="certificate-request-organization-information"></a>証明書要求 (組織情報)
  
-**組織の情報**ウィンドウを使用すると、組織と証明書を要求する組織単位 (OU) (通常の事業部や部門) の名前を指定できます。 **組織**および**組織単位**] ボックスに入力した情報の証明書の表示し、を識別するため他のユーザーが証明書を表示したときに、証明書を要求しました。
+[**組織情報**] ウィンドウでは、組織の名前と、証明書を要求する組織単位 (OU) (通常は部門または部門) を指定できます。 **組織**および**組織単位**のテキストボックスに入力した情報は証明書に表示され、証明書の要求者が他のユーザーに表示されたときに、その証明書の要求者を識別するために使用されます。
   
 > [!NOTE]
-> OU、証明書の名前は必ずしも Active Directory ドメイン サービスの OU と同じです。 Active Directory を構成する方法によってを使用する可能性があります。 または同じことができません。 
+> 証明書の OU 名は、Active Directory ドメインサービスの OU と同じであるとは限りません。 Active Directory を設定した方法に応じて、使用する名前が同じであっても、同じであってもかまいません。 
   
 

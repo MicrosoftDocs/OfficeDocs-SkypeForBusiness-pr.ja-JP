@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: ここでは、Skype for Business Server 2015 の累積的な更新プログラム (2015 年 11 月) で回線共有機能 (SLA) を展開する方法について説明します。SLA は、共有番号と呼ばれる特定の電話番号で複数の通話を処理するための機能です。
-ms.openlocfilehash: bbdb5de985e44c0c3a0484605857485823457674
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 04efe0a0b3ae9e89576ca2d52ce45861cde68a9d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892651"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291180"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で回線共有機能を展開する
 
@@ -28,11 +28,11 @@ ms.locfileid: "33892651"
 
 この機能の詳細については、「 [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)」を参照してください。
 
-2015年 11 月はビジネス サーバーでは、Skype の新機能、共有行の外観 (SLA) 累積的な更新です。 この機能を有効にするには、まずこの累積的な更新プログラムを展開しておく必要があります。
+共有線の外観 (SLA) は、2015年11月の累積更新プログラムである、Skype for Business Server の新機能です。 この機能を有効にするには、まずこの累積的な更新プログラムを展開しておく必要があります。
 
 ### <a name="install-shared-line-appearance"></a>回線共有機能のインストール
 
-1. ビジネス サーバー、2015年 11 月累積的な更新を展開すると、Skype の後を実行、 `SkypeServerUpdateInstaller.exe` 、プール内のそれぞれのフロント エンド サーバーに修正プログラムです。
+1. Skype for Business Server、2015年11月の累積更新プログラムが展開`SkypeServerUpdateInstaller.exe`された後、プールの各フロントエンドサーバーで修正プログラムを実行します。
 
 2. インストーラーによって SLA アプリケーションの最新バージョンが展開されますが、アプリケーションは既定で有効ではありません。以下の手順で有効にします。
 
@@ -77,7 +77,7 @@ ms.locfileid: "33892651"
     Set-CsSlaConfiguration を使用して、新しい SLA グループの作成や既存の SLA グループの変更を行うことができます。
 
     > [!NOTE]
-    > 何に指定することに注意してください`-Identity`既存ユーザーのエンタープライズ VoIP を有効にしたアカウントを有効にする必要があります。
+    > 指定する対象は、有効`-Identity`な既存のエンタープライズボイス対応ユーザーアカウントである必要があることに注意してください。
 
 2. [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) コマンドレットを使用して、グループに代理人を追加します。
 
@@ -86,7 +86,7 @@ ms.locfileid: "33892651"
           <NameOfDelegate@domain>
    ```
 
-    次の例では、SLA グループにユーザーを追加しています。 グループに追加する各ユーザーは、有効なエンタープライズ VoIP が有効なユーザーである必要があります。
+    次の例では、SLA グループにユーザーを追加しています。 グループに追加される各ユーザーは、有効なエンタープライズボイス対応ユーザーである必要があります。
 
    ```
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
@@ -102,7 +102,7 @@ ms.locfileid: "33892651"
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
-    電話番号 202-555-1234 に転送するのには、同時呼び出しの最大数を超える呼び出しを設定する例を次にします。 ターゲットは、電話番号の代わりに、組織内のユーザーである可能性があります。転送された呼び出しを受信する人のための構文は、代理人を指定する場合と同じ場合は、: `sip:<NameofDelegate@domain>`。 他の可能なパラメーターの`BusyOption`、 `Voicemail`。
+    次の例では、電話番号202-555-1234 に転送される同時通話の最大数を超える通話を設定します。 ターゲットは、電話番号ではなく組織内のユーザーの場合もあります。この場合、転送された通話を受け取るユーザーの構文は、代理人`sip:<NameofDelegate@domain>`を指定した場合と同じです。 その他のパラメーターに`BusyOption`は`Voicemail`、次のパラメーターがあります。
 
   ```
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
@@ -116,7 +116,7 @@ ms.locfileid: "33892651"
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
    ```
 
-2. 次の例は、不在着信がという名前のユーザーに転送されることを指定します。 `sla_forward_number`。 有効なオプション、`-MissedCallOption`パラメーターは、 `Forward`、 `BusySignal`、または`Disconnect`。 選択する場合は、`Forward`も含める必要があります、 `-MissedCallForwardTarget` 、パラメーター、ユーザーまたは電話番号、ターゲットとして。
+2. 次の例では、不在着信を、という名前`sla_forward_number`のユーザーに転送することを指定します。 `-MissedCallOption`パラメーターの有効なオプションは`Forward`、、 `BusySignal`、また`Disconnect`はです。 を選択`Forward`した場合は、次の`-MissedCallForwardTarget`ように、ユーザーまたは電話番号のパラメーターも指定する必要があります。
 
    ```
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com

@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/10/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
-description: Lync Server ノードには、トポロジでは、セントラル サイトが一覧表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: b3405913d2c35ab1118f822a7512ecb26ed4e12d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lync Server ノードには、トポロジのセントラルサイトが一覧表示されます。 以下のアクションを実行できます。
+ms.openlocfilehash: b8b42ac2997d734e7c87584ce94090e0341911f9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910313"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291264"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server ルート スコープ ノード
  
-**Lync Server**ノードには、トポロジでは、セントラル サイトが一覧表示されます。 以下のアクションを実行できます。
+**Lync Server**ノードには、トポロジのセントラルサイトが一覧表示されます。 以下のアクションを実行できます。
   
 - **新しいセントラル サイト**。トポロジに新しいセントラル サイトを追加するときに使用する、新しいセントラル サイトの定義ウィザードを起動します。
     
@@ -34,13 +34,13 @@ ms.locfileid: "33910313"
     
 - **トポロジのダウンロード**。中央管理ストアから現在展開されているトポロジを読み込みます。既にトポロジを定義しており中央管理ストアを設定している場合は、常にこのオプションを選択してトポロジを読み込む必要があります。
     
-- **トポロジのコピーを名前を付けて保存する**。 現在のトポロジをトポロジ ビルダーで後でもう一度読み込むことができるファイルに保存します。
+- **トポロジのコピーを名前を付けて保存する**。 現在のトポロジをファイルに保存します。これは、後でトポロジビルダーで読み込むことができます。
     
 - **トポロジの公開**。サーバーの展開を開始できるよう、このトポロジを中央管理ストアに公開します。
     
 - **データベースのインストール**。展開に必要なデータベースを作成できます。
     
-- **Office Communications Server 2007 R2 トポロジのマージ**。 トポロジ ビルダー マージ ウィザードを起動します。 このツールは、エッジ サーバーの情報を含む、以前、Office Communications Server 環境に関する情報を収集し、共有データベースにその情報を公開します。 
+- **Office Communications Server 2007 R2 トポロジのマージ**。 トポロジ ビルダー マージ ウィザードを起動します。 このツールは、Microsoft の Office Communications Server 環境に関する情報を収集します (Edge Server の情報を含む)。その情報を共有データベースに発行します。 
     
 - **展開の削除**。展開全体の削除を開始するための、展開削除ウィザードを起動します。
     

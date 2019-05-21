@@ -5,42 +5,42 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPersistentChatComplianceStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
-description: 永続的なチャット サーバーまたはコンプライアンス機能の永続的なチャット サーバーのデータベースを提供する SQL Server の格納に準拠を構成するとします。
-ms.openlocfilehash: 02caeac7641cd592f6ca16d1e739253b0f48a30d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 常設チャットサーバーまたは常設チャットサーバーのコンプライアンス機能のデータベースを提供するコンプライアンス SQL Server ストアを構成します。
+ms.openlocfilehash: 79d7351563f049c7d05a0d592ecb3d65dba3eebb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897626"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281761"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>常設チャット コンプライアンス SQL Server ストアの追加
  
-永続的なチャット サーバーまたはコンプライアンス機能の永続的なチャット サーバーのデータベースを提供する SQL Server の格納に準拠を構成するとします。
+常設チャットサーバーまたは常設チャットサーバーのコンプライアンス機能のデータベースを提供するコンプライアンス SQL Server ストアを構成します。
   
- **SQL Server に格納**します。 永続的なチャットの既存の SQL Server およびインスタンスを選択します。
+ **Sql server ストア**: 既存の sql server を選択し、必要に応じて常設チャットのインスタンスも選択します。
   
-新しい SQL Server と、オプションで対応データの永続的なチャットの新しいインスタンスを定義するのには**新規**をクリックします。
+[**新規**] をクリックして、新しい SQL Server を定義し、必要に応じて、常設チャットのコンプライアンスデータ用の新しいインスタンスを作成します。
   
-対応データの永続的なチャットにミラー化されたデータベースを提供する省略可能なインスタンスと、SQL Server データベースを構成するのには**SQL Server を有効にするストアがミラー化**のチェック ボックスをオンにします。
+[ **Sql server ストアのミラーリングを有効**にする] チェックボックスをオンにして、sql server データベースと、常設チャットのコンプライアンスデータのミラーリングされたデータベースを提供するオプションのインスタンスを構成します。
   
-永続的なチャット コンプライアンス SQL Server の SQL Server ミラーとして動作するには、SQL Server と省略可能なインスタンスを**SQL Server のミラーを格納**するリストから選択します。
+リストの**ミラーリング Sql server ストア**から選択します。 sql server とオプションのインスタンスは、常設チャットのコンプライアンス sql SERVER の sql server ミラーとして機能します。
   
-新しい SQL Server と、オプションで永続的なチャットの SQL Server のミラーリング用の新しいインスタンスを定義するのには**新規**をクリックします。
+[**新規**] をクリックして、新しい sql server を定義し、必要に応じて、常設チャットの sql server ミラーリング用の新しいインスタンスを作成します。
   
-[**SQL Server ミラーリング監視を自動フェールオーバーの有効化のために使用**] の一覧で、フェールオーバーのシナリオにおいて監視サーバーとして機能する SQL Server を選択します。 ミラーリング監視サーバーはミラーまたはホストのデータは、永続的なチャット サーバーですが、により、ミラー化構成で SQL Server を 1 つだけアクティブな SQL Server の任意の時点。
+[**SQL Server ミラーリング監視を自動フェールオーバーの有効化のために使用**] の一覧で、フェールオーバーのシナリオにおいて監視サーバーとして機能する SQL Server を選択します。 監視サーバーは、常設チャットサーバーのデータをミラーリングまたはホストしませんが、ミラー化された構成内の1つの SQL Server のみがアクティブな SQL Server であることを常に確認します。
   
-必要に応じて永続的なチャット コンプライアンス ミラーリング監視を SQL Server のインスタンスの新しい SQL Server のミラーリング監視サーバーを定義するのには**新規**をクリックします。
+[**新規**] をクリックして、新しい sql server の監視を定義します。必要に応じて、永続的なチャット準拠の SQL server ミラーリング監視用のインスタンスを作成します。
   
 前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。
   
-このプールのバックアップ SQL Server ストア構成の永続的なチャット サーバー プールの定義を続行するオプションの入力が終了したら**次へ**をクリックします。
+このプールの backup SQL Server ストア構成のオプションを入力して、常設チャットサーバープールの定義を続行するには、[**次へ**] をクリックします。
   
 すべての変更を破棄して**新しい常設チャット プールの定義**ウィザードを終了するには、[**キャンセル**] をクリックします。
   

@@ -1,23 +1,23 @@
 ---
-title: Config.xml を使用して、Skype のビジネスのクライアントのインストール ・ タスクを実行するのには
+title: Skype for Business クライアントで Config.xml を使ってインストールタスクを実行する
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '概要:  Config.xml ファイルを使用して追加のインストール手順を指定する方法について説明します。'
-ms.openlocfilehash: 285792dbc753d8c16e6d31f83782d53f85c895f4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc7491899562e665af7d6f63470cf2fc2b904730
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895055"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290276"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Config.xml を使用して、Skype のビジネスのクライアントのインストール ・ タスクを実行するのには
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Skype for Business クライアントで Config.xml を使ってインストールタスクを実行する
 
 **概要: ** Config.xml ファイルを使用して追加のインストール手順を指定する方法について説明します。
 
@@ -35,13 +35,13 @@ Office カスタマイズ ツール (OCT) はカスタマイズ インストー�
 
 - インストールに対する言語の追加または削除を行う。
 
-Config.xml ファイルを使用して、Skype をビジネスのサイレント インストールを構成することをお勧めします。 
+Config.xml ファイルを使用して、Skype for Business のサイレントインストールを構成することをお勧めします。 
 
-既定では、コア製品フォルダーに格納されている Config.xml ファイル (たとえば、\_製品_です。WW) では、その製品をインストールするように指示します。 などの次のフォルダーにある Config.xml ファイルには、ビジネスの Skype がインストールされます。
+既定では、コア製品フォルダーに保存されている Config.xml ファイル (たとえば、\ _product_)。WW) その製品をインストールするようにセットアップに指示します。 たとえば、次のフォルダーの Config.xml ファイルは、Skype for Business をインストールします。
 
-- \\server\share\Skype15\Skype.WW \Config.xml
+- \\skype \ Skype15\ Skype\Config.xml
 
-ビジネスのインストールのため Skype を最もよく使用される Config.xml の要素は、次の表に表示されます。
+Skype for Business をインストールするために最もよく使われる Config.xml 要素は、次の表に記載されています。
 
 **Config.xml の要素**
 
@@ -49,13 +49,13 @@ Config.xml ファイルを使用して、Skype をビジネスのサイレント
 | **要素**              | **説明**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuration  <br/>     | 最上位レベルの要素 (必須)。製品属性が含まれます。例: Product=Lync (Skype for Business クライアントで使用されます)  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | インストール中、特定の製品の機能が処理される方法を指定します。 干渉する Outlook の共有コンポーネントが含まれている Business Connectivity Services のインストールを防ぐために次の属性を使用します。 <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
-| Display  <br/>           | セットアップがユーザーに表示する UI のレベル。一般的には次の属性があります。 <br/>  CompletionNotice =「はい」                                                                                                                                                                                |
-| Logging  <br/>           | セットアップが実行するログ記録の種類のオプション。一般的には次の属性があります。 <br/>  タイプ ="Off"                                                                                                                                                                                       |
-| Setting  <br/>           | Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。<br/>  Id の設定 ="*名前*"(Windows インストーラー プロパティの名前)  <br/>  値 ="*値*"(プロパティに代入する値)  <br/>                                                             |
-| DistributionPoint  <br/> | インストールを実行するネットワーク インストール ポイントの完全修飾パス<br/>  場所 ="*パス*"  <br/>                                                                                                                                     |
+| OptionState  <br/>       | インストール中、特定の製品の機能が処理される方法を指定します。 次の属性を使用して、Business Connectivity Services のインストールを防止します。これには、Outlook を妨害する共有コンポーネントが含まれます。 <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| Display  <br/>           | セットアップがユーザーに表示する UI のレベル。一般的には次の属性があります。 <br/>  補完の通知 = "はい"                                                                                                                                                                                |
+| Logging  <br/>           | セットアップが実行するログ記録の種類のオプション。一般的には次の属性があります。 <br/>  「= "オフ"」と入力します。                                                                                                                                                                                       |
+| Setting  <br/>           | Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。<br/>  設定 Id = " *name*" (Windows Installer プロパティの名前)  <br/>  値 = "*値*" (プロパティに割り当てる値)  <br/>                                                             |
+| DistributionPoint  <br/> | インストールを実行するネットワーク インストール ポイントの完全修飾パス<br/>  Location = " *path*"  <br/>                                                                                                                                     |
 
-ビジネス クライアント用の Skype の場合は、標準的なサイレント インストール用の Config.xml ファイルを次の例に示します。 
+次の例は、Skype for Business クライアントの一般的なサイレントインストール用の Config.xml ファイルを示しています。 
 
 ```
 <Configuration Product="Lync"> 
@@ -67,7 +67,7 @@ Config.xml ファイルを使用して、Skype をビジネスのサイレント
 </Configuration>
 ```
 
-Office のインストールとメンテナンス タスクを実行するのには Config.xml ファイルの使用に関する詳細情報は[https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514)です。
+Config.xml ファイルを使用して Office のインストールとメンテナンスタスクを実行する方法について[https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514)詳しくは、を参照してください。
 
 ## <a name="to-customize-the-configxml-file"></a>Config.xml ファイルをカスタマイズするには
 
@@ -75,7 +75,7 @@ Office のインストールとメンテナンス タスクを実行するのに
 
 2. 変更する要素を含む行に移動します。
 
-3. 使用するサイレント オプションで要素のエントリを変更します。 コメント区切り記号を削除するかどうかを確認」\<!-"と"-\>」。 たとえば、次の構文を使用します。
+3. 使用するサイレント オプションで要素のエントリを変更します。 コメントの区切り文字 "\<!--" と "--\>" は削除してください。 たとえば、次の構文を使用します。
 
    <pre>
    < DistributionPoint Location="\\server\share\Skype15" />

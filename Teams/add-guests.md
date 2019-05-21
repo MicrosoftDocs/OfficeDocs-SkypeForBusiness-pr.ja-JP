@@ -11,30 +11,31 @@ MS.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: sbhatta
+localization_priority: Priority
 description: 組織に新しいゲスト ユーザーを追加するために管理者が利用できる Microsoft Teams デスクトップ、Web クライアント、Azure Active Directory B2B コラボレーション ポータルなどのツールについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27f1f344313111561c9f1c3a5e57dc1bd0ae20cb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
-ms.translationtype: MT
+ms.openlocfilehash: 1c68d6c88fded1933a30f10bfd1bfea57d88c4dc
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202873"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159149"
 ---
 <a name="add-a-guest-to-a-team"></a>チームにゲストを追加する
 =====================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-ビジネスやコンシューマー電子メール アカウントを Outlook、Gmail、またはその他のユーザーなど、すべてのユーザーは、チームにゲストとして参加できます。
+Outlook、Gmail などの勤務先または通常のメール アカウントを持っているユーザーは、ゲストとして Teams に参加することができます。
 
 管理者として、複数の方法で組織に新しいゲスト ユーザーを追加できます。 
-- チームの所有者であるグローバル管理者は、Microsoft Teams デスクトップまたは Web クライアントのいずれかを使用してチームにゲストを追加できます。 詳細については、[チームに追加の来園者](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)を確認します。
+- チームの所有者であるグローバル管理者は、Microsoft Teams デスクトップまたは Web クライアントのいずれかを使用してチームにゲストを追加できます。 詳細については、「[ゲストをチームに追加する](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)」を参照してください。
 - Azure Active Directory B2B コラボレーションを使用して組織にゲストを追加します。 Azure Active Directory B2B コラボレーションを使用すると、グローバル管理者は、2000 行以下のカンマ区切り (CSV) ファイルを B2B コラボレーション ポータルにアップロードすることで、複数の外部ユーザーを招待、承認できます。 詳細については、「[Azure Active Directory B2B コラボレーション](https://go.microsoft.com/fwlink/p/?linkid=826383)」をご覧ください
 
-Azure Active Directory B2B コラボレーションでは、組織は B2B ユーザーに対して条件付きアクセスと多要素認証 (MFA) ポリシーを適用できます。 このポリシーは、フルタイムの従業員や組織のメンバーに対して有効にするのと同じ方法で、テナント レベル、アプリ レベルまたは個々のユーザー レベルで適用できます。 こうしたポリシーはリソース組織で実施します。 詳細については、「[B2B コラボレーション ユーザーの条件付きアクセス](https://go.microsoft.com/fwlink/?linkid=857454)」をご覧ください。 個別にゲスト ユーザーを拒否することはできません。
+Azure Active Directory B2B コラボレーションでは、組織は B2B ユーザーに対して条件付きアクセスと多要素認証 (MFA) ポリシーを適用できます。 これらのポリシーは、組織のフルタイムの従業員とメンバーに対して有効にするのと同じ方法で、テナント レベル、アプリ レベル、または個々のユーザー レベルで適用できます。 こうしたポリシーはリソース組織で実施します。 詳細については、「[B2B コラボレーション ユーザーの条件付きアクセス](https://go.microsoft.com/fwlink/?linkid=857454)」をご覧ください。 個別にゲスト ユーザーを拒否することはできません。
 
-Azure Active Directory の B2B、Office 365 グループ、または SharePoint Online を使用して追加されているゲスト ユーザーは、移動する準備が整いました。 Office 365 管理者またはチーム所有者は所有するチームにこのゲストを追加できます。 チームが Office 365 グループにすでに追加されており、ゲストがそのグループに追加される場合、そのゲストはチームにアクセスできます。 Office 365 グループを介してゲストを追加すると、そのゲストへの招待状メールは生成されません。そのため、チームの他のユーザーがそのゲストに通知する必要があります。
+Azure Active Directory B2B、Office 365 グループまたは SharePoint Online を経由してすでに追加しているゲスト ユーザーはすぐに利用できます。 Office 365 管理者またはチーム所有者は所有するチームにこのゲストを追加できます。 チームが Office 365 グループにすでに追加されており、ゲストがそのグループに追加される場合、そのゲストはチームにアクセスできます。 Office 365 グループを介してゲストを追加すると、そのゲストへの招待状メールは生成されません。そのため、チームの他のユーザーがそのゲストに通知する必要があります。
 
 > [!NOTE]
 > ゲストにも [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) と [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) のサービスの制限が適用されます。
@@ -48,5 +49,5 @@ Azure Active Directory の B2B、Office 365 グループ、または SharePoint 
 ## <a name="more-information"></a>詳細情報
 
 [Microsoft Teams でゲスト アクセスを許可する](teams-dependencies.md)</br>
-[またはマイクロソフトのチームでのゲスト アクセスを無効にします。](set-up-guests.md)</br>
+[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)</br>
 [PowerShell を使用してチームへのゲスト アクセスを制御する](guest-access-powershell.md)

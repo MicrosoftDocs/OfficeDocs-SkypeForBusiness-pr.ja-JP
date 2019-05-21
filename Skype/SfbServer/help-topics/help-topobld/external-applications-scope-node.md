@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.ExternalApplicationsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: '[信頼されたアプリケーション サーバー] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼されたアプリケーション プールには、信頼されているマイクロソフトのユニファイド コミュニケーションは、アプリケーションの実行が、Skype をビジネスのサーバーの役割を実行しないサーバーが含まれています。 以下のアクションを実行できます。'
-ms.openlocfilehash: 694c3192f519da3281a7a8d3ad9120c6a8627f91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[信頼されたアプリケーション サーバー] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼されたアプリケーションプールには、信頼できる Microsoft ユニファイドコミュニケーションアプリケーションを実行するが、Skype for Business Server の役割は実行されないサーバーが含まれています。 以下のアクションを実行できます。'
+ms.openlocfilehash: 868cab5dd8a3f7afb9f1e2ad17c85c2922677fbd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910292"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284488"
 ---
 # <a name="external-applications-scope-node"></a>外部アプリケーション スコープ ノード
  
-[**信頼されたアプリケーション サーバー**] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼されたアプリケーション プールには、信頼されているマイクロソフトのユニファイド コミュニケーションは、アプリケーションの実行が、Skype をビジネスのサーバーの役割を実行しないサーバーが含まれています。 以下のアクションを実行できます。
+[**信頼されたアプリケーション サーバー**] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼されたアプリケーションプールには、信頼できる Microsoft ユニファイドコミュニケーションアプリケーションを実行するが、Skype for Business Server の役割は実行されないサーバーが含まれています。 以下のアクションを実行できます。
   
 - **新しい信頼されたアプリケーション プール**。[**新しい信頼されたアプリケーション プールの定義**] ウィザードを起動します。このウィザードを使用して、新しい信頼されたアプリケーション プールをトポロジに追加します。
     

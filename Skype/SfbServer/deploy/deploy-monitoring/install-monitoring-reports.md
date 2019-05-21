@@ -1,49 +1,49 @@
 ---
-title: Skype のビジネス サーバーの監視レポートをインストールします。
+title: Skype for Business Server で監視レポートをインストールする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
-description: '概要: は、Skype のビジネス サーバーの監視レポートを生成するサービスをインストールする方法を説明します。'
-ms.openlocfilehash: 398159544375a43faba15c4e62cbe240b2636cdb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で監視レポートを生成するサービスをインストールする方法について説明します。'
+ms.openlocfilehash: d17f66a5a500dad19677e51c98a465a2eb6ee87b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894557"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282367"
 ---
-# <a name="install-monitoring-reports-in-skype-for-business-server"></a>Skype のビジネス サーバーの監視レポートをインストールします。
+# <a name="install-monitoring-reports-in-skype-for-business-server"></a>Skype for Business Server で監視レポートをインストールする
  
-**の概要:** Skype のビジネス サーバーの監視レポートを生成するサービスをインストールする方法について説明します。
+**概要:** Skype for Business Server で監視レポートを生成するサービスをインストールする方法について説明します。
   
-Skype ビジネス サーバー レポートの監視では、品質と組織内で行われる通信セッションの数に関する情報が豊富に提供します。 
+Skype for Business Server Monitoring レポートは、組織内で行われる通信セッションの品質と量に関するさまざまな情報を提供します。 
   
 ## <a name="install-monitoring-reports"></a>監視レポートのインストール
 
-ビジネス サーバーの Skype をインストールすると、監視レポートが自動的にインストールされません。代わりに、個別に監視レポートをインストールする必要があり、だけ後に Skype ビジネス サーバーがコンピューターにインストールされています。
+Skype for Business Server をインストールしたときに、レポートの監視が自動的にインストールされません。代わりに、Skype for Business Server がコンピューターにインストールされている場合にのみ、監視レポートを個別にインストールする必要があります。
   
 > [!NOTE]
 > 監視レポートは、監視データベースがインストールされているのと同じコンピューターにインストールすることをお勧めします。この操作を行うと、レポートへのアクセス許可の割り当てプロセスが簡単になります。監視ストアをホストしているコンピューターに監視レポートをインストールすると、別のコンピューター上で実行されている Reporting Services とデータベースが対話できるようにするためのアクセス許可を構成する必要がなくなります。 
   
-Skype ビジネス サーバー レポートの監視には、会議、ピア ツー ピア IM セッション、ユーザー登録、応答グループ アプリケーション、およびその他の詳細な情報を提供するように設計された 30 以上のレポートが含まれます。 2013 バージョンでは、Skype ビジネス サーバーの監視のレポートには、拡張機能の番号です。
+Skype for Business Server Monitoring レポートには、会議、ピアツーピア IM セッション、ユーザー登録、応答グループアプリケーションなどの詳細情報を提供するために、30個以上のレポートが含まれています。 2013バージョンでは、Skype for Business Server Monitoring レポートにはいくつかの拡張機能が含まれています。
   
-- **新しい音声の品質評価レポート**。 これらの新しいレポートには、 [Skype ビジネス サーバー用のメディアの品質の比較レポート](../../manage/health-and-monitoring/comparison.md)を別の種類 (たとえば、ワイヤード (有線) の呼び出しとワイヤレスの呼び出し) の間の呼び出しの間での品質を比較するが含まれます。ユーザーが会議に参加する[ビジネス サーバーの Skype での会議結合時間レポート](../../manage/health-and-monitoring/join-time-report.md)の時間に関する情報を提供する必要があります。 
+- **新しい音声品質レポート**。 これらの新しいレポートには、 [Skype For Business Server のメディア品質比較レポート](../../manage/health-and-monitoring/comparison.md)が含まれており、さまざまな種類の通話 (たとえば、有線通話とワイヤレス通話の間) の品質を比較できます。[Skype For Business Server の会議参加時間レポート](../../manage/health-and-monitoring/join-time-report.md)と、ユーザーが会議に参加するのに必要な時間に関する情報を提供します。 
     
-- **分析とトラブルシューティングの両方のビデオとアプリケーションの共有セッションのレポートを向上します。** [Skype ビジネス サーバー用に、メディア品質概要レポート](../../manage/health-and-monitoring/summary.md)には、ビデオと[Skype ビジネス サーバー用のサーバー パフォーマンス レポート](../../manage/health-and-monitoring/server-performance.md)の詳細を生成するこれらのサーバーのパフォーマンス中に、呼び出しの共有アプリケーションを分析する方法が用意されています。呼び出します。 ビデオ、およびアプリケーションの測定値を共有するようになりました[ビジネス サーバーの Skype でのピア ツー ピア セッション詳細レポート](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)と[ビジネスのサーバー用の Skype で会議の詳細] レポート](../../manage/health-and-monitoring/detail-report.md)で報告されます。
+- **ビデオとアプリケーションの共有セッション両方の分析とトラブルシューティングを行うためのレポートが改善されました。** skype for [Business server のメディア品質の概要レポート](../../manage/health-and-monitoring/summary.md)では、ビデオとアプリケーションの共有通話を分析する方法が提供されていますが、 [Skype for Business Server のサーバーパフォーマンスレポート](../../manage/health-and-monitoring/server-performance.md)は、これらを生成するサーバーのパフォーマンスを詳しく示しています。通話. また、ビデオとアプリケーションの共有メトリックは、skype for [Business server のピアツーピアセッション詳細レポート](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)と、 [Skype for Business Server の会議詳細レポート](../../manage/health-and-monitoring/detail-report.md)によって報告されるようになりました。
     
 - **レポートのパフォーマンスの向上**: 応答時間とデータ取得時間が短縮され、レポート間の移動をすばやく簡単に行えるようになりました。
     
 個々のレポートの詳細については、監視レポートのドキュメントを参照してください。
   
 > [!NOTE]
-> Skype にビジネスのサーバーが含まれて別のレポートの QoE を呼び出す詳細サブレポートには。 ただし、このレポートは主に内部用であり、直接アクセスするためのものではありません。 
+> 別のレポート (QoE 通話の詳細サブレポート) が Skype for Business Server に含まれています。 ただし、このレポートは主に内部用であり、直接アクセスするためのものではありません。 
   
-ビジネス サーバー監視レポートの Skype をインストールするのには 2 つの方法: ビジネス サーバーの展開ウィザードは、Skype を使用するか、ビジネス サーバーのインストール ファイルを Skype に付属している Windows PowerShell スクリプトを使用することができます。 どちらの方法でレポートをインストールする場合でも、最初に次のことを確認する必要があります。
+Skype for business Server の監視レポートをインストールするには、次の2つの方法があります。 Skype for Business Server 展開ウィザードを使用するか、Skype for business Server インストールファイルに含まれている Windows PowerShell スクリプトを使用することができます。 どちらの方法でレポートをインストールする場合でも、最初に次のことを確認する必要があります。
   
 - 監視データベースのユーザー アカウントにデータベースの役割を追加する権限を持っている。
     
@@ -51,7 +51,7 @@ Skype ビジネス サーバー レポートの監視には、会議、ピア �
     
 展開ウィザードを使用して監視レポートをインストールするには、次の手順を実行します。
   
-1. [**スタート**] ボタン [**すべてのプログラム**] をクリックして、 **Skype**、 **Skype ビジネス サーバーの展開ウィザード**] をクリックします。
+1. [**スタート**] をクリックし、[**すべてのプログラム**] をクリックし、[ **skype for business server**] をクリックして、[ **skype for business server Deployment ウィザード**] をクリックします。
     
 2. 展開ウィザードで [**監視レポートの展開**] をクリックして、監視レポートの展開ウィザードを開始します。
     
@@ -65,7 +65,7 @@ Skype ビジネス サーバー レポートの監視には、会議、ピア �
     
 6. [**コマンドを実行しています**] ページで、[**完了**] をクリックします。
     
-レポートを監視するインストールすることも、Skype からビジネス サーバー管理シェルの DeployReports.ps1 はスクリプトを実行して、この Windows PowerShell スクリプトを参照して、\<インストール場所\>\Skype ビジネス サーバーの 2015\Deployment\Setup のフォルダーにします。 DeployReports.ps1 を使用して監視のレポートをインストールするには、管理シェル プロンプトで次のようなコマンドを入力します。
+また、監視レポートは、「Skype for Business Server 管理シェル」でスクリプトの DeployReports を実行してインストールすることもできます。この Windows PowerShell スクリプトは、 \<インストール場所\>\ Skype for business Server 2015 \ Deployment\Setup フォルダーにあります。 DeployReports. ps1 を使って監視レポートをインストールするには、管理シェルプロンプトで次のようなコマンドを入力します。
   
 ```
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
@@ -75,13 +75,13 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
   
 |**パラメーター名**|**必須**|**説明**|
 |:-----|:-----|:-----|
-|storedUserName  <br/> |はい  <br/> |監視ストアへのアクセスに使用するユーザーアカウント (形式はドメイン\ユーザー名)。次に例を示します。  <br/> ```-storedUserName "litwareinc\kenmyer"```このアカウントには、以前に指定された SQL Server および SQL Server Reporting Services のアクセス許可が必要か、スクリプトは失敗します。  <br/> |
+|storedUserName  <br/> |はい  <br/> |監視ストアへのアクセスに使用するユーザーアカウント (形式はドメイン\ユーザー名)。次に例を示します。  <br/> ```-storedUserName "litwareinc\kenmyer"```このアカウントには、以前に指定した SQL Server と SQL Server Reporting Services の権限が必要です。また、スクリプトは失敗します。  <br/> |
 |storedPassword  <br/> |はい  <br/> |監視ストアへのアクセスに使用するユーザー アカウントのパスワード。  <br/> |
 |readOnlyGroupName  <br/> |いいえ  <br/> |監視レポートへの読み取り専用アクセス権を付与するユーザーが属するドメインまたはローカル セキュリティ グループ。指定したグループが存在しない場合、スクリプトは失敗することに注意してください。後でこれらのアクセス権を無効にしたり他のユーザーまたはグループにアクセス権を付与したりする必要が生じた場合は、SQL Service Reporting Services レポート マネージャーを使用して実行できます。  <br/> |
-|reportSqlServerInstance  <br/> |いいえ  <br/> |Reporting Service をホストする SQL Server インスタンス。Reporting インスタンスは、レポート サーバーの完全修飾ドメイン名を使用して指定する必要があります。次に例を示します。<br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com```このパラメーターが含まれていない場合、スクリプトは、レポート サービスは、監視データベースをホストしている同じ SQL Server インスタンスによってホストされていると見なされます。  <br/> |
+|reportSqlServerInstance  <br/> |いいえ  <br/> |Reporting Service をホストする SQL Server インスタンス。Reporting インスタンスは、レポート サーバーの完全修飾ドメイン名を使用して指定する必要があります。次に例を示します。<br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com```このパラメーターが含まれていない場合、スクリプトは、監視データベースをホストする同じ SQL Server インスタンスによってレポートサービスがホストされていることを前提としています。  <br/> |
 |monitoringDatabaseId  <br/> |いいえ  <br/> |監視データベースのサービス ID。次のコマンドを実行することで、監視データベースの ID を取得できます。<br/> ```Get-CsService -MonitoringDatabase```|
    
-監視レポートのインストールが完了したら、New-CsReportingConfiguration コマンドレットを使用して、これらのレポートへのアクセスに使用する URL を構成する必要があります。 このタスク実行できます、Skype からビジネス サーバー管理シェルの次の Windows PowerShell コマンドを実行することによって。 レポート URL の構成時には、必須ではありませんが、HTTPS プロトコルを使用することをお勧めします。
+監視レポートのインストールが完了したら、New-CsReportingConfiguration コマンドレットを使用して、これらのレポートへのアクセスに使用する URL を構成する必要があります。 このタスクは、次の Windows PowerShell コマンドを実行して、Skype for Business Server 管理シェルから実行できます。 レポート URL の構成時には、必須ではありませんが、HTTPS プロトコルを使用することをお勧めします。
   
 ```
 New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.litwareinc.com' -ReportingURL 'https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST'
@@ -95,6 +95,6 @@ New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.l
     
 3. Reporting Services 構成マネージャーで、[レポート マネージャー URL] をクリックします。すると、[レポート マネージャー URL] ウィンドウに 1 つ以上の URL が表示されます。いずれの URL もレポート用 URL として使用できますが、前述のように、ReportingUrl には HTTPS プロトコルを使用することをお勧めします。
     
-監視データベースのミラー データベースを設定した場合は、監視レポートをミラー データベースとも関連付ける必要があります。 詳細についてはこの資料[で Skype ビジネス サーバーのミラー データベースを使用して監視レポートを関連付ける](monitoring-reports-with-a-mirror-database.md)を参照してください。
+監視データベースのミラー データベースを設定した場合は、監視レポートをミラー データベースとも関連付ける必要があります。 詳細については、「 [Skype For Business Server のミラーデータベースに監視レポートを関連付ける](monitoring-reports-with-a-mirror-database.md)」を参照してください。
   
 

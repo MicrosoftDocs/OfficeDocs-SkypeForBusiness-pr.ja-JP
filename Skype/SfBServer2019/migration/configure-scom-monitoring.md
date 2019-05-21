@@ -4,39 +4,39 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: に移行した後 Microsoft Skype ビジネス サーバー 2019 の System Center Operations Manager を使用するサーバー 2019 のビジネス用の Skype を構成するのには、いくつかのタスクを完了する必要があります。
-ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Microsoft Skype for Business Server 2019 に移行した後は、いくつかのタスクを実行して、System Center Operations Manager で動作するように Skype for Business Server 2019 を設定する必要があります。
+ms.openlocfilehash: 141154a8bd678f15fcc919b2dd70a50ca9d4dcca
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238724"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284502"
 ---
 # <a name="configure-scom-monitoring"></a>SCOM 監視の構成
 
-に移行した後 Skype ビジネス サーバー 2019 の System Center Operations Manager を使用するサーバー 2019 のビジネス用の Skype を構成するのには、いくつかのタスクを完了する必要があります。
+Skype for Business Server 2019 に移行した後は、いくつかのタスクを実行して、System Center Operations Manager で動作するように Skype for Business Server 2019 を設定する必要があります。
   
-- 中央の検出ロジックを管理することを選択するサーバーに更新プログラムを適用します。
+- セントラル検出ロジックを管理するように選択されたサーバーに更新プログラムを適用します。
     
-- 中央の検索候補のサーバーのレジストリ キーを更新します。
+- セントラル探索候補サーバーのレジストリキーを更新します。
     
-- 候補の中心的な探索ノードを上書きする、プライマリの System Center Operations Manager 管理サーバーを構成します。
+- "候補" セントラル探索ノードを上書きするように、プライマリ System Center Operations Manager management サーバーを構成します。
     
-これらのタスクを実行するための手順が記載されています。
+これらの各タスクを実行する手順については、以下で説明します。
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>中央の検出ロジックを管理することを選択するサーバーに更新プログラムを適用します。
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>セントラル検出ロジックを管理するように選択されたサーバーに更新プログラムを適用します。
 
-1. System Center Operations Manager エージェントのファイルがインストールされ、候補探索ノードとして構成されているサーバーを選択します。 
+1. System Center Operations Manager エージェントファイルがインストールされ、候補探索ノードとして構成されているサーバーを選びます。 
     
-2. このサーバーに更新プログラムを適用します。 [更新プログラムの適用](apply-updates.md)のトピックを参照してください。
+2. このサーバーに更新プログラムを適用します。 「[更新プログラムを適用](apply-updates.md)する」を参照してください。
     
-### <a name="update-the-central-discovery-candidate-server-registry-key"></a>中央の検索候補のサーバーのレジストリ キーを更新します。
+### <a name="update-the-central-discovery-candidate-server-registry-key"></a>セントラル探索候補サーバーのレジストリキーを更新します。
 
-1. 中央の検出ロジックを管理することを選択、サーバー上には、Windows PowerShell のコマンド ウィンドウを開きます。 
+1. サーバー上でセントラル検出ロジックを管理することを選択した場合は、Windows PowerShell コマンドウィンドウを開きます。 
     
 2. コマンドラインで、次のように入力します。
     
@@ -49,18 +49,18 @@ ms.locfileid: "32238724"
    ```
 
     > [!NOTE]
-    > レジストリを編集するたびに、レジストリ キーが既に存在する場合、コマンドが失敗しましたというエラーが発生するように。 この状況が発生する場合は、エラーを無視してかまいません。 
+    > レジストリを編集すると、レジストリキーが既に存在する場合に、コマンドが失敗するというエラーが発生する場合があります。 この問題が発生した場合は、エラーを無視しても問題ありません。 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>候補の中心的な検出の監視ノードを上書きする、プライマリの System Center Operations Manager 管理サーバーを構成します。
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>主要な System Center Operations Manager management server を構成して、[セントラル探索の候補となるサービスの管理者ノードを上書きする。
 
-1. System Center Operations Manager コンソールがインストールされているコンピューター、[**管理パック オブジェクト**を展開し、**オブジェクト検出**します。
+1. System Center Operations Manager コンソールがインストールされているコンピューターで、[**管理パックのオブジェクト**] を展開し、[**オブジェクト**検出] を選択します。
     
-2. [**スコープの変更**] をクリックします。
+2. [**範囲の変更**] をクリックする
     
-3. **管理パック オブジェクトのスコープ**] ページで、 **LS の検索候補**を選択します。
+3. [**スコープ管理パックのオブジェクト**] ページで、[ **LS 検出候補**] を選択します。
     
-4. **LS 検索候補の有効値**の前の手順で選択した候補のサーバーの名前をオーバーライドします。 
+4. **LS 検出候補の有効値**を、前の手順で選択した候補サーバーの名前に上書きします。 
     
-変更内容を確定するには、システム センター操作マネージャー ルートの管理サーバーの稼働状態サービスを再起動します。
+変更を完了するには、System Center Operations Manager ルート管理サーバーで正常性サービスを再起動します。
   
 

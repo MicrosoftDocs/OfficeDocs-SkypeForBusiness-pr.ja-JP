@@ -3,37 +3,37 @@ title: iOS 版 Skype for Business のインストールおよびテスト
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
-description: '概要: のインストールし、ビジネスの Skype を iOS のアプリケーションのテストの方法。'
-ms.openlocfilehash: 395ca6f27b373aff981cebc79567a05e7ab72696
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: iOS 版 Skype for Business アプリをインストールしてテストする方法について説明します。'
+ms.openlocfilehash: 6d2bb63e5005a4e4888017a1dc450db9eaa368ce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895210"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293593"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Install and test Skype for Business for iOS
  
-**の概要:** インストールし、iOS アプリケーションのビジネス用の Skype をテストする方法です。
+**概要:** IOS 版 Skype for Business アプリをインストールしてテストする方法について説明します。
   
-IOS アプリケーションのビジネス用の Skype では、ビジネス プレゼンス、インスタント メッセージング (IM)、および音声とビデオ iOS デバイスへの呼び出しに Skype が表示されます。 Lync 2013 を使用しているユーザーの場合、ユーザー設定に応じて、アプリが自動的に更新されるか、手動で更新するよう求めるメッセージが表示されます。 新規ユーザーは、Apple App Store からアプリをダウンロードできます。 IOS アプリケーションのビジネス用の Skype は、iOS のバージョン 8.0 で利用可能であり、後だけです。
+IOS 版 Skype for Business アプリを使用すると、Skype for business のプレゼンス、インスタントメッセージング (IM)、音声およびビデオ通話を iOS デバイスで利用できます。 Lync 2013 を使用しているユーザーの場合、ユーザー設定に応じて、アプリが自動的に更新されるか、手動で更新するよう求めるメッセージが表示されます。 新規ユーザーは、Apple App Store からアプリをダウンロードできます。 IOS 版 Skype for Business アプリは、iOS バージョン8.0 以降でのみ利用できます。
   
-## <a name="installing-skype-for-business-for-ios"></a>IOS のビジネス用の Skype をインストールします。
+## <a name="installing-skype-for-business-for-ios"></a>Skype for Business for iOS をインストールする
 
-1. IOS デバイスでは、**アプリケーション ストア**をタップし、 **iOS のビジネス用の Skype**を検索します。
+1. IOS デバイスから [ **App Store**] をタップして、 **Skype For business for ios**を検索します。
     
-2. **ダウンロード**をタップして > **オープン**します。 
+2. [**ダウンロード** > ****] をタップします。 
     
 3. アプリにサインインします。
     
 ## <a name="verifying-mobile-client-installation"></a>モバイル クライアント インストールの確認
 
-正常にサインインした後は、iOS デバイスでのビジネスのインストール、Skype が正常に機能していることを確認するのには次のテストを使用します。 
+サインインが正常に完了したら、次のテストを行って、お使いの iOS デバイスで Skype for Business のインストールが正常に機能していることを確認します。 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>会社のディレクトリにある連絡先の検索
 
@@ -49,7 +49,7 @@ IOS アプリケーションのビジネス用の Skype では、ビジネス �
     
 ### <a name="test-dial-out-conferencing"></a>ダイヤルアウト会議のテスト
 
-1. Outlook では、ビジネス会議のため、Skype のスケジュールを設定します。 
+1. Outlook で、Skype for Business 会議をスケジュールします。 
     
 2. モバイル デバイスで、会議の招待状を開きます。 
     
@@ -59,14 +59,14 @@ IOS アプリケーションのビジネス用の Skype では、ビジネス �
     
 ### <a name="test-push-notifications"></a>プッシュ通知のテスト
 
-1. ユーザー A のモバイル デバイスで、ユーザー A のアカウントを使用してビジネスの Skype にサインインします。 
+1. ユーザー A のモバイルデバイスで、ユーザー A のアカウントを使って Skype for Business にサインインします。 
     
 2. モバイル デバイスで別のアプリケーションを開きます。 
     
-3. 別のクライアントにユーザー B のアカウントを使用してビジネスの Skype にサインインします。 
+3. 別のクライアントで、ユーザー B のアカウントを使って Skype for Business にサインインします。 
     
 4. IM をユーザー B からユーザー A に送信します。 
     
-5. IM 通知がユーザー A のモバイル デバイス上に表示されていることを確認します。 
+5. ユーザー A のモバイルデバイスに IM 通知が表示されることを確認します。 
     
 

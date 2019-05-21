@@ -1,11 +1,11 @@
 ---
-title: トランク構成を新規作成または既存の編集
+title: トランク構成新規作成または既存の編集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceTrunkEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: ae070d24b7b1f6d47fbd8876f7669c47f0ca8dea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 933320e50c4126ecd8672d025c336743959c8e6c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929477"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293068"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>トランク構成: 新規作成または現在の形式のままで編集
 
@@ -30,7 +30,7 @@ ms.locfileid: "33929477"
 
 - [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [変換ルールを手動で変更をします。](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [翻訳ルールを手動で作成または変更する](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。
 

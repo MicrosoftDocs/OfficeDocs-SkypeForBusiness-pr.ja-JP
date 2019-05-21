@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestCSRFileGenerated
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 ROBOTS: NOINDEX, NOFOLLOW
-description: オフライン証明書要求を完了した後、証明書要求ファイル] ページが表示されます。 証明書の要求を表示し、オフラインの証明機関 (CA) に送信するための準備またはパブリック CA で [ビュー] ボタンをクリックします。 証明書の要求は、(既定) で、Windows のメモ帳に表示されます。 ことができますコピーして貼り付けるこの表示では、エンコードされた証明書要求か説明された手順に従って選択したオフラインの CA またはパブリック CA から証明書の要求の処理を完了します。 続行するには、[完了] をクリックします。
-ms.openlocfilehash: c1b592cb190ef364ecd5eabf6fa0779f7af06f2f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 証明書のオフライン要求を完了すると、[証明書要求ファイル] ページが表示されます。 証明書の要求を表示して、オフライン証明機関 (CA) またはパブリック CA に送信する準備をするには、[表示] ボタンをクリックします。 証明書の要求が Windows メモ帳 (既定) に表示されます。 このディスプレイからエンコードされた証明書の要求をコピーして貼り付けるか、選択したオフライン CA またはパブリック CA からの指示に従って証明書要求の処理を完了します。 [完了] をクリックして続行します。
+ms.openlocfilehash: 533134074f2e19323a6138b711e8a4da85dbae31
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893883"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292306"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>証明書要求 (生成された証明書の署名要求)
  
-オフライン証明書要求を完了した後、**証明書要求ファイル**] ページが表示されます。 証明書の要求を表示し、オフラインの証明機関 (CA) に送信するための準備またはパブリック CA で [**ビュー** ] ボタンをクリックします。 証明書の要求は、(既定) で、Windows のメモ帳に表示されます。 ことができますコピーして貼り付けるこの表示では、エンコードされた証明書要求か説明された手順に従って選択したオフラインの CA またはパブリック CA から証明書の要求の処理を完了します。 続行するのには**完了**をクリックします。
+証明書のオフライン要求を完了すると、[**証明書要求ファイル**] ページが表示されます。 証明書の要求を表示して、オフライン証明機関 (CA) またはパブリック CA に送信する準備をするには、[**表示**] ボタンをクリックします。 証明書の要求が Windows メモ帳 (既定) に表示されます。 このディスプレイからエンコードされた証明書の要求をコピーして貼り付けるか、選択したオフライン CA またはパブリック CA からの指示に従って証明書要求の処理を完了します。 [**完了**] をクリックして続行します。
   
 

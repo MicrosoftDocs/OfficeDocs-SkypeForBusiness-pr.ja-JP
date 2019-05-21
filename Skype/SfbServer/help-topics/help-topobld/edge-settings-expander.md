@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeSettingsExpander
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 既存の単一サーバー エッジ プールまたは複数サーバー エッジ プールの設定を編集するために、次のセクションが表示されます。
-ms.openlocfilehash: 1659089ca2af8d683fded190a32736fa84cd1914
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 307a861814a8e05065c70299b5ef2a82c20c8c42
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926888"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282532"
 ---
 # <a name="edge-settings-expander"></a>エッジ設定エキスパンダー
 
@@ -36,7 +36,7 @@ ms.locfileid: "33926888"
 
 エッジ サーバー プールの内部プールの完全修飾ドメイン名 (FQDN)。この設定を変更するには、プールの FQDN を編集します。
 
-設定した場合、Lync Server 2013 とのフェデレーションを Microsoft Lync Server 2010 または Microsoft Office 通信 Server 2007 R2 の信頼できるパートナーは、**このエッジ プール (ポート 5061) のフェデレーションを有効にする**チェック ボックスを選択します。
+Lync Server 2013、Microsoft Lync Server 2010、または Microsoft Office Communications Server 2007 R2 trusted partner とのフェデレーションを設定する場合は、チェックボックスをオンにして、**このエッジプール (ポート 5061) との**フェデレーションを有効にします。
 
 [**このエッジ プールの XMPP フェデレーションを有効化 (ポート 5269)**] を選択して、XMPP フェデレーションを有効にします。
 
@@ -44,7 +44,7 @@ ms.locfileid: "33926888"
 
 ## <a name="next-hop-selection-settings"></a>次ホップ選択設定
 
-エッジ サーバーが内部インフラストラクチャと通信するために使用する [**次ホップ プール**] を設定または変更するには、ドロップダウン リスト ボックスからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバーのプールを選択します。 ディレクターまたはフロント エンド トポロジ ビルダーで構成されているだけは、選択範囲に表示されます。
+エッジ サーバーが内部インフラストラクチャと通信するために使用する [**次ホップ プール**] を設定または変更するには、ドロップダウン リスト ボックスからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバーのプールを選択します。 選択できるように、トポロジビルダーで構成されているディレクターまたはフロントエンドのみが表示されます。
 
 ## <a name="edge-server-configuration"></a>エッジ サーバー構成
 

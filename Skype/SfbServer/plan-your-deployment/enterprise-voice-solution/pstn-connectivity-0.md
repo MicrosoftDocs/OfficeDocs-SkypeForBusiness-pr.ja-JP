@@ -1,10 +1,10 @@
 ---
-title: ビジネス サーバーに、Skype で PSTN への接続を計画します。
+title: Skype for Business Server での PSTN 接続を計画する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
-description: ビジネス サーバーの PSTN への接続では、Skype でエンタープライズ VoIP の計画。
-ms.openlocfilehash: aa3449746c539e7b7bf8fe5332fa4313f80fa555
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server のエンタープライズボイスで PSTN 接続を計画します。
+ms.openlocfilehash: f0b6aa6b43562fea91885b0d55d75fd234ab97de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913571"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276498"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で PSTN への接続を計画します。
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Skype for Business Server での PSTN 接続を計画する
  
-ビジネス サーバーの PSTN への接続では、Skype でエンタープライズ VoIP の計画。
+Skype for Business Server のエンタープライズボイスで PSTN 接続を計画します。
   
-エンタープライズ レベルの VoIP ソリューションでは、サービスの品質 (QoS) を低下させずに公衆交換電話網 (PSTN) との通話の発信および着信を処理する必要があります。 配置し、呼び出しを受信するユーザーいない注意すべき基礎となるテクノロジ: ユーザーの観点からは、エンタープライズ VoIP インフラストラクチャと PSTN との間の呼び出しする必要がありますだけ別の電話のように思われます。
+エンタープライズ レベルの VoIP ソリューションでは、サービスの品質 (QoS) を低下させずに公衆交換電話網 (PSTN) との通話の発信および着信を処理する必要があります。 通話の発信と受信を行うユーザーは、基になるテクノロジを認識していません。ユーザーの視点から見ると、エンタープライズ Voip インフラストラクチャと PSTN との間の通話は、別の電話会議と同じように見えます。
   
-Skype ビジネス サーバーの次のオプションを使用して信頼性の高いスケーラブルな PSTN 接続を提供します。
+Skype for Business Server は、次のオプションを使用して、信頼性の高いスケーラブルな PSTN 接続を提供します。
   
 - インターネット テレフォニー サービス プロバイダー (ITSP) への **SIP トランク**
     
@@ -39,14 +39,14 @@ Skype ビジネス サーバーの次のオプションを使用して信頼性�
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype ビジネス サーバーでの SIP トランク](sip-trunking.md)
+- [Skype for Business Server の SIP トランキング](sip-trunking.md)
     
-- [ビジネス サーバーの Skype で直接 SIP 接続](direct-sip.md)
+- [Skype for Business Server での直接 SIP 接続](direct-sip.md)
     
-- [Skype ビジネス サーバーは M:N trunk](m-n-trunk.md)
+- [Skype for Business Server の M:N トランク](m-n-trunk.md)
     
-- [Skype ビジネス サーバー用の変換規則](translation-rules.md)
+- [Skype for Business Server の翻訳ルール](translation-rules.md)
     
-- [発信の音声が Skype のビジネス サーバーのルーティングの計画](outbound-voice-routing.md)
+- [Skype for Business Server での送信ボイスルーティングの計画](outbound-voice-routing.md)
     
 

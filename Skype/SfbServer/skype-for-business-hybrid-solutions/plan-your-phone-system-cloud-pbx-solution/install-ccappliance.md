@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: Install-CcAppliance コマンドレットは、AD、中央管理ストア (CMS)、仲介サーバー、エッジ サーバー仮想マシンなどの、Skype for Business Cloud Connector エディションのアプライアンスをホスト　サーバーにインストールします。
-ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 01c689c4a4639c12292d59def6b698281f402299
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880215"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287273"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -33,7 +33,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 ### <a name="example-1"></a>例 1
 
-次の例では、ホスト サーバー上で新しいコネクタのクラウド アプライアンスがインストールされます。
+次の例では、新しいクラウドコネクタアプライアンスをホストサーバーにインストールします。
   
 ```
 Install-CcAppliance
@@ -41,7 +41,7 @@ Install-CcAppliance
 
 ### <a name="example-2"></a>例 2
 
-次の例では、最新バージョンにクラウドのコネクタをアップグレードします。
+次の例では、Cloud Connector を最新バージョンにアップグレードします。
   
 ```
 Install-CcAppliance -Upgrade
@@ -49,7 +49,7 @@ Install-CcAppliance -Upgrade
 
 ### <a name="example-3"></a>例 3
 
-次の例では、もう一度、すべての資格情報を指定するように求めるホスト サーバーにキャッシュされているすべてのクラウド コネクタの資格情報を削除し、クラウドのコネクタがインストールされます。
+次の例では、ホストサーバーにキャッシュされているすべてのクラウドコネクタの資格情報を削除し、すべての資格情報をもう一度指定するようにユーザーに求めるメッセージを表示して、次にクラウドコネクタをインストールします。
   
 ```
 Install-CcAppliance -UpdateAllCredentials
@@ -67,7 +67,7 @@ ShowStepsOnly パラメーターは、トラブルシューティングのみで
   
 ### <a name="example-5"></a>例 5
 
-次の例では、ホスト サーバーでの展開の各手順で構成ファイルを生成します。 構成ファイルに保存されます、 \<ApplianceRoot\>\Instances\\<Version\>-ホスト サーバー上のフォルダーを default\ExportedConfig。
+次の例では、ホスト サーバーでの展開の各手順で構成ファイルを生成します。 構成ファイルは、ホストサーバー \<上\>の ApplianceRoot\\\\>Instances <Version フォルダーに保存されます。
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -95,11 +95,11 @@ Install-CcAppliance -ShowStepsOnly
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-インストール CcAppliance コマンドレットは、新しいアプライアンスにクラウドのコネクタを展開する、または既存のアプライアンスを最新バージョンにアップグレードするに使用されます。
+CcAppliance コマンドレットを使用して、新しいアプライアンスにクラウドコネクタを展開したり、既存のアプライアンスを最新バージョンにアップグレードしたりします。
   
 新しいアプライアンスがある場合は、最初に必ず「Cloud Connector 1.4.1 の展開環境の準備」を読んでから、Register-CcAppliance コマンドレットを実行してアプライアンスを登録し、Install-CcAppliance コマンドレットを実行します。 詳細については、「[Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md)」および「[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md)」を参照してください。 
   
-クラウド コネクタの既存の配置があり、アップグレードする場合は、[クラウドのコネクタの新しいバージョンへのアップグレード](upgrade-to-a-new-version-of-cloud-connector.md)の指示に従ってください。
+クラウドコネクタの既存の展開を使用していて、アップグレードする場合は、「[新しいバージョンの Cloud connector にアップグレード](upgrade-to-a-new-version-of-cloud-connector.md)する」の手順に従ってください。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
@@ -111,7 +111,7 @@ Install-CcAppliance -ShowStepsOnly
 |SkipExistingObjects  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |このパラメーターは、Steps パラメーターと共に使用する必要があります。このパラメーターは、トラブルシューティングのみで使用されます。  <br/> |
 |Steps  <br/> |省略可能  <br/> |System.Array  <br/> |展開の手順を実行します。このパラメーターは、トラブルシューティングのみで使用されます。  <br/> |
 |Upgrade  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |既存の Cloud Connector を最新バージョンに更新します。  <br/> |
-|UpdateAllCredentials  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |キャッシュ内には、クラウドのコネクタのすべての資格情報を削除します。 ユーザーにインストールのための新しい資格情報を指定するよう求めます。  <br/> |
+|UpdateAllCredentials  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |キャッシュ内のすべてのクラウドコネクタの資格情報を削除します。 ユーザーにインストールのための新しい資格情報を指定するよう求めます。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>

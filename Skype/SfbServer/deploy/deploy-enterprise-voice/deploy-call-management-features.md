@@ -1,10 +1,10 @@
 ---
-title: ビジネス用の Skype での通話管理機能を導入します。
+title: Skype for Business での通話管理機能の展開
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,38 +13,38 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
-description: ビジネス サーバーのエンタープライズ VoIP の Skype での通話管理機能を配置しています。
-ms.openlocfilehash: d19ad207b416f2a09abd88282047b79ddd2a1dc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice での通話管理機能の展開。
+ms.openlocfilehash: 834a9ecaf39222b81f617f6a917225a17448e5e0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892749"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291285"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business"></a>ビジネス用の Skype での通話管理機能を導入します。
+# <a name="deploy-call-management-features-in-skype-for-business"></a>Skype for Business での通話管理機能の展開
  
-ビジネス サーバーのエンタープライズ VoIP の Skype での通話管理機能を配置しています。
+Skype for Business Server Enterprise Voice での通話管理機能の展開。
   
-管理機能は、着信呼び出しの合計を制御するエンタープライズ VoIP 呼び出しがルーティングされ、回答します。 Skype ビジネス サーバーには、次の呼び出しの管理機能が用意されています。 
+エンタープライズ音声通話管理機能は、着信通話のルーティングと応答の方法を制御します。 Skype for Business Server には、次のような通話管理機能が用意されています。 
   
-- **コール パーク**: 音声呼び出しが一時的に駐車してから、同じ電話や別の電話選択できるようにします。
+- [**コールパーク**]: 音声ユーザーが一時的に通話をパークして、同じ電話または別の電話から通話を受け取れるようにします。
     
-- **グループ コール ピックアップ**: コール ピックアップ グループの番号をダイヤルすることによって、ピックアップのグループに割り当てられている別のユーザーへの呼び出しに応答するユーザーを有効にします。
+- **グループ通話のピックアップ**: 通話ピックアップグループ番号にダイヤルすることによって、pickup グループに割り当てられている別のユーザーに対して発信された通話に応答することができます。
     
-- **応答グループ**: を使用してエージェントのグループへの着信呼び出しをルートのハント グループまたは対話型音声応答 (IVR) の質問と回答します。
+- [**応答グループ]**: ハントグループまたはインタラクティブな音声応答 (IVR) の質問と回答を使用して、着信通話をエージェントのグループにルーティングします。
     
 - **アナウンス**: 割り当てられていない番号に通話が行われたときに、メッセージを再生するか、通話を別の場所にルーティングするか、その両方を行います。
     
-このセクションでは、エンタープライズ VoIP の展開中にこれらの呼び出しの管理機能を構成する方法について説明します。
+このセクションでは、エンタープライズ Voip の展開時にこれらの通話管理機能を構成する方法について説明します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [ビジネス用の Skype のコール パークの展開プロセス](deployment-process-for-call-park.md)
+- [Skype for Business のコールパークの展開プロセス](deployment-process-for-call-park.md)
     
-- [ビジネス用の Skype でグループを呼び出すのピックアップのための展開プロセス](deployment-process-for-group-call-pickup.md)
+- [Skype for Business のグループ通話集配の展開プロセス](deployment-process-for-group-call-pickup.md)
     
-- [ビジネス用の Skype で応答グループの展開のプロセス](deployment-process-for-response-group.md)
+- [Skype for Business の応答グループの展開プロセス](deployment-process-for-response-group.md)
     
-- [ビジネス サーバーの Skype [お知らせ] アプリケーションの展開プロセス](deployment-process-for-the-announcement-application.md)
+- [Skype for Business Server のアナウンスメントアプリケーションの展開プロセス](deployment-process-for-the-announcement-application.md)
     
 

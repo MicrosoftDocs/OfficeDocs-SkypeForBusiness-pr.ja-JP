@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 07/23/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 検索して、Skype のビジネス サーバーまたは Lync 2013 の更新プログラムを管理します。 詳細を取得し、更新プログラムをダウンロードするリンクを使用します。
-ms.openlocfilehash: 4714446a4e9f123691668f9e916632f1b3270d26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server または Lync 2013 の更新プログラムを検索して管理します。 詳細情報を入手して更新プログラムをダウンロードするには、リンクを使用します。
+ms.openlocfilehash: 8e0e7c2e42c6b778c219cb31dc3460ea8e220bb8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902258"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286797"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business のダウンロードと更新プログラム
 
-Technet であった_Skype_ビジネスのダウンロードおよび更新プログラムの web ページが使用されなくなっています。 コンテンツは、クライアントとサーバーのページに再編成されました。 これらのリンクをする必要がある内容に従います。
+_Skype For business のダウンロードと更新_の web ページは、1回の Technet で廃止されました。 コンテンツはクライアントとサーバーのページに再編成されました。 必要なコンテンツについては、次のリンクを参照してください。
 
-- セクションが含まれている[Skype ビジネス クライアント用の更新プログラム](sfb-client-updates.md):
+- 以下のセクションを含む[Skype For business クライアントの更新プログラム](sfb-client-updates.md)
     - [Skype for Business 2016 クライアントの更新プログラム](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [Skype for Business 2015 クライアントの更新プログラム](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Mac クライアント版 Skype for Business の更新プログラム](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
@@ -35,7 +35,7 @@ Technet であった_Skype_ビジネスのダウンロードおよび更新プ�
         - [Lync 2010 Attendant の更新プログラム](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Lync 2010 Attendee の更新プログラム](sfb-client-updates.md#lync-2010-attendee-updates)
 
-- セクションが含まれている[Skype ビジネス サーバーの更新](sfb-server-updates.md):
+- 以下のセクションを含む[Skype For Business Server の更新プログラム](sfb-server-updates.md)
     - [Skype for Business Server 2015 更新履歴](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Lync Server 2013 更新履歴](sfb-server-updates.md#lync-server-2013-update-history)
         - [Lync Server 2013 開発ツール](sfb-server-updates.md#lync-server-2013-dev-tools)

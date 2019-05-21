@@ -4,47 +4,47 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: XMPP フェデレーションでは、拡張可能なメッセージングおよびプレゼンス プロトコル (XMPP) に基づいて、外部の配置を定義します。 XMPP は、の構成には、XMPP ドメイン ユーザーへのユーザー アクセスができます。
-ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: XMPP フェデレーションは、拡張メッセージングとプレゼンスプロトコル (XMPP) に基づいて外部展開を定義します。 XMPP の構成では、ユーザーは次の方法で XMPP ドメインユーザーにアクセスできます。
+ms.openlocfilehash: c5231016729cd40619bbcfe48ebfcf59eff9182a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238662"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275574"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>XMPP ゲートウェイ アクセス ポリシーおよび証明書の構成
 
-XMPP フェデレーションでは、拡張可能なメッセージングおよびプレゼンス プロトコル (XMPP) に基づいて、外部の配置を定義します。 XMPP は、の構成には、XMPP ドメイン ユーザーへのユーザー アクセスができます。
+XMPP フェデレーションは、拡張メッセージングとプレゼンスプロトコル (XMPP) に基づいて外部展開を定義します。 XMPP の構成では、ユーザーは次の方法で XMPP ドメインユーザーにアクセスできます。
   
-- IM とプレゼンスのユーザのみ
+- IM とプレゼンス-相手からのみ
     
-- 作成の XMPP フェデレーションのクライアントのビジネスの Skype の連絡先
+- Skype for Business クライアントでの XMPP フェデレーション連絡先の作成
     
-構成するときは、XMPP をサポートするためのポリシーはフェデレーション パートナーしますが、XMPP のフェデレーション ドメインのユーザーにポリシーを適用しないセッション開始プロトコル (SIP) のユーザーがインスタント メッセージング (IM) サービスのプロバイダー、または SIP フェデレーション ドメイン。 XMPP フェデレーション ドメインごと、ユーザーが連絡先を追加するとの通信を許可するために、XMPP フェデレーション パートナーを構成するとします。 場所のポリシーが表示されたら、XMPP ゲートウェイ証明書を構成する必要があります。 
+XMPP フェデレーションパートナーのサポートのためにポリシーを構成すると、そのポリシーは XMPP フェデレーションドメインのユーザーに適用されますが、セッション開始プロトコル (SIP) のインスタントメッセージング (IM) サービスプロバイダー、または SIP フェデレーションドメインのユーザーには適用されません。 ユーザーが連絡先を追加して通信できるようにする、各 XMPP フェデレーションドメインに対して XMPP フェデレーションパートナーを構成します。 ポリシーが設定されたら、XMPP ゲートウェイ証明書を構成する必要があります。 
   
 > [!NOTE]
-> XMPP の機能は、ビジネス サーバー 2019、Skype では非推奨ですが、ビジネス サーバー 2019 の Skype との共存のレガシー サーバーで継続することができます。 レガシ サーバーを既に展開しているかどうかを確認 (ビジネス サーバー 2015 の Skype と Lync Server 2013) XMPP ゲートウェイでは、従来の XMPP ゲートウェイに対してユーザーを有効にするアクセス ポリシーを構成し、。 詳細については、 [XMPP フェデレーションの移行](migrating-xmpp-federation.md)を参照してください。 
+> XMPP 機能は、Skype for Business Server 2019 では使われなくなりましたが、従来のサーバーでは引き続き、Skype for Business Server 2019 と共存させることができます。 以前のバージョンのレガシサーバー (Skype for Business Server 2015/Lync Server 2013) XMPP ゲートウェイを既に展開していることを確認して、従来の XMPP ゲートウェイのユーザーを有効にするためのアクセスポリシーを構成していることを確認します。 詳細については、「 [XMPP フェデレーションを移行](migrating-xmpp-federation.md)する」を参照してください。 
   
-### <a name="configure-an-external-access-policy-to-enable-users-for-legacy-xmpp-gateway"></a>従来の XMPP ゲートウェイの外部アクセス ポリシーを有効にするユーザーを構成します。
+### <a name="configure-an-external-access-policy-to-enable-users-for-legacy-xmpp-gateway"></a>外部アクセスポリシーを構成して、レガシ XMPP ゲートウェイのユーザーを有効にする
 
-1. ビジネス サーバーのコントロール パネルの従来の Skype を開きます。
+1. 従来の Skype for Business Server コントロールパネルを開きます。
     
-2. 左側のナビゲーション ・ バーで [**フェデレーションと外部アクセス**、および**外部アクセス ポリシー**] をクリックします。
+2. 左側のナビゲーションバーで、[**フェデレーションと外部アクセス**] をクリックし、[**外部アクセスポリシー**] をクリックします。
     
 3. [**新規**] をクリックし、[**ユーザー ポリシー**] をクリックします。
     
-4. 外部アクセスのユーザー ポリシーの名前を入力します。
+4. 外部アクセスのユーザーポリシーの名前を入力します。
     
-5. 外部アクセスのユーザー ポリシーの説明を提供します。
+5. 外部アクセスユーザーポリシーの説明を入力します。
     
-6. **フェデレーション ユーザーとの通信を有効にする**を選択します。
+6. [**フェデレーションユーザーとの通信を有効にする**] を選択します。
     
-7. **XMPP と通信を有効にするフェデレーション ユーザー**を選択します。
+7. [ **XMPP フェデレーションユーザーとの通信を有効にする**] を選択します。
     
-8. **コミット**をサイトまたはユーザーのポリシーに変更を保存する] をクリックします。 
+8. [**コミット**] をクリックして、サイトまたはユーザーポリシーの変更を保存します。 
     
 

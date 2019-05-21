@@ -1,10 +1,10 @@
 ---
-title: ダイヤル プランの新規作成または既存の編集
+title: ダイヤルプランの新規作成または既存の編集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceDialPlanEdit
@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: b2846ca124c62cdfd23f82a5b0d16e4602eb4a4e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 70fd1bb986c90850423000e0438e9e02b792cc51
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890831"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293656"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>ダイヤル プラン: 新規作成または現在の形式のままで編集
 
 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [作成またはビジネス サーバーの Skype のダイヤル プランを変更します。](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Skype for Business Server でダイヤルプランを作成または変更する](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [ダイヤル プランを変更します。](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [ダイヤルプランを変更する](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [作成するか、ビジネスの Skype の正規化ルールを変更](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Skype for Business で正規化ルールを作成または変更する](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [正規化ルールを手動で変更をします。](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [正規化ルールを手動で作成または変更する](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 

@@ -1,10 +1,10 @@
 ---
-title: トランク構成を新規作成または既存の編集
+title: トランク構成新規作成または既存の編集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceTrunkEdit
@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: ffdbb3565dfe6db9cdfb0fc5bb86196e9a7ef748
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e249a0d6b1ad4298c464904e2f92323ab8813e1c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890418"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291159"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>トランク構成: 新規作成または現在の形式のままで編集
 
 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [ビジネス サーバーの Skype でのメディア バイ パスを使用してトランクを構成します。](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [Skype for Business Server でメディアバイパスを使用してトランクを構成する](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [メディアが Skype のビジネス サーバーのバイパスなしトランクを構成します。](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [Skype for Business Server でメディアをバイパスせずにトランクを構成する](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [作成またはビジネス サーバーの Skype で呼び出された ID プレゼンテーションの変換ルールを変更](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Skype for Business Server で呼び出された ID プレゼンテーションの翻訳ルールを作成または変更する](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [変換ルールを手動で変更をします。](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [翻訳ルールを手動で作成または変更する](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

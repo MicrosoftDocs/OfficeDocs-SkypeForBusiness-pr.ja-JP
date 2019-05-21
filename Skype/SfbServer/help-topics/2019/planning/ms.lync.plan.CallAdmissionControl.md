@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.CallAdmissionControl
@@ -14,17 +14,17 @@ localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通話受付管理 (CAC) では、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話などのリアルタイム コミュニケーションのセッションの確立を許可するかどうかを判断します。
-ms.openlocfilehash: 5c65776327c5b30d3341ef087f5f0653748a7aee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 85ae80cdebaf99d304f3b4f8c0437513c0b12d47
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889613"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291110"
 ---
 # <a name="call-admission-control-planning-tool"></a>Call Admission Control (Planning Tool)
  
 通話受付管理 (CAC) では、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話などのリアルタイム コミュニケーションのセッションの確立を許可するかどうかを判断します。
   
-呼受付制御の計画の詳細については、 [Skype のビジネス サーバーでの呼び出しの受付制御の計画](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)を参照してください。
+通話受付制御の計画について詳しくは、「 [Skype For Business Server での通話受付制御の計画](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)」をご覧ください。
   
 
