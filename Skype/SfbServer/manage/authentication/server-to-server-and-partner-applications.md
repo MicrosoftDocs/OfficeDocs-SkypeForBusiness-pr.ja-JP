@@ -1,67 +1,67 @@
 ---
-title: サーバーからサーバーへの認証 (OAuth) とパートナーのアプリケーションで Skype ビジネス サーバーを管理します。
+title: Skype for Business Server でサーバー間認証 (OAuth) とパートナーアプリケーションを管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
-description: '概要: ビジネス サーバーの Skype で OAuth とパートナーのアプリケーションを管理します。'
-ms.openlocfilehash: 6e12b6fb36375fe89301b79065e11ad8a1c0d48a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で OAuth とパートナーのアプリケーションを管理します。'
+ms.openlocfilehash: 37c2af8a089bcae4b974761616e1ecd67c9e500b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919578"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297569"
 ---
-# <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>サーバーからサーバーへの認証 (OAuth) とパートナーのアプリケーションで Skype ビジネス サーバーを管理します。
+# <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>Skype for Business Server でサーバー間認証 (OAuth) とパートナーアプリケーションを管理する
  
-**の概要:** ビジネス サーバーの Skype で OAuth とパートナーのアプリケーションを管理します。
+**概要:** Skype for Business Server で OAuth とパートナーのアプリケーションを管理します。
   
-ビジネス サーバーの Skype では、安全、かつシームレスは、他のアプリケーションやサーバー製品と通信する必要があります。 データおよびアーカイブ ・ データを連絡するためのビジネス サーバーは Microsoft Exchange Server 2013 は、Skype を構成するなど、ただし、これだけ行えますビジネス サーバーと Exchange の Skype は安全に相互に通信できない場合。 同様に、Office Web アプリケーション サーバーからサーバーのビジネス会議は、Skype をスケジュールすることもう一度、これのみ実行できます (SharePoint と Skype のビジネス サーバー) は、2 つのサーバーが互いに信頼している場合。 ビジネス サーバーと Exchange の Skype ですが、Skype のビジネス サーバーと SharePoint の通信のための別のメカニズムの間の通信の 1 つの認証メカニズムを使用することはできますより優れたより効率的なアプローチは、使用する、すべてのサーバーからサーバーへの認証と承認のための標準化された方法です。
+Skype for Business Server は、安全かつシームレスに、他のアプリケーションやサーバー製品と通信できるようにする必要があります。 たとえば、連絡先データやアーカイブデータが Microsoft Exchange Server 2013 に保存されるように、Skype for Business Server を構成することができます。ただし、これを実行できるのは、Skype for Business Server と Exchange が相互に安全に通信できる場合のみです。 同様に、Office Web Apps サーバー内から Skype for Business Server 会議をスケジュール設定することもできます。この操作は、2台のサーバー (SharePoint と Skype for Business Server) が相互に信頼している場合にのみ実行できます。 Skype for Business Server と Exchange の間の通信には1つの認証メカニズムを使用できますが、Skype for Business Server と SharePoint での通信には別のメカニズムが用意されていますが、これを使用する方法は、すべてのサーバー間の認証と承認を行う標準化された方法です。
   
-1 つを使用すると、サーバーからサーバーへの認証のための標準化された方法は、Skype ビジネス サーバーの実行方法です。 Office サーバー 2013 のリリースを開始すると、Skype ビジネス サーバー (およびその他のマイクロソフト サーバー製品は、Exchange Server と SharePoint サーバーを含む) のサポートされている (開いている承認) の OAuth プロトコル サーバーからサーバーへの認証のため、承認します。 OAuth では、いくつかの主要な web サイトで使用される標準の認証プロトコルとユーザーの資格情報およびパスワードには渡されません 1 台のコンピューターから別です。 代わりに、認証と承認に基づいて、exchange のセキュリティ トークンです。これらのトークンは、一定の時間の特定のリソース セットへのアクセス権を付与します。
+サーバー間認証に単一の標準化された方法を使用することは、Skype for Business Server で行われる方法です。 Office server 2013 リリースの使用を開始しました。 Skype for Business Server (および Exchange Server と SharePoint Server を含むその他の Microsoft サーバー製品) では、サーバー間認証のための OAuth (Open Authorization) プロトコルがサポートされています。承認. 多くの主要 web サイトで使用されている標準の認証プロトコルである OAuth を使用している場合、ユーザーの資格情報とパスワードは、あるコンピューターから別のコンピューターに渡されることはありません。 代わりに、認証と承認はセキュリティトークンの交換に基づいています。これらのトークンによって、特定の時間に対して特定のリソースのセットへのアクセスが許可されます。
   
-OAuth 認証には、通常次の 3 つの関係者が含まれます: 1 つの認証サーバーと相互に通信する必要がある 2 つのレルム。 (行うことができますもサーバーからサーバーへの認証、認証サーバーをこのドキュメントの後半で説明するプロセスを使用せずします。)セキュリティ トークン、認証サーバー (とも呼ばれるセキュリティ トークン サーバー) では通信する必要がある 2 つのレルムを発行します。これらのトークンは、他の領域によって 1 つのレルムから発信される通信を信頼されていることを確認します。 たとえば、認証サーバーは、ビジネスのサーバー領域の特定の Skype からユーザーが指定した Exchange の領域、その逆にアクセスすることであることを確認するトークンを発行する可能性があります。
+OAuth 認証には、通常、単一の承認サーバーと、互いに通信する必要がある2つの領域の3つの当事者が関係します。 (このドキュメントの後半で説明するプロセスである承認サーバーを使用せずに、サーバー間認証を実行することもできます)。セキュリティトークンは、通信する必要がある2つの領域に対して、承認サーバー (セキュリティトークンサーバーとも呼ばれます) によって発行されます。これらのトークンは、あるレルムから発信された通信が他のレルムによって信頼される必要があることを確認します。 たとえば、承認サーバーは、特定の Skype for Business Server の領域のユーザーが、指定された Exchange の領域にアクセスできることを確認するトークンを発行する場合があります。
   
 > [!NOTE]
-> 領域とは、セキュリティ コンテナーのことです。 既定では、Skype のビジネス サーバーは、OAuth の領域として、既定の SIP ドメインを使用します。 追加の SIP 名前空間が OAuth 証明書のサブジェクト代替名に追加されます。 
+> 領域とは、セキュリティ コンテナーのことです。 既定では、Skype for Business Server は既定の SIP ドメインを OAuth レルムとして使用します。 追加の SIP 名前空間が OAuth 証明書のサブジェクト代替名に追加されます。 
   
-ビジネス サーバー用の Skype は、3 つのサーバーからサーバーへの認証シナリオをサポートします。 ビジネス サーバーの Skype で次の操作を実行できます。
+Skype for Business Server は、サーバー間の3つの認証シナリオをサポートしています。 Skype for Business Server では、次のことができます。
   
-- Skype ビジネス サーバー用の設置型インストールと Exchange または SharePoint のサーバーの設置型インストールの間でサーバーからサーバーへの認証を構成します。
+- Skype for Business Server のオンプレミスインストールと、Exchange または SharePoint Server のオンプレミスインストールとの間のサーバー間認証を構成します。
     
-- Office 365 のコンポーネント (たとえばと Microsoft Exchange Server ビジネス サーバーでは、Skype または Skype ビジネス サーバーと SharePoint との間) のペアの間でサーバーからサーバーへの認証を構成します。
+- 1組の Office 365 コンポーネント (たとえば、Microsoft Exchange Server と Skype for Business Server、または Skype for Business Server と SharePoint の間) 間でサーバー間認証を構成します。
     
-- クロス オンプレミス環境 (、オンプレミスのサーバーとコンポーネントの間、Office 365 は、サーバーからサーバーへの認証) では、サーバーからサーバーへの認証を構成します。
+- クロスプレミス環境でサーバー間認証を構成する (つまり、オンプレミスのサーバーと Office の365コンポーネントの間のサーバー間認証)。
     
-、この時点では、唯一の Exchange 2013、SharePoint サーバー、Lync Server 2013、Skype ビジネス サーバー 2015 年のおよび 2019 のビジネス用の Skype をサポートするサーバーからサーバーへの認証です。これらのサーバーのいずれかが実行されていない、完全に OAuth 認証を実装することはできません。
+この時点では、Exchange 2013、SharePoint Server、Lync Server 2013、Skype for business Server 2015、および Skype for Business 2019 はサーバー間認証をサポートしていることに注意してください。これらのサーバーのいずれかを実行していない場合は、OAuth 認証を完全に実装することはできません。
   
-そのサーバーのサーバーについても指摘する必要があります認証は省略可能: ビジネスのサーバーの場合の Skype は、(Exchange) などの他のサーバーと通信する必要はありませんし、サーバーからサーバーへの認証を完全にスキップすることができます。 必要はありませんサーバーからサーバーへの認証は、Lync Server 2013 と他のアプリケーション用に既に構成されて、する場合に、Skype のビジネス サーバーのです。 
+また、サーバー間認証は省略可能であることを確認する必要があります。 Skype for Business Server が他のサーバー (Exchange など) と通信する必要がない場合は、サーバー間認証を完全にスキップできます。 サーバー間認証が Lync Server 2013 および他のアプリケーション用に既に構成されている場合は、Skype for Business Server で再実行する必要はありません。 
   
-ただし、サーバーからサーバーへの認証が必要な場合は、機能のいくつかの Skype のサーバーで使用するビジネスなど、統合連絡先ストア」。 統合連絡先ストアに Skype ビジネス サーバーの問い合わせ先については、Exchange に格納されての代わりに Skype でビジネス サーバーのこれにより、Skype のビジネス、Outlook または Outlook Web Access 内から容易にアクセスする連絡先の 1 つのセットがあります。 統合連絡先ストアには、Exchange の情報を共有するのにサーバーをビジネスの Skype が必要とするため、この機能を配置するためにサーバーからサーバーへの認証を使用してください。 サーバーからサーバーへの認証は、個々 のデータベースのレコードとしてではなく、Exchange の電子メールとインスタント メッセージング セッションのトラン スクリプトを保存するアーカイブするには、Exchange を使用する場合にも必要です。
+ただし、「ユニファイド連絡先ストア」など、Skype for Business Server の一部の機能を使用する場合は、サーバー間認証が必要です。 統合連絡先ストアでは、skype for business server の連絡先情報は、Skype for Business Server の代わりに Exchange に保存されています。これにより、ユーザーは、Skype for Business、Outlook、または Outlook Web Access 内から簡単にアクセスできる単一の連絡先セットを使用できます。 ユニファイド連絡先ストアでは、Skype for Business Server で Exchange と情報を共有する必要があるため、機能を展開するには、サーバー間認証を使用する必要があります。 インスタントメッセージングセッションのトランスクリプトは、個別のデータベースレコードとしてではなく Exchange のメールとして保存されるため、Exchange アーカイブの使用を選択した場合は、サーバー間認証も必要になります。
   
-Skype ビジネス サーバーは、対応する Exchange と通信するための Office 365 バージョンでは、Skype のビジネス サーバーはセキュリティ トークンを認証サーバーから取得する必要があります最初。 Skype ビジネス サーバーは、そのセキュリティ トークンを使用して Exchange に自身を識別します。 Office 365 のバージョンの Exchange は、Skype ビジネス サーバーに通信するために同じ処理を完了する必要があります。
+Skype for Business Server の Office 365 バージョンで、その Exchange と通信するためには、まず承認サーバーからセキュリティトークンを取得する必要があります。 次に、Skype for Business Server がそのセキュリティトークンを使用して Exchange に対して身元を確認します。 Skype for Business Server と通信するためには、Office 365 バージョンの Exchange が同じ手順を実行している必要があります。
   
-ただし、マイクロソフトの 2 つのサーバー間で、オンプレミス サーバーからサーバーへの認証の必要はありません、サード ・ パーティ製のトークン サーバーを使用します。 Skype ビジネス サーバーおよび Exchange などのサーバー製品には、サーバーからサーバーへの認証をサポートするその他のマイクロソフト サーバー (SharePoint サーバーなど) と認証のために使用できる組み込みのトークン サーバがあります。 などの Skype ビジネス サーバーのしことができます発行自体は、セキュリティ トークンを署名そのトークンを使用する Exchange と通信します。 このような場合は、サード ・ パーティ製のトークン サーバの必要性はありません。
+ただし、2つの Microsoft サーバー間でのオンプレミスのサーバー間認証の場合、サードパーティのトークンサーバーを使用する必要はありません。 Skype for Business Server や Exchange などのサーバー製品には、サーバー間認証をサポートする他の Microsoft サーバー (SharePoint Server など) との認証を目的として使用できる組み込みのトークンサーバーが用意されています。 たとえば、Skype for Business Server はセキュリティトークンを単独で発行して署名し、そのトークンを使用して Exchange と通信することができます。 このような場合は、サードパーティのトークンサーバーは必要ありません。
   
-ビジネス サーバーの Skype の設置型の実装については、サーバーからサーバーへの認証を構成するのには 2 つの操作を行う必要があります。
+Skype for Business Server のオンプレミス実装用にサーバー間認証を構成するには、次の2つの操作を行う必要があります。
   
-- 組み込みの Skype をビジネスのサーバーのトークンの発行元の証明書を割り当てます。
+- 組み込みの Skype for Business Server トークンの発行者に証明書を割り当てます。
     
-- 「パートナー アプリケーション」である Business Server の Skype の通信となるサーバーを構成します。 たとえば、Skype のビジネス サーバーは、Exchange との通信に必要とする場合は、パートナー アプリケーションである Exchange を構成する必要があります。
+- Skype for Business Server が「パートナーアプリケーション」として通信するサーバーを構成します。 たとえば、Skype for Business Server が Exchange と通信する必要がある場合は、パートナーアプリケーションとして Exchange を構成する必要があります。
     
 > [!NOTE]
-> 「パートナー ・ アプリケーション」は、Skype ビジネス サーバーがサードパーティ製のセキュリティ トークン サーバーを経由することなく、セキュリティ トークンを直接交換が可能な任意のアプリケーションです。 
+> "パートナーアプリケーション" は、サードパーティのセキュリティトークンサーバーを経由せずに、Skype for Business Server がセキュリティトークンを直接交換できるアプリケーションです。 
   
 OAuth は製品の中核部分なので、無効化したり削除したりすることはできません。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype をビジネスのサーバーのサーバーのサーバー認証証明書を割り当てる](assign-a-server-to-server-certificate.md)
+[サーバー間認証証明書を Skype for Business Server に割り当てる](assign-a-server-to-server-certificate.md)
   
-[ビジネス サーバー用の Skype のハイブリッド環境を構成します。](configure-a-hybrid-environment.md)
+[Skype for Business Server でハイブリッド環境を構成する](configure-a-hybrid-environment.md)

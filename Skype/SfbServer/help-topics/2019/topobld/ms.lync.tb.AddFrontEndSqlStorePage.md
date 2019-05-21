@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddFrontEndSqlStorePage
@@ -12,26 +12,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Standard Edition サーバーの展開は、必要なデータベース ソフトウェアの高速に Microsoft SQL Server と SQL Server データベースに自動的にインストールします。 したがって、すべてのオプション、事前に設定されて、既定の構成に変更を加えることはできません。
-ms.openlocfilehash: f90ab8c9fec5149064c2a8b446f6bf21aaba200f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Standard Edition サーバーの展開では、必要な Microsoft SQL Server Express データベースソフトウェアと SQL Server データベースが自動的にインストールされます。 そのため、すべてのオプションがあらかじめ設定されているため、既定の構成を変更することはできません。
+ms.openlocfilehash: 589870007c2a9dea187038e7a4197b16aad25578
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888955"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297745"
 ---
 # <a name="add-front-end-sql-server-store"></a>フロントエンド SQL Server ストアの追加
 
-Standard Edition サーバーの展開は、必要なデータベース ソフトウェアの高速に Microsoft SQL Server と SQL Server データベースに自動的にインストールします。 したがって、すべてのオプション、事前に設定されて、既定の構成に変更を加えることはできません。
+Standard Edition サーバーの展開では、必要な Microsoft SQL Server Express データベースソフトウェアと SQL Server データベースが自動的にインストールされます。 そのため、すべてのオプションがあらかじめ設定されているため、既定の構成を変更することはできません。
 
-Enterprise Edition サーバー展開のフロント エンド プールには、バック エンド データベースの SQL Server データベース ソフトウェアのサポート対象の 64 ビット版が必要です。 バック エンド データベースに使用する定義済みの SQL Server データベースを選択するか、サーバーを SQL Server データベースが存在するが、S の SQL のインスタンスの完全修飾ドメイン名 (FQDN) を指定することで新しい SQL Server データベースの定義erver、新しい SQL Server データベース (既定のインスタンスまたは名前付きインスタンスを指定することができます) を使用します。 SQL Server ストアのミラーリングを有効にするを選択し、自動フェイル オーバーのミラーリング ・ ミラーリング監視サーバーを指定できます。
+Enterprise Edition server 展開のフロントエンドプールには、バックエンドデータベース用の SQL Server データベースソフトウェアのサポートされている64ビット版が必要です。 バックエンドデータベースとして使用するために定義済みの SQL Server データベースを選ぶか、SQL Server データベースが配置されているサーバーの完全修飾ドメイン名 (FQDN) を指定して新しい sql Server データベースを定義するか、SQL S のインスタンスを指定することができます。新しい SQL Server データベース (既定のインスタンスまたは指定した名前付きインスタンス) として使用するサーバー。 SQL Server ストアでミラーリングを有効にし、自動フェールオーバーのミラーリング監視を指定することもできます。
 
-詳細については SQL Server のサポートは、[データベース ソフトウェアとクラスタ リングをサポート](https://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx)サポート マニュアルを参照してください。 バック エンド データベースの SQL Server の設定に関する詳細については、展開に関するドキュメントで[SQL Server の構成](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)を参照してください。
-
-> [!NOTE]
-> (リアルタイム通信 (RTC)) のバック エンド データベースを作成するには、トポロジを公開するために使用されるアカウントに適切なユーザー権利とアクセス許可がある場合、トポロジを公開するとします。 インストール手順の一部として含め、後でデータベースを作成することもできます。
+SQL Server のサポートについて詳しくは、「サポートドキュメント」の「[データベースソフトウェアとクラスタリングのサポート](https://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx)」をご覧ください。 バックエンドデータベース用の SQL Server のセットアップの詳細については、「展開ドキュメントで[Sql server を構成する](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)」を参照してください。
 
 > [!NOTE]
-> インストールおよび展開の場合エンタープライズ版の SQL Server ベースのサーバー上のデータベースを展開、データベース ファイルをインストールしている SQL Server ベースのサーバーの SQL Server システム管理者グループのメンバーをする必要があります。 SQL Server のシステム管理者グループのメンバーでない場合は、データベース ファイルを展開するまでに、グループに追加する要求する必要があります。 システム管理者グループのメンバーにすることはできません、スクリプトを構成して、データベースを配置すると、SQL Server データベースの管理者を入力してください。 ユーザー権利とアクセス許可の手順を実行する必要があるの詳細については、 [SQL Server の展開のアクセス許可](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx)を参照してください。
+> トポロジを公開するために使用されるアカウントに適切なユーザー権限と権限がある場合は、トポロジを公開するときにバックエンドデータベース (リアルタイム通信 (RTC)) を作成することができます。 また、インストール手順の一部として、後でデータベースを作成することもできます。
+
+> [!NOTE]
+> Enterprise Edition の展開のために SQL Server ベースのサーバーにデータベースをインストールして展開するには、データベースファイルをインストールする SQL server ベースのサーバーの SQL Server 管理者グループのメンバーである必要があります。 SQL Server の [ユーザー名] グループのメンバーでない場合は、データベースファイルが展開されるまで、グループに追加するように依頼する必要があります。 [管理者] グループのメンバーになることができない場合は、SQL Server データベース管理者に、データベースを構成して展開するためのスクリプトを用意する必要があります。 手順を実行するために必要なユーザー権限と権限の詳細については、「 [SQL Server の展開権限](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx)」を参照してください。
 
 

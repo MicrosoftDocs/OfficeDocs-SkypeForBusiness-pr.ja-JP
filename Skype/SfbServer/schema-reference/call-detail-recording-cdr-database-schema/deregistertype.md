@@ -1,30 +1,30 @@
 ---
-title: ビジネス サーバー 2015 の Skype での DeRegisterType テーブル
+title: Skype for Business Server 2015 の DeRegisterType テーブル
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
-description: DeRegisterType テーブルは、可能性のあるユーザーの一覧を格納する静的なテーブルが 'クライアントの開始'、'登録の期限が切れて' 'クライアントが応答を停止して' などの種類を登録解除
-ms.openlocfilehash: 958de5dd537f391ca75936ad86a84cb6fed0778d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: DeRegisterType テーブルは、可能なユーザーのレジスタ型 ("クライアントで開始された"、"登録の期限切れ"、または "クライアントが応答を停止しました" など) の一覧を格納する静的テーブルです。
+ms.openlocfilehash: 794f8f98ffe20cd69b63fd2084fee38ed055d40f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901174"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296351"
 ---
-# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での DeRegisterType テーブル
+# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の DeRegisterType テーブル
  
-DeRegisterType テーブルは、可能性のあるユーザーの一覧を格納する静的なテーブルが 'クライアントの開始'、'登録の期限が切れて' 'クライアントが応答を停止して' などの種類を登録解除
+DeRegisterType テーブルは、可能なユーザーのレジスタ型 ("クライアントで開始された"、"登録の期限切れ"、または "クライアントが応答を停止しました" など) の一覧を格納する静的テーブルです。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**DeRegisterTypeId** <br/> |tinyint  <br/> |Primary  <br/> ||
-|**DeRegisterReason** <br/> |nvarchar(256)  <br/> || 使用可能な値: <br/>  0 - 不明 <br/>  1--クライアント開始の登録解除します。 <br/>  2-登録の有効期限が切れてください。 <br/>  3-クライアントがクラッシュしました。 <br/>  4--ユーザー属性の変更 <br/>  5-優先レジストラーの変更 <br/>  サバイバル モードでの 6 - レガシ クライアント <br/> |
+|**DeRegisterReason** <br/> |nvarchar(256)  <br/> || 許可される値: <br/>  0--不明 <br/>  1--クライアントが開始した登録解除 <br/>  2--登録が期限切れになりました <br/>  3-クライアントがクラッシュした <br/>  4--ユーザー属性が変更されました <br/>  5-優先レジストラーが変更されました <br/>  6--サバイバルモードでのレガシークライアント <br/> |
    
 

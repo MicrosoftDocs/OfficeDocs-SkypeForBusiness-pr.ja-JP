@@ -3,60 +3,60 @@ title: Skype Room System の移行に関する考慮事項
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: ビジネス サーバーと Lync Server の複数のバージョンの Skype を持つ環境で Skype ルームのシステムを展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: f5e33c36b0c6a58d83f22e5c18f4de34ffb9d648
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このトピックでは、複数のバージョンの Skype for Business Server および Lync Server を使用している環境に Skype Room システムを展開する方法について説明します。
+ms.openlocfilehash: 35dd7cff34134791ebaf62bf4d0fcd1cf3b83a4c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895217"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293523"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype Room System の移行に関する考慮事項
  
-ビジネス サーバーと Lync Server の複数のバージョンの Skype を持つ環境で Skype ルームのシステムを展開する方法の詳細については、このトピックを参照してください。
+このトピックでは、複数のバージョンの Skype for Business Server および Lync Server を使用している環境に Skype Room システムを展開する方法について説明します。
   
 ## <a name="migration-considerations"></a>移行に関する考慮事項
 
-このセクションでは、ビジネス サーバー、または Lync Server のさまざまなバージョンの Skype を含む複数のプール環境で Skype ルームのシステムを導入する場合のガイダンスを示します。 
+このセクションでは、さまざまなバージョンの Skype for Business Server (Lync Server) を含むマルチプール環境に Skype Room システムを展開する場合のガイダンスを示します。 
   
-Lync Server のユーザー レプリケーター (UR) コンポーネントは、Active Directory からユーザー オブジェクトを取得し、それを Lync Server のバックエンドである SQL Server データベースに登録します。 Skype ルームのシステム オブジェクトへの対応、Lync Server 2013 で UR のみです。 前のバージョンの Lync Server および Office Communications Server の UR は、LRS オブジェクトを指定する Active Directory 属性を検出しないため、認識もできません。 
+Lync Server のユーザー レプリケーター (UR) コンポーネントは、Active Directory からユーザー オブジェクトを取得し、それを Lync Server のバックエンドである SQL Server データベースに登録します。 Lync Server 2013 の UR のみが、Skype Room System オブジェクトを認識しています。 前のバージョンの Lync Server および Office Communications Server の UR は、LRS オブジェクトを指定する Active Directory 属性を検出しないため、認識もできません。 
   
-Skype ルーム システム アカウントが Lync にサインインしようとすると、SRV レコード、または、DNS の A レコードの検索に基づく自動検出を実行し、それらのアカウントが Lync Server または Office Communications Server の以前のバージョンを指す場合、LRS は応答が 404 見つかりませんから 従来のプールです。 従来のプールは Skype ルームのシステムを Lync Server 2013 のホーム プールにリダイレクトすることができません。 
+Skype Room System アカウントが Lync にサインインしようとして、SRV レコードまたは DNS A レコードに基づいて自動検出を実行していて、それらのアカウントが以前のバージョンの Lync Server または Office Communications Server をポイントしている場合、LRS はから404が見つかりませんでした。 従来のプール。 従来のプールでは、Skype Room システムを Lync Server 2013 ホームプールにリダイレクトすることはできません。 
   
 この問題は、次の方法で対応できます。 
   
 - 自動検出 SRV レコード (_sipinternaltls._tcp.contoso.com) で Lync Server 2013 プールを参照させる。
     
-- 最初のオプションが使用できない場合は、LRS を構成して Skype ルーム システムのコンソール アプリケーションで直接構成することによって、Lync Server 2013 プールのアドレスを提供する手動でする必要があります。 
+- 最初のオプションが利用できない場合は、LRS を手動で構成して、Lync Server 2013 プールアドレスを提供する必要があります。 Skype Room System コンソールアプリケーションで直接構成します。 
     
-- Skype ルーム システムは、企業ネットワークの外部展開し、Lync エッジ サーバーを展開し、従来のプールまたはディレクターを指すように構成されている、エッジ サーバーのセカンダリ サイトが必要な場合は、Lync Server 2013 プールを指します。 2 台目の Edge Server の展開に関する情報は、Edge Server の展開に関するドキュメントを参照してください。 
+- Skype Room System が企業ネットワークの外部に展開されていて、Lync Edge サーバーが展開されて、従来のプールまたはディレクターをポイントするように構成されている場合は、Lync Server 2013 プールを参照するセカンダリエッジサーバーサイトが必要です。 2 台目の Edge Server の展開に関する情報は、Edge Server の展開に関するドキュメントを参照してください。 
     
-## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Lync Server 2010 プールで Skype ルーム システムの相互運用性
+## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Lync Server 2010 プールを使った Skype Room System の相互運用性
 
-移行中に、Lync Server 2010 プール上のホーム ユーザーは、会議をスケジュールし、Skype ルーム システム アカウントへの招待の場合 Skype ルーム システムのクライアントの機能が制限、ミーティングへの参加中に。 
+移行中に、Lync Server 2010 プールをホームにしているユーザーが会議をスケジュールし、Skype Room System アカウントを招待した場合、Skype Room System クライアントは、会議に出席するときに制限された機能を持つことになります。 
   
-Skype ルーム システム クライアント別に整理しているスケジュールされた電話会議に参加するときは、ユーザーが Lync Server 2010 のホーム、Skype ルームのシステムには次の会議での制限。 
+Skype Room System クライアントが、Lync Server 2010 を使っているユーザーによって開催されたスケジュールされた電話会議に参加すると、Skype Room System には以下の会議の制限があります。 
   
-- Skype ルーム システムは、複数のビューのビデオ ギャラリーを表示できません。
+- Skype Room System では、マルチビュービデオギャラリーを表示できません。
     
-- Skype ルーム システムのクライアントが発表者の場合は、参加者のビデオのロックに適用できません。
+- Skype Room System クライアントが発表者である場合、参加者にビデオロックを適用することはできません。
     
-- Skype ルーム システムは、場合でも、Lync Server 2013 の会議ポリシーは、次の理由により、1080 p ビデオの解像度 (受信または発信) を表示できません。 
+- Lync Server 2013 会議ポリシーで許可されている場合でも、次の理由により、1080p のビデオ解像度 (受信または送信) を表示できません。 
     
-  - Lync Server 2010 では、1080 p の解像度をサポートしていません。
+  - Lync Server 2010 は、1080p の解像度をサポートしていません。
     
-  - Skype ルーム システムは、ビデオの解像度の開催者の会議のポリシーが常に制限されます。 したがって、Lync 2010 のプールでは、720 p の解像度をサポートする場合でも Skype ルーム システムできなく主催者のポリシーをサポートしていない限り、720 p の解像度を利用します。 
+  - Skype Room System は、ビデオ解像度の開催者の会議ポリシーによって常に制限されています。 したがって、Lync 2010 プールが720p の解像度をサポートしている場合でも、開催者のポリシーでサポートされていない限り、Skype Room システムは720p の解像度を利用することはできません。 
     
 - Lync 2013 クライアントは、会議室の LRS プレゼンスを検出し、自動ミュートにより実際の会議室のエコーを回避します。この機能は、Lync Server 2010 でホストされている会議では動作しません。
     
 - Lync Server 2010 でホストされている会議では、デスクトップ共有のパフォーマンスに制限が生じます。
     
-- ユーザーはプライベート (制限された) 会議でホストされている Skype ルームのシステムと Lync 2010 に参加することはできません。
+- ユーザーは、Skype Room System で Lync 2010 上でホストされているプライベート (制限された) 会議に参加することはできません。
     
 

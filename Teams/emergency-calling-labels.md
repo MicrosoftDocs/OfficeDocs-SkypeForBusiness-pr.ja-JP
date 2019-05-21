@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Office 365 で通話プランを使用している場合は、緊急通話用にこれらのラベルをダウンロードできます。
-ms.openlocfilehash: 2b88bfe984aed655a78f69a580fdd1d510f3d8e1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
-ms.translationtype: HT
+ms.openlocfilehash: 0a8476fbe671b55136db371b5a83f778c3ba22c0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542001"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298884"
 ---
 # <a name="emergency-calling-labels"></a>緊急通話ラベル
 

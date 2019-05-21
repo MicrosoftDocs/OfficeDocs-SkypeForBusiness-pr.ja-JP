@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
-description: 各レコードは、ピア ツー ピア セッションで使用される 1 つのメディアの種類を表します。 セッションは 1 つで表されます、テーブル内の複数のレコード 1 つ以上のメディア タイプを使用する場合。
-ms.openlocfilehash: 76441c350241415aacac150e1e5dec2638302075
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 各レコードは、ピアツーピアセッションで使用される1つのメディアの種類を表します。 複数のメディアの種類を使用している場合は、1つのセッションがテーブル内の複数のレコードで表されます。
+ms.openlocfilehash: 181a78a9fc3fabe8c166f4cdc8c452b5a16b016b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930645"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296008"
 ---
 # <a name="media-table"></a>Media テーブル
  
-各レコードは、ピア ツー ピア セッションで使用される 1 つのメディアの種類を表します。 セッションは 1 つで表されます、テーブル内の複数のレコード 1 つ以上のメディア タイプを使用する場合。
+各レコードは、ピアツーピアセッションで使用される1つのメディアの種類を表します。 複数のメディアの種類を使用している場合は、1つのセッションがテーブル内の複数のレコードで表されます。
   
 > [!NOTE]
-> Media テーブルは、セッションのメディアの長さを計算するのにはない使用してください。 このテーブルには、セッションでのメディアの交換のシグナルの詳細が含まれています。 INVITE 要求、メディアの交換を行うし、開始時刻は、招待状が送信された時刻を示します。招待時間は必ずしもメディアの開始時刻、メディアは、sessionee がセッションを受け入れた後にのみ開始されるためです。 終了時刻は、通常、このセッションの終了時刻を意味します。 
+> メディアテーブルを使って、セッションのメディアの再生時間を計算することはできません。 この表には、セッションでのメディア交換の信号の詳細が含まれています。 メディア交換は INVITE 要求によって実行され、StartTime は招待が送信された時間を示します。この招待は、セッションの開始時刻を意味するわけではありません。これは、セッションを開始した後にのみメディアが開始されるためです。 通常、EndTime はこのセッションの終了時刻を示します。 
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |プライマリ サーバーで、外部  <br/> |セッションの要求の時間です。 セッションを一意に識別するのには**SessionIdSeq**と組み合わせてを使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |プライマリ サーバーで、外部  <br/> |セッションを識別する ID 番号。 セッションを一意に識別するのには**SessionIdTime**と組み合わせてを使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
-|**MediaId** <br/> |tinyint  <br/> |プライマリ サーバーで、外部  <br/> |このメディアの種類を識別する一意の番号です。 詳細については[メディアの表](medialist.md)を参照してください。 <br/> |
-|**StartTime** <br/> |datetime  <br/> |Primary  <br/> |メディアの要求が送信された時刻は、実際のメディアではなく開始時間。 **開始時刻**には、セッションのセットアップ時間が含まれています。 <br/> |
-|**EndTime** <br/> |datetime  <br/> ||これは、セッションの終了時刻です。  <br/> |
+|**セッション Id** <br/> |datetime  <br/> |プライマリ、外部  <br/> |セッション要求の時刻。 セッションを一意に識別するために**Sessionidseq**と組み合わせて使用されます。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |プライマリ、外部  <br/> |セッションを識別する ID 番号。 セッションを一意に識別するために**Sessionidtime**と組み合わせて使用されます。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
+|**MediaId** <br/> |tinyint  <br/> |プライマリ、外部  <br/> |このメディアの種類を識別する一意の番号です。 詳細については、 [Medialist の表](medialist.md)を参照してください。 <br/> |
+|**StartTime** <br/> |datetime  <br/> |Primary  <br/> |これは、実際のメディアの開始時刻ではなく、メディア要求が送信された時刻です。 **StartTime**には、セッションのセットアップ時間が含まれます。 <br/> |
+|**EndTime** <br/> |datetime  <br/> ||これはセッションの終了時刻です。  <br/> |
    
 

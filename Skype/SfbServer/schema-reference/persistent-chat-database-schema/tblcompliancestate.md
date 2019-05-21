@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
-description: tblComplianceState には、プール全体にわたるコンプライアンスの状態情報が含まれています。
-ms.openlocfilehash: 6f6b3891638fc3d769c0b0f4f4a42ca5f94a5a54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblComplianceState には、プール全体のコンプライアンスの状態に関する情報が含まれています。
+ms.openlocfilehash: 1c5571d7150c3859978f8d217f0264f67ee993d5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929848"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295476"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  
-tblComplianceState には、プール全体にわたるコンプライアンスの状態情報が含まれています。
+tblComplianceState には、プール全体のコンプライアンスの状態に関する情報が含まれています。
   
-**列**
+**行**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|lastProcessedEntryID  <br/> |bigint 型の値、null でないです。  <br/> |最新の処理されたコンプライアンス イベントの ID です。  <br/> |
-|activeServerID  <br/> |int 型、null でないです。  <br/> |なしの場合は、データベース、または-1 の排他ロックを保持しているコンプライアンス サーバーの ID です。  <br/> |
-|lockExpirationTime  <br/> |datetime2、null でないです。  <br/> |(ActiveServerID が-1 でない場合) は、有効期限をロックします。  <br/> |
+|lastProcessedEntryID  <br/> |bigint (null ではない)  <br/> |最新の処理済みのコンプライアンスイベントの ID です。  <br/> |
+|activeServerID  <br/> |int (null ではない)  <br/> |データベースの排他ロックを保持しているコンプライアンスサーバーの ID。または、なしの場合は-1。  <br/> |
+|lockExpirationTime  <br/> |datetime2、null ではない  <br/> |有効期限をロックします (activeServerID が-1 でない場合)。  <br/> |
    
 

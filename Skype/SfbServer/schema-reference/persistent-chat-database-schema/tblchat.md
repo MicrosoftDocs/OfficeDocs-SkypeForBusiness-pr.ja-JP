@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
-description: tblChat には、すべてのチャット メッセージが含まれています。
-ms.openlocfilehash: 77aa6ec803803a0f38e02c01167d0bbc5f090080
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblChat には、すべてのチャットメッセージが含まれています。
+ms.openlocfilehash: 15c7030fe14f62c5d32af54c0f5a6901da3f977b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929911"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295539"
 ---
 # <a name="tblchat"></a>tblChat
  
-tblChat には、すべてのチャット メッセージが含まれています。
+tblChat には、すべてのチャットメッセージが含まれています。
   
-**列**
+**行**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|channelId  <br/> |int 型、null でないです。  <br/> |ノードの id。  <br/> |
-|chatId  <br/> |bigint 型の値、null でないです。  <br/> |一意な連番 (ノード ID) あたり tblLastChatId テーブルで生成された、チャット ルームの順序を定義します。  <br/> |
-|chatDate  <br/> |bigint 型の値、null でないです。  <br/> |チャット メッセージのタイムスタンプです。  <br/> |
-|ユーザー Id  <br/> |int 型、null でないです。  <br/> |投稿者のプリンシパルの ID です。  <br/> |
-|isAlert  <br/> |ビットの null でないです。  <br/> |メッセージ警告メッセージが表示される場合は true。 False を指定することはありません。  <br/> |
-|コンテンツ  <br/> |nvarchar (max)、null でないです。  <br/> | チャットのコンテンツ (テキスト形式)。 コンテンツは、通常のプレーン テキストでは、次の例外。 <br/>  ファイルが ma filelink として表される: リンクします。 <br/>  リンクは HTML 要素として表されます (ただし、コンテンツの種類は、HTML を考慮することはできません)。 <br/>  ストーリーは、「[ストーリー]...」としてエンコードの形式と同じようにします。 <br/> |
-|rtf  <br/> |は  <br/> |チャット内容 (rtf)。 クライアントが提供されない場合は Null である可能性があります。  <br/> |
+|channelId  <br/> |int (null ではない)  <br/> |ノード ID。  <br/> |
+|chatId  <br/> |bigint (null ではない)  <br/> |TblLastChatId テーブルによって生成されたチャットルームの順序を定義する一意の連続番号 (1 ノードあたりの ID)。  <br/> |
+|chatDate  <br/> |bigint (null ではない)  <br/> |チャットメッセージのタイムスタンプ。  <br/> |
+|userId  <br/> |int (null ではない)  <br/> |ポスターのプリンシパル ID。  <br/> |
+|isAlert  <br/> |ビット、null ではない  <br/> |メッセージが通知メッセージの場合は True です。 見つからない場合は False。  <br/> |
+|コンテンツ  <br/> |nvarchar (max)、null ではない  <br/> | チャットコンテンツ (テキスト形式)。 通常、コンテンツはテキスト形式であり、次の例外があります。 <br/>  ファイルは、ma-filelink: リンクとして表されます。 <br/>  リンクは HTML 要素として表示されます (ただし、コンテンツの種類は HTML と見なすことはできません)。 <br/>  ストーリーは、"[ストーリー]..." という形式でエンコードされます。 <br/> |
+|rtf  <br/> |varchar (max)  <br/> |チャットコンテンツ (RTF バージョン)。 クライアントが指定しない場合は Null になります。  <br/> |
    
 **キー**
 
 |**列**|**説明**|
 |:-----|:-----|
-|\<channelID、chatD\>  <br/> |プライマリ ・ キーです。  <br/> |
+|\<channelID、chatD\>  <br/> |主キー。  <br/> |
    
 

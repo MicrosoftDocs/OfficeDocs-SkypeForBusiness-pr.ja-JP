@@ -1,33 +1,33 @@
 ---
-title: ビジネス サーバー 2015 の Skype での ConferenceUris テーブル
+title: Skype for Business Server 2015 の ConferenceUris テーブル
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
-description: ConfereneUris テーブルは、さまざまな会議をデータベースに記録されている会議セッションに参加している Uri のリストを格納するサポート テーブルです。 テーブル内の各レコードは、1 つの会議の URI を表します。
-ms.openlocfilehash: 70cb3ccecf1c63dd128cbffd6ac205e77c771835
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ConfereneUris テーブルは、データベースに記録された会議セッションに参加しているさまざまな会議の Uri のリストを格納するサポートテーブルです。 テーブル内の各レコードは、1つの会議 URI を表します。
+ms.openlocfilehash: 60f9952fa1fcc5b1a1a651c44beaed894a387b81
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901067"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296393"
 ---
-# <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での ConferenceUris テーブル
+# <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の ConferenceUris テーブル
  
-ConfereneUris テーブルは、さまざまな会議をデータベースに記録されている会議セッションに参加している Uri のリストを格納するサポート テーブルです。 テーブル内の各レコードは、1 つの会議の URI を表します。
+ConfereneUris テーブルは、データベースに記録された会議セッションに参加しているさまざまな会議の Uri のリストを格納するサポートテーブルです。 テーブル内の各レコードは、1つの会議 URI を表します。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**NextUpdateTS** <br/> |datetime  <br/> |Primary  <br/> |タイム ・ スタンプ、内部のために使用します。  <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Primary  <br/> |この会議の URI を識別する一意の番号です。  <br/> |
-|**ConferenceUri** <br/> |nvarchar(450)  <br/> ||会議 URI です。  <br/> |
-|**チェックサム** <br/> |int  <br/> ||ConferenceUri のチェックサムです。 使用するデータベースの検索の速度が向上します。  <br/> |
-|**UriTypeId** <br/> |int  <br/> |外部  <br/> |IM 会議、または conf:audio の conf:chat など、URI の種類-オーディオ/ビデオ会議のビデオ。 詳細については、 [UriTypes テーブル](uritypes.md)のテーブルを参照してください。 <br/> |
+|**Nextupdatupdat** <br/> |datetime  <br/> |Primary  <br/> |タイムスタンプ、内部使用。  <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Primary  <br/> |この会議 URI を識別する一意の番号です。  <br/> |
+|**ConferenceUri** <br/> |nvarchar (450)  <br/> ||会議の URI。  <br/> |
+|**サム** <br/> |int  <br/> ||ConferenceUri のチェックサム。 データベースの検索速度を上げるために使われます。  <br/> |
+|**UriTypeId** <br/> |int  <br/> |外部  <br/> |URI の種類 ("conf: IM 会議用チャット" または "conf: 音声/ビデオ会議用のオーディオビデオ" など)。 詳細については、 [UriTypes テーブル](uritypes.md)の表を参照してください。 <br/> |
    
 

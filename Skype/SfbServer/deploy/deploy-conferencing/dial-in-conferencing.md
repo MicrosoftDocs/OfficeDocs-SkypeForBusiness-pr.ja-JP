@@ -1,27 +1,27 @@
 ---
-title: Skype のビジネス サーバーのダイヤルイン会議を構成します。
+title: Skype for Business Server でダイヤルイン会議を設定する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
-description: '概要: は、Skype のビジネス サーバーのダイヤルイン会議を構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: e523c454ed54158ab617d8aa87592614954f32e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server でダイヤルイン会議を構成する方法については、こちらのトピックをお読みください。'
+ms.openlocfilehash: 7c62ef5ec984fe89033aa4813bca9674979c1c36
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895006"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298236"
 ---
-# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Skype のビジネス サーバーのダイヤルイン会議を構成します。
+# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でダイヤルイン会議を設定する
  
-**の概要:** Skype のビジネス サーバーのダイヤルイン会議を構成する方法の詳細については、このトピックを参照してください。
+**概要:** このトピックでは、Skype for Business Server でダイヤルイン会議を構成する方法について説明します。
   
-会議ワークロードおよびダイヤルイン会議の選択を含むトポロジを作成した後は、ダイヤルイン会議を構成する追加の手順を行う必要があります。 確認すること、このトピックを読む前に読んだ[ビジネス サーバーの Skype では、ダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)、[ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェア要件](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)、および[展開フローチャートとチェックリストダイヤルイン会議](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)。 
+会議のワークロードと選択されたダイヤルイン会議を含むトポロジを作成した後で、ダイヤルイン会議を構成するための追加の手順を実行する必要があります。 このトピックを読む前に、「Skype for Business server での[ダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)」、「 [Skype for business server の会議のハードウェアとソフトウェアの要件](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)」、および「展開の[フローチャートとチェックリスト」を参照してください。ダイヤルイン会議](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)。 
   
 ダイヤルイン会議を構成するには、次のタスクを実行する必要があります。
   
@@ -35,7 +35,7 @@ ms.locfileid: "33895006"
     
 - [Assign a Line URI to a user account](dial-in-conferencing.md#BKMK_AssignaLineURI)
     
-また、以下のオプションのタスクを実行することもできます。 これらの省略可能なタスクの詳細については、 [Skype のビジネス サーバーにダイヤルイン会議の管理](../../manage/conferencing/dial-in-conferencing.md)を参照してください。
+また、以下のオプションのタスクを実行することもできます。 これらのオプションのタスクの詳細については、「 [Skype For Business Server でダイヤルイン会議を管理](../../manage/conferencing/dial-in-conferencing.md)する」を参照してください。
   
 - ダイヤルイン会議の PIN ポリシーの管理
     
@@ -52,19 +52,19 @@ ms.locfileid: "33895006"
 ## <a name="configure-dial-plans"></a>ダイヤル プランを構成する
 <a name="BKMK_ConfigureDialPlans"> </a>
 
-ダイヤルイン会議を展開するときは、作成またはルーティングのダイヤルインのアクセス電話番号を 1 つまたは複数のダイヤル プランを変更する必要があります。 ダイヤル プランごとに少なくとも 1 つの正規化規則--E.164 形式の完全な電話番号に電話の拡張機能を変換するルールが含まれていることも確認する必要があります。 
+ダイヤルイン会議を展開するときに、ダイヤルインアクセス用電話番号をルーティングするための1つ以上のダイヤルプランを作成または変更する必要があります。 また、各ダイヤルプランに少なくとも1つの正規化ルールが含まれていることを確認する必要があります。また、電話の内線番号を完全な電話番号に変更するには、必ず1つのルールを使用してください。 
   
 ダイヤルイン会議のユーザーは、自らの暗証番号 (PIN) と電話番号を入力することで、認証されたエンタープライズ ユーザーとして会議に参加します。内線番号を総合的な電話番号に変化する正規化ルールを管理者が定義する必要があり、その結果、ユーザーは内線番号のみを入力したときに認証を受けることができます。
   
 ダイヤルイン会議のダイヤル プランをセットアップするには
   
-- エンタープライズ VoIP を展開するかどうかに関係なく、グローバル ダイヤル プランを変更して、ダイヤルイン会議の地域を追加し、正規化ルールによりダイヤルイン アクセス番号が正確に変換されることを確認します。 詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
+- エンタープライズ VoIP を展開するかどうかに関係なく、グローバル ダイヤル プランを変更して、ダイヤルイン会議の地域を追加し、正規化ルールによりダイヤルイン アクセス番号が正確に変換されることを確認します。 詳細な手順については、「 [Skype For Business Server でダイヤルプランを作成または変更](../../deploy/deploy-enterprise-voice/dial-plans.md)する」を参照してください。
     
-- エンタープライズ VoIP が展開されていない場合は、ダイヤルイン会議のアクセス電話番号に対応するダイヤル プランを作成します。 ダイヤルイン会議の地域を忘れないようにしてください。 詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
+- エンタープライズ VoIP が展開されていない場合は、ダイヤルイン会議のアクセス電話番号に対応するダイヤル プランを作成します。 ダイヤルイン会議の地域を忘れないようにしてください。 詳細な手順については、「 [Skype For Business Server でダイヤルプランを作成または変更](../../deploy/deploy-enterprise-voice/dial-plans.md)する」を参照してください。
     
-- エンタープライズ VoIP が展開されている場合は、必要に応じてエンタープライズ VoIP を変更して地域を含め、ダイヤルイン アクセス番号のための適切な正規化ルールを使用します。 また、ダイヤルイン アクセス番号のみのために使用する、専用のダイヤル プランを作成することもできます。 詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
+- エンタープライズ VoIP が展開されている場合は、必要に応じてエンタープライズ VoIP を変更して地域を含め、ダイヤルイン アクセス番号のための適切な正規化ルールを使用します。 また、ダイヤルイン アクセス番号のみのために使用する、専用のダイヤル プランを作成することもできます。 詳細な手順については、「 [Skype For Business Server でダイヤルプランを作成または変更](../../deploy/deploy-enterprise-voice/dial-plans.md)する」を参照してください。
     
-正規化ルールを作成する方法についてを参照してください[を作成するまたはビジネス用の Skype の正規化ルールを変更する](../../deploy/deploy-enterprise-voice/normalization-rules.md)です。
+正規化ルールの作成の詳細については、「 [Skype For business で正規化ルールを作成または変更](../../deploy/deploy-enterprise-voice/normalization-rules.md)する」を参照してください。
   
 ## <a name="configure-dial-in-conferencing-regions"></a>ダイヤルイン会議の地域の構成
 <a name="BKMK_ConfigureDialInRegions"> </a>
@@ -73,7 +73,7 @@ ms.locfileid: "33895006"
   
 すべてのダイヤル プランに地域を指定することは重要であるため、すべてのダイヤル プランに会議の地域があることを確認するようにお勧めします。 
   
-すべてのダイヤルイン会議のダイヤル プランで地域が設定されているかどうかを確認するには、**Get-CsDialPlan** コマンドレットを使用します。 ダイヤル プランに地域がない場合は、**Set-CsDialPlan** コマンドレットを使用して地域を設定できます。 既存のダイヤル プラン内の領域を更新するのには Skype ビジネス サーバーのコントロール パネルを使用することもできます。 Skype のビジネス サーバーのコントロール パネルの使用に関する詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
+すべてのダイヤルイン会議のダイヤル プランで地域が設定されているかどうかを確認するには、**Get-CsDialPlan** コマンドレットを使用します。 ダイヤル プランに地域がない場合は、**Set-CsDialPlan** コマンドレットを使用して地域を設定できます。 また、Skype for Business Server コントロールパネルを使用して、既存のダイヤルプランの領域を更新することもできます。 Skype for Business Server コントロールパネルの使用について詳しくは、「 [skype For Business server でダイヤルプランを作成または変更](../../deploy/deploy-enterprise-voice/dial-plans.md)する」をご覧ください。
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>ダイヤル プランで地域プロパティが設定されているかどうかを確認するには
 
@@ -97,7 +97,7 @@ ms.locfileid: "33895006"
     
 4. 戻されたダイヤル プランを確認して、ダイヤルイン会議の地域が含まれていないものを識別します。 
     
-詳細については、 [Get CsDialPlan](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps)を参照してください。
+詳細については、「 [Get-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps)」を参照してください。
   
 ### <a name="to-set-the-region-property-for-a-dial-plan"></a>ダイヤル プランの地域プロパティを設定するには
 
@@ -119,26 +119,26 @@ ms.locfileid: "33895006"
 
    この例では、Redmond という Identity を持つダイヤル プランを変更して、DialinConferencingRegion プロパティを "US West Coast" に設定します。 
     
-詳細については、[一連の CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps)を参照してください。
+詳細については、「 [Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps)」を参照してください。
   
 ## <a name="configure-dial-in-access-numbers"></a>ダイヤルイン アクセス番号を構成する
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
 
 ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。 それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。
   
-ダイヤルイン アクセス番号を作成する前に、まずダイヤルイン会議の域を計画し、その地域のダイヤル プランを構成する必要があります。 領域に関する詳細については、 [Skype のビジネス サーバーにダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)を参照してください。 ダイヤルイン会議の計画をダイヤルすると、構成の詳細について参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
+ダイヤルイン アクセス番号を作成する前に、まずダイヤルイン会議の域を計画し、その地域のダイヤル プランを構成する必要があります。 地域の詳細については、「 [Skype For Business Server でのダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)」を参照してください。 ダイヤルイン会議のダイヤルプランの設定の詳細については、「 [Skype For Business Server でダイヤルプランを作成または変更](../../deploy/deploy-enterprise-voice/dial-plans.md)する」を参照してください。
   
 > [!NOTE]
 > 新しいダイヤルイン アクセス番号は、そのアクセス番号の Active Directory ドメイン サービス (AD DS) レプリケーションが完了するまで使用できません。レプリケーションが完了するまでに数時間かかることがあります。 
   
 > [!NOTE]
-> ダイヤルイン アクセス番号を作成した後は、Active Directory の連絡先オブジェクトの表示名を変更し、ユーザーが正しいアクセス番号を識別しやすくすることができます。 表示名を変更するには、[セット CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps)コマンドレットを使用します。 Active Directory のオブジェクトは手動で変更しないでください。
+> ダイヤルイン アクセス番号を作成した後は、Active Directory の連絡先オブジェクトの表示名を変更し、ユーザーが正しいアクセス番号を識別しやすくすることができます。 表示名を変更するには、 [CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps)コマンドレットを使用します。 Active Directory のオブジェクトは手動で変更しないでください。
   
 ### <a name="to-create-a-dial-in-access-number"></a>ダイヤルイン アクセス番号を作成するには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. Skype をビジネス サーバーのコントロール パネルを開きます。
+2. Skype for Business Server コントロールパネルを開きます。
     
 3. 左側のナビゲーション バーで [**会議**] をクリックし、[**ダイヤルイン アクセス番号**] をクリックします。
     
@@ -153,7 +153,7 @@ ms.locfileid: "33895006"
   
 5. [**表示番号**] に、公衆交換電話網 (PSTN) 電話を使用するユーザーが会議に参加するときにダイヤルする、電話番号を入力します。この番号は、会議出席依頼とダイヤルイン会議設定 Web ページに表示されます。
     
-6. [**表示名**] に、ダイヤルイン アクセス番号の説明を入力します。 これは、ビジネスの検索結果の Skype でダイヤルイン アクセス番号に関連付けられている名前です。 この名前は、ユーザーがアクセス番号を呼び出すとき、クライアントで表示されます。 
+6. [**表示名**] に、ダイヤルイン アクセス番号の説明を入力します。 これは、Skype for Business の検索結果のダイヤルインアクセス番号と関連付けられた名前です。 この名前は、ユーザーがアクセス番号を呼び出すとき、クライアントで表示されます。 
     
 7. [**回線 URI**] に、ダイヤルイン アクセス番号の E.164 番号を、電話番号の前に + 記号を付加し、スペースを含めない電話 URI 形式で入力します。たとえば、tel:+14255550200 のように入力します。
     
@@ -162,12 +162,12 @@ ms.locfileid: "33895006"
   
 8. [**SIP URI**] で、次の操作を行ってください。
     
-   - テキスト ボックスで、このダイヤルイン会議アクセス番号の一意の SIP URI を入力します。 この SIP URI などのさまざまな場所が通知メッセージ、および以前のバージョンの Lync クライアントの呼び出しに限定されません。
+   - テキスト ボックスで、このダイヤルイン会議アクセス番号の一意の SIP URI を入力します。 この SIP URI は、通話通知メッセージや以前のバージョンの Lync クライアントのように、さまざまな場所に表示されます。
     
      > [!NOTE]
      > 同じ SIP URI を、別のダイヤルイン会議アクセス番号で再利用することはできません。SIP URI を、アクセス番号の作成後に変更することはできません。SIP URI を変更する唯一の方法は、アクセス番号を削除して再作成することです。 
   
-   - ドロップダウン リスト ボックスで、このダイヤルイン アクセス番号をサポートする会議アテンダント アプリケーションのドメインをクリックします。
+   - ドロップダウンリストボックスで、ダイヤルインアクセス番号をサポートする会議アテンダントアプリケーションのドメインをクリックします。
     
 9. [**プール**] で、このダイヤルイン アクセス番号をサポートする会議アテンダントのインスタンスを実行するプールをクリックします。
     
@@ -182,7 +182,7 @@ ms.locfileid: "33895006"
     
     ダイヤルイン アクセス番号ごとに最大 4 つの第 2 言語を選択できます。ユーザーは、会議にダイヤルインする際に会議 ID を入力する前に、第 2 言語を選択できます。
     
-12. ダイヤルイン アクセス番号、**関連付けられた領域**の下の領域を追加するには、[**追加**] をクリックして、このダイヤルイン アクセス番号をダイヤル プランに関連付けられ、 **[ok]** をクリックし、1 つまたは複数の領域をクリックします。
+12. ダイヤルインアクセス番号の領域を追加するには、[**関連付けられた地域**] の [**追加**] をクリックし、このダイヤルインアクセス番号のダイヤルプランに関連付けられている1つ以上の領域をクリックして、[ **OK]** をクリックします。
     
 13. ダイヤルイン アクセス番号から地域を削除するには、[**関連付けられている地域**] で削除する地域をクリックし、[**削除**] をクリックします。
     
@@ -193,18 +193,18 @@ ms.locfileid: "33895006"
 
 会議ポリシーは、参加者向けの会議機能を指定するユーザー アカウント設定です。会議ポリシーは、サイト スコープまたはユーザー スコープで作成できます。会議ポリシー設定には、会議の予約と参加の多くの側面が含まれます。複数の会議ポリシー設定で、参加者向けのダイヤルイン会議をサポートしています。ダイヤルイン会議を構成する際に、これらのフィールドが組織に適切に設定されていることを確認し、必要に応じて変更する必要があります。 
   
-会議ポリシーを構成する方法の詳細については、 [Skype ビジネス サーバーの会議ポリシーの管理](../../manage/conferencing/conferencing-policies.md)を参照してください。
+会議ポリシーの構成の詳細については、「 [Skype For Business Server の会議ポリシーを管理](../../manage/conferencing/conferencing-policies.md)する」を参照してください。
   
 ## <a name="assign-a-line-uri-to-a-user-account"></a>ユーザー アカウントに回線 URI を割り当てる
 <a name="BKMK_AssignaLineURI"> </a>
 
-ダイヤルイン ユーザーは各自の電話番号または内線番号、それに PIN を入力し、認証されたユーザーとして会議に参加します。 テレフォニー ビジネス サーバーのユーザー アカウントの Skype で指定された**行の URI**は、認証に必要です。
+ダイヤルイン ユーザーは各自の電話番号または内線番号、それに PIN を入力し、認証されたユーザーとして会議に参加します。 Skype for Business Server のユーザーアカウントで指定されたテレフォニー**回線 URI**は、認証に必要です。
   
-このトピックの手順は、[**回線 URI**] を 1 つのユーザー アカウントに対して割り当てる方法について説明します。 [**回線 URI**] を複数のユーザー アカウントに対して割り当てる必要がある場合は、**Set-CsUser** コマンドレットを使用するスクリプトを作成できます。 **回線 URI**を複数のユーザー アカウントに割り当てるには、サンプル スクリプトの使用に関する詳細については、[複数のユーザーに回線 Uri を割り当てる](https://go.microsoft.com/fwlink/p/?linkId=196945)を参照してください。
+このトピックの手順は、[**回線 URI**] を 1 つのユーザー アカウントに対して割り当てる方法について説明します。 [**回線 URI**] を複数のユーザー アカウントに対して割り当てる必要がある場合は、**Set-CsUser** コマンドレットを使用するスクリプトを作成できます。 複数のユーザーアカウントに**行の uri**を割り当てるサンプルスクリプトの使用について詳しくは、「[複数のユーザーに行](https://go.microsoft.com/fwlink/p/?linkId=196945)の uri を割り当てる」をご覧ください。
   
 1. RTCUniversalServerAdmins グループのメンバーとしてコンピューターにログオンするか、**Cs-UserAdministrator** または **CsAdministrator** の役割のメンバーとしてコンピューターにログオンします。
     
-2.  Skype をビジネス サーバーのコントロール パネルを開きます。
+2.  Skype for Business Server コントロールパネルを開きます。
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
     

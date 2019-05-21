@@ -10,36 +10,36 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: ビジネス オンラインの Skype は、既存の会議ポリシー設定の一部として、ポイント ツー ポイント (P2P) ファイルの転送を制御する機能があります。 ただし、これにより、またはファイルかどうかは、ファイルを転送するユーザーは、同じ組織内に、または別の組織からのフェデレーション ユーザーにユーザーの転送をブロックします。 次の手順では、次のまたはパートナーのフェデレーション組織との P2P のファイル転送をブロックできます。
-ms.openlocfilehash: 9b7d229c7f0ea0565dc3174286b4117984a2b606
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for Business Online では、既存の会議ポリシー設定の一部としてポイントツーポイント (P2P) ファイル転送を制御できます。 ただし、この方法では、ユーザーが同じ組織内のユーザーまたは別の組織のフェデレーションユーザーにファイルを転送しているかどうかに関係なく、ファイルの転送が許可またはブロックされます。 以下の手順に従うと、フェデレーションされた組織またはパートナーとの P2P のファイル転送をブロックできます。
+ms.openlocfilehash: 8b45067cf0c717fdcda144fc44750b7cf3d0f7f7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237540"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297818"
 ---
 # <a name="block-point-to-point-file-transfers"></a>ポイント ツー ポイントのファイル転送を禁止する
 
-ビジネス オンラインの Skype は、既存の会議ポリシー設定の一部として、ポイント ツー ポイント (P2P) ファイルの転送を制御する機能があります。 ただし、これにより、またはファイルかどうかは、ファイルを転送するユーザーは、同じ組織内に、または別の組織からのフェデレーション ユーザーにユーザーの転送をブロックします。 次の手順では、次のまたはパートナーのフェデレーション組織との P2P のファイル転送をブロックできます。
+Skype for Business Online では、既存の会議ポリシー設定の一部としてポイントツーポイント (P2P) ファイル転送を制御できます。 ただし、この方法では、ユーザーが同じ組織内のユーザーまたは別の組織のフェデレーションユーザーにファイルを転送しているかどうかに関係なく、ファイルの転送が許可またはブロックされます。 以下の手順に従うと、フェデレーションされた組織またはパートナーとの P2P のファイル転送をブロックできます。
   
- 非常に一般的なシナリオは、内部ユーザーが P2P を使用してファイル転送がフェデレーション パートナーとファイル転送をブロックできるようにする場合です。 このシナリオでは、実行する必要があります。
+ 一般的なシナリオとしては、内部ユーザーが P2P ファイル転送を使用できるようにして、フェデレーションパートナーとのファイル送信をブロックすることが必要な場合があります。 このシナリオでは、次の操作を行う必要があります。
   
-- P2P ファイル転送が有効になっている (_EnableP2PFileTransfer_を_True_に設定) で、組織内のユーザーに会議ポリシーを割り当てます。
+- P2P のファイル転送が有効になっている会議ポリシー (_EnableP2PFileTransfer_を_True_に設定) を組織のユーザーに割り当てます。
     
-- 外部の P2P ファイル転送 (_EnableP2PFileTransfer_は_False_に設定) をブロックし、組織内のユーザーに割り当てることに設定した外部ユーザーのグローバル通信ポリシーを作成します。 
+- 外部の P2P ファイル転送 (_EnableP2PFileTransfer_が_False_に設定されている) をブロックして組織内のユーザーに割り当てる、グローバルな外部ユーザー通信ポリシーを作成します。 
     
 これらの設定に関する詳細は、 [ここ](https://technet.microsoft.com/en-us/library/mt228132.aspx)からご覧いただけます。
   
-組織外のフェデレーション ユーザーは、ポリシーが適用されているユーザーにファイルを送信しようとすると、**転送に失敗しました**エラーが表示されます。 ユーザーがファイルを送信しようとすると場合、エラーが表示されます、**ファイルの転送がオフになっています**。
+組織外のフェデレーションユーザーが、ポリシーが適用されているユーザーにファイルを送信しようとした場合、**転送失敗**エラーが発生します。 また、ユーザーがファイルを送信しようとすると、**ファイル転送が有効になっ**ていないことを示すエラーが表示されます。
   
-この作業をするためには、ユーザーする必要があります使用している 2016年クイック実行の Skype のサポートされているバージョンでサポートされているビジネス アプリケーションの。 Skype for Business 2016 クイック実行クライアントの次の最小バージョンが必要です。
+この動作を実現するには、サポートされているバージョンの2016のクイック実行 Skype for Business アプリを使用している必要があります。 Skype for Business 2016 クイック実行クライアントの次の最小バージョンが必要です。
   
 |**型**|**リリース日**|**バージョン**|**ビルド**|
 |:-----|:-----|:-----|:-----|
@@ -48,7 +48,7 @@ ms.locfileid: "32237540"
 |段階的提供チャネル  <br/> |2017 年 2 月 22 日  <br/> |16.0.7369.2118  <br/> |バージョン 1609 (ビルド 7369.2118)  <br/> |
    
 > [!CAUTION]
-> ビジネス Windows アプリケーションまたは Mac クライアントの以前のバージョンの Skype を使用しているユーザーはファイルを転送することがあります。 
+> 以前のバージョンの Skype for Business Windows アプリまたは Mac クライアントを使っているユーザーは、引き続きファイルを転送することができます。 
   
 ## <a name="verify-and-start-windows-powershell"></a>Windows PowerShell を検証および開始する
 
@@ -56,7 +56,7 @@ ms.locfileid: "32237540"
     
 1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
-2. **Windows PowerShell**ウィンドウで_ホストの取得_を入力してバージョンを確認してください。
+2. [ **Windows PowerShell** ] ウィンドウで、「 _Get Host_ 」と入力してバージョンを確認します。
     
 3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。Windows PowerShell をダウンロードして、バージョン 4.0 に更新するには、「[Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845)」を参照してください。メッセージが表示されたら、コンピューターを再起動します。
     
@@ -80,21 +80,21 @@ ms.locfileid: "32237540"
     Import-PSSession $session
    ```
 
-   Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
+   Windows PowerShell の起動の詳細については、「[単一の Windows powershell ウィンドウですべての Office 365 サービスに接続](https://technet.microsoft.com/EN-US/library/dn568015.aspx)する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
     
-## <a name="disable-p2p-file-transfers-for-your-organization"></a>組織の P2P のファイル転送を無効にします。
+## <a name="disable-p2p-file-transfers-for-your-organization"></a>組織の P2P ファイル転送を無効にする
 
-組織のグローバル ポリシーでは既定では、 _EnableP2PFileTransfer_が有効にします。 それが作成されたとき、 _BposSAllModality_ポリシーがユーザーに割り当てられました。
+既定では、組織のグローバルポリシーで_EnableP2PFileTransfer_が有効になっています。 作成されたユーザーには、 _Bpossallmodality_ポリシーが割り当てられています。
   
-組織はブロック外部ファイルの転送に別の組織内の P2P の転送を許可するには、だけで、グローバル レベルで変更する必要があります。 次のコマンドを実行します。
+組織内の P2P 転送を許可するが、外部ファイル転送を別の組織にブロックするには、それをグローバルレベルで変更する必要があります。 そのためには、次を実行します。
     
   ```
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
-## <a name="disable-p2p-file-transfers-for-a-user"></a>ユーザーの P2P のファイル転送を無効にします。
+## <a name="disable-p2p-file-transfers-for-a-user"></a>ユーザーに対して P2P ファイル転送を無効にする
 
-ユーザーに新しいポリシーを作成して、そのユーザーに付与することによって適用することができます。 次のコマンドを実行します。 
+新しいポリシーを作成し、そのポリシーをそのユーザーに付与することで、ユーザーに適用することができます。 そのためには、次を実行します。 
 > 
 >   ```
 >   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
@@ -106,7 +106,7 @@ ms.locfileid: "32237540"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-- Windows PowerShell は、ユーザーを管理するユーザーを許可または許可されません。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -125,7 +125,7 @@ ms.locfileid: "32237540"
 
 [組織のクライアント ポリシーをセットアップする](set-up-client-policies-for-your-organization.md)
 
-[組織内の会議ポリシーを設定します](set-up-conferencing-policies-for-your-organization.md)
+[組織内の会議ポリシーをセットアップする](set-up-conferencing-policies-for-your-organization.md)
 
   
  

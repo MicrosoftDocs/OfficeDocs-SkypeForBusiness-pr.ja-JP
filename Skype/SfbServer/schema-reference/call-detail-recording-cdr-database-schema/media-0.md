@@ -1,36 +1,36 @@
 ---
-title: メディアを表示します。
+title: メディアビュー
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
-description: メディア ビューでは、ピア ツー ピア セッションで使用される 1 つのメディアの種類に関する情報を格納します。 セッションは 1 つで表されます、テーブル内の複数のレコード 1 つ以上のメディア タイプを使用する場合。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 83caf609efae4e97961e7c62c3a1ed6c6004e8e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: メディアビューには、ピアツーピアセッションで使用される1つのメディアの種類に関する情報が格納されます。 複数のメディアの種類を使用している場合は、1つのセッションがテーブル内の複数のレコードで表されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
+ms.openlocfilehash: 044a31381d4e1e48c465f7ee6de89acab10ab54e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930694"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296001"
 ---
-# <a name="media-view"></a>メディアを表示します。
+# <a name="media-view"></a>メディアビュー
  
-メディア ビューでは、ピア ツー ピア セッションで使用される 1 つのメディアの種類に関する情報を格納します。 セッションは 1 つで表されます、テーブル内の複数のレコード 1 つ以上のメディア タイプを使用する場合。 このビューは、Microsoft Lync Server 2013 で導入されました。
+メディアビューには、ピアツーピアセッションで使用される1つのメディアの種類に関する情報が格納されます。 複数のメディアの種類を使用している場合は、1つのセッションがテーブル内の複数のレコードで表されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
   
 > [!NOTE]
-> メディア ビューは適していないセッションのメディアの長さを計算します。 このビューには、セッションでのメディアの交換のシグナルの詳細が含まれています。 INVITE 要求、メディアの交換を行うし、開始時刻は、招待状が送信された時刻を示します。招待時間は必ずしもメディアの開始時刻、セッションが受け入れられた後にのみ、メディアが開始されるためです。 
+> メディア表示は、セッションのメディア再生時間の計算に使用しないようにします。 このビューには、セッションでのメディア交換の通知の詳細が含まれています。 メディア交換は INVITE 要求によって実行され、StartTime は招待が送信された時間を示します。この招待時刻は、メディアの開始時刻を意味するわけではありません。これは、セッションが受け入れられた後にのみメディアが開始されるためです。 
   
-メディア ビューに含まれるすべて[SessionDetails ビュー](sessiondetails-0.md)内の列のさらに下に表示されています。
+メディアビューには、次に示すように、 [Sessiondetails ビュー](sessiondetails-0.md)にすべての列が含まれています。
   
 |**列**|**データ型**|**詳細**|
 |:-----|:-----|:-----|
-|**メディア** <br/> |nvarchar(256)  <br/> |メディアは次のとおり入力します。 詳細については[メディアの表](medialist.md)を参照してください。 <br/> |
-|**MediaStartTime** <br/> |datetime  <br/> |メディアの要求が送信された時刻です。  <br/> |
-|**MediaEndTime** <br/> |datetime  <br/> |セッションの終了時間です。  <br/> |
+|**メディア** <br/> |nvarchar(256)  <br/> |メディアの種類。 詳細については、 [Medialist の表](medialist.md)を参照してください。 <br/> |
+|**MediaStartTime** <br/> |datetime  <br/> |メディア要求が送信された時刻。  <br/> |
+|**MediaEndTime** <br/> |datetime  <br/> |セッションの終了時刻。  <br/> |
    
 

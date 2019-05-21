@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,19 +14,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
-description: '概要: ビジネス サーバー 2015 の Skype の非サーバー要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。'
-ms.openlocfilehash: 71916081a9ea138d22f41fd4f2813834a74e941b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server 2015 のサーバー以外の要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。'
+ms.openlocfilehash: b547d6c4e99f0b29a4e415a15e9c1307165245b2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33909079"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296862"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
-**の概要:** Skype ビジネス サーバー 2015 の以外のサーバーの要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。
+**概要:** Skype for Business Server 2015 のサーバー以外の要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。
   
-ビジネス サーバー 2015 の Skype の環境の要件とは何ですか。 ご用意しましたすべての直接の周りをクリックすると実行する必要はありませんので、このトピックに関連するサーバーではありません。 探しているサーバーの前提条件、[ビジネス サーバー 2015 の Skype のサーバー要件](server-requirements.md)のドキュメントをチェック_アウトすることができる場合[ネットワークの計画](../../plan-your-deployment/network-requirements/network-requirements.md)も記載されて個別にします。 それ以外の場合、これは、どのような我々 には、この資料です。
+Skype for Business Server 2015 の環境要件を教えてください。 ここでは、直接サーバーに関連していないすべての項目について説明しています。そのため、クリックする必要はありません。 サーバーの前提条件をお探しの場合は、「 [Skype For Business server 2015 ドキュメントのサーバー要件](server-requirements.md)」を参照してください。[ネットワーキングの計画](../../plan-your-deployment/network-requirements/network-requirements.md)についても別々に説明します。 それ以外の場合は、この記事で説明していることになります。
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -39,16 +39,16 @@ ms.locfileid: "33909079"
 ## <a name="active-directory"></a>Active Directory
 <a name="AD"> </a>
 
-大量のサーバーおよびサービスの構成データをビジネス サーバー 2015 の中央管理ストアの Skype では、中には、Active Directory にまだ保存されているものがあります。
+サーバーおよびサービスの構成データの多くは、Skype for Business Server 2015 の中央管理ストアに保存されていますが、まだ Active Directory に保存されているものもあります。
   
 |**Active Directory オブジェクト**|**オブジェクトの種類**|
 |:-----|:-----|
 |スキーマ拡張  <br/> |ユーザー オブジェクトの拡張  <br/> |
-||前との下位互換性を維持するために Lync Server 2013 および Lync Server 2010 の拡張機能でサポートされているバージョンです。  <br/> |
+||以前サポートされているバージョンとの下位互換性を維持するための、Lync Server 2013 および Lync Server 2010 用の拡張機能。  <br/> |
 |データ  <br/> |ユーザーの SIP URI と他のユーザー設定  <br/> |
-||(応答グループ アプリケーションや会議アテンダント アプリケーション) などのアプリケーションの連絡先オブジェクトです。  <br/> |
+||アプリケーションの連絡先オブジェクト (返信グループアプリケーション、会議アテンダントアプリケーションなど)  <br/> |
 ||下位互換性について公開されたデータ。  <br/> |
-||サービス コントロールでは、中央管理ストアに (SCP) をポイントします。  <br/> |
+||中央管理ストアのサービス制御ポイント (SCP)。  <br/> |
 ||Kerberos 認証のアカウント (オプションのコンピューター オブジェクト)。  <br/> |
    
 ### <a name="os-for-domain-controllers"></a>ドメイン コントローラー用の OS
@@ -65,7 +65,7 @@ ms.locfileid: "33909079"
     
 - Windows Server 2008
     
-ここで、Skype を配置するには、ビジネスのサーバー 2015 の任意のドメインのドメインの機能レベルとフォレストの機能レベルには、ビジネスのサーバー 2015 の Skype を配置する任意のフォレストは、次のいずれかにする必要が。
+ここで、Skype for Business Server 2015 に展開するドメインのドメイン機能レベルと、Skype for Business Server 2015 を展開したすべてのフォレストの機能レベルは、次のいずれかにする必要があります。
   
 - Windows Server 2016
     
@@ -79,17 +79,17 @@ ms.locfileid: "33909079"
     
 - Windows Server 2003
     
-これらの環境で読み取り専用ドメイン コント ローラーを持つことができますか。 確かに、そこである限りは、書き込み可能なドメイン コント ローラー利用。
+これらの環境には読み取り専用ドメインコントローラーがありますか? また、書き込み可能なドメインコントローラーも使用できる限り、ご確認ください。
   
-Skype ビジネス サーバー 2015 の単一ラベルのドメインをサポートしていないことを確認するのには重要です。 単一ラベルのドメインがどのようなものかを把握しておいてください。 Contoso.local というラベルの付いたルート ドメインがあれば、十分にそうです。 ルート ドメイン ローカルという名前だけがあれば、作業をすることはしませんし、結果としてサポートされていません。 もう少しこれについて書かれています[このサポート技術情報の記事で](https://support.microsoft.com/kb/300684/en-us).
+Skype for Business Server 2015 では、単一のラベルが付いたドメインをサポートしていないことを知っておくことが重要です。 単一ラベルのドメインがどのようなものかを把握しておいてください。 Contoso. .local というラベルの付いたルートドメインを持っている場合、これは問題ありません。 ローカルという名前のルートドメインがあり、それが機能していない場合、結果としてサポートされません。 詳細については、[このサポート技術情報の記事で](https://support.microsoft.com/kb/300684/en-us)記載されています。
   
-ビジネス サーバー 2015 の Skype は、ドメイン名の変更もサポートしていません。 いる場合実際が必要があるビジネス サーバー 2015 年の Skype をアンインストールするのにはドメインの名前変更の操作を行い、ビジネス サーバー 2015 の Skype を再インストールします。
+Skype for Business Server 2015 では、ドメイン名の変更もサポートされていません。 実際にこの操作を行うには、Skype for Business Server 2015 をアンインストールし、ドメイン名の変更を行ってから、Skype for Business Server 2015 を再インストールする必要があります。
   
-最後に、ロックされた AD DS 環境では、ドメインを扱うことがあり、大丈夫です。 ビジネス サーバー 2015 の展開のドキュメント内の環境のように Skype を導入する方法の詳細があります。
+最後に、ロックダウンされた AD DS 環境でドメインを処理している可能性があります。これがすべて適切です。 Skype for Business Server 2015 を展開ドキュメントのそのような環境に展開する方法については、こちらを参照してください。
   
 ### <a name="ad-topologies"></a>Active Directory トポロジ
 
-Skype ビジネス サーバー 2015 のサポートされているトポロジには次のとおりです。
+Skype for Business Server 2015 のサポートされているトポロジは次のとおりです。
   
 - 単一のドメインを含む単一のフォレスト
     
@@ -105,7 +105,7 @@ Skype ビジネス サーバー 2015 のサポートされているトポロジ�
     
 - Skype for Business Online および Azure Active Directory Connect を使用するリソース フォレスト トポロジの複数フォレスト
     
-図と、環境、またはビジネス サーバー 2015 の Skype をインストールする前に設定する必要がありますが、どのようなトポロジを決定するための説明があります。 保つには、単純なキーも含めています。
+使用している環境にどのようなトポロジがあるかを判断するのに役立つ図と説明、および Skype for Business Server 2015 をインストールする前にセットアップする必要があることについて説明します。 シンプルな状態を維持するために、キーも含めています。
   
 ![Skype for Business トポロジ図に使用される主なアイコン](../../media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
@@ -113,21 +113,21 @@ Skype ビジネス サーバー 2015 のサポートされているトポロジ�
 
 ![ドメインが 1 つである Active Directory の単一フォレストの図](../../media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
-これよりも簡単に取得する、単一ドメインのフォレストが、これは、一般的なトポロジです。
+これまで以上に簡単にはなりません。1つのドメインフォレストであり、これは一般的なトポロジです。
   
 #### <a name="single-forest-with-a-single-tree-and-multiple-domains"></a>単一のツリーと複数のドメインを含む単一のフォレスト
 
 ![単一のフォレスト、単一のツリー、複数のドメインがある図](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
-この図は、単一のフォレストを示していますが、1 つまたは複数の子ドメインにも (ある特定の例ではこの 3 つ) があります。 ビジネス サーバー 2015 を展開するため、ユーザーがで作成したドメインが Skype のドメインとは異なる可能性があります。 これに関する心配は無用でしょうか。 Skype のビジネス サーバーのフロント エンド プールを展開する際の点に注意することが重要、そのプール内のすべてのサーバーが 1 つのドメインにインストールする必要があります。 Windows 管理者のユニバーサル グループのビジネス サーバーのサポートのための Skype 経由での管理のドメインを越えたことができます。
+この図は、1つのフォレストを示していますが、1つ以上の子ドメインも含まれています (この例では3つあります)。 そのため、ユーザーが作成されるドメインは、Skype for Business Server 2015 の展開先のドメインとは異なる場合があります。 どうしたらよいのでしょうか。 Skype for Business Server フロントエンドプールを展開するときに、そのプール内のすべてのサーバーが単一のドメインに存在している必要があることに注意してください。 Skype for Business Server での Windows ユニバーサル管理者グループのサポートにより、ドメイン間管理を行うことができます。
   
-上の図に、1 つのドメインからのユーザーがビジネス サーバーのプール同じドメインからまたは別のドメインからの Skype にアクセスできない場合でも、子ドメインでは、それらのユーザーを確認できます。
+上の図に戻ると、あるドメインのユーザーが、同じドメインまたは別のドメインから Skype for Business Server プールにアクセスできることを確認できます。それらのユーザーが子ドメインにいる場合でも同じです。
   
 #### <a name="single-forest-with-multiple-trees-and-disjoint-namespaces"></a>複数のツリーと不整合の名前空間を含む単一のフォレスト
 
 ![単一のフォレスト、複数のツリー、不整合の名前空間がある図](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
-ところトポロジがある、この図のような 1 つのフォレストがある可能性がありますが、別の AD の名前空間を持つ複数のドメインは、そのフォレスト内にあります。 場合は、この図の適切な図では、ビジネス サーバー 2015 の Skype にアクセスする 3 つの異なるドメインにユーザーがあります。 純色の線を示す破線は、しようとしているプールを別のツリー全体を示すときにビジネス サーバー プールを自身のドメイン内の Skype にアクセスしています。
+この図と同じように、フォレストが1つあり、そのフォレスト内に複数のドメインがあり、別々の AD 名前空間を持つトポロジがある場合があります。 このような場合、3つの異なるドメインのユーザーが Skype for Business Server 2015 にアクセスしているので、この図をお勧めします。 実線は、自分のドメインで Skype for Business サーバープールにアクセスしていることを示しますが、破線は、異なるツリーでプールに移動していることを示します。
   
 図のように、同一のドメイン、同一のツリーだけでなく、異なるツリーのユーザーも正常にプールにアクセスできます。
   
@@ -135,29 +135,29 @@ Skype ビジネス サーバー 2015 のサポートされているトポロジ�
 
 ![中央フォレスト トポロジの複数のフォレストの図](../../media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
-ビジネス サーバー 2015 の Skype では、中央フォレスト トポロジで構成されている複数のフォレストをサポートします。 何があることを確認していない場合は、中央フォレスト トポロジでは、オブジェクトを使用することで、他のフォレスト、およびフォレスト内のユーザーのユーザー アカウントをホストのユーザーを表します。
+Skype for Business Server 2015 は、中央フォレストトポロジで構成されている複数のフォレストをサポートしています。 自分が持っていることがわからない場合、トポロジの中央のフォレストでは、他のフォレストのユーザーを表すためのオブジェクトを使用し、フォレスト内のユーザーのユーザーアカウントをホストします。
   
-これがどのように動作しているでしょうか。 Forefront ユーザー マネージャー、または FIM) などのディレクトリ同期製品は、全体の存在で、組織のユーザーのアカウントを管理します。 アカウントが作成または削除されたとき、フォレストから中央フォレスト内の対応する連絡先に変更が同期されること。
+動作のしくみ また、ディレクトリ同期製品 (Forefront Identity Manager、FIM など) では、組織のユーザーアカウントがその存在を通じて管理されます。 フォレストからアカウントが作成または削除されると、その変更はセントラルフォレスト内の対応する連絡先に同期されます。
   
-明らかに、AD インフラストラクチャでは、インプレースこのトポロジに移行できない場合があります、簡単ですが、されて場合、または計画が、フォレストのインフラストラクチャをこの、適切な選択ができます。 ユーザーは、検索、通信、および任意のフォレスト内の他のユーザーのプレゼンスを表示中に、1 つのフォレスト内のサーバー 2015 のビジネス展開に、Skype を集中管理できます。 すべてのユーザーの連絡先の更新は、同期ソフトウェアで自動的に処理されます。
+お客様の広告インフラストラクチャが、このトポロジへのインプレース移動は簡単ではない場合もありますが、既に存在している場合、またはフォレストインフラストラクチャを計画している場合は、この方法が適しています。 Skype for Business Server 2015 の展開を1つのフォレストにまとめることができます。ユーザーは、任意のフォレストの他のユーザーの検索、通信、表示を行うことができます。 すべてのユーザーの連絡先の更新は、同期ソフトウェアで自動的に処理されます。
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Skype for Business リソース フォレスト トポロジの複数のフォレスト
 <a name="BKMK_multipleforestopology"> </a>
 
 ![リソース フォレスト トポロジ内に複数のフォレストがある図](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
-リソース フォレストのトポロジもサポートされています。フォレストは Microsoft Exchange Server およびビジネス サーバー 2015 の Skype のように、サーバー アプリケーションを実行するのには専用の場所をお勧めします。 このリソース フォレストでは、アクティブなユーザー オブジェクトの同期表現ですがないログオンが有効なユーザー アカウントもホストします。 リソース フォレストとは、共有サービス環境の他のフォレストのユーザー オブジェクトが存在し、リソース フォレストのフォレスト レベルの信頼関係があるのです。
+リソースフォレストのトポロジもサポートされています。ここでは、Microsoft Exchange Server や Skype for Business Server 2015 など、サーバーアプリケーションの実行専用のフォレストがあります。 このリソースフォレストは、アクティブなユーザーオブジェクトの同期表現もホストしますが、ログオン可能なユーザーアカウントはホストしません。 そのため、リソースフォレストは、ユーザーオブジェクトが存在する他のフォレストの共有サービス環境であり、リソースフォレストとのフォレストレベルの信頼関係があります。
   
-Skype ビジネス サーバーと同じリソース フォレストまたは別のフォレストの Exchange Server を展開することに注意してください。
+Exchange Server は、Skype for Business Server と同じリソースフォレスト、または別のフォレストに展開できることに注意してください。
   
-ユーザー フォレスト内のユーザー アカウントごとに、リソース フォレストで 1 つの無効なユーザー オブジェクトを作成するこの種類のトポロジでのビジネス サーバー 2015 の Skype を展開する (Microsoft Exchange Server が既に環境にいる場合は、これが自動的に行われます)。 (Forefront ユーザー マネージャーでは、FIM など) のディレクトリ同期ツールのライフ サイクルを通じてのユーザー アカウントを管理する必要があります。
+この種類のトポロジで Skype for Business Server 2015 を展開するには、ユーザーフォレスト内の各ユーザーアカウントのリソースフォレストに無効なユーザーオブジェクトを1つ作成します (Microsoft Exchange Server が既に環境にある場合は、これが自動的に実行されることがあります)。 その後、ユーザーアカウントをライフサイクルを通じて管理するディレクトリ同期ツール (Forefront Identity Manager、FIM など) が必要になります。
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Exchange Online を使用する Skype for Business リソース フォレスト トポロジの複数フォレスト
 <a name="BKMK_multipleforestopology"> </a>
 
 このトポロジは「[Skype for Business リソース フォレスト トポロジの複数フォレスト](environmental-requirements.md#BKMK_multipleforestopology)」で説明されるトポロジと同様のものです。
   
-このトポロジでは、1 つまたは複数のユーザーのフォレストがあるし、Skype ビジネス サーバーの専用リソース フォレストに展開します。 Exchange Server を選択し、展開したオンプレミス リソース フォレストを同じまたは別のフォレストでは、Exchange online では、ハイブリッド用に構成されたまたは設置型のアカウントの Exchange のオンラインでのみ電子メール サービスを提供することがあります。 このトポロジの図はありません。
+このトポロジには、1つ以上のユーザーフォレストがあり、Skype for Business Server は専用リソースフォレストに展開されます。 Exchange Server は、同じリソースフォレストまたは別のフォレストに展開して、Exchange Online とのハイブリッド用に構成することができます。また、メールサービスは、オンプレミスアカウントの Exchange Online でのみ提供されます。 このトポロジで利用できる図はありません。
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Skype for Business Online および Azure Active Directory Connect を使用するリソース フォレスト トポロジの複数フォレスト
 <a name="BKMK_multipleforestopology"> </a>
@@ -166,54 +166,54 @@ Skype ビジネス サーバーと同じリソース フォレストまたは別
   
 このシナリオでは、リソース フォレスト トポロジを使用するオンプレミスの複数のフォレストが存在し、Active Directory フォレスト間には完全な信頼関係がある場合を考えます。オンプレミス ユーザー フォレストと Office 365 との間のアカウントを同期するために、Azure Active Directory Connect ツールが使用されます。
   
- 組織も、Office 365 があり、 [Azure Active Directory の接続](https://go.microsoft.com/fwlink/p/?LinkId=614836)を使用して、オンプレミス アカウントを Office 365 に同期します。 Office 365 と Skype では、オンライン ビジネスのビジネス用の Skype は、有効になっているユーザーが有効です。 ビジネス サーバー用の Skype は、オンプレミスで導入ではありません。
+ 組織にも Office 365 があり、 [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836)を使用して、オンプレミスアカウントを office 365 と同期します。 Skype for Business が有効になっているユーザーは、Office 365 および Skype for Business Online によって有効にされています。 Skype for Business Server はオンプレミスでは展開されません。
   
-シングル サインオン認証は、ユーザーのフォレストにある、Active Directory フェデレーション サービス ファームによって提供されます。
+シングルサインオン認証は、ユーザーフォレストにある Active Directory フェデレーションサービスファームによって提供されます。
   
-このシナリオでは Exchange の設置型、Exchange Online では、ハイブリッドの Exchange ソリューションを展開するか、しないに展開される Exchange サポートします。 (図のみ交換設置を示していますが、他の Exchange ソリューションが完全にサポートされている)。
+このシナリオでは、exchange をオンプレミス、Exchange Online、ハイブリッド Exchange ソリューション、または Exchange が展開されていない状態で展開することがサポートされています。 (図面には Exchange のオンプレミスのみが表示されますが、その他の Exchange ソリューションも完全にサポートされています)。
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>ハイブリッド Skype for Business を使用するリソース フォレスト トポロジの複数フォレスト
 <a name="BKMK_multipleforestopology"> </a>
 
-このシナリオでは、1 つを使用する必要がある以上、オンプレミス ユーザーのフォレスト、ビジネスの Skype 専用のリソース フォレストに展開し、ビジネス オンラインの Skype でハイブリッド モードの構成 Exchange Server は、展開したオンプレミス リソース フォレストを同じまたは別のフォレストし、Exchange online のハイブリッド用に構成することがあります。 または、電子メール サービスを Exchange Online でのみ設置型のアカウントの提供できます。
+このシナリオでは、1つ以上のオンプレミスのユーザーフォレストがあり、Skype for Business は専用のリソースフォレストに展開され、skype for business Online とのハイブリッドモード用に構成されています。 Exchange Server は、同じリソースフォレストまたは別のフォレストに展開することができます。また、exchange Online とのハイブリッド用に構成することもできます。 または、社内アカウントの Exchange Online によってのみ、メールサービスが提供されることがあります。
   
-詳細については、[ハイブリッド ビジネスの Skype の複数のフォレスト環境の構成](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md)を参照してください。
+詳細については、「[ハイブリッド Skype For business 用にマルチフォレスト環境を構成](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md)する」を参照してください。
   
 ## <a name="domain-name-system-dns"></a>ドメイン ネーム システム (DNS)
 <a name="DNS"> </a>
 
-ビジネス サーバー 2015 の Skype では、次の理由により、DNS が必要です。
+Skype for Business Server 2015 には DNS が必要です。次の理由が考えられます。
   
-- DNS は、サーバーからサーバーへの通信を許可する内部サーバーまたはプールを検出するのには、ビジネス サーバー 2015 の Skype を使用できます。
+- DNS によって、Skype for Business Server 2015 は内部サーバーまたはプールを検出できるため、サーバー間の通信が可能になります。
     
-- DNS では、クライアント マシンのフロント エンド プールまたは Standard Edition サーバーの SIP トランザクションの使用を検出します。
+- DNS により、クライアントコンピューターは SIP トランザクションに使用されているフロントエンドプールまたは Standard Edition サーバーを検出できます。
     
 - 会議用の簡易 URL と、これらの会議をホストするサーバーが関連付けられます。
     
-- DNS は、エッジ サーバー、HTTP 用リバース プロキシ、インスタント メッセージング (IM) または会議に接続するには、外部のユーザーやクライアント コンピューターです。
+- DNS を使うと、外部ユーザーとクライアントコンピューターが、インスタントメッセージング (IM) または会議のために、エッジサーバーまたは HTTP リバースプロキシに接続できます。
     
-- 統合コミュニケーション (UC) を使用してフロント エンド プールまたは Standard Edition サーバーの更新プログラムを取得し、ログを送信するデバイス更新 web サービスを実行しているデバイスにログインしていないことを検出します。
+- ログインしていないユニファイドコミュニケーション (UC) デバイスでは、デバイス更新 web サービスが実行されているフロントエンドプールまたは Standard Edition サーバーで、更新プログラムを取得してログを送信できます。
     
 - DNS を使用すると、モバイル クライアントでは、デバイス設定で URL を手動入力しなくても Web サービス リソースを自動的に検出できます。
     
 - また、DNS は DNS ロード バランシングで使用されます。
     
-Skype ビジネス サーバー 2015 の国際化ドメイン名 (Idn) をサポートしていないことに注意する必要があります。
+Skype for Business Server 2015 は、国際化ドメイン名 (Idn) をサポートしていないことに注意してください。
   
-覚えておくことは非常に重要と DNS 内の任意の名前がビジネス サーバー 2015 の Skype で使用されている任意のサーバーで構成されているコンピューター名と同一であること。 具体的には、環境内の任意の短い名前を持つことはできませんし、トポロジ ビルダーの Fqdn を指定する必要があります。
+また、DNS の名前は、Skype for Business Server 2015 で使用されているサーバー上で構成されているコンピューター名と同じであることを覚えておくことが非常に重要です。 具体的には、環境内に短い名前を設定することはできません。また、トポロジビルダーの Fqdn が必要です。
   
-これは、ドメインに既に参加している任意のコンピューターの論理が、短い形式の名前、ドメイン サフィックスなしの既定値を必要がある場合は、ドメインに参加していないエッジ サーバーがある場合は、ように思われます。 しない場合は、dns、またはエッジ サーバー、またはビジネス サーバー 2015 サーバーまたはプール、さらに言えば、Skype では、あることを確認します。
+これは、既にドメインに参加しているコンピューターには関係ありませんが、ドメインに参加していないエッジサーバーがある場合は、既定値としてドメインサフィックスが含まれていない可能性があります。 この問題について、DNS、またはエッジサーバー、または Skype for Business Server 2015 サーバーまたはプールのどちらでも、そうしないようにしてください。
   
-Unicode 文字またはアンダー スコアを使用しない確実です。 標準的な文字が文字 (A-Z、a-z、0-9、およびハイフン) は、外部 DNS およびパブリック証明機関によってサポートされるしようとしているもの (Fqdn を証明書の SN に割り当てする必要があることを忘れないでください) のでしたが予備の自分でたくさんの場合、名前をこのことに注意します。
+また、必ずしも Unicode 文字またはアンダースコアは使用しないでください。 標準文字 (A-z、a-z、0-9、ハイフン) は、外部 DNS と公共の証明機関によってサポートされているものです (証明書の SN に Fqdn を割り当てる必要があります)。そのため、お客さんが grief をお使いになる場合は、これを念頭に置いて名前を付けます。
   
 ネットワークの DNS 要件に関するその他の情報については、「計画」ドキュメントの「[Networking](../../plan-your-deployment/network-requirements/network-requirements.md)」を参照してください。
   
 ## <a name="certificates"></a>証明書
 <a name="Certs"> </a>
 
-展開の前の最も重要な作業の 1 つは、証明書を用意することです。 ビジネス サーバー 2015 の Skype では、トランスポートの公開キー基盤 (PKI) が必要なレイヤーのセキュリティ (TLS) と相互トランスポート層セキュリティ (MTLS) 接続します。 基本的には、標準化された方法で安全に通信をする Skype のビジネス サーバーは証明機関 (Ca) によって発行された証明書を使用します。
+展開の前の最も重要な作業の 1 つは、証明書を用意することです。 Skype for Business Server 2015 には、トランスポート層セキュリティ (TLS) および相互トランスポート層セキュリティ (MTLS) 接続用の公開キー基盤 (PKI) が必要です。 基本的に、標準化された方法で安全に通信するために、Skype for Business Server は証明機関 (Ca) によって発行された証明書を使用します。
   
-ビジネス サーバー 2015 の Skype 用の証明書を使用しているものがあります。
+Skype for Business Server 2015 では、次のような用途で証明書が使用されます。
   
 - クライアントとサーバー間の TLS 接続
     
@@ -225,21 +225,21 @@ Unicode 文字またはアンダー スコアを使用しない確実です。 �
     
 - 音声/ビデオ (AV) セッション、アプリケーション共有、および会議への外部ユーザー アクセス
     
-- Web アプリケーションと Outlook Web Access (OWA) を話す
+- Web アプリケーションと Outlook Web Access (OWA) との会話
     
-必要がありますが、証明書の計画の。 ここで、証明書を要求するときに留意すべき事項のいくつかのリストを見てみましょう。
+そのため、証明書の計画は必須です。 次に、証明書を要求するときに考慮しておく必要がある事項の一覧を見てみましょう。
   
 - すべてのサーバー証明書がサーバーの承認 (サーバー EKU) をサポートしている必要がある。
     
 - すべてのサーバー証明書に CRL 配布ポイント (CDP) を含める必要がある。
     
-- すべての証明書が、オペレーティング システムでサポートされている署名アルゴリズムによって署名されている必要がある。 ビジネス サーバー 2015 の Skype は、SHA-1 をサポートし、ダイジェスト群の SHA 2 (224 256、384、512 ビット) のサイズとを満たしているか、オペレーティング システムの要件を超えています。
+- すべての証明書が、オペレーティング システムでサポートされている署名アルゴリズムによって署名されている必要がある。 Skype for Business Server 2015 は、ダイジェストのサイズ (224、256、384、512ビット) の SHA-1 および SHA-1 スイートをサポートしており、オペレーティングシステムの要件を満たしているか、超えています。
     
-- ビジネス サーバー 2015 の Skype を実行している内部のサーバーの自動登録がサポートされています。
+- 自動登録は、Skype for Business Server 2015 を実行している内部サーバーでサポートされています。
     
-- ビジネス 2015 エッジ サーバー用の Skype、自動登録がサポートされていません。
+- 自動登録は、Skype for Business Server 2015 Edge サーバーではサポートされていません。
     
-- Windows Server 2003 CA に web ベースの証明書の要求を送信するときは、SP2 または Windows XP、Windows Server 2003 を実行するコンピューターから送信する必要があります。
+- Web ベースの証明書要求を Windows Server 2003 CA に送信する場合は、Windows Server 2003 と SP2 または Windows XP を実行しているコンピューターから送信する必要があります。
     
 > [!NOTE]
 > KB922706 は、Windows Server 2003 証明書サービスの Web 登録について Web 証明書の登録に関わる問題解決をサポートしますが、Windows Server 2008、Windows Vista、または Windows 7 を使用して、Windows Server 2003 CA から証明書を要求できるようにはなりません。 
@@ -251,47 +251,47 @@ Unicode 文字またはアンダー スコアを使用しない確実です。 �
     
 - 既定のダイジェストまたはハッシュ アルゴリズムは RSA です。ECDH_P256、ECDH_P384、ECDH_P521 のハッシュ アルゴリズムもサポートされます。
     
-考えて、多くは、間違いなく、さまざまな CA から証明書を要求すると快適さのレベル。 紹介の下にいくつか詳しく計画をできるだけ楽に作成します。
+そのため、多くのことを考慮する必要があります。これは、CA から証明書を要求することによって、さまざまな方法でお使いいただけるということです。 お客様の計画をできるだけ簡単にするために、以下のガイダンスをさらに紹介します。
   
 ### <a name="certificates-for-your-internal-servers"></a>内部サーバー用の証明書
 
-証明書を内部のサーバーのほとんどする必要があり、ほとんどの場合、(1 つである、ドメイン内にある) 内部の CA から入手できますがします。 必要に応じて、外部の CA (インターネット上に存在する CA) から証明書を要求できます。 参考までにどのような公共の CA の場合に進んでください、[ユニファイド コミュニケーション パートナーを証明書](https://support.microsoft.com/kb/929395/en-us)のリストをチェックすることができます。
+ほとんどの内部サーバーには証明書が必要ですが、ほとんどの場合、内部 CA (自分のドメインにあるもの) から証明書を取得します。 必要に応じて、外部の CA (インターネット上に存在する CA) から証明書を要求できます。 どのパブリック CA にアクセスすればよいか迷っている場合は、[ユニファイドコミュニケーション証明書パートナー](https://support.microsoft.com/kb/929395/en-us)の一覧を確認できます。
   
-しようとしているビジネス サーバー 2015 の Skype は、他のアプリケーションや Microsoft Exchange Server などのサーバーと通信するときに証明書を必要があります。 この証明書は当然、サポートされている方法でこれらの他のアプリケーションやサーバーが使用できる証明書である必要があります。 Skype ビジネス サーバー 2015 およびその他のマイクロソフト製品には、サーバーからサーバーへの認証と承認のためオープン認証 (OAuth) プロトコルをサポートします。 これに興味があるなら、ビジネス サーバー 2015 の OAuth と Skype の他の計画の資料があります。
+また、Skype for Business Server 2015 が他のアプリケーションやサーバー (Microsoft Exchange Server など) と通信する場合は、証明書が必要になります。 この証明書は当然、サポートされている方法でこれらの他のアプリケーションやサーバーが使用できる証明書である必要があります。 Skype for Business Server 2015 およびその他の Microsoft 製品は、サーバー間の認証と承認のための Open Authorization (OAuth) プロトコルをサポートしています。 この項目に興味をお持ちの場合は、OAuth および Skype for Business Server 2015 のその他の計画記事をご覧ください。
   
-ビジネス サーバー 2015 の Skype を使用せず) のサポートも含まれます、sha-256 暗号ハッシュ関数を使用して署名された証明書です。 SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
+Skype for business Server 2015 には、(必要256とせずに) sha-1 暗号化ハッシュ関数を使って署名された証明書のサポートも含まれています。 SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
   
-簡単なものに抑えるをご用意しました Standard Edition サーバー、フロント エンド プール、およびその他のロールでは、証明書の要件を次のテーブルでは、(おそらく使用するものの例で使用されている架空の contoso.com の他の環境)。 これらは、すべて標準的な web サーバー証明書、秘密キーをエクスポートできないのです。 いくつか追加の点に注意してください。
+簡単に行うことができるように、標準エディションサーバー、フロントエンドプール、その他の役割の証明書の要件は、例として使用されている架空の contoso.com を使って、次の表のようにします (おそらく使用していることに注意してください)。その他の環境の場合)。 これらはすべて、標準の web サーバー証明書であり、エクスポートできない秘密キーが含まれています。 その他の注意事項:
   
 - サーバーの拡張キー使用法 (EKU) は、証明書ウィザードを使って証明書を要求するときに自動的に構成されます。
     
 - 各証明書のフレンドリ名は、コンピューター ストアで一意である必要があります。
     
-- 以下のサンプル名が DNS に sipinternal.contoso.com または sipexternal.contoso.com を構成した場合は証明書のサブジェクト代替名 (SAN) を追加する必要が。 あります
+- 以下のサンプル名に従って、DNS で sipinternal.contoso.com または sipexternal.contoso.com を構成している場合は、証明書のサブジェクト代替名 (SAN) に追加する必要があります。
     
 Standard Edition サーバーの証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|**コメント**|
 |:-----|:-----|:-----|:-----|:-----|
-|Default  <br/> |プールの FQDN  <br/> |プールの FQDN およびサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効な場合は、証明書ウィザードによって、サポートされている各 SIP ドメインの FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要な場合は、sip.sipdomain のエントリ (所有する各 SIP ドメイン用) も必要となります。  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要な場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要です。  <br/> |Standard Edition サーバーの Standard Edition サーバーにサーバーの FQDN とは、プールの FQDN と同じです。  <br/> このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクトの別名に自動的に追加されます。  <br/> また、この証明書はサーバー間認証でも使用できます。  <br/> |
-|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 web FQDN は、サーバーの FQDN と同じ)  <br/> および  <br/> • 対応の簡単な Url  <br/> ・ ダイヤルで簡単な URL  <br/> • 管理の簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com です。SAN=se01.contoso.com です。SAN =\*. contoso.com  <br/> |内部 web トポロジ ビルダー内の FQDN を無効にすることはできません。  <br/> 会議の簡易 URL が複数存在する場合、それらすべてを SAN として含める必要があります。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
-|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 web FQDN  <br/> および  <br/> ・ ダイヤルで簡単な URL  <br/> • SIP ドメインごと対応の簡単な Url。  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com です。SAN=webcon01.contoso.com です。SAN =\*. contoso.com  <br/> |対応の複数の簡単な Url の場合は、サブジェクト代替名としては、それらのすべてを含むようにできました。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
+|Default  <br/> |プールの FQDN  <br/> |プールの FQDN およびサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効な場合は、証明書ウィザードによって、サポートされている各 SIP ドメインの FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要な場合は、sip.sipdomain のエントリ (所有する各 SIP ドメイン用) も必要となります。  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要な場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要です。  <br/> |Standard Edition servers Standard Edition server では、サーバーの FQDN はプールの FQDN と同じです。  <br/> このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクトの別名に自動的に追加されます。  <br/> また、この証明書はサーバー間認証でも使用できます。  <br/> |
+|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •内部 web FQDN (サーバーの FQDN と同じ)  <br/> および  <br/> •単純な Url を満たす  <br/> •ダイヤルインの簡単な URL  <br/> •管理者 simple URL  <br/> または  <br/> •単純な Url のワイルドカードエントリ  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN = se01;SAN = se01;SAN =\*contoso.com  <br/> |トポロジビルダーでは、内部 web FQDN を上書きすることはできません。  <br/> 会議の簡易 URL が複数存在する場合、それらすべてを SAN として含める必要があります。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
+|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •外部 web FQDN  <br/> および  <br/> •ダイヤルインの簡単な URL  <br/> • SIP ドメインあたりの単純な Url を満たす  <br/> または  <br/> •単純な Url のワイルドカードエントリ  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN = se01;SAN = webcon01;SAN =\*contoso.com  <br/> |単純な Url を複数指定している場合は、そのすべてを件名の代替名として含めることができます。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
    
-フロント エンド プール内のフロント エンド サーバーの証明書:
+フロントエンドプールのフロントエンドサーバー用の証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|**コメント**|
 |:-----|:-----|:-----|:-----|:-----|
 |Default  <br/> |プールの FQDN  <br/> |プールの FQDN およびサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効な場合は、証明書ウィザードによって、サポートされている各 SIP ドメインの FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要な場合は、sip.sipdomain のエントリ (所有する各 SIP ドメイン用) も必要となります。  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要な場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要です。  <br/> |このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクトの別名に自動的に追加されます。  <br/> また、この証明書はサーバー間認証でも使用できます。  <br/> |
-|内部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 web FQDN (これは、サーバーの FQDN と同じ)  <br/> • サーバーの FQDN  <br/> • Skype ビジネス プールの FQDN  <br/> および  <br/> • 対応の簡単な Url  <br/> ・ ダイヤルで簡単な URL  <br/> • 管理の簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com です。SAN=ee01.contoso.com です。SAN =\*. contoso.com  <br/> |対応の複数の簡単な Url の場合は、サブジェクト代替名としては、それらのすべてを含むようにできました。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
-|外部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 web FQDN  <br/> および  <br/> ・ ダイヤルで簡単な URL  <br/> • 管理の簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com です。SAN=webcon01.contoso.com です。SAN =\*. contoso.com  <br/> |対応の複数の簡単な Url の場合は、サブジェクト代替名としては、それらのすべてを含むようにできました。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
+|内部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> •内部 web FQDN (サーバーの FQDN とは異なります)  <br/> •サーバー FQDN  <br/> • Skype for Business プールの FQDN  <br/> および  <br/> •単純な Url を満たす  <br/> •ダイヤルインの簡単な URL  <br/> •管理者 simple URL  <br/> または  <br/> •単純な Url のワイルドカードエントリ  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN = ee01;SAN = ee01;SAN =\*contoso.com  <br/> |単純な Url を複数指定している場合は、そのすべてを件名の代替名として含めることができます。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
+|外部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> •外部 web FQDN  <br/> および  <br/> •ダイヤルインの簡単な URL  <br/> •管理者 simple URL  <br/> または  <br/> •単純な Url のワイルドカードエントリ  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN = ee01;SAN = webcon01;SAN =\*contoso.com  <br/> |単純な Url を複数指定している場合は、そのすべてを件名の代替名として含めることができます。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
    
-ディレクターの証明書:
+ディレクター用の証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|
 |:-----|:-----|:-----|:-----|
-|既定  <br/> |ディレクター プール  <br/> |ディレクター、ディレクター プールの FQDN の FQDN です。  <br/> このプールは、クライアントの自動ログオン サーバー、グループ ポリシーで厳密な DNS マッチングのために必要な場合は、(各 SIP ドメイン) の sip.sipdomain のエントリ必要もあります。  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> このダイレクタ ・ プールは、クライアントの自動ログオン サーバーと、グループ ポリシーで厳密な DNS マッチングが必要なする必要も SAN=sip.contoso.com。SAN=sip.fabrikam.com  <br/> |
-|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 web FQDN は、サーバーの FQDN と同じ)  <br/> • サーバーの FQDN  <br/> • Skype ビジネス プールの FQDN  <br/> および  <br/> • 対応の簡単な Url  <br/> ・ ダイヤルで簡単な URL  <br/> • 管理の簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com です。SAN の SAN=dir01.contoso.com =\*. contoso.com  <br/> |
-|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 web FQDN  <br/> および  <br/> • SIP ドメインごと対応の簡単な Url。  <br/> ・ ダイヤルで簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |ディレクターの外部 web FQDN は、フロント エンド プールまたはフロント エンド サーバーとは異なるである必要があります。  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com です。SAN の SAN=directorwebcon01.contoso.com =\*. contoso.com  <br/> |
+|既定  <br/> |ディレクター プール  <br/> |ディレクタープールの FQDN の fqdn。  <br/> このプールがクライアント用の自動ログオンサーバーであり、グループポリシーでも DNS の厳密な一致が必要な場合は、sipdomain (SIP ドメインごとに) を入力する必要があります。  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> このディレクタープールがクライアント用の自動ログオンサーバーであり、かつ厳密な DNS 一致がグループポリシーで必要な場合は、SAN = sip-pstn を使用する必要もあります。サン = sip-pstn  <br/> |
+|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •内部 web FQDN (サーバーの FQDN と同じ)  <br/> •サーバー FQDN  <br/> • Skype for Business プールの FQDN  <br/> および  <br/> •単純な Url を満たす  <br/> •ダイヤルインの簡単な URL  <br/> •管理者 simple URL  <br/> または  <br/> •単純な Url のワイルドカードエントリ  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN = dir01;SAN = dir01 サン =\*. contoso.com  <br/> |
+|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •外部 web FQDN  <br/> および  <br/> • SIP ドメインあたりの単純な Url を満たす  <br/> •ダイヤルインの簡単な URL  <br/> または  <br/> •単純な Url のワイルドカードエントリ  <br/> |ディレクターの外部 web FQDN は、フロントエンドプールまたはフロントエンドサーバーと異なっている必要があります。  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN = dir01;SAN = directorwebcon01 サン =\*. contoso.com  <br/> |
    
 スタンドアロンの仲介サーバーの証明書:
   
@@ -299,27 +299,27 @@ Standard Edition サーバーの証明書:
 |:-----|:-----|:-----|:-----|
 |既定  <br/> |プールの FQDN  <br/> |プールの FQDN  <br/> プール メンバー サーバーの FQDN  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
    
-リカバリ性に優れたブランチ アプライアンス用の証明書:
+Survivable Branch Appliance 用の証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|
 |:-----|:-----|:-----|:-----|
-|Default  <br/> |アプライアンスの FQDN  <br/> |SIP。\<sipdomain\> (SIP ドメインごとに 1 つだけのエントリが必要)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
+|Default  <br/> |アプライアンスの FQDN  <br/> |フェデレーション.\<SIPDOMAIN\> (SIP ドメインごとに1つのエントリしか必要ありません)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>常設チャット サーバー用の証明書
 
-永続的なチャット サーバーをインストールするときにしようとしている内部サーバーのビジネス サーバー 2015、Skype で使用されるものと同一の証明機関によって発行された証明書が必要です。 永続的なチャット Web サービスのファイルのアップロード/ダウンロードを実行する各サーバーで実行する必要があります。 必要な証明書がある場合、CA は、外部との永続的なチャットのインストールを開始する前に強くお勧めはなおさら (次のような時間をかけて少し発行)。
+常設チャットサーバーをインストールする場合は、Skype for Business Server 2015 内部サーバーで使用されている CA と同じ CA によって発行された証明書が必要になります。 これは、ファイルアップロード/ダウンロード用の常設チャット Web サービスが実行されている各サーバーに対して実行する必要があります。 常設チャットのインストールを開始する前に、必要な証明書を持っていることを強くお勧めします。また、ご利用の CA が外部である場合は、こちらをご覧ください。
   
 ### <a name="certificates-for-external-user-access-edge"></a>外部ユーザー アクセス (エッジ) 用の証明書
 
-ビジネス サーバー 2015 の Skype は、アクセスおよび web 会議エッジ外部インターフェイスに加えて、A の**1 つのパブリック証明書**の使用をサポートしている/V 認証サービスは、エッジ サーバー経由で提供されています。 エッジの内部インターフェイスは、通常、内部 CA によって発行されるプライベート証明書を使用する場合、使用することがパブリック証明書この同様に、信頼された CA からである場合。
+Skype for Business Server 2015 では、access および web 会議エッジの外部インターフェイスに対する**1 つの公開証明書**と、エッジサーバー経由で提供される a/V 認証サービスをサポートしています。 通常、Edge 内部インターフェイスでは、内部 CA から発行されたプライベート証明書を使用しますが、必要に応じて、信頼できる CA から発行された公開証明書を使用することもできます。
   
 またリバース プロキシ (RP) でも、パブリック証明書を使用して、RP からクライアントへの通信と RP から内部サーバーへの通信を、HTTP (厳密には TLS over HTTP) を使用して暗号化します。
   
 ### <a name="certificates-for-mobility"></a>モビリティ用の証明書
 
-モビリティを展開しているモバイル クライアントの自動検出をサポートしている場合は、しようとしているモバイル クライアントからセキュリティで保護された接続をサポートする証明書のいくつかの追加のサブジェクト代替名エントリを含める必要があります。
+モバイルクライアントの自動検出をサポートしている場合、モバイルクライアントの自動検出をサポートするには、モバイルクライアントからのセキュリティで保護された接続をサポートするために、追加のサブジェクト代替名のエントリを追加する必要があります。
   
-のどの証明書ですか。 SAN の名前をここでは、証明書の自動検出が必要です。
+どの証明書ですか? 証明書を自動的に検出するには、次のような SAN 名が必要です。
   
 - ディレクター プール
     
@@ -329,38 +329,38 @@ Standard Edition サーバーの証明書:
     
 以下の各表で、仕様を示します。
   
-ようになりましたが、これは、少しの事前計画が良いですも展開した Skype ビジネス サーバー 2015 のモビリティを展開する必要のない付属線を環境内で証明書が既にある場合。 通常、内部 CA を介した証明書の再発行は簡単ですが、パブリック CA のパブリック証明書を使用する場合は、多少コストが上がる可能性があります。
+ここでは、いくつかの事前計画を行うことができますが、モビリティを導入するのではなく、Skype for Business Server 2015 を展開したことがあります。これは、お使いの環境に既に証明書がある場合は、この行に表示されます。 通常、内部 CA を介した証明書の再発行は簡単ですが、パブリック CA のパブリック証明書を使用する場合は、多少コストが上がる可能性があります。
   
-(これは既定では HTTPS を使用する代わりに、最初の自動検出サービス要求の HTTP を使用するのにはリバース プロキシを構成するには何を探して、これは、(これは加えることがより高価な SAN) の SIP ドメインの多くがある場合は、構成)。 詳細については、「モビリティの計画」を参照してください。
+この情報が表示されていて、SIP ドメインが多数ある場合 (つまり、SAN をさらに追加するため)、HTTPS (既定値) ではなく、HTTP を使用するようにリバースプロキシを構成できます。構成)。 詳細については、「モビリティの計画」を参照してください。
   
-ディレクター プールとフロント エンド プールは、要件を証明書します。
+ディレクタープールとフロントエンドプールの証明書の要件:
   
 |**説明**|**SAN エントリ**|
 |:-----|:-----|
-|内部自動検出サービス URL  <br/> |SAN lyncdiscoverinternal を = します。\<sipdomain\>  <br/> |
-|外部自動検出サービス URL  <br/> |SAN lyncdiscover を = します。\<sipdomain\>  <br/> |
+|内部自動検出サービス URL  <br/> |SAN = lyncdiscoverinternal。\<sipdomain\>  <br/> |
+|外部自動検出サービス URL  <br/> |SAN = lyncdiscover。\<sipdomain\>  <br/> |
    
-または SAN を使用することができます =\*。\<sipdomain\>
+また、SAN =\*を使うこともできます。\<sipdomain\>
   
 リバース プロキシ (パブリック CA) の証明書の要件:
   
 |**説明**|**SAN エントリ**|
 |:-----|:-----|
-|外部自動検出サービス URL  <br/> |SAN lyncdiscover を = します。\<sipdomain\>  <br/> |
+|外部自動検出サービス URL  <br/> |SAN = lyncdiscover。\<sipdomain\>  <br/> |
    
 この SAN を、リバース プロキシ上の SSL リスナーに割り当てられる証明書に割り当てる必要があります。
   
 > [!NOTE]
-> 外部 Web サービス個の URL 用に San をリバース プロキシのリスナーのこと。 あります SAN=skypewebextpool01.contoso.com と dirwebexternal.contoso.com、(これはオプションです)、ディレクターを展開した場合です。 
+> リバースプロキシリスナーは、外部 Web サービスの URL に対して San を使用することになります。 ディレクターを展開した場合の例としては、「SAN = skypewebextpool01 and dirwebexternal.contoso.com」などがあります (これはオプションです)。 
   
 ## <a name="file-share"></a>ファイル共有
 <a name="Fileshare"> </a>
 
-ビジネス サーバー 2015 の Skype は、すべてのファイル ・ ストレージを同じファイル共有を使用すること。 以下の点を考慮する必要があります。
+Skype for Business Server 2015 は、すべてのファイルストレージに同じファイル共有を使用できます。 以下の点を考慮する必要があります。
   
-- ファイル共有は、直接取り付け記憶域 (DAS) と記憶域ネットワーク (SAN) のいずれかに配置する必要があり、またファイル共有には、分散ファイル システム (DFS) だけでなくファイル ストア用の RAID (Redundant Array of Independent Disks) も含まれます。 さらに、Windows Server 2012 の DFS の詳細、[この DFS のページ](https://technet.microsoft.com/en-us/library/jj127250.aspx)をご覧ください。
+- ファイル共有は、直接取り付け記憶域 (DAS) と記憶域ネットワーク (SAN) のいずれかに配置する必要があり、またファイル共有には、分散ファイル システム (DFS) だけでなくファイル ストア用の RAID (Redundant Array of Independent Disks) も含まれます。 Windows Server 2012 向け DFS について詳しくは、[この dfs のページ](https://technet.microsoft.com/en-us/library/jj127250.aspx)をご覧ください。
     
-- 共有クラスター ファイル共有に対応することをお勧めします。 いずれかを使用している場合は、Windows Server 2012 または Windows Server 2012 R2 をクラスターする必要があります。 Windows Server 2008 R2 はも許容されます。 なぜ最新の Windows でしょうか。 以前のバージョンは、すべての機能を有効にする適切なアクセス許可をいない可能性があります。 クラスター アドミニストレーターを使用するには、ファイル共有を作成して、[クラスター上のファイル共有を作成する方法](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster)をここに役立つ詳細を記載しました。
+- ファイル共有の共有クラスターをお勧めします。 いずれかを使用している場合は、Windows Server 2012 または Windows Server 2012 R2 をクラスター化する必要があります。 Windows Server 2008 R2 も受け入れられます。 最新の Windows の理由 以前のバージョンには、すべての機能を有効にするための適切な権限がない場合があります。 クラスターアドミニストレーターを使ってファイル共有を作成することができます。この方法では、クラスターの記事[にファイル共有を作成する方法](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster)を説明します。
     
 > [!CAUTION] 
 > ファイル共有にネットワーク接続ストレージ (NAS) は使用できません。ファイル共有には、上記のいずれかの選択肢を利用してください。 

@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、一般的な市外電話の設定を構成するための展開手順について説明します。
-ms.openlocfilehash: 0e673bc0a236cbf12aa305c3fc658dffe039c0e3
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: 59b681fecfe4fe6c2b9d89c7dbea875f30152340
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34162584"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297990"
 ---
 # <a name="set-up-common-area-phones"></a>共通エリア電話機を設定する
 共用エリア電話機（CAP）は、一般に、ロビーや多くの人々が利用できるエリアに配置されます。 たとえば、受付エリアの電話機、ドアホンまたは会議室の電話機など、CAPは、ユーザーではなくデバイスとして設定され、自動的にネットワークにサインインされます。 以下の手順では、電話システムとコールプランのアカウントを設定して、所属する組織にこれらのタイプの電話機を導入する方法を説明します。

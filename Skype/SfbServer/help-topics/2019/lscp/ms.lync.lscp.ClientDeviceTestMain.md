@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientDeviceTestMain
@@ -12,53 +12,53 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[テスト デバイス] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。'
-ms.openlocfilehash: f1b865186298869c726a15612cc10f59d1c8d633
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[テスト デバイス] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加すると、そのデバイスは、Skype for Business Server コントロールパネルの [テストデバイス] ページの一覧に表示されます。'
+ms.openlocfilehash: fd38e168d1d58c0bf1e330d08ae1d74c8d781221
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891902"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300428"
 ---
 # <a name="test-device"></a>テスト デバイス
 
-[**テスト デバイス**] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[**テスト デバイス**] ページで、Skype のビジネス サーバーのコントロール パネルの。
+[**テスト デバイス**] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加すると、そのデバイスは、Skype for Business Server コントロールパネルの [**テストデバイス**] ページの一覧に表示されます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
-[**テスト デバイス**] ページで、次の作業を行うことができます。
+**テストデバイス**ページでは、次のタスクを実行できます。
 
-- 全体または特定のサイトは、テスト デバイスを追加します。
+- テストデバイスをグローバルに、または特定のサイトに追加します。
 
-- テストの既存のデバイスのオプションを変更します。
+- 既存のテストデバイスのオプションを変更します。
 
 ## <a name="ui-reference"></a>UI リファレンス
 
 次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。
 
-- **新しい**次のスコープを持つ新しいテスト デバイスを追加することができます。
+- **新規**次のスコープを使用して、新しいテストデバイスを追加できます。
 
   - グローバル
 
   - サイト
 
-- **編集**リスト内のテスト デバイスのオプションを変更することができます。 このオプションを使用すると、以下を実行できます、します。
+- **編集**リスト内のテストデバイスのオプションを変更できます。 このオプションを使うと、次の操作を行うことができます。
 
-  - **詳細を表示します。** このオプションは、テスト デバイスのオプションを変更できるダイアログ ボックスを開きます。
+  - **詳細を表示**このオプションを選択すると、テストデバイスのオプションを変更できるダイアログボックスが表示されます。
 
-  - **すべてを選択**このオプションでは、リストですべてのテスト デバイスを選択します。
+  - **すべて選択**このオプションでは、リスト内のすべてのテストデバイスを選択します。
 
-  - **削除**このオプションは、選択されたテストのすべてのデバイスを削除します。
+  - **削除**このオプションでは、選択したすべてのテストデバイスを削除します。
 
-- **更新**テストのすべてのデバイスのオプションの状態を確認するテスト デバイスのリストを更新することができます。
+- **更新**テストデバイスの一覧を更新して、すべてのテストデバイスのオプションの状態を確認できます。
 
 デバイスのテストの詳細については、「操作」のドキュメントの「[Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx)」を参照してください。
 ## <a name="see-also"></a>関連項目
 
 [テスト デバイス: 新規作成または現在の形式のままで編集](ms.lync.lscp.ClientDeviceTestEdit.md)
 
-[新しい-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+[新規-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
 
-[セット CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
+[Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
 
-[組織内のデバイスのソフトウェア更新プログラムを表示](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
+[組織内のデバイスのソフトウェア更新プログラムを表示する](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)

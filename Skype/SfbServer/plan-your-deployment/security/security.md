@@ -1,39 +1,39 @@
 ---
-title: Skype のビジネス サーバーでのセキュリティの計画
+title: Skype For Business Server のセキュリティを計画する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
-description: ビジネス サーバーのセキュリティ コンテンツの Skype です。
-ms.openlocfilehash: 68ae0643f7336c47c0f86b5ae3de1bc6370d5bef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server のセキュリティコンテンツ。
+ms.openlocfilehash: d850eabc233e999e2334391fcee6f8019781370c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914115"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296904"
 ---
-# <a name="plan-for-security-in-skype-for-business-server"></a>Skype のビジネス サーバーでのセキュリティの計画 
+# <a name="plan-for-security-in-skype-for-business-server"></a>Skype For Business Server のセキュリティを計画する 
  
-ビジネス サーバーのセキュリティ コンテンツの Skype です。 
+Skype for Business Server のセキュリティコンテンツ。 
   
-このコンテンツは、ビジネスのサーバーのセキュリティの Skype に関連しています。 セキュリティは非常に広い範囲に及ぶトピックです。 セキュリティは、Skype のすべての機能の間でビジネスのサーバーとデータベース、サービス、およびハードウェア エコシステムを構成するのに達しています。 このコンテンツは、Skype のビジネス サーバーに関する特定のセキュリティのトピックについての補足です。
+このコンテンツは、Skype for Business Server のセキュリティに関連しています。 セキュリティは非常に広い範囲に及ぶトピックです。 Skype for Business Server のすべての機能のほか、エコシステムを構成するデータベース、サービス、ハードウェアにもセキュリティが設定されます。 このコンテンツは、Skype for Business Server に関する特定のセキュリティに関するトピックを補足するものです。
   
 ## <a name="in-this-section"></a>このセクション中
 
-- [ビジネス サーバーの Skype の除外リストをスキャンするウイルス対策](antivirus.md)
+- [Skype for Business Server のウイルススキャン除外の除外](antivirus.md)
     
-- [Skype ビジネス サーバー用のキーのセキュリティ機能](key-security.md)
+- [Skype for Business Server の主要なセキュリティ機能](key-security.md)
     
-- [現代の日を計算するために一般的なセキュリティ上の脅威](common-threats.md)
+- [モダンなコンピューティングでの一般的なセキュリティの脅威](common-threats.md)
     
-- [Skype ビジネス サーバー用のセキュリティ フレームワーク](security-framework.md)
+- [Skype for Business Server のセキュリティフレームワーク](security-framework.md)
     
-- [Skype のビジネス サーバーのコア インフラストラクチャに対する脅威に対処](addressing-threats.md)
+- [Skype for Business Server のコアインフラストラクチャへの脅威への対応](addressing-threats.md)
     
 

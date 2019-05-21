@@ -5,124 +5,124 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
-description: AppSharingStream テーブルには、ネットワーク ストリームのアプリケーションを共有するために使用される高品質なエクスペリエンスの測定基準が含まれています。 このテーブルは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: e2a81cafb7c2e0ff0caffe19c6b4eaf7b5a8c94a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: AppSharingStream テーブルには、アプリケーション共有に使用されるネットワークストリームのエクスペリエンスのメトリックの質が含まれています。 この表は、Microsoft Lync Server 2013 で導入されました。
+ms.openlocfilehash: 61606f204310b3956eb74bd19d0c9d8d421e7818
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920048"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295119"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream テーブル
  
-AppSharingStream テーブルには、ネットワーク ストリームのアプリケーションを共有するために使用される高品質なエクスペリエンスの測定基準が含まれています。 このテーブルは、Microsoft Lync Server 2013 で導入されました。
+AppSharingStream テーブルには、アプリケーション共有に使用されるネットワークストリームのエクスペリエンスのメトリックの質が含まれています。 この表は、Microsoft Lync Server 2013 で導入されました。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |日付時刻  <br/> |プライマリ サーバーで、外部  <br/> |日付と時刻、セッションを開始します。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |プライマリ サーバーで、外部  <br/> |同時日付けと同時に開始されたセッションの間で区別するために使用される一連の識別子です。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |プライマリ サーバーで、外部  <br/> | [MediaLine テーブル](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0)を参照してください。 <br/> |
-|**StreamID** <br/> |int  <br/> |Primary  <br/> |ストリームを共有するアプリケーションの一意の識別子です。  <br/> |
+|**ConferenceDateTime** <br/> |dateTime  <br/> |プライマリ、外部  <br/> |セッションが開始された日付と時刻。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |プライマリ、外部  <br/> |同じ日付と同時に開始したセッションを区別するために使用されるシーケンシャル識別子。  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |プライマリ、外部  <br/> | 「 [MediaLine テーブル](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0)」を参照してください。 <br/> |
+|**StreamID** <br/> |int  <br/> |Primary  <br/> |アプリケーション共有ストリームの一意の識別子。  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。通常、この値が高い場合は、輻輳やメディア サーバーの過負荷の原因が考えられます。その結果、音声のひずみや欠落が生じます。  <br/> |
-|**JitterInterArrivalMax** <br/> |int  <br/> ||最大変位は RTP パケットの到着の間に検出します。 (ジッタとは、呼び出しの「揺れ」の尺度のことです)。高ジッタ値は、通常負荷またはオーバー ロードされたメディア サーバーでは、によって発生し、オーディオがゆがんでいる、または失われると。  <br/> |
+|**JitterInterArrivalMax** <br/> |int  <br/> ||RTP パケット着信の間の最大ジッターが検出されました。 (ジッターは、通話の "shakiness" の測定値です)。通常、高ジッターの値は、輻輳または過負荷のメディアサーバーによって発生し、音声が歪むか、失われる原因となります。  <br/> |
 |**RoundTrip** <br/> |int  <br/> ||リアルタイム転送プロトコル (RTP) パケットが別のエンドポイントとの間を往復するのに要する平均時間 (ミリ秒単位)。200 ミリ秒以下の往復時間が許容できる品質と見なされます。  <br/> この値が高い場合は、国際通話ルーティング、ルーティングの構成ミス、メディア サーバーの過負荷などの原因が考えられます。その結果、双方向のリアルタイムの音声会話が難しくなります。  <br/> |
-|**RoundTripMax** <br/> |int  <br/> ||最大量 (単位はミリ秒) のリアルタイム転送プロトコル パケットを別のエンドポイントに移動し、バックアップに必要な。 200 ミリ秒以下の往復時間が許容できる品質と見なされます。  <br/> この値が高い場合は、国際通話ルーティング、ルーティングの構成ミス、メディア サーバーの過負荷などの原因が考えられます。その結果、双方向のリアルタイムの音声会話が難しくなります。  <br/> |
+|**RoundTripMax** <br/> |int  <br/> ||リアルタイムトランスポートプロトコルパケットが別のエンドポイントに移動してから戻るために必要な最大 (ミリ秒単位)。 200 ミリ秒以下の往復時間が許容できる品質と見なされます。  <br/> この値が高い場合は、国際通話ルーティング、ルーティングの構成ミス、メディア サーバーの過負荷などの原因が考えられます。その結果、双方向のリアルタイムの音声会話が難しくなります。  <br/> |
 |**PacketLossRate** <br/> |float  <br/> ||リアルタイム転送プロトコル (RTP) パケット損失の平均レート。(パケット損失は、RTP パケット、つまりインターネット経由で音声とビデオを転送するために使われるプロトコルの一種で、パケットが宛先に到達できなかったときに発生します)。この値が高い場合は、輻輳、帯域幅の不足、ワイヤレスの輻輳または干渉、メディア サーバーの過負荷などの原因が考えられます。パケット損失が発生すると、通常、音声のひずみや欠落が生じます。  <br/> |
-|**PacketLossRateMax** <br/> |float  <br/> ||リアルタイム転送プロトコル (RTP) パケット損失の最大速度です。 (パケット ・ ロスは、送信先に到達するのには、RTP パケットをインターネット経由でオーディオとビデオを送信するために使用されるプロトコルが失敗したとき発生します)。高損失率の原因として多い混雑します。帯域幅が不足しています。ワイヤレスの輻輳または干渉します。または、オーバー ロードされたメディア サーバーを選択します。 パケット損失が発生すると、通常、音声のひずみや欠落が生じます。  <br/> |
-|**PacketUtilization** <br/> |int  <br/> ||送信されるパケットの数です。  <br/> |
-|**BandwidthEst** <br/> |int  <br/> ||セッションの最後に使用可能な一方向の帯域幅を推定します。 1 秒あたりのビット数で報告されます。  <br/> |
-|**AppSharingPayloadDescription** <br/> |int  <br/> ||ペイロードを共有するアプリケーションの説明です。  <br/> |
-|**RelativeOneWayTotal** <br/> |float  <br/> ||一方向の遅延時間の合計金額です。 相対的な一方向の遅延時間は、クライアントとサーバー間の遅延を測定します。  <br/> |
-|**RelativeOneWayAverage** <br/> |float  <br/> ||一方向の遅延時間の平均量。 相対的な一方向の遅延時間は、クライアントとサーバー間の遅延を測定します。  <br/> |
-|**RelativeOneWayMax** <br/> |float  <br/> ||一方向の遅延時間の最大数。 相対的な一方向の遅延時間は、クライアントとサーバー間の遅延を測定します。  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||合計の一方向のバースト発生数です。 「集中」の転送は、安定ではなく予期しない状態でのデータのフロー転送です。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |float  <br/> ||合計の一方向のバースト密度。 「集中」の転送は、安定ではなく予期しない状態でのデータのフロー転送です。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||合計の一方向のバーストの継続時間です。 「集中」の転送は、安定ではなく予期しない状態でのデータのフロー転送です。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||合計の一方向のギャップの発生数です。 「集中」の転送では、転送、安定したストリームではなく予期しない状態でのデータのフローギャップは、これらのバーストの間の遅延を指定します。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> |
-|**RelativeOneWayGapDensity** <br/> |float  <br/> ||合計の一方向のギャップ密度。 「集中」の転送では、転送、安定したストリームではなく予期しない状態でのデータのフローギャップは、これらのバーストの間の遅延を指定します。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> |
-|**RelativeOneWayGapDuration** <br/> |float  <br/> ||合計の一方向のギャップの期間です。 「集中」の転送では、転送、安定したストリームではなく予期しない状態でのデータのフローギャップは、これらのバーストの間の遅延を指定します。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> |
-|**ApplicationSharingType** <br/> |varChar(256)  <br/> ||(共有またはビューアー) に、アプリケーション ロールとコンテンツを入力します。  <br/> |
-|**RDPTileProcessingLatencyTotal** <br/> |float  <br/> ||リモート デスクトップ プロトコル (RDP) タイルの処理時間の合計です。 表示エクスペリエンスで遅延が長く高い合計に相当します。  <br/> |
-|**RDPTileProcessingLatencyAverage** <br/> |float  <br/> ||リモート デスクトップ プロトコル (RDP) タイルの処理時間の平均値します。 表示エクスペリエンスで遅延が長く高い合計に相当します。  <br/> |
-|**RDPTileProcessingLatencyMax** <br/> |float  <br/> ||リモート デスクトップ プロトコル (RDP) の最大の処理時間を並べて表示します。 表示エクスペリエンスで遅延が長く高い合計に相当します。  <br/> |
-|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||リモート デスクトップ プロトコル (RDP) タイルの処理時間の出現をバーストします。 「集中」の転送は、安定ではなく予期しない状態でのデータのフロー転送です。  <br/> |
-|**RDPTileProcessingLatencyBurstDensity** <br/> |float  <br/> ||リモート デスクトップ プロトコル (RDP) タイルの処理時間の密度をバーストします。 「集中」の転送は、安定ではなく予期しない状態でのデータのフロー転送です。  <br/> |
-|**RDPTileProcessingLatencyBurstDuration** <br/> |float  <br/> ||リモート デスクトップ プロトコル (RDP) タイルの処理時間の期間をバーストします。 「集中」の転送は、安定ではなく予期しない状態でのデータのフロー転送です。  <br/> |
-|**RDPTileProcessingLatencyGapOccurrences** <br/> |int  <br/> ||リモート デスクトップ プロトコル (RDP) タイルの処理時間でのギャップ発生数です。  <br/> |
-|**RDPTileProcessingLatencyGapDensity** <br/> |float  <br/> ||リモート デスクトップ プロトコル (RDP) タイルの処理時間でのギャップ密度。 ギャップの低密度より優れた表示エクスペリエンスに相当します。  <br/> |
-|**RDPTileProcessingLatencyGapDuration** <br/> |float  <br/> ||リモート デスクトップ プロトコル (RDP) タイルの処理時間の間隔の期間です。 短い間隔の期間は、表示エクスペリエンスを向上させるに似ています。  <br/> |
-|**CaptureTileRateTotal** <br/> |float  <br/> ||(1 秒あたりのタイル) でキャプチャされたタイルの合計の割合。  <br/> |
-|**CaptureTileRateAverage** <br/> |float  <br/> ||(1 秒あたりのタイル) でキャプチャされたタイルの平均レート。  <br/> |
-|**CaptureTileRateMax** <br/> |float  <br/> ||(1 秒あたりのタイル) でキャプチャされたタイルの最大数です。  <br/> |
-|**CaptureTileRateBurstOccurrences** <br/> |t  <br/> ||(1 秒あたりのタイル) でキャプチャされたタイルのレートでの出現箇所をバーストします。  <br/> |
-|**CaptureTileRateBurstDensity** <br/> |float  <br/> ||(1 秒あたりのタイル) でキャプチャされたタイルのレートの密度をバーストします。  <br/> |
-|**CaptureTileRateBurstDuration** <br/> |float  <br/> ||(1 秒あたりのタイル) でキャプチャされたタイルのレートでは、期間をバーストします。  <br/> |
-|**CaptureTileRateGapOccurrences** <br/> |int  <br/> ||(1 秒あたりのタイル) でキャプチャされたタイルのレートでのギャップ発生数です。  <br/> |
-|**CaptureTileRateGapDensity** <br/> |float  <br/> ||(1 秒あたりのタイル) でキャプチャされたタイルのレートでのギャップ密度。  <br/> |
-|**CaptureTileRateGapDuration** <br/> |float  <br/> ||ギャップ時間 (1 秒あたりのタイル) でキャプチャされたタイルのレートです。  <br/> |
-|**SpoiledTilePercentTotal** <br/> |float  <br/> ||ビューアーが届きませんでしたが代わりには破棄され、新しいコンテンツで上書きされるコンテンツの合計の割合。  <br/> |
-|**SpoiledTilePercentAverage** <br/> |float  <br/> ||ビューアーが届きませんでしたが代わりには破棄され、新しいコンテンツで上書きされるコンテンツの割合に関する平均。  <br/> |
-|**SpoiledTilePercentMax** <br/> |float  <br/> ||ビューアーが届きませんでしたが代わりには破棄され、新しいコンテンツで上書きされるコンテンツの最大の割合です。  <br/> |
-|**SpoiledTilePercentBurstOccurrences** <br/> |int  <br/> ||ビューアーが届きませんでしたが代わりには破棄され、新しいコンテンツで上書きされるコンテンツの出現箇所をバーストします。  <br/> |
-|**SpoiledTilePercentBurstDensity** <br/> |float  <br/> ||ビューアーが届きませんでしたが代わりには破棄され、新しいコンテンツで上書きされるコンテンツの密度をバーストします。  <br/> |
-|**SpoiledTilePercentBurstDuration** <br/> |float  <br/> ||ビューアーが届きませんでしたが代わりに破棄され、新しい内容で上書きされるコンテンツの存続期間をバーストします。  <br/> |
-|**SpoiledTilePercentGapOccurrences** <br/> |int  <br/> ||ビューアーが届きませんでしたが代わりには破棄され、新しいコンテンツで上書きされるコンテンツのギャップの発生数です。  <br/> |
-|**SpoiledTilePercentGapDensity** <br/> |float  <br/> ||ビューアーが届きませんでしたが代わりには破棄され、新しいコンテンツで上書きされるコンテンツのギャップ密度。  <br/> |
-|**SpoiledTilePercentGapDuration** <br/> |float  <br/> ||ビューアーが届きませんでしたが代わりには破棄され、新しいコンテンツで上書きされるコンテンツのギャップの期間です。  <br/> |
-|**ScrapingFrameRateTotal** <br/> |float  <br/> ||グラフィックス ソースから scraped フレームの合計数です。  <br/> |
-|**ScrapingFrameRateAverage** <br/> |float  <br/> ||グラフィックス ソースから scraped のフレームの数の平均値です。  <br/> |
-|**ScrapingFrameRateMax** <br/> |float  <br/> ||グラフィックス ソースから scraped のフレームの最大数。  <br/> |
-|**ScrapingFrameRateBurstOccurrences** <br/> |int  <br/> ||グラフィックス ソースから scraped のフレームの発生をバーストします。  <br/> |
-|**ScrapingFrameRateBurstDensity** <br/> |float  <br/> ||グラフィックス ソースから scraped のフレームには、密度をバーストします。  <br/> |
-|**ScrapingFrameRateBurstDuration** <br/> |float  <br/> ||グラフィックス ソースから scraped のフレームのデュレーションをバーストします。  <br/> |
-|**ScrapingFrameRateGapOccurrences** <br/> |int  <br/> ||グラフィックス ソースから scraped のフレームでのギャップ発生数です。  <br/> |
-|**ScrapingFrameRateGapDensity** <br/> |float  <br/> ||グラフィックス ソースから scraped のフレームでのギャップ密度。  <br/> |
-|**ScrapingFrameRateGapDuration** <br/> |float  <br/> ||グラフィックス ソースから scraped のフレーム間隔の期間です。  <br/> |
-|**IncomingTileRateTotal** <br/> |float  <br/> ||視聴者が受信すると受信フレーム レートの合計です。  <br/> |
-|**IncomingTileRateAverage** <br/> |float  <br/> ||視聴者が受信すると受信フレーム レートの平均値します。  <br/> |
-|**IncomingTileRateMax** <br/> |float  <br/> ||最大の受信では、視聴者が受信すると、レートが並べて表示します。  <br/> |
-|**IncomingTileRateBurstOccurrences** <br/> |int  <br/> ||視聴者が受信すると、受信タイル レートの出現をバーストします。  <br/> |
-|**IncomingTileRateBurstDensity** <br/> |float  <br/> ||視聴者が受信すると、受信タイル レートの密度をバーストします。  <br/> |
-|**IncomingTileRateBurstDuration** <br/> |float  <br/> ||視聴者が受信すると、受信タイル レートの期間をバーストします。  <br/> |
-|**IncomingTileRateGapOccurrences** <br/> |int  <br/> ||として視聴者が受信した受信タイル レートでのギャップ発生数です。  <br/> |
-|**IncomingTileRateGapDensity** <br/> |float  <br/> ||として視聴者が受信した受信タイル レートでのギャップ密度。  <br/> |
-|**IncomingTileRateGapDuration** <br/> |float  <br/> ||ギャップの受信タイル レートの期間は、視聴者が受信するとします。  <br/> |
-|**IncomingFrameRateTotal** <br/> |float  <br/> ||視聴者が受信すると受信フレーム レートの合計です。  <br/> |
-|**IncomingFrameRateAverage** <br/> |float  <br/> ||視聴者が受信すると受信フレーム レートの平均値します。  <br/> |
-|**IncomingFrameRateMax** <br/> |float  <br/> ||ビューアーによって受信と受信したフレーム レートを最大します。  <br/> |
-|**IncomingFrameRateBurstOccurrences** <br/> |int  <br/> ||視聴者が受信すると、受信したフレーム レートで出現回数をバーストします。  <br/> |
-|**IncomingFrameRateBurstDensity** <br/> |float  <br/> ||視聴者が受信すると、受信したフレーム レートの密度をバーストします。  <br/> |
-|**IncomingFrameRateBurstDuration** <br/> |float  <br/> ||視聴者が受信すると、受信したフレーム レートで期間をバーストします。  <br/> |
-|**IncomingFrameRateGapOccurrences** <br/> |int  <br/> ||として視聴者が受信した受信フレーム レートでのギャップ発生数です。  <br/> |
-|**IncomingFrameRateGapDensity** <br/> |float  <br/> ||として視聴者が受信した受信フレーム レートでのギャップ密度。  <br/> |
-|**IncomingFrameRateDuration** <br/> |float  <br/> ||ギャップの受信フレーム レートでの期間は、視聴者が受信するとします。  <br/> |
-|**OutgoingTileRateTotal** <br/> |float  <br/> ||送信者の送信タイル レートを合計します。  <br/> |
-|**OutgoingTileRateAverage** <br/> |float  <br/> ||送信者の送信タイル レートを平均します。  <br/> |
-|**OutgoingTileRateMax** <br/> |float  <br/> ||送信者の送信タイル レートを最大します。  <br/> |
-|**OutgoingTileRateBurstOccurrences** <br/> |int  <br/> ||送信者の送信タイル レートでの出現をバーストします。  <br/> |
-|**OutgoingTileRateBurstDensity** <br/> |float  <br/> ||送信者の送信タイル レートの密度をバーストします。  <br/> |
-|**OutgoingTileRateBurstDuration** <br/> |float  <br/> ||送信者の送信タイル レートの期間をバーストします。  <br/> |
-|**OutgoingTileRateGapOccurrences** <br/> |int  <br/> ||送信者の送信タイル レートでの出現回数を間隔。  <br/> |
-|**OutgoingTileRateGapDensity** <br/> |float  <br/> ||送信者の送信タイル レートでのギャップ密度。  <br/> |
-|**OutgoingTileRateGapDuration** <br/> |float  <br/> ||送信者の送信タイル レートでのギャップの期間です。  <br/> |
-|**OutgoingFrameRateTotal** <br/> |float  <br/> ||送信者の送信フレーム レートを合計します。  <br/> |
-|**OutgoingFrameRateAverage** <br/> |float  <br/> ||送信者の送信フレーム レートを平均します。  <br/> |
-|**OutgoingFrameRateMax** <br/> |float  <br/> ||送信者の送信フレーム レートを最大します。  <br/> |
-|**OutgoingFrameRateBurstOccurrences** <br/> |int  <br/> ||送信者の送信フレーム レートでの出現をバーストします。  <br/> |
-|**OutgoingFrameRateBurstDensity** <br/> |float  <br/> ||送信者の送信フレーム レートの密度をバーストします。  <br/> |
-|**OutgoingFrameRateBurstDuration** <br/> |float  <br/> ||送信者の送信フレーム レートの期間をバーストします。  <br/> |
-|**OutgoingFrameRateGapOccurrences** <br/> |int  <br/> ||送信者の送信フレーム レートでの出現回数を間隔。  <br/> |
-|**OutgoingFrameRateGapDensity** <br/> |float  <br/> ||送信者の送信フレーム レートでのギャップ密度。  <br/> |
-|**OutgoingFrameRateGapDuration** <br/> |float  <br/> ||送信者の送信フレーム レートのギャップの期間です。  <br/> |
-|**AverageRectangleHeight** <br/> |int  <br/> ||平均のビデオ解像度の高さ (ピクセル単位)。  <br/> |
-|**AverageRectangleWidth** <br/> |int  <br/> ||平均のビデオ解像度の幅 (ピクセル単位)。  <br/> |
-|**受信** <br/> |bit  <br/> ||受信の場合 (1 秒あたりのフレーム数) の平均フレーム レートです。  <br/> |
-|**発信** <br/> |bit  <br/> ||平均のフレーム レート (1 秒あたりのフレーム数) で送信に対して。  <br/> |
-|**SenderIsCallerPAI** <br/> |bit  <br/> ||1 は、ストリームの方向は、呼び出し元から呼び出し先を意味します。  <br/> 0 では、ストリームの方向は、呼び出し先から呼び出し元を表します。  <br/> |
+|**PacketLossRateMax** <br/> |float  <br/> ||リアルタイムトランスポートプロトコル (RTP) パケット損失の最大速度。 (パケットの損失は、RTP パケット、インターネット上でのオーディオとビデオの伝送に使用されるプロトコル)、宛先への到達に失敗した場合に発生します。)通常、高損失率は輻輳が原因で発生します。帯域幅の不足。ワイヤレスの輻輳または妨害または、オーバーロードされたメディアサーバー。 パケット損失が発生すると、通常、音声のひずみや欠落が生じます。  <br/> |
+|**PacketUtilization** <br/> |int  <br/> ||送信されたパケットの数です。  <br/> |
+|**BandwidthEst** <br/> |int  <br/> ||セッションの終了時に提供される推定される一方向の帯域幅。 1秒あたりのビット数で報告されます。  <br/> |
+|**AppSharingPayloadDescription** <br/> |int  <br/> ||アプリケーション共有ペイロードの説明。  <br/> |
+|**RelativeOneWayTotal** <br/> |float  <br/> ||一方向の待機時間の合計。 相対的な一方向の待ち時間は、クライアントとサーバーの間の遅延を測定します。  <br/> |
+|**RelativeOneWayAverage** <br/> |float  <br/> ||一方向の待ち時間の平均値。 相対的な一方向の待ち時間は、クライアントとサーバーの間の遅延を測定します。  <br/> |
+|**RelativeOneWayMax** <br/> |float  <br/> ||一方向の待機時間の上限。 相対的な一方向の待ち時間は、クライアントとサーバーの間の遅延を測定します。  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||1方向のバースト発生の合計。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |float  <br/> ||全体的な1方向バースト密度。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||一方向のバースト期間の合計。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||一方向のギャップ出現の合計。 "Bursty" 伝送とは、安定したストリームではなく、予期しないバーストでデータが流れる伝送です。ギャップは、このようなバーストの間の遅延を示します。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> |
+|**RelativeOneWayGapDensity** <br/> |float  <br/> ||一方向のギャップの密度の合計。 "Bursty" 伝送とは、安定したストリームではなく、予期しないバーストでデータが流れる伝送です。ギャップは、このようなバーストの間の遅延を示します。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> |
+|**RelativeOneWayGapDuration** <br/> |float  <br/> ||一方向のギャップ期間の合計。 "Bursty" 伝送とは、安定したストリームではなく、予期しないバーストでデータが流れる伝送です。ギャップは、このようなバーストの間の遅延を示します。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> |
+|**ApplicationSharingType** <br/> |varChar (256)  <br/> ||アプリケーションロール (共有先またはビューアー) とコンテンツタイプ。  <br/> |
+|**RDPTileProcessingLatencyTotal** <br/> |float  <br/> ||リモートデスクトッププロトコル (RDP) タイルの合計処理時間。 表示環境では、合計の遅延が長くなります。  <br/> |
+|**Rdp タイル処理** <br/> |float  <br/> ||リモートデスクトッププロトコル (RDP) タイルの平均処理時間。 表示環境では、合計の遅延が長くなります。  <br/> |
+|**RDPTileProcessingLatencyMax** <br/> |float  <br/> ||リモートデスクトッププロトコル (RDP) タイルの最大処理時間。 表示環境では、合計の遅延が長くなります。  <br/> |
+|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||リモートデスクトッププロトコル (RDP) タイルの処理時間でのバースト発生。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。  <br/> |
+|**RDPTileProcessingLatencyBurstDensity** <br/> |float  <br/> ||リモートデスクトッププロトコル (RDP) タイルの処理時間のバースト密度。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。  <br/> |
+|**RDPTileProcessingLatencyBurstDuration** <br/> |float  <br/> ||リモートデスクトッププロトコル (RDP) タイルの処理時間のバースト時間。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。  <br/> |
+|**RDPTileProcessingLatencyGapOccurrences** <br/> |int  <br/> ||リモートデスクトッププロトコル (RDP) タイルの処理時間のギャップの出現回数。  <br/> |
+|**RDPTileProcessingLatencyGapDensity** <br/> |float  <br/> ||リモートデスクトッププロトコル (RDP) タイルの処理時間のギャップの密度。 隙間が小さいほど、表示エクスペリエンスが向上します。  <br/> |
+|**RDPTileProcessingLatencyGapDuration** <br/> |float  <br/> ||リモートデスクトッププロトコル (RDP) タイルの処理時間の間隔。 短い間隔の期間は、表示感が向上するようになります。  <br/> |
+|**CaptureTileRateTotal** <br/> |float  <br/> ||キャプチャされたタイルの合計レート (1 秒あたりのタイル数)  <br/> |
+|**CaptureTileRateAverage** <br/> |float  <br/> ||キャプチャされたタイルの平均速度 (1 秒あたりのタイル数)。  <br/> |
+|**CaptureTileRateMax** <br/> |float  <br/> ||キャプチャされたタイルの最大速度 (1 秒あたりのタイル数)  <br/> |
+|**CaptureTileRateBurstOccurrences** <br/> |t  <br/> ||キャプチャされたタイルの速度 (1 秒あたりのタイル) でバーストが発生します。  <br/> |
+|**CaptureTileRateBurstDensity** <br/> |float  <br/> ||キャプチャされたタイルの速度 (1 秒あたりのタイル数) のバースト密度。  <br/> |
+|**CaptureTileRateBurstDuration** <br/> |float  <br/> ||キャプチャされたタイルの割合でのバースト時間 (1 秒あたりのタイル数)。  <br/> |
+|**CaptureTileRateGapOccurrences** <br/> |int  <br/> ||キャプチャされたタイルの比率 (1 秒あたりのタイル数) でのギャップ出現回数。  <br/> |
+|**CaptureTileRateGapDensity** <br/> |float  <br/> ||キャプチャされたタイル (1 秒あたりのタイル数) の間隔の間隔。  <br/> |
+|**CaptureTileRateGapDuration** <br/> |float  <br/> ||キャプチャされたタイルの割合の間隔 (1 秒あたりのタイル数)  <br/> |
+|**損失タイル** <br/> |float  <br/> ||閲覧者に届かなかったが、破棄され、最新のコンテンツによって上書きされたコンテンツの割合の合計。  <br/> |
+|**SpoiledTilePercentAverage** <br/> |float  <br/> ||閲覧者に届かなかったが、新しいコンテンツによって破棄されて上書きされたコンテンツの平均割合。  <br/> |
+|**SpoiledTilePercentMax** <br/> |float  <br/> ||閲覧者に届かなかったが、新しいコンテンツによって破棄されて上書きされたコンテンツの最大パーセンテージ。  <br/> |
+|**SpoiledTilePercentBurstOccurrences** <br/> |int  <br/> ||閲覧者に届かなかったが、新しいコンテンツによって破棄されて上書きされたコンテンツのバースト発生。  <br/> |
+|**SpoiledTilePercentBurstDensity** <br/> |float  <br/> ||ビューアーに届かなかったが、新しいコンテンツによって破棄されて上書きされたコンテンツのバースト密度。  <br/> |
+|**SpoiledTilePercentBurstDuration** <br/> |float  <br/> ||ビューアーに届かなかったが、新しいコンテンツによって破棄されて上書きされたコンテンツのバースト時間。  <br/> |
+|**SpoiledTilePercentGapOccurrences** <br/> |int  <br/> ||閲覧者に届かなかったが、新しいコンテンツによって破棄されて上書きされたコンテンツの Gap オカレンス。  <br/> |
+|**SpoiledTilePercentGapDensity** <br/> |float  <br/> ||ビューアーに届かなかったが、新しいコンテンツで破棄されて上書きされたコンテンツの Gap 濃度。  <br/> |
+|**SpoiledTilePercentGapDuration** <br/> |float  <br/> ||ビューアーに届かなかったが、新しいコンテンツによって破棄されて上書きされたコンテンツの間隔の期間。  <br/> |
+|**ScrapingFrameRateTotal** <br/> |float  <br/> ||グラフィックスソースから scraped フレームの合計数です。  <br/> |
+|**ScrapingFrameRateAverage** <br/> |float  <br/> ||グラフィックスソースから scraped フレームの平均数。  <br/> |
+|**ScrapingFrameRateMax** <br/> |float  <br/> ||グラフィックスソースから scraped フレームの最大数。  <br/> |
+|**ScrapingFrameRateBurstOccurrences** <br/> |int  <br/> ||グラフィックソースからフレームの scraped が発生します。  <br/> |
+|**ScrapingFrameRateBurstDensity** <br/> |float  <br/> ||グラフィックスソースからのフレーム scraped のバースト密度。  <br/> |
+|**ScrapingFrameRateBurstDuration** <br/> |float  <br/> ||グラフィックスソースからのフレーム scraped のバースト時間。  <br/> |
+|**ScrapingFrameRateGapOccurrences** <br/> |int  <br/> ||グラフィックソースから、フレーム内の Gap オカレンスが scraped ます。  <br/> |
+|**ScrapingFrameRateGapDensity** <br/> |float  <br/> ||グラフィックスソースから scraped フレームの間隔の濃度。  <br/> |
+|**ScrapingFrameRateGapDuration** <br/> |float  <br/> ||グラフィックスソースから scraped フレームの間隔を指定します。  <br/> |
+|**IncomingTileRateTotal** <br/> |float  <br/> ||視聴者が受信したフレームの合計料金。  <br/> |
+|**IncomingTileRateAverage** <br/> |float  <br/> ||視聴者が受信したフレームの平均速度。  <br/> |
+|**IncomingTileRateMax** <br/> |float  <br/> ||視聴者が受信した最大受信タイルレート。  <br/> |
+|**IncomingTileRateBurstOccurrences** <br/> |int  <br/> ||視聴者が受信したタイルレートでのバースト発生  <br/> |
+|**IncomingTileRateBurstDensity** <br/> |float  <br/> ||視聴者が受信したタイルレートのバースト密度。  <br/> |
+|**IncomingTileRateBurstDuration** <br/> |float  <br/> ||閲覧者が受信した受信タイルレートのバースト時間。  <br/> |
+|**IncomingTileRateGapOccurrences** <br/> |int  <br/> ||閲覧者が受信したタイルレートのギャップが表示されます。  <br/> |
+|**IncomingTileRateGapDensity** <br/> |float  <br/> ||閲覧者によって受信された、受信タイルレートのギャップの密度。  <br/> |
+|**IncomingTileRateGapDuration** <br/> |float  <br/> ||視聴者が受信したタイルレートの間隔。  <br/> |
+|**IncomingFrameRateTotal** <br/> |float  <br/> ||視聴者が受信したフレームの合計料金。  <br/> |
+|**IncomingFrameRateAverage** <br/> |float  <br/> ||視聴者が受信したフレームの平均速度。  <br/> |
+|**IncomingFrameRateMax** <br/> |float  <br/> ||視聴者が受信した受信フレームレートの上限。  <br/> |
+|**IncomingFrameRateBurstOccurrences** <br/> |int  <br/> ||視聴者が受信したフレームレートのバーストが発生します。  <br/> |
+|**IncomingFrameRateBurstDensity** <br/> |float  <br/> ||視聴者が受信したフレームレートのバースト密度。  <br/> |
+|**IncomingFrameRateBurstDuration** <br/> |float  <br/> ||ビューアーで受信した受信フレームレートのバースト時間。  <br/> |
+|**IncomingFrameRateGapOccurrences** <br/> |int  <br/> ||閲覧者が受信したフレームレートのギャップが表示されます。  <br/> |
+|**IncomingFrameRateGapDensity** <br/> |float  <br/> ||視聴者が受信したフレームレートの間隔。  <br/> |
+|**IncomingFrameRateDuration** <br/> |float  <br/> ||視聴者が受信したフレームレートの間隔。  <br/> |
+|**OutgoingTileRateTotal** <br/> |float  <br/> ||送信者の合計送信タイルレート。  <br/> |
+|**OutgoingTileRateAverage** <br/> |float  <br/> ||送信者の平均送信タイルレート。  <br/> |
+|**OutgoingTileRateMax** <br/> |float  <br/> ||送信者の最大送信タイルレート。  <br/> |
+|**OutgoingTileRateBurstOccurrences** <br/> |int  <br/> ||送信者の送信タイルレートのバーストが発生します。  <br/> |
+|**OutgoingTileRateBurstDensity** <br/> |float  <br/> ||送信者の送信タイルレートのバースト密度。  <br/> |
+|**OutgoingTileRateBurstDuration** <br/> |float  <br/> ||送信者の送信タイルレートのバースト時間。  <br/> |
+|**OutgoingTileRateGapOccurrences** <br/> |int  <br/> ||送信者に対して、送信タイルレートのギャップが発生します。  <br/> |
+|**OutgoingTileRateGapDensity** <br/> |float  <br/> ||送信者の送信タイルレートの間隔。  <br/> |
+|**OutgoingTileRateGapDuration** <br/> |float  <br/> ||送信者の送信タイルレートの間隔。  <br/> |
+|**OutgoingFrameRateTotal** <br/> |float  <br/> ||送信者の総送信フレームレート。  <br/> |
+|**OutgoingFrameRateAverage** <br/> |float  <br/> ||送信者の平均送信フレームレート。  <br/> |
+|**OutgoingFrameRateMax** <br/> |float  <br/> ||送信者の最大送信フレームレート。  <br/> |
+|**OutgoingFrameRateBurstOccurrences** <br/> |int  <br/> ||送信者の送信フレームレートでのバースト発生。  <br/> |
+|**OutgoingFrameRateBurstDensity** <br/> |float  <br/> ||送信者の送信フレームレートのバースト密度。  <br/> |
+|**OutgoingFrameRateBurstDuration** <br/> |float  <br/> ||送信者の送信フレームレートのバースト時間。  <br/> |
+|**OutgoingFrameRateGapOccurrences** <br/> |int  <br/> ||送信者に対して送信されるフレームレートのギャップ。  <br/> |
+|**OutgoingFrameRateGapDensity** <br/> |float  <br/> ||送信者の発信フレームレートのギャップの密度。  <br/> |
+|**OutgoingFrameRateGapDuration** <br/> |float  <br/> ||送信者の発信フレームレートの間隔。  <br/> |
+|**AverageRectangleHeight** <br/> |int  <br/> ||平均ビデオ解像度の高さ (ピクセル単位)。  <br/> |
+|**AverageRectangleWidth** <br/> |int  <br/> ||平均ビデオ解像度の幅 (ピクセル単位)。  <br/> |
+|**トラフィック** <br/> |bit  <br/> ||受信伝送の平均フレームレート (1 秒あたりのフレーム数)。  <br/> |
+|**発信** <br/> |bit  <br/> ||送信時の平均フレームレート (1 秒あたりのフレーム数)。  <br/> |
+|**SenderIsCallerPAI** <br/> |bit  <br/> ||1ストリームの方向は、呼び出し元から呼び出し先へとなります。  <br/> 0は、ストリームの方向を呼び出し元から呼び出し元に転送します。  <br/> |
    
 

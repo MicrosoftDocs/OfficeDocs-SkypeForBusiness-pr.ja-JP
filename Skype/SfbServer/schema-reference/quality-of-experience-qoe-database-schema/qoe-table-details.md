@@ -5,22 +5,22 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: これらのセクションでは、エクスペリエンスの品質 (QoE) データベースのスキーマのテーブルの各列について詳しく説明します。
-ms.openlocfilehash: cd8a1f063fdfe5f13aecdaa62eb71225e753adfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 以下のセクションでは、各 Quality of Experience (QoE) データベーススキーマテーブルの列について詳しく説明します。
+ms.openlocfilehash: 371fdd6f3d61ef799fd45f08e7cb4a8a1fea03f0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920118"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294783"
 ---
 # <a name="qoe-table-details"></a>QoE テーブルの詳細
  
-これらのセクションでは、エクスペリエンスの品質 (QoE) データベースのスキーマのテーブルの各列について詳しく説明します。
+以下のセクションでは、各 Quality of Experience (QoE) データベーススキーマテーブルの列について詳しく説明します。
   
 - [AppliedBandwidthSource テーブル](appliedbandwidthsource.md)
     
@@ -48,7 +48,7 @@ ms.locfileid: "33920118"
     
 - [EndpointSubnet テーブル](endpointsubnet.md)
     
-- [Ip アドレス テーブル](ipaddress.md)
+- [IPAddress テーブル](ipaddress.md)
     
 - [MacAddress テーブル](macaddress.md)
     
@@ -64,7 +64,7 @@ ms.locfileid: "33920118"
     
 - [Pool テーブル](pool.md)
     
-- [PurgeSettings テーブル (QoE)](purgesettings-qoe.md)
+- [PurgeSettings table (QoE)](purgesettings-qoe.md)
     
 - [Region テーブル](region.md)
     

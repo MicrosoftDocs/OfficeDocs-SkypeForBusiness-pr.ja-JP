@@ -1,47 +1,47 @@
 ---
-title: Business Server のインスタント メッセージングと Skype のプレゼンスの計画します。
+title: Skype for Business Server でインスタントメッセージとプレゼンスを計画する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: '概要: ビジネスのサーバーにインスタント メッセージングとプレゼンスの Skype を計画する方法を説明します。'
-ms.openlocfilehash: f29464b9eaf725deb41c41cb9255a8b2f6737792
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server でインスタントメッセージングとプレゼンスを計画する方法について説明します。'
+ms.openlocfilehash: 29026a0b4ef7cce55f155f024efc9ccc84457906
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907165"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297380"
 ---
-# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Business Server のインスタント メッセージングと Skype のプレゼンスの計画します。
+# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Skype for Business Server でインスタントメッセージとプレゼンスを計画する
  
-**の概要:** ビジネスのサーバーにインスタント メッセージングとプレゼンスの Skype を計画する方法について説明します。
+**概要:** Skype for Business Server でインスタントメッセージ (im) とプレゼンスを計画する方法について説明します。
   
-ビジネスのサーバーにインスタント メッセージングとプレゼンスの Skype を計画します。 有効にするか、オフライン インスタント メッセージング (IM)、無効にするなど、特定の展開オプションの詳細については、[インスタント メッセージングを展開しビジネス サーバーの Skype のプレゼンス](../deploy/im-and-presence/im-and-presence.md)を参照してください。
+Skype for Business Server でインスタントメッセージとプレゼンスを計画します。 オフラインインスタントメッセージング (IM) の有効化または無効化などの特定の展開オプションの詳細については、「 [Skype For Business Server でインスタントメッセージングとプレゼンスを展開](../deploy/im-and-presence/im-and-presence.md)する」を参照してください。
   
-## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Business Server のインスタント メッセージングと Skype のプレゼンスの計画します。
+## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Skype for Business Server でインスタントメッセージとプレゼンスを計画する
 
-フロント エンド サーバーを提供インスタント メッセージング (IM) とプレゼンスなどのビジネスのサーバーの機能のための Skype のコア ビジネス サーバー配置のすべての Skype に含まれています。 使用可能な 2 つのエディションがあります: 大規模な組織に主に設計されていますが、ビジネス サーバー Enterprise Edition の Skype と Skype ビジネス Server Standard Edition は、主に小規模な組織であるより小さいかどうかのハードウェアへの投資の完全な高可用性オプションを必要としません。 両方のエディションでは、IM、プレゼンス、会議、およびエンタープライズ VoIP を含むビジネス サーバー ワークロードのすべての Skype をサポートします。
+フロントエンドサーバーは、インスタントメッセージング (IM) やプレゼンスなどの Skype for business Server の主要な機能を提供し、すべての Skype for Business Server の展開に含まれています。 次の2つのエディションを使用できます。 Skype for Business Server Enterprise Edition は、主に大規模な組織向けに設計されており、Skype for Business Server Standard Edition 向けに設計されています。ハードウェアへの投資。高可用性の完全なオプションは必要ありません。 どちらのエディションも、IM、プレゼンス、会議、エンタープライズ Voip などのすべての Skype for Business Server のワークロードをサポートしています。
   
 インスタント メッセージング (IM) を使用すると、ユーザーは各自のコンピューターでテキスト ベースのメッセージを使用して、リアルタイムで相互通信を行うことができます。 2 パーティとマルチパーティの両方の IM セッションがサポートされています。 2 パーティの IM 会話の参加者は、3 番目の参加者をいつでも会話に追加できます。 この際には、会議機能をサポートするように会話ウィンドウが変更されます。
   
-プレゼンスは、ネットワーク上の他のユーザーの状態に関する情報をユーザーに提供します。 ユーザーのプレゼンス状態は、他のユーザーかどうかする必要がありますしようとするユーザーに連絡し、インスタント メッセージング、電話、または電子メールを使用するかどうかを決定に役立つ情報を提供します。 プレゼンスにより、可能な場合にはすぐにやりとりできますが、他にも、ユーザーが会議中であるかどうかや、外出のために応答できない状況なのかに関する情報も提供されます。 プレゼンス状態は、Skype for Business およびその他のプレゼンス対応のアプリケーション (Microsoft Outlook のメッセージングおよびコラボレーション クライアント、Microsoft SharePoint テクノロジ、Microsoft Office など) で、プレゼンス アイコンとして表示されます。 プレゼンス アイコンは、ユーザーの現在の可用性と通信意思を表します。 
+プレゼンスは、ネットワーク上の他のユーザーの状態に関する情報をユーザーに提供します。 ユーザーのプレゼンス状態は、ユーザーに連絡を試みる必要があるかどうか、またインスタントメッセージング、電話、メールのどちらを使用するかを他のユーザーが判断するのに役立つ情報を提供します。 プレゼンスにより、可能な場合にはすぐにやりとりできますが、他にも、ユーザーが会議中であるかどうかや、外出のために応答できない状況なのかに関する情報も提供されます。 プレゼンス状態は、Skype for Business およびその他のプレゼンス対応のアプリケーション (Microsoft Outlook のメッセージングおよびコラボレーション クライアント、Microsoft SharePoint テクノロジ、Microsoft Office など) で、プレゼンス アイコンとして表示されます。 プレゼンスアイコンは、ユーザーの現在の可用性とコミュニケーションの意思を示します。 
   
 ### <a name="technical-requirements"></a>技術要件
 
-インスタント メッセージング (IM) とプレゼンスは、常に Enterprise Edition フロントエンド プールと Standard Edition サーバーで実行されます。 サポートされているハードウェア、オペレーティング システム、およびデータベース ソフトウェアについては、[認定ゲートウェイ](../../SfbPartnerCertification/certification/infra-gateways.md)、 [2015 のビジネス環境について、Skype の要件](requirements-for-your-environment/requirements-for-your-environment.md)、およびビジネス サーバー 2019 の Skype のための[インフラストラクチャの要件を参照してください。](../../SfBServer2019/plan/system-requirements.md).
+インスタント メッセージング (IM) とプレゼンスは、常に Enterprise Edition フロントエンド プールと Standard Edition サーバーで実行されます。 サポートされているハードウェア、オペレーティングシステム、データベースソフトウェアの詳細については、[認定ゲートウェイ](../../SfbPartnerCertification/certification/infra-gateways.md)、 [skype for business 2015 環境の要件](requirements-for-your-environment/requirements-for-your-environment.md)、および[skype For business Server 2019 のインフラストラクチャ要件を参照してください。](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>外部ユーザーとの通信を有効にする
 
-外部ユーザーと通信できるので、ビジネス サーバー Skype でお客様の投資のメリットが大幅に増加できます。 外部ユーザーには次のユーザーが含まれます。
+ユーザーが外部ユーザーと通信できるようにすることで、Skype for Business Server での投資のメリットを大幅に向上させることができます。 外部ユーザーには次のユーザーが含まれます。
   
-- リモート ユーザー: 組織のユーザー、あなたはファイアウォールの外側で作業し、ビジネス サーバー デバイスをラップトップ コンピューターやその他の Skype を使用しています。
+- リモートユーザー: ファイアウォール外で作業していて、自分のラップトップやその他の Skype for Business Server デバイスを使っている場合に、組織の独自のユーザー。
     
-- フェデレーション ユーザー: ユーザーも Skype をビジネスのサーバーの実行を使用する企業からです。 自社ユーザーがこうしたユーザーに容易にコンタクトできるようにするには、これらの企業とフェデレーション関係を作成する必要があります。 
+- フェデレーションユーザー: Skype for Business Server も実行している会社のユーザー。 自社ユーザーがこうしたユーザーに容易にコンタクトできるようにするには、これらの企業とフェデレーション関係を作成する必要があります。 
     
 - Skype ユーザー:   Skype for Business ユーザーは、Skype で IM、音声、ビデオを使用して数億人のユーザーと連絡を取ることができます。
     
@@ -49,27 +49,27 @@ ms.locfileid: "33907165"
 > AOL、Yahoo、Google Talk はサポートされなくなりました。 
   
 > [!NOTE]
-> これらのシナリオの一部またはすべてを有効にするには、Skype をビジネス サーバーの展開と外部ユーザーの間でセキュリティで保護された通信を有効にするためにエッジ サーバーを展開する必要があります。 組織のリモート ユーザーとフェデレーション組織のユーザーは、互いの存在を確認し、IM を使用して通信できるようなります。 
+> これらのシナリオのいずれか、またはすべてを有効にするには、microsoft Edge Server を展開して、Skype for Business Server の展開と外部ユーザー間の通信をセキュリティで保護できるようにする必要があります。 組織のリモートユーザーとフェデレーションされた組織のユーザーは、互いのプレゼンスを表示して、IM を使って通信することができます。 
   
 > [!NOTE]
 > XMPP (eXtensible Messaging and Presence Protocol) は、Unified Capabilities Collaboration Platform (UCCP) Joint Interoperability Test Command (JITC) 証明書シナリオでのみサポートされます。 
   
 ### <a name="archiving-im-content"></a>IM コンテンツをアーカイブする
 
-Skype ビジネス サーバーには、組織がコンプライアンスに関する規制に従う必要がある場合に使用できる機能が用意されています。 アーカイブを使用すると、組織内のすべてのユーザーまたは指定する特定のユーザーの IM メッセージの内容をアーカイブすることができます。 詳細については、 [Skype のビジネス サーバーでアーカイブするための計画](archiving/archiving.md)を参照してください。 
+Skype for Business Server には、組織が法令遵守法に準拠する必要がある場合に使用できる機能が用意されています。 アーカイブを使用すると、組織内のすべてのユーザーまたは指定する特定のユーザーの IM メッセージの内容をアーカイブすることができます。 詳細については、「 [Skype For Business Server でのアーカイブの計画](archiving/archiving.md)」を参照してください。 
   
-Microsoft Exchange Server 2013 の展開もあれば、Skype のビジネス サーバーのデータのアーカイブと、Exchange データのアーカイブを統合し、アーカイブ ・ データの両方の種類を検索する 1 つのツールを使用できます。 詳細については、[ビジネス サーバーで Exchange Server のアーカイブを使用する Skype の設定](../deploy/integrate-with-exchange-server/use-exchange-archiving.md)を参照してください。
+Microsoft Exchange Server 2013 が展開されている場合は、Exchange データのアーカイブを Skype for Business Server データのアーカイブと統合することができます。また、単一のツールを使用して、両方の種類のアーカイブデータを検索することもできます。 詳細については、「 [Exchange server のアーカイブを使用するように Skype For Business server を構成する](../deploy/integrate-with-exchange-server/use-exchange-archiving.md)」を参照してください。
   
 ### <a name="topologies-and-components"></a>トポロジとコンポーネント
 
 インスタント メッセージング (IM) とプレゼンスに必要なコンポーネントは、次に示すものだけです。
   
-- (プールと呼ばれます)、組織のフロント エンド サーバーまたは Standard Edition サーバーです。 これらのサーバーで、IM およびプレゼンス機能は常にオンになっています。 フロント エンド プール トポロジと管理の詳細については、[フロント エンド プールの高可用性と管理](high-availability-and-disaster-recovery/high-availability.md)を参照してください。
+- 組織のフロントエンドサーバー (プールとも呼ばれます) または Standard Edition サーバー。 これらのサーバーで、IM およびプレゼンス機能は常にオンになっています。 フロントエンドプールのトポロジと管理の詳細については、「[フロントエンドプールの高可用性と管理](high-availability-and-disaster-recovery/high-availability.md)」を参照してください。
     
 - ロード バランサー (Enterprise Edition フロントエンド プールがある場合)
     
 ### <a name="supported-collocation"></a>サポートされる併置
 
-併置の定義は、複数の役割がインストールされた単一のサーバーまたはサーバー グループが存在することです。 コロケーションの詳細については、 [Skype のビジネス サーバーのトポロジの基礎](topology-basics/topology-basics.md)を参照してください。 
+併置の定義は、複数の役割がインストールされた単一のサーバーまたはサーバー グループが存在することです。 Collocation の詳細については、「 [Skype For Business Server のトポロジの基礎](topology-basics/topology-basics.md)」を参照してください。 
   
 

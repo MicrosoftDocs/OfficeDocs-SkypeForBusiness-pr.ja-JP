@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,34 +23,34 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: bea5710917581953fac6da643c090aa1f389972e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7b61ff671814e0c4ce46cb8492930ada73a8e5fe
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223465"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298229"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Office 365 に電話番号を転送する
 
 [] 電話番号を現在のサービス プロバイダーから Skype for Business に移行するのは簡単です。電話番号を Skype for Business に移行した後、マイクロソフトがサービスプロバイダーになり、それらの電話番号に対する請求を行います。
   
-電話番号の転送を開始する前に[転送する電話番号のよくある質問](transferring-phone-numbers-common-questions.md)の情報を確認することをお勧めします。 ダイヤルイン会議用ブリッジ、自動応答、またはその他のサービス番号の番号をサービスがあれば、無料電話番号も[管理用の電話番号を参照してくださいビジネス用の Skype に転送する必要がありますが 999 を超える数のユーザー (サブスクライバー) の電話番号組織](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)に正しいフォームをダウンロードし、お知らせします。
+電話番号の移行を開始する前に、「[電話番号の一般的な質問](transferring-phone-numbers-common-questions.md)」の情報を確認することをお勧めします。 ダイヤルイン会議ブリッジのサービス番号、自動応答、またはその他のサービス番号、フリーダイヤル電話番号、または Skype for Business に移行する必要がある999ユーザー (加入者) 電話番号がある場合は、「[の電話番号を管理する」を参照してください。組織](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)で適切なフォームをダウンロードして、お客さまに送信します。
 
   > [!NOTE]
-  > 私たちは、u. s. 営業日以内にのみ、パブリックの休日や週末ではなく、電話番号を転送するためのポートの注文を処理します。 
+  > お客様は、電話番号を米国の就業日にのみ転送するためのポート注文を処理します。これは、休日または週末ではありません。 
   
 ## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-skype-for-business"></a>ポート注文を作成して、Skype for Business に電話番号を移行する方法
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]
-  > ダイヤルイン会議用ブリッジ、自動応答、またはその他のサービス番号の番号をサービスがあれば、無料電話番号も[管理用の電話番号を参照してくださいビジネス用の Skype に転送する必要がありますが 999 を超える数のユーザー (サブスクライバー) の電話番号組織](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)正しい国/地域を選択し、正しいフォームをダウンロード、お知らせします。
+  > ダイヤルイン会議ブリッジのサービス番号、自動応答、またはその他のサービス番号、フリーダイヤル電話番号、または Skype for Business に移行する必要がある999ユーザー (加入者) 電話番号がある場合は、「[の電話番号を管理する」を参照してください。組織](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)で正しい国/地域を選択し、正しいフォームをダウンロードして、お客さまに送信してください。
  
-![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
+2. **Microsoft Teams 管理センター** > の**従来のポータル**に移動します。
     
 3. In the left navigation go to **Voice** > **Port orders** > click **Add**.
     
@@ -78,7 +78,7 @@ ms.locfileid: "32223465"
     
    - サービス アドレスの [ **市区町村**]、[ **都道府県**]、[ **郵便番号**]。
     
-6. [ **番号**] ページで、移行する電話番号を E.164 形式で入力します。 たとえば、北アメリカの電話番号には +1XXXYYYZZZZ の形式を使用します。 複数の電話番号を区切るコンマを使用します。
+6. [ **番号**] ページで、移行する電話番号を E.164 形式で入力します。 たとえば、北アメリカの電話番号には +1XXXYYYZZZZ の形式を使用します。 複数の電話番号を区切るには、カンマを使用します。
     
     > [!NOTE]
     > 完全な移行を行う場合は、リストにサービスの請求先電話番号 (BTN) を含める必要があります。部分的な移行を行う場合は、リストからサービスの請求先電話番号 (BTN) を除外します。 
@@ -87,7 +87,7 @@ ms.locfileid: "32223465"
     
 7. [ **続行**] をクリックします。
     
-8. **日**」ドロップ ダウン リストで、**日付を転送**] ページで、[日付を選択**開始時刻**」ドロップ ダウン リストで、[時刻 (EST) を選択し、[**次へ**] をクリックします。
+8. [**転送日**] ページの [**日**] ドロップダウンリストで日付を選び、[**開始時刻**] ドロップダウンリストで時刻 (EST) を選び、[**次へ**] をクリックします。
     
 9. [ **承認状**] ページで、各ボックスをオンにします。続いて [ **署名**] ボックスの下で、アカウントを変更することが承認されているユーザーを入力します。これは、[ **アカウント情報**] ページの [ **認証する人物**] で使う同じ名前です。続いて [ **次へ**] をクリックします。
     

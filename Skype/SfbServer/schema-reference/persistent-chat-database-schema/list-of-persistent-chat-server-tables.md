@@ -5,68 +5,68 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
-description: 永続的なチャットのデータベース スキーマは、次の表で構成されています。
-ms.openlocfilehash: 3038c68004d516ce772e49af098d8520c5a1ce00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 常設チャットデータベーススキーマは、次の表で構成されています。
+ms.openlocfilehash: 6a6c0bc2c2cc2d5e5ba59f9f636ed9cea2189bed
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929827"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295651"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>常設チャット サーバーのテーブルのリスト
  
-永続的なチャットのデータベース スキーマは、次の表で構成されています。
+常設チャットデータベーススキーマは、次の表で構成されています。
   
 ## <a name="active-directory-sync"></a>Active Directory の同期
 
 |**テーブル**|**説明**|
 |:-----|:-----|
-|[tblADCookie](tbladcookie.md) <br/> |現在のライトウェイト ディレクトリ アクセス プロトコル (LDAP) 同期 cookie が含まれています。 各行は、永続的なチャット サーバーが変更を監視する Active Directory ドメイン サービスのドメインに対応しています。 (永続的なチャット サーバーに関連付けられている Active Directory のドメインのみは、次の表で表されます)。  <br/> |
-|[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |グループ メンバーシップの変更 (追加し、削除メンバー) を作業中のディレクトリ同期の後の手順でまだ処理されていないと、作業中のディレクトリ同期の最初のステップで使用されている一時テーブル (および tblADUpdates のテーブル) の 1 つが含まれています。  <br/> メンバーシップの変更は保存、処理、または表示されているメンバーがあるどちらか一方のみまたは tblPrincipal テーブルに既に記載されているグループです。  <br/> |
-|[tblADUpdates](tbladupdates.md) <br/> |後の作業中のディレクトリ同期手順でまだ処理されていない Active Directory ドメイン サービスへの変更が含まれており (tblPrincipalMemberDifference テーブル) と Active Directory の最初のステップで使用されている一時テーブルのいずれか同期します。  <br/> Active Directory への変更は保存されている、処理、またはその両方は、tblPrincipal テーブルに表示されている主体にだけです。  <br/> |
-|[tblPrincipalMembers](tblprincipalmembers.md) <br/> |プリンシパルのメンバーシップが含まれています。  <br/> |
+|[tblADCookie](tbladcookie.md) <br/> |現在のライトウェイトディレクトリアクセスプロトコル (LDAP) 同期 cookie が含まれます。 各行は、常設チャットサーバーが変更を積極的に監視している Active Directory ドメインサービスドメインに対応しています。 (この表では、常設チャットサーバーに関連する Active Directory ドメインのみが示されています。)  <br/> |
+|[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |Active directory 同期の以降の手順でまだ処理されていないグループメンバーシップの変更 (メンバーの追加と削除の両方) が含まれています。また、Active Directory 同期の最初の手順で使用されている一時的なテーブル (tblADUpdates table と共に表示されます) の1つです。  <br/> メンバーシップの変更は、tblPrincipal テーブルに一覧表示されている、または既に表示されているメンバーが含まれているグループに対してのみ、保存、処理、またはその両方になります。  <br/> |
+|[tblADUpdates](tbladupdates.md) <br/> |Active directory の以降の同期手順でまだ処理されていない Active Directory ドメインサービスへの変更が含まれています。また、Active directory の最初の手順で使用される一時的なテーブル (tblPrincipalMemberDifference テーブルと共に表示されます) の1つです。せる.  <br/> Active Directory への変更は、tblPrincipal テーブルに既に一覧表示されているプリンシパルに対してのみ保存、処理、またはその両方が行われます。  <br/> |
+|[tblPrincipalMembers](tblprincipalmembers.md) <br/> |プリンシパルメンバーシップが含まれます。  <br/> |
 |[tblPrincipalMeta](tblprincipalmeta.md) <br/> |Active Directory から更新する必要があるプリンシパルが含まれています。  <br/> |
-|[tblSkippedAffiliations](tblskippedaffiliations.md) <br/> |通常 Active Directory のアクセス エラーが発生したため、何らかの理由で更新できませんでしたの所属団体が含まれています。  <br/> このテーブルは情報提供のみを目的としておりします。 その内容は使用されません。  <br/> 正しく更新できませんでしたの所属団体でのプリンシパルでは、tblPrincipalMeta テーブルに保持されを更新する別の機会が与えられます。  <br/> |
+|[tblSkippedAffiliations](tblskippedaffiliations.md) <br/> |何らかの理由で更新できない所属先が含まれています。通常、Active Directory アクセスエラーが原因です。  <br/> この表は、情報提供のみを目的としています。 コンテンツは使用されません。  <br/> 適切に更新できなかった所属のプリンシパルは、tblPrincipalMeta テーブルに保存され、もう一度更新される可能性があります。  <br/> |
    
-## <a name="principals-affiliations-nodes-scopes-and-roles"></a>プリンシパル、所属名、ノード、スコープ、およびロール
+## <a name="principals-affiliations-nodes-scopes-and-roles"></a>プリンシパル、所属、ノード、スコープ、およびロール
 
 |**テーブル**|**説明**|
 |:-----|:-----|
-|[tblPrincipalType](tblprincipaltype.md) <br/> |TblPrincipal テーブルに含まれるものを分類するためにプリンシパルの種類が含まれています。 このテーブルは静的です。 データベースの作成時に設定し、変更されません。  <br/> |
-|[tblPrincipal](tblprincipal.md) <br/> |すべてのプリンシパル (ユーザー、フォルダー、グループ、およびなど) が含まれています。 永続的なチャット サーバーでは、平らな異機種混在のリストとして、これを処理します。 さまざまな列は、各プリンシパルの種類に基づいています。  <br/> これらの主体のほとんどは、Active Directory に格納されているオブジェクトのキャッシュされたコピーです。 キャッシュされたコピーを作成するプリンシパルには、これらの Active Directory オブジェクトのテーブル、プロビジョニングと呼ばれます。  <br/> いくつかのプリンシパルが、他の人よりも積極的に作成され、いくつかの Active Directory オブジェクトを無視します。  <br/> |
-|[tblPrincipalAffiliations](tblprincipalaffiliations.md) <br/> |Active Directory セキュリティ グループなど、Active Directory コンテナー内のメンバーシップを表すプリンシパルの所属が含まれています。  <br/> |
-|[tblNode](tblnode.md) <br/> |コントロール パネルの管理下に、[カテゴリ] ノードが含まれています。  <br/> |
-|[tblRoleType](tblroletype.md) <br/> |ロールの種類と、関連付けられたアクセス許可を設定します。 このルックアップ テーブルは、静的です。  <br/> |
-|[tblScopePrincipal](tblscopeprincipal.md) <br/> |ノードに割り当てられたスコープが含まれています。  <br/> |
-|[tblPrincipalRole](tblprincipalrole.md) <br/> |ノードに割り当てられているロールが含まれています。  <br/> |
-|[tblSiopWhiteList](tblsiopwhitelist.md) <br/> |アドインが含まれます、登録されているノードと関連付けることができます。  <br/> |
-|[tblEnumAttribute](tblenumattribute.md) <br/> |ハードコードされた「表示」と"問題の属性のみ tblNode テーブルで使用されているが含まれています。  <br/> |
-|[tblEnumValue](tblenumvalue.md) <br/> |TblNode テーブルで使用されているハードコードされた「可視性」と「動作」属性の値が含まれています。  <br/> |
+|[tblPrincipalType](tblprincipaltype.md) <br/> |TblPrincipal テーブルの内容を分類するプリンシパルの型が含まれています。 この表は静的です。 データベースの作成中に設定され、変更されません。  <br/> |
+|[tblPrincipal](tblprincipal.md) <br/> |すべてのプリンシパル (ユーザー、フォルダー、グループなど) が含まれます。 常設チャットサーバーは、フラットな異種混在リストとして処理します。 さまざまな列は、各プリンシパルの種類に基づいています。  <br/> これらのプリンシパルのほとんどは、Active Directory に保存されているオブジェクトのキャッシュコピーです。 これらの Active Directory オブジェクトのプリンシパルテーブルに、キャッシュされたコピーを作成することは、プロビジョニングと呼ばれます。  <br/> 一部のプリンシパルは、他のプリンシパルよりも積極的に作成され、一部の Active Directory オブジェクトは無視されます。  <br/> |
+|[tblPrincipalAffiliations](tblprincipalaffiliations.md) <br/> |Active Directory セキュリティグループ、Active Directory コンテナーなどのメンバーシップについて説明するプリンシパルメンバーが含まれています。  <br/> |
+|[tblNode](tblnode.md) <br/> |コントロールパネルで管理されるカテゴリノードが含まれています。  <br/> |
+|[tblRoleType](tblroletype.md) <br/> |ロールの種類とそれに関連付けられているアクセス許可セットが含まれます。 この参照テーブルは静的です。  <br/> |
+|[tblScopePrincipal](tblscopeprincipal.md) <br/> |ノードに割り当てられたスコープが含まれます。  <br/> |
+|[tblPrincipalRole](tblprincipalrole.md) <br/> |ノードに割り当てられている役割が含まれます。  <br/> |
+|[tblSiopWhiteList](tblsiopwhitelist.md) <br/> |ノードに関連付けることができる登録済みのアドインが含まれています。  <br/> |
+|[tblEnumAttribute](tblenumattribute.md) <br/> |TblNode テーブルで使用される、ハードコーディングされた "Visibility" 属性と "Behavior" 属性のみが含まれています。  <br/> |
+|[tblEnumValue](tblenumvalue.md) <br/> |TblNode テーブルで使用される、ハードコーディングされた "Visibility" 属性と "Behavior" 属性の値が格納されています。  <br/> |
    
-## <a name="invites-chats-and-other-client-support"></a>招待、チャット、およびその他のクライアントのサポート
+## <a name="invites-chats-and-other-client-support"></a>招待、チャット、その他のクライアントのサポート
 
 |**テーブル**|**説明**|
 |:-----|:-----|
-|[tblPrincipalInvites](tblprincipalinvites.md) <br/> |自動招待が有効になっているとのすべてのノードのシステムにプロビジョニングされたすべてのユーザーの招待が含まれています。  <br/> |
-|[tblChat](tblchat.md) <br/> |すべてのチャット メッセージが含まれています。  <br/> |
-|[tblLastInviteId](tbllastinviteid.md) <br/> |ユーザーごとに生成された (および tblPrincipalInvites テーブルで使用されている) 最後の招待 ID が含まれています。  <br/> |
-|[tblLastChatId](tbllastchatid.md) <br/> |ユーザーごとに生成された (および tblChat テーブルで使用されている) 最後のチャット ID が含まれています。  <br/> |
-|[tblPreference](tblpreference.md) <br/> |(レガシ クライアントのみが使用されます)、ユーザーのクライアント設定が含まれています。  <br/> |
-|[tblFileToken](tblfiletoken.md) <br/> |ファイル転送用の一時トークンが含まれています。 たびにファイルをアップロードまたはダウンロードするには、永続的なチャット サービスは、クライアントが Web サービスのファイル ストアへのアクセスに使用するトークンを生成します。  <br/> |
+|[tblPrincipalInvites](tblprincipalinvites.md) <br/> |自動招待が有効になっているすべてのノードについて、システム内のプロビジョニングされたすべてのユーザーの招待が含まれます。  <br/> |
+|[tblChat](tblchat.md) <br/> |すべてのチャットメッセージが含まれます。  <br/> |
+|[tblLastInviteId](tbllastinviteid.md) <br/> |各ユーザーに対して生成された (tblPrincipalInvites テーブルで使用される) 最後の招待 ID が含まれています。  <br/> |
+|[tblLastChatId](tbllastchatid.md) <br/> |各ユーザーに対して生成された (tblChat テーブルで使用された) 最後のチャット ID が含まれています。  <br/> |
+|[tblPreference](tblpreference.md) <br/> |ユーザークライアントの設定が含まれます (レガシクライアントでのみ使用されます)。  <br/> |
+|[tblFileToken](tblfiletoken.md) <br/> |ファイル転送のための一時トークンが含まれています。 ファイルがアップロードまたはダウンロードされるたびに、常設チャットサービスは、クライアントが Web サービスファイルストアへのアクセスに使用するトークンを生成します。  <br/> |
    
 ## <a name="server-support"></a>サーバーのサポート
 
 |**テーブル**|**説明**|
 |:-----|:-----|
-|[tblServerIdentity](tblserveridentity.md) <br/> |永続的なチャット サーバー プール内のアクティブなサーバーが含まれています。  <br/> |
-|[tblAdminLock](tbladminlock.md) <br/> |管理者の一部のコマンドを実行する管理者のロックが含まれています。 システム リビジョン テーブル内のエントリの tblSystemRevision は、ロックの各リリース後にインクリメントされます。  <br/> |
-|[tblSystemRevision](tblsystemrevision.md) <br/> |複数のサーバー間の一貫性を実現するための (tblAdminLock テーブルと共に) 使用されるリビジョン番号のエントリが含まれています。  <br/> |
-|[tblActivePeers](tblactivepeers.md) <br/> |永続的なチャット サービスの間の現在のピア ツー ピア接続が含まれています。  <br/> |
-|[tblConfig](tblconfig.md) <br/> |永続的なチャット サーバーのサポートされていない構成が含まれています。  <br/> |
+|[tblServerIdentity](tblserveridentity.md) <br/> |常設チャットサーバープール内のアクティブなサーバーが含まれます。  <br/> |
+|[tblAdminLock](tbladminlock.md) <br/> |一部の管理者コマンドを実行するための管理者ロックが含まれています。 TblSystemRevision テーブルのシステムリビジョンエントリは、ロックの各リリースの後でインクリメントされます。  <br/> |
+|[tblSystemRevision](tblsystemrevision.md) <br/> |複数のサーバー間で一貫性を確保するために使用されるリビジョン番号エントリ (tblAdminLock テーブルと共に) が含まれます。  <br/> |
+|[tblActivePeers](tblactivepeers.md) <br/> |常設チャットサービス間の現在のピアツーピア接続が含まれます。  <br/> |
+|[tblConfig](tblconfig.md) <br/> |常設チャットサーバーでサポートされていない構成が含まれています。  <br/> |
    
 

@@ -4,34 +4,34 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ビジネス サーバー 2019 の Skype では、複数のサイトおよび複数プール展開をサポートします。 ビジネス サーバー 2019 の Skype を複数のプールを移行するプロセスには、次の考慮事項が必要です。
-ms.openlocfilehash: 5e369adb51bf95f4e3c3d12688d1e39611aa5692
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for Business Server 2019 は、複数サイトと複数プールの展開をサポートしています。 複数のプールを Skype for Business Server 2019 に移行するプロセスには、次の考慮事項があります。
+ms.openlocfilehash: 05a94cb47568b9dfc3834f65f960353ad2933b03
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231638"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298184"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>複数のサイトとプールの移行
 
-ビジネス サーバー 2019 の Skype では、複数のサイトおよび複数プール展開をサポートします。 ビジネス サーバー 2019 の Skype を複数のプールを移行するプロセスには、次の考慮事項が必要です。 
+Skype for Business Server 2019 は、複数サイトと複数プールの展開をサポートしています。 複数のプールを Skype for Business Server 2019 に移行するプロセスには、次の考慮事項があります。 
   
-1. Skype のビジネス サーバー 2019 パイロット プールを配置すた後には、ビジネス サーバー 2019 プール、およびユーザーの機能を検証するための方法論、Skype を移動するパイロットのユーザーのサブセットを定義する必要があります。 たとえば、ユーザーをパイロット プールに移動した後のビジネス サーバー 2019 Skype に移動したユーザーの会議ポリシーを確認します。 
+1. Skype for Business Server 2019 パイロットプールを展開した後、Skype for Business Server 2019 プールに移動されるパイロットユーザーのサブセットと、ユーザーの機能を検証するための方法を定義する必要があります。 たとえば、パイロットプールにユーザーを移動した後、ユーザーの会議ポリシーが Skype for Business Server 2019 に移行されたことを確認します。 
     
-2. パイロット プールにエッジ サーバーを展開するには後に、外部のユーザーがビジネス サーバー 2019 プールの Skype で通信できることを検証する必要があります。
+2. パイロットプールにエッジサーバーを展開した後、外部ユーザーが Skype for Business Server 2019 プールと通信できることを検証する必要があります。
 
-3. 永続的なチャット、SQL のミラーリング、および XMPP の機能は、ビジネス サーバー 2019 の Skype では廃止され、ビジネス サーバー 2019 機能では、不要になった Skype としての利用可能なですが、以前に展開した場合の共存環境で続けることができます、従来の環境です。 これらの機能を使用して続行する場合は、引き続き共存環境では、特定のユーザーが、従来のプールに残ります。 計画する必要があります。
+3. 永続的なチャット、SQL ミラーリング、および XMPP 機能は、Skype for Business Server 2019 では廃止され、Skype for Business Server 2019 機能としては利用できなくなりましたが、以前に展開したことがある場合は、共存環境で続行できます。従来の環境。 これらの機能を引き続き使用する場合は、特定のユーザーが従来のプールにとどまることができる共存環境を継続することを計画する必要があります。
     
-4. ビジネス サーバー 2019 エッジ サーバーのパイロットの Skype にエッジ サーバーのフェデレーション ルートの処理中後に、、フェデレーション ユーザーが、ビジネス サーバー 2019 プールの Skype で通信できることを検証する必要があります。
+4. フェデレーションルートのエッジサーバーをパイロット版の Skype for Business Server 2019 Edge サーバーに移行した後、フェデレーションされたユーザーが Skype for Business Server 2019 プールと通信できることを検証する必要があります。
     
-5. すべてのユーザーおよびユーザー以外のユーザーの連絡先オブジェクトを移動するには後に、、レガシ プールが空であることを確認する必要があります。
+5. すべてのユーザーと非ユーザーの連絡先オブジェクトを移動した後、従来のプールが空であることを確認する必要があります。
     
-6. 従来のプールが空であることを確認した後、プールを無効にできます。 
+6. 従来のプールが空であることを確認した後、プールを非アクティブ化することができます。 
     
-    レガシ プールとサーバーを非アクティブ化する方法の詳細についてを参照してください[フェーズ 8: 従来のプールを非コミッションに](phase-8-decommission-legacy-pools.md)。
+    従来のプールとサーバーを非アクティブ化する方法について詳しくは、「[フェーズ 8: レガシプールの廃止](phase-8-decommission-legacy-pools.md)」をご覧ください。
     
 

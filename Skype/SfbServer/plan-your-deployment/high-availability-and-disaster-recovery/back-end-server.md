@@ -1,26 +1,26 @@
 ---
-title: Skype の最後のサーバーの高可用性をビジネスのサーバーのバックアップします。
+title: Skype for Business Server のバックエンドサーバーの高可用性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
-description: ビジネス サーバーには、AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス、データベース ミラーリング、SQL のフェールオーバー クラスタ リングなど、Skype でサポートされているバック エンド サーバーの高可用性オプションについて説明します。
-ms.openlocfilehash: c200596ac43099d92b7fd37e850a524cf92a24ce
-ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
+description: AlwaysOn 可用性グループ、AlwaysOn フェールオーバークラスターインスタンス、データベースのミラーリング、SQL フェールオーバークラスタリングなど、Skype for Business Server でサポートされているバックエンドサーバーの高可用性オプションについて説明します。
+ms.openlocfilehash: db732d106546e5139725713da28bcb9c8b82bb93
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34106300"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297485"
 ---
-# <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Skype の最後のサーバーの高可用性をビジネスのサーバーのバックアップします。
+# <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Skype for Business Server のバックエンドサーバーの高可用性
  
-ビジネス サーバーには、AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス、データベース ミラーリング、SQL のフェールオーバー クラスタ リングなど、Skype でサポートされているバック エンド サーバーの高可用性オプションについて説明します。
+AlwaysOn 可用性グループ、AlwaysOn フェールオーバークラスターインスタンス、データベースのミラーリング、SQL フェールオーバークラスタリングなど、Skype for Business Server でサポートされているバックエンドサーバーの高可用性オプションについて説明します。
   
 バックエンド サーバーの高可用性を強化するには、以下の 4 つの選択肢があります。
   
@@ -28,35 +28,35 @@ ms.locfileid: "34106300"
     
 - AlwaysOn 可用性グループ
     
-- AlwaysOn フェールオーバー クラスターのインスタンス (FCI)
+- AlwaysOn フェールオーバークラスターインスタンス (FCI)
     
 - SQL フェールオーバー クラスタリング
     
-これらのソリューションのいずれかの使用はオプションですが、組織のビジネス継続性を維持するには推奨されます。 それ以外の場合、1 つのデータベース サーバーがダウンすることでしたがビジネスのサーバーのデータの重要な Skype の失われる。 
+これらのソリューションのいずれかの使用はオプションですが、組織のビジネス継続性を維持するには推奨されます。 そうしないと、1つのデータベースサーバーがダウンすると、大量の Skype for Business Server データが失われる可能性があります。 
   
-トポロジ ビルダーだけを使用してデータベースのミラーリングを設定できます。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス、または SQL のフェールオーバー クラスタ リングでは、SQL Server を使用して、高可用性ソリューションを作成するし、トポロジ ビルダーを使用するには、フロント エンド プールに関連付けることにします。
+データベースミラーリングは、トポロジビルダーのみを使用して設定できます。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバークラスターインスタンス、または SQL フェールオーバークラスタリングの場合、SQL Server を使用して高可用性ソリューションを作成した後、トポロジビルダーを使用して、フロントエンドプールに関連付けることができます。
   
-災害復旧のための別のフロント エンド プールとフロント エンド プールのバック エンド サーバーの高可用性を使用する場合は、両方のプールに同じバックエンドの高可用性ソリューションを使用してください。 
+バックエンドサーバーの高可用性プールで、障害回復用の別のフロントエンドプールとペアリングされている場合は、両方のプールで同じバックエンドの高可用性ソリューションを使用する必要があります。 
   
 ## <a name="database-mirroring"></a>データベース ミラーリング
 
-ビジネス サーバーの Skype では、次のデータベース ソフトウェアでミラーリングがサポートされています。
+Skype for Business Server は、次のデータベースソフトウェアとのミラーリングをサポートしています。
   
-- SQL Server Enterprise Edition と Standard Edition の両方の 2017
+- SQL Server 2017 (Enterprise Edition と Standard Edition の両方)
 
-- SQL Server Enterprise Edition と Standard Edition の両方の 2016
+- SQL Server 2016 (Enterprise Edition と Standard Edition の両方)
 
-- SQL Server Enterprise Edition と Standard Edition の両方の 2014
+- SQL Server 2014 (Enterprise Edition と Standard Edition の両方)
     
-- SQL Server 2012 の SP2 には、CU2、Enterprise Edition と Standard Edition の両方
+- SQL Server 2012 SP2 と CU2 (Enterprise Edition と Standard Edition の両方)
     
 
 > [!NOTE]
-> SQL ミラーリング ビジネス サーバー 2015 の Skype で利用できるが、ビジネス サーバー 2019 の Skype でサポートされていません。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタ リング手法は、ビジネス サーバー 2019 の Skype で優先します。
+> SQL ミラーリングは、Skype for Business Server 2015 では使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバークラスターインスタンス (FCI)、SQL フェールオーバークラスタリングの各方法は、Skype for Business Server 2019 で推奨されます。
     
-非同期データベース ミラーリングは Skype のバック エンド サーバーの高可用性のビジネス サーバーです。 これ以降、特に指定がない限り、データベース ミラーリングは同期データベース ミラーリングを意味するものとします。 
+Skype for Business Server では、バックエンドサーバーの高可用性を実現するための非同期データベースミラーリングはサポートされていません。 これ以降、特に指定がない限り、データベース ミラーリングは同期データベース ミラーリングを意味するものとします。 
   
-フロント エンド プールのデータベース ミラーリング機能を配置する場合、プール内のビジネス サーバー データベースのすべての Skype は、ミラーリング、このプールと同様に、応答グループ アプリケーション データベースと、コール パーク内にある場合、中央管理ストアを含むアプリケーション ・ データベースでは、それらのアプリケーションは、プールで実行している場合。 
+フロントエンドプールにデータベースミラーリングを展開すると、プール内のすべての Skype for Business Server データベースが、このプールに配置されている場合は中央管理ストア、応答グループアプリケーションデータベース、コールパークと共にミラーリングされます。アプリがプールで実行されている場合は、アプリケーションデータベース。 
   
 データベース ミラーリングでは、サーバーに対して共有ストレージを使用する必要はありません。各サーバーは、データベースのコピーをローカル ストレージに保持します。 
   
@@ -68,23 +68,23 @@ ms.locfileid: "34106300"
 
 一般に、2 つのバックエンド サーバー間での SQL ミラーリングを設定するには、以下の要件を満たしている必要があります。
   
-- SQL Server のプライマリ サーバーのバージョンでは、SQL のミラーリングをサポートする必要があります。
+- プライマリサーバーの SQL Server のバージョンでは、SQL のミラーリングがサポートされている必要があります。
     
 - プライマリ、ミラー、およびミラーリング監視 (展開されている場合) の各 SQL Server が同一バージョンである。 
     
 - プライマリおよびミラーの各 SQL Server が同一エディションである (ミラーリング監視のエディションは異なっていても構いません)。
     
-ミラーリング監視ロールのどのような SQL のバージョンはサポートされているという点で SQL のベスト プラクティスは、MSDN ライブラリの[「データベース ミラーリングの監視」](https://go.microsoft.com/fwlink/p/?LinkId=247345)を参照してください。
+監視ロールでサポートされる SQL バージョンについては、SQL のベストプラクティスについては、MSDN ライブラリの[「データベースミラーリングの監視」](https://go.microsoft.com/fwlink/p/?LinkId=247345)をご覧ください。
   
-サーバー ミラーリングを構成する前に、まず SQL データベース アクセス許可を正しく設定する必要があります。 詳細については、 [「データベース ミラーリングまたは AlwaysOn 可用性グループ (SQL Server) のログイン アカウントの設定」](https://go.microsoft.com/fwlink/p/?LinkId=268454)を参照してください。
+サーバー ミラーリングを構成する前に、まず SQL データベース アクセス許可を正しく設定する必要があります。 詳細について[は、「データベースミラーリングまたは AlwaysOn 可用性グループ (SQL Server) のログインアカウントの](https://go.microsoft.com/fwlink/p/?LinkId=268454)セットアップ」を参照してください。
   
 SQL ミラーリングでは、データベース復旧モードは常に [**完全**] に設定されます。これは、トランザクション ログ サイズを綿密に監視し、トランザクション ログを定期的にバックアップしてバックエンド サーバー上のディスク容量の不足を回避する必要があることを意味します。トランザクション ログのバックアップ頻度は、ログの増加率によって決まります。ログの増加率は、フロントエンド プールのユーザー アクティビティによるデータベース トランザクションによって決まります。Lync 展開ワークロードに対して予想されるトランザクション ログの増加を判断し、それに応じて計画することをお勧めします。次の記事では、SQL バックアップおよびログ管理に関する追加情報を提供しています。
   
 > [!IMPORTANT]
-> 設定し、SQL を削除するのにはトポロジ ビルダーまたはコマンドレットを使用してミラーリングがサポートされているプライマリ、ミラー、および (必要な場合)、ミラーリング監視サーバーが同じドメインに属している場合にのみです。 異なるドメインのサーバーに SQL ミラーリングを設定する場合は、SQL Server のドキュメントを参照してください。 
+> SQL ミラーリングのセットアップと削除を行うためのトポロジビルダーまたはコマンドレットの使用は、プライマリ、ミラー、および監視 (必要な場合) サーバーがすべて同じドメインに属している場合にのみサポートされます。 異なるドメインのサーバーに SQL ミラーリングを設定する場合は、SQL Server のドキュメントを参照してください。 
 
 > [!NOTE]
-> SQL ミラーリング ビジネス サーバー 2015 の Skype で利用できるが、ビジネス サーバー 2019 の Skype でサポートされていません。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタ リング手法は、ビジネス サーバー 2019 の Skype で優先します。
+> SQL ミラーリングは、Skype for Business Server 2015 では使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバークラスターインスタンス (FCI)、SQL フェールオーバークラスタリングの各方法は、Skype for Business Server 2019 で推奨されます。
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>データベース ミラーリングを使用したバックエンド サーバーの自動フェールオーバーの復旧時間
 
@@ -96,59 +96,59 @@ SQL ミラーリングでは、データベース復旧モードは常に [**完
   
 監視を構成してあり、プリンシパルで障害が発生した場合は、データベース ミラーリングを使用したバックエンド サーバーのフェールオーバーは自動的かつ迅速に行われます。アクティブ ユーザーがセッションで大きな中断を感じることはありません。
   
-補助の設定がない場合、管理者はフェイル オーバーを手動で起動に時間がかかります。 その間、アクティブなユーザーが影響を受ける可能性があります。 約 30 分間のセッションを通常どおり引き続き。 プライマリも復元されず、または、管理者、バックアップにフェールオーバーしない、し、ユーザーに切り替えられます復元モードでは、いるもの (取引先担当者を追加するには) などの Lync Server 上の永続的な変更を必要とするタスクを実行することを意味します。
+ミラーリング監視が構成されていない場合は、管理者が手動でフェールオーバーを呼び出すまでに少し時間がかかります。 その間、アクティブなユーザーが影響を受ける可能性があります。 残りのセッションは約30分間は通常どおりに続行されます。 それでもプライマリが復元されない場合、または管理者がバックアップにフェールオーバーしていない場合、ユーザーは回復可能モードに切り替わります。つまり、Lync Server に対する永続的な変更を必要とするタスク (連絡先の追加など) を実行することはできません。
   
 プリンシパルとミラーの両方のバックエンド サーバーで障害が発生した場合、またはどちらかのサーバーと監視で障害が発生した場合は、(プリンシパルがまだ動作していても) バックエンド サーバーは使用できなくなります。この場合、アクティブ ユーザーはしばらくしてから復元モードに切り替えられます。
   
 ## <a name="alwayson-availability-groups-and-alwayson-failover-cluster-instances"></a>AlwaysOn 可用性グループと AlwaysOn フェールオーバー クラスター インスタンス
 
-ビジネス サーバーの Skype では、アクティブ/パッシブ、アクティブ/アクティブのないとしてのみ AlwaysOn 可用性グループをサポートしています。 
+Skype for Business Server は、アクティブ/パッシブとしてのみ、AlwaysOn 可用性グループをサポートします。アクティブ/アクティブにはなりません。 
   
-AlwaysOn 可用性グループまたは AlwaysOn フェールオーバー クラスター インスタンスを使用するには、最初に設定して高可用性ソリューションを構成する SQL Server を使用します。 フロント エンド プールに関連付けることをトポロジ ビルダーを使用できます。
+AlwaysOn 可用性グループまたは AlwaysOn フェールオーバークラスターインスタンスを使用するには、最初に SQL Server を使用して高可用性ソリューションをセットアップし、構成します。 次に、トポロジビルダーを使用して、フロントエンドプールに関連付けます。
 
-ビジネス サーバーの Skype では、次のデータベース ソフトウェアを AlwaysOn をサポートしています。
+Skype for Business Server は、次のデータベースソフトウェアを使用して AlwaysOn をサポートしています。
 
-- 2017 エンタープライズ エディションの SQL Server
+- SQL Server 2017 Enterprise Edition
 
-- 制限があります、SQL Server 2017 の Standard Edition は、以下の注を参照してください。
+- SQL Server 2017 Standard Edition の制限事項については、以下の注を参照してください。
 
-- 2016 エンタープライズ エディションの SQL Server
+- SQL Server 2016 Enterprise Edition
 
-- 制限があります、SQL Server 2016 の Standard Edition は、以下の注を参照してください。
+- SQL Server 2016 Standard Edition の制限事項については、以下の注を参照してください。
 
-- 2014 エンタープライズ エディションの SQL Server
+- SQL Server 2014 Enterprise Edition
     
-- SQL Server 2012 の SP2 には、Enterprise Edition の CU2
+- SQL Server 2012 SP2 と CU2 Enterprise Edition
 
 > [!NOTE]
-> 2017 の SQL Server と SQL Server の 2016 は、ビジネス サーバー 2019 の Skype によってサポートされている唯一のバージョンです。
+> SQL Server 2017 および SQL Server 2016 は、Skype for Business Server 2019 でサポートされる唯一のバージョンです。
 
 > [!NOTE]
-> 可用性グループに常には、SQL 2016、2017 標準エディションではサポートされて**いません**が、フェールオーバー クラスター インスタンスに常に使用することができます。 [エディションと 2016 年の SQL Server のサポートされている機能](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017)の詳細を参照してください。
+> Always On 可用性グループは、SQL 2016 および2017標準エディションではサポートされ**ません**が、フェールオーバークラスターインスタンスでは常に使用できます。 詳細については[、「SQL Server 2016 の各エディションとサポートされる機能](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017)」を参照してください。
   
 > [!IMPORTANT]
-> AlwaysOn 可用性グループの複数のインスタンスのインスタンス名は同じである必要があります。 
+> 複数の AlwaysOn 可用性グループインスタンスのインスタンス名は同じである必要があります。 
   
-AlwaysOn 可用性グループを展開する手順を実行するには、 [Skype のビジネス サーバーのバック エンド サーバー上の AlwaysOn 可用性グループの配置](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md)を参照してください。
+AlwaysOn 可用性グループを展開する手順については、「 [Skype For Business Server のバックエンドサーバーに Alwayson 可用性グループを展開](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md)する」を参照してください。
   
 ## <a name="sql-server-failover-clustering"></a>SQL Server フェールオーバー クラスタリング
 
-Skype ビジネス サーバー用には、次のデータベース ソフトウェアをクラスター化 SQL Server のフェールオーバーがサポートされています。
+Skype for Business Server は、次のデータベースソフトウェアで SQL Server フェールオーバークラスタリングをサポートしています。
   
-- SQL Server Enterprise Edition と Standard Edition の両方の 2017
+- SQL Server 2017 (Enterprise Edition と Standard Edition の両方)
 
-- SQL Server Enterprise Edition と Standard Edition の両方の 2016
+- SQL Server 2016 (Enterprise Edition と Standard Edition の両方)
 
-- SQL Server Enterprise Edition と Standard Edition の両方の 2014
+- SQL Server 2014 (Enterprise Edition と Standard Edition の両方)
     
-- SQL Server 2012 の SP2 には、CU2、Enterprise Edition と Standard Edition の両方
+- SQL Server 2012 SP2 と CU2 (Enterprise Edition と Standard Edition の両方)
 
-SQL のフェールオーバー クラスタ リングを使用するには、最初を設定し、フロント エンド プールを展開する前に SQL Server のクラスターを構成する必要があります。 ベスト ・ プラクティスは、SQL Server 2012 のフェールオーバー クラスタ リングのセットアップ手順を参照してください[https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)。
+SQL フェールオーバークラスタリングを使用するには、まず、フロントエンドプールを展開する前に SQL Server クラスターをセットアップして構成する必要があります。 SQL Server 2012 のフェールオーバークラスタリングのベストプラクティスとセットアップ手順につい[https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)ては、を参照してください。
 
 > [!NOTE]
-> 2017 の SQL Server と SQL Server の 2016 は、ビジネス サーバー 2019 の Skype によってサポートされている唯一のバージョンです。
+> SQL Server 2017 および SQL Server 2016 は、Skype for Business Server 2019 でサポートされる唯一のバージョンです。
     
-SQL のフェールオーバー クラスタ リングを使用するには、最初を設定し、フロント エンド プールを展開する前に SQL Server のクラスターを構成する必要があります。 ベスト ・ プラクティスは、SQL Server 2014、2016 のフェールオーバー クラスタ リングのセットアップ手順を参照してください[https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)。 SQL Server 2008 のクラスタ リング フェイル オーバーを参照してください[https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)。
+SQL フェールオーバークラスタリングを使用するには、まず、フロントエンドプールを展開する前に SQL Server クラスターをセットアップして構成する必要があります。 SQL Server 2014 および2016のフェールオーバークラスタリングのベストプラクティスとセットアップ手順につい[https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)ては、を参照してください。 SQL Server 2008 のフェールオーバークラスタリングについ[https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)ては、を参照してください。
   
 SQL Server をインストールする際は、SQL Server Management Studio をインストールしてデータベースとログ ファイルの場所を管理する必要があります。SQL Server Management Studio は、SQL Server のインストール時にオプション コンポーネントとしてインストールされます。
   

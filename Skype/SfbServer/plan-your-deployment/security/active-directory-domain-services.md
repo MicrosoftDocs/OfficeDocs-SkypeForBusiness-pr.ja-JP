@@ -1,38 +1,38 @@
 ---
-title: Skype ビジネス サーバーの active Directory ドメイン サービス
+title: Skype for Business Server の Active Directory ドメインサービス
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
-description: Active Directory ドメイン サービスは、ディレクトリ サービスでは、Windows Server 2003、Windows Server 2008、Windows Server 2012 では、Windows Server 2012 R2 のネットワークとして機能します。 Active Directory ドメイン サービスは、Skype ビジネス サーバーのセキュリティ インフラストラクチャを構築する基盤としても機能します。 このセクションの目的は、IM、Web 会議、メディア、および音声の信頼できる環境を作成する、Skype のビジネス サーバーが Active Directory ドメイン サービスを使用する方法について説明します。 Active Directory ドメイン サービスのお客様の環境を準備する方法の詳細についてを参照してくださいインストール Skype ビジネス サーバーの展開に関するドキュメント。 Windows Server ネットワークで Active Directory ドメイン サービスの役割についての詳細は、使用しているオペレーティング システムのバージョンのドキュメントを参照してください。
-ms.openlocfilehash: ba37ffb806951a6726478b5404c7ff756a9f9522
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Active Directory ドメインサービスは、Windows Server 2003、Windows Server 2008、Windows Server 2012、Windows Server 2012 R2 ネットワークのディレクトリサービスとして機能します。 Active Directory ドメインサービスは、Skype for Business Server のセキュリティインフラストラクチャを構築する基盤としても機能します。 このセクションの目的は、Skype for Business Server で Active Directory ドメインサービスを使って、IM、Web 会議、メディア、音声の信頼できる環境を構築する方法を説明します。 Active Directory ドメインサービスの環境の準備について詳しくは、「展開ドキュメントに Skype for Business Server をインストールする」をご覧ください。 Windows Server ネットワークの Active Directory ドメインサービスの役割の詳細については、使用しているオペレーティングシステムのバージョンのドキュメントを参照してください。
+ms.openlocfilehash: 4458d49bf2f57284ac29c68bb40f3979761d5c50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888080"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297009"
 ---
-# <a name="active-directory-domain-services-for-skype-for-business-server"></a>Skype ビジネス サーバーの active Directory ドメイン サービス
+# <a name="active-directory-domain-services-for-skype-for-business-server"></a>Skype for Business Server の Active Directory ドメインサービス
  
-Active Directory ドメイン サービスは、ディレクトリ サービスでは、Windows Server 2003、Windows Server 2008、Windows Server 2012 では、Windows Server 2012 R2 のネットワークとして機能します。 Active Directory ドメイン サービスは、Skype ビジネス サーバーのセキュリティ インフラストラクチャを構築する基盤としても機能します。 このセクションの目的は、IM、Web 会議、メディア、および音声の信頼できる環境を作成する、Skype のビジネス サーバーが Active Directory ドメイン サービスを使用する方法について説明します。 Active Directory ドメイン サービスのお客様の環境を準備する方法の詳細は、展開に関するドキュメントで[ビジネスのサーバー用の Skype のインストール](../../deploy/install/install.md)を参照してください。 Windows Server ネットワークで Active Directory ドメイン サービスの役割についての詳細は、使用しているオペレーティング システムのバージョンのドキュメントを参照してください。
+Active Directory ドメインサービスは、Windows Server 2003、Windows Server 2008、Windows Server 2012、Windows Server 2012 R2 ネットワークのディレクトリサービスとして機能します。 Active Directory ドメインサービスは、Skype for Business Server のセキュリティインフラストラクチャを構築する基盤としても機能します。 このセクションの目的は、Skype for Business Server で Active Directory ドメインサービスを使って、IM、Web 会議、メディア、音声の信頼できる環境を構築する方法を説明します。 Active Directory ドメインサービスの環境の準備について詳しくは、「展開ドキュメントに[Skype For Business Server をインストール](../../deploy/install/install.md)する」をご覧ください。 Windows Server ネットワークの Active Directory ドメインサービスの役割の詳細については、使用しているオペレーティングシステムのバージョンのドキュメントを参照してください。
   
-ビジネス サーバーの Skype は、格納する Active Directory ドメイン サービスを使用します。
+Skype for Business Server は Active Directory ドメインサービスを使用して保存します。
   
-- Skype を実行するビジネス サーバーをフォレスト内のすべてのサーバーを必要とするグローバル設定です。
+- フォレスト内の Skype for Business Server を実行しているすべてのサーバーが必要とするグローバル設定。
     
-- Skype を実行するビジネス サーバーをフォレスト内のすべてのサーバーの役割を識別する情報をサービスします。
+- フォレスト内の Skype for Business Server を実行しているすべてのサーバーの役割を特定するサービス情報。
     
 - 一部のユーザー設定。
     
 ## <a name="active-directory-infrastructure"></a>Active Directory インフラストラクチャ
 
-Active Directory のインフラストラクチャ要件を以下に示します。
+Active Directory のインフラストラクチャ要件には、次のものがあります。
   
 - ドメイン コントローラーのオペレーティング システム要件
     
@@ -40,68 +40,68 @@ Active Directory のインフラストラクチャ要件を以下に示します
     
 - グローバル カタログ ドメインの要件
     
-詳細については、 [Skype のビジネス サーバー 2015 の環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)や[ビジネス サーバー 2019 の Skype のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。
+詳細については、「 [skype For Business server 2015 の環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)」または「 [Skype for business Server 2019 のサーバー要件](../../../SfBServer2019/plan/system-requirements.md)」を参照してください。
   
 ## <a name="universal-groups"></a>ユニバーサル グループ
 
-フォレストの準備、Skype ビジネス サーバーにアクセスし、グローバル設定とサービスを管理する権限のある Active Directory ドメイン サービス内のさまざまなユニバーサル グループを作成します。 作成されるユニバーサル グループには、次のようなものがあります。
+フォレストの準備中に、Skype for Business Server は、グローバル設定とサービスにアクセスして管理するためのアクセス許可を持つ、Active Directory ドメインサービス内でさまざまなユニバーサルグループを作成します。 作成されるユニバーサル グループには、次のようなものがあります。
   
-- **管理グループ**です。 これらのグループは、ビジネス サーバー ネットワークでの Skype の根本的な管理者の役割を定義します。 フォレストの準備中には、これらの管理者グループはビジネス サーバー インフラストラクチャ グループの Skype に追加されます。
+- **管理グループ**。 これらのグループは、Skype for Business Server ネットワークの基本的な管理者の役割を定義します。 フォレストの準備中に、これらの管理者グループが Skype for Business Server インフラストラクチャグループに追加されます。
     
-- **サービス グループ**です。 これらのグループは、ビジネスのサーバーに対して、Skype によって提供される、さまざまなサービスへのアクセスに必要なサービス アカウントです。
+- **サービスグループ**。 これらのグループは、Skype for Business Server によって提供されるさまざまなサービスにアクセスするために必要なサービスアカウントです。
     
-- **インフラストラクチャ グループ**です。 これらのグループは、ビジネスのサーバー インフラストラクチャの Skype の特定の領域にアクセスするアクセス許可を提供します。 変更したり、ユーザーを直接追加したりしないでください。 フォレストの準備時に、特定のサービス グループと管理グループが、対応するインフラストラクチャ グループに追加されます。
+- **インフラストラクチャグループ**。 これらのグループは、Skype for Business Server インフラストラクチャの特定の領域にアクセスするためのアクセス許可を提供します。 変更したり、ユーザーを直接追加したりしないでください。 フォレストの準備時に、特定のサービス グループと管理グループが、対応するインフラストラクチャ グループに追加されます。
     
-インフラストラクチャ グループに追加するサービスと管理グループと同様に、Skype の AD を準備する際に作成された特定のユニバーサル グループの詳細については、Skype のビジネスのためのフォレストの準備によって加えられた変更の[を参照してください。サーバー](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)の展開に関するドキュメントです。
+Skype for business Server 用の広告を準備するときに作成される特定のユニバーサルグループ、およびインフラストラクチャグループに追加されるサービスと管理グループの詳細については、「 [Skype For business でのフォレストの準備による変更」を参照してください。Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)を展開ドキュメントに配置します。
   
 > [!NOTE]
-> ビジネス サーバーの Skype では、ドメイン コント ローラーを Windows Server 2003 オペレーティング システムだけで、Windows Server 2012 では、ユニバーサル グループをサポートしています。 ユニバーサル グループのメンバーは、ドメイン ツリーまたはフォレスト内の他のグループと任意のドメインからのアカウントを含めることができ、ドメイン ツリーまたはフォレスト内のドメインのアクセス許可を割り当てることができます。 ユニバーサル グループのサポート、管理者の委任と組み合わせるには、Skype ビジネス サーバーの展開の管理が容易になります。 たとえば、両方を管理する管理者を有効にする別のドメインを追加する必要はありません。 
+> Skype for Business Server は、Windows Server 2012 のユニバーサルグループに加えて、ドメインコントローラーの Windows Server 2003 オペレーティングシステムをサポートしています。 ユニバーサルグループのメンバーには、ドメインツリーまたはフォレスト内の任意のドメインの他のグループとアカウントを含めることができ、ドメインツリーまたはフォレスト内の任意のドメインでアクセス許可を割り当てることができます。 ユニバーサルグループのサポートは、管理者の委任と組み合わせることで、Skype for Business Server の展開を簡単に管理できます。 たとえば、あるドメインを別のドメインに追加して、管理者が両方を管理できるようにする必要はありません。 
   
 ## <a name="role-based-access-control"></a>役割ベースのアクセス制御
 
-ユニバーサル サービス グループと管理グループを作成し、サービス グループと管理グループを対応するユニバーサル グループに追加することに加えて、フォレストの準備では役割ベースのアクセス制御 (RBAC) グループも作成されます。 フォレストの準備で作成される個々の RBAC グループの詳細については、「展開」のドキュメントの「[Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)」を参照してください。 RBAC グループの詳細については、 [Skype のビジネス サーバーの役割に基づくアクセス制御 (RBAC)](role-based-access-control-rbac.md)を参照してください。
+ユニバーサル サービス グループと管理グループを作成し、サービス グループと管理グループを対応するユニバーサル グループに追加することに加えて、フォレストの準備では役割ベースのアクセス制御 (RBAC) グループも作成されます。 フォレストの準備で作成される個々の RBAC グループの詳細については、「展開」のドキュメントの「[Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)」を参照してください。 RBAC グループの詳細については、「 [Skype For Business Server の役割ベースのアクセス制御 (RBAC)](role-based-access-control-rbac.md)」を参照してください。
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>アクセス制御エントリ (ACE) と継承
 
-フォレストの準備では、プライベート ACE とパブリック ACE の両方が作成され、ユニバーサル グループの ACE が追加されます。 Skype によってビジネスのサーバーが使用するグローバル設定コンテナーに特定のプライベート Ace が作成されます。 このコンテナーでは、ビジネスのサーバーの Skype によってのみ使用され、構成コンテナーまたはグローバル設定を保存する場所によって、ルート ドメインのシステム コンテナーであります。
+フォレストの準備では、プライベート ACE とパブリック ACE の両方が作成され、ユニバーサル グループの ACE が追加されます。 Skype for Business Server で使用されるグローバル設定コンテナーに特定のプライベート Ace を作成します。 このコンテナーは、Skype for Business Server でのみ使用され、グローバル設定を保存する場所に応じて、構成コンテナーまたはルートドメイン内のシステムコンテナーにあります。
   
 ドメインの準備ステップでは、ドメイン内のユーザーをホストおよび管理するアクセス許可を与えるアクセス制御エントリ (ACE) をユニバーサル グループに追加します。ドメインの準備で、ドメイン ルートと 3 つの組み込みコンテナー (ユーザー、コンピューター、およびドメイン コントローラー) に対する ACE が作成されます。
   
-パブリック Ace に関する詳細情報が作成され、フォレストの準備とドメインの準備によって追加された、[ビジネス サーバーの Skype でのフォレストの準備によって変更](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)しで[Skype のビジネス サーバーでドメインの準備によって変更](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md)をを参照してください、。展開に関するドキュメントです。
+フォレストの準備とドメインの準備によって作成および追加されたパブリック Ace の詳細については、「 [skype For Business server でのフォレストの準備による変更](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)」および「 [Skype for business server でのドメインの準備](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md)によって行われる変更」を参照してください。展開ドキュメント。
   
-組織は、多くの場合、Active Directory ドメイン サービス (AD DS)、セキュリティ上のリスクを軽減するためをロックします。 ただし、ロック ダウンした Active Directory 環境では、Skype のビジネス サーバーを必要とするアクセス許可を制限できます。 たとえば、コンテナーと OU からの ACE の削除や、ユーザー、連絡先、InetOrgPerson、コンピューターの各オブジェクトでのアクセス許可の継承の無効化などが挙げられます。 ロックされている Active Directory 環境を許可する必要があります手動で設定するのコンテナーおよび Ou を必要とします。
+組織は、セキュリティリスクを軽減するために Active Directory ドメインサービス (AD DS) をロックダウンすることがよくあります。 ただし、ロックダウンされた Active Directory 環境では、Skype for Business Server で必要なアクセス許可を制限できます。 たとえば、コンテナーと OU からの ACE の削除や、ユーザー、連絡先、InetOrgPerson、コンピューターの各オブジェクトでのアクセス許可の継承の無効化などが挙げられます。 ロックダウンされた Active Directory 環境では、アクセス許可を必要とするコンテナーと Ou に対して手動でアクセス許可を設定する必要があります。
   
 ## <a name="server-information"></a>サーバー情報
 
-ライセンス認証では、Skype のビジネス サーバーは Active Directory ドメイン サービスの 3 つの次の場所にサーバーの情報を発行します。
+アクティブ化の際に、Skype for Business Server は、次の3つの場所 (Active Directory ドメインサービス内) にサーバー情報を公開します。
   
-- サービス接続ポイント (SCP) を使用ビジネス サーバーの Skype がインストールされている物理コンピューターに対応する各 Active Directory のコンピューター オブジェクトにします。
+- Skype for Business Server がインストールされている物理コンピューターに対応する各 Active Directory コンピューターオブジェクトのサービス接続ポイント (SCP)。
     
 - **msRTCSIP-Pools** クラスのコンテナーに作成されるサーバー オブジェクト。
     
-- 信頼されたサーバーをトポロジ ビルダーで指定します。
+- トポロジビルダーで指定された信頼できるサーバー。
     
 ## <a name="service-connection-points"></a>サービス接続ポイント
 
-ビジネス サーバー オブジェクトを Active Directory ドメイン サービス内の各 Skype では、RTC サービスは、各コンピューターを識別し、それが提供するサービスを指定する属性の数値が含まれますと呼ばれる、SCP があります。 重要な SCP 属性は*serviceDNSName* 、 *serviceDNSNameType* 、 *serviceClassname* 、および*serviceBindingInformation*があります。 サードパーティの資産管理アプリケーションは、これらおよび他の SCP 属性に対してクエリを実行して、展開の間でサーバー情報を取得できます。
+Active Directory ドメインサービス内の各 Skype for Business Server オブジェクトには、RTC Services という SCP があります。これには、各コンピューターを識別し、提供するサービスを指定する多数の属性が含まれます。 さらに重要な SCP 属性には、 *serviceDNSName* 、 *serviceDNSNameType* 、 *serviceClassname* 、および*serviceBindingInformation*があります。 サードパーティの資産管理アプリケーションは、このような SCP の属性を照会することによって、展開を通じてサーバーの情報を取得できます。
   
-## <a name="active-directory-server-objects"></a>サーバーの active Directory オブジェクト
+## <a name="active-directory-server-objects"></a>Active Directory Server オブジェクト
 
-Business Server のサーバー ロールの各 Skype では、その役割が提供するサービスを定義する属性を持つオブジェクトの対応する Active Directory があります。 また、Standard Edition server がアクティブである場合、またはエンタープライズ プールを作成するときは、Skype ビジネス サーバーの**msRTCSIP プール**コンテナーに新しい**msRTCSIP プール**オブジェクトを作成します。 **MsRTCSIP プール**のクラスは、プールのフロント エンドおよびバックエンド ・ コンポーネント間の関係のほかに、プールの完全修飾ドメイン名 (FQDN) を指定します。 (Standard Edition サーバーは、論理プールのフロント エンドとバックエンドの端が 1 台のコンピューターに併設されていると見なされますが)。
+各 Skype for Business Server の役割には、対応する Active Directory オブジェクトがあり、属性によって提供されるサービスがその役割によって定義されます。 また、Standard Edition サーバーがアクティブ化されたとき、または Enterprise Edition プールを作成したときに、Skype for Business Server によって**msrtcsip-userenabled true**コンテナーに新しい**msrtcsip-userenabled true**オブジェクトが作成されます。 **Msrtcsip-userenabled true**クラスは、プールの完全修飾ドメイン名 (FQDN) を、プールのフロントエンドコンポーネントとバックエンドコンポーネントの間の関連付けと共に指定します。 (Standard Edition サーバーは、フロントエンドとバックエンドが1台のコンピュータに併置されている論理プールと見なされます)。
   
 ## <a name="trusted-servers"></a>信頼済みのサーバー
 
-ビジネス サーバーの Skype では、信頼されたサーバーは、トポロジ ビルダーを実行し、トポロジを公開するときに指定されたものです。 公開したトポロジは、すべてのサーバー情報を含めて、中央管理ストアに格納されます。 中央管理ストアで定義されているサーバーのみが信頼されます。 ビジネス サーバーの Skype は、信頼されたサーバーで次の条件を満たすもの。
+Skype for Business Server では、[信頼済みサーバー] は、トポロジビルダーを実行してトポロジを公開するときに指定したものです。 公開したトポロジは、すべてのサーバー情報を含めて、中央管理ストアに格納されます。 中央管理ストアで定義されているサーバーのみが信頼されます。 Skype for Business Server では、信頼されているサーバーは次の条件を満たしています。
   
 - サーバーの FQDN が、中央管理ストアに格納されているトポロジに出現する。
     
-- サーバーが、信頼されている CA からの有効な証明書を提示している。 詳細については、 [Skype のビジネス サーバー 2015 の環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)や[ビジネス サーバー 2019 の Skype のシステム要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。
+- サーバーが、信頼されている CA からの有効な証明書を提示している。 詳細については、「 [skype For Business server 2015 の環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)」または「 [Skype for business Server 2019 のシステム要件](../../../SfBServer2019/plan/system-requirements.md)」を参照してください。
     
-このどちらかの条件が満たされていない場合、サーバーは信頼されず、サーバーとの接続は拒否されます。 この二重の要件は、悪意のあるサーバーが有効なサーバーの FQDN を引き継ぐためにしようと可能な場合は、ほとんどの攻撃を防止します。
+このどちらかの条件が満たされていない場合、サーバーは信頼されず、サーバーとの接続は拒否されます。 この double 要件により、不正なサーバーが有効なサーバーの FQDN を使用しようとしている攻撃を防ぐことができます。
   
-さらに、これらのサーバーの Skype で通信するために Microsoft Office 通信 Server 2007 R2 とマイクロソフトの Office Communications Server 2007 の展開を有効にするには、Skype ビジネス サーバーの作成コンテナー フォレストの準備中に以前のリリース用の信頼されたサーバーのリストを保持します。 次の表は、以前の展開との互換性維持のために作成されるコンテナーを示しています。
+さらに、Microsoft Office Communications Server 2007 R2 および Microsoft Office Communications Server 2007 の展開を有効にして、Skype for Business Server サーバーと通信するために、Skype for Business Server はフォレストの準備中にコンテナーを作成します。以前のリリースで信頼できるサーバーの一覧を保持する場合。 次の表は、以前の展開との互換性維持のために作成されるコンテナーを示しています。
   
-**以前のリリースとの互換性のためのサーバーのリストと、Active Directory コンテナーの信頼**
+**以前のリリースとの互換性を確保するために、信頼されたサーバーの一覧とその Active Directory コンテナー**
 
 |**信頼済みのサーバーのリスト**|**Active Directory コンテナー**|
 |:-----|:-----|
@@ -109,9 +109,9 @@ Business Server のサーバー ロールの各 Skype では、その役割が�
 |会議サーバー  <br/> |RTC サービス/信頼済み MCU  <br/> |
 |Web コンポーネント サーバー  <br/> |RTC サービス/TrustedWebComponentsServers  <br/> |
 |仲介サーバーと Communicator Web Access サーバー、アプリケーション サーバー、レジストラーと QoE、音声ビデオ会議サービス (サードパーティの SIP サーバーを含む)  <br/> |RTC サービス/信頼済みサービス  <br/> |
-|プロキシ サーバー  <br/> |Skype ビジネス サーバーがプロキシ サーバーの下位互換性をサポートしていません  <br/> |
+|プロキシ サーバー  <br/> |Skype for Business Server がプロキシサーバーの下位互換性をサポートしていない  <br/> |
    
 
 ## <a name="see-also"></a>関連項目
 
-[Skype のビジネス サーバーの Active Directory を準備します。](../../deploy/install/prepare-active-directory.md)
+[Skype for Business Server 用 Active Directory の準備](../../deploy/install/prepare-active-directory.md)

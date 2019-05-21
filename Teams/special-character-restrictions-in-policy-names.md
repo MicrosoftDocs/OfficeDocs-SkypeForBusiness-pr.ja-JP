@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +20,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: ポリシー名に特殊文字が含まれている問題と、その問題を修正する際の対処方法を確認します。
-ms.openlocfilehash: 12d89c4956b2d076f7279506ccf32737d18d50e0
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 03858de420cf77f8a8088f86c8c5feae5828c21a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632235"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298603"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams のポリシーでの特殊文字の制限について
 
@@ -95,7 +95,7 @@ Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなど、Microsoft 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。
+- Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、簡素化、生産性を高めるためのさまざまな利点があります。たとえば、多くのユーザーの設定を一度に変更する場合です。 次のトピックで、これらの利点を説明します。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -1,33 +1,33 @@
 ---
-title: 作成会議の Skype ビジネス サーバーの構成設定
+title: Skype for Business Server で会議の構成設定を作成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: '概要: 作成する方法を説明する Skype ビジネス サーバーの構成設定に対応します。'
-ms.openlocfilehash: ea75e133ab15f450a6316c9ee86ba2ded485f29a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で会議の構成設定を作成する方法について説明します。'
+ms.openlocfilehash: 3d4f986b850b309d50967da9126b8b4eea08a166
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919417"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293845"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>作成会議の Skype ビジネス サーバーの構成設定
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で会議の構成設定を作成する
  
-**の概要:** 作成する方法を学習 Skype ビジネス サーバーの構成設定に対応します。
+**概要:** Skype for Business Server で会議の構成設定を作成する方法について説明します。
   
-作成することができます Skype ビジネス サーバーのコントロール パネルを使用するか、Skype ビジネス サーバー管理シェルを使用して会議の構成設定。
+会議の構成設定を作成するには、Skype for Business Server コントロールパネルを使用するか、Skype for Business Server 管理シェルを使用します。
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>作成ビジネス サーバーのコントロール パネルの Skype を使用して、会議の構成設定
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用して会議の構成設定を作成する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype をビジネス サーバーのコントロール パネルを開きます。
+2.  Skype for Business Server コントロールパネルを開きます。
     
 3. 左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。
     
@@ -51,7 +51,7 @@ ms.locfileid: "33919417"
     
 8. 匿名 (未認証) ユーザーが自動的に承認されないようにするには、[**既定で匿名ユーザーを承認する**] チェック ボックスをオフにします。既定では、匿名ユーザーは会議に対して自動的に承認されます。
     
-9. 参加者に送られる会議の招待をカスタマイズするには、以下を行います。 URL およびカスタム フッター テキストの長さは最大 1 KB です。 [**ヘルプ URL**] 以外は、カスタムの値を指定しない場合、会議に含まれません。 カスタム ヘルプの URL を指定しないと、ビジネスの Skype の既定のヘルプの URL 部分は招待状になります。 
+9. 参加者に送られる会議の招待をカスタマイズするには、以下を行います。 URL およびカスタム フッター テキストの長さは最大 1 KB です。 [**ヘルプ URL**] 以外は、カスタムの値を指定しない場合、会議に含まれません。 ユーザー設定のヘルプ URL が含まれていない場合は、Skype for Business の既定のヘルプ URL が招待状に表示されます。 
     
    - 会議の招待に表示されるロゴをカスタマイズするには、[**ロゴ URL**] にロゴの場所を入力します。ロゴは、サイズが 188 x 30 ピクセルの GIF または JPG 画像である必要があります。 
     
@@ -63,7 +63,7 @@ ms.locfileid: "33919417"
     
 10. [**確定**] をクリックします。
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>作成ビジネス サーバー管理シェルの Skype を使用して、会議の構成設定
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議の構成設定を作成する
 
 会議の構成設定を作成するには、**New-CsMeetingConfiguration** コマンドレットを使用します。
   
@@ -87,6 +87,6 @@ New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Every
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-パラメーターの完全な一覧を含む詳細については、[新規 CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)を参照してください。
+パラメーターの完全な一覧を含む、詳細については、「[新しい-Cs会議の構成](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)」を参照してください。
   
 

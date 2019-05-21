@@ -1,33 +1,33 @@
 ---
-title: ビジネス サーバーの Skype での災害復旧のための一対のフロント エンド プールを展開します。
+title: Skype for Business Server での障害回復用にペアリングされたフロントエンドプールの展開
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: ペアのフロント エンド プールを使い障害復旧保護を実現できますが、これは必須要件ではありません。
-ms.openlocfilehash: b281b8d0e9453de2f3faeab5abad88c846633f12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 49af49a4a8ff3dd0f543de6f1b13bfbe5b571788
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894550"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298509"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>ビジネス サーバーの Skype での災害復旧のための一対のフロント エンド プールを展開します。
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Skype for Business Server での障害回復用にペアリングされたフロントエンドプールの展開
  
 ペアのフロント エンド プールを使い障害復旧保護を実現できますが、これは必須要件ではありません。
   
-トポロジ ビルダーを使用してペアのフロント エンド プールの災害復旧トポロジーを容易に展開できます。 
+トポロジビルダーを使用すると、ペアリングされたフロントエンドプールの障害回復トポロジを簡単に展開できます。 
   
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>フロント エンド プールのペアを展開するには
 
-1. プールは新しいし、まだ定義されていない場合、プールを作成するのにはトポロジ ビルダーを使用します。
+1. プールが新しく、まだ定義されていない場合は、トポロジビルダーを使用してプールを作成します。
     
-2. トポロジ ビルダーでは、2 つのプールでは、いずれかを右クリックし、**プロパティの編集**] をクリックします。
+2. トポロジビルダーで、2つのプールのいずれかを右クリックし、[**プロパティの編集**] をクリックします。
     
 3. 左ウィンドウの **[復元]** をクリックし、右ウィンドウの **[関連付けられているバックアップ プール]** を選びます。
     
@@ -37,7 +37,7 @@ ms.locfileid: "33894550"
     
     このプールの詳細情報を表示すると、関連付けられているプールが右ウィンドウの **[復元]** の下に表示されます。 
     
-6. トポロジ ビルダーを使用すると、トポロジを公開します。
+6. トポロジビルダーを使用してトポロジを公開します。
     
 7. 2 つのプールがまだ展開されていない場合は、これらを展開すると、構成が完了します。最後の 2 つの手順を省略できます。
     
@@ -51,7 +51,7 @@ ms.locfileid: "33894550"
 
     これによって、バックアップ ペアが適切に動作するために必要な他のサービスが構成されます。
     
-9. ビジネス サーバー管理シェル コマンド プロンプトの Skype では、次を実行します。 
+9. Skype for Business Server Management Shell コマンドプロンプトから次のコマンドを実行します。 
     
    ```
    Start-CsWindowsService -Name LYNCBACKUP
@@ -78,8 +78,8 @@ ms.locfileid: "33894550"
     ```
 
 > [!NOTE]
-> **自動フェイル オーバーおよびフェイル バック音声**オプションおよびトポロジ ビルダーに関連付けられている時間間隔は、Lync Server で導入された音声の復元機能にのみ適用されます。 このオプションを選んでも、このドキュメントに記載されているプール フェールオーバーが自動的に行われるわけではありません。 プールのフェールオーバーとフェールバックを行うには、フェールオーバーとフェールバックのコマンドレットを、常に管理者が手動でそれぞれ起動する必要があります。
+> [**音声の自動フェールオーバー** ] オプションと [トポロジビルダー] の関連付けられた時間間隔は、Lync Server で導入された音声回復機能のみに適用されます。 このオプションを選んでも、このドキュメントに記載されているプール フェールオーバーが自動的に行われるわけではありません。 プールのフェールオーバーとフェールバックを行うには、フェールオーバーとフェールバックのコマンドレットを、常に管理者が手動でそれぞれ起動する必要があります。
   
 ## <a name="see-also"></a>関連項目
 
-[ビジネス サーバーの前面の Skype で最後のプール災害復旧](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[Skype for Business Server のフロントエンドプールの障害回復](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

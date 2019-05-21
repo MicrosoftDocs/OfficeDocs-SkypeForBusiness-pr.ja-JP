@@ -1,5 +1,5 @@
 ---
-title: 'ビジネス用の Skype のサード ・ パーティ製のオーディオ会議プロバイダーとの統合のためのライフ プログラムの終了 '
+title: 'Skype for Business とサードパーティの電話会議プロバイダーとの統合の終了プログラム '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
@@ -18,112 +18,112 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: 2020 年 4 月 1日に、[ライフ プログラムの最後に、ビジネス用の Skype のサード ・ パーティ製のオーディオ会議プロバイダーとの統合のため (サード パーティ製の ACP)。
-ms.openlocfilehash: 4846875a8fb288683e896454a33e9213eec3a2ac
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 2020年4月1日に、サードパーティの電話会議プロバイダー (サードパーティ ACP) との Skype for Business の統合が終了します。
+ms.openlocfilehash: db2480c5b21c719ab9eed66e4d99f7cee077278e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223865"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304169"
 ---
-# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>ビジネス用の Skype のサード ・ パーティ製のオーディオ会議プロバイダーとの統合のためのライフ プログラムの終了 
+# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Skype for Business とサードパーティの電話会議プロバイダーとの統合の終了プログラム 
 
-マイクロソフトは、ビジネスの Skype のサード ・ パーティ製の音声会議プロバイダー (Acp) との統合のためのライフ プログラムの最後の開始を発表しました。 
+Microsoft は、Skype for Business とサードパーティの電話会議プロバイダー (ACPs) との統合に関して、サポート終了プログラムの開始を発表しました。 
 
-ライフ プログラムの終了、2020 年 4 月 1 日の最後にします。 プログラムで、終了し、ビジネス用の Skype のサード ・ パーティ製のオーディオ会議プロバイダーとの統合が動作を停止する日 (2020 年 4 月 1 日) に次の変更が実行されます。 
+有効期限プログラムは、2020年4月1日に終了します。 プログラムが終了すると、サードパーティの電話会議プロバイダーとの Skype for Business の統合が機能しなくなり、その日 (2020 年4月1日) に次の変更が行われます。 
 
-- 参加者のサード ・ パーティ製の ACP によってサービスは接続されなくなります。 ビジネス会議のための Skype に提供されたダイヤルイン番号を使用してビジネス会議のため、Skype に参加しようとしました。
+- サードパーティ ACP サービスによって提供されたダイヤルイン番号を使って、Skype for Business 会議に参加しようとしている参加者は、Skype for Business 会議に接続されなくなります。
  
-- サード ・ パーティ製の ACP サービスは、任意の新しい Skype ビジネス会議のために自動的に含まれているダイヤルイン情報の有効なユーザーを招待します。 
+- サードパーティ ACP サービスが有効になっているユーザーは、新しい Skype for Business 会議への招待に自動的にダイヤルイン情報を含めなくなります。 
 
-ライフ プログラムの最後の開始のお知らせの一部として、以下の変更は有効になっているし、引き続きライフ プログラムの最後の最後までに。 
+最終版プログラムの開始時のお知らせの一部として、次の変更が有効になり、終了するまで継続して使用できるようになります。 
 
-- お客様のビジネス ユーザーがサード ・ パーティ製の ACP サービスを使用するように構成されていない Skype ではサード ・ パーティ製の ACP サービスを使用するすべてのユーザーを構成することができません。 
+- サードパーティ ACP サービスを使用するように構成された Skype for Business ユーザーがいない場合、サードパーティ ACP サービスを使用するようにユーザーを構成することはできません。 
 
-- Skype でサード ・ パーティ製の ACP サービスを使用するように構成するビジネス ユーザー向けの既存のお客様は引き続き有効期間の最後の期間の新しいユーザーを追加すること。 お勧めしません、サード ・ パーティ製の ACP サービスを使用するビジネス ユーザー向けの他の Skype をセットアップする 2020年の 4 月 1 日で効果が発生した変更は、それらにも適用するように注意してください。 
+- サードパーティ ACP サービスを使用するように構成された Skype for Business ユーザーの既存のお客様は、有効期間が終了するまで、引き続き新しいユーザーを追加することができます。 2020年4月1日に反映される変更は、Skype for Business ユーザーに対してサードパーティの ACP サービスを使用するようにセットアップしないことに注意してください。 
 
-## <a name="preparing-for-this-change"></a>この変更の準備をしています
+## <a name="preparing-for-this-change"></a>この変更の準備
 
-この変更の準備をするには、2020 年 4 月 1 日前に計画されたこの更新プログラムの有効なユーザーに通知するのには影響を受ける企業がお勧めします。 
+この変更を準備するために、影響を受ける組織が、2020年4月1日より前にこの計画された更新のユーザーに通知することをお勧めします。 
 
-2020 年 4 月 1 日に後のユーザーは、オンライン会議が、ユーザーに中断することなくが、ビジネスの Skype を使用する続行できます。ただし、組織は、ビジネスまたはマイクロソフトのチームの Skype で「オーディオ会議ダイヤルインを必要がある場合は、マイクロソフトが提供する音声会議ユーザー有効にする必要があります。 Microsoft オーディオ会議に関する詳細については、[オーディオ会議](https://products.office.com/en-us/skype-for-business/audio-conferencing)を参照してください。 
+2020年4月1日以降、ユーザーはオンライン会議を中断することなく、引き続き Skype for Business を使用することができます。ただし、組織では、Skype for Business または Microsoft Teams とのダイヤルイン音声会議が必要な場合は、Microsoft から提供された電話会議のユーザーを有効にする必要があります。 Microsoft 電話会議の詳細については、「[電話会議](https://products.office.com/en-us/skype-for-business/audio-conferencing)」を参照してください。 
 
-組織の目的の端の状態、によっては、後に 3 つのパスがあります。
+組織の目的の終了状態に応じて、次の3つのパスに従うことができます。
 
-- マイクロソフトの電話会議に移行します。 
-- 別にサードパーティ製のオーディオ会議プロバイダーを使用し続けます。 
-- ダイヤルイン会議を使用して完全に停止します。
+- Microsoft 電話会議に移行します。 
+- 引き続き、サードパーティの電話会議プロバイダーを個別に使用します。 
+- すべてのダイヤルイン会議の使用を停止します。
 
-### <a name="path-1-migrate-to-microsoft-audio-conferencing"></a>Microsoft オーディオ会議への移行を 1 のパス。   
+### <a name="path-1-migrate-to-microsoft-audio-conferencing"></a>パス #1: Microsoft 電話会議に移行する   
 
-マイクロソフトの電話会議に移行し、2020 年 4 月 1 日にする前に、移行を完了することを組織ではその日付以降にサービスへの影響は発生しません。 Microsoft オーディオ会議への移行では、組織に次の変更を紹介します。 
+2020年4月1日より前に Microsoft 電話会議に移行して移行を完了すると、その日以降のサービスへの影響は発生しません。 Microsoft 電話会議への移行により、次のような変更が組織に導入されます。 
 
-- サービスは、他のすべての Office 365 サービスに最初に課金されます。 
+- このサービスは、他のすべての Office 365 サービスに課金されます。 
 
-- 標準のサブスクリプションを購入した場合、フリー ダイヤルでコストがコストのユーザーごとの毎月のサブスクリプションに含まれます。 
+- 標準サブスクリプションを購入した場合は、有料のダイヤルイン料金がユーザーごとの月額プランの料金に含まれます。 
 
-- 各組織とそのユーザーにダイヤルインの電話番号の新しいセットが提供されます。 Microsoft オーディオ会議サービスの地理的な適用範囲については、[オーディオ会議や予定を呼び出すための国および地域の可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を参照してください。
+- 各組織とそのユーザーに、新しいダイヤルイン電話番号のセットが提供されます。 Microsoft 電話会議サービスの地理的な範囲を確認するには、「[電話会議と通話プランの国と地域の空き時間](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)情報」を参照してください。
  
-- マイクロソフトの電話会議にダイヤルイン情報を含むように、サード ・ パーティ製の ACP を使用して有効にするユーザーが既にスケジュールされている会議を自動的に再スケジュールされます。
+- サードパーティ ACP を使って有効になっているユーザーによって既にスケジュールされている会議は、Microsoft 電話会議のダイヤルイン情報が含まれるように自動的に再スケジュールされます。
  
-- 会議 Id 各会議は動的に変化する各会議は、独自の専用の会議 ID を持つことを意味します。 動的な会議 Id は、会議の合間に、セキュリティ強化と利便性向を提供します。
+- 各会議の会議 Id は動的になります。つまり、各会議には専用の会議 ID があります。 動的会議 Id を使用すると、セキュリティが強化され、バックツーバック会議の操作性が向上します。
 
-- サービス用語を使用してオーディオ会議の対象となるは、サービスをすべて使用します。 
+- 本サービスの使用にはすべて、電話会議サービスの利用規約が適用されます。 
 
-Microsoft オーディオ会議への移行は簡単で、およびサービスのライセンスを取得した後いくつかの手順で行うことができます。 マイクロソフトの電話会議に移行する方法についてを参照してください。
+Microsoft 音声会議への移行は簡単です。また、サービスのライセンスを取得した後のわずかな手順で行うことができます。 Microsoft 電話会議に移行する方法については、以下を参照してください。
 
 - [Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **概要:**
 
-- Microsoft オーディオ会議に移行し、2020 年 4 月 1 日にする前に、移行を完了している組織は、その日付以降に、サービスへの影響を表示されません。
+- 2020年4月1日より前に Microsoft 電話会議に移行して移行を完了する組織では、その日付以降、サービスへの影響は表示されません。
 
-- Microsoft オーディオ会議への移行に関する詳細については、 [Office 365 に電話会議を購入するか](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)を参照してください。 
+- Microsoft 電話会議への移行の詳細について[は、「Office 365 で電話会議を試用または購入](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)する」を参照してください。 
 
-### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>パス 2: を続行とは別にサードパーティ製のオーディオ会議プロバイダーを使用するには
+### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>パス #2: サードパーティ電話会議プロバイダーを個別に使用し続ける
 
-2020 年 4 月 1 日に、前後には、サード ・ パーティ製の ACP を使用して続行することを組織には、サード ・ パーティ製の ACP ダイヤルイン情報が、Skype のビジネス会議のオーディオ部分に参加するのには使用しなくなるためにサービスへの影響が発生します。 
+2020年4月1日以降にサードパーティ acp を引き続き使用することにした組織では、Skype for Business 会議のオーディオ部分に参加するためにサードパーティ ACP のダイヤルイン情報が使用できなくなるため、サービスへの影響が発生します。 
 
-VoIP を使用して接続するいくつかの参加者のことで、ビジネス ・ ミーティングの Skype のオーディオ、およびその他のサード ・ パーティ製の ACP を使用して断片化を防ぐためには、これらの企業にとって、ユーザーの会議に VoIP を使用して無効にすることをお勧めします。 この方法では、すべての参加者は、サード ・ パーティ製の ACP を使用して会議のオーディオ部分に参加する必要があり、(チャットや画面の共有など) の会議の他のすべての作業負荷は、Skype のビジネスをサポートする続行できます。 
+Skype for Business 会議で、一部の参加者に VoIP などの参加者を招待して、サードパーティ ACP 経由で音声を使用しないようにするには、ユーザーの会議で VoIP を無効にすることをお勧めします。 これにより、すべての参加者は、サードパーティ ACP を使って会議のオーディオ部分に参加する必要があります。会議の他のすべてのワークロード (チャットや画面共有など) は、Skype for Business で引き続きサポートされます。 
 
-- 特定の開催者のすべての会議から VoIP を無効にするには、セット CsConferencingPolicy コマンドレットを使用して false に自分の会議ポリシーの AllowIPAudio パラメーターを設定します。 詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
+- 特定の開催者のすべての会議から VoIP を無効にするには、Set-csconferencingpolicy コマンドレットを使用して、自分の会議ポリシーの AllowIPAudio パラメーターを false に設定します。 詳細については、「 [Set-set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)」を参照してください。
  
-2020 年 4 月 1 日に、現在のスケジュールを設定すると、面ではサード ・ パーティ製の ACP のダイヤルイン情報は自動的に収録できなく Skype のビジネス会議の招待をします。 ユーザーは、ビジネス会議のため、Skype のダイヤルの情報への招待、ミーティングの一部としてこの情報を含むを続行する場合を手動で追加する必要があります。 
+スケジュールの観点と、2020年4月1日時点では、サードパーティ ACP のダイヤルイン情報が自動的には Skype for Business 会議の招待に含まれなくなります。 ユーザーは、会議の一部としてこの情報を引き続き使用したい場合は、Skype for Business 会議の出席依頼にダイヤルイン情報を手動で追加する必要があります。 
 
-2020 年 4 月 1 日に、[ユーザーの既存の会議は自動的に再スケジュールされません、サード ・ パーティ製 ACP ダイヤルイン情報を削除するのには注意してください。 ユーザーの会議が、ユーザーのサード ・ パーティ製の ACP の統合を無効にすることを検討するくださいし、会議を使用して、会議のスケジュールを変更する必要がありますが有効な VoIP を保持すると決定する組織、サード ・ パーティ製のオーディオを削除するのには、移行サービス既存の会議の会議のダイヤルイン情報と、既にスケジュールされたミーティングのオーディオの断片化を防ぐためです。 
+2020年4月1日に、ユーザーの既存の会議が自動的に再スケジュールされ、サードパーティ ACP のダイヤルイン情報が削除されないことに注意してください。 ユーザーの会議で VoIP を有効にしておくことを決定する組織は、ユーザーに対してサードパーティ ACP の統合を無効にすることを検討してください。また、会議移行サービスを使用して、サードパーティの音声を削除するように会議のスケジュールを変更することを検討してください。既存の会議からダイヤルイン情報を会議して、既に予約されている会議でのオーディオの断片化を防止します。 
 
-- 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、削除 CsUserAcp コマンドレットを使用します。 詳細については、[削除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)を参照してください。 
+- 特定の開催者に対してサードパーティの電話会議の統合を無効にするには、CsUserAcp コマンドレットを使用します。 詳細については、「 [CsUserAcp の削除](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)」を参照してください。 
 
-- サード ・ パーティ製のオーディオ会議プロバイダーとの統合を無効にした後のユーザーの会議を自動的に再スケジュールするには、」の実行方法ユーザーは、手動で移行を会議しますか?」を参照してください. [設定会議の移行サービス (MMS) を](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)します。 
+- サードパーティの電話会議プロバイダーとの統合を無効にした後で、ユーザーの会議を自動的に再スケジュールするには、「ユーザーに対して手動で会議移行を実行する方法」を参照してください。 [「会議移行サービス (MMS) の](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)セットアップ」をご利用ください。 
 
 **概要:**
 
-- 2020 年 4 月 1 日に、前後には、サード ・ パーティ製の ACP を使用して続行するのには決定している組織は、サード ・ パーティ製の ACP できなくために、Skype のビジネス会議に参加して、新しい会議では、サードパーティの ACP のダイヤルイン情報は含まれませんので影響があります。 
+- 4月 1 2020 日以降にサードパーティ acp の使用を継続することにした場合、サードパーティ acp は Skype for business 会議に参加することができず、新しい会議にサードパーティ acp のダイヤルイン情報が含まれないため、このような影響があります。 
 
-- 、2020 年 4 月 1 日、オーディオが VoIP を使用して、サード ・ パーティ製の ACP を使用して接続する参加者の間で分割されることを防止する前に、影響を受けるすべてのユーザーのすべての会議のために VoIP が無効になっていることをお勧めします。 
+- Voip を使用している参加者とサードパーティ ACP を介して参加している参加者の間でオーディオが断片化されないようにするには、すべての影響を受ける2020ユーザーのすべての会議に対して voip を無効にすることをお勧めします。 
 
-    - 特定の開催者のすべての会議から VoIP を無効にするには、セット CsConferencingPolicy コマンドレットを使用して false ユーザーの会議ポリシーの AllowIPAudio パラメーターを設定します。 詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
+    - 特定の開催者のすべての会議から VoIP を無効にするには、Set-csconferencingpolicy コマンドレットを使用して、ユーザーの会議ポリシーの AllowIPAudio パラメーターを false に設定します。 詳細については、「 [Set-set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)」を参照してください。
  
-- 場合組織は、すべての会議、VoIP を無効にするは、勧めから、Skype を使用して、サード ・ パーティ製の ACP とオンライン ビジネスの統合を無効にして、会議のスケジュールを変更するユーザーのサード ・ パーティ製 ACP ダイヤルイン情報を削除するのにはオーディオの断片化を防止します。
+- 組織がすべての会議で VoIP を無効にしていない場合は、Skype for Business Online とサードパーティ ACP との統合を無効にすることをお勧めします。また、サードパーティ ACP のダイヤルイン情報を削除するように会議をスケジュールし直すことをお勧めします。オーディオが断片化されないようにします。
 
-    - 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、[削除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)コマンドレットを使用します。 
+    - 特定の開催者に対してサードパーティの電話会議の統合を無効にするには、 [CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)コマンドレットを使用します。 
 
-    - 会議を自動的に再スケジュールするには、」の実行方法ユーザーは、手動で移行を会議しますか?」を参照してください. [設定会議の移行サービス (MMS) を](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)します。
+    - 会議を自動的に再スケジュールするには、「ユーザーに対して手動で会議移行を実行する方法」を参照してください。 [「会議移行サービス (MMS) の](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)セットアップ」をご利用ください。
 
-### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>パス 3: ダイヤルイン会議を完全に使用を停止します。
+### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>パス #3: ダイヤルイン会議の使用を中止する
 
-ダイヤルイン会議を使用して完全に停止を決定する企業は、ビジネス会議のため、Skype のオーディオ部分をサポートするために VoIP に完全に使用できる (どちらも microsoft やサード ・ パーティ製の ACP によって提供されたもの)。 
+ダイヤルイン会議の使用を中止する組織 (Microsoft とサードパーティ ACP によって提供されることはありません) は、Skype for Business 会議のオーディオ部分をサポートするために、VoIP を最大限に活用することができます。 
 
-これらの組織は、サード ・ パーティ製のオーディオ会議プロバイダーを使用してから、ユーザーを無効にし、する必要があります、ダイヤルイン会議の情報を削除するのには会議の移行を使用して自動的に再スケジュールされる会議は、サービスを提供します。 
+このような組織では、ユーザーがサードパーティの電話会議プロバイダーを使用して、会議移行サービスを使用して会議を自動的に再スケジュールして、ダイヤルイン会議の情報を削除しないようにする必要があります。 
 
-- 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、削除 CsUserAcp コマンドレットを使用します。 詳細については、[削除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)を参照してください。 
+- 特定の開催者に対してサードパーティの電話会議の統合を無効にするには、CsUserAcp コマンドレットを使用します。 詳細については、「 [CsUserAcp の削除](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)」を参照してください。 
 
-- サード ・ パーティ製のオーディオ会議プロバイダーとの統合を無効にした後のユーザーの会議を自動的に再スケジュールするには、」の実行方法ユーザーは、手動で移行を会議しますか?」を参照してください. [設定会議の移行サービス (MMS) を](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)します。 
+- サードパーティの電話会議プロバイダーとの統合を無効にした後で、ユーザーの会議を自動的に再スケジュールするには、「ユーザーに対して手動で会議移行を実行する方法」を参照してください。 [「会議移行サービス (MMS) の](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)セットアップ」をご利用ください。 
 
 **概要:** 
 
-- オーディオ会議の使用を停止することを組織全体 2020 年 4 月 1 日にする前に、影響はありません。
+- 2020年4月1日より前に、電話会議の使用を停止することを決定した組織には、影響はありません。
 
-- 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、削除 CsUserAcp コマンドレットを使用します。 詳細については、[削除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)を参照してください。 
+- 特定の開催者に対してサードパーティの電話会議の統合を無効にするには、CsUserAcp コマンドレットを使用します。 詳細については、「 [CsUserAcp の削除](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)」を参照してください。 
 
-- サード ・ パーティ製のオーディオ会議プロバイダーとの統合を無効にした後のユーザーの会議を自動的に再スケジュールするには、」の実行方法ユーザーは、手動で移行を会議しますか?」を参照してください. [設定会議の移行サービス (MMS) を](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)します。
+- サードパーティの電話会議プロバイダーとの統合を無効にした後で、ユーザーの会議を自動的に再スケジュールするには、「ユーザーに対して手動で会議移行を実行する方法」を参照してください。 [「会議移行サービス (MMS) の](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)セットアップ」をご利用ください。

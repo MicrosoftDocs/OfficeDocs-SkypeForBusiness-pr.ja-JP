@@ -5,77 +5,77 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
-description: 各レコードは、メディアの 1 つの行を表します。 (通常 1 つのオーディオ セッションには、オーディオ メディアの 1 つの行が含まれています。 1 つのオーディオおよびビデオ (A/V) セッションには通常が含まれていますオーディオ メディアの 1 つの行と 1 つのビデオ メディア ラインが、セッションには会議用デバイスが使用されている場合、またはギャラリーのビューを使用する場合 2 つのビデオ メディア ラインが含まれて可能性があります。
-ms.openlocfilehash: 42c770486c3b2b457e1715dfa5c5a5b028022f26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 各レコードは1つのメディアラインを表します。 (1 つのオーディオセッションには通常、1つのオーディオメディアラインが含まれています。 1つのオーディオとビデオ (A/V) セッションには通常、1つのオーディオメディアラインと1つのビデオメディアラインが含まれていますが、会議デバイスが使用されている場合や、[ギャラリー] ビューを使用している場合は、2つのビデオメディア線が表示されることがあります。
+ms.openlocfilehash: f9ededade35e5654a89b68343f44094f4319ae70
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920146"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294895"
 ---
 # <a name="medialine-table"></a>MediaLine テーブル
  
-各レコードは、メディアの 1 つの行を表します。 (通常 1 つのオーディオ セッションには、オーディオ メディアの 1 つの行が含まれています。 1 つのオーディオおよびビデオ (A/V) セッションには通常が含まれていますオーディオ メディアの 1 つの行と 1 つのビデオ メディア ラインが、セッションには会議用デバイスが使用されている場合、またはギャラリーのビューを使用する場合 2 つのビデオ メディア ラインが含まれて可能性があります。
+各レコードは1つのメディアラインを表します。 (1 つのオーディオセッションには通常、1つのオーディオメディアラインが含まれています。 1つのオーディオとビデオ (A/V) セッションには通常、1つのオーディオメディアラインと1つのビデオメディアラインが含まれていますが、会議デバイスが使用されている場合や、[ギャラリー] ビューを使用している場合は、2つのビデオメディア線が表示されることがあります。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[セッション テーブル](session.md)から参照されています。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[セッション テーブル](session.md)から参照されています。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |0 は、メインのオーディオ、1 は、メイン ビデオとパノラマ ビデオでは 2、3 は、アプリケーションとデスクトップの共有、16 は、ビデオ画面の共有 (VbSS) に基づきます。 このラベルは、1 つのセッション内で一意でなければなりません。  <br/> |
-|**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |この列は、Microsoft Lync Server 2013 では使用しませんが、存在します。 メディアの明細行で使用する接続に関する情報は、CallerConnectivityICE と CalleeConnectivityICE の列でキャプチャされます。  <br/> |
-|**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |ビット フラグで説明した対話型の接続の確立 (ICE) のプロセスについて説明します。 詳細については、*品質の経験の監視サーバー プロトコルの仕様*、ダウンロードを参照してください。 <br/> |
-|**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |同じ CallerIceWarningFlags、ですが、呼び出し先にあります。 詳細については、*品質の経験の監視サーバー プロトコルの仕様*、ダウンロードを参照してください。 <br/> |
-|**セキュリティ** <br/> |tinyint  <br/> | <br/> |使用中のセキュリティ プロファイルです。 0 なし、SRTP では 1、2 V1。  <br/> |
-|**Transport** <br/> |tinyint  <br/> | <br/> |0 は、UDP、TCP は、1 です。  <br/> |
-|**CallerIPAddr** <br/> |int  <br/> |外部  <br/> |呼び出し元の IP アドレスです。 詳細については、 [ip アドレス テーブル](ipaddress.md)を参照してください。 <br/> |
-|**CallerPort** <br/> |int  <br/> | <br/> | 呼び出し元によって使用されるポート。 <br/> |
-|**CallerSubnet** <br/> |int  <br/> | 外部 <br/> |呼び出し元のサブネットです。 詳細については、 [ip アドレス テーブル](ipaddress.md)を参照してください。 <br/> |
-|**CallerInside** <br/> |bit  <br/> | <br/> |呼び出し元は、エンタープライズ ネットワーク内の 1 は、0 では、ネットワークの外部の呼び出し元を意味します。  <br/> |
-|**CallerMacAddress** <br/> |int  <br/> |外部  <br/> |[MacAddress テーブル](macaddress.md)から参照される、呼び出し元の mac アドレスです。  <br/> |
-|**CallerRelayIPAddr** <br/> |int  <br/> |外部  <br/> |A の IP アドレス/音声ビデオ エッジ サービスが呼び出し元によって使用されます。 詳細については、 [ip アドレス テーブル](ipaddress.md)を参照してください。 <br/> |
-|**CallerRelayPort** <br/> |int  <br/> | <br/> |A で使用されるポート音声ビデオ エッジ サービスの呼び出し元が。  <br/> |
-|**CallerCaptureDev** <br/> |int  <br/> |外部  <br/> |呼び出し元で使用されるデバイスをキャプチャします。 [デバイスのテーブル](device.md)から参照されています。  <br/> |
-|**CallerRenderDev** <br/> |int  <br/> |外部  <br/> |呼び出し元で使用されるデバイスをレンダリングします。 [デバイスのテーブル](device.md)から参照されています。  <br/> |
-|**CallerCaptureDevDriver** <br/> |int  <br/> |外部  <br/> |[早い段階のテーブル](devicedriver.md)から参照される、呼び出し元のキャプチャ デバイス用のドライバーです。  <br/> |
-|**CallerRenderDevDriver** <br/> |int  <br/> |外部  <br/> |[早い段階のテーブル](devicedriver.md)から参照される、呼び出し元のレンダリング デバイスのドライバーです。  <br/> |
-|**CallerNetworkConnectionType** <br/> |tinyint  <br/> |外部  <br/> |呼び出し元がネットワークに接続する方法を示します。 値は、 [NetworkConnectionDetail テーブル](networkconnectiondetail.md)から取得されます。 一般的な値は、ワイヤード (有線) 接続の場合は 0' WiFi 接続の場合は 1イーサネット接続の場合は 3 です。  <br/> |
-|**CallerBssid** <br/> |int  <br/> |外部  <br/> |ワイヤレスを使用する場合、呼び出し元の BSSID です。 [MacAddress テーブル](macaddress.md)から参照されています。  <br/> |
-|**CallerVPN** <br/> |bit  <br/> ||呼び出し元のリンクです。 1 は仮想プライベート ネットワーク (VPN) で、0 は非 VPN です。  <br/> |
-|**CallerLinkSpeed** <br/> |decimal(18,0)  <br/> ||ネットワーク リンクの速度を bps で、呼び出し元のエンドポイントので。  <br/> |
-|**CalleeIPAddr** <br/> |int  <br/> |外部  <br/> |電話の受信側の IP アドレスです。 詳細については、 [ip アドレス テーブル](ipaddress.md)を参照してください。 <br/> |
-|**CalleePort** <br/> |bit  <br/> ||電話の受信側で使用するポートです。  <br/> |
-|**CalleeSubnet** <br/> |int  <br/> |外部  <br/> |呼び出し先のサブネットです。 詳細については、 [ip アドレス テーブル](ipaddress.md)を参照してください。 <br/> |
-|**CalleeInside** <br/> |bit  <br/> | <br/> |エンタープライズ ネットワーク内の呼び出しの受信機は、1 は、0 では、呼び出しの受信機は、ネットワークの外部を意味します。  <br/> |
-|**CalleeMacAddress** <br/> |int  <br/> |外部  <br/> |呼び出し先の Mac アドレスです。 [MacAddress テーブル](macaddress.md)から参照されています。  <br/> |
-|**CalleeRelayIPAddr** <br/> |int  <br/> |外部  <br/> |A の IP アドレス/電話の受信側で音声ビデオ エッジ サービスを使用します。 詳細については、 [ip アドレス テーブル](ipaddress.md)を参照してください。 <br/> |
-|**CalleeRelayPort** <br/> |int  <br/> | <br/> |A で使用するポート/電話の受信側での音声ビデオ エッジ サービスです。  <br/> |
-|**CalleeCaptureDev** <br/> |int  <br/> |外部  <br/> |電話の受信側で使用されるデバイスをキャプチャします。 [デバイスのテーブル](device.md)から参照されています。  <br/> |
-|**CalleeRenderDev** <br/> |int  <br/> |外部  <br/> |電話の受信側で使用されるデバイスをレンダリングします。 [デバイスのテーブル](device.md)から参照されています。  <br/> |
-|**CalleeCaptureDevDriver** <br/> |int  <br/> |外部  <br/> |電話の受信者のキャプチャ デバイス用のドライバーです。 [早い段階のテーブル](devicedriver.md)から参照されています。  <br/> |
-|**CalleeRenderDevDriver** <br/> |varchar(256)  <br/> |外部  <br/> |電話の受信側のレンダリング デバイスのドライバーです。 [早い段階のテーブル](devicedriver.md)から参照されています。  <br/> |
-|**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |外部  <br/> |呼び出し先がネットワークに接続する方法を示します。 値は、 [NetworkConnectionDetail テーブル](networkconnectiondetail.md)から取得されます。 一般的な値は、ワイヤード (有線) 接続の場合は 0' WiFi 接続の場合は 1イーサネット接続の場合は 3 です。  <br/> |
-|**CalleeBssid** <br/> |int  <br/> |外部  <br/> |ワイヤレスを使用する場合、呼び出し先の BSSID です。 [MacAddress テーブル](macaddress.md)から参照されています。  <br/> |
-|**CalleeVPN** <br/> |bit  <br/> | <br/> |電話の受信側のリンクです。1 は仮想プライベート ネットワーク (VPN) で、0 は非 VPN です。  <br/> |
-|**CalleeLinkSpeed** <br/> |decimal(18,0)  <br/> | <br/> |ネットワーク リンクの速度を bps で、電話の受信側のエンドポイントので。  <br/> |
-|**ConversationalMOS** <br/> |decimal(3,2)  <br/> | <br/> |(両方のオーディオ ストリームに基づく)、オーディオのセッションの会話 MOS をナローバンド。  <br/> |
-|**AppliedBandwidthLimit** <br/> |int  <br/> ||これは、さまざまなポリシーの設定 (有効にする、API、SDP、ポリシー サーバー、およびなど) を指定した特定の送信側のストリームに適用される実際の帯域幅です。 これは、帯域幅の見積もりに基づいて下の効果的な帯域幅が存在することができますので、効果的な帯域幅とを混同しないようにします。 これは、基本的に、帯域幅の推定値の制限を除いて、送信ストリームがかかることが最大の帯域幅です。  <br/> |
-|**AppliedBandwidthSourceKey** <br/> |smallint  <br/> ||これは、適用されている帯域幅のキャップのソースです。 それは、帯域幅の制限値の取得先 (「サーバーのポリシー」、「サーバーを有効にする」、「モダリティ」、など) について説明します。 [AppliedBandwidthSource テーブル](appliedbandwidthsource.md)から参照されています。  <br/> |
-|**[発信者]** <br/> |bit  <br/> | <br/> |呼び出し元からの測定値が受信されたかどうか。1 が [はい] で、null 値がありません。  <br/> |
-|**[呼び出し先]** <br/> |bit  <br/> | <br/> |呼び出しの受信機からの測定値が受信されたかどうか。1 が [はい] で、null 値がありません。  <br/> |
-|**MidCallReport** <br/> |bit  <br/> ||レポートがセッションの一部または全体のセッションのかどうかを示します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||呼び出しが不適切な呼び出し (値 1)、またはお電話 (0) として分類されたかどうかを示します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**CallerConnectivityICE** <br/> |tinyInt  <br/> ||呼び出し元が氷のプロトコル (インターネット接続の確立) を使用してネットワークに接続されているかどうかを示します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**CalleeConnectivityICE** <br/> |tinyint  <br/> ||呼び出し元が氷のプロトコル (インターネット接続の確立) を使用してネットワークに接続されているかどうかを示します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**CallerReflexiveLocalIPAddr** <br/> |int  <br/> |外部  <br/> |呼び出しを配置しているユーザーの IP アドレスを再帰します。 NAT (ネットワーク アドレス変換) を使用している組織では、再帰の IP アドレスとは、プロキシ サーバーの IP アドレスです。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**CallerWiFiDriverDevicesDesc** <br/> |int  <br/> |外部  <br/> |呼び出しを配置しているユーザーによって使用されている WiFi ドライバーのデバイスの説明です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**CallerWiFiDriverVersion** <br/> |int  <br/> |外部  <br/> |呼び出しを配置しているユーザーによって使用されている WiFi ドライバーのバージョン番号です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**CalleReflexiveLocalIPAddr** <br/> |int  <br/> |外部  <br/> |呼び出しを受信したユーザーの IP アドレスを再帰します。 NAT (ネットワーク アドレス変換) を使用している組織では、再帰の IP アドレスとは、プロキシ サーバーの IP アドレスです。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**CalleeWiFiDriverDevicesDesc** <br/> |int  <br/> |外部  <br/> |呼び出しを受信したユーザーが採用されている WiFi ドライバーのデバイスの説明です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**CalleeWiFiDriverVersion** <br/> |int  <br/> |外部  <br/> |呼び出しを受信したユーザーが採用されている WiFi ドライバーのバージョン番号です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[セッションテーブル](session.md)から参照されます。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[セッションテーブル](session.md)から参照されます。  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |0はメインオーディオ、1はメインビデオ、2はパノラマビデオ、3はアプリケーション/デスクトップ共有、16はビデオベースの画面共有 (VbSS) です。 このラベルは、1つのセッション内で一意である必要があります。  <br/> |
+|**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |この列は存在しますが、Microsoft Lync Server 2013 では使用されません。 メディアラインに使用される接続に関する情報は、CallerConnectivityICE 列と CalleeConnectivityICE 列に記録されます。  <br/> |
+|**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |「Bits フラグ」で説明されている対話型接続確立 (ICE) プロセスに関する情報。 詳細については、「ダウンロード可能な*エクスペリエンス監視サーバープロトコルの仕様*」を参照してください。 <br/> |
+|**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |CallerIceWarningFlags と同じですが、呼び出し先側でも同じです。 詳細については、「ダウンロード可能な*エクスペリエンス監視サーバープロトコルの仕様*」を参照してください。 <br/> |
+|**セキュリティ** <br/> |tinyint  <br/> | <br/> |使用されているセキュリティプロファイル。 0は NONE、1は SRTP、2は V1 です。  <br/> |
+|**Transport** <br/> |tinyint  <br/> | <br/> |0は UDP、1は TCP です。  <br/> |
+|**CallerIPAddr** <br/> |int  <br/> |外部  <br/> |発信者の IP アドレス。 詳細については、 [IPAddress テーブル](ipaddress.md)を参照してください。 <br/> |
+|**CallerPort** <br/> |int  <br/> | <br/> | 発信者によって使用されるポート。 <br/> |
+|**CallerSubnet** <br/> |int  <br/> | 外部 <br/> |発信者のサブネット。 詳細については、 [IPAddress テーブル](ipaddress.md)を参照してください。 <br/> |
+|**CallerInside** <br/> |bit  <br/> | <br/> |1: 発信者がエンタープライズネットワーク内にあることを示します。0は、呼び出し元がネットワークの外部にあることを意味します。  <br/> |
+|**CallerMacAddress** <br/> |int  <br/> |外部  <br/> |発信者の mac アドレス。 [MacAddress テーブル](macaddress.md)から参照されます。  <br/> |
+|**CallerRelayIPAddr** <br/> |int  <br/> |外部  <br/> |発信者によって使用される A/V Edge サービスの IP アドレス。 詳細については、 [IPAddress テーブル](ipaddress.md)を参照してください。 <br/> |
+|**CallerRelayPort** <br/> |int  <br/> | <br/> |発信者によって、A/V Edge サービスで使用されるポート。  <br/> |
+|**CallerCaptureDev** <br/> |int  <br/> |外部  <br/> |発信者によって使用されるデバイスをキャプチャします。 [デバイステーブル](device.md)から参照されます。  <br/> |
+|**CallerRenderDev** <br/> |int  <br/> |外部  <br/> |発信者によって使われるレンダリングデバイス。 [デバイステーブル](device.md)から参照されます。  <br/> |
+|**CallerCaptureDevDriver** <br/> |int  <br/> |外部  <br/> |発信者のキャプチャデバイスのドライバー。 [Devicedriver テーブル](devicedriver.md)から参照されます。  <br/> |
+|**CallerRenderDevDriver** <br/> |int  <br/> |外部  <br/> |[Devicedriver テーブル](devicedriver.md)から参照される、呼び出し元のレンダーデバイスのドライバー。  <br/> |
+|**CallerNetworkConnectionType** <br/> |tinyint  <br/> |外部  <br/> |発信者がネットワークに接続した方法を示します。 値は、 [Networkconnectiondetail テーブル](networkconnectiondetail.md)から取得されます。 一般的な値は、有線接続の場合は0、WiFi 接続の場合は0です。イーサネット接続の場合は3。  <br/> |
+|**CallerBssid** <br/> |int  <br/> |外部  <br/> |ワイヤレスが使用されている場合は、発信者の BSSID。 [MacAddress テーブル](macaddress.md)から参照されます。  <br/> |
+|**CallerVPN** <br/> |bit  <br/> ||発信者のリンク。 1は仮想プライベートネットワーク (VPN)、0は非 VPN です。  <br/> |
+|**CallerLinkSpeed** <br/> |10進数 (18, 0)  <br/> ||発信者のエンドポイントのネットワークリンク速度 (bps)。  <br/> |
+|**CalleeIPAddr** <br/> |int  <br/> |外部  <br/> |通話受信者の IP アドレス。 詳細については、 [IPAddress テーブル](ipaddress.md)を参照してください。 <br/> |
+|**CalleePort** <br/> |bit  <br/> ||通話レシーバーで使用されているポート。  <br/> |
+|**CalleeSubnet** <br/> |int  <br/> |外部  <br/> |呼び出し先のサブネット。 詳細については、 [IPAddress テーブル](ipaddress.md)を参照してください。 <br/> |
+|**CalleeInside** <br/> |bit  <br/> | <br/> |1: 通話受信者が企業ネットワーク内にあることを意味する0は、通話レシーバーがネットワークの外側にあることを意味します。  <br/> |
+|**CalleeMacAddress** <br/> |int  <br/> |外部  <br/> |呼び出し先 Mac アドレス。 [MacAddress テーブル](macaddress.md)から参照されます。  <br/> |
+|**CalleeRelayIPAddr** <br/> |int  <br/> |外部  <br/> |通話レシーバーによって使用される A/V エッジサービスの IP アドレス。 詳細については、 [IPAddress テーブル](ipaddress.md)を参照してください。 <br/> |
+|**CalleeRelayPort** <br/> |int  <br/> | <br/> |通話レシーバーによって、A/V Edge サービスで使用されるポート。  <br/> |
+|**Calleecapdev** <br/> |int  <br/> |外部  <br/> |通話レシーバーによって使用されるデバイスをキャプチャします。 [デバイステーブル](device.md)から参照されます。  <br/> |
+|**Calle・ Enderdev** <br/> |int  <br/> |外部  <br/> |通話レシーバーによって使用されるレンダリングデバイス。 [デバイステーブル](device.md)から参照されます。  <br/> |
+|**Calleecapdevdriver** <br/> |int  <br/> |外部  <br/> |通話レシーバーのキャプチャデバイスのドライバー。 [Devicedriver テーブル](devicedriver.md)から参照されます。  <br/> |
+|**CalleeRenderDevDriver** <br/> |varchar (256)  <br/> |外部  <br/> |通話レシーバーのレンダリングデバイスのドライバー。 [Devicedriver テーブル](devicedriver.md)から参照されます。  <br/> |
+|**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |外部  <br/> |呼び出し先がネットワークに接続された方法を示します。 値は、 [Networkconnectiondetail テーブル](networkconnectiondetail.md)から取得されます。 一般的な値は、有線接続の場合は0、WiFi 接続の場合は0です。イーサネット接続の場合は3。  <br/> |
+|**CalleeBssid** <br/> |int  <br/> |外部  <br/> |ワイヤレスが使用されている場合は、呼び出し先の BSSID。 [MacAddress テーブル](macaddress.md)から参照されます。  <br/> |
+|**CalleeVPN** <br/> |bit  <br/> | <br/> |通話レシーバーのリンク。1は仮想プライベートネットワーク (VPN)、0は非 VPN です。  <br/> |
+|**CalleeLinkSpeed** <br/> |10進数 (18, 0)  <br/> | <br/> |通話受信側エンドポイントのネットワークリンク速度 (bps)。  <br/> |
+|**ConversationalMOS** <br/> |10進数 (3, 2)  <br/> | <br/> |オーディオセッションの会話 MOS を Narrowband します (両方のオーディオストリームに基づく)。  <br/> |
+|**AppliedBandwidthLimit** <br/> |int  <br/> ||これは、さまざまなポリシー設定 (TURN、API、SDP、ポリシーサーバーなど) が指定された send side stream に適用される実際の帯域幅です。 これは、帯域幅の推定値に基づいて低帯域幅を使用できるため、有効帯域幅と混同しないようにする必要があります。 これは基本的に最大帯域幅であり、送信ストリームは、帯域幅の推定値によって課された制限を受けません。  <br/> |
+|**AppliedBandwidthSourceKey** <br/> |smallint  <br/> ||これは、適用される帯域幅の上限のソースです。 帯域幅の制限の対象となる場所について説明します ("Policy Server"、"TURN Server"、"モダリティ" など)。 [AppliedBandwidthSource テーブル](appliedbandwidthsource.md)から参照されます。  <br/> |
+|**[発信者]** <br/> |bit  <br/> | <br/> |呼び出し元からのメトリックが受信されたかどうかを示します。1は yes で、null 値は no です。  <br/> |
+|**[呼び出し先]** <br/> |bit  <br/> | <br/> |通話レシーバーからのメトリックが受信されたかどうかを示します。1は yes で、null 値は no です。  <br/> |
+|**MidCallReport** <br/> |bit  <br/> ||レポートがセッションの一部であるか、セッション全体であるかを示します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||通話が低品質通話 (1) または良好コール (0) として分類されているかどうかを示します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**CallerConnectivityICE** <br/> |tinyInt  <br/> ||発信者が ICE プロトコル (インターネット接続の確立) を使ってネットワークに接続しているかどうかを示します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**CalleeConnectivityICE** <br/> |tinyint  <br/> ||発信者が ICE プロトコル (インターネット接続の確立) を使ってネットワークに接続しているかどうかを示します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**CallerReflexiveLocalIPAddr** <br/> |int  <br/> |外部  <br/> |通話を発信したユーザーの再帰 IP アドレス。 NAT (ネットワークアドレス変換) を使用している組織では、再帰 IP アドレスはプロキシサーバーの IP アドレスです。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**CallerWiFiDriverDevicesDesc** <br/> |int  <br/> |外部  <br/> |通話を発信したユーザーによって採用された WiFi ドライバーのデバイスの説明。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**CallerWiFiDriverVersion** <br/> |int  <br/> |外部  <br/> |通話を発信したユーザーによって採用された WiFi ドライバーのバージョン番号。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**CalleReflexiveLocalIPAddr** <br/> |int  <br/> |外部  <br/> |通話を受信したユーザーの再帰 IP アドレス。 NAT (ネットワークアドレス変換) を使用している組織では、再帰 IP アドレスはプロキシサーバーの IP アドレスです。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**CalleeWiFiDriverDevicesDesc** <br/> |int  <br/> |外部  <br/> |通話を受信したユーザーによって採用された WiFi ドライバーのデバイスの説明。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**CalleeWiFiDriverVersion** <br/> |int  <br/> |外部  <br/> |通話を受信したユーザーが使用する WiFi ドライバーのバージョン番号。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
    
 

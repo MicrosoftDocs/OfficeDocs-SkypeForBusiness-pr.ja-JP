@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 公衆交換電話網 (PSTN) を使用して業務を行うユーザーの緊急対応の住所と電話番号を設定する方法の手順を説明します。
-ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 884dd4051ef15cb29d6ab125989edf990980f722
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233254"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299536"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>ユーザーの緊急対応の住所の割り当てまたは変更
 
@@ -34,16 +34,16 @@ Office 365 の通話プランを設定している場合、電話番号または
   
 Office 365 の通話プランの取得方法とかかる費用については、「[Skype for Business と Microsoft Teams アドオン ライセンシング](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。
   
-## <a name="assign-or-change-an-emergency-address"></a>割り当てるか、緊急時のアドレスを変更します。
+## <a name="assign-or-change-an-emergency-address"></a>緊急対応の住所を割り当てまたは変更する
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
+2. **Microsoft Teams 管理センター** > の**従来のポータル**に移動します。
     
 3. 左側のナビゲーションには、 **音声**、し、 **ユーザーの音声**をクリックします。
     
     > [!IMPORTANT]
-    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
+    > Skype for Business 管理センターの左のナビゲーションに [**音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、**電話システム**アドオン ライセンス、または**電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
     
 4. **音声ユーザー**ページで、緊急対応の住所を変更するユーザーを見つけて、選択します。
     
@@ -52,9 +52,9 @@ Office 365 の通話プランの取得方法とかかる費用については、
     > [!IMPORTANT]
     > 既に検証が済んだ緊急対応の住所のみ変更できます。 検証されていない緊急対応の住所を変更するには、その住所を変更して、別の緊急対応の住所を作成します。 
   
-6. **番号の割り当て**] ページで、[**場所の変更**をクリックします。
+6. [**番号を割り当てる**] ページで、[**場所の変更**] をクリックします。
     
-7. **緊急アドレスへの変更**、[市区町村の名前を入力してくださいし、[**検索**] をクリックします。
+7. [**緊急対応の住所の変更先**] で、市区町村の名前を入力し、[**検索**] をクリックします。
     
 8. アドレスのドロップダウン リストから緊急対応の住所を選択し、[**保存**] をクリックします。 
     

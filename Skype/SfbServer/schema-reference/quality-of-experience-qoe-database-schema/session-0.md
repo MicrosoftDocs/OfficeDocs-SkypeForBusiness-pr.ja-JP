@@ -1,51 +1,51 @@
 ---
-title: セッションの表示
+title: セッションビュー
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
-description: セッション ビューは、データベースにレコードが存在しているセッションに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: e30bdb31457e9e70984b66bef75c898cadd9aeb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: セッションビューには、データベース内にレコードがあるセッションに関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
+ms.openlocfilehash: b24afdff32b5223725aa4f8ff0b7d875199713c7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919999"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294685"
 ---
-# <a name="session-view"></a>セッションの表示
+# <a name="session-view"></a>セッションビュー
  
-セッション ビューは、データベースにレコードが存在しているセッションに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
+セッションビューには、データベース内にレコードがあるセッションに関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
   
 |**列**|**データ型**|**詳細**|
 |:-----|:-----|:-----|
-|ConferenceDateTime  <br/> |datetime  <br/> |MediaLine テーブルから参照されています。  <br/> |
-|ConferenceURI  <br/> |nvarchar(450)  <br/> |会議 URI は、会議では、DialogID この場合は、ピア ツー ピア セッションです。  <br/> |
-|相関関係  <br/> |は  <br/> |セッションの相関関係 ID です。  <br/> |
-|DialogCategory  <br/> |bit  <br/> |ダイアログのカテゴリです。0 は Skype ビジネス サーバーの仲介サーバーのレグです。1 では、仲介サーバー PSTN ゲートウェイ レグを飛行します。  <br/> |
-|MediationServerBypassFlag  <br/> |bit  <br/> |呼び出しをバイパスするかどうかを示します。  <br/> |
-|MediaBypassWarningFlag  <br/> |int  <br/> |このフィールドでは、存在する場合、呼び出しをバイパス Id が一致した場合でもバイパスしない理由を示します。 ビジネス サーバーの Skype は、1 つの値が定義されます。  <br/> 0x0001 - 既定のネットワーク アダプターの ID を不明なバイパス  <br/> |
-|StartTime  <br/> |datetime  <br/> |開始時刻を呼び出します。  <br/> |
-|EndTime  <br/> |datetime  <br/> |終了時刻を呼び出します。  <br/> |
-|CallerPool  <br/> |nvarchar(256)  <br/> |呼び出し元プールの FQDN です。  <br/> |
-|CalleePool  <br/> |nvarchar(256)  <br/> |呼び出し先プールの FQDN です。  <br/> |
-|CallerPAI  <br/> |nvarchar(450)  <br/> |呼び出し元の p がアサートされた id URI です。  <br/> |
-|CalleePAI  <br/> |nvarchar(450)  <br/> |呼び出し先の p でアサートされたアイデンティティ URI です。  <br/> |
-|CallerEndpoint  <br/> |nvarchar(256)  <br/> |呼び出し元のエンドポイントの名前です。  <br/> |
-|CalleeEndpoint  <br/> |nvarchar(256)  <br/> |呼び出し元のエンドポイントの名前です。  <br/> |
-|CallerUserAgent  <br/> |nvarchar(256)  <br/> |呼び出し元のユーザー エージェント文字列です。  <br/> |
-|CallerUserAgentType  <br/> |smallint  <br/> |呼び出し元のユーザー エージェントの種類です。 [UserAgent テーブル](useragent.md)の詳細についてはを参照してください。 <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼び出し元のユーザー エージェントのカテゴリです。 詳細については、 [UserAgentDef テーブル (QoE)](useragentdef-qoe.md)を参照してください。 <br/> |
-|CalleeUserAgent  <br/> |nvarchar(256)  <br/> |呼び出し先のユーザー エージェント文字列です。  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |呼び出し先のユーザー エージェントの種類です。 [UserAgent テーブル](useragent.md)の詳細についてはを参照してください。 <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼び出し先のユーザー エージェントのカテゴリです。 詳細については、 [UserAgentDef テーブル (QoE)](useragentdef-qoe.md)を参照してください。 <br/> |
-|CallerURI  <br/> |nvarchar(450)  <br/> |呼び出し元の URI。  <br/> |
-|CalleeURI  <br/> |nvarchar(450)  <br/> |呼び出し先の URI。  <br/> |
-|CallPrioirty  <br/> |int  <br/> |呼び出しの優先順位です。  <br/> |
+|ConferenceDateTime  <br/> |datetime  <br/> |MediaLine テーブルから参照されます。  <br/> |
+|ConferenceURI  <br/> |nvarchar (450)  <br/> |会議の URI (会議の場合) または [この Id がピアツーピアセッションの場合] です。  <br/> |
+|関連性  <br/> |varchar (max)  <br/> |セッションの関連付け ID。  <br/> |
+|このカテゴリ  <br/> |bit  <br/> |ダイアログカテゴリ0は、Skype for Business Server と仲介サーバーの間の区間です。1は、PSTN ゲートウェイ区間への仲介サーバーです。  <br/> |
+|MediationServerBypassFlag  <br/> |bit  <br/> |通話がバイパスされたかどうかを示します。  <br/> |
+|Mediabypasswarnings フラグ  <br/> |int  <br/> |このフィールドは、バイパス Id が一致した場合でも、着信がバイパスされなかった理由を示します (存在する場合)。 Skype for Business Server では、1つの値のみが定義されます。  <br/> 0x0001-既定のネットワークアダプターの不明なバイパス ID  <br/> |
+|StartTime  <br/> |datetime  <br/> |通話開始時刻。  <br/> |
+|EndTime  <br/> |datetime  <br/> |通話終了時刻。  <br/> |
+|CallerPool  <br/> |nvarchar(256)  <br/> |発信者番号プールの FQDN。  <br/> |
+|CalleePool  <br/> |nvarchar(256)  <br/> |呼び出し元プールの FQDN。  <br/> |
+|CallerPAI  <br/> |nvarchar (450)  <br/> |呼び出し元の p がアサートされた id URI。  <br/> |
+|CalleePAI  <br/> |nvarchar (450)  <br/> |呼び出し先の p-アサートされた id URI。  <br/> |
+|CallerEndpoint  <br/> |nvarchar(256)  <br/> |発信者のエンドポイント名。  <br/> |
+|CalleeEndpoint  <br/> |nvarchar(256)  <br/> |発信者のエンドポイント名。  <br/> |
+|CallerUserAgent  <br/> |nvarchar(256)  <br/> |呼び出し元のユーザーエージェント文字列。  <br/> |
+|CallerUserAgentType  <br/> |smallint  <br/> |呼び出し元のユーザーエージェントの種類。 詳細については、 [UserAgent の表](useragent.md)を参照してください。 <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼び出し元のユーザーエージェントのカテゴリ。 詳しくは、 [Useragentdef テーブル (QoE)](useragentdef-qoe.md)をご覧ください。 <br/> |
+|CalleeUserAgent  <br/> |nvarchar(256)  <br/> |呼び出し先のユーザーエージェント文字列。  <br/> |
+|CalleeUserAgentType  <br/> |smallint  <br/> |呼び出し先のユーザーエージェントの種類。 詳細については、 [UserAgent の表](useragent.md)を参照してください。 <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼び出し先のユーザーエージェントカテゴリ。 詳しくは、 [Useragentdef テーブル (QoE)](useragentdef-qoe.md)をご覧ください。 <br/> |
+|CallerURI  <br/> |nvarchar (450)  <br/> |発信者の URI。  <br/> |
+|CalleeURI  <br/> |nvarchar (450)  <br/> |呼び出し先の URI。  <br/> |
+|通話  <br/> |int  <br/> |通話の優先度。  <br/> |
    
 

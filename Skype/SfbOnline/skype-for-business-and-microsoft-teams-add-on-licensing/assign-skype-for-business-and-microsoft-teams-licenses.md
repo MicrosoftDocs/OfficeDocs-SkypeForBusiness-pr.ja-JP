@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,42 +20,42 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '電話システム、電話会議、通話プランやコミュニケーション クレジットを使用するために Skype for Business  のライセンスを割り当てる方法について説明します。 '
-ms.openlocfilehash: e81c4c4d2fc11202ac114912ca309d93b00f2062
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96f2805a031ab122dce0fc354da4a4e60dbded32
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226122"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301270"
 ---
 # <a name="assign-skype-for-business-licenses"></a>ユーザーに会議 ID を割り当てる
 
-This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
+この記事では、電話会議、電話システム、通話プランなどの機能のライセンスをユーザーに割り当てる方法について説明します。 また、ライセンスを一括で割り当てるスクリプトも提供します。
 
 > [!IMPORTANT]
-> オーディオ会議、フリー ダイヤル番号、および外部の電話番号を呼び出すこと、ユーザーが取得するためについてどのようなライセンスを購入する必要があり、**購入する方法**に、Office 365 によって計画・ [Skype ビジネス アドオン ライセンス](skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。お客様のビジネスです。
+> 購入する必要のあるライセンスと**購入方法**については、「 [Skype for business アドオンライセンス](skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。 Office 365 プランに応じて、電話会議、無料電話番号、電話番号への発信機能を利用できるようになります。ビジネス。
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>電話システムと通話プラン: ライセンス割り当てのヒントとスクリプト
 
-オーディオ会議、電話システム、および計画を呼び出してライセンスを割り当てる前に知っておく必要があります。
+電話会議、電話システム、通話プランのライセンスを割り当てる前に知っておくべきこと
 
 - **ハイブリッド ユーザー向けにオンプレミス PSTN 接続を使用している場合** 、 **電話システム**のライセンスのみをユーザーに割り当てる必要があります。通話プランを割り当てる必要は **ありません** 。
 
-- **Latency after assigning licenses**: Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If after 24 hours the user isn't assigned a Calling Plan, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **ライセンス割り当て後の遅延**: Office 365 と Skype for Business Online の間に遅延時間があるため、ユーザーにライセンスを割り当てた後、そのユーザーに通話プランが割り当てられるまでに、最大で 24 時間かかる可能性があります。 24時間後にユーザーに通話プランが割り当てられていない場合は、「一般[法人向け製品サポートへのお問い合わせ-管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」を参照してください。
 
 - **エラー メッセージ**: 正確な数のライセンスを購入していないとエラー メッセージが表示されます。追加の通話プランのライセンスを購入する必要がある場合は、[ **追加購入**] を選びます。
     
-- **Next steps**: After you assign Calling Plan licenses to your users, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+- **次の手順**: ユーザーに通話プランのライセンスを割り当てたら、組織用に電話番号を取得し、それらの番号を組織内のユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](/microsoftteams/set-up-calling-plans)」をご覧ください。
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>電話システムおよび通話プランのライセンスを 1 人のユーザーに対して割り当てる方法
 
-手順は Office 365 ライセンスを割り当てる場合と同じです。「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
+手順は Office 365 ライセンスを割り当てる場合と同じです。 「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
 
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>電話システムおよび通話プランのライセンスを一括で割り当てる方法
 
-1. Install the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW**. Don't have the module installed? See [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=625123) to download it.
+1. **IT プロフェッショナル向け Microsoft Online Service サインインアシスタントプロフェッショナル用 rtwhttp://go.microsoft.com/fwlink/?linkid=625123 を**インストールします。 このモジュールがインストールされていない場合は、 [IT プロフェッショナル用 Microsoft Online Services サインイン アシスタント RTW](https://go.microsoft.com/fwlink/?LinkId=625123) を参照してダウンロードしてください。
 
-2. Install the **Windows Azure Active Directory Module.** Don't have the module installed? See [Manage Azure AD using Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) for download instructions and cmdlet syntax.
+2. **Windows Azure Active Directory モジュールをインストールします。** このモジュールがインストールされていない場合は、 ダウンロード手順とコマンドレットの構文については、「 [Windows PowerShell を使用した AZURE AD の管理](https://go.microsoft.com/fwlink/p/?LinkId=320628)」を参照してください。
 
 3. モジュールをインストールしたら、Windows PowerShell のコマンド プロンプトと次の構文を使って、ライセンスをユーザーに割り当てます。
 
@@ -116,7 +116,7 @@ This article gives you tips about assigning licenses to your users for features 
 
 - **サードパーティの電話会議プロバイダー**: サードパーティの電話会議プロバイダーを使用するように他のユーザーによって既に設定されている場合に、 **電話会議**ライセンスを割り当てると、電話会議プロバイダーとして Microsoft を使用するように変更されます。この設定を変更して、サードパーティ プロバイダーに戻すことができます。
 
-- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider].
+- 次の手順:**電話会議**ライセンスを割り当てると、電話会議プロバイダーを割り当てる必要があります。 [Microsoft を電話会議プロバイダーとして割り当てる]を参照してください。
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>電話会議ライセンスを 1 人のユーザーに対して割り当てる方法
 
@@ -130,7 +130,7 @@ This article gives you tips about assigning licenses to your users for features 
 
     モジュールをインストールしたら、Windows PowerShell のコマンド プロンプトと次の構文を使って、ライセンスをユーザーに割り当てます。
 
-    The name of the licenses or product names in the script are listed in italics text. See [Audio Conferencing product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) for all of the product names.
+    スクリプト内のライセンスまたは製品名は、斜体で表示されています。 すべての製品名の[スクリプトに使用されている電話会議の製品名または sku](assign-skype-for-business-and-microsoft-teams-licenses.md#sku)を参照してください。
 
     この例では、Enterprise E3 ライセンスと電話会議ライセンスを割り当てています。
 
@@ -185,17 +185,17 @@ foreach ($user in $users)
 
 ### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>通信クレジットのライセンス割り当て前に知っておくべき情報
 
-- **E5 のエンタープライズのお客様**: ユーザーがエンタープライズ E5 のライセンスを割り当てられている場合でもをお勧めするユーザーを割り当てる**通信のクレジット**のライセンスです。
+- **Enterprise e5 のお客様**: ユーザーに enterprise e5 ライセンスが割り当てられている場合でも、**通信クレジット**のライセンスを割り当てることをお勧めします。
     
-- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+- **次のステップ**: これらのライセンスを割り当てたら、組織用に電話番号を取得し、それらの番号を組織内のユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](/microsoftteams/set-up-calling-plans)」をご覧ください。
     
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>通信クレジットのライセンスを 1 人のユーザーに対して割り当てる方法
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+手順は Office 365 ライセンスを割り当てる場合と同じです。 「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
 
-### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>大量の通信のクレジットのライセンスを割り当てる方法
+### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>通信クレジットのライセンスを一括で割り当てる方法
 
-Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
+**電話会議**ライセンスを割り当てるサンプル スクリプトを確認します。 その情報を、 **通信クレジット**のライセンスを割り当てるための情報で更新します。
 
 ## <a name="related-topics"></a>関連トピック
   

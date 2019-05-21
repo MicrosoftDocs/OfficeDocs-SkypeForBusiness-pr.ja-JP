@@ -1,32 +1,32 @@
 ---
-title: ビジネス サーバー 2015 の Skype でデバイス ・ テーブル
+title: Skype for Business Server 2015 の Devices テーブル
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
-description: デバイス ・ テーブルは、関連テーブルです。 各レコードは、1 つのデバイス (机上電話) に関する情報を格納します。
-ms.openlocfilehash: efd0894a36e02948a3a8cd9f3465dcdbd30f3e2d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Devices テーブルは、サポートテーブルです。 各レコードには、1つのデバイス (卓上電話) に関する情報が格納されます。
+ms.openlocfilehash: 145637b6385677007efa47cd21b3f0ea7d7f88f2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901095"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296379"
 ---
-# <a name="devices-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype でデバイス ・ テーブル
+# <a name="devices-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の Devices テーブル
  
-デバイス ・ テーブルは、関連テーブルです。 各レコードは、1 つのデバイス (机上電話) に関する情報を格納します。
+Devices テーブルは、サポートテーブルです。 各レコードには、1つのデバイス (卓上電話) に関する情報が格納されます。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**DeviceId** <br/> |int  <br/> |Primary  <br/> |このハードウェアのバージョンを識別する一意の番号です。  <br/> |
-|**ManufacturerId** <br/> |int  <br/> |外部  <br/> |このデバイスの製造元です。 詳細については、 [Skype のビジネス サーバー 2015 の製造元テーブル](manufacturers.md)を参照してください。 <br/> |
-|**HardwareVersionId** <br/> |int  <br/> |外部  <br/> |このデバイスのハードウェア バージョンです。 詳細については、 [Skype のビジネス サーバー 2015 で HardwareVersions テーブル](hardwareversions.md)を参照してください。 <br/> |
-|**MacAddress** <br/> |bigint 型の値  <br/> ||MAC アドレス  <br/> |
+|**DeviceId** <br/> |int  <br/> |Primary  <br/> |このハードウェアバージョンを識別する一意の番号。  <br/> |
+|**Manufacturerid]** <br/> |int  <br/> |外部  <br/> |このデバイスの製造元。 詳細については、「 [Skype For Business Server 2015 の製造元の表](manufacturers.md)」を参照してください。 <br/> |
+|**ハードウェアの Versionid** <br/> |int  <br/> |外部  <br/> |このデバイスのハードウェアバージョン。 詳細については、「 [Skype For Business Server 2015 のハードウェアバージョン](hardwareversions.md)」の表を参照してください。 <br/> |
+|**MacAddress** <br/> |bigint  <br/> ||MAC アドレス  <br/> |
    
 

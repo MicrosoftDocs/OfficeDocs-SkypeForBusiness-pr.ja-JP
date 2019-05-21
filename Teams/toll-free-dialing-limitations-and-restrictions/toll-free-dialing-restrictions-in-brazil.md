@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,22 +22,22 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 070c8f226d84ac0e4cb0a1ca037f52a685651166
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
+ms.openlocfilehash: 112b259c479fd8ca74098753a93860070ebcee33
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204400"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300834"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>ブラジルでのフリーダイヤル制限
 
-[別の国または地域を検索する](../toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。
+[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。
 
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |はい  <br/> |
+|無料通話を利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 0800-891-XXXX <br/>  0800 XXX XXXX <br/> |
 |国/地域の ISO コード  <br/> |BR  <br/> |
 |対象となる島/地域  <br/> |該当しない  <br/> |

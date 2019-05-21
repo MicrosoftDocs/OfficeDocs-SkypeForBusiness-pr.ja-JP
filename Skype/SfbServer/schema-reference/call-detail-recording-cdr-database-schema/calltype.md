@@ -1,30 +1,30 @@
 ---
-title: ビジネス サーバー 2015 の Skype の CallType テーブル
+title: Skype for Business Server 2015 の CallType テーブル
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1d7187c-f851-4967-88ea-73922911ee7a
-description: CallType の表は、可能な呼び出しの種類の一覧を格納する静的なテーブルです。
-ms.openlocfilehash: a75ae3e22d435241e6bf2eb81b8268a7f1bb5a40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: CallType テーブルは、可能な呼び出しの種類の一覧を格納する静的テーブルです。
+ms.openlocfilehash: 992e5682aedf7a0b9063960992197970146c8cfc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924795"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296561"
 ---
-# <a name="calltype-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype の CallType テーブル
+# <a name="calltype-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の CallType テーブル
  
-CallType の表は、可能な呼び出しの種類の一覧を格納する静的なテーブルです。
+CallType テーブルは、可能な呼び出しの種類の一覧を格納する静的テーブルです。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**CallTypeId** <br/> |int  <br/> |Primary  <br/> ||
-|**CallType** <br/> |nvarchar  <br/> || 使用可能な値: <br/>  0 - 不明 <br/>  1-インスタント メッセージング <br/>  2 - アプリケーションの共有 <br/>  3-オーディオ <br/>  4-オーディオとビデオ <br/>  5-ファイル転送 <br/> |
+|**発信者の Typeid** <br/> |int  <br/> |Primary  <br/> ||
+|**CallType** <br/> |nvarchar  <br/> || 許可される値: <br/>  0--不明 <br/>  1-インスタントメッセージ (im) <br/>  2--アプリケーション共有 <br/>  3--オーディオ <br/>  4-オーディオとビデオ <br/>  5-ファイル送信 <br/> |
    
 

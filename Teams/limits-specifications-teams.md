@@ -3,7 +3,7 @@ title: Microsoft Teams の制限事項と仕様
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2018
+ms.date: 05/07/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
@@ -15,20 +15,18 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 514348d0f861ae2bda4d146de4851f788b703444
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: 5c71b789684d6d40ab9eb67e0464f8dc46ae0e96
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33993865"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299682"
 ---
-<a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
-=============================================
+# <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
-この記事では、Teams に適用される制限、仕様、およびその他の要件について説明します。 
+この記事では、Teams に適用される制限、仕様、およびその他の要件について説明します。
 
-<a name="teams-and-channels"></a>Teams とチャネル 
-------------------
+## <a name="teams-and-channels"></a>Teams とチャネル 
 
 |機能    | 上限 |
 |-----------|---------------|
@@ -36,21 +34,23 @@ ms.locfileid: "33993865"
 |チームのメンバーの数 | 5,000       |
 |[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 5,000       |
 |グローバル管理者を作成できるチームの数        |  500,000   |
-|Office 365 テナントが持てるチームの数    | 500,000     |
-|チームごとのチャネル数    | 200 (削除されたチャネルを含む)         |
+|Office 365 テナントが持てるチームの数    | 500、000&sup2     |
+|チームごとのチャネル数    | 200 (削除されたチャンネルを含む) &sup3;         |
 
 &sup1; Azure Active Directory の任意のディレクトリ オブジェクトは、この制限にカウントされます。 グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
 
-<a name="meetings-and-calls"></a>会議と通話 
-------------------
+&sup2;この制限には、アーカイブされたチームが含まれます。
+
+&sup3; 削除されたチャンネルは、30日以内に復元できます。 30日以内に、削除されたチャネルは、チームの上限に対して200チャネルに対してカウントされ続けます。 30日が経過すると、削除されたチャネルとそのコンテンツは完全に削除され、チャネルはチームの制限に従って200チャネルにカウントされなくなります。
+
+## <a name="meetings-and-calls"></a>会議と通話 
 
 |機能     | 上限 |
 |------------|---------------|
 |会議に参加できるユーザー数  | 250    |
 |プライベート チャットに参加できるユーザー数  | 50    |
 
-<a name="storage"></a>ストレージ
--------
+## <a name="storage"></a>ストレージ
 
 Microsoft Teams の各チームには SharePoint Online にチーム サイトがあり、チーム内の各チャネルには既定のチーム サイト ドキュメント ライブラリが作成されます。会話内で共有したファイルはドキュメント ライブラリに自動的に格納されます。SharePoint で設定した権限やファイル セキュリティ オプションは Teams 内で自動的に反映されます。
 
@@ -70,8 +70,7 @@ Teams の各 [ファイル] タブは SharePoint Online をバックエンドで
 
 詳細については、「[SharePoint Online の制限事項](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)」を参照してください。
 
-<a name="messaging"></a>メッセージング 
----------
+## <a name="messaging"></a>メッセージング 
 
 Microsoft Teams のチャット リストの一部である会話に参加したユーザーが、管理者がチャットの会話を検索するための Exchange Online (クラウドベース) メールボックスを持っている必要があります。 これは、チャット リストの一部である会話が、チャット参加者のクラウドベースのメールボックスに保存されるためです。 チャット参加者が Exchange Online メールボックスを持っていない場合、管理者はチャットの会話を検索または保留することはできません。 たとえば、Exchange ハイブリッド展開では、オンプレミスのメールボックスを持つユーザーは、Microsoft Teams のチャットリストの一部である会話に参加できる場合があります。 ただし、この例では、ユーザーがクラウド ベースのメールボックスを持っていないために、これらの会話のコンテンツを検索できないし、保留することもできません。 (詳しくは、[Exchange と Microsoft Teams の連携](exchange-teams-interact.md)をご確認ください。)
 
@@ -80,7 +79,7 @@ Microsoft Teams チャット機能は、Microsoft Exchange のバックエンド
 |機能  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
 |メッセージ サイズの制限&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|添付ファイルの制限&Dagger;  |10     |10     |10     |10    |
+|添付ファイルの制限&Dagger;  |常用     |常用     |常用     |常用    |
 |インライン イメージの制限&Dagger; |50   |50   |50   |50   |
 
 &dagger; メッセージがこの制限を超えると、プレビュー メッセージが生成され、ユーザーは提供されたリンクから元のメールを表示/ダウンロードするように求められます。
@@ -88,18 +87,14 @@ Microsoft Teams チャット機能は、Microsoft Exchange のバックエンド
 &Dagger; 添付ファイルまたはイメージの数がこの制限を超えると、メッセージは処理されず、NDR メールが送信者に送信され、エラーを通知します。
 
 > [!NOTE]
-> メッセージ サイズ、添付ファイル、およびインライン イメージの制限すべての Office 365 のライセンスで同じですが。
+> メッセージサイズ、添付ファイル、インライン画像の制限は、すべての Office 365 ライセンスで同じです。
 
 詳細については、[「 Exchange Online の制限 」](https://technet.microsoft.com/library/exchange-online-limits.aspx)をご覧ください。
 
-<a name="browsers"></a>ブラウザー 
---------
+## <a name="browsers"></a>ブラウザー
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-<a name="operating-systems"></a>オペレーティング システム
------------------
+## <a name="operating-systems"></a>オペレーティング システム
 
 各オペレーティング システムの要件については、「[Microsoft Teams のクライアントを取得する](get-clients.md)」をご覧ください。
-
-

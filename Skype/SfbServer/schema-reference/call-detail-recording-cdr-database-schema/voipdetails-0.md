@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/15/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
-description: レコードは、ユーザーが少なくとも 1 つ 1 つの 2 パーティ呼び出しは VoIP ユーザーを各です。
-ms.openlocfilehash: e29cfe19ec8c478215c8dd011a8479de5e18c18c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 各レコードは、少なくとも1人のユーザーが VoIP ユーザーである 1 2 パーティーの通話を表します。
+ms.openlocfilehash: 7f0be2fb2f14e34cbe989d5912db1f66d3d65d18
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929960"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295679"
 ---
 # <a name="voipdetails-table"></a>VoipDetails テーブル
  
-レコードは、ユーザーが少なくとも 1 つ 1 つの 2 パーティ呼び出しは VoIP ユーザーを各です。
+各レコードは、少なくとも1人のユーザーが VoIP ユーザーである 1 2 パーティーの通話を表します。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |セッションの要求の時間です。 セッションを一意に識別するのには**SessionIdSeq**と組み合わせてを使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |セッションを識別する ID 番号。 セッションを一意に識別するのには**SessionIdTime**と組み合わせてを使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
-|**FromNumberId** <br/> |int  <br/> |外部  <br/> |呼び出し元の**PhoneId**にします。 詳細については[電話の表](phones.md)を参照してください。 NULL されず、 **FromGatewayId**が NULL でない場合、呼び出し元は、PSTN のユーザーをしました。 <br/> |
-|**ConnectedNumberId** <br/> |int  <br/> |外部  <br/> |呼び出しの受信機の**PhoneId**にします。 詳細については[電話の表](phones.md)を参照してください。 NULL されず、 **ToGatewayId**が NULL でない場合、電話の受信側は、PSTN のユーザーをしました。 <br/> |
-|**FromMediationServerId** <br/> |int  <br/> |外部  <br/> |仲介サーバーは、呼び出しが行われるからです。 詳細については、 [MediationServers テーブル](mediationservers.md)を参照してください。 <br/> |
-|**ToMediationServerId** <br/> |int  <br/> |外部  <br/> |呼ばれる仲介サーバーになります。 詳細については、 [MediationServers テーブル](mediationservers.md)を参照してください。 <br/> |
-|**FromGatewayId** <br/> |int  <br/> |外部  <br/> |ゲートウェイの呼び出しに由来しています。 詳細については、 [Skype のビジネス サーバー 2015 のゲートウェイのテーブル](gateways.md)を参照してください。 <br/> |
-|**ToGatewayId** <br/> |int  <br/> |外部  <br/> |ゲートウェイの呼び出しになります。 詳細については、 [Skype のビジネス サーバー 2015 のゲートウェイのテーブル](gateways.md)を参照してください。 <br/> |
-|**DisconnectedbyURIId** <br/> |int  <br/> |外部  <br/> |ユーザーの URI の場合、呼び出しを切断したユーザーの URI。 詳細については[「ユーザー」テーブル](users.md)を参照してください。 <br/> |
-|**DisconnectedbyPhoneId** <br/> |int  <br/> |外部  <br/> |電話呼び出しを切断するの ID は、携帯電話から切断されました。 詳細については[電話の表](phones.md)を参照してください。 <br/> |
-|**LastModifiedTime** <br/> |日付時刻  <br/> ||監視サービスによって内部で使用します。  <br/> このフィールドは、ビジネス サーバー 2015 の Skype で導入されました。  <br/> |
+|**セッション Id** <br/> |datetime  <br/> |Primary  <br/> |セッション要求の時刻。 セッションを一意に識別するために**Sessionidseq**と組み合わせて使用されます。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |セッションを識別する ID 番号。 セッションを一意に識別するために**Sessionidtime**と組み合わせて使用されます。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
+|**Fromnumber Id** <br/> |int  <br/> |外部  <br/> |発信者の**PhoneId** 。 詳細については、「電話」の[表](phones.md)を参照してください。 Not NULL と**Fromgatewayid**が null でない場合は、発信者は PSTN ユーザーです。 <br/> |
+|**Connected番号 Id** <br/> |int  <br/> |外部  <br/> |通話受信者の**PhoneId** 。 詳細については、「電話」の[表](phones.md)を参照してください。 Not NULL と**Togatewayid**が null でない場合は、通話レシーバーは PSTN ユーザーでした。 <br/> |
+|**FromMediationServerId** <br/> |int  <br/> |外部  <br/> |通話が発信される仲介サーバー。 詳細については、 [Mediationservers テーブル](mediationservers.md)を参照してください。 <br/> |
+|**ToMediationServerId** <br/> |int  <br/> |外部  <br/> |仲介サーバーが呼び出されます。 詳細については、 [Mediationservers テーブル](mediationservers.md)を参照してください。 <br/> |
+|**FromGatewayId** <br/> |int  <br/> |外部  <br/> |ゲートウェイ通話の発信元です。 詳細については、「 [Skype For Business Server 2015 のゲートウェイの表](gateways.md)」を参照してください。 <br/> |
+|**ToGatewayId** <br/> |int  <br/> |外部  <br/> |通話の発信先のゲートウェイ。 詳細については、「 [Skype For Business Server 2015 のゲートウェイの表](gateways.md)」を参照してください。 <br/> |
+|**DisconnectedbyURIId** <br/> |int  <br/> |外部  <br/> |ユーザーが URI を持っている場合に、通話を切断したユーザーの URI。 詳細については、「ユーザー」の[表](users.md)を参照してください。 <br/> |
+|**DisconnectedbyPhoneId** <br/> |int  <br/> |外部  <br/> |通話を切断した電話の ID が電話から切断されました。 詳細については、「電話」の[表](phones.md)を参照してください。 <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||監視サービスで内部的に使用されます。  <br/> このフィールドは、Skype for Business Server 2015 で導入されました。  <br/> |
    
 

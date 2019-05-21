@@ -10,24 +10,24 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios.
-ms.openlocfilehash: b368c7d30e74225f7808f9f3728691040e75016f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for Business Online を使用すると、その他の外部アクセス ポリシーを作成できます。 複数な組み合わせを作成できるクライアントポリシーや会議ポリシーとは異なり、シナリオのほとんどをカバーできる 3 つの定義済み外部アクセス ポリシーがあります。
+ms.openlocfilehash: 0ffd39559e4bc45a7d70466d48fb9ae838660af9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237530"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297808"
 ---
 # <a name="create-custom-external-access-policies"></a>カスタム外部アクセス ポリシーを作成する
 
-Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios. These are:
+Skype for Business Online を使用すると、その他の外部アクセス ポリシーを作成できます。 複数な組み合わせを作成できるクライアントポリシーや会議ポリシーとは異なり、シナリオのほとんどをカバーできる 3 つの定義済み外部アクセス ポリシーがあります。 これらは：
   
 - フェデレーション アクセスまたは Skype 消費者アクセスなし (_タグ: NoFederationAndPIC_ )
     
@@ -35,9 +35,9 @@ Skype for Business Online allows you to create additional external access polici
     
 - フェデレーション アクセスと消費者アクセス (_FederationAndPICDefault_)
     
-Custom external policies allow you to create additional polices that aren't covered by the settings above. When the policy was created, you would be required to set all required parameters and you couldn't alter them later. Creating new custom policies allow you to control features such as Skype consumer access or a policy to disable public cloud audio/video, which is something that wasn't covered with predefined settings. Custom external access policies follow the same syntax as client, mobility, and conferencing policies. You can find out more about those settings [here](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+カスタム外部ポリシーを使用すると、上記の設定でカバーされない追加ポリシーを作成できます。 ポリシーを作成した時に、すべての必要なパラメーターを設定する必要があり、設定したパラメーターを後で変更することはできませんでした。 新しいカスタム ポリシーを作成すると、Skype 消費者アクセスなどの機能やパブリック クラウド オーディオ/ビデオを無効にするポリシーなどを管理できます。これは、定義済みの設定でサポートされていなかったものです。 カスタム外部アクセス ポリシーは、クライアントやモビリティ、会議のポリシーと同じ構文に従います。 これらの設定に関する詳細は、 [ここ](https://technet.microsoft.com/en-us/library/mt228132.aspx)からご覧いただけます。
   
-To make this work, the user must be using a supported version of 2016 Click-to-Run Skype for Business app that supports it. The following minimum version of Skype for Business 2016 Click-to-Run client is required:
+カスタム外部アクセス ポリシーを機能させるには、ユーザーは、そのポリシーに対応している 2016 クイック実行 Skype for Business アプリケーションのサポートされているバージョンを使用していなければなりません。 Skype for Business 2016 クイック実行クライアントの次の最小バージョンが必要です。
   
 |**型**|**リリース日**|**バージョン**|**ビルド**|
 |:-----|:-----|:-----|:-----|
@@ -52,7 +52,7 @@ To make this work, the user must be using a supported version of 2016 Click-to-R
 
 - **Windows PowerShell バージョン 3.0 以降を実行していることを確認する**
     
-1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
+1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
 2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
@@ -64,7 +64,7 @@ To make this work, the user must be using a supported version of 2016 Click-to-R
     
 - **Windows PowerShell セッションを開始する**
     
-1.  **[スタート] メニュー**の [ > **Windows PowerShell**]。
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
@@ -78,7 +78,7 @@ To make this work, the user must be using a supported version of 2016 Click-to-R
     Import-PSSession $session
    ```
 
-   Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
+   Windows PowerShell の起動の詳細については、「[単一の Windows powershell ウィンドウですべての Office 365 サービスに接続](https://technet.microsoft.com/EN-US/library/dn568015.aspx)する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>ユーザー独自の外部アクセス ポリシーを作成します。
 
@@ -96,7 +96,7 @@ To make this work, the user must be using a supported version of 2016 Click-to-R
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -108,14 +108,14 @@ To make this work, the user must be using a supported version of 2016 Click-to-R
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>関連トピック
-[ブロック ポイント ツー ポイントのファイルの転送](block-point-to-point-file-transfers.md)
+[ポイントツーポイントファイル転送をブロックする](block-point-to-point-file-transfers.md)
 
 [組織のクライアント ポリシーをセットアップする](set-up-client-policies-for-your-organization.md)
 
-[組織内の会議ポリシーを設定します](set-up-conferencing-policies-for-your-organization.md)
+[組織内の会議ポリシーをセットアップする](set-up-conferencing-policies-for-your-organization.md)
 
   
  

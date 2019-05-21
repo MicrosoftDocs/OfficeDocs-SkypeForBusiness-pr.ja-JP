@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 layout: LandingPage
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: マイクロソフト チームの会議室を展開し、システムを管理する方法を導入するための関連の考慮事項です。
-ms.openlocfilehash: 7a55b5ba8b682aed398daff1f373acba453110bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Microsoft Teams 室の展開に関する考慮事項、およびシステムの展開と管理の方法について考慮する必要があります。
+ms.openlocfilehash: d7b663e67905aee3cf235034ef2ba82eeaa98c9b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916388"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306543"
 ---
 <h2>Microsoft Teams Rooms</h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,9 +25,9 @@ ms.locfileid: "33916388"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Huddle の小さな領域から、豊富な共同作業によるチームの経験 that& #39 で大会議室に至るまでの会議スペース; s を使用して、展開、および管理を簡単に変換します。 </p>
-                        <p>ワンタッチ結合では、時間の会議を開始し、ルームと共有へのリモートの参加者に表示するプロジェクトの瞬時にします。 </p>
-                        <p>パートナーのいずれかから適切なシステム オーディオ ビデオ周辺機器を選択します: ロジクール社、Crestron、ポリコム、Lenovo、および HP。</p>
+                        <p>小規模の huddle 領域から大人数の会議室へ、豊富な共同作業によるチームエクスペリエンス that& # 39; 簡単に使用、展開、管理することができます。 </p>
+                        <p>ワンタッチ参加で会議を時間のみで開始します。次に、ルームの表示にすばやく project を使用して、リモートの参加者と共有します。 </p>
+                        <p>いずれかのパートナー (不在時、Logitech、Crestron、Polycom、Lenovo、HP) で、適切なシステムとオーディオビデオの周辺機器を選択します。</p>
                         <p></p>
                     </div>
                 </div>
@@ -106,9 +106,9 @@ ms.locfileid: "33916388"
 </ul>
 
 > [!NOTE]
-> マイクロソフト チームの会議室はマイクロソフトのチーム、ビジネス オンラインの Skype、Skype のビジネス サーバー 2019、またはビジネス サーバー 2015 の Skype での使用を目的としています。  <br><br>Lync Server 2013 のような以前のプラットフォームは、マイクロソフト チームの会議室を使用する必要もありません。
+> Microsoft Teams のルームは、Microsoft Teams、Skype for Business Online、Skype for Business Server 2019、または Skype for Business Server 2015 で使用することを目的としています。  <br><br>Lync Server 2013 などの以前のプラットフォームでは、Microsoft Teams のルームで動作することは想定されていません。
 
-これらの資料は、計画、展開、およびこれらのデバイスの管理を担当する人とシステムのユーザーのものです。 ユーザーは、マイクロソフト チームの会議室の[オンライン ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に関心ができます。
+これらの記事は、これらのデバイスの計画、展開、管理を担当するユーザーを対象としており、システムのユーザーには使用できません。 Microsoft Teams のルーム[オンラインヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)については、さらに詳しく説明します。
 
 > [!NOTE]
-> [Skype ルーム システム](../room-systems/lrs-migration.md)(以前 Lync ルーム システム) マイクロソフト チームの会議室は、さまざまな依存関係および展開の手順で別の製品とします。
+> [Skype Room System](../room-systems/lrs-migration.md)(旧 Lync Room System) と Microsoft Teams のルームは、依存関係と展開手順が異なるさまざまな製品です。

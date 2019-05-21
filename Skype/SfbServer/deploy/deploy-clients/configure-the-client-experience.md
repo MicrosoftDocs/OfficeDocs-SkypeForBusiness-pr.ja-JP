@@ -1,35 +1,35 @@
 ---
-title: ビジネス 2015年の Skype のクライアント エクスペリエンスを構成します。
+title: Skype for Business 2015 でクライアントエクスペリエンスを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
-description: '概要: は、Skype のビジネス ユーザー向けのクライアント エクスペリエンスを構成する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 65ca5592c3994cfcbb2703d22bc510a3b84b3507
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: このトピックでは、Skype for Business ユーザーのクライアントエクスペリエンスを構成する方法について説明します。'
+ms.openlocfilehash: bf6245b5b26875c7437990f09dd101ece01b1b47
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895392"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298285"
 ---
-# <a name="configure-the-client-experience-with-skype-for-business-2015"></a>ビジネス 2015年の Skype のクライアント エクスペリエンスを構成します。
+# <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Skype for Business 2015 でクライアントエクスペリエンスを構成する
  
-**の概要:** ビジネス 2015年ユーザー Skype のクライアント エクスペリエンスを構成する方法の詳細については、このトピックを参照してください。
+**概要:** このトピックでは、Skype for Business 2015 ユーザーのクライアントエクスペリエンスを構成する方法について説明します。
   
-ビジネス 2015年の Skype は、Skype のコンシューマー製品の経験に基づく新たなユーザー エクスペリエンスを提供します。 Lync のすべての機能、に加えては、ビジネス用の Skype は、簡略化されたコントロールと一般的なアイコンでの新機能を提供します。 新しいクライアント エクスペリエンスの詳細については、[ビジネス用の Skype の表示](https://go.microsoft.com/fwlink/?LinkId=529022)を参照してください。
+Skype for Business 2015 は、Skype コンシューマーの製品エクスペリエンスに基づいた新しいユーザーエクスペリエンスを提供します。 Skype for Business には、Lync のすべての機能に加えて、簡単なコントロールと使い慣れたアイコンが付いた新機能が用意されています。 新しいクライアントエクスペリエンスの詳細については、「 [Skype For business の紹介](https://go.microsoft.com/fwlink/?LinkId=529022)」を参照してください。
   
-ビジネス サーバーの Skype では、Lync クライアントの操作性だけでなく、クライアントの機能をビジネスの新しい Skype をサポートしています。 管理者は、ユーザー用に優先するクライアント エクスペリエンスを選択できます。 などの業務経験の新しい Skype で、組織内のユーザーがトレーニングを完全にするまでは、Lync クライアント エクスペリエンスを展開する可能性があります。 または、ないまだにアップグレードするすべてのユーザー Skype ビジネス サーバーは、場合すべてのユーザーに、すべてが新しいサーバーにアップグレードするまで同一のクライアントの経験があります。
+Skype for Business Server では、新しい Skype for Business クライアントエクスペリエンスと Lync クライアントエクスペリエンスがサポートされています。 管理者は、ユーザー用に優先するクライアント エクスペリエンスを選択できます。 たとえば、新しい Skype for Business のエクスペリエンスで組織内のユーザーが完全にトレーニングを受けられるまで、Lync クライアントエクスペリエンスを展開することができます。 または、すべてのユーザーを Skype for Business Server にアップグレードしていない場合は、すべてのユーザーが新しいサーバーにアップグレードされるまで、すべてのユーザーが同じクライアントエクスペリエンスを使用できるようにする必要があります。
   
 > [!IMPORTANT]
-> 組織ビジネス サーバーの両方の Skype には、Lync Server の展開、サーバーのバージョン、および UI の設定によって既定のクライアントの動作が異なります。 ユーザーは、最初にビジネス用の Skype を起動すると、Lync クライアント エクスペリエンスを選択した場合でも、Skype のビジネス ユーザー インターフェイスが表示されます常に。 数分後、ユーザーは、Lync のモードに切り替えるには求められます。 詳細については、このトピックの後半にある「**最初の起動クライアントの動作**」を参照してください。
+> 組織に Skype for Business Server と Lync Server の両方が展開されている場合、既定のクライアントエクスペリエンスはサーバーのバージョンと UI の設定によって異なります。 ユーザーが Skype for Business を初めて起動すると、Lync クライアントエクスペリエンスを選んだ場合でも、常に Skype for business のユーザーインターフェイスが表示されます。 数分後に、ユーザーは Lync モードに切り替えるように求められます。 詳細については、このトピックの後半にある「**最初の起動クライアントの動作**」を参照してください。
   
 > [!NOTE]
-> Lync 2013 クライアント エクスペリエンスは、Skype のビジネス 2016年のクライアント バージョンまたはそれ以降のオプションではありません。 Lync 2013 クライアントを使用するようにクライアント環境を構成する前に、クライアント バージョンを調べて、バージョンの先頭が 16 ではない (16.x.x.x などではない) ことを確認してください。 
+> Lync 2013 クライアントエクスペリエンスは、Skype for Business 2016 クライアントバージョン以降では使用できません。 Lync 2013 クライアントを使用するようにクライアント環境を構成する前に、クライアント バージョンを調べて、バージョンの先頭が 16 ではない (16.x.x.x などではない) ことを確認してください。 
   
 ## <a name="configure-the-client-experience"></a>クライアント エクスペリエンスの構成
 
@@ -41,27 +41,27 @@ Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
 
 上記の XdsIdentity は、グローバル ポリシーまたは名前付きサイト ポリシーを指します。
   
-次のコマンドは、グローバル ポリシーによって影響を受ける、組織のビジネス クライアント エクスペリエンスのすべてのユーザー用の Skype を選択 (サイトまたはユーザー固有のポリシー、グローバル ポリシーをオーバーライドすることを思い出してください)。 
+次のコマンドは、組織内のすべてのユーザーに対してグローバルポリシーの影響を受ける Skype for Business クライアントのエクスペリエンスを選択します (「サイトまたはユーザー固有のポリシーはグローバルポリシーを上書きします)」を選択します。 
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 ```
 
-次のコマンドは、グローバル ポリシーによって影響を受ける、組織内のすべてのユーザーの Lync クライアント エクスペリエンスを選択します。
+次のコマンドでは、組織内のすべてのユーザーに対して、グローバルポリシーの影響を受ける Lync クライアントエクスペリエンスが選択されます。
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 ```
 
-次のコマンドは、Redmond サイト内のすべてのユーザーに対してクライアント エクスペリエンスのビジネス用の Skype を選択します。
+次のコマンドは、Redmond サイト内のすべてのユーザーに対して Skype for Business クライアントエクスペリエンスを選択します。
   
 ```
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 ```
 
-組織内の特定のユーザーに対してクライアント エクスペリエンスを構成する場合は、**新規 CsClientPolicy**コマンドレットを使用して、新しいユーザー ポリシーを作成して特定のユーザーに**与える CsClientPolicy**を使用してポリシーを割り当てるコマンドレットです。
+組織内の特定のユーザーに対してクライアントエクスペリエンスを構成する場合は、**新しい**ユーザーポリシーを作成して、**グラント clientpolicy**を使用して特定のユーザーにポリシーを割り当てることができます。コマンドレット.
   
-たとえば、次のコマンドでは、新しいクライアント ポリシーでは、クライアント エクスペリエンスのビジネス用の Skype を選択するには、SalesClientUI が作成されます。
+たとえば、次のコマンドは、Skype for Business クライアントエクスペリエンスを選択する新しいクライアントポリシー、SalesClientUI を作成します。
   
 ```
 New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
@@ -75,11 +75,11 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 ## <a name="first-launch-client-behaviors"></a>最初の起動クライアントの動作
 
-既定では、ユーザーが最初に、ビジネス 2015年の Skype を起動するときに常に表示されます、Skype のビジネス ユーザー ・ インタ フェース - 示すように、EnableSkypeUI パラメーターの値を $False に設定して Lync クライアント エクスペリエンスを選択した場合でも先に。 起動から数分後に、Lync モードに切り替えるかどうかを確認するメッセージが表示されます。
+既定では、ユーザーが Skype for business 2015 を初めて起動したときに、以下のように、EnableSkypeUI パラメーターの値を $False に設定して、Lync クライアント環境を選択した場合でも、Skype for Business のユーザーインターフェイスが表示されます。先に。 起動から数分後に、Lync モードに切り替えるかどうかを確認するメッセージが表示されます。
   
 ユーザーが初めて Skype for Business クライアントを起動したときに、Lync ユーザー インターフェイスを表示したい場合は、クライアントを更新後に初めて開始する前に、以下の手順を行います。
   
-1. 確認の値`EnableSkypeUI`は前述のように使用しているポリシーで $False に設定します。
+1. 前に説明した`EnableSkypeUI`ように使用しているポリシーで、の値が $False に設定されていることを確認します。
     
 2. ユーザーのコンピューターで、システム レジストリを更新します。 レジストリの更新は、ユーザーが初めて Skype for Business クライアントを起動する前に 1 回だけ行う必要があります。 ドメインに参加しているコンピューターでレジストリを更新するグループ ポリシー オブジェクトを作成する方法については、このトピックの後半のセクションを参照してください。
     
@@ -101,7 +101,7 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>ようこそ画面のチュートリアルの表示を制御する
 
-ユーザーは、ビジネス クライアント用の Skype を開き、既定の動作は*7 つのクイック ヒントのほとんどの人に依頼*を含む [ようこそ] 画面を表示するのには。 You can turn off the display of the Welcome screen but still allow users to access the tutorial by adding the following Registry value on the client computer:
+ユーザーが Skype for Business クライアントを開くと、既定の動作では [ようこそ] 画面が表示されます。これには、*ほとんどのユーザーからの質問に対する7つのヒント*が含まれています。 You can turn off the display of the Welcome screen but still allow users to access the tutorial by adding the following Registry value on the client computer:
   
 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** キーに新しい [**DWORD (32 ビット) 値**] を作成します。[**値の名前**] に「**IsBasicTutorialSeenByUser**」と入力し、[**値のデータ**] を「**1**」に設定する必要があります。
   
@@ -125,41 +125,41 @@ Lync
   
 ## <a name="default-client-behaviors"></a>既定のクライアントの動作
 
-組織ビジネス サーバーの両方の Skype には、Lync Server の展開、クライアントの経験によって異なる場合がサーバーのバージョンと、Skype の UI 設定。 以下の表に、サーバー バージョンと UI 設定に基づく最初のクライアント エクスペリエンスを示します。
+組織に Skype for Business Server と Lync Server の両方が展開されている場合、クライアントのエクスペリエンスはサーバーのバージョンと Skype の UI の設定によって異なります。 以下の表に、サーバー バージョンと UI 設定に基づく最初のクライアント エクスペリエンスを示します。
   
 
 |**サーバー バージョン**|**EnableSkypeUI 設定**|**クライアント エクスペリエンス**|
 |:-----|:-----|:-----|
 |Skype for Business Server |既定  <br/> |Skype for Business  <br/> |
 |Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |False  <br/> |Lync モードに切り替えるには、ユーザーが求められます (ユーザーは、$true に、UI の設定を変更する場合に後で、ビジネスの Skype に切り替えることができます)  <br/> |
-|Lync Server 2010 または (修正) の Lync Server 2013  <br/> |既定  <br/> |Lync モードに切り替えるには、ユーザーが求められます (ユーザーは、$true に、UI の設定を変更する場合に後で、ビジネスの Skype に切り替えることができます)  <br/> |
-|Lync Server 2010 または (修正) の Lync Server 2013  <br/> |True  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 または (修正) の Lync Server 2013  <br/> |False  <br/> |Lync モードに切り替えるには、ユーザーが求められます (ユーザーは、$true に、UI の設定を変更する場合に後で、ビジネスの Skype に切り替えることができます)  <br/> |
-|Lync Server 2010 または (パッチ) せずに Lync Server 2013  <br/> |既定  <br/> |Lync モードに切り替えるには、ユーザーが求められます (ユーザーが後で、ビジネスの Skype に切り替えることはできません)  <br/> |
+|Skype for Business Server  |False  <br/> |ユーザーが Lync モードに切り替えるように求められた (UI 設定を $true) に変更した場合、ユーザーは後で Skype for Business に切り替えることができます。  <br/> |
+|Lync Server 2010 または Lync Server 2013 (適切な更新プログラムが適用されています)  <br/> |既定  <br/> |ユーザーが Lync モードに切り替えるように求められた (UI 設定を $true) に変更した場合、ユーザーは後で Skype for Business に切り替えることができます。  <br/> |
+|Lync Server 2010 または Lync Server 2013 (適切な更新プログラムが適用されています)  <br/> |True  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 または Lync Server 2013 (適切な更新プログラムが適用されています)  <br/> |False  <br/> |ユーザーが Lync モードに切り替えるように求められた (UI 設定を $true) に変更した場合、ユーザーは後で Skype for Business に切り替えることができます。  <br/> |
+|Lync Server 2010 または Lync Server 2013 (パッチなし)  <br/> |既定  <br/> |ユーザーが Lync モードに切り替えるように求められた (ユーザーは後で Skype for Business に切り替えることができません)  <br/> |
    
-次の表は、管理者には、Skype の UI の操作性の初期設定が変更されたときにクライアント エクスペリエンスを示しています。
+次の表は、管理者が Skype UI エクスペリエンスの初期設定を変更したときのクライアントエクスペリエンスを示しています。
   
 
-|**サーバー バージョン**|**EnableSkypeUI 設定**|**クライアント UI Lync を =**|**クライアント UI = Skype for Business**|
+|**サーバー バージョン**|**EnableSkypeUI 設定**|**クライアント UI = Lync**|**クライアント UI = Skype for Business**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server |True  <br/> |ユーザーが、ビジネスの Skype への切り替えしようとしています。  <br/> |Skype for Business  <br/> |
-|Skype for Business Server |False  <br/> |Lync モード  <br/> |ユーザーが、Lync のモードに切り替えるしようとしています。  <br/> |
-|Lync Server 2010 または (修正) の Lync Server 2013  <br/> |True  <br/> |ユーザーが、ビジネスの Skype への切り替えしようとしています。  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 または (修正) の Lync Server 2013  <br/> |False  <br/> |Lync モード  <br/> |ユーザーが、Lync のモードに切り替えるしようとしています。  <br/> |
-|Lync Server 2010 または (パッチ) せずに Lync Server 2013  <br/> |既定  <br/> |Lync のモード (ビジネス用の Skype に切り替えることはできません)  <br/> |Lync のモード (ビジネス用の Skype に切り替えることはできません)  <br/> |
+|Skype for Business Server |True  <br/> |Skype for Business に切り替えるように求められたユーザー  <br/> |Skype for Business  <br/> |
+|Skype for Business Server |False  <br/> |Lync モード  <br/> |Lync モードへの切り替えを求められたユーザー  <br/> |
+|Lync Server 2010 または Lync Server 2013 (適切な更新プログラムが適用されています)  <br/> |True  <br/> |Skype for Business に切り替えるように求められたユーザー  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 または Lync Server 2013 (適切な更新プログラムが適用されています)  <br/> |False  <br/> |Lync モード  <br/> |Lync モードへの切り替えを求められたユーザー  <br/> |
+|Lync Server 2010 または Lync Server 2013 (パッチなし)  <br/> |既定  <br/> |Lync モード (Skype for Business に切り替えることはできません)  <br/> |Lync モード (Skype for Business に切り替えることはできません)  <br/> |
    
-ビジネス クライアント用の Skype の設定を管理するために必要な修正プログラムのバージョンは次のとおりです。
+Skype for Business クライアントの構成を管理するために必要な更新プログラムのバージョンは次のとおりです。
   
-- Lync Server 2010 から Lync Server 2010 の累積的な更新 (4.0.7577.710) 年 2015年 2 月ことができます。 については、 [Lync Server 2010 用の更新プログラム](https://go.microsoft.com/fwlink/p/?LinkId=532771)を参照してください。
+- Lync Server 2010-Lync Server 2010 用の2015年2月の累積更新プログラム (4.0.7577.710)。 詳細については、「 [Lync Server 2010 の更新プログラム](https://go.microsoft.com/fwlink/p/?LinkId=532771)」を参照してください。
     
-- Lync Server 2013 の Lync Server 2013 年 2014年 12 月累積的な更新 (5.0.8308.857) ことができます。 については、 [Lync Server 2013 の更新プログラム](https://go.microsoft.com/fwlink/p/?LinkId=532772)を参照してください。
+- Lync Server 2013-Lync Server 2013 用に2014年12月の累積更新プログラム (5.0.8308.857)。 詳細については、「 [Lync Server 2013 の更新プログラム](https://go.microsoft.com/fwlink/p/?LinkId=532772)」を参照してください。
     
 ## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>ドメインに参加しているコンピューターのレジストリを変更するグループ ポリシー オブジェクトを作成する
 
-Lync クライアント エクスペリエンスの最初の起動時、ユーザー ビジネス 2015年クライアントの Skype を表示するレジストリの更新は 1 回だけ行う必要があります。 グループ ポリシー オブジェクト (GPO) を使ってレジストリを更新する場合は、値のデータを更新するのではなく、新しい値を作成するオブジェクトを定義する必要があります。 GPO を適用した場合、新しい値が存在しないと、その値が作成され、値のデータに 0 が設定されます。 
+ユーザーが Skype for Business 2015 クライアントを初めて起動したときに Lync クライアントエクスペリエンスを表示するためのレジストリ更新は、1回だけ実行する必要があります。 グループ ポリシー オブジェクト (GPO) を使ってレジストリを更新する場合は、値のデータを更新するのではなく、新しい値を作成するオブジェクトを定義する必要があります。 GPO を適用した場合、新しい値が存在しないと、その値が作成され、値のデータに 0 が設定されます。 
   
-次の手順では、Lync クライアント エクスペリエンスの最初の起動時、ユーザー ビジネス 2015年クライアントの Skype が表示されるようにレジストリを変更する方法について説明します。 この手順は、レジストリを更新して前述のようこそ画面のチュートリアルを無効にするためにも使用できます。
+次の手順では、ユーザーが Skype for Business 2015 クライアントを初めて起動したときに Lync クライアントエクスペリエンスが表示されるようにレジストリを変更する方法について説明します。 この手順は、レジストリを更新して前述のようこそ画面のチュートリアルを無効にするためにも使用できます。
   
 ### <a name="to-create-the-gpo"></a>GPO を作成するには
 

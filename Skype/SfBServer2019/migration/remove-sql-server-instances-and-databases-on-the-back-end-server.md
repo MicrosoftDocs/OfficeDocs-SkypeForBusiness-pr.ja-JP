@@ -4,23 +4,23 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Microsoft SQL Server データベースを削除して、インスタンスを実行しているサーバーを削除した後は、上、または別のデータベースを使用するサーバーを再構成した後に依存します。 現在の SQL Server を削除するか、古い、または使用できないデータベース表示されるように現在のサーバーを再構成すると、このトピックの手順を実行する必要があります。
-ms.openlocfilehash: 531d4c06daa7dacd2a616244c13207b3e79dca4c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 依存しているサーバーを削除した後、または別のデータベースを使用するようにサーバーを再構成した後、Microsoft SQL Server データベースとインスタンスを削除します。 このトピックでは、現在の SQL Server を廃止する場合、または現在のサーバーを再構成して、データベースが使用されていない、または利用できないようにする場合に、このトピックで説明する手順を実行する必要があります。
+ms.openlocfilehash: 2d0902293c675143609dd720cd33734edd538d87
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231505"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301119"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>バックエンド サーバー上の SQL Server インスタンスとデータベースの削除
 
-Microsoft SQL Server データベースを削除して、インスタンスを実行しているサーバーを削除した後は、上、または別のデータベースを使用するサーバーを再構成した後に依存します。 現在の SQL Server を削除するか、古い、または使用できないデータベース表示されるように現在のサーバーを再構成すると、このトピックの手順を実行する必要があります。
+依存しているサーバーを削除した後、または別のデータベースを使用するようにサーバーを再構成した後、Microsoft SQL Server データベースとインスタンスを削除します。 このトピックでは、現在の SQL Server を廃止する場合、または現在のサーバーを再構成して、データベースが使用されていない、または利用できないようにする場合に、このトピックで説明する手順を実行する必要があります。
   
-アーカイブ サーバーまたは監視サーバーのデータベースまたはインスタンスを削除するには、まず、サーバーの役割を削除する必要があります。 同様に、インスタンスまたはデータベースをフロント エンド プールを削除するにするには削除するか依存するサーバーの役割を再設定します。 これらの手順は、サーバーに配置されているデータベースまたは別のインスタンス間での違いを作成しません。 手順は、データベースのコロケーションの影響を受けません。
+アーカイブサーバーまたは監視サーバーのデータベースまたはインスタンスを削除するには、まずサーバーの役割を削除する必要があります。 同様に、フロントエンドプールのインスタンスまたはデータベースを削除するには、まず依存サーバーの役割を削除または再構成する必要があります。 これらの手順では、サーバーの併置されたデータベースと個別のインスタンスが区別されません。 プロシージャはデータベースの collocation の影響を受けません。
   
 ## <a name="in-this-section"></a>このセクションの内容
 

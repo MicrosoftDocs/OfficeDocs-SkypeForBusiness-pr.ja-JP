@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
-description: SessionCorrelation はテーブルをサポートします。 各レコードは、複数のセッションを関連付けるために使用される 1 つの CorrelationID を表します。
-ms.openlocfilehash: 4efd1aeba45fb12aee646c401f492450f375aa20
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: セッション相関関係テーブルは、サポートテーブルです。 各レコードは、複数のセッションを関連付けるために使用される1つの CorrelationID を表します。
+ms.openlocfilehash: 3c307b9542b9c1f37967a40ae63979d72e0504ae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907081"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294657"
 ---
 # <a name="sessioncorrelation-table"></a>SessionCorrelation テーブル
  
-SessionCorrelation はテーブルをサポートします。 各レコードは、複数のセッションを関連付けるために使用される 1 つの CorrelationID を表します。 
+セッション相関関係テーブルは、サポートテーブルです。 各レコードは、複数のセッションを関連付けるために使用される1つの CorrelationID を表します。 
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**チェックサム** <br/> |int  <br/> |||
-|**CorrelationKey** <br/> |int  <br/> |Primary  <br/> |この A を識別する一意の番号/V 会議サーバーです。  <br/> |
-|**CorrelationID** <br/> |nvarchar(256)  <br/> |一意  <br/> |関連付けられたセッションが同じ相関関係 ID をが  <br/> |
-|**NextUpdateTS** <br/> |datetime  <br/> | <br/> |内部でのみ使用します。  <br/> |
+|**サム** <br/> |int  <br/> |||
+|**CorrelationKey** <br/> |int  <br/> |Primary  <br/> |この A/V 会議サーバーを識別する一意の番号です。  <br/> |
+|**CorrelationID** <br/> |nvarchar(256)  <br/> |一意  <br/> |関連付けられているセッションは、関連付け ID が同じになります。  <br/> |
+|**Nextupdatupdat** <br/> |datetime  <br/> | <br/> |内部使用のみ。  <br/> |
    
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SharedComponentsScopeNode
@@ -12,28 +12,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 右クリックする共有コンポーネントに新規の共有コンポーネントを作成するか、トポロジ レベルのオプションにアクセスする、トポロジ ビルダーの階層ツリーです。
-ms.openlocfilehash: a5e29a9bf21829b4ce4f37216e1b0ba9505a9d1a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: トポロジビルダーの階層ツリーで共有コンポーネントを右クリックして、新しい共有コンポーネントを作成するか、または [トポロジレベル] オプションにアクセスします。
+ms.openlocfilehash: 6325eeff420b480e36fa36eb80ddc2e606b48cd5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912051"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303194"
 ---
 # <a name="shared-components-scope-node"></a>共有コンポーネント スコープ ノード
  
-右クリックする**共有コンポーネント**に新規の共有コンポーネントを作成するか、トポロジ レベルのオプションにアクセスする、トポロジ ビルダーの階層ツリーです。
+トポロジビルダーの階層ツリーで**共有コンポーネント**を右クリックして、新しい共有コンポーネントを作成するか、または [トポロジレベル] オプションにアクセスします。
   
 ![共有コンポーネント スコープ ノード](../../../media/Shared_Components_Scope_Node.jpg)
   
-新しいファイルストア、新しい IP ネットワーク アドレス、新しいオフィスの Web アプリケーション サーバー、新しい SQL Server ストア、または新しい樹幹を作成する**新規**を選択します。
+[**新規**] を選択して、新しい filestore、新しい IP/PSTN ゲートウェイ、新しい Office Web Apps サーバー、新しい SQL Server ストア、または新しいトランクを作成します。
   
 > [!NOTE]
-> これらのオプションのヘルプ トピックを参照してください。 
+> 各オプションのヘルプトピックを参照してください。 
   
 ![共有コンポーネント スコープ ノード](../../../media/Shared_Components_Scope_NodeB.jpg)
   
-新しいトポロジ ドキュメントを開くためのオプションをクリックする**トポロジ**を選択します。 文書を開く、既存のトポロジ、現在のトポロジを中央管理ストアからのダウンロード、現在構成されているデータベースの構成を作成するには、トポロジの現在のドキュメントを公開、データベースのインストールは現在のトポロジ ドキュメントのコピーの保存現在の展開または展開を削除するのには、Office 通信 Server 2007 の R2 をマージします。
+[**トポロジ**] を選択して、新しいトポロジドキュメントを開くためのオプションをクリックします。 既存のトポロジドキュメントを開き、中央管理ストアから現在のトポロジをダウンロードし、現在のトポロジドキュメントのコピーを保存し、現在のトポロジドキュメントを公開し、データベースをインストールして、現在構成されているデータベース構成を作成します。Office Communications Server 2007 R2 を現在の展開にマージするか、展開を削除します。
   
 ![共有コンポーネント スコープ ノード C](../../../media/Shared_Components_Scope_NodeC.jpg)
   

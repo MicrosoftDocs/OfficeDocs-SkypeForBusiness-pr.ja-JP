@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
-description: サブネット テーブルはサポート テーブルです。 各レコードは、ネットワーク構成設定で定義されている 1 つのサブネットを表します。
-ms.openlocfilehash: f659d73bbdd654365697a9f853fbb48162e1bba2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: サブネットの表はサポートテーブルです。 各レコードは、[ネットワーク構成] の設定で定義された1つのサブネットを表します。
+ms.openlocfilehash: 9f36c5e334e92caa8bf4a81a682b7737e8999b3c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907067"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294636"
 ---
 # <a name="subnet-table"></a>Subnet テーブル
  
-サブネット テーブルはサポート テーブルです。 各レコードは、ネットワーク構成設定で定義されている 1 つのサブネットを表します。
+サブネットの表はサポートテーブルです。 各レコードは、[ネットワーク構成] の設定で定義された1つのサブネットを表します。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**SubnetIP** <br/> |int  <br/> |プライマリ サーバーで、外部  <br/> |サブネット ip アドレスの整数表現。  <br/> |
-|**サブネット マスク** <br/> |int  <br/> ||サブネット マスク。  <br/> |
-|**UserSiteKey** <br/> |int  <br/> |外部  <br/> |[UserSite テーブル](usersite.md)から参照されています。  <br/> |
-|**SubnetDescription** <br/> |nvarchar(512)  <br/> ||サブネットの説明です。  <br/> |
+|**SubnetIP** <br/> |int  <br/> |プライマリ、外部  <br/> |サブネットの IP の整数表現。  <br/> |
+|**ネット** <br/> |int  <br/> ||サブネット マスク。  <br/> |
+|**UserSiteKey** <br/> |int  <br/> |外部  <br/> |[Usersite テーブル](usersite.md)から参照されます。  <br/> |
+|**サブネットの説明** <br/> |nvarchar (512)  <br/> ||サブネットの説明。  <br/> |
    
 

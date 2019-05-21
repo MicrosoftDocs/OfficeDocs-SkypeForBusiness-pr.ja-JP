@@ -5,99 +5,99 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
-description: 各レコードは、1 つのビデオ ストリームを表します。 通常、1 つのビデオ メディア ラインには、2 つのビデオ ストリームが含まれています。
-ms.openlocfilehash: 59d0d0979513dc016912d7f4482f740c4ceeccd8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 各レコードは1つのビデオストリームを表します。 1つのビデオメディアラインには通常、2つのビデオストリームが含まれています。
+ms.openlocfilehash: 678f8b14fb3746ddd50a83ebd68c3878237908e4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925258"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294524"
 ---
 # <a name="videostream-table"></a>VideoStream テーブル
  
-各レコードは、1 つのビデオ ストリームを表します。 通常、1 つのビデオ メディア ラインには、2 つのビデオ ストリームが含まれています。
+各レコードは1つのビデオストリームを表します。 1つのビデオメディアラインには通常、2つのビデオストリームが含まれています。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |R は、 [MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
-|**StreamID** <br/> |int  <br/> |Primary  <br/> |メディア ライン内で一意の ID。  <br/> |
-|**VideoPayloadDescription** <br/> |smallint  <br/> |外部、主  <br/> |ペイロードの説明です。 詳細については、 [PayloadDescription テーブル](payloaddescription.md)を参照してください。 <br/> |
-|**JitterInterArrival** <br/> |int  <br/> | <br/> |リアルタイム制御プロトコル (RTCP) 統計情報のネットワークの平均ジッター。  <br/> |
-|**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |ビデオ ・ セッション中に最大ネットワーク ジッター。  <br/> |
-|**RoundTrip** <br/> |int  <br/> | <br/> |RTCP の統計情報のラウンド トリップ時間です。  <br/> |
-|**RoundTripMax** <br/> |int  <br/> | <br/> |ビデオ ストリームの最大のラウンド トリップ時間です。  <br/> |
-|**PacketLossRate** <br/> |decimal(5,4)  <br/> | <br/> |呼び出し時に平均パケット損失の割合です。  <br/> |
-|**PacketLossRateMax** <br/> |decimal(5,4)  <br/> | <br/> |最大のパケット損失が呼び出し中に発生します。  <br/> |
-|**PacketUtilization** <br/> |int  <br/> | <br/> |(リアルタイム トランスポート プロトコル、RTP) は、ビデオ ストリームのパケット数です。  <br/> |
-|**BandwidthEst** <br/> |int  <br/> | <br/> |ビデオ ストリームの帯域幅を推定します。  <br/> |
-|**VideoResolution** <br/> |char (9)  <br/> | <br/> |ピクセルの幅をピクセル単位の高さを掛けた値でビデオの解像度です。 文字列として報告されます。  <br/> |
-|**VideoBitRateAvg** <br/> |int  <br/> | <br/> |ビデオ ストリームの平均ビット レートです。  <br/> |
-|**InboundVideoFrameRateAvg** <br/> |decimal(9,4)  <br/> | <br/> |ビデオのフレーム レートを受信します。  <br/> |
-|**OutboundVideoFrameRateAvg** <br/> |decimal(9,4)  <br/> | <br/> |ビデオのフレーム レートを送信します。  <br/> |
-|**VideoBitRateMax** <br/> |int  <br/> | <br/> |ビデオ ・ セッション中に最大のビデオ ビット レートです。  <br/> |
-|**VideoFrameLossRate** <br/> |decimal(9,4)  <br/> | <br/> |失われたビデオ フレームの合計の割合。  <br/> |
-|**VideoFEC** <br/> |bit  <br/> | <br/> |利用できません。  <br/> |
-|**VideoLocalFrameLossPercentageAvg** <br/> |decimal(9,4)  <br/> ||失われたビデオ フレームの合計の割合。  <br/> |
-|**CIFQualityRatio** <br/> |tinyint  <br/> ||一般的なインターチェンジ形式 (CIF) の解像度では、呼び出しの割合です。  <br/> |
-|**VGAQualityRatio** <br/> |tinyint  <br/> ||VGA 解像度では、呼び出しの割合です。  <br/> |
-|**HD720QualityRatio** <br/> |tinyint  <br/> ||HD720 の解像度では、呼び出しの割合です。  <br/> |
-|**NoneDropRatio** <br/> |tinyint  <br/> ||フレーム ドロップとの通話時間の割合です。  <br/> |
-|**BDropRatio** <br/> |tinyint  <br/> ||B フレームのドロップでの通話時間の割合です。  <br/> |
-|**BPDropRatio** <br/> |tinyint  <br/> ||BP フレームのドロップでの通話時間の割合です。  <br/> |
-|**BPSPDropRatio** <br/> |tinyint  <br/> ||BPSP フレームのドロップでの通話時間の割合です。  <br/> |
-|**BPSPIDropRatio** <br/> |tinyint  <br/> ||BPSPI フレームのドロップでの通話時間の割合です。  <br/> |
-|**受信** <br/> |bit  <br/> | <br/> |受信機側でのデータのストリームを受信するとします。  <br/> |
-|**発信** <br/> |bit  <br/> | <br/> |送信側のデータのストリームを受信するとします。  <br/> |
-|**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 は、ストリームの方向は、呼び出し元から呼び出し先を意味します。  <br/> 0 では、ストリームの方向は、呼び出し先から呼び出し元を表します。  <br/> |
-|**LossCongestionPercent** <br/> |float  <br/> ||損失輻輳状態にしたときの時間の割合を示します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**DelayCongestionPercent** <br/> |float  <br/> ||輻輳が原因でネットワーク パケットの遅延到着の呼び出しの割合を示します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**ContentionDetectedPercent** <br/> |float  <br/> ||ネットワーク リソースに対する呼び出しが競合する場合の時間の割合を示します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**BandwidthEstMin** <br/> |int  <br/> ||帯域幅の推定量の最小値は、呼び出し中に測定されます。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**BandwidthEstMax** <br/> |int  <br/> ||最大帯域幅の推定量は、呼び出し中に測定されます。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**BandwidthEstStdDev** <br/> |int  <br/> ||帯域幅の推定標準偏差は、呼び出し中に測定されます。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**BandwidthEstAvge** <br/> |int  <br/> ||平均帯域幅の推定量は、呼び出し中に測定されます。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**LowBandwidthForMultiview** <br/> |float  <br/> ||エンドポイントがネットワーク接続がマルチビュー ビデオをサポートしていないことを確認する呼び出しの割合です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RelativeOneWayTotal** <br/> |float  <br/> ||一方向の遅延時間の合計金額です。 相対的な一方向の遅延時間は、クライアントとサーバー間の遅延を測定します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RelativeOneWayAverage** <br/> |float  <br/> ||一方向の遅延時間の平均量。 相対的な一方向の遅延時間は、クライアントとサーバー間の遅延を測定します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RelativeOneWayMax** <br/> |float  <br/> ||一方向の遅延時間の最大数。 相対的な一方向の遅延時間は、クライアントとサーバー間の遅延を測定します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||合計の一方向のバースト発生数です。 「集中」の転送は、安定ではなく予期しない状態でのデータのフロー転送です。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |int  <br/> ||合計の一方向のバースト密度。 「集中」の転送は、安定ではなく予期しない状態でのデータのフロー転送です。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||合計の一方向のバーストの継続時間です。 「集中」の転送は、安定ではなく予期しない状態でのデータのフロー転送です。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||合計の一方向のギャップの発生数です。 「集中」の転送では、転送、安定したストリームではなく予期しない状態でのデータのフローギャップは、これらのバーストの間の遅延を指定します。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RelativeOneWayGapDensity** <br/> |float  <br/> ||合計の一方向のギャップ密度。 「集中」の転送では、転送、安定したストリームではなく予期しない状態でのデータのフローギャップは、これらのバーストの間の遅延を指定します。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RelativeOneWayGapDuration** <br/> |float  <br/> ||合計の一方向のギャップの期間です。 「集中」の転送では、転送、安定したストリームではなく予期しない状態でのデータのフローギャップは、これらのバーストの間の遅延を指定します。 このメトリックは、クライアントとサーバー間のデータ フローを測定します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**VideoPacketLossRate** <br/> |decimal(9,4)  <br/> ||レートが、ビデオのパケットが失われました。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**VideoAllocateBWAvg** <br/> |int  <br/> ||ビデオに割り当てられた帯域幅の平均量。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**SendCodecTypes** <br/> |smallint  <br/> |外部  <br/> |送信者によって使用されるビデオのコーデックの種類です。 詳細については、 [CodecDescription テーブル](codecdescription.md)を参照してください。 <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**SendResolutionWidth** <br/> |int  <br/> ||解像度の幅が、送信者によって使用されます。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**SendResolutionHeight** <br/> |int  <br/> ||送信者によって使用される解像度の高さです。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**SendFrameRateAverage** <br/> |float  <br/> ||送信者によって使用されるビデオのフレーム レートの伝送を平均します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**SendBitRateMaximum** <br/> |int  <br/> ||送信者の最大ビット レートです。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**SendBitRateAverage** <br/> |int  <br/> ||センダーの平均ビット レートです。  <br/> |
-|**SendVideoStreamsMax** <br/> |int  <br/> ||送信者によって使用されるビデオのストリームの最大数。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RecvCodecTypes** <br/> |smallint  <br/> |外部  <br/> |受信機で使用されるビデオのコード。 詳細については、 [CodecDescription テーブル](codecdescription.md)を参照してください。 <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RecvResolutionWidth** <br/> |int  <br/> ||受信機で使用されている解像度の幅です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RecvResolutionHeight** <br/> |int  <br/> ||受信機で使用されている解像度の高さです。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RecvFrameRateAverage** <br/> |float  <br/> ||平均のビデオのフレーム レートが受信側で使用します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RecvBitRateMaximum** <br/> |int  <br/> ||受信機の最大ビット レートです。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RecvBitRateAverage** <br/> |int  <br/> ||受信機の平均ビット レートです。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RecvVideoStreamsMax** <br/> |int  <br/> ||受信機のビデオ ストリームの最大です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RecvVideoStreamsMin** <br/> |int  <br/> ||受信機のビデオ ストリームの最小値です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**RecvVideoStreamsMode** <br/> |int  <br/> ||ビデオ モード (ギャラリーなど、1 つのストリーム) の受信機です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**VideoPostFECPLR** <br/> |float  <br/> ||パケット損失の割合が前方エラー修正を適用した後です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**DynamicCapabilityPercent** <br/> |float  <br/> ||動的な機能フラグがアクティブだった時間の割合。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**ResolutionMin** <br/> |char (9)  <br/> ||最小解像度は、呼び出し中に測定されます。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**LowBitRateCallPercent** <br/> |float  <br/> ||低ビット レートのしきい値 (70 キロ ビット/秒) 以下の呼び出しの割合です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**LowFrameRateCallPercent** <br/> |float  <br/> ||低フレーム レートのしきい値以下の呼び出しの割合 (7.5 秒あたりのフレームを受信)。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**LowResolutionCallPercent** <br/> |float  <br/> ||最低の解像度で発生した呼び出しの割合です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**DurationSeconds** <br/> |float  <br/> ||秒単位での長さです。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**IsAggregatedData** <br/> |bit  <br/> ||複数の呼び出しからのデータが集計されたかどうかを示します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されます。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |R は[MediaLine テーブル](medialine-0.md)から参照されます。  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されます。  <br/> |
+|**StreamID** <br/> |int  <br/> |Primary  <br/> |メディアライン内の一意の ID。  <br/> |
+|**VideoPayloadDescription** <br/> |smallint  <br/> |外来、プライマリ  <br/> |ペイロードの説明。 詳細については、 [PayloadDescription の表](payloaddescription.md)を参照してください。 <br/> |
+|**JitterInterArrival** <br/> |int  <br/> | <br/> |リアルタイム制御プロトコル (RTCP) の統計情報からの平均ネットワークジッター。  <br/> |
+|**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |ビデオセッション中の最大ネットワークジッター。  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |RTCP の統計情報からのラウンドトリップ時間。  <br/> |
+|**RoundTripMax** <br/> |int  <br/> | <br/> |ビデオストリームの最大ラウンドトリップ時間。  <br/> |
+|**PacketLossRate** <br/> |10進数 (5, 4)  <br/> | <br/> |通話中の平均パケット損失率。  <br/> |
+|**PacketLossRateMax** <br/> |10進数 (5, 4)  <br/> | <br/> |通話中に発生したパケット損失の上限。  <br/> |
+|**PacketUtilization** <br/> |int  <br/> | <br/> |ビデオストリームのパケット数 (リアルタイムトランスポートプロトコル、RTP)。  <br/> |
+|**BandwidthEst** <br/> |int  <br/> | <br/> |ビデオストリームの帯域幅推定。  <br/> |
+|**VideoResolution** <br/> |char (9)  <br/> | <br/> |ピクセル幅にピクセルの高さを掛けたビデオの解像度。 文字列として報告されます。  <br/> |
+|**VideoBitRateAvg** <br/> |int  <br/> | <br/> |ビデオストリームの平均ビットレート。  <br/> |
+|**InboundVideoFrameRateAvg** <br/> |10進数 (9, 4)  <br/> | <br/> |ビデオフレームレートが適用されました。  <br/> |
+|**OutboundVideoFrameRateAvg** <br/> |10進数 (9, 4)  <br/> | <br/> |送信されたビデオフレームレート。  <br/> |
+|**VideoBitRateMax** <br/> |int  <br/> | <br/> |ビデオセッション中の最大ビデオビットレート。  <br/> |
+|**VideoFrameLossRate** <br/> |10進数 (9, 4)  <br/> | <br/> |失われたビデオフレームの合計のパーセンテージ。  <br/> |
+|**VideoFEC** <br/> |bit  <br/> | <br/> |使用できません。  <br/> |
+|**ビデオ** <br/> |10進数 (9, 4)  <br/> ||失われたビデオフレームの合計のパーセンテージ。  <br/> |
+|**CIFQualityRatio** <br/> |tinyint  <br/> ||共通インターチェンジ形式 (CIF) の解像度での通話の割合。  <br/> |
+|**VGAQualityRatio** <br/> |tinyint  <br/> ||VGA 解像度での通話の割合。  <br/> |
+|**HD720QualityRatio** <br/> |tinyint  <br/> ||HD720 の解像度での通話の割合。  <br/> |
+|**NoneDropRatio** <br/> |tinyint  <br/> ||フレームドロップなしの通話時間の割合。  <br/> |
+|**Bスペック** <br/> |tinyint  <br/> ||B フレームドロップでの通話時間の割合。  <br/> |
+|**Bp・スペック** <br/> |tinyint  <br/> ||BP フレームドロップでの通話時間の割合。  <br/> |
+|**Bpsp・ bp** <br/> |tinyint  <br/> ||BPSP フレームドロップでの通話時間の割合。  <br/> |
+|**BPSPIDropRatio** <br/> |tinyint  <br/> ||BPSPI フレームドロップでの通話時間の割合。  <br/> |
+|**トラフィック** <br/> |bit  <br/> | <br/> |受信側のストリームデータが受信されます。  <br/> |
+|**発信** <br/> |bit  <br/> | <br/> |送信側のストリームデータが受信されます。  <br/> |
+|**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1ストリームの方向は、呼び出し元から呼び出し先へとなります。  <br/> 0は、ストリームの方向を呼び出し元から呼び出し元に転送します。  <br/> |
+|**LossCongestionPercent** <br/> |float  <br/> ||通話が切断された輻輳状態であった時間の割合を示します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**DelayCongestionPercent** <br/> |float  <br/> ||ネットワークパケットが遅延したために発生した、通話の割合を示します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**ContentionDetectedPercent** <br/> |float  <br/> ||通話がネットワークリソースに対して競合した時間の割合を示します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**BandwidthEstMin** <br/> |int  <br/> ||通話中の最小帯域幅推定値。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**BandwidthEstMax** <br/> |int  <br/> ||通話中に測定された帯域幅推定の最大量。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**BandwidthEstStdDev** <br/> |int  <br/> ||通話中に測定された帯域幅推定の標準偏差。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**BandwidthEstAvge** <br/> |int  <br/> ||通話中に計測された平均帯域幅推定量。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**LowBandwidthForMultiview** <br/> |float  <br/> ||エンドポイントが、ネットワーク接続が multiview ビデオをサポートしていないと判断した通話の割合。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RelativeOneWayTotal** <br/> |float  <br/> ||一方向の待機時間の合計。 相対的な一方向の待ち時間は、クライアントとサーバーの間の遅延を測定します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RelativeOneWayAverage** <br/> |float  <br/> ||一方向の待ち時間の平均値。 相対的な一方向の待ち時間は、クライアントとサーバーの間の遅延を測定します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RelativeOneWayMax** <br/> |float  <br/> ||一方向の待機時間の上限。 相対的な一方向の待ち時間は、クライアントとサーバーの間の遅延を測定します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||1方向のバースト発生の合計。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |int  <br/> ||全体的な1方向バースト密度。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||一方向のバースト期間の合計。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||一方向のギャップ出現の合計。 "Bursty" 伝送とは、安定したストリームではなく、予期しないバーストでデータが流れる伝送です。ギャップは、このようなバーストの間の遅延を示します。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RelativeOneWayGapDensity** <br/> |float  <br/> ||一方向のギャップの密度の合計。 "Bursty" 伝送とは、安定したストリームではなく、予期しないバーストでデータが流れる伝送です。ギャップは、このようなバーストの間の遅延を示します。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RelativeOneWayGapDuration** <br/> |float  <br/> ||一方向のギャップ期間の合計。 "Bursty" 伝送とは、安定したストリームではなく、予期しないバーストでデータが流れる伝送です。ギャップは、このようなバーストの間の遅延を示します。 このメトリックは、クライアントとサーバー間のデータフローを計測します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**パケット損失率** <br/> |10進数 (9, 4)  <br/> ||ビデオパケットが失われた速度。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**VideoAllocateBWAvg** <br/> |int  <br/> ||ビデオに割り当てられている平均帯域幅。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**SendCodecTypes** <br/> |smallint  <br/> |外部  <br/> |送信者が使用するビデオコーデックの種類。 詳細については、 [CodecDescription の表](codecdescription.md)を参照してください。 <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**Send解像度の幅** <br/> |int  <br/> ||送信者が使用した解像度の幅。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**Sendの解像度の高さ** <br/> |int  <br/> ||送信者が使用する解像度の高さ。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**SendFrameRateAverage** <br/> |float  <br/> ||送信者が使用した平均ビデオフレームレート送信。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**SendBitRateMaximum** <br/> |int  <br/> ||送信者の最大ビットレート。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**SendBitRateAverage** <br/> |int  <br/> ||送信者の平均ビットレート。  <br/> |
+|**SendVideoStreamsMax** <br/> |int  <br/> ||送信者が使用したビデオストリームの最大数。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RecvCodecTypes** <br/> |smallint  <br/> |外部  <br/> |受信者が使用するビデオコード。 詳細については、 [CodecDescription の表](codecdescription.md)を参照してください。 <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RecvResolutionWidth** <br/> |int  <br/> ||レシーバーで使用される解像度の幅。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RecvResolutionHeight** <br/> |int  <br/> ||受信者が使用する解像度の高さ。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**受信フレームレート** <br/> |float  <br/> ||受信者が使用した平均ビデオフレームレート。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RecvBitRateMaximum** <br/> |int  <br/> ||受信者の最大ビットレート。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RecvBitRateAverage** <br/> |int  <br/> ||受信者の平均ビットレート。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RecvVideoStreamsMax** <br/> |int  <br/> ||受信者の最大ビデオストリーム。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RecvVideoStreamsMin** <br/> |int  <br/> ||受信者の最小ビデオストリーム。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**RecvVideoStreamsMode** <br/> |int  <br/> ||受信者のビデオモード (たとえば、ギャラリーや単一ストリーム)。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**ビデオ plr** <br/> |float  <br/> ||転送後のエラー訂正が適用された後のパケット損失率。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**動的機能** <br/> |float  <br/> ||動的機能フラグがアクティブになった時間のパーセンテージ。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**解像度分** <br/> |char (9)  <br/> ||通話中に測定された最小解像度。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**LowBitRateCallPercent** <br/> |float  <br/> ||低ビットレートのしきい値 (70 kb/秒) 未満の通話のパーセンテージ。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**LowFrameRateCallPercent** <br/> |float  <br/> ||低フレームレートのしきい値を下回る通話の割合 (1 秒あたりの7.5 フレーム数)。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**低解像度** <br/> |float  <br/> ||最低の解像度で発生した通話の割合。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**DurationSeconds** <br/> |float  <br/> ||通話の長さ (秒単位)。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**IsAggregatedData** <br/> |bit  <br/> ||複数の通話からデータが集計されたかどうかを示します。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
    
 

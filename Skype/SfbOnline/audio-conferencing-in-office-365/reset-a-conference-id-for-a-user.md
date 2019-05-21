@@ -1,5 +1,5 @@
 ---
-title: ビジネス オンラインの Skype のユーザーの会議 ID をリセットします。
+title: Skype for Business Online のユーザーの会議 ID をリセットする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,36 +12,36 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'ユーザーをリセットする手順の Skype での会議 ID のビジネス オンラインでは、会議の会議出席依頼の更新と移行ツールへのリンクを取得するかを説明します。 '
-ms.openlocfilehash: 748664ec8e6584adcbcb0630147f1bcd60be9482
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Skype for Business Online でユーザーの会議 ID をリセットし、会議の更新と移行ツールへのリンクを取得する手順について説明します。 '
+ms.openlocfilehash: dd6d97400f5fdde9d1821f2843f1b48060b5886e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229273"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299108"
 ---
-# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>ビジネス オンラインの Skype のユーザーの会議 ID をリセットします。
+# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Skype for Business Online のユーザーの会議 ID をリセットする
 
 > [!NOTE]
 > Microsoft Teams で会議 ID をリセットする方法の詳細については、「 [Microsoft Teams でユーザーの会議 ID をリセットする](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams)」を参照してください。
 
-A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.
+動的な会議 ID は、発信者が会議にコールインするのに使用できるダイヤルイン番号と一緒に、会議出席依頼の下に含まれています。 ユーザーが電話番号をダイヤルするときに、発信者が会議に参加できるように、会議の自動応答は発信者にこの会議 ID の入力を求めます。
   
 > [!NOTE]
-> 会議プロバイダーがマイクロソフトの場合は、動的なだけに、ユーザーの会議 Id が設定されています。 これを変更することはできません。 会議 ID は、電話会議が有効にされる Skype for Business ユーザーにのみ自動的に設定されます。 
+> 会議プロバイダーが Microsoft の場合、ユーザーの会議 Id は [動的限定] に設定されます。 これは変更できません。 会議 ID は、電話会議が有効にされる Skype for Business ユーザーにのみ自動的に設定されます。 
 
-## <a name="resetting-the-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットします。
+## <a name="resetting-the-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットする
    
-1. **ビジネス管理センターの Skype**では、[**電話会議**] をクリックします > **ユーザー**ユーザーを選択し、し、[操作] ウィンドウの [**会議 ID** ] の [**リセット**] をクリックします。
+1. **Skype for business 管理センター**で、[電話**会議** > **ユーザー**] をクリックし、ユーザーを選択して、操作ウィンドウの [**電話会議 ID** ] で [**リセット**] をクリックします。
     
-2. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.
+2. [**会議 ID をリセットしますか?** ] ウィンドウで、[**はい**] をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、メールはユーザーに送信されますが、無効にすることもできます。
     
 > [!NOTE]
 > 会議 ID をリセットすると、新しい会議 ID を記載したメールがユーザーに送信されます。このメールはプライマリ メール アドレスに送信されます。ほとんどの場合は、Office 365 のメールボックスに送信されます。新しい会議 ID、既定のダイヤルイン電話番号、Skype for Business Meeting Update Tool を使って既存の会議を更新する方法がメールに記載されています。 
@@ -51,15 +51,15 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
-- You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info via email** for the user in the Action pane. It doesn't send the PIN.
+- 操作ウィンドウで [電話会議**情報をメールで送信**] をクリックすると、会議 ID、ダイヤルイン電話番号などのすべての会議情報をメールでユーザーに送信できます。 PIN は送信されません。
     
-- 会議 ID が 7 桁の数字を含めるし、ビジネス管理センターまたは Windows PowerShell を使用して、Skype では、その長さを変更することはできません。
+- 会議 ID には7桁の値が含まれ、Skype for Business 管理センターまたは Windows PowerShell を使用して、その長さを変更することはできません。
     
 - 会議 ID をリセットすると、新しい会議 ID が [ **電話会議 ID**] に一覧表示されます。
     
-- [**ユーザー** ] ページで、ユーザーを選択すると、**オーディオ会議**の下にある操作ウィンドウの下部にあるユーザーが電話会議の会議 ID を表示できます。
+- 電話会議用のユーザーの会議 ID は、[**ユーザー** ] ページでユーザーを選ぶと、操作ウィンドウの下部にある [電話**会議**] の下に表示されます。
     
-- After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see:
+- 新しい会議 ID が作成されると、古い会議 ID を使用してダイヤルインすることはできなくなります。 既存の会議の出席依頼のスケジュールを変更して、新しい会議 ID を出席依頼に追加するように、ユーザーに通知してください。 ユーザーは Skype for Business 会議ツールを使って、既存の会議を更新することができます。 Skype for Business 会議更新ツールのダウンロード、インストール、実行の方法については、以下を参照してください。
     
   - [Skype for Business Meeting Update Tool と Lync Meeting Update Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
@@ -81,7 +81,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>関連トピック
 

@@ -1,33 +1,33 @@
 ---
-title: (省略可能)ビジネス用の Skype のコール パーク展開を確認します。
+title: 省略Skype for Business のコールパークの展開を確認する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
-description: ビジネス サーバーのエンタープライズ VoIP の Skype のコール パークの展開を確認しています。
-ms.openlocfilehash: da53d351acef3eb2fc7fcc1b59e24a83d0cb2495
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice でのコールパークの展開を確認します。
+ms.openlocfilehash: 94d230491c0207c05016545de3c45cf0582ca496
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894669"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292844"
 ---
-# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(省略可能)ビジネス用の Skype のコール パーク展開を確認します。
+# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>省略Skype for Business のコールパークの展開を確認する
  
-ビジネス サーバーのエンタープライズ VoIP の Skype のコール パークの展開を確認しています。 
+Skype for Business Server Enterprise Voice でのコールパークの展開を確認します。 
   
-インストールし、コール パークを構成した後は、駐車場との呼び出しを取得するが、期待どおりに動作するかどうかを確認する構成を確認する必要があります。 少なくとも、以下を確認してください。
+コールパークのインストールと構成が完了したら、構成を確認して、パーキングと着信の取得が期待どおりに動作することを確認する必要があります。 少なくとも、以下を確認してください。
   
-- コール パークを有効になっているを持つユーザーを呼び出すし、ユーザーの公園の呼び出しがあります。
+- コールパークが有効になっていて、ユーザが通話をパークしているユーザに電話をかけます。
     
     > [!NOTE]
-    > 音声ポリシーでコール パークを有効に、このテストを実行する前に、ビジネス用の Skype からサインアウトして、再度サインイン、通話リストの転送では、コール パーク オプションを表示することができるようにする呼び出しは、駐車場ユーザー必要があります。 
+    > このテストを実行する前に、音声ポリシーでコールパークを有効にしている場合は、その通話を保留にしているユーザーが Skype for Business からサインアウトしてから、もう一度サインインすると、[着信の転送] リストの [通話パーク] オプションが表示されます。 
   
 - オービット番号をダイヤルして、電話を取ります。
     

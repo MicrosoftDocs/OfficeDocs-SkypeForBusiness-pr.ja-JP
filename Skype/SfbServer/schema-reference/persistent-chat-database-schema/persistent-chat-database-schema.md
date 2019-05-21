@@ -5,43 +5,43 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: これは、ビジネス サーバーの Skype で永続的なチャット データベースのスキーマについて説明します。
-ms.openlocfilehash: 5e10f47a7eeb04de08766bae2957773db35d88f0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: これは、Skype for Business Server の常設チャットデータベースのスキーマを文書化します。
+ms.openlocfilehash: 9a3e09a03f764f8866865e08259cbaac12a1c554
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930009"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295616"
 ---
 # <a name="persistent-chat-database-schema"></a>常設チャット データベースのスキーマ
  
-これは、ビジネス サーバーの Skype で永続的なチャット データベースのスキーマについて説明します。
+これは、Skype for Business Server の常設チャットデータベースのスキーマを文書化します。
   
-ビジネス サーバー バック エンド サーバーの役割 (mgc データベースに対応する) **PersistentChatStore**と**PersistentChatComplianceStore**の Skype に対応するデータベースを参照して、永続的なチャットのデータベース (に対応する、mgccomp データベースの場合)。 使用すると、クエリを作成して、チャットの使用方法、アクティブな会議室、トップの投稿者などの周りの便利なレポートを作成するいくつかの洞察を得るには、このスキーマを発行するための目標です。
+常設チャットデータベースは、Skype for Business Server のバックエンドサーバーの役割**PersistentChatStore** (行うデータベースに対応) と**PersistentChatComplianceStore**に対応しているデータベースを指します。・カンプデータベース)。 このスキーマを公開することは、お客様がクエリを作成して、チャットの利用状況、アクティブな会議室、トップ投稿などに関する有用なレポートを作成できるようにすることを目的としています。
   
 > [!IMPORTANT]
-> マイクロソフトは、このスキーマを拡張する権利を持ちます。 マイクロソフトでは、公開されたこのスキーマの完全な下位互換性を維持するために保証をことはありません。 
+> このスキーマを進化させる権利を留保します。 Microsoft は、この公開されたスキーマとの完全な下位互換性を維持する保証を行っていません。 
   
-これらのベスト プラクティスに従います。
+以下のベストプラクティスに従ってください。
   
-- なし] を選択\*//列] ボックスの一覧を拡張できるためにサポートされています。
+- 列リスト\*のサイズが大きくなる可能性があるため、SELECT//はサポートされません。
     
-- ユーザーによって生成されたスキーマの変更はサポートされていません。
+- ユーザーが生成したスキーマの変更はサポートされません。
     
 - 書き込み操作はサポートされていません。
     
-- お客様のニーズを満たすレベルでクエリを実行できることを確認するデータベースのサイズの representatively をビルドするすべてのクエリをテストします。
+- Representatively サイズのデータベースで作成したクエリをテストして、ニーズに合わせてクエリが確実に実行されることを確認します。
     
 ## <a name="in-this-section"></a>このセクションの内容
 
 - [常設チャット サーバーのテーブルのリスト](list-of-persistent-chat-server-tables.md)
     
-- [ビジネス サーバーの Skype での永続的なチャット サーバー コンプライアンス テーブルの一覧](list-of-persistent-chat-server-compliance-tables.md)
+- [Skype for Business Server の常設チャットサーバーのコンプライアンステーブルの一覧](list-of-persistent-chat-server-compliance-tables.md)
     
 - [常設チャット サーバー テーブルの詳細](persistent-chat-server-table-details.md)
     

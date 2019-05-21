@@ -1,30 +1,30 @@
 ---
-title: Skype ビジネス サーバー用のセキュリティ フレームワーク
+title: Skype for Business Server のセキュリティフレームワーク
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: このセクションでは、Skype のビジネス サーバーのセキュリティ フレームワークを形成する基本的な要素の概要を提供します。 これらの要素がどのように連携を理解することは、ビジネス サーバーの展開についての特定、Skype のセキュリティ保護に関する情報に基づいた決定を行う必要があります。
-ms.openlocfilehash: 2ffede0ab2e6dab012ee578f764b3f1ea3f42db6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このセクションでは、Skype for Business Server のセキュリティフレームワークを形成する基本的な要素の概要について説明します。 これらの要素がどのように連携するかを理解することは、特定の Skype for Business Server の展開をセキュリティで保護することに関する意思決定を行うために不可欠です。
+ms.openlocfilehash: 8b82b09a8220139abe62ac4503ad8a7eddc28e99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914129"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296876"
 ---
-# <a name="security-framework-for-skype-for-business-server"></a>Skype ビジネス サーバー用のセキュリティ フレームワーク
+# <a name="security-framework-for-skype-for-business-server"></a>Skype for Business Server のセキュリティフレームワーク
  
-このセクションでは、Skype のビジネス サーバーのセキュリティ フレームワークを形成する基本的な要素の概要を提供します。 これらの要素がどのように連携を理解することは、ビジネス サーバーの展開についての特定、Skype のセキュリティ保護に関する情報に基づいた決定を行う必要があります。
+このセクションでは、Skype for Business Server のセキュリティフレームワークを形成する基本的な要素の概要について説明します。 これらの要素がどのように連携するかを理解することは、特定の Skype for Business Server の展開をセキュリティで保護することに関する意思決定を行うために不可欠です。
   
 具体的な要素は次のとおりです。
   
-- Active Directory ドメイン サービス (AD DS) では、ユーザー アカウントとネットワーク リソースの 1 つの信頼されているバックエンド ・ リポジトリを提供します。
+- Active Directory ドメインサービス (AD DS) は、ユーザーアカウントとネットワークリソース用の1つの信頼されたバックエンドリポジトリを提供します。
     
 - 役割ベースのアクセス制御 (RBAC) を使用すると、高水準のセキュリティを維持しながら管理操作を委任できます。
     
@@ -34,26 +34,26 @@ ms.locfileid: "33914129"
     
 - ユーザーの認証には、業界標準のプロトコルができる限り使用されます。
     
-- Windows PowerShell には、ユーザーことはできませんか知らないうちに、簡単にスクリプトを実行するために既定で有効になっているセキュリティ機能が用意されています。
+- Windows PowerShell には既定で有効になっているセキュリティ機能が用意されているため、ユーザーは簡単にスクリプトを実行することはできません。
     
-Skype のビジネス サーバーのセキュリティで保護された基盤を確実に信頼できるユーザー、サーバー、接続、および操作を定義するのにはこれらの基本的なセキュリティ要素が連携して動作します。
+これらの基本的なセキュリティ要素は連携して、Skype for Business Server のセキュリティ保護された基盤を確保するのに役立つ、信頼されたユーザー、サーバー、接続、操作を定義します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-このセクションのトピックでは、ビジネスのサーバー インフラストラクチャを Skype のセキュリティを強化するためにこれらの基本的な要素の動作方法について説明します。
+このセクションのトピックでは、Skype for Business Server インフラストラクチャのセキュリティを強化するために、これらの各基本的な要素がどのように動作するかについて説明します。
   
-- [Skype ビジネス サーバーの active Directory ドメイン サービス](active-directory-domain-services.md)
+- [Skype for Business Server の Active Directory ドメインサービス](active-directory-domain-services.md)
     
-- [Skype ビジネス サーバーの役割に基づくアクセス制御 (RBAC)](role-based-access-control-rbac.md)
+- [Skype for Business Server の役割ベースのアクセス制御 (RBAC)](role-based-access-control-rbac.md)
     
-- [Skype ビジネス サーバーのための公開キー基盤](public-key-infrastructure-for-skype.md)
+- [Skype for Business Server の公開キー基盤](public-key-infrastructure-for-skype.md)
     
-- [TLS と Skype ビジネス サーバー用の MTLS](tls-and-mtls.md)
+- [Skype for Business Server の TLS と MTLS](tls-and-mtls.md)
     
-- [Skype のビジネス サーバー用の暗号化](encryption.md)
+- [Skype for Business Server の暗号化](encryption.md)
     
-- [ビジネス サーバーの Skype のユーザーとクライアントの認証](user-and-client-authentication.md)
+- [Skype for Business Server のユーザーとクライアントの認証](user-and-client-authentication.md)
     
-- [Windows PowerShell と Skype ビジネス サーバー管理ツールの](management-tools.md)
+- [Windows PowerShell と Skype for Business Server 管理ツール](management-tools.md)
     
 

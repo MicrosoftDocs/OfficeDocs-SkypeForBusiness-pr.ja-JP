@@ -1,26 +1,26 @@
 ---
-title: (省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。
+title: 省略Skype for Business で応答グループの休日セットを定義する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ休日セットを変更します。
-ms.openlocfilehash: d78eaeee9b447dfd0c9f4f7250b6f34aee298594
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice で回答グループの休日セットを作成または変更します。
+ms.openlocfilehash: cd277412a9cef2c474b8ba60459e216482f2d872
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894706"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304490"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>省略Skype for Business で応答グループの休日セットを定義する
  
-作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ休日セットを変更します。
+Skype for Business Server Enterprise Voice で回答グループの休日セットを作成または変更します。
   
 休日設定では、応答グループが営業しない日を定義し、その日に実行するアクションを指定します。休日セットは、応答グループに適用する休日のコレクションです。
   
@@ -55,8 +55,8 @@ ms.locfileid: "33894706"
 
 ## <a name="see-also"></a>関連項目
 
-[設計とビジネス用の Skype で応答グループ ワークフローを作成します。](designing-and-creating-response-group-workflows.md)
+[Skype for Business での応答グループワークフローの設計と作成](designing-and-creating-response-group-workflows.md)
 
-[新しい-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[新規-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
 [New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

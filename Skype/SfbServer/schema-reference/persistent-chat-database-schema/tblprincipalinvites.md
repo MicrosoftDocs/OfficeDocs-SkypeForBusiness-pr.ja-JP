@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: tblPrincipalInvites には、上のすべてのノードへの招待が自動的にプロビジョニングされたすべてのユーザーの招待状が含まれています。
-ms.openlocfilehash: 5008158dcb1c62c766162595d9bffe1875d56514
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipalInvites には、自動招待を含むすべてのノードのプロビジョニングされたすべてのユーザーの招待が含まれます。
+ms.openlocfilehash: 21344cfc34ce046a1dffdf7cd3ee9557da20a7ef
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924424"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295294"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
-tblPrincipalInvites には、上のすべてのノードへの招待が自動的にプロビジョニングされたすべてのユーザーの招待状が含まれています。
+tblPrincipalInvites には、自動招待を含むすべてのノードのプロビジョニングされたすべてのユーザーの招待が含まれます。
   
-**列**
+**行**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int 型、null でないです。  <br/> |プリンシパルの id。  <br/> |
-|invID  <br/> |int 型、null でないです。  <br/> |一意な連番 (プリンシパルの ID) ごと tblLastInviteId テーブルから生成します。  <br/> |
-|ノード  <br/> |int 型、null でないです。  <br/> |ノード ID (チャット ルーム)。  <br/> |
-|createdOn  <br/> |datetime では、null でないです。  <br/> |作成の時間です。  <br/> |
+|prinID  <br/> |int (null ではない)  <br/> |プリンシパル ID。  <br/> |
+|invID  <br/> |int (null ではない)  <br/> |TblLastInviteId テーブルから生成された一意の連続番号 (プリンシパル ID ごと)。  <br/> |
+|nodeID  <br/> |int (null ではない)  <br/> |ノード ID (チャットルームのみ)。  <br/> |
+|createdOn  <br/> |datetime。 null ではありません  <br/> |作成時刻。  <br/> |
    
-**キー**
+**機能**
 
 |**列**|**説明**|
 |:-----|:-----|
-|\<prinID、ノード\>  <br/> |プライマリ ・ キーです。  <br/> |
-|prinID  <br/> |TblPrincipal.prinID テーブル内の参照と外部キーです。  <br/> |
-|ノード  <br/> |TblNode.nodeID テーブル内の参照と外部キーです。  <br/> |
+|\<prinID、nodeID\>  <br/> |主キー。  <br/> |
+|prinID  <br/> |TblPrincipal Id テーブルで参照される外部キー。  <br/> |
+|nodeID  <br/> |TblNode テーブルで参照される外部キー。  <br/> |
    
 

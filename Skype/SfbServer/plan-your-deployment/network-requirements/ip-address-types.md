@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,29 +13,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: '概要: は、Skype をビジネスのサーバーを実装する前に以下の IP アドレス タイプの考慮事項を確認します。'
-ms.openlocfilehash: 3fb4c1eabd766026bdf2455b214f7849afe879ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server を実装する前に、次の IP アドレスの種類に関する考慮事項を確認してください。'
+ms.openlocfilehash: 21e6254255766874872a342a2316dc8cddd5f9d2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33923785"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297051"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Skype for Business での IP アドレスの種類の構成
 
-**の概要:** Skype をビジネスのサーバーを実装する前に以下の IP アドレス タイプの考慮事項を確認します。
+**概要:** Skype for Business Server を実装する前に、次の IP アドレスの種類に関する考慮事項を確認してください。
 
-IP アドレスの種類を展開するには、トポロジ ビルダーでトポロジ設定を使用します。 このセクションでは、フロント エンド サーバー、仲介サーバー、およびエッジ トランスポート サーバーの IP アドレスの種類を展開する方法について説明します。
+IP アドレスの種類を展開するには、トポロジビルダーで構成したトポロジ設定を使用します。 このセクションでは、フロントエンドサーバー、仲介サーバー、およびエッジサーバーに IP アドレスの種類を展開する方法について説明します。
 
 ## <a name="deploy-ip-address-types-on-a-front-end-server"></a>IP アドレス タイプをフロント エンド サーバーに展開する
 
-トポロジ ビルダーを使用すると、サーバーをフロント エンド サーバーの IP アドレスの種類を展開するのには次の手順で手順を実行します。
+トポロジビルダーを使用して、次の手順を実行して、フロントエンドサーバーに IP アドレスの種類を展開します。
 
 ### <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>IP アドレスの種類をフロントエンド サーバーに展開するには
 
 1. [**Enterprise Edition フロントエンドのプール**] で、プール内のサーバーを右クリックし、[**プロパティの編集**] を選択します (または、サーバーを選択し、[**アクション**] メニューの [**プロパティの編集**] をクリックします)。
 
-2. [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレスの種類を選択します。 デュアル ・ スタック構成では、**有効にする IPv4**と**IPv6 を有効にする**を選択します。
+2. [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレスの種類を選択します。 デュアルスタック構成の場合は、[ **IPv4 を有効に**し、 **IPv6 を有効**にする] を選択します。
 
    **フロントエンド サーバー プールの [プロパティの編集] ダイアログ ボックス**
 
@@ -51,15 +51,15 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
    - [**PSTN IP アドレス**]。フロントエンド サーバーで仲介サーバーが共存する場合は、PSTN IP アドレスを定義します。このアドレスは、選択されているアドレスの種類の形式に一致している必要があります。
 
 > [!NOTE]
-> インストールの追加のネットワーク インターフェイス カード (Nic) が PSTN の IP アドレスの構成をサポートするために (またはその他の何らかの理由で) フロント エンド サーバーではサポートされていません。 ビジネス サーバーの Skype のサポートされている NIC 構成の詳細については、 [Lync Server 2013 のサーバー ハードウェア プラットフォーム](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)を参照してください。
+> フロントエンドサーバーの PSTN IP アドレス構成 (またはその他の理由) をサポートするために、追加のネットワークインターフェイスカード (Nic) をインストールすることはサポートされていません。 Skype for Business Server でサポートされる NIC 構成の詳細については、「 [Lync server 2013 用のサーバーハードウェアプラットフォーム](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)」を参照してください。
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>仲介サーバーに IP アドレス タイプを展開する
 
-トポロジ ビルダーを使用すると、仲介サーバーの IP アドレスの種類を展開するのには次の手順で手順を実行します。
+トポロジビルダーを使用して、次の手順を実行して、仲介サーバーに IP アドレスの種類を展開します。
 
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>仲介サーバーに IP アドレスの種類を展開するには
 
-- トポロジ ビルダーで、[**仲介プール**プール内でサーバーを右クリックし、**プロパティの編集**] を選択します。 (または、サーバーを選択し、 **[操作**] メニューから **[プロパティの編集**] をクリックして)。
+- [トポロジビルダー] の [**仲介プール**] で、プール内のサーバーを右クリックし、[**プロパティの編集**] を選択します。 (または、サーバーを選択し、[**アクション**] メニューの [**プロパティの編集**] をクリックします)。
 
 - [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレスの種類を選択します。デュアル スタック構成の場合は、次の図のように、[**IPv4 を有効にする**] および [**IPv6 を有効にする**] を選択します。
 
@@ -76,21 +76,21 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
 
   - [**PSTN IP アドレス**]。フロントエンド サーバーで仲介サーバーが共存する場合は、PSTN IP アドレスを定義します。このアドレスは、選択されているアドレスの種類の形式に一致している必要があります。
 > [!IMPORTANT]
-> だけ*専用*仲介サーバーに 2 つのネットワーク カードがサポートします。 仲介サーバの役割がフロント エンドに併設されている場合は、2 つのネットワーク カードはサポートされていません。 
+> マイクロソフトでは、*専用*の仲介サーバー上の2つのネットワークカードのみをサポートしています。 仲介 Sserver の役割がフロントエンドに併置されている場合は、デュアルネットワークカードはサポートされません。 
 
 > [!NOTE]
-> - ビジネス サーバー 2015 の Skype のサポートされている NIC 構成の詳細については、[ビジネス サーバー 2015 の Skype のハードウェア](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)を参照してください。
-> - ビジネス サーバー 2019 の Skype のサポートされている NIC 構成の詳細については、[ビジネス サーバー 2019 の Skype のハードウェア](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)を参照してください。
+> - Skype for Business Server 2015 でサポートされる NIC 構成の詳細については、「Skype for business [server 2015 のハードウェア](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)」を参照してください。
+> - Skype for Business Server 2019 でサポートされる NIC 構成の詳細については、「Skype for business [server 2019 のハードウェア](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)」を参照してください。
 
 
 
 ## <a name="deploy-ip-address-types-on-an-edge-server"></a>IP アドレスの種類をエッジ サーバーに展開する
 
-トポロジ ビルダーを使用すると、次の手順に従います。
+トポロジビルダーを使用して、次の手順を実行します。
 
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>エッジ サーバー上に IP アドレスの種類を展開するには
 
-1. トポロジ ビルダーで、[**エッジ プール**、プール内でサーバーを右クリックし、**プロパティの編集**] を選択します。 (または、サーバーを選択し、 **[操作**] メニューから **[プロパティの編集**] をクリックして)。
+1. [トポロジビルダー] の [**エッジプール**] で、プール内のサーバーを右クリックし、[**プロパティの編集**] を選択します。 (または、サーバーを選択し、[**アクション**] メニューの [**プロパティの編集**] をクリックします)。
 
 2. [**プロパティの編集**] ウィンドウで、サポートする IP アドレス構成を選択します。
 

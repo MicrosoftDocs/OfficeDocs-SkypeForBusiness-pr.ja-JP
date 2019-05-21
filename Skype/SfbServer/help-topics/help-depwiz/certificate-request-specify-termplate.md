@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestTemplate
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: '[別の証明書テンプレートの指定] ページでは、既定で使用される WebServer 証明書テンプレート以外の証明書テンプレートを定義できます。 [選択された証明機関に別の証明書テンプレートを使用する] チェック ボックスをオンにしてから、[証明書テンプレート名] テキスト ボックスで別の証明書テンプレートの名前を定義します。 証明機関 (CA) で定義したのと同じテンプレート名を使用する必要があります。 前のページに戻るには、[戻る] をクリックします。 証明書要求プロセスを終了するには、[キャンセル] をクリックします。'
-ms.openlocfilehash: ea1563d41094a9bef0ad68a4d905de3bf4d376be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4b8e09f60745c10c7bed60a16d1aa2a8f892a75
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911080"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301947"
 ---
 # <a name="certificate-request-specify-termplate"></a>証明書要求 (テンプレートの指定)
  
