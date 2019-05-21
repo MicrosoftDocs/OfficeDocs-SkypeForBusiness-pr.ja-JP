@@ -1,36 +1,36 @@
 ---
-title: ビジネス サーバーの Skype で既存の PIN ポリシーを変更します。
+title: Skype for Business Server で既存の PIN ポリシーを変更する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-description: '概要: ビジネス サーバーの Skype で既存の PIN ポリシーを変更します。'
-ms.openlocfilehash: cc0ccc846e357ab85c7f2c00ae493e8b6ba8f456
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で既存の PIN ポリシーを変更します。'
+ms.openlocfilehash: 9aecd7fc48ce2893e1d8e603f7cdc369cde11ec3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919690"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289832"
 ---
-# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>ビジネス サーバーの Skype で既存の PIN ポリシーを変更します。
+# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Skype for Business Server で既存の PIN ポリシーを変更する
  
-**の概要:** ビジネス サーバーの Skype で既存の PIN ポリシーを変更します。
+**概要:** Skype for Business Server で既存の PIN ポリシーを変更します。
   
-ビジネス IP 電話の Skype に接続しているユーザーに個人識別番号 (PIN) 認証を提供するのには、[ **PIN ポリシー** ] タブを使用できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
+[ **Pin ポリシー** ] タブを使用して、IP 電話を使って Skype for business に接続しているユーザーに暗証番号 (pin) 認証を提供できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
   
 ユーザー レベルまたはサイト レベルの PIN ポリシーを変更するには、次の手順に従います。 
   
 ### <a name="to-modify-an-existing-pin-policy"></a>既存の PIN ポリシーを変更するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
+1.  RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Skype for Business Server を展開したネットワーク内のコンピューターにログオンします。.
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**PIN ポリシー**] をクリックします。
     

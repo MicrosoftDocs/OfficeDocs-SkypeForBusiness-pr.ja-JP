@@ -1,10 +1,10 @@
 ---
-title: ビジネス サーバーの Skype での個々 の SIP トランクに関する情報を表示
+title: Skype for Business Server の各 SIP trunks に関する情報を表示する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: '概要: は、Skype のビジネス サーバーの SIP トランクに関する情報を表示する方法を説明します。'
-ms.openlocfilehash: a7cf290bf245092e08babcaa86c642dd0f0a4265
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の SIP trunks に関する情報を表示する方法について説明します。'
+ms.openlocfilehash: a8cb5559b1431987adeef7c50b7810b7e9b4adc7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892238"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300917"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>ビジネス サーバーの Skype での個々 の SIP トランクに関する情報を表示
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Skype for Business Server の各 SIP trunks に関する情報を表示する
  
-**の概要:** Skype のビジネス サーバーの SIP トランクに関する情報を表示する方法について説明します。
+**概要:** Skype for Business Server の SIP trunks に関する情報を表示する方法について説明します。
   
-SIP トランクを使用して、Skype をビジネス サーバーの音声トラフィックの IP 電話ネットワークに、パブリック交換電話網 (PSTN) 経由で接続します。 以前のバージョンの製品では、トランクを使用して仲介サーバーから PSTN ゲートウェイに発信通話がルーティングされ、各ゲートウェイは 1 つのトランクに制限されていました。 その結果、PSTN ゲートウェイと SIP トランクは実質的に同一でした。 管理者にとって、このことは、関連付けられている PSTN ゲートウェイに関する情報を表示するだけで個々の SIP トランクに関する情報を表示できることを意味していました。
+SIP trunks は、Skype for Business Server のボイスオーバー IP 電話ネットワークと公衆交換電話網 (PSTN) を接続するために使用されます。 以前のバージョンの製品では、トランクを使用して仲介サーバーから PSTN ゲートウェイに発信通話がルーティングされ、各ゲートウェイは 1 つのトランクに制限されていました。 その結果、PSTN ゲートウェイと SIP トランクは実質的に同一でした。 管理者にとって、このことは、関連付けられている PSTN ゲートウェイに関する情報を表示するだけで個々の SIP トランクに関する情報を表示できることを意味していました。
   
-ビジネス サーバーの Skype でただし、複数のトランク今すぐに割り当て可能、1 つの PSTN ゲートウェイこれは、ゲートウェイとトランクに 1 つだけが不要になったことを意味します。 つまり、管理者が個々 の SIP トランクに関する情報を表示するために新しい[Get CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps)コマンドレットを使用する必要があります。
+ただし、Skype for Business Server では、複数の trunks を単一の PSTN ゲートウェイに割り当てることができるようになりました。これは、ゲートウェイと trunks が1つではなく、同じであることを意味します。 つまり、個々の SIP トランクに関する情報を表示するために、管理者は新しい[Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps)コマンドレットを使用する必要があります。
   
 ### <a name="to-view-information-for-all-your-sip-trunks"></a>すべての SIP トランクに関する情報の表示
 

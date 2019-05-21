@@ -5,51 +5,51 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
-description: tblPrincipal には、ユーザー、フォルダー、およびグループを含む、すべてのプリンシパルが含まれています。
-ms.openlocfilehash: 2c1b25cce9183a68a276dee6167052cdd068eecf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipal には、ユーザー、フォルダー、グループを含むすべてのプリンシパルが含まれています。
+ms.openlocfilehash: 5a0b6535ace344951b75f7c5c9488f56a18564ee
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929883"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295364"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
-tblPrincipal には、ユーザー、フォルダー、およびグループを含む、すべてのプリンシパルが含まれています。
+tblPrincipal には、ユーザー、フォルダー、グループを含むすべてのプリンシパルが含まれています。
   
-**列**
+**行**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int 型、null でないです。  <br/> |プリンシパルの id。  <br/> |
-|prinGuid  <br/> |GUID では、null でないです。  <br/> |主体の GUID です。 これは、広く使われて別の主キーとしての意味との交点上で Active Directory ドメイン サービスの領域にあるためです。 (キャッシュされているプリンシパルの GUID は、対応する Active Directory オブジェクトの GUID と同じ)。  <br/> |
-|prinUri  <br/> |nvarchar (256)、null でないです。  <br/> |主体の URI。 SIP のスキームは、ユーザーの使用し、ma グループは他のほとんどのために使用します。  <br/> |
-|prinName  <br/> |nvarchar (256)  <br/> |共通名です。 ユーザー タイプでのみ使用されます。  <br/> |
-|prinDisplayName  <br/> |Nvarchar (256)  <br/> |名前を表示します。 ユーザー タイプでのみ使用されます。  <br/> |
-|prinCompanyName  <br/> |nvarchar (256)  <br/> |会社名です。 ユーザー タイプでのみ使用されます。  <br/> |
-|prinEmail  <br/> |nvarchar (256)  <br/> |電子メール。 ユーザー タイプでのみ使用されます。  <br/> |
-|prinADPath  <br/> |nvarchar (384)  <br/> |プリンシパルは、キャッシュされたバージョンの Active Directory オブジェクトのドメイン名です。 システム ユーザーの場合) などの Active Directory オブジェクトではない型の Null であることができます。  <br/> |
-|prinADUserPrincipalName  <br/> |nvarchar (256)  <br/> |ユーザーのユーザー プリンシパル名 (UPN) です。 型の通常のユーザーのみが使用されます。  <br/> |
-|prinDisabled  <br/> |smallint、null でないです。  <br/> | 0: プリンシパルが有効にします。 <br/>  1: ユーザーの SIP の機能が無効であるために、プリンシパルが無効になっています。 <br/>  2: 関連付けられている AD オブジェクトが削除されたために、プリンシパルを削除します。 <br/> |
-|prinTypeID  <br/> |smallint、null でないです。  <br/> |(訳注 tblPrincipalType) のプリンシパルの種類。  <br/> |
-|prinPoolID  <br/> |Int  <br/> |主体のビジネス クライアントのプール割り当ての Skype です。  <br/> |
-|prinPolicyID  <br/> |Int  <br/> |タグの種類のポリシーが存在する場合、ユーザーの永続的なチャット サーバーのポリシー値です。  <br/> |
-|prinAddedBy  <br/> |int  <br/> |作成者のプリンシパルの ID です。  <br/> |
-|prinAddedOn  <br/> |bigint 型の値、null でないです。  <br/> |作成日時のタイムスタンプ。  <br/> |
-|prinUpdatedBy  <br/> |int  <br/> |これを最後に更新したプリンシパルの ID です。  <br/> |
-|prinUpdatedOn  <br/> |bigint 型の値、null でないです。  <br/> |最後の更新のタイム ・ スタンプ。  <br/> |
-|prinVerifiedOn  <br/> |datetime では、null でないです。  <br/> |主体の最後のアクティブなディレクトリ同期の日付と時刻を更新します。  <br/> |
+|prinID  <br/> |int (null ではない)  <br/> |プリンシパル ID。  <br/> |
+|prinGuid  <br/> |GUID、null ではない  <br/> |プリンシパル GUID。 これは、プライマリキーとして広く使用されており、その意味は Active Directory ドメインサービスの領域にあります。 (キャッシュされるプリンシパルの GUID は、対応する Active Directory オブジェクト GUID と同じです)。  <br/> |
+|prinUri  <br/> |nvarchar (256)、null ではない  <br/> |プリンシパル URI。 SIP スキームはユーザのために使用され、ma はその他ほとんどすべてに使用されます。  <br/> |
+|prinName  <br/> |nvarchar (256)  <br/> |共通名。 ユーザーの種類によってのみ使用されます。  <br/> |
+|prinDisplayName  <br/> |Nvarchar (256)  <br/> |表示名。 ユーザーの種類によってのみ使用されます。  <br/> |
+|prinCompanyName  <br/> |nvarchar (256)  <br/> |会社名。 ユーザーの種類によってのみ使用されます。  <br/> |
+|メールをプリントする  <br/> |nvarchar (256)  <br/> |電子メール。 ユーザーの種類によってのみ使用されます。  <br/> |
+|prinADPath  <br/> |nvarchar (384)  <br/> |プリンシパルがキャッシュされたバージョンである Active Directory オブジェクトのドメイン名。 Active Directory オブジェクト (システムユーザーなど) ではない型の場合は Null にすることができます。  <br/> |
+|プリント  <br/> |nvarchar (256)  <br/> |ユーザーのユーザープリンシパル名 (UPN)。 通常のユーザーの種類でのみ使用されます。  <br/> |
+|prinDisabled  <br/> |smallint (null ではない)  <br/> | 0: プリンシパルは有効です。 <br/>  1: ユーザーの SIP 機能が無効になっているため、プリンシパルが無効になっています。 <br/>  2: 関連付けられている広告オブジェクトが削除されたため、プリンシパルが削除されました。 <br/> |
+|prinTypeID  <br/> |smallint (null ではない)  <br/> |プリンシパルの種類 (tblPrincipalType テーブルから)。  <br/> |
+|prinPoolID  <br/> |Int  <br/> |プリンシパルに対する Skype for Business クライアントプールの割り当て。  <br/> |
+|prinPolicyID  <br/> |Int  <br/> |タグの種類のポリシーが存在する場合は、ユーザーの常設チャットサーバーポリシーの値。  <br/> |
+|プリント  <br/> |int  <br/> |作成者のプリンシパル ID。  <br/> |
+|prinAddedOn  <br/> |bigint (null ではない)  <br/> |作成時刻のタイムスタンプ。  <br/> |
+|プリント  <br/> |int  <br/> |最後に更新したプリンシパルの ID です。  <br/> |
+|prinUpdatedOn  <br/> |bigint (null ではない)  <br/> |最終更新のタイムスタンプ。  <br/> |
+|prinVerifiedOn  <br/> |datetime。 null ではありません  <br/> |プリンシパルの前回の Active Directory 同期更新の日付と時刻。  <br/> |
    
-**キー**
+**機能**
 
 |**列**|**説明**|
 |:-----|:-----|
-|prinID  <br/> |プライマリ ・ キーです。  <br/> |
-|prinTypeID  <br/> |TblPrincipalType.ptypeID テーブル内の参照と外部キーです。  <br/> |
+|prinID  <br/> |主キー。  <br/> |
+|prinTypeID  <br/> |TblPrincipalType テーブルで参照する外部キー。  <br/> |
    
 

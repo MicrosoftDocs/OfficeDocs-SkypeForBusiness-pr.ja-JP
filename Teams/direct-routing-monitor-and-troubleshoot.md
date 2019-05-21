@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
 localization_priority: Normal
@@ -14,74 +14,74 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: この資料では、監視し、直接ルーティングの構成をトラブルシューティングする方法について説明します。
-ms.openlocfilehash: e21d3e020f477fd1518017e0d6fc484e7ea10344
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: この記事では、ダイレクトルーティング構成の監視とトラブルシューティングを行う方法について説明します。
+ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402447"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290409"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>ダイレクト ルーティングの監視とトラブルシューティング
 
-この資料では、監視し、直接ルーティングの構成をトラブルシューティングする方法について説明します。 
+この記事では、ダイレクトルーティング構成の監視とトラブルシューティングを行う方法について説明します。 
 
-作成し、直接ルーティングを使用して呼び出しを受信する機能には、次のコンポーネントが含まれます。 
+ダイレクトルーティングを使用して通話の発信と受信を行うには、次のコンポーネントが必要です。 
 
-- セッション ボーダー コント ローラー (SBCs) 
-- マイクロソフトのクラウドでの直接のルーティング コンポーネント 
-- トランクの電気通信 
+- セッション境界コントローラー (SBCs) 
+- Microsoft Cloud でのダイレクトルーティングコンポーネント 
+- 電気通信 trunks 
 
-に関する問題のトラブルシューティングの問題がある場合は、SBC の製造元またはマイクロソフトのサポート ・ リクエストを開いてください。 
+問題のトラブルシューティングに問題がある場合は、SBC ベンダーまたは Microsoft にお問い合わせください。 
 
-マイクロソフトは、トラブルシューティングと監視に関するその他のツールを提供することに取り組んでいます。 更新プログラムを定期的にドキュメントを確認してください。 
+Microsoft は、トラブルシューティングと監視のためのより多くのツールを提供するための作業を進めています。 アップデートについてはドキュメントを定期的にチェックしてください。 
 
-## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>メッセージのセッション開始プロトコル (SIP) オプションを使用してセッションの枠線のコント ローラーの可用性の監視
+## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>セッション開始プロトコル (SIP) オプションメッセージを使用してセッション境界コントローラーの可用性を監視する
 
-直接ルーティングでは、SBC の状態を監視するのにセッション ボーダー コント ローラーから送信された SIP のオプションを使用します。 SIP オプションの監視を有効にするのには、テナントの管理者から必要なアクションはありません。 ルーティングの決定が行われると、収集した情報を考慮にします。 
+ダイレクトルーティングでは、セッション境界コントローラーによって送信される SIP オプションを使用して、SBC ヘルスを監視します。 SIP オプションの監視を有効にするには、テナント管理者からの操作は必要ありません。 収集された情報は、ルーティング決定が行われるときに考慮されます。 
 
-などの場合は、特定のユーザーの通話のルーティングに使用できるいくつかの SBCs、直接ルーティングと見なされるルーティングを決定するのには、各 SBC から受信した SIP オプション情報です。 
+たとえば、特定のユーザーに対して、通話のルーティングに使用できる複数の SBCs がある場合、直接ルーティングでは、各 SBC から受信した SIP オプション情報がルーティングを決定します。 
 
-構成の例を次の図に示します。 
+次の図は、構成の例を示しています。 
 
-![SIP オプションの構成の例](media/sip-options-config-example.png)
+![SIP オプション構成の例](media/sip-options-config-example.png)
 
-番号 +1 425 への呼び出しを行うと、\<直接ルーティングでは、7 つの digits> は、ルートを評価します。 ルートにある 2 つの SBCs: sbc1.contoso.com と sbc2.contoso.com。 SBCs の両方では、工順の優先度が同じがあります。 ルーティング メカニズムが、SBC に送信される SIP オプションに基づいて、SBCs の稼働状態を評価する SBC をピッキングする前に最後の時間します。 
+ユーザーが7つの digits> の 1 425 番号に通話を発信すると、直接ルーティングによってルートが評価されます。 ルートには、sbc1.contoso.com と sbc2.contoso.com の2つの SBCs があります。 SBCs は両方ともルートの優先度が同じです。 SBC を選ぶ前に、SBC が SIP オプションを最後に送信した場合に基づく SBCs の正常性が評価されます。 
 
-SBC は、SBC が一定の間隔のオプションを送信する送信呼び出しの時点での統計情報が表示されている場合は正常と見なされます。  
+通話を送信するときに、SBC が通常の間隔でオプションを送信することを示している場合は、SBC は良好であると見なされます。  
 
-直接ルーティングは、SBC が呼び出しを行うと、5 分を追加する前にオプションを送信するときに、2 回の平均をとることによって一定の間隔を計算します。 
+直接ルーティングでは、SBC が通話を発信して5分追加する前に、SBC がオプションを送信するときに2倍の平均値を計算します。 
 
-たとえば、次の点を想定しています。 
+たとえば、次のようにします。 
 
-- SBC の構成オプションの 1 分ごとに送信します。 
-- 午前 11時 00分、SBC と同じです。  
-- SBC は、11.01 AM、11.02 AM というようにオプションを送信します。  
-- 11.15 でユーザーが呼び出しを行うし、ルーティング メカニズムは、この SBC を選択します。 
+- SBC は、毎分オプションを送信するように構成されています。 
+- SBC は、11.00 AM でペアリングされました。  
+- SBC は、11.01 AM、11.02 AM などでオプションを送信します。  
+- 11.15 では、ユーザーが通話を発信し、ルーティングメカニズムによってこの SBC が選択されます。 
 
-次のロジックを適用: SBC は、さらに 5 分 = 7 分 (1 分間および 1 つ分 = 2 分) のオプションを送信するときに、平均の間隔が 2 倍です。 これは、SBC の一定の間隔の値です。
+次のロジックが適用されます。 SBC がオプションを送信するときの平均間隔 (1 分 + 1 分 = 2 分) + 5 分 = 7 分。 これは、SBC の定期的な間隔の値です。
  
-この例では、SBC では、11時 08分 AM と 11時 15分 AM (呼び出しが行われた時間) との間にあるオプションを送信する場合正常と見なされます。 それ以外の場合は、SBC をルートから降格されます。 
+この例の SBC が、11.08 AM と 11.15 AM (通話が発信された時刻) の間に任意の期間でオプションを送信した場合は、正常であると見なされます。 それ以外の場合は、SBC がルートから降格されます。 
 
-降格では、ある、SBC は試行されませんが、最初を意味します。 たとえば、sbc1.contoso.com と sbc2.contoso.com が同じ優先度であります。  
+降格とは、SBC が最初に試されないことを意味します。 たとえば、sbc1.contoso.com と sbc2.contoso.com は同じ優先度で設定されています。  
 
-Sbc1.contoso.com は、前述のとおり、一定の間隔のオプションの SIP を送信しません、する場合は降格されます。 次に、sbc2.contoso.com は、呼び出しを試みます。 Sbc2.contoso.con は、呼び出しを配信できません、エラーが生成される前に (降格) sbc1.contoso.com としました。 
+上で説明したように、sbc1.contoso.com が SIP オプションを通常の間隔で送信しない場合は、降格されます。 次に、sbc2.contoso.com が通話を試みます。 Sbc2 で通話を発信できない場合、エラーが発生する前に、sbc1.contoso.com (降格) がもう一度試行されます。 
 
-## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>ダッシュ ボードの品質の分析機能を呼び出すと SBC のログを監視します。 
+## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>通話品質分析ダッシュボードと SBC ログを監視する 
  
-場合によっては、最初のペアリング時に、特に可能性があります、SBCs または直接ルーティング サービスの構成の誤りに関連する問題。 
+場合によっては、最初のペアリングの際に、SBCs またはダイレクトルーティングサービスの構成の誤りに関連して問題が発生する可能性があります。 
 
-構成を監視するのには、次のツールを使用できます。  
+以下のツールを使用して、構成を監視できます。  
  
 - 通話品質ダッシュボード 
-- SBC のログ 
+- SBC ログ 
 
-直接ルーティング サービスには非常にわかりやすいエラー コードの分析機能を呼び出すか、SBC のログに報告します。 
+ダイレクトルーティングサービスには、通話分析または SBC ログのどちらかに報告される非常にわかりやすいエラーコードが含まれています。 
 
-コール品質のダッシュ ボードでは、通話の音質と信頼性に関する情報を提供します。 分析機能の呼び出しを使用して問題をトラブルシューティングする方法の詳細について[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用して](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)[不適切な呼び出し品質のトラブルシューティングを行うコール分析機能の使用](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)を参照してください。 
+通話音質ダッシュボードには、通話品質と信頼性に関する情報が記載されています。 通話分析を使用して問題を解決する方法の詳細については、「 [Microsoft Teams および Skype For Business Online で通話品質ダッシュボードをオンにして使用](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)する」および「[通話分析を使用して低品質の通話品質をトラブルシューティングする」を](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)参照してください。 
 
-呼び出しの失敗が発生した場合は、分析機能の呼び出しは、トラブルシューティングするための標準の SIP コードを提供します。 
+通話が失敗した場合、通話分析では、トラブルシューティングに役立つ標準的な SIP コードが提供されます。 
 
-![呼び出しが失敗した SIP のサンプル コード](media/failed-response-code.png)
+![通話の失敗に関する SIP コードの例](media/failed-response-code.png)
 
-ただし、分析機能を呼び出すのに役立つだけ呼び出しが直接ルーティングの内部コンポーネントにアクセスし、失敗するとします。 SBC の組み合わせで問題または SIP」への招待」が (FQDN が正しく構成されていないトランクの名前など) が拒否された問題では、分析機能を呼び出すことができます。 この例では、SBC のログを参照してください。 直接ルーティングは、半角英数字に問題の詳細な説明を送信します。これらの問題は、SBC のログから読み取ることができます。 
+ただし、通話分析は、通話が直接ルーティングの内部コンポーネントに到達して失敗した場合にのみ役立ちます。 SBC ペアリング、または SIP "Invite" が拒否された問題がある場合 (たとえば、トランク FQDN の名前が正しく構成されていない場合)、通話分析はサポートされません。 この場合は、SBC ログを参照してください。 直接ルーティングでは、問題の詳細な説明が SBCs に送信されます。これらの問題は、SBC ログから読み取ることができます。 

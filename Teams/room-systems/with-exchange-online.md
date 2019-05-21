@@ -1,9 +1,9 @@
 ---
-title: オンライン Exchange とマイクロソフトのチームの会議室を配置します。
+title: Exchange Online を使用して Microsoft Teams ミーティング を展開
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,31 +13,31 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: Exchange オンラインでマイクロソフト チームの会議室を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 55b62656d5ddf7fdc7a1139f1c4eaf5c055437fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このトピックでは、Microsoft Teams のルームを Exchange Online と共に展開する方法について説明します。
+ms.openlocfilehash: e90767c6209fdb13eb7a4c6d0794865aa88e65c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916270"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288429"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>オンライン Exchange とマイクロソフトのチームの会議室を配置します。
+# <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams ミーティング を展開
 
-マイクロソフト チーム会議室と、Exchange オンライン Skype ビジネス サーバー設置型の展開方法の詳細については、このトピックを参照してください。
+このトピックでは、オンプレミスの Exchange Online と Skype for Business Server を使用して Microsoft Teams ルームを展開する方法について説明します。
   
-設置型およびいくつかのホストがオンラインでホストされているいくつかのさまざまなサービスがある場合は、各サービスがホストされているによって、構成が決まります。 このトピックでは、オンラインでホストされている Exchange と Microsoft チームの会議室のハイブリッド展開について説明します。 この種類の展開で非常に多くのさまざまなバリエーションがあるため、それらのすべての詳細な説明を提供することはできません。 以下、処理の多くの構成です。 プロセスが、設定の適切でない場合は、ここでは、およびその他の展開オプションが記載されているように、同じ結果を達成するために Windows PowerShell を使用することをお勧めします。
+組織にサービスが混在していて、オンプレミスのホストとオンラインでホストされているものがある場合、構成は各サービスがホストされている場所によって異なります。 このトピックでは、オンラインでホストされている Microsoft Teams ルームのハイブリッド展開について説明します。 この種類の展開にはさまざまなバリエーションがあるため、すべてについて詳しく説明することはできません。 次のプロセスは、さまざまな構成で動作します。 このプロセスが適切に設定されていない場合は、Windows PowerShell を使用して、ここに記載されているのと同じ終了結果とその他の展開オプションを実現することをお勧めします。
 
-ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または互換性のある Microsoft チームの会議室のユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。 場合は、マイクロソフト チームの会議室デバイスを使用してアカウントを構成するのには、次の手順に従うことができます。
+ユーザーアカウントをセットアップする最も簡単な方法は、リモートの Windows PowerShell を使用してアカウントを構成することです。 Microsoft には、新しいユーザーアカウントを作成するのに役立つスクリプト、または既存のリソースアカウントを、互換性のある Microsoft Teams 室のユーザーアカウントに変換するために使用している既存のリソースアカウントを検証するための SkypeRoomProvisioningScript が用意されてい[ます](https://go.microsoft.com/fwlink/?linkid=870105)。 必要に応じて、次の手順に従って、Microsoft Teams の会議室のデバイスで使用するアカウントを構成することができます。
 
 ## <a name="requirements"></a>要件
 
-Exchange オンラインでマイクロソフト チームの会議室を展開する前に、要件を満たしていることを確認します。 詳細については、[マイクロソフト チームの会議室の要件](requirements.md)を参照してください。
+Microsoft Teams のルームを Exchange Online に展開する前に、要件を満たしていることを確認してください。 詳細については、「 [Microsoft Teams の会議室の要件](requirements.md)」を参照してください。
   
-Exchange オンラインでマイクロソフト チームの会議室を配置するには、以下の手順を実行します。 関連するコマンドレットを実行するために適切な権限があることを確認します。
+Microsoft Teams のルームを Exchange Online と共に展開するには、次の手順を実行します。 関連するコマンドレットを実行するために適切な権限があることを確認します。
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>アカウントを作成して Exchange プロパティを設定する
 
-1. PC 上でリモートの Windows PowerShell セッションを開始し、Exchange Online への接続を次のようにします。
+1. PC でリモート Windows PowerShell セッションを開始し、次の手順に従って Exchange Online に接続します。
 
 ``` Powershell
 Set-ExecutionPolicy Unrestricted
@@ -46,7 +46,7 @@ $cred=Get-Credential $admin@$org
 $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
 ```
 
-2. セッションを確立するには後、するが新しいメールボックスを作成して、RoomMailboxAccount、として有効にか既存の会議室メールボックスの設定を変更します。 これにより、マイクロソフトのチームの会議室に認証するためにアカウントが許可されます。
+2. セッションを確立したら、新しいメールボックスを作成して、RoomMailboxAccount として有効にするか、既存の会議のメールボックスの設定を変更します。 これにより、アカウントが Microsoft Teams のルームに認証されるようになります。
 
    既存のリソース メールボックスを変更している場合:
 
@@ -54,13 +54,13 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-    : 新しいリソース メールボックスを作成する場合
+    新しいリソースメールボックスを作成する場合は、次の操作を行います。
 
    ``` Powershell
    New-Mailbox -MicrosoftOnlineServicesID 'PROJECTRIGEL01@contoso.com' -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. 会議エクスペリエンスを向上させるため、次のようにユーザー アカウントに Exchange のプロパティを設定する必要があります。
+3. 会議のエクスペリエンスを向上させるには、次のようにして、ユーザーアカウントの Exchange プロパティを設定する必要があります。
 
    ``` Powershell
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -71,19 +71,19 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>オンプレミスのドメイン アカウントに電子メール アドレスを追加する
 
-1. **Active Directory ユーザーとコンピューターの AD**のツールでは、右クリック、コンテナーまたは組織単位ので、アカウントを作成する、マイクロソフト チームの会議室が [**新規**作成] をクリックし、し、[**ユーザー**] をクリックします。
-2. 表示名を入力 (-識別情報) から、**完全名**] ボックスと、**ユーザー ログオン名**] ボックスにエイリアスを前のコマンドレット (一連のメールボックスや新規メールボックス)。 [**次へ**] をクリックします。
+1. **Active Directory ユーザーとコンピューターの AD**ツールで、Microsoft Teams の会議室のアカウントが作成されるコンテナーまたは組織単位を右クリックし、[**新規**作成] をクリックして、[**ユーザー**] をクリックします。
+2. 前のコマンドレットの表示名 (-Identity) を [**氏名**] ボックスに入力し、[**ユーザーのログオン名**] ボックスにエイリアスを入力します。 [**次へ**] をクリックします。
 3. このアカウントのパスワードを入力します。確認のためにもう一度入力する必要があります。[**パスワードを無期限にする**] チェック ボックスだけがオンになっていることを確認します。
 
     > [!NOTE]
-    > Skype マイクロソフト チームの部屋にサーバーをビジネスのための要件は、**パスワードを無期限にする**を選択します。 ドメイン ルールによって無期限のパスワードが禁止される場合があります。 その場合は、マイクロソフト チームの会議室のユーザー アカウントごとに例外を作成する必要があります。
+    > [**パスワードを無期限**にする] を選ぶことは、Microsoft Teams のルームの Skype For business Server の要件です。 ドメイン ルールによって無期限のパスワードが禁止される場合があります。 そうである場合は、Microsoft Teams のルームユーザーアカウントごとに例外を作成する必要があります。
   
 4. アカウントを作成するには、**[完了]** をクリックします。
 5. アカウントを作成したら、ディレクトリの同期を実行します。それが完了したら、[ユーザー] ページに移動し、前の手順で作成した 2 つのアカウントがマージされていることを確認します。
 
 ### <a name="assign-an-office-365-license"></a>Office 365 ライセンスを割り当てる
 
-1. 最初に、いくつかのアカウントの設定を適用するのには Azure AD に接続します。 次のコマンドレットを実行して接続することができます。 詳細については、Active Directory は、 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)を参照してください。 
+1. まず、[Azure AD に接続して、いくつかのアカウント設定を適用します] を選びます。 次のコマンドレットを実行して接続することができます。 Active Directory の詳細については、「 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0)はサポートされていません。 
@@ -95,9 +95,9 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Connect-AzureAD -Credential $cred
    ``` -->
 
-2. ユーザー アカウントは、Exchange と Skype のビジネス サーバーが動作することを確認するのには有効な Office 365 ライセンスを所有する必要があります。 ライセンスがあれば、利用場所を割り当てるユーザー アカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定です。 次の手順で割り当てを行うでしょう。
-3. 次を使用して、`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 テナントの使用可能な Sku の一覧を取得します。
-4. ライセンスを使用してを追加するには、Sku を一覧表示すると、`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> コマンドレットです。 この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。 
+2. Exchange と Skype for Business Server が動作するためには、ユーザーアカウントが有効な Office 365 ライセンスを所有している必要があります。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 課題は、次の手順で作成します。
+3. 次に、`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 テナントで利用可能な Sku の一覧を取得するには、こちらを参照してください。
+4. Sku の一覧が表示されたら、`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> コマンドレット. この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。 
 
   ```
     Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
@@ -110,9 +110,9 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
    ``` -->
 
-### <a name="enable-the-user-account-with-skype-for-business-server"></a>ビジネス サーバーの Skype でのユーザー アカウントを有効にします。
+### <a name="enable-the-user-account-with-skype-for-business-server"></a>Skype for Business Server を使用してユーザーアカウントを有効にする
 
-1. 次のように PC からリモートの Windows PowerShell セッションを作成します。
+1. PC からリモート Windows PowerShell セッションを作成するには、次の手順を実行します。
 
     ``` Powershell
     Import-Module SkypeOnlineConnector  
@@ -120,38 +120,38 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. ビジネスのサーバーでは、Skype のマイクロソフト チームの会議室のアカウントを有効にするには、このコマンドを実行します。
+2. Skype for Business Server 用の Microsoft Teams ルームアカウントを有効にするには、次のコマンドを実行します。
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-    ビジネス サーバーのユーザーがこのコマンドを使用して既存の Skype から値を取得するには、環境内の RegistrarPool パラメーターを使用するのにはどのような値がわからない場合
+    環境の RegistrarPool パラメーターに使用する値がわからない場合は、このコマンドを使用して、既存の Skype for Business Server ユーザーから値を取得することができます。
 
    ``` Powershell
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>チームの会議室を Microsoft アカウントに、Skype ビジネス サーバー ライセンスを割り当てる
+### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Skype for Business Server のライセンスを Microsoft Teams のルームアカウントに割り当てる
 
-1. テナント管理者としてログイン、Office 365 管理ポータルを開くし、管理アプリケーションでをクリックします。
+1. テナント管理者としてログインし、Office 365 管理ポータルを開いて、[管理者] アプリをクリックします。
 2. [**ユーザーとグループ**] をクリックしてから [**ユーザーの追加、パスワードのリセットなど**] をクリックします。
-3. マイクロソフト チームの会議室のアカウント] をクリックし、アカウント情報を編集するのには [ペン] アイコンをクリックします。
+3. Microsoft Teams のルームアカウントをクリックし、ペンアイコンをクリックしてアカウント情報を編集します。
 4. [**ライセンス**] をクリックします。
 5. ライセンスとエンタープライズ VoIP の要件に応じて、[**ライセンスの割り当て**] で [Skype for Business (プラン 2)] または [
-Skype for Business (プラン 3)] を選択します。 マイクロソフト チームの会議室でエンタープライズ VoIP を使用する場合は、計画の 3 ライセンスを使用する必要があります。
+Skype for Business (プラン 3)] を選択します。 Microsoft Teams のルームでエンタープライズ Voip を使用する場合は、プラン3ライセンスを使用する必要があります。
 6. [**保存**] をクリックします。
 
-検証、ビジネス クライアント用の Skype を使用してこのアカウントにログインできるように。
+検証のために、Skype for Business クライアントを使用して、このアカウントにログインできるようにする必要があります。
   
 ## <a name="see-also"></a>関連項目
 
-[マイクロソフト チームの会議室のアカウントを構成します。](room-systems-v2-configure-accounts.md)
+[Microsoft Teams 室のアカウントを構成する](room-systems-v2-configure-accounts.md)
 
-[マイクロソフト チームの会議室のプラン](skype-room-systems-v2-0.md)
+[Microsoft Teams のルームを計画する](skype-room-systems-v2-0.md)
   
-[マイクロソフト チームの会議室を配置します。](room-systems-v2.md)
+[Microsoft Teams ルームの展開](room-systems-v2.md)
   
-[マイクロソフト チームの会議室のコンソールを構成します。](console.md)
+[Microsoft Teams 室コンソールを構成する](console.md)
   
 [Microsoft Teams Rooms を管理する](skype-room-systems-v2.md)

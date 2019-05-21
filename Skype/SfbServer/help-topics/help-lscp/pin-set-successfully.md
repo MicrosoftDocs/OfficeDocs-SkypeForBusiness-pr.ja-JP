@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserPinNum
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
-description: PIN をユーザーに送信する電子メールを使用するには、ユーザーに新しい PIN を送信する電子メール アプリケーションを開くをクリックします。 電子メール メッセージに、暗証番号 (pin) をコピーするには、暗証番号 (pin) の表示を選択します。
-ms.openlocfilehash: 724bfa566b2d1bfa77c1069d0a1e52902b7c0c55
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: メールを使ってユーザーに PIN を送信するには、[電子メールアプリケーションを開く] をクリックして、新しい PIN をユーザーに送信します。 PIN をメールメッセージにコピーするには、[PIN の表示] を選択します。
+ms.openlocfilehash: ade43afaf7d5593087038151f65ec3a1d8ace8a6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896214"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291033"
 ---
 # <a name="pin-set-successfully"></a>PIN 設定の成功
  
-PIN をユーザーに送信する電子メールを使用するには、**ユーザーに新しい PIN を送信する電子メール アプリケーションを開く**をクリックします。 電子メール メッセージに、暗証番号 (pin) をコピーするには、**暗証番号 (pin) の表示**を選択します。 
+メールを使ってユーザーに PIN を送信するには、[**電子メールアプリケーションを開く] をクリックして、新しい pin をユーザーに送信**します。 PIN をメールメッセージにコピーするには、[ **pin の表示**] を選択します。 
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。
   
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AvMcuScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、この音声ビデオ会議プールのプール完全修飾ドメイン名 (FQDN) および関連付けられたフロントエンド プールが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 9e8bd6c34e07c8fb522d10e71987ca8128a33756
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cabc51c56237c853ffa99f9dd9f5926bb6f78569
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915847"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294364"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU スコープ ノード
  

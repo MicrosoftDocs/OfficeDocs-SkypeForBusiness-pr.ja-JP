@@ -1,30 +1,30 @@
 ---
-title: ビジネス サーバー 2015 の Skype でのコンテンツ タイプのテーブル
+title: Skype for Business Server 2015 の ContentTypes テーブル
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
-description: コンテンツ タイプのテーブルは、ピア ツー ピア セッションや会議セッションの両方で使用するコンテンツ タイプのリストを格納するサポート テーブルです。 テーブル内の各レコードは、1 つのコンテンツ タイプを表します。
-ms.openlocfilehash: e30f5f142b9b1e166266cf8d45fe7657fee1b1b9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ContentTypes テーブルは、ピアツーピアセッションと会議セッションの両方で使用されるコンテンツタイプのリストを格納するサポートテーブルです。 テーブル内の各レコードは、1つのコンテンツタイプを表します。
+ms.openlocfilehash: b8422cbe95425ac79495c0506f4a94e70be3f9af
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901081"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296372"
 ---
-# <a name="contenttypes-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype でのコンテンツ タイプのテーブル
+# <a name="contenttypes-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の ContentTypes テーブル
  
-コンテンツ タイプのテーブルは、ピア ツー ピア セッションや会議セッションの両方で使用するコンテンツ タイプのリストを格納するサポート テーブルです。 テーブル内の各レコードは、1 つのコンテンツ タイプを表します。
+ContentTypes テーブルは、ピアツーピアセッションと会議セッションの両方で使用されるコンテンツタイプのリストを格納するサポートテーブルです。 テーブル内の各レコードは、1つのコンテンツタイプを表します。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**ContentTypeId** <br/> |int  <br/> |Primary  <br/> |コンテンツの種類を識別する一意の番号です。  <br/> |
-|**コンテンツ タイプ** <br/> |nvarchar(256)  <br/> ||コンテンツ タイプの名前です。  <br/> |
+|**ContentTypeId** <br/> |int  <br/> |Primary  <br/> |コンテンツの種類を識別する一意の番号。  <br/> |
+|**ContentType** <br/> |nvarchar(256)  <br/> ||コンテンツタイプの名前。  <br/> |
    
 

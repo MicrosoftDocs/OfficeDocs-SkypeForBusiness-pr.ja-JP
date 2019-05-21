@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: これは、プールとサーバー、およびリカバリ性に優れたこのブランチ アプライアンスについては、弾力性に関連付けられているノードの完全修飾ドメイン名 (FQDN) を示しています。 以下のアクションを実行できます。
-ms.openlocfilehash: 580a0f941743f0f98a250396884d3935b310718f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このノードには、完全修飾ドメイン名 (FQDN)、関連付けられたプールとサーバー、この Survivable Branch Appliance に関する復元性の情報が表示されます。 以下のアクションを実行できます。
+ms.openlocfilehash: 04cbcf24aeaad5fe8b6c3810b2e6b7dd20db0e8a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912376"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301548"
 ---
 # <a name="branch-office-appliance-scope-node"></a>ブランチ オフィス アプライアンス スコープ ノード
  
-これは、プールとサーバー、およびリカバリ性に優れたこのブランチ アプライアンスについては、弾力性に関連付けられているノードの完全修飾ドメイン名 (FQDN) を示しています。 以下のアクションを実行できます。
+このノードには、完全修飾ドメイン名 (FQDN)、関連付けられたプールとサーバー、この Survivable Branch Appliance に関する復元性の情報が表示されます。 以下のアクションを実行できます。
   
-- **プロパティの編集**。 リカバリ性に優れたこのブランチ アプライアンス (トポロジは既に公開されていない) 場合、FQDN を変更する場所の**プロパティの編集**ページでは、アソシエーション、および復元の設定が表示されます。
+- **プロパティの編集**。 この Survivable Branch Appliance の [**プロパティの編集**] ページを開きます。ここで、FQDN (トポロジがまだ公開されていない場合)、関連付け、復元の設定を変更できます。
     
 - **削除**。トポロジからサーバーを削除します。
     

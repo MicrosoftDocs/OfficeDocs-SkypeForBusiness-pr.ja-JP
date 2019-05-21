@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: Set-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を設定します。
-ms.openlocfilehash: 547f0b87b006347a337a2c25222aecbd4f402669
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 59c058f8965bbc6fc011806f383c547c1e7b6cd1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876642"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286979"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
 Set-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を設定します。 
   
-クラウド コネクタ バージョン 2.0 以降では、このコマンドレットも設定できますアカウントについては、仮想マシンの管理者およびドメイン管理者。
+Cloud Connector バージョン2.0 以降では、このコマンドレットでは、仮想マシン管理者とドメイン管理者のアカウント情報を設定することもできます。
   
 ```
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
@@ -42,7 +42,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-Set-CcCredential コマンドレットによって、テナント管理者のアカウント名とパスワードが設定されます。 2.0 より前のリリースでは、この管理者は、Office 365 の全体管理者である必要があります。 クラウドのコネクタは、構成情報を取得、構成パラメーター、およびアプライアンスの状態の更新プログラムを Office 365 のテナント構成に設定するのにはこのアカウントを使用します。 2.0 のリリースし、後で使用することもこのコマンドレット、VmAdmin および DomainAdmin のアカウントのパスワードを更新します。
+Set-CcCredential コマンドレットによって、テナント管理者のアカウント名とパスワードが設定されます。 2.0 より前のリリースでは、この管理者は、Office 365 の全体管理者である必要があります。 クラウドコネクタはこのアカウントを使用して、構成情報を取得し、構成パラメーターを設定し、アプライアンスの状態を Office 365 テナント構成に更新します。 リリース2.0 以降では、このコマンドレットを使用して、VmAdmin および DomainAdmin アカウントのパスワードを更新することもできます。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>

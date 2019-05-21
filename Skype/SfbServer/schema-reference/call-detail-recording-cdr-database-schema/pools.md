@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
-description: プール テーブルは、さまざまなプールの情報を格納するサポート テーブルです。 テーブル内の各レコードは、1 つのプールを表します。
-ms.openlocfilehash: 7ee9679fff4bd2467f6ab6af70c9bf9418a43703
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: プールテーブルは、さまざまなプールに関する情報を格納するサポートテーブルです。 テーブル内の各レコードは、1つのプールを表します。
+ms.openlocfilehash: 37a359254aee3613c29d272c6a398a27e43e5590
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930561"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295952"
 ---
 # <a name="pools-table"></a>Pools テーブル
  
-プール テーブルは、さまざまなプールの情報を格納するサポート テーブルです。 テーブル内の各レコードは、1 つのプールを表します。
+プールテーブルは、さまざまなプールに関する情報を格納するサポートテーブルです。 テーブル内の各レコードは、1つのプールを表します。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**PoolId** <br/> |int  <br/> |Primary  <br/> |このプールを識別する一意の番号です。  <br/> |
-|**PoolFQDN** <br/> |nvarchar(256)  <br/> | <br/> |プールの FQDN です。  <br/> |
+|**PoolId** <br/> |int  <br/> |Primary  <br/> |このプールを識別する一意の番号。  <br/> |
+|**PoolFQDN** <br/> |nvarchar(256)  <br/> | <br/> |プールの FQDN。  <br/> |
    
 

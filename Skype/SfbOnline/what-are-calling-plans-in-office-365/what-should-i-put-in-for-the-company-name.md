@@ -1,5 +1,5 @@
 ---
-title: 入れるもの、会社名のでしょうか。
+title: 会社名に何を入力するべきですか?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,19 +20,19 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoCompanyName
 ms.custom:
 - Calling Plans
-description: '会社のビジネスでは、Skype での配置し、それを見つけることができます。 '
-ms.openlocfilehash: 49b26c5fce7cd11ad5cb2cbdf15f32144198898f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Skype for Business で会社について何を入力すればよいか、およびその場所を見つけることができます。 '
+ms.openlocfilehash: 8e85ee977093675a3571315249765cf716c6f7ba
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229597"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290747"
 ---
-# <a name="what-should-i-put-in-for-the-company-name"></a>入れるもの、会社名のでしょうか。
+# <a name="what-should-i-put-in-for-the-company-name"></a>会社名に何を入力するべきですか?
 
-これは、会社または組織の名前です。 会社の名前は、次のような空白が含まれている、25 文字までに制限します。 ポート注文要求を処理する会社の名前が使用されていません。争議の場合に使用されますか何かがない正しい電話番号を移植するとき。 ボックスに会社名の全体を収めることはできません、ファイルと、遅延はありませんか、ポートの注文をキャンセルします。
+これは、会社または組織の名前です。 会社名は25文字に制限されており、スペースが含まれます。 会社名は、ポート注文の要求を処理するために使われることはありません。これは、紛争の場合、または電話番号が移植されているときに、不正な場合に使用されます。 ボックスに会社の名前全体が収まらない場合は、ポート注文の遅延またはキャンセルは行われません。
   
- **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
+ **詳細な手順については、「 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)」を参照してください。**
  
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

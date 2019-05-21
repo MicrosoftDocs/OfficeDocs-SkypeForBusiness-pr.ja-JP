@@ -1,10 +1,10 @@
 ---
-title: Skype のビジネス サーバーのセカンダリ場所情報サービスを構成します。
+title: Skype for Business Server でセカンダリ場所情報サービスを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
-description: ~ 9-1-1 では、Skype のビジネス サーバーのエンタープライズ VoIP のセカンダリ ・ サイトのソース (SLS) データベースを構成します。
-ms.openlocfilehash: 047fd1a7dca0c4c2b76d01fd0c5d67230246441e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice で、E9 のセカンダリ場所ソース (SLS) データベースを構成します。
+ms.openlocfilehash: 0d637b8b2b61526837be2d56b8654f40bc556064
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892294"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288534"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Skype のビジネス サーバーのセカンダリ場所情報サービスを構成します。
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Skype for Business Server でセカンダリ場所情報サービスを構成する
  
-~ 9-1-1 では、Skype のビジネス サーバーのエンタープライズ VoIP のセカンダリ ・ サイトのソース (SLS) データベースを構成します。 
+Skype for Business Server Enterprise Voice で、E9 のセカンダリ場所ソース (SLS) データベースを構成します。 
   
-Skype ビジネス サーバーは、セカンダリ場所ソース (SLS) のデータベースに位置情報サービスを指すように使用できる web サービス インターフェイスを提供します。 SLS データベースに接続する web サービスのインタ フェースは、位置情報サービスの WSDL に従う必要があります。 場所データベースとセカンダリ場所データベースの両方を構成すると、位置情報サービスが、まず、場所データベースにクエリを実行し、一致が見つからなかった場合、場所に要求を送信、クライアントから SLS データベースします。 SLS の場所が存在する場合、位置情報サービスは、クライアントに場所を送信します。 
+Skype for Business Server には、位置情報サービスをセカンダリの場所のソース (SLS) データベースにポイントするために使用できる web サービスインターフェイスが用意されています。 SLS データベースに接続する web サービスインターフェイスは、位置情報サービスの WSDL に準拠している必要があります。 ロケーションデータベースとセカンダリロケーションデータベースの両方が構成されている場合、位置情報サービスは最初に位置情報データベースを照会し、一致が見つからない場合は、クライアントから SLS データベースに位置情報要求を送信します。 場所が SLS に存在する場合、位置情報サービスはその場所をクライアントに送り返します。 
   
 ### <a name="to-configure-a-secondary-location-database"></a>セカンダリ場所データベースを構成するには
 
@@ -39,5 +39,5 @@ Skype ビジネス サーバーは、セカンダリ場所ソース (SLS) のデ
 
 ## <a name="see-also"></a>関連項目
 
-[セット CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

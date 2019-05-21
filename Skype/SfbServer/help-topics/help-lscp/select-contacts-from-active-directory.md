@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserSelContact
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
-description: ビジネス用の Skype を有効にするユーザーの連絡先を検索するのには、Active Directory] ダイアログ ボックスから選択を使用します。 検索ボックスに、検索する連絡先の SIP アドレスまたは表示名を入力します。 使用可能な連絡先をすべて取得する場合は、検索ボックスに何も入力しないでください。
-ms.openlocfilehash: 9288547b218a79567ae5ef455dbbb95b27e1239d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[Active Directory から選択] ダイアログボックスを使用して、Skype for Business を有効にする連絡先を検索します。 検索ボックスに、検索する連絡先の SIP アドレスまたは表示名を入力します。 使用可能な連絡先をすべて取得する場合は、検索ボックスに何も入力しないでください。'
+ms.openlocfilehash: d590d535f4773549413747530ea61265743a34d9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924690"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294117"
 ---
 # <a name="select-contacts-from-active-directory"></a>Active Directory からの連絡先の選択
  
-ビジネス用の Skype を有効にする連絡先を検索するのにには、 **Active Directory からの選択**] ダイアログ ボックスを使用します。 検索ボックスに、検索する連絡先の SIP アドレスまたは表示名を入力します。 使用可能な連絡先をすべて取得する場合は、検索ボックスに何も入力しないでください。
+**[Active Directory から選択**] ダイアログボックスを使用して、Skype for business を有効にする連絡先を検索します。 検索ボックスに、検索する連絡先の SIP アドレスまたは表示名を入力します。 使用可能な連絡先をすべて取得する場合は、検索ボックスに何も入力しないでください。
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。
   
 

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,33 +24,33 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: オランダの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: c891cfc53625c7bb8e8b584f28e31cd372817907
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: ここでは、オランダで利用できる Skype for Business および Microsoft Teams の Office 365 サービスについて説明します。
+ms.openlocfilehash: a7ee5062baad01e1d620d3f2e3f09283e7bbd29a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541889"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294237"
 ---
 # <a name="availability-in-the-netherlands"></a>オランダでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-オランダの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+ここでは、オランダで利用できる Skype for Business および Microsoft Teams の Office 365 サービスについて説明します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |あり  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。<br/><ul><li> アムステルダム</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話会議は購入できますか?  <br/> |はい  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li> アムステルダム</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |あり  <br/> |
+|電話システムは購入できますか?  <br/> |はい  <br/> |
 | 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
@@ -60,8 +60,8 @@ ms.locfileid: "30541889"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|分の計画を呼び出すに使用できます。 |1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分、国内の計画を呼び出す </li><li>240 分、国内の計画を呼び出す</li></li><li>1200 分、国内の計画を呼び出す </li></li><li>国内と国際を呼び出す計画: 国内 OR 600 時間 (分) の (どちらかに達すると最初の予定表の月の)、国際通話 1200 分</li></li> 
-|プレミアム番号への発信コールを行うことができますでしょうか。 <br/> | この時点ではサポートされていません。 <br/> |
+|通話プランの利用可能な時間 (分)。 |カレンダーの月ごとに、次の4つのプランオプションを利用できます。 <ul><li>120分国内通話プラン </li><li>240分国内通話プラン</li></li><li>1200分国内通話プラン </li></li><li>国内および国際通話プラン: 1200 分 (600 国内通話 (予定表の月の最初に到達した方)</li></li> 
+|有料番号への通話発信は可能ですか? <br/> | この時点ではサポートされていません。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
@@ -69,8 +69,8 @@ ms.locfileid: "30541889"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |アムステルダム  <br/> |
-|有料電話番号は使用できますか?  <br/> |あり  <br/> |
-|無料電話番号は使用できますか?  <br/> |あり  <br/> |
+|有料電話番号は使用できますか?  <br/> |はい  <br/> |
+|無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。
   

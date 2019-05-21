@@ -8,7 +8,7 @@ ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
@@ -16,91 +16,91 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: マイクロソフトのチームおよび組織内のユーザーのチームをカスタマイズするのには暗証番号 (pin) のアプリケーションを使用するアプリケーション設定のポリシーについて説明します。
+description: Microsoft Teams のアプリセットアップポリシーの概要と、それらを使ってアプリを固定して組織内のユーザーのためにチームをカスタマイズする方法について説明します。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: b38a381e95855380e017050441885474934cbe8f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f4dd1cac59cd15efa014aa2efbe83b0cb6e4f991
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227255"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294018"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
 > [!NOTE]
-> 組織全体にわたるアプリケーションのアクセス許可ポリシーの設定、**カスタム アプリケーションと相互作用を許可する**を有効にするマイクロソフト チームの管理センターではまだ設定ポリシーをアプリケーションが表示されない可能性があります。 現在展開されているが、組織内ですぐに利用可能になります。
+> 組織全体のアプリのアクセス許可ポリシー設定を有効にしている場合、**カスタムアプリとの対話を許可**すると、Microsoft Teams 管理センターでまだアプリのセットアップポリシーが表示されない場合があります。 この機能は現在展開中であり、間もなく組織内で利用可能になります。
 
-管理者としては、マイクロソフトのチームは、ユーザーにとって最も重要なアプリケーションを強調表示をカスタマイズするのにはアプリケーションの設定のポリシーを使用できます。 固定し、表示される順序を設定するアプリケーションを選択します。 アプリケーション設定のポリシーを使用するサード ・ パーティまたは組織内の開発者によって構築されたものなど、組織内のユーザーを必要とするアプリケーションを紹介します。 どの組み込みの機能を管理するアプリケーション設定のポリシーを使用することも表示されます。
+管理者は、アプリセットアップポリシーを使って Microsoft Teams をカスタマイズし、ユーザーにとって最も重要なアプリを強調表示することができます。 ピン留めするアプリを選択し、表示される順序を設定します。 アプリセットアップポリシーを使用すると、サードパーティによって構築されたアプリや組織内の開発者を含め、組織内のユーザーが必要とするアプリを表示できます。 また、アプリセットアップポリシーを使用して、組み込みの機能の表示方法を管理することもできます。
 
-アプリケーション バーには、アプリが固定されています。 これは、チームのデスクトップ クライアント側にし、チームのモバイル クライアント (iOS および Android) の下部にあるバーです。 
+アプリはアプリバーに固定されます。 これは、Teams のデスクトップクライアントの側のバーであり、Teams のモバイルクライアント (iOS と Android) の下部にあります。 
 
-|チームのデスクトップ クライアント  |モバイル クライアントのチーム |
+|Teams のデスクトップクライアント  |Teams モバイルクライアント |
 |---------|---------|
-|![app-setup-policies-desktop-app-bar.png](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![app-setup-policies-mobile-app-bar.png](media/app-setup-policies-mobile-app-bar.png)      |
+|![app-setup-policies-desktop-app-bar](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![app-setup-policies-mobile-app-bar](media/app-setup-policies-mobile-app-bar.png)      |
 
-マイクロソフトのチームの管理センターでのアプリケーション設定のポリシーを管理します。 グローバル (組織全体の既定値) ポリシーを使用して、またはカスタム ポリシーを作成してユーザーに割り当てます。 組織内のユーザーを作成し、カスタム ・ ポリシーを設定しない限り、グローバル ポリシーが自動的に表示されます。
+アプリセットアップポリシーは、Microsoft Teams 管理センターで管理します。 グローバル (組織全体の既定) ポリシーを使用するか、カスタムポリシーを作成してユーザーに割り当てることができます。 組織内のユーザーは、カスタムポリシーを作成して割り当てる場合を除き、自動的にグローバルポリシーを取得します。
 
-アプリケーションを含めるには、グローバル ポリシーの設定を編集することができます。 チーム、組織内のユーザーのグループごとにカスタマイズする場合は、作成し、1 つまたは複数のカスタム ポリシーを割り当てます。 ユーザーには、カスタム ポリシーが割り当てられているが場合、は、ユーザーにそのポリシーが適用されます。 ユーザーには、カスタム ポリシーが割り当てられていない、グローバル ポリシーがユーザーに適用されます。
+グローバルポリシーの設定を編集して、目的のアプリを含めることができます。 組織内のさまざまなユーザーグループのチームをカスタマイズする場合は、1つ以上のカスタムポリシーを作成して割り当てます。 ユーザーにカスタムポリシーが割り当てられている場合は、そのポリシーがユーザーに適用されます。 ユーザーにカスタムポリシーが割り当てられていない場合は、グローバルポリシーがユーザーに適用されます。
 
-![アプリケーション ・ セットアップ ・ policies.png](media/app-setup-policies.png)
+![app-setup-policies](media/app-setup-policies.png)
 
 > [!NOTE]
-> 教育のチームがあればには、現時点では、グローバル ポリシーにリストが表示されない場合でもグローバル ポリシーでは既定の割り当てのアプリケーションが固定されるかを知る必要があります。 チーム クライアント上で固定されているアプリケーションの一覧で、4 番目のアプリケーションがあります。
+> 教育機関向けの Teams をお持ちの場合は、現時点ではグローバルポリシーで割り当てアプリが既定で固定されていることを知っておくことが重要です。現在のところ、グローバルポリシーには表示されません。 チームクライアントの固定されたアプリの一覧で4番目のアプリになります。
 
-## <a name="create-a-custom-app-setup-policy"></a>カスタム アプリケーション設定のポリシーを作成します。
+## <a name="create-a-custom-app-setup-policy"></a>カスタムアプリセットアップポリシーを作成する
 
-マイクロソフトのチームの管理センターを使用すると、カスタム ポリシーを作成します。
+Microsoft Teams 管理センターを使用して、カスタムポリシーを作成することができます。
 
-1. マイクロソフトのチーム管理センターの左側のナビゲーションで**チームのアプリケーション**に移動する > **のポリシーを設定**します。
-2. **新しいポリシー**を選択します。
-3. ポリシーのわかりやすい名前を入力し、[**アプリケーションの追加**] をクリックします。
-4. 有効にするか、チームにカスタム アプリケーションをアップロードできるようにするかどうかに応じて、**カスタム アプリケーションのアップロードを許可する**] をオフします。
-5. **追加には、アプリが固定されている**ウィンドウで、アプリケーションの**追加**] をクリックし、追加する検索します。 アプリケーションのアクセス許可ポリシーによってアプリケーションを抽出することもできます。 アプリケーションの一覧を選択したら、[**追加**を] をクリックします。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ** > **セットアップポリシー**] に移動します。
+2. [**新しいポリシー**] を選びます。
+3. ポリシーのわかりやすい名前を入力し、[**アプリの追加**] をクリックします。
+4. ユーザーがカスタムアプリを Teams にアップロードできるようにするかどうかに応じて、[**カスタムアプリのアップロードを許可**する] をオンまたはオフにします。
+5. [固定された**アプリの追加**] ウィンドウで、追加するアプリを検索し、[**追加**] をクリックします。 アプリのアクセス許可ポリシーによってアプリをフィルター処理することもできます。 アプリの一覧を選択したら、[**追加**] をクリックします。
 
-     ![アプリケーション ・ セットアップ ・ ポリシーの追加-apps.png](media/app-setup-policies-add-apps.png)
+     ![app-setup-policies-add-apps](media/app-setup-policies-add-apps.png)
 
-6. **保存**] をクリックし、チームの順序でアプリケーションを配置します。
+6. Teams で表示する順序でアプリを配置し、[**保存**] をクリックします。
 
-    ![app-setup-policies-new-policy-setup.png](media/app-setup-policies-new-policy-setup.png)
+    ![app-setup-policies-new-policy-setup](media/app-setup-policies-new-policy-setup.png)
 
-## <a name="edit-an-app-setup-policy"></a>アプリケーション設定ポリシーを編集します。
+## <a name="edit-an-app-setup-policy"></a>アプリのセットアップポリシーを編集する
 
-グローバル (組織) のポリシー、カスタム ポリシーを作成するなど、ポリシーを編集するのには、マイクロソフトのチームの管理センターを使用できます。
+Microsoft Teams 管理センターを使って、作成するグローバル (組織全体の既定) ポリシーやカスタムポリシーなどのポリシーを編集できます。
 
-1. マイクロソフトのチーム管理センターの左側のナビゲーションで**チームのアプリケーション**に移動する > **のポリシーを設定**します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ** > **セットアップポリシー**] に移動します。
 2. 編集するポリシーを選択します。 
-3. ここでは、変更します。 追加、削除、およびアプリケーションの順序を変更することができます。
-4. **[保存]** をクリックします。
+3. ここで、必要な変更を行います。 アプリの順序を追加、削除、変更できます。
+4. [**保存**] をクリックします。
 
-## <a name="assign-a-custom-app-setup-policy-to-users"></a>カスタム アプリケーション設定のポリシーをユーザーに割り当てる
+## <a name="assign-a-custom-app-setup-policy-to-users"></a>ユーザーにカスタムアプリセットアップポリシーを割り当てる
 
-カスタム ポリシーを個々 のユーザーまたはセキュリティ グループなど、ユーザーのグループまたは配布グループをカスタム ポリシーを割り当てるには、ビジネスの PowerShell モジュールの Skype を割り当てるには、マイクロソフトのチームの管理センターを使用できます。
+Microsoft Teams 管理センターを使用して、カスタムポリシーを個々のユーザーに割り当てるか、Skype for Business PowerShell モジュールを使用して、セキュリティグループや配布グループなどのユーザーグループにカスタムポリシーを割り当てることができます。
 
 > [!IMPORTANT]
-> PowerShell を使用して、ユーザーにポリシーを割り当てることをお勧めします。 作成、編集、およびポリシーを管理するには、マイクロソフトのチームの管理センターを使用します。
+> ユーザーにポリシーを割り当てるには、PowerShell を使用することをお勧めします。 Microsoft Teams 管理センターを使って、ポリシーを作成、編集、管理します。
 
-### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>カスタム アプリケーション設定のポリシーを個々 のユーザーに割り当てる
+### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>カスタムアプリセットアップポリシーを個々のユーザーに割り当てる
 
-1. マイクロソフトのチーム管理センターの左側のナビゲーションでは、**ユーザー**に移動し、し、[ユーザー] をクリックします。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ユーザー**] に移動し、ユーザーをクリックします。
 2. **[割り当てられているポリシー]** の隣にある **[編集]** を選択します。
-3. **チームのアプリケーション設定のポリシー**では、アプリケーションの設定ポリシーを割り当てるを選択し、**保存**します。
+3. [ **Teams アプリセットアップポリシー**] で、割り当てるアプリセットアップポリシーを選択し、[**保存**] を選択します。
 
-    ![アプリケーション ・ セットアップ ・ ポリシーの割り当て-policy.png](media/app-setup-policies-assign-policy.png)
+    ![app-setup-policies-assign-policy](media/app-setup-policies-assign-policy.png)
 
-割り当てることも、アプリケーションの設定のポリシーを 1 つまたは複数のユーザーとして次のように。
+また、次のように、1人または複数のユーザーにアプリセットアップポリシーを割り当てることもできます。
 
-1. **マイクロソフトのチーム管理センター**を参照して > **チームのアプリ** > **ポリシーをセットアップ**します。
-2. ポリシーを選択するには、ポリシー名の左側にクリックします。
-3. **ユーザーの管理**を選択します。
-4. **ユーザーの管理**ウィンドウで、表示名、ユーザー名、ユーザーの検索、名を選択し、[**追加**] をクリックします。 追加するユーザーごとにこの手順を繰り返します。
+1. **Microsoft teams 管理センター** > **Teams アプリ** > **セットアップポリシー**に移動します。
+2. ポリシー名の左側をクリックして、ポリシーを選択します。
+3. [**ユーザーの管理**] を選びます。
+4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] を選択します。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、[**保存**] を選択します。
 
-### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>グループ内のユーザーにカスタム アプリケーション設定のポリシーを割り当てる
+### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>カスタムアプリセットアップポリシーをグループ内のユーザーに割り当てる
 
-既に認められた複数のユーザーにカスタム アプリケーション設定ポリシーを設定することがあります。 などのセキュリティ グループ内のすべてのユーザーにポリシーを設定する場合があります。 グラフ モジュールの Azure Active Directory PowerShell およびビジネスの PowerShell モジュールの Skype への接続で、これを行うことができます。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。
+カスタムアプリセットアップポリシーは、既に指定した複数のユーザーに割り当てることができます。 たとえば、セキュリティグループ内のすべてのユーザーにポリシーを割り当てることができます。 これを行うには、Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。
 
-この例では、contoso 社の製薬会社の人事プロジェクト グループ内のすべてのユーザーに HR アプリケーションのセットアップのポリシーと呼ばれるカスタム アプリケーション設定のポリシーを割り当てます。  
+この例では、"人事アプリセットアップポリシー" というカスタムアプリセットアップポリシーを、Contoso 製薬 HR プロジェクトグループ内のすべてのユーザーに割り当てています。  
 
 > [!NOTE]
 > 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
@@ -113,7 +113,7 @@ $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-特定アプリケーションの設定のポリシーをグループ内のすべてのユーザーを割り当てます。 この例では、HR アプリケーションの設定のポリシーを勧めします。
+グループ内のすべてのユーザーを特定のアプリセットアップポリシーに割り当てます。 この例では、HR アプリのセットアップポリシーです。
 ```
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
 ``` 
@@ -121,60 +121,62 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 ## <a name="faq"></a>FAQ
 
-### <a name="working-with-app-setup-policies"></a>アプリケーション設定のポリシーを使用します。
+### <a name="working-with-app-setup-policies"></a>アプリセットアップポリシーを使用する
 
-#### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>マイクロソフトのチームの管理センターでは、どのような組み込みのアプリケーション設定のポリシーが含まれますか。
+#### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターには、どのような組み込みのアプリセットアップポリシーが含まれていますか?
 
-- **グローバル (組織全体の既定値)**: 別のポリシーを割り当てない限り、組織内のすべてのユーザーがこの既定のポリシーが適用されます。 暗証番号 (pin) アプリでは、ユーザーにとって最も重要なグローバル ポリシーを編集します。
-- **FirstLineWorker**: このポリシーは、先頭行の作業者に対して。 先頭行の作業者に、組織内、ことを割り当てることができます。 カスタム ポリシーを作成することによりのようなあること設定をアクティブにするためにユーザーにポリシーを割り当てることを知っているが重要です。 詳細については、この資料の「[カスタム アプリケーション設定のポリシーをユーザーに割り当てる](#assign-a-custom-app-setup-policy-to-users)を参照してください。
+- **グローバル (組織全体の既定)**: この既定のポリシーは、別のポリシーを割り当てない限り、組織内のすべてのユーザーに適用されます。 グローバルポリシーを編集して、ユーザーにとって最も重要なアプリをピン留めします。
+- **Firstlineworker**: このポリシーは、firstline worker に対して使用されます。 組織内の firstline worker に割り当てることができます。 作成するカスタムポリシーなど、設定をアクティブにするユーザーにポリシーを割り当てる必要があることを知っておくことが重要です。 詳細については、この記事の「[ユーザーにカスタムアプリセットアップポリシーを割り当てる](#assign-a-custom-app-setup-policy-to-users)」セクションを参照してください。
 
-#### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>固定されたアプリケーションの追加] ウィンドウでアプリケーションを見つけることができないのはなぜでしょうか。
+#### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>[ピン留めしたアプリの追加] ウィンドウでアプリが見つからないのはなぜですか?
 
-すべてのアプリケーション追加するにはチーム、アプリケーション設定のポリシーを使用します。 いくつかのアプリケーションは、この機能をサポートしない可能性があります。 固定できるアプリケーションを見つけるには、アプリケーションの**追加には、アプリが固定されている**ウィンドウ内の検索してください。 チームのデスクトップ クライアントに個人の範囲 (静的タブ)、bot が設定されているタブを固定することができます、これらのアプリケーションの**追加には、アプリが固定されている**ウィンドウで利用可能なです。
+アプリセットアップポリシーを使用して、すべてのアプリを Teams にピン留めすることはできません。 一部のアプリでは、この機能がサポートされていない可能性があります。 ピン留めできるアプリを見つけるには、[**ピン留め**されたアプリの追加] ウィンドウでアプリを検索します。 個人用のスコープ (静的タブ) とボットを含むタブは、Teams のデスクトップクライアントにピン留めすることができます。これらのアプリは、[固定された**アプリの追加**] ウィンドウで利用できます。
 
-チームのアプリケーション ストアでは、**固定されている追加のアプリケーション**ウィンドウに追加するにはチームのポリシーを使用するアプリケーションのみが含まれていますに、チームのすべてのアプリケーションが一覧表示されることに留意してください。 
+Teams app store にはすべての Teams アプリが一覧表示されます。 [**ピン留め**されたアプリの追加] ウィンドウには、ポリシーを通じてチームにピン留めできるアプリのみが含まれていることに注意してください。 
 
-#### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>私は、チームの管理者の教育教育のチームでのアプリケーション設定のポリシーについて理解するには何が必要でしょうか。
+#### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>私は教育管理者向けのチームです。教育機関向け Teams のアプリセットアップポリシーについて知っておくべきこと
 
-通話アプリでは、チームの教育では使用できません。 新しいカスタム アプリケーション設定のポリシーを作成するときは、アプリの一覧で通話アプリが表示されます。 ただし、アプリケーションは、クライアントのチームに固定表示されていないし、教育のユーザーのチームがチームでの呼び出しアプリケーションに表示されません。 
+- 通話アプリは、教育担当の Teams では利用できません。 新しいカスタムアプリのセットアップポリシーを作成すると、アプリの一覧に呼び出し元のアプリが表示されます。 ただし、アプリは Teams クライアントにはピン留めされておらず、教育機関のチームではチーム内の通話アプリを見ることはできません。 
 
-#### <a name="how-many-apps-can-be-added-to-a-policy"></a>どのように多くのアプリケーションは、ポリシーに追加できますか。
+- 現時点では、Teams Android アプリの教育機関向けの Teams では、ポリシーの変更は反映されません。 現在、教育機関向けの Teams のポリシーの変更をサポートする新しいバージョンのアプリを開発しています。
 
-最低 2 つのアプリケーションは、チームのモバイル クライアント (iOS および Android) に固定する必要があります。 ポリシーに 2 つ以上のアプリケーションがある場合は、モバイル クライアントはポリシーの設定は反映されず、代わりには引き続き既存の構成を使用します。
+#### <a name="how-many-apps-can-be-added-to-a-policy"></a>ポリシーに追加できるアプリの数を教えてください。
 
-#### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>ポリシーの変更を有効にするためにどのくらい時間がかかりますか。
+少なくとも2つのアプリが Teams モバイルクライアント (iOS と Android) にピン留めされている必要があります。 ポリシーのアプリが2つ未満の場合、モバイルクライアントはポリシーの設定を反映せず、代わりに既存の構成を使い続けます。
 
-グローバル ポリシーを編集またはポリシーを設定すると、変更を反映させるには、最大で 24 時間がかかることができます。
+#### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>ポリシーの変更が有効になるまでにはどのくらいの時間がかかりますか?
+
+グローバルポリシーを編集するか、ポリシーを割り当てると、変更が有効になるまで最大24時間かかることがあります。
 
 ### <a name="user-experience"></a>ユーザー エクスペリエンス
 
-#### <a name="how-can-users-see-all-their-pinned-apps-in-teams"></a>ユーザーはチーム内のすべてが固定されたアプリをどのように表示できますか。
+#### <a name="how-can-users-see-all-their-pinned-apps-in-teams"></a>ユーザーが Teams で固定されたすべてのアプリを表示するにはどうすればよいですか?
 
-ユーザーが指定されているすべてのアプリケーションを表示するには、ユーザーはインストールされたアプリの数とそのチームのクライアント ウィンドウのサイズに応じて以下を実行する必要があります。
+ユーザーに対して固定されているすべてのアプリを表示するには、インストールされているアプリの数とチームクライアントウィンドウのサイズに応じて、次の操作が必要になることがあります。
 
-|チームのデスクトップ クライアント |モバイル クライアントのチーム |
+|Teams のデスクトップクライアント |Teams モバイルクライアント |
 |---------|---------|
-|チームの横に、アプリケーション バーでは、**をクリックします。複数のアプリケーション**。| チームの下部にあるアプリケーション バーを機械に通します。|
-|![app-setup-policies-desktop-more-apps.png](media/app-setup-policies-desktop-more-apps.png)<br>   |![app-setup-policies-mobile-more-apps.png](media/app-setup-policies-mobile-more-apps.png)  
+|Teams のサイドにあるアプリバーで、[...] をクリックします。 **その他のアプリ**。| チームの下部付近にあるアプリバーで、上にスワイプします。|
+|![app-setup-policies-desktop-more-apps](media/app-setup-policies-desktop-more-apps.png)<br>   |![app-setup-policies-mobile-more-apps](media/app-setup-policies-mobile-more-apps.png)  
 
-#### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>チーム モバイル エクスペリエンスについて理解するには何が必要でしょうか。
+#### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Teams のモバイルエクスペリエンスについて知っておくべきこと
 
-チームのモバイル クライアント (iOS および Android) 静的タブで個人用のアプリケーションが現在サポートされていません。 アプリケーション ポリシーの設定によってチームのデスクトップ クライアントに固定されているアプリケーションは、可能性があります、チームのモバイル クライアントでは表示されません。 個人 bot は、モバイル クライアントのチャットにも表示されます。
+現在、Teams モバイルクライアント (iOS と Android) では、静的なタブを持つ個人用アプリはサポートされていません。 ポリシーに設定されているアプリによっては、Teams のデスクトップクライアントに固定されたアプリが Teams のモバイルクライアントに表示されない場合があります。 携帯電話クライアントのチャットには、個人用のボットが引き続き表示されます。
 
-チームのモバイル クライアントでは、ユーザーはアクティビティ、チャット、チームなどのコア ・ チームのアプリケーションを参照してくださいし、シフトなど、マイクロソフトからいくつかのファースト パーティのアプリケーションを固定することができます。
+Teams のモバイルクライアントでは、ユーザーにはアクティビティ、チャット、Teams などの主要な Teams アプリが表示され、シフトなどの一部のサードパーティ製アプリを Microsoft からピン留めすることができます。 
 
-#### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>ユーザーは、ポリシーによって固定されているアプリケーションの順序を変更できますか。
+#### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>ユーザーはポリシーによって固定されたアプリの順序を変更できますか。
 
-現時点では、ユーザーは、チームのモバイル クライアントではなくチームのデスクトップまたは web クライアントは、固定されたアプリケーションの順序を変更することができます。 
+現時点では、ユーザーはチームのモバイルクライアントで固定されたアプリの順序を変更できますが、Teams のデスクトップや web クライアントでは変更できません。 
 
-### <a name="custom-teams-apps"></a>サバイバル-カスタム アプリケーション
+### <a name="custom-teams-apps"></a>カスタム Teams アプリ
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>自分の所属組織のカスタム チームのアプリケーションをビルドおよび発行、AppSource またはテナント アプリケーション カタログには、アプリケーションをチームでアプリケーション バーを固定するときに期待どおりにアプリケーションのアイコンが表示されていません。 どのように修正しますか。 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>組織では、カスタム Teams アプリを構築し、AppSource またはテナントのアプリカタログに公開していますが、アプリが Teams のアプリバーにピン留めされている場合、アプリのアイコンは期待どおりに表示されません。 問題を解決するにはどうすればよいですか? 
 
-アプリケーションを送信する前に、ロゴのガイドラインに従うことを確認します。 詳細については、[販売者のダッシュ ボードの提出書類のチェックリスト](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)を参照してください。 
+アプリを申請する前に、ロゴガイドラインに従っていることを確認してください。 詳細については、「[販売業者ダッシュボードの申請のチェックリスト](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)」を参照してください。 
 
  ## <a name="related-topics"></a>関連トピック
 - [Teams でのアプリの管理設定](admin-settings.md)
 - [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
 - [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
-- [テナント アプリケーション カタログにチームのクライアントからアプリケーションを発行します。](tenant-apps-catalog-teams.md)
+- [Teams クライアントからテナントアプリカタログにアプリを発行する](tenant-apps-catalog-teams.md)

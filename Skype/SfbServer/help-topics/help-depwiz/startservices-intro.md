@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployStartServicesIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
-description: ビジネス サーバー 2015 の役割を持つサーバーを展開することで Skype のサービスを開始するには、最初の画面を確認します。 ビジネス サーバーは、Skype を起動して実行されたコマンドは待たない、サービスを起動することを確認します。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [次へ] をクリックして [サービスの開始] タスクを開始します。
-ms.openlocfilehash: bd5b73b293c9f5de8d9a199942492f3554aa3b4c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 展開している Skype for Business Server 2015 役割サーバーでサービスを開始するには、[はじめに] 画面を確認します。 Skype for Business サーバーを起動するために発行されたコマンドが、サービスの開始を待機していないことに注意してください。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [次へ] をクリックして [サービスの開始] タスクを開始します。
+ms.openlocfilehash: 6e056f650b35953e83ff2c726b88de8630071724
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887119"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289548"
 ---
 # <a name="startservices-intro"></a>サービスの開始 (開始)
  
-ビジネス サーバー 2015 の役割を持つサーバーを展開することで Skype のサービスを開始するには、最初の画面を確認します。 ビジネス サーバーは、Skype を起動して実行されたコマンドは待たない、サービスを起動することを確認します。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [**次へ**] をクリックして [**サービスの開始**] タスクを開始します。
+展開している Skype for Business Server 2015 役割サーバーでサービスを開始するには、[はじめに] 画面を確認します。 Skype for Business サーバーを起動するために発行されたコマンドが、サービスの開始を待機していないことに注意してください。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [**次へ**] をクリックして [**サービスの開始**] タスクを開始します。
   
 

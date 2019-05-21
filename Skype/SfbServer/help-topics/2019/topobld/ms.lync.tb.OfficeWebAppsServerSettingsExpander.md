@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 構成されている Office の Web アプリケーション サーバーのプロパティを編集するとします。 編集できるプロパティは次のとおりです。
-ms.openlocfilehash: 48b87c7d3a30ed2b2c4afa5c6f999e25da9f80ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 構成済みの Office Web Apps サーバーのプロパティを編集します。 編集できるプロパティは次のとおりです。
+ms.openlocfilehash: 61110a5db604d6fb3cbe89c0da428428820917a2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906698"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303278"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Office Web Apps サーバーの設定を編集する
 
-構成されている Office の Web アプリケーション サーバーのプロパティを編集するとします。 編集できるプロパティは次のとおりです。
+構成済みの Office Web Apps サーバーのプロパティを編集します。 編集できるプロパティは次のとおりです。
 
- **Office Web アプリケーション サーバーの FQDN**: このプロパティは、Office Web アプリケーション サーバーの完全修飾ドメイン名を定義し、ドメイン ネーム システム (DNS) ホストの A または AAAA (IPv6 が使用されている) 場合に一致する必要がありますレコードです。
+ **Office Web Apps サーバー FQDN**: このプロパティは、Office Web apps サーバーの完全修飾ドメイン名を定義し、ドメインネームシステム (DNS) のホスト a または AAAA (IPv6 が使用されている場合) レコードと一致する必要があります。
 
- **Office Web アプリケーション サーバーの検出 URL**: Office Web アプリケーション サーバーへのクライアント アクセスの統一リソース ロケーター (URL)、別のネットワーク ゾーンの内部ネットワーク以外のサーバーが配置されている場合既定値からこのアドレスを編集する必要があります、展開します。
+ **Office Web Apps サーバー検出 url**: Office Web apps サーバーへのクライアントアクセスのための uniform resource LOCATOR (url)。サーバーが内部ネットワーク以外の別のネットワークゾーンに配置されている場合は、既定のアドレスを変更することが必要になることがあります。デプロイメント.
 
 このサーバーの展開先が境界ネットワークであるか、または内部展開から境界ネットワーク、信頼性の低いネットワーク、およびインターネットを分離する内部ファイアウォールの外にある他のネットワーク ゾーンである場合は、[**Office Web Apps サーバーは外部ネットワークで展開**] チェック ボックスをオンにします。
 

@@ -4,32 +4,32 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ビジネス 2019 エッジ サーバーのフェデレーション ルート、Skype を移行した後は、フェデレーションが期待どおりに実行されることを確認するのにはいくつかの機能テストを行う必要があります。 外部ユーザー アクセスのテストには、次の一部またはすべてを含む、組織をサポートする外部ユーザーの種類を含める必要があります。
-ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for Business Server 2019 エッジサーバーへのフェデレーションルートの移行が完了したら、いくつかの機能テストを実行して、フェデレーションが期待どおりに実行されることを確認する必要があります。 外部ユーザーアクセスのテストには、次のいずれか、またはすべてを含む、組織がサポートしている各種類の外部ユーザーを含める必要があります。
+ms.openlocfilehash: a07cbfc8596cfd49760af1fcee7df90eca362229
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231351"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292173"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>外部ユーザーのフェデレーションとリモート アクセスの確認
 
-ビジネス 2019 エッジ サーバーのフェデレーション ルート、Skype を移行した後は、フェデレーションが期待どおりに実行されることを確認するのにはいくつかの機能テストを行う必要があります。 外部ユーザー アクセスのテストには、次の一部またはすべてを含む、組織をサポートする外部ユーザーの種類を含める必要があります。
+Skype for Business Server 2019 エッジサーバーへのフェデレーションルートの移行が完了したら、いくつかの機能テストを実行して、フェデレーションが期待どおりに実行されることを確認する必要があります。 外部ユーザーアクセスのテストには、次のいずれか、またはすべてを含む、組織がサポートしている各種類の外部ユーザーを含める必要があります。
   
-### <a name="test-connectivity-of-external-users-and-external-access"></a>外部のユーザーと外部アクセスの接続をテストします。
+### <a name="test-connectivity-of-external-users-and-external-access"></a>外部ユーザーと外部アクセスの接続性をテストする
 
-- 少なくとも 1 つのフェデレーション ドメイン、内部のビジネス サーバー 2019、Skype のユーザーと従来のユーザーからのユーザーをインストールします。 インスタント メッセージング (IM)、プレゼンス、オーディオとビデオをテストする (A/V)、デスクトップの共有とします。
+- 少なくとも1つのフェデレーションドメイン、Skype for Business Server 2019 の内部ユーザー、レガシインストールのユーザー。 インスタントメッセージング (IM)、プレゼンス、音声/ビデオ (A/V)、デスクトップ共有をテストします。
     
-- 組織をサポートするなど準備が完了した対象の各パブリック IM サービス プロバイダーのユーザー ビジネス サーバー 2019 および従来のインストール時にユーザーの Skype 上のユーザーと通信します。 
+- 組織がサポートしている各パブリック IM サービスプロバイダー (およびプロビジョニングが完了した状態) のユーザーは、Skype for Business Server 2019 およびレガシインストールのユーザーとの通信を行います。 
     
-- 匿名ユーザーが会議に参加することであることを確認します。
+- 匿名ユーザーが会議に参加できることを確認します。
     
-- 従来でホストされているユーザーは、リモート ユーザー アクセスを使用してをインストール (i のログ %ndns Lync Server と Skype からビジネスの VPN のせずにイントラネットの外部) のビジネス サーバー 2019、Skype のユーザーと従来のインストール時にユーザーにします。 テスト IM、プレゼンス、A/V、およびデスクトップの共有します。
+- リモートユーザーアクセスを使用してホストされている (Lync server/skype for business を、イントラネットの外部から、VPN を使わずに)、レガシインストールのユーザー2019に対してホストされているユーザー。 IM、プレゼンス、A/V、およびデスクトップ共有をテストします。
     
-- ビジネス サーバー 2019、Skype のユーザーと従来のユーザーとリモート ユーザー アクセス (ログ Skype にからのビジネス サーバー 2019 の VPN のせずにイントラネットの外部) を使用して、ビジネス サーバー 2019 の Skype 上でホストされているユーザーをインストールします。 テスト IM、プレゼンス、A/V、およびデスクトップの共有します。
+- Skype for business server 2019 でホストされているユーザー (リモートユーザーアクセスを使っていますが、skype for business server 2019 のユーザーと、レガシインストールのユーザーによる VPN 2019 を使用していない場合)。 IM、プレゼンス、A/V、およびデスクトップ共有をテストします。
     
 

@@ -13,45 +13,45 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Office 365 の管理者は、組織内の個別のユーザーについて、プロバイダー、既定の有料電話番号または無料電話番号、会議 ID、または PIN などの Microsoft Teams の電話会議の設定を編集することができます。 '
-ms.openlocfilehash: 55d9b326b98dd24cb98262b7104e7de1361a6e8e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Office 365 管理者は、組織内の個々のユーザーに対して、プロバイダー、既定の有料電話番号、フリーダイヤル番号、会議 ID、PIN などの Microsoft Teams の音声会議の設定を編集できます。 '
+ms.openlocfilehash: af5329d495303b33b3fe6b86db47b33ca5efce09
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202701"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292096"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの電話会議の設定を管理する
 
-Office 365 管理者としてSkype for Business Onlineの電話会議の設定 を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーの設定です。 組織の設定を編集する場合は、[組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)を参照してください。
+Office 365 管理者としてSkype for Business Onlineの電話会議の設定 を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーの設定です。 組織の設定を編集する場合は、「[組織の電話会議の設定を管理](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)する」を参照してください。
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) マイクロソフトのチーム管理センターを使用してください。
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30.png](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
 2. [**編集**] をクリックします。
 
-3. [**オーディオ会議**では、次のいずれかを変更します。
+3. [**電話会議**] で、次のいずれかを変更します。
 
-|**設定**|**説明**|
+|**]**|**説明**|
 |:-----|:-----|
-|**電話会議**|音声会議をオンまたはオフ、ユーザーをクリックして**音声会議**の横にあるし、[**電話会議**] ウィンドウで**編集**を、**オーディオ会議**で、オフを切り替えます。|
-|**会議の情報を電子メールで送信します。**  |ユーザーに電子メールで会議 ID と電話番号とをすぐに送信する場合にのみ、このリンクをクリックします。 (PINはこのメールは含まれません。) [ユーザーに電子メールで電話会議の情報を送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)を参照してください。  |
-|**会議 ID**  |ユーザーの会議 ID をリセットする必要がある場合は、**会議 ID のリセット**をクリックします。 詳細については、 [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)を参照してください。  |
-|**暗証番号 (PIN)** |ユーザーの PIN をリセットする必要がある場合は、 **PIN のリセット**をクリックします。 詳細については、 [電話会議の PIN のリセット](reset-the-audio-conferencing-pin-in-teams.md)を参照してください。 |
-|**既定の会議通話の電話番号**(必須) |これらをオーディオ会議ブリッジで設定されている番号となります。 ビジネスおよびマイクロソフトのチームの会議出席依頼の Skype に表示する数値書式を設定します。 既定の有料電話番号を変更するには、**オーディオ会議**の横にあると、[**電話会議**] ウィンドウで**編集**をクリックして、**有料電話番号**の下の数字を選択します。 |
-|**このユーザーからの招待は、フリー ダイヤル番号を含めることができます。**|この設定を変更するには、**オーディオ会議**の横にあると、[**電話会議**] ウィンドウで**編集**をクリックして、**このユーザーからの要求を達成するためのフリー ダイヤル番号**で、オフを切り替えます。 |
-|**認証されていないユーザーは、会議の最初の人**|この設定を変更するのには**認証されていないユーザーは、会議の最初の人**で、オフを切り替えます。
-|**ダイヤルアウトのアクセス許可**|この設定を変更するには、**オーディオ会議**の横にあると、[**電話会議**] ウィンドウで**編集**をクリックして、**会議から発信**] のオプションを選択します。|
+|**電話会議**|ユーザーの電話会議のオンとオフを切り替えるには、[**電話会議**] の横にある [**編集**] をクリックし、[**電話会議**] ウィンドウで、[**電話会議**のオンとオフを切り替えます] をクリックします。|
+|**会議情報をメールで送信する**  |ユーザーに電子メールで会議 ID と電話番号とをすぐに送信する場合にのみ、このリンクをクリックします。 (PINはこのメールは含まれません。) [ユーザーに電子メールで電話会議の情報を送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)を参照してください。  |
+|**会議 ID**  |ユーザーの会議 ID をリセットする必要がある場合は、[**会議 id のリセット**] をクリックします。 詳細については、 [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)を参照してください。  |
+|**ヒント** |ユーザーの PIN をリセットする必要がある場合は、[ **pin のリセット**] をクリックします。 詳細については、 [電話会議の PIN のリセット](reset-the-audio-conferencing-pin-in-teams.md)を参照してください。 |
+|**既定の電話会議の有料電話番号**任意 |これらは、電話会議ブリッジで設定された番号になります。 Skype for Business および Microsoft Teams の会議出席依頼に表示する番号の書式を設定します。 既定の有料電話番号を変更するには、[電話**会議**] の横にある [**編集**] をクリックし、[電話**会議**] ウィンドウで、[**有料電話番号**] の番号を選びます。 |
+|**このユーザからの招待には無料番号を含めることができます。**|この設定を変更するには、[電話**会議**] の横にある [**編集**] をクリックし、[電話**会議**] ウィンドウで [**このユーザーからの会議出席依頼に無料の電話番号を含める**] をオンまたはオフに切り替えます。 |
+|**認証されていないユーザーが会議の最初のユーザーになることがある**|この設定を変更するには、[認証されてい**ないユーザーは会議の最初のユーザーになる**] のオンとオフを切り替えることができます。
+|**ダイヤルアウトのアクセス許可**|この設定を変更するには、[電話**会議**] の横にある [**編集**] をクリックし、[**電話会議**] ウィンドウで、[**会議からのダイヤルアウト**] のオプションを選択します。|
 
-![ユーザーの電話会議の設定を示しています。](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
+![ユーザーの電話会議の設定を表示する](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
  
 
 > [!Note]

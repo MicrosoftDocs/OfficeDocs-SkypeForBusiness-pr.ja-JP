@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
-ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 電話番号を Skype for Business Online から別の電話サービス プロバイダーまたは通信業者に転送または移行するには、PIN を手動で設定する必要があります。 PIN を設定した後、電話番号を移行するときにその PIN を含める必要があります。
+ms.openlocfilehash: 64eaa010939c10a25e7c1fb4c53672a27296ebe1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229926"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290856"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに移行するための PIN を設定する
 
-To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
+電話番号を Skype for Business Online から別の電話サービス プロバイダーまたは通信業者に転送または 移行する には、PIN を手動で設定する必要があります。** PIN を設定した後、電話番号を移行するときにその PIN を含める必要があります。 
   
 > [!IMPORTANT]
 > 移行した PIN は、米国内の組織においてのみ使用されます。 
@@ -51,13 +51,13 @@ To transfer or  *port out*  phone numbers from Skype for Business Online to anot
     
 ## <a name="set-up-your-pin"></a>PIN の設定
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
+2. **Microsoft Teams 管理センター** > の**従来のポータル**に移動します。
     
-3. 左側のナビゲーションの**音声**を選択します > **ポート注文**します。
+3. 左側のナビゲーションで、[**音声** > **ポートの注文**] を選択します。
     
 4. 別の通信業者に転送または移行する番号に使われる **[PIN の設定と管理]** をクリックします。
     

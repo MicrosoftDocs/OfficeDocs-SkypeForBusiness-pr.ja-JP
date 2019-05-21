@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: これは、仲介サーバー、およびこの公衆交換電話網 (PSTN) ゲートウェイに関する基本的な情報は他に関連付けられているノードの完全修飾ドメイン名 (FQDN) を示しています。 以下のアクションを実行できます。
-ms.openlocfilehash: e0a19371b251f7d253b69d47294752d8a11df552
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このノードには、完全修飾ドメイン名 (FQDN)、関連の仲介サーバー、およびこの公衆交換電話網 (PSTN) ゲートウェイに関するその他の基本的な情報が表示されます。 以下のアクションを実行できます。
+ms.openlocfilehash: 52c328f082d29bca4a3253daf665ddcc7fadf4b8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910568"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289876"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN ゲートウェイ スコープ ノード
  
-これは、仲介サーバー、およびこの公衆交換電話網 (PSTN) ゲートウェイに関する基本的な情報は他に関連付けられているノードの完全修飾ドメイン名 (FQDN) を示しています。 以下のアクションを実行できます。
+このノードには、完全修飾ドメイン名 (FQDN)、関連の仲介サーバー、およびこの公衆交換電話網 (PSTN) ゲートウェイに関するその他の基本的な情報が表示されます。 以下のアクションを実行できます。
   
 - **プロパティの編集**。このゲートウェイの [**プロパティの編集**] ページを開きます。このページで、FQDN (トポロジがまだ公開されていない場合)、リッスン ポート、トランスポート プロトコル、および代替メディアの IP アドレスを変更できます。
     

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'ダイヤルの通話プラン (PSTN の呼び出しのダイヤル プラン) の種類は、Office 365 を使用し、組織のいずれかを選択する方法について説明します。  '
-ms.openlocfilehash: 8dc0bb49d37c2df1903332eb71809869d9ebf66a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Office 365 で利用できるダイヤル通話プランの種類と、組織に合わせて選ぶ方法について説明します。  '
+ms.openlocfilehash: 0439b1f18569ffb04fed7a0f2d00100fcbc7778e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211784"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288167"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -38,7 +38,7 @@ ms.locfileid: "32211784"
 
 ## <a name="tenant-dial-plan-scope"></a>テナント ダイヤル プランのスコープ
 
-ダイヤル プランのスコープによって、ダイヤル プランを適用できる階層レベルが決まります。 スコープとは異なるビジネス サーバー設置型展開で、Skype の。 クライアントは、ユーザーが Skype for Business Online にログオンした際に自動的に提供されるプロビジョニング設定から、適切なダイヤル プランを入手します。 管理者として、リモート PowerShell を使ってダイヤル プラン スコープ レベルの管理と割り当てを行うことができます。
+ダイヤル プランのスコープによって、ダイヤル プランを適用できる階層レベルが決まります。 スコープは、Skype for Business Server のオンプレミス展開のものとは異なります。 クライアントは、ユーザーが Skype for Business Online にログオンした際に自動的に提供されるプロビジョニング設定から、適切なダイヤル プランを入手します。 管理者として、リモート PowerShell を使ってダイヤル プラン スコープ レベルの管理と割り当てを行うことができます。
 
 Skype for Business Online には、サービス スコープおよび (組織向けの) テナント スコープの 2 種類のダイヤル プランがあります。サービス スコープのダイヤル プランは、Office 365 電話システムを利用できるすべての国または地域に対して定義されます。各ユーザーには、割り当てられた Office 365 の利用場所と一致するサービス国のダイヤル プランが自動的に割り当てられます。サービス国のダイヤル プランは変更できませんが、サービス国のダイヤル プランを強化するテナント スコープのダイヤル プランは作成できます。クライアントはプロビジョニングされると、サービス国のダイヤル プランと適切なスコープのテナント ダイヤル プランの組み合わせとなる「有効なダイヤル プラン」を入手します。したがって、テナント ダイヤル プランですべての正規化ルールを定義する必要はありません。サービス国のダイヤル プランにすでに存在する可能性があるためです。
 
@@ -128,7 +128,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 |7digitcallingRedmond  <br/> |7 桁の番号をレドモンドの電話番号に変換します。  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 は +14255550100 に変換されます  <br/>|
 |RedmondOperator  <br/> |0 をレドモンドのオペレーター呼び出し番号に変換します。  <br/> |^0$  <br/> |+14255550100  <br/> |0 は +14255550100 に変換されます  <br/> |
 |RedmondSitePrefix  <br/> |オンネット プレフィックス (6) およびレドモンドのサイト コード (222) 付きの番号を変換します。  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 は +14255550100 に変換されます  <br/> |
-|5digitRange  <br/> |3 から 7 を含むその範囲で始まる 5 桁の内線番号を変換します。  <br/> |^([3-7]\\d{4})$  <br/> |+ 142555$ 1 <br/> |54567 は +14255554567 に変換されます  <br/> |
+|5digitRange  <br/> |3 から 7 を含むその範囲で始まる 5 桁の内線番号を変換します。  <br/> |^([3-7]\\d{4})$  <br/> |+ 142555 $ 1 <br/> |54567 は +14255554567 に変換されます  <br/> |
 |PrefixAdded  <br/> |1 桁目と 3 桁目に制限を付けて、9 桁の番号の前に国番号を追加します。  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 は 14255554567 に変換されます  <br/> |
 |NoTranslation  <br/> |5 桁と一致しますが、変換は行いません。  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 は 34567 に変換されます  <br/> |
 

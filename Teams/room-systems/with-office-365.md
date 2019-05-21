@@ -3,7 +3,7 @@ title: Office 365 での Microsoft Teams ミーティングを展開する
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,107 +13,107 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Microsoft Office 365 でのチーム会議室を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: ed95eb489cad7ebea95a96a069e58421aff61380
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このトピックでは、Office 365 で Microsoft Teams のルームを展開する方法について説明します。
+ms.openlocfilehash: 5c67976b8e4d946a29c7dbe826c131a5b85dcaea
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916418"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288453"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 での Microsoft Teams ミーティングを展開する
 
-マイクロソフト、マイクロソフトのチームまたは Skype ビジネスと Exchange の両方がオンラインで、Office 365 でのチーム会議室を展開する方法の詳細については、このトピックを参照してください。
+このトピックでは、microsoft teams または Skype for Business および Exchange が両方ともオンラインの Office 365 で Microsoft Teams ルームを展開する方法について説明します。
 
-ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または互換性のある Microsoft チームの会議室のユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。 場合は、マイクロソフト チームの会議室デバイスを使用してアカウントを構成するのには、次の手順に従うことができます。
+ユーザーアカウントをセットアップする最も簡単な方法は、リモートの Windows PowerShell を使用してアカウントを構成することです。 Microsoft には、新しいユーザーアカウントを作成するのに役立つスクリプト、または既存のリソースアカウントを、互換性のある Microsoft Teams 室のユーザーアカウントに変換するために使用している既存のリソースアカウントを検証するための SkypeRoomProvisioningScript が用意されてい[ます](https://go.microsoft.com/fwlink/?linkid=870105)。 必要に応じて、次の手順に従って、Microsoft Teams の会議室のデバイスで使用するアカウントを構成することができます。
 
 ## <a name="requirements"></a>要件
 
-Microsoft Office 365 でのチーム会議室を展開する前に、要件を満たしていることを確認します。 詳細については、[マイクロソフト チームの会議室の要件](requirements.md)を参照してください。
+Microsoft Teams のルームを Office 365 に展開する前に、要件を満たしていることを確認してください。 詳細については、「 [Microsoft Teams の会議室の要件](requirements.md)」を参照してください。
 
-ビジネス用の Skype を有効にするには、以下が必要です。
+Skype for Business を有効にするには、次のものが必要です。
 
-- (プラン 2 の場合、または企業レベルの計画)、オンライン ビジネスの Skype 以降、Office 365 のプランで。 計画では、ダイヤルイン会議機能を許可する必要があります。
+- Office 365 プランで Skype for Business Online (プラン2、またはエンタープライズベースのプラン) 以上。 このプランでは、ダイヤルイン会議機能を許可する必要があります。
 
-- 会議にダイヤルイン機能が必要な場合は、音声会議や電話システムのライセンスを必要があります。  会議からのダイヤル ・ アウト機能が必要な場合、国内または国内および海外を呼び出すことを計画する必要があります。
+- 会議からダイヤルイン機能が必要な場合は、電話会議と電話システムのライセンスが必要です。  会議からダイヤルアウト機能が必要な場合は、国内または国内の通話プランが必要です。
 
-- テナント ユーザーは、Exchange のメールボックスが必要です。
+- テナントユーザーは Exchange メールボックスを持っている必要があります。
 
-- チームの会議室を Microsoft アカウントにする必要が最低限、Skype ビジネス オンライン (プラン 2) のライセンスが、Exchange Online のライセンスは必要ありません。 詳細については、[マイクロソフト チームの会議室のライセンス](skype-room-systems-v2.md)を参照してください。
+- Microsoft Teams のルームアカウントには、少なくとも Skype for Business Online (プラン 2) ライセンスが必要ですが、Exchange Online のライセンスは必要ありません。 詳細については、「 [Microsoft Teams ルームライセンス](skype-room-systems-v2.md)」を参照してください。
 
-Skype のビジネスのオンラインの計画の詳細については、 [Skype](https://technet.microsoft.com/library/jj822172.aspx)を参照してください。
+Skype for Business Online プランの詳細については、「 [skype For Business Online サービスの説明](https://technet.microsoft.com/library/jj822172.aspx)」を参照してください。
 
 ### <a name="add-a-device-account"></a>デバイス アカウントを追加する
 
-1. オンライン PowerShell を交換するために接続します。 手順については、 [Exchange オンライン PowerShell への接続](https://go.microsoft.com/fwlink/p/?linkid=396554)を参照してください。
+1. Exchange Online PowerShell に接続します。 手順については、「 [Exchange Online PowerShell に接続する](https://go.microsoft.com/fwlink/p/?linkid=396554)」を参照してください。
 
-2. Exchange オンラインの PowerShell では、新しい会議室メールボックスを作成または既存の会議室メールボックスを変更します。 既定では、室メールボックスはありません関連付けられているアカウントは、作成または Skype ルーム システム v2 を認証することを許可する会議室メールボックスを変更するときにアカウントを追加する必要があります。
+2. Exchange Online PowerShell で、新しい会議室のメールボックスを作成するか、既存の会議のメールボックスを変更します。 既定では、会議室メールボックスにはアカウントが関連付けられていないため、Skype Room Systems v2 での認証を許可する会議室メールボックスを作成または変更する場合は、アカウントを追加する必要があります。
 
-   - 新しい会議室メールボックスを作成するには、次の構文を使用します。
+   - 新しい会議室のメールボックスを作成するには、次の構文を使用します。
 
      ``` PowerShell
      New-Mailbox -Name "<Unique Name>" -Alias <Alias> -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID <Account> -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     この例では、次の設定で新しい会議室メールボックスを作成します。
+     この例では、次の設定で新しい会議室のメールボックスを作成します。
 
-     - 名前: プロジェクト-Rigel-01
+     - Name: Project-Rigel-01
 
-     - 別名: ProjectRigel01
+     - エイリアス: ProjectRigel01
 
      - アカウント: ProjectRigel01@contoso.onmicrosoft.com
 
-     - アカウントのパスワード: P@$$W0rd5959
+     - アカウントパスワード: P @ $ $W 0rd5959
 
      ``` PowerShell
      New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
      ```
 
-   - 既存の会議室メールボックスを変更するには、次の構文を使用します。
+   - 既存の会議のメールボックスを変更するには、次の構文を使用します。
 
      ``` PowerShell
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     この例では、ProjectRigel02、エイリアスの値があり、9898P@$$W0rd にパスワードを設定する既存の会議室メールボックスのアカウントが有効にします。 アカウントが既存のエイリアス値が ProjectRigel02@contoso.onmicrosoft.com をすることに注意してください。
+     この例では、エイリアス値 ProjectRigel02 を持つ既存のルームメールボックスのアカウントを有効にし、0rd に対してパスワードを 9898P @ $ $W に設定します。 既存のエイリアス値が原因で、アカウントが ProjectRigel02@contoso.onmicrosoft.com されることに注意してください。
 
      ``` PowerShell
      Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   詳細な構文とパラメーター情報は、[新規メールボックス](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox)および[セットのメールボックス](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)を参照してください。
+   構文とパラメーターの詳細については、「[新しいメールボックス](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox)と[設定-](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)メールボックス」を参照してください。
 
 
-3. Exchange オンラインの PowerShell では、会議エクスペリエンスを向上させるために会議室メールボックスに次の設定を構成します。
+3. Exchange Online PowerShell で、会議の操作性を向上させるために、会議室メールボックスで次の設定を構成します。
 
-   - AutomateProcessing: 自動承諾 (会議の開催者が人間の介入なしで直接ルーム予約の意思決定を受信: 無料 = 受け入れる; 時間 = 辞退)。
+   - 自動的な処理: 自動承諾 (会議の開催者は、手動での介入なく、会議の開催者が会議室の予約を直接受け取ります: 無料 = accept; busy = 拒否。)
 
-   - AddOrganizerToSubject: の $false (会議の開催者は会議出席依頼の件名にない追加)。
+   - Addオーガナイザー Ertosubject: $false (会議の開催者は、会議出席依頼の件名に追加されません)。
 
-   - DeleteComments: $false (会議出席依頼のメッセージ本文に任意のテキストを保持)。
+   - DeleteComments: $false (入力した会議出席依頼のメッセージ本文に含まれるテキストを保持)
 
-   - DeleteSubject: $false (まま会議出席依頼の件名)
+   - DeleteSubject: $false (入力した会議出席依頼の件名を保持)
 
-   - RemovePrivateProperty: $false (ことを元の会議の会議の開催者から送信されたプライベート フラグの要求に指定されたままになります)。
+   - RemovePrivateProperty: $false (元の会議出席依頼の開催者によって送信されたプライベートフラグが指定されたままになります)。
 
-   - (AdditionalResponse パラメーターで指定されたテキストは、会議出席依頼に追加されます)。 AddAdditionalResponse: $true
+   - AddAdditionalResponse: $true (AdditionalResponse パラメーターで指定されたテキストが会議出席依頼に追加されます)
 
-   - AdditionalResponse:「これは、Skype の会議室!」 (会議出席依頼に追加する追加のテキストです。)
+   - AdditionalResponse: "これは Skype 会議室です。" (会議出席依頼に追加する追加のテキスト)
 
-   この例では、という名前のプロジェクト-Rigel-01 会議室メールボックスでこれらの設定を構成します。
+   この例では、Rigel-01 という名前の会議室メールボックスでこれらの設定を構成します。
 
    ``` PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   詳細な構文とパラメーター情報は、[一連の CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)を参照してください。
+   構文とパラメーターの詳細については、「 [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
-4. MS オンラインの PowerShell を実行して、Active Directory の設定を行うことへの接続、 `Connect-MsolService -Credential $cred` powershell コマンドレットです。   詳細については、Active Directory は、 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)を参照してください。 
+4. MS Online PowerShell に接続して、 `Connect-MsolService -Credential $cred` powershell コマンドレットを実行して Active Directory の設定を行います。   Active Directory の詳細については、「 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0)はサポートされていません。 
 
-5. パスワードを期限切れにしたくない場合は、次の構文を使用します。
+5. パスワードを無期限にする場合は、次の構文を使用します。
 
     ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
@@ -123,7 +123,7 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   この例では、アカウントの有効期限なしに ProjectRigel01@contoso.onmicrosoft.com のパスワードを設定します。
+   次の例では、アカウント ProjectRigel01@contoso.onmicrosoft.com のパスワードを無期限に設定します。
 
   ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
@@ -133,7 +133,7 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
    Set-AzureADUserPassword -UserPrincipalName ProjectRigel01@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
-   次のコマンドを実行することによってアカウントの電話番号を設定することも。
+   次のコマンドを実行して、アカウントの電話番号を設定することもできます。
 
   ``` PowerShell
     Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
@@ -143,7 +143,7 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. デバイスのアカウントは、有効な Office 365 のライセンスでは、する必要があるか、Exchange およびマイクロソフトのチームまたはビジネス用の Skype は動作しません。 ライセンスがあれば、利用場所を割り当てる、デバイスのアカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定します。 使用することができます。`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 次のように、Office 365 テナントの使用可能な Sku の一覧を取得します。
+6. デバイスアカウントには、有効な Office 365 ライセンスが必要です。または、Exchange と Microsoft Teams、または Skype for Business が動作しません。 ライセンスを所有している場合は、使用場所をデバイスアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 使用できる方法`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Office 365 テナントで利用可能な Sku の一覧を取得するには、次の手順を実行します。
 
   ``` Powershell
   Get-MsolAccountSku
@@ -153,7 +153,7 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   使用して、ライセンスを追加する次に、`Set-MsolUserLicense` <!--Set-AzureADUserLicense --> コマンドレットです。 この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。
+   次に、次の方法を使用してライセンスを追加することができます。`Set-MsolUserLicense` <!--Set-AzureADUserLicense --> コマンドレット. この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。
 
   ``` PowerShell
    Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
@@ -167,11 +167,11 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```   -->
 
-   詳細については、 [Office 365 の PowerShell でのユーザー アカウントにライセンスを割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)を参照してください。
+   詳細な手順については、「 [Office 365 PowerShell を使用してライセンスをユーザーアカウントに割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
 
-7. 次に、ビジネスの Skype でデバイスのアカウントを有効にする必要があります。 お客様の環境は、[マイクロソフト チームの会議室の要件](requirements.md)に定義されている要件を満たしていることを確認します。
+7. 次に、Skype for Business でデバイスアカウントを有効にする必要があります。 環境が、 [Microsoft Teams の会議室の要件](requirements.md)で定義されている要件を満たしていることを確認します。
 
-   ( [Skype オンライン PowerShell のビジネス コンポーネントをインストール](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)することを確認する) 次のように、リモートの[Windows PowerShell セッション](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を開始します。
+   次の手順でリモート[Windows PowerShell セッション](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を開始します ( [Skype For business Online PowerShell コンポーネントをインストール](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)してください)。
 
    ``` Powershell
    Import-Module SkypeOnlineConnector  
@@ -179,40 +179,40 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
    Import-PSSession $cssess -AllowClobber
    ```
 
-   次に、アカウント有効にする、マイクロソフトのチーム会議室 Skype のビジネス サーバーの次のコマンドレットを実行しています。
+   次のコマンドレットを実行して、Skype for Business Server 用の Microsoft Teams ルームアカウントを有効にします。
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   次の使用例に示すように、新しいユーザー アカウントのセットアップの中から RegistrarPool 情報を取得します。
+   次の例に示すように、セットアップ中の新しいユーザーアカウントから RegistrarPool 情報を取得します。
 
     ``` Powershell
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
-    > テナント内の既存のユーザー アカウントとして同じレジストラー プールに新しいユーザー アカウントを作成できません可能性があります。 上記のコマンドは、このような状況が発生したため、アカウントのセットアップでエラーをできなくなります。
+    > 新しいユーザーアカウントが、テナント内の既存のユーザーアカウントと同じレジストラープールに作成されていない可能性があります。 上のコマンドを実行すると、アカウント設定のエラーがこの状況で発生することはありません。
 
-オンライン ビジネスのマイクロソフトのチームまたは Skype で、マイクロソフト チームの会議室のアカウントを有効にするのには、上記の手順を完了した後は、マイクロソフト チームの会議室のデバイスにライセンスを割り当てる必要があります。 Office 365 管理ポータルを使用して、オンライン ビジネス (プラン 2) またはデバイスにライセンスをオンライン ビジネス (3 の計画)、Skype のいずれか、Skype を割り当てます。
+Microsoft teams または Skype for Business Online で Microsoft Teams のルームアカウントを有効にするための上記の手順を完了したら、Microsoft teams の会議デバイスにライセンスを割り当てる必要があります。 Office 365 管理ポータルを使用して、デバイスに Skype for Business Online (プラン 2) または Skype for Business Online (Plan 3) ライセンスを割り当てます。
 
 ### <a name="assign-a-license-to-your-account"></a>ライセンスをアカウントに割り当てる
 
-1. ログイン テナント管理者は、Office 365 管理ポータルを開くし、管理アプリケーションでをクリックします。
+1. テナント管理者としてログインし、Office 365 管理ポータルを開いて、[管理者] アプリをクリックします。
 
 2. [**ユーザーとグループ**] をクリックしてから [**ユーザーの追加、パスワードのリセットなど**] をクリックします。
 
-3. チームの会議室を Microsoft アカウントを選択またはクリックして方法の編集 [ペン] アイコンをタップします。
+3. Microsoft Teams のルームアカウントを選択し、ペンアイコンをクリックまたはタップします。これは編集を意味します。
 
 4. [**ライセンス**] オプションをクリックします。
 
-5. [**ライセンスの割り当て**] セクションではビジネス オンライン (3 の計画)、によっては、ライセンスおよびエンタープライズ VoIP を必要とする点で決めたものは、ビジネス オンライン (プラン 2) または Skype の Skype を選択する必要があります。 マイクロソフト チームの会議室でクラウド PBX を使用する場合は、計画の 3 ライセンスを使用する必要があります。 最低でも、音声接続用に CloudPBX が必要です。 次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。 詳細については、[マイクロソフト チームの会議室のライセンス](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)を参照してください。
+5. [**ライセンスの割り当て**] セクションで、ライセンスに応じて Skype For business Online (プラン 2) または Skype For business Online (プラン 3) を選択する必要があります。これは、使用しているライセンスと、エンタープライズボイスの必要条件によって決定された内容によって異なります。 Microsoft Teams のルームでクラウド PBX を使用する場合は、プラン3ライセンスを使用する必要があります。 最低でも、音声接続用に CloudPBX が必要です。 次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。 詳細については、「 [Microsoft Teams ルームライセンス](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)」を参照してください。
 
 6. タスクを完了するには、**[保存]** をクリックします。
 
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a>サンプル: ルームのアカウント セットアップの Exchange オンラインと Skype のオンライン ビジネス
+## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a>サンプル: Exchange Online と Skype for Business Online での会議室アカウントのセットアップ
 
-Exchange オンラインの PowerShell コマンド:
+Exchange Online PowerShell コマンド:
 
 ``` Powershell
 New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
@@ -221,7 +221,7 @@ Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept-AddOrgani
 -AdditionalResponse "This is a Rigel room!"
 ```
 
-Azure Active Directory の PowerShell コマンド:
+Azure Active Directory PowerShell コマンド:
 
 ``` PowerShell
 Set-MsolUser -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
@@ -238,7 +238,7 @@ Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfbla
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
 ```  -->
 
-ビジネスの PowerShell コマンドの Skype。
+Skype for Business PowerShell コマンド:
 
 ``` PowerShell
 Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sippooldm21a05.infra.lync.com
@@ -246,22 +246,22 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 ```
 
 > [!NOTE]
-> この操作によって、CloudPBX および PSTNCallingDomesticAndInternational が追加されます。 さらに、電話番号を割り当てるには、管理インターフェイスを使用する必要があります。
+> この操作によって、CloudPBX および PSTNCallingDomesticAndInternational が追加されます。 さらに、管理インタフェースを使用して電話番号を割り当てる必要があります。
 
-## <a name="validate"></a>検証
+## <a name="validate"></a>有効性
 
-検証、ビジネス クライアント用の Skype を使用して作成したアカウントにサインインできるように。
+検証のために、Skype for Business クライアントを使って、作成したアカウントにサインインできるようにする必要があります。
 
 ## <a name="see-also"></a>関連項目
 
-[マイクロソフト チームの会議室のアカウントを構成します。](room-systems-v2-configure-accounts.md)
+[Microsoft Teams 室のアカウントを構成する](room-systems-v2-configure-accounts.md)
 
-[マイクロソフト チームの会議室のプラン](skype-room-systems-v2-0.md)
+[Microsoft Teams のルームを計画する](skype-room-systems-v2-0.md)
 
-[マイクロソフト チームの会議室を配置します。](room-systems-v2.md)
+[Microsoft Teams ルームの展開](room-systems-v2.md)
 
-[マイクロソフト チームの会議室のコンソールを構成します。](console.md)
+[Microsoft Teams 室コンソールを構成する](console.md)
 
 [Microsoft Teams Rooms を管理する](skype-room-systems-v2.md)
 
-[ライセンス マイクロソフト チーム会議室](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Microsoft Teams 会議室のライセンス](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

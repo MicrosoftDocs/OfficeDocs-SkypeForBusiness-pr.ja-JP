@@ -1,5 +1,5 @@
 ---
-title: 理由番号のライセンス認証があると不完全なでしょうか。
+title: 番号のアクティブ化が未完了として表示されるのはなぜですか?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: bcc4ad06d922c4d0f65dc4f98a7d0780904e1d18
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5648855dc13225dfcb525ddfc82b31a13e90c862
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229557"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290557"
 ---
-# <a name="why-is-number-activation-listed-as-incomplete"></a>理由番号のライセンス認証があると不完全なでしょうか。
+# <a name="why-is-number-activation-listed-as-incomplete"></a>番号のアクティブ化が未完了として表示されるのはなぜですか?
 
-住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 場合は電話番号はアクティブにし、アドレスの検証のため**不完全である**と記載されているいくつかの理由を作成し、サービス リクエストを送信する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
+住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 何らかの理由で電話番号が有効になっておらず、住所の検証によって**未完了**と表示されている場合は、サービスリクエストを作成して送信する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>150 ユーザー以下の組織の場合は、次の手順を実行します。
 1. [**Office 365 管理センター**] で、[**ヘルプが必要ですか?**] を選択します。

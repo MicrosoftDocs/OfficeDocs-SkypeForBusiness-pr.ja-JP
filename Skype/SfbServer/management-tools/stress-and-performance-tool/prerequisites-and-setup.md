@@ -5,19 +5,19 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 12/20/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Skype for Business Server 2015 Stress and Performance Tool の前提条件と設定。 Stress and Performance Tool のインストールまたは設定方法。
-ms.openlocfilehash: 51e83736ecc3d8f18937dee8e9fdbb5244662a2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37aa89a0e6158b4623711ded8752eab2eb9d77ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906586"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299731"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Skype for Busines Stress and Performance Tool の前提条件と設定
  
@@ -55,11 +55,11 @@ Stress and Performance Tool のサポートされるオペレーティング シ
     
 これに加え、コンピューターは次のソフトウェア要件を満たす必要があります。
   
-- Microsoft .NET 4.5 Framework がインストールされている必要があります。 [.Net 4.5 のダウンロードここでのフレームワークです。](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+- Microsoft .NET 4.5 Framework がインストールされている必要があります。 [.Net 4.5 フレームワークをダウンロードしてください。](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
     
 - Windows でデスクトップ エクスペリエンス機能を有効にする必要があります。
     
-- Microsoft Visual C++ 2013 (x64) がインストールされている必要があります。 [Visual C++ 2013 をここからダウンロードします。](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
+- Microsoft Visual C++ 2013 (x64) がインストールされている必要があります。 [Visual C++ 2013 のダウンロード](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
     
 - 正常に展開された Skype for Business Server 2015 が必要になります。
     
@@ -81,6 +81,6 @@ Stress and Performance Tool を正常に実行するには、次に示す追加�
 
 インストールはとても簡単です。 Windows のインストーラー ファイル、**CapacityPlanningTool.msi** を、ユーザー トラフィックのシミュレートのために使用する各クライアント コンピューターで、およびユーザーと連絡先を作成する各プール内のフロントエンド サーバーで実行する必要があります。
   
-ダウンロード センターのリンクには、他の記事に記載されているサンプル スクリプトと、.msi をダウンロードする: [Skype ビジネス サーバー 2015、ストレスおよびパフォーマンス ツール](https://www.microsoft.com/download/details.aspx?id=50367)です。
+.Msi をダウンロードするには、他の記事で説明されているサンプルスクリプトと共に、「 [Skype For Business Server 2015、ストレスおよびパフォーマンスツール」](https://www.microsoft.com/download/details.aspx?id=50367)のダウンロードセンターへのリンクを参照してください。
   
 

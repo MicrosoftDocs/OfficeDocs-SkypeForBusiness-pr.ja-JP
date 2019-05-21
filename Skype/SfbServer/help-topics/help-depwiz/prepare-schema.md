@@ -5,34 +5,34 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-description: Active Directory ドメイン サービスのスキーマを準備するのにはビジネス サーバーの展開ウィザードは、Skype で、スキーマの準備の手順を実行します。 [実行] をクリックしてスキーマの準備を開始します。 スキーマの準備の手順は、/Program ファイルと Microsoft Lync Server 2013/導入/セットアップ ディレクトリに指定されたスキーマ定義ファイルの展開ウィザードを実行しているシステム上を読み取ります。 これらのファイルをサポートまたはスキーマのディレクトリにインストール メディアにも利用できます。 [スキーマの準備] 手順では、スキーマを拡張し、プロセスの状態を報告します。 また、プロセスが完了したことも通知します。 概要画面では、プロセスのログを表示できます。 ログを調べ、正常に準備が完了したことを確認してください。
-ms.openlocfilehash: c2e88db47710ae139296dfc85ff76ae9239faa95
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Active Directory ドメインサービスのスキーマを準備するには、Skype for Business Server 展開ウィザードでスキーマの準備手順を実行します。 [実行] をクリックしてスキーマの準備を開始します。 [スキーマの準備] 手順では、展開ウィザードが実行されているシステム上の/プログラムファイル/Microsoft Lync Server 2013/展開/セットアップディレクトリで、指定されたスキーマ定義のファイルを読み取ります。 これらのファイルは、サポート/スキーマディレクトリのインストールメディアでも利用できます。 [スキーマの準備] 手順では、スキーマを拡張し、プロセスの状態を報告します。 また、プロセスが完了したことも通知します。 概要画面では、プロセスのログを表示できます。 ログを調べ、正常に準備が完了したことを確認してください。
+ms.openlocfilehash: 12b4bcbe93bd1ed55e0a2c2c1a133db41b30cd00
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924557"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292124"
 ---
 # <a name="prepare-schema"></a>スキーマの準備
  
-Active Directory ドメイン サービスのスキーマを準備するのにはビジネス サーバーの展開ウィザードは、Skype で、スキーマの準備の手順を実行します。 [**実行**] をクリックしてスキーマの準備を開始します。 [スキーマの準備] 手順では、展開ウィザードが実行されているシステムの \Program Files\Microsoft Lync Server 2013\Deployment\Setup ディレクトリにある指定されたスキーマ定義ファイルを読み取ります。 これらのファイルは、インストール メディアの \Support\Schema ディレクトリにもあります。 [スキーマの準備] 手順では、スキーマを拡張し、プロセスの状態を報告します。 また、プロセスが完了したことも通知します。 概要画面では、プロセスのログを表示できます。 ログを調べ、正常に準備が完了したことを確認してください。
+Active Directory ドメインサービスのスキーマを準備するには、Skype for Business Server 展開ウィザードでスキーマの準備手順を実行します。 [**実行**] をクリックしてスキーマの準備を開始します。 [スキーマの準備] 手順では、展開ウィザードが実行されているシステムの \Program Files\Microsoft Lync Server 2013\Deployment\Setup ディレクトリにある指定されたスキーマ定義ファイルを読み取ります。 これらのファイルは、インストール メディアの \Support\Schema ディレクトリにもあります。 [スキーマの準備] 手順では、スキーマを拡張し、プロセスの状態を報告します。 また、プロセスが完了したことも通知します。 概要画面では、プロセスのログを表示できます。 ログを調べ、正常に準備が完了したことを確認してください。
   
 > [!IMPORTANT]
 > スキーマを拡張するには、Schema Admins グループおよび Enterprise Admins グループのメンバーとしてドメインにログインする必要があります。 
   
-ビジネス サーバー 2015 のサーバー、サービス、およびユーザー オブジェクトの Skype をサポートするために Active Directory ドメイン サービス スキーマを拡張するクラスおよび属性が追加されます。 スキーマを拡張する前に行う必要があるシステムの状態、スキーマ マスターの役割を保持しているドメイン コント ローラーのバックアップを作成します。 Windows Server 2008 R2 の sp1 のバックアップ ・ プロセスに関する詳細についてを参照してください[https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198)。 Windows Server 2003 と Windows Server 2003 R2 を参照してください[https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199)。
+Skype for Business Server 2015 サーバー、サービス、ユーザーオブジェクトをサポートするために、クラスと属性が追加されて Active Directory ドメインサービススキーマが拡張されます。 スキーマを拡張する前に、スキーママスターの役割を保持しているドメインコントローラーのシステム状態のバックアップを取得する必要があります。 Windows Server 2008 R2 SP1 のバックアッププロセスの詳細については、 [https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198)を参照してください。 Windows Server 2003 および Windows Server 2003 R2 について[https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199)は、を参照してください。
   
 > [!CAUTION]
-> スキーマの拡張は元に戻すことはできません。 スキーマ拡張が失敗した場合の潜在的な影響を抑制するためにあらゆる手段を講じて、スキーマの拡張が成功するようにしてください。 これは、通信が途絶えた場合や、サーバーでその他の障害が発生した場合には特に重要です。 スキーマ マスター ドメイン コント ローラーのバックアップとアクティブなディレクトリの完全なバックアップを実行する必要があります。 
+> スキーマの拡張は元に戻すことはできません。 スキーマ拡張が失敗した場合の潜在的な影響を抑制するためにあらゆる手段を講じて、スキーマの拡張が成功するようにしてください。 これは、通信が途絶えた場合や、サーバーでその他の障害が発生した場合には特に重要です。 スキーママスタードメインコントローラーのバックアップを実行し、Active Directory の完全なバックアップを行う必要があります。 
   
-スキーマ マスター ドメイン コント ローラーのバックアップおよび Active Directory の完全なバックアップを実行するには。
+スキーママスタードメインコントローラーのバックアップ、および Active Directory の完全なバックアップを実行するには、次の手順を実行します。
   
 1. スキーマ マスターの役割を持つドメイン コントローラーをネットワークから切断します。
     
@@ -42,9 +42,9 @@ Active Directory ドメイン サービスのスキーマを準備するのに�
     
 4. スキーマを正常に拡張できたら、ドメイン コントローラーをネットワークに再接続し、レプリケーションがアクティブで機能していることを確認します。
     
-5. スキーマ拡張機能障害が万一、前述したシステム状態バックアップを使用してドメイン コント ローラーと Active Directory のシステム状態を復元します。
+5. スキーマの拡張エラーが発生した場合は、前に行ったシステム状態のバックアップを使用して、ドメインコントローラーと Active Directory のシステム状態を復元します。
     
 > [!NOTE]
-> ビジネス サーバーの展開ウィザードは、Skype によって作成されるログ ファイルを確認する場合は、コンピューター上で、展開ウィザードが実行されたの手順を実行した Active Directory ユーザーのユーザー ディレクトリにファイルが表示されます。 たとえば、ユーザー Contoso.net のドメインのドメイン管理者としてログインしている場合、ログ ・ ファイル内にある: C:\Users\Administrator.Contoso\AppData\Local\Temp 
+> Skype for Business Server Deployment ウィザードによって作成されたログファイルを確認する必要がある場合は、展開ウィザードが実行されたコンピューター上のファイルを、手順を実行した Active Directory ユーザーの Users ディレクトリで見つけることができます。 たとえば、ユーザーがドメイン Contoso.net のドメイン管理者としてログインしている場合、ログファイルは C:\Users\Administrator.Contoso\AppData\Local\Temp にあります。 
   
 

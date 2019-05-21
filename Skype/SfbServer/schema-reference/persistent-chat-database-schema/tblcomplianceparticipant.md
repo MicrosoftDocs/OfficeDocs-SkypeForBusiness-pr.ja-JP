@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
-description: tblComplianceParticipant には、チャネルおよびサーバーごとの現在の参加者が含まれています。
-ms.openlocfilehash: 6644796d88f303c6614cbd73d98224fe0e41eabb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblComplianceParticipant には、チャネルあたり、サーバーごとに現在の参加者が含まれています。
+ms.openlocfilehash: bf6913d8bcc11db1589169c4479cec4a0238825d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929939"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295462"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  
-tblComplianceParticipant には、チャネルおよびサーバーごとの現在の参加者が含まれています。
+tblComplianceParticipant には、チャネルあたり、サーバーごとに現在の参加者が含まれています。
   
-**列**
+**行**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|channelUri  <br/> |nvarchar (255)、null でないです。  <br/> |チャネルの一意リソース識別子 (URI)。  <br/> |
-|ユーザー Id  <br/> |int 型、null でないです。  <br/> |(TblPrincipal.prinID のテーブルに対応する) 関係者のプリンシパルの ID です。  <br/> |
-|joinedAt  <br/> |bigint 型の値、null でないです。  <br/> |参加するイベントのタイムスタンプ。  <br/> |
-|partedAt  <br/> |bigint 型の値  <br/> |参加者がまだ参加している場合は null です。 チャンネルが null でない場合は、イベントをそのままのタイム ・ スタンプ。  <br/> すべての翻訳者がイベントを処理すると、最終的にはこれらのエントリを削除します。  <br/> |
-|userUri  <br/> |nvarchar(255)、null でないです。  <br/> |ユーザー URI です。  <br/> |
-|serverID  <br/> |int  <br/> |(TblServerIdentity.serverID テーブル) と同様にサーバーの id。  <br/> |
-|セッション Id  <br/> |bigint 型の値  <br/> |サーバーのセッションです。 これは、チャット サービスが開始されるたびに生成されたランダムな番号です。 孤立した参加者を識別するためのセッションを区別するために使用されます。  <br/> |
+|channelUri  <br/> |nvarchar (255)、null ではない  <br/> |チャネルの Uniform Resource Identifier (URI)。  <br/> |
+|userId  <br/> |int (null ではない)  <br/> |参加者のプリンシパル ID (tblPrincipal ID テーブルに対応)  <br/> |
+|joinedAt  <br/> |bigint (null ではない)  <br/> |参加イベントのタイムスタンプ。  <br/> |
+|partedAt  <br/> |bigint  <br/> |参加者がまだ参加している場合は Null です。 チャネルが null でない場合は、チャネルのタイムスタンプがイベントから出ます。  <br/> これらのエントリは、すべての翻訳者がイベントを処理すると、最終的に削除されます。  <br/> |
+|userUri  <br/> |nvarchar (255)、null ではない  <br/> |ユーザー URI。  <br/> |
+|serverID  <br/> |int  <br/> |サーバー id (serverID テーブルの場合)。  <br/> |
+|sessionId  <br/> |bigint  <br/> |サーバーセッション。 これは、チャットサービスが開始されるたびに生成されるランダムな番号です。 これは、孤立した参加者を識別する目的でセッションを区別するために使われます。  <br/> |
    
 **キー**
 
 |**列**|**説明**|
 |:-----|:-----|
-|\<channelUri、ユーザー Id、joinedAt\>  <br/> |プライマリ ・ キーです。  <br/> |
+|\<channelUri、userId、joinedAt\>  <br/> |主キー。  <br/> |
    
 

@@ -1,10 +1,10 @@
 ---
-title: 発行保留中のビジネス用の Skype で音声ルーティング構成の変更
+title: Skype for Business の音声ルーティング構成に保留中の変更を公開する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: '概要: 確認、発行、またはビジネスのサーバーのビジネス サーバーのコントロール パネルの Skype を使用して、Skype での音声ルーティング構成の変更をキャンセルする方法を説明します。'
-ms.openlocfilehash: 336b6a3eecf668078d2a68072e380113d20e3d12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: skype for business Server コントロールパネルを使用して、Skype for Business Server のボイスルーティング構成の変更を確認、発行、またはキャンセルする方法について説明します。'
+ms.openlocfilehash: 1ff33dee1518581e4a94aac56ecae34d9bfd1159
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892217"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300888"
 ---
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>発行保留中のビジネス用の Skype で音声ルーティング構成の変更
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Skype for Business の音声ルーティング構成に保留中の変更を公開する
  
-**の概要:** 確認、発行、またはビジネスのサーバーのビジネス サーバーのコントロール パネルの Skype を使用して、Skype での音声ルーティング構成の変更をキャンセルする方法を説明します。
+**概要:** Skype for business Server コントロールパネルを使用して、Skype for Business Server の音声ルーティング構成の変更を確認、発行、またはキャンセルする方法について説明します。
   
 [**音声ルーティング**] グループの各ページで会議設定のいずれかを変更した後は、ここでの手順を実行して、保留中の変更を確認、公開、またはキャンセルします。
   
@@ -34,13 +34,13 @@ ms.locfileid: "33892217"
 > 保留中の変更すべては、[**すべて確定**] コマンドを実行することによって同時に公開する必要があります。保留中の変更のどれかを選択して公開することはできません。保留中の変更を公開する前に、[**未確定の変更の確認**] コマンドを実行し、公開しない保留中の変更をすべてキャンセルしてください。
   
 > [!NOTE]
-> 保留中の変更を確定する前に [**音声ルーティング**] グループのページから移動して離れると、すべての保留中の変更が失われます。 ただし、現在の構成 (保留中の変更を含む) を音声構成ファイルにエクスポートしておき、後でインポートして更新された構成を公開することができます。 詳細については、[ビジネスの Skype でのボイス ルートの構成ファイルをエクスポートまたはインポート](voice-route-configuration-import-export.md)を参照してください。 
+> 保留中の変更を確定する前に [**音声ルーティング**] グループのページから移動して離れると、すべての保留中の変更が失われます。 ただし、現在の構成 (保留中の変更を含む) を音声構成ファイルにエクスポートしておき、後でインポートして更新された構成を公開することができます。 詳細については、「 [Skype For business のボイスルート構成ファイルをエクスポートまたはインポートする](voice-route-configuration-import-export.md)」を参照してください。 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>音声ルーティング構成の変更を確認、公開、または取り消すには
 
 1. RTCUniversalServerAdmins グループのメンバーとしてコンピューターにログオンするか、**CsVoiceAdministrator**、**CsServerAdministrator**、または **CsAdministrator** 管理者役割のメンバーとしてコンピューターにログオンします。
     
-2. Skype をビジネス サーバーのコントロール パネルを開きます。
+2. Skype for Business Server コントロールパネルを開きます。
     
 3. 左側のナビゲーション バーで [**音声ルーティング**] をクリックします。
     
@@ -58,6 +58,6 @@ ms.locfileid: "33892217"
     
 8. 保留中の変更すべての一覧が表示された [**未確定の音声構成設定**] ダイアログ ボックスで、[**OK**] をクリックします。 
     
-    Skype ビジネス サーバーのコントロール パネルの変更がコミットされた、**音声ルーティング構成を正常に発行された**メッセージが表示されます。
+    Skype for Business Server コントロールパネルが変更をコミットすると、**正常に公開された音声ルーティング構成**のメッセージが表示されます。
     
 

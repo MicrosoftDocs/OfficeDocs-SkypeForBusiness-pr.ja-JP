@@ -1,25 +1,25 @@
 ---
-title: Skype のビジネス サーバーの新しいアーカイブ ・ ポリシーを作成します。
+title: Skype for Business Server で新しいアーカイブポリシーを作成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: '概要: は、Skype のビジネス サーバーの新しいアーカイブ ・ ポリシーを作成する方法を説明します。'
-ms.openlocfilehash: e01655c5d144dd558b545bcaeaaf6a09ca4fbba3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server 用の新しいアーカイブポリシーを作成する方法について説明します。'
+ms.openlocfilehash: d6bf33254feece1fe9f1a4fe848b2601e758faf3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885014"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299973"
 ---
-# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Skype のビジネス サーバーの新しいアーカイブ ・ ポリシーを作成します。
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Skype for Business Server で新しいアーカイブポリシーを作成する
 
-**の概要:** Skype のビジネス サーバーの新しいアーカイブ ・ ポリシーを作成する方法について説明します。
+**概要:** Skype for Business Server 用の新しいアーカイブポリシーを作成する方法について説明します。
   
 新しいアーカイブ ポリシーの作成には、コントロール パネルまたは Windows PowerShell コマンドレットを使用できます。
   
@@ -29,7 +29,7 @@ ms.locfileid: "33885014"
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ ポリシー**] をクリックします。
     
@@ -52,11 +52,11 @@ ms.locfileid: "33885014"
 6. [**確定**] をクリックします。
     
     > [!IMPORTANT]
-    > ユーザー ポリシーの設定は、そのポリシーを適用する特定のユーザーおよびユーザー グループにのみ適用されます。 詳細については、 [Skype のビジネス サーバー内のユーザーにアーカイブ ・ ポリシーの適用](apply-a-policy-to-users.md)を参照してください。 
+    > ユーザー ポリシーの設定は、そのポリシーを適用する特定のユーザーおよびユーザー グループにのみ適用されます。 詳細については、「 [Skype For Business Server でユーザーにアーカイブポリシーを適用する](apply-a-policy-to-users.md)」を参照してください。 
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Windows PowerShell を使用して新しいアーカイブ ポリシーを作成する
 
-新しいアーカイブ ポリシーの作成には、Windows PowerShell の **New-CsArchivingPolicy** コマンドレットも使用できます。 詳細については、[新規 CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
+新しいアーカイブ ポリシーの作成には、Windows PowerShell の **New-CsArchivingPolicy** コマンドレットも使用できます。 詳細については、 [CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)コマンドレットのヘルプトピックを参照してください。
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>サイト レベルでの新しいアーカイブ ポリシーを作成するには
 
@@ -76,7 +76,7 @@ New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 
 ### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>内部通信セッションのアーカイブを有効にする新しいアーカイブ ポリシーを作成するには
 
-前の各コマンドでは (必須の ID パラメーター以外に) パラメーターが指定されていないため、新しいポリシーではすべてのプロパティで既定値が使用されます。 別のプロパティ値を使用するポリシーを作成するには、該当するパラメーターとパラメーター値を含めます。 たとえば、次のコマンドは、内部のインスタント メッセージング セッションのアーカイブを許可するアーカイブ ポリシーを作成します。 
+前の各コマンドでは (必須の ID パラメーター以外に) パラメーターが指定されていないため、新しいポリシーではすべてのプロパティで既定値が使用されます。 別のプロパティ値を使用するポリシーを作成するには、該当するパラメーターとパラメーター値を含めます。 たとえば、次のコマンドは、内部のインスタントメッセージングセッションのアーカイブを許可するアーカイブポリシーを作成します。 
   
 ```
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True

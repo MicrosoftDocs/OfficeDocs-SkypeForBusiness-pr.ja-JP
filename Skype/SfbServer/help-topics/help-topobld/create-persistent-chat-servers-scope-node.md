@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PersistentChatsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
-description: 次を実行するのにはトポロジ ビルダーでの永続的なチャット プールを右クリックします。
-ms.openlocfilehash: 67b3c0108daf3ee3b8357ff1c1309f57a0f8e2e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Topology Builder で常設チャットプールを右クリックして、次の操作を実行します。
+ms.openlocfilehash: 60c28ea5999030717da0885801eb6410c3d9a712
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903573"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305935"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>常設チャット サーバー スコープ ノードの作成
  
-次を実行するのにはトポロジ ビルダーでは、**永続的なチャット プール**を右クリックします。
+Topology Builder で**常設チャットプール**を右クリックして、次の操作を実行します。
   
-- **新しいの永続的なチャット プール**: 新しい永続的なチャット サーバーまたはプールを定義するために使用する**新しい永続的なチャット プールの定義**ウィザードが起動します。
+- **新しい常設チャットプール**: 新しい常設チャットサーバーまたはプールを定義するために使用される [**新しい常設チャットプールの定義**] ウィザードを開始します。
     
 新しい常設チャット プール オプションに加えて、次の一般的なタスクを実行できます。
   
@@ -36,4 +36,4 @@ ms.locfileid: "33903573"
 
 [Skype for Business Server 2015 の常設チャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Skype for Business Server 2015 トポロジに常設チャットサーバーを追加する](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

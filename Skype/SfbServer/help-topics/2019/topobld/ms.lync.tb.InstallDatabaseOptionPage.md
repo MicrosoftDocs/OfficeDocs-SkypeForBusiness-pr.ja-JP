@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallDatabaseOptionPage
@@ -12,36 +12,36 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: SQL Server 上のデータベースとログ ファイルの配置の詳細設定オプションを構成するとします。 使用できるオプションは次のとおりです。
-ms.openlocfilehash: e503a9daf167da576e552f5f77160a7289639bee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: SQL Server でデータベースファイルとログファイルの配置の詳細オプションを構成します。 利用可能なオプションは次のとおりです。
+ms.openlocfilehash: 1ac9b4dd2b68c9160eec34459a26f109ba666393
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919746"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291659"
 ---
 # <a name="install-database-options-page"></a>データベースのインストール オプション ページ
 
-SQL Server 上のデータベースとログ ファイルの配置の詳細設定オプションを構成するとします。 使用できるオプションは次のとおりです。
+SQL Server でデータベースファイルとログファイルの配置の詳細オプションを構成します。 利用可能なオプションは次のとおりです。
 
 > [!IMPORTANT]
-> お客様の要件と、SQL Server コンピューター上のデータとログ ファイルの配置に関連するポリシーに最も適したオプションを選択します。
+> SQL Server コンピューターのデータとログファイルの配置に関する要件とポリシーに最も適合するオプションを選択します。
 
- **データベース ファイルの場所を自動的に決定する**: 既定のオプションは、SQL Server で使用可能な領域を決定し、最適なパフォーマンスのデータベースとログ ファイルを配布するアルゴリズムを使用します。
+ [**データベースファイルの場所を自動的に特定**する]: 既定のオプションでは、SQL Server の空き領域を決定するアルゴリズムが使用され、最適なパフォーマンスを実現するためにデータベースとログファイルが配布されます。
 
- **使用して SQL Server のインスタンスの既定値**: データベース ファイルを配置し、SQL Server のインスタンスの設定に基づいてファイルをログに記録するには、このオプションを選択します。 通常のオプションが管理され、データベース管理者によって構成されています。
+ [ **Sql server インスタンスの既定値を使用**する]: このチェックボックスをオンにすると、sql server のインスタンスの設定に基づいてデータベースファイルとログファイルが配置されます。 これらのオプションは、通常、データベース管理者によって管理および構成されます。
 
- **米国ターゲット SQL Server でこれらのパス**: データベースとログ ファイルが配置される場所のドライブとフォルダーへの完全パスを入力して、SQL Server データベース ファイルとログ ファイルのパスを定義するのにはこのオプションを選択します。
+ **[ターゲット SQL server 上のパス**]: このオプションを選択すると、sql server データベースおよびログファイルを保存するドライブとフォルダーへのフルパスを入力して、sql server データベースとログファイルに独自のパスを定義できます。
 
 > [!IMPORTANT]
-> 入力したパスは、インストールでのパフォーマンスの最適化アルゴリズムに基づく変更可能性があります。 詳細については、[データベースのインストールを使用して Lync Server 管理シェル](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)を参照してください。
+> 入力したパスは、インストールのパフォーマンス最適化アルゴリズムに基づいて変更される可能性があります。 詳細については、「 [Lync Server 管理シェルを使用したデータベースのインストール](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)」を参照してください。
 
- **[Ok]**: 変更をコミットするのには [ok] ボタンをクリックします。
+ [ **Ok**] をクリックして変更をコミットします。
 
- **キャンセル**: をクリックして変更を破棄し、データベースのインストールの画面に戻るには [キャンセル]。
+ [**キャンセル**]: 変更を破棄して [データベースのインストール] 画面に戻るには、[キャンセル] をクリックします。
 
- **ヘルプ**: このヘルプ ページにアクセスするのには [ヘルプ] ボタンをクリックします。
+ **ヘルプ**: このヘルプページにアクセスするには、[ヘルプ] をクリックします。
 
 ## <a name="see-also"></a>関連項目
 
-[SQL Server のデータとログ ファイルの配置](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
+[SQL Server データとログファイルの配置](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)

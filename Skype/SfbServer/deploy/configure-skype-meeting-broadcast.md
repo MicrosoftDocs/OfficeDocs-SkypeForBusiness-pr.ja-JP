@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,33 +14,33 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
-description: '概要: は、ハイブリッド展開のビジネスのサーバーの設置型の Skype の Skype 会議のブロードキャストを構成するのには実行する必要がある手順について説明します。'
-ms.openlocfilehash: 4eb117715905a9d371b725c8da7a992b9fdee6b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: オンプレミスの Skype for Business Server ハイブリッド展開用に Skype 会議ブロードキャストを構成するために実行する必要のある手順について説明します。'
+ms.openlocfilehash: b744ae55fe9c866b2f65c816e471ed077312df13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894205"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291666"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
-**の概要:** 設置型の Skype ビジネス サーバー ハイブリッド展開用の Skype 会議のブロードキャストを構成するために実行する必要がある手順について説明します。
+**概要:** オンプレミスの Skype for Business Server ハイブリッド展開用に Skype 会議ブロードキャストを構成するために必要な手順について説明します。
   
-Skype 会議のブロードキャストは、Office 365 の一部であるオンライン サービスです。 ビジネス サーバー設置型の Skype を実行している環境で Skype 会議のブロードキャストを使用する場合は、このトピックで構成手順を実行する必要があります。 作業を開始する前に、環境をビジネス オンラインの Skype でのハイブリッドを構成する必要があります。 詳細については、「[Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)」、および「[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)」を参照してください。
+Skype 会議ブロードキャストは、Office 365 の一部であるオンラインサービスです。 Skype for Business Server をオンプレミスで実行していて、環境で Skype 会議ブロードキャストを使用する場合は、このトピックの構成手順を実行する必要があります。 始める前に、お客様の環境が Skype for Business Online とのハイブリッド用に構成されている必要があります。 詳細については、「[Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)」、および「[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)」を参照してください。
   
-## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Skype 会議のブロードキャストに、ハイブリッド環境を構成します。
+## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャストのハイブリッド環境を構成する
 
-Skype 会議をブロードキャストするため、環境を準備するのには次の操作をする必要があります。
+Skype 会議ブロードキャストの環境を準備するには、次の手順を実行する必要があります。
   
-- Skype でのビジネスのオンライン リソースのフェデレーションを構成します。
+- Skype for Business Online のリソースとのフェデレーションを構成する
     
 - SIP フェデレーション ドメインを構成する
     
-### <a name="configure-federation-with-skype-for-business-online-resources"></a>Skype でのビジネスのオンライン リソースのフェデレーションを構成します。
+### <a name="configure-federation-with-skype-for-business-online-resources"></a>Skype for Business Online のリソースとのフェデレーションを構成する
 
-Skype でのビジネスのオンライン リソースのフェデレーションを有効にするには、SIP フェデレーション プロバイダーの外部アクセスを構成する必要があります。 このビジネス サーバーのコントロール パネルの Skype を使用して以下の手順。
+Skype for Business Online のリソースとのフェデレーションを有効にするには、SIP フェデレーションプロバイダーの外部アクセスを構成する必要があります。 Skype for Business Server コントロールパネルを使用してこれを行うには、次の手順を実行します。
   
-1. ビジネス サーバーのコントロール パネルの Skype を起動し、左上の**外部からのアクセス**を選択します。
+1. Skype for Business Server コントロールパネルを起動し、左側の [**外部アクセス**] を選択します。
     
 2. [**SIP フェデレーション プロバイダー**] を選択し、[**新規**] をクリックします。
     
@@ -48,12 +48,12 @@ Skype でのビジネスのオンライン リソースのフェデレーショ�
     
 |||
 |:-----|:-----|
-|**このプロバイダーとの通信を有効にします。** <br/> |オン  <br/> |
+|**このプロバイダーとの通信を有効にする:** <br/> |オン  <br/> |
 |**[プロバイダー名]:** <br/> |LyncOnlineResources  <br/> |
 |**[アクセス エッジ サービス (FQDN)]:** <br/> |sipfed.resources.lync.com  <br/> |
 |**[既定の確認レベル]:** <br/> |このプロバイダーを使うすべてのユーザーとの通信を許可する  <br/> |
    
-また、Skype でビジネス サーバー管理シェルの次のコマンドレットを実行して、Skype でのビジネスのオンライン リソースのフェデレーションを有効にできます。
+Skype for Business Server 管理シェルで次のコマンドレットを実行して、Skype for business Online のリソースとのフェデレーションを有効にすることもできます。
   
 ```
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
@@ -61,9 +61,9 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
 
 ### <a name="configure-sip-federated-domains"></a>SIP フェデレーション ドメインを構成する
 
-次に、フェデレーションする SIP ドメインを許可されているドメイン一覧に追加する必要があります。 一覧にある 4 つのドメインのそれぞれに対して以下の手順を繰り返します。 これらのドメインは、地域のデータのオンライン ビジネスで使用されている Skype を中央揃えにします。
+次に、SIP フェデレーションドメインを許可ドメインリストに追加する必要があります。 一覧にある 4 つのドメインのそれぞれに対して以下の手順を繰り返します。 これらのドメインは、Skype for Business Online で使用される地域データセンターのために用意されています。
   
-1. ビジネス サーバーのコントロール パネルの Skype を起動し、左上の**外部からのアクセス**を選択します。
+1. Skype for Business Server コントロールパネルを起動し、左側の [**外部アクセス**] を選択します。
     
 2. [**SIP フェデレーション ドメイン**] を選択し、[**新規**] をクリックします。
     
@@ -77,7 +77,7 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
     
    - resources.lync.com
     
-Skype でビジネス サーバー管理シェルの次のコマンドレットを実行して、フェデレーションする SIP ドメインの外部アクセスを構成することも。
+また、Skype for Business Server 管理シェルで次のコマンドレットを実行して、SIP フェデレーションドメインの外部アクセスを構成することもできます。
   
 ```
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
@@ -86,6 +86,6 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-構成手順を完了したら、環境で Skype 会議のブロードキャストを使用を開始できます。 Skype 会議のブロードキャストの詳細についてを参照してください[Skype の会議のブロードキャストとは何ですか?](https://go.microsoft.com/fwlink/?LinkId=617071)と[Skype 会議のブロードキャスト管理者ガイド](https://go.microsoft.com/fwlink/?LinkId=617075)です。
+これらの構成手順が完了したら、展開で Skype 会議ブロードキャストを使い始めることができます。 Skype 会議ブロードキャストの詳細については、「 [Skype 会議ブロードキャストとは](https://go.microsoft.com/fwlink/?LinkId=617071)」および「 [Skype 会議ブロードキャスト管理者ガイド](https://go.microsoft.com/fwlink/?LinkId=617075)」を参照してください。
   
 

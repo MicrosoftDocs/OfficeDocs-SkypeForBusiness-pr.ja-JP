@@ -1,10 +1,10 @@
 ---
-title: ビジネス サーバーの Skype で通話受付制御を有効にします。
+title: Skype for Business Server で通話受付制御を有効にする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: ビジネス サーバーのエンタープライズ VoIP には、Skype で通話受付制御を有効にします。
-ms.openlocfilehash: ce50e11d5d8536dba6038a918a9242ad2cfd6f1d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice で通話受付制御を有効にします。
+ms.openlocfilehash: ed770a79a7237de682822e8280a13de4516921ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892497"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291596"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a>ビジネス サーバーの Skype で通話受付制御を有効にします。
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Skype for Business Server で通話受付制御を有効にする
  
-ビジネス サーバーのエンタープライズ VoIP には、Skype で通話受付制御を有効にします。 
+Skype for Business Server Enterprise Voice で通話受付制御を有効にします。 
   
 通話受付管理展開のネットワーク設定を構成したら、帯域幅ポリシーを反映させるために CAC を有効にする必要があります。
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用して呼受付制御を有効にするには
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して通話受付制御を有効にするには
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
@@ -43,9 +43,9 @@ ms.locfileid: "33892497"
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して呼受付制御を有効にするには
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用して通話受付制御を有効にするには
 
-1. Skype をビジネス サーバーのコントロール パネルを開きます。
+1. Skype for Business Server コントロールパネルを開きます。
     
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
     
@@ -62,8 +62,8 @@ ms.locfileid: "33892497"
     
 ## <a name="see-also"></a>関連項目
 
-[Get CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
+[Get-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
-[セット CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
+[Set-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
-[削除 CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
+[Remove-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,74 +20,74 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Skype for Business Online で電話会議情報を記載した電子メールをユーザーに送信します。
-ms.openlocfilehash: 80cfbd88b8c933e2b1e66d6348deff111a45f8e3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 14c8bc3eb246cf4ab6ffa0d823ec53fbdc78d189
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229323"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302099"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>ビジネス オンラインの Skype で電話会議情報を持つユーザーに電子メールを送信します。
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Skype for Business Online の電話会議情報を使って、ユーザーにメールを送信する
 
 > [!Note]
 > Microsoft Teams でユーザーに電話会議情報を送信する方法については、「[電話会議の情報が記載されたメールをユーザーに送信する](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)」をご覧ください。
 
-Sometimes Skype for Business users may need you to send them their Audio Conferencing information. You can do this by using the **Skype for Business admin center** and clicking **Send conference info via email** under the properties for a user. When you send this email, it will contain all of the audio conferencing information, including:
+Skype for Business ユーザーに電話会議情報を送付しなくてはならない場合があります。 これを行うには、 **Skype For business 管理センター**を使用し、ユーザーのプロパティの下にある [**会議情報をメールで送信**] をクリックします。 このメールを送信すると、次のようなすべての電話会議情報が含まれます。
   
 - ユーザー用の会議の電話番号またはダイヤルイン電話番号。
     
 - ユーザーの会議 ID。
     
    
-送信されるメールの例を以下に示します。
+送信されるメールの例を次に示します。
   
 ![ダイヤルイン会議のメール](../images/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>オーディオ会議の情報を使用して電子メールをユーザーに送信します。
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が含まれるメールをユーザーに送信する
 
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
-2. ページの上部で、[**編集**] をクリックします。
+2. ページの上部にある [**編集**] をクリックします。
 
 3. [**電話会議**] の [**電話会議情報をメールで送信**] をクリックします。
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**では、左側のナビゲーションで [**電話会議**] をクリックします。
+2. **Office 365 管理センター** > **Skype for business**に移動し、左側のナビゲーションで [**電話会議**] をクリックします。
     
-3. **ユーザー**] をクリックし、ユーザーを選択します。
+3. [**ユーザー**] をクリックし、ユーザーを選びます。
     
 4. 操作ウィンドウで、[ **電話会議情報をメールで送信**] をクリックします。
     
 > [!TIP]
-> 送信することも電子メール ユーザーに電話会議の設定を使用してユーザーのプロパティを編集し、[**電話会議**] をクリックして > **メールでの会議の情報を送信**します。 
+> 電話会議の設定を使用してユーザーにメールを送信することもできます。そのためには、ユーザーのプロパティを編集してから、[**電話****会議** > ] をクリックします。 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>このようなメールについて知っておくべきその他のこと
 
-- 送信される、組織内のユーザーを有効にした後には、オーディオ会議のいくつかの電子メールがあります。
+- 電話会議を有効にした後、組織内のユーザーに送信されるメールが複数あります。
     
   - **電話会議** のライセンスがユーザーに割り当てられた場合。
     
-  - リセットすると手動で電話会議のユーザーの暗証番号 (pin) です。
+  - ユーザーの電話会議の PIN を手動でリセットした場合。
     
   - ユーザーの会議 ID を手動でリセットした場合。
     
   - **電話会議** のライセンスがユーザーから削除された場合。
     
-  - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは **[なし]** にします。
+  - ユーザーの電話会議プロバイダーが Microsoft から別のプロバイダーまたは **[なし**] に変更された場合。
     
-  - マイクロソフトにユーザーの電話会議プロバイダーが変更されたとき。
+  - ユーザーの電話会議プロバイダーが Microsoft に変更された場合。
     
-- By default, the sender of the emails will be from Office 365, but you can change the email address and display name by using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) cmdlet. To make changes to the email address that is sending the email to users, you must:
+- 既定では、メールの送信者は Office 365 から送信されますが、メールアドレスと表示名を変更するには、Windows PowerShell と[-](https://go.microsoft.com/fwlink/?LinkId=708983)コマンドレットを使用します。 ユーザーにメールを送信するメールアドレスを変更するには、次のことを行う必要があります。
     
-  - SendEmailFromAddress パラメーターでは、電子メール アドレスを入力します。
+  - SendEmailFromAddress パラメーターにメールアドレスを入力します。
     
   - メール アドレス情報を変更したい場合は、カスタムのメール アドレスから送信されるメールが、組織の受信メール ポリシーで許可されていることを確認する必要があります。
     
-  - SendEmailFromDisplayName パラメーターでは、電子メールの表示名を入力します。
+  - SendEmailFromDisplayName パラメーターにメールの表示名を入力します。
     
      `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
@@ -98,7 +98,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
 
 - 時間を節約したり、自動化したりするには、[Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) コマンドレットを使用できます。
     
-    音声会議情報を使用してユーザーに電子メールを送信するのには、次の手順を実行します。
+    電話会議の情報を使用してユーザーにメールを送信するには、次の操作を実行します。
     
   ```
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
@@ -112,14 +112,14 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
     
 - 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。 次のトピックで、これらの利点を説明します。 
     
-  - [Windows PowerShell と Lync Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
     [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行[](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
   
 ## <a name="related-topics"></a>関連項目
 

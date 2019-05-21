@@ -3,27 +3,27 @@ title: Skype Room System ルームのセットアップ スクリプト
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: このトピックでは、Skype Room System アカウントをプロビジョニングするためのサンプル スクリプトの検索について説明します。
-ms.openlocfilehash: 10e68de94f7327c2a2c111af98a725ad4d8a6754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4b146346d7afe69746cf7046c0ee156ee9ff0da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895181"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291702"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Room System ルームのセットアップ スクリプト
  
 このトピックでは、Skype Room System アカウントをプロビジョニングするためのサンプル スクリプトの検索について説明します。
   
-このセクションでは、Skype ルームのシステム アカウントのプロビジョニングに使用できるサンプル スクリプトについて説明します。 これらのスクリプトは、説明の目的にのみ提供されており、使用する場合は必ず IT エキスパートまたはドメイン管理者に事前に相談してください。
+このセクションでは、Skype Room System アカウントのプロビジョニングに使用できるサンプルスクリプトを示します。 これらのスクリプトは、説明の目的にのみ提供されており、使用する場合は必ず IT エキスパートまたはドメイン管理者に事前に相談してください。
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>ビジネスと (設置型) の Exchange Server のセットアップ スクリプトの例: Skype
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>セットアップスクリプトの例: Skype for Business および Exchange Server (オンプレミス)
 
 ```
 # On Exchange 
@@ -37,7 +37,7 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>ビジネスおよび Exchange Server のオンラインの Skype をセットアップ スクリプトの例:
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>セットアップスクリプトの例: Skype for Business および Exchange Server Online
 
 スクリプトを実行する前に、次の前提条件を確認してください。
   

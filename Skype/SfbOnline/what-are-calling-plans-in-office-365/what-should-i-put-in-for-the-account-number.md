@@ -1,5 +1,5 @@
 ---
-title: 入れるもの、アカウント番号のでしょうか。
+title: アカウント番号には何を入力すればよいですか?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,22 +20,22 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAccountNumber
 ms.custom:
 - Calling Plans
-description: '内容に追加する必要アカウント番号として、ビジネスの Skype と入手できる場所を参照してください。 '
-ms.openlocfilehash: 3f539b886e16eaa106347fbff113763fb451ddb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'アカウント番号として Skype for Business に何を入力するべきか、およびその情報を確認できる場所について説明します。 '
+ms.openlocfilehash: 8b99d64714108f3cac8045d09b34d1b76c56907d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229607"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290737"
 ---
-# <a name="what-should-i-put-in-for-the-account-number"></a>入れるもの、アカウント番号のでしょうか。
+# <a name="what-should-i-put-in-for-the-account-number"></a>アカウント番号には何を入力すればよいですか?
 
-通常、アカウント番号を確認するには、その料金の請求書や、サービス ・ プロバイダーやキャリアがある請求書は、通信事業者の web サイトにログオンできます。 まだわからない場合、アカウント番号、それを取得するには、サービスプロバイダーまたは通信業者に問い合わせることができます。
+通常、アカウント番号は、お客さまのサービスプロバイダまたは携帯電話から購入した請求書または請求書で確認できます。または、電話会社の web サイトにログインできます。 まだアカウント番号がわからない場合は、サービスプロバイダーまたは携帯電話会社に問い合わせてください。
   
 > [!CAUTION]
->  お客様のサービス プロバイダーまたは運送業者のアカウント番号を入力するときに、スペース、ハイフン、またはハイフンを使用しないことを確認して行うことが重要です。
+>  サービスプロバイダーまたは電話会社のアカウント番号を入力するときは、スペース、ダッシュ、ハイフンを使用しないようにすることが重要です。
   
- **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
+ **詳細な手順については、「 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)」を参照してください。**
 
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

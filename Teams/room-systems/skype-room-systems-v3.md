@@ -1,95 +1,95 @@
 ---
-title: マイクロソフト チームの会議室の管理の概要
+title: Microsoft Teams のルームの管理の概要
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
-description: マイクロソフト チームの会議室の管理の概要です。
-ms.openlocfilehash: 5ee6d4a3f797ee8dbc5fa54a139b847e549611a1
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Microsoft Teams のルームの管理の概要。
+ms.openlocfilehash: fd16015331273fbd5f524f571c07a1c055a0d04a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362920"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288572"
 ---
 # <a name="management-overview"></a>管理の概要 
 
-確認して、マイクロソフト チームの会議室のシステム、ユーザーの利用可能な優れた操作を提供する操作が発生しを開発し、継続的なメンテナンスを実行することが重要です。 
+Microsoft Teams の部屋システムがユーザーに提供され、優れたユーザーエクスペリエンスを提供できるように、継続的なメンテナンスと運用を開発して実施することが重要です。 
 
 ## <a name="monitoring"></a>監視 
 
-マイクロソフト チームの会議室のシステムの監視は、2 つの主要な活動で構成されます。
+Microsoft Teams のルームシステムの監視は、次の2つの主要なアクティビティで構成されます。
 
--  デバイス、アプリケーション、および周辺機器の監視
+-  デバイス、アプリケーション、周辺機器の監視
 
--  品質と信頼性の監視 (救難)
+-  品質と信頼性の監視 (CQD)
 
-### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>マイクロソフト チームの会議室のデバイス、アプリケーション、および周辺機器の監視
+### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Microsoft Teams の会議室デバイス、アプリケーション、周辺機器の監視
 
-ユーザーがマイクロソフト チームの会議室の単位を使用できることを確認するには、単位は、マイクロソフト チームの会議室アプリケーションが正しく構成されてネットワークに接続されている、および、機能の周辺機器に接続するのにする必要があります。 
+ユーザーが Microsoft Teams のルームユニットを使用できるようにするには、単位をオンにして、Microsoft Teams のルームアプリケーションで正しく構成されたネットワークに接続して、機能している周辺デバイスに接続する必要があります。 
 
 
-マイクロソフト チームの会議室のアプリケーションと接続されている周辺機器の状態についての情報は、Windows イベント ログにマイクロソフト チーム ルーム アプリケーションによって書かれた、[ログ エントリを理解するの](azure-monitor-manage.md#understand-the-log-entries)に記載されています。 
+Microsoft Teams のルームアプリケーションと接続されている周辺機器の状態に関する情報は、Microsoft Teams のルームアプリケーションによって Windows イベントログに書き込まれ、[ログエントリを理解](azure-monitor-manage.md#understand-the-log-entries)するために文書化されています。 
 
-|**設定**|**により、**|
+|**]**|**よう**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows 探して AutoAdminLogon = (dword) 1  <br/> |起動するように、マイクロソフト チームの会議室を使用します。  <br/> |
-|電源管理 -\> AC、画面をオフに 10 分後  <br/> 電源管理 -\> Ac システムをスリープ状態を配置しません。  <br/> |マイクロソフト チームの部屋に接続されている表示をオフにして、自動的にスリープを有効に  <br/> |
-|net accounts /maxpwage:unlimited  <br/> またはローカル アカウントのパスワードの有効期限を無効にするのと同等のことを意味します。 これを行うには、障害が発生する Skype アカウントの期限切れのパスワードについて苦情を言ってログオンが失敗すると、最終的に。 したがってこれを設定して必要があります管理者アカウント、最終的にも期限切れにする] ボックスに、コンピューター上のすべてのローカル アカウントに影響を与えるこのこと注意してください。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Microsoft Teams のルームを起動できるようにします。  <br/> |
+|電源管理-\> AC 電源、10分後に画面をオフにする  <br/> 電源管理-\> AC で、システムをスリープ状態にしない  <br/> |Microsoft Teams の会議機能を有効にして、添付されたディスプレイをオフにし、自動的にスリープ状態を解除する  <br/> |
+|net accounts /maxpwage:unlimited  <br/> または、ローカルアカウントのパスワードの有効期限を無効にすることもできます。 そうしないと、有効期限が切れたパスワードについて、Skype アカウントがログオンに失敗することになります。 これは、マシン上のすべてのローカルアカウントに影響を与えるため、これを設定しないと、そのボックスの管理者アカウントも最終的に有効期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
-グループ ポリシーを使用してファイルを転送するは、[構成ファイルの項目](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)で説明します。
+グループポリシーを使用してファイルを転送する方法については[、「ファイルを構成](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)する」をお勧めします。
   
 ## <a name="remote-management-using-powershell"></a>PowerShell を使用したリモート管理
 <a name="RemotePS"> </a>
 
-マイクロソフト チームの会議室のシステムを監視する Microsoft オペレーション マネージャーのスイートを使用することをお勧めします。 監視と警告の基本的なセットアップ方法については、 [Azure のモニターを使用してマイクロソフト チーム ルームの展開の管理](azure-monitor-deploy.md)を参照してください。 
+Microsoft Operations Manager スイートを使用して、Microsoft Teams のルームシステムを監視することをお勧めします。 監視と基本的な通知の設定方法のガイダンスについては、「 [Azure モニターを使用して Microsoft Teams のルーム管理を展開](azure-monitor-deploy.md)する」を参照してください。 
 
-このガイドを使用すると、マイクロソフト チームの部屋にいるユニットを配置ですべての問題を識別する簡単に使用できるダッシュ ボードを作成できます。 
+このガイダンスを使用すると、簡単に使用できるダッシュボードを作成して、Microsoft Teams のルーム単位での展開の問題を特定することができます。 
 
 |    |     |
 |-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>マイクロソフト チームの会議室の展開を監視する操作の管理スイートを使用することを確認します。</li><li>メール ・ アラートを使用するターゲットの配布リストを決定します。</li></ul>|
+|![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Operations Management Suite を使用して、Microsoft Teams ルームの展開を監視することを確認します。</li><li>メール通知に使用するターゲット配布リストを決定します。</li></ul>|
 |![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>品質と信頼性の監視方法を定義します。</li></ul>|
 
-## <a name="quality-and-reliability-monitoring-cqd"></a>品質と信頼性の監視 (救難)
+## <a name="quality-and-reliability-monitoring-cqd"></a>品質と信頼性の監視 (CQD)
 
-懸念される領域を識別し、解決に向けて、継続的なオペレーションの品質と信頼性の呼び出し、会議の品質と信頼性、トレンドを監視するのには、展開の一部としてプロシージャを監視を実装することをお勧めします。 
+現在の運用品質と信頼性の監視手順は展開の一部として実装することをお勧めします。通話と品質と信頼性のトレンドを監視し、問題の領域を特定し、解決に向けて作業することをお勧めします。 
 
-救難に、建物の情報をアップロードするとき簡単に建物を比較し、特定の問題を絞り込んで、建物ごとのレベルでの呼び出しの品質と信頼性の傾向を調査できます。 詳細については、 [Skype のオンライン配信のビジネスおよび運用ガイド 』 のモニター ・救難](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15)をダウンロードします。 
+CQD に建物情報をアップロードする場合は、建物レベルで通話品質と信頼性の傾向を調べることができます。これにより、建物を比較したり、特定の問題に注意を向けることが簡単になります。 詳細については、「 [Skype For Business Online での CQD の配信と運用のガイド」](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15)を参照してください。 
 
-確認し、することと[品質の経験をレビュー ガイド](https://aka.ms/qerguide)の品質と信頼性の傾向を把握するのには、次の解決するためのアクション ・ プランの作成をお勧めします。 
+品質と信頼性の傾向を特定し[](https://aka.ms/qerguide) 、問題を解決するためのアクションプランを作成することをお勧めします。 
 
-## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>チーム ルーム OS のマイクロソフトおよびマイクロソフト チームの会議室のアプリケーションを更新
+## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>Microsoft Teams のルーム OS および Microsoft Teams のルームアプリケーションを更新する
 
-製品の更新プログラムと機能強化によるメリットを得るチーム ルーム OS のマイクロソフトおよびマイクロソフト チームの会議室のアプリケーションを更新することをお勧めします。 詳細については、[マイクロソフト チームのルームの管理](room-systems-v2-operations.md#software-updates)を参照してください。 
+Microsoft Teams 室の OS および Microsoft Teams のルームアプリケーションを更新して、製品の更新や改善を活用することをお勧めします。 詳細なガイドについては、「 [Microsoft Teams のルームを管理](room-systems-v2-operations.md#software-updates)する」を参照してください。 
 
 ## <a name="windows-updates"></a>Windows の更新プログラム
 
-マイクロソフト チームの会議室では、10 企業「IoT の Windows または Windows 10 エンタープライズ (VL) 上で実行し標準のデスクトップと同じ Windows の更新プログラムおよびオペレーティング システムのビルドを受け取ります。 詳細については、 [Windows の更新プログラムの管理](updates.md)を参照してください。
+Microsoft Teams の会議は、Windows 10 Enterprise IoT または Windows 10 Enterprise (VL) で実行され、標準デスクトップと同じ Windows 更新プログラムと OS ビルドを受け取ります。 詳細については、「 [Windows 更新プログラムを管理](updates.md)する」をご覧ください。
 
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-管理スイートの操作、運用チームとヘルプデスク警告が表示されます、マイクロソフト チームの会議室の問題にするために上記のセクションで説明したようのアラートを設定することをお勧めします。 [PowerShell を使用してリモート管理](room-systems-v2-operations.md#remote-management-using-powershell)では、PowerShell のリモート管理に使用できるオプションが説明されています。 周辺機器が切断されているローカルの「スマート手」かを調査し、デバイスを再接続する IT サポートに依存する必要があります。 
+上のセクションで説明されているように、operations Management Suite 通知を設定することをお勧めします。これにより、運用チームとヘルプデスクは Microsoft Teams の会議の問題について通知されます。 PowerShell リモート管理のオプションについては、「 [powershell を使用したリモート管理](room-systems-v2-operations.md#remote-management-using-powershell)」を参照してください。 周辺機器が切断されている場合は、ローカルの "スマートハンド" または IT サポートに依存して、デバイスを調査し、再接続することが必要な場合があります。 
 
-トラブルシューティングと管理モードの詳細については、[マイクロソフト チームのルームの管理](room-systems-v2-operations.md#admin-mode-and-device-management)を参照してください。 
+トラブルシューティングと管理モードの詳細については、「 [Microsoft Teams のルームを管理](room-systems-v2-operations.md#admin-mode-and-device-management)する」を参照してください。 
 
 
 ## <a name="see-also"></a>関連項目
 
 [Microsoft Teams Rooms ヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[マイクロソフト チームの会議室のプラン](skype-room-systems-v2-0.md)
+[Microsoft Teams のルームを計画する](skype-room-systems-v2-0.md)
 
-[マイクロソフト チームの会議室を配置します。](room-systems-v2.md)
+[Microsoft Teams ルームの展開](room-systems-v2.md)
 
-[マイクロソフト チームの会議室のコンソールを構成します。](console.md)
+[Microsoft Teams 室コンソールを構成する](console.md)
 
-[マイクロソフト チームの会議室のコンソールの設定を XML 構成ファイルを使用してリモートで管理します。](xml-config-file.md)
+[XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する](xml-config-file.md)

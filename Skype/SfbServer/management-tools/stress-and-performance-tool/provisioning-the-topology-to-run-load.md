@@ -1,56 +1,56 @@
 ---
-title: ストレスおよびパフォーマンスのシナリオで負荷を実行するのにはトポロジの準備
+title: ストレスとパフォーマンスのシナリオでのロードを実行するためのトポロジのプロビジョニング
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 ms.date: 12/17/2015
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
-description: ビジネス サーバー 2015 トポロジの変更やプロビジョニングのストレスおよびパフォーマンス ツールが正常に実行できるようにする Skype。
-ms.openlocfilehash: 446c8d8154992540ffd8bfe18b07af7c54e864fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server 2015 のトポロジの変更またはプロビジョニングを行うと、ユーザーはストレスとパフォーマンスのツールを正常に実行することができます。
+ms.openlocfilehash: c7cdc10b3667ac99376904c81309df739e49844a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906642"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299703"
 ---
-# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>ストレスおよびパフォーマンスのシナリオで負荷を実行するのにはトポロジの準備
+# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>ストレスとパフォーマンスのシナリオでのロードを実行するためのトポロジのプロビジョニング
  
-ビジネス サーバー 2015 トポロジの変更やプロビジョニングのストレスおよびパフォーマンス ツールが正常に実行できるようにする Skype。
+Skype for Business Server 2015 のトポロジの変更またはプロビジョニングを行うと、ユーザーはストレスとパフォーマンスのツールを正常に実行することができます。
   
-既存の設定およびビジネス サーバー 2015 の Skype の配置の構成によっては、環境内の一部を変更する必要があります。 これらの変更の一覧は次のとおりです。
+Skype for Business Server 2015 の展開に関する既存の設定と構成によっては、お使いの環境にいくつかの変更を加える必要がある場合があります。 これらの変更の一覧を次に示します。
   
-1. Windows PowerShell 実行ポリシーは、[制限しない] に設定します。 かわからないことが現時点に設定するは、ビジネス サーバー管理シェルには、Skype を開くし、このコマンドを実行します。
+1. Windows PowerShell の実行ポリシーを無制限に設定します。 現在設定されている内容がわからない場合は、Skype for Business Server 管理シェルを開き、次のコマンドを実行します。
     
    ```
    Get-ExecutionPolicy
    ```
 
-   [制限しない] の値が返されない場合は、次にこのを実行する必要があります。
+   制限なしの値が返されない場合は、次の操作を実行する必要があります。
     
    ```
    Set-ExecutionPolicy -Unrestricted
    ```
 
-2. 効果的なビジネス サーバーの Skype を構成するにする必要があります。
+2. Skype for Business Server を効果的に構成するには、次のことを行う必要があります。
     
-    - (コンピューター名、サービス インスタンス、サイト名、ポリシーなど) ビジネス サーバー 2015 トポロジの場合、Skype を理解します。
+    - Skype for Business Server 2015 トポロジ (コンピューター名、サービスインスタンス、サイト名、ポリシーなど) について理解している必要があります。
     
-    - 応答のグループのハント グループ (たとえば、SIP Uri) など、一部のグループに作成されるユーザーを割り当てます。
+    - 応答グループのハントグループ (SIP Uri など) など、グループに作成されたユーザーの一部を割り当てます。
     
-3. コマンドラインからスクリプトを実行するには、次の使用できます。
+3. コマンドラインからスクリプトを実行するには、次のように使用できます。
     
    ```
    PowerShell.exe -file <path to the file>
    ```
 
-4. 通常、スクリプトを実行すると、このパッケージからして、結果のトレースはスクリプトが実行された場所から同じパス内のファイルに保存されます。 名前付け形式を同様に、\<移動し、scriptname\>$h$m$s.txt。 午後 12時 15分、ArchivingPolicy.ps1 を実行すると、ArchivingPolicy121500.txt をという名前のログ ファイルが表示されます。
+4. 通常、このパッケージからスクリプトを実行すると、スクリプトが実行された場所と同じパスのファイルに結果のトレースが格納されます。 \<Scriptname\>$h $ m $ s .txt という名前の書式もあります。 そのため、12:15 PM で ArchivingPolicy を実行すると、ArchivingPolicy121500 という名前のログファイルが表示されます。
     
-5. サーバー構成のこれらの例を提供してきました、両方の構成を変更し、復元またはロード テストの実行が終了したら後にロールバックするです。
+5. これらの例は、サーバー構成のために用意されていますが、ロードテストの実行が完了したら、構成を変更し、復元またはロールバックすることをお勧めします。
     
 

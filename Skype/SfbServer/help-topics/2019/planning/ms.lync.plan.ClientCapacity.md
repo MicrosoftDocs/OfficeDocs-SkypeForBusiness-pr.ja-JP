@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.ClientCapacity
@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
-description: ビジネス サーバー 25 の Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。 詳細については、「Planning for Mobility」を参照してください。
-ms.openlocfilehash: b643dec9fdc45ef230dd7df7a06831c5f9b4b76a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server 25 のモビリティ機能は、モバイルデバイスでの Skype for Business の機能をサポートしています。 詳細については、「Planning for Mobility」を参照してください。
+ms.openlocfilehash: 4eb73ac9b73e6abf84f3641ac38090350ddd7507
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889522"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291117"
 ---
 # <a name="client-settings-planning-tool"></a>Client Settings (Planning Tool)
 
-ビジネス サーバーの Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。 詳細については、「[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)」を参照してください。
+Skype for Business Server のモバイル機能は、モバイルデバイスでの Skype for Business の機能をサポートしています。 詳細については、「[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)」を参照してください。
 
 

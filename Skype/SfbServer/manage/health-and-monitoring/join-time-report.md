@@ -1,25 +1,25 @@
 ---
-title: ビジネス サーバの Skype で会議参加時間レポート
+title: Skype for Business Server の会議参加時間レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: '概要: は、会議参加時のサマリー レポート Skype のビジネス サーバーについて説明します。'
-ms.openlocfilehash: 91e1c58d5718f0012e59e5ce2bfb6c53dbfd9c01
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の会議参加時間のサマリーレポートについて説明します。'
+ms.openlocfilehash: a6ded5dad2d55c6c629cd61809c803ee40de862a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897647"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305641"
 ---
-# <a name="conference-join-time-report-in-skype-for-business-server"></a>ビジネス サーバの Skype で会議参加時間レポート
+# <a name="conference-join-time-report-in-skype-for-business-server"></a>Skype for Business Server の会議参加時間レポート
  
-**の概要:** 会議参加時のサマリー レポート Skype のビジネス サーバーについて説明します。
+**概要:** Skype for Business Server の会議参加時間の概要レポートについて説明します。
   
 会議参加時間の概要を使用すると、ユーザーが会議に参加するのに要した時間を判定できます。このレポートは、平均参加時間 (ミリ秒) を表示します。また、2 秒以内に会議に参加できたユーザーの数や会議に参加するのに 2 ～ 5 秒かかったユーザーの数などがわかる詳細を提供します。
   
@@ -52,13 +52,13 @@ ms.locfileid: "33897647"
 |**日付** <br/> この指標の実際の名前は、選択した間隔によって異なります。  <br/> |いいえ  <br/> |会議が開催された日時です。  <br/> |
 |**セッションの合計数** <br/> |いいえ  <br/> |セッションの総数です。成功したセッション、失敗したセッション (予期されるエラーと予期しないエラーの両方)、およびどちらにも分類されないセッションを含みます。  <br/> |
 |**平均 (ミリ秒)** <br/> |いいえ  <br/> |参加者が会議に参加するのに要した平均時間 (ミリ秒) です。  <br/> |
-|**セッション\<2 秒間押し、ボリューム** <br/> |いいえ  <br/> |2 秒未満で会議に参加できた参加者の数です。  <br/> |
-|**セッション\<2 秒間の割合** <br/> |いいえ  <br/> ||
+|**セッション\< 2 秒、ボリューム** <br/> |いいえ  <br/> |2 秒未満で会議に参加できた参加者の数です。  <br/> |
+|**セッション\< 2 秒、パーセンテージ** <br/> |いいえ  <br/> ||
 |**セッション 2 ～ 5 秒、数** <br/> |いいえ  <br/> |2 ～ 5 秒で会議に参加できた参加者の数です。  <br/> |
 |**セッション 2 ～ 5 秒、割合** <br/> |いいえ  <br/> |2 ～ 5 秒で会議に参加できた参加者の合計の割合です。  <br/> |
 |**セッション 5 ～ 10 秒、数** <br/> |いいえ  <br/> |5 ～ 10 秒で会議に参加できた参加者の数です。  <br/> |
 |**セッション 5 ～ 10 秒、割合** <br/> |不可  <br/> |5 ～ 10 秒で会議に参加できた参加者の合計の割合です。  <br/> |
-|**セッション\>ボリューム、10 秒間** <br/> |いいえ  <br/> |会議に参加するのに 10 秒以上かかった参加者の数です。  <br/> |
-|**セッション\>、10 秒の割合** <br/> |不可  <br/> |会議に参加するのに 10 秒以上かかった参加者の合計の割合です。  <br/> |
+|**セッション\> 10 秒、ボリューム** <br/> |いいえ  <br/> |会議に参加するのに 10 秒以上かかった参加者の数です。  <br/> |
+|**セッション\> 10 秒、パーセンテージ** <br/> |不可  <br/> |会議に参加するのに 10 秒以上かかった参加者の合計の割合です。  <br/> |
    
 
