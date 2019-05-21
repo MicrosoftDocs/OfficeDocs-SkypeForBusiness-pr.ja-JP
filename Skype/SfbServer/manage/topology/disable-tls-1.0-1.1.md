@@ -1,207 +1,207 @@
 ---
-title: ビジネス サーバー 2015 の Skype では、TLS 1.0 または 1.1 を無効にします。
+title: Skype for Business Server 2015 で TLS 1.0/1.1 を無効にする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: '概要: を準備してお客様の環境で TLS 1.0 および 1.1 を無効にするを実装します。'
-ms.openlocfilehash: 570d691463f117c2c81c1191d1679db9f70e96b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: お客様の環境で TLS 1.0 および1.1 を無効にするための準備と実装を行います。'
+ms.openlocfilehash: 3f12642a5abf944ddbcddfdca0745998a8b634ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911904"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275242"
 ---
-# <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype では、TLS 1.0 または 1.1 を無効にします。
+# <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で TLS 1.0/1.1 を無効にする
 
-この資料の目的は、準備し、TLS 1.0 および 1.1 を無効にすることをお客様の環境で実装するために必要なガイダンスを提供します。 このプロセスには、綿密な計画と準備が必要です。 確認してください慎重にこの資料の情報をすべて TLS 1.0 と 1.1 の組織を無効にするための計画を行うとします。 多くの外部の依存関係および TLS 1.0 または 1.1 を無効にすることによって影響を受ける可能性があります接続条件があるため広範な計画とテストが保証されていることに注意します。
+この記事の目的は、お客様の環境で TLS 1.0 および1.1 を無効にするための準備と実装に必要なガイダンスを提供することです。 このプロセスには、さまざまな計画と準備が必要です。 組織で TLS 1.0 および1.1 を無効にする計画を立てるときは、この記事のすべての情報を慎重に確認してください。 TLS 1.0/1.1 を無効にすることによって影響を受ける可能性のある外部依存関係と接続性の条件が多数あるため、十分な計画とテストを行う必要があることに注意してください。
 
-## <a name="in-this-article"></a>この資料に記載されて
+## <a name="in-this-article"></a>この記事の内容
 
-- [背景とスコープ](#background)
+- [背景と範囲](#background)
 - [前提条件とプロセス](#prerequisites-and-process)
 - [高度な展開シナリオ](#advanced-deployment-scenarios)
 
 ## <a name="background"></a>背景
 
-TLS 1.0 と 1.1 を無効にするためのサポート Skype のビジネス サーバー設置型を提供する主な構成要素は、支払いカード業界 (PCI セキュリティ スタンダード カウンシルと連邦情報処理標準の要件です。 PCI 要件の詳細についてを参照して[ここで](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls)。  マイクロソフトは、これらやその他の要件に準拠する組織が必要かどうかに関するガイダンスを提供することはできません。 TLS 1.0 および 1.1 の環境で無効にするために必要なかどうかを決定する必要があります。
+オンプレミスの Skype for business Server のサポートを無効にするため 1.1 1.0 の主なドライバーは、支払いカード産業 (PCI) セキュリティ規格協議会と連邦情報処理規格の要件です。 PCI の要件の詳細については、[こちら](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls)を参照してください。  Microsoft は、組織がこれらの要件に従う必要があるかどうかについてのガイダンスを提供することはできません。 使用している環境で TLS 1.0 および1.1 を無効にする必要があるかどうかを判断する必要があります。
 
-マイクロソフトが TLS 利用可能な[ここでは](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)、上のホワイト ペーパーを作成し、読み取り、この[ブログの Exchange](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)で使用可能な背景もお勧めします。
+Microsoft は、TLS に関するホワイトペーパーを[ここ](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)で提供しています。また、この[Exchange ブログ](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)で利用できる背景の読み取りもお勧めします。
 
 ## <a name="supportability-scope"></a>サポート範囲
 
-*スコープ*は、サポート範囲を参照します。 Skype のビジネス サーバー設置型の場合は、*スコープ内で*完全にサポートされ、TLS 1.0 と表示されている製品のバージョン 1.1 を無効にするテストを意味します。 *現在調査中*というだけです。TLS がサポートを無効にするは、スコープ内にこれらの製品を導入を積極的に調査します。 *スコープの外*には、これらの製品のバージョンが無効にすると、TLS 1.0 または 1.1 をサポートしていないとは、以下の例外を意味します。
+*スコープ*は、サポート性の境界を意味します。 Skype for Business Server のオンプレミスの場合は、*範囲内で*、リストされている製品バージョンの TLS 1.0 および1.1 の無効化が完全にサポートされていることを意味します。 *現在調査中*であることを意味します。microsoft は、これらの製品をスコープ内で TLS のサポート対象にすることを積極的に調査しています。 *スコープ外の*場合、これらの製品バージョンは、TLS 1.0 または1.1 の無効化をサポートしておらず、例外が報告されていても動作しません。
 
-### <a name="fully-tested-and-supported-servers"></a>完全にテストされ、サポートされているサーバー
+### <a name="fully-tested-and-supported-servers"></a>完全にテストおよびサポートされたサーバー
 
 - Skype for Business Server 2019
-- Skype ビジネス サーバー 2015 CU6 HF2 ([2018年 3 月更新](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) 6.0.9319.516 のではそれ以上とします。 
-    - (KB 3140245 に優先する更新プログラム) の Windows Server 2012、2012 R2 または 2016
-- インプレース アップグレードの Skype ビジネス サーバー 2015、CU6 HF2 とではそれ以上の 
-    - Windows Server 2008 R2、2012 で KB [3140245](https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in)または優先する更新プログラムを使用)、または 2012 R2
-- Exchange の接続と Outlook Web App で Exchange Server 2010 の SP3 RU19 以降のガイダンス[は、ここ](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
-- Skype サーバー 2015 CU6 HF2 のビジネスまたはそれ以上でリカバリ性に優れたブランチ アプライアンス (SBA) (確認の製造元に問い合わせて、適切な更新プログラムをパッケージ化し、アプライアンスで利用できる必要になった)
-- Skype サーバー 2015 CU6 HF2 のビジネスまたはそれ以上でリカバリ性に優れたブランチ サーバー (SBS)
-- Lync Server 2013**エッジ ロールのみ**、これはエッジの役割では、ファブリックの 1.0 を Windows には、依存関係はありません。
+- Skype for Business Server 2015 CU6 HF2 6.0.9319.516 ([2018 年3月の更新プログラム](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) とそれ以降: 
+    - Windows Server 2012 (KB 3140245 または優先更新)、2012 R2 または2016
+- CU6 HF2 以降を搭載したインプレースアップグレードされた Skype for Business Server 2015 
+    - Windows Server 2008 R2、2012 (KB [3140245](https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in)または優先される更新プログラムを含む)、または 2012 R2
+- Exchange 接続と Outlook Web App (Exchange Server 2010 SP3 RU19 以降)、[ここで](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)のガイダンス
+- Skype for Business Server 2015 CU6 HF2 以上を搭載した Survivable Branch Appliance (SBA) (お使いのベンダーに、適切な更新プログラムをパッケージしており、お使いのアプライアンスで利用可能になったことを確認してください)
+- Survivable Branch Server (SBS) と Skype for Business Server 2015 CU6 HF2 以降
+- Lync Server 2013 **Edge の役割のみ**。これは、edge の役割が Windows Fabric 1.0 に依存していないことを意味します。
 
 
-### <a name="fully-tested-and-supported-clients"></a>完全にテストされ、サポートされているクライアント
+### <a name="fully-tested-and-supported-clients"></a>完全にテストおよびサポートされているクライアント
 
-- Lync 2013 (ビジネス用の Skype) デスクトップ クライアント、MSI および Basic を含む、C2R [15.0.5023.1000 以上](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
-- Skype ビジネス 2016年のデスクトップ クライアント、MSI の[16.0.4678.1000 以上](https://support.microsoft.com/en-us/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)、Basic を含む
-- Skype ビジネス 2016年] をクリックしますを実行するには、 [2018年 4 月](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)の更新が必要です。 
-    - 毎月および対象とする半年、16\.0\.9126\.2152 と高い
-    - 半年と延期チャネル、16\.0\.8431\.2242 と高い
-- Mac 16.15 とそれ以上のビジネスのための Skype
-- IOS および Android 6.19 のビジネスおよび高い Skype
-- Skype Web App 2015 CU6 HF2 と高い (サーバーが付属)
+- Lync 2013 (Skype for Business) デスクトップクライアント、MSI、C2R (基本的な[15.0.5023.1000 です](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)など)
+- Skype for Business 2016 デスクトップクライアント、MSI [16.0.4678.1000 以上](https://support.microsoft.com/en-us/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)(基本を含む)
+- Skype for Business 2016 を実行するには、 [2018 年4月](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)の更新プログラムが必要です。 
+    - 毎月および半年のターゲット、16\.0\.9126\.2152 以上
+    - 半期および段階的提供チャネル、16\.0\.8431\.2242 以上
+- Mac 16.15 以降の Skype for Business
+- Skype for Business for iOS および Android 6.19 以降
+- Skype Web App 2015 CU6 HF2 以上 (サーバーに付属)
 
 ### <a name="currently-being-investigated"></a>現在調査中
 
 #### <a name="devices"></a>デバイス
 
-- Lync ルーム システム (別名 SRSv1)
+- Lync Room System (別名 SRSv1)
 - Microsoft Teams Rooms
 - Surface Hub
-- 2015 ベースのリカバリ性に優れたブランチ アプライアンス (SBA) またはリカバリ性に優れたブランチ サーバー (SBS)
+- 2015ベースの Survivable Branch Appliance (SBA) または Survivable Branch Server (SBS)
 
 #### <a name="other"></a>その他
 
-- 品質のダッシュ ボードを呼び出す (TLS 1.0、1.1 以降後の新しいインストールを無効にされている、以下を参照してください) *
+- 通話品質ダッシュボード (TLS 1.0 の後の新規インストール、1.1 が無効になりました、下記参照) *
  
-### <a name="out-of-scope"></a>スコープ外
+### <a name="out-of-scope"></a>範囲外
 
-を除きは、次の製品は、TLS 1.0 または 1.1 を無効にするサポートの対象ではないと、TLS 1.0 および 1.1 がされて無効になっている環境では動作しません。  これが何を意味します。 範囲外のサーバーまたはクライアントを引き続き利用する場合を更新またはビジネス サーバー設置型展開のため、TLS 1.0 または 1.1、Skype で任意の場所を無効にする必要がある場合は、これらを削除する必要があります。
+特に注記がない限り、次の製品は、TLS 1.0/1.1 のサポートを無効にすることはできません。また、TLS 1.0 および1.1 が無効になっている環境では機能しません。  その意味: まだスコープ外のサーバーまたはクライアントを使用している場合は、Skype for Business Server のオンプレミスの展開で TLS 1.0/1.1 を無効にする必要がある場合は、これらを更新または削除する必要があります。
 
 - Lync Server 2013
 - Lync Server 2010
-- 2008 と下の Windows サーバー
+- Windows Server 2008 およびそれ以降
 - Lync for Mac 2011
-- モバイルの iOS、Android や Windows Phone、iPad の Lync 2013
-- "MX"Windows ストアの Lync クライアント
+- Lync 2013 for Mobile-iOS、iPad、Android、または Windows Phone
+- Lync "MX" Windows ストアクライアント
 - すべての Lync 2010 クライアント
-- Lync の電話のエディション - 更新されたガイド[は、ここ](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035)です。
-- 2013 ベースのリカバリ性に優れたブランチ アプライアンス (SBA) またはリカバリ性に優れたブランチ サーバー (SBS)
-- クラウド コネクタ エディション (CCE)
+- Lync Phone Edition-[ここで](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035)更新されたガイダンス。
+- 2013ベースの Survivable Branch Appliance (SBA) または Survivable Branch Server (SBS)
+- Cloud Connector Edition (CCE)
 - Windows Phone 版 Skype for Business
 
 ### <a name="exceptions"></a>例外
 
 #### <a name="lync-server-2013"></a>Lync Server 2013
 
-Lync Server 2013 では、Windows ファブリック 1.0 のバージョンの依存関係がかかります。  Lync Server 2013 のデザインの段階で、レプリケーション、高可用性、およびフォールト トレランスを提供する説得力のある新しい分散アーキテクチャのファブリックの 1.0 を Windows が選択されました。  時間の経過とともにビジネス サーバーと Windows のファブリックの両方の Skype がこの共同のアーキテクチャの大幅な再設計以降のバージョンでは大幅に向上します。  ビジネス 2015年のサーバーの現在の Skype では、たとえば Windows ファブリック 3.0 を使用します。
+Lync Server 2013 は、Windows ファブリックバージョン1.0 に依存しています。  Lync Server 2013 の設計フェーズでは、新しい分散アーキテクチャが採用され、レプリケーション、高可用性、フォールトトレランスを提供するために、Windows Fabric 1.0 が選ばれました。  時間の経過と共に、Skype for Business Server と Windows Fabric のどちらも、以降のバージョンでの大幅な再設計によって、この共同アーキテクチャが大幅に改善されました。  現在の Skype for Business 2015 Server では、たとえば Windows Fabric 3.0 が使用されています。
 
-残念ながら、Windows ファブリック 1.0**は TLS 1.2 をサポートしていません。 TLS 1.2 を使用するのには、Lync Server 2013 の更新は、** です。 これについては、Lync Server 2013 の次の累積的な更新プログラムで出勤します。  共存、移行、フェデレーション、およびハイブリッドのシナリオを有効にするのには TLS 1.2 のサポートを提供しています。
+残念ながら、Windows Fabric 1.0**は TLS 1.2 をサポートしていません。 ただし、Lync Server 2013 は、TLS 1.2 と連携するように更新され**ます。 これは、Lync Server 2013 の次の累積的な更新プログラムで提供されます。  Microsoft は、共同作業、移行、フェデレーション、ハイブリッドシナリオを可能にするために、TLS 1.2 サポートを提供しています。
 
-TLS 1.0 および 1.1 を無効にするのには、組織が必要な場合は、現在、Lync Server 2013 を使用することをお勧め計画プロセスを開始する、可能性にインプレース アップグレードする必要がありますまたはサイド バイ サイド移行 (新しいプール、ユーザーの移動) の Skype2015 またはそれ以上のビジネスのサーバーです。  または、オンライン ビジネスの Skype への移行を促進することができます。
+お客様の組織が TLS 1.0 および1.1 を無効にする必要があり、現在 Lync Server 2013 を使用している場合は、計画プロセスを開始することをお勧めします。インプレースアップグレードまたはサイドバイサイド移行 (新規プール、ユーザーの移動) が Skype for Business にインストールされている可能性があります。Business Server 2015 以降。  または、Skype for Business Online への移行を迅速化したい場合があります。
 
 #### <a name="call-quality-dashboard"></a>通話品質ダッシュボード
 
-設置呼び出し品質ダッシュ ボード現在に依存している TLS 1.0 (最初に、オンプレミス環境にインストールする) の新規インストール中にします。  この問題は現在調査中し、近い将来に修正プログラムをリリースする予定です。  救難をインストールして、TLS 1.0 を無効にも計画していることを最初に、救難のインストールを完了し、TLS 1.0 を無効にすることをお勧めします。
+オンプレミスの通話品質ダッシュボードは、現在、新しいインストール中に TLS 1.0 に依存しています (初めてオンプレミス環境にインストールするとき)。  現在、この問題を調査しており、近い将来、修正プログラムをリリースする予定です。  CQD のインストールを計画していて、TLS 1.0 も無効にしている場合は、最初に CQD のインストールを完了してから、TLS 1.0 無効化を続行することをお勧めします。
 
-#### <a name="third-party-devices"></a>サード ・ パーティ製デバイス
+#### <a name="third-party-devices"></a>サードパーティ製のデバイス
 
-3PIP 電話などのサードパーティ製のデバイスでビデオ会議、リバース プロキシとロード バランサーでは、必ず TLS 1.2 のサポート性を検証、慎重にテストが必要な場合、ベンダーにお問い合わせください。
+3PIP 電話、ビデオ会議、リバースプロキシ、ロードバランサーなどのサードパーティ製デバイスでは、TLS 1.2 のサポート性を検証し、必要に応じてベンダーに連絡してください。
 
-### <a name="federation-considerations-when-disabling-tls-1011-on-edge-servers"></a>エッジ トランスポート サーバーで TLS 1.0 または 1.1 を無効にすると、フェデレーションに関する考慮事項
+### <a name="federation-considerations-when-disabling-tls-1011-on-edge-servers"></a>エッジサーバーで TLS 1.0/1.1 を無効にするときのフェデレーションに関する考慮事項
 
-慎重の計画し、エッジ トランスポート サーバーに TLS 1.0 または 1.1 を無効にすることの影響を考慮する必要があります。  TLS 1.0 および 1.1 を無効にすると、他の組織は不要になったできる組織とフェデレーションを行うことがあります。
+エッジサーバーで TLS 1.0/1.1 を無効にすることによる影響について慎重に計画する必要があります。  TLS 1.0 および1.1 を無効にすると、他の組織が組織とフェデレーションできなくなることがあります。
 
-TLS 1.0 または 1.1 適用されていない (デバイス 2015、Lync 2013) との下位互換性を維持するために、エッジ サーバーで有効にしておくことを選択するか、古い (2010) の外部システムです。
+エッジサーバーで TLS 1.0/1.1 を有効にしたままにして、更新プログラム (SfB 2015、Lync 2013)、または古い (2010) 外部システムとの下位互換性を維持することができます。
 
-マイクロソフトを出せないアドバイスや推奨事項であるかどうか、ネットワークのエッジ (または任意のネットワーク) を下回った PCI の標準であります。個々 の会社で決定する必要があります。
+Microsoft は、Edge ネットワーク (またはネットワーク) が PCI standard の下にあるかどうかに関するアドバイスや推奨事項を提供することはできません。これは、個々の会社によって決定される必要があります。
 
-ビジネス オンラインの Skype は TLS 1.2 現在では、オンラインでは、ハイブリッドまたはフェデレーションへの影響はありませんのでです。
+Skype for Business Online は現在、TLS 1.2 に対応しているため、オンラインとのハイブリッド/フェデレーションへの影響は期待されません。
 
-Skype コンシューマー サービスには、PIC (パブリック IM 接続): 予定です[Skype の接続性](../../deploy/deploy-skype-connectivity.md)に影響を与えるに TLS 1.0 または 1.1 を無効にします。Microsoft PIC ゲートウェイが TLS 1.2 の機能では既にあります。
+Skype コンシューマーサービスへの PIC (パブリック IM 接続) の利用: [skype の接続](../../deploy/deploy-skype-connectivity.md)に影響を与えるために TLS 1.0/1.1 の無効化は予期していません。Microsoft PIC ゲートウェイは、既に TLS 1.2 に対応しています。
 
 ## <a name="prerequisites-and-process"></a>前提条件とプロセス
 
-TLS 1.0 および 1.1 は、無効な範囲外のサーバー、クライアントとデバイスは、正しく、またはすべての機能になった後、上記で説明した場合を除きます。 一時停止し、Microsoft から更新済みのガイダンスを待機する必要があります。 セットアップを完了してすべての要件を満たすし、隔たりに対処する計画があることを確認したら、続行します。
+上記の手順を除き、TLS 1.0 および1.1 では、スコープ外のサーバーが無効になっている場合、クライアントとデバイスは適切に機能しなくなります。 これは、Microsoft からの更新されたガイダンスを一時停止して待つ必要があることを意味します。 すべての要件を満たし、ギャップの対処計画があることを確認したら、続行します。
 
-高レベルは、ビジネス サーバー 2019 の Skype がインストールでは、プロシージャの準備ができてビジネス サーバー 2015 の Skype が必要 CU6 HF2、.NET と SQL、展開の前提条件となるレジストリ キー、および最後に、個別に事前に必要な更新プログラムを適用することをインストールすることOS 構成のラウンドは、(すなわち無効にする TLS 1.0 と 1.1 を使用してレジストリ ファイルのインポート) を更新します。 ビジネス サーバー 2015 CU6 HF2、TLS 1.0 と 1.1 を環境内の任意のサーバーを無効にする前に Skype を含むすべての必須コンポーネントのインストールを完了することがきわめて重要です。 ビジネス サーバー、エッジの役割と SQL バックエンドを含むすべての Skype では、更新プログラムが必要です。 また (スコープ) 内のすべてのサポートされているクライアントが必要な最小バージョンに更新されていることを確認します。 同様の管理ワークステーションを更新することを忘れないでください。
+高レベルでは、Skype for business Server 2019 をインストール時に使用する準備ができましたが、Skype for Business Server 2015 をインストールするには、CU6 HF2 をインストールし、必須の更新プログラムを .NET と SQL に適用する必要があります。また、必須のレジストリキーを展開し、最終的に個別にする必要があります。OS 構成の更新 (レジストリファイルのインポートによる TLS 1.0 および1.1 の無効化) のラウンド。 環境内のすべてのサーバーで TLS 1.0 と1.1 を無効にする前に、Skype for Business Server 2015 CU6 HF2 を含むすべての前提条件のインストールを完了しておくことが非常に重要です。 すべての Skype for Business server (Edge の役割と SQL バックエンドを含む) には、更新プログラムが必要です。 また、サポートされている (スコープ内) クライアントがすべて、必要な最小バージョンに更新されていることを確認します。 管理ワークステーションも更新することを忘れないでください。
 
-Skype をビジネスのサーバーのアップグレードの次の「表裏」操作通常順序にします。 ディレクター プール、永続的なチャット、およびプールの対応するを通常の方法と同じ方法で扱います。 順序とアップグレードの方法については、[ここ](topology.md)と[ここ](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)。
+Skype for Business サーバーのアップグレードには、"インサイド out" 機能の通常の順序に従う必要があります。 通常の場合と同じ方法で、ディレクタープール、常設チャット、およびペアリングされたプールを扱うことができます。 アップグレードの注文と方法につい[](topology.md)ては[](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)、ここで説明します。
 
-### <a name="high-level-process"></a>高度なプロセス
+### <a name="high-level-process"></a>高レベルプロセス
 
-1. 運用サーバーを構成する前にテスト環境ですべての手順をテストします。
-2. バックアップし、更新するすべての個々 のサーバーにエクスポートしたレジストリのコピーを保持します。 サーバー間でレジストリを共有することはできません。ベースのコンピューターの一意のキーが含まれます。
-3. ビジネス 2015年サーバーのすべての Skype は、CU6 HF2 以降にアップグレードします。 (ビジネス サーバー 2019 の Skype での CU は必要ありません)
-4. すべてのサーバーにすべての必須コンポーネントをインストールします。
-5. 前提条件となるレジストリ キーを展開します。
+1. 運用サーバーを構成する前に、ラボのすべての手順をテストします。
+2. エクスポートされたレジストリのコピーをバックアップして、個々のサーバーごとに保持します。 サーバー間でレジストリを共有することはできません。マシンベースの一意のキーが含まれています。
+3. すべての Skype for Business 2015 サーバーを CU6 HF2 以上にアップグレードします。 (Skype for Business Server 2019 の場合、CU は必要ありません)
+4. すべての前提条件をすべてのサーバーにインストールします。
+5. 必須のレジストリキーを展開します。
 6. スコープ内のすべてのクライアントが更新されていることを確認します。
-7. TLS 1.0 および 1.1 レジストリ ・ インポートを使用して無効にします。
-8. ワークロードが期待どおりに機能しているかを検証します。
-    - 問題が発生した場合のトラブルシューティングおよび解決するには、または
-    - TLS 1.0 を再度有効にするのには 2 と 1.1 の手順でレジストリを復元します。
-9. TLS 1.2 のみが使用されていることを検証します。
+7. レジストリのインポートを使用して、TLS 1.0 および1.1 を無効にします。
+8. ワークロードが予期したとおりに機能していることを確認します。
+    - 問題が発生した場合は、トラブルシューティングと解決、または
+    - 手順2のレジストリを復元して、TLS 1.0 および1.1 を再度有効にする
+9. TLS 1.2 のみが使用されていることを確認します。
 
-### <a name="install-prerequisites-to-all-servers"></a>すべてのサーバーに前提条件をインストールします。
+### <a name="install-prerequisites-to-all-servers"></a>すべてのサーバーに前提条件をインストールする
 
-TLS 1.0 と 1.1 は、オペレーティング システム レベルでサーバー 2015 のビジネス展開では、Skype で無効にする開始する前に、大規模な依存関係の更新が必要です。 TLS 1.2 をサポートする最小のバージョンを次に示します。 TLS 1.0 および 1.1 を無効にすることを開始する前に、環境内のビジネス サーバーのすべての Skype 経由ですべての必須更新プログラムを展開します。
+TLS 1.0 および1.1 を Skype for Business Server 2015 展開のオペレーティングシステムレベルで無効にする前に、依存関係の詳細な更新が必要です。 TLS 1.2 をサポートできる最小バージョンを次に示します。 TLS 1.0 および1.1 の無効化を開始する前に、環境内のすべての Skype for Business サーバーにあるすべての必須更新プログラムを展開します。
 
-- Skype のビジネス サーバー 2015 CU6 HF2 ([2018年 3 月更新](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) 6.0.9319.516 またはそれ以上
-- [.NET Framework 4.7](https://www.microsoft.com/en-us/download/details.aspx?id=55167)以上 (下記参照) のレジストリで有効になっている SchUseStrongCrypto と
-- ビジネス 2015年のサーバーとバックエンドのすべての Skype の SQL を更新する必要があります。 エンタープライズ エディションのプールの SQL バックエンド、最初に更新、それぞれの専用 FEs。 
-    - SQL Server 2014 SP1 + CU5 ([リンク](https://support.microsoft.com/help/3130926)) またはそれ以上と SQL Server 2012 の SP2 + CU16 またはそれ以上/rtm 版 SQL Server の 2014 + CU12 ([リンク](https://support.microsoft.com/en-us/help/3130923/cumulative-update-12-for-sql-server-2014)) またはそれ以上/2014 SP2 の SQL Server
-    - SQL Server ネイティブ クライアントを SQL Server 2012 年 5 号 ([リンク](https://www.microsoft.com/en-us/download/details.aspx?id=50402))
-    - Microsoft ODBC ドライバーの 11 以上の SQL Server ([リンク](https://www.microsoft.com/en-us/download/details.aspx?id=36434))
-    - 2014 SP2 ([リンク](https://www.microsoft.com/en-in/download/details.aspx?id=42295)) の SQL Server の管理オブジェクトを共有します。
-    - SQL server SP2 の 2014 ([リンク](https://www.microsoft.com/en-in/download/details.aspx?id=42295)) の SQLSysClrTypes
+- Skype for Business Server 2015 CU6 HF2 6.0.9319.516 ([2018 年3月更新プログラム](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) 以降
+- レジストリで SchUseStrongCrypto が有効になっている場合の[.Net Framework 4.7](https://www.microsoft.com/en-us/download/details.aspx?id=55167)以上 (以下に記載されています)
+- SQL は、すべての Skype for Business 2015 サーバーとバックエンドで更新する必要があります。 最初に Enterprise Edition プール SQL バックエンドを更新し、次にそれぞれの FEs を更新します。 
+    - SQL Server 2014 SP1 + CU5 以降 ([リンク](https://support.microsoft.com/help/3130926))、またはそれ以降の sql SERVER 2012 SP2 + CU16 以上/sql SERVER 2014 RTM + CU12 ([link](https://support.microsoft.com/en-us/help/3130923/cumulative-update-12-for-sql-server-2014)) または以上の sql server 2014 SP2
+    - Sql server Native Client for SQL Server 2012 ([link](https://www.microsoft.com/en-us/download/details.aspx?id=50402))
+    - Microsoft ODBC Driver 11 for SQL Server ([リンク](https://www.microsoft.com/en-us/download/details.aspx?id=36434))、またはそれ以降
+    - SQL Server 2014 SP2 の共有管理オブジェクト ([リンク](https://www.microsoft.com/en-in/download/details.aspx?id=42295))
+    - SQL server 2014 SP2 の SQLSysClrTypes ([リンク](https://www.microsoft.com/en-in/download/details.aspx?id=42295))
 
-### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>操作の推奨される順序で、必須コンポーネントをインストールするのには基本的な手順を実行します。
+### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>推奨される操作の順序で必須条件をインストールするための基本的な手順
 
-1. ビジネス サーバー CU6HF2 は、Skype をインストール (6.0.9319.516) のすべてのサーバーを更新します。 
-    1. アップデーターを使用してコンポーネントに更新プログラムをインストールします。
-    2. 文書化された手順に従って、データベースを更新します。 指示が記載されています[https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)。
-    3. その他の変更に進む展開の製品の機能を検証します。
-2. .NET 4.7 をダウンロードするオフラインのインストーラーです。 
-    1. 参照。[https://www.microsoft.com/en-us/download/details.aspx?id=55167](https://www.microsoft.com/en-us/download/details.aspx?id=55167)
-    2. サーバー 2015 のビジネス サービスの Skype がフロント エンド サーバー上で停止していることを確認します。
-    3. 参照。[https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)
-    4. 停止-CsWindowsServices ex (標準エディション)。
-    5. (Enterprise Edition): ex を呼び出す-CsComputerFailover
-    6. インストーラー パッケージを実行します。
+1. すべてのサーバーに Skype for Business Server CU6HF2 (6.0.9319.516) 更新プログラムをインストールします。 
+    1. アップデーターを使ってコンポーネントの更新プログラムをインストールします。
+    2. ドキュメントに記載されている手順に従ってデータベースを更新します。 手順について[https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)は、に記載されています。
+    3. 他の変更を加える前に、展開の製品機能を検証します。
+2. .NET 4.7 のオフラインインストーラーをダウンロードします。 
+    1. 文献[https://www.microsoft.com/en-us/download/details.aspx?id=55167](https://www.microsoft.com/en-us/download/details.aspx?id=55167)
+    2. フロントエンドサーバーで Skype for Business Server 2015 サービスが停止していることを確認します。
+    3. 文献[https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)
+    4. Ex (標準エディション): Stop-CsWindowsServices
+    5. Ex (Enterprise Edition): Invoke Computerfailover
+    6. インストーラパッケージを実行します。
     7. サーバーを再起動します。
-3. すべてのサーバー上の SQL Express 2014 を更新します。 
-    1. 参照。[https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server)
-    2. SQL 2014 SP2 をダウンロードします。 
-        - 参照。[https://www.microsoft.com/en-us/download/details.aspx?id=53168](https://www.microsoft.com/en-us/download/details.aspx?id=53168)
-    3. インストール メディアをサーバー上のフォルダーにコピーする (例: C:\01_2014SqlSp2)
-    4. Skype をフロント エンド サーバーでサービスが停止して、ビジネス サーバー 2015 のことを確認します。 
-        - 停止-CsWindowsService ex (標準エディション)。
-        - (Enterprise Edition): ex を呼び出す-CsComputerFailove
-    5. 管理者のコマンド プロンプトを開き、インストールされているすべてのコンポーネントおよびインスタンスをアップグレード 
-        - 例: C:\01_2014SqlSp2\SQLServer2014SP2-KB3171021-x64-ENU.exe/qs/IAcceptSQLServerLicenseTerms 行いました修正プログラム/AllInstances を =
-4. SQL ネイティブ クライアントを更新します。 
-    1. 参照: [https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server)。
-    2. ダウンロードします。[https://www.microsoft.com/en-us/download/details.aspx?id=50402](https://www.microsoft.com/en-us/download/details.aspx?id=50402)
-    3. フロント エンド サーバーでサービスが停止して、ビジネス サーバー 2015 の Skype をことを確認します。 
-        - 停止-CsWindowsServices ex (標準エディション)。
-        - (Enterprise Edition): ex を呼び出す-CsComputerFailove
-    4. 実行がインストールされている SQL インスタンスを停止します。 
-        - Ex: Get サービス 'MSSQL$ RTCLOCAL' |停止サービス
-        - Ex: Get サービス 'MSSQL$ LYNCLOCAL' |停止サービス
-        - (Standard Edition のみ): ex Get サービス 'MSSQL$ RTC' |停止サービス
+3. すべてのサーバーの SQL Express 2014 を更新します。 
+    1. 文献[https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server)
+    2. SQL 2014 SP2 をダウンロードする 
+        - 文献[https://www.microsoft.com/en-us/download/details.aspx?id=53168](https://www.microsoft.com/en-us/download/details.aspx?id=53168)
+    3. インストールメディアをサーバー上のフォルダーにコピーします (例: C:\01_2014SqlSp2)。
+    4. フロントエンドサーバーで Skype for Business Server 2015 サービスが停止していることを確認する 
+        - Ex (標準エディション): Stop-CsWindowsService
+        - Ex (Enterprise Edition): CsComputerFailove
+    5. 管理コマンドプロンプトを開き、インストールされているすべてのコンポーネントとインスタンスをアップグレードする 
+        - 例: C:\01_2014SqlSp2\SQLServer2014SP2-KB3171021-x64-ENU.exe/qs/IAcceptSQLServerLicenseTerms/Action = Patch/allinstances
+4. SQL Native Client を更新します。 
+    1. リファレンス: [https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server)。
+    2. ダウンロード元[https://www.microsoft.com/en-us/download/details.aspx?id=50402](https://www.microsoft.com/en-us/download/details.aspx?id=50402)
+    3. フロントエンドサーバーで Skype for Business Server 2015 サービスが停止していることを確認します。 
+        - Ex (標準エディション): Stop-CsWindowsServices
+        - Ex (Enterprise Edition): CsComputerFailove
+    4. インストールされている SQL インスタンスの実行を停止する 
+        - 例: Get Service ' MSSQL $ RTCLOCAL ' |Servic
+        - 例: Get-Service ' MSSQL $ LYNCLOCAL ' |Servic
+        - Ex (標準エディションのみ): Get Service ' MSSQL $ RTC ' |Servic
     5. 更新をインストールします。
-5. SQL Server の ODBC ドライバー 11 を更新します。 
-    1. 参照: [https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server)。
-    2. ダウンロードします。[https://www.microsoft.com/en-us/download/confirmation.aspx?id=36434](https://www.microsoft.com/en-us/download/confirmation.aspx?id=36434)
-    3. サーバー 2015 のビジネス サービスの Skype がフロント エンド サーバー上で停止していることを確認します。 
-        - 停止-CsWindowsService ex (標準エディション)。
-        - (Enterprise Edition): ex を呼び出す-CsComputerFailove
+5. SQL Server 用の ODBC ドライバー11を更新します。 
+    1. リファレンス: [https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server)。
+    2. ダウンロード元[https://www.microsoft.com/en-us/download/confirmation.aspx?id=36434](https://www.microsoft.com/en-us/download/confirmation.aspx?id=36434)
+    3. Skype for Business Server 2015 サービスがフロントエンドサーバーで停止していることを確認する 
+        - Ex (標準エディション): Stop-CsWindowsService
+        - Ex (Enterprise Edition): CsComputerFailove
     4. 更新をインストールします。
-6. 前提条件となるレジストリ キーを展開します。
+6. 必須のレジストリキーを展開します。
 
-### <a name="pre-requisite-registry-keys"></a>必須のレジストリ キー
+### <a name="pre-requisite-registry-keys"></a>前提条件のレジストリキー
 
-メモ帳に次のテストをコピー/貼り付けと TLSPreReq.reg または任意の名前の名前を変更し、インポートします。
+次のテストをメモ帳にコピーして貼り付け、TLSPreReq または任意の名前を変更して、インポートします。
 
 ```
 Windows Registry Editor Version 5.00
@@ -245,15 +245,15 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-SQL の背面の端のエンタープライズ エディションのプール、前提条件、および TLS を無効にする必要がありますとして扱われ、SQL、または OS の更新プログラムは次のようです。参照してください。[https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+Enterprise Edition プールの SQL バックエンドの場合、前提条件と TLS の無効化は、SQL または OS のすべての更新として処理する必要があります。参照先:[https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
 
-前提条件となるアプリケーションと手順を無効にすると TLS の両方を組み合わせることができます、中に TLS 1.0 と 1.1 は、オペレーティング システム レベルでの無効化を続行する前にすべての前提条件を適用するを強くお勧めします。 後で先に進むには、TLS 1.0 または 1.1 を無効にし、すべての作業負荷を正しくして、期待どおりの機能を検証するすべての前提条件を展開することにより、環境を準備するのには、ベスト プラクティスに基づくアプローチになります。
+必須アプリケーションと TLS を無効にする手順は両方とも組み合わせることができますが、オペレーティングシステムレベルで TLS 1.0 および1.1 を無効にする前に、すべての前提条件を適用することを強くお勧めします。 ベストプラクティスのアプローチとしては、すべての前提条件を展開し、ワークロードが正常に機能していることを検証し、後で TLS 1.0/1.1 を有効にすることによって環境を準備します。
 
-### <a name="disable-tls-10-and-11-via-registry-import"></a>TLS 1.0 と 1.1 レジストリ ・ インポートを使用して無効にします。
+### <a name="disable-tls-10-and-11-via-registry-import"></a>レジストリのインポートを使用して TLS 1.0 および1.1 を無効にする
 
-*すべての前提条件を完了し、Skype のビジネス サーバーを更新するかどうかを確認*、次の手順に進む前にできます。
+次の手順に進む前に、*すべての前提条件を完了していることを確認し、Skype For business のすべてのサーバーを更新*していることを確認します。
 
-メモ帳ファイルに次のテキストをコピーし、 **TLSDisable.reg**名前を変更します。
+メモ帳のファイルに次のテキストをコピーして、TLSDisable 名前を変更し**ます。**
 
 ```
 Windows Registry Editor Version 5.00
@@ -445,96 +445,96 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000000
 ```
 
-TLS 1.0 を無効にする各サーバーおよび 1.1 で .reg ファイルをインポートします。 サーバーを再起動します。 サービスがオンラインに戻る、次のサーバーに移動します。 エンタープライズ エディションのプールの実行方法については、OS の更新プログラムを実行します。
+TLS 1.0 および1.1 を無効にする各サーバーに、.reg ファイルをインポートします。 サーバーを再起動します。 サービスがオンラインに戻ったら、次のサーバーに移動します。 Enterprise Edition のプールのアプローチは、OS の更新に使用するのと同じです。
 
-お気付き TLS 1.0 および 1.1 をここでは無効にするより多くを行っています。 暗号パッケージ ・ プログラムは、(上記を参照) のように再注文し、いくつかの古い脆弱な暗号化を無効にすることをサポートします。 これは私たちが公式にサポートされて SCHANNEL、Crypto API にこれらの変更 Skype のビジネスのサーバーの最初の時間であり、私たちをサポートし、この時点でのテストが唯一のものは、これらの変更することが重要。 将来、追加の構成を検討することができますが、ここでは、変更しないでください実装では、レジストリ ファイルのインポート。
+ここでは、TLS 1.0 および1.1 を無効にするだけではありません。 ここでは、Cipher Suite の順序付け (上記を参照) をサポートしており、一部の古い強度の暗号を無効にする方法についても説明します。 これは、Skype for Business Server での SCHANNEL および Crypto API への変更を正式に正式にサポートしていることを意味しています。この変更は、現時点でサポートおよびテストされたものだけであることに注意してください。 今後、追加の構成を検討することもありますが、現時点では、実装のレジストリインポートファイルを変更しないようにしてください。
 
-### <a name="validate-that-workloads-are-functioning-as-expected"></a>ワークロードが期待どおりに機能しているかを検証します。
+### <a name="validate-that-workloads-are-functioning-as-expected"></a>ワークロードが期待どおりに機能していることを検証する
 
-TLS 1.0 および 1.1 は、お客様の環境で無効になっています後、は、メインの作業負荷が期待どおりに機能していることを確認して IM & プレゼンス、P2P 通話、エンタープライズ VoIP などなど。
+お客様の環境で TLS 1.0 と1.1 を無効にした後は、IM & プレゼンス、P2P 通話、エンタープライズボイスなどのメインワークロードがすべて正常に機能していることを確認してください。
 
-**検証のみ TLS 1.2 を使用します。**
+**TLS 1.2 のみが使用されていることを確認する**
 
-古いプロトコル TLS 1.0 および 1.1 が使用されていないビジネス トラフィック用の Skype の新しい監査を実行する、セキュリティ チームがあります。
+セキュリティチームが Skype for Business トラフィックの新しい監査を実行して、古いプロトコル TLS 1.0 および1.1 が使用されなくなったことを確認します。
 
-また、TLS 1.0 と 1.1 の TLS を無効にした後、Skype からビジネス サーバー 2015 の TLS 接続を web サービスをテストするのには、Internet Explorer を使用できます。
+または、Internet Explorer を使用して、TLS 1.0 と TLS 1.1 を無効にした後で、Skype for Business Server 2015 から web サービスへの TLS 接続をテストすることもできます。
 
 1. Internet Explorer を起動します。
-2. **ツール**を選択して > **インター ネット オプション**。
+2. [**ツール** > ] の [**インターネットオプション**] を選びます。
 3. [**詳細設定**] タブを選択します。
-4. [**設定**] の一番下までスクロールします。
-5. TLS 1.0、TLS 1.1 および TLS 1.2 が有効になっていることを確認します。
-6. (正常に接続)、デバイスの 2015年プールの内部の Web サービスの URL を参照してください。
-7. Internet Explorer に戻るし、 **TLS 1.2 を使用**するオプションのみを無効にします。
-8. (接続に失敗する必要があります) もう一度デバイス 2015年プールの内部の Web サービスの URL を参照してください。
+4. [**設定**] で、下にスクロールします。
+5. TLS 1.0、TLS 1.1、および TLS 1.2 が有効になっていることを確認します。
+6. SfB 2015 プールの内部 Web サービスの URL を参照します (正常に接続されている必要があります)。
+7. Internet Explorer に戻り、 **TLS 1.2**のみを使うオプションを無効にします。
+8. SfB 2015 プールの内部 Web サービスの URL をもう一度参照します (接続に失敗する必要があります)。
 
-![インターネット オプション](../../media/internet-options.jpg)
+![インターネットオプション](../../media/internet-options.jpg)
 
 ## <a name="advanced-deployment-scenarios"></a>高度な展開シナリオ
 
-ビジネス Ser 2015 の Skype で TLS 1.2 をサポートするためにいくつかの依存関係の前提条件が必要であるため、TLS 1.0 および 1.1 が無効になってすべてのシステムで失敗 RTM 版からをインストールすます。
+Skype for Business Ser 2015 で TLS 1.2 をサポートするには、一部の依存関係の前提条件が必要であるため、TLS 1.0 と1.1 が無効になっているシステムでは、RTM メディアからのインストールは失敗します。
 
-**環境内で、TLS 1.0 および 1.1 が無効になっていると、新しいの Standard Edition Server またはエンタープライズ エディションのプールを展開します。**
+**お客様の環境で TLS 1.0 および1.1 が無効になった後、新しい Standard Edition サーバーまたは Enterprise Edition プールを展開します。**
 
-**オプション 1:**[SmartSetup](../../deploy/install/install-skype-for-business-server.md)を使用します。 CU、将来の更新された SQL バイナリに対応するために SmartSetup を更新し、将来的にこの資料を更新ことに注意してください。
+**オプション 1:**[Smartsetup](../../deploy/install/install-skype-for-business-server.md)を使用します。 今後の CU で更新された SQL バイナリに対応するように SmartSetup を更新しており、今後この記事が更新されることにご注意ください。
 
-**オプション 2:**(RTCLOCAL および LYNCLOCAL)、ローカルの SQL インスタンスをインストールする前
+**オプション 2:** インストール前のローカル SQL インスタンス (RTCLOCAL と LYNCLOCAL)
 
-1. ダウンロードし、SQL Express 2014 SP2 (SQLEXPR_x64.exe) を FE 上のローカル フォルダーにコピーします。 フォルダー パスの <SQL_FOLDER_PATH> を考えてみましょう。
-2. PowerShell またはコマンド プロンプトを起動し、<SQL_FOLDER_PATH> に移動します。
-3. 次のコマンドを実行して、RTCLOCAL の SQL インスタンスを作成します。 続行する前に SQLEXPR_x64.exe が完了するまでに待機します。
+1. SQL Express 2014 SP2 (SQLEXPR_x64) を、FE のローカルフォルダーにダウンロードしてコピーします。 フォルダパスの <SQL_FOLDER_PATH> を言いましょう。
+2. PowerShell またはコマンドプロンプトを起動し、<SQL_FOLDER_PATH> に移動します。
+3. 以下のコマンドを実行して、RTCLOCAL SQL インスタンスを作成します。 続行する前に SQLEXPR_x64 が終了するまで待ちます。
 
-    SQLEXPR_x64.exe/Q/IACCEPTSQLSERVERLICENSETERMS/UPDATEENABLED = 0/HIDECONSOLE 行いました = インストール機能 = SQLEngine、ツールの/INSTANCENAME = RTCLOCAL/TCPENABLED = 1/SQLSVCACCOUNT ="NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS ="Builtin\管理者"/BROWSERSVCSTARTUPTYPE =「自動」/AGTSVCACCOUNT ="NTAUTHORITY\NetworkService"/SQLSVCSTARTUPTYPE = 自動的
-1. 次のコマンドを実行して、LYNCLOCAL の SQL インスタンスを作成します。 SQLEXPR_x64.exe は、次の手順に進む前に完了するまでに待機します。
+    SQLEXPR_x64/Q/IACCEPTSQLSERVERLICENSETERMS/updateenabled = 0/hidecon/ACTION = インストール/機能 = SQLEngine、Tools/INSTANCENAME = RTCLOCAL/tcpenabled = 1/SQLSVCACCOUNT = "NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS = "Builtin \管理者 "/BROWSERSVCSTARTUPTYPE =" Automatic "/AGTSVCACCOUNT =" NTAUTHORITY\NetworkService "/SQLSVCSTARTUPTYPE = Automati
+1. 以下のコマンドを実行して、LYNCLOCAL SQL インスタンスを作成します。 SQLEXPR_x64 が終了するまで待ってから、次の手順に進みます。
 
-    SQLEXPR_x64.exe/Q/IACCEPTSQLSERVERLICENSETERMS/UPDATEENABLED = 0/HIDECONSOLE 行いました = インストール機能 = SQLEngine、ツールの/INSTANCENAME = LYNCLOCAL/TCPENABLED = 1/SQLSVCACCOUNT ="NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS ="Builtin\管理者"/BROWSERSVCSTARTUPTYPE =「自動」/AGTSVCACCOUNT ="NTAUTHORITY\NetworkService"/SQLSVCSTARTUPTYPE = 自動
-1. Skype をビジネス サーバー 2015 の rtm 版のセットアップを実行します。
-2. 上記の前提条件」セクションから、残り手順を実行します。
+    SQLEXPR_x64/Q/IACCEPTSQLSERVERLICENSETERMS/updateenabled = 0/hidecon/ACTION = インストール/機能 = SQLEngine、Tools/INSTANCENAME = LYNCLOCAL/tcpenabled = 1/SQLSVCACCOUNT = "NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS = "Builtin \管理者 "/BROWSERSVCSTARTUPTYPE =" Automatic "/AGTSVCACCOUNT =" NTAUTHORITY\NetworkService "/SQLSVCSTARTUPTYPE = 自動
+1. Skype for Business Server 2015 RTM セットアップを実行します。
+2. 上記の「前提条件」セクションの残りの手順に従います。
 
-**オプション 3:** ローカル インストール メディアのディレクトリにバイナリを次のように手動で置き換えることが。
+**オプション 3:** また、次のようにして、ローカルインストールメディアディレクトリのバイナリを手動で置き換えることもできます。
 
-1. [ビジネス サーバーの Skype のための前提条件をインストールします。](../../deploy/install/install-prerequisites.md)  
+1. [Skype for Business Server の前提条件をインストールする](../../deploy/install/install-prerequisites.md)  
 2. 2. .NET 4.7 をインストールします。 
-      - **注:** まず、Skype で .NET 4.7 のサポートの業務サーバー 2015 CU5 + (6.0.9319.281) を導入しました。 したがって、次以降の手順で私たちが更新されます。 コア コンポーネント メインのインストールの前にします。
-      - ダウンロード先: https://www.microsoft.com/en-us/download/details.aspx?id=55167。
-      - 参照:[サーバー 2015 のビジネスを展開するため、Skype の前にインストールするソフトウェア](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
-3. ISO ファイルとフォルダーをコピーします。 
-    - として接続されているドライブのルート ディレクトリを開くと、Skype ビジネス サーバー 2015 ISO が接続されているのでは、(例: d:\)ファイル エクスプ ローラーでします。
-    - すべてのフォルダーとファイルをローカル ディスク上のフォルダーにコピーする (例: C:\SkypeForBusiness2015ISO)。
-    - **注:** コンポーネントをインストールする前にいくつかのファイルは、TLS 1.2 をサポートするために更新する必要があります。
-4. MSI および EXE パッケージを置き換えます。 
-    - /Setup/amd64 フォルダーをローカル コンピューター上のインストール メディアので、既存の MSI および EXE パッケージを交換してください。
-    - SQL 2014 SP2 の高速。https://www.microsoft.com/en-us/download/details.aspx?id=53167 
-        - ローカルのマシンでは、SQLEXPR_x64 に名前を変更し、セットアップまたは amd64 では、既存のファイルを置き換えると、インストール メディアのフォルダーです。
-    - SQL ネイティブ クライアント:https://www.microsoft.com/en-us/download/details.aspx?id=50402 
-        - **注:** Sqlncli.msi、およびセットアップまたは amd64 に存在する既存のファイルを交換する必要がある場合は、名前を変更またはインストール メディアのフォルダーです。
+      - **注:** 最初に、Skype for Business Server 2015 CU5 以降 + (6.0.9319.281) での .NET 4.7 のサポートを導入しました。 そのため、次の手順では、メインインストールの前にコアコンポーネントを更新する予定です。
+      - ダウンロード: https://www.microsoft.com/en-us/download/details.aspx?id=55167。
+      - リファレンス: [Skype For Business Server 2015 の展開前にインストールする必要があるソフトウェア](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
+3. ISO ファイル/フォルダーをコピーします。 
+    - Skype for Business Server 2015 ISO が添付されている場合、ファイルが添付されているドライブのルートディレクトリ (\)例: D: エクスプローラーで) を開きます。
+    - すべてのフォルダーとファイルをローカルディスク上のフォルダー (例: c skypeforbusiness2015iso) にコピーします。
+    - **注:** コンポーネントをインストールする前に、TLS 1.2 をサポートするために一部のファイルを更新する必要があります。
+4. MSI/EXE パッケージを置き換える: 
+    - ローカルコンピューター上のインストールメディアの/Setup/Amd64/フォルダーにある既存の MSI パッケージと EXE パッケージを置き換えます。
+    - SQL 2014 SP2 Express:https://www.microsoft.com/en-us/download/details.aspx?id=53167 
+        - ローカルコンピューター上の SQLEXPR_x64 に名前を変更し、インストールメディアの Setup/amd64/フォルダーにある既存のファイルを置き換えます。
+    - SQL Native Client:https://www.microsoft.com/en-us/download/details.aspx?id=50402 
+        - **注:** 必要に応じて、sqlncli に名前を変更して、インストールメディアの Setup/amd64/フォルダーに存在する既存のファイルを置き換えます。
     - SQL 管理オブジェクト:https://www.microsoft.com/en-us/download/details.aspx?id=53164 
-        - **注:** Feature pack には、ダウンロードできる項目の多くがあります。 だけ SharedManagementObjects.msi をダウンロードするを選択します。
-        - **注:** セットアップと amd64 に存在する既存のファイルを置き換えると、インストール メディアのフォルダーです。
-    - SQL CLR の種類:https://www.microsoft.com/en-us/download/details.aspx?id=53164 
-        - **注:** Feature pack には、ダウンロードできる項目の多くがあります。 だけ CQLSysClrTypes.msi をダウンロードするを選択します。
-        - **注**: セットアップまたは amd64 に存在する既存のファイルを置き換えるとインストール メディアのフォルダーです。
-5. コア コンポーネントをインストールします。 
-    - セットアップと amd64 から Setup.exe を実行またはインストール メディアのフォルダーです。 コア コンポーネントをインストールする指示に従います
-    - コア コンポーネントを終了します。
-6. コア コンポーネントを更新します。 
-    - ビジネスの更新プログラムのインストーラーは、Skype をダウンロードしてください。
-    - コア コンポーネントを更新し、パフォーマンス カウンターをインストールするインストーラーを実行します。
-    - **注:** CU6HF2 のリリースでは、自動更新機能現在のみがインストールされます CU6 まで。 したがって、アップデーターは、6.0.9319.516 をコア ・ コンポーネントを更新するのには個別に実行してください。
-    - 参照。https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015
-7. (省略可能) の管理ツールをインストールします。 
-    - SQL Server 2014 更新されたファイルを使用して (x64) の Microsoft SQL Server 2012 のネイティブ クライアント、SQL Server 2014 管理オブジェクト (x64)、および Microsoft システムの CLR 型がインストールされます。 さらに、ビジネス サーバー 2015 のトポロジ ビルダーおよびコントロール パネルの Skype はローカル コンピューターで利用可能になります。
-8. ローカル構成ストア (ステップ 1) をインストールします。 
-     - 展開ウィザードを開く、サーバーのビジネス システムのインストールまたは更新プログラムの Skype をクリックしてし、**実行**を手順 1 でをクリックします。 ローカル構成ストアのインストールします。
-     - **次**の**ローカル構成ストアのインストール**] ダイアログ ボックスをクリックします。
-     ![ローカル構成ストアのインストール] ダイアログ ボックス](../../media/local-configuration-store.png)
-     - 結果を確認し、タスクの進捗状況が完了したことを確認します。 **ログの表示**] をクリックして、ログ ・ ファイルを確認します。
-     ![完了としてタスクの進捗状況を示しています](../../media/local-configuration-task-completed.png)
+        - **注:** 機能パックには、ダウンロードできる多くのアイテムが含まれています。 SharedManagementObjects をダウンロードする場合に選択します。
+        - **注:** インストールメディアの Setup/amd64/フォルダーに存在する既存のファイルを置き換えます。
+    - SQL CLR 型:https://www.microsoft.com/en-us/download/details.aspx?id=53164 
+        - **注:** 機能パックには、ダウンロードできる多くのアイテムが含まれています。 CQLSysClrTypes をダウンロードする場合に選択します。
+        - **注**: インストールメディアの Setup/amd64/フォルダーに存在する既存のファイルを置き換えます。
+5. コアコンポーネントをインストールします。 
+    - インストールメディアの Setup/amd64/フォルダーから Setup.exe を実行します。 指示に従ってコアコンポーネントをインストールする
+    - コアコンポーネントを閉じます。
+6. 主要コンポーネントの更新: 
+    - Skype for Business 更新プログラムインストーラーをダウンロードします。
+    - インストーラーを実行してコアコンポーネントを更新し、パフォーマンスカウンターをインストールします。
+    - **注:** CU6HF2 のリリース時点では、現時点で自動更新機能をインストールできるのは、CU6 までです。 そのため、アップデーターは、コアコンポーネントを6.0.9319.516 に更新するために個別に実行する必要があります。
+    - 文献https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015
+7. 管理ツールをインストールする (オプション): 
+    - この操作を行うと、更新されたファイルを使用して、Microsoft SQL Server 2012 Native Client、SQL Server 2014 Management Objects (x64)、および Microsoft System CLR の各種類の SQL Server 2014 (x64) がインストールされます。 さらに、Skype for Business Server 2015 のトポロジビルダーとコントロールパネルは、ローカルコンピューターでも使用できます。
+8. ローカル構成ストア (手順 1) をインストールします。 
+     - 展開ウィザードを開き、[Skype for Business Server システムのインストールまたは更新] をクリックし、手順1で [**実行**] をクリックします。ローカル構成ストアをインストールします。
+     - [**ローカル構成ストアのインストール**] ダイアログボックスで [**次へ**] をクリックします。
+     ![[ローカル構成ストアのインストール] ダイアログボックス](../../media/local-configuration-store.png)
+     - 結果を確認して、タスクの進捗状況が完了していることを確認します。 [**ログの表示**] をクリックして、結果のログファイルを確認します。
+     ![タスクの状態が完了として表示される](../../media/local-configuration-task-completed.png)
      - [**完了**] をクリックします。
-9. 設定または解除 Skype ビジネス サーバー コンポーネント (ステップ 2)。
-    - 展開ウィザードを開く、[**インストール]、またはサーバーのビジネス システムの更新プログラムの Skype**、および手順 2 での**実行**] をクリックします設定または Skype をビジネスのサーバー コンポーネントの削除。
-    - 内で**次**の設定を Skype ビジネス サーバー コンポーネント] ダイアログ ボックスをクリックします。
-    ![ビジネス サーバー コンポーネント] ウィンドウの設定を Skype](../../media/set-up-skype-for-business-server-components-window.png)
-    - ログの表示] を使用してログを確認し、問題なく完了する設定を検証します。 
+9. Skype for Business Server コンポーネントのセットアップまたは削除 (手順 2):
+    - 展開ウィザードを開き、[ **skype For Business Server System をインストールまたは更新**する**** ] をクリックして、手順 2: Skype for Business server コンポーネントのセットアップまたは削除を行う
+    - [Skype for Business Server コンポーネントのセットアップ] ダイアログボックスで [**次へ**] をクリックします。
+    ![[Skype for Business Server コンポーネントのセットアップ] ウィンドウ](../../media/set-up-skype-for-business-server-components-window.png)
+    - ビューログを使用してログを確認し、問題なくセットアップが完了したことを確認します。 
     - [**完了**] をクリックします。
-10. 追加インストールし、必要に応じて構成を続行 (通常のインストール手順をこの時点でに再開することができます)。
+10. 必要に応じて、追加のインストールと構成を続行します (この時点で通常のインストール手順を再開できます)。

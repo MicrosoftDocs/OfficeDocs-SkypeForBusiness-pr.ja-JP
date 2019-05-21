@@ -4,34 +4,34 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
-description: '概要: は、コール品質のダッシュ ボード、Skype ビジネス サーバー用のレポート作成ツールであるについて説明します。'
-ms.openlocfilehash: c3972b31aa7f54b3a368b0449d4a5750f6b254af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のレポートツールである通話品質ダッシュボードについて説明します。'
+ms.openlocfilehash: 62fa3fc477e5cafc837d8a500b900ed65c178bf2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930835"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274850"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボード
  
-**の概要:** コール品質のダッシュ ボード、Skype ビジネス サーバー用のレポート作成ツールであるについて説明します。
+**概要:** Skype for Business Server のレポートツールである通話品質ダッシュボードについて説明します。
  
-Skype のビジネス サーバー呼び出し品質ダッシュ ボード (救難) は、データベース上に、品質の経験ビジネス サーバーおよび Lync Server 2013 の Skype でのサーバーの監視のレポートの層です。 救難では、Microsoft SQL Server の Analysis Services を使用して、集計使用法を提供し、品質の情報と同様にフィルタ リングとデータ セットにピボットを呼び出します。
+Skype for Business Server Call Quality Dashboard (CQD) は、Skype for Business Server および Lync Server 2013 の監視サーバーのエクスペリエンスデータベースの上にあるレポートレイヤーです。 CQD は、Microsoft SQL Server Analysis Services を使用して、データセットのフィルター処理とピボット処理に加えて、集計の利用状況と通話品質情報を提供します。
   
-次のトピックでは、このセクションに含まれているし、品質のダッシュ ボードの呼び出しを配置する前に確認する必要があります。
+以下のトピックはこのセクションに含まれており、通話品質ダッシュボードを展開する前に確認する必要があります。
   
-- [ビジネス サーバー用の Skype の通話品質のダッシュ ボードの計画](plan.md)
+- [Skype for Business Server の通話品質ダッシュボードの計画](plan.md)
     
-- [ビジネス サーバーの Skype の通話品質のダッシュ ボードを展開します。](deploy-0.md)
+- [Skype for Business Server の通話品質ダッシュボードの展開](deploy-0.md)
     
-- [Skype の通話品質のダッシュ ボードを使用して、ビジネスのサーバーの](use.md)
+- [Skype for Business Server の通話品質ダッシュボードを使用する](use.md)
     
-- [ビジネス サーバーで、Skype の通話品質のダッシュ ボードを作成します。](develop.md)
+- [Skype for Business Server の通話品質ダッシュボードの開発](develop.md)
     
 

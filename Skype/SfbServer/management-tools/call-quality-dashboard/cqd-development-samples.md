@@ -4,23 +4,23 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: '概要: は、品質のダッシュ ボードを呼び出すためのチュートリアルと開発のサンプルを確認します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: f227785cea2291b0314d309b0929f0a55948ba65
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: 通話品質ダッシュボードのチュートリアルと開発サンプルを確認します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: 4eac679950abdff5041bdfb63b633287d06a11e7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930568"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274829"
 ---
 # <a name="cqd-development-samples"></a>CQD の開発サンプル
 
-**の概要:** 品質のダッシュ ボードを呼び出すためのチュートリアルと開発のサンプルを確認してください。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**概要:** 通話品質ダッシュボードのチュートリアルと開発サンプルを確認します。 通話品質ダッシュボードは、Skype for Business Server のツールです。
 
 この記事では、通話品質ダッシュボード (CQD) の開発に関するチュートリアルとサンプルを示します。
 
@@ -32,13 +32,13 @@ ms.locfileid: "33930568"
 
 CQD により、オンプレミス Skype for Business Server 展開に関して集計された通話品質情報にすばやく簡単にアクセスできます。 CQD は、QoE アーカイブ データベース、キューブ、およびポータルの 3 つのコンポーネントから構成されています。 ポータルはメインのプレゼンテーション層で、さらに次の 3 つのコンポーネントに分割することができます。
 
-1. データ サービスは、アクセスできないためには、 [API の呼び出し品質ダッシュ ボード (救難) ビジネス サーバーの Skype でのデータ](data-api.md)を使用してユーザーが認証されます。
+1. データサービス。 [Skype For Business Server の通話品質ダッシュボード (CQD) のデータ API を](data-api.md)通じて、認証されたユーザーがアクセスできます。
 
-2. リポジトリ サービスには、[リポジトリ API の呼び出し品質ダッシュ ボード (救難) Skype ビジネス サーバーで](repository-api.md)認証されたユーザーにアクセスします。
+2. リポジトリサービス。 [Skype For Business Server の通話品質ダッシュボード (CQD) のリポジトリ API を](repository-api.md)通じて、認証されたユーザーがアクセスできます。
 
 3. CQD のユーザーが表示および操作する、HTML5 ベースのインターフェイスである Web ポータル。 これは、認証済みユーザーがアクセスできます。
 
-Web ポータルに表示されるレポートは、レポートの「セット」にグループ化されます。 図には、2 つのレポートが含まれるレポート セットが表示されています。 以下のダッシュボードの各レポートには、さまざまなフィルターが適用された、数か月の良好な通話数、低品質な通話数、および低品質な通話のパーセンテージに関するクエリ結果が表示されています。 
+Web ポータルに表示されるレポートは、"レポートセット" にグループ化されています。 図には、2 つのレポートが含まれるレポート セットが表示されています。 以下のダッシュボードの各レポートには、さまざまなフィルターが適用された、数か月の良好な通話数、低品質な通話数、および低品質な通話のパーセンテージに関するクエリ結果が表示されています。 
 
 ![CQD のサンプル レポート](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
@@ -46,7 +46,7 @@ CQD は、CQM (通話の品質保証の方法論) に従って作成されるた
 
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>ダッシュボードでデータ サービスを利用する方法
 
-救難のホームページに移動する場合 (例: http://localhost/cqd)、レポートの設定、およびリポジトリ ・ サービスからの認証および承認されたユーザーに対応するレポートが取得されます。 レポート セットの ID には、年、月の完全な URL が作成される (レポート セットの ID 番号の整数 ' #/' url] セクションの後で、既定で現在の年・月が追加されますレポート セットの ID の末尾にスラッシュの後)。 レポートの定義は JSON 形式で格納され、Repository Service から取得されると、Data Service への入力として使用されます。 Data Service は入力に基づいて多次元式 (MDX) クエリを生成し、これらの MDX クエリをキューブに対して実行して、各レポートのデータを取得します。 
+CQD のホームページに移動する場合 ( http://localhost/cqd)たとえば、認証されたユーザーと承認されているユーザーのレポートセットおよび対応するレポートは、リポジトリサービスから取得されます)。 完全な URL は、レポートセット ID と年の月から構成されます (レポート-セット id は URL の '/#/' セクションの後の整数値であり、既定では、現在の年の月はレポートセット ID の末尾にスラッシュの後に追加されます)。 レポートの定義は JSON 形式で格納され、Repository Service から取得されると、Data Service への入力として使用されます。 Data Service は入力に基づいて多次元式 (MDX) クエリを生成し、これらの MDX クエリをキューブに対して実行して、各レポートのデータを取得します。 
 
 ### <a name="building-customized-reports"></a>カスタマイズされたレポートの作成
 
@@ -98,7 +98,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 この例は、さらに次の 3 つのステップに分けることができます。
 
-1. (これは、変数 'クエリ' の定義の例) でクエリを構築します。 クエリは JSON オブジェクトとして定義され、次のデータを含みます。
+1. クエリを作成します (この例では、変数 ' query ' で定義されています)。 クエリは JSON オブジェクトとして定義され、次のデータを含みます。
 
    a. ゼロまたは 1 つ以上の次元。 各次元は DataModelName により示されます。
 
@@ -108,7 +108,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
    - Value (オペランドにより比較される値)。
 
-   - オペランド (比較の種類、0 の場合は「等しい」など)。
+   - オペランド (比較の型、0は "等しい" を意味します)。
 
      c. 1 つ以上の測定値。
 
@@ -116,17 +116,17 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
    a. url (http://[サーバー名]/QoEDataService/RunQuery を指定する必要があります)。
 
-   b. (これは、'クエリ' 変数で定義されている JSON オブジェクトの文字列形式) のデータです。 Data Service は、成功時のコールバック関数のパラメーターとしてクエリの結果を返します。
+   b. データ (この値は、' query ' 変数で定義された JSON オブジェクトの文字列表現) です。 Data Service は、成功時のコールバック関数のパラメーターとしてクエリの結果を返します。
 
-   c. (QoEDataService の RunQuery のみを受け入れる ' POST' 要求) を入力します。
+   c. type (QoEDataService の場合、RunQuery は "POST" 要求のみを許可します)。
 
    d. async (AJAX 呼び出しを同期と非同期のどちらにするかを示すフラグです)。
 
-   e。 contentType を (「アプリケーションと json」をする必要があります)。
+   •. contentType ("application/json" である必要があります)。
 
-   f。 success (AJAX 呼び出しが正常に完了した場合のコールバック関数)。
+   f. success (AJAX 呼び出しが正常に完了した場合のコールバック関数)。
 
-   g です。 error (AJAX 呼び出しが失敗した場合のエラー処理関数)。
+   agdlp. error (AJAX 呼び出しが失敗した場合のエラー処理関数)。
 
 3. HTML の div 要素にデータを配置します (コード例では、AJAX 要求が正常に完了した後、匿名の関数呼び出しによりこの処理が行われます)。
 
@@ -201,7 +201,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 レポート定義の表示ツールを作成するには、Repository Service に呼び出しを送信して、必要な各 report-set の定義の JSON 文字列表現を取得する必要があります。Repository API は、指定のレポート セット ID に基づいて report-set の定義を返します。 
 
-簡単な例は、次のように、コードには、その識別子に基づいたリポジトリ アイテムの内容を取得するのにはリポジトリ サービスにクエリを送信する簡単な例は、ブロックが含まれています。 コード (processReportSetData メソッド) の次の部分がそのレポートのセット内の各レポートの定義を取得する AJAX 呼び出しを送信します。 救難 web ポータルの ID がレポート セットの ID であるため、AJAX 呼び出しは、レポート アイテムの設定を返します。 詳細については、リポジトリ API であり、特に GetItems、[項目の取得](get-items.md)にあります。 
+簡単な例として、コードには、リポジトリサービスにクエリを送信して、その識別子に基づいてリポジトリアイテムのコンテンツを取得するための単純な例として、次のようなブロックがあります。 コードの次の部分 (processReportSetData メソッド) は、AJAX 呼び出しを送信して、そのレポートセット内の各レポートの定義を取得します。 CQD web ポータルの ID はレポートセットの ID であるため、AJAX 呼び出しはレポートセット項目を返します。 リポジトリ API と特に GetItems の詳細については、「 [Get アイテム](get-items.md)」を参照してください。 
 
 ```
 <!DOCTYPE html>
@@ -310,13 +310,13 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 </html>
 ```
 
-上記、web ページ (最初に訪問時にレポートの定義) に図のようになります。 救難ポータルからレポートのセット ID を取得する (' #/' 救難ポータルにサインイン後の URL (例。 レポートの最初の図形 ID は 3024)、このレポートのセット ID をこの web ページの [入力] セクションに配置するとします。 Load ボタンを押すし、レポートのセットの完全定義 (測定、分析コード、フィルターのリスト) を参照してください。
+上の例では、図のような web ページが表示されます (最初にアクセスしたときに、レポートの定義はありません)。 CQD ポータルからレポートセット ID を取得します ('/#/' サインイン後の CQD ポータル URL (例: 最初の図では、レポートセット ID は 3024) で、このレポートセット ID はこの web ページの入力セクションに入れます。 [読み込み] ボタンを押すと、レポートセットの完全な定義 (寸法、サイズ、フィルターリスト) が表示されます。
 
-要約すると、レポートまたはレポートのセットの完全な定義を簡単に取得するためにします。 手順は次のとおりです。
+レポート/レポートセットの完全な定義をすばやく取得するために、[概要] を選びます。 手順は次のとおりです。
 
-1. ポータルに移動し、([編集] を選択し、上レポートを編集、追加、フィルター/測定/分析コードを削除するボタンをクリックし、レポートを保存] をクリックします)、レポートをカスタマイズするのにはクエリ ・ エディターを使用します。
+1. ポータルに移動し、クエリエディターを使用してレポートをカスタマイズします (レポートの上にある [編集] ボタンをクリックして、測定/ディメンション/フィルターを編集、追加、削除し、レポートを保存します)。
 
-2. (' #/' の後の整数は、URL で署名) の URL からレポートのセット ID を取得します。
+2. URL からレポートセット ID を取得します ('/#/' サインイン URL の後の整数)。
 
 3. 例 2 で作成したレポート定義の Web ページを開き、レポート セット ID を入力して、(Data API 呼び出しで使用するために) レポート セットの全定義を取得します。
 
@@ -328,9 +328,9 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 例 1 に示されているサンプルから、図でスコアカード ページを取得する詳細な手順は以下のとおりです。
 
-1. 'クエリ' 変数の測定値を更新`[Measures].[Audio Good Streams JPDR Count]`と`[Measures].[Audio Poor Streams JPDR Count]`を`[Measures].[AudioPoorJPDRPercentage]`。 
+1. "Query" 変数の測定値を`[Measures].[Audio Good Streams JPDR Count]` [および`[Measures].[Audio Poor Streams JPDR Count]` to `[Measures].[AudioPoorJPDRPercentage]`] に更新します。 
 
-2. フィルターを更新します。 例 1 のフィルターの JSON データの分析コードに対して設定されている 1 つのフィルターには`[StartDate].[Month]`です。 フィルターは JSON 配列であるため、フィルターの一覧に次元を追加できます。 たとえば、"currentMonth"のワイヤード (有線) の呼び出しの内部サーバーのクライアントを取得する必要な次のフィルター。
+2. フィルターを更新します。 例1のフィルターの JSON データには、ディメンション`[StartDate].[Month]`に対して設定される1つのフィルターがあります。 フィルターは JSON 配列であるため、フィルターの一覧に次元を追加できます。 たとえば、"currentMonth" に対してサーバークライアントの内部通信を取得するには、次のフィルターを使用する必要があります。
 
    ```
    Filters: [
@@ -347,14 +347,14 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
    ],
    ```
 
-   分析コードをここで`[Scenarios].[ScenarioPair]`と等しくなるように設定されて`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`。 `[Scenario.][ScenarioPair]`は、特別なディメンションがレポートの作成を簡略化するために作成します。 対応する 6 つの値が`[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`。 この例では、値 [1]&[0]&[1]&[1]&[Wired]&[Wired] は、1 つ目がサーバー、2 つ目がサーバーではない、1 つ目が内部、2 つ目が内部、1 つ目の接続の種類が有線、2 つ目の接続の種類が有線であるシナリオに変換されます。 例では、値`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`シナリオに変換する: 最初サーバーは、2 つ目はサーバーではないの内部は、最初の内部は、2 つ目は最初の接続の種類は、ワイヤード (有線)、および 2 番目の接続の種類は、ワイヤード (有線)、正確な定義である」サーバー-クライアント-内側ワイヤード (有線)」です。
+   ディメンション`[Scenarios].[ScenarioPair]`は、次のように`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`等しい値に設定されます。 レポート`[Scenario.][ScenarioPair]`の作成を簡単にするために作成された特殊なディメンションです。 これには、に`[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`対応する6つの値があります。 この例では、値 [1]&[0]&[1]&[1]&[Wired]&[Wired] は、1 つ目がサーバー、2 つ目がサーバーではない、1 つ目が内部、2 つ目が内部、1 つ目の接続の種類が有線、2 つ目の接続の種類が有線であるシナリオに変換されます。 この例では、値`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`は、first is server、second is server、第1の接続タイプはワイヤード、第2の接続の種類はワイヤード、第2の接続の種類は「ワイヤード」というシナリオになります。サーバ-内部のワイヤード (有線)
 
 3. シナリオごとに 1 つのフィルター セットを作成します。図のスコアカードの各行は個別のシナリオを表し、また個別のフィルターになります (一方、次元と測定値は同じままです)。 
 
 4. AJAX 呼び出しの結果を解析し、解析結果をテーブルの適切な位置に配置します。これは大部分が HTML と JavaScript の操作であるため、ここでは詳細を説明しません。その代わりに、付録 A にコードを示します。
 
     > [!NOTE]
-    >  クロス元リソース共有 (CORS) を有効にすると、ユーザーがエラーが発生のように 'アクセス制御の許可-発信元' ヘッダーがありません"要求されたリソース上に存在します。 'Null' の原点は、そのためアクセスを許可しない"です。 問題を解決するには、ポータルのインストール先フォルダーの下にある HTML ファイルを配置 (既定では、する必要があります`%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`。 URL を使用して任意のブラウザーを使って、html、アクセス`http://<servername>/cqd/<html_file_name>`。 (ローカルの救難のダッシュ ボードの既定の URL は、 `http://<servername>/cqd.`) 
+    >  クロスオリジンリソース共有 (CORS) が有効になっていると、要求されたリソースに、ユーザーが "No" アクセス制御-許可元のヘッダーなどのエラーが発生する場合があります。 元の ' null ' はアクセスが許可されていません。 この問題を解決するには、ポータルがインストールされているフォルダーの下に HTML ファイルを配置し`%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`ます (既定では、必要です)。 次に、URL `http://<servername>/cqd/<html_file_name>`を使用して任意のブラウザーから html にアクセスします。 (Local CQD dashboard の既定の URL は`http://<servername>/cqd.`です) 
 
 ### <a name="appendix-a"></a>付録 A
 

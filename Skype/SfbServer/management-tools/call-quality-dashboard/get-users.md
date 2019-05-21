@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
-description: '概要: は、ユーザー サービスの一部を取得するユーザーの操作について説明します。 ユーザー サービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 4f3c1a00134cb0f8276d511d80ae7bc6f82f2d72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: ユーザーサービスの一部であるユーザーの取得操作について説明します。 ユーザーサービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: 22223c37dad39f171afc27eb9e0520b8b32335c5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897332"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274647"
 ---
 # <a name="get-users"></a>ユーザーの取得
  
-**の概要:** ユーザー サービスの一部を取得するユーザーの操作について説明します。 ユーザー サービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**概要:** ユーザーサービスの一部であるユーザーの取得操作について説明します。 ユーザーサービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。
   
-ユーザーの取得操作は、リポジトリ api の呼び出し品質のダッシュ ボードのユーザー ・ サービスの一部です。
+ユーザーの取得操作は、ユーザーサービスの一部であり、通話品質ダッシュボードのリポジトリ API に含まれています。
   
 ## <a name="get-users"></a>ユーザーの取得
 
-リポジトリ内のユーザーを返します。 ユーザーの一覧を取得します。
+ユーザー Get は、リポジトリ内のユーザーのリストを返します。
   
-|**メソッド**|**URI を要求します。**|**HTTP のバージョン**|
+|**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|取得  <br/> |https://\<ポータル\>/QoERepositoryService/repository/user  <br/> |HTTP 1.1/  <br/> |
+|取得  <br/> |https://\<ポータル\>の/QoERepositoryService/repository/user  <br/> |HTTP/1.1  <br/> |
    
- **URI パラメーター**を [なし] です。
+ **URI パラメーター** -なし。
   
- **要求ヘッダー**の追加のヘッダーではありません。
+ **ヘッダーを要求**する-追加のヘッダーは不要です。
   
- **リクエストの本文**の [なし] です。
+ **要求本文**-なし。
   
- **応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。
+ **応答**-応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。
   
- **ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。
+ **状態コード**-正常に動作している操作は、状態コード 200 (OK) を返します。
   
- **応答ヘッダー**の追加のヘッダーではありません。
+ **応答ヘッダー** -ヘッダーは追加されません。
   
- **応答本体**の JSON のサンプル応答の内容を次に示します。
+ **応答本文**-以下は JSON のサンプル応答ペイロードです。
   
 > [!NOTE]
-> ユーザー オブジェクトの配列が返されます。 詳細については、ユーザー オブジェクトは、ユーザーの取得を参照してください。 
+> ユーザーオブジェクトの配列が返されます。 ユーザーオブジェクトの詳細については、「ユーザーの取得」を参照してください。 
   
 ```
 [{

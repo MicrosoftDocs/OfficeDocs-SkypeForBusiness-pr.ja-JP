@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
-description: '概要: は、項目のサービスの一部の項目の取得操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: fe8d4f9a64e0855c90ee9f2accb67424ac3edb9c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: 項目サービスの一部である [項目の取得] 操作について説明します。 項目サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: a1e7e8525df77cd5aacafb6d41316a985fbe9694
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926123"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274703"
 ---
 # <a name="get-items"></a>アイテムの取得
  
-**の概要:** 品目サービスの一部の項目の取得操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**概要:** 項目サービスの一部である [項目の取得] 操作について説明します。 項目サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。
   
-項目の取得操作は、リポジトリ api の呼び出し品質のダッシュ ボードの項目のサービスの一部です。
+"アイテムの取得" 操作は、[リポジトリ API for Call Quality] ダッシュボードのアイテムサービスの一部です。
   
 ## <a name="get-items"></a>アイテムの取得
 
-リポジトリ内のアイテムを返します。 すべてのアイテムを取得します。
+アイテムの取得リポジトリ内のすべてのアイテムを返します。
   
-|**メソッド**|**URI を要求します。**|**HTTP のバージョン**|
+|**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|取得  <br/> |https://\<ポータル\>/QoERepositoryService/repository/item  <br/> |HTTP 1.1/  <br/> |
+|取得  <br/> |https://\<ポータル\>の/QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
    
- **URI パラメーター**を [なし] です。
+ **URI パラメーター** -なし。
   
- **要求ヘッダー**の追加のヘッダーではありません。
+ **ヘッダーを要求**する-追加のヘッダーは不要です。
   
- **リクエストの本文**の [なし] です。
+ **要求本文**-なし。
   
- **応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。
+ **応答**-応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。
   
- **ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。
+ **状態コード**-正常に動作している操作は、状態コード 200 (OK) を返します。
   
- **応答ヘッダー**の追加のヘッダーではありません。
+ **応答ヘッダー** -ヘッダーは追加されません。
   
- **応答本体**の JSON のサンプル応答の内容を次に示します。
+ **応答本文**-以下は JSON のサンプル応答ペイロードです。
   
 > [!NOTE]
-> アイテム オブジェクトの配列が返されます。 詳細については、Item オブジェクトは、アイテムの取得を参照してください。 
+> 項目オブジェクトの配列が返されます。 Item オブジェクトの詳細については、「アイテムの取得」を参照してください。 
   
 ```
 [{

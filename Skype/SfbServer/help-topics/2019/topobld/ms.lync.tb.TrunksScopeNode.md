@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunksScopeNode
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 次を実行するのにはトポロジ ビルダーでトランクを右クリックします。
-ms.openlocfilehash: ff68127e1192fc9e288709d3635e9abaeb2bc5b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[Topology Builder] で [Trunks] を右クリックして、次の操作を実行します。'
+ms.openlocfilehash: 9fff67ce969ac30d5098ebbfaf2fafa9822588de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911325"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34307085"
 ---
 # <a name="trunks-scope-node"></a>トランク スコープ ノード
  
-次を実行するのにはトポロジ ビルダーでは、**トランク**を右クリックします。
+[Topology Builder] で [ **Trunks** ] を右クリックして、次の操作を実行します。
   
 - [**新しいトランク**]: **新しいトランクの定義**ウィザードを起動して、新しい SIP トランクを定義します。
     

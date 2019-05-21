@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.EdgeNetwork
@@ -13,17 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
-description: ほとんどのエッジ コンポーネントは、境界ネットワークに展開されます。 境界ネットワークのエッジ トポロジは、次のコンポーネントで構成されます。 を除き、コンポーネントは、ビジネス サーバー 2015 の Skype でエッジ サーバーのシナリオの一部であるし、境界ネットワークでは。 エッジ コンポーネントには、次のものが含まれます。
-ms.openlocfilehash: e108b29fb21247ab4c2dae608d1edce63386a535
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ほとんどのエッジ コンポーネントは、境界ネットワークに展開されます。 境界ネットワークのエッジ トポロジは、次のコンポーネントで構成されます。 特に注記がない限り、コンポーネントは Skype for Business Server 2015 のエッジサーバーシナリオの一部であり、境界ネットワーク内にあります。 エッジ コンポーネントには、次のものが含まれます。
+ms.openlocfilehash: 7c8f1fc9208f0b960832bb3adc676087171b1716
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915039"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274283"
 ---
 # <a name="edge-network-planning-tool"></a>Edge Network (Planning Tool)
  
-ほとんどのエッジ コンポーネントは、境界ネットワークに展開されます。 境界ネットワークのエッジ トポロジは、次のコンポーネントで構成されます。 を除き、コンポーネントは、[ビジネス サーバー 2015 の Skype でエッジ サーバーのシナリオ](../../plan-your-deployment/edge-server-deployments/scenarios.md)の一部であるし、境界ネットワークでは。 エッジ コンポーネントには、次のものが含まれます。
+ほとんどのエッジ コンポーネントは、境界ネットワークに展開されます。 境界ネットワークのエッジ トポロジは、次のコンポーネントで構成されます。 特に注記がない限り、コンポーネントは[Skype For Business Server 2015 のエッジサーバーシナリオ](../../plan-your-deployment/edge-server-deployments/scenarios.md)の一部であり、境界ネットワーク内にあります。 エッジ コンポーネントには、次のものが含まれます。
   
 - エッジ サーバー
     

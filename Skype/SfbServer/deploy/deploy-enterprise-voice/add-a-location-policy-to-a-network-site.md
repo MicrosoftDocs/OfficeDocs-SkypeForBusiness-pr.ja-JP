@@ -1,10 +1,10 @@
 ---
-title: Skype 内のネットワーク サイトにビジネス サーバーの場所のポリシーを追加します。
+title: Skype for Business Server のネットワークサイトに位置情報ポリシーを追加する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,29 +13,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: ビジネス サーバーのエンタープライズ VoIP の Skype のネットワーク サイトへの ~ 9-1-1 の場所のポリシーを割り当てます。
-ms.openlocfilehash: d30f9295b633ccfa7439e697931b13bd92b1cc0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: E9-1 の場所のポリシーを Skype for Business Server Enterprise Voice のネットワークサイトに割り当てます。
+ms.openlocfilehash: 3653811298e7ce5659d4d416798010b3ac427732
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893176"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306875"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Skype 内のネットワーク サイトにビジネス サーバーの場所のポリシーを追加します。
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Skype for Business Server のネットワークサイトに位置情報ポリシーを追加する
  
-ビジネス サーバーのエンタープライズ VoIP の Skype のネットワーク サイトへの ~ 9-1-1 の場所のポリシーを割り当てます。 
+E9-1 の場所のポリシーを Skype for Business Server Enterprise Voice のネットワークサイトに割り当てます。 
   
-次の例では、既存のネットワーク サイトに[Skype ビジネス サーバー用に作成する場所のポリシー](create-location-policies.md)で定義された**Redmond**の場所のポリシーを追加する方法、および**Redmond**の場所のポリシーを使用する新しいネットワーク サイトを作成する方法を示しています。
+次の例は、 [Skype For Business Server の [場所ポリシーの作成](create-location-policies.md)] で定義されている**redmond**の場所ポリシーを既存のネットワークサイトに追加する方法と、 **redmond**の場所ポリシーを使用する新しいネットワークサイトを作成する方法を示しています。
   
-ネットワークのサイトの操作に関する詳細については、次のコマンドレットは Lync Server 管理シェルのマニュアルを参照してください。
+ネットワークサイトの操作の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
   
 - **新しい-CsNetworkSite**
     
 - **Get-CsNetworkSite**
     
-- **セット CsNetworkSite**
+- **Set-CsNetworkSite**
     
-- **削除 CsNetworkSite**
+- **CsNetworkSite の削除**
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>場所のポリシーを既存のネットワーク サイトに割り当てるには
 

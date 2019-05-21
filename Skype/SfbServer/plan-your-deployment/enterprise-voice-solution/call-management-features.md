@@ -1,10 +1,10 @@
 ---
-title: ビジネス用の Skype での通話管理機能の計画
+title: Skype for Business の通話管理機能の計画
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: ビジネス サーバーのエンタープライズ VoIP の Skype でサポートされている通話管理機能の概要です。
-ms.openlocfilehash: bc7e37034d61d9c5c6b8ab7a266382b8405fa6bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice でサポートされている通話管理機能の概要。
+ms.openlocfilehash: 9c1bdc73ea4656fa2e0d352988f61d6db428a80c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33909268"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277063"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business"></a>ビジネス用の Skype での通話管理機能の計画
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>Skype for Business の通話管理機能の計画
 
-ビジネス サーバーのエンタープライズ VoIP の Skype でサポートされている通話管理機能の概要です。
+Skype for Business Server Enterprise Voice でサポートされている通話管理機能の概要。
 
-管理機能は、着信呼び出しの合計を制御するエンタープライズ VoIP 呼び出しがルーティングされ、回答します。 Skype ビジネス サーバーには、次の呼び出しの管理機能が用意されています。
+エンタープライズ音声通話管理機能は、着信通話のルーティングと応答の方法を制御します。 Skype for Business Server には、次のような通話管理機能が用意されています。
 
-- **コール パーク**: 音声呼び出しが一時的に駐車して、同じまたは別から選択できるように電話します。
+- [**コールパーク**]: 音声ユーザーが一時的に通話をパークし、同じまたは別の電話から通話を受け取れるようにします。
 
-- **グループ ピックアップ**: コール ピックアップ グループに割り当てられている他の音声ユーザーは鳴り続けの呼び出しを音声ユーザーを有効にします。
+- **グループの集配**: ボイスユーザーは、通話ピックアップグループに割り当てられている他のボイスユーザーに対して、着信音を受けることができます。
 
-- **応答グループ**: を使用してエージェントのグループへの着信呼び出しをルートのハント グループまたは対話型音声応答 (IVR) の質問と回答します。
+- [**応答グループ]**: ハントグループまたはインタラクティブな音声応答 (IVR) の質問と回答を使用して、着信通話をエージェントのグループにルーティングします。
 
 - **アナウンス**: 割り当てられていない番号に通話が行われたときに、メッセージを再生するか、通話を別の場所にルーティングするか、その両方を行います。
 

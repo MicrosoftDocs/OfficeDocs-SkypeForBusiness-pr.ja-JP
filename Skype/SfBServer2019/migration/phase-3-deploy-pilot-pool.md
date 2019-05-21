@@ -1,33 +1,33 @@
 ---
-title: フェーズ 3 ビジネス サーバー 2019 パイロット プールに Skype を導入
+title: フェーズ 3 Skype for Business Server 2019 パイロットプールの展開
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
-description: このセクションでは、ビジネス サーバー 2019 の Skype のパイロット プールを展開する手順について説明します。 Skype のビジネス サーバー 2019 用に展開する必要があります、トポロジと、配置するコンポーネントを定義するのにはトポロジ ビルダーを使用してサーバー 2019 のビジネス コンポーネントの展開、Skype のための環境を準備する、トポロジを公開最初のフロント エンド サーバーと、インストールおよび構成の Skype ビジネス サーバー 2019 のソフトウェアを展開するためのコンポーネントを設計します。 完了すると、ビジネス サーバー 2019 パイロット プール展開するため、Skype は既存のレガシ プールを共存させることができます。
-ms.openlocfilehash: 457b2daad926b3e2f15c1673cadea5cd249cf99f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: このセクションでは、Skype for Business Server 2019 のパイロットプールを展開するために必要な手順について説明します。 Skype for Business Server 2019 の展開では、トポロジビルダーを使用して、展開するトポロジとコンポーネントを定義し、Skype for Business Server 2019 コンポーネントの展開のために環境を準備して、トポロジを公開する必要があります。第1のフロントエンドサーバーで設計し、次に、展開用のコンポーネント用に Skype for Business Server 2019 ソフトウェアをインストールして構成します。 完了すると、Skype for Business Server 2019 パイロットプールの展開は既存のレガシープールと共存します。
+ms.openlocfilehash: d8524d74364bac111182182ecd1f6e22972fb898
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231554"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273925"
 ---
-# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>フェーズ 3: ビジネス サーバー 2019 パイロット プールに Skype を導入します。
+# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>フェーズ 3: Skype for Business Server 2019 パイロットプールの展開
 
-このセクションでは、ビジネス サーバー 2019 の Skype のパイロット プールを展開する手順について説明します。 Skype のビジネス サーバー 2019 用に展開する必要があります、トポロジと、配置するコンポーネントを定義するのにはトポロジ ビルダーを使用してサーバー 2019 のビジネス コンポーネントの展開、Skype のための環境を準備する、トポロジを公開最初のフロント エンド サーバーと、インストールおよび構成の Skype ビジネス サーバー 2019 のソフトウェアを展開するためのコンポーネントを設計します。 完了すると、ビジネス サーバー 2019 パイロット プール展開するため、Skype は既存のレガシ プールを共存させることができます。
+このセクションでは、Skype for Business Server 2019 のパイロットプールを展開するために必要な手順について説明します。 Skype for Business Server 2019 の展開では、トポロジビルダーを使用して、展開するトポロジとコンポーネントを定義し、Skype for Business Server 2019 コンポーネントの展開のために環境を準備して、トポロジを公開する必要があります。第1のフロントエンドサーバーで設計し、次に、展開用のコンポーネント用に Skype for Business Server 2019 ソフトウェアをインストールして構成します。 完了すると、Skype for Business Server 2019 パイロットプールの展開は既存のレガシープールと共存します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype のビジネス サーバーの Active Directory を準備します。](prepare-active-directory.md)
+- [Skype for Business Server 用 Active Directory の準備](prepare-active-directory.md)
     
 - [既存の展開環境からのトポロジのダウンロード](download-topology-from-existing-deployment.md)
     
-- [ビジネス サーバー 2019 パイロット プールに Skype を導入します。](deploy-pilot-pool.md)
+- [Skype for Business Server 2019 パイロットプールの展開](deploy-pilot-pool.md)
     
 - [パイロット プールとレガシ プールの共存の確認](verify-pilot-pool-coexistence-with-legacy-pool.md)
     

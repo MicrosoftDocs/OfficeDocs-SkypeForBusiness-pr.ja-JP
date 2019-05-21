@@ -1,193 +1,193 @@
 ---
-title: Skype のビジネス サーバーのユーザー アカウントを管理します。
+title: Skype for Business Server のユーザーアカウントを管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
-description: この資料のセクションでは、有効にする、一時的に無効化、または、Skype のビジネス サーバーの Active Directory ユーザーを削除する方法について説明します。
-ms.openlocfilehash: 8aeebafc0e221cd51df76233f6dce1f1e53fb429
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: この記事のセクションでは、Skype for Business Server の Active Directory ユーザーを有効にしたり、一時的に無効にしたり、削除したりする方法について説明します。
+ms.openlocfilehash: 83ab64415b21d37f12d3768feeb39b11491787af
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897318"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275109"
 ---
-# <a name="manage-user-accounts-for-skype-for-business-server"></a>Skype のビジネス サーバーのユーザー アカウントを管理します。
+# <a name="manage-user-accounts-for-skype-for-business-server"></a>Skype for Business Server のユーザーアカウントを管理する
 
-この資料のセクションでは、有効にする、一時的に無効化、または、Skype のビジネス サーバーの Active Directory ユーザーを削除する方法について説明します。
+この記事のセクションでは、Skype for Business Server の Active Directory ユーザーを有効にしたり、一時的に無効にしたり、削除したりする方法について説明します。
 
-Active Directory のユーザーを有効にする方法については、[新しいユーザー アカウントを作成する](https://technet.microsoft.com/en-us/library/cc732336%28v=ws.11%29.aspx)を参照してください。 Active Directory ユーザーを削除する方法については、[ユーザー アカウントを削除する](https://technet.microsoft.com/en-us/library/cc753730%28v=ws.11%29.aspx)を参照してください。
+Active Directory ユーザーを有効にする方法については、「[新しいユーザーアカウントを作成](https://technet.microsoft.com/en-us/library/cc732336%28v=ws.11%29.aspx)する」を参照してください。 Active Directory ユーザーを削除する方法については、「[ユーザーアカウントを削除](https://technet.microsoft.com/en-us/library/cc753730%28v=ws.11%29.aspx)する」を参照してください。
 
-ビジネスを使用するための Skype が最も低いときに、メンテナンス時間をこれらの手順を実行する必要があります。 日単位または週単位のスケジュールでこれはあるかどうかは、組織のニーズによって決定されます。
+以下の手順は、Skype for Business の使用が最も低い場合にメンテナンスウィンドウで実行する必要があります。 このスケジュールが毎日または毎週のどちらで実行されるかは、組織のニーズによって決まります。
 
-この資料には、次の手順が含まれています。
+この記事では、次の手順について説明します。
 
-- [1 つまたは複数のユーザーを検索するには](user-accounts.md#Search)
+- [1人以上のユーザーを検索するには](user-accounts.md#Search)
 
-- [追加し、ビジネスのサーバーのユーザーの新しい Skype を有効にします。](user-accounts.md#Add)
+- [新しい Skype for Business Server ユーザーを追加して有効にする](user-accounts.md#Add)
 
-- [無効にするか、既に有効になっている Skype のビジネス サーバーのユーザー アカウントを再度有効にします。](user-accounts.md#Disable)
+- [Skype for Business Server で既に有効になっていたユーザーアカウントを無効にするか、再び有効にする](user-accounts.md#Disable)
 
-- [エンタープライズ VoIP のユーザーを無効にします。](user-accounts.md#Disable_EV)
+- [エンタープライズ Voip のユーザーを無効にする](user-accounts.md#Disable_EV)
 
-- [ビジネス サーバー管理シェルには、Skype でのユーザー アカウントを削除します。](user-accounts.md#Remove)
+- [Skype for Business Server 管理シェルを使用してユーザーアカウントを削除する](user-accounts.md#Remove)
 
-## <a name="to-search-for-one-or-more-users"></a>1 つまたは複数のユーザーを検索するには
+## <a name="to-search-for-one-or-more-users"></a>1人以上のユーザーを検索するには
 <a name="Search"> </a>
 
-検索クエリの結果を使用すると、Skype のビジネス サーバーの Active Directory ユーザーを構成します。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。
+検索クエリの結果を使用して、Skype for Business Server の Active Directory ユーザーを構成することができます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。
 
-ビジネス サーバーのコントロール パネルまたは Active Directory ユーザーを Skype を使用してユーザーを検索でき、スナップインのコンピューターです。 次の手順では、ビジネス サーバーのコントロール パネルの Skype を使用してユーザーを検索する方法について説明します。
+ユーザーを検索するには、[Skype for Business Server] コントロールパネルまたは [Active Directory ユーザーとコンピューター] スナップインを使用します。 次の手順では、Skype for Business Server コントロールパネルを使用してユーザーを検索する方法について説明します。
 
 > [!NOTE]
-> 中央フォレスト トポロジの環境で検索結果があります正確なユーザーの電子メール アドレスでユーザーを検索する場合。 代わりに、SIP アドレス プレフィックス sip: 名などを指定することでユーザーを検索し、検索フィルターを追加部分のメール アドレスが含まれている SIP アドレスを選択または**Get CSUser**コマンドレットを使用します。
+> 中央フォレストトポロジを持つ環境では、ユーザーのメールアドレスでユーザーを検索すると、検索結果が正確でない場合があります。 代わりに、SIP アドレスプレフィックスを指定してユーザーを検索することもできます。たとえば、sip: name、検索フィルターを追加して、メールアドレスの一部を含む SIP アドレスを選ぶか、または、**ユーザー**コマンドレットを使用します。
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。
 
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4. **ユーザーが検索**ボックス、すべての種類または表示名、名、姓、名、SAM アカウント名の最初の部分では、SIP アドレス、または行を検索して、[**検索**] をクリックするユーザー アカウントの URI。
+4. [**ユーザーの検索**] ボックスに、検索するユーザーアカウントの表示名、姓、名、SAM アカウント名、SIP アドレス、またはライン URI のすべてまたは最初の部分を入力して、[**検索**] をクリックします。
 
 5. (オプション) 結果を絞り込むための追加の検索条件を次のように指定します。
 
-   a. **検索の結果**、上の画面の右上隅の矢印ボタンをクリックし、[**フィルターの追加**] をクリックします。
+   a. **検索結果**の上にある画面の右上隅にある展開矢印ボタンをクリックし、[**フィルターの追加**] をクリックします。
 
-   b. それを入力するか、ユーザーのプロパティを選択するドロップダウン リストの矢印をクリックすると、ユーザーのプロパティを入力します。
+   b. [ユーザー] プロパティを入力するか、ドロップダウンリストの矢印をクリックして、ユーザープロパティを選択します。
 
-   c. **等しい**] ボックスの一覧では、**等しい**か**等しくない**をクリックします。
+   c. [指定の**値**に等しい] **** または [ **** 指定の値に等しい] をクリックします。
 
-   d. テキスト ボックスで、検索結果にフィルターを使用する検索条件を入力し、**検索**] をクリックします。
+   d. 検索結果をフィルター処理するために使用する検索条件をテキストボックスに入力し、[**検索**] をクリックします。
 
-6. [**検索結果**] で、検索結果が表示されます。 一覧でいずれかまたはすべてのユーザーを選択し、選択したユーザーの構成タスクを実行できます。
+6. 検索結果が [**検索結果**] の下に表示されます。 リスト内の任意またはすべてのユーザーを選択し、選択したユーザーに対して構成タスクを実行することができます。
 
-## <a name="add-and-enable-a-new-skype-for-business-server-user"></a>追加し、ビジネスのサーバーのユーザーの新しい Skype を有効にします。
+## <a name="add-and-enable-a-new-skype-for-business-server-user"></a>新しい Skype for Business Server ユーザーを追加して有効にする
 <a name="Add"> </a>
 
-Active Directory ユーザーとコンピューター内のユーザー アカウントを有効にすると、Skype をビジネスのサーバーの Active Directory ユーザーを追加することによってビジネスのサーバーのユーザー アカウントの新しい Skype を有効にするを作成してビジネス サーバーのコントロール パネルの Skype を使用できます。
+Active Directory ユーザーとコンピューターでユーザーアカウントを有効にした後は、skype for business server コントロールパネルを使用して、Active Directory ユーザーを Skype for Business Server に追加することで、新しい Skype for business server のユーザーアカウントを作成して有効にすることができます。
 
-[Csuser からの有効にする](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)具体的には、コマンドレットを使用することもできます。
+コマンドレットを使用することもできます。特[に、CsUser を有効に](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)することもできます。
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。
 
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4. **ユーザーを有効にする**] をクリックします。
+4. [**ユーザーを有効にする] を**クリックします。
 
-5. **新しい Lync Server のユーザー**ダイアログ ボックスで、[**追加**] をクリックします。
+5. [**新しい Lync Server ユーザー** ] ダイアログボックスで、[**追加**] をクリックします。
 
-6. **ユーザーが検索**ボックス、すべての種類または名前の最初の部分では、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) アカウント名、電子メール アドレス、ユーザー プリンシパル名 (UPN)、または使用する Active Directory ユーザー アカウントの電話番号、し、[**検索**] をクリックします。
+6. [**ユーザーの検索**] ボックスに、必要な Active Directory ユーザーアカウントの名前、[表示名]、[名]、[姓]、[名前]、[アカウント名]、[電子メールアドレス]、[ユーザープリンシパル名 (UPN)]、または [電話番号] のすべてまたは最初の部分を入力します。[**検索**] をクリックします。
 
-7. テーブルのビジネス サーバーでは、Skype を追加しアカウントを選択し、し、[ **OK**] をクリックします。
+7. 表で、Skype for Business Server に追加するアカウントを選び、[ **OK**] をクリックします。
 
-8. ユーザーをプールに割り当てる、その他の詳細を指定するは、ユーザーにポリシーを割り当てるし、**を有効にする**] をクリックします。
+8. プールにユーザーを割り当て、追加の詳細を指定して、ポリシーを目的のユーザーに割り当て、[**有効に**する] をクリックします。
 
-## <a name="disable-or-re-enable-a-user-account-previously-enabled-for-skype-for-business-server"></a>無効にするか、既に有効になっている Skype のビジネス サーバーのユーザー アカウントを再度有効にします。
+## <a name="disable-or-re-enable-a-user-account-previously-enabled-for-skype-for-business-server"></a>Skype for Business Server で既に有効になっていたユーザーアカウントを無効にするか、再び有効にする
 <a name="Disable"> </a>
 
-Business Server のビジネス サーバー構成設定をユーザー アカウント用の Skype を失うことがなく Skype 内の以前の有効なユーザー アカウントを無効にするのには、次の手順を使用できます。 Skype ビジネス サーバーのユーザー アカウントの設定を失わないようにするためことができます再再度有効にする以前に有効なユーザー アカウント、ユーザー アカウントを再構成することがなく。
+次の手順を使用して、ユーザーアカウント用に構成した Skype for business Server の設定を失わずに、Skype for Business Server で事前に有効になっているユーザーアカウントを無効にすることができます。 Skype for Business Server のユーザーアカウント設定が失われないため、ユーザーアカウントを再構成せずに、以前に有効になっていたユーザーアカウントを再び有効にすることができます。
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。
 
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4. **ユーザーが検索**ボックス、すべての種類、または表示名、名、姓、セキュリティ アカウント マネージャー (SAM) アカウント名、SIP アドレス、または行を無効にするか、再度有効にするユーザー アカウントの統一リソース識別子 (URI) の最初の部分で[**検索**] をクリックします。
+4. [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、またはもう一度有効にするユーザーアカウントの Ip Uniform リソース識別子 (URI) のすべてまたは最初の部分を入力します。[**検索**] をクリックします。
 
-5. テーブルでは、ユーザー アカウントを無効または再度有効にするをクリックします。
+5. 表で、無効にする、またはもう一度有効にするユーザーアカウントをクリックします。
 
-6. [**操作**] メニューには、次のいずれかの操作を行います。
+6. [**アクション**] メニューで、次のいずれかの操作を行います。
 
-   - Skype のビジネス サーバーのユーザー アカウントを一時的に無効には、 **Lync Server を一時的に無効にする**をクリックします。
+   - Skype for Business Server のユーザーアカウントを一時的に無効にするには、[ **Lync server に対して一時的に無効**にする] をクリックします。
 
-   - ビジネスのサーバーでは、Skype のユーザー アカウントを有効に、 **Lync Server を再度有効にする**をクリックします。
+   - Skype for Business Server のユーザーアカウントを有効にするには、[ **Lync server のために再度有効**にする] をクリックします。
 
-### <a name="use-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Windows Powershell を使用して、無効にするか、ユーザー アカウントを再度有効にするには
+### <a name="use-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Windows Powershell を使用して、ユーザーアカウントを無効にするか、再び有効にする
 
-ユーザー アカウントを一時的に無効になっているし、し、後で再度有効に、**セット CsUser**コマンドレットを使用することができます。 実行できますこのコマンドレットのいずれか、Skype からビジネス サーバー管理シェルまたは Windows PowerShell のリモート セッションから。 ビジネス サーバーの Skype に接続するリモートの Windows PowerShell を使用する詳細については、ブログ記事の[「クイック スタート:: を管理する Microsoft Lync サーバー 2010 を使用してリモート PowerShell」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 プロセスは、Skype のビジネス サーバーで同じです。
+ユーザーアカウントは一時的に無効にすることができます。また、**設定-CsUser**コマンドレットを使用して、後で再び有効にすることができます。 このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションからでも実行できます。 リモートの Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「[クイックスタート: リモート PowerShell を使用した Microsoft Lync server 2010 の管理」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 このプロセスは、Skype for Business Server でも同じです。
 
-### <a name="to-disable-a-user-account"></a>ユーザー アカウントを無効にするには
+### <a name="to-disable-a-user-account"></a>ユーザーアカウントを無効にするには
 
-- ユーザー アカウントを一時的に無効にするには、Enabled プロパティの値を False ($False) に設定します。 次に例を示します。
+- ユーザーアカウントを一時的に無効にするには、Enabled プロパティの値を False ($False) に設定します。 次に例を示します。
 
   ```
   Set-CsUser -Identity "Ken Myer" -Enabled $False
   ```
 
-### <a name="to-re-enable-a-user-account"></a>ユーザー アカウントを再度有効にするのには
+### <a name="to-re-enable-a-user-account"></a>ユーザーアカウントを再度有効にするには
 
-- 無効なユーザー アカウントを再度有効にするには、Enabled プロパティの値を True ($True) に設定します。 次に例を示します。
+- 無効のユーザーアカウントを再び有効にするには、Enabled プロパティの値を True ($True) に設定します。 次に例を示します。
 
   ```
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-詳細については、[セット CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
+詳細については、「 [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)コマンドレット」のヘルプトピックを参照してください。
 
-## <a name="disable-a-user-for-enterprise-voice"></a>エンタープライズ VoIP のユーザーを無効にします。
+## <a name="disable-a-user-for-enterprise-voice"></a>エンタープライズ Voip のユーザーを無効にする
 <a name="Disable_EV"> </a>
 
-有効になっている Skype ビジネス サーバーのユーザー アカウントでエンタープライズ VoIP を無効にするのにには、次の手順を使用します。
+Skype for Business Server を有効にしているユーザーアカウントのエンタープライズ Voip を無効にするには、次の手順を使用します。
 
-### <a name="to-disable-a-user-account-for-enterprise-voice"></a>エンタープライズ VoIP のユーザー アカウントを無効にするには
+### <a name="to-disable-a-user-account-for-enterprise-voice"></a>エンタープライズ Voip のユーザーアカウントを無効にするには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。
 
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
 4. [**ユーザーの検索**] ボックスに、有効にするユーザー アカウントの表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) の全体か先頭の部分の文字列を入力して、[**検索**] をクリックします。
 
-5. テーブルでは、エンタープライズ VoIP を有効にするユーザー アカウントをクリックします。
+5. 表で、エンタープライズ Voip を有効にするユーザーアカウントをクリックします。
 
 6. [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-7. **Lync Server ユーザーの編集**] ページで、[**テレフォニー**]、[**エンタープライズ VoIP**] 以外のオプションをクリックします。
+7. [ **Lync Server ユーザーの編集**] ページの [**テレフォニー**] で、[**エンタープライズ voip**] 以外のオプションをクリックします。
 
     > [!NOTE]
-    > **テレフォニー**では、下の Lync を使用して、音声通話またはビデオ通話をすることからユーザーを制限するには、**オーディオとビデオを無効**をクリックします。
+    > ユーザーが Lync を使って音声またはビデオ通話を発信することを制限するには、[**テレフォニー**] で [**オーディオ/ビデオを無効**にする] をクリックします。
 
 8. [**コミット**] をクリックします。
 
-ユーザーは、ここでエンタープライズ VoIP 機能を使用することはありません。 関連情報: <br/>[エンタープライズ VoIP およびモバイル](https://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 管理シェル](../management-shell.md)
-## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>ビジネス サーバー管理シェルには、Skype でのユーザー アカウントを削除します。
+これで、ユーザーはエンタープライズ Voip 機能を使用できなくなります。 関連情報: <br/>[エンタープライズ音声とモバイル機能](https://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Skype for Business Server でエンタープライズ Voip のユーザーを有効にする](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 管理シェル](../management-shell.md)
+## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してユーザーアカウントを削除する
 <a name="Remove"> </a>
 
-Skype でビジネスのサーバーに以前に追加したユーザー アカウントを削除するのには、次の手順を使用できます。
+Skype for Business Server で以前に追加したユーザーアカウントを削除するには、次の手順に従います。
 
 > [!NOTE]
-> ユーザーを削除する、ユーザー アカウントの設定が失われます。 一時的に代わりに、ユーザー アカウントを無効にしたい場合[を無効または有効にしていた Skype ビジネス サーバー用のユーザー アカウントを再度有効にする](user-accounts.md#Disable)を参照してください。
+> ユーザーを削除すると、ユーザーアカウントに対して構成した設定が失われます。 代わりに、ユーザーアカウントを一時的に無効にする場合は、「 [Skype For Business Server 用に有効になっていたユーザーアカウントを無効にする、またはもう一度有効](user-accounts.md#Disable)にする」を参照してください。
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。
 
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4. **ユーザーが検索**ボックス、すべての種類、または表示名、名、姓、セキュリティ アカウント マネージャー (SAM) アカウント名、SIP アドレス、または行を無効にするか、再度有効にするユーザー アカウントの統一リソース識別子 (URI) の最初の部分で[**検索**] をクリックします。
+4. [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、またはもう一度有効にするユーザーアカウントの Ip Uniform リソース識別子 (URI) のすべてまたは最初の部分を入力します。[**検索**] をクリックします。
 
-5. テーブルで、削除するユーザー アカウントをクリックします。
+5. テーブルで、削除するユーザーアカウントをクリックします。
 
-6. [**アクション**] メニューの [選択して、 **Lync Server から削除する**、ダイアログ ボックスが表示されます。
+6. [**操作**] メニューの [ **Lync Server から削除**] を選択すると、ダイアログボックスが表示されます。
 
-7. ダイアログ ボックスからユーザーを削除するのには **[ok]** を選択します。
+7. ダイアログボックスで、[ **OK** ] を選択してユーザーを削除します。
 
-### <a name="remove-user-accounts-with-windows-powershell-cmdlets"></a>Windows Powershell コマンドレットを使用するユーザー アカウントを削除します。
+### <a name="remove-user-accounts-with-windows-powershell-cmdlets"></a>Windows Powershell コマンドレットを使用してユーザーアカウントを削除する
 
-Csuser からの無効化のコマンドレットを使用してユーザー アカウントを削除できます。 ビジネス サーバー管理シェルの Skype から、または Windows PowerShell のリモート セッションからは、このコマンドレットを実行できます。 ビジネス サーバーの Skype に接続するリモートの Windows PowerShell を使用する詳細については、ブログ記事の[「クイック スタート:: を管理する Microsoft Lync サーバー 2010 を使用してリモート PowerShell」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 プロセスは、Skype のビジネス サーバーで同じです。
+ユーザーアカウントを削除するには、ユーザーの無効化コマンドレットを使用します。 このコマンドレットは、Skype for Business Server 管理シェルから、またはリモートセッション Windows PowerShell から実行できます。 リモートの Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「[クイックスタート: リモート PowerShell を使用した Microsoft Lync server 2010 の管理」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 このプロセスは、Skype for Business Server でも同じです。
 
-### <a name="to-remove-a-user-account"></a>ユーザー アカウントを削除するのには
-ユーザー アカウントを削除するには、無効にする CsUser コマンドレットを使用します。 次に例を示します。
+### <a name="to-remove-a-user-account"></a>ユーザーアカウントを削除するには
+ユーザーアカウントを削除するには、ユーザーの無効化コマンドレットを使用します。 次に例を示します。
 
   ```
   Disable-CsUser -Identity "Ken Myer"
@@ -195,11 +195,11 @@ Csuser からの無効化のコマンドレットを使用してユーザー ア
 
     After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
 
-詳細については、[無効にする CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
+詳細については、「[ユーザーの無効化](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)」コマンドレットのヘルプトピックを参照してください。
 
 ## <a name="see-also"></a>関連項目
 <a name="Remove"> </a>
 
-[Csuser からの有効化](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)
+[(CsUser) を有効にする](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)
 
-[Csuser からの無効化](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)
+[無効-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)

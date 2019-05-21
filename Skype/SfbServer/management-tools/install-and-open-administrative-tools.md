@@ -4,40 +4,40 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: このトピックでは、インストールおよび展開し、ビジネスの Skype を管理する必要があります管理ツールを開く方法について説明します。
-ms.openlocfilehash: f914864ee1844ac52d5a8c1ab63da2f7036acaf8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このトピックでは、Skype for Business を展開して管理するために必要な管理ツールをインストールして開く方法について説明します。
+ms.openlocfilehash: 612ea46fe8870944fa4b460b034bb9a7386a88bc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915088"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274402"
 ---
 # <a name="install-and-open-administrative-tools"></a>管理ツールのインストールおよび起動
 
-このトピックでは、Skype をビジネスのサーバーの管理を展開する必要があります管理ツールをインストールする方法について説明します。 Skype をビジネスのサーバーを実行する各サーバーでは既定では、管理ツールがインストールされています。 さらに、専用の管理コンソールなど、他のコンピューターで管理ツールをインストールできます。 ビジネス サーバーの展開を作成するための Skype と同じドメインまたはフォレスト内のコンピューターに管理ツールをインストールすることは、その Active Directory ドメイン サービスの準備を確認する手順が完了すると、既に強くお勧めトポロジを公開するのには後でそのコンピューターの管理ツールを使用できます。 また、Skype を使用して、ビジネスのサーバー管理ツールをインストールする前に必要な要件を確認することを確認してください。 [ビジネス サーバー 2019 の Skype](../../SfBServer2019/plan/system-requirements.md)または[Skype](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)ビジネス サーバー 2015 の要件のドキュメントを参照してください。
+このトピックでは、Skype for Business Server を展開して管理するために必要な管理ツールをインストールする方法について説明します。 管理ツールは、Skype for Business Server が実行されている各サーバーに既定でインストールされます。 さらに、専用の管理コンソールなど、他のコンピューターにも管理ツールをインストールできます。 作成している Skype for Business Server 展開と同じドメインまたはフォレストにあるコンピューターに管理ツールをインストールして、Active Directory ドメインサービスの準備手順が完了していることを確認することを強くお勧めします。これにより、後でそのコンピューターの管理ツールを使用してトポロジを公開できます。 また、Skype for Business Server 管理ツールをインストールまたは使用する前に、必要な要件を確認してください。 [Skype For Business server 2019](../../SfBServer2019/plan/system-requirements.md)または[Skype for business server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)の要件に関するドキュメントを参照してください。
  
 > [!Important]
-> 組織は、システム ドライブ以外のドライブでは、インターネット インフォメーション サービス (IIS) およびすべての Web サービスを見つけることを必要とする場合は、ビジネス サーバー内のファイル設定] ダイアログ ボックスでは、Skype のインストール場所のパスを変更できます。 OCSCore.msi を含む、このパスにセットアップ ファイルをインストールする場合は、このドライブも同様にビジネス サーバー ファイル用の Skype の残りの部分が配置されます。 
+> 組織でインターネットインフォメーションサービス (IIS)、およびシステムドライブ以外のドライブ上のすべての Web サービスを検索する必要がある場合は、セットアップダイアログボックスで、Skype for Business Server ファイルのインストール場所のパスを変更することができます。 このパス (OCSCore など) にセットアップファイルをインストールすると、Skype for Business Server の他のファイルもこのドライブに展開されます。 
 
-## <a name="to-install-the-administrative-tools"></a>管理ツールをインストールするのには
+## <a name="to-install-the-administrative-tools"></a>管理ツールをインストールするには
 
-1. 管理ツールをインストールするコンピューターにローカル管理者 (最小要件) としてログオンします。 ログオンしている Windows の標準的なユーザーとユーザー アカウント制御 (UAC) が有効になっていると場合、は、ローカル管理者またはドメインと同じユーザー名とパスワードを求められます。
-2. お使いのコンピューターにインストール メディアを検索し、\Setup\amd64\Setup.exe をダブルクリックし、します。
-3. 配布可能な Microsoft の Visual C++ をインストールするメッセージが表示されたら、[**はい**] をクリックします。
-4. [インストール先] ページで、[**OK**] をクリックします。 このパスを別の場所またはドライブに変更し、ファイルを別の場所にインストールする必要がある場合。
+1. 管理ツールをインストールするコンピューターにローカルの管理者 (最小要件) としてログオンします。 Windows で標準ユーザーとしてログオンしていて、ユーザーアカウント制御 (UAC) が有効になっている場合は、ローカルの管理者またはドメインの同等のユーザー名とパスワードを入力するように求められます。
+2. 使用しているコンピューター上でインストールメディアを見つけて、[\ dcl amd64] をダブルクリックします。
+3. Microsoft Visual C++ の配布可能な製品をインストールするかどうかを確認するメッセージが表示されたら、[**はい**] をクリックします。
+4. [インストール先] ページで、[**OK**] をクリックします。 ファイルを別の場所にインストールする必要がある場合は、このパスを別の場所またはドライブに変更します。
 
     > [!Important]
-    > 組織は、システム ドライブ以外のドライブでは、インターネット インフォメーション サービス (IIS) およびすべての Web サービスを見つけることを必要とする場合は、ビジネス サーバー内のファイル設定] ダイアログ ボックスでは、Skype のインストール場所のパスを変更できます。 OCSCore.msi を含む、このパスにセットアップ ファイルをインストールする場合ビジネス サーバー ファイル用の Skype の残りの部分が展開するこのドライブにすぎます。 
+    > 組織でインターネットインフォメーションサービス (IIS)、およびシステムドライブ以外のドライブ上のすべての Web サービスを検索する必要がある場合は、セットアップダイアログボックスで、Skype for Business Server ファイルのインストール場所のパスを変更することができます。 このパス (OCSCore など) にセットアップファイルをインストールすると、Skype for Business Server の他のファイルもこのドライブに展開されます。 
 
-5. [エンドユーザー使用許諾契約書] ページで、ライセンス条項**に同意する**場合は、し、[ **OK**] をクリックします。 続行する前に、この手順が必要です。
-6. [展開ウィザード] ページでは、**管理者ツールのインストール**をクリックします。 
+5. [エンドユーザーライセンス契約] ページで、ライセンス条項を確認し、[**同意**する] をクリックして、[ **OK**] をクリックします。 続行するには、この手順が必要です。
+6. 展開ウィザードのページで、[**管理者ツールのインストール**] をクリックします。 
 7. インストールが正常に完了したら、[**終了**] をクリックします。
 
-次の手順を使用して、展開、構成、またはビジネスのサーバー トポロジの場合、Skype のトラブルシューティングを行うのための管理ツールを開きます。
+次の手順を使用して、Skype for Business Server トポロジの展開、構成、トラブルシューティングを行うための管理ツールを開きます。
 
 - [展開ウィザード](#deployment-wizard)
 - [トポロジ ビルダー](#topology-builder) 
@@ -46,58 +46,58 @@ ms.locfileid: "33915088"
 
 ## <a name="deployment-wizard"></a>展開ウィザード
 
-追加またはコンポーネントのファイルを削除するのにはローカルで展開ウィザードを起動するのにには、次の手順を使用します。
+コンポーネントファイルを追加または削除するために展開ウィザードをローカルで開始するには、次の手順に従います。
 
-**ビジネス サーバーの展開ウィザードは、Skype を起動するには**
+**Skype for Business Server 展開ウィザードを起動するには**
 
-1. RTCUniversalServerAdmins グループ、Domain Admins グループのメンバーとしてビジネス サーバーの展開ウィザードの Skype がインストールされているコンピューターにログオンします。
-2. [**スタート**] ボタン [**すべてのプログラム**] をクリックして、 **Skype**、 **Skype ビジネス サーバーの展開ウィザード**] をクリックします。
+1. Skype for Business Server 展開ウィザードがドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーとしてインストールされているコンピューターにログオンします。
+2. [**スタート**] をクリックし、[**すべてのプログラム**] をクリックし、[ **skype for business server**] をクリックして、[ **skype for business server Deployment ウィザード**] をクリックします。
 
 
 ## <a name="topology-builder"></a>トポロジ ビルダー 
 
-展開する、Skype のビジネス サーバー トポロジのサーバーを定義するのにはトポロジ ビルダーを開くには、次の手順を使用します。
+次の手順を使用して、[トポロジビルダー] を開いて、Skype for Business Server トポロジに展開するサーバーを定義します。
 
-**開くには、トポロジを設計するビジネスのサーバー トポロジ ビルダーの Skype**
+**Skype for Business Server トポロジビルダーを開いてトポロジを設計するには**
 
 1. トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
     > [!NOTE]
-    > ローカルの Users グループのメンバーであるアカウントを使用してトポロジを定義することができますが、読み取り、公開、またはトポロジでは、Skype をビジネスのサーバーのサーバーにインストールするために必要では、有効にするのには、th、Domain Admins グループのメンバーであるアカウントを使用する必要があります。e RTCUniversalServerAdmins グループがフル コントロールのアクセス許可 (つまり、読み取り、書き込み、および変更) をトポロジ ビルダーで、必要な随意アクセス制御リスト (を構成できるようにアーカイブのファイル ストアを使用する予定のファイル共有のDacl の場合)、または同等のユーザー権限を持つアカウントです。
+    > トポロジは、ローカルユーザーグループのメンバーであるアカウントを使用して定義できますが、サーバーに Skype for Business Server をインストールするために必要なトポロジを読み取り、公開、有効にするには、ドメイン管理者グループのメンバーであるアカウントを使用する必要があります。e RTCUniversalServerAdmins グループ。また、アーカイブファイルストアで使用するファイル共有に対してフルコントロールのアクセス許可 (つまり読み取り、書き込み、変更) を持つことができます。これにより、必要な随意アクセス制御リストを構成できるようになります (Dacl)、または同等のユーザー権限を持つアカウント。
  
-2. 開始トポロジ ビルダー: [**スタート**] ボタン [**すべてのプログラム**] をクリックして、 **Skype**、 **Skype**] をクリックします。
+2. トポロジビルダーを開始します。 [**スタート**]、[**すべてのプログラム**]、[ **skype for Business server**]、[ **skype for business server Topology Builder**] の順にクリックします。
 
 ## <a name="skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネル 
 
-次の手順のいずれかを使用して、サーバー、ユーザー、クライアント、および環境内のデバイスの構成を管理するビジネス サーバーのコントロール パネルの Skype を開きます。
+次のいずれかの手順を使用して、Skype for Business Server コントロールパネルを開き、環境内のサーバー、ユーザー、クライアント、およびデバイスの構成を管理します。
 
 > [!NOTE]
-> Skype でビジネス サーバーのコントロール パネルの任意のタスクを実行する CsAdministrator の役割に割り当てられているユーザー アカウントを使用することができます。 ビジネス サーバーのコントロール パネルを実行する必要があるタスクに依存する特定の管理タスクを実行するための Skype にログオンするため、他のロールを使用できます。 たとえば、CSArchivingAdministrator を使用すると、ビジネス サーバーのコントロール パネルの Skype でアーカイブを管理します。 ロールに関する詳細については、[役割ベースのアクセス制御のための計画](https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx)を参照してください。 詳細については、特定のタスクの実行に使用できる役割は、タスクのドキュメントを参照してください。 
+> CsAdministrator ロールに割り当てられているユーザーアカウントを使用して、Skype for Business Server コントロールパネルで任意のタスクを実行することができます。 他の役割を使用して、Skype for Business Server コントロールパネルにログインして、実行する必要があるタスクに応じて、特定の管理タスクを実行することができます。 たとえば、CSArchivingAdministrator を使用して、Skype for Business Server コントロールパネルのアーカイブを管理することができます。 ロールの詳細については、「[ロールベースのアクセス制御の計画](https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx)」を参照してください。 特定のタスクを実行するために使用できる役割の詳細については、そのタスクに関するドキュメントを参照してください。 
 
-**ビジネス サーバーのコントロール パネルの任意のコンピューター、組織のファイアウォールの内側から、Skype を開く**
+**組織のファイアウォール内の任意のコンピューターから Skype for Business Server コントロールパネルを開くには**
 
-1. 、CsAdministrator ロール、またはその他の適切なユーザー権限とタスクを実行するためのアクセス許可を持つロールに割り当てられているユーザー アカウントから最小の画面解像度が 1024 x 768 の内部展開の任意のコンピューターにログオンします。
+1. CsAdministrator の役割またはその他の役割に割り当てられているユーザーアカウントで、タスクを実行するための適切なユーザー権限と権限を持っている場合は、最小画面解像度 1024 x 768 を使用して、内部展開内の任意のコンピューターにログオンします。
 
     > [!IMPORTANT]
-    > 管理の簡単な統一リソース ロケーター (URL) を構成した場合、組織のファイアウォール内のコンピューターで実行されているインターネット ブラウザーからビジネス サーバーのコントロール パネルの Skype にアクセスできます。 管理の簡単な URL を構成する方法の詳細は、[単純な Url を計画する](https://technet.microsoft.com/en-us/library/gg398287(v=ocs.15).aspx)」および「[編集や簡単な Url の構成](https://technet.microsoft.com/en-us/library/gg398063(v=ocs.15).aspx)を参照してください。 
+    > 管理のシンプルな uniform resource locator (URL) を構成している場合は、組織のファイアウォール内の任意のコンピューターで実行されているインターネットブラウザーから、Skype for Business Server コントロールパネルにアクセスできます。 管理のシンプルな URL の構成の詳細については、「単純な url[の計画](https://technet.microsoft.com/en-us/library/gg398287(v=ocs.15).aspx)」および「[単純な url の編集または構成](https://technet.microsoft.com/en-us/library/gg398063(v=ocs.15).aspx)」を参照してください。 
 
-2. ブラウザー ウィンドウを開き、組織に対して構成されている管理 URL を入力します。
+2. ブラウザーウィンドウを開き、組織に構成されている管理 URL を入力します。
 
-**ビジネス サーバーのコントロール パネルの業務サーバーの Skype を実行するコンピューターで、Skype を開く**
+**Skype for business server を実行しているコンピューターで、Skype for Business Server コントロールパネルを開くには**
 
-1. CsAdministrator ロールまたはその他の適切なユーザー権限とタスクを実行するためのアクセス許可を持つロールのメンバーであるユーザー アカウントからコンピューターにログオンするがインストールされている Skype ビジネス サーバー、または、少なくとも、ビジネスのサーバー管理ツールの Skype です。 設定を構成するには、コンピューターに最低限の画面の解像度を 1024 x 768 のことが必要です。
-2. Skype をビジネス サーバーのコントロール パネルの開始: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、 **[管理ツール**] をポイントし、 **Skype**をポイントおよび**Skype ビジネス サーバーのコントロール パネル**] をクリックします。
+1. CsAdministrator ロールのメンバーであるか、またはタスクの実行に適したユーザー権限と権限を持つユーザーアカウントから、Skype for Business Server をインストールしているコンピューターにログオンするか、少なくともSkype for Business Server 管理ツール。 設定を構成するには、コンピューターの画面解像度が 1024 x 768 以上である必要があります。
+2. Skype for Business Server コントロールパネルを起動します。 [**スタート**]、[**すべてのプログラム**]、[**管理ツール**]、[ **skype for business server**] の順にポイントして、[ **skype for business server コントロールパネル**] をクリックします。
 
 ## <a name="skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェル 
 
-開くには、Skype ビジネス サーバー管理シェルのコマンドラインを使用してサーバー、ユーザー、クライアント、および環境内のデバイスを管理するのにには、次の手順を使用します。
+次の手順を使用して、コマンドラインを使用して、環境内のサーバー、ユーザー、クライアント、デバイスを管理するための Skype for Business Server 管理シェルを開きます。
 
 > [!NOTE]
-> ビジネス サーバー管理シェルには、Skype であらゆるタスクを実行するのには CsAdministrator の役割に割り当てられているユーザー アカウントを使用することができます。 実行する必要があるタスクによって、特定の管理タスクを実行するその他のロールを使用してログオンすることができます。 たとえば、アーカイブの管理に関連するコマンドレットを実行するのに CSArchivingAdministrator を使用できます。 ロールに関する詳細については、[役割ベースのアクセス制御のための計画](https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx)を参照してください。 詳細については、特定のコマンドレットを実行するために使用できるロールは、コマンドレットのドキュメントを参照してください。<br/><br/>コマンドレットによって、RTCUniversalServerAdmins、RTCUniversalUserAdmins、または RTCUniversalReadOnlyAdmins のグループにユーザー アカウントを使用して、特定のコマンドレットを実行することもできます。 
+> CsAdministrator ロールに割り当てられているユーザーアカウントを使用して、Skype for Business Server 管理シェルで任意のタスクを実行することができます。 他の役割を使用してログオンし、実行する必要があるタスクに応じて、特定の管理タスクを実行できます。 たとえば、CSArchivingAdministrator を使用して、アーカイブ管理に関連するコマンドレットを実行することができます。 ロールの詳細については、「[ロールベースのアクセス制御の計画](https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx)」を参照してください。 特定のコマンドレットを実行するために使用できる役割の詳細については、コマンドレットのドキュメントを参照してください。<br/><br/>また、コマンドレットに応じて、RTCUniversalServerAdmins、RTCUniversalUserAdmins、または RTCUniversalReadOnlyAdmins グループのユーザーアカウントを使用して、特定のコマンドレットを実行することもできます。 
 
-**ビジネス サーバー管理シェルの Skype を開く**
+**Skype for Business Server 管理シェルを開くには**
 
-ビジネス サーバー管理シェルには、Skype ではなく、Windows PowerShell のウィンドウを開く場合は、既定では実行できませんビジネス サーバー コマンドレットの Skype。 ビジネス サーバーのコマンドレットから Windows PowerShell 内で Skype を実行するには、Windows PowerShell コマンド プロンプトで次を入力します。
+Skype for Business Server 管理シェルではなく、Windows PowerShell ウィンドウを開いた場合、既定では、Skype for Business Server コマンドレットを実行することはできません。 Windows PowerShell 内から Skype for Business Server コマンドレットを実行するには、Windows PowerShell コマンドプロンプトで次のように入力します。
 
 `Import-Module Lync`
 
-ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、 **Skype**ビジネス サーバーをクリック**ビジネス サーバー管理シェルの Skype**です。
+Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし****、[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **skype for business server 管理シェル**] をクリックします。

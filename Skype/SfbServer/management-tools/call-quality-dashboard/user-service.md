@@ -1,55 +1,55 @@
 ---
-title: 救難用のユーザー ・ サービス
+title: CQD のユーザーサービス
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
-description: '概要: は、ユーザー サービス、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 631ccfefe7a4503f325c288ef1bf27d4366869e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: 通話品質ダッシュボードのリポジトリ API の一部であるユーザーサービスについて説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: 3ef76d26faa27034d3f092608b52676332b254a1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915081"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274521"
 ---
-# <a name="user-service-for-cqd"></a>救難用のユーザー ・ サービス
+# <a name="user-service-for-cqd"></a>CQD のユーザーサービス
  
-**の概要:** ユーザー サービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**概要:** 通話品質ダッシュボードのリポジトリ API の一部であるユーザーサービスについて説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。
   
-ユーザー サービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。
+ユーザーサービスは、通話品質ダッシュボードのリポジトリ API の一部です。
   
 ## <a name="user-service"></a>ユーザー サービス
 
-リポジトリ API には、ここでユーザー (新しいユーザー アカウントを作成する) のプロビジョニング、自動と暗黙の型のシンプルなユーザー管理モデルが用意されています。 ユーザーは、最初にリポジトリ API に対して要求を行い、リポジトリは、新しいユーザー レコードを作成します。 
+リポジトリ API は、ユーザープロビジョニング (新規ユーザーアカウントの作成) が自動的かつ暗黙的なものである簡素化されたユーザー管理モデルを提供します。 ユーザーが初めてリポジトリ API に対する要求を行うと、リポジトリは新しいユーザーレコードを作成します。 
   
-品質のダッシュ ボードが自動的にユーザーを作成する呼び出しは、新しいユーザーのアイテム専用です。 新しいユーザーが専用のアイテムは、システム ユーザーのアイテムの完全なクローンです。 この方法により、ユーザーは、レポートおよびクエリは、すぐに開始することをカスタマイズするが自分のコピーを使用して起動できます。 
+通話品質ダッシュボードでは、新規ユーザーのユーザー専用項目も自動的に作成されます。 新しいユーザー専用項目は、システムユーザーの項目の完全な複製です。 こうすることで、ユーザーはレポートやクエリの独自のコピーから開始し、すぐにカスタマイズを開始できるようになります。 
   
 > [!NOTE]
-> 品質のダッシュ ボードの呼び出しを使用すると、ユーザーはリセット専用のアイテムは、いつでも。 
+> 通話品質ダッシュボードを使用すると、ユーザーはいつでも専用のアイテムをリセットできます。 
   
- **特別なユーザーの Id**
+ **特殊なユーザー Id**
   
-リポジトリ API には、特定のユーザーを指定する整数値を受け取る REST API Uri が含まれています。 例: `https://<portal>/QoERepositoryService/repository/user/{userId}`。 {ユーザー Id} を整数値 0 などで置き換える必要がありますここでは、1 などです。
+リポジトリ API には、特定のユーザーを指定する整数値を受け取る REST API Uri が含まれています。 例: `https://<portal>/QoERepositoryService/repository/user/{userId}`。 {UserId} は、0、1などの整数値で置き換える必要があります。
   
-さらに、リポジトリ API は、Uri で {ユーザー Id} の 2 つの特別なユーザー Id を受け入れます。
+さらに、リポジトリ API は、Uri の {userId} で2つの特殊なユーザー Id を受け取ります。
   
--  *既定*では、API を使用して現在操作しているユーザーを表します。 これにより、アプリケーションの実際のユーザー ID の値を追跡せずに現在のユーザーのコンテンツにアクセスします。 例: ` https://<portal>/QoERepositoryService/repository/user/default`。
+-  *default* -API を現在操作しているユーザーを表します。 これにより、アプリケーションは実際のユーザー ID の値を追跡しなくても、現在のユーザーのコンテンツにアクセスできます。 例: ` https://<portal>/QoERepositoryService/repository/user/default`。
     
--  *システム*では、システムのユーザーを表します。 これにより、実際のユーザー ID の値を知らなくてもシステムのユーザーのコンテンツにアクセスするアプリケーションです。 例: `https://<portal>/QoERepositoryService/repository/user/system`。
+-  *システム*-システムユーザーを表します。 これにより、アプリケーションは実際のユーザー ID 値を知らなくても、システムユーザーのコンテンツにアクセスできます。 例: `https://<portal>/QoERepositoryService/repository/user/system`。
     
-特に断らない限りは、Uri で {ユーザー Id} にある特別なユーザ Id が使用できます。 
+特に注記がない限り、特殊なユーザー Id は、Uri の {userId} で使用できます。 
   
-次の表には、他の操作が含まれます。
+REST 操作は、次の表に記載されています。
   
 |**操作**|**説明**|
 |:-----|:-----|
-|[ユーザーの取得](get-users.md) <br/> |リポジトリ内のユーザーの一覧を返します。  <br/> |
-|[ユーザーの取得](get-user.md) <br/> |ユーザー レコードを返します。  <br/> |
+|[ユーザーの取得](get-users.md) <br/> |リポジトリ内のユーザーのリストを返します。  <br/> |
+|[ユーザーの取得](get-user.md) <br/> |ユーザーレコードを返します。  <br/> |
    
 

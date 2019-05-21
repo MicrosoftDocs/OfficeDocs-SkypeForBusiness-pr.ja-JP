@@ -1,24 +1,24 @@
 ---
-title: 4 パイロット プールにテスト ユーザーの移動のフェーズします。
+title: フェーズ4テストユーザーをパイロットプールに移動する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: '1 人のユーザーまたはユーザーのグループを移動するには次の 2 つのメソッドを使用してビジネス サーバー 2019、新しい、Microsoft Skype する: サーバーのコントロール パネルのビジネスとビジネス サーバー管理シェルの Skype の Skype です。 このセクションのトピックでは、パイロット展開から運用レベルの展開に Skype のビジネス サーバー 2019 の配置を移動する前にだけでなく、パイロットの展開中に行う必要がありますタスクについて説明します。'
-ms.openlocfilehash: 69278cb325209823136a21e03b9261baf680ab73
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 次の2つの方法 (Skype for Business Server コントロールパネルおよび Skype for Business Server Management Shell) を使用して、1人のユーザーまたはユーザーのグループを新しい Microsoft Skype for Business Server 2019 展開に移動できます。 このセクションのトピックでは、パイロット展開の際に実行する必要があるタスクと、パイロット展開から製造レベルの展開へ2019の展開を移行する前に説明します。
+ms.openlocfilehash: ae9c2de289759ae3e57dfd8337dd7cc4171aba61
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231561"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273932"
 ---
-# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>フェーズ 4: パイロット プールにテスト ユーザーの移動
+# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>フェーズ 4: テストユーザーをパイロットプールに移動する
 
-1 人のユーザーまたはユーザーのグループを移動するには次の 2 つのメソッドを使用してビジネス サーバー 2019、新しい、Microsoft Skype する: サーバーのコントロール パネルのビジネスとビジネス サーバー管理シェルの Skype の Skype です。 このセクションのトピックでは、パイロット展開から運用レベルの展開に Skype のビジネス サーバー 2019 の配置を移動する前にだけでなく、パイロットの展開中に行う必要がありますタスクについて説明します。
+次の2つの方法 (Skype for Business Server コントロールパネルおよび Skype for Business Server Management Shell) を使用して、1人のユーザーまたはユーザーのグループを新しい Microsoft Skype for Business Server 2019 展開に移動できます。 このセクションのトピックでは、パイロット展開の際に実行する必要があるタスクと、パイロット展開から製造レベルの展開へ2019の展開を移行する前に説明します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
@@ -26,8 +26,8 @@ ms.locfileid: "32231561"
     
 - [ユーザー レプリケーションの完了の確認](verify-user-replication-has-completed.md)
     
-- [1 人のユーザーをパイロット プールに移動します。](move-a-single-user-to-the-pilot-pool.md)
+- [1人のユーザーをパイロットプールに移動する](move-a-single-user-to-the-pilot-pool.md)
     
-- [複数のユーザーをパイロット プールに移動します。](move-multiple-users-to-the-pilot-pool.md)
+- [複数のユーザーをパイロットプールに移動する](move-multiple-users-to-the-pilot-pool.md)
     
 
