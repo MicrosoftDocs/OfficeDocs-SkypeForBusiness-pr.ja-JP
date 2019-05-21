@@ -4,44 +4,44 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: End User
+audience: End User
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ユーザーが会議出席依頼、会議の会議のリンクをクリックすると結合のページは、どのクライアントがユーザーのコンピューターに既にインストールされているを検出します。 クライアントが既にインストールされている場合、そのクライアントは開き、ミーティングに参加します。 クライアントがインストールされていない場合は、既定で Web アプリケーションを開きます。
-ms.openlocfilehash: 88ae915318505efef6ae716a17217aaa1e7b12df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: ユーザーが会議出席依頼の会議リンクをクリックすると、[会議の参加] ページによって、ユーザーのコンピューターに既にインストールされているクライアントが検出されます。 クライアントが既にインストールされている場合は、そのクライアントが開き、会議に参加します。 クライアントがインストールされていない場合は、既定で Web アプリが開きます。
+ms.openlocfilehash: c5f6cd5b1d04b54f8db9f82080bc8dbabefdc11e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238717"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298278"
 ---
-# <a name="configure-the-meeting-join-page"></a><span data-ttu-id="44d62-105">会議参加ページの構成</span><span class="sxs-lookup"><span data-stu-id="44d62-105">Configure the meeting join page</span></span>
+# <a name="configure-the-meeting-join-page"></a><span data-ttu-id="617cd-105">会議参加ページの構成</span><span class="sxs-lookup"><span data-stu-id="617cd-105">Configure the meeting join page</span></span>
 
-<span data-ttu-id="44d62-106">ユーザーが会議出席依頼、会議の会議のリンクをクリックすると結合のページは、どのクライアントがユーザーのコンピューターに既にインストールされているを検出します。</span><span class="sxs-lookup"><span data-stu-id="44d62-106">When a user clicks a meeting link in a meeting request, the meeting join page detects which client is already installed on the user's computer.</span></span> <span data-ttu-id="44d62-107">クライアントが既にインストールされている場合、そのクライアントは開き、ミーティングに参加します。</span><span class="sxs-lookup"><span data-stu-id="44d62-107">If a client is already installed, that client opens and joins the meeting.</span></span> <span data-ttu-id="44d62-108">クライアントがインストールされていない場合は、既定で Web アプリケーションを開きます。</span><span class="sxs-lookup"><span data-stu-id="44d62-108">If a client is not installed, by default the Web App opens.</span></span>
+<span data-ttu-id="617cd-106">ユーザーが会議出席依頼の会議リンクをクリックすると、[会議の参加] ページによって、ユーザーのコンピューターに既にインストールされているクライアントが検出されます。</span><span class="sxs-lookup"><span data-stu-id="617cd-106">When a user clicks a meeting link in a meeting request, the meeting join page detects which client is already installed on the user's computer.</span></span> <span data-ttu-id="617cd-107">クライアントが既にインストールされている場合は、そのクライアントが開き、会議に参加します。</span><span class="sxs-lookup"><span data-stu-id="617cd-107">If a client is already installed, that client opens and joins the meeting.</span></span> <span data-ttu-id="617cd-108">クライアントがインストールされていない場合は、既定で Web アプリが開きます。</span><span class="sxs-lookup"><span data-stu-id="617cd-108">If a client is not installed, by default the Web App opens.</span></span>
   
-<span data-ttu-id="44d62-109">会議の結合の動作を変更することができますページの会議に参加するユーザーを許可する場合。</span><span class="sxs-lookup"><span data-stu-id="44d62-109">You can modify the behavior of the meeting join page if you want to allow users to join meetings.</span></span> <span data-ttu-id="44d62-110">これらの構成オプションは、[コントロール パネル] から削除されたが、CsWebServiceConfiguration コマンドレットを使用して、それらを構成します。</span><span class="sxs-lookup"><span data-stu-id="44d62-110">These configuration options have been removed from the Control Panel, but you configure them by using the CsWebServiceConfiguration cmdlet.</span></span>
+<span data-ttu-id="617cd-109">ユーザーが会議に参加できるようにする場合は、[会議参加] ページの動作を変更することができます。</span><span class="sxs-lookup"><span data-stu-id="617cd-109">You can modify the behavior of the meeting join page if you want to allow users to join meetings.</span></span> <span data-ttu-id="617cd-110">これらの構成オプションはコントロールパネルから削除されていますが、CsWebServiceConfiguration コマンドレットを使用して設定します。</span><span class="sxs-lookup"><span data-stu-id="617cd-110">These configuration options have been removed from the Control Panel, but you configure them by using the CsWebServiceConfiguration cmdlet.</span></span>
   
-<span data-ttu-id="44d62-111">**ミーティング参加ページの CsWebServiceConfiguration のパラメーター**</span><span class="sxs-lookup"><span data-stu-id="44d62-111">**Meeting Join Page CsWebServiceConfiguration Parameters**</span></span>
+<span data-ttu-id="617cd-111">**会議の参加ページの CsWebServiceConfiguration パラメーター**</span><span class="sxs-lookup"><span data-stu-id="617cd-111">**Meeting Join Page CsWebServiceConfiguration Parameters**</span></span>
 
-|<span data-ttu-id="44d62-112">**CsWebServiceConfiguration パラメーター**</span><span class="sxs-lookup"><span data-stu-id="44d62-112">**CsWebServiceConfiguration Parameter**</span></span>|<span data-ttu-id="44d62-113">**説明**</span><span class="sxs-lookup"><span data-stu-id="44d62-113">**Description**</span></span>|
+|<span data-ttu-id="617cd-112">**CsWebServiceConfiguration パラメーター**</span><span class="sxs-lookup"><span data-stu-id="617cd-112">**CsWebServiceConfiguration Parameter**</span></span>|<span data-ttu-id="617cd-113">**説明**</span><span class="sxs-lookup"><span data-stu-id="617cd-113">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="44d62-114">ShowJoinUsingLegacyClientLink</span><span class="sxs-lookup"><span data-stu-id="44d62-114">ShowJoinUsingLegacyClientLink</span></span>  <br/> |<span data-ttu-id="44d62-115">かどうかに True を設定する以外は、Lync クライアント アプリケーションを使用してミーティングに参加するユーザーが与えられますミーティングに参加することです。</span><span class="sxs-lookup"><span data-stu-id="44d62-115">If set to True, users joining a meeting by using a client application other than Lync will be given the opportunity to join the meeting.</span></span> <span data-ttu-id="44d62-116">既定値は False です。</span><span class="sxs-lookup"><span data-stu-id="44d62-116">The default value is False.</span></span>  <br/> |
-|<span data-ttu-id="44d62-117">ShowAlternateJoinOptionsExpanded</span><span class="sxs-lookup"><span data-stu-id="44d62-117">ShowAlternateJoinOptionsExpanded</span></span>  <br/> |<span data-ttu-id="44d62-118">True の場合、別のオプションのオンライン会議に参加するに自動的に展開されユーザーに表示されるのです。</span><span class="sxs-lookup"><span data-stu-id="44d62-118">When set to True, alternate options for joining an online conference will automatically be expanded and shown to users.</span></span> <span data-ttu-id="44d62-119">False (既定値) に設定すると、これらのオプションを使用できるが、ユーザー自身でオプションの一覧を表示します。</span><span class="sxs-lookup"><span data-stu-id="44d62-119">When set to False (the default value), these options will be available, but the user will have to display the list of options for themselves.</span></span>  <br/> |
+|<span data-ttu-id="617cd-114">ShowJoinUsingLegacyClientLink</span><span class="sxs-lookup"><span data-stu-id="617cd-114">ShowJoinUsingLegacyClientLink</span></span>  <br/> |<span data-ttu-id="617cd-115">True に設定すると、Lync 以外のクライアントアプリケーションを使用して会議に参加するユーザーには、会議への参加の機会が与えられます。</span><span class="sxs-lookup"><span data-stu-id="617cd-115">If set to True, users joining a meeting by using a client application other than Lync will be given the opportunity to join the meeting.</span></span> <span data-ttu-id="617cd-116">既定値は False です。</span><span class="sxs-lookup"><span data-stu-id="617cd-116">The default value is False.</span></span>  <br/> |
+|<span data-ttu-id="617cd-117">Showalternatejoinoptionている</span><span class="sxs-lookup"><span data-stu-id="617cd-117">ShowAlternateJoinOptionsExpanded</span></span>  <br/> |<span data-ttu-id="617cd-118">True に設定すると、オンライン会議に参加するための代替オプションが自動的に展開され、ユーザーに表示されます。</span><span class="sxs-lookup"><span data-stu-id="617cd-118">When set to True, alternate options for joining an online conference will automatically be expanded and shown to users.</span></span> <span data-ttu-id="617cd-119">False (既定値) に設定した場合、これらのオプションは使用できますが、ユーザーは独自のオプションの一覧を表示する必要があります。</span><span class="sxs-lookup"><span data-stu-id="617cd-119">When set to False (the default value), these options will be available, but the user will have to display the list of options for themselves.</span></span>  <br/> |
    
-### <a name="to-configure-the-meeting-join-page-by-using-skype-for-business-server-2019-management-shell"></a><span data-ttu-id="44d62-120">会議を構成するのにはビジネス サーバー 2019 管理シェルには、Skype を使用して結合ページ</span><span class="sxs-lookup"><span data-stu-id="44d62-120">To configure the meeting join page by using Skype for Business Server 2019 Management Shell</span></span>
+### <a name="to-configure-the-meeting-join-page-by-using-skype-for-business-server-2019-management-shell"></a><span data-ttu-id="617cd-120">Skype for Business Server 2019 管理シェルを使用して会議の参加ページを構成するには</span><span class="sxs-lookup"><span data-stu-id="617cd-120">To configure the meeting join page by using Skype for Business Server 2019 Management Shell</span></span>
 
-1. <span data-ttu-id="44d62-121">ビジネス サーバー 2019 管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、**ビジネス サーバー 2019 の Skype をマイクロソフト**をクリック**ビジネス サーバー管理シェルの Skype**です。</span><span class="sxs-lookup"><span data-stu-id="44d62-121">Start the Skype for Business Server 2019 Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="617cd-121">Skype for Business Server 2019 管理シェルを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft skype for business Server 2019**]、[ **skype for business server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="617cd-121">Start the Skype for Business Server 2019 Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="44d62-122">次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="44d62-122">Run the following cmdlet:</span></span> 
+2. <span data-ttu-id="617cd-122">次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="617cd-122">Run the following cmdlet:</span></span> 
     
    ```
    Get-CsWebServiceConfiguration
    ```
 
-    <span data-ttu-id="44d62-123">このコマンドレットは、web サービスの構成設定を返します。</span><span class="sxs-lookup"><span data-stu-id="44d62-123">This cmdlet returns the web service configuration settings.</span></span>
+    <span data-ttu-id="617cd-123">このコマンドレットは、web サービスの構成設定を返します。</span><span class="sxs-lookup"><span data-stu-id="617cd-123">This cmdlet returns the web service configuration settings.</span></span>
     
-3. <span data-ttu-id="44d62-124">パラメーターに設定する場合は True または False で、好みに応じて次のコマンドを実行 (このコマンドレットのパラメーターの詳細については、 [Skype](../../SfbServer/manage/management-shell.md)ビジネス サーバー管理シェルのマニュアルを参照してください)。</span><span class="sxs-lookup"><span data-stu-id="44d62-124">Run the following command, with the parameters set to True or False, depending on your preference (for details about the parameters for this cmdlet, see the [Skype for Business Server Management Shell](../../SfbServer/manage/management-shell.md) documentation):</span></span>
+3. <span data-ttu-id="617cd-124">次のコマンドを実行します。設定に応じてパラメーターが True または False に設定されています (このコマンドレットのパラメーターの詳細については、「 [Skype For Business Server 管理シェル](../../SfbServer/manage/management-shell.md)のドキュメント」を参照してください)。</span><span class="sxs-lookup"><span data-stu-id="617cd-124">Run the following command, with the parameters set to True or False, depending on your preference (for details about the parameters for this cmdlet, see the [Skype for Business Server Management Shell](../../SfbServer/manage/management-shell.md) documentation):</span></span>
     
    ```
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True

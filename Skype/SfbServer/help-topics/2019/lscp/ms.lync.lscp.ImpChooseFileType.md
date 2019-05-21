@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ImpChooseFileType
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
-description: ブロック (ブロック) をオンまたはオフにできるようにする) を許可するファイルの拡張子を選択するのには、[ファイルの拡張子を選択] ダイアログ ボックスを使用して [ファイル] 拡張機能のチェック ボックスは、拡張子を入力します。 カテゴリを展開し、すべてのファイルの拡張子は、そのカテゴリの表示にある矢印をクリックします。 すべてのカテゴリのファイルの拡張子を選択する場合は、カテゴリ名を選択します。
-ms.openlocfilehash: 80f70530496bed374b8122a6580af0c70013c22e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[ファイルの種類の選択] ダイアログボックスを使用して、[ファイルの種類の拡張子] の下にある拡張子の横にあるチェックボックスをオン (ブロック) またはオフ (許可) にして、ブロックまたは許可するファイルの種類の拡張子を選択します。 矢印をクリックして、カテゴリを展開し、そのカテゴリのすべてのファイルの種類の拡張子を表示します。 カテゴリのすべてのファイルの種類の拡張子を選択する場合は、カテゴリ名を選びます。'
+ms.openlocfilehash: f332e32fa957cbc1736110bfe5faec7ce2a6cd8c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891454"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292921"
 ---
-# <a name="select-file-type-extensions"></a><span data-ttu-id="41ec1-105">ファイル種類の拡張子の選択</span><span class="sxs-lookup"><span data-stu-id="41ec1-105">Select File Type Extensions</span></span>
+# <a name="select-file-type-extensions"></a><span data-ttu-id="c8eff-105">ファイル種類の拡張子の選択</span><span class="sxs-lookup"><span data-stu-id="c8eff-105">Select File Type Extensions</span></span>
  
-<span data-ttu-id="41ec1-106">ブロック (ブロック) をオンまたはオフにできるようにする) を許可するファイルの拡張子を選択するのには、[**ファイルの拡張子を選択**] ダイアログ ボックスを使用して**ファイルの拡張子**] の下の拡張機能の横にあるチェック ボックスです。</span><span class="sxs-lookup"><span data-stu-id="41ec1-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="41ec1-107">カテゴリを展開し、すべてのファイルの拡張子は、そのカテゴリの表示にある矢印をクリックします。</span><span class="sxs-lookup"><span data-stu-id="41ec1-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="41ec1-108">すべてのカテゴリのファイルの拡張子を選択する場合は、カテゴリ名を選択します。</span><span class="sxs-lookup"><span data-stu-id="41ec1-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
+<span data-ttu-id="c8eff-106">[ファイルの**種類の選択**] ダイアログボックスを使用して、[ファイルの種類の**拡張子**] の下にある拡張子の横にあるチェックボックスをオン (ブロック) またはオフ (許可) にして、ブロックまたは許可するファイルの種類の拡張子を選択します。</span><span class="sxs-lookup"><span data-stu-id="c8eff-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="c8eff-107">矢印をクリックして、カテゴリを展開し、そのカテゴリのすべてのファイルの種類の拡張子を表示します。</span><span class="sxs-lookup"><span data-stu-id="c8eff-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="c8eff-108">カテゴリのすべてのファイルの種類の拡張子を選択する場合は、カテゴリ名を選びます。</span><span class="sxs-lookup"><span data-stu-id="c8eff-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
   
-<span data-ttu-id="41ec1-109">**ファイルの拡張子**でを選択するファイルの種類の拡張子が一覧に表示されない場合は、[**リストに新しいファイルの拡張子を追加**] で、テキスト ボックスに拡張子を入力し、し、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="41ec1-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="c8eff-109">選択するファイルの種類の拡張子が [**ファイルの種類の拡張子**] に表示されていない場合は、[**リストに新しいファイル拡張子を追加**する] の下のテキストボックスに拡張子を入力して、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c8eff-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="41ec1-110">**選択したファイル拡張子**の一覧にすべての必要なファイルの拡張子を追加した後 [ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="41ec1-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
+<span data-ttu-id="c8eff-110">選択したファイルの種類の**拡張子**の一覧に必要なファイルの種類の拡張子をすべて追加したら、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c8eff-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
   
  
   

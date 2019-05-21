@@ -1,27 +1,27 @@
 ---
-title: Skype ビジネス サーバーの役割に基づくアクセス制御 (RBAC)
+title: Skype for Business Server の役割ベースのアクセス制御 (RBAC)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
-description: Skype ビジネス サーバー用には、高水準のセキュリティを維持しながら管理タスクを委任できるようにするための役割に基づくアクセス制御 (RBAC) グループが含まれています。 これらのグループはフォレストの準備の際に作成されます。 フォレストの準備に関する詳細については、ビジネスのサーバーの Skype 用の Active Directory ドメイン サービスを参照してください。 フォレストの準備によって作成された特定のグループに関する詳細については、フォレストの準備で Skype ビジネス サーバーの展開に関するドキュメントでの変更を参照してください。
-ms.openlocfilehash: 34f5fa455b865e40ba2ad21298e37d0948d2a810
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server には役割ベースのアクセス制御 (RBAC) グループが含まれているので、セキュリティの高い標準を維持しながら、管理タスクを委任できます。 これらのグループはフォレストの準備の際に作成されます。 フォレストの準備の詳細については、「Skype for Business Server の Active Directory ドメインサービス」を参照してください。 フォレストの準備によって作成される特定のグループの詳細については、展開ドキュメントの「Skype for Business Server でのフォレストの準備による変更」を参照してください。
+ms.openlocfilehash: 493af102ae42658d51cfcb5d65fde6c26596d82d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914206"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296841"
 ---
-# <a name="role-based-access-control-rbac-for-skype-for-business-server"></a><span data-ttu-id="7f291-106">Skype ビジネス サーバーの役割に基づくアクセス制御 (RBAC)</span><span class="sxs-lookup"><span data-stu-id="7f291-106">Role-based access control (RBAC) for Skype for Business Server</span></span>
+# <a name="role-based-access-control-rbac-for-skype-for-business-server"></a><span data-ttu-id="e8040-106">Skype for Business Server の役割ベースのアクセス制御 (RBAC)</span><span class="sxs-lookup"><span data-stu-id="e8040-106">Role-based access control (RBAC) for Skype for Business Server</span></span>
  
-<span data-ttu-id="7f291-107">Skype ビジネス サーバー用には、高水準のセキュリティを維持しながら管理タスクを委任できるようにするための役割に基づくアクセス制御 (RBAC) グループが含まれています。</span><span class="sxs-lookup"><span data-stu-id="7f291-107">Skype for Business Server includes Role-Based Access Control (RBAC) groups to enable you to delegate administrative tasks while maintaining high standards for security.</span></span> <span data-ttu-id="7f291-108">これらのグループはフォレストの準備の際に作成されます。</span><span class="sxs-lookup"><span data-stu-id="7f291-108">These groups are created during forest preparation.</span></span> <span data-ttu-id="7f291-109">フォレストの準備に関する詳細については、 [Skype のビジネス サーバーの Active Directory ドメイン サービス](active-directory-domain-services.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7f291-109">For details about forest preparation, see [Active Directory Domain Services for Skype for Business Server](active-directory-domain-services.md).</span></span> <span data-ttu-id="7f291-110">フォレストの準備によって作成された特定のグループに関する詳細情報は、展開に関するドキュメントで[ビジネス サーバーの Skype でのフォレストの準備によって変更](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7f291-110">For details about the specific groups created by forest preparation, see [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="e8040-107">Skype for Business Server には役割ベースのアクセス制御 (RBAC) グループが含まれているので、セキュリティの高い標準を維持しながら、管理タスクを委任できます。</span><span class="sxs-lookup"><span data-stu-id="e8040-107">Skype for Business Server includes Role-Based Access Control (RBAC) groups to enable you to delegate administrative tasks while maintaining high standards for security.</span></span> <span data-ttu-id="e8040-108">これらのグループはフォレストの準備の際に作成されます。</span><span class="sxs-lookup"><span data-stu-id="e8040-108">These groups are created during forest preparation.</span></span> <span data-ttu-id="e8040-109">フォレストの準備の詳細については、「 [Skype For Business Server の Active Directory ドメインサービス](active-directory-domain-services.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e8040-109">For details about forest preparation, see [Active Directory Domain Services for Skype for Business Server](active-directory-domain-services.md).</span></span> <span data-ttu-id="e8040-110">フォレストの準備によって作成される特定のグループの詳細については、展開ドキュメントの「 [Skype For Business Server でのフォレストの準備による変更](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e8040-110">For details about the specific groups created by forest preparation, see [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in the Deployment documentation.</span></span>
   
-<span data-ttu-id="7f291-111">Rbac では、管理者特権が付与された定義済みの管理者ロールにユーザーを割り当てることによりなど多くの一般的な管理タスクをカバーする 11 の定義済みのロールです。</span><span class="sxs-lookup"><span data-stu-id="7f291-111">With RBAC, administrative privilege is granted by assigning users to pre-defined administrative roles, including the 11 predefined roles that cover many common administrative tasks.</span></span> <span data-ttu-id="7f291-112">各役割は、Lync Server 管理シェル コマンドレットを実行するのにはそのロール内のユーザーが許可されているは特定のリストに関連付けられます。</span><span class="sxs-lookup"><span data-stu-id="7f291-112">Each role is associated with a specific list of Lync Server Management Shell cmdlets that users in that role are allowed to run.</span></span> <span data-ttu-id="7f291-113">「最低限の特権」の原則に従う RBAC を使用するにはで、ユーザーの業務で必要とされる管理権限のみが与えられます。</span><span class="sxs-lookup"><span data-stu-id="7f291-113">You can use RBAC to follow the principle of "least privilege," in which users are given only the administrative abilities that their jobs require.</span></span> 
+<span data-ttu-id="e8040-111">RBAC では、管理者特権が与えられているのは、事前に定義された管理者ロールにユーザーを割り当てることによって、多くの一般的な管理タスクに適用される11定義済みのロールを含むことです</span><span class="sxs-lookup"><span data-stu-id="e8040-111">With RBAC, administrative privilege is granted by assigning users to pre-defined administrative roles, including the 11 predefined roles that cover many common administrative tasks.</span></span> <span data-ttu-id="e8040-112">各役割は、その役割のユーザーが実行できる Lync Server 管理シェルコマンドレットの特定のリストに関連付けられています。</span><span class="sxs-lookup"><span data-stu-id="e8040-112">Each role is associated with a specific list of Lync Server Management Shell cmdlets that users in that role are allowed to run.</span></span> <span data-ttu-id="e8040-113">RBAC を使うと、ユーザーに対して、自分のジョブで必要な管理機能のみが与えられる、"最低限の権限" の原則に従うことができます。</span><span class="sxs-lookup"><span data-stu-id="e8040-113">You can use RBAC to follow the principle of "least privilege," in which users are given only the administrative abilities that their jobs require.</span></span> 
   
-<span data-ttu-id="7f291-114">RBAC の役割の詳細についてはにあります。https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx</span><span class="sxs-lookup"><span data-stu-id="7f291-114">More details on RBAC roles can be found at: https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx</span></span>
+<span data-ttu-id="e8040-114">RBAC の役割の詳細については、次のページを参照してください。https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx</span><span class="sxs-lookup"><span data-stu-id="e8040-114">More details on RBAC roles can be found at: https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx</span></span>

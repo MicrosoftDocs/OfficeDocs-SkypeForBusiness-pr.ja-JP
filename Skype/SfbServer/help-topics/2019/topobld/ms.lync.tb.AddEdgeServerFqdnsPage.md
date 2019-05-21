@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerFqdnsPage
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
-description: アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 単一の FQDN の使用を選択しなかった場合は、 &amp; IP アドレスのオプションを選択します] ページの機能、および A の Web 会議エッジ サービスの FQDN を指定することもする必要があります/音声ビデオ エッジ サービスです。
-ms.openlocfilehash: e5cb3d2f6f7c321f60d6987fff7e5f4b7f88a49b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: アクセスエッジサービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 [機能の選択] ページで [単一の&amp; fqdn IP アドレスを使用する] オプションを選択していない場合は、Web 会議エッジサービスと a/V Edge サービスの fqdn も指定する必要があります。
+ms.openlocfilehash: 39f3c1531dc20879f51ef9cfa2550e4838597ee1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889053"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303799"
 ---
-# <a name="add-edge-server-fqdn"></a><span data-ttu-id="e9412-104">エッジ サーバーの FQDN の追加</span><span class="sxs-lookup"><span data-stu-id="e9412-104">Add Edge Server FQDN</span></span>
+# <a name="add-edge-server-fqdn"></a><span data-ttu-id="91adb-104">エッジ サーバーの FQDN の追加</span><span class="sxs-lookup"><span data-stu-id="91adb-104">Add Edge Server FQDN</span></span>
  
-<span data-ttu-id="e9412-105">アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e9412-105">You must specify a fully qualified domain name (FQDN) for the Access Edge service.</span></span> <span data-ttu-id="e9412-106">選択しなかった場合、 **、1 つの FQDN を使用して、 &amp; IP アドレス**オプション**機能の選択**] ページで、A、Web 会議エッジ サービスの FQDN を指定する必要がありますもと音声ビデオ エッジ サービスです。</span><span class="sxs-lookup"><span data-stu-id="e9412-106">If you did not select the **Use a single FQDN &amp; IP address** option on the **Select features** page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service.</span></span>
+<span data-ttu-id="91adb-105">アクセスエッジサービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="91adb-105">You must specify a fully qualified domain name (FQDN) for the Access Edge service.</span></span> <span data-ttu-id="91adb-106">**[機能の選択**] ページで [**単一の&amp; fqdn IP アドレスを使用**する] オプションを選択していない場合は、Web 会議エッジサービスと a/V Edge サービスの fqdn も指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="91adb-106">If you did not select the **Use a single FQDN &amp; IP address** option on the **Select features** page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service.</span></span>
   
-<span data-ttu-id="e9412-107">選択した場合、 **1 つの FQDN を使用して、 &amp; IP アドレス**オプション、エッジ サービスごとに別のポート番号を指定する必要があります (推奨されるポート設定: 444 アクセス エッジのサービス、Web 会議エッジ サービスの場合は、8057 と A の場合は 443/Vエッジ サービスの場合)。</span><span class="sxs-lookup"><span data-stu-id="e9412-107">Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="e9412-108">オプションを選択しなかった場合は、次の 3 つのすべてのサービスの同じポート番号 (443) などを使用できます。</span><span class="sxs-lookup"><span data-stu-id="e9412-108">If you did not select the option, you can use the same port number (such as 443) for all three services.</span></span>
+<span data-ttu-id="91adb-107">また、[単一の FQDN IP アドレスを使用する] オプションを選択した場合、エッジサービスごとに異なるポート番号を指定する必要があります (推奨されるポートの設定 444: アクセスエッジサービスの場合は8057、Web 会議エッジサービスの場合は、a/V の場合は 443)エッジサービス)。</span><span class="sxs-lookup"><span data-stu-id="91adb-107">Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="91adb-108">このオプションを選択しなかった場合は、3つのサービスすべてに同じポート番号 (443 など) を使用できます。</span><span class="sxs-lookup"><span data-stu-id="91adb-108">If you did not select the option, you can use the same port number (such as 443) for all three services.</span></span>
   
 

@@ -1,36 +1,36 @@
 ---
-title: アーカイブおよび監視サーバーを移行します。
+title: アーカイブと監視サーバーの移行
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: レガシ環境でのアーカイブ サーバーと監視サーバーを展開した場合、フロント エンド プールを移行した後、サーバー 2019 のビジネス環境について、Skype でこれらのサーバーを展開できます。 ただし、アーカイブおよび監視機能は、組織にとって重要な場合は、アーカイブ、および機能は、移行プロセス中に使用できるように、移行する前に、Skype をビジネス サーバー 2019 パイロット プールの監視を追加します。
-ms.openlocfilehash: 24dc3e3007fd9a58c23f9c15a31cccc766d45e83
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 従来の環境でアーカイブサーバーと監視サーバーを展開した場合、フロントエンドプールを移行した後で、これらのサーバーを Skype for Business Server 2019 環境に展開できます。 ただし、アーカイブと監視の機能が組織にとって重要である場合は、移行前に Skype for Business Server 2019 パイロットプールにアーカイブと監視を追加して、移行プロセス中に機能が利用できるようにする必要があります。
+ms.openlocfilehash: 94a3d21b9b76d18f63fdf7db53144b1d51deb53c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231645"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298198"
 ---
-# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="73e13-104">アーカイブおよび監視サーバーを移行します。</span><span class="sxs-lookup"><span data-stu-id="73e13-104">Migrating Archiving and Monitoring Servers</span></span>
+# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="ff05d-104">アーカイブと監視サーバーの移行</span><span class="sxs-lookup"><span data-stu-id="ff05d-104">Migrating Archiving and Monitoring Servers</span></span>
 
-<span data-ttu-id="73e13-105">レガシ環境でのアーカイブ サーバーと監視サーバーを展開した場合、フロント エンド プールを移行した後、サーバー 2019 のビジネス環境について、Skype でこれらのサーバーを展開できます。</span><span class="sxs-lookup"><span data-stu-id="73e13-105">If you deployed Archiving Server and Monitoring Server in your legacy environment, you can deploy these servers in your Skype for Business Server 2019 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="73e13-106">ただし、アーカイブおよび監視機能は、組織にとって重要な場合は、アーカイブ、および機能は、移行プロセス中に使用できるように、移行する前に、Skype をビジネス サーバー 2019 パイロット プールの監視を追加します。</span><span class="sxs-lookup"><span data-stu-id="73e13-106">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your Skype for Business Server 2019 pilot pool before you migrate so that the functionality is available during the migration process.</span></span> 
+<span data-ttu-id="ff05d-105">従来の環境でアーカイブサーバーと監視サーバーを展開した場合、フロントエンドプールを移行した後で、これらのサーバーを Skype for Business Server 2019 環境に展開できます。</span><span class="sxs-lookup"><span data-stu-id="ff05d-105">If you deployed Archiving Server and Monitoring Server in your legacy environment, you can deploy these servers in your Skype for Business Server 2019 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="ff05d-106">ただし、アーカイブと監視の機能が組織にとって重要である場合は、移行前に Skype for Business Server 2019 パイロットプールにアーカイブと監視を追加して、移行プロセス中に機能が利用できるようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="ff05d-106">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your Skype for Business Server 2019 pilot pool before you migrate so that the functionality is available during the migration process.</span></span> 
   
-<span data-ttu-id="73e13-107">移行プロセス中に、アーカイブおよび監視の機能をする場合は、次の考慮事項に留意してください。</span><span class="sxs-lookup"><span data-stu-id="73e13-107">If you want archiving and monitoring functionality during the migration process, keep the following considerations in mind:</span></span>
+<span data-ttu-id="ff05d-107">移行プロセス中にアーカイブと監視機能が必要な場合は、次の点に注意してください。</span><span class="sxs-lookup"><span data-stu-id="ff05d-107">If you want archiving and monitoring functionality during the migration process, keep the following considerations in mind:</span></span>
   
-- <span data-ttu-id="73e13-108">データをアーカイブし、監視データに移動されない、Skype サーバー 2019 のビジネス展開をします。</span><span class="sxs-lookup"><span data-stu-id="73e13-108">Archiving data and monitoring data are not moved to the Skype for Business Server 2019 deployment.</span></span> <span data-ttu-id="73e13-109">従来の環境の使用を停止する前にバックアップしたデータを従来の環境でのアクティビティの履歴となります。</span><span class="sxs-lookup"><span data-stu-id="73e13-109">The data you back up prior to decommissioning the legacy environment will be your history of activity in the legacy environment.</span></span>
+- <span data-ttu-id="ff05d-108">データのアーカイブと監視は、Skype for Business Server 2019 の展開には移行されません。</span><span class="sxs-lookup"><span data-stu-id="ff05d-108">Archiving data and monitoring data are not moved to the Skype for Business Server 2019 deployment.</span></span> <span data-ttu-id="ff05d-109">従来の環境を廃止する前にバックアップしたデータは、従来の環境でのアクティビティの履歴となります。</span><span class="sxs-lookup"><span data-stu-id="ff05d-109">The data you back up prior to decommissioning the legacy environment will be your history of activity in the legacy environment.</span></span>
     
-- <span data-ttu-id="73e13-110">アーカイブ サーバーと監視サーバーの従来のバージョンは、レガシーのフロント エンド プールのみ関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="73e13-110">The legacy version of Archiving Server and Monitoring Server can be associated only with a legacy Front End pool.</span></span> <span data-ttu-id="73e13-111">ビジネス サーバー 2019 の Skype は、アーカイブと監視は不要になったサーバーの役割が、Skype のビジネス サーバー 2019 のフロント エンド プールに統合するサービスです。</span><span class="sxs-lookup"><span data-stu-id="73e13-111">In Skype for Business Server 2019, Archiving and Monitoring are no longer server roles, but services integrated into the Skype for Business Server 2019 Front End pool.</span></span>
+- <span data-ttu-id="ff05d-110">古いバージョンのアーカイブサーバーと監視サーバーは、従来のフロントエンドプールにのみ関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="ff05d-110">The legacy version of Archiving Server and Monitoring Server can be associated only with a legacy Front End pool.</span></span> <span data-ttu-id="ff05d-111">Skype for Business Server 2019 では、アーカイブと監視はサーバーの役割ではなくなりましたが、Skype for Business Server 2019 フロントエンドプールに統合されたサービスです。</span><span class="sxs-lookup"><span data-stu-id="ff05d-111">In Skype for Business Server 2019, Archiving and Monitoring are no longer server roles, but services integrated into the Skype for Business Server 2019 Front End pool.</span></span>
     
-- <span data-ttu-id="73e13-112">時間中をレガシ サーバー 2019 のビジネス展開では、Skype の共存しは、従来のプールに所属していたユーザーの古いバージョンのアーカイブ サーバーと監視サーバーがデータを収集します。</span><span class="sxs-lookup"><span data-stu-id="73e13-112">During the time that your legacy and Skype for Business Server 2019 deployments coexist, the legacy version of Archiving Server and Monitoring Server gather data for users homed on legacy pools.</span></span> <span data-ttu-id="73e13-113">アーカイブおよび監視サーバー 2019 のビジネス用の Skype では、ユーザーのデータは、Skype ビジネス サーバー 2019 プールのホームを収集します。</span><span class="sxs-lookup"><span data-stu-id="73e13-113">Archiving and Monitoring in Skype for Business Server 2019 gather data for users homed on Skype for Business Server 2019 pools.</span></span>
+- <span data-ttu-id="ff05d-112">従来の、Skype for Business Server 2019 の展開が共存する間、古いバージョンのアーカイブサーバーと監視サーバーは、従来のプールに所属しているユーザーのデータを収集します。</span><span class="sxs-lookup"><span data-stu-id="ff05d-112">During the time that your legacy and Skype for Business Server 2019 deployments coexist, the legacy version of Archiving Server and Monitoring Server gather data for users homed on legacy pools.</span></span> <span data-ttu-id="ff05d-113">Skype for Business Server 2019 でのアーカイブと監視 Skype for Business Server 2019 プールを使用しているユーザーのデータを収集します。</span><span class="sxs-lookup"><span data-stu-id="ff05d-113">Archiving and Monitoring in Skype for Business Server 2019 gather data for users homed on Skype for Business Server 2019 pools.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="73e13-114">パイロット プール、アーカイブ サーバーの従来のバージョンがユーザーのデータを収集するために引き続き、ビジネス サーバー 2019 の新しい Skype で、従来のエッジ サーバーが置かれている従来のプールを使用して、ビジネスの Skype でのアーカイブもできたら、移行のフェーズでは、2019 のサーバーは、ユーザーのデータは、Skype ビジネス サーバー 2019 プールのホームを収集します。</span><span class="sxs-lookup"><span data-stu-id="73e13-114">During the phase of migration when you are still using your legacy Edge server with the new Skype for Business Server 2019 pilot pool, the legacy version of Archiving Server continues to gather data for users homed on legacy pools and Archiving in Skype for Business Server 2019 gathers data for users homed on Skype for Business Server 2019 pools.</span></span> 
+    > <span data-ttu-id="ff05d-114">新しい Skype for Business Server 2019 パイロットプールで従来のエッジサーバーを使用している場合、移行のフェーズ中に、古いバージョンのアーカイブサーバーでは、従来のプールに所属していて、Skype for Business でアーカイブされているユーザーのデータを収集し続けることができます。サーバー2019は、Skype for Business Server 2019 プールに所属しているユーザーのためにデータを収集します。</span><span class="sxs-lookup"><span data-stu-id="ff05d-114">During the phase of migration when you are still using your legacy Edge server with the new Skype for Business Server 2019 pilot pool, the legacy version of Archiving Server continues to gather data for users homed on legacy pools and Archiving in Skype for Business Server 2019 gathers data for users homed on Skype for Business Server 2019 pools.</span></span> 
   
-- <span data-ttu-id="73e13-115">サード パーティのアーカイブとアーカイブや Skype での監視と連携してソリューションをビジネス サーバー 2019 の監視を使用する場合は、Skype ビジネス サーバー 2019 のサード ・ パーティ製ソリューションと統合する必要がある時期と方法について、製造元に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="73e13-115">If you use a third-party archiving and monitoring solution in conjunction with Archiving and Monitoring in Skype for Business Server 2019, consult with your vendor about when and how you need to integrate the third-party solution with Skype for Business Server 2019.</span></span>
+- <span data-ttu-id="ff05d-115">Skype for Business Server 2019 でのアーカイブと監視に関連して、サードパーティのアーカイブと監視ソリューションを使用している場合は、サードパーティのソリューションを Skype for Business Server 2019 と統合する時期とその方法について、ベンダーにお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="ff05d-115">If you use a third-party archiving and monitoring solution in conjunction with Archiving and Monitoring in Skype for Business Server 2019, consult with your vendor about when and how you need to integrate the third-party solution with Skype for Business Server 2019.</span></span>
     
 
