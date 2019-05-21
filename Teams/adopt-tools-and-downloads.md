@@ -1,7 +1,7 @@
 ---
 title: 採用を推進するためのツール
 ms.reviewer: karuanag
-description: マイクロソフト チームの採用を推進し、他の Office 365 サービスを支援するのにこれらの採用のリソースを使用します。
+description: 以下の導入リソースを使用して、Microsoft Teams およびその他の Office 365 サービスの導入を促進します。
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -23,9 +23,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/11/2019
 ms.locfileid: "33902849"
 ---
-# <a name="tools-for-driving-adoption"></a>採用を推進するためのツール 
+# <a name="tools-for-driving-adoption"></a>導入を推進するためのツール 
 
-サービスの導入計画の各段階をサポートするために以下のツールを使用します。  
+以下のツールを使用して、サービス導入計画の各フェーズをサポートします。  
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -40,8 +40,8 @@ ms.locfileid: "33902849"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>採用プロジェクトの計画</h3>
-                        <p>Jumpstart ファイルが導入計画の計画</p>
+                        <h3>プロジェクト計画を導入する</h3>
+                        <p>導入計画ファイルを使用して計画を作成する</p>
                     </div>
                 </div>
             </div>
@@ -60,8 +60,8 @@ ms.locfileid: "33902849"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>ペルソナの例と作業スタイル</h3>
-                        <p>これらのテンプレートを使用して、社員に重要な点をマップするには<p>
+                        <h3>ペルソナと作業スタイルの例</h3>
+                        <p>これらのテンプレートを使って、社員にとって重要なことをマップする<p>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@ ms.locfileid: "33902849"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>ワーク ストリームを主要なチーム メンバーに割り当てるし、関係者との通信にこのテンプレートを使用してください。</h3>
+                        <h3>このテンプレートを使用して、主要なチームメンバーにワークストリームを割り当て、関係者と通信します。</h3>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@ ms.locfileid: "33902849"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>ライフ quicksheets でこれらの 1 日の従業員を啓発します。</h3>
+                        <h3>従業員にこの日をすばやく対応させる</h3>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@ ms.locfileid: "33902849"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>チャンピオンと ITPros のビデオ リソースの埋め込み</h3>
+                        <h3>エキスパートと It プロフェッショナル向けの組み込みのビデオリソース</h3>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@ ms.locfileid: "33902849"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>マイクロソフト チームは、ヘルプデスクを準備します。</h3>
+                        <h3>Microsoft Teams のヘルプデスクを準備する</h3>
                     </div>
                 </div>
             </div>
@@ -145,11 +145,11 @@ ms.locfileid: "33902849"
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Office 365 のエキスパート プログラム
-Office 365 のエキスパート プログラムは、マイクロソフトのチームとその他の Office 365 サービスの詳細を取得を希望する人々 を支援する無償プログラムです。 ガバナンスから新機能をベスト ・ プラクティスを導入を促進することのすべてのコンポーネントを強調表示する月のコミュニティ呼び出しを使用して[マイクロソフト テクニカル コミュニティ](https://aka.ms/DriveAdoption)でオンライン コミュニティを組み合わせています。 コミュニティへの参加https://aka.ms/O365Championsとは、初期のリリースへのアクセスを取得し、他のお客様からマイクロソフトの専門家から学ぶ。  
+### <a name="office-365-champions-program"></a>Office 365 チャンピオンプログラム
+Office 365 のエキスパートプログラムは、Microsoft Teams やその他の Office 365 サービスをさらに活用したいユーザーを支援する無料プログラムです。 Skype では、 [Microsoft テクニカルコミュニティ](https://aka.ms/DriveAdoption)のオンラインコミュニティを、ガバナンスからベストプラクティスへの導入のすべての要素を強調して、新機能を提供しています。 Skype のコミュニティにhttps://aka.ms/O365Champions参加して、早期リリースへのアクセス、他のお客様からの意見、Microsoft の専門家からのご意見をお寄せください。  
 
-### <a name="teams-adoption-guide"></a>チーム導入ガイド
-チェック アウトの[チームを採用しました](https://aka.ms/teamstoolkit)に役立つオンライン ガイドでは、社内のチームを展開できます。 多くのダウンロード可能なツール、テンプレート、およびチーム採用旅にするための他のリソースが含まれています。
+### <a name="teams-adoption-guide"></a>Teams の導入ガイド
+[Teams の導入 flipbook](https://aka.ms/teamstoolkit)を参照してください。このガイドは、社内のチームをロールアウトするのに役立ちます。 このツールには、多くのダウンロード可能なツール、テンプレート、その他のリソースが含まれており、チームの導入過程を進めるのに役立ちます。
 
-### <a name="teams-customer-success-kit"></a>チーム顧客の成功キット
-[チーム顧客の成功のキット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)には、チームを組織内に展開するためのツールが用意されています。 お知らせ、チラシ ポスター、カウント ダウン、および & のヒントとテクニックの電子メール テンプレートが含まれています。 チーム リーダーと IT 管理者のための入門ガイドも含まれています。
+### <a name="teams-customer-success-kit"></a>Teams のカスタマーサクセスキット
+[Teams のカスタマーサクセスキット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)には、組織内のチームをロールアウトするためのツールが用意されています。 これには、お知らせ、チラシポスター、カウントダウン、ヒントの & のメールテンプレートが含まれています。 また、チームリーダーと IT 管理者向けの概要ガイドも含まれています。

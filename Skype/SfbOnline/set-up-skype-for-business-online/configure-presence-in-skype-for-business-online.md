@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,44 +19,44 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: 5c8d30106397d18957c7866d9b4961cfa1409f83
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a22606beacd03bfefda2b3080c2ee345ccfef2fa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237748"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285326"
 ---
-# <a name="configure-presence-in-skype-for-business-online"></a><span data-ttu-id="449f2-103">Skype for Business Online でプレゼンスを設定する</span><span class="sxs-lookup"><span data-stu-id="449f2-103">Configure presence in Skype for Business Online</span></span>
+# <a name="configure-presence-in-skype-for-business-online"></a><span data-ttu-id="6e901-103">Skype for Business Online でプレゼンスを設定する</span><span class="sxs-lookup"><span data-stu-id="6e901-103">Configure presence in Skype for Business Online</span></span>
 
-<span data-ttu-id="449f2-104">既定に、そのユーザーがオンラインかどうかビジネスの Skype を使用して、組織内のユーザーの 1 つと通信するすべてのユーザーも表示できます。</span><span class="sxs-lookup"><span data-stu-id="449f2-104">By default, anyone who can communicate with one of the people in your organization using Skype for Business can also see whether that person is online.</span></span> <span data-ttu-id="449f2-105">ビジネス用の Skype は、かどうか、ユーザーはオンラインで会議中、オフライン、または他のインジケーターを示しています。</span><span class="sxs-lookup"><span data-stu-id="449f2-105">Skype for Business shows whether a person is available online, in a meeting, offline, or another indicator.</span></span>
+<span data-ttu-id="6e901-104">既定では、Skype for Business を使用して組織内のいずれかのユーザーと通信できるユーザーは誰でも、そのユーザーがオンラインかどうかを確認することができます。</span><span class="sxs-lookup"><span data-stu-id="6e901-104">By default, anyone who can communicate with one of the people in your organization using Skype for Business can also see whether that person is online.</span></span> <span data-ttu-id="6e901-105">Skype for Business では、ユーザーがオンライン、会議、オフライン、または別のインジケーターであるかどうかが表示されます。</span><span class="sxs-lookup"><span data-stu-id="6e901-105">Skype for Business shows whether a person is available online, in a meeting, offline, or another indicator.</span></span>
 
-![ビジネス用の Skype での相手のオンライン状態の例です。](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
+![Skype for Business でのユーザーのオンライン状態の例。](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
 
-<span data-ttu-id="449f2-107">すべてのユーザー、ビジネス**[管理](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** ビジネスの Skype でオンライン サイトの閲覧対象者を選択できます。</span><span class="sxs-lookup"><span data-stu-id="449f2-107">As the **[admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for everyone in your business, you can choose who sees their online presence in Skype for Business.</span></span>
+<span data-ttu-id="6e901-107">組織内のすべてのユーザーの**[管理者](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** として、Skype for business でオンラインプレゼンスを表示できるユーザーを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="6e901-107">As the **[admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for everyone in your business, you can choose who sees their online presence in Skype for Business.</span></span>
 
-<span data-ttu-id="449f2-108">![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**</span><span class="sxs-lookup"><span data-stu-id="449f2-108">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="6e901-108">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**</span><span class="sxs-lookup"><span data-stu-id="6e901-108">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="449f2-109">**Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype**です。</span><span class="sxs-lookup"><span data-stu-id="449f2-109">Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.</span></span>
+1. <span data-ttu-id="6e901-109">**Office 365 管理センター** > **管理** > センター**の Skype for business**に移動します。</span><span class="sxs-lookup"><span data-stu-id="6e901-109">Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.</span></span>
 
-2. <span data-ttu-id="449f2-110">**ビジネス管理センターの Skype**では、**組織**を選択します。</span><span class="sxs-lookup"><span data-stu-id="449f2-110">In the **Skype for Business admin center**, choose **organization**.</span></span>
+2. <span data-ttu-id="6e901-110">**Skype For business 管理センター**で、[**組織**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="6e901-110">In the **Skype for Business admin center**, choose **organization**.</span></span>
 
-3. <span data-ttu-id="449f2-111">[**プレゼンス プライバシー モード**] で、次の設定のいずれかを選択し、**保存**します。</span><span class="sxs-lookup"><span data-stu-id="449f2-111">Under **presence privacy mode**, select one of the following settings, and then choose **Save**.</span></span>
+3. <span data-ttu-id="6e901-111">[**プレゼンスプライバシーモード**] で、次の設定のいずれかを選択し、[**保存**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="6e901-111">Under **presence privacy mode**, select one of the following settings, and then choose **Save**.</span></span>
 
-|<span data-ttu-id="449f2-112">**設定**</span><span class="sxs-lookup"><span data-stu-id="449f2-112">**Setting**</span></span>|<span data-ttu-id="449f2-113">**ユーザーのプレゼンスを表示できるユーザー**</span><span class="sxs-lookup"><span data-stu-id="449f2-113">**Who can view a user's presence**</span></span>|
+|<span data-ttu-id="6e901-112">**]**</span><span class="sxs-lookup"><span data-stu-id="6e901-112">**Setting**</span></span>|<span data-ttu-id="6e901-113">**ユーザーのプレゼンスを表示できるユーザー**</span><span class="sxs-lookup"><span data-stu-id="6e901-113">**Who can view a user's presence**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="449f2-114">**プレゼンス情報を自動的に表示する**</span><span class="sxs-lookup"><span data-stu-id="449f2-114">**Automatically display presence information**</span></span> <br/> |<span data-ttu-id="449f2-115">人の**外部**または**受信拒否**リストに追加されていない者、ビジネスでのビジネス ユーザーは、Skype をそのユーザーのオンライン プレゼンスを表示することができなくなります。</span><span class="sxs-lookup"><span data-stu-id="449f2-115">Any Skype for Business user in your business who has not been added to a person's **External** or **Blocked** list will be able to see that person's online presence.</span></span> <br/> |
-|<span data-ttu-id="449f2-116">**プレゼンス情報をユーザーの連絡先にのみ表示します。**</span><span class="sxs-lookup"><span data-stu-id="449f2-116">**Display presence information only to a user's contacts**</span></span> <br/> |<span data-ttu-id="449f2-117">**外部**または**受信拒否**リストに追加していないユーザー個人の連絡先の一覧にすべてのユーザー。</span><span class="sxs-lookup"><span data-stu-id="449f2-117">Anyone in a person's Contacts list who they have not added to their **External** or **Blocked** list.</span></span> <br/> <span data-ttu-id="449f2-118">個人が、Skype をビジネス アプリケーション用の既定の設定をオーバーライドできます:**設定** > **ツール** > **のオプション**です。</span><span class="sxs-lookup"><span data-stu-id="449f2-118">Individuals can override your default settings in their Skype for Business app: **Settings** > **Tools** > **Options**.</span></span> <br/> |
+|<span data-ttu-id="6e901-114">**プレゼンス情報を自動的に表示する**</span><span class="sxs-lookup"><span data-stu-id="6e901-114">**Automatically display presence information**</span></span> <br/> |<span data-ttu-id="6e901-115">ユーザーの**外部**または**ブロック**リストに追加されていない会社の Skype for business ユーザーは、そのユーザーのオンラインプレゼンス情報を表示できます。</span><span class="sxs-lookup"><span data-stu-id="6e901-115">Any Skype for Business user in your business who has not been added to a person's **External** or **Blocked** list will be able to see that person's online presence.</span></span> <br/> |
+|<span data-ttu-id="6e901-116">**プレゼンス情報をユーザーの連絡先にのみ表示する**</span><span class="sxs-lookup"><span data-stu-id="6e901-116">**Display presence information only to a user's contacts**</span></span> <br/> |<span data-ttu-id="6e901-117">他のユーザーの連絡先リストに含まれているすべてのユーザーが、**外部**または**ブロック**されたリストに追加されていない。</span><span class="sxs-lookup"><span data-stu-id="6e901-117">Anyone in a person's Contacts list who they have not added to their **External** or **Blocked** list.</span></span> <br/> <span data-ttu-id="6e901-118">ユーザーは、Skype for business アプリの既定の設定を上書きすることができます。 [**設定** > **ツール** > **] オプション**。</span><span class="sxs-lookup"><span data-stu-id="6e901-118">Individuals can override your default settings in their Skype for Business app: **Settings** > **Tools** > **Options**.</span></span> <br/> |
 
-<span data-ttu-id="449f2-119">ビジネス用の Skype で、ユーザーが変更できる方法については、これらの記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="449f2-119">For information about what your users can change in Skype for Business, see these articles:</span></span>
+<span data-ttu-id="6e901-119">Skype for Business でユーザーが変更できる操作については、次の記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6e901-119">For information about what your users can change in Skype for Business, see these articles:</span></span>
 
-- [<span data-ttu-id="449f2-120">ビジネス用の Skype で自分のプレゼンス情報へのアクセスの制御</span><span class="sxs-lookup"><span data-stu-id="449f2-120">Control access to your presence information in Skype for Business</span></span>](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [<span data-ttu-id="6e901-120">Skype for Business のプレゼンス情報へのアクセスを制御する</span><span class="sxs-lookup"><span data-stu-id="6e901-120">Control access to your presence information in Skype for Business</span></span>](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [<span data-ttu-id="449f2-121">ビジネス用の Skype のステータス オプションを設定します。</span><span class="sxs-lookup"><span data-stu-id="449f2-121">Set Status options in Skype for Business</span></span>](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [<span data-ttu-id="6e901-121">Skype for Business のステータスオプションを設定する</span><span class="sxs-lookup"><span data-stu-id="6e901-121">Set Status options in Skype for Business</span></span>](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a><span data-ttu-id="449f2-122">関連トピック</span><span class="sxs-lookup"><span data-stu-id="449f2-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6e901-122">関連トピック</span><span class="sxs-lookup"><span data-stu-id="6e901-122">Related topics</span></span>
 
-[<span data-ttu-id="449f2-123">Skype for Business Online のセットアップ</span><span class="sxs-lookup"><span data-stu-id="449f2-123">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+[<span data-ttu-id="6e901-123">Skype for Business Online のセットアップ</span><span class="sxs-lookup"><span data-stu-id="6e901-123">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="449f2-124">Skype for Business ユーザーが Skype の連絡先を追加できるようにする</span><span class="sxs-lookup"><span data-stu-id="449f2-124">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="6e901-124">Skype for Business ユーザーが Skype の連絡先を追加できるようにする</span><span class="sxs-lookup"><span data-stu-id="6e901-124">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
 

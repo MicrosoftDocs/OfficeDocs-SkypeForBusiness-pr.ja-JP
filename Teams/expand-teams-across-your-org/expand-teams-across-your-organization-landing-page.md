@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams を組織全体で展開する
-description: 組織全体にわたってチームを最大限に活用するには、これらのリソースを使用します。
+description: 組織全体でチームを最大限に活用するには、これらのリソースを使用します。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin

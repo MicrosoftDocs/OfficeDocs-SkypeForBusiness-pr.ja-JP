@@ -7,7 +7,7 @@ ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: チームやビジネス用の Skype でクラウドの音声機能を実装する際、ユーザーにメールを送信するのにには、テンプレートを使用します。
+description: チームまたは Skype for Business でクラウドボイス機能を導入するときに、テンプレートを使用してユーザーにメールを送信します。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -22,21 +22,21 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/11/2019
 ms.locfileid: "33898661"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a><span data-ttu-id="31a39-103">新しいオンラインの電話システムのユーザーの導入を容易にします。</span><span class="sxs-lookup"><span data-stu-id="31a39-103">Facilitate user adoption of your new online phone system</span></span>
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a><span data-ttu-id="7d1f6-103">新しいオンライン電話システムのユーザーの導入を容易にする</span><span class="sxs-lookup"><span data-stu-id="7d1f6-103">Facilitate user adoption of your new online phone system</span></span>
 
-<span data-ttu-id="31a39-104">電話は、ユーザーの生存線を指定できます。</span><span class="sxs-lookup"><span data-stu-id="31a39-104">A phone can be a user’s lifeline.</span></span> <span data-ttu-id="31a39-105">従来の電話システムから、オンラインの電話システムは、ユーザーの作業方法の変更は、生産性に悪影響を及ぼすに切り替えます。</span><span class="sxs-lookup"><span data-stu-id="31a39-105">Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity.</span></span> <span data-ttu-id="31a39-106">通知、ガイド、およびこの変更によってユーザーをサポートできます好ましいユーザー環境を確保し、投資利益率を最大化するために時間をかけています。</span><span class="sxs-lookup"><span data-stu-id="31a39-106">Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.</span></span>
+<span data-ttu-id="7d1f6-104">電話はユーザーの生存線にすることができます。</span><span class="sxs-lookup"><span data-stu-id="7d1f6-104">A phone can be a user’s lifeline.</span></span> <span data-ttu-id="7d1f6-105">従来の電話システムからオンライン電話システムに切り替えることは、ユーザーが作業する方法の大幅な変更を意味し、生産性に悪影響を与える可能性があります。</span><span class="sxs-lookup"><span data-stu-id="7d1f6-105">Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity.</span></span> <span data-ttu-id="7d1f6-106">この変更によってユーザーの通知、ガイド、サポートを行うことができます。これにより、ユーザーエクスペリエンスを向上させ、投資収益率を最大限に高めることができます。</span><span class="sxs-lookup"><span data-stu-id="7d1f6-106">Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.</span></span>
 
-<span data-ttu-id="31a39-107">この資料には、新しい電話システムのユーザーを通知するためにカスタマイズ可能な電子メール テンプレートが含まれています。</span><span class="sxs-lookup"><span data-stu-id="31a39-107">This article contains customizable email templates to help inform users about their new phone system.</span></span> <span data-ttu-id="31a39-108">カスタマイズし、特定のボイスの展開に合わせて自動的に適切な電子メールを送信します。</span><span class="sxs-lookup"><span data-stu-id="31a39-108">Customize and send the appropriate emails to align with your specific voice deployment.</span></span> <span data-ttu-id="31a39-109">簡単なパーソナル化のセクションを示すために角かっこを使用しましたが、ユーザーに最も関連するお知らせを確認するのには組織に固有のメッセージを追加することをお勧めです。</span><span class="sxs-lookup"><span data-stu-id="31a39-109">We’ve used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.</span></span> <span data-ttu-id="31a39-110">展開に該当する場合、「Skype ビジネス」で「チーム」へすべての参照を置き換える</span><span class="sxs-lookup"><span data-stu-id="31a39-110">If applicable for your deployment, replace all references to “Teams” with “Skype for Business.”</span></span>
+<span data-ttu-id="7d1f6-107">この記事には、新しい電話システムについてユーザーに通知するためのカスタマイズ可能なメールテンプレートが含まれています。</span><span class="sxs-lookup"><span data-stu-id="7d1f6-107">This article contains customizable email templates to help inform users about their new phone system.</span></span> <span data-ttu-id="7d1f6-108">特定の音声展開に合わせて、適切なメールをカスタマイズして送信します。</span><span class="sxs-lookup"><span data-stu-id="7d1f6-108">Customize and send the appropriate emails to align with your specific voice deployment.</span></span> <span data-ttu-id="7d1f6-109">簡単にカスタマイズできるセクションを示すために、かっこを使用しましたが、ユーザーにとって最も関連性の高いお知らせとなるように、組織固有のメッセージを追加することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7d1f6-109">We’ve used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.</span></span> <span data-ttu-id="7d1f6-110">展開に該当する場合は、"Teams" へのすべての参照を "Skype for Business" に置き換えます。</span><span class="sxs-lookup"><span data-stu-id="7d1f6-110">If applicable for your deployment, replace all references to “Teams” with “Skype for Business.”</span></span>
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a><span data-ttu-id="31a39-111">番号 1 を電子メールで送信: 送信する開始する前に 3 週間</span><span class="sxs-lookup"><span data-stu-id="31a39-111">Email number 1: Send three weeks before launch</span></span>
+## <a name="email-number-1-send-three-weeks-before-launch"></a><span data-ttu-id="7d1f6-111">メール番号 1: 起動する3週間前に送信する</span><span class="sxs-lookup"><span data-stu-id="7d1f6-111">Email number 1: Send three weeks before launch</span></span>
 
-<span data-ttu-id="31a39-112">件名:</span><span class="sxs-lookup"><span data-stu-id="31a39-112">Subject line:</span></span>
+<span data-ttu-id="7d1f6-112">件名行:</span><span class="sxs-lookup"><span data-stu-id="7d1f6-112">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-<span data-ttu-id="31a39-113">電子メールの本文:</span><span class="sxs-lookup"><span data-stu-id="31a39-113">Body of email:</span></span>
+<span data-ttu-id="7d1f6-113">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="7d1f6-113">Body of email:</span></span>
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -93,15 +93,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a><span data-ttu-id="31a39-114">電子メールの数 2: 起動する前に 1 週間</span><span class="sxs-lookup"><span data-stu-id="31a39-114">Email number 2: Send one week before launch</span></span>
+## <a name="email-number-2-send-one-week-before-launch"></a><span data-ttu-id="7d1f6-114">メール番号 2: 起動前に1週間送信する</span><span class="sxs-lookup"><span data-stu-id="7d1f6-114">Email number 2: Send one week before launch</span></span>
 
-<span data-ttu-id="31a39-115">件名:</span><span class="sxs-lookup"><span data-stu-id="31a39-115">Subject line:</span></span>
+<span data-ttu-id="7d1f6-115">件名行:</span><span class="sxs-lookup"><span data-stu-id="7d1f6-115">Subject line:</span></span>
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-<span data-ttu-id="31a39-116">電子メールの本文:</span><span class="sxs-lookup"><span data-stu-id="31a39-116">Body of email:</span></span>
+<span data-ttu-id="7d1f6-116">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="7d1f6-116">Body of email:</span></span>
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -137,15 +137,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a><span data-ttu-id="31a39-117">番号 3 を電子メールで送信: 発表日に送信</span><span class="sxs-lookup"><span data-stu-id="31a39-117">Email number 3: Send on launch day</span></span>
+## <a name="email-number-3-send-on-launch-day"></a><span data-ttu-id="7d1f6-117">メール番号 3: 起動日に送信</span><span class="sxs-lookup"><span data-stu-id="7d1f6-117">Email number 3: Send on launch day</span></span>
 
-<span data-ttu-id="31a39-118">件名:</span><span class="sxs-lookup"><span data-stu-id="31a39-118">Subject line:</span></span>
+<span data-ttu-id="7d1f6-118">件名行:</span><span class="sxs-lookup"><span data-stu-id="7d1f6-118">Subject line:</span></span>
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-<span data-ttu-id="31a39-119">電子メールの本文:</span><span class="sxs-lookup"><span data-stu-id="31a39-119">Body of email:</span></span>
+<span data-ttu-id="7d1f6-119">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="7d1f6-119">Body of email:</span></span>
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -174,15 +174,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a><span data-ttu-id="31a39-120">4 の番号を電子メールで送信: 発表から 2 週間以内に送信</span><span class="sxs-lookup"><span data-stu-id="31a39-120">Email number 4: Send two weeks after launch</span></span>
+## <a name="email-number-4-send-two-weeks-after-launch"></a><span data-ttu-id="7d1f6-120">メール番号 4: 起動後に2週間分送信する</span><span class="sxs-lookup"><span data-stu-id="7d1f6-120">Email number 4: Send two weeks after launch</span></span>
 
-<span data-ttu-id="31a39-121">件名:</span><span class="sxs-lookup"><span data-stu-id="31a39-121">Subject line:</span></span>
+<span data-ttu-id="7d1f6-121">件名行:</span><span class="sxs-lookup"><span data-stu-id="7d1f6-121">Subject line:</span></span>
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-<span data-ttu-id="31a39-122">電子メールの本文:</span><span class="sxs-lookup"><span data-stu-id="31a39-122">Body of email:</span></span>
+<span data-ttu-id="7d1f6-122">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="7d1f6-122">Body of email:</span></span>
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

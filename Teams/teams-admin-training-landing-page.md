@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の管理者トレーニング
 ms.reviewer: ''
-description: トレーニングの組織でマイクロソフトのチームを管理する必要があります。
+description: 組織で Microsoft Teams を管理するために必要なトレーニングを受ける
 author: lanachin
 manager: serdars
 ms.date: 01/22/2018
@@ -38,7 +38,7 @@ ms.locfileid: "33896243"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>チームの新規: クラスルーム ・ トレーニング</h3>
+                        <h3>新規: チーム向けのインストラクター主導のトレーニング</h3>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@ ms.locfileid: "33896243"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>記事</h3>
+                        <h3>紹介</h3>
                         <p><a 
                         href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">組織内の電話システムの設定</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">電話会議とのサードパーティの統合</a></p>

@@ -4,47 +4,47 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: '概要: は、ユーザー サービスの一部を取得するユーザーの操作について説明します。 ユーザー サービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: da07290582c6ccd0ca4f8f331d22e1b51e124a6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: ユーザーサービスの一部であるユーザーの取得操作について説明します。 ユーザーサービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: 6c38bb2db2bef1a21dfc5c4791de7a163c57ff5f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930666"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274598"
 ---
-# <a name="get-user"></a><span data-ttu-id="d61f2-105">ユーザーの取得</span><span class="sxs-lookup"><span data-stu-id="d61f2-105">Get User</span></span>
+# <a name="get-user"></a><span data-ttu-id="55480-105">ユーザーの取得</span><span class="sxs-lookup"><span data-stu-id="55480-105">Get User</span></span>
  
-<span data-ttu-id="d61f2-106">**の概要:** ユーザー サービスの一部を取得するユーザーの操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="d61f2-106">**Summary:** Learn about the Get User operation, which is part of the User Service.</span></span> <span data-ttu-id="d61f2-107">ユーザー サービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="d61f2-107">The User Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="d61f2-108">通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。</span><span class="sxs-lookup"><span data-stu-id="d61f2-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="55480-106">**概要:** ユーザーサービスの一部であるユーザーの取得操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="55480-106">**Summary:** Learn about the Get User operation, which is part of the User Service.</span></span> <span data-ttu-id="55480-107">ユーザーサービスは、通話品質ダッシュボードのリポジトリ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="55480-107">The User Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="55480-108">通話品質ダッシュボードは、Skype for Business Server のツールです。</span><span class="sxs-lookup"><span data-stu-id="55480-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="d61f2-109">ユーザーの取得操作は、リポジトリ api の呼び出し品質のダッシュ ボードのユーザー ・ サービスの一部です。</span><span class="sxs-lookup"><span data-stu-id="d61f2-109">The Get Users operation is part of the User Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="55480-109">ユーザーの取得操作は、ユーザーサービスの一部であり、通話品質ダッシュボードのリポジトリ API に含まれています。</span><span class="sxs-lookup"><span data-stu-id="55480-109">The Get Users operation is part of the User Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="get-user"></a><span data-ttu-id="d61f2-110">ユーザーの取得</span><span class="sxs-lookup"><span data-stu-id="d61f2-110">Get User</span></span>
+## <a name="get-user"></a><span data-ttu-id="55480-110">ユーザーの取得</span><span class="sxs-lookup"><span data-stu-id="55480-110">Get User</span></span>
 
-<span data-ttu-id="d61f2-111">リポジトリからユーザを返します。 ユーザー レコードを取得します。</span><span class="sxs-lookup"><span data-stu-id="d61f2-111">Get User returns a user record from the repository.</span></span>
+<span data-ttu-id="55480-111">ユーザー Get は、リポジトリからユーザーレコードを返します。</span><span class="sxs-lookup"><span data-stu-id="55480-111">Get User returns a user record from the repository.</span></span>
   
-|<span data-ttu-id="d61f2-112">**メソッド**</span><span class="sxs-lookup"><span data-stu-id="d61f2-112">**Method**</span></span>|<span data-ttu-id="d61f2-113">**URI を要求します。**</span><span class="sxs-lookup"><span data-stu-id="d61f2-113">**Request URI**</span></span>|<span data-ttu-id="d61f2-114">**HTTP のバージョン**</span><span class="sxs-lookup"><span data-stu-id="d61f2-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="55480-112">**メソッド**</span><span class="sxs-lookup"><span data-stu-id="55480-112">**Method**</span></span>|<span data-ttu-id="55480-113">**要求 URI**</span><span class="sxs-lookup"><span data-stu-id="55480-113">**Request URI**</span></span>|<span data-ttu-id="55480-114">**HTTP バージョン**</span><span class="sxs-lookup"><span data-stu-id="55480-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="d61f2-115">取得</span><span class="sxs-lookup"><span data-stu-id="d61f2-115">GET</span></span>  <br/> |<span data-ttu-id="d61f2-116">https://\<ポータル\>/QoERepositoryService/リポジトリとユーザー/{ユーザー Id}</span><span class="sxs-lookup"><span data-stu-id="d61f2-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}</span></span>  <br/> |<span data-ttu-id="d61f2-117">HTTP 1.1/</span><span class="sxs-lookup"><span data-stu-id="d61f2-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="55480-115">取得</span><span class="sxs-lookup"><span data-stu-id="55480-115">GET</span></span>  <br/> |<span data-ttu-id="55480-116">https://\<ポータル\>の/QoERepositoryService/repository/user/{userId}</span><span class="sxs-lookup"><span data-stu-id="55480-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}</span></span>  <br/> |<span data-ttu-id="55480-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="55480-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="d61f2-118">**URI パラメーター**を [なし] です。</span><span class="sxs-lookup"><span data-stu-id="d61f2-118">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="55480-118">**URI パラメーター** -なし。</span><span class="sxs-lookup"><span data-stu-id="55480-118">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="d61f2-119">**要求ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="d61f2-119">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="55480-119">**ヘッダーを要求**する-追加のヘッダーは不要です。</span><span class="sxs-lookup"><span data-stu-id="55480-119">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="d61f2-120">**リクエストの本文**の [なし] です。</span><span class="sxs-lookup"><span data-stu-id="d61f2-120">**Request Body** - None.</span></span>
+ <span data-ttu-id="55480-120">**要求本文**-なし。</span><span class="sxs-lookup"><span data-stu-id="55480-120">**Request Body** - None.</span></span>
   
- <span data-ttu-id="d61f2-121">**応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="d61f2-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="55480-121">**応答**-応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。</span><span class="sxs-lookup"><span data-stu-id="55480-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="d61f2-122">**ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。</span><span class="sxs-lookup"><span data-stu-id="d61f2-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="d61f2-123">特定のユーザ ID が見つからない場合は、ステータス コード 404 (見つかりません) を返します。</span><span class="sxs-lookup"><span data-stu-id="d61f2-123">If a specified user ID is not found, it returns status code 404 (Not Found).</span></span>
+ <span data-ttu-id="55480-122">**状態コード**-正常に動作している操作は、状態コード 200 (OK) を返します。</span><span class="sxs-lookup"><span data-stu-id="55480-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="55480-123">指定したユーザー ID が見つからない場合は、状態コード 404 (見つかりません) が返されます。</span><span class="sxs-lookup"><span data-stu-id="55480-123">If a specified user ID is not found, it returns status code 404 (Not Found).</span></span>
   
- <span data-ttu-id="d61f2-124">**応答ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="d61f2-124">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="55480-124">**応答ヘッダー** -ヘッダーは追加されません。</span><span class="sxs-lookup"><span data-stu-id="55480-124">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="d61f2-125">**応答本体**の JSON のサンプル応答の内容を次に示します。</span><span class="sxs-lookup"><span data-stu-id="d61f2-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
+ <span data-ttu-id="55480-125">**応答本文**-以下は JSON のサンプル応答ペイロードです。</span><span class="sxs-lookup"><span data-stu-id="55480-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 ```
 {
@@ -54,13 +54,13 @@ ms.locfileid: "33930666"
 }
 ```
 
- <span data-ttu-id="d61f2-126">*ユーザー Id*がユーザーの ID。</span><span class="sxs-lookup"><span data-stu-id="d61f2-126">*userId*  - ID of the user.</span></span>
+ <span data-ttu-id="55480-126">*userId* -ユーザーの id です。</span><span class="sxs-lookup"><span data-stu-id="55480-126">*userId*  - ID of the user.</span></span>
   
- <span data-ttu-id="d61f2-127">*loginName* - 通常のユーザーの外部ユーザー id です。</span><span class="sxs-lookup"><span data-stu-id="d61f2-127">*loginName*  - External user identification for regular users.</span></span> <span data-ttu-id="d61f2-128">ユーザーの認証に Windows 認証を使用する場合、この可能性がありますユーザーの FQDN です。</span><span class="sxs-lookup"><span data-stu-id="d61f2-128">If Windows Authentication is used for authenticating users, then this may be a FQDN of the user.</span></span>
+ <span data-ttu-id="55480-127">*ログイン*情報-通常ユーザーの外部ユーザー id。</span><span class="sxs-lookup"><span data-stu-id="55480-127">*loginName*  - External user identification for regular users.</span></span> <span data-ttu-id="55480-128">ユーザーの認証に Windows 認証が使用されている場合は、ユーザーの FQDN である可能性があります。</span><span class="sxs-lookup"><span data-stu-id="55480-128">If Windows Authentication is used for authenticating users, then this may be a FQDN of the user.</span></span>
   
- <span data-ttu-id="d61f2-129">*defaultItemId* - このユーザーの既定の項目の ID です。</span><span class="sxs-lookup"><span data-stu-id="d61f2-129">*defaultItemId*  - ID of the default Item for this user.</span></span> <span data-ttu-id="d61f2-130">既定の項目は、ユーザーに関連付けられている最上位のアイテムです。</span><span class="sxs-lookup"><span data-stu-id="d61f2-130">The default Item is the top-most Item that is associated to the user.</span></span> <span data-ttu-id="d61f2-131">このユーザーが所有する他のすべての項目は、既定アイテムから移動できます。</span><span class="sxs-lookup"><span data-stu-id="d61f2-131">All other Items this user owns can be navigated from the default Item.</span></span>
+ <span data-ttu-id="55480-129">*defaultItemId* -このユーザーの既定のアイテムの ID です。</span><span class="sxs-lookup"><span data-stu-id="55480-129">*defaultItemId*  - ID of the default Item for this user.</span></span> <span data-ttu-id="55480-130">既定のアイテムは、ユーザーに関連付けられている最上位のアイテムです。</span><span class="sxs-lookup"><span data-stu-id="55480-130">The default Item is the top-most Item that is associated to the user.</span></span> <span data-ttu-id="55480-131">このユーザーが所有する他のすべてのアイテムは、既定のアイテムから移動することができます。</span><span class="sxs-lookup"><span data-stu-id="55480-131">All other Items this user owns can be navigated from the default Item.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="d61f2-132">装置、`defaultItemId`の値を既定の項目の詳細を取得する項目の取得操作。</span><span class="sxs-lookup"><span data-stu-id="d61f2-132">Supply the  `defaultItemId` value to Get Item operation to retrieve the details of the default Item.</span></span>
+> <span data-ttu-id="55480-132">項目の`defaultItemId`操作を取得する値を指定して、既定の項目の詳細を取得します。</span><span class="sxs-lookup"><span data-stu-id="55480-132">Supply the  `defaultItemId` value to Get Item operation to retrieve the details of the default Item.</span></span>
   
 

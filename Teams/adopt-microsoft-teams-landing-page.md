@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams を導入する
 ms.reviewer: karuanag
-description: 計画およびマイクロソフトのチームを組織に展開するためには、これらのリソースの導入を使用します。
+description: 以下の導入リソースを使用して、組織内での Microsoft Teams の計画と展開を支援します。
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -25,7 +25,7 @@ ms.locfileid: "33902726"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
-あなたがスモール ビジネスの場合、またはチャットを開始するチームを展開する場合は、チームの & チャネル、および会議を使用して、規範的な[を取得ガイダンスを開始](get-started-with-teams-quick-start.md)、すばやく準備して実行するために設計されていますが。 ハイブリッドと大規模な組織の場合またはオンプレミス Skype のビジネスの構成で起動することができます (Office 365 のプランや電話システムを呼び出すこと) などの音声機能を展開する場合は、または、はじめにガイダンスでは、追加する必要があります**採用ガイダンスのより深いレベル**で、下のガイダンスです。
+小規模ビジネスの場合、またはチャット、teams & チャネル、会議などを始めとするチームをロールアウトする場合は、この[ガイダンス](get-started-with-teams-quick-start.md)を使用して、すぐに作業を開始できるように設計されています。 ハイブリッドまたはオンプレミスの Skype for Business の構成を使用している大規模な組織の場合、または音声機能 (Office 365 通話プランや電話システムなど) を展開する場合は、「はじめに」のガイドをご覧ください。以下のガイダンスを**** 参照してください。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -40,7 +40,7 @@ ms.locfileid: "33902726"
                     </div>
                     <div class="cardText">
                         <h3>クイック スタート</h3>
-                        <p>最も一般的な導入シナリオを手順します。</p>
+                        <p>最も一般的な導入シナリオについて説明します。</p>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ ms.locfileid: "33902726"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>最初のチームを計画します。</h3>
+                        <h3>最初のチームを計画する</h3>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@ ms.locfileid: "33902726"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>エキスパートを支援します。</h3>
+                        <h3>エキスパートを支援する</h3>
                     </div>
                 </div>
             </div>
@@ -140,8 +140,8 @@ ms.locfileid: "33902726"
 </ul>
 
 
-### <a name="deeper-adoption-guidance"></a>深いレベルの導入ガイド
-導入計画は、環境によって、複雑なものに簡単にすることはできます。 大規模な展開では、組織には、チームにスムーズに移行することを確認するのには、次のガイダンスをステップ実行します。
+### <a name="deeper-adoption-guidance"></a>さらに導入のガイダンス
+導入計画は、環境によっては単純に複雑にすることができます。 大規模な展開の場合は、次のガイダンスを実行して、組織のチームへのスムーズな移行が確実に行われるようにします。
 
 <ul class="panelContent cardsF">
     <li>
@@ -154,11 +154,11 @@ ms.locfileid: "33902726"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">開始</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">始点</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">はじめに</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">チームとチャネルについて理解する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">最初のチームを作成する</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">文化、組織の導入準備を評価します。</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">文化と組織の準備の評価</a></p>
                     </div>
                 </div>
             </div>
@@ -174,11 +174,11 @@ ms.locfileid: "33902726"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">実験</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">シミュレーション</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">主導者プログラムを作成する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">クイック スタートのガバナンス</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">使用例を定義する</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">オンボードの早期導入とフィードバックの収集</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">早い段階で採用され、フィードバックを収集する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">参加サポート</a></p>
                     </div>
                 </div>
@@ -195,8 +195,8 @@ ms.locfileid: "33902726"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">スケール</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">結果と成功を定義します。</a></p>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">尺度</a></h3>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">結果と成功の定義</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">フィードバックとレポートを最適化する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">啓発とトレーニングの実施</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">サービス正常性のレビューをスケジュールする</a></p>

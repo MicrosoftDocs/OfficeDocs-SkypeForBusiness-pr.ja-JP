@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: マイクロソフト チームのポリシーの設定を呼び出す方法の詳細について説明します。
+description: Microsoft Teams での通話ポリシー設定について説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -24,86 +24,86 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/09/2019
 ms.locfileid: "33835328"
 ---
-<a name="calling-policies-in-microsoft-teams"></a><span data-ttu-id="a2acc-103">Microsoft Teams の発信通話制限ポリシー</span><span class="sxs-lookup"><span data-stu-id="a2acc-103">Calling policies in Microsoft Teams</span></span>
+<a name="calling-policies-in-microsoft-teams"></a><span data-ttu-id="96e2b-103">Microsoft Teams の発信通話制限ポリシー</span><span class="sxs-lookup"><span data-stu-id="96e2b-103">Calling policies in Microsoft Teams</span></span>
 ===================================
 
-<span data-ttu-id="a2acc-104">マイクロソフト チーム、ポリシー制御、通話の呼び出しと呼び出しの転送機能ユーザーが利用できます。</span><span class="sxs-lookup"><span data-stu-id="a2acc-104">In Microsoft Teams, calling policies control which calling and call forwarding features are available to users.</span></span> <span data-ttu-id="a2acc-105">通話ポリシー呼び出しの転送を使用して、または同時に他のユーザーまたは外部の電話番号が鳴ってボイスメール、電話のグループでは、送信呼び出しに呼び出しをルートを使用して着信および発信呼び出しのための委任のユーザーは、秘密の呼び出しを行うことができます、かどうかを判断していうようにします。</span><span class="sxs-lookup"><span data-stu-id="a2acc-105">Calling policies determine whether a user can make private calls, use call forwarding or  simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to Call Groups, use delegation for inbound and outbound calls, and so on.</span></span> <span data-ttu-id="a2acc-106">既定のグローバル ポリシーは自動的に作成されますが、管理者の作成し呼び出し元のユーザー設定のポリシーを割り当てることができますもします。</span><span class="sxs-lookup"><span data-stu-id="a2acc-106">A default global policy is created automatically, but admins can also create and assign custom calling policies.</span></span>
+<span data-ttu-id="96e2b-104">Microsoft Teams では、通話ポリシーによって、ユーザーが使用できる通話と通話転送機能が制御されます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-104">In Microsoft Teams, calling policies control which calling and call forwarding features are available to users.</span></span> <span data-ttu-id="96e2b-105">通話ポリシーは、ユーザーがプライベートな通話を行うことができるかどうかを決定します。着信の転送や、他のユーザーや外部の電話番号への同時呼び出し、ボイスメールへの通話のルーティング、通話グループへの通話の送信、受信と発信などの呼び出しに委任を使用するなどを行います。</span><span class="sxs-lookup"><span data-stu-id="96e2b-105">Calling policies determine whether a user can make private calls, use call forwarding or  simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to Call Groups, use delegation for inbound and outbound calls, and so on.</span></span> <span data-ttu-id="96e2b-106">既定のグローバルポリシーは自動的に作成されますが、管理者はカスタムの通話ポリシーを作成して割り当てることもできます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-106">A default global policy is created automatically, but admins can also create and assign custom calling policies.</span></span>
 
-## <a name="create-a-custom-calling-policy"></a><span data-ttu-id="a2acc-107">カスタムの呼び出し元のポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-107">Create a custom calling policy</span></span>
+## <a name="create-a-custom-calling-policy"></a><span data-ttu-id="96e2b-107">カスタム通話ポリシーを作成する</span><span class="sxs-lookup"><span data-stu-id="96e2b-107">Create a custom calling policy</span></span>
 
-<span data-ttu-id="a2acc-108">この手順では、カスタムの呼び出し元のポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-108">Follow these steps to create a custom calling policy.</span></span>
+<span data-ttu-id="96e2b-108">カスタムの通話ポリシーを作成するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-108">Follow these steps to create a custom calling policy.</span></span>
 
-1. <span data-ttu-id="a2acc-109">マイクロソフトのチーム管理センターで、**音声**を選択します > **ポリシーを呼び出すこと**です。</span><span class="sxs-lookup"><span data-stu-id="a2acc-109">In the Microsoft Teams admin center, select **Voice** > **Calling policy**.</span></span>
-2. <span data-ttu-id="a2acc-110">**新しいポリシー**を選択します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-110">Select **New policy**.</span></span>
-3. <span data-ttu-id="a2acc-111">呼び出し元のポリシーで使用する機能をオンにします。</span><span class="sxs-lookup"><span data-stu-id="a2acc-111">Turn on the features that you want to use in your calling policy.</span></span> <span data-ttu-id="a2acc-112">すべての選択は、既定で**オフ**します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-112">All selections are **Off** by default.</span></span>
-4. <span data-ttu-id="a2acc-113">ユーザーが着信通話をボイスメールにルーティングできるかどうかを制御するには、**常に有効になっている**か、**ユーザーが制御**を選択します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-113">To control whether users can route inbound calls to voicemail, select **Always enabled** or **User controlled**.</span></span> <span data-ttu-id="a2acc-114">ボイスメールにルーティングするには、**常に無効になっている**を選択します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-114">To prevent routing to voicemail, select **Always disabled**.</span></span>
-5. <span data-ttu-id="a2acc-115">**保存**を選択します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-115">Select **Save**.</span></span>
+1. <span data-ttu-id="96e2b-109">Microsoft Teams 管理センターで、[**音声** > **通話のポリシー**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-109">In the Microsoft Teams admin center, select **Voice** > **Calling policy**.</span></span>
+2. <span data-ttu-id="96e2b-110">[**新しいポリシー**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-110">Select **New policy**.</span></span>
+3. <span data-ttu-id="96e2b-111">通話ポリシーで使用する機能を有効にします。</span><span class="sxs-lookup"><span data-stu-id="96e2b-111">Turn on the features that you want to use in your calling policy.</span></span> <span data-ttu-id="96e2b-112">すべての選択は既定で**オフ**になっています。</span><span class="sxs-lookup"><span data-stu-id="96e2b-112">All selections are **Off** by default.</span></span>
+4. <span data-ttu-id="96e2b-113">着信通話をボイスメールにルーティングできるかどうかを制御するには、[**常に有効**] または [**ユーザー管理**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-113">To control whether users can route inbound calls to voicemail, select **Always enabled** or **User controlled**.</span></span> <span data-ttu-id="96e2b-114">ボイスメールへのルーティングを禁止するには、[**常に無効**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-114">To prevent routing to voicemail, select **Always disabled**.</span></span>
+5. <span data-ttu-id="96e2b-115">[**保存**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-115">Select **Save**.</span></span>
 
-## <a name="modify-an-existing-calling-policy"></a><span data-ttu-id="a2acc-116">既存のポリシーの呼び出しを変更します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-116">Modify an existing calling policy</span></span>
+## <a name="modify-an-existing-calling-policy"></a><span data-ttu-id="96e2b-116">既存の通話ポリシーを変更する</span><span class="sxs-lookup"><span data-stu-id="96e2b-116">Modify an existing calling policy</span></span>
 
-<span data-ttu-id="a2acc-117">既存のポリシーの呼び出しを変更するのにはこれらの手順に従います。</span><span class="sxs-lookup"><span data-stu-id="a2acc-117">Follow these steps to modify an existing calling policy.</span></span>
+<span data-ttu-id="96e2b-117">既存の通話ポリシーを変更するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-117">Follow these steps to modify an existing calling policy.</span></span>
 
-1. <span data-ttu-id="a2acc-118">マイクロソフトのチーム管理センターで、**音声**を選択します > **ポリシーを呼び出すこと**です。</span><span class="sxs-lookup"><span data-stu-id="a2acc-118">In the Microsoft Teams admin center, select **Voice** > **Calling policy**.</span></span>
-2. <span data-ttu-id="a2acc-119">ポリシーを変更して、[**編集**] を選択するをクリックします。</span><span class="sxs-lookup"><span data-stu-id="a2acc-119">Click next to the policy that you want to modify, and then select **Edit**.</span></span>
-3. <span data-ttu-id="a2acc-120">呼び出し元のポリシーで使用する機能をオンにします。</span><span class="sxs-lookup"><span data-stu-id="a2acc-120">Turn on the features that you want to use in your calling policy.</span></span> <span data-ttu-id="a2acc-121">すべての選択は、既定で**オフ**します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-121">All selections are **Off** by default.</span></span>
-4. <span data-ttu-id="a2acc-122">ユーザーが着信通話をボイスメールにルーティングできるかどうかを制御するには、**常に有効になっている**か、**ユーザーが制御**を選択します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-122">To control whether users can route inbound calls to voicemail, select **Always enabled** or **User controlled**.</span></span> <span data-ttu-id="a2acc-123">ボイスメールにルーティングするには、**常に無効になっている**を選択します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-123">To prevent routing to voicemail, select **Always disabled**.</span></span>
-5. <span data-ttu-id="a2acc-124">**保存**を選択します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-124">Select **Save**.</span></span>
+1. <span data-ttu-id="96e2b-118">Microsoft Teams 管理センターで、[**音声** > **通話のポリシー**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-118">In the Microsoft Teams admin center, select **Voice** > **Calling policy**.</span></span>
+2. <span data-ttu-id="96e2b-119">変更するポリシーの横にあるをクリックし、[**編集**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-119">Click next to the policy that you want to modify, and then select **Edit**.</span></span>
+3. <span data-ttu-id="96e2b-120">通話ポリシーで使用する機能を有効にします。</span><span class="sxs-lookup"><span data-stu-id="96e2b-120">Turn on the features that you want to use in your calling policy.</span></span> <span data-ttu-id="96e2b-121">すべての選択は既定で**オフ**になっています。</span><span class="sxs-lookup"><span data-stu-id="96e2b-121">All selections are **Off** by default.</span></span>
+4. <span data-ttu-id="96e2b-122">着信通話をボイスメールにルーティングできるかどうかを制御するには、[**常に有効**] または [**ユーザー管理**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-122">To control whether users can route inbound calls to voicemail, select **Always enabled** or **User controlled**.</span></span> <span data-ttu-id="96e2b-123">ボイスメールへのルーティングを禁止するには、[**常に無効**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-123">To prevent routing to voicemail, select **Always disabled**.</span></span>
+5. <span data-ttu-id="96e2b-124">[**保存**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-124">Select **Save**.</span></span>
 
-## <a name="assign-a-calling-policy-to-a-user"></a><span data-ttu-id="a2acc-125">呼び出し元のポリシーをユーザーに割り当てる</span><span class="sxs-lookup"><span data-stu-id="a2acc-125">Assign a calling policy to a user</span></span>
+## <a name="assign-a-calling-policy-to-a-user"></a><span data-ttu-id="96e2b-125">ユーザーに通話ポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="96e2b-125">Assign a calling policy to a user</span></span>
 
-<span data-ttu-id="a2acc-126">カスタムの呼び出し元のポリシーをユーザーに割り当てるにはこれらの手順に従います。</span><span class="sxs-lookup"><span data-stu-id="a2acc-126">Follow these steps to assign a custom calling policy to a user.</span></span>
+<span data-ttu-id="96e2b-126">ユーザーにカスタムの通話ポリシーを割り当てるには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-126">Follow these steps to assign a custom calling policy to a user.</span></span>
 
-1. <span data-ttu-id="a2acc-127">マイクロソフトのチーム管理センターで、**音声**を選択します > **ポリシーを呼び出すこと**です。</span><span class="sxs-lookup"><span data-stu-id="a2acc-127">In the Microsoft Teams admin center, select **Voice** > **Calling policy**.</span></span>
-2. <span data-ttu-id="a2acc-128">選択し、**ユーザーの管理**を選択し、ポリシー名の横にあるをクリックします。</span><span class="sxs-lookup"><span data-stu-id="a2acc-128">Click next to the policy name to select it, and then select **Manage users**.</span></span>
-3. <span data-ttu-id="a2acc-129">**ユーザーの管理**ウィンドウで、ユーザーの名前を探します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-129">In the **Manage users** pane, search for the user’s name.</span></span> <span data-ttu-id="a2acc-130">(3 文字以上を入力する必要があります)。</span><span class="sxs-lookup"><span data-stu-id="a2acc-130">(You must enter at least three characters.)</span></span>
-4. <span data-ttu-id="a2acc-131">ユーザーの名を選択し、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a2acc-131">Select the user’s name, and then select **Add**.</span></span>
-5. <span data-ttu-id="a2acc-132">**保存**を選択します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-132">Select **Save**.</span></span>
+1. <span data-ttu-id="96e2b-127">Microsoft Teams 管理センターで、[**音声** > **通話のポリシー**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-127">In the Microsoft Teams admin center, select **Voice** > **Calling policy**.</span></span>
+2. <span data-ttu-id="96e2b-128">ポリシー名の横にあるをクリックして選択し、[**ユーザーの管理**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-128">Click next to the policy name to select it, and then select **Manage users**.</span></span>
+3. <span data-ttu-id="96e2b-129">[**ユーザーの管理**] ウィンドウで、ユーザーの名前を検索します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-129">In the **Manage users** pane, search for the user’s name.</span></span> <span data-ttu-id="96e2b-130">(少なくとも3文字を入力する必要があります)。</span><span class="sxs-lookup"><span data-stu-id="96e2b-130">(You must enter at least three characters.)</span></span>
+4. <span data-ttu-id="96e2b-131">ユーザー名を選択し、[**追加**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-131">Select the user’s name, and then select **Add**.</span></span>
+5. <span data-ttu-id="96e2b-132">[**保存**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-132">Select **Save**.</span></span>
 
-## <a name="calling-policy-settings"></a><span data-ttu-id="a2acc-133">ポリシーの設定を呼び出す</span><span class="sxs-lookup"><span data-stu-id="a2acc-133">Calling policy settings</span></span>
+## <a name="calling-policy-settings"></a><span data-ttu-id="96e2b-133">通話ポリシーの設定</span><span class="sxs-lookup"><span data-stu-id="96e2b-133">Calling policy settings</span></span>
 
-<span data-ttu-id="a2acc-134">カスタムの呼び出し元のポリシーを作成するのにには、次の設定を使用します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-134">Use the following settings to create a custom calling policy.</span></span>
+<span data-ttu-id="96e2b-134">カスタムの通話ポリシーを作成するには、次の設定を使用します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-134">Use the following settings to create a custom calling policy.</span></span>
 
-### <a name="user-can-make-private-calls"></a><span data-ttu-id="a2acc-135">ユーザーがプライベートの呼び出しを行うことができます。</span><span class="sxs-lookup"><span data-stu-id="a2acc-135">User can make private calls</span></span>
+### <a name="user-can-make-private-calls"></a><span data-ttu-id="96e2b-135">ユーザはプライベートな通話を発信できます</span><span class="sxs-lookup"><span data-stu-id="96e2b-135">User can make private calls</span></span>
 
-<span data-ttu-id="a2acc-136">この設定は、チーム内のすべての呼び出し機能を制御します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-136">This setting controls all calling capabilities in Teams.</span></span> <span data-ttu-id="a2acc-137">チーム内のすべての呼び出し機能を無効にするをオフにします。</span><span class="sxs-lookup"><span data-stu-id="a2acc-137">Turn this off to turn off all calling functionality in Teams.</span></span>
+<span data-ttu-id="96e2b-136">この設定により、Teams のすべての通話機能が制御されます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-136">This setting controls all calling capabilities in Teams.</span></span> <span data-ttu-id="96e2b-137">Teams のすべての通話機能を無効にするには、このオプションをオフにします。</span><span class="sxs-lookup"><span data-stu-id="96e2b-137">Turn this off to turn off all calling functionality in Teams.</span></span>
 
-### <a name="call-forwarding-and-simultaneous-ringing-to-other-users"></a><span data-ttu-id="a2acc-138">着信の転送およびその他のユーザーに同時呼び出し</span><span class="sxs-lookup"><span data-stu-id="a2acc-138">Call forwarding and simultaneous ringing to other users</span></span>
+### <a name="call-forwarding-and-simultaneous-ringing-to-other-users"></a><span data-ttu-id="96e2b-138">他のユーザーとの着信の転送と同時呼び出し</span><span class="sxs-lookup"><span data-stu-id="96e2b-138">Call forwarding and simultaneous ringing to other users</span></span>
 
-<span data-ttu-id="a2acc-139">この設定は、着信通話が他のユーザーに転送することや、同時に他の人をリングことができるかどうかを制御します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-139">This setting controls whether incoming calls can be forwarded to other users or can ring another person at the same time.</span></span> 
+<span data-ttu-id="96e2b-139">この設定では、着信通話を他のユーザーに転送できるか、または他の人を同時に呼び出すことができるかを制御します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-139">This setting controls whether incoming calls can be forwarded to other users or can ring another person at the same time.</span></span> 
 
-### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a><span data-ttu-id="a2acc-140">着信の転送および外部の電話番号に同時に呼び出し</span><span class="sxs-lookup"><span data-stu-id="a2acc-140">Call forwarding and simultaneous ringing to external phone numbers</span></span>
+### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a><span data-ttu-id="96e2b-140">着信の転送と同時呼び出しを外部電話番号に転送する</span><span class="sxs-lookup"><span data-stu-id="96e2b-140">Call forwarding and simultaneous ringing to external phone numbers</span></span>
 
-<span data-ttu-id="a2acc-141">この設定は、着信通話が、外部の番号に転送することや、同時に着信音、外部の数のことができるかどうかを制御します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-141">This setting controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.</span></span>
+<span data-ttu-id="96e2b-141">この設定は、着信通話を外部番号に転送できるか、外部番号を同時に呼び出すことができるかを制御します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-141">This setting controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.</span></span>
 
-### <a name="voicemail-is-available-for-routing-inbound-calls-to-users"></a><span data-ttu-id="a2acc-142">ボイスメールは、ユーザーへの着信通話のルーティングの使用</span><span class="sxs-lookup"><span data-stu-id="a2acc-142">Voicemail is available for routing inbound calls to users</span></span>
+### <a name="voicemail-is-available-for-routing-inbound-calls-to-users"></a><span data-ttu-id="96e2b-142">着信通話をユーザにルーティングするためにボイスメールを利用できます</span><span class="sxs-lookup"><span data-stu-id="96e2b-142">Voicemail is available for routing inbound calls to users</span></span>
 
-<span data-ttu-id="a2acc-143">この設定により、着信がボイスメールに送信されます。</span><span class="sxs-lookup"><span data-stu-id="a2acc-143">This setting enables inbound calls to be sent to voicemail.</span></span> <span data-ttu-id="a2acc-144">有効なオプションは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="a2acc-144">Valid options are:</span></span>
+<span data-ttu-id="96e2b-143">この設定では、着信通話をボイスメールに送信できます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-143">This setting enables inbound calls to be sent to voicemail.</span></span> <span data-ttu-id="96e2b-144">有効なオプションは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="96e2b-144">Valid options are:</span></span>
 
-   - <span data-ttu-id="a2acc-145">**常に有効になっています。** ボイスメールは、常に着信呼び出しに使用できます。</span><span class="sxs-lookup"><span data-stu-id="a2acc-145">**Always enabled** Voicemail is always available for inbound calls.</span></span> 
-   - <span data-ttu-id="a2acc-146">**常に無効になっています。** ボイスメールが着信呼び出しに対して使用可能ではありません。</span><span class="sxs-lookup"><span data-stu-id="a2acc-146">**Always disabled**  Voicemail is not available for inbound calls.</span></span> 
-   - <span data-ttu-id="a2acc-147">**ユーザーが制御**されます。</span><span class="sxs-lookup"><span data-stu-id="a2acc-147">**User controlled**.</span></span> <span data-ttu-id="a2acc-148">ユーザーは、ボイスメールを使用するかどうかを決定できます。</span><span class="sxs-lookup"><span data-stu-id="a2acc-148">Users can determine whether they want voicemail to be available.</span></span>
+   - <span data-ttu-id="96e2b-145">**常に有効**ボイスメールは、着信通話にいつでも利用できます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-145">**Always enabled** Voicemail is always available for inbound calls.</span></span> 
+   - <span data-ttu-id="96e2b-146">**常に無効** 着信通話でボイスメールを使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="96e2b-146">**Always disabled**  Voicemail is not available for inbound calls.</span></span> 
+   - <span data-ttu-id="96e2b-147">**ユーザー制御**。</span><span class="sxs-lookup"><span data-stu-id="96e2b-147">**User controlled**.</span></span> <span data-ttu-id="96e2b-148">ユーザーはボイスメールを利用できるようにするかどうかを決定できます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-148">Users can determine whether they want voicemail to be available.</span></span>
 
-### <a name="inbound-calls-can-be-routed-to-call-groups"></a><span data-ttu-id="a2acc-149">グループを呼び出すに着信呼び出しをルーティングすることができます。</span><span class="sxs-lookup"><span data-stu-id="a2acc-149">Inbound calls can be routed to call groups</span></span> 
-
-> [!Include [feature preview](includes/preview-feature.md)]
-
-<span data-ttu-id="a2acc-150">この設定は、着信呼び出しを呼び出しグループに転送できるかどうかを制御します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-150">This setting controls whether incoming calls can be forwarded to a call group.</span></span>
-
-### <a name="allow-delegation-for-inbound-and-outbound-calls"></a><span data-ttu-id="a2acc-151">着信および発信通話の委任を許可します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-151">Allow delegation for inbound and outbound calls</span></span>
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a><span data-ttu-id="96e2b-149">着信通話を通話グループにルーティングできる</span><span class="sxs-lookup"><span data-stu-id="96e2b-149">Inbound calls can be routed to call groups</span></span> 
 
 > [!Include [feature preview](includes/preview-feature.md)]
 
-<span data-ttu-id="a2acc-152">この設定は、対象となるアクセス許可を委任するがユーザーによって送信呼び出しを行うデリゲートを許可する代理人に転送される着信呼び出しを有効にします。</span><span class="sxs-lookup"><span data-stu-id="a2acc-152">This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions.</span></span> <span data-ttu-id="a2acc-153">詳細については、[代理人に電話回線の共有](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a2acc-153">For more information, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).</span></span>
+<span data-ttu-id="96e2b-150">この設定は、着信通話を通話グループに転送できるかどうかを制御します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-150">This setting controls whether incoming calls can be forwarded to a call group.</span></span>
+
+### <a name="allow-delegation-for-inbound-and-outbound-calls"></a><span data-ttu-id="96e2b-151">着信と発信の通話の委任を許可する</span><span class="sxs-lookup"><span data-stu-id="96e2b-151">Allow delegation for inbound and outbound calls</span></span>
+
+> [!Include [feature preview](includes/preview-feature.md)]
+
+<span data-ttu-id="96e2b-152">この設定を有効にすると、着信の代理人へのルーティングが許可され、代理人がアクセス権を委任したユーザーの代わりに発信通話を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-152">This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions.</span></span> <span data-ttu-id="96e2b-153">詳細については、「[代理人と電話回線を共有](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="96e2b-153">For more information, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).</span></span>
 
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a><span data-ttu-id="a2acc-154">有料のバイパスを防止し、PSTN 経由で呼び出しを送信します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-154">Prevent toll bypass and send calls through the PSTN</span></span> 
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a><span data-ttu-id="96e2b-154">通話を発信したり、PSTN 経由で通話を送信したりする</span><span class="sxs-lookup"><span data-stu-id="96e2b-154">Prevent toll bypass and send calls through the PSTN</span></span> 
 
-<span data-ttu-id="a2acc-155">これを**On**に設定、PSTN 経由で呼び出しを送信して発生する料金ではなく、ネットワークを介して送信して、それをバイパスします。</span><span class="sxs-lookup"><span data-stu-id="a2acc-155">Setting this to **On** will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.</span></span>
+<span data-ttu-id="96e2b-155">この設定**で**は、ネットワーク経由での送信と、tolls のバイパスではなく、PSTN 経由で通話が送信され、料金が発生します。</span><span class="sxs-lookup"><span data-stu-id="96e2b-155">Setting this to **On** will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.</span></span>
 
-### <a name="busy-on-busy-is-available-while-in-a-call"></a><span data-ttu-id="a2acc-156">取り込みに時間が通話中に利用可能です</span><span class="sxs-lookup"><span data-stu-id="a2acc-156">Busy on Busy is available while in a call</span></span>
+### <a name="busy-on-busy-is-available-while-in-a-call"></a><span data-ttu-id="96e2b-156">通話中に取り込み中</span><span class="sxs-lookup"><span data-stu-id="96e2b-156">Busy on Busy is available while in a call</span></span>
 
-<span data-ttu-id="a2acc-157">(使用中のオプション) 取り込み中にビジー状態) は、保留中のユーザーが通話や会議であるかの呼び出しには、着信呼び出しを構成することができます呼び出し元のポリシーが処理されるチームの新しい設定を配置します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-157">Busy on Busy (Busy Options)) is a new setting in Teams calling policies that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.</span></span> <span data-ttu-id="a2acc-158">ビジー信号を新規または着信呼び出しを拒否できます。</span><span class="sxs-lookup"><span data-stu-id="a2acc-158">New or incoming calls can be rejected with a busy signal.</span></span> <span data-ttu-id="a2acc-159">テナント レベルまたはユーザー レベルでの使用中のオプションを有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="a2acc-159">You can enable busy options at the tenant level or at the user level.</span></span> <span data-ttu-id="a2acc-160">使用中のオプションの構成方法に関係なく電話会議、または保留中の呼び出しを持つユーザーは禁止されません新しい通話や会議を開始します。</span><span class="sxs-lookup"><span data-stu-id="a2acc-160">Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences.</span></span> <span data-ttu-id="a2acc-161">この設定は既定で無効になります。</span><span class="sxs-lookup"><span data-stu-id="a2acc-161">This setting is disabled by default.</span></span>
+<span data-ttu-id="96e2b-157">[取り込み中] (取り込み中)) は、ユーザーが既に通話または会議に参加している場合や、通話が保留になっている場合に、着信通話の処理方法を構成できる、チーム呼び出しポリシーの新しい設定です。</span><span class="sxs-lookup"><span data-stu-id="96e2b-157">Busy on Busy (Busy Options)) is a new setting in Teams calling policies that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.</span></span> <span data-ttu-id="96e2b-158">新規または着信通話は、取り込み中の信号で拒否することができます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-158">New or incoming calls can be rejected with a busy signal.</span></span> <span data-ttu-id="96e2b-159">[取り込み] オプションは、テナントレベルまたはユーザーレベルで有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="96e2b-159">You can enable busy options at the tenant level or at the user level.</span></span> <span data-ttu-id="96e2b-160">通話や電話会議のユーザー、または通話を保留しているユーザーは、会議中の通話や会議の開始を防ぐことはできません。</span><span class="sxs-lookup"><span data-stu-id="96e2b-160">Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences.</span></span> <span data-ttu-id="96e2b-161">この設定は、既定では無効になっています。</span><span class="sxs-lookup"><span data-stu-id="96e2b-161">This setting is disabled by default.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a2acc-162">関連項目</span><span class="sxs-lookup"><span data-stu-id="a2acc-162">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="96e2b-162">関連項目</span><span class="sxs-lookup"><span data-stu-id="96e2b-162">See also</span></span>
 
-[<span data-ttu-id="a2acc-163">セット CSTeamsCallingPolicy</span><span class="sxs-lookup"><span data-stu-id="a2acc-163">Set-CSTeamsCallingPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[<span data-ttu-id="96e2b-163">Set-Csteam拡張性のポリシー</span><span class="sxs-lookup"><span data-stu-id="96e2b-163">Set-CSTeamsCallingPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)

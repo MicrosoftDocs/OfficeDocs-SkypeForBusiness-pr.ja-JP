@@ -1,6 +1,6 @@
 ---
 title: 医療関係組織向けのTeams
-description: 医療組織内のチームを最大限に活用するには、これらのリソースを使用します。
+description: これらのリソースを使用して、医療組織のチームを最大限に活用してください。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -21,7 +21,7 @@ ms.locfileid: "32245700"
 ---
 # <a name="teams-for-healthcare"></a>医療関係組織向けのTeams
 
-チームは、治療チームや医療スタッフは、通信し、治療の質を調整し、運用効率を向上させるために安全な方法です。 医療のチーム、組織内のチームを管理する必要があります管理リソースがあります。
+Teams は、ケアチームや医療専門家が安全な方法でコミュニケーションを行い、患者の治療を調整し、運用効率を向上させます。 ここでは、組織内の医療チームのチームを管理するために必要な管理リソースについて説明します。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -71,7 +71,7 @@ ms.locfileid: "32245700"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>医療関係組織向けセキュアメッセージングでTeamsを始めましょう</h3>
+                        <h3>医療組織向け Secure Messaging で Teams を始めましょう</h3>
                     </div>
                 </div>
             </div>

@@ -1,29 +1,29 @@
 ---
-title: フェーズ 5 ビジネス 2019 エッジ サーバーをパイロット プールに Skype を追加
+title: フェーズ 5 Skype for Business Server 2019 エッジサーバーのパイロットプールへの追加
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: このセクションのトピックでは、ビジネス 2019 エッジ サーバーのプールのパイロット展開に、Skype を追加する方法について説明します。 トピックは、展開の新しいエッジ プールの作成ウィザードを実行するときに構成および検証のガイダンスを提供します。
-ms.openlocfilehash: c7da85f000fad55b27ed376d40bed957edf8dd6c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: このセクションのトピックでは、パイロットプールの展開に Skype for Business Server 2019 エッジサーバーを追加する方法について説明します。 このトピックでは、[新しい Edge プールの展開] ウィザードを実行するときの構成と検証のガイダンスを提供します。
+ms.openlocfilehash: 7bcd0537188b623af48e73c04bbd022d27d19e33
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231519"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273904"
 ---
-# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a><span data-ttu-id="e9ee5-104">フェーズ 5: ビジネス 2019 エッジ サーバーのプールをパイロットに Skype を追加します。</span><span class="sxs-lookup"><span data-stu-id="e9ee5-104">Phase 5: Add Skype for Business Server 2019 Edge Server to pilot pool</span></span>
+# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a><span data-ttu-id="a416d-104">フェーズ 5: Skype for Business Server 2019 エッジサーバーをパイロットプールに追加する</span><span class="sxs-lookup"><span data-stu-id="a416d-104">Phase 5: Add Skype for Business Server 2019 Edge Server to pilot pool</span></span>
 
-<span data-ttu-id="e9ee5-105">このセクションのトピックでは、ビジネス 2019 エッジ サーバーのプールのパイロット展開に、Skype を追加する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="e9ee5-105">The topics in this section explain how to add a Skype for Business Server 2019 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="e9ee5-106">トピックは、展開の新しいエッジ プールの作成ウィザードを実行するときに構成および検証のガイダンスを提供します。</span><span class="sxs-lookup"><span data-stu-id="e9ee5-106">The topics provide configuration and verification guidance when running the Deploy New Edge pool wizard.</span></span> 
+<span data-ttu-id="a416d-105">このセクションのトピックでは、パイロットプールの展開に Skype for Business Server 2019 エッジサーバーを追加する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="a416d-105">The topics in this section explain how to add a Skype for Business Server 2019 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="a416d-106">このトピックでは、[新しい Edge プールの展開] ウィザードを実行するときの構成と検証のガイダンスを提供します。</span><span class="sxs-lookup"><span data-stu-id="a416d-106">The topics provide configuration and verification guidance when running the Deploy New Edge pool wizard.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="e9ee5-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="e9ee5-107">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a416d-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="a416d-107">In this section</span></span>
 
-- [<span data-ttu-id="e9ee5-108">パイロット エッジ サーバーの展開</span><span class="sxs-lookup"><span data-stu-id="e9ee5-108">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server.md)
+- [<span data-ttu-id="a416d-108">パイロット エッジ サーバーの展開</span><span class="sxs-lookup"><span data-stu-id="a416d-108">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server.md)
     
-- [<span data-ttu-id="e9ee5-109">構成の設定の確認</span><span class="sxs-lookup"><span data-stu-id="e9ee5-109">Verify configuration settings</span></span>](verify-configuration-settings.md)
+- [<span data-ttu-id="a416d-109">構成の設定の確認</span><span class="sxs-lookup"><span data-stu-id="a416d-109">Verify configuration settings</span></span>](verify-configuration-settings.md)
     
 

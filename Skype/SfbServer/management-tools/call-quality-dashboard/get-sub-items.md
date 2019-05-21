@@ -4,51 +4,51 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
-description: '概要: は、項目のサービスの一部では、サブ項目の取得操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 4d0e5c19a4bfb5d66db95738cab5b0c2eaf33985
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: 項目サービスの一部である [サブ項目の取得] 操作について説明します。 項目サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: 7be427ed4ea90cd46c6f8cea4ffe3a97be98479b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930680"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274661"
 ---
-# <a name="get-sub-items"></a><span data-ttu-id="64d2a-105">サブアイテムの取得</span><span class="sxs-lookup"><span data-stu-id="64d2a-105">Get Sub-Items</span></span>
+# <a name="get-sub-items"></a><span data-ttu-id="897af-105">サブアイテムの取得</span><span class="sxs-lookup"><span data-stu-id="897af-105">Get Sub-Items</span></span>
  
-<span data-ttu-id="64d2a-106">**の概要:** 品目サービスの一部では、サブ項目の取得操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="64d2a-106">**Summary:** Learn about the Get Sub-Items operation, which is part of the Item Service.</span></span> <span data-ttu-id="64d2a-107">項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="64d2a-107">The Item Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="64d2a-108">通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。</span><span class="sxs-lookup"><span data-stu-id="64d2a-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="897af-106">**概要:** 項目サービスの一部である [サブ項目の取得] 操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="897af-106">**Summary:** Learn about the Get Sub-Items operation, which is part of the Item Service.</span></span> <span data-ttu-id="897af-107">項目サービスは、通話品質ダッシュボードのリポジトリ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="897af-107">The Item Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="897af-108">通話品質ダッシュボードは、Skype for Business Server のツールです。</span><span class="sxs-lookup"><span data-stu-id="897af-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="64d2a-109">サブ項目の取得操作は、リポジトリ api の呼び出し品質のダッシュ ボードの項目のサービスの一部です。</span><span class="sxs-lookup"><span data-stu-id="64d2a-109">The Get Sub-Items operation is part of the Item Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="897af-109">[サブアイテムの取得] 操作は、[リポジトリ API for Call Quality] ダッシュボードのアイテムサービスの一部です。</span><span class="sxs-lookup"><span data-stu-id="897af-109">The Get Sub-Items operation is part of the Item Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="get-sub-items"></a><span data-ttu-id="64d2a-110">サブアイテムの取得</span><span class="sxs-lookup"><span data-stu-id="64d2a-110">Get Sub-Items</span></span>
+## <a name="get-sub-items"></a><span data-ttu-id="897af-110">サブアイテムの取得</span><span class="sxs-lookup"><span data-stu-id="897af-110">Get Sub-Items</span></span>
 
-<span data-ttu-id="64d2a-111">サブ項目を返します。 特定の項目のサブ項目を取得します。</span><span class="sxs-lookup"><span data-stu-id="64d2a-111">Get Sub-Items returns a specific Item's sub-items.</span></span>
+<span data-ttu-id="897af-111">サブ項目の取得: 特定の項目のサブ項目を返します。</span><span class="sxs-lookup"><span data-stu-id="897af-111">Get Sub-Items returns a specific Item's sub-items.</span></span>
   
 
-|<span data-ttu-id="64d2a-112">**メソッド**</span><span class="sxs-lookup"><span data-stu-id="64d2a-112">**Method**</span></span>|<span data-ttu-id="64d2a-113">**URI を要求します。**</span><span class="sxs-lookup"><span data-stu-id="64d2a-113">**Request URI**</span></span>|<span data-ttu-id="64d2a-114">**HTTP のバージョン**</span><span class="sxs-lookup"><span data-stu-id="64d2a-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="897af-112">**メソッド**</span><span class="sxs-lookup"><span data-stu-id="897af-112">**Method**</span></span>|<span data-ttu-id="897af-113">**要求 URI**</span><span class="sxs-lookup"><span data-stu-id="897af-113">**Request URI**</span></span>|<span data-ttu-id="897af-114">**HTTP バージョン**</span><span class="sxs-lookup"><span data-stu-id="897af-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="64d2a-115">取得</span><span class="sxs-lookup"><span data-stu-id="64d2a-115">GET</span></span>  <br/> |<span data-ttu-id="64d2a-116">https://\<ポータル\>/QoERepositoryService/リポジトリ/アイテム/{itemId} subitem/</span><span class="sxs-lookup"><span data-stu-id="64d2a-116">https://\<portal\>/QoERepositoryService/repository/item/{itemId}/subitem</span></span>  <br/> |<span data-ttu-id="64d2a-117">HTTP 1.1/</span><span class="sxs-lookup"><span data-stu-id="64d2a-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="897af-115">取得</span><span class="sxs-lookup"><span data-stu-id="897af-115">GET</span></span>  <br/> |<span data-ttu-id="897af-116">https://\<ポータル\>の/QoERepositoryService/repository/item/{itemId}/subitem</span><span class="sxs-lookup"><span data-stu-id="897af-116">https://\<portal\>/QoERepositoryService/repository/item/{itemId}/subitem</span></span>  <br/> |<span data-ttu-id="897af-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="897af-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="64d2a-118">**URI パラメーター**を [なし] です。</span><span class="sxs-lookup"><span data-stu-id="64d2a-118">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="897af-118">**URI パラメーター** -なし。</span><span class="sxs-lookup"><span data-stu-id="897af-118">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="64d2a-119">**要求ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="64d2a-119">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="897af-119">**ヘッダーを要求**する-追加のヘッダーは不要です。</span><span class="sxs-lookup"><span data-stu-id="897af-119">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="64d2a-120">**リクエストの本文**の [なし] です。</span><span class="sxs-lookup"><span data-stu-id="64d2a-120">**Request Body** - None.</span></span>
+ <span data-ttu-id="897af-120">**要求本文**-なし。</span><span class="sxs-lookup"><span data-stu-id="897af-120">**Request Body** - None.</span></span>
   
- <span data-ttu-id="64d2a-121">**応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="64d2a-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="897af-121">**応答**-応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。</span><span class="sxs-lookup"><span data-stu-id="897af-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="64d2a-122">**ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。</span><span class="sxs-lookup"><span data-stu-id="64d2a-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="64d2a-123">特定のユーザ ID が見つからない場合は、ステータス コード 404 (見つかりません) を返します。</span><span class="sxs-lookup"><span data-stu-id="64d2a-123">If a specified user ID is not found, it returns status code 404 (Not Found).</span></span>
+ <span data-ttu-id="897af-122">**状態コード**-正常に動作している操作は、状態コード 200 (OK) を返します。</span><span class="sxs-lookup"><span data-stu-id="897af-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="897af-123">指定したユーザー ID が見つからない場合は、状態コード 404 (見つかりません) が返されます。</span><span class="sxs-lookup"><span data-stu-id="897af-123">If a specified user ID is not found, it returns status code 404 (Not Found).</span></span>
   
- <span data-ttu-id="64d2a-124">**応答ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="64d2a-124">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="897af-124">**応答ヘッダー** -ヘッダーは追加されません。</span><span class="sxs-lookup"><span data-stu-id="897af-124">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="64d2a-125">**応答本体**の JSON のサンプル応答の内容を次に示します。</span><span class="sxs-lookup"><span data-stu-id="64d2a-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
+ <span data-ttu-id="897af-125">**応答本文**-以下は JSON のサンプル応答ペイロードです。</span><span class="sxs-lookup"><span data-stu-id="897af-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="64d2a-126">アイテム オブジェクトの配列が返されます。</span><span class="sxs-lookup"><span data-stu-id="64d2a-126">An array of Item object is returned.</span></span> 
+> <span data-ttu-id="897af-126">項目オブジェクトの配列が返されます。</span><span class="sxs-lookup"><span data-stu-id="897af-126">An array of Item object is returned.</span></span> 
   
 ```
 [{
@@ -63,15 +63,15 @@ ms.locfileid: "33930680"
 }]
 ```
 
-<span data-ttu-id="64d2a-127">サブ項目の操作によって返される項目のオブジェクトには、次の 3 つのフィールドのみ含まれています。</span><span class="sxs-lookup"><span data-stu-id="64d2a-127">The Item object returned by Sub-Items operation only contains the following three fields.</span></span> 
+<span data-ttu-id="897af-127">サブ項目操作によって返される Item オブジェクトには、次の3つのフィールドのみが含まれます。</span><span class="sxs-lookup"><span data-stu-id="897af-127">The Item object returned by Sub-Items operation only contains the following three fields.</span></span> 
   
- <span data-ttu-id="64d2a-128">*アイテム Id*の項目の ID です。</span><span class="sxs-lookup"><span data-stu-id="64d2a-128">*itemId*  - ID of the item.</span></span>
+ <span data-ttu-id="897af-128">*itemId* -項目の ID です。</span><span class="sxs-lookup"><span data-stu-id="897af-128">*itemId*  - ID of the item.</span></span>
   
- <span data-ttu-id="64d2a-129">*ユーザー Id* - このアイテムを所有するユーザーの ID。</span><span class="sxs-lookup"><span data-stu-id="64d2a-129">*userId*  - ID of the User who owns this Item.</span></span>
+ <span data-ttu-id="897af-129">*userId* -このアイテムを所有しているユーザーの id です。</span><span class="sxs-lookup"><span data-stu-id="897af-129">*userId*  - ID of the User who owns this Item.</span></span>
   
- <span data-ttu-id="64d2a-130">*型*のコンテンツの種類です。</span><span class="sxs-lookup"><span data-stu-id="64d2a-130">*type*  - The type of the content.</span></span> <span data-ttu-id="64d2a-131">このフィールドは、アプリケーションによって設定されます。</span><span class="sxs-lookup"><span data-stu-id="64d2a-131">This field is set by the applications.</span></span>
+ <span data-ttu-id="897af-130">*type* -コンテンツの種類。</span><span class="sxs-lookup"><span data-stu-id="897af-130">*type*  - The type of the content.</span></span> <span data-ttu-id="897af-131">このフィールドは、アプリケーションによって設定されます。</span><span class="sxs-lookup"><span data-stu-id="897af-131">This field is set by the applications.</span></span>
   
 > [!NOTE]
->  <span data-ttu-id="64d2a-132">`Content``subItems`フィールドは、応答をネットワーク経由で送信されるデータの量を減らすには含まれません。</span><span class="sxs-lookup"><span data-stu-id="64d2a-132">`Content` and `subItems` fields are not included in the response to reduce the amount of data transmitted over the network.</span></span>
+>  <span data-ttu-id="897af-132">`Content`また`subItems` 、ネットワーク経由で送信されるデータの量を減らすために、フィールドは返信に含まれません。</span><span class="sxs-lookup"><span data-stu-id="897af-132">`Content` and `subItems` fields are not included in the response to reduce the amount of data transmitted over the network.</span></span>
   
 
