@@ -5,41 +5,41 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainVerifySchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
-description: Active Directory ドメイン サービス フォレストでスキーマ拡張機能が正常にレプリケートされていることを確認するには、次の操作を行います。
-ms.openlocfilehash: 15605ed3d42cd043acd091735b80edef1a76ea49
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Active Directory ドメインサービスフォレストでスキーマ拡張が正常にレプリケートされたことを確認するには、次の手順を実行します。
+ms.openlocfilehash: 9b055120f33f4bc80b2fdbf163e9ab627927dd54
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887175"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289471"
 ---
-# <a name="verify-replication-of-schema-partition"></a><span data-ttu-id="d0f82-103">スキーマ パーティションのレプリケーションの確認</span><span class="sxs-lookup"><span data-stu-id="d0f82-103">Verify Replication of Schema Partition</span></span>
+# <a name="verify-replication-of-schema-partition"></a><span data-ttu-id="2b270-103">スキーマ パーティションのレプリケーションの確認</span><span class="sxs-lookup"><span data-stu-id="2b270-103">Verify Replication of Schema Partition</span></span>
  
-<span data-ttu-id="d0f82-104">Active Directory ドメイン サービス フォレストでスキーマ拡張機能が正常にレプリケートされていることを確認するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="d0f82-104">To verify that the schema extension have been successfully replicated in your Active Directory Domain Services forest, do the following:</span></span>
+<span data-ttu-id="2b270-104">Active Directory ドメインサービスフォレストでスキーマ拡張が正常にレプリケートされたことを確認するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="2b270-104">To verify that the schema extension have been successfully replicated in your Active Directory Domain Services forest, do the following:</span></span>
   
-1. <span data-ttu-id="d0f82-105">Enterprise Admins グループのメンバーとして、スキーマの拡張機能が適用された場所、Active Directory ドメイン サービス フォレスト内ドメイン コント ローラー (ただし、スキーマ マスターの役割を保持しているドメイン コント ローラー) にログオンします。</span><span class="sxs-lookup"><span data-stu-id="d0f82-105">Log on to a domain controller (other than the domain controller that holds the schema master role) in your Active Directory Domain Services forest, where the schema extensions were applied as a member of the Enterprise Admins group.</span></span>
+1. <span data-ttu-id="2b270-105">Active Directory ドメインサービスフォレストのドメインコントローラー (スキーママスターの役割を保持しているドメインコントローラー以外) にログオンします。ここでは、スキーマの拡張機能が Enterprise Admins グループのメンバーとして適用されています。</span><span class="sxs-lookup"><span data-stu-id="2b270-105">Log on to a domain controller (other than the domain controller that holds the schema master role) in your Active Directory Domain Services forest, where the schema extensions were applied as a member of the Enterprise Admins group.</span></span>
     
-2. <span data-ttu-id="d0f82-106">ADSI 編集を開く: [**スタート**] ボタン、 **[管理ツール**] をクリックし、[ **ADSI Edit**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0f82-106">Open ADSI Edit: Click **Start**, click **Administrative Tools**, and then click **ADSI Edit**.</span></span>
+2. <span data-ttu-id="2b270-106">ADSI の編集を開く: [**スタート**] をクリックし、[**管理ツール**] をクリックして、[ **adsi の編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2b270-106">Open ADSI Edit: Click **Start**, click **Administrative Tools**, and then click **ADSI Edit**.</span></span>
     
     > [!TIP]
-    > <span data-ttu-id="d0f82-107">または、**開始**] をクリックし、**実行**、ADSI Edit を起動するのには入力**ファイル名を指定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0f82-107">Alternatively, click **Start**, then click **Run**, type **adsiedit.msc** to start ADSI Edit.</span></span>
+    > <span data-ttu-id="2b270-107">または、[**スタート**] をクリックし、[**実行**] をクリックします。次に、「 **adsiedit** 」と入力して ADSI エディターを起動します。</span><span class="sxs-lookup"><span data-stu-id="2b270-107">Alternatively, click **Start**, then click **Run**, type **adsiedit.msc** to start ADSI Edit.</span></span>
   
-3. <span data-ttu-id="d0f82-108">Microsoft 管理コンソール (MMC) ツリーで、選択されていない場合は、ADSI Edit] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0f82-108">In the Microsoft Management Console (MMC) tree, if it is not already selected, click ADSI Edit.</span></span>
+3. <span data-ttu-id="2b270-108">Microsoft 管理コンソール (MMC) ツリーでまだ選択されていない場合は、[ADSI Edit] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2b270-108">In the Microsoft Management Console (MMC) tree, if it is not already selected, click ADSI Edit.</span></span>
     
-4. <span data-ttu-id="d0f82-109">[**アクション**] メニューで、[**接続**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0f82-109">On the **Action** menu, click **Connect to**.</span></span>
+4. <span data-ttu-id="2b270-109">[**アクション**] メニューで、[**接続**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2b270-109">On the **Action** menu, click **Connect to**.</span></span>
     
-5. <span data-ttu-id="d0f82-110">[**接続の設定**] ダイアログ ボックスの [**既知の名前付けコンテキストを選択する**] で、[**スキーマ**] を選択して [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0f82-110">In the **Connection Settings** dialog box under **Select a well known Naming Context**, select **Schema**, and then click **OK**.</span></span>
+5. <span data-ttu-id="2b270-110">[**接続の設定**] ダイアログ ボックスの [**既知の名前付けコンテキストを選択する**] で、[**スキーマ**] を選択して [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2b270-110">In the **Connection Settings** dialog box under **Select a well known Naming Context**, select **Schema**, and then click **OK**.</span></span>
     
-6. <span data-ttu-id="d0f82-111">スキーマ コンテナーで、CN=ms-RTC-SIP-SchemaVersion を検索します。</span><span class="sxs-lookup"><span data-stu-id="d0f82-111">Under the schema container, search for CN=ms-RTC-SIP-SchemaVersion.</span></span> <span data-ttu-id="d0f82-112">、このオブジェクトが存在し、 **rangeUpper**属性の値は、1150、 **rangeLower**属性の値は 3、スキーマが正常に更新し、レプリケートします。</span><span class="sxs-lookup"><span data-stu-id="d0f82-112">If this object exists, and the value of the **rangeUpper** attribute is 1150 and the value of the **rangeLower** attribute is 3, then the schema was successfully updated and replicated.</span></span> <span data-ttu-id="d0f82-113">**RangeLower**し、 **rangeUpper**属性の値として使用されてない場合またはこのオブジェクトが存在しない場合を指定し、スキーマが変更されていないまたはレプリケートされていません。</span><span class="sxs-lookup"><span data-stu-id="d0f82-113">If this object does not exist or if the values of the **rangeUpper** and **rangeLower** attributes are not as specified, then the schema was not modified or has not replicated.</span></span>
+6. <span data-ttu-id="2b270-111">スキーマ コンテナーで、CN=ms-RTC-SIP-SchemaVersion を検索します。</span><span class="sxs-lookup"><span data-stu-id="2b270-111">Under the schema container, search for CN=ms-RTC-SIP-SchemaVersion.</span></span> <span data-ttu-id="2b270-112">このオブジェクトが存在し、 **Rangeupper**属性の値が1150であり、 **rangeupper**属性の値が3の場合は、スキーマが正常に更新され、複製されています。</span><span class="sxs-lookup"><span data-stu-id="2b270-112">If this object exists, and the value of the **rangeUpper** attribute is 1150 and the value of the **rangeLower** attribute is 3, then the schema was successfully updated and replicated.</span></span> <span data-ttu-id="2b270-113">このオブジェクトが存在しない場合、または**Rangeupper**属性と**rangeupper**属性の値が指定されていない場合は、スキーマが変更されていないか、複製されていません。</span><span class="sxs-lookup"><span data-stu-id="2b270-113">If this object does not exist or if the values of the **rangeUpper** and **rangeLower** attributes are not as specified, then the schema was not modified or has not replicated.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="d0f82-114">スキーマのレプリケーションのチェックが正常に複製をまだ表示されていない場合は、約 15 分間待機し、再び確認します。</span><span class="sxs-lookup"><span data-stu-id="d0f82-114">If your check of the replication of the schema does not yet show a successful replication, wait approximately 15 minutes and then check again.</span></span> <span data-ttu-id="d0f82-115">Active Directory のレプリケーションはゆるやかな一貫性モデルに基づくし、いくつかのサーバーとインフラストラクチャの要因に基づくいくつかのレプリケーションの遅延が発生することが。</span><span class="sxs-lookup"><span data-stu-id="d0f82-115">Active Directory replication is based on a loose consistency model and some replication latency can occur, based on a number of factors in the server and infrastructure.</span></span> 
+> <span data-ttu-id="2b270-114">スキーマの複製を確認しても正常な複製が表示されない場合は、約15分待ってからもう一度確認してください。</span><span class="sxs-lookup"><span data-stu-id="2b270-114">If your check of the replication of the schema does not yet show a successful replication, wait approximately 15 minutes and then check again.</span></span> <span data-ttu-id="2b270-115">Active Directory のレプリケーションは、緩やかな一貫性モデルに基づいており、サーバーとインフラストラクチャのさまざまな要因に基づいて、いくつかのレプリケーション待ち時間が発生する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="2b270-115">Active Directory replication is based on a loose consistency model and some replication latency can occur, based on a number of factors in the server and infrastructure.</span></span> 
   
 

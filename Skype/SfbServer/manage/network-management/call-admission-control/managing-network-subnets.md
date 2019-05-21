@@ -1,57 +1,57 @@
 ---
-title: ネットワークのサブネットを管理します。
+title: ネットワークサブネットの管理
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 呼受付制御 (CAC) が実装されているビジネス サーバーの Skype のほとんどの展開では通常あるサブネットの数が多い。 このため、お勧め多くの場合ビジネス サーバー管理シェルには、Skype からサブネットを構成します。
-ms.openlocfilehash: 7b09428f3bdc44f8626cac072b5f4838e08f9efc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 通話受付制御 (CAC) が実装されている Skype for Business Server の大半の展開では、通常、多数のサブネットが存在します。 このため、多くの場合、Skype for Business Server 管理シェルからサブネットを構成することをお勧めします。
+ms.openlocfilehash: 354dd43fd526ba2a6c6f88c8e1f30d0aae37b3bb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913357"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279481"
 ---
-# <a name="managing-network-subnets-in-skype-for-business-server"></a><span data-ttu-id="83914-104">Skype for Business Server でのネットワーク サブネットの管理</span><span class="sxs-lookup"><span data-stu-id="83914-104">Managing network subnets in Skype for Business Server</span></span>
+# <a name="managing-network-subnets-in-skype-for-business-server"></a><span data-ttu-id="16d60-104">Skype for Business Server でのネットワーク サブネットの管理</span><span class="sxs-lookup"><span data-stu-id="16d60-104">Managing network subnets in Skype for Business Server</span></span>
 
-<span data-ttu-id="83914-105">ビジネス サーバーのコントロール パネルまたはビジネス サーバー管理シェルの Skype のいずれかの Skype を使用するにはネットワークのサブネットを管理します。</span><span class="sxs-lookup"><span data-stu-id="83914-105">You can use either the Skype for Business Server Control Panel or the Skype for Business Server Management Shell to manage network subnets.</span></span> <span data-ttu-id="83914-106">呼受付制御 (CAC) が実装されているビジネス サーバーの Skype のほとんどの展開では通常あるサブネットの数が多い。</span><span class="sxs-lookup"><span data-stu-id="83914-106">In most deployments of Skype for Business Server where call admission control (CAC) is implemented, there will typically be a large number of subnets.</span></span> <span data-ttu-id="83914-107">このため、お勧め多くの場合ビジネス サーバー管理シェルには、Skype からサブネットを構成します。</span><span class="sxs-lookup"><span data-stu-id="83914-107">Because of this, it is often best to configure subnets from the Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="16d60-105">Skype for Business Server コントロールパネルまたは Skype for Business Server 管理シェルを使って、ネットワークサブネットを管理することができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-105">You can use either the Skype for Business Server Control Panel or the Skype for Business Server Management Shell to manage network subnets.</span></span> <span data-ttu-id="16d60-106">通話受付制御 (CAC) が実装されている Skype for Business Server の大半の展開では、通常、多数のサブネットが存在します。</span><span class="sxs-lookup"><span data-stu-id="16d60-106">In most deployments of Skype for Business Server where call admission control (CAC) is implemented, there will typically be a large number of subnets.</span></span> <span data-ttu-id="16d60-107">このため、多くの場合、Skype for Business Server 管理シェルからサブネットを構成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="16d60-107">Because of this, it is often best to configure subnets from the Skype for Business Server Management Shell.</span></span>
 
-<span data-ttu-id="83914-108">ネットワーク サブネットの情報を表示または作成、変更、またはネットワークのサブネットを削除するには、この資料のセクションを使用します。</span><span class="sxs-lookup"><span data-stu-id="83914-108">Use the sections in this article to view network subnet information or create, modify, or delete network subnets.</span></span> 
+<span data-ttu-id="16d60-108">この記事のセクションを使用して、ネットワークサブネット情報の表示、またはネットワークサブネットの作成、変更、または削除を行います。</span><span class="sxs-lookup"><span data-stu-id="16d60-108">Use the sections in this article to view network subnet information or create, modify, or delete network subnets.</span></span> 
 
-## <a name="view-network-subnet-information"></a><span data-ttu-id="83914-109">ネットワークのサブネット情報を表示します。</span><span class="sxs-lookup"><span data-stu-id="83914-109">View network subnet information</span></span> 
+## <a name="view-network-subnet-information"></a><span data-ttu-id="16d60-109">ネットワークサブネット情報を表示する</span><span class="sxs-lookup"><span data-stu-id="16d60-109">View network subnet information</span></span> 
 
-<span data-ttu-id="83914-110">ネットワークのサブネットを表示するのには、次の手順を使用できます。</span><span class="sxs-lookup"><span data-stu-id="83914-110">You can use the following procedure to view a network subnet.</span></span> <span data-ttu-id="83914-111">ビジネス サーバーのコントロール パネルの Skype からを作成、変更、またはネットワーク サブネットを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="83914-111">From the Skype for Business Server Control Panel, you can create, modify, or delete a network subnet.</span></span> 
+<span data-ttu-id="16d60-110">次の手順を使用して、ネットワークサブネットを表示できます。</span><span class="sxs-lookup"><span data-stu-id="16d60-110">You can use the following procedure to view a network subnet.</span></span> <span data-ttu-id="16d60-111">Skype for Business Server コントロールパネルから、ネットワークサブネットの作成、変更、または削除を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-111">From the Skype for Business Server Control Panel, you can create, modify, or delete a network subnet.</span></span> 
 
-### <a name="to-view-a-network-subnet"></a><span data-ttu-id="83914-112">ネットワークのサブネットを表示するのには</span><span class="sxs-lookup"><span data-stu-id="83914-112">To view a network subnet</span></span>
+### <a name="to-view-a-network-subnet"></a><span data-ttu-id="16d60-112">ネットワークサブネットを表示するには</span><span class="sxs-lookup"><span data-stu-id="16d60-112">To view a network subnet</span></span>
 
-1.  <span data-ttu-id="83914-113">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="83914-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="16d60-113">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="16d60-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="83914-114">、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="83914-114">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2.  <span data-ttu-id="16d60-114">ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="16d60-114">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
 
-3.  <span data-ttu-id="83914-115">左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、[**サブネット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-115">In the left navigation bar, click **Network Configuration**, and then click **Subnet**.</span></span>
+3.  <span data-ttu-id="16d60-115">左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**サブネット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-115">In the left navigation bar, click **Network Configuration**, and then click **Subnet**.</span></span>
 
-4.  <span data-ttu-id="83914-116">[**サブネット**] ページで、表示するサブネットをクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-116">On the **Subnet** page, click the subnet that you want to view.</span></span>
+4.  <span data-ttu-id="16d60-116">[ **Subnet** ] ページで、表示するサブネットをクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-116">On the **Subnet** page, click the subnet that you want to view.</span></span>
  
     > [!NOTE]  
-    > <span data-ttu-id="83914-117">のみ、一度に 1 つのサブネットを表示できます。</span><span class="sxs-lookup"><span data-stu-id="83914-117">You can only view one subnet at a time.</span></span>
+    > <span data-ttu-id="16d60-117">一度に1つのサブネットしか表示できません。</span><span class="sxs-lookup"><span data-stu-id="16d60-117">You can only view one subnet at a time.</span></span>
 
-5.  <span data-ttu-id="83914-118">[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-118">On the **Edit** menu, click **Show details**.</span></span>
+5.  <span data-ttu-id="16d60-118">[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-118">On the **Edit** menu, click **Show details**.</span></span>
 
-### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="83914-119">ネットワーク サブネットの構成情報を使用して Windows PowerShell コマンドレットで表示します。</span><span class="sxs-lookup"><span data-stu-id="83914-119">View network subnet configuration information by Using Windows PowerShell cmdlets</span></span>
+### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="16d60-119">Windows PowerShell コマンドレットを使用してネットワークサブネット構成情報を表示する</span><span class="sxs-lookup"><span data-stu-id="16d60-119">View network subnet configuration information by Using Windows PowerShell cmdlets</span></span>
 
-<span data-ttu-id="83914-120">Windows PowerShell と Get CsNetworkSubnet コマンドレットを使用して、ネットワーク サブネットの情報を表示できます。</span><span class="sxs-lookup"><span data-stu-id="83914-120">Network subnet information can be viewed by using Windows PowerShell and the Get-CsNetworkSubnet cmdlet.</span></span> <span data-ttu-id="83914-121">ビジネス サーバー管理シェルの Skype とは Windows PowerShell のリモート セッションからは、このコマンドレットを実行できます。</span><span class="sxs-lookup"><span data-stu-id="83914-121">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+<span data-ttu-id="16d60-120">ネットワークサブネットの情報を表示するには、Windows PowerShell を使用するか、または CsNetworkSubnet コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="16d60-120">Network subnet information can be viewed by using Windows PowerShell and the Get-CsNetworkSubnet cmdlet.</span></span> <span data-ttu-id="16d60-121">このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="16d60-121">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
 
-### <a name="to-view-network-subnet-information"></a><span data-ttu-id="83914-122">ネットワーク サブネットの情報を表示するのには</span><span class="sxs-lookup"><span data-stu-id="83914-122">To view network subnet information</span></span>
+### <a name="to-view-network-subnet-information"></a><span data-ttu-id="16d60-122">ネットワークサブネット情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="16d60-122">To view network subnet information</span></span>
 
-  - <span data-ttu-id="83914-123">ネットワークのサブネットに関する情報を表示するのには、Skype のビジネス サーバー管理シェルの次のコマンドを入力し、し、ENTER キーを押します。</span><span class="sxs-lookup"><span data-stu-id="83914-123">To view information about all your network subnets, type the following command in the Skype for Business Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="16d60-123">すべてのネットワークサブネットに関する情報を表示するには、Skype for Business Server 管理シェルで次のコマンドを入力して、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="16d60-123">To view information about all your network subnets, type the following command in the Skype for Business Server Management Shell and then press ENTER:</span></span>
     
         Get-CsNetworkSubnet
     
-    <span data-ttu-id="83914-124">次のような情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="83914-124">That will return information similar to this:</span></span>
+    <span data-ttu-id="16d60-124">次のような情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="16d60-124">That will return information similar to this:</span></span>
     
         Identity      : 172.11.15.0
         MaskBits      : 28
@@ -60,87 +60,87 @@ ms.locfileid: "33913357"
         SubnetID      : 172.11.15.0
 
 
-<span data-ttu-id="83914-125">詳細については、 [Get CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)コマンドレットのヘルプ トピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="83914-125">For more information, see the help topic for the [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) cmdlet.</span></span>
+<span data-ttu-id="16d60-125">詳細については、「 [CsNetworkSubnet の取得](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)」コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="16d60-125">For more information, see the help topic for the [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) cmdlet.</span></span>
 
 
-## <a name="create-or-modify-network-subnets"></a><span data-ttu-id="83914-126">作成またはネットワークのサブネットを変更します。</span><span class="sxs-lookup"><span data-stu-id="83914-126">Create or modify network subnets</span></span> 
+## <a name="create-or-modify-network-subnets"></a><span data-ttu-id="16d60-126">ネットワークサブネットを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="16d60-126">Create or modify network subnets</span></span> 
 
-<span data-ttu-id="83914-127">このサブネットに属するホストの地理的位置を決定するためにネットワークのサブネットをネットワーク サイトに関連付けられてする必要があります。</span><span class="sxs-lookup"><span data-stu-id="83914-127">A network subnet must be associated with a network site for the purposes of determining the geographic location of the host belonging to this subnet.</span></span> <span data-ttu-id="83914-128">ビジネス サーバーのコントロール パネルの Skype を使用すると、サブネットを構成します。</span><span class="sxs-lookup"><span data-stu-id="83914-128">You can use the Skype for Business Server Control Panel to configure subnets.</span></span> <span data-ttu-id="83914-129">ビジネス サーバーのコントロール パネルの Skype からを作成、変更、またはネットワーク サブネットを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="83914-129">From the Skype for Business Server Control Panel, you can create, modify, or delete a network subnet.</span></span> 
+<span data-ttu-id="16d60-127">ネットワークサブネットは、このサブネットに属しているホストの地理的な場所を判断するために、ネットワークサイトと関連付けられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="16d60-127">A network subnet must be associated with a network site for the purposes of determining the geographic location of the host belonging to this subnet.</span></span> <span data-ttu-id="16d60-128">Skype for Business Server コントロールパネルを使用して、サブネットを構成することができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-128">You can use the Skype for Business Server Control Panel to configure subnets.</span></span> <span data-ttu-id="16d60-129">Skype for Business Server コントロールパネルから、ネットワークサブネットの作成、変更、または削除を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-129">From the Skype for Business Server Control Panel, you can create, modify, or delete a network subnet.</span></span> 
 
-<span data-ttu-id="83914-130">呼受付制御 (CAC) が実装されているビジネス サーバーの Skype のほとんどの展開では通常あるサブネットの数が多い。</span><span class="sxs-lookup"><span data-stu-id="83914-130">In most deployments of Skype for Business Server where call admission control (CAC) is implemented, there will typically be a large number of subnets.</span></span> <span data-ttu-id="83914-131">このため、お勧め多くの場合ビジネス サーバー管理シェルには、Skype からサブネットを構成します。</span><span class="sxs-lookup"><span data-stu-id="83914-131">Because of this, it is often best to configure subnets from the Skype for Business Server Management Shell.</span></span> <span data-ttu-id="83914-132">そこからは、Windows PowerShell コマンドレット**が CSV のインポート**と連携して**新規 CsNetworkSubnet**を呼び出すことができます。</span><span class="sxs-lookup"><span data-stu-id="83914-132">From there you can call **New-CsNetworkSubnet** in conjunction with the Windows PowerShell cmdlet **Import-CSV**.</span></span> <span data-ttu-id="83914-133">一緒にこれらのコマンドレットを使用して、すると、コンマ区切り値 (.csv) ファイルからサブネットの設定で読み取りでき、同時に複数のサブネットを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="83914-133">By using these cmdlets together, you can read in subnet settings from a comma-separated values (.csv) file and create multiple subnets at the same time.</span></span> <span data-ttu-id="83914-134">.Csv ファイルからサブネットを作成する方法の例については、[新規 CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="83914-134">For examples of how to create subnets from a .csv file, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).</span></span>
+<span data-ttu-id="16d60-130">通話受付制御 (CAC) が実装されている Skype for Business Server の大半の展開では、通常、多数のサブネットが存在します。</span><span class="sxs-lookup"><span data-stu-id="16d60-130">In most deployments of Skype for Business Server where call admission control (CAC) is implemented, there will typically be a large number of subnets.</span></span> <span data-ttu-id="16d60-131">このため、多くの場合、Skype for Business Server 管理シェルからサブネットを構成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="16d60-131">Because of this, it is often best to configure subnets from the Skype for Business Server Management Shell.</span></span> <span data-ttu-id="16d60-132">そこから、Windows PowerShell コマンドレットの**Import-CSV**と組み合わせて、**新しい csnetworksubnet**を呼び出すことができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-132">From there you can call **New-CsNetworkSubnet** in conjunction with the Windows PowerShell cmdlet **Import-CSV**.</span></span> <span data-ttu-id="16d60-133">これらのコマンドレットを一緒に使用することで、サブネットの設定をコンマ区切り値 (.csv) ファイルから読み取り、複数のサブネットを同時に作成することができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-133">By using these cmdlets together, you can read in subnet settings from a comma-separated values (.csv) file and create multiple subnets at the same time.</span></span> <span data-ttu-id="16d60-134">.Csv ファイルからサブネットを作成する方法の例については、「[新しい-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="16d60-134">For examples of how to create subnets from a .csv file, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).</span></span>
 
 
-### <a name="to-create-a-network-subnet"></a><span data-ttu-id="83914-135">ネットワーク サブネットを作成するには</span><span class="sxs-lookup"><span data-stu-id="83914-135">To create a network subnet</span></span>
+### <a name="to-create-a-network-subnet"></a><span data-ttu-id="16d60-135">ネットワークサブネットを作成するには</span><span class="sxs-lookup"><span data-stu-id="16d60-135">To create a network subnet</span></span>
 
-1.  <span data-ttu-id="83914-136">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="83914-136">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="16d60-136">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="16d60-136">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="83914-137">、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="83914-137">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2.  <span data-ttu-id="16d60-137">ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="16d60-137">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
 
-3.  <span data-ttu-id="83914-138">左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、[**サブネット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-138">In the left navigation bar, click **Network Configuration**, and then click **Subnet**.</span></span>
+3.  <span data-ttu-id="16d60-138">左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**サブネット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-138">In the left navigation bar, click **Network Configuration**, and then click **Subnet**.</span></span>
 
-4.  <span data-ttu-id="83914-139">[**サブネット**] ページで [**新規**を] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-139">On the **Subnet** page, click **New**.</span></span>
+4.  <span data-ttu-id="16d60-139">[**サブネット**] ページで、[**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-139">On the **Subnet** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="83914-140">**新しいサブネット**の**サブネット ID**フィールドの値を入力します。</span><span class="sxs-lookup"><span data-stu-id="83914-140">In **New Subnet**, enter a value in the **Subnet ID** field.</span></span> <span data-ttu-id="83914-141">これは、IP アドレス (174.11.12.0 など) は、サブネットで定義されている IP アドレスの範囲内の最初のアドレスである必要があります。</span><span class="sxs-lookup"><span data-stu-id="83914-141">This must be an IP address (for example, 174.11.12.0), and it must be the first address in the IP address range defined by the subnet.</span></span>
+5.  <span data-ttu-id="16d60-140">[**新しいサブネット**] で、[**サブネット ID** ] フィールドに値を入力します。</span><span class="sxs-lookup"><span data-stu-id="16d60-140">In **New Subnet**, enter a value in the **Subnet ID** field.</span></span> <span data-ttu-id="16d60-141">これは IP アドレス (たとえば、174.11.12.0) である必要があり、サブネットで定義された IP アドレス範囲の最初のアドレスである必要があります。</span><span class="sxs-lookup"><span data-stu-id="16d60-141">This must be an IP address (for example, 174.11.12.0), and it must be the first address in the IP address range defined by the subnet.</span></span>
 
-6.  <span data-ttu-id="83914-142">**マスク**」フィールドには、1 から 32 までの数値を入力します。</span><span class="sxs-lookup"><span data-stu-id="83914-142">In the **Mask** field, enter a numeric value from 1 through 32.</span></span>
+6.  <span data-ttu-id="16d60-142">[**マスク**] フィールドに、1 ~ 32 の数値を入力します。</span><span class="sxs-lookup"><span data-stu-id="16d60-142">In the **Mask** field, enter a numeric value from 1 through 32.</span></span>
 
     > [!NOTE]  
-    > <span data-ttu-id="83914-143">この値は、作成されているサブネットに適用するのにはビット マスクです。</span><span class="sxs-lookup"><span data-stu-id="83914-143">This value is the bitmask that is to be applied to the subnet being created.</span></span>
+    > <span data-ttu-id="16d60-143">この値は、作成されるサブネットに適用されるビットマスクです。</span><span class="sxs-lookup"><span data-stu-id="16d60-143">This value is the bitmask that is to be applied to the subnet being created.</span></span>
 
-7.  <span data-ttu-id="83914-144">[**ネットワーク サイト ID**には、このサブネットが所属するサイトを選択します。</span><span class="sxs-lookup"><span data-stu-id="83914-144">In **Network site ID**, select the site to which this subnet belongs.</span></span>
+7.  <span data-ttu-id="16d60-144">[**ネットワークサイト ID**] で、このサブネットが所属するサイトを選びます。</span><span class="sxs-lookup"><span data-stu-id="16d60-144">In **Network site ID**, select the site to which this subnet belongs.</span></span>
 
-8.  <span data-ttu-id="83914-145">(省略可能)表すことのできない、名前だけがこのサブネットの詳細については、[**説明**] フィールドに値を入力します。</span><span class="sxs-lookup"><span data-stu-id="83914-145">(Optional) Type a value in the **Description** field to provide more information about this subnet that cannot be expressed by the name alone.</span></span>
+8.  <span data-ttu-id="16d60-145">省略[**説明**] フィールドに値を入力して、このサブネットについて、名前だけでは表現できない詳細情報を入力します。</span><span class="sxs-lookup"><span data-stu-id="16d60-145">(Optional) Type a value in the **Description** field to provide more information about this subnet that cannot be expressed by the name alone.</span></span>
 
-9.  <span data-ttu-id="83914-146">[**コミット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-146">Click **Commit**.</span></span>
-
-
-### <a name="to-modify-a-network-subnet"></a><span data-ttu-id="83914-147">ネットワーク サブネットを変更するのには</span><span class="sxs-lookup"><span data-stu-id="83914-147">To modify a network subnet</span></span>
-
-1.  <span data-ttu-id="83914-148">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="83914-148">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
-
-2.  <span data-ttu-id="83914-149">、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="83914-149">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
-
-3.  <span data-ttu-id="83914-150">左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、[**サブネット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-150">In the left navigation bar, click **Network Configuration**, and then click **Subnet**.</span></span>
-
-4.  <span data-ttu-id="83914-151">[**サブネット**] ページで、変更するサブネットをクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-151">On the **Subnet** page, click the subnet that you want to modify.</span></span>
-
-5.  <span data-ttu-id="83914-152">[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-152">On the **Edit** menu, click **Show details**.</span></span>
-
-6.  <span data-ttu-id="83914-153">[**サブネットの編集**] ページでは、ビットマスク、関連付けられたネットワーク サイト、または説明を変更できます。</span><span class="sxs-lookup"><span data-stu-id="83914-153">On the **Edit Subnet** page, you can modify the bitmask, associated network site, or description.</span></span> <span data-ttu-id="83914-154">ビットマスクを変更する場合は、サブネット ID がサブネットで定義されている IP アドレスの範囲内の最初のアドレスをする必要がありますまだすることに留意してください。</span><span class="sxs-lookup"><span data-stu-id="83914-154">If you modify the bitmask, keep in mind that the Subnet ID must still be the first address in the IP address range defined by the subnet.</span></span>
-
-7.  <span data-ttu-id="83914-155">[**コミット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-155">Click **Commit**.</span></span>
-
-## <a name="delete-network-subnets"></a><span data-ttu-id="83914-156">ネットワーク サブネットを削除します。</span><span class="sxs-lookup"><span data-stu-id="83914-156">Delete network subnets</span></span>
-
-<span data-ttu-id="83914-157">サブネットを削除するのには、次の手順を使用できます。</span><span class="sxs-lookup"><span data-stu-id="83914-157">You can use the following procedure to delete a subnet.</span></span> <span data-ttu-id="83914-158">ビジネス サーバーのコントロール パネルの Skype からを作成、変更、またはネットワーク サブネットを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="83914-158">From the Skype for Business Server Control Panel, you can create, modify, or delete a network subnet.</span></span> 
-
-<span data-ttu-id="83914-159">呼受付制御 (CAC) が実装されているビジネス サーバーの Skype のほとんどの展開では通常あるサブネットの数が多い。</span><span class="sxs-lookup"><span data-stu-id="83914-159">In most deployments of Skype for Business Server where call admission control (CAC) is implemented, there will typically be a large number of subnets.</span></span> <span data-ttu-id="83914-160">このため、お勧め多くの場合ビジネス サーバー管理シェルには、Skype からサブネットを構成します。</span><span class="sxs-lookup"><span data-stu-id="83914-160">Because of this, it is often best to configure subnets from the Skype for Business Server Management Shell.</span></span> <span data-ttu-id="83914-161">そこからは、Windows PowerShell コマンドレット**が CSV のインポート**と連携して**新規 CsNetworkSubnet**を呼び出すことができます。</span><span class="sxs-lookup"><span data-stu-id="83914-161">From there you can call **New-CsNetworkSubnet** in conjunction with the Windows PowerShell cmdlet **Import-CSV**.</span></span> <span data-ttu-id="83914-162">一緒にこれらのコマンドレットを使用して、すると、コンマ区切り値 (.csv) ファイルからサブネットの設定で読み取りでき、同時に複数のサブネットを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="83914-162">By using these cmdlets together, you can read in subnet settings from a comma-separated values (.csv) file and create multiple subnets at the same time.</span></span> <span data-ttu-id="83914-163">.Csv ファイルからサブネットを作成する方法の例については、[新規 CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="83914-163">For examples of how to create subnets from a .csv file, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).</span></span>
+9.  <span data-ttu-id="16d60-146">[**コミット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-146">Click **Commit**.</span></span>
 
 
-### <a name="to-delete-a-network-subnet"></a><span data-ttu-id="83914-164">ネットワーク サブネットを削除するのには</span><span class="sxs-lookup"><span data-stu-id="83914-164">To delete a network subnet</span></span>
+### <a name="to-modify-a-network-subnet"></a><span data-ttu-id="16d60-147">ネットワークサブネットを変更するには</span><span class="sxs-lookup"><span data-stu-id="16d60-147">To modify a network subnet</span></span>
 
-1.  <span data-ttu-id="83914-165">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="83914-165">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="16d60-148">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="16d60-148">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="83914-166">、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="83914-166">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2.  <span data-ttu-id="16d60-149">ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="16d60-149">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
 
-3.  <span data-ttu-id="83914-167">左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、[**サブネット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-167">In the left navigation bar, click **Network Configuration**, and then click **Subnet**.</span></span>
+3.  <span data-ttu-id="16d60-150">左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**サブネット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-150">In the left navigation bar, click **Network Configuration**, and then click **Subnet**.</span></span>
 
-4.  <span data-ttu-id="83914-168">[**サブネット**] ページで、削除するサブネットをクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-168">On the **Subnet** page, click the subnet that you want to delete.</span></span>
+4.  <span data-ttu-id="16d60-151">[ **Subnet** ] ページで、変更するサブネットをクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-151">On the **Subnet** page, click the subnet that you want to modify.</span></span>
+
+5.  <span data-ttu-id="16d60-152">[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-152">On the **Edit** menu, click **Show details**.</span></span>
+
+6.  <span data-ttu-id="16d60-153">[**サブネットの編集**] ページでは、ビットマスク、関連付けられたネットワークサイト、または説明を変更できます。</span><span class="sxs-lookup"><span data-stu-id="16d60-153">On the **Edit Subnet** page, you can modify the bitmask, associated network site, or description.</span></span> <span data-ttu-id="16d60-154">ビットマスクを変更する場合は、サブネット ID が、サブネットで定義されている IP アドレス範囲の最初のアドレスである必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="16d60-154">If you modify the bitmask, keep in mind that the Subnet ID must still be the first address in the IP address range defined by the subnet.</span></span>
+
+7.  <span data-ttu-id="16d60-155">[**コミット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-155">Click **Commit**.</span></span>
+
+## <a name="delete-network-subnets"></a><span data-ttu-id="16d60-156">ネットワークサブネットを削除する</span><span class="sxs-lookup"><span data-stu-id="16d60-156">Delete network subnets</span></span>
+
+<span data-ttu-id="16d60-157">次の手順を使用して、サブネットを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-157">You can use the following procedure to delete a subnet.</span></span> <span data-ttu-id="16d60-158">Skype for Business Server コントロールパネルから、ネットワークサブネットの作成、変更、または削除を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-158">From the Skype for Business Server Control Panel, you can create, modify, or delete a network subnet.</span></span> 
+
+<span data-ttu-id="16d60-159">通話受付制御 (CAC) が実装されている Skype for Business Server の大半の展開では、通常、多数のサブネットが存在します。</span><span class="sxs-lookup"><span data-stu-id="16d60-159">In most deployments of Skype for Business Server where call admission control (CAC) is implemented, there will typically be a large number of subnets.</span></span> <span data-ttu-id="16d60-160">このため、多くの場合、Skype for Business Server 管理シェルからサブネットを構成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="16d60-160">Because of this, it is often best to configure subnets from the Skype for Business Server Management Shell.</span></span> <span data-ttu-id="16d60-161">そこから、Windows PowerShell コマンドレットの**Import-CSV**と組み合わせて、**新しい csnetworksubnet**を呼び出すことができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-161">From there you can call **New-CsNetworkSubnet** in conjunction with the Windows PowerShell cmdlet **Import-CSV**.</span></span> <span data-ttu-id="16d60-162">これらのコマンドレットを一緒に使用することで、サブネットの設定をコンマ区切り値 (.csv) ファイルから読み取り、複数のサブネットを同時に作成することができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-162">By using these cmdlets together, you can read in subnet settings from a comma-separated values (.csv) file and create multiple subnets at the same time.</span></span> <span data-ttu-id="16d60-163">.Csv ファイルからサブネットを作成する方法の例については、「[新しい-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="16d60-163">For examples of how to create subnets from a .csv file, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).</span></span>
+
+
+### <a name="to-delete-a-network-subnet"></a><span data-ttu-id="16d60-164">ネットワークサブネットを削除するには</span><span class="sxs-lookup"><span data-stu-id="16d60-164">To delete a network subnet</span></span>
+
+1.  <span data-ttu-id="16d60-165">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="16d60-165">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="16d60-166">ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="16d60-166">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+
+3.  <span data-ttu-id="16d60-167">左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**サブネット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-167">In the left navigation bar, click **Network Configuration**, and then click **Subnet**.</span></span>
+
+4.  <span data-ttu-id="16d60-168">[ **Subnet** ] ページで、削除するサブネットをクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-168">On the **Subnet** page, click the subnet that you want to delete.</span></span>
  
     > [!NOTE]  
-    > <span data-ttu-id="83914-169">同時に複数のサブネットを削除できます。</span><span class="sxs-lookup"><span data-stu-id="83914-169">You can delete more than one subnet at a time.</span></span> <span data-ttu-id="83914-170">これを行うには、CTRL キーを押し、CTRL キーを押しながら複数のサブネットを選択します。</span><span class="sxs-lookup"><span data-stu-id="83914-170">To do this, press CTRL and select multiple subnets while holding down the CTRL key.</span></span> <span data-ttu-id="83914-171">または、すべてのサブネットを選択するに **[すべて選択**] をクリックして **[編集**] メニューです。</span><span class="sxs-lookup"><span data-stu-id="83914-171">Or, to select all subnets, click **Select all** on the **Edit** menu.</span></span>
+    > <span data-ttu-id="16d60-169">一度に複数のサブネットを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="16d60-169">You can delete more than one subnet at a time.</span></span> <span data-ttu-id="16d60-170">これを行うには、ctrl キーを押しながら、CTRL キーを押しながら複数のサブネットを選択します。</span><span class="sxs-lookup"><span data-stu-id="16d60-170">To do this, press CTRL and select multiple subnets while holding down the CTRL key.</span></span> <span data-ttu-id="16d60-171">または、すべてのサブネットを選択するには、[**編集**] メニューの [**すべて選択**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-171">Or, to select all subnets, click **Select all** on the **Edit** menu.</span></span>
 
-5.  <span data-ttu-id="83914-172">[**編集**] メニューの [**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-172">On the **Edit** menu, click **Delete**.</span></span>
+5.  <span data-ttu-id="16d60-172">[**編集**] メニューの [**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-172">On the **Edit** menu, click **Delete**.</span></span>
 
-6.  <span data-ttu-id="83914-173">**[OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="83914-173">Click **OK**.</span></span>
+6.  <span data-ttu-id="16d60-173">**[OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d60-173">Click **OK**.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="83914-174">関連項目</span><span class="sxs-lookup"><span data-stu-id="83914-174">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="16d60-174">関連項目</span><span class="sxs-lookup"><span data-stu-id="16d60-174">See Also</span></span>
 
-[<span data-ttu-id="83914-175">新しい-CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="83914-175">New-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
+[<span data-ttu-id="16d60-175">新しい-CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="16d60-175">New-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
 
-[<span data-ttu-id="83914-176">セット CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="83914-176">Set-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSubnet)  
+[<span data-ttu-id="16d60-176">Set-CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="16d60-176">Set-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSubnet)  
 
-[<span data-ttu-id="83914-177">削除 CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="83914-177">Remove-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSubnet)  
+[<span data-ttu-id="16d60-177">CsNetworkSubnet の削除</span><span class="sxs-lookup"><span data-stu-id="16d60-177">Remove-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSubnet)  
 
-[<span data-ttu-id="83914-178">Get-CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="83914-178">Get-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)  
+[<span data-ttu-id="16d60-178">Get-CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="16d60-178">Get-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)  

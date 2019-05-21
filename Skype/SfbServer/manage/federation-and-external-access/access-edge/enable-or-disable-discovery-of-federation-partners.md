@@ -8,57 +8,57 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 時に、エッジ サーバーの展開し、フェデレーションを有効になっている、組織の必要がある指定したフェデレーション パートナー ドメインの自動検出をサポートするかどうか。
-ms.openlocfilehash: cf12190b03df30f4a15f6ed5e0499aa97c66e576
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: エッジサーバーを展開して組織のフェデレーションを有効にした時点で、フェデレーションパートナードメインの自動検出をサポートするかどうかを指定する必要があります。
+ms.openlocfilehash: a5569639cf870d2a5da16ef81aa733724a6701b3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919515"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280258"
 ---
-# <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a><span data-ttu-id="0a819-103">有効にするか、ビジネスのサーバーの Skype でのフェデレーション パートナーの検出を無効にします。</span><span class="sxs-lookup"><span data-stu-id="0a819-103">Enable or disable discovery of federation partners in Skype for Business Server</span></span>
+# <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a><span data-ttu-id="fab1c-103">Skype for Business Server でフェデレーションパートナーの検出を有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="fab1c-103">Enable or disable discovery of federation partners in Skype for Business Server</span></span>
 
-<span data-ttu-id="0a819-104">時に、エッジ サーバーの展開し、フェデレーションを有効になっている、組織の必要がある指定したフェデレーション パートナー ドメインの自動検出をサポートするかどうか。</span><span class="sxs-lookup"><span data-stu-id="0a819-104">At the time you deployed your Edge Servers and enabled federation for your organization, you should have specified whether to support automatic discovery of federated partner domains.</span></span> <span data-ttu-id="0a819-105">その構成を変更するのにはこのトピックの手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="0a819-105">Use the procedure in this topic to change that configuration.</span></span>
+<span data-ttu-id="fab1c-104">エッジサーバーを展開して組織のフェデレーションを有効にした時点で、フェデレーションパートナードメインの自動検出をサポートするかどうかを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fab1c-104">At the time you deployed your Edge Servers and enabled federation for your organization, you should have specified whether to support automatic discovery of federated partner domains.</span></span> <span data-ttu-id="fab1c-105">この設定を変更するには、このトピックの手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="fab1c-105">Use the procedure in this topic to change that configuration.</span></span>
 
 > [!NOTE]  
-> <span data-ttu-id="0a819-106">次の手順では、組織のフェデレーションが既に有効にことを前提としています。</span><span class="sxs-lookup"><span data-stu-id="0a819-106">The following procedure assumes that you have already enabled federation for your organization.</span></span> <span data-ttu-id="0a819-107">フェデレーションを有効にする方法の詳細[を有効にするかリモート ユーザー アクセスを無効にする](enable-or-disable-remote-user-access.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0a819-107">For details about enabling federation, see [Enable or disable remote user access](enable-or-disable-remote-user-access.md).</span></span>
+> <span data-ttu-id="fab1c-106">次の手順では、組織のフェデレーションを既に有効にしていることを前提としています。</span><span class="sxs-lookup"><span data-stu-id="fab1c-106">The following procedure assumes that you have already enabled federation for your organization.</span></span> <span data-ttu-id="fab1c-107">フェデレーションを有効にする方法について詳しくは、「[リモートユーザーアクセスを有効または無効](enable-or-disable-remote-user-access.md)にする」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="fab1c-107">For details about enabling federation, see [Enable or disable remote user access](enable-or-disable-remote-user-access.md).</span></span>
 
-## <a name="to-enable-or-disable-automatic-discovery-of-federated-domains-for-your-organization"></a><span data-ttu-id="0a819-108">有効にするか、組織のフェデレーション ドメインの自動検出を無効にするには</span><span class="sxs-lookup"><span data-stu-id="0a819-108">To enable or disable automatic discovery of federated domains for your organization</span></span>
+## <a name="to-enable-or-disable-automatic-discovery-of-federated-domains-for-your-organization"></a><span data-ttu-id="fab1c-108">組織のフェデレーションドメインの自動検出を有効または無効にするには</span><span class="sxs-lookup"><span data-stu-id="fab1c-108">To enable or disable automatic discovery of federated domains for your organization</span></span>
 
-1.  <span data-ttu-id="0a819-109">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="0a819-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="fab1c-109">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="fab1c-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="0a819-110">、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="0a819-110">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
+2.  <span data-ttu-id="fab1c-110">ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="fab1c-110">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
 
-3.  <span data-ttu-id="0a819-111">左側のナビゲーション ・ バーで [**外部ユーザー アクセス**] をクリックして、[**アクセス エッジ構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0a819-111">In the left navigation bar, click **External User Access**, click **Access Edge Configuration**.</span></span>
+3.  <span data-ttu-id="fab1c-111">左側のナビゲーションバーで、[**外部ユーザーアクセス**] をクリックし、[**アクセスエッジ構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fab1c-111">In the left navigation bar, click **External User Access**, click **Access Edge Configuration**.</span></span>
 
-4.  <span data-ttu-id="0a819-112">[**アクセス エッジ構成**] ページで、[**グローバル**] をクリック**を編集**するには、、[**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0a819-112">On the **Access Edge Configuration** page, click **Global**, click **Edit**, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="fab1c-112">[**アクセスエッジの構成**] ページで [**グローバル**] をクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fab1c-112">On the **Access Edge Configuration** page, click **Global**, click **Edit**, and then click **Show details**.</span></span>
 
-5.  <span data-ttu-id="0a819-113">**アクセス エッジ構成の編集**、**フェデレーション ユーザーとの通信を有効にする**には、選択またはを有効にするか、パートナー ドメインの自動検出を無効にするには、**パートナー ドメインの検出を有効にする**] チェック ボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="0a819-113">In **Edit Access Edge Configuration**, under **Enable communications with federated users**, select or clear the **Enable partner domain discovery** check box to enable or disable automatic discovery of partner domains.</span></span>
+5.  <span data-ttu-id="fab1c-113">[ **Access Edge 構成の編集**] の [**フェデレーションユーザーとの通信を有効**にする] で、パートナードメインの自動検出を有効または無効にするには、[**パートナードメインの検出を有効**にする] チェックボックスをオンまたはオフにします。</span><span class="sxs-lookup"><span data-stu-id="fab1c-113">In **Edit Access Edge Configuration**, under **Enable communications with federated users**, select or clear the **Enable partner domain discovery** check box to enable or disable automatic discovery of partner domains.</span></span>
 
-6.  <span data-ttu-id="0a819-114">[**コミット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0a819-114">Click **Commit**.</span></span>
+6.  <span data-ttu-id="fab1c-114">[**コミット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fab1c-114">Click **Commit**.</span></span>
 
-<span data-ttu-id="0a819-115">フェデレーション ユーザーにビジネスのサーバーの展開に、Skype のユーザーと共同作業を有効にするには、必要がありますもしているフェデレーション ユーザー アクセスをサポートするために少なくとも 1 つの外部アクセス ポリシーです。</span><span class="sxs-lookup"><span data-stu-id="0a819-115">To enable federated users to collaborate with users in your Skype for Business Server deployment, you must have also configured at least one external access policy to support federated user access.</span></span> <span data-ttu-id="0a819-116">詳細については、[有効にするかフェデレーションとパブリック IM 接続を無効にする](enable-or-disable-federation-and-public-im-connectivity.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0a819-116">For details, see [Enable or disable federation and public IM connectivity](enable-or-disable-federation-and-public-im-connectivity.md).</span></span> <span data-ttu-id="0a819-117">特定のフェデレーション ドメインのアクセスを制御する方法の詳細は、[ドメインをフェデレーションする SIP を管理](../sip-domains/manage-sip-federated-domains-for-your-organization.md)し、[プロバイダーをフェデレーションする SIP の管理](../sip-providers/manage-sip-federated-providers-for-your-organization.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0a819-117">For details about controlling access for specific federated domains, see [Manage SIP federated domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md) and [Manage SIP federated providers](../sip-providers/manage-sip-federated-providers-for-your-organization.md).</span></span>
-
-
-## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="0a819-118">有効にするか、Windows PowerShell コマンドレットを使用してフェデレーション パートナーの検出を無効にします。</span><span class="sxs-lookup"><span data-stu-id="0a819-118">Enabling or disabling discovery of federation partners by using Windows PowerShell cmdlets</span></span>
-
-<span data-ttu-id="0a819-119">フェデレーション パートナーの検出は、Windows PowerShell とセット CsAccessEdgeConfiguration コマンドレットを使用して管理できます。</span><span class="sxs-lookup"><span data-stu-id="0a819-119">Discovery of federation partners can be managed by using Windows PowerShell and the Set-CsAccessEdgeConfiguration cmdlet.</span></span> <span data-ttu-id="0a819-120">ビジネス サーバー管理シェルの Skype とは Windows PowerShell のリモート セッションからは、このコマンドレットを実行できます。</span><span class="sxs-lookup"><span data-stu-id="0a819-120">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+<span data-ttu-id="fab1c-115">フェデレーションされたユーザーが Skype for Business Server 展開のユーザーと共同作業できるようにするには、フェデレーションされたユーザーアクセスをサポートするために、少なくとも1つの外部アクセスポリシーを構成しておく必要があります。</span><span class="sxs-lookup"><span data-stu-id="fab1c-115">To enable federated users to collaborate with users in your Skype for Business Server deployment, you must have also configured at least one external access policy to support federated user access.</span></span> <span data-ttu-id="fab1c-116">詳細について[は、「フェデレーションとパブリック IM 接続を有効または無効](enable-or-disable-federation-and-public-im-connectivity.md)にする」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fab1c-116">For details, see [Enable or disable federation and public IM connectivity](enable-or-disable-federation-and-public-im-connectivity.md).</span></span> <span data-ttu-id="fab1c-117">特定のフェデレーションドメインのアクセス制御について詳しくは、「 [sip フェデレーションドメインを管理](../sip-domains/manage-sip-federated-domains-for-your-organization.md)する」と「 [sip フェデレーションプロバイダーを管理](../sip-providers/manage-sip-federated-providers-for-your-organization.md)する」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="fab1c-117">For details about controlling access for specific federated domains, see [Manage SIP federated domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md) and [Manage SIP federated providers](../sip-providers/manage-sip-federated-providers-for-your-organization.md).</span></span>
 
 
-## <a name="to-enable-discovery-of-federation-partners"></a><span data-ttu-id="0a819-121">フェデレーション パートナーの検出を有効にするには</span><span class="sxs-lookup"><span data-stu-id="0a819-121">To enable discovery of federation partners</span></span>
+## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="fab1c-118">Windows PowerShell コマンドレットを使用して、フェデレーションパートナーの検出を有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="fab1c-118">Enabling or disabling discovery of federation partners by using Windows PowerShell cmdlets</span></span>
 
-  - <span data-ttu-id="0a819-122">フェデレーション パートナーの検出を有効にするには、 **EnablePartnerDiscovery**プロパティの値を True ($True) に設定します。</span><span class="sxs-lookup"><span data-stu-id="0a819-122">To enable discovery of federation partners, set the value of the **EnablePartnerDiscovery** property to True ($True).</span></span> <span data-ttu-id="0a819-123">DNS SRV がこのプロパティの値を変更するのにはルーティングを有効にする必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="0a819-123">Note that you must enable DNS SRV routing in order to change this property value.</span></span>
+<span data-ttu-id="fab1c-119">フェデレーションパートナーの検出は、Windows PowerShell と CsAccessEdgeConfiguration コマンドレットを使用して管理できます。</span><span class="sxs-lookup"><span data-stu-id="fab1c-119">Discovery of federation partners can be managed by using Windows PowerShell and the Set-CsAccessEdgeConfiguration cmdlet.</span></span> <span data-ttu-id="fab1c-120">このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="fab1c-120">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+
+
+## <a name="to-enable-discovery-of-federation-partners"></a><span data-ttu-id="fab1c-121">フェデレーションパートナーの検出を有効にするには</span><span class="sxs-lookup"><span data-stu-id="fab1c-121">To enable discovery of federation partners</span></span>
+
+  - <span data-ttu-id="fab1c-122">フェデレーションパートナーの検出を有効にするには、 **Enablepartnerdiscovery**プロパティの値を True ($True) に設定します。</span><span class="sxs-lookup"><span data-stu-id="fab1c-122">To enable discovery of federation partners, set the value of the **EnablePartnerDiscovery** property to True ($True).</span></span> <span data-ttu-id="fab1c-123">このプロパティ値を変更するには、DNS SRV ルーティングを有効にする必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="fab1c-123">Note that you must enable DNS SRV routing in order to change this property value.</span></span>
     
         Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
-## <a name="to-disable-discovery-of-federation-partners"></a><span data-ttu-id="0a819-124">フェデレーション パートナーの検出を無効にするには</span><span class="sxs-lookup"><span data-stu-id="0a819-124">To disable discovery of federation partners</span></span>
+## <a name="to-disable-discovery-of-federation-partners"></a><span data-ttu-id="fab1c-124">フェデレーションパートナーの検出を無効にするには</span><span class="sxs-lookup"><span data-stu-id="fab1c-124">To disable discovery of federation partners</span></span>
 
-  - <span data-ttu-id="0a819-125">フェデレーション パートナーの検出を無効にするには、 **EnablePartnerDiscovery**プロパティの値を False ($False) に設定します。</span><span class="sxs-lookup"><span data-stu-id="0a819-125">To disable discovery of federation partners, set the value of the **EnablePartnerDiscovery** property to False ($False):</span></span>
+  - <span data-ttu-id="fab1c-125">フェデレーションパートナーの検出を無効にするには、 **Enablepartnerdiscovery**プロパティの値を False ($False) に設定します。</span><span class="sxs-lookup"><span data-stu-id="fab1c-125">To disable discovery of federation partners, set the value of the **EnablePartnerDiscovery** property to False ($False):</span></span>
     
         Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
 
