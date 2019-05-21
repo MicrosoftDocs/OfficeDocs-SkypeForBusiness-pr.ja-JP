@@ -5,51 +5,51 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
-description: ブランチ アプライアンスのリカバリ性に優れた、または [全般] で、存続可能ブランチ サーバーのプロパティを編集するのには次の操作を構成します。
-ms.openlocfilehash: 8469202562a263007ae5a89e9fa1835c6d641243
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Survivable Branch Appliance または Survivable Branch Server のプロパティを編集するには、[全般] で次のように構成します。
+ms.openlocfilehash: e0c2aba5998b2eb4288c63fd50f47e8e8bb75033
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911806"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301583"
 ---
-# <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a><span data-ttu-id="adb8a-103">Lync Server 2010 用のブランチ オフィス アプライアンス全般設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="adb8a-103">Branch Office Appliance General Settings Expander for Lync Server 2010</span></span>
+# <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a><span data-ttu-id="82dce-103">Lync Server 2010 用のブランチ オフィス アプライアンス全般設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="82dce-103">Branch Office Appliance General Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="adb8a-104">ブランチ アプライアンスのリカバリ性に優れた、または [**全般**] の下の存続可能ブランチ サーバーのプロパティを編集するのには次の操作を構成します。</span><span class="sxs-lookup"><span data-stu-id="adb8a-104">To edit properties for Survivable Branch Appliance or Survivable Branch Server , under **General**, you configure:</span></span>
+<span data-ttu-id="82dce-104">Survivable Branch Appliance または Survivable Branch Server のプロパティを編集するには、[**全般**] で次のように構成します。</span><span class="sxs-lookup"><span data-stu-id="82dce-104">To edit properties for Survivable Branch Appliance or Survivable Branch Server , under **General**, you configure:</span></span>
   
-- <span data-ttu-id="adb8a-105">**FQDN**: リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの完全修飾ドメイン名を入力します。</span><span class="sxs-lookup"><span data-stu-id="adb8a-105">**FQDN**: You type the fully qualified domain name of the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+- <span data-ttu-id="82dce-105">[ **FQDN**: Survivable branch Appliance または Survivable branch Server の完全修飾ドメイン名を入力します。</span><span class="sxs-lookup"><span data-stu-id="82dce-105">**FQDN**: You type the fully qualified domain name of the Survivable Branch Appliance or Survivable Branch Server.</span></span>
     
-    <span data-ttu-id="adb8a-106">**構成されているすべての IP アドレスを使用して**すべての目的のリカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに構成されている IP アドレスを使用します。</span><span class="sxs-lookup"><span data-stu-id="adb8a-106">**Use all configured IP addresses** uses the IP addresses configured on the Survivable Branch Appliance or Survivable Branch Server for all purposes.</span></span>
+    <span data-ttu-id="82dce-106">**すべての構成済み ip アドレスを使用する**には、Survivable branch Appliance または Survivable branch Server で構成されている ip アドレスをすべての目的で使います。</span><span class="sxs-lookup"><span data-stu-id="82dce-106">**Use all configured IP addresses** uses the IP addresses configured on the Survivable Branch Appliance or Survivable Branch Server for all purposes.</span></span>
     
-    <span data-ttu-id="adb8a-107">[**選択された IP アドレスのみにサービスの使用を制限する**]: PSTN で使用するサーバーおよび IP アドレスを定義する別のアドレスを構成します。</span><span class="sxs-lookup"><span data-stu-id="adb8a-107">**Limit service usage to selected IP addresses** You configure the distinct address that define the server and the IP address to be used for PSTN.</span></span>
+    <span data-ttu-id="82dce-107">[**選択された IP アドレスのみにサービスの使用を制限する**]: PSTN で使用するサーバーおよび IP アドレスを定義する別のアドレスを構成します。</span><span class="sxs-lookup"><span data-stu-id="82dce-107">**Limit service usage to selected IP addresses** You configure the distinct address that define the server and the IP address to be used for PSTN.</span></span>
     
-    <span data-ttu-id="adb8a-108">[**プライマリ IP アドレス**]: PSTN 関連の機能を除く、すべての目的のために IP アドレスを定義および構成します。</span><span class="sxs-lookup"><span data-stu-id="adb8a-108">**Primary IP address**: The IP address is defined and configured for all purposes, except for PSTN-associated functions.</span></span>
+    <span data-ttu-id="82dce-108">[**プライマリ IP アドレス**]: PSTN 関連の機能を除く、すべての目的のために IP アドレスを定義および構成します。</span><span class="sxs-lookup"><span data-stu-id="82dce-108">**Primary IP address**: The IP address is defined and configured for all purposes, except for PSTN-associated functions.</span></span>
     
-    <span data-ttu-id="adb8a-109">[**PSTN の IP アドレス**]: 公衆交換電話網 (PSTN) 機能に関連付けられた IP アドレス。</span><span class="sxs-lookup"><span data-stu-id="adb8a-109">**PSTN IP address**: The IP address associated with the public switched telephone network (PSTN) functions.</span></span>
+    <span data-ttu-id="82dce-109">[**PSTN の IP アドレス**]: 公衆交換電話網 (PSTN) 機能に関連付けられた IP アドレス。</span><span class="sxs-lookup"><span data-stu-id="82dce-109">**PSTN IP address**: The IP address associated with the public switched telephone network (PSTN) functions.</span></span>
     
-- <span data-ttu-id="adb8a-110">他のサーバーの役割が構成されているし、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けられていることを確認するのには、**関連付け**を構成するとします。</span><span class="sxs-lookup"><span data-stu-id="adb8a-110">You configure **Associations** to ensure that other server roles are configured and associated with the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+- <span data-ttu-id="82dce-110">他のサーバーの役割を構成し、Survivable Branch Appliance または Survivable ブランチサーバーと関連付けられるように、**関連付け**を構成します。</span><span class="sxs-lookup"><span data-stu-id="82dce-110">You configure **Associations** to ensure that other server roles are configured and associated with the Survivable Branch Appliance or Survivable Branch Server.</span></span>
     
-    <span data-ttu-id="adb8a-111">**アーカイブ サーバーを関連付ける**リストから、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けるアーカイブ サーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="adb8a-111">**Associate Archiving Server** Select from the list the Archiving Server that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
+    <span data-ttu-id="82dce-111">**アーカイブサーバーの関連付け**Survivable Branch Appliance または Survivable Branch Server に関連付けるアーカイブサーバーの一覧から選択します。</span><span class="sxs-lookup"><span data-stu-id="82dce-111">**Associate Archiving Server** Select from the list the Archiving Server that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
     
-    <span data-ttu-id="adb8a-112">このリカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けるアーカイブ サーバーを作成していない場合、**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="adb8a-112">Click **New** if you have not created the Archiving Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server</span></span>
+    <span data-ttu-id="82dce-112">この Survivable Branch Appliance または Survivable Branch Server に関連付けるアーカイブサーバーを作成していない場合は、[**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="82dce-112">Click **New** if you have not created the Archiving Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server</span></span>
     
-    <span data-ttu-id="adb8a-113">**関連のサーバーの監視**リストから、監視対象のサーバーをリカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けるを選択します。</span><span class="sxs-lookup"><span data-stu-id="adb8a-113">**Associate Monitoring Server** Select from the list the Monitoring Server that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
+    <span data-ttu-id="82dce-113">**監視サーバーの関連付け**Survivable Branch Appliance または Survivable Branch Server に関連付ける監視サーバーの一覧から選択します。</span><span class="sxs-lookup"><span data-stu-id="82dce-113">**Associate Monitoring Server** Select from the list the Monitoring Server that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
     
-    <span data-ttu-id="adb8a-114">このリカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付ける監視サーバーを作成していない場合、**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="adb8a-114">Click **New** if you have not created the Monitoring Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server</span></span>
+    <span data-ttu-id="82dce-114">この Survivable Branch Appliance または Survivable Branch Server に関連付ける監視サーバーを作成していない場合は、[**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="82dce-114">Click **New** if you have not created the Monitoring Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server</span></span>
     
-    <span data-ttu-id="adb8a-115">**(メディア コンポーネント) に関連付けるエッジ プール**エッジ サーバーまたはエッジ プールをリカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けるには、リストから選択します。</span><span class="sxs-lookup"><span data-stu-id="adb8a-115">**Associate Edge pool (for media components)** Select from the list the Edge Server or Edge pool that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
+    <span data-ttu-id="82dce-115">**エッジプールを関連付ける (メディアコンポーネント)** Survivable Branch Appliance または Survivable Branch Server に関連付けるエッジサーバーまたはエッジプールの一覧から選択します。</span><span class="sxs-lookup"><span data-stu-id="82dce-115">**Associate Edge pool (for media components)** Select from the list the Edge Server or Edge pool that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
     
-  <span data-ttu-id="adb8a-116">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="adb8a-116">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="82dce-116">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="82dce-116">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="adb8a-117">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="adb8a-117">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="82dce-117">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="82dce-117">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="adb8a-118">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="adb8a-118">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="82dce-118">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="82dce-118">**Help** Displays this help screen.</span></span>
   
 

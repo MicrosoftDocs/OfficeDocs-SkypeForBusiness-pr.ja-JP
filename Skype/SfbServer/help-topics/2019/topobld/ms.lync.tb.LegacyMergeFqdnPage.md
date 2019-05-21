@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LegacyMergeFqdnPage
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
-description: アクセス エッジ プールの内部 FQDN は、フェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続の外部ユーザーと内部ユーザーの通信、さまざまなシナリオに使用されます。 レガシ環境で負荷分散されたエッジ サーバーが配置された場合は、内部ロード バランサー機器の完全修飾ドメイン名 (FQDN) を入力します。
-ms.openlocfilehash: 85b7ee8dbe36300964c3e400a4e3d6af14ffe199
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Access Edge プールの内部 FQDN は、内部ユーザーがフェデレーション、リモートユーザーアクセス、パブリック IM 接続の外部ユーザーと通信するさまざまなシナリオで使用されます。 負荷分散エッジサーバーがレガシ環境に展開されていた場合は、内部ロードバランサーの完全修飾ドメイン名 (FQDN) を入力します。
+ms.openlocfilehash: 2c63e89cea31795ae2e357d7edf806e431c63c69
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906768"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303292"
 ---
-# <a name="legacy-merge-fqdn"></a><span data-ttu-id="971d4-104">従来版のマージ FQDN</span><span class="sxs-lookup"><span data-stu-id="971d4-104">Legacy Merge FQDN</span></span>
+# <a name="legacy-merge-fqdn"></a><span data-ttu-id="3644e-104">従来版のマージ FQDN</span><span class="sxs-lookup"><span data-stu-id="3644e-104">Legacy Merge FQDN</span></span>
  
-<span data-ttu-id="971d4-105">**アクセス エッジ プールの内部 FQDN**は、フェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続の外部ユーザーと内部ユーザーの通信、さまざまなシナリオに使用されます。</span><span class="sxs-lookup"><span data-stu-id="971d4-105">The **Access Edge Pool internal FQDN** is used for a variety of scenarios where internal users communicate with external users for federation, remote user access, and public IM connectivity.</span></span> <span data-ttu-id="971d4-106">レガシ環境で負荷分散されたエッジ サーバーが配置された場合は、内部ロード バランサー機器の完全修飾ドメイン名 (FQDN) を入力します。</span><span class="sxs-lookup"><span data-stu-id="971d4-106">If a load-balanced Edge Server was deployed in your legacy environment, enter the fully qualified domain name (FQDN) of the internal load balancer.</span></span>
+<span data-ttu-id="3644e-105">**Access Edge プールの内部 FQDN**は、内部ユーザーがフェデレーション、リモートユーザーアクセス、パブリック IM 接続の外部ユーザーと通信するさまざまなシナリオで使用されます。</span><span class="sxs-lookup"><span data-stu-id="3644e-105">The **Access Edge Pool internal FQDN** is used for a variety of scenarios where internal users communicate with external users for federation, remote user access, and public IM connectivity.</span></span> <span data-ttu-id="3644e-106">負荷分散エッジサーバーがレガシ環境に展開されていた場合は、内部ロードバランサーの完全修飾ドメイン名 (FQDN) を入力します。</span><span class="sxs-lookup"><span data-stu-id="3644e-106">If a load-balanced Edge Server was deployed in your legacy environment, enter the fully qualified domain name (FQDN) of the internal load balancer.</span></span>
   
-<span data-ttu-id="971d4-107">**5061**の**内部 SIP アクセス ポート**の値は、クライアントでは、従来のフロント エンド プールおよびサーバーと通信するための既定の伝送制御プロトコル (TCP) を SIP ポートです。</span><span class="sxs-lookup"><span data-stu-id="971d4-107">The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers.</span></span> <span data-ttu-id="971d4-108">既定値が使用できない場合は、更新、**のアクセス ポートの内部 SIP:** の値です。</span><span class="sxs-lookup"><span data-stu-id="971d4-108">If the default value was not used, update the **Internal SIP access port:** value.</span></span>
+<span data-ttu-id="3644e-107">**5061**の**内部 SIP アクセスポート**値は、クライアント、従来のフロントエンドプール、およびサーバーと通信するための既定の伝送制御プロトコル (TCP) SIP ポートです。</span><span class="sxs-lookup"><span data-stu-id="3644e-107">The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers.</span></span> <span data-ttu-id="3644e-108">既定値が使用されなかった場合は、**内部 SIP アクセスポート:** 値を更新します。</span><span class="sxs-lookup"><span data-stu-id="3644e-108">If the default value was not used, update the **Internal SIP access port:** value.</span></span>
   
 
