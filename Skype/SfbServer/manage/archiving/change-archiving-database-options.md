@@ -1,42 +1,42 @@
 ---
-title: ビジネス サーバーの Skype でのアーカイブ ・ データベースのオプションを変更します。
+title: Skype for Business Server でアーカイブデータベースのオプションを変更する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
-description: 概要では、Skype のビジネス サーバー用のアーカイブのデータベース オプションを変更する方法について説明します。
-ms.openlocfilehash: b2ffa1cfd9686be941cca2a1ffdc2684006dde50
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のアーカイブデータベースオプションを変更する方法について説明します。'
+ms.openlocfilehash: 56aa29ef185176ce3b080572723c566455731dc4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884985"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299987"
 ---
-# <a name="change-archiving-database-options-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのアーカイブ ・ データベースのオプションを変更します。
+# <a name="change-archiving-database-options-in-skype-for-business-server"></a>Skype for Business Server でアーカイブデータベースのオプションを変更する
 
-**の概要:** Skype のビジネス サーバー用のアーカイブのデータベース オプションを変更する方法について説明します。
+**概要:** Skype for Business Server のアーカイブデータベースのオプションを変更する方法について説明します。
   
-SQL Server のストレージを使用して、ユーザーのいずれかのストレージをアーカイブするためのアーカイブを展開する場合は、次のデータベース記憶域の変更を行うことができます。
+いずれかのユーザーのために SQL Server ストレージを使用してアーカイブを展開している場合は、次のデータベース記憶域を変更することができます。
   
-- アーカイブ ・ ストレージの別の SQL Server データベースを使用します。 これには、プライマリのアーカイブ データベースと SQL Server のミラーリングを使用する任意のデータベースが含まれます。
+- アーカイブストレージとして別の SQL Server データベースを使用します。 これには、プライマリアーカイブデータベースと、SQL Server ミラーリングで使用するデータベースが含まれます。
     
-- アーカイブ ・ データと Exchange サーバー上のファイルを格納する Microsoft Exchange の統合に切り替えます。 すべてのユーザーが、Exchange サーバー上に置かれている、配置内のすべてのユーザーの Microsoft Exchange の記憶域を使用する場合は、トポロジの SQL Server ストア データベースを削除してください。 
+- Exchange server にアーカイブデータとファイルを保存するには、Microsoft Exchange 統合に切り替えます。 すべてのユーザーが Exchange サーバーを使用していて、展開内のすべてのユーザーに対して Microsoft Exchange ストレージを使用する場合は、SQL Server ストアデータベースをトポロジから削除する必要があります。 
     
-これらの変更のいずれかをするためには、トポロジ ビルダーを実行、変更を加え、トポロジを再度発行します。 Exchange サーバーではないビジネス ユーザーに Skype がない限り、 **SQL Server のアーカイブを保存**または**ストアを有効にする SQL Server のミラーリング**についてを指定しません。
+これらの変更を行うには、トポロジビルダーを実行し、変更を行ってから、トポロジをもう一度公開する必要があります。 Skype for Business ユーザーが Exchange サーバーを使っていない場合は、**アーカイブ Sql server ストア**または**sql server ストアのミラーリング**情報を有効にしないようにします。
   
 ## <a name="change-archiving-database-options"></a>アーカイブ データベース オプションの変更
 
-1. ビジネス サーバーでは、Skype を実行しているコンピューター上に、Skype ビジネス サーバー管理ツールをインストールするにログオンまたはローカルの Users グループ (または同等のユーザー権限を持つアカウント) のメンバーであるアカウントを使用しています。
+1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカルユーザーグループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
     
     > [!NOTE]
-    > ローカルの Users グループのメンバーであるアカウントを使用してトポロジを定義することができますが、トポロジでは、必要なコンポーネントをトポロジに追加するのを公開するには、 **Domain Admins**グループと**RTCUniversalSer のメンバーであるアカウントを使用する必要があります。verAdmins**グループがフル コントロールのアクセス許可 (つまり、読み取り、書き込み、および変更) は、トポロジ ビルダーで必要な随意アクセス制御を構成することができますビジネス サーバーのファイル ストアの Skype を使用しているファイル共有のリスト (Dacl)、または同等の権利を持つアカウントです。
+    > トポロジは、[ローカルユーザー] グループのメンバーであるアカウントを使用して定義できますが、トポロジを公開するためには、" **Domain Admins** " グループと "RTCUniversalSer" のメンバーであるアカウントを使用する必要があります。 **verAdmins**グループ、および Skype For Business Server ファイルストアで使用しているファイル共有に対するフルコントロールのアクセス許可 (つまり、読み取り、書き込み、変更) を持っている (つまり、トポロジビルダーが必要な随意アクセス制御を構成できるようにする)リスト (Dacl)、または同等の権限を持つアカウント。
   
-2. トポロジ ビルダーを起動します。
+2. トポロジビルダーを起動します。
     
 3. コンソール プールで、アーカイブを展開したフロントエンド プールに移動し、データベース オプションを変更するフロントエンド プールの名前をクリックします。
     
@@ -56,49 +56,49 @@ SQL Server のストレージを使用して、ユーザーのいずれかのス
     
      - 既存の SQL Server ストアを使用するには、ドロップダウン リスト ボックスで、使用する SQL Server ストアの名前をクリックします。
     
-     - 新しい SQL Server ストアを指定するには、[**新規**作成] をクリックし**新しい SQL Server ストアの定義**] ダイアログ ボックスで、次の操作を行います。
+     - 新しい SQL Server ストアを指定するには、[**新規**作成] をクリックし、[**新しい sql Server ストアの定義**] ダイアログボックスで、次の操作を行います。
     
-       - **SQL Server の FQDN**を新しい SQL Server ストアを作成するサーバーの FQDN を指定します。
+       - [ **Sql SERVER fqdn**] で、新しい SQL Server ストアを作成するサーバーの fqdn を指定します。
     
        - 既定のインスタンスを使用するには [**既定のインスタンス**] をクリックし、別のインスタンスを指定するには [**名前付きインスタンス**] をクリックして、使用するインスタンスを指定します。
     
-       - ミラーリングの関係で指定された SQL Server のインスタンスがある場合、**ミラーリングの関係ではこの SQL インスタンス**] チェック ボックスをオンを選択し、**ミラー ・ ポートの番号**] ボックスで、ポート番号を指定します。
+       - 指定した SQL Server インスタンスがミラーリング関係にある場合は、[**この sql インスタンスがミラーリング**関係] チェックボックスをオンにし、[**ミラーポート番号**] でポート番号を指定します。
     
    - ミラーリング用に SQL Server ストアを追加するか、SQL Server ストア ミラーリングとして別の既存の SQL Server ストアに変更するには、[**SQL Server ストア ミラーリングの有効化**] を選択して、以下の操作を実行します。
     
-     - ミラーリングは、 **SQL Server のアーカイブ ストア ミラー** 」ドロップ ダウン リスト ボックスで、既存の SQL Server ストアを使用するには、ミラーリングに使用する SQL Server のストアの名前をクリックします。
+     - ミラーリング用の既存の SQL Server ストアを使用するには、[**アーカイブ SQL server ストアミラー** ] ドロップダウンリストボックスで、ミラーリングに使用する sql server ストアの名前をクリックします。
     
-     - ミラーリング用の新しい SQL Server ストアを指定するに [**新規**作成] をクリックし、**新しい SQL Server ストアの定義**] ダイアログ ボックスでの操作を行います次のいずれか。
+     - ミラーリング用の新しい SQL Server ストアを指定するには、[**新規**作成] をクリックし、[**新しい sql Server ストアの定義**] ダイアログボックスで、次のいずれかの操作を行います。
     
-       a. **SQL Server の FQDN**を新しい SQL Server ストアを作成する SQL Server の FQDN を指定します。
+       a. [ **Sql SERVER fqdn**] で、新しい sql server ストアを作成する sql SERVER の fqdn を指定します。
     
        b. 既定のインスタンスを使用するには [**既定のインスタンス**] をクリックし、別のインスタンスを指定するには [**名前付きインスタンス**] をクリックして、使用するインスタンスを指定します。
     
-       c. ミラーリングの関係で指定された SQL Server のインスタンスがある場合、**ミラーリングの関係ではこの SQL インスタンス**] チェック ボックスをオンを選択し、**ミラー ・ ポートの番号**] ボックスで、ポート番号を指定します。
+       c. 指定した SQL Server インスタンスがミラーリング関係にある場合は、[**この sql インスタンスがミラーリング**関係] チェックボックスをオンにし、[**ミラーポート番号**] でポート番号を指定します。
     
-   - SQL Server のミラーリングを有効にして追加またはミラーリング監視 (、第 3 に、独立した SQL Server インスタンスを SQL Server のサーバーとミラーのプライマリ ・ インスタンスの稼働状態を検出することができます)、SQL Server を変更する場合は、ミラーリング監視を使用して SQL Server の**を選択するには自動フェイル オーバー機能を有効にする**チェック ボックスをオンし、次のいずれかの操作を行います。
+   - Sql Server のミラーリングを有効にしており、SQL Server ミラーリング監視 (プライマリ SQL Server サーバーの正常性を検出できる別の SQL Server インスタンス) を追加または変更する場合は、[ **Sql server ミラーリング監視を使用する] を選択します。[自動フェールオーバーを有効にする**] チェックボックスをオンにして、次のいずれかの操作を行います。
     
-      a. **SQL Server の FQDN**では、ミラーリング監視をミラーリングする新しい SQL Server を作成するサーバーの FQDN を指定します。
+      a. [ **Sql SERVER fqdn**] で、新しい SQL server ミラーリング監視を作成するサーバーの fqdn を指定します。
     
       b. 既定のインスタンスを使用するには [**既定のインスタンス**] をクリックし、別のインスタンスを指定するには [**名前付きインスタンス**] をクリックして、ミラーリング監視で使用するインスタンスを指定します。
     
-      c. ミラーリングの関係で指定された SQL Server のインスタンスがある場合、**ミラーリングの関係ではこの SQL インスタンス**] チェック ボックスをオンを選択し、**ミラー ・ ポートの番号**] ボックスで、ポート番号を指定します。
+      c. 指定した SQL Server インスタンスがミラーリング関係にある場合は、[**この sql インスタンスがミラーリング**関係] チェックボックスをオンにし、[**ミラーポート番号**] でポート番号を指定します。
     
-   - Microsoft Exchange の統合アーカイブ ・ データと (配置内のすべてのユーザーは、Exchange サーバー上に置かれている) 場合に、Exchange サーバー上のファイルを保存するには、データベースをアーカイブするためのすべての情報を削除します。
+   - Exchange server にアーカイブデータとファイルを保存するために Microsoft Exchange との統合を切り替えるには (展開内のすべてのユーザーが Exchange サーバーに所属している場合)、アーカイブデータベースのすべての情報を削除します。
     
      > [!IMPORTANT]
-     > ビジネス ユーザーが Exchange サーバーではないため、Skype を使っている場合、情報を格納する SQL Server を削除することはできません。 
+     > Exchange サーバーを使用していない Skype for Business ユーザーがいる場合は、SQL Server ストアの情報を削除しないでください。 
   
 8. 構成を保存するには、[**OK**] をクリックします。
     
     > [!IMPORTANT]
-    > トポロジ ビルダーで行った変更は、新しいトポロジを公開するまで有効になりません。 詳細については、 [Skype のビジネス サーバーで既存の展開へのアーカイブ ・ データベースの追加](../../deploy/deploy-archiving/add-archiving-databases.md)を参照してください。 
+    > トポロジビルダーで行った変更は、新しいトポロジを公開するまで有効になりません。 詳細については、「 [Skype For Business Server の既存の展開にアーカイブデータベースを追加する](../../deploy/deploy-archiving/add-archiving-databases.md)」を参照してください。 
   
 ## <a name="change-the-location-of-the-archiving-database-by-using-windows-powershell"></a>Windows PowerShell を使用したアーカイブ データベースの場所の変更
 
 ほとんどの場合は、アーカイブ サーバーをインストールするときに指定されたアーカイブ データベースの場所を変更する必要はありません。 ただし、ハードウェア障害や他の問題が発生した場合は、**Set-CsArchivingServer** コマンドレットを使用して、アーカイブ サーバーが新しいデータベースを参照するように設定できます。
   
-次の例の ArchivingServer:atl のアーカイブ データベースの場所を変更するの cs-001.contoso.com アーカイブ サーバーです。 この例では、新しいデータベースが ArchivingDatabase:atl-sql-001.contoso.com に置かれます。
+次の例では、ArchivingServer: atl-001.contoso.com アーカイブサーバーのアーカイブデータベースの場所を変更します。 この例では、新しいデータベースが ArchivingDatabase:atl-sql-001.contoso.com に置かれます。
   
 ```
 Set-CsArchivingServer -Identity "ArchivingServer:atl-cs-001.contoso.com" -ArchivingDatabase "ArchivingDatabase:atl-sql-001.contoso.com"

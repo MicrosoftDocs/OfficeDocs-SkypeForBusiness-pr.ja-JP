@@ -3,29 +3,29 @@ title: 単一フォレストのオンプレミス環境での Skype Room System 
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: このトピックでは、単一フォレストのオンプレミス環境で Skype Room System を展開する方法について説明します。
-ms.openlocfilehash: 4a2dc249c5b1e6194fc836adf3c8d264a618edd5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0eae077662b050ed2accb5869f1423e0a201a0d1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894999"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287954"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>単一フォレストのオンプレミス環境での Skype Room System の展開
  
 このトピックでは、単一フォレストのオンプレミス環境で Skype Room System を展開する方法について説明します。
   
-ここでは、単一フォレストの設置型展開でホストされているビジネスのサーバーの Exchange Server と Skype の Skype の部屋のシステム アカウントをプロビジョニングするための手順の概要を示します。
+このセクションでは、Exchange Server の Skype Room System アカウントと、1つのフォレストのオンプレミス展開でホストされている Skype for Business Server をプロビジョニングする手順の概要について説明します。
   
 ## <a name="single-forest-on-premises-deployments"></a>単一フォレストのオンプレミス展開
 
-会議室用のリソース メールボックス アカウントが既存の場合は、そのアカウントを使用できます。 ない場合は、新しいアカウントを作成する必要があります。 新しいリソース メールボックス アカウントの作成には Exchange 管理シェル (PowerShell) または Exchange 管理コンソールを使用できます。 新しいを使用することをお勧めします。 (古いメールボックスを削除して再作成) Skype ルーム システムのリソース メールボックスです。 Outlook クライアントを使用して、削除する前にメールボックス データをバックアップし、作成し直したメールボックスにバックアップをあらためて読み込んでください (詳細については、「メッセージ、予定表、タスク、連絡先をエクスポートまたはバックアップする」を参照してください)。 メールボックスを削除することによって失われた会議を復元するには、 [[接続] または [削除済みメールボックスの復元](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)を参照してください。 
+会議室用のリソース メールボックス アカウントが既存の場合は、そのアカウントを使用できます。 ない場合は、新しいアカウントを作成する必要があります。 新しいリソース メールボックス アカウントの作成には Exchange 管理シェル (PowerShell) または Exchange 管理コンソールを使用できます。 Skype Room System の新規 (古いメールボックスの削除と再作成) リソースメールボックスの使用をお勧めします。 Outlook クライアントを使用して、削除する前にメールボックス データをバックアップし、作成し直したメールボックスにバックアップをあらためて読み込んでください (詳細については、「メッセージ、予定表、タスク、連絡先をエクスポートまたはバックアップする」を参照してください)。 メールボックスの削除によって失われた会議を復元するには、「[削除されたメールボックスを接続または復元](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)する」をご覧ください。 
   
 既存のリソース メールボックス アカウント (LRS-01 など) を使用するには、以下の手順に従います。
   
@@ -43,7 +43,7 @@ ms.locfileid: "33894999"
 
    上の例は、有効化されたユーザー アカウントを Active Directory に作成し、会議室用の会議室メールボックスをオンプレミスの Exchange 組織に作成します。RoomMailboxPassword パラメーターには、ユーザー アカウントのパスワードを指定します。
     
-3. 会議の承諾と辞退を通じて競合を自動的に解消するようにアカウントを構成します。 Skype ルーム システム対応の会議室の Exchange のアカウントは、個人が管理することができますが、個人は、会議を受け入れるまでに表示されないこと Skype ルーム システム ホーム画面のカレンダーに注意してください。
+3. 会議の承諾と辞退を通じて競合を自動的に解消するようにアカウントを構成します。 Skype Room システムを備えた skype の会議室のアカウントは、個人で管理できますが、会議を承諾するまでは、Skype Room System のホーム画面の予定表には表示されません。
     
    ```
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -51,7 +51,7 @@ ms.locfileid: "33894999"
 
    使用できるコマンドの一覧については、「Set-CalendarProcessing」を参照してください。
     
-   ミーティングの開催者は会議出席のアラームには、Outlook では、ビジネス会議のためのオンラインの Skype は、MailTip の新しいアカウントを設定する次のコマンドを実行します。 
+   会議の開催者に、Outlook でオンラインの Skype for Business 会議に参加するように依頼するには、次のコマンドを実行して、新しいアカウントのメールヒントを設定します。 
     
    ```
    Set-Mailbox -Identity LRS01@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a Lync Meeting to take advantage of the enhanced meeting experience from LRS"
@@ -63,7 +63,7 @@ ms.locfileid: "33894999"
    Set-Mailbox -Identity LRS01@contoso.com -MailTipTranslations $Temp.MailTipTranslations
    ```
 
-5. オプション: を構成するビジネス会議室、および予想される結果をスケジュールし、参加する Skype に関する情報をユーザーに提供する受け入れテキストの会議の会議。 
+5. オプション: Skype for Business 会議室に関する情報をユーザーに提供する会議承諾テキストと、会議をスケジュールして参加するときの考慮事項を構成します。 
     
    ```
    Set-CalendarProcessing -Identity LRS01 -AddAdditionalResponse $TRUE -AdditionalResponse "This is the Additional Response Text"
@@ -71,7 +71,7 @@ ms.locfileid: "33894999"
 
 ## <a name="check-resource-mailbox-account-in-active-directory"></a>Active Directory のリソース メールボックス アカウントの確認
 
-上の手順 1 で Exchange を使用して作成した会議室メールボックス アカウントが、Active Directory で無効になっているユーザー オブジェクトの場合があります。 Skype ルームのシステムでは、サインインまたは Active Directory にアカウントが無効になっている場合、Kerberos または NTLM 認証を使用して認証できません。 Skype ルーム システムのクライアントは、カレンダーの設定を取得するために、Exchange Web サービスに対して認証を行うことができる必要があり、ホワイト ボードの内容をメールを送信することもあります。 
+上の手順 1 で Exchange を使用して作成した会議室メールボックス アカウントが、Active Directory で無効になっているユーザー オブジェクトの場合があります。 Active Directory でアカウントが無効になっている場合、Skype Room システムは、Kerberos/NTLM 認証を使用してサインインまたは認証することはできません。 Skype Room システムクライアントは、Exchange Web サービスから認証して、予定表の設定を取得できるようにする必要があります。また、ホワイトボードの内容を含むメールを送信することもできなければなりません。 
   
 そのため、アカウントが無効になっている場合は、以下の手順で Active Directory でアカウントを有効にする必要があります。 
   
@@ -89,22 +89,22 @@ ms.locfileid: "33894999"
    Enable-ADAccount -Identity LRS01
    ```
 
-## <a name="enabling-skype-room-system-accounts-for-skype-for-business"></a>ビジネスの Skype のアカウントの Skype の部屋のシステムを有効化
+## <a name="enabling-skype-room-system-accounts-for-skype-for-business"></a>Skype for Business の Skype Room System アカウントを有効にする
 
-Skype ルームのシステム上で構成する会議室アカウントのビジネス用の Skype を有効にする必要な手順の概要を説明します。 
+このセクションでは、skype for Business を会議室のアカウントとして有効にするために必要な手順の概要について説明します。これは、Skype Room System で構成されます。 
   
-会議室のリソース メールボックスのアカウントを作成した後は、ビジネス サービスの Skype の Skype ルーム システムのアカウントを有効にするのにビジネス サーバー管理シェルの Skype を使用します。
+会議室のリソースメールボックスアカウントを作成したら、skype for Business Server 管理シェルを使って、skype for business サービスの Skype Room System アカウントを有効にします。
   
 > [!NOTE]
-> 次の手順では、Active Directory で Skype ルームのシステム アカウントが有効になっていると仮定します。 
+> 次の手順では、Active Directory で Skype Room System アカウントが有効になっていることを前提としています。 
   
-1. ビジネス サーバー プールのため、Skype の Skype ルームのシステム アカウントを有効にするのには、次のコマンドを実行します。
+1. Skype for Business サーバープールで Skype Room System アカウントを有効にするには、次のコマンドを実行します。
     
    ```
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
    ```
 
-2. オプション: このアカウントについて Enterprise VoIP を有効にして、このアカウントで PSTN 通話を発着信できるようにします。 エンタープライズ VoIP は Skype ルーム システムでは、必須ではありませんはない有効にした場合、エンタープライズ VoIP を Skype ルーム システム クライアントできない PSTN のダイヤル機能を提供します。
+2. オプション: このアカウントについて Enterprise VoIP を有効にして、このアカウントで PSTN 通話を発着信できるようにします。 エンタープライズ Voip は Skype Room システムには必要ありませんが、エンタープライズ Voip に対して有効にしていない場合、Skype Room System クライアントは PSTN ダイヤル機能を提供することはできません。
     
    ```
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"
@@ -112,6 +112,6 @@ Skype ルームのシステム上で構成する会議室アカウントのビ�
    ```
 
 > [!NOTE]
-> Skype ルーム システム会議ルームのアカウントでエンタープライズ VoIP を有効にした場合は、組織に適した制限された音声ポリシーを構成することを確認してください。 ビジネス会議室の Skype が公開されているリソースの場合は、誰でもそれを使用、アドホックまたはスケジュールされたミーティングに参加します。 会議に参加したユーザーは、任意の番号を発信できます。 ビジネス サーバーの Skype、ダイヤルアウト会議機能からミーティングに参加する Skype ルームのシステム アカウントを使用するここでは、ユーザーの音声ポリシーを使用します。 Lync Server の以前のバージョンでは、開催者の音声ポリシーが使用されます。 したがって、Lync Server の以前のバージョンのユーザーは、会議室のスケジュールを設定し、Skype ルーム システム領域のアカウントへの招待、誰でもミーティングに参加するのには、ビジネス会議室の Skype を使用してし、国/地域または国際電話をダイヤルする可能性があります。数、開催者がこれらの番号をダイヤルできる限りです。 
+> Skype Room System 会議室アカウントのエンタープライズ Voip を有効にしている場合は、組織に適した制限付きの音声ポリシーを必ず構成してください。 Skype for Business の会議室が公開されている場合は、会議に参加するために、スケジュールまたはアドホックのいずれかを使用できます。 会議に参加したユーザーは、任意の番号を発信できます。 Skype for Business Server では、電話会議機能でユーザーの音声ポリシーが使用されます。この場合は、会議への参加に使用した Skype Room System アカウント。 Lync Server の以前のバージョンでは、開催者の音声ポリシーが使用されます。 そのため、以前のバージョンの Lync Server のユーザーが会議室をスケジュールして、Skype Room System room アカウントを招待した場合、すべてのユーザーは Skype for Business 会議室を使って会議に参加することができ、国/地域または国際電話にダイヤルすることができます。番号。開催者がこれらの番号にダイヤルすることが許可されている場合に限ります。 
   
 

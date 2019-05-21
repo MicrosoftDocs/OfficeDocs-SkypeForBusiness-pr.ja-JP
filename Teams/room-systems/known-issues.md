@@ -5,18 +5,18 @@ author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams Rooms の既知の問題を、機能の領域ごとに説明しています。
-ms.openlocfilehash: c6ddaf11e0104c0de85c46b1369613ef365ede7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91e90479efdf905705d217de75cdac744a773860
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916514"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306519"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -59,7 +59,8 @@ Microsoft Teams Rooms デバイスがドメインとの信頼関係を失った�
 ***
 Windows 10 Enterprise Anniversary エディション (英語版、バージョン 1607) の 64 ビット バージョンは Microsoft Teams Rooms リリース 3.0.12.0 ではサポートされなくなりました。 
 ***
-
+Microsoft Teams Room は、複数のウィンドウで表示されるアプリケーションであり、アプリが正常に動作するために、デバイスの HDMI ポートに接続するには、Room ディスプレイの前面が必要です。 HDMI ディスプレイが接続されているか、またはダミー HDMI プラグを使っているかどうかを確認してください。テストしていて、ディスプレイがまだ購入されていないことを確認します。
+***
 <a name="See"> </a>  
 ## <a name="see-also"></a>関連項目
 

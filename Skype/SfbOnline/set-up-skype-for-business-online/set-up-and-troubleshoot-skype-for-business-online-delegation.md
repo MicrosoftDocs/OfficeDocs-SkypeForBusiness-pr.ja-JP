@@ -10,138 +10,138 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: この資料を設定し、オンライン ビジネスの委任のため Skype をトラブルシューティングする方法について説明します。 この記事では、設定の推奨事項、ベスト ・ プラクティス、およびトラブルシューティング手順を実行するためのガイダンスを提供します。
-ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: この記事では、Skype for Business Online の委任のセットアップとトラブルシューティングの方法について説明します。 この記事では、セットアップの推奨事項、ベストプラクティス、およびトラブルシューティングの手順に関するガイダンスを示します。
+ms.openlocfilehash: 0528bbb3dc25e085d38f86c040eb5129c9d039c1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237299"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285246"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online の代理のセットアップとトラブルシューティング
 
-この資料を設定し、オンライン ビジネスの委任のため Skype をトラブルシューティングする方法について説明します。 この記事では、設定の推奨事項、ベスト ・ プラクティス、およびトラブルシューティング手順を実行するためのガイダンスを提供します。
+この記事では、Skype for Business Online の委任のセットアップとトラブルシューティングの方法について説明します。 この記事では、セットアップの推奨事項、ベストプラクティス、およびトラブルシューティングの手順に関するガイダンスを示します。
   
 ## <a name="guidelines-and-requirements"></a>ガイドラインと要件
 
-### <a name="guidelines-for-delegation"></a>委任のためのガイドライン
+### <a name="guidelines-for-delegation"></a>代理人のためのガイドライン
 
-設定して、委任が正しく機能するを取得するには、これらのガイドラインに従う場合に依存します。
+委任を正しく動作させるための設定と取得は、次のガイドラインに従うことによって異なります。
   
-- 必要がありますを使用するビジネス 2015年最新の更新プログラムの完全なクライアントの Skype または、Skype ビジネス 2016年完全なクライアントの。
+- 最新の更新プログラムまたは Skype for Business 2016 フルクライアントを使用して、Skype for Business 2015 フルクライアントを使用している必要があります。
     
-- 最新の更新プログラムで Outlook 2013 クライアントまたは Outlook 2016 クライアントを使っている必要があります。
+- 最新の更新プログラムまたは Outlook 2016 クライアントで Outlook 2013 クライアントを使用している必要があります。
     
-- 委任者と代理人のコンピューターがある 1 つの Outlook メール プロファイルがプライマリまたは既定のプロファイルを確認します。 そのメール プロファイルは、1 つだけアカウントを含める必要があります。
+- 委任者および代理人のコンピューターに、プライマリまたは既定のプロファイルである Outlook メールプロファイルが1つ含まれていることを確認します。 このメールプロファイルには、アカウントが1つだけ含まれている必要があります。
     
-- 代理人と代理人のための Skype では、オンライン ユーザーをする必要があります。 また、両方オンラインにするか両方に設置する必要があります、各アカウントの Exchange Server メールボックスです。
+- Skype for Business for 委任者と代理人は、オンラインユーザーである必要があります。 また、各アカウントの Exchange Server メールボックスは、両方ともオンラインであるか、両方ともオンプレミスである必要があります。
     
-- 委任者と代理人の両方に同じメジャー バージョンの Outlook を使用する必要があります。
+- 委任者と代理人の両方が、同じメジャーバージョンの Outlook を使用している必要があります。
     
-- **True**クライアント ポリシーでは、 **EnableExchangeDelegateSync**属性の値を設定してください。 この設定を確認するには、ビジネス オンラインの PowerShell モジュールの Skype で**Get CSClientPolicy**コマンドレットを実行します。
+- クライアントポリシーで**EnableExchangeDelegateSync**属性値が**true**に設定されている必要があります。 この設定を確認するには、Skype for Business Online PowerShell モジュールで、 **CSClientPolicy**コマンドレットを実行します。
     
-- 委任者と代理人署名が必要 Skype をビジネスおよび Outlook を同時に別のワークステーションで。
+- 委任者と代理人の両方が、異なるワークステーションで Skype for Business と Outlook を同時にサインインしている必要があります。
     
-- 共有メールボックスは、オンライン ビジネスの委任のための Skype のサポートされていません。 共有メールボックスは、 **sendonbehalf**のアクセス制御リスト (ACL) を持っていないためにです。
+- 共有メールボックスは、Skype for Business Online の委任ではサポートされていません。 これは、共有メールボックスに**sendonbehalf**アクセス制御リスト (ACL) が含まれていないためです。
     
-### <a name="skype-for-business-client-version-support"></a>ビジネス クライアントのバージョンをサポートするための Skype
+### <a name="skype-for-business-client-version-support"></a>Skype for Business クライアントのバージョンのサポート
 
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
-|**Lync と Skype クライアントの基本的なビジネスの**| サポートされていません |サポートされていません
+|**Lync/Skype for Business Basic クライアント**| サポートされていない |サポートされていない
 |**Skype for Business 2015**|サポート対象| サポート対象|
-|**ビジネス 2016年の Skype**|サポート対象| サポート対象|
+|**Skype for Business 2016**|サポート対象| サポート対象|
 
    
-### <a name="licensing-requirements"></a>ライセンスの要件
+### <a name="licensing-requirements"></a>ライセンス要件
 
-**E3 のエンタープライズ ライセンスのシナリオ**
+**Enterprise E3 ライセンスのシナリオ**
 
 |**ライセンス**|**クライアント**|**メモ**|
 |:-----|:-----|:-----|
-|エンタープライズ E3  <br/> |Outlook 2013 または 2016 の Outlook で使用される Lync 2013 (Skype ビジネス 2015年の)  <br/> Outlook 2013 または 2016 の Outlook で使用されるビジネス 2016年の Skype  <br/> |ビジネスの基本的なクライアントの Skype では、委任をサポートしていません。  <br/> Mac クライアントは、呼び出しがない会議に委任できます。  <br/> |
-|Office 365 の電話システムと Office 365 xCalling プランとエンタープライズ E3  <br/> |Outlook 2013 または 2016 の Outlook で使用される Lync 2013 (Skype ビジネス 2015年の)  <br/> Outlook 2013 または 2016 の Outlook で使用されるビジネス 2016年の Skype  <br/> Lync for Mac 2011  <br/> |ビジネスの基本的なクライアントの Skype では、委任をサポートしていません。  <br/> Mac クライアントは、呼び出しがない会議に委任できます。  <br/> |
+|エンタープライズ E3  <br/> |Outlook 2013 または Outlook 2016 で使用されている Lync 2013 (Skype for Business 2015)  <br/> Outlook 2013 または Outlook 2016 で使用される Skype for Business 2016  <br/> |Skype for Business Basic クライアントは、委任をサポートしていません。  <br/> Mac クライアントでは、通話を委任することはできますが、会議を委任することはできません。  <br/> |
+|Enterprise E3 と Office 365 電話システム + Office 365 xCalling プラン  <br/> |Outlook 2013 または Outlook 2016 で使用されている Lync 2013 (Skype for Business 2015)  <br/> Outlook 2013 または Outlook 2016 で使用される Skype for Business 2016  <br/> Lync for Mac 2011  <br/> |Skype for Business Basic クライアントは、委任をサポートしていません。  <br/> Mac クライアントでは、通話を委任することはできますが、会議を委任することはできません。  <br/> |
    
-**E5 のエンタープライズ ライセンスのシナリオ**
+**Enterprise E5 ライセンスのシナリオ**
 
 |**ライセンス**|**クライアント**|**メモ**|
 |:-----|:-----|:-----|
-|エンタープライズ E5  <br/> |Lync 2013 (ビジネス 2015年の Skype) 2013 の Outlook または Outlook 2016 を使用します。  <br/> Outlook 2013 または 2016 の Outlook で使用されるビジネス 2016年の Skype  <br/> |ビジネスの基本的なクライアントの Skype では、委任をサポートしていません。  <br/> Mac クライアントは、呼び出しがない会議に委任できます。  <br/> |
-|エンタープライズ E5 と Office 365 の通話プラン  <br/> |Mac 2016 のための Skype  <br/> Outlook 2013 または 2016 の Outlook で使用される Lync 2013 (Skype ビジネス 2015年の)  <br/> Outlook 2013 または 2016 の Outlook で使用されるビジネス 2016年の Skype  <br/> Lync for Mac 2011  <br/> |ビジネスの基本的なクライアントの Skype では、委任をサポートしていません。  <br/> Mac クライアントは、呼び出しがない会議に委任できます。  <br/> |
+|Enterprise E5  <br/> |Lync 2013 (Skype for Business 2015) は、Outlook 2013 または Outlook 2016 で使用されています。  <br/> Outlook 2013 または Outlook 2016 で使用される Skype for Business 2016  <br/> |Skype for Business Basic クライアントは、委任をサポートしていません。  <br/> Mac クライアントでは、通話を委任することはできますが、会議を委任することはできません。  <br/> |
+|Enterprise E5 plus Office 365 通話プラン  <br/> |Skype for Business for Mac 2016  <br/> Outlook 2013 または Outlook 2016 で使用されている Lync 2013 (Skype for Business 2015)  <br/> Outlook 2013 または Outlook 2016 で使用される Skype for Business 2016  <br/> Lync for Mac 2011  <br/> |Skype for Business Basic クライアントは、委任をサポートしていません。  <br/> Mac クライアントでは、通話を委任することはできますが、会議を委任することはできません。  <br/> |
    
-## <a name="set-up-and-verify-delegation"></a>設定し、委任の確認
+## <a name="set-up-and-verify-delegation"></a>委任を設定および確認する
 
-オンライン ビジネスの委任のために、Skype を設定するには、次の手順を実行します。
+Skype for Business Online の委任を設定するには、次の手順を実行します。
   
-### <a name="for-windows-clients"></a>Windows クライアントの
+### <a name="for-windows-clients"></a>Windows クライアントの場合
 
- **着信の転送] タブ**
+ **[着信の転送] タブ**
   
-1. **ツール**を選択して > **オプション** > **の設定の転送を呼び出します**。
+1. [**ツール** > **]** > の [**着信の転送設定**] を選びます。
     
-2. **自分の代理人のメンバーを編集**] を選択します。
+2. [**代理人メンバーの編集**] を選びます。
     
-3. **追加**] を選択、追加する代理人を選択し、 **[ok]** を選択します。
+3. [**追加**] を選択し、追加する代理人を選択して、[ **OK]** を選択します。
     
- **呼び出しの転送タブが表示されません。**
+ **[着信の転送] タブ**
   
-1. Outlook では、**ファイル**を選択します > **アカウントの設定** > **代理人アクセス** > **追加**します。
+1. Outlook で、[**ファイル** > **アカウント設定** > **** > ****] を選択します。
     
-2. 見つけるし、代理人になる人の名前を追加します。
+2. 代理人になるユーザーの名前を探して追加します。
     
-3. [**予定表**] メニューを選択し、選択**エディター (読み取り、作成、および変更できますアイテム)**。
+3. [**予定表**] メニューを選択し、[**編集] (アイテムを参照、作成、変更できる)** を選択します。
     
-### <a name="for-mac-clients---lync"></a>Mac クライアントの Lync の
+### <a name="for-mac-clients---lync"></a>Mac クライアントの場合-Lync
 
- **着信の転送] タブ**
+ **[着信の転送] タブ**
   
-- クライアントは、[**自分の代理人のメンバーを編集**] リンクを持つ**呼び出しの転送**] タブがありません、代理人が Mac コンピューター上にある場合は、代理人にサインインしなければなりません、Windows ベースのコンピューターで委任を設定するのには。 Mac クライアントは、MAPI 接続をすることはできませんし、これは、Outlook からの業務の委任のため Skype を確立する必要があるためにです。
+- クライアントに **[代理人メンバーの編集**] リンクがある [**着信の転送**] タブがありません。また、委任者が Mac コンピューターにある場合、委任者は、委任を設定するために Windows ベースのコンピューターにサインインする必要があります。 これは、Mac クライアントが MAPI 接続を確立できないため、Skype for Business の委任を Outlook から確立するための要件です。
     
-### <a name="verify-success"></a>成功を確認します。
+### <a name="verify-success"></a>成功を確認する
 
-**_Lt _ Name> の代理人として追加されている場合**、代理人は見る必要があります、セットアップが成功した場合は、メッセージ、および**呼び出しの管理の人に**グループを作成します。 代理人は**代理人**のグループが作成されるはずです。
+セットアップに成功した場合、代理人には、 **_LT_ Name> メッセージの代理人として追加され**たことと、グループ**の管理者を管理する相手**が作成されたことがわかります。 委任者には、**代理人**グループが作成されていることがわかります。
   
 > [!NOTE]
-> 委任アクセス許可は、通常のセットアップ プロセスの 30 分以内で表示されます。 ただし、最大 24 時間かかることができます。 
+> 委任権限は通常、セットアッププロセスで30分以内に表示されます。 ただし、このプロセスが完了するまでに最大24時間かかることがあります。 
   
 ## <a name="troubleshooting"></a>トラブルシューティング
 
 ### <a name="common-issues"></a>一般的な問題
 
-- > **問題 1**代理エントリに引き続き表示されます**呼び出しの管理の人が私**のグループ、代理人が Outlook クライアントからデリゲートを削除後します。
+- > **問題 1**委任者によって Outlook クライアントから代理人が削除された後、[グループ**の呼び出しを管理する人**] グループに代理人エントリが表示されたままになります。
     
-  - > **解決方法 1**ビジネス クライアント用の Skype で [**代理人**] で、代理人を右クリックし [**グループから削除**します。
+  - > **解像度 1**Skype for Business クライアントで、[**代理人**] グループの代理人を右クリックし、[**グループから削除**] を選択します。
     
-- > **問題 2**Outlook クライアントを代理人アクセスが許可されると後は、代理人の確認のメッセージも、**呼び出しの管理の人が私**のグループが表示されます。
+- > **問題 2**Outlook クライアントから代理人アクセス権が付与された後は、[確認メッセージ] と [**他の人として通話を管理**する] グループは代理人に対して表示されません。
     
-  - > **解決方法 2**Outlook クライアントからの委任を削除して、レプリケーションは、約 15 分間待ちます、代理人を追加し直す。
+  - > **解決方法 2**Outlook クライアントから委任を削除し、レプリケーションを15分ほど待ってから、もう一度代理人を追加します。
     
 ### <a name="other-common-issues"></a>その他の一般的な問題
 
-- 25 委任者と代理人の 25 のしきい値を超えた場合、委任が動作しません。
+- 委任が機能しないのは、最大でが25個と25個のデリゲートのしきい値を超えた場合です。
     
-- ビジネスの基本的なクライアントの Skype はサポートされていません。
-    
-    > [!NOTE]
-    > ビジネスの基本的なクライアントの Skype をインストールするは削除して、委任を解除します。 
-  
-- **MAPI のステータス**値には、 **[ok]** がない場合は、 **SIP**と**SMTP**の値と一致していることを確認します。
+- Skype for Business Basic クライアントはサポートされていません。
     
     > [!NOTE]
-    > ビジネスおよび Outlook の Skype を初めて起動した後、 **[ok]** として表示するのには MAPI の状態までに数分かかることができます。
+    > Skype for Business Basic クライアントをインストールすると、委任が削除され、解除されます。 
   
-- セキュリティ グループを作成し、そのセキュリティ グループのアクセス許可を委任を追加することがサポートされていません。
+- [ **MAPI Status** ] の値**が [OK]** になっていない場合は、 **SIP**と**SMTP**の値が一致していることを確認します。
     
-- MAPI が使用可能ではありません。 [Skype ビジネス 2016年のクライアントで"MAPI を使用できません"エラー](https://support.microsoft.com/en-us/help/3147130)を参照してください。
+    > [!NOTE]
+    > Skype for Business と Outlook を初めて起動した後、MAPI の状態が **[OK]** として表示されるまでに数分かかることがあります。
+  
+- セキュリティグループの作成とそのセキュリティグループの委任権限の追加はサポートされていません。
     
-- Exchange Online のメールボックスは、ビジネス クライアント用の Skype を介してアクセスできません。 この問題が発生した場合は、 [Outlook の [接続のテスト](https://testconnectivity.microsoft.com/)に合格したことを確認するを実行します。
+- MAPI は使用できません。 [Skype For business 2016 クライアントでの "MAPI は利用できません" エラーを](https://support.microsoft.com/en-us/help/3147130)参照してください。
+    
+- Skype for Business クライアントから Exchange Online メールボックスにアクセスすることはできません。 この問題が発生した場合は、 [Outlook 接続テスト](https://testconnectivity.microsoft.com/)を実行して、合格していることを確認してください。
     
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)

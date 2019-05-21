@@ -1,10 +1,10 @@
 ---
-title: Skype でビジネスのサーバーの場所データベースを構成します。
+title: Skype for Business Server で場所データベースを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: 構成、設定、および公開 ~ 9-1-1 場所データベース Skype のビジネス サーバーのエンタープライズ VoIP の。
-ms.openlocfilehash: e5f25cfcda35d4a78a369a2a5103f7bcd5b06a40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice で E9-1 の場所データベースを構成、設定、公開します。
+ms.openlocfilehash: 82182a27c1459005d19c8a50d0a1babc83b178c9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893050"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301077"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>Skype でビジネスのサーバーの場所データベースを構成します。
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Skype for Business Server で場所データベースを構成する
  
-構成、設定、および公開 ~ 9-1-1 場所データベース Skype のビジネス サーバーのエンタープライズ VoIP の。 
+Skype for Business Server Enterprise Voice で E9-1 の場所データベースを構成、設定、公開します。 
   
 クライアントがネットワーク内の各自の場所を自動検出できるようにするには、まず場所データベースを構成する必要があります。 
   
 場所データベースを構成するには、次のタスクを実行します。
   
-- ネットワーク要素と場所のマッピングをデータベースに設定します。 ELIN が含まれてする必要があります、緊急位置識別番号 (ELIN) ゲートウェイを使用する場合、 \<[得意先名]\>フィールドです。
+- ネットワーク要素と場所のマッピングをデータベースに設定します。 緊急対応の所在地識別番号 (ELIN) を使用している場合、[会社\<名\> ] フィールドに ELIN を含める必要があります。
     
     場所のデータベースに情報を読み込んでいない場合に、場所のポリシーの **[場所 (必須)]** を **[はい]** または **[免責事項]** に設定すると、クライアントから場所の情報を手動で入力するように指示されます。
     
@@ -47,10 +47,10 @@ ms.locfileid: "33893050"
   
 |**ネットワーク要素**|**必要な列**|
 |:-----|:-----|
-|**ワイヤレス アクセス ポイント** <br/> |\<BSSID\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<PreDirectional\>、.  <br/> .\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |
-|**Subnet** <br/> |\<サブネット\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<PreDirectional\>、.  <br/> .\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |
-|**ポート** <br/> |\<ChassisID\>、\<PortIDSubType\>、\<PortID\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、.  <br/> .\<PreDirectional\>、\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |
-|**スイッチ** <br/> |\<ChassisID\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<PreDirectional\>、.  <br/> .\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |
+|**ワイヤレス アクセス ポイント** <br/> |\<BSSID\>、\<説明\>、\<場所\>、\<CompanyName\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<predirectional\>,...  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<postdirectional\>、\<市区\>町村\<、\>都道府県\<、\>郵便\<番号、国\>  <br/> |
+|**Subnet** <br/> |\<サブ\>ネット\<、\>説明\<、\>場所\<、\>CompanyName\<、\>HouseNumber\<、\>HouseNumberSuffix\<、predirectional\>,...  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<postdirectional\>、\<市区\>町村\<、\>都道府県\<、\>郵便\<番号、国\>  <br/> |
+|**ポート** <br/> |\<ChPortIDSubType sid\>、\<\>、\<PortID\>、\<Description\>、\<Location\>、\<CompanyName\>、\<HouseNumber\>、\<HouseNumberSuffix\>,...  <br/> ...\<Predirectional\>、\<StreetName\>、\<StreetSuffix\>、\<\>postdirectional\<市区町村\>、\<都道府県\>、\<郵便\>番号\< 、居住\>  <br/> |
+|**スイッチ** <br/> |\<ChHouseNumber sid\>、\<説明\>、\<場所\>、\<CompanyName\>、\<\>、\<HouseNumberSuffix\>、\<predirectional\>,...  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<postdirectional\>、\<市区\>町村\<、\>都道府県\<、\>郵便\<番号、国\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>ネットワーク要素を場所のデータベースに追加するには
 
@@ -139,7 +139,7 @@ ms.locfileid: "33893050"
 
 場所データベースに追加した新しい場所は、公開されるまでクライアントで使用できません。
   
-緊急位置識別番号 (ELIN) ゲートウェイを使用する場合は、公衆交換電話網 (PSTN) の通信事業者の自動ロケーション識別 (ALI) データベースに ELIN をアップロードする必要があります。 ELIN レコードに特定の形式を使用するように PSTN の通信事業者が求める場合があります。 詳細については、PSTN の通信事業者に問い合わせてください。 場所情報サービス データベースからレコードをエクスポートし、必要に応じて書式を設定したりできます。
+緊急位置識別番号 (ELIN) ゲートウェイを使用する場合は、公衆交換電話網 (PSTN) の通信事業者の自動ロケーション識別 (ALI) データベースに ELIN をアップロードする必要があります。 ELIN レコードに特定の形式を使用するように PSTN の通信事業者が求める場合があります。 詳細については、PSTN の通信事業者に問い合わせてください。 場所情報サービスデータベースからレコードをエクスポートし、必要に応じて書式設定することができます。
   
 ### <a name="to-publish-the-location-database"></a>場所データベースを公開するには
 

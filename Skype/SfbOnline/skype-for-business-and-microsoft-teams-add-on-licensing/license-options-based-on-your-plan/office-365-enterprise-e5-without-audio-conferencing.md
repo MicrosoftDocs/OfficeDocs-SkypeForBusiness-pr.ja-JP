@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,20 +20,20 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise (電話会議なし) のプランを購入する方法について説明します。 '
-ms.openlocfilehash: c669384dacfe354c0bdaf2622874d9df4d13cdc3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b9ea7d7bde3a443f877fe2ef3d2f4976da21153d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238348"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290024"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (電話会議なし)
 
-既に Office 365 のエンタープライズ E5 (オーディオ会議) のないプランを購入した場合より多くの機能を取得するのには購入する必要がありますビジネス アドオン ・ ライセンスの Skype を示します。
+すでに Office 365 Enterprise E5 (電話会議なし) プランを購入済みの場合は、さらに多くの機能を入手するために購入する必要がある Skype for Business アドオンライセンスを次に示します。
 
 |||
 |:-----|:-----|
 |**この機能を追加するには** <br/> |**購入する必要のあるもの** <br/> |
-|**電話会議** <br/> | このアドオンを取得するには、次を実行します。 <br/><br/> 1. If you have already bought an E5 plan but the Audio Conferencing feature isn't available in your country or region, you will need to use a third-party audio conferencing provider. Find a third-party audio conferencing provider at [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530).  <br/><br/>  お住いの国や地域で電話会議が利用可能かどうか確認するには次の記事を参照してください。[電話会議と通話プランの国・地域別利用可能状況](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) <br/><br/> 2. If it is available, use the  [Switch plans button](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) to move to the Office 365 Enterprise E5 that includes it. You'll get more features, too! <br/> |
+|**電話会議** <br/> | このアドオンを取得するには、次を実行します。 <br/><br/> 1. [電話会議] 機能がお住まいの国または地域で利用できない場合、既に E5 計画を購入している場合は、サードパーティの電話会議プロバイダーを使用する必要があります。 サードパーティーの電話会議プロバイダーは、[Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530) で見つけてください。  <br/><br/>  お住いの国や地域で電話会議が利用可能かどうか確認するには次の記事を参照してください。[電話会議と通話プランの国・地域別利用可能状況](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) <br/><br/> 2. 利用可能な場合は、[プラン切り替えボタン](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) で、電話会議機能を含む Office 365 Enterprise E5 に移動します。 その他に多数の機能もご利用いただけます。 <br/> |
 |**電話会議は含まれています。** <br/> | 通話プラン: Office 365 から [通話プラン](/MicrosoftTeams/calling-plans-for-office-365) を購入します。 <br/>  または、 [現在お使いのプロバイダーから提供された電話サービス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)を使用します。  <br/> |
-|**クラウド ボイスメールが含まれています。** <br/> |他に必要なものはありません。  <br/> |
+|**クラウドボイスメールが含まれています。** <br/> |他に必要なものはありません。  <br/> |

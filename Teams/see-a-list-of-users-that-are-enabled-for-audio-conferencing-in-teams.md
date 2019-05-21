@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams で電話会議用に有効になっているユーザーのリストを表示する
+title: Microsoft Teams の電話会議用に有効になっているユーザーのリストを表示する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,45 +12,45 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Microsoft Teams から、ダイヤルイン会議で有効になっている組織のユーザーのリストを表示する方法を説明します。 '
-ms.openlocfilehash: 2e1c74ccd856f32e8ff577ed7f718715e9e3c1b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Microsoft Teams で、ダイヤルイン会議が有効になっている組織内のユーザーの一覧を表示する方法について説明します。 '
+ms.openlocfilehash: 15eda1623438138b688da38a862fefa17d2d3ec4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204995"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305349"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議用に有効になっているユーザーのリストを表示する
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams の電話会議用に有効になっているユーザーのリストを表示する
 
-オーディオ会議の組織でマイクロソフトのチームのユーザーを有効にした後は、有効になっているユーザーの一覧を表示できます。 
+電話会議のために組織内の Microsoft Teams ユーザーを有効にした後は、有効になっているユーザーの一覧を表示できます。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="viewing-a-list-of-users"></a>ユーザーの一覧を表示します。
+## <a name="viewing-a-list-of-users"></a>ユーザーのリストを表示する
 
-- マイクロソフトのチーム管理センターで、左側のナビゲーションでは、**ユーザー**をクリックします。
+- Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] をクリックします。
 
 
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
-- 有効になっているユーザーの一覧を表示すると、そのユーザーの電話会議の設定を編集する] ボックスの一覧からユーザーを選択します。
+- 有効になっているユーザーのリストを表示する場合は、一覧からユーザーを選んで、そのユーザーの電話会議の設定を編集できます。
     
-- 1 人のユーザーを選択すると、その他の関連する音声会議の設定をユーザーに割り当てられている既定の電話番号を表示できます。    
+- 1人のユーザーを選択すると、そのユーザーに割り当てられている既定の電話番号とその他の関連する電話会議の設定を表示できます。    
    
-- [検索] ボタンを使用するには、リスト内の個々 のユーザーを検索します。
+- [検索] ボタンを使用して、リスト内の個々のユーザーを検索することができます。
     
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
+Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     

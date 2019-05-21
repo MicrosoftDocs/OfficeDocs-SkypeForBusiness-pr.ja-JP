@@ -1,53 +1,53 @@
 ---
-title: SCOM 管理パックを使用して、ビジネス サーバー 2019 の Skype を管理します。
+title: SCOM 管理パックを使用して Skype for Business Server 2019 を管理する
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.date: 10/26/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: '概要: は、Skype は、System Center Operations Manager を使用するビジネス サーバー 2019 インフラストラクチャを構成する方法について説明します。'
-ms.openlocfilehash: 003d2f13373b9d13ea5dc64fab43693deecbc20d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: '概要: System Center Operations Manager と連携するように Skype for Business Server 2019 インフラストラクチャを構成する方法について説明します。'
+ms.openlocfilehash: 5b33bae3f9ff3d71ec9cf5f33f5332afe58c6258
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899040"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288248"
 ---
-# <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 管理パックを使用して、ビジネス サーバー 2019 の Skype を管理します。
+# <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 管理パックを使用して Skype for Business Server 2019 を管理する
  
-**の概要:** Skype は、System Center Operations Manager を使用するビジネス サーバー 2019 インフラストラクチャを構成する方法について説明します。
+**概要:** System Center Operations Manager と連携するように Skype for Business Server 2019 インフラストラクチャを構成する方法について説明します。
   
-理想の世界でビジネス サーバー 2019 の Skype で問題が発生する、ことはありません。 ただし、Skype ビジネス サーバーの影響を受ける可能性の外部要因などのクラッシュやハードウェア障害など、ネットワークの。 Skype ビジネス サーバー 2019 の管理パックを使用すると、識別し、潜在的な問題をプロアクティブに対処できます。 この方法では、ビジネス サーバー 2019 の管理パックの Skype は、System Center Operations Manager の機能を拡張します。
+理想的な世界では、Skype for Business Server 2019 で問題が発生することはありませんでした。 ただし、Skype for Business Server は、ネットワーククラッシュやハードウェア障害などの外部要因によって影響を受ける可能性があります。 Skype for Business Server 2019 管理パックを使用すると、潜在的な問題を事前に特定して対処することができます。 このように、Skype for Business Server 2019 管理パックは System Center Operations Manager の機能を拡張します。
   
-この情報に基づいて作成されて監視パックのバージョン 9319.0 Skype のビジネス サーバー 2019 通信ソフトウェアです。
+この情報は、Skype for Business Server 2019 通信ソフトウェアの監視パックのバージョン9319.0 に基づいて作成されています。
   
 ## <a name="configuration-overview"></a>構成の概要
 
- Skype は、System Center Operations Manager を使用するビジネス サーバー 2019 インフラストラクチャを構成するには、次の 3 つを行う必要があります。
+ System Center Operations Manager と連携するように Skype for Business Server 2019 インフラストラクチャを構成するには、次の3つの操作を行う必要があります。
   
-プライマリ管理サーバーを識別し、[Configure the Primary Management Server](../../SfbServer/management-tools/use-scom-management-pack/configure-the-primary.md)。 これを行うには、System Center オペレーション マネージャー 2012 SP1 または R2 をインストールする必要があります。 
+プライマリ管理サーバーを識別し、[Configure the Primary Management Server](../../SfbServer/management-tools/use-scom-management-pack/configure-the-primary.md)。 これを行うには、System Center Operations Manager 2012 SP1 または R2 をインストールする必要があります。 
   
- 識別および[ビジネスのサーバーのコンピューターを監視するための Skype を構成します](../../SfbServer/management-tools/use-scom-management-pack/configure-computers-to-monitor.md)。 System Center Operations Manager を使用してビジネスのサーバー コンピューターに、Skype を監視するには、System Center Operations Manager エージェントのファイルをインストールし、プロキシとして動作する各サーバーを構成する必要があります。 
+ [監視される Skype For Business Server コンピューターを](../../SfbServer/management-tools/use-scom-management-pack/configure-computers-to-monitor.md)特定して構成します。 System Center Operations Manager を使用して Skype for Business Server コンピューターを監視するには、System Center Operations Manager エージェントファイルをインストールし、各サーバーがプロキシとして動作するように構成する必要があります。 
   
- 識別し、[をインストール ウォッチャー ノードを構成して](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md)。 ウォッチャー ノードは、定期的に Skype をビジネス サーバー代理トランザクションを実行するコンピューター、システムにログオンする機能、瞬時に交換する機能など、ビジネスのサーバー コンポーネントのキー Skype を検証する Windows PowerShell コマンドレットメッセージは期待どおりに作業しています。 
+ ウォッチャーノードを特定して、[インストールして構成](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md)します。 ウォッチャーノードは、Skype for Business Server の代理トランザクションを定期的に実行しているコンピューターです。 Windows PowerShell コマンドレットを使用すると、システムへのログオンやインスタント機能など、Skype for Business Server の主要なコンポーネントを確認することができます。メッセージは期待どおりに動作しています。 
   
-## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>システム センター操作マネージャー ルートの管理サーバーとエージェントのサポート
+## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center Operations Manager ルート管理サーバーとエージェントのサポート
 
-システム センターの Operations Manager 2007 R2 (64 ビット) の管理パックを使用することができます (移行のためだけにサポートされている) か、システム センター操作マネージャーの 2012 SP1 &amp; R2 (64 ビット) です。 次の表は、Skype のビジネス サーバー 2019 の管理パックのサポートされている構成を示しています。 
+管理パックは、System Center Operations Manager 2007 R2 (64 ビット) (移行目的でのみサポートされます) または System Center Operations Manager 2012 SP1 &amp; R2 (64 ビット) と併用できます。 次の表は、Skype for Business Server 2019 の管理パックでサポートされている構成を示しています。 
   
-|**構成**|**サポートされているでしょうか。**|
+|**構成**|**サポートされ?**|
 |:-----|:-----|
-|Windows Server 2008 R2 オペレーティング システム  <br/> Windows Server 2012 R2 のオペレーティング システム  <br/> |はい。 Skype ビジネス サーバー 2019 サーバーおよび代理トランザクションの監視ノードの両方です。  <br/> |
+|Windows Server 2008 R2 オペレーティング システム  <br/> Windows Server 2012 R2 オペレーティングシステム  <br/> |はい。 Skype for Business Server 2019 server と代理トランザクションウォッチャーノードの両方。  <br/> |
 |クラスター化サーバー  <br/> |サポートされていません。  <br/> |
 |エージェントレス監視  <br/> |サポートされていません。  <br/> |
 |仮想環境  <br/> |あり。  <br/> |
-|サーバーの役割「ドメインへの参加」  <br/> |ビジネス サーバー 2019 サーバーの役割のすべての内部 Skype は、ドメインに参加している必要があります。  <br/> |
-|サーバーの役割「スタンドアロン」  <br/> |Skype ビジネス サーバー 2019 のエッジ サーバーがドメインに参加する必要ではありません。  <br/> |
+|サーバーの役割「ドメインへの参加」  <br/> |すべての内部 Skype for Business Server 2019 サーバーの役割は、ドメインに参加している必要があります。  <br/> |
+|サーバーの役割「スタンドアロン」  <br/> |Skype for Business Server 2019 Edge サーバーは、ドメインに参加する必要はありません。  <br/> |
 |トポロジの制限事項  <br/> |展開のすべてのサーバーの役割は、同じ Operations Manager 管理グループから監視する必要があります。  <br/> |
 |代理トランザクション監視ノード  <br/> |代理トランザクション監視ノードによる監視シナリオの可用性はサポートされています (追加の構成が必要です)。監視ノードは、ドメインへの参加である必要はありません。  <br/> |
    
@@ -64,15 +64,15 @@ ms.locfileid: "30899040"
 
 代理トランザクション監視ノードを実行するには、まず、次をインストールする必要があります。
   
-- システム センター操作マネージャー エージェント 
+- System Center Operations Manager エージェント 
     
 -  Microsoft .NET Framework 4.5
     
-- Skype ビジネス サーバー コア インストール ファイル (OcsCore.msi) とユニファイド コミュニケーション マネージ API (UCMA) (バージョンがサーバー WatcherNode.msi のビジネス バージョンの Skype で一致する必要があります)
+- Skype for Business Server core インストールファイル (OcsCore) と統合通信マネージ API (UCMA) (バージョンは Skype for Business Server WatcherNode バージョンと一致する必要があります)
     
 ## <a name="files-in-this-monitoring-pack"></a>監視パック内のファイル
 
-ビジネス サーバー 2019 の Skype 用の監視パックには、次のファイルが含まれています。
+Skype for Business Server 2019 の監視パックには、次のファイルが含まれています。
   
 - Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp
     
@@ -82,110 +82,110 @@ ms.locfileid: "30899040"
     
 ## <a name="whats-new"></a>新機能
 
-Skype ビジネス サーバー 2019 の管理パックには次の機能します。
+以下の機能は、Skype for Business Server 2019 管理パックの新機能です。
   
-- **クライアントの自動検出**クライアント アプリケーションにサインインするには Skype ビジネス サーバー 2019 の多くの場合に自動的にサインインするにはサーバーを検出します。 代理トランザクションでは、検証をサポートする自動検出が正しく構成されています。
+- **クライアントサインインの自動検出**Skype for Business Server 2019 にサインインするクライアントアプリケーションは、サインインするために自動的にサーバーを検出します。 代理トランザクションは、自動検出が正しく構成されていることの確認をサポートするようになりました。
     
-- **カスタマイズされた代理トランザクションの実行間隔**ウォッチャー ノードのプロセスの設定を簡素化するには、代理トランザクションは、ユーザー アカウントを共有できます。 テストは、競合を避けるためにシリアル化するテストの実行頻度が低下します。 既定では、すべてのテストを確認するのには 15 分ごとに実行する代理トランザクションを実行する時間のあります。 多くのユーザーまたはユーザーごとの少数のテストを使用する管理者も実行間隔を短くようになりました可能性があります。
+- カスタマイズされた**代理トランザクションの実行間隔**ウォッチャーノードのセットアッププロセスを簡単にするために、代理トランザクションはユーザーアカウントを共有できます。 これにより、テストがシリアル化されて競合を避けるためにテストが実行される頻度が遅くなります。 既定では、代理トランザクションは15分ごとに実行され、すべてのテストが実行されるようになります。 ユーザーごとに複数のユーザーを使用することを選択した場合、またはユーザーあたりのテスト数が少なくなると、実行の間隔も短縮されます。
     
-- **ビデオの相互運用機能サービスの代理トランザクション**移行する Skype をビジネス サーバー 2019 の他のベンダーのソリューションから多くのお客様は、これらの他のベンダーからのビデオ会議デバイス (VTCs) を使用し続ける希望です。 ビデオの相互運用機能のサーバーは、Cisco CUCM ビデオの SIP トランク経由で接続することによって、会議室で Cisco の VTCs を使用し続けることにより、ビジネス サーバー 2019 サーバーの役割を新規の Skype です。 この機能は、ビデオの相互運用機能のサーバーが起動して、ビデオの SIP トランク経由で着信接続を処理できることを確認するために代理トランザクションを追加します。
+- **ビデオ相互運用サービスの代理トランザクション**他のベンダーのソリューションから Skype for Business Server 2019 に移行しているお客様は、多くの場合、これらの他のベンダーからのビデオテレビ用デバイス (VTCs) を引き続き使用することを望んでいます。 ビデオ相互運用機能サーバーは、ユーザーがビデオ SIP トランク経由で Cisco CUCM に接続することにより、会議室で引き続き Cisco VTCs を使用できるようにする、新しい Skype for Business Server 2019 サーバーの役割です。 この機能は、ビデオ相互運用サーバーが起動していることを確認し、ビデオ SIP トランク経由の着信接続を処理できることを確認するための代理トランザクションも追加します。
     
 - **アプリケーション共有会議代理トランザクション** アプリケーション共有会議のエンドツーエンド シナリオ検証がサポートされるようになりました。
     
 ## <a name="monitoring-scenarios"></a>監視シナリオ
 
-ビジネス サーバー 2019 の管理パックの Skype では、機能を検出し、問題を診断するためのさまざまなを活用します。 これらの機能は、Skype サーバー 2019 のビジネス環境の稼働状況のリアルタイムの可視性を提供します。
+Skype for Business Server 2019 管理パックは、問題を検出して診断するのに役立つさまざまな機能を利用します。 これらの機能により、Skype for Business Server 2019 環境の正常性をリアルタイムで確認できます。
   
 |**監視シナリオ**|**説明**|
 |:-----|:-----|
-|代理トランザクション  <br/> | Windows PowerShell のコマンドレットをテストし、プレゼンス、IM、およびユーザーの会議で記号などのシナリオの高可用性を確保します。 <br/> 代理トランザクションは、社内、社外、ブランチ オフィスなど、あらゆる地理的な場所から実行できます。  <br/> 代理トランザクションが失敗したとき、失敗の正確な性質の特定に役立つ HTML ログが作成されます。これには、失敗したアクション、各アクションの待機時間、テストの実行に使用されたコマンド ライン、発生した具体的なエラーを把握することが含まれます。  <br/> |
-|通話の信頼性のアラート  <br/> |通話詳細記録 (Cdr) Skype によってビジネス サーバー 2019 サーバーのユーザーが電話に接続できるかどうか、または呼び出しを終了する理由を反映します。 通話の信頼性のアラートでは、CDR データベースに照会して、多数のユーザーでピアツーピア通話または基本的な会議機能に関して接続の問題が発生しているときに、それを示すアラートを作成します。  <br/> シナリオの対象範囲には、音声通話、ピアツーピア インスタント メッセージング (IM)、その他の会議機能が含まれます。  <br/> |
-|メディア品質のアラート  <br/> |データベース クエリの各呼び出しの最後にあるビジネス サーバー 2019 クライアントに対して、Skype によって発行されたエクスペリエンスの品質 (QoE) レポートを確認します。 これらのクエリは、通話中および電話会議中にメディア品質の低下が発生する可能性が非常に高い場合のシナリオに特化したアラートを作成します。 このデータは、パケットの待機時間や損失など、ユーザー エクスペリエンスの品質に直接影響する主要な指標に基づいて作成されます。  <br/> |
+|代理トランザクション  <br/> | Windows PowerShell コマンドレットをテストして、サインイン、プレゼンス、IM、ユーザー用会議などのシナリオを高可用性で利用できるようにします。 <br/> 代理トランザクションは、社内、社外、ブランチ オフィスなど、あらゆる地理的な場所から実行できます。  <br/> 代理トランザクションが失敗したとき、失敗の正確な性質の特定に役立つ HTML ログが作成されます。これには、失敗したアクション、各アクションの待機時間、テストの実行に使用されたコマンド ライン、発生した具体的なエラーを把握することが含まれます。  <br/> |
+|通話の信頼性のアラート  <br/> |Skype for Business Server 2019 サーバーによって書き込まれた通話の詳細レコード (CDRs) は、ユーザーが通話に接続できるかどうか、または通話が終了した理由を反映します。 通話の信頼性のアラートでは、CDR データベースに照会して、多数のユーザーでピアツーピア通話または基本的な会議機能に関して接続の問題が発生しているときに、それを示すアラートを作成します。  <br/> シナリオの対象範囲には、音声通話、ピアツーピア インスタント メッセージング (IM)、その他の会議機能が含まれます。  <br/> |
+|メディア品質のアラート  <br/> |各通話の終了時に、Skype for Business Server 2019 クライアントによって公開された Quality of Experience (QoE) レポートを表示するデータベースクエリ。 これらのクエリは、通話中および電話会議中にメディア品質の低下が発生する可能性が非常に高い場合のシナリオに特化したアラートを作成します。 このデータは、パケットの待機時間や損失など、ユーザー エクスペリエンスの品質に直接影響する主要な指標に基づいて作成されます。  <br/> |
 |コンポーネントの正常性のアラート  <br/> |個別のサーバー コンポーネントは、イベント ログやパフォーマンス カウンターを介してアラートを発生させて、ユーザー シナリオに重大な影響を与える可能性があるエラー状態を示します。これらのアラートは、サービスが実行されていない、エラー率が高い、メッセージの待機時間が大きい、接続性の問題など、さまざまな状態を示します。  <br/> |
-|依存関係の正常性の監視  <br/> |Skype ビジネス サーバーのさまざまな外部の理由で失敗します。 管理パックでは、重大な問題になりうる重要な外部の依存関係について、データの監視と収集を行います。 これらの依存関係には、インターネット インフォメーション サービス (IIS) の可用性、および Skype のビジネス サーバー用のサーバーの CPU が含まれます。  <br/> |
+|依存関係の正常性の監視  <br/> |Skype for Business Server は、さまざまな外部の理由で失敗する可能性があります。 管理パックでは、重大な問題になりうる重要な外部の依存関係について、データの監視と収集を行います。 これらの依存関係には、インターネットインフォメーションサービス (IIS) の可用性、および Skype for Business Server に使用されているサーバーの CPU が含まれます。  <br/> |
    
 ### <a name="alert-prioritization"></a>アラートの優先度設定
 
 アラートは、次のカテゴリに分類されます。 
   
- **優先度の高い警告:** これらのアラートは、多数のユーザーのサービスの停止が発生して、即座のアクションを必要とする条件を指定します。 代理トランザクションとビジネス サーバー オーディオ/ビデオ会議用 Skype) などのオフラインのサービスによって検出された障害は、優先度の高い警告と見なされます。 対照的に、1 台のコンピューターのコンポーネントの障害は、優先度の高いアラートではありません。 ビジネス サーバー 2019 の Skype がこのような場合は組み込みの高可用性機能を持つ-たとえば、複数フロント エンド サーバー ロード バランサーの背後にあります。
+ **優先度の高い警告:** これらのアラートは、大規模なユーザーグループのサービス停止の原因となっていて、すぐに対応する必要がある条件を示します。 代理トランザクションとオフラインサービス (Skype for Business Server の音声/ビデオ会議など) によって検出された停止は、優先度の高いアラートとして評価されます。 一方、1台のコンピューターでのコンポーネントの障害は、優先度の高いアラートではありません。 Skype for Business Server 2019 には、このような状況に対応する高可用性機能が組み込まれています。たとえば、複数のフロントエンドサーバーはロードバランサーの背後にあります。
   
- **[中] の優先度の警告:** これらのアラートは、一部のユーザーに影響を与えるか、通話の音質に問題を示す状態を示します-などのコンポーネントの障害、または呼び出しでオーディオ品質の呼び出しの確立に遅延します。 このカテゴリの通知には、ステートフル (つまり、ネットワーク接続の状態に基づく警告の変更の性質)。などの呼び出しの確立の時間遅延を示す通常のしきい値に戻る場合は、この優先順位が中程度のアラートは、System Center Operations Manager での自動解決だろうし、管理者が操作を実行する必要はありません。 自動解決できないアラートは通常、その日のうちに管理者が対応します。
+ **中程度の優先度の警告:** このアラートは、ユーザーのサブセットに影響する条件、または通話品質の問題 (たとえば、コンポーネントの障害、通話の確立中の待ち時間、通話の音声品質の低下など) を示します。 このカテゴリの通知はステートフルです (つまり、ネットワーク接続の状態に応じてアラートの性質が変化します)。たとえば、発信時間を呼び出す場合は、待機時間を指定して、通常のしきい値に戻すと、System Center Operations Manager でこの Medium 優先度の警告が自動解決され、管理者がアクションを実行する必要はありません。 自動解決できないアラートは通常、その日のうちに管理者が対応します。
   
  **その他のアラート:** これらのアラートは、特定のユーザーまたは一部のユーザーに影響を与える可能性があるコンポーネントから生成されます。たとえば、よくあるアラートとしては、アドレス帳サービスがユーザー testuser@contoso.com の Active Directory® ドメイン サービス (AD DS) エントリを解析できない場合などです。管理者は、時間に余裕があるときにこれらのアラートに対応できます。
   
 ### <a name="synthetic-transactions"></a>代理トランザクション
 
-Skype ビジネス サーバー 2019 の管理パックには、代理トランザクションを使用してアラートの普及の増加を提供します。 代理トランザクションは、エンド ・ ツー ・ エンド ・ ユーザーのシナリオをテストするのには、Operations Manager 管理パックに統合された Windows PowerShell コマンドレットです。 代理トランザクションを実行するサーバーを指定すると、これらのコマンドレットは、管理パックによって定期的に発生します。 代理トランザクションから生じる障害は、ステートフルなアラートを生成します。 ここでは、Skype のビジネス サーバー 2019 の代理トランザクションをサポートします。
+Skype for Business Server 2019 管理パックを使用すると、代理トランザクションを通じて通知の範囲を拡大できます。 代理トランザクションは、Operations Manager 管理パックに統合された Windows PowerShell コマンドレットであり、エンドツーエンドのユーザーシナリオをテストします。 合成トランザクションを実行するようにサーバーを指定すると、これらのコマンドレットは管理パックによって定期的にトリガーされます。 代理トランザクションによるエラーは、ステートフルアラートを生成します。 Skype for Business Server 2019 では、次のような代理トランザクションがサポートされています。
   
 **登録、プレゼンス、連絡先に対してサポートされている代理トランザクション**
 
 ||||
 |:-----|:-----|:-----|
-|1  <br/> |登録 (ユーザー ログイン)  <br/> |Lync Server 2010 を使用し、以降も  <br/> |
-|2  <br/> |アドレス帳サービス (ファイル ダウンロード)  <br/> |Lync Server 2010 を使用し、以降も  <br/> |
-|3  <br/> |アドレス帳 Web クエリ  <br/> |Lync Server 2010 を使用し、以降も  <br/> |
-|4  <br/> |プレゼンス  <br/> |Lync Server 2010 を使用し、以降も  <br/> |
-|5  <br/> |ユニファイド連絡先の保存  <br/> |Lync Server 2013 を使用し、以降も  <br/> |
+|1  <br/> |登録 (ユーザー ログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|2  <br/> |アドレス帳サービス (ファイル ダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|3  <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|4  <br/> |プレゼンス  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|5  <br/> |ユニファイド連絡先の保存  <br/> |利用可能な Lync Server 2013 以降  <br/> |
    
 **ピアツーピア サービスに対してサポートされている代理トランザクション**
 
 ||||
 |:-----|:-----|:-----|
-|6  <br/> |ピアツーピア インスタント メッセージング  <br/> |Lync Server 2010 の内外で利用可能です  <br/> |
-|7  <br/> |ピアツーピア音声/ビデオ  <br/> |Lync Server 2010 の内外で利用可能です  <br/> |
-|8  <br/> |MCX ピアツーピア インスタント メッセージ (モバイル)  <br/> |ビジネス 2019年の Skype には、Lync Server 2010 の 2011 年 9 月リリースで利用可能  <br/> |
+|6  <br/> |ピアツーピア インスタント メッセージング  <br/> |Lync Server 2010 以降で利用可能  <br/> |
+|7  <br/> |ピアツーピア音声/ビデオ  <br/> |Lync Server 2010 以降で利用可能  <br/> |
+|個  <br/> |MCX ピアツーピア インスタント メッセージ (モバイル)  <br/> |Lync Server 2010 の2011年9月リリースの Skype for Business 2019 で利用可能  <br/> |
  
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
+> Skype for Business Server 2019 では、従来のモバイルクライアントに対する MCX (モバイルサービス) のサポートは利用できなくなりました。 現在のすべての Skype for Business のモバイルクライアントでは、インスタントメッセージング (IM)、プレゼンス、連絡先をサポートするために、既にユニファイドコミュニケーション Web API (UCWA) を使用しています。 MCX を使用するレガシクライアントを使っているユーザーは、現在のクライアントにアップグレードする必要があります。
   
 **電話会議と常設チャットに対してサポートされている代理トランザクション**
 
 ||||
 |:-----|:-----|:-----|
-|9  <br/> |音声ビデオ会議  <br/> |Lync Server 2010 の内外で利用可能です  <br/> |
-|10  <br/> |データ会議  <br/> |Lync Server 2013 の内外で利用可能です  <br/> |
-|11  <br/> |インスタント メッセージ電話会議  <br/> |Lync Server 2010 の内外で利用可能です  <br/> |
-|12  <br/> | 常設チャット <br/> |Lync Server 2013 の内外で利用可能です  <br/> |
-|13  <br/> |Join Launcher (予定された会議)  <br/> |Lync Server 2013 の内外で利用可能です  <br/> |
-|14  <br/> |ダイヤルイン会議  <br/> |Skype ビジネス サーバー 2015 の内外で利用可能です <br/> |
-|15  <br/> |アプリケーション共有会議  <br/> |Skype ビジネス サーバー 2015 の内外で利用可能です <br/> |
-|16  <br/> |UCWA 会議 (Web 会議参加)  <br/> |Skype ビジネス サーバー 2015 の内外で利用可能です <br/> |
+|ファイブ  <br/> |音声ビデオ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
+|常用  <br/> |データ会議  <br/> |Lync Server 2013 以降で利用可能  <br/> |
+|折り  <br/> |インスタント メッセージ電話会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
+|以内  <br/> | 常設チャット <br/> |Lync Server 2013 以降で利用可能  <br/> |
+|14  <br/> |Join Launcher (予定された会議)  <br/> |Lync Server 2013 以降で利用可能  <br/> |
+|14  <br/> |ダイヤルイン会議  <br/> |Skype for Business Server 2015 以降で利用可能 <br/> |
+|マート  <br/> |アプリケーション共有会議  <br/> |Skype for Business Server 2015 以降で利用可能 <br/> |
+|16  <br/> |UCWA 会議 (Web 会議参加)  <br/> |Skype for Business Server 2015 以降で利用可能 <br/> |
    
 **ネットワークとパートナーの依存関係に対してサポートされている代理トランザクション**
 
 ||||
 |:-----|:-----|:-----|
-|17  <br/> |音声ビデオ エッジ接続  <br/> |Lync Server 2013 の内外で利用可能です  <br/> |
-|18  <br/> |音声ビデオ エッジ接続 Exchange ユニファイド メッセージング接続 (ボイスメール)  <br/> |Lync Server 2013 の内外で利用可能です  <br/> |
-|19  <br/> |PSTN ピアツーピア通話  <br/> |Lync Server 2010 の内外で利用可能です  <br/> |
-|20  <br/> |XMPP インスタント メッセージング (フェデレーション)  <br/> |Lync Server 2013 の内外で利用可能です  <br/> |
-|21  <br/> |ビデオ相互運用サーバー  <br/> |Skype ビジネス サーバー 2015 の内外で利用可能です  <br/> |
+|18  <br/> |音声ビデオ エッジ接続  <br/> |Lync Server 2013 以降で利用可能  <br/> |
+|才  <br/> |音声ビデオ エッジ接続 Exchange ユニファイド メッセージング接続 (ボイスメール)  <br/> |Lync Server 2013 以降で利用可能  <br/> |
+|#  <br/> |PSTN ピアツーピア通話  <br/> |Lync Server 2010 以降で利用可能  <br/> |
+|超える  <br/> |XMPP インスタント メッセージング (フェデレーション)  <br/> |Lync Server 2013 以降で利用可能  <br/> |
+|2004  <br/> |ビデオ相互運用サーバー  <br/> |Skype for Business Server 2015 以降で利用可能  <br/> |
    
 ## <a name="how-health-rolls-up"></a>正常性がまとめられる方法
 
-次の表は、ビジネスのサーバーのオブジェクト、Skype の稼働状態を監視パックを示します。
+次の表は、Skype for Business Server monitoring pack のオブジェクトの正常性状態を示しています。
   
 |**管理パックのオブジェクト**|**説明**|
 |:-----|:-----|
-|Skype ビジネス サーバーの展開  <br/> |組織のビジネス サーバー 2019 の Skype の配置を表します。  <br/> |
-|Skype ビジネス サーバーのサイトの  <br/> |サービスが展開されるさまざまな地理的場所を表します。  <br/> |
-|Skype ビジネス サーバー プールの  <br/> |インスタント メッセージング、電話会議など、通信サービスをユーザーに提供する (サイト内の) プールです。特定のプールにマシンが 1 台しかない場合も、フロントエンド プール、エッジ プール、ディレクター プールに適用できます。  <br/> |
-|Skype ビジネス サーバーの役割について  <br/> |Skype ビジネス サーバー サービスをホストするサーバーの役割です。  <br/> |
-|ビジネス サーバー サービスの Skype  <br/> |特定のマシンに展開されている機能 (たとえば、fp01.contoso.com 上のユーザー サービスなど) を表します。  <br/> |
-|Skype ビジネス サーバー コンポーネント  <br/> |サービスのコンポーネントです (たとえば、アドレス帳ダウンロード コンポーネントは Web サービスの一部です)。  <br/> |
-|Skype のビジネス サーバー プールの監視  <br/> |1 つのプールに対して実行されている代理トランザクションのインスタンスです。  <br/> |
-|Skype ビジネス サーバーのレジストラーのウォッチャーの  <br/> |1 つの Registrar プールに対して実行される代理トランザクションのインスタンスです。  <br/> |
-|Skype のビジネス サーバー ユーザー サービス プールの監視  <br/> |1 つの User Services プールに対して実行される代理トランザクションのインスタンスです。  <br/> |
-|Skype ビジネス サーバー ボイス プールの監視の  <br/> |1 つの Voice プールに対して実行される代理トランザクションのインスタンスです。  <br/> |
-|Skype ビジネス サーバー ・ ポートの監視の  <br/> |1 つのプールに対して実行されているポート チェックのインスタンスです。  <br/> |
+|Skype for Business Server の展開  <br/> |組織内の Skype for Business Server 2019 の展開を表します。  <br/> |
+|Skype for Business Server サイト  <br/> |サービスが展開されるさまざまな地理的場所を表します。  <br/> |
+|Skype for Business Server プール  <br/> |インスタント メッセージング、電話会議など、通信サービスをユーザーに提供する (サイト内の) プールです。特定のプールにマシンが 1 台しかない場合も、フロントエンド プール、エッジ プール、ディレクター プールに適用できます。  <br/> |
+|Skype for Business Server の役割  <br/> |Skype for Business Server サービスをホストしているサーバーの役割。  <br/> |
+|Skype for Business Server サービス  <br/> |特定のマシンに展開されている機能 (たとえば、fp01.contoso.com 上のユーザー サービスなど) を表します。  <br/> |
+|Skype for Business Server コンポーネント  <br/> |サービスのコンポーネントです (たとえば、アドレス帳ダウンロード コンポーネントは Web サービスの一部です)。  <br/> |
+|Skype for Business Server プールウォッチャー  <br/> |1 つのプールに対して実行されている代理トランザクションのインスタンスです。  <br/> |
+|Skype for Business Server レジストラーウォッチャー  <br/> |1 つの Registrar プールに対して実行される代理トランザクションのインスタンスです。  <br/> |
+|Skype for Business Server ユーザーサービスプールウォッチャー  <br/> |1 つの User Services プールに対して実行される代理トランザクションのインスタンスです。  <br/> |
+|Skype for Business Server ボイスプールウォッチャー  <br/> |1 つの Voice プールに対して実行される代理トランザクションのインスタンスです。  <br/> |
+|Skype for Business Server のポートウォッチャー  <br/> |1 つのプールに対して実行されているポート チェックのインスタンスです。  <br/> |
 |簡易 URL ウォッチャー  <br/> |展開で構成されている簡易 URL の HTTPS 調査を実行します。  <br/> |
    
 ![SCOM ロールアップ](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-ビジネス サーバー プールのため、Skype では、ビジネス サーバー ・ システムの複数の個別 Skype (ビジネス サーバーの役割、ビジネス サーバー サービスでは、Skype と Skype ビジネス サーバー コンポーネントの 1 つ以上の Skype) とを含めることができます。 したがって、個々 のサーバーまたはコンポーネントのエラーは、同じプール内の他のサーバーは、クライアントにアプリケーション サービスを提供することができますのでビジネス サーバー プールの場合は、Skype の全体的な稼働状態になります。 状態は、ビジネス サーバー プールの Skype を率のレベルにロールアップされます。 
+Skype for Business Server プールには、複数の個別の Skype for business Server システム (複数の Skype for Business Server の役割、Skype for business Server サービス、Skype for Business Server コンポーネントを含む) を含めることができます。 このため、同じプール内の他のサーバーがアプリケーションサービスをクライアントに提供できるため、個々のサーバーまたはコンポーネントの障害は、Skype for Business Server プールの全体的な正常性にとって重要ではありません。 正常性は、Skype for Business Server プールにパーセンテージレベルでロールアップされます。 
   
-ビジネス サーバー プールの監視の Skype は、ビジネス サーバー プールのため、Skype に対して代理トランザクションを実行します。 1 つ以上の代理トランザクション (連続ポーリング間隔として知られるプロセス) が連続して失敗すると、次の図に示すように、重要という正常性の状態をプール レベル (あらゆる代理トランザクションのうち、最悪のもの) までまとめられます。 
+Skype for Business Server プールウォッチャーは、Skype for Business Server プールに対して代理トランザクションを実行します。 1 つ以上の代理トランザクション (連続ポーリング間隔として知られるプロセス) が連続して失敗すると、次の図に示すように、重要という正常性の状態をプール レベル (あらゆる代理トランザクションのうち、最悪のもの) までまとめられます。 
   
 ![SCOM ロールアップの連続ポーリング](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
@@ -193,7 +193,7 @@ Skype ビジネス サーバー 2019 の管理パックには、代理トラン�
 
 既定では、Operations Manager は既定の管理パックへの上書きなど、すべてのカスタマイズを保存します。ベスト プラクティスとして、カスタマイズする封印された管理パックごとに別個の管理パックを作成することをお勧めします。 
   
-「Skype ビジネス サーバー 2019 のカスタマイズ」など、新しい管理パック適切に名前付けをお勧め、シールされた管理パックのカスタマイズされた設定を保存する管理パックを作成するとき
+封印された管理パックのカスタマイズされた設定を保存するための管理パックを作成する場合は、「Skype for Business Server 2019 のカスタマイズ」などの新しい管理パックに適切な名前を付けることをお勧めします。
   
 封印された各管理パックのカスタマイズを格納するための新しい管理パックを作成すると、テスト環境からカスタマイズを運用環境にエクスポートすることが容易になります。これにより、管理パックを削除することも容易になります。管理パックを削除するには、依存関係を削除する必要があるためです。すべての管理パックのカスタマイズが既定の管理パックに保存され、1 つの管理パックを削除する必要がある場合は、まず、既定の管理パックを削除する必要があります。この操作により、他の管理パックへのカスタマイズも削除されます。 
   
@@ -201,57 +201,57 @@ Skype ビジネス サーバー 2019 の管理パックには、代理トラン�
 
 次のリンクにより、System Center 2012 監視パックに関連する一般的な作業に関する情報に接続できます。
   
-- [管理パックのライフ サイクル](https://technet.microsoft.com/en-us/library/hh212732.aspx)
+- [管理パックのライフサイクル](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [Operations Manager 2012 の管理パックをインポートする方法](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [Operations Manager 2012 で管理パックをインポートする方法](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
 - [ルールまたはモニターを上書きする方法](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
-- [Operations Manager 2012 のアカウントとして実行を作成する方法](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [Operations Manager 2012 で実行アカウントを作成する方法](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
-- [アカウントとプロファイルの実行を管理します。](https://technet.microsoft.com/en-us/library/hh212714.aspx)
+- [実行アカウントとプロファイルの管理](https://technet.microsoft.com/en-us/library/hh212714.aspx)
     
-- [オペレーション マネージャーの管理パックをエクスポートする方法](https://technet.microsoft.com/en-us/library/hh320149.aspx)
+- [Operations Manager 管理パックをエクスポートする方法](https://technet.microsoft.com/en-us/library/hh320149.aspx)
     
-- [オペレーション マネージャーの管理パックを削除する方法](https://technet.microsoft.com/en-us/library/hh230746.aspx)
+- [Operations Manager 管理パックを削除する方法](https://technet.microsoft.com/en-us/library/hh230746.aspx)
     
 次のリンクにより、System Center 2007 監視パックに関連する一般的な作業に関する情報に接続できます。
   
-- [管理パックのライフ サイクルを管理します。](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [管理パックのライフサイクルを管理する](https://go.microsoft.com/fwlink/p/?LinkId=211463)
     
-- [Operations Manager 2007 の管理パックをインポートする方法](https://go.microsoft.com/fwlink/p/?LinkID=142351)
+- [Operations Manager 2007 で管理パックをインポートする方法](https://go.microsoft.com/fwlink/p/?LinkID=142351)
     
-- [オーバーライドの使用を監視する方法](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [上書きを使って監視する方法](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [Operations Manager 2007 でのアカウントとして実行を作成する方法](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [Operations Manager 2007 で実行アカウントを作成する方法](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
-- [プロファイルと既存の実行を変更する方法](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [既存の実行プロファイルを変更する方法](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     
 - [管理パックのカスタマイズをエクスポートする方法](https://go.microsoft.com/fwlink/p/?LinkId=209940)
     
 - [管理パックを削除する方法](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-Operations Manager と監視パックについての質問は、 [System Center Operations Manager のコミュニティ フォーラム](https://go.microsoft.com/fwlink/p/?LinkID=179635)を参照してください。
+Operations Manager と監視パックに関する質問については、 [System Center Operations manager コミュニティフォーラム](https://go.microsoft.com/fwlink/p/?LinkID=179635)をご覧ください。
   
-便利なリソースは、[システム センター操作マネージャーばら撒かれてはい.](https://opsmgrunleashed.wordpress.com/)のブログは、特定の監視パックの「例」投稿が含まれていますいます。
+リソースとしては、 [System Center Operations Manager の Unleashed](https://opsmgrunleashed.wordpress.com/)ブログがあります。これには、特定の監視パックの "サンプル" の投稿が含まれています。
   
 Operations Manager の追加情報については、次のブログを参照してください。 
   
-- [オペレーション マネージャーのチームのブログ](https://blogs.technet.com/momteam/default.aspx)
+- [Operations Manager チームブログ](https://blogs.technet.com/momteam/default.aspx)
     
-- [Kevin Holman の OpsMgr のブログ](https://blogs.technet.com/kevinholman/default.aspx)
+- [加山 Holman の OpsMgr ブログ](https://blogs.technet.com/kevinholman/default.aspx)
     
-- [OpsMgr の考え](https://thoughtsonopsmgr.blogspot.com/)
+- [OpsMgr でのご意見](https://thoughtsonopsmgr.blogspot.com/)
     
-- [Raphael Burri のブログ](https://rburri.wordpress.com/)
+- [Raphael のギザギザのブログ](https://rburri.wordpress.com/)
     
-- [BWren の管理の領域](https://blogs.technet.com/brianwren/default.aspx)
+- [BWren の管理スペース](https://blogs.technet.com/brianwren/default.aspx)
     
-- [Opsmgr では](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
+- [Ops マネージャー + +](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > Microsoft 以外のサイトにあるすべての情報とコンテンツは、Web サイトの所有者またはユーザーによって提供されています。Microsoft は、この Web サイトの情報に関して明示的、暗黙的、法的な保証を一切行いません。 
   
 ## <a name="see-also"></a>関連項目
 
-[2019 のサーバー管理ツールのビジネスの Skype](../management-tools-2019.md)
+[Skype for Business Server 2019 管理ツール](../management-tools-2019.md)

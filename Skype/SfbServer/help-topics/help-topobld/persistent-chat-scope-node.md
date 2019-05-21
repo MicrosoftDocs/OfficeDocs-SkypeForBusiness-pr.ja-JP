@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PersistentChatScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
-description: 新しい永続的なチャットのサーバーまたは永続的なチャット プールを右クリックして、新しい永続的なチャットのプールを選択して、トポロジ ビルダーでの永続的なチャット サーバー プールの作成を開始するには
-ms.openlocfilehash: 061599720d45b5bfa0ec80771086c0acf2354bbf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 新しい常設チャットサーバーまたは常設チャットサーバープールの作成を開始するには、[トポロジビルダー] で [常設チャットプール] を右クリックし、[新しい常設チャットプール] を選択します。
+ms.openlocfilehash: b4f4ac70fa28f5c2148be2138cf713769e993046
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910863"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289918"
 ---
 # <a name="persistent-chat-scope-node"></a>常設チャット スコープ ノード
  
-新しい永続的なチャットのサーバーまたは**永続的なチャット プール**を右クリックして、**新しい永続的なチャットのプール**を選択して、トポロジ ビルダーでの永続的なチャット サーバー プールの作成を開始するには
+新しい常設チャットサーバーまたは常設チャットサーバープールの作成を開始するには、[トポロジビルダー] で [**常設チャットプール**] を右クリックし、[**新しい常設チャットプール**] を選択します。
   
-- **トポロジ**。 新しいトポロジを定義、既存のトポロジを開き、現在のトポロジをダウンロード、トポロジのコピーを保存、トポロジを公開、データベースをインストール、Office Communications Server の以前のバージョンのコンポーネントをマージまたは削除するこのオプションを使用することができます、展開します。
+- **トポロジ**。 このオプションを使うと、新しいトポロジの定義、既存のトポロジの表示、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンの Office Communications Server からのコンポーネントのマージ、デプロイメント.
     
 - **ヘルプ**。 このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     
@@ -32,4 +32,4 @@ ms.locfileid: "33910863"
 
 [Skype for Business Server 2015 の常設チャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Skype for Business Server 2015 トポロジに常設チャットサーバーを追加する](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

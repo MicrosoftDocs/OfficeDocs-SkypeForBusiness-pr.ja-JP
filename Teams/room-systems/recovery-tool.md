@@ -5,59 +5,59 @@ author: lanachin
 manager: serdars
 ms.reviewer: davgroom
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
-description: この資料では、サポートされている状態にする最新のシステムを使用する Microsoft のチーム会議室の回復ツールを使用する方法について説明します。
-ms.openlocfilehash: d784e20656d6f97340e8cfa797d9f64bcb83d4b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。
+ms.openlocfilehash: cbfb3ef1ec033389894b3b7479e454160dc77b1b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916544"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305485"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Microsoft Teams Rooms の回復ツールを使用する
  
-この資料では、サポートされている状態にする最新のシステムを使用する Microsoft のチーム会議室の回復ツールを使用する方法について説明します。 「最新のシステム構成」のエラーが表示マイクロソフト チームの会議室とは、このツールを使用します。
+この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。 このツールは、Microsoft Teams の [会議室] コンソールに "システム構成の終了" というエラーが表示されている場合に使用します。
   
 
 <a name="Prerequisites"> </a>  
 ## <a name="prerequisites"></a>前提条件
 
-最新の[マイクロソフト チームの会議室のインストール パッケージ](https://go.microsoft.com/fwlink/?linkid=851168)をダウンロードし、USB メモリ スティックまたはネットワーク共有に Microsoft チームの会議室のデバイスにアクセスできるようにします。
+最新の[Microsoft Teams ルームインストールパッケージ](https://go.microsoft.com/fwlink/?linkid=851168)をダウンロードし、それを USB メモリスティックまたは Microsoft teams 室デバイスにアクセスできるネットワーク共有に抽出します。
 
-[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)をインストールする必要もあります。
+また、 [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)をインストールする必要があります。
 
 <a name="Windows-ver"> </a>
-## <a name="verify-windows-version"></a>Windows のバージョンを確認します。 
+## <a name="verify-windows-version"></a>Windows のバージョンを確認する 
 
-1. マイクロソフト チーム室デバイスから Settings> Windows Setting> 管理者サインインする**に**は、管理者用のアカウントにログインします。 このオプションでは、ログイン画面に表示されます。
-2. 既定の管理者、管理者用のアカウントにサインイン中のアカウント`admin`パスワードを使用して`sfb`。
-3. [スタート] メニューをクリックして`winver.exe`をクリックして、[検索] ボックスに **コマンドの実行*結果をします。
-4. 情報ウィンドウの 2 番目の行で 'バージョン' の後の番号を書き留めます。
+1. Microsoft Teams 室のデバイスから**Settings> Windows Setting> admin のサインイン**にアクセスして、管理者アカウントにログインします。 このオプションでは、ログイン画面が表示されます。
+2. 既定の管理者アカウントであるパスワード`admin` `sfb`を使って、管理者アカウントにサインインします。
+3. [スタート] メニューをクリックし`winver.exe`て、検索ボックスに入力し、結果に対して [**実行]* をクリックします。
+4. [情報] ウィンドウの2行目の [バージョン] の後の番号をメモしておきます。
 
 >[!NOTE]
->1607 またはそれ以前に、新しいバージョンがある場合次の手順に進む前に<a href="#Windows-up">回復する前に更新プログラムの Windows</a>の手順の<a href="#Perform">リカバリを実行する</a>手順を実行します。 表示されるバージョンが 1607 よりも大きい場合は、手順をのみ<a href="#Perform">実行するリカバリ</a>です。
+>表示されているバージョンが1607以前の場合は、「回復<a href="#Windows-up">前に Windows を更新</a>する」の手順に従って、Proceding を<a href="#Perform">実行</a>してください。 表示されているバージョンが1607よりも大きい場合は、「<a href="#Perform">回復を実行する</a>」の手順に従ってください。
 
 <a name="Windows-up"> </a>
-## <a name="update-windows-before-recovery-if-needed"></a>(必要な場合)、回復する前に Windows を更新します。
+## <a name="update-windows-before-recovery-if-needed"></a>回復前に Windows を更新する (必要な場合)
 
-1. Admin ユーザーとしてログインしたまま、中には、管理者として Powershell プロンプトを起動します。
-2. コマンドを実行して`Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`。
-3. Windows Update を実行し、Windows 1709 用の更新プログラムをインストールします。
-4. 1709 を更新した後、完全な記号は管理者アカウントにバックアップし、 [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)をインストールします。 リンクから更新プログラムを実行することがありますまたは Windows Update を使用します。
-5. 省略可能な手順としては、Windows Update からの追加の更新プログラムをインストールします。
+1. 引き続き管理者ユーザーとしてログインしている場合は、管理者特権の Powershell プロンプトを起動します。
+2. コマンド`Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`を実行します。
+3. Windows Update を実行して、Windows 1709 用の更新プログラムをインストールします。
+4. 1709への更新が完了したら、管理者アカウントにサインインし直して、 [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)をインストールします。 更新は、リンクから、または Windows Update を使用して行うことができます。
+5. オプションの手順として、Windows Update から入手できる追加の更新プログラムをインストールします。
 
 <a name="Perform"> </a>
-## <a name="perform-a-recovery"></a>リカバリを実行します。
+## <a name="perform-a-recovery"></a>回復を実行する
 
-1. マイクロソフト チームの会議室、デバイスの管理アカウントにサインインし、管理者特権でコマンド プロンプトを起動します。
-2. マイクロソフト チーム室デバイスからできることを確認するにアクセスするのには、`RecoveryTool.ps1`ファイルで、マイクロソフト チームの会議室のインストール パッケージから抽出されたファイルに含まれます。 必須コンポーネントを準備する際に使用する USB ドライブ、ネットワーク共有上のキットをご覧ください。
-3. Powershell.exe コマンドを実行して`-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`。
-4. スクリプトのオプションを選択してメッセージが表示されたら`1:"Repair System"`。
-5. 完了すると、マイクロソフトのチームの会議室のデバイスを再起動します。 もの完全に回復した 2 回目、もう一度自動的に再起動されます。
+1. Microsoft Teams 室のデバイスで管理者アカウントにサインインして、管理者特権のコマンドプロンプトを起動します。
+2. Microsoft teams 室のインストールパッケージから抽出されたファイルに含ま`RecoveryTool.ps1`れているファイルにアクセスできる、microsoft Teams のルームデバイスから確認します。 キットは、前提条件を準備するときに使用したネットワーク共有または USB ドライブにあります。
+3. Powershell .exe コマンド`-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`を実行します。
+4. スクリプト選択オプション`1:"Repair System"`のプロンプトが表示された場合。
+5. 完了したら、Microsoft Teams 室のデバイスを再起動します。 自動的に再起動され、2回目の回復が完了します。
 
 
 

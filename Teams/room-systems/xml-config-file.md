@@ -1,33 +1,33 @@
 ---
-title: マイクロソフト チームの会議室のコンソールの設定を XML 構成ファイルを使用してリモートで管理します。
+title: XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice
-description: この資料では、カスタム テーマを適用するなど、マイクロソフトのチーム会議室デバイスによって使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: 28a9b64a1385795e9d52f503cba77149eb89679a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
+ms.openlocfilehash: 998702a7af98b72139b7f4f20916937ebf7fc247
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915727"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305334"
 ---
-# <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>マイクロソフト チームの会議室のコンソールの設定を XML 構成ファイルを使用してリモートで管理します。
+# <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する
  
-この資料では、カスタム テーマを適用するなど、マイクロソフトのチーム会議室デバイスによって使用される既定の設定のリモート管理について説明します。
+この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
   
-マスター XML ファイルを更新して、ユーザーが管理するコンソールにコピーを送信すると、リモート管理されたデバイスの既定の設定を変更することができます。 この記事では、このようなファイルの作成方法を説明するとともに、リモート管理されたデバイス上にそれらを配置する方法を説明するリンクを示します。 このメソッドを使用するのマイクロソフト チームの会議室のコンソールでカスタム テーマを実装することもできます。 
+マスター XML ファイルを更新して、ユーザーが管理するコンソールにコピーを送信すると、リモート管理されたデバイスの既定の設定を変更することができます。 この記事では、このようなファイルの作成方法を説明するとともに、リモート管理されたデバイス上にそれらを配置する方法を説明するリンクを示します。 このメソッドを使うと、Microsoft Teams のルームコンソールでカスタムテーマを実装することもできます。 
   
 ## <a name="creating-an-xml-configuration-file"></a>XML 構成ファイルの作成
 
-このサンプル (これは、必要なファイル名) を SkypeSettings.xml に示すように要素を説明する次の表の構成ファイルです。 
+次の表では、このサンプル SkypeSettings で示されている要素について説明しています (これは必須のファイル名) 構成ファイルです。 
   
 ```
 <SkypeSettings>
@@ -66,66 +66,66 @@ ms.locfileid: "33915727"
 </SkypeSettings>
 ```
 
-XML ファイルの作成でエラーが含まれる場合 (変数値の型に誤りがある、要素の配置順序に誤りがある、要素が閉じられていないなどの場合)、エラーが見つかった場所までの設定が適用され、処理中はファイルの残りの部分は無視されます。 XML 内の不明な要素は無視されます。 パラメーターは削除されると、変更されないままデバイス上に残ります。 パラメーターの値が有効である場合は、前の値は変更されません。
+XML ファイルの作成でエラーが含まれる場合 (変数値の型に誤りがある、要素の配置順序に誤りがある、要素が閉じられていないなどの場合)、エラーが見つかった場所までの設定が適用され、処理中はファイルの残りの部分は無視されます。 XML 内の不明な要素は無視されます。 パラメーターは削除されると、変更されないままデバイス上に残ります。 パラメーターの値が無効な場合、その前の値は変更されません。
   
 **XML 要素**
  
 |要素|型|レベル|使用方法|
 |:--- |:--- |:--- |:--- |
 |\<SkypeSettings\>   |すべての要素のコンテナー。   ||必須。   |
-| \<AutoScreenShare\>  |ブール & #x 2777 です。  |最初の & #x 2776。  | true の場合、自動画面共有が有効になります。  |
-|\<HideMeetingName\>   |ブール & #x 2777 です。  |最初の & #x 2776。  |true の場合、会議名が非表示になります。   |
-|\<ユーザー アカウント\>   |Container   |最初の & #x 2776。  |資格情報パラメーターのコンテナー。   サインイン アドレス、Exchange アドレス、または電子メール アドレスは、通常は RanierConf など、同じ<span></span>@contoso.com です。   |
-|\<SkypeMeetingsEnabled\>  |ブール & #x 2777 です。  |最初の & #x 2776。  |既定では有効です。   |
-|\<SkypeSignInAddress\>   |文字列 & #x 2778 です。  ||コンソールの Skype for Business デバイス アカウントのサインイン名。   |
-|\<ExchangeAddress\>   |文字列 & #x 2778 です。  ||コンソールの Exchange デバイス アカウントのサインイン名。   ExchangeAddress が省略された場合、SkypeSignInAddress が自動的に再利用されることはありません。   |
-|\<DomainUsername\>   |文字列 & #x 2778 です。  ||コンソール デバイスのドメイン名およびユーザー名 (Seattle\RanierConf など)。   |
+| \<AutoScreenShare\>  |ブール値 & # x2777;  |第1の & # x2776;  | true の場合、自動画面共有が有効になります。  |
+|\<Hide会議名\>   |ブール値 & # x2777;  |第1の & # x2776;  |true の場合、会議名が非表示になります。   |
+|\<UserAccount\>   |Container   |第1の & # x2776;  |資格情報パラメーターのコンテナー。   通常、@contoso RanierConf と同じように、サインインアドレス、Exchange アドレス、またはメールアドレスが同じになります。   |
+|\<SkypeMeetingsEnabled\>  |ブール値 & # x2777;  |第1の & # x2776;  |既定では有効です。   |
+|\<SkypeSignInAddress\>   |文字列 & # x2778;  ||コンソールの Skype for Business デバイス アカウントのサインイン名。   |
+|\<ExchangeAddress\>   |文字列 & # x2778;  ||コンソールの Exchange デバイス アカウントのサインイン名。   ExchangeAddress が省略された場合、SkypeSignInAddress が自動的に再利用されることはありません。   |
+|\<DomainUsername\>   |文字列 & # x2778;  ||コンソール デバイスのドメイン名およびユーザー名 (Seattle\RanierConf など)。   |
 |\<パスワード\>   |String 3  || パスワード パラメーターは、Skype for Business デバイス アカウントのサインインで使用されるものと同一のパスワードです。  |
-| \<ConfigureDomain\>  |文字列 & #x 2778 です。  ||複数のドメインをコンマで区切ってリスト表示することができます。   |
-|\<TeamsMeetingsEnabled\>   |ブール & #x 2777 です。  |最初の & #x 2776。  |既定では無効です。 <br/> <br/> XML ファイルと見なされます正しくない場合は両方\<SkypeMeetingsEnabled\>と\<TeamsMeetingsEnabled\>が無効になって、両方の設定が同時に有効にすることができますが、します。   |
-|\<IsTeamsDefaultClient> |ブール & #x 2777 です。  |最初の & #x 2776。  |既定では無効です。 |
-|\<BluetoothAdvertisementEnabled> |ブール & #x 2777 です。  |最初の & #x 2776。  |既定では有効です。 |
-|\<DualScreenMode\>  |ブール & #x 2777 です。  |最初の & #x 2776。  |True の場合、デュアル画面モードを有効にします。 それ以外の場合、デバイスでは 1 画面表示モードが使用されます。   |
-|\<SendLogs\>   |Container   |最初の & #x 2776。  ||
-|\<EmailAddressForLogsAndFeedback\>   |文字列 & #x 2778 です。  ||[フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションの電子メール アドレスを設定します。   |
-|\<SendLogsAndFeedback\>   |ブール & #x 2777 です。  || true の場合、ログが管理者に送信されます。それ以外の場合、フィードバックのみが管理者に送信されます (ログは送信されません)。  |
-| \<Devices\>  |Container   |最初の & #x 2776。  | 子要素内の接続済みのオーディオ デバイス名は、デバイス マネージャー アプリにリスト表示された値と同一のものになります。 この構成には、現在コンソールに接続していない A/V デバイスなど、現在システムに存在しないデバイスを含めることができます。 この構成はそれぞれのデバイスに対して保持されます。  |
-|\<MicrophoneForCommunication\>   |文字列 & #x 2778 です。  ||会議で録音デバイスとして使用されるマイクを設定します。   |
-|\<SpeakerForCommunication\>   |文字列 & #x 2778 です。  ||会議のスピーカーとして使用されるデバイス。 この設定は、使用されるスピーカー デバイスに、通話中の音声を聞かせるよう設定するために使用されます。   |
-|\<DefaultSpeaker\>   |文字列 & #x 2778 です。  ||HDMI インジェスト ソースから音声を再生するために使用されるデバイス。   |
-| \<テーマ\>  |Container   |最初の & #x 2776。  |XML ファイルを使用して適用できる機能の 1 つに、所属組織のカスタム テーマがあります。 テーマの名前、背景イメージ、および色を指定することができます。   |
-|\<ThemeName\>   |文字列 & #x 2778 です。  || クライアントのテーマを特定するために使用されます。 テーマ名のオプションは、既定、提供されたプリセット テーマのいずれか、またはカスタムになります。 <br/>  カスタム テーマの名前は、*カスタム*の名前を常に使用する必要があります。 クライアント UI は、コンソールで、既定またはプリセットのいずれかに設定できますが、カスタム テーマの適用は管理者によってリモートで設定する必要があります。 <br/>  プリセット テーマには次のものが含まれます:  <br/>  Default <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  現在のテーマを無効にするのには、ThemeName の [テーマなし] を使用します。  |
-|\<CustomThemeImageUrl\>   |文字列 & #x 2778 です。  ||それ以外の場合に省略可能なユーザー定義のテーマを使用する場合に必要です。 カスタム テーマの画像の詳細については[カスタム テーマの画像](xml-config-file.md#Themes)の項を参照してください。  |
-|\<CustomThemeColor\>   |Container   ||コンテナー、 \<RedComponent\>、 \<GreenComponent\>、および\<BlueComponent\>の値です。 これらの値はカスタム テーマを使用する場合に必要です。   |
-|\<RedComponent\>   |Byte (0-255)   ||赤のカラー コンポーネントを表します。   |
+| \<ConfigureDomain\>  |文字列 & # x2778;  ||複数のドメインをコンマで区切ってリスト表示することができます。   |
+|\<TeamsMeetingsEnabled\>   |ブール値 & # x2777;  |第1の & # x2776;  |既定では無効です。 <br/> <br/> SkypeMeetingsEnabled \<\>と\<TeamsMeetingsEnabled\>の両方が無効になっている場合、XML ファイルの形式が不適切であると見なされますが、両方の設定を同時に有効にすることはできます。   |
+|\<IsTeamsDefaultClient> |ブール値 & # x2777;  |第1の & # x2776;  |既定では無効です。 |
+|\<BluetoothAdvertisementEnabled> |ブール値 & # x2777;  |第1の & # x2776;  |既定では有効です。 |
+|\<DualScreenMode\>  |ブール値 & # x2777;  |第1の & # x2776;  |True の場合、デュアルスクリーンモードが有効になります。 それ以外の場合、デバイスでは 1 画面表示モードが使用されます。   |
+|\<SendLogs\>   |Container   |第1の & # x2776;  ||
+|\<EmailAddressForLogsAndFeedback\>   |文字列 & # x2778;  ||[フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションの電子メール アドレスを設定します。   |
+|\<SendLogsAndFeedback\>   |ブール値 & # x2777;  || true の場合、ログが管理者に送信されます。それ以外の場合、フィードバックのみが管理者に送信されます (ログは送信されません)。  |
+| \<Devices\>  |Container   |第1の & # x2776;  | 子要素内の接続済みのオーディオ デバイス名は、デバイス マネージャー アプリにリスト表示された値と同一のものになります。 この構成には、現在コンソールに接続していない A/V デバイスなど、現在システムに存在しないデバイスを含めることができます。 この構成はそれぞれのデバイスに対して保持されます。  |
+|\<マイクロフォン Forcommunication\>   |文字列 & # x2778;  ||会議で録音デバイスとして使用されるマイクを設定します。   |
+|\<SpeakerForCommunication\>   |文字列 & # x2778;  ||会議のスピーカーとして使用されるデバイス。 この設定は、使用されるスピーカー デバイスに、通話中の音声を聞かせるよう設定するために使用されます。   |
+|\<DefaultSpeaker\>   |文字列 & # x2778;  ||HDMI インジェスト ソースから音声を再生するために使用されるデバイス。   |
+| \<テーマ\>  |Container   |第1の & # x2776;  |XML ファイルを使用して適用できる機能の 1 つに、所属組織のカスタム テーマがあります。 テーマ名、背景画像、色を指定できます。   |
+|\<グループ名\>   |文字列 & # x2778;  || クライアントのテーマを特定するために使用されます。 テーマ名のオプションは、既定、提供されたプリセット テーマのいずれか、またはカスタムになります。 <br/>  ユーザー設定のテーマ名には、常に*ユーザー設定*の名前を使用する必要があります。 クライアント UI は、コンソールで、既定またはプリセットのいずれかに設定できますが、カスタム テーマの適用は管理者によってリモートで設定する必要があります。 <br/>  プリセット テーマには次のものが含まれます:  <br/>  Default <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  現在のテーマを無効にするには、[テーマなし] を使用します。  |
+|\<CustomThemeImageUrl\>   |文字列 & # x2778;  ||カスタムテーマを使用する場合は必須です。それ以外の場合は省略可能です。 ユーザー設定のテーマの画像の詳細については、以下の「[カスタムテーマの画像](xml-config-file.md#Themes)」セクションを参照してください。  |
+|\<CustomThemeColor\>   |Container   ||\<\>Redcomponent \<、\>GreenComponent、および\<BlueComponent\>値のコンテナー。 これらの値はカスタム テーマを使用する場合に必要です。   |
+|\<赤成分\>   |Byte (0-255)   ||赤のカラー コンポーネントを表します。   |
 |\<GreenComponent\>   |Byte (0-255)   ||緑のカラー コンポーネントを表します。   |
 |\<BlueComponent\>   |Byte (0-255)   ||青のカラー コンポーネントを表します。   |
 | | | |
    
-& #x 2776。第 1 レベルの要素はすべてオプションです。 第 1 レベルの要素を省略すると、デバイス上のすべての子のパラメーターは変更されません。
+&#x2776;第1レベルのすべての要素は省略可能です。 第1レベルの要素を省略した場合、そのすべての子パラメーターはデバイス上でそのまま保持されます。
   
-& #x 2777 です。ブール型のフラグは、次のいずれかを指定できます。 true、false、0、または 1 です。 ブール値または数値の値を空のままに可能性があります XML を表示形式が正しくない設定を変更するがないようにします。
+&#x2777;ブール型のフラグには、true、false、0、1のいずれかを指定できます。 ブール値または数値を空にすると、XML の形式が無効になり、設定が変更されなくなる可能性があります。
   
- & #x 2778 です。文字列パラメーターは、表示、空の場合、および有効な値は、空には、デバイスのパラメーターがクリアされます。
+ &#x2778;文字列パラメーターが存在する場合は、empty と empty が有効な値である場合、デバイス上のパラメーターは消去されます。
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>XML 構成ファイルを使用したコンソール設定の管理
 
-起動時に、マイクロソフト チームの会議室のコンソールの位置**C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**、SkypeSettings.xml という名前の XML ファイルを検索する場合に、構成設定を適用します。XML ファイル、XML ファイルの削除によって示されます。
+起動時に、Microsoft Teams の [会議室] コンソールで、 **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**に SkypeSettings .xml という名前の xml ファイルが検出されると、構成設定が適用されます。XML ファイルで指定された XML ファイルを削除します。
   
-マイクロソフト チーム ルーム デバイスの数によって、企業があり、それらを構成するのには管理するために選択する方法がいくつかの XML 構成ファイルを配置する方法。 ファイルがコンソールにプッシュされたら、再起動して構成の変更を処理します。 処理に成功すると、XML 構成ファイルが削除されます。 マイクロソフト チームの会議室のデバイスの管理の方法で説明します。
+エンタープライズに搭載されている Microsoft Teams の会議室の数や、それらを構成するためにどのように管理するかに応じて、さまざまな方法で XML 構成ファイルを配置できます。 ファイルがコンソールにプッシュされたら、再起動して構成の変更を処理します。 処理に成功すると、XML 構成ファイルが削除されます。 Microsoft Teams 室のデバイスに提案された管理方法については、次のトピックをご覧ください。
   
-- [マイクロソフト チームの会議室のグループ ポリシーを構成します。](room-systems-v2-operations.md#GroupPolicy)
+- [Microsoft Teams ルームのグループポリシーを構成する](room-systems-v2-operations.md#GroupPolicy)
     
-- [PowerShell を使用してリモートの管理](room-systems-v2-operations.md#RemotePS)」および「[ファイル項目を構成します。](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+- [PowerShell を使用したリモート管理](room-systems-v2-operations.md#RemotePS)と[ファイル項目の構成](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
     
-ファイルの転送と、コンソール デバイス上での再起動のトリガーができるのであれば、いずれの方法も使用できます。 ファイルは、読み取り、書き込み可能なおよび削除可能なデバイスのローカル ユーザー アカウント (可能であれば、それが所有する必要があり、そのユーザーに与えられる全体の特権を持っている) でなければなりません。 ファイルの権限が適切に設定されていない場合、ソフトウェアは設定の適用に失敗したり、処理成功時にファイルの削除に失敗する可能性があるだけではなく、クラッシュする可能性があります。
+ファイルの転送と、コンソール デバイス上での再起動のトリガーができるのであれば、いずれの方法も使用できます。 ファイルは、デバイスのローカルユーザーアカウントによって読み取り可能、書き込み可能、削除可能である必要があります (推奨されるのは、そのユーザーに対して権限が与えられている必要があります)。 ファイルの権限が適切に設定されていない場合、ソフトウェアは設定の適用に失敗したり、処理成功時にファイルの削除に失敗する可能性があるだけではなく、クラッシュする可能性があります。
   
 ## <a name="custom-theme-images"></a>カスタム テーマの画像
 <a name="Themes"> </a>
 
-カスタム テーマの画像ファイルを配置する必要があります**C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**で入力ファイル名と拡張子で、 \<CustomThemeImageUrl\>変数です。
+**C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**にユーザー設定のテーマの画像ファイルを配置する必要があります。 \<CustomThemeImageUrl\>変数にファイル名と拡張子を入力するだけです。
   
-画像ファイルはちょうど 3840 x 1080 ピクセルであり、jpg、jpeg、png、bmp のいずれかの形式である必要があります。 組織では、カスタム イメージを希望する場合は、グラフィック デザイナーに役立つ、[カスタム テーマの Photoshop のテンプレート](https://go.microsoft.com/fwlink/?linkid=870441)。 このテンプレートには、テーマ画像内でいろいろな要素を配置できる場所や、コンソールやディスプレイに表示される領域に関する詳細が記載されています。
+画像ファイルはちょうど 3840 x 1080 ピクセルであり、jpg、jpeg、png、bmp のいずれかの形式である必要があります。 組織でカスタム画像が必要な場合は、グラフィックデザイナーを使用すると、[ユーザー設定のテーマの Photoshop テンプレート](https://go.microsoft.com/fwlink/?linkid=870441)が役に立ちます。 このテンプレートには、テーマ画像内でいろいろな要素を配置できる場所や、コンソールやディスプレイに表示される領域に関する詳細が記載されています。
   
 XML 構成ファイルはデバイスの起動時に更新され、テーマ画像を認識する必要があります。新しい XML ファイルが処理され、削除されると、テーマのグラフィック ファイルはディレクトリから削除されます。
   
@@ -134,4 +134,4 @@ XML 構成ファイルはデバイスの起動時に更新され、テーマ画�
 
 [Microsoft Teams Rooms を管理する](skype-room-systems-v2.md)
 
-[ファイル項目を構成します。](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+[ファイルアイテムを構成する](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

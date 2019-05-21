@@ -1,25 +1,25 @@
 ---
-title: ビジネス サーバーの Skype で会議の概要サブレポート
+title: Skype for Business Server の会議の概要サブレポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: '概要: は、ビジネスのサーバーに、Skype で会議の概要サブレポートについて説明します。'
-ms.openlocfilehash: 44895a8ed8c88cdf91b10ccf919bb7e088fbe13e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の会議の概要サブレポートについて説明します。'
+ms.openlocfilehash: ad3e382ac832976e15518a431055bf03189061a5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926642"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305866"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server"></a>ビジネス サーバーの Skype で会議の概要サブレポート
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Skype for Business Server の会議の概要サブレポート
  
-**の概要:** Business Server には、Skype で会議の概要サブレポートについて説明します。
+**概要:** Skype for Business Server の会議の概要サブレポートについて説明します。
   
 電話会議の概要サブレポートには、エラーが発生した電話会議セッションの概要が表示されます。これらのエラーが発生したセッションは、フォーカス セッションと MCU セッションというセッションの種類によって分類されます。
   

@@ -1,25 +1,25 @@
 ---
-title: ビジネス サーバーの Skype でのエラー分布レポート
+title: Skype for Business Server のエラー配布レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: '概要: は、ビジネス サーバーの Skype の障害の配布レポートについて説明します。'
-ms.openlocfilehash: 1517509de09cd99f03271dccf9a4c78ba1d2d5ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のエラー配布レポートについて説明します。'
+ms.openlocfilehash: d9e7d2ac0ff10743c69bee665be3878ac9009933
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912079"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305697"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのエラー分布レポート
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Skype for Business Server のエラー配布レポート
  
-**の概要:** ビジネス サーバーの Skype の障害の配布レポートについて説明します。
+**概要:** Skype for Business Server のエラー配布レポートについて説明します。
   
 エラー分布レポートは、問題の発生したセッションを以下のカテゴリに分類します。
   
@@ -45,13 +45,13 @@ ms.locfileid: "33912079"
 
 以下の任意のレポートで、[**予期されるエラー ボリューム**] または [**予期しないエラー ボリューム**] の指標をクリックすると、エラー分布レポートにアクセスできます。
   
-- [Skype ビジネス サーバーの最上位の障害レポート](top-failures-report.md)
+- [Skype for Business Server の上位のエラーレポート](top-failures-report.md)
     
-- [ビジネス サーバーの Skype で会議診断レポート](conference-diagnostic-report.md)
+- [Skype for Business Server の会議の診断レポート](conference-diagnostic-report.md)
     
-- [ビジネス サーバーの Skype でピア ツー ピア アクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)
+- [Skype for Business Server のピアツーピアアクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)
     
-エラー分布レポートには、 [Skype ビジネス サーバー用のエラー] ボックスの一覧レポート](failure-list-report.md)を表示するのには次の測定値のいずれかをクリックします。
+エラー配布レポートでは、次の指標のいずれかをクリックして、 [Skype For Business Server のエラー一覧レポート](failure-list-report.md)を表示できます。
   
 - トップの診断理由 (セッション)
     
@@ -128,9 +128,9 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 |**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
-|**[ランク]** <br/> |いいえ  <br/> |レジストラー プールまたはエッジ サーバーのセッションが実施された場所に基づいて、失敗したセッション数の相対的な順位です。  <br/> |
-|**[トップのプール]** <br/> |不可  <br/> |レジストラー プールまたはエッジ サーバーの名前です。  <br/> |
-|**[セッション]** <br/> |いいえ  <br/> |各レジストラー プールまたはエッジ サーバーに障害が発生したセッションの合計数です。  <br/> |
+|**[ランク]** <br/> |いいえ  <br/> |セッションが実行されたレジストラープールまたはエッジサーバーに基づいて、失敗したセッションの相対的なランクを指定します。  <br/> |
+|**[トップのプール]** <br/> |不可  <br/> |レジストラープールまたはエッジサーバーの名前。  <br/> |
+|**[セッション]** <br/> |いいえ  <br/> |登録プールまたはエッジサーバーあたりの失敗したセッションの合計数です。  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>トップのソースの指標
 
@@ -152,7 +152,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 |**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
-|**[ランク]** <br/> |いいえ  <br/> |コンポーネント (たとえば、ExumRouting、グループ チャット、または MediationServer) に基づいて、失敗したセッション数の相対的な順位です。  <br/> |
+|**[ランク]** <br/> |いいえ  <br/> |コンポーネント (ExumRouting、GroupChat、MediationServer など) に基づいて、失敗したセッションの相対的なランクを示します。  <br/> |
 |**[トップのコンポーネント]** <br/> |いいえ  <br/> |失敗したセッションに含まれるコンポーネントの名前。  <br/> |
 |**[セッション]** <br/> |いいえ  <br/> |コンポーネントごとの失敗したセッションの総数。  <br/> |
    

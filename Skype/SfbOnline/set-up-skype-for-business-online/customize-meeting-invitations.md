@@ -1,5 +1,5 @@
 ---
-title: 会議出席依頼をカスタマイズする
+title: 会議の出席依頼をカスタマイズする
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,14 +20,14 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
-ms.openlocfilehash: 3d01d23172d7c187d09930c644390bdbf7a273b2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c8b31aa579edb62e9b6aec65bda5adde10726deb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237892"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285296"
 ---
-# <a name="customize-meeting-invitations"></a>会議出席依頼をカスタマイズする
+# <a name="customize-meeting-invitations"></a>会議の出席依頼をカスタマイズする
 
 管理者は、すべての Skype for Business の会議出席依頼にサポート Web サイトへのリンクや法的免責事項、会社のロゴ、その他のテキスト、記載したいその他の情報が含まれていることを確認できます。 
   
@@ -40,24 +40,24 @@ ms.locfileid: "32237892"
     
 3. ネットワークの共有、ビジネスフォルダ用の共有 OneDrive、Dropboxなど、お客様のビジネスのすべてのユーザーがアクセスできる中央の場所にイメージを保存します。
     
-    Now you can add it to your meeting invitations. See the next steps.
+    会議出席依頼に追加できるようになります。 次の手順を参照してください。
     
-## <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズします。
+## <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズする
 <a name="__top"> </a>
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
 2. Office 365 管理センターで、 **管理センター** > **Skype for Business**を選択します。
     
-3. ビジネス管理センターの Skype、**オンライン会議**を選択します。 
+3. Skype for Business 管理センターで、[**オンライン会議**] を選択します。 
     
 4. 以下のボックスに入力してください:
     
     ![会議出席依頼をカスタマイズするフォームに入力するときの表示を以下に示します。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
 
-   **Logo URL:** Enter the URL where your logo is stored. Remember that it must be in JPG format! 
+   **ロゴの URL:** ロゴを保存する場所の URL を入力します。 JPG フォーマットにする必要があることに留意してください！ 
  
    **ヘルプ URL:** ユーザーが問題を抱えている場合に訪問するサポート ウェブサイトがお客様の組織にある場合、こちらに URL を入力してください。 
 
@@ -68,7 +68,7 @@ ms.locfileid: "32237892"
    
 5. [ **保存**] を選びます。
     
-6. Wait an hour or so for the changes to get populated across all Office 365 services. Then go to Outlook and schedule a Skype meeting to see what your changes look like. 
+6. Office 365 サービス全体に変更が反映されるまで 1 時間ほど待ちます。 その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。 
     
     ![カスタム出席依頼がどのようなものかを図を使用せずに以下に示します](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   

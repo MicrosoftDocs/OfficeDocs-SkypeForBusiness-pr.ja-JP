@@ -1,10 +1,10 @@
 ---
-title: コントロール パネルの更新されたユーザーの検索
+title: コントロールパネル-ユーザー検索の更新
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserMain
@@ -12,25 +12,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype のビジネス サーバーのユーザーを構成するのには、検索クエリの結果を使用できます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 ユーザーの検索には、Lync Server コントロール パネルまたは Active Directory ユーザーおよびコンピューター スナップインを使用できます。
-ms.openlocfilehash: 79155744726baf84652813e34cd484e5fe938d14
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 検索クエリの結果を使用して、Skype for Business Server のユーザーを構成することができます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 ユーザーの検索には、Lync Server コントロール パネルまたは Active Directory ユーザーおよびコンピューター スナップインを使用できます。
+ms.openlocfilehash: 6e966e6a58e221c6173842de7c2b25682f42caf1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890782"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281639"
 ---
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
 
-Skype のビジネス サーバーのユーザーを構成するのには、検索クエリの結果を使用できます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 ユーザーの検索には、Lync Server コントロール パネルまたは Active Directory ユーザーおよびコンピューター スナップインを使用できます。
+検索クエリの結果を使用して、Skype for Business Server のユーザーを構成することができます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 ユーザーの検索には、Lync Server コントロール パネルまたは Active Directory ユーザーおよびコンピューター スナップインを使用できます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
 コントロール パネルの [**ユーザー検索**] ページでは以下のタスクを実行できます。
 
-- [ユーザーを検索します。](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [ユーザーを検索する](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
 
-- [有効または無効にするユーザー](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [ユーザーを有効または無効にする](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
 - [ユーザーの移動](ms.lync.lscp.UserMove.md)
 
@@ -38,7 +38,7 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
 
 - [Assign Policies to Users](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
 
-- [ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Skype for Business Server でエンタープライズ Voip のユーザーを有効にする](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
@@ -52,56 +52,56 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
 
 ### <a name="user-search"></a>ユーザー検索
 
-- **検索**表示名、名、姓、名、SAM アカウント名、SIP アドレスの最初の部分でユーザーを検索するか、ユーザー アカウントの URI の行。
+- **検索**ユーザーアカウントの表示名、姓、名、SAM アカウント名、SIP アドレス、またはライン URI の最初の部分でユーザーを検索します。
 
 - **LDAP 検索**LDAP 式を入力してユーザーを検索します。
 
-- **検索ボックス**ユーザー データを検索する LDAP 表現を入力します。
+- **[ユーザーの検索] ボックス**抽出するユーザーデータまたは LDAP 条件式を入力します。
 
-- **検索****ユーザーを検索**し、ボックスに入力した検索値に一致するユーザーを表示する] をクリックします。
+- **検索**[**ユーザーとユーザーの検索**] ボックスに入力した検索値と一致するユーザーをクリックして表示します。
 
-- **クエリを開く**保存済み検索クエリを開く] をクリックします。
+- **クエリを開く**保存されている検索クエリをクリックして開きます。
 
-- **クエリを保存します。** 検索クエリを保存する] をクリックします。
+- **クエリの保存**検索クエリを保存するには、をクリックします。
 
-- **+ フィルターの追加**追加の検索条件を追加する] をクリックします。
+- **+ フィルターの追加**追加の検索条件を追加するには、をクリックします。
 
-- **検索フィルターのフィールド**検索結果をフィルター処理、クエリでは、オペレーターを選択し、検索する文字列を入力するフィールドを選択します。
+- **検索フィルターフィールド**検索結果をフィルター処理するフィールドを選び、クエリの演算子を選んで、検索する文字列を入力します。
 
-- **最大ユーザー数を表示するには**表示、またはを使用して上下の矢印の数を指定する検索結果の数を入力します。
+- **表示するユーザーの最大数**表示する検索結果の数を入力するか、上下の矢印を使用して番号を指定します。
 
 必要に応じて、説明テキストを追加します。
 
 ### <a name="search-results-menus"></a>検索結果メニュー
 
-- **ユーザーを有効にします。** 開く] をクリックして、[ユーザー: Lync Server のユーザーが新しい](ms.lync.lscp.UserNew.md)ダイアログ ボックスで、ビジネスのサーバーの Skype に新しいユーザーを追加する場所です。
+- **ユーザーを有効にする**クリックすると、[[ユーザー: 新しい Lync Server ユーザー](ms.lync.lscp.UserNew.md) ] ダイアログが開き、Skype For business server に新規ユーザーを追加できます。
 
     新規連絡先を追加するには、下矢印をクリックして [**連絡先を有効にする**] を選択し、[[Users: New Contact Objects](ms.lync.lscp.UserNewContact.md)] ダイアログを開きます。
 
-- **編集**[**編集**] をクリックし、選択したユーザーの詳細を表示または**検索結果をすべて選択**結果テーブルに表示されるすべてのユーザーを選択する] をクリックして**詳細を表示する**をクリックします。
+- **編集**[**編集**] をクリックし、[**詳細の表示**] をクリックして選択したユーザーの詳細を表示するか、[**すべての検索結果の選択**] をクリックして、結果テーブルに表示されているすべてのユーザーを選択します。
 
-- **アクション****アクション**をクリックし、検索結果で選択したユーザーは、実行するアクションを選択します。 次の操作を紹介します。
+- **操作**[**アクション**] をクリックし、検索結果で選択したユーザーに対して実行する操作を選びます。 次の操作を実行できます。
 
-  - **Lync Server に再度有効にします。** 一時的に無効には、選択したユーザーのアカウントを有効にします。
+  - **Lync Server の再有効化**選択したユーザーアカウントが一時的に無効にされた後で有効にします。
 
-  - **Lync Server を一時的に無効にします。** 再度有効にするまで、ユーザー アカウントを削除することがなく、ビジネス サーバーの Skype のユーザー アカウントを無効にします。
+  - **Lync Server を一時的に無効にする**ユーザーアカウントを削除せずに、Skype for Business Server のユーザーアカウントを無効にします。
 
-  - **ポリシーを割り当てる**開き、[ユーザー: ポリシーの割り当て](ms.lync.lscp.UserAssignPolicy.md)ダイアログ ボックスで、ユーザーに割り当てられているポリシーを構成することができます。
+  - **ポリシーを割り当てる**[[ユーザー: ポリシーの割り当て](ms.lync.lscp.UserAssignPolicy.md)] ダイアログが開き、ユーザーに割り当てられているポリシーを構成できます。
 
-  - **表示ピンの状態**開き、[ユーザー: 暗証番号 (pin) の状態を表示する](ms.lync.lscp.UserViewPin.md)ダイアログ ボックスで、選択したユーザーの暗証番号 (pin) のデータが表示されます。
+  - **PIN の状態を表示**する[[ユーザー: pin の状態の表示](ms.lync.lscp.UserViewPin.md)] ダイアログを開きます。選択したユーザーの pin データが表示されます。
 
-  - **暗証番号 (pin) を設定します。** 選択したユーザーの PIN を設定できます、[暗証番号 (pin) の設定](ms.lync.lscp.UserSetPin.md)」ダイアログが開きます。
+  - **PIN を設定**する[ [Pin の設定](ms.lync.lscp.UserSetPin.md)] ダイアログを開きます。このダイアログボックスでは、選択したユーザーの pin を設定できます。
 
-  - **ロック暗証番号 (pin)** ユーザーの暗証番号 (pin) をロックします。
+  - **ロックピン**ユーザーの PIN をロックします。
 
-  - **暗証番号 (pin) のロックを解除します。** ユーザーの暗証番号 (pin) のロックを削除します。
+  - **PIN のロックを解除**するユーザーの PIN のロックを解除します。
 
-  - **Lync Server から削除します。** Skype からビジネスのサーバーのユーザー アカウントを削除します。 ユーザーが Active Directory から削除されません。
+  - **Lync Server から削除**するSkype for Business Server からユーザーアカウントを削除します。 ユーザーは Active Directory から削除されません。
 
-  - **ユーザー証明書を削除**ユーザーに与えられているすべての証明書を削除します。
+  - **ユーザー証明書を削除**するユーザーに付与されているすべての証明書を削除します。
 
-  - **プールを選択したユーザーの移動**選択したユーザーを移動するプールを選択することができます、[ユーザーの移動](ms.lync.lscp.UserMove.md)」ダイアログが開きます。
+  - **選択したユーザーをプールに移動する**[[ユーザーの移動](ms.lync.lscp.UserMove.md)] ダイアログが開きます。このダイアログボックスでは、選択したユーザーを移動するプールを選択できます。
 
-  - **プールへのすべてのユーザーを移動します。** 選択したすべてのユーザーを移動するプールを選択することができます、[ユーザーの移動](ms.lync.lscp.UserMove.md)」ダイアログが開きます。
+  - **すべてのユーザーをプールに移動する**[[ユーザーの移動](ms.lync.lscp.UserMove.md)] ダイアログが開きます。このダイアログボックスでは、選択したすべてのユーザーを移動するプールを選択できます。
 
 

@@ -1,5 +1,5 @@
 ---
-title: Skype ビジネス オンライン管理センターのユーザーの制限事項をページします。
+title: Skype for Business Online 管理センターのユーザーページの制限
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,28 +19,28 @@ f1keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
 - Setup
-description: 'Skype のユーザーのオンライン ビジネスの管理の表示のための制限内で作業する方法を説明します。 '
-ms.openlocfilehash: 37ef56ff8301586fbdf22d21830e22ff235ca1df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Skype for Business Online 管理者のユーザー表示の制限内で作業する方法について説明します。 '
+ms.openlocfilehash: 17865b9f369b73d4133f95d0d61fe0010052f50a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238016"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285226"
 ---
-# <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype ビジネス オンライン管理センターのユーザーの制限事項をページします。
+# <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype for Business Online 管理センターのユーザーページの制限
 
-パフォーマンス上の理由は、**ビジネス管理センターの Skype**は、[ユーザー] ボックスの一覧で最初の 1,000 ユーザーを表示します。 1,000 人以上のユーザーがある場合は、**フィルター**を使用します。![フィルター](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)と**検索**![検索](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png)を探している特定の人を検索します。
+パフォーマンス上の理由から、 **Skype For business 管理センター**では、ユーザーリストの最初の1000ユーザーが表示されます。 1000を超えるユーザーがいる場合は、**フィルター**![フィルター](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)と**検索**![検索](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png)を使って、探している特定のユーザーを検索します。
   
 ## <a name="bulk-editing"></a>一括編集
 <a name="__top"> </a>
 
-1. 最初の 1,000 ユーザーを選択、または、フィルターや検索によって返されるすべてのユーザー-リストの上部にある**表示名**の横のボックスをチェックしています。
+1. リストの上部にある [**表示名**] の横にあるチェックボックスをオンにして、最初の1000ユーザー (またはフィルターまたは検索によって返されたすべてのユーザー) を選択します。
     
-2. [**編集**] をクリックして![編集](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)。
+2. [編集]](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)をクリックします。 ****![
     
-一覧の下部にあるコントロールには、各ページに表示されているユーザーの数を変更できます。
+リストの下部にあるコントロールを使用して、各ページに表示されるユーザーの数を変更することができます。
   
-![ユーザー用のページ ナビゲーション、ページ上のユーザーの量を変更します。](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
+![[ユーザー] ページでページ上のユーザーの数を変更するためのナビゲーション](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)

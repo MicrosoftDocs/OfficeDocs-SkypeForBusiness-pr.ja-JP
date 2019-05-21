@@ -1,39 +1,39 @@
 ---
-title: ビジネス サーバーの Skype での高品質なエクスペリエンスの構成の設定を削除します。
+title: Skype for Business Server の品質向上の設定を削除する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
-description: '概要: ビジネスのサーバーの Skype でのエクスペリエンスの品質 (QoE) 設定を削除する方法を説明します。'
-ms.openlocfilehash: e177b0870192eba996984e1eb3aae6d520db4661
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の Quality of Experience (QoE) 設定を削除する方法について説明します。'
+ms.openlocfilehash: 4b521afd85a97550b27f320b9e49c5439e431681
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926628"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305802"
 ---
-# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype での高品質なエクスペリエンスの構成の設定を削除します。
+# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server の品質向上の設定を削除する
  
-**の概要:** ビジネス サーバーの Skype の高品質のエクスペリエンス (QoE) の設定を削除する方法について説明します。
+**概要:** Skype for Business Server の Quality of Experience (QoE) 設定を削除する方法について説明します。
   
 Quality of Experience (QoE) 指標は、ネットワーク パケットの損失数、バックグラウンド ノイズ、"ジッター" (パケット遅延のばらつき) の量など、組織内で行われる音声通話およびビデオ通話の品質を追跡します。これらの指標は、他のデータ (詳細な通話の記録など) とは別にデータベースに格納されます。このため、QoE は他のデータ記録と関係なく有効および無効にすることができます。
   
-ビジネス サーバー、1 つの Skype をインストールすると QoE 構成設定のグローバル コレクションが作成されます。 また管理者には、個別のサイトに適用できるカスタム設定コレクションを作成するオプションがあります。 設計上、サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。 サイト スコープの設定を削除すると、サイトの QoE はグローバル設定を使って管理されます。
+Skype for Business Server をインストールすると、QoE 構成設定のグローバルコレクションが1つ作成されます。 また管理者には、個別のサイトに適用できるカスタム設定コレクションを作成するオプションがあります。 設計上、サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。 サイト スコープの設定を削除すると、サイトの QoE はグローバル設定を使って管理されます。
   
-削除することも""グローバル設定に注意してください。 ただし、グローバル設定は実際に削除されるわけではありません。 代わりに、そのコレクションのすべてのプロパティが既定値にリセットされます。 たとえば、QoE 構成設定のコレクションでは削除が既定で有効になっています。 仮にグローバル コレクションを変更して削除を無効にしたとします。 後にグローバル設定を削除すると、すべてのプロパティは既定の値にリセットされます。 この場合、削除が再び有効になることを意味します。
+グローバル設定を "削除" することもできます。 ただし、グローバル設定は実際に削除されるわけではありません。 代わりに、そのコレクションのすべてのプロパティが既定値にリセットされます。 たとえば、QoE 構成設定のコレクションでは削除が既定で有効になっています。 仮にグローバル コレクションを変更して削除を無効にしたとします。 後にグローバル設定を削除すると、すべてのプロパティは既定の値にリセットされます。 この場合、削除が再び有効になることを意味します。
   
-ビジネス サーバーのコントロール パネルの Skype を使用して、または[削除 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)コマンドレットを使用して、QoE 構成設定を削除できます。
+QoE 構成設定を削除するには、Skype for Business Server コントロールパネルを使用するか、または[remove-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)コマンドレットを使用します。
   
-### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、QoE 構成設定を削除するのには
+### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用して QoE 構成設定を削除するには
 
 1.  RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**Delegate Setup Permissions**」を参照してください。
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。  
     
 3. 左側のナビゲーション バーで [**監視およびアーカイブ**] をクリックし、[**QoE データ**] をクリックします。
     
@@ -41,9 +41,9 @@ Quality of Experience (QoE) 指標は、ネットワーク パケットの損失
     
 5. [**OK**] をクリックします。
     
-## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、QoE 構成設定を削除します。
+## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して QoE 構成設定を削除する
 
-QoE 構成設定を削除するには、Windows PowerShell と**削除 CsQoEConfiguration**コマンドレットを使用します。 実行できますこのコマンドレットのいずれか、Skype からビジネス サーバー管理シェルまたは Windows PowerShell のリモート セッションから。 ビジネス サーバーの Skype に接続するリモートの Windows PowerShell を使用する詳細については、ブログ記事の[「クイック スタート:: を管理する Microsoft Lync サーバー 2010 を使用してリモート PowerShell」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 プロセスは、Skype のビジネス サーバーで同じです。
+QoE 構成設定を削除するには、Windows PowerShell と**Remove-CsQoEConfiguration**コマンドレットを使用します。 このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションからでも実行できます。 リモートの Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「[クイックスタート: リモート PowerShell を使用した Microsoft Lync server 2010 の管理」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 このプロセスは、Skype for Business Server でも同じです。
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>指定した QoE 構成設定のコレクションを削除するには
 
@@ -69,9 +69,9 @@ QoE 構成設定を削除するには、Windows PowerShell と**削除 CsQoEConf
   Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
   ```
 
-詳細については、[削除 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)を参照してください。
+詳細については、「[削除-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)」を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[ビジネス サーバーの通話詳細記録と Skype で高品質なエクスペリエンスのデータベースを手動で削除します。](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[Skype for Business Server で通話の記録とエクスペリエンスデータベースの再生の詳細を手動で削除する](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

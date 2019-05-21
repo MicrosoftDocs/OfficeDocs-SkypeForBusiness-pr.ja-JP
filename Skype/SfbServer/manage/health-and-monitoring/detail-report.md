@@ -1,25 +1,25 @@
 ---
-title: ビジネス サーバーの Skype で会議の詳細] レポート
+title: Skype for Business Server の会議の詳細レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: '概要: は、会議の詳細] レポートには、Skype ビジネス サーバーの使用について説明します。'
-ms.openlocfilehash: 46181c403a115367d7c2f8c030205ae2a9437c41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で使用されている会議の詳細レポートについて説明します。'
+ms.openlocfilehash: 5b88ae62c7d06437b3502bd72dd965fc26fbfcb6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926558"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305788"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype で会議の詳細] レポート
+# <a name="conference-detail-report-in-skype-for-business-server"></a>Skype for Business Server の会議の詳細レポート
 
-**の概要:** 会議の詳細] レポートには、Skype ビジネス サーバーの使用について説明します。
+**概要:** Skype for Business Server で使用されている会議の詳細レポートについて説明します。
 
 会議詳細レポートには、電話会議に参加したすべてのユーザーに関する詳細な情報が示されます。たとえば、ユーザーが会議に参加した日時、ユーザーが電話会議から退場した日時、ユーザーが電話会議に接続するときに使用したエンドポイントのユーザー エージェントなどの情報を確認できます。各電話会議におけるユーザーの役割 (発表者、参加者など) に関する情報も確認できます。おそらく最も重要なことは、会議への参加と終了が正常に行われたユーザーと正常に行われなかったユーザーを簡単に確認できることです。
 
@@ -33,7 +33,7 @@ ms.locfileid: "33926558"
 
 - [User Activity Report](call-diagnostic-reports-per-user.md) (電話会議 URI 指標をクリック)
 
-[会議の詳細] レポートには、診断レポート (詳細) のメトリックをクリックすると、[診断 Repor](diagnostic-report.md)を表示できます。
+[会議の詳細] レポートから、診断レポート (詳細) メトリックをクリックして、[診断 Repor](diagnostic-report.md)にアクセスできます。
 
 ## <a name="filters"></a>フィルター
 
@@ -68,7 +68,7 @@ ms.locfileid: "33926558"
 |**[ユーザー エージェント]** <br/> |参加者のエンドポイントによって使用されるソフトウェアの識別子です。  <br/> |
 |**[診断レポート]** <br/> |診断およびトラブルシューティングの情報を提供します。失敗したセッションの SIP 応答コード、診断ヘッダー、電話会議参加時間、診断 ID などがあります。  <br/> |
 
-会議の様相のセクションで、会議の詳細] レポートの情報を次の表に一覧します。
+次の表に、会議の詳細レポートの [会議のモダリティ] セクションに表示される情報を示します。
 
 **電話会議のモダリティの指標**
 

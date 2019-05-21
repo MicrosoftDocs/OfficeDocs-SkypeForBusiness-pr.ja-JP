@@ -12,43 +12,43 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: ビジネス オンラインの Skype での音声会議自動アテンダントの言語のオーディオ会議の番号を選択する方法を参照してください。
-ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for Business Online で電話会議番号の電話会議の自動応答の言語を選ぶ方法について説明します。
+ms.openlocfilehash: a05b393ac671447c0efe385bb1d562039aef32d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229216"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306380"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online で電話会議の自動案内の言語を設定する
 
 > [!Note]
 > Microsoft Teams での自動案内言語設定に関する詳細については、[Microsoft Teams で電話会議の自動案内の言語を設定する](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)を参照してください。
 
-ビジネス用の Skype のオーディオ会議自動アテンダントを呼びかけますオーディオ呼び出し元のさまざまな言語で会議に参加するとき。
+Skype for Business の電話会議の自動応答では、電話会議に参加するときに、さまざまな言語で音声の発信者を挨拶メッセージことができます。
   
 第 1 言語 1 つと、第 2 言語 4 つまで選びます。設定する第 1 言語が最初に使用され、第 2 言語は選択した順に自動応答で使用されます。 
   
 > [!NOTE]
->  のみ、専用のカテゴリは、オーディオ会議の番号の言語を変更できます。 オーディオ会議の番号を共有の言語を変更できません。
+>  専用カテゴリの電話会議番号の言語のみを変更できます。 共有電話会議番号の言語を変更することはできません。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
 
-この手順を実行するには、 [Office 365 のグローバル管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)または[ビジネス管理者の Skype](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)をする必要があります。
+この手順を実行するには、 [Office 365 グローバル管理](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)者または[Skype for business の管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)である必要があります。
     
-1. **Skype**ビジネス管理センターの左のナビゲーションでは、**従来のポータル**に移動します。 1 回従来のポータルでは、**オーディオ会議**、し**Microsoft ブリッジ**] をクリックします。
+1. **Skype For business 管理センター**の左側のナビゲーションで、[**従来のポータル**] に移動します。 従来のポータルで、[**電話会議**] を選び、[ **Microsoft bridge**] をクリックします。
     
-2. 操作ウィンドウで、リストから電話会議の電話番号を選び、[ **言語を設定**] をクリックします。 専用の電話会議の番号の言語を変更することはのみです。  
+2. 操作ウィンドウで、リストから電話会議の電話番号を選び、[ **言語を設定**] をクリックします。 専用の電話会議番号の言語を変更することはできません。  
     
 3. [ **言語を設定**] ページで、[ **第 1 言語**] の下のボックスの一覧をクリックして、利用可能な全言語のリストを表示します。必要に応じて [ **第 2 言語**] の各ボックスの一覧をクリックして第 2 言語を選びます。
     

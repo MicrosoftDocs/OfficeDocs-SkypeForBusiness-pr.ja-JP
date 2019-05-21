@@ -1,29 +1,29 @@
 ---
-title: ビジネス サーバーの Skype での会議ポリシーを割り当てる
+title: Skype for Business Server で会議のポリシーを割り当てる
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
-description: '概要: ビジネス サーバーの Skype での会議ポリシーを割り当てる方法を説明します。'
-ms.openlocfilehash: f022c4b89f239d4b800df17315b07b10da985955
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で会議ポリシーを割り当てる方法について説明します。'
+ms.openlocfilehash: acd74262b51000a3f4af5668fb3c9271a8c0978d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919508"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289028"
 ---
-# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>ビジネス サーバーの Skype での会議ポリシーを割り当てる
+# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Skype for Business Server で会議のポリシーを割り当てる
  
-**の概要:** ビジネス サーバーの Skype での会議ポリシーを割り当てる方法について説明します。
+**概要:** Skype for Business Server で会議ポリシーを割り当てる方法について説明します。
   
-Skype をビジネス サーバー管理シェルを**与える CsConferencingPolicy**コマンドレットを使用してユーザーには、会議ポリシーを割り当てることができます。
+Skype for Business Server 管理シェルと**Grant-set-csconferencingpolicy**コマンドレットを使用して、ユーザーに会議ポリシーを割り当てることができます。
   
-## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用して会議ポリシーを割り当てる
+## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議のポリシーを割り当てる
 
 次の例では、SalesConferencingPolicy というポリシーを、"Ken Myer" という Identity のユーザーに割り当てます。
   
@@ -37,6 +37,6 @@ Grant-CsConferencingPolicy -identity "Ken Myer" -PolicyName SalesConferencingPol
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
 ```
 
-完全な構文とパラメーターの一覧を含む詳細については、[許可 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps)を参照してください。
+完全な構文とパラメーターの一覧を含む詳細については、「 [Grant-set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps)」を参照してください。
   
 

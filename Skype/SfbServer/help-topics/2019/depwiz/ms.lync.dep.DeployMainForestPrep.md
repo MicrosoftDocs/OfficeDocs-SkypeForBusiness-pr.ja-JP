@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainForestPrep
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
-description: Active Directory ドメイン サービス フォレストを準備するには、正常にスキーマの準備の実行中のトピックで説明したように、スキーマを拡張して、スキーマがレプリケートされたことを確認する必要があります。
-ms.openlocfilehash: 5cf217e054f513b8e3fcbc203cf4c0d76719e7cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Active Directory ドメインサービスフォレストを準備するには、「スキーマの準備を実行する」のトピックで説明されているように、スキーマを正常に拡張し、スキーマがレプリケートされていることを確認する必要があります。
+ms.openlocfilehash: 810bfae1fd308ef943f41846a8baef774f4f724e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893694"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303398"
 ---
 # <a name="prepare-current-forest"></a>現在のフォレストの準備
 
-Active Directory ドメイン サービス フォレストを準備するには、正常に[スキーマの準備を実行して](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)、トピックで説明したように、スキーマを拡張して、スキーマがレプリケートされたことを確認する必要があります。
+Active Directory ドメインサービスフォレストを準備するには、「[スキーマの準備を実行](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)する」のトピックで説明されているように、スキーマを正常に拡張し、スキーマがレプリケートされていることを確認する必要があります。
 
 これらの前提条件を満たしたら、[**手順 3: 現在のフォレストの準備**] を開始できます。フォレストを準備するには、フォレスト ルートのコンピューターに、フォレスト ルートの Domain Admins のメンバーとして、または準備しているフォレストの Enterprise Admins のメンバーとしてログオンします。
 
@@ -31,15 +31,15 @@ Active Directory ドメイン サービス フォレストを準備するには�
 2. [**フォレストの準備**] ページから、[**次へ**] をクリックします。
 
     > [!NOTE]
-    > フォレストの準備では、Skype のビジネス サーバーにユニバーサル グループを配置する場所を選択できます。 組織の要件と一致する配置先を選択してください。
+    > フォレストの準備 Skype for Business Server のユニバーサルグループを配置する場所を選ぶことができます。 組織の要件と一致する配置先を選択してください。
 
 3. [**コマンドを実行しています**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。エラーがないことを確認します。警告を確認して、それらの警告が予期されるものであり、インフラストラクチャにとって通常のものであるかどうかを確認します。
 
-4. ログの [**アクション**] 列の下には、**フォレストの準備**を展開、検索、**\<成功\>** フォレストの準備が正常に完了したことを確認し、ログを閉じるし、 **[完了] をクリックし、各タスクの最後に実行の結果**.
+4. ログの [**アクション**] 列で、[**フォレスト**の準備] を展開して、各タスクの最後の** \<成功\> **の実行結果を確認し、フォレストの準備が正常に完了したことを確認します。次に、[完了] をクリックします。 ****.
 
-5. 完了するには Active Directory ドメイン サービスのレプリケーションを待つか、ドメインの準備を実行する前に、 **Active Directory サイトとサービス**スナップインで、フォレスト ルート ドメイン コント ローラーに表示されているすべてのドメイン コント ローラーへのレプリケーションを強制的に。 分以内にサイト内でのレプリケーションが発生するすべての Active Directory サイト内のドメイン コント ローラー間のレプリケーションを強制します。
+5. Active Directory ドメインサービスのレプリケーションが完了するまで待ちます。または、ドメインの準備を実行する前に、フォレストルートドメインコントローラーの [ **Active Directory サイトとサービス**] スナップインに記載されているすべてのドメインコントローラーに対して強制的にレプリケーションを実行します。 すべての Active Directory サイトのドメインコントローラー間で強制的にレプリケーションを実行して、サイト内での複製が分単位で行われるようにします。
 
     > [!TIP]
-    > ビジネス サーバーの展開ウィザードは、Skype によって作成されるログ ファイルを確認する必要がある場合、は、展開ウィザードが実行しているコンピューターの手順を実行した Active Directory ドメイン サービスのユーザーのユーザー ディレクトリ内にそれらを検索できます。 たとえば、ユーザー Contoso.net のドメインのドメイン管理者としてログインしている場合、ログ ・ ファイル内にある: C:\Users\Administrator.Contoso\AppData\Local\Temp
+    > Skype for Business Server 展開ウィザードによって作成されたログファイルを確認する必要がある場合は、展開ウィザードが実行されているコンピューターで、手順を実行した Active Directory ドメインサービスユーザーの Users ディレクトリで見つけることができます。 たとえば、ユーザーがドメイン Contoso.net のドメイン管理者としてログインしている場合、ログファイルは C:\Users\Administrator.Contoso\AppData\Local\Temp にあります。
 
 

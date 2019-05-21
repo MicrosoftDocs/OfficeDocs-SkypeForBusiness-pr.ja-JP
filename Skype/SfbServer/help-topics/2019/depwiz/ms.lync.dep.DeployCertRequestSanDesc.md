@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestSanDesc
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
-description: サブジェクト名と、サブジェクト代替名] ページでは、サブジェクト名と証明書を構成するすべてのサブジェクト代替名の概要を提供します。 サブジェクト名とサブジェクト代替名の表示名は、トポロジ ビルダーで、配置を定義したときに作成されているために、定義のドキュメントから収集されます。
-ms.openlocfilehash: 8808fc8aa0ec6fd2112b9fa6c315165cf32bd358
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[サブジェクト名/サブジェクト代替名] ページには、証明書に設定されるサブジェクト名の概要と、すべてのサブジェクト別の名前が表示されます。 サブジェクト名と件名の代替名として表示される名前は、トポロジビルダーで展開を定義したときに作成されたときに、定義ドキュメントから収集されます。'
+ms.openlocfilehash: 43bc61a0a67a00c681b9d8a56331340c7d65369d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893771"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299245"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>証明書要求 (サブジェクトの別名)
  
-**のサブジェクト名またはサブジェクト代替名**ページのサブジェクト名と証明書を構成するすべてのサブジェクト代替名の概要を示します。 サブジェクト名とサブジェクト代替名の表示名は、トポロジ ビルダーで、配置を定義したときに作成されているために、定義のドキュメントから収集されます。
+[**サブジェクト名/サブジェクト代替名**] ページには、証明書に設定されるサブジェクト名の概要と、すべてのサブジェクト別の名前が表示されます。 サブジェクト名と件名の代替名として表示される名前は、トポロジビルダーで展開を定義したときに作成されたときに、定義ドキュメントから収集されます。
   
-サブジェクト名またはサブジェクト代替名のいずれかに変更を行う必要がある場合は、証明書の要求ウィザードを終了し、トポロジ ビルダーを再実行の**キャンセル**をクリックします。 正しく定義されている件名、件名の代替名を使用して新しい構成を再発行します。
+サブジェクト名、またはサブジェクトの代替名のいずれかを変更する必要がある場合は、[**キャンセル**] をクリックして、証明書の要求ウィザードを終了し、トポロジビルダーを再実行します。 次に、適切に定義された件名と件名の代替名を使用して、新しい構成を再発行します。
   
 

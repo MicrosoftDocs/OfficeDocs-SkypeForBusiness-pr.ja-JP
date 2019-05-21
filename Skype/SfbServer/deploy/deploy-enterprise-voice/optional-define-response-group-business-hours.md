@@ -1,33 +1,33 @@
 ---
-title: (省略可能)ビジネス用の Skype を定義する応答グループの営業時間
+title: 省略Skype for Business で応答グループの勤務時間を定義する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: 作成または応答グループのビジネス サーバーのエンタープライズ VoIP の Skype での営業時間を変更します。
-ms.openlocfilehash: e98bfcf07b48811957c659fc865edda930f33da7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice で回答グループの勤務時間を作成または変更します。
+ms.openlocfilehash: 9f00e89bede48af8c36de93da951df9b69a692e1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894641"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306334"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(省略可能)ビジネス用の Skype を定義する応答グループの営業時間 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>省略Skype for Business で応答グループの勤務時間を定義する 
  
-作成または応答グループのビジネス サーバーのエンタープライズ VoIP の Skype での営業時間を変更します。
+Skype for Business Server Enterprise Voice で回答グループの勤務時間を作成または変更します。
   
 ## <a name="defining-business-hours"></a>営業時間の定義
 
 営業時間設定では、ワークフローが通話に応答できる時間を定義し、営業時間外の通話に対するアクションを指定します。 応答グループ管理者は、**New-CsRgsHoursOfBusiness** コマンドレットを使用して、使用できる応答グループの数に制限がない事前設定スケジュールを作成できます。
   
 > [!TIP]
-> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、[設計と応答のビジネス用の Skype でのグループのワークフローを作成する](designing-and-creating-response-group-workflows.md)を参照してください。 
+> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、「 [Skype For business での応答グループワークフローの設計と作成](designing-and-creating-response-group-workflows.md)」を参照してください。 
   
 > [!NOTE]
 > ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割を割り当てられているすべてのユーザーは、管理するワークフローのカスタム営業時間を設定および変更できます。 
@@ -64,6 +64,6 @@ ms.locfileid: "33894641"
 
 ## <a name="see-also"></a>関連項目
 
-[新しい-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[新規-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[新しい-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[新規-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

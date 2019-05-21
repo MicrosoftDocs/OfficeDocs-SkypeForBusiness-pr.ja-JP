@@ -1,5 +1,5 @@
 ---
-title: オンライン ビジネスのユーザーに特定の Skype のフリー ダイヤル番号を無効にします。
+title: 特定の Skype for Business Online ユーザーの無料電話番号を無効にする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -11,58 +11,58 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 管理者は、開催者が、ミーティングのフリー ダイヤル番号を使用する方法を制御できます。
-ms.openlocfilehash: f553cc3abad8f4490d06099554c188881ef47e24
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 管理者は、開催者が会議に無料の電話番号を使用する方法を制御できます。
+ms.openlocfilehash: 541398a760f41effc37e802cafde1141acca2d57
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229283"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306091"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>オンライン ビジネスのユーザーに特定の Skype のフリー ダイヤル番号を無効にします。
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>特定の Skype for Business Online ユーザーの無料電話番号を無効にする
  
 > [!Note]
-> チームのユーザーの無効化のツールを必要としない番号の詳細については、[チームの特定のユーザーのフリー ダイヤル番号を無効にする](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)を参照してください。
+> Teams ユーザーに対して、ツールを使用しない番号を無効にする方法については、「[特定の teams ユーザーに対して無料電話番号を無効にする](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)」を参照してください。
 
-組織では、その Microsoft オーディオ会議用ブリッジにフリー ダイヤル番号が含まれる場合は、許可または特定の開催者の会議での使用を防止できます。  
+組織の Microsoft 電話会議ブリッジに無料の電話番号がある場合は、特定の開催者の会議での使用を許可または禁止することができます。  
 
-既定では、組織内のすべてのユーザーはこれらの数値では、可能な場合、使えることの参加者が、会議に参加するためのフリー ダイヤル番号を使用するために有効です。 これは、組織内の一部のユーザーに目的の動作ではない場合、フリー ダイヤル番号の有効化コントロールを使用して、会議でそれらの数値を使用して特定のユーザーを制限できます。 
+既定では、組織内のすべてのユーザーが無料電話番号を使用できるようになっています。つまり、それらの電話番号は、参加者が会議に参加するために使用できます。 組織内の一部のユーザーに対してこの操作を行う必要がない場合は、無料番号の有効化制御を利用して、特定のユーザーの会議でそれらの電話番号を使用しないように制限することができます。 
 
-特定の開催者のフリー ダイヤル番号を無効にした場合。 
- - フリー ダイヤル番号は彼には含まれなく、または自分の会議への招待します。 
- - フリー ダイヤル番号は自分で参照されている"電話番号を検索] ページに表示されなくまたは自分の会議に招待します。 
- - 参加者は、組織のすべてのフリー ダイヤル番号をダイヤルする場合、特定の開催者のミーティングに参加することはできません。 
- - すべての会議の開催者は自動的に再スケジュール、およびフリー ダイヤルの番号は、それらから削除されます。  
+特定の開催者に対して無料電話番号が無効になっている場合: 
+ - 無料電話番号は、会議の出席依頼に含まれなくなります。 
+ - 無料電話番号は、会議の招待で参照されている [市内番号の検索] ページには表示されなくなります。 
+ - 組織の無料電話番号をダイヤルした場合、参加者は、指定された開催者の会議に参加することはできません。 
+ - 開催者のすべての会議が自動的に再スケジュールされ、無料の電話番号が削除されます。  
 
     > [!IMPORTANT]
-    > すべての開催者の電子メールの招待を再送信、その会議のすべての参加者にこれは。 
+    > この操作を行うと、開催者のすべてのメールの招待が、それらの会議の参加者全員に再送信されます。 
 
- - 参加者は、有料電話番号を使用して、開催者の会議への参加を継続できます。 
+ - 参加者は、有料番号を使って開催者の会議に参加することができます。 
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーの無料電話番号を無効にする 
 
-**マイクロソフトのチーム管理センター**。
+**Microsoft Teams 管理センター**から:
 
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
-2. **オーディオ会議**の横にある [**編集**] をクリックします。
+2. [**電話会議**] の横の [**編集**] をクリックします。
 
-3. **このユーザーからの要求を達成するためのフリー ダイヤル番号**は**無効**に設定します。 
+3. **[このユーザーからの会議出席依頼には無料電話番号を含める (オフ)」** に設定します。 **** 
 
-4. クリックして**を保存します**。 
+4. [**保存] をクリックします。** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
-**PowerShell を使用します。**  
+**PowerShell を使用する**  
 
-セット CsOnlineDialInConferencingUser コマンドレットの AllowTollFreeDialIn パラメーターを使用するには有効またはこのコントロールを無効にします。 次に例を示します。 
+このコントロールを有効または無効にするには、Get-csonlinedialinconferencinguser コマンドレットの AllowTollFreeDialIn パラメーターを使用します。 次に例を示します。 
 
-- セット CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
+- Set-Get-csonlinedialinconferencinguser user@contoso.com – AllowTollFreeDialIn $false

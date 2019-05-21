@@ -1,10 +1,10 @@
 ---
-title: ビジネス サーバーの Skype のネットワーク サイト間ポリシーを作成します。
+title: Skype for Business Server でネットワークのサイト間ポリシーを作成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,22 +13,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: サイト間ポリシー、Skype でのエンタープライズ VoIP 通話受付制御がビジネスのサーバーに使用するネットワークを作成します。
-ms.openlocfilehash: 455caaf624c463bdb1c32ca8fbce70c88626c774
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server のエンタープライズボイス通話受付制御によって使用されるネットワーク間ポリシーを作成します。
+ms.openlocfilehash: dceb48d0e87706d71de8c69b5622fbab468273b4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892966"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286314"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>ビジネス サーバーの Skype のネットワーク サイト間ポリシーを作成します。
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Skype for Business Server でネットワークのサイト間ポリシーを作成する
  
-サイト間ポリシー、Skype でのエンタープライズ VoIP 通話受付制御がビジネスのサーバーに使用するネットワークを作成します。 
+Skype for Business Server のエンタープライズボイス通話受付制御によって使用されるネットワーク間ポリシーを作成します。 
   
 ネットワーク サイト間ポリシーは、WAN リンクで直接接続されたサイト間の帯域幅制限を定義します。
   
 > [!IMPORTANT]
-> ネットワーク サイト間ポリシーは、2 つのネットワーク サイト間に直接クロス リンクがある場合に必要な*だけ*です。
+> ネットワーク間のサイト間ポリシーは、2つのネットワークサイト間に直接クロスリンクがある場合に*のみ*必要です。
   
 North America 地域のトポロジの例では、Reno と Albuquerque のサイト間に直接リンクがあります。この 2 つのサイトでは、適切な帯域幅ポリシー プロファイルを適用するサイト間ポリシーが必要です。次の例は、20Mb_Link プロファイルを適用します。
   
@@ -46,10 +46,10 @@ North America 地域のトポロジの例では、Reno と Albuquerque のサイ
     
 ## <a name="see-also"></a>関連項目
 
-[新しい-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+[新規-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
 [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
   
-[セット CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
+[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
   
-[削除 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
+[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)

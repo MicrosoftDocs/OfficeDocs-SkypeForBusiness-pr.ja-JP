@@ -1,25 +1,25 @@
 ---
-title: ビジネス サーバーの Skype での受付管理レポートを呼び出す
+title: Skype for Business Server の通話受付制御レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: '概要: は、Skype のビジネスのサーバーが使用する呼び出し受付制御のレポートについて説明します。'
-ms.openlocfilehash: f6f68e74c584496de0256b0fad8e2deae7dcc253
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で使用されている通話受付制御レポートについて説明します。'
+ms.openlocfilehash: efa632aa4a7fb5793694363d958a31e8a066a9b5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902697"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289435"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype での受付管理レポートを呼び出す
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>Skype for Business Server の通話受付制御レポート
  
-**の概要:** 受付管理レポートの呼び出し Skype ビジネス サーバーの使用について説明します。
+**概要:** Skype for Business Server で使用されている通話受付制御レポートについて説明します。
   
 通話受付管理レポートは、通話受付管理によって設けられた制限のもとで行われたピアツーピアおよび電話会議セッションに関する情報を提供します。通話受付管理を使用すると、管理者は帯域幅の制限に基づいて通信セッションを許可 (または不許可) できます。たとえば、管理者は音声通話やビデオ通話に使用可能な帯域幅を制限するポリシーを作成できます。帯域幅の制限に達すると、現在の通話のいずれかが終了して必要なネットワーク リソースが解放されるまで、新しい音声通話やビデオ通話を行うことはできません。
   
@@ -27,9 +27,9 @@ ms.locfileid: "33902697"
 
 通話受付管理レポートは、[監視レポート] ホーム ページからアクセスします。通話受付管理レポートから次のいずれかのレポートへドリルダウンできます。
   
-- 会議の詳細レポート - このレポートを会議のセッションの詳細メトリックをクリックします。 
+- 会議の詳細レポート-このレポートにアクセスするには、会議セッションから詳細なメトリックをクリックします。 
     
-- ピア ツー ピア セッション詳細レポート - このレポートをピア ツー ピア セッションの詳細メトリックをクリックします。
+- ピアツーピアセッションの詳細レポート-このレポートにアクセスするには、ピアツーピアセッションの詳細メトリックをクリックします。
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>通話受付管理レポートの活用
 

@@ -9,7 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -18,31 +18,31 @@ f1keywords:
 - ms.lync.lac.PortOrderNoOrderHelp
 ms.custom:
 - Calling Plans
-description: 'ポートのご注文のステータスを取得し、それらに対して実行できるさまざまな動作を説明する方法を説明します。 '
-ms.openlocfilehash: 916c87dde0ea85c6286e075cd21d0348beee58e6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: 'ポート注文の状態を取得する方法と、それらに対して実行できるさまざまな操作について説明します。 '
+ms.openlocfilehash: 8725f87fc1bb2afb6e035fca7e9dd3c34d2c8a60
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401706"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298977"
 ---
 # <a name="whats-the-status-of-my-port-orders-in-teams"></a>Teams での番号移行注文の状況
 
-**マイクロソフトのチーム管理センター**に移動して、ポートのオーダーのステータスを表示できます > **レガシー ポータル** > **音声** > **ポート注文**します。 各ポートの注文のステータスは、[**状態**] 列に表示されます。 困りの場合、[ビジネス製品の管理のヘルプのサポートにお問い合わせください](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。
+ポート注文の状態を確認するには、「 **Microsoft Teams 管理センター** > **従来のポータル** > の**ボイス** > **ポート注文**」を参照してください。 各ポート注文の状態が、[**状態**」列に表示されます。 ヘルプが必要な場合は、[ビジネス製品のサポート-管理者向けヘルプを参照してください](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。
 
-次の表は、ポートの順序のステータスと操作が必要な場合を実行することができます。
+次の表は、ポート注文の状態と、必要に応じて実行できる操作を示しています。
 
-|**状態**|**順序を表示することができますか。**|**順序を編集することができますか。**|**注文をキャンセルすることができますか。**|**順序を削除することができますか。**|**説明**|
+|**状態**|**注文を表示できますか?**|**注文を編集できますか?**|**注文をキャンセルできますか?**|**注文を削除できますか?**|**説明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**処理** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |管理者が注文を作成し、Microsoft が受信されました。  <br/> |
-|**配送業者に連絡** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |注文を受信して、マイクロソフトによって承認され、承認に失われた通信事業者と協力しています。  <br/> |
-|**転送の承認** <br/> |はい  <br/> |Commitment(FOC) の注文を確定します。  <br/> |はい  <br/> |いいえ  <br/> |順序が失われたキャリアによって受諾され、早さ日が設定されています。  <br/> |
-|**保留中の転送します。** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |転送は 24 時間以内、注文は不要になった編集またはキャンセルされたので  <br/> |
-|**エラー** <br/> |いいえ  <br/> |はい  <br/> |可  <br/> |はい (現時点では、削除できませんポート順序エラーが表示される場合。 ポートの順序を再作成する必要があるか、[ビジネス製品の管理のヘルプのサポートに連絡](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)する必要があります。  <br/> |失われたキャリアには、注文が拒否されました。  <br/> |
-|**完了** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |数値が正常に転送されました。  <br/> |
-|**キャンセル** <br/> |いいえ  <br/> |はい  <br/> |なし  <br/> |いいえ  <br/> |管理者は、注文をキャンセルしました。  <br/> |
+|**処理** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |管理者が注文を作成し、Microsoft によって受信されました。  <br/> |
+|**電話会社に連絡中** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |注文は Microsoft によって受領され承認されており、ご利用の承認を得るため、紛失しているキャリアを使用しています。  <br/> |
+|**承認済みの転送** <br/> |はい  <br/> |確定注文の確約 (= c)  <br/> |はい  <br/> |いいえ  <br/> |この注文は、紛失しているキャリアによって承認されたため、ドライブ c の日付が設定されています。  <br/> |
+|**転送待ち** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |移動は24時間以内であるため、注文を編集またはキャンセルすることはできません。  <br/> |
+|**エラー** <br/> |いいえ  <br/> |はい  <br/> |可  <br/> |はい (現時点では、エラーが発生した場合は、ポートの順序を削除できません。 ポート注文は再作成する必要があります。または、[ビジネス製品のサポートに問い合わせる必要があります-管理者向けヘルプ](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。  <br/> |紛失しているキャリアで注文が拒否されました。  <br/> |
+|**時点** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |番号は正常に転送されました。  <br/> |
+|**閉じ** <br/> |いいえ  <br/> |はい  <br/> |なし  <br/> |いいえ  <br/> |管理者が注文をキャンセルしました。  <br/> |
    
- **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
+ **詳細な手順については、「 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)」を参照してください。**
  
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」をご覧ください。
@@ -55,6 +55,6 @@ ms.locfileid: "33401706"
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[緊急通話についての免責事項のラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 

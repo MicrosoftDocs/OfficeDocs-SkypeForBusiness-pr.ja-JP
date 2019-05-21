@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
-description: ビジネス サーバー 2015 計画ツールは、Skype を使用する方法です。
-ms.openlocfilehash: 674b4b9ef2825c2e8776cdfa32dc5b413f2962cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server 2015 計画ツールの使用に関するガイダンス。
+ms.openlocfilehash: b130ca05200ea30bed8008399050affa96438644
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914178"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288951"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 計画ツール
  
-ビジネス サーバー 2015 計画ツールは、Skype を使用する方法です。
+Skype for Business Server 2015 計画ツールの使用に関するガイダンス。
   
-ビジネス サーバー 2015 計画ツールの Skype は、ウィザード駆動型ビジネス サーバー 2015 のトポロジを設計することで、Skype についての質問インタビューのようなツールです。 情報が提供される、計画ツールの使用方法は、トポロジの設計と提供された回答に基づいて推奨トポロジを表示するための容量のための優先ガイドラインに結合されています。 計画ツールは、 [Skype](https://go.microsoft.com/fwlink/p/?LinkID=282725)からダウンロードできます。
+Skype for Business Server 2015 計画ツールは、設計している Skype for Business Server 2015 トポロジについて質問するための、ウィザードベースのインタビュー型ツールです。 計画ツールでは、提供された情報を使用して、トポロジの設計とキャパシティの推奨される方法と共に、指定された回答に基づいて推奨されるトポロジを提示します。 計画ツールは、 [Skype For Business Server 2015 計画ツール](https://go.microsoft.com/fwlink/p/?LinkID=282725)からダウンロードできます。
   
-最終的には、計画ツールの目的は、潜在的なビジネス サーバー 2015 トポロジーの包括的な Skype の設計の複雑さを軽減するため、します。 ツールは、Microsoft の web サイトへの接続に、インターネットに接続されているも、ツールでは、内部の計画と展開のドキュメントをコンテキストの参照を提供します。
+最終的に、計画ツールの目標は、完成した Skype for Business Server 2015 トポロジの設計の複雑さを簡単にすることです。 このツールは、Microsoft の web サイトに接続するためにインターネット接続が利用可能であることを考慮して、ツール内の計画および展開ドキュメントへのコンテキスト参照も提供します。
   
-インフラストラクチャの TCP/IP アドレスおよび完全修飾ドメイン名 (Fqdn) とトポロジをカスタマイズした後、計画ツールは、使用可能な一連のドメイン ネーム システム (DNS) 名前付け、ファイアウォール規則、証明書、および詳細をカバーするレポート。 
+インフラストラクチャの TCP/IP アドレスと完全修飾ドメイン名 (Fqdn) を使用してトポロジをカスタマイズすると、計画ツールによって、ドメインネームシステム (DNS) 名前付け、ファイアウォールルール、証明書などの一連のレポートが利用できるようになります。 
   
-このツールを使用することは、実装計画における最初の手順になります。 次の手順は[Skype ビジネス サーバー 2015 の容量の計算用](https://www.microsoft.com/en-us/download/details.aspx?id=51196)に、サイト情報の詳細を入力するには、必要に応じて調整し、 [Skype ビジネス サーバー 2015 のストレスおよびパフォーマンス ツール](https://www.microsoft.com/en-us/download/details.aspx?id=50367)を使用してシミュレートしていることを確認します実装では、お客様のニーズを処理します。
+このツールを使用することは、実装計画における最初の手順になります。 次の手順では、 [skype For Business server 2015 キャパシティ電卓](https://www.microsoft.com/en-us/download/details.aspx?id=51196)にサイト情報の詳細を入力し、必要に応じて調整して、 [Skype for business Server 2015 のストレスとパフォーマンスツール](https://www.microsoft.com/en-us/download/details.aspx?id=50367)を使って、お客様のニーズに応じて実装されます。
   
-計画ツールには、2 つの形式で情報をエクスポートする機能も用意されています。
+計画ツールでは、次の2つの形式で情報をエクスポートすることもできます。
   
 - Microsoft Excel (.xml スプレッドシート)
     
 - Microsoft Visio (.vdx)
     
-次のトピックを紹介し、計画ツールについて詳しく説明します。
+次のトピックでは、計画ツールについて説明します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 

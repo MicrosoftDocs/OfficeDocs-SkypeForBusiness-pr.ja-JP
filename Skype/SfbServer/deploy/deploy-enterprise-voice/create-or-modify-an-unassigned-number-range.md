@@ -1,10 +1,10 @@
 ---
-title: 作成またはビジネス サーバーの Skype に割り当てられていない番号の範囲を変更します。
+title: Skype for Business Server で割り当てられていない番号範囲を作成または変更する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,37 +13,37 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: 作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
-ms.openlocfilehash: 7e186facd0ef619846b027943dcb5f19e2e3edc6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice のアナウンスメントアプリケーションで、割り当てられていない番号範囲を作成、変更、または削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
+ms.openlocfilehash: 5b9afa463d6eaff2f6ba3ed283d11556bd95bc03
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892896"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286184"
 ---
-# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype に割り当てられていない番号の範囲を変更します。
+# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Skype for Business Server で割り当てられていない番号範囲を作成または変更する
  
-作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
+Skype for Business Server Enterprise Voice のアナウンスメントアプリケーションで、割り当てられていない番号範囲を作成、変更、または削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
   
-ビジネス サーバー用の Skype を使用すると、組織にとって有効ですが、ユーザーや電話に割り当てられていない電話番号への着信呼び出しに対する処理と言います。 そのような通話の処理を構成するには、割り当てられていない番号の表を設定します。 お知らせアプリケーションまたは Exchange UM サーバーに呼び出しをルーティングするのにテーブルを使用することができます。
+Skype for Business Server を使用すると、組織で有効であるが、ユーザーまたは電話に割り当てられていない電話番号への着信通話に何が起こるかを確認できます。 そのような通話の処理を構成するには、割り当てられていない番号の表を設定します。 テーブルを使用して、通話をアナウンスメントアプリケーションまたは Exchange UM サーバーにルーティングすることができます。
   
 割り当てられていない番号の表の構成方法はその使用方法によって異なります。組織の有効な内線番号すべて、割り当てられていない内線番号のみ、または両方の種類の番号の組み合わせで、この表を構成できます。割り当てられていない番号の表には、割り当てられている番号と割り当てられていない番号を両方入れることができますが、現在割り当てられていない番号を発信者がダイヤルしたときのみ呼び出されます。有効な内線番号すべてを割り当てられていない番号の表に入れる場合、テーブルを再構成しなくても、ユーザーが組織を離れたとき必ず行う処理を指定できます。割り当てられていない内線番号を表に入れる場合、特定の番号について行う処理を変更できます。たとえば、顧客サービス デスクの内線番号を変更する場合、古い顧客サービス番号を表に入れ、新しい番号を知らせるアナウンスをそれに割り当てることができます。
   
 ## <a name="configure-unassigned-phone-numbers"></a>割り当てられていない電話番号の構成
 
-アナウンス アプリケーションの割り当てられていない番号の範囲を構成するのにには、次の手順のいずれかを使用します。
+次のいずれかの手順を使用して、アナウンスメントアプリケーションの未割り当ての番号範囲を構成します。
   
 > [!IMPORTANT]
-> システムにする必要があります表は、未使用の番号を構成する前にお知らせの定義が既にあるか、または、Exchange ユニファイド メッセージング (UM) の自動応答を設定します。 
+> [割り当てられていない番号] テーブルを構成する前に、システムで既にお知らせを定義するか、Exchange ユニファイドメッセージング (UM) 自動応答を設定する必要があります。 
   
 > [!TIP]
-> 誰かを呼び出すと、割り当てられていない番号、Skype ビジネス サーバーの上から下への番号の割り当てられていないテーブルを検索し、最初に一致する範囲を使用します。 したがって、最後の手段として実行される処理は、表の最終範囲に指定されている必要があります。 
+> ユーザーが割り当てられていない番号を呼び出した場合、Skype for Business Server は、未使用の番号テーブルを上から下に検索し、最初の一致する範囲を使用します。 したがって、最後の手段として実行される処理は、表の最終範囲に指定されている必要があります。 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Skype ビジネス サーバーのコントロール パネルを使用して割り当てられていない電話番号を構成するには
+### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Skype for Business Server コントロールパネルを使用して、割り当てられていない電話番号を設定するには
 
 1. RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**Delegate Setup Permissions**」を参照してください。
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。  
     
 3. 左側のナビゲーション バーで [**音声機能**] をクリックし、[**割り当てられていない番号**] をクリックします。
     
@@ -62,7 +62,7 @@ ms.locfileid: "33892896"
     
    - 範囲の開始番号または終了番号に内線番号が含まれる場合は、両方の番号が内線番号を含む必要があり、その内線番号は両方の番号で一致する必要があります。
     
-   - 番号が正規表現に一致する必要があります (tel:) ? (\+) ? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?。 つまり、番号の先頭に文字列 tel: (その文字列を指定しない場合に自動的に追加)、プラス記号 (+) と数字の 1 9 から。 電話番号が最大 17 桁にすることができ、拡張した形式で続いて ext = 内線番号の後にします。
+   - 数値は、正規表現 (tel: ? (\+) ? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ? に一致する必要があります。 これは、数値が文字列 "tel" で始まる可能性があることを意味します (文字列を指定しない場合は自動的に追加されます)、プラス記号 (+)、1 ~ 9 桁の数字です。 電話番号は最大17桁で、その後に形式の内線番号、内線番号、内線番号が続く場合があります。
     
 6. [**アナウンス サービス**] で、次のいずれかの手順を実行します。 
     
@@ -72,7 +72,7 @@ ms.locfileid: "33892896"
     
 7. 前の手順で [**アナウンス**] をクリックした場合は、次の手順を実行します。
     
-    a. **宛先サーバーの FQDN**を [**選択**] をクリックして、[割り当てられていない番号は、この範囲への着信呼び出しを処理し、 **[ok]** をクリックし、アナウンス アプリケーションを実行するアプリケーション サービスのサービス ID] をクリックします。
+    a. [**宛先サーバーの FQDN**] で [**選択**] をクリックし、この範囲の未割り当て番号への着信通話を処理するアナウンスメントアプリケーションを実行するアプリケーションサービスのサービス ID をクリックして、[ **OK]** をクリックします。
     
     b. [**アナウンス**] で、この割り当てられていない番号範囲に対して再生されるアナウンスをクリックします。
     
@@ -83,20 +83,20 @@ ms.locfileid: "33892896"
 10. [**割り当てられていない番号**] ページで、割り当てられていない番号範囲が希望どおりの順序で並んでいることを確認します。表で範囲の位置を変更するには、範囲の一覧で 1 つ以上の連続する名前をクリックして、上矢印または下矢印をクリックします。
     
     > [!TIP]
-    > Skype ビジネス サーバーのでは、上から下への番号の割り当てられていないテーブルを検索し、未使用の番号と一致する最初の範囲を使用します。 重複する範囲があり、そのうちの 1 つが最後のアクションを指定している場合は、その範囲が一覧の一番下にあることを確認します。 
+    > Skype for Business Server は、割り当てられていない番号テーブルを上から下に検索し、割り当てられていない番号に一致する最初の範囲を使用します。 重複する範囲があり、そのうちの 1 つが最後のアクションを指定している場合は、その範囲が一覧の一番下にあることを確認します。 
   
 11. 割り当てられていない番号範囲が希望どおりの順序で並んでいることを確認したら、[**すべて確定**] をクリックします。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>割り当てられていない電話番号を構成するビジネス サーバー管理シェルの Skype を使用するには
+### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>Skype for Business Server 管理シェルを使用して、割り当てられていない電話番号を設定するには
 
-1. RTCUniversalServerAdmins グループのまたは**セットアップ アクセス許可の委任**で説明したように必要なユーザー権限を持つメンバーとしてビジネス サーバー管理シェルの Skype がインストールされているコンピューターにログオンします。
+1. Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとしてインストールされているコンピューターにログオンするか、「**代理人セットアップアクセス許可**」で説明するように、必要なユーザー権限を設定します。
     
 2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
 3. 新しい割り当てられていない番号範囲を作成するには、**New-CsUnassignedNumber** を使用します。 既存の割り当てられていない番号範囲を変更するには、**Set-CsUnassignedNumber** を使用します。
     
     > [!TIP]
-    > 重複する範囲があり、それらを特定の順序で適用する場合は、Priority パラメーターを含めます。 最も優先度の高い範囲が通話に適用されます。 値 0 は、最高の優先順位を表します。
+    > 重複する範囲があり、それらを特定の順序で適用する場合は、Priority パラメーターを含めます。 最も優先度の高い範囲が通話に適用されます。 値0は、最も優先度の高い値を表します。
   
     コマンド ラインで、次のいずれかを実行します。
     
@@ -132,11 +132,11 @@ ms.locfileid: "33892896"
 
 ## <a name="delete-an-unnasigned-number-range"></a>未使用の番号範囲を削除する
 
-### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>未使用の番号の範囲を削除するのにはビジネス サーバーのコントロール パネルの Skype を使用するには
+### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>Skype for Business Server コントロールパネルを使用して、割り当てられていない番号範囲を削除するには
 
 1.  RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**Delegate Setup Permissions**」を参照してください。
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。  
     
 3. 左側のナビゲーション バーで [**音声機能**] をクリックし、[**割り当てられていない番号**] をクリックします。
     
@@ -146,9 +146,9 @@ ms.locfileid: "33892896"
     
 6. [**すべて確定**] をクリックします。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>未使用の番号の範囲を削除するのには Skype ビジネス サーバー管理シェルを使用するには
+### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>Skype for Business Server 管理シェルを使用して、割り当てられていない番号範囲を削除するには
 
-1. RTCUniversalServerAdmins グループのまたは**セットアップ アクセス許可の委任**で説明したように必要なユーザー権限を持つメンバーとしてビジネス サーバー管理シェルの Skype がインストールされているコンピューターにログオンします。
+1. Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとしてインストールされているコンピューターにログオンするか、「**代理人セットアップアクセス許可**」で説明するように、必要なユーザー権限を設定します。
     
 2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
@@ -165,7 +165,7 @@ ms.locfileid: "33892896"
    ```
 
     > [!NOTE]
-    > 詳細オプションの詳細については、[削除 CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps)を参照してください。 
+    > その他のオプションの詳細については、「 [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps)」を参照してください。 
   
 ## <a name="see-also"></a>関連項目
 

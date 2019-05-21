@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: 削除 CcCertificationAuthorityFile コマンドレットは、ビジネス クラウド コネクタ ・ エディションの Skype のサイトの共有ディレクトリの下の [CA] フォルダー内の証明機関サービスのバックアップ ファイルを削除します。
-ms.openlocfilehash: 52f3dc8642b9f3177b215b9cd102bbd50cd22fea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: CcCertificationAuthorityFile コマンドレットを使用すると、Skype for Business Cloud Connector エディションのサイト共有ディレクトリの CA フォルダーにある証明機関サービスのバックアップファイルが削除されます。
+ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899625"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287091"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-削除 CcCertificationAuthorityFile コマンドレットは、証明機関サービスのバックアップ ファイルを削除"&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12「Skype ビジネス クラウド コネクタ用のサイトの共有ディレクトリにある CA のフォルダーにエディションです。 
+CcCertificationAuthorityFile コマンドレットを使用すると、Skype for Business Cloud Connector&lt;の&gt;サイト共有ディレクトリの下にある CA フォルダー内の証明機関サービスバックアップファイル "SiteRootDirectory \CA\SfB CCE Root. p12" が削除されます。Edition. 
   
 ```
 Remove-CcCertificationAuthorityFile
@@ -35,7 +35,7 @@ Remove-CcCertificationAuthorityFile
 
 ### <a name="example-1"></a>例 1
 
-次の例は、証明機関サービスのバックアップ ファイルを削除"&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12」サイトの共有ディレクトリにある CA のフォルダー内。
+次の例では、サイトの共有ディレクトリの&lt;下&gt;にある CA フォルダーの証明機関サービスバックアップファイル "SiteRootDirectory \CA\SfB CCE ルート. p12" を削除します。
   
 ```
 Remove-CcCertificationAuthorityFile

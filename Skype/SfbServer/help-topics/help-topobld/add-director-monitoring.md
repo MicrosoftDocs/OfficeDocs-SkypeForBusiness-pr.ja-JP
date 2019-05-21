@@ -5,45 +5,45 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
-description: 次のプロパティを構成することによって、SQL Server の監視ストアを定義できます。
-ms.openlocfilehash: 4aae503cea5731705f8d7416b8cb14e02dde28aa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 次のプロパティを構成することで、監視 SQL Server ストアを定義できます。
+ms.openlocfilehash: b5b6ace37923cb5fcba48975e572f1c6717510a9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886502"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304794"
 ---
 # <a name="add-director-monitoring"></a>ディレクターの監視の追加
  
-次のプロパティを構成することによって**SQL Server の監視ストアを定義する**実行できます。
+次のプロパティを構成することで **、監視 SQL Server ストアを定義**できます。
   
-- **SQL Server の監視を格納**: SQL Server の完全修飾ドメイン名 (FQDN) など、必要に応じて、名前付き SQL Server インスタンスをリストから選択します。
+- **Sql server ストアの監視**: リストから sql server の完全修飾ドメイン名 (FQDN) を選択します (必要に応じて、名前付きの sql server インスタンスも選択します)。
     
-    新しい SQL Server の FQDN の定義、および必要に応じて、監視サーバ ・ ストアのインスタンス名を作成する**新規**をクリックします。
+    [**新規**] をクリックして、新しい SQL Server FQDN 定義を作成します。必要に応じて、監視サーバーストアのインスタンス名を指定します。
     
-- データベース ミラーリング監視サーバーを追加する場合は、**ストアを有効にする SQL Server のミラー化**] チェック ボックスを選択します。
+- 監視サーバーのデータベースミラーリングを追加する場合は、[ **SQL Server ストアのミラーリングを有効**にする] チェックボックスをオンにします。
     
-    リストから**SQL Server の監視は、ミラーを格納**する既存を選択します。
+    既存の**監視 SQL Server ストアミラー**を一覧から選択します。
     
-    新しい SQL Server の FQDN の定義、および必要に応じて、ミラー ・ ストアのインスタンス名を作成する**新規**をクリックします。
+    [**新規**] をクリックして、新しい SQL Server FQDN 定義を作成します。必要に応じて、ミラーストアのインスタンス名を指定します。
     
-- **ストアを有効にする SQL Server のミラーリング**を選択した場合は、必要に応じて**使用して SQL Server の自動フェイル オーバー機能を有効にする補助をミラーリングする**ミラーリング監視ストアを一覧から、SQL Server を選択するを選択します。
+- [ **Sql server ストアのミラーリングを有効**にする] を選択した場合は、必要に応じて [ **sql server ミラーリング監視を有効にする**] を選択して、リストから sql server ミラーリング監視ストアを選択します。
     
-    新しい SQL Server の FQDN の定義、および必要に応じて、ミラーリング監視ストアのインスタンス名を作成する**新規**をクリックします。
+    [**新規**] をクリックして、新しい SQL Server FQDN 定義を作成します。必要に応じて、ミラーリング監視ストアのインスタンス名を指定します。
     
 前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。
   
-構成を続行するのには、このダイアログ ボックスのオプションの入力が終了したら**次へ**をクリックします。
+このダイアログボックスのオプションを入力して構成を続行したら、[**次へ**] をクリックします。
   
-すべての変更と、ウィザードを終了する**キャンセル**をクリックします。
+すべての変更を破棄してウィザードを終了するには、[**キャンセル**] をクリックします。
   
-このページなど、状況依存のヘルプにアクセスするため**のヘルプ**をクリックします。
+このページなどの状況依存のヘルプにアクセスするには、[**ヘルプ**] をクリックします。
   
 

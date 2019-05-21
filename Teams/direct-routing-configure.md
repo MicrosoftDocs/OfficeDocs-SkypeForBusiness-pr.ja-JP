@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
@@ -14,53 +14,53 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: 514be758042284f40dfab055eacf5b0f3222afd7
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
+ms.openlocfilehash: ce3fff5205a2cb78c1d409ae8595a50c73f70aaf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402524"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290446"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
 > [!Tip]
-> ルーティング、それを計画する方法と展開方法は、直接の利点について説明するのには次のセッションを監視する:[マイクロソフトのチームに直接ルーティング](https://aka.ms/teams-direct-routing)
+> ダイレクトルーティングの利点、計画方法、展開方法については、次のセッションをご覧ください。 [Microsoft Teams での直接ルーティング](https://aka.ms/teams-direct-routing)
 
-されていない場合は、前提条件の[直接ルーティングの計画](direct-routing-plan.md)が読み込まれ、他の手順を確認する必要があります、Microsoft の電話システムのネットワークを構成する前にします。 
+まだインストールしていない場合は、「[直接ルーティング](direct-routing-plan.md)の前提条件」を参照してください。また、Microsoft 電話システムネットワークを構成する前に必要なその他の手順を確認してください。 
 
-この資料では、マイクロソフト電話システム直接ルーティングを構成する方法について説明します。 ペア、サポートされているセッション ボーダー コント ローラー (SBC) に直接ルーティングする方法とを公衆交換電話網 (PSTN) を接続するのには直接ルーティングを使用するマイクロソフトのチームのユーザーを構成する方法を説明します。 この資料で説明した手順を完了するには、管理者には、PowerShell コマンドレットをある程度が必要があります。 PowerShell を使用の詳細については、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を参照してください。 
+この記事では、Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。 サポートされているセッション境界コントローラー (SBC) とダイレクトルーティングをペアリングする方法について説明します。また、Microsoft Teams ユーザーが直接ルーティングを使用して公衆交換電話網 (PSTN) に接続するように構成する方法についても説明します。 この記事で説明されている手順を実行するには、管理者が PowerShell コマンドレットについて理解している必要があります。 PowerShell の使用方法の詳細については、「 [Windows powershell 用にコンピューターをセットアップする](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。 
 
-SBC が既に設定されている SBC の製造元によって推奨されていることを確認することをお勧めします。 
+Sbc が SBC ベンダーの推奨として既に構成されていることを確認することをお勧めします。 
 
-- [展開に関するドキュメント](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [リボンの通信の展開に関するドキュメント](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [AudioCodes の展開に関するドキュメント](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [リボンの通信展開に関するドキュメント](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 
-マイクロソフト電話システムを構成して、直接ルーティングを使用し、マイクロソフトのチームを次の手順を完了しての優先呼び出し側のクライアントとして設定するユーザーを有効にすることができます。 
+Microsoft 電話システムを構成し、ユーザーが直接ルーティングを使用できるようにすることができます。次の手順を実行して、優先発信クライアントとして Microsoft Teams をセットアップします。 
 
-- [マイクロソフトの電話システムと SBC のペアし、ペアを検証します。](#pair-the-sbc-to-direct-routing-service-of-phone-system)
-- [直接ルーティング サービスのユーザーを有効にします。](#enable-users-for-direct-routing-service)
-- [マイクロソフトのチームが、ユーザーの優先呼び出し側のクライアントであることを確認します。](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
+- [SBC と Microsoft 電話システムをペアリングし、ペアリングを検証する](#pair-the-sbc-to-direct-routing-service-of-phone-system)
+- [ユーザーのダイレクトルーティングサービスを有効にする](#enable-users-for-direct-routing-service)
+- [Microsoft Teams が、ユーザーの優先発信クライアントであることを確認する](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
-## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>電話システムの直接のルーティング サービスに SBC を組み合わせ 
+## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>SBC を電話システムのダイレクトルーティングサービスにペアリングする 
 
-使用すると、接続、または直接ルーティング インターフェイスに SBC とペアにするには次の 3 つの大まかな手順は、次のように。 
+次に、SBC を直接ルーティングインターフェイスに接続するかペアリングする3つの大まかな手順について説明します。 
 
-- PowerShell を使用して、 **Skype**管理センターへの接続します。 
-- SBC のペア 
-- ペアを検証します。 
+- PowerShell を使用して**Skype For Business Online**管理センターに接続する 
+- SBC をペアリングする 
+- ペアリングを検証する 
 
-### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>PowerShell を使用して、オンライン ビジネスの Skype に接続します。 
+### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>PowerShell を使用して Skype for Business Online に接続する 
 
-直接ルーティング インターフェイスに SBC をペアにするには、テナントに接続している PowerShell セッションを使用できます。 PowerShell セッションを開くには、するには、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)で説明する手順に従ってください。 
+テナントに接続された PowerShell セッションを使って、SBC とダイレクトルーティングインターフェイスをペアリングすることができます。 PowerShell セッションを開くには、「 [Windows powershell 用にコンピューターを](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)セットアップする」の手順に従ってください。 
  
-リモート PowerShell セッションを確立すると後を検証してください、SBC を管理するためにコマンドを表示することができます。 コマンドを検証するには、入力または PowerShell セッションで次のコピーと貼り付けし Enter キーを押します。 
+リモート PowerShell セッションを確立したら、SBC を管理するためのコマンドが表示されることを確認します。 コマンドを検証するには、PowerShell セッションで次のように入力するか、コピーして貼り付け、enter キーを押します。 
 
 ```
 Get-Command *onlinePSTNGateway*
 ```
 
-コマンドでは、ここで示すように、SBC を管理できるようになる 4 つの関数を返します。 
+このコマンドを実行すると、次に示す4つの関数が返され、SBC を管理できるようになります。 
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -72,23 +72,23 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 </pre>   
 
 
-### <a name="pair-the-sbc-to-the-tenant"></a>テナントに SBC の組み合わせ 
+### <a name="pair-the-sbc-to-the-tenant"></a>SBC をテナントにペアリングする 
 
-テナントに SBC とペアに PowerShell セッションで次を入力し、Enter キーを押します。 
+SBC をテナントにペアリングするには、PowerShell セッションで次のように入力し、enter キーを押します。 
 
 ```
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
-  > 1. 強くお勧め、SBC の呼び出しの最大制限を設定する SBC のドキュメントで使用されている情報を使用します。 制限は、SBC の能力のレベルにある場合に通知をトリガーします。
-  > 2. FQDN のドメイン部分を除く、テナントに登録されているドメインのいずれかと一致する場合、SBC をペアのみ\*. onmicrosoft.com。 使用して\*. SBC の FQDN 名を onmicrosoft.com ドメイン名がサポートされていません。 たとえば、2 つのドメイン名があるとします。<br/><br/>
-  > **contoso**.com<br/>**contoso**onmicrosoft.com。<br/><br/>
-  > SBC 名の名前の sbc.contoso.com を使用できます。 名 sbc.contoso.abc を持つ SBC のペアにしようとすると、システムは動かせません、このテナントは、ドメインを所有していないようです。
+  > 1. Sbc ドキュメントに記載されている情報を使って、SBC で最大限の通話制限を設定することを強くお勧めします。 SBC がキャパシティレベルにある場合、制限によって通知がトリガーされます。
+  > 2. SBC をペアリングできるのは、その FQDN のドメイン部分が、テナントに登録されているドメインのいずれ\*かに一致している場合のみです。 onmicrosoft.com を除きます。 \*Onmicrosoft.com ドメイン名は、SBC FQDN 名ではサポートされていません。 たとえば、2つのドメイン名がある場合は、次のようになります。<br/><br/>
+  > **contoso**.com<br/>**** onmicrosoft.com<br/><br/>
+  > SBC 名には、sbc.contoso.com という名前を使用できます。 SBC と名前 sbc をペアリングしようとしても、ドメインはこのテナントによって所有されていないため、システムによっては許可されません。
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
-返します。
+返し
 <pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
@@ -100,38 +100,38 @@ SendSipOptions        : True
 MaxConcurrentSessions : 100 
 Enabled               : True   
 </pre>
-ペアリング処理中に設定できる追加のオプションがあります。 前の例では、ただし、のみ、最低限必要なパラメーターが表示されます。 
+ペアリングプロセス中に設定できるその他のオプションがあります。 ただし、前の例では、必須の最小パラメーターのみが表示されています。 
  
-次の表のパラメーターの設定で使用できる追加のパラメーターを一覧表示します。`New-CsOnlinePstnGateway`
+次の表に、パラメーターの設定に使用できるその他のパラメーターを示します。`New-CsOnlinePstnGateway`
 
 |必須。|名前|説明|既定|可能な値|種類と制限|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|はい|FQDN|SBC の FQDN 名 |なし|NoneFQDN 名、制限は 63 文字|文字列、[コンピューター、ドメイン、サイト、および Ou の Active Directory の名前付け規則](https://support.microsoft.com/help/909264)で許可の文字の一覧|
-|いいえ|MediaBypass |将来使用するために予約されているパラメーターです。 SBC の示されているパラメーターには、メディア バイ パスがサポートされていて、管理者がそれを使用します。|なし|True<br/>False|Boolean|
-|はい|SipSignallingPort |トランスポート層セキュリティ (TLS) プロトコルを使用して直接ルーティング サービスと通信するために使用するポートをリッスンします。|なし|任意のポート|0 から 65535 まで |
-|いいえ|FailoverTimeSeconds |10 (既定値) に設定すると、10 秒以内に、ゲートウェイが応答しない送信の呼び出しにルーティングされる次の使用可能なトランクです。トランクを追加することはありません、し、呼び出しは自動的に削除します。 低速のネットワークとゲートウェイの応答を持つ組織内を可能性があります可能性のある呼び出しが不必要に削除されています。 既定値は 10 です。|10|数値|Int|
-|いいえ|ForwardCallHistory |通話履歴の情報をトランク経由で転送するかどうかを指定します。 Office 365 の PSTN のプロキシに 2 つのヘッダーが送信が有効な場合: 履歴情報と Referred で。 既定値は**False** ($False) です。 |False|True<br/>False|Boolean|
-|いいえ|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 : ID プライバシーを有効にした場合のヘッダーも送信されます。 既定値は**False** ($False) です。|False|True<br/>False|Boolean|
-|いいえ|SendSIPOptions |SBC または SIP オプションを送信しない場合を定義します。 無効にした場合、SBC は、監視と警告のシステムから除外されます。 SIP オプションを有効にすることを強くお勧めします。 既定値は**True**です。 |True|True<br/>False|Boolean|
-|いいえ|MaxConcurrentSessions |警告システムによって使用されます。 同時セッションの数が 90% の場合、アラート ・ システム、テナント管理者にアラートを生成の任意の値を設定すると、この値よりも大きいか。 パラメーターが設定されていない場合、アラートは生成されません。 ただし、監視システムは 24 時間ごとの同時セッションの数を報告します。 |Null|Null<br/>1 ~ 100,000 ||
-|いいえ|有効になっている *|発信呼のこの SBC を有効にする場合に使用されます。 メンテナンス中または更新中に、SBC を一時的に削除するために使用します。 |False|True<br/>False|Boolean|
+|はい|FQDN|SBC の FQDN 名 |なし|NoneFQDN 名、63文字を制限する|[コンピューター、ドメイン、サイト、および ou の Active Directory の名前付け規則](https://support.microsoft.com/help/909264)での文字列、許可されている文字および禁止されている文字の一覧|
+|いいえ|MediaBypass |将来使用するために予約されているパラメーター。 は、SBC でサポートされているメディアバイパスのパラメーターであり、管理者はこのパラメーターを使いたいと考えています。|なし|True<br/>False|Boolean|
+|はい|SipSignallingPort |トランスポート層セキュリティ (TLS) プロトコルを使用した、直接ルーティングサービスとの通信に使用するリスニングポート。|なし|任意のポート|0 ~ 65535 |
+|いいえ|FailoverTimeSeconds |10 (既定値) に設定すると、ゲートウェイによって応答されない送信通話は、次の利用可能なトランクにルーティングされます。追加の trunks がない場合、通話は自動的に切断されます。 低速のネットワークとゲートウェイ応答を使用している組織では、通話が不必要に削除される可能性があります。 既定値は10です。|常用|数値|Int|
+|いいえ|ForwardCallHistory |通話履歴の情報をトランク経由で転送するかどうかを指定します。 有効になっている場合、Office 365 PSTN プロキシは、2つのヘッダー (履歴-情報と参照) を送信します。 既定値は**False** ($False) です。 |False|True<br/>False|Boolean|
+|いいえ|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 有効になっている場合、プライバシー: ID ヘッダーも送信されます。 既定値は**False** ($False) です。|False|True<br/>False|Boolean|
+|いいえ|SendSIPOptions |SBC が SIP オプションを送信するかどうかを定義します。 無効にした場合、SBC は、監視および警告システムから除外されます。 SIP オプションを有効にすることを強くお勧めします。 既定値は**True**です。 |True|True<br/>False|Boolean|
+|いいえ|MaxConcurrentSessions |アラートシステムで使用されます。 いずれかの値が設定されると、同時セッション数が 90% 以上である場合、またはこの値よりも高い場合に、通知システムによってテナント管理者に通知が生成されます。 パラメーターが設定されていない場合、アラートは生成されません。 ただし、監視システムでは、24時間ごとに同時セッションの数が報告されます。 |空|空<br/>1 ~ 10万 ||
+|いいえ|な|この SBC を発信通話に対して有効にします。 更新中またはメンテナンス中に、SBC を一時的に削除するために使用できます。 |False|True<br/>False|Boolean|
  
-### <a name="verify-the-sbc-pairing"></a>SBC の組み合わせを確認します。 
+### <a name="verify-the-sbc-pairing"></a>SBC ペアリングを確認する 
 
 接続を確認します。 
-- SBCs のペアのリストに、SBC があるかを確認してください。 
-- SIP オプションを検証します。 
+- SBC が、ペアリングされた SBCs のリストにあるかどうかを確認します。 
+- SIP オプションを確認します。 
  
-#### <a name="validate-if-the-sbc-is-on-the-list-of-paired-sbcs"></a>SBCs のペアの一覧に場合は、SBC の検証します。 
+#### <a name="validate-if-the-sbc-is-on-the-list-of-paired-sbcs"></a>SBC が、ペアリングされた SBCs のリストにあるかどうかを検証します 
 
-SBC のペアであることを確認、SBC SBCs のペアのリストに存在リモート PowerShell セッションで次のコマンドを実行しています。`Get-CSOnlinePSTNGateway`
+SBC をペアリングした後、リモート PowerShell セッションで次のコマンドを実行して、SBC が、[ペアリングされた SBCs] のリストに存在することを確認します。`Get-CSOnlinePSTNGateway`
 
-ペアのゲートウェイは、次の例に示すように、一覧に表示し、パラメーターを*有効*に**は True**の値が表示されることを確認ください。 入力します。
+次の例に示すように、ペアリングされたゲートウェイがリストに表示されていることを確認し、*有効になっ*ているパラメーターの値が**True**であることを確認します。 ください
 
 ```
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
-返します。
+戻り値:
 <pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
@@ -146,58 +146,58 @@ MaxConcurrentSessions : 100
 Enabled               : True 
 </pre>
 
-#### <a name="validate-sip-options-flow"></a>SIP オプションのフローを検証します。 
+#### <a name="validate-sip-options-flow"></a>SIP オプションのフローを検証する 
 
-送信 SIP オプションを使用しての組み合わせを検証するには、SBC の管理インターフェイスを使用し、SBC がそのオプションのメッセージを 200 OK 応答を受信することを確認します。
+発信 SIP オプションを使用してペアリングを検証するには、SBC 管理インターフェイスを使用して、SBC が送信オプションメッセージに対する 200 OK 応答を受信することを確認します。
 
-受信オプションを見て直接ルーティングでは、SBC の FQDN へのメッセージは、オプションの受信メッセージの連絡先ヘッダー フィールドで構成されている送信 SIP のオプションの送信を開始します。 
+ダイレクトルーティングでは、着信オプションが表示され、着信のオプションメッセージの [連絡先ヘッダー] フィールドに設定された SBC FQDN への送信 SIP オプションメッセージの送信が開始されます。 
 
-着信 SIP オプションを使用しての組み合わせを検証するには、SBC の管理インターフェイスを使用し、SBC から直接ルーティング オプションのメッセージへの返信を送信して、送信する応答コードが 200 [ok] を参照してください。
+着信 SIP オプションを使用してペアリングを検証するには、SBC 管理インターフェイスを使用します。また、SBC は直接ルーティングからのオプションメッセージに返信を送信し、送信する応答コードは 200 OK であることを確認します。
 
-## <a name="enable-users-for-direct-routing-service"></a>直接ルーティング サービスのユーザーを有効にします。 
+## <a name="enable-users-for-direct-routing-service"></a>ユーザーのダイレクトルーティングサービスを有効にする 
 
-直接ルーティング サービスに対してユーザーを有効にする準備ができたら、次の手順に従います。 
+ユーザーが直接ルーティングサービスを有効にする準備ができたら、次の手順を実行します。 
 
-1. Office 365 にユーザーを作成し、電話システムのライセンスを割り当てます。 
-2. ビジネス オンラインの Skype のユーザーのホームすることを確認します。 
-3. 電話番号を構成し、エンタープライズ ボイスとボイス メールを有効にします。 
-4. 音声ルーティングを構成します。 ルートが自動的に検証されます。
+1. Office 365 でユーザーを作成し、電話システムのライセンスを割り当てます。 
+2. ユーザーが Skype for Business Online に所属していることを確認します。 
+3. 電話番号を構成し、エンタープライズボイスとボイスメールを有効にします。 
+4. 音声ルーティングを構成します。 ルートは、自動的に検証されます。
 
-### <a name="create-a-user-in-office-365-and-assign-the-license"></a>Office 365 にユーザーを作成し、ライセンスの割り当てください 
+### <a name="create-a-user-in-office-365-and-assign-the-license"></a>Office 365 でユーザーを作成してライセンスを割り当てる 
 
-Office 365 で新しいユーザーを作成するための 2 つのオプションがあります。 ただし、組織が選択し、1 つのオプションを使用して、ルーティングの問題を回避することお勧めします。 
+Office 365 で新規ユーザーを作成するには、2つのオプションがあります。 ただし、ルーティングの問題を回避するために、次のいずれかのオプションを組織で選択して使用することをお勧めします。 
 
-- オンプレミスの Active Directory でユーザーを作成し、ユーザーがクラウドを同期します。 [Azure Active Directory と統合、設置ディレクトリ](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)を参照してください。
-- Office 365 管理者ポータルで直接ユーザーを作成します。 [追加ユーザー個別にまたは一括で Office 365 の管理者のヘルプ](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)を参照してください。 
+- オンプレミスの Active Directory でユーザーを作成し、ユーザーをクラウドと同期します。 「[オンプレミスディレクトリと Azure Active Directory の統合」を](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)参照してください。
+- Office 365 管理ポータルに直接ユーザーを作成します。 「 [Office 365 にユーザーを個別に、またはまとめて追加する-管理者向けヘルプ」を](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)参照してください。 
 
-オンライン ビジネス展開するため、Skype は、設置型のビジネス 2015年または Lync 2010/2013 Skype で共存して、サポートされている唯一のオプションが、オンプレミスの Active Directory でユーザーを作成し、(オプション 1) をクラウドに移行するユーザーを同期します。 
+Skype for business Online の展開が Skype for Business 2015 または Lync 2010/2013 のオンプレミスで共存している場合、サポートされているのは、オンプレミスの Active Directory でユーザーを作成して、ユーザーをクラウドに同期する方法 (オプション 1) だけです。 
 
-必須ライセンス: 
+必要なライセンス: 
 
-- Office 365 エンタープライズ E3 (デバイス Plan2、Plan2 の交換、チームを含む) 電話システム
-- Office 365 エンタープライズ E5 (デバイス Plan2、Plan2 の交換、チーム、および電話システムを含む) 
+- Office 365 Enterprise E3 (SfB Plan2、Exchange Plan2、Teams など) + 電話システム
+- Office 365 Enterprise E5 (SfB Plan2、Exchange Plan2、Teams、電話システムなど) 
 
-オプションのライセンス数: 
+オプションのライセンス: 
 
-- 計画を呼び出す 
+- 通話プラン 
 - 電話会議 
 
-### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>ビジネス オンラインの Skype のユーザーが所属していることを確認します。 
+### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>ユーザーが Skype for Business Online に所属していることを確認する 
 
-直接ルーティングでは、Skype でのオンライン ビジネスのホーム ユーザーが必要です。 これを確認するには、RegistrarPool パラメーターを参照しています。 Infra.lync.com ドメイン内の値を設定する必要があります。
+直接ルーティングを使用するには、ユーザーが Skype for Business Online を使用している必要があります。 これを確認するには、RegistrarPool パラメーターを参照してください。 Infra.lync.com ドメインに値が含まれている必要があります。
 
 1. リモート PowerShell に接続します。
-2. コマンドを発行します。 
+2. 次のコマンドを実行します。 
 
 ```
 Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 ``` 
 
-### <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>電話番号を構成し、エンタープライズ ボイスとボイス メールを有効にします。 
+### <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>電話番号を設定し、エンタープライズボイスとボイスメールを有効にする 
 
-ユーザーを作成すると、次の手順は、電話番号やボイス メールを構成するのには、ライセンスが割り当てられています。 これは、1 つのステップで実行できます。 
+ユーザーを作成してライセンスを割り当てたら、次の手順として、電話番号とボイスメールを構成します。 これは、1つの手順で行うことができます。 
 
-電話番号を追加し、ボイス メールを有効にします。
+電話番号を追加してボイスメールを有効にするには:
  
 1. リモート PowerShell セッションに接続します。 
 2. コマンドを入力します。 
@@ -206,93 +206,93 @@ Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
 ```
 
-たとえば、「Spencer 低」のユーザーの電話番号を追加するのにはするは、次のように入力します。 
+たとえば、"Spencer Low" というユーザーの電話番号を追加するには、次のように入力します。 
 
 ```
 Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
-電話番号に国コードを含む完全 E.164 電話番号として構成するのには。 
+使用される電話番号は、国コードを含む完全な電子電話番号として構成する必要があります。 
 
   > [!NOTE]
-  > ユーザーの電話番号が施設内で管理されている場合は、ユーザーの電話番号を構成するのにはビジネス管理シェルまたはコントロール パネルの設置型の Skype を使用します。 
+  > ユーザーの電話番号がオンプレミスで管理されている場合は、オンプレミスの Skype for Business 管理シェルまたはコントロールパネルを使用して、ユーザーの電話番号を構成します。 
 
-### <a name="configure-voice-routing"></a>音声ルーティングを構成します。 
+### <a name="configure-voice-routing"></a>音声ルーティングを構成する 
 
-マイクロソフトの電話システムに基づく特定の SBC に送られる呼び出しを可能にするためのルーティング メカニズムがあります。 
+Microsoft 電話システムには、以下に基づいて特定の SBC に通話を送信することができるルーティングメカニズムがあります。 
 
-- 番号のパターンと呼ばれる 
-- 番号のパターン + 呼び出しでは、特定のユーザーと呼ばれます。
+- "番号パターン" と呼ばれる 
+- 通話を発信している番号パターンと、特定のユーザー
  
-SBCs は、アクティブとバックアップとして指定できます。 この番号のパターンまたはパターンの番号 + 特定のユーザーに対してアクティブに設定されている SBC が使用できない場合を意味し、呼び出しは、バックアップの SBC にルーティングされます。
+SBCs は、アクティブなバックアップとして指定できます。 つまり、この数値パターンに対してアクティブとして構成されている SBC、または数値パターンと特定のユーザーを使用できない場合、通話はバックアップ SBC にルーティングされます。
  
-通話のルーティングは、次の要素で構成されています。 
-- 音声ルーティング ポリシー – PSTN の使用法のためのコンテナーユーザーまたは複数のユーザーに割り当てることができます。 
-- PSTN 使用法: ボイス ルートと PSTN の使用法のためのコンテナー別の音声ルーティング ポリシーで共有することができます。 
-- ボイス ルート – 番号のパターンと、パターンに一致する番号を呼び出す呼び出しに使用するオンラインの PSTN ゲートウェイの設定 
-- オンラインの PSTN ゲートウェイ、SBC へのポインター、前方の P アサートされた Id (PAI) や優先のコーデックなど、SBC を使用して電話をかけるときに適用される設定を格納します。ボイス ルートを追加することができます。 
+通話ルーティングは、次の要素で構成されます。 
+- 音声ルーティングポリシー– PSTN 使用のコンテナー。ユーザーまたは複数のユーザーに割り当てることができる 
+- PSTN 使用状況–ボイスルートと PSTN 使用のコンテナー。異なる音声ルーティングポリシーで共有できる 
+- ボイスルーティング–番号パターンとオンライン PSTN ゲートウェイのセットを使用して、通話番号がパターンと一致する通話に使用する 
+- オンライン PSTN ゲートウェイ: SBC へのポインターでは、(PAI () forward Identity (PAI) または好ましいコーデックなど、SBC 経由で通話を発信するときに適用される構成も保存します。音声ルートに追加できます 
 
-#### <a name="creating-a-voice-routing-policy-with-one-pstn-usage"></a>PSTN 使用法の 1 つの音声ルーティング ポリシーを作成します。 
+#### <a name="creating-a-voice-routing-policy-with-one-pstn-usage"></a>単一の PSTN 使用を使用した音声ルーティングポリシーの作成 
 
-次の図は、呼び出しの流れの音声ルーティング ポリシーの 2 つの例を示します。
+次の図は、通話フローのボイスルーティングポリシーの2つの例を示しています。
 
-**(左側) のフロー 1 の呼び出し:**+1 425 XXX XX XX または +1 206 XXX XX XX への呼び出しを行うと、SBC sbc1.contoso.biz または sbc2.contoso.biz 呼び出しがルーティングされます。 Sbc1.contoso.biz と sbc2.contoso.biz のどちらもが利用可能な場合は、呼び出しは破棄されます。 
+**通話フロー 1 (左側):** ユーザーが + 1 425 XXX XX xx または + 1 206 XXX XX xx を呼び出した場合、通話は SBC sbc1.contoso.biz または sbc2.contoso.biz にルーティングされます。 Sbc1.contoso.biz と sbc2.contoso.biz のどちらも使用できない場合は、通話が切断されます。 
 
-**(右側) のフロー 2 の呼び出し:**+1 425 XXX XX XX または +1 206 XXX XX XX への呼び出しを行うと場合の呼び出しはまず SBC sbc1.contoso.biz または sbc2.contoso.biz にルーティングされます。 SBC のどちらが使用可能な場合は、優先度の低いルートになります (sbc3.contoso.biz と sbc4.contoso.biz) をしようとしました。 SBCs の [なし] がある場合、呼び出しは破棄されます。 
+**通話フロー 2 (右側):** ユーザーが + 1 425 XXX XX xx または + 1 206 XXX XX xx への通話を発信した場合、通話はまず SBC sbc1.contoso.biz または sbc2.contoso.biz にルーティングされます。 どちらの SBC も使用できない場合は、優先度の低いルートが試されます (sbc3.contoso.biz と sbc4.contoso.biz)。 利用可能な SBCs がない場合は、通話が切断されます。 
 
-![音声ルーティング ポリシーの例を示しています。](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
+![ボイスルーティングポリシーの例を示しています](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-どちらの例では、ボイス ルートは、優先順位を割り当てられている間、ルートの SBCs はランダムな順序で試行されます。
-
-  > [!NOTE]
-  > ユーザーもライセンスを持つ、Microsoft の計画を呼び出すことをしない限り、+1 425 の XXX の XX XX または構成の例で +1 206 の XXX XX XX のパターンに一致する数字以外の任意の数への呼び出しは削除されます。 ユーザーのライセンス計画を呼び出す場合は、呼び出しは自動的にマイクロソフトを呼び出す予定のポリシーに従ってルーティングされます。 
-
-マイクロソフトを呼び出す計画では、Microsoft の計画を呼び出してライセンスを持つすべてのユーザーに最後のルートとしてには、自動的に適用され、追加の呼び出しのルーティングの構成は必要ありません。
-
-例では、次の図に示すように、すべての他の米国およびカナダ番号 (番号のパターンと呼ばれる +1 XXX XXX XX XX に行われる呼び出し) への呼び出しを送信するボイス ルートが追加されます。
-
-![番組音声の 3 つ目のルートをルーティング ポリシー](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
-
-他のすべての呼び出しでは、ユーザーは、(マイクロソフトの電話システムと Microsoft の計画を呼び出す)、両方のライセンスを持っている場合、自動工順が使用されます。 何もには、管理者が作成したオンラインでのボイス ルートの番号のパターンが一致すると、Microsoft の計画を呼び出すを使用してルーティングします。
-
-ユーザーは、マイクロソフトの電話システムのみがある、一致する規則がないために、呼び出しが切断されます。
+どちらの例でも、ボイスルートには優先順位が割り当てられていますが、ルートの SBCs はランダムな順序で試行されます。
 
   > [!NOTE]
-  > 「+1 その他の」ルートの優先順位の値 +1 のパターンに一致する 1 つだけのルートがある、この例では、関係ありません XXX XXX XX XX。 +1 324 の 567 89 89 への呼び出しを行うと、sbc5.contoso.biz と sbc6.contoso.biz の両方が使用できない場合は、呼び出しは破棄されます。
+  > ユーザーに Microsoft の通話プランライセンスも付与されていない限り、そのパターンに一致する番号 (1 425 XXX XX XX または + 1 206 XXX XX xx) は、この構成の例では削除されません。 ユーザーが通話プランライセンスを持っている場合は、Microsoft 通話プランのポリシーに従って、通話が自動的にルーティングされます。 
 
-次の表では、3 つのボイス ルートを使用して設定をまとめたものです。 この例では、すべての 3 つのルートは、同じ PSTN 使用法米国およびカナダの一部です。
+Microsoft 通話プランは、Microsoft 通話プランライセンスを持つすべてのユーザーに対して、最後のルートとして自動的に適用され、追加の通話ルーティング構成は必要ありません。
 
-|**PSTN 使用法**|**ボイス ルート**|**番号パターン**|**[Priority]**|**SBC**|**説明**|
+次の図に示す例では、すべての米国およびカナダの電話番号に通話を送信するための音声ルートが追加されています (通話は、番号パターン + 1 XXX XXX XX XX) に移動します。
+
+![ボイスルーティングポリシーを3番目のルートとともに示しています](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
+
+その他のすべての通話では、ユーザーに両方のライセンス (Microsoft Phone システムと Microsoft 通話プラン) がある場合、自動ルートが使用されます。 管理者が作成したオンラインボイスルートの番号パターンと一致しない場合は、Microsoft 通話プランを使ってルーティングします。
+
+ユーザーが Microsoft 電話システムのみを使用している場合は、一致するルールがないため、通話が切断されます。
+
+  > [!NOTE]
+  > ルート "Other + 1" の Priority の値は、この例では関係ありません。パターンは1つだけであり、1 XXX XXX XX XX と一致します。 ユーザーが + 1 324 567 89 89 に通話を発信し、sbc5.contoso.biz と sbc6.contoso.biz の両方を利用できない場合は、通話が切断されます。
+
+次の表は、3つのボイスルートを使った構成をまとめたものです。 この例では、3つのルートすべてが同じ PSTN 使用状況 "US とカナダ" に含まれています。
+
+|**PSTN 使用法**|**ボイスルート**|**番号パターン**|**[Priority]**|**SBC**|**説明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|米国のみ|「Redmond 1」|^\\+1 (425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|+1 425 XXX XX XX または +1 206 XXX XX XX の呼び出された番号の有効な工順|
-|米国のみ|"Redmond 2"|^\\+1 (425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|+1 425 XXX XX XX または +1 206 XXX XX XX の呼び出された番号のバックアップ ルート|
-|米国のみ|「その他の +1」|^\\+1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|呼ばれる数字の +1 XXX XXX の XX XX (+1 425 XXX XX XX +1 206 XXX XX XX 以外) をルーティングします。|
+|米国限定|"レドモンド 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼び出された数値 + 1 425 XXX XX XX または + 1 206 XXX XX xx のアクティブルート|
+|米国限定|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼び出した数値 + 1 425 XXX XX XX または + 1 206 XXX XX xx のバックアップルート|
+|米国限定|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|"発信番号" のルート + 1 XXX XXX XX XX (+ 1 425 XXX XX xx または + 1 206 XXX XX xx)|
 |||||||
 
-すべてのルートは、米国およびカナダの PSTN 使用法に関連付けられているし、は、音声ルーティング ポリシー「u. s. だけです」に関連付けられている PSTN 使用法 この例では、音声ルーティング ポリシーは Spencer 低のユーザーに割り当てられます。
+すべてのルートは、PSTN の使用状況 "US およびカナダ" と関連付けられ、PSTN の使用状況はボイスルーティングポリシー "US のみ" に関連付けられています。 この例では、ボイスルーティングポリシーがユーザー Spencer Low に割り当てられています。
 
-#### <a name="examples-of-call-routes"></a>呼び出しのルーティングの例
+#### <a name="examples-of-call-routes"></a>通話ルートの例
 
-次の例では、ルート、PSTN の使用法、およびルーティング ポリシーを構成する方法について説明し、ユーザーにポリシーを割り当てます。
+次の例では、ルート、PSTN の使用状況、ルーティングポリシーを構成する方法を示しています。これにより、ポリシーがユーザーに割り当てられます。
 
-**手順 1:** PSTN 使用法] 米国およびカナダ」を作成します。
+**手順 1:**「US とカナダ」という PSTN の使用を作成します。
 
-ビジネス リモート PowerShell セッションを Skype では、次のように入力します。
+Skype for Business リモート PowerShell セッションで、次のように入力します。
 
 ```
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
-使用状況が入力することにより作成されたものであることを検証します。 
+次のように入力して使用が作成されたことを検証します。 
 ```
 Get-CSOnlinePSTNUsage
 ``` 
-切り捨てられる可能性がありますの名前の一覧を返します。
+これは、切り捨てられる可能性がある名前のリストを返します。
 ```
   Identity  : Global
   Usage     : {testusage, US and Canada, International, karlUsage. . .}
 ```
-次の例では、実行中の結果を確認できます PowerShell コマンド`(Get-CSOnlinePSTNUsage).usage`(切り捨てではない) 完全な名前を表示します。 
+次の例では、PowerShell コマンド`(Get-CSOnlinePSTNUsage).usage`を実行して完全な名前を表示できます (トランケートされません)。 
 <pre>
  testusage
  US and Canada
@@ -305,16 +305,16 @@ Get-CSOnlinePSTNUsage
  Two trunks
 </pre>
 
-**手順 2:** ビジネス オンラインの Skype の PowerShell セッションで次の 3 つのルートを作成: 上記の表に示すとおり、レッドモンド 1、2、およびその他の +1 のレドモンド。 
+**手順 2:** Skype for Business Online の PowerShell セッションで、前の表で説明したように、Redmond 1、レドモンド2、その他の + 1 の3つのルートを作成します。 
 
-「Redmond 1」のルートを作成するには、次コマンドを入力します。
+"Redmond 1" ルートを作成するには、次のように入力します。
 
   ```
   New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
-返します。
+戻り値:
 <pre>
 Identity                : Redmond 1
 Priority            : 1
@@ -326,14 +326,14 @@ Name            : Redmond 1
 SuppressCallerId    :
 AlternateCallerId   :
 </pre>
-レドモンド 2 ルートを作成するには、次のコマンドを入力します。
+レドモンド2ルートを作成するには、次のように入力します。
 
 ```
 New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc3.contoso.biz, sbc4.contoso.biz -Priority 2 -OnlinePstnUsages "US and Canada"
 ```
 
-+1 で他のルートを作成するには、次のコマンドを入力します。
+他の + 1 ルートを作成するには、次のように入力します。
 
 ```
 New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
@@ -341,23 +341,23 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 ```
 
   > [!CAUTION]
-  > [NumberPattern] 属性には、正規表現が有効な式であることを確認してください。 この web サイトを使用することをテストすることができます。[https://www.regexpal.com](https://www.regexpal.com)
+  > 数値 Pattern 属性の正規表現が有効な式であることを確認します。 次の web サイトを使ってテストできます。[https://www.regexpal.com](https://www.regexpal.com)
 
-場合によっては、同じの SBC はすべての呼び出しをルーティングする必要があります。-NumberPattern を使用してください」. *"
+場合によっては、すべての通話を同じ SBC にルーティングする必要があります。-番号パターン ". *" を使用してください。
 
-- 同じ SBC へのすべての呼び出しをルーティングします。
+- すべての通話を同じ SBC にルーティングする
 
     ```
     Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
-正しく構成したルートを実行して、検証、 `Get-CSOnlineVoiceRoute` PowerShell コマンドのようにオプションを使用します。 
+次の`Get-CSOnlineVoiceRoute`ようなオプションを使用して PowerShell コマンドを実行して、ルートが正しく構成されていることを確認します。 
 
 ```
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
-次の項目を返す必要があります。
+戻り値:
 <pre>
 Identity            : Redmond 1 
 Priority            : 1
@@ -383,17 +383,17 @@ OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
 </pre>
 
-例では、ルート「その他の +1」が 4 の優先順位を自動的に割り当てられます。 
+この例では、ルート "Other + 1" は優先度4を自動的に割り当てられています。 
 
-**手順 3:**「私たちだけ」音声ルーティング ポリシーを作成し、「米国とカナダ」PSTN の使用法をポリシーに追加
+**手順 3:** ボイスルーティングポリシーを「US 専用」にして、「US とカナダ」という PSTN 使用のポリシーに追加します。
 
-ビジネス オンラインの Skype の PowerShell セッションで次のように入力します。
+Skype for Business Online の PowerShell セッションで、次のように入力します。
 
 ```
 New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 ```
 
-結果は、次の使用例で示されます。
+結果は、次の例のように表示されます。
 
 <pre>
 Identity        : Tag:US only
@@ -402,75 +402,75 @@ Description         :
 RouteType           : BYOT
 </pre>
 
-**手順 4:** PowerShell を使用して、音声ルーティング ポリシーを Spencer 低のユーザーに付与します。
+**手順 4:** Spencer には、PowerShell を使用してボイスルーティングポリシーを低いユーザーに付与します。
 
-- ビジネス オンラインの Skype の PowerShell セッションで次のように入力します。
+- Skype for Business Online の PowerShell セッションで、次のように入力します。
 
     ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
 
-- このコマンドを入力して、ポリシーの割り当てを検証します。
+- このコマンドを入力して、ポリシーの割り当てを確認します。
 
 ```
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
-返します。
+戻り値:
 <pre>
     OnlineVoiceRoutingPolicy
     ---------------------
     US Only
 </pre>
 
-#### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>PSTN 使用法のいくつかの音声ルーティング ポリシーを作成します。
+#### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>複数の PSTN 使用を使用した音声ルーティングポリシーの作成
 
-音声ルーティング ポリシーを作成以前のみでは、米国およびカナダ - 電話番号への呼び出し Microsoft の計画を呼び出してライセンスがユーザーにも割り当てられている場合を除き、します。
+以前に作成した音声ルーティングポリシーでは、米国とカナダでの電話番号への通話のみが許可されています。 Microsoft 通話プランライセンスもユーザーに割り当てられている場合を除きます。
 
-次の例で作成できます音声ルーティング ポリシー「制限なし」です。 ポリシーは、米国およびカナダで新しい PSTN 使用法国際。」と、前の例では、作成した PSTN 使用法を再利用します。 
+次の例では、"制限なし" という音声ルーティングポリシーを作成できます。 このポリシーでは、前の例で作成した PSTN の使用状況 "US and カナダ" も再利用され、新しい PSTN の利用状況 "国際" が使用されます。 
 
-これは、SBCs の sbc2.contoso.biz と sbc5.contoso.biz に他のすべての呼び出しをルーティングします。 示されている例を付ける [Spencer 低"のユーザーにポリシー米国のみと制限のないユーザー「John 森」です。
+これにより、すべての通話が SBCs sbc2.contoso.biz と sbc5.contoso.biz にルーティングされます。 以下の例では、ユーザー "John 森" に米国限定のポリシーが割り当てられていないことを示しています。
 
-Spencer 低: 米国およびカナダの番号にのみ許可される呼び出しです。 レドモンドの番号の範囲を呼び出すと、SBC の特定のセットを使用する必要があります。 計画を呼び出してライセンスがユーザーに割り当てられている場合を除き、米国以外の数値はルーティングされません。
+Spencer 安値–米国とカナダの番号のみに許可されています。 Redmond の番号範囲に発信する場合は、特定の SBC のセットを使用する必要があります。 米国以外の番号は、通話プランライセンスがユーザーに割り当てられていない限り、ルーティングされません。
 
-ジョンの森 – 呼び出しは、任意の数を許可しました。 レドモンドの番号の範囲を呼び出すと、SBC の特定のセットを使用する必要があります。 米国以外の番号は、sbc2.contoso.biz と sbc5.contoso.biz を使用してルーティングされます。
+John 森–任意の番号に通話を発信できます。 Redmond の番号範囲に発信する場合は、特定の SBC のセットを使用する必要があります。 米国以外の番号は、sbc2.contoso.biz と sbc5.contoso.biz 経由でルーティングされます。
 
-![Spencer 低のユーザーに割り当てられている音声のルーティング ポリシーを示しています。](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
+![ユーザー Spencer Low に割り当てられている音声ルーティングポリシーを表示します](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-他のすべての呼び出しでは、ユーザーは、(マイクロソフトの電話システムと Microsoft の計画を呼び出す)、両方のライセンスを持っている場合、自動工順が使用されます。 何もには、管理者が作成したオンラインでのボイス ルートの番号のパターンが一致すると、Microsoft の計画を呼び出すを使用してルーティングします。
+その他のすべての通話では、ユーザーに両方のライセンス (Microsoft Phone システムと Microsoft 通話プラン) がある場合、自動ルートが使用されます。 管理者が作成したオンラインボイスルートの番号パターンと一致しない場合は、Microsoft 通話プランを使ってルーティングします。
 
-ユーザーは、マイクロソフトの電話システムのみがある、一致する規則がないために、呼び出しが切断されます。
+ユーザーが Microsoft 電話システムのみを使用している場合は、一致するルールがないため、通話が切断されます。
 
-![音声ルーティング ポリシーのユーザー John の森に割り当てられているを示しています。](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
+![ユーザー John 森に割り当てられているボイスルーティングポリシーを示しています](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
-次の表は、ルーティング ポリシー「制限なし」の使用の指定、およびボイス ルートをまとめたものです。 
+次の表は、ルーティングポリシーの "制限なし" を使用しています。 
 
-|**PSTN 使用法**|**ボイス ルート**|**番号パターン**|**[Priority]**|**SBC**|**説明**|
+|**PSTN 使用法**|**ボイスルート**|**番号パターン**|**[Priority]**|**SBC**|**説明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|米国のみ|「Redmond 1」|^\\+1 (425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|+1 425 XXX XX XX または +1 206 XXX XX XX 番号が呼び出し先の有効な工順|
-|米国のみ|"Redmond 2"|^\\+1 (425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|+1 425 XXX XX XX または +1 206 XXX XX XX 番号が呼び出し先のバックアップ ルート|
-|米国のみ|「その他の +1」|^\\+1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>.contoso.biz|呼び出し先のルートの番号 +1 XXX XXX の XX XX (+1 425 XXX XX XX または +1 206 XXX XX XX) を除く|
-|International|International|\d+|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任意の番号のパターンのルート |
+|米国限定|"レドモンド 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼び出し先の番号 + 1 425 XXX XX XX または + 1 206 XXX XX xx のアクティブルート|
+|米国限定|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼び出し先の番号のバックアップルート + 1 425 XXX XX XX または + 1 206 XXX XX xx|
+|米国限定|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>|呼び出し先の番号のルーティング + 1 XXX XXX XX XX (+ 1 425 XXX XX xx または + 1 206 XXX XX xx)|
+|International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任意の番号パターンのルート |
 
 
   > [!NOTE]
-  > - 音声ルーティング ポリシーの PSTN 使用法の順序は重要です。 順番については、使用法が適用され、最初の使用で一致が見つかった場合、その他の方法は評価されません。 PSTN 使用法「国際」する必要があります後に配置される PSTN 使用法」ことだけです」 PSTN 使用法の順序を変更するには、実行、`Set-CSOnlineVoiceRoutingPolicy`コマンドです。 <br/>たとえば、米国およびカナダからの順序を変更する順序とは逆に国際化し、最初の 2 番目を実行します。<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
- > - 「その他の +1」と「国際」ボイス ルートの優先順位は自動的に割り当てられます。 「Redmond 1」と「レドモンド 2」よりも低い優先順位がある限り、問題でない
+  > - ボイスルーティングポリシーの PSTN 使用の順序は重要です。 使用状況は順番に適用され、最初の使用で一致が見つかった場合は、他の使用法は評価されません。 PSTN の使用は、PSTN の使用の後に「米国専用」として設定する必要があります。 PSTN の使用順序を変更するには、 `Set-CSOnlineVoiceRoutingPolicy`コマンドを実行します。 <br/>たとえば、"US" と "カナダ" の順序を "第 1" と "海外" の順に変更するには、次のようにします。<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+ > - "Other + 1" と "海外" のボイスルートの優先度は、自動的に割り当てられます。 "Redmond 1" と "レドモンド 2" よりも優先順位が低い場合は、問題ありません。
 
-#### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>ユーザー John の森の音声ルーティング ポリシーの例
+#### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>ユーザー John 森のボイスルーティングポリシーの例
 
-PSTN 使用法「国際」を作成する手順はルーティング ポリシー制限のなし」、「音声ボイス ルート「国際」とは、次ように、それを「ジョンの森"のユーザーに割り当てます。
+PSTN の使用方法として、"インターナショナル"、音声ルート "インターナショナル"、"ボイスルーティングポリシー" (制限なし)、ユーザーを "John 森" に割り当てる手順は次のとおりです。
 
 
-1. 国際「PSTN 使用法を最初に、作成 ビジネス オンラインの Skype のリモート PowerShell セッションで次のコマンドを入力します。
+1. まず、PSTN の使用状況として「国際」を作成します。 Skype for Business Online のリモート PowerShell セッションで、次のように入力します。
 
    ```
    Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
    ```
 
-2. 国際"次に、新しいボイス ルートを作成します。
+2. 次に、[国際] という新しいボイスルートを作成します。
 
    ```
    New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
    ```
-   返します。
+   戻り値:
 
    <pre>
    Identity                  : International 
@@ -483,7 +483,7 @@ PSTN 使用法「国際」を作成する手順はルーティング ポリシ�
    SuppressCallerId          :
    AlternateCallerId         :
    </pre>
-3. 次に、「制限なし」の音声ルーティング ポリシーを作成します。 "+1 425 XXX XX XX"とローカルとして「+1 206 XXX XX XX」の番号への呼び出しまたはオンプレミス呼び出しの特別な処理を保持するにはこの音声ルーティング ポリシーでは、PSTN の使用法"Redmond 1"と"Redmond"が再利用されます。
+3. 次に、「制限なし」という音声ルーティングポリシーを作成します。 PSTN の利用状況 "レドモンド 1" と "Redmond" は、電話番号 "+ 1 425 XXX XX XX" と "+ 1 206 XXX XX XX" への通話に対する特別な処理を、ローカルまたはオンプレミスの通話として維持するために、この音声ルーティングポリシーで再利用されています。
 
 ```
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
@@ -497,7 +497,7 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
 
-   返します。
+   戻り値
 
   <pre>
    Identity     : International 
@@ -506,18 +506,18 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    RouteType        : BYOT
   </pre>
 
-4. ユーザー「John 森」次のコマンドを使用するには、音声ルーティング ポリシーを割り当てます。
+4. 次のコマンドを使用して、ボイスルーティングポリシーをユーザーの "John 森" に割り当てます。
 
    ```
    Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
    ```
 
-   コマンドを使用して割り当てを確認します。 
+   次に、コマンドを使用して課題を確認します。 
 
    ```
    Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
    ```
-   返します。
+   戻り値:
 
 <pre>
     OnlineVoiceRoutingPolicy
@@ -525,11 +525,11 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
     No Restrictions
 </pre>
 
-結果は、ジョンの森の呼び出しに適用されるボイス ポリシーは制限はないと、米国、カナダ、および国際通話に使用できる通話のルーティングのロジックを実行します。
+結果として、John 森の通話に適用されるボイスポリシーは無制限であり、米国、カナダ、国際通話で利用可能な通話ルーティングのロジックに従うことになります。
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>マイクロソフトのチームを優先する呼び出し元クライアントとユーザーの設定します。
+## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>ユーザーの優先発信クライアントとして Microsoft Teams を設定する
 
-直接ルーティング ルートのみを呼び出しのユーザーとの間のチームのクライアントを使用する場合。 のみ、組織には、チームが使用しているチームのみ] 設定モードでのアップグレードのポリシーを推奨します。 詳細については次の資料を参照してくださいし、適切なオプションを選択する組織は、オンライン ビジネスのビジネス サーバーまたは Skype の Skype を使用する場合:[共存を理解しビジネスとチームの Skype の旅をアップグレード](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)します。 
+[直接ルーティング] は、チームクライアントを使用しているユーザーとの間でのみ、通話をルーティングします。 組織で Teams のみを使用している場合は、アップグレードポリシーで [チームのみ] モードを設定することをお勧めします。 組織で Skype for Business Server または Skype for Business Online を使用している場合は、次の記事を参照してください。詳細については、「[共存とアップグレードに](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)ついて」を参照してください。 
 
 
 ## <a name="see-also"></a>関連項目

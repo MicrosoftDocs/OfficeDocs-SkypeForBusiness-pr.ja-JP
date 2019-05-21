@@ -4,24 +4,24 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 場合は、従来の配置には、ビジネス サーバー 2019 の Skype に移行した後のアーカイブ サーバーまたは監視サーバーが含まれているの残りの従来のプールから削除されたすべてのユーザーに提供されるこれらのサーバーは、従来の環境から削除できます。 任意のシーケンスでは、アーカイブ サーバーまたは監視サーバーを削除できます。 重要な要件は、すべてのユーザーが、残りの従来のプールから削除されていることです。
-ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 従来の展開にアーカイブサーバーまたは監視サーバーが含まれている場合、Skype for Business Server 2019 に移行した後、これらのサーバーは、すべてのユーザーが残っている従来のプールから削除された、従来の環境から削除することができます。 アーカイブサーバーまたは監視サーバーは、任意の順序で削除できます。 主要な要件は、すべてのユーザーが残っている従来のプールから削除されていることです。
+ms.openlocfilehash: 918e04bb42853f0203ae8a2a56db5e640985af99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231424"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301126"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>従来のアーカイブ サーバーおよび監視サーバーの削除
 
-場合は、従来の配置には、ビジネス サーバー 2019 の Skype に移行した後のアーカイブ サーバーまたは監視サーバーが含まれている、それらのサーバーを従来の環境から削除、残りの従来のプールから削除されたすべてのユーザーに提供できます。 任意のシーケンスでは、アーカイブ サーバーまたは監視サーバーを削除できます。 重要な要件は、すべてのユーザーが、残りの従来のプールから削除されていることです。
+従来の展開にアーカイブサーバーまたは監視サーバーが含まれている場合、Skype for Business Server 2019 に移行した後、これらのサーバーは従来の環境から削除できます。すべてのユーザーが残っている従来のプールから削除されています。 アーカイブサーバーまたは監視サーバーは、任意の順序で削除できます。 主要な要件は、すべてのユーザーが残っている従来のプールから削除されていることです。
   
-ビジネス サーバー 2019 に記載されている手順に従って、Skype にユーザーを移動できます[フェーズ 4: パイロット プールにテスト ユーザーの移動](phase-4-move-test-users-to-the-pilot-pool.md)。
+[「フェーズ 4: テストユーザーをパイロットプールに移動](phase-4-move-test-users-to-the-pilot-pool.md)する」で説明されている手順に従って、ユーザーを Skype For business Server 2019 に移動することができます。
   
-した後は、すべてのユーザーは、残りのプール、decommision、サーバーから削除されているし、ロールの削除を確認しました。 A は、次の日、ですが、関連性の例は、「をアンインストールする Microsoft Lync サーバーとを削除するサーバーの役割」でダウンロードできる[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227)。
+すべてのユーザーが残りのプールから削除されたことを確認した後、サーバーを decommision し、役割を削除します。 意味のあるものの、"Microsoft Lync Server をアンインストールしてサーバーの役割を削除してい[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227)ます" という例として、ダウンロード可能なものがあります。
   
 

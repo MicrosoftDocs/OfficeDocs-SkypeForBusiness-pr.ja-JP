@@ -1,42 +1,42 @@
 ---
-title: Skype のビジネス サーバーの診断レポートを呼び出す
+title: Skype for Business Server で診断レポートを発信する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
-description: '概要: は、Skype のビジネスのサーバーが使用する、マルチ ユーザーの呼び出しの診断レポートについて説明します。'
-ms.openlocfilehash: 95bc7b67b1ff2c15fb1e87fb11d3e93f154081b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で使用されているマルチユーザー通話診断レポートについて説明します。'
+ms.openlocfilehash: bd7205afcc6bb37f336b52a6f33c6f2265d151bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903349"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289365"
 ---
-# <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Skype のビジネス サーバーの診断レポートを呼び出す
+# <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Skype for Business Server で診断レポートを発信する
  
-**の概要:** Skype のビジネスのサーバーが使用する、マルチ ユーザーの呼び出しの診断レポートについて説明します。
+**概要:** Skype for Business Server で使用されているマルチユーザー通話診断レポートについて説明します。
   
 通話診断レポートは、エラーが発生したピアツーピア セッションと電話会議セッションに関する概要情報と診断データを提供します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [ビジネス サーバーの Skype での診断の概要レポートを呼び出す](summary-report.md)失敗したピア ツー ピア セッションや会議セッションの概要を記載します。 ピア ツー ピア セッションとは、2 つの関係者が関与するセッションです。 会議セッションには、3 つ以上の関係者が関与します。
+- [Skype For Business Server の通話診断の概要レポート](summary-report.md)ピアツーピアセッションと会議セッションの失敗に関する全体的な概要を説明します。 ピアツーピアセッションは、2人の参加者に関連するセッションです。 会議セッションには3人以上の参加者が関係します。
     
-- [ビジネス サーバーの Skype でのピア ツー ピア アクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)失敗したピア ツー ピア セッションの全体の傾向のビューを提供します。 ピア ツー ピア セッションには、2 つの参加者が含まれます。
+- [Skype For Business Server のピアツーピアアクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)失敗したピアツーピアセッションの全体的な傾向ビューを提供します。 ピアツーピアセッションには、2人の参加者のみが関係します。
     
-- [ビジネス サーバーの Skype での会議診断レポート](conference-diagnostic-report.md)各会議のモーダルかどうかの障害が発生した会議セッションの全体の傾向の表示とトレンドのビューを提供します。 会議セッションには、少なくとも 3 人の参加者が含まれます。
+- [Skype For Business Server の会議の診断レポート](conference-diagnostic-report.md)失敗した会議セッションと、各会議モードのトレンドビューについての全体的なトレンドビューを提供します。 会議セッションには、少なくとも3人の参加者が関係します。
     
-- [Skype ビジネス サーバーの最上位のエラー レポート](top-failures-report.md)時間の経過とともに、最も頻繁に障害が発生し、その傾向の一覧を提供します。
+- [Skype For Business Server の上位のエラーレポート](top-failures-report.md)最も頻繁に発生するエラーの一覧と、時間の経過に伴う傾向を示します。
     
-- [ビジネス サーバーの Skype でのエラー分布レポート](failure-distribution-report.md)失敗したセッションの分析を提供します。
+- [Skype For Business Server のエラー配布レポート](failure-distribution-report.md)失敗したセッションの分析を提供します。
     
-- [Skype ビジネス サーバー用のエラー] ボックスの一覧レポート](failure-list-report.md)障害が発生した会議に関連する個々 の参加者についての詳細な情報を提供します。
+- [Skype For Business Server のエラーリストレポート](failure-list-report.md)失敗した会議に参加している個々の参加者に関する詳細情報を提供します。
     
-- [Skype ビジネス サーバーの診断レポート](diagnostic-report.md)失敗したセッションの診断およびトラブルシューティングの情報 (SIP 応答コード、診断ヘッダー Id など) を提供します。
+- [Skype For Business Server の診断レポート](diagnostic-report.md)失敗したセッションの診断とトラブルシューティングの情報 (SIP 応答コード、診断ヘッダー、IDs など) について説明します。
     
 

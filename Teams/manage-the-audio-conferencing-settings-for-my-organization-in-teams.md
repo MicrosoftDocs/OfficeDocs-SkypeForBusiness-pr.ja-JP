@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: 201da13370852b6506fe7aa32f695d973bcc637a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
-ms.translationtype: HT
+ms.openlocfilehash: 593987c6de3f6245afcdd7221fa7130a511d9f77
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202766"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291012"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -38,13 +38,13 @@ ms.locfileid: "32202766"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> Teams を使用してライセンスを割り当てることはできません。 Office 365 管理センターを使用する必要があります。 [Skype for Business と Microsoft Teams のライセンスを割り当てる](assign-teams-licenses.md)を参照してください。 
+> Teams を使用してライセンスを割り当てることはできません。 Microsoft 365 管理センターを使用する必要があります。 [Skype for Business と Microsoft Teams のライセンスを割り当てる](assign-teams-licenses.md)を参照してください。 
   
  **ユーザーにライセンスを割り当てる**
   
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場または学校のアカウントを使用して、Microsoft 365 にサインインします。
     
-2. 次に [ **編集**]、[ **次へ**] を 2 回クリックし、ライセンスを選択して、[  > ] をクリックします。****
+2. **Microsoft 365 管理センター**の左のナビゲーションで、[**ユーザー** > の**アクティブな**ユーザー] に移動し、利用可能なユーザーのリストからユーザー (複数可) を選びます。
     
     > [!NOTE]
     > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 次に [**編集**]、[**次へ**] を 2 回クリックしてからライセンスを選択し、[**送信**] をクリックします。  

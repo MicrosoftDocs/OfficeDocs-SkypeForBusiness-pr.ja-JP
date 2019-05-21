@@ -10,52 +10,52 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: 'このレポートとは、ビジネス レポートの場合は、他の Skype によって、PSTN の使用法を含む、組織全体での活動の詳細情報が表示します。 '
-ms.openlocfilehash: 2cd12c19911df796ae33bd841e8fd15b987cf366
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'このレポートと他の Skype for Business レポートを使用すると、組織全体の PSTN 利用状況などのアクティビティについて詳しく知ることができます。 '
+ms.openlocfilehash: b94245c3526011a10ddb417357bf2516968f7773
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239841"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299574"
 ---
 # <a name="users-blocked-report"></a>ブロックされているユーザーのレポート
 
-ビジネス**レポート**のダッシュ ボードの新しい Skype によって、組織内のビジネス製品の Skype 経由でアクティビティの概要がわかります。 各製品内のアクティビティに関するより詳細な洞察を提供する個々 の製品レベルのレポートへドリルすることができます。 たとえば、 **Skype**がブロックされているビジネス ユーザーのレポートを使用すると、PSTN の呼び出しからブロックされている、組織内のユーザーを参照してください。 このレポートとは、ビジネス レポートの場合は、他の Skype によって、PSTN の使用法を含む、組織全体での活動の詳細情報が表示します。
+新しい Skype for Business**レポート**ダッシュボードには、組織内の Skype for business 製品全体でのアクティビティの概要が表示されます。 個々の製品レベルレポートにドリルインして、各製品内のアクティビティについて、より詳細な洞察を得ることができます。 たとえば、 **Skype For business ユーザーがブロック**されたレポートを使って、PSTN 通話の発信をブロックされている組織内のユーザーを確認できます。 このレポートと他の Skype for Business レポートを使用すると、組織全体の PSTN 利用状況などのアクティビティについて詳しく知ることができます。
   
- 利用可能な他のレポートの[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
+ 利用可能なその他のレポートについては、 [「レポートの概要」](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
   
 > [!NOTE]
-> 管理者として Office 365 の管理センターにサインインするときに、ビジネス レポートの Skype のすべてを表示できます。 
+> 管理者として Office 365 管理センターにサインインすると、すべての Skype for Business レポートを表示できます。 
   
-## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>ビジネス ユーザー向け Skype を取得する方法は、レポートをブロックします。
+## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Skype for Business ユーザーがブロックされたレポートにアクセスする方法
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
-- **Office 365 管理センター**を参照して > **管理センター** > **ビジネス管理センターの Skype** > **レポート** > **のユーザーがブロックされています**。
+- **Office 365 管理センター** > **管理** > センター**の Skype for business 管理センター** > の**レポート** > **ユーザーがブロック**された場合に移動します。
     
-## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Skype のビジネス ユーザーがブロックされているレポートを解釈します。
+## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Skype for Business ユーザーがブロックしたレポートを解釈する
 
-禁止されているユーザーにビューを取得するには、各列に表示されます。
+表示されている各列を見ると、ブロックしたユーザーを表示できます。
   
 レポートは、このように表示されます。 
   
-![禁止されているユーザーのレポート](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
+![ブロックされたユーザレポート](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
-テーブルでは、呼び出しからブロックされているユーザーのすべての分類を示します。 電話システムまたはそれらに割り当てられた電話会議を持っているすべてのユーザーが表示されます。 表では、列を追加したり、削除したりすることができます。
+この表には、通話の発信をブロックされているすべてのユーザーの内訳が表示されます。 これには、電話会議が割り当てられているすべてのユーザーが表示されます。 表では、列を追加したり、削除したりすることができます。
 ***
 ![ナンバー 1](../images/sfbcallout1.png)
-*   **ユーザー ID**は、ユーザーのサインインには。
+*   **ユーザー ID**は、ユーザーのサインインです。
 *   **電話番号**は、ユーザーに割り当てられている番号です。 
-*   **ブロック操作**は、呼び出しを行うユーザーがブロックされた時刻 (UTC) です。
-*   **ブロック操作**は、ユーザーを禁止するのには実行されたアクションの種類です。
-*   **ブロック アクションの理由**は、ユーザーは、呼び出しでブロックされています理由です。
+*   [**ブロックアクション時間**] は、ユーザーが発信をブロックされた時刻 (UTC) です。
+*   **ブロックアクション**は、ユーザーをブロックするために実行されたアクションの種類です。
+*   [**ブロックアクションの理由**」は、ユーザーが発信をブロックされた理由です。
 ***
 ![ナンバー 2](../images/sfbcallout2.png)<br/>
 1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。
@@ -63,7 +63,7 @@ ms.locfileid: "32239841"
 ![ナンバー 3](../images/sfbcallout3.png)<br/>
 また、[ **Excel にエクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。
 
-これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 2000 未満のユーザーをした場合は、並べ替えし、フィルター処理、レポート内のテーブル内でします。 ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。
+これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 ユーザー数が2000より少ない場合は、レポート内のテーブル内で並べ替えとフィルター処理を行うことができます。 ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。
 ***
 
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Skype for Business のその他のレポートを表示しますか?
@@ -74,15 +74,15 @@ ms.locfileid: "32239841"
     
 - [Skype for Business 電話会議開催者アクティビティ レポート](conference-organizer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、Web、ダイヤルイン/アウト - サード パーティ、ダイヤルイン/アウト - Microsoft を使用した電話会議を開催しているかを確認できます。
     
-- [Skype ビジネス会議参加者の設定アクティビティのレポートを](conference-participant-activity-report.md)何 IM、オーディオとビデオ、アプリケーションの共有を参照してください、Web やダイアル ・ イン/アウトの会議の会議が参加しています。
+- [Skype For business 電話会議参加者アクティビティレポート](conference-participant-activity-report.md)参加している IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/ダイヤルアウト会議の数を確認できます。
     
 - [Skype for Business ピアツーピア アクティビティ レポート](peer-to-peer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。
     
-- [Skype ビジネス PSTN の使用状況レポート](pstn-usage-report.md)送信/受信の呼び出しに費やされ、これらの呼び出しのコストの数分の数を表示できます。
+- [Skype For BUSINESS PSTN 使用状況レポート](pstn-usage-report.md)通話の着信/発信に費やした時間 (分) を確認することができます。
 
-- [Skype](pstn-minute-pools-report.md)ビジネス PSTN 分プール レポートの現在の月に、組織内で消費される時間を分単位を表示できます。
+- [Skype For BUSINESS PSTN 分単位のプールレポート](pstn-minute-pools-report.md)には、組織内の現在の月に消費された分数が表示されます。
 
-- [Skype ビジネス セッション詳細レポート](session-details-report.md)個々 のユーザーの呼び出しの経験についての詳細を表示できます。
+- [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
    
 ## <a name="related-topics"></a>関連トピック
 [Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

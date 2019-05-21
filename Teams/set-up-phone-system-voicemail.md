@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,61 +20,61 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'ユーザーのクラウドのボイスメールを設定する方法について説明します。 '
-ms.openlocfilehash: 827c52bf526ba84e4f571102354a096e2dc8e2f4
-ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
+description: 'ユーザーにクラウドボイスメールをセットアップする方法について説明します。 '
+ms.openlocfilehash: bff4de7ed77ae7168e6daacf258e73dbc17a736a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33882870"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298672"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
-この資料では、すべてのユーザーのビジネスでのクラウドのボイスメール機能を設定する必要のある[Office 365 の管理者用](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)の。
+この記事は、社内のすべてのユーザーにクラウドボイスメール機能を設定する必要がある[Office 365 管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)を対象としています。
 
 > [!NOTE]
-> クラウド ボイスメールでは、Exchange のメールボックスにのみデポジットのボイスメール メッセージをサポートし、任意のサード ・ パーティ製の電子メール システムをサポートしていません。 
+> クラウドボイスメールでは、Exchange メールボックスでのボイスメールメッセージのデポジットのみがサポートされ、サードパーティのメールシステムはサポートされません。 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>クラウドのみの環境: クラウドのボイスメールを設定します
+## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>クラウドのみの環境: クラウドボイスメールをセットアップする
 
-オンライン ビジネスの計画を呼び出すユーザーの Skype は、クラウドのボイスメールが自動的に設定し、についてと電話番号の**電話システム**のライセンスを割り当てるには、ユーザーの準備します。
+Skype for Business Online と通話プランのユーザーには、**電話システム**のライセンスと電話番号を割り当てた後で、クラウドボイスメールが自動的に設定され、ユーザーに提供されます。
   
-1. 電話システム機能がプランに含まれていない場合は、 **電話システム** アドオン ライセンスの購入が必要になることがあります。 Exchange Online ライセンスの購入も必要になる可能性があります。 [マイクロソフト チームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
+1. 電話システム機能がプランに含まれていない場合は、 **電話システム** アドオン ライセンスの購入が必要になることがあります。 Exchange Online ライセンスの購入も必要になる可能性があります。 「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
     
-2. [割り当てまたはビジネス向けの Office 365 のライセンスを削除](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)、およびお客様のビジネス ユーザーに Exchange Online ライセンスです。 これが完了すると、メンバーはボイスメール メッセージを受信できるようになります。
+2. 一般[法人向け Office 365 のライセンスの割り当てまたは削除](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)、および組織内のユーザーへの Exchange Online ライセンスの割り当てまたは削除を行います。 これが完了すると、メンバーはボイスメール メッセージを受信できるようになります。
     
 3. ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。Windows PowerShell を使用し、下記の手順を実行することによって、所属する組織のトランスクリプションを無効にすることができます。
 
 ## <a name="phone-system-with-on-premises-environments"></a>オンプレミス環境での電話システム
 
-次の情報は、設置計画を呼び出す環境で動作するクラウドのボイス メールを構成する方法です。
+次の情報は、オンプレミスの通話プラン環境で動作するようにクラウドボイスメールを構成する方法について説明します。
   
-1. 電話システム機能がプランに含まれていない場合は、 **電話システム** アドオン ライセンスの購入が必要になることがあります。 Exchange Online ライセンスの購入も必要になります。 [マイクロソフト チームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
+1. 電話システム機能がプランに含まれていない場合は、 **電話システム** アドオン ライセンスの購入が必要になることがあります。 Exchange Online ライセンスの購入も必要になります。 「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
     
-2. [割り当てまたはビジネス向けの Office 365 のライセンスを削除](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)、およびお客様のビジネス ユーザーに Exchange Online ライセンスです。
+2. 一般[法人向け Office 365 のライセンスの割り当てまたは削除](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)、および組織内のユーザーへの Exchange Online ライセンスの割り当てまたは削除を行います。
     
-3. 設置 PSTN のユーザーに展開するソリューションの呼び出しに一致する手順に従います。 クラウド コネクタのエディションの[ビジネス クラウド コネクタのエディションについてを構成する Skype](https://technet.microsoft.com/library/mt605228.aspx)の**電話システムの音声とボイスメール サービスのユーザーを有効にする**セクション内の指示に従います。 Skype でビジネスのサーバーの呼び出しの PSTN、[設置型のエンタープライズ VoIP に対してユーザーを有効にする](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)に従ってください。 チーム直接ルーティングでは、[直接ルーティングを構成する](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)の**と電話番号の構成と有効にするエンタープライズ ボイス ボイスメール**のセクションに従ってください。
+3. ユーザーに展開されているオンプレミス PSTN 通話ソリューションと一致する指示に従ってください。 Cloud Connector Edition の場合は、「 [Skype For Business Cloud Connector エディションの構成](https://technet.microsoft.com/library/mt605228.aspx)」の「**電話システムの音声およびボイスメールサービスのユーザーを有効にする**」セクションの手順に従います。 Skype for Business Server での PSTN 通話については、「[エンタープライズボイスオンプレミスのユーザーを有効にする](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)」を参照してください。 Teams のダイレクトルーティングの場合は、「**電話番号を設定し、エンタープライズボイスメールとボイスメールを有効に**する」のセクションに従って、[ [Direct ルーティングの構成](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)] を選びます。
 
 4. ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。Windows PowerShell を使用し、下記の手順を実行することによって、所属する組織のトランスクリプションを無効にすることができます。
 
-5. ボイスメール メッセージは、Exchange のオンライン保護を経由してルーティングする SMTP 経由でのユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信を有効にするには、Exchange コネクタは、Exchange サーバーと Exchange のオンライン保護との間に正しく構成されていることを確認してください。 [メール フローを構成するコネクタを使用](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。
+5. ボイスメールメッセージは、Exchange Online Protection を介してルーティングされる SMTP 経由で、ユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信されるようにするには、exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認してください。 [コネクタを使用して、メールフローを構成](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。
 
-6. ビジネス クライアント用のあいさつ文や、Skype でボイスメールをビジュアルのカスタマイズなど、ボイスメールの機能を有効にするには、Office 365 から Exchange Web サービス経由で Exchange サーバーのメールボックスに接続する必要があります。 この接続を有効にするのには、 [Exchange および Exchange Online 組織間で認証を構成する OAuth](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)の認証プロトコルについて説明する新しい Exchange の Oauth を行う必要があります。 
+6. Skype for Business クライアントで、グリーティングのカスタマイズや、視覚ボイスメールなどのボイスメール機能を有効にするには、Exchange Web Services を使用した Office 365 から Exchange server メールボックスへの接続が必要です。 この接続を有効にするには、「 [exchange と Exchange Online 組織の間の oauth 認証を構成](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)する」で説明する新しい Exchange Oauth 認証プロトコルを構成する必要があります。 
 
 > [!NOTE]
-> Exchange 2013 CU5 から実行またはそれ以上の Exchange ハイブリッドのウィザードは、手順 5 と 6 の要件を自動的に処理します。 
+> Exchange のハイブリッドウィザードは、Exchange 2013 CU5 以降以上で実行され、手順5と6の要件を自動的に処理します。 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>組織内のボイスメール ポリシーの設定
 
 > [!WARNING]
-> お客様の Skype は、マイクロソフトのチームがポリシーを呼び出すことによってボイス メールを無効にする可能性がありますも無効にするビジネス ユーザー向けに、Skype のボイスメール サービス。
+> Skype for Business のお客様の場合、Microsoft Teams の通話ポリシーでボイスメールを無効にすると、Skype for Business ユーザーのボイスメールサービスを無効にすることがあります。
 
 既定では、すべての組織とユーザーに対して、ボイスメール トランスクリプションは有効に、トランスクリプション不適切表現マスキングは無効になっています。ただし、[Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) と [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) コマンドレットを使用してそれらを制御することができます。
 
 > [!IMPORTANT]
-> 議事録と議事録の不適切な**新しい CsOnlineVoiceMailPolicy**コマンドレットを使用してマスクの新しいポリシー インスタンスを作成することはできません。 し、**削除 CsOnlineVoiceMailPolicy**コマンドレットを使用して、既存のポリシーのインスタンスを削除することはできません。.
+> **New-csonlinevoicemailpolicy**コマンドレットを使用して、用語の書き起こしと議事録の作成のための新しいポリシーインスタンスを作成することはできません。また、 **new-csonlinevoicemailpolicy**コマンドレットを使用して既存のポリシーインスタンスを削除することはできません。.
 
-ボイスメール ポリシーを使用してユーザーのトランスクリプション設定を管理することができます。 すべての利用可能なボイスメール ポリシーのインスタンスを表示するには、 [Get CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx)コマンドレットを使用することができます。
+ボイスメール ポリシーを使用してユーザーのトランスクリプション設定を管理することができます。 利用可能なボイスメールポリシーのすべてのインスタンスを表示するには、 [new-csonlinevoicemailpolicy](https://technet.microsoft.com/library/mt798311.aspx)コマンドレットを使用します。
 
  **PS C:\\> Get-CsOnlineVoicemailPolicy**
   
@@ -98,7 +98,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>ユーザーのトランスクリプションをオフにする
 
-ユーザー ポリシーは組織の既定の設定より前に評価されます。 などのすべてのユーザーは、ボイスメールの議事録が有効である場合は、[許可 CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx)コマンドレットを使用して特定のユーザーの議事録作成を無効にするポリシーを割り当てることができます。
+ユーザー ポリシーは組織の既定の設定より前に評価されます。 たとえば、すべてのユーザーに対してボイスメールの議事録が有効になっている場合は、 [new-csonlinevoicemailpolicy](https://technet.microsoft.com/library/mt798309.aspx)コマンドレットを使用して、特定のユーザーに対して議事録を無効にするポリシーを割り当てることができます。
 
 単一ユーザーに対するトランスクリプションを無効にするには、次を実行します。
 

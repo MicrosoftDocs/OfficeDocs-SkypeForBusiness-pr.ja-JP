@@ -12,53 +12,53 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'ユーザーおよびその他のダイヤルイン会議の設定にダイヤルイン会議のライセンスおよび会議 ID を割り当てる手順についてはオンライン ビジネスの Skype を参照してください。 '
-ms.openlocfilehash: ed5d2cb2115c47ba84dd91ebc45561aa93e4c023
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'ダイヤルイン会議ライセンスと会議 ID をユーザーとその他のさまざまなダイヤルイン会議設定に割り当てる方法については、「Skype for Business Online の手順」を参照してください。 '
+ms.openlocfilehash: 27d8ebbb524f5b03b0dc25f03b0380e5861034ac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229361"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299175"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Skype for Business Online で組織の電話会議の設定を管理する
 
 > [!NOTE]
 > Teams でこれらの設定を管理する場合は、[Microsoft Teams で組織の電話会議の設定を管理する](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) を参照してください。
 
-簡単に、すべて 1 か所でビジネス用の Skype のオーディオ会議設定の表示がある場合があります。
+Skype for Business のすべての電話会議の設定を1か所で表示した方が簡単な場合があります。
 
 
-## <a name="assign-an-audio-conferencing-license"></a>オーディオ会議のライセンスを割り当てる
+## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> You can't assign licenses using the **Skype for Business admin center**. You must use the Office 365 admin center. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> To assign a license for a user**** Office 365 管理センターを使用する必要があります。 「 [Skype For business ライセンスの割り当て](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」を参照してください。
 
- **ユーザーのライセンスを割り当てるには**
+ **ユーザーにライセンスを割り当てる**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
 2. 次に [ **編集**]、[ **次へ**] を 2 回クリックし、ライセンスを選択して、[  > ] をクリックします。****
 
     > [!NOTE]
-    > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+    > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。**** Windows Powershell を使用して、複数のユーザーにライセンスを割り当てることもできます。 手順とサンプル PowerShell スクリプトについては、「 [Skype For business ライセンスの割り当て](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」を参照してください。
 
-3. 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。
+3. [操作] ウィンドウの [**製品ライセンス**] で [**編集**] をクリックします。
 
-4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+4. [**製品ライセンス**] ページで、[**電話会議**] をオンにし、[**保存**] をクリックします。 ライセンスの詳細については、「 [Skype For business アドオンライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。
 
 > [!NOTE]
 > ユーザーに会議 ID を割り当てる
 
-## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>有効にするか、オーディオ会議のユーザーに送信された電子メールを無効にします。
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>電話会議ユーザーに送信されたメールを有効または無効にする
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
@@ -120,11 +120,11 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
     > [!IMPORTANT]
     >  After a new conference ID is created, the old conference ID can't be used by callers.[](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)[](https://go.microsoft.com/fwlink/?LinkID=626047)[](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
 
-[ユーザーの会議 ID のリセット](reset-a-conference-id-for-a-user.md)を参照してください。
+「[ユーザーの会議通話 ID をリセットする](reset-a-conference-id-for-a-user.md)」を参照してください。
 
-## <a name="reset-a-conference-organizers-pin"></a>会議開催者の PIN をリセットする
+## <a name="reset-a-conference-organizers-pin"></a>会議通話の開催者の PIN をリセットする
 
-Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
+ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。 会議通話 ID は自動的に作成されユーザーに割り当てられますが、ユーザーは使わないため特定の番号に設定しようと考える場合や、ユーザーが会議通話 ID を覚えられない、または紛失してしまう場合があります。 Skype for Business 管理センターと Windows PowerShell を使用して、会議 ID を表示、変更、リセットすることができます。
 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
@@ -137,9 +137,9 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
 
 リセットの直後に 1 回表示された後は、ユーザーのプロパティには PIN に代わって "*****" が表示されます。
 
-[オーディオ会議の PIN のリセット](reset-the-audio-conferencing-pin.md)を参照してください。
+「[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin.md)」を参照してください。
 
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>オーディオ会議の情報を使用して電子メールをユーザーに送信します。
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が記載された電子メールをユーザーに送信する
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
@@ -152,31 +152,31 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
     > [!NOTE]
     > この操作を行っても、電話会議の PIN はユーザーに送信されません。
 
-[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information.md) を参照してください。
+「[電話会議の情報が記載された電子メールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information.md)」を参照してください。
 
-## <a name="setting-the-phone-numbers-included-on-invites"></a>携帯電話への招待に含まれている番号を設定します。
+## <a name="setting-the-phone-numbers-included-on-invites"></a>招待に含まれる電話番号の設定
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
 2. Sign in to Office 365 with your work or school account.**** > ****
 
-3. In the left navigation, go to **Audio conferencing** > **Users**. Select the user that you want to enable for Audio Conferencing.
+3. 左側のナビゲーションで、[**電話会議** > **ユーザー**] に移動します。 電話会議用に有効にするユーザーを選びます。
 
 4. [操作] ウィンドウで、[**有料番号**] を、また許可されている場合は [**無料番号**] も設定することができます。
 
-5. **[保存]** をクリックします。
+5. [**保存**] をクリックします。
 
-[携帯電話への招待に含まれている番号の設定](set-the-phone-numbers-included-on-invites.md)を参照してください。
+「[招待状に含まれている電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」を参照してください。
 
 
-## <a name="choosing-audio-conferencing-bridge-settings"></a>オーディオ会議ブリッジの設定を選択します。
+## <a name="choosing-audio-conferencing-bridge-settings"></a>電話会議ブリッジの設定を選ぶ
 
-**呼び出し元がミーティングに参加するときは、会議の経験を設定します。**
+**発信者が会議に参加するときの会議エクスペリエンスを設定する**
 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. Sign in to Office 365 with your work or school account.**** > ****
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. Go to the **Office 365 admin center****** > .****
 
@@ -184,7 +184,7 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
 
    - **Enable meeting entry and exit notifications to be turned on** This is selected by default. However if you uncheck it, users that have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
 
-     ユーザーがビジネス アプリケーションに、Skype を使用して会議に参加し、Skype ミーティングの**オプション**] メニューの [会議の**アナウンスの人を入力するかのままにするとき**の設定を変更するときに会議ごとの単位で設定できます。
+     これは、ユーザーが Skype for Business アプリを使用して会議に参加し、会議の [Skype 会議のオプション] メニューで [**ユーザーが入力または退席したとき**の通知 **]** を変更したときに、会議ごとに設定することができます。
 
    - 「**電話会議ブリッジの設定を変更する**」をご覧ください。
 
@@ -192,11 +192,11 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
     
 Go to the Office 365 admin centerSkype for Business.[](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)
   
- **In the Skype for Business admin center, in the left navigation go to dial-in conferencingMicrosoft bridge settings.**
+ **会議の PIN の長さを設定する**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. Sign in to Office 365 with your work or school account.**** > ****
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. 既定値は 5 です。******** > ****
 
@@ -220,14 +220,14 @@ Go to the Office 365 admin centerSkype for Business.[](/MicrosoftTeams/change-th
 
     この操作を行うと、会議 ID と電話会議の番号のみが含まれるメールが送信されますが、そのメールに PIN は含まれません。
 
-    [電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information.md) を参照してください。
+    「[電話会議の情報が記載された電子メールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information.md)」を参照してください。
 
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>参照してくださいし、オーディオ会議ブリッジに (既定値) をプライマリとセカンダリ (代替) の言語を設定します。
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>電話会議ブリッジの第 1 (既定) 言語と第 2 (代替) 言語を表示、設定する
 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. Sign in to Office 365 with your work or school account.**** > ****
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. Go to the **Office 365 admin center********Skype for Business**.
 
@@ -316,21 +316,21 @@ Windows PowerShell を使用して組織レベルで管理できる複数の設�
   ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell を使い始めるには、次のトピックを参照してください。
 - Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
 
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
 
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
 
 - 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。
 
-  - [Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time.](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
 
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
 
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-    Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行[](https://go.microsoft.com/fwlink/?LinkId=294688)
+    Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [ユーザーの電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-a-user.md)
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FrontEndStartPage
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 ROBOTS: NOINDEX, NOFOLLOW
-description: このウィザードを使用すると、サイトの新しいフロント エンド プールを定義します。 各サイトには、少なくとも 1 つのエンタープライズ プールまたは Standard Edition サーバーが必要です。 ウィザードを使用して、新しいフロント エンド プールを作成するための要件についての詳細を定義して構成するフロント エンド プールを展開に関するドキュメントを参照してください。
-ms.openlocfilehash: 2e56d1495a809f804f16ce1b679c3964e664c436
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このウィザードを使用すると、サイトに新しいフロントエンドプールを定義できます。 各サイトには、少なくとも1つの Enterprise Edition プールまたは Standard Edition server が必要です。 ウィザードを使用して新しいフロントエンドプールを作成するための要件の詳細については、「展開ドキュメントでフロントエンドプールを定義して構成する」を参照してください。
+ms.openlocfilehash: b4fba5f84148f050b0b011e88014d8ed1dda9323
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919866"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306005"
 ---
 # <a name="front-end-start-page"></a>フロントエンド スタート ページ
 
-このウィザードを使用すると、サイトの新しいフロント エンド プールを定義します。 各サイトには、少なくとも 1 つのエンタープライズ プールまたは Standard Edition サーバーが必要です。 ウィザードを使用して、新しいフロント エンド プールを作成するための要件についての詳細は、展開に関するドキュメントの[定義およびフロント エンド プールを構成する](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)を参照してください。
+このウィザードを使用すると、サイトに新しいフロントエンドプールを定義できます。 各サイトには、少なくとも1つの Enterprise Edition プールまたは Standard Edition server が必要です。 ウィザードを使用して新しいフロントエンドプールを作成するための要件の詳細については、「展開ドキュメントで[フロントエンドプールを定義して構成](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)する」を参照してください。
 
 

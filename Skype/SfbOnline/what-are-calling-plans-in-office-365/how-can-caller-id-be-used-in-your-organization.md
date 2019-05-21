@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9d15d51d0044ae15b04572f0b64a21912cea720a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229889"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305435"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>組織での発信者番号の利用方法
 
@@ -49,7 +49,7 @@ ms.locfileid: "32229889"
   
 - ユーザーに割り当てられた電話番号。既定です。
     
-- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
+- Office 365 の電話番号インベントリの通話プランで*サービス*電話番号と*無料*電話番号として分類されている電話番号。 これは通常、組織の自動応答またはコール キューに割り当てられます。
     
 - 非通知に設定。
     
@@ -63,13 +63,13 @@ ms.locfileid: "32229889"
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>発信側の発信者番号通知のエンド ユーザー コントロール
 
-The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
+EnableUserOverride 属性を使用すると、単独または複数のユーザーが発信者番号通知の設定を **非通知**に変更できます。 これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。 EnableUserOverride の既定値は False です。
   
-エンド ・ ユーザーが、Skype のビジネス デスクトップ クライアントの**設定**] タブを使用して**匿名**の呼び出し元の ID を設定 (管理者によって有効になっている) 場合は、**エンド ・ ユーザーの呼び出し**を選択のすべての呼び出しの数とプロファイル情報を**は、電話を非表示を選択**.
+エンドユーザーは、Skype for Business デスクトップクライアントの [**設定**] タブを使用して、自分の発信者番号を**匿名**に設定できます。 [**エンドユーザー**に電話をかける] (管理者によって有効になっている場合)、[**すべての通話に対して電話番号とプロフィール情報を非表示にする] を選択します。**.
   
 ||||
 |:-----|:-----|:-----|
-|**Windows** <br/> |**バージョン** <br/> |**サポート** <br/> |
+|**Windows** <br/> |**バージョン** <br/> |**サポートされ** <br/> |
 |クイック実行  <br/> |2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル  <br/> |はい  <br/> |
 |クイック実行  <br/> |2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース  <br/> |はい  <br/> |
 |クイック実行  <br/> |2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル  <br/> |はい  <br/> |
@@ -78,7 +78,7 @@ The EnableUserOverride attribute enables single or multiple users to change thei
    
 ## <a name="inbound-caller-id"></a>着信側の発信者番号通知
 
-The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
+BlockIncomingCallerID 属性を使用すると、着信した PSTN 通話の発信者番号通知をブロックできます。 この属性を設定することはできますが、ユーザー設定ページではエンド ユーザーには使用できません。 また、現在はオンラインの PSTN 接続のみで使用可能です。
   
 発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](set-the-caller-id-for-a-user.md)」を参照してください。
   

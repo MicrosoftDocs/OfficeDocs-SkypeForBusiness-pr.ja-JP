@@ -1,11 +1,11 @@
 ---
-title: PSTN 使用法を新規作成または既存の編集
+title: PSTN の利用状況新規作成または既存の編集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceUsageEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 2531f182496a1a6370a72c821b76f3ec51cebec1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4f0fc2b37de94ab3b50e917cc663d1893c51e8b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924263"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305585"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN の使用法: 新規作成または現在の形式のままで編集
 
@@ -28,7 +28,7 @@ ms.locfileid: "33924263"
 
 - [Skype for Business 2015 での音声ポリシーの作成または変更と PSTN 使用法レコードの構成](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [音声ポリシーの変更し、PSTN 使用法レコードを構成します。](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [音声ポリシーを変更し、PSTN 使用状況レコードを構成する](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。
 

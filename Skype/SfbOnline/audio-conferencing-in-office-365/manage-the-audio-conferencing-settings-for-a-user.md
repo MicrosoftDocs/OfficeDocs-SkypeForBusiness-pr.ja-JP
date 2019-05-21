@@ -1,5 +1,5 @@
 ---
-title: ビジネス オンラインの Skype のユーザーの電話会議の設定を管理します。
+title: Skype for Business Online のユーザーの電話会議の設定を管理する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,40 +20,40 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 管理者としてSkype for Business Onlineの音声会議の設定 を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーの設定です。 '
-ms.openlocfilehash: 06fd99987df725e235f308af20542fa45b0286fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ee60b8fc97313e38fd680b8deb42bc991e03b0f0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229627"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290085"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>ビジネス オンラインの Skype のユーザーの電話会議の設定を管理します。
+# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Skype for Business Online のユーザーの電話会議の設定を管理する
 
 > [!Note]
-> マイクロソフトのチームでのユーザー設定を管理する場合は、[マイクロソフトのチーム内のユーザーの電話会議の設定を管理する](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)を参照してください。
+> Microsoft Teams でユーザー設定を管理する場合は、「 [Microsoft teams でユーザーの電話会議の設定を管理](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)する」を参照してください。
 
-As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
+Office 365 管理者としてSkype for Business Onlineの電話会議の設定 を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーの設定です。 組織の設定を編集する場合は、「[組織の電話会議の設定を管理](manage-the-audio-conferencing-settings-for-my-organization.md)する」を参照してください。
 
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
 2. [**管理センター**]  >  [**Skype for Business**]を選択します。
     
-3. ビジネス管理センターの Skype、**ユーザー**を選択します。
+3. Skype for Business 管理センターで、[**ユーザー**] を選びます。
     
 4. 設定を管理するユーザーを選択し、操作 ウィンドウで、**編集** をクリックして![編集 アイコンを表示します](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png)。
     
 5. 左側のナビゲーションで、 **電話会議** を選択し、ユーザーの **プロパティ**  ページで、次のいずれかを変更します。
     
-|**設定**|**説明**|
+|**]**|**説明**|
 |:-----|:-----|
-|**プロバイダー名** <br/> |リストから、プロバイダーを選択します。  <br/><br/> **注:** このテーブル内の残りの設定は、音声会議プロバイダーとして Microsoft を選択した場合にのみ適用されます。           |
-|**既定の有料電話番号** (必須) <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
-|**既定の無料電話番号** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
+|**プロバイダー名** <br/> |リストからプロバイダーを選択します。  <br/><br/> **注:** このテーブル内の残りの設定は、音声会議プロバイダーとして Microsoft を選択した場合にのみ適用されます。           |
+|**既定の有料電話番号** (必須) <br/> |これらの電話番号は、電話会議プロバイダーからサードパーティのプロバイダー用に入手したものです。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 Skype for Business および Microsoft Teams の会議出席依頼に表示する番号の書式を設定します。  <br/> |
+|**既定の無料電話番号** <br/> |これらの電話番号は、電話会議プロバイダーからサードパーティのプロバイダー用に入手したものです。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 Skype for Business および Microsoft Teams の会議出席依頼に表示する番号の書式を設定します。  <br/> |
 |**このユーザーのミーティングに参加するには、組織の Microsoft ブリッジで無料電話番号を使用できるようにします。** <br/> |フリー ダイヤル番号のユーザーに会議の参加を許可する場合は、このオプションを選択します。  <br/> |
-|**会議の情報を電子メールを送信します。** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
-|**会議 ID** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |
-|**暗証番号 (PIN)** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).  <br/> |
+|**会議情報をメールで送信する** <br/> |ユーザーに電子メールで会議 ID と電話番号とをすぐに送信する場合にのみ、このリンクをクリックします。 (PINはこのメールは含まれません。) [ユーザーに電子メールで電話会議の情報を送信する](send-an-email-to-a-user-with-their-dial-in-information.md)を参照してください。  <br/> |
+|**会議 ID** <br/> |ユーザーの会議 ID をリセットする必要がある場合は、 **リセット** を選択します。 詳細については、 [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user.md)を参照してください。  <br/> |
+|**ヒント** <br/> |ユーザーの PIN をリセットする必要がある場合は、 **リセット** を選択します。 詳細については、 [電話会議の PIN のリセット](reset-the-audio-conferencing-pin.md)を参照してください。  <br/> |
 |**認証されていない呼び出し元が会議の最初のユーザーになることを許可します。** <br/> |認証されていない呼び出し元が最初にミーティングに参加することを許可するには、このオプションを選択します。  <br/> |
 |**このユーザーの会議からのダイヤル アウトを制限** <br/> |ダイヤル アウトを国内のみに制限する場合、または会議からすべてのダイヤル  アウトを禁止したい場合、このリストでオプションを選択します。  <br/> |
   

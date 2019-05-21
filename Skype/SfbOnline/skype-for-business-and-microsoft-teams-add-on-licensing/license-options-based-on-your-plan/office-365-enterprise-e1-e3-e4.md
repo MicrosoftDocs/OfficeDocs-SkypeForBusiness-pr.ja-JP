@@ -1,5 +1,5 @@
 ---
-title: Office 365 エンタープライズ、E1、E3 および E4 の計画
+title: Office 365 Enterprise、E1、E3、E4 プラン
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,25 +20,25 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise、E1、E3、E4 プランを購入する方法について説明します。 '
-ms.openlocfilehash: 74518e09344136e399ed0307ff7bff110ac8e9d9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7b9cadab1b261c23ce98fd4b007488a54b5b15e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239232"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290058"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1、E3、および E4
 
-[Office 365 エンタープライズ E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)E4 の計画、購入済みの場合は、ビジネス機能の複数の Skype を取得する購入する必要がありますアドオン ・ ライセンスをここでは。
+すでに[Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)、 [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)、または E4 プランを購入済みの場合は、Skype for business のその他の機能を入手するために購入する必要があるアドオンライセンスを次に示します。
 
 |||
 |:-----|:-----|
 |**この機能を追加するには** <br/> |**購入する必要のあるもの** <br/> |
-|**電話会議** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**電話会議** のアドオン <br/>ライセンスを購入すると、Microsoft が電話会議プロバイダーになります。 |
-|**世界中の任意の電話番号を呼び出すことによって他のユーザーを追加するのには、会議、および会議から発信する機能には、ダイヤルインのアクセスのフリー ダイヤルの番号** <br/> |[コミュニケーション クレジット](/microsoftteams/add-funds-and-manage-communications-credits)|
-|**電話システム** <br/> |1 **office 365 の電話システム**のアドオン。 <br/> ２．通話プラン: Office 365 から [通話プラン](/MicrosoftTeams/calling-plans-for-office-365) を購入しましょう。 <br/>  または、 [現在お使いのプロバイダーから提供された電話サービス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing) を使用しましょう。  <br/> |
+|**電話会議** <br/> ダイヤルイン会議をスケジュールまたは主催しようとしているユーザーごとに、1件の**電話会議**ライセンスを購入します。 Attendees do not need licenses. <br/> |**電話会議** のアドオン <br/>ライセンスを購入すると、Microsoft が電話会議プロバイダーになります。 |
+|**会議へのダイヤルインアクセスのための無料電話番号や、世界中の電話番号に発信して誰かを追加するために会議からダイヤルアウトする機能** <br/> |[コミュニケーション クレジット](/microsoftteams/add-funds-and-manage-communications-credits)|
+|**電話システム** <br/> |1. **Office 365 電話システム**アドオン <br/> ２．通話プラン: Office 365 から [通話プラン](/MicrosoftTeams/calling-plans-for-office-365) を購入しましょう。 <br/>  または、 [現在お使いのプロバイダーから提供された電話サービス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing) を使用しましょう。  <br/> |
 |**クラウド ボイスメール** <br/> |E1 と E4 プランの場合は、Exchange Online Plan 2 を購入します。 <br/>または、Office 365 E3 などの Exchange Online Plan 2 に同梱されてくる Office Suite に切り替えます。 |
-|**通話プラン** <br/> |1**電話システム**のアドオン。 <br/> 2. [通話プラン](/MicrosoftTeams/calling-plans-for-office-365): このプランは、 **電話システム**  アドオンを購入した後にのみ購入できます。 <br/> |
+|**通話プラン** <br/> |1.**電話システム**アドオン <br/> 2. [通話プラン](/MicrosoftTeams/calling-plans-for-office-365): このプランは、 **電話システム**  アドオンを購入した後にのみ購入できます。 <br/> |
    
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>E1 と E3 のお客様: 価格の表示方法と購入方法
@@ -48,7 +48,7 @@ ms.locfileid: "32239232"
 
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
 
-   ![追加ライセンスを購入するには、アドオンの購入を選択します。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![アドオンライセンスを購入するには、[アドオンの購入] を選択します。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. **電話システム** ライセンスを購入すると、通話プランを購入するオプションと価格が表示されます。
 
@@ -57,19 +57,19 @@ ms.locfileid: "32239232"
 
 E3 プランはお持ちの Action Pack に含まれています。 **電話システム**と **電話会議**のアドオンを購入するには、次を実行します。
 
-1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
+1. Skype の[web サイト](https://go.microsoft.com/fwlink/?LinkId=24393)から E3 の1つの座席を購入します。 既存のテナントにシートに追加するためのオプションを選択します。
 
-2. Office 365 管理センターにサインインし、 **請求** > **サブスクリプション** > **アドオン** の順に進みます。
+2. Sign in to the Office 365 admin center and go to **Billing** > **Subscriptions** > **Add-ons**.
 
     これにより、 **電話システム**と **電話会議**のアドオンを購入するためのオプションと価格が表示されます。
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>アドオンを購入するオプションが表示されないのはどうしてですか?
 <a name="bkmk_how"> </a>
 
-いくつかの状況では、Skype を Office 365 の管理センターでのビジネスのアドオンを購入するためのオプションが表示されません。
+場合によっては、Office 365 管理センターで Skype for Business アドオンを購入するオプションが表示されないことがあります。
 
-- **Office 365 Business Premium を GoDaddy** から購入されています。 この例では、ビジネスのアドオンの Skype を購入することはできません。 (これは、GoDaddy を販売しません)、E3 計画に切り替えるには必要し、し、それらを購入できます。 [ビジネス製品 - 管理者ヘルプのサポートに問い合わせてください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **Office 365 Business Premium を GoDaddy** から購入されています。 この場合、Skype for Business アドオンを購入することはできません。 E3 プランに切り替える必要があります (GoDaddy は販売していません)。その後、それらを購入することができます。 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
-- **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **年間契約ではなく月単位の契約を結んでいます** 。 場合によっては、月単位の契約のユーザーはアドオンを購入いただけません (支払方法が月単位の場合は該当しません)。 これは既知の問題であり、これを修正しています。 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
     ![You may need an annual commitment to buy add-ons.](../../images/164579c2-f4df-4ae0-bd1d-bff12addb500.png)

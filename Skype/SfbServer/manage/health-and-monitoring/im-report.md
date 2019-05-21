@@ -1,31 +1,31 @@
 ---
-title: Skype ビジネス サーバーのピア ツー ピア IM レポート
+title: Skype for Business Server のピアツーピア IM レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: '概要: は、Skype のビジネス サーバーのピア ツー ピア IM レポートについて説明します。'
-ms.openlocfilehash: 8937f9b0342613ae0253fc75b1c54962bd670ed8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のピアツーピア IM レポートについて説明します。'
+ms.openlocfilehash: abe6321f6c4432270ecec325a94608d2e3117954
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926586"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305655"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Skype ビジネス サーバーのピア ツー ピア IM レポート
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Skype for Business Server のピアツーピア IM レポート
  
-**の概要:** Skype ビジネス サーバーのピア ツー ピア IM レポートについて説明します。
+**概要:** Skype for Business Server のピアツーピア IM レポートについて説明します。
   
 ピアツーピア IM レポートでは、ピアツーピア インスタント メッセージング (IM) セッションの傾向に関する情報が、プールおよび認証種類ごとに示されます。レポートでは、指定の時間内 (たとえば、日単位または時間単位) に行われたセッションの総数を表示したり、その時間内に送信されたインスタント メッセージの総数を表示したりできます。
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>ピアツーピア IM レポートへのアクセス
 
-[Skype ビジネス サーバーのピア ツー ピア アクティビティ概要レポート](peer-to-peer-activity-summary-report.md)を開き、次の測定値のいずれかをクリックするだけでは、ピア ツー ピア IM レポートにアクセスできます。
+ピアツーピアの IM レポートにアクセスするには、 [Skype For Business Server でピアツーピアアクティビティの概要レポート](peer-to-peer-activity-summary-report.md)を開いてから、次のいずれかの指標をクリックします。
   
 - ピアツーピア IM セッションの合計数
     
@@ -56,7 +56,7 @@ ms.locfileid: "33926586"
 
 |**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
-|**プール** <br/> |いいえ  <br/> |レジストラー プールまたはエッジ サーバーの名前です。  <br/> |
+|**プール** <br/> |いいえ  <br/> |レジストラープールまたはエッジサーバーの名前。  <br/> |
 |**日付/時刻** <br/> |いいえ  <br/> |セッションの発生日時。  <br/> |
 |**[合計]** <br/> |いいえ  <br/> |セッション数またはメッセージ数の合計。  <br/> |
    

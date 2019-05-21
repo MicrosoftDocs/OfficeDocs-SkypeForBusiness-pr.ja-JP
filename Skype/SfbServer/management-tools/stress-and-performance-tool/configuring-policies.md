@@ -1,122 +1,122 @@
 ---
-title: ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールは、Skype のポリシーを構成します。
+title: Skype for Business Server 2015 応力とパフォーマンスツールのポリシーを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 ms.date: 11/11/2015
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
-description: ポリシーの構成の Skype ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールです。
-ms.openlocfilehash: 330be860d4d18eb06c4c64ac225ed621ea712767
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server 2015 のストレスとパフォーマンスツールのポリシー構成。
+ms.openlocfilehash: 5c8e4c296d06c736519a12da5b5e34c6f48e9ee2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906600"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299752"
 ---
-# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールは、Skype のポリシーを構成します。
+# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 応力とパフォーマンスツールのポリシーを構成する
  
-ポリシーの構成の Skype ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールです。
+Skype for Business Server 2015 のストレスとパフォーマンスツールのポリシー構成。
   
-ビジネス サーバー 2015、ストレスおよびパフォーマンス ツールを実行する前に Skype で構成できるようにしていくつかのポリシーがあります。
+「Skype for Business Server 2015 では、ストレスとパフォーマンスのツールを実行する前に構成できるいくつかのポリシーとその他の領域があります。
   
-- [アーカイブ ・ ポリシー](configuring-policies.md#ArchivingPolicy)
+- [アーカイブポリシー](configuring-policies.md#ArchivingPolicy)
     
 - [会議ポリシー](configuring-policies.md#ConferencingPolicy)
     
-- [連絡先のポリシー](configuring-policies.md#ContactsPolicy)
+- [連絡先ポリシー](configuring-policies.md#ContactsPolicy)
     
-- [フェデレーションのポリシー](configuring-policies.md#FederationPolicy)
+- [フェデレーションポリシー](configuring-policies.md#FederationPolicy)
     
-- [受付制御ポリシーします。](configuring-policies.md#CACPolicy)
+- [通話受付制御ポリシー](configuring-policies.md#CACPolicy)
     
-- [音声ルーティングのルール](configuring-policies.md#VoiceRoutingRules)
+- [ボイスルーティングルール](configuring-policies.md#VoiceRoutingRules)
     
-- [会議アテンダント アプリケーション](configuring-policies.md#ConfAttendantApp)
+- [会議アテンダントアプリケーション](configuring-policies.md#ConfAttendantApp)
     
-- [サーバー コール パーク サービス](configuring-policies.md#ServerCallParkServ)
+- [サーバーコールパークサービス](configuring-policies.md#ServerCallParkServ)
     
-- [緊急電話番号](configuring-policies.md#EmergencyCalls)
+- [緊急通話](configuring-policies.md#EmergencyCalls)
     
-- [応答グループの構成の適用](configuring-policies.md#ConfigResponseGroupApp)
+- [応答グループアプリケーションを構成する](configuring-policies.md#ConfigResponseGroupApp)
     
-## <a name="archiving-policy"></a>アーカイブ ・ ポリシー
+## <a name="archiving-policy"></a>アーカイブポリシー
 <a name="ArchivingPolicy"> </a>
 
-ビジネス サーバー トポロジの場合、Skype で展開されたアーカイブ サーバーがあれば、ArchivingPolicy.ps1 スクリプトを検索できます。 サポートが必要なさらに、アーカイブ、Web 会議のコマンドレットをチェック アウトします。
+Skype for Business Server トポロジにアーカイブサーバーが展開されている場合は、ArchivingPolicy スクリプトを参照してください。 さらにサポートが必要な場合は、「アーカイブと Web 会議のコマンドレット」をご覧ください。
   
 ## <a name="conferencing-policy"></a>会議ポリシー
 <a name="ConferencingPolicy"> </a>
 
-会議で、MeetingPolicy.ps1 スクリプトがあります。 サポートが必要なさらに、Web 会議のコマンドレットをチェック アウトします。
+会議の場合は、"会議ポリシー. ps1" スクリプトを使います。 さらにサポートが必要な場合は、「Web 会議コマンドレット」をご覧ください。
   
-## <a name="contacts-policy"></a>連絡先のポリシー
+## <a name="contacts-policy"></a>連絡先ポリシー
 <a name="ContactsPolicy"> </a>
 
-ContactsPolicy.ps1 スクリプトを確認する必要がありますサンプルとなります。 IM とプレゼンスのコマンドレットは、さらに参照が必要な場合に役立ちます。
+ContactsPolicy スクリプトは、確認する必要があるサンプルです。 IM とプレゼンスのコマンドレットは、さらに参照が必要な場合に役立ちます。
   
-## <a name="federation-policy"></a>フェデレーションのポリシー
+## <a name="federation-policy"></a>フェデレーションポリシー
 <a name="FederationPolicy"> </a>
 
-フェデレーションで使用するサンプル スクリプトは、FederationPolicy.ps1 です。 コマンドレットを確認して、さらに深めが必要な場合は、エッジ サーバー、フェデレーション、および外部からのアクセスになります。
+フェデレーションのサンプルスクリプトは FederationPolicy です。 さらに詳しい情報が必要な場合は、確認するコマンドレットはエッジサーバー、フェデレーション、外部アクセスになります。
   
-## <a name="call-admission-control-policy"></a>受付制御ポリシーします。
+## <a name="call-admission-control-policy"></a>通話受付制御ポリシー
 <a name="CACPolicy"> </a>
 
-このポリシーの BandwidthPolicy.ps1 を参照することができます。 呼の受付制御コマンドレットは、さらに同様の情報を必要があります。
+このポリシーについては、BandwidthPolicy を参照してください。 通話受付制御コマンドレットについては、さらに詳しい情報も含まれています。
   
-## <a name="voice-routing-rules"></a>音声ルーティングのルール
+## <a name="voice-routing-rules"></a>ボイスルーティングルール
 <a name="VoiceRoutingRules"> </a>
 
-RoutingRules.ps1 のサンプル スクリプトは、音声ルーティングの必要があります。 これらの規則を構成しているときに注意の内部および外部の市外局番と電話のコンテキストは、/Location のプロファイル (/SimpleName) ユーザーを作成するときに指定することができます。 (具体的には、PSTN UC UC PSTN) の LyncPerfTool の構成時にも必要だぞ。
+ボイスルーティング用の RoutingRules サンプルスクリプトが必要です。 これらのルールを構成している場合は、電話のコンテキスト (¥ Location Profile または/simplename) と内部または外部の市外局番をメモして、ユーザーを作成するときに指定できます。 また、LyncPerfTool 構成 (特に PSTN-UC および UC-PSTN 用) でも必要になります。
   
-たとえば、次の図の UserProfileGenerator.exe の LocationProfile 値の RoutingRules.ps1 の例では**新規 CsDialPlan**コマンドレットへの呼び出し内のパラメーターに SimpleName を使用してください。
+たとえば、RoutingRules の例の**CsDialPlan**コマンドレットの呼び出しの simplename パラメーターは、UserProfileGenerator の次の図の locationprofile 値として使用する必要があります。
   
 ![Skype for Business Load Configuration Tool、[Voice Scenarios] タブ、会話の詳細設定](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
   
-詳細については、エンタープライズ VoIP のコマンドレットを確認することができます。
+詳細については、「エンタープライズボイスのコマンドレット」を参照してください。
   
-## <a name="conference-attendant-application"></a>会議アテンダント アプリケーション
+## <a name="conference-attendant-application"></a>会議アテンダントアプリケーション
 <a name="ConfAttendantApp"> </a>
 
-ConferenceAutoAttendantConfiguration.ps1 スクリプトを最初に確認します。 注意 ConferencingAutoAttendant の電話番号 (既定では、1121111111) を次に示すようなコンフィギュレーションの生成の LyncPerfTool の構成ツールに入力できるようにする必要があります。
+まず、ConferenceAutoAttendantConfiguration スクリプトを確認します。 ConferencingAutoAttendant 電話番号 (既定では 1121111111) をメモしておくと、次のように、これを LyncPerfTool 構成ツールに入力して構成を生成することができます。
   
 ![電話会議負荷レベルと電話番号を表示している [Voice Scenarios] タブ](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
   
-会議とダイヤルイン会議の詳細がわかりますコマンドレットです。
+詳細については、「会議とダイヤルイン会議のコマンドレット」を参照してください。
   
-## <a name="server-call-park-service"></a>サーバー コール パーク サービス
+## <a name="server-call-park-service"></a>サーバーコールパークサービス
 <a name="ServerCallParkServ"> </a>
 
-これは実際には既定で無効です。 これをテストする必要がある場合は、CallParkConfiguration.ps1 のサンプル スクリプトを確認できます。 必要に応じて、さらに、コール パーク アプリケーションのコマンドレットをチェックします。
+これは、実際には既定では無効になっています。 これをテストする必要がある場合は、CallParkConfiguration. ps1 サンプルスクリプトを確認できます。 さらに、必要に応じて、コールパークアプリケーションのコマンドレットもご覧ください。
   
-## <a name="emergency-calls"></a>緊急電話番号
+## <a name="emergency-calls"></a>緊急通話
 <a name="EmergencyCalls"> </a>
 
-ストレスおよびパフォーマンスの緊急電話のテストを構成するのには次の手順を実行する必要があります。
+緊急通話のストレスとパフォーマンスのテストを構成するには、次の手順を実行する必要があります。
   
-1. 緊急通報用のボイス ルートを設定します。 RoutingRules.ps1 のスクリプトを使用し、このボイス ルートを設定する方法の例については「 **PSTN にルーティング E911** 」というコメント下を確認できます。
+1. 緊急通話のためのボイスルートを設定します。 このボイスルートの設定方法の例については、RoutingRules スクリプトを使用して、コメント " **E911 へのルーティング**" を確認してください。
     
     > [!CAUTION]
-    > RoutingRules.ps1 のコマンドの例には、911 ではなく、119 の番号を含む番号のパターンがあります。 ロード テスト中に、ローカルの緊急時のオペレーターへの偶発的な呼び出しを防ぐために 911 (または、実際のローカルの緊急電話番号) を使用しないでください。 シミュレーションのためだけには、この構成に注意してください! 
+    > RoutingRules の例のコマンドには、911ではなく数値119を含む数値パターンが含まれています。 ロードテスト中に、お客様の地域の緊急対応オペレーターへの偶発的な通話を防ぐため、911 (または実際のローカル緊急電話番号) の使用は避けてください。 この構成はシミュレーション目的でのみ使用することに注意してください。 
   
-2. 次の図に示すように、**場所情報サービスの構成**] タブで、UserProvisioningTool の値を入力してアドレスを構成します。
+2. 次の図に示すように、Userプロビジョニングツールの [**位置情報] サービス構成**タブの値を入力して、アドレスを構成します。
     
      ![アドレス、サブネット、スイッチ、ポートの数を表示している User Provisioning Tool](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
   
-3. 入力したすべてのもの、UserProvisioningTool、 **LIS 構成ファイルの生成**] ボタンをクリックします。
+3. Userプロビジョニングツールにすべての情報を入力したら、[ **LIS 構成ファイルの生成**] ボタンをクリックします。
     
-4. 今すぐストレスおよびパフォーマンス ツールの XML ファイルと同様のポート、サブネット、スイッチ、およびワイヤレス アクセス ポイント (Wap)、CSV ファイルが生成されます。 LisConfiguration.ps1 スクリプトを使用して位置情報サービス (LIS) を構成する場合は、入力値の CSV ファイルを使用できます。 これを行うには、ストレスおよびパフォーマンス ツールの実行ファイル (LyncPerfTool.exe) と同じフォルダーに Locations0.xml ファイルを移動する必要があります。 これは、オプションを選択する場所のプロファイル (ダイヤル プラン) のシナリオを実行することができます。
+4. これにより、ポート、サブネット、スイッチ、ワイヤレスアクセスポイント (Wap) の CSV ファイル、およびストレスとパフォーマンスツールの XML ファイルが生成されます。 LisConfiguration スクリプトを使用して位置情報サービス (LIS) を構成するときに、CSV ファイルを入力用に使うことができます。 そのためには、Locations0 ファイルを、ストレスとパフォーマンスツールの実行可能ファイル (LyncPerfTool) と同じフォルダーに移動する必要があります。 これにより、位置情報プロファイル (ダイヤルプラン) のシナリオを実行できるようになります。
     
-## <a name="configuring-response-group-application"></a>応答グループの構成の適用
+## <a name="configuring-response-group-application"></a>応答グループアプリケーションを構成する
 <a name="ConfigResponseGroupApp"> </a>
 
-サンプル スクリプトは、ResponseGroupConfiguration.ps1 です。 構成の詳細を確認するのには応答グループ アプリケーションのコマンドレットが用意されています。 次の図は、いくつかの構成の詳細に表示されます。
+サンプルスクリプトは ResponseGroupConfiguration. ps1 です。 さらに構成の詳細を確認する応答グループのアプリケーションコマンドレットもあります。 次の図は、構成の詳細の一部を示しています。
   
 ![既存のテスト用ワークフローを表示している Response Group Configuration Tool](../../media/e218a345-4813-4332-8cff-b48de05017ef.jpg)
   

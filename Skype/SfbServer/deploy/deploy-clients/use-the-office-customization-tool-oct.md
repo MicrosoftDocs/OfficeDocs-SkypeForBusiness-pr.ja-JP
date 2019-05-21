@@ -1,44 +1,44 @@
 ---
-title: Skype で、Office カスタマイズ ツール (OCT) を使用して、ビジネスのサーバーの
+title: Skype for Business Server で Office カスタマイズツール (OCT) を使用する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
-description: '概要: Skype で、Office カスタマイズ ツールを使用して、クライアントのビジネスの方法です。'
-ms.openlocfilehash: 7f7f3f15be3591b9bfac19ae4a70d887b1ad0f83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business クライアントで Office カスタマイズツールを使用する方法について説明します。'
+ms.openlocfilehash: a71ab8947d964dff90510257c4a8b2cbffb3be96
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893318"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306203"
 ---
-# <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Skype で、Office カスタマイズ ツール (OCT) を使用して、ビジネスのサーバーの
+# <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Skype for Business Server で Office カスタマイズツール (OCT) を使用する
  
-**の概要:** ビジネス クライアントに、Skype で、Office カスタマイズ ツールを使用する方法です。
+**概要:** Skype for Business クライアントで Office カスタマイズツールを使用する方法について説明します。
   
-Office カスタマイズ ツール (OCT) はセットアップ プログラムの一部であり、多くのカスタマイズにおける推奨ツールになっています。 OCT を使用して Office をカスタマイズし、カスタマイズ内容をセットアップ カスタマイズ (.msp) ファイルに保存します。 そのファイルをネットワーク インストール ポイントの Updates フォルダーに配置します。 Office をインストールするときに、セットアップは Updates フォルダーのセットアップ カスタマイズ ファイルを検索し、カスタマイズ内容を適用します。 Updates フォルダーは、Office の初回インストール時にソフトウェア更新プログラムの展開にのみ使用できます。
+Office カスタマイズ ツール (OCT) はセットアップ プログラムの一部であり、多くのカスタマイズにおける推奨ツールになっています。 OCT を使用して Office をカスタマイズし、カスタマイズ内容をセットアップ カスタマイズ (.msp) ファイルに保存します。 そのファイルをネットワーク インストール ポイントの Updates フォルダーに配置します。 Office をインストールするときに、セットアップは Updates フォルダーのセットアップ カスタマイズ ファイルを検索し、カスタマイズ内容を適用します。 Updates フォルダーは、Office の最初のインストール中にソフトウェアの更新プログラムを展開するためにのみ使用できます。
   
-OCT は、セットアップの一部とは、ボリューム ライセンスを購入のバージョンの製品にのみ使用します。 入力して OCT を実行する`setup.exe /admin`、Office を含むネットワーク インストール ポイントのルートからコマンド ・ ラインでは、ソース ファイルです。 たとえば、次のようなコマンドを使用します。
+OCT はセットアップの一部であり、ボリュームライセンス版の製品でのみ使用されます。 Office のソースファイルが含ま`setup.exe /admin`れているネットワークインストールポイントのルートからコマンドラインを入力して、OCT を実行します。 たとえば、次のようなコマンドを使用します。
   
  ```
 \\server\share\Office15\setup.exe /admin
 ```
   
-管理者は、OCT を使用してセットアップ カスタマイズ .msp ファイルを作成し、次の領域をカスタマイズすることができます。
+管理者は、OCT を使用して、セットアップカスタマイズの .msp ファイルを作成し、次の領域をカスタマイズすることができます。
   
-- **セットアップ**レベルは、以前、時に実行するカスタム プログラムを削除する Office のバージョンを表示するクライアントと既定の組織名、追加のネットワーク インストール ソース、プロダクト キー、使用許諾契約書の既定のインストール場所を指定するために使用、インストール、セキュリティ設定、およびセットアップ プロパティです。
+- **セットアップ**クライアントと既定の組織名、追加のネットワークインストールソース、プロダクトキー、エンドユーザーライセンス契約、表示レベル、以前のバージョンの Office を削除するための既定のインストール場所を指定するために使用されます。インストール、セキュリティ設定、セットアッププロパティ。
     
-- **機能**ユーザー設定を構成して、Office 機能のインストール方法をカスタマイズするのにを使用します。 管理者は、OCT を使用してユーザーの Office アプリケーションの設定の既定の初期値を指定します。 ユーザーは、インストール後、ほとんどの設定を変更できます。
+- **機能**ユーザー設定を構成し、Office 機能のインストール方法をカスタマイズするために使用されます。 管理者は、OCT を使用して、ユーザーの Office アプリケーション設定の初期既定値を指定することができます。 ユーザーはインストール後にほとんどの設定を変更できます。
     
-- **その他のコンテンツ**追加またはファイルを削除するために使用とを追加またはレジストリ エントリを削除し、ショートカットを構成します。
+- **追加コンテンツ**ファイルを追加または削除したり、レジストリエントリを追加または削除したり、ショートカットを構成したりするために使用されます。
     
-- **Outlook**使用すると、ユーザーの既定の Outlook プロファイルをカスタマイズするのには、Exchange 設定の指定、アカウントを追加、アカウントを削除しての設定をエクスポートおよび送受信グループを指定します。
+- **Outlook**ユーザーの既定の Outlook プロファイルのカスタマイズ、Exchange 設定の指定、アカウントの追加、アカウントの削除と設定のエクスポート、Send\Receive グループの指定を行うために使用されます。
     
-OCT の詳細についてを参照してください[OCT を使用して Office 2013 をカスタマイズするのには](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15))です。 この情報が Office の新しいバージョンにも適用されることに注意してください。
+OCT の詳細については、「 [oct を使用して Office 2013 をカスタマイズする](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15))」を参照してください。 この情報は、新しいバージョンの Office にも適用されることに注意してください。
   
 

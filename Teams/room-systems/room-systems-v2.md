@@ -1,9 +1,9 @@
 ---
-title: マイクロソフト チームの会議室を配置します。
+title: Microsoft Teams ルームの展開
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,204 +13,204 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: マイクロソフト チームの会議室を展開する方法については、この資料を参照してください。
-ms.openlocfilehash: 26a8a15f678c57e9e2f27b4aacde1577176a3840
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Microsoft Teams ルームの展開については、この記事を参照してください。
+ms.openlocfilehash: c60d9a1ff3c00c62a14573b8b7e1d26b92e865d9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916552"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305394"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
-マイクロソフト チームの会議室の配置は基本的には、フェーズに分割します。
+Microsoft Teams の会議室の展開は、基本的にフェーズに分けて分割します。
 
-- 配置場所 (部屋) が、配置の依存関係を満たすことを確認します。
-- ビジネスおよび Exchange アカウントに、マイクロソフトのチームまたは Skype を作成し、([マイクロソフト チームの会議室を構成するアカウント](room-systems-v2-configure-accounts.md)を参照してください) のコンソール デバイスを割り当てること
-- マイクロソフト チームの会議室のコンソール ([マイクロソフト チームの会議室のコンソールを構成する](console.md)」または「[マイクロソフト チームの会議室を展開大容量の 『 導入ガイド 』](room-systems-scale.md)を参照) として機能する Microsoft Surface タブレットのイメージ再作成
-- (省略可能)( [Azure のモニターを使用してマイクロソフト チーム ルームの展開の管理](azure-monitor-deploy.md)を参照してください、システムの運用管理スイートの Microsoft の設定
-- 会議室および周辺機器の接続でコンソールを設定する必要があります (デバイスのセットの OEM のマニュアルを参照してください)
+- 展開場所 (会議室) が展開の依存関係を満たしていることを確認する
+- Microsoft Teams または Skype for Business および Exchange アカウントを作成し、それらをコンソールデバイスに割り当てる (「 [Microsoft Teams ルームのアカウントを構成](room-systems-v2-configure-accounts.md)する」を参照)
+- Microsoft Teams のルームコンソールとして動作するように Microsoft Surface タブレットを再設定する (「 [Microsoft Teams ルーム本体を構成](console.md)する」または「 [microsoft teams ルーム](room-systems-scale.md)の展開ガイドを展開する」を参照してください)
+- 省略システム用に Microsoft Operations Management Suite を設定する (「 [Azure モニターを使用して Microsoft Teams ルーム管理を展開](azure-monitor-deploy.md)する」を参照してください。
+- 会議室で本体を設定し、必要な周辺機器を接続します (お使いのデバイスの OEM マニュアルを参照してください)。
 
-AV テクノロジー使用できますが、最後のタスクで、組織の IT 部門は、プロセスの他の部分を実行する必要があります。 
+最後のタスクには AV techs を使用できますが、組織の IT 部門は、プロセスの他の部分を行う必要があります。 
 
 
 ## <a name="site-readiness"></a>サイトの準備 
 
-順序付けられたデバイスは、組織に配信されているが、中には、配置の依存関係が満たされている各サイトと部屋が電力、ネットワーク、という点で準備ができていることを確認するネットワークおよび施設および AV チームを操作し、表示します。 さらに、物理的なインストール要件を満たしていることを確認してください。 物理的なインストールの注意事項について、仕入先のサイトにアクセスし、AV のチームをインストールするときの画面をマウントとのケーブル接続を実行している経験を活用してください。
+注文されたデバイスは組織に配信されますが、ネットワークと設備、および AV teams を使用して、展開の依存関係が満たされていることを確認し、各サイトと部屋の電力、ネットワーキング、表示の準備を行うことができます。 さらに、物理的なインストールの要件が満たされていることを確認してください。 物理的なインストールに関する考慮事項については、ベンダーのサイトにアクセスして、画面をインストールして接続するときに、AV チームのエクスペリエンスを活用してください。
 
-詳細については、計画ガイド下のリンクでこれらの依存関係をご覧ください。
+これらの依存関係の詳細については、以下の計画ガイダンスのリンクを参照してください。
 
 -   [ネットワークの状態をチェックする](srs-v2-prep.md#check-network-availability) 
 -   [証明書](srs-v2-prep.md#certificates)
 -   [プロキシ](srs-v2-prep.md#proxy)
 
-**Pro ヒント**- マイクロソフトのチームまたは Skype ビジネス オンライン、[この資料](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)の最初のアクセスを提供するプロキシ サーバーを使用する場合。 際に Skype ビジネス トラフィックのプロキシ サーバー経由で、お勧めのプロキシ サーバーをバイパスして完全に注意してください。 ビジネス トラフィック用の Skype は既に暗号化されて、プロキシ サーバーにならないようにして、セキュリティが強化されました。 幅の広い展開の一環として、[自分の環境を評価](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)することで帯域幅の計画とリアルタイムのトラフィックをネットワークの適合性を評価するためのガイダンスに従うことをお勧めします。 すべての帯域幅を計画するためには、 [MyAdvisor ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)を使用します。 (お勧め [ビデオ、画面共有、オーディオ]、マイクロソフト チームの会議室使用目的を反映し、各サイトに展開する Microsoft チームの会議室の単位数に一致するユーザーの数を割り当てるマイクロソフト チームの会議室のペルソナを作成します。 
+**Pro ヒント**-プロキシサーバーを使用して Microsoft Teams または Skype For business Online へのアクセスを提供する場合は、まず[この記事を確認](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)してください。 プロキシサーバー経由の Skype for Business トラフィックについては、プロキシサーバーを完全にバイパスすることをお勧めします。 Skype for Business トラフィックは既に暗号化されているため、プロキシサーバーのセキュリティが強化されることはありません。 広い範囲に展開する場合は、「帯域幅計画の環境を[評価](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)する」のガイダンスに従って、リアルタイムトラフィックに対するネットワークの適合性を評価することをお勧めします。 すべての帯域幅の計画については、 [Myadvisor ネットワークプランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)を使用します。 ([ビデオ]、[画面の共有]、[オーディオ])、および microsoft teams の会議室の使用状況 (各サイトへの展開対象) に一致するユーザーを割り当てるには、Microsoft Teams の会議室のペルソナを作成することをお勧めします。 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サイトがマイクロソフト チームの会議室の主な要件を満たしていることを確認します。</li><li>サイトごとに十分な帯域幅を提供したことを確認します。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開と構成の計画を開始します。</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サイトが Microsoft Teams のルームの重要な要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅が用意されていることを確認します。</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>まず、デバイスの展開と構成を計画します。</li></ul>| 
 
-**Pro のヒント**サイトでの計画の観点から次のアセットは、役に立ちます。 マイクロソフト チーム会議室だけをカバーする、オンライン ビジネスの Skype の完全展開で使用できます。
+**Pro ヒント-** サイトごとの計画の観点から見ると、次のアセットが役に立つ場合があります。 Microsoft Teams のルームだけではなく、Skype for Business Online の完全なロールアウトでも利用できます。
 
--   [サイトの導入/移行計画の講義進行ガイド](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
+-   [サイトのロールアウト/移行計画の配布ガイド](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
 
--   [サイトの展開と移行のプランニング ・ プレイブック](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
+-   [サイトのロールアウトと移行の計画-プレイブック](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
 
     > [!NOTE]
-    > プレイブックでは、マイクロソフト チームの会議室のデバイスの展開を計画している各サイトの「4 エンドポイント」シートの下」4.3 _gt 会議室」のセクション内のタスクを完了します。 これは、一括アカウント プロビジョニング プロセスの後半でスクリプトを使用する有効にします。 
+    > プレイブックで、Microsoft Teams 室のデバイスの展開を計画している各サイトの "4.3 – > 会議室" のセクションにあるタスクを実行します。 これにより、プロセスの後半で一括アカウントプロビジョニングスクリプトを使用できるようになります。 
 
 ## <a name="service-readiness"></a>サービスの準備状況
 
-マイクロソフト チームの会議室を展開するための準備、次のキー、中心的なタスクの操作を行います。
+Microsoft Teams ルームの展開を準備するには、次の主要なタスクを実行します。
 
--   マイクロソフト チームの会議室のサービス アカウントの機能を定義します。
--   マイクロソフト チームの会議室のコンピューターを保持し、サービス アカウント、組織単位、Active Directory グループを準備して -オプションで、グループ ポリシー オブジェクト (Gpo) でリモート処理を有効にする準備をします。
+-   Microsoft Teams のルームサービスアカウント機能を定義します。
+-   Microsoft Teams のルームのコンピューターとサービスのアカウントを保持するために、組織単位と Active Directory グループを準備します。必要に応じて、グループポリシーオブジェクト (Gpo) を準備して、PowerShell のリモート処理を有効にします。
 
-### <a name="define-microsoft-teams-rooms-service-account-features"></a>マイクロソフト チームの会議室のサービス アカウントの機能を定義します。 
+### <a name="define-microsoft-teams-rooms-service-account-features"></a>Microsoft Teams のルームサービスアカウント機能の定義 
 
-コラボレーションのシナリオを有効にする、マイクロソフト チームの会議室の配置を決定する、に従って、機能を有効にする Microsoft チーム ルーム サービス アカウントごとに割り当てることを決定する必要があります。
+Microsoft Teams ルームの展開で有効にすることにしたコラボレーションシナリオに応じて、有効にする Microsoft Teams の各会議サービスアカウントに割り当てる機能を決定する必要があります。
 
-| **シナリオ** | **説明** | **マイクロソフト チームの会議室のサービス アカウントの機能** |
+| **シナリオ** | **説明** | **Microsoft Teams 室サービスアカウント機能** |
 |---------- |------------- | --- |
-| 対話型会議            | 音声、ビデオ、および画面共有を使用します。マイクロソフト チームの会議室の予約のリソースを作成します。                     | Exchange リソース メールボックス) を有効になっている、ビジネス用の Skype を有効になっています。 |
-| ダイヤルイン会議            | 有効にする会議は、ダイヤルイン会議の座標を使用して Microsoft チームの会議室のコンソールから*直接*起動 | オーディオ会議を有効になっています。                                          |
-| PSTN の呼び出しの送信/受信 | PSTN 通話を送受信するマイクロソフト チームの会議室のコンソールを有効にします。                                         | 電話システムに対して有効になっています。                                                |
+| 対話型の会議            | 音声、ビデオ、画面共有を使用するMicrosoft Teams の会議リソースを作成する                     | Skype for Business で有効、Exchange (リソースメールボックス) を有効にします。 |
+| ダイヤルイン会議            | ダイヤルイン会議の座標を使用して、Microsoft Teams の会議室コンソールから*直接*会議を開始できるようにする | 電話会議に対応                                          |
+| 送信/受信 PSTN 通話 | Microsoft Teams のルームコンソールを有効にして、PSTN 通話の発信と受信を行う                                         | 電話システムに対応                                                |
 
-マイクロソフト チームの会議室のアカウントの詳細については、[マイクロソフト チームの会議室を構成するアカウント](room-systems-v2-configure-accounts.md)を参照してください。
+Microsoft Teams のルームアカウントの詳細については、「 [Microsoft teams のルームのアカウントを構成する](room-systems-v2-configure-accounts.md)」を参照してください。
 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>どのシナリオのサポート、および、マイクロソフト チームのルーム サービス アカウントに必要なライセンスを識別することを決定します。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>マシンをホストし、サービス アカウントを準備します。</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サポートするシナリオを決定し、Microsoft Teams の会議サービスアカウントのライセンス要件を特定します。</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>マシンアカウントとサービスアカウントをホストするための準備を行います。</li></ul>| 
 
 
-_計画表サンプル Microsoft チームの会議室のサービス アカウント_
+_Microsoft Teams 室のサンプルサービスアカウントの計画テーブル_
 
-| **サイト**  | **ルーム名** | **ルームのタイプ** | **将来の部屋の機能**                                                 | **マイクロソフト チーム ルーム アカウント機能**                                                                                         |
+| **サイト**  | **会議室名** | **会議室の種類** | **今後の room 機能**                                                 | **Microsoft Teams ルームのアカウント機能**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| ロンドン本社 | Curie         | 中        | 1] 画面で、オーディオおよびビデオのプレゼンテーションと <br>ダイヤルイン会議のアクセス<br> PSTN のアクセス  | Exchange リソース メールボックス) を有効になっている、ビジネス用の Skype を有効になっています。 <br>オーディオ会議を有効になっています。 <br>電話システムに対して有効になっています。 |
-| シドニー本社 | 丘          | 大規模です         | オーディオおよびビデオのプレゼンテーションに加えて、2 つの画面<br>ダイヤルイン会議のアクセス<br> PSTN のアクセス  | Exchange リソース メールボックス) を有効になっている、ビジネス用の Skype を有効になっています。<br> オーディオ会議を有効になっています。 <br>電話システムに対して有効になっています。 |
+| 本部 | Curie         | 中        | 1画面、オーディオ、ビデオ plus プレゼンテーション <br>ダイヤルイン会議アクセス<br> PSTN アクセス  | Skype for Business で有効、Exchange (リソースメールボックス) を有効にします。 <br>電話会議に対応 <br>電話システムに対応 |
+| シドニー | 丘          | さまざま         | 2画面、オーディオ、ビデオ、プレゼンテーション<br>ダイヤルイン会議アクセス<br> PSTN アクセス  | Skype for Business で有効、Exchange (リソースメールボックス) を有効にします。<br> 電話会議に対応 <br>電話システムに対応 |
 
 
-### <a name="prepare-to-host-microsoft-teams-rooms-machine-and-service-accounts-optional"></a>マイクロソフト チームの会議室のコンピューターをホストし、サービス アカウント (オプション) を準備します。
+### <a name="prepare-to-host-microsoft-teams-rooms-machine-and-service-accounts-optional"></a>Microsoft Teams の会議室のコンピューターとサービスのアカウントをホストするための準備をする (オプション)
 
-管理し、コンピューターとサービス アカウントをマイクロソフト チームの会議室に報告することを有効にするには、オンプレミス Active Directory または Azure Active Directory (AD の Azure) を準備します。 
+Microsoft Teams のルームのコンピューターおよびサービスアカウントを管理して報告できるようにするには、オンプレミスの Active Directory または Azure Active Directory (Azure AD) を準備します。 
 
-すべてのマイクロソフト チームのルーム サービス (ユーザー) アカウントを追加するのには、オンプレミス Active Directory または Azure AD グループを定義し、Get CSUserSession PowerShell コマンドレットを使用して、マイクロソフト チームの会議室の配置で、利用状況レポートを作成します。 たとえば、SkypeRoomSystemsv2 ・ サービス ・ アカウントをという名前のグループを作成します。 
+オンプレミスの Active Directory または Azure AD グループを定義して、Microsoft teams のすべての会議サービス (ユーザー) アカウントを追加した後、Microsoft Teams のルーム展開で CSUserSession PowerShell コマンドレットを使用して利用状況レポートを作成します。 たとえば、SkypeRoomSystemsv2 という名前のグループを作成します。 
 
 
-マイクロソフト チームの会議室のすべてのユーザー アカウントを保持する (これらは、ドメインに参加している) 場合は、マイクロソフト チームの会議室のすべてのコンピューター アカウントを保持するために、オンプレミス Active Directory または AD の Azure 階層内の 1 つの組織単位と 1 つの組織単位を定義します。 マイクロソフト チームの会議室のコンピューター アカウントの組織単位を作成した場合は、マイクロソフトのチームのドメインに参加している会議室に適用することを意図したポリシーのみを適用することを確認するのには継承を無効にすることを検討してください。 
+Microsoft Teams のすべてのコンピューターアカウント (ドメインに参加している場合)、および Microsoft Teams のすべてのユーザーアカウントを保持する組織単位を保持するには、オンプレミスの Active Directory または Azure AD 階層に1つの組織単位を定義します。 Microsoft Teams のルームマシンアカウントの組織単位を作成する場合は、継承を無効にして、ドメインに参加した Microsoft Teams ルームに適用するポリシーのみを適用することを検討してください。 
 
-マイクロソフト チームの会議室、コンピューター アカウントを含む組織単位に割り当てられたグループ ポリシー オブジェクトを作成します。 使用します。 
+Microsoft Teams 室のコンピューターアカウントが含まれている組織単位に割り当てられたグループポリシーオブジェクトを作成します。 使用する操作 
 
--   [電源とローカル アカウントの設定を設定](room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms)します。
--   Windows の更新プログラムを有効にします。
--   PowerShell リモート処理を有効にします。 単純なスクリプトを実行するスタートアップ スクリプトを構成することができます: 有効にする-PSRemoting - フォース
+-   [Power アカウントとローカルアカウントの設定](room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms)を行います。
+-   Windows Update を有効にします。
+-   PowerShell リモート処理を有効にします。 簡単なスクリプトを実行するように起動スクリプトを構成することができます。 PSRemoting-Force
 
-取得および設定の構成情報を含む、リモート管理アクティビティを実行するのには、PowerShell を使用できます。 PowerShell リモート処理では、有効に*する前に*PowerShell のリモート管理を実行でき、展開プロセスの一部として考慮する必要がありますか、グループ ポリシーを使用して構成します。 これらの機能とそれらを有効にする方法の詳細については、[保守および操作](room-systems-v2-operations.md#remote-management-using-powershell)を参照してください。 
+PowerShell を使用して、構成情報の取得や設定など、多くのリモート管理操作を実行できます。 Powershell リモート処理を有効*にするに*は、powershell リモート管理を有効にする必要があります。また、展開プロセスの一部として、またはグループポリシーを使って構成する必要があります。 これらの機能の詳細と有効化については、「[メンテナンスと操作](room-systems-v2-operations.md#remote-management-using-powershell)」をご覧ください。 
 
 
 ## <a name="configuration-and-deployment"></a>構成と展開 
 
-構成と展開を計画するには、以下の主要領域がについて説明します。
+構成と展開の計画は、次の主要領域で構成されています。
 
--   アカウント プロビジョニング
--   デバイス ソフトウェアのインストール
--   デバイスの配置
--   マイクロソフト チーム ルーム アプリケーションと周辺機器の構成
+-   アカウントプロビジョニング
+-   デバイスソフトウェアのインストール
+-   デバイスの展開
+-   Microsoft Teams のルームアプリケーションと周辺機器構成
 -    試験
 -   資産管理
 
-### <a name="account-provisioning"></a>アカウント プロビジョニング 
+### <a name="account-provisioning"></a>アカウントプロビジョニング 
 
-マイクロソフト チームの会議室の各デバイスには、ビジネスおよび Exchange のマイクロソフトのチームまたは Skype の両方を有効にする必要があります専用で、一意のリソース アカウントが必要です。 このアカウントは、会議室メールボックスが Exchange でホストされている必要があり、チームまたは Skype でビジネスを展開するための会議室として有効にします。 Exchange の側では、カレンダー処理をデバイスが受信した会議出席依頼を自動的に反映されるように構成しなければなりません。 これらのアカウントを作成する方法の詳細については、[マイクロソフト チームの会議室を構成するアカウント](room-systems-v2-configure-accounts.md)を参照してください。 
+Microsoft Teams の各ルームデバイスには、専用の固有のリソースアカウントが必要です。このアカウントは、Microsoft Teams と Skype for Business および Exchange の両方で有効にする必要があります。 このアカウントには、Exchange でホストされている room メールボックスが必要です。また、Teams または Skype for Business の展開で会議室として有効にする必要があります。 Exchange 側では、デバイスが着信した会議出席依頼を自動的に受け入れるように、予定表の処理が構成されている必要があります。 これらのアカウントの作成方法の詳細については、「 [Microsoft Teams のルームのアカウントを構成する](room-systems-v2-configure-accounts.md)」を参照してください。 
 
-**Pro ヒント**: 表示名がこれらのアカウントのわかりやすい名前とわかりやすい。 これらは、ユーザーの検索と、Microsoft のチーム会議室システムを会議に追加するときに表示される名前です。 組織によっては、*サイト*の規約を使用して-*ルーム名*(*最大収容能力*) の RS、たとえば Curie-ロンドンの 12 人の会議室-ため CURIE (12) RS の表示名があります。 
+**Pro ヒント**: これらのアカウントの表示名をわかりやすくわかりやすいものにします。 これらは、Microsoft Teams のルームシステムを検索して会議に追加するときにユーザーに表示される名前です。 組織によっては、*サイト*-*ルーム名*(*最大会議*室)-rs などの規則を使用しているため、たとえば、curie では、たとえば、London の12人の会議室で表示名が LON-curie (12) になります。 
 
-組織は、複数を必要とする多くの会議室には、プロビジョニングされたアカウントは、場合、自動的に複数のサービス アカウントを一括提供する[Skype ルーム システム アカウント プロビジョニング スクリプト](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5)を使用します。
+組織に複数のプロビジョニングされたアカウントを必要とする多数の会議室がある場合、 [Skype Room Systems アカウントプロビジョニングスクリプト](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5)を使用して、複数のサービスアカウントを自動で一括プロビジョニングすることができます。
 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>マイクロソフト チーム ルーム アカウントの名前付け規則を決定します。</li><li>個々 のアカウントを作成または一括プロビジョニング スクリプトを使用するかどうかを決定します。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイス展開の計画を開始します。</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft Teams のルームアカウントの名前付け規則を決定します。</li><li>個別のアカウントを作成するか、一括プロビジョニングスクリプトを使用するかを決定します。</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>まず、デバイスの展開を計画します。</li></ul>| 
 
 
-### <a name="device-software-installation"></a>デバイス ソフトウェアのインストール 
+### <a name="device-software-installation"></a>デバイスソフトウェアのインストール 
 
-マイクロソフト チームの会議室を配置することを計画するときは、いくつかの必要なソフトウェアをインストールするのには考慮すべきオプションがあります。 共通のシナリオとアプローチについては、次の表で説明します。 
+Microsoft Teams のルームの展開を計画するときに、必要なソフトウェアをインストールするために考慮する必要のあるオプションがいくつかあります。 一般的なシナリオとアプローチについては、次の表を参照してください。 
 
-| **シナリオ**            | **アプローチ**         |
+| **シナリオ**            | **やり**         |
 |-------------------------|-----------------------|   
-|少数のマイクロソフト チームの会議室のデバイス (<10) を導入しています。 | Surface Pro ベースの Microsoft チームの部屋を使用する場合は、以下の[接続デバイスのインストール手順をインストール](console.md)するします。 [この便利なビデオでは、プロセスについて説明します。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 統合ソリューションを使用すると場合、は、仕入先のイメージを使用して展開し、必要に応じて設定を構成します。 |
-| 1 つのベンダーからのデバイスを 10 から 50 の間で展開しています。     | WIM ベースのイメージを作成、[ガイダンスの手順 6](console.md)の後に一時停止し、クローン作成の配布技術を使用するディストリビューションのイメージをキャプチャします。    |
-| マイクロソフト チームの会議室の 50 以上のデバイスを展開するか、複数のベンダーからのデバイスを展開する展開の一部として、組織固有のエージェントを必要とします。 | タスク シーケンサ ベースのソフトウェア ビルドと配布など、プラットフォーム[システム センター構成マネージャー](room-systems-scale.md)を使用します。  |
+|少数の Microsoft Teams ルームデバイス (<10) を展開する。 | Surface Pro ベースの Microsoft Teams ルームを使用している場合は、[デバイスごとのインストールのインストール手順](console.md)に従ってください。 [このビデオでは、プロセスについて説明します。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 統合ソリューションを使用している場合は、ベンダーのイメージを使用してを展開し、必要に応じて設定を構成します。 |
+| 1つのベンダーから10台以上の50デバイスを展開する。     | WIM ベースの画像を作成し、[ガイダンスの手順 6](console.md)の後に一時停止し、複製配布技術で使用する配布イメージをキャプチャします。    |
+| 50を超える Microsoft Teams を展開することで、複数のベンダーからデバイスを展開したり、展開の一部として組織固有のエージェントを要求したりすることができます。 | [System Center Configuration Manager](room-systems-scale.md)などの、タスク sequencer ベースのソフトウェアビルドと配布プラットフォームを使用します。  |
 
-**Pro ヒント**- Microsoft チームの各会議室には、ネットワーク上有効で、一意のコンピューター名が必要です。 多くの監視やアラート システム名を表示、マシン キーの識別子としてフラグが設定されているマイクロソフトのチームの会議室を簡単に検索するのには、サポート担当者は、マイクロソフト チームの会議室の展開の名前付け規則を開発することが重要であるためアクションを必要とします。 MTR の*サイト*のパターン例を使用する場合があります-*ルーム名*(CURIE-MTR のため)。 
+**Pro ヒント**-Microsoft Teams の各ルームには、ネットワーク上に有効で一意のコンピューター名が必要です。 多くの監視および警告システムでは、コンピューター名がキー識別子として表示されるため、サポート担当者は、フラグが付けられている Microsoft Teams の会議室を簡単に見つけることができるように、Microsoft Teams 室の展開に対して名前付け規則を開発することが重要です。操作が必要な場合。 例としては、MTR*サイト*-*ルーム名*のパターン (MTR-LON-curie) が使用されている場合があります。 
 
-展開の一環として、する必要もあります管理とチームの会議室をマイクロソフトのアプリケーションのインストーラーによって作成された[ローカル アカウント](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)を構成するための戦略を検討します。
+展開の一環として、Microsoft Teams のルームアプリケーションインストーラーによって作成される[ローカルアカウント](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)を管理および構成するための戦略も検討する必要があります。
 
-[Microsoft Azure のモニター](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor)を使用して、マイクロソフト チームの会議室の展開を監視し、可用性、ハードウェア/ソフトウェア ・ エラー、およびアプリケーションのバージョンの Microsoft チームの会議室に報告する方法のガイダンスを提供しています。 マイクロソフトの運用管理スイートを使用する場合は、ソフトウェアのインストール プロセスの一環として運用管理スイート エージェントをインストールし、ワークスペースのワークスペースの接続情報を構成する必要があります。 
+Microsoft [Azure モニター](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor)を使用して microsoft Teams の会議室の展開を監視し、可用性、ハードウェア/ソフトウェアのエラー、Microsoft Teams の会議のバージョンに関するレポートを作成する方法についてのガイダンスを提供します。 Microsoft Operations Management Suite を使用する場合は、ソフトウェアのインストールプロセスの一環として Operations Management Suite エージェントをインストールして、ワークスペースの接続情報をワークスペースに対して構成する必要があります。 
 
-追加の考慮事項は、マイクロソフト チームの会議室がドメインに参加しているかどうかです。 ドメインへの参加のメリットについての情報は、 [Skype ルーム システム ドメイン参加の注意事項](domain-joining-considerations.md)を参照しています。 
-
-|    |     |
-|-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>展開中に使用されるマイクロソフト チームの会議室のデバイスの命名規則を決定します。</li><li>ドメイン、および管理して、ローカル アカウントを構成する方法をマイクロソフト チームの会議室のデバイスを結合するかどうかが決定します。 </li><li>マイクロソフト チームの会議室の展開を監視する操作の管理スイートを使用するかどうかを決定します。</li><li>デバイスの展開に備えて、マイクロソフト チームの会議室のシステムにソフトウェアとエージェントを展開に使用する方法を決定します。 </li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開方法の計画を開始します。</li></ul>| 
-
-
-### <a name="device-deployment"></a>デバイスの配置
-
-マイクロソフト チームの会議室のユニットにソフトウェアを展開した後は、デバイスと、ルームでは、割り当てられている、周辺機器を出荷し、インストールと構成をするための計画を作成します。 
-
+追加で考慮する必要があるのは、Microsoft Teams のルームがドメインに参加しているかどうかです。 ドメイン参加の利点については、「 [Skype Room System ドメイン](domain-joining-considerations.md)への参加に関する考慮事項」をご覧ください。 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>誰が管理するサイトでの展開を決定します。</li><li> サイトでマイクロソフト チームの会議室のデバイスをインストールおよび構成を実行するリソースを識別およびテストします。</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>展開時に使用する Microsoft Teams 室のデバイスの名前付け規則を決定します。</li><li>Microsoft Teams 室のデバイスをドメインに参加するかどうか、およびローカルアカウントを管理して構成する方法を決定します。 </li><li>Operations Management Suite を使用して Microsoft Teams ルームの展開を監視するかどうかを決定します。</li><li>デバイスの展開の準備として、ソフトウェアとエージェントを Microsoft Teams のルームシステムに展開するために使用する方法を決定します。 </li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイス展開のアプローチの計画を開始します。</li></ul>| 
+
+
+### <a name="device-deployment"></a>デバイスの展開
+
+Microsoft Teams のルームユニットにソフトウェアを展開した後、デバイスと割り当てられた周辺機器をルームに発送するためのプランを作成してから、インストールと構成に進みます。 
+
+
+|    |     |
+|-----------|------------|
+| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サイトごとの展開を管理するユーザーを決定する。</li><li> サイトに Microsoft Teams の会議室デバイスをインストールし、構成とテストに着手するリソースを特定します。</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>| 
 
-_サンプル展開表_
+_展開テーブルの例_
 
-| **サイト**  | **ルーム名** | **ルームのタイプ** | **マイクロソフト チーム ルーム システム**  | **周辺機器**  | **マイクロソフト チームの会議室のコンピューター名**  | **マイクロソフト チームの会議室のリソース アカウント**  |
+| **サイト**  | **会議室名** | **会議室の種類** | **Microsoft Teams のルームシステム**  | **周辺機器**  | **Microsoft Teams 室のコンピューター名**  | **Microsoft Teams 会議室リソースアカウント**  |
 |-----------|---------------|---------------|-----------------------------------|------------------|------------------------------------------|---------------------------------------------|
-| ロンドン本社 | Curie         | 中        |                                   |                  |                                          |                                             |
-| シドニー本社 | 丘          | 大規模です         |                                   |                  |                                          |                                             |
+| 本部 | Curie         | 中        |                                   |                  |                                          |                                             |
+| シドニー | 丘          | さまざま         |                                   |                  |                                          |                                             |
 
-### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>マイクロソフト チーム ルーム アプリケーションと周辺機器の構成 
+### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft Teams のルームアプリケーションと周辺機器構成 
 
-各マイクロソフト チームの会議室にシステムに物理的に配置され、接続されている周辺機器のサポートされているデバイス、マイクロソフト チームの会議室のリソース アカウントと以前に作成したパスワードを割り当てるにはマイクロソフト チーム ルーム アプリケーションを構成する必要があります。、ビジネスおよび Exchange のマイクロソフトのチームまたは Skype にサインインするマイクロソフト チームの会議室のシステムを有効にします。 キーを活用して、認定された USB オーディオおよびビデオ周辺機器、文書の別の場所にリンクされています。 そうしないと、予期しない動作が生じる可能性があります。 
+Microsoft Teams の各会議室のシステムが物理的に展開され、サポートされている周辺機器が接続された後、microsoft teams の会議アプリケーションを構成して、Microsoft Teams の会議室のリソースアカウントとパスワードを割り当てる必要があります。microsoft Teams のルームシステムで Microsoft Teams または Skype for Business および Exchange にサインインできるようにします。 ドキュメント内の他の場所にリンクされている認定 USB オーディオおよびビデオ周辺機器を活用することが重要です。 そうしないと、予期しない動作が発生する可能性があります。 
 
-マイクロソフト チームの会議室の各システムを手動で構成することができます。 またはを使用して一元的に保存、あたり – マイクロソフト チームの会議室には、アプリケーションの設定を管理し、活用する、マイクロソフト チームの会議室のシステムを起動するたびに構成を再適用する GPO スクリプトの XML 構成ファイル。 
+Microsoft Teams の各会議室システムを手動で構成することができます。 または、一元保存された、Microsoft Teams の会議室の XML 構成ファイルを使用して、アプリケーションの設定を管理し、Microsoft Teams の会議室のシステムが起動するたびに、必要な構成を再適用することができます。 
 
-XML 構成ファイルを使用する方法の詳細については、[マイクロソフト チーム ルーム コンソールの設定を XML 構成ファイルでリモートからの管理](xml-config-file.md)を参照してください。 
+XML 構成ファイルの使用方法の詳細については、「 [Microsoft Teams のコンソール設定を xml 構成ファイルを使ってリモートで管理](xml-config-file.md)する」を参照してください。 
 
-[リモート PowerShell](room-systems-v2-operations.md#remote-management-using-powershell)を使用すると、レポート作成のためのマイクロソフト チームの会議室の構成を取得します。 
+[リモート PowerShell](room-systems-v2-operations.md#remote-management-using-powershell)を使用して、レポートのニーズに合わせて Microsoft Teams 室の構成を取得できます。 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>かどうか手動で各マイクロソフト チームの会議室のシステムを構成したりする中心的な XML ファイル (マイクロソフト チームの会議室のデバイスごとに 1 つ) を使用を決定します。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リモート管理方法を定義します。</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft Teams の各会議室システムを手動で構成するのか、一元管理の XML ファイルを使用するのか (Microsoft Teams のルームデバイスごとに1つ) を決定します。</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リモート管理アプローチを定義します。</li></ul>| 
 
 ### <a name="testing"></a> 試験
 
-マイクロソフト チームの会議室のシステムが配置されると、テストする必要があります。 展開済みのデバイスの[Microsoft チームの会議室のヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に記載されている機能が動作しているを確認します。 展開チームが、マイクロソフト チームの会議室ログが有効にマイクロソフトの運用管理スイート (使用する場合) を確認するを強くお勧めします。 品質を確認するには、テストの呼び出しおよび会議の番号を作成することが重要です。 詳細については、この[便利な展開のチェックリスト](console.md#microsoft-teams-rooms-deployment-checklist)を参照してください。
+Microsoft Teams の会議室のシステムが展開されたら、それをテストする必要があります。 [Microsoft Teams のルーム](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に表示される機能が、展開されたデバイスで機能していることを確認します。 Microsoft Teams のルームが Microsoft Operations Management Suite (使用されている場合) にログに記録されることを展開チームが確認することを強くお勧めします。 また、さまざまなテスト通話と会議を行って品質をチェックすることも重要です。 詳細については、この[便利な展開チェックリスト](console.md#microsoft-teams-rooms-deployment-checklist)を参照してください。
 
-一部として、全般的なチームまたは Skype のビジネス展開、コール品質ダッシュ ボード (救難) のファイルをビルドを構成する、品質の傾向を監視している品質の経験の確認プロセスに参加をお勧めします。 詳細については、[体験レビュー ガイドの品質](https://aka.ms/qerguide)を参照してください。 
+一般的なチームまたは Skype for Business のロールアウトの一環として、通話品質ダッシュボードの構築ファイル (CQD) を構成し、品質の傾向を監視して、エクスペリエンスレビュープロセスに参加することをお勧めします。 詳細については、「[エクスペリエンスの品質レビューガイド](https://aka.ms/qerguide)」を参照してください。 
 
-**Pro ヒント**: [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/)から使用可能な[テストのマトリックス](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21)には、多数のテストの一部として使用するを参照してください Microsoft チームの会議室のテストのタブが含まれています。 
+**Pro ヒント**–テストマトリックスには、 [myadvisor](https://myadvisor.fasttrack.microsoft.com/)から利用可能な[テストマトリックス](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21)に、テストの一部として確認する必要がある Microsoft Teams 室のテストが多数含まれています。 
 
 ### <a name="asset-management"></a>資産管理 
 
-展開の一環として、ルーム名、デバイス名のマイクロソフト チームの会議室、マイクロソフト チームの会議室リソース アカウントでは、署名を使用して資産取引明細の一覧を更新する必要がありますおよび周辺機器のデバイスを割り当てられている (および USB ポートを使用)。 
+展開の一環として、会議室名、Microsoft Teams 室のデバイス名、サインインされた Microsoft Teams 室リソースアカウント、および割り当てられている周辺機器 (および使用している USB ポート) を使って、資産登録を更新します。 
 
-_資産テーブルなサンプル_
+_サンプルアセットテーブル_
 
-| **サイト**  | **ルーム名** | **ルームのタイプ** | **マイクロソフト チーム ルーム シリアル番号。**  | **周辺機器/nos./ポート**  | **マイクロソフト チームの会議室のコンピューター名**  | **マイクロソフト チームの会議室のサービス アカウント**  | **展開日** |
+| **サイト**  | **会議室名** | **会議室の種類** | **Microsoft Teams ルームのシリアル番号**  | **周辺機器/シリアル nos./ポート**  | **Microsoft Teams 室のコンピューター名**  | **Microsoft Teams 室サービスアカウント**  | **展開日** |
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
-| ロンドン本社 | Curie         | 中        |                                          |                                          |                                          |                                            |                   |
-| シドニー本社 | 丘          | 大規模です         |                                          |                                          |                                          |                                            |                   |
+| 本部 | Curie         | 中        |                                          |                                          |                                          |                                            |                   |
+| シドニー | 丘          | さまざま         |                                          |                                          |                                          |                                            |                   |
 
 

@@ -12,24 +12,24 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'マイクロソフトのチーム ミーティングに参加するのには呼び出し元の既定の電話番号を作成する手順を取得します。 '
-ms.openlocfilehash: 890fe76e455d68868b007537eba6084bf32ad4b5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Microsoft Teams 会議に参加するために、発信者用の既定の電話番号を作成する手順について説明します。 '
+ms.openlocfilehash: 334c35a356e73f20a5344ba09c88aac0bde5d83b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205021"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305326"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
-マイクロソフト チームの会議を作成して、電話を使用してその会議にダイヤルインするユーザーを許可し、組織内のユーザーを Office 365 での音声会議に使用できます。
+Office 365 の電話会議では、組織内のユーザーが Microsoft Teams 会議を作成できるようになり、電話を使用してこれらの会議にダイヤルインすることができます。
   
 会議ブリッジは、組織用のダイヤルイン電話番号のセットを提供します。これらの番号はすべて会議開催者が作成した会議に参加するために使用できますが、会議出席依頼にどの番号を含めるか選ぶことができます。
   
@@ -39,35 +39,35 @@ ms.locfileid: "32205021"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>会議に含まれている電話番号の最初の割り当ての新しいユーザーの招待します。
+## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>新規ユーザー向けの会議出席依頼に記載されている電話番号の最初の割り当て
 
-会議にも含まれている電話番号は、オーディオ会議は、既定の会議通話の電話番号と既定会議無料電話番号のユーザーの設定で定義された有効にするユーザーの招待します。 各設定を指定する有料電話番号と無料電話番号は、特定のユーザーの会議出席依頼に含まれます。 前述したように、各会議出席依頼には、1 つの有料電話番号が、1 つの省略可能なフリー ダイヤル番号および特定の会議に参加するのに使用できるすべてのダイヤルインの電話番号の完全な一覧を開くリンクが含まれます。
+電話会議用に有効になっているユーザーの会議の出席依頼に含まれる電話番号は、既定の電話会議の有料電話番号と、既定の電話会議無料電話番号のユーザー設定によって定義されます。 各設定では、特定のユーザーの会議出席依頼に含まれる有料電話と無料電話番号を指定します。 上で説明したように、各会議出席依頼には、1つの有料電話番号、オプションの無料電話番号、および特定の会議に参加するために使用できるすべてのダイヤルイン電話番号の一覧を表示するリンクが含まれています。
 
-新しいユーザーの場合は、ユーザーがオーディオ会議サービスを有効にすると、ユーザーの Office 365 のプロファイルに設定されている国に基づく既定の会議の有料電話番号が割り当てられます。 ユーザーの国または地域に一致する会議ブリッジに有料電話番号がある場合は、その番号がユーザーの既定の電話番号として自動的に割り当てられます。 ない場合に、ユーザーの既定の電話番号として会議ブリッジの有料電話番号が既定値として定義されている番号が割り当てられます。  
+新規ユーザーの場合、電話会議サービスが有効になっている場合は、ユーザーの Office 365 プロファイルで設定された国に基づいて、既定の電話会議の有料電話番号が割り当てられます。 電話会議でユーザーの国と一致する有料番号がある場合、その番号はユーザーの既定の有料電話番号として自動的に割り当てられます。 存在しない場合、電話会議ブリッジの既定の有料電話番号として定義された番号は、ユーザーの既定の有料電話番号として割り当てられます。  
 
-オーディオ会議サービスを有効にすると、ユーザー、既定の有料電話番号とユーザーの無料電話番号はテナント管理者が各自の初期値から任意の時点で。
+電話会議サービスのユーザーを有効にすると、ユーザーの既定の有料電話番号と無料電話番号を初期値からいつでも変更できます。
 
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>設定または会議の開催者またはユーザーの既定の電話会議の電話番号を変更します。
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>会議の開催者またはユーザーの既定の電話会議の電話番号を設定または変更する
 
-![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
-    ![マイクロソフトのチームの管理センターでユーザーを選択することを示します](media/teams-set-phone-numbers-on-invites-image1.png)
+    ![Microsoft Teams 管理センターでのユーザーの選択を示す](media/teams-set-phone-numbers-on-invites-image1.png)
 
-2. ページの上部で、[**編集**] をクリックします。
+2. ページの上部にある [**編集**] をクリックします。
 
-    ![マイクロソフトのチームの管理センターで編集] をクリックします。](media/teams-set-phone-numbers-on-invites-image2.png)
+    ![Microsoft Teams 管理センターで [編集] をクリックする](media/teams-set-phone-numbers-on-invites-image2.png)
 
-3. **オーディオ会議**の横にある [**編集**] をクリックします。 
+3. [**電話会議**] の横の [**編集**] をクリックします。 
     
-    ![編集をクリックしてオーディオ会議](media/teams-set-phone-numbers-on-invites-image3.png)
+    ![電話会議の横にある [編集] をクリックする](media/teams-set-phone-numbers-on-invites-image3.png)
 
-4. **有料電話番号**や**フリー ダイヤル番号**のフィールドを使用すると、ユーザーの数を入力します。
+4. [**有料**電話番号] または [無料**電話番号**] フィールドを使用して、ユーザーの番号を入力します。
 
 
 > [!IMPORTANT]
-> ユーザーの電話会議の設定を変更すると、マイクロソフトのチーム会議の定期的な予定と今後の更新し、出席者に送信する必要があります。 
+> ユーザーの電話会議の設定を変更すると、定期的な Microsoft Teams の会議を更新して出席者に送信する必要があります。 
 
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
 

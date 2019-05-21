@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ケニアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 0e8b97ce7f07ee134532113819214b3f9bc59cc5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下は、Skype for Business の Office 365 サービスと、ケニアで利用可能な Microsoft Teams を示しています。
+ms.openlocfilehash: 39fc3b2669c9a09fa69570744ab265f22adfb896
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203698"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288071"
 ---
 # <a name="availability-in-kenya"></a>ケニアでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-ケニアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+以下は、Skype for Business の Office 365 サービスと、ケニアで利用可能な Microsoft Teams を示しています。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -44,7 +44,7 @@ ms.locfileid: "32203698"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

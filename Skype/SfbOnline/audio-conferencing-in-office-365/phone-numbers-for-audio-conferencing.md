@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -21,68 +21,68 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: ダイヤルイン会議番号がある国と地域、およびそれらの番号の自動割り当て方法について説明します。
-ms.openlocfilehash: 4ba3cea0b009ae91c2df1954cdee283397bf2037
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: daa2312350be038153db168517a1d0f5bd7023cf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229149"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299118"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online の電話会議の電話番号
 
 > [!NOTE]
 > Microsoft Teams の電話番号に関する詳細については、「[Microsoft Teams の電話会議の電話番号](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams)」を参照してください。
 
-When you are setting up **Audio Conferencing** for Skype for Business, dial-in phone numbers are automatically assigned to your organization. You can see the phone numbers that are assigned to your audio conferencing bridge by going to the **Skype for Business admin center** > **Audio conferencing** > **Microsoft bridge**. See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers.md).
+Skype for Business の電話**会議**をセットアップすると、ダイヤルイン電話番号が自動的に組織に割り当てられます。 電話会議ブリッジに割り当てられている電話番号を確認するには、「 **Skype for business 管理センター** > **電話会議** > の**Microsoft bridge**」を参照してください。 「[電話会議の電話番号のリストを表示する](see-a-list-of-audio-conferencing-numbers.md)」を参照してください。
   
 > [!NOTE]
-> There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. If you want to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
+> 電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。 地域または国/地域で利用可能なダイヤルイン電話番号があるかどうかを確認するには、 **Skype for business 管理センター** > **の音声** > **電話番号**を使用し、[**追加**]、[**新しいサービス] の順にクリックします。数値**。 [**国/地域**]、[**都道府県/地域**]、[**市区町村**] のリストを使用して、検索をフィルタします。 また、有料サービスの電話番号をお探しの場合は、「**都道府県/地域**」リストから**無料通話**を選択してください。
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>電話会議のサービス対象範囲と価格情報
 
-For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+電話会議を使用できるすべての国や地域、都市の完全なリストについては、 「[電話会議および通話プランが利用可能な国と地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」を参照してください。 価格情報については、「[電話会議の価格](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)を確認する」を参照してください。
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>会議の出席依頼に表示されるダイヤルイン電話番号
 
-When a Skype for Business Online user schedules a meeting in Outlook or Outlook Web App, the default audio conferencing number that is set for the user is included in the meeting invite. If you want to select a different default number for one or more users, you can change that by going to the **Skype for Business admin center** > **Audio conferencing** > **Users**. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
+Skype for Business Online ユーザーが Outlook または Outlook Web App で会議をスケジュールすると、ユーザーに対して設定されている既定の電話会議番号が会議の出席依頼に含まれます。 1人または複数のユーザーに別の既定の番号を選択する場合は、 **Skype for business 管理センター** > の**電話会議** > **ユーザー**にアクセスして変更することができます。 「[招待状に含まれている電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」を参照してください。
   
 その他のダイヤルイン番号は、会議の出席依頼の [ **電話番号の検索**] リンクをクリックして表示できます。
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>ダイヤルインの電話番号、電話会議ブリッジの設定
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>電話会議ブリッジで設定されたダイヤルイン電話番号
 
-There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Both types of these numbers can be used by any caller to join audio meetings that are being held in your organization.
+会議ブリッジに割り当てることができる電話会議の電話番号には、**共有**と**専用**の2種類があります。 どちらの番号も、任意の発信者が、組織内で開催されている音声会議に参加するために使うことができます。
   
  **専用電話番号** とは、組織内のユーザーだけが使用できる電話番号のことです。誰かがこれらの番号のいずれかに電話をかけるときに使用する言語を変更できます。
   
  **共有電話番号** とは、他の Office 365 組織と共有できる電話番号です。誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
   
-While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
+開催者に割り当てられている既定の電話会議番号は、会議出席依頼にのみ含まれていますが、発信者は会議に参加するために、会議ブリッジに割り当てられている電話番号を使うことができます。 会議に参加するために使用する電話番号の一覧はそれぞれの会議の招待状に含まれる [ **電話番号の検索**] リンクを使用して利用できます。
   
-## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>電話会議の電話番号を自動的に割り当てられます
+## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>自動的に割り当てられた電話会議の電話番号
 
-Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
+共有電話会議の電話番号は、電話会議が有効になっている場合、組織に自動的に割り当てられます。 電話番号が割り当てられる場合、電話番号は会議ブリッジの既定の電話番号として割り当てられます。 ブリッジの既定の番号として割り当てられた電話番号は、組織の国/地域のものです。
   
 > [!NOTE]
-> **組織プロファイル**の下にある**Office 365 管理センター**にサインインし、組織の国または地域の場所をご覧ください。 
+> 組織の国または地域の場所は、 **Office 365 管理センター**にサインインし、[**組織プロファイル**] の下に表示されていることがわかります。 
   
 > [!CAUTION]
-> Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory. 
+> この国/地域の組織の有料電話番号の利用には制限があるため、これらの国/地域の組織では、電話会議の有料電話番号が自動的に割り当てられることはありません。 これらの場所からの無料電話番号は、利用可能なインベントリに応じて利用可能になります。 
   
-Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+専用の電話会議の電話番号は、お客様が取得して組織に割り当てることができるサービス番号です。 サービス番号は、 **Skype For business 管理センター**を使用して見つけることができます。 詳細については、「[サービスの電話番号を取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)する」を参照してください。
   
 電話番号が組織に自動的に割り当てられている国や地域のリストを確認するには、「[電話会議と通話プランを使用できる国および地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」を参照してください。
   
 ## <a name="what-else-should-you-know"></a>その他の情報
 
-- オーディオ会議のサポートされている言語の一覧を表示するには、[サポートされている言語の音声会議](/MicrosoftTeams/audio-conferencing-supported-languages)を参照してください。
+- 電話会議でサポートされる言語の一覧を表示するには、「[電話会議でサポートされる言語](/MicrosoftTeams/audio-conferencing-supported-languages)」を参照してください。
     
-- [Get CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691)コマンドレットを使用すると、専用の電話番号は、組織の音声会議を参照してください。
+- [Get-set-csonlinedialinconferencingservicenumber](https://go.microsoft.com/fwlink/?LinkId=617691)コマンドレットを使用して、組織の電話会議の専用電話番号を表示することができます。
     
 - [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) コマンドレットを使って、ダイヤルインの専用電話番号に対して設定できる言語を表示できます。
     
-- You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
+- 電話会議の電話番号ごとに最大4つの言語を設定できます。1つはプライマリと3つのセカンダリです。 また、専用の電話会議用の電話番号で言語を設定することもできます。
     
-- ユーザーのダイヤルインの電話番号を設定するには、[携帯電話への招待に含まれている番号の設定](set-the-phone-numbers-included-on-invites.md)を参照してください。
+- ユーザー用にダイヤルイン電話番号を設定するには、「[招待に含まれる電話番号を設定](set-the-phone-numbers-included-on-invites.md)する」を参照してください。
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    

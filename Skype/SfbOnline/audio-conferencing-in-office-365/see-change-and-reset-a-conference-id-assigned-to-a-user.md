@@ -1,5 +1,5 @@
 ---
-title: 参照してください、変更、およびオンライン ビジネスの Skype のユーザーに割り当てられている会議 ID をリセットします。
+title: Skype for Business Online のユーザーに割り当てられている会議 ID を表示、変更、リセットする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,32 +20,32 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Skype of business オンライン のユーザーに会議 ID を割り当てる方法と、会議ID パラメーターのあるべき姿について学びます。 '
-ms.openlocfilehash: eb7d42fa88c54b917e89eb97ce9f52bd03af4935
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 28d18b6a12fdfcb40fa43904b8cc8a0461977c38
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229333"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298923"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Skype of businessオンラインのユーザーに割り当てられている会議 ID を表示させリセットしてください。
 
 > [!Note]
 > マイクロソフト チーム内でのユーザー会議 Id の詳細については、 [マイクロソフト チーム 内のユーザーに割り当てられている会議 IDの表示とリセット](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)を参照してください。
 
-A conferencing ID is automatically assigned to a Skype for Business user when they are set up for Audio Conferencing in Office 365 and use Microsoft as the audio conferencing provider. The conference ID assigned is sent in the meeting invite when the meeting is scheduled. Each meeting that a user schedules will get assigned a unique conference ID.
+会議 ID は、Office 365 での音声会議用に設定し、Microsoft をオーディオ会議プロバイダーとしてを使用する場合に、Skype of business の ユーザーに自動的に割り当てられます。 会議がスケジュールされると、割り当てられた会議 ID が会議の出席依頼に送信されます。 ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。
 
-Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or when your users can't remember or have lost their conference ID. You can use the **Skype for Business admin center** and Windows PowerShell to view, change, and reset their conference ID.
+会議 ID は自動的に作成され、ユーザーに割り当てられますが、ユーザーがこの機能を使用したくない場合や、特定の番号に設定したい場合、またはユーザーが自分の会議 ID を忘れてしまったり、紛失したりする場合もあります。 **Skype For business 管理センター**と Windows PowerShell を使用して、会議 ID を表示、変更、リセットすることができます。
 
-An email will be sent to the user with the conference ID and the default audio conferencing phone numbers, or if you reset the conference ID a different email will be sent that will include the conference ID but not a PIN. For more information about resetting a conference organizer's PIN, [go here](reset-a-conference-id-for-a-user.md).
+ユーザーに会議 ID と既定の電話会議の電話番号が含む電子メールが送信されるか、または会議 ID をリセットすると、PINではない 会議 ID を含む別の電子メールが送信されます。 会議の開催者のPINをリセットするの詳細については、 [ここ](reset-a-conference-id-for-a-user.md)をクリックします。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="view-and-reset-conference-ids"></a>会議 Idの表示と リセット
 
-### <a name="to-view-the-conference-id"></a>会議 ID を表示するのには
+### <a name="to-view-the-conference-id"></a>会議 ID を表示するには
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
 会議 ID を表示し、ユーザーに送信することができます。
 
@@ -58,11 +58,11 @@ An email will be sent to the user with the conference ID and the default audio c
 4. アクション ページで、**会議 ID** を確認します。
 
     > [!TIP]
-    > [**ユーザー** ] ページで、ユーザーを選択した後に**電子メールを使用して会議情報を送信する**リンクをクリックして、会議 ID とオーディオの電話番号を含む電子メールでユーザーにすべての会議の情報を送信できます。
+    > [**ユーザー** ] ページでユーザーを選択した後、[電話会議**情報をメールで送信**] リンクをクリックすると、会議 ID と電話番号を含むメールのユーザーにすべての会議情報を送信できます。
 
-**The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.**
+**Windows PowerShell を使用する**
 
-You can use Windows PowerShell to view the conference ID for a user. To do so, run:
+ユーザーの会議 ID を表示するのにWindows PowerShell を使用できます。 そのためには、次を実行します。
 
   ```
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
@@ -71,23 +71,23 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
     See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
 
 
-### <a name="to-reset-the-conference-id"></a>会議 ID をリセットするのには
+### <a name="to-reset-the-conference-id"></a>会議 ID をリセットするには
 
 例えば忘れてしまったなどの場合のために、ユーザーの会議 ID をリセットできます。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
 2. Go to the **Office 365 admin center** > **Skype for Business**.
 
-3. **ビジネス管理センターの Skype**の> **電話会議** > **ユーザー**、操作ウィンドウの [**会議 ID**に**リセット**] をクリックします。
+3. **Skype for business 管理センター**> **電話会議** > **ユーザー**で、操作ウィンドウの [**会議 ID**] で [**リセット**] をクリックします。
 
-4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
+4. [**会議 ID をリセットしますか?** ] ウィンドウで、[**はい**] をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
-**The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.**
+**Windows PowerShell を使用する**
 
-You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
+ユーザーの会議 ID をリセットするには、Windows PowerShell を使用します。 これを行う場合は、次を実行します。
 
   ```
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
@@ -96,11 +96,11 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 ## <a name="what-else-should-you-know"></a>その他の情報
 
    > [!IMPORTANT]
-   >  After a new conference ID is created or one is reset, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+   >  新しい会議 ID を作成するか、またはリセットした後は、古い会議 ID を発信者が使用することはできません。 既存の会議の出席依頼のスケジュールを変更して、新しい会議 ID を出席依頼に追加するように、ユーザーに通知してください。 ユーザーは Skype for Business 会議移行ツールを使用して、既存の会議を更新することができます。 このツールのダウンロード、インストール、実行の方法については、「 [skype For business および Lync の会議更新ツール](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)」、「 [Skype for Business Online、会議移行ツール (64 ビット)](https://go.microsoft.com/fwlink/?LinkID=626047)」、「 [Skype For Business online、会議移行ツール (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)」を参照してください。
 
-- コマンドレットの詳細については、[設定 CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 )を参照してください。
+- コマンドレットの詳細については、「 [Set-get-csonlinedialinconferencinguser](https://go.microsoft.com/fwlink/?LinkId=617688 ) 」を参照してください。
 
-- The conference ID must meet the length in digits set on the audio conferencing bridge. You can't use alphabetic or special characters in conference IDs; only numbers can be used.
+- 会議 ID は、オーディオ会議ブリッジに設定された桁の長さを満たす必要があります。 会議 Id には、アルファベットまたは特殊文字を使うことはできません。数値のみが使用できます。
 
 - オーディオ会議のすべてのユーザーの会議 ID は、既定では、7 桁になります。桁数を変更することはできません。
 
@@ -119,7 +119,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
 
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>関連項目
 

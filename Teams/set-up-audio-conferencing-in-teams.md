@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チームの電話会議を設定します
+title: Microsoft Teams の電話会議を設定する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,19 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
-description: '電話会議に参加するのには、電話を使用する必要があるビジネス人のダイヤルインまたはオーディオ会議を設定する方法について説明します。 '
-ms.openlocfilehash: 7ff24dd2b29eabbad46759471b69c3619e4e7b24
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '電話会議への参加に電話を使用する必要がある、社内のユーザーに対してダイヤルインまたは電話会議をセットアップする方法について説明します。 '
+ms.openlocfilehash: 8702a41546eede73779247eb6816704e60225087
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204881"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305262"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>マイクロソフト チームの電話会議を設定します
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
 
-自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 マイクロソフトのチームには、これだけの音声会議機能が含まれています! 人は、チームのアプリケーションを使用して、モバイル デバイスまたは PC 上ではなく、電話を使用してチームのミーティング呼び出すことができます。 
+自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams には、このような状況での電話会議機能が含まれています。 ユーザーは、モバイルデバイスや PC で Teams アプリを使う代わりに、電話を使って Teams 会議にコールインすることができます。 
   
-電話会議のセットアップは、ミーティングのスケジュールを設定するユーザーまたはミーティングを主催するユーザーにのみ必要です。 ダイヤルインする会議参加者には、割り当てられたライセンスやその他のセットアップは必要ありません。
+電話会議の設定は、会議のスケジュールを設定または会議を進行するユーザーに対してのみ必要です。ダイヤルインで参加するユーザーについては、ライセンスの割り当てや他の設定は必要ありません。
   
 電話会議についてよく寄せられる質問については、「[電話会議についてよくある質問](audio-conferencing-common-questions.md)」を参照してください。
 
@@ -46,61 +46,61 @@ ms.locfileid: "32204881"
  
 ## <a name="step-2-get-and-assign-licenses"></a>手順 2: ライセンスを取得して割り当てる
  
-1. 電話会議では、ダイヤルイン会議をセットアップするユーザーごとにライセンスが必要です。 オーディオ会議と、コストはどのくらいのために購入する必要がありますライセンスについては、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
+1. 電話会議では、ダイヤルイン会議をセットアップするユーザーごとにライセンスが必要です。 電話会議用に購入する必要があるライセンスとその料金については、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
     >[!NOTE] 
-    > オーディオ会議は、アドオンと Office 365 エンタープライズ E5 のライセンスには含まれています。
+    > 電話会議は、Office 365 Enterprise E5 ライセンスとアドオンとして含まれています。
         
-2. オーディオ会議のライセンスを購入した後は、人、組織の会議やスケジュールを設定するのに割り当てる必要があります。 [ビジネス向けの Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)に、ユーザーが組織内で会議をスケジュールまたは潜在顧客を購入するを参照してください。
+2. 電話会議ライセンスを購入したら、会議をスケジュールまたは開催しようとしている組織内のユーザーにそれらを割り当てる必要があります。 会議をスケジュールまたは開催しようとしている組織内のユーザーに購入した一般[法人向け Office 365 のライセンスをユーザーに割り当てる](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)方法について説明します。
     
 3. また、前の手順でライセンスを割り当てた同じユーザーに、コミュニケーション クレジット ライセンス (費用はかかりません) を割り当てることをおすすめします。 コミュニケーション クレジットのセットアップ方法については、「[組織向けにコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)」を参照してください。
     
 > [!NOTE]
-> [1 分あたりの支払電話会議](audio-conferencing-pay-per-minute.md)を設定することもできます。
+> 1[分あたりの通話料金](audio-conferencing-pay-per-minute.md)を設定することもできます。
 
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>手順 3: 会議ブリッジのサービス番号を取得する
 <a name="__top"> </a>
 
 電話会議では、ユーザーの電話番号を使うことはできません。サービス番号を取得する必要があります。 会議ブリッジ用に、有料または無料のサービス番号のいずれかを取得することができます。 有料サービス番号と無料サービス番号を取得する方法は 3 通りあります。 
   
-- **マイクロソフトのチーム管理センターを使用**します。 一部の国/地域のマイクロソフトのチーム管理センターを使用して、会議用ブリッジのサービス番号を取得できます。 [取得サービスの電話番号](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を参照してください。
+- **Microsoft Teams 管理センターを使用**します。 一部の国/地域では、Microsoft Teams 管理センターを使って、会議ブリッジのサービス番号を取得できます。 「[サービスの電話番号を取得](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)する」をご覧ください。
     
-- **ポートは、既存のサービスの番号**です。 ポートまたは現在のサービス プロバイダーまたは電話のキャリアからの既存の番号を Office 365 に転送。 この方法の詳細については、「[Office 365 に電話番号を移行](transfer-phone-numbers-to-office-365.md)」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。  
+- **既存のサービス番号を移植**します。 現在のサービスプロバイダーまたは電話会社から Office 365 に既存の電話番号を移行または転送するには、 この方法の詳細については、「[Office 365 に電話番号を移行](transfer-phone-numbers-to-office-365.md)」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。  
   
-- **新しい番号の要求フォームを使用**します。 場合があります (国または地域) によってことはできません、マイクロソフトのチーム管理センターを使用して、新しいサービスの番号を取得するか、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。 
+- **新しい番号には要求フォームを使用**します。 場合によっては (お住まいの国/地域によっては)、Microsoft Teams 管理センターを使用して新しいサービス番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。 
     
 ## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>手順 4: 会議ブリッジにサービス番号を割り当てる
 <a name="__top"> </a>
 
-会議用ブリッジは、有料または無料の電話番号を取得するとは、会議出席依頼に使用できるように番号を割り当てる必要があります。  
+電話会議ブリッジの有料または無料の電話番号を取得したら、電話番号を割り当てて会議出席依頼に使用できるようにする必要があります。  
 
-オーディオ会議ブリッジは、新しい電話番号を割り当てるにはこれらの手順に従います。
+新しい電話番号を電話会議ブリッジに割り当てるには、次の手順に従います。
 
-![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
+![](media/sfb-logo-30x30.png) sfb-logo-30x30 **Skype for business 管理センターを使用している場合:**
 
- 1. **Microsoft 365 管理センター**を参照して > **管理センター** > **チーム** > **従来のポータル**です。
- 2. **音声**を選択して > **の電話番号**です。
- 3. 電話番号を選択し、[**割り当て**] をクリックします。
+ 1. **Microsoft 365 管理センター** > **管理** > センター**チーム** > の従来の**ポータル**に移動します。
+ 2.  > [ ******電話番号**] を選択します。
+ 3. 電話番号を選択して、「**割り当て**」をクリックします。
 
-詳細については、[変更オーディオ会議ブリッジの電話番号](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)を参照してください。
+詳細については、「[電話会議ブリッジの電話番号を変更](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)する」を参照してください。
 
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>手順 5: 会議ブリッジ用の既定言語と第 2 言語を設定する
-<a name="__top"></a> [自動アテンダントの言語のマイクロソフトのチームでのオーディオ会議を設定](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)するにダイヤルするときの電話番号に電話会議の呼び出し元を呼びかけられるように設定するのには、会議自動アテンダントを使用する次に、します。 
+<a name="__top"></a>次に、 [Microsoft Teams の電話会議の自動応答の言語を設定](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)します。このとき、会議の自動応答で電話会議の電話番号にダイヤルインするときに、挨拶メッセージの発信者が通話を発信します。 
 
-![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **マイクロソフト チームの管理センターを使用**します。
+![](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用した**teams-logo-30x30:
 
-1. **会議**には、ダッシュ ボードから > **会議ブリッジ**です。
-2. 会議ブリッジの電話番号を選択して**編集**を、既定の言語を選択します。
+1. ダッシュボードで、[**会議** > **会議ブリッジ**] に移動します。
+2. 会議ブリッジの電話番号を選択し、[**編集**] をクリックして、既定の言語を選択します。
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>手順 6: 会議ブリッジを設定する
 <a name="__top"> </a>
     
 会議ブリッジをセットアップした後、使用する開始/終了の通知と PIN の長さが正しいかなど、既定の設定を確認します。正しくない場合は、変更することができます。 
 
-![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **マイクロソフト チームの管理センターを使用**します。
+![](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用した**teams-logo-30x30:
 
-1. **会議**には、ダッシュ ボードから > **会議ブリッジ**です。
-2. **ブリッジの設定**を選択します。 [**ブリッジの設定**] ウィンドウが開きます。 
+1. ダッシュボードで、[**会議** > **会議ブリッジ**] に移動します。
+2. [**ブリッジの設定**] を選びます。 [**ブリッジの設定**] ウィンドウが開きます。 
 
 詳細については、[電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md) を参照してください。
 
@@ -110,10 +110,10 @@ ms.locfileid: "32204881"
 
 この操作を、会議を主催したり計画している組織内のすべてのユーザーに対して行う必要があります。 
 
-![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **マイクロソフト チームの管理センターを使用**します。
+![](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用した**teams-logo-30x30:
 
-1. ダッシュ ボードで、[**ユーザー**] をクリックし、ボックスの一覧からユーザーを選択して**編集**を選択します。
-2. **オーディオ会議**の横の**編集**を選択して、**オーディオ会議**ウィンドウで、**有料電話番号**や**フリー ダイヤル**番号のリスト内の数値。
+1. ダッシュボードで、[**ユーザー**] をクリックし、一覧からユーザーを選んで、[**編集**] を選びます。
+2. [電話**会議**] の横にある [**編集**] を選択し、[電話**会議**] ウィンドウで、[**有料**電話番号] と [**無料電話**番号] の一覧から番号を選びます。
 
 さらに詳細が必要な場合は、「[Microsoft を電話会議プロバイダーとして割り当てる](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。
 
@@ -121,7 +121,7 @@ ms.locfileid: "32204881"
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>手順 8: 会議の招集をセットアップする（オプション）
 <a name="__top"> </a>
  
-ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議招集に自動的に追加されます。 ただし、必要に応じて、独自のヘルプや法律のリンク、テキスト メッセージ、小さな会社のグラフィックを追加できます。 [ミーティングの招待状をカスタマイズする](customize-meeting-invitations.md)を参照してください。
+ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議招集に自動的に追加されます。 ただし、必要に応じて、独自のヘルプや法律のリンク、テキスト メッセージ、小さな会社のグラフィックを追加できます。 「[会議出席依頼をカスタマイズ](customize-meeting-invitations.md)する」を参照してください。
    
 ## <a name="related-topics"></a>関連トピック
 

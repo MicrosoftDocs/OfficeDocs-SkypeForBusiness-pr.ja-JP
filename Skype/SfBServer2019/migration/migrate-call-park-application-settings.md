@@ -4,21 +4,21 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 従来のインストールにアップロードされている保留中のファイルに、カスタムの音楽でのプールのビジネス サーバー 2019 Skype を提供するアプリケーションが含まれているパークの移行、サービス レベルの設定を復元して、すべてのコール パークの再ターゲット周囲を回りながらに、ビジネス サーバー 2019 プールの Skype です。 カスタマイズされた音楽-保留中のファイルは、プール内に構成されている場合、これらのファイルはビジネス サーバー 2019 プールの新しい Skype にコピーする必要があります。 さらに、音楽の保留中のファイルからのカスタマイズされた音楽-保留中のファイルのアップロードされたコール パークの独立したバックアップ ・ コピーを保持する別の出力先をカスタマイズ、コール パークをバックアップすることをお勧めします。 プールのファイル ストアには、コール パーク アプリケーションのカスタマイズされた音楽-保留中のファイルが格納されています。 プールのファイル ストアから、Skype ビジネス サーバー 2019 ファイル ストア用にオーディオ ファイルをコピーするには、次のパラメーターで Xcopy コマンドを使用します。
-ms.openlocfilehash: 3d9c2904d66ac5d35bdd94631ec23c67288a5c3a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: コールパークアプリケーションの移行には、Skype for Business Server 2019 プールのプロビジョニングが含まれています。このファイルには、従来のインストールでアップロードされたカスタム音楽が含まれています。また、サービスレベル設定を復元して、orbits の retargetingSkype for Business Server 2019 プール。 カスタマイズした音楽の保留中のファイルがプールで構成されている場合は、これらのファイルを新しい Skype for Business Server 2019 プールにコピーする必要があります。 さらに、コールパーク用にアップロードされた、カスタマイズされた音楽の保存ファイルを別の場所にバックアップしておくことをお勧めします。これは、コールパーク用にアップロードされたカスタマイズされた音楽の保存ファイルの個別のバックアップコピーを保持するためです。 コールパークアプリケーション用にカスタマイズされた音楽保留のファイルは、プールのファイルストアに保存されます。 プールファイルストアから Skype for Business Server 2019 ファイルストアにオーディオファイルをコピーするには、次のパラメーターを使用して Xcopy コマンドを使用します。
+ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238374"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280832"
 ---
 # <a name="migrate-call-park-application-settings"></a>コール パーク アプリケーション設定の移行
 
-コール パーク アプリケーションの移行は、従来のインストール、サービス ・ レベルの設定を復元して、すべてのコール パーク軌道を再ターゲットにアップロードされているカスタムの音楽の保留中のファイルでのビジネス サーバー 2019 プールの Skype の準備ビジネス サーバー 2019 プールの Skype です。 カスタマイズされた音楽-保留中のファイルは、プール内に構成されている場合、これらのファイルはビジネス サーバー 2019 プールの新しい Skype にコピーする必要があります。 さらに、カスタマイズされた音楽-保留中のファイルのアップロードされたコール パークの独立したバックアップ ・ コピーを保持する別の出力先に保留中の音楽ファイルをカスタマイズ、コール パークをバックアップすることをお勧めします。 プールのファイル ストアには、コール パーク アプリケーションのカスタマイズされた音楽-保留中のファイルが格納されています。 プールのファイル ストアから、Skype ビジネス サーバー 2019 ファイル ストア用にオーディオ ファイルをコピーするには、次のパラメーターで**Xcopy**コマンドを使用します。 
+コールパークアプリケーションの移行には、Skype for Business Server 2019 プールのプロビジョニングが含まれます。このファイルには、従来のインストールでアップロードされたカスタムの音楽の保存ファイルが含まれています。サービスレベルの設定を復元して、すべてのコールパーク orbits を再ターゲット化します。Skype for Business Server 2019 プール。 カスタマイズした音楽の保留中のファイルがプールで構成されている場合は、これらのファイルを新しい Skype for Business Server 2019 プールにコピーする必要があります。 さらに、通話パークをカスタマイズして、コールパーク用にアップロードされたカスタマイズされた音楽の保存ファイルを別の場所に保存することをお勧めします。 コールパークアプリケーション用にカスタマイズされた音楽保留のファイルは、プールのファイルストアに保存されます。 プールファイルストアから Skype for Business Server 2019 ファイルストアにオーディオファイルをコピーするには、次のパラメーターを使用して**Xcopy**コマンドを使用します。 
 
 ```
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
@@ -28,40 +28,40 @@ Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business
 Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Skype for Business Server 2019 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 ```
 
-ビジネス サーバー 2019 ファイル ストアの Skype をカスタマイズしたすべてのオーディオ ファイルがコピーされたら、コール パーク アプリケーション設定、Skype のビジネス サーバー 2019 のプールを構成する必要があり、コール パーク オービット範囲が従来のプールに関連付けられています。ビジネス サーバー 2019 プールの Skype を再割り当てする必要があります。
+カスタマイズされたすべてのオーディオファイルが Skype for Business Server 2019 ファイルストアにコピーされると、Skype for Business Server 2019 プールのコールパークアプリケーションの設定が構成され、従来のプールと関連付けられている範囲がコールパークで呼び出されます。Skype for Business Server 2019 プールに再割り当てする必要があります。
 
-コール パーク アプリケーションの設定には、有効化または保留、ピックアップ呼び出しの最大試行回数、およびタイムアウトの要求上の音楽を無効にすると、ピックアップのタイムアウトのしきい値にはが含まれます。 **セット CsCpsConfiguration**コマンドレットを実行するビジネス サーバー管理シェルの Skype を使用して、コール パーク アプリケーションの設定を管理する必要があります。 ビジネス サーバーのコントロール パネルの Skype を使用してコール パーク アプリケーションの設定を管理することはできません。 
+コールパークアプリケーションの設定には、ピックアップタイムアウトしきい値、保留中の音楽を有効または無効にする、最大通話ピックアップ試行回数、タイムアウト要求が含まれます。 **CsCpsConfiguration**コマンドレットを実行するには、Skype For Business Server 管理シェルを使用して、コールパークアプリケーションの設定を管理する必要があります。 Skype for Business Server コントロールパネルを使用して、コールパークアプリケーションの設定を管理することはできません。 
 
-## <a name="reconfigure-the-call-park-service-settings"></a>コール パーク サービスの設定を再構成します。
+## <a name="reconfigure-the-call-park-service-settings"></a>コールパークサービス設定を再構成する
 
-1. ビジネス 2019 フロント エンド サーバーの Skype、Skype ビジネス サーバー管理シェルを開きます。
+1. Skype for Business Server 2019 フロントエンドサーバーから、Skype for Business Server 管理シェルを開きます。
 
 2. コマンドラインで、次のように入力します。
 
     > [!NOTE]
-    > ビジネス サーバー 2019 コール パーク アプリケーションの設定は、Skype が従来の設定と同じ場合は、この手順は省略できます。 コール パーク アプリケーションの設定が異なる場合、Skype ビジネス サーバー 2019 および従来の環境のため、これらの変更を更新するテンプレートとして次のコマンドレットを使用します。 
+    > Skype for Business Server 2019 Call パークのアプリケーション設定が従来の設定と同じである場合は、この手順をスキップできます。 コールパークアプリケーションの設定が Skype for Business Server 2019 と従来の環境で異なる場合は、次のコマンドレットをテンプレートとして使用して、それらの変更を更新します。 
 
    ```
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
    ```
 
-ビジネス サーバー 2019 プールの Skype に従来のプールからのすべてのコール パーク ・軌道の範囲を割り当て直すには、ビジネスのサーバー管理シェルのビジネス サーバーのコントロール パネルの Skype または、Skype のいずれかを使用できます。 
+すべてのコールパークを、従来のプールから Skype for Business Server 2019 プールに再割り当てするには、Skype for Business Server コントロールパネルまたは Skype for Business Server の管理シェルを使用します。 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用するすべてのコール パーク軌道範囲を再割り当てください。
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用してすべてのコールパークの範囲を再割り当てする
 
-1. Skype をビジネス サーバーのコントロール パネルを開きます。
+1. Skype for Business Server コントロールパネルを開きます。
 
-2. 左側のウィンドウでは、**音声機能**を選択します。
+2. 左側のウィンドウで、[**音声機能**] を選択します。
 
-3. [**コール パーク**] タブを選択します。 
+3. [ **Call パーク**] タブを選択します。 
 
-4. レガシ プールに割り当てられている各コール パーク軌道範囲では、**宛先サーバーの FQDN**設定を編集する、コール パークの要求を処理するビジネス サーバー 2019 プールの Skype を選択してください。 
+4. 従来のプールに割り当てられている各通話パークの範囲は、[**宛先サーバーの FQDN** ] の設定を編集し、コールパーク要求を処理する Skype For business server 2019 プールを選択します。 
 
-5. **コミット**変更を保存するを選択します。 
+5. [**コミット**] を選んで変更を保存します。 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>ビジネス サーバー管理シェルの Skype を使用するすべてのコール パーク軌道範囲を再割り当てください。
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してすべてのコールパーク範囲を再割り当てする
 
-1. Skype をビジネス サーバー管理シェルを開きます。
+1. Skype for Business Server 管理シェルを開きます。
 
 2. コマンドラインで、次のように入力します。
 
@@ -69,14 +69,14 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
    Get-CsCallParkOrbit
    ```
 
-    このコマンドレットには、すべての展開でコール パークの移動範囲が一覧表示されます。 レガシ プールとして設定する**CallParkServiceId**と**CallParkServerFqdn**のパラメーターを持つすべてのコール パーク軌道を再割り当てする必要があります。 
+    このコマンドレットは、展開内のすべてのコールパーク範囲の範囲を一覧表示します。 **CallParkServiceId**と**Callparkserverfqdn**パラメーターが設定されているすべての Call パーク orbits は、再割り当てする必要があります。 
 
-    従来のパークの回り込みを再割り当てするには、ビジネス サーバー 2019 プールには、コマンド行に、Skype の範囲は次のとおり入力します。
+    従来のコールパークの範囲を Skype for Business Server 2019 プールに再割り当てするには、コマンドラインで次のように入力します。
 
    ```
    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Skype for Business Server 2019 Pool FQDN>"
    ```
 
-ビジネス サーバー 2019 プールの Skype へのすべてのコール パーク軌道範囲を再割り当てすることは後、は、コール パーク アプリケーションの移行プロセスが完了して、ビジネス サーバー 2019 プールの Skype は、コール パークのすべての要求を処理します。
+すべてのコールパークの範囲を Skype for Business Server 2019 プールに再割り当てした後、コールパークアプリケーションの移行プロセスが完了し、Skype for Business Server 2019 プールは、今後のすべてのコールパーク要求を処理します。
 
 

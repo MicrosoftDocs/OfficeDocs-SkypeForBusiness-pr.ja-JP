@@ -1,31 +1,31 @@
 ---
-title: Skype の一覧のレポートをビジネスのサーバーの障害
+title: Skype for Business Server のエラーリストレポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: '概要: は、ビジネスのサーバーの Skype でエラーの一覧のレポートについて説明します。'
-ms.openlocfilehash: 67c02e9b0366bcf850139717eedf5c3946183988
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のエラーリストレポートについて説明します。'
+ms.openlocfilehash: 72637863d7a15d26ea997de8a9c3526279afc57f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926600"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305760"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Skype の一覧のレポートをビジネスのサーバーの障害 
+# <a name="failure-list-report-in-skype-for-business-server"></a>Skype for Business Server のエラーリストレポート 
  
-**の概要:** ビジネス サーバーの Skype のエラーの一覧のレポートについて説明します。
+**概要:** Skype for Business Server のエラーリストレポートについて説明します。
   
 エラー リスト レポートは、エラーが発生したピアツーピア セッションまたは電話会議セッションに参加した個々の参加者に関する情報を提供します。この情報には、問題が発生したユーザーの URI、エラーに関連付けられている SIP 応答コードおよび診断 ID が含まれています。
   
 ## <a name="accessing-the-failure-list-report"></a>エラー リスト レポートへのアクセス
 
-エラーの一覧のレポートは、[ビジネス サーバーの Skype でのエラー分布レポート](failure-distribution-report.md)に次の測定値のいずれかをクリックしてアクセスされます。
+[エラー一覧] レポートにアクセスするには、 [Skype For Business Server のエラー配布レポート](failure-distribution-report.md)で、次のいずれかの指標をクリックします。
   
 - トップの診断理由 (セッション)
     
@@ -43,7 +43,7 @@ ms.locfileid: "33926600"
     
 - トップの発信元ユーザー エージェント (セッション)
     
-エラーの一覧のレポートからは、ピア ツー ピア セッションのセッションの詳細メトリックをクリックすると、 [Business Server の Skype でのピア ツー ピア セッション詳細レポート](peer-to-peer-session-detail-report.md)を表示できます。 また、電話会議の [電話会議] の指標をクリックすると、会議詳細レポートにもアクセスできます。
+[エラー一覧] レポートから、 [Skype For Business Server のピアツーピアセッション詳細レポート](peer-to-peer-session-detail-report.md)にアクセスできます。これには、ピアツーピアセッションのセッション詳細メトリックをクリックします。 また、電話会議の [電話会議] の指標をクリックすると、会議詳細レポートにもアクセスできます。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>エラー リスト レポートの活用
 
@@ -51,7 +51,7 @@ ms.locfileid: "33926600"
   
 ユーザーのメディアの作成中に内部サーバー エラーが発生しました。
   
-エラーの一覧のレポートには、直接には、少なくとも 1 つの障害が発生したセッションに参加したすべてのユーザーの一覧を取得する簡単な方法は提供されませんすることが重要も、ユーザーが最も頻繁に関与するかを決定する方法が提供されることで、障害が発生しました。セッションです。 (1 つは、エラーの一覧のレポートがありませんフィルタ リング機能)。ただし、データをエクスポートし、それをコンマ区切り値ファイルに変換する場合は、このような質問に対する回答を検索するのには Windows PowerShell を使用できます。 たとえば、データを保存するのです。CSV ファイルでは、C:\Data\Failure_List.csv という名前です。 そのファイルに保存されているデータに基づいて、このコマンドを少なくとも 1 つの障害が発生したセッションに関与したすべてのユーザーの一覧です。 
+障害リストレポートでは、1つ以上のセッションに参加しているすべてのユーザーの一覧を直接取得する方法はありません。また、どのユーザーが失敗したかを判断する方法も提供されていない点に注意してください。セッション. (1 つの問題については、エラーリストレポートにはフィルター機能はありません)。ただし、データをエクスポートして、コンマ区切り値ファイルに変換した場合は、Windows PowerShell を使用して、そのような質問に対する回答を見つけることができます。 たとえば、データをに保存するとします。C:\Data\Failure_List.csv. という名前の CSV ファイル このコマンドは、そのファイルに保存されているデータに基づいて、1つ以上の失敗したセッションに参加していたすべてのユーザーを一覧表示します。 
   
 ```
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"

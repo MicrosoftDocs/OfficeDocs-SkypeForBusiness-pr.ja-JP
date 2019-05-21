@@ -1,27 +1,27 @@
 ---
-title: ビジネス サーバーの Skype で会議診断レポート
+title: Skype for Business Server の会議の診断レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: '概要: は、Skype のビジネスのサーバーが使用する会議診断レポートについて説明します。'
-ms.openlocfilehash: b2cfd39ab3d6bdc6af8230bbed995e511719bf72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で使用されている会議診断レポートについて説明します。'
+ms.openlocfilehash: bfe84c50b3aaee53da1dc460f501e3c9a82528af
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926572"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289301"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype で会議診断レポート
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server の会議の診断レポート
  
-**の概要:** Skype のビジネスのサーバーが使用する会議診断レポートについて説明します。
+**概要:** Skype for Business Server で使用されている会議診断レポートについて説明します。
   
-電話会議診断レポートは、すべての電話会議セッションの成功とエラーに関する情報を提供します。 Skype ビジネス サーバーを区別しているさまざまな種類の障害に注意してください。
+電話会議診断レポートは、すべての電話会議セッションの成功とエラーに関する情報を提供します。 Skype for Business Server は、さまざまな種類のエラーを区別することに注意してください。
   
 - **予期されたエラー**。予期されたエラーは通常、単に技術的な意味においてのエラーです。たとえば、誰かが会議を始めたものの、1 人も参加しないうちに切断したとします。会議は開始されたのに完了しなかったので、技術的にはエラーです。しかし 1 人も参加しないうちに開催者が会議をキャンセルした場合に会議が完了しないのは当然なので、発生が予期されたエラーです。
     
@@ -33,11 +33,11 @@ ms.locfileid: "33926572"
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
-2,024 + 469 + 16 は合計 2,509 セッションになりますが、[セッションの合計数] 列には合計 2,521 セッションと表示されています。 "不足分" の 12 セッションは、システムが成功または失敗に分類できなかったセッションです。 場合がありますになる場合は、サード ・ パーティ製品は、サーバーの監視を理解することはない新しい診断コードを紹介するとき。 その場合、当該製品を使用した通話や当該診断コードのレポートは、成功、予期されたエラー、または予期しないエラーに分類できるとは限りません。
+2,024 + 469 + 16 は合計 2,509 セッションになりますが、[セッションの合計数] 列には合計 2,521 セッションと表示されています。 "不足分" の 12 セッションは、システムが成功または失敗に分類できなかったセッションです。 このような場合には、サードパーティ製の製品で、サーバーの監視に馴染みのない新しい診断コードが導入されていることがあります。 その場合、当該製品を使用した通話や当該診断コードのレポートは、成功、予期されたエラー、または予期しないエラーに分類できるとは限りません。
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>電話会議診断レポートへのアクセス
 
-電話会議診断レポートは [監視レポート] ホーム ページからアクセスします。 [ビジネス サーバーの Skype でのエラー分布レポート](failure-distribution-report.md)は、次の測定値のいずれかをクリックしてアクセスできます。
+電話会議診断レポートは [監視レポート] ホーム ページからアクセスします。 次の指標のいずれかをクリックすると、 [Skype For Business Server のエラー配布レポート](failure-distribution-report.md)にアクセスできます。
   
 - 予期しないエラー ボリューム
     
@@ -45,7 +45,7 @@ ms.locfileid: "33926572"
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>電話会議診断レポートの活用
 
-電話会議診断レポートには一連のグラフが含まれています。 グラフの各列は実際にはハイパーリンクです。 列をクリックした場合はその時間帯とその会議の種類の[ビジネス サーバーの Skype でのエラー分布レポート](failure-distribution-report.md)にドリル ダウンします。
+電話会議診断レポートには一連のグラフが含まれています。 グラフの各列は実際にはハイパーリンクです。 列をクリックすると、その期間の[Skype For Business Server のエラー配布レポート](failure-distribution-report.md)とその会議の種類が表示されます。
   
 ## <a name="filters"></a>フィルター
 

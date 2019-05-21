@@ -1,67 +1,67 @@
 ---
-title: Azure のモニターを使用して Microsoft チームの会議室の管理を計画します。
+title: Azure モニターを使用して Microsoft Teams の会議室の管理を計画する
 ms.author: jambirk
 author: jambirk
 ms.reviewer: Turgayo
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: M365-voice
-description: この資料では、Azure のモニターを使用して企業やチームの実装については、Skype でマイクロソフト チームの会議室のデバイスを管理するための計画に関する考慮事項について説明します。
-ms.openlocfilehash: 67a74d0bd02465d1a84856238e3e65a049b23ab4
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: この記事では、Azure モニターを使用して、Skype for Business または Teams の実装で Microsoft Teams 室のデバイスを管理する際の計画の考慮事項について説明します。
+ms.openlocfilehash: 98b4ebb61f4f287b94967f0cfd80b6f0ca9caeaf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362899"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306551"
 ---
-# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure のモニターを使用して Microsoft チームの会議室の管理を計画します。
+# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure モニターを使用して Microsoft Teams の会議室の管理を計画する
  
- この資料では、Azure のモニターを使用してビジネスの実装については、マイクロソフトのチームまたは Skype でデバイスをマイクロソフト チームの会議室を管理するための計画に関する考慮事項について説明します。
+ この記事では、Microsoft Teams または Skype for Business の実装で Azure モニターを使用して Microsoft Teams のルームデバイスを管理する場合の計画に関する考慮事項について説明します。
   
-[Azure のモニター](https://docs.microsoft.com/azure/azure-monitor/overview)は、最初からクラウドのように設計された管理サービスのコレクションです。 展開して、オンプレミスのリソースを管理するのではなく Azure モニターのコンポーネント完全 Azure でホストされます。 構成は最小限とする起動してそのまま数分で。 カスタマイズのいくつかの作業では、個々 の部屋のシステムでは、システムの稼働状態や障害のリアルタイムの通知を提供することによって Microsoft チームの会議室の会議システムを管理することも役に立ち、何千ものマイクロソフトのチームを管理するに拡張できる可能性があります。会議室の会議室です。
+[Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview)は、最初からクラウドで設計された管理サービスのコレクションです。 オンプレミスのリソースを展開して管理する代わりに、Azure Monitor コンポーネントはすべて Azure でホストされます。 構成は最小限で、わずかな時間ですぐに起動して実行できます。 一部のカスタマイズ作業では、Microsoft Teams の会議システムを管理するために、個々の room システムのシステム正常性またはフォールトに関するリアルタイムの通知が提供されます。また、多くの Microsoft Teams の管理にも対応できる場合があります会議室の会議室。
   
-この資料は、要件、設計とアーキテクチャ、およびマイクロソフト チーム ルーム会議デバイスでは、Azure のモニター ベースの管理を実装するために必要な実装のベスト プラクティスの説明が用意されていての詳細な記事へのリンクが用意されていますマイクロソフト チームの会議室とマイクロソフト チームの会議室の会議室の継続的な監視の重要な参照情報は Azure のモニターを実装します。 
+この記事では、Microsoft Teams 室の会議デバイスの Azure Monitor ベースの管理を実装するために必要な要件、設計、アーキテクチャ、実装のベストプラクティスについて説明し、詳細な記事へのリンクを提供します。microsoft Teams 室の管理と、Microsoft Teams ルームの継続的な監視に関する重要なリファレンス情報に対する Azure モニターの実装。 
   
 ## <a name="functional-overview"></a>機能の概要
 
-![Azure のモニターを使用して Microsoft チームの会議室の管理の図](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
+![Azure モニターを使用した Microsoft Teams のルーム管理の図](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
-コンソール デバイス上のマイクロソフト チーム ルーム アプリケーションは、Windows イベント ログにイベントを書き込みます。 Microsoft の監視のエージェントをインストールすると、Azure 監視サービスに情報を渡します。 
+コンソールデバイス上の Microsoft Teams 会議アプリは、Windows イベントログにイベントを書き込みます。 Microsoft Monitoring agent をインストールすると、その情報が Azure Monitor サービスに渡されます。 
   
-1 回正しく構成されている、JSON ペイロードがマイクロソフト チームの会議室の各システムが機能していると、どのような障害が検出されたを記述する説明で埋め込みイベントのログの分析解析します。 
+適切に構成されたら、ログ解析は、イベントの説明に埋め込まれた JSON ペイロードを解析して、Microsoft Teams の各ルームシステムがどのように機能しているか、検出されたエラーを説明します。 
   
-Azure のモニターを使用して管理者オフラインになっているマイクロソフト チームの会議室のシステムの通知を受け取ることができますまたは、アプリケーション、接続、またはハードウェアの障害が発生しているだけでなく、システムを再起動する必要があるかどうかを知ること。 各システムのステータスは、これらの通知は、更新をリアルタイムに近いので、頻繁に更新されます。
+Azure モニターを使用している管理者は、Microsoft Teams の会議室システムについて、オフラインになっている、またはアプリ、接続、ハードウェアの障害が発生していること、またシステムを再起動する必要があるかどうかを確認する通知を受けることができます。 各システム状態は頻繁に更新されるため、これらの通知はリアルタイムの更新プログラムに近い状態になります。
   
-## <a name="azure-monitor-requirements"></a>Azure の監視要件
+## <a name="azure-monitor-requirements"></a>Azure モニターの要件
 
-Azure の監視ログ分析機能を使用するのに有効な Azure サブスクリプションが必要です。 [ログ分析機能のワークスペースを使い始める](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)が、組織用のサブスクリプションを作成するを参照してください。
+ログ分析機能を使用するには、Azure モニター用の有効な Azure サブスクリプションが必要です。 組織のサブスクリプションを作成するには、「[ログ分析ワークスペースの使用を開始](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)する」を参照してください。
   
-ログ分析ビュー デザイナーを使用する方法を必要に応じて、理解しておく必要があります。 詳細についてはこれらの[ログ分析のビュー](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)を参照してください。
+ログ分析ビューデザイナーの使用方法については、必要に応じて理解しておく必要があります。 詳細については、「[ログ分析のビュー」を](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)参照してください。
   
 ### <a name="related-tasks"></a>関連タスク
 
-1. 購読すると、Azure 監視ログ分析して、作成カスタム フィールド ([ユーザー設定フィールドをマップ](azure-monitor-deploy.md#Custom_fields)に記載されている) 必要なマイクロソフト チームの会議室のコンソールから送られる情報を解析します。 [ログ エントリを理解するの](azure-monitor-manage.md#understand-the-log-entries)に記載されている JSON のスキーマを理解することが含まれます。
+1. Azure Monitor ログ分析にサブスクライブしたら、Microsoft Teams ルーム本体から送信される情報を解析するのに必要なカスタムフィールドを作成します ([[マップのユーザー設定フィールド](azure-monitor-deploy.md#Custom_fields)] で説明されています)。 これには、「[ログエントリについて理解](azure-monitor-manage.md#understand-the-log-entries)する」で説明されている JSON スキーマの概要が含まれます。
     
-2. ログ分析のマイクロソフト チームの会議室の管理ビューを作成します。 [Import メソッドを使用して Microsoft チームの会議室のダッシュ ボードを作成](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method)するか、[マイクロソフト チームの会議室のダッシュ ボードを手動で作成する](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)ことができます。
+2. ログ分析で Microsoft Teams のルーム管理ビューを開発します。 [Microsoft teams のルームダッシュボードを作成するには、インポート方法を使用](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method)するか、 [Microsoft teams のルームダッシュボードを手動で作成](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)します。
     
-## <a name="individual-microsoft-teams-rooms-console-requirements"></a>個々 のマイクロソフト チームの会議室のコンソールの要件
+## <a name="individual-microsoft-teams-rooms-console-requirements"></a>個々の Microsoft Teams 室のコンソール要件
 
-各マイクロソフト チームの会議室のコンソールには、キオスク モードで Surface Pro デバイスで実行されているアプリケーション (通常は、その構成されているデバイスで実行できる唯一のアプリケーション)。 同様にすべての Windows アプリケーションでは、チームの会議室をマイクロソフトのアプリケーションは Windows イベント ログに起動し、ハードウェアの障害などのイベントを書き込みます。 マイクロソフト チーム室デバイスに Microsoft モニター エージェントを追加することにより、これらのイベントを収集します。 (詳細については[接続の Windows コンピューター](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)を参照してください)。
+Microsoft Teams の各ルームコンソールは、キオスクモードで Surface Pro デバイスで実行されているアプリです (通常は、デバイスで実行できる唯一のアプリとして構成されています)。 他の Windows アプリと同じように、Microsoft Teams の会議アプリでは、起動やハードウェアの障害などのイベントを Windows イベントログに書き込みます。 Microsoft Teams のルームデバイスに Microsoft Monitor エージェントを追加すると、これらのイベントを収集できます。 (詳細については[、「Windows コンピューターを Azure のログ分析サービスに接続する」を](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)参照してください。)
   
 ## <a name="ongoing-management"></a>進行中の管理
 
-Azure のモニターを使用して、マイクロソフト チームの会議室のデバイスを管理するために、Azure のモニターで使用されているイベント ログに含まれている情報を理解する必要があります。 これらの状態メッセージの詳細については、[ログ エントリを理解する](azure-monitor-manage.md#understand-the-log-entries)を参照してください。
+Azure モニターを使用して Microsoft Teams の会議室のデバイスを管理しているときに、Azure モニターで使用されるイベントログに含まれる情報について理解する必要があります。 これらの正常性メッセージの詳細について[は、「ログエントリについ](azure-monitor-manage.md#understand-the-log-entries)て」を参照してください。
   
 ### <a name="related-tasks"></a>関連タスク
 
-- ([ログのエントリを理解する](azure-monitor-manage.md#understand-the-log-entries)」のセクションを参照してください) を解決するのにはマイクロソフト チームの会議室で生成された警告を理解します。
+- Microsoft Teams のルームによって生成されるアラートとその解決方法について説明します (「[ログエントリを理解](azure-monitor-manage.md#understand-the-log-entries)する」のセクションを参照してください)。
     
 ## <a name="see-also"></a>関連項目
 
-[Azure のモニターを使用して Microsoft チームの会議室の管理を展開します。](azure-monitor-deploy.md)
+[Azure モニターを使用して Microsoft Teams のルーム管理を展開する](azure-monitor-deploy.md)
   
-[Azure のモニターを使用して Microsoft チームの会議室のデバイスを管理します。](azure-monitor-manage.md)
+[Azure モニターを使用して Microsoft Teams 室のデバイスを管理する](azure-monitor-manage.md)

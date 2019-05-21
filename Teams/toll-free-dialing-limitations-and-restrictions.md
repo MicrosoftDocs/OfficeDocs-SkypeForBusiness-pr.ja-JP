@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,21 +21,21 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されます無料電話番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 3fe9985d6f87672927bd0f6dfe24783455948111
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域の必要なアクセスコードが表示されます。
+ms.openlocfilehash: d2fe8e03ce0891fa46f092c87b6563ce174af75c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204446"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300976"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>無料電話ダイヤルの制限事項
 
-これからは、国または地域ごとに有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる、有料無料のサービスがある特定の詳細情報、制限、および制限を含むを含むページにします。 ダイヤル形式または書式が表示されます無料電話番号をダイヤルする国または地域内で必要なアクセス コード。
+これは、国または地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、特定の詳細、制限、制限など、有料サービスの利用可能な場所が記載されたページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域の必要なアクセスコードが表示されます。
   
-準備ができた場合は、国または地域を選択します。
+準備ができたら、国または地域を選択します。
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>国または地域、ダイヤル コード、および制限事項および制限を表示するを選択します。
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>お住まいの国または地域を選択すると、ダイヤルコード、制限事項、制限が表示されます。
 
 > [!div class="op_single_selector"]    
 > - [アルゼンチン](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -101,20 +101,20 @@ ms.locfileid: "32204446"
 > - [ベネズエラ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>有料の空き番号は忘れないようにするための重要な事項を以下に示します。
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>無料電話番号について覚えておくべき重要なポイントをいくつか紹介します。
 
-- **有料無料の番号は、それぞれの国や地域内でのみ動作します。** たとえば、ユーザーはオーストラリアの外からオーストラリアの無料電話番号を発信することはできません。
+- **無料電話番号は、国/地域内でのみ機能します。** たとえば、ユーザーはオーストラリアの外からオーストラリアの無料電話番号を発信することはできません。
     
-- **取得またはユニバーサル国際フリー ダイヤル番号 (UIFN) を移植するがサポートされていません。**
+- **ユニバーサル国際フリーダイヤル番号 (UIFN) の取得または移植はサポートされていません。**
     
-- **多くの国/地域、国または地域で調整器/電気通信局各無料電話番号の数を保持するために、少なくとも 100 分の 1 か月あたりの使用率を維持するために必要があります。**
+- **多くの国/地域では、国/地域のレギュレータ/電気通信機関は、電話番号を保持するために、1ヶ月あたり少なくとも100分の利用可能時間を管理する必要があります。**
     
     > [!NOTE]
     > 無料電話番号を取得して、その番号の使用時間がこれらの最低要件を満たさない場合、Microsoft は規制機関または通信局の指示に従って、お客様に対して当該番号の返還を要求する場合があります。 
   
-- **無料電話番号への有線、固定回線、携帯電話ネットワークによるアクセスは、完全に、または部分的に制限されます。** ダイヤル形式では、フリー ダイヤル番号を使用して電話をかける国または地域内で必要なアクセス コードについて説明します。
+- **無料電話番号への有線、固定回線、携帯電話ネットワークによるアクセスは、完全に、または部分的に制限されます。** ダイヤル形式は、無料電話番号を使用して通話を発信するために、各国または地域内の必要なアクセスコードを記述します。
     
-- **北アメリカの番号付けプランには、空き番号が有料電話番号:** 有料の空き番号を番号付けプラン] (北アメリカ) の 1 分あたりの単価は、元の国によって決定されます。 「北米」として定義されている 1 秒間にアメリカ合衆国のマップから発信された通話の有料無料 1 分あたりの単価 ただし、カナダ、プエルトリコなど北米以外の国から発信された呼び出しでは、特定の有料無料のレートがあります。
+- **北米での番号付けプラン無料電話番号:** 北米の番号付けプランの1分あたりの料金無料電話番号は、発信元の国によって決まります。 米国地図から「北アメリカ」として定義されている料金に対する通話の無料料金 (分単位)。 ただし、カナダ、プエルトリコなどの他の北米国から発信された通話には、特定の有料電話料金がかかります。
 
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

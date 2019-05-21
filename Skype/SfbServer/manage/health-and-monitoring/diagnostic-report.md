@@ -1,27 +1,27 @@
 ---
-title: Skype ビジネス サーバーの診断レポート
+title: Skype for Business Server の診断レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: '概要: は、Skype のビジネス サーバーの診断レポートについて説明します。'
-ms.openlocfilehash: b50be1733eb085bc8a3323cf3fcad028e2f0c6b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の診断レポートについて説明します。'
+ms.openlocfilehash: d71906f2407a0daadc04417ab60a23c86f5eeb52
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926565"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305774"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server"></a>Skype ビジネス サーバーの診断レポート
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server の診断レポート
  
-**の概要:** Skype のビジネス サーバーの診断レポートについて説明します。
+**概要:** Skype for Business Server の診断レポートについて説明します。
   
-診断レポートは、失敗したセッションの診断およびトラブルシューティングの情報を提供します。 この情報には、診断の ID とセッションが失敗したときに報告された診断ヘッダーの両方が含まれています。 診断 ID は、(ms 診断ヘッダーの形式) で診断ヘッダー診断 ID に対して、付属の説明を提供しますが、SIP メッセージに関連付けられた一意の識別子 レポートには、レポート コンポーネントによって認識されている重要なトラブルシューティングの詳細も含まれています。 次に例を示します。
+診断レポートは、失敗したセッションの診断とトラブルシューティングに関する情報を提供します。 この情報には、診断 ID と、セッションが失敗したときに報告された診断ヘッダーの両方が含まれます。 診断 ID は、SIP メッセージに添付される一意の識別子 (ms diagnostics ヘッダーの形式) ですが、診断ヘッダーには診断 ID の説明が示されます。 レポートには、レポートコンポーネントによって認識される貴重なトラブルシューティングの詳細情報が含まれている場合もあります。 次に例を示します。
   
 - エラーを生成した PSTN ゲートウェイによって提供された原因コード。発信通話が PSTN ネットワークで失敗すると、ISDN User Part (ISUP) の原因コードが自動的に生成されます。たとえば、PSTN ゲートウェイは原因コード 34 を送信して、通話を完了するための使用可能な回線またはチャネルが存在しないことを示す場合があります。
     
@@ -31,7 +31,7 @@ ms.locfileid: "33926565"
     
 ## <a name="accessing-the-diagnostic-report"></a>診断レポートへのアクセス
 
-診断レポートは、[ビジネスのサーバー用の Skype でのピア ツー ピア セッション詳細レポート](peer-to-peer-session-detail-report.md)または、会議の詳細] レポートのいずれかの診断レポート (詳細) のメトリックをクリックしてアクセスできます。
+診断レポートにアクセスするには、 [Skype For Business Server のピアツーピアセッション詳細レポート](peer-to-peer-session-detail-report.md)または会議の詳細レポートのいずれかで診断レポート (詳細) メトリックをクリックします。
   
 ## <a name="filters"></a>フィルター
 
@@ -58,6 +58,6 @@ ms.locfileid: "33926565"
 |**会議参加時間 (ミリ秒)** <br/> |いいえ  <br/> |ユーザーが会議に参加するのにかかった時間 (ミリ秒)。  <br/> |
 |**診断ヘッダー** <br/> |不可  <br/> |診断 ID の説明。  <br/> |
    
-[Ms 診断ヘッダー ページ](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx)の診断エラーの一覧が見つかります。
+診断エラーの一覧は、[ [Ms 診断ヘッダー] ページ](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx)にあります。
   
 

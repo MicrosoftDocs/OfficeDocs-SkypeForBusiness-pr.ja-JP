@@ -1,10 +1,10 @@
 ---
-title: Skype でビジネスのサーバーの場所のポリシーを作成します。
+title: Skype for Business Server で場所のポリシーを作成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-description: 構成する方法の詳細については、このトピックでは、Skype で緊急サービス (~ 9-1-1) の場所のポリシーを強化ビジネス サーバーのエンタープライズ VoIP を参照してください。
-ms.openlocfilehash: 1c00663dfa8c2bc1896b19790d4b2080d336928b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このトピックでは、Skype for Business Server Enterprise Voice で拡張緊急対応サービス (E9) の場所のポリシーを構成する方法について説明します。
+ms.openlocfilehash: e3e98394b660174eeb58b259de0121196934ad3c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892987"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286377"
 ---
-# <a name="create-location-policies-in-skype-for-business-server"></a>Skype でビジネスのサーバーの場所のポリシーを作成します。
+# <a name="create-location-policies-in-skype-for-business-server"></a>Skype for Business Server で場所のポリシーを作成する
 
-構成する方法の詳細については、このトピックでは、Skype で緊急サービス (~ 9-1-1) の場所のポリシーを強化ビジネス サーバーのエンタープライズ VoIP を参照してください。 
+このトピックでは、Skype for Business Server Enterprise Voice で拡張緊急対応サービス (E9) の場所のポリシーを構成する方法について説明します。 
 
-ビジネス サーバーの Skype では、~ 9-1-1 のビジネスのクライアントのクライアントの登録中に Skype を有効にするのに場所のポリシーを使用します。 場所ポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。 詳細については、 [Skype のビジネス サーバーの場所のポリシーの計画](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)を参照してください。
+Skype for Business Server は、位置情報ポリシーを使って、クライアントの登録中に E9-1 の Skype for Business クライアントを有効にします。 場所ポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。 詳細については、「 [Skype For Business Server の場所のポリシーを計画](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)する」を参照してください。
 
-ビジネス コントロール パネルの Skype を使用して、または[新規 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)コマンドレットを使用して、場所のポリシーを定義します。
+場所のポリシーを定義するには、Skype for Business コントロールパネルを使用するか、または[新しい-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)コマンドレットを使用します。
 
 > [!NOTE]
-> Skype ビジネス サーバーがクライアントの複数の緊急番号の構成をサポートしています。 複数の緊急番号を構成する場合は、 [Skype ビジネス サーバーの複数の緊急番号に計画](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)し、[ビジネスの Skype で複数の緊急番号の構成](configure-multiple-emergency-numbers.md)内の情報に従ってください。 
+> Skype for Business Server で、クライアントの複数の緊急電話番号の構成がサポートされるようになりました。 複数の緊急電話番号を構成する場合は、Skype for business [Server の複数の緊急電話番号に](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)ついて、計画の情報に従って、 [skype for business で複数の緊急電話番号を設定](configure-multiple-emergency-numbers.md)する必要があります。 
 
 グローバルの場所のポリシーを編集して、マークされた新しい場所のポリシーを作成できます。場所のポリシーが関連付けられたサブネット内部に配置されていない場合や、場所のポリシーが直接割り当てられていない場合に、クライアントはグローバル ポリシーを取得します。マークされたポリシーは、サブネットまたはユーザーに割り当てられます。 
 
 場所のポリシーを作成するには、作成するユーザーが RTCUniversalServerAdmins グループまたは CsVoiceAdministrator 管理者役割のメンバーか、あるいは同等の管理者権限とアクセス許可を持つ必要があります。
 
-詳細については、 [Skype のビジネス サーバーの場所のポリシーの計画](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)を参照してください。 この手順での cmdlet は、次の値を使用して定義される場所のポリシーを使用します。 コマンドレットのパラメーターと値の詳細については、[新規 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)を参照してください。
+詳細については、「 [Skype For Business Server の場所のポリシーを計画](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)する」を参照してください。 この手順での cmdlet は、次の値を使用して定義される場所のポリシーを使用します。 コマンドレットのパラメーターと値の詳細については、「[新しい-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)」を参照してください。
 
 
 | **要素**                               | **値**                                                                                                                                                                          |

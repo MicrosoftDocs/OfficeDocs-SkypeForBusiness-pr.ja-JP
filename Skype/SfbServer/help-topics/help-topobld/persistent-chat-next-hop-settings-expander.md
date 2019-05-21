@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PersistentChatNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
-description: 永続的なチャットの次ホップ プールを構成するには、フロント エンド サーバーまたはフロント エンド プールをリストから選択します。
-ms.openlocfilehash: df4c3890f68416e534e6386ef15e26386579aaec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: リストからフロントエンドサーバーまたはフロントエンドプールを選択して、常設チャットの次ホッププールを構成します。
+ms.openlocfilehash: aff412c17fa8c112b8f2d6527c62fd3b3aa16390
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910870"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289912"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>常設チャットの次ホップ設定エキスパンダー
  
-永続的なチャットの**次ホップ プール**を構成するには、フロント エンド サーバーまたはフロント エンド プールをリストから選択します。
+リストからフロントエンドサーバーまたはフロントエンドプールを選択して、常設チャットの**次ホッププール**を構成します。
   
  [**OK**]: ダイアログでの変更を受け入れて確定します。
   
@@ -34,4 +34,4 @@ ms.locfileid: "33910870"
 
 [Skype for Business Server 2015 の常設チャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Skype for Business Server 2015 トポロジに常設チャットサーバーを追加する](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

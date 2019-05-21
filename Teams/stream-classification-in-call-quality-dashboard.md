@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: ストリーム品質がMicrosoft TeamsとSkype for Business Onlineの通話品質ダッシュボードでどのように分類されているかをご覧ください。
-ms.openlocfilehash: b3b63ff8ac89ed0ad1d88893913fa89af769e078
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: ad18b15019ed82d629a4c32c27544d052cd2bc92
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641035"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298633"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通話品質ダッシュボードでのストリーム分類
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+Microsoft Teams と Skype for Business Online の通話品質ダッシュボード (CQD) を使用すると、Microsoft Teams と Skype for business のサービスを使って発信した通話の品質を把握することができます。 このトピックでは、メディアストリームの品質分類に関する詳細情報を提供します。 CQD の詳細と有効にする方法については、「[通話品質ダッシュボードをオンにして使用](turning-on-and-using-call-quality-dashboard.md)する」を参照してください。
 
 ## <a name="classifier-definitions"></a>分類子の定義
 
-Streams in CQD are classified as good, poor, or unclassified based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables below. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a poor classification. See [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md) for more information on these dimensions.
+CQDのストリームは、使用可能なキー品質メトリックの値に基づいて、良好、不良、または未分類のいずれかに分類されます。 ストリームを分類するために使用されるメトリックおよび条件を以下の表に示します。 CQDの「Poor Due To」ディメンションは、どのメトリックが分類不良の原因であるかを理解するために使用できます。 [これらのディメンションの詳細については、通話品質ダッシュボードで使用可能な寸法と尺度](dimensions-and-measures-available-in-call-quality-dashboard.md) をご覧ください。
 
 ### <a name="audio-classifier"></a>オーディオクラシファイアー
 
@@ -41,11 +41,11 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 
 |**指標**|**状態**|**解説**|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1.0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
+|Audio Degradation Avg|> 1.0|ネットワーク平均オピニオン値によるストリームの平均低下値。 ネットワークの損失とジッターによって受信されるオーディオの品質にどの程度の影響があるのかを表します。|
 |Round Trip|500 ミリ秒より長い|RFC3550 での規定に従って計算されたミリ秒単位の平均ネットワーク伝達ラウンド トリップ時間。|
 |Packet Loss Rate|> 0.1|ストリームの平均のパケット損失率。|
 |ジッター|> 30|ミリ秒単位のストリームの平均ジッター。|
-|Ratio Concealed Samples Avg|> 0.07|パケット損失のオーディオ フレームの合計数を治療によって生成される非表示の文字列のサンプルでのオーディオ フレームの数の平均の比率です。|
+|Ratio Concealed Samples Avg|> 0.07|パケット損失の回復によって生成された、オーディオフレームの合計数に対する、非表示のサンプルを含むオーディオフレームの平均比率。|
 
 ### <a name="video-classifier"></a>ビデオ クラシファイアー
 
@@ -53,9 +53,9 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 
 |**手順 #**|**指標**|**状態**|**条件が真である場合の分類**|**条件が偽の場合の分類**|**メトリックが利用できない場合の分類**|**解説**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|_gt 50% |Poor|Good|手順 2 に進んでください|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|手順 2 に進んでください|ユーザーに対する表示でのビデオ フレームの損失の平均割合。 これにはネットワーク損失から回復したフレームも含まれます。|
 |2|Video Frame Rate Avg|<7|Poor|Good|手順 3 に進んでください|セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。|
-|3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|FEC を適用した後のパケット損失の割合は、すべてのビデオ ストリームとコーデックの間で集計。|
+|3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|FEC がすべてのビデオストリームとコーデックで集計された後のパケット損失率。|
 
 ### <a name="vbss-classifier"></a>VBSS 分類子
 
@@ -63,9 +63,9 @@ VBSS ストリームは、使用可能な最初のメトリックの値に基づ
 
 |**手順 #**|**指標**|**状態**|**条件が真である場合の分類**|**条件が偽の場合の分類**|**メトリックが利用できない場合の分類**|**解説**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|_gt 50% |Poor|Good|手順 2 に進んでください|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|手順 2 に進んでください|ユーザーに対する表示でのビデオ フレームの損失の平均割合。 これにはネットワーク損失から回復したフレームも含まれます。|
 |2|Video Frame Rate Avg|<2|Poor|Good|手順 3 に進んでください|セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。|
-|3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|FEC を適用した後のパケット損失の割合は、すべてのビデオ ストリームとコーデックの間で集計。|
+|3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|FEC がすべてのビデオストリームとコーデックで集計された後のパケット損失率。|
 
 ### <a name="application-sharing-classifier"></a>アプリケーション共有分類子
 
@@ -74,37 +74,37 @@ VBSS ストリームは、使用可能な最初のメトリックの値に基づ
 
 | **指標**                                     | **状態** | **解説**                                                                                                                                                                                                        |
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
-| AppSharing RDP Tile Processing Latency Average | _gt 400         | 電話会議サーバーでの RDP スタック上のタイル処理の平均遅延 (ミリ秒単位)。                                                                                                                          |
-| AppSharing Relative OneWay Average             | > 1.75        | 平均相対的な一方向の遅延 (秒) のストリームを共有するアプリケーションのエンドポイントとの間です。                                                                                                                       |
+| Spoiled Tile Percent Total                     | > 36          | リモートピアに送信されるのではなく、破棄されたタイルのパーセンテージ (MCU からビューアーへなど)。 クライアントとサーバーの間の帯域幅の制限が原因で、破棄された (または損失) タイルが表示されることがあります。 |
+| AppSharing RDP Tile Processing Latency Average | > 400         | 電話会議サーバーでの RDP スタック上のタイル処理の平均遅延 (ミリ秒単位)。                                                                                                                          |
+| AppSharing Relative OneWay Average             | > 1.75        | アプリケーション共有ストリームのエンドポイント間の1方向の平均相対的な遅延 (秒単位)。                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>未分類ストリーム
 
 CQDでは、ICE接続が失敗した場合、またはストリーム分類を計算するために必要なすべてのメトリックが報告されていない場合、ストリームは分類されていないとマークされます。
 
-To check for ICE connectivity failures, examine the dimensions "First Connectivity Ice" and "Second Connectivity Ice" for a "FAILED" value. If either value indicates a failure, the stream will be marked as unclassified.
+ICE接続障害をチェックするには、 "FAILED"値の "First Connectivity Ice"と "Second Connectivity Ice"のディメンションを調べます。 いずれかの値が失敗を示す場合、ストリームは分類されていないとマークされます。
 
-If ICE connectivity succeeded for an unclassified stream, the stream is likely considered unclassified because key stream metrics were not reported. There are a few reasons these metrics may not be reported:
+分類されていないストリームのICE接続が成功した場合、キーストリームメトリックが報告されなかったため、ストリームは分類されていないと考えられます。 これらの指標が報告されない理由はいくつかあります。
 
-- **QoE reports were not received** - The metrics used for classification are reported in a QoE report sent at the end of a call. If this report is not produced (e.g., because some third-party endpoints may not send QoE) or was not able to be sent (e.g., because of a network outage), CQD is unable to classify the stream.
-
-> [!TIP]
-> The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
-
-- **Short calls** - Short calls may not have enough media activity to compute key stream metrics. Without these metrics, CQD is unable to classify the stream.
+- **QoEレポートが受信されなかった** - 分類に使用されるメトリックは、コール終了時に送信されるQoEレポートでレポートされます。 このレポートが生成されない場合（たとえば、サードパーティのエンドポイントによってはQoEが送信されない場合があるため）、または送信できなかった場合（たとえば、ネットワークが停止したなど）、CQDはストリームを分類できません。
 
 > [!TIP]
-> The dimensions "Duration (Seconds)", "Duration (Minutes)", "Duration 5 seconds or less", and "Duration 60 seconds or more" can be used to determine the duration of a stream. The measurement "Avg Call Duration" can also be used to compute the average duration for a set of streams.
+> 「QoE Record Available」ディメンションを使用して、QoEレポートがストリームに対して受信されたかどうかを判断できます。 いずれかのエンドポイントからQoEレポートを受信した場合、このディメンションの値は「True」になります。 最も正確な測定基準の報告には、両方のエンドポイントからのQoEレポートが必要です。
 
-- **Low packet utilization** - Like the "short call" scenario, sufficient packet utilization is required for computation of key stream metrics. Without these metrics, CQD is unable to classify the stream.
-    - A common low packet utilization scenario occurs when a user joins a meeting to listen to the presenter but never speaks (likely muting the microphone for most of the call). In such a scenario, one audio stream will have high packet utilization (inbound to the client) while the other will have little to no packet utilization (outbound from the client). In this scenario, the duration of the stream may be an hour or longer but the packet utilization on the stream from the client to the server will be extremely low due to the microphone being muted, resulting in an unclassified stream.
+- **ショートコール** - ショート・コールは、キー・ストリーム・メトリックを計算するのに十分なメディア・アクティビティを持たない場合があります。 これらのメトリックがなければ、CQDはストリームを分類できません。
+
+> [!TIP]
+> 「期間（秒）」、「期間（分）」、「期間5秒以下」、および「期間60秒以上」のディメンションは、ストリームの期間を決定するために使用できます。 測定値「平均通話時間」を使用して、一連のストリームの平均所要時間を計算することもできます。
+
+- **パケット使用率が低い** - 「ショートコール」シナリオと同様に、キーストリームメトリックの計算には十分なパケット使用率が必要です。 これらのメトリックがなければ、CQDはストリームを分類できません。
+    - 一般的なパケット使用率の低いシナリオは、ユーザーが会議に参加して発表者の声を聞くが、話すことはない（ほとんどの通話ではマイクをミュートする可能性が高い）場合に発生します。 このようなシナリオでは、1つのオーディオストリームのパケット使用率が高くなり（クライアントへのインバウンド）、もう1つのストリームではパケット使用率がほとんどない（クライアントからのアウトバウンド）。 このシナリオでは、ストリームの長さが1時間以上の場合がありますが、マイクがミュートされているためにクライアントからサーバーへのストリームのパケット使用率が極端に低くなり、分類されていないストリームが発生します。
 
 > [!TIP]
 > 「パケット使用率」ディメンションおよび「平均パケット使用率」測定値を使用して、ストリームのパケットアクティビティを判断できます。
 
 
-## <a name="related-topics"></a>関連トピック
-[有効にして、呼び出し品質ダッシュ ボード (救難) を使用します。](turning-on-and-using-call-quality-dashboard.md)
+## <a name="related-topics"></a>関連項目
+[通話品質ダッシュボード (CQD) をオンにして使用する](turning-on-and-using-call-quality-dashboard.md)
 
 [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
