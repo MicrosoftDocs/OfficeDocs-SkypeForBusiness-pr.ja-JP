@@ -1,34 +1,34 @@
 ---
-title: Skype ビジネス サーバーの移動のパフォーマンス カウンター
+title: Skype for Business Server のモバイルパフォーマンスカウンター
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: '概要: は、ビジネス サーバー Mcx のモビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターについて説明します。'
-ms.openlocfilehash: a529161b62cf47ad7666ace07cc2d030fc7922d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: ユニファイドコミュニケーション Web API (UCWA) と Skype for Business Server Mcx Mobility Service を実行しているサーバーを監視するために使用できるパフォーマンスカウンターについて説明します。'
+ms.openlocfilehash: 91ca77b9719dc6b76ea9bb054856abf82bb3ebd4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897640"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279908"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Skype ビジネス サーバーの移動のパフォーマンス カウンター
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Skype for Business Server のモバイルパフォーマンスカウンター
  
-**の概要:** ビジネス サーバー Mcx のモビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターについて説明します。
+**概要:** ユニファイドコミュニケーション Web API (UCWA) と Skype for Business Server Mcx Mobility Service を実行しているサーバーを監視するために使用できるパフォーマンスカウンターについて説明します。
   
-次の表に、名前とビジネス サーバー Mcx のモビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターの説明をします。 
+次の表に、ユニファイドコミュニケーション Web API (UCWA) と Skype for Business Server Mcx Mobility Service を実行しているサーバーを監視するために使用できるパフォーマンスカウンターの名前と説明を示します。 
   
-UCWA テーブル内のカウンターのカテゴリ名は、 **LS:WEB - UCWA**です。
+UCWA テーブルのカウンターのカテゴリ名は**LS: WEB-UCWA**です。
   
 Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - Mobile Communication Service** です。
 
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
+> Skype for Business Server 2019 では、従来のモバイルクライアントに対する MCX (モバイルサービス) のサポートは利用できなくなりました。 現在のすべての Skype for Business のモバイルクライアントでは、インスタントメッセージング (IM)、プレゼンス、連絡先をサポートするために、既にユニファイドコミュニケーション Web API (UCWA) を使用しています。 MCX を使用するレガシクライアントを使っているユーザーは、現在のクライアントにアップグレードする必要があります。
   
 ## <a name="performance-counters-for-ucwa"></a>UCWA のパフォーマンス カウンター
 
@@ -60,7 +60,7 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 |Number of Active Directory Photo Get Failures  <br/> |Active Directory からの写真の取得に失敗した合計数  <br/> |
 |Number of Contact Search failures  <br/> |Exchange の連絡先の検索に失敗した合計数  <br/> |
 |Number of Deserialization Failures  <br/> |シリアル化解除が失敗した合計数  <br/> |
-|HD Photo の取得エラーの数  <br/> |Exchange からの HD 写真の取得に失敗した合計数  <br/> |
+|HD Photo Get エラーの数  <br/> |Exchange からの HD 写真の取得に失敗した合計数  <br/> |
 |Over The Maximum Subscriptions Per Application  <br/> |アプリケーションごとに許可された最大値を超えるサブスクリプション要求の数  <br/> |
 |Over The Maximum Subscriptions Per Batch  <br/> |バッチごとに許可された最大値を超えるサブスクリプション要求の数  <br/> |
 |Presence Subscription Failures  <br/> |プレゼンスの登録に失敗した数  <br/> |
@@ -115,4 +115,4 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 |Total Successful Outbound Voice Calls  <br/> |成功した発信音声通話の合計数  <br/> |
    
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
+> Skype for Business Server 2019 では、従来のモバイルクライアントに対する MCX (モバイルサービス) のサポートは利用できなくなりました。 現在のすべての Skype for Business のモバイルクライアントでは、インスタントメッセージング (IM)、プレゼンス、連絡先をサポートするために、既にユニファイドコミュニケーション Web API (UCWA) を使用しています。 MCX を使用するレガシクライアントを使っているユーザーは、現在のクライアントにアップグレードする必要があります。

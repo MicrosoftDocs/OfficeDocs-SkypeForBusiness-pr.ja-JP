@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.reviewer: davgroom
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: このトピックでは、Skype Room System アカウントに会議ポリシーを割り当てる方法について説明します。
-ms.openlocfilehash: 7574824e03be7dd48163befb6243bc557833bd5e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5662778c14d8f987e26b36eaca252fbd8a6ea98c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895406"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286526"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype Room System アカウント用の電話会議ポリシー
  
@@ -23,51 +23,51 @@ ms.locfileid: "33895406"
   
 ## <a name="conferencing-policy-features"></a>会議ポリシーの機能
 
-Skype ルームのシステム アカウントに割り当てられている会議ポリシーは、特定の特性が必要です。 ほとんどの場合、Skype ルーム システムのクライアント、スケジュールされたミーティングに参加し、会議の開催者の会議ポリシーが、会議にどのように影響するためです。 ただし、ビジネス サーバーの Skype は、特定の機能は、参加者の構成に依存します。 たとえば、参加者のポリシーでは、1080 p の最大ビデオ解像度を許可している参加者が発生会議内で、この高解像度ビデオ機能開催者のポリシーが許可しない場合でもします。 次の表では、Skype の部屋のシステム アカウントが組織内の会議ポリシーを設定する際に注意する必要がありますこのようないくつかの設定について説明します。 
+Skype Room System アカウントに割り当てられている会議ポリシーは、特定の特性を持っている必要があります。 ほとんどの場合、Skype Room System クライアントはスケジュールされた会議に参加しているため、会議の開催者の会議ポリシーが会議に影響します。 ただし、Skype for Business Server の一部の機能は、参加者の設定によって異なります。 たとえば、参加者のポリシーが最大のビデオ解像度1080p を許可している場合、開催者のポリシーで許可されていない場合でも、参加者はこの高解像度のビデオ機能を会議で体験します。 次の表では、組織内の Skype Room System アカウントの会議ポリシーをセットアップする際に注意すべきいくつかの設定について説明します。 
   
 |機能  <br/> |値  <br/> |コメント  <br/> |
 |:-----|:-----|:-----|
-|AllowIPAudio  <br/> |TRUE  <br/> |Skype ルーム システムのオーディオの場合は true である必要があります。  <br/> |
-|AllowIPVideo  <br/> |TRUE  <br/> |Skype ルーム システムで即時相互 (ad hoc) のホワイト ボード セッションで動作する Skype ルーム システム オーディオの場合は true である必要があります。  <br/> |
-|AllowMultiView  <br/> |TRUE  <br/> |Skype ルーム システム、複数のビューを表示するのには複数のビデオ ストリームでは、します。  <br/> |
-|AllowParticipantControl  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowAnnotations  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|DisablePowerPointAnnotations  <br/> |FALSE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |アカウントがエンタープライズ VoIP (EV) 有効になっている (を参照してください Skype の Skype ルーム システムの有効にするアカウントのビジネス セクション) であるかによって異なります  <br/> |
+|AllowIPAudio  <br/> |TRUE  <br/> |Skype Room System オーディオには true を指定する必要があります  <br/> |
+|AllowIPVideo  <br/> |TRUE  <br/> |Skype room system の音声が skype room システムの [今すぐ会議] (アドホック) ホワイトボードセッションで動作するためには、true である必要があります。  <br/> |
+|AllowMultiView  <br/> |TRUE  <br/> |Skype Room システムで複数のビデオストリームを表示できる  <br/> |
+|AllowParticipantControl  <br/> |TRUE  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|AllowAnnotations  <br/> |TRUE  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|DisablePowerPointAnnotations  <br/> |FALSE  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |アカウントがエンタープライズ Voip (EV) が有効になっているかどうかによって異なります (「Skype for Business の Skype Room System アカウントを有効にする」セクションを参照してください)。  <br/> |
 |AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |アカウントでエンタープライズ VoIP (EV) が有効であるかにどうかに応じて異なります  <br/> |
-|AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowExternalUserControl  <br/> |FALSE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowPolls  <br/> |TRUE  <br/> |即時相互 (ad hoc) の会議で「n/a」ですが、Skype 部屋のシステム、部屋の前に画面上ポーリングに応答できます。  <br/> |
-|AllowSharedNotes  <br/> |TRUE  <br/> |即時相互 (ad hoc) の会議で「n/a」ですが、Skype 部屋のシステム、部屋の前に画面上ポーリングに応答できます。  <br/> |
-|EnableDialInConferencing  <br/> |TRUE  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|EnableAppDesktopSharing  <br/> |Desktop  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AllowConferenceRecording  <br/> |FALSE  <br/> |Skype ルーム システムの該当なし。 True の場合、通話先で記録できます  <br/> |
-|EnableP2PRecording  <br/> |FALSE  <br/> |Skype ルーム システムの該当なし。 True の場合、通話先で記録できます  <br/> |
+|AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|AllowExternalUserControl  <br/> |FALSE  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|AllowPolls  <br/> |TRUE  <br/> |[今すぐ会議] (臨時会議) では N/A。ただし、Skype Room System では、チャットルームの最初の画面で投票に応答できます。  <br/> |
+|AllowSharedNotes  <br/> |TRUE  <br/> |[今すぐ会議] (臨時会議) では N/A。ただし、Skype Room System では、チャットルームの最初の画面で投票に応答できます。  <br/> |
+|EnableDialInConferencing  <br/> |TRUE  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|EnableAppDesktopSharing  <br/> |Desktop  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|AllowConferenceRecording  <br/> |FALSE  <br/> |Skype Room システムの場合は、該当なし。 True の場合、通話先で記録できます  <br/> |
+|EnableP2PRecording  <br/> |FALSE  <br/> |Skype Room システムの場合は、該当なし。 True の場合、通話先で記録できます  <br/> |
 |EnableFileTransfer: False  <br/> |True  <br/> |N/A  <br/> |
 |EnableP2PFileTransfer  <br/> |True  <br/> |N/A  <br/> |
-|EnableP2PVideo  <br/> |TRUE  <br/> |Skype ルーム システム クライアントがピア ツー ピア ビデオ セッションに参加するには  <br/> |
+|EnableP2PVideo  <br/> |TRUE  <br/> |Skype Room System クライアントがピアツーピアビデオセッションに参加できるようにします。  <br/> |
 |AllowLargeMeetings  <br/> |False  <br/> |該当なし  <br/> |
-|EnableDataCollaboration  <br/> |True  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|MaxVideoConferenceResolution  <br/> |VGA  <br/> |Skype ビジネス サーバーの無視、Skype ルームのシステムを使用して、HD1080  <br/> |
-|MaxMeetingSize  <br/> |250  <br/> |Skype ルーム システムの相互 (ad hoc) のホワイト ボード セッションを即時に影響を与えます  <br/> |
-|AudioBitRateKb  <br/> |200  <br/> |テーブルの末尾にあるメモを参照してください。\*  <br/> |
-|VideoBitRateKb  <br/> |5000  <br/> |許可される最大送信ビデオ ビット レートです。 Skype ルームのシステムは、いずれかを送信できる 1080 ストリーム pano と共に使用する場合円卓会議は、このビット レートで。 \*  <br/> |
-|AppSharingBitRateKb  <br/> |5000  <br/> |テーブルの末尾にあるメモを参照してください。\*  <br/> |
+|EnableDataCollaboration  <br/> |True  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|MaxVideoConferenceResolution  <br/> |VGA  <br/> |Skype for Business Server によって無視されます。 Skype Room System は HD1080 を使用します。  <br/> |
+|MaxMeetingSize  <br/> |250  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
+|AudioBitRateKb  <br/> |200  <br/> |表の最後にある「メモ」を参照してください。\*  <br/> |
+|VideoBitRateKb  <br/> |5000  <br/> |許可される最大送信ビデオ ビット レートです。 Skype Room システムは、このビットレートで (会議が使用されている場合は) pano と共に 1 1080 ストリームを送信できます。 \*  <br/> |
+|AppSharingBitRateKb  <br/> |5000  <br/> |表の最後にある「メモ」を参照してください。\*  <br/> |
 |FileTransferBitRateKb  <br/> |5000  <br/> |該当なし  <br/> |
-|TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |設定することこのできるだけ高くすることをお勧めします。 効果的な帯域幅は、会議の時に、ネットワークの状態に依存します。\*  <br/> |
-|EnableMultiViewJoin  <br/> |True  <br/> |TRUE にする必要があります Skype ルームのシステム ビューの複数のビデオ ストリームの  <br/> |
+|TotalReceiveVideoBitRateKb  <br/> |2万  <br/> |この設定はできるだけ高くすることをお勧めします。 有効帯域幅は、会議の時点でのネットワークの状態によって異なります。\*  <br/> |
+|EnableMultiViewJoin  <br/> |True  <br/> |マルチビュービデオストリームを実現するには、Skype Room システムについて TRUE である必要があります  <br/> |
    
-* 帯域幅の計画方法の詳細については、[メディア トラフィック用のネットワーク帯域幅の要件](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic)を参照してください。
+* 帯域幅の計画について詳しくは、「[メディアトラフィックのネットワーク帯域幅の要件](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic)」をご覧ください。
   
 > [!NOTE]
-> Skype ルーム システムのクライアントでは、Lync Server 2010 プールのホーム サーバーがユーザーごとのスケジュールされたミーティングに参加しようとして、会議の開催者の会議ポリシー防ぐことが Skype ルーム システムのクライアント共同作業を実行します。 
+> Skype Room システムクライアントが、Lync Server 2010 プールを使っているユーザーによって開催されたスケジュールされた会議に参加しようとした場合、会議の開催者の会議ポリシーによって、Skype Room System クライアントがコラボレーションを実行できないようにすることができます。 
   
 ## <a name="meeting-authentication"></a>会議の認証
 
-Skype ルーム メッセージが表示されますユーザーに会議を使用するときは制限されているミーティングに参加する参加リンクたとえば、Outlook でどのミーティング ロビーのオプションを設定した会議です。 この設定は常に上に、カスタマイズされた会議と、ユーザーが常にメッセージが表示されます。 制限なしの会議では、ユーザーは認証なしの会議に参加できます。 
+Skype Room System は、ユーザーが会議の参加リンクを使って制限された会議に参加するときに、認証を求めるメッセージを表示します。たとえば、Outlook で会議ロビーオプションが設定されている会議などです。 この設定は、カスタマイズされた会議用に常にオンになっており、ユーザーに常にメッセージが表示されます。 ただし、無制限の会議の場合、ユーザーは認証なしで会議に参加できます。 
   
 管理者は、次のコマンドによって、制限のない会議を含めてすべての会議で認証を要求できます。 
   

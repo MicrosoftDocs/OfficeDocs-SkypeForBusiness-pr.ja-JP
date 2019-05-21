@@ -1,29 +1,29 @@
 ---
-title: ビジネス サーバーの Skype でのアーカイブ ・ データの削除を管理します。
+title: Skype for Business Server でアーカイブデータの削除を管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
-description: '概要: は、Skype のビジネス サーバーのアーカイブ ・ データのパージを管理する方法を説明します。'
-ms.openlocfilehash: e6bc7cf077a17a3f4f6eaaf9f3026d170ddacfbd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のアーカイブデータの削除を管理する方法について説明します。'
+ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902841"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278392"
 ---
-# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのアーカイブ ・ データの削除を管理します。
+# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Skype for Business Server でアーカイブデータの削除を管理する
 
-**の概要:** ビジネス サーバー用の Skype のアーカイブ ・ データのパージを管理する方法について説明します。
+**概要:** Skype for Business Server のアーカイブデータの削除を管理する方法について説明します。
   
-アーカイブ データベースは、長期的な保存は、ありませんし、Skype のビジネス サーバー ソリューションが提供されない、(検索) を電子的証拠開示アーカイブ ・ データは、データを他のストレージに移動する必要があるため。 ビジネス サーバー用の Skype は、アーカイブ ・ データを検索可能なトラン スクリプトにエクスポートするのには使用できるセッション エクスポート ツールを提供します。 アーカイブされたデータやエクスポートされたデータをいつ削除するかを定義する必要があります。 
+アーカイブデータベースは、長期間の保存のためのものではありません。また、Skype for Business Server では、アーカイブデータの電子的な探索 (検索) ソリューションを提供していないため、データを他のストレージに移動する必要があります。 Skype for Business Server には、アーカイブデータを検索可能なトランスクリプトにエクスポートするために使用できるセッションエクスポートツールが用意されています。 アーカイブされたデータやエクスポートされたデータをいつ削除するかを定義する必要があります。 
   
-**.Eml という**コマンドレットを使用してデータをエクスポートする方法の詳細については、 [Skype のビジネス サーバーでアーカイブされたデータをエクスポートする](export-archived-data.md)を参照してください。
+**CsArchivingData**コマンドレットを使用してデータをエクスポートする方法について詳しくは、「 [Skype for business Server にアーカイブデータをエクスポート](export-archived-data.md)する」をご覧ください。
   
 ## <a name="manage-purging-of-data-by-using-the-control-panel"></a>コントロール パネルを使用してデータの削除を管理する
 
@@ -31,7 +31,7 @@ ms.locfileid: "33902841"
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     
@@ -55,19 +55,19 @@ ms.locfileid: "33902841"
     
 - **Invoke-CsArchivingDatabasePurge** を使用すると、アーカイブ データベースからレコードを手動で削除できます。
     
-たとえば、次のコマンドを使用するとアーカイブされている全データの削除を有効にできます。 このコマンドを実行すると、Skype のビジネス サーバーは KeepArchivingDataForDays パラメーターに指定された値より古いすべてのアーカイブのレコードをパージします。 
+たとえば、次のコマンドを使用するとアーカイブされている全データの削除を有効にできます。 このコマンドを実行すると、Skype for Business Server は、KeepArchivingDataForDays パラメーターに指定された値よりも古いすべてのアーカイブレコードを削除します。 
   
 ```
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
-次のコマンドは、( **.eml という**コマンドレットを使用して) でのデータ ファイルにエクスポートされたアーカイブされた記録の削除を制限します。 True ($True) に、PurgeExportedArchivesOnly パラメーターを設定することもあります。
+次のコマンドは、データファイルにエクスポートされた ( **CSArchivingData**コマンドレットを使用して) アーカイブされたレコードの削除を制限します。 PurgeExportedArchivesOnly パラメーターを True ($True) に設定する必要もあります。
   
 ```
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
-このコマンドを実行すると、Skype ビジネス サーバーの 2 つの条件を満たすレコードをアーカイブにのみパージされます: 1) KeepArchivingDataForDays パラメーターに指定した値よりも古い2) **.eml という**コマンドレットを使用してエクスポートされました。
+このコマンドを実行すると、Skype for Business Server は、2つの条件を満たすレコードのみを消去します。 1) は、KeepArchivingDataForDays パラメーターに指定された値よりも古いものです。and、2) **CsArchivingData**コマンドレットを使用してエクスポートされている。
   
 アーカイブ レコードの自動削除を無効にするには、EnablePurging パラメーターを False ($False) に設定します。
   
@@ -75,7 +75,7 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -Purg
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-次の例では、atl の sql-001.contoso.com のアーカイブ データベースから 24 時間を超えるすべてのレコードを削除するのに**呼び出し CsArchivingDatabasePurge**コマンドレットを使用します。 該当するレコードが、エクスポートされていないレコードも含めてすべて確実に削除されるようにするために、PurgeExportedArchivesOnly パラメーターを False ($False) に設定しています。
+次の例では、 **CsArchivingDatabasePurge**コマンドレットを使用して、atl-sql-001.contoso.com のアーカイブデータベースから24時間以上経過したレコードをすべて削除します。 該当するレコードが、エクスポートされていないレコードも含めてすべて確実に削除されるようにするために、PurgeExportedArchivesOnly パラメーターを False ($False) に設定しています。
   
 ```
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

@@ -1,25 +1,25 @@
 ---
-title: ビジネス サーバーの Skype で、メディア品質メトリック分布レポート
+title: Skype for Business Server でのメディア品質指標の配布レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: '概要: は、ビジネスのサーバーの Skype で、メディア品質メトリック分布レポートについて説明します。'
-ms.openlocfilehash: 65fc10e1adaa32c2538f49d7c41fe6ee45a51c1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server でのメディア品質指標の配布レポートについて説明します。'
+ms.openlocfilehash: 0376f75ff94b1b189c15e53aa7259880da96554a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902272"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280041"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype で、メディア品質メトリック分布レポート 
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Skype for Business Server でのメディア品質指標の配布レポート 
  
-**の概要:** ビジネス サーバーの Skype で、メディア品質メトリック分布レポートについて説明します。
+**概要:** Skype for Business Server でのメディア品質指標の配布レポートについて説明します。
   
 メディア品質メトリック分布レポートでは、ジッターやパケット損失などの QoE (Quality of Experience) 指標の分布値を示すグラフを確認することができます。たとえば、ユーザーが合計で 10 回の通話を行い、この 10 回の通話から以下のようなラウンドトリップ時間が報告されたとします。
   
@@ -32,9 +32,9 @@ ms.locfileid: "33902272"
 |5  <br/> |50  <br/> |
 |6  <br/> |50  <br/> |
 |7  <br/> |50  <br/> |
-|8  <br/> |4550  <br/> |
-|9  <br/> |50  <br/> |
-|10  <br/> |50  <br/> |
+|個  <br/> |4550  <br/> |
+|ファイブ  <br/> |50  <br/> |
+|常用  <br/> |50  <br/> |
    
 これらのラウンド トリップ時間の平均は 500 ミリ秒 (5000 を 10 で除算) です。500 ミリ秒は非常に大きなラウンド トリップ時間です。このため、ネットワークの混雑状態に深刻な問題があったことが推測できます (一般的に、ネットワークが過負荷になるとラウンド トリップ時間が長くなります)。
   

@@ -1,35 +1,35 @@
 ---
-title: マイクロソフト チームの会議室のメンテナンスと運用
+title: Microsoft Teams の会議室のメンテナンスと操作
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
-description: Skype ルーム システムの次世代をマイクロソフト チームの会議室の管理の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 384920dc64d16dd9a50d7eee6e8546ad9920044e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このトピックでは、次世代の Skype Room Systems である Microsoft Teams のルームの管理について説明します。
+ms.openlocfilehash: b32ac786c7c039bd1eaab060e12b7141a8d8cf72
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916329"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288564"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>マイクロソフト チームの会議室のメンテナンスと運用 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams の会議室のメンテナンスと操作 
  
-Skype ルーム システムの次世代をマイクロソフト チームの会議室の管理の詳細については、このトピックを参照してください。
+このトピックでは、次世代の Skype Room Systems である Microsoft Teams のルームの管理について説明します。
   
-マイクロソフト チームの会議室は、会議室をリッチな共同作業の経験に変換するように設計された、マイクロソフトの最新の会議ソリューションです。 ユーザーは、使い慣れたマイクロソフトのチームを利用または Skype ビジネス インタ フェースと IT 管理者の Windows 10 Skype 会議アプリケーション展開と管理が容易に喜ばれるでしょう。 マイクロソフト チームの会議室は、マイクロソフトのチームまたは Skype をビジネスの会議室に表示するインストールの容易さの LCD パネルと同様に既存の機器を活用して設計されています。
+Microsoft Teams room は、Microsoft の最新の会議ソリューションであり、会議室を豊かな共同作業環境に変革することを目的としています。 ユーザーには、使い慣れた Microsoft Teams または Skype for Business インターフェイスが採用され、IT 管理者は、Windows 10 の Skype 会議アプリの展開と管理が簡単になります。 Microsoft Teams room は、インストールを容易にするために LCD パネルなどの既存の機器を活用して、Microsoft Teams または Skype for Business を会議室に持ち込むことを目的としています。
   
-リモート管理は、 [Azure のモニターを使用して Microsoft チームの部屋の計画の管理](azure-monitor-plan.md)、 [Azure のモニターを使用してマイクロソフト チーム ルームの展開の管理](azure-monitor-deploy.md)、[管理の説明に従って、Microsoft Azure のモニターを使用して、追加の構成Azure のモニターを使用して Microsoft チーム室デバイス](azure-monitor-deploy.md)。 また、[マイクロソフト チームのルームの管理コンソールの XML 構成ファイルでリモートでの設定](xml-config-file.md)、ユーザー設定の表示テーマを適用する必要がある場合があります。 
+追加の構成では、「 [Microsoft teams のルーム管理を Azure monitor で計画](azure-monitor-plan.md)する」および「azure モニターを使用して[Microsoft teams のルーム管理を展開](azure-monitor-deploy.md)する」の説明に従って、microsoft azure モニターを使用してリモート管理を行うことができます。 [Microsoft Teams は、Azure モニターを使用して](azure-monitor-deploy.md)います。 また、 [Microsoft Teams 会議コンソールの設定を XML 構成ファイルを使ってリモートで管理](xml-config-file.md)することもできます。これには、カスタム表示テーマの適用が含まれます。 
   
-## <a name="collecting-logs-on-microsoft-teams-rooms"></a>マイクロソフト チームの会議室のログの収集
+## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams ルームでのログの収集
 <a name="Logs"> </a>
 
-ログを収集するには、マイクロソフト チームの会議室のアプリケーションに付属しているログ収集スクリプトを呼び出す必要があります。 管理者モードで、管理者特権のコマンド プロンプトを開始して、次のコマンドを発行します。
+ログを収集するには、Microsoft Teams のルームアプリに付属しているログ収集スクリプトを呼び出す必要があります。 管理者モードで、管理者特権のコマンド プロンプトを開始して、次のコマンドを発行します。
   
 ```
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -40,18 +40,18 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="front-of-room-display-settings"></a>前面の会議室ディスプレイの設定
 <a name="Display"> </a>
 
-前面の会議室ディスプレイを拡張モードに構成します。 これが必ず、コンソールを表示するには、ディスプレイの電源を入れ直すと、UI は複製されません。
+前面の会議室ディスプレイを拡張モードに構成します。 この操作を行うと、ディスプレイの電源を入れたときに、そのディスプレイに本体の UI が複製されることがなくなります。
   
 > [!NOTE]
 > 屋内ディスプレイの前面として使用される消費者向け TV では、スタンバイ モードからアクティブなビデオ ソースに自動的に切り替わるように、HDMI の CEC (Consumer Electronics Control) 機能をサポート/有効にする必要があります。 この機能はすべての TV でサポートされるものではありません。 
   
-## <a name="microsoft-teams-rooms-reset-factory-restore"></a>マイクロソフト チームの会議室のリセット (工場出荷時復元)
+## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams の会議室のリセット (工場出荷時の復元)
 <a name="Reset"> </a>
 
-マイクロソフト チームの会議室がうまく実行されていない、工場出荷時リセットを実行することが役立ちます。 これで**この PC をリセット**するの下にある [**回復**] タブの [アプリケーションの設定を行うを選択**を開始**し、**すべて削除します。** デバイスをリセットするのには、画面の指示に従います。
+Microsoft Teams の会議室が正常に動作していない場合は、出荷時のリセットを実行してください。 この操作は、[**回復**] タブの [設定] アプリで行うことができます。 [**この PC のリセット**] で、[**作業の開始**] を選び、[**すべて削除**] を選びます。 残りの指示に従って、デバイスをリセットします。
   
 > [!NOTE]
-> 場所マイクロソフト チームの会議室が使用できなくなる場合 Windows のリセット処理中に、**アプリの削除と設定のファイルを保存、個人用ファイルを保持**] オプションが選択されている既知の問題があります。 操作を行います_しない_このオプションを使用します。
+> **[自分のファイルを保持する] でアプリと設定を削除**した場合、Microsoft Teams の会議室が使用できなくなるという既知の問題がありますが、Windows のリセットプロセス中に個人用ファイルオプションが選択されたままになります。 この__ オプションは使用しないでください。
   
 ## <a name="supported-remote-options"></a>サポートされるリモート オプション
 <a name="RemoteOptions"> </a>
@@ -61,30 +61,30 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |**ワークグループ **|**ドメインに参加していない場合**|**ドメインに参加している場合**|
 |:-----|:-----|:-----|
-|再起動  <br/> |リモート デスクトップ  <br/> リモート Powershell  <br/> |(さらに設定する必要があります)、リモート デスクトップ  <br/> リモート Powershell を (さらに設定する必要があります)  <br/> SCCM  <br/> |
+|再起動  <br/> |リモート デスクトップ  <br/> リモート Powershell  <br/> |リモートデスクトップ (さらに構成が必要)  <br/> リモート Powershell (さらに構成が必要)  <br/> SCCM  <br/> |
 |OS の更新  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |アプリの更新  <br/> |	Windows ストア  <br/> |Windows ストア  <br/> SCCM  <br/> |
 |Skype アカウントの構成  <br/> |現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
 |ログへのアクセス  <br/> |	現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
    
-## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>マイクロソフト チームの会議室のグループ ポリシーを構成します。
+## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Microsoft Teams ルームのグループポリシーを構成する
 <a name="GroupPolicy"> </a>
 
-このセクションでは、マイクロソフト チームの会議室が正しく機能するために依存しているシステムの設定について説明します。 マイクロソフト チームの会議室をドメインに参加させるときは、グループ ポリシーが次の表の設定を上書きしないことを確認します。
+このセクションでは、Microsoft Teams のルームが適切に機能するために依存するシステム設定について説明します。 Microsoft Teams のルームをドメインに参加させる場合は、次の表の設定を上書きしないようにグループポリシーを設定します。
   
 
-|**設定**|**により、**|
+|**]**|**よう**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows 探して AutoAdminLogon = (REG_SZ) 1  <br/> |起動するように、マイクロソフト チームの会議室を使用します。  <br/> |
-|電源管理 -\> AC、画面をオフに 10 分後  <br/> 電源管理 -\> Ac システムをスリープ状態を配置しません。  <br/> |マイクロソフト チームの部屋に接続されている表示をオフにして、自動的にスリープを有効に  <br/> |
-|net accounts /maxpwage:unlimited  <br/> またはローカル アカウントのパスワードの有効期限を無効にするのと同等のことを意味します。 これを行うには、障害が発生する Skype アカウントの期限切れのパスワードについて苦情を言ってログオンが失敗すると、最終的に。 したがってこれを設定して必要があります管理者アカウント、最終的にも期限切れにする] ボックスに、コンピューター上のすべてのローカル アカウントに影響を与えるこのこと注意してください。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Microsoft Teams のルームを起動できるようにします。  <br/> |
+|電源管理-\> AC 電源、10分後に画面をオフにする  <br/> 電源管理-\> AC で、システムをスリープ状態にしない  <br/> |Microsoft Teams の会議機能を有効にして、添付されたディスプレイをオフにし、自動的にスリープ状態を解除する  <br/> |
+|net accounts /maxpwage:unlimited  <br/> または、ローカルアカウントのパスワードの有効期限を無効にすることもできます。 そうしないと、有効期限が切れたパスワードについて、Skype アカウントがログオンに失敗することになります。 これは、マシン上のすべてのローカルアカウントに影響を与えるため、これを設定しないと、そのボックスの管理者アカウントも最終的に有効期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
-グループ ポリシーを使用してファイルを転送するは、[構成ファイルの項目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)で説明します。
+グループポリシーを使用してファイルを転送する方法については[、「ファイルを構成](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)する」をお勧めします。
   
 ## <a name="remote-management-using-powershell"></a>PowerShell を使用したリモート管理
 <a name="RemotePS"> </a>
 
-PowerShell を使用して、次の管理操作をリモートで実行することができます (スクリプトのサンプルについては、次の表を参照してください)。
+PowerShell を使用して、次の管理操作をリモートで実行できます (スクリプトサンプルについては、以下の表を参照してください)。
   
 - 接続されているデバイスの取得
     
@@ -96,30 +96,30 @@ PowerShell を使用して、次の管理操作をリモートで実行するこ
     
 - ログの取得
     
-- ファイルを転送する (ドメインに参加している Microsoft チーム ルームが必要です)
+- ファイルを転送する (ドメインに参加している Microsoft Teams ルームが必要)
     
 > [!NOTE]
-> 既定では、この機能はオフです。 以下の操作を実行するのには、マイクロソフト チームの会議室のシステム環境のリモート PowerShell を有効にする必要があります。 リモート PowerShell を有効にする方法についての情報を**[有効にする PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** のマニュアルを参照してください。
+> 既定では、この機能はオフです。 以下の操作を実行するには、Microsoft Teams のルームシステムの環境に対してリモート PowerShell を有効にする必要があります。 リモート PowerShell を有効にする方法については、「 **[enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** のドキュメントを参照してください。
   
 たとえば、次のようにリモート PowerShell を有効にできます。
   
-1. マイクロソフト チームの会議室のデバイスに管理者としてサインインします。
+1. Microsoft Teams の会議室のデバイスで、管理者としてサインインします。
     
-2. 管理者特権の PowerShell コマンド プロンプトを開きます。
+2. 管理者特権の PowerShell コマンドプロンプトを開きます。
     
 3. 次のコマンドを入力します。Enable-PSRemoting -force
     
 管理操作を実行するには、次の操作を実行します。
   
-1. マイクロソフト チームの会議室のデバイスでの PowerShell コマンドを実行する権限を持つアカウントの資格情報で PC にサインインします。
+1. Microsoft Teams 室のデバイスで PowerShell コマンドを実行する権限を持つ、アカウントの資格情報を使って PC にサインインします。
     
-2. PC の通常の PowerShell コマンド プロンプトを開きます。
+2. PC で通常の PowerShell コマンドプロンプトを開きます。
     
-3. コマンド テキストを次の表からコピーし、プロンプトに貼り付けます。
+3. 次の表からコマンドテキストをコピーし、メッセージに貼り付けます。
     
-4. 交換`<Device fqdn>`FQDN の値を持つフィールドが、環境に対応します。
+4. 使用`<Device fqdn>`している環境に適した FQDN 値をフィールドに置き換えます。
     
-5. 交換*\<のパス\>* SkypeSettings.xml 構成ファイルのマスター (またはテーマのイメージ) のローカル パスとファイル名とします。
+5. * \<Path\> *を、マスター skypesettings (またはテーマの画像) のファイル名とローカルパスに置き換えます。
     
 接続されているデバイスを取得するには
   
@@ -159,7 +159,7 @@ $session = new-pssession -ComputerName $targetDevice
 Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-command {remove-item -force C:\Rigel\*.zip} -ComputerName $targetDevice
 ```
 
-XML 構成ファイル (またはテーマのグラフィック) をプッシュします。
+XML 構成ファイル (またはテーマグラフィック) をプッシュする
   
 ```
 $movefile = "<path>";
@@ -170,17 +170,17 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>ソフトウェアの更新
 <a name="SWupdate"> </a>
 
-既定では、マイクロソフト チームの会議室は、デバイスの通常のインターネット アクセスが必要なので、チームの会議室を Microsoft のソフトウェアの最新バージョンを取得する Windows ストアに接続しようとします。 必ずサポートの問題に関して、マイクロソフトに連絡する前にマイクロソフト チームの会議室のデバイス アプリケーションの最新バージョンがロードされます。
+既定では、Microsoft Teams の会議は、Microsoft Teams ルームソフトウェアの最新バージョンを取得するために Windows ストアに接続しようとします。そのため、デバイスでは、通常のインターネットアクセスが必要になります。 サポートの問題が発生した場合は、Microsoft Teams の会議室のデバイスが最新バージョンのアプリと共に読み込まれていることを確認してください。
   
-既定は、マイクロソフト チームの会議室は、オペレーティング システムを取得するために Windows の更新プログラムと USB 周辺機器のファームウェアの更新に接続し、構成済みの業務時間外をインストールします。 営業時間を設定するには、管理者アカウントでサインインし、設定アプリを実行します。
+既定では、Microsoft Teams のルームは Windows Update に接続して、オペレーティングシステムと USB 周辺機器のファームウェア更新プログラムを取得し、構成された勤務時間外にインストールします。 営業時間を設定するには、管理者アカウントでサインインし、設定アプリを実行します。
   
-APPX の適切なファイルとの[『 導入ガイド 』](https://go.microsoft.com/fwlink/?linkid=851168) (からの依存関係を取得することをした場合、手動で更新プログラムを管理する通常の手順に従って、[ビジネス向けのマイクロソフト ストア](https://businessstore.microsoft.com/store)の[オフライン アプリケーションを配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)することはできません。[マイクロソフト チームの会議室のコンソールを構成](console.md)する方法) と SCCM を使用できます。 展開キットのリリースも遅れて、ストアのリリースでは、最新の利用可能なビルドを常に一致可能性がありますように。
+更新プログラムを手動で管理する必要があるが、一般[法人向け Microsoft Store](https://businessstore.microsoft.com/store)の通常の手順に従って[オフラインアプリの配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)を行うことができない場合は、適切な APPX ファイルと依存関係を[展開キット](https://go.microsoft.com/fwlink/?linkid=851168)から入手できます (fromSCCM で使用できる[Microsoft Teams のルーム本体を構成](console.md)する手順)。 展開キットのリリースがストアのリリースよりも遅れているため、常に最新のビルドと一致しない可能性があります。
   
-### <a name="to-update-using-powershell"></a>Powershell を使用して更新するのには
+### <a name="to-update-using-powershell"></a>Powershell を使用して更新するには
 
-1. 共有デバイスには、 [MSI](https://go.microsoft.com/fwlink/?linkid=851168)にアクセスできるインストール パッケージを展開します。
+1. インストール[MSI](https://go.microsoft.com/fwlink/?linkid=851168)からデバイスがアクセスできる共有にパッケージを抽出します。
     
-2. デバイスの Microsoft チームの会議室の変更を対象とする次のスクリプトを実行\<共有\>デバイスには、必要に応じて共有します。
+2. 次のスクリプトを実行して、Microsoft Teams の会議\<室\>のデバイスをターゲットにし、必要に応じて共有をデバイス共有に変更します。
     
 ```
 Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -189,65 +189,65 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
 ## <a name="admin-mode-and-device-management"></a>管理者モードとデバイス管理
 <a name="AdminMode"> </a>
 
-プライベート CA 証明書を手動でインストールするように、一部の管理機能は、管理者モードで Surface Pro デバイスを配置する必要があります。 
+プライベート CA 証明書を手動でインストールするなどの一部の管理機能には、Surface Pro デバイスを管理モードで配置する必要があります。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>管理者モードとマイクロソフト チームの会議室のアプリケーションを実行しているときの切り替え
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Microsoft Teams のルームアプリが実行されているときに、管理モードに切り替えて戻る
 
-1. 進行中の呼び出しを切断し、ホーム画面に戻ります。
+1. 進行中の通話を切断して、ホーム画面に戻ります。
     
-2. 歯車のアイコンを選択し、メニューを表示 (オプションは、**設定**、**ユーザー補助の設定**、および**デバイスの再起動**) します。
+2. 歯車アイコンを選択し、メニューを開きます (オプションは [**設定**]、[**アクセシビリティ**]、[**デバイスの再起動**])。
     
 3. [**設定**] を選択します。
     
 4. 管理者パスワードを入力します。 セットアップ画面が表示されます。
     
     > [!NOTE]
-    > 場合は、デバイスでは、ドメインに参加していない場合は、ローカルの管理者アカウント (ユーザー名"Admin") は、既定で使用されます。 このアカウントの既定のパスワードは「sfb」ですが、セキュリティ上の理由により所属する組織によってできるだけ早く変更されることが推奨されます。 コンピューターがドメインに参加している場合は、適切な特権を持つドメイン アカウントを使用して署名できます。 
+    > デバイスがドメインに参加していない場合は、ローカルの管理者アカウント (ユーザー名 "管理者") が既定で使用されます。 このアカウントの既定のパスワードは「sfb」ですが、セキュリティ上の理由により所属する組織によってできるだけ早く変更されることが推奨されます。 コンピューターがドメインに参加している場合は、適切な権限を持つドメインアカウントでサインインできます。 
   
-5. 左の列には、 **Windows の設定**を選択します。
+5. 左側の列で、[ **Windows の設定**] を選択します。
     
 6. [**管理サインインに移動**] を選択します。
     
 7. 管理者パスワードを入力します。 これによって、アプリから正常にログオフされ、Windows のログイン画面が表示されます。 
     
-8. 管理者の資格情報でデスクトップにログインします。 デバイスを管理するために必要な特権があります。
+8. 管理者の資格情報でデスクトップにログインします。 デバイスを管理するために必要な権限が与えられます。
     
 9. 必要な管理タスクを実行します。
     
 10. 管理者アカウントからサイン アウトします。
     
-11. 画面の左端にある [ユーザー アカウントのアイコンを選択し、 **Skype**では、マイクロソフト チームの会議室に戻ります。
+11. 画面左側のユーザーアカウントアイコンを選択し、[ **Skype**] を選択して、Microsoft Teams のルームに戻ります。
     
-    **Skype**ユーザーが一覧にない場合は**他のユーザー**を選択し、入力をする必要があります**です。 \skype**として、ユーザー名、およびサインインします。
+    **Skype**ユーザーが表示されていない場合は、[**他のユーザー** ] を選択し、ユーザー名として「 **.\skype** 」と入力して、サインインしなければならない場合があります。
     
-コンソールは、その通常の操作モードに戻るようになりました。次の手順では、1 つは既に接続されていない場合、デバイスにキーボードを接続する必要があります。 
+これで本体が通常の操作モードに戻ります。次の手順では、デバイスがまだ接続されていない場合は、そのデバイスにキーボードをアタッチする必要があります。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>管理者モードとマイクロソフト チーム ルーム アプリケーションがクラッシュしたときの切り替え
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Microsoft Teams の会議アプリがクラッシュしたときに、管理モードに切り替えて戻る
 
 1. Windows キーを 5 回連続で、素早く押します。 これによって、Windows のログオン画面が開きます。 
     
 2. 管理者の資格情報でデスクトップにログインします。
     
     > [!NOTE]
-    > このメソッドは、Skype ユーザーをログオフまたは、アプリケーションを正常に終了しませんが、場合を使用してアプリケーションが応答していませんでしたし、使用可能なその他の方法がありませんでした。 
+    > この方法では、Skype ユーザをログオフしたり、アプリを正常に終了したりすることはありませんが、アプリが応答しなくなった場合や、その他の方法が利用できない場合に使用します。 
   
 3. 必要な管理タスクを実行します。
     
 4. 完了したら、コンピューターを再起動します。
     
-   コンソールは、マイクロソフト チームの会議室のアプリケーションを実行して、通常の操作モードに再起動します。 キーボードを削除するには、この手順を実行するために割り当てられる場合。
+   本体は、Microsoft Teams のルームアプリを実行して、通常の操作モードで再起動します。 この手順を実行できるように設定されている場合は、キーボードを削除することができます。
    ## <a name="troubleshooting-tips"></a>トラブルシューティングのヒント
    <a name="TS"> </a>
 
-- 会議出席依頼があります (たとえば、2 つの企業では)、ドメインの境界を越えて送信される場合は表示されません。 このような場合、IT 管理者は、会議をスケジュールするのには外部のユーザーを許可するかどうかを決める必要があります。
+- 会議の出席依頼は、(2 つの会社間など) ドメインの境界を越えて送信された場合には表示されない場合があります。 このような場合、IT 管理者は、外部ユーザーによる会議のスケジュールを許可するかどうかを決定する必要があります。
     
-- マイクロソフト チームの会議室には、Exchange 2010 を使用して Exchange の自動検出リダイレクトをサポートしていません。
+- Microsoft Teams のルームは、Exchange 2010 経由の Exchange 自動検出リダイレクトをサポートしていません。
     
-- 一般は、オーディオ エンドポイントを使用しないことを無効にする IT 管理者のことをお勧めします。
+- 一般的に、IT 管理者が使用する必要のないオーディオエンドポイントを無効にすることをお勧めします。
     
 - ルームのプレビューにミラー イメージが表示される場合、IT 管理者はカメラの電源をいったんオフにして再びオンにするか、カメラのリモート制御を使用してイメージの向きを反転させることでミラー イメージを修正できます。
     
-- コンソールのタッチスクリーンへのアクセスが機能しなくなる問題が発生することが知られています。 このような場合は、マイクロソフト チームの会議室のシステムを再起動することによって問題が解決場合があります。
+- コンソールのタッチスクリーンへのアクセスが機能しなくなる問題が発生することが知られています。 このような場合、Microsoft Teams のルームシステムを再起動すると、問題が解決されることがあります。
     
 - 有線取り込みを介して PC をコンソールに接続すると、ローカルの音声が消失する問題が発生することが知られています。 このような場合は、PC を再起動することでローカルの音声再生の問題を解決できます。
     

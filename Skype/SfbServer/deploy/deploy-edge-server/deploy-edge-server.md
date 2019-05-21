@@ -1,10 +1,10 @@
 ---
-title: ビジネス サーバーの Skype にエッジ サーバーを展開します。
+title: Skype for Business Server でエッジサーバーを展開する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,38 +12,38 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
-description: 概要では、エッジ サーバーまたはエッジ プールに、Skype をビジネスのサーバー環境に展開する方法について説明します。
-ms.openlocfilehash: 4968f11b14b21308ab731cffbc68d67337afa564
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: エッジサーバーまたはエッジプールを Skype for Business Server 環境に展開する方法について説明します。'
+ms.openlocfilehash: bcb6f7fdd7b322411e793fe3466418db1dd00894
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893239"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306952"
 ---
-# <a name="deploy-edge-server-in-skype-for-business-server"></a>ビジネス サーバーの Skype にエッジ サーバーを展開します。
+# <a name="deploy-edge-server-in-skype-for-business-server"></a>Skype for Business Server でエッジサーバーを展開する
  
-**の概要:** エッジ サーバーまたはエッジ プールに、Skype をビジネスのサーバー環境に展開する方法について説明します。
+**概要:** エッジサーバーまたはエッジプールを Skype for Business Server 環境に展開する方法について説明します。
   
-導入する理由、エッジ サーバーまたはエッジ プールは、ビジネスのサーバー環境で、Skype にしますか。 内部ユーザーと対話することができるように、組織の内部ネットワークにログインしていない外部のユーザーが必要な場合、それは必要があります。 これらの外部ユーザーが認証ユーザーと匿名のリモート ユーザー、フェデレーション パートナー、またはその他のモバイル クライアントを使用できます。
+エッジサーバーまたはエッジプールを Skype for Business Server 環境に展開する理由 組織の内部ネットワークにログインしていない外部ユーザーが内部ユーザーとやり取りできるようにする必要がある場合は、この方法が必要です。 これらの外部ユーザーは、認証されたリモートユーザー、フェデレーションパートナー、またはその他のモバイルクライアントを認証することができます。
   
-## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Skype ビジネス サーバーのため、エッジの展開のチェックリスト
+## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>エッジの展開チェックリスト (Skype for Business Server の場合)
 
-前述したように、多くが、Skype のエッジ サーバーの展開にビジネス サーバーの移動します。 このチェックリストを使用するより詳細な手順を実行するには、する必要がありますタスクとリンクの概要について説明します。
+上で説明したように、多くの場合、Skype for Business Server 向け Edge Server 展開に入ります。 このチェックリストは、実行する必要があるタスクの概要と、より詳細な手順へのリンクを示します。
   
-[Skype ビジネス サーバー用にエッジ サーバーの展開計画](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)に記載し始めていることを願っています。 それ以外の場合は、ここで参照する多くの事項について、以下で詳細に説明します。 展開に関するセクションには手順のみが掲載されているため、それらの手順の背後にある理由を知りたいと考える場合は、計画から読み始めるのが適切です。
+「 [Skype For Business server で Edge server を展開するための計画](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)」を開始することを願っています。 それ以外の場合は、ここで参照する多くの事項について、以下で詳細に説明します。 展開に関するセクションには手順のみが掲載されているため、それらの手順の背後にある理由を知りたいと考える場合は、計画から読み始めるのが適切です。
   
-このドキュメント、ビジネス サーバー用の Skype の基本的な展開を行ったことがあるもを練習します。 可能性があります行うその展開サイド バイ サイドのエッジを持つが、最初に、これらの手順を実行する必要は、ことができますここに記載されているエッジ トポロジを変更するには
+このドキュメントは、Skype for Business Server の基本的な展開も完了していることを前提としています。 この展開を Edge と並行して実行することもありますが、これらの手順を最初に実行する必要があります。その後で、ここに記載されているエッジのトポロジを変更できるようになります。
   
 これらは、実行する必要のある手順に関する概要の一覧であり、これらの手順に関する詳細は、参照先に掲載されています。
   
-- [Skype のビジネス サーバーのサーバーのシステム要件をエッジします。](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+- [Skype for Business Server での Edge Server システム要件](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
     
-- [Skype のビジネス サーバーのサーバー環境の要件をエッジします。](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
+- [Skype for Business Server での Edge Server の環境要件](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
     
-- [Skype のビジネス サーバーのエッジ ・ トポロジーを作成します。](create-your-edge-topology.md)
+- [Skype for Business Server の Edge トポロジを作成する](create-your-edge-topology.md)
     
-- [ビジネス サーバーの Skype でエッジ トランスポート サーバーを展開します。](deploy-edge-servers.md)
+- [Skype for Business Server でエッジサーバーを展開する](deploy-edge-servers.md)
     
-- [ビジネス サーバーの Skype で、エッジ配置を検証します。](validate-edge-deployment.md)
+- [Skype for Business Server での Edge の展開を検証する](validate-edge-deployment.md)
     
 

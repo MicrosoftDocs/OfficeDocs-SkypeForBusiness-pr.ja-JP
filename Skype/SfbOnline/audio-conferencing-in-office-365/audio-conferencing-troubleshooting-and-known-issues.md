@@ -12,35 +12,35 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'ダイヤルイン会議プロバイダー、ステータス、およびいくつかの回避策として、Microsoft を使用する場合は、既知の問題の一覧を取得します。 '
-ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Microsoft をダイヤルイン会議プロバイダーとして使用する場合の既知の問題の一覧、状態、およびいくつかの回避策についてご確認ください。 '
+ms.openlocfilehash: 9b70cfcdeeb80be43cd0ecc99ca7eced71bb9319
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229186"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289585"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>電話会議のトラブルシューティングと既知の問題
 
- **この資料が、Skype のビジネス ユーザーが Microsoft を使用して、オーディオ会議プロバイダーとしてです。それは、サード ・ パーティ製の音声会議プロバイダー (ACP) を使用しているユーザーには適用されません。**
+ **この記事は、Microsoft を電話会議プロバイダーとして使用する Skype for Business ユーザーを対象としています。サードパーティ電話会議プロバイダー (ACP) を使用しているお客様には適用されません。**
   
 ## <a name="troubleshooting-and-known-issues"></a>トラブルシューティングと既知の問題
 
 Microsoft を電話会議プロバイダーとして使う電話会議には、現在追跡中で、積極的に調査が行われている問題があります。この問題は、Office 365 の今後のリリースで機能が更新されると解決される可能性があります。
   
-ここでは、これを参照として使用オーディオ会議の設定を取得して、組織内のビジネスの Skype を使用するユーザーの作業に潜在的な問題をトラブルシューティングする場合。
+ここでは、電話会議をセットアップし、組織の Skype for Business を使っているユーザーに対して動作する場合に発生する可能性のある問題をトラブルシューティングするときの参考にしてください。
 
 |**問題**|**動作/現象**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |会議の開始時に入退室の通知はオンになるが、会議の開始後すぐにオフになる。  <br/> |既定では、Skype for Business アプリまたはダイヤルインのいずれかから参加者が参加する場合でも、会議の入退室の通知は無効になります。Skype for Business アプリの [ **Skype 会議のオプション**] で、このお知らせを有効にできます。すべての参加者がダイヤルインで参加する会議では、参加者は参加者リストを利用できないため、入退室通知は既定で有効になります。通話による参加者のみの会議は開始時に入退室通知がオンになりますが、Skype for Business アプリを使う参加者が参加すると、この通知はオフになります。この通知がオフの場合、Skype for Business アプリの [ **Skype 会議のオプション**] を使ってオンに戻すことができます。 <br/> |回避策なし。  <br/> |8/30/2017  <br/> |
-|E5 ライセンスを割り当て、最初にユーザーをプロビジョニングするときに、メールボックスが有効でないユーザーに電話会議のようこそメールが配信されないことがある。  <br/> |これが発生した場合は、Skype for Business 管理センター の [ **電話会議**] を使用するか、PowerShell を使用してユーザーの電話会議情報をいつでも再送信することができます。 [有効にするかオーディオ会議の設定を変更すると、送信メールを無効にする](enable-or-disable-sending-emails-when-their-settings-change.md)を参照してください。  <br/> **注:** オーディオ会議の暗証番号 (pin) をユーザーに再送信するために、暗証番号 (pin) にリセットするのには。 これを行うには、Skype for Business 管理センター の [ **電話会議**] を使用するか、PowerShell を使用します。          |回避策なし。  <br/> |8/30/2017  <br/> |
+|E5 ライセンスを割り当て、最初にユーザーをプロビジョニングするときに、メールボックスが有効でないユーザーに電話会議のようこそメールが配信されないことがある。  <br/> |これが発生した場合は、Skype for Business 管理センター の [ **電話会議**] を使用するか、PowerShell を使用してユーザーの電話会議情報をいつでも再送信することができます。 「[電話会議の設定が変更されたときにメールの送信を有効または無効](enable-or-disable-sending-emails-when-their-settings-change.md)にする」をご覧ください。  <br/> **注:** 電話会議の PIN をユーザーに再送信するには、PIN をリセットする必要があります。 これを行うには、Skype for Business 管理センター の [ **電話会議**] を使用するか、PowerShell を使用します。          |回避策なし。  <br/> |8/30/2017  <br/> |
 |電話会議の通話が利用状況レポートに表示されるのに最大 24 時間かかる。  <br/> |将来のサービスの更新では、この点について機能強化が図られることが予定されています。  <br/> |回避策なし。  <br/> |8/30/2017  <br/> |
 |Skype for Business ユーザーが会議をロックした後で、発信者が会議ブリッジにダイヤルインしても、ユーザーがロビーで待っていることを知らせる通知がSkype for Business アプリにない。  <br/> |これは現在の設計上の仕様ですが、今後のサービス更新でこの機能のサポートに関するフィードバックを採用しています。  <br/> |回避策なし。  <br/> |8/30/2017  <br/> |
    

@@ -1,41 +1,41 @@
 ---
-title: Skype ビジネス サーバーの最上位の障害レポート
+title: Skype for Business Server の上位のエラーレポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: '概要: は、Skype でビジネス サーバーの最上位のエラー レポートについて説明します。'
-ms.openlocfilehash: 71a97c9d01e079f59df2658bb137b27794fcb1d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の上位エラーレポートについて説明します。'
+ms.openlocfilehash: a1b3337a65e3193324b30f5d83f6858ef996111a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915382"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279719"
 ---
-# <a name="top-failures-report-in-skype-for-business-server"></a>Skype ビジネス サーバーの最上位の障害レポート
+# <a name="top-failures-report-in-skype-for-business-server"></a>Skype for Business Server の上位のエラーレポート
  
-**の概要:** ビジネス サーバーの Skype で最上位のエラー レポートについて説明します。
+**概要:** Skype for Business Server の上位のエラーレポートについて説明します。
   
 トップ エラー レポートは、最もよく報告されているエラーに関する情報と、そのエラーの推移を示します。エラーは、次の 2 つのメトリックの組み合わせに基づいています。
   
 - **診断 ID**。SIP メッセージに添付された一意の識別子 (ms-diagnostics ヘッダーの形式)。診断 ID は、呼び出し関連のエラーのトラブルシューティングに役立つ情報を提供します。
     
-- **応答コード**です。 応答コードは、SIP 要求に応答するのには、SIP 通信セッションで使用されます。 たとえば、Ken では (つまり、Ken Myer は、久保田を呼び出す) と久保田千絵にへの招待要求を送信します。 正門の回答を自分の電話で応答コード 200 (OK)、Ken の電話の正門が応答したことを確認することが送信されます。 トップ エラー レポートには、通話障害への応答として送信された応答コードにはだけが含まれます。Skype ビジネス サーバーはないの追跡の呼び出しの実行中に発行されたすべての応答コード。
+- **応答コード**。 応答コードは SIP 通信セッションで使用され、SIP 要求に応答します。 たとえば、Ken によって INVITE 要求が Pilar Ackerman に送信されたとします (つまり、Ken Myer が Pilar Ackerman を呼び出したとします)。 Pilar の回答がある場合、彼女の電話には応答コード 200 (OK) が送信され、Ken の電話では Pilar が応答したことが通知されます。 上位のエラーレポートには、通話の失敗に応じて送信された応答コードのみが含まれます。Skype for Business Server では、通話中に発行されたすべての応答コードを追跡することはできません。
     
 このレポートでは、エラーが発生したセッションの合計数だけでなく、エラーの影響を受けた合計ユーザー数に関する情報も報告されます。
   
 ## <a name="accessing-the-top-failures-report"></a>トップ エラー レポートにアクセスする
 
-トップ エラー レポートには、[監視レポート] ホーム ページからアクセスします。 報告セッション メトリックをクリックするとクリックすると、 [Business Server の Skype でのエラー分布レポート](failure-distribution-report.md)します。
+トップ エラー レポートには、[監視レポート] ホーム ページからアクセスします。 報告されたセッションメトリックをクリックすると、 [Skype For Business Server のエラー配布レポート](failure-distribution-report.md)に移動します。
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>トップ エラー レポートを最大限に利用する
 
-トップ エラー レポートは、通常の 1 つの関係で: 1 度に最大 5 つの診断 Id にフィルターを適用することができます。 (通常のみをフィルターできます - 1 つのユーザーの SIP アドレスなどの項目の 1 つずつ。)診断 Id を複数のフィルターは、単に Id を区切るコンマを使用して、診断 [Id] ボックスに各 ID を入力します。 (にする場合は、おくことができます空白の領域ごとのコンマの後です。)例えば：
+最上位のエラーレポートは、1つの観点から見ては非常にまれです。一度に最大5つの診断 Id に基づいてフィルター処理することができます。 (通常、1つのユーザー SIP アドレスなど、1つの項目に対してのみフィルター処理できます)。複数の診断 Id をフィルター処理するには、[診断 Id] ボックスに各 ID を入力して、識別子をコンマで区切ります。 (必要に応じて、各コンマの後に空白スペースを入れることができます)。例えば：
   
 1011, 2412, 1033, 52116, 1008
   

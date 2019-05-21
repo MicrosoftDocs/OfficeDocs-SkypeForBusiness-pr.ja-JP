@@ -1,10 +1,10 @@
 ---
-title: 作成またはビジネス用の Skype でキューを変更します。
+title: Skype for Business でキューを作成または変更する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ キューを変更します。
-ms.openlocfilehash: 6af6f9e4bea089f8b6194a06d1890e7d7e1699ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice で応答グループキューを作成または変更します。
+ms.openlocfilehash: a19385567a40b958d6941ddeac873211fc92cf3e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892917"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286226"
 ---
-# <a name="create-or-modify-a-queue-in-skype-for-business"></a>作成またはビジネス用の Skype でキューを変更します。
+# <a name="create-or-modify-a-queue-in-skype-for-business"></a>Skype for Business でキューを作成または変更する
  
-作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ キューを変更します。
+Skype for Business Server Enterprise Voice で応答グループキューを作成または変更します。
   
-エージェントが通話に応答するまで、キューには発信者が保持されます。 応答グループ アプリケーションは、使用可能なエージェントを検索する場合は、それらが一覧表示される順序でエージェント グループを検索します。 キューに割り当てられるエージェント グループを選択し、キューに保持する通話の最大数や、エージェントが応答するまで通話を待機させる時間などのキューの動作を指定できます。
+エージェントが通話に応答するまで、キューには発信者が保持されます。 応答グループアプリケーションは、利用可能なエージェントを検索するときに、一覧に表示されている順序でエージェントグループを検索します。 キューに割り当てられるエージェント グループを選択し、キューに保持する通話の最大数や、エージェントが応答するまで通話を待機させる時間などのキューの動作を指定できます。
   
 キューを作成または変更するには、以下のいずれかの手順を使用します。
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>ビジネス サーバーのコントロール パネルの Skype を使用して作成または、キューを変更するには
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Skype for Business Server コントロールパネルを使用してキューを作成または変更するには
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
     > [!NOTE]
     > 管理ワークフローを委任された応答グループ マネージャーのいずれかである場合は、応答グループ キューを作成または変更して、管理するワークグループに割り当てることができます。 
   
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。  
     
 3. 左側のナビゲーション バーで [**応答グループ**] をクリックし、[**キュー**] をクリックします。
     
@@ -69,11 +69,11 @@ ms.locfileid: "33892917"
     
    - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-   - ボイス メール、**ボイス メールを転送**する] をクリックし、 **SIP アドレス**] フィールドに、アドレスを入力、音声メール形式の sip に呼び出しを転送する:*\<ユーザー名\>*@ *\<ドメイン名\>*(例、sip:bob@contoso.com)。
+   - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**] フィールドに、「sip: * \<\>username*@ *\<domainname\> * 」という形式でボイスメールアドレスを入力します (例 sip:bob@contoso.com)。
     
-   - 別の電話番号への呼び出しを転送するに**転送先の電話番号**をクリックし、 **SIP アドレス**] フィールドに、入力形式の sip の電話番号:*\<数\>*@ *\<\>* (sip:+14255550121@contoso.com など)。
+   - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックして、[ **sip アドレス**] フィールドに電話番号を「sip: * \<\>番号*@ *\<のドメイン名\>* (たとえば、sip:+14255550121@contoso.com)。
     
-   - 他のユーザーへの呼び出しを転送するには、 **SIP アドレスに転送**をクリックして、 **SIP アドレス**] フィールドに、sip の形式でユーザーの URI を入力:_\<ユーザー名\>_@ _\<ドメイン名\>_。
+   - 通話を別のユーザーに転送するには、[ **sip アドレスに転送**] をクリックし、[ **sip アドレス**] フィールドにユーザーの URI を「sip _ \<:\>username_@ _\<domainname\>_」という形式で入力します。
     
    - 別のキューに通話を転送する場合は [**別のキューに転送**] をクリックし、使用するキューを参照します。
     
@@ -87,17 +87,17 @@ ms.locfileid: "33892917"
     
    - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-   - ボイス メール、**ボイス メールを転送**する] をクリックし、 **SIP アドレス**] フィールドに、アドレスを入力、音声メール形式の sip に呼び出しを転送する:*\<ユーザー名\>*@ *\<ドメイン名\>*(例、sip:bob@contoso.com)。
+   - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**] フィールドに、「sip: * \<\>username*@ *\<domainname\> * 」という形式でボイスメールアドレスを入力します (例 sip:bob@contoso.com)。
     
-   - 別の電話番号への呼び出しを転送するに**転送先の電話番号**をクリックし、 **SIP アドレス**] フィールドに、入力形式の sip の電話番号:*\<数\>*@ *\<\>* (sip:+14255550121@contoso.com など)。
+   - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックして、[ **sip アドレス**] フィールドに電話番号を「sip: * \<\>番号*@ *\<のドメイン名\>* (たとえば、sip:+14255550121@contoso.com)。
     
-   - 他のユーザーへの呼び出しを転送するには、 **SIP アドレスに転送**をクリックして、 **SIP アドレス**] フィールドに、sip の形式でユーザーの URI を入力:_\<ユーザー名\>_@ _\<ドメイン名\>_。
+   - 通話を別のユーザーに転送するには、[ **sip アドレスに転送**] をクリックし、[ **sip アドレス**] フィールドにユーザーの URI を「sip _ \<:\>username_@ _\<domainname\>_」という形式で入力します。
     
    - 別のキューに通話を転送する場合は [**別のキューに転送**] をクリックし、使用するキューを参照します。
     
 10. [**確定**] をクリックします。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Skype ビジネス サーバー管理シェルを使用して作成または、待ち行列を変更するのには
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Skype for Business Server 管理シェルを使用してキューを作成または変更するには
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
@@ -119,7 +119,7 @@ ms.locfileid: "33892917"
    ```
 
    > [!NOTE]
-   > プロンプトにオーディオ ファイルを使用するには、 **Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については、[インポートの CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)を参照してください。 
+   > プロンプトにオーディオ ファイルを使用するには、 **Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については、「[インポート-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)」を参照してください。 
   
 4. キューのタイムアウトしきい値に達したときに実行されるアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
@@ -128,7 +128,7 @@ ms.locfileid: "33892917"
    ```
 
    > [!NOTE]
-   > 実行可能なアクションとその構文の詳細については、[新規 CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)を参照してください。 
+   > 可能なアクションとその構文の詳細については、「[新しい-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)」を参照してください。 
   
     次に例を示します。
     
@@ -149,7 +149,7 @@ ms.locfileid: "33892917"
    ```
 
       > [!NOTE]
-      > プロンプトにオーディオ ファイルを使用するには、 **Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については、[インポートの CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)を参照してください。 
+      > プロンプトにオーディオ ファイルを使用するには、 **Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については、「[インポート-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)」を参照してください。 
   
 6. キューのオーバーフローしきい値に達したときに実行されるアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
@@ -158,7 +158,7 @@ ms.locfileid: "33892917"
    ```
 
     > [!NOTE]
-    > 実行可能なアクションとその構文の詳細については、[新規 CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)を参照してください。 
+    > 可能なアクションとその構文の詳細については、「[新しい-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)」を参照してください。 
   
     次に例を示します。
     
@@ -179,7 +179,7 @@ ms.locfileid: "33892917"
    ```
 
     > [!NOTE]
-    > エージェント グループを作成する方法については、[新規 CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)を参照してください。
+    > エージェントグループの作成の詳細については、「[新しい-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps) 」を参照してください。
   
 9. キューを作成します。コマンド ラインで、次のコマンドを実行します。
     
@@ -201,16 +201,16 @@ ms.locfileid: "33892917"
 
 ## <a name="see-also"></a>関連項目
 
-[新しい-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+[新規-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
-[セット CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
+[Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[新しい-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[新規-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[新しい-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[新規-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
-[Get CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
+[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
 [インポート-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
-[削除 CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
+[削除-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)

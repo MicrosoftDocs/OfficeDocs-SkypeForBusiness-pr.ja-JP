@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVPolicyRuleEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: クライアント バージョン ポリシーは、一連のクライアント バージョン ルールで構成されます。これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。
-ms.openlocfilehash: 2b78d665e608a9ac81baaaaee5812957a2eaf5e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6fa3ca3f59756c8a6fedb9fd8f1f457ca3f2df40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920381"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277931"
 ---
 # <a name="client-version-rule"></a>クライアント バージョン ルール
 
@@ -36,13 +36,13 @@ ms.locfileid: "33920381"
 
 以下は、ページ上のメニュー、コマンド、フィールド、およびプロパティについての説明です。
 
-- **ユーザー エージェント**クライアントの種類を一覧から選択できます。 次の表は、ユーザー エージェントのコードを定義します。
+- **ユーザーエージェント**リストからクライアントの種類を選ぶことができます。 次の表は、ユーザーエージェントコードを定義しています。
 
 |**クライアント名**|**ユーザー エージェント**|
 |:-----|:-----|
-|Lync 2013 では、Lync 2010 では、Office Communicator  <br/> |OC  <br/> |
-|Lync Web アプリケーションでは、Communicator Web Access  <br/> |CWA  <br/> |
-|Office Communicator の電話、Lync の電話のエディション  <br/> |OCPhone  <br/> |
+|Lync 2013、Lync 2010、Office Communicator  <br/> |OC  <br/> |
+|Lync Web App, Communicator Web Access  <br/> |CWA  <br/> |
+|Lync Phone Edition、Office Communicator フォン  <br/> |OCPhone  <br/> |
 |Communicator Phone Edition プラットフォーム  <br/> |CPE  <br/> |
 |統合コミュニケーション プラットフォーム  <br/> |UCCP  <br/> |
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
@@ -50,24 +50,24 @@ ms.locfileid: "33920381"
 |Office Live Meeting  <br/> |LMC  <br/> |
 |Windows Messenger  <br/> |WM  <br/> |
 |リアルタイム通信クライアント  <br/> |RTC  <br/> |
-|IPad の Lync 2010  <br/> |iPadLync  <br/> |
-|IPhone の Lync 2010  <br/> |iPhoneLync  <br/> |
-|Windows Phone の Lync 2010  <br/> |WPLync  <br/> |
-|Nokia の Lync 2010  <br/> |NokiaLync  <br/> |
-|Android の Lync 2010  <br/> |AndroidLync  <br/> |
+|Lync 2010 for iPad  <br/> |iPadLync  <br/> |
+|Lync 2010 for iPhone  <br/> |iPhoneLync  <br/> |
+|Windows Phone 版 Lync 2010  <br/> |WPLync  <br/> |
+|Lync 2010 for Nokia  <br/> |NokiaLync  <br/> |
+|Lync 2010 for Android  <br/> |AndroidLync  <br/> |
 |Mobility Service  <br/> |McxService  <br/> |
 
-- **バージョン番号**次のフィールドにバージョン番号を指定するか、クライアントのバージョン番号を示すためにワイルドカードを使用できます。
+- **バージョン番号**次のフィールドのバージョン番号を指定するか、ワイルドカードを使用してクライアントのバージョン番号を示すことができます。
 
-  - **メジャー バージョン**主要なリリースのクライアントに対応する番号を指定します。
+  - **メジャーバージョン**クライアントのメジャーリリースに対応する番号を指定します。
 
-  - **マイナー バージョン**クライアントのマイナー リリースに対応する番号を指定します。
+  - **マイナーバージョン**クライアントのマイナーリリースに対応する番号を指定します。
 
-  - **ビルド**クライアントのメジャーおよびマイナー リリースに対応するビルド番号を指定します。
+  - **ビルド**クライアントのメジャーとマイナーのリリースに対応するビルド番号を指定します。
 
-  - **更新**クライアントの更新のリリースに対応する番号を指定します。
+  - **更新**クライアントの更新されたリリースに対応する番号を指定します。
 
-- **比較演算**上記の手順で指定したクライアント バージョンの一致操作を指定できます。 次の操作を紹介します。
+- **比較演算**前の手順で指定したクライアントバージョンの照合操作を指定できます。 次の操作を実行できます。
 
   - **[同じ]**
 
@@ -81,20 +81,20 @@ ms.locfileid: "33920381"
 
   - **[より古いか同じ]**
 
-- **アクション**上記の手順で条件が満たされたときに実行するアクションを指定することができます。 次の操作を紹介します。
+- **操作**前の手順の条件が満たされたときに実行するアクションを指定できます。 次の操作を実行できます。
 
-  - **許可します。** ログオンするクライアントを使用できます。
+  - **許可**クライアントがログオンできるようにします。
 
-  - **許可およびアップグレード**ログオンし、Windows Server の更新サービスまたは Microsoft Update から更新を受信するクライアントを使用できます。 この操作は、 **OC**のユーザー エージェントが選択した場合のみ利用可能です。
+  - **許可とアップグレード**クライアントが Windows Server Update Service または Microsoft Update からログオンして更新プログラムを受信できるようにします。 この操作は、ユーザーエージェント**OC**が選択されている場合にのみ使用できます。
 
     > [!NOTE]
-    > このアクションを選択すると、次にユーザーがビジネスのための Skype にサインインを表示する通知が発生します。 この通知では、Windows Server Update Service または Microsoft Update に更新がまだリリースされていなくても、更新が利用できるようになったことが伝えられます。 混乱を避けるため、このアクションは必ず更新が利用できるようになってから選択する必要があります。
+    > このアクションを選ぶと、次回ユーザーが Skype for Business にサインインしたときに通知が表示されます。 この通知では、Windows Server Update Service または Microsoft Update に更新がまだリリースされていなくても、更新が利用できるようになったことが伝えられます。 混乱を避けるため、このアクションは必ず更新が利用できるようになってから選択する必要があります。
 
-  - **URL を許可します。** により、クライアントがログオンして、別のクライアント バージョンをダウンロードする場所についてのメッセージが表示されます。 [**URL**] フィールドで URL を指定します。
+  - **URL で許可**クライアントがログオンして、別のクライアントバージョンをダウンロードする場所に関するメッセージを表示することを許可します。 [**URL**] フィールドで URL を指定します。
 
   - **ブロック**クライアントがログオンできないようにします。
 
-  - **ブロックおよびアップグレード**クライアントがログオンできないようにし、クライアントが Windows Server の更新サービスまたは Microsoft Update から更新を受信することができます。 この操作は、 **OC**のユーザー エージェントが選択した場合のみ利用可能です。
+  - **ブロックとアップグレード**クライアントがログオンし、Windows Server Update Service または Microsoft Update から更新プログラムを受信できるようにします。 この操作は、ユーザーエージェント**OC**が選択されている場合にのみ使用できます。
 
   - [**URL を使用した禁止**]   クライアントがログオンし、他のクライアント バージョンをダウンロードする場所についてのメッセージを表示することを禁止します。[**URL**] フィールドで URL を指定します。
 

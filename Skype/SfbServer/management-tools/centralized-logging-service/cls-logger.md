@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/25/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: '概要: ビジネス サーバー 2015 の Skype での一元的なログ記録サービス (CLS) のロガーを使用する方法を説明します。'
-ms.openlocfilehash: 9edaf9d8528e03577fa54bb02f876aac017a4146
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server 2015 で集中化されたログサービス (CLS) Logger の使い方について説明します。'
+ms.openlocfilehash: 496f30bdcedeb491bd5bfa211f08c04853b49bf8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915004"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274465"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の CLS Logger
  
-**の概要:** ビジネス サーバー 2015 の Skype での一元的なログ記録サービス (CLS) のロガーを使用する方法について説明します。
+**概要:** Skype for Business Server 2015 で集中化されたログサービス (CLS) Logger の使い方について説明します。
   
 CLS Logger は、集中ログ サービスで生成されたログを管理できるツールです。
   
@@ -37,7 +37,7 @@ CLS Logger を利用するには、次の条件を満たしている必要があ
 
 ログ状態を確認するには、次のコマンドを使用します。
   
-1. 開始/停止シナリオ」タブで、[Topology] ツリー ビュー内のプールやコンピューターのグループを選択します。
+1. [シナリオの開始/停止] タブで、[トポロジツリー] ビューのプールまたはコンピューターのグループを選びます。
     
 2. [ログ状態] ボタンをクリックします。
     
@@ -47,7 +47,7 @@ CLS Logger を利用するには、次の条件を満たしている必要があ
 
 既存のシナリオを開始するには:
   
-1. 開始/停止シナリオ」タブでは、シナリオのドロップ ダウン メニューから既存のシナリオを選択します。
+1. [シナリオの開始/停止] タブで、[シナリオ] ドロップダウンメニューから既存のシナリオを選択します。
     
 2. [トポロジ] ツリー ビューで、プールとコンピューターのグループを選択します。
     
@@ -61,7 +61,7 @@ CLS Logger を利用するには、次の条件を満たしている必要があ
 
 既存のシナリオを終了するには:
   
-1. 開始/停止シナリオ」タブでは、シナリオのドロップ ダウン メニューから既存のシナリオを選択します。
+1. [シナリオの開始/停止] タブで、[シナリオ] ドロップダウンメニューから既存のシナリオを選択します。
     
 2. [トポロジ] ツリー ビューで、プールとコンピューターのグループを選択します。
     
@@ -73,7 +73,7 @@ CLS Logger を利用するには、次の条件を満たしている必要があ
   
 ## <a name="search-for-logs"></a>ログを検索する
 
-ログを検索するのには「CLS ログの検索」タブを選択し、、以下に示すように表示されるフィールド値を入力した後「ログ検索」ボタンをクリックして。
+ログを検索するには、次に示すように、[CLS ログの検索] タブを選択し、表示されるフィールドに入力した後で [ログの検索] ボタンをクリックします。
   
 > [**ログ ファイルのフォルダー**]: ログ検索結果を保存するフォルダー (必須)。
 > 
@@ -111,7 +111,7 @@ CLS Logger を利用するには、次の条件を満たしている必要があ
   
 ## <a name="create-a-scenario"></a>シナリオを作成する
 
-1. **シナリオの編集**] タブで、[**シナリオの作成**] ボタンをクリックします。
+1. [**シナリオの編集**] タブで、[**シナリオの作成**] ボタンをクリックします。
     
     > [!NOTE]
     > 新しいシナリオを作成すると、現在選択されているシナリオの構成が複製されます。新しいシナリオを作成する前に [**設定のクリア**] をクリックすると、コンポーネントとフラグが選択されていない状態で作成が始まります。

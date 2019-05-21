@@ -1,40 +1,40 @@
 ---
-title: ビジネス サーバー用の Skype では、Office Web アプリケーション サーバーとの統合を構成します。
+title: Skype for Business Server の Office Web Apps サーバーとの統合を構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
-description: '概要: は、PowerPoint のプレゼンテーションを web 会議を有効にするには、Office Web アプリケーション サーバーと Skype ビジネス サーバーの間の統合を構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: 96920a5de9ac30e8fa0705a9fc596eb416dedc5d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: このトピックでは、Office Web Apps サーバーと Skype for Business Server の統合を構成し、Web 会議用の PowerPoint プレゼンテーションを有効にする方法について説明します。'
+ms.openlocfilehash: e657820a7a44197a344f23a67fdcd42ce0e593a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893323"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289112"
 ---
-# <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>ビジネス サーバー用の Skype では、Office Web アプリケーション サーバーとの統合を構成します。
+# <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Skype for Business Server の Office Web Apps サーバーとの統合を構成する
  
-**の概要:** Office Web アプリケーション サーバーと web 会議のための PowerPoint プレゼンテーションを有効にする Skype ビジネス サーバーの間の統合を構成する方法については、このトピックを参照してください。
+**概要:** このトピックでは、Office Web Apps サーバーと Skype for Business Server の統合を構成して、Web 会議用の PowerPoint プレゼンテーションを有効にする方法について説明します。
   
-Skype ビジネス サーバー用には、web 会議のための PowerPoint プレゼンテーションを処理するために Office の Web アプリケーション サーバーが使用されています。 このアプローチの利点の詳細については、[ビジネスのサーバー用の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)を参照してください。
+Skype for Business Server は Office Web Apps サーバーを使用して、web 会議用の PowerPoint プレゼンテーションを処理します。 この方法の利点については、「 [Skype For Business Server の会議の計画](../../plan-your-deployment/conferencing/conferencing.md)」を参照してください。
   
-ビジネス サーバーは、Office Web アプリケーション サーバーを使用するの Skype を構成することができます、前に、Office Web アプリケーション サーバーが既に展開され、構成されていることを確認する必要があります。 Office Web アプリケーション サーバーについては、資料を参照してください[インフラストラクチャを展開します。 Office オンラインのサーバー](https://go.microsoft.com/fwlink/p/?linkid=257525)。 
+Skype for Business Server で Office Web Apps サーバーを使用するように構成するには、Office Web Apps サーバーが既に展開され、構成されていることを確認する必要があります。 Office Web Apps サーバーについては、「[インフラストラクチャを展開する: Office Online server](https://go.microsoft.com/fwlink/p/?linkid=257525)」の記事を参照してください。 
   
-Office Web アプリケーション サーバーが正常にインストールされて正しく構成されている Web ファーム、行う必要がありますし、Skype、Skype をビジネスのために Office の Web アプリケーション サーバーの検出 URL を追加することによって新しいサーバーと通信するためにビジネスのサーバーの後サーバー トポロジです。 
+Office Web Apps サーバーが正常にインストールされ、Web ファームが正常に構成されたら、Office Web Apps Server discovery URL を Skype for Business に追加して、新しいサーバーと通信するように Skype for Business Server を構成する必要があります。サーバートポロジ。 
   
 > [!NOTE]
-> Office オンライン サーバー、ビジネス サーバーの Skype がサポートしている Office Web アプリケーション サーバーの最新のイテレーションの名前です。 詳細については、 [Office オンラインのサーバーのマニュアル](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)を参照してください。 
+> Office Web Apps サーバーの最新のイテレーションは、Skype for Business Server でサポートされている Office Online Server という名前です。 詳細については、「 [Office Online Server のドキュメント](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)」を参照してください。 
   
-## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>Office Web アプリケーション サーバーと通信するサーバーをビジネス用の Skype を構成します。
+## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>Office Web Apps サーバーと通信できるように Skype for Business Server を構成する
 
 トポロジに Office Web Apps サーバーを追加するには、次の手順を行います。
   
-1. Skype をビジネス サーバー トポロジ ビルダーを開きます。
+1. Skype for Business Server トポロジビルダーを開きます。
     
 2. [**トポロジ ビルダー**] ダイアログ ボックスで、[**既存の展開からトポロジをダウンロードする**] を選択して [**OK**] をクリックします。
     
@@ -46,7 +46,7 @@ Office Web アプリケーション サーバーが正常にインストール�
     
 6. [**新しい Office Web Apps サーバーの定義**] ダイアログ ボックスで、Office Web Apps サーバー コンピューターの完全修飾ドメイン名 (FQDN) を [**Office Web Apps サーバーの FQDN**] ボックスに入力します。これを行うと、Office Web Apps サーバー検出の URL が [**Office Web Apps サーバー検出の URL**] ボックスに自動的に入力されます。
     
-   - Office Web アプリケーション サーバーがインストールされている設置型の場合と、ネットワークと同じゾーンのビジネス サーバー オプションでは、Skype で**Office Web アプリケーション サーバーが外部ネットワーク (つまり、境界領域またはインターネット) に配置**する必要がありますオフにします。
+   - Office Web Apps サーバーがオンプレミスでインストールされていて、Skype for Business Server と同じネットワークゾーンにインストールされている場合は、 **Office Web Apps サーバーは外部ネットワーク ([境界/インターネット]) に展開**されます。
     
    - Office Web Apps サーバーを内部ファイアウォールの外側に展開する場合は、[**Office Web Apps サーバーは外部ネットワークで展開 (境界ネットワークまたはインターネット)**] オプションをオンにします。
     
@@ -66,11 +66,11 @@ Office Web Apps サーバーに関連付ける必要がある各プールに対�
     
 ## <a name="configure-access-for-external-users"></a>外部ユーザー用のアクセスの構成
 
-外部ユーザー (組織のファイアウォールの外側からログオンしているユーザー) をする場合、Office Web アプリケーション サーバーの PowerPoint プレゼンテーションにアクセスし、Office Web アプリケーション サーバーとリバース プロキシ サーバーを使用する必要がありますが。 作成し、ユーザーがサーバーに接続することであることを確認に役立ちますが、web サイト公開ルールを構成する必要があります。 
+外部ユーザー (つまり、組織のファイアウォール外からログオンしているユーザー) が Office Web Apps Server PowerPoint プレゼンテーションにアクセスできるようにするには、Office Web Apps サーバーとリバースプロキシサーバーを使用する必要があります。 また、web サイトの公開ルールを作成して構成する必要があります。これは、ユーザーがサーバーに接続できるようにするために役立ちます。 
   
 ## <a name="validate-the-configuration"></a>構成を検証する
 
-Office Web アプリケーション サーバー、トポロジに追加した後、そのトポロジが公開された後、Skype のビジネス サーバーのイベント ログに新しいイベント ログのイベントを 2 つを参照してくださいする必要があります。 最初に、データ MCU の LS イベント (イベント ID 41034) を追加する必要があります。このイベントは、Office Web アプリケーション サーバーが検出されたことが報告されます。
+Office Web Apps サーバーをトポロジに追加した後で、そのトポロジが公開されると、Skype for Business Server イベントログに2つの新しいイベントログイベントが表示されます。 最初に、LS データ MCU イベント (イベント ID 41034) を追加する必要があります。このイベントは、Office Web Apps サーバーが検出されたことを報告します。
   
  **Web 会議サーバー Office Web Apps サーバーが検出され、PowerPoint コンテンツが有効になりました。**
   
@@ -78,20 +78,20 @@ Office Web アプリケーション サーバー、トポロジに追加した�
   
  **Web 会議サーバー Office Web Apps サーバー検出が成功しました。**
   
- **Office Web アプリケーション サーバー内部の発表者のページ: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; 埋め込む =**
+ **Office Web Apps サーバーの内部発表者https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&ampページ:; 埋め込み =**
   
- **Office Web アプリケーション サーバー内部の出席者のページ: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; 埋め込む = true&amp;=**
+ **Office Web Apps サーバーの内部出席者ページhttps://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp:; 埋め込み = true&amp;=**
   
-外部ユーザーのアクセスを構成した場合、以下のようにも表示されます。
+外部ユーザーへのアクセスを構成している場合は、次のような内容も表示されます。
   
- **Office Web アプリケーション サーバーの外部発表のページ: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; を埋め込む**
+ **Office Web Apps サーバーの外部発表者https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&ampページ:; 埋め込み**
   
- **Office Web アプリケーション サーバー内部の出席者のページ:<https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>です。**
+ **Office Web Apps サーバーの内部出席者ページ<https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>:;**
   
-表示する場合は、Office Web アプリケーション サーバーの検出のことを意味する 41033 のイベント ID を持つデータ MCU の LS イベントに失敗しました。 Skype ビジネス サーバーの場合は、新たに構成されている Office の Web アプリケーション サーバーを検出するために必要な回数だけ再試行されます。 検出プロセスが繰り返し失敗した場合、トポロジ ドキュメントから Office Web アプリケーション サーバーを削除、更新されたトポロジを公開する、接続の問題が解決された後に、トポロジに Office Web アプリケーション サーバーを追加してくださいしてください。
+Office Web Apps サーバーの検出に失敗したことを示す、イベント ID が41033の LS データ MCU イベントが表示される場合。 この場合、Skype for Business Server は、新しく構成された Office Web Apps サーバーを検出するために必要な回数だけ試します。 検出プロセスが繰り返し失敗する場合は、トポロジドキュメントから Office Web Apps サーバーを削除し、更新されたトポロジを公開して、接続の問題が解決した後で、Office Web Apps サーバーをトポロジに追加してみます。
   
-Office Web アプリケーション サーバーを正しく構成するが表示され、検出プロセスによって認識された場合は、Skype のビジネス クライアント用のペアの間で PowerPoint プレゼンテーションを共有することで期待どおりに、Office Web アプリケーション サーバーが動作しているを確認できます。 ユーザー A は、ロードし、PowerPoint プレゼンテーションを表示し、ユーザー B が会議に参加し、そのプレゼンテーションを参照してください場合は、Office Web アプリケーション サーバーが動作してください。
+Office Web Apps サーバーが正しく構成されていて、検出プロセスによって認識されている場合、Office Web Apps サーバーが正常に動作していることを確認するには、1組の Skype for Business クライアント間で PowerPoint プレゼンテーションを共有します。 ユーザー A が PowerPoint プレゼンテーションを読み込み、表示できる場合に、ユーザー B が会議に参加すると、そのプレゼンテーションが Office Web Apps サーバーで動作することを確認できます。
   
-正しく構成するのには、Office Web アプリケーション サーバーが表示されたら、たとえ可能性があります可能性があります、エラー メッセージが表示「いくつかの共有機能はサーバー接続の問題のために利用可能な」しようとすると、PowerPoint のプレゼンテーションを共有します。 そのエラー メッセージが表示される場合は、新しいオフィスの Web アプリケーション サーバーに関連付けられているフロント エンド サーバー (またはサーバー) を再起動する必要があります。
+Office Web Apps サーバーが正しく構成されているように見えても、PowerPoint プレゼンテーションを共有しようとすると、"サーバーの接続に問題が発生したため、一部の共有機能を利用できません" というエラーメッセージが表示されることがあります。 このエラーメッセージが表示された場合は、新しい Office Web Apps サーバーに関連付けられたフロントエンドサーバー (またはサーバー) を再起動する必要があります。
   
 

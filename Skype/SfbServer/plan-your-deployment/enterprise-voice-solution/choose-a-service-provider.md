@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,22 +13,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
-description: ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 展開の場合、サービス ・ プロバイダーを選択します。
-ms.openlocfilehash: e15eccd94010a2ed515bdd1c95806cc38b20e102
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice での E9 展開用のサービスプロバイダの選択
+ms.openlocfilehash: 271ea9bbffc1d41c48cb66bf2a4fb536227d1b34
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33909107"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277021"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Skype for Business Server の E9-1-1 サービス プロバイダーの選択
  
-ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 展開の場合、サービス ・ プロバイダーを選択します。
+Skype for Business Server Enterprise Voice での E9 展開用のサービスプロバイダの選択
   
-~ 9-1-1 サービス プロバイダーのルート緊急呼び出しから発生した Skype ビジネス サーバー用に、正しいパブリックの安全性への応答ポイント (PSAP) の呼び出しに含まれる場所情報に基づいて。 
+E9 サービスプロバイダは、Skype for Business Server から発信された緊急通話を、通話に含まれている場所情報に基づいて、正しいパブリック安全応答ポイント (PSAP) にルーティングします。 
   
-~ 9-1-1、Skype ビジネス サーバーの展開の一部として、サポートには、~ 9-1-1 を入手する必要があります Lync オープン相互運用性プログラムからのルーティング サービスは、~ 9-1-1 サービスのプロバイダーを修飾します。 組織の要件に最も適したプロバイダーを選択してください。
+Skype for Business Server の展開の一部として E9-1 をサポートするには、Lync Open 相互運用性プログラム認定された E9-1 サービスプロバイダーから E9 のルーティングサービスを取得する必要があります。 組織の要件に最も適したプロバイダーを選択してください。
 
-Lync の ~ 9-1-1 のルーティング サービスの一覧を表示するには、 [Lync の E-911 サービスの修飾](https://docs.microsoft.com/en-us/skypeforbusiness/lync-cert/e-911-service-providers)を参照してください。
+Lync の E9 ルーティングサービスのリストを表示するには、「 [lync 向けに認定された E-911 サービス](https://docs.microsoft.com/en-us/skypeforbusiness/lync-cert/e-911-service-providers)」を参照してください。
   
 

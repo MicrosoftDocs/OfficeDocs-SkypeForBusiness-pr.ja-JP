@@ -1,25 +1,25 @@
 ---
-title: ビジネス サーバーの Skype では、アーカイブの構成を作成します。
+title: Skype for Business Server でアーカイブ構成を作成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: 概要では、Skype のビジネス サーバーのアーカイブ構成を作成する方法について説明します。
-ms.openlocfilehash: 3f20b763644f74b0b2265706d4190d27b28ddffd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のアーカイブ構成の作成方法について説明します。'
+ms.openlocfilehash: 58d817cea4c1caceff37bd132cd4f5a61445cdb0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885025"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286219"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、アーカイブの構成を作成します。
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Skype for Business Server でアーカイブ構成を作成する
 
-**の概要:** Skype のビジネス サーバーのアーカイブ構成を作成する方法について説明します。
+**概要:** Skype for Business Server のアーカイブ構成の作成方法について説明します。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>コントロール パネルを使用してアーカイブ オプションを構成する
 
@@ -27,7 +27,7 @@ ms.locfileid: "33885025"
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     
@@ -49,7 +49,7 @@ ms.locfileid: "33885025"
     
    - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-   - アーカイブ ・ データを格納する Microsoft Exchange Server を使用するには、 **Microsoft Exchange の統合**] チェック ボックスをクリックします。
+   - アーカイブデータの保存に Microsoft Exchange Server を使用するには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
     
    - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
     
@@ -83,4 +83,4 @@ New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-詳細については、[新規 CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps)コマンドレットのヘルプトピックを参照してください。

@@ -1,10 +1,10 @@
 ---
-title: 受付制御の展開の最終チェックリストを Skype のビジネス サーバーの呼び出し
+title: Skype for Business Server の通話受付制御の展開の最終チェックリスト
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
-description: ビジネス サーバーのエンタープライズ VoIP の電話受付制御 (CAC) Skype でを展開するための最終的なチェックリストです。
-ms.openlocfilehash: 0b66ebc5162c52df879e4c92fdd1303310068406
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice で通話受付制御 (CAC) を展開するための最終チェックリスト。
+ms.openlocfilehash: fab6472d931d0475a3e3b0a0f413fce7775d7a15
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892371"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281593"
 ---
-# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>受付制御の配置を呼び出す: ビジネス サーバーの Skype の最終チェックリスト
+# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>通話受付制御の展開: Skype for Business Server の最終チェックリスト
  
-ビジネス サーバーのエンタープライズ VoIP の電話受付制御 (CAC) Skype でを展開するための最終的なチェックリストです。 
+Skype for Business Server Enterprise Voice で通話受付制御 (CAC) を展開するための最終チェックリスト。 
   
 次のチェック リストを使用して、通話受付管理サービス (CAC) を展開するために必要なすべての構成タスクを完了したことを確認してください。
   
-- 1 つまたは複数のエッジ サーバーを展開する場合は、ネットワーク構成の設定で、32 ビット マスクのサブネットの一覧に各外部インターフェイスの IP アドレスを追加する必要があります。 音声ビデオ エッジ サービスが展開されている地理的な場所のネットワーク サイト ID にこのサブネット (IP アドレス) を関連付ける必要もあります。
+- 1つ以上のエッジサーバーが展開されている場合、各外部インターフェイス IP アドレスは、ネットワーク構成設定のサブネットリストに追加する必要があります。この場合、ビットマスクは32になります。 音声ビデオ エッジ サービスが展開されている地理的な場所のネットワーク サイト ID にこのサブネット (IP アドレス) を関連付ける必要もあります。
     
     > [!NOTE]
-    > エッジ サーバーは CAC を実装する必要はありません。 
+    > CAC を実装するためにエッジサーバーは必要ありません。 
   
-- 指定された[ビジネス サーバーの Skype で通話受付制御を有効にする](enable-call-admission-control.md)と、CAC が有効であることを確認します。
+- 「 [Skype For Business Server で通話受付制御を有効にする](enable-call-admission-control.md)」で指定されているように、CAC が有効になっていることを確認します。
     
-- すべてのセントラル サイトで CAC が有効化されていることを確認します。 これは、トポロジ ビルダーを実行できます。 警告が生成されるは、発行するとき場合は、無視*しません*。
+- すべてのセントラル サイトで CAC が有効化されていることを確認します。 これは、トポロジビルダーで行うことができます。 公開時に警告が生成された場合は、無視しない*で*ください。
     
-- エンタープライズ ネットワークで管理されているすべてのサブネットがネットワーク構成設定で構成されていることを確認します。 [ネットワークの領域を展開、サイトとサブネットでビジネス用の Skype](deploy-network.md)で説明したようにもすべてのサブネットがネットワーク サイトに関連付けられていることが重要です。
+- エンタープライズ ネットワークで管理されているすべてのサブネットがネットワーク構成設定で構成されていることを確認します。 また、「 [Skype For business でのネットワーク領域、サイト、サブネットの展開](deploy-network.md)」で説明されているように、すべてのサブネットがネットワークサイトに関連付けられていることも重要です。
     
 - すべてのフロントエンド サーバー、存続可能ブランチ アプライアンス (SBA)、音声ビデオ会議サーバー (別プールの場合)、および仲介サーバーのサブネットまたは IP アドレスがネットワーク構成設定で構成されていることを確認します。
     

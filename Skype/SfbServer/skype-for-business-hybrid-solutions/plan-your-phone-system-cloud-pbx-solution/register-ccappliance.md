@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: Register-CcAppliance コマンドレットは、アプライアンス情報をオンライン テナント構成の PSTN サイトに登録します。 アプライアンスを Skype for Business Cloud Connector エディションの管理サービスで展開および管理する前に、アプライアンスの登録が必要です。
-ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 9e15d7b8227bf9ee657d197041056703505ca7c8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892274"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287126"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -58,11 +58,11 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 テナント管理者のアカウント名とパスワードを入力します。 Cloud Connector のオンライン管理用に作成したアカウントを使用します。 
   
-1.4.2 をリリースして、以前のバージョンでは、指示に従って、外部の証明書のパスワード、セーフ モードの管理者パスワード、ドメイン管理者のパスワード、および VM の管理者パスワードを提供します。 
+Release 1.4.2 以前のバージョンでは、次の手順に従って、外部証明書のパスワード、セーフモードのパスワード、ドメイン管理者のパスワード、VM 管理者のパスワードを指定します。 
   
 リリース 2.0 以降の場合は、指示に従って外部証明書のパスワード、CceService パスワード、CABackupFile パスワードを入力します。
   
-登録の最後に、CceService のアカウントとして、クラウドのコネクタの管理サービスと、サービスへのログオンを再起動します。
+登録が終了したら、クラウドコネクタ管理サービスを再起動し、CceService アカウントとしてサービスにログオンします。
   
 CloudConnector.ini ファイルでエッジ サーバーの外部 FQDN と組み合わされた SiteName は PSTN サイトの ID として考慮されます。SiteName またはエッジ サーバーの外部 FQDN がサイトの登録に使用されない場合、このアプライアンスに対しては、オンライン テナント構成で新しいサイトが作成されます。PSTN サイトの ID が見つかった場合、PSTN サイトはこの ID を使用します。アプライアンスはこの PSTN サイトに登録されます。 
   

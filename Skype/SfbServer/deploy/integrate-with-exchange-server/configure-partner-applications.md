@@ -1,83 +1,83 @@
 ---
-title: ビジネス サーバー 2015 と Exchange Server の Skype のパートナーのアプリケーションを構成します。
+title: Skype for Business Server 2015 および Exchange Server でパートナーアプリケーションを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
-description: '概要: 2016 の Exchange Server や Exchange Server 2013 と Skype のビジネス サーバー用のサーバーの認証を構成します。'
-ms.openlocfilehash: 70433d0a6f3b6d9c30e510e116003a4efb5ba9b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Exchange Server 2016 または Exchange Server 2013 および Skype for Business Server のサーバー認証を構成します。'
+ms.openlocfilehash: 4c7c8a0efb2432403422e33140c1a2fdf3551dd1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894338"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306735"
 ---
-# <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>ビジネス サーバーと Exchange Server の Skype のパートナーのアプリケーションを構成します。
+# <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Skype for Business Server および Exchange Server でパートナーアプリケーションを構成する
  
-**の概要:** 2016 の Exchange Server や Exchange Server 2013 と Skype のビジネス サーバー用のサーバーの認証を構成します。
+**概要:** Exchange Server 2016 または Exchange Server 2013 および Skype for Business Server 用にサーバー認証を構成します。
   
-サーバー間認証には、通常、相互に通信する必要がある 2 台のサーバーと、サードパーティのセキュリティ トークン サーバーが必要です。 サーバー A とサーバー B は、通信する必要がある場合、それらのサーバーの両方の通常開始トークン サーバーに接続し、相互に信頼されたセキュリティ トークンを取得します。 そのセキュリティ トークンが、サーバーが本物であり、信頼できることを保証するための手段として、サーバー A からサーバー B (またはサーバー B からサーバー A) に提示されます。
+サーバー間認証には、通常、相互に通信する必要がある 2 台のサーバーと、サードパーティのセキュリティ トークン サーバーが必要です。 サーバー A とサーバー B が通信する必要がある場合は、通常、どちらのサーバーも、トークンサーバーに連絡し、相互に信頼されたセキュリティトークンを取得することから始まります。 そのセキュリティ トークンが、サーバーが本物であり、信頼できることを保証するための手段として、サーバー A からサーバー B (またはサーバー B からサーバー A) に提示されます。
   
-ただし、それは一般的な場合です。 ビジネス サーバー、Exchange Server 2016、Exchange Server 2013 では、SharePoint Server 2013 の Skype は、他と通信するときに、サード ・ パーティ製トークン サーバーを使用する必要はありません。これらのサーバー製品は、トークンに別のサーバーを必要とせずに互いに認めることができるセキュリティ トークンを作成できるためです。 (この機能は Exchange Server 2016、ビジネス サーバー、Exchange Server 2013 では、および SharePoint Server 2013 の Skype ではできるだけです。 その他のサーバー (マイクロソフトのその他のサーバー製品を含む) とのサーバー間認証を設定する必要がある場合は、サードパーティのトークン サーバーを使用する必要があります)。
+ただし、それは一般的な場合です。 Skype for Business Server、Exchange Server 2016、Exchange Server 2013、および SharePoint Server 2013 は、相互に通信するときに、サードパーティのトークンサーバーを使用する必要はありません。これは、これらのサーバー製品では、個別のトークンサーバーを必要とせずに、相互に受け入れ可能なセキュリティトークンを作成できるためです。 (この機能は、Skype for Business Server、Exchange Server 2016、Exchange Server 2013、および SharePoint Server 2013 でのみ利用できます。 その他のサーバー (マイクロソフトのその他のサーバー製品を含む) とのサーバー間認証を設定する必要がある場合は、サードパーティのトークン サーバーを使用する必要があります)。
   
-Skype ビジネス サーバーと Exchange Server 間でサーバーからサーバーへの認証を設定するのには 2 つの操作を行う必要があります: 1) 各サーバーに適切な証明書を割り当てる必要があります2) 他のサーバーのパートナーのアプリケーションには、各サーバーを構成する必要があります: つまり、ビジネスのサーバーの Exchange Server では、パートナー アプリケーションの Skype を構成する必要があり、Skype のパートナー アプリケーションである Exchange Server を構成する必要がありますビジネス サーバーです。
+Skype for Business Server と Exchange Server の間のサーバー間認証をセットアップするには、2つの操作を行う必要があります。 1) 各サーバーに適切な証明書を割り当てる必要があります。さらに、2) 各サーバーを他のサーバーのパートナーアプリケーションとして構成する必要があります。つまり、Skype for Business Server を Exchange Server のパートナーアプリケーションとして構成する必要があります。つまり、Skype のパートナーアプリケーションとして Exchange server を構成する必要があります。Business Server の場合。
   
-## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>Skype のビジネスのサーバーを Exchange Server のパートナーのアプリケーションを構成します。
+## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>Skype for Business Server を Exchange Server のパートナーアプリケーションとして構成する
 
-2016 の Exchange Server や Exchange Server 2013 とパートナーのアプリケーション サーバーをビジネス用の Skype を構成する最も簡単な方法では、Exchange Server に付属している Windows PowerShell スクリプトを構成する EnterprisePartnerApplication.ps1 スクリプトを実行します。 このスクリプトを実行するには、ビジネスのサーバー認証メタデータ ドキュメントの Skype の URL を指定する必要があります。通常、Skype のサフィックス/metadata/json/1 に続くビジネス サーバー プールの完全修飾ドメイン名になります。 次に例を示します。
+Exchange server 2016 または Exchange Server 2013 とのパートナーアプリケーションとして Skype for Business Server を構成する最も簡単な方法は、Configure-EnterprisePartnerApplication スクリプトを実行することです。これは、Exchange Server に付属する Windows PowerShell スクリプトです。 このスクリプトを実行するには、Skype for Business Server authentication metadata ドキュメントの URL を指定する必要があります。通常、これは、Skype for Business サーバープールの完全修飾ドメイン名に続けてサフィックス/metadata/json/1. を指定します。 次に例を示します。
   
 ```
 https://atl-cs-001.litwareinc.com/metadata/json/1
 ```
 
-ビジネス パートナーのアプリケーション サーバー用には、Skype を構成するには、Exchange 管理シェルを開くし、(と仮定すると、Exchange は、ドライブ c: にインストールされているし、既定のフォルダーのパスを使用する) は、次のようなコマンドを実行します。
+Skype for Business Server をパートナーアプリケーションとして構成するには、Exchange 管理シェルを開き、次のようなコマンドを実行します (Exchange がドライブ C にインストールされていること、および既定のフォルダーパスを使用していることを前提としています)。
   
 ```
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-cs-001.litwareinc.com/metadata/json/1' -ApplicationType Lync"
 ```
 
-パートナー アプリケーションを構成した後、停止して、Exchange のメールボックスおよびクライアント アクセス サーバーのインターネット インフォメーション サービス (IIS) を再起動することをお勧めします。 コマンドを使用して、次のようなコンピューター atl-exchange-001 のサービスを再起動する、IIS を再起動することができます。
+パートナーアプリケーションを構成した後、Exchange メールボックスとクライアントアクセスサーバーでインターネットインフォメーションサービス (IIS) を停止して再起動することをお勧めします。 次のようなコマンドを使用して、IIS を再起動することができます。これは、コンピューターの atl-exchange-001 のサービスを再起動します。
   
 ```
 iisreset atl-exchange-001
 ```
 
-Exchange 管理シェル内で、または管理者特権で実行して、他のコマンド ウィンドウからこのコマンドを実行することができます。
+このコマンドは、Exchange 管理シェルから、または他のコマンドウィンドウで、管理者特権で実行できます。
   
-## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>ビジネス サーバーの Skype のパートナー アプリケーションである Exchange Server を構成します。
+## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>Skype for Business Server のパートナーアプリケーションとなるように Exchange Server を構成する
 
-2016 の Exchange Server や Exchange Server 2013 のパートナーのアプリケーション サーバーをビジネス用の Skype を構成した後は、ビジネス サーバーの Skype のパートナー アプリケーションである Exchange Server を構成する必要があります。 これによってビジネス サーバー管理シェルには、Skype を使用して、exchange は認証メタデータ ドキュメントを指定します。通常サフィックス/metadata/json/1 の後に Exchange 自動検出サービスの URI になります。 次に例を示します。
+Skype for Business Server を Exchange Server 2016 または Exchange Server 2013 のパートナーアプリケーションとして構成した後、Exchange Server を Skype for Business Server のパートナーアプリケーションとして構成する必要があります。 これを行うには、Skype for Business Server 管理シェルを使用し、Exchange の認証メタデータドキュメントを指定します。通常、これは Exchange 自動検出サービスの URI に続けてサフィックス/metadata/json/1. を指定します。 次に例を示します。
   
 ```
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-ビジネス サーバーの Skype は、パートナーのアプリケーションが[新しい CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps)コマンドレットを使用して構成されます。 メタデータの URI を指定するだけでなく設定はアプリケーションの信頼レベルを完全にこれによって、Exchange 自体およびレルム内のすべての権限を持つユーザーを表す。 次に例を示します。
+Skype for Business Server では、 [CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps)コマンドレットを使用してパートナーアプリケーションを構成します。 メタデータ URI の指定に加えて、アプリケーションの信頼レベルも完全に設定する必要があります。これにより、Exchange は、レルム内の権限を持つすべてのユーザーを表すことができます。 次に例を示します。
   
 ```
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 ```
 
-代わりに、ビジネスのサーバーのサーバーからサーバーへの認証について Skype のスクリプト コードを変更することをコピーして、パートナーのアプリケーションを作成できます。 詳細については、[管理サーバーからサーバーへの認証 (OAuth) とビジネス サーバーの Skype のパートナーのアプリケーション](../../manage/authentication/server-to-server-and-partner-applications.md)の資料を参照してください。
+または、Skype for Business Server server のサーバー間認証ドキュメントにあるスクリプトコードをコピーして変更することで、パートナーアプリケーションを作成することもできます。 詳細については、「 [Skype For Business server のサーバー間認証 (OAuth) とパートナーアプリケーションを管理](../../manage/authentication/server-to-server-and-partner-applications.md)する」を参照してください。
   
-ビジネス サーバーと Exchange Server の両方の Skype のパートナーのアプリケーションを正常に構成した場合も正常に構成した 2 つの製品間でのサーバーからサーバーへの認証です。 Skype ビジネス サーバー用には、Windows PowerShell コマンドレットを使用すると、そのサーバーからサーバーへの認証が正しく構成されていることを確認する[テスト CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps)ビジネス サーバー ・ ストレージ ・ サービスの Skype ができることが含まれています。Exchange Server に接続します。 コマンドレットは、Exchange Server のユーザーのメールボックスに接続して、そのユーザーの会話の履歴フォルダーにアイテムを作成、し、その項目を削除する (必要に応じて) します。
+Skype for Business Server と Exchange Server の両方に対してパートナーアプリケーションが正常に設定されている場合は、2つの製品間のサーバー間認証も正常に構成されています。 Skype for Business Server には、Windows PowerShell コマンドレット[CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps)が含まれています。これにより、サーバー間の認証が正しく構成されていること、および skype For Business Server ストレージサービスが利用できることを確認することができます。Exchange Server に接続します。 このコマンドレットでは、これを行うには、Exchange Server ユーザーのメールボックスに接続し、そのユーザーの [会話履歴] フォルダーにアイテムを書き込み、そのアイテムを削除します (必要に応じて)。
   
-Skype ビジネス サーバーと Exchange Server の統合をテストするには、ビジネス サーバー管理シェルには、Skype から次のようなコマンドを実行します。
+Skype for business Server と Exchange Server の統合をテストするには、Skype for Business Server 管理シェルから次のようなコマンドを実行します。
   
 ```
 Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 ```
 
-上記のコマンドでは、SipUri は Exchange Server のアカウントを持つユーザーの SIP アドレスを表します。コマンドは正常に有効なユーザー アカウントではありません。
+上記のコマンドでは、Si24> は Exchange Server のアカウントを持つユーザーの SIP アドレスを表します。このコマンドは、無効なユーザアカウントであるため失敗します。
   
 > [!NOTE]
-> このコマンドレットから 401 応答を受信する場合はおそらく Exchange の既定の構成には Oauth トークンを許可するためのサポートが含まれていないためです。 Oauth を使用して Exchange の詳細については、 [SharePoint 2013 と Skype ビジネス サーバーの構成の OAuth 認証](https://go.microsoft.com/fwlink/p/?LinkId=513103)を参照してください。 
+> このコマンドレットから401応答を受信した場合は、おそらく、Exchange の既定の構成に Oauth トークンの受け入れのサポートが含まれていないことが原因として考えられます。 Exchange での Oauth の使用について詳しくは、「 [SharePoint 2013 および Skype For Business Server での oauth 認証の構成](https://go.microsoft.com/fwlink/p/?LinkId=513103)」をご覧ください。 
   
 テストが成功して、接続が確立されたら、オプション機能 (アーカイブの統合、統合連絡先ストアなど) を構成できます。

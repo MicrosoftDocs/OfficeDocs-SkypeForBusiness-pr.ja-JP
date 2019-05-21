@@ -1,10 +1,10 @@
 ---
-title: 正規化ルールを新規作成または既存の編集
+title: 正規化ルールの新規作成または既存の編集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceDialPlanRuleEdit
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 579c1099c37fdb6749ff0cf5309d618484776cea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40009edfe9a87e28f802f4fb30cfe3ce923c2acc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890721"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289607"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>正規化ルール: 新規作成または現在の形式のままで編集
 
 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [作成するか、ビジネスの Skype の正規化ルールを変更](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Skype for Business で正規化ルールを作成または変更する](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [正規化ルールを手動で変更をします。](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [正規化ルールを手動で作成または変更する](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 

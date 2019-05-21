@@ -1,96 +1,96 @@
 ---
-title: サイトの呼受付制御を管理します。
+title: サイトの通話受付制御の管理
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ネットワーク サイトは、オフィスや受付制御 (CAC)、~ 9-1-1、およびメディア バイ パスの展開の場合は、各ネットワーク地域内の場所を呼び出します。
-ms.openlocfilehash: b7d554f6c85a40c084571813c88cc1d08661fa42
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[ネットワークサイト] は、通話受付制御 (CAC)、E9、および media バイパスの展開の各ネットワーク領域内の事業所または場所です。'
+ms.openlocfilehash: a90781eae38d92d560dd1bf34db3b6918e8aeaf5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913406"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279544"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Skype for Business Server でのサイトの通話受付管理サービスの管理
 
-ネットワーク サイトは、オフィスや受付制御 (CAC)、~ 9-1-1、およびメディア バイ パスの展開の場合は、各ネットワーク地域内の場所を呼び出します。 ネットワーク サイトの呼受付制御を構成するのには、この資料の手順を使用します。
+[ネットワークサイト] は、通話受付制御 (CAC)、E9、および media バイパスの展開の各ネットワーク領域内の事業所または場所です。 この記事の手順を使用して、ネットワークサイトの通話受付制御を構成します。
 
-## <a name="configure-network-site-links"></a>ネットワーク サイト リンクを構成します。
+## <a name="configure-network-site-links"></a>ネットワークサイトリンクを構成する
 
-呼び出し受付制御 (CAC) 構成では、内では、ネットワークに直接リンクされているサイト間の帯域幅の制限を定義するサイト間ポリシーを作成できます。 ネットワークのサイトでは、直接リンクを共有する場合は、これら 2 つのサイト間でオーディオとビデオ接続の帯域幅の制限を定義できます。 ネットワーク サイト ポリシーを構成するビジネス サーバーのコントロール パネルの Skype を使用することはできません、これビジネス サーバー管理シェルのコマンドレット、Skype からを使用するだけです。 作成、変更、およびビジネス サーバー管理シェルには、Skype のネットワーク サイト リンク (ネットワーク サイト間ポリシーとも呼ばれます) を削除することができます。
+通話受付制御 (CAC) 構成では、直接リンクされているサイト間の帯域幅の制限を定義するネットワーク間ポリシーを作成できます。 ネットワークサイトが直接リンクを共有している場合、オーディオおよびビデオ接続の帯域幅の制限は、これら2つのサイト間で定義できます。 Skype for Business Server コントロールパネルを使ってネットワークサイトポリシーを構成することはできません。これは、Skype for Business Server 管理シェルからコマンドレットを使用することによってのみ実行できます。 Skype for Business Server 管理シェルからネットワークサイトリンク (ネットワーク間ポリシーとも呼ばれます) の作成、変更、削除を行うことができます。
 
-### <a name="to-create-a-network-site-link"></a>ネットワーク サイト リンクを作成するには
+### <a name="to-create-a-network-site-link"></a>ネットワークサイトのリンクを作成するには
 
-1.  RTCUniversalServerAdmins グループのまたは必要なユーザー権限を持つメンバーとしてビジネス サーバー管理シェルの Skype がインストールされているコンピューターにログオンします。
+1.  Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限を持つコンピューターにログオンします。
 
-2.  ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、 **Skype**ビジネス サーバーをクリック**ビジネス サーバー管理シェルの Skype**です。
+2.  Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし****、[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
 
-3.  コマンド プロンプトで、構成に対して有効な値を代入する、次のコマンドを入力します。
+3.  コマンドプロンプトで、次のコマンドを入力します。これは、構成に対して有効な値に置き換えます。
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    Reno をという名前の新しいネットワーク サイト リンクを作成する次の使用例\_ポートランド、リノ、ポートランドのネットワーク サイト間で帯域幅の制限を設定します。 ネットワーク サイトと帯域幅ポリシーのプロファイルが、このコマンドを実行する前に存在する必要があります。
+    この例では、Reno とポートランドのネットワーク\_サイト間の帯域幅の制限を設定する Reno ポートランドという名前の新しいネットワークサイトリンクを作成します。 このコマンドを実行する前に、ネットワークサイトと帯域幅ポリシーのプロファイルが既に存在している必要があります。
 
-詳細なパラメーターの説明については、[新規 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)を参照してください。 サイトのネットワーク リンクに適用可能な帯域幅ポリシー プロファイルの一覧を取得するには、 **Get CsNetworkBandwidthPolicyProfile**コマンドレットを呼び出します。 詳細については、 [Get CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)を参照してください。
+パラメーターの詳細については、「 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)」を参照してください。 ネットワークサイトリンクに適用できる帯域幅ポリシープロファイルの一覧を取得するには、 **CsNetworkBandwidthPolicyProfile**コマンドレットを呼び出します。 詳細については、「 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)」を参照してください。
 
-### <a name="to-modify-a-network-site-link"></a>ネットワーク サイト リンクを変更するのには
+### <a name="to-modify-a-network-site-link"></a>ネットワークサイトのリンクを変更するには
 
-1.  RTCUniversalServerAdmins グループのまたは必要なユーザー権限を持つメンバーとしてビジネス サーバー管理シェルの Skype がインストールされているコンピューターにログオンします。
+1.  Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限を持つコンピューターにログオンします。
 
-2.  ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、 **Skype**ビジネス サーバーをクリック**ビジネス サーバー管理シェルの Skype**です。
+2.  Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし****、[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
 
-3.  **セット CsNetworkInterSitePolicy**コマンドレットを使用して、特定のネットワーク サイト リンクのプロパティを変更します。 いずれか (または両方) を変更することができますか、接続先のサイトがあり、リンクに関連付けられている帯域幅ポリシーのプロファイルを変更できます。 Reno をという名前のサイト リンクの帯域幅ポリシーのプロファイルを変更する例を次のとおりです\_ポートランド。
+3.  指定のネットワークサイトリンクのプロパティを変更するには、 **CsNetworkInterSitePolicy**コマンドレットを使用します。 いずれか (または両方) または接続されたサイトを変更することができます。また、リンクに関連付けられている帯域幅ポリシープロファイルを変更することもできます。 Reno\_ポートランドという名前のサイトリンクの帯域幅ポリシープロファイルを変更する例を次に示します。
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-詳細なパラメーターの説明については、[一連の CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)を参照してください。
+パラメーターの詳細については、「 [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)」を参照してください。
 
 
-### <a name="to-delete-a-network-site-link"></a>ネットワーク サイト リンクを削除するには
+### <a name="to-delete-a-network-site-link"></a>ネットワークサイトのリンクを削除するには
 
-1.  RTCUniversalServerAdmins グループのまたは必要なユーザー権限を持つメンバーとしてビジネス サーバー管理シェルの Skype がインストールされているコンピューターにログオンします。
+1.  Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限を持つコンピューターにログオンします。
 
-2.  ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、 **Skype**ビジネス サーバーをクリック**ビジネス サーバー管理シェルの Skype**です。
+2.  Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし****、[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
 
-3.  ネットワーク サイト リンクを削除するのに**削除 CsNetworkInterSitePolicy**コマンドレットを使用します。 Reno を削除する例を次\_ポートランド ネットワーク サイト リンク。
+3.  ネットワークサイトへのリンクを削除するには、 **CsNetworkInterSitePolicy**コマンドレットを使用します。 次の例では、\_Reno ポートランドネットワークサイトのリンクを削除します。
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-詳細なパラメーターの説明については、[削除 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)を参照してください。
+パラメーターの詳細については、「 [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)」を参照してください。
 
 
-## <a name="view-network-site-information"></a>ネットワーク サイトの情報を表示します。
+## <a name="view-network-site-information"></a>ネットワークサイトの情報を表示する
 
-ネットワーク サイトは、オフィスまたは呼受付制御 (CAC) または拡張 9-1-1 の展開の各領域内で構成されている場所です。 ビジネス サーバー管理シェルのいずれか、Skype のビジネス サーバーのコントロール パネルまたは、Skype のネットワーク サイトの情報を表示できます。 
+[ネットワークサイト] は、通話受付制御 (CAC) または拡張9-1-1 展開の各領域内に構成されているオフィスまたは場所です。 ネットワークサイトの情報は、Skype for Business Server コントロールパネルまたは Skype for Business Server 管理シェルで確認できます。 
 
-### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>Skype のビジネス サーバーのコントロール パネルのネットワーク サイトの情報を表示するのには
+### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルでネットワークサイトの情報を表示するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
 
-3.  左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、し、[**サイト**] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**サイト**] をクリックします。
 
 4.  [**サイト**] ページで、表示するサイトをクリックします。
  
     > [!NOTE]  
-    > のみ、一度に 1 つのサイトの情報を表示できます。
+    > 一度に1つのサイトの情報のみを表示できます。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
 
-### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してネットワーク サイトの情報を表示します。
+### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したネットワークサイト情報の表示
 
-Windows PowerShell と Get CsNetworkSite コマンドレットを使用してネットワーク サイトの情報を表示できます。 ビジネス サーバー管理シェルの Skype とは Windows PowerShell のリモート セッションからは、このコマンドレットを実行できます。 
+ネットワークサイトの情報を表示するには、Windows PowerShell を使用するか、または CsNetworkSite コマンドレットを使用します。 このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 
 
-### <a name="to-view-network-site-information"></a>ネットワーク サイトの情報を表示するのには
+### <a name="to-view-network-site-information"></a>ネットワークサイトの情報を表示するには
 
-  - ネットワークのすべてのサイトに関する情報を表示するのには、Skype のビジネス サーバー管理シェルには、次のコマンドを入力し、し、ENTER キーを押します。
+  - すべてのネットワークサイトに関する情報を表示するには、Skype for Business Server 管理シェルで次のコマンドを入力して、enter キーを押します。
     
         Get-CsNetworkSite
     
@@ -104,83 +104,83 @@ Windows PowerShell と Get CsNetworkSite コマンドレットを使用してネ
         BWPolicyProfileID :
         LocationPolicy    :
 
-詳細については、 [Get CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)コマンドレットのヘルプ トピックを参照してください。
+詳細については、「 [CsNetworkSite site](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) 」コマンドレットのヘルプトピックを参照してください。
 
 
-## <a name="create-or-modify-network-sites"></a>作成またはネットワーク サイトを変更します。 
+## <a name="create-or-modify-network-sites"></a>ネットワークサイトを作成または変更する 
 
-ネットワーク サイトは、オフィスまたは呼受付制御 (CAC) または拡張 9-1-1 の展開の各領域内で構成されている場所です。 サイトを構成し、地域に関連付けるには、ビジネス サーバーのコントロール パネルの Skype を使用できます。 たとえば、北アメリカのネットワーク領域は、シカゴ、レドモンド、バンクーバーなどのネットワーク サイトに関連付けられている可能性があります。 CAC ネットワーク サイトは、そのサイトには、帯域幅の制限があるない場合でも、組織内のすべてのサイトを作成しなければなりません。 ビジネス サーバーのコントロール パネルの Skype から作成、変更、およびネットワークのサイトを削除することができます。 作成またはネットワーク サイトを変更するには、次の手順を使用します。 
+[ネットワークサイト] は、通話受付制御 (CAC) または拡張9-1-1 展開の各領域内に構成されているオフィスまたは場所です。 Skype for Business Server コントロールパネルを使用して、サイトを構成し、それらを地域に関連付けることができます。 たとえば、北米向けのネットワーク領域は、シカゴ、Redmond、バンクーバーなどのネットワークサイトに関連付けられている場合があります。 サイト内のすべてのサイトに対して、CAC ネットワークサイトを作成する必要があります。このサイトには帯域幅の制限がありません。 Skype for Business Server コントロールパネルから、ネットワークサイトの作成、変更、削除を行うことができます。 ネットワークサイトを作成または変更するには、次の手順を使用します。 
 
-### <a name="to-create-a-network-site"></a>ネットワーク サイトを作成するには
+### <a name="to-create-a-network-site"></a>ネットワークサイトを作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
 
-3.  左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、し、[**サイト**] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**サイト**] をクリックします。
 
-4.  [**サイト**] ページで [**新規**を] をクリックします。
+4.  [**サイト**] ページで、[**新規**] をクリックします。
 
-5.  **新しいサイト**では、 **[名前**] フィールドで、このサイトの名前を入力します。
+5.  [**新しいサイト**] の [**名前**] フィールドに、このサイトの名前を入力します。
 
     > [!NOTE]  
-    > サイト名は、ビジネス サーバー配置の Skype 内で一意である必要があります。
+    > サイト名は、Skype for Business Server の展開内で一意である必要があります。
 
-6.  [**地域**] ドロップダウン リストで、このサイトに関連付けるネットワーク領域を選択します。
+6.  [ **Region** ] ドロップダウンリストで、このサイトに関連付けるネットワーク領域を選びます。
 
-7.  (省略可能)このサイトへのオーディオまたはビデオ通話に帯域幅の制限を配置する場合は、**帯域幅ポリシー**のドロップダウン リストから適切な設定を使用して帯域幅ポリシーのプロファイルを選択します。
+7.  省略このサイトへの音声通話またはビデオ通話に帯域幅の制限を設定する場合は、[**帯域幅ポリシー** ] ドロップダウンリストから適切な設定を使用して、帯域幅ポリシーのプロファイルを選択します。
  
     > [!NOTE]  
-    > 使用可能な帯域幅ポリシーのプロファイルの詳細を表示したり、**ネットワークのコンフィギュレーション**グループの**ポリシー Profil** ] ページで新しい帯域幅ポリシーのプロファイルを作成できます。 詳細については、[ネットワーク帯域幅ポリシー プロファイルの管理](managing-network-bandwidth-policy-profiles.md)を参照してください。
+    > 利用可能な帯域幅ポリシープロファイルの詳細を表示したり、新しい帯域幅ポリシープロファイルを作成したりするには、**ネットワーク構成**グループの [**ポリシー Profil** ] ページを使用します。 詳細については、「[ネットワーク帯域幅ポリシープロファイルを管理する](managing-network-bandwidth-policy-profiles.md)」を参照してください。
 
-8.  (省略可能)このサイトの場所を設定する場合は、**場所のポリシー**のドロップ ダウン リストからの場所のポリシーを選択します。
+8.  省略このサイトの場所の設定を指定する場合は、[**場所のポリシー** ] ドロップダウンリストから場所のポリシーを選びます。
 
     > [!NOTE]  
-    > 場所ポリシー サイトに割り当て拡張 9-1-1 (~ 9-1-1) とクライアントの特定の場所の設定です。 使用可能な場所のポリシーの詳細を表示したり、**ネットワーク構成**グループの [**場所のポリシー** ] ページから、新しい場所のポリシーを作成できます。 
+    > 位置情報ポリシーは、特定の拡張 9-1-1 (E9) およびクライアントの場所の設定をサイトに割り当てます。 利用可能な位置情報ポリシーの詳細を表示するか、[**ネットワーク構成**] グループの [**場所のポリシー** ] ページから新しい場所ポリシーを作成することができます。 
 
-9.  (省略可能)表すことのできない名前だけで、このサイトに関する詳細情報を提供する [**説明**] フィールドに値を入力します。
+9.  省略[**説明**] フィールドに値を入力して、このサイトについて、名前だけでは表現できない詳細情報を入力します。
 
 10. [**コミット**] をクリックします。
 
     > [!NOTE]  
-    > 新しいネットワーク サイトを作成するときは、**サブネットの関連付けられている**テーブルを使用しません。 作成またはサブネットを変更するときは、サブネットをサイトに関連付けます。 詳細については、[ネットワークのサブネットを管理する](managing-network-subnets.md)を参照してください。
+    > 新しいネットワークサイトを作成する場合は、**関連するサブネット**テーブルを使用しません。 サブネットを作成または変更するときに、サブネットをサイトに関連付けます。 詳細については、「[ネットワークサブネットを管理する](managing-network-subnets.md)」を参照してください。
 
-### <a name="to-modify-a-network-site"></a>ネットワーク サイトを変更するのには
+### <a name="to-modify-a-network-site"></a>ネットワークサイトを変更するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
 
-3.  左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、し、[**サイト**] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**サイト**] をクリックします。
 
 4.  [**サイト**] ページで、変更するサイトをクリックします。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-6.  [**サイトの編集**] ページで、説明、地域、帯域幅ポリシーのプロファイル、およびサイトに関連付けられている場所のポリシーを変更できます。 詳細について[ネットワーク サイトを作成するのには](#to-create-a-network-site)上記を参照してください。
+6.  [**サイトの編集**] ページでは、サイトに関連付けられている説明、地域、帯域幅ポリシーのプロファイル、および場所のポリシーを変更できます。 詳細については、「[ネットワークサイトを作成する」を](#to-create-a-network-site)参照してください。
 
 7.  [**コミット**] をクリックします。
 
-このページに**関連付けられているサブネット**テーブルを変更することはできません。 どのサブネットが影響を受けるサイトの設定を変更するときに注意するように、参照に関連付けられているサブネットの一覧が用意されています。
+このページでは、**関連するサブネット**テーブルを変更することはできません。 関連付けられたサブネットの一覧は参照用に提供されるため、サイトの設定を変更したときに影響を受けるサブネットを認識できます。
 
 
-## <a name="delete-an-existing-network-site"></a>既存のネットワーク サイトを削除します。
+## <a name="delete-an-existing-network-site"></a>既存のネットワークサイトを削除する
 
-ネットワーク サイトは、オフィスまたは呼受付制御 (CAC) または拡張 9-1-1 の展開の各領域内で構成されている場所です。 サイトを構成し、地域に関連付けるには、ビジネス サーバーのコントロール パネルの Skype を使用できます。 たとえば、北アメリカのネットワーク領域は、シカゴ、レドモンド、バンクーバーなどのネットワーク サイトに関連付けられている可能性があります。 CAC ネットワーク サイトは、そのサイトには、帯域幅の制限があるない場合でも、組織内のすべてのサイトを作成しなければなりません。 ビジネス サーバーのコントロール パネルの Skype から作成、変更、およびネットワークのサイトを削除することができます。 既存のネットワーク サイトを削除するのにには、次の手順を使用します。 詳細を作成するか、ネットワーク サイトを変更することについては、[サイトの管理の呼び出しの受付制御](managing-call-admission-control-for-sites.md)を参照してください。
+[ネットワークサイト] は、通話受付制御 (CAC) または拡張9-1-1 展開の各領域内に構成されているオフィスまたは場所です。 Skype for Business Server コントロールパネルを使用して、サイトを構成し、それらを地域に関連付けることができます。 たとえば、北米向けのネットワーク領域は、シカゴ、Redmond、バンクーバーなどのネットワークサイトに関連付けられている場合があります。 サイト内のすべてのサイトに対して、CAC ネットワークサイトを作成する必要があります。このサイトには帯域幅の制限がありません。 Skype for Business Server コントロールパネルから、ネットワークサイトの作成、変更、削除を行うことができます。 既存のネットワークサイトを削除するには、次の手順を使用します。 ネットワークサイトの作成または変更の詳細については、「[サイトの通話受付制御を管理する](managing-call-admission-control-for-sites.md)」を参照してください。
 
 
-### <a name="to-delete-a-network-site"></a>ネットワーク サイトを削除するには
+### <a name="to-delete-a-network-site"></a>ネットワークサイトを削除するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
 
-3.  左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、し、[**サイト**] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**サイト**] をクリックします。
 
 4.  [**サイト**] ページで、削除するサイトをクリックします。
 
     > [!NOTE]  
-    > 一度に複数のサイトを削除できます。 これを行うには、CTRL キーを押し、CTRL キーを押しながら複数のサイトを選択します。 または、すべてのサイトを選択するには、[**すべて選択****編集**メニューの [します。
+    > 一度に複数のサイトを削除できます。 この操作を行うには、ctrl キーを押しながら複数のサイトを選び、CTRL キーを押しながら選択します。 または、すべてのサイトを選択するには、[**編集**] メニューの [**すべて選択**] をクリックします。
 
 5.  [**編集**] メニューの [**削除**] をクリックします。
 
@@ -188,17 +188,17 @@ Windows PowerShell と Get CsNetworkSite コマンドレットを使用してネ
     
 
     > [!WARNING]  
-    > ネットワーク サブネットに関連付けられている場合は、ネットワーク サイトを削除することはできません。 サブネットに関連付けられているサイトを削除しようとすると、エラー メッセージが表示されます。 サイトがすべてのサブネットに関連付けられているかどうか、[サイト] をクリックし、[**編集**] メニュー**の詳細を表示**] をクリックします。
+    > ネットワークサイトがネットワークサブネットに関連付けられている場合は、そのサイトを削除することはできません。 サブネットに関連付けられているサイトを削除しようとすると、エラーメッセージが表示されます。 サイトがいずれかのサブネットに関連付けられているかどうかを確認するには、サイトをクリックし、[**編集**] メニューの [**詳細の表示**] をクリックします。
 
 
 ## <a name="see-also"></a>関連項目
 
 
-[新しい-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 
+[新規-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 
  
-[セット CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
 
-[削除 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
 
 [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
 
@@ -206,8 +206,8 @@ Windows PowerShell と Get CsNetworkSite コマンドレットを使用してネ
 
 [新しい-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
 
-[セット CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
+[Set-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
 
-[削除 CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
+[CsNetworkSite の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
 
 [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)  

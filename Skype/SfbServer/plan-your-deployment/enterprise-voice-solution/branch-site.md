@@ -1,10 +1,10 @@
 ---
-title: Skype ビジネス サーバー用のブランチ サイトの SIP トランク
+title: Skype for Business Server のブランチサイト SIP トランク
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
-description: ビジネス サーバーのエンタープライズ VoIP は、Skype でのブランチ サイトに SIP トランクについて説明します。
-ms.openlocfilehash: ac92b2c02279568d7658315808e5419d2263d6a5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice のブランチサイトでの SIP トランクについて説明します。
+ms.openlocfilehash: 14af9a096b368f310b0d4fbce425bf6d1c08696a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895571"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277112"
 ---
-# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Skype ビジネス サーバー用のブランチ サイトの SIP トランク
+# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Skype for Business Server のブランチサイト SIP トランク
  
-ビジネス サーバーのエンタープライズ VoIP は、Skype でのブランチ サイトに SIP トランクについて説明します。
+Skype for Business Server Enterprise Voice のブランチサイトでの SIP トランクについて説明します。
   
-場合によっては、選択したブランチ サイトでの分散型 SIP トランクを実装する必要があります。 ブランチ サイトとブランチ サイトの SIP トランクを展開するためのサポートされているトポロジ オプションの詳細について、SIP かどうかを判断するのにはトランクが必要な[Skype ビジネス サーバー用のトランクの SIP](sip-trunking.md)を参照してください。
+場合によっては、選択したブランチサイトに配布 SIP トランキングを実装する必要があります。 ブランチサイトに SIP トランクが必要かどうかを判断し、ブランチサイトで SIP trunks を展開するためにサポートされているトポロジーオプションの詳細については、「 [Skype For Business Server の sip トランク](sip-trunking.md)」を参照してください。
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>ブランチ サイト SIP トランク要件例の分析
 
-ブランチ サイトの SIP トランクを展開することを決定する際は、サイト固有のコスト分析を実行する必要があります。 たとえば、ワシントン州レドモンドの中央サイトと、ニューヨークにブランチ サイトを持つ企業では、ニューヨーク サイトからローカル サービス プロバイダーへの SIP トランクを実装するかどうかを決定する分析を行ってください。
+ブランチサイト SIP トランクの展開を決定する際には、サイト固有のコスト分析を実行する必要があります。 たとえば、ニューヨークのレドモンド、ワシントン、支店にセントラルサイトがある企業では、ニューヨークサイトの SIP トランクをローカルサービスプロバイダに実装するかどうかを判断する分析を行う必要があります。
   
-ニューヨークでの分散型 SIP トランクの費用対効果が高いかどうかを判断するには、SIP トランクを使用する Direct Inward Dialing (DID) 番号を識別し、レドモンド (425) 以外の地域にニューヨークからかける電話の回数を分析します。 セントラル サイトでは、ブランチ サイトの DID 終了をことができます。 たとえば、レドモンドの中央サイトでは、ニューヨークのブランチ サイトの DID 番号をホストできます。 分散型 SIP トランクを実装するためのコストがこれらの呼び出しのコストよりも小さい場合は、ニューヨークのブランチ サイトに SIP トランクを実装することを検討してください。 
+ニューヨークでの分散型 SIP トランクの費用対効果が高いかどうかを判断するには、SIP トランクを使用する Direct Inward Dialing (DID) 番号を識別し、レドモンド (425) 以外の地域にニューヨークからかける電話の回数を分析します。 セントラルサイトでブランチサイトの終了ができました。 たとえば、Redmond のセントラルサイトでは、ニューヨーク支社のサイトの番号をホストできます。 分散 SIP トランクの実装のコストがこれらの通話のコストよりも少ない場合は、ニューヨーク支店のサイトで SIP トランクを実装することを検討してください。 
   
 ## <a name="other-branch-site-sip-trunk-requirements"></a>その他のブランチ サイト SIP トランク要件
 
-ゲートウェイではなく、SIP トランクを展開する場合の選択肢は、各オプションの公衆交換電話網 (PSTN) の市外通話の通話料の差に基づいています。 ブランチ サイト SIP トランクを展開する場合は、復元性と帯域幅要件を決定する必要があります。 ブランチ サイトと中央サイト間のリンクは、耐障害性、十分な帯域幅を持つ場合は、SIP トランクまたはゲートウェイを展開できます。 ブランチ サイトでのリカバリ性に優れたブランチ アプライアンスを展開する必要はありません。 ブランチ サイトと中央サイト間のリンクは、耐障害性は、か、リカバリ性に優れたブランチ アプライアンスを展開するブランチ サイトで SIP トランクまたはゲートウェイとの存続可能ブランチ サーバーを展開します。 
+ゲートウェイの代わりに SIP トランクを展開するには、各オプションの PSTN (公衆交換電話網) の長距離電話料金の差に基づいて選択することができます。 ブランチサイト SIP トランクを展開する場合は、回復性と帯域幅の要件を特定する必要もあります。 ブランチサイトとセントラルサイト間のリンクが回復可能であり、十分な帯域幅がある場合は、SIP トランクまたはゲートウェイを展開できます。 ブランチサイトに Survivable Branch Appliance を展開する必要はありません。 ブランチサイトとセントラルサイト間のリンクが復元できない場合は、Survivable Branch Appliance を展開するか、ゲートウェイまたは SIP トランクのいずれかでブランチサイトに Survivable ブランチサーバーを展開してください。 
   
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,37 +13,37 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
-description: このトピックでは、リモート仮想デスクトップへの接続中に、ビジネスの Skype を使用するための計画に関する考慮事項について説明します。
-ms.openlocfilehash: ac4a0d214edf33c6966b7fcd8fa2ce33114dc505
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このトピックでは、リモート仮想デスクトップに接続しているときに Skype for Business を使用する場合の計画に関する考慮事項について説明します。
+ms.openlocfilehash: 958c13821eea46be91d51d7399722d2af433ccf0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886446"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277287"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>VDI 環境における Skype for Business の計画
  
-このトピックでは、リモート仮想デスクトップへの接続中に、ビジネスの Skype を使用するための計画に関する考慮事項について説明します。 
+このトピックでは、リモート仮想デスクトップに接続しているときに Skype for Business を使用する場合の計画に関する考慮事項について説明します。 
   
-仮想デスクトップ インフラストラクチャ (VDI) 環境は、非常に高度なセキュリティとコンプライアンスが求められる組織で使用します。 作業は、Remote Desktop Services または同様のリモート接続を使用して、すべてのデスクトップ アプリケーションとファイルを使用して、仮想デスクトップで行われます。 ビジネスの Skype を使用すると、完全にオーディオとビデオ接続ではそのような必要がありますオーディオの負荷が高いと、仮想デスクトップ クライアントで処理するビデオが置かれています。 VDI の追加のプラグイン ソフトウェアが利用可能なをエンド ・ ユーザーのローカル マシンには、その処理の負荷を軽減し、仮想デスクトップ上の負荷を軽減します。
+仮想デスクトップ インフラストラクチャ (VDI) 環境は、非常に高度なセキュリティとコンプライアンスが求められる組織で使用します。 作業は、Remote Desktop Services または同様のリモート接続を使用して、すべてのデスクトップ アプリケーションとファイルを使用して、仮想デスクトップで行われます。 Skype for Business を使って、仮想デスクトップ上のクライアントでオーディオとビデオの処理が大量に必要になるような、接続上のオーディオとビデオをフルに使用します。 追加の VDI プラグインソフトウェアを使用すると、エンドユーザーのローカルコンピューターに処理の負荷を軽減し、仮想デスクトップの負荷を軽減することができます。
   
-VDI プラグイン コンポーネントで使用できるソリューションには、マイクロソフト、Citrix、VMware が提供する 3 つのソリューションがあります。 新しい展開では、Citrix HDX のリアルタイム最適化パック ソリューションまたは地平線の VMWare 仮想化パックのいずれかの使用をお勧めします。 元のプラグインの Lync VDI は、情報ライフ サイクルの残りの部分は引き続きサポートされます。
+VDI プラグイン コンポーネントで使用できるソリューションには、マイクロソフト、Citrix、VMware が提供する 3 つのソリューションがあります。 新しい展開では、Citrix HDX リアルタイム最適化パックソリューションまたは VMWare ホライズン仮想化パックのいずれかを使用することをお勧めします。 元の Lync VDI プラグインは、そのライフサイクルの残りの部分で引き続きサポートされます。
   
-- **プラグインの Lync VDI** Lync 2013 用に開発され、の互換性が Lync 2013 または Skype ビジネス 2015年クライアントが仮想デスクトップで実行されているのです。 スタンドアロンのアプリケーションをローカル コンピューター上にインストールし、仮想デスクトップ上のクライアントでローカルのオーディオおよびビデオ デバイスの使用を許可することをお勧めします。 プラグインは必要ありません、Skype のビジネスのクライアント、ローカル コンピューターまたは Windows 7、Windows 8 の場合、または Windows Server 2008 オペレーティング システムを実行する必要がありますが、シン ・ クライアントにインストールされています。 (これらのオペレーティング システムを使用して、マイクロソフトによってサポートされている、シン クライアント デバイスが含まれます: Dell Wyse Z90D7、Dell の Wyse R90L7、Wyse X90m7 のデル、HP t610、および HP t5740e)。このプラグインはまだサポートされているが、将来の更新が予定されていません。 Citrix ベースの仮想環境の Citrix のリアルタイム最適化パックの使用をお勧めします。
+- Lync **VDI プラグイン**は、lync 2013 向けに開発されたもので、仮想デスクトップで実行されている lync 2013 または Skype for business 2015 クライアントと互換性があります。 ローカルコンピューターにインストールされるスタンドアロンアプリケーションであり、仮想デスクトップ上のクライアントでローカルのオーディオデバイスとビデオデバイスを使用できます。 このプラグインでは、ローカルコンピューターまたはシンクライアントに Skype for Business クライアントをインストールする必要はありません。これには、Windows 7、Windows 8、または Windows Server 2008 オペレーティングシステムを実行する必要があります。 (以下のオペレーティングシステムを使用し、Microsoft がサポートしているシンクライアントデバイス: Dell Wyse Z90D7、dell Wyse R90L7、Dell Wyse X90m7、HP t610、HP t5740e)。このプラグインは引き続きサポートされますが、今後の更新プログラムは計画されません。 Citrix ベースの仮想環境では、Citrix リアルタイム最適化パックをお勧めします。
     
-- **Citrix リアルタイム最適化パック**Lync VDI のプラグインのビルドで、Lync 2013 または Skype ビジネス 2016年クライアントの仮想デスクトップにいます。 プラグインの元の VDI 改善のために、Citrix と Microsoft によって開発された共同。 Windows と Windows 以外のオペレーティング システムが (10 の Windows、Mac および Linux を含む) をクライアントにインストールできます。 2 つのコンポーネントで構成されています: リアルタイム、コネクタ (仮想デスクトップにインストールされている) と、リアルタイム メディア エンジン (これは、エンド ・ ユーザーのローカル コンピューターにインストールされている)。 これら 2 つのコンポーネントを使用すると、ビジネス クライアントが、仮想デスクトップ上で、A を実行するため、Skype を使用するローカル コンピューターのユーザーの V の処理がローカル コンピューターに移動したとします。 Citrix ベースの仮想デスクトップ環境、Citrix のリアルタイム最適化パックを使用することをお勧めし、さらにサポートが予定されています。
+- **Citrix リアルタイム最適化パック**は、lync VDI プラグインに基づいて作成され、仮想デスクトップ上の lync 2013 または Skype for business 2016 クライアントと連携して動作します。 この機能は、従来の VDI プラグインの改善のために、Citrix と Microsoft によって共同開発されました。 Windows と Windows 以外のオペレーティングシステム (Windows 10、Mac、Linux を含む) がインストールされているクライアントにインストールできます。 これは、リアルタイムコネクタ (仮想デスクトップにインストールされている) とリアルタイムメディアエンジン (エンドユーザーのローカルコンピューターにインストールされている) の2つのコンポーネントで構成されます。 この2つのコンポーネントによって、ユーザーのローカルコンピューターは、仮想デスクトップで実行されている Skype for Business クライアントを、A/V 処理をローカルコンピューターに移動して使うことができます。 Citrix ベースの仮想デスクトップ環境では、Citrix リアルタイム最適化パックをお勧めします。さらにサポートが計画されています。
     
-- VMWare とのコラボレーションで開発したビジネス用の Skype の**VMWare 水平仮想化パック**を使用すると、仮想デスクトップで、優れたユーザー エクスペリエンスを提供しながらビジネスの Skype を提供します。 このソリューションは、クライアントでのメディア エンジンを活用することによって最適なソリューションを作り出し、音声通話やビデオ通話に対するメディア オフロード機能を提供するクライアント エンドポイントとともに機能します。 いずれか 1 対 1 の共同作業のためのエンドポイント間で直接、オーディオとビデオを配信したりする、中心的なマルチポイント コントロール ユニット (MCU) マルチパーティの会議または会議の負荷を軽減するソリューションです。
+- Skype for Business 向け**Vmware ホライズン仮想化パック**は、vmware との共同作業によって開発された skype for business を仮想デスクトップで提供しながら、優れたユーザーエクスペリエンスを提供します。 このソリューションは、クライアントでのメディア エンジンを活用することによって最適なソリューションを作り出し、音声通話やビデオ通話に対するメディア オフロード機能を提供するクライアント エンドポイントとともに機能します。 このソリューションは、1対1のコラボレーションのエンドポイント間で直接オーディオとビデオを配信したり、マルチパーティの会議通話や会議の中央の Multipoint コントロールユニット (MCU) にオフロードしたりすることができます。
     
 > [!NOTE]
-> Citrix HDX のリアルタイム最適化パックまたは地平線の VMWare 仮想化パックでは、ビジネスの基本的なクライアントの Skype はサポートされていません。 
+> Skype for Business Basic クライアントは、Citrix HDX リアルタイム最適化パックまたは VMWare ホライズン仮想化パックでサポートされていません。 
   
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX RealTime Optimization Pack
 <a name="Citrix_RT"> </a>
 
-Citrix 社の VDI 環境のプラグイン (XenApp と XenDesktop の機能) は、Lync 2013 およびビジネス 2015年、2016 (全クライアントを使用して、インストーラー、または年 2017年 1 月 PU 以降後にリリースされた MSI インストーラーを実行する) クライアントが、仮想にインストールされている Skype との互換性デスクトップです。 全体的な機能は、Microsoft Lync VDI のプラグインですが、10 の Windows、Macintosh、Linux など、クライアントのオペレーティング システムの広範な機能に基づいています。
+Citrix の VDI 環境プラグイン (XenApp と XenDesktop の機能) は、Lync 2013 および Skype for business 2015 および 2016 (任意のクリックでインストーラーを実行する完全なクライアント、または仮想にインストールされ2017た MSI インストーラー) と互換性があります。デスクトップ. 全体的な機能は、Microsoft Lync VDI プラグインをベースにしていますが、Windows 10、Macintosh、Linux など、幅広いクライアントオペレーティングシステムで動作します。
   
-[XenApp と XenDesktop のユーザーにビジネスのマイクロソフトの提供する Skype](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)の Citrix web サイトのすべての機能とサポートされているテクノロジの一覧が見つかります。
+すべての機能とサポートされるテクノロジの一覧は、 [Microsoft Skype For business を XenApp および XenDesktop ユーザーに配信する](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)ときに、Citrix の web サイトで参照できます。
   
 詳細については、次のリンクを参照してください。
   
@@ -51,37 +51,37 @@ Citrix 社の VDI 環境のプラグイン (XenApp と XenDesktop の機能) は
     
 - [技術概要](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
     
-- [ビジネス機能をサポートするための CTX200279 Skype](https://support.citrix.com/article/CTX200279)
+- [CTX200279 Skype for Business の機能のサポート](https://support.citrix.com/article/CTX200279)
     
 ## <a name="vmware-horizon-virtualization-pack"></a>VMWare Horizon Virtualization Pack
 <a name="Citrix_RT"> </a>
 
-VMWare VDI 環境のソリューションは、ビジネス 2015年、2016 の全クライアントが仮想デスクトップにインストールされている Skype と互換性があります。 全体的な機能は、Microsoft Lync VDI のプラグインですが、10 の Windows、Macintosh、Linux など、クライアントのオペレーティング システムの広範な機能に基づいています。 
+VMWare の VDI 環境ソリューションは、仮想デスクトップにインストールされた Skype for Business 2015 および2016フルクライアントと互換性があります。 全体的な機能は、Microsoft Lync VDI プラグインをベースにしていますが、Windows 10、Macintosh、Linux など、幅広いクライアントオペレーティングシステムで動作します。 
   
 機能およびサポートされる技術については、次のリンク先にある VMWare Web サイトで詳細に取り上げられています。
   
-- [VMware 地平線 7.4 の新機能&amp;水平クライアント 4.7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
+- [VMware ホライズン 7.4 &amp;ホライズンクライアント4.7 の新機能](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
     
-- [ビジネスの Skype の地平線の仮想化パック](https://www.vmware.com/products/horizon/skype-for-business.mdl)
+- [Skype for Business 用のホライズン仮想化パック](https://www.vmware.com/products/horizon/skype-for-business.mdl)
     
-- [VMWare の地平線との取引にマイクロソフトの Skype](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/horizon/vmware-skype-for-business-solution-brief.pdf)
+- [Microsoft Skype for Business (VMWare ホライズン)](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/horizon/vmware-skype-for-business-solution-brief.pdf)
     
 ## <a name="microsofts-lync-vdi-plug-in"></a>マイクロソフトの Lync VDI プラグイン
 <a name="Citrix_RT"> </a>
 
-ソリューションでは、Microsoft Lync VDI プラグイン、ユーザーが、Windows コンピューターまたはシン クライアントにインストールして、仮想デスクトップ上のクライアントからのオーディオ/ビデオ ストリームを処理するためにインストールされているマイクロソフトの Lync VDI のプラグインがあります。 具体的な操作は次のとおりです。
+Microsoft Lync VDI プラグインソリューションを使用する場合、ユーザーは Windows コンピューターまたはシンクライアント上に存在し、仮想デスクトップ上のクライアントからの音声/ビデオストリームを処理するために Microsoft の Lync VDI プラグインがインストールされている必要があります。 具体的な操作は次のとおりです。
   
 1. 音声/ビデオ デバイス (ヘッドセットやカメラ) をローカル コンピューターに接続します。
     
-2. Lync 2013 または Skype ビジネス 2015年クライアントのリモート仮想デスクトップに接続します。
+2. Lync 2013 または Skype for Business 2015 クライアントを使ってリモート仮想デスクトップに接続します。
     
-3. ビジネス用の Skype の仮想デスクトップの資格情報を入力します。
+3. 仮想デスクトップ上の Skype for Business の資格情報を入力します。
     
-4. Lync VDI が Windows のローカル コンピューターまたはシン クライアントのプラグインとの接続を確立するためにユーザーの資格情報を再入力します。
+4. ユーザー資格情報を再入力して、ローカルの Windows コンピューターまたはシンクライアントで Lync VDI プラグインとの接続を確立します。
     
 接続が確立されたら、音声やビデオの通話を受信する準備が整います。ローカル コンピューターが音声/ビデオ処理を行うため、ネットワーク上のトラフィックと仮想デスクトップの負荷は最小限になります。
   
-マイクロソフトの Lync VDI のプラグインは、特定の Windows オペレーティング システムでのみサポートし、のみビジネス 2015年クライアント Lync 2013 または Skype をサポートしています。 サポートされる技術と制限の詳細については、「[サポートされる仮想化テクノロジと既知の制限](vdi-environments.md#Supported_virt)」を参照してください。
+Microsoft Lync VDI プラグインは、特定の Windows オペレーティングシステムでのみサポートされ、Lync 2013 または Skype for Business 2015 クライアントでのみサポートされます。 サポートされる技術と制限の詳細については、「[サポートされる仮想化テクノロジと既知の制限](vdi-environments.md#Supported_virt)」を参照してください。
   
 詳細については、次のリンクを参照してください。
   
@@ -89,59 +89,59 @@ VMWare VDI 環境のソリューションは、ビジネス 2015年、2016 の�
     
 - [Lync VDI プラグインの前提条件](vdi-environments.md#VDI_prereq)
     
-- [ビジネス サーバーの Skype では、プラグインの Lync VDI の導入します。](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+- [Lync VDI プラグインを Skype for Business Server と共に展開する](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
-- Citrix サポート技術情報センターの記事[CTX138408](https://support.citrix.com/article/CTX138408)
+- Citrix ナレッジセンターの記事[CTX138408](https://support.citrix.com/article/CTX138408)
     
-Microsoft VDI のプラグインは、 [Microsoft Lync VDI 2013 プラグイン (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) 、または[Microsoft Lync VDI 2013 プラグイン (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35454)で使用できます。 ビジネス 2015年クライアントは、名前にかかわらず、Skype では、このプラグインがサポートされます。
+Microsoft VDI プラグインは、 [Microsoft LYNC vdi 2013 プラグイン (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35457)または[microsoft lync vdi 2013 プラグイン (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35454)で利用できます。 このプラグインは、名前にもかかわらず、Skype for Business 2015 クライアントでサポートされています。
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>サポートされる仮想化テクノロジと既知の制限
 <a name="Supported_virt"> </a>
 
-Lync VDI のプラグインには、オーディオとビデオのサポートされている仮想化テクノロジを呼び出すことができます。 標準的な電話の規制に準拠してサポート E911 も含まれます。 次のセクションでは、プラグインの Lync VDI と既知の機能の制限でサポートされている仮想化テクノロジについて説明します。
+Lync VDI プラグインを使うと、サポートされている仮想化テクノロジで音声とビデオ通話を行うことができます。 標準的な電話の規制に準拠するため、E911 のサポートも含まれています。 以下のセクションでは、Lync VDI プラグインでサポートされている仮想化テクノロジと既知の機能の制限について説明します。
   
 #### <a name="support-for-virtualization-technologies"></a>サポートされている仮想化テクノロジ
 
-プラグインの Lync VDI では、リモート デスクトップ セッションではありませんが、個人用仮想デスクトップの場合、完全なデスクトップのリモート セッションをサポートしています。 これらのシナリオは、次のように記述できます。
+Lync VDI プラグインは、個人用仮想デスクトップシナリオでは完全なデスクトップリモートセッションをサポートしますが、リモートデスクトップセッションのシナリオではサポートしていません。 これらのシナリオは、次のように記述できます。
   
-- **サポートされています。 個人用仮想デスクトップまたは仮想デスクトップ インフラストラクチャ (VDI) に設定しました。** このシナリオでは、各ユーザーは、カスタマイズ可能な仮想デスクトップにログオンしたときにされ、セッション間で保持するデスクトップ上のファイルを保存することです。 Microsoft リモート デスクトップ サービスと VMware の水平のビューは、ビジネス 2015年の Skype で使用するためにテストされている実装の例です。 検証中であるため、他の実装には、Citrix XenDesktop が含まれています。 VDI 環境の特定のベンダーと Microsoft によってテストされているクライアントのハードウェアについては、[インフラストラクチャが Microsoft Lync の修飾](https://go.microsoft.com/fwlink/?LinkID=313435)を参照してください。
+- **サポート: カスタマイズされた仮想デスクトップまたは仮想デスクトップインフラストラクチャ (VDI)。** このシナリオでは、各ユーザーがカスタマイズ可能な仮想デスクトップにログオンし、セッション間で保持されるファイルをデスクトップに保存することができます。 Microsoft リモートデスクトップサービスと VMware ホライズンビューは、Skype for Business 2015 で使用することがテストされた実装の例です。 検証対象のその他の実装には、Citrix XenDesktop が含まれています。 Microsoft によってテストされたベンダー固有の VDI 環境とクライアントハードウェアの詳細については、「 [Microsoft Lync のインフラストラクチャ認定](https://go.microsoft.com/fwlink/?LinkID=313435)」を参照してください。
     
-- **サポートされないシナリオ: リモート デスクトップ セッション。** このシナリオでは、各ユーザーはカスタマイズできない汎用の仮想デスクトップ セッションにログオンします。 例としては、Microsoft リモート デスクトップ セッション (RDSH) と、Citrix XenApp は、Citrix の受信機と組み合わせます。
+- **サポートされないシナリオ: リモート デスクトップ セッション。** このシナリオでは、各ユーザーはカスタマイズできない汎用の仮想デスクトップ セッションにログオンします。 たとえば、Microsoft リモートデスクトップセッション (RDSH) と Citrix XenApp を Citrix レシーバーと組み合わせることができます。
     
-Lync VDI のプラグインは、ローカルでの完全なアプリケーションのインストールを必要とせず、アプリケーションの使用は、アプリケーションの仮想化など、他の仮想化テクノロジをサポートしていません。 実装例には、Citrix XenApp とマイクロソフト アプリケーションの仮想化 (APP-V) が含まれます。 アプリケーションのストリーミング、アプリケーションのリモート処理、および仮想化の混在モード (たとえば、アプリケーションでのリモート処理完全なデスクトップのリモート処理) はサポートされていません。
+Lync VDI プラグインは、アプリケーションの仮想化などの他の仮想化テクノロジをサポートしていません。これにより、完全なアプリケーションをローカルでインストールする必要なく、アプリケーションを使用できるようになります。 実装の例には、Citrix XenApp と Microsoft Application Virtualization (App-v) が含まれます。 アプリケーションのストリーミング、アプリケーションのリモート処理、および混合型の仮想化モード (たとえば、完全なデスクトップリモート処理におけるアプリケーションのリモート処理) はサポートされていません。
   
-Lync VDI のプラグインは、動的仮想チャネル (DVCs) と呼ばれるプラットフォームに依存しない Api を使用するよう設計されました。 明示的にサポートされていないシナリオでは、VDI ソリューション ・ プロバイダーからのステートメントをサポートするために参照してください。
+Lync VDI プラグインは、動的仮想チャネル (DVCs) と呼ばれるプラットフォームに依存しない Api を使用するように設計されています。 明示的にサポートされていないシナリオについては、「VDI ソリューションプロバイダーのサポートステートメント」を参照してください。
   
 #### <a name="lync-vdi-plug-in-prerequisites"></a>Lync VDI プラグインの前提条件
 <a name="VDI_prereq"> </a>
 
-VDI 環境でバーチャル マシン、およびユーザーのローカル コンピューターは、このセクションで概説する要件を満たす必要があります。
+VDI 環境では、仮想マシンとユーザーのローカルコンピューターがこのセクションで示されている要件を満たしている必要があります。
   
 > [!NOTE]
->  環境のインストール方法および展開方法の詳細については、仮想化ソリューション プロバイダーにお問い合わせください。 HYPER-V とリモート デスクトップ サービスに基づく仮想化環境の展開に関する一般的な情報は、Microsoft のライブラリでは、以下の資料を参照してください: [HYPER-V で](https://go.microsoft.com/fwlink/p/?linkid=247514)、 [Windows Server 2008 R2 でのリモート デスクトップ サービス](https://go.microsoft.com/fwlink/p/?linkid=247513) 
+>  環境のインストール方法および展開方法の詳細については、仮想化ソリューション プロバイダーにお問い合わせください。 Hyper-v とリモートデスクトップサービスに基づく仮想環境の展開に関する一般的な情報については、Microsoft Library: [hyper-v](https://go.microsoft.com/fwlink/p/?linkid=247514)、 [Windows Server 2008 R2 のリモートデスクトップサービス](https://go.microsoft.com/fwlink/p/?linkid=247513)の次の記事を参照してください。 
   
-最新のサービス パックで Windows 8 の、Windows 7 または Windows Server 2008 R2 でバーチャル マシンを構成しなければなりません。
+仮想マシンは、最新の service pack を使用して、Windows 8、Windows 7、または Windows Server 2008 R2 で構成する必要があります。
   
-ユーザーのローカル コンピューターでは、次の要件を満たす必要があります。
+ユーザーのローカルコンピューターは、次の要件を満たしている必要があります。
   
-- ビジネス サーバーまたは Lync Server 2013 の Skype のユーザーが所属する必要があります。
+- ユーザーは、Skype for Business Server または Lync Server 2013 を使用している必要があります。
     
-- ローカル コンピューターが SP1、SP1、または Windows 8 と Windows 7 と Windows の組み込みの標準的な 7 を実行しなければなりません。
+- ローカルコンピューターは、SP1、Windows 7 SP1、または Windows 8 で Windows Embedded 標準7を実行している必要があります。
     
-- リモート デスクトップ サービスを使用する場合は、32 ビットまたは 64 ビット Lync VDI プラグインをローカル コンピューターのオペレーティング ・ システムを一致を選択します。 ローカル コンピューターと仮想マシンの両方に 32 ビットまたは 64 ビットのオペレーティング システムをインストールしておく必要はありません。 別の仮想化ソリューションやプラットフォームを使用している場合は、プロバイダーの要件を参照してください。
+- リモートデスクトップサービスを使用している場合は、ローカルコンピューターのオペレーティングシステムに合わせて、32ビットまたは64ビットの Lync VDI プラグインを選択します。 ローカル コンピューターと仮想マシンの両方に 32 ビットまたは 64 ビットのオペレーティング システムをインストールしておく必要はありません。 別の仮想化ソリューションやプラットフォームを使用している場合は、プロバイダーの要件を参照してください。
     
-- ローカル コンピューターでは、[リモート デスクトップ クライアントの最新バージョン](https://go.microsoft.com/fwlink/p/?LinkId=268032)を実行している必要があります。 Microsoft からリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。 
+- ローカルコンピューターで、[最新バージョンのリモートデスクトップクライアント](https://go.microsoft.com/fwlink/p/?LinkId=268032)が実行されている必要があります。 Microsoft からリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。 
     
-- ローカル コンピューター上のリモート デスクトップ クライアントの設定は、オーディオがローカル コンピューターで再生され、リモート レコーディングが無効となるように構成する必要があります。 Windows でこれらの設定をリモート デスクトップ接続を構成、次のセクション、「リモート デスクトップ接続の設定を構成します。」を参照してください。 
+- ローカル コンピューター上のリモート デスクトップ クライアントの設定は、オーディオがローカル コンピューターで再生され、リモート レコーディングが無効となるように構成する必要があります。 Windows でリモートデスクトップ接続のこれらの設定を構成するには、次のセクション「リモートデスクトップ接続設定を構成する」を参照してください。 
     
-Microsoft VDI のプラグインは、 [Microsoft Lync VDI 2013 プラグイン (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) 、または[Microsoft Lync VDI 2013 プラグイン (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35454)で使用できます。
+Microsoft VDI プラグインは、 [Microsoft LYNC vdi 2013 プラグイン (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35457)または[microsoft lync vdi 2013 プラグイン (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35454)で利用できます。
   
 #### <a name="known-feature-limitations"></a>既知の機能制限
 <a name="VDI_prereq"> </a>
 
-次のような制限、VDI 環境でのビジネス 2015年のクライアントに、Skype を使用する場合。
+VDI 環境で Skype for Business 2015 クライアントを使用する場合は、次のような制限があります。
   
-委任の呼び出し、および応答グループのエージェントの匿名の機能を限定的にサポートがあります。
+通話の委任と応答グループのエージェント匿名化) 機能は、制限されています。
   
 以下の機能はサポートされません。
   
@@ -151,21 +151,21 @@ Microsoft VDI のプラグインは、 [Microsoft Lync VDI 2013 プラグイン 
     
 - 会話の録音
     
-- 会議に参加する匿名では、結合する Skype ビジネス会議の組織とフェデレーションを行うしていない組織でホストされているため)。
+- 会議への匿名参加 (つまり、組織とフェデレーションされていない組織によってホストされている Skype for Business 会議への参加)。
     
-- Lync の電話のエディションのデバイスとプラグインの Lync VDI を使用しています。
+- Lync VDI プラグインと Lync Phone Edition デバイスの併用。
     
 - ネットワーク停止時の通話の継続
     
 - 保留機能の着信音と音楽のカスタマイズ
     
-Lync VDI のプラグインは、Office 365 環境ではサポートされていません。
+Lync VDI プラグインは、Office 365 環境ではサポートされていません。
   
 > [!NOTE]
-> Citrix RealTime Optimization Pack は、Office 365 をサポートしています。 Citrix ベースの仮想環境の場合、サポートされている機能とバージョンの一覧については citrix 社の[技術概要](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl)マニュアルを参照してください。
+> Citrix RealTime Optimization Pack は、Office 365 をサポートしています。 Citrix ベースの仮想環境については、サポートされている機能とバージョンのリストについて、Citrix の[技術概要](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl)ドキュメントを確認してください。
   
 ## <a name="see-also"></a>関連項目
 <a name="Citrix_RT"> </a>
 
-[ビジネス サーバーの Skype では、プラグインの Lync VDI の導入します。](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+[Lync VDI プラグインを Skype for Business Server と共に展開する](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
 

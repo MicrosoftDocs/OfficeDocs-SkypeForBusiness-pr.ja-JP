@@ -5,7 +5,7 @@ author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,103 +14,103 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
-description: 'ビジネス用の Skype のサポートされているクライアントとアプリケーションの概要: レビューします。'
-ms.openlocfilehash: 66a9392e9662ef0c2853bf946badb553a68cc10a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business でサポートされているクライアントとアプリを確認します。'
+ms.openlocfilehash: bda5ca2a9694b87e3bc8a6684770e7efcfc224d4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33923863"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277441"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントおよびデバイスの計画
 
-**の概要:** ビジネス用の Skype のサポートされているクライアントとアプリケーションのレビューです。
+**概要:** Skype for Business でサポートされているクライアントとアプリを確認します。
 
-今日、従業員は絶えず移動しています。 従業員は、会社のオフィス、地方出張、家庭の仕事場、外出先などの勤務場所に関係なく、コミュニケーションとコラボレーションを行う必要があります。 Skype ビジネス サーバーのでは、これらのニーズ、組織のユーザーに配置することができますクライアント インターフェイスのコレクションをサポートしています。 周到に計画することの従業員は、必要な情報を取得し、ビジネスの Skype が使用できるようにする場所にいています。
+今日、従業員は絶えず移動しています。 従業員は、会社のオフィス、地方出張、家庭の仕事場、外出先などの勤務場所に関係なく、コミュニケーションとコラボレーションを行う必要があります。 Skype for Business Server は、組織のユーザーに展開できるクライアントインターフェイスのコレクションを通じてこれらのニーズをサポートします。 確実な計画を立てることで、従業員が必要な情報を得られるようになり、どこにいても Skype for Business を利用できるようになります。
 
 ## <a name="available-clients"></a>利用可能なクライアント
 
-Skype ビジネス サーバーは、クライアント、クライアントのコンピューターにインストールされたソフトウェア、web ベースのクライアント、およびモバイル デバイス用のクライアントを含むいくつかの種類をサポートしています。 このセクションの主なクライアントは、サポートされているすべてのクライアントの詳細な一覧についてを参照してください[ビジネス サーバー 2015 の Skype のデスクトップ クライアントの機能の比較](desktop-feature-comparison.md)または[のいずれかのデスクトップのクライアント機能の比較 Skype のビジネス サーバーの2019](../../../SfBServer2019/plan/feature-comparison.md)。 Lync クライアントの組み合わせを使用していた場合があることに注意してくださいビジネス サーバー 2019 の Skype と互換性がない[レガシ クライアント](clients-and-devices.md#Legacy)はサポートされていません。 更新は定期的に行われるため、クライアントの最新情報については、このトピックを定期的にチェックしてください。
+Skype for Business Server は、コンピューターにインストールされているクライアントソフトウェア、web ベースのクライアント、モバイルデバイス向けクライアントなど、さまざまな種類のクライアントをサポートしています。 このセクションではプライマリクライアントを紹介しています。サポートされているすべてのクライアントの詳細については、「 [skype for Business server 2015 のデスクトップクライアント機能の比較](desktop-feature-comparison.md)」または「 [Skype for Business server のデスクトップクライアント機能の比較」を参照してください。2019](../../../SfBServer2019/plan/feature-comparison.md)。 以前に Lync クライアントを組み合わせて使用したことがある場合は、サポートされていない[レガシクライアント](clients-and-devices.md#Legacy)が Skype For business Server 2019 に対応していないことに注意してください。 更新は定期的に行われるため、クライアントの最新情報については、このトピックを定期的にチェックしてください。
 
-### <a name="skype-for-business-2019"></a>ビジネス用の Skype (2019)
+### <a name="skype-for-business-2019"></a>Skype for Business (2019)
 
-ビジネス用の Skype のビジネス サーバー 2015 2019 (2019) は、Skype の推奨機能を備えたクライアントです。 新機能の説明については[次のビジネス用の Skype の最新の更新プログラム](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)を参照してください。 クライアント機能のサポートの詳細については、 [Skype ビジネス用のデスクトップ クライアントの機能の比較](desktop-feature-comparison.md)および[ビジネスの Skype のヘルプ](https://support.office.com/en-US/Skype-for-business)では、ユーザー マニュアルです。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
+Skype for business (2019) は、Skype for Business Server 2015 および2019のお勧めのフル機能クライアントです。 新機能の詳細については[、「Skype For business の最新の更新プログラムをフォロー](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)する」を参照してください。 クライアント機能のサポートについては、「[デスクトップクライアントでの skype For business の機能の比較](desktop-feature-comparison.md)」で詳しく説明されています。ユーザードキュメントは、 [skype for business のヘルプ](https://support.office.com/en-US/Skype-for-business)にあります。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
 
-より少ない機能をサポートする無料の Basic クライアントも利用できます。 両方のバージョンは、[すべてのデバイスでのビジネス用の Skype のダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)からダウンロードできます。 クライアントのフル ・ バックアップと基本の違いについては、[基本的なクライアントの制限](desktop-feature-comparison.md#Full-Basic)] セクションで説明します。
+より少ない機能をサポートする無料の Basic クライアントも利用できます。 どちらのバージョンでも[、すべてのデバイスに Skype For business をダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)してダウンロードできます。 フルクライアントと基本的なクライアントの違いについては、「[基本的なクライアントの制限](desktop-feature-comparison.md#Full-Basic)」をご覧ください。
 
-### <a name="skype-for-business-2016"></a>ビジネス 2016年の Skype
+### <a name="skype-for-business-2016"></a>Skype for Business 2016
 
-ビジネス 2016年の Skype は、Skype のビジネス サーバー 2015 または 2019 のフル機能を備えたクライアントです。 新機能の説明について[の新ビジネス 2016年の Skype](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)を参照してください。 クライアント機能のサポートの詳細については、 [Skype ビジネス用のデスクトップ クライアントの機能の比較](desktop-feature-comparison.md)および[ビジネスの Skype のヘルプ](https://support.office.com/en-US/Skype-for-business)では、ユーザー マニュアルです。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
+Skype for Business 2016 は、Skype for business Server 2015 または2019の全機能を備えたクライアントです。 新機能の詳細については、「 [Skype For business 2016 の新](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)機能」を参照してください。 クライアント機能のサポートについては、「[デスクトップクライアントでの skype For business の機能の比較](desktop-feature-comparison.md)」で詳しく説明されています。ユーザードキュメントは、 [skype for business のヘルプ](https://support.office.com/en-US/Skype-for-business)にあります。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
 
-より少ない機能をサポートする無料の Basic クライアントも利用できます。 両方のバージョンは、[すべてのデバイスでのビジネス用の Skype のダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)からダウンロードできます。 クライアントのフル ・ バックアップと基本の違いについては、[基本的なクライアントの制限](desktop-feature-comparison.md#Full-Basic)] セクションで説明します。
+より少ない機能をサポートする無料の Basic クライアントも利用できます。 どちらのバージョンでも[、すべてのデバイスに Skype For business をダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)してダウンロードできます。 フルクライアントと基本的なクライアントの違いについては、「[基本的なクライアントの制限](desktop-feature-comparison.md#Full-Basic)」をご覧ください。
 
 ### <a name="skype-for-business-2015"></a>Skype for Business 2015
 
-ビジネス 2015年の Skype は、Skype のビジネス サーバー 2015 または 2019 のフル機能を備えたクライアントです。 ビジネス ユーザー ・ インタ フェースの Skype は完全に再設計し、呼び出しの監視、Skype ディレクトリの統合、絵文字などなど、新たに統合された機能が含まれます。 変更の概要を参照してください[Lync が、Skype のビジネス-新機能を参照してください](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612)。 クライアント機能のサポートの詳細については、 [Skype ビジネス用のデスクトップ クライアントの機能の比較](desktop-feature-comparison.md)および[ビジネスの Skype のヘルプ](https://support.office.com/en-US/Skype-for-business)では、ユーザー マニュアルです。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
+Skype for Business 2015 は、Skype for business Server 2015 または2019の全機能を備えたクライアントです。 Skype for Business のユーザーインターフェイスは完全に再設計され、通話モニター、Skype ディレクトリ統合、絵文字など、新しく統合された機能が含まれています。 変更の概要については、「 [Lync が Skype For business に変わりました-新機能](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612)」を参照してください。 クライアント機能のサポートについては、「[デスクトップクライアントでの skype For business の機能の比較](desktop-feature-comparison.md)」で詳しく説明されています。ユーザードキュメントは、 [skype for business のヘルプ](https://support.office.com/en-US/Skype-for-business)にあります。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
 
-### <a name="skype-for-business-on-mac"></a>Mac でのビジネス用の Skype
+### <a name="skype-for-business-on-mac"></a>Mac 版 Skype for Business
 
-[Mac でのビジネス用の Skype](https://www.microsoft.com/en-us/download/details.aspx?id=54108)クライアントは、ダウンロードできます。 前提条件を確認するのには[Mac クライアントの要件にビジネス用の Skype](mac-requirements.md)を参照してください。
+[Mac 版 Skype For business](https://www.microsoft.com/en-us/download/details.aspx?id=54108)クライアントは、ダウンロードできます。 前提条件を確認するには、「 [Skype For business On Mac クライアントの要件](mac-requirements.md)」を参照してください。
 
-### <a name="skype-for-business-for-mobile-devices"></a>モバイル デバイス用のビジネス用の Skype
+### <a name="skype-for-business-for-mobile-devices"></a>モバイルデバイス用の Skype for Business
 
-クライアントは、Windows Phone では、iPhone と iPad と Android。 ユーザーは、[すべてのデバイスでのビジネス用の Skype のダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)でそれらを取得できます。 これらのクライアントの機能のサポートは、[ビジネスの Skype のモバイル クライアントの機能の比較](mobile-feature-comparison.md)の詳細については。
+クライアントは、Windows Phone、iPhone/iPad、Android で利用できます。 ユーザーは[、すべてのデバイスで Skype For business をダウンロードして](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)入手できます。 これらのクライアントの機能のサポートについては、「 [Skype For business のモバイルクライアント機能の比較](mobile-feature-comparison.md)」をお勧めします。
 
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
+> Skype for Business Server 2019 では、従来のモバイルクライアントに対する MCX (モバイルサービス) のサポートは利用できなくなりました。 現在のすべての Skype for Business のモバイルクライアントでは、インスタントメッセージング (IM)、プレゼンス、連絡先をサポートするために、既にユニファイドコミュニケーション Web API (UCWA) を使用しています。 MCX を使用するレガシクライアントを使っているユーザーは、現在のクライアントにアップグレードする必要があります。
 
-### <a name="online-meeting-add-in-for-skype-for-business"></a>オンライン会議用のアドインの Skype のビジネス
+### <a name="online-meeting-add-in-for-skype-for-business"></a>Skype for Business 用オンライン会議アドイン
 
-ビジネス用の Skype のオンライン会議アドインは、Windows 上で Microsoft Outlook メッセージングおよびコラボレーション クライアント内から会議の管理をサポートしています。 ビジネス ソフトウェアの Skype のオンライン会議アドインがビジネスのための Skype で自動的にインストールされます。
+Skype for Business のオンライン会議アドインでは、Windows の Microsoft Outlook メッセージングおよびコラボレーションクライアント内からの会議管理がサポートされています。 Skype for business ソフトウェア用オンライン会議アドインは、自動的に Skype for business にインストールされます。
 
-### <a name="skype-for-business-web-app-and-skype-meetings-app"></a>Skype ビジネス Web アプリケーションおよび Skype 会議アプリケーション
+### <a name="skype-for-business-web-app-and-skype-meetings-app"></a>Skype for Business Web App と Skype 会議アプリ
 
-ユーザーのコンピューターにビジネス用の Skype がインストールされていないと、ユーザーが Windows コンピューターで会議出席依頼に会議のリンクをクリックすると、Skype の会議アプリケーションやビジネスの Web アプリケーションの Skype をインストールするを開きます.  Skype 会議アプリケーションは、組織の外部の参加者に最適なクライアントです。 なお、Mac では、Mac でのビジネス用の Skype がインストールされ、開きます。これらのクライアントを使用するための要件の[計画会議クライアント (Web アプリケーションおよび会議アプリケーション)](meetings-clients.md)を参照してください。
+ユーザーのコンピューターに Skype for Business がインストールされていない場合、ユーザーが Windows コンピューターの会議出席依頼の会議リンクをクリックすると、Skype 会議アプリまたは Skype for Business Web App がインストールされて開きます。  Skype 会議アプリは、組織外の参加者向けのクライアントです。 (Mac では、Mac 版 Skype for Business がインストールされていて、開かれていることに注意してください)。これらのクライアントを使用するための要件については、「[会議クライアント (Web アプリと会議アプリ) の計画](meetings-clients.md)」を参照してください。
 
 
-### <a name="skype-for-business-web-scheduler"></a>ビジネス Web スケジューラの Skype
+### <a name="skype-for-business-web-scheduler"></a>Skype for Business Web Scheduler
 
-Web ベース[ビジネス Web スケジューラの Skype](https://sched.lync.com)は、Skype のユーザーのためのスケジューリングと管理ツールを Microsoft Outlook へのアクセスがないユーザーまたは Windows ベース以外のオペレーティング システムでは、オンライン ビジネスの会議します。 ビジネス Web スケジューラの Skype は、ユーザーが新しい会議を作成する、既存の会議を変更し、の優先電子メール プログラムを使用して招待状を送信します。 Skype Web スケジューラのビジネス[ドキュメント](https://support.office.com/en-us/article/Skype-for-Business-Web-Scheduler-3b24a211-6470-4a2d-81b7-22d9399d0fec?ui=en-US&amp;rs=en-US&amp;ad=US)のさらに詳細情報を提供します。
+[Skype For Business Web Scheduler](https://sched.lync.com)は、Microsoft Outlook にアクセスできない、または Windows に依存していないオペレーティングシステムを使用している Skype For business Online のユーザー向けの web ベースの会議スケジュール管理ツールです。 Skype for Business Web Scheduler を使用すると、ユーザーは好みの電子メールプログラムを使用して、新しい会議の作成、既存の会議の変更、招待状の送信を行うことができます。 詳細については、Skype for Business Web Scheduler に[関するドキュメント](https://support.office.com/en-us/article/Skype-for-Business-Web-Scheduler-3b24a211-6470-4a2d-81b7-22d9399d0fec?ui=en-US&amp;rs=en-US&amp;ad=US)を参照してください。
 
 ### <a name="vdi-plugins"></a>VDI プラグイン
 
-仮想デスクトップ インフラストラクチャ (VDI) 環境は、非常に高度なセキュリティとコンプライアンスが求められる組織で使用します。 ビジネスの Skype を使用すると、完全にオーディオとビデオ接続ではそのような必要がありますオーディオの負荷が高いと、仮想デスクトップ クライアントで処理するビデオが置かれています。 VDI の追加のプラグイン ソフトウェアが利用可能なをエンド ・ ユーザーのローカル マシンには、その処理の負荷を軽減し、仮想デスクトップ上の負荷を軽減します。 これらのプラグインの使用の詳細については、「[Plan for Skype for Business in VDI environments](vdi-environments.md)」を参照してください。
+仮想デスクトップ インフラストラクチャ (VDI) 環境は、非常に高度なセキュリティとコンプライアンスが求められる組織で使用します。 Skype for Business を使って、仮想デスクトップ上のクライアントでオーディオとビデオの処理が大量に必要になるような、接続上のオーディオとビデオをフルに使用します。 追加の VDI プラグインソフトウェアを使用すると、エンドユーザーのローカルコンピューターに処理の負荷を軽減し、仮想デスクトップの負荷を軽減することができます。 これらのプラグインの使用の詳細については、「[Plan for Skype for Business in VDI environments](vdi-environments.md)」を参照してください。
 
 ### <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
-マイクロソフト チームの会議室は、使い慣れたインターフェイスを使用し、容易に導入するマイクロソフトの最新の会議ソリューションと、インストールの容易さのための LCD パネルのように管理するには、既存の機器を活用することです。 マイクロソフト チームの会議室、特化した UWP でアプリケーションを実行、Surface Pro 4 または Surface Pro のコンソール モードでの使用 (UWP のアプリケーションを展開した後は、デバイス上で実行される唯一のアプリケーション) で、独自の実装にデバイスのアカウントを必要とします。 Windows ストアと Windows の更新プログラムの両方を使用してソフトウェアを更新します。 参照してくださいhttps://aka.ms/MTRDocsについては、環境でこれらの部屋のコンソールを使用します。 
+Microsoft Teams ルームは、使い慣れたインターフェイスを使用し、簡単に展開および管理される、LCD パネルなどの既存の機器を使って簡単にインストールを行うことができる、Microsoft の最新の会議ソリューションです。 Microsoft Teams の会議では、コンソールモードの Surface Pro 4 または Surface Pro で実行される専用の UWP アプリを使います (UWP アプリは、デバイス上で実行される唯一のアプリである場合)。また、実装には独自のデバイスアカウントが必要です。 ソフトウェアは、Windows ストアと Windows Update の両方で更新されます。 展開https://aka.ms/MTRDocsでこれらの room 本体を使用する方法について詳しくは、「」をご覧ください。 
 
-### <a name="skype-for-business-on-surface-hub"></a>サーフェスのハブでビジネス用の Skype
+### <a name="skype-for-business-on-surface-hub"></a>Surface Hub 上の Skype for Business
 
-Microsoft Surface のハブは、ブレーンストーミング、コラボレーション、およびプレゼンテーションの目的としたオール ・ イン ・ ワン生産性デバイスです。 ビジネス クライアント、 [Microsoft Surface ハブ管理者ガイド](https://docs.microsoft.com/surface-hub/)に記載されている Skype の独自のイテレーションがあります。
+Microsoft Surface Hub は、ブレインストーミング、コラボレーション、プレゼンテーション用のオールインワンの生産性向上デバイスです。 [Microsoft Surface Hub 管理者ガイド](https://docs.microsoft.com/surface-hub/)に記載されている、Skype for business クライアントの独自のイテレーションが含まれています。
 
 ## <a name="choosing-your-organizations-preferred-client"></a>組織の優先するクライアントの選択
 <a name="BK_client_choose"> </a>
 
 適切なライセンスを購入した組織の場合は、Full クライアントまたは Basic クライアントを選択します。
 
-ユーザーは、[すべてのデバイスでのビジネス用の Skype のダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)から自身のクライアントをインストールできます。 クライアントは Windows のユーザーが Office 365 をインストールするときにもインストールされます。 Mac がある一部のユーザーは、それらのユーザーは、以前のセクションで説明したように異なる一連の機能があります。
+ユーザーは、自分のすべてのデバイスに[Skype For business をダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)することによって、クライアントをインストールすることができます。 クライアントは、ユーザーが Windows に Office 365 をインストールしたときにもインストールされます。 一部のユーザーが Mac を使用している場合、これらのユーザーは、前のセクションで説明したように、さまざまな機能のセットを持つことになります。
 
-いくつかのビジネス サーバー 2015 が Skype で利用可能なオンライン ビジネスや Skype のビジネス サーバー 2019 を参照してください[オンラインまたはハイブリッドのユーザーがアカウントを 2015年の制限](desktop-feature-comparison.md#Online-Hybrid)または[オンラインの Skype で利用できる機能または 2019年のハイブリッドのユーザー アカウントの制限事項](desktop-feature-comparison.md#Online-Hybrid)の仕様についてです。 Skype ビジネス オンライン管理者は、それらに利用可能なさまざまなプランについては、 [Skype](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)を参照してください必要があります。
+Skype for business Server 2015 で利用できる機能の一部は、Skype for Business Online または Skype for business Server 2019 では利用できません。2015またはハイブリッドのユーザーアカウントの制限 (2019 の場合) については、「[オンラインまたはハイブリッド](desktop-feature-comparison.md#Online-Hybrid)のユーザーアカウントの制限」を参照してください。 [](desktop-feature-comparison.md#Online-Hybrid)詳細はこちら。 Skype for Business Online の管理者は、Skype for business [Online サービスの説明](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)を参照して、利用可能なプランについてご確認ください。
 
- 展開した場合、またはビジネス用の Skype にアップグレードする前に、どのクライアントが既に組織で使用されていることを確認します。 [Skype ビジネス用のデスクトップ クライアントの機能の比較](desktop-feature-comparison.md)を使用すると、それらのクライアントの機能のサポートへの影響を把握できます。 これによって、ユーザーへの変更点の伝達や、ロールアウト プロセスの調整、最新のクライアントにアップグレードするメリットの十分な理解が容易になります。
+ Skype for Business を展開またはアップグレードする前に、組織で既に使用されているクライアントを確認します。 [Skype For business のデスクトップクライアント機能の比較](desktop-feature-comparison.md)を使用して、それらのクライアントに対する機能のサポートについて理解します。 これによって、ユーザーへの変更点の伝達や、ロールアウト プロセスの調整、最新のクライアントにアップグレードするメリットの十分な理解が容易になります。
 
 ## <a name="ways-to-deploy-the-client-to-your-users"></a>ユーザーにクライアントを展開する方法
 <a name="BK_User_Deploy"> </a>
 
-クライアント インストーラーは、MSI とインストーラーの実行をクリックして型の両方に使用できます。 Skype クライアント sustainment のビジネス戦略の可能性がありますに影響を与える選択内容は、次の点を理解する必要がありますので。
+クライアントインストーラーは MSI とクイック実行型のどちらのインストーラーでも利用できます。 Skype for Business クライアントの持続戦略は選択肢に影響を与える可能性があるため、次の点について理解しておく必要があります。
 
-- 一般的にビジネス用の Skype には追加されません新しい機能以前にリリースされたクライアント
+- 一般的な Skype for Business では、以前にリリースされたクライアントに新しい機能が追加されることはありません。
 
-- 一般的にビジネス用の Skype では、出荷の新機能、Skype ビジネス MSI の初期リリースの後に予定はありません。 リリース間における MSI の改善点は、事実上、主に品質またはセキュリティに関するものとなります。
+- 一般的な Skype for Business では、初回リリース後の Skype for Business MSI の新機能の発送は計画していません。 リリース間における MSI の改善点は、事実上、主に品質またはセキュリティに関するものとなります。
 
-- ビジネス クライアント エクスペリエンスの最新かつ最高の Skype を Skype でビジネス 2019年に実行をクリックしてインストーラーがあります。
+- Skype for business の最新および最大のクライアントエクスペリエンスは、Skype for Business 2019 クイック実行インストーラーにあります。
 
-[Skype ビジネス サーバー用にカスタマイズする Windows クライアントのインストール](../../deploy/deploy-clients/customize-windows-client-installation.md)で説明したように、クライアントの配置のカスタマイズを行うことができます。 インストール方法については、「 [Skype ビジネス サーバー用クライアント展開](../../deploy/deploy-clients/deploy-clients.md)のより詳しい情報
+「 [Skype For Business Server で Windows クライアントインストールをカスタマイズ](../../deploy/deploy-clients/customize-windows-client-installation.md)する」の説明に従って、クライアントのカスタマイズされた展開を行うことができます。 インストール方法について詳しくは、「 [Skype For Business Server の展開クライアント](../../deploy/deploy-clients/deploy-clients.md)」を参照してください。
 
 ### <a name="click-to-run"></a>クイック実行
 
-実行] をクリックは、マイクロソフトのストリーミングおよびインストールし、ビジネスの Skype の Office 製品の更新に使用できる仮想化テクノロジです。 これらのストリーミングおよび仮想化機能は Microsoft Application Virtualization (App-V) の技術に基づいています。 クイック実行には、次の利点があります。
+クイック実行は、Skype for Business などの Office 製品をインストールして更新するために使用できる Microsoft ストリーミングと仮想化テクノロジです。 これらのストリーミングおよび仮想化機能は Microsoft Application Virtualization (App-V) の技術に基づいています。 クイック実行には、次の利点があります。
 
 - インストール時間を短縮化する Office スイートのスムーズなインストール
 
@@ -122,28 +122,28 @@ Microsoft Surface のハブは、ブレーンストーミング、コラボレ�
 
 - XML エディターからカスタマイズ可能で、個別のプログラムのインストールに対応
 
-インストーラーには、この種類の[Office の展開ツール](https://www.microsoft.com/en-us/download/details.aspx?id=49117)を使用することがあります。
+この種類のインストーラーでは、 [Office 展開ツール](https://www.microsoft.com/en-us/download/details.aspx?id=49117)を使用することができます。
 
-両方の (32 ビットおよび 64 ビット バージョンの選択) で基本的なおよびすべてのクライアント バージョンは、使用可能な実行をクリックしてインストーラーを使用して、ユーザーが[すべてのデバイスでのビジネス用の Skype のダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)でダウンロードできます。
+クイック実行インストーラーを使用して、basic と full の両方のクライアントバージョン (32 および64ビットバージョンを選択可能) はどちらも、[すべてのデバイスで Skype For business をダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)してダウンロードできます。
 
 ### <a name="msi"></a>MSI
 
-MSI は、ビジネス 2015年、2016 のクライアントに、Skype で使用する、従来のインストール方法です。 更新とパッチ、ボリューム ライセンスを使用して、ライセンス認証を手動でインストールすることができ、 [Office カスタマイズ ツール](https://www.microsoft.com/en-us/download/details.aspx?id=49030)を使用してカスタマイズします。 グループ ポリシーを適用することにより、システム センター構成マネージャーを使用するか、サード パーティ製ツールを使用して、クライアントを割り当てることができます。
+MSI は、Skype for Business 2015 および2016クライアントで使用される従来のインストール方法です。 手動で更新プログラムをインストールしたり、ボリュームライセンスとライセンス認証を使用したり、 [Office カスタマイズツール](https://www.microsoft.com/en-us/download/details.aspx?id=49030)を使ってカスタマイズしたりすることができます。 グループポリシーを適用してクライアントを配布するには、System Center Configuration Manager を使用するか、サードパーティツールを使用します。
 
 
 
 ## <a name="legacy-clients"></a>レガシー クライアント
 <a name="Legacy"> </a>
 
-ビジネス サーバー 2019 の Skype と Skype のオンライン ビジネスは、次の以前にリリースされたクライアントをサポートします。 ビジネス 2016 の Skype、Skype ビジネス 2015、Lync 2013 用です。
+Skype for Business Server 2019 および Skype for Business Online は、以前にリリースされた次のクライアントをサポートしています。 Skype for Business 2016、Skype for Business 2015、Lync 2013。
 
-ビジネス サーバー 2015 の Skype は、以下の以前にリリースされたクライアントをサポートしています: Lync 2013、Lync 2010、Lync 2010 モバイル、Lync の電話のエディション、および Lync 2010 応答します。 他のサーバーを使用すると、これらのクライアントについては、 [Lync Server 2013 のクライアントの比較表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)および[Lync Server 2010 のクライアントの比較表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)を参照してください。
+Skype for Business Server 2015 は、以前にリリースされた以下のクライアント (Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition、Lync 2010 アテンダント) をサポートしています。 他のサーバーと共に使用した場合に、これらのクライアントについては、「 [Lync server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)および[クライアント比較表 (lync Server 2010 の](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)クライアント比較表)」を参照してください。
 
 
 ## <a name="client-system-requirements"></a>クライアントのシステム要件
 <a name="Legacy"> </a>
 
-サポートされている機能、プラットフォーム、オペレーティング システム、ブラウザー、および Skype のビジネス クライアントに必要な統合を理解するのには以下の資料を参照してください。
+Skype for Business クライアントでサポートされている機能、プラットフォーム、オペレーティングシステム、ブラウザー、および統合の詳細については、次の記事を参照してください。
 
 - [Plan the Skype for Business client experience for your users](user-experience.md)
 
@@ -155,19 +155,19 @@ MSI は、ビジネス 2015年、2016 のクライアントに、Skype で使用
 
 - [Skype for Business の Office アプリとの互換性](compatibility-with-office.md)
 
-- [Skype ビジネス クライアントのビデオ解像度について](video-resolutions.md)
+- [Skype for Business クライアントのビデオ解像度](video-resolutions.md)
 
 - [会議クライアント用の計画 (Web アプリおよび会議アプリ)](meetings-clients.md)
 
 - [System requirements for Skype for Business for Windows Phone](requirements-for-windows-phone.md)
 
-- [Mac クライアントの要件にビジネス用の Skype](mac-requirements.md)
+- [Skype for Business on Mac クライアントの要件](mac-requirements.md)
 
-- [マイクロソフト チームの会議室のプラン](skype-room-systems-v2-0.md)
+- [Microsoft Teams のルームを計画する](skype-room-systems-v2-0.md)
 
 - [Plan for Skype for Business in VDI environments](vdi-environments.md)
 
-- 必要なハードウェアの[システム要件](https://products.office.com/en-us/office-system-requirements)を参照してください。
+- 必要なハードウェアについては、[システム要件](https://products.office.com/en-us/office-system-requirements)を参照してください。
 
 
 ## <a name="see-also"></a>関連項目

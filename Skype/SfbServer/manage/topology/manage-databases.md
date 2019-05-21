@@ -1,45 +1,45 @@
 ---
-title: ビジネス サーバーの Skype での AlwaysOn 可用性グループにデータベースを管理します。
+title: Skype for Business Server の AlwaysOn 可用性グループでデータベースを管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
-description: '概要: ビジネス サーバー データベースの複数の Skype を既存の AlwaysOn 可用性グループに追加、修正した後、必要な追加手順の詳細についてや、バック エンド サーバーの Skype での AlwaysOn 可用性グループの一部であるをアップグレードする方法を学習します。ビジネス サーバーです。'
-ms.openlocfilehash: 07aaadc303063204cef4a5561a83ec71b629c21b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server データベースを既存の AlwaysOn 可用性グループに追加する方法について説明し、Skype for the AlwaysOn 可用性グループの一部であるバックエンドサーバーを修正またはアップグレードした後に必要な追加の手順について説明します。Business Server。'
+ms.openlocfilehash: c6d8877448a68aa2331f3c290170418f6dca08ae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911932"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275186"
 ---
-# <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>ビジネス サーバーの Skype での AlwaysOn 可用性グループにデータベースを管理します。
+# <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Skype for Business Server の AlwaysOn 可用性グループでデータベースを管理する
 
-この資料の手順を使用して、ビジネスのサーバーの Skype で既存の AlwaysOn 可用性グループにビジネス サーバー データベースの複数の Skype を追加し、修正プログラムを適用または、バック エンド サーバー、AlwaysOn の一部をアップグレードした後、必要な追加手順をお探しSkype ビジネス サーバーの可用性グループです。
+この記事の手順を使用して、Skype for Business Server の既存の AlwaysOn 可用性グループにさらに Skype for Business Server データベースを追加します。 AlwaysOn の一部であるバックエンドサーバーを修正またはアップグレードした後で、必要な追加の手順を確認してください。Skype for Business Server の可用性グループ。
 
-## <a name="add-databases-to-an-alwayson-availability-group"></a>データベースを AlwaysOn 可用性グループに追加します。 
+## <a name="add-databases-to-an-alwayson-availability-group"></a>AlwaysOn 可用性グループにデータベースを追加する 
 
-1. SQL Server Management Studio を開き AlwaysOn 可用性グループに移動します。 フェールオーバー、プライマリ レプリカにします。
+1. SQL Server Management Studio を開き、AlwaysOn 可用性グループに移動します。 プライマリレプリカにフェイルオーバーします。
     
-2. トポロジ ビルダーでは、AlwaysOn 可用性グループの SQL Server の FQDN をそのグループのプライマリ ノードの FQDN に設定します。
+2. [トポロジビルダー] で、AlwaysOn 可用性グループの SQL Server FQDN をそのグループのプライマリノードの FQDN に設定します。
     
-   - トポロジ ビルダーを開き**既存の展開からトポロジをダウンロード**するを選択して **[ok]** をクリックします。
+   - トポロジビルダーを開き、[**既存の展開からトポロジをダウンロード**] を選択して、[ **OK]** をクリックします。
     
-   - [Skype for Business Server]、使用するトポロジ、[**SQL Server ストア**] の順に展開します。 新しい AlwaysOn 可用性グループの SQL ストアを右クリックし、[**プロパティの編集**] をクリックします。
+   - [Skype for Business Server]、使用するトポロジ、[**SQL Server ストア**] の順に展開します。 新しい AlwaysOn 可用性グループの SQL ストアを右クリックし、[プロパティの**編集**] をクリックします。
     
-   - **SQL Server の FQDN** ] ボックスで、ページの下部に、AlwaysOn 可用性グループのプライマリ ノードの FQDN を入力します。
+   - ページの下部にある [ **SQL SERVER FQDN** ] ボックスに、AlwaysOn 可用性グループのプライマリノードの FQDN を入力します。
     
 3. トポロジを公開します。 [**操作**] メニューから、[**トポロジ**]、[**公開**] の順にクリックします。 続いて、確認ページで [**次へ**] をクリックします。
     
-4. AlwaysOn 可用性グループに新しいデータベースを追加するのにには、SQL Server Management Studio を使用します。
+4. SQL Server Management Studio を使用して、新しいデータベースを AlwaysOn 可用性グループに追加します。
     
 ## <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group"></a>AlwaysOn 可用性グループの SQL Server に対して修正プログラムを適用または更新を実行する
 
-バック エンド サーバー、AlwaysOn 可用性グループの一部を修正するには後に、、トポロジを再発行する必要があります。
+AlwaysOn 可用性グループの一部であるバックエンドサーバーを更新した後、トポロジを再公開する必要があります。
 
 1. Skype for Business Server に更新プログラムをインストールします。
     

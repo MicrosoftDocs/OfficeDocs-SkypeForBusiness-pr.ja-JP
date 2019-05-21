@@ -1,10 +1,10 @@
 ---
-title: 作成またはビジネス用の Skype のコール ピックアップのグループ番号の範囲を変更します。
+title: Skype for Business のグループ通話集配の番号範囲を作成または変更する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,26 +13,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype のコール ピックアップのグループ番号の範囲を変更します。
-ms.openlocfilehash: 569e1ed16e706e89ff2cf03c330f8161824e3bd2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice でグループ通話の集配番号の範囲を作成または変更します。
+ms.openlocfilehash: e81762e83598a9089e25536c74754bf11aae704f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892938"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286233"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>作成またはビジネス用の Skype のコール ピックアップのグループ番号の範囲を変更します。
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Skype for Business のグループ通話集配の番号範囲を作成または変更する
 
-作成またはビジネス サーバーのエンタープライズ VoIP の Skype のコール ピックアップのグループ番号の範囲を変更します。
+Skype for Business Server Enterprise Voice でグループ通話の集配番号の範囲を作成または変更します。
 
-グループ コール ピックアップは、コール パーク アプリケーションに基づいています。 コール ピックアップのグループを配置するときは、コール ピックアップ グループの番号として指定されている電話番号の範囲のコール パークの移動テーブルを構成しなければなりません。 ユーザーはこのグループ番号にダイヤルし、他のユーザーに着信している通話をピックアップします。
+グループ通話のピックアップは、コールパークアプリケーションに基づいています。 グループ通話の集配を展開するときに、通話集配グループ番号として指定されている電話番号の範囲を使って、コールパークの軌道テーブルを構成する必要があります。 ユーザーはこのグループ番号にダイヤルし、他のユーザーに着信している通話をピックアップします。
 
-コール パーク オービットの番号と同様に、通話ピックアップのグループ番号には、ユーザーや電話が割り当てられていない仮想の内線番号を使用する必要があります。 コール ピックアップのグループを展開する各フロント エンド プールでは、コール ピックアップ グループ番号の 1 つまたは複数の範囲を持つことができます。 このグループ番号範囲は、展開全体でグローバルに一意である必要があり、**GroupPickup** の種類として割り当てることも必要です。
+コール パーク オービットの番号と同様に、通話ピックアップのグループ番号には、ユーザーや電話が割り当てられていない仮想の内線番号を使用する必要があります。 グループ通話のピックアップを展開する各フロントエンドプールには、1つ以上の通話ピックアップグループ番号が含まれていることがあります。 このグループ番号範囲は、展開全体でグローバルに一意である必要があり、**GroupPickup** の種類として割り当てることも必要です。
 
 次の手順を使用して、コール パーク オービット テーブルで通話ピックアップ グループ番号の範囲を作成または変更します。
 
 > [!NOTE]
-> 作成、変更、削除、および呼び出し公園軌道テーブルのグループを呼び出すピックアップの数値の範囲を表示するビジネス サーバー管理シェルの Skype を使用してください。 グループ ピックアップの電話番号の範囲は、ビジネス サーバーのコントロール パネルの Skype でご利用いただけません。
+> 通話パークの軌道の番号範囲を作成、変更、削除、および表示するには、Skype for Business Server 管理シェルを使用する必要があります。 グループ通話の集配番号範囲は、Skype for Business Server コントロールパネルでは使用できません。
 
 通話ピックアップ グループ番号の範囲は、次のルールに従っている必要があります。
 
@@ -42,13 +42,13 @@ ms.locfileid: "33892938"
 
 - 番号範囲は一意である必要があります。この範囲が他のどの範囲とも重ならないようにしてください。
 
-- 番号の範囲が、文字で始まる場合\*#、範囲は 100 より大きい値である必要がありますか。
+- 数値の範囲が文字\*または # で始まる場合、範囲は100よりも大きくなければなりません。
 
-- 有効な値: 正規表現の文字列に一致する必要があります ([\\* | #] ? [1-9] \d{0,7})。(1 ~ 9 の \d{0,8})。 つまり、値は、いずれかの文字で始まる文字列である必要があります\*#、または数字 1 ~ 9 の (最初の文字はゼロであることはできません)。 最初の文字の場合\*#、次の文字は数字 1 ~ 9 の (0 にすることはできません) である必要がありますか。 以降の文字は、任意の数の 0 から 9 までの 7 つの追加文字を使用できます (たとえば、「#6000」、「\*92000"、"\*95551212"、および"915551212"). 最初の文字がない場合\*#、最初の文字は、最大 8 個までの文字の後に数字 1 ~ 9 (0 にすることはできません) である必要がありますまたは各数値 0 から 9 (たとえば、「915551212」、「41212」、「300」)。
+- 有効な値: 正規表現文字列と一致する必要\\があります ([* | #] ? [{0,7}1-9] \d) |([1-9] \d{0,8}) つまり、文字\*または # のいずれかから始まる文字列、または 1 ~ 9 の数値 (最初の文字はゼロにすることはできません) であることを意味します。 最初の文字が\*または # の場合、次の文字は 1 ~ 9 の数字にする必要があります (0 にすることはできません)。 後続の文字には、0 ~ 9 までの追加文字を使用できます (たとえば、"#6000"\*、"92000"\*、"95551212"、"915551212")。 最初の文字が "not \* " または "#" である場合、最初の文字は 1 ~ 9 の数字 (0 にすることはできません)、数字 0 ~ 9 (たとえば、"915551212"、"41212"、"300") でなければなりません。
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>通話ピックアップ グループの範囲を作成するには
 
-1. RTCUniversalServerAdmins グループのまたは**セットアップ アクセス許可の委任**で説明したように必要なユーザー権限を持つメンバーとしてビジネス サーバー管理シェルの Skype がインストールされているコンピューターにログオンします。
+1. Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとしてインストールされているコンピューターにログオンするか、「**代理人セットアップアクセス許可**」で説明するように、必要なユーザー権限を設定します。
 
 2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
 
@@ -73,12 +73,12 @@ ms.locfileid: "33892938"
    ```
 
     > [!IMPORTANT]
-    > 最初に間違ったタイプを指定して、グループの範囲がまだ使用されていない場合にのみ、このコマンドレットを使用して、番号の範囲に割り当てられているタイプを変更します。 番号の範囲を CallPark から GroupPickup、または GroupPickup から CallPark に変更した場合、番号の範囲が既に使用されていると、コール パークまたはグループ通話ピックアップのどちらかが、その番号の範囲に対して無効になります。 たとえば、番号の範囲を CallPark から GroupPick に変更する場合は、コール パーク アプリケーションことができます公園の呼び出しに軌道の範囲は使用できません。
+    > 最初に間違ったタイプを指定して、グループの範囲がまだ使用されていない場合にのみ、このコマンドレットを使用して、番号の範囲に割り当てられているタイプを変更します。 番号の範囲を CallPark から GroupPickup、または GroupPickup から CallPark に変更した場合、番号の範囲が既に使用されていると、コール パークまたはグループ通話ピックアップのどちらかが、その番号の範囲に対して無効になります。 たとえば、番号の範囲を [CallPark] から [GroupPick] に変更すると、その範囲の orbits を使用して通話をパークすることができなくなります。
 
 ## <a name="see-also"></a>関連項目
 
-[新しい-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[新規-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[セット CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[コール パークの移動範囲を削除します。](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[コールパークの範囲を削除する](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)

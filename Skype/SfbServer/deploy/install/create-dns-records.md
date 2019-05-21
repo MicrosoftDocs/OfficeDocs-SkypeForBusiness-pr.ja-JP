@@ -1,11 +1,11 @@
 ---
-title: Skype のビジネス サーバー用の DNS レコードを作成します。
+title: Skype for Business Server の DNS レコードを作成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,30 +14,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
-description: '概要: は、DNS を構成し、ビジネス サーバーの Skype のインストール用の DNS レコードを作成する方法を説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 64960291ade3f08fd4a27b9247549e20a4e6cd8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のインストール用の DNS を構成し、DNS レコードを作成する方法について説明します。 Skype for Business Server の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
+ms.openlocfilehash: b5b36ffb55077e20a4c7a70c7e086c5596673f9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891839"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306648"
 ---
-# <a name="create-dns-records-for-skype-for-business-server"></a>Skype のビジネス サーバー用の DNS レコードを作成します。
+# <a name="create-dns-records-for-skype-for-business-server"></a>Skype for Business Server の DNS レコードを作成する
  
-**の概要:** DNS を構成し、ビジネス サーバーの Skype のインストール用の DNS レコードを作成する方法について説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
+**概要:** Skype for Business Server のインストール用の DNS を構成し、DNS レコードを作成する方法について説明します。 Skype for Business Server の無料トライアルは、次[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)の Microsoft 評価センターからダウンロードしてください。
   
-正常に動作するサーバーをビジネスの Skype は、いくつかのドメイン ネーム システム (DNS) 設定の必要があります。 これは、クライアントがサービスにアクセスする方法を認識し、サーバーが相互を認識するようにするためです。 ユーザーが DNS エントリを割り当てればドメイン全体で使用できるようになるため、これらの設定を完了する必要があるのは、展開ごとに 1 回だけです。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 DNS レコードの作成は、8 つの手順のうちの 5 番目です。 DNS の計画についての詳細については、 [Skype のビジネス サーバーの環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)や[ビジネス サーバー 2019 の Skype のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。
+Skype for Business Server が正常に動作するためには、いくつかのドメインネームシステム (DNS) 設定が必要です。 これは、クライアントがサービスにアクセスする方法を認識し、サーバーが相互を認識するようにするためです。 ユーザーが DNS エントリを割り当てればドメイン全体で使用できるようになるため、これらの設定を完了する必要があるのは、展開ごとに 1 回だけです。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 DNS レコードの作成は、8 つの手順のうちの 5 番目です。 DNS の計画の詳細については、「skype for business [server の環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)」または「 [Skype for business Server 2019 のサーバー要件](../../../SfBServer2019/plan/system-requirements.md)」を参照してください。
   
 > [!IMPORTANT]
-> これは、Windows サーバーの DNS 環境で DNS レコードを作成する方法の例では同様に重要です。 ビジネス サーバーでは、Skype に必要なその他の多くの DNS エントリがあるし、DNS レコードを作成する手順は、組織内の DNS を管理するために使用しているシステムによって異なります。 DNS の要件の一覧は、 [Skype ビジネス サーバー用の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)を参照してください。 
+> これは、Windows Server DNS 環境で DNS レコードを作成する方法のほんの一例にすぎないことに注意する必要があります。 Skype for Business Server では、他にも多くの DNS エントリが必要であり、DNS レコードを作成する手順は、組織内の DNS を管理するために使用しているシステムによって異なります。 DNS の要件の完全な一覧については、「 [Skype For Business Server の dns 要件](../../plan-your-deployment/network-requirements/dns.md)」を参照してください。 
   
 ![概要図](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## <a name="configure-dns"></a>DNS の構成
 
-DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユーザーがアクセスできる必要があります。
+DNS レコードは、Skype for Business Server が適切に動作し、ユーザーがアクセスできるようにするために必要です。
   
-この例では、DNS 負荷分散される、pool.contoso.local という名前の FQDN を使用しています。 このプールは、Skype ビジネス Server Enterprise Edition を実行している 3 つのサーバーで構成されています。 1 台の Standard Edition フロントエンド サーバーに搭載できるサーバーは 1 台のみです。 この例のように、DNS 負荷分散されるサーバー プールを作成するのではなくフロントエンドの役割を参照する場合、Standard Edition を使用することで、1 台の Standard Edition サーバーの完全修飾ドメイン名 (FQDN) のみを使用することになります。 フロントエンドの役割のみを使用するこのシンプルな例には、次の表の DNS エントリが含まれます。 特定の DNS の要件を計画するには、 [Skype ビジネス サーバー用の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)を参照してください。 
+この例では、DNS 負荷分散される、pool.contoso.local という名前の FQDN を使用しています。 このプールは、Skype for Business Server Enterprise Edition を実行する3台のサーバーで構成されています。 1 台の Standard Edition フロントエンド サーバーに搭載できるサーバーは 1 台のみです。 この例のように、DNS 負荷分散されるサーバー プールを作成するのではなくフロントエンドの役割を参照する場合、Standard Edition を使用することで、1 台の Standard Edition サーバーの完全修飾ドメイン名 (FQDN) のみを使用することになります。 フロントエンドの役割のみを使用するこのシンプルな例には、次の表の DNS エントリが含まれます。 特定の DNS 要件を計画するには、「 [Skype For Business Server の dns 要件](../../plan-your-deployment/network-requirements/dns.md)」を参照してください。 
   
  
 |**説明**|**レコードの種類**|**名前**|**解決先**|**負荷分散の種類**|
@@ -62,7 +62,7 @@ DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユ
     
 2. [**ツール**] ドロップダウン メニューをクリックし、[**DNS**] をクリックします。
     
-3. SIP ドメインのコンソール ツリーで **[前方参照ゾーン**] を展開し、ビジネス サーバー用の Skype をインストールする SIP ドメインを展開し、します。
+3. SIP ドメインのコンソールツリーで [**前方参照ゾーン**] を展開し、Skype For business Server がインストールされる SIP ドメインを展開します。
     
 4. 図のように、SIP ドメインを右クリックして、[**新しいホスト (A または AAAA)**] を選択します。
     
@@ -78,7 +78,7 @@ DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユ
    |SFB02  <br/> |ホスト (A)  <br/> |10.0.0.6  <br/> |
    |SFB03  <br/> |ホスト (A)  <br/> |10.0.0.7  <br/> |
    
-7. 次に、プールの DNS 負荷分散のエントリを作成します。 DNS 負荷分散により、同じ DNS プール名を使用しながら、DNS ではプールの個別のサーバーに要求を送信することができます。 DNS および負荷分散に関する詳細については、 [Skype ビジネス サーバー用の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)を参照してください。 
+7. 次に、プールの DNS 負荷分散のエントリを作成します。 DNS 負荷分散により、同じ DNS プール名を使用しながら、DNS ではプールの個別のサーバーに要求を送信することができます。 DNS とロードバランシングの詳細については、「 [Skype For Business Server の dns 要件](../../plan-your-deployment/network-requirements/dns.md)」を参照してください。 
     
     > [!NOTE]
     > 複数のサーバーをまとめてプールにする操作は、Enterprise Edition 展開でのみ使用できます。Enterprise Server または Standard Edition サーバーを 1 台展開している場合は、その 1 台のサーバー用の A レコードのみを作成する必要があります。 
@@ -115,13 +115,13 @@ DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユ
     
 2. [**スタート**] ボタンをクリックし、「**cmd**」と入力して、Enter キーを押します。
     
-3. 型**nslookup\<フロント エンド プールの FQDN\>** または**\<Standard Edition サーバーまたは Enterprise Edition の 1 つのサーバーの FQDN\>**、し、Enter キーを押します。
+3. 「 **Nslookup \<\> fqdn** 」と入力するか、 ** \<Standard edition server または Enterprise Edition\>server の fqdn**を入力して、enter キーを押します。
     
 4. 引き続き、展開の残りの A レコードを確認します。
     
 5. 従来のクライアントをサポートしていて、SRV レコードの作成が完了している場合は、**nslookup** プロンプトで「**set type=srv**」と入力して、Enter キーを押します。
     
-6. **_Sipinternaltls._tcp を入力します。*ドメイン***(_sipinternaltls._tcp.contoso.local など)、し、Enter キーを押します。
+6. 「_Sipinternaltls」と入力します **。 _tcp*ドメイン***(たとえば、_sipinternaltls) を入力して、enter キーを押します。
     
 7. 想定される出力は、図に示す出力のようになります。サンプル出力にはすべての DNS レコードが表示されているわけではありませんが、すべてのレコードを確認する必要があります。 
     

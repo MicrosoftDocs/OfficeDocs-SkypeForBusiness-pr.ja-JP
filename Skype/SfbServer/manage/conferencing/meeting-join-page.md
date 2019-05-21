@@ -1,37 +1,37 @@
 ---
-title: 会議を構成するビジネス サーバーの Skype での参加のページ
+title: Skype for Business Server で会議の参加ページを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
-description: '概要: 会議を構成する方法を学習する Skype ビジネス サーバー用のページを結合します。'
-ms.openlocfilehash: 4ed89d07b85072ba86fc89db33e4902b97373d11
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で会議の参加ページを構成する方法について説明します。'
+ms.openlocfilehash: 30e220f2a1745aea0a77e3ec3ff491b842a2b221
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913336"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283726"
 ---
-# <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>会議を構成するビジネス サーバーの Skype での参加のページ
+# <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>Skype for Business Server で会議の参加ページを構成する
  
-**の概要:** 会議を構成する方法については Skype ビジネス サーバー用のページを結合します。
+**概要:** Skype for Business Server で会議の参加ページを構成する方法について説明します。
   
-ユーザーが会議出席依頼、会議の会議のリンクをクリックすると結合のページは、ユーザーのコンピューターで、Skype のビジネスのクライアントが既にインストールされているかどうかを検出します。 クライアントが既にインストールされている場合、クライアントが開き、ミーティングに参加します。 クライアントがインストールされていない場合既定ではビジネスの Skype クライアントを開きます。 
+ユーザーが会議出席依頼の会議リンクをクリックすると、[会議の参加] ページによって、ユーザーのコンピューターに Skype for Business クライアントが既にインストールされているかどうかが検出されます。 クライアントが既にインストールされている場合は、クライアントが開き、会議に参加します。 クライアントがインストールされていない場合、既定では、Skype for Business クライアントが開きます。 
   
 ## <a name="configure-the-meeting-join-page"></a>会議参加ページの構成
 
-会議の結合の動作を変更するページの他のバージョンのクライアントとの会議に参加するユーザーを許可する場合。 これらの構成オプションは、ビジネス サーバーのコントロール パネルの Skype から削除されていますが、セット CsWebServiceConfiguration コマンドレットを使用して、それらを構成します。
+ユーザーが他のバージョンのクライアントと会議に参加できるようにする場合は、[会議参加] ページの動作を変更することができます。 これらの構成オプションは、Skype for Business Server コントロールパネルから削除されていますが、CsWebServiceConfiguration コマンドレットを使用して設定します。
   
-**ミーティング参加ページ セットの CsWebServiceConfiguration のパラメーター**
+**会議の参加ページの設定-CsWebServiceConfiguration パラメーター**
 
-|**パラメーターのセット CsWebServiceConfiguration**|**説明**|
+|**CsWebServiceConfiguration パラメーター**|**説明**|
 |:-----|:-----|
-|ShowJoinUsingLegacyClientLink  <br/> |ビジネス サーバーの設置型バージョンの Skype を使用するため、このパラメーターは廃止されました。  <br/> かどうか True に設定する、以外のクライアント アプリケーションを使用してミーティングに参加するユーザー ビジネス用の Skype は機会がある、現在のクライアント アプリケーションを使用してミーティングに参加します。 既定値は False です。  <br/> |
-|ShowAlternateJoinOptionsExpanded  <br/> |ビジネス サーバーの設置型バージョンの Skype を使用するため、このパラメーターは廃止されました。  <br/>  かどうかは True に設定すると、代替オプションのオンライン会議に参加するため自動的に展開され、ユーザーに表示します。 場合は False (既定値) に設定すると、これらのオプションを使用できるがユーザー自身でオプションの一覧を表示します。  <br/> |
+|ShowJoinUsingLegacyClientLink  <br/> |このパラメーターは、Skype for Business Server のオンプレミスバージョンで使用するために廃止されました。  <br/> True に設定すると、Skype for Business 以外のクライアントアプリケーションを使用して会議に参加するユーザーには、現在のクライアントアプリケーションを使用して会議に参加する機会が与えられます。 既定値は False です。  <br/> |
+|Showalternatejoinoptionている  <br/> |このパラメーターは、Skype for Business Server のオンプレミスバージョンで使用するために廃止されました。  <br/>  True に設定すると、オンライン会議に参加するための代替オプションが自動的に展開され、ユーザーに表示されます。 False (既定値) に設定した場合、これらのオプションは使用できますが、ユーザーは独自のオプションの一覧を表示する必要があります。  <br/> |
    
 

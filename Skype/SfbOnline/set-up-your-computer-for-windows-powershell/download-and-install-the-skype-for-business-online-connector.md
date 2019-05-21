@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,16 +18,16 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 'Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online. '
-ms.openlocfilehash: a93cf1d3d09910001f25619969b6d504e23ec36f
-ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
+ms.openlocfilehash: 7e97bc31d85370919eec7c50fae01d00f5b1ddac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34036694"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284712"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Skype for Business Online Connector モジュールをダウンロードしてインストールする
 
-[] Skype for Business Online Connector モジュール には、 **New-CsOnlineSession** Windows PowerShell に接続するリモート Skype for Business Online セッションを作成できるようにする コマンドレットが含まれます。 Microsoft ダウンロード センターからダウンロードできます (を参照してください[Windows PowerShell を使用してオンライン ビジネスの管理のための Skype には、コンピューターの設定](set-up-your-computer-for-windows-powershell.md)の詳細については) 64 ビット コンピューターでのみサポートされて、このモジュールは、 [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366)。 SkypeOnlinePowershell.exe ファイルをダウンロードしてから、次の手順を完了します。
+[] Skype for Business Online Connector モジュール には、 **New-CsOnlineSession** Windows PowerShell に接続するリモート Skype for Business Online セッションを作成できるようにする コマンドレットが含まれます。 このモジュールは、64ビットのコンピューターでのみサポートされます (詳細については、「 [Windows PowerShell を使用して Skype For Business Online 管理用にコンピューターを設定](set-up-your-computer-for-windows-powershell.md)する」を[https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366)参照してください)。 Microsoft ダウンロードセンターからダウンロードできます。 SkypeOnlinePowershell.exe ファイルをダウンロードしてから、次の手順を完了します。
   
 1. **SkypeOnlinePowershell.exe** ファイルをダブルクリックします。
     
@@ -60,7 +60,7 @@ Skype for Business Online Connector モジュール のインストールに加�
 お使いのコンピューターに現在インストールされている Connector モジュールのバージョン番号を検証するには、[ **プログラムと機能** ] を開いて、 **Skype for Business Online、Windows PowerShell Module** のバージョン番号を確認してください。
   
 ## <a name="related-topics"></a>関連トピック
-[Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します](set-up-your-computer-for-windows-powershell.md)
+[Windows PowerShell を使用して skype for business online 管理用にコンピューターをセットアップする](set-up-your-computer-for-windows-powershell.md)
 
   
  

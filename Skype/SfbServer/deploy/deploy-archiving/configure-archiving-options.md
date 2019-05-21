@@ -1,33 +1,33 @@
 ---
-title: Skype のビジネス サーバー用のアーカイブのオプションを構成します。
+title: Skype for Business Server のアーカイブオプションを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
-description: '概要: ビジネス サーバーの Skype の初期のアーカイブ ・ オプションを構成する方法については、このトピックを読みます。 最初に設定する構成をアーカイブ、アーカイブを展開するが、変更、追加、および展開後の構成を削除することができます。'
-ms.openlocfilehash: 58dd94cb5d42e3d0dabb845acbb5b72e7e90d8bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の最初のアーカイブオプションを構成する方法については、このトピックをお読みください。 アーカイブの展開時にアーカイブ構成を最初に設定しましたが、展開後に構成の変更、追加、削除を行うことができます。'
+ms.openlocfilehash: 33438bb56c1ce55b0b449b9ee4124e27ae8638cc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895926"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286603"
 ---
-# <a name="configure-archiving-options-for-skype-for-business-server"></a>Skype のビジネス サーバー用のアーカイブのオプションを構成します。
+# <a name="configure-archiving-options-for-skype-for-business-server"></a>Skype for Business Server のアーカイブオプションを構成する
  
-**の概要:** ビジネス サーバーの Skype の初期のアーカイブ ・ オプションを構成する方法については、このトピックを参照してください。 最初に設定する構成をアーカイブ、アーカイブを展開するが、変更、追加、および展開後の構成を削除することができます。
+**概要:** このトピックでは、Skype for Business Server の最初のアーカイブオプションを構成する方法について説明します。 アーカイブの展開時にアーカイブ構成を最初に設定しましたが、展開後に構成の変更、追加、削除を行うことができます。
   
-構成するには、アーカイブ構成では、初期使用する Skype ビジネス サーバーのコントロール パネルの以下を指定します。
+初期のアーカイブ構成を構成するには、Skype for Business Server コントロールパネルを使用して、次の内容を指定します。
   
-- ビジネス サーバーに対して Skype を展開するときに既定で作成されるグローバル レベルの構成
+- Skype for Business Server を展開するときに既定で作成されるグローバルレベルの構成
     
 - (オプション) 特定のサイトにアーカイブを実装する方法を指定するサイト レベルの構成
     
-- 特定のプールのアーカイブの実装方法を指定するオプションのプールレベルの構成
+- 特定のプールに対するアーカイブの実装方法を指定するオプションのプールレベル構成
     
 構成する必要があるオプションは次のとおりです。
   
@@ -46,17 +46,17 @@ ms.locfileid: "33895926"
 > [!NOTE]
 > 適切なオプションをすべて指定してからアーカイブを有効にしてください。 
   
-方法の詳細については、アーカイブの構成は、実装するオプションを指定することを含むとアーカイブ構成の階層構造は、 [Skype のビジネス サーバーでアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)を参照してください。 詳細を管理する方法については、コントロール パネルを使用するか、Windows PowerShell を使用して、展開後の構成では、 [Skype のビジネス サーバーでアーカイブ ・ オプションを管理](../../manage/archiving/options.md)を参照してください。
+アーカイブ構成の実装方法について詳しくは、「指定できるオプションやアーカイブ構成の階層」をご覧ください。「 [Skype For Business Server でのアーカイブの計画](../../plan-your-deployment/archiving/archiving.md)」を参照してください。 展開後に [コントロールパネル] または Windows PowerShell を使用して構成を管理する方法の詳細については、「 [Skype For Business Server でアーカイブオプションを管理](../../manage/archiving/options.md)する」を参照してください。
   
 ## <a name="configure-global-level-archiving-options"></a>グローバル レベルのアーカイブ オプションを構成する
 
-トポロジにアーカイブを追加し、トポロジを公開すると、Business Server の Skype はアーカイブのグローバル設定を作成します。 既定では、グローバル構成で有効になっているアーカイブ オプションはありません。 グローバル構成より優先されるサイト構成またはプール構成を設定しない限り、グローバル構成は、展開全体に対して有効化されるオプションを制御します。
+トポロジにアーカイブを追加してトポロジを公開すると、Skype for Business Server はアーカイブ用のグローバル構成を作成します。 既定では、グローバル構成で有効になっているアーカイブ オプションはありません。 グローバル構成より優先されるサイト構成またはプール構成を設定しない限り、グローバル構成は、展開全体に対して有効化されるオプションを制御します。
   
 グローバル レベルでアーカイブ オプションを構成するには、次の操作を行います。
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     
@@ -70,11 +70,11 @@ ms.locfileid: "33895926"
     
    - **[IM および Web 会議セッションをアーカイブする]**
     
-6. **編集・ アーカイブの設定 - グローバル**] ページでは、次のように操作します。
+6. また、[**アーカイブ設定の編集-グローバル**] ページで、次の操作を行います。
     
    - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-   - アーカイブ ・ データを格納する Microsoft Exchange Server を使用するには、 **Microsoft Exchange の統合**] チェック ボックスをクリックします。
+   - アーカイブデータの保存に Microsoft Exchange Server を使用するには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
     
    - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
     
@@ -90,7 +90,7 @@ ms.locfileid: "33895926"
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     
@@ -110,7 +110,7 @@ ms.locfileid: "33895926"
     
    - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-   - アーカイブ ・ データを格納する Microsoft Exchange Server を使用するには、 **Microsoft Exchange の統合**] チェック ボックスをクリックします。
+   - アーカイブデータの保存に Microsoft Exchange Server を使用するには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
     
    - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
     
@@ -126,7 +126,7 @@ ms.locfileid: "33895926"
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     
@@ -146,7 +146,7 @@ ms.locfileid: "33895926"
     
    - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-   - アーカイブ ・ データを格納する Microsoft Exchange Server を使用するには、 **Microsoft Exchange の統合**] チェック ボックスをクリックします。
+   - アーカイブデータの保存に Microsoft Exchange Server を使用するには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
     
    - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
     

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ラトビアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 6d47d60199e96e1c7c9d90d248461abf2ae02be6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをラトビアで利用できるようにする方法について説明します。
+ms.openlocfilehash: 2d2669626520731a79b88b9863fe9b55c03dd80e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203642"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276629"
 ---
 # <a name="availability-in-latvia"></a>ラトビアでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-ラトビアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをラトビアで利用できるようにする方法について説明します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -44,7 +44,7 @@ ms.locfileid: "32203642"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |電話番号が特定の都市や地域に関連していません。 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

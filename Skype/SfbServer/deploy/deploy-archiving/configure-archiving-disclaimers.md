@@ -1,37 +1,37 @@
 ---
-title: Skype のビジネス サーバーの外部のユーザーのアーカイブの免責事項を構成します。
+title: Skype for Business Server で外部ユーザーのアーカイブの免責事項を構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
-description: '概要: は、Skype のビジネス サーバーのアーカイブの免責事項を構成する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 7cc1c5c770a20c9ccd4d1473eeca4147042fde95
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のアーカイブの免責事項を構成する方法については、このトピックをお読みください。'
+ms.openlocfilehash: 86430ac80d85ed166ae091119f4261cdc5e1ff9b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894156"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278984"
 ---
-# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Skype のビジネス サーバーの外部のユーザーのアーカイブの免責事項を構成します。
+# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Skype for Business Server で外部ユーザーのアーカイブの免責事項を構成する
  
-**の概要:** Skype のビジネス サーバーのアーカイブの免責事項を構成する方法の詳細については、このトピックを参照してください。
+**概要:** このトピックでは、Skype for Business Server のアーカイブの免責事項を構成する方法について説明します。
   
-組織で外部パートナーとの通信を行う場合は、相手との通信をアーカイブしていることを相手に伝える必要があります。 エッジ サーバーの展開、組織のフェデレーションを有効にすると、自動的にアーカイブの免責事項を外部パートナーに送信するかどうかが求められます。 
+組織で外部パートナーとの通信を行う場合は、相手との通信をアーカイブしていることを相手に伝える必要があります。 エッジサーバーを展開して組織のフェデレーションを有効にすると、アーカイブの免責事項を外部パートナーに自動的に送信するかどうかを確認するメッセージが表示されます。 
   
-この構成を変更する場合は、ビジネス サーバーのコントロール パネルまたは Windows PowerShell**セット CsAccessEdgeConfiguration**コマンドレットは、Skype を使用できます。 Business Server 管理シェルの Skype とは Windows PowerShell のリモート セッションからは、コマンドレットを実行できます。
+この構成を変更する必要がある場合は、Skype for Business Server コントロールパネルまたは Windows PowerShell **CsAccessEdgeConfiguration**コマンドレットを使用できます。 コマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。
   
-ビジネス サーバーの展開について、Skype ユーザーと共同作業を外部のユーザーを有効にするには、外部ユーザー アクセスをサポートするために少なくとも 1 つの外部アクセス ポリシーを構成することもあります。 詳細については、組織の XMPP フェデレーション パートナーの管理を参照してください。 特定のフェデレーション ドメインのアクセス制御の詳細については、「個別のフェデレーション ドメインごとのアクセス制御」を参照してください。
+外部ユーザーが Skype for Business Server 展開のユーザーと共同作業できるようにするには、外部ユーザーのアクセスをサポートするために、少なくとも1つの外部アクセスポリシーを構成する必要があります。 詳細については、「組織の XMPP フェデレーションパートナーを管理する」を参照してください。 特定のフェデレーション ドメインのアクセス制御の詳細については、「個別のフェデレーション ドメインごとのアクセス制御」を参照してください。
   
 ## <a name="enable-or-disable-archiving-disclaimer-using-the-control-panel"></a>コントロール パネルを使用してアーカイブについての免責事項を有効または無効にする
 
 1. RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで [**フェデレーションと外部アクセス**] をクリックし、[**アクセス エッジ構成**] をクリックします。
     

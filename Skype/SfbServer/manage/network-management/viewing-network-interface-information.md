@@ -1,32 +1,32 @@
 ---
-title: ネットワーク インターフェイス情報を表示します。
+title: ネットワークインターフェイス情報の表示
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Windows PowerShell と Get CsNetworkInterface コマンドレットを使用して、ネットワーク インターフェイスの情報を表示できます。 ビジネス サーバー管理シェルの Skype とは Windows PowerShell のリモート セッションからは、このコマンドレットを実行することができます。
-ms.openlocfilehash: 5460ee66d61c43925de1ec74778ea8920f79df25
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Windows PowerShell と CsNetworkInterface コマンドレットを使用して、ネットワークインターフェイス情報を表示できます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。
+ms.openlocfilehash: ac0df8450b938a377e1325f9c3179b4650b31bdf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910264"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279390"
 ---
-# <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Skype のビジネス サーバーのネットワーク インターフェイス情報を表示します。
+# <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Skype for Business Server でのネットワークインターフェイス情報の表示
 
-Windows PowerShell と**Get CsNetworkInterface**コマンドレットを使用して、ネットワーク インターフェイスの情報を表示できます。 ビジネス サーバー管理シェルの Skype とは Windows PowerShell のリモート セッションからは、このコマンドレットを実行することができます。 
+Windows PowerShell と**CsNetworkInterface**コマンドレットを使用して、ネットワークインターフェイス情報を表示できます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 
 
-## <a name="to-view-network-interface-information"></a>ネットワーク インターフェイス情報を表示するのには
+## <a name="to-view-network-interface-information"></a>ネットワークインターフェイス情報を表示するには
 
-  - ネットワーク インターフェイス情報を表示するのには、Skype のビジネス サーバー管理シェルには、次のコマンドを入力し、し、ENTER キーを押します。
+  - ネットワークインターフェイス情報を表示するには、Skype for Business Server 管理シェルで次のコマンドを入力し、enter キーを押します。
     
         Get-CsNetworkInterface
     
-    このコマンドは、各ネットワーク インターフェイスは、次のような情報を返します。
+    このコマンドは、各ネットワークインターフェイスについて、次のような情報を返します。
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com
@@ -38,6 +38,6 @@ Windows PowerShell と**Get CsNetworkInterface**コマンドレットを使用�
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    詳細については、 [Get CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface)を参照してください。
+    詳細については、「 [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface)」を参照してください。
 
 

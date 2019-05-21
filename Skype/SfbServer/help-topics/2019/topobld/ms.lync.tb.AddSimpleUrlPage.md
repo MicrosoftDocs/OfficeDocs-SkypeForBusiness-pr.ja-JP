@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddSimpleUrlPage
@@ -12,24 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
-description: 展開の定義に追加の簡単な Url を追加するには、新しい簡単な URL の URL を指定します。
-ms.openlocfilehash: 21261bf0704824e986df6211fc95b9a8bf004f9f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 展開の定義に簡単な url を追加するには、新しい単純な URL の URL を指定します。
+ms.openlocfilehash: b254768b7e8aea358b78c7fc263d8eacacea7814
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912191"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276245"
 ---
 # <a name="add-simple-url"></a>簡易 URL の追加
  
-展開の定義に追加の簡単な Url を追加するには、新しい簡単な URL の URL を指定します。 URL の形式は、 _http://\<簡単な URL の種類\>です\<。ドメイン名\>_ または_http://\<ドメイン名\>/\<簡単な URL の種類\>_、簡単な URL は、次のいずれか。
+展開の定義に簡単な url を追加するには、新しい単純な URL の URL を指定します。 URL の形式は、 _http://\<simple url 型\>です。\<ドメイン名\> _また_は\<http://ドメイン\>/\<名の単純\>な url の種類_。ここでは、単純な url の種類は次のいずれかです。
   
-- 対応
+- 即時
     
-- ダイヤルインします。
+- ダイヤルイン
     
 > [!IMPORTANT]
-> 簡単な URL と 1 つ満たす簡単な URL はいつでもアクティブな 1 つのダイヤルを持つことができます。 新しい簡単な URL を追加して、アクティブな URL をすることは、新しい簡単な URL を使用するすべての要求を設定します。 会議と以前の簡単な URL がアクティブであったときに行われたその他の要求を処理するためにアクティブでない簡単な URL のままにします。 
+> 簡単な URL であれば1つのダイヤルで簡単な URL を有効にすることができます。 新しい単純な URL を追加してアクティブな URL にすると、以降のすべての要求に新しい単純な URL を使用するように設定されます。 古い単純 URL がアクティブになったときに行われた会議やその他の要求を処理するには、active URL を無効のままにします。 
   
 
 

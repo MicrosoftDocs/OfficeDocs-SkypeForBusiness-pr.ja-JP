@@ -4,21 +4,21 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: End User
+audience: End User
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d61fddc1-98d4-4577-a371-33f9e221288c
-description: 開始する前に移行はシステムの完全バックアップを実行しが必要になった場合に重ね合わせることができますように、各プールに置かれているユーザー アカウントの一覧を含む、既存のシステムを文書化します。 複数のツールやプログラムは、バックアップとデータ、設定、およびシステムの復元に使用できます。
-ms.openlocfilehash: da85acf6709d4d5cdb35cabc5eedb97f55c2967a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 移行を開始する前に、完全なシステムバックアップを実行して、必要に応じてロールバックすることができるように、既存のシステムをドキュメント化します。 データ、設定、およびシステムのバックアップと復元には、複数のツールとプログラムが用意されています。
+ms.openlocfilehash: 9b2aa56bbd9a38ec8b794b38dbb4be7a667ca246
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238759"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276266"
 ---
 # <a name="back-up-systems-and-data"></a>システムとデータのバックアップ
 
-移行を開始する前にシステムの完全バックアップを実行し、必要になった場合に重ね合わせることができますように、各プールに置かれているユーザー アカウントの一覧を含む、既存のシステムを文書化します。 複数のツールやプログラムは、バックアップとデータ、設定、およびシステムの復元に使用できます。
+移行を開始する前に、完全なシステムバックアップを実行し、各プールに所属しているユーザーアカウントのインベントリなど、既存のシステムをドキュメント化します。これにより、必要に応じてロールバックすることができます。 データ、設定、およびシステムのバックアップと復元には、複数のツールとプログラムが用意されています。
 
-詳細と手順は、バックアップを参照してくださいし、お使いのバージョンのプロシージャを復元します。 
+詳細と手順については、「お使いのバージョンのバックアップと復元の手順」を参照してください。 

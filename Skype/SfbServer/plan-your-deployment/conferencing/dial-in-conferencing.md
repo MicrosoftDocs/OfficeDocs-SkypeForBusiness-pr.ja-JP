@@ -1,29 +1,29 @@
 ---
-title: ビジネス サーバーの Skype では、ダイヤルイン会議の計画
+title: Skype for Business Server でのダイヤルイン会議の計画
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
-description: '概要: ビジネス サーバーの Skype では、ダイヤルイン会議の計画の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 6df8e06ecbbf6da67d34b7b6332ed2f2ca93e50c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server でのダイヤルイン会議の計画については、このトピックを参照してください。'
+ms.openlocfilehash: e5c058f614ca7201815cb623d45fd28c18520b85
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885512"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277329"
 ---
-# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、ダイヤルイン会議の計画
+# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でのダイヤルイン会議の計画
  
-**の概要:** ビジネス サーバーの Skype では、ダイヤルイン会議の計画の詳細については、このトピックを参照してください。
+**概要:** このトピックでは、Skype for Business Server でのダイヤルイン会議の計画について説明します。
   
-ダイヤルイン会議は、Skype の電話から会議にダイヤルインして、会議のオーディオ部分に参加する会議の出席者が可能なビジネス サーバーのオプション機能です。 ダイヤルイン会議は音声会議のサブセットであり、追加構成が必要です。 ここでは、組織のダイヤルイン会議を展開する前の考慮事項について説明します。 
+ダイヤルイン会議は、会議出席者が電話から会議に参加することによって会議の音声部分に参加できるようにする、Skype for Business Server のオプションの機能です。 ダイヤルイン会議は音声会議のサブセットであり、追加構成が必要です。 ここでは、組織のダイヤルイン会議を展開する前の考慮事項について説明します。 
   
-ダイヤルイン会議に必要なコンポーネントのいくつかは、ダイヤルイン会議に固有およびエンタープライズ VoIP のコンポーネントは、いくつか。 ダイヤルイン会議では、エンタープライズ VoIP で使用するのと同じコンポーネントをいくつか使用しますが、エンタープライズ VoIP を展開しない場合でも、ダイヤルイン会議を展開できます。 ここでは、ダイヤルイン会議に必要なコンポーネントについて説明します。 完全なエンタープライズ VoIP ソリューションの計画に関する詳細については、 [Skype のビジネス サーバーでエンタープライズ VoIP ソリューションを計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)を参照してください。
+ダイヤルイン会議に必要なコンポーネントの一部は、ダイヤルイン会議に固有のものであり、一部はエンタープライズボイスコンポーネントです。 ダイヤルイン会議では、エンタープライズ VoIP で使用するのと同じコンポーネントをいくつか使用しますが、エンタープライズ VoIP を展開しない場合でも、ダイヤルイン会議を展開できます。 ここでは、ダイヤルイン会議に必要なコンポーネントについて説明します。 完全なエンタープライズ Voip ソリューションの計画について詳しくは、「 [Skype For Business Server でのエンタープライズ voip ソリューションの計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)」をご覧ください。
   
 ダイヤルイン会議では、仲介サーバーを展開して公衆交換電話網 (PSTN) への接続を提供する必要があります。 組織でダイヤルイン会議を実現するには、仲介サーバーの展開に加えて、以下のことを考慮する必要があります。
   
@@ -38,7 +38,7 @@ ms.locfileid: "33885512"
 - エンタープライズ ユーザーと匿名ユーザーのサポート
     
 > [!NOTE]
-> ダイヤルイン会議を展開する場合は、ビジネス サーバーの会議のための Skype を展開するすべてのプールに配置する必要があります。 プールごとにアクセス番号 (会議に参加するために参加者が発信する番号) を割り当てる必要はありませんが、プールごとにダイヤルイン機能を展開する必要があります。 この要件は、ユーザーが別のプールにサーバーのビジネス会議に、Skype を結合する 1 つのプールからアクセス番号を呼び出すときに、記録された名前の機能をサポートしています。 
+> ダイヤルイン会議を展開する場合は、Skype for Business Server 会議を展開するすべてのプールに展開する必要があります。 プールごとにアクセス番号 (会議に参加するために参加者が発信する番号) を割り当てる必要はありませんが、プールごとにダイヤルイン機能を展開する必要があります。 この要件は、ユーザーが1つのプールのアクセス番号を呼び出して、別のプールで Skype for Business Server 会議に参加したときに記録された名前の機能をサポートします。 
   
 ## <a name="plan-for-pstn-connectivity"></a>PSTN 接続の計画
 
@@ -48,7 +48,7 @@ ms.locfileid: "33885512"
   
 PSTN ゲートウェイは、中央サイトまたはブランチ サイトに展開できます。ブランチ サイトでは、PSTN ゲートウェイは、スタンドアロンの場合と存続可能ブランチ アプライアンスのコンポーネントの場合があります。
   
-仲介サーバーと PSTN ゲートウェイの要件に関する詳細については、「 [Skype ビジネス サーバー用の仲介サーバー コンポーネント](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)、 [Skype のビジネス サーバーで、トポロジ ビルダーでの仲介サーバーの展開](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)、および[を定義するトポロジでは、ゲートウェイの使用」を参照していますください。ビルダー ビジネス サーバーの Skype で](../../deploy/deploy-enterprise-voice/define-a-gateway.md)。
+仲介サーバーと PSTN ゲートウェイの要件について詳しくは、「 [skype For Business server の仲介サーバーコンポーネント](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)」、「 [Skype for Business Server のトポロジビルダーへの仲介サーバーの展開](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)」、「[トポロジでのゲートウェイの定義」をご覧ください。Skype for Business Server のビルダー](../../deploy/deploy-enterprise-voice/define-a-gateway.md)。
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>ダイヤル プラン、アクセス番号、および会議の地域を計画する
 
@@ -76,19 +76,19 @@ PSTN ゲートウェイは、中央サイトまたはブランチ サイトに�
     
 - 既定では、その地域のすべてのダイヤルイン アクセス番号が会議出席依頼に含まれます。
     
-- ことが重要領域の名前は明確に認識できるようにします。 ユーザーは、招待状に別のアクセス番号が表示されるように会議の領域を変更するのには、領域の名前を使用できます。 (ユーザーは、会議をスケジュールするのには Outlook を使用しているときにユーザーを使用してオンライン ミーティング アドインのビジネス用の Skype の地域を変更する)。
+- 明確に認識できるように、地域に名前を指定することが重要です。 ユーザーは、地域の名前を使用して会議の地域を変更し、出席依頼に異なるアクセス番号が含まれるようにすることができます。 (ユーザーが Outlook を使用して会議をスケジュールする場合、ユーザーは Skype for Business 用のオンライン会議アドインを使用して地域を変更します)。
     
 - 会議にダイヤルインする招待されたユーザーが会議出席依頼で地域のアクセス番号を確認できるよう、地域を設計する必要があります。
     
-- Skype ビジネス サーバー管理シェル コマンドレットを使用して、[ダイヤルイン会議の設定] ページで、アクセスの領域内で数値が表示される順序 (およびそのため、会議の招待状に表示される順序) を構成できます。
+- Skype for Business Server 管理シェルコマンドレットを使用して、[ダイヤルイン会議の設定] ページ (その場合は、会議出席依頼に表示される順序) に、地域内のアクセス番号が表示される順序を構成することができます。
     
 - すべての場所のすべてのユーザーが、任意のダイヤルイン アクセス番号を発信して会議に参加できます。
     
-ダイヤル プランを作成する方法の詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)と[を作成するまたはビジネス用の Skype の正規化ルールを変更する](../../deploy/deploy-enterprise-voice/normalization-rules.md)です。 
+ダイヤルプランの作成の詳細については、「 [skype For Business Server でダイヤルプランを作成または変更](../../deploy/deploy-enterprise-voice/dial-plans.md)する」と「 [skype for business で正規化ルールを作成または変更](../../deploy/deploy-enterprise-voice/normalization-rules.md)する」を参照してください。 
   
 ## <a name="plan-for-conference-directories"></a>会議ディレクトリを計画する
 
-会議ディレクトリは、ビジネス用の Skype を使用する場合、会議に参加する参加者が使用する英数字のミーティング ID と、ダイヤルイン会議の参加者が会議に参加するのには使用する数値のみの会議 ID 間のマッピングを維持します。 電話会議 ID の形式は次のとおりです。
+会議ディレクトリは、Skype for Business を使用しているときに参加者が会議に参加するために使用する英数字の会議 ID と、ダイヤルイン会議の参加者が会議に参加するために使用する電話番号のみの会議 id の間のマッピングを維持します。 電話会議 ID の形式は次のとおりです。
   
 ```
 <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
@@ -98,7 +98,7 @@ PSTN ゲートウェイは、中央サイトまたはブランチ サイトに�
   
 ## <a name="plan-for-a-conferencing-policy-that-allows-dial-in-access"></a>ダイヤルイン アクセスを許可する会議ポリシーを計画する
 
-会議ポリシーを構成するとき、ダイヤルインのアクセスの会議を有効にする必要があります。 既定では、会議でダイヤルイン アクセスが有効になっている場合は、会議の招待通知に次の情報が記載されます。
+会議ポリシーを構成するときは、ダイヤルインアクセスのために会議を有効にする必要があります。 既定では、会議でダイヤルイン アクセスが有効になっている場合は、会議の招待通知に次の情報が記載されます。
   
 - 会議を識別する、数字の電話会議 ID
     
@@ -106,16 +106,16 @@ PSTN ゲートウェイは、中央サイトまたはブランチ サイトに�
     
 - ダイヤルイン会議の設定ページへのリンク。このページには、アクセス番号とそれに関連付けられた言語の完全な一覧、暗証番号 (PIN) の作成、リセット、または解除する場所、およびデュアルトーン多重周波数 (DTMF) 制御などのその他の情報が含まれます。
     
-会議ポリシーの詳細については、 [Skype のビジネス サーバーにダイヤルイン会議を構成](../../deploy/deploy-conferencing/dial-in-conferencing.md)し、[ビジネス サーバーの Skype 会議ポリシーの管理](../../manage/conferencing/conferencing-policies.md)を参照してください。  
+会議ポリシーの詳細については、「skype for business [server でダイヤルイン会議を設定する](../../deploy/deploy-conferencing/dial-in-conferencing.md)」および「 [Skype for business server の会議ポリシーを管理](../../manage/conferencing/conferencing-policies.md)する」を参照してください。  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>エンタープライズ ユーザーと匿名ユーザーのサポート
 
-ダイヤルイン会議は、エンタープライズ ユーザーと匿名ユーザーの両方をサポートします。 エンタープライズ ユーザー、組織内のビジネスのサーバー アカウントを Active Directory ドメイン サービスの資格情報と Skype があります。 匿名ユーザーは、組織内のエンタープライズ資格情報を持っていません。 ダイヤルイン会議では、PSTN を使用して会議に接続するユーザー、フェデレーション パートナーの組織内のユーザーは、匿名ユーザーと同様に扱われます。 ダイヤルイン会議では、他の状況とは異なり、フェデレーション ユーザーは認証されません。
+ダイヤルイン会議は、エンタープライズ ユーザーと匿名ユーザーの両方をサポートします。 エンタープライズユーザーは、組織内で Active Directory ドメインサービスの資格情報と Skype for Business Server アカウントを持っています。 匿名ユーザーは、組織内のエンタープライズ資格情報を持っていません。 ダイヤルイン会議のコンテキストでは、PSTN を使って会議に接続しているフェデレーションパートナーの組織内のユーザーは、匿名ユーザーとして扱われます。 ダイヤルイン会議では、他の状況とは異なり、フェデレーション ユーザーは認証されません。
   
 ダイヤルイン アクセスが有効な会議に参加するエンタープライズ ユーザーまたは会議主催者は、電話会議のアクセス番号の 1 つをダイヤルすると、電話会議 ID を入力するよう求められます。会議主催者が会議にまだ参加していない場合、ユーザーは、統合コミュニケーション (UC) 内線番号 (または完全な電話番号) と PIN を入力するか、会議主催者によって許可されるまで待機できます。会議の開催者は、PIN を入力するだけで、主催者として会議に参加できます。フロントエンド サーバーでは、完全な電話番号または内線番号と PIN の組み合わせを使用して、エンタープライズ ユーザーを Active Directory の資格情報に一意にマップします。これによって、エンタープライズ ユーザーは認証を受けて、電話会議では名前で識別されます。また、エンタープライズ ユーザーは、開催者が事前に定義した電話会議の役割を引き受けることもできます。
   
 > [!NOTE]
-> 認証済みであるため、電話番号をダイヤルしているオフィスの IP 電話や Skype からビジネス サーバー応答のエンタープライズ ユーザーは求められません。 
+> Office IP 電話または Skype for Business Server アテンダントからダイヤルインしているエンタープライズユーザーは、既に認証されているため、電話番号を入力するように求められることはありません。 
   
 ダイヤルイン電話会議に参加する必要がある匿名ユーザーは、電話会議のアクセス番号の 1 つをダイヤルすると、電話会議 ID を入力するよう求められます。認証されていない匿名ユーザーは、名前を録音するようにも求められます。会議に出席中の認証されていないユーザーは、この録音された名前によって識別されます。 少なくとも 1 人の主催者または認証済みのユーザーが参加するまで、匿名ユーザーは会議への参加が許可されません。また、匿名ユーザーには事前に定義された役割は割り当てられません。
   

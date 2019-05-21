@@ -1,10 +1,10 @@
 ---
-title: 作成または Skype のビジネス サーバーの呼び出し元の ID をプレゼンテーションの変換ルールを変更します。
+title: Skype for Business Server で発信者 ID のプレゼンテーションの翻訳ルールを作成または変更する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
-description: '概要: ビジネス サーバーのコントロール パネルの Skype を使用して、呼び出し元の ID を構成する方法を説明します。'
-ms.openlocfilehash: f8b870e855ee002b002cbe28756a95269559cea6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server コントロールパネルを使用して発信者番号認識を構成する方法について説明します。'
+ms.openlocfilehash: a305d420171fa10253f387e1fcbcfa2a50d72753
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893106"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284656"
 ---
-# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>作成または Skype のビジネス サーバーの呼び出し元の ID をプレゼンテーションの変換ルールを変更します。
+# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Skype for Business Server で発信者 ID のプレゼンテーションの翻訳ルールを作成または変更する
 
-**の概要:** ビジネス サーバーのコントロール パネルの Skype を使用して、呼び出し元の ID を構成する方法について説明します。
+**概要:** Skype for Business Server コントロールパネルを使用して発信者番号認識を構成する方法について説明します。
 
-ビジネス サーバー、呼び出し先の電話番号を Skype で (つまり、電話番号と呼ばれる) (つまり、関連付けられているゲートウェイ、構内交換 (_トランク ピア_で必要とされるローカルのダイヤル形式に E.164 形式から変換することができますPBX)、または SIP トランク)。 これを行うためには、トランク ピアへのルーティングの前に要求 URI を変換する変換ルールを 1 つ以上定義する必要があります。
+Skype for Business Server では、発信元の電話番号 (電話番号) を、_トランクのピア_によって要求されるローカルのダイヤル形式 (つまり、関連付けられているゲートウェイ、プライベート支店の exchange) に翻訳できます (PBX)、または SIP トランク)。 これを行うためには、トランク ピアへのルーティングの前に要求 URI を変換する変換ルールを 1 つ以上定義する必要があります。
 
-Skype ビジネス サーバーのもこともできますも呼び出し元の関係者の電話番号 (つまりからの呼び出し元の呼び出しは、電話番号) を翻訳する E.164 形式からトランク ピアで必要とされるローカルのダイヤル形式にします。 たとえば、ダイヤル文字列の冒頭から +44 を取り除いて 0114 に置き換える変換ルールを記述できます。
+Skype for Business Server では、発信者の電話番号 (つまり、発信者が発信した電話番号) を、樹幹形式から、トランクピアが必要とする地域のダイヤル形式に翻訳するオプションも提供されます。 たとえば、ダイヤル文字列の冒頭から +44 を取り除いて 0114 に置き換える変換ルールを記述できます。
 
-### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、呼び出し元の ID を構成するのには
+### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用して発信者番号認識を構成するには
 
-1. Skype をビジネス サーバーのコントロール パネルを開きます。
+1. Skype for Business Server コントロールパネルを開きます。
 
 2. 左側のナビゲーション バーで [**音声ルーティング**] をクリックし、[**トランク構成**] をクリックします。
 
@@ -39,9 +39,9 @@ Skype ビジネス サーバーのもこともできますも呼び出し元の�
 
 4. 発信者番号のプレゼンテーションを構成するには、次のようにします。
 
-   - エンタープライズ VoIP 展開で利用可能なすべての変換ルールの一覧から 1 つまたは複数のルールを選択するのには [**選択**] をクリックします。 [**発信者番号の変換ルール**] で、トランクに関連付けるルールをクリックし、[**OK**] をクリックします。
+   - エンタープライズ Voip 展開で利用できるすべての翻訳ルールの一覧から1つ以上のルールを選択するには、[**選択**] をクリックします。 [**発信者番号の変換ルール**] で、トランクに関連付けるルールをクリックし、[**OK**] をクリックします。
 
-   - 新しい変換ルールを定義してトランクに関連付ける場合は、[**新規**] をクリックします。 新しいルールを定義する方法については、展開に関するドキュメントの[変換ルールの定義](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)を参照してください。
+   - 新しい変換ルールを定義してトランクに関連付ける場合は、[**新規**] をクリックします。 新しいルールの定義の詳細については、「展開ドキュメントで[翻訳ルールを定義](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)する」を参照してください。
 
    - 既にトランクに関連付けられている変換ルールを編集するには、ルールの名前をクリックして、[**詳細の表示**] をクリックします。詳細については、「展開」のドキュメントの「  [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)」を参照してください。
 

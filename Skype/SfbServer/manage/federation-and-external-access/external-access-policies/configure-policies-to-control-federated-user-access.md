@@ -8,66 +8,66 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'フェデレーション パートナーとの通信をサポートするためにポリシーを構成する場合は、フェデレーション ドメインのユーザーに、ポリシーが適用されます。 '
-ms.openlocfilehash: 81eced8db10c9ffd017b5b79a54980b773b300bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'フェデレーションパートナーとの通信をサポートするようにポリシーを構成すると、フェデレーションドメインのユーザーにポリシーが適用されます。 '
+ms.openlocfilehash: 00552dfd6e2cb92d1bd50cb851bfb8324122c5ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920659"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280167"
 ---
-# <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>ビジネス サーバーの Skype でフェデレーション ユーザー アクセスを制御するポリシーを構成します。
+# <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Skype for Business Server でフェデレーションされたユーザーアクセスを制御するためのポリシーを構成する
 
-フェデレーション パートナーとの通信をサポートするためにポリシーを構成する場合は、フェデレーション ドメインのユーザーに、ポリシーが適用されます。 フェデレーション ドメインのユーザーがビジネス サーバーのユーザーは、Skype で共同作業を行うかどうかは、コントロールに 1 つまたは複数の外部ユーザー アクセス ポリシーを構成できます。 フェデレーション ユーザー アクセスを制御するには、グローバル ポリシー、サイト、およびユーザー レベルを構成できます。 Skype ビジネスのサーバーのポリシー設定が 1 つのポリシー レベルで適用されるは、別のポリシー レベルで適用される設定をオーバーライドできます。 ビジネス サーバー ポリシーの優先順位の Skype が: ユーザー ポリシー (ほとんどの影響) がサイト ポリシーを上書きし、[サイト ポリシーはグローバル ポリシー (最低限の影響) をよりも優先されます。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
+フェデレーションパートナーとの通信をサポートするようにポリシーを構成すると、フェデレーションドメインのユーザーにポリシーが適用されます。 フェデレーションドメインのユーザーが Skype for Business Server ユーザーと共同作業できるかどうかを制御するために、1つ以上の外部ユーザーアクセスポリシーを構成することができます。 フェデレーションされたユーザーアクセスを制御するには、グローバル、サイト、ユーザーレベルでポリシーを構成できます。 1つのポリシーレベルで適用される Skype for Business Server のポリシー設定は、別のポリシーレベルで適用されている設定を上書きすることができます。 Skype for Business Server のポリシーの優先順位: ユーザーポリシー (ほとんどの影響) でサイトポリシーが上書きされ、サイトポリシーがグローバルポリシーを上書きします (最も影響が少なくなります)。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
 
 
 > [!NOTE]  
-> 組織のフェデレーションが有効にしない場合でも、フェデレーション ユーザー アクセスを制御するポリシーを構成できます。 ただし、構成したポリシーは、フェデレーションの組織に対して有効である場合にのみ有効です。 フェデレーションを有効にする方法の詳細[を有効にするかリモート ユーザー アクセスを無効にする](../access-edge/enable-or-disable-remote-user-access.md)を参照してください。  さらに、フェデレーション ユーザー アクセスを制御するユーザー ポリシーを指定する場合は、Skype のビジネス サーバー有効になって、ポリシーを使用するように構成されているユーザーにのみ、ポリシーが適用されます。
+> 組織でフェデレーションを有効にしていない場合でも、フェデレーションされたユーザーアクセスを制御するためのポリシーを構成できます。 ただし、構成したポリシーは、組織でフェデレーションが有効になっている場合にのみ有効になります。 フェデレーションを有効にする方法について詳しくは、「[リモートユーザーアクセスを有効または無効](../access-edge/enable-or-disable-remote-user-access.md)にする」をご覧ください。  また、フェデレーションされたユーザーアクセスを制御するユーザーポリシーを指定した場合、このポリシーは、Skype for Business Server が有効になっていて、ポリシーを使用するように構成されているユーザーにのみ適用されます。
 
 
-## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>フェデレーション ドメインのユーザーによるアクセスをサポートするためにポリシーを構成するには
+## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>フェデレーションドメインのユーザーによるアクセスをサポートするようにポリシーを構成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。
 
-3.  左側のナビゲーション ・ バーでは、**外部ユーザー アクセス**をクリックし、**外部アクセス ポリシー**] をクリックします。
+3.  左側のナビゲーションバーで、[**外部ユーザーアクセス**] をクリックし、[**外部アクセスポリシー**] をクリックします。
 
-4.  [**外部アクセス ポリシー** ] ページで、次のいずれかの操作を行います。
+4.  [**外部アクセスポリシー** ] ページで、次のいずれかの操作を行います。
     
-      - フェデレーション ユーザー アクセスをサポートするグローバル ポリシーを構成するには、グローバル ポリシーをクリックして**編集**を**の詳細を表示**] をクリックします。
+      - フェデレーションされたユーザーアクセスをサポートするようにグローバルポリシーを構成するには、グローバルポリシーをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
     
-      - 新しいサイト ポリシーを作成、[**新規**作成] をクリックし、[**サイト ポリシー**] をクリックします。 ] で**サイトを選択して**、リストから適切なサイトをし、[ **OK**] をクリックします。
+      - 新しいサイトポリシーを作成するには、[**新規**作成] をクリックし、[**サイトポリシー**] をクリックします。 [**サイトの選択**] で、一覧から該当するサイトをクリックし、[ **OK]** をクリックします。
     
-      - 新しいユーザー ポリシーを作成するには、[**新規**作成] をクリックし、[**ユーザー ポリシー**] をクリックします。 **新しい外部アクセス ポリシー**では、どのユーザー ポリシーは (たとえば、フェデレーション ドメインのユーザーの通信を有効にするユーザー ポリシーの**EnableFederatedUsers** ) を示す [**名**] フィールドに一意の名前を作成します。
+      - 新しいユーザーポリシーを作成するには、[**新規**作成] をクリックし、[**ユーザーポリシー**] をクリックします。 [**新しい外部アクセスポリシー**] で、[**名前**] フィールドに、ユーザーポリシーがどのようなものであるかを示す一意の名前を作成します (たとえば、フェデレーションされたドメインユーザーの通信を有効にするユーザーポリシーの**EnableFederatedUsers** )。
     
-      - 既存のポリシーを変更するには、表に記載されている適切なポリシー] をクリック**を編集**するには、**の詳細を表示**] をクリックします。
+      - 既存のポリシーを変更するには、表に記載されている適切なポリシーをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-5.  (省略可能)追加または説明を編集する場合は、 **[説明**] にポリシーの情報を指定します。
+5.  省略説明を追加または編集する場合は、ポリシーの情報を [**説明**] で指定します。
 
 6.  次のいずれかの操作を行います。
     
-      - ポリシーのフェデレーション ユーザー アクセスを有効にするには、**フェデレーション ユーザーとの通信を有効にする**] チェック ボックスを選択します。
+      - ポリシーのフェデレーションされたユーザーアクセスを有効にするには、[**フェデレーションユーザーとの通信を有効**にする] チェックボックスをオンにします。
     
-      - ポリシーのフェデレーション ユーザー アクセスを無効にするには、**フェデレーション ユーザーとの通信を有効にする**] チェック ボックスをオフにします。
+      - ポリシーのフェデレーションされたユーザーアクセスを無効にするには、[フェデレーションされ**たユーザーとの通信を有効**にする] チェックボックスをオフにします。
 
 7.  [**コミット**] をクリックします。
 
-フェデレーション ユーザー アクセスを有効にするには、また組織でフェデレーションのサポートを有効にする必要があります。 詳細については、[有効にするかフェデレーションとパブリック IM 接続を無効にする](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)を参照してください。
+フェデレーションされたユーザーアクセスを有効にするには、組織のフェデレーションのサポートも有効にする必要があります。 詳細について[は、「フェデレーションとパブリック IM 接続を有効または無効](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)にする」を参照してください。
 
-ユーザー ポリシーの場合は、フェデレーション ユーザーと共同作業を行うことができるようにするユーザーにポリシーを適用する必要がありますもします。 詳細については、[外部ユーザー アクセス ポリシーを割り当てる](assign-an-external-user-access-policy.md)を参照してください。
+ユーザーポリシーの場合は、フェデレーションされたユーザーと共同作業できるようにするユーザーにもポリシーを適用する必要があります。 詳細については、「[外部ユーザーアクセスポリシーを割り当てる](assign-an-external-user-access-policy.md)」を参照してください。
 
-## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Windows PowerShell を使用して、フェデレーション ドメインのユーザーによるアクセスをサポートする既存のポリシーを構成するのには
+## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Windows PowerShell を使用して既存のポリシーを構成し、フェデレーションドメインのユーザーによるアクセスをサポートするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ビジネス用サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、 **Skype**ビジネス サーバーをクリック**ビジネス サーバー管理シェルの Skype**です。
+2.  Skype for Busines Server Management Shell を起動します。 [**スタート**]、[**すべてのプログラム**] の順にクリックし、[ **skype for business server**] をクリックして、[ **skype for business server 管理シェル**] をクリックします。
 
-3.  ビジネス サーバー管理シェルには、Skype で次を入力します。
+3.  Skype for Business Server 管理シェルで次のように入力します。
     
     ```
     Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
@@ -75,45 +75,45 @@ ms.locfileid: "33920659"
        
 
     > [!TIP]  
-    > "EnablePublicCloudAudioVideoAccess"のパラメーターが対応する選択、Skype のビジネス サーバーのコントロール パネルの
+    > Skype for Business Server コントロールパネルで、"EnablePublicCloudAudioVideoAccess" のパラメーターに対応する項目が選択されていません
 
 
-## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Windows PowerShell を使用して、フェデレーション ドメインのユーザーによるアクセスをサポートする新しいポリシーを作成するには
+## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>フェデレーションドメインのユーザーによるアクセスをサポートするために、Windows PowerShell を使用して新しいポリシーを作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、**ビジネスのサーバーの Microsoft の Skype**をクリック**ビジネス サーバー管理シェルの Skype**です。
+2.  Skype for Business Server 管理シェルを開始します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft skype for Business server**]、[ **skype for business server 管理シェル**] の順にクリックします。
 
-3.  ビジネス サーバー管理シェルには、Skype で次を入力します。
+3.  Skype for Business Server 管理シェルで次のように入力します。
     
     ```
     New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     ```
     
-    新しいサイト ポリシーを作成する例です。
+    新しいサイトポリシーを作成する例:
     
     ```
     New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     ```
 
 
-## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>削除するか、フェデレーション ドメインのユーザーによるアクセスをサポートするために Windows PowerShell を使用してポリシーをリセットするには
+## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>フェデレーションドメインのユーザーによるアクセスをサポートするために Windows PowerShell を使用してポリシーを削除またはリセットするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ビジネス サーバー管理シェルには、Skype で以下を入力します。
+2.  Skype for Business Server 管理シェルで次のように入力します。
     
     `Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy>`
     
-    (グローバル ポリシーだけが削除の設定グローバル ポリシーをリセットする際の例します。 ポリシーは削除できません)。
+    グローバルポリシーをリセットする例です (グローバルポリシーではその設定のみを削除できます)。 ポリシーは削除できません):
     
     `Remove-CsExternalAccessPolicy -Identity global`
     
-    サイト ポリシーを削除するには、次のように入力します。
+    サイトポリシーを削除するには、次のように入力します。
     
     `Remove-CsExternalAccessPolicy -Identity site:Redmond` 
     
-    レドモンド サイトのポリシーを削除します。 UserEAPPolicy をという名前のユーザー ポリシーを削除するのには次のように入力します。
+    サイトポリシーレドモンドを削除します。 UserEAPPolicy という名前のユーザーポリシーを削除するには、次のように入力します。
     
     `Remove-CsExternalAccessPolicy -Identity UserEAPPolicy`
 
@@ -131,8 +131,8 @@ ms.locfileid: "33920659"
 
 [Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
 [New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
-[Get CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
 [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
-[許可 CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)  
   
 

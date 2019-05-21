@@ -1,10 +1,10 @@
 ---
-title: ビジネス サーバーの Skype のネットワーク interregional のルートを作成します。
+title: Skype for Business Server でネットワーク間のネットワーク間ルートを作成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: 作成または、Skype でのエンタープライズ VoIP 通話受付制御ビジネスのサーバーの使用は、ネットワーク interregional ルートを変更します。
-ms.openlocfilehash: b12f2f7d413be0031fd914157af4e9541095fd7f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server のエンタープライズボイス通話受付制御によって使用されるネットワーク間の地域ルートを作成または変更します。
+ms.openlocfilehash: aec289143e2b6dd54e2b52cfc231239fe5d73b7a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892973"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286370"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>ビジネス サーバーの Skype のネットワーク interregional のルートを作成します。
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Skype for Business Server でネットワーク間のネットワーク間ルートを作成する
  
-作成または、Skype でのエンタープライズ VoIP 通話受付制御ビジネスのサーバーの使用は、ネットワーク interregional ルートを変更します。 
+Skype for Business Server のエンタープライズボイス通話受付制御によって使用されるネットワーク間の地域ルートを作成または変更します。 
   
 ネットワーク地域間ルートでは、ネットワーク地域のペア間のルートを定義します。 通話受付管理展開のネットワーク地域の各ペアには、ネットワーク地域間ルートが必要です。 これにより、展開内の各ネットワーク地域が他のすべての地域にアクセスできるようになります。
   
@@ -31,7 +31,7 @@ ms.locfileid: "33892973"
   
 トポロジの例では、北アメリカ/EMEA、EMEA/APAC、および北アメリカ/APAC の 3 つの各地域ペアにネットワーク地域間ルートを定義する必要があります。 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>ビジネス サーバー管理シェルの Skype を使用して、interregional のルートのネットワークを作成するには
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワーク間の地域ルートを作成するには
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
@@ -52,9 +52,9 @@ ms.locfileid: "33892973"
     > [!NOTE]
     > 北アメリカ/APAC 間には直接のネットワーク地域リンクがないため、このネットワーク地域間ルートには 2 つのネットワーク地域リンクが必要です。 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、interregional のルートのネットワークを作成するには
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用してネットワーク間の地域ルートを作成するには
 
-1. Skype をビジネス サーバーのコントロール パネルを開きます。
+1. Skype for Business Server コントロールパネルを開きます。
     
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
     
@@ -79,10 +79,10 @@ ms.locfileid: "33892973"
     
 ## <a name="see-also"></a>関連項目
 
-[新しい-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
+[新しい (CsNetworkInterRegionRoute)](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
   
-[セット CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
+[設定-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
   
-[削除 CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)
+[CsNetworkInterRegionRoute の削除](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)

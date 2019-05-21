@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: 'Switch-CcVersion コマンドレットは、実行中のアプライアンスとスイッチの、新規に展開されたアプライアンスまたはバックアップ インスタンスへの接続を切断します。 '
-ms.openlocfilehash: 73ae9b4f93a2488dea29f3271565ac3d25759fd1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e63c5ea6d74e979f7fc9fe5a4c5eae97a0689e1e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872860"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286930"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
@@ -48,7 +48,7 @@ Switch-CcVersion -Force
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-スイッチ CcVersion コマンドレットでは、仲介サーバーとエッジ サーバーのコネクタのクラウド サービスがドレインされます。 すべての実行中の通話は終了しますが、新しい通話はアプライアンスによって拒否されます。 ドレイン後、コマンドレットにより企業ネットワークおよびインターネット ネットワークから実行中のアプライアンスが切断され、アプライアンスに属しているすべての仮想マシンがオフになり、企業ネットワークおよびインターネット ネットワークにバックアップ アプライアンスが接続されます。
+スイッチ-CcVersion コマンドレットは、仲介サーバーとエッジサーバー上のクラウドコネクタサービスを消費します。 すべての実行中の通話は終了しますが、新しい通話はアプライアンスによって拒否されます。 ドレイン後、コマンドレットにより企業ネットワークおよびインターネット ネットワークから実行中のアプライアンスが切断され、アプライアンスに属しているすべての仮想マシンがオフになり、企業ネットワークおよびインターネット ネットワークにバックアップ アプライアンスが接続されます。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>

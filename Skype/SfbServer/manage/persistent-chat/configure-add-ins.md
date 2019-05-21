@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
-description: '概要: は、Skype のビジネス サーバー 2015 の永続的なチャット サーバーのチャット ルームのアドインを構成する方法について説明します。'
-ms.openlocfilehash: 146f05b181998f995b6e15b0717034a55f518d7f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server 2015 で常設チャットサーバーチャットルーム用のアドインを構成する方法について説明します。'
+ms.openlocfilehash: 08e71ab989734572d9d44f0bdb42c01511e47f4c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910257"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279327"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット ルームのアドインの構成
  
-**の概要:** ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのチャット ルームのアドインを構成する方法について説明します。
+**概要:** Skype for Business Server 2015 の常設チャットサーバーチャットルーム用のアドインを構成する方法について説明します。
   
-アドインは、URL をチャット ルームと関連付けることでルーム内でのエクスペリエンスを拡張するために使用されます。 これらの URL は、クライアントの会話拡張機能ウィンドウに表示されます。 一般的なアドインでは、株価情報は、チャット ルームがポストされ、拡張機能のウィンドウで株価履歴を表示しますを傍受した Silverlight アプリケーションを指す URL をなどがあります。 チャット ルームに OneNote 2013 の URL をアドインとして埋め込んで、"優先事項" や "今日のトピック" などの共有コンテキストを組み込むこともできます。
+アドインは、URL をチャット ルームと関連付けることでルーム内でのエクスペリエンスを拡張するために使用されます。 これらの URL は、クライアントの会話拡張機能ウィンドウに表示されます。 一般的なアドインには、株式のティッカーがチャットルームに投稿されたときに受信する Silverlight アプリケーションを指す URL が含まれている場合があります。また、拡張機能ウィンドウには、株式履歴が表示されます。 チャット ルームに OneNote 2013 の URL をアドインとして埋め込んで、"優先事項" や "今日のトピック" などの共有コンテキストを組み込むこともできます。
   
  クライアントでアドインを確認できるようにするには、そのアドインを登録済みアドインのリストに追加する必要があります。さらに、チャット ルームのマネージャーまたは作成者がルームとアドインを関連付ける必要があります。
   
 > [!NOTE]
-> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>コントロール パネルを使用してチャット ルームのアドインを構成する
 
@@ -35,15 +35,15 @@ ms.locfileid: "33910257"
   
 1. CsPersistentChatAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. **[スタート**] メニューから、Skype ビジネス サーバーのコントロール パネルのまたはブラウザー ウィンドウを開きし、管理 URL を入力します。
+2. [**スタート**] メニューで、[Skype For business Server] コントロールパネルを選択するか、ブラウザーウィンドウを開き、管理 URL を入力します。
     
 3. 左側のナビゲーション バーで [**常設チャット**] をクリックして、[**アドイン**] をクリックします。
     
-    複数の永続的なチャット サーバー プールの展開には、ドロップ ダウン リストから適切なプールを選択します。
+    複数の常設チャットサーバープールの展開の場合、ドロップダウンリストから適切なプールを選択します。
     
 4. [**アドイン**] ページで、[**新規**] をクリックします。
     
-5. [**サービスの選択**] では、アドインを作成する必要がある永続的なチャット サーバー プールに対応するサービスを選択します。 アドインは、プール間で移動したり、異なるプール間で共有したりできません。
+5. [**サービスの選択**] で、アドインを作成する必要がある常設チャットサーバープールに対応するサービスを選びます。 アドインは、プール間で移動したり、異なるプール間で共有したりできません。
     
 6. [**新しいアドイン**] で、次の操作を実行します。
     
@@ -67,9 +67,9 @@ ms.locfileid: "33910257"
    
 ### <a name="create-a-new-add-in"></a>新しいアドインを作成する
 
-**新規 CsPersistentChatAddin**コマンドレットを使用して、新しいアドインを作成できます。
+新しいアドインを作成するには、 **CsPersistentChatAddin**コマンドレットを使用します。
   
-など、新しいアドイン (ITPersistentChatAddin 名) に、プール atl の cs-001.contoso.com の次のコマンドを作成します。 URL パラメーターとパラメーター値http://atl-cs-001.contoso.com/itchatアドインの web ページの場所を指定します。
+たとえば、次のコマンドは、プール atl-cs-001.contoso.com の新しいアドイン (name ITPersistentChatAddin) を作成します。 URL パラメーターとパラメーター値http://atl-cs-001.contoso.com/itchatは、アドインの web ページの場所を指定します。
   
 ```
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -77,7 +77,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>既存のアドインの設定を構成する
 
-**Set-CsPersistentChatAddIn** コマンドレットを使用すると、既存のアドインの設定を構成できます。 たとえば、以下のコマンドを実行すると、常設チャット アドイン ITPersistentChatAddin に割り当てられている URL が変更されます。 URL を変更するこの例では、http://atl-cs-001.contoso.com/itchat2:
+**Set-CsPersistentChatAddIn** コマンドレットを使用すると、既存のアドインの設定を構成できます。 たとえば、以下のコマンドを実行すると、常設チャット アドイン ITPersistentChatAddin に割り当てられている URL が変更されます。 この場合、URL は次のように変更されます。http://atl-cs-001.contoso.com/itchat2:
   
 ```
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -93,7 +93,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>アドインを削除する
 
-**削除 CsPersistentChatAddIn**コマンドレットを使用してアドインを削除できます。 たとえば、以下のコマンドを実行すると、atl-cs-001.contoso.com 上にある常設チャット アドイン ITChatAddin が削除されます。
+アドインを削除するには、 **CsPersistentChatAddIn**コマンドレットを使用します。 たとえば、以下のコマンドを実行すると、atl-cs-001.contoso.com 上にある常設チャット アドイン ITChatAddin が削除されます。
   
 ```
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

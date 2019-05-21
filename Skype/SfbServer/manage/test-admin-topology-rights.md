@@ -1,66 +1,66 @@
 ---
-title: Skype のビジネス サーバーのトポロジの管理者権限をテスト
+title: Skype for Business Server で管理者トポロジの権限をテストする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Skype のビジネス サーバーのトポロジの権限をテストする方法
-ms.openlocfilehash: 239c35eba451166f4e9fb5755535cf15999cdaea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server でトポロジの権限をテストする方法
+ms.openlocfilehash: d70809ba929c4f1934adce2bd3c60b261bd30d71
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910369"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279244"
 ---
-# <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Skype のビジネス サーバーのトポロジの管理者権限をテスト
+# <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Skype for Business Server で管理者トポロジの権限をテストする
 
 | | |
 |--|--|
-|検証スケジュール|後ビジネス サーバーの展開の初期の Skype です。 必要に応じてアクセス許可に関連する問題が発生した場合。|
-|テスト ツール|Windows PowerShell|
-|必要なアクセス許可|ビジネス サーバー管理シェルには、Skype を使用してローカルで実行するとユーザーは RTCUniversalServerAdmins のセキュリティ グループのメンバーである必要があります。<br/><br/>実行すると、Windows PowerShell のリモート インスタンスを使用してユーザーがテスト CsSetupPermission コマンドレットを実行する権限を持っている RBAC の役割を割り当てられる必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。<br/><br/>Get CsAdminRole \| Where-object {$_ です。コマンドレットの「テスト CsSetupPermission」に一致。|
+|確認のスケジュール|初めての Skype for Business Server の展開後。 必要に応じて、アクセス許可に関連する問題が発生します。|
+|テストツール|Windows PowerShell|
+|必要なアクセス許可|Skype for Business Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。<br/><br/>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、CsSetupPermission コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。<br/><br/>を\|取得します。-オブジェクト {$ _コマンドレット-match "Test-CsSetupPermission"}|
 |||
 
 ## <a name="description"></a>説明
 
-既定では、ドメイン管理者のみが、Skype ビジネス サーバー トポロジを有効にしてビジネスのサーバー インフラストラクチャの Skype に大きな変更を加えます。 問題として、ドメイン管理者およびビジネスのサーバー管理者のため、Skype では、1 つ必要はありません。 多くの組織でビジネスのサーバー管理者のための Skype は、ドメイン全体に対する管理者権限を保持しないでください。 既定では、(RTCUniversalServerAdmins グループのメンバーとして定義されている)、これらの管理者がビジネスのサーバー トポロジの変更の Skype をすることはできないことを意味します。 RTCUniversalServerAdmins グループ トポロジを変更する権限のメンバーを与えるには、 [Grant CsSetupPermission](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission)コマンドレットを使用して、必要な Active Directory のアクセス許可を割り当てる必要があります。
+既定では、ドメイン管理者のみが Skype for business Server のトポロジを有効にして、Skype for Business Server インフラストラクチャに大きな変更を加えることができます。 これは、ドメイン管理者と Skype for Business Server の管理者がどちらも同じである限り、問題になりません。 多くの組織では、Skype for Business Server の管理者は、ドメイン全体の管理権限を保持していません。 既定では、これらの管理者 (RTCUniversalServerAdmins グループのメンバーとして定義されます) は、Skype for Business Server のトポロジを変更できません。 トポロジを変更する権利を RTCUniversalServerAdmins グループのメンバーに付与するには、[グラント Setuppermission](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission)コマンドレットを使用して、必要な Active Directory アクセス許可を割り当てる必要があります。
  
-テスト CsSetupPermission コマンドレットは、指定した Active Directory コンテナーに必要な Business Server またはそのコンポーネントのいずれかの Skype をインストールするために必要なアクセス許可が構成されているを確認します。 アクセス許可が割り当てられていない場合は、RTCUniversalServerAdmins グループのメンバーにインストールし、ビジネスのサーバーで Skype を有効にする権限を付与する Grant CsSetupPermission コマンドレットを実行できます。
+テスト用のセットアップアクセス許可コマンドレットを使用して、Skype for Business Server またはそのコンポーネントのいずれかをインストールするために必要なアクセス許可が、指定した Active Directory コンテナーで構成されていることを確認します。 アクセス許可が割り当てられていない場合は、グラント Setuppermission コマンドレットを実行して、RTCUniversalServerAdmins グループのメンバーに Skype for Business Server をインストールして有効にする権利を与えることができます。
 
-## <a name="running-the-test"></a>テストを実行しています。
+## <a name="running-the-test"></a>テストの実行
 
-セットアップ アクセス許可が Active Directory コンテナーに割り当てられたかどうかを確認するのには、テスト CsSetupPermission コマンドレットを呼び出します。 チェックするコンテナーの識別名を指定します。 このコマンドがコンテナー ou のアクセス許可を設定を確認するたとえば、= CsServers、dc = litwareinc、dc = com。
+Active Directory コンテナーにセットアップのアクセス許可が割り当てられているかどうかを判断するには、CsSetupPermission コマンドレットを呼び出します。 確認するコンテナーの識別名を指定します。 たとえば、次のコマンドは、コンテナー ou = CsServers、dc = litwareinc、dc = com のセットアップアクセス許可を確認します。
 
 `Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"`
 
-詳細については、[テスト CsSetupPermission](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsSetupPermission)コマンドレットのヘルプ トピックを参照してください。
+詳細については、「 [CsSetupPermission のテスト](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsSetupPermission)」コマンドレットのヘルプトピックを参照してください。
 
-## <a name="determining-success-or-failure"></a>成功または失敗を決定します。
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-必要なアクセス許可が Active Directory コンテナーに設定されている既にテスト CsSetupPermission と判断した場合、コマンドレットは True 値を返します。
+Active Directory コンテナーで必要なアクセス許可が既に設定されていることを確認した場合、コマンドレットは値 True を返します。
 
 True 
 
-アクセス許可が設定されていない場合、テスト CsSetupPermission は値 False を返します。 この値が多くの警告メッセージで囲まれた通常は注意してください。 次に例を示します。
+権限が設定されていない場合は、CsSetupPermission は値 False を返します。 通常、この値は多くの警告メッセージで囲まれることに注意してください。 次に例を示します。
 
-警告: アクセス制御エントリ (ACE) atl の cs-001\RTCUniversalServerAdmins です。許可します。ExtendedRight。[なし] です。[なし] です。1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
+警告: アクセス制御エントリ (ACE) atl-cs-001\RTCUniversalServerAdmins許可ExtendedRight;--1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
-警告: アクセス制御エントリ (Ace) オブジェクトの"CN = Computers、DC = litwareinc、DC = com」準備ができていません。 
+警告: オブジェクト "CN = Computers, DC = litwareinc, DC = com" のアクセス制御エントリ (Ace) の準備ができていません。 
 
 False 
 
-警告: 警告「テスト CsSetupPermission」の処理が完了しました。 この実行中に「2」の警告が記録されています。 
+警告: "Test-CsSetupPermission" 処理は、警告と共に完了します。 この実行中に警告が記録されました。 
 
-警告:"C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html"の結果の詳細を参照しています。 
+警告: 詳細な結果は "C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html" に記載されています。 
 
-## <a name="reasons-why-the-test-might-have-failed"></a>なぜテストが失敗した理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
 
-テスト CsSetupPermission が失敗した場合に通常は、まれな例外がありますが、指定した Active Directory コンテナーにはアクセス許可を設定することを意味は割り当てられていません。 許可 CsSetupPermission コマンドレットを使用してこれらのアクセス許可を指定できます。 たとえば、このコマンドでは、ドメイン litwareinc.com のコンピューター コンテナーにセットアップの許可が付与されます。
+例外はまれにありますが、通常は、指定した Active Directory コンテナーに対するセットアップアクセス許可が割り当てられていないことを意味します。 これらのアクセス許可を割り当てるには、グラント Setuppermission コマンドレットを使用します。 たとえば、次のコマンドを実行すると、domain litwareinc.com の Computers コンテナーのセットアップ権限が付与されます。
 
 `Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"`
 
-詳細については、[テスト CsSetupPermission](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsSetupPermission)コマンドレットのヘルプ トピックを参照してください。
+詳細については、「 [CsSetupPermission のテスト](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsSetupPermission)」コマンドレットのヘルプトピックを参照してください。

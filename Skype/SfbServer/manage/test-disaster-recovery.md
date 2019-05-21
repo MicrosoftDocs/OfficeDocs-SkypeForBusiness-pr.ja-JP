@@ -1,57 +1,57 @@
 ---
-title: Skype ビジネス サーバーのテスト、災害復旧
+title: Skype for Business Server での障害回復テスト
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 文書化されている障害回復プロセスをテストするには、ビジネス サーバー プールの Skype のシステム回復を実行します。
-ms.openlocfilehash: 55398b95be1cf5cec2cafa3a91a36536df92200e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server プールサーバーのシステム回復を実行して、文書化された障害回復プロセスをテストする
+ms.openlocfilehash: d65f8bfa512a3954728e09d659b571335d32a379
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924816"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279215"
 ---
-# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Skype ビジネス サーバーのテスト、災害復旧
+# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Skype for Business Server での障害回復テスト
 
-文書化されている障害回復プロセスをテストするには、ビジネス サーバー プールの Skype のシステム回復を実行します。 このテストでは、1 つのサーバーの完全なハードウェア障害をシミュレートするは、リソース、計画、およびデータがリカバリに使用できることを保証するのに役立ちます。 異なるサーバーやその他の装置のエラーをいつでもテストできるようにテストの焦点を各月で循環させるようにしてください。 
+Skype for Business Server プールサーバーのシステム回復を実行して、文書化された障害回復プロセスをテストします。 このテストでは、1台のサーバーの完全なハードウェア障害がシミュレートされ、リソース、計画、データを回復できることを保証するために役立ちます。 異なるサーバーやその他の装置のエラーをいつでもテストできるようにテストの焦点を各月で循環させるようにしてください。 
 
 組織が障害回復テストを実施するスケジュールは異なることに注意してください。障害回復テストが無視またはなおざりにされないことが非常に重要です。 
 
-Business Server のトポロジ、ポリシー、および構成の設定は、Skype をファイルにエクスポートします。 また、アップグレード、ハードウェア障害、またはその他の問題のためにデータを消失してしまっても、このファイルを使用して、これらの情報を中央管理ストアに復元することができます。
+Skype for Business Server のトポロジ、ポリシー、構成設定をファイルにエクスポートします。 また、アップグレード、ハードウェア障害、またはその他の問題のためにデータを消失してしまっても、このファイルを使用して、これらの情報を中央管理ストアに復元することができます。
 
-コマンドを次に示すように、中央管理ストアまたはローカル コンピューターにビジネス サーバーのトポロジ、ポリシー、および構成の設定は、Skype をインポートします。 
+次のコマンドで示されているように、Skype for Business Server のトポロジ、ポリシー、構成設定を中央管理ストアまたはローカルコンピューターにインポートします。 
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]` 
 
-本番データをバックアップします。
+運用データをバックアップするには、次の操作を行います。
 
-- 標準の SQL Server を使用して、RTC と LCSLog データベースをバックアップ ファイルまたはテープ ダンプ デバイスにデータベースをダンプするプロセスをバックアップします。
+- 標準の SQL Server バックアッププロセスを使用して、RTC と LCSLog データベースのバックアップを作成し、ファイルまたはテープダンプデバイスにデータベースをダンプします。
 - サードパーティ バックアップ アプリケーションを使用してデータをファイルまたはテープにバック アップします。
 - Export-CsUserData コマンドレットを使用して、RTC データベース全体の XML エクスポートを作成します。
-- ミーティングのコンテンツとコンプライアンスのログをバックアップするには、ファイル システムのバックアップまたはサードパーティ製のバックアップを使用します。
-- エクスポート CsConfiguration コマンド ライン ツールを使用すると、Skype をビジネスのサーバー設定のバックアップを作成します。
+- ファイルシステムバックアップまたはサードパーティバックアップを使用して、会議コンテンツとコンプライアンスログをバックアップします。
+- エクスポート-CsConfiguration コマンドラインツールを使用して、Skype for Business Server の設定をバックアップします。
 
 フェールオーバー手順の最初の手順には、運用プールから障害回復プールへのユーザーの強制的な移動が含まれます。 運用プールはユーザーの再配置を受け入れることができないため、これは強制的な移動になります。
 
-ビジネス サーバー移動のユーザー プロセスの Skype は、事実上、RTC の SQL データベースのレコードの更新だけでなく、ユーザー アカウント オブジェクトの属性への変更です。 このデータを復元することが、本番環境から元のバックアップ ダンプ デバイスから SQL Server の標準的な SQL Server のリストア ・ プロセスを使用するか、サード パーティを使用するバックアップと復元ユーティリティです。
+Skype for Business Server の移動ユーザーのプロセスは、実質的には、RTC SQL データベースのレコードの更新に加えて、ユーザーアカウントオブジェクトの属性を変更します。 このデータは、標準の SQL Server restore プロセスを使用するか、サードパーティのバックアップ/復元ユーティリティを使用して、実働 SQL Server から元のバックアップダンプデバイスから復元することができます。
 
-このデータが復元されると、ユーザーは効果的に災害復旧のプールに接続して通常どおりに動作します。 災害復旧のプールに接続するユーザーを有効にするには、DNS レコードの変更が必要があります。
+このデータが復元されると、ユーザーは効率的に障害回復プールに接続し、通常どおりに動作することができます。 ユーザーが Disaster Recovery プールに接続できるようにするには、DNS レコードの変更が必要になります。
 
-生産 Skype のビジネスのプールは、クライアントの自動構成および DNS SRV レコードを使用してによって参照されます。
+プロダクション Skype for Business プールは、次のような自動構成と DNS SRV レコードを使用してクライアントによって参照されます。
 
-- SRV: ゾーンに追加します。\<domain>/CNAME: SIP。\<domain>
-- CNAME: SIP。\<domain>/cvc-pool-1。\<domain>
+- SRV: eap-tls。\<domain>/CNAME: SIP。\<domain>
+- CNAME: SIP。\<domain>/cvc¥ pool1。\<domain>
 
 フェールオーバーを促進するために、この CNAME レコードを更新して DROCSPool FQDN を次のように参照する必要があります。
 
-- CNAME: SIP。<domain> /DROCSPool です。\<domain>
-- Sip。\<domain>
-- AV.\<domain>
-- webconf。\<domain>
+- CNAME: SIP。<domain> /DROCSPool.\<domain>
+- フェデレーション.\<domain>
+- \<Domain>
+- webconf\<domain>

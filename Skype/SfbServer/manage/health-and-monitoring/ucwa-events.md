@@ -1,27 +1,27 @@
 ---
-title: ビジネス サーバーの Skype での UCWA イベント
+title: Skype for Business Server の UCWA イベント
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: '概要: は、ビジネスのサーバーに、Skype では、ユニファイド コミュニケーション Web API (UCWA) について説明します。'
-ms.openlocfilehash: f675c16903301412c0c78981b0c17bb9bcc7b24b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のユニファイドコミュニケーション Web API (UCWA) について説明します。'
+ms.openlocfilehash: bbded70318190fb4fa68ab524a696183c97ff07d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897990"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279698"
 ---
-# <a name="ucwa-events-in-skype-for-business-server"></a>ビジネス サーバーの Skype での UCWA イベント
+# <a name="ucwa-events-in-skype-for-business-server"></a>Skype for Business Server の UCWA イベント
  
-**の概要:** Business Server には、Skype では、ユニファイド コミュニケーション Web API (UCWA) について説明します。
+**概要:** Skype for Business Server のユニファイドコミュニケーション Web API (UCWA) について説明します。
   
-Skype ビジネス サーバーは、Microsoft Exchange にアクセスするモバイル クライアントのプレゼンスを更新するのには連絡先の検索から、目的の数のユニファイド コミュニケーション Web API (UCWA) を使用します。
+Skype for Business Server では、Microsoft Exchange への連絡先検索のアクセスからモバイルクライアントのプレゼンスの更新まで、さまざまな目的で、統合コミュニケーション Web API (UCWA) を使用しています。
   
 UCWA は、実行動作の記録を、"情報"、"警告"、および "エラー" のイベントの種類として書き込みます。次の表に、UCWA コンポーネントによって書き込まれる可能性があるイベントを示します。
   

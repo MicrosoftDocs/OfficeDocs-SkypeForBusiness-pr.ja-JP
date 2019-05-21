@@ -1,42 +1,42 @@
 ---
-title: ビジネス サーバーの Skype での移動サービスおよび UCWA の使用状況を監視します。
+title: Skype for Business Server のモビリティサービスと UCWA の使用状況を監視する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
-description: '概要: は、サーバーのビジネスのモビリティ サービス (Mcx)、Skype では、ユニファイド コミュニケーション Web API (UCWA) を管理します。'
-ms.openlocfilehash: ddbb8ee4915c64781d059f8495c7e0bd46e57fc6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のモビリティサービス (Mcx) とユニファイドコミュニケーション Web API (UCWA) を管理します。'
+ms.openlocfilehash: 5447eb0ac8ffe468fd52c7011824cc1f2f2f7b55
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887133"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279796"
 ---
-# <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>ビジネス サーバーの Skype での移動サービスおよび UCWA の使用状況を監視します。
+# <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Skype for Business Server のモビリティサービスと UCWA の使用状況を監視する
  
-**の概要:** ビジネス サーバーの移動サービス (Mcx)、Skype では、ユニファイド コミュニケーション Web API (UCWA) を管理します。
+**概要:** Skype for Business Server のモビリティサービス (Mcx) とユニファイドコミュニケーション Web API (UCWA) を管理します。
 
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
+> Skype for Business Server 2019 では、従来のモバイルクライアントに対する MCX (モバイルサービス) のサポートは利用できなくなりました。 現在のすべての Skype for Business のモバイルクライアントでは、インスタントメッセージング (IM)、プレゼンス、連絡先をサポートするために、既にユニファイドコミュニケーション Web API (UCWA) を使用しています。 MCX を使用するレガシクライアントを使っているユーザーは、現在のクライアントにアップグレードする必要があります。
   
-、継続的にビジネス サーバー移動サービス (Mcx) と、ユニファイド コミュニケーション Web API (UCWA) は、Skype で使用されるメモリ、CPU を監視する必要があります。 使用状況を監視するには、次のように使用できます。
+継続的に、Skype for Business Server Mobility Service (Mcx) とユニファイドコミュニケーション Web API (UCWA) で使用されている CPU とメモリを監視する必要があります。 使用状況を監視するには、次の操作を行います。
   
  **Unified Communications Web API (UCWA):**
   
-- インターネット インフォメーション サービス (IIS) マネージャーで**LyncUcwa**のワーカー プロセス。 [**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。
+- インターネットインフォメーションサービス (IIS) マネージャーでの**LyncUcwa** worker プロセス。 [**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。
     
 - [**CPU**] および [**プロセッサ**] パフォーマンス カウンター。
     
-ほとんどの展開で、UCWA の CPU 使用率は平均で 15% を下回っている必要があります。 メモリ使用量は、 [Skype ビジネス サーバー用にサーバーのメモリ容量制限のためのモニター](server-memory-capacity-limits.md)で説明されている制限内に収まるようにします。
+ほとんどの展開で、UCWA の CPU 使用率は平均で 15% を下回っている必要があります。 メモリ使用量は、「 [Skype For Business server のサーバーメモリ容量の上限](server-memory-capacity-limits.md)」に記載されている制限内に収まっている必要があります。
   
 CPU とメモリの使用状況カウンターに加えて、以下のパフォーマンス カウンターを使用すると、サーバーが要求で過負荷になっていないかどうかを確認するのに役立つ場合があります。
   
-- **LS:WEB の調整と Authentication\WEB の合計の要求の処理に**、保留中のサーバー上の web 要求の数を示します。 このカウンターでは、10,000 に達すると、後続の要求は失敗します、エラー メッセージが「503 - サービスを使用できません」
+- **LS: web の調整と Authentication\WEB-処理中の要求合計**。サーバー上の保留中の WEB 要求の数を示します。 このカウンターが1万に達すると、その後の要求は失敗し、"503-サービスを利用できません" というエラーメッセージが表示されます。
     
 - **ASP.NET\Requests Queued** (常にゼロである必要があります)。
     
@@ -45,15 +45,15 @@ CPU とメモリの使用状況カウンターに加えて、以下のパフォ�
   
  **Mobility Service (Mcx):**
   
-- **CSIntMcxAppPool** 、 **CSExtMcxAppPool**ワーカー プロセスのインターネット インフォメーション サービス (IIS) マネージャー。 [**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。
+- **Csintmcxapppool**と**csextmcxapppool**ワーカープロセス (インターネットインフォメーションサービス (IIS) マネージャー)。 [**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。
     
 - [**CPU**] および [**プロセッサ**] パフォーマンス カウンター。
     
-ほとんどの展開で、Mobility Service の CPU 使用率は平均で 15% を下回っている必要があります。 メモリ使用量は、 [Skype ビジネス サーバー用にサーバーのメモリ容量制限のためのモニター](server-memory-capacity-limits.md)で説明されている制限内に収まるようにします。
+ほとんどの展開で、Mobility Service の CPU 使用率は平均で 15% を下回っている必要があります。 メモリ使用量は、「 [Skype For Business server のサーバーメモリ容量の上限](server-memory-capacity-limits.md)」に記載されている制限内に収まっている必要があります。
   
 CPU とメモリの使用状況カウンターに加えて、以下の ASP.NET パフォーマンス カウンターを使用すると、サーバーが要求で過負荷になっていないかどうかを確認するのに役立つ場合があります。
   
-- **ASP.NET v2.0.50727\Requests 現在**、保留中のサーバー上の web 要求の数を示します。 「503 - サービスを使用できません」のエラー メッセージとそれ以降の要求は失敗しますこのカウンターでは、5,000 に達すると、
+- **ASP.NET v 2.0.50727 \ 要求電流**は、サーバー上の保留中の web 要求の数を示します。 このカウンターが5000に達すると、その後の要求は失敗し、"503-サービスを利用できません" というエラーメッセージが表示されます。
     
 - **ASP.NET\Requests Queued** (常にゼロである必要があります)。
     
@@ -61,8 +61,8 @@ CPU とメモリの使用状況カウンターに加えて、以下の ASP.NET �
 > これらの値に達するか、これらの値を超えた場合、Web サービスをホストしているコンピューターの CPU、コア数、およびメモリの適切な規模設定の容量計画を再検討して、再計算する必要があります。 
 
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
+> Skype for Business Server 2019 では、従来のモバイルクライアントに対する MCX (モバイルサービス) のサポートは利用できなくなりました。 現在のすべての Skype for Business のモバイルクライアントでは、インスタントメッセージング (IM)、プレゼンス、連絡先をサポートするために、既にユニファイドコミュニケーション Web API (UCWA) を使用しています。 MCX を使用するレガシクライアントを使っているユーザーは、現在のクライアントにアップグレードする必要があります。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype ビジネス サーバー用にサーバーのメモリ容量制限のためのモニター](server-memory-capacity-limits.md)
+[Skype for Business Server でサーバーのメモリ容量の上限を監視する](server-memory-capacity-limits.md)

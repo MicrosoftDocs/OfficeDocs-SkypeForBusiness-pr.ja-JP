@@ -1,5 +1,5 @@
 ---
-title: この Skype をビジネスのオンライン機能が有効になっていません。
+title: この Skype for Business Online の機能は有効ではありません
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,23 +19,23 @@ f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
-description: 'オンライン ビジネスの機能には有効なエラーがされていないために、Skype を取得する場合は、考えられる原因とアクションの提案を検索します。 '
-ms.openlocfilehash: 0688bcc572c90c776bb1db6413825436f2ba8930
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Skype for Business Online 機能が有効ではないというエラーが発生したときに、考えられる原因と解決策を見つけることができます。 '
+ms.openlocfilehash: d819dacc777b4e6ef8f3adb9e6e7cab20a1be874
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237175"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285046"
 ---
-# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>この Skype をビジネスのオンライン機能が有効になっていません。
+# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>この Skype for Business Online の機能は有効ではありません
 
-残念ですが、よう、ユーザーがこの機能のライセンスはありません。
+申し訳ございませんが、この機能のライセンスがユーザーにないようです。
   
-|**考えられる原因**|**推奨されるアクション**|
+|**考えられる原因**|**推奨される操作**|
 |:-----|:-----|
-|利用可能なライセンスがある場合は、このユーザーの機能をオンにしていません。  <br/> |**Office 365 管理センター**を参照して > **アクティブなユーザー**がこのユーザーのライセンスを取得します。 <br/> |
-|ユーザーは、この機能が利用できない場所には。  <br/> |**Office 365 管理センター**には移動可能な場合は、 > **アクティブなユーザー**機能が利用可能な場所にこのユーザーを割り当てるとします。 <br/> |
-|組織の機能を有効になっていません。  <br/> |**Office 365 管理センター**を参照して > **Skype のビジネス**および組織全体の機能を有効にします。 <br/> |
+|使用可能なライセンスはありますが、このユーザーの機能が有効になっていません。  <br/> |このユーザーのライセンスを付与する**Office 365 管理センター** > の**アクティブなユーザー**に移動します。 <br/> |
+|この機能が使用できない場所にユーザーがいます。  <br/> |可能であれば、 **Office 365 管理センター** > の [**アクティブなユーザー** ] に移動し、その機能が利用できる場所にこのユーザーを割り当てます。 <br/> |
+|この機能は、組織では有効になっていません。  <br/> |**Office 365 管理センター** > **Skype for business**に移動して、組織全体でこの機能を有効にします。 <br/> |
    
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)

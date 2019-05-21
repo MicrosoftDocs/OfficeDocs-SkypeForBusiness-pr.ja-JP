@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: '概要: は、Skype のビジネス サーバー 2015 の永続的なチャット サーバーのコンプライアンス サービスを構成する方法について説明します。'
-ms.openlocfilehash: 07d1f69b6448dc215f97cffb96d5e86f1ab148be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server 2015 で常設チャット Server コンプライアンスサービスを構成する方法について説明します。'
+ms.openlocfilehash: 81fcd9281efa0e897074ea154e9ae29a81aeb854
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910397"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279313"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのコンプライアンス サービスの構成
 
-**の概要:** ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのコンプライアンス サービスを構成する方法について説明します。
+**概要:** Skype for Business Server 2015 で常設チャット Server コンプライアンスサービスを構成する方法について説明します。
 
-永続的なチャットのコンプライアンスでは、管理者の活動だけでなく、永続的なチャット メッセージのアーカイブを維持することができます。 コンプライアンス サービスでは、記録しと関係者を含め、各永続的なチャット サーバーのテーマに関連するデータをアーカイブします。
+常設チャットのコンプライアンス機能を使用すると、管理者は永続的なチャットメッセージのアーカイブやアクティビティを管理できます。 コンプライアンスサービスは、参加者がいる場合など、各常設チャットサーバーの会話に関連するデータを記録およびアーカイブします。
 
-- 永続的なチャット ルームに参加します。
+- 常設チャットルームに参加する
 
 - チャット ルームから退出する
 
@@ -39,7 +39,7 @@ ms.locfileid: "33910397"
 この情報は、必要に応じてコンプライアンス SQL データベースから取得できます。 
 
 > [!NOTE]
-> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Windows PowerShell を使用してコンプライアンス サービスを構成する
 
@@ -59,7 +59,7 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 - AdapterType - アダプターの種類を指定できます。 アダプターはサード パーティ製品であり、コンプライアンス データベースのデータを特定の形式に変換します。 既定では XML です。
 
-- OneChatRoomPerOutputFile - このパラメーターを指定できます各チャット ルームの作成するレポートを分割します。
+- OneChatRoomPerOutputFile-このパラメーターを使用すると、チャットルームごとに個別のレポートを作成することができます。
 
 - AddChatRoomDetails - 有効な場合、各チャット ルームに関する追加の詳細をデータベースに記録します。 この設定によりデータベースのサイズが非常に大きくなることから、既定では無効になっています。
 
@@ -71,23 +71,23 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 ## <a name="use-a-customized-compliance-adapter"></a>カスタマイズされたコンプライアンス アダプターを使用する
 
-永続的なチャット サーバーにインストールされている XmlAdapter を使用する代わりにカスタム アダプターを記述することができます。 記述するには、**IComplianceAdapter** インターフェイスを実装するパブリック クラスを含む .NET Framework アセンブリを提供する必要があります。 永続的なチャット サーバー プールの各サーバの永続的なチャット サーバーのインストール フォルダーにこのアセンブリを配置する必要があります。 任意のコンプライアンス サーバーからアダプターにコンプライアンス データを提供できますが、コンプライアンス サーバーからアダプターの複数のインスタンスに対して重複するコンプライアンス データを提供することはできません。
+常設チャットサーバーと共にインストールされている XmlAdapter を使う代わりに、カスタムアダプターを作成することができます。 記述するには、**IComplianceAdapter** インターフェイスを実装するパブリック クラスを含む .NET Framework アセンブリを提供する必要があります。 このアセンブリは、常設チャットサーバープールの各サーバーの常設チャットサーバーのインストールフォルダーに配置する必要があります。 任意のコンプライアンス サーバーからアダプターにコンプライアンス データを提供できますが、コンプライアンス サーバーからアダプターの複数のインスタンスに対して重複するコンプライアンス データを提供することはできません。
 
-Compliance.dll アセンブリ、名前空間内でインターフェイスが定義されている`Microsoft.Rtc.Internal.Chat.Server.Compliance`。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
+インターフェイスは、名前空間`Microsoft.Rtc.Internal.Chat.Server.Compliance`の対応する .dll アセンブリで定義されます。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
 
-永続的なチャット コンプライアンス サーバーは、アダプターが最初に読み込まれたときに、次のメソッドを呼び出します。 `AdapterConfig`準拠のアダプターに関連する永続的なチャット コンプライアンス構成が含まれています。
+常設チャットのコンプライアンスサーバーは、アダプターが最初に読み込まれたときに、次のメソッドを呼び出します。 に`AdapterConfig`は、コンプライアンスアダプターに関連する常設チャットのコンプライアンス構成が含まれています。
 
 ```
 void SetConfig(AdapterConfig config)
 ```
 
-永続的なチャット コンプライアンス サーバーに変換する新しいデータがある限り、定期的に次のメソッドを呼び出します。 この時間間隔は、 `RunInterval` 、永続的なチャットのコンプライアンスの構成で設定されています。
+常設チャットのコンプライアンスサーバーでは、翻訳する新しいデータがある限り、次のメソッドが定期的な間隔で呼び出されます。 この時間間隔は、常設チャット`RunInterval`のコンプライアンス構成で設定された as と同じです。
 
 ```
 void Translate(ConversationCollection conversations)
 ```
 
-`ConversationCollection`このメソッドが呼び出された最後の時間から収集された通信に関する情報が含まれています。
+に`ConversationCollection`は、このメソッドが最後に呼び出されたときから収集されたスレッド情報が含まれています。
 
 ## <a name="customize-the-xslt-definition-file"></a>XSLT 定義ファイルをカスタマイズする
 
@@ -147,14 +147,14 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 |**属性**|**説明**|**オプション/必須**|
 |:-----|:-----|:-----|
 |Username  <br/> |送信者の名前。  <br/> |省略可能  <br/> |
-|ID  <br/> |送信者の一意の id。  <br/> |必須  <br/> |
-|Email  <br/> |送信者の電子メール アドレスです。  <br/> |省略可能  <br/> |
+|ID  <br/> |送信者の一意の ID。  <br/> |必須  <br/> |
+|Email  <br/> |送信者のメールアドレス。  <br/> |省略可能  <br/> |
 |Internal  <br/> |ユーザーが内部ユーザーとフェデレーション ユーザーのどちらであるかを指定します。この値が True に設定されている場合、ユーザーは内部ユーザーです。  <br/> |省略可能  <br/> |
-|Uri  <br/> |ユーザーの SIP URI では。  <br/> |必須  <br/> |
+|Uri  <br/> |ユーザーの SIP URI。  <br/> |必須  <br/> |
 
-メッセージ要素を含めることができますメッセージの種類を次の例に示します。 また、各要素の使用方法の例を示します。
+次の例は、Messages 要素に含めることができるメッセージの種類を示しています。 また、各要素の使用方法の例を示します。
 
-結合のユーザーがチャット ルームに参加します。
+参加-ユーザーがチャットルームに参加します。
 
 ```
 <Message type="JOIN" content="" id="0">
@@ -163,7 +163,7 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 </Message
 ```
 
-一部のユーザーは、チャット ルームを離れます。
+パート-ユーザーがチャットルームから退席します。
 
 ```
 <Message type="PART" content="" id="0">
@@ -172,7 +172,7 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 </Message>
 ```
 
-チャット - 送信者の電子メール アドレスです。
+チャット-送信者のメールアドレス。
 
 ```
 <Message type="CHAT" content="hello" id="1">
@@ -181,7 +181,7 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 </Message>
 ```
 
-Backchat - ユーザーは、チャットの履歴からコンテンツを要求します。
+バックチャット-ユーザーがチャット履歴からコンテンツを要求します。
 
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
@@ -190,7 +190,7 @@ Backchat - ユーザーは、チャットの履歴からコンテンツを要求
 </Message>
 ```
 
-ファイルのアップロード ・ ユーザーは、ファイルをアップロードします。
+ファイルのアップロード-ユーザーがファイルをアップロードします。
 
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
@@ -199,7 +199,7 @@ Backchat - ユーザーは、チャットの履歴からコンテンツを要求
 </Message>
 ```
 
-ファイルのダウンロード - ユーザーは、ファイルをダウンロードします。
+ファイルのダウンロード-ユーザーがファイルをダウンロードします。
 
 ```
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
@@ -208,7 +208,7 @@ Backchat - ユーザーは、チャットの履歴からコンテンツを要求
 </Message>
 ```
 
-### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>既定の永続的なチャット出力 XSD と XSL 変換の例
+### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>既定の常設チャット出力の XSD とサンプルの XSL 変換
 
 次のコード サンプルに、コンプライアンス サーバーからの既定の出力が含まれています。
 

@@ -8,93 +8,93 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: '組織のビジネス用の Skype を導入する場合を統合 Skype の 1 つまたは複数のドメインを持つビジネス オンラインのお客様です。 '
-ms.openlocfilehash: d829b9688af315cb0d8dd0f143d651035a196417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '組織に Skype for Business を展開すると、1つ以上の Skype for Business Online のユーザーのドメインとフェデレーションを行うことができます。 '
+ms.openlocfilehash: c6cf36abbbf8876a8aa349d4576b45220517b89e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903300"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280111"
 ---
-# <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのオンライン ビジネスのお客様は Skype のフェデレーション サポートを構成します。 
+# <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Skype for business Server の Skype for Business Online ユーザーに対するフェデレーションサポートの構成 
 
-組織内のユーザーに通信サービスを提供するには次の方法のいずれかで。
+次のいずれかの方法で、組織内のユーザーに通信サービスを提供できます。
 
-  - ビジネス サーバーは、組織 (*設置型のサービス*と呼ばれます) と、組織内のビジネス ユーザーのアカウントの Skype の設定で Skype を配置しています。
-  - (*オンライン サービス*と呼ばれます) をホストしているプロバイダーと、プロバイダーをホストしているユーザー アカウントを設定するとオンライン ビジネスの顧客アカウントの Microsoft Skype を設定します。
+  - 組織に Skype for Business Server (*オンプレミスサービス*とも呼ばれます) を展開して、組織内の Skype for business ユーザーアカウントをセットアップします。
+  - ホスティングプロバイダーを使用して Microsoft Skype for Business Online の顧客アカウントを設定し、ホスティングプロバイダー (*オンラインサービス*とも呼ばれます) を使用してユーザーアカウントを設定します。
 
-組織のビジネス用の Skype を導入する場合を統合 Skype の 1 つまたは複数のドメインを持つビジネス オンラインのお客様です。 ビジネス展開するため、設置型の Skype のユーザーとオンライン ビジネスのお客様は、Skype のユーザーの間でフェデレーションを有効にするには、ドメインおよびオンライン ビジネスのお客様の Skype のユーザーのサポートを行う必要があります。
+組織に Skype for Business を展開すると、1つ以上の Skype for Business Online のユーザーのドメインとフェデレーションを行うことができます。 オンプレミスの Skype for Business 展開と Skype for Business Online ユーザーのユーザーの間のフェデレーションを有効にするには、Skype for Business Online ユーザーのドメインとユーザーのサポートを構成する必要があります。
 
 > [!NOTE]  
-> このドキュメントは、オンライン ビジネスのお客様は、Skype とのフェデレーションをサポートするために組織を構成する手順のみを説明します。 このドキュメントについては説明しません、フェデレーションをサポートするためにオンライン ビジネスのお客様の Skype を設定する手順です。 
+> このドキュメントでは、Skype for Business Online のお客様とのフェデレーションをサポートするように組織を構成する手順についてのみ説明します。 このドキュメントでは、Skype for Business Online のお客様がフェデレーションをサポートするように構成する手順について説明していません。 
 
-## <a name="prerequisites-for-federating-with-a-skype-for-business-online-customer"></a>Skype のオンライン ビジネスの顧客とのフェデレーションの前提条件
+## <a name="prerequisites-for-federating-with-a-skype-for-business-online-customer"></a>Skype for Business Online のお客様とのフェデレーションの前提条件
 
-オンライン ビジネスのお客様は、Skype でフェデレーションをする必要がありますが完了している初期の展開と構成 Skype ビジネス サーバーの組織にします。 これには、次のポリシーが含まれます。
+Skype for Business Online のユーザーとフェデレーションを行うには、組織内の Skype for Business Server の最初の展開と構成を既に完了している必要があります。 これには、次のポリシーが含まれます。
 
-  - 少なくとも 1 つの Standard Edition サーバーまたは組織内の 1 つのエンタープライズ エディションのフロント エンド プールを展開します。 
-  - ビジネス サーバーの Skype の内部のユーザー アカウントを有効にします。 
-  - 外部ユーザー アクセスをサポートするために必要な 1 つ以上のエッジ サーバーと他のコンポーネントを展開します。 詳細については、[管理するフェデレーションと Skype のビジネス サーバーへの外部アクセス](../managing-federation-and-external-access.md)を参照してください。
-  - 組織内でフェデレーション サポートを有効にして、フェデレーション ドメインによるアクセスを制御するための適切な方法を構成します。 詳細については、[組織のプロバイダーをフェデレーションする SIP を管理](../sip-providers/manage-sip-federated-providers-for-your-organization.md)し、[有効にするかリモート ユーザー アクセスを無効にする](../access-edge/enable-or-disable-remote-user-access.md)を参照してください。
-  - ユーザーが組織内の外部ユーザー アクセスを有効にします。 詳細は[、Skype のビジネスの有効なユーザーへの外部ユーザー アクセス ポリシーを割り当てる](../external-access-policies/assign-an-external-user-access-policy.md)」を参照してください。
+  - 少なくとも1つの Standard Edition サーバーまたは1つの Enterprise Edition フロントエンドプールを組織に展開します。 
+  - Skype for Business Server の内部ユーザーアカウントを有効にします。 
+  - 少なくとも1つのエッジサーバーと、外部ユーザーのアクセスをサポートするために必要なその他のコンポーネントを展開します。 詳細については、「 [Skype For Business Server へのフェデレーションと外部アクセスの管理](../managing-federation-and-external-access.md)」を参照してください。
+  - 組織内でフェデレーションサポートを有効にし、フェデレーションドメインによるアクセスを制御するための適切なメソッドを構成します。 詳細については、「[リモートユーザーアクセスを有効または無効](../access-edge/enable-or-disable-remote-user-access.md)にする」および「[組織の SIP フェデレーションプロバイダーを管理](../sip-providers/manage-sip-federated-providers-for-your-organization.md)する」を参照してください。
+  - 組織内のユーザーに対して外部ユーザーアクセスを有効にします。 詳細については、「 [Skype For business が有効なユーザーに外部ユーザーアクセスポリシーを割り当てる](../external-access-policies/assign-an-external-user-access-policy.md)」を参照してください。
 
 
 
-## <a name="configure-federation-support-for-a-skype-for-business-online-domain"></a>Skype のビジネスのオンラインのドメインのフェデレーション サポートを構成します。
+## <a name="configure-federation-support-for-a-skype-for-business-online-domain"></a>Skype for Business Online ドメインのフェデレーションサポートを構成する
 
-Skype のオンライン ビジネスの顧客とのフェデレーションには、次の手順を完了する必要があります。
+Skype for Business Online のお客様とのフェデレーションを行うには、次の手順を実行する必要があります。
 
-  - ビジネス オンライン 2010 顧客 (contoso.onmicrosoft.com など) の Skype のドメインのサポートを構成します。 指定されている[ため、Skype のオンライン ビジネスの顧客とのフェデレーションの前提条件](#prerequisites-for-federating-with-a-skype-for-business-online-customer)、する必要があります既にフェデレーションを有効に組織にします。 フェデレーションを有効にするには、フェデレーション ドメインによってアクセスを制御する使用する方法を指定する必要があります。 探索を使用する組織を構成した場合、組織の許可リストにドメインを追加するはオプションです。 ドメインの検出を有効にしなかった場合は、許可されるドメインの一覧に、Skype のオンライン ビジネスのお客様のドメイン名を追加する必要があります。 ビジネス サーバーのコントロール パネルの Skype を使用するか、**新規 CSAllowedDomain**コマンドレットを実行して、ドメイン名を追加できます。 ビジネス サーバー コントロール パネルの [ドメインの探索を有効にするなどの Skype の使用の詳細については、「[組織は、ビジネスのサーバー用の Skype でプロバイダーをフェデレーションする SIP を管理](../sip-providers/manage-sip-federated-providers-for-your-organization.md)」を参照してください。 **新規 CSAllowedDomain**コマンドレットを使用してドメインを追加する詳細については、[新規 CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain)を参照してください。
-
-    > [!NOTE]  
-    > オンライン ビジネスのお客様は、Skype では、複数のドメインを持つことができます。 複数のドメインとフェデレーションを行う場合は、個々 のドメインをフェデレーションをサポートしてそれぞれごとにドメインのフェデレーションを有効にする必要があります。 オンライン ビジネスのお客様の Skype の管理者のサポートを構成する必要があります。フェデレーションします。
-
-  - オンライン ビジネスのお客様ドメインをフェデレーションする Skype のホスティング プロバイダーのサポートを構成します。 ホスティング プロバイダーのサポートを構成するのには、このセクションで、手順を使用します。
+  - Skype for Business Online 2010 ユーザーのドメインのサポートを構成します (たとえば、contoso.onmicrosoft.com)。 [Skype For Business Online のお客様とのフェデレーションの前提条件](#prerequisites-for-federating-with-a-skype-for-business-online-customer)として、組織のフェデレーションを既に有効にしている必要があります。 フェデレーションを有効にするには、フェデレーションドメインによるアクセスを制御するために使用するメソッドを指定する必要があります。 検出機能を使用するように組織を構成している場合、ドメインを組織の許可リストに追加するオプションは省略できます。 ドメインの検出を有効にしなかった場合は、Skype for Business Online のユーザーのドメイン名を、許可されているドメイン一覧に追加する必要があります。 ドメイン名を追加するには、Skype for Business Server コントロールパネルを使用するか、または、**新しい-CSAllowedDomain**コマンドレットを実行します。 Skype for Business Server コントロールパネルの使い方 (ドメインの検出を有効にするなど) について詳しくは、「 [skype For Business Server で組織の SIP フェデレーションプロバイダーを管理](../sip-providers/manage-sip-federated-providers-for-your-organization.md)する」をご覧ください。 **新しい-csalloweddomain**コマンドレットを使用してドメインを追加する方法の詳細については、「[新しい-csalloweddomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain)」を参照してください。
 
     > [!NOTE]  
-    > この手順は、導入設置、フェデレーション パートナーの場所には、任意のドメインとのフェデレーションではなく、オンライン ビジネスのお客様に対する、Skype のドメインとのフェデレーションにのみ必要です。
+    > Skype for Business Online のお客様は、複数のドメインを持つことができます。 複数のドメインとフェデレーションを行う場合は、フェデレーションをサポートする個々のドメインに対してサポートを構成する必要があります。また、Skype for Business Online の管理者は、それぞれのドメインについてフェデレーションを有効にする必要があります。フェデレーションされます。
+
+  - フェデレーションを行う Skype for Business Online 顧客ドメインのホスティングプロバイダーのサポートを構成します。 このセクションの手順を使用して、ホスティングプロバイダーのサポートを構成します。
+
+    > [!NOTE]  
+    > この手順は、Skype for Business Online のユーザーのドメインとフェデレーションを行う場合にのみ必要です。フェデレーションパートナーの場所にオンプレミスで展開されているドメインとのフェデレーションには使用できません。
 
 
-### <a name="to-configure-support-for-a-hosting-provider"></a>ホスティング プロバイダーのサポートを構成するのには
+### <a name="to-configure-support-for-a-hosting-provider"></a>ホスティングプロバイダーのサポートを構成するには
 
-1.  サーバーをフロント エンド サーバー、ビジネス サーバー管理シェルには、Skype を起動します。 [**スタート**] ボタン、[**すべてのプログラム**] をクリック、 **Skype ビジネス サーバーは**、をクリック**ビジネス サーバー管理シェルの Skype**です。
+1.  フロントエンドサーバーから、Skype for Business Server 管理シェルを起動します。 [**スタート**] をクリックし、 ****[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
 
-2.  作成し、ホスティング プロバイダーを構成する**新規 CsHostingProvider**コマンドレットを実行します。 たとえば、以下を実行します。
+2.  **新しい-CsHostingProvider**コマンドレットを実行して、ホスティングプロバイダーを作成し、構成します。 たとえば、以下を実行します。
     
         New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification -Enabled $True -EnabledSharedAddressSpace $False -HostsOCSUsers $False -IsLocal $False
     
     上述の例では、次のパラメーターが設定されます。
     
-      - **Id**は、作成するホスティング プロバイダーの一意の文字列値の識別子を指定します。 既存のプロバイダーは、その Id を使用して既に構成されている場合、コマンドが失敗することを注意してください。
+      - **Id**は、作成するホスティングプロバイダーの一意の文字列値識別子を指定します。 既存のプロバイダーが既にその Id で構成されている場合、コマンドは失敗します。
     
-      - **ProxyFQDN** は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) を指定します。 この値を変更することはできません。 ホスティング プロバイダーは、プロキシ サーバーを変更した場合は、削除し、そのプロバイダーのエントリを再作成する必要があります。
+      - **ProxyFQDN** は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) を指定します。 この値は変更できません。 ホスティングプロバイダーによってプロキシサーバーが変更された場合は、削除して、そのプロバイダーのエントリを再作成する必要があります。
     
-      - **VerificationLevel**を指定する方法 (または) ホスティング プロバイダーから送信されたメッセージがそのプロバイダーから送信されたことを確認することを確認します。
+      - **VerificationLevel**は、ホスティングプロバイダーから送信されたメッセージを、そのプロバイダーから送信されたものであるかどうかを確認するために、どのようにするかを指定します。
     
       - **Enabled ** は、ドメインとホスティング プロバイダー間のネットワーク接続が有効になっているかどうかを示します。この値を **True ** に設定しないと、2 つの組織間でメッセージを交換することはできません。
     
       - **EnabledSharedAddressSpace ** では、共有 SIP アドレス スペース (分割ドメイン) シナリオで、ホスティング プロバイダーが使用されているかどうかを指定します。
     
-      - **HostsOCSUsers**は、ビジネス サーバー アカウントの Skype をホストするホスティング プロバイダーを使用するかどうかを示します。 **False ** は、プロバイダーが Microsoft Exchange アカウントなど、別の種類のアカウントをホストしていることを示します。
+      - **Hostているユーザー**は、ホスティングプロバイダーが Skype For business Server アカウントをホストするために使用されているかどうかを示します。 **False ** は、プロバイダーが Microsoft Exchange アカウントなど、別の種類のアカウントをホストしていることを示します。
     
-      - **IsLocal**は、ビジネスのサーバー トポロジの場合、Skype 内でホスティング プロバイダーで使用するプロキシ サーバーが含まれているかどうかを示します。
+      - **Islocal**は、ホスティングプロバイダーによって使用されたプロキシサーバーが Skype For business server トポロジ内に含まれているかどうかを示します。
     
-    このコマンドレットの使用方法の詳細は、[新規 CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)を参照してください。
+    このコマンドレットの使い方の詳細については、「[新しい-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)」を参照してください。
 
-## <a name="configure-user-access-for-federation-with-a-skype-for-business-online-customer"></a>オンライン ビジネスのお客様は、Skype でのフェデレーション ユーザー アクセスを構成します。 
+## <a name="configure-user-access-for-federation-with-a-skype-for-business-online-customer"></a>Skype for Business Online ユーザーとのフェデレーション用にユーザーアクセスを構成する 
 
-ユーザーを構成する必要があるために、組織内のすべてのユーザーのアカウントは、フェデレーション パートナーと通信するために許可します。 この構成は、フェデレーションをサポートしているオンライン ビジネスの顧客のドメインの任意の Microsoft Skype を含む、すべてのフェデレーション パートナーに対して適用されます。 ユーザー アカウントのフェデレーション サポートを構成する方法の詳細は、[制御するポリシーを構成するユーザーのアクセスを統合して](../external-access-policies/configure-policies-to-control-federated-user-access.md) [、Skype のビジネスの有効なユーザーへの外部ユーザー アクセス ポリシーを割り当てる](../external-access-policies/assign-an-external-user-access-policy.md)を参照してください。
+フェデレーションパートナーとの通信を許可するには、組織内のすべてのユーザーのユーザーアカウントを構成する必要があります。 この構成は、フェデレーションをサポートしている Microsoft Skype for Business Online の顧客ドメインなど、すべてのフェデレーションパートナーに適用されます。 ユーザーアカウントのフェデレーションサポートの構成の詳細については、「フェデレーションされた[ユーザーアクセスを制御するためのポリシーの構成](../external-access-policies/configure-policies-to-control-federated-user-access.md)」および「 [Skype for business 対応ユーザーへの外部ユーザーアクセスポリシーの割り当て](../external-access-policies/assign-an-external-user-access-policy.md)」を参照してください。
 
-## <a name="verify-communications-with-a-skype-for-business-online-customer-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのオンライン ビジネスのお客様は、Skype での通信を確認します。
+## <a name="verify-communications-with-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Skype for business Server の Skype for Business Online ユーザーとの通信を確認する
 
-オンライン ビジネスのお客様は、Skype のユーザーと通信するために、組織内のビジネス ユーザーで Skype を有効にするのには、次の手順を完了しましたする必要があります。
+組織内の Skype for Business ユーザーが Skype for Business Online 顧客のユーザーと通信できるようにするには、次の手順を完了しておく必要があります。
 
-  - すべての前提条件が満たされています。 内部の配置が含まれ、エッジ サーバーでフェデレーションを有効にするが、組織、およびユーザー アカウントの設定をサポートします。 詳細については、[オンライン ビジネスのお客様は、Skype とのフェデレーションの前提条件](#prerequisites-for-federating-with-a-skype-for-business-online-customer)を参照してください。
-  - 内部展開にドメイン アクセスのサポートを構成します。 これには、ホスト プロバイダーのエントリを作成して、Skype のオンライン ビジネスのお客様のドメインからのアクセスを許可するのには、配置の構成が含まれます。 詳細については、[構成のフェデレーションを Skype ビジネス オンラインのドメインのためのサポート](#configure-federation-support-for-a-skype-for-business-online-domain)を参照してください。
-  - フェデレーションをサポートするためにユーザー アカウントを構成します。 詳細については、[オンライン ビジネスのお客様は、Skype とのフェデレーションを構成するユーザーのアクセス](#configure-user-access-for-federation-with-a-skype-for-business-online-customer)を参照してください。
+  - すべての前提条件を満たしていること。 これには、内部サーバーとエッジサーバーの展開、組織に対するフェデレーションサポートの有効化、ユーザーアカウントのセットアップなどが含まれます。 詳細については、「 [Skype For Business Online ユーザーとのフェデレーションの前提条件](#prerequisites-for-federating-with-a-skype-for-business-online-customer)」を参照してください。
+  - 内部展開でドメインアクセスのサポートが構成されている。 これには、ホストプロバイダーエントリの作成、および Skype for Business Online の顧客のドメインからのアクセスを許可するように展開を構成することが含まれます。 詳細については、「 [Skype For Business Online ドメインのフェデレーションサポートを構成する](#configure-federation-support-for-a-skype-for-business-online-domain)」を参照してください。
+  - フェデレーションをサポートするようにユーザーアカウントを構成しました。 詳細については、「 [Skype For Business Online ユーザーとのフェデレーション用にユーザーアクセスを構成する](#configure-user-access-for-federation-with-a-skype-for-business-online-customer)」を参照してください。
 
-すべてを実行する手順と、Skype の管理者のオンライン ビジネスのお客様は、組織とのフェデレーションをサポートするためにオンライン サービスのすべての構成を完了するため後の間の通信をテストすることによって通信することを確認します。オンライン ビジネスのお客様の Skype のユーザー、組織内の内部ユーザーです。 通信が失敗した場合、問題を解決するためにログ ファイルとトレース ファイルをキャプチャするのには、エッジ サーバーからのログ収集ツールを使用します。 
+すべての手順を完了して、Skype for Business Online の管理者が組織とのフェデレーションをサポートするために、オンラインサービスのすべての設定を完了したら、組織内の内部ユーザーと、Skype for Business Online のユーザーのユーザー。 通信が失敗した場合は、エッジサーバーのログツールを使用して、ログファイルとトレースファイルをキャプチャし、問題のトラブルシューティングを行います。 

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: アルゼンチンの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: c87e8578597d9e185cec60f332af5ac758a3047c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下は、アルゼンチンで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
+ms.openlocfilehash: 652fd1b734765243ac606507a08c23ce4e900294
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198426"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283347"
 ---
 # <a name="availability-in-argentina"></a>アルゼンチンでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-アルゼンチンの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+以下は、アルゼンチンで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。<br/><ul><li>ブエノスアイレス</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信のクレジットが必要です。 <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li>ブエノスアイレス</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信クレジットが必要 <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
@@ -63,15 +63,15 @@ ms.locfileid: "32198426"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>有料電話番号と有料電話サービスの番号を解放します。
+## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | <ul><li>ブエノスアイレス <li>コルドバ <li>ラプラタ <li>マル・デル・プラタ <li>メンドーサ <br/>  <li>サン・ミゲル・デ・トゥクマン <br/> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|有料の空き番号があるでしょうか。  <br/> |はい  <br/> |
+|無料電話番号は利用できますか?  <br/> |はい  <br/> |
    
- 取得する場合は、有料電話番号し電話会議の無料電話番号を電話番号、自動応答とキューを呼び出す、 [Skype のビジネスおよびマイクロソフトのチームの取得サービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照してください。
+ 電話会議、自動応答、通話キューの有料または無料の電話番号を取得する場合は、「 [Skype For business および Microsoft Teams のサービス電話番号を取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

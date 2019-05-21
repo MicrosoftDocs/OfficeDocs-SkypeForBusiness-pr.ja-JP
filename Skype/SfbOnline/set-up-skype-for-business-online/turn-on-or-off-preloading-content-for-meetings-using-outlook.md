@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,19 +18,19 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 413610285a187fc85d7aa926a77f09cccbb15643
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b3b912526a44fb10cb685dd6ab9b3dea8f8eac4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226016"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284926"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Outlook 会議で使用するコンテンツ プリロードの有効化と無効化
 
-ユーザーにプリロードするコンテンツ、ファイル、または、Skype ビジネス オンライン会議を開くのために、Outlook の会議出席依頼に関連付けられている添付ファイルは、有効または無効にします。 これは、ビジネス オンラインの Skype を使用しているすべての組織においてデフォルトでなっています。 参照してください[に Skype ビジネス会議のための添付ファイルをプリロード](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)する方法です。
+ユーザーは、Outlook 会議出席依頼に添付されているコンテンツ、ファイル、または添付ファイルを Skype for Business Online の会議にプリロードできますが、オンとオフを切り替えることができます。 Skype for Business Online を使用しているすべての組織に対して、既定でオンになっています。 [Skype For business 会議の添付ファイルをプリロード](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)する方法について説明します。
   
 > [!NOTE]
-> 現在はありませんコマンドレットに使用できるビジネス オンラインの Skype の設定または_MaxContentStorageMB_と_MaxUploadFileMB_のオンラインの値を表示します。 これは、オンプレミス環境でのみ使用できます。 知っている必要が接続されているコンテンツは、 _MaxUploadFileSizeMB_を超える場合、または_MaxContentStorageMB_の制限に達した場合、会議にそのコンテンツをアップロードできなきます。
+> 現時点では、 _Maxcontentstoragemb 枠_と_Maxcontentstoragemb_のオンライン値を設定または表示するために、Skype for business Online で利用可能なコマンドレットはありません。 これは、オンプレミス環境でのみ使用できます。 添付されたコンテンツが_Maxuploadfilesizemb 枠_を超えている場合、または_Maxcontentstorag飾り_枠の制限に達している場合は、コンテンツが会議にアップロードされないことを知っておくことが重要です。
   
 ## <a name="to-get-you-started"></a>使用するには、次のようにします。
 
@@ -66,14 +66,14 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
+Windows PowerShell の起動の詳細については、「[単一の Windows powershell ウィンドウですべての Office 365 サービスに接続](https://technet.microsoft.com/EN-US/library/dn568015.aspx)する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
   
 ## <a name="turning-it-on-or-off"></a>機能の有効化と無効化
 
-Skype をビジネス オンライン会議のため、Outlook 会議出席依頼に添付されているコンテンツを事前にできることになって、デフォルトでは、会議の内容を事前に読み込むことから、組織内のユーザーを防止する必要があります。
+Outlook の会議出席依頼に添付されているコンテンツを Skype for Business Online の会議に自動的に読み込むことができるようになっている場合、既定ではオンになっていますが、組織内のユーザーが会議のコンテンツを事前に設定できないようにする必要があります。
   
 > [!IMPORTANT]
-> この設定できますのみ、オンまたはオフは組織全体の機能のオンとオフは、1 人のユーザーにできません。 
+> この設定は組織全体で有効または無効にすることができます。1人のユーザに対して有効または無効にすることはできません。 
   
  **無効にするには、Windows PowerShell を開いて、次を行います。**
   
@@ -89,7 +89,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-- Windows PowerShell は、ユーザーを管理するユーザーを許可または許可されません。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

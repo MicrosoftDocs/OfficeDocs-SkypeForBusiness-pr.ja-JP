@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: (コスタリカ) の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: d44d72b85ed6689fda220d1f228a2c7877ddbe6a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをコスタリカで利用できます。
+ms.openlocfilehash: f0ab1b9427f8a8c258c4d69e7aba2b9a4f02ee60
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248120"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283107"
 ---
 # <a name="availability-in-costa-rica"></a>コスタリカでの利用可能性
 
-[別の国または地域を検索する](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)には、オーディオ会議および電話会議の plans.for を呼び出すことと通話プランの国および地域の可用性の詳細を参照するか。
+[別の国または地域を検索](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)するか、電話会議と通話プランの国と地域の空き時間情報を参照してください。電話会議と通話プランの場合。
 
-(コスタリカ) の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをコスタリカで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -44,7 +44,7 @@ ms.locfileid: "32248120"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |電話番号が特定の都市や地域に関連していません。  <br/> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

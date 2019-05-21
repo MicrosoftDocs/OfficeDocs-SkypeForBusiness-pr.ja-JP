@@ -1,39 +1,39 @@
 ---
-title: ピア ツー ピア アクティビティの概要レポートに Skype ビジネス サーバー
+title: Skype for Business Server のピアツーピアアクティビティの概要レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: '概要: は、ビジネスのサーバーの Skype でピア ツー ピア アクティビティ概要レポートについて説明します。'
-ms.openlocfilehash: 9b0ef6cdb430fcd6c1fdf278e31133b9ba22ef9f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のピアツーピアアクティビティの概要レポートについて説明します。'
+ms.openlocfilehash: dd11e5d998c8aef779b98cc0a74ba83a4dc70d84
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925216"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279896"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>ピア ツー ピア アクティビティの概要レポートに Skype ビジネス サーバー
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Skype for Business Server のピアツーピアアクティビティの概要レポート
  
-**の概要:** ビジネス サーバーの Skype でピア ツー ピア アクティビティ概要レポートについて説明します。
+**概要:** Skype for Business Server のピアツーピアアクティビティの概要レポートについて説明します。
   
-ピアツーピア アクティビティ概要レポートでは、ピアツーピア通信セッションの概要が示されます。 ピア ツー ピア セッションは通常、2 つのユーザーは、し、ビジネス会議サービスは、Skype の使用は不要です。 対照的に、会議は通常 3 つ以上のユーザーが含まれ、ビジネス会議サービスの Skype を使用する必要があります。 会議アクティビティは、会議概要レポートで報告されます。
+ピアツーピア アクティビティ概要レポートでは、ピアツーピア通信セッションの概要が示されます。 ピアツーピアセッションでは通常、2人のユーザーのみが関係し、Skype for Business Server 会議サービスを使用する必要はありません。 これに対して、会議は通常、3人を超えるユーザーを対象としており、Skype for Business Server 会議サービスを使用する必要があります。 会議アクティビティは、会議概要レポートで報告されます。
   
 ピアツーピア アクティビティ概要レポートは、次のような質問に答えるときに役立ちます。
   
 - 通常、ユーザーはピアツーピア インスタント メッセージを 1 日に何通送信しますか?
     
-- 自分のユーザーのビジネス サーバー アプリケーションの共有とファイル転送の機能は、Skype の実際に活用しますか。
+- ユーザーは、実際に Skype for Business Server アプリケーション共有機能とファイル転送機能を利用していますか?
     
 - ユーザーが、ネットワークの速度が 1 日の特定の時刻で遅くなるようだと訴えています。これらの時間帯でピアツーピアの音声ビデオセッションに費やされた時間は何分ですか?
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>ピアツーピア アクティビティ概要レポートにアクセスする
 
-監視レポートのホーム ページからピアツーピア アクティビティ概要レポートにアクセスします。 次の測定値のいずれかをクリックすると、 [Business Server の Skype でのピア ツー ピア IM レポート](im-report.md)を開きます。
+監視レポートのホーム ページからピアツーピア アクティビティ概要レポートにアクセスします。 [Skype For Business Server でピアツーピアの IM レポート](im-report.md)を開くには、次のいずれかの指標をクリックします。
   
 - ピアツーピア IM セッションの合計数
     

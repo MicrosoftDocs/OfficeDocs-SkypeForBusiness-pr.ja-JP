@@ -8,54 +8,54 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ユーザーを制御、匿名ユーザーをサポートするための会議ポリシーを構成して、特定のユーザーにその会議のポリシーを適用することによって匿名ユーザーを招待することができます。
-ms.openlocfilehash: afb107f7f3d91d634e5adaef4b9d0a2fbc1ee298
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 匿名ユーザーをサポートする会議ポリシーを構成し、その会議ポリシーを特定のユーザーに適用することによって、匿名ユーザーを招待できるユーザーを制御します。
+ms.openlocfilehash: d7956e68db3330f0804e6161e0eeaf52958bc588
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919536"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280286"
 ---
-# <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Skype のビジネス サーバーの匿名ユーザーをサポートする会議ポリシーを割り当てください。 
+# <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Skype for Business Server で匿名ユーザーをサポートする会議ポリシーを割り当てる 
 
 
-既定では、すべてのユーザーが会議に参加する匿名ユーザーの招待からできませんでした。 ユーザーを制御、匿名ユーザーをサポートするための会議ポリシーを構成して、特定のユーザーにその会議のポリシーを適用することによって匿名ユーザーを招待することができます。 匿名ユーザーをサポートするための会議ポリシーを構成する方法の詳細については、 [Skype ビジネス サーバー用の会議ポリシーを作成する](../../conferencing/create-policies.md)」および「[フェデレーションの管理および業務サーバー Skype への外部アクセス](../managing-federation-and-external-access.md)を参照してください。
+既定では、すべてのユーザーが匿名ユーザーを招待して会議に参加することはできません。 匿名ユーザーをサポートする会議ポリシーを構成し、その会議ポリシーを特定のユーザーに適用することによって、匿名ユーザーを招待できるユーザーを制御します。 匿名ユーザーをサポートするように会議ポリシーを構成する方法について詳しくは、「 [skype For Business server で会議ポリシーを作成](../../conferencing/create-policies.md)する」と「 [Skype for business server へのフェデレーションと外部アクセスを管理](../managing-federation-and-external-access.md)する」をご覧ください。
 
-このセクションの 1 つまたは複数のユーザーまたはユーザー グループを既に作成した会議ポリシーを適用するのに手順を使用します。
+このセクションの手順を使用して、既に作成済みの会議ポリシーを1人または複数のユーザーまたはユーザーグループに適用します。
 
 > [!NOTE]  
-> 構成して匿名ユーザーを招待するユーザーを有効にするポリシーを適用するだけでなくも、組織の匿名ユーザーのサポートを有効にする必要があります。 詳細については、 [Skype のビジネス サーバーのパブリック ユーザー アクセスを制御するポリシーを構成する](../external-access-policies/configure-policies-to-control-public-user-access.md)を参照してください。
+> ユーザーが匿名ユーザーを招待できるようにポリシーを構成して適用することに加えて、組織の匿名ユーザーのサポートも有効にする必要があります。 詳細については、「 [Skype For Business Server でパブリックユーザーアクセスを制御するためのポリシーを構成する](../external-access-policies/configure-policies-to-control-public-user-access.md)」を参照してください。
 
 
-## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>会議への匿名参加に対するユーザー ポリシーを構成するのには
+## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>会議への匿名参加用のユーザーポリシーを構成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
 
-3.  左側のナビゲーション ・ バーでは、**会議**をクリックし、次のいずれかの操作を行います。
+3.  左側のナビゲーションバーで、[**会議**] をクリックし、次のいずれかの操作を行います。
     
-    1.  新しいユーザー ポリシーを作成するには、[**新規**作成] をクリックし、[**ユーザー ポリシー**] をクリックします。 ユーザー ポリシーの説明 (たとえば、匿名ユーザーとの通信を有効にするユーザー ポリシーの**EnableAnonymous** ) を示す**名前**」フィールドに一意の名前を作成します。
+    1.  新しいユーザーポリシーを作成するには、[**新規**作成] をクリックし、[**ユーザーポリシー**] をクリックします。 [**名前**] フィールドに、ユーザーポリシーがどのようなものであるかを示す一意の名前を作成します (たとえば、匿名ユーザーとの通信を可能にする、ユーザーポリシーに対して**anonymous**を有効にします)。
     
-    2.  既存のユーザー ポリシーを構成するのには、表に記載されている適切なポリシー] をクリック**を編集**するには、**の詳細を表示**] をクリックします。
+    2.  既存のユーザーポリシーを構成するには、表に記載されている適切なポリシーをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-4.  **会議ポリシー** ] ダイアログ ボックスで、[**匿名ユーザーを招待する参加者を許可する**] チェック ボックスを選択します。
+4.  [**会議ポリシー** ] ダイアログボックスで、[**参加者に匿名ユーザーの招待を許可する**] チェックボックスをオンにします。
 
 5.  [**コミット**] をクリックします。
 
-6.  左側のナビゲーション バーで [**ユーザー**] をクリックしてを構成するユーザー アカウントを検索します。
+6.  左側のナビゲーションバーで [**ユーザー**] をクリックし、構成するユーザーアカウントを検索します。
 
 7.  検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-8.  **ビジネス サーバー ユーザーの編集の Skype**の**会議**ポリシーでは、このユーザーに適用する匿名ユーザー アクセスの構成とユーザー ポリシーを選択します。  
+8.  [**会議ポリシー**] の [ **Skype For business Server ユーザーの編集**] で、このユーザーに適用する匿名ユーザーアクセス構成を持つユーザーポリシーを選択します。  
 
     > [!NOTE]  
-    > <STRONG>&lt;自動&gt;</STRONG>の設定はサーバー インストールの既定の設定を適用し、サーバーによって自動的に適用されます。
+    > <STRONG> &lt;自動&gt; </STRONG>設定では、既定のサーバーインストール設定が適用され、サーバーによって自動的に適用されます。
 
 
-会議への匿名ユーザーを招待するユーザーを有効にするも、組織で匿名ユーザーのサポートを有効にする必要があります。 詳細については、 [Skype のビジネス サーバーのパブリック ユーザー アクセスを制御するポリシーを構成する](../external-access-policies/configure-policies-to-control-public-user-access.md)を参照してください。
+ユーザーが会議に匿名ユーザーを招待できるようにするには、組織内の匿名ユーザーのサポートも有効にする必要があります。 詳細については、「 [Skype For Business Server でパブリックユーザーアクセスを制御するためのポリシーを構成する](../external-access-policies/configure-policies-to-control-public-user-access.md)」を参照してください。
 

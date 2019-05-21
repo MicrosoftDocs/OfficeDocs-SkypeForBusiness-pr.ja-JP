@@ -1,25 +1,25 @@
 ---
-title: ビジネス サーバーの Skype でのピア ツー ピア セッション詳細レポート
+title: Skype for Business Server のピアツーピアセッションの詳細レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: '概要: は、ビジネスのサーバーの Skype でピア ツー ピア セッション詳細レポートについて説明します。'
-ms.openlocfilehash: 77b5a80c2280d5242e4efcc0dc696c6720da4f64
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のピアツーピアセッションの詳細レポートについて説明します。'
+ms.openlocfilehash: 768609c68e37eebf46c350009638b960066f9456
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925230"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279880"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのピア ツー ピア セッション詳細レポート
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Skype for Business Server のピアツーピアセッションの詳細レポート
  
-**の概要:** ビジネス サーバーの Skype でピア ツー ピア セッション詳細レポートについて説明します。
+**概要:** Skype for Business Server のピアツーピアセッションの詳細レポートについて説明します。
   
 ピアツーピア セッション詳細レポートは、ピアツーピア セッションに関する詳細情報を提供します。たとえば、インスタント メッセージング セッションを選択すると、セッション中に 2 人のユーザーのそれぞれが送信したメッセージ数がレポートに表示されます。
   
@@ -35,7 +35,7 @@ ms.locfileid: "33925230"
     
 - エラー リスト レポート 
     
-ピア ツー ピア セッション詳細レポート内からに診断レポート (詳細) のメトリックをクリックすると、 [Skype のビジネス サーバーの診断レポート](diagnostic-report.md)をアクセスできます。 次のいずれかの指標をクリックしてトップ エラー レポートにアクセスすることもできます。
+ピアツーピアセッションの詳細レポート内から、診断レポート (詳細) メトリックをクリックして、 [Skype For Business Server の診断レポート](diagnostic-report.md)にアクセスできます。 次のいずれかの指標をクリックしてトップ エラー レポートにアクセスすることもできます。
   
 - 応答
     

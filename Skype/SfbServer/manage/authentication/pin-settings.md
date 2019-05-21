@@ -1,47 +1,47 @@
 ---
-title: Skype でビジネス サーバー用の暗証番号 (pin) の設定を管理します。
+title: Skype for Business Server で PIN の設定を管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
-description: '概要: ビジネス サーバーの Skype の暗証番号 (pin) の設定を管理します。'
-ms.openlocfilehash: e7b3a4f7150ef077b1f419d72554e226f15c3d19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で PIN の設定を管理します。'
+ms.openlocfilehash: 70a55c99ccb7f18820321af2ff31db7fbfd0818f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919585"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289813"
 ---
-# <a name="manage-pin-settings-in-skype-for-business-server"></a>Skype でビジネス サーバー用の暗証番号 (pin) の設定を管理します。
+# <a name="manage-pin-settings-in-skype-for-business-server"></a>Skype for Business Server で PIN の設定を管理する
  
-**の概要:** ビジネス サーバーの Skype の暗証番号 (pin) の設定を管理します。
+**概要:** Skype for Business Server で PIN の設定を管理します。
   
-ビジネス サーバーの Skype のピンを管理するために、次のセクションで、手順を使用します。
+Skype for Business Server で Pin を管理するには、次のセクションの手順を使用します。
   
-ビジネス サーバーのコントロール パネルの Skype または Skype ビジネス サーバー管理シェルのいずれかからビジネス サーバー暗証番号 (pin) のポリシーには、Skype を管理できます。 組織の PIN ポリシーを構成するには、次の手順を使用します。
+Skype for business server コントロールパネルまたは Skype for Business Server 管理シェルから、Skype for Business Server PIN ポリシーを管理できます。 組織の PIN ポリシーを構成するには、次の手順を使用します。
   
-- [Skype のビジネス サーバーの暗証番号 (pin) ポリシー情報を表示します。](view-pin-policy-information.md)
+- [Skype for Business Server で PIN ポリシー情報を表示する](view-pin-policy-information.md)
     
-- [Skype のビジネス サーバーの新しい暗証番号 (pin) ポリシーを作成します。](create-a-new-pin-policy.md)
+- [Skype for Business Server で新しい PIN ポリシーを作成する](create-a-new-pin-policy.md)
     
-- [ビジネス サーバーの Skype で既存の PIN ポリシーを変更します。](modify-an-existing-pin-policy.md)
+- [Skype for Business Server で既存の PIN ポリシーを変更する](modify-an-existing-pin-policy.md)
     
-- [ビジネス サーバーの Skype の暗証番号 (pin) ポリシーを削除します。](delete-a-pin-policy.md)
+- [Skype for Business Server で PIN ポリシーを削除する](delete-a-pin-policy.md)
     
-- [ビジネス サーバーの Skype のユーザー単位の PIN ポリシーを割り当てる](assign-a-per-user-pin-policy.md)
+- [Skype for Business Server でユーザーごとの PIN ポリシーを割り当てる](assign-a-per-user-pin-policy.md)
     
-Skype の**ユーザー** ] セクションからビジネス サーバーのコントロール パネルのユーザーのダイヤルイン会議の Pin を管理するのにには、次の手順を使用します。
+次の手順を使用して、Skype for Business Server コントロールパネルの [**ユーザー** ] セクションからユーザーのダイヤルイン会議の pin を管理します。
   
-- [Skype のビジネス サーバーのユーザーのダイヤルイン会議の PIN を設定します。](set-a-user-s-dial-in-conferencing-pin.md)
+- [Skype for Business Server でユーザーのダイヤルイン会議の PIN を設定する](set-a-user-s-dial-in-conferencing-pin.md)
     
-- [ユーザー暗証番号 (pin) について、Skype のビジネス サーバーの表示](view-user-pin-information.md)
+- [Skype for Business Server でユーザーの PIN 情報を表示する](view-user-pin-information.md)
     
-- [ロックまたはビジネスのサーバーのユーザーの Skype では、暗証番号 (pin) のロックを解除](lock-or-unlock-a-user-pin.md)
+- [Skype for Business Server でユーザー PIN をロックまたはロック解除する](lock-or-unlock-a-user-pin.md)
     
 

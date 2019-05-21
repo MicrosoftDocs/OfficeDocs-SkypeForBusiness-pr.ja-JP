@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: パナマで利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 3ae2da65b2396e78e83da44a38036dea760b6235
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下は、パナマで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
+ms.openlocfilehash: 5b167413b3a34a67912610b61202a90ff9d35296
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232722"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276522"
 ---
 # <a name="availability-in-panama"></a>パナマでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-パナマで利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+以下は、パナマで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。<br/><ul><li> パナマ市</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li> パナマ市</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

@@ -5,70 +5,70 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: '概要: をインストールし、Skype のビジネス サーバー代理トランザクションの監視ノードを構成します。'
-ms.openlocfilehash: 5a4733175352af8c18cab20f7f8649c53275be7f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の代理トランザクション用にウォッチャーノードをインストールして構成します。'
+ms.openlocfilehash: 11d99ac51ab3b6c3d2cffbe2061a2e0527bfc633
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904203"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277623"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>監視ノードのインストールと構成
  
-**の概要:** インストールし、Skype のビジネス サーバー代理トランザクションの監視ノードを構成します。
+**概要:** Skype for Business Server の代理トランザクション用にウォッチャーノードをインストールして構成します。
   
-ウォッチャー ノードとは、Skype をビジネス サーバー代理トランザクションを定期的に実行しているコンピューターです。 代理トランザクションは、サインインする機能や、インスタント メッセージを交換する機能などの主要なユーザー シナリオが期待どおりに動作していることを確認する Windows PowerShell コマンドレットです。 ビジネス サーバー 2015 の Skype は、System Center Operations Manager は 3 つの合成のトランザクション タイプは、次の表に示すように代理トランザクションを実行できます。
+ウォッチャーノードは、Skype for Business Server の代理トランザクションを定期的に実行するコンピューターです。 代理トランザクションは、Windows PowerShell コマンドレットであり、サインインや exchange のインスタントメッセージなどの主要なユーザーシナリオが期待どおりに機能していることを確認します。 Skype for Business Server 2015 の場合、System Center Operations Manager は、次の表に示す代理トランザクションを実行できます。これには、3つの組み込みトランザクションの種類が含まれます。
   
-- **既定**ウォッチャー ノードが既定で実行されるトランザクションを合成します。 (合成) するを指定することができます新しいウォッチャー ノードを作成するときにそのノードで実行するトランザクションです。 (新規 CsWatcherNodeConfiguration コマンドレットで使用されるテスト パラメーターの目的は) です。ウォッチャー ノードを作成するときにテスト パラメーターを使用しない場合は自動的にすべてのデフォルト代理トランザクションを実行し、いずれかの既定以外の代理トランザクションは実行されません。 つまりなどの監視ノード テスト CsAddressBookService テストを実行するように構成されますが、テスト CsExumConnectivity テストを実行するのには構成されません。
+- **既定値**ウォッチャーノードが既定で実行する代理トランザクション。 新しいウォッチャーノードを作成するときに、そのノードが実行する代理トランザクションを指定できます。 (これは、CsWatcherNodeConfiguration コマンドレットで使用されるテストパラメーターの目的です。)ウォッチャーノードが作成されたときに Tests パラメーターを使用しないと、既定のすべての合成トランザクションが自動的に実行され、既定以外の代理トランザクションは実行されません。 つまり、たとえば、watcher ノードは、CsAddressBookService のテストを実行するように構成されていますが、テスト-CsExumConnectivity テストを実行するように構成されていないことを意味します。
     
-- **既定ではないです。** ウォッチャー ノードが既定では実行しないことをテストします。 (詳細については、既定の種類の説明を参照してください)。ただし、既定以外の代理トランザクションを実行するウォッチャー ノードを有効にすることができます。 (新規 CsWatcherNodeConfiguration コマンドレットを使用して) で、[監視] ノードを作成するまたはウォッチャー ノードの後に、いつでもが作成されたときに、これを行うことができます。 追加のセットアップ手順を必要とする既定以外の代理トランザクションの多くに注意してください。 これらの手順の詳細については、代理トランザクションの特殊なセットアップ手順を参照してください。 次の手順の詳細については、[代理トランザクションのセットアップの特別な指示](test-users-and-settings.md#special_synthetictrans)を参照してください。
+- **既定以外の**場合ウォッチャーノードが既定で実行されていないことをテストします。 (詳しくは、「既定の型の説明」をご覧ください)。ただし、ウォッチャーノードを有効にして、既定以外の代理トランザクションのいずれかを実行することができます。 これは、(CsWatcherNodeConfiguration コマンドレットを使用して) ウォッチャーノードを作成するとき、またはウォッチャーノードを作成した後であれば、いつでも行うことができます。 既定以外の代理トランザクションの多くには、追加のセットアップ手順が必要であることに注意してください。 この手順の詳細については、「代理トランザクション用の特別なセットアップ手順」を参照してください。 これらの手順の詳細については、「[代理トランザクション用の特別なセットアップ手順](test-users-and-settings.md#special_synthetictrans)」を参照してください。
     
-- **拡張**代理トランザクションの既定以外の特別な種類です。 他の代理トランザクションとは異なり、拡張テストは、1 回のパスで複数回実行できます。 これは、プールに対する複数の公衆交換電話網 (PSTN) 音声ルートなどの動作を検証するときに便利です。 これは、拡張テストの複数のインスタンスを監視ノードに追加するだけで構成できます。
+- **拡張**特別な種類の既定以外の代理トランザクション。 他の代理トランザクションとは異なり、拡張テストは、1 回のパスで複数回実行できます。 これは、プールに対する複数の公衆交換電話網 (PSTN) 音声ルートなどの動作を検証するときに便利です。 これは、拡張テストの複数のインスタンスを監視ノードに追加するだけで構成できます。
     
-監視ノードに他の代理トランザクションを追加する方法については、「[Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans)」を参照してください。 ビジネス サーバー管理シェルの Skype は、監視ノードから代理トランザクションを削除するのにも使用できます。
+監視ノードに他の代理トランザクションを追加する方法については、「[Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans)」を参照してください。 また、Skype for Business Server 管理シェルを使って、ウォッチャーノードから合成トランザクションを削除することもできます。
   
 監視ノードで使用できる代理トランザクションは以下のとおりです。
   
 |**コマンドレット名 (テスト名)**|**説明**|
 |:-----|:-----|
-|Test-CsAddressBookService (ABS)  <br/> |ユーザーが連絡先リストに登録されていないユーザーを検索することを確認します。  <br/> |
-|Test-CsAddressBookWebQuery (ABWQ)  <br/> |ユーザーが HTTP 経由で自分の連絡先リストに登録されていないユーザーを検索することを確認します。  <br/> |
+|Test-CsAddressBookService (ABS)  <br/> |ユーザーが連絡先リストに含まれていないユーザーを検索できることを確認します。  <br/> |
+|Test-CsAddressBookWebQuery (ABWQ)  <br/> |ユーザーが、連絡先リストに含まれていないユーザーを HTTP 経由で検索できることを確認します。  <br/> |
 |Test-CsAVConference (AvConference)  <br/> |ユーザーが音声/ビデオ会議で作成と参加が可能なことを確認します。  <br/> |
 |Test-CsGroupIM (IM Conferencing)  <br/> |ユーザーが会議中にインスタント メッセージを送信でき、3 人以上のユーザーとインスタント メッセージでの会話に参加できることを確認します。  <br/> |
 |Test-CsIM (P2P IM)  <br/> |ユーザーがピアツーピア インスタント メッセージを送信できることを確認します。  <br/> |
 |Test-CsP2PAV (P2PAV)  <br/> |ユーザーがピアツーピア音声通話を開始できることを確認します (シグナリングのみ)。  <br/> |
-|Test-CsPresence (Presence)  <br/> |ユーザーが他のユーザーのプレゼンスを表示することを確認します。  <br/> |
-|Test-CsRegistration (Registration)  <br/> |ユーザーは、Skype をビジネスのために、サインインすることを確認します。  <br/> |
+|Test-CsPresence (Presence)  <br/> |ユーザーが他のユーザーのプレゼンスを表示できることを確認します。  <br/> |
+|Test-CsRegistration (Registration)  <br/> |ユーザーが Skype for Business にサインインできることを確認します。  <br/> |
 |Test-CsPstnPeerToPeerCall (PSTN)  <br/> |ユーザーが企業の外部のユーザー (PSTN 番号) と通話できることを確認します。  <br/> |
 |Test-CsASConference (ASConference)  <br/> |ユーザーがアプリケーション共有電話会議の作成と参加を行うことができることを確認します。  <br/> |
 |Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |音声ビデオ エッジ サーバーがピアツーピア通話と会議通話を行うための接続を受け入れることができることを確認します。  <br/> |
 |Test-CsDataConference (DataConference)  <br/> |ユーザーが、データ グループ作業電話会議 (ホワイトボードや投票などのアクティビティが含まれるオンライン会議) に参加できることを確認します。  <br/> |
 |Test-CsDialinConferencing (DialinConferencing)  <br/> |ユーザーが電話番号をダイヤルして電話会議に参加できることを確認します。  <br/> |
 |Test-CsDialinConferencing (DialinConferencing)  <br/> |ユーザーが電話番号をダイヤルして電話会議に参加できることを確認します。  <br/> |
-|Test-CsExumConnectivity (ExumConnectivity)  <br/> |ユーザーが Exchange ユニファイド メッセージング (UM) に接続できることを確認します。  <br/> |
-|テスト-CsGroupIM-TestJoinLauncher (JoinLauncher)  <br/> |ユーザーがミーティングを作成でき、予定されたミーティングに Web アドレス リンクにより参加できることを確認します。  <br/> |
+|Test-CsExumConnectivity (ExumConnectivity)  <br/> |ユーザーが Exchange ユニファイドメッセージング (UM) に接続できることを確認します。  <br/> |
+|テスト-CsGroupIM-TestJoinLauncher (Joinランチャー)  <br/> |ユーザーがミーティングを作成でき、予定されたミーティングに Web アドレス リンクにより参加できることを確認します。  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |モバイル デバイス ユーザーがインスタント メッセージの登録と送信を実行できることを確認します。  <br/> |
-|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |ビデオの相互運用機能のサーバーが起動して、ビデオの SIP トランク経由で着信接続を処理できることを確認します。  <br/> **注:** 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |ビデオ相互運用機能サーバーが起動していて、ビデオ SIP トランク経由の着信接続を処理できることを確認します。  <br/> **注:** 従来のモバイルクライアントに対する MCX のサポートは、Skype for Business Server 2019 では利用できなくなりました。 |
 |Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |ユーザーが常設チャット サービスを使用してメッセージを交換できることを確認します。  <br/> |
 |Test-CsUcwaConference (UcwaConference)  <br/> |ユーザーが Web を介して電話会議に参加できることを確認します。  <br/> |
-|Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |統合連絡先ストアを通じてユーザーの連絡先にアクセスできることを確認します。 統合連絡先ストアには、ユーザーが単一のビジネス サーバー 2015、Outlook メッセージングおよびコラボレーション クライアントでは、または Outlook Web Access の Skype を使用してアクセスできるメンバーのセットを維持する方法が用意されています。  <br/> |
-|Test-CsXmppIM (XmppIM)  <br/> |インスタント メッセージを Extensible Messaging and Presence Protocol (XMPP) ゲートウェイ経由で送信できることを確認します。  <br/> XMPP ゲートウェイとプロキシ サーバー 2015 のビジネス用の Skype では利用ビジネス サーバー 2019 の Skype でサポートされていません。  |
+|Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |統合連絡先ストアを通じてユーザーの連絡先にアクセスできることを確認します。 統合連絡先ストアでは、Skype for Business Server 2015、Outlook メッセージングおよびコラボレーションクライアント、または Outlook Web Access を使用してアクセスできる単一の連絡先セットを管理することができます。  <br/> |
+|Test-CsXmppIM (XmppIM)  <br/> |インスタント メッセージを Extensible Messaging and Presence Protocol (XMPP) ゲートウェイ経由で送信できることを確認します。  <br/> XMPP ゲートウェイとプロキシは、Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。  |
 
-System Center Operations Manager を使用するウォッチャー ノードをインストールする必要はありません。 これらのノードをインストールしない場合でもから入手できますリアルタイム ・ アラート Skype サーバー 2015 のビジネス コンポーネントの問題が発生するたびにします。 (コンポーネントとユーザーの管理パックが使用ウォッチャー ノード)。ただし、監視ノードは、アクティブな監視管理パックを使用して、エンド ・ ツー ・ エンドのシナリオを監視する場合は、必要があります。
+System Center Operations Manager を使用するためにウォッチャーノードをインストールする必要はありません。 これらのノードをインストールしていない場合でも、問題が発生するたびに Skype for Business Server の2015コンポーネントからリアルタイムの通知を受け取ることができます。 (コンポーネントとユーザー管理パックはウォッチャーノードを使用しません)。ただし、アクティブな監視管理パックを使用してエンドツーエンドのシナリオを監視する場合は、監視ノードが必要です。
   
 > [!NOTE]
-> 管理者は、Operations Manager の使用やインストールを行わなくても、代理トランザクションを手動で実行することもできます。 サイズによっては、Skype をビジネス サーバーの展開の代理トランザクションは、大量のコンピューターのメモリとプロセッサ時間を使用できます。 このため、監視ノードとして専用のコンピューターを使用することをお勧めします。 など、Skype のビジネス サーバー フロント エンド サーバー監視ノードとして機能するように構成しないでください。 ウォッチャー ノードは、ビジネスのサーバー トポロジの場合、Skype での他のコンピューターと同じハードウェアの基本的な要件を満たす必要があります。 
+> 管理者は、Operations Manager の使用やインストールを行わなくても、代理トランザクションを手動で実行することもできます。 統合トランザクションでは、Skype for Business Server の展開のサイズに応じて、大量のコンピューターメモリとプロセッサ時間を使うことができます。 このため、監視ノードとして専用のコンピューターを使用することをお勧めします。 たとえば、Skype for Business Server フロントエンドサーバーを監視ノードとして機能するように構成することはできません。 ウォッチャーノードは、Skype for Business Server トポロジの他のコンピューターと同じ基本的なハードウェア要件を満たしている必要があります。 
   
 > [!NOTE]
-> 同じコンピューター上の Lync Server 2013 と Skype ビジネス サーバー 2015 のコア システム ファイルをインストールすることはできませんので、ビジネス サーバー 2015 ウォッチャー ノードを Skype と同じコンピューターにレガシーの Lync Server 2013 のウォッチャー ノードを共存させることはできません。 ただし、Skype のビジネス サーバー 2015 ウォッチャー ノードがビジネス サーバー 2015 と Lync Server 2013 の Skype を同時に監視することができます。 代理トランザクションの既定値は、両方の製品のバージョンでサポートされます。 
+> Lync server 2013 と skype for business server 2015 のコアシステムファイルを同じコンピューターにインストールできないため、従来の lync server 2013 ウォッチャーノードは、skype for business 2015 server の [ウォッチャー] ノードと同じコンピューター上に併置できません。 ただし、Skype for Business Server 2015 監視ノードでは、Skype for Business Server 2015 と Lync Server 2013 を同時に監視できます。 既定の代理トランザクションは、両方の製品バージョンでサポートされています。 
   
-確認するためにエンタープライズの内外は、Lync Server 2013 のウォッチャー ノードを展開する場合があります。
+Lync Server 2013 ウォッチャーノードは、確認のために企業内外に展開することができます。
   
 - 社内ユーザー用プールへの接続。
     
@@ -76,17 +76,17 @@ System Center Operations Manager を使用するウォッチャー ノードを�
     
 - ブランチ オフィス アプライアンスへの接続。
     
-- 企業の内部および境界領域のネットワークを介して Lync Server 2013 に接続します。
+- 企業内および境界ネットワーク経由での Lync Server 2013 への接続。
     
 管理を容易にするため、社内および社外用の異なる認証オプションがあります。詳細については、「[Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans)」を参照してください。
   
 監視ノードとして動作するようにコンピューターを構成するには、まず次の前提条件をすべて満たす必要があります。 
   
-- System Center Operations Manager をインストールし、管理パックのビジネス サーバー 2015 の Skype をインポートします。 まず、監視ノード コンピューターがビジネス サーバー 2015 の Skype をインストールするためのすべての前提条件を満たしているを確認する必要があります。
+- System Center Operations Manager をインストールして、Skype for Business Server 2015 管理パックをインポートします。 また、ウォッチャーノードコンピューターが Skype for Business Server 2015 をインストールするための前提条件をすべて満たしていることを確認する必要があります。
     
 - 監視ノード コンピューターに以下のアイテムをインストールします。
     
-  - フル バージョンの.NET Framework 4.5
+  - .NET Framework 4.5 の完全バージョン
     
   - Windows Identity Foundation
     
@@ -94,9 +94,9 @@ System Center Operations Manager を使用するウォッチャー ノードを�
     
 これらの前提条件が満たされた後、次の操作を実行して監視ノードを構成できます。
   
-1. ウォッチャー ノード コンピューター上のコア ファイルのビジネス サーバー 2015 の Skype をインストールします。
+1. ウォッチャーノードコンピューターに Skype for Business Server 2015 コアファイルをインストールします。
     
-2. ウォッチャー ノード コンピューターの System Center Operations Manager エージェントをインストールします。
+2. Watcher ノードコンピューターに System Center Operations Manager エージェントをインストールします。
     
 3. Watchernode.msi 実行可能ファイルの実行。
     
@@ -104,32 +104,32 @@ System Center Operations Manager を使用するウォッチャー ノードを�
     
 ## <a name="install-the-skype-for-business-server-2015-core-files-and-the-rtclocal-database"></a>Skype for Business Server 2015 コア ファイルおよび RTCLocal データベースのインストール
 
-ビジネス サーバー 2015 中核となるコンピューター上のファイル、Skype をインストールするには、次の手順を完了します。 RTCLocal データベースは、コア ファイルをインストールするときに自動的にインストールされます。 ウォッチャー ノードで SQL Server をインストールする必要はありません注意してください。 SQL Server Express が自動的にインストールされます。
+Skype for Business Server 2015 のコアファイルをコンピューターにインストールするには、次の手順を実行します。 RTCLocal データベースは、コア ファイルをインストールするときに自動的にインストールされます。 監視ノードに SQL Server をインストールする必要はないことに注意してください。 SQL Server Express が自動的にインストールされます。
   
-ビジネス サーバー 2015 のコア ファイルと RTCLocal データベースの Skype をインストールするには。
+Skype for Business Server 2015 コアファイルと RTCLocal データベースをインストールするには、次の操作を行います。
   
 1. 監視ノード コンピューターで、[スタート] ボタン、[すべてのプログラム]、[アクセサリ] の順にクリックし、[コマンド プロンプト] を右クリックし、[管理者として実行] をクリックします。
     
-2. コンソール ウィンドウで、次のコマンドを入力して Enter キーを押します。 Skype をビジネス サーバーのセットアップ ファイルを適切なパスを入力してください:/BootstrapLocalMgmtTo は、ビジネス サーバー コンポーネントのコア Skype が正常にインストールされていることを確認して D:\Setup.exe が [**スタート**] ボタン、[**すべてのプログラム**] をクリックして**ビジネス サーバー 2015 の Skype**をクリックし、 **Skype ビジネス サーバー管理シェル**] をクリックします。 ビジネス サーバー管理シェルの Skype では、次の Windows PowerShell コマンドを入力し、ENTER キーを押します。
+2. コンソール ウィンドウで、次のコマンドを入力して Enter キーを押します。 Skype for Business Server セットアップファイルへの適切なパスを入力してください: D:\Setup.exe/BootstrapLocalMgmtTo コア Skype for Business Server コンポーネントが正常にインストールされたことを確認するには、[**スタート**] をクリックし、[**すべてのプログラム**] をクリックします。[ **skype For Business server 2015**] をクリックし、[skype For Business **server 管理シェル**] をクリックします。 Skype for Business Server 管理シェルで、次の Windows PowerShell コマンドを入力し、enter キーを押します。
   
 ```
 Get-CsWatcherNodeConfiguration
 ```
 
 > [!NOTE]
-> 最初にこのコマンドを実行したときは、まだ監視ノード コンピューターを構成していないので何もデータが表示されません。 エラーを返さずにコマンドを実行する場合は、ビジネス サーバーのセットアップの Skype が正常に完了したことを想定できます。 
+> 最初にこのコマンドを実行したときは、まだ監視ノード コンピューターを構成していないので何もデータが表示されません。 このコマンドを実行してもエラーが返されない場合は、Skype for Business Server のセットアップが正常に完了したと見なすことができます。 
   
 監視ノード コンピューターが境界ネットワーク内にある場合は、次のコマンドを実行して Skype for Business Server 2015 のインストールを確認できます。
   
-Get CsPinPolicyYou 暗証番号 (pin) ポリシーを構成、組織で使用するための数によって、次のような情報が表示されます。
+CsPinPolicyYou は、組織で使用するように構成されている PIN ポリシーの数に応じて、次のような情報を受け取ります。
   
-識別情報: グローバル
+Identity: グローバル
   
-説明:
+説明
   
 MinPasswordLength: 5
   
-PINHistoryCount: 0
+Pinhistory カウント: 0
   
 AllowCommonPatterns: False
   
@@ -141,16 +141,16 @@ PIN ポリシーに関する情報が表示された場合は、コア コンポ
   
 ## <a name="install-the-operation-manager-agent-files-on-a-watcher-node"></a>監視ノードの Operation Manager エージェント ファイルのインストール
 
-同様に Skype ビジネス サーバーのセットアップ コンポーネントのアラートを報告するためのビジネス サーバー 2015 ウォッチャー ノードを Skype には、System Center Operations Manager エージェントのファイルをインストールするが必要です。 これにより、合成のトランザクションを実行して、システム センター操作マネージャー ルートの管理サーバーに報告する警告です。
+Skype for business Server のセットアップと同じように、レポートコンポーネントの通知を設定するには、Skype for Business Server 2015 ウォッチャーノードで System Center Operations Manager エージェントファイルをインストールする必要があります。 これにより、代理トランザクションが実行され、警告が System Center Operations Manager ルート管理サーバーに報告されます。
   
-エージェントのファイルをインストールするには、[構成 Skype ビジネス サーバーのコンピューターを監視するため](configure-computers-to-monitor.md)に記載されている手順に従います。
+エージェントファイルをインストールするには、「監視対象の[Skype For Business サーバーコンピューターを構成](configure-computers-to-monitor.md)する」の手順に従ってください。
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>代理トランザクションを実行する監視ノードの構成
 <a name="enable_synthetic_trans"> </a>
 
-System Center Operations Manager エージェントのファイルをインストールすると、ウォッチャー ノード自体を構成する必要があります。 監視ノードを構成する手順は監視ノードを境界ネットワークの内側に置くか、外側に置くかによって異なります。 
+System Center Operations Manager エージェントファイルがインストールされたら、ウォッチャーノード自体を構成する必要があります。 監視ノードを構成する手順は監視ノードを境界ネットワークの内側に置くか、外側に置くかによって異なります。 
   
-監視ノードの構成時には、そのノードが使用する認証方法の種類も選択する必要があります。 ビジネス サーバー 2015 の Skype を使用すると、2 つの認証方法のいずれかを選択する: 信頼されたサーバーまたは認証の資格情報です。 この 2 つの方法の主な違いを次の表にまとめます。
+監視ノードの構成時には、そのノードが使用する認証方法の種類も選択する必要があります。 Skype for Business Server 2015 では、2つの認証方法のいずれかを選択できます。信頼されたサーバーまたは資格情報認証。 この 2 つの方法の主な違いを次の表にまとめます。
   
 ||**説明**|**サポートされる場所**|
 |:-----|:-----|:-----|
@@ -162,19 +162,19 @@ System Center Operations Manager エージェントのファイルをインス�
 
 監視ノード コンピューターが境界ネットワーク内にある場合、信頼済みサーバー認証によって 1 つの証明書を管理するだけでよくなるので、管理負荷が大幅に軽減されます。膨大な数のユーザー アカウント パスワードを管理する必要はありません。
   
-信頼済みサーバー認証を構成するには、まず監視ノード コンピューターをホストする信頼済みアプリケーション プールを作成します。 信頼されたアプリケーション プールを作成した後は、信頼されたアプリケーションとして実行するウォッチャー ノードにし、代理トランザクションを構成しなければなりません。
+信頼済みサーバー認証を構成するには、まず監視ノード コンピューターをホストする信頼済みアプリケーション プールを作成します。 信頼されたアプリケーションプールを作成したら、そのウォッチャーノードの代理トランザクションを構成して、信頼できるアプリケーションとして実行する必要があります。
   
 > [!NOTE]
-> 信頼されたアプリケーションは、ビジネス サーバー 2015 年の Skype の一部として実行するのには信頼される側のステータスが与えられますが、組み込み製品の一部ではないアプリケーションです。 Trusted status means that the application will not be challenged for authentication each time it runs.
+> 信頼されたアプリケーションとは、Skype for Business Server 2015 の一部として実行される信頼された状態を提供するアプリケーションですが、製品の組み込みの一部ではありません。 Trusted status means that the application will not be challenged for authentication each time it runs.
   
-信頼されたアプリケーション プールを作成するには、ビジネス サーバー管理シェルを開くには、Skype と次のようなコマンドを実行します。
+信頼されたアプリケーションプールを作成するには、Skype for Business Server 管理シェルを開き、次のようなコマンドを実行します。
   
 ```
 New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 ```
 
 > [!NOTE]
-> 上記のコマンドのパラメーターに関する詳細については、ビジネスのサーバー管理シェル プロンプトの Skype から以下を入力します。 
+> 上記のコマンドのパラメーターの詳細については、「Skype for Business Server 管理シェルのプロンプトで次のように入力します。 
   
 ```
 Get-Help New-CsTrustedApplicationPool -Full | more
@@ -194,7 +194,7 @@ Enable-CsTopology
 
 Enable-CsTopology を実行後、コンピューターを再起動します。
   
-新しい信頼されたアプリケーションが作成されたことを確認するには、ビジネス サーバー管理シェル プロンプトの Skype で次を入力します。
+新しい信頼済みアプリケーションが作成されたことを確認するには、Skype for Business Server 管理シェルプロンプトで次のように入力します。
   
 ```
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
@@ -203,13 +203,13 @@ Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:applicati
 ## <a name="configure-a-default-certificate-on-the-watcher-node"></a>監視ノードで既定の証明書を構成する
 <a name="enable_synthetic_trans"> </a>
 
-向こう側にある認証を使用する各監視ノードには、Skype ビジネス サーバーの展開ウィザードを使用して割り当てられている既定の証明書が必要です。 
+TrustedServer 認証を使用する各ウォッチャーノードには、Skype for Business Server Deployment wizard を使って既定の証明書を割り当てる必要があります。 
   
 既定の証明書を割り当てるには
   
-1. [開始] をクリックしてすべてのプログラム] をクリックして、Skype ビジネス サーバー 2015 年の Skype をビジネス サーバーの展開ウィザードをクリックします。 
+1. [スタート] をクリックし、[すべてのプログラム] をクリックし、[Skype for Business server 2015] をクリックして、[Skype for Business Server Deployment ウィザード] をクリックします。 
     
-2. ビジネス サーバーの展開ウィザードの Skype、サーバーのビジネス システムのインストールまたは更新プログラムの Skype をクリックして.] の下の要求の実行、インストール、または証明書を割り当てる] をクリックし、 
+2. Skype for Business Server の展開ウィザードで、[Skype for Business Server システムのインストールまたは更新] をクリックし、[タイトルの要求]、[インストール]、または [証明書の割り当て] の [実行] をクリックします。 
     
 > [!NOTE]
 > [実行] ボタンをが無効になっている場合は、[ローカル構成ストアのインストール] で [実行] を最初にクリックしなければならないことがあります。 
@@ -223,11 +223,11 @@ Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:applicati
 ## <a name="install-and-configure-a-watcher-node"></a>監視ノードをインストールおよび構成する
 <a name="enable_synthetic_trans"> </a>
 
-ウォッチャー ノードのコンピューターを再起動し、証明書を構成した後は、ファイル Watchernode.msi を実行する必要があります。 (必要がありますを実行する Watchernode.msi の任意のコンピューターのオペレーション マネージャー エージェントのファイルとサーバー 2015 のビジネスのコア ・ コンポーネントの Skype の両方がインストールされている) 
+ウォッチャーノードのコンピューターを再起動して証明書を構成したら、Watchernode ファイルを実行する必要があります。 (Operations Manager エージェントファイルと Skype for Business Server 2015 コアコンポーネントの両方がインストールされているコンピューターであれば、Watchernode を実行する必要があります)。 
   
 監視ノードをインストールおよび構成するには
   
-1. ビジネス サーバー管理シェルの開始をクリックすると、すべてのプログラムをクリックすると、Skype ビジネス サーバー 2015 年をクリックし、Skype ビジネス サーバー管理シェルので、Skype を開きます。 
+1. [スタート] をクリックし、[すべてのプログラム]、[Skype for Business Server 2015]、[Skype for business Server 管理シェル] の順にクリックして、Skype for Business Server 管理シェルを開きます。 
     
 2. 管理シェルで、次のコマンドを入力して、Enter キーを押します (Watchernode.msi のコピーへの実際のパスを指定)。
     

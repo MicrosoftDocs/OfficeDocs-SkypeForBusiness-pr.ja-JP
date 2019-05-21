@@ -10,71 +10,71 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 などのビジネス PSTN 分プール レポートの Skype を使用すると、組織内で現在の月の期間中に消費する分の数を参照してください。
-ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '[新しい Skype for Business 管理センターのレポート] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business PSTN 分プールレポートを使用して、組織内の現在の月に消費された分数を確認することができます。'
+ms.openlocfilehash: 81622eff6954fb19b9b16e278a19ed70c6183b2e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239900"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287747"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN の利用分数プール レポート
 
 >[!NOTE]
->このレポートには、顧客をプレビューするのにはできるだけです。
+>このレポートは、プレビュー版のお客様のみご利用いただけます。
 
-ビジネス管理センター**のレポート**領域の新しい Skype は、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、 **Skype**ビジネス PSTN 分プールのレポートを使用すると、組織内で現在の月の期間中に消費する分の数を参照してください。
+[新しい Skype for Business 管理センターの**レポート**] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、 **Skype For BUSINESS PSTN 分プール**レポートを使用して、組織内の現在の月に消費された分数を確認することができます。
   
-利用可能な他のレポートの[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
+利用可能なその他のレポートについては、 [「レポートの概要」](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
   
-このレポートとは、ビジネス レポートの場合は、他の Skype 詳細を確認できます活動を組織全体にわたって。 これらの詳細については、調査、計画、および組織と[の通信のクレジット](/microsoftteams/what-are-communications-credits)を設定するための他のビジネスの意思決定を行うときに非常に役に立つ
+このレポートと他の Skype for Business レポートを使用すると、組織全体のアクティビティについて詳しく知ることができます。 これらの情報は、組織のビジネスに関する調査、計画、その他の意思決定の際に非常に役立ちます。また、[通信クレジット](/microsoftteams/what-are-communications-credits)を設定することも可能です。
   
 > [!NOTE]
 > Office 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
-## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>ビジネス PSTN 分プール レポートの Skype を取得する方法
+## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Skype for Business PSTN 分プールレポートを取得する方法
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
 
-- **Office 365 管理センター**を参照して > **管理センター** > **ビジネス管理センターの Skype** > **レポート** > **PSTN の分をプール**します。
+- **Office 365 管理センター** > **管理** > センター**の Skype for business 管理センター** > **レポート** > **PSTN 分のプール**に移動します。
     
 > [!NOTE]
-> によっては、Office 365 サブスクリプションがある場合、可能性があります表示されない場合、同じ詳細を次に示します。 
+> 使用している Office 365 サブスクリプションによっては、ここに示されているすべての詳細が表示されない場合があります。 
   
-## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>ビジネス PSTN 分プール レポートの Skype を解釈します。
+## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Skype for Business PSTN 分のプールレポートを解釈する
 
-ビジネス分プールのユーザーの Skype にビューを取得するには、各列に表示されるを見てします。
+表示されている各列を見ると、ユーザーの Skype for Business の分数プールを確認できます。
   
 レポートは、このように表示されます。
   
 ## 
 
-![ビジネス PSTN の分の Skype のプール レポート](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![Skype for Business PSTN 分プールレポート](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![ナンバー 1](../images/sfbcallout1.png)<br/>(機能) のライセンスと使用法の場所での分のプールの内訳を表に示します。 
-*    **機能**は、呼び出しに使用されるライセンスおよびサービス プランです。 このレポートに表示されるライセンスおよびサービスの計画は次のとおりです。
-     * MCOPSTN1 - 国内の呼び出し (3000 分分 1200 米国と EU の計画の計画
-     * MCOPSTN2 - 国内の & 国際を呼び出すことを計画、国内のプール (3000 分 PR/米国/カナダ、1200 分のヨーロッパの国々) と国際プール (600 分) に表示されます。 カレンダー月で国内 OR 国際 cap に達するたびに分の上限に達しました。 
-     * MCOPSTN5 - 国内の呼び出しのプラン (120 分の通話プラン)
-     * MCOPSTN6 - 国内の呼び出しの計画 (240 分の通話プラン)
-     * MCOMEETADD - オーディオ会議
-*    **機能の説明**は、呼び出しに使用するライセンスの種類の説明です。
-*    **国分のプール**とは、分のプールを共有しているユーザーのライセンス使用状況の場所です。 
-*    **使用分**は、1 か月の使用分の数です。
-*    **総分数**は、月の利用分の合計数です。 
-*    **使用率**は、月の利用時間の割合です。 
+![ナンバー 1](../images/sfbcallout1.png)<br/>この表には、ライセンス (機能) と使用状況の場所によって、分単位のプールの内訳が表示されています。 
+*    **機能**は、通話に使用されるライセンス/サービスプランです。 このレポートには、次のようなライセンス/サービスプランが表示されます。
+     * MCOPSTN1-国内通話プラン (3000-US/1200 分の EU プラン)
+     * MCOPSTN2-国内 & 国際通話プラン (3000-米国/カナダ/PR、1200分間ヨーロッパ諸国)、および国際プール (600 分) を表示します。 予定表の月内で国内または国際通話の上限に達したときに、分数の上限に達しました。 
+     * MCOPSTN5-国内通話プラン (120 分通話プラン)
+     * MCOPSTN6-国内通話プラン (240 分通話プラン)
+     * MCOMEETADD-電話会議
+*    **機能の説明**は、通話に使用されるライセンスの種類の説明です。
+*    [**国の分数プール**] は、分数プールを共有するユーザーのライセンス使用場所です。 
+*    [**使用時間 (分)** は、毎月使用される分数 (分) です。
+*    "**合計分数**" は、その月で利用可能な分数の合計数です。 
+*    [**使用率 (%)** は、月に使用される分数のパーセントです。 
 ***
 ![ナンバー 2](../images/sfbcallout2.png)<br/>1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。 
 ***
-![ナンバー 3](../images/sfbcallout3.png)<br/>また、[ **Excel にエクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。 <br/><br/> これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 2000 未満のユーザーをした場合は、並べ替えし、フィルター処理、レポート内のテーブル内でします。 ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。
+![ナンバー 3](../images/sfbcallout3.png)<br/>また、[ **Excel にエクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。 <br/><br/> これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 ユーザー数が2000より少ない場合は、レポート内のテーブル内で並べ替えとフィルター処理を行うことができます。 ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Skype for Business のその他のレポートを表示しますか?
 
@@ -82,15 +82,15 @@ ms.locfileid: "32239900"
     
 - [Skype for Business クライアントの使用レポート](device-usage-report.md) - Windows ベースのオペレーティング システムとモバイル デバイスを含む、Skype for Business アプリがインストールされていて IM と会議に使用されるデバイスを確認できます。
     
-- [Skype](conference-organizer-activity-report.md)ユーザーが IM、オーディオとビデオ、アプリケーションの共有、Web、アウト ・ サード ・ パーティ、/dial と/dial - を Microsoft を使用して会議を整理する量を確認できます。
+- [Skype For business 電話会議開催者アクティビティレポート](conference-organizer-activity-report.md)IM、音声/ビデオ、アプリケーション共有、Web、/ダイヤルアウト-サードパーティ、およびダイヤルアウト-Microsoft を使用して、ユーザーが会議をどの程度管理しているかを確認できます。
     
-- [Skype ビジネス会議参加者の設定アクティビティのレポートを](conference-participant-activity-report.md)何 IM、オーディオとビデオ、アプリケーションの共有を参照してください、Web と電話会議ダイヤルアウトが参加しています。
+- [Skype For business 電話会議参加者アクティビティレポート](conference-participant-activity-report.md)IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルアウト音声会議の数を確認できます。
     
 - [Skype for Business ピアツーピア アクティビティ レポート](peer-to-peer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。
     
-- [Skype ビジネス ユーザー向けには、レポートがブロックされています。](users-blocked-report.md)PSTN の呼び出しからブロックされている、組織内のユーザーを表示できます。
+- [Skype For business ユーザーがブロック](users-blocked-report.md)されたレポートPSTN 通話の発信をブロックされている組織内のユーザーを確認できます。
 
-- [Skype ビジネス セッション詳細レポート](session-details-report.md)個々 のユーザーの呼び出しの経験についての詳細を表示できます。
+- [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
 ## <a name="related-topics"></a>関連トピック
 [Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

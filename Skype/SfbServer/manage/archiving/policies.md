@@ -1,37 +1,37 @@
 ---
-title: ビジネス サーバーの Skype でのアーカイブ ・ ポリシーを管理します。
+title: Skype for Business Server でアーカイブポリシーを管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
-description: '概要: は、Skype のビジネス サーバーのアーカイブのユーザー ポリシーを管理する方法を説明します。'
-ms.openlocfilehash: 78c2e9d565ce755c9c23bce97702575a5861a23a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server のアーカイブのユーザーポリシーを管理する方法について説明します。'
+ms.openlocfilehash: f6918907f73ffe1b098ed96e1997d8ab8ffe4f9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884972"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278427"
 ---
-# <a name="manage-archiving-policies-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのアーカイブ ・ ポリシーを管理します。
+# <a name="manage-archiving-policies-in-skype-for-business-server"></a>Skype for Business Server でアーカイブポリシーを管理する
 
-**の概要:** Skype ビジネス サーバーのアーカイブのユーザー ポリシーを管理する方法について説明します。
+**概要:** Skype for Business Server のアーカイブのユーザーポリシーを管理する方法について説明します。
   
-最初に、アーカイブを展開するが、変更、追加、および展開後の構成を削除すると、アーカイブ ポリシーを設定します。 アーカイブ ・ ポリシーは、アーカイブするかどうかを決定します。 
+アーカイブの展開時にアーカイブポリシーを最初に設定しましたが、展開後に構成の変更、追加、削除を行うことができます。 アーカイブポリシーは、アーカイブするかどうかを決定します。 
   
 - 内部通信
     
 - 外部通信
     
-グローバル設定、サイト、またはユーザー レベル、アーカイブ ポリシーにすることができます。
+アーカイブポリシーは、グローバル、サイト、またはユーザーのレベルで設定できます。
   
 > [!NOTE]
-> 場合は有効にする Microsoft Exchange の統合、展開、Exchange ポリシーの管理に Exchange のホーム サーバーはユーザーのアーカイブが有効になっているし、インプレース保持に自分のメールボックスを配置するかどうか。 詳細については、 [Skype のビジネス サーバーでアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)と[構成との統合 Skype ビジネス サーバー用の Exchange の記憶域](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)を参照してください。 
+> 展開に対して Microsoft Exchange の統合を有効にしている場合、exchange のポリシーでは、Exchange を使用しているユーザーに対してアーカイブが有効になっているかどうかが制御されます。また、メールボックスはインプレースホールドに配置されています。 詳細については、「 [skype For Business server でのアーカイブの計画](../../plan-your-deployment/archiving/archiving.md)」および「 [Skype for business Server 用の Exchange storage との統合を構成する](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)」を参照してください。 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>コントロール パネルを使用してアーカイブ ポリシーを管理する
 
@@ -39,13 +39,13 @@ ms.locfileid: "33884972"
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
     
 3. 左側のナビゲーション バーで [**アーカイブ ポリシー**] をクリックします。
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Windows PowerShell を使用してアーカイブ ポリシーを管理する
 
-次の表に示す Windows PowerShell コマンドレットを使用してアーカイブ ポリシーを構成することもできます。 含むすべての利用可能なパラメーターの構文の詳細については、[ビジネス サーバー管理シェルの Skype](../management-shell.md)を参照してください。
+次の表に示す Windows PowerShell コマンドレットを使用してアーカイブ ポリシーを構成することもできます。 使用可能なすべてのパラメーターを含む構文の詳細については、「 [Skype For Business Server 管理シェル](../management-shell.md)」を参照してください。
   
 
 |**コマンドレット**|**説明**|
@@ -53,7 +53,7 @@ ms.locfileid: "33884972"
 |Get-CsArchivingPolicy  <br/> |組織のインスタント メッセージング (IM) セッションのアーカイブ ポリシーに関する情報を戻します。  <br/> |
 |Grant-CsArchivingPolicy  <br/> |インスタント メッセージング (IM) セッションのアーカイブ ポリシーをユーザーまたはユーザー セットに割り当てます。 これらのポリシーにより、内部ユーザー間で行われるすべての IM セッションをアーカイブしたり、内部ユーザーと外部パートナー間で行われるすべての IM セッションをアーカイブしたりすることができます。  <br/> |
 |New-CsArchivingPolicy  <br/> |新しいインスタント メッセージング (IM) セッション アーカイブ ポリシーを作成します。 これらのポリシーを使用すると、内部ユーザーどうし、または内部ユーザーと外部パートナーとの間で生じるすべての IM セッションをアーカイブできます。  <br/> |
-|Remove-CsArchivingPolicy  <br/> |指定したインスタント メッセージング (IM) アーカイブ ビジネス サーバーの Skype の内部ユーザー、および内部ユーザーとフェデレーション パートナーとの間のすべての IM セッションの間で行われるすべての IM セッションが自動的に保存するかどうかを決定するポリシーを削除します。  <br/> |
-|Set-CsArchivingPolicy  <br/> |既存インスタント メッセージング (IM) アーカイブ ポリシーを変更します。 アーカイブ ポリシーは、すべての IM セッションおよび内部ユーザー間で行われる会議をアーカイブする機能を提供します。内部ユーザーとフェデレーション パートナーの間で行われるセッションをアーカイブすることもできます。  <br/> |
+|Remove-CsArchivingPolicy  <br/> |内部ユーザーとフェデレーションパートナー間のすべての im セッションが、Skype for Business Server によって自動的に保存されるかどうかを決定する、指定したインスタントメッセージング (IM) アーカイブポリシーを削除します。  <br/> |
+|Set-CsArchivingPolicy  <br/> |既存のインスタントメッセージング (IM) アーカイブポリシーを変更します。 アーカイブポリシーを使用すると、内部ユーザー間で行われるすべての IM セッションと会議をアーカイブすることができます。内部ユーザーとフェデレーションパートナーの間で行われるセッションをアーカイブすることもできます。  <br/> |
    
 

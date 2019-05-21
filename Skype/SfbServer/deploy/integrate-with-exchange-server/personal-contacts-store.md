@@ -1,30 +1,30 @@
 ---
-title: Lync 2010 クライアント コンピューターの個人用連絡先ストアを構成します。
+title: Lync 2010 クライアントコンピューターで個人用連絡先ストアを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/29/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
-description: '概要: は、レガシ クライアントで使用されている個人用連絡先ストアを構成します。'
-ms.openlocfilehash: 5545f3c0f993b1974f59e90c0b6672f3ebd246e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: レガシクライアントで使用される個人用連絡先ストアを構成します。'
+ms.openlocfilehash: ba9cb7ee485f94162a642f8e877213a7bcd47c55
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894261"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278085"
 ---
-# <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Lync 2010 クライアント コンピューターの個人用連絡先ストアを構成します。
+# <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Lync 2010 クライアントコンピューターで個人用連絡先ストアを構成する
   
-ビジネス サーバー 2015 2016 の Exchange Server や Exchange Server 2013 の Skype を統合する場合は、クライアントによって使用される個人用の連絡先ストアを構成してください。 具体的には、Skype をビジネスで個人の連絡先ストアとして Exchange を使用し、同時に、ユーザーは、その判断をオーバーライドできないことを確認しますを構成する必要があります。 そのためには、各クライアント コンピューターでレジストリ値を作成して構成します。
+Skype for Business Server 2015 と Exchange Server 2016、または Exchange Server 2013 を統合する場合は、クライアントで使用する個人用連絡先ストアを構成する必要があります。 特に、Skype for Business が個人の連絡先ストアとして Exchange を使用するように構成し、同時にユーザーがその決定を上書きできないようにする必要があります。 そのためには、各クライアント コンピューターでレジストリ値を作成して構成します。
   
 > [!NOTE]
-> 次の手順は、Lync 2010 クライアントを使用するクライアントに必要なまたはそれ以前ではのみです。 Lync 2013 クライアントとビジネス クライアント用のすべての Skype は、連絡先ストアの設定を上書きすることはありません。
+> 次の手順は、Lync 2010 クライアントまたはそれ以前のバージョンを使用しているクライアントに対してのみ必要です。 Lync 2013 クライアントとすべての Skype for Business クライアントには、連絡先ストアの設定を上書きするオプションはありません。
   
 1 台のコンピューターでこの値を構成するには、次の手順を実行します。
   
@@ -35,5 +35,5 @@ ms.locfileid: "33894261"
 5. 新しい値を作成した後に「PersonalContactStoreOverride」と入力し、Enter キーを押して値の名前を変更します。
 6. PersonalContactStoreOverride の値が 0 に設定されていることを確認し、レジストリ エディターを閉じます。
 
-複数のコンピューターでこれと同じ変更をする必要がある場合は、カスタム グループ ポリシー オブジェクトを作成します。 Windows 10 でこれを行う方法の詳細については、[グループ ポリシー オブジェクトを作成する](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)資料を参照してください。
+複数のコンピューターでこれと同じ変更をする必要がある場合は、カスタム グループ ポリシー オブジェクトを作成します。 Windows 10 での操作の詳細については、「[グループポリシーオブジェクトを作成する](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)」を参照してください。
   

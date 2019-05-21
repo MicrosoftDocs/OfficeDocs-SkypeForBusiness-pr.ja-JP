@@ -1,50 +1,50 @@
 ---
-title: ネットワーク帯域幅ポリシーのプロファイルを管理します。
+title: ネットワーク帯域幅ポリシープロファイルの管理
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: この資料の表示、作成、変更、またはネットワークの帯域幅ポリシーのプロファイルを削除する手順を使用します。
-ms.openlocfilehash: bc76af70002cc1f5b59b754cd8b86fe0d4c5327f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ネットワーク帯域幅ポリシープロファイルを表示、作成、変更、または削除するには、この記事の手順を使用します。
+ms.openlocfilehash: 3b2b62e5e823a9d86f1884d79b67483bce38a39f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888843"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279523"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク帯域幅ポリシー プロファイルの管理
 
-この資料の表示、作成、変更、またはネットワークの帯域幅ポリシーのプロファイルを削除する手順を使用します。
+ネットワーク帯域幅ポリシープロファイルを表示、作成、変更、または削除するには、この記事の手順を使用します。
 
-## <a name="view-network-bandwidth-policy-profile-information"></a>ネットワークの帯域幅のポリシー プロファイルの情報を表示します。
+## <a name="view-network-bandwidth-policy-profile-information"></a>ネットワーク帯域幅ポリシーのプロファイル情報を表示する
 
-呼受付制御 (CAC) の一環として、帯域幅ポリシーを使用して、特定のモダリティの帯域幅の制限を定義します。 ビジネス サーバーの Skype にのみオーディオおよびビデオのモダリティ割り当てることができる帯域幅の制限です。 全体的な帯域幅の制限とセッション制限を設定することができます。 ビジネス サーバーのコントロール パネルの Skype を使用するには作成、変更、またはこれらのポリシーのコンテナー プロファイルを削除します。 各帯域幅ポリシーのプロファイルは、1 つまたは複数のネットワーク サイトと関連付けることができます。 帯域幅ポリシーのプロファイルを表示するのにには、次の手順を使用します。 
+通話受付制御 (CAC) の一部として、帯域幅ポリシーを使って、特定のモダリティの帯域幅の制限を定義します。 Skype for Business Server では、オーディオとビデオのモダリティのみに帯域幅の制限を割り当てることができます。 全体的な帯域幅の制限とセッションの制限を設定できます。 Skype for Business Server コントロールパネルを使って、これらのポリシーのコンテナープロファイルを作成、変更、または削除することができます。 各帯域幅ポリシーのプロファイルは、1つ以上のネットワークサイトに関連付けることができます。 帯域幅ポリシーのプロファイルを表示するには、次の手順を使用します。 
 
-### <a name="to-view-a-bandwidth-policy-profile"></a>帯域幅ポリシーのプロファイルを表示するのには
+### <a name="to-view-a-bandwidth-policy-profile"></a>帯域幅ポリシーのプロファイルを表示するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
 
-3.  左側のナビゲーション ・ バーで**ネットワークの構成**] をクリックし、**帯域幅ポリシー**] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**帯域幅ポリシー**] をクリックします。
 
-4.  [**帯域幅ポリシー** ] ページでは、帯域幅ポリシーのプロファイルを表示するをクリックします。
+4.  [**帯域幅ポリシー** ] ページで、表示する帯域幅ポリシープロファイルをクリックします。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
 
-### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ネットワーク帯域幅ポリシーのプロファイル情報を表示します。
+### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してネットワーク帯域幅ポリシーのプロファイル情報を表示する
 
-ネットワーク帯域幅のプロファイルは、Windows PowerShell と Get CsNetworkBandwidthPolicyProfile コマンドレットを使用して表示できます。 ビジネス サーバー管理シェルの Skype とは Windows PowerShell のリモート セッションからは、このコマンドレットを実行できます。 
+ネットワーク帯域幅プロファイルを表示するには、Windows PowerShell と CsNetworkBandwidthPolicyProfile コマンドレットを使用します。 このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 
 
 
-### <a name="to-view-network-bandwidth-policy-profile-information"></a>ネットワーク帯域幅ポリシーのプロファイル情報を表示するのには
+### <a name="to-view-network-bandwidth-policy-profile-information"></a>ネットワーク帯域幅ポリシーのプロファイル情報を表示するには
 
-  - すべてのネットワーク帯域幅ポリシー プロファイルに関する情報を表示するのには、Skype のビジネス サーバー管理シェルには、次のコマンドを入力し、ENTER キーを押します。
+  - すべてのネットワーク帯域幅ポリシープロファイルに関する情報を表示するには、Skype for Business Server 管理シェルで次のコマンドを入力して、enter キーを押します。
     
         Get-CsNetworkBandwidthPolicyProfile
     
@@ -59,95 +59,95 @@ ms.locfileid: "33888843"
         Description       :
 
 
-詳細については、 [Get CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)コマンドレットのヘルプトピックを参照してください。
 
 
-## <a name="create-or-modify-bandwidth-policy-profiles"></a>作成または帯域幅ポリシーのプロファイルを変更します。
+## <a name="create-or-modify-bandwidth-policy-profiles"></a>帯域幅ポリシープロファイルを作成または変更する
 
-呼受付制御 (CAC) の一環として、帯域幅ポリシーを使用して、特定のモダリティの帯域幅の制限を定義します。 ビジネス サーバーの Skype にのみオーディオおよびビデオのモダリティ割り当てることができる帯域幅の制限です。 全体的な帯域幅の制限とセッション制限を設定することができます。 ビジネス サーバーのコントロール パネルの Skype を使用するには作成、変更、またはこれらのポリシーのコンテナー プロファイルを削除します。 各帯域幅ポリシーのプロファイルは、1 つまたは複数のネットワーク サイトと関連付けることができます。 作成または帯域幅ポリシーのプロファイルを変更するには、次の手順を使用します。 
+通話受付制御 (CAC) の一部として、帯域幅ポリシーを使って、特定のモダリティの帯域幅の制限を定義します。 Skype for Business Server では、オーディオとビデオのモダリティのみに帯域幅の制限を割り当てることができます。 全体的な帯域幅の制限とセッションの制限を設定できます。 Skype for Business Server コントロールパネルを使って、これらのポリシーのコンテナープロファイルを作成、変更、または削除することができます。 各帯域幅ポリシーのプロファイルは、1つ以上のネットワークサイトに関連付けることができます。 帯域幅ポリシープロファイルを作成または変更するには、次の手順を使用します。 
 
-### <a name="to-create-a-new-bandwidth-policy-profile"></a>新しい帯域幅ポリシー プロファイルを作成するには
+### <a name="to-create-a-new-bandwidth-policy-profile"></a>新しい帯域幅ポリシープロファイルを作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
 
-3.  左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、**帯域幅ポリシー**] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**帯域幅ポリシー**] をクリックします。
 
-4.  [**帯域幅ポリシー** ] ページで [**新規**を] をクリックします。
+4.  [**帯域幅ポリシー** ] ページで、[**新規**] をクリックします。
 
-5.  **新しい帯域幅ポリシー プロファイル**の **[名前**] フィールドに名前を入力します。 この名前は、すべての帯域幅ポリシー プロファイルの中で一意である必要があります。
+5.  **新しい帯域幅ポリシープロファイル**で、[**名前**] フィールドに名前を入力します。 この名前は、すべての帯域幅ポリシープロファイルの間で一意である必要があります。
 
-6.  **オーディオの制限**] フィールドに数値を入力します。 この値は、帯域幅を kbps 単位で表されるすべてのオーディオ接続に割り当てることの最大量です。
+6.  [**オーディオ制限**] フィールドに数値を入力します。 この値は、すべてのオーディオ接続に割り当てることができる最大帯域幅です。 kbps で表されます。
 
-7.  **オーディオ セッションの制限**] フィールドに数値を入力します。 この値は、帯域幅を kbps 単位で表される、個々 のオーディオ接続に割り当てることの最大量です。 この値は、40 以上である必要があります。
+7.  [**オーディオセッションの制限**] フィールドに数値を入力します。 この値は、個々の音声接続に割り当てられる帯域幅の上限です。 kbps で表されます。 この値は40以上である必要があります。
 
-8.  **ビデオの制限**] フィールドに数値を入力します。 この値は、帯域幅を kbps 単位で表されるすべてのビデオ接続に割り当てることの最大量です。
+8.  [**ビデオの制限**] フィールドに数値を入力します。 この値は、すべてのビデオ接続に割り当てることができる最大帯域幅です。 kbps で表されます。
 
-9.  **ビデオ セッションの制限**] フィールドに数値を入力します。 この値は、最大限の帯域幅を kbps 単位で表される、個々 のビデオ接続に割り当てることです。 この値は、100 以上にする必要があります。
+9.  [**ビデオセッションの制限**] フィールドに数値を入力します。 この値は、個々のビデオ接続に割り当てることができる最大帯域幅です。 kbps で表されます。 この値は100以上である必要があります。
 
-10. (省略可能)表すことのできない名前だけで、この帯域幅ポリシー プロファイルの詳細については、[**説明**] フィールドに値を入力します。
+10. 省略[**説明**] フィールドに値を入力して、この帯域幅ポリシープロファイルの詳細情報を指定します。
 
 11. [**コミット**] をクリックします。
 
     > [!NOTE]  
-    > 新しい帯域幅ポリシー プロファイルを作成するも、帯域幅の制限は自動的に適用されません。 サイト ポリシーのプロファイルを関連付ける必要があります最初。 
+    > 新しい帯域幅ポリシープロファイルを作成しても、帯域幅の制限は自動的に適用されません。 最初にポリシープロファイルをサイトに関連付ける必要があります。 
 
 
-### <a name="to-modify-a-bandwidth-policy-profile"></a>帯域幅ポリシーのプロファイルを変更するのには
+### <a name="to-modify-a-bandwidth-policy-profile"></a>帯域幅ポリシーのプロファイルを変更するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
 
-3.  左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、**帯域幅ポリシー**] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**帯域幅ポリシー**] をクリックします。
 
-4.  [**帯域幅ポリシー** ] ページで、変更する帯域幅ポリシーのプロファイルをクリックします。
+4.  [**帯域幅ポリシー** ] ページで、変更する帯域幅ポリシープロファイルをクリックします。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-6.  [**帯域幅ポリシーのプロファイルの編集**] ページで、必要に応じてフィールドを変更します (詳細についてを参照してください[新しい帯域幅ポリシー プロファイルを作成する](#to-create-a-new-bandwidth-policy-profile))。
+6.  [**帯域幅ポリシープロファイルの編集**] ページで、必要に応じてフィールドを変更します (詳細については、「[新しい帯域幅ポリシープロファイルを作成する」を](#to-create-a-new-bandwidth-policy-profile)参照してください)。
 
 7.  [**コミット**] をクリックします。
 
     > [!NOTE]  
-    > 帯域幅ポリシーのプロファイルを変更すると、この帯域幅ポリシー プロファイルに関連付けられているすべてのネットワーク サイトの帯域幅の制限が即座に更新されます。
+    > 帯域幅ポリシーのプロファイルを変更すると、この帯域幅ポリシープロファイルに関連付けられたすべてのネットワークサイトの帯域幅の制限がすぐに更新されます。
 
   
-## <a name="delete-network-bandwidth-policy-profiles"></a>ネットワーク帯域幅ポリシー プロファイルを削除します。
+## <a name="delete-network-bandwidth-policy-profiles"></a>ネットワーク帯域幅ポリシープロファイルを削除する
 
-呼受付制御 (CAC) の一環として、帯域幅ポリシーを使用して、特定のモダリティの帯域幅の制限を定義します。 ビジネス サーバーの Skype にのみオーディオおよびビデオのモダリティ割り当てることができる帯域幅の制限です。 全体的な帯域幅の制限とセッション制限を設定することができます。 ビジネス サーバーのコントロール パネルの Skype を使用するには作成、変更、またはこれらのポリシーのコンテナー プロファイルを削除します。 ネットワークの帯域幅ポリシー プロファイルを削除するのにには、次の手順を使用します。 
+通話受付制御 (CAC) の一部として、帯域幅ポリシーを使って、特定のモダリティの帯域幅の制限を定義します。 Skype for Business Server では、オーディオとビデオのモダリティのみに帯域幅の制限を割り当てることができます。 全体的な帯域幅の制限とセッションの制限を設定できます。 Skype for Business Server コントロールパネルを使って、これらのポリシーのコンテナープロファイルを作成、変更、または削除することができます。 ネットワーク帯域幅ポリシーのプロファイルを削除するには、次の手順を使用します。 
 
-### <a name="to-delete-a-bandwidth-policy-profile"></a>帯域幅ポリシー プロファイルを削除するには
+### <a name="to-delete-a-bandwidth-policy-profile"></a>帯域幅ポリシーのプロファイルを削除するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
 
-3.  左側のナビゲーション ・ バーでは、**ネットワーク構成**をクリックし、**帯域幅ポリシー**] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**帯域幅ポリシー**] をクリックします。
 
-4.  [**帯域幅ポリシー** ] ページで、削除する帯域幅ポリシーのプロファイルをクリックします。
+4.  [**帯域幅ポリシー** ] ページで、削除する帯域幅ポリシープロファイルをクリックします。
 
     > [!NOTE]  
-    > 同時に複数のプロファイルを削除できます。 これを行うには、CTRL キーを押し、CTRL キーを押しながら複数のプロファイルを選択します。 または、すべてのプロファイルを選択するに **[すべて選択**] をクリックして **[編集**] メニューです。
+    > 一度に複数のプロファイルを削除できます。 これを行うには、ctrl キーを押しながら、CTRL キーを押しながら複数のプロファイルを選択します。 または、すべてのプロファイルを選択するには、[**編集**] メニューの [**すべて選択**] をクリックします。
 
 5.  [**編集**] メニューの [**削除**] をクリックします。
    
 
     > [!WARNING]  
-    > ネットワーク サイトに関連付けられている帯域幅ポリシーのプロファイルを削除することはできません。 プロファイルを削除する前に、ネットワーク サイトとの関連付けを削除する必要があります。 
+    > ネットワークサイトに関連付けられている帯域幅ポリシープロファイルを削除することはできません。 プロファイルを削除するには、最初にネットワークサイトとの関連付けを削除する必要があります。 
 
 
 ## <a name="see-also"></a>関連項目
 
-[サイトの呼受付制御を管理します。](managing-call-admission-control-for-sites.md)
+[サイトの通話受付制御の管理](managing-call-admission-control-for-sites.md)
  
-[新しい-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
+[新規-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
 
-[セット CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
+[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
 
 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
 
-[削除 CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  
+[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  
   
 

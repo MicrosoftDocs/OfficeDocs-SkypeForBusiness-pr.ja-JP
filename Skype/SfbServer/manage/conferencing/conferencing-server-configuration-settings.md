@@ -1,35 +1,35 @@
 ---
-title: 会議サーバーの構成設定で Skype のビジネス サーバーを管理します。
+title: Skype for Business Server で会議サーバーの構成設定を管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: '概要: ビジネス サーバーの Skype で会議サーバーの構成設定を管理する方法を説明します。'
-ms.openlocfilehash: 5727fffa8651d16be010dd76584d51c447c34087
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で会議サーバーの構成設定を管理する方法について説明します。'
+ms.openlocfilehash: 190cd78e3c81f98859c40fe386fae2c4fd934a8e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919550"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289000"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>会議サーバーの構成設定で Skype のビジネス サーバーを管理します。
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で会議サーバーの構成設定を管理する
  
-**の概要:** 会議サーバーの構成設定で Skype のビジネス サーバーを管理する方法について説明します。
+**概要:** Skype for Business Server で会議サーバーの構成設定を管理する方法について説明します。
   
-このトピックでは、会議サーバーの構成設定を管理する方法について説明します。 予定し、会議を展開する方法の詳細については、[ビジネスのサーバー用の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)と[ビジネス サーバーの Skype で会議を展開](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
+このトピックでは、会議サーバーの構成設定を管理する方法について説明します。 会議の計画と展開の詳細については、「Skype for business [server で会議の計画を立てる](../../plan-your-deployment/conferencing/conferencing.md)」および「 [Skype for business server で会議を展開](../../deploy/deploy-conferencing/deploy-conferencing.md)する」を参照してください。
   
-会議構成設定の決定など、サイズが最大の会議の内容と配布資料です。アプリケーション共有会議サービス用の帯域幅の最大値格納域の制限と有効期限です。内部および外部の Url がサポートされているクライアントのダウンロードします。ユーザーが会議のヘルプとリソースを取得できる内部および外部の Url へのポインターアプリケーションの共有、クライアント側のオーディオ、ファイル転送、およびメディア トラフィックに使用するポートです。 これらの設定により、実際のサーバーそのものを管理できます。 Skype ビジネス サーバー管理シェルを使用してこれらの設定を設定できます。
+会議の構成の設定では、会議コンテンツと配布資料で許可される最大サイズなどの項目を指定します。アプリケーション共有会議サービスの最大帯域幅。記憶域の制限と有効期間サポートされているクライアントの内部および外部ダウンロードの Url。ユーザーが会議のヘルプとリソースを取得できる内部と外部の Url へのポインター。アプリケーション共有、クライアントオーディオ、ファイル転送、メディアトラフィックに使用されるポート。 これらの設定により、実際のサーバーそのものを管理できます。 これらの設定は、Skype for Business Server 管理シェルを使用して設定できます。
   
-ビジネス サーバーの Skype をインストールするときにシステムで会議の単一のコレクション (グローバル コレクション) の構成設定。 サイトまたはサービス用のカスタム設定を作成する場合は、**新規 CsConferencingConfiguration**コマンドレットを使用してこれを行うことができます。 サイトまたはサービス スコープでのみ新しい設定を適用できることに注意してください。構成の設定、会議の新しいグローバル コレクションを作成できませんが、**セット CsConferencingConfiguration**コマンドレットを使用してグローバル コレクションを変更することができます。 さらに、サイトまたはサービスをホストできますなしの設定の 1 つ以上のコレクションです。 しようとするとサイトと、レドモンドは、レドモンドの新しい設定を作成するサイトは既にホスト会議構成設定のコレクションから、コマンドは失敗します。
+Skype for Business Server をインストールすると、会議構成設定 (グローバルコレクション) の1つのコレクションが提供されます。 サイトまたはサービスのカスタム設定を作成する必要がある場合は、 **CsConferencingConfiguration**コマンドレットを使用して行うことができます。 新しい設定は、サイトまたはサービスの範囲に対してのみ適用されることに注意してください。会議の構成設定の新しいグローバルコレクションを作成することはできませんが、 **CsConferencingConfiguration**コマンドレットを使用してグローバルコレクションを変更することができます。 さらに、サイトまたはサービスでは、複数の設定のコレクションをホストすることはできません。 Redmond サイトの新しい設定を作成しようとしたときに、Redmond サイトが既に会議構成設定のコレクションをホストしている場合、コマンドは失敗します。
   
-## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>ビジネス サーバー管理シェルの Skype を使用して、会議構成設定を管理します。
+## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議構成設定を管理する
 
-Skype ビジネス サーバー管理シェルを使用して会議の構成の設定を管理するには、次のコマンドレットを使用します。
+Skype for Business Server 管理シェルを使用して会議構成設定を管理するには、次のコマンドレットを使用します。
   
 **電話会議の構成設定**
 

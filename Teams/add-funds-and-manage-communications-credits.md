@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -28,43 +28,43 @@ f1keywords:
 - O365P_SFBVoiceCreditAether
 ms.custom:
 - Licensing
-description: 'ビジネス サービスの通信のクレジット (PSTN の消費) の Skype のお支払いし、継続的な電話システムのアクセス権を持つユーザーを保持する計画を参照してくださいする方法について説明します。 '
-ms.openlocfilehash: aceb1fab6cfffeaca174c156b1f54ffd9bcd09bb
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+description: 'Skype for Business サービスの通信クレジット (PSTN 追加機能プラン) に対する支払い方法と、継続的な電話システムへのアクセスをユーザーに許可するプランについて説明します。 '
+ms.openlocfilehash: 93fb828f434c07b32852711772b6c16613415749
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970285"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278321"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
-通信のクレジットは、電話システムと Office 365 のプランを呼び出すことをお支払いする便利な方法です。 通信のクレジットでは、ユーザーや、ユーザーができなくてまったく流行しなかったことを確認を支援します。
+通信クレジットは、Office 365 で電話システムと通話プランの支払いに便利な手段です。 通信クレジットを使用すると、ユーザーとユーザーがキャッチされずに、次のことを行うことができます。
   
-- フリー ダイヤルで電話番号を使用してオーディオ会議の会議にダイヤルインします。
+- 無料のダイヤルイン電話番号を使用して、電話会議にダイヤルインします。
     
-- 世界中の任意の場所から他のユーザー追加するのには、オーディオ会議の会議から発信します。
+- 電話会議からダイヤルアウトして、世界中のどこからでも他のユーザーを追加します。
     
-- ビジネスまたはマイクロソフトのチームのアプリケーションがインストールされているため、Skype で携帯電話、オーディオ会議の会議から発信します。
+- Skype for Business または Microsoft Teams アプリがインストールされている状態で、電話会議から携帯電話にダイヤルアウトします。
     
-- **国内を呼び出す予定**がある場合は、すべての国際電話番号をダイヤルします。
+- **国内通話プラン**を利用している場合は、任意の国際電話番号にダイヤルできます。
     
-- ダイヤルアウトして、月単位の分数を試した後、1 分あたりの支払します。
+- 月額プランの月額プランがなくなった場合は、1分あたりのダイヤルアウトと料金がかかります。
     
 > [!NOTE]
-> 量と速度がわからない場合は、[計画を呼び出す](https://go.microsoft.com/fwlink/p/?LinkId=799523)ページの単価表を参照してください。
+> 料金と料金について知りたい場合は、「[通話プラン](https://go.microsoft.com/fwlink/p/?LinkId=799523)」ページで「料金表」を参照してください。
   
-管理者としてすることが資金を手動で追加または私たち自動リチャージを設定すること**をお勧め**します。
+管理者は、手動で資金を追加するか、自動再充電を設定すること**** ができます。
   
 自動再チャージでは、設定した金額を下回ると、自動的に最高額まで残高が追加されます。自動再チャージの使用をお勧めします。これにより、利用可能残高の手動による追加を忘れないようにする必要がなくなります。利用可能残高が設定した金額を下回ると、自動的にチャージされます。自動再チャージを選択していないと、利用可能残高がゼロを下回ってしまうことがあります。その時点で、管理者やユーザーは無料通話や国際通話を発信できなくなります。
   
-支払いオプションはいつでも更新できます。 [**サブスクリプション**] ページでは、**通信のクレジット**を選択し、変更を加えます。
+支払いオプションはいつでも更新できます。 [**サブスクリプション**] ページで、[**通信クレジット**] を選択して、更新を行います。
   
-資金は、サービスを使用すると、マイクロソフトの公開されているレートでの通信のクレジットにのみ適用されます。 12 (12 か月以内の購入日を使用しないすべての資金は終了し、没収されます。
+サービスが使用されると、Microsoft の公開料金でクレジットが適用されます。 12ヶ月12日以内に使用していなかった資金は、有効期限が切れて forfeited されます。
   
 > [!TIP]
-> (たとえば、クレジット_カードの有効期限) ときに自動充電が失敗したときと、残高が 0 を下回ると、自動再充電の場合を使用して資金が追加されたときの通知にメールをお送りします。 
+> 自動再充電の際に、自動再充電 (クレジットカードの有効期限が切れた場合など)、または残高がゼロ未満の場合は、メール通知が送信されます。 
   
-詳細についてを参照してください[通信のクレジットは何ですか?](what-are-communications-credits.md)
+詳細については、「[通信クレジットとは](what-are-communications-credits.md)」を参照してください。
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>プランと価格の詳細情報
 
@@ -72,13 +72,13 @@ ms.locfileid: "33970285"
   
 - [通話プラン](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
-- [オーディオ会議を計画します。](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [電話会議プラン](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
-- [電話システムを計画します。](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [電話システムプラン](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-[Microsoft 365 の管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)しても情報を確認でき、**課金**しようとしています。 > **サブスクリプション** > **追加のサブスクリプション**。
+[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、[サブスクリプションの**** > **** > **追加**] サブスクリプションに移動して、情報を表示することもできます。
   
-ライセンスまたはライセンスの機能ごとにする必要があるテーブルを表示するには、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
+各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
 ## <a name="related-topics"></a>関連トピック
 

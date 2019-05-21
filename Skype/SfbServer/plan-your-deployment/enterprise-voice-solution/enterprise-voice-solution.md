@@ -1,10 +1,10 @@
 ---
-title: Skype でエンタープライズ VoIP ソリューションをビジネスのサーバーの計画します。
+title: Skype for Business Server でエンタープライズ Voip ソリューションを計画する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,43 +13,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
-description: '概要: は、ビジネスのサーバーの Skype に統合された音声との通信ソリューションを計画するためのオプションについて説明します。'
-ms.openlocfilehash: 100fbd2e3f8f51e3c9f5ad8cfd48951b664dabd3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server での統合された音声および通信ソリューションの計画に関するオプションについて説明します。'
+ms.openlocfilehash: 7d9df9b8b5997a08a04ddcc802914b0dc01a23c0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924382"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276874"
 ---
-# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Skype でエンタープライズ VoIP ソリューションをビジネスのサーバーの計画します。
+# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Skype for Business Server でエンタープライズ Voip ソリューションを計画する
  
-**の概要:** ビジネス サーバーの Skype に統合された音声との通信ソリューションを計画するためのオプションについて説明します。
+**概要:** Skype for Business Server での統合された音声および通信ソリューションの計画に関するオプションについて説明します。
   
-Skype ビジネス サーバーが 2 つ設置エンタープライズ VoIP のオプションを提供しています-エンタープライズ VoIP と作業時間を使用して呼び出し、ビジネス サーバーの展開について、Skype で、組織の電話システムを統合するため、真のコミュニケーションを統合ソリューションです。 両方のオプションは、組織の内外の他のユーザーと音声通話を開始するビジネス クライアント用の Skype を使用するユーザーを有効にします。
+Skype for Business Server では、組織の電話システムと Skype for Business Server の展開を統合し、真の統合コミュニケーションを実現するために、オンプレミスのエンタープライズ音声オプションを2つ提供します。ソリューション. どちらのオプションでも、ユーザーは Skype for Business クライアントを使用して、組織内外の他のユーザーとの音声通話を開始することができます。
   
-など PBX サービス PSTN 通話の場合、設置、テレフォニー インフラストラクチャをビジネス オンラインの Skype によって提供されるサービスに接続することによって、マイクロソフトのクラウド PBX サービスの利用を実行することもできます。 詳細については、 [Office 365 (クラウド PBX) ソリューションの電話システムの計画](../../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md)を参照してください。
+オンプレミスのテレフォニーインフラストラクチャを Skype for Business Online によって提供されるサービスに接続することによって、PBX サービスや PSTN 通話などの Microsoft Cloud PBX サービスを利用することもできます。 詳細については、「 [Office 365 (クラウド PBX) ソリューションで電話システムを計画する](../../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md)」を参照してください。
   
-エンタープライズ VoIP と作業時間を使用して呼び出しの両方を同時使用することもできます。
+エンタープライズボイスと通話の両方を共同作業で使用することもできます。
   
-- エンタープライズ VoIP は最も完成度の高い音声サービスです。 ソフトウェア ベースのボイス オーバー IP (VoIP) ソリューションで、Outlook および Exchange との機能豊富な統合、および応答グループ、コール パーク、チーム呼び出し、グループ通話ピックアップ、拡張緊急 E9-1-1 のサポートなどの多くの強力な機能を提供します。 エンタープライズ VoIP のでは、ユーザーは自分のコンピューター、または従来の PSTN の代わりに、VoIP 対応の電話や PBX 電話ヘッドセットなどのオーディオ デバイスを使用します。
+- エンタープライズ VoIP は最も完成度の高い音声サービスです。 ソフトウェア ベースのボイス オーバー IP (VoIP) ソリューションで、Outlook および Exchange との機能豊富な統合、および応答グループ、コール パーク、チーム呼び出し、グループ通話ピックアップ、拡張緊急 E9-1-1 のサポートなどの多くの強力な機能を提供します。 エンタープライズ Voip では、ユーザーは、従来の PSTN または PBX 電話ではなく、VoIP 対応の電話であるヘッドセットなどのオーディオデバイスを使用します。
     
-- 作業を使用して呼び出すには、既存の PBX 電話システムとのビジネス ソリューションは、Skype を統合するための方法が用意されています。 ビジネスでの展開、または外部のユーザーであっても、他のユーザーを呼び出す Skype の呼び出しを使用して有効になっているユーザーことができますをクリックします。 この通話は、ユーザーの PBX 電話を使用して実現されます。 さらに、これらのユーザーは、会議に参加するビジネス用の Skype でクリックできます。
+- 勤務先からの通話 Skype for Business ソリューションと既存の PBX 電話システムを統合するための手段を提供します。 勤務先からの通話が有効になっているユーザーは、[Skype for Business] をクリックして、展開または外部ユーザーのいずれかで別のユーザーに電話をかけることができます。 この通話は、ユーザーの PBX 電話を使用して実現されます。 さらに、これらのユーザーは、Skype for Business でクリックして会議に参加することができます。
     
-    作業を通じて呼び出しを配置するも、利点はまだ PBX 電話がエンタープライズ VoIP に移行しているユーザーにビジネス クライアント用の Skype を使用して、電話を制御する中にこれらのユーザーができるので。
+    職場経由での通話の展開も、PBX 電話を利用しているが、エンタープライズ Voip に移行しているユーザーにとって、Skype for Business クライアントを使用して通話を制御できるため、お客様にとってメリットとなります。
     
-     作業を使用して呼び出すより限定された一連の音声機能 thanEnterprise 音声が用意されています。 たとえば、ことはできません委任、チーム呼び出し、応答グループ、または強化された ~ 9-1-1。
+     勤務先から通話を発信すると、エンタープライズ Voip よりも多くの音声機能が提供されます。 たとえば、委任、チーム呼び出し、応答グループ、強化された E9-1-1 をサポートしていません。
     
-もちろん、一部のユーザーがエンタープライズ VoIP を有効になっている他のユーザーは、PBX 電話を使用している間、ことができます。 さらに、エンタープライズ VoIP ソリューションを完全に移行するときに、エンタープライズ VoIP の PBX 電話をまだ持っているユーザーを有効にできます。 これらのユーザーは、各自のデスクでは、同時に PBX 電話を使用し、配置またはその他の場所での VoIP デバイスを使用して呼び出しを受信するエンタープライズ VoIP を使用してもできます。 呼び出しを使用してこれらのユーザーが有効な場合、机の PBX 電話を制御するビジネス クライアント用の Skype を使用できます。
+もちろん、他のユーザーが PBX 電話を使っているときに、一部のユーザーがエンタープライズボイスを有効にすることもできます。 また、完全なエンタープライズボイスソリューションへの移行中は、エンタープライズ Voip 用に PBX 電話を利用しているユーザーを有効にすることができます。 これらのユーザーは、自分のデスクで PBX 電話を使用することができます。また、他の場所にいる間も VoIP デバイスを使用して通話の発信や受信を行うことができます。 これらのユーザーが勤務先の通話を有効にしている場合、そのユーザーは Skype for Business クライアントを使用して、机の上で自分の PBX 電話を制御することができます。
   
 > [!NOTE]
-> リモート通話コントロールは、PBX 電話で通話を送受信するビジネス クライアント用の Skype を使用するユーザーを有効にすると、Lync Server の以前のバージョンで提供される機能をしました。 ユーザー コントロールはサポートされていないリモートの呼び出し Skype ビジネス サーバーのサーバーが置かれているに対してはサポートされてユーザーの Skype で Lync Server 2013 を実行しているサーバーにも置かれているビジネスのお客様です。 
+> リモート通話コントロールは、以前のバージョンの Lync Server で提供されていた機能であり、ユーザーが Skype for Business クライアントを使用して、PBX 電話での通話を発信および受信できるようにします。 リモート通話コントロールは、Skype for Business Server サーバーを使っているユーザーに対してはサポートされていませんが、Lync Server 2013 を実行しているサーバーをホームとしている Skype for Business クライアントのユーザーはサポートされています。 
   
 ## <a name="see-also"></a>関連項目
 
 
-[ビジネスのサーバーに、Skype でエンタープライズ VoIP を計画します。](enterprise-voice.md)
+[Skype for Business Server でのエンタープライズ Voip の計画](enterprise-voice.md)
   
-[Skype ビジネス サーバーの作業時間を使用して呼び出すのための計画](call-via-work.md)
+[Skype for Business Server での勤務先での通話の計画](call-via-work.md)
   
-[ビジネス用の Skype でのリモート通話コントロールの計画](remote-call-control.md)
+[Skype for Business のリモート通話コントロールを計画する](remote-call-control.md)
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存の単一サーバー エッジ プールまたは複数サーバー エッジ プールの設定を編集するために、次のセクションが表示されます。
-ms.openlocfilehash: 769633001beba3f4f982507155c788b8dd4896b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02ee1db9019e6a12b9c166cbb766e8a90ac55da2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910757"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281235"
 ---
 # <a name="edge-settings-expander"></a>エッジ設定エキスパンダー
 
@@ -35,13 +35,13 @@ ms.locfileid: "33910757"
 
 エッジ サーバー プールの内部プールの完全修飾ドメイン名 (FQDN)。この設定を変更するには、プールの FQDN を編集します。
 
-ビジネス サーバー 2015 サーバーは、Skype とのフェデレーションを設定する場合、**このエッジ プール (ポート 5061) のフェデレーションを有効にする**] チェック ボックスを選択します。
+Skype for Business Server 2015 サーバーとのフェデレーションを設定する場合は、このチェックボックスをオンにして、[**このエッジプールのフェデレーションを有効にする (ポート 5061)** ] チェックボックスをオンにします。
 
 [**内部構成レプリケーション ポート (HTTPS)**] に対してポート番号を指定します。
 
 ## <a name="next-hop-selection-settings"></a>次ホップ選択設定
 
-エッジ サーバーが内部インフラストラクチャと通信するために使用する [**次ホップ プール**] を設定または変更するには、ドロップダウン リスト ボックスからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバーのプールを選択します。 ディレクターまたはフロント エンド トポロジ ビルダーで構成されているだけは、選択範囲に表示されます。
+エッジ サーバーが内部インフラストラクチャと通信するために使用する [**次ホップ プール**] を設定または変更するには、ドロップダウン リスト ボックスからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバーのプールを選択します。 選択できるように、トポロジビルダーで構成されているディレクターまたはフロントエンドのみが表示されます。
 
 ## <a name="edge-server-configuration"></a>エッジ サーバー構成
 
