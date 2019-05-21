@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 組織のために設定しているすべての Skype for Business Online の機能を長期間にわたり健全で正常に使用するには、次の要件に従うことが重要です。このドキュメントは技術的な専門性に長けているユーザー向けですが、専門的な知識がないユーザーにとっても参考になります。Skype for Business Online の設定でサポートが必要な場合は、このドキュメントをお読みの上、検討する必要がある事項についてよく理解するようにしてください。このドキュメントは、Microsoft FastTrack Center、お客様の Microsoft Services とアカウント チーム、または Microsoft パートナーと連携してこれらの要件に適合できる方法を見つけ出すときに検討が必要な内容も記載しています。
-ms.openlocfilehash: aac6a85b78df7477a6e62ddbf766015182bb7a2b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6aae90775aebd7384551d8e00dfe3d0dbe0c76fb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234530"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297828"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Skype for Business Online 向けのネットワークの最適化
 
@@ -52,7 +52,7 @@ Skype for Business では次のことができます。
 
 IP 上のリアルタイム メディア (オーディオ、ビデオ、アプリケーション共有など) の品質は、エンド ツー エンドのネットワーク接続の品質に大きく影響されます。Skype for Business Online メディアの最適な品質を得るために、会社のネットワークと Skype for Business Online 間の接続が高品質であることを確認することが重要です。これを達成するためには、内部ネットワークとクラウド接続を、接続全体にわたって Skype for Business Online のピーク時のトラフィック量を処理するネットワークのキャパシティに基づいて設定することが最善の方法になります。
   
-[マイクロソフトのパートナー](https://partnercenter.microsoft.com/en-us/pcv/search)と共同で、さまざまなネットワークとリアルタイムの音声をクラウドでビジネスのオンラインの Skype を含む Office 365 アプリケーションを接続することができ、ビジネスの Skype のビデオの通信機能は、ネットワークを必要とします。サービスは、これらの Office 365 のリアルタイム ワークロードをサポートするために具体的に構成する必要があります。 これには、必要なトラフィック量を実行し、ユーザーのサービスの品質 (QoS) がビジネス クラスの機能を提供するをサポートしているための十分な帯域幅を持つネットワークが含まれます。
+[Microsoft パートナー](https://partnercenter.microsoft.com/en-us/pcv/search)と連携して、クラウド内の Skype For business Online などのさまざまな Office 365 アプリケーションをネットワークに接続して、Skype for business の音声とビデオによる通信機能をリアルタイムで利用することができます。サービスは、特にこれらの Office 365 のリアルタイムのワークロードをサポートするように構成する必要があります。 これには、必要なトラフィック量を伝送するための十分な帯域幅を備えたネットワークと、ユーザーに対してビジネスクラスのエクスペリエンスを実現するためにサービスの品質 (QoS) をサポートできるものが含まれます。
   
 ここで記載されている情報に加えて、次のリソースが Skype for Business Online のサービスと機能を正しく計画、展開することや、お使いのネットワーク サービスが要件と満たしているかを確認するのに役立ちます。
   
@@ -124,7 +124,7 @@ Skype for Business Online をサポートするために追加のネットワー
   
 ## <a name="use-phones-and-devices-optimized-for-skype-for-business"></a>Skype for Business 用に最適化された電話機およびデバイスを使用する
 
-リアルタイム メディア セッションでは、ヘッドセットや Web カメラなどの参加者全員が使用するメディア デバイスは、オーディオとビデオの全体的な品質に大きく影響します。 低品質のデバイス、または不正なデバイス ドライバーを持つデバイスでは、ビデオのオーディオと下の画像の品質のサウンドの全体的な画質が低下が発生します。 一方、認定デバイスまたは高品質なデバイスは、エコー キャンセル、ノイズ フィルタリング、ビデオ解像度、遅延低減に役立ちます。
+リアルタイム メディア セッションでは、ヘッドセットや Web カメラなどの参加者全員が使用するメディア デバイスは、オーディオとビデオの全体的な品質に大きく影響します。 低品質デバイスまたは不適切なデバイスドライバーを使用しているデバイスでは、オーディオ品質が低くなり、ビデオの画質が低下します。 一方、認定デバイスまたは高品質なデバイスは、エコー キャンセル、ノイズ フィルタリング、ビデオ解像度、遅延低減に役立ちます。
   
 電話機とデバイスによって、エンド ユーザーの音声とビデオの品質に大きな違いが生じます。Skype for Business 認定プログラムは「Lync 互換」プログラムが発展したもので、デバイスが音声とビデオに関する Microsoft 標準に適合しているかを検証します。数多くの IP 電話、USB オーディオとビデオ デバイス、PC、および会議室が Microsoft によりテストされ、認定されています。お客様は Skype for Business 用に最適化されたデバイスのリストを確認して、ご自身および組織のエンド ユーザーのさまざまなニーズと個人設定に合わせて異なるデバイスを用意するよう努める必要があります。
   
@@ -140,7 +140,7 @@ Skype for Business Online をサポートするために追加のネットワー
     
 ユーザーが会議を行い、オーディオ デバイスとビデオ デバイスを使用する環境と周辺領域は、オーディオとビデオの品質のもう 1 つの要因です。ノイズのある環境から通話しているユーザーのオーディオは、エコーがかかり、こもっていて、不明瞭です。暗くて照明が不十分な環境にいるユーザーは、ビデオで明るくクリアな画質を実現することができません。会議室の設定で、マイクとビデオ デバイスの場所は、参加者が受信する音声と画像の品質に直接影響します。
   
-ビジネス アプリケーション**ツール**のユーザーのオーディオおよびビデオ機能の使用状況が明確、Skype を取得する > **オプション** > **オーディオ デバイス**または**ビデオ デバイス**が使用中のデバイスに変更を加えるし、それの設定をカスタマイズします。 **コール品質の確認**] をクリックして呼び出しのオーディオ品質を確認することもできます。 If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
+ユーザーのオーディオとビデオのエクスペリエンスをより明確にするために、Skype for business アプリの**ツール** > **オプション** > の**オーディオデバイス**または**ビデオデバイス**を使って、使用中のデバイスに変更を加え、設定をカスタマイズします。 通話の音質を確認するには、[**通話品質の確認**] をクリックします。 If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
   
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
   

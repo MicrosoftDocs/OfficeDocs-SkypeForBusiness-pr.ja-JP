@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Skype for Business Online
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Security
 description: Skype for Business Online セキュリティ ガイド <add description>
-ms.openlocfilehash: 1c8d06f5a8778574f814c158c35c39866727f490
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
-ms.translationtype: HT
+ms.openlocfilehash: 8fb0ef5322af99e3868a64be4101cf898918c449
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911375"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298030"
 ---
 # <a name="security-and-skype-for-business-online"></a>セキュリティと Skype for Business Online
 

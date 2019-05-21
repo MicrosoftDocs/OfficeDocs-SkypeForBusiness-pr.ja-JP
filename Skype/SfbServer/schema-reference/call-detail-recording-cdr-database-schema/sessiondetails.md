@@ -5,64 +5,64 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
-description: 各レコードは、VoIP VoIP 電話をかける、2 パーティの IM セッション、または他の種類のセッションの 1 つのピア ツー ピア セッションを表します。 このセッションに関連する各メディアの詳細を検索するメディアのテーブルとテーブルの結合を行うことができます。
-ms.openlocfilehash: bd4603811dd699bfe856f7151841c5f8021c2703
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 各レコードは、1つのピアツーピアセッションを表します。これは、VoIP の電話通話、2パーティの IM セッション、または他の種類のセッションである可能性があります。 このセッションに関連する各メディアの詳細を確認するには、メディアテーブルを使用してテーブルの結合を実行します。
+ms.openlocfilehash: d6c0d68cf5b8efd83cc764e74a56621cdd591ac1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888045"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295805"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails テーブル
  
-各レコードは、VoIP VoIP 電話をかける、2 パーティの IM セッション、または他の種類のセッションの 1 つのピア ツー ピア セッションを表します。 このセッションに関連する各メディアの詳細を検索する[メディアのテーブル](media.md)とテーブルの結合を行うことができます。
+各レコードは、1つのピアツーピアセッションを表します。これは、VoIP の電話通話、2パーティの IM セッション、または他の種類のセッションである可能性があります。 このセッションに関連する各メディアの詳細を確認するには、[メディアテーブル](media.md)を使用してテーブルの結合を実行します。
   
-ビジネス サーバー 2015 の Skype で使用される SessionDetails テーブルから、IsUser1IntegratedWithDeskPhone と IsUser2IntegratedWithDeskPhone フィールドを削除されていることに注意してください。
+IsUser1IntegratedWithDeskPhone と IsUser2IntegratedWithDeskPhone フィールドは、Skype for Business Server 2015 で使用されている SessionDetails テーブルから削除されていることに注意してください。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |プライマリ サーバーで、外部  <br/> |セッションの要求の時間です。 セッションを一意に識別するのには**SessionIdSeq**と組み合わせてを使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |プライマリ サーバーで、外部  <br/> |セッションを識別する ID 番号。 Session.*、[ビジネス サーバー 2015 の Skype のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照を一意に識別する**SessionIdTime**と組み合わせて使用します。 <br/> |
-|**CorrelationId** <br/> |一意識別子  <br/> ||複数のセッションを関連付けるための GUID です。  <br/> |
-|**ReplaceDialogIdTime** <br/> |datetime  <br/> |外部  <br/> |現在のセッションによって置き換えられたダイアログ ボックスを識別する ID 番号。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |外部  <br/> |セッションを識別する ID 番号。 このセッションによって置き換えられるセッションを一意に識別するのには**ReplacesDialogIdTime**と組み合わせて使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
-|**User1Id** <br/> |int  <br/> |外部  <br/> |セッションで 1 つのユーザーの ID です。 詳細については[「ユーザー」テーブル](users.md)を参照してください。 <br/> |
-|**User2Id** <br/> |int  <br/> |外部  <br/> |セッション内の他のユーザーの ID です。 詳細については[「ユーザー」テーブル](users.md)を参照してください。 <br/> |
-|**User1EndpointId** <br/> |一意識別子  <br/> ||セッションの最初のユーザーによって使用されるエンドポイントを識別する GUID。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**User2EndpointId** <br/> |一意識別子  <br/> ||セッションで 2 番目のユーザーによって使用されるエンドポイントを識別する GUID。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**TargetUserId** <br/> |int  <br/> |外部  <br/> |元のユーザーを SIP URI を要求します。 詳細については[「ユーザー」テーブル](users.md)を参照してください。 <br/> |
-|**SessionStartedById** <br/> |int  <br/> |外部  <br/> |セッションを開始したユーザーの ID です。 詳細については[「ユーザー」テーブル](users.md)を参照してください。 <br/> |
-|**OnBehalfOfId** <br/> |int  <br/> |外部  <br/> |代わりでは、呼び出し元のユーザーの ID を示します。 詳細については[「ユーザー」テーブル](users.md)を参照してください。 <br/> |
-|**ReferredById** <br/> |int  <br/> |外部  <br/> |呼び出しを参照しているユーザーの ID です。 詳細については[「ユーザー」テーブル](users.md)を参照してください。 <br/> |
-|**ServerId** <br/> |int  <br/> |外部  <br/> |このセッションで使用するフロント エンド サーバーの ID です。 詳細については[サーバーのテーブル](servers.md)を参照してください。 <br/> |
-|**PoolId** <br/> |int  <br/> |外部  <br/> |セッションのキャプチャに使用されたプールの ID です。 詳細については、[プール ・ テーブル](pools.md)を参照してください。 <br/> |
-|**ContentTypeID** <br/> |int  <br/> |外部  <br/> |セッションで使用するコンテンツ タイプ。 [ビジネス サーバー 2015 の Skype でのコンテンツ タイプのテーブル](contenttypes.md)の詳細についてを参照してください。 <br/> |
-|**User1ClientVerId** <br/> |int  <br/> |外部  <br/> |User1 によって使用されるクライアントのバージョンです。 詳細については、 [Skype のビジネス サーバー 2015 で ClientVersions テーブル](clientversions.md)を参照してください。 <br/> |
-|**User2ClientVerId** <br/> |int  <br/> |外部  <br/> |User2 によって使用されるクライアントのバージョンです。 詳細については、 [Skype のビジネス サーバー 2015 で ClientVersions テーブル](clientversions.md)を参照してください。 <br/> |
-|**User1EdgeServerid** <br/> |int  <br/> |外部  <br/> |User1 が使用するエッジ サーバー。 詳細については、 [Skype のビジネス サーバー 2015 で EdgeServers テーブル](edgeservers.md)を参照してください。 <br/> |
-|**User2EdgeServerid** <br/> |int  <br/> |外部  <br/> |エッジ サーバーがユーザー 2 が使用されます。 詳細については、 [Skype のビジネス サーバー 2015 で EdgeServers テーブル](edgeservers.md)を参照してください。 <br/> |
-|**IsUser1Internal** <br/> |bit  <br/> ||User1 がログオンするか内部からか。  <br/> |
-|**IsUser2Internal** <br/> |bit  <br/> ||ユーザー 2 がログオンするか内部からか。  <br/> |
-|**InviteTime** <br/> |datetime  <br/> ||最初の INVITE 要求の時間です。 このフィールドは通常、セッションの初期の INVITE メッセージから生成されたデータが設定されます。 招待メッセージが表示されない場合は、日付と時刻の最初の関連する SIP メッセージ (BYE、[キャンセル]、メッセージ、または情報) を持つフィールドが設定されます。 このフィールドは通常、セッションの初期の INVITE メッセージから生成されたデータが設定されます。 招待メッセージが表示されない場合は、日付と時刻の最初の関連する SIP メッセージ (BYE、[キャンセル]、メッセージ、または情報) を持つフィールドが設定されます。  <br/> |
-|**ResponseTime** <br/> |datetime  <br/> ||最初の INVITE メッセージへの応答の時間です。 このフィールドは通常、セッションの初期の INVITE メッセージから生成されたデータが設定されます。 招待メッセージが表示されない場合は、日付と時刻の最初の関連する SIP メッセージ (BYE、[キャンセル]、メッセージ、または情報) を持つフィールドが設定されます。  <br/> |
-|**ResponseCode** <br/> |int  <br/> ||セッションへの招待に SIP 応答コード。 このフィールドは通常、セッションの初期の INVITE メッセージから生成されたデータが設定されます。 招待メッセージが表示されない場合は、日付と時刻の最初の関連する SIP メッセージ (BYE、[キャンセル]、メッセージ、または情報) を持つフィールドが設定されます。  <br/> |
-|**DiagnosticId** <br/> |int  <br/> ||SIP ヘッダーから取得された ID を診断します。  <br/> |
-|**CallPriority** <br/> |int  <br/> |外部  <br/> |優先順位を呼び出します。 詳細については、 [Skype のビジネス サーバー 2015 で CallPriorities テーブル](callpriorities.md)を参照してください。 <br/> |
-|**User1MessageCount** <br/> |int  <br/> ||User1 のセッション中に送信されたメッセージの数です。  <br/> |
-|**User2MessageCount** <br/> |int  <br/> ||セッション中に、User2 が送信したメッセージの数です。  <br/> |
-|**SessionEndTime** <br/> |datetime  <br/> ||セッションの終了時刻。  <br/> |
-|**MediaTypes** <br/> |int  <br/> ||このセッションのメディアの種類を示すビットを設定します。 型の定義は、表示されています。  <br/> 1-IM  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8-APP_SHARING  <br/> 16-オーディオ  <br/> 32-ビデオ  <br/> 64-APP_INVITE  <br/> |
-|**User1Flag** <br/> |smallint  <br/> ||User1 の属性を示すビットを設定します。 属性の定義を次のとおりです。  <br/> 0x01 - デスクトップ電話と統合  <br/> |
-|**User2Flag** <br/> |smallint  <br/> ||User2 の属性を示すビットを設定します。 属性の定義を次のとおりです。  <br/> 0x01 - デスクトップ電話と統合  <br/> |
-|**CallFlag** <br/> |smallint  <br/> ||呼び出し属性を示すビットを設定します。 属性の定義を次のとおりです。  <br/> 0x01 では、セッションを再試行します。  <br/> 0x02 - 応答グループの代わりに、エージェントによって行われた呼び出し  <br/> |
-|**処理** <br/> |bit  <br/> ||監視サービスによって内部で使用します。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**LastModifiedTime** <br/> |日付時刻  <br/> ||監視サービスによって内部で使用します。  <br/> このフィールドは、ビジネス サーバー 2015 の Skype で導入されました。  <br/> |
+|**セッション Id** <br/> |datetime  <br/> |プライマリ、外部  <br/> |セッション要求の時刻。 セッションを一意に識別するために**Sessionidseq**と組み合わせて使用されます。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |プライマリ、外部  <br/> |セッションを識別する ID 番号。 セッションを一意に識別するために**Sessionidtime**と組み合わせて使用されます。 * 詳細については、「 [Skype for business Server 2015 のダイアログテーブル](dialogs.md)」を参照してください。 <br/> |
+|**CorrelationId** <br/> |長さ  <br/> ||複数のセッションを関連付けるための GUID。  <br/> |
+|**Edialogidtime の置き換え** <br/> |datetime  <br/> |外部  <br/> |現在のセッションによって置き換えられたダイアログを識別する ID 番号。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
+|**Edialogidseq の置き換え** <br/> |int  <br/> |外部  <br/> |セッションを識別する ID 番号。 このセッションによっ**** て置き換えられるセッションを一意に識別するために、代替の操作と組み合わせて使います。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
+|**User1Id** <br/> |int  <br/> |外部  <br/> |セッションの1人のユーザーの ID です。 詳細については、「ユーザー」の[表](users.md)を参照してください。 <br/> |
+|**User2Id** <br/> |int  <br/> |外部  <br/> |セッション内の他のユーザーの ID です。 詳細については、「ユーザー」の[表](users.md)を参照してください。 <br/> |
+|**User1EndpointId** <br/> |長さ  <br/> ||セッションの最初のユーザーによって使用されるエンドポイントを示す GUID。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**User2EndpointId** <br/> |長さ  <br/> ||セッション内の2番目のユーザーによって使用されるエンドポイントを識別する GUID。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**TargetUserId** <br/> |int  <br/> |外部  <br/> |SIP 要求の元の To ユーザーの URI。 詳細については、「ユーザー」の[表](users.md)を参照してください。 <br/> |
+|**SessionStartedById** <br/> |int  <br/> |外部  <br/> |セッションを開始したユーザーの ID です。 詳細については、「ユーザー」の[表](users.md)を参照してください。 <br/> |
+|**OnBehalfOfId** <br/> |int  <br/> |外部  <br/> |発信者が代理としているユーザーの ID を示します。 詳細については、「ユーザー」の[表](users.md)を参照してください。 <br/> |
+|**ReferredById** <br/> |int  <br/> |外部  <br/> |通話を参照するユーザーの ID です。 詳細については、「ユーザー」の[表](users.md)を参照してください。 <br/> |
+|**ServerId** <br/> |int  <br/> |外部  <br/> |このセッションで使用するフロントエンドサーバーの ID です。 詳細については、「Servers」の[表](servers.md)を参照してください。 <br/> |
+|**PoolId** <br/> |int  <br/> |外部  <br/> |セッションがキャプチャされたプールの ID です。 詳細については、「プール」の[表](pools.md)を参照してください。 <br/> |
+|**ContentTypeID** <br/> |int  <br/> |外部  <br/> |セッションで使用されるコンテンツタイプ。 詳細については、「 [Skype For Business Server 2015 の ContentTypes テーブル](contenttypes.md)」を参照してください。 <br/> |
+|**User1ClientVerId** <br/> |int  <br/> |外部  <br/> |User1 が使用するクライアントのバージョン。 詳細については、「 [Skype For Business Server 2015 の Clientversions](clientversions.md) 」の表を参照してください。 <br/> |
+|**User2ClientVerId** <br/> |int  <br/> |外部  <br/> |User2 が使用するクライアントのバージョン。 詳細については、「 [Skype For Business Server 2015 の Clientversions](clientversions.md) 」の表を参照してください。 <br/> |
+|**User1EdgeServerid** <br/> |int  <br/> |外部  <br/> |User1 で使用されるエッジサーバー。 詳細については、「 [Skype For Business Server 2015 の EdgeServers テーブル](edgeservers.md)」を参照してください。 <br/> |
+|**User2EdgeServerid** <br/> |int  <br/> |外部  <br/> |User2 によって使用されるエッジサーバー。 詳細については、「 [Skype For Business Server 2015 の EdgeServers テーブル](edgeservers.md)」を参照してください。 <br/> |
+|**IsUser1Internal** <br/> |bit  <br/> ||User1 が内部からログオンしているかどうかを示します。  <br/> |
+|**IsUser2Internal** <br/> |bit  <br/> ||User2 が内部からログオンしているかどうかを示します。  <br/> |
+|**InviteTime** <br/> |datetime  <br/> ||最初の招待要求の時刻。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。  <br/> |
+|**ResponseTime** <br/> |datetime  <br/> ||最初の招待メッセージに対する応答の時刻。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。  <br/> |
+|**返信** <br/> |int  <br/> ||セッション招待状への SIP 応答コード。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。  <br/> |
+|**DiagnosticId** <br/> |int  <br/> ||SIP ヘッダーからキャプチャされた診断 ID。  <br/> |
+|**CallPriority** <br/> |int  <br/> |外部  <br/> |通話の優先度。 詳細については、「 [Skype For Business Server 2015 の Callpriorities テーブル](callpriorities.md)」を参照してください。 <br/> |
+|**User1MessageCount** <br/> |int  <br/> ||セッション中に User1 から送信されたメッセージの数です。  <br/> |
+|**User2MessageCount** <br/> |int  <br/> ||セッション中に User2 から送信されたメッセージの数です。  <br/> |
+|**セッション終了時刻** <br/> |datetime  <br/> ||セッションの終了時。  <br/> |
+|**MediaTypes** <br/> |int  <br/> ||このセッションのメディアの種類を示すビットセット。 表示される型の定義を次に示します。  <br/> 1-IM  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8-APP_SHARING  <br/> 16-オーディオ  <br/> 32-ビデオ  <br/> 64-APP_INVITE  <br/> |
+|**User1Flag** <br/> |smallint  <br/> ||User1 属性を示すビットセット。 次の属性定義が表示されます。  <br/> 0x01-デスクトップ電話と統合  <br/> |
+|**User2Flag** <br/> |smallint  <br/> ||User2 の属性を示すビットセット。 次の属性定義が表示されます。  <br/> 0x01-デスクトップ電話と統合  <br/> |
+|**CallFlag** <br/> |smallint  <br/> ||呼び出し属性を示すビットセット。 次の属性定義が表示されます。  <br/> 0x01-再試行セッション  <br/> 0x02-応答グループの代理としてエージェントによって発信された通話  <br/> |
+|**処理** <br/> |bit  <br/> ||監視サービスで内部的に使用されます。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||監視サービスで内部的に使用されます。  <br/> このフィールドは、Skype for Business Server 2015 で導入されました。  <br/> |
    
-\*ほとんどのセッションでは、SessionIdSeq は 1 の値があります。 正確に同時に複数のセッションを開始する場合のいずれかの SessionIdSeq は 1 を指定、別 2 とするためにします。
+\*ほとんどのセッションでは、SessionIdSeq の値は1になります。 複数のセッションが同時に開始された場合は、1つのセッションの SessionIdSeq は1、それ以外の場合は2となります。
   
 

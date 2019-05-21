@@ -12,20 +12,20 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てるビジネス オンライン電話の Skype の設定を構成する配置手順を説明します。
-ms.openlocfilehash: 9bc2a4754560b6d6caaed349377039c0b257936e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 適切なファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、Skype for Business online 電話機の設定を構成するための展開手順について説明します。
+ms.openlocfilehash: 1e83c240b5406fbb3e7a247200d2b38d74ba8ef5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32230437"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298010"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -94,9 +94,9 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>ステップ 6 - ユーザーのサインインの準備
 
-To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you will need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。 最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。 詳細については、「 [skype For business および Microsoft teams のアドオンライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照して、 [skype For Business および microsoft teams のライセンスを割り当てる](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)ことができます。
   
-ことができますの詳細について計画を呼び出す[電話システムとプランを呼び出すこと](/microsoftteams/calling-plan-landing-page)を読み取ることによって
+通話プランの詳細については、「[電話システムと通話プラン](/microsoftteams/calling-plan-landing-page)」を参照してください。
   
 - Online ユーザーが利用できる **サインイン オプション** は次のとおりです。
     
@@ -117,12 +117,12 @@ To enable users to successfully sign in to a Skype for Business Online phone and
     > [!NOTE]
     > PIN 認証は、LPE およびパートナーの IP 電話機向けの Skype for Business Online ではサポートされていません。 
   
-- **Using a PC** When Better Together over Ethernet (BToE) software is installed on user's PC and enabled, users can log in to their phones using the authentication window on their Windows Skype for Business App. See [Step 7 (optional) - If you have device pairing and Better Together over Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) for other information.
+- **PC の使用** ユーザーの PC に Better Together over Ethernet (BToE) ソフトウェアがインストールされ、有効化されている場合、ユーザーは Windows Skype for Business アプリの認証ウィンドウを使用して電話機にログインできます。 他の情報については、「手順 7 (オプション)」を参照してください。[デバイスのペアリングとイーサネット (BToE) 経由での共同作業がより](deploying-skype-for-business-online-phones.md#BK_BTOE)簡単になります。
     
   > [!NOTE]
   > ユーザーは、電話機にサインインするために組織のユーザー名およびパスワードを使用する必要があります。たとえば、ユーザー名として  <em>amosm@contoso.com</em>  のような UPN 形式を使用します。
   
-     ![電話を配置しています。](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Deploying phones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
 - **Web サインインの使用**: これは、Online ユーザーが標準の Web ブラウザを使用して認証を行うことができる新しい方法です。ユーザーには、ブラウザを使ってサインインするときの手順が提供されます。
     
@@ -172,19 +172,19 @@ To enable users to successfully sign in to a Skype for Business Online phone and
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Skype for Business** <br/> |**交換** <br/> |**電話機のサインイン方法** <br/> |**Skype For Business アクセス** <br/> |**先進認証と MFA を無効にした Exchange アクセス** <br/> |**先進認証と MFA を有効にした Exchange アクセス** <br/> |
-|オンライン  <br/> |オンライン  <br/> |Web サイン イン  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|オンライン  <br/> |オンライン  <br/> |ユーザー名/パスワード  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
-|オンライン  <br/> |オンプレミス  <br/> |Web サイン イン  <br/> |あり  <br/> |なし  <br/> |なし  <br/> |
-|オンライン  <br/> |オンプレミス  <br/> |ユーザー名/パスワード  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
-|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PIN 認証  <br/> |あり  <br/> |なし  <br/> |なし  <br/> |
-|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |ユーザー名/パスワード  <br/> |あり  <br/> |あり  <br/> |該当なし  <br/> |
-|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PC 経由のサイン イン(BTOE)  <br/> |あり  <br/> |あり  <br/> |該当なし  <br/> |
+|オンライン  <br/> |オンライン  <br/> |Web サイン イン  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
+|オンライン  <br/> |オンライン  <br/> |ユーザー名/パスワード  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|オンライン  <br/> |オンプレミス  <br/> |Web サイン イン  <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |
+|オンライン  <br/> |オンプレミス  <br/> |ユーザー名/パスワード  <br/> |はい  <br/> |はい  <br/> |なし  <br/> |
+|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PIN 認証  <br/> |はい  <br/> |いいえ  <br/> |なし  <br/> |
+|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |ユーザー名/パスワード  <br/> |はい  <br/> |はい  <br/> |該当なし  <br/> |
+|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PC 経由のサイン イン(BTOE)  <br/> |はい  <br/> |はい  <br/> |該当なし  <br/> |
    
-- **Phone features** The feature set may vary slightly based on the IP phone partner. For the complete feature set and for more information on the features for each phone manufacturer, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
+- **電話機の機能** 機能セットは IP 電話機パートナーによって多少異なる場合があります。 すべての機能セットと、各電話の製造元の各機能の詳細については、「 [Skype For Business Online の電話を取得](getting-phones-for-skype-for-business-online.md)する」を参照してください。
     
 - **電話のロック** は、電話機を保護するために Skype for Business 認定済み電話機に最近導入されてた機能です。この機能が有効な場合、ユーザーは正常な認証後に PIN を作成するように求められます。PIN の作成後、定義したアイドル タイムアウトを過ぎると電話機がロックされます。さらに、ユーザーは電話機を手動でロックするか、電話のペアリングを使用して電話のロックを同期させることもできます。電話のロックの PIN を複数回誤って入力すると、ユーザーが電話機からサインアウトされるか、管理者のコードを使用して電話機をロック解除する必要があります。ただし、これは電話機パートナーによって異なります。ユーザーの PIN は 6 桁から 15 桁です。
     
-    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. これらの設定の詳細については、[一連の CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx)を参照してください。
+    既定で有効化されている組織の電話のロックの無効化、アイドル タイムアウトの変更、ロック時またはインバンド設定の未使用時にユーザーが通話できるかどうかの設定を行うことができます。 これらの設定の詳細については[、「Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) 」を参照してください。
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>ステップ 7 (省略可能) - デバイス ペアリングおよび Better Together over Ethernet (BToE) を使用する場合
 <a name="BK_BTOE"> </a>
@@ -213,7 +213,7 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
     
    - [AudioCodes BToE ソフトウェア ダウンロード](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. The server setting for BToE is set to **Enabled** and **Auto mode** by default. To change those settings, see [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
+3. 既定では、BToE のサーバー設定は [ **有効** ] および **自動モード** です。 これらの設定を変更するには、 [セット CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)を参照してください。
     
 > [!NOTE]
 > BToE は Mac および VDI プラットフォームでは現在サポートされていません。 
@@ -221,7 +221,7 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Office 365 での電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Office 365 の電話システムでできること](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

@@ -1,10 +1,10 @@
 ---
-title: ビジネス用の Skype で複数の緊急番号を構成します。
+title: Skype for Business の複数の緊急電話番号を設定する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,26 +12,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: Skype のビジネス サーバーの複数の緊急番号を構成する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: cb4fbfcbcd1388c34a1babce4b2a5d122d711d2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server で複数の緊急電話番号を設定する方法については、こちらのトピックを参照してください。
+ms.openlocfilehash: 0a2387576418aa2631095c46e970fdfac234ca4c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893064"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303377"
 ---
-# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>ビジネス用の Skype で複数の緊急番号を構成します。
+# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Skype for Business の複数の緊急電話番号を設定する
 
-Skype のビジネス サーバーの複数の緊急番号を構成する方法の詳細については、このトピックを参照してください。
+Skype for Business Server で複数の緊急電話番号を設定する方法については、こちらのトピックを参照してください。
 
-Skype ビジネス サーバーがクライアントの複数の緊急番号をサポートしています。 複数の緊急番号は 2016年 6 月で導入された新しい機能を累積的な更新です。 複数の緊急番号をサポートするために、環境を構成する前に、 [Skype のビジネス サーバーで複数の緊急番号の計画](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)を参照してください。
+Skype for Business Server で、クライアントの複数の緊急電話番号がサポートされるようになりました。 複数の緊急電話番号は、2016年6月の累積更新プログラムで導入された新機能です。 複数の緊急電話番号をサポートするように環境を構成する前に、「 [Skype For Business Server で複数の緊急電話番号のプラン](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)を確認する」を参照してください。
 
 > [!NOTE]
-> かどうかにないまだアップグレード 2016年 11 月累積的な更新は、 [Skype のビジネス サーバー 2015 への更新](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)を参照してください。 2016年 11 月の累積的な更新をサポート緊急時の番号の数は 5 から 100 に増加します。 
+> 2016年11月の累積更新プログラムにアップグレードしていない場合は、「 [Skype For Business Server 2015 の更新プログラム](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)」を参照してください。 2016年11月の累積更新プログラムでは、サポート緊急電話番号の数が5から100に増えます。 
 
 ## <a name="configure-multiple-emergency-numbers"></a>複数の緊急電話番号の構成
 
-複数の緊急番号を構成するのには、新規 CsEmergencyNumber コマンドレットを使用して[新規 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)と[セット CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)コマンドレットの EmergencyNumbers パラメーターを指定するし。 すべての場所ポリシーのパラメーター、PSTN の使用法など、必要な場所の詳細については、[セット CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)を参照してください。
+複数の緊急電話番号を構成するには、CsEmergencyNumber コマンドレットを使用します。次に、[新しい-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)と[Set-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)コマンドレットを使用して、EmergencyNumbers パラメーターを指定します。 PSTN の使用状況や必要な場所など、すべての場所ポリシーパラメーターの詳細については、「 [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)」を参照してください。
 
 次のコマンドでは、New-CsEmergency コマンドレットを使用して、ダイヤル文字列 911 で新しい緊急電話番号を作成します。
 
@@ -51,7 +51,7 @@ Skype ビジネス サーバーがクライアントの複数の緊急番号を�
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112 
 ```
 
-次のコマンドは、複数のダイヤル マスクを使用した、緊急電話番号を作成します。
+次のコマンドでは、複数のダイヤルマスクを持つ緊急電話番号を作成します。
 
 ```
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 

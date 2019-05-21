@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SqlInstanceScopeNode
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
-description: このノードは、そのサーバーとプールまたはこの SQL Server を使用するサーバーにこの Microsoft SQL Server と SQL Server のインスタンスの完全修飾ドメイン名 (FQDN) を示しています。 以下のアクションを実行できます。
-ms.openlocfilehash: d234826338ce6add18302a12df4d9788021ba1cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: このノードには、この Microsoft SQL Server の完全修飾ドメイン名 (FQDN) とそのサーバー上の SQL Server のインスタンス、およびこの SQL Server を使用するプールまたはサーバーが表示されます。 以下のアクションを実行できます。
+ms.openlocfilehash: ff32b59235dfb4ff38b8ea0fcd4c34a0be9baa97
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896442"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303103"
 ---
 # <a name="sql-instance-scope-node"></a>SQL インスタンス スコープ ノード
  
-このノードは、そのサーバーとプールまたはこの SQL Server を使用するサーバーにこの Microsoft SQL Server と SQL Server のインスタンスの完全修飾ドメイン名 (FQDN) を示しています。 以下のアクションを実行できます。
+このノードには、この Microsoft SQL Server の完全修飾ドメイン名 (FQDN) とそのサーバー上の SQL Server のインスタンス、およびこの SQL Server を使用するプールまたはサーバーが表示されます。 以下のアクションを実行できます。
   
-- **プロパティの編集**。 サーバー (この場合、トポロジは、既に公開されていません)、および使用する SQL Server のインスタンスの FQDN を変更することが、このサーバーの**プロパティの編集**] ページを開きます。
+- **プロパティの編集**。 このサーバーの [**プロパティの編集**] ページが開きます。このサーバーの FQDN (トポロジがまだ公開されていない場合)、および使用する SQL server のインスタンスを変更することができます。
     
 - **削除**。トポロジからサーバーを削除します。
     

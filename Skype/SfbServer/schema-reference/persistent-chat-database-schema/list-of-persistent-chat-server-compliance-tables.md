@@ -1,34 +1,34 @@
 ---
-title: ビジネス サーバーの Skype での永続的なチャット サーバー コンプライアンス テーブルの一覧
+title: Skype for Business Server の常設チャットサーバーのコンプライアンステーブルの一覧
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
-description: 永続的なチャット コンプライアンス データベース スキーマは、次の表で構成されます。
-ms.openlocfilehash: e17b2e52bdeb65ff4c77377cb913da212f20ecf0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 常設チャットのコンプライアンスデータベーススキーマは、次の表で構成されています。
+ms.openlocfilehash: 92c87ee2783eb8ec064e017b5c3c5b0f6cb893a5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929890"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295658"
 ---
-# <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>ビジネス サーバーの Skype での永続的なチャット サーバー コンプライアンス テーブルの一覧
+# <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>Skype for Business Server の常設チャットサーバーのコンプライアンステーブルの一覧
  
-永続的なチャット コンプライアンス データベース スキーマは、次の表で構成されます。
+常設チャットのコンプライアンスデータベーススキーマは、次の表で構成されています。
   
-## <a name="list-of-persistent-chat-server-compliance-tables"></a>永続的なチャット サーバー コンプライアンス テーブルの一覧
+## <a name="list-of-persistent-chat-server-compliance-tables"></a>常設チャットサーバーのコンプライアンステーブルの一覧
 
 |**テーブル**|**説明**|
 |:-----|:-----|
-|[tblComplianceData](tblcompliancedata.md) <br/> |構成されているアダプターによってまだ処理されていないコンプライアンス イベントが含まれています。  <br/> このテーブルには、チャット メッセージやファイルのダウンロードなどの永続的なチャットに関連するイベントが含まれています。 (イベントの参加者は、tblComplianceParticipant テーブルで追跡されます)。  <br/> (この表に示すイベントを処理するサーバーは、tblComplianceFanout の表に一覧表示されます)。  <br/> |
-|[tblComplianceFanout](tblcompliancefanout.md) <br/> |コンプライアンス イベントを処理するサーバーが含まれています。 次の表は、tblComplianceData テーブルと密接に関連します。  <br/> |
-|[tblComplianceParticipant](tblcomplianceparticipant.md) <br/> |チャット サービスおよびサーバーごとの現在の参加者が含まれています。 永続的なチャット サービスから受信した結合し、一部のコンプライアンス イベントに基づいて保持されます。  <br/> |
-|[tblComplianceState](tblcompliancestate.md) <br/> |プール全体にわたるコンプライアンスの状態情報が含まれています。  <br/> |
+|[tblComplianceData](tblcompliancedata.md) <br/> |構成済みのアダプターによってまだ処理されていないコンプライアンスイベントが含まれています。  <br/> この表には、チャットメッセージやファイルのダウンロードなどの常設チャット関連イベントが含まれています。 (参加者のイベントは、tblComplianceParticipant テーブルによって追跡されます)。  <br/> (この表のイベントを処理したサーバーは、tblComplianceFanout テーブルに一覧表示されます)。  <br/> |
+|[tblComplianceFanout](tblcompliancefanout.md) <br/> |コンプライアンスイベントを処理したサーバーが含まれます。 この表は、tblComplianceData テーブルと密接に結び付いています。  <br/> |
+|[tblComplianceParticipant](tblcomplianceparticipant.md) <br/> |チャットサービスとサーバーごとに現在の参加者が含まれます。 これは、常設チャットサービスから受信した参加イベントとパートコンプライアンスイベントに基づいて維持されます。  <br/> |
+|[tblComplianceState](tblcompliancestate.md) <br/> |プール全体のコンプライアンスの状態に関する情報が含まれています。  <br/> |
    
 

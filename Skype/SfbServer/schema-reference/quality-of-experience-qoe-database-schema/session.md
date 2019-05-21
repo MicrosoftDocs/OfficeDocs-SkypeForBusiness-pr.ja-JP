@@ -5,45 +5,45 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-description: 各レコードは、オーディオまたはオーディオとビデオでは、1 つのセッションを表します。 セッションに関する全体的な情報が含まれています。 セッションは、2 つのエンドポイント間でオーディオまたはビデオのセッション開始プロトコル (SIP) ダイアログとして定義されます。
-ms.openlocfilehash: 8aff8bb8be8366fe2e81e4d649d62562e899aab9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 各レコードは、オーディオまたはオーディオとビデオを含む1つのセッションを表します。 セッションに関する全体的な情報が含まれています。 セッションは、2つのエンドポイント間のオーディオまたはビデオセッションの開始プロトコル (SIP) ダイアログとして定義されます。
+ms.openlocfilehash: e0cd6a4523b09d8bcb7f74d6c796b46bf99ece8e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897156"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294671"
 ---
 # <a name="session-table"></a>Session テーブル
  
-各レコードは、オーディオまたはオーディオとビデオでは、1 つのセッションを表します。 セッションに関する全体的な情報が含まれています。 セッションは、2 つのエンドポイント間でオーディオまたはビデオのセッション開始プロトコル (SIP) ダイアログとして定義されます。
+各レコードは、オーディオまたはオーディオとビデオを含む1つのセッションを表します。 セッションに関する全体的な情報が含まれています。 セッションは、2つのエンドポイント間のオーディオまたはビデオセッションの開始プロトコル (SIP) ダイアログとして定義されます。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[ダイアログ テーブル](dialog.md)から参照されています。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[ダイアログ テーブル](dialog.md)から参照されています。  <br/> |
-|**ConferenceKey** <br/> |int  <br/> |外部  <br/> |会議のキーです。 [会議の表](conference.md)から参照されています。  <br/> |
-|**CorrelationKey** <br/> |int  <br/> |外部  <br/> |相関関係キーです。 [SessionCorrelation テーブル](sessioncorrelation.md)から参照されています。  <br/> |
-|**DialogCategory** <br/> |bit  <br/> | <br/> |ダイアログのカテゴリです。0 は Skype ビジネス サーバーの仲介サーバーのレグです。1 では、仲介サーバー PSTN ゲートウェイ レグを飛行します。  <br/> |
-|**MediationServerBypassFlag** <br/> |bit  <br/> ||場合に呼び出しをバイパスしないかを示すフラグを設定します。  <br/> |
-|**MediaBypassWarningFlag** <br/> |int  <br/> ||このフィールドでは、存在する場合、呼び出しをバイパス Id が一致した場合でもバイパスしない理由を示します。 ビジネス サーバーの Skype は、1 つの値が定義されています。  <br/> 0x0001 - 既定のネットワーク アダプターの ID を不明なバイパスします。  <br/> |
-|**StartTime** <br/> |datetime  <br/> | <br/> |開始時刻を呼び出します。  <br/> |
-|**EndTime** <br/> |datetime  <br/> | <br/> |終了時刻を呼び出します。  <br/> |
-|**CallerPool** <br/> |int  <br/> |外部  <br/> |呼び出し元のプールです。 [プール テーブル](pool.md)から参照されています。  <br/> |
-|**CalleePool** <br/> |int  <br/> |外部  <br/> |電話の受信側のプールです。 [プール テーブル](pool.md)から参照されています。  <br/> |
-|**CalleePAI** <br/> |int  <br/> |外部  <br/> |SIP p アサート (PAI) の id、受信側のエンドポイントでの SIP URI です。 [ユーザー テーブル](user-0.md)から参照されています。  <br/> |
-|**CallerURI** <br/> |int  <br/> |外部  <br/> |呼び出し元の URI。 [ユーザー テーブル](user-0.md)から参照されています。  <br/> |
-|**CallerEndpoint** <br/> |int  <br/> |外部  <br/> |呼び出し元のエンドポイントです。 [エンドポイントのテーブル](endpoint.md)から参照されています。  <br/> |
-|**CallerUserAgent** <br/> |bit  <br/> |外部  <br/> |呼び出し元のユーザー エージェント。 [UserAgent テーブル](useragent.md)から参照されています。  <br/> |
-|**CallPriority** <br/> |smallint  <br/> ||この呼び出しの優先順位です。  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||このコラムでは、推奨されていませんし、ビジネスのサーバーに、Skype で使用されていません。 代わりに、メディアごとの行ベースでこの情報が報告されます。 詳細については、 [MediaLine テーブル](medialine-0.md)を参照してください。 <br/> |
-|**CallerPAI** <br/> |int  <br/> |外部  <br/> |P-アサート - ユーザーの Id の呼び出しを配置します。 P アサートされた Id (PAI) は、呼び出しを配置しているユーザーの実際の識別情報を伝えるために使用されます。  <br/> |
-|**CalleeEndpoint** <br/> |int  <br/> |外部  <br/> |呼び出しを受信するエンドポイントです。  <br/> |
-|**CalleeUserAgent** <br/> |int  <br/> |外部  <br/> |ユーザー エージェント ユーザーによって使用されますが、呼び出しを受信しました。 ユーザー エージェントは、クライアントのエンドポイント デバイスを表します。  <br/> |
-|**CalleeUri** <br/> |int  <br/> |外部  <br/> |呼び出しを受信したユーザーの SIP URI です。  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[ダイアログテーブル](dialog.md)から参照されます。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[ダイアログテーブル](dialog.md)から参照されます。  <br/> |
+|**ConferenceKey** <br/> |int  <br/> |外部  <br/> |会議キー。 [会議テーブル](conference.md)から参照されます。  <br/> |
+|**CorrelationKey** <br/> |int  <br/> |外部  <br/> |相関関係キー。 [Sessioncorrelation テーブル](sessioncorrelation.md)から参照されます。  <br/> |
+|**このカテゴリ** <br/> |bit  <br/> | <br/> |ダイアログカテゴリ0は、Skype for Business Server と仲介サーバーの間の区間です。1は、PSTN ゲートウェイ区間への仲介サーバーです。  <br/> |
+|**MediationServerBypassFlag** <br/> |bit  <br/> ||通話がバイパスされたかどうかを示すフラグ。  <br/> |
+|**Mediabypasswarnings フラグ** <br/> |int  <br/> ||このフィールドは、バイパス Id が一致した場合でも、着信がバイパスされなかった理由を示します (存在する場合)。 Skype for Business Server の場合は、1つの値のみが定義されます。  <br/> 0x0001-既定のネットワークアダプターの不明なバイパス ID。  <br/> |
+|**StartTime** <br/> |datetime  <br/> | <br/> |通話開始時刻。  <br/> |
+|**EndTime** <br/> |datetime  <br/> | <br/> |通話終了時刻。  <br/> |
+|**CallerPool** <br/> |int  <br/> |外部  <br/> |発信者のプール。 [プールテーブル](pool.md)から参照されている。  <br/> |
+|**CalleePool** <br/> |int  <br/> |外部  <br/> |通話受信者のプール。 [プールテーブル](pool.md)から参照されている。  <br/> |
+|**CalleePAI** <br/> |int  <br/> |外部  <br/> |受信エンドポイントの SIP p-アサートされた id (PAI) の SIP URI。 [ユーザーテーブル](user-0.md)から参照されている。  <br/> |
+|**CallerURI** <br/> |int  <br/> |外部  <br/> |発信者の URI。 [ユーザーテーブル](user-0.md)から参照されている。  <br/> |
+|**CallerEndpoint** <br/> |int  <br/> |外部  <br/> |発信者のエンドポイント。 [エンドポイントテーブル](endpoint.md)から参照されます。  <br/> |
+|**CallerUserAgent** <br/> |bit  <br/> |外部  <br/> |発信者のユーザーエージェント。 [UserAgent テーブル](useragent.md)から参照されます。  <br/> |
+|**CallPriority** <br/> |smallint  <br/> ||この通話の優先度。  <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||この列は推奨されなくなりました。 Skype for Business Server では使用されません。 代わりに、この情報はメディアラインベースごとに報告されます。 詳細については、 [MediaLine の表](medialine-0.md)を参照してください。 <br/> |
+|**CallerPAI** <br/> |int  <br/> |外部  <br/> |P-アサート済み-通話を発信したユーザーの Id です。 P がアサートされた Id (PAI) を使って、通話を発信したユーザーの実際の id を伝えます。  <br/> |
+|**CalleeEndpoint** <br/> |int  <br/> |外部  <br/> |通話を受信したエンドポイント。  <br/> |
+|**CalleeUserAgent** <br/> |int  <br/> |外部  <br/> |通話を受信したユーザーが採用したユーザーエージェント。 ユーザーエージェントは、クライアントエンドポイントデバイスを表します。  <br/> |
+|**CalleeUri** <br/> |int  <br/> |外部  <br/> |通話を受信したユーザーの SIP URI。  <br/> |
    
 

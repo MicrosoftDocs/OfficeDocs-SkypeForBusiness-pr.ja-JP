@@ -5,41 +5,41 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
-description: tblComplianceData には、まだ対応アダプターで処理されていないコンプライアンス イベントが含まれています。
-ms.openlocfilehash: 88319da90c1f3e03b6ca3e441259972f51d0bcf9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblComplianceData には、コンプライアンスアダプターでまだ処理されていないコンプライアンスイベントが含まれています。
+ms.openlocfilehash: b505b3e05fb2aebba98804f5b7ad6a1d4d2da53e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929932"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295511"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  
-tblComplianceData には、まだ対応アダプターで処理されていないコンプライアンス イベントが含まれています。
+tblComplianceData には、コンプライアンスアダプターでまだ処理されていないコンプライアンスイベントが含まれています。
   
-**列**
+**行**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|cmplEventID  <br/> |bigint 型の値、null でないです。  <br/> |イベント id です。  <br/> |
-|entryDate  <br/> |smalldatetime 型、null でないです。  <br/> |挿入の時間 (cmplType の未来がありますエントリであるため、プレース ホルダーにだけそのような場合に 9 を =)。  <br/> |
-|cmplType  <br/> |int 型、null でないです。  <br/> | コンプライアンス イベントの種類です。 <br/>  1: チャット <br/>  2: backchat <br/>  3: ファイルのダウンロード <br/>  4: ファイルのアップロード <br/>  9: 仮のファイル転送 <br/>  10: 削除 (置換) とのチャット <br/>  11: チャットの削除 <br/> |
-|cmplTime  <br/> |bigint 型の値、null でないです。  <br/> |イベントのタイムスタンプ。  <br/> |
-|cmplChannelUri  <br/> |nvarchar (255)、null でないです。  <br/> |チャネルの一意リソース識別子 (URI)。  <br/> |
-|cmplChatID  <br/> |bigint 型の値  <br/> |(TblChat.chatId のテーブルに対応する) の ID をチャットします。  <br/> |
-|cmplUserID  <br/> |int 型、null でないです。  <br/> |(TblPrincipal.prinID のテーブルに対応する) ポスターのプリンシパルの ID です。  <br/> |
-|cmplUserUri  <br/> |nvarchar (255)、null でないです。  <br/> |ユーザー URI です。  <br/> |
-|cmplMessage  <br/> |nvarchar (max)  <br/> |メッセージ (エンコーディングは cmplType)。  <br/> |
+|cmplEventID  <br/> |bigint (null ではない)  <br/> |イベント ID。  <br/> |
+|entryDate  <br/> |smalldatetime、null ではない  <br/> |挿入の時刻 (その場合は、cmplType = 9 の場合は、その場合はプレースホルダーのみのエントリであるため)。  <br/> |
+|cmplType 種類  <br/> |int (null ではない)  <br/> | コンプライアンスイベントの種類: <br/>  1: チャット <br/>  2: backchat <br/>  3: ファイルのダウンロード <br/>  4: ファイルのアップロード <br/>  9: 暫定ファイル送信 <br/>  10: チャットの削除 (置換あり) <br/>  11: チャットの削除 <br/> |
+|cmplTime  <br/> |bigint (null ではない)  <br/> |イベントのタイムスタンプ。  <br/> |
+|cmplChannelUri  <br/> |nvarchar (255)、null ではない  <br/> |チャネルの Uniform Resource Identifier (URI)。  <br/> |
+|cmplChatID  <br/> |bigint  <br/> |チャット ID (chatId テーブルに対応する tblChat)。  <br/> |
+|cmplUserID  <br/> |int (null ではない)  <br/> |ポスターのプリンシパル ID (tblPrincipal ID テーブルに対応)  <br/> |
+|cmplUserUri  <br/> |nvarchar (255)、null ではない  <br/> |ユーザー URI。  <br/> |
+|cmplMessage  <br/> |nvarchar (max)  <br/> |メッセージ (エンコードは、cmplType 型によって異なります)。  <br/> |
    
 **キー**
 
 |**列**|**説明**|
 |:-----|:-----|
-|cmplEventID  <br/> |プライマリ ・ キーです。  <br/> |
+|cmplEventID  <br/> |主キー。  <br/> |
    
 

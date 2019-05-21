@@ -1,28 +1,28 @@
 ---
-title: Skype でプールの障害発生時にビジネス サーバー用のユーザー エクスペリエンス
+title: Skype for Business Server でのプール障害時のユーザーエクスペリエンス
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: フロント エンド プールは、フェイル オーバーや、ビジネス サーバーの Skype での災害復旧時にバックアップが失敗したときに発生するユーザーについて説明します。
-ms.openlocfilehash: de272ec6bc45a005a56c3e16385f7bcc292c8a1a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server の障害回復中にフロントエンドプールがフェールオーバーまたはフェイルバックするときにユーザーが実行する操作について説明します。
+ms.openlocfilehash: cc8ea8c51bebcffdbf0873f2f1a355cd648b6df0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903048"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297233"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Skype でプールの障害発生時にビジネス サーバー用のユーザー エクスペリエンス
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Skype for Business Server でのプール障害時のユーザーエクスペリエンス
  
-フロント エンド プールは、フェイル オーバーや、ビジネス サーバーの Skype での災害復旧時にバックアップが失敗したときに発生するユーザーについて説明します。
+Skype for Business Server の障害回復中にフロントエンドプールがフェールオーバーまたはフェイルバックするときにユーザーが実行する操作について説明します。
   
-プールがフェールオーバーされた場合、影響を受けるプールのすべてのユーザーが強制的にサインアウトされ、バックアップ プールにサインインされます。 バックアップ プールにサインインしたユーザーは、短い時間、復元モードになる可能性があります。 復元モードでは、ユーザーは変更される原因と永続的な Skype のビジネス サーバー、連絡先を追加するなどのタスクを実行することではありません。 フェールオーバー完了後、すべてのユーザーはバックアップ プールからすべてのサービスを受けることができます。
+プールがフェールオーバーされた場合、影響を受けるプールのすべてのユーザーが強制的にサインアウトされ、バックアップ プールにサインインされます。 バックアップ プールにサインインしたユーザーは、短い時間、復元モードになる可能性があります。 回復性モードでは、ユーザーは、連絡先の追加など、Skype for Business Server の永続的な変更を発生させるタスクを実行できません。 フェールオーバー完了後、すべてのユーザーはバックアップ プールからすべてのサービスを受けることができます。
   
 プール障害発生時にユーザーが保持していた通話、会議、または会話はすべて中断されるため、ユーザーはフェールオーバー後にそれらのセッションを再確立して続行する必要があります。
   
@@ -36,7 +36,7 @@ ms.locfileid: "33903048"
   
 ## <a name="user-experience-during-failback"></a>フェールバック中のユーザー エクスペリエンス
 
-バックアップ ・ プールに、影響を受けるユーザーがログオン中とユーザーにログオンして、フェイル バック時に機能して、プールのフェイル バックが発生します。 フェイル バック ・ プロセスが完了するまで数分を受け取ることに注意してください。 リファレンスについては、最大 60 分まで 20,000 名のユーザーのプールを実行する予定です。
+プールのフェールバックは、影響を受けたユーザーがバックアッププールにログオンしている間に発生し、ユーザーはフェイルバック中にログオンおよび動作したままになります。 フェイルバックプロセスが完了するまで数分かかることに注意してください。 参照の場合、2万ユーザーのプールには最大60分かかることが予想されます。
   
 次の表に、ユーザーがフェールバック中およびフェールバック後に受ける影響の詳細、および他のプールのユーザーがフェールバックされているプールのユーザーを確認し、やりとりする方法を示します。 
   

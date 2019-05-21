@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Monitoring
@@ -12,18 +12,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: ビジネス サーバーの Skype は、の監視は使用状況に関する情報と、ユーザーに関連する通信セッションに関するエクスペリエンスの品質 (QoE) データを収集するために使用されます。
-ms.openlocfilehash: 625f9b6b864cb20207994c7a54fdc26568831f7a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server では、監視を使用して、ユーザーが関与しているコミュニケーションセッションに関する使用状況情報とエクスペリエンス (QoE) データを収集します。
+ms.openlocfilehash: c10467e301bc7ccfbc05c7415a767b1174d8b4a1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889305"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297877"
 ---
 # <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
 
-ビジネス サーバーの Skype は、の監視は使用状況に関する情報と、ユーザーに関連する通信セッションに関するエクスペリエンスの品質 (QoE) データを収集するために使用されます。
+Skype for Business Server では、監視を使用して、ユーザーが関与しているコミュニケーションセッションに関する使用状況情報とエクスペリエンス (QoE) データを収集します。
 
-サーバーの監視の計画の詳細については、[監視の計画](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)を参照してください。
+監視サーバーの計画について詳しくは、「[監視の計画](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)」をご覧ください。
 
 

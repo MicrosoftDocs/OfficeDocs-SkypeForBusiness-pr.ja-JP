@@ -1,10 +1,10 @@
 ---
-title: ビジネス サーバーは、サイトと地域の情報を使用するの Skype でメディア バイ パスのグローバル設定を構成します。
+title: サイトと地域の情報を使用するために、Skype for Business Server でメディアを無視するグローバル設定を構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
-description: ビジネス サーバーのエンタープライズ VoIP の特定のサイトと Skype 内の領域のみに使用するメディア バイ パスを構成します。
-ms.openlocfilehash: 42f6e9406fdb3a33124c5cfb7abba638dd7fa4b9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice で特定のサイトと地域に対してのみ使用するようにメディアバイパスを構成します。
+ms.openlocfilehash: 3a9dc907dd516151e8b6ddd509a43b49c87e3b9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892273"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300931"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>ビジネス サーバーは、サイトと地域の情報を使用するの Skype でメディア バイ パスのグローバル設定を構成します。
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>サイトと地域の情報を使用するために、Skype for Business Server でメディアを無視するグローバル設定を構成する
  
-ビジネス サーバーのエンタープライズ VoIP の特定のサイトと Skype 内の領域のみに使用するメディア バイ パスを構成します。 
+Skype for Business Server Enterprise Voice で特定のサイトと地域に対してのみ使用するようにメディアバイパスを構成します。 
   
- 使用する場合は、メディアのグローバル設定を構成するには、このトピックの手順を省略が前提とする必要はありませんビジネス エンドポイントのすべての Skype とトランク接続でメディア バイ パスを構成するすべてのピア間の接続が良好です。
+ このトピックの手順を使用してメディアのバイパスのグローバル設定を構成する場合、すべての Skype for Business エンドポイントと、トランク接続でメディアをバイパスするように構成したピアとの間の接続が良好でないことを前提としています。
   
 > [!NOTE]
 > ネットワーク地域およびネットワーク サイトの情報は、通話受付管理とメディア バイパスの高度なエンタープライズ VoIP 機能の間で (双方が有効な場合に) 共有されます。したがって、通話受付管理を構成済みの場合は、次の手順を使用してサイトと地域の情報をメディア バイパス用に特に編集する必要はありません。ネットワーク地域およびサイトで通話受付管理を構成しておらず、メディア バイパスの設定を変更したい場合は、この手順のステップを実行します。 
   
-メディアを使用するバイパスの正しく必要があります一貫性、サイト間トポロジ ビルダーで定義されていると、ネットワーク地域およびネットワーク サイトを構成すると定義されています。 などがあると、トポロジ ビルダーで定義したブランチ サイトがある場合、PSTN ゲートウェイのみを展開し、ブランチ サイトのユーザー、PSTN 通話を PSTN 経由でルーティングを有効にするエンタープライズ VoIP ポリシーを使用してそのブランチ サイトを構成する必要があります。ブランチ サイトのゲートウェイです。
+メディアのバイパスが正常に動作するためには、トポロジビルダーで定義されているサイトと、ネットワーク領域とネットワークサイトを構成するときに定義されているサイトの間で一貫性が保たれている必要があります。 たとえば、PSTN ゲートウェイのみが展開されていることを示すために、トポロジビルダーで定義したブランチサイトがある場合、そのブランチサイトは、ブランチサイトユーザーが pstn 経由でルーティングする PSTN 通話を使用できるようにするエンタープライズ Voip ポリシーを使って構成する必要があります。ブランチサイトのゲートウェイ。
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>メディア バイパスのサイトおよび地域情報を構成するには
 
-1. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
+1. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。  
     
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
     
@@ -53,7 +53,7 @@ ms.locfileid: "33892273"
     
 次に、「[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)」の説明に従ってネットワーク サイトにサブネットを追加します。すべてのサブネットをネットワーク サイトに関連付けたら、メディア バイパスの展開は完了です。
 > [!IMPORTANT]
-> ネットワーク地域とネットワーク サイトを作成していない場合は、メディア バイパスを展開する前にこれらを作成する必要があります。 詳細については、[ネットワークの領域を展開、サイトとサブネットでビジネス用の Skype](deploy-network.md)を参照してください。 
+> ネットワーク地域とネットワーク サイトを作成していない場合は、メディア バイパスを展開する前にこれらを作成する必要があります。 詳細については、「 [Skype For business でネットワークのリージョン、サイト、サブネットを展開](deploy-network.md)する」を参照してください。 
   
 ## <a name="see-also"></a>関連項目
 

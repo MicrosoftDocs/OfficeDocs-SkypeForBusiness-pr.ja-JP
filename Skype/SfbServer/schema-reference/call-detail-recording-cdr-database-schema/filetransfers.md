@@ -5,33 +5,33 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: FileTransfer ビューでは、ピア ツー ピア ファイル転送セッションに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: aa238d11a88b8259427619271171adcf6f1c3e42
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: FileTransfer ビューには、ピアツーピアファイル転送セッションに関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
+ms.openlocfilehash: 303a8cf624b19f9701cabbd491fcb7b08dfba25d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901188"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296239"
 ---
 # <a name="filetransfers-view"></a>FileTransfers ビュー
  
-FileTransfer ビューでは、ピア ツー ピア ファイル転送セッションに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
+FileTransfer ビューには、ピアツーピアファイル転送セッションに関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
   
 > [!NOTE]
-> FileTransfers ビューが含まれていますすべて[SessionDetails ビュー](sessiondetails-0.md)内の列のさらに以下の列には。
+> FileTransfers ビューには、次に示す列と共に、 [Sessiondetails ビュー](sessiondetails-0.md)のすべての列が含まれます。
   
 |**列**|**データ型**|**詳細**|
 |:-----|:-----|:-----|
-|**FileName** <br/> |nvarchar(256)  <br/> |ファイルの名前が転送されます。  <br/> |
-|**クッキー** <br/> |nvarchar (128)  <br/> |この 1 つに関連付けられたすべてのフォロー アップ メッセージを識別する場合に使用されます。  <br/> |
-|**FileIdentity** <br/> |一意識別子  <br/> |同じ名前のファイルに関連するファイル転送の間で区別するために一意の識別子です。  <br/> |
-|**受け入れる** <br/> |bit  <br/> |真または NULL にすることができます。 TRUE の場合、[元に戻すし、[キャンセル] が NULL になります。  <br/> |
-|**元に戻す** <br/> |bit  <br/> |真または NULL にすることができます。 TRUE の場合、[受信を許可し、[キャンセル] NULL になります。  <br/> |
-|**キャンセル** <br/> |bit  <br/> |真または NULL にすることができます。 TRUE の場合、[承認および却下 NULL になります。  <br/> |
+|**FileName** <br/> |nvarchar(256)  <br/> |転送されたファイルの名前。  <br/> |
+|**クッキー** <br/> |nvarchar(128  <br/> |すべてのフォローアップメッセージをこのメールに関連付けられているものとして識別するために使用されます。  <br/> |
+|**FileIdentity** <br/> |長さ  <br/> |同じファイル名を含むファイル転送を区別する一意の識別子。  <br/> |
+|**受諾** <br/> |bit  <br/> |TRUE または NULL を指定できます。 TRUE の場合は、拒否とキャンセルは NULL になります。  <br/> |
+|**拒否** <br/> |bit  <br/> |TRUE または NULL を指定できます。 TRUE の場合は、Accept と Cancel は NULL になります。  <br/> |
+|**キャンセル** <br/> |bit  <br/> |TRUE または NULL を指定できます。 TRUE の場合は、Accept と Reject は NULL になります。  <br/> |
    
 

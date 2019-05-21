@@ -1,46 +1,46 @@
 ---
-title: ビジネス サーバーの Skype の Skype の接続を展開します。
+title: Skype for Business Server に Skype の接続を展開する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
-description: '概要: は、Skype の消費者とビジネスのサーバーの Skype を接続する方法を説明します。 これは、Skype 接続とも呼ばれます。'
-ms.openlocfilehash: f347b9698bbf42f5a350a02d355fe5a576ac4cf6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: skype for Business Server を Skype コンシューマーと接続する方法について説明します。 これは、Skype 接続とも呼ばれます。'
+ms.openlocfilehash: 1f03b873299828dedf6c0ffca113d60d277bf65c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894424"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302832"
 ---
-# <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>ビジネス サーバーの Skype の Skype の接続を展開します。
+# <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype for Business Server に Skype の接続を展開する
  
-**の概要:** Skype コンシューマーとビジネスのサーバーの Skype を接続する方法を説明します。 これは、Skype 接続とも呼ばれます。
+**概要:** Skype for business Server を Skype コンシューマーに接続する方法について説明します。 これは、Skype 接続とも呼ばれます。
   
 ここでは、Skype Connectivity の展開について順を追って説明します。
   
 ## <a name="skype-connectivity-overview-for-it-professionals"></a>Skype Connectivity の概要 (IT 担当者向け)
 
-Skype 接続では、検索し、Skype ユーザーを追加する機能により、ビジネス ユーザー向け Skype を提供します。 Skype の接続は、Skype ユーザーとフェデレーションおよびディレクトリの検索を有効にすることができるビジネスの Skype の機能です。 Skype の接続を有効にした後、ビジネス ユーザー向けに、Skype は検索し、Skype ユーザーを追加することになります。
+Skype 接続を使うと、skype for Business ユーザーが Skype ユーザーを検索して追加することができます。 Skype 接続は skype for Business の機能で、Skype ユーザとのフェデレーションおよびディレクトリ検索を有効にすることができます。 Skype の接続を有効にすると、skype for Business ユーザーは skype ユーザを検索して追加できるようになります。
   
 ## <a name="skype-directory-search"></a>Skype Directory Search
 
 Skype Directory Search 機能によって、Skype for Business ユーザーは、Skype の連絡先を検索できます。検索機能により、ユーザーは以下の手段を使用して検索を実行できます。
   
-- **"John Doe"の例の表示名で検索**を探しているものが見つからなかったため、多くの結果を返すこの可能性があります。
+- **表示名、"John Doe" の例で検索**すると、多くの結果が返される可能性があるため、探している情報が見つからないことがあります。
     
-- **表示名と場所、「John Doe のバルセロナ」の使用例での検索**- これは絞り検索の結果かなり。
+- **表示名と場所を指定して検索します。たとえば、"John Doe In スペインバルセロナ"** のように指定します。これにより、検索結果を大幅に絞り込むことができます。
     
-- **例"johndoe@outlook.com"、電子メールでの検索**- これはほとんどの場合で 1 つの結果を返す必要があります指定された電子メールを正確に一致するものです。 同じメールが複数のアカウントに関連付けられている場合は、複数の結果が返される場合があります。
+- **メールで検索して、"johndoe@outlook.com"** のようにします。ほとんどの場合、これは1つの結果を返します。指定したメールと完全に一致するもの。 ただし、同じメールが複数のアカウントに関連付けられている場合は、複数の結果が返されることがあります。
     
-- **例「123-123-1234」の電話番号で検索**- これはほとんどの場合で 1 つの結果を返す必要があります指定された電話を正確に一致するものです。 電話番号は、国コード (つまり 1-xxx、yyy-zzzz) を含める必要があります。 同じ電話番号が複数のアカウントに関連付けられている場合は、複数の結果が返される場合があります。
+- **電話番号で検索します。 "123-123-1234"** のようにします。ほとんどの場合、これは1つの結果を返します。指定した電話と正確に一致するもの。 電話番号には国コードを含める必要があります (例: xxx-yyy-zzzz)。 同じ電話番号が複数のアカウントに関連付けられている場合は、複数の結果が返されることがあります。
     
-- **Skype 名を「JohnDoe1456」の使用例で検索**の正確な一致が見つかった場合、それが結果として返される、最初。 他の"name"の一致候補が返されます。
+- **Skype 名で検索します。 "JohnDoe1456"** のように指定します。完全一致が見つかった場合は、最初の結果として返されます。 その他の可能性のある "名前" の一致は、返される可能性があります。
     
     > [!NOTE]
     > Skype Directory Search では、ポート 443 で IP アドレス 104.40.75.246、23.101.135.34、40.113.86.19 と通信できる必要があります。 
@@ -50,17 +50,17 @@ Skype Directory Search 機能によって、Skype for Business ユーザーは�
 以下の表に、Skype Directory Search のサポートの概要を示します。
   
 
-||**Skype ビジネス サーバーのフロント エンドの**|**Lync Server 2013 (またはそれ以降の) フロントエンド**|**コメント**|
+||**Skype for Business Server のフロントエンド**|**Lync Server 2013 (またはそれ以降の) フロントエンド**|**コメント**|
 |:-----|:-----|:-----|:-----|
-|Skype ビジネス サーバーを基準とします。  <br/> |サポート対象  <br/> |サポート対象外  <br/> |ビジネス サーバーおよびエッジの Skype は、Skype ディレクトリ検索の前提条件です。  <br/> |
-|Skype ビジネス サーバー エッジ + Lync Server 2013 のエッジのサイド バイ サイドの配置  <br/> |サポート対象  <br/> |サポート対象外  <br/> |Skype Directory Search のトラフィックは Skype for Business Server エッジ サーバーを通過します。フェデレーション トラフィックは、管理者により構成されたエッジを通過します。たとえば、管理者は、Skype Directory Search をサポートしない Lync Server 2013 エッジ サーバーを介してフェデレーション トラフィックを引き続き送信することを選択できます。  <br/> |
+|Skype for Business Server Edge  <br/> |サポート対象  <br/> |サポート対象外  <br/> |Skype for Business Server と Edge は Skype ディレクトリ検索の前提条件です  <br/> |
+|Skype for Business Server Edge + Lync Server 2013 Edge が並列で展開されている  <br/> |サポート対象  <br/> |サポート対象外  <br/> |Skype Directory Search のトラフィックは Skype for Business Server エッジ サーバーを通過します。フェデレーション トラフィックは、管理者により構成されたエッジを通過します。たとえば、管理者は、Skype Directory Search をサポートしない Lync Server 2013 エッジ サーバーを介してフェデレーション トラフィックを引き続き送信することを選択できます。  <br/> |
 |Lync Server 2013 (またはそれ以降の) エッジ  <br/> |サポート対象外  <br/> |サポート対象外  <br/> ||
    
 > [!NOTE]
-> ビジネス サーバーのフロント エンドの Skype 上で実行されているアドレス帳サービスでは、エッジ サーバーでは、Skype の検索ポート 4443 の存在によって、エッジを検索します。 
+> Skype for Business Server のフロントエンドで実行されている電話帳サービスは、エッジサーバーの Skype 検索ポート4443の存在によってエッジを検索します。 
   
 > [!NOTE]
-> ビジネス サーバーのエッジ サーバーまたはプールの 1 つだけ Skype を導入している場合は検索し、設置型展開では、複数のサイトがある場合にすべてのサイトからのトラフィックが利用可能な単一のエッジ サーバーを移動します。 管理者は、プールのすべてのサイトからビジネス サーバーのエッジ サーバーまたはプールを展開した Skype にアクセスできるかどうかを確認する必要があります。 
+> 顧客がオンプレミスの展開に複数のサイトを持っていて、1つの Skype for Business Server Edge サーバー/プールのみを展開している場合、すべてのサイトからのトラフィックの検索は、利用可能な1つのエッジサーバーを経由します。 管理者は、展開された Skype for Business Server Edge サーバー/プールに、すべてのサイトのプールがアクセスできることを確認する必要があります。 
   
 > [!NOTE]
 > Skype グラフ サービスは、要求レートが 15 要求/秒を超えた場合、すべてのオンプレミスまたは Office 365 カスタマーからの検索要求を調整します。 
@@ -69,34 +69,34 @@ Skype Directory Search 機能によって、Skype for Business ユーザーは�
 > 大規模エンタープライズ オンプレミス カスタマーに対しては、より高い要求レートを許可するために、ドメインを Skype 検索サービスのホワイトリストに登録する必要があります。 
   
 > [!NOTE]
-> Skype ビジネス サーバーのキューに保留中の要求が多すぎる場合、着信方向の要求を制限します。 
+> キューに保留中の要求が多すぎると、Skype for Business Server によって着信要求が抑制されます。 
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Office 365 での Skype for Business Server Online 用の Skype Connectivity の展開
 
 Skype Connectivity は、Office 365 の一部である Skype for Business Online の機能でもあります。Office 365 ポータル内の Skype for Business 管理センターから、Skype Connectivity 機能を有効にすることができます。
   
-Office 365 の中規模ビジネス、Office 365 のエンタープライズ、Office 365 の教育、および政府の Office 365 の: office 365 ポータルにサインインし、ビジネス管理センターの Skype に移動します。 外部との連絡に移動します。 パブリック IM サービス プロバイダーでは、[有効] をクリックします。 Skype 接続する個々 のユーザーのアクセスを制御する場合は、これを行う個々 のユーザーの外部通信の設定を編集します。
+Office 365 中堅企業向け、Office 365 Enterprise、Office 365 エデュケーション、office 365 for Government: Office 365 ポータルにサインインして、Skype for Business 管理センターに移動します。 外部通信に移動します。 [パブリック IM サービスプロバイダー] で [有効にする] をクリックします。 個人ユーザの Skype 接続へのアクセスを制御するには、個々のユーザの外部通信設定を編集します。
   
-小規模のビジネス プレミアム: Office 365 用には、Office 365 にサインインし、管理者には、\>サービスの設定\>インスタント メッセージング、会議および会議。 外部との連絡を入れます。 外部との連絡のスイッチは、Skype の接続性とビジネスの Skype を使用する他の組織との通信の両方オンにします。
+Office 365 Small Business Premium の場合: Office 365 にサインインし、[管理者\>サービスの\>設定] で [インスタントメッセージング、会議、会議] に移動します。 外部通信を有効にします。 [外部通信] スイッチは、skype for Business を使用する他の組織との Skype 接続と通信の両方を有効にします。
   
 Skype for Business Online の管理の詳細については、次の記事を参照してください。
   
 - [ユーザーが外部の Skype for Business ユーザーに連絡できるようにする](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
-- [ビジネスまたは Skype の外部の連絡先の IM の Skype することはできないときにどのような](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [Skype for Business または Skype の外部連絡先に IM できない場合の対応策](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
-- [ビジネス用の Skype の連絡先を追加します。](https://support.office.com/en-US/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
+- [Skype for Business で連絡先を追加する](https://support.office.com/en-US/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
   
 - [管理者: 個別のユーザーの Skype for Business の設定を構成する](../../SfbOnline/set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
     
-## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>ビジネス サーバーの Skype の Skype の接続を展開します。
+## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>Skype for Business Server 向けの Skype 接続の展開
 
-ビジネス サーバー用の Skype は、Skype との接続をサポートするためにフェデレーション アクセス アーキテクチャを使用します。 この接続では、Skype は、Skype を追加するのにはビジネスのサーバーのユーザーが有効にします。 Skype クライアントは Skype を連絡先リストにビジネス ・ ユーザーの追加もできます。 ビジネス サーバーのユーザーがインスタント メッセージングを使用して通信できるの Skype で管理者によって設定されたポリシーに基づき、互いの存在を参照してくださいし、音声通話とビデオ通話を開始します。 Skype の接続も、有効にできる Skype、Skype からのオンライン ビジネスのお客様のビジネス管理センターの Office 365 ポータル内のビジネス オンラインでは、Skype の機能です。
+Skype for Business Server は、フェデレーションアクセスアーキテクチャを使用して、Skype との接続をサポートします。 この接続によって、Skype for Business Server ユーザーは Skype を追加できます。 Skype クライアントは、Skype for Business ユーザをコンタクトリストに追加することもできます。 Skype for Business Server ユーザーは、管理者が設定したポリシーに基づいて、インスタントメッセージを使ってコミュニケーションを行い、互いのプレゼンスを確認して、音声通話とビデオ通話を開始することができます。 Skype 接続は、skype for Business Online の機能でもあり、Office 365 ポータル内の Skype for Business 管理センターから Skype for business Online のお客様に対して有効にすることができます。
   
 > [!NOTE]
 > Skype for Business Server がパブリック インスタント メッセージング接続 (PIC) を使用して Windows Messenger と接続するように既に構成されている場合、展開は、既に Skype Connectivity 用に構成されています。検討が必要と思われるのは、既存の Messenger PIC エントリの名前を Skype などに変更することだけです。 
   
-### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server"></a>Business Server のビジネス サーバーのパブリック IM 接続の提供サイトに Skype Skype からへのアクセス
+### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server"></a>Skype for business server のパブリック IM 接続プロビジョニングサイトへのアクセス
 
 このプロビジョニング プロセスは、完了するまで最長で 30 日かかる可能性がありますが、要求量によっては数日のみで完了することもあります。Microsoft は、このドキュメントの残りの手順を完了する前に、このプロセスを先に開始することをお勧めします。Skype のプロビジョニング プロセスが完了した後、アカウントがアクティブになり、適格なユーザーのパブリック IM 接続が有効になります。 
   
@@ -114,7 +114,7 @@ Skype Connectivity をプロビジョニングするには、次の情報が必�
     
 Skype Connectivity のプロビジョニング プロセスを開始するには、次の手順に従います。
   
-1. Web サイトにサインインするのにhttps://pic.lync.comを Microsoft Windows Live ID を使用して
+1. Microsoft Windows Live ID を使用https://pic.lync.comして、web サイトにサインインします。
     
 2. Microsoft ライセンスの契約の種類を選びます。
     
@@ -153,7 +153,7 @@ Skype Connectivity のプロビジョニング プロセスを開始するには
 フェデレーションは、Skype ユーザーが組織内の Skype for Business ユーザーと通信できるようにするために必要です。パブリック インスタント メッセージング接続 (PIC) はフェデレーションの 1 つのクラスで、また PIC を構成して Skype for Business ユーザーが Skype ユーザーと通信できるようにする必要があります。フェデレーションと PIC は、Skype for Business Server コントロール パネルを使用して構成します。
   
 > [!NOTE]
-> PIC フェデレーションは、Live Communication Server 2005 SP1 または Office Communications Server 2007 ではサポートされなくなりました。 PIC フェデレーションのサポートされているプラットフォームには、ビジネス サーバー、Lync Server 2013、Lync Server 2010 では、Office 通信 Server 2007 の R2 の Skype が含まれます。 
+> PIC フェデレーションは、Live Communication Server 2005 SP1 または Office Communications Server 2007 ではサポートされなくなりました。 PIC フェデレーションでサポートされているプラットフォームには、Skype for Business Server、Lync Server 2013、Lync Server 2010、Office Communications Server 2007 R2 があります。 
   
 フェデレーションは、Skype ユーザーが組織内の Skype for Business ユーザーと通信できるようにするために必要です。パブリック インスタント メッセージング接続 (PIC) はフェデレーションの 1 つのクラスで、また PIC を構成して Skype for Business ユーザーが Skype ユーザーと通信できるようにする必要があります。フェデレーションと PIC は、次に示すように Skype for Business Server コントロール パネルの [エッジ構成] ダイアログを使用して構成します。
   
@@ -164,16 +164,16 @@ Skype Connectivity のプロビジョニング プロセスを開始するには
   
 これで、サーバー上で実行する必要がある管理タスクが完了し、Skype Connectivity を使用するように設定されました。
   
-#### <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a>2. フェデレーション ユーザー アクセスをサポートするために少なくとも 1 つのポリシーを構成します。
+#### <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a>2. フェデレーションされたユーザーアクセスをサポートするように、少なくとも1つのポリシーを構成する
 
 管理者は Skype for Business Server コントロール パネルを使用して外部ユーザー アクセス ポリシーを 1 つ以上構成し、Skype ユーザーが内部の Skype for Business Server ユーザーと共同作業できるかどうかを制御する必要があります。
   
-#### <a name="3-configure-the-skype-pic-provider-setting"></a>3. 設定 Skype PIC プロバイダーを構成します。
+#### <a name="3-configure-the-skype-pic-provider-setting"></a>3. Skype PIC プロバイダ設定を構成する
 
 管理者は Skype for Business Server 管理シェルを使用して Skype for Business クライアント ポリシーを構成し、Skype を追加の PIC プロバイダーとして表示する必要があります。 
   
 > [!NOTE]
-> パブリック インスタント メッセージング接続 (PIC) サービス プロバイダーのユーザーは、パブリック IM 接続をサポートするためにも少なくとも 1 つのポリシー (この手順で前の手順 2) を構成するまで、IM または組織内の会議に参加できません。 
+> パブリックインスタントメッセージング接続 (PIC) サービスプロバイダーのユーザーは、パブリック IM 接続をサポートするために、少なくとも1つのポリシー (この手順では、前の手順 2) を構成するまで、組織内の IM または会議に参加することはできません。 
   
 新規インストールの場合は、図に示すように Skype for Business Server コントロール パネルを使用して Skype パブリック プロバイダーを有効にすることで、Skype Connectivity を構成することができます。
   
@@ -203,15 +203,15 @@ Skype Connectivity の構成は、PowerShell のみを使用して行うこと�
     
    - ProxyFqdn:  (Microsoft により所有/維持管理される) Skype フェデレーション エッジの場所
     
-   - IconURL: アイコンが Lync で使用される&amp;Skype 連絡先を視覚的に識別するビジネスの Skype
+   - IconURL: Lync &amp; Skype for business クライアントが skype の連絡先を視覚的に識別するために使用するアイコン
     
-   - NameDecorationRoutingDomain および NameDecorationExcludedDomainList:「msn.com」でマイクロソフト以外のドメインを「装飾」について理解することがなく Skype ユーザーの MSAs を入力するユーザーは、これらの設定。 ExcludedDomainList ではないすべてのドメインの"ユーザー (contoso.com) @msn.com"を入力する必要があります。 ドメインが除外リストに存在しない場合、SfB クライアントは自動的に MSA を書式設定します。 最も一般的な Microsoft アカウント ドメインから除外する一覧に追加しました。
+   - NameDecorationRoutingDomain と NameDecorationExcludedDomainList: setting を設定すると、ユーザーは "msn.com" で、Microsoft 以外のドメインを "装飾" していることを知らなくても、Skype ユーザーの MSAs を入力することができます。 これにより、ExcludedDomainList にないすべてのドメインに対して「user (contoso) @msn」と入力する必要がなくなります。 ドメインが除外リストに存在しない場合、SfB クライアントは自動的に MSA を書式設定します。 最も一般的な Microsoft アカウントドメインを除外リストに追加しました。
     
      > [!NOTE]
      > 変更が行われた場合は、パブリック プロバイダーを削除して新しく追加する必要があります。 インプレースでの変更は許可されていません。 
   
      > [!NOTE]
-     > Lync Server 2013 CU5 に追加&amp;Office 2013 の SP1 では、NameDecorationRoutingDomain および NameDecorationExcludedDomainList でデスクトップの Lync クライアントは、Skype 連絡先を追加するに必要な Lync ユーザーを「修飾」するマイクロソフト以外のドメイン状況を改善識別し、Skype にルーティング (の形式: user(contoso.com)@msn.com)。 これらの新しい設定とアドレスのユーザーの自動書式設定の入力"Skype の連絡先の追加] ダイアログ ボックスで (これは、msn.com に設定する必要があります)、NameDecorationRoutingDomain と NameDecorationExcludedDomainList (内のドメインが含まれていない場合、します。現在サポートできます msn.com、live.com、Hotmail.com、outlook.com)。 
+     > Lync Server 2013 CU5 以降&amp; lync デスクトップクライアントに OFFICE 2013 SP1 で追加されました。 lync ユーザーが Skype の連絡先を追加して、Microsoft 以外のドメインを「修飾」することができるようになりました。 NameDecorationRoutingDomain と NameDecorationExcludedDomainListSkype (: user (contoso) @msn の形式) を特定して、ルーティングします。 これらの新しい設定では、NameDecorationRoutingDomain (NameDecorationExcludedDomainList のドメインが含まれていない場合は、「Skype コンタクトを追加」ダイアログボックスで、「Skype コンタクトを追加」ダイアログボックスで、「msn.com」に設定する必要があります)。現時点では、msn.com、live.com、Hotmail.com、outlook.com) をサポートしています。 
   
 3. Skype for Business クライアントから、ユーザーは Skype ユーザーを検索および追加することができます。
     
@@ -222,9 +222,9 @@ Skype Connectivity の構成は、PowerShell のみを使用して行うこと�
 
 |**Skype クライアント**|**連絡先の追加、IM、プレゼンス、音声、ビデオ通話**|**コメント**|
 |:-----|:-----|:-----|
-|Skype Windows デスクトップ  <br/> |7.6 以降、Windows XP 以降  <br/> |**新規**: Windows XP および Windows Vista の **(最新のクライアント バージョン 7.26 以降が必要です)** で実行されている Windows の Skype クライアントのサポートが追加されました。 <br/> |
+|Skype Windows デスクトップ  <br/> |7.6 以降、Windows XP 以降  <br/> |**新**機能: windows XP および windows Vista で実行されている windows Skype クライアント用のサポートが追加されました **(最新のクライアントバージョン7.26 以上が必要です)** 。 <br/> |
 |Skype Mobile - Android 携帯電話およびタブレット   <br/> |6.19 以降、Android OS バージョン 4.0.3 以降を実行  <br/> |性能の高くない機種ではビデオ通話がサポートされない場合あり  <br/> |
-|Skype 携帯 - iOS  <br/> |6.11 以降、IOS 7 以降  <br/> |iPhone 4 以前、iPod 第 4 世代以前、iPad 第 1 世代はサポート外  <br/> |
+|Skype Mobile-iOS  <br/> |6.11 以降、IOS 7 以降  <br/> |iPhone 4 以前、iPod 第 4 世代以前、iPad 第 1 世代はサポート外  <br/> |
 |Skype Mac  <br/> |7.19 以降、Mac OS X 10.9 (Mavericks) 以降  <br/> |Mac OS X 10.9 以降  <br/> |
 |Skype Universal Windows アプリ (Windows 10) デスクトップおよびモバイル  <br/> |Windows 10 (Redstone 1 更新プログラム以降)  <br/> |Windows Universal App には 2016 年秋にアップデートが配信され、相互運用性のサポートが追加される予定  <br/> |
    
@@ -233,7 +233,7 @@ Skype Connectivity の構成は、PowerShell のみを使用して行うこと�
 |**クライアント**|**Skype Directory Search と、連絡先の追加**|**Skype A/V、IM の相互運用性**|
 |:-----|:-----|:-----|
 |Skype for Business  <br/> |はい  <br/> |はい  <br/> |
-|Mac でのビジネス用の Skype  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
+|Mac 版 Skype for Business  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
 |Lync Desktop 2013  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
 |Lync Web App - オンラインとオンプレミス  <br/> |N/A  <br/> |N/A  <br/> |
 |Lync Mobile - Windows Phone  <br/> |準備中  <br/> |はい  <br/> |

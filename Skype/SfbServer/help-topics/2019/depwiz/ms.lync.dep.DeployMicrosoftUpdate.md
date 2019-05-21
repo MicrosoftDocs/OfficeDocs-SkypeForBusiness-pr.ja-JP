@@ -1,10 +1,10 @@
 ---
-title: ウィザード Windows 更新プログラムの展開
+title: 展開ウィザードの Windows Update
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMicrosoftUpdate
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 ROBOTS: NOINDEX, NOFOLLOW
-description: 展開ウィザードを使用して、ビジネスのサーバーの Skype をインストールする詳細については、ビジネスのサーバーの Skype のインストールを参照してください。
-ms.openlocfilehash: d3c70ba99afa433373d80be3cda7777e5d68c091
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 展開ウィザードを使用して Skype for Business Server をインストールする方法について詳しくは、「Skype for Business Server をインストールする」をご覧ください。
+ms.openlocfilehash: 0e7570de9fdd38aa0830938102229f4b17310839
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893617"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303320"
 ---
 # <a name="deployment-wizard-windows-update"></a>展開ウィザード: Windows Update
  
-展開ウィザードを使用して、ビジネスのサーバーの Skype をインストールする詳細については、[ビジネスのサーバー用の Skype のインストール](../../../deploy/install/install.md)を参照してください。
+展開ウィザードを使用して Skype for Business Server をインストールする方法について詳しくは、「 [skype For Business server をインストール](../../../deploy/install/install.md)する」をご覧ください。
   
 

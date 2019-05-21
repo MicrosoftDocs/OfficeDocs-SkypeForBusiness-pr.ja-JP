@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,59 +19,59 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: '電話システムで何ができる場合について説明します。 '
-ms.openlocfilehash: a4ac90d24863ecaf56ca471d412474bf81653a50
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '電話システムでできることについて説明します。 '
+ms.openlocfilehash: 7188a0d4573ce7bc935b60506371fbd2a4f1b6a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211729"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299020"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは
 
-## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Business Server の Office 365 のシステムと Skype を電話します。
+## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Office 365 および Skype for Business Server の電話システム
 
-**電話システム**は、ビジネスをオンラインで、マイクロソフトのチームの通話の制御、Skype で Office 365 のクラウド内の PBX の機能を有効にする Microsoft のテクノロジです。 電話システムを使用すると、Office 365 から配信され、組織のクラウド環境に緊密に統合の機能のセットを使用して、既存の PBX システムを置き換えることができます。 機能の詳細については、[ここでは Office 365 の電話システムを取得する](here-s-what-you-get-with-phone-system.md)を参照してください。
+**電話システム**は、Skype For business Online および Microsoft Teams を使用して、Office 365 クラウドでの通話管理および PBX 機能を有効にするための Microsoft テクノロジです。 電話システムを使うと、既存の PBX システムを、Office 365 から提供されている一連の機能に置き換えて、組織のクラウドエクスペリエンスに密接に統合することができます。 機能の詳細については、「 [Office 365 の電話システムで利用できる](here-s-what-you-get-with-phone-system.md)機能」を参照してください。
   
-電話システムでは、ユーザーに対処するための基本的な呼び出しの管理タスクを配置して、呼び出しを受信するなどの呼び出し、およびミュートと unmuting の呼び出しを転送するビジネスをオンラインで、マイクロソフトのチームの Skype を使用できます。 電話システムのユーザーが自分のアドレス帳の名前をクリックし、Skype のビジネスまたはマイクロソフトのチームがそのユーザーに呼び出しを配置します。 配置し、呼び出しを受信、電話システムのユーザーことができますヘッドセットを使用自分のモバイル デバイスでは、ラップトップまたは PC、ビジネスおよびマイクロソフトのチームの Skype 上で動作する多くの IP 電話のいずれかとします。 管理者、電話システムは、メッセージング、コラボレーションに使用される同じ管理コンソール内での通話を管理するために機能を提供します。
+電話システムを使うと、ユーザーは Skype for Business Online および Microsoft Teams を使用して、通話の発信や受信、着信の転送、ミュートやミュート解除などの基本的な通話制御タスクを行うことができます。 電話システムのユーザーは、アドレス帳の名前をクリックすることができます。 Skype for Business または Microsoft Teams では、そのユーザーに通話が発信されます。 電話システムのユーザーは、通話の発信と受信を行うために、モバイルデバイス、ラップトップまたは PC のヘッドセット、または Skype for Business および Microsoft Teams で動作する多くの IP 電話のいずれかを使うことができます。 管理者の場合、電話システムでは、メッセージングやコラボレーションなどで使用するのと同じ管理コンソールで通話を管理できます。
   
-従来の PBX システムと、組織内のユーザー間の呼び出しは、電話システム内で内部的に処理し、PSTN に移動することはありません。 これは、これらの内部呼び出しでの長距離電話のコストを削除する別の地理的エリア内にある、組織内のユーザー間の呼び出しに適用されます。
+従来の PBX システムでは、組織内のユーザー間の通話は電話システム内で内部的に処理されるため、PSTN には移動しないでください。 これは、地理的に離れた組織内のユーザー間の通話に適用され、これらの内部通話での長距離のコストを削減します。
   
 固定電話と携帯電話で通話できるようにするには、次の 2 つの方法のいずれかを使って電話システムを PSTN に接続します。
   
-- 購入することを呼び出すことを計画 (国内または国内および国際) Office 365 のです。 [電話システムと通話プラン](calling-plan-landing-page.md)を参照してください。
+- Office 365 の通話プラン (国内または国内および国際電話) を購入します。 「[電話システムと通話プラン」を](calling-plan-landing-page.md)ご覧ください。
     
-- 使用して PSTN 接続を設置、設置型のソフトウェアが、既存のテレフォニー インフラストラクチャに接続されています。 [電話システムの計画](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)を参照してください。
+- オンプレミスの PSTN 接続を使用して、オンプレミスのソフトウェアが既存のテレフォニーインフラストラクチャに接続されるようにします。 「[電話システムの計画](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)」をご覧ください。
 
 ![クラウド PBX サービスを説明します](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
 
-## <a name="more-about-calling-plans"></a>計画を呼び出す方法の詳細
+## <a name="more-about-calling-plans"></a>通話プランの詳細
 
-電話システムを呼び出すことを計画のアドオンを使用して Office 365 の landlines と (ライセンスされたサービスのレベル) によって世界中の携帯電話への呼び出しの PSTN への接続を有効にします。 ユーザーは、クラウドに置かれているし、電話システムの Microsoft によって提供される計画を呼び出すアドオンを有効にします。 プランの呼び出しを使用すると、オンプレミスのサーバーの展開を必要としません。 通話プランは、Office 365 の電話システムでのみ動作し、使うことはできません計画を呼び出す別の PBX システムとします。
+通話プランアドオンを Office 365 の電話システムに使用すると、世界中の固定電話と携帯電話に通話を発信するための PSTN 接続が有効になります (ライセンスされているサービスのレベルによって異なります)。 ユーザーはクラウドをホームとしていて、Microsoft が提供する通話プランアドオンを使って電話システムを有効にしています。 通話プランを使用する場合、オンプレミスのサーバー展開は必要ありません。 通話プランは、Office 365 の電話システムでのみ機能し、別の PBX システムで通話プランを使用することはできません。
 
 ![完全にクラウド内の VoIP ソリューションである、PSTN 通話を含んだクラウド PBX を示しているトポロジ図です。](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-Office 365 の操作を呼び出すことを計画するために、このプロセスは、オンプレミスのサーバーの展開を必要としない完全に-雲ソリューションです。 国内または国内と国際の計画を呼び出して、使用しての選択肢がある場合、呼び出しを実行する各ユーザーに割り当てるをします。 [の詳細を知りたいのですか?](calling-plan-landing-page.md)です。
+通話プランは Office 365 内で動作するため、これは、オンプレミスのサーバー展開を必要としない完全なクラウドサービスです。 国内または国内の通話プランを使用して、通話を発信する各ユーザに割り当てることができます。 [さらに詳しく調べたい場合](calling-plan-landing-page.md)
   
-Skype をビジネス オンラインまたは Office 365 のマイクロソフト チームのホームとしているユーザーは、Office 365 のインターネット電話サービスへのアクセスがあります。 Microsoft は、通常の通話と PSTN サービスの両方を提供し、ユーザーの電話番号を提供または移行することもできます。 
+Office 365 で Skype for Business Online または Microsoft Teams を使用しているユーザーには、Office 365 音声サービスへのアクセス権が付与されます。 Microsoft は、通常の通話と PSTN サービスの両方を提供し、ユーザーの電話番号を提供または移行することもできます。 
   
-Office 365 の通話プランを使用すると、検索、取得、およびユーザーが行うし、組織の内外のユーザーとの通話を受信できるように、組織内のユーザーに電話番号を割り当てます。
+Office 365 の通話プランを使用すると、組織内のユーザーが電話番号を検索、取得、割り当てを行うことができます。これにより、ユーザーは組織内外のユーザーとの通話を発信および受信できるようになります。
   
-すべての種類のビジネスでは、音声通話の送受信を行うことができる電話番号は取引、重要な要件のユーザーを識別し、組織間の通信を許可する電話番号が使用されるよう。 電話番号が割り当てられているユーザーはすべての Skype の VoIP 電話、Pc、およびモバイル デバイスを含む、ビジネスおよびマイクロソフトのチームのデバイス間で音声通話をすることになります。 
+どのような種類のビジネスでも、ユーザーが音声通話の送受信を行うための電話番号を持っている場合は、ユーザーを特定して組織間の通信を許可するために電話番号を使用する必要があります。 電話番号が割り当てられているユーザーは、VoIP 電話、Pc、モバイルデバイスなど、すべての Skype for Business および Microsoft Teams デバイスで音声通話を行うことができます。 
 
-(国内および国内および海外) の通話プランは、特定ですが成長中の地理的な場所で利用できます。 国または地域で[の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を確認してください。 
+通話プラン (国内および国内および国際電話) は、特定の地域の地理的な位置で利用できます。 お住まいの国または地域で[利用可能](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)かどうか確認してください。 
 
-**開始する準備ができましたか。**  ユーザーのため、呼び出し元の計画を設定するには、[呼び出すことの計画を設定します](set-up-calling-plans.md)を参照してください。  
+**準備ができましたか?**  ユーザーの通話プランを設定する方法については、「[通話プランを](set-up-calling-plans.md)セットアップする」をご覧ください。  
 
-## <a name="phone-system-with-services"></a>電話システム サービス
- Aso に使えるサービスとボイスメール システムの電話します。
-- **自動応答** Office 365 の自動応答を使用して、内部および外部の呼び出し元では、組織のメニュー システムを作成することで、電話システムは、メニューを探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送するシステムを移動します。 参照してください[雲の自動応答は何ですか?](what-are-phone-system-auto-attendants.md)
+## <a name="phone-system-with-services"></a>サービスが搭載された電話システム
+ 電話システムは aso サービスとボイスメールに使用できます。
+- **自動応答** Office 365 の電話システムの自動応答を使用すると、組織内の会社のユーザーや部署への通話を特定したり、発信したり、転送したりすることができるように、組織のメニューシステムを作成することができます。 「[クラウド自動応答とは何ですか?」を](what-are-phone-system-auto-attendants.md)参照してください。
 
-- **キューを呼び出す** 電話システムでは、組織の電話番号への呼び出し使用される呼び出しキューのあいさつ文を作成できます。これには、保留中の呼び出しを自動的に配置する機能、および呼び出しが保留中の音楽をリッスンしている人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントを検索する機能が含まれます。 組織の 1 つまたは複数の呼び出しキューを作成します。 [クラウド呼び出しキューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)を参照してください。
+- **通話キュー** 電話システムを使うと、組織の電話番号に通話を発信するときに使用する通話キューの応答メッセージを作成できます。これには、通話を保留にする機能と、通話を発信している相手が保留中の場合に通話を処理するために、次の利用可能な通話エージェントを検索する機能が含まれます。 組織用に1つまたは複数の通話キューを作成することができます。 「[クラウド通話キューを作成する」を](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)ご覧ください。
 
-- **ボイスメール**ユーザーの電話システムのライセンスを取得する場合、そのユーザーは呼び出し元が残っているボイスメールを取得することになります。 クラウドのボイスメールを自動的に設定と電話番号の電話システムのライセンスを割り当てるには、ユーザーの準備します。 [クラウドのボイス メールの設定](set-up-phone-system-voicemail.md)を参照してください。
+- **ボイスメール**ユーザーに対して電話システムのライセンスを取得すると、そのユーザーは、発信者によって残ったボイスメールを取得することができます。 電話システムのライセンスと電話番号を割り当てた後は、クラウドボイスメールが自動的に設定され、ユーザーに提供されます。 「[クラウドボイスメールの設定」を](set-up-phone-system-voicemail.md)ご覧ください。
 
-開始する準備ができた場合は、[組織内の電話システムの設定](setting-up-your-phone-system.md)を参照してください。
+始める準備ができたら、「[組織での電話システムの](setting-up-your-phone-system.md)セットアップ」をご覧ください。
 
 ## <a name="related-topics"></a>関連トピック
 - [Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
