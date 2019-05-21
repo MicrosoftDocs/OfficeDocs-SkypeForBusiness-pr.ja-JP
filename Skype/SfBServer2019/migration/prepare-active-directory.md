@@ -4,30 +4,30 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 共存状態でのビジネス サーバー 2019 の Skype を導入する前に、Skype のビジネス サーバー 2019 のスキーマ、フォレスト、およびドメインを構成するのにはいくつか追加の Active Directory タスクを行う必要があります。 スキーマの拡張機能は、Active Directory クラスとビジネス サーバー 2019 の Skype で必要な属性を追加します。 詳細については、ビジネス サーバー 2019 は、トピックを準備する Active Directory ドメイン サービスの Skype を参照してください。
-ms.openlocfilehash: 290919f0c3ac1c58a92e00ba6d3403b6d2fb9069
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for Business Server 2019 を共存状態で展開する前に、追加の Active Directory タスクを実行して、Skype for Business Server 2019 のスキーマ、フォレスト、ドメインを構成する必要があります。 スキーマ拡張は、Skype for Business Server 2019 で必要な Active Directory クラスと属性を追加します。 詳細については、「Skype for Business Server 2019 用の Active Directory ドメインサービスの準備」を参照してください。
+ms.openlocfilehash: 8cec6b6cfb7047a151f6dcd78d6bb42c21e4a959
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231533"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273798"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server"></a><span data-ttu-id="ff43d-105">Skype のビジネス サーバーの Active Directory を準備します。</span><span class="sxs-lookup"><span data-stu-id="ff43d-105">Prepare Active Directory for Skype for Business Server</span></span>
+# <a name="prepare-active-directory-for-skype-for-business-server"></a><span data-ttu-id="e27ac-105">Skype for Business Server 用 Active Directory の準備</span><span class="sxs-lookup"><span data-stu-id="e27ac-105">Prepare Active Directory for Skype for Business Server</span></span>
 
-<span data-ttu-id="ff43d-106">共存状態でのビジネス サーバー 2019 の Skype を導入する前に、Skype のビジネス サーバー 2019 のスキーマ、フォレスト、およびドメインを構成するのにはいくつか追加の Active Directory タスクを行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="ff43d-106">Before deploying Skype for Business Server 2019 in a coexistence state, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019.</span></span> <span data-ttu-id="ff43d-107">スキーマの拡張機能は、Active Directory クラスとビジネス サーバー 2019 の Skype で必要な属性を追加します。</span><span class="sxs-lookup"><span data-stu-id="ff43d-107">The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019.</span></span> <!-- For additional information, see the topic 
+<span data-ttu-id="e27ac-106">Skype for business Server 2019 を共存状態で展開する前に、追加の Active Directory タスクを実行して、Skype for Business Server 2019 のスキーマ、フォレスト、ドメインを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e27ac-106">Before deploying Skype for Business Server 2019 in a coexistence state, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019.</span></span> <span data-ttu-id="e27ac-107">スキーマ拡張は、Skype for Business Server 2019 で必要な Active Directory クラスと属性を追加します。</span><span class="sxs-lookup"><span data-stu-id="e27ac-107">The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019.</span></span> <!-- For additional information, see the topic 
 [Preparing Active Directory Domain Services for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/preparing-active-directory-domain-services-for-lync-server-2013.md). -->
   
-### <a name="to-prepare-active-directory-for-skype-for-business-server-2019"></a><span data-ttu-id="ff43d-108">Skype のビジネス サーバー 2019 の Active Directory を準備するのには</span><span class="sxs-lookup"><span data-stu-id="ff43d-108">To prepare Active Directory for Skype for Business Server 2019</span></span>
+### <a name="to-prepare-active-directory-for-skype-for-business-server-2019"></a><span data-ttu-id="e27ac-108">Skype for Business Server 2019 用に Active Directory を準備するには</span><span class="sxs-lookup"><span data-stu-id="e27ac-108">To prepare Active Directory for Skype for Business Server 2019</span></span>
 
-1. <span data-ttu-id="ff43d-109">ビジネス 2019 フロント エンド サーバーの Skype、Skype 2019 セットアップを実行します。</span><span class="sxs-lookup"><span data-stu-id="ff43d-109">On the Skype for Business Server 2019 Front End Server, run Skype for Business Server 2019 Setup.</span></span>
+1. <span data-ttu-id="e27ac-109">Skype for Business Server 2019 フロントエンドサーバーで、Skype for Business Server 2019 のセットアップを実行します。</span><span class="sxs-lookup"><span data-stu-id="e27ac-109">On the Skype for Business Server 2019 Front End Server, run Skype for Business Server 2019 Setup.</span></span>
     
-2. <span data-ttu-id="ff43d-110">**Active Directory の準備**を選択します。</span><span class="sxs-lookup"><span data-stu-id="ff43d-110">Select **Prepare Active Directory**.</span></span>
+2. <span data-ttu-id="e27ac-110">[ **Active Directory の準備**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="e27ac-110">Select **Prepare Active Directory**.</span></span>
   
-3. <span data-ttu-id="ff43d-111">1 ~ 5 では、ウィザードの手順を完了します。</span><span class="sxs-lookup"><span data-stu-id="ff43d-111">Complete steps 1 through 5 in the wizard.</span></span>
+3. <span data-ttu-id="e27ac-111">ウィザードの手順 1 ~ 5 を実行します。</span><span class="sxs-lookup"><span data-stu-id="e27ac-111">Complete steps 1 through 5 in the wizard.</span></span>
 
   
 

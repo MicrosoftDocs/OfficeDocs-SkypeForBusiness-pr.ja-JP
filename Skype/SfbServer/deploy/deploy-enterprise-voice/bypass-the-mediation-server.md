@@ -1,10 +1,10 @@
 ---
-title: Skype ビジネス サーバーを常に仲介サーバーをバイパスするためのメディア バイ パスを構成します。
+title: Skype for Business Server でメディアバイパスを構成して、常に仲介サーバーをバイパスする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,39 +13,39 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-description: 常にビジネス サーバーのエンタープライズ VoIP の Skype に仲介サーバーをバイパスするのにはメディア バイ パスを有効にします。
-ms.openlocfilehash: ffefeb9850915f4ac8e4677f1bcf0202c4f29405
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: メディアバイパスを有効にして、Skype for Business Server Enterprise Voice の仲介サーバーを常にバイパスします。
+ms.openlocfilehash: 0e45f8ede38411974f9433c17ccd0a0946b427ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893141"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275879"
 ---
-# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a><span data-ttu-id="ed3ee-103">Skype ビジネス サーバーを常に仲介サーバーをバイパスするためのメディア バイ パスを構成します。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-103">Configure media bypass in Skype for Business Server to always bypass the Mediation Server</span></span>
+# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a><span data-ttu-id="18845-103">Skype for Business Server でメディアバイパスを構成して、常に仲介サーバーをバイパスする</span><span class="sxs-lookup"><span data-stu-id="18845-103">Configure media bypass in Skype for Business Server to always bypass the Mediation Server</span></span>
  
-<span data-ttu-id="ed3ee-104">常にビジネス サーバーのエンタープライズ VoIP の Skype に仲介サーバーをバイパスするのにはメディア バイ パスを有効にします。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-104">Enable media bypass to always bypass the Mediation Server in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="18845-104">メディアバイパスを有効にして、Skype for Business Server Enterprise Voice の仲介サーバーを常にバイパスします。</span><span class="sxs-lookup"><span data-stu-id="18845-104">Enable media bypass to always bypass the Mediation Server in Skype for Business Server Enterprise Voice.</span></span> 
   
- <span data-ttu-id="ed3ee-105">使用する場合は、メディアのグローバル設定を構成するには、このトピックの手順を省略、前提としてビジネス エンドポイントの Skype とトランク接続でメディア バイ パスを構成するすべてのピアとの間の適切な接続があること。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-105">If you use the steps in this topic to configure global settings for media bypass, the assumption is that you have good connectivity between Skype for Business endpoints and any peer for which you configured media bypass on the trunk connection.</span></span>
+ <span data-ttu-id="18845-105">このトピックの手順を使用してメディアバイパスのグローバル設定を構成する場合は、Skype for Business エンドポイントと、トランク接続でメディアをバイパスするように構成したすべてのピアとの間に接続性が良好であることを前提としています。</span><span class="sxs-lookup"><span data-stu-id="18845-105">If you use the steps in this topic to configure global settings for media bypass, the assumption is that you have good connectivity between Skype for Business endpoints and any peer for which you configured media bypass on the trunk connection.</span></span>
   
-<span data-ttu-id="ed3ee-106">Skype ビジネス エンドポイントとのメディアのバイパスがそれぞれのトランク接続が有効になっている仲介サーバーへのすべてのピアとの間の適切な接続がない場合は、サイトと地域の情報を使用してグローバル メディア バイ パスの設定を構成する必要があります。用いたメディアをバイパスします。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-106">If you do not have good connectivity between Skype for Business endpoints and all peers to the Mediation Server whose respective trunk connections have been enabled for media bypass, you must configure global media bypass settings to use site and region information when employing media bypass.</span></span> <span data-ttu-id="ed3ee-107">これにより、メディアが仲介サーバーをバイパスするときを決定するときに詳細に制御できます。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-107">This allows for more control in determining when media bypasses the Mediation Server.</span></span> <span data-ttu-id="ed3ee-108">これを行うには、[構成メディア ビジネス サーバーは、サイトと地域の情報を使用するの Skype のグローバル設定を使用しない](use-site-and-region-information.md)と、[ネットワーク サイトとサブネットを関連付ける](deploy-network.md#BKMK_AssociateSubnets)手順を代わりに使用します。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-108">To do this, use the steps in [Configure media bypass global settings in Skype for Business Server to use site and region information](use-site-and-region-information.md) and [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) instead.</span></span>
+<span data-ttu-id="18845-106">Skype for Business エンドポイントと、各トランク接続がメディアバイパスに対応している仲介サーバーへのすべてのピアとの接続が適切でない場合は、サイトと地域の情報を使用するようにグローバルメディアバイパス設定を構成する必要があります。メディアのバイパスを採用している場合。</span><span class="sxs-lookup"><span data-stu-id="18845-106">If you do not have good connectivity between Skype for Business endpoints and all peers to the Mediation Server whose respective trunk connections have been enabled for media bypass, you must configure global media bypass settings to use site and region information when employing media bypass.</span></span> <span data-ttu-id="18845-107">これにより、メディアが仲介サーバーをバイパスするタイミングをより細かく制御できます。</span><span class="sxs-lookup"><span data-stu-id="18845-107">This allows for more control in determining when media bypasses the Mediation Server.</span></span> <span data-ttu-id="18845-108">これを行うには、「 [Skype For Business Server でのグローバル設定のメディアを無視する](use-site-and-region-information.md)」の手順に従って、サイトと地域の情報を使用し、[サブネットをネットワークサイトに関連付け](deploy-network.md#BKMK_AssociateSubnets)ます。</span><span class="sxs-lookup"><span data-stu-id="18845-108">To do this, use the steps in [Configure media bypass global settings in Skype for Business Server to use site and region information](use-site-and-region-information.md) and [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) instead.</span></span>
   
-### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a><span data-ttu-id="ed3ee-109">仲介サーバーを常にバイパスするよう、メディア バイパスをグローバルに有効化するには</span><span class="sxs-lookup"><span data-stu-id="ed3ee-109">To Enable Media Bypass Globally to Always Bypass the Mediation Server</span></span>
+### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a><span data-ttu-id="18845-109">仲介サーバーを常にバイパスするよう、メディア バイパスをグローバルに有効化するには</span><span class="sxs-lookup"><span data-stu-id="18845-109">To Enable Media Bypass Globally to Always Bypass the Mediation Server</span></span>
 
-1. <span data-ttu-id="ed3ee-110">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-110">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="18845-110">Skype for Business Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="18845-110">Open Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="ed3ee-111">左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-111">In the left navigation bar, click **Network Configuration**.</span></span>
+2. <span data-ttu-id="18845-111">左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="18845-111">In the left navigation bar, click **Network Configuration**.</span></span>
     
-3. <span data-ttu-id="ed3ee-112">リスト内の [**グローバル**] 構成をダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-112">Double-click the **Global** configuration in the list.</span></span>
+3. <span data-ttu-id="18845-112">リスト内の [**グローバル**] 構成をダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="18845-112">Double-click the **Global** configuration in the list.</span></span>
     
-4. <span data-ttu-id="ed3ee-113">[**グローバル設定の編集**] ページの [**メディア バイパスを有効にする**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-113">On the **Edit Global Setting** page, select the **Enable media bypass** check box.</span></span>
+4. <span data-ttu-id="18845-113">[**グローバル設定の編集**] ページの [**メディア バイパスを有効にする**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="18845-113">On the **Edit Global Setting** page, select the **Enable media bypass** check box.</span></span>
     
-5. <span data-ttu-id="ed3ee-114">[**常にバイパスする**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-114">Click **Always bypass**.</span></span>
+5. <span data-ttu-id="18845-114">[**常にバイパスする**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="18845-114">Click **Always bypass**.</span></span>
     
-6. <span data-ttu-id="ed3ee-115">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-115">Click **Commit**.</span></span>
+6. <span data-ttu-id="18845-115">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="18845-115">Click **Commit**.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="ed3ee-116">関連項目</span><span class="sxs-lookup"><span data-stu-id="ed3ee-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="18845-116">関連項目</span><span class="sxs-lookup"><span data-stu-id="18845-116">See also</span></span>
 
-[<span data-ttu-id="ed3ee-117">ビジネス用の Skype でメディアをバイパスするための計画します。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-117">Plan for media bypass in Skype for Business</span></span>](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+[<span data-ttu-id="18845-117">Skype for Business でのメディアのバイパスの計画</span><span class="sxs-lookup"><span data-stu-id="18845-117">Plan for media bypass in Skype for Business</span></span>](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
-[<span data-ttu-id="ed3ee-118">ビジネス サーバーの Skype でのメディア バイ パスを展開します。</span><span class="sxs-lookup"><span data-stu-id="ed3ee-118">Deploy media bypass in Skype for Business Server</span></span>](deploy-media-bypass.md)
+[<span data-ttu-id="18845-118">Skype for Business Server でメディアバイパスを展開する</span><span class="sxs-lookup"><span data-stu-id="18845-118">Deploy media bypass in Skype for Business Server</span></span>](deploy-media-bypass.md)
 

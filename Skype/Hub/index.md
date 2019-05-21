@@ -55,7 +55,7 @@ ms.locfileid: "33905696"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>ハイブリッド ソリューション</h3>
-                                                    <p>Skype のビジネスのハイブリッド展開の計画に関する情報を検索します。</p>
+                                                    <p>Skype for Business ハイブリッド展開の計画に関する情報を参照してください。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,7 +130,7 @@ ms.locfileid: "33905696"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Skype for Business から Microsoft Teams への移行</h3>
-                                                    <p>ガイダンスおよびチームに最適なパスを表示するためのツールを検索します。</p>
+                                                    <p>チームへの最適なパスを調べるためのガイダンスとツールを見つけます。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -183,8 +183,8 @@ ms.locfileid: "33905696"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>エンド ・ ユーザー</h3>
-                                                    <p><a href='https://support.office.com/en-us/skype-for-business' target="_blank">Support.office.com</a>のビジネス ユーザー向けヘルプ、トレーニング、および Skype のテクニカル サポートを検索します。</p>
+                                                    <h3>エンドユーザー</h3>
+                                                    <p>Skype for Business ユーザーのヘルプ、トレーニング、テクニカルサポートについては、 <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>を参照してください。</p>
                                                 </div>
                                             </div>
                                         </div>
