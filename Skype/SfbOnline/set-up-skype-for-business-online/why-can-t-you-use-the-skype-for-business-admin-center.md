@@ -1,5 +1,5 @@
 ---
-title: 使用できない理由、Skype オンライン ビジネスの管理センターに今すぐですか。
+title: 今すぐ Skype for Business Online 管理センターを使用できないのはなぜですか?
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,56 +19,56 @@ f1keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
-description: 'して使用することはできません Skype でビジネス管理センター、および他の機能、サービスを別の Microsoft のデータ センターに移行されている場合について説明します。 '
-ms.openlocfilehash: 57ffa6e37c18de8e87e5af00750eef276649f4f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Skype for Business 管理センターで使用できる機能とできない機能、およびサービスが別の Microsoft データセンターに移行される場合のその他の機能について説明します。 '
+ms.openlocfilehash: 006caf6542abfeeb38e9563b6866fb119c47b88f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226319"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284879"
 ---
-# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a><span data-ttu-id="7c89c-103">使用できない理由、Skype オンライン ビジネスの管理センターに今すぐですか。</span><span class="sxs-lookup"><span data-stu-id="7c89c-103">Why can't I use the Skype for Business Online admin center right now?</span></span>
+# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a><span data-ttu-id="51c0b-103">今すぐ Skype for Business Online 管理センターを使用できないのはなぜですか?</span><span class="sxs-lookup"><span data-stu-id="51c0b-103">Why can't I use the Skype for Business Online admin center right now?</span></span>
 
-<span data-ttu-id="7c89c-104">わかっている場合、ここで起きているし、待機の価値があるはず理由を説明するので、ここには、作業を取得できません、いらだたしいものです。</span><span class="sxs-lookup"><span data-stu-id="7c89c-104">We know it's frustrating when you can't get your work done, so we're going to explain what's happening here and why it'll be worth the wait.</span></span> 
+<span data-ttu-id="51c0b-104">作業を完了できないことがわかっているため、ここでは何が起こっているのかを説明します。</span><span class="sxs-lookup"><span data-stu-id="51c0b-104">We know it's frustrating when you can't get your work done, so we're going to explain what's happening here and why it'll be worth the wait.</span></span> 
   
-<span data-ttu-id="7c89c-105">技術的な説明をここでは最初に、します。</span><span class="sxs-lookup"><span data-stu-id="7c89c-105">First, here's the technical explanation:</span></span>
+<span data-ttu-id="51c0b-105">まず、次の技術的な説明について説明します。</span><span class="sxs-lookup"><span data-stu-id="51c0b-105">First, here's the technical explanation:</span></span>
   
-<span data-ttu-id="7c89c-106">(つまり、ユーザーと組織の設定)、ビジネスのオンライン サービスは、Skype を移行して手前にありますが、別の Microsoft データ センターに。</span><span class="sxs-lookup"><span data-stu-id="7c89c-106">We're migrating your Skype for Business Online service (meaning your users and organizational settings) to another Microsoft datacenter that's closer to you.</span></span> <span data-ttu-id="7c89c-107">サービスの向上し、待ち時間を短縮します。</span><span class="sxs-lookup"><span data-stu-id="7c89c-107">This will improve your service and reduce latency.</span></span> 
+<span data-ttu-id="51c0b-106">Skype for Business Online サービス (ユーザーと組織の設定) を別の Microsoft データセンターに移行しています。</span><span class="sxs-lookup"><span data-stu-id="51c0b-106">We're migrating your Skype for Business Online service (meaning your users and organizational settings) to another Microsoft datacenter that's closer to you.</span></span> <span data-ttu-id="51c0b-107">これにより、サービスが向上し、待機時間が短縮されます。</span><span class="sxs-lookup"><span data-stu-id="51c0b-107">This will improve your service and reduce latency.</span></span> 
   
-<span data-ttu-id="7c89c-108">技術的な詳細については[中、および後のデータの移動]( https://go.microsoft.com/fwlink/?LinkId=526418)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7c89c-108">For more technical details, see [During and after your data move]( https://go.microsoft.com/fwlink/?LinkId=526418).</span></span>
+<span data-ttu-id="51c0b-108">技術的な詳細については、「[データの移動中および移行後]( https://go.microsoft.com/fwlink/?LinkId=526418)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="51c0b-108">For more technical details, see [During and after your data move]( https://go.microsoft.com/fwlink/?LinkId=526418).</span></span>
   
-## <a name="ok-so-what-does-that-mean"></a><span data-ttu-id="7c89c-109">[Ok]、これはどういうことでしょうか。</span><span class="sxs-lookup"><span data-stu-id="7c89c-109">OK, so what does that mean?</span></span>
+## <a name="ok-so-what-does-that-mean"></a><span data-ttu-id="51c0b-109">これはどういう意味ですか?</span><span class="sxs-lookup"><span data-stu-id="51c0b-109">OK, so what does that mean?</span></span>
 
-<span data-ttu-id="7c89c-110">最初に、いくつかの用語を分割してみましょう。</span><span class="sxs-lookup"><span data-stu-id="7c89c-110">First, let's break down a few terms.</span></span>
+<span data-ttu-id="51c0b-110">まず、いくつかの用語について説明します。</span><span class="sxs-lookup"><span data-stu-id="51c0b-110">First, let's break down a few terms.</span></span>
   
-- <span data-ttu-id="7c89c-111">**データ ・ センター**これは、物理的な場所、ファイルや電子メール メッセージなど、Office 365 の組織からの情報を格納する場所です。</span><span class="sxs-lookup"><span data-stu-id="7c89c-111">**Data center** This is the physical location where the information from your Office 365 organization is stored, such as your files and email messages.</span></span> <span data-ttu-id="7c89c-112">本当にさらに、Office 365 のデータ センターとはどのようなものにする場合は、[この資料](https://www.microsoft.com/online/legal/v2/?docid=25)を確認してください。</span><span class="sxs-lookup"><span data-stu-id="7c89c-112">If you really want to dig in to what Office 365 datacenters are, check out[this article](https://www.microsoft.com/online/legal/v2/?docid=25).</span></span>
+- <span data-ttu-id="51c0b-111">**データセンター**これは、ファイルやメールメッセージなど、Office 365 組織の情報が保存されている物理的な場所です。</span><span class="sxs-lookup"><span data-stu-id="51c0b-111">**Data center** This is the physical location where the information from your Office 365 organization is stored, such as your files and email messages.</span></span> <span data-ttu-id="51c0b-112">Office 365 データセンターについてよく理解したい場合は、こちらの[記事](https://www.microsoft.com/online/legal/v2/?docid=25)をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="51c0b-112">If you really want to dig in to what Office 365 datacenters are, check out[this article](https://www.microsoft.com/online/legal/v2/?docid=25).</span></span>
     
-- <span data-ttu-id="7c89c-113">**移行**これは非常に移動します。</span><span class="sxs-lookup"><span data-stu-id="7c89c-113">**Migrating** This is pretty much the same as "moving."</span></span> <span data-ttu-id="7c89c-114">この例に移行、Skype をオンライン ビジネスのユーザーと設定の 1 つのデータ センターから別のサービスを向上させることに近いことを意味します。</span><span class="sxs-lookup"><span data-stu-id="7c89c-114">In this case, it means we're moving your Skype for Business Online users and settings from one datacenter to another that's closer to you to improve your service.</span></span>
+- <span data-ttu-id="51c0b-113">**移行**これは、"移動" とほぼ同じです。</span><span class="sxs-lookup"><span data-stu-id="51c0b-113">**Migrating** This is pretty much the same as "moving."</span></span> <span data-ttu-id="51c0b-114">この場合、お客様の Skype for Business Online のユーザーと設定を、あるデータセンターから別のデータセンターに移動し、サービスの向上に向けてより近いものにしていることを意味します。</span><span class="sxs-lookup"><span data-stu-id="51c0b-114">In this case, it means we're moving your Skype for Business Online users and settings from one datacenter to another that's closer to you to improve your service.</span></span>
     
-- <span data-ttu-id="7c89c-115">**遅延時間**これは、時間、設定を行うには、Office 365 の管理センターにアクセスするのに要する時間を変更して、それらの変更を保存します。</span><span class="sxs-lookup"><span data-stu-id="7c89c-115">**Latency** This is amount of time it takes you to access the Office 365 admin center, make a settings change, and then save those changes.</span></span>
+- <span data-ttu-id="51c0b-115">**待機時間**これは、Office 365 管理センターにアクセスし、設定を変更して、それらの変更を保存するために必要な時間の長さです。</span><span class="sxs-lookup"><span data-stu-id="51c0b-115">**Latency** This is amount of time it takes you to access the Office 365 admin center, make a settings change, and then save those changes.</span></span>
     
-- <span data-ttu-id="7c89c-116">**相関関係 ID**だけで元のメッセージに記載されているこれが起こったかもしれません。</span><span class="sxs-lookup"><span data-stu-id="7c89c-116">**Correlation ID** You might have seen this listed in the message you just came from.</span></span> <span data-ttu-id="7c89c-117">この情報は、エラーのトラブルシューティングに役立つ、マイクロソフト サポート エンジニアが使用されます。</span><span class="sxs-lookup"><span data-stu-id="7c89c-117">This information is used by Microsoft support engineers to help you troubleshoot an error.</span></span> <span data-ttu-id="7c89c-118">マイクロソフト サポートに連絡する場合、指定する相関 ID の</span><span class="sxs-lookup"><span data-stu-id="7c89c-118">If you contact Microsoft support, you might be asked for the Correlation ID.</span></span>
+- <span data-ttu-id="51c0b-116">**関連付け ID**これは、先ほど送信したメッセージの一覧に表示されていた可能性があります。</span><span class="sxs-lookup"><span data-stu-id="51c0b-116">**Correlation ID** You might have seen this listed in the message you just came from.</span></span> <span data-ttu-id="51c0b-117">この情報は、Microsoft サポートエンジニアがエラーのトラブルシューティングを行うために使用されます。</span><span class="sxs-lookup"><span data-stu-id="51c0b-117">This information is used by Microsoft support engineers to help you troubleshoot an error.</span></span> <span data-ttu-id="51c0b-118">Microsoft サポートに連絡する場合は、関連付け ID の確認を求められる場合があります。</span><span class="sxs-lookup"><span data-stu-id="51c0b-118">If you contact Microsoft support, you might be asked for the Correlation ID.</span></span>
     
-<span data-ttu-id="7c89c-119">このすべての手段とは、オンライン ビジネスのユーザーに、すべての Skype を移動中しサービスの近くに別の場所に設定します。</span><span class="sxs-lookup"><span data-stu-id="7c89c-119">So what this all means is we're in the process of moving all your Skype for Business Online users and service settings to another location that's closer to you.</span></span> <span data-ttu-id="7c89c-120">近づくほどパフォーマンスは向上します。</span><span class="sxs-lookup"><span data-stu-id="7c89c-120">The closer the better.</span></span> <span data-ttu-id="7c89c-121">この短い時間が経過した後、Skype をビジネスのオンライン サービスを向上させることが、良いニュースです。</span><span class="sxs-lookup"><span data-stu-id="7c89c-121">The good news is that after this short period of time, your Skype for Business Online service will improve.</span></span>
+<span data-ttu-id="51c0b-119">これまでの意味では、Skype for Business Online のすべてのユーザーとサービス設定を、お客様により近い場所に移動するプロセスを進めています。</span><span class="sxs-lookup"><span data-stu-id="51c0b-119">So what this all means is we're in the process of moving all your Skype for Business Online users and service settings to another location that's closer to you.</span></span> <span data-ttu-id="51c0b-120">もっとうまくいきます。</span><span class="sxs-lookup"><span data-stu-id="51c0b-120">The closer the better.</span></span> <span data-ttu-id="51c0b-121">この短時間の間、Skype for Business Online サービスの品質が向上します。</span><span class="sxs-lookup"><span data-stu-id="51c0b-121">The good news is that after this short period of time, your Skype for Business Online service will improve.</span></span>
   
-![Office 365 のサービスの移行](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![Office 365 でのサービスの移行](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
-## <a name="what-skype-for-business-online-features-will-still-work"></a><span data-ttu-id="7c89c-123">何 Skype ビジネス オンライン機能がうまく動作しますか。</span><span class="sxs-lookup"><span data-stu-id="7c89c-123">What Skype for Business Online features will still work?</span></span>
+## <a name="what-skype-for-business-online-features-will-still-work"></a><span data-ttu-id="51c0b-123">Skype for Business Online の機能について教えてください。</span><span class="sxs-lookup"><span data-stu-id="51c0b-123">What Skype for Business Online features will still work?</span></span>
 
-<span data-ttu-id="7c89c-124">Skype のオンライン ビジネスの管理センターにアクセスすることはできません、オンライン ビジネスの機能を次の Skype ですが、移行中にも使用します。</span><span class="sxs-lookup"><span data-stu-id="7c89c-124">Although you won't be able to access the Skype for Business Online admin center, the following Skype for Business Online features will still work during the migration:</span></span>
+<span data-ttu-id="51c0b-124">Skype for Business Online 管理センターにアクセスすることはできませんが、移行中に次の Skype for Business Online の機能は引き続き機能します。</span><span class="sxs-lookup"><span data-stu-id="51c0b-124">Although you won't be able to access the Skype for Business Online admin center, the following Skype for Business Online features will still work during the migration:</span></span>
   
-- <span data-ttu-id="7c89c-125">オンライン会議</span><span class="sxs-lookup"><span data-stu-id="7c89c-125">Online meetings</span></span>
+- <span data-ttu-id="51c0b-125">オンライン会議</span><span class="sxs-lookup"><span data-stu-id="51c0b-125">Online meetings</span></span>
     
-- <span data-ttu-id="7c89c-126">プレゼンス情報</span><span class="sxs-lookup"><span data-stu-id="7c89c-126">Presence information</span></span>
+- <span data-ttu-id="51c0b-126">プレゼンス情報</span><span class="sxs-lookup"><span data-stu-id="51c0b-126">Presence information</span></span>
     
-## <a name="can-i-get-other-work-done"></a><span data-ttu-id="7c89c-127">その他の作業を入手できますか。</span><span class="sxs-lookup"><span data-stu-id="7c89c-127">Can I get other work done?</span></span>
+## <a name="can-i-get-other-work-done"></a><span data-ttu-id="51c0b-127">他の作業を行うことはできますか?</span><span class="sxs-lookup"><span data-stu-id="51c0b-127">Can I get other work done?</span></span>
 
-<span data-ttu-id="7c89c-128">もちろん。</span><span class="sxs-lookup"><span data-stu-id="7c89c-128">Sure.</span></span> <span data-ttu-id="7c89c-129">オンライン ビジネス サービス、Skype に移行している間、Office 365 (たとえば、Office 365 と Exchange 管理中心) の他の管理センターを使用できます。</span><span class="sxs-lookup"><span data-stu-id="7c89c-129">While we're migrating your Skype for Business Online service, you can still use the other admin centers in Office 365 (for example, the Office 365 and Exchange admin centers).</span></span> <span data-ttu-id="7c89c-130">ただし、オンライン ビジネスの管理センターの Skype とすることはできませんビジネス オンライン リモート PowerShell コマンドレットの移行中に、Skype を使用します。</span><span class="sxs-lookup"><span data-stu-id="7c89c-130">However, along with the Skype for Business Online admin center, you won't be able to use the Skype for Business Online Remote PowerShell cmdlets during the migration.</span></span> 
+<span data-ttu-id="51c0b-128">もちろん。</span><span class="sxs-lookup"><span data-stu-id="51c0b-128">Sure.</span></span> <span data-ttu-id="51c0b-129">Skype for Business Online サービスを移行している間も、Office 365 (Office 365 および Exchange 管理センターなど) で他の管理センターを使用することができます。</span><span class="sxs-lookup"><span data-stu-id="51c0b-129">While we're migrating your Skype for Business Online service, you can still use the other admin centers in Office 365 (for example, the Office 365 and Exchange admin centers).</span></span> <span data-ttu-id="51c0b-130">ただし、Skype for Business Online 管理センターと共に、移行中に Skype for Business Online リモート PowerShell コマンドレットを使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="51c0b-130">However, along with the Skype for Business Online admin center, you won't be able to use the Skype for Business Online Remote PowerShell cmdlets during the migration.</span></span> 
   
-## <a name="related-topics"></a><span data-ttu-id="7c89c-131">関連トピック</span><span class="sxs-lookup"><span data-stu-id="7c89c-131">Related topics</span></span>
-[<span data-ttu-id="7c89c-132">Skype for Business Online のセットアップ</span><span class="sxs-lookup"><span data-stu-id="7c89c-132">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="51c0b-131">関連トピック</span><span class="sxs-lookup"><span data-stu-id="51c0b-131">Related topics</span></span>
+[<span data-ttu-id="51c0b-132">Skype for Business Online のセットアップ</span><span class="sxs-lookup"><span data-stu-id="51c0b-132">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="7c89c-133">Skype for Business ユーザーが Skype の連絡先を追加できるようにする</span><span class="sxs-lookup"><span data-stu-id="7c89c-133">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="51c0b-133">Skype for Business ユーザーが Skype の連絡先を追加できるようにする</span><span class="sxs-lookup"><span data-stu-id="51c0b-133">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

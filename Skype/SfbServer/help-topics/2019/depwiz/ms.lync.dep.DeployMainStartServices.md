@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainStartServices
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 ROBOTS: NOINDEX, NOFOLLOW
-description: サービスを開始すると、展開されたサーバーの役割を手順 4 で実行] をクリックします。 サービスを開始します。 または同等のローカルの Administrators グループのメンバーとしてログオンする必要があります。
-ms.openlocfilehash: 49ca3aa03a83ba79bd8ca4106a9a3a29311fd1fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 展開されたサーバーの役割でサービスを開始するには、手順4で [実行] をクリックします。 ローカルの管理者グループまたは同等のメンバーとしてログオンしている必要があります。
+ms.openlocfilehash: b7a226df3017bd270b889311f8355cd95cbaf145
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893701"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303384"
 ---
-# <a name="start-services"></a><span data-ttu-id="4f8bd-104">サービスの開始</span><span class="sxs-lookup"><span data-stu-id="4f8bd-104">Start Services</span></span>
+# <a name="start-services"></a><span data-ttu-id="8e281-104">サービスの開始</span><span class="sxs-lookup"><span data-stu-id="8e281-104">Start Services</span></span>
  
-<span data-ttu-id="4f8bd-105">サービスを開始すると、展開されたサーバーの役割を [**実行**] をクリックします**ステップ 4: サービスを開始**。</span><span class="sxs-lookup"><span data-stu-id="4f8bd-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="4f8bd-106">または同等のローカルの Administrators グループのメンバーとしてログオンする必要があります。</span><span class="sxs-lookup"><span data-stu-id="4f8bd-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
+<span data-ttu-id="8e281-105">展開されたサーバーの役割でサービスを開始するには、**手順 4**で [**実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8e281-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="8e281-106">ローカルの管理者グループまたは同等のメンバーとしてログオンしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="8e281-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="4f8bd-107">**サービスの開始**が実行された場合**の再実行**] をクリックしてコマンドを再実行できます。</span><span class="sxs-lookup"><span data-stu-id="4f8bd-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
+> <span data-ttu-id="8e281-107">**開始サービス**が実行されている場合は、[実行] を**もう一度**クリックしてコマンドを再実行できます。</span><span class="sxs-lookup"><span data-stu-id="8e281-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
   
 
