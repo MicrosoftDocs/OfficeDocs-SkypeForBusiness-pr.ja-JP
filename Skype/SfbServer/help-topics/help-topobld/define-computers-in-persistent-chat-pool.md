@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPersistentChatMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
-description: コンピューターの FQDN で、完全修飾ドメイン名 (FQDN) を入力することによって永続的なチャット サーバー プールの一部となるコンピューターを定義します。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。
-ms.openlocfilehash: 9350a31a025c71d1611379eb4e881b7c0eb3f18f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '[コンピューター FQDN] に完全修飾ドメイン名 (FQDN) を入力して、常設チャットサーバープールの一部となるコンピューターを定義します。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。'
+ms.openlocfilehash: c3f014a8f0f6760a2628ca06306ed59055fc3cc4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903587"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305893"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>常設チャット プールのコンピューターの定義
  
-**コンピューターの FQDN**で、完全修飾ドメイン名 (FQDN) を入力することによって永続的なチャット サーバー プールの一部となるコンピューターを定義します。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。
+[**コンピューター fqdn**] に完全修飾ドメイン名 (FQDN) を入力して、常設チャットサーバープールの一部となるコンピューターを定義します。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。
   
 その FQDN をプールに含まれるコンピューターのリストに追加するには、[**追加**] をクリックします。
   
@@ -32,7 +32,7 @@ ms.locfileid: "33903587"
   
 前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。
   
-永続的なチャット サーバー プールの定義を続行するのにはこのプールにコンピューターのメンバーの入力が終了したら**次へ**をクリックします。
+このプールのコンピューターメンバーの入力が完了したら、[**次へ**] をクリックして、常設チャットサーバープールの定義を続行します。
   
 すべての変更を破棄して**新しい常設チャット プールの定義**ウィザードを終了するには、[**キャンセル**] をクリックします。
   
@@ -42,4 +42,4 @@ ms.locfileid: "33903587"
 
 [Skype for Business Server 2015 の常設チャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Skype for Business Server 2015 トポロジに常設チャットサーバーを追加する](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

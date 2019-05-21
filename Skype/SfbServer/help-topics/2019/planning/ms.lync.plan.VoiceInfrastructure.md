@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.VoiceInfrastructure
@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype ビジネス サーバーは、SIP トランク、PSTN ゲートウェイでは、直接 SIP 接続または PBX への直接の SIP 接続を使用して信頼性の高いスケーラブルな PSTN 接続を提供します。 詳細についてを参照してください計画 PSTN への接続では、Skype のビジネス サーバーのです。
-ms.openlocfilehash: e5a234560d59298ebece6758fe346e3c502ace24
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server は、SIP trunks、PSTN ゲートウェイへの直接 SIP 接続、または PBX への直接 SIP 接続を使用して、信頼性の高いスケーラブルな PSTN 接続を提供します。 詳細については、「Skype for Business Server での PSTN 接続の計画」を参照してください。
+ms.openlocfilehash: 0e71562161ce23bc944a04e7aaf10fbc6fb14384
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889298"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284635"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>Voice Infrastructure (Planning Tool)
  
-Skype ビジネス サーバーは、SIP トランク、PSTN ゲートウェイでは、直接 SIP 接続または PBX への直接の SIP 接続を使用して信頼性の高いスケーラブルな PSTN 接続を提供します。 詳細については、 [Skype のビジネス サーバーの PSTN への接続の計画](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)を参照してください。
+Skype for Business Server は、SIP trunks、PSTN ゲートウェイへの直接 SIP 接続、または PBX への直接 SIP 接続を使用して、信頼性の高いスケーラブルな PSTN 接続を提供します。 詳細については、「 [Skype For Business Server での PSTN 接続の計画](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)」を参照してください。
   
 

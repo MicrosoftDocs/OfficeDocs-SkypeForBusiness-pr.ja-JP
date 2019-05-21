@@ -1,31 +1,31 @@
 ---
-title: ビジネス サーバーのため、Skype で高品質なエクスペリエンスの構成設定を作成します。
+title: Skype for Business Server のエクスペリエンスの構成設定の品質設定を作成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
-description: '概要: は、Skype でビジネス サーバー用のエクスペリエンスの品質 (QoE) の設定について説明します。'
-ms.openlocfilehash: aef6ff9f981af92427bbc3b6d276b2fdefb45616
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server の Quality of Experience (QoE) 設定について説明します。'
+ms.openlocfilehash: d87938fdab64f3a77b96f427363c846829081f44
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926635"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305809"
 ---
-# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーのため、Skype で高品質なエクスペリエンスの構成設定を作成します。
+# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server のエクスペリエンスの構成設定の品質設定を作成する
  
-**の概要:** ビジネス サーバーの Skype の高品質のエクスペリエンス (QoE) の設定について説明します。
+**概要:** Skype for Business Server の Quality of Experience (QoE) 設定について説明します。
   
 Quality of Experience (QoE) 指標は、ネットワーク パケットの損失数、バックグラウンド ノイズ、"ジッター" (パケット遅延のばらつき) の量など、組織内で行われる音声通話およびビデオ通話の品質を追跡します。これらの指標は、他のデータ (詳細な通話の記録など) とは別にデータベースに格納されます。このため、QoE は他のデータ記録と関係なく有効および無効にすることができます。
   
-ビジネス サーバー、1 つの Skype をインストールすると QoE 構成設定のグローバル コレクションが作成されます。 管理者は、サイト スコープでカスタム設定を作成することもできます。 これらのサイト スコープの設定は、グローバル設定に優先して使用されます。 たとえば、Redmond サイト用のサイト スコープの設定を作成した場合は、グローバル設定ではなくこれらの設定を使用して Redmond の QoE が管理されます。
+Skype for Business Server をインストールすると、QoE 構成設定のグローバルコレクションが1つ作成されます。 管理者は、サイト スコープでカスタム設定を作成することもできます。 これらのサイト スコープの設定は、グローバル設定に優先して使用されます。 たとえば、Redmond サイト用のサイト スコープの設定を作成した場合は、グローバル設定ではなくこれらの設定を使用して Redmond の QoE が管理されます。
   
-QoE 構成設定は、ビジネス サーバーのコントロール パネルまたは[新規 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)コマンドレットのいずれかの Skype を使用して作成できます。 新しい設定を作成するビジネス サーバーのコントロール パネルの Skype を使用している場合に使用可能な次のオプションになります。
+QoE 構成設定を作成するには、Skype for Business Server コントロールパネルまたは[新しい-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)コマンドレットを使用します。 Skype for Business Server コントロールパネルを使用して新しい設定を作成する場合は、次のオプションを使用できます。
   
 |**UI 設定**|**PowerShell パラメーター**|**説明**|
 |:-----|:-----|:-----|
@@ -35,13 +35,13 @@ QoE 構成設定は、ビジネス サーバーのコントロール パネル�
 |[QoE データの最大保存期間 (日)]  <br/> |KeepQoEDataForDays  <br/> |データベースから削除するまで QoE データを保存する日数。削除が無効の場合、この値は無視されます。  <br/> |
    
 > [!NOTE]
-> 新規 CsQoEConfiguration コマンドレットには、ビジネス サーバーのコントロール パネルの Skype では利用できない追加のオプションが含まれています。 詳細については、[新規 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)のヘルプ トピックを参照してください。
+> 新しい-CsQoEConfiguration 設定コマンドレットには、Skype for Business Server コントロールパネルで利用できないその他のオプションが含まれています。 詳細については、「[新しい-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)方法」を参照してください。
   
-### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、QoE 構成設定を作成するには
+### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用して QoE 構成設定を作成するには
 
 1. RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**Delegate Setup Permissions**」を参照してください。
     
-2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。  
     
 3. 左側のナビゲーション バーで [**監視とアーカイブ**] をクリックし、[**QoE データ**] をクリックします。
     
@@ -59,9 +59,9 @@ QoE 構成設定は、ビジネス サーバーのコントロール パネル�
     
 7. [**コミット**] をクリックします。
     
-## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、QoE 構成設定を作成します。
+## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して QoE 構成設定を作成する
 
-QoE 構成設定を作成するには、Windows PowerShell と新規 CsQoEConfiguration コマンドレットを使用します。 実行できますこのコマンドレットのいずれか、Skype からビジネス サーバー管理シェルまたは Windows PowerShell のリモート セッションから。 ビジネス サーバーの Skype に接続するリモートの Windows PowerShell を使用する詳細については、ブログ記事の[「クイック スタート:: を管理する Microsoft Lync サーバー 2010 を使用してリモート PowerShell」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 プロセスは、Skype のビジネス サーバーで同じです。
+QoE 構成設定を作成するには、Windows PowerShell と、新しい-CsQoEConfiguration コマンドレットを使用します。 このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションからでも実行できます。 リモートの Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「[クイックスタート: リモート PowerShell を使用した Microsoft Lync server 2010 の管理」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 このプロセスは、Skype for Business Server でも同じです。
   
 ### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>QoE 構成設定の新しいコレクションを作成するには
 
@@ -87,6 +87,6 @@ QoE 構成設定を作成するには、Windows PowerShell と新規 CsQoEConfig
   New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
   ```
 
-詳細については、[新規 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
+詳細については、「[新しい-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)コマンドレット」のヘルプトピックを参照してください。
   
 

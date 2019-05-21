@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,29 +22,29 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 657e3f1cfcdd646ad3032c2619718c65315e4f0d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
+ms.openlocfilehash: 7de4ad629f87ac7f7c077748cf9d33954f5114cc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204208"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304544"
 ---
 # <a name="toll-free-dialing-restrictions-in-thailand"></a>タイでのフリーダイヤル制限
 
-[別の国または地域を検索する](../toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。
+[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。
 
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |はい  <br/> |
+|無料通話を利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 001 800 XXX XXX XXXX <br/>  1-800-XXX-XXX <br/> |
-|国/地域の ISO コード  <br/> |番目  <br/> |
+|国/地域の ISO コード  <br/> |パー  <br/> |
 |対象となる島/地域  <br/> |該当しない  <br/> |
 |対象外の島/地域  <br/> |該当しない  <br/> |
 |有線/固定回線の状態  <br/> |あり  <br/> |
 |携帯電話ネットワークの状態  <br/> |はい。 コメント参照。  <br/> |
-|コメント、制限、アクセスの問題など  <br/> |モバイル アクセス: ローカル放送として請求されます roamers を除いて放送が請求されていません。 モバイル アクセス用: すべてのモバイル ネットワークからアクセスできるようにします。  <br/> |
+|コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: 通話時間には、市内通話時間として課金されるローミングを除き、料金はかかりません。 モバイルアクセスの場合: すべてのモバイルネットワークからアクセスできます。  <br/> |
 
 ## <a name="related-topics"></a>関連トピック
 

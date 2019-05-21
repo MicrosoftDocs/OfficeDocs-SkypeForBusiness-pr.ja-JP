@@ -1,65 +1,65 @@
 ---
-title: Skype で AV と OAuth の証明書をビジネス サーバーのステージ ・ セット CsCertificate でロールを使用します。
+title: Skype for Business Server でのステージ AV と OAuth 証明書の使用-ロールでのセットアップ-CsCertificate
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: '概要: ステージの AV と OAuth の証明書ビジネス サーバーの Skype のです。'
-ms.openlocfilehash: 793791ad882171e381eff751a6f57425de0c8ca7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server 用の AV と OAuth 証明書のステージ'
+ms.openlocfilehash: 6a2e851aac8aae9aaecac424290195270415706c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919396"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286131"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Skype で AV と OAuth の証明書をビジネス サーバーのステージ ・ セット CsCertificate でロールを使用します。
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Skype for Business Server でのステージ AV と OAuth 証明書の使用-ロールでのセットアップ-CsCertificate
  
-**の概要:** ステージ AV と OAuth の証明書ビジネス サーバーの Skype のです。
+**概要:** Skype for Business Server 用の AV と OAuth 証明書のステージ
   
-オーディオ/ビデオ (A/V) の通信は、Skype のビジネス サーバーの重要なコンポーネントです。 A に割り当てられている証明書に基づいて、アプリケーションの共有、オーディオおよびビデオ会議などの機能と音声ビデオ エッジ サービス、具体的には、A/V 認証サービスです。
+音声/ビデオ (A/V) 通信は、Skype for Business Server の主要コンポーネントです。 アプリケーション共有、音声会議、ビデオ会議などの機能は、A/v Edge サービスに割り当てられている証明書、特に A/V 認証サービスに依存しています。
   
 > [!IMPORTANT]
-> この新しい機能が用意されています a/V エッジ サービスおよび OAuthTokenIssuer 証明書。 A とその他の種類の証明書を準備することができます証明書の種類ですが、共存の問題からもメリットはありません音声ビデオ エッジ サービスと OAuth とを A と、音声ビデオ エッジ サービスの証明書は。
+> この新機能は、A/V Edge サービスと OAuthTokenIssuer 証明書で動作するように設計されています。 その他の種類の証明書は、A/V Edge サービスと OAuth 証明書の種類と共にプロビジョニングできますが、A/V Edge サービス証明書の共存動作の恩恵を受けることはできません。
   
-Skype をビジネスのサーバー証明書の管理に使用されるビジネス サーバー管理シェルの PowerShell コマンドレットの Skype は、A/V エッジ AudioVideoAuthentication 証明書の種類として証明書と、OAuthServer 証明書としてのサービスtypeOAuthTokenIssuer。 証明書を一意に識別するのには、このトピックの以降は、それらを参照、同じ識別子の種類、AudioVideoAuthentication andOAuthTokenIssuer で。
+Skype for business server 管理シェル PowerShell コマンドレットは、Skype for Business Server 証明書を管理するために使用されています。 AudioVideoAuthentication 証明書の種類として、A/V Edge サービス証明書、OAuthServer certificate はtypeOAuthTokenIssuer。 このトピックの残りの部分では、証明書を一意に識別するために、同じ識別子の型 (AudioVideoAuthentication andOAuthTokenIssuer) によって参照されます。
   
-A/V 認証サービスは、クライアントおよびその他の A で使用されるトークンの発行を担当すると V の消費者です。 トークンが、証明書の属性から生成され、証明書が期限切れになったときの接続と新しい証明書によって生成された新しいトークンを使用して再度参加する必要性が失われます。 Skype ビジネス サーバー用の新機能でこの問題が古いものを期限切れにし、引き続き一定期間の両方の証明書を許可する前に新しい証明書を準備することが軽減されます。 この機能は、ビジネスのサーバー管理シェル コマンドレットのセット CsCertificate Skype で更新された機能を使用します。 新しいパラメーターにロールバックするには、既存のパラメーターを使用して - EffectiveDate は、証明書ストアに新しい AudioVideoAuthentication 証明書が配置されます。 古い AudioVideoAuthentication 証明書に対して検証するのには発行されたトークンの残ります。 AudioVideoAuthentication 証明書の新規の場所に配置することから、次の一連のイベントが発生します。
+A/V 認証サービスは、クライアントや他の A/V コンシューマーによって使用されるトークンの発行を担当します。 トークンは証明書の属性から生成され、証明書の有効期限が切れたときに、新しい証明書によって生成された新しいトークンに接続を切断して、もう一度参加するための要件があります。 Skype for Business Server の新機能により、この問題が軽減されます。新しい証明書を古いものから事前にステージングし、両方の証明書を一定期間有効にし続けることができます。 この機能では、Set-CsCertificate Skype for Business Server Management Shell コマンドレットの更新された機能を使用します。 既存のパラメーター-EffectiveDate を使用した新しいパラメーター-Roll は、新しい AudioVideoAuthentication 証明書を証明書ストアに配置します。 以前の AudioVideoAuthentication 証明書は、確認のために発行されたトークンのまま残ります。 新しい AudioVideoAuthentication 証明書を所定の場所に配置すると、次の一連のイベントが発生します。
   
 > [!TIP]
-> Skype を使用して、証明書を管理するためのビジネス サーバー管理シェル コマンドレットは、エッジ サーバー上でそれぞれの目的とは別の証明書を要求できます。 Skype のビジネス サーバーの展開ウィザードの証明書ウィザードを使用して、証明書の作成に役立つが、通常どのカップル単一の証明書をエッジ サーバーのすべての証明書を使用して、**既定**の種類の。 ローリング証明書機能を使用する場合は、AudioVideoAuthentication 証明書を他の証明書の用途から切り離すことをお勧めします。 既定の種類の証明書をプロビジョニングおよびステージングすることもできますが、結合された証明書の AudioVideoAuthentication 部分のみがステージングによる恩恵を受けます。 (たとえば) に関連するインスタント メッセージの会話、証明書の有効期限が切れたときにする必要があるして再度ログインするには、アクセス エッジ サービスに関連付けられている新しい証明書を使用します。 ユーザーが Web 会議エッジ サービスを使用して Web 会議に関連する同様の現象が発生します。 OAuthTokenIssuer 証明書は、すべてのサーバーの間で共有される特定の種類の証明書です。 証明書が格納されているとを作成し、1 つの場所に証明書を管理する中央管理ストア内の他のすべてのサーバーです。
+> Skype for Business Server 管理シェルコマンドレットを使用して、証明書を管理するために、エッジサーバー上の各目的に個別の証明書を要求できます。 Skype for Business Server 展開ウィザードで証明書ウィザードを使用すると、証明書を作成できますが、通常は、Edge Server で使用されるすべての証明書を1つの証明書に結合する**既定**の種類があります。 ローリング証明書機能を使用する場合は、AudioVideoAuthentication 証明書を他の証明書の用途から切り離すことをお勧めします。 既定の種類の証明書をプロビジョニングおよびステージングすることもできますが、結合された証明書の AudioVideoAuthentication 部分のみがステージングによる恩恵を受けます。 ユーザー (たとえば、証明書の有効期限が切れたときのインスタントメッセージの会話) では、アクセスエッジサービスに関連付けられた新しい証明書を使用するためにログアウトしてもう一度ログインする必要があります。 Web 会議エッジサービスを使って Web 会議に参加しているユーザーに対しても同様の動作が発生します。 OAuthTokenIssuer 証明書は、すべてのサーバーの間で共有される特定の種類の証明書です。 証明書を1か所で作成して管理すると、その証明書は、他のすべてのサーバーの中央管理ストアに保存されます。
   
-Set-CsCertificate コマンドレットを使用するとき、および現在の証明書の有効期限が切れる前にこのコマンドレットを使用して証明書をステージングするときのオプションと要件を十分に理解するには、さらに詳しい説明が必要です。 -ロール パラメーターが重要ですが、基本的に 1 つの目的です。 セット CsCertificate、証明書の情報に影響を受けるので定義されているを提供することをパラメーターとして定義する場合 (たとえば AudioVideoAuthentication、OAuthTokenIssuer など) の種類の証明書がいつになります。-EffectiveDate で定義されている有効です。
+Set-CsCertificate コマンドレットを使用するとき、および現在の証明書の有効期限が切れる前にこのコマンドレットを使用して証明書をステージングするときのオプションと要件を十分に理解するには、さらに詳しい説明が必要です。 -ロールパラメーターは重要ですが、基本的に単一目的です。 パラメーターとして定義すると、証明書が作成されるときに、(AudioVideoAuthentication と OAuthTokenIssuer など) によって定義された証明書に関する情報を提供するように設定されます。有効になっている-EffectiveDate
   
- **・ ロール ・**: パラメーターは必須では、一緒に指定する必要がある依存関係は、ロール。 どの証明書が影響を受け、どのように適用されるかを完全に定義するための必須パラメーターです。
+ **-ロール**:-ロールパラメーターは必須で、そのパラメーターと共に指定する必要がある依存関係が含まれています。 どの証明書が影響を受け、どのように適用されるかを完全に定義するための必須パラメーターです。
   
- **-EffectiveDate**: パラメーター EffectiveDate の定義、新しい証明書が現在の証明書を持つ co-active になります。 -EffectiveDate は、現在の証明書の有効期限の時刻の近くに、または時間の長い期間を指定できます。 推奨される最小の EffectiveDate AudioVideoAuthentication 証明書の AV エッジ サービスのトークンが AudioVideoAuthentication の証明書を使用して発行の既定値トークンの有効期間は 8 時間があります。
+ **-EffectiveDate**: パラメーター-EffectiveDate は、新しい証明書が現在の証明書と相互に共存するタイミングを定義します。 -EffectiveDate は、現在の証明書の有効期限が近づいているか、または長い時間が経過している可能性があります。 AudioVideoAuthentication certificate の推奨される最小値は8時間で、AudioVideoAuthentication certificate を使って発行される AV Edge サービストークンの既定のトークンの有効期間です。
   
 OAuthTokenIssuer 証明書をステージングするときは、証明書が有効になるまでのリード タイムの要件が異なります。OAuthTokenIssuer 証明書のリード タイムは、現在の証明書の有効期限が切れる 24 時間以上前に設定する必要があります。共存のリード タイムが長いのは、OAuthTokenIssuer 証明書に依存する他のサーバーの役割 (たとえば Exchange Server) で、証明書によって作成された認証と暗号化キー材料の保有期間が長いためです。
   
- **-Thumbprint**: 拇印は証明書の属性で、証明書ごとに一意となります。 拇印セット CsCertificate コマンドレットの操作が影響を受ける証明書を識別するパラメーターを使用します。
+ **-Thumbprint**: 拇印は証明書の属性で、証明書ごとに一意となります。 -Thumbprint パラメーターは、Set-CsCertificate コマンドレットの操作によって影響を受ける証明書を識別するために使用されます。
   
- **-タイプ**: の型パラメーターは、単一の証明書の使用法の種類や証明書の使用法の種類のコンマ区切りのリストを受け入れることができます。 証明書の種類は、証明書の目的は、どのようなコマンドレットと、サーバーを識別するものです。 AudioVideoAuthentication の種類は、A で使用すると音声ビデオ エッジ サービス、および AV の認証サービスです。 場合は別の種類のステージとプロビジョニングの証明書を同時は、証明書の最長必要最低限効果的なリード時間を考慮する必要があります。 たとえば、する必要がありますの種類の証明書をステージに AudioVideoAuthentication と OAuthTokenIssuer。 EffectiveDate 最小は、この場合は、OAuthTokenIssuer は、最小のリード タイムが 24 時間の内、2 つの証明書のうち、大きい方である必要があります。 AudioVideoAuthentication 証明書と 24 時間のリード タイムを段階的にしたくない場合にお客様の要件には、EffectiveDate とは別にステージです。
+ **-** Type:-型パラメーターは、1つの証明書の使用の種類、または証明書の使用の種類のコンマ区切りリストを受け入れることができます。 証明書の種類は、コマンドレットに対して識別するものであり、証明書の目的はサーバーに対して指定されています。 たとえば、「AudioVideoAuthentication」と入力すると、A/V Edge サービスと AV 認証サービスが使用されます。 異なる種類の証明書を同時にステージングおよびプロビジョニングすることにした場合は、証明書に必要な最も長い最小のリードタイムを考慮する必要があります。 たとえば、AudioVideoAuthentication と OAuthTokenIssuer の証明書をステージする必要があります。 少なくとも EffectiveDate は、この2つの証明書の大部分である必要があります。この例では、最小のリード時間が24時間となっています。 オーディオビデオ認証証明書のステージが24時間の間にない場合は、要件により多くの EffectiveDate と個別にステージを整理します。
   
-### <a name="to-update-or-renew-an-av-edge-service-certificate-with-a--roll-and--effectivedate-parameters"></a>更新または A を更新する-ロールと EffectiveDate ・ パラメーターを使用して音声ビデオ エッジ サービスが証明書と
+### <a name="to-update-or-renew-an-av-edge-service-certificate-with-a--roll-and--effectivedate-parameters"></a>ロールと-EffectiveDate のパラメーターを使用して A/V エッジサービス証明書を更新または更新するには
 
 1. Administrators グループのメンバーとして、ローカル コンピューターにログオンします。
     
-2. A 上の既存の証明書のエクスポート可能な秘密キーの更新または新しい証明書の AudioVideoAuthentication を要求すると音声ビデオ エッジ サービスです。
+2. A/V Edge サービス上の既存の証明書のエクスポート可能な秘密キーを使って、更新または新しい AudioVideoAuthentication 証明書を要求します。
     
-3. 新しい AudioVideoAuthentication 証明書をエッジ サーバーと、プール内の他のすべてのエッジ サーバーにインポートし、(展開されたプールの場合)。
+3. 新しい AudioVideoAuthentication 証明書を、エッジサーバーとプール内の他のすべてのエッジサーバーにインポートします (プールが展開されている場合)。
     
-4. セット CsCertificate コマンドレットを使用してインポートする証明書を構成しを使用してロール パラメーターを指定する-EffectiveDate パラメーターを持つ。 有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) からトークン存続時間 (既定では 8 時間) を引いた値で定義します。 これにより、証明書をアクティブに設定する必要がある時は、- EffectiveDate\<文字列\>:「2015/7/22 午前 6:00:00"です。 
+4. EffectiveDate パラメーターを指定して、インポートされた証明書を構成し、--------------------------- 有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) からトークン存続時間 (既定では 8 時間) を引いた値で定義します。 これにより、証明書がアクティブに設定されている必要があります。 \<また\>、-EffectiveDate 文字列は "7/22/2015 6:00:00 AM" となります。 
     
     > [!IMPORTANT]
-    > エッジ プールに対して、すべての AudioVideoAuthentication 証明書を展開し、展開可能な A を避けるために証明書の最初の - EffectiveDate パラメーターで定義されたときの日時でを設定する必要があります/旧バージョンのための V の通信停止クライアントとコンシューマーのすべてのトークンは、新しい証明書を使用して書き換えられている場合がある前に有効期限が切れる証明書です。 
+    > エッジプールについては、すべての AudioVideoAuthentication 証明書が展開され、最初の証明書の-EffectiveDate パラメーターで定義された日付と時刻でプロビジョニングされている必要があります新しい証明書を使ってすべてのクライアントとコンシューマーのトークンを更新する前に、証明書が期限切れになっている。 
   
-    セット-CsCertificate は - ロールと EffectiveTime のパラメーターを使用してコマンドします。
+    EffectiveTime パラメーターを指定した Set CsCertificate コマンドは、次のようになります。
     
    ```
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
@@ -76,36 +76,36 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
    ```
 
     > [!IMPORTANT]
-    > EffectiveDate は、サーバーの地域と言語の設定に一致するようにフォーマットしなければなりません。 この例で使用している地域と言語の設定は英語 (米国) です。 
+    > EffectiveDate は、サーバーの地域と言語の設定に合わせて書式設定されている必要があります。 この例で使用している地域と言語の設定は英語 (米国) です。 
   
-さらにそのセット CsCertificate のロール、および EffectiveDate - AudioVideoAuthentication を検証するために既存の証明書を使用中に使用されている新規の AudioVideoAuthentication トークンを発行するための新しい証明書を段階的にプロセスを理解するには消費者は、ビジュアルのタイムラインは、プロセスを理解するための効果的な手段です。 次の例では、管理者が決定する、A 音声ビデオ エッジ サービスの証明書は 2015/07/22 の 2時 00分: 00 PM に有効期限。 要求彼と新しい証明書を受信し、プール内の各エッジ サーバーにインポートします。 2015/07/22 の 2 AM、彼が開始の役割を持つ Get CsCertificate を実行して、拇印は、新しい証明書の拇印文字列に等しい] および [EffectiveTime-2015/07/22 に設定 6時 00分: 00 AM。 彼は、各エッジ サーバーでこのコマンドを実行します。
+使用中の AudioVideoAuthentication を検証するために既存の証明書を使用しているときに、新しい AudioVideoAuthentication トークンを発行するための新しい証明書をステージングするために、EffectiveDate を使用して新しいオーディオを発行するための新しい証明書のステージングに使用されるプロセスをさらに理解するコンシューマーは、視覚的なタイムラインは、プロセスを理解するための効果的な手段です。 次の例では、管理者は、A/V Edge サービス証明書が07/22/2015 の 2:00:00 PM に有効期限切れになっていることを確認します。 彼は、新しい証明書を要求して受け取り、その証明書を自分のプールの各エッジサーバーにインポートします。 07/22/2015 の午前2時には、ロールを使用して 07/22/2015 6:00:00 EffectiveTime の証明書を実行します。-------------------------------------------- 各エッジサーバーでこのコマンドを実行します。
   
 ![Roll および EffectiveDate パラメーターの使用](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
 |**コールアウト**|**ステージ**|
 |:-----|:-----|
 |1  <br/> |開始: 2015 年 7 月 22 日午前 12:00:00  <br/> 現在の AudioVideoAuthentication 証明書の有効期限が 2015 年 7 月 22 日の午後 2:00:00 に終了します。これは証明書の有効期限タイムスタンプにより決定されます。既存の証明書が有効期限に達する前の 8 時間のオーバーラップ (既定のトークン寿命) を考慮して、証明書の交換とロールオーバーを計画します。この例では、午前 2:00:00 のリード タイムを使用して、管理者が有効時刻の午前 6:00:00 の前に新しい証明書を配置およびプロビジョニングするための適切な時間を確保しています。  <br/> |
-|2  <br/> |2015 年 7 月 22 日午前 2:00:00 ～ 2015 年 7 月 22 日午前 5:59:59  <br/> 6時 00分: 00 (4 時間以内リード タイムは、この例が、長くすることができます) の有効期間と、エッジ トランスポート サーバーの証明書を設定セット CsCertificate を使用する-タイプ\<証明書の使用法の種類\>・拇印\<新しい証明書の拇印\>-ロール ・ EffectiveDate\<新しい証明書の有効期間の日付時刻文字列\>  <br/> |
+|2  <br/> |2015 年 7 月 22 日午前 2:00:00 ～ 2015 年 7 月 22 日午前 5:59:59  <br/> 有効な時間が 6:00:00 AM (この例では4時間のリードタイム) を使用してエッジサーバー上に証明書を設定しますが、 \<[新しい証明\>書\>の\<種類-拇印の拇印-] を使用します。新しい証明書\<の有効期間を示すロール EffectiveDate datetime 文字列\>  <br/> |
 |3  <br/> |2015 年 7 月 22 日午前 6:00 ～ 2015 年 7 月 22 日午後 2:00  <br/> トークンを検証するためにまず新しい証明書が試されます。新しい証明書でトークンの検証に失敗した場合、古い証明書が試されます。8 時間 (既定のトークン寿命) のオーバーラップ期間中にすべてのトークンにこの処理が適用されます。  <br/> |
-|4  <br/> |終了: 2015 年 7 月 22 日午後 2:00:01  <br/> 古い証明書の期限が切れ、新しい証明書に引き継がれます。 削除 CsCertificate で、古い証明書を安全に削除できます-タイプ\<証明書の使用法の種類\>-前  <br/> |
+|4  <br/> |終了: 2015 年 7 月 22 日午後 2:00:01  <br/> 古い証明書の期限が切れ、新しい証明書に引き継がれます。 以前の証明書を削除するには、削除\<\>する必要があります。  <br/> |
    
-有効時刻 (2015 年 7 月 22 日午前 6:00:00) になると、新しいトークンはすべて新しい証明書によって発行されます。 トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。 検証が失敗した場合は、古い証明書が試されます。 新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。 古い証明書の有効期限が切れた後は (2015 年 7 月 22 日午後 2:00)、トークンは新しい証明書のみを使用して検証されます。 古い証明書を削除 CsCertificate コマンドレットを使用して安全に削除する前のパラメーターを使用します。
+有効時刻 (2015 年 7 月 22 日午前 6:00:00) になると、新しいトークンはすべて新しい証明書によって発行されます。 トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。 検証が失敗した場合は、古い証明書が試されます。 新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。 古い証明書の有効期限が切れた後は (2015 年 7 月 22 日午後 2:00)、トークンは新しい証明書のみを使用して検証されます。 古い証明書は、前のパラメーターを指定して、CsCertificate Certificate コマンドレットを使用して、安全に削除できます。
 
 ```
 Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 ```
 
-### <a name="to-update-or-renew-an-oauthtokenissuer-certificate-with-a--roll-and--effectivedate-parameters"></a>更新するか、OAuthTokenIssuer を更新する-ロールと EffectiveDate ・ パラメーターを使用して証明書の
+### <a name="to-update-or-renew-an-oauthtokenissuer-certificate-with-a--roll-and--effectivedate-parameters"></a>ロールと-EffectiveDate のパラメーターを使用して OAuthTokenIssuer 証明書を更新または更新するには
 
 1. Administrators グループのメンバーとして、ローカル コンピューターにログオンします。
     
-2. フロント エンド サーバー上の既存の証明書のエクスポート可能な秘密キーを更新または新規の OAuthTokenIssuer 証明書を要求します。
+2. フロントエンドサーバー上の既存の証明書のエクスポート可能な秘密キーを使って、更新または新しい OAuthTokenIssuer 証明書を要求します。
     
-3. (プール展開の場合) は、プール内のフロント エンド サーバーに新しい OAuthTokenIssuer 証明書をインポートします。 OAuthTokenIssuer 証明書はグローバルにレプリケートされるので、展開内の任意のサーバーで更新と書き換えを行うだけで十分です。 例としては、フロント エンド サーバーが使用されます。
+3. 新しい OAuthTokenIssuer 証明書を、プールのフロントエンドサーバーにインポートします (プールが展開されている場合)。 OAuthTokenIssuer 証明書はグローバルにレプリケートされるので、展開内の任意のサーバーで更新と書き換えを行うだけで十分です。 フロントエンドサーバーは例として使用されます。
     
-4. セット CsCertificate コマンドレットを使用してインポートする証明書を構成しを使用してロール パラメーターを指定する-EffectiveDate パラメーターを持つ。 有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) から少なくとも 24 時間を引いた値で定義します。 
+4. EffectiveDate パラメーターを指定して、インポートされた証明書を構成し、--------------------------- 有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) から少なくとも 24 時間を引いた値で定義します。 
     
-    セット-CsCertificate は - ロールと EffectiveTime のパラメーターを使用してコマンドします。
+    EffectiveTime パラメーターを指定した Set CsCertificate コマンドは、次のようになります。
     
    ```
    Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
@@ -122,17 +122,17 @@ Set-CsCertificate コマンドの例を次に示します。
   ```
 
 > [!IMPORTANT]
-> EffectiveDate は、サーバーの地域と言語の設定に一致するようにフォーマットしなければなりません。 この例で使用している地域と言語の設定は英語 (米国) です。 
+> EffectiveDate は、サーバーの地域と言語の設定に合わせて書式設定されている必要があります。 この例で使用している地域と言語の設定は英語 (米国) です。 
   
-有効時刻 (2015 年 7 月 21 日午前 1:00) になると、新しいトークンはすべて新しい証明書によって発行されます。 トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。 検証が失敗した場合は、古い証明書が試されます。 新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。 古い証明書の有効期限が切れた後は (2015 年 7 月 22 日午後 2:00)、トークンは新しい証明書のみを使用して検証されます。 古い証明書を削除 CsCertificate コマンドレットを使用して安全に削除する前のパラメーターを使用します。
+有効時刻 (2015 年 7 月 21 日午前 1:00) になると、新しいトークンはすべて新しい証明書によって発行されます。 トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。 検証が失敗した場合は、古い証明書が試されます。 新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。 古い証明書の有効期限が切れた後は (2015 年 7 月 22 日午後 2:00)、トークンは新しい証明書のみを使用して検証されます。 古い証明書は、前のパラメーターを指定して、CsCertificate Certificate コマンドレットを使用して、安全に削除できます。
 ```
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
 
 ## <a name="see-also"></a>関連項目
 
-[サーバーからサーバーへの認証 (OAuth) とパートナーのアプリケーションで Skype ビジネス サーバーを管理します。](server-to-server-and-partner-applications.md)
+[Skype for Business Server でサーバー間認証 (OAuth) とパートナーアプリケーションを管理する](server-to-server-and-partner-applications.md)
 
-[セット CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
+[設定-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   
-[削除 CsCertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)
+[CsCertificate の削除](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)

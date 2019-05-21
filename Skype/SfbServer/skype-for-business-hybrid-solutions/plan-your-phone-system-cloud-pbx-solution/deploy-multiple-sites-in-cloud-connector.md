@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Cloud Connector エディションで複数の PSTN サイトを展開する方法について説明します。
-ms.openlocfilehash: 194eaf0b68489b37a5ab1fc2d5d501177edd0b35
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ba6b76366b65a9febb9fab06e7cfb0fad759e5ee
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227902"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287329"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Cloud Connector でマルチサイトを展開する
  
@@ -29,7 +29,7 @@ Cloud Connector エディションで複数の PSTN サイトを展開する方�
   
 ## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>複数の公衆交換電話網 (PSTN) サイト
 
-PSTN の別のサイトのビジネス クラウド コネクタ ・ エディションの Skype を配置する構成の例を次に示します。 展開を開始する前に、構成設定が正しいこと確認してください。
+次の図は、さまざまな PSTN サイト用に Skype for Business Cloud Connector エディションを展開するための構成の例を示しています。 展開を開始する前に、構成設定が正しいこと確認してください。
   
 PSTN サイト 1
   
@@ -67,10 +67,10 @@ ExternalMRIPs=192.168.1.5
 ExternalMRPublicIPs=104.42.226.134
 ```
 
-サイトごとに PSTN を追加する、[クラウドのコネクタで 1 つのサイトの展開](deploy-a-single-site-in-cloud-connector.md)の手順に従います。
+追加する各 PSTN サイトについて、「[クラウドコネクタに1つのサイトを展開](deploy-a-single-site-in-cloud-connector.md)する」の手順に従います。
   
 > [!IMPORTANT]
-> 高可用性 (HA) を準備するための共有フォルダーは、PSTN サイト別です。 共有フォルダーは、PSTN サイトごとに異なる**必要があります**。 複数の sites.> の同じ共有フォルダーを使用しません。 
+> 高可用性 (HA) を準備するための共有フォルダーは、PSTN サイト別です。 共有フォルダーは、PSTN サイトごとに異なる**必要があります**。 複数のサイトに同じ共有フォルダーを使用しないでください。 > 
   
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>マルチサイト展開と高可用性 (HA) 対応の単一サイトの比較
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>
@@ -80,9 +80,9 @@ ExternalMRPublicIPs=104.42.226.134
 |**カテゴリ**|**項目**|**HA 対応の単一サイト**|**マルチサイト**|
 |:-----|:-----|:-----|:-----|
 |構成  <br/> |アプライアンスのホスト名 <br/> |複数のアプライアンス全体にわたって**異なる** <br/> |複数の PSTN サイト全体にわたって**異なる** <br/> |
-|セットアップ  <br/> |共有フォルダー  <br/> |アプライアンスの間で**同一**の共有フォルダーが必要です。 <br/> |複数のアプライアンス全体にわたって**異なる**共有フォルダーが必要 <br/> |
+|セットアップ  <br/> |共有フォルダー  <br/> |複数のアプライアンス間で**同じ**共有フォルダーが必要 <br/> |複数のアプライアンス全体にわたって**異なる**共有フォルダーが必要 <br/> |
 |構成  <br/> |VirtualMachineDomain  <br/> |複数のアプライアンス全体にわたって**同じ**ドメインが必要 <br/> |複数の PSTN サイト全体にわたって**同じ**ドメインが必要 <br/> |
-|構成  <br/> |SIPDomains  <br/> |ドメイン名と注文する必要があります、**同じ**アプライアンスの間で <br/> |ドメイン名と順序は、**同じ**サイト間である PSTN <br/> |
+|構成  <br/> |SIPDomains  <br/> |各アプライアンスでドメイン名と順序が**同じ**である必要がある <br/> |ドメイン名と順序は、PSTN サイト全体で**同じ**にする必要があります。 <br/> |
 |構成  <br/> |サイト名  <br/> |複数のアプライアンス全体にわたって**同じ**サイト名 <br/> |複数の PSTN サイト全体にわたって**異なる**サイト名 <br/> |
 |構成  <br/> |サーバー名  <br/> |複数のアプライアンス全体にわたって**異なる** <br/> |複数の PSTN サイト全体にわたって**異なる** <br/> |
 |構成  <br/> |内部プールの FQDN  <br/> |複数のアプライアンス全体にわたって**同じ** <br/> |複数の PSTN サイト全体にわたって**同じ** <br/> |
@@ -90,8 +90,8 @@ ExternalMRPublicIPs=104.42.226.134
 |構成  <br/> |外部 FQDN  <br/> |複数のアプライアンス全体にわたって**同じ** <br/> |複数の PSTN サイト全体にわたって**異なる** <br/> |
 |構成  <br/> |外部 IP  <br/> |複数のアプライアンス全体にわたって**異なる** <br/> |複数の PSTN サイト全体にわたって**異なる** <br/> |
 |構成  <br/> |PSTN ゲートウェイの設定  <br/> |複数のアプライアンス全体にわたって**同じ** <br/> |複数の PSTN サイト全体にわたって**異なる** <br/> |
-|構成  <br/> |DNS レコード  <br/> |レコードを**同じ**外部アクセスの Fqdn と**異なる**IP アドレスを追加します。 <br/> |**異なる**外部アクセス FQDN と**異なる** IP アドレスを持つレコードを追加 <br/> |
-|セットアップ  <br/> |ハイブリッド テナント  <br/> |HybridPSTNSite の設定  <br/> フォールバック用 PeerDestination の設定  <br/> |HybridPSTNSite の設定  <br/> フォールバック用 PeerDestination の設定  <br/> |
+|構成  <br/> |DNS レコード  <br/> |**同じ**外部アクセス fqdn と**異なる**IP アドレスでレコードを追加する <br/> |**異なる**外部アクセス FQDN と**異なる** IP アドレスを持つレコードを追加 <br/> |
+|セットアップ  <br/> |ハイブリッドテナント  <br/> |HybridPSTNSite の設定  <br/> フォールバック用 PeerDestination の設定  <br/> |HybridPSTNSite の設定  <br/> フォールバック用 PeerDestination の設定  <br/> |
 |セットアップ  <br/> |ゲートウェイ  <br/> |このサイトでの MS GW **M:N** マッピング <br/> |各 PSTN サイトの PSTN ゲートウェイは、必ず同じサイトの仲介サーバーのみに接続します  <br/> |
 |セットアップ  <br/> |ユーザー  <br/> |UserPSTNSettings の設定  <br/> |UserPSTNSettings の設定  <br/> |
    

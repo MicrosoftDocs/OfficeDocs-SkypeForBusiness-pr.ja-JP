@@ -1,47 +1,47 @@
 ---
-title: CDR 構成設定の Skype ビジネス サーバーの既存のコレクションを削除します。
+title: Skype for Business Server で既にある CDR 構成設定のコレクションを削除する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
-description: '概要: は、Skype のビジネス サーバーの CDR 構成設定を削除する方法を説明します。'
-ms.openlocfilehash: 2319cd8548b3f183af6e54bbe1f24870093ae641
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で CDR 構成設定を削除する方法について説明します。'
+ms.openlocfilehash: 91ee9676b3087c5b125c6cfe935f706bbfb22812
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926551"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305835"
 ---
-# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>CDR 構成設定の Skype ビジネス サーバーの既存のコレクションを削除します。
+# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で既にある CDR 構成設定のコレクションを削除する
  
-**の概要:** Skype のビジネス サーバーの CDR 構成設定を削除する方法について説明します。
+**概要:** Skype for Business Server で CDR の設定を削除する方法について説明します。
   
 通話詳細記録 (CDR) を使用すると、ピアツーピアのインスタント メッセージング セッション、ボイス オーバー IP (VoIP) 電話の通話、電話会議などの使用状況を追跡できます。この使用状況データの中には、通話の発信者と受信者、通話時刻、通話時間の情報が含まれます。
   
-ビジネス サーバー、1 つの Skype をインストールすると、CDR 構成設定のグローバル コレクションが作成されます。 また管理者には、個別のサイトに適用できるカスタム設定コレクションを作成するオプションがあります。 設計上、サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。 サイト スコープ設定を削除した場合、CDR はそのサイトでグローバル設定を使用して管理されます。
+Skype for Business Server をインストールすると、1つのグローバルな CDR 構成設定が作成されます。 また管理者には、個別のサイトに適用できるカスタム設定コレクションを作成するオプションがあります。 設計上、サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。 サイト スコープ設定を削除した場合、CDR はそのサイトでグローバル設定を使用して管理されます。
   
-削除することも""グローバル設定に注意してください。 ただし、グローバル設定は実際に削除されるわけではありません。 代わりに、そのコレクションのすべてのプロパティが既定値にリセットされます。 たとえば、既定では CDR 構成設定のコレクションで削除が有効になります。 削除が無効になるようにグローバル コレクションを変更すると想定します。 後にグローバル設定を削除すると、すべてのプロパティは既定の値にリセットされます。 この場合、削除が再び有効になることを意味します。
+グローバル設定を "削除" することもできます。 ただし、グローバル設定は実際に削除されるわけではありません。 代わりに、そのコレクションのすべてのプロパティが既定値にリセットされます。 たとえば、既定では CDR 構成設定のコレクションで削除が有効になります。 削除が無効になるようにグローバル コレクションを変更すると想定します。 後にグローバル設定を削除すると、すべてのプロパティは既定の値にリセットされます。 この場合、削除が再び有効になることを意味します。
   
-CDR 構成設定を削除するには、Skype をビジネス サーバーのコントロール パネルの[削除 CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)コマンドレットを使用しています。
+CDR 構成設定は、Skype for Business Server コントロールパネルまたは[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)コマンドレットを使用して削除できます。
   
-### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype で CDR 構成設定を削除するのには
+### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルで CDR の設定を削除するには
 
-1. ビジネス サーバーのコントロール パネルの Skype は、[**監視およびアーカイブ**をクリックします。 
+1. Skype for Business Server コントロールパネルで、[**監視とアーカイブ**] をクリックします。 
     
 2. [**通話詳細記録**] タブで、削除する CDR 設定のコレクションを 1 つまたは複数選択します。複数のコレクションを選択するには、最初のコレクションをクリックし、Ctrl キーを押しながら他のコレクションをクリックします。
     
 3. [**編集**] をクリックして、[**削除**] をクリックします。
     
-4. [Skype ビジネス サーバーのコントロール パネル] ダイアログ ボックスでは、 **[ok]** をクリックします。
+4. [Skype for Business Server コントロールパネル] ダイアログボックスで、[ **OK**] をクリックします。
     
-## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、CDR 構成設定を削除します。
+## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して CDR 構成設定を削除する
 
-Windows PowerShell と**削除 CsCdrConfiguration**コマンドレットを使用して構成設定を記録する呼び出しの詳細を削除することができます。 実行できますこのコマンドレットのいずれか、Skype からビジネス サーバー管理シェルまたは Windows PowerShell のリモート セッションから。 ビジネス サーバーの Skype に接続するリモートの Windows PowerShell を使用する詳細については、ブログ記事の[「クイック スタート:: を管理する Microsoft Lync サーバー 2010 を使用してリモート PowerShell」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 プロセスは、Skype のビジネス サーバーで同じです。
+Windows PowerShell と CsCdrConfiguration コマンドレットを使用して、通話の詳細**な**レコーディング設定を削除できます。 このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションからでも実行できます。 リモートの Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「[クイックスタート: リモート PowerShell を使用した Microsoft Lync server 2010 の管理」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 このプロセスは、Skype for Business Server でも同じです。
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>指定された CDR 構成設定のコレクションを削除するには
 
@@ -67,9 +67,9 @@ Windows PowerShell と**削除 CsCdrConfiguration**コマンドレットを使�
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 
-詳細については、[削除 CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)コマンドレットのヘルプトピックを参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[ビジネス サーバーの通話詳細記録と Skype で高品質なエクスペリエンスのデータベースを手動で削除します。](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[Skype for Business Server で通話の記録とエクスペリエンスデータベースの再生の詳細を手動で削除する](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 
