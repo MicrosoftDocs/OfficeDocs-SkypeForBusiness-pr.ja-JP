@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddDirectorFeaturesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
-description: ディレクター プールの監視サーバーを追加する場合は、監視 (CDR および QoE 指標) を選択します。
-ms.openlocfilehash: 1ba32a5e75b73dabe49689575bb5310f9ffa7ab3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 監督プールに監視サーバーを含める場合は、[Monitoring (CDR および QoE メトリック)] を選びます。
+ms.openlocfilehash: a8652881f02f007f799ff37573540057673e3103
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886601"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304825"
 ---
-# <a name="add-director-features"></a><span data-ttu-id="afe32-103">ディレクターの機能の追加</span><span class="sxs-lookup"><span data-stu-id="afe32-103">Add Director Features</span></span>
+# <a name="add-director-features"></a><span data-ttu-id="d7b4d-103">ディレクターの機能の追加</span><span class="sxs-lookup"><span data-stu-id="d7b4d-103">Add Director Features</span></span>
 
-<span data-ttu-id="afe32-104">ディレクター プールの監視サーバーを追加する場合は、**監視 (CDR および QoE 指標)** を選択します。</span><span class="sxs-lookup"><span data-stu-id="afe32-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
+<span data-ttu-id="d7b4d-104">監督プールに監視サーバーを含める場合は、[ **monitoring (CDR および QoE メトリック)**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="d7b4d-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
 
-<span data-ttu-id="afe32-105">ディレクター プールを追加する方法の詳細については、[ディレクターのシナリオ](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx)と[、ディレクターの設定](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="afe32-105">For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span></span>
+<span data-ttu-id="d7b4d-105">ディレクタープールの追加の詳細については、「[ディレクターのシナリオ](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx)と[ディレクターのセットアップ](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d7b4d-105">For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span></span>
 
 

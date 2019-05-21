@@ -5,43 +5,43 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
-description: SQL Server 上のデータベースとログ ファイルの配置の詳細設定オプションを構成するとします。 使用できるオプションは次のとおりです。
-ms.openlocfilehash: 17453e97bf527390ed2dab561c3995711d7b1d07
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: SQL Server でデータベースファイルとログファイルの配置の詳細オプションを構成します。 利用可能なオプションは次のとおりです。
+ms.openlocfilehash: 5a2aa6bffc5424c10ed752c7c3d2ac28cfba1684
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888612"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284278"
 ---
-# <a name="install-database-options-page"></a><span data-ttu-id="531b0-104">データベースのインストール オプション ページ</span><span class="sxs-lookup"><span data-stu-id="531b0-104">Install Database Options Page</span></span>
+# <a name="install-database-options-page"></a><span data-ttu-id="8eadc-104">データベースのインストール オプション ページ</span><span class="sxs-lookup"><span data-stu-id="8eadc-104">Install Database Options Page</span></span>
 
-<span data-ttu-id="531b0-105">SQL Server 上のデータベースとログ ファイルの配置の詳細設定オプションを構成するとします。</span><span class="sxs-lookup"><span data-stu-id="531b0-105">You configure advanced options for the placement of database and log files on your SQL Server.</span></span> <span data-ttu-id="531b0-106">使用できるオプションは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="531b0-106">The options available are:</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="531b0-107">お客様の要件と、SQL Server コンピューター上のデータとログ ファイルの配置に関連するポリシーに最も適したオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="531b0-107">Select the option that best fits your requirements and policies pertaining to data and log file placement on your SQL Server computers.</span></span>
-
- <span data-ttu-id="531b0-108">**データベース ファイルの場所を自動的に決定する**: 既定のオプションは、SQL Server で使用可能な領域を決定し、最適なパフォーマンスのデータベースとログ ファイルを配布するアルゴリズムを使用します。</span><span class="sxs-lookup"><span data-stu-id="531b0-108">**Automatically determine database file location**: The default option uses an algorithm that determines the available space on the SQL Server and distributes the database and log files for optimal performance.</span></span>
-
- <span data-ttu-id="531b0-109">**使用して SQL Server のインスタンスの既定値**: データベース ファイルを配置し、SQL Server のインスタンスの設定に基づいてファイルをログに記録するには、このオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="531b0-109">**Use SQL Server instance defaults**: Select this option to place database file and log files based on the instance settings at SQL Server.</span></span> <span data-ttu-id="531b0-110">通常のオプションが管理され、データベース管理者によって構成されています。</span><span class="sxs-lookup"><span data-stu-id="531b0-110">The options are typically managed and configured by your Database Administrator.</span></span>
-
- <span data-ttu-id="531b0-111">**米国ターゲット SQL Server でこれらのパス**: データベースとログ ファイルが配置される場所のドライブとフォルダーへの完全パスを入力して、SQL Server データベース ファイルとログ ファイルのパスを定義するのにはこのオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="531b0-111">**Us these path on target SQL Server**: Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.</span></span>
+<span data-ttu-id="8eadc-105">SQL Server でデータベースファイルとログファイルの配置の詳細オプションを構成します。</span><span class="sxs-lookup"><span data-stu-id="8eadc-105">You configure advanced options for the placement of database and log files on your SQL Server.</span></span> <span data-ttu-id="8eadc-106">利用可能なオプションは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="8eadc-106">The options available are:</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="531b0-112">入力したパスは、インストールでのパフォーマンスの最適化アルゴリズムに基づく変更可能性があります。</span><span class="sxs-lookup"><span data-stu-id="531b0-112">The paths that you enter may be modified based on performance optimization algorithms in the installation.</span></span> <span data-ttu-id="531b0-113">詳細については、[データベースのインストールを使用して Lync Server 管理シェル](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="531b0-113">For details, see [Database Installation Using Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).</span></span>
+> <span data-ttu-id="8eadc-107">SQL Server コンピューターのデータとログファイルの配置に関する要件とポリシーに最も適合するオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="8eadc-107">Select the option that best fits your requirements and policies pertaining to data and log file placement on your SQL Server computers.</span></span>
 
- <span data-ttu-id="531b0-114">**[Ok]**: 変更をコミットするのには [ok] ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="531b0-114">**OK**: Click the OK button to commit your changes.</span></span>
+ <span data-ttu-id="8eadc-108">[**データベースファイルの場所を自動的に特定**する]: 既定のオプションでは、SQL Server の空き領域を決定するアルゴリズムが使用され、最適なパフォーマンスを実現するためにデータベースとログファイルが配布されます。</span><span class="sxs-lookup"><span data-stu-id="8eadc-108">**Automatically determine database file location**: The default option uses an algorithm that determines the available space on the SQL Server and distributes the database and log files for optimal performance.</span></span>
 
- <span data-ttu-id="531b0-115">**キャンセル**: をクリックして変更を破棄し、データベースのインストールの画面に戻るには [キャンセル]。</span><span class="sxs-lookup"><span data-stu-id="531b0-115">**Cancel**: Click Cancel to discard any changes and return to the Install Database screen.</span></span>
+ <span data-ttu-id="8eadc-109">[ **Sql server インスタンスの既定値を使用**する]: このチェックボックスをオンにすると、sql server のインスタンスの設定に基づいてデータベースファイルとログファイルが配置されます。</span><span class="sxs-lookup"><span data-stu-id="8eadc-109">**Use SQL Server instance defaults**: Select this option to place database file and log files based on the instance settings at SQL Server.</span></span> <span data-ttu-id="8eadc-110">これらのオプションは、通常、データベース管理者によって管理および構成されます。</span><span class="sxs-lookup"><span data-stu-id="8eadc-110">The options are typically managed and configured by your Database Administrator.</span></span>
 
- <span data-ttu-id="531b0-116">**ヘルプ**: このヘルプ ページにアクセスするのには [ヘルプ] ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="531b0-116">**Help**: Click the Help button to access this Help page.</span></span>
+ <span data-ttu-id="8eadc-111">**[ターゲット SQL server 上のパス**]: このオプションを選択すると、sql server データベースおよびログファイルを保存するドライブとフォルダーへのフルパスを入力して、sql server データベースとログファイルに独自のパスを定義できます。</span><span class="sxs-lookup"><span data-stu-id="8eadc-111">**Us these path on target SQL Server**: Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="531b0-117">関連項目</span><span class="sxs-lookup"><span data-stu-id="531b0-117">See also</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="8eadc-112">入力したパスは、インストールのパフォーマンス最適化アルゴリズムに基づいて変更される可能性があります。</span><span class="sxs-lookup"><span data-stu-id="8eadc-112">The paths that you enter may be modified based on performance optimization algorithms in the installation.</span></span> <span data-ttu-id="8eadc-113">詳細については、「 [Lync Server 管理シェルを使用したデータベースのインストール](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8eadc-113">For details, see [Database Installation Using Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).</span></span>
 
-[<span data-ttu-id="531b0-118">SQL Server のデータとログ ファイルの配置</span><span class="sxs-lookup"><span data-stu-id="531b0-118">SQL Server Data and Log File Placement</span></span>](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
+ <span data-ttu-id="8eadc-114">[ **Ok**] をクリックして変更をコミットします。</span><span class="sxs-lookup"><span data-stu-id="8eadc-114">**OK**: Click the OK button to commit your changes.</span></span>
+
+ <span data-ttu-id="8eadc-115">[**キャンセル**]: 変更を破棄して [データベースのインストール] 画面に戻るには、[キャンセル] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8eadc-115">**Cancel**: Click Cancel to discard any changes and return to the Install Database screen.</span></span>
+
+ <span data-ttu-id="8eadc-116">**ヘルプ**: このヘルプページにアクセスするには、[ヘルプ] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8eadc-116">**Help**: Click the Help button to access this Help page.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="8eadc-117">関連項目</span><span class="sxs-lookup"><span data-stu-id="8eadc-117">See also</span></span>
+
+[<span data-ttu-id="8eadc-118">SQL Server データとログファイルの配置</span><span class="sxs-lookup"><span data-stu-id="8eadc-118">SQL Server Data and Log File Placement</span></span>](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)

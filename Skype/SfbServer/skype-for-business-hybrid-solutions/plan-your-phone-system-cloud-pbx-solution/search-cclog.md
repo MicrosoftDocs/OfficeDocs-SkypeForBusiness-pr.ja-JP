@@ -5,75 +5,75 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: Search-CcLog コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンス ログ ディレクトリで着信および発信の通話ログを検索します。
-ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7d1591953004ecf0e0d0a3bfdf2e998e06002325
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250900"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287042"
 ---
-# <a name="search-cclog"></a><span data-ttu-id="37bb9-103">Search-CcLog</span><span class="sxs-lookup"><span data-stu-id="37bb9-103">Search-CcLog</span></span>
+# <a name="search-cclog"></a><span data-ttu-id="df681-103">Search-CcLog</span><span class="sxs-lookup"><span data-stu-id="df681-103">Search-CcLog</span></span>
  
-<span data-ttu-id="37bb9-104">Search-CcLog コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンス ログ ディレクトリで着信および発信の通話ログを検索します。</span><span class="sxs-lookup"><span data-stu-id="37bb9-104">The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.</span></span>
+<span data-ttu-id="df681-104">Search-CcLog コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンス ログ ディレクトリで着信および発信の通話ログを検索します。</span><span class="sxs-lookup"><span data-stu-id="df681-104">The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.</span></span>
   
 ```
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
 ```
 
-## <a name="examples"></a><span data-ttu-id="37bb9-105">例</span><span class="sxs-lookup"><span data-stu-id="37bb9-105">Examples</span></span>
-<span data-ttu-id="37bb9-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="37bb9-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="df681-105">例</span><span class="sxs-lookup"><span data-stu-id="df681-105">Examples</span></span>
+<span data-ttu-id="df681-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="df681-106"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="37bb9-107">例 1</span><span class="sxs-lookup"><span data-stu-id="37bb9-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="df681-107">例 1</span><span class="sxs-lookup"><span data-stu-id="df681-107">Example 1</span></span>
 
-<span data-ttu-id="37bb9-108">次の例では、既定のファイル名を使用して、アプライアンス ログ ディレクトリで着信および発信の通話ログを検索します。</span><span class="sxs-lookup"><span data-stu-id="37bb9-108">The following example searches the incoming and outgoing call logs in the appliance log directory using the default file name:</span></span>
+<span data-ttu-id="df681-108">次の例では、既定のファイル名を使用して、アプライアンス ログ ディレクトリで着信および発信の通話ログを検索します。</span><span class="sxs-lookup"><span data-stu-id="df681-108">The following example searches the incoming and outgoing call logs in the appliance log directory using the default file name:</span></span>
   
 ```
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 ```
 
-### <a name="example-2"></a><span data-ttu-id="37bb9-109">例 2</span><span class="sxs-lookup"><span data-stu-id="37bb9-109">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="df681-109">例 2</span><span class="sxs-lookup"><span data-stu-id="df681-109">Example 2</span></span>
 
-<span data-ttu-id="37bb9-110">次の例では、所定のファイル パスと名前を使用して着信および発信の通話ログを検索します。</span><span class="sxs-lookup"><span data-stu-id="37bb9-110">The next example searches the incoming and outgoing call logs using the given file path and name:</span></span>
+<span data-ttu-id="df681-110">次の例では、所定のファイル パスと名前を使用して着信および発信の通話ログを検索します。</span><span class="sxs-lookup"><span data-stu-id="df681-110">The next example searches the incoming and outgoing call logs using the given file path and name:</span></span>
   
 ```
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="37bb9-111">解説</span><span class="sxs-lookup"><span data-stu-id="37bb9-111">Detailed Description</span></span>
-<span data-ttu-id="37bb9-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="37bb9-112"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="df681-111">解説</span><span class="sxs-lookup"><span data-stu-id="df681-111">Detailed Description</span></span>
+<span data-ttu-id="df681-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="df681-112"></span></span>
 
-<span data-ttu-id="37bb9-113">Search-CsClsLogging コマンドレットは、集中ログ サービスが生成したログ ファイルを検索するためのコマンドライン オプションを提供します。</span><span class="sxs-lookup"><span data-stu-id="37bb9-113">The Search-CsClsLogging cmdlet provides a command line option for searching the log files generated by the centralized logging service.</span></span>
+<span data-ttu-id="df681-113">Search-CsClsLogging コマンドレットは、集中ログ サービスが生成したログ ファイルを検索するためのコマンドライン オプションを提供します。</span><span class="sxs-lookup"><span data-stu-id="df681-113">The Search-CsClsLogging cmdlet provides a command line option for searching the log files generated by the centralized logging service.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="37bb9-114">パラメーター</span><span class="sxs-lookup"><span data-stu-id="37bb9-114">Parameters</span></span>
-<span data-ttu-id="37bb9-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="37bb9-115"></span></span>
+## <a name="parameters"></a><span data-ttu-id="df681-114">パラメーター</span><span class="sxs-lookup"><span data-stu-id="df681-114">Parameters</span></span>
+<span data-ttu-id="df681-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="df681-115"></span></span>
 
-|<span data-ttu-id="37bb9-116">**パラメーター**</span><span class="sxs-lookup"><span data-stu-id="37bb9-116">**Parameter**</span></span>|<span data-ttu-id="37bb9-117">**必須**</span><span class="sxs-lookup"><span data-stu-id="37bb9-117">**Required**</span></span>|<span data-ttu-id="37bb9-118">**型**</span><span class="sxs-lookup"><span data-stu-id="37bb9-118">**Type**</span></span>|<span data-ttu-id="37bb9-119">**説明**</span><span class="sxs-lookup"><span data-stu-id="37bb9-119">**Description**</span></span>|
+|<span data-ttu-id="df681-116">**パラメーター**</span><span class="sxs-lookup"><span data-stu-id="df681-116">**Parameter**</span></span>|<span data-ttu-id="df681-117">**必須**</span><span class="sxs-lookup"><span data-stu-id="df681-117">**Required**</span></span>|<span data-ttu-id="df681-118">**型**</span><span class="sxs-lookup"><span data-stu-id="df681-118">**Type**</span></span>|<span data-ttu-id="df681-119">**説明**</span><span class="sxs-lookup"><span data-stu-id="df681-119">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="37bb9-120">StartTime</span><span class="sxs-lookup"><span data-stu-id="37bb9-120">StartTime</span></span>  <br/> | <span data-ttu-id="37bb9-121">必須</span><span class="sxs-lookup"><span data-stu-id="37bb9-121">Required</span></span> <br/> |<span data-ttu-id="37bb9-122">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="37bb9-122">System.Datetime</span></span>  <br/> | <span data-ttu-id="37bb9-p101">検索対象のログ エントリの開始日時です。現地のタイム ゾーンで指定します。</span><span class="sxs-lookup"><span data-stu-id="37bb9-p101">Beginning date and time for the log entries to be searched. Specified in local time zone.</span></span> <br/> |
-|<span data-ttu-id="37bb9-125">EndTime</span><span class="sxs-lookup"><span data-stu-id="37bb9-125">EndTime</span></span>  <br/> |<span data-ttu-id="37bb9-126">必須</span><span class="sxs-lookup"><span data-stu-id="37bb9-126">Required</span></span>  <br/> |<span data-ttu-id="37bb9-127">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="37bb9-127">System.Datetime</span></span>  <br/> |<span data-ttu-id="37bb9-p102">検索対象のログ エントリの終了日時です。現地のタイム ゾーンで指定します。</span><span class="sxs-lookup"><span data-stu-id="37bb9-p102">Ending date and time for the log entries to be searched. Specified in local time zone.</span></span>  <br/> |
-|<span data-ttu-id="37bb9-130">FileName</span><span class="sxs-lookup"><span data-stu-id="37bb9-130">FileName</span></span>  <br/> |<span data-ttu-id="37bb9-131">必須</span><span class="sxs-lookup"><span data-stu-id="37bb9-131">Required</span></span>  <br/> |<span data-ttu-id="37bb9-132">System.String</span><span class="sxs-lookup"><span data-stu-id="37bb9-132">System.String</span></span>  <br/> |<span data-ttu-id="37bb9-133">検索結果を含むテキスト ファイルの完全なパスを指定します。</span><span class="sxs-lookup"><span data-stu-id="37bb9-133">Specifies the full path of the text file containing the search results.</span></span>  <br/> |
+|<span data-ttu-id="df681-120">StartTime</span><span class="sxs-lookup"><span data-stu-id="df681-120">StartTime</span></span>  <br/> | <span data-ttu-id="df681-121">必須</span><span class="sxs-lookup"><span data-stu-id="df681-121">Required</span></span> <br/> |<span data-ttu-id="df681-122">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="df681-122">System.Datetime</span></span>  <br/> | <span data-ttu-id="df681-p101">検索対象のログ エントリの開始日時です。現地のタイム ゾーンで指定します。</span><span class="sxs-lookup"><span data-stu-id="df681-p101">Beginning date and time for the log entries to be searched. Specified in local time zone.</span></span> <br/> |
+|<span data-ttu-id="df681-125">EndTime</span><span class="sxs-lookup"><span data-stu-id="df681-125">EndTime</span></span>  <br/> |<span data-ttu-id="df681-126">必須</span><span class="sxs-lookup"><span data-stu-id="df681-126">Required</span></span>  <br/> |<span data-ttu-id="df681-127">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="df681-127">System.Datetime</span></span>  <br/> |<span data-ttu-id="df681-p102">検索対象のログ エントリの終了日時です。現地のタイム ゾーンで指定します。</span><span class="sxs-lookup"><span data-stu-id="df681-p102">Ending date and time for the log entries to be searched. Specified in local time zone.</span></span>  <br/> |
+|<span data-ttu-id="df681-130">FileName</span><span class="sxs-lookup"><span data-stu-id="df681-130">FileName</span></span>  <br/> |<span data-ttu-id="df681-131">必須</span><span class="sxs-lookup"><span data-stu-id="df681-131">Required</span></span>  <br/> |<span data-ttu-id="df681-132">System.String</span><span class="sxs-lookup"><span data-stu-id="df681-132">System.String</span></span>  <br/> |<span data-ttu-id="df681-133">検索結果を含むテキスト ファイルの完全なパスを指定します。</span><span class="sxs-lookup"><span data-stu-id="df681-133">Specifies the full path of the text file containing the search results.</span></span>  <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="37bb9-134">入力の種類</span><span class="sxs-lookup"><span data-stu-id="37bb9-134">Input Types</span></span>
-<span data-ttu-id="37bb9-135"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="37bb9-135"></span></span>
+## <a name="input-types"></a><span data-ttu-id="df681-134">入力の種類</span><span class="sxs-lookup"><span data-stu-id="df681-134">Input Types</span></span>
+<span data-ttu-id="df681-135"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="df681-135"></span></span>
 
-<span data-ttu-id="37bb9-p103">なし。Search-CcLog コマンドレットはパイプライン入力を受け入れません。</span><span class="sxs-lookup"><span data-stu-id="37bb9-p103">None. The Search-CcLog cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="df681-p103">なし。Search-CcLog コマンドレットはパイプライン入力を受け入れません。</span><span class="sxs-lookup"><span data-stu-id="df681-p103">None. The Search-CcLog cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="37bb9-138">戻り値の種類</span><span class="sxs-lookup"><span data-stu-id="37bb9-138">Return Types</span></span>
-<span data-ttu-id="37bb9-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="37bb9-139"></span></span>
+## <a name="return-types"></a><span data-ttu-id="df681-138">戻り値の種類</span><span class="sxs-lookup"><span data-stu-id="df681-138">Return Types</span></span>
+<span data-ttu-id="df681-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="df681-139"></span></span>
 
-<span data-ttu-id="37bb9-140">なし</span><span class="sxs-lookup"><span data-stu-id="37bb9-140">None</span></span>
+<span data-ttu-id="df681-140">なし</span><span class="sxs-lookup"><span data-stu-id="df681-140">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="37bb9-141">関連項目</span><span class="sxs-lookup"><span data-stu-id="37bb9-141">See also</span></span>
-<span data-ttu-id="37bb9-142"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="37bb9-142"></span></span>
+## <a name="see-also"></a><span data-ttu-id="df681-141">関連項目</span><span class="sxs-lookup"><span data-stu-id="df681-141">See also</span></span>
+<span data-ttu-id="df681-142"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="df681-142"></span></span>
 
-[<span data-ttu-id="37bb9-143">Start-CcLogging</span><span class="sxs-lookup"><span data-stu-id="37bb9-143">Start-CcLogging</span></span>](start-cclogging.md)
+[<span data-ttu-id="df681-143">Start-CcLogging</span><span class="sxs-lookup"><span data-stu-id="df681-143">Start-CcLogging</span></span>](start-cclogging.md)
   
-[<span data-ttu-id="37bb9-144">Stop-CcLogging</span><span class="sxs-lookup"><span data-stu-id="37bb9-144">Stop-CcLogging</span></span>](stop-cclogging.md)
+[<span data-ttu-id="df681-144">Stop-CcLogging</span><span class="sxs-lookup"><span data-stu-id="df681-144">Stop-CcLogging</span></span>](stop-cclogging.md)
   
 

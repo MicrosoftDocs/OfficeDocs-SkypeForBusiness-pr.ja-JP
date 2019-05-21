@@ -3,7 +3,7 @@ title: 発信通話でのトランクのフェイルオーバー
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
@@ -14,44 +14,44 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: セッション ボーダー コント ローラー (SBC) にチームから発信呼び出しのトランクのフェイル オーバーを処理する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: b2da454097fcb0f0af91aefad987d195e9e0f912
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: このトピックでは、Teams からセッションボーダーコントローラー (SBC) への発信通話に対するトランクのフェイルオーバーを処理する方法について説明します。
+ms.openlocfilehash: e9efcfba696886c0fc4885778b79832956ccb893
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401783"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290364"
 ---
-# <a name="trunk-failover-on-outbound-calls"></a><span data-ttu-id="29a96-103">発信通話でのトランクのフェイルオーバー</span><span class="sxs-lookup"><span data-stu-id="29a96-103">Trunk failover on outbound calls</span></span>
+# <a name="trunk-failover-on-outbound-calls"></a><span data-ttu-id="fb6fb-103">発信通話でのトランクのフェイルオーバー</span><span class="sxs-lookup"><span data-stu-id="fb6fb-103">Trunk failover on outbound calls</span></span>
 
-<span data-ttu-id="29a96-104">-セッション ボーダー コント ローラー (SBC) へのチームからの発信コールのトランクのフェイル オーバーを回避する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="29a96-104">This topic describes how to avoid trunk failovers on outbound calls--from Teams to the Session Border Controller (SBC).</span></span>
+<span data-ttu-id="fb6fb-104">このトピックでは、チームからセッションボーダーコントローラー (SBC) への、トランクのフェイルオーバーを回避する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-104">This topic describes how to avoid trunk failovers on outbound calls--from Teams to the Session Border Controller (SBC).</span></span>
 
-## <a name="failover-on-network-errors"></a><span data-ttu-id="29a96-105">ネットワーク エラーでフェイル オーバー</span><span class="sxs-lookup"><span data-stu-id="29a96-105">Failover on network errors</span></span>
+## <a name="failover-on-network-errors"></a><span data-ttu-id="fb6fb-105">ネットワークエラーへのフェールオーバー</span><span class="sxs-lookup"><span data-stu-id="fb6fb-105">Failover on network errors</span></span>
 
-<span data-ttu-id="29a96-106">トランクは、何らかの理由で接続することはできません、別の Microsoft データ センターから同じトランクへの接続が試行されます。</span><span class="sxs-lookup"><span data-stu-id="29a96-106">If a trunk cannot be connected for any reason, the connection to the same trunk will be tried from a different Microsoft Datacenter.</span></span> <span data-ttu-id="29a96-107">トランクが接続されていないなどの場合は、TLS のタイムアウトがある場合、接続が拒否、またはその他のネットワーク レベルの問題がある場合。</span><span class="sxs-lookup"><span data-stu-id="29a96-107">A trunk might not be connected, for example, if a connection is refused, if there is a TLS timeout, or if there are any other network level issues.</span></span>
-<span data-ttu-id="29a96-108">などの接続は失敗する場合、管理者のアクセスを制限、SBC を既知の IP アドレスからのみですが、SBC のアクセス制御リスト (ACL) に直接ルーティングの Microsoft データ センターのすべての IP アドレスを配置するを忘れた場合します。</span><span class="sxs-lookup"><span data-stu-id="29a96-108">For example, a connection might fail if an administrator limits access to the SBC only from well-known IP addresses, but forgets to put the IP addresses of all Microsoft Direct Routing datacenters on the Access Control List (ACL) of the SBC.</span></span> 
+<span data-ttu-id="fb6fb-106">何らかの理由でトランクが接続できない場合、同じトランクへの接続は、別の Microsoft データセンターから試みられます。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-106">If a trunk cannot be connected for any reason, the connection to the same trunk will be tried from a different Microsoft Datacenter.</span></span> <span data-ttu-id="fb6fb-107">接続が拒否された場合や、TLS タイムアウトがある場合、または他のネットワークレベルの問題が発生した場合など、トランクが接続されていない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-107">A trunk might not be connected, for example, if a connection is refused, if there is a TLS timeout, or if there are any other network level issues.</span></span>
+<span data-ttu-id="fb6fb-108">たとえば、管理者が、既知の IP アドレスからの SBC のみへのアクセスを制限したが、SBC のアクセス制御リスト (ACL) にすべての Microsoft ダイレクトルーティングデータセンターの IP アドレスを指定していない場合、接続が失敗する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-108">For example, a connection might fail if an administrator limits access to the SBC only from well-known IP addresses, but forgets to put the IP addresses of all Microsoft Direct Routing datacenters on the Access Control List (ACL) of the SBC.</span></span> 
 
-## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a><span data-ttu-id="29a96-109">セッション ボーダー コント ローラー (SBC) からの受信 SIP コードの特定のフェイル オーバー</span><span class="sxs-lookup"><span data-stu-id="29a96-109">Failover of specific SIP codes received from the Session Border Controller (SBC)</span></span>
+## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a><span data-ttu-id="fb6fb-109">セッションボーダーコントローラー (SBC) から受信した特定の SIP コードのフェイルオーバー</span><span class="sxs-lookup"><span data-stu-id="fb6fb-109">Failover of specific SIP codes received from the Session Border Controller (SBC)</span></span>
 
-<span data-ttu-id="29a96-110">送信招待への応答での 4 xx または 6 xx SIP のエラー コードを受け取ると直接ルーティングでは、呼び出し既定で完了したと見なされます。</span><span class="sxs-lookup"><span data-stu-id="29a96-110">If Direct Routing receives any 4xx or 6xx SIP error codes in response to an outgoing Invite, the call is considered completed by default.</span></span> <span data-ttu-id="29a96-111">チーム クライアントからの呼び出しに、パブリック交換電話網 (PSTN) 次のトラフィック フローには、出力方向の: チームのクライアントの直接ルーティング _gt-_gt SBC-_gt テレフォニー ネットワーク。</span><span class="sxs-lookup"><span data-stu-id="29a96-111">Outgoing means a call from a Teams client to the Public Switched Telephone Network (PSTN) with the following traffic flow: Teams Client -> Direct Routing -> SBC -> Telephony network.</span></span>
+<span data-ttu-id="fb6fb-110">直接ルーティングが、発信した招待に応答して4xx または 6xx SIP のエラーコードを受信した場合、通話は既定で完了したと見なされます。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-110">If Direct Routing receives any 4xx or 6xx SIP error codes in response to an outgoing Invite, the call is considered completed by default.</span></span> <span data-ttu-id="fb6fb-111">[発信] は、チームクライアントから公衆交換電話網 (PSTN) への通話であり、次のトラフィックフローが含まれます。 Teams クライアント-> Direct Routing-> SBC-> Telephony ネットワーク。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-111">Outgoing means a call from a Teams client to the Public Switched Telephone Network (PSTN) with the following traffic flow: Teams Client -> Direct Routing -> SBC -> Telephony network.</span></span>
 
-<span data-ttu-id="29a96-112">SIP のコードの一覧については、[セッション開始プロトコル (SIP) の RFC](https://tools.ietf.org/html/rfc3261)を参照しています。</span><span class="sxs-lookup"><span data-stu-id="29a96-112">The list of SIP Codes can be found in [Session Initiation Protocol (SIP) RFC](https://tools.ietf.org/html/rfc3261).</span></span>
+<span data-ttu-id="fb6fb-112">SIP コードの一覧は、[セッション開始プロトコル (SIP) RFC](https://tools.ietf.org/html/rfc3261)に記載されています。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-112">The list of SIP Codes can be found in [Session Initiation Protocol (SIP) RFC](https://tools.ietf.org/html/rfc3261).</span></span>
 
-<span data-ttu-id="29a96-113">SBC がコードを使用して受信した招待に返信した場合を想定しています"408 要求のタイムアウト: サーバーを作成できませんでした、応答、適切な時間内などの場合は時間内のユーザーの場所を特定できませんでした。</span><span class="sxs-lookup"><span data-stu-id="29a96-113">Assume a situation where an SBC replied on an incoming invite with the code "408 Request Timeout: The server could not produce a response within a suitable amount of time, for example, if it could not determine the location of the user in time.</span></span> <span data-ttu-id="29a96-114">クライアントは、可能性があります繰り返し変更することがなく要求後にいつでもします。</span><span class="sxs-lookup"><span data-stu-id="29a96-114">The client MAY repeat the request without modifications at any later time."</span></span>
+<span data-ttu-id="fb6fb-113">"408 要求がタイムアウトしました。" というコードの着信招待に対して SBC が返信した場合、サーバーはユーザーの場所を特定できなかったなど、適切な時間内に応答を作成できませんでした。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-113">Assume a situation where an SBC replied on an incoming invite with the code "408 Request Timeout: The server could not produce a response within a suitable amount of time, for example, if it could not determine the location of the user in time.</span></span> <span data-ttu-id="fb6fb-114">クライアントは、後で変更せずに要求を繰り返すことがあります。 "</span><span class="sxs-lookup"><span data-stu-id="fb6fb-114">The client MAY repeat the request without modifications at any later time."</span></span>
 
-<span data-ttu-id="29a96-115">この特定の SBC には、ネットワーク設定ミスやその他のエラーが発生したため、呼び出し先 - への接続に関する問題が発生可能性があります。</span><span class="sxs-lookup"><span data-stu-id="29a96-115">This particular SBC might be having difficulties connecting to the callee--perhaps because of a network misconfiguration or other error.</span></span> <span data-ttu-id="29a96-116">しかし、1 つ以上の SBC では、ルート、呼び出し先に到達できる場合があります。</span><span class="sxs-lookup"><span data-stu-id="29a96-116">However, there is one more SBC in the route which might be able to reach the callee.</span></span>
+<span data-ttu-id="fb6fb-115">この特定の SBC は、呼び出し元への接続で問題が発生している可能性があります。これは、ネットワークの構成の誤りやエラーなどが原因です。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-115">This particular SBC might be having difficulties connecting to the callee--perhaps because of a network misconfiguration or other error.</span></span> <span data-ttu-id="fb6fb-116">ただし、ルートにはもう1つの SBC があります。これは、呼び出し元に連絡できる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-116">However, there is one more SBC in the route which might be able to reach the callee.</span></span>
 
-<span data-ttu-id="29a96-117">次の図では、ユーザーが電話番号への呼び出しと 2 つの半角にはこの呼び出しを提供できる可能性のあるルート。</span><span class="sxs-lookup"><span data-stu-id="29a96-117">In the following diagram, when a user makes a call to a phone number, there are two SBCs in the route that can potentially deliver this call.</span></span> <span data-ttu-id="29a96-118">最初に、呼び出しの SBC1.contoso.com が選択されているが、SBC1.contoso.com はネットワークの問題のための PTSN ネットワークに到達することはありません。</span><span class="sxs-lookup"><span data-stu-id="29a96-118">Initially, SBC1.contoso.com is selected for the call, but SBC1.contoso.com isn't able to reach a PTSN network due to a network issue.</span></span>
-<span data-ttu-id="29a96-119">既定では、この時点で呼び出しが完了します。</span><span class="sxs-lookup"><span data-stu-id="29a96-119">By default, the call will be completed at this moment.</span></span> 
+<span data-ttu-id="fb6fb-117">次の図では、ユーザーが電話番号に通話を発信すると、そのルートに2つの SBCs が含まれていて、この通話が行われる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-117">In the following diagram, when a user makes a call to a phone number, there are two SBCs in the route that can potentially deliver this call.</span></span> <span data-ttu-id="fb6fb-118">最初に、通話に SBC1.contoso.com が選択されていますが、ネットワークの問題のため、SBC1.contoso.com は PTSN ネットワークに接続できません。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-118">Initially, SBC1.contoso.com is selected for the call, but SBC1.contoso.com isn't able to reach a PTSN network due to a network issue.</span></span>
+<span data-ttu-id="fb6fb-119">既定では、通話は現在完了しています。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-119">By default, the call will be completed at this moment.</span></span> 
  
-![PSTN ネットワーク上の問題のために到達できない SBC を示しています。](media/direct-routing-failover-response-codes1.png)
+![ネットワークの問題のため、PSTN に接続できないことを示します](media/direct-routing-failover-response-codes1.png)
 
-<span data-ttu-id="29a96-121">ですが、1 つ以上の SBC で可能性のある呼び出しを提供するルート。</span><span class="sxs-lookup"><span data-stu-id="29a96-121">But there is one more SBC in the route which potentially can deliver the call.</span></span>
-<span data-ttu-id="29a96-122">パラメーターを構成する場合`Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`、2 つ目の SBC が行われます--次の図に SBC2.contoso.com。</span><span class="sxs-lookup"><span data-stu-id="29a96-122">If you configure the parameter `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, the second SBC will be tried-- SBC2.contoso.com in the following diagram:</span></span>
+<span data-ttu-id="fb6fb-121">ただし、ルートにはさらに、通話を発信できる SBC が1つ追加されています。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-121">But there is one more SBC in the route which potentially can deliver the call.</span></span>
+<span data-ttu-id="fb6fb-122">パラメーター `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`を構成する場合、2つ目の SBC は次の図の SBC2.contoso.com で試行されます。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-122">If you configure the parameter `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, the second SBC will be tried-- SBC2.contoso.com in the following diagram:</span></span>
 
-![2 つ目の SBC へのルーティングを示しています](media/direct-routing-failover-response-codes2.png)
+![第2の SBC へのルーティングを示す](media/direct-routing-failover-response-codes2.png)
 
-<span data-ttu-id="29a96-124">-FailoverResponseCodes コードでは、問題を指定する、ルーティングのチューニングし、を避けるために、パラメーターを設定することが潜在的な場合、SBC は、ネットワークまたはその他の問題のための呼び出しをすることはできません。</span><span class="sxs-lookup"><span data-stu-id="29a96-124">Setting the parameter -FailoverResponseCodes and specifying the codes helps you fine tune your routing and avoid potential issues when an SBC cannot make a call due to network or other issues.</span></span>
+<span data-ttu-id="fb6fb-124">FailoverResponseCodes を設定してコードを指定すると、ネットワークやその他の問題が原因で、SBC が通話を発信できない場合に、ルーティングを微調整し、潜在的な問題を回避することができます。</span><span class="sxs-lookup"><span data-stu-id="fb6fb-124">Setting the parameter -FailoverResponseCodes and specifying the codes helps you fine tune your routing and avoid potential issues when an SBC cannot make a call due to network or other issues.</span></span>
 
-<span data-ttu-id="29a96-125">既定値: 408, 503, 504</span><span class="sxs-lookup"><span data-stu-id="29a96-125">Default values:  408, 503, 504</span></span>
+<span data-ttu-id="fb6fb-125">既定値: 408、503、504</span><span class="sxs-lookup"><span data-stu-id="fb6fb-125">Default values:  408, 503, 504</span></span>
 

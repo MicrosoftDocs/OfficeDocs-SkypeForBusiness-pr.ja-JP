@@ -1,11 +1,11 @@
 ---
-title: ビジネス サーバーの Skype のトポロジを確認します。
+title: Skype for Business Server でトポロジを確認する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,86 +14,86 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: '概要: ビジネス サーバー トポロジの Skype を確認する方法を学習して、Active Directory サーバーが期待どおりに作業しています。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: fc0e3a4b76ab25a8b99a3c7d48d0527fc2a1f5ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server トポロジと Active Directory サーバーが予期したとおりに動作していることを確認する方法について説明します。 Skype for Business Server の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
+ms.openlocfilehash: aad91c7bfb1e3187ace5d5caec4e3f18952a11d8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891783"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306592"
 ---
-# <a name="verify-the-topology-in-skype-for-business-server"></a><span data-ttu-id="c5ef1-104">ビジネス サーバーの Skype のトポロジを確認します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-104">Verify the topology in Skype for Business Server</span></span>
+# <a name="verify-the-topology-in-skype-for-business-server"></a><span data-ttu-id="ba199-104">Skype for Business Server でトポロジを確認する</span><span class="sxs-lookup"><span data-stu-id="ba199-104">Verify the topology in Skype for Business Server</span></span>
  
-<span data-ttu-id="c5ef1-105">**の概要:** ビジネス サーバー トポロジの Skype を確認する方法について説明し、Active Directory サーバーが期待どおりに作業しています。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-105">**Summary:** Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected.</span></span> <span data-ttu-id="c5ef1-106">[マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からビジネス サーバー用には、Skype の無料試用版をダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-106">Download a free trial of Skype for Business Server from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).</span></span>
+<span data-ttu-id="ba199-105">**概要:** Skype for Business Server トポロジと Active Directory サーバーが予期したとおりに動作していることを確認する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="ba199-105">**Summary:** Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected.</span></span> <span data-ttu-id="ba199-106">[Microsoft の評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)から Skype For business Server の無料トライアルをダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="ba199-106">Download a free trial of Skype for Business Server from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).</span></span>
   
-<span data-ttu-id="c5ef1-107">公開トポロジは、トポロジ内のサーバーのそれぞれにインストールされているサーバーのビジネス システムのコンポーネントの Skype がある場合は後に、、トポロジが正常に動作していることを確認する準備が整ったら。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-107">After you have the topology published and the Skype for Business Server system components installed on each of the servers in the topology, you are ready to verify that the topology is working as expected.</span></span> <span data-ttu-id="c5ef1-108">これには、構成が伝達されているすべての Active Directory サーバーにドメイン全体のビジネス用の Skype は、ドメインでは使用が認識できるように確認が含まれます。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-108">This includes verifying that the configuration has propagated out to all of the Active Directory servers so that the entire domain knows Skype for Business is available in the domain.</span></span> <span data-ttu-id="c5ef1-109">手順 1 ～ 5 は任意の順序で実行できます。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-109">You can do steps 1 through 5 in any order.</span></span> <span data-ttu-id="c5ef1-110">ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-110">However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram.</span></span> <span data-ttu-id="c5ef1-111">8 の手順 8 は、トポロジを確認します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-111">Verifying the topology is step 8 of 8.</span></span>
+<span data-ttu-id="ba199-107">トポロジを公開し、各サーバーに Skype for Business Server システムコンポーネントをインストールしたら、トポロジが予期したとおりに機能しているかどうかを確認できます。</span><span class="sxs-lookup"><span data-stu-id="ba199-107">After you have the topology published and the Skype for Business Server system components installed on each of the servers in the topology, you are ready to verify that the topology is working as expected.</span></span> <span data-ttu-id="ba199-108">これには、構成がすべての Active Directory サーバーに伝達されていることを確認することによって、ドメイン全体で Skype for Business がドメインで利用可能であることがわかっていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="ba199-108">This includes verifying that the configuration has propagated out to all of the Active Directory servers so that the entire domain knows Skype for Business is available in the domain.</span></span> <span data-ttu-id="ba199-109">手順 1 ～ 5 は任意の順序で実行できます。</span><span class="sxs-lookup"><span data-stu-id="ba199-109">You can do steps 1 through 5 in any order.</span></span> <span data-ttu-id="ba199-110">ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ba199-110">However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram.</span></span> <span data-ttu-id="ba199-111">トポロジの確認は、手順 8/8 です。</span><span class="sxs-lookup"><span data-stu-id="ba199-111">Verifying the topology is step 8 of 8.</span></span>
   
 ![概要図](../../media/c8698b53-1282-4978-a9a6-ca3f7a778f60.png)
   
-## <a name="test-the-front-end-pool-deployment"></a><span data-ttu-id="c5ef1-113">フロント エンド プール展開をテストします。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-113">Test the Front End pool deployment</span></span>
+## <a name="test-the-front-end-pool-deployment"></a><span data-ttu-id="ba199-113">フロントエンドプールの展開をテストする</span><span class="sxs-lookup"><span data-stu-id="ba199-113">Test the Front End pool deployment</span></span>
 
-<span data-ttu-id="c5ef1-114">最後に、フロント エンド プールをテストし、ビジネス クライアント用の Skype が互いに通信できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-114">The final step is to test the Front End pool and confirm that Skype for Business clients can communicate with each other.</span></span> 
+<span data-ttu-id="ba199-114">最後の手順では、フロントエンドプールをテストし、Skype for Business クライアントが相互に通信できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="ba199-114">The final step is to test the Front End pool and confirm that Skype for Business clients can communicate with each other.</span></span> 
   
-### <a name="add-users-and-verify-client-connectivity"></a><span data-ttu-id="c5ef1-115">ユーザーを追加し、クライアントの接続を確認します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-115">Add users and verify client connectivity</span></span>
+### <a name="add-users-and-verify-client-connectivity"></a><span data-ttu-id="ba199-115">ユーザーを追加してクライアント接続を確認する</span><span class="sxs-lookup"><span data-stu-id="ba199-115">Add users and verify client connectivity</span></span>
 
-1. <span data-ttu-id="c5ef1-116">(ビジネス サーバーのコントロール パネルの Skype がインストールされている) ビジネス サーバー展開の Skype の**CSAdministrator**グループに管理者の役割の Active Directory ユーザー オブジェクトを追加するのには、Active Directory のコンピューターとユーザーを使用します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-116">Use Active Directory Computers and Users to add the Active Directory user object of the administrator role for the Skype for Business Server deployment (on which Skype for Business Server Control Panel is installed) to the **CSAdministrator** group.</span></span>
+1. <span data-ttu-id="ba199-116">Active Directory コンピューターとユーザーを使って、Skype for Business Server の展開 (Skype for Business Server コントロールパネルがインストールされている) の管理者ロールの Active Directory ユーザーオブジェクトを**csadministrator**グループに追加します。</span><span class="sxs-lookup"><span data-stu-id="ba199-116">Use Active Directory Computers and Users to add the Active Directory user object of the administrator role for the Skype for Business Server deployment (on which Skype for Business Server Control Panel is installed) to the **CSAdministrator** group.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="c5ef1-117">CsAdministors グループに適切なユーザーとグループを追加しない場合、というビジネス サーバーのコントロール パネルの Skype を開くときに、エラーが表示されるが"権限がありません: 役割ベースのアクセス制御 (RBAC) の承認エラーのためアクセスが拒否されました."</span><span class="sxs-lookup"><span data-stu-id="c5ef1-117">If you do not add the appropriate users and groups to the CsAdministors group, you will receive an error when you open Skype for Business Server Control Panel which reads, "Unauthorized: Access is denied due to a role-based access control (RBAC) authorization failure."</span></span> 
+    > <span data-ttu-id="ba199-117">適切なユーザーとグループを CsAdministors グループに追加していない場合、Skype for Business Server コントロールパネルを開くとエラーが表示されます。 "権限がありません。役割ベースのアクセス制御 (RBAC) 認証エラーによりアクセスが拒否されました。"."</span><span class="sxs-lookup"><span data-stu-id="ba199-117">If you do not add the appropriate users and groups to the CsAdministors group, you will receive an error when you open Skype for Business Server Control Panel which reads, "Unauthorized: Access is denied due to a role-based access control (RBAC) authorization failure."</span></span> 
   
-2. <span data-ttu-id="c5ef1-118">ユーザー オブジェクトが現在ログオンしている場合は、ログオフし、新しいグループ割り当てを登録するのには再度ログオンします。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-118">If the user object is currently logged on, log off and then log on again to register the new group assignment.</span></span>
+2. <span data-ttu-id="ba199-118">ユーザーオブジェクトが現在ログオンしている場合は、ログオフしてから再びログオンして、新しいグループの割り当てを登録します。</span><span class="sxs-lookup"><span data-stu-id="ba199-118">If the user object is currently logged on, log off and then log on again to register the new group assignment.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="c5ef1-119">ユーザー アカウントは、Skype をビジネスのサーバーを実行するサーバーのローカル管理者にすることはできません。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-119">The user account cannot be the local administrator of any server running Skype for Business Server.</span></span> 
+    > <span data-ttu-id="ba199-119">ユーザーアカウントは、Skype for Business Server を実行しているサーバーのローカル管理者になることはできません。</span><span class="sxs-lookup"><span data-stu-id="ba199-119">The user account cannot be the local administrator of any server running Skype for Business Server.</span></span> 
   
-3. <span data-ttu-id="c5ef1-120">ビジネス サーバーのコントロール パネルの Skype がインストールされているコンピューターにログオンする管理者アカウントを使用します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-120">Use the administrative account to log on to the computer where Skype for Business Server Control Panel is installed.</span></span>
+3. <span data-ttu-id="ba199-120">管理者アカウントを使用して、Skype for Business Server コントロールパネルがインストールされているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="ba199-120">Use the administrative account to log on to the computer where Skype for Business Server Control Panel is installed.</span></span>
     
-4. <span data-ttu-id="c5ef1-121">ビジネス サーバーのコントロール パネルでの Skype を起動し、求められた場合、資格情報を提供します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-121">Start Skype for Business Server Control Panel, and then provide credentials, if prompted.</span></span> <span data-ttu-id="c5ef1-122">Skype ビジネス サーバーのコントロール パネルの配置情報を表示します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-122">Skype for Business Server Control Panel displays deployment information.</span></span>
+4. <span data-ttu-id="ba199-121">Skype for Business Server コントロールパネルを起動し、メッセージが表示されたら、資格情報を入力します。</span><span class="sxs-lookup"><span data-stu-id="ba199-121">Start Skype for Business Server Control Panel, and then provide credentials, if prompted.</span></span> <span data-ttu-id="ba199-122">Skype for Business Server コントロールパネルに展開情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="ba199-122">Skype for Business Server Control Panel displays deployment information.</span></span>
     
-5. <span data-ttu-id="c5ef1-123">左側のナビゲーション ・ バーでは、**トポロジ**をクリックし、し、サービスの状態が緑の矢印を持つコンピューターを表示し、レプリケーションの状態の緑のチェック マークが展開され、オンライン ビジネスのサーバー ロールの各 Skype の横にあることを確認します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-123">In the left navigation bar, click **Topology**, and then confirm that the service status shows a computer with a green arrow and that a green check mark for replication status is next to each Skype for Business Server role that has been deployed and brought online.</span></span> 
+5. <span data-ttu-id="ba199-123">左側のナビゲーションバーで、[**トポロジ**] をクリックし、[サービスの状態] に緑色の矢印が表示されていることを確認し、[レプリケーションの状態] に緑色のチェックマークが表示されることを確認します。これは、展開されてオンラインになっている各 Skype For business Server の役割の隣にあります。</span><span class="sxs-lookup"><span data-stu-id="ba199-123">In the left navigation bar, click **Topology**, and then confirm that the service status shows a computer with a green arrow and that a green check mark for replication status is next to each Skype for Business Server role that has been deployed and brought online.</span></span> 
     
-6. <span data-ttu-id="c5ef1-124">左側のナビゲーション ・ バーでは、**ユーザー**をクリックし、**ユーザーを有効にする**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-124">In the left navigation bar, click **Users**, and then click **Enable users**.</span></span> 
+6. <span data-ttu-id="ba199-124">左側のナビゲーションバーで [**ユーザー**] をクリックし、[**ユーザーの有効化**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ba199-124">In the left navigation bar, click **Users**, and then click **Enable users**.</span></span> 
     
-7. <span data-ttu-id="c5ef1-125">**ビジネス サーバー ユーザーの Skype を新しい**ページで、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-125">On the **New Skype for Business Server User** page, click **Add**.</span></span>
+7. <span data-ttu-id="ba199-125">[**新しい Skype For Business Server ユーザー** ] ページで、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ba199-125">On the **New Skype for Business Server User** page, click **Add**.</span></span>
     
-8. <span data-ttu-id="c5ef1-126">**Active Directory からの選択**] ページで、検索するオブジェクトの検索パラメーターを定義するには、**検索**] を選択し、必要に応じて**フィルターの追加**] をクリックできます。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-126">To define search parameters for the objects you want to find, on the **Select from Active Directory** page, you can select **Search**, and then optionally click **Add Filter**.</span></span> <span data-ttu-id="c5ef1-127">**LDAP 検索**を選択し、LDAP フィルターを適用または返されるオブジェクトを制限する式を入力できます。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-127">You can also select **LDAP search** and enter an LDAP expression to filter or limit the objects that will be returned.</span></span> <span data-ttu-id="c5ef1-128">[検索オプションを決定したら、[**検索**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-128">After you have decided on your Search options, click **Find**.</span></span>
+8. <span data-ttu-id="ba199-126">検索するオブジェクトの検索パラメーターを定義するには、[ **Active Directory から選択**] ページで [**検索**] を選択し、必要に応じて [**フィルターの追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ba199-126">To define search parameters for the objects you want to find, on the **Select from Active Directory** page, you can select **Search**, and then optionally click **Add Filter**.</span></span> <span data-ttu-id="ba199-127">**Ldap 検索**を選択し、返されるオブジェクトをフィルター処理または制限するための ldap 式を入力することもできます。</span><span class="sxs-lookup"><span data-stu-id="ba199-127">You can also select **LDAP search** and enter an LDAP expression to filter or limit the objects that will be returned.</span></span> <span data-ttu-id="ba199-128">検索オプションを決定したら、[**検索**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ba199-128">After you have decided on your Search options, click **Find**.</span></span>
     
-9. <span data-ttu-id="c5ef1-129">検索結果ウィンドウで、追加するユーザーを選択し、し、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-129">In the Search results pane, select the users you want to add, and then click **OK**.</span></span>
+9. <span data-ttu-id="ba199-129">[検索結果] ウィンドウで、追加するユーザーを選び、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ba199-129">In the Search results pane, select the users you want to add, and then click **OK**.</span></span>
     
-10. <span data-ttu-id="c5ef1-130">**ビジネス サーバー ユーザーの Skype を新しい**ページで、選択したユーザーは、**ユーザー**の表示には。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-130">On the **New Skype for Business Server User** page, the users you selected are in the **Users** display.</span></span> <span data-ttu-id="c5ef1-131">**プールにユーザーを割り当てる**] ボックスの一覧で、ユーザーが存在する必要がありますサーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-131">In the **Assign users to a pool** list, select the server where the users should reside.</span></span>
+10. <span data-ttu-id="ba199-130">**新しい Skype For Business Server**の [ユーザー] ページで、選択したユーザーが [**ユーザー** ] 画面に表示されます。</span><span class="sxs-lookup"><span data-stu-id="ba199-130">On the **New Skype for Business Server User** page, the users you selected are in the **Users** display.</span></span> <span data-ttu-id="ba199-131">[**プールへのユーザーの割り当て**] ボックスの一覧で、ユーザーが存在する必要があるサーバーを選びます。</span><span class="sxs-lookup"><span data-stu-id="ba199-131">In the **Assign users to a pool** list, select the server where the users should reside.</span></span>
     
-    <span data-ttu-id="c5ef1-132">オブジェクトを構成に使用できるオプションの一覧を次に示します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-132">The following is a list of options you can use to configure the objects.</span></span>
+    <span data-ttu-id="ba199-132">次に、オブジェクトを構成するために使用できるオプションの一覧を示します。</span><span class="sxs-lookup"><span data-stu-id="ba199-132">The following is a list of options you can use to configure the objects.</span></span>
     
-    - <span data-ttu-id="c5ef1-133">**ユーザーの SIP URI を生成します。**</span><span class="sxs-lookup"><span data-stu-id="c5ef1-133">**Generate user's SIP URI**</span></span>
+    - <span data-ttu-id="ba199-133">**ユーザーの SIP URI を生成する**</span><span class="sxs-lookup"><span data-stu-id="ba199-133">**Generate user's SIP URI**</span></span>
     
-    - <span data-ttu-id="c5ef1-134">**テレフォニー**</span><span class="sxs-lookup"><span data-stu-id="c5ef1-134">**Telephony**</span></span>
+    - <span data-ttu-id="ba199-134">**テレフォニー**</span><span class="sxs-lookup"><span data-stu-id="ba199-134">**Telephony**</span></span>
     
-    - <span data-ttu-id="c5ef1-135">**URI の行**</span><span class="sxs-lookup"><span data-stu-id="c5ef1-135">**Line URI**</span></span>
+    - <span data-ttu-id="ba199-135">**行の URI**</span><span class="sxs-lookup"><span data-stu-id="ba199-135">**Line URI**</span></span>
     
-    - <span data-ttu-id="c5ef1-136">**会議ポリシー**</span><span class="sxs-lookup"><span data-stu-id="c5ef1-136">**Conferencing policy**</span></span>
+    - <span data-ttu-id="ba199-136">**会議ポリシー**</span><span class="sxs-lookup"><span data-stu-id="ba199-136">**Conferencing policy**</span></span>
     
-    - <span data-ttu-id="c5ef1-137">**クライアント バージョン ポリシー**</span><span class="sxs-lookup"><span data-stu-id="c5ef1-137">**Client version policy**</span></span>
+    - <span data-ttu-id="ba199-137">**クライアントのバージョンポリシー**</span><span class="sxs-lookup"><span data-stu-id="ba199-137">**Client version policy**</span></span>
     
-    - <span data-ttu-id="c5ef1-138">**暗証番号 (pin) のポリシー**</span><span class="sxs-lookup"><span data-stu-id="c5ef1-138">**PIN policy**</span></span>
+    - <span data-ttu-id="ba199-138">**PIN ポリシー**</span><span class="sxs-lookup"><span data-stu-id="ba199-138">**PIN policy**</span></span>
     
-    - <span data-ttu-id="c5ef1-139">**外部アクセス ポリシー**</span><span class="sxs-lookup"><span data-stu-id="c5ef1-139">**External access policy**</span></span>
+    - <span data-ttu-id="ba199-139">**外部アクセスポリシー**</span><span class="sxs-lookup"><span data-stu-id="ba199-139">**External access policy**</span></span>
     
-    - <span data-ttu-id="c5ef1-140">**アーカイブ ・ ポリシー**</span><span class="sxs-lookup"><span data-stu-id="c5ef1-140">**Archiving policy**</span></span>
+    - <span data-ttu-id="ba199-140">**アーカイブポリシー**</span><span class="sxs-lookup"><span data-stu-id="ba199-140">**Archiving policy**</span></span>
     
-    - <span data-ttu-id="c5ef1-141">**場所のポリシー**</span><span class="sxs-lookup"><span data-stu-id="c5ef1-141">**Location policy**</span></span>
+    - <span data-ttu-id="ba199-141">**場所のポリシー**</span><span class="sxs-lookup"><span data-stu-id="ba199-141">**Location policy**</span></span>
     
-    - <span data-ttu-id="c5ef1-142">**クライアント ポリシー**</span><span class="sxs-lookup"><span data-stu-id="c5ef1-142">**Client policy**</span></span>
+    - <span data-ttu-id="ba199-142">**クライアントポリシー**</span><span class="sxs-lookup"><span data-stu-id="ba199-142">**Client policy**</span></span>
     
-    <span data-ttu-id="c5ef1-143">基本的な機能をテストするには、**生成ユーザーの SIP URI**の設定 (他のオプションで使用して既定の構成設定) を使用し、クリックする**を有効にする**には、図に示すようにオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-143">To test the basic functionality, select the option you prefer for the **Generate user's SIP URI** setting (the other options in the configuration use default settings), and then click **Enable**, as shown in the figure.</span></span>
+    <span data-ttu-id="ba199-143">基本機能をテストするには、[**ユーザーの SIP URI の生成**] 設定で希望のオプションを選択し ([構成] のその他のオプションで既定の設定を使用します)、[**有効**にする] をクリックします (図を参照)。</span><span class="sxs-lookup"><span data-stu-id="ba199-143">To test the basic functionality, select the option you prefer for the **Generate user's SIP URI** setting (the other options in the configuration use default settings), and then click **Enable**, as shown in the figure.</span></span>
     
      ![コントロール パネルでユーザーを有効にします。](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
-11. <span data-ttu-id="c5ef1-145">ユーザーがセットアップであることを示すには [**有効**] 列にチェック マークが表示される [概要] ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-145">A summary page is displayed that shows a check mark in the **Enabled** column to indicate that the users are setup.</span></span> <span data-ttu-id="c5ef1-146">**SIP アドレス**] 列には、ユーザーのサインインの構成に必要なアドレスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-146">The **SIP address** column displays the address you need for the user sign-in configuration.</span></span>
+11. <span data-ttu-id="ba199-145">概要ページが表示され、[**有効**] 列にチェックマークが表示され、ユーザーが設定されたことを示します。</span><span class="sxs-lookup"><span data-stu-id="ba199-145">A summary page is displayed that shows a check mark in the **Enabled** column to indicate that the users are setup.</span></span> <span data-ttu-id="ba199-146">**SIP アドレス**列には、ユーザーのサインイン構成に必要なアドレスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="ba199-146">The **SIP address** column displays the address you need for the user sign-in configuration.</span></span>
     
      ![Skype for Business Server コントロール パネルにユーザーが追加されました。](../../media/8960548a-8d6d-44c5-bc01-6f9fb11b7588.png)
   
-12. <span data-ttu-id="c5ef1-148">1 人のユーザーがドメインに参加しているコンピューターにログオンし、別のコンピューターに別のユーザーをドメインにログインします。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-148">Log one user on to a computer that is joined to the domain and another user on to another computer in the domain.</span></span>
+12. <span data-ttu-id="ba199-148">1人のユーザーを、ドメインに参加しているコンピューターまたは別のユーザーのドメイン内の別のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="ba199-148">Log one user on to a computer that is joined to the domain and another user on to another computer in the domain.</span></span>
     
-13. <span data-ttu-id="c5ef1-149">上の 2 つのクライアント コンピューターでは、それぞれのビジネス クライアント用の Skype をインストールし、両方のユーザーがビジネスのサーバーの Skype にサインインできるし、互いにインスタント メッセージを送信することができます。</span><span class="sxs-lookup"><span data-stu-id="c5ef1-149">Install Skype for Business client on each of the two client computers, and then verify that both users can sign in to Skype for Business Server and can send instant messages to each other.</span></span>
+13. <span data-ttu-id="ba199-149">2台の各クライアントコンピューターに Skype for Business クライアントをインストールし、両方のユーザーが Skype for Business Server にサインインして、互いにインスタントメッセージを送信できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="ba199-149">Install Skype for Business client on each of the two client computers, and then verify that both users can sign in to Skype for Business Server and can send instant messages to each other.</span></span>
     
 

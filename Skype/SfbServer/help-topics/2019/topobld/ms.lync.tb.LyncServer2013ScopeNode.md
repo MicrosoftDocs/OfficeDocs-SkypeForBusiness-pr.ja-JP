@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LyncServer2013ScopeNode
@@ -12,26 +12,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 ROBOTS: NOINDEX, NOFOLLOW
-description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
-ms.openlocfilehash: 7bbbddada04f6fffcd8520c1894d2ad47dc9523d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: トポロジビルダーで新しい VIS またはビデオゲートウェイを定義するために必要な手順は、「Skype for Business Server で VIS プールを作成する」で説明しています。
+ms.openlocfilehash: f2ff4ebf0d165464e021cb8c6baf372d31466943
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885584"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306040"
 ---
-# <a name="skype-for-business-server-scope-node"></a><span data-ttu-id="68386-103">Skype ビジネス サーバー スコープのノードの</span><span class="sxs-lookup"><span data-stu-id="68386-103">Skype for Business Server Scope Node</span></span>
+# <a name="skype-for-business-server-scope-node"></a><span data-ttu-id="60f7d-103">Skype for Business Server スコープノード</span><span class="sxs-lookup"><span data-stu-id="60f7d-103">Skype for Business Server Scope Node</span></span>
  
-<span data-ttu-id="68386-104">トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順は「オンライン[ビジネス サーバーの Skype で VIS プールを作成します](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)。</span><span class="sxs-lookup"><span data-stu-id="68386-104">The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).</span></span>
+<span data-ttu-id="60f7d-104">トポロジビルダーで新しい VIS またはビデオゲートウェイを定義するために必要な手順は、「 [Skype For Business Server で VIS プールを作成](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)する」で説明しています。</span><span class="sxs-lookup"><span data-stu-id="60f7d-104">The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).</span></span>
   
-<span data-ttu-id="68386-105">[ビジネス サーバーの Skype で VIS のサーバーの役割の展開](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)でオンライン Windows PowerShell を使用して、サーバー上のビデオの相互運用機能のサーバーの役割を割り当てるために必要な手順を説明します。</span><span class="sxs-lookup"><span data-stu-id="68386-105">The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)</span></span>
+<span data-ttu-id="60f7d-105">Windows PowerShell を使用してサーバーにビデオ相互運用サーバーの役割を割り当てるために必要な手順は、「 [Skype For Business server の VIS server の役割を展開する」](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)で説明しています。</span><span class="sxs-lookup"><span data-stu-id="60f7d-105">The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)</span></span>
   
-<span data-ttu-id="68386-106">[ビジネス サーバーの Skype でビデオの相互運用機能のサーバーの構成](../../../deploy/deploy-video-interop-server/configure-the-vis.md)にオンライン、Windows PowerShell を使用して、新しいビデオの相互運用機能サーバーの構成手順を説明します。</span><span class="sxs-lookup"><span data-stu-id="68386-106">The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).</span></span>
+<span data-ttu-id="60f7d-106">Windows PowerShell を使用した新しいビデオ相互運用サーバーの構成手順については、「 [Skype For Business server のビデオ相互運用機能サーバーを構成する](../../../deploy/deploy-video-interop-server/configure-the-vis.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="60f7d-106">The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).</span></span>
   
- <span data-ttu-id="68386-107">[CUCM ビジネス サーバーの Skype での相互運用のために構成](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)にオンライン、VIS と相互運用のための Cisco GUI で設定する必要があるビデオ ゲートウェイの設定を説明します。</span><span class="sxs-lookup"><span data-stu-id="68386-107">The settings for a video gateway that need to be set in the Cisco GUI for interoperation with a VIS are described online at [Configure CUCM for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).</span></span>
+ <span data-ttu-id="60f7d-107">VIS との相互運用のために Cisco の GUI で設定する必要があるビデオゲートウェイの設定は、オンラインで[Skype For Business Server との相互運用のために CUCM を構成](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)するときに説明しています。</span><span class="sxs-lookup"><span data-stu-id="60f7d-107">The settings for a video gateway that need to be set in the Cisco GUI for interoperation with a VIS are described online at [Configure CUCM for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).</span></span>
   
- <span data-ttu-id="68386-108">[Skype ビジネス サーバーとの相互運用のため、VTC の構成](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)でオンライン、ビデオ ゲートウェイ、VIS との相互運用のための Cisco の GUI で設定する必要がある VTC の設定を説明します。</span><span class="sxs-lookup"><span data-stu-id="68386-108">The settings for a VTC that need to be set in the Cisco GUI for interoperation with a Video Gateway and a VIS are described online at [Configure a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).</span></span>
+ <span data-ttu-id="60f7d-108">ビデオゲートウェイと VIS を相互運用するために Cisco GUI で設定する必要がある VTC の設定については、「 [Skype For Business Server との相互運用用に VTC を構成](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)する」で説明しています。</span><span class="sxs-lookup"><span data-stu-id="60f7d-108">The settings for a VTC that need to be set in the Cisco GUI for interoperation with a Video Gateway and a VIS are described online at [Configure a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="68386-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="68386-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="60f7d-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="60f7d-109">See also</span></span>
 
-[<span data-ttu-id="68386-110">ビジネス サーバーに、Skype でのビデオの相互運用サーバーを計画します。</span><span class="sxs-lookup"><span data-stu-id="68386-110">Plan for Video Interop Server in Skype for Business Server</span></span>](../../../plan-your-deployment/video-interop-server.md)
+[<span data-ttu-id="60f7d-110">Skype for Business Server のビデオ相互運用機能サーバーを計画する</span><span class="sxs-lookup"><span data-stu-id="60f7d-110">Plan for Video Interop Server in Skype for Business Server</span></span>](../../../plan-your-deployment/video-interop-server.md)

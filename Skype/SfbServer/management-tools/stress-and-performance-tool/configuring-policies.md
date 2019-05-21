@@ -1,122 +1,122 @@
 ---
-title: ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールは、Skype のポリシーを構成します。
+title: Skype for Business Server 2015 応力とパフォーマンスツールのポリシーを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 ms.date: 11/11/2015
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
-description: ポリシーの構成の Skype ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールです。
-ms.openlocfilehash: 330be860d4d18eb06c4c64ac225ed621ea712767
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server 2015 のストレスとパフォーマンスツールのポリシー構成。
+ms.openlocfilehash: 5c8e4c296d06c736519a12da5b5e34c6f48e9ee2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906600"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299752"
 ---
-# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a><span data-ttu-id="c7172-103">ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールは、Skype のポリシーを構成します。</span><span class="sxs-lookup"><span data-stu-id="c7172-103">Configuring policies for the Skype for Business Server 2015 Stress and Performance Tool</span></span>
+# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a><span data-ttu-id="c941d-103">Skype for Business Server 2015 応力とパフォーマンスツールのポリシーを構成する</span><span class="sxs-lookup"><span data-stu-id="c941d-103">Configuring policies for the Skype for Business Server 2015 Stress and Performance Tool</span></span>
  
-<span data-ttu-id="c7172-104">ポリシーの構成の Skype ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールです。</span><span class="sxs-lookup"><span data-stu-id="c7172-104">Policy configuration for Skype for Business Server 2015 Stress and Performance Tool.</span></span>
+<span data-ttu-id="c941d-104">Skype for Business Server 2015 のストレスとパフォーマンスツールのポリシー構成。</span><span class="sxs-lookup"><span data-stu-id="c941d-104">Policy configuration for Skype for Business Server 2015 Stress and Performance Tool.</span></span>
   
-<span data-ttu-id="c7172-105">ビジネス サーバー 2015、ストレスおよびパフォーマンス ツールを実行する前に Skype で構成できるようにしていくつかのポリシーがあります。</span><span class="sxs-lookup"><span data-stu-id="c7172-105">There are several policies and other areas that you can configure in Skype for Business Server 2015, prior to running the Stress and Performance Tool:</span></span>
+<span data-ttu-id="c941d-105">「Skype for Business Server 2015 では、ストレスとパフォーマンスのツールを実行する前に構成できるいくつかのポリシーとその他の領域があります。</span><span class="sxs-lookup"><span data-stu-id="c941d-105">There are several policies and other areas that you can configure in Skype for Business Server 2015, prior to running the Stress and Performance Tool:</span></span>
   
-- [<span data-ttu-id="c7172-106">アーカイブ ・ ポリシー</span><span class="sxs-lookup"><span data-stu-id="c7172-106">Archiving policy</span></span>](configuring-policies.md#ArchivingPolicy)
+- [<span data-ttu-id="c941d-106">アーカイブポリシー</span><span class="sxs-lookup"><span data-stu-id="c941d-106">Archiving policy</span></span>](configuring-policies.md#ArchivingPolicy)
     
-- [<span data-ttu-id="c7172-107">会議ポリシー</span><span class="sxs-lookup"><span data-stu-id="c7172-107">Conferencing policy</span></span>](configuring-policies.md#ConferencingPolicy)
+- [<span data-ttu-id="c941d-107">会議ポリシー</span><span class="sxs-lookup"><span data-stu-id="c941d-107">Conferencing policy</span></span>](configuring-policies.md#ConferencingPolicy)
     
-- [<span data-ttu-id="c7172-108">連絡先のポリシー</span><span class="sxs-lookup"><span data-stu-id="c7172-108">Contacts policy</span></span>](configuring-policies.md#ContactsPolicy)
+- [<span data-ttu-id="c941d-108">連絡先ポリシー</span><span class="sxs-lookup"><span data-stu-id="c941d-108">Contacts policy</span></span>](configuring-policies.md#ContactsPolicy)
     
-- [<span data-ttu-id="c7172-109">フェデレーションのポリシー</span><span class="sxs-lookup"><span data-stu-id="c7172-109">Federation policy</span></span>](configuring-policies.md#FederationPolicy)
+- [<span data-ttu-id="c941d-109">フェデレーションポリシー</span><span class="sxs-lookup"><span data-stu-id="c941d-109">Federation policy</span></span>](configuring-policies.md#FederationPolicy)
     
-- [<span data-ttu-id="c7172-110">受付制御ポリシーします。</span><span class="sxs-lookup"><span data-stu-id="c7172-110">Call Admission Control policy</span></span>](configuring-policies.md#CACPolicy)
+- [<span data-ttu-id="c941d-110">通話受付制御ポリシー</span><span class="sxs-lookup"><span data-stu-id="c941d-110">Call Admission Control policy</span></span>](configuring-policies.md#CACPolicy)
     
-- [<span data-ttu-id="c7172-111">音声ルーティングのルール</span><span class="sxs-lookup"><span data-stu-id="c7172-111">Voice Routing rules</span></span>](configuring-policies.md#VoiceRoutingRules)
+- [<span data-ttu-id="c941d-111">ボイスルーティングルール</span><span class="sxs-lookup"><span data-stu-id="c941d-111">Voice Routing rules</span></span>](configuring-policies.md#VoiceRoutingRules)
     
-- [<span data-ttu-id="c7172-112">会議アテンダント アプリケーション</span><span class="sxs-lookup"><span data-stu-id="c7172-112">Conference Attendant application</span></span>](configuring-policies.md#ConfAttendantApp)
+- [<span data-ttu-id="c941d-112">会議アテンダントアプリケーション</span><span class="sxs-lookup"><span data-stu-id="c941d-112">Conference Attendant application</span></span>](configuring-policies.md#ConfAttendantApp)
     
-- [<span data-ttu-id="c7172-113">サーバー コール パーク サービス</span><span class="sxs-lookup"><span data-stu-id="c7172-113">Server Call Park service</span></span>](configuring-policies.md#ServerCallParkServ)
+- [<span data-ttu-id="c941d-113">サーバーコールパークサービス</span><span class="sxs-lookup"><span data-stu-id="c941d-113">Server Call Park service</span></span>](configuring-policies.md#ServerCallParkServ)
     
-- [<span data-ttu-id="c7172-114">緊急電話番号</span><span class="sxs-lookup"><span data-stu-id="c7172-114">Emergency calls</span></span>](configuring-policies.md#EmergencyCalls)
+- [<span data-ttu-id="c941d-114">緊急通話</span><span class="sxs-lookup"><span data-stu-id="c941d-114">Emergency calls</span></span>](configuring-policies.md#EmergencyCalls)
     
-- [<span data-ttu-id="c7172-115">応答グループの構成の適用</span><span class="sxs-lookup"><span data-stu-id="c7172-115">Configuring Response Group application</span></span>](configuring-policies.md#ConfigResponseGroupApp)
+- [<span data-ttu-id="c941d-115">応答グループアプリケーションを構成する</span><span class="sxs-lookup"><span data-stu-id="c941d-115">Configuring Response Group application</span></span>](configuring-policies.md#ConfigResponseGroupApp)
     
-## <a name="archiving-policy"></a><span data-ttu-id="c7172-116">アーカイブ ・ ポリシー</span><span class="sxs-lookup"><span data-stu-id="c7172-116">Archiving policy</span></span>
-<span data-ttu-id="c7172-117"><a name="ArchivingPolicy"> </a></span><span class="sxs-lookup"><span data-stu-id="c7172-117"></span></span>
+## <a name="archiving-policy"></a><span data-ttu-id="c941d-116">アーカイブポリシー</span><span class="sxs-lookup"><span data-stu-id="c941d-116">Archiving policy</span></span>
+<span data-ttu-id="c941d-117"><a name="ArchivingPolicy"> </a></span><span class="sxs-lookup"><span data-stu-id="c941d-117"></span></span>
 
-<span data-ttu-id="c7172-118">ビジネス サーバー トポロジの場合、Skype で展開されたアーカイブ サーバーがあれば、ArchivingPolicy.ps1 スクリプトを検索できます。</span><span class="sxs-lookup"><span data-stu-id="c7172-118">If you have an Archiving server deployed in your Skype for Business Server topology, you can look at the ArchivingPolicy.ps1 script.</span></span> <span data-ttu-id="c7172-119">サポートが必要なさらに、アーカイブ、Web 会議のコマンドレットをチェック アウトします。</span><span class="sxs-lookup"><span data-stu-id="c7172-119">If you need further assistance, check out the Archiving and Web Conferencing cmdlets.</span></span>
+<span data-ttu-id="c941d-118">Skype for Business Server トポロジにアーカイブサーバーが展開されている場合は、ArchivingPolicy スクリプトを参照してください。</span><span class="sxs-lookup"><span data-stu-id="c941d-118">If you have an Archiving server deployed in your Skype for Business Server topology, you can look at the ArchivingPolicy.ps1 script.</span></span> <span data-ttu-id="c941d-119">さらにサポートが必要な場合は、「アーカイブと Web 会議のコマンドレット」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="c941d-119">If you need further assistance, check out the Archiving and Web Conferencing cmdlets.</span></span>
   
-## <a name="conferencing-policy"></a><span data-ttu-id="c7172-120">会議ポリシー</span><span class="sxs-lookup"><span data-stu-id="c7172-120">Conferencing policy</span></span>
-<span data-ttu-id="c7172-121"><a name="ConferencingPolicy"> </a></span><span class="sxs-lookup"><span data-stu-id="c7172-121"></span></span>
+## <a name="conferencing-policy"></a><span data-ttu-id="c941d-120">会議ポリシー</span><span class="sxs-lookup"><span data-stu-id="c941d-120">Conferencing policy</span></span>
+<span data-ttu-id="c941d-121"><a name="ConferencingPolicy"> </a></span><span class="sxs-lookup"><span data-stu-id="c941d-121"></span></span>
 
-<span data-ttu-id="c7172-122">会議で、MeetingPolicy.ps1 スクリプトがあります。</span><span class="sxs-lookup"><span data-stu-id="c7172-122">For conferencing, we have the MeetingPolicy.ps1 script.</span></span> <span data-ttu-id="c7172-123">サポートが必要なさらに、Web 会議のコマンドレットをチェック アウトします。</span><span class="sxs-lookup"><span data-stu-id="c7172-123">If you need further assistance, check out the Web Conferencing cmdlets.</span></span>
+<span data-ttu-id="c941d-122">会議の場合は、"会議ポリシー. ps1" スクリプトを使います。</span><span class="sxs-lookup"><span data-stu-id="c941d-122">For conferencing, we have the MeetingPolicy.ps1 script.</span></span> <span data-ttu-id="c941d-123">さらにサポートが必要な場合は、「Web 会議コマンドレット」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="c941d-123">If you need further assistance, check out the Web Conferencing cmdlets.</span></span>
   
-## <a name="contacts-policy"></a><span data-ttu-id="c7172-124">連絡先のポリシー</span><span class="sxs-lookup"><span data-stu-id="c7172-124">Contacts policy</span></span>
-<span data-ttu-id="c7172-125"><a name="ContactsPolicy"> </a></span><span class="sxs-lookup"><span data-stu-id="c7172-125"></span></span>
+## <a name="contacts-policy"></a><span data-ttu-id="c941d-124">連絡先ポリシー</span><span class="sxs-lookup"><span data-stu-id="c941d-124">Contacts policy</span></span>
+<span data-ttu-id="c941d-125"><a name="ContactsPolicy"> </a></span><span class="sxs-lookup"><span data-stu-id="c941d-125"></span></span>
 
-<span data-ttu-id="c7172-126">ContactsPolicy.ps1 スクリプトを確認する必要がありますサンプルとなります。</span><span class="sxs-lookup"><span data-stu-id="c7172-126">ContactsPolicy.ps1 script will be the sample you'll need to review.</span></span> <span data-ttu-id="c7172-127">IM とプレゼンスのコマンドレットは、さらに参照が必要な場合に役立ちます。</span><span class="sxs-lookup"><span data-stu-id="c7172-127">The IM and Presence cmdlets will help if you need further references.</span></span>
+<span data-ttu-id="c941d-126">ContactsPolicy スクリプトは、確認する必要があるサンプルです。</span><span class="sxs-lookup"><span data-stu-id="c941d-126">ContactsPolicy.ps1 script will be the sample you'll need to review.</span></span> <span data-ttu-id="c941d-127">IM とプレゼンスのコマンドレットは、さらに参照が必要な場合に役立ちます。</span><span class="sxs-lookup"><span data-stu-id="c941d-127">The IM and Presence cmdlets will help if you need further references.</span></span>
   
-## <a name="federation-policy"></a><span data-ttu-id="c7172-128">フェデレーションのポリシー</span><span class="sxs-lookup"><span data-stu-id="c7172-128">Federation policy</span></span>
-<span data-ttu-id="c7172-129"><a name="FederationPolicy"> </a></span><span class="sxs-lookup"><span data-stu-id="c7172-129"></span></span>
+## <a name="federation-policy"></a><span data-ttu-id="c941d-128">フェデレーションポリシー</span><span class="sxs-lookup"><span data-stu-id="c941d-128">Federation policy</span></span>
+<span data-ttu-id="c941d-129"><a name="FederationPolicy"> </a></span><span class="sxs-lookup"><span data-stu-id="c941d-129"></span></span>
 
-<span data-ttu-id="c7172-130">フェデレーションで使用するサンプル スクリプトは、FederationPolicy.ps1 です。</span><span class="sxs-lookup"><span data-stu-id="c7172-130">The sample script for federation is FederationPolicy.ps1.</span></span> <span data-ttu-id="c7172-131">コマンドレットを確認して、さらに深めが必要な場合は、エッジ サーバー、フェデレーション、および外部からのアクセスになります。</span><span class="sxs-lookup"><span data-stu-id="c7172-131">The cmdlets to review, if you need further insight, will be Edge Server, federation, and external access.</span></span>
+<span data-ttu-id="c941d-130">フェデレーションのサンプルスクリプトは FederationPolicy です。</span><span class="sxs-lookup"><span data-stu-id="c941d-130">The sample script for federation is FederationPolicy.ps1.</span></span> <span data-ttu-id="c941d-131">さらに詳しい情報が必要な場合は、確認するコマンドレットはエッジサーバー、フェデレーション、外部アクセスになります。</span><span class="sxs-lookup"><span data-stu-id="c941d-131">The cmdlets to review, if you need further insight, will be Edge Server, federation, and external access.</span></span>
   
-## <a name="call-admission-control-policy"></a><span data-ttu-id="c7172-132">受付制御ポリシーします。</span><span class="sxs-lookup"><span data-stu-id="c7172-132">Call Admission Control policy</span></span>
-<span data-ttu-id="c7172-133"><a name="CACPolicy"> </a></span><span class="sxs-lookup"><span data-stu-id="c7172-133"></span></span>
+## <a name="call-admission-control-policy"></a><span data-ttu-id="c941d-132">通話受付制御ポリシー</span><span class="sxs-lookup"><span data-stu-id="c941d-132">Call Admission Control policy</span></span>
+<span data-ttu-id="c941d-133"><a name="CACPolicy"> </a></span><span class="sxs-lookup"><span data-stu-id="c941d-133"></span></span>
 
-<span data-ttu-id="c7172-134">このポリシーの BandwidthPolicy.ps1 を参照することができます。</span><span class="sxs-lookup"><span data-stu-id="c7172-134">You can reference BandwidthPolicy.ps1 for this policy.</span></span> <span data-ttu-id="c7172-135">呼の受付制御コマンドレットは、さらに同様の情報を必要があります。</span><span class="sxs-lookup"><span data-stu-id="c7172-135">The Call Admission Control cmdlets will have further information as well.</span></span>
+<span data-ttu-id="c941d-134">このポリシーについては、BandwidthPolicy を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c941d-134">You can reference BandwidthPolicy.ps1 for this policy.</span></span> <span data-ttu-id="c941d-135">通話受付制御コマンドレットについては、さらに詳しい情報も含まれています。</span><span class="sxs-lookup"><span data-stu-id="c941d-135">The Call Admission Control cmdlets will have further information as well.</span></span>
   
-## <a name="voice-routing-rules"></a><span data-ttu-id="c7172-136">音声ルーティングのルール</span><span class="sxs-lookup"><span data-stu-id="c7172-136">Voice Routing rules</span></span>
-<span data-ttu-id="c7172-137"><a name="VoiceRoutingRules"> </a></span><span class="sxs-lookup"><span data-stu-id="c7172-137"></span></span>
+## <a name="voice-routing-rules"></a><span data-ttu-id="c941d-136">ボイスルーティングルール</span><span class="sxs-lookup"><span data-stu-id="c941d-136">Voice Routing rules</span></span>
+<span data-ttu-id="c941d-137"><a name="VoiceRoutingRules"> </a></span><span class="sxs-lookup"><span data-stu-id="c941d-137"></span></span>
 
-<span data-ttu-id="c7172-138">RoutingRules.ps1 のサンプル スクリプトは、音声ルーティングの必要があります。</span><span class="sxs-lookup"><span data-stu-id="c7172-138">You'll need the RoutingRules.ps1 sample script for Voice Routing.</span></span> <span data-ttu-id="c7172-139">これらの規則を構成しているときに注意の内部および外部の市外局番と電話のコンテキストは、/Location のプロファイル (/SimpleName) ユーザーを作成するときに指定することができます。</span><span class="sxs-lookup"><span data-stu-id="c7172-139">When you're configuring these rules, take note of the phone context (that is, /Location Profile or /SimpleName) and Internal/External Area Codes, so that you can specify them when creating users.</span></span> <span data-ttu-id="c7172-140">(具体的には、PSTN UC UC PSTN) の LyncPerfTool の構成時にも必要だぞ。</span><span class="sxs-lookup"><span data-stu-id="c7172-140">You'll also need them during LyncPerfTool configuration (specifically for PSTN-UC and UC-PSTN).</span></span>
+<span data-ttu-id="c941d-138">ボイスルーティング用の RoutingRules サンプルスクリプトが必要です。</span><span class="sxs-lookup"><span data-stu-id="c941d-138">You'll need the RoutingRules.ps1 sample script for Voice Routing.</span></span> <span data-ttu-id="c941d-139">これらのルールを構成している場合は、電話のコンテキスト (¥ Location Profile または/simplename) と内部または外部の市外局番をメモして、ユーザーを作成するときに指定できます。</span><span class="sxs-lookup"><span data-stu-id="c941d-139">When you're configuring these rules, take note of the phone context (that is, /Location Profile or /SimpleName) and Internal/External Area Codes, so that you can specify them when creating users.</span></span> <span data-ttu-id="c941d-140">また、LyncPerfTool 構成 (特に PSTN-UC および UC-PSTN 用) でも必要になります。</span><span class="sxs-lookup"><span data-stu-id="c941d-140">You'll also need them during LyncPerfTool configuration (specifically for PSTN-UC and UC-PSTN).</span></span>
   
-<span data-ttu-id="c7172-141">たとえば、次の図の UserProfileGenerator.exe の LocationProfile 値の RoutingRules.ps1 の例では**新規 CsDialPlan**コマンドレットへの呼び出し内のパラメーターに SimpleName を使用してください。</span><span class="sxs-lookup"><span data-stu-id="c7172-141">For example, the SimpleName parameter in the call to the **New-CsDialPlan** cmdlet in the RoutingRules.ps1 example should be used for the LocationProfile value in the following figure of UserProfileGenerator.exe:</span></span>
+<span data-ttu-id="c941d-141">たとえば、RoutingRules の例の**CsDialPlan**コマンドレットの呼び出しの simplename パラメーターは、UserProfileGenerator の次の図の locationprofile 値として使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c941d-141">For example, the SimpleName parameter in the call to the **New-CsDialPlan** cmdlet in the RoutingRules.ps1 example should be used for the LocationProfile value in the following figure of UserProfileGenerator.exe:</span></span>
   
 ![Skype for Business Load Configuration Tool、[Voice Scenarios] タブ、会話の詳細設定](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
   
-<span data-ttu-id="c7172-143">詳細については、エンタープライズ VoIP のコマンドレットを確認することができます。</span><span class="sxs-lookup"><span data-stu-id="c7172-143">For details, you can review the Enterprise Voice cmdlets.</span></span>
+<span data-ttu-id="c941d-143">詳細については、「エンタープライズボイスのコマンドレット」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c941d-143">For details, you can review the Enterprise Voice cmdlets.</span></span>
   
-## <a name="conference-attendant-application"></a><span data-ttu-id="c7172-144">会議アテンダント アプリケーション</span><span class="sxs-lookup"><span data-stu-id="c7172-144">Conference Attendant application</span></span>
-<span data-ttu-id="c7172-145"><a name="ConfAttendantApp"> </a></span><span class="sxs-lookup"><span data-stu-id="c7172-145"></span></span>
+## <a name="conference-attendant-application"></a><span data-ttu-id="c941d-144">会議アテンダントアプリケーション</span><span class="sxs-lookup"><span data-stu-id="c941d-144">Conference Attendant application</span></span>
+<span data-ttu-id="c941d-145"><a name="ConfAttendantApp"> </a></span><span class="sxs-lookup"><span data-stu-id="c941d-145"></span></span>
 
-<span data-ttu-id="c7172-146">ConferenceAutoAttendantConfiguration.ps1 スクリプトを最初に確認します。</span><span class="sxs-lookup"><span data-stu-id="c7172-146">First review the ConferenceAutoAttendantConfiguration.ps1 script.</span></span> <span data-ttu-id="c7172-147">注意 ConferencingAutoAttendant の電話番号 (既定では、1121111111) を次に示すようなコンフィギュレーションの生成の LyncPerfTool の構成ツールに入力できるようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="c7172-147">You'll want to take note of the ConferencingAutoAttendant phone number (1121111111 by default), so that you can enter it into the LyncPerfTool configuration tool for configuration generation, as below:</span></span>
+<span data-ttu-id="c941d-146">まず、ConferenceAutoAttendantConfiguration スクリプトを確認します。</span><span class="sxs-lookup"><span data-stu-id="c941d-146">First review the ConferenceAutoAttendantConfiguration.ps1 script.</span></span> <span data-ttu-id="c941d-147">ConferencingAutoAttendant 電話番号 (既定では 1121111111) をメモしておくと、次のように、これを LyncPerfTool 構成ツールに入力して構成を生成することができます。</span><span class="sxs-lookup"><span data-stu-id="c941d-147">You'll want to take note of the ConferencingAutoAttendant phone number (1121111111 by default), so that you can enter it into the LyncPerfTool configuration tool for configuration generation, as below:</span></span>
   
 ![電話会議負荷レベルと電話番号を表示している [Voice Scenarios] タブ](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
   
-<span data-ttu-id="c7172-149">会議とダイヤルイン会議の詳細がわかりますコマンドレットです。</span><span class="sxs-lookup"><span data-stu-id="c7172-149">You'll find more details in the Conferencing and Dial-in Conferencing cmdlets.</span></span>
+<span data-ttu-id="c941d-149">詳細については、「会議とダイヤルイン会議のコマンドレット」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c941d-149">You'll find more details in the Conferencing and Dial-in Conferencing cmdlets.</span></span>
   
-## <a name="server-call-park-service"></a><span data-ttu-id="c7172-150">サーバー コール パーク サービス</span><span class="sxs-lookup"><span data-stu-id="c7172-150">Server Call Park service</span></span>
-<span data-ttu-id="c7172-151"><a name="ServerCallParkServ"> </a></span><span class="sxs-lookup"><span data-stu-id="c7172-151"></span></span>
+## <a name="server-call-park-service"></a><span data-ttu-id="c941d-150">サーバーコールパークサービス</span><span class="sxs-lookup"><span data-stu-id="c941d-150">Server Call Park service</span></span>
+<span data-ttu-id="c941d-151"><a name="ServerCallParkServ"> </a></span><span class="sxs-lookup"><span data-stu-id="c941d-151"></span></span>
 
-<span data-ttu-id="c7172-152">これは実際には既定で無効です。</span><span class="sxs-lookup"><span data-stu-id="c7172-152">This is actually disabled by default.</span></span> <span data-ttu-id="c7172-153">これをテストする必要がある場合は、CallParkConfiguration.ps1 のサンプル スクリプトを確認できます。</span><span class="sxs-lookup"><span data-stu-id="c7172-153">You can review the CallParkConfiguration.ps1 sample script if you need to test this.</span></span> <span data-ttu-id="c7172-154">必要に応じて、さらに、コール パーク アプリケーションのコマンドレットをチェックします。</span><span class="sxs-lookup"><span data-stu-id="c7172-154">Additionally, check out the Call Park Application cmdlets as needed.</span></span>
+<span data-ttu-id="c941d-152">これは、実際には既定では無効になっています。</span><span class="sxs-lookup"><span data-stu-id="c941d-152">This is actually disabled by default.</span></span> <span data-ttu-id="c941d-153">これをテストする必要がある場合は、CallParkConfiguration. ps1 サンプルスクリプトを確認できます。</span><span class="sxs-lookup"><span data-stu-id="c941d-153">You can review the CallParkConfiguration.ps1 sample script if you need to test this.</span></span> <span data-ttu-id="c941d-154">さらに、必要に応じて、コールパークアプリケーションのコマンドレットもご覧ください。</span><span class="sxs-lookup"><span data-stu-id="c941d-154">Additionally, check out the Call Park Application cmdlets as needed.</span></span>
   
-## <a name="emergency-calls"></a><span data-ttu-id="c7172-155">緊急電話番号</span><span class="sxs-lookup"><span data-stu-id="c7172-155">Emergency calls</span></span>
-<span data-ttu-id="c7172-156"><a name="EmergencyCalls"> </a></span><span class="sxs-lookup"><span data-stu-id="c7172-156"></span></span>
+## <a name="emergency-calls"></a><span data-ttu-id="c941d-155">緊急通話</span><span class="sxs-lookup"><span data-stu-id="c941d-155">Emergency calls</span></span>
+<span data-ttu-id="c941d-156"><a name="EmergencyCalls"> </a></span><span class="sxs-lookup"><span data-stu-id="c941d-156"></span></span>
 
-<span data-ttu-id="c7172-157">ストレスおよびパフォーマンスの緊急電話のテストを構成するのには次の手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c7172-157">You'll need to perform the following steps to configure stress and performance testing for emergency calls:</span></span>
+<span data-ttu-id="c941d-157">緊急通話のストレスとパフォーマンスのテストを構成するには、次の手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c941d-157">You'll need to perform the following steps to configure stress and performance testing for emergency calls:</span></span>
   
-1. <span data-ttu-id="c7172-158">緊急通報用のボイス ルートを設定します。</span><span class="sxs-lookup"><span data-stu-id="c7172-158">Set up a voice route for emergency calls.</span></span> <span data-ttu-id="c7172-159">RoutingRules.ps1 のスクリプトを使用し、このボイス ルートを設定する方法の例については「 **PSTN にルーティング E911** 」というコメント下を確認できます。</span><span class="sxs-lookup"><span data-stu-id="c7172-159">You can use the RoutingRules.ps1 script, and check under the comment " **Route E911 to PSTN** " for an example of how to set up this voice route.</span></span>
+1. <span data-ttu-id="c941d-158">緊急通話のためのボイスルートを設定します。</span><span class="sxs-lookup"><span data-stu-id="c941d-158">Set up a voice route for emergency calls.</span></span> <span data-ttu-id="c941d-159">このボイスルートの設定方法の例については、RoutingRules スクリプトを使用して、コメント " **E911 へのルーティング**" を確認してください。</span><span class="sxs-lookup"><span data-stu-id="c941d-159">You can use the RoutingRules.ps1 script, and check under the comment " **Route E911 to PSTN** " for an example of how to set up this voice route.</span></span>
     
     > [!CAUTION]
-    > <span data-ttu-id="c7172-160">RoutingRules.ps1 のコマンドの例には、911 ではなく、119 の番号を含む番号のパターンがあります。</span><span class="sxs-lookup"><span data-stu-id="c7172-160">The example command in RoutingRules.ps1 has a number pattern that includes the number 119 rather than 911.</span></span> <span data-ttu-id="c7172-161">ロード テスト中に、ローカルの緊急時のオペレーターへの偶発的な呼び出しを防ぐために 911 (または、実際のローカルの緊急電話番号) を使用しないでください。</span><span class="sxs-lookup"><span data-stu-id="c7172-161">You should avoid using 911 (or your actual local emergency number) to prevent accidental calls to your local emergency operators during your load testing.</span></span> <span data-ttu-id="c7172-162">シミュレーションのためだけには、この構成に注意してください!</span><span class="sxs-lookup"><span data-stu-id="c7172-162">Remember, this configuration is for simulation purposes only!</span></span> 
+    > <span data-ttu-id="c941d-160">RoutingRules の例のコマンドには、911ではなく数値119を含む数値パターンが含まれています。</span><span class="sxs-lookup"><span data-stu-id="c941d-160">The example command in RoutingRules.ps1 has a number pattern that includes the number 119 rather than 911.</span></span> <span data-ttu-id="c941d-161">ロードテスト中に、お客様の地域の緊急対応オペレーターへの偶発的な通話を防ぐため、911 (または実際のローカル緊急電話番号) の使用は避けてください。</span><span class="sxs-lookup"><span data-stu-id="c941d-161">You should avoid using 911 (or your actual local emergency number) to prevent accidental calls to your local emergency operators during your load testing.</span></span> <span data-ttu-id="c941d-162">この構成はシミュレーション目的でのみ使用することに注意してください。</span><span class="sxs-lookup"><span data-stu-id="c941d-162">Remember, this configuration is for simulation purposes only!</span></span> 
   
-2. <span data-ttu-id="c7172-163">次の図に示すように、**場所情報サービスの構成**] タブで、UserProvisioningTool の値を入力してアドレスを構成します。</span><span class="sxs-lookup"><span data-stu-id="c7172-163">Configure addresses by filling in the values on the **Location Info Service Config** tab in the UserProvisioningTool, as shown in the following figure:</span></span>
+2. <span data-ttu-id="c941d-163">次の図に示すように、Userプロビジョニングツールの [**位置情報] サービス構成**タブの値を入力して、アドレスを構成します。</span><span class="sxs-lookup"><span data-stu-id="c941d-163">Configure addresses by filling in the values on the **Location Info Service Config** tab in the UserProvisioningTool, as shown in the following figure:</span></span>
     
      ![アドレス、サブネット、スイッチ、ポートの数を表示している User Provisioning Tool](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
   
-3. <span data-ttu-id="c7172-165">入力したすべてのもの、UserProvisioningTool、 **LIS 構成ファイルの生成**] ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="c7172-165">When you've entered everything into the UserProvisioningTool, click the **Generate LIS Config Files** button.</span></span>
+3. <span data-ttu-id="c941d-165">Userプロビジョニングツールにすべての情報を入力したら、[ **LIS 構成ファイルの生成**] ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="c941d-165">When you've entered everything into the UserProvisioningTool, click the **Generate LIS Config Files** button.</span></span>
     
-4. <span data-ttu-id="c7172-166">今すぐストレスおよびパフォーマンス ツールの XML ファイルと同様のポート、サブネット、スイッチ、およびワイヤレス アクセス ポイント (Wap)、CSV ファイルが生成されます。</span><span class="sxs-lookup"><span data-stu-id="c7172-166">Now CSV files for ports, subnets, switches, and wireless access points (WAPs), as well as an XML file for the Stress and Performance tool will be generated.</span></span> <span data-ttu-id="c7172-167">LisConfiguration.ps1 スクリプトを使用して位置情報サービス (LIS) を構成する場合は、入力値の CSV ファイルを使用できます。</span><span class="sxs-lookup"><span data-stu-id="c7172-167">You can use the CSV files for inputs when configuring the Location Information service (LIS) with the LisConfiguration.ps1 script.</span></span> <span data-ttu-id="c7172-168">これを行うには、ストレスおよびパフォーマンス ツールの実行ファイル (LyncPerfTool.exe) と同じフォルダーに Locations0.xml ファイルを移動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c7172-168">To do this, you'll need to move the Locations0.xml file to the same folder as the Stress and Performance Tool executable (LyncPerfTool.exe).</span></span> <span data-ttu-id="c7172-169">これは、オプションを選択する場所のプロファイル (ダイヤル プラン) のシナリオを実行することができます。</span><span class="sxs-lookup"><span data-stu-id="c7172-169">This will let you run location profile (dial plan) scenarios.</span></span>
+4. <span data-ttu-id="c941d-166">これにより、ポート、サブネット、スイッチ、ワイヤレスアクセスポイント (Wap) の CSV ファイル、およびストレスとパフォーマンスツールの XML ファイルが生成されます。</span><span class="sxs-lookup"><span data-stu-id="c941d-166">Now CSV files for ports, subnets, switches, and wireless access points (WAPs), as well as an XML file for the Stress and Performance tool will be generated.</span></span> <span data-ttu-id="c941d-167">LisConfiguration スクリプトを使用して位置情報サービス (LIS) を構成するときに、CSV ファイルを入力用に使うことができます。</span><span class="sxs-lookup"><span data-stu-id="c941d-167">You can use the CSV files for inputs when configuring the Location Information service (LIS) with the LisConfiguration.ps1 script.</span></span> <span data-ttu-id="c941d-168">そのためには、Locations0 ファイルを、ストレスとパフォーマンスツールの実行可能ファイル (LyncPerfTool) と同じフォルダーに移動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c941d-168">To do this, you'll need to move the Locations0.xml file to the same folder as the Stress and Performance Tool executable (LyncPerfTool.exe).</span></span> <span data-ttu-id="c941d-169">これにより、位置情報プロファイル (ダイヤルプラン) のシナリオを実行できるようになります。</span><span class="sxs-lookup"><span data-stu-id="c941d-169">This will let you run location profile (dial plan) scenarios.</span></span>
     
-## <a name="configuring-response-group-application"></a><span data-ttu-id="c7172-170">応答グループの構成の適用</span><span class="sxs-lookup"><span data-stu-id="c7172-170">Configuring Response Group application</span></span>
-<span data-ttu-id="c7172-171"><a name="ConfigResponseGroupApp"> </a></span><span class="sxs-lookup"><span data-stu-id="c7172-171"></span></span>
+## <a name="configuring-response-group-application"></a><span data-ttu-id="c941d-170">応答グループアプリケーションを構成する</span><span class="sxs-lookup"><span data-stu-id="c941d-170">Configuring Response Group application</span></span>
+<span data-ttu-id="c941d-171"><a name="ConfigResponseGroupApp"> </a></span><span class="sxs-lookup"><span data-stu-id="c941d-171"></span></span>
 
-<span data-ttu-id="c7172-172">サンプル スクリプトは、ResponseGroupConfiguration.ps1 です。</span><span class="sxs-lookup"><span data-stu-id="c7172-172">The sample script is ResponseGroupConfiguration.ps1.</span></span> <span data-ttu-id="c7172-173">構成の詳細を確認するのには応答グループ アプリケーションのコマンドレットが用意されています。</span><span class="sxs-lookup"><span data-stu-id="c7172-173">There are also Response Group application cmdlets to review for further configuration details.</span></span> <span data-ttu-id="c7172-174">次の図は、いくつかの構成の詳細に表示されます。</span><span class="sxs-lookup"><span data-stu-id="c7172-174">The following diagram will show some of the configuration details:</span></span>
+<span data-ttu-id="c941d-172">サンプルスクリプトは ResponseGroupConfiguration. ps1 です。</span><span class="sxs-lookup"><span data-stu-id="c941d-172">The sample script is ResponseGroupConfiguration.ps1.</span></span> <span data-ttu-id="c941d-173">さらに構成の詳細を確認する応答グループのアプリケーションコマンドレットもあります。</span><span class="sxs-lookup"><span data-stu-id="c941d-173">There are also Response Group application cmdlets to review for further configuration details.</span></span> <span data-ttu-id="c941d-174">次の図は、構成の詳細の一部を示しています。</span><span class="sxs-lookup"><span data-stu-id="c941d-174">The following diagram will show some of the configuration details:</span></span>
   
 ![既存のテスト用ワークフローを表示している Response Group Configuration Tool](../../media/e218a345-4813-4332-8cff-b48de05017ef.jpg)
   
