@@ -15,12 +15,12 @@ description: サービスの正常性の監視、ネットワークの品質お�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660087ef2ac4bcf81d2c59606d9b4658182cd899
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34162575"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343865"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 
@@ -42,8 +42,8 @@ ms.locfileid: "34162575"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>チームに対して操作を実装する方法を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>運用ガイドを完全に確認します。</li><li>組織の目標に合わせて、クラウドボイスワークロードの品質と信頼性を高める運用戦略を実装します。</li><li>エクスペリエンス品質レビューガイドを確認します。</li><li> 運用計画を実施して、クラウドの音声展開が最大の機能で動作していることを確認します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>チームに対して操作を実装する方法を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>運用ガイドを完全に確認します。</li><li>組織の目標に合わせて、クラウドボイスワークロードの品質と信頼性を高める運用戦略を実装します。</li><li>エクスペリエンス品質レビューガイドを確認します。</li><li> 運用計画を実施して、クラウドの音声展開が最大の機能で動作していることを確認します。</li></ul></td></tr>
 </table>
 
 

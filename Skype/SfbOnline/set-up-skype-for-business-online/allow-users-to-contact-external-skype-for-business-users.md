@@ -27,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'ユーザーが別の組織のユーザーと会話したり、外部からの連絡をしたりできるように Skype for Business を構成する方法について説明します。 '
-ms.openlocfilehash: 727077d87486a59b956720b52ca9e6f2cf388c07
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3656038efa660db0b63f382908f4de5a8b7172d4
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276189"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344562"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
 
@@ -52,7 +52,7 @@ ms.locfileid: "34276189"
 
 この操作を行うには、両方の組織の Office 365 で[管理者権限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)を持っている必要があります。
 
-![](../images/teams-logo-30x30.png) **Teams 管理センターを使用した**teams-logo-30x30
+![](../images/teams-logo-30x30.png) **Teams 管理センターを使用し**た Microsoft Teams ロゴを示すアイコン
   
 1. Office 365 管理者アカウントでサインインします。 
     

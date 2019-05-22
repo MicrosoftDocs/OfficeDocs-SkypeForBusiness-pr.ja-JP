@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d0494b0f12480fabc3d0353e5a47fa5db3a9879
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6a8b08f40b6e080293fa54f60c139a3e05f50eb4
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885455"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344075"
 ---
-![技術的な準備段階に重点を置いたアップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
+![アップグレードの段階で、テクニカルレディネスステージが強調表示]されています。(media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
 この記事は、アップグレードが行われる技術準備段階の一部であり、ユーザーの準備段階と並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
 
@@ -61,8 +61,8 @@ ms.locfileid: "33885455"
 >ほとんどの構成設定は、Teams と Skype for Business Online で共通です。 Microsoft Teams 管理センターを使って、これらの設定を構成します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>オンボードチェックリストの完了を監督する担当者を教えてください。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>オンボードチェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボードのチェックリスト項目を段階的に操作します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>オンボードチェックリストの完了を監督する担当者を教えてください。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>オンボードチェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボードのチェックリスト項目を段階的に操作します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

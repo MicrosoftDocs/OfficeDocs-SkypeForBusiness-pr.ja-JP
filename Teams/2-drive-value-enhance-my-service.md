@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbc287254503c9c38f6a13bc77d747d91566b8d6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: d5a912556d5a88583d0ee7e2a4331be5f259a517
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400837"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344838"
 ---
 # <a name="enhance-my-service"></a>サービスを強化する
 
@@ -37,8 +37,8 @@ ms.locfileid: "33400837"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>組織で利用できる新機能やサービスについて、公共のロードマップやその他のサービスのお知らせを監視するユーザーを決定します。</li><li>運営委員会を通じて、これらの新機能やサービスを主要な関係者に報告するためのリズムを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>サービスを最大限に活用して、組織にとって最大限の価値を引き出す戦略を実装します。</li><li>完全なプロジェクトのライフサイクルを通じてサービスの強化を推進し、展開に対する影響を適切に考慮してください。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>組織で利用できる新機能やサービスについて、公共のロードマップやその他のサービスのお知らせを監視するユーザーを決定します。</li><li>運営委員会を通じて、これらの新機能やサービスを主要な関係者に報告するためのリズムを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>サービスを最大限に活用して、組織にとって最大限の価値を引き出す戦略を実装します。</li><li>完全なプロジェクトのライフサイクルを通じてサービスの強化を推進し、展開に対する影響を適切に考慮してください。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

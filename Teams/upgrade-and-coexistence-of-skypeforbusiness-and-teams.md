@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97cfaf4c5e651f88835e09004fba22c4edc4ae59
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e8ba10e193301b5d9998f51f42d8b5f6ba353af
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33917402"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344397"
 ---
 ![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
@@ -50,7 +50,7 @@ Skype for Business から Teams へのアップグレードに関連した、さ
 
 組織全体でTeams に移行することが考えられない場合は、**アイランド**共存モードで Skype for Business を残した状態で Teams のパイロット使用を開始することができます。 追加の共存モード (**Skype for Business と Teams でのコラボレーション**および**Skype for Business と Teams でのコラボレーションおよび会議**) が今後数か月間で徐々に完全に利用できるようになるとともに、Skype for Business をお客さまの組織での統一されたコミュニケーション ソリューションとして維持しながら、Teams をグループ コラボレーションのソリューションとして完全に導入し始めることもできます。 これは、Skype for Business Server (オンプレミスまたはハイブリッド) を使用しているユーザーや、Teams に向かう中で共存での使用期間が長くなるような極めて複雑な状況にあるユーザーに対して、マイクロソフトが推奨するパスです。
 
-![Skype for Business と Teams でのコラボレーションのみのモード、Skype for Business と Teams でのコラボレーションおよび会議モード、アイランド モード、Teams のみのモード、Skype for Businessのみのモードから成る、Skype for Business から Teams へのアップグレードの構成単位のスクリーンショット。](media/upgrade_journeys_building_block.png)
+![Skype For business から Teams へのアップグレード文書パーツのスクリーンショット]Skype for (media/upgrade_journeys_building_block.png "business から teams へのアップグレード文書パーツのスクリーンショット。チームのコラボレーション&ndash;のみモードで、チームのコラボレーションと会議モード、孤島モード、チーム専用モード、skype for business で構成される skype for business で構成されています。ビジネス&ndash;専用モード。")
 
 次の表で、共存モードとアップグレード モードを比較します。
 
@@ -81,7 +81,7 @@ Skype for Business から Teams へのアップグレードに関連した、さ
 
 直接的なアップグレード手順は次の図に示されています。
 
-![直接的なアップグレード手順のスクリーンショット。 すべてのユーザーは最初は Teams をアイランド モードで使用し、次に Teams のみのモードに移行して、組織全体で Teams にアップグレードされた状態になります。](media/upgrade_journey_direct_upgrade.png)
+![アップグレード過程の直接のスクリーンショット](media/upgrade_journey_direct_upgrade.png "アップグレード過程の直接のスクリーンショット。すべてのユーザーは、最初はアイランドモードで Teams を使用してから、チーム専用モードに切り替えて、組織全体の終了状態が Teams にアップグレードされます。")
 
 Teams は組織内のすべてのユーザーに展開され、**アイランド** モードで構成されます。 お客様の組織で Teams がすべてのコミュニケーションとコラボレーションのニーズを満たす準備が整ったら、ユーザーに通知して、**Teams Only** モードへのアップグレードを行います。 この時点で、Skype for Business は環境から廃止することができるようになります。
 
@@ -89,19 +89,19 @@ Teams は組織内のすべてのユーザーに展開され、**アイランド
 
 段階的なアップグレード手順の例は次の図に示されています。
 
-![段階的なアップグレード手順では、ユーザーのコーホートはまず評価目的で Teams をアイランドモードで使用して、次に早期導入や Skype for Business と共存して使用するためにさまざまなアップグレード モードで使用します。 あるユーザー グループが Skype for Business と Teams でのコラボレーションおよび会議モードにとどまる一方で、一部のコーホートは、Teams-Only モードに移行します。](media/upgrade_journey_gradual_upgrade.png)
+![段階的なアップグレードの過程の例を示します]。(media/upgrade_journey_gradual_upgrade.png "段階的なアップグレードでは、cohorts ユーザーは最初に、評価のために孤島モードで Teams を使用し、その後、Skype For business を使用して早期に導入するためのさまざまなアップグレードモードでチームを使用しています。一部の cohorts はチーム専用モードに移行しますが、ユーザーの1つはチームのグループ作業と会議モードで Skype for Business を使用したままです。")
 
 Teams は評価のために **アイランド** モードで組織内に展開されてから、それぞれのユーザー グループに対して異なる共存およびアップグレード モードに移行します。 たとえば、あるユーザーのグループでは**アイランド** モードが有効になり、別のグループでは **Skype for Business と Teams でのコラボレーションおよび会議**モードが有効になり、一方 3 番目のユーザー グループは **Skype for Business と Teams でのコラボレーションのみの**モードが有効になります。
 
 時間の経過とともに、ユーザーのグループは **Teams Only** モードにアップグレードされます。その後に組織の残りの部分が続きます。 最終的に、組織全体で Skype for Business を廃止し、Teams のみをコミュニケーションとコラボレーションのために使用できる状態が整います。ビジネス要件によって Skype for Business が特定のグループのために保持される場合は、組織内のユーザーの大多数が Teams Only を使用することができます。 <br><br>
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul> どのアップグレード手順が組織のビジネス要件に適してますか?<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul> お客様の組織での現在の展開モデル、ユース ケースのシナリオ、および主な考慮事項を特定することにより、組織に最も適した Teams への移行手順がわかるようになります。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul> どのアップグレード手順が組織のビジネス要件に適してますか?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>次のステップ</td><td><ul> お客様の組織での現在の展開モデル、ユース ケースのシナリオ、および主な考慮事項を特定することにより、組織に最も適した Teams への移行手順がわかるようになります。<br><br></ul></td></tr>
 </table>
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul> お客様の組織に該当するアップグレード シナリオはどれですか?<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul> メッセージング、会議、および通話のビジネス要件に基づいて、お客様の組織のアップグレード手順のタイムラインを決定します。<br><br> アップグレード手順を完了するために必要な追加作業を決めます。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul> お客様の組織に該当するアップグレード シナリオはどれですか?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul> メッセージング、会議、および通話のビジネス要件に基づいて、お客様の組織のアップグレード手順のタイムラインを決定します。<br><br> アップグレード手順を完了するために必要な追加作業を決めます。<br><br></ul></td></tr>
 </table>
 
 組織にとって最高のアップグレード手順を選んだ後、[Teams に対するアップグレードを実行します](https://aka.ms/SkypeToTeams-Upgrade)。

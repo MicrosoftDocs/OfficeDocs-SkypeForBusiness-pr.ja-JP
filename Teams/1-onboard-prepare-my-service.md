@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27a3555443ecf1988a49c6002477e8ec2cb4680e
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: c2316376bd2dfddce99e63fe4ab66c5e33eb813e
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868689"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344830"
 ---
 # <a name="prepare-my-service"></a>サービスを準備する
 
@@ -55,8 +55,8 @@ ms.locfileid: "33868689"
 >ほとんどの構成設定は、Teams と Skype for Business Online で共通です。 これらの設定を構成するには、Microsoft 365 管理センターと Microsoft Teams 管理センターを使用します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>オンボードチェックリストの完了を監督する担当者を教えてください。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>オンボードチェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボードのチェックリスト項目を段階的に操作します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>オンボードチェックリストの完了を監督する担当者を教えてください。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>オンボードチェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボードのチェックリスト項目を段階的に操作します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -182,8 +182,8 @@ ms.locfileid: "33868689"
 -   直接ルーティングのコンプライアンス要件が識別され、構成されている。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>どの電話会議機能を展開するかを決定します (サービス決定)。</li><li>電話会議のユーザー機能要件を特定します。</li><li>電話会議のサービス構成要件を特定します。</li><br><li>ダイレクトルーティングまたは通話プランを展開して構成するかどうかを決定します。<li>どの電話システム機能が展開されるかを決定します (サービス決定)。</li><li>プランまたはダイレクトルーティングのためのユーザー機能要件を特定します。</li><li>プランまたはダイレクトルーティングのサービス構成要件を特定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>テスト計画のアプローチを開発し、文書化します。</li><li>電話会議機能のスコープでサービス環境とユーザーを準備します。</li><li>プランまたはダイレクトルーティング機能の対象となるように、サービス環境とユーザーを準備します。</li><li>有効にする電話会議機能のテストの検証を実行します。</li><li>有効にする通話プランまたはダイレクトルーティング機能に対してテストの検証を実行します。</li><li>テストの失敗については、構成が正しいことを確認し、コミュニティの記事を確認し、必要に応じてサポート案件を提起します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>どの電話会議機能を展開するかを決定します (サービス決定)。</li><li>電話会議のユーザー機能要件を特定します。</li><li>電話会議のサービス構成要件を特定します。</li><br><li>ダイレクトルーティングまたは通話プランを展開して構成するかどうかを決定します。<li>どの電話システム機能が展開されるかを決定します (サービス決定)。</li><li>プランまたはダイレクトルーティングのためのユーザー機能要件を特定します。</li><li>プランまたはダイレクトルーティングのサービス構成要件を特定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>テスト計画のアプローチを開発し、文書化します。</li><li>電話会議機能のスコープでサービス環境とユーザーを準備します。</li><li>プランまたはダイレクトルーティング機能の対象となるように、サービス環境とユーザーを準備します。</li><li>有効にする電話会議機能のテストの検証を実行します。</li><li>有効にする通話プランまたはダイレクトルーティング機能に対してテストの検証を実行します。</li><li>テストの失敗については、構成が正しいことを確認し、コミュニティの記事を確認し、必要に応じてサポート案件を提起します。</li></ul></td></tr>
 </table>
 
 

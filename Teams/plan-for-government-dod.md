@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06f3371233b4ff16be8d55813e1621c3b08566d9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 29de55208f53988a5941d114f3e681fd217f1b7e
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32247104"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344359"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Microsoft 365 Government-DoD の展開計画
 
@@ -50,7 +50,7 @@ Microsoft 365 Government –米国政府のお客様向けの詳細について�
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>組織に対して Microsoft 365 Government-DoD が適切であるかどうかを決定します。</li><li>組織が資格要件を満たしていることを確認します。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>組織に対して Microsoft 365 Government-DoD が適切であるかどうかを決定します。</li><li>組織が資格要件を満たしていることを確認します。</li></ul> |
 
 > [!Note]
 > Microsoft 365 Government-DoD は、米国でのみ利用可能です。 米国政府以外のお客様は、多数の[Office 365 Government プラン](https://products.office.com/en/government/compare-office-365-government-plans)から選ぶことができます。
@@ -66,7 +66,7 @@ Microsoft 365 Government –米国政府のお客様向けの詳細について�
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 Government の既定のセキュリティ設定を変更する必要があるかどうかを決定します。解決するには、変更の影響を最初に理解する必要があります。</li></ul> |
+| ![判断ポイントを示すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 Government の既定のセキュリティ設定を変更する必要があるかどうかを決定します。解決するには、変更の影響を最初に理解する必要があります。</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>手順4。 Microsoft 365 Government-DoD で現在利用可能な Teams 機能を理解する
@@ -140,7 +140,7 @@ Microsoft 365 Government –米国政府のお客様向けの詳細について�
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Teams 機能セットが組織のニーズを満たすかどうかを決定します。</li></ul> |
+| ![判断ポイントを示すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Teams 機能セットが組織のニーズを満たすかどうかを決定します。</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>手順5 ガバナンスの計画
 
@@ -148,7 +148,7 @@ Microsoft 365 Government –米国政府のお客様向けの詳細について�
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント |<ul><li>[チームのガバナンス計画](plan-teams-governance.md)のガイドラインに従って、ガバナンス要件を特定して文書化します。 </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|判断ポイント |<ul><li>[チームのガバナンス計画](plan-teams-governance.md)のガイドラインに従って、ガバナンス要件を特定して文書化します。 </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>手順6 チームをコラボレーションのために展開する
 

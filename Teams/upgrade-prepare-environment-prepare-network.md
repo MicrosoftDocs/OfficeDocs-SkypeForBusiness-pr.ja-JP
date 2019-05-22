@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cdddb008b59a89598926185910f98e3d48fa08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5454c8d4a95a6a9d1d695f74497ccf5c022d062b
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910849"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344099"
 ---
 ![技術的な準備段階に重点を置いたアップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
@@ -38,7 +38,7 @@ ms.locfileid: "33910849"
 
 オーディオ、ビデオ、または会議を展開している場合は、その機能を利用できるようにネットワークを最適化するための追加の手順を実行することができます。 Teams では、オーディオとビデオの技術 (コーデック) が使用されています。そのため、ほとんどのネットワーク条件で対応できます。 最適かつ一貫性のあるパフォーマンスを確保するために、Teams 用にネットワークを準備する必要があります。
 
-![品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。](media/evaluate-my-environment-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。")
+![品質の3つのコンポーネントとサービス管理の3つのコンポーネントの重なり方について説明した図](media/evaluate-my-environment-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。")
 
 ## <a name="why-should-you-prepare-your-network"></a>なぜネットワークを準備する必要があるのでしょうか。
 
@@ -194,8 +194,8 @@ QoS (Quality of service) を使うと、トラフィックの優先順位付け�
 >多くのネットワークは時間の経過とともに、アップグレード、拡張、その他のビジネス上の要件によって、進展します。 自分のサービス管理計画の一部として、これらの領域の保守管理のための運用プロセスが確立されていることを確認します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>すべてのネットワークセグメントと組織の場所で、適切なネットワーク評価を完了する責任は誰ですか?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認することができます。 詳細については、「<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>」を参照してください。</li><li>各ネットワークセグメントのネットワーク準備評価の結果に基づいてネットワークの修復を実行します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>すべてのネットワークセグメントと組織の場所で、適切なネットワーク評価を完了する責任は誰ですか?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認することができます。 詳細については、「<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>」を参照してください。</li><li>各ネットワークセグメントのネットワーク準備評価の結果に基づいてネットワークの修復を実行します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

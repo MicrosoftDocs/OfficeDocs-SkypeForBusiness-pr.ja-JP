@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Microsoft Teams で会議に参加したときにユーザーが名前を記録できるかどうかを有効または無効にする方法について説明します。
-ms.openlocfilehash: 753463bf0ef76d1b68ccb96e36505ec3c8717628
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 44ae945b8ea17b68652e03ab3cb072e5491c5497
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298876"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344123"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Microsoft Teams でユーザーが会議に参加したときに自分の名前を記録できるようにする
 
@@ -36,7 +36,7 @@ ms.locfileid: "34298876"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>発信者に名前を記録するかどうかを設定する
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 

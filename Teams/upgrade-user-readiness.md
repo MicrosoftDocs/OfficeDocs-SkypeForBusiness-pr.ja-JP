@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d38884b5e1f868dd206f7382c91f00502c0ca5ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1532df0ca1167f5ff3335dbbddbbaa45eabfcef
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884848"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344115"
 ---
-![アップグレードの段階 (ユーザー準備ステージに重点]を置いている場合)(media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点")を置いている場合)
+![アップグレード過程のステージ、ユーザー準備ステージを強調表示]している(media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点")を置いている場合)
 
 この記事は、アップグレードが行われたユーザーの準備段階の一部であり、テクニカルレディネスステージと並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
 
@@ -40,8 +40,8 @@ ms.locfileid: "33884848"
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>新しいソリューションのユーザー導入を容易にするための準備計画を作成するにはどうすればよいですか。</li><li>ユーザーが変更を処理し、定義したユーザーのペルソナに対応しているかどうかに合わせて、適切な認識、トレーニング、およびサポートリソースを用意していますか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>次の一覧を使用して、準備計画のアイデアを作成します。 最も関連性の高いアクティビティを選択するか、独自のものを追加して、組織に最適化された準備計画を設計します。 最大の結果を得るには、(組織全体で) 広範なキャンペーンとターゲット (laggards または特定のペルソナ向け) の組み合わせを使用してください。</li></ul>|
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>新しいソリューションのユーザー導入を容易にするための準備計画を作成するにはどうすればよいですか。</li><li>ユーザーが変更を処理し、定義したユーザーのペルソナに対応しているかどうかに合わせて、適切な認識、トレーニング、およびサポートリソースを用意していますか。</li></ul> |
+| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>次の一覧を使用して、準備計画のアイデアを作成します。 最も関連性の高いアクティビティを選択するか、独自のものを追加して、組織に最適化された準備計画を設計します。 最大の結果を得るには、(組織全体で) 広範なキャンペーンとターゲット (laggards または特定のペルソナ向け) の組み合わせを使用してください。</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

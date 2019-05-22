@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Skype for Business Online 通話品質ダッシュボードをオンにして使用する方法と、通話の品質に関する概要レポートを取得する方法について説明します。 '
-ms.openlocfilehash: afcb0243144784929e8516308084fda791b0bcec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 258390562206f55918a2b1440ed30ca16f7e7a93
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291538"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344886"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -55,7 +55,7 @@ CQD に対する最新の変更点は、次のとおりです。
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Microsoft 通話品質ダッシュボード (CQD) の概要レポートを有効にする
 
 CQD の使用を開始する前に、Office 365 組織でライセンス認証を行う必要があります。
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
  
 1. Microsoft Teams service 管理者アカウントを使用して Office 365 組織にサインインし、[**管理者**] タイルを選んで管理センターを開きます。
     

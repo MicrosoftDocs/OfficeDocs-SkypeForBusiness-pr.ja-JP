@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 892cbf094c2c523d7eaa18b1d77a2fb864a3a9c0
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 5b6f96b2f3dd7993d6cb3d5b732e0796a215ebae
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400932"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344650"
 ---
 # <a name="plan-my-service-management"></a>サービス管理を計画する
 
@@ -115,8 +115,8 @@ Teams サービス管理に関する顧客の責任と、ユーザーエクス�
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>組織のクラウド音声操作の責任者を決定します。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>『サービス管理の計画』をダウンロードしてください。</li><li>品質向上のレビューガイドをダウンロードします。</li><li>運用ガイドを完全に確認します。</li><li>操作の要件についてレビューし、理解するために、すべてのオペレーションチームメンバーへのすべてのガイドを提供します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>組織のクラウド音声操作の責任者を決定します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>『サービス管理の計画』をダウンロードしてください。</li><li>品質向上のレビューガイドをダウンロードします。</li><li>運用ガイドを完全に確認します。</li><li>操作の要件についてレビューし、理解するために、すべてのオペレーションチームメンバーへのすべてのガイドを提供します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

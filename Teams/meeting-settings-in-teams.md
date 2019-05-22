@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 組織でスケジュールされているユーザーのチーム会議の設定を管理する方法について説明します。
-ms.openlocfilehash: 9dab34c518b4c0c5c25e55d894a1dacf4e0a773e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298120"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344878"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -33,7 +33,7 @@ ms.locfileid: "34298120"
 
 匿名の参加では、会議出席依頼のリンクをクリックすると、誰でも匿名ユーザーとして会議に参加できます。
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで、[**会議** > の**会議の設定**] に移動します。
 2. [**参加者**] の下で、[**匿名ユーザーが会議に参加できるよう**にする] をオンにします。
@@ -54,7 +54,7 @@ ms.locfileid: "34298120"
 
 ### <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズする
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで、[**会議** > の**会議の設定**] に移動します。
 2. [**電子メールの招待状**] で、次の操作を行います。
@@ -73,7 +73,7 @@ ms.locfileid: "34298120"
 
 Qos (Quality of Service [)](qos-in-teams.md)を使ってネットワークトラフィックの優先順位を設定している場合は、qos マーカーを有効にして、メディアトラフィックごとにポート範囲を設定することができます。
 
- ![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+ ![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで、[**会議** > の**会議の設定**] に移動します。
 2. [**ネットワーク**] で、次の操作を行います。

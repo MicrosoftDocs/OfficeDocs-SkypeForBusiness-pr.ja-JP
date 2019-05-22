@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 810daf5f63cc5c1e22bb8ed6d6a110621200c047
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5582a337d56d5d836c01911d667771da80909a64
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895919"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344067"
 ---
 ![技術的な準備段階に重点を置いたアップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
@@ -192,8 +192,8 @@ ms.locfileid: "33895919"
 > | ロールアウトについて最も適切な説明 <br>Skype for Business で使用される戦略 <br>デプロイメント? | <input type="checkbox">広範なリーチ: のメールキャンペーン <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">拡張: 広範なリーチおよびさまざまな種類 <br>&nbsp;&nbsp; &nbsp;ポスター、 <br>&nbsp;&nbsp;イベント、エキスパート) &nbsp;、トレーニング <br>&nbsp;&nbsp; (ビデオ、ユーザーガイド、 &nbsp;ユーザー) <br/> <input type="checkbox">調整済み: 拡張された正の目標 <br>&nbsp;&nbsp;メッセージとトレーニング ( &nbsp;ペルソナ) <br/> <input type="checkbox">他の <br>&nbsp;&nbsp; ([コメント] 列の詳細に注意してください&nbsp;)。 | |
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>環境評価の完了責任者は誰ですか?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>環境評価の結果を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>環境評価の完了責任者は誰ですか?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>次の手順</td><td><ul><li>環境評価の結果を文書化します。</li></ul></td></tr>
 </table>
 
 環境の評価が完了したら、次の手順「[ネットワークを準備](upgrade-prepare-environment-prepare-network.md)する」に進みます。

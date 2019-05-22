@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話会議への参加に電話を使用する必要がある、社内のユーザーに対してダイヤルインまたは電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 41a2d4288185d75bfed4d9882775ba054e2b3ccd
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: f0709f2a99524666e3b48992338abae111599b7d
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329733"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344211"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
 
@@ -87,7 +87,7 @@ ms.locfileid: "34329733"
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>手順 5: 会議ブリッジ用の既定言語と第 2 言語を設定する
 <a name="__top"></a>次に、 [Microsoft Teams の電話会議の自動応答の言語を設定](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)します。このとき、会議の自動応答で電話会議の電話番号にダイヤルインするときに、挨拶メッセージの発信者が通話を発信します。 
 
-![](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用した**teams-logo-30x30:
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン:
 
 1. ダッシュボードで、[**会議** > **会議ブリッジ**] に移動します。
 2. 会議ブリッジの電話番号を選択し、[**編集**] をクリックして、既定の言語を選択します。
@@ -97,7 +97,7 @@ ms.locfileid: "34329733"
     
 会議ブリッジをセットアップした後、使用する開始/終了の通知と PIN の長さが正しいかなど、既定の設定を確認します。正しくない場合は、変更することができます。 
 
-![](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用した**teams-logo-30x30:
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン:
 
 1. ダッシュボードで、[**会議** > **会議ブリッジ**] に移動します。
 2. [**ブリッジの設定**] を選びます。 [**ブリッジの設定**] ウィンドウが開きます。 
@@ -110,7 +110,7 @@ ms.locfileid: "34329733"
 
 この操作を、会議を主催したり計画している組織内のすべてのユーザーに対して行う必要があります。 
 
-![](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用した**teams-logo-30x30:
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン:
 
 1. ダッシュボードで、[**ユーザー**] をクリックし、一覧からユーザーを選んで、[**編集**] を選びます。
 2. [電話**会議**] の横にある [**編集**] を選択し、[電話**会議**] ウィンドウで、[**有料**電話番号] と [**無料電話**番号] の一覧から番号を選びます。

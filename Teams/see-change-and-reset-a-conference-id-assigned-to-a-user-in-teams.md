@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams でユーザーに会議 ID を割り当てる方法と、会議 ID のパラメーターを指定する方法について説明します。 '
-ms.openlocfilehash: 4e354f3f7c9f8b286647fc64b5c910b268c2a316
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a41935e324a7ed167efc905bbe274f6ef7c85de5
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305360"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344317"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーに割り当てられている会議 ID を表示およびリセットする
 
@@ -42,7 +42,7 @@ ms.locfileid: "34305360"
 
 ### <a name="to-view-the-conference-id"></a>会議 ID を表示するには
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -62,7 +62,7 @@ ms.locfileid: "34305360"
 
 例えば忘れてしまったなどの場合のために、ユーザーの会議 ID をリセットできます。
   
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 

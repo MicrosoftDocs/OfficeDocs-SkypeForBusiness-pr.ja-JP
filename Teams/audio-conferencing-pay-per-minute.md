@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 標準の電話会議のユーザーライセンスに加えて、Microsoft ボリュームライセンスを使用する組織は、組織の電話会議機能を有効にするための1分あたりの料金プランを選ぶこともできます。
-ms.openlocfilehash: 90f547eacabfc3dbe38244f82ca5f9c8262ea7ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7be5acfcb6dc86179c29c983c9764569232e1d97
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283533"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344710"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
@@ -61,7 +61,7 @@ ms.locfileid: "34283533"
 
 - [分単位の支払い] は、会議中に Skype for Business または Teams アプリケーションを使用する代わりに、スケジュールされた会議中に各出席者によって発信または着信した通話に対して分単位で課金されます。デバイスまたは PC。
 
-- 管理者は、開催者の会議から実行できるダイヤルアウトの種類 (国際および国内) を制限することができます。そのため、コストを管理する機能を備えています。 電話[会議とユーザー PSTN 通話の発信通話制限ポリシーを](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies)参照してください。
+- 管理者は、開催者の会議から実行できるダイヤルアウトの種類 (国際および国内) を制限することができます。そのため、コストを管理する機能を備えています。 電話[会議とユーザー PSTN 通話の発信通話制限ポリシーを](/microsoftteams/outbound-calling-restriction-policies)参照してください。
 
 - 分数ごと従量課金制電話会議のライセンスがあれば、電話会議の使用率 (他のサービスを割り当てる必要がある可能性があります) の各ユーザーに個別にコミュニケーション クレジットのライセンスを割り当てる必要はありません。
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0334b13b79348203666c81e597af7b6f00a6190
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9864d05be6fe316d04991aba653f36ce047c5c1
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906849"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344519"
 ---
 ![技術的な準備段階に重点を置いたアップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
@@ -46,7 +46,7 @@ Office 365 テナント管理者、テクニカルリーダー、およびサポ
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>チームの展開とサポートに携わる可能性があると思われるすべてのサポートスタッフが参加しているか?</li><li>アップグレードの進捗に応じて、オンボードの追加のスタッフのトレーニング計画を作成しましたか?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>IT スタッフに必要な情報が含まれていることを確認します。</li><li>新機能がリリースされるたびに、トレーニングと準備計画を再利用します。</li></ul>|
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>チームの展開とサポートに携わる可能性があると思われるすべてのサポートスタッフが参加しているか?</li><li>アップグレードの進捗に応じて、オンボードの追加のスタッフのトレーニング計画を作成しましたか?</li></ul> |
+| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>IT スタッフに必要な情報が含まれていることを確認します。</li><li>新機能がリリースされるたびに、トレーニングと準備計画を再利用します。</li></ul>|
 
 チームの IT スタッフを準備したら、環境がすべての[前提条件](upgrade-plan-journey-prerequisites.md)を満たしていることを確認します。

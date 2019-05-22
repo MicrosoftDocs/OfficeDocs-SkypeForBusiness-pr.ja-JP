@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams の会議の入退室通知をオンまたはオフにする方法について説明します。 '
-ms.openlocfilehash: 6a72269ccc57275a740cbffc338d5921fed35121
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bbf2ec391c35697fd7a3e7a273e82db03710bd7f
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293888"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344511"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Microsoft Teams で会議の入退室通知をオンまたはオフにする
 
@@ -38,7 +38,7 @@ Office 365 の電話会議をセットアップしている場合、電話会議
   
 ## <a name="setting-meeting-join-options"></a>会議の参加オプションの設定
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 

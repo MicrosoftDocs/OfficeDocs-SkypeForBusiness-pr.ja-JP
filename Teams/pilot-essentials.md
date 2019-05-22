@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb10808995cafe76056f4856a89b15b657e98ae9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b5e8ca2fd4067c8105ea9dce2e94729e20d835f7
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898676"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344155"
 ---
 ![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
@@ -41,8 +41,8 @@ ms.locfileid: "33898676"
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>パイロットを使ってプロジェクトの方向性を知らせる方法を教えてください。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>次のガイドラインを使用して、正式なパイロットを設計して実行します。</li></ul>|
+| ![判断ポイントを示すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>パイロットを使ってプロジェクトの方向性を知らせる方法を教えてください。</li></ul> |
+| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>次のガイドラインを使用して、正式なパイロットを設計して実行します。</li></ul>|
 
 > [!Tip]
 > サンプルの[試験的リソース](https://aka.ms/UpgradeSuccessKit)を使用して、コミュニケーション、テスト計画、フィードバックアンケートの設計を支援します。

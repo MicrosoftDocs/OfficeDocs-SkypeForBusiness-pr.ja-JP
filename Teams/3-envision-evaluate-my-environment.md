@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f91bde48311e12a6cdac63f7f855b1267b6e1f4
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 94138e30f9b98b9671b53ce64bfe67dd98b3216f
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401066"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344726"
 ---
 # <a name="evaluate-my-environment"></a>環境を評価する
 
@@ -45,8 +45,8 @@ ms.locfileid: "33401066"
 この情報を把握しておくと、組織がそのプロジェクト計画を適宜調整し、番号の移行に必要な情報を準備するのに役立ちます。 MyAdvisor から[の Microsoft Teams ロールアウトの環境検出](environmental-discovery-for-microsoft-teams-rollout.md)を使用して、環境検出を実行することができます。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>環境評価の完了責任者は誰ですか?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>環境評価の結果を文書化します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>環境評価の完了責任者は誰ですか?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>環境評価の結果を文書化します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -62,8 +62,8 @@ ms.locfileid: "33401066"
 次の考慮事項を使用して、ユーザーの変更管理に対処するための組織の準備を評価します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>ユーザーによるソフトウェアまたはサービスの導入が成功したことを確認しましたか?</li><li>利用状況の uptake を追跡することはできますか?</li><li>初期&mdash;および継続的&mdash;な導入キャンペーン (認識、トレーニング、サポート) を設計および管理するためのリソースがありますか?</li><li>専用ユーザーの導入と変更管理チームを持っているか、またはこれらのリソースに投資してビジネスの成果を得ることができますか。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>上記のすべて&quot;に&quot;対して [はい] と回答した場合は、適切なユーザー変更管理の関係者を特定し、ユーザーの準備計画を開始します。</li><li>上記の一部&quot;また&quot;はすべてに回答しなかった場合は、組織の変更管理と導入関連のアクティビティを支援するために、外部のリソースを利用することを検討してください。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>ユーザーによるソフトウェアまたはサービスの導入が成功したことを確認しましたか?</li><li>利用状況の uptake を追跡することはできますか?</li><li>初期&mdash;および継続的&mdash;な導入キャンペーン (認識、トレーニング、サポート) を設計および管理するためのリソースがありますか?</li><li>専用ユーザーの導入と変更管理チームを持っているか、またはこれらのリソースに投資してビジネスの成果を得ることができますか。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>上記のすべて&quot;に&quot;対して [はい] と回答した場合は、適切なユーザー変更管理の関係者を特定し、ユーザーの準備計画を開始します。</li><li>上記の一部&quot;また&quot;はすべてに回答しなかった場合は、組織の変更管理と導入関連のアクティビティを支援するために、外部のリソースを利用することを検討してください。</li></ol></td></tr>
 </table>
 
 
@@ -73,7 +73,7 @@ ms.locfileid: "33401066"
 
 Teams では、オーディオとビデオの技術 (コーデック) が使用されています。そのため、ほとんどのネットワーク条件で対応できます。 最適かつ一貫性のあるパフォーマンスを確保するために、Teams 用にネットワークを準備する必要があります。
 
-![品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。](media/evaluate-my-environment-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。")
+![品質の3つのコンポーネントとサービス管理の3つのコンポーネントの重なり方について説明した図](media/evaluate-my-environment-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。")
 
 ## <a name="key-takeaways"></a>重要なポイント
 
@@ -218,8 +218,8 @@ QoS (Quality of service) を使うと、トラフィックの優先順位付け�
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>すべてのネットワークセグメントと組織の場所で、適切なネットワーク評価を完了する責任は誰ですか?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認することができます。 詳細については、「<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>」を参照してください。</li><li>各ネットワークセグメントのネットワーク準備評価の結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>すべてのネットワークセグメントと組織の場所で、適切なネットワーク評価を完了する責任は誰ですか?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認することができます。 詳細については、「<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>」を参照してください。</li><li>各ネットワークセグメントのネットワーク準備評価の結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

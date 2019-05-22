@@ -1,6 +1,6 @@
 ---
 title: Office 365 グループおよび Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: phlouie
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a5e881d1c1d6631cd4b0660f5237aad088f9d1d
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: a104200d8138f65e84113e38b19527c070ea2f08
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868713"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344535"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 グループおよび Microsoft Teams
 =====================================

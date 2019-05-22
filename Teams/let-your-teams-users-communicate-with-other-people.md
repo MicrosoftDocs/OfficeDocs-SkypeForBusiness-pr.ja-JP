@@ -11,19 +11,19 @@ ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: ユーザーが別の組織のユーザーと通信できるように Teams を構成する方法を説明します。
-ms.openlocfilehash: c3faf65dd3f36c193a75e74e73d90bf5e9be11df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
-ms.translationtype: HT
+ms.openlocfilehash: 5da04eec6b8ce643f32639a014237ffe118aeabe
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222372"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343939"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Teams のユーザーが別の Teams 組織のユーザーとチャットおよび通信できるようにする
 
@@ -38,7 +38,7 @@ ms.locfileid: "32222372"
 こうすることで、他のユーザーがユーザーを検索し、ユーザーと通話し、インスタント メッセージを送信し、ユーザーとの会議を設定できるようになります。 外部のユーザーがチームとチャネルにアクセスできるようにする場合に適した方法は、ゲスト アクセスです。 この記事の手順に従って[ゲスト アクセスを有効にする](set-up-guests.md)と、ユーザーが通信できるようになります。
 
 > [!IMPORTANT]
-> 現在、組織外部の現在 AAD/テナントのゲストではない外部ユーザーに Microsoft Teams クライアント内でフェデレーションするには、ハイブリッド環境が正しく設定され、Skype for Business Online へ移行してある必要があります。 2019 年 2 月 25 日現在、SIP プロフィールのユーザーが Skype for Business Online に属している場合を除き、Teams ではネイティブのフェデレーションはまだサポートされていません。 ハイブリッド環境でアカウントを設定した後に Teams に移行する場合の詳細については、「[Skype for Business のハイブリッド展開を Teams にアップグレードする](https://docs.microsoft.com/ja-JP/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)」を参照してください。
+> 現在、組織外部の現在 AAD/テナントのゲストではない外部ユーザーに Microsoft Teams クライアント内でフェデレーションするには、ハイブリッド環境が正しく設定され、Skype for Business Online へ移行してある必要があります。 2019 年 2 月 25 日現在、SIP プロフィールのユーザーが Skype for Business Online に属している場合を除き、Teams ではネイティブのフェデレーションはまだサポートされていません。 ハイブリッド環境でアカウントを設定した後に Teams に移行する場合の詳細については、「[Skype for Business のハイブリッド展開を Teams にアップグレードする](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)」を参照してください。
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Teams のユーザーが別の Teams 組織のユーザーとチャットおよび通信できるようにする
 
@@ -50,7 +50,7 @@ ms.locfileid: "32222372"
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>手順 2 - 組織が別の Teams の組織と通信できるようにする設定
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
    1. 左側のナビゲーションで、[**組織全体の設定**]  >  [**外部アクセス**] に移動します。 
 

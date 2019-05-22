@@ -17,12 +17,12 @@ description: 組織内の Teams で使用されているデバイスを管理す
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20798daf34c4759b91c4926b209847aa51ddd668
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 76692714bbf58dca7bd74461bed4da34abf55c58
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199202"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344642"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Microsoft Teams でのデバイスを管理する
 
@@ -37,7 +37,7 @@ ms.locfileid: "32199202"
 
 ## <a name="manage-devices-in-teams"></a>Teams でデバイスを管理する
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで、[**デバイス** > の**管理**] に移動します。
 2. [**すべてのデバイス**] を選びます。  
@@ -64,7 +64,7 @@ ms.locfileid: "32199202"
 
 ::: zone target="docs"
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) Microsoft Teams & Skype for Business 管理センターを使用する
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) Microsoft Teams & Skype for Business 管理センターを使用する
 
 1. 左側のナビゲーションで、[**デバイス** > の**管理**] に移動します。
 
@@ -78,7 +78,7 @@ ms.locfileid: "32199202"
 
 ::: zone target="docs"
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) Microsoft Teams & Skype for Business 管理センターを使用する
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) Microsoft Teams & Skype for Business 管理センターを使用する
 
 1. 左側のナビゲーションで、[**デバイス** > の**管理**] に移動します。
 

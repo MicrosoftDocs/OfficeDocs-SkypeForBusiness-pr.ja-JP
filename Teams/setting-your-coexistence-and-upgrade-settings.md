@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55ed1396cd9c16b96e7d230429ccf25c1802473e
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: 52b398a9e70d650ad2afd70c60250076f1ab9fc2
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34298664"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344195"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードを設定する
 
@@ -37,7 +37,7 @@ Skype for Business ユーザーをアップグレードして Teams を使用す
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>組織内のすべてのユーザーに対してアップグレードオプションを設定する
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで、[**組織全体の設定** > ]**チームのアップグレード**に移動します。 
 
@@ -55,7 +55,7 @@ Skype for Business ユーザーをアップグレードして Teams を使用す
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>組織内の1人のユーザーに対してアップグレードオプションを設定する
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで [**ユーザー**] に移動し、リストからユーザーを選びます。 
 2. ユーザーの [**アカウント**] タブで、[**チームのアップグレード**] の下の [**編集**] をクリックします。
