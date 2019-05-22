@@ -140,7 +140,7 @@
 #### [ユーザーの設定が変更されるとユーザーに自動的に送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [特定のユーザーの無料電話番号を無効にする](disabling-toll-free-numbers-for-specific-teams-users.md)
-#### [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](outbound-calling-restriction-policies.md)
 #### [ユーザーに割り当てられた会議 ID の表示およびリセット](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
@@ -285,7 +285,7 @@
 #### [ボイスメールのデフォルト言語を変更する](change-the-default-language-for-greetings-and-emails.md)
 #### [ボイスメールの応答メッセージとメッセージで使用する言語](languages-for-voicemail-greetings-and-messages.md)
 ### 発信者番号
-#### [組織での発信者番号の利用方法](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [組織での発信者番号の利用方法](how-can-caller-id-be-used-in-your-organization.md)
 #### [ユーザーの発信者番号の設定](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 自動応答と呼び出しキュー 
 #### [クラウド自動応答とは](what-are-phone-system-auto-attendants.md)
@@ -336,7 +336,7 @@
 ### [ユーザー用の電話番号を取得する](getting-phone-numbers-for-your-users.md)
 ### [取得できる電話番号の数について](how-many-phone-numbers-can-you-get.md)
 ### [ユーザーの電話番号を割り当て、変更、または削除する](assign-change-or-remove-a-phone-number-for-a-user.md)
-### [サービス電話番号を取得する](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [サービス電話番号を取得する](getting-service-phone-numbers.md)
 ### [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)
 ### [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
 
