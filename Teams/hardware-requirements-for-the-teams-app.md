@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66a5b4a5ef64f83f61d106a6cd2052516cda95a7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 123dd884f2cbb2e2085c76df9739fa41349a8f1a
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235016"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330421"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 
@@ -40,7 +40,8 @@ ms.locfileid: "32235016"
 |.NET バージョン    |  .NET 4.5 CLR 以降が必要       |
 |ビデオ    |  USB 2.0 ビデオカメラ       |
 |デバイス    |   標準のラップトップカメラ、マイク、スピーカー    | 
-|ビデオ通話と会議 | ビデオ通話とオンライン会議の操作性を向上させるには、2.0 GHz プロセッサと 4.0 GB の RAM (以上) を搭載したコンピューターを使うことをお勧めします。 オプションの [背景ビデオのぼかし] では、高度なベクトル拡張機能 2 (AVX2) がサポートされているプロセッサが必要になります。
+|ビデオ通話と会議 | ビデオ通話とオンライン会議の操作性を向上させるには、2.0 GHz プロセッサと 4.0 GB の RAM (以上) を搭載したコンピューターを使うことをお勧めします。 オプションの [背景ビデオの**ぼかし**] では、高度なベクトル拡張機能 2 (AVX2) がサポートされているプロセッサが必要になります。 |
+|Teams ライブイベント | Teams live のイベントを生成する場合は、コア i5 Kaby Lake processor、4.0 GB RAM (以上)、ハードウェアエンコーダーを搭載したコンピューターを使うことをお勧めします。  |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac での Teams デスクトップアプリのハードウェア要件
 

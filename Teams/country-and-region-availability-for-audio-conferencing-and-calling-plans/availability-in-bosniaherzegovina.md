@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Skype for Business および Microsoft Teams の Office 365 サービスは、ボスニア・ヘルツェゴビナで利用できます。
-ms.openlocfilehash: c7326f72212965a5ebd628b3678c6d109969c4d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f75172efe76a4423872c321484855c8daf04ba9e
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283227"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34332181"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>ボスニア・ヘルツェゴビナでの利用可能性
 
@@ -71,7 +71,7 @@ Skype for Business および Microsoft Teams の Office 365 サービスは、�
 |有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。
+ 電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -83,7 +83,7 @@ Skype for Business および Microsoft Teams の Office 365 サービスは、�
   
 ## <a name="related-topics"></a>関連トピック
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

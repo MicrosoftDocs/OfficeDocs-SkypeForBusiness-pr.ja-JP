@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3867f7f2f9dd2f093b71ced40b0c07b6c5395041
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 6f7c36904aadf19802511979fa5e069b3c91035e
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400906"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330597"
 ---
 # <a name="make-my-service-decisions"></a>サービスの決定を行う
 
@@ -165,7 +165,7 @@ Office 365 の電話会議サービスには次が含まれます。
 
 -   [電話会議の電話番号](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
--   [サービス電話番号を取得する](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+-   [サービス電話番号を取得する](getting-service-phone-numbers.md)
 
 -   [Office 365 に電話番号を転送する](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 

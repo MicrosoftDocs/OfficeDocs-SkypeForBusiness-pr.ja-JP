@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: ダイヤルイン会議番号がある国と地域、およびそれらの番号の自動割り当て方法について説明します。
-ms.openlocfilehash: daa2312350be038153db168517a1d0f5bd7023cf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 73ba9a0f3627cf744679bf46d07019b1d7aa644b
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299118"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329552"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online の電話会議の電話番号
 
@@ -68,7 +68,7 @@ Skype for Business Online ユーザーが Outlook または Outlook Web App で�
 > [!CAUTION]
 > この国/地域の組織の有料電話番号の利用には制限があるため、これらの国/地域の組織では、電話会議の有料電話番号が自動的に割り当てられることはありません。 これらの場所からの無料電話番号は、利用可能なインベントリに応じて利用可能になります。 
   
-専用の電話会議の電話番号は、お客様が取得して組織に割り当てることができるサービス番号です。 サービス番号は、 **Skype For business 管理センター**を使用して見つけることができます。 詳細については、「[サービスの電話番号を取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)する」を参照してください。
+専用の電話会議の電話番号は、お客様が取得して組織に割り当てることができるサービス番号です。 サービス番号は、 **Skype For business 管理センター**を使用して見つけることができます。 詳細については、「[サービスの電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。
   
 電話番号が組織に自動的に割り当てられている国や地域のリストを確認するには、「[電話会議と通話プランを使用できる国および地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」を参照してください。
   

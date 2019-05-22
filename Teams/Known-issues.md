@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f52ffd975d671b71f098cb15c6dd7c8661c082d
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: 377d86bd71947588186979f20068b9e8927ccd3d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33994154"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287911"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -310,4 +310,4 @@ ms.locfileid: "33994154"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|編集後は、移動、削除またはファイル名を変更できません。  <br/> |MS teams でファイルを編集した後は、すぐに移動、名前の変更、または削除することができません <br/> |これは既知の問題で、回避策は管理者が変更を加える前に少し待機します。  <br/> |03/12119  <br/> |
+|編集後は、移動、削除またはファイル名を変更できません。  <br/> |Teams でファイルを編集した後は、すぐに移動、名前の変更、または削除することができません <br/> |これは既知の問題で、回避策は管理者が変更を加える前にしばらくお待ちください。  <br/> |2019 年 3 月 12 日  <br/> |

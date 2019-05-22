@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: クラウドの自動応答の概要とその使用方法について説明します。
-ms.openlocfilehash: 3dc96398cb2aa9ab3eafcc6e5d38ad2feb44b45b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299042"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330357"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>クラウドの自動応答とは？
 
@@ -236,7 +236,7 @@ Office 365 で電話システムの自動応答を設定するには、「[ク�
 
 Microsoft 通話プランサービス番号またはダイレクトルーティングハイブリッド番号を自動応答に割り当てることができます。 詳しくは、「[ダイレクトルーティングを計画](direct-routing-plan.md)する」をご覧ください。
 
-サービス番号を割り当てるには、既存の有料または無料のサービス番号を取得または移行する必要があります。 有料またはフリーダイヤルのサービス電話番号が表示されると、 <!-- validate nav path --> **Skype for business 管理センター** > **のボイス** > **電話番号**と、リストに記載されている**番号の種類**は、**有料サービス**として表示されます。 サービス番号を取得するには、「 [Skype For business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」を参照するか、既存のサービス番号を移行する場合は、「[電話番号を Office 365 に転送](transfer-phone-numbers-to-office-365.md)する」を参照してください。
+サービス番号を割り当てるには、既存の有料または無料のサービス番号を取得または移行する必要があります。 有料またはフリーダイヤルのサービス電話番号が表示されると、 <!-- validate nav path --> **Skype for business 管理センター** > **のボイス** > **電話番号**と、リストに記載されている**番号の種類**は、**有料サービス**として表示されます。 サービス番号を取得するには、「 [Skype For business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」を参照するか、既存のサービス番号を移行する場合は、「[電話番号を Office 365 に転送](transfer-phone-numbers-to-office-365.md)する」を参照してください。
   
 > [!NOTE]
 > 米国外の場合は、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。 その方法については[、「組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。
@@ -245,7 +245,7 @@ Microsoft 通話プランサービス番号またはダイレクトルーティ�
 
 [Office 365 の電話システムでできること](here-s-what-you-get-with-phone-system.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

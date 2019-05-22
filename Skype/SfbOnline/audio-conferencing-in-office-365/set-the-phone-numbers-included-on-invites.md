@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 2f9d7c6960eb70cff28a941903e0646197bc4c4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 53a733bf7874c507416c4cc54820cbebb4fbc844
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306312"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329542"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Skype for Business Onlineの招待状に含まれる電話番号を設定する
 
@@ -74,7 +74,7 @@ Office 365の電話会議では、組織内のユーザー はSkype for Business
    - **Microsoft がプロバイダーの場合**: [**既定の有料電話番号**] と [既定の無料**電話番号**] の一覧を使用して、ユーザーの既定の番号を選択します。
     
      > [!NOTE]
-     > ユーザーの既定の無料電話番号として設定できるようになるには、少なくとも 1 つの無料電話番号が会議ブリッジに割り当てられている必要があります。 無料電話番号を取得するには、「 [Skype For business のサービス電話番号を取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)する」を参照してください。 
+     > ユーザーの既定の無料電話番号として設定できるようになるには、少なくとも 1 つの無料電話番号が会議ブリッジに割り当てられている必要があります。 無料電話番号を取得するには、「 [Skype For business のサービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。 
   
    - **サードパーティがプロバイダーの場合**: [有料電話**番号**] と [**無料電話番号**] フィールドを使用して、ユーザーの番号を入力します。
 

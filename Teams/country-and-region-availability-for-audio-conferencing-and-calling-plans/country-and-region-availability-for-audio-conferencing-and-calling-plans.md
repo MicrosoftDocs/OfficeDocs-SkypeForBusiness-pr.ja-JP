@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: 51c5667330aec2881ce443600d311254655fe657
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d167a7d1072377b3eb8fab9d1958a46381500022
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286694"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330893"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -163,7 +163,7 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 ### <a name="phone-system"></a>電話システム
 電話システムでは、自分の組織の着信通話に応答させるために (有料電話番号または無料電話番号で) 自動応答や通話キューを作成することができます。また、ユーザーのために通話プランを追加すると、それらのユーザーは Skype for Business を使用して通話の発信と受信、通話の転送、ミュートとミュートの解除などの基本的な通話制御タスクを処理できるようになります。 **電話システム**のユーザーがアドレス帳の名前をクリックすると、Skype for Business によってその連絡先に通話が発信されます。 **電話システム**のユーザーは、Skype for Business で利用できるモバイル デバイス、ノート PC や PC のヘッドセット、さまざまな IP 電話を使って、通話の発信と受信を行うことができます。
 
-> これらの場所の一部では、有料電話番号の使用可能性が、在庫レベルによって随時変わる場合があります。 Office 365 から個々のユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジ用) や、自動応答および通話キューといったサービスのための有料電話番号または無料電話番号を検索して取得することもできます。 これらはサービス番号と呼ばれます。 「[サービス電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を取得して電話番号を取得する」を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 これらの電話番号を見つけるには、「[ユーザーの電話番号を取得](/microsoftteams/getting-phone-numbers-for-your-users)する」を参照してください。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)」をご覧ください。 
+> これらの場所の一部では、有料電話番号の使用可能性が、在庫レベルによって随時変わる場合があります。 Office 365 から個々のユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジ用) や、自動応答および通話キューといったサービスのための有料電話番号または無料電話番号を検索して取得することもできます。 これらはサービス番号と呼ばれます。 「[サービス電話番号](/microsoftteams/getting-service-phone-numbers)を取得して電話番号を取得する」を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 これらの電話番号を見つけるには、「[ユーザーの電話番号を取得](/microsoftteams/getting-phone-numbers-for-your-users)する」を参照してください。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)」をご覧ください。 
 
 [電話システムの料金](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -186,7 +186,7 @@ Office 365 から個々のユーザーの電話番号を取得することに加
   
 電話会議と通話プランで使用する有料サービス番号を取得できる首都および主要都市のリストを以下に示します。 [**Skype for Business 管理センター**] を使用して、これらの場所から有料サービス番号を取得することができます。
   
-有料または無料のサービス番号を取得するには、「[サービス電話番号を取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)する」を参照してください。 別のプロバイダーから移行したい有料サービス番号または無料サービス番号を既に持っている場合は、「[組織のための電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).」をご覧ください。
+有料または無料のサービス番号を取得するには、「[サービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。 別のプロバイダーから移行したい有料サービス番号または無料サービス番号を既に持っている場合は、「[組織のための電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).」をご覧ください。
 
 ページの上部にあるドロップダウン リストを使用して、国または地域を検索し、どのサービスを利用できるかを確認します。
 
@@ -198,7 +198,7 @@ Office 365 から個々のユーザーの電話番号を取得することに加
 
 
 ## <a name="related-topics"></a>関連トピック
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 
   
  
