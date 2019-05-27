@@ -287,6 +287,7 @@
 ### 発信者番号
 #### [組織での発信者番号の利用方法](how-can-caller-id-be-used-in-your-organization.md)
 #### [ユーザーの発信者番号の設定](set-the-caller-id-for-a-user.md)
+#### [発信回線 ID と発信者名の詳細](more-about-calling-line-id-and-calling-party-name.md)
 ### 自動応答と呼び出しキュー 
 #### [クラウド自動応答とは](what-are-phone-system-auto-attendants.md)
 #### [クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
