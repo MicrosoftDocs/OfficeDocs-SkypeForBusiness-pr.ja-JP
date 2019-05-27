@@ -18,17 +18,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb6ba92185d797e3925ad56c8747fd504f40dccd
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: 801c4f43e9aafa7fe8331d85b601afd584505164
+ms.sourcegitcommit: e5cb24ad166268392e692d3d1b92125646e5d66e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404228"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34417444"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Teams の会議アドインは、Microsoft Teams と Office 2013 または Office 2016 を自分の Windows PC にインストール済みのユーザーに対して、自動的にインストールされます。 Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。 
 
@@ -53,7 +51,7 @@ Teams の会議アドインでは、ユーザーが認証要件を使用して T
 
 ## <a name="enable-private-meetings"></a>プライベート会議を有効にする
 
-プラグインを展開するには、Microsoft Teams管理センターで [Allow scheduling for private meetings (プライベート会議の予約を許可する)]を有効にする必要があります。 管理センターで**Meetings** > **Meeting Policies**に行き、**一般的な**セクションで、**Allow scheduling private meetings**をオンに切り替えるます。)
+プラグインを展開するには、Microsoft Teams 管理センターで**プライベート会議のスケジュール**を有効にする必要があります。 管理センターで**Meetings** > **Meeting Policies**に行き、**一般的な**セクションで、**Allow scheduling private meetings**をオンに切り替えるます。)
 
 ![Microsoft Teams管理センターの設定のスクリーンショット。](media/teams-add-in-for-outlook-image1.png)
 
@@ -65,6 +63,8 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 ## <a name="other-considerations"></a>その他の考慮事項
 
 Teams の会議アドインは継続して機能が開発されていますので、次について認識しておいてください。
+- ポーリングはまだご利用いただけません。
+- ホワイトボードの展開が開始されます。
 - 会議のオプションは現時点では使用できません。
 - 現在のところ、会議に招待できるのは自分の会社内のユーザーのみで、外部ユーザーは会議に参加することができません。
 - このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。 チャネル会議は Teams 内でスケジュール設定される必要があります。 現在、Outlook の Teams の会議アドインを利用できるのは Windows ユーザーのみですが、Mac 向けのサポートも近日中に予定されています。
