@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: e779b3f9aaf5c88bb64e1045f5743e4c4a238d50
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18792e87b83f9ee69030a6d83fecdbb9513c6f73
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273729"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432605"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft を電話会議プロバイダーとして割り当てる
 
@@ -39,7 +39,7 @@ Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft を電話会議プロバイダーとして割り当てる
 
-### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Skype for Business 管理センターの使用
+### <a name="an-icon-showing-the-skype-for-business-logoimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![Skype for Business ロゴを示すアイコン](../images/sfb-logo-30x30.png) Skype for Business 管理センターの使用
 
 1. **Microsoft Teams 管理センター** > の**従来のポータル**に移動します。
     

@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0434804e7d0ec57ff4470fd8e9af23b73f8179f
-ms.sourcegitcommit: 8c4c180066d42ee41157ff0b80adc9610ad7312d
-ms.translationtype: HT
+ms.openlocfilehash: 0bf213b919ee0bea344807f932e16240587b2b84
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30769725"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433240"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 ============================================
@@ -32,11 +32,11 @@ ms.locfileid: "30769725"
 
 1. **[会議]** > **[会議ポリシー]** の順に選択します。
 
-    ![[会議ポリシー] を選択する](media/configure-desktop-sharing-image1.png)
+    ![会議ポリシーが選択されていることを示すスクリーンショット](media/configure-desktop-sharing-image1.png)
 
 2. **[会議ポリシー]** ページで、**[新しいポリシー]** を選択します。
 
-    ![新しいポリシーを選択する](media/configure-desktop-sharing-image2.png)
+    ![会議ポリシーのメッセージが表示されたスクリーンショット](media/configure-desktop-sharing-image2.png)
 
 3. ポリシーに一意のタイトルを指定し、簡単な説明を入力します。
 
@@ -46,7 +46,7 @@ ms.locfileid: "30769725"
    - **[1 つのアプリケーション]**: ユーザーの画面共有は 1 つのアクティブなアプリケーションに制限されます。
    - **[無効]**: 画面共有をオフにします。
 
-    ![画面共有モードを選択する](media/configure-desktop-sharing-image3.png)
+    ![共有モードのオプションを示すスクリーンショット](media/configure-desktop-sharing-image3.png)
 
 5. 次の設定をオンまたはオフにします。
 

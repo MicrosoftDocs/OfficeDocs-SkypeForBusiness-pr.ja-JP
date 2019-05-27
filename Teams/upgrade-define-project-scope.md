@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41f53385cb343ad967651741f44c60b410766aaa
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: eaba703faecb0d77db4cf6b858e10af5ba9231e2
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344634"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432937"
 ---
-![プロジェクト定義ステージに重点を置いたアップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクト定義ステージに重点を置いたアップグレードの段階")
+![プロジェクト定義ステージを強調表示したアップグレードの図](media/upgrade-banner-project-definition.png "プロジェクト定義ステージに重点を置いたアップグレードの段階")
 
 この記事は、アップグレード過程のプロジェクト定義の段階に含まれています。これは、チームメンバーからスポンサー協力者とプロジェクトチームを作成した後で、プロジェクトの成功の鍵となる活動です。 先に進む前に、次のアクティビティを完了していることを確認してください。
 

@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4c18bdd39e7978258c90bd4c757eb3e2e86a3b3
-ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
+ms.openlocfilehash: 254d6391aa828276df1c3b56fb62185c8f13d75a
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34082666"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432762"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -31,9 +31,9 @@ ms.locfileid: "34082666"
 Microsoft Teams には、Web、デスクトップ (Windows、Mac)、およびモバイル (Android、iOS) で利用できるクライアントがあります。これらのクライアントはすべてインターネット接続が必要で、オフライン モードをサポートしていません。
 
 > [!NOTE]
-> 2018 年 11 月 29 日付で、Microsoft Store から入手可能な Microsoft Teams の Windows 10 S (プレビュー) アプリが使用できなくなります。 代わりに、今すぐダウンロードして Windows 10 秒の各モードを実行しているデバイスにチームのデスクトップ クライアントをインストールします。 デスクトップ クライアントをダウンロードするには[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)です。 チームのデスクトップ クライアントの MSI ビルドはまだ Windows の 10 秒の各モードを実行しているデバイスで利用可能
+> 2018 年 11 月 29 日付で、Microsoft Store から入手可能な Microsoft Teams の Windows 10 S (プレビュー) アプリが使用できなくなります。 代わりに、Windows 10 S モードを実行しているデバイスに Teams デスクトップクライアントをダウンロードしてインストールできるようになりました。 デスクトップクライアントをダウンロードするには、 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)にアクセスしてください。 Teams デスクトップクライアントの MSI ビルドは、Windows 10 S モードを実行しているデバイスではまだ利用できません。
 >
-> Windows の 10 秒の各モードの詳細については、 [S モードでの Windows 10 の概要](https://www.microsoft.com/windows/s-mode)を参照してください。 
+> Windows 10 S モードの詳細については、「 [windows 10 を S モードで導入](https://www.microsoft.com/windows/s-mode)する」を参照してください。 
 
 <a name="desktop-client"></a>デスクトップ クライアント
 --------------
@@ -41,7 +41,7 @@ Microsoft Teams には、Web、デスクトップ (Windows、Mac)、およびモ
 > [!Tip]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-マイクロソフト チームのデスクトップ クライアントは、スタンドアロン アプリケーションでは、 [Office 365 用リソースの利用可能な](https://docs.microsoft.com/en-us/deployoffice/teams-install)も。 Microsoft Teams は、Windows (7 以上) の32 ビット、 64 ビット バージョン、および macOS (10.10 以上) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 
+Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションであり、 [Office 365 ProPlus でも利用でき](https://docs.microsoft.com/en-us/deployoffice/teams-install)ます。 Microsoft Teams は、Windows (7 以上) の32 ビット、 64 ビット バージョン、および macOS (10.10 以上) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
@@ -129,13 +129,13 @@ Microsoft Teams モバイル アプリのサポートされるモバイル プ�
 
 | | | |
 |---------|---------|---------|
-|![判断ポイント アイコン。](media/Get_clients_for_Microsoft_Teams_image4.png)      |判断ポイント         |ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?         |
-|![次のステップ アイコン。](media/Get_clients_for_Microsoft_Teams_image5.png)     |次のステップ         |組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。         |
+|![判断ポイントを示すアイコン](media/Get_clients_for_Microsoft_Teams_image4.png)      |判断ポイント         |ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?         |
+|![次の手順を示すアイコン](media/Get_clients_for_Microsoft_Teams_image5.png)     |次のステップ         |組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。         |
 
 <a name="client-update-management"></a>クライアントの更新管理
 ------------------------
 
-クライアントは現在によって自動的に更新、マイクロソフトのチームのサービスに必要な IT 管理者の介入なしにします。 更新が利用可能な場合は、クライアントが自動的に更新プログラムをダウンロードしと、アプリケーションは、一定の時間のアイドリングが、更新プロセスが開始します。
+現在、クライアントは、IT 管理者による介入を必要とせずに、Microsoft Teams サービスによって自動的に更新されます。 更新プログラムが利用可能な場合、クライアントは更新プログラムを自動的にダウンロードします。アプリの有効期限 led が一定期間続いた場合は、更新プロセスが開始されます。
 
 <a name="client-side-configurations"></a>クライアント側の設定
 ---------------------------

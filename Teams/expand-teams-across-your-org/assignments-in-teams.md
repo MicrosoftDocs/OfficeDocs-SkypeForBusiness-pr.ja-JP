@@ -15,12 +15,12 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 263b9dda6929bd6956df803a33764634808cddf3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 188f4398136c2939ad2a84d75ab27942a5a4593b
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914024"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433432"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
@@ -63,13 +63,13 @@ Turnitin は、plagiarism の検出サービスです。 これは、サード�
 この情報を取得するための手順をいくつか紹介します。
 
 TurnitinApiUrl は、管理コンソールのホストアドレスです。
-![TurnItInApiUrl の検索](./educationImages/Assignments_mopo_turnitin1.png)
+![ホストアドレスを示すスクリーンショット](./educationImages/Assignments_mopo_turnitin1.png)
 
 [インテグレーション] タブに移動して、統合機能を追加します。
-![TurnItInApiUrl の検索](./educationImages/Assignments_mopo_turnitin2.png)
+![新しい統合の追加を示すスクリーンショット](./educationImages/Assignments_mopo_turnitin2.png)
 
 プロンプトが表示された後、TurnitinApiKey が提供されます。 このキーをコピーして、Microsoft Teams 管理センターに貼り付けます。 
-![TurnItInApiUrl の検索](./educationImages/Assignments_mopo_turnitin3.png)
+![API キーのコピーを示すスクリーンショット](./educationImages/Assignments_mopo_turnitin3.png)
 
 [Turnitin と Microsoft Teams の統合の詳細については、こちらを参照してください。](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 

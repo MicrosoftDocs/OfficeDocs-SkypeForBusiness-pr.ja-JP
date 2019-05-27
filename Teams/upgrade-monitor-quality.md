@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bafbb57f57f30d764e12877513395f17b3c1300e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a64e374e674fed4c6efe267d6559a260dce960e1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885484"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432913"
 ---
-![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")
+![アップグレード過程のオペレーショナルエクセレンスステージを強調した図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
 この記事は、Skype for Business から Teams へのアップグレードが完了したらすぐに、アップグレードの過程のオペレーショナルエクセレンスステージの一部です。
 
@@ -30,7 +30,7 @@ ms.locfileid: "33885484"
 
 [品質経験レビューガイド](https://aka.ms/qerguide)には、以下に示すように、ユーザーエクスペリエンスを向上させるための最も大きな影響を受ける主要な領域の一連のアクティビティが含まれています。
 
-![音質のレビュー中に、音声、信頼性、ユーザー調査の結果について調べる主要な領域。](media/plan-my-service-management-image2.png "音質のレビュー中に、音声、信頼性、ユーザー調査の結果について調べる主要な領域。")
+![レビュー中に確認する主要な領域の図。](media/plan-my-service-management-image2.png "音質のレビュー中に、音声、信頼性、ユーザー調査の結果について調べる主要な領域。")
 
 ガイドで説明されている領域を継続的に評価してを修復するすることで、ユーザーエクスペリエンスに悪影響を及ぼす可能性を減らすことができます。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 

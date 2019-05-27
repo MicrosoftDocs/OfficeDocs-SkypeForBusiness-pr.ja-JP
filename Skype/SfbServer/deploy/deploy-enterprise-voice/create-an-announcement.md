@@ -1,10 +1,10 @@
 ---
-title: 作成またはビジネス サーバーの Skype でお知らせを削除します。
+title: Skype for Business Server でお知らせを作成または削除する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype のアプリケーションを発表のお知らせを削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
-ms.openlocfilehash: 79298dbe415071d9d773375f524dff95516cc4fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server Enterprise Voice でお知らせアプリケーションのお知らせを作成または削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
+ms.openlocfilehash: 6160631473a2ead839346e53f9f63294a7959289
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893008"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289077"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype でお知らせを削除します。
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Skype for Business Server でお知らせを作成または削除する
 
-作成またはビジネス サーバーのエンタープライズ VoIP の Skype のアプリケーションを発表のお知らせを削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
+Skype for Business Server Enterprise Voice でお知らせアプリケーションのお知らせを作成または削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
 
 アナウンスを構成した場合、実際にはそれは割り当てられていない番号への通話の処理方法を構成することになります。オーディオ ファイルまたは音声合成 (TTS) ファイルによる音声ガイダンスを再生するか、または音声ガイダンスを再生することなく、ただ指定した宛先へ呼び出しを転送することもできます。
 
@@ -50,7 +50,7 @@ ms.locfileid: "33893008"
 
 1. 音声ガイダンスの場合は、オーディオ ファイルを作成します。
 
-2. RTCUniversalServerAdmins グループのまたは**セットアップ アクセス許可の委任**で説明したように必要なユーザー権限を持つメンバーとしてビジネス サーバー管理シェルの Skype がインストールされているコンピューターにログオンします。
+2. Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとしてインストールされているコンピューターにログオンするか、「**代理人セットアップアクセス許可**」で説明するように、必要なユーザー権限を設定します。
 
 3. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
 
@@ -82,13 +82,13 @@ ms.locfileid: "33893008"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   **TextToSpeechPrompt**パラメーターで使用する言語コードの一覧を表示してこれらのコマンドレットについての詳細については、[新規 CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)を参照してください。
+   これらのコマンドレットについて詳しくは、「 **TextToSpeechPrompt**パラメーターで使う言語コードの一覧を表示する」を[](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)ご覧ください。
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>割り当てられていない番号のアナウンスの削除
 
 ### <a name="to-delete-an-announcement"></a>アナウンスを削除するには
 
-1. RTCUniversalServerAdmins グループのまたは**セットアップ アクセス許可の委任**で説明したように必要なユーザー権限を持つメンバーとしてビジネス サーバー管理シェルの Skype がインストールされているコンピューターにログオンします。
+1. Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとしてインストールされているコンピューターにログオンするか、「**代理人セットアップアクセス許可**」で説明するように、必要なユーザー権限を設定します。
 
 2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
 
@@ -111,17 +111,17 @@ ms.locfileid: "33893008"
    ```
 
     > [!NOTE]
-    > 詳細オプションの詳細については、 [Get CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)と[削除 CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)を参照してください。
+    > その他のオプションの詳細については、「 [csannouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)と Csannouncement の[削除](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)」を参照してください。
 
 ## <a name="see-also"></a>関連項目
 
-[作成またはビジネス サーバーの Skype でお知らせを削除します。](create-an-announcement.md)
+[Skype for Business Server でお知らせを作成または削除する](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[新しい-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[新しい CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 
-[削除 CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
+[CsAnnouncement の削除](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
-[Get CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
+[CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
 

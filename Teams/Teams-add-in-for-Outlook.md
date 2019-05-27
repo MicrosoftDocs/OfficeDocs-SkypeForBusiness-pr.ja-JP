@@ -7,7 +7,7 @@ audience: Admin
 ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams は、ユーザーが  Outlook から Teams の会議をスケジュール設定することができるようになるアドインを Outlook にインストールします。
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 624e6a72daae12d0e40b351cea6039fbe5eb432b
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: fb6ba92185d797e3925ad56c8747fd504f40dccd
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33994136"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404228"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -40,7 +40,7 @@ Teams の会議アドインは、Microsoft Teams と Office 2013 または Offic
 Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
 
 > [!NOTE]
-> 16.20 と後で、Outlook は本番環境のビルドを実行している場合、Mac のリボンは Outlook で Outlook for Mac で、チーム会議] ボタンが表示されます。
+> Outlook で運用ビルド16.20 以降を実行している場合、outlook for Mac の [Teams 会議] ボタンが outlook for Mac リボンに表示されます。
 
 ## <a name="authentication-requirements"></a>認証要件
 
@@ -65,7 +65,6 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 ## <a name="other-considerations"></a>その他の考慮事項
 
 Teams の会議アドインは継続して機能が開発されていますので、次について認識しておいてください。
-- 記録、投票、ホワイトボードの使用などの、一部のオンライン会議の機能はまだ利用できません。
 - 会議のオプションは現時点では使用できません。
 - 現在のところ、会議に招待できるのは自分の会社内のユーザーのみで、外部ユーザーは会議に参加することができません。
 - このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。 チャネル会議は Teams 内でスケジュール設定される必要があります。 現在、Outlook の Teams の会議アドインを利用できるのは Windows ユーザーのみですが、Mac 向けのサポートも近日中に予定されています。

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: ユーザーが別の組織のユーザーと通信できるように Teams を構成する方法を説明します。
-ms.openlocfilehash: 5da04eec6b8ce643f32639a014237ffe118aeabe
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: d974197f6daedab030124dfc1117610e3504ae32
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343939"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433192"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Teams のユーザーが別の Teams 組織のユーザーとチャットおよび通信できるようにする
 
@@ -79,7 +79,7 @@ ms.locfileid: "34343939"
 
 お客様の組織の Teams ユーザーが、組織のユーザーに連絡できる相手を制限している Skype for Business Online の組織のユーザーを検索して連絡できる設定になっている場合は、その組織の管理者に次の手順の実行を依頼します。
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する** 
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン 
 
 その組織の管理者に、次の手順を実行するよう依頼します。
     

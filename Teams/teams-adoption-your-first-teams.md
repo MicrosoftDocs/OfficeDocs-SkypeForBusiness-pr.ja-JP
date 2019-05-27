@@ -10,56 +10,56 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 製品を使用してチームの採用を推進するための方法を説明します。
+description: 製品を使用して Teams の導入を推進する方法について説明します。
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1393e708148d5a7f0f165844075c7cd3ac8a4856
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77b9bb8283b7a032bb15556521200683e3bd9ccd
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930351"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433049"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft Teams で最初のチームを作成する
 
-チームの採用を推進する最良の方法では、製品を使用します。 チームと Office 365 の展開を管理することをお勧めします。 チームワークと生産性に重点を置く従業員のコミュニティを作成することもする必要があります。 (これらの初期のチームは時間の経過とともに変更可能性があります)。いくつか提案されているチームは次のとおりです。
+チームの導入を推進する最良の方法は、製品を使用することです。 Office 365 の展開は Teams で管理することをお勧めします。 また、チームワークと生産性に重点を置いている従業員のコミュニティも作成する必要があります。 (これらの初期チームは、時間の経過と共に変化する可能性があります)。おすすめのチームの一部を次に示します。
 
-| チーム名 | 提案されたチャネル名 |
+| チーム名 | 提示されたチャネル名 |
 | --------- | ---------------------- |
-| チームを理解します。 | General</br> Say hi</br> どうすればいいですか。</br>Feedback </br> Ideas for future teams </br> Support |
-| マイクロソフト チームの実装 | General <br/> 認識および採用 <br/> ビジネス活動 <br/> 早期採用プログラム <br/> フィードバックと情報 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービスの稼働状態および障害 <br/> トレーニング <br/> Watercooler のチャット |
-| チームワークのエキスパート | General <br/> ベスト ・ プラクティス、トレーニング、および方法 <br/> 精鋭コーナー <br/> フィードバックとサポート <br/> プログラムの潜在顧客 <br/> 社会ハブ |
+| チームを理解する | General</br> Say hi</br> 方法を教えてください。</br>Feedback </br> Ideas for future teams </br> Support |
+| Microsoft Teams の実装 | General <br/> 認知度と導入 <br/> ビジネスエンゲージメント <br/> 早期導入プログラム <br/> フィードバックと分析 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービス正常性とインシデント <br/> トレーニング <br/> Watercooler チャット |
+| チームワークエキスパート | General <br/> ベストプラクティス、トレーニング、および使い方 <br/> 精鋭コーナー <br/> フィードバックとサポート <br/> プログラムの潜在顧客 <br/> ソーシャルハブ |
 
-マイクロソフトのチーム内で[タブのギャラリー](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview)すべての Office 365 と、管理者が有効になっているサードパーティ製アプリケーションにアクセスできます。 お使いの製品からのほとんどの値を取得するには、適切なチャネルのそれぞれのタブとしての重要なリソースの固定をお勧めします。 次の例を参照してください。
+Microsoft Teams では、 [](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview)管理者によって有効になっているすべての Office 365 とサードパーティ製のアプリにアクセスできます。 製品の最大値を取得するには、適切な各チャネルのタブとしてキーリソースをピン留めすることをお勧めします。 次の例を参照してください。
 
-![既定およびカスタムのタブ](media/teams-adoption-tab-example.png)
+![既定のタブとカスタムタブを示すスクリーンショット](media/teams-adoption-tab-example.png)
 
-最初のチームで、チームのチャンネルを簡単に参照できるように、次の項目を固定することをお勧めします。 だけでなく、OneNote ノートブックのセクションは、これらの資産です。 Fasttrack というチームを使用している場合に役立つこれら最初のチームを構成します。 
+最初のチームでは、チームチャネルで簡単に参照できるように、次の項目をピン留めすることをお勧めします。 これらのアセットは、OneNote ノートブックのセクションに追加されています。 FastTrack チームで作業している場合は、最初のチームを構成するのに役立ちます。 
 
-|チーム/チャンネル名 | 固定タブ |
+|チーム/チャネル名 | 固定されたタブ |
 |----------------- | ---------- |
-| **マイクロソフトのチームの配置** ||
-| General | [Web] タブ:[チームのドキュメント](https://aka.ms/SuccessWithTeams) |
-| 認識および採用 | [チーム採用ハブ](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams カスタマー サクセス キット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
-| ビジネス活動 | Wiki – 活動の手引き<br/>フォーム – チーム協議の要求<br/>活動要求の一覧。 |
-|初期採用者 | 固定されたフィードバックのコミュニティ <br/> OneNote のよく寄せられる質問と共通のテーマ |
-| フィードバックおよびレポート作成 | (Office 365 の管理者の場合のみ) をピン設定された Office 365 利用状況のレポート |
-| セキュリティとコンプライアンス | マイクロソフト セキュリティ ポータル <br/> [セキュリティおよびコンプライアンス ・ マニュアル](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
-| 戦略と計画 | 北星 PowerPoint のコラボレーション <br/> サービスの導入プロジェクトの計画 |
-| トレーニング | 学習トレーニング ポータル カスタム <br/> [チームのオンライン トレーニング](https://aka.ms/TeamsTraining) |
-| **チームワークのエキスパート**|  |
-| General | プログラムのお知らせの使用 <br/> 暗証番号 (pin) の精鋭プログラムの概要 |
-| ベスト プラクティス | ベスト ・ プラクティスのチームは、チャネルのと、PowerPoint のチャット <br/> チームのライフ サイクル |
-| 精鋭コーナー | 議事録とプレゼンテーション |
-| 社会ハブ | RSS コネクタ: チームのブログと駆動の採用ブログ |
-| トレーニング方法 | トレーニング ポータル リンク |
+| **Microsoft Teams の展開** ||
+| General | [Web] タブ:[チームドキュメント](https://aka.ms/SuccessWithTeams) |
+| 認知度と導入 | [Teams の導入ハブ](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams カスタマー サクセス キット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
+| ビジネスエンゲージメント | Wiki –契約ガイダンス<br/>フォーム– Teams の相談要求<br/>リスト–契約要求 |
+|最早採用 | 固定されたフィードバックのコミュニティ <br/> OneNote for FAQ と一般的なテーマ |
+| フィードバックと報告 | 固定された Office 365 使用状況レポート (Office 365 管理者のみ) |
+| セキュリティとコンプライアンス | Microsoft 信頼ポータル <br/> [セキュリティとコンプライアンスに関するドキュメント](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| 戦略と計画 | 共同作業用の北 Star PowerPoint <br/> サービス導入プロジェクト計画 |
+| トレーニング | カスタム学習トレーニングポータル <br/> [Teams online のトレーニング](https://aka.ms/TeamsTraining) |
+| **チームワークエキスパート**|  |
+| General | プログラムアナウンスに使用する <br/> ピンのチャンピオンプログラムの概要 |
+| ベスト プラクティス | チーム、チャネル、およびチャットの PowerPoint のベストプラクティス <br/> チームのライフサイクル |
+| 精鋭コーナー | 会議のメモとプレゼンテーション |
+| ソーシャルハブ | RSS コネクタ: Teams ブログと運転促進ブログ |
+| トレーニングとその方法 | トレーニングポータルへのリンク |
 
-## <a name="making-the-switch-to-microsoft-teams"></a>マイクロソフトのチームにスイッチを加えること。
+## <a name="making-the-switch-to-microsoft-teams"></a>Microsoft Teams への切り替え
 
-チームを使用することを開始するとして、チームの他のプロジェクト チーム チャット、チャネル、およびリソースを使用してプロジェクトを実行することにコミットするために重要になります。 チームの使用状況は、採用プロジェクトの品質が重要です。 電子メールでコア プロジェクト チームとの会話を続けることにより、プロジェクトを分割に抵抗することをお勧めします。 チームに切り替えることによって、従業員を採用するが最終的に目的の動作をモデル化するが。 トーンを設定、最初、移動し、プロジェクト情報を 1 か所で楽しむ!  
+Teams の使用を開始すると、チームのチャット、チャネル、リソースを使用してプロジェクトを実行するために、プロジェクトチームの残りの部分が重要になります。 チームの実際の使用は、導入プロジェクトの品質にとって重要です。 メールでコアプロジェクトチームとの会話を続けて、プロジェクトの断片化を防ぐことをお勧めします。 Teams に切り替えることで、従業員が最終的に採用する動作をモデル化します。 まずトーンを設定してから、プロジェクト情報を1か所でお楽しみください。  
 
-![次の手順を実行アイコン](media/teams-adoption-next-icon.png)次:[マイクロソフト チームの組織は、どのように準備ができて?](teams-adoption-assess-readiness.md)
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン: [Microsoft Teams の組織はどのように準備されていますか?](teams-adoption-assess-readiness.md)

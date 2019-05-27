@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: bea3a508b91c83b009636aa8ee48a2add996b3ea
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 532cfe380a9f61043e38768c4c5d7d9c9fa8e9a6
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281864"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433392"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business と Microsoft Teams のデータ収集方法
 
@@ -103,10 +103,10 @@ Skype 会議アプリと Join Launcher Web ページでは、利用統計情報�
 
 - サーバーまたはテナント管理センターで、Disable自動 Sendtracing グループポリシー設定が False に設定されています (既定の状態)。 詳細については、「[クライアントブートストラップポリシーを構成する](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)」を参照してください。
     
-- エンドユーザーは、[全般] タブで個別にオプトインすること![ができ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)ます (歯車アイコンの歯車アイコンをクリックすると、[**全般**] タブが表示されて [**オプション**] ダイアログが開き、Skype for business クライアントに表示されます)。
+- エンドユーザーは、[全般] タブで個別にオプトインすること![ができます (歯車アイコン](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)をクリックすると歯車を表すアイコンが表示され、[**オプション**] ダイアログボックスには、Skype for business クライアントの [**全般**] タブが表示されます)。
     
  
-![Skype for Business data collection checkbox in the Options > General dialog](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![[オプション] ダイアログの [データ収集] チェックボックスのスクリーンショット](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 Skype 会議アプリでは、MeetingUxEnableTelemetry によってエラー報告も制御されます。ただし、Windows のクラッシュに関しては Watson 設定によってクラッシュ情報のアップロードが制御されます。Skype 会議アプリには、デスクトップ クライアントのダイアログ ボックスのようにユーザー設定はありません。
 

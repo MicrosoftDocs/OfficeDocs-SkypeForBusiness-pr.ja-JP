@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c7bf332c3d85445ccb9bcfe41e6d7417948ca15
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: c189ba7c3e814b3bbe37fea92f740e9fe873af86
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344610"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432596"
 ---
 # <a name="plan-my-users-experience"></a>ユーザーエクスペリエンスを計画する
 
@@ -40,7 +40,7 @@ Teams の主な利点の1つは、クライアントが自動的に最新の状�
 
 以下の図に示すように、エンドポイントはユーザー向けの品質向上のための重要な文書パーツです。
 
-![品質の3つのコンポーネントとサービス管理の3つのコンポーネントの重なり方について説明した図](media/plan-my-users-experience-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。エンドポイントにフォーカスがある状態。")
+![品質の3つの構成要素について説明した図](media/plan-my-users-experience-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。エンドポイントにフォーカスがある状態。")
 
 Teams のエンドポイントは、Pc、Mac、タブレット、モバイルデバイスなど、さまざまなデバイスで実行できます。 エクスペリエンスの一部では、デバイスだけでなく、デバイスの内蔵マイク/スピーカー、earbuds、最適化されたヘッドセットの使用など、ユーザーがデバイスに接続する方法についても説明します。 最適化されたヘッドセットを使用すると、全体的なユーザー エクスペリエンスが向上します。
 

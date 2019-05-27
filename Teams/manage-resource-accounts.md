@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft Teams でリソースアカウントを管理する方法について説明します。
-ms.openlocfilehash: f2c7b03f79a29b89c94266359f21571b1994e82a
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: a136a91fc4667ac71f6c6798ce4a0953aa0c32a6
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334928"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404303"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -49,14 +49,15 @@ Microsoft Teams または Skype for Business Online では、各通話キュー�
 
 > [!NOTE]
 > 自動応答と通話キューのリソースアカウントに割り当てられている直接ルーティングサービス番号は、Microsoft Teams ユーザーとエージェントに対してのみサポートされます。
->
+
+> [!NOTE]
 > Microsoft は、クラウド自動応答や通話キューなどのアプリケーションに適切なライセンスモデルを開発しています。これで、ユーザーライセンスモデルを使用する必要があります。
->
-> 組織内のユーザーにオンラインで接続されているユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要です。また、エンタープライズボイスに対して有効になっているか、Office 365 通話プランを持っている必要があります。 「 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)」を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。
->
-> ユーザー (サブスクライバー) の電話番号をリソースアカウントに割り当てることはできません。 サービスの有料電話番号または無料電話番号のみを使用できます。
->
-> 米国外の場合は、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。 「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」に移動して、米国以外の地域での実行方法を確認します。
+
+組織内のユーザーにオンラインで接続されているユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要です。また、エンタープライズボイスに対して有効になっているか、Office 365 通話プランを持っている必要があります。 「 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)」を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。
+
+ユーザー (サブスクライバー) の電話番号をリソースアカウントに割り当てることはできません。 サービスの有料電話番号または無料電話番号のみを使用できます。
+
+米国外の場合は、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。 「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」に移動して、米国以外の地域での実行方法を確認します。
 
 ### <a name="phone-numbers"></a>電話番号
 

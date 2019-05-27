@@ -15,12 +15,12 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e58bfdcff9b87d343de39f00e6ac45254203092b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 96fb3a0031b27b331dbc6424650f101b0f0a34f3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343931"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433097"
 ---
 # <a name="define-my-success"></a>成功を定義する
 
@@ -94,8 +94,8 @@ ms.locfileid: "34343931"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> |判断のポイント|<ul><li>組織で識別できる電話会議のビジネスユースケースにはどのようなものがありますか?</li><li>組織で識別できるプランを呼び出すビジネスユースケースにはどのようなものがありますか?</li><li>直接ルーティングのビジネスユースケースは、組織内で特定できますか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|次のステップ|<ul><li>組織の電話会議のすべてのビジネスユースケースを文書化します。</li><li>組織のプランを呼び出すためのすべてのビジネスユースケースを文書化します。</li><li>組織で直接ルーティングするために、すべてのビジネスユースケースを文書化します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |判断のポイント|<ul><li>組織で識別できる電話会議のビジネスユースケースにはどのようなものがありますか?</li><li>組織で識別できるプランを呼び出すビジネスユースケースにはどのようなものがありますか?</li><li>直接ルーティングのビジネスユースケースは、組織内で特定できますか?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次のステップ|<ul><li>組織の電話会議のすべてのビジネスユースケースを文書化します。</li><li>組織のプランを呼び出すためのすべてのビジネスユースケースを文書化します。</li><li>組織で直接ルーティングするために、すべてのビジネスユースケースを文書化します。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -129,8 +129,8 @@ ms.locfileid: "34343931"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|判断のポイント|<ul><li>組織の各主要関係者の役割については、だれが入力しますか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|次のステップ|<ul><li>主要な関係者全員を文書化し、役割の責任と期待をそれぞれの担当者に伝えます。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|判断のポイント|<ul><li>組織の各主要関係者の役割については、だれが入力しますか?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次のステップ|<ul><li>主要な関係者全員を文書化し、役割の責任と期待をそれぞれの担当者に伝えます。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -222,8 +222,8 @@ KSIs を定義する際には、"特定、測定可能、割り当て可能、�
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|判断のポイント|<ul><li>Organization& # 39 の OKRs と KSIs は何ですか?</li><li>組織での電話会議の実装に関連して特定したリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li><li>組織の通話プランの実装に関連していると判断したリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li><li>組織内の直接ルーティングの実装に関連すると判断されたリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|次のステップ|<ul><li>OKRs と KSIs を文書化し、リスク登録を確立します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|判断のポイント|<ul><li>Organization& # 39 の OKRs と KSIs は何ですか?</li><li>組織での電話会議の実装に関連して特定したリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li><li>組織の通話プランの実装に関連していると判断したリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li><li>組織内の直接ルーティングの実装に関連すると判断されたリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次のステップ|<ul><li>OKRs と KSIs を文書化し、リスク登録を確立します。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -263,8 +263,8 @@ KSIs を定義する際には、"特定、測定可能、割り当て可能、�
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|判断のポイント|<ul><li>組織に運営委員会が必要かどうかを決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|次のステップ|<ul><li>運営委員会のメンバーを特定します。</li><li>運営委員会の会議をスケジュールします。</li><li>運営委員会会議の準備を行う。</li><li>運営委員会の会議を開催する。</li><li>運営委員会の会議の入力に基づいてアクションを実行します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|判断のポイント|<ul><li>組織に運営委員会が必要かどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次のステップ|<ul><li>運営委員会のメンバーを特定します。</li><li>運営委員会の会議をスケジュールします。</li><li>運営委員会会議の準備を行う。</li><li>運営委員会の会議を開催する。</li><li>運営委員会の会議の入力に基づいてアクションを実行します。</li></ul>|
 
 適切な運営委員会の運営方法に関するその他の詳細なガイダンスは、[運営委員会のガイド](envision-steering-committee-complete-guide.md)に記載されています。
 

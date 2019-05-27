@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 組み込みタブやカスタム タブを使用して会話、ファイル、地図などの機能を追加する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e63cbe83214f9323692804b7d297de9091aceef0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 461e61033cc0d201d0477bec2ff9ec66df0541d1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235144"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432921"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft Teams で組み込みタブとカスタム タブを使用する
 ==================================================
@@ -49,7 +49,7 @@ ms.locfileid: "32235144"
 
 - 詳細な手順は、チームメンバーが自分のチャネルまたはチャットにカスタムタブを追加しようとしたときに表示されます。 チャネルにカスタムタブを追加すると、タブの**会話**が作成されます。これにより、チームメンバーはコンテンツについて重点的にディスカッションを行うことができます。
 
-    ![ウィンドウの右側にあるタブの会話が含まれているカスタム タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![右側にタブの会話があるカスタムタブのスクリーンショット](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 ## <a name="develop-custom-tabs"></a>カスタム タブを開発する
 

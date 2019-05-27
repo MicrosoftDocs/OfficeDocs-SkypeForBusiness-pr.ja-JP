@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 組織でスケジュールされているユーザーのチーム会議の設定を管理する方法について説明します。
-ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: ff47c1315dd56369d9a00d0afad952b80520abf3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344878"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433152"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -38,7 +38,7 @@ ms.locfileid: "34344878"
 1. 左側のナビゲーションで、[**会議** > の**会議の設定**] に移動します。
 2. [**参加者**] の下で、[**匿名ユーザーが会議に参加できるよう**にする] をオンにします。
 
-    ![meeting-settings-participants](media/meeting-settings-participants.png "Microsoft teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
+    ![管理センターでの会議の参加者設定のスクリーンショット](media/meeting-settings-participants.png "Microsoft teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
 
 組織内のユーザーによってスケジュールされている会議に匿名ユーザーが会議に参加しないようにするには、この設定をオフにします。
 
@@ -59,7 +59,7 @@ ms.locfileid: "34344878"
 1. 左側のナビゲーションで、[**会議** > の**会議の設定**] に移動します。
 2. [**電子メールの招待状**] で、次の操作を行います。
 
-    ![meeting-settings-invitation](media/meeting-settings-invitation.png "チーム会議用にカスタマイズできる会議出席依頼の設定のスクリーンショット")
+    ![カスタマイズできる会議出席依頼の設定のスクリーンショット](media/meeting-settings-invitation.png "チーム会議用にカスタマイズできる会議出席依頼の設定のスクリーンショット")
 
     - **ロゴ URL**ロゴが保存されている URL を入力します。
     - **法的**情報の URL法的な懸念事項についてユーザーに連絡する法的 web サイトが組織にある場合は、URL をここに入力します。
@@ -78,7 +78,7 @@ Qos (Quality of Service [)](qos-in-teams.md)を使ってネットワークトラ
 1. 左側のナビゲーションで、[**会議** > の**会議の設定**] に移動します。
 2. [**ネットワーク**] で、次の操作を行います。
 
-    ![meeting-settings-network](media/meeting-settings-network.png "Microsoft teams 管理センターの teams 会議のネットワーク設定のスクリーンショット")
+    ![管理センターでの会議のネットワーク設定のスクリーンショット](media/meeting-settings-network.png "Microsoft teams 管理センターの teams 会議のネットワーク設定のスクリーンショット")
 
     - QoS に DSCP マーキングを使用できるようにするには、**リアルタイムメディアトラフィックの [サービス品質 (QoS) マーカーの挿入**] を有効にします。 マーカーを使用するかどうかは選択できません。トラフィックの種類ごとにカスタムマーカーを設定することはできません。 詳細については[、「QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)」を参照してください。
     - ポート範囲を指定するには****、[ポート範囲の指定] の横にある [ポート範囲の**指定**] を選択し、オーディオ、ビデオ、画面共有の開始ポートと終了ポートを入力します。 QoS を実装するには、このオプションを選択する必要があります。

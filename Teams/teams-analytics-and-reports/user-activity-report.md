@@ -16,18 +16,18 @@ MS.collection:
 description: Microsoft Teams 管理センターの Teams ユーザーアクティビティレポートを使用して、組織内のユーザーが Teams をどのように使用しているかを確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcb4511463a8866448739cafb1661c55481718b2
-ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.openlocfilehash: c217ae2d1344c8998e9dd8035f8c96d48a110a6d
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33495868"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433009"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams ユーザー アクティビティ レポート
 
 Teams ユーザーアクティビティレポートは、組織内のユーザーが Teams で実行するアクティビティの種類を把握するのに役立ちます。 たとえば、1:1 通話で何人のユーザが通信しているかを確認したり、チャンネルメッセージを通じてやり取りするユーザの数を確認したり、プライベートチャットメッセージで何人のユーザを参加させることができます。
 
-![Microsoft teams 管理センターの teams ユーザーアクティビティレポートのスクリーンショット](../media/teams-reports-user-activity.png "Microsoft teams 管理センターの teams ユーザーアクティビティレポートのスクリーンショット")
+![Teams ユーザーアクティビティレポートのスクリーンショット](../media/teams-reports-user-activity.png "Microsoft teams 管理センターの teams ユーザーアクティビティレポートのスクリーンショット")
 
 ## <a name="view-the-report"></a>レポートを表示する
 
@@ -36,7 +36,7 @@ Teams ユーザーアクティビティレポートは、組織内のユーザ�
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
-![番号付き吹き出しがある Microsoft teams 管理センターの Teams ユーザーアクティビティレポートのスクリーンショット](../media/teams-reports-user-activity-with-callouts.png "番号付き吹き出しがある Microsoft teams 管理センターの Teams ユーザーアクティビティレポートのスクリーンショット")
+![番号付き吹き出しが含まれる Teams ユーザーアクティビティレポートのスクリーンショット](../media/teams-reports-user-activity-with-callouts.png "番号付き吹き出しがある Microsoft teams 管理センターの Teams ユーザーアクティビティレポートのスクリーンショット")
 
 |コールアウト |説明  |
 |--------|-------------|

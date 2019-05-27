@@ -14,12 +14,12 @@ search.appverid: MET150
 description: コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb4184ed203994f1275c9c074371655a627b1fe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2167022e3187924f5283ab5bee3a6b220595fd64
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32195096"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432857"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する
 =======================================================
@@ -34,11 +34,11 @@ Office 365 コネクタは Microsoft Teams と Office 365 の両方のグルー�
 
 1.  チャネルにコネクタを追加するには、チャネル名の横にある**楕円 (…)** をクリックし、[**コネクタ**] をクリックします。
 
-    ![チャネル名および [コネクタ] オプションが選択された Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    ![[コネクタ] オプションが選択されている Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2.  ユーザーは利用可能なさまざまなコネクタから選択できます。コネクタを選択して [**追加**] をクリックします。
 
-    ![追加可能なコネクタを示す [コネクタ] ダイアログのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    ![使用可能なコネクタが表示されている [コネクタ] ダイアログのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3.  選択したコネクタについて必須情報を入力し、[**保存**] をクリックします。各コネクタは、正常に機能するためにさまざまな必須情報を要求します。一部のコネクタでは、コネクタの構成ページに掲載されるリンクを使用してサービスにサインインする必要があります。
 
@@ -59,7 +59,7 @@ Office 365 コネクタは Microsoft Teams と Office 365 の両方のグルー�
 
 2.  Web フックを作成するには、**名前**を指定し、必要に応じて Web フックの画像を更新します。続けて [**作成**] をクリックします。
 
-    ![着信 Web フック コネクタの [構成] ページのスクリーンショット。 ](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
+    ![受信 Webhook コネクタの構成ページのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
 
 3.  このチャネルにデータをプッシュするアプリケーションは Web フック コネクタの URL を必要とします。**Web フック** を作成したときに、**固有の URL** が作成されます。この URL を開発者と共有して、開発者が必要に応じてアプリケーションによるデータのプッシュを構成できるようにします。
 

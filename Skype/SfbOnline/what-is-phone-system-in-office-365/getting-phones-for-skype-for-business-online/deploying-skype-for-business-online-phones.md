@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、Skype for Business online 電話機の設定を構成するための展開手順について説明します。
-ms.openlocfilehash: 1e83c240b5406fbb3e7a247200d2b38d74ba8ef5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d3de52f7c732571b3692ed2b3683673acdb8e60
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298010"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432587"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -71,15 +71,15 @@ Skype for Business Online 対応の電話機およびファームウェアは、
   
 ファームウェアの更新は Skype for Business Service によって管理されます。Skype for Business 認定済みの電話機のファームウェアは Skype for Business Update サーバーにアップロードされます。既定では、デバイスの更新はすべての電話機で有効になっています。電話機の無通信時間およびポーリング間隔に応じて、電話機では最新の認定済みビルドがダウロードされ、インストールされます。デバイスの更新設定は [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) コマンドレットを使用して、 _EnableDeviceUpdate_ パラメーターを `false` に設定することで無効にできます。
   
-![電話を配置しています。](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![電話の展開を示すスクリーンショット](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 新しいファームウェアが利用可能になり、ダウンロードとインストールの準備が整うと、電話機が通知を受信します。Polycom 電話機では、ユーザーは通知を受信し、[ **Update (更新)** ] または [ **Postpone (延期)** ] のいずれかを選択できます。
   
-![電話を配置しています。](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
+![更新と延期のオプションが表示されたスクリーンショット。](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
   
 Polycom 電話機の場合は、 **SwUpdate** を選択することで電話機のファームウェアを更新できます。
   
-![電話を配置しています。](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
+![SwUpdate オプションを示すスクリーンショット](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
   
 パートナーのプロビジョニング システムを使用してファームウェアの更新を管理するように選択することもできます。高度な電話機カスタマイズなど、パートナー プロビジョニング システム管理を行う場合は、製造元の管理ガイドをご覧ください。
   
@@ -102,17 +102,17 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
     
   - **Polycom VVX 5XX/6XX** 電話機のユーザーには次の画面が表示されます。
     
-     ![電話を配置しています。](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Polycom 電話のログオンを示すスクリーンショット](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - **Yealink T48G/T46G** 電話機のユーザーには次の画面が表示されます。
     
-     ![Yealink 電話でログオンします。](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
+     !["ごみ箱" の電話が表示されているスクリーンショット。](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
     製造元ごとのサポートされるサインイン オプションの詳細については、「[Skype for Business Online で使う電話を入手する](getting-phones-for-skype-for-business-online.md)」をご覧ください。
     
 - **ユーザー ID** ユーザーは、電話機のキーパッドまたは画面上のキーボード (利用可能な場合) を使用して、組織のユーザー名およびパスワードで電話機にサインインできます。たとえば、ユーザー名として <em>amosm@contoso.com</em>  のような UPN 形式を使用します。
     
-     ![電話を配置しています。](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![ログイン画面を示すスクリーンショット](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > PIN 認証は、LPE およびパートナーの IP 電話機向けの Skype for Business Online ではサポートされていません。 
@@ -122,47 +122,47 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
   > [!NOTE]
   > ユーザーは、電話機にサインインするために組織のユーザー名およびパスワードを使用する必要があります。たとえば、ユーザー名として  <em>amosm@contoso.com</em>  のような UPN 形式を使用します。
   
-     ![Deploying phones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![ログイン画面を示すスクリーンショット](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
 - **Web サインインの使用**: これは、Online ユーザーが標準の Web ブラウザを使用して認証を行うことができる新しい方法です。ユーザーには、ブラウザを使ってサインインするときの手順が提供されます。
     
   - **Polycom VVX 5XX/6XX** 電話機のユーザーには次の画面が表示されます。
     
-     ![電話を配置しています。](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![Polycom の手順を示すスクリーンショット](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - **Yealink T48G/T46G** 電話機のユーザーには次の画面が表示されます。
     
-     ![Yealink 電話でログオンします。](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
+     !["Alink" の命令が表示されたスクリーンショット](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     生成されるコードの有効期限は 15 分です。期限が切れると、ユーザーは電話機に応じて [ **再試行**] または [ **OK**] をクリックして新しいコードを生成する必要があります。
     
   - **Polycom VVX 5XX/6XX** 電話機のユーザーには次の画面が表示されます。
     
-     ![PIN コードの有効期限が切れています。](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![有効期限が切れた Polycom コードを示すスクリーンショット](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
   - **Yealink T48G/T46G** 電話機のユーザーには次の画面が表示されます。
     
-     ![Yealink 電話でログオンします。](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![期限切れになったごみ箱コードを示すスクリーンショット](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     ブラウザを使用して、電話機に表示されるアドレスに移動して、Skype for Business ユーザー名を入力します。
     
-     ![電話を配置しています。](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![メールの確認が表示されたスクリーンショット](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     電話機に表示されるコードを入力します。
     
-     ![電話を配置しています。](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![ログイン画面にコードを入力する画面を示すスクリーンショット](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
     サイトに「[電話機メーカーの名前] **Skype for Business Certified Phone (Skype for Business 認定済みの電話機)**」と表示されていることを確認し、[ **続行**] をクリックします。
     
-     ![電話を配置しています。](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![名前の確認を示すスクリーンショット](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     ユーザーの資格情報をクリックするか、[ **Use another account (別のアカウントを使用する)**] をクリックします。
     
-     ![電話を配置しています。](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
+     ![資格情報オプションが表示されたスクリーンショット](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
     下記のページが表示されたら、ブラウザを安全に閉じることができます。
     
-     ![電話を配置しています。](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
+     ![確認メッセージが表示されたスクリーンショット](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
     > Skype for Business Online 向けの LPE 電話機は USB テザリングを介したサインインのみをサポートします。 
@@ -203,7 +203,7 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
   
 1. PC ポートを使用して PC を電話機に接続します。
     
-     ![電話を配置しています。](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![PC への接続を示すスクリーンショット](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
 2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。ユーザーの利便性を向上するため、System Center Configuration Manager (SCCM) などの管理配布ソリューションを使用して BToE ソフトウェアを配布して、インストールすることができます。SCCM の使用については、「[System Center Configuration Manager のパッケージとプログラム](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)」をご覧ください。
     

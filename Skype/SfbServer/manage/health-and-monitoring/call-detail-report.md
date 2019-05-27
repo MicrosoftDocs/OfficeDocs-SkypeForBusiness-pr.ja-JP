@@ -1,27 +1,27 @@
 ---
-title: Skype のビジネス サーバーの詳細レポートを呼び出す
+title: Skype for Business Server の通話詳細レポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: '概要: は、Skype のビジネスのサーバーが使用する呼び出しの詳細レポートについて説明します。'
-ms.openlocfilehash: 1dd32baa8efdf932232e71b42a0c0ffdd1d840ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '概要: Skype for Business Server で使用されている通話詳細レポートについて説明します。'
+ms.openlocfilehash: 8ced1a93f32f5f62ad33563e295ec456303232fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902792"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289372"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>Skype のビジネス サーバーの詳細レポートを呼び出す
+# <a name="call-detail-report-in-skype-for-business-server"></a>Skype for Business Server の通話詳細レポート
  
-**の概要:** ビジネス サーバーの Skype で使用される呼び出しの詳細レポートについて説明します。
+**概要:** Skype for Business Server で使用されている通話詳細レポートについて説明します。
   
-呼び出しの詳細レポートの提供についての詳細を個別に呼び出す。レポートには、ほぼすべての品質の経験が含まれています測定基準および業務サーバーの場合は、Skype で収集される統計情報レポートのセクションに分かれて次のようにします。
+通話詳細レポートでは、個々の通話の詳細が表示されます。レポートには、次のようなレポートセクションに分類された、Skype for Business Server によって収集されたエクスペリエンスの測度と統計情報のほぼすべてが含まれます。
   
 - 通話情報 
     
@@ -49,17 +49,17 @@ ms.locfileid: "33902792"
 
 通話の詳細レポートは、以下の任意のレポートから表示できます。
   
-- [場所レポート] をクリックして電話の数または不適切な呼び出しの割合のメトリックのいずれか) ビジネス サーバー (場所 report.md) の Skype で
+- Skype for Business Server (location-report.md) の [場所レポート] (通話音量または [通話の低品質] メトリックのいずれかをクリック)
     
-- [メディア品質概要レポート] をクリックして通話量または不適切な呼び出しの割合のメトリックのいずれか) ビジネス サーバー (summary.md) の Skype で
+- Skype for Business Server (summary.md) の [メディア品質の概要] レポート (通話の音量または低品質の通話率のメトリックのいずれかをクリック)
     
-- [Skype ビジネス サーバー用のメディアの品質の比較レポート](comparison.md)( [Skype ビジネス サーバーでリスト レポートを呼び出す](call-list-report-0.md)] をクリックし、[詳細] のメトリックをクリックすると)。
+- Skype for business server[のメディア品質比較レポート](comparison.md)( [Skype for Business Server の通話リストレポート](call-list-report-0.md)をクリックして、詳細なメトリックをクリックします)。
     
-- [Skype ビジネス サーバー用のサーバー パフォーマンス レポート](server-performance.md)] をクリックして通話量または不適切な呼び出しの割合のメトリックのいずれか)
+- [Skype For Business server のサーバーパフォーマンスレポート](server-performance.md)(通話音量または低品質通話パーセンテージのメトリックをクリック)
     
-- [Skype ビジネス サーバーでリスト レポートを呼び出す](call-list-report-0.md)] をクリックして、[詳細] のメトリック)
+- [Skype For Business Server の通話リストレポート](call-list-report-0.md)(詳細なメトリックをクリック)
     
-呼び出しの詳細レポート内からに次の測定値のいずれかをクリックすると、 [Skype のビジネス サーバーでデバイスのレポート](device-report.md)をアクセスできます。
+通話詳細レポート内から、次のメトリックのいずれかをクリックして、 [Skype For Business Server のデバイスレポート](device-report.md)にアクセスできます。
   
 - キャプチャ デバイス
     

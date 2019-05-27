@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e36e768b3e9edbf79204141540034344fb5aec
-ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
+ms.openlocfilehash: e61a4456d926c8d939769e49968a79943c1138b4
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33584234"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433280"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -45,7 +45,7 @@ E3 または E5 といったライセンス SKU をユーザーに割り当て�
 
 Teams ユーザーライセンスは、いつでも無効にすることができます。 ライセンスを無効にすると、ユーザーは Microsoft Teams へのアクセスを許可されなくなり、Office 365 アプリ起動ツールとホームページで Teams を表示することはできなくなります。
 
-![Microsoft Teams が選択されていることを示す Office 365 管理センターの [製品ライセンス] セクションのスクリーンショット。](media/Manage_user_access_to_Microsoft_Teams_image4.png)
+![[製品のライセンス] セクションで選択された Teams を示すスクリーンショット。](media/Manage_user_access_to_Microsoft_Teams_image4.png)
 
 ## <a name="manage-via-powershell"></a>PowerShell を使用して管理する
 

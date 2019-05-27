@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: 'Renew-CcServerCertificate コマンドレットは、Skype for Business Cloud Connector エディションの証明書の有効期限が近づいている場合またはすでに有効期限が切れている場合にそれを更新します。 Cloud Connector  2.0 以降のリリースにおいて、このコマンドは Update-CcServerCertificate に変更されました。 '
-ms.openlocfilehash: ad366bdf7f6c27552a8e7621ee9244762dd864eb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 611eeb648c88411afa5d74cc7564703a5e37e9bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894818"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287063"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
@@ -48,7 +48,7 @@ Renew-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-中央管理ストア、仲介サーバー、およびエッジ サーバーに内部証明書が発行されたクラウドのコネクタは、証明機関サービスから発行され、後の 2 年間有効です。 証明書の有効期限が近づいている場合またはすでに有効期限が切れている場合は、Renew-CcServerCertificate コマンドレットを実行して、証明書を更新します。 
+クラウドコネクタ中央管理ストア、仲介サーバー、エッジサーバーに発行された内部証明書は、証明機関サービスから発行されてから2年間有効です。 証明書の有効期限が近づいている場合またはすでに有効期限が切れている場合は、Renew-CcServerCertificate コマンドレットを実行して、証明書を更新します。 
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>

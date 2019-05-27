@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dc9d3223ae697eeb3496359172bd850fbb0d36c
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 28c8a9bd073e9c2311b7cf9bb250a28ea7988d31
+ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344107"
+ms.locfileid: "34381747"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Microsoft Teams でクラウド音声のワークロードを構成する
 
@@ -51,7 +51,7 @@ ms.locfileid: "34344107"
 | 5  | 緊急対応の場所を構成する | 電話のユーザーに電話番号を割り当てるには、電子情報を管理者に割り当てる必要があります。 <br/><br/>位置情報サービスの作成を自動化するには、PowerShell を使用することをお勧めします。| | [緊急対応の場所、住所、通話ルーティング](what-are-emergency-locations-addresses-and-call-routing.md) |
 | 6  | ライセンス、電話番号、テナントユーザーダイヤルプラン、緊急対応の場所をユーザーに割り当てる | ユーザーに E5 ライセンスを割り当てます。 E3/E4 Sku を使用している場合は、電話システムアドオンをエンドユーザーに割り当てます。 <br/><br/>ライセンスを割り当てたら、電話番号、ダイヤルプラン、緊急対応の場所を割り当てて続行します。 ユーザー支援スクリプトを使用して、複数のユーザーを一度に簡単に構成します。 | | [MyAdvisor –ユーザー有効化スクリプト](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_6,5_2_0_3)|
 | 7  | Azure ボイスメールを構成する | ユーザーのメールボックスが Exchange Online でホストされている場合は、ボイスメールボックスが自動的にプロビジョニングされます。 <br/><br/>ただし、Exchange Server のオンプレミス展開の場合は、サポートされているバージョンとトポロジを使用していることを確認する必要があります。 [**追加情報**」列の手順を実行します。 組織でボイスメールの書き起こしをオンまたはオフにすることができます。| | [Exchange Server 向け Azure PBX ボイスメールのサポート](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail) <br/><br/>[クラウド ボイスメールのセットアップ](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) |
-| 個  | オプション: 着信および発信通話の発信者番号認識を構成する | 既定では、すべての発信通話は、割り当てられた電話番号を使って、通話 id (発信者番号) を使用します。 <br/><br/>必要に応じて、ユーザーの発信者番号を変更またはブロックすることができます。 <br/><br/>**注:** 緊急通話では、ユーザーの電話番号が常に発信者番号認識に送信されます。 | | [組織で発信者番号認識を使用するにはどうすればよいですか?](/microsoftteams/how-can-caller-id-be-used-in-your-organization) <br/><br/>[ユーザーの発信者番号の設定](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user)|
+| 個  | オプション: 着信および発信通話の発信者番号認識を構成する | 既定では、すべての発信通話は、割り当てられた電話番号を使って、通話 id (発信者番号) を使用します。 <br/><br/>必要に応じて、ユーザーの発信者番号を変更またはブロックすることができます。 <br/><br/>**注:** 緊急通話では、ユーザーの電話番号が常に発信者番号認識に送信されます。 | | [組織で発信者番号認識を使用するにはどうすればよいですか?](/microsoftteams/how-can-caller-id-be-used-in-your-organization) <br/><br/>[ユーザーの発信者番号の設定](/microsoftteams/set-the-caller-id-for-a-user)|
 | ファイブ  | オプション: Skype for Business との相互運用性の構成 | 組織が Skype for Business から Teams に移行する場合は、相互運用性ポリシーを構成します。 <br/><br/>相互運用性により、Skype for Business と Teams ユーザーがチャットして互いに通話を発信することができます。 <br/><br/>既存の展開と、チームの意図したロールアウト戦略が、計画に影響します。 相互運用性のオプション、要件、制限事項を確認し、それに応じてポリシーを構成します。 <br/><br/>**注:** 以下の手順は、組織が Skype for Business Online のユーザーを引き続きホストしている場合にのみ適用されます。 | | [Microsoft Teams と Skype for Business の相互運用性](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability) <br/><br/>[クイック スタート ガイド: Microsoft Teams での通話プランの設定](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide) |
 | 常用 | ユーザー受け入れテストを準備して実行する | ダイヤルインやダイヤルアウトのシナリオなど、ユーザー受け入れテストを準備して実行します。 | | [電話システムのテスト計画](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system) |
 | 折り | 使用状況、正常性、重要な成功インジケーター、および品質のレポートを作成する | ビジョン化フェーズで定義した使用状況、正常性、KSIs、および品質をレポートします。 | | [運用ガイド](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) |

@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5e8ca2fd4067c8105ea9dce2e94729e20d835f7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 824b14ba49391720305778e676bb47850d836196
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344155"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433184"
 ---
-![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
+![展開と実装が強調されたアップグレードの図](media/upgrade-banner-deployment.png "展開と実装のステージに重点を置いたアップグレードの段階")
 
 この記事は、アップグレードの展開と実装の段階に含まれており、効果的なパイロットを実行するための見識を共有します。 先に進む前に、次のアクティビティを完了していることを確認してください。
 

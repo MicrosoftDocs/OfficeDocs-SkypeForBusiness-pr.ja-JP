@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織のためのTeamsを始めましょう
-ms.openlocfilehash: 40eccf379af8c0acd318cb3a8b1b647357f6cf7c
-ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
+ms.openlocfilehash: e4720b6c03c44128ba90db5fb1ade066360e19bf
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33882894"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433424"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療関係組織のためのTeamsを始めましょう
 
@@ -49,7 +49,7 @@ Microsoft Teams には、医療機関向けの優れた調整ソリューショ�
 
 <br>
 
-![EHR との統合](../../media/ehr-1.png)
+![ケアの調整と共同作業を強調した図](../../media/ehr-1.png)
 
 <br>
 
@@ -80,7 +80,7 @@ Microsoft Teams を使用すると、医師、clinicians、看護師、および
 > [!NOTE]
 > 患者アプリはプライベートプレビューであり、FHIR インターフェイスはベータ版です。 リリースされたバージョンは、下位互換性が期待されるとは限りません。
 
-![患者のアプリのスクリーンショット](../../media/ehr-2.png)
+![デスクトップデバイスとモバイルデバイスの患者アプリのスクリーンショット](../../media/ehr-2.png)
 
 「[電子医療レコードを Microsoft Teams に統合](patients-app.md)して実装の詳細を確認する」を参照してください。
 

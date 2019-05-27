@@ -15,18 +15,17 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 電話番号を Skype for Business Online から別の電話サービス プロバイダーまたは通信業者に転送または移行するには、PIN を手動で設定する必要があります。 PIN を設定した後、電話番号を移行するときにその PIN を含める必要があります。
-ms.openlocfilehash: 64eaa010939c10a25e7c1fb4c53672a27296ebe1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5daea877e17582ecb85bc8d7e13db5001dcdbfc6
+ms.sourcegitcommit: 4bb900228cc55e0cbbce8c5b74b7de8df5a2288f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290856"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408511"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに移行するための PIN を設定する
 

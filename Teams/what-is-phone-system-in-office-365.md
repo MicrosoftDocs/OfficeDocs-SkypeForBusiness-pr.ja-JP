@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '電話システムでできることについて説明します。 '
-ms.openlocfilehash: 7188a0d4573ce7bc935b60506371fbd2a4f1b6a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c2d1d910226b4597595f6dd55246f2f9c71049d
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299020"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432881"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは
 
@@ -49,7 +49,7 @@ ms.locfileid: "34299020"
 
 通話プランアドオンを Office 365 の電話システムに使用すると、世界中の固定電話と携帯電話に通話を発信するための PSTN 接続が有効になります (ライセンスされているサービスのレベルによって異なります)。 ユーザーはクラウドをホームとしていて、Microsoft が提供する通話プランアドオンを使って電話システムを有効にしています。 通話プランを使用する場合、オンプレミスのサーバー展開は必要ありません。 通話プランは、Office 365 の電話システムでのみ機能し、別の PBX システムで通話プランを使用することはできません。
 
-![完全にクラウド内の VoIP ソリューションである、PSTN 通話を含んだクラウド PBX を示しているトポロジ図です。](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
+![PSTN 通話を使用したクラウド PBX を示すトポロジ図](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
 通話プランは Office 365 内で動作するため、これは、オンプレミスのサーバー展開を必要としない完全なクラウドサービスです。 国内または国内の通話プランを使用して、通話を発信する各ユーザに割り当てることができます。 [さらに詳しく調べたい場合](calling-plan-landing-page.md)
   

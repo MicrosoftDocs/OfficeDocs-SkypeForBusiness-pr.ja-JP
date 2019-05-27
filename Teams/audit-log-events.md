@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Office 365 監査ログから Microsoft Teams データを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 028d01a2ed05f3596cfe7cca299a1b8e35a15721
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 90645a7c2ffde142bdda80855b613877afc2f19e
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194993"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432961"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 ==================================================
@@ -50,7 +50,7 @@ Office 365 で監査されるアクティビティの完全なリストを確認
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>監査ログから Teams データを取得する
 
-1.  監査ログを取得するには、[セキュリティ/コンプライアンス センター](https://go.microsoft.com/fwlink/?linkid=855775)に移動します。 [**Search & Investigation (検索と調査)**] で、[**Audit log search (監査ログの検索)**] を選択します。![セキュリティとコンプライアンス センターの [Audit log search (監査ログの検索)] ページのスクリーンショット。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+1.  監査ログを取得するには、[セキュリティ/コンプライアンス センター](https://go.microsoft.com/fwlink/?linkid=855775)に移動します。 [ **_AMP_ 調査の検索**] で、[**監査ログの検索**] を選びます。![監査ログの検索ページのスクリーンショット](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
 2.  [**Search (検索)**] を使用して、監査するアクティビティ、日付、ユーザーをフィルターします。
 

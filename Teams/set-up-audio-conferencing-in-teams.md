@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話会議への参加に電話を使用する必要がある、社内のユーザーに対してダイヤルインまたは電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: f0709f2a99524666e3b48992338abae111599b7d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 9fc9369b8dd2d7054ce7a2c1508dbc73eff3dfa9
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344211"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432818"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
 
@@ -76,7 +76,7 @@ ms.locfileid: "34344211"
 
 新しい電話番号を電話会議ブリッジに割り当てるには、次の手順に従います。
 
-![](media/sfb-logo-30x30.png) sfb-logo-30x30 **Skype for business 管理センターを使用している場合:**
+![Skype for](media/sfb-logo-30x30.png) **business 管理センターを使用し**た skype for business ロゴを示すアイコン:
 
  1. **Microsoft 365 管理センター** > **管理** > センター**チーム** > の従来の**ポータル**に移動します。
  2.  > [ ******電話番号**] を選択します。

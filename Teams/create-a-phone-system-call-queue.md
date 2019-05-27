@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 組織の応答メッセージ、保留中の音楽、配布リストとセキュリティグループのコールエージェントへの通話のリダイレクトなどを行うために、クラウド通話キューの電話システムをセットアップする方法について説明します。 You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: e32ab12c63f20439d21c9c1829cd4b32bdd34d70
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3fc7dc69fad9e249c29758ae9bd0c30038520408
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344686"
+ms.locfileid: "34404311"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 
@@ -181,6 +181,8 @@ ms.locfileid: "34344686"
  エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。
 
 - **電話システム** ライセンスおよび通話プランを取得しているオンラインユーザーは、計画を呼び出すと、Office 365 グループ、有効なメールの分配リスト、またはセキュリティ グループに追加されます。 新しいエージェントが配布リストに追加された場合、または、セキュリティグループが通話キューからの着信の受信を開始するまでに最大3時間かかる場合があります。 新しく作成した分配リストまたはセキュリティ グループでは、通話キューで使用可能になるまで最大で48時間を要する場合があります。 新しく作成された Office 365 グループは、ほぼ瞬時にご利用可能です。
+
+- 担当者が Microsoft Teams アプリを使って着信キューの呼び出しを受信している場合は、チームメンバーが Teams Sonly モードである必要があります。
 
 ![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
 

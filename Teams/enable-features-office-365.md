@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 69b23cefcfa6329e95e3413d720b3033250dd504
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246065"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34421996"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -59,8 +59,6 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 - **外部アプリのサイドローディングを利用できるようになります**: 一部の外部アプリをオンにして、その他のアプリをオフにする場合は、この設定をオフにしてから、外部アプリのリストでユーザーがアクセスしないようするアプリをオフにします。 この設定がオンになっているときは、アクセス権が付与されているチーム所有者およびメンバーは、アプリを Teams にサイドリーディングすることができます。 
 
 - **既定で新しい外部アプリが有効になります**: この設定がオンになると、ユーザーは Teams アプリ カタログに新しいアプリが追加されると、それらをすぐにアクティブ化することができます。 新しいアプリに対する制御を行う場合はこの設定をオフにします。 これをオフにする場合は、自分の組織で新しいアプリを利用する機会を失うことがないように、新しいアプリについて定期的に確認するようにする必要があります。 
-
-詳細については、「[Teams でのアプリの管理設定](admin-settings.md)」をご覧ください。 
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams の組織全体の設定
 Microsoft Teams 管理センターで、組織全体のユーザー設定を制御することができます。組織全体の設定を編集するには、Microsoft Teams 管理センターに移動して、**[Org-wide settings (組織全体の設定)]** を選択します。次の設定を構成することができます。
@@ -128,7 +126,7 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>利用可能な機能を知る方法を教えてください。
 
-新しい Teams の機能の詳細については、「[Microsoft 365 ロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)」を参照してください。新機能および今後導入される機能については、Teams の「[新機能](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)」ページと、Teams に関する[技術コミュニティの Microsoft Teams ブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)を参照してください。 
+新しい Teams の機能の詳細については、「[Microsoft 365 ロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)」を参照してください。新機能および今後導入される機能については、Teams の「[新機能](https://support.office.com/ja-JP/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)」ページと、Teams に関する[技術コミュニティの Microsoft Teams ブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)を参照してください。 
 
 ## <a name="more-information"></a>詳細情報
 

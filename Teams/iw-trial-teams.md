@@ -3,7 +3,6 @@ title: Microsoft Teams の商用クラウドの試用提供を管理する
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
@@ -16,20 +15,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 654db34de9160c0e858fd8972d00487291fd1653
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 933ea45cbcdc9e6af8c25dfdb67758d154731586
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921253"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404295"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
 
-Microsoft Teams は、組織に最適な共同作業ツールです。 Office 365 の機能を使用して、ユーザーやチームがアイデアのディスカッション、導入、共有を行うことができます。 Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版を開始するための Microsoft Teams ライセンスを所有していない、組織内の既存の Office 365 ユーザーを対象にしています。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。
+Microsoft Teams は、組織に最適な共同作業ツールです。 Office 365 の機能を使用して、ユーザーやチームがアイデアのディスカッション、導入、共有を行うことができます。 Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版を開始するための Microsoft Teams ライセンスを所有していない、組織内の既存の Office 365 ユーザーを対象にしています。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 
 
 > [!IMPORTANT]
-> Microsoft Teams の商用クラウドの試用版は、Teams の機能を増やす追加のサービス プランを含む更新がされ、現在組織の請求管理者によって所有し管理されています。これは、試用をより管理しやすくし、その他の Microsoft 365 のすべての特典に一貫性を持たせることができます。 既存の Teams の商用クラウドの試用版のユーザーは、新しいプランに移行されます。
+> Microsoft Teams の商用クラウドの試用版は、Teams の機能を増やす追加のサービス プランを含む更新がされ、現在組織の請求管理者によって所有し管理されています。これは、試用をより管理しやすくし、その他の Microsoft 365 のすべての特典に一貫性を持たせることができます。 
 
 ## <a name="whats-in-the-offer"></a>オファーの内容
 
@@ -142,3 +141,11 @@ Teams へのアクセスをオフにするには:
 
 > [!NOTE]
 > 試用期間が終了し、Teams を含むサブスクリプションにユーザーがすぐにアップグレードされない場合は、ユーザー データは削除されません。 ユーザーは引き続き Azure Active Directory に残り、Teams 内のすべてのデータが残されたままになります。 ユーザーに新しいライセンスが割り当てられると、Teams の機能は再び有効になり、すべてのコンテンツが残ります。 
+
+### <a name="remove-a-legacy-microsoft-teams-trial-license"></a>従来の Microsoft Teams 試用版ライセンスを削除する
+
+2019 年 4 月 22 日の時点で、ユーザーは Microsoft Teams の商用クラウドの試用版ライセンスの要求を開始できます。 従来の試用版ライセンスから最新の試用版ライセンスへと組織内のユーザーを移行させる場合、まず各ユーザーの従来の Microsoft Teams 試用版ライセンスを削除する必要があります。 従来のライセンスを削除すると、影響を受けた各ユーザーは、更新済みの Microsoft Teams の商用クラウドの試用版ライセンスを要求できます。
+
+- Powershell を用いてこのライセンスを削除する場合は、次を参照してください :「[Office 365 PowerShell を使用してユーザー アカウントからライセンスを削除する](https://docs.microsoft.com/ja-JP/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)」
+
+- 管理ポータルからこのライセンスを削除する場合は、次を参照してください :「[一般法人向け Office 365 のユーザーからライセンスを削除する](https://docs.microsoft.com/ja-JP/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)」

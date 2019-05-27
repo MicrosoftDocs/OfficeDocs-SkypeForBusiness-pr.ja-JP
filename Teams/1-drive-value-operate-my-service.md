@@ -15,12 +15,12 @@ description: サービスの正常性の監視、ネットワークの品質お�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343865"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432873"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 
@@ -62,7 +62,7 @@ ms.locfileid: "34343865"
 契約が実施された後、対応するチームが各自の役割を operationalize する必要があります。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>次のステップ</td>
 <td><ul><li>このドキュメントを使用して、役割のマッピングの作業を簡単に行うことができます。</li><li>各サポートチームと会議して、必要なアクティビティのリストの各アイテムに名前を割り当てます。</li><li>割り当てられた役割に対して承認またはサインオフを獲得します。</li><li>該当するチームに、必要なアクティビティを実行するための適切なトレーニング、準備、およびリソースがあることを確認します。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams サービスの依存関係
