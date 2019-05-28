@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 377d86bd71947588186979f20068b9e8927ccd3d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 586e928692068070c23a682dbcf5f38259990dc0
+ms.sourcegitcommit: e1532a45df1a43d5af7b5370e3444c3971adb450
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287911"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34430666"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -144,6 +144,12 @@ ms.locfileid: "34287911"
 
 
 ## <a name="client"></a>クライアント
+
+
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|Microsoft ストアから Surface Hub の Teams を開始することはできません |Microsoft ストアで [**起動**] をクリックしても、Surface Hub の Microsoft Teams は起動しません。 | Microsoft ストアの一覧から Surface Hub の Teams を起動することは、Surface Hub での Windows ではサポートされていません。 <br> <br/> Teams のインストール後、Surface Hub を再起動してください。 | 2018 年 2 月 27 日 |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
