@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c50bdc25cda1ce8c1ef742ab4141c753ca3a791
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5a9bc092f458533c95e2431ac8f23ba98abd8bd7
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898502"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548089"
 ---
-![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")
+![オペレーショナルエクセレンスステージを強調したアップグレードの図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
 この記事は、お客様のアップグレード手順において、Skype for Business から Teams へのアップグレードを完了した直後に開始する、オペレーショナル エクセレンスの段階の一部を取り上げています。
 
@@ -55,4 +55,4 @@ Teams のメリットとビジネスの成果を最大限に引き出すには�
 - 新しい機能を準備し、実装するには、下の図のような変更計画フォームを実装します。技術的な準備とユーザーの準備の両方のアクティビティを必ず含めるようにしてください。
 
 
-![新機能のリリース予定日とメモが記されたフォームの例。今後の手順と所有者もリストに表示されています](media/upgrade-change-plan-form.png "新機能のリリース予定日とメモが記されたフォームの例。今後の手順と所有者もリストに表示されています")
+![予想されるリリース日とメモを示すフォームの例](media/upgrade-change-plan-form.png "次の手順と所有者で示されている、新しい機能に関する予想されるリリース日とメモを示す例のフォーム")

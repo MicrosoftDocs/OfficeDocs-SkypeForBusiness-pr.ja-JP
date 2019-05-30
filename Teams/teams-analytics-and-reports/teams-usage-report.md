@@ -16,18 +16,18 @@ MS.collection:
 description: 自分の組織での Teams のアクティビティの概要を把握するために、Microsoft Teams 管理センターにある Teams の使用状況レポートを、どのように使用するかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abd56a961d3e976ff5810b9dc8b8e8e01b424dd4
-ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.openlocfilehash: 7fd54932badf4496eebd92399caeff98f70ecd97
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33495926"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548718"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
 
 Microsoft Teams 管理センターにある Teams の使用状況レポートは、Teams での使用状況のアクティビティの概要を提供するもので、アクティブなユーザーおよびチャネルの数が含まれており、組織全体で何人のユーザーが通信や共同作業のために Teams を使用しているかをすぐに確認することができます。 各チームのアクティブなユーザー、チャネル、ゲスト、およびメッセージの数など、チームでの使用状況に関する情報を表示することができます。
 
-![Microsoft Teams 管理センターにある Teams の使用状況レポートのスクリーン ショット](../media/teams-reports-teams-usage.png "Microsoft Teams 管理センターにある Teams の使用状況レポートのスクリーン ショット")
+![管理センターの Teams の利用状況レポートのスクリーンショット](../media/teams-reports-teams-usage.png "Microsoft teams 管理センターの teams の利用状況レポートのスクリーンショット")
 
 ## <a name="view-the-report"></a>レポートを表示する
 
@@ -36,7 +36,7 @@ Microsoft Teams 管理センターにある Teams の使用状況レポートは
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
-![Microsoft Teams の管理センターにある Teams の使用状況レポートのスクリーン ショット](../media/teams-reports-teams-usage-with-callouts.png "番号付き吹き出しのある、Microsoft Teams の管理センターにある Teams の使用状況レポートのスクリーン ショット")
+![管理センターの Teams の利用状況レポートのスクリーンショット](../media/teams-reports-teams-usage-with-callouts.png "番号付き吹き出しが表示された Microsoft teams 管理センターのチーム使用レポートのスクリーンショット")
 
 |コールアウト |説明  |
 |--------|-------------|

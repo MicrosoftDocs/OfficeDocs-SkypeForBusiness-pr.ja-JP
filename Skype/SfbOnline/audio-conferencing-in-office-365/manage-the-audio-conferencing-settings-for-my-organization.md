@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン会議ライセンスと会議 ID をユーザーとその他のさまざまなダイヤルイン会議設定に割り当てる方法については、「Skype for Business Online の手順」を参照してください。 '
-ms.openlocfilehash: 27d8ebbb524f5b03b0dc25f03b0380e5861034ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e699cf51f3a9366cdd86004e48eeb18235849680
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299175"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494248"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Skype for Business Online で組織の電話会議の設定を管理する
 
@@ -58,7 +58,7 @@ Skype for Business のすべての電話会議の設定を1か所で表示した
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>電話会議ユーザーに送信されたメールを有効または無効にする
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 

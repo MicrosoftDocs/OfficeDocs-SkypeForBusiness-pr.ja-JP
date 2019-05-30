@@ -16,12 +16,12 @@ MS.collection:
 description: アクティビティレポートを使用して、組織内のユーザーがどのように Microsoft Teams を使用しているかを確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 202e40439c874aec493b96f8707ff218423d2339
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 85184f1de59338282ddd676009f000794b1b4b07
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894353"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548678"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft Teams のユーザー アクティビティ レポートを使用する 
 ========================================
@@ -45,13 +45,13 @@ Microsoft 365 管理センターのアクティビティレポートを使用し
 
 Teams ユーザーアクティビティレポートは、ユーザーが Teams で実行する最も一般的なアクティビティのビューを提供します。 これには、チャネル内でチャットに参加している人の数、プライベートチャットメッセージによるコミュニケーションの数、通話や会議への参加回数などが含まれます。 この情報は、個々のユーザーに加えて、組織全体で確認できます。
 
-![Office 365 管理センターの Teams ユーザーアクティビティレポートのスクリーンショット。](media/teams-user-activity-report.png)
+![Office 365 管理センターのユーザーアクティビティレポートのスクリーンショット。](media/teams-user-activity-report.png)
 
 #### <a name="interpret-the-microsoft-teams-user-activity-report"></a>Microsoft Teams ユーザーアクティビティレポートを解釈する
 
 [**アクティビティ**] と [**ユーザー** ] のグラフを見ることで、チームユーザーアクティビティを把握することができます。
 
-![Office 365 管理センターで、番号付き吹き出しが表示された Teams ユーザーアクティビティレポートのスクリーンショット。](media/teams-user-activity-report-with-callouts.png)
+![番号付き吹き出しが表示されたユーザーアクティビティレポートのスクリーンショット。](media/teams-user-activity-report-with-callouts.png)
 
 |コールアウト |説明  |
 |--------|-------------|
@@ -69,13 +69,13 @@ Teams ユーザーアクティビティレポートは、ユーザーが Teams �
 
 Teams デバイスの使用状況レポートには、モバイルアプリなど、ユーザーが Teams に接続する方法についての情報が表示されます。 このレポートでは、組織で使用されているデバイスと、外出先で作業しているユーザーの数を理解することができます。
 
-![Office 365 管理センターの Teams デバイスの使用状況レポートのスクリーンショット。](media/teams-device-usage-report.png)
+![Teams デバイスの使用状況レポートのスクリーンショット。](media/teams-device-usage-report.png)
 
 ### <a name="interpret-the-microsoft-teams-device-usage-report"></a>Microsoft Teams デバイスの使用状況レポートを解釈する
 
 [**ユーザー** ] グラフと [**分布**] グラフを見ることで、チームデバイスの使用状況を把握できます。
 
-![Office 365 管理センターで、番号付き吹き出しが表示された Teams デバイスの使用状況レポートのスクリーンショット。](media/teams-device-usage-report-with-callouts.png)
+![番号付きの吹き出しが表示された Teams デバイスの使用状況レポートのスクリーンショット。](media/teams-device-usage-report-with-callouts.png)
 
 |コールアウト |説明  |
 |--------|-------------|
@@ -107,10 +107,10 @@ Teams デバイスの使用状況レポートには、モバイルアプリな�
 
 レポートダッシュボードには、Teams の利用状況データが表示されます。このウィジェットは、Office 365 の他のさまざまなサービスを使用して、ユーザーのコミュニケーションや共同作業を行うためのクロスプロダクトビューを提供します。
 
-![レポートダッシュボードの [チームの概要] アクティビティウィジェットのスクリーンショット。](media/at-a-glance-activity-widget.png)
+![[チームの概要] アクティビティウィジェットのスクリーンショット。](media/at-a-glance-activity-widget.png)
 
 ### <a name="teams-activity-card"></a>Teams のアクティビティカード
 
 レポートダッシュボードの Teams アクティビティカードには、アクティブなユーザー数など、Teams でのアクティビティの概要が表示されるため、サービスを使用しているユーザーの数をすばやく理解することができます。 ダッシュボードのアクティビティカードをクリックすると、Teams のユーザーアクティビティレポートに移動します。 
 
-![レポートダッシュボードの Teams アクティビティカードのスクリーンショット。](media/teams-activity-card.png)
+![Teams アクティビティカードのスクリーンショット。](media/teams-activity-card.png)

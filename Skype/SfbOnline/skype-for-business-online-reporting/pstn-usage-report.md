@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '[新しい Skype for Business 管理センターのレポート] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 通話のコストなど、電話会議の PSTN 利用状況の詳細を表示して、組織内での使用状況を特定するために、使用状況を理解し、請求の詳細を呼び出すことができます。'
-ms.openlocfilehash: e1753915753c110a615edb108b2ff98efe237aa6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dafe072cb327cde15cf4a02ca9e1c71a30f4431b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287725"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493989"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
 
@@ -38,7 +38,7 @@ ms.locfileid: "34287725"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Skype for Business の PSTN 使用状況詳細レポートを取得する方法
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 - **Office 365 管理センター** > **管理** > **の Skype for business 管理** > センターの**レポート** > **PSTN 使用状況の詳細**を表示します。
     

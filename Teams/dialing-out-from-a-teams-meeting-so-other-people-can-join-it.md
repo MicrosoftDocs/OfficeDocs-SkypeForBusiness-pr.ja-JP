@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 必要なものと、会議の開催者が Teams を使って他のユーザーに発信する方法について説明します。
-ms.openlocfilehash: b02a395277762c4bbd731bd839fdedc395042502
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f4eb5cd784af7bec6f8b2c19f50b7574745ef2b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281894"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548925"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
@@ -43,10 +43,10 @@ ms.locfileid: "34281894"
 
 ダイヤルアウト機能を利用するには、次の手順を実行します。
 
- **手順 1:** 会議で、[ユーザーの**** ![追加] ボタン](media/add-people-button.png)を使用して、電話番号にダイヤルアウトします。
+ **手順 1:** 会議で、[ユーザーの追加] ボタンの [**ユーザー** ![の追加](media/add-people-button.png) ] のスクリーンショットを使用して、電話番号にダイヤルアウトします。
  **手順 2:**[ユーザーの招待] または [電話**番号をダイヤルする**] ボックスに、国/地域コードも含めて、すべての電話番号を入力します。
   
-![[ユーザーの招待] または [電話番号のダイヤル] ボックス](media/invite-someone-box.png)
+![[ユーザーの招待] または [電話番号のダイヤル] ボックスのスクリーンショット](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>サポートされている国と地域
 

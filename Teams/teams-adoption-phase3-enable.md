@@ -10,31 +10,31 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 組織のチームの広範なスケールの有効化をサポートする方法について説明します。
+description: 組織のチームを幅広くサポートする方法について説明します。
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5f53d17f882b8de1066a7622cc258ae21cf3887
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f9556338bba030ccefcd61f3bbdd9e3a4c56af2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930413"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494092"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams の導入段階 3 - 規模
 
-このフェーズでは、利害関係者、チャンピオン、初期採用者と組織のチームの広範なスケールの有効化をサポートするために、な学習項目、有能なプロジェクト チームとの関係を使用します。 マイクロソフト チームの組織使用に関する継続的なビジネス活動を準備するときに、次の手順を完了します。
+このフェーズでは、高い知識、お客様は、お客様の組織にとってのチームの大規模な対応をサポートするために、関係者、チャンピオン、および最早採用者との関係を実現します。 組織で Microsoft Teams を使用する場合は、次の手順を実行して、引き続きビジネスエンゲージメントを準備します。
 
-1. 結果と成功のメジャーを定義します。
-2. サービス戦略を選択します。
-3. 利害関係者の協力を要請します。
-4. 設計し、意識向上キャンペーンを起動します。
-5. 設計し、トレーニング プログラムを起動します。
-6. レポート作成ツールを理解します。
-7. 継続的なビジネス活動を準備します。
-8. 継続的なサービスの稼働状態の & 採用のレビューを準備します。
+1. 結果と成功の測定値を定義します。
+2. [サービス戦略] を選びます。
+3. 関係者に相談します。
+4. 認識キャンペーンを設計して立ち上げます。
+5. トレーニングプログラムを設計して起動します。
+6. レポートツールについて説明します。
+7. 継続的なビジネス契約を準備します。
+8. 継続的なサービス正常性 & の導入レビューを準備します。
 
-![次の手順を実行アイコン](media/teams-adoption-next-icon.png)次:[を定義する成果と成功](teams-adoption-define-outcomes.md)
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[結果と成功の定義](teams-adoption-define-outcomes.md)

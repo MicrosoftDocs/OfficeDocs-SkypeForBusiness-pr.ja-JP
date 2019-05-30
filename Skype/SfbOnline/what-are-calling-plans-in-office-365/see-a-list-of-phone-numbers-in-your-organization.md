@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織のすべての電話番号、ユーザーに割り当てられているすべての電話番号、Skype for Business 管理センターから音声ユーザーに割り当てられているすべての電話番号のリストを表示する方法について説明します。
-ms.openlocfilehash: 9682e0473932337734828a13cf75a8c77e622938
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33fc51206370c337bea849fac4d1bfa1ed37da56
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280470"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493908"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織の電話番号のリストを表示する
 
@@ -34,7 +34,7 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>組織のすべての電話番号のリストを表示するには
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
@@ -64,7 +64,7 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>ユーザーに割り当てられているすべての電話番号を表示するには
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 
 ユーザーを設定する場合、ユーザーに既に割り当てられている電話番号と、ユーザーに割り当て可能な電話番号のリストを確認できます。
@@ -88,7 +88,7 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>音声ユーザーに割り当てられているすべての電話番号を表示するには
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 
 組織内のユーザーに電話を発信してもらうように設定する場合は、まず電話番号を取得してユーザーに割り当てる必要があります。 電話番号を取得したら、ユーザーに割り当てられている電話番号を持っているユーザーと持っていないユーザー、ならびにユーザーがオンラインでまたは内部設置型でホストされているかについてのリストを表示することができます。

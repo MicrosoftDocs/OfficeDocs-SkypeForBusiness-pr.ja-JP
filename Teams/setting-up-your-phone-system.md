@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '組織の電話システム (クラウド PBX) の設定方法について説明します。 '
-ms.openlocfilehash: f46e0506bef53e28cd071606d9727024870f6b2d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3b81ad07d73b87a6635a15bc924ecd70758e12fb
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344203"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548949"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 
@@ -56,13 +56,13 @@ ms.locfileid: "34344203"
 
 ### <a name="get-new-user-phone-numbers"></a>新しいユーザー電話番号を取得する 
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 1. 職場または学校のアカウントを使用して、Microsoft 365 にサインインします。
 
 2. **Microsoft 365 管理センター** > **Skype for Business** に移動します。
     
-3. 左側のナビゲーションで [**音声**]  >  [**電話番号**] に移動し、[**新しい番号を追加**] ![追加ボタン](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png) をクリックし、[**新しいユーザー番号**] をクリックします。
+3. 左のナビゲーションで、[**音声** > **電話番号**] に**** ![移動し、[追加] ボタンをクリックしてプラス](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)記号として表示し、[**新しいユーザー番号**] をクリックします。
     
 ### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Skype for Business管理センターでは使用できない、新しい番号を取得します。
   
@@ -82,7 +82,7 @@ Office 365 ユーザー用の電話番号の取得に加え、電話会議 (会�
 
 ### <a name="get-new-service-numbers"></a>新しいサービス番号を取得する
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
@@ -110,9 +110,9 @@ Office 365 ユーザー用の電話番号の取得に加え、電話会議 (会�
 
 1. [**音声**] ページで、[**緊急対応の場所**]  >  [**新しいアドレスを追加**] の順に選択します。
 
-2. [ **新しい住所**] ウィンドウで、住所の名前を入力し、残りのボックスの入力を完了します。
+2. [**新しい住所**] ウィンドウで、住所の名前を入力し、残りのボックスに入力します。
     
-     ![新しい緊急時のアドレスを入力すると、住所の書式設定がエラーを引き起こす可能性があります。](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
+     ![[新しい住所] ウィンドウのスクリーンショット](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
   
     > [!TIP]
     > 上の図のように、英語圏のお客様で街路名が数字の場合は、必ず末尾に「st」または「th」を付けます。
@@ -158,15 +158,15 @@ Office 365 ユーザー用の電話番号の取得に加え、電話会議 (会�
     
 2.  **Settings** > **Tools** > **Options** を選択します。 
     
-     ![電話番号を表示するには、設定 > ツール > オプション。](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+     ![[ツール] メニューの [オプション] のスクリーンショット](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
   
 3. 次に、[ **電話**] を選びます。 
     
-    ![ユーザーは、Skype for Business アプリで [設定] > [ツール] > [オプション] > [電話] に移動すると、自分に割り当てられた番号を確認できます。](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![Skype for Business 電話のオプションのスクリーンショット](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 **Microsoft Teams** では、ユーザーは左側のナビゲーションで [**通話**] をクリックすると、自分の電話番号を表示できます。電話番号はダイヤル パッドの上部に表示されます。
 
-![ユーザーは、左側のナビゲーションで呼び出しをクリックすると、Microsoft Teams で番号を確認できます。](media/teams-phone-number.png)
+![[通話] をクリックした後に使用できるオプションのスクリーンショット](media/teams-phone-number.png)
 
 **通話プランを設定する手順すべての詳細については、 [通話プランの設定](set-up-calling-plans.md) を参照してください。**
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Pin が変更された場合や、既定の電話会議番号が変更された場合に、Skype が電子メールをユーザーに送信するのを有効または無効にする方法について説明します。 '
-ms.openlocfilehash: 9581589dcc9b07ed5745069f56d6f2ba3561feae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac3f6b94f0ddb4410d89ecd95aef346eb32c9ff1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290122"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494228"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online で電話会議の設定が変更されたときにメールの送信を有効または無効にする
 
@@ -62,7 +62,7 @@ ms.locfileid: "34290122"
 Skype for Business 管理センターまたは Windows PowerShell を使用して、ユーザーに送信されたメールを有効または無効にすることができます。
 
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
     
 1. **Skype For business 管理センター**の左側のナビゲーションで、[**電話会議**] をクリックします。
     

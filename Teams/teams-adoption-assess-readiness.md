@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 490d08a6be547ca0a6bcbde73b202d4362a8c46b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0ee28253c214cedead827b8e2a077372b0523f6a
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896310"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548917"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Microsoft Teams に対する組織の準備状況について
 
@@ -68,7 +68,7 @@ Office 365 で簡単なフォームを使用して、チームの早い導入プ
 
 変更は、テクノロジとは何もしない人間のプロセスです。 Neuroscience によって自然な抵抗について教えてください。 変更を受け入れるには、ユーザーのニーズを予測し、状況を把握し、その状況を改善するためのソリューションを作成することが重要です。 その場合でも、変化に自然な抵抗が生じます。  
 
-![変化への抵抗](media/teams-adoption-resistance.png)
+![変化の抵抗を示すグラフ](media/teams-adoption-resistance.png)
 
 組織の地域、勤務先のスタイル、職務のプロファイル、および組織のその他の要素によって、すべての組織の方法が変更されます。 組織の準備を評価するには、「[組織の変更の準備を評価](upgrade-org-change-readiness.md)する」を参照してください。 ガイドラインを使用して、次の質問に回答します。
 
@@ -100,4 +100,4 @@ Office 365 で簡単なフォームを使用して、チームの早い導入プ
 
 内部のエキスパートを使用して、さまざまな変更の種類に関する問題に対処することができます。 ここでは、フィードバックは成功の鍵となります。課題やニーズを共有するユーザーを促します。 これらの個人またはグループには、実験中にテーブルの座席を付けることによって、disrupters と dissenters を取り入れています。 このベストプラクティスは、共同作業の改善をよりスムーズに展開するための方法を pave します。  
 
-![次のステップ](media/teams-adoption-next-icon.png)アイコン: 次のアイコン: [Microsoft Teams の導入フェーズ 2: 実験](teams-adoption-phase2-experiment.md) 
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン: [Microsoft Teams の導入フェーズ 2: 実験](teams-adoption-phase2-experiment.md) 

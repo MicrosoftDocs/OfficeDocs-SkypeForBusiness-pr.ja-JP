@@ -16,12 +16,12 @@ description: 組織内に保持されている Teams のライブ イベント�
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
-ms.translationtype: HT
+ms.openlocfilehash: 277f5b326a2c8c4427ae4cea740630d4d1e6f0c7
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204749"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548646"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -29,18 +29,18 @@ Teams のライブ イベント設定を使用して、組織で保持されて�
 
 Microsoft Teams 管理センターでこの設定を簡単にできます。 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。 
 
-![live-event-settings.png](../media/teams-live-events-settings.png " Microsoft Teams 管理センターで構成可能な Teams ライブ イベント設定のスクリーン ショット") 
+![Teams ライブイベント設定のスクリーンショット](../media/teams-live-events-settings.png "Microsoft teams 管理センターで構成できる Teams ライブイベント設定のスクリーンショット") 
 
 ## <a name="set-up-event-support-url"></a>イベントのサポート URL を設定する
 
 この URL は、ライブ イベントの参加者に表示されます。 ライブ イベント中にサポートへの連絡方法を参加者に提供する組織のサポートの URL を追加します。
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30.png](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 2. [**サポート URL**] で組織のサポート URL を入力します。 
 
-    ![Microsoft Teams 管理センターのライブ イベントのサポート URL 設定](../media/teams-live-events-settings-supporturl.png " Teams ライブ イベントのサポート URL 設定のスクリーン ショット")
+    ![管理センターでのライブイベントのサポート URL 設定](../media/teams-live-events-settings-supporturl.png "Teams ライブイベントのサポート URL 設定のスクリーンショット")
 
 ### <a name="using-windows-powershell"></a>Windows PowerShell の使用
 次のコマンドを実行します。
@@ -52,12 +52,12 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネットワーク (SDN) ソリューションまたはエンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを購入してセット アップした場合は、Teams でライブ イベント プロバイダーを構成します。 
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30.png](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 2. [**サード パーティ製ビデオ配信プロバイダー**] で次を実行します。 
 
-    ![Microsoft Teams 管理センターのサード パーティ製ビデオ配信プロバイダーの設定](../media/teams-live-events-settings-distribution-provider.png "ライブ イベントのサード パーティ製ビデオ配信プロバイダーの設定のスクリーン ショット")
+    ![管理センターでのサードパーティのビデオ配布プロバイダの設定](../media/teams-live-events-settings-distribution-provider.png "ライブイベントのサードパーティのビデオ配布プロバイダー設定のスクリーンショット")
 
     - **サード パーティ製配信プロバイダーを使用する** これを選択してサード パーティ製ビデオ配信プロバイダーを有効にします。
     - **SDN プロバイダー名** お使いのプロバイダーを選択します。

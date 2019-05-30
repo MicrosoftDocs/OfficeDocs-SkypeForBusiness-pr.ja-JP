@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Skype for Busineses をセットアップして、組織のボイスメールの既定応答メッセージで別の言語を使用する方法を説明します。 '
-ms.openlocfilehash: f36ab76f0a83fc71f9d7ca668020dcd30f4808d6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5502bea261e3313bed2dae854ca23d6a27f4f8b8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283457"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494571"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 
@@ -51,11 +51,11 @@ ms.locfileid: "34283457"
     
 2. Microsoft 365 管理センターで、[**組織プロファイル**の**設定** > ] を選択します。 
     
-     ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![[設定]、[組織プロファイル] の順に選択したスクリーンショット。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. [ **編集**] を選びます。
     
-    ![Choose Edit.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![[編集] オプションが表示されたスクリーンショット。](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
 4. [ **優先言語**] リストから、組織内のすべてのユーザーのための言語を選択します。
     

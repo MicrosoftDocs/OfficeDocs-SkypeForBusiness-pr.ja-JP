@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams の患者向けアプリ EHR の統合
-ms.openlocfilehash: f157061666dc72a8420b9b9331387b42d6918cea
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: d2177e4201a1c7d7087a4c04ffffbbf52dd7366c
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865039"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548311"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>電子医療記録を Microsoft Teams に統合する
 
@@ -39,7 +39,7 @@ ms.locfileid: "33865039"
 
 次に、患者アプリのアーキテクチャを示します。
 
-![患者のアプリのアーキテクチャ](../../media/patients-app-architecture.png)
+![患者のアプリアーキテクチャの図](../../media/patients-app-architecture.png)
 
 以下のセクションでは、患者アプリと統合するために、FHIR server (または EHR が有効な FHIR Api) が満たす必要のある、FHIR 専用データアクセスレイヤーの要件について説明します。これには、次のものが含まれます。
 
@@ -71,7 +71,7 @@ ms.locfileid: "33865039"
 4. 準拠ステートメントをホストしているメタデータエンドポイントは、認証トークンなしでアクセスできる必要があります。
 5. パートナーサービスは、患者アプリのトークンエンドポイントを提供し、クライアントの資格情報フローを使ってアクセストークンを要求します。 次の例のように、認証サーバーごとのトークン url は、FHIR サーバーのメタデータから取得された、FHIR 準拠 (機能) ステートメントの一部である必要があります。
 
-![患者アプリ5](../../media/Patient-app-5.png)
+![コードサンプルのトークン URL のスクリーンショット](../../media/Patient-app-5.png)
 
 アクセストークンの要求は、次のパラメーターで構成されます。
 
@@ -93,7 +93,7 @@ AAD テナントをプロバイダーエンドポイントにマッピングす�
 
 認証とルーティングのワークフローは、次のようになります。
 
-![患者アプリ6](../../media/Patient-app-6.png)
+![認証とルーティングワークフローの図](../../media/Patient-app-6.png)
 
 1. 送信することにより、アプリアクセストークンを要求します。
  
@@ -125,7 +125,7 @@ AAD テナントをプロバイダーエンドポイントにマッピングす�
 
 患者のアプリはプライベートプレビュー版ですが、エンドツーエンドのパフォーマンスに保証はありません。 パフォーマンスの要因としては、正常性システムの環境内の EHR から、相互運用性パートナーとそのインフラストラクチャ (FHIR サーバーを含む)、および Office 365 エコシステムを含む、ワークフローに関連するすべてのホップの相対的な待ち時間が含まれます。患者アプリ。
 
-![相互運用パートナー](../../media/FHIR.png)
+![相互運用パートナーのパフォーマンスの図](../../media/FHIR.png)
 
 ## <a name="get-started-with-fhir"></a>FHIR の使用を開始する  
 
@@ -151,7 +151,7 @@ HSPC オープンサンドボックス EHR 環境を使用して、オープン�
 
 4. チーム所有者として [全般] チャネルに移動し、[患者] タブをクリックします。次に、EHR モードと手動モードの2つのオプションが表示される最初の実行環境が表示されます。 [EHR]**モード**を選び、Fhir サーバーのエンドポイント (前述の仕様に含まれているすべての必要なデータとリソースが前に設定されています) を Link フィールドにコピーして、その接続に FHIR サーバーを表す名前を付けてください。 [接続] をクリックすると、すべての機能を使い始めることができます。
 
-    ![患者のアプリのサーバー設定](../../media/patients-server.png)
+    ![患者のアプリのサーバー設定のスクリーンショット](../../media/patients-server.png)
 
 5. このアプリを使って FHIR サーバー/EHR から患者を検索し、それをリストに追加して、問題が解決しない場合は[フィードバック](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)を送信してください。 また、患者の > FHIR サーバーフローの完全認証バージョンを確立するには、前に説明したメール要求を通じて、Microsoft Teams for the 医療製品エンジニアリングのオフライン操作を行ってください。この機能を有効にするには、FHIR インターフェイスドキュメントで説明した認証要件に従ってください。  
 

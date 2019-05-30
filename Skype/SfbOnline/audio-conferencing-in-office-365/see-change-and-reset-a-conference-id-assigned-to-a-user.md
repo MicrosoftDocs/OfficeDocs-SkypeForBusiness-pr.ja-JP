@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Skype of business オンライン のユーザーに会議 ID を割り当てる方法と、会議ID パラメーターのあるべき姿について学びます。 '
-ms.openlocfilehash: 28d18b6a12fdfcb40fa43904b8cc8a0461977c38
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f7cfe83d77ce9d182eca0d28a0c2c37da5cccb16
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298923"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494218"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Skype of businessオンラインのユーザーに割り当てられている会議 ID を表示させリセットしてください。
 
@@ -45,7 +45,7 @@ ms.locfileid: "34298923"
 
 ### <a name="to-view-the-conference-id"></a>会議 ID を表示するには
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 会議 ID を表示し、ユーザーに送信することができます。
 
@@ -75,7 +75,7 @@ ms.locfileid: "34298923"
 
 例えば忘れてしまったなどの場合のために、ユーザーの会議 ID をリセットできます。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 

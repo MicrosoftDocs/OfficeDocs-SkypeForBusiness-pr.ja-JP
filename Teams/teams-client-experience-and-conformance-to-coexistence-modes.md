@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
-description: クライアント エクスペリエンスのチームとの共存モードに comformance
+description: Teams のクライアントエクスペリエンスと comformance の共存モード
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,65 +15,65 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91a67c7fb9afb5633494815129d141d5a08708d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 08bc09ac316a41dfe7ff39bc741dbaa514f30044
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930343"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548654"
 ---
 <a name="about-upgrade-basic"></a>
 
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams のクライアント エクスペリエンスおよび共存モードへの準拠
 
 > [!NOTE]
-> このページは、ユーザーは、Skype のビジネス ・ モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) のいずれかで、時に、チームのクライアントの動作で、最近リリースされた重要な変更の内容を説明します。
+> このページでは、ユーザーが Skype for Business モード (SfBOnly、Sfbwithteams、SfBWithTeamsCollabAndMeetings) に参加しているときに、Teams クライアントの動作について最近公開された重要な変更点について説明します。
 
 
-共存モードの目的は、エクスペリエンスを提供する単純かつ予測可能なエンド ・ ユーザーの組織の移行とビジネス用の Skype からのチームには。  チームに移動する組織、TeamsOnly モードは、各ユーザーの最終的な宛先を同時に TeamsOnly (または他のモード) に割り当てられる必要はないすべてのユーザーです。  ユーザーが TeamsOnly モードに到達する前に、組織は Skype for Business の任意のモード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) を使用して、TeamsOnly であるユーザーとまだ TeamsOnly ではないユーザー間の予測可能な通信を確保することができます。 
+共存モードの目的は、組織が Skype for Business から Teams に移行するときに、エンドユーザーが簡単で予測可能なエクスペリエンスを提供することです。  チームに移行する組織の場合、Teams Sonly モードは各ユーザーの最終的な送信先です。ただし、すべてのユーザーが同時に Teams Sonly (または他のモード) を割り当てる必要はありません。  ユーザーが TeamsOnly モードに到達する前に、組織は Skype for Business の任意のモード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) を使用して、TeamsOnly であるユーザーとまだ TeamsOnly ではないユーザー間の予測可能な通信を確保することができます。 
 
-ユーザーは、Skype のビジネス モードのいずれかでは、ビジネスのクライアントのユーザーの Skype にすべての着信のチャットや通話がルーティングされます。 エンド ・ ユーザーの混乱を防止し、適切なルーティングを確保する、ユーザーは、Skype のビジネス モードのいずれかで、チームのクライアントでの通話やチャットの機能が無効になります。 同様に、チームでミーティングのスケジュール設定は SfBOnly または SfBWithTeamsCollab モードでは、ユーザーがいる場合は明示的に無効になってし、SfBWithTeamsCollabAndMeetings モードでは、ユーザーとを明示的に有効にします。   
+ユーザーが Skype for Business モードのいずれかに入っている場合、着信するすべてのチャットと通話はユーザーの Skype for Business クライアントにルーティングされます。 ユーザーが Skype for Business モードのいずれかを使用している場合、エンドユーザーの混乱を回避して、適切なルーティング、チームクライアントの通話、チャット機能を無効にすることができます。 同様に、Teams での会議のスケジュール設定は、ユーザーが SfBOnly または Sfbwithteams・ SfBWithTeamsCollabAndMeetings モードになっているときに明示的に無効にし、ユーザーがモードにあるときに明示的に有効にします。   
 
-## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>モードに基づくチームのクライアントで利用可能な機能がどのように変化するか
-チームで利用可能な機能は、TeamsUpgradePolicy によって設定されるユーザーの共存モードとは異なります。 次の表は、動作をまとめたものです。
+## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>チームクライアントで利用できる機能がモードに基づいてどのように変化するか
+Teams で利用できる機能は、TeamsUpgradePolicy によって設定されるユーザーの共存モードによって異なります。 次の表は、動作をまとめたものです。
 
-|ユーザーの有効なモード|チームのクライアントで発生します。|
+|ユーザーの有効モード|Teams クライアントでの操作|
 |---|---|
-|ビジネス モードでは、Skype|通話とチャットが無効になります。|
-|SfBWithTeamsCollabAndMeetings|会議のスケジュール設定があります。|
-|SfBWithTeamsCollab または SfBOnly<sup>1</sup>|会議のスケジュール設定は使用できません。|
+|任意の Skype for Business モード|通話とチャットは使用できません。|
+|SfBWithTeamsCollabAndMeetings|会議のスケジュールを使用できます|
+|Sfbwithteamsの小条件<sup>1</sup>または Sfbのみ|会議のスケジュールを使用できない|
 |||
 
-次のスクリーン ショットは、TeamsOnly または島のモードとその他のすべてのモードの違いを示しています。 チャットと通話のアイコンは、TeamsOnly または島モード (スクリーン ショットを左)、しない場合は、その他のモード (右のスクリーン ショット) で使用に注意してください。
+次のスクリーンショットは、TeamsOnly モードとその他のすべてのモードの違いを示しています。 チャットと通話のアイコンは、TeamsOnly または諸島モード (左のスクリーンショット) で利用できますが、その他のモード (右のスクリーンショット) では使用できません。
 
-![チーム モードの比較を示しています。](media/teams-mode-comparison.png)
+![Teams のモードの並列比較](media/teams-mode-comparison.png)
 
 
  
 **注:**
-ここでは、SfBwithTeamsCollab と SfBOnly<sup>1</sup>の動作は同じですが、SfBOnly モードでもチームでのチャネル、およびファイルの機能を無効にすることが目的ただし、設定されていない現在無効にするチームでこの機能を可能にします。
+<sup></sup>現時点では、sfbwithteamscollab と sfbは同じように動作しますが、sfbonly モードの場合は、Teams のチャネルとファイルの機能も無効にすることを目的としています。ただし、現在のところ、Teams でこの機能を無効にできる設定はありません。
 
 
-## <a name="impact-of-mode-on-other-policy-settings"></a>モードの他のポリシー設定への影響
-前述のとおり、ユーザーの共存モードへの影響は、ユーザーのチームのクライアントでどのような機能があります。 これは、あるモードの値が優先モードによって、他のポリシー設定の値を意味します。 具体的には、共存モードは、次のポリシー設定を有効にするかどうか影響します。
+## <a name="impact-of-mode-on-other-policy-settings"></a>他のポリシー設定でのモードの影響
+上で説明したように、ユーザーの共存モードの影響は、ユーザーのチームクライアントで利用できる機能です。 これは、モードに応じて、他のポリシー設定の値よりもモードの値が優先されることを意味します。 特に、共存モードでは、次のポリシー設定が有効になっているかどうかが影響を受けます。
 
-|**モーダルかどうか (アプリケーション)**|**Policy.Setting**|
+|**モダリティ (アプリ)**|**ポリシー。設定**|
 |---|---|
-|チャット|TeamsMessagingPolicy.AllowUserChat|
-|通話|TeamsCallingPolicy.AllowPrivateCalling|
-|会議のスケジュール|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
+|チャット|Teams の Messagingポリシー AllowUserChat|
+|通話|TeamAllowPrivateCalling|
+|会議のスケジュール|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy の会議のスケジュール|
 |||
 
-管理者が必要*ない*共存モードが、それが重要であるこれらの設定効果的に動作する次のように特定のモードを理解するときにこれらのポリシー設定を明示的に設定します。 
+管理者は、共存モードの使用時にこれらのポリシー設定を明示的に設定する必要はあり*ません*が、これらの設定が特定のモードで次のように効率的に動作することを理解しておくことが重要です。 
 
-|Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
+|Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|Allowchannel会議のスケジュール|
 |---|---|---|---|---|
 |TeamsOnly または諸島|有効|有効|有効|有効|
 |SfBWithTeamsCollabAndMeetings|無効|無効|有効|有効|
-|SfBWithTeamsCollab または SfBOnly|無効|無効|無効|無効|
+|Sfbwithteamsの各アシスタントまたは Sfbのみ|無効|無効|無効|無効|
 ||||||
 
-PowerShell を使用する場合、`Grant-CsTeamsUpgradePolicy`コマンドレットは、これらの設定は、TeamsUpgradePolicy によって上書きされますが、その場合を決定するには、TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy に対応する設定の構成を確認します。PowerShell では、情報メッセージが提供されます。  上記で述べたようにこれらのポリシー設定を設定する必要はありません。 以下には、次のようにどのような PowerShell の警告の例を示します。
+PowerShell を使用して`Grant-CsTeamsUpgradePolicy`いる場合、コマンドレットは、TeamsMessagingPolicy、TeamTeamsMeetingPolicy のポリシー、およびの対応する設定の構成を確認し、それらの設定が TeamsUpgradePolicy によって置き換えられるかどうかを判断します。情報メッセージは PowerShell で提供されます。  上記で説明したように、他のポリシー設定を設定する必要はありません。 以下に、PowerShell の警告の例を示します。
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

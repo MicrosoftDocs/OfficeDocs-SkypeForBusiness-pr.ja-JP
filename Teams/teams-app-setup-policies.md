@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Microsoft Teams のアプリセットアップポリシーの概要と、それらを使ってアプリを固定して組織内のユーザーのためにチームをカスタマイズする方法について説明します。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: f4dd1cac59cd15efa014aa2efbe83b0cb6e4f991
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e26dc18f056f3493f6fcbdea2edee747d8abfa0b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294018"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548822"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -37,13 +37,13 @@ ms.locfileid: "34294018"
 
 |Teams のデスクトップクライアント  |Teams モバイルクライアント |
 |---------|---------|
-|![app-setup-policies-desktop-app-bar](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![app-setup-policies-mobile-app-bar](media/app-setup-policies-mobile-app-bar.png)      |
+|![Teams のデスクトップクライアントを示すスクリーンショット](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Teams モバイルクライアントを示すスクリーンショット](media/app-setup-policies-mobile-app-bar.png)      |
 
 アプリセットアップポリシーは、Microsoft Teams 管理センターで管理します。 グローバル (組織全体の既定) ポリシーを使用するか、カスタムポリシーを作成してユーザーに割り当てることができます。 組織内のユーザーは、カスタムポリシーを作成して割り当てる場合を除き、自動的にグローバルポリシーを取得します。
 
 グローバルポリシーの設定を編集して、目的のアプリを含めることができます。 組織内のさまざまなユーザーグループのチームをカスタマイズする場合は、1つ以上のカスタムポリシーを作成して割り当てます。 ユーザーにカスタムポリシーが割り当てられている場合は、そのポリシーがユーザーに適用されます。 ユーザーにカスタムポリシーが割り当てられていない場合は、グローバルポリシーがユーザーに適用されます。
 
-![app-setup-policies](media/app-setup-policies.png)
+![[アプリセットアップポリシー] ページを示すスクリーンショット](media/app-setup-policies.png)
 
 > [!NOTE]
 > 教育機関向けの Teams をお持ちの場合は、現時点ではグローバルポリシーで割り当てアプリが既定で固定されていることを知っておくことが重要です。現在のところ、グローバルポリシーには表示されません。 チームクライアントの固定されたアプリの一覧で4番目のアプリになります。
@@ -58,11 +58,11 @@ Microsoft Teams 管理センターを使用して、カスタムポリシーを�
 4. ユーザーがカスタムアプリを Teams にアップロードできるようにするかどうかに応じて、[**カスタムアプリのアップロードを許可**する] をオンまたはオフにします。
 5. [固定された**アプリの追加**] ウィンドウで、追加するアプリを検索し、[**追加**] をクリックします。 アプリのアクセス許可ポリシーによってアプリをフィルター処理することもできます。 アプリの一覧を選択したら、[**追加**] をクリックします。
 
-     ![app-setup-policies-add-apps](media/app-setup-policies-add-apps.png)
+     ![[固定アプリの追加] ウィンドウを示すスクリーンショット](media/app-setup-policies-add-apps.png)
 
 6. Teams で表示する順序でアプリを配置し、[**保存**] をクリックします。
 
-    ![app-setup-policies-new-policy-setup](media/app-setup-policies-new-policy-setup.png)
+    ![[固定されたアプリ] セクションを示すスクリーンショット](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>アプリのセットアップポリシーを編集する
 
@@ -86,7 +86,7 @@ Microsoft Teams 管理センターを使用して、カスタムポリシーを�
 2. **[割り当てられているポリシー]** の隣にある **[編集]** を選択します。
 3. [ **Teams アプリセットアップポリシー**] で、割り当てるアプリセットアップポリシーを選択し、[**保存**] を選択します。
 
-    ![app-setup-policies-assign-policy](media/app-setup-policies-assign-policy.png)
+    ![[ユーザーポリシーの編集] ウィンドウが表示されたスクリーンショット](media/app-setup-policies-assign-policy.png)
 
 また、次のように、1人または複数のユーザーにアプリセットアップポリシーを割り当てることもできます。
 
@@ -157,7 +157,7 @@ Teams app store にはすべての Teams アプリが一覧表示されます。
 |Teams のデスクトップクライアント |Teams モバイルクライアント |
 |---------|---------|
 |Teams のサイドにあるアプリバーで、[...] をクリックします。 **その他のアプリ**。| チームの下部付近にあるアプリバーで、上にスワイプします。|
-|![app-setup-policies-desktop-more-apps](media/app-setup-policies-desktop-more-apps.png)<br>   |![app-setup-policies-mobile-more-apps](media/app-setup-policies-mobile-more-apps.png)  
+|![Teams デスクトップクライアントでその他のアプリを示すスクリーンショット](media/app-setup-policies-desktop-more-apps.png)<br>   |![Teams モバイルクライアントでその他のアプリを示すスクリーンショット](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Teams のモバイルエクスペリエンスについて知っておくべきこと
 

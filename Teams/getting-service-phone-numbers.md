@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Office 365 からユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジの場合)、自動応答、通話キュー (サービス番号とも呼ばれます) などのサービスの有料または無料の電話番号を検索して取得することができます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。
-ms.openlocfilehash: b9e7e524feceb9b2449ffb290aaff1d1266799eb
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 0ffcb07a649c8fc82b3c5a6139f9692263961ef2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34336407"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494659"
 ---
 # <a name="getting-service-phone-numbers"></a>サービス電話番号を取得する
 
@@ -46,7 +46,7 @@ Office 365 ユーザー用の電話番号の取得に加え、電話会議 (会�
   
 ## <a name="get-new-service-numbers"></a>新しいサービス番号を取得する
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     

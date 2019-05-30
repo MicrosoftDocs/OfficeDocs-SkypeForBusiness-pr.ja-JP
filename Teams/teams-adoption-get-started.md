@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 500f414546b33b525043a2acb3ce7c0b7f8c9f56
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02fc59d7f770d6c4070f67370533e30e4b657c98
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896340"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548782"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Microsoft Teams の導入の推進を開始する
 
@@ -55,4 +55,4 @@ Office 365 には、サービスの主要な作業負荷に適用される導入
 各導入フェーズは、チームの技術および環境の準備によって異なります。 では、始めましょう。
 
 
-![次のステップ](media/teams-adoption-next-icon.png)のアイコン: [ [Microsoft Teams の導入フェーズ 1: 開始](teams-adoption-phase1.md)]|
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン: [Microsoft Teams の導入フェーズ 1: スタート](teams-adoption-phase1.md)|

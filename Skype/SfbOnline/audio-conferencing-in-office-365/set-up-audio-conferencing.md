@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話会議への参加に電話を使用する必要がある、社内のユーザーに対してダイヤルインまたは電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 37bdc3208934d6ef9a7d97b896988b705735c869
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343840"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494198"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Skype for Business の電話会議をセットアップする
 
@@ -74,7 +74,7 @@ ms.locfileid: "34343840"
 
 電話会議ブリッジに新規の電話番号を割り当てるには:
 
-![](../images/sfb-logo-30x30.png) sfb-logo-30x30 **Skype for business 管理センターを使用している場合:**
+![Skype for](../images/sfb-logo-30x30.png) **business 管理センターを使用し**た skype for business ロゴを示すアイコン:
 
  1. **Microsoft 365 管理センター** > **管理** > センター**チーム** > の従来の**ポータル**に移動します。
  2.  > [ ******電話番号**] を選択します。
@@ -92,7 +92,7 @@ ms.locfileid: "34343840"
 1. ダッシュボードで、[**会議** > **会議ブリッジ**] に移動します。
 2. 会議ブリッジの電話番号を選択し、[**編集**] をクリックして、既定の言語を選択します。
 
-![](../images/sfb-logo-30x30.png) sfb-logo-30x30 **Skype for business 管理センターを使用している場合**:
+![Skype for](../images/sfb-logo-30x30.png) **business 管理センターを使用し**た skype for business ロゴを示すアイコン:
 
 1. **Office 365 管理センター** > **管理** > センター**チーム** > の従来の**ポータル**に移動します。
 2. [**電話会議** > の**Microsoft bridge**] を選びます。 
@@ -110,7 +110,7 @@ ms.locfileid: "34343840"
 
 詳細については、[電話会議ブリッジの設定を変更する](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) を参照してください。
 
-![](../images/sfb-logo-30x30.png) sfb-logo-30x30 **Skype for business 管理センターを使用している場合:**
+![Skype for](../images/sfb-logo-30x30.png) **business 管理センターを使用し**た skype for business ロゴを示すアイコン:
 
 1. **Microsoft 365 管理センター** > **管理** > センター**チーム** > の従来の**ポータル**に移動します。
 2. **電話会議** > の [**Microsoft bridge の設定**] を選びます。 [**Microsoft ブリッジの設定** ] ページが開きます。 
@@ -128,7 +128,7 @@ ms.locfileid: "34343840"
 1. ダッシュボードで、[**ユーザー**] をクリックし、一覧からユーザーを選んで、[**編集**] を選びます。
 2. [電話**会議**] の横にある [**編集**] を選択し、[電話**会議**] ウィンドウで、[**有料**電話番号] と [**無料電話**番号] の一覧から番号を選びます。
 
-![](../images/sfb-logo-30x30.png) sfb-logo-30x30 **Skype for business 管理センターを使用している場合:**
+![Skype for](../images/sfb-logo-30x30.png) **business 管理センターを使用し**た skype for business ロゴを示すアイコン:
 
 1. **Microsoft 365 管理センター** > **Teams** > の**従来のポータル**に移動します。
 2. [**電話会議** > **ユーザー**] を選択し、一覧からユーザーを選択して、[**編集**] をクリックします。 

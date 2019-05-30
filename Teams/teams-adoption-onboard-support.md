@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c45425e2b709b54bcc75714852d64459ff968b5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb27e8ab8722324bbfbb9bd065c0675c6b4b1631
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896251"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494825"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Microsoft Teams のサポートについて関与する
 
@@ -34,4 +34,4 @@ ms.locfileid: "33896251"
 - [#ThisisTeams 入門ウェビナー](https://microsoftteams.eventbuilder.com/This%20is%20Teams) 
 - [Microsoft Teams IT Pro コースを有効にする](https://www.edx.org/course/enabling-teamwork-microsoft-teams-1)
 
-![次に、](media/teams-adoption-next-icon.png) 「 [Microsoft Teams の導入フェーズ 3: Scale](teams-adoption-phase3-enable.md)」という次の手順を実行します。
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン。 [Microsoft Teams の導入フェーズ 3: 縮尺](teams-adoption-phase3-enable.md)。

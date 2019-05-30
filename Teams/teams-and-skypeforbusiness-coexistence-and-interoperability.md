@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10a5fd2a1a172410a69362687146ba50cd69529
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 06655b8c43bb912409b2a1c6a42d7509f45bf651
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344571"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548798"
 ---
 ![プロジェクト定義ステージに重点を置いたアップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクト定義ステージに重点を置いたアップグレードの段階")
 
@@ -66,7 +66,7 @@ ms.locfileid: "34344571"
 
 チーム専用モードへの移行に関するその他の考慮事項については、「[チームのみモードの考慮事項](teams-only-mode-considerations.md)」を参照してください。
 
-![ユーザーがチーム専用ユーザーとしてアップグレードされた後に、特別モードで実行されている Skype For business クライアント](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "ユーザーがチーム専用ユーザーとしてアップグレードされた後に、特別モードで実行されている Skype For business クライアント")
+![Teams 確認メッセージのスクリーンショット](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "ユーザーがチーム専用ユーザーとしてアップグレードされた後に、特別モードで実行されている Skype For business クライアント")
 
 ### <a name="skype-for-business-with-teams-collaboration-this-mode-is-upcoming"></a>チームでの共同作業を行う Skype for Business (このモードは間もなく開催されます)
 
@@ -105,11 +105,11 @@ ms.locfileid: "34344571"
 
 - Skype for Business ユーザーは、チームユーザーと1対1のチャットを行うことができます。その逆も可能です。 相互運用機能のチャットは、Teams クラウドサービスの一部である相互運用ゲートウェイを通じて行う必要があります (そのため、オンラインである必要があります)。 相互運用機能のチャットはプレーンテキストです。リッチテキストと絵文字はサポートされていません。 チームのユーザーには、会話が相互運用スレッドであることが通知されます。Skype for Business ユーザーについても同様の通知が間もなく提供されます。
 
-![Teams からの相互運用チャット](media/Interop_chat_experience_from_Teams.png "Teams からの相互運用チャット")
+![Teams からの相互運用チャットエクスペリエンスのスクリーンショット](media/Interop_chat_experience_from_Teams.png "Teams からの相互運用チャット")
 
 - Skype for Business ユーザーは、1対1の音声通話とビデオ通話を Teams ユーザーに対して行うことができます。また、その逆も可能です。
 
-![Teams の相互運用通話のエクスペリエンス](media/Interop_calling_experience_from_Teams.png "Teams の相互運用通話のエクスペリエンス")
+![Teams からの相互運用通話エクスペリエンスのスクリーンショット](media/Interop_calling_experience_from_Teams.png "Teams の相互運用通話のエクスペリエンス")
 
 > [!Important]
 > Skype for Business のオンプレミス展開での相互運用エクスペリエンスには、オンプレミス環境が Office 365 Skype for Business のハイブリッドモードになっている必要があります。 詳細については、「[移行と相互運用性のガイダンス](https://aka.ms/SkypeToTeams-Interop)」を参照してください。

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b02b22ff6b38a432260b98fbfd79272448ed7a5
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 972b997a7258ce4961fe4f94af37595846aac19b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433144"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548885"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
@@ -70,7 +70,7 @@ QoS を実装するときは、いくつかの輻輳管理機能 (Cisco の優�
 
 _図2QoS キューの例_
 
-![QoS キューの図](media/Qos-in-Teams-Image2.png "利用可能な帯域幅の合計は、複数のキュー (オーディオ、ビデオ、その他のトラフィック) で分割されます。これには、さまざまな優先順位が割り当てられています。")
+![QoS キューと帯域幅区分の図](media/Qos-in-Teams-Image2.png "利用可能な帯域幅の合計は、複数のキュー (オーディオ、ビデオ、その他のトラフィック) で分割されます。これには、さまざまな優先順位が割り当てられています。")
 
 簡単な例としては、QoS によってデータネットワーク内に仮想 "相乗りレーン" が作成されるため、データの種類によっては遅延が発生しないことがあります。 これらのレーンを作成した後は、組織のユーザーに対してビジネスレベルのエクスペリエンスを提供しながら、相対的なサイズを調整して、より効率的に接続の帯域幅を管理することができます。
 

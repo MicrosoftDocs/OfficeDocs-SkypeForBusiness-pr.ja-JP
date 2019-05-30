@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a78ed7e0bb40d83f7b46d4d4a008f964180c32d0
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: 855029001863b6603548c865d5f7bfb039261a18
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185296"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494833"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および呼び出しキューの通話に Teams から直接応答する
 ===========================================================
@@ -31,7 +31,7 @@ Teams ユーザーは、クラウド自動応答からの通話の受信と応�
 
 クラウド自動応答は、ユーザーが組織にコールインしたときに、発信者が人間のオペレーターではなく、一連の音声プロンプトや音声ファイルを提供します。 自動応答により、発信者はメニュー システムを介して、通話、電話機のキーパッド (DTMF) を使用したユーザーの特定、音声認識を使用した音声入力を行うことができます。
 
-Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+クラウド通話キューには、誰かが組織の電話番号に電話をかけた際に流れる挨拶メッセージ、通話を自動的に保留する機能、および保留中に電話をかけてきた方に音楽を流し、その間に通話への対応が可能な次の電話エージェントを探す機能が含まれています。1 つまたは複数の通話キューを組織のために作成できます。
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>自動応答または通話キューの呼び出しを処理する
 
@@ -39,7 +39,7 @@ Phone System call queues include greetings that are used when someone calls in t
 
 次の図は、自動応答または通話キューからの着信がユーザーにどのように表示されるかを示しています。
 
-![着信通話の通知](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![着信通知のスクリーンショット](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 自動応答または通話キューの呼び出しに応答すると、ユーザーは他の通話 & # x2014 と同様に通話を処理できます。他のユーザに追加したり、別のユーザに会議を発信したり、通話を別の相手に転送したりできます。 また、自動応答の呼び出しは、ユーザーの設定に基づいて転送されます。
 

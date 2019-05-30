@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織外の企業や顧客が電話をかけられるように、チームまたは Skype for Business ユーザーの勤務先電話番号を割り当て、変更、または削除する方法について説明します。
-ms.openlocfilehash: f9792edf76d5d86a562516aa620bfbb62d26fdd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea2135a095a60d6da37ce4db0fb443f2e9a74154
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286286"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493899"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号を割り当て、変更、または削除する
 
@@ -54,7 +54,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
   
  ## <a name="assign-a-phone-number-to-a-user"></a>電話番号をユーザーに割り当てる
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -86,7 +86,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
 
  ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更する
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -110,7 +110,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
 
  ## <a name="remove-a-phone-number-from-a-user"></a>ユーザーの電話番号を削除する
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     

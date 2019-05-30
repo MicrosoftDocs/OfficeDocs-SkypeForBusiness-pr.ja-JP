@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の導入段階 1 - 開始
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -10,63 +10,63 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: チーム採用のスタートアップ フェーズについて説明します。
+description: チーム導入のスタートアップフェーズについて説明します。
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d01f99baba0d9a648897cd28a87979eb75f03e44
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 27278abf72c7e17ced776c936586b68f7caf08eb
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204545"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548790"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams の導入段階 1 - 開始
 
-次のアクティビティで、チームの採用を始めます。
+次のアクティビティを使用して、チームの導入を開始します。
 
-- [採用の前提条件を検証](#validate-adoption-prerequisites)します。
-- [チームをアセンブル](#assemble-your-team)します。
-- [理解するチームとチャネル](teams-adoption-understand-teams-and-channels.md)を表示します。
-- [チームで、チームが最初の設定](teams-adoption-your-first-teams.md)を、技術的な知識を構築します。
-- [評価の変更、組織の準備](teams-adoption-assess-readiness.md)をします。
+- [導入の前提条件を検証](#validate-adoption-prerequisites)する。
+- [チームを結成する](#assemble-your-team)。
+- [チームとチャネルについて](teams-adoption-understand-teams-and-channels.md)説明します。
+- [チームの最初のチーム](teams-adoption-your-first-teams.md)をセットアップして、技術的な知識を構築します。
+- [組織の変更に関する準備を評価](teams-adoption-assess-readiness.md)します。
 
-このフェーズの主な目的は、実験段階のための準備を確実にします。 マイクロソフトまたはマイクロソフトのパートナーのスキルを持つネットワークからの支援が必要なかどうかも判別します。  
+このフェーズの主な目標は、実験フェーズの準備が確実になるようにすることです。 また、Microsoft または技術パートナーのネットワークに関するサポートが必要かどうかも確認します。  
 
-## <a name="validate-adoption-prerequisites"></a>採用の前提条件を検証します。
+## <a name="validate-adoption-prerequisites"></a>導入の前提条件を検証する
 
-当社の[採用の前提条件](teams-adoption-get-started.md#adoption-prerequisites)を確認し、必要に応じてそれらを満たすためにテクニカル ・ チームと協力します。 各導入のシナリオ内でのより深いレベルの技術的な要件を説明しました。
+導入の[前提条件](teams-adoption-get-started.md#adoption-prerequisites)を確認し、必要に応じてテクニカルチームと協力して対応します。 各導入シナリオで、より詳しい技術要件に対応しています。
 
-## <a name="assemble-your-team"></a>チームを結成します。
+## <a name="assemble-your-team"></a>チームを結成する
 
-プロジェクト チームの中心的な役割を次の表にします。 小規模な組織では、これらの役割の一部が実行する同じ人が。
+以下の表は、プロジェクトチームの主要な役割を示しています。 小規模の組織では、これらの役割の一部が同じユーザーによって実行されることがあります。
 
-| ロール | 責任 | 部門 |
+| ロール | 負う | 各部 |
 | ---- | ---------------- | ---------- |
-| エグゼクティブ スポンサー<sup>1</sup> | 高度なビジョンを通信します。 チームの実装を会社のコア ・ ミッションと優先順位のイニシアティブに接続します。 | 経営幹部のリーダーシップ |
-| 成功の所有者<sup>1</sup> | チームの展開から、ビジネスの目標が実現されることを確認します。 | その他の部門 |
-| プログラム マネージャー<sup>1</sup> | チームの発表が実行され、展開プロセス全体を監視します。 | その |
-| エキスパート<sup>1</sup> | チームを宣伝する、スキルの構築をサポートおよび使用状況の情報を提供するのに役立ちます。 | 複数の部門 |
-| トレーニング リーダー | 管理し、チームのトレーニングの内容を通信します。 | IT やその他の |
-| 部門のリーダー (関係者)<sup>2</sup> | 特定の部門を識別するチームを使用し、契約をお勧めします。 | その他の部門 (管理) |
-| IT スペシャ リスト<sup>1</sup> | 統合を含む、実装のすべての技術的な側面を監視します。 | その |
-| 通信リード<sup>2</sup> | チームに関する全社的な通信を監視します。 | 企業との通信、IT、またはその他の |
-| コミュニティの管理 | Yammer ネットワークの日常的な動作を管理します。 ガイダンスおよびベスト ・ プラクティスを提供します。 | 複数の部門 |
+| エグゼクティブスポンサー<sup>1</sup> | 高レベルのビジョンを伝える。 Teams の実装を、会社の中核となるミッションと優先順位のイニシアチブに接続します。 | 経営陣のリーダーシップ |
+| 成功の所有者<sup>1</sup> | ビジネス目標がチームのロールアウトによって実現されていることを確認します。 | 任意の部門 |
+| プログラムマネージャー<sup>1</sup> | チームの起動とロールアウトプロセスの全体を監督します。 | て |
+| チャンピオン<sup>1</sup> | チームを啓蒙、スキル構築をサポートし、利用状況を把握できるようにします。 | 複数の部署 |
+| トレーニングリーダー | Teams に関するトレーニングコンテンツを管理して、コミュニケーションを取ることができます。 | IT またはその他 |
+| 部門の潜在顧客 (関係者)<sup>2</sup> | 特定の部門が Teams をどのように使用するかを特定し、契約を促します。 | 任意の部門 (管理者) |
+| IT スペシャリスト<sup>1</sup> | 統合を含む、実装のすべての技術的な側面を監督します。 | て |
+| コミュニケーションリーダー<sup>2</sup> | Teams に関する会社全体の通信を監督します。 | 企業のコミュニケーション、IT、その他 |
+| コミュニティマネージャー | 日常的な Yammer ネットワークアクティビティを管理します。 ガイダンスとベストプラクティスを提供します。 | 複数の部署 |
 
-<sup>1</sup>これらの役割は、プロジェクトの成功に不可欠です。</br>
-<sup>2</sup>これらの役割は、プログラムの全体的な成功に重要です。
+<sup>1</sup>これらの役割は、プロジェクトを成功させるために不可欠です。</br>
+<sup>2</sup>これらの役割は、プログラム全体の成功のために重要です。
 
-ほとんどの場合、この初期のチームは、少数の気の合う仲間をチームに興味があり、その実装の責任を負うこともありますをする必要があります。 移動に伴い、導入計画追加のフェーズに、チームの中でより多くの人を含まれます。 支援するために利用可能なリソースの利用を行うこともお勧めします。 
+ほとんどの場合、この最初のチームは、チームに興味を持っている合う仲間人の小さなグループであり、実装について責任を負うこともあります。 導入計画が段階的に進んでいくと、チーム内の他のユーザーも含められます。 また、サポートが必要な Microsoft のリソースを利用することをお勧めします。 
 
 ## <a name="additional-resources"></a>その他のリソース
 
-[マイクロソフト テクニカル コミュニティ](https://aka.ms/TechCommunity)では、導入し、多くの Office 365 製品の技術的な問題のピアから提供された洞察を提供します。 次のコミュニティに参加することをお勧めします。
+[Microsoft 技術コミュニティ](https://aka.ms/TechCommunity)では、多くの Office 365 製品について、導入と技術上の問題について提供されています。 次のコミュニティに参加することをお勧めします。
 
-- [マイクロソフト チームの技術的なコミュニティ](https://aka.ms/TeamsCommunity)-製品情報を取得し、他のチームのお客様から学ぶ私たちのブログを常に最新の新機能およびチームのユース ケースにします。 
-- [Office 365 のエキスパート プログラム](https://aka.ms/O365Champions)および導入の推進コミュニティ – から最高のチーム、SharePoint、Yammer、およびその他の製品などの Office 365 のワークロードの採用を推進する方法についての情報を説明します。 IT プロフェッショナル、ビジネス ユーザー、開発者は、「偶然」を開くし、クラウド サービスの導入の推進に関心を持つすべてのユーザーです。  
+- [Microsoft Teams の技術コミュニティ](https://aka.ms/TeamsCommunity)–製品についての質問を受け、他の teams のお客様から学んで、ブログをフォローして、チームの新しい機能や使用ケースを把握します。 
+- [Office 365 のエキスパートプログラム](https://aka.ms/O365Champions)と推進力のある導入コミュニティ–チーム、SharePoint、Yammer、その他の製品などの office 365 ワークロードを最適に導入する方法について、ピアから学習します。 IT プロフェッショナル、ビジネスユーザー、"偶発的" 開発者、およびクラウドサービスの導入に関心を持っているユーザーを開くことができます。  
 
 
-![次の手順を実行アイコン](media/teams-adoption-next-icon.png)次:[理解するチームとチャネル](teams-adoption-understand-teams-and-channels.md)
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[チームとチャネルについて](teams-adoption-understand-teams-and-channels.md)

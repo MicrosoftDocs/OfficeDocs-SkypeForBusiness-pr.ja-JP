@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: このトピックでは、電話システムのダイレクトルーティングを使用してメディアのバイパスを計画する方法について説明します。
-ms.openlocfilehash: 7a26f14e0fb6fec8537f04f03b6f58c252f86966
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290462"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493917"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -70,7 +70,7 @@ ms.locfileid: "34290462"
 
 - SIP シグナリングには、常にパス4と 4 (トラフィックの方向によって異なります) があります。 メディアはローカルのままでパス5b を受け取ります。
 
-![メディアのバイパスが有効になっていることを示すコールフロー、クライアントは内部で、セッションの境界コントローラーのパブリック IP に到達可能 (ダイレクトメディア)](media/direct-routing-media-bypass-3.png)
+![メディアのバイパスが有効になっている、クライアントが内部のコールフローを示しています](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>ユーザーが SBC のパブリック IP アドレスにアクセスできない場合のコールフロー
@@ -125,7 +125,7 @@ ms.locfileid: "34290462"
 
 - SIP プロキシは、チームで使用される HTTP REST シグナリングを SIP に変換するコンポーネントです。    
 
-![2つのコールフロー (メディアのバイパスを有効にしたものと、メディアのバイパスを無効にしたもの) の2つを表示します。](media/direct-routing-media-bypass-6.png)
+![メディアバイパスを有効または無効にしたコールフローを表示します](media/direct-routing-media-bypass-6.png)
 
 
 以下の表は、メディアプロセッサとトランスポートリレーの違いをまとめたものです。
@@ -273,7 +273,7 @@ Teams クライアントと3PIP 電話を使用するユーザー | 超える | 
 どちらの trunks も、同じ SBC を同じパブリック IP アドレスで指すことができます。 次の図に示すように、SBC の TLS シグナリングポートは異なっている必要があります。 注: 証明書で trunks の両方がサポートされていることを確認する必要があります。 SAN では、2つの名前 (**sbc1.contoso.com**と**sbc2.contoso.com**) を使用するか、ワイルドカード証明書を持っている必要があります。
 
 
-![両方の trunks が同じ SBC をポイントし、同じパブリック IP アドレスを持つことができることを示します)。](media/direct-routing-media-bypass-7.png)
+![両方の trunks が同じ SBC をポイントし、同じパブリック IP アドレスを持つことを示します。](media/direct-routing-media-bypass-7.png)
 
 同じ SBC で2つの trunks を構成する方法については、SBC ベンダーから提供されているドキュメントを参照してください。
 

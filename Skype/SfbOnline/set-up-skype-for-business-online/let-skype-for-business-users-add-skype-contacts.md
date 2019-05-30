@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,93 +18,93 @@ f1keywords: None
 ms.custom:
 - Setup
 - LIL_Placement
-description: 'Skype for Business を使用しているユーザーが、組織外の Skype for Business ユーザーと連絡を取り、連絡先の一覧に追加できるようにする方法を説明します。 '
-ms.openlocfilehash: 212393154cb2b730ce18f5be9b03495e747e207c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
-ms.translationtype: HT
+description: 'Skype for Business を使用しているユーザーが組織外の Skype for Business ユーザーに連絡し、連絡先リストに追加できるようにする方法について説明します。 '
+ms.openlocfilehash: afe1cb7f465a2a2e43056d01e7512f6f46c0f587
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238034"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494161"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Skype for Business ユーザーが Skype の連絡先を追加できるようにする
 
-Skype for Business では、ユーザーは無料アプリ Skype を使用するすべての人を検索し、インスタント メッセージ (IM) を送信することができます! この記事では、Skype の連絡先を追加するために必要な操作について説明します。 
+Skype for Business では、無料アプリの Skype を使用しているすべてのユーザーが、お客さまとの間で IM を検索して IM を行うことができます。 この記事では、Skype の連絡先を追加できるようにするために必要な操作について説明します。 
   
-Office 365 でこれを行うには、[管理者アクセス許可](https://support.office.com/ja-JP/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)が必要です。
+この操作を行うには、Office 365 の[管理者権限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)が必要です。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
   
-1. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) で、Office 365 管理者アカウントを使用してサインインします。
+1. Office 365 管理者アカウントでサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)します。
     
-2. Office 365 管理センターから **[管理センター** > **[Skype for Business]** の順に移動します。 
+2. Office 365 管理センターで、[**管理センター** > ]**の [Skype for business**] に移動します。 
     
-    ![Skype for Business 管理センターを選択します。](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
+    ![Skype for Business 管理センターを選びます。](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
 3. **Skype for Business 管理センター**で、[**組織**]  >  [**外部通信**] の順に選択します。 
     
-4. 既定では、ユーザーは Skype for Business を使用している世界中の他のすべてのユーザーと通信できます (ファイアウォールがこれを許可するように構成されていると仮定します)。 
+4. 既定では、ユーザーは Skype for Business を使用する世界中の他のすべてのユーザーと通信できます (ファイアウォールがこれを許可するように構成されていることを前提としています)。 
     
-    ![[ユーザーが Skype for Business を使用して Skype と通信できるようにする] を選択します。](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
+    ![[Skype for Business を使用して Skype と通信できるようにする] を選択します。](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
   
-    ユーザーが Skype ユーザーとチャットできても、Skype for Business を使用している他のユーザーとはチャットできないようにする場合は、**[許可されたドメインに対してのみ有効にする]** を選択します。 Skype ユーザーとの連絡を有効にすると、skype.com が許可されたドメインとして、自動的にバックグラウンドで追加されます。 
+    ユーザーが Skype ユーザーとチャットする必要があるが、Skype for Business を使用している他のユーザーとチャットしたくない場合は、[許可した**ドメインに対してのみオンに**する] を選びます。 Skype ユーザーとの連絡を有効にすると、skype.com は、バックグラウンドで許可されたドメインとして自動的に追加されます。 
     
-    特定の連絡先を除く、Skype For Business を使用する世界中のすべての企業からの通信を許可する場合、**[ブロックされたドメインを除く]** を選択し、**[+]** を選択して、該当するドメインを追加します。 その特定ドメインのユーザーを除く、すべてのユーザーと通信できるようになります。 (たとえば一部の企業では、訴訟において相手企業と接触していないことを確証する必要があるため、このオプションを選択する場合があります。)
+    Skype for Business を使って世界中の他のすべての企業の連絡先を許可する場合は、[**禁止**したドメイン**+** を除いてオンにする] を選んで、これらのドメインを追加します。 これらの特定のドメインのユーザーを除き、すべてのユーザーがあなたに連絡できるようになります。 (場合によっては、このオプションを選択することがあります。たとえば、訴訟の際に、他の会社との連絡が不要であることを確認する必要があります)。
     
-5. **[ユーザーが Skype for Business を使用して組織外の Skype と通信できるようにする]** を選択します。 
+5. [**ユーザーが skype For business を使って組織外の skype ユーザーと通信できるように**します] を選びます。 
     
-6.  Windows ファイアウォールを使用している場合、Skype for Business では必要なポートが自動的に開きます。
+6.  Windows ファイアウォールを使用している場合、Skype for Business は必要なポートを自動的に開きます。
     
-    組織が、別のソリューションを使用して、ネットワーク上のコンピューターのインターネット接続を制限している場合は、クライアント コンピューターがすべての [IP アドレスと URI](https://support.office.com/ja-JP/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) にアクセスして Skype 接続と Skype ディレクトリ検索を実行できるようにします。 この場合、ファイアウォールまたはプロキシ インフラストラクチャ構成で、それらを送信許可リストに追加する必要がある可能性があります。
+    組織で別のソリューションを使用して、ネットワーク上のコンピューターがインターネットに接続されないように制限する場合は、クライアントコンピューターが Skype 接続と Skype ディレクトリ検索のすべての[IP アドレスと url](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)にアクセスできることを確認します。 これには、ファイアウォールまたはプロキシインフラストラクチャ構成の送信許可リストへの追加が必要な場合があります。
     
-7. **テストするため最大 24 時間待ちます**。 外部通信の設定を変更すると、すべてのデータ センターに変更が反映されるまでに最大で 24 時間かかる場合があります。
+7. **テストに最大24時間待機**します。 外部通信設定を変更すると、すべてのデータセンターに変更が反映されるまでに最大24時間かかることがあります。
     
-8. ユーザーに、Skype for Business の連絡先の一覧に Skype の連絡先を検索し追加する方法を伝えます。 「[Skype for Business で知り合いを検索する](https://support.office.com/ja-JP/article/b12500ef-e37f-4d22-aade-c11277e53f19)」を参照してもらいます。
+8. Skype for Business の連絡先リストに Skype の連絡先を検索して追加する方法をユーザーに示します。 [Skype For business で連絡先を検索](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19)するようにユーザーに伝えます。
     
 ## <a name="test-and-troubleshoot"></a>テストとトラブルシューティング
 
-設定をテストするには、会社のファイアウォールの外側にいる Skype の連絡先が必要です。 Gmail アカウント、Outlook.com アカウント、その他のメール アカウントを使用して、Skype にサインインできます。
+セットアップをテストするには、会社のファイアウォールの背後にない Skype 上の連絡先が必要です。 Gmail アカウント、Outlook.com アカウント、またはその他の種類のメールアカウントを使用して、Skype にサインインできます。
   
-1. 外部通信設定を変更した後、**テストするため最大 24 時間待ちます**。
+1. 外部通信設定を変更したら、**最大24時間待機**してテストします。
     
-2. Skype for Business からサインアウトし、もう一度サインインすると、Skype ディレクトリの検索オプションが表示されます。 
+2. Skype for Business からサインアウトしてから、もう一度サインインすると、Skype ディレクトリを検索するオプションが表示されます。 
     
-    ![Skype ディレクトリが強調表示されていたら、Skype アカウントを持つユーザーを検索できます。](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
+    ![Skype ディレクトリが強調表示されている場合は、Skype アカウントを持っているユーザーを検索できます。](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
   
-3. Skype for Business で、Skype の連絡先を検索し、チャットの要求を送信します。 
+3. Skype for Business で、Skype で連絡先を検索し、チャットのリクエストを送信します。 
     
-    会社のポリシーが原因で送信できないというメッセージが表示される場合、[ファイアウォール設定](https://support.office.com/ja-JP/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)を再度確認する必要があります。 
+    会社のポリシーのために送信できないというメッセージが表示された場合は、[ファイアウォールの設定](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)を再確認する必要があります。 
     
-4. 問題の原因がお客様のファイアウォールかどうかを別の方法でテストするには、ファイアウォールの外側の WiFi エリア (カフェなど) に行き、Skype for Business を使用して Skype の連絡先にチャットの要求を送信します。 
+4. ファイアウォールで問題があるかどうかをテストするもう1つの方法は、喫茶店などのファイアウォールの背後にない wifi 上の場所に接続することです。 Skype for Business を使って、Skype の連絡先に要求を送信してチャットすることもできます。 
     
-   - **Skype の連絡先にリクエストを送信したのに相手が受け取っていない場合**、チャットの要求を送信するように依頼します。 Skype と Skype for Business 間の接続の確立に問題が発生していた場合は、たいていこれで解決します。
+   - **Skype コンタクトにリクエストを送信し**たが、それを受信したことがない場合は、チャットのリクエストを送信してください。 問題が Skype と Skype for business の間の接続を確立していた場合は、この問題が解決されることがよくあります。
     
-   - メッセージをカフェからは送信できる一方、職場からは送信できない場合は、問題の原因は職場のファイアウォールであることが特定できます。 
+   - メッセージがコーヒーショップで処理されているのに、仕事中にいない場合は、ファイアウォールに問題があることがわかります。 
     
-## <a name="what-you-can-and-cant-do"></a>実行できること、できないこと
+## <a name="what-you-can-and-cant-do"></a>できることとできないこと
 
-- **Mac 版 Skype for Business** では、Skype の連絡先を検索し通信する機能はありません。
+- **Mac 版 skype For business**には、skype の連絡先を検索して通信する機能がありません。
     
-- ディレクトリの検索を有効にすると、Skype ユーザーや Skype for Business ユーザーを検索できます。 何らかの理由でディレクトリを検索しても見つからない場合は、連絡先リクエストを送信して、Skype にサインインして同意してもらうことで、インスタント メッセージ (IM) の送信が可能になります。 
+- ディレクトリ検索が有効になっている場合は、Skype と Skype for business のユーザーを検索して見つけることができます。 何らかの理由でディレクトリを検索しても見つからない場合は、コンタクト要求を送信して、Skype にサインインして同意してもらうことができます。 
     
-- Google、Facebook などの他の IM プロバイダーとの IM 接続を許可することはできません。 Skype for Business を使用して、携帯電話のテキスト メッセージを送信することはできません。
+- Google や Facebook などの他の IM プロバイダーとの IM 接続を許可することはできません。 携帯電話のテキストメッセージの送信に Skype for Business を使用することはできません。
 
-- Skype の連絡先と Skype for Business の連絡先の間でオーディオまたはビデオ通話を記録することはできません。
+- Skype コンタクトと Skype for Business の連絡先との間で音声通話やビデオ通話を録音することはできません。
     
-## <a name="what-features-are-available-when-adding-skype-contacts"></a>Skype の連絡先を追加すると、どんな機能を使えますか?
+## <a name="what-features-are-available-when-adding-skype-contacts"></a>Skype の連絡先を追加するときに使用できる機能は何ですか?
 
-Microsoft アカウント (以前の Windows Live ID) でサインインしている Skype の連絡先は、Skype for Business ユーザーとの通話時に一部の機能を使えますが、すべての機能が使用できるわけではありません。
+Microsoft アカウント (旧称 Windows Live ID) でサインインした skype 連絡先は、Skype for Business ユーザーと話すときに一部の機能を使用できますが、一部の機能は利用できません。
   
-|**Skype の連絡先との間で利用できる機能**|**Skype の連絡先との間で利用できない機能**|
+|**Skype の連絡先との間で利用可能**|**Skype の連絡先との間で利用できない機能**|
 |:-----|:-----|
-| ビデオ会話 <br/>  ユーザー間のインスタント メッセージング <br/>  プレゼンス <br/> | マルチ パーティの IM 会話 <br/>  3 人以上でのオーディオやビデオによる会話 <br/>  デスクトップとプログラムの共有 <br/> |
+| ビデオ通話 <br/>  個人間のインスタントメッセージング <br/>  プレゼンス <br/> | マルチパーティの IM 会話 <br/>  3人以上のユーザーとの音声およびビデオによる会話 <br/>  デスクトップとプログラムの共有 <br/> |
    
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## <a name="related-topics"></a>関連トピック
 
-[ユーザーが外部の Skype for Business ユーザーに連絡できるようにする](allow-users-to-contact-external-skype-for-business-users.md)
+[外部の Skype for Business ユーザーに連絡できるようにする](allow-users-to-contact-external-skype-for-business-users.md)
   
-[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
+[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
   
  

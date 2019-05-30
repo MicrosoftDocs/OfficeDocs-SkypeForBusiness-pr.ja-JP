@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd1e9484b522a657a92916815c1ae8940dcc2117
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6600513cf4491aed05598439987cff8d8e7232a1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898524"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548105"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 ==============================================================
@@ -35,7 +35,7 @@ ms.locfileid: "33898524"
 
 通話プランを追加することにより、Skype for Business を使用した Office 365 機能を利用できるようになりました。これで、チームを使って、市内電話網 (PSTN) 経由で、職場や携帯電話との通話を発信および受信することができます。
 
-![Teams での通話](media/Calling_in_Teams.png)
+![Teams の [連絡先] ページを示すスクリーンショット](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams で「**通話**」タブを有効にするための前提条件
 Teams ユーザーの [**通話**] タブを有効にするには、teams で1:1 通話を有効にし、1:1 teams の通話をサポートするチームクライアントを使用する必要があります。 Teams で1:1 通話を管理する方法については、「 [Set-Csteamのポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)」を参照してください。 通話をサポートしているクライアントの詳細については、 [Microsoft Teams の制限事項と仕様](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)を参照してください。
 

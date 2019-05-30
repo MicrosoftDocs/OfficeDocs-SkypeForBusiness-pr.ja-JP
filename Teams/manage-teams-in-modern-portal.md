@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d2903e65e4ef4876f41d367ce961530020e775c
-ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
-ms.translationtype: HT
+ms.openlocfilehash: c205c8d3b4f57935c1882530815643a90357d1aa
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31740927"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548271"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 ==========================================
@@ -43,7 +43,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 チームの管理ツールは、Microsoft Teams 管理センターの [**Teams**] ノードの下にあります。 (管理センターでは、[**Teams**] > [**Manage teams (チームの管理)**] を選択します。)各チームは Offfice 365 グループによって支えられていて、このノードは自分の組織内で Microsoft Teams に対応しているグループの表示を提供します。
 
-![Teams の概要グリッド](media/manage-teams-in-modern-portal-image1.png)  
+![チームの概要グリッドのスクリーンショット](media/manage-teams-in-modern-portal-image1.png)  
 
 このグリッドには、次のプロパティが表示されます。
 
@@ -66,7 +66,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 グリッドからチームを選択し、[**編集**] ボタンを選択することによって、グループおよびチーム固有の設定を編集することができます。
 
-![チームの編集](media/manage-teams-in-modern-portal-image2.png)
+![[チームの編集] オプションのスクリーンショット](media/manage-teams-in-modern-portal-image2.png)
 
 ## <a name="team-profile"></a>チーム プロフィール
 
@@ -76,7 +76,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 - チャネルの追加または削除 (全般チャネルを削除することはできません)
 - チームおよびグループの設定の更新。
  
-![チーム プロフィール](media/manage-teams-in-modern-portal-image3.png)
+![チームプロファイルの例のスクリーンショット](media/manage-teams-in-modern-portal-image3.png)
 
 ## <a name="making-changes-to-teams"></a>チームに対する変更
 
@@ -109,7 +109,7 @@ Microsoft Teams 管理センターを開いた際に、[**チーム**] オプシ
 
 該当する GroupId に対するクエリで **{groupid}** を置き換えます。{groupid} は、Exchange Online powershell で "**ExternalDirectoryObjectId**" 属性として **"[Get-unifiedgroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** コマンドレットを使用して取得できます。　
 
-1. [Graph エクスプローラー](https://developer.microsoft.com/ja-JP/graph/graph-explorer)にアクセスします
+1. [Graph エクスプローラー](https://developer.microsoft.com/en-us/graph/graph-explorer)にアクセスします
 
 2. 左側のメニューで、Graph エクスプ ローラーにサインインします。
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b6f96b2f3dd7993d6cb3d5b732e0796a215ebae
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 25f4bb41ed5aa5c99c6edbc3a8daf70af78e882d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344650"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494419"
 ---
 # <a name="plan-my-service-management"></a>サービス管理を計画する
 
@@ -35,7 +35,7 @@ ms.locfileid: "34344650"
 サービス管理は、Microsoft Teams のエンドツーエンドの管理に関与するすべてのアクティビティとプロセスを組み込んでいます。 サービス管理の一部 (Office 365 サービス自体が構成されるインフラストラクチャコンポーネント) は、Microsoft の責任となりますが、ユーザーは、チーム、ネットワーク、および組織のさまざまな側面を管理する責任を負うものとします。それらのエンドポイントによって提供されます。
 Teams サービス管理に関する顧客の責任と、ユーザーエクスペリエンスの質を underpin している主要コンポーネントにどのように関連しているかについて詳しくは、「[サービス管理と品質の計画](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)」をご覧ください。
 
-![品質--Office 365 サービス、ネットワーク、エンドポイントの3つのコンポーネントの図。サービス管理の3つの要素が重なっています。](media/plan-my-service-management-image1.png "品質--Office 365 サービス、ネットワーク、エンドポイントの3つのコンポーネントの図。サービス管理の3つの要素が重なっています。")
+![品質の3つの構成要素の図](media/plan-my-service-management-image1.png "品質--Office 365 サービス、ネットワーク、エンドポイントの3つのコンポーネントの図。サービス管理の3つの要素が重なっています。")
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ Teams サービス管理に関する顧客の責任と、ユーザーエクス�
 
 品質経験レビューガイドには、次の図に示すように、ユーザーエクスペリエンスを向上させるための最大の影響を受ける主要な領域の一連のアクティビティが用意されています。
 
-![品質向上のために、音声、信頼性、ユーザー調査の結果として検討する主な領域。](media/plan-my-service-management-image2.png "品質向上のために、音声、信頼性、ユーザー調査の結果として検討する主な領域。")
+![品質向上のレビュー中に確認する主要な領域の図](media/plan-my-service-management-image2.png "品質向上のために、音声、信頼性、ユーザー調査の結果として検討する主な領域。")
 
 このドキュメントで説明されている領域の評価と修復を継続的に行うことで、ユーザー エクスペリエンスに悪影響がおよぶ潜在的な可能性を減らすことができます。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 

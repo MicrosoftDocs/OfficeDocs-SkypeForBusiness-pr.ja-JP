@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca0cbc4e79e43eca70b46970196f30b91bbf43f4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 163dce83326e656454a29948ccfd3b19205dc79c
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246331"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433129"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams で最初のチームとチャネルを作成する
 
@@ -62,7 +62,7 @@ Teams の左側にある **[Teams]** をクリックして、チームのリス�
 
 チームの作成後、チームに参加するようにユーザーを招待します。 個別のユーザーやグループを追加することも、連絡先グループ (旧称: 配布リスト) 全体を追加することもできます。 
 
-![[チームの作成]](media/get-started-with-teams-create-team.png "チームの名前と説明が表示されている「Get to know Teams」チームの例を示すスクリーンショット") 
+![チーム名と説明が表示されたチームの例のスクリーン ショット](media/get-started-with-teams-create-team.png "チーム名と説明が表示された「Get to know Teams」チームの例のスクリーン ショット") 
 
 ### <a name="add-a-team-owner"></a>チーム所有者を追加する
 作成したチームを探して、**[その他のオプション ˙˙˙]** > **[チームの管理]** をクリックします。 **[メンバー]** タブに移動して、チーム所有者として指名するユーザーを探します。 **[役割]** の **[所有者]** をクリックします。
@@ -70,7 +70,7 @@ Teams の左側にある **[Teams]** をクリックして、チームのリス�
 ### <a name="create-a-channel-in-a-team"></a>チームのチャネルを作成する
 作成したチームを探して、**[その他のオプション ...]** > **[チャネルの追加]** をクリックします。 **[チームの管理]** をクリックして、**[チャネル]** タブでチャネルを追加することもできます。 
 
-![[チームにチャネルを追加する]](media/get-started-with-teams-add-channel.png "[チャネルの追加] オプションや [チームの管理] オプションなど、チームの [その他のオプション] をクリックしたときに選択できるオプションを示すスクリーンショット") 
+![[その他のオプション] をクリックしたときに使用可能なオプションのスクリーン ショット](media/get-started-with-teams-add-channel.png "[チャネルの追加] オプションや [チームの管理] オプションなど、チームの [その他のオプション] をクリックしたときに選択できるオプションを示すスクリーンショット") 
 
 チャネルにわかりやすい名前を付けて、そのチャネルの目的をユーザーがすぐに理解できるようにします。 
 
@@ -78,7 +78,7 @@ Teams の左側にある **[Teams]** をクリックして、チームのリス�
 
 次に、「Get to know Teams」チームの「How do I」チャネルの例を示します。このチャネルには、Teams の Web ページ &ndash; Teams ビデオ トレーニング、Teams ヘルプ センター、および Teams ダウンロード リンクにリンクされている固定タブが示されています。 
 
-![チャネルに固定されたタブ](media/get-started-with-teams-add-tabs.png "「Get to know Teams」チームの例に固定されたタブを示すスクリーンショット。") 
+![チームの例に固定されたタブのスクリーン ショット](media/get-started-with-teams-add-tabs.png "「Get to know Teams」チームの例に固定されたタブのスクリーン ショット") 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 「[早期導入者を参加させる](get-started-with-teams-onboard-early-adopters.md)」に移動します。

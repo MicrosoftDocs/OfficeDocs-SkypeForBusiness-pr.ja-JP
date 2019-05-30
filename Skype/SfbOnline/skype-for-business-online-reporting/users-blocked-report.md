@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'このレポートと他の Skype for Business レポートを使用すると、組織全体の PSTN 利用状況などのアクティビティについて詳しく知ることができます。 '
-ms.openlocfilehash: b94245c3526011a10ddb417357bf2516968f7773
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77ce7a5ff05c4302be875a16519c2dc1a3a994de
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299574"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494007"
 ---
 # <a name="users-blocked-report"></a>ブロックされているユーザーのレポート
 
@@ -36,7 +36,7 @@ ms.locfileid: "34299574"
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Skype for Business ユーザーがブロックされたレポートにアクセスする方法
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 - **Office 365 管理センター** > **管理** > センター**の Skype for business 管理センター** > の**レポート** > **ユーザーがブロック**された場合に移動します。
     

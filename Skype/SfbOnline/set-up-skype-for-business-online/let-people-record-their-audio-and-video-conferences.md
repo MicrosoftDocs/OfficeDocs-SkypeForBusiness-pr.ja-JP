@@ -19,18 +19,18 @@ f1keywords:
 ms.custom:
 - Setup
 description: '電話会議およびビデオ会議の記録を有効にし、対処方法を説明する方法は、レコーディングには含まれていません。 '
-ms.openlocfilehash: 31c4661f0c6ec37c8c098594dcdf737248b880b6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 822a6eade4b910819a5b1ec0518086267288cc54
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285266"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494083"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>音声やビデオ会議をレコーディングする
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>組織で単一のユーザーまたはすべてのユーザーの設定を記録する既定値を選択します
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 1. **Office 365 管理センター** > **Skype for business**に移動し、[**ユーザー**] をクリックします。
     

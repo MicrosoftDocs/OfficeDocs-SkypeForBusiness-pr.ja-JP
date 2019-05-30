@@ -14,12 +14,12 @@ ms.reviewer: lucarras
 description: プライベート チャットとチャネル用に Microsoft Teams にボットを追加する方法、カスタム ボットを作成する方法、プライベート チャット用に独自のボットをサイド ロードする方法について紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ecd17e7aa5f4c814aadcfd0dfa01eb9fcdbb7f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6987c14973443e62f0be69f9872c4e248ddb026b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278172"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548846"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートのチャットやチャネルのボットを追加する
 ==========================================================
@@ -49,11 +49,11 @@ Microsoft ボット フレームワークを使用して、LOB アプリケー�
 <a name="side-load-your-own-bot-for-private-chat"></a>プライベート チャット用の独自のボットのサイド ロード
 ---------------------------------------
 
-1. ボットを作成したら、作成したボットの **アプリケーションの設定** に移動し、**アプリの設定**の **MicrosoftAppId**設定の値をコピーします。![強制表示された Microsoft アプリ ID のボットのアプリケーション設定ページのスクリーンショット](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+1. ボットを作成したら、開発したボットの**アプリケーション設定**に移動して、[**アプリの設定**] の [ **microsoft appid** ] 設定の値をコピーします。![ボット用のアプリケーション設定ページのスクリーンショット](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 
 
-2.  Microsoft Teams の [**チャット**] ウィンドウで [**Add chat icon (チャット アイコンの追加)**] を選択します。 [**To: (相手)**] にはボットの [**Microsoft App ID (Microsoft アプリ ID)**] を貼り付けます。 ![チャットを追加するアイコンと、[Microsoft App ID (Microsoft アプリ ID)] が強調表示された [To (相手)] 行が含まれているチャット ウィンドウのスクリーンショット。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+2.  Microsoft Teams の [**チャット**] ウィンドウで [**Add chat icon (チャット アイコンの追加)**] を選択します。 [**To: (相手)**] にはボットの [**Microsoft App ID (Microsoft アプリ ID)**] を貼り付けます。 ![Microsoft アプリ ID が強調表示されたチャットウィンドウのスクリーンショット](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
 
 
 
@@ -66,9 +66,9 @@ Microsoft ボット フレームワークを使用して、LOB アプリケー�
 
 1. [ボットのアプリ パッケージを作成](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)したら、Teams を開き、サイド ローディングするボットのチームを参照します。
 2. **[アプリ Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)**、アプリを Microsoft Teams に追加します。
-3. App Studio で、[**マニフェスト**エディター] タブの![スクリーンショットを選択します。](media/Adding_Bot_To_Teams.png)
+3. App Studio で、[マニフェスト**** エディター] タブの![スクリーンショットを選択します。](media/Adding_Bot_To_Teams.png)
 4. ボットを追加するには、[機能] で [ボット] を選択し、既存のボットを追加するように選択します。ドロップダウンから既存のボットを選択するか、既存のボットの Id を入力するオプションが表示されます。
-![作成済みのボットを選択します。](media/Select_Existing_Bot.png)
+![既に作成したボットの選択を表示します。](media/Select_Existing_Bot.png)
 5. アプリ パッケージの場所を参照、選択し、**開く**を選択します。
 6. ボットの名前を選択します ([範囲] セクションの [チーム] チェックボックスを忘れずに確認してください)。
 7. [テストと配布] オプションを選択します。

@@ -16,18 +16,18 @@ MS.collection:
 description: Microsoft Teams 管理センターの Teams デバイス使用状況レポートを使用して、組織内のユーザーがどのように Teams に接続しているかを確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df5b912a9a4d76fd1be2947cea6dd2750ddbaa49
-ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.openlocfilehash: 4d1e1137903dbda86a7ec3beedae32f13d1f27eb
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33495902"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548726"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams のデバイス使用状況レポート
 
 Microsoft Teams 管理センターの Teams デバイス使用状況レポートでは、ユーザーが Teams に接続する方法についての情報が提供されます。 レポートを使用すると、外出先でも、モバイルデバイスで何人のチームを使用しているかなど、組織全体で使用されているデバイスを確認できます。  
 
-![Microsoft teams 管理センターの Teams デバイス使用状況レポートのスクリーンショット](../media/teams-reports-device-usage.png "Microsoft teams 管理センターの Teams デバイス使用状況レポートのスクリーンショット")
+![管理センターでの Teams デバイスの使用状況レポートのスクリーンショット](../media/teams-reports-device-usage.png "Microsoft teams 管理センターの Teams デバイス使用状況レポートのスクリーンショット")
 
 ## <a name="view-the-report"></a>レポートを表示する
 
@@ -36,7 +36,7 @@ Microsoft Teams 管理センターの Teams デバイス使用状況レポート
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
-![Microsoft teams 管理センターの Teams デバイス使用状況レポートのスクリーンショット](../media/teams-reports-device-usage-with-callouts.png "番号付き吹き出しが表示された Microsoft teams 管理センターの teams デバイス使用状況レポートのスクリーンショット")
+![管理センターでの Teams デバイスの使用状況レポートのスクリーンショット](../media/teams-reports-device-usage-with-callouts.png "番号付き吹き出しが表示された Microsoft teams 管理センターの teams デバイス使用状況レポートのスクリーンショット")
 
 |コールアウト |説明  |
 |--------|-------------|
@@ -45,7 +45,7 @@ Microsoft Teams 管理センターの Teams デバイス使用状況レポート
 |**3**   |<ul><li>グラフの X 軸は、Teams に接続するために使用されるさまざまなデバイス (**Windows**、 **Mac**、 **iOS**、 **Android フォン**) を示しています。 </li><li>Y 軸は、選択した期間中にデバイスを使用したユーザーの数です。</li> </ul>デバイスを表すバーの上にマウスポインターを移動すると、そのデバイスを使用して Teams に接続したユーザーの数が表示されます。|
 |**4**   |この表では、ユーザーによるデバイスの使用状況の内訳を示します。 <ul><li>[**表示名**はユーザーの表示名です。 表示名をクリックすると、Microsoft Teams 管理センターのユーザーの設定ページに移動できます。 </li><li>Windows ベースのコンピューターの Teams デスクトップクライアントでユーザーがアクティブになっていた場合は、 **windows**が選択されます。</li><li>**Mac**は、ユーザーが macOS コンピューターの Teams デスクトップクライアントでアクティブになった場合に選択されます。 </li> <li>ユーザーが iOS の Teams モバイルクライアントでアクティブになっていた場合、 **ios**が選択されます。</li><li>ユーザーが Android 用の Teams モバイルクライアントでアクティブになっていた場合は、[ **android スマートフォン**を選択します。 <li>[**最後のアクティビティ**] は、ユーザーが Teams アクティビティに参加した最後の日付 (UTC) です。</li> </ul> 表に希望する情報を表示するには、表に列を追加する必要があります。 |
 |**5**   |[**列の編集**] を選択して表で列を追加または削除します。 |
-|**6**   |レポートを CSV ファイルにエクスポートしてオフラインで分析することができます。 [ **Excel にエクスポート**] をクリックし、[**ダウンロード**] タブの [**ダウンロード**] をクリックして、準備ができたらレポートをダウンロードします。<br>![ダウンロードするエクスポートされたレポートが表示された [ダウンロード] タブのスクリーンショット](../media/teams-reports-export-to-csv.png)|
+|**6**   |レポートを CSV ファイルにエクスポートしてオフラインで分析することができます。 [ **Excel にエクスポート**] をクリックし、[**ダウンロード**] タブの [**ダウンロード**] をクリックして、準備ができたらレポートをダウンロードします。<br>![エクスポートされたレポートが表示されている [ダウンロード] タブのスクリーンショット](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>関連トピック
 - [Teams の分析とレポート](teams-reporting-reference.md)

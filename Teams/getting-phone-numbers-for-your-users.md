@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'チームまたは Skype for Business の既存の電話番号を取得、移植、または転送する方法と、ユーザーに変更を表示する方法について説明します。 '
-ms.openlocfilehash: 4991ef4f9cbf32c7b87ad621b1be1554cc65406c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb71585464eb86b30024cef0a3f55fb14f648a75
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285513"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494651"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -47,13 +47,13 @@ ms.locfileid: "34285513"
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>ユーザーの電話番号を取得する
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
 2. **Microsoft Teams 管理センター** > の**従来のポータル**に移動します。
     
-3. 左側のナビゲーションで [**音声**]  >  [**電話番号**] に移動し、[**新しい番号を追加**] ![追加ボタン](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png) をクリックし、[**新しいユーザー番号**] をクリックします。
+3. 左のナビゲーションで [**音声** > **電話番号**] に移動し、[**新しい番号** ![の追加] をクリックします](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)。これはプラスアイコンで、[**新しいユーザー番号**] をクリックします。
     
     > [!IMPORTANT]
     > Skype for Business 管理センターの左のナビゲーションに [**音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、**電話システム**アドオン ライセンス、または**電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
@@ -86,7 +86,7 @@ ms.locfileid: "34285513"
     
 ## <a name="show-phone-numbers-for-your-organization"></a>組織の電話番号を表示する
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     

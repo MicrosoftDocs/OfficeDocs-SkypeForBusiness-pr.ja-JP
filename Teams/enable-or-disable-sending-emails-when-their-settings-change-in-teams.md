@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Pin が変更された場合や、Microsoft Teams で既定の電話会議番号が変更された場合に、Skype が電子メールをユーザーに送信するのを有効または無効にする方法について説明します。 '
-ms.openlocfilehash: 7cdd59c0fb83384cdfdaab82ebf2eb2ba4f91541
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 0a86316fcc331e258eb13df73693f32b7ef21814
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344091"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494643"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 
@@ -35,7 +35,7 @@ ms.locfileid: "34344091"
   
 次に示すのは、電話会議が有効になっているユーザーに送信されるメールの例です。
   
-![電話会議のメール](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![電話会議のメールメッセージの例](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>ユーザーにメールが送信されるのはいつですか?
 

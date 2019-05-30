@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft Teams でリソースアカウントを管理する方法について説明します。
-ms.openlocfilehash: a136a91fc4667ac71f6c6798ce4a0953aa0c32a6
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: a5502ccfe4a464f96175127623d5d996b6ea4921
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404303"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548240"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -82,21 +82,26 @@ Microsoft Teams または Skype for Business Online では、各通話キュー�
 
 Microsoft Teams 管理センターを使用して電話システムのライセンスと通話プランを購入した後、[**組織全体の設定** > ]**リソースアカウント**に移動します。 
 
-![.asd](media/r-a-master.png)
+![[リソースアカウント] ページのスクリーンショット](media/r-a-master.png)
 
-![数値1](media/sfbcallout1.png)
+![前のスクリーンショットで吹き出しを参照する数値1のアイコン](media/sfbcallout1.png)
 
 新しいリソースアカウントを作成するには、[ **+ 新しいアカウント**] をクリックします。 ポップアップで、リソースアカウントの表示名とユーザー名 (ドメイン名が自動的に入力されます) を入力し、[**保存**] をクリックします。
 
-![リソースアカウント](media/res-acct.png)
+![新しいリソースアカウントオプションのスクリーンショット](media/res-acct.png)
 
 次に、「一般[法人向け Office 365 でライセンスをユーザーに割り当てる](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)」の説明に従って、O365 管理センターのリソースアカウントにライセンスを適用します。
 
+### <a name="edite-resource-account-name"></a>リソースアカウント名の edite
+![数字2のアイコン。前のスクリーンショット](media/sfbcallout2.png)で吹き出しを参照すると、[**編集**] オプションを使用してリソースアカウントの表示名を編集できます。  完了したら、[**保存**] をクリックします。
+![[リソースアカウントの編集] オプションのスクリーンショット](media/r-a-edit.png)
+
 ### <a name="assignunassign-phone-numbers-and-services"></a>電話番号とサービスの割り当て/割り当て解除を行う
 
-![数値 3](media/sfbcallout3.png)リソースアカウントを作成してライセンスを割り当てたら、[**割り当て/割り当て解除**] をクリックして、通話プランサービス番号をリソースアカウントに割り当てるか、またはリソースアカウントを自動応答または通話キューに割り当てることができます。すでに存在します。 直接ルーティング番号の割り当ては、コマンドレットを使用する場合にのみ行うことができます。 通話キューまたは自動応答をまだ作成する必要がある場合は、作成時にリソースアカウントをリンクすることができます。 完了したら、[**保存**] をクリックします。
+![番号3のアイコン、前のスクリーンショット](media/sfbcallout3.png)での吹き出しの参照リソースアカウントを作成してライセンスを割り当てた後、[**割り当て/割り当て解除**] をクリックして、通話プランサービス番号をリソースアカウントに割り当てるか、割り当てることができます。既に存在する自動応答または通話キューへのリソースアカウント。 直接ルーティング番号の割り当ては、コマンドレットを使用する場合にのみ行うことができます。 通話キューまたは自動応答をまだ作成する必要がある場合は、作成時にリソースアカウントをリンクすることができます。 完了したら、[**保存**] をクリックします。
 
 次のコマンドレットを使用して、直接ルーティング番号を割り当てます。 
+
 ``` Powershell
 Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
 ```
@@ -104,10 +109,7 @@ Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhone
 > [!IMPORTANT]
 > テナントが電話システムのライセンスと通話プランを購入していない場合は、リソースアカウントに電話番号を割り当てようとしたときに、内部チェックによってエラーが発生します。 電話番号を割り当てたり、リソースアカウントをサービスに関連付けたりすることはできません。
 
-![リソースアカウントの割り当て](media/r-a-assign.png)
-
-![番号 2](media/sfbcallout2.png) [**編集**] オプションを使用して、リソースアカウントの表示名を編集できます。  完了したら、[**保存**] をクリックします。
-![リソースアカウントを編集する](media/r-a-edit.png)
+![[割り当て/割り当て解除] オプションのスクリーンショット](media/r-a-assign.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>Powershell でリソースアカウントを作成する
 

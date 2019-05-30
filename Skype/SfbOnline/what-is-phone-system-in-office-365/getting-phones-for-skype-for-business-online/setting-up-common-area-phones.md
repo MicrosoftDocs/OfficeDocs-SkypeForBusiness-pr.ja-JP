@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、一般的な市外電話の設定を構成するための展開手順について説明します。
-ms.openlocfilehash: 59b681fecfe4fe6c2b9d89c7dbea875f30152340
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7717fd9bfb641c94261d288b5b546cace50a61f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297990"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493859"
 ---
 # <a name="set-up-common-area-phones"></a>共通エリア電話機を設定する
 共用エリア電話機（CAP）は、一般に、ロビーや多くの人々が利用できるエリアに配置されます。 たとえば、受付エリアの電話機、ドアホンまたは会議室の電話機など、CAPは、ユーザーではなくデバイスとして設定され、自動的にネットワークにサインインされます。 以下の手順では、電話システムとコールプランのアカウントを設定して、所属する組織にこれらのタイプの電話機を導入する方法を説明します。
@@ -81,7 +81,7 @@ ms.locfileid: "34297990"
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>手順 3  - 共用エリア電話機のユーザー アカウントに電話番号を割り当てる
 
-![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) 電話番号を割り当てるには、 **Skype for Business 管理センター** を使用してください。
+![Skype for business のロゴ](../../images/sfb-logo-30x30.png)が表示されたアイコン Skype for **business 管理センター**を使用してユーザーに電話番号を割り当てる
 
 1. Office 365 管理センターで、>**管理センター** > **Skype for business**を管理します。
 2. **[Skype for Business 管理センター]** >  **[音声]** > **[電話番号]** に移動します。

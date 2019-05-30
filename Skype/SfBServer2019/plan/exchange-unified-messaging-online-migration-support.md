@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft は2020年2月に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止します。 この記事では、影響を受ける顧客がビジネス継続性を計画するときに知っておく必要があることについて説明します。
-ms.openlocfilehash: d959a4b3ff04a8f2de9182d0df9cc5f63941a5dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280851"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494189"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート  
+# <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
 2019年2月8日の[お知らせ](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)については、2020年2月までに Exchange ユニファイドメッセージングオンライン (ExchUMO) サービスを廃止しています。 この記事では、ビジネス継続性を計画するために、影響を受けるユーザーが知っておく必要があることについて概要を説明します。 
  
@@ -30,9 +30,9 @@ ExchUMO は、ボイスメール、自動応答、または fax 統合サービ�
 
 Exchange ユニファイドメッセージングオンラインサービスの次の機能を利用しているお客様には、次のような影響があります。
 
-1. ボイスメールサービス 
-2. 自動応答サービス 
-3. Fax の統合 
+- ボイスメールサービス
+- 自動応答サービス
+- Fax の統合
 
 > [!Note]
 > ユニファイドメッセージングでオンプレミスの Exchange Server を使用しているお客様には影響はありません。 
@@ -56,7 +56,6 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
  
     [ブログのお知らせ](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)とこの記事について理解しておくと、ユーザーのための円滑な移行を計画することができます。 クラウドボイスメール機能の詳細については、「 [Skype For business ボイスメールの確認とオプション](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8)」を参照してください。  
  
-
 2.  **Skype for Business ハイブリッドトポロジを確立する**
 
     Skype for Business ハイブリッドトポロジを確立していない場合は、これを実行してボイスメールユーザーをスムーズに移行できるようにする必要があります。 詳しくは、「 [Skype For business ハイブリッドの構成](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md)」をご覧ください。 
@@ -82,16 +81,27 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
     > [!Note]
     > ユーザーの移行タイムラインで通知を受け取り、ビジネスにとって重要な理由から移行を延期したい場合は、Microsoft サポートにお問い合わせください。 2020年2月の退職日を超えて、移行を延期することはできません。 その他の質問がある場合は、アカウントチームまたは Microsoft サポートにお問い合わせください。 Office 365 を使っているユーザーは、Office 365 管理ポータルを使用してサポート案件を送信できます。 
 
-6. **2019年5月から開始することを検討してください。**
+6. **計画された移行を選ぶことを検討する**
 
-    2019年5月の初期ボイスメールサービス移行 (移行通知を受信していない場合)、またはビジネスにとって重要期間を使用しないように移行を調整することができます。 この記事のオプトインプロセスの詳細については、2019 5 月前に更新されます。  
+    CVM への計画的なボイスメールサービスの移行をオプトインすることができます。 有効にする前に、この記事の詳細を確認してください。特に、次のセクションを参照してください。
+
+    - 移行手順 (このセクション)
+    - ExchUMO と Azure cloud ベースのサービス機能マトリックス
+    - ユーザーエクスペリエンスへの影響
+
+    管理された移行のために [オフにすると、Microsoft 365 管理ポータルのメッセージセンターで30日間の移行前の通知が表示されないことに注意してください。
+ 
+    計画された移行をオプトインするには、管理者のメールアドレスを使用して[cvm@microsoft.com](mailto:cvm@microsoft.com)にメール要求を送信します。次の情報があります。
+
+    - 優先日 (火曜日): 移行ウェーブは、毎週火曜日に実行されます。 12/3/2019 以外の火曜日の日付を選択してください。
+ 
+    - テナント ID:32 文字番号この形式では、0046728c-688 a-4472-a38f-098fec60ac6x。 テナント ID は、Microsoft 365 管理ポータルの [Azure Active Directory] か、次の PowerShell コマンドレットを実行することで確認できます。`Get-CsTenant | Select ObjectId`
+ 
+    テナントが正常に移行されると、メールの確認メッセージが表示されます。 
 
 ## <a name="appendix"></a>A
 
-### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO と Azure cloud ベースのサービス機能マトリックス 
-
-
-
+### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO と Azure cloud ベースのサービス機能マトリックス
 
 | サービス | 機能レベル | 機能 | ノート  | クラウド VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
@@ -162,8 +172,6 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
 | AA | テナント-管理機能 | PowerShell コマンドレット  |  | Y | Y    |
 | /Fax| サービス機能 | Fax の統合|  | N | Y    |
 
-
-
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>管理者向けの推奨されるテスト計画と移行後の検証
 
 ユーザーが移行された後でボイスメール機能をテストする場合は、次のシナリオを検討してください。
@@ -173,7 +181,6 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
 - ユーザーによる議事録の使用を無効にする法的またはコンプライアンスの要件が組織である場合は、移行後に無効にすることを確認します。 詳しくは、「[クラウドボイスメールの設定](/microsoftteams/set-up-phone-system-voicemail)」をご覧ください。
 - 以前に Exchange VM のポリシーとルールを構成している場合は、有効になっていることを確認します。
 - ユーザー設定を変更するためのクラウドボイスメールサービス PowerShell コマンドレットについて理解してください。  
-
 
 ### <a name="user-experience-impact"></a>ユーザーエクスペリエンスへの影響
 

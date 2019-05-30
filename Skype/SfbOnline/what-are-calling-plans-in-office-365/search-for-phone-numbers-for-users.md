@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '国または地域、都道府県、市区町村別に、ユーザーに割り当てられる電話番号を検索し、必要な番号の数を指定する方法を説明します。 '
-ms.openlocfilehash: 42f678b81b34b145e086e413bb95a53eab054167
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2630dd7853760db16497eec83be30af8a0ff0ef8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280494"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493946"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>ユーザーの電話番号を検索する
 
@@ -40,7 +40,7 @@ ms.locfileid: "34280494"
 
  **ユーザーの電話番号を検索するには**
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     

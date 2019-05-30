@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84e7dde2da777fbc0b3c5fd120d4ee88b1f98ea1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 491a3cb7bd1a3b240e88bf90a721678aaaae1410
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432614"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548391"
 ---
 # <a name="prepare-my-users"></a>ユーザーを準備する
 
@@ -125,7 +125,7 @@ ms.locfileid: "34432614"
 
 次の図は、ペルソナテーブルの例です。
 
-![ペルソナの詳細情報が記載]された表(media/prepare-my-users-image2.png "一般的な役割と、コミュニケーションとコラボレーションソリューションの依存関係を含む、ペルソナの一覧表。エグゼクティブペルソナが強調表示され、プロファイル (ライフサイクル) と機能、デバイス、トレーニングについての詳細が示されます。")
+![ペルソナの詳細情報]が表示された値の一覧(media/prepare-my-users-image2.png "一般的な役割と、コミュニケーションとコラボレーションソリューションの依存関係を含む、ペルソナの一覧表。エグゼクティブペルソナが強調表示され、プロファイル (ライフサイクル) と機能、デバイス、トレーニングについての詳細が示されます。")
 
 各ユースケースについて、プロジェクトチームで次のことを説明します。
 

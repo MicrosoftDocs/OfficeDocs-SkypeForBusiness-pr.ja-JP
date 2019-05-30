@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23d09a1d580cf933994fb116dd4df9c7e450f274
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 67ba6c1358273b78aee06861ea7cc3484f52666b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885576"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494547"
 ---
-![アップグレードの段階 (ユーザー準備ステージに重点]を置いている場合)(media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点")を置いている場合)
+![ユーザー準備ステージに重点を置いたアップグレードの段階](media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点")を置いている場合)
 
 この記事は、アップグレードが行われたユーザーの準備段階の一部であり、テクニカルレディネスステージと並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
 

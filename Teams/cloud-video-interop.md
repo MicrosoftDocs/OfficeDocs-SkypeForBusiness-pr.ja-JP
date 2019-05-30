@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a3da2281ffcc444478a32e3a4980f707acfd25f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: eed6c2d1e876e9c04e32c82c8119d7dbd4483692
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198531"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34549020"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -47,9 +47,9 @@ Microsoft Teams を使用すると、オーディオ、ビデオ、コンテン�
 
 |パートナー|パートナーソリューション|
 |----|---|
-|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect サービス</a> |
-|![Pexip 無限大](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft Teams の Pexip 無限大</a> | 
-|![BlueJeans Gateway](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft Teams の BlueJeans ゲートウェイ</a> |
+|![Polycom RealConnect のロゴ](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect サービス</a> |
+|![Pexip 無限大のロゴ](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft Teams の Pexip 無限大</a> | 
+|![BlueJeans Gateway のロゴ](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft Teams の BlueJeans ゲートウェイ</a> |
 
 ### <a name="cloud-video-interop-overview"></a>クラウドビデオの相互運用の概要
 
@@ -59,14 +59,14 @@ Microsoft Teams を使用すると、オーディオ、ビデオ、コンテン�
      
 次の図は、パートナーソリューションの上位レベルのアーキテクチャを示しています。
 
-![Teams Cloud ビデオの相互運用性パートナーソリューション](media/teams-cloud-video-interop-partner-solution.png)
+![Teams Cloud ビデオの相互運用性パートナーソリューションについて説明する図](media/teams-cloud-video-interop-partner-solution.png)
 
 
 ## <a name="deploy-cloud-video-interop"></a>クラウドビデオの相互運用機能を導入する
 
 クラウドビデオ相互運用ソリューションを展開するときは、パートナーソリューションを展開することを理解しておくことが重要です。 クラウドビデオの相互運用機能を展開するための一般的な手順を次の図に示します。
 
-![組織での CVI の展開](media/deploying-cvi.png)
+![組織での CVI の展開について説明した図](media/deploying-cvi.png)
 
 ### <a name="plan"></a>プラン
 

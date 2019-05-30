@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff3b4f745fa80ecee1033d2ca1d708bdc01e49d6
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: f3a577f3d43e3eb6942a5fdd1d704a74adfc0b67
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344862"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548518"
 ---
-![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")
+![オペレーショナルエクセレンスステージを強調したアップグレードの図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
 この記事は、お客様のアップグレード手順において、Skype for Business から Teams へのアップグレードを完了した直後に開始する、オペレーショナル エクセレンスの段階の一部を取り上げています。
 

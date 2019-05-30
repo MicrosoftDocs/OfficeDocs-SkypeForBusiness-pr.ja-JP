@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b49d3c1f602da63a7a29010193d66ae09b4feb45
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: c177ae45fdb0770b533c8725d0fb6970a80a5bc2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344445"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494064"
 ---
 ![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")
 
@@ -42,7 +42,7 @@ ms.locfileid: "34344445"
 
 このガイドのタスクとアクティビティは、次の図に示すように8つのカテゴリにグループ化されています。 これらの各カテゴリは、次のセクションで展開されます。
 
-![チームのサービス管理が構成されているタスクとアクティビティのカテゴリの一覧を示す図。](media/operate-my-service-image1.png "チームのサービス管理が構成されているタスクとアクティビティのカテゴリの一覧を示す図。この図では、サービス管理は主に顧客タスクであることも示しています。")
+![タスクとアクティビティのカテゴリの一覧を示す図](media/operate-my-service-image1.png "チームのサービス管理が構成されているタスクとアクティビティのカテゴリの一覧を示す図。この図では、サービス管理は主に顧客タスクであることも示しています。")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>チームに対して操作を実装する方法を決定します。</li></ul></td></tr>
@@ -317,7 +317,7 @@ NPS は、–100から100の範囲内のインデックスであり、顧客の�
 
 - 1 ~ 6 の Detractors は、サービスの被害を受けて増加しているお客様の不満を示しています。
 
-![NPS スケールを示す図は、0 ~ 6 の順位が detractors、7 ~ 8 は受動的で、9 ~ 10 は promoters を示しています。](media/operate-my-service-image2.png "この図は、NPS の規模を示しています。0 ~ 6 の順位は detractors、7 ~ 8 は受動的で、9 ~ 10 は promoters を示しています。")
+![NPS のスケールを示す図](media/operate-my-service-image2.png "この図は、NPS の規模を示しています。0 ~ 6 の順位は detractors、7 ~ 8 は受動的で、9 ~ 10 は promoters を示しています。")
 
 基本の NPS 番号は有用ですが、ユーザーのコメントを分析することで、最大限の価値を得ることができます。 ユーザーが他のユーザーにチームを提案する理由を理解するのに役立ちます。 これらのコメントは、品質サービスを提供するために必要な調整をプロジェクトまたはサービス管理チームが理解できるようにするために役立つフィードバックを提供します。
 

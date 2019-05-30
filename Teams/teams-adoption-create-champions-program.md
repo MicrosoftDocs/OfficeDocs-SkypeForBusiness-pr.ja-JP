@@ -17,12 +17,12 @@ search.appverid: MET150
 description: チームの導入を促進するために、チャンピオンチームのトレーニングを行う方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a077db0e49837bb575385c241877e0eedcbdec1c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4945688e5d1cdd68f4555406f3abfb7a6feefeaf
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896370"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548901"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Microsoft Teams のチャンピオン プログラムを作成する
 
@@ -30,7 +30,7 @@ ms.locfileid: "33896370"
 
 エキスパートは、以下に示すようなさまざまな方法で、発売計画全体に適合します。
 
-![エキスパートと立ち上げの計画](media/teams-adoption-champions.png)
+![チャンピオン立ち上げ計画の図](media/teams-adoption-champions.png)
 
 チャンピオン:
 
@@ -56,5 +56,5 @@ ms.locfileid: "33896370"
 
 - エキスパートを早めにトレーニングします。プログラムが開始され、月単位の会議を使用して、チャンピオンコミュニティでスキルを築くことができます。 これらのチャンスを利用して、ボード上に移動し、最初のトレーニングを実施し、コースに参加するように促し、お客様が学習段階で前進したときに従業員をサポートする準備ができていることを確認してください。  
 
-![次の手順](media/teams-adoption-next-icon.png)のアイコン:[ガバナンスクイックスタート](teams-adoption-governance-quick-start.md)
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[ガバナンスクイックスタート](teams-adoption-governance-quick-start.md)
 

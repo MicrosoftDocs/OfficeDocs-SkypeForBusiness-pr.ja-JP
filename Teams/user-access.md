@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e61a4456d926c8d939769e49968a79943c1138b4
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433280"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493756"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -70,8 +70,8 @@ PowerShell からワークロード ライセンスとして Teams を有効ま�
 
 | | | |
 |---------|---------|---------|
-|![判断ポイント アイコン。](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |判断ポイント         |<ul><li>組織全体でのチームのオンボードの計画はどのようなものですか?  (パイロットまたはオープン)</li></ul>         |
-|![次のステップ アイコン。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |次のステップ         |<ul><li>終了したパイロットによるオンボードの場合は、ライセンスまたは対象指定の通信を使用するかどうかを決定します。</li><li>決定に応じて、チームへのアクセスが許可されているパイロットユーザー (必要な場合) だけを確認するための手順を実行します。</li><li>Teams へのアクセス権を持つ (または使用しない) ユーザーを対象としたガイドラインを文書化します。</li></ul>         |
+|![判断ポイントを表すアイコン](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |判断ポイント         |<ul><li>組織全体でのチームのオンボードの計画はどのようなものですか?  (パイロットまたはオープン)</li></ul>         |
+|![次の手順を示すアイコン](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |次のステップ         |<ul><li>終了したパイロットによるオンボードの場合は、ライセンスまたは対象指定の通信を使用するかどうかを決定します。</li><li>決定に応じて、チームへのアクセスが許可されているパイロットユーザー (必要な場合) だけを確認するための手順を実行します。</li><li>Teams へのアクセス権を持つ (または使用しない) ユーザーを対象としたガイドラインを文書化します。</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>Office 365 テナントレベルでチームを管理する
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

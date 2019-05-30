@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
 description: この記事では、Microsoft Teams のルームのライフサイクルのサポートについて説明します。
-ms.openlocfilehash: 9d4fcbfa7dbe1ea60233e97f10285d01f6cfe943
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18d666e9fd0fa98e6c5a92ad7910cfe2adcb4a9e
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288520"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494723"
 ---
 # <a name="microsoft-teams-room-app-version-support"></a>Microsoft Teams Room アプリバージョンのサポート
  
@@ -38,8 +38,11 @@ Microsoft Teams のルームを実行しているデバイスの windows 10 の�
 
 (Windows 10 機能更新プログラムは、これらのデバイスでダウンロードするために用意されています) 時間ブロックから開放されているため、Microsoft Teams の会議では、アプリサポートポリシーを使用して、12か月の期間の特定の Windows 10 機能リリースがサポートされています。 Windows 10 の機能更新プログラムは6か月ごとに提供されるため、これにより、Microsoft Teams では、現在のバージョンのサポートが終了するまでの2つの追加リリースが追加されることになります。 これは、Microsoft Teams のすべてのユーザーに対して、Windows 10 のバージョンが6か月ごとにブロック解除されることも意味します。 アプリの変更が継続的に行われ、最後のブロック解除された Windows リリースに向けて開発しているため、場合によっては、新しいバージョンの Windows で使用できる Windows の機能に依存する必要があります。また、Microsoft による変更が困難になることもあります。12-18 か月前のバージョン。 Microsoft Teams 室のデバイスで発生した問題を解決するためにアプリの修正プログラムを入手したことを確認するために、これらのデバイスを最新の Windows 10 の機能更新プログラムにアップグレードすることをお客様にお勧めします。
 
-このように、Microsoft Teams のルームには、サポートされている最小バージョンの2019から開始する Windows 10 バージョン1709が必要です。 Windows 10 バージョン1703またはそれ以降のシステムには、新しいアプリのリリースは提供されません。
+このように、Microsoft Teams の会議室デバイスでは、サポートされている最小バージョンの2019から、Windows 10 バージョン1709が必要です。 Windows 10 バージョン1703またはそれ以降のシステムには、新しいアプリのリリースは提供されません。
 
+> [!NOTE]
+> Microsoft Teams の会議室デバイスが次のバージョンの Windows 10 OS と互換性がある場合、デバイスは Windows Update を通じて次のバージョンに自動的に更新されます。 Microsoft Teams 室のデバイスは、Windows 10 の次のリリースに手動で、または Windows Update for Business (WUFB) グループポリシーを使用して、"受信する更新プログラムの Windows の準備レベルを選択してください" と "選択してください" を使用してアップグレードしないでください。プレビュービルドと機能更新プログラムは、「GPO を通じて」オプションを受け取ります。 これらのグループポリシーを有効にすることで、Windows 10 OS 更新プログラムと Microsoft Teams 室アプリの間で問題が発生する可能性があることがわかっています。 
+ 
 <a name="See"> </a>  
 ## <a name="see-also"></a>関連項目
 

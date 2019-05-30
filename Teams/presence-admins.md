@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cffa4e5eef3b5b120e38b103d04adbca08bef0e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3fd6ac289df238d9f410266b1eca43a3a18f493e
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246255"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548526"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
-プレゼンスは Microsoft Teams (および Office 365 全体) のユーザーのプロファイルの一部であり、ユーザーの現在の可用性と状態を組織内の他のユーザーに対して示します。 既定では、チームを使用する組織内のすべてのユーザーは、他のユーザーがオンラインで利用できるかどうかを確認できます。
+プレゼンスは Microsoft Teams (および Office 365 全体) のユーザーのプロファイルの一部であり、ユーザーの現在の可用性と状態を組織内の他のユーザーに対して示します。 既定では、Teams を使用している組織内のユーザーは、他のユーザーがオンラインで利用できるかどうかにかかわらず、ほぼリアルタイムで表示できます。
 
 ## <a name="presence-states-in-teams"></a>Teams のプレゼンス状態
 
@@ -32,22 +32,22 @@ Teams で利用できるユーザーのプレゼンス状態は次のとおり�
 
 |ユーザー構成済み|構成済みのアプリ|
 |:--- |:---|
-| ![プレゼンスが利用可能](media/Presence_Available.png) 利用可能|![プレゼンスが利用可能](media/Presence_Available.png) 利用可能|
-|| ![利用可能な oof](media/Presence_Available_OOF.png) 利用可能、外出中 |
-|  ![少ない](media/Presence_Busy.png) 少ない |  ![少ない](media/Presence_Busy.png) 少ない  |
-|| ![少ない](media/Presence_Busy.png) 通話中|
-|| ![少ない](media/Presence_Busy.png) 会議中 |
-|| ![取り込み中 (oof)](media/Presence_Busy_OOF.png) 通話中、外出中|
-|  ![応答不可](media/Presence_DND.png) 応答不可 ||
-|| ![応答不可](media/Presence_DND.png) 発表|
-| ![位置](media/Presence_Away.png) 位置| ![位置](media/Presence_Away.png) 位置|
-|| ![](media/Presence_Away.png)退席中の最終*日時*|
-|![位置](media/Presence_Away.png) 一時退席中| |
-|| ![位置](media/Presence_Away.png)  業務時間外|
-|| ![で](media/Presence_Offline.png) で |
-|| ![未](media/Presence_Unknown.png) 状態不明|
-||![さ](media/Presence_Blocked.png) ブロックされました |
-|| ![外出中](media/Presence_OOF.png) 外出中|
+| ![使用可能かどうかを示す緑色の塗りマーク](media/Presence_Available.png) 利用可能|![使用可能かどうかを示す緑色の塗りマーク](media/Presence_Available.png) 利用可能|
+|| ![使用可能な oof を示す緑のボックスを開く](media/Presence_Available_OOF.png) 利用可能、外出中 |
+|  ![[取り込み中] を示す赤の丸](media/Presence_Busy.png) 少ない |  ![少ない](media/Presence_Busy.png) 少ない  |
+|| ![通話中にビジー状態であることを示す赤い丸](media/Presence_Busy.png) 通話中|
+|| ![会議中にビジー状態であることを示す赤い丸](media/Presence_Busy.png) 会議中 |
+|| ![[取り込み中] oof を示す赤い円を開く](media/Presence_Busy_OOF.png) 通話中、外出中|
+|  ![[応答不可] を示す赤の丸 (白線)](media/Presence_DND.png) 応答不可 ||
+|| ![プレゼンテーション中の白い線で囲まれた赤い円](media/Presence_DND.png) 発表|
+| ![退席中のことを示す黄色の時計アイコン](media/Presence_Away.png) 位置| ![位置](media/Presence_Away.png) 位置|
+|| ![黄色の時計アイコン。 [](media/Presence_Away.png)最終版] が表示されていない*状態*を示します。|
+|![退席中であることを示す黄色の時計アイコン](media/Presence_Away.png) 一時退席中| |
+|| ![退席中、作業オフを示す黄色の時計アイコン](media/Presence_Away.png)  業務時間外|
+|| ![[オフライン] を示す、x の付いた灰色の円](media/Presence_Offline.png) で |
+|| ![状態が不明であることを示す灰色の円を開く](media/Presence_Unknown.png) 状態不明|
+||![ブロックされていることを示す斜め線の付いた赤い丸を開く](media/Presence_Blocked.png) ブロックされました |
+|| ![矢印付き紫色の丸、外出中であることを示す](media/Presence_OOF.png) 外出中|
 |||
  
 ユーザーは、現在のプレゼンス状態をいくつかのオプションに手動で設定することができ、その状態は他のすべてのユーザーに反映されます。 また、ユーザーのプレゼンス情報は、ユーザーのアクティビティ (使用可能または退席中など)、Outlook の予定表の状態 (会議中など)、またはチームアプリの状態 (通話中、プレゼンテーション中) に基づいて、一覧でインデントされた状態に応じて自動的に更新されます。

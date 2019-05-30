@@ -17,16 +17,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: カスタムアプリポリシーと設定を管理して、組織内のユーザーが Microsoft Teams でカスタムアプリをアップロードできるユーザーを制御する方法について説明します。
-ms.openlocfilehash: 27123e6e943f7dc570098c36732fd0d1ba09e8af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c1aa7489761fb27f525fbb6eb8f2056ae3dd33c8
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283712"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548662"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+
+> [!NOTE]
+> Microsoft Teams でアプリを管理するための現在の方法については、「[組織の Microsoft teams の設定を管理](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)する」を参照してください。
 
 管理者として、カスタムアプリポリシーと設定を使用して、組織内のユーザーが Microsoft Teams にカスタムアプリをアップロードできるユーザーを制御することができます。 管理者は、カスタムアプリをアップロードできるユーザーを決定し、管理者とチーム所有者は、組織内の特定のチームに対してカスタムアプリの追加を許可するかどうかを決定できます。  
 
@@ -34,7 +37,7 @@ ms.locfileid: "34283712"
 
 ユーザーは、アプリパッケージ (.zip ファイル) を直接チームまたは個人用コンテキストでアップロードして、チームにカスタムアプリを追加することができます。 これは、Teams app store によってアプリを追加する方法とは異なります。 サイドローディングとも呼ばれるアプリパッケージをアップロードしてカスタムアプリを追加することで、アプリが開発中であることをテストして、広く配布する準備ができます。 また、内部使用専用のアプリを構築して、Teams app store の Teams アプリカタログに提出することなくチームと共有することもできます。
 
-![カスタムアプリをアップロードする](media/teams-custom-app-policy-and-settings-upload-app.png)
+![App store の [カスタムアプリのアップロード] オプションを示すスクリーンショット](media/teams-custom-app-policy-and-settings-upload-app.png)
 
 ## <a name="custom-app-policy-and-settings"></a>カスタムアプリのポリシーと設定
 
@@ -91,7 +94,7 @@ ms.locfileid: "34283712"
 2. [**設定**] をクリックし、[**メンバーの権限**] を展開します。
 3. [**メンバーによるカスタムアプリのアップロードを許可**する] チェックボックスをオンまたはオフにします。
 
-    ![チームのカスタムアプリの設定](media/teams-custom-app-policy-and-settings-team.png)
+    ![チームのカスタムアプリの設定を示すスクリーンショット](media/teams-custom-app-policy-and-settings-team.png)
 
 ### <a name="org-wide-custom-app-setting"></a>組織全体のカスタムアプリ設定
 
@@ -103,7 +106,7 @@ ms.locfileid: "34283712"
 2. [**組織全体のアプリの設定**] をクリックします。
 3. [**カスタムアプリ**] で、[**カスタムアプリとの対話を許可する**] をオンまたはオフにします。
 
-    ![組織全体のカスタムアプリ設定](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![組織全体のカスタムアプリ設定を示すスクリーンショット](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>カスタムアプリのポリシーと設定の連携方法
 

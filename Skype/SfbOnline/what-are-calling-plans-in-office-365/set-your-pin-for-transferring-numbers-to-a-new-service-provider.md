@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 電話番号を Skype for Business Online から別の電話サービス プロバイダーまたは通信業者に転送または移行するには、PIN を手動で設定する必要があります。 PIN を設定した後、電話番号を移行するときにその PIN を含める必要があります。
-ms.openlocfilehash: 5daea877e17582ecb85bc8d7e13db5001dcdbfc6
-ms.sourcegitcommit: 4bb900228cc55e0cbbce8c5b74b7de8df5a2288f
+ms.openlocfilehash: 7faad94822e6392d66c44dd67cb461abf69e47dd
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408511"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493926"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに移行するための PIN を設定する
 
@@ -50,7 +50,7 @@ ms.locfileid: "34408511"
     
 ## <a name="set-up-your-pin"></a>PIN の設定
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     

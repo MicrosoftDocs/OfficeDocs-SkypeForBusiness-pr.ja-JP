@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 870dcc05d174dd7f2e7b14f05b4be56ad1ce86ea
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 38b2b5e263347dd97a20da2ca7ea00068cb341c7
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827726"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433121"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 
@@ -29,7 +29,7 @@ Teams をすぐ開始するには、選択した早期導入者のグループ�
 
 Teams を使用すると、すぐに組織内外のチームとユーザーをまとめることができます。他のユーザーとチャットして、迅速で包括的な会話を促進したり、ドキュメントを安全に共有および共同編集したり、プロジェクトで反復処理を行うことができます。 共有メモ、Web ページ、およびアプリへの簡単に操作できるアクセスを追加して、Teams をカスタマイズします。 ユーザーは会議や通話を使用して、どこからでもリアルタイムで共同作業を行うことができます。 Teams によって Office 365 サービスとサードパーティ製アプリへのアクセスが簡素化され、共同作業とコミュニケーションのニーズの新たな中心になります。 最高のエクスペリエンスと一番的確なフィードバックを得るために、デスクトップとモバイルの両方のアプリケーションをインストールすることを早期導入者に勧めてください。
 
-![Teams の使用を開始する](media/get-started-microsoft-teams.png "Teams のデスクトップ クライアントとモバイル クライアントのユーザー インターフェイスを示すスクリーン ショット" ) 
+![デスクトップとモバイルのクライアント ユーザー インターフェイスが表示されたスクリーン ショット](media/get-started-microsoft-teams.png "Teams のデスクトップ クライアントとモバイルのクライアント ユーザー インターフェイスが表示されたスクリーン ショット" ) 
 
 最初のチームとチャネルのセットを展開する方法を次に示します。これにより、早期導入者はチャット、ファイル共有、共同作業を開始できます。
 

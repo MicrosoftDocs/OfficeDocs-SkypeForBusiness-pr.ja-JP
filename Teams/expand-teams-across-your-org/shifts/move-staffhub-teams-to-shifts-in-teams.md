@@ -13,19 +13,19 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74a9b23479f5357c0014ef5ef88b3f5da03ace7f
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: b6354c2edd4d8504aeb2c84715b982f6bf793d33
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865053"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548295"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft Teams で Microsoft StaffHub teams をシフトに移行する
 
 > [!IMPORTANT]
 > 2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。 2019年10月1日の StaffHub はすべてのユーザーに対して機能しなくなります。 StaffHub を開こうとしたユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。
 
-> この記事で説明されている機能は、まだリリースされていません。 これは発表されました。まもなく、2019年5月の中央に表示されます。 管理者の場合は、この機能がメッセージセンター ( [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)) で利用可能になるタイミングを確認できます。
+> この記事で説明されている機能は、まだリリースされていません。 これは、2019年6月の初頭に発表され、まもなく公開される予定です。 管理者の場合は、この機能がメッセージセンター ( [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)) で利用可能になるタイミングを確認できます。
 
 Teams のシフトアプリは、スケジュールを管理するための簡単なアプローチを提供します。また、1日のうちに発生するシフト交換とキャンセルの流れを定期的に行うことができます。 チームメンバーは、アプリやデバイス間で直接、スケジュールとシフト情報にアクセスして、ユーザー設定の設定、スケジュールの管理、休暇のリクエストを行うことができます。
 
@@ -51,9 +51,9 @@ StaffHub チームを Teams に移動しても、ロールバックオプショ�
 
 ### <a name="user-experience-when-you-move-a-team"></a>チームを移動するときのユーザーエクスペリエンス
 
-チームの StaffHub からシフトへの切り替えが発生した場合、ユーザーに対してダウンタイム (1 秒未満) が最小限に抑えられます。 チームへの移動が完了するまで、ユーザーは StaffHub を引き続き使用することができます。 移動が完了すると、チームメンバーにメッセージが表示され、チームのスケジュールにアクセスするためにチームのシフトの使用を開始する必要があることがわかります。 次に、ユーザーに表示されるメッセージの例を示します。
+チームの StaffHub からシフトへの切り替えが発生した場合、ユーザーに対してダウンタイム (1 秒未満) が最小限に抑えられます。 チームへの移動が完了するまで、ユーザーは StaffHub を引き続き使用することができます。 移動が完了すると、チームメンバーにメッセージが表示され、チームのスケジュールにアクセスするためにチームのシフトの使用を開始する必要があることがわかります。 ここでは、StaffHub チームが Teams に移動した後に StaffHub に表示されるメッセージの例を示します。
 
-![StaffHub チームが Teams に移動した後に StaffHub に表示されるメッセージの例。](../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "StaffHub チームが Teams に移動した後に StaffHub に表示されるメッセージの例")
+![ユーザーに表示されるメッセージの例。](../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "StaffHub チームが Teams に移動した後に StaffHub に表示されるメッセージの例")
 
 ## <a name="prepare"></a>備える
 

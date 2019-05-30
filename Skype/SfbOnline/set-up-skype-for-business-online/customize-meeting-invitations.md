@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
-ms.openlocfilehash: c8b31aa579edb62e9b6aec65bda5adde10726deb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6d16bf7f7d41f2706ccefd217b2d810c37a9d0f3
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285296"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494121"
 ---
 # <a name="customize-meeting-invitations"></a>会議の出席依頼をカスタマイズする
 
@@ -45,7 +45,7 @@ ms.locfileid: "34285296"
 ## <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズする
 <a name="__top"> </a>
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     

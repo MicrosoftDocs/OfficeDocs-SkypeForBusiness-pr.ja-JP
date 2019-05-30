@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: デバイス、ネットワーク、接続に関する通話分析の詳細を使用して、Microsoft Teams および Skype for Business の通話と会議でのユーザーの問題のトラブルシューティングを行います。
-ms.openlocfilehash: 2255afa0c2af8e1c672c2830009cfb34921ceed9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288197"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548981"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低品質の通話をトラブルシューティングする
 
@@ -64,19 +64,19 @@ Teams の管理者ロールの詳細については、「 [Microsoft teams の�
     
 3. **ダッシュボード**の [**ユーザー検索**] で、通話のトラブルシューティングを行うユーザーの名前または sip アドレスの入力を開始するか、[**ユーザーの表示**] を選択してユーザーのリストを表示します。
     
-    ![Microsoft Teams 管理センターでの通話分析の [ユーザー検索] ボックスのスクリーンショット。](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![通話分析の [ユーザーの検索] ボックスのスクリーンショット](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 4. リストからユーザーを選びます。
 
 5. [**通話履歴**] を選択し、トラブルシューティングする通話または会議を選択します。
     
-    ![スクリーンショットはユーザーの [通話履歴] ページを示しています。](media/use-call-analytics-to-troubleshoot-image-2.png)
+    ![ユーザーの [通話履歴] ページのスクリーンショット。](media/use-call-analytics-to-troubleshoot-image-2.png)
   
 6. [**詳細設定**] タブを選択し、良好な音質または接続の問題を示す黄色と赤色の項目を探します。
     
     各通話または会議のセッションの詳細では、小さな問題が黄色で表示されます。 (たとえば、次のスクリーンショットでは、平均ジッター、最大ジッター、平均パケット損失率の値が黄色で指定されています)。黄色で表示されているものは、通常の範囲外であり、問題の原因となっている可能性がありますが、この問題の主な原因ではない可能性があります。 赤色の問題は重大な問題であり、このセッションでは通話品質が低下する可能性が高いと考えられます。 
     
-    ![スクリーンショットはユーザーの通話履歴の [詳細設定] タブを示しています。 ](media/use-call-analytics-to-troubleshoot-image-3.png)
+    ![ユーザーの通話履歴の [詳細設定] タブのスクリーンショット ](media/use-call-analytics-to-troubleshoot-image-3.png)
   
 まれなケースとして、オーディオセッションの品質エクスペリエンスデータが受信されないことがあります。 多くの場合、呼び出しがドロップされ、クライアントが終了して接続されていることが原因です。 この場合、セッションの評価は**利用できません**。
   

@@ -10,31 +10,31 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: チームへの浸透実験フェーズを実行する方法について説明します。
+description: チーム導入の実験フェーズを実施する方法について説明します。
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 753cde4e440788f9cb59ccb2d00d2fc14f6a8cd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: af3644a89728d14070e1c8a2f6bd486d46523d4a
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930397"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548710"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams の導入段階 2 - 実験
 
-ここで、組織に関する優れたプロジェクト チームの重要な情報と武装は、チームを実験する準備が整ったら. Led は、利害関係者と良好な関係がありが組織では、意味のあるフィードバックを提供する早期採用者のための十分な数で、そのグループ内で 2 ~ 3 実世界のプロジェクトを試すことをお勧めします。 組織は、規模の大小には、かどうかは、チームがどのように以外のチャットを使用して、コラボレーションを向上させるし、ファイル ・ ストレージの機能を把握するには、このフェーズの完了をお勧めします。  
+組織に関する優れたプロジェクトチームと重要な情報が用意されているので、チームを使ってみることができます。 正の関係を持つお客様によってトップレベルのプロジェクトを実現することをお勧めします。また、適切なフィードバックを提供するために十分な数の事前採用者がいる組織もあります。 組織が大規模か小規模かにかかわらず、チームがチャットやファイルの保存機能を使用して共同作業を改善する方法について理解するために、このフェーズを完了することをお勧めします。  
 
-このフェーズでは、次の手順を完了します。
+このフェーズでは、次の手順を実行します。
 
-1. [エキスパート プログラムを作成](teams-adoption-create-champions-program.md)します。
-2. [完了、ガバナンスのクイック スタート](teams-adoption-governance-quick-start.md)をします。
-3. [ユース ケースの定義](teams-adoption-define-usage-scenarios.md)をします。
-4. [早期採用プログラムの参加者の「ファイナライズ」](teams-adoption-onboard-early-adopters.md)です。
-5. [フィードバック チャネルを設定](teams-adoption-onboard-early-adopters.md#gather-feedback)します。
-6. [ボード上のお客様のサポート スタッフを提供](teams-adoption-onboard-support.md)。
+1. [エキスパートプログラムを作成](teams-adoption-create-champions-program.md)します。
+2. [ガバナンスのクイックスタートを完了](teams-adoption-governance-quick-start.md)します。
+3. [ユースケースを定義](teams-adoption-define-usage-scenarios.md)します。
+4. [早期導入プログラムの参加者を完了](teams-adoption-onboard-early-adopters.md)します。
+5. [フィードバックチャネルを](teams-adoption-onboard-early-adopters.md#gather-feedback)セットアップします。
+6. [サポートスタッフを掲示](teams-adoption-onboard-support.md)します。
 
-![次の手順を実行アイコン](media/teams-adoption-next-icon.png)次:[エキスパート プログラムを作成します。](teams-adoption-create-champions-program.md)
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[エキスパートプログラムを作成](teams-adoption-create-champions-program.md)する

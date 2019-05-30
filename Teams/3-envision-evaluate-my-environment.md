@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94138e30f9b98b9671b53ce64bfe67dd98b3216f
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: b655a0b5507a1a4c89ff682b9abe5ac8fa994e83
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344726"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548383"
 ---
 # <a name="evaluate-my-environment"></a>環境を評価する
 
@@ -73,7 +73,7 @@ ms.locfileid: "34344726"
 
 Teams では、オーディオとビデオの技術 (コーデック) が使用されています。そのため、ほとんどのネットワーク条件で対応できます。 最適かつ一貫性のあるパフォーマンスを確保するために、Teams 用にネットワークを準備する必要があります。
 
-![品質の3つのコンポーネントとサービス管理の3つのコンポーネントの重なり方について説明した図](media/evaluate-my-environment-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。")
+![品質の3つの構成要素について説明した図](media/evaluate-my-environment-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。")
 
 ## <a name="key-takeaways"></a>重要なポイント
 

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 7b61ff671814e0c4ce46cb8492930ada73a8e5fe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f0785f28c13ea14538bf8e893e78cec6b1090aee
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298229"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493972"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Office 365 に電話番号を転送する
 
@@ -45,7 +45,7 @@ ms.locfileid: "34298229"
   > [!NOTE]
   > ダイヤルイン会議ブリッジのサービス番号、自動応答、またはその他のサービス番号、フリーダイヤル電話番号、または Skype for Business に移行する必要がある999ユーザー (加入者) 電話番号がある場合は、「[の電話番号を管理する」を参照してください。組織](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)で正しい国/地域を選択し、正しいフォームをダウンロードして、お客さまに送信してください。
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。

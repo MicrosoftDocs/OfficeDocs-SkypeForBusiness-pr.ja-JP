@@ -22,12 +22,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Skype for Business の設定を変更する方法について説明します。たとえば、音声会議やビデオ会議、通話と会議の記録などがあります。 '
-ms.openlocfilehash: 5be310e47a5094a0e424624cc711311865a5b842
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8fa6af4099238f9ab908de2ea8c37340f93c3dff
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285306"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494171"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
 
@@ -44,7 +44,7 @@ ms.locfileid: "34285306"
 
 これらの手順を実行するには、[管理者権限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     

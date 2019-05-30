@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fdd30bb6e31b88af6099d28d17acbab61080b05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d37ca22f7107598e9e1f084ed5e7dadbdfcba5df
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896273"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548830"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Microsoft Teams の使用状況シナリオを定義する
 
@@ -32,7 +32,7 @@ ms.locfileid: "33896273"
 - モダンなプロジェクト管理
 - モダンな会議
 
-![主要なシナリオ](media/teams-adoption-modernizing-core-scenarios.png)
+![3つの主要なシナリオの図](media/teams-adoption-modernizing-core-scenarios.png)
 
 次のようなその他のシナリオも考えられます。
 
@@ -41,7 +41,7 @@ ms.locfileid: "33896273"
 - 販売の生産性を向上させ、収益を伸ばす
 - ビジネスレビューを効率化する
 
-![すべてのシナリオでの Teams のユースケース](media/teams-adoption-use-cases.png)
+![すべてのシナリオについてのチームユースケースの図](media/teams-adoption-use-cases.png)
 
 このシナリオを累積的なプロセスとして扱うということは、この新しい作業方法を使用して、対する熱意、理解、信頼度を高めるという、より基本的なシナリオについて理解しましょう。 次に、も複雑なの影響を受けるその他の領域に移動します。 ビジネス上の同僚に対して、Microsoft Teams により多くの影響が及ぶため、その他のメンバーが協力して、勢いを築くことができます。 多くのお客様は、このプロセスを利用して、同僚が Microsoft Teams から価値を得る方法を学習した後に、ビジネス関係者がその取り組みを行っていることを確認します。
 
@@ -59,13 +59,13 @@ ms.locfileid: "33896273"
 
 ビジネスシナリオに関する適切な情報があるかどうかを確認するには、次の形式を使用して、作業を完了する従業員と、プロセスのビジネスオーナー所有者の観点からシナリオを文書化することを検討してください。 パスを正常に処理するには、両方のパースペクティブが必要です。
 
-![シナリオを特定するためのフレームワーク](media/teams-adoption-identify-scenarios.png)
+![シナリオを特定するためのフレームワークの図](media/teams-adoption-identify-scenarios.png)
 
 1人または複数のビジネス関係者と話すと、影響と難易度に基づいてシナリオの優先順位を付けることができます。 (シナリオによっては、上記のシナリオに追加されている場合があります)。実験フェーズの適切な候補は、影響が大きく、中程度の問題である必要があります。 これにより、作業の価値を示すことができるようになる前に、スコープクリープまたは技術的な問題によってプロジェクトが影響を受けないようにします。 グラフの例を次に示します。
 
-![シナリオへの影響と難易度](media/teams-adoption-impact-difficulty.png)
+![シナリオの影響と難易度を示す図](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
 > Microsoft では、新しい革新的な方法でチームをどのように使用するかについて、常に熱心に取り組んでいます。 私たちの [導入ディスカッションフォーラム] で #TeamsStories を共有します。 投稿にハッシュタグ **#TeamsStories**を含めます。 組織で Teams を使用する方法については、常に関心を持っています。
 
-![次のステップ](media/teams-adoption-next-icon.png)のアイコン: [初期導入][と [フィードバックの収集] を](teams-adoption-onboard-early-adopters.md)選びます。
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン。 [[初期](teams-adoption-onboard-early-adopters.md)導入] と [フィードバックの収集] を選びます。

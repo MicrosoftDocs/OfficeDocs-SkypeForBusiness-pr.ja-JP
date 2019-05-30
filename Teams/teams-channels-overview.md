@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 039838172bf155d5c050fbb59fd4cc260fdbb4c3
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 5f69760ed05f27a7fe0396c4c5d17246bebc2d1d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33864898"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494603"
 ---
 > [!NOTE]
 > 以下の情報を確認して、Teamsでのチャット、チーム、チャンネル、およびアプリを理解してください。 次に、[Teamsでのチャット、チーム、チャンネル、およびアプリの展開](deploy-chat-teams-channels-microsoft-teams-landing-page.md)に進み、Teams の立ち上げに重要な決定事項のリストを確認します。
@@ -79,7 +79,7 @@ Office 365 での Microsoft Teams 管理者である場合は、Microsoft Teams 
 
 Microsoft Teams は、縦割り組織を解体して機能横断型チームを促進することに優れています。このため、ユーザーは縦割り組織ではなく機能的なチームとして考える意識が高まります。
 
-|チームのタイプ  |考えられるチャネル  |アプリ (タブ ![タブ アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/コネクタ ![コネクタ アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/ボット ![ボット アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|チームのタイプ  |考えられるチャネル  |アプリ (タブ ![タブでフォルダーを示すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/コネクタ ![接続ブロックを示すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/ボット ![小さいロボットを示すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |売上     |年次販売会議<br></br> 四半期ビジネス レビュー<br></br> 月次売上パイプライン レビュー<br></br> 売上戦略 |Power BI<br></br>Trello<br></br>CRM<br></br>サマライズ ボット         |
 |広報活動     |プレス リリース<br></br>ニュースおよび更新情報<br></br>ファクト チェック         |RSS フィード<br></br>Twitter         |
@@ -94,7 +94,7 @@ Microsoft Teams は、縦割り組織を解体して機能横断型チームを�
 
 組織構造に整合する Teams を作成することができます。  これは、士気の向上、チーム固有のレビューの実施、従業員のオンボーディング プロセスの明確化、人員の計画についての話し合い、およびさまざまな人員にわたっての視認性の改善を行うことを考えているリーダーにとって最適です。  
 
-![チームとチャネルが Microsoft Teams 内でどのように編成されるかを示す階層図。](media/overview-of-teams-and-channels-image1.png)
+![Microsoft Teams で編成されたチームとチャネルの階層図。](media/overview-of-teams-and-channels-image1.png)
 
 ## <a name="org-wide-teams"></a>組織全体のチーム
 

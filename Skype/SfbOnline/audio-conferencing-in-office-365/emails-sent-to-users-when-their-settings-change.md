@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business Online でダイヤルイン会議の設定が変更されたときに、メールで自動的に送信される情報について説明します。 '
-ms.openlocfilehash: 7f16e4dfdb108111767f173295044ca4bdfc0475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: acdc16a1af2666dcb84599fae31a910be83ac08f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275625"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494288"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Skype for Business Online の設定が変更されたときにユーザーに送信されたメール
 
@@ -111,7 +111,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 既定では、メールはユーザーに送信されますが、電話会議のメールを受信しないようにするには、Skype for Business 管理センターまたは Windows PowerShell を使用します。 
  
-![](../images/sfb-logo-30x30.png)**Skype for business 管理センターを使用した**sfb-logo-30x30  
+![](../images/sfb-logo-30x30.png)**Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン  
     
 1. **Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
     

@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business または Microsoft Teams アプリを使用していない場合に、発信者にメッセージを表示し、会議開催者の名前やピンを集めるために使用される会議ブリッジの設定を変更する際に必要な手順を説明します。 '
-ms.openlocfilehash: eaccf6b09499c819451aabd4c1785b326f98ac6d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 97c1439325e5a9a00cacfa26e97078d2c2a91014
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344870"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494563"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 
@@ -66,7 +66,7 @@ Office 365 で電話会議を設定している場合、電話会議ブリッジ
 6. [**保存**] をクリックします。 
 
 
-## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Skype for Business 管理センターの使用
+## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![Skype for Business ロゴを示すアイコン](media/sfb-logo-30x30.png)  Skype for Business 管理センターの使用
 
  **発信者が会議に参加するときの会議エクスペリエンスを設定する**
     

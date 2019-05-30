@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77b9bb8283b7a032bb15556521200683e3bd9ccd
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: ca3365cd147cf2c6d49e3fda4dc283ce758d76e3
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433049"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548774"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft Teams で最初のチームを作成する
 
@@ -62,4 +62,4 @@ Microsoft Teams では、 [](https://docs.microsoft.com/en-us/microsoftteams/pla
 
 Teams の使用を開始すると、チームのチャット、チャネル、リソースを使用してプロジェクトを実行するために、プロジェクトチームの残りの部分が重要になります。 チームの実際の使用は、導入プロジェクトの品質にとって重要です。 メールでコアプロジェクトチームとの会話を続けて、プロジェクトの断片化を防ぐことをお勧めします。 Teams に切り替えることで、従業員が最終的に採用する動作をモデル化します。 まずトーンを設定してから、プロジェクト情報を1か所でお楽しみください。  
 
-![次の手順](media/teams-adoption-next-icon.png)を示すアイコン: [Microsoft Teams の組織はどのように準備されていますか?](teams-adoption-assess-readiness.md)
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン。 [Microsoft Teams の組織はどのように準備されていますか?](teams-adoption-assess-readiness.md)

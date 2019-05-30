@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1f663bc801a7b2d864c59051b08ae66d52123cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 389b04a00ff0941edaf0f5f2d18d7685ce37b601
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896435"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548670"
 ---
-![技術的な準備段階に重点を置いたアップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
+![テクニカルレディネスステージを強調したアップグレードの図](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
 この記事は、アップグレードが行われる技術準備段階の一部であり、ユーザーの準備段階と並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
 
@@ -63,7 +63,7 @@ ms.locfileid: "33896435"
 
 組織またはサポートパートナーは、チーム展開のテクニカルレディネスステージ (サービス管理、ネットワーク、エンドポイント) で、3つの主要コンポーネントの計画を開始する必要があります。 3 つの領域すべてを組み合わせたものが、ユーザー エクスペリエンスの品質の基本となります。
 
-![品質の 3 つのコンポーネントについて、およびサービス管理がどのようにこれらの 3 つのコンポーネントと重なっているかを示す図。](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "品質の 3 つのコンポーネントについて、およびサービス管理がどのようにこれらの 3 つのコンポーネントと重なっているかを示す図。")
+![品質の3つの構成要素を示す図](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを示す図。")
 
 #### <a name="service-management"></a>サービス管理
 
@@ -101,7 +101,7 @@ Microsoft Teams はさまざまなエンドポイントをサポートします�
 
 サービス管理は、Microsoft Teams のエンドツーエンドの管理に関与するすべてのアクティビティとプロセスを組み込んでいます。 前述したように、サービス管理の一部のコンポーネント、すなわち、Office 365 サービス自体の構成要素であるインフラストラクチャ コンポーネントについては、Microsoft が責任を負います。一方で、カスタマーは自分のユーザーに対して、Teams の多様な側面、ネットワーク、およびユーザーが提供するエンドポイントの管理について責任を負うことになります。 このドキュメントのこのセクションでは、サービス管理の観点から、カスタマーの責任について焦点をあてます。
 
-![品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。サービス管理に焦点があてられている状態。](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。サービス管理に焦点があてられている状態。")
+![品質の3つの構成要素を示す図](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを示す図。サービス管理に重点を置いています。")
 
 ### <a name="introduction-to-the-operations-guide"></a>運用ガイドの概要
 
@@ -131,7 +131,7 @@ Microsoft Teams はさまざまなエンドポイントをサポートします�
 
 品質エクスペリエンスのレビュー ガイドには、下記で図示されているユーザー エクスペリエンスの改善で影響が最大となる主要領域の評価と、その領域での修復ガイダンスを提供する、アクティビティのセットが含まれています。
 
-![品質エクスペリエンスのレビュー中に確認される主要領域を示す図。](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "品質エクスペリエンスのレビュー中に確認される主要領域を示す図。")
+![品質エクスペリエンスレビュー中に確認]した主要な領域を示す図(media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "品質エクスペリエンスレビュー中に調査される主要な領域を示す図。")
 
 このドキュメントで説明されている領域の評価と修復を継続的に行うことで、ユーザー エクスペリエンスに悪影響がおよぶ潜在的な可能性を減らすことができます。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 
@@ -157,7 +157,7 @@ Microsoft Teams はさまざまなエンドポイントをサポートします�
 
 ネットワーク品質の計画は、次のセクションでの重要項目です。
 
-![品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。ネットワークに焦点があてられている状態。](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。ネットワークに焦点があてられている状態。")
+![品質の3つの構成要素を示す図](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを示す図。ネットワークにフォーカスがある状態。")
 
 前述したように、Microsoft Teams を使い始める前に、ネットワーク品質についての計画を立てることが重要です。 ネットワークの準備に関するより詳細なガイダンスについては、「[Microsoft Teams 用に組織のネットワークを準備する](prepare-network.md)」をご覧ください。
 
@@ -274,7 +274,7 @@ Wi-Fi ネットワークの最適化には、いくつかの要素が関与し�
 
 下図で見ることができるように、エンドポイントは、ユーザーに対して高品質のエクスペリエンスを提供するための、重要な構成要素です。
 
-![品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。エンドポイントに焦点があてられている状態。](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。エンドポイントに焦点があてられている状態。")
+![品質の3つの構成要素を示す図](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを示す図。エンドポイントにフォーカスがある状態。")
 
 Microsoft Teams のエンドポイントは、PC、Mac、タブレット、モバイル デバイスなど、多くのデバイス上で実行することができます。 エクスペリエンスの一部には、デバイスだけではなく、ユーザーがどのようにしてデバイスに接続するか、たとえば、デバイスの内蔵マイク/スピーカーを使用するか、イヤホンを使用するか、最適化されたヘッドセットを使用するか、ということも組み込まれています。 最適化されたヘッドセットを使用すると、全体的なユーザー エクスペリエンスが向上します。
 

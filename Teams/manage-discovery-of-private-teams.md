@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: チームギャラリーと検索結果の提案を通じて、プライベートチームを Microsoft Teams ユーザーが検出できるかどうかを制御する方法について説明します。
-ms.openlocfilehash: 55f127ff4dc9e5e0926e606c141b78f65c799de0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faae4c53f4fa17668ea69a783211e7ebe01bd4d6
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304403"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494627"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Microsoft Teams でプライベート チームの検索を管理する
 
@@ -34,7 +34,7 @@ ms.locfileid: "34304403"
 
 ほとんどの組織には、次のような種類のチームがあります。パブリックチーム、見つけやすいプライベートチーム、非検出可能なプライベートチームがあります。
 
-![チームギャラリー](media/private-team-discovery-team-gallery.png)
+![チームギャラリーのスクリーンショット](media/private-team-discovery-team-gallery.png)
 
 ### <a name="public-teams"></a>パブリックチーム
 
@@ -52,7 +52,7 @@ ms.locfileid: "34304403"
 
 チーム所有者は、チームの検出設定を構成することにより、チーム所有者がプライベートチームを作成して検出できるようにすることができます。 既定では、新しいプライベートチームは検索可能であり、見つけることができます。 チーム所有者が検索結果と候補にプライベートチームを表示しないようにする場合は、**このチーム**の隣にある [**設定の変更**] を選択して、この設定をオフにすることができます。
 
-![新しいプライベートチームの検出設定](media/private-team-discovery-new-team.png)
+![新しいプライベートチームの検出設定のスクリーンショット](media/private-team-discovery-new-team.png)
 
 ## <a name="set-whether-existing-private-teams-are-discoverable"></a>既存のプライベートチームが検出可能であるかどうかを設定する
 
@@ -62,7 +62,7 @@ ms.locfileid: "34304403"
 
 Teams で、プライベートチームに移動し、[**その他のオプション̇̇̇** > **管理チーム**] をクリックします。 [**設定**] タブで、[**チーム探索**] を展開し、[検出**を有効にする**] チェックボックスをオフまたはオンにします。
 
-![既存のプライベートチームの検出設定](media/private-team-discovery-existing-team.png)
+![既存のプライベートチームの検出設定のスクリーンショット](media/private-team-discovery-existing-team.png)
 
 ### <a name="using-powershell-coming-soon"></a>PowerShell を使用する (近日公開)
 

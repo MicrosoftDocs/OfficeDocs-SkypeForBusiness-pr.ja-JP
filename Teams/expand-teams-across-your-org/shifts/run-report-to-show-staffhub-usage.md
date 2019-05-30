@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e66e889fbc7fb26b8fda55beb889bc95b155666d
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 59931183cadec09b2fc26a55cf7e284f51198efc
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33868197"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548208"
 ---
 # <a name="run-a-report-to-show-active-staffhub-usage"></a>レポートを実行してアクティブな StaffHub の利用状況を表示する
 
@@ -37,7 +37,7 @@ ms.locfileid: "33868197"
 4. [**アプリケーション**] の下に「 **Microsoft StaffHub**」と入力します。
 5. レポートに必要な日付の範囲を設定して、[**適用**] をクリックします。 
 
-    ![Azure ポータルでレポートを実行してアクティブな StaffHub の使用状況を表示する方法の手順を示すスクリーンショット](../../media/staffhub-active-usage-report.png)
+    ![アクティブな StaffHub の利用状況を表示する手順を示すスクリーンショット](../../media/staffhub-active-usage-report.png)
 
 ## <a name="related-topics"></a>関連トピック
 

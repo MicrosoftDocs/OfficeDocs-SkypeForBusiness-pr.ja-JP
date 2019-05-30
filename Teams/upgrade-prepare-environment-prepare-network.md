@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5454c8d4a95a6a9d1d695f74497ccf5c022d062b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: eae5cdda83c6d480951c8e370b0d445de6afbc93
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344099"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548622"
 ---
-![技術的な準備段階に重点を置いたアップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
+![テクニカルレディネスステージを強調したアップグレードの図](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
 この記事は、アップグレードが行われる技術準備段階の一部であり、ユーザーの準備段階と並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
 
@@ -38,7 +38,7 @@ ms.locfileid: "34344099"
 
 オーディオ、ビデオ、または会議を展開している場合は、その機能を利用できるようにネットワークを最適化するための追加の手順を実行することができます。 Teams では、オーディオとビデオの技術 (コーデック) が使用されています。そのため、ほとんどのネットワーク条件で対応できます。 最適かつ一貫性のあるパフォーマンスを確保するために、Teams 用にネットワークを準備する必要があります。
 
-![品質の3つのコンポーネントとサービス管理の3つのコンポーネントの重なり方について説明した図](media/evaluate-my-environment-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。")
+![品質の3つの構成要素について説明した図](media/evaluate-my-environment-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。")
 
 ## <a name="why-should-you-prepare-your-network"></a>なぜネットワークを準備する必要があるのでしょうか。
 

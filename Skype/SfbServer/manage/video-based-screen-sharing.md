@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype for Business Server の計画およびビデオベースの画面共有の構成情報 (VbSS)
-ms.openlocfilehash: 551f409ceed73591ad8184e421bb21fda58ef2c3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae2cc683148fdb2a2cb80e3fe3cf25a698a56c00
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275053"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548996"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Skype for Business Server のビデオベースの画面共有 
  
@@ -72,8 +72,8 @@ VbSS に切り替える目的は、次の 3 つの重要な改善を行うこと
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
 |**VideoPortStart** <br/> |**57501** <br/> |UDP  <br/> |
 |**VideoPortCount** <br/> |**8034** <br/> |UDP  <br/> |
-|AppSharingPortStart  <br/> |40803  <br/> |UDP  <br/> |
-|AppSharingPortCount  <br/> |8348  <br/> |UDP  <br/> |
+|AppSharingPortStart  <br/> |40803  <br/> |TCP  <br/> |
+|AppSharingPortCount  <br/> |8348  <br/> |TCP  <br/> |
    
 ### <a name="capacity-planning"></a>処理能力の計画
 

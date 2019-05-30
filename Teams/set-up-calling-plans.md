@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 8196b764f61fda7691d65a74f2eb89969ef2d48a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305246"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494707"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
 
@@ -58,13 +58,13 @@ ms.locfileid: "34305246"
 
 **組織の緊急対応の住所を追加するには**
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 Skype for business 管理センターで、[**ボイス** > **緊急** > 対応の場所] に移動し、[**新しいアドレスを追加**] を選択します。 詳細については、「[組織の緊急対応の住所を追加または削除](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)する」を参照してください。
 
 **組織の緊急対応の場所を追加するには** 
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 Skype for business 管理センターで、[**ボイス** > **緊急** > 対応の場所] に移動し、[**新しいアドレスを追加**] を選択します。 詳細については、「[組織の緊急対応の場所を追加、変更、削除](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)する」を参照してください。
 
@@ -74,7 +74,7 @@ Skype for business 管理センターで、[**ボイス** > **緊急** > 対応�
 
 **ユーザーの緊急対応の住所を追加するには** 
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 Skype for business 管理センターで、[**音声** > **認識ユーザー** > の緊急対応の**場所** > ] にアクセスして、[**番号** > の割り当て] の**場所を変更**します。 詳細について[は、「ユーザーの緊急対応の住所を割り当てまたは変更](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)する」を参照してください。
 
@@ -83,7 +83,7 @@ Skype for business 管理センターで、[**音声** > **認識ユーザー** 
 
 **電話番号をユーザーに割り当てるには**
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
 Skype for business 管理センターで、[******音声** > **通話ユーザー** > に番号 > を**割り当てる**] に移動します。 詳細については、「[ユーザーの電話番号を割り当て、変更、または削除](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)する」を参照してください。
 
@@ -98,15 +98,15 @@ Skype for business 管理センターで、[******音声** > **通話ユーザ�
     
 2.  **Settings** > **Tools** > **Options** を選択します。 
     
-     ![電話番号を表示するには、設定 > ツール > オプション。](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+     ![[ツール] メニューの [オプション] のスクリーンショット](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
   
 3. 次に、[ **電話**] を選びます。 
     
-    ![ユーザーは、Skype for Business アプリで [設定] > [ツール] > [オプション] > [電話] に移動すると、自分に割り当てられた番号を確認できます。](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![[電話] オプションを選択するスクリーンショット](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 **Microsoft Teams** では、ユーザーは左側のナビゲーションで [**通話**] をクリックすると、自分の電話番号を表示できます。電話番号はダイヤル パッドの上部に表示されます。
 
-![ユーザーは、左側のナビゲーションで呼び出しをクリックすると、Microsoft Teams で番号を確認できます。](media/teams-phone-number.png)
+![左側のナビゲーションで [着信] を選択したスクリーンショット。](media/teams-phone-number.png)
 
 ## <a name="what-else-do-you-need-to-know"></a>その他の情報
 <a name="bkmk_add_addresses"> </a>
