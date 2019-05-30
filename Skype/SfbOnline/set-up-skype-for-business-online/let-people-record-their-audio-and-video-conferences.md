@@ -19,37 +19,37 @@ f1keywords:
 ms.custom:
 - Setup
 description: '電話会議およびビデオ会議の記録を有効にし、対処方法を説明する方法は、レコーディングには含まれていません。 '
-ms.openlocfilehash: 31c4661f0c6ec37c8c098594dcdf737248b880b6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 822a6eade4b910819a5b1ec0518086267288cc54
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285266"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494083"
 ---
-# <a name="let-people-record-their-audio-and-video-conferences"></a><span data-ttu-id="64486-103">音声やビデオ会議をレコーディングする</span><span class="sxs-lookup"><span data-stu-id="64486-103">Let people record their audio and video conferences</span></span>
+# <a name="let-people-record-their-audio-and-video-conferences"></a><span data-ttu-id="3bb9c-103">音声やビデオ会議をレコーディングする</span><span class="sxs-lookup"><span data-stu-id="3bb9c-103">Let people record their audio and video conferences</span></span>
 
-## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a><span data-ttu-id="64486-104">組織で単一のユーザーまたはすべてのユーザーの設定を記録する既定値を選択します</span><span class="sxs-lookup"><span data-stu-id="64486-104">Choose the default recording setting for a single user or everyone in your organization</span></span>
+## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a><span data-ttu-id="3bb9c-104">組織で単一のユーザーまたはすべてのユーザーの設定を記録する既定値を選択します</span><span class="sxs-lookup"><span data-stu-id="3bb9c-104">Choose the default recording setting for a single user or everyone in your organization</span></span>
 
-<span data-ttu-id="64486-105">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**</span><span class="sxs-lookup"><span data-stu-id="64486-105">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="3bb9c-105">![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン</span><span class="sxs-lookup"><span data-stu-id="3bb9c-105">![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="64486-106">**Office 365 管理センター** > **Skype for business**に移動し、[**ユーザー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="64486-106">Go to the **Office 365 admin center** > **Skype for Business**, and then click **Users**.</span></span>
+1. <span data-ttu-id="3bb9c-106">**Office 365 管理センター** > **Skype for business**に移動し、[**ユーザー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3bb9c-106">Go to the **Office 365 admin center** > **Skype for Business**, and then click **Users**.</span></span>
     
-2. <span data-ttu-id="64486-107">[ **ユーザー** ] ページで、ボックスの一覧から一人のユーザーまたは複数のユーザーを選択し、[ **編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="64486-107">On the **Users** page, select the user or users from the list, and then click **Edit**.</span></span>
+2. <span data-ttu-id="3bb9c-107">[ **ユーザー** ] ページで、ボックスの一覧から一人のユーザーまたは複数のユーザーを選択し、[ **編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3bb9c-107">On the **Users** page, select the user or users from the list, and then click **Edit**.</span></span>
     
-3. <span data-ttu-id="64486-108">[ **オプション] ページ**で、[ **会話や会議を記録する**]をクリックし、[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="64486-108">On the **Options page**, click **Record conversations and meetings**, and then click **Save**.</span></span>
+3. <span data-ttu-id="3bb9c-108">[ **オプション] ページ**で、[ **会話や会議を記録する**]をクリックし、[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3bb9c-108">On the **Options page**, click **Record conversations and meetings**, and then click **Save**.</span></span>
     
-<span data-ttu-id="64486-109">記録がオンになっている場合、開催者または発表者は、Skype for Business Online 会議または電話会議を記録できます。</span><span class="sxs-lookup"><span data-stu-id="64486-109">When recording is turned on, organizers or presenters can record a Skype for Business Online meeting or conference call.</span></span> <span data-ttu-id="64486-110">記録をオンまたはオフにすると、組織内のすべてのユーザーに影響します。</span><span class="sxs-lookup"><span data-stu-id="64486-110">Turning recording on or off affects everyone in your organization.</span></span>
+<span data-ttu-id="3bb9c-109">記録がオンになっている場合、開催者または発表者は、Skype for Business Online 会議または電話会議を記録できます。</span><span class="sxs-lookup"><span data-stu-id="3bb9c-109">When recording is turned on, organizers or presenters can record a Skype for Business Online meeting or conference call.</span></span> <span data-ttu-id="3bb9c-110">記録をオンまたはオフにすると、組織内のすべてのユーザーに影響します。</span><span class="sxs-lookup"><span data-stu-id="3bb9c-110">Turning recording on or off affects everyone in your organization.</span></span>
   
-|<span data-ttu-id="64486-111">**レコーディングに含まれています**</span><span class="sxs-lookup"><span data-stu-id="64486-111">**Included in recordings**</span></span>|<span data-ttu-id="64486-112">**レコーディングに含まれていません**</span><span class="sxs-lookup"><span data-stu-id="64486-112">**Not included in recordings**</span></span>|
+|<span data-ttu-id="3bb9c-111">**レコーディングに含まれています**</span><span class="sxs-lookup"><span data-stu-id="3bb9c-111">**Included in recordings**</span></span>|<span data-ttu-id="3bb9c-112">**レコーディングに含まれていません**</span><span class="sxs-lookup"><span data-stu-id="3bb9c-112">**Not included in recordings**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="64486-113">オーディオと HD ビデオ</span><span class="sxs-lookup"><span data-stu-id="64486-113">Audio and HD video</span></span>  <br/> <span data-ttu-id="64486-114">PowerPoint およびホワイト ボードのプレゼンテーション</span><span class="sxs-lookup"><span data-stu-id="64486-114">PowerPoint and whiteboard presentations</span></span>  <br/> <span data-ttu-id="64486-115">デスクトップまたはプログラムの共有セッション</span><span class="sxs-lookup"><span data-stu-id="64486-115">Desktop or program sharing sessions</span></span>  <br/> |<span data-ttu-id="64486-116">OneNote の共有ページ</span><span class="sxs-lookup"><span data-stu-id="64486-116">Shared OneNote pages</span></span>  <br/> <span data-ttu-id="64486-117">PowerPoint のコメント</span><span class="sxs-lookup"><span data-stu-id="64486-117">PowerPoint annotations</span></span>  <br/> <span data-ttu-id="64486-118">共有ファイル (添付ファイル)</span><span class="sxs-lookup"><span data-stu-id="64486-118">Shared files (attachments)</span></span>  <br/> |
+|<span data-ttu-id="3bb9c-113">オーディオと HD ビデオ</span><span class="sxs-lookup"><span data-stu-id="3bb9c-113">Audio and HD video</span></span>  <br/> <span data-ttu-id="3bb9c-114">PowerPoint およびホワイト ボードのプレゼンテーション</span><span class="sxs-lookup"><span data-stu-id="3bb9c-114">PowerPoint and whiteboard presentations</span></span>  <br/> <span data-ttu-id="3bb9c-115">デスクトップまたはプログラムの共有セッション</span><span class="sxs-lookup"><span data-stu-id="3bb9c-115">Desktop or program sharing sessions</span></span>  <br/> |<span data-ttu-id="3bb9c-116">OneNote の共有ページ</span><span class="sxs-lookup"><span data-stu-id="3bb9c-116">Shared OneNote pages</span></span>  <br/> <span data-ttu-id="3bb9c-117">PowerPoint のコメント</span><span class="sxs-lookup"><span data-stu-id="3bb9c-117">PowerPoint annotations</span></span>  <br/> <span data-ttu-id="3bb9c-118">共有ファイル (添付ファイル)</span><span class="sxs-lookup"><span data-stu-id="3bb9c-118">Shared files (attachments)</span></span>  <br/> |
    
-<span data-ttu-id="64486-119">詳細については、 [[Lync の記録を保存して公開](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) ]および[ [Lync の記録マネージャー](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)]を参照してください。</span><span class="sxs-lookup"><span data-stu-id="64486-119">For details, see [Lync recording save and publish](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) and [Lync recording manager](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b).</span></span> 
+<span data-ttu-id="3bb9c-119">詳細については、 [[Lync の記録を保存して公開](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) ]および[ [Lync の記録マネージャー](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)]を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3bb9c-119">For details, see [Lync recording save and publish](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) and [Lync recording manager](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b).</span></span> 
   
-## <a name="related-topics"></a><span data-ttu-id="64486-120">関連トピック</span><span class="sxs-lookup"><span data-stu-id="64486-120">Related topics</span></span>
-[<span data-ttu-id="64486-121">Skype for Business Online のセットアップ</span><span class="sxs-lookup"><span data-stu-id="64486-121">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="3bb9c-120">関連トピック</span><span class="sxs-lookup"><span data-stu-id="3bb9c-120">Related topics</span></span>
+[<span data-ttu-id="3bb9c-121">Skype for Business Online のセットアップ</span><span class="sxs-lookup"><span data-stu-id="3bb9c-121">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="64486-122">Skype for Business ユーザーが Skype の連絡先を追加できるようにする</span><span class="sxs-lookup"><span data-stu-id="64486-122">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="3bb9c-122">Skype for Business ユーザーが Skype の連絡先を追加できるようにする</span><span class="sxs-lookup"><span data-stu-id="3bb9c-122">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

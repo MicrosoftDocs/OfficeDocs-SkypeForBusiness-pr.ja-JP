@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26a7d77db81026782507575cab6d3f09500dde93
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902726"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494499"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
@@ -35,7 +35,7 @@ ms.locfileid: "33902726"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -54,7 +54,7 @@ ms.locfileid: "33902726"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat icon representing an introduction" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -72,7 +72,7 @@ ms.locfileid: "33902726"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -90,7 +90,7 @@ ms.locfileid: "33902726"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Award ribbon icon representing best practices" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -108,7 +108,7 @@ ms.locfileid: "33902726"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Mortarboard icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -126,7 +126,7 @@ ms.locfileid: "33902726"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Wrench icon representing tools and downloads" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -150,7 +150,7 @@ ms.locfileid: "33902726"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-1-teams.svg" alt="Number 1" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-1-teams.svg" alt="Number 1 icon representing the first step" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -170,7 +170,7 @@ ms.locfileid: "33902726"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-2-teams.svg" alt="Number 2" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-2-teams.svg" alt="Number 2 icon representing the second step" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -191,7 +191,7 @@ ms.locfileid: "33902726"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-3-teams.svg" alt="Number 3" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-3-teams.svg" alt="Number 3 icon representing the third step" />
                         </div>
                     </div>
                     <div class="cardText">

@@ -101,6 +101,7 @@
 ## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ## [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Microsoft Teams ミーティング](room-systems/index.md)
+## [Teams でホワイトボードを管理する](manage-whiteboard.md)
 
 
 ## 電話会議
@@ -579,28 +580,38 @@
 
 
 <!-- ============================================================ -->
-# [Teams へのアップグレード](upgrade-introduction.md)
-## [はじめに](upgrade-start-here.md)
+# Teams へのアップグレード
+## [概要](upgrade-start-here.md)
 ## [アップグレードのフレームワークについて](upgrade-framework.md)
-## [アップグレードの行程を計画する](upgrade-plan-journey.md)
+
+## アップグレードの行程を計画する
+### [計画の概要をアップグレードする](upgrade-plan-journey.md)
 ### [プロジェクト関係者に協力を求める](upgrade-enlist-stakeholders.md)
 ### [プロジェクトの対象範囲を定義する](upgrade-define-project-scope.md)
-### [共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+
+### 共存および相互運用性について理解する
+#### [共存および相互運用性の概要](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 #### [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ### [品質を計画する](upgrade-plan-for-quality.md)
-## [Teams に向けて環境を準備する](upgrade-prepare-environment.md)
+
+## Teams に向けて環境を準備する
+### [技術準備の概要](upgrade-prepare-environment.md)
 ### [Teams に向けて IT スタッフを準備する](upgrade-prepare-IT-pros.md)
 ### [前提条件](upgrade-plan-journey-prerequisites.md)
 ### [環境を評価する](upgrade-plan-journey-evaluate-environment.md)
 ### [ネットワークを準備する](upgrade-prepare-environment-prepare-network.md)
 ### [サービスを準備する](upgrade-prepare-environment-prepare-service.md)
-## [Teams に向けて組織を準備する](upgrade-prepare-organization.md)
+
+## Teams に向けて組織を準備する
+### [組織準備の概要](upgrade-prepare-organization.md)
 ### [組織的な変更の準備状況を評価する](upgrade-org-change-readiness.md)
 ### [ユーザーの研修計画を準備する](upgrade-user-readiness.md)
 ## [ユーザー パイロットを指導する](pilot-essentials.md)
 ## [Skype for Business Online から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ## [Skype for Business のハイブリッド環境またはオンプレミス環境から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-## [運用、導入、および最適化](continue-journey.md)
+
+## 運用、導入、および最適化
+### [運用計画の概要](continue-journey.md)
 ### [サービスを運用する](upgrade-operate-my-service.md)
 ### [品質を監視する](upgrade-monitor-quality.md)
 ### [サービスを強化する](upgrade-enhance-my-service.md)
@@ -674,7 +685,7 @@
 ### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
 ### [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)
 ### [Teams でのガバナンスを計画する](plan-teams-governance.md)
-
+### [ネットワーク テスト コンパニオンを使用する](use-network-testing-companion.md)
 
 
 
