@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: a225f55bd03793fa184dab8478fd608170418f2d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: c3cafee8dcce326dd20661f919dc57b0e1f1fe26
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494523"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548989"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 の通話プラン
 
@@ -46,7 +46,7 @@ Skype for Business および Microsoft Teams の他のユーザーへの通話�
   
 > [!IMPORTANT]
 > [国/地域] は、 **microsoft 365 管理センター** > の**アクティブユーザー**でのユーザーのライセンスの場所を基にしていますが、microsoft 365 管理者の**組織プロファイル**の下に表示されている請求先住所は含まれて**いません**。 **中央揃え**。   
-![ユーザーのライセンスの場所](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+![ユーザーのライセンスの場所のスクリーンショット](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 使用条件および使用条件の詳細については、「[電話会議の無料のダイヤルアウト期間](complimentary-dial-out-period.md)」を参照してください。
   
@@ -54,14 +54,14 @@ Skype for Business および Microsoft Teams の他のユーザーへの通話�
 
 1. <strong>まず * * 電話システムアドオンライセンスを購入する必要があり</strong><strong>ます。これを行うには、 [Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、* * 課金</strong> > **購入サービス** > **アドオンサブスクリプション** > **** を選択します。
     
-    ![クラウド PBX ライセンスを購入すると、音声通話プランを購入するオプションが表示されます。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![音声通話プランを購入するオプションを示すスクリーンショット。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > プランによっては、電話システムのライセンスを購入する前に、追加のアドオンを購入しなければならない場合があります。 詳細については、 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)の「プランに基づくライセンスオプション」を参照してください。
   
 2. 電話システムライセンスを購入した後、 **Microsoft 365 管理センター**にサインインして、[**課金** > **購入サービス** > **アドオンサブスクリプション**] を選択し、[**今すぐ購入] をクリックして、通話プランを購入できます。**. 通話プランが表示されます。
     
-    ![クラウド PBX ライセンスを購入したら、音声通話プランを購入できます。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![[音声通話プラン] オプションが表示されたスクリーンショット。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
 組織のニーズに応じて、さまざまなユーザーに別々の通話プランを購入して割り当てることができます。 必要な通話プランを選択したら、[チェックアウト] に進みます。 Microsoft 365 管理センターで、各ユーザーにプランを割り当てます。 方法については、「 [Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md)」を参照してください。
   

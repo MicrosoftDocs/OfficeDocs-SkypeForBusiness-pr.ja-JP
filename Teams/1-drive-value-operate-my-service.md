@@ -15,12 +15,12 @@ description: サービスの正常性の監視、ネットワークの品質お�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d40bbeaf0876071502d187826ecc702c9175b2da
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3c1aa8c35b43941839e7a82390bca16c16c72801
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494297"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548248"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 
@@ -42,8 +42,8 @@ ms.locfileid: "34494297"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>チームに対して操作を実装する方法を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>運用ガイドを完全に確認します。</li><li>組織の目標に合わせて、クラウドボイスワークロードの品質と信頼性を高める運用戦略を実装します。</li><li>エクスペリエンス品質レビューガイドを確認します。</li><li> 運用計画を実施して、クラウドの音声展開が最大の機能で動作していることを確認します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>チームに対して操作を実装する方法を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>運用ガイドを完全に確認します。</li><li>組織の目標に合わせて、クラウドボイスワークロードの品質と信頼性を高める運用戦略を実装します。</li><li>エクスペリエンス品質レビューガイドを確認します。</li><li> 運用計画を実施して、クラウドの音声展開が最大の機能で動作していることを確認します。</li></ul></td></tr>
 </table>
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "34494297"
 契約が実施された後、対応するチームが各自の役割を operationalize する必要があります。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>次のステップ</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td>
 <td><ul><li>このドキュメントを使用して、役割のマッピングの作業を簡単に行うことができます。</li><li>各サポートチームと会議して、必要なアクティビティのリストの各アイテムに名前を割り当てます。</li><li>割り当てられた役割に対して承認またはサインオフを獲得します。</li><li>該当するチームに、必要なアクティビティを実行するための適切なトレーニング、準備、およびリソースがあることを確認します。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams サービスの依存関係

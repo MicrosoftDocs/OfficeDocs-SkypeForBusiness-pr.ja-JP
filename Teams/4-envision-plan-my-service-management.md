@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25f4bb41ed5aa5c99c6edbc3a8daf70af78e882d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494419"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548113"
 ---
 # <a name="plan-my-service-management"></a>サービス管理を計画する
 
@@ -92,7 +92,7 @@ Teams サービス管理に関する顧客の責任と、ユーザーエクス�
 
 品質経験レビューガイドには、次の図に示すように、ユーザーエクスペリエンスを向上させるための最大の影響を受ける主要な領域の一連のアクティビティが用意されています。
 
-![品質向上のレビュー中に確認する主要な領域の図](media/plan-my-service-management-image2.png "品質向上のために、音声、信頼性、ユーザー調査の結果として検討する主な領域。")
+![品質のエクスペリエンスレビュー中に確認する主要な領域の図](media/plan-my-service-management-image2.png "品質向上のために、音声、信頼性、ユーザー調査の結果として検討する主な領域。")
 
 このドキュメントで説明されている領域の評価と修復を継続的に行うことで、ユーザー エクスペリエンスに悪影響がおよぶ潜在的な可能性を減らすことができます。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 
