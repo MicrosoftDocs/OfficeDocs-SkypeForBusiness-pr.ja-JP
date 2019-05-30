@@ -45,7 +45,8 @@
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
-        "MikePlumleyMSFT"
+        "MikePlumleyMSFT",
+        "OfficeGSX"
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",

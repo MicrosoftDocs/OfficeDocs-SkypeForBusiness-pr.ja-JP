@@ -60,8 +60,7 @@ ms.locfileid: "34433240"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a><span data-ttu-id="a2ed6-127">PowerShell を使用して共有デスクトップを構成する</span><span class="sxs-lookup"><span data-stu-id="a2ed6-127">Use PowerShell to configure shared desktop</span></span>
 
-<span data-ttu-id="a2ed6-128">
-  [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、デスクトップ共有を制御することもできます。</span><span class="sxs-lookup"><span data-stu-id="a2ed6-128">You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing.</span></span> <span data-ttu-id="a2ed6-129">次のパラメーターを設定します。</span><span class="sxs-lookup"><span data-stu-id="a2ed6-129">Set the following parameters:</span></span>
+<span data-ttu-id="a2ed6-128">[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/ja-jp/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、デスクトップ共有を制御することもできます。</span><span class="sxs-lookup"><span data-stu-id="a2ed6-128">You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing.</span></span> <span data-ttu-id="a2ed6-129">次のパラメーターを設定します。</span><span class="sxs-lookup"><span data-stu-id="a2ed6-129">Set the following parameters:</span></span>
 
 - <span data-ttu-id="a2ed6-130">Description</span><span class="sxs-lookup"><span data-stu-id="a2ed6-130">Description</span></span>
 - <span data-ttu-id="a2ed6-131">ScreenSharingMode</span><span class="sxs-lookup"><span data-stu-id="a2ed6-131">ScreenSharingMode</span></span>
@@ -71,6 +70,5 @@ ms.locfileid: "34433240"
 - <span data-ttu-id="a2ed6-135">AllowWhiteboard</span><span class="sxs-lookup"><span data-stu-id="a2ed6-135">AllowWhiteboard</span></span>
 - <span data-ttu-id="a2ed6-136">AllowSharedNotes</span><span class="sxs-lookup"><span data-stu-id="a2ed6-136">AllowSharedNotes</span></span>
 
-<span data-ttu-id="a2ed6-137">
-  [csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="a2ed6-137">[Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="a2ed6-137">[csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](https://docs.microsoft.com/ja-jp/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="a2ed6-137">[Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).</span></span>
 
