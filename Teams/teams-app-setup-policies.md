@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Microsoft Teams のアプリセットアップポリシーの概要と、それらを使ってアプリを固定して組織内のユーザーのためにチームをカスタマイズする方法について説明します。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: e26dc18f056f3493f6fcbdea2edee747d8abfa0b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a7b0a9cf7e7ed4eee10d82882d2f17ca57939aa1
+ms.sourcegitcommit: e6ae322d96357fe4f9a7b447afca9d87563f4ba1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548822"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34592169"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -136,9 +136,7 @@ Teams app store にはすべての Teams アプリが一覧表示されます。
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>私は教育管理者向けのチームです。教育機関向け Teams のアプリセットアップポリシーについて知っておくべきこと
 
-- 通話アプリは、教育担当の Teams では利用できません。 新しいカスタムアプリのセットアップポリシーを作成すると、アプリの一覧に呼び出し元のアプリが表示されます。 ただし、アプリは Teams クライアントにはピン留めされておらず、教育機関のチームではチーム内の通話アプリを見ることはできません。 
-
-- 現時点では、Teams Android アプリの教育機関向けの Teams では、ポリシーの変更は反映されません。 現在、教育機関向けの Teams のポリシーの変更をサポートする新しいバージョンのアプリを開発しています。
+通話アプリは、教育担当の Teams では利用できません。 新しいカスタムアプリのセットアップポリシーを作成すると、アプリの一覧に呼び出し元のアプリが表示されます。 ただし、アプリは Teams クライアントにはピン留めされておらず、教育機関のチームではチーム内の通話アプリを見ることはできません。
 
 #### <a name="how-many-apps-can-be-added-to-a-policy"></a>ポリシーに追加できるアプリの数を教えてください。
 
