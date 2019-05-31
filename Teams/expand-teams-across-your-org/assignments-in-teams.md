@@ -15,14 +15,16 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 188f4398136c2939ad2a84d75ab27942a5a4593b
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 22c53433548715fdc2a84a0f45ce0c3fc02d7b98
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433432"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591721"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
+
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 割り当ては、学生またはチームメンバーに対して、調査の一環として、クラス内で割り当てられているタスクまたは作業単位数です。 Teams クラス内で課題を作成することができます。
 
@@ -63,13 +65,17 @@ Turnitin は、plagiarism の検出サービスです。 これは、サード�
 この情報を取得するための手順をいくつか紹介します。
 
 TurnitinApiUrl は、管理コンソールのホストアドレスです。
-![ホストアドレスを示すスクリーンショット](./educationImages/Assignments_mopo_turnitin1.png)
+次. https:[]()//your-tenant-name.turnitin.com
 
-[インテグレーション] タブに移動して、統合機能を追加します。
+管理コンソールでは、統合と関連付けられた API キーを作成できます。
+
+サイド**** メニューから [統合] を選択し、[**統合の追加**] を選択して、統合の名前を指定します。
 ![新しい統合の追加を示すスクリーンショット](./educationImages/Assignments_mopo_turnitin2.png)
 
-プロンプトが表示された後、TurnitinApiKey が提供されます。 このキーをコピーして、Microsoft Teams 管理センターに貼り付けます。 
+プロンプトが表示された後、TurnitinApiKey が提供されます。 API キーをコピーして、Microsoft Teams 管理センターに貼り付けます。  これは、キーを表示できる唯一の時間です。
 ![API キーのコピーを示すスクリーンショット](./educationImages/Assignments_mopo_turnitin3.png)
+
+この設定については、管理センターの [**保存**] ボタンをクリックすると、これらの設定が有効になるまで最大24時間許可してください。
 
 [Turnitin と Microsoft Teams の統合の詳細については、こちらを参照してください。](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 組織内のユーザーが Skype 会議ブロードキャストを使用できるようにするには、それを有効にする必要があります。 これを行うには、Windows PowerShell の使い方を知っている必要があります。 Windows PowerShell がわからない場合は、Microsoft パートナーを採用してこの手順を実行することを検討してください。
-ms.openlocfilehash: f1a672bc8d3b0ce957a32691270293551e1a1409
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 066aeb3d3217cb61ebcd0323b342c88d0b99caee
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494037"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591631"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを有効にする
 
@@ -34,11 +34,11 @@ ms.locfileid: "34494037"
 
 ![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
-1. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) で、Office 365 全体の管理者アカウントを使用してサインインします。
+1. Office 365 グローバル管理者アカウントまたは Skype for Business 管理者アカウントでサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)します。
     
-2. Office 365 管理センターで、[**管理センター** > **Skype for business**に移動します。
+2. Office 365 管理センターで、[**管理センター** > **チーム**] に移動します。
     
-3. **Skype for business 管理センター**で、[**オンライン会議** > **ブロードキャスト会議**] に移動し、[ **skype 会議ブロードキャストを有効に**する] を選択します。
+3. **Teams 管理センター**で、[従来の**ポータル** > **オンライン会議** > **ブロードキャスト会議**] に移動し、[ **Skype 会議ブロードキャストを有効に**する] を選択します。
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>PowerShell を使用して Skype 会議ブロードキャストを有効にする
 

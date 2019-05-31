@@ -14,15 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcdb6a687875aeab39585b44a8f6a9d3b6652b48
-ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
+ms.openlocfilehash: 05c870dd953a0be959c59996820b3f11bf721521
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34108645"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591656"
 ---
-<a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
-=========================================
+# <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
 > [!Tip]
 > Teams が Azure Active Directory (AAD)、Office 365 グループ、Exchange、SharePoint、および OneDrive for Business とどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teamsの基礎](https://aka.ms/teams-foundations)。
@@ -35,7 +34,7 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 次の表では、さまざまな環境でホストされた Exchange Online のユーザーのための情報を示します。
 
-**サポートされるアクション:** 
+**サポートされるアクション:**
 
 | ユーザーのメールボックスのホスト先: | 電子情報開示| 法的な&nbsp;保全 | 保持| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -52,29 +51,29 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 <sup>5</sup> オンプレミスのExchangeメールボックスを持つチームユーザーは、Teamsでボイスメールを使用してOutlookでボイスメールメッセージを受信できますが、ボイスメールメッセージをTeamsクライアント内で表示または再生することはできません。
 
-追加情報: 
+## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件
 
--   Microsoft Teams はオンプレミスの SharePoint をサポートしません。
+Microsoft Teams では、さまざまな Office 365 サービスと連携して、ユーザーに充実したエクスペリエンスを提供します。 このエクスペリエンスをサポートするには、特定の機能またはサービスを有効にし、ライセンスを割り当てる必要があります。
 
--   SharePoint Online はチームの会話でファイルを共有および保存するために必要です。
+- SharePoint Online はチームの会話でファイルを共有および保存するために必要です。 Microsoft Teams はオンプレミスの SharePoint をサポートしません。
 
--   OneDrive for Business はプライベート チャットでファイルを共有および保存するために必要です。
+- ユーザーがチャットでファイルを共有する場合は、SharePoint Online ライセンスが割り当てられている必要があります。 ユーザーにSharePoint Onlineの有効なライセンスが割り当てられていない場合は、Office 365にOneDrive for Businessのストレージがありません。 ファイルの共有はチャネルで引き続き機能しますが、Office 365 では OneDrive for Business の記憶域なしでチャットでファイルを共有することはできません。
 
--   SharePoint Online ライセンスが割り当てられていないユーザーは、Office 365 に OneDrive for Business ストレージがありません。ファイル共有はチャネル内で機能し続けますが、Office 365 に OneDrive for Business ストレージがないと、ユーザーはチャット内でファイルを共有することができません。
+- ユーザーが Microsoft Teams でチームを作成するためには、Office 365 グループの作成について有効になっている必要があります。
 
--   ユーザーが Microsoft Teams でチームを作成するためには、Office 365 グループの作成について有効になっている必要があります。
+- Microsoft Teams で Exchange をオンプレミスで使用できるようにするには、「 [exchange と Exchange Online の間での oauth 認証の構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)」の説明に従って新しい Exchange OAuth 認証プロトコルを構成する必要があります。
 
--   Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
+## <a name="additional-considerations"></a>その他の考慮事項
 
--   オンプレミスのExchangeの場合は、[ExchangeとExchange Onlineの組織間のOAuth認証の構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)の説明に従って、新しいExchange OAuth認証プロトコルを構成する必要があります。 
+組織に Microsoft Teams を導入する際には、次の点を考慮する必要があります。
 
--  制御し、チームと条件付きのアクセスを使用して Exchange のコンプライアンス ・ ポリシーの構成を保護します。 詳細についてを参照してください[は条件付きのアクセス ポリシーのしくみのチームですか?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
+- Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
 
-> [!NOTE]
-> 現在、すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者にExchangeオンプレミスメールボックスがある場合は、プライベート会議を無効にする必要があります。
-> 
-> [!IMPORTANT]
-> Exchangeハイブリッド展開では、チャット参加者がクラウドベースのメールボックスかオンプレミスメールボックスを持っているかにかかわらず、チャットメッセージのコンテンツを検索できます。 詳細については、[Office 365でのオンプレミスユーザーのクラウドベースメールボックスの検索](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)を参照してください。 Teams でコンテンツを検索する方法については、[Office 365セキュリティ/コンプライアンスセンターのコンテンツ検索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)をご覧ください。
-> 
+- 条件付きアクセスを使用して、Teams および Exchange でのコンプライアンスポリシーの構成を制御および保護します。 詳細については、「[チームの条件付きアクセスポリシーの](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams)しくみ」を参照してください。 .
+
+- 会議のすべてのディスカッションを検出できるようにするためのコンプライアンス要件が組織にある場合は、開催者が Exchange オンプレミスのメールボックスを使用している場合は、プライベート会議を無効にする必要があります。
+
+- Exchangeハイブリッド展開では、チャット参加者がクラウドベースのメールボックスかオンプレミスメールボックスを持っているかにかかわらず、チャットメッセージのコンテンツを検索できます。 詳細については、[Office 365でのオンプレミスユーザーのクラウドベースメールボックスの検索](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)を参照してください。 Teams でコンテンツを検索する方法については、[Office 365セキュリティ/コンプライアンスセンターのコンテンツ検索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)をご覧ください。
+
 > [!TIP]
 > Azure AD Connect を使用して Azure Active Directory と同期する方法については、[オンプレミス ID と Azure Active Directory の統合](https://go.microsoft.com/fwlink/?linkid=854600)をご覧ください。

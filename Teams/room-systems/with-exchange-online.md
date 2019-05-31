@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: このトピックでは、Microsoft Teams のルームを Exchange Online と共に展開する方法について説明します。
-ms.openlocfilehash: e90767c6209fdb13eb7a4c6d0794865aa88e65c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 86290bdc8b198af5e4d41b8b90bd588ade5494a5
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288429"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591705"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams ミーティング を展開
 
@@ -79,7 +79,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     > [**パスワードを無期限**にする] を選ぶことは、Microsoft Teams のルームの Skype For business Server の要件です。 ドメイン ルールによって無期限のパスワードが禁止される場合があります。 そうである場合は、Microsoft Teams のルームユーザーアカウントごとに例外を作成する必要があります。
   
 4. アカウントを作成するには、**[完了]** をクリックします。
-5. アカウントを作成したら、ディレクトリの同期を実行します。それが完了したら、[ユーザー] ページに移動し、前の手順で作成した 2 つのアカウントがマージされていることを確認します。
+5. アカウントを作成したら、ディレクトリ同期を実行します。 これは、PowerShell で[MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0)を使うことで実現できます。 完了したら、[ユーザー] ページに移動し、前の手順で作成した2つのアカウントがマージされていることを確認します。
 
 ### <a name="assign-an-office-365-license"></a>Office 365 ライセンスを割り当てる
 
