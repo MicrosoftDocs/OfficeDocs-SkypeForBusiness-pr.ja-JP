@@ -12,49 +12,49 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: サイトにアップロードする方法をについて説明します。
+description: サイトにアップロードする方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a9274952d74c3bf55943ed6b028fd630ab2078e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6e7e9211b207c008de22fe86ae0c7bb6c9f9ac51
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921283"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667483"
 ---
 <a name="adding-and-updating-locations-data"></a>場所データの追加と更新
 ============================
 
-場所は、オフィス、建物、または組織のサイトの物理的な場所を示すために、組織で使用されます。 場所のページで、テキスト ファイル (.csv または .tsv) を提供することで管理者は、物理的な場所と、関連付けられているネットワークのサブネットの一覧が含まれています。 このファイルは、レポートを生成するために分析機能を呼び出すと呼び出し品質のダッシュ ボードで使用されます。 お客様は、そのサブネットのマッピングをアップロードするときにこれらのサービスが提供するレポートには、場所の名前も、レポートを容易に理解し、潜在的な問題の修復に使用が含まれます。
+オフィス、建物、または組織のサイトの物理的な場所を示すために、組織内で場所を使用します。 [場所] ページを使用すると、管理者は、物理的な場所と関連付けられたネットワークサブネットの一覧を含むテキストファイル (.csv または .tsv) を提供することができます。 このファイルは、レポートを生成するために通話分析と通話品質ダッシュボードによって使用されます。 ユーザーがサブネットマッピングをアップロードすると、これらのサービスによって提供されるレポートにも場所名が含まれます。これにより、レポートがわかりやすくなり、問題が発生した場合にを修復するすることができます。
 
-場所データを提供するは 1 つのデータ構造体: 現在の場所のデータを個別の編集を行うに利用できるインタ フェースはありません。 
+指定した場所データは1つのデータ構造です。現在、位置情報データを編集するために使用できるインターフェイスはありません。 
 
-**サブネットと場所のテーブルを編集するのには**
+**サブネットと場所の表を編集するには**
 
-1. **場所のデータを置換**] をクリックします。
-2. **場所データを置換**] ウィンドウで、[**ファイルを選択**する] をクリックするを参照し、編集した .csv または .tsv ファイルをアップロードします。 
+1. [**場所のデータの置換**] をクリックします。
+2. [**場所データの置換**] ウィンドウで、[**ファイルの選択**] をクリックし、編集した .csv または .tsv ファイルを参照してアップロードします。 
 3. [**アップロード**] をクリックします。 
 
 
-サンプル テンプレートをダウンロードすることができます[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)。
+サンプルテンプレートは[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)からダウンロードできます。
 
-次の例を使用すると、データ ファイルの作成に役立ちます。 
+次の例を使用して、データファイルを作成することができます。 
 
 > [!IMPORTANT]
-> データ ファイルは、ネットワーク、ネットワーク名など) などの列のヘッダーを含めないようにします。 これらは、情報提供のみを目的としており、ここで使用されます。 </br>
+> データファイルには、列見出し (ネットワーク、ネットワーク名など) を含めることはできません。 これらは、情報提供のためだけに使用されます。 </br>
 
-|ネットワーク|ネットワーク名|ネットワークの範囲|建物の名前|所有権の種類|建物の種類|Office タイプの建物|市区町村|郵便番号|国|都道府県|Region|内側株式会社|高速ルート|
+|ネットワーク|ネットワーク名|ネットワークの範囲|建物名|所有権の種類|建物の種類|Office の種類の作成|市区町村|郵便番号|居住|都道府県|Region|企業内|簡易ルート|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso 社専用の RE&F|Office|RE&F|マウンテン ビュー|94043|ご|CA|ご|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso 社専用の RE&F|Office|RE&F|マウンテン ビュー|94043|ご|CA|ご|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso 社専用の RE&F|Office|RE&F|マウンテン ビュー|94043|ご|CA|ご|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso 社専用の RE&F|Office|RE&F|マウンテン ビュー|94043|ご|CA|ご|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso&F|Office|&F|山地表示|94043|プロセッサー|FR-CA|プロセッサー|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso&F|Office|&F|山地表示|94043|プロセッサー|FR-CA|プロセッサー|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso&F|Office|&F|山地表示|94043|プロセッサー|FR-CA|プロセッサー|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso&F|Office|&F|山地表示|94043|プロセッサー|FR-CA|プロセッサー|1|1|
 
 
-データ ファイルの書式設定の詳細については、[テナントのデータ ファイルの形式とデータ ファイルの構造を構築](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure)を参照してください。
+データファイルの書式設定の詳細については、「[テナントデータファイルの形式と建物データファイルの構造](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)」を参照してください。
 
 
 ## <a name="related-topics"></a>関連トピック

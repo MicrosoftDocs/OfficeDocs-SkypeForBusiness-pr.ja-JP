@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 941869edabc171fdf73eb9f2d0a11a2d3dacb1fd
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 5e293cb89875bcaf15172b698735bba86c00635b
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548184"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667475"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams のデータの場所
 
 Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現在、Teams では、オーストラリア、カナダ、フランス、インド、日本、英国、南北アメリカ、APAC、および EMEA 地域がサポートされています。 
 
 > [!IMPORTANT]
-> 現在、Teams では、オーストラリア、カナダ、フランス、インド、日本、英国など、新しいテナントのみにデータ常駐サービスが提供されています。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 オーストラリア、インド、日本の既存のテナントは、引き続き APAC 地域に保存されている Teams のデータを保有します。 カナダの既存のテナントのデータは、南北アメリカに保存され続けます。 フランスと英国のデータは EMEA 地域に保存されます。
+> 現在、Teams では、オーストラリア、カナダ、フランス、インド、日本、英国など、新しいテナントのみにデータ常駐サービスが提供されています。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 オーストラリア、インド、日本の既存のテナントは、引き続き APAC 地域に保存されている Teams のデータを保有します。 カナダの既存のテナントのデータは、南北アメリカに保存され続けます。 フランスおよび英国の既存のテナントには、EMEA 地域にデータが保存されています。
 
 Teams 向けのインドおよび英国データ配信の開始について詳しくは、「ブログ投稿の概要」をご覧ください。 [Microsoft Teams はインドのデータ常駐サービスを](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)リリースしています。 
 

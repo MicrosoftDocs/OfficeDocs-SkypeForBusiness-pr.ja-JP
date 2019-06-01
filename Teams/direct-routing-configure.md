@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
-ms.openlocfilehash: ce3fff5205a2cb78c1d409ae8595a50c73f70aaf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290446"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667499"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -38,7 +38,7 @@ Sbc が SBC ベンダーの推奨として既に構成されていることを�
 
 Microsoft 電話システムを構成し、ユーザーが直接ルーティングを使用できるようにすることができます。次の手順を実行して、優先発信クライアントとして Microsoft Teams をセットアップします。 
 
-- [SBC と Microsoft 電話システムをペアリングし、ペアリングを検証する](#pair-the-sbc-to-direct-routing-service-of-phone-system)
+- [SBC と Microsoft 電話システムをペアリングし、ペアリングを検証する](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [ユーザーのダイレクトルーティングサービスを有効にする](#enable-users-for-direct-routing-service)
 - [Microsoft Teams が、ユーザーの優先発信クライアントであることを確認する](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
@@ -446,7 +446,7 @@ John 森–任意の番号に通話を発信できます。 Redmond の番号範
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |米国限定|"レドモンド 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼び出し先の番号 + 1 425 XXX XX XX または + 1 206 XXX XX xx のアクティブルート|
 |米国限定|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼び出し先の番号のバックアップルート + 1 425 XXX XX XX または + 1 206 XXX XX xx|
-|米国限定|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>|呼び出し先の番号のルーティング + 1 XXX XXX XX XX (+ 1 425 XXX XX xx または + 1 206 XXX XX xx)|
+|米国限定|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6> contoso.biz|呼び出し先の番号のルーティング + 1 XXX XXX XX XX (+ 1 425 XXX XX xx または + 1 206 XXX XX xx)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任意の番号パターンのルート |
 
 

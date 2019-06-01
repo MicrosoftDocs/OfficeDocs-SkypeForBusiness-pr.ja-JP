@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 9e614ce02d9d47c1da2a8263ac8d2e1a307edb8f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f6cd98381379c14f41c1de2dc1a7b3f239463c3d
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284828"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667374"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Skype for Business Online Connector との接続の問題を診断する
 
@@ -43,9 +43,9 @@ ms.locfileid: "34284828"
     
 - [テナントに接続する機能が Skype for Business Online で無効化されている](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
     
-- [Skype for Business Online でのこのユーザーの同時シェルの最大数を超過している ](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsUser)
-    
-- [Skype for Business Online でのこのテナントの同時シェルの最大数を超過している ](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+- [Skype for Business Online でのこのユーザーの同時シェルの最大数を超過している](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
+
+- [Skype for Business Online でのこのテナントの同時シェルの最大数を超過している](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
     
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Windows PowerShell 実行ポリシーによる Import-Module エラー
 <a name="BKMKPowerShellExecutionPolicy"> </a>
