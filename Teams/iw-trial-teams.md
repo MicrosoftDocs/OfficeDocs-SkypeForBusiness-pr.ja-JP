@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 933ea45cbcdc9e6af8c25dfdb67758d154731586
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: c9a2704cf517ac4b8eb0b2f3143c09cb550614ee
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404295"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548160"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
@@ -81,11 +81,11 @@ Teams を含む Office 365 ライセンスを所有していないユーザー�
 
 1. [[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home) から、**[設定]** > **[サービスとアドイン]** > **[ユーザーが所有するアプリとサービス]** に移動します。
 
-    ![Office 365 管理センターの [サービスとアドイン] ページのスクリーンショット。](media/iw-trial-enable-1.png)
+    ![管理センターの [サービスとアドイン] ページのスクリーン ショット](media/iw-trial-enable-1.png)
 
 2. **[ユーザーに試用版アプリとサービスのインストールを許可する]** をオフにします。
 
-    ![Office 365 管理センターの [ユーザーが所有するアプリとサービス] ページのスクリーンショット。](media/iw-trial-enable-2.png)
+    ![管理センターの [ユーザーが所有するアプリとサービス] ページのスクリーン ショット](media/iw-trial-enable-2.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Teams が含まれているライセンスを持つユーザーの試用版利用可能性を管理する
@@ -102,7 +102,7 @@ Teams へのアクセスをオフにするには:
 
 4. **[製品ライセンス]** ウィンドウで、**[オフ]** に切り替えます。
 
-    ![Office 365 管理センターの [製品ライセンス] ページのスクリーンショット。](media/iw-trial-enable-3.png)
+    ![管理センターの [製品ライセンス] ページのスクリーン ショット。](media/iw-trial-enable-3.png)
 
 ### <a name="manage-teams-availability-for-users-who-already-claimed-the-trial"></a>既に試用版を要求しているユーザーの Teams の利用可能性を管理する
 
@@ -118,7 +118,7 @@ Teams へのアクセスをオフにするには:
 
 4. **[製品ライセンス]** ウィンドウで、**[オフ]** に切り替えます。
 
-    ![[製品ライセンス] ウィンドウの Teams 試用版ライセンスの設定を示すスクリーンショット](media/iW-trial-enable-4.png)
+    ![[ライセンス] ウィンドウの Teams 試用版ライセンスの設定を示すスクリーンショット](media/iW-trial-enable-4.png)
     
 >[!Note]
 >Microsoft Teams の試用版の切り替えスイッチは、組織内の最初のユーザーが試用版にサインアップした後に表示されます。
