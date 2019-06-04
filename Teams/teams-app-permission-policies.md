@@ -16,19 +16,23 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft Teams のアプリのアクセス許可ポリシーと、それらを使用して、組織内のユーザーが利用できるアプリを制御する方法について説明します。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: d15346370015843eeb497cce7fa85928e77c96d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac559fb492155af9953beb74c2fac1526f01432
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298892"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681922"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+
+> [!NOTE]
+> Microsoft Teams でアプリを管理するための現在の方法については、「[組織の Microsoft teams の設定を管理](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)する」を参照してください。
 
 管理者は、アプリのアクセス許可ポリシーを使って、組織内の Microsoft Teams ユーザーが利用できるアプリを制御することができます。 Microsoft、サードパーティ、組織によって公開されたすべてのアプリまたは特定のアプリを許可またはブロックすることができます。 アプリをブロックすると、ユーザーは Teams app store からアプリをインストールできなくなります。
 

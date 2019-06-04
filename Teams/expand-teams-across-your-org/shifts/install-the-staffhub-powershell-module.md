@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe419348d966d9ddfc5c16eee29d9a5005cd6db8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a6eab331c8d8b2213225ad8c7ee216f9f6ec2b51
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245917"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681882"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell モジュールをインストールする
 
@@ -38,15 +38,22 @@ ms.locfileid: "32245917"
     ```
     $ENV:PSModulePath
     ```
+    
 
 4. 出力のフォルダーパスを確認し、次の手順に進む前に、パス内のすべてのフォルダーがコンピューターに存在することを確認します。 フォルダーがない場合は、フォルダーを作成します。
-5. 次を実行します&lt;。&gt;ここで、path は手順2の出力のパスです。 たとえば、パスが C:\Users\User1\Documents\WindowsPowerShell\Modules. のように表示されることがあります。
+5. StaffHub PowerShell モジュールのインストールを許可するには、次を実行します。
+
+```
+Set-ExecutionPolicy RemoteSigned
+```
+
+6. 次を実行します&lt;。&gt;ここで、path は手順2の出力のパスです。 たとえば、パスが C:\Users\User1\Documents\WindowsPowerShell\Modules. のように表示されることがあります。
 
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
     Install-Module -Name PowerShellGet -Force  -AllowClobber
-    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.2
-    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.2
+    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
     ```
 
 ## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell モジュールに接続する

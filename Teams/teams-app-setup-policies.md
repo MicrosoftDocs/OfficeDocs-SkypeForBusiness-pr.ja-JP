@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Microsoft Teams のアプリセットアップポリシーの概要と、それらを使ってアプリを固定して組織内のユーザーのためにチームをカスタマイズする方法について説明します。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: a7b0a9cf7e7ed4eee10d82882d2f17ca57939aa1
-ms.sourcegitcommit: e6ae322d96357fe4f9a7b447afca9d87563f4ba1
+ms.openlocfilehash: e7d508ef87825d93c2df2a7899f413ec9710f44b
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34592169"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681976"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -175,6 +175,4 @@ Teams のモバイルクライアントでは、ユーザーにはアクティ�
 
  ## <a name="related-topics"></a>関連トピック
 - [Teams でのアプリの管理設定](admin-settings.md)
-- [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
-- [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 - [Teams クライアントからテナントアプリカタログにアプリを発行する](tenant-apps-catalog-teams.md)

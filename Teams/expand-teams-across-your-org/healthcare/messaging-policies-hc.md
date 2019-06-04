@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療組織向け Secure Messaging で Teams を始めましょう
-ms.openlocfilehash: 957e92ec9676047d727ba26b3eb2c29d1c3db558
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 167021c475edd760bf9b56d550616ebb199f2fb5
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494555"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681906"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>医療組織向け Secure Messaging で Teams を始めましょう
 
@@ -52,6 +52,8 @@ ms.locfileid: "34494555"
 ## <a name="priority-notifications"></a>優先度通知
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 - ![番号2のアイコン。前のスクリーンショット](../../media/sfbcallout2.png)の**ユーザーが優先通知を送信でき**ます。この設定を使用して、ユーザーが優先度の高いチャットメッセージを他のユーザーに送信できるようにします。 この機能を使うと、重大なインシデントで注意が必要な場合に、病院のスタッフが簡単に通知を受けることができます。 通常の "重要" メッセージとは異なり、優先度通知では、ユーザーに対して20分の間隔で、またはメッセージが受信され、受信者がメッセージを受信して読む可能性を最大化して、メッセージが受信され、適切なタイミングで処理される可能性を最大化します。
 

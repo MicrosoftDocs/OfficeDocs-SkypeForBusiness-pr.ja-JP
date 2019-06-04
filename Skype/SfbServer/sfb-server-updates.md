@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015 および Lync 2013 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 4a59cc2100c3c7acd392f7a30e5fbaeef400f7db
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 80ba0d772b95083b901b359c2f12793c5a6e3244
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294321"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681819"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
@@ -30,6 +30,7 @@ ms.locfileid: "34294321"
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business Server 2015、Web コンポーネントサーバーの累積更新プログラム9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019年5月 |
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月|
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム7 |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018 年 7 月 |
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム6ホットフィックス2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
