@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dc365921871f8c39c9189571bee0214f4316c08
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a86aa13c826b9b741aed936e134c6df90c8ed66
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236055"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667491"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -29,7 +29,7 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 > [!TIP]
 > Teams の初期展開時に、おすすめのアプリ (Planner など) を含めることをお勧めします。 Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。
 
-## <a name="chat-deployment-prerequisites"></a>チャットの展開に関する前提条件 
+## <a name="chat-deployment-prerequisites"></a>チャットの展開に関する前提条件
 
 組織全体に Teams を展開する前に、環境が Teams に対応しているかどうかを確認するために時間を割いてください。 次の情報を確認して、環境に対して必要な変更を実行してください。
 
@@ -159,7 +159,7 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 
 ### <a name="office-365-urls-and-ports"></a>Office 365 の URL とポート
 
-インターネット トラフィックの詳細な制御を維持している組織は、Teams の適切な構成が必要になる URL、IP アドレス、ポート、およびプロトコルに関する最新のリストについて、「[Office 365 の URL と IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を確認してください。 マイクロソフトは、必要なポート、URL、IP アドレスが時間の経過とともに変更する可能性があることを踏まえて、継続して Office 365 サービスを改善し、新機能を追加します。 この情報が更新または変更されたときに通知を受け取れるように、RSS で購読することをお勧めします。 少なくとも、前述の「[展開に関する前提条件](#deployment-prerequisites)」に示したポートが開かれているを確認してください。
+インターネット トラフィックの詳細な制御を維持している組織は、Teams の適切な構成が必要になる URL、IP アドレス、ポート、およびプロトコルに関する最新のリストについて、「[Office 365 の URL と IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を確認してください。 マイクロソフトは、必要なポート、URL、IP アドレスが時間の経過とともに変更する可能性があることを踏まえて、継続して Office 365 サービスを改善し、新機能を追加します。 この情報が更新または変更されたときに通知を受け取れるように、RSS で購読することをお勧めします。 少なくとも、前述の「[チャットの展開に関する前提条件](#chat-deployment-prerequisites)」に示したポートが開かれているを確認してください。
 
 |確認事項|アクション |
 |------------|-------|
