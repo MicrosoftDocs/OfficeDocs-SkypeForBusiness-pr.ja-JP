@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a5a17f729c8899c5fb7f7f97a65f9bc36c3080
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
+ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591640"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694748"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -61,6 +61,14 @@ Outlook for Mac の office の [会議] ボタンは、16.24.414.0 を実行し�
 ![Outlook mobile の Teams 会議アドインのスクリーンショット](media/teams-meeting-add-in-mobile.png)
 
 ユーザーが [**送信**] をクリックすると、会議の座標 (チームの参加リンクとダイヤルイン番号) が会議の出席依頼に追加されます。  
+
+## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Outlook の Teams 会議アドインとそのタイミング
+FindTime は、Outlook 用のアドインであり、ユーザーが会社間の会議の時間について合意したときに役立ちます。 会議の出席者が希望する時間を指定すると、指定した時間にユーザーの代わりに会議出席依頼が送信されます。 [**オンライン会議**] オプションが [findtime] で選択されている場合、Findtime は Skype for business または Microsoft Teams の会議をスケジュールします。 (FindTime は、組織によって既定のオンライン会議チャンネルとして設定されたものを使用します)。
+
+> [!NOTE]  
+> お客様の[findtime ダッシュボード](https://findtime.microsoft.com/UserDashboard)に Skype for business の設定を保存した場合、findtime では Microsoft Teams の代わりにそれが使用されます。 Microsoft Teams を使用する場合は、ダッシュボードの Skype for Business の設定を削除します。
+
+詳細については、「 [FindTime での会議のスケジュール](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)」を参照してください。
 
 ## <a name="authentication-requirements"></a>認証要件
 

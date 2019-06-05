@@ -17,15 +17,15 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: アドオンライセンス、機能、Office 365 ProPlus を購入する方法について説明します。
-ms.openlocfilehash: 8330ac282fd5bc4c64d6f31140b2989143214370
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+description: Teams メッセージングでの優先度の通知について説明します。
+ms.openlocfilehash: a50e9413e83b59295d46fc98562f95b8a6ce7fda
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/04/2019
-ms.locfileid: "34692310"
+ms.locfileid: "34702697"
 ---
-# <a name="priority-notifications"></a>優先度通知
+# <a name="messaging-policies-licensing"></a>メッセージングポリシーライセンス
 
 2020年1月1日から、ライセンスを取得したユーザーは、サブスクリプションの条件に従って優先度の高い通知を送信することができます。 IT 管理者は、適切なユーザーライセンスをサポートするための優先度通知の使用状況のレポートを提供します。
 

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: IT 管理者は、他のドメインの外部アクセス (フェデレーション) を構成して、これらのドメインのユーザーが Teams に参加できるようにすることができます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98dc47ec66861d2f0c77c0eff45851c09e8bc353
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 3f6a3dc6016eb52d58e82e9e9022d1bb8575404b
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33356189"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34702721"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Microsoft Teams での外部アクセス (フェデレーション) の管理
 ======================================================
@@ -50,15 +50,27 @@ Microsoft Teams の外部アクセスを使用すると、他のドメインの�
 | 不在時のメッセージが表示される | いいえ | はい |
 | 個々のユーザーをブロックすることができます | いいえ | はい |
 | @mentions はサポートされています | いいえ | はい |
+| プライベート通話を行う | はい | 可 |
+| IP ビデオを許可する | はい | 可 |
+| 画面共有モード | はい | 可 |
+| 今すぐ会議を許可する | いいえ | はい |
+| 送信済みメッセージを編集する | はい | 可 |
+| 送信したメッセージを削除できます | はい | 可 |
+| 会話で Giphy を使う | はい | 可 |
+| スレッドで Memes を使う | はい | 可 |
+| 会話でステッカーを使用する | はい | 可 |
 ||||
 
 <sup>1</sup>ユーザーがゲストとして追加され、ゲストテナントにゲストとしてサインインしていることを示します。<br>
 <sup>2</sup>メールまたはセッションの開始プロトコル (SIP) アドレスのみ。<br>
 <sup>3</sup>外部 (フェデレーション) チャットは1:1 のみです。
 
+> [!NOTE]
+> ゲスト機能とゲストエクスペリエンスの詳細については、「 [Microsoft Teams へのゲストアクセスを有効または無効にする](https://docs.microsoft.com/microsoftteams/set-up-guests)」および「[ゲストエクスペリエンスの概要](https://docs.microsoft.com/microsoftteams/guest-experience)」を参照してください。
+
 ## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>外部アクセスを有効または無効にする (ユーザーは Skype for Business および Teams ユーザーと通信できます)
 
-Microsoft Teams & Skype for Business 管理センターを使って、外部アクセスを管理することができます。
+Microsoft Teams & Skype for Business 管理センターを使用して、外部アクセスを管理することができます。
 
 1. Microsoft Teams & Skype for business 管理センターで、[**組織全体の設定** > ] の [**外部アクセス**] を選択します。
 

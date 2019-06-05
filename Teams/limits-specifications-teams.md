@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c71b789684d6d40ab9eb67e0464f8dc46ae0e96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8c28f3eac5bdfbd8542a77dca5386d27663d8c5
+ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299682"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34695942"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -34,7 +34,7 @@ ms.locfileid: "34299682"
 |チームのメンバーの数 | 5,000       |
 |[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 5,000       |
 |グローバル管理者を作成できるチームの数        |  500,000   |
-|Office 365 テナントが持てるチームの数    | 500、000&sup2     |
+|Office 365 テナントが持てるチームの数    | 50万&sup2;     |
 |チームごとのチャネル数    | 200 (削除されたチャンネルを含む) &sup3;         |
 
 &sup1; Azure Active Directory の任意のディレクトリ オブジェクトは、この制限にカウントされます。 グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
@@ -64,7 +64,7 @@ Team は、SharePoint Online のバックエンドのファイル共有で実行
 |------------------------|---------|---------|---------|---------|---------|---------|
 |ストレージ                 |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB   |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB           |
 |Teams ファイル用のストレージ |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |
-|ファイル アップロードの上限       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|ファイルアップロードの上限 (ファイル単位)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
 Teams の各 [ファイル] タブは SharePoint Online をバックエンドで実行するため、上記のストレージ制限は Team 内の各チャネルに適用されます。
 

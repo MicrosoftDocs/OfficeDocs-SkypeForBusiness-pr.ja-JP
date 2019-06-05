@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft は2020年2月に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止します。 この記事では、影響を受ける顧客がビジネス継続性を計画するときに知っておく必要があることについて説明します。
-ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494189"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34702681"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -48,7 +48,7 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
 |---------|---------|---------|
 |移行の準備ができているお客様<br><br>移行する機能:<br><ul><li>ボイスメール</ul>   |   3月–2019年5月  |たとえば<ul><li>    簡単なボイスメールの展開と使用についてのお客様<li>移行を実行するために Microsoft によって確立されたすべての要件を持つお客様<ul>|
 |前提条件をお持ちのお客様<br><br>移行する機能:<br><ul><li>ボイスメール<li>自動応答</ul> |  5月 ~ 2019 年5月 |たとえば <br><ul><li>ハイブリッド構成が確立または完了していない<li>ハイブリッド PSTN 番号が設定されていない</ul>|
-|管理者の関与を必要とするお客様 & の投資<br><br>移行する機能:<ul><li>留守番<li>自動応答<li>Fax の統合</ul>| 2020年2月  | たとえば <br><ul><li>ExchUMO サービスは、サードパーティ PBX で利用されています<li>PSTN サブスクライバーアクセス要件を持つお客様<li>SFB 2010 のお客様 (サポートされていません)<li>Fax の統合</ul> |
+|顧客の投資 & 管理者の関与を必要とするお客様<br><br>移行する機能:<ul><li>留守番<li>自動応答<li>Fax の統合</ul>| 2020年2月  | たとえば <br><ul><li>ExchUMO サービスは、サードパーティ PBX で利用されています<li>PSTN サブスクライバーアクセス要件を持つお客様<li>SFB 2010 のお客様 (サポートされていません)<li>Fax の統合</ul> |
 
 ## <a name="migration-steps"></a>移行手順
 
@@ -173,6 +173,10 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
 | /Fax| サービス機能 | Fax の統合|  | N | Y    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>管理者向けの推奨されるテスト計画と移行後の検証
+
+クラウドボイスメールにユーザーが移行されたことを確認するには、ボイスメールをユーザーに残し、Outlook でメッセージ本文を確認するだけでなく、クラウドボイスメールメッセージには次のような追加のフッターが表示されます。
+
+**ご意見をお寄せいただきありがとうございます。上記のトランスクリプトが表示されない場合は、音声品質が原因で、議事録の再生が十分でないことが原因です。**
 
 ユーザーが移行された後でボイスメール機能をテストする場合は、次のシナリオを検討してください。
 
