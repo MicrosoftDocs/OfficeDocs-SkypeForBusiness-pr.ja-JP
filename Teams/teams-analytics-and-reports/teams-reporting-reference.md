@@ -48,4 +48,4 @@ Microsoft では、Teams のレポート エクスペリエンスの継続的な
 |[Teams のデバイス使用状況レポート](device-usage-report.md)   |  Windows ユーザー:<br/>Mac ユーザー<br/>iOS ユーザー<br/>Android スマートフォン ユーザー     |
 
 > [!NOTE]
-> The Teams reports show data for active users and active teams. For example, if a user in your organization isn't active in Teams during the date range that you specified for a report, data for that user isn't included in that report.
+> Teams のレポートには、アクティブなユーザーとアクティブなチームについてのデータが表示されます。たとえば、レポート用に指定した期間中、組織内のあるユーザーが Teams でアクティブでない場合、そのユーザーのデータはレポートに含まれません。
