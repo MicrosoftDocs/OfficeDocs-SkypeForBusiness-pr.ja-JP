@@ -23,6 +23,7 @@
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)
 ## [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
+## [Teams でファイルを共有する](sharing-files-in-teams.md)
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [プレゼンス](presence-admins.md)
@@ -692,6 +693,7 @@
 ## Teams のインストール
 ### [Teams のクライアントを取得する](get-clients.md)
 ### [Teams アプリのハードウェア要件](hardware-requirements-for-the-teams-app.md)
+### [ハードウェア デコーダー/エンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)
 ### [MSI を使用した Teams のインストール](msi-deployment.md)
 ### [組織で Teams を有効にする](Office-365-set-up.md)
 ### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
