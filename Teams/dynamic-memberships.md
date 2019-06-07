@@ -14,18 +14,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e9da5b5bc9c1bb5800634d727bd6c9218812ab
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: beb93d1bd369d98743ad54b9f5753278dea36ed8
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245416"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748436"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>チームの動的なメンバーシップの概要
 
 Microsoft Teams は、動的メンバーシップを使用して、Office 365 グループに関連付けられているチームをサポートします。 動的メンバーシップによって、Azure Active Directory (AAD) で特定のユーザー属性を確認する1つ以上のルールによって、チームのメンバーシップを定義できます。 ユーザー属性の変更またはユーザーの参加とテナントの脱退の際に、ユーザーは適切なチームに追加または削除されます。
 
-動的なメンバーシップを使用して、組織内の特定の cohorts ユーザーに対して teams をセットアップすることができます。 次のようなシナリオが考えられます。
+動的メンバーシップを使用して、組織内の特定のユーザーの cohorts に対して teams を設定することができます。 次のようなシナリオが考えられます。
 - 病院は、看護師、医師、surgeons のために個別のチームを作成して、コミュニケーションをブロードキャストすることができます。 これは、病院が temp 従業員に依存している場合に特に重要です。
 - 大学では、adjunct 教職員など、特定の大学のすべての教職員のチームを作成できます。
 - 航空会社は、各フライト (たとえば、シカゴからアトランタまでの火曜日の午後) のチームを作成し、必要に応じて、頻繁に変更されるフライトクルーが自動的に割り当てまたは削除されるようにしたいと考えています。

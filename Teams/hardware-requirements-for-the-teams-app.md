@@ -4,7 +4,7 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/28/2018
+ms.date: 06/04/2019
 audience: Admin
 ms.topic: reference
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123dd884f2cbb2e2085c76df9739fa41349a8f1a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: ed73135210cd970e6ee489d0f2eb095e0ab65e0c
+ms.sourcegitcommit: 04c819504e23f9e3a618b57d54411ffb83888fb9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330421"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34739960"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 
@@ -40,8 +40,8 @@ ms.locfileid: "34330421"
 |.NET バージョン    |  .NET 4.5 CLR 以降が必要       |
 |ビデオ    |  USB 2.0 ビデオカメラ       |
 |デバイス    |   標準のラップトップカメラ、マイク、スピーカー    | 
-|ビデオ通話と会議 | ビデオ通話とオンライン会議の操作性を向上させるには、2.0 GHz プロセッサと 4.0 GB の RAM (以上) を搭載したコンピューターを使うことをお勧めします。 オプションの [背景ビデオの**ぼかし**] では、高度なベクトル拡張機能 2 (AVX2) がサポートされているプロセッサが必要になります。 |
-|Teams ライブイベント | Teams live のイベントを生成する場合は、コア i5 Kaby Lake processor、4.0 GB RAM (以上)、ハードウェアエンコーダーを搭載したコンピューターを使うことをお勧めします。  |
+|ビデオ通話と会議 | ビデオ通話とオンライン会議の操作性を向上させるには、2.0 GHz プロセッサと 4.0 GB の RAM (以上) を搭載したコンピューターを使うことをお勧めします。 オプションの [背景ビデオの**ぼかし**] では、高度なベクトル拡張機能 2 (AVX2) がサポートされているプロセッサが必要になります。 サポートされていないデコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
+|Teams ライブイベント | Teams live のイベントを生成する場合は、コア i5 Kaby Lake processor、4.0 GB RAM (以上)、ハードウェアエンコーダーを搭載したコンピューターを使うことをお勧めします。 サポートされていないデコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac での Teams デスクトップアプリのハードウェア要件
 
@@ -54,7 +54,7 @@ ms.locfileid: "34330421"
 |オペレーティング システム  |    Mac OS X 10.11 El Capitan 以降     |
 |ビデオ  |    互換性のある web カメラ     |
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
-|ビデオ通話と会議 | ビデオ通話とオンライン会議の操作性を向上させるには、2.0 GHz プロセッサと 4.0 GB の RAM (以上) を搭載したコンピューターを使うことをお勧めします。 オプションの [背景ビデオのぼかし] では、高度なベクトル拡張機能 2 (AVX2) がサポートされていて、最も遅い 2013 Mac デバイス以降でサポートされています。
+|ビデオ通話と会議 | ビデオ通話とオンライン会議の操作性を向上させるには、2.0 GHz プロセッサと 4.0 GB の RAM (以上) を搭載したコンピューターを使うことをお勧めします。 オプションの [背景ビデオのぼかし] では、高度なベクトル拡張機能 2 (AVX2) がサポートされていて、最も遅い 2013 Mac デバイス以降でサポートされています。 サポートされていないデコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。|
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>モバイルデバイス上の Teams アプリのハードウェア要件
 
