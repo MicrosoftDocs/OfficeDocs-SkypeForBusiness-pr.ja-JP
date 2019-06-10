@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '電話システム、電話会議、通話プランやコミュニケーション クレジットを使用するために Skype for Business  のライセンスを割り当てる方法について説明します。 '
-ms.openlocfilehash: 96f2805a031ab122dce0fc354da4a4e60dbded32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 997cffce5b98ed992371a0f43e701b2efc1ae128
+ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301270"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34768777"
 ---
 # <a name="assign-skype-for-business-licenses"></a>ユーザーに会議 ID を割り当てる
 
@@ -107,7 +107,9 @@ ms.locfileid: "34301270"
 |Skype for Business オンライン スタンドアロンプラン 2  <br/> |MCOSTANDARD  <br/> |
 |電話システム  <br/> |MCOEV  <br/> |
 |国際通話プラン  <br/> |MCOPSTN2  <br/> |
-|国内通話プラン  <br/> |MCOPSTN1  <br/> |
+|国内通話プラン (3000 分間/1200 分の EU プラン)  <br/> |MCOPSTN1  <br/> |
+|国内通話プラン (120 分間通話プラン)  <br/> |MCOPSTN5  <br/> |
+|国内通話プラン (240 分間通話プラン)  <br/> |MCOPSTN6  <br/> |
 |コミュニケーション クレジット  <br/> |MCOPSTNC  <br/> |
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>電話会議: ライセンス割り当てのヒントとスクリプト
