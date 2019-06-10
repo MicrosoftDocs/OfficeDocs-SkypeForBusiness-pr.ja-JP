@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: tonysmit
+ms.reviewer: sonua
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 427a0dc26ef3c5b9901ddbe9cefe1288c905ccbb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0093bafdf59c1d18c578f8e8edfaed3ab4c26381
+ms.sourcegitcommit: 8305fd00f6f9e302653fb383e4ac8d38490644c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223377"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34428754"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -31,6 +31,9 @@ ms.locfileid: "32223377"
 以下に、割り当てられる必要のあるライセンスを示します。  
 - Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 A3 または A5 ライセンス。 
 - Microsoft Teams、および Microsoft Stream のライセンス。
+
+> [!IMPORTANT]
+> ライブイベントを作成してスケジュールするユーザーには、Exchange Online メールボックスが必要です。
 
 認証されたユーザーとしてライブ イベントに参加するのに、Office 365 のライセンスが必要であることを理解することは重要ですが、これは使用する作成方法によって異なります。
 
@@ -56,7 +59,7 @@ ms.locfileid: "32223377"
 |パブリック (匿名ユーザー)      |  はい            |  いいえ                  |
 |ゲスト ユーザー                   |  いいえ<sup>1</sup> |  いいえ                  |
 |フェデレーション企業内の全員 |  いいえ<sup>1</sup> |  いいえ                  |
-|会社内の全員           |  はい            |  はい                 |
+|会社内の全員           |  可            |  はい                 |
 |特定のグループ/ユーザー      |  はい            |  はい                 |
 
 <sup>1</sup> ライブ イベントの匿名ユーザーとしての視聴のみ可能。
@@ -69,6 +72,7 @@ ms.locfileid: "32223377"
 |---------|---------|---------|---------|
 |最大視聴者数 |出席者 10,000 名 |出席者 10,000 名* |出席者 10,000 名* |
 |ライブ イベントの最大期間 |4 時間 |4 時間 |4 時間 |
+|Office 365 テナントあたりの同時ライブイベントの最大数 |マート  | マート  | マート  |
 |ライブ イベントの作成 |   Skype 会議ブロードキャスト ポータル |Teams、Teams 経由の Yammer | Teams、Teams 経由の Yammer、Stream |
 |視聴者のエンゲージメント – Yammer |&#x2714; |&#x2714; (統合エクスペリエンス) |&#x2714; (統合エクスペリエンス) |
 |視聴者のエンゲージメント – モデレート Q & A |&#x2714;  |&#x2714; |&#x2714; |
@@ -77,7 +81,7 @@ ms.locfileid: "32223377"
 |プロデューサー UI での出席者数 |X  |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
 |複数の発表者の許可 |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
 |会議中の発表者の招待 |&#x2714; (Skype for Business) |X |N/A |
-|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |X |該当なし |
+|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |X |N/A |
 |フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  | (近日公開) |該当なし |
 |発表者 – PSTN アクセス |X |&#x2714; (Teams) |N/A |
 |画面表示 |X |&#x2714; (Teams) |N/A |
