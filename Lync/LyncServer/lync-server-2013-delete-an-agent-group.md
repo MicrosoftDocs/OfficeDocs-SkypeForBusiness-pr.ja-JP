@@ -1,41 +1,67 @@
-﻿---
-title: エージェント グループの削除
-TOCTitle: エージェント グループの削除
-ms:assetid: df385fd1-62f4-42b7-a349-4eb38dea50c8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg182597(v=OCS.15)
-ms:contentKeyID: 48273780
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: エージェントグループを削除する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an agent group
+ms:assetid: df385fd1-62f4-42b7-a349-4eb38dea50c8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182597(v=OCS.15)
+ms:contentKeyID: 48185670
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: adcdc0245f6fdd835492084fcae91389409f52c8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833631"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# エージェント グループの削除
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="delete-an-agent-group-in-lync-server-2013"></a>Lync Server 2013 でエージェントグループを削除する
 
-次のいずれかの手順を使用して、エージェント グループを削除します。
+</div>
 
-## Lync Server コントロール パネルを使用してエージェント グループを削除するには
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-11-01_
+
+エージェントグループを削除するには、次のいずれかの手順を使用します。
+
+<div>
+
+## <a name="to-use-lync-server-control-panel-to-delete-an-agent-group"></a>Lync Server コントロールパネルを使用してエージェントグループを削除するには
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで、\[**応答グループ**\] をクリックし、\[**グループ**\] をクリックします。
+3.  左側のナビゲーション バーで、[**応答グループ**] をクリックし、[**グループ**] をクリックします。
 
-4.  \[**応答グループ**\] ページで、検索フィールドに削除するエージェント グループの名前または名前の一部を入力します。
+4.  [**応答グループ**] ページで、削除するエージェントグループの名前のすべてまたは一部を検索フィールドに入力します。
 
-5.  結果の一覧で、\[**編集**\] をクリックして、\[**削除**\] をクリックします。
+5.  結果の一覧で、削除するグループをクリックし、[**編集**] をクリックして、[**削除**] をクリックします。
 
-6.  \[**OK**\] をクリックします。
+6.  **[OK]** をクリックします。
 
-## コマンドレットを使用してエージェント グループを削除するには
+</div>
+
+<div>
+
+## <a name="to-use-windows-powershell-to-delete-an-agent-group"></a>Windows PowerShell を使用してエージェントグループを削除するには
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 3.  コマンド ラインで、次のコマンドを実行します。
     
@@ -45,14 +71,29 @@ _**トピックの最終更新日:** 2012-11-01_
     
         Get-CsRgsAgentGroup -Identity service:ApplicationServer:redmond.contoso.com -Name "Human Resources" | Remove-CsRgsAgentGroup
 
-## 関連項目
+</div>
 
-#### タスク
+<div>
 
-[Lync Server 2013 エージェント グループの作成または変更](lync-server-2013-create-or-modify-an-agent-group.md)  
+## <a name="see-also"></a>関連項目
 
-#### その他のリソース
 
-[Remove-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsAgentGroup)  
-[Get-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsRgsAgentGroup)
+[Lync Server 2013 でエージェントグループを作成または変更する](lync-server-2013-create-or-modify-an-agent-group.md)  
+
+
+[削除-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsAgentGroup)  
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsAgentGroup)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

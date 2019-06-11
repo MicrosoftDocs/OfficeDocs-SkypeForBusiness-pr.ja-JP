@@ -1,55 +1,107 @@
-﻿---
-title: クライアント バージョン管理を有効または無効にする
-TOCTitle: クライアント バージョン管理を有効または無効にする
-ms:assetid: 33a98cb9-a979-4bb6-afb2-512f601d7ac5
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ898475(v=OCS.15)
-ms:contentKeyID: 52056569
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: クライアントのバージョン管理を有効または無効にする'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable client versioning
+ms:assetid: 33a98cb9-a979-4bb6-afb2-512f601d7ac5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898475(v=OCS.15)
+ms:contentKeyID: 50873755
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8a0f6e5306e30baca3c2a8178a0d979f82d55481
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833301"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# クライアント バージョン管理を有効または無効にする
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>Lync Server 2013 でクライアントのバージョン管理を有効または無効にする
 
-クライアント バージョンの構成設定を使用して、クライアント バージョンの制御をグローバルにまたは特定のサイトに対して有効または無効にします。グローバル クライアント バージョン構成は Lync Server 2013 と共にインストールされます。この構成を使用して、サーバー展開全体に対してクライアント バージョンの制御を有効または無効にします。グローバル構成を有効にすると、ユーザーがログオンを試みたときに、適用されているすべてのクライアント バージョン ポリシーが有効になります。クライアント バージョン制御を行わないようにする場合は、グローバル クライアントバージョン構成を無効にできます。クライアント バージョン管理は、Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理シェルで有効または無効にできます。
+</div>
 
-> [!NOTE]
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-23_
+
+クライアントバージョンの構成設定は、グローバルに、または特定のサイトに対して、クライアントのバージョン管理をオンまたはオフにするために使用されます。 グローバルクライアントバージョンの構成は、Lync Server 2013 と共にインストールされ、サーバー展開全体でクライアントのバージョン管理を有効または無効にするために使用されます。 グローバル構成が有効になっている場合は、ユーザーがログオンしようとしたときに、使用しているクライアントバージョンポリシーが有効になります。 クライアントのバージョン管理を行わない場合は、グローバルクライアントのバージョン設定を無効にすることができます。 Lync Server 2013 コントロールパネルまたは Lync Server 2013 Management Shell からクライアントのバージョン管理を有効または無効にすることができます。
+
+<div>
+
+
+> [!NOTE]  
 > 匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。
 
 
-## Lync Server コントロール パネルを使用して、クライアント バージョン管理を有効または無効にするには
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-client-versioning-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してクライアントのバージョン管理を有効または無効にするには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**クライアント**\] をクリックし、\[**クライアント バージョンの構成**\] ナビゲーション ボタンをクリックします。
+3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**クライアントバージョンの構成**] ナビゲーションボタンをクリックします。
 
 4.  次の手順を実行します。
     
-      - クライアント バージョン管理をグローバルに有効または無効にするには、\[**グローバル**\] 構成をダブルクリックし、設定を変更します。
+      - クライアントのバージョン管理をグローバルに有効または無効にするには、**グローバル**構成をダブルクリックして、設定を変更します。
     
-      - 特定のサイトに対してクライアント バージョン管理を有効または無効にするには、\[**新規**\] をクリックし、サイトを選択して \[**OK**\] をクリックし、サイトの設定を変更します。
+      - 特定のサイトのクライアントのバージョン管理を有効または無効にするには、[**新規**] をクリックし、サイトを選択し、[ **OK**] をクリックして、サイトの設定を変更します。
 
-## Windows PowerShell コマンドレットを使用してクライアント バージョン管理を有効または無効にする
+</div>
 
-**Set-CsClientVersionConfiguration** コマンドレットを使用してクライアント バージョン管理を有効または無効にできます。このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモート セッションから実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+<div>
 
-## クライアント バージョン管理を有効にするには
+## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してクライアントのバージョン管理を有効または無効にする
 
-  - **Enabled** プロパティを True ($True) に設定することで、クライアント バージョン管理を有効にできます。
+クライアントのバージョン管理を有効または無効にするには、 **Set-CsClientVersionConfiguration**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-enable-client-versioning"></a>クライアントのバージョン管理を有効にするには
+
+  - クライアントのバージョン管理を有効にするには、 **Enabled**プロパティを True ($True) に設定します。
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-## クライアント バージョン管理を無効にするには
+</div>
 
-  - **Enabled** プロパティを False ($False) に設定することで、クライアント バージョン管理を無効にできます。
+<div>
+
+## <a name="to-disable-client-versioning"></a>クライアントのバージョン管理を無効にするには
+
+  - クライアントのバージョン管理を無効にするには、 **Enabled**プロパティを False ($False) に設定します。
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-詳細については、[Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration) コマンドレットに関するヘルプ トピックを参照してください。
+</div>
+
+詳細については、「 [Set-CsClientVersionConfiguration)](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration)コマンドレットのヘルプトピックを参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

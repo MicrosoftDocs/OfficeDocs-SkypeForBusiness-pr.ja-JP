@@ -1,85 +1,135 @@
-﻿---
-title: 'Lync Server 2013: Lync Server 管理ツール'
-TOCTitle: Lync Server 管理ツール
-ms:assetid: 9b006f93-4f3d-461d-89b8-e80a34fdb3c5
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg195756(v=OCS.15)
-ms:contentKeyID: 48272960
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server 管理ツール'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Server administrative tools
+ms:assetid: 9b006f93-4f3d-461d-89b8-e80a34fdb3c5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195756(v=OCS.15)
+ms:contentKeyID: 48184972
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6756aee8d7c65b179fb5c1c15ca008b3bd205778
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832929"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 管理ツール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 管理ツール
 
-このトピックでは、 Lync Server 2013 の管理ツールについて説明します。
+</div>
 
-既定では、管理ツールは各 Lync Server サーバー上にインストールされます。また、専用の管理コンソールなど、他のコンピューター上に管理ツールをインストールすることもできます。管理ツールをインストールする手順については、「[Lync Server 2013 管理ツールをインストールする](lync-server-2013-install-lync-server-administrative-tools.md)」を参照してください。管理タスクを実行するツールを開く手順については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+<div id="mainSection">
 
-Lync Server 管理ツールをインストールまたは使用する前に、インフラストラクチャ、オペレーティング システム、および管理者権限の各要件を必ず見直してください。インフラストラクチャの要件の詳細については、「[Lync Server 2013 での管理ツールのインフラストラクチャ要件](lync-server-2013-administrative-tools-infrastructure-requirements.md)」を参照してください。 Lync Server 管理ツールをインストールするためのオペレーティング システムおよびソフトウェアの各要件の詳細については、「[Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」、「[Lync Server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md)」、および「[Lync Server 2013 の追加サーバー サポートおよび要件](lync-server-2013-additional-server-support-and-requirements.md)」を参照してください。ツールのインストールおよび使用に必要なユーザー権限およびアクセス許可は、「[Lync Server 2013 のセットアップと管理に必要な管理者権限およびアクセス許可](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)」で説明されています。
+<div id="mainBody">
 
-管理ツールは、次の内容で構成されます。
+<span> </span>
 
-  - **Lync Server 展開ウィザード**    Lync Server を展開する場合、およびすべての管理ツールをインストールする場合に使用します。
+_**最終更新日:** 2013-02-21_
 
-  - **Lync Serverトポロジ ビルダー**   展開内のコンポーネントを定義する場合に使用します。
+このトピックでは、Lync Server 2013 の管理ツールについて説明します。
 
-  - **Lync Server コントロール パネル**   Web ベースのインターフェイスの使用による展開の継続的な管理に使用します。
+各 Lync Server サーバーには、既定で管理ツールがインストールされています。 さらに、専用の管理コンソールなど、他のコンピューターにも管理ツールをインストールできます。 管理ツールをインストールする手順については、「 [Lync Server 2013 管理ツールをインストール](lync-server-2013-install-lync-server-administrative-tools.md)する」を参照してください。 管理タスクを実行するためのツールを開く手順については、「 [Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-  - **Lync Server 管理シェル**   コマンド ラインの使用による展開の継続的な管理に使用します。
+Lync Server 管理ツールをインストールまたは使用する前に、インフラストラクチャ、オペレーティングシステム、ソフトウェア、および管理者の権限の要件を確認してください。 インフラストラクチャの要件の詳細については、「 [Lync Server 2013 での管理ツールインフラストラクチャの要件](lync-server-2013-administrative-tools-infrastructure-requirements.md)」を参照してください。 Lync Server 管理ツールをインストールするためのオペレーティングシステムとソフトウェアの要件の詳細については、「 [lync server 2013 のサーバーとツールのオペレーティングシステムサポート](lync-server-2013-server-and-tools-operating-system-support.md)」、「 [lync server 2013 のその他のソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照し[てください。Lync Server 2013 でのサーバーのサポートと要件が追加](lync-server-2013-additional-server-support-and-requirements.md)されています。 ツールをインストールして使用するために必要なユーザー権限とアクセス許可については、「 [Lync Server 2013 のセットアップと管理に必要な管理者権限とアクセス許可](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)」を参照してください。
 
-  - **Lync Server ログ ツール**   展開内の問題のトラブルシューティングに使用します。
+管理ツールは次の要素で構成されています。
 
-  - **集中ログ サービス**   1 つのコンピューター、プール、サイト、またはグローバルからログを収集し、ファイルを追跡管理します。プロバイダー、フラグ、トレース レベルを含むシナリオを選択し、定義します。ログ記録は、テキスト ベースのツールまたは Snooper.exe のようなツールで、収集、集計、および表示されます。
+  - **Lync server 展開ウィザード**   は、lync server を展開し、すべての管理ツールをインストールするために使用されます。
 
-展開は、主に トポロジ ビルダーおよび Lync Server コントロール パネルを使用して管理できます。
+  - **Lync Server Topology Builder**   は、展開でコンポーネントを定義するために使用されます。
 
-## 展開ウィザード
+  - **Lync Server コントロールパネル**   web ベースのインターフェイスを使用して展開を継続的に管理するために使用します。
 
-Lync Server がまだインストールされていないコンピューターにすべての管理ツールをインストールするには、インストール メディアに含まれている Lync Server 展開ウィザードを使用する必要があります。管理ツールのインストール プロセス時に、 Lync Server 展開ウィザードは、その他のツールと一緒にローカルにインストールされます。これで、後で使用して、追加コンポーネントのファイルをインストールしたり、コンピューター上に不要なコンポーネントのファイルを削除したりできます。
+  - **Lync Server 管理シェル**   は、コマンドラインを使用して展開を継続的に管理するために使用されます。
 
-Lync Server のインストール メディアから初めて Lync Server 展開ウィザード を実行する方法の詳細については、「[Lync Server 2013 管理ツールをインストールする](lync-server-2013-install-lync-server-administrative-tools.md)」を参照してください。
+  - **Lync Server ログツール**   を使用して、展開の問題のトラブルシューティングを行うことができます。
 
-## トポロジ ビルダー
+  - **集中ログサービス**   1 台のコンピューター、プール、サイト、またはグローバルからログとトレースファイルを収集します。 プロバイダー、フラグ、トレースレベルを含むシナリオを選択して定義します。 ログは、テキストベースのツールや Snooper などのツールを使って収集、集計、表示されます。
 
-トポロジ ビルダーを使用して実行できる展開タスクの詳細については、「展開」のドキュメントで各サーバーの役割を参照してください。
+主にトポロジビルダーと Lync Server コントロールパネルを使用して、展開を管理することができます。
 
-## Lync Server コントロール パネル
+<div>
 
-Lync Server 2013 コントロール パネルを使用して、 Lync Server 2013 の管理および保守に必要な管理タスクの大半を実行できます。 Lync Server コントロール パネルは、組織内の Lync Server を実行するサーバー、ユーザー、クライアント、およびデバイスの構成を管理するためのグラフィカル ユーザー インターフェイス (GUI) を提供します。 Lync Server 管理シェルは、 Lync Server コントロール パネルを基本メカニズムとして使用して、 Lync Server の構成を実行します。
+## <a name="deployment-wizard"></a>展開ウィザード
 
-Lync Server コントロール パネルは、すべての Lync Server フロントエンド サーバーまたは Standard Edition サーバーに自動でインストールされます。このリリースでは、ユーザーはエッジ サーバーをリモートで管理します。 Lync Server を集中管理する管理コンソールなど、別のコンピューターにも Lync Server コントロール パネルをインストールできます。詳細については、「[Lync Server 2013 管理ツールをインストールする](lync-server-2013-install-lync-server-administrative-tools.md)」を参照してください。
+Lync server をまだインストールしていないコンピューターにすべての管理ツールをインストールするには、インストールメディアに含まれている Lync Server 展開ウィザードを使用する必要があります。 管理ツールのインストールプロセスでは、Lync Server 展開ウィザードが他のツールと共にインストールされているため、後で追加のコンポーネント用のファイルをインストールしたり、必要のないコンポーネントのファイルを削除したりすることができます。pc.
+
+Lync server のインストールメディアから初めて Lync Server Deployment ウィザードを実行する方法の詳細については、「 [Lync server 2013 管理ツールをインストール](lync-server-2013-install-lync-server-administrative-tools.md)する」を参照してください。
+
+</div>
+
+<div>
+
+## <a name="topology-builder"></a>トポロジ ビルダー
+
+トポロジビルダーを使用して実行できる展開タスクの詳細については、各サーバーの役割の展開ドキュメントを参照してください。
+
+</div>
+
+<div>
+
+## <a name="lync-server-control-panel"></a>Lync Server コントロール パネル
+
+Lync Server 2013 コントロールパネルを使用すると、Lync Server 2013 の管理と保守に必要な管理タスクのほとんどを実行できます。 Lync Server コントロールパネルには、組織内のユーザー、クライアント、およびデバイスに加えて、Lync Server を実行しているサーバーの構成を管理するグラフィカルユーザーインターフェイス (GUI) が用意されています。 Lync server 管理シェルは、lync server のコントロールパネルを使用して、Lync Server の構成を実行するための基盤となるメカニズムとして使用します。
+
+Lync Server コントロールパネルは、Lync Server のすべてのフロントエンドサーバーまたは Standard Edition サーバーに自動的にインストールされます。 このリリースでは、リモートでエッジサーバーを管理します。 Lync server コントロールパネルは、Lync Server を一元管理する管理コンソールなどの、別のコンピューターにインストールすることもできます。 詳細については、「 [Lync Server 2013 管理ツールをインストール](lync-server-2013-install-lync-server-administrative-tools.md)する」を参照してください。
+
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Lync Server コントロール パネルを使用して設定を構成するには、CsAdministrator 役割に割り当てられているアカウントを使用してログインする必要があります。 Lync Server 2013 で使用できる定義済みの管理者の役割の詳細については、「<A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</A>」を参照してください。</P>
+> <P>Lync Server コントロールパネルを使用して設定を構成するには、CsAdministrator の役割に割り当てられているアカウントを使用してログインしている必要があります。 Lync Server 2013 で利用できる定義済みの管理者ロールの詳細については、「 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync server 2013 でのロールベースのアクセス制御の計画</A>」を参照してください。</P>
 > <LI>
-> <P>Lync Server コントロール パネルを使用して設定を構成するには、最小画面解像度が 1024 x 768 のコンピューターを使用する必要があります。</P></LI></UL>
+> <P>Lync Server コントロールパネルを使用して設定を構成するには、最低でも 1024 x 768 の画面解像度を備えたコンピューターを使用する必要があります。</P></LI></UL>
 
 
 
-## Lync Server 管理シェル
+</div>
 
-Lync Server の Lync Server 管理シェルは、新しい管理方法です。 Lync Server 管理シェルは、 Windows PowerShell コマンドライン インターフェイス上に構築された強力な管理インターフェイスです。これには、 Lync Server に固有の総合的なコマンドレット セットが含まれます。 Lync Server 管理シェルを使用すると、高度な構成設定および制御の自動化を実現できます。 トポロジ ビルダーと Lync Server コントロール パネルは共にこれらのコマンドレットのサブセットを実装しており、 Lync Server の管理をサポートします。 Lync Server 管理シェルには、 Lync Server のすべての管理タスク用のコマンドレットが含まれています。コマンドレットを個別に使用して展開を管理できます。各コマンドレットの詳細については、「[Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)」のドキュメント、またはコマンド ライン ヘルプを参照してください。
+</div>
 
-## ログ ツール
+<div>
 
-Lync Server ログ ツールは、製品の実行中に製品からログ情報とトレース情報を収集するので、トラブルシューティングに役立ちます。このツールを使用して、 Lync Server サーバーの役割に関するデバッグ セッションを実行できます。ログ ツールの詳細については、TechNet ライブラリの「Lync Server 2010 Logging Tool」( <http://go.microsoft.com/fwlink/?linkid=199265>) を参照してください。
+## <a name="lync-server-management-shell"></a>Lync Server 管理シェル
+
+Lync server の管理シェルでは、管理と管理のための新しい方法が用意されています。 Lync Server Management Shell は、Windows PowerShell コマンドラインインターフェイスに基づいて構築された強力な管理インターフェイスであり、Lync Server 固有の一連の包括的なコマンドレットが含まれています。 Lync Server 管理シェルを使用すると、豊富な構成とオートメーションコントロールのセットを入手できます。 トポロジビルダーと Lync Server コントロールパネルはどちらも、Lync Server の管理をサポートするために、これらのコマンドレットのサブセットを実装しています。 Lync Server 管理シェルには、すべての Lync Server 管理タスク用のコマンドレットが含まれています。また、コマンドレットを個別に使用して展開を管理することもできます。 詳細については、「 [Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)ドキュメント」または各コマンドレットのコマンドラインヘルプを参照してください。
+
+</div>
+
+<div>
+
+## <a name="logging-tool"></a>ログツール
+
+Lync Server ログツールを使って、製品の実行中に製品からログとトレース情報をキャプチャすることで、トラブルシューティングを容易に行うことができます。 このツールを使用して、任意の Lync Server サーバーの役割でデバッグセッションを実行できます。 ログツールの詳細については、TechNet ライブラリの Lync Server 2010 Logging Tool のマニュアルを[http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)参照してください。
+
+<div>
 
 
-> [!IMPORTANT]
-> 集中ログ サービス は、あらゆる状況で、 Lync Server ログ ツール上でのすべてのログ収集で推奨されます。 Lync Server ログ ツールはまだ機能しますが、 集中ログ サービス が既に実行中の場合、干渉が発生するか、ほとんど役に立たない状態で表示されます。 集中ログ サービス または Lync Server ログ ツールのどちらかのみを使用し、決して両方を同時に使用しないでください。 集中ログ サービス の詳細と、それを排他的に使用する理由については、「<A href="lync-server-2013-using-the-centralized-logging-service.md">Lync Server 2013 での集中ログ サービスの使用</A>」を参照してください。
+> [!IMPORTANT]  
+> すべての状況で Lync Server ログツールを介してすべてのログ収集を行う場合は、一元ログサービスをお勧めします。 Lync Server ログツールは引き続き動作しますが、集中化されたログサービスが既に実行されている場合は、ほとんどの場合、影響を受ける可能性があります。 一元管理サービスまたは Lync Server ログツールのみを使用する必要がありますが、同時に両方を使用することはできません。 一元管理サービスの詳細と、それを排他的に使用する理由については、「 <A href="lync-server-2013-using-the-centralized-logging-service.md">Lync Server 2013 での集中ログサービスの使用</A>」を参照してください。
 
 
 
-## このセクション中
+</div>
 
-  - [Lync Server 2013 での管理ツールのインフラストラクチャ要件](lync-server-2013-administrative-tools-infrastructure-requirements.md)
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 での管理ツールインフラストラクチャの要件](lync-server-2013-administrative-tools-infrastructure-requirements.md)
 
   - [Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)
 
@@ -93,13 +143,29 @@ Lync Server ログ ツールは、製品の実行中に製品からログ情報�
 
   - [Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)
 
-  - [Lync Server 2013 コントロール パネルのトラブルシューティング](lync-server-2013-troubleshooting-lync-server-2013-control-panel.md)
+  - [Lync Server 2013 コントロールパネルのトラブルシューティング](lync-server-2013-troubleshooting-lync-server-2013-control-panel.md)
 
-  - [Lync Server 2013 での集中ログ サービスの使用](lync-server-2013-using-the-centralized-logging-service.md)
+  - [Lync Server 2013 での一元管理ログサービスの使用](lync-server-2013-using-the-centralized-logging-service.md)
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

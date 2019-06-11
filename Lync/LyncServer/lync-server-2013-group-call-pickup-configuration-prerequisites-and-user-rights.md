@@ -1,65 +1,112 @@
-﻿---
-title: グループ通話ピックアップの構成の必須コンポーネントおよびユーザー権限
-TOCTitle: グループ通話ピックアップの構成の必須コンポーネントおよびユーザー権限
-ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ945641(v=OCS.15)
-ms:contentKeyID: 52056645
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: グループ通話のピックアップ構成の前提条件とユーザー権利
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Group Call Pickup configuration prerequisites and user rights
+ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945641(v=OCS.15)
+ms:contentKeyID: 51541495
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d2eb0af5b78d5d391ba055e557ad71da79484b5c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833113"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# グループ通話ピックアップの構成の必須コンポーネントおよびユーザー権限
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-01-30_
+# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>グループ通話の集配構成の前提条件とユーザー権限 Lync Server 2013
 
-グループ通話ピックアップは、エンタープライズ VoIP を展開する際に既定でインストールされる通話管理機能です。このトピックでは、グループ通話ピックアップを構成する前に用意しておく必要がある項目、および構成タスクの実行に必要なユーザー権限について説明します。
+</div>
 
-このセクションでは、グループ通話ピックアップに関わる計画ドキュメントを読んでいることが前提となります (「[Lync Server 2013 でのグループ通話ピックアップの計画](lync-server-2013-planning-for-group-call-pickup.md)」を参照)。
+<div id="mainSection">
 
-## グループ通話ピックアップの構成の必須コンポーネント
+<div id="mainBody">
 
-グループ通話ピックアップは、以下のコンポーネントを必要とします。
+<span> </span>
+
+_**最終更新日:** 2013-01-30_
+
+グループ通話のピックアップは、エンタープライズボイスの展開時に既定でインストールされる通話管理機能です。 このトピックでは、グループ通話のピックアップと構成タスクを実行するために必要なユーザー権限を構成する前に必要な準備について説明します。
+
+このセクションでは、グループ通話のピックアップに関連する計画ドキュメントを読み取っていることを前提としています (「 [Lync Server 2013 でのグループ通話のピックアップの計画](lync-server-2013-planning-for-group-call-pickup.md)」を参照してください)。
+
+<div>
+
+## <a name="group-call-pickup-configuration-prerequisites"></a>グループ通話のピックアップ構成の前提条件
+
+グループ通話のピックアップには次のコンポーネントが必要です。
 
   - アプリケーション サービス
 
   - コール パーク アプリケーション
 
-これらのコンポーネントは、エンタープライズ VoIP を展開する際に自動でインストールされます。
+これらのコンポーネントは、エンタープライズボイスの展開時に自動的にインストールされます。
 
-## グループ通話ピックアップの構成のユーザー権限
+</div>
 
-グループ通話ピックアップは、次の管理ツールを使用して構成します。
+<div>
+
+## <a name="group-call-pickup-configuration-user-rights"></a>グループ通話のピックアップ構成のユーザー権利
+
+グループ通話のピックアップを構成するには、次の管理ツールを使用します。
 
   - Lync Server 管理シェル
 
-  - SEFAUtil リソース キット ツール
+  - SEFAUtil リソースキットツール
 
-コール パーク オービット テーブル内で発信ピックアップ グループを作成また管理するには、Lync Server 管理シェルを使用します。発信ピックアップ グループを割り当て、ユーザーのグループ通話ピックアップの有効と無効を切り替えるには、SEFAUtil リソース キット ツールを使用します。
+Lync Server 管理シェルを使用して、通話パークの軌道テーブルにある通話ピックアップグループの作成と管理を行います。 SEFAUtil リソースキットツールを使用して、通話ピックアップグループを割り当て、ユーザーに対してグループ通話のピックアップを有効にするか、ユーザーのグループ通話のピックアップを無効にします。
 
-グループ通話ピックアップの構成には、タスクによって異なりますが、次の管理者の役割のいずれかが必要です。
+グループ通話のピックアップを構成するには、タスクに応じて次の管理者ロールが必要です。
 
-  - **CsVoiceAdministrator:** この管理者の役割は、音声関連のすべての設定とポリシーを作成、構成、および管理できます。
+  - **CsVoiceAdministrator:** この管理者ロールは、音声関連のすべての設定とポリシーを作成、構成、管理できます。
 
-  - **CsUserAdministrator:** この管理者の役割は、ユーザーに対してグループ通話ピックアップを有効にすることができます。また、すべての音声構成に対する読み取り専用の表示アクセス権を持ちます。
+  - **Csuseradministrator:** この管理者の役割は、ユーザーに対してグループ通話のピックアップを有効にすることができます。 この管理者ロールは、すべての音声構成に対して読み取り専用ビューでアクセスすることもできます。
 
-  - **CsServerAdministrator:** この管理者の役割は、サーバーとサービスを管理、監視、およびトラブルシューティングできます。
+  - **Csserveradministrator:** この管理者の役割は、サーバーとサービスの管理、監視、トラブルシューティングを行うことができます。
 
-  - **CsAdministrator:** この管理者の役割は、CsVoiceAdministrator、CsServerAdministrator、および CsUserAdministrator のすべてのタスクを実行できます。
+  - **Csadministrator:** この管理者ロールは、CsVoiceAdministrator、CsServerAdministrator、Csserveradministrator のすべてのタスクを実行できます。
+
+<div>
+
 
 > [!NOTE]
-> 管理者権限の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</a>」を参照してください。
+> 管理権限の詳細については、計画ドキュメントの「 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</A>」を参照してください。
 
 
-## 関連項目
 
-#### 概念
+</div>
 
-[Lync Server 2013 でのエンタープライズ VoIP の展開](lync-server-2013-deploying-enterprise-voice.md)  
+</div>
 
-#### その他のリソース
+<div>
 
-[Lync Server 2013 通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でのエンタープライズボイスの展開](lync-server-2013-deploying-enterprise-voice.md)  
+
+
+[Lync Server 2013 の通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

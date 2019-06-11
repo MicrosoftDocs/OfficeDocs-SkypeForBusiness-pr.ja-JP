@@ -1,39 +1,75 @@
-﻿---
-title: 'Lync Server 2013: サーバーおよびアプリケーションの強化と保護'
-TOCTitle: Lync Server 2013 のサーバーおよびアプリケーションの強化と保護
-ms:assetid: 9ca2b233-26f1-4d72-96e7-81a82c727806
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn518331(v=OCS.15)
-ms:contentKeyID: 60498589
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: サーバーおよびアプリケーションの強化と保護'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hardening and protecting servers and applications for Lync Server 2013
+ms:assetid: 9ca2b233-26f1-4d72-96e7-81a82c727806
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518331(v=OCS.15)
+ms:contentKeyID: 62625491
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 00fea9bd192dedaf16567209798f12c7bff23e6a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833090"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のサーバーおよびアプリケーションの強化と保護
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Lync Server 2013 のサーバーおよびアプリケーションの強化と保護
 
-個々のコンポーネントのベスト プラクティスに従って、オペレーティング システムおよびアプリケーションを強化して保護することをお勧めします。ここでは、アプリケーション サーバーを強化し、グループ ポリシーを使用してセキュリティ ロックダウンを実装する方法を説明します。
+</div>
 
-> [!NOTE]
-> また、 Microsoft Lync Server 2013 の展開で使用されるデータベースを強化して保護することもできます。詳細については、「 <a href="lync-server-2013-hardening-and-protecting-databases.md">Lync Server 2013 のデータベースのセキュリティ強化および保護</a>」を参照してください。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-12-05_
+
+特定のコンポーネントのベストプラクティスに従って、オペレーティングシステムとアプリケーションを強化して保護する必要があります。 このセクションでは、アプリケーションサーバーを強化する方法と、グループポリシーを使ってセキュリティ lockdowns を実装する方法について説明します。
+
+<div>
 
 
-## アプリケーション サーバーのセキュリティ保護
+> [!NOTE]  
+> Microsoft Lync Server 2013 の展開に使用されるデータベースを強化および保護することもできます。 詳細については、「 <A href="lync-server-2013-hardening-and-protecting-databases.md">Lync Server 2013 のデータベースの強化と保護</A>」を参照してください。
 
-アプリケーション サーバーの場合は、オペレーティング システムとアプリケーションを強化する必要があります。たとえば、Microsoft Internet Security and Acceleration (ISA) Server 2006 の実行専用に使用する Windows Server 2008 コンピューターは、オペレーティング システムとアプリケーションの両方の面から強化する必要があります。主な目標は、サーバーで実行および提供されるサービスの数をできるだけ少なくすることです。
 
-## 仮想サーバーのセキュリティ保護
 
-仮想サーバーのスナップショットには、仮想サーバーのデータ ディスクのコピーのほか、メモリ内のデータのダンプも含まれます。どちらのデータにも攻撃につながり得る機密の暗号化データが含まれる可能性があります。仮想化を使用して実装された運用サーバーの場合は、すべてのサーバーのスナップショットを無効にするか、それらを厳密に制御された方法で管理する必要があります。Hyper-V 仮想サーバーのセキュリティ保護の詳細については、「Hyper-V セキュリティ ガイド」([http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)) を参照してください。
+</div>
 
-## グループ ポリシー
+<div>
 
-Windows Server 2008 および Windows Server 2008 R2 では、グループ ポリシーにより、ディレクトリ ベースのデスクトップ構成の管理が行われます。次のグループ ポリシー オブジェクト (GPO) 内でコンピューターとユーザーの設定を定義することにより、グループ ポリシーを使用してセキュリティ ロックダウンを実装できます。
+## <a name="securing-application-servers"></a>アプリケーションサーバーをセキュリティで保護する
 
-  - レジストリ ベースのポリシー
+アプリケーションサーバーの場合、オペレーティングシステムとアプリケーションが強化されている必要があります。 たとえば、Microsoft インターネットセキュリティとアクセラレータ (ISA) サーバー2006の実行専用の Windows Server 2008 コンピューターは、オペレーティングシステムとアプリケーションの観点から強化する必要があります。 サーバーによって実行されるサービスの数を最小限に抑えることは、主な目標です。
+
+</div>
+
+<div>
+
+## <a name="securing-virtual-servers"></a>仮想サーバーをセキュリティで保護する
+
+仮想サーバースナップショットには、サーバーのデータディスクのコピーと、メモリ内データのダンプも含まれています。どちらの場合も、攻撃を招く可能性のある機密性の高い暗号化データが含まれている可能性があります。 仮想化を使用して実装された運用サーバーの場合は、サーバースナップショットをすべて無効にするか、非常に制御された方法で管理する必要があります。 Hyper-v 仮想サーバーのセキュリティ保護の詳細については、「」の Hyper-v セキュリティガイド[http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)を参照してください。
+
+</div>
+
+<div>
+
+## <a name="group-policy"></a>グループポリシー
+
+Windows Server 2008 および Windows Server 2008 R2 では、グループポリシーによってディレクトリベースのデスクトップ構成管理が提供されます。 グループポリシーを使用して、次のようにコンピューターとユーザーの設定をグループポリシーオブジェクト (GPO) 内で定義することにより、セキュリティ lockdowns を実装できます。
+
+  - レジストリベースのポリシー
 
   - セキュリティ
 
@@ -41,25 +77,45 @@ Windows Server 2008 および Windows Server 2008 R2 では、グループ ポ�
 
   - スクリプト
 
-  - フォルダー リダイレクト
+  - フォルダリダイレクション
 
-  - リモート インストール サービス
+  - リモートインストールサービス
 
-管理者がこれらの設定を構成するユーザー インターフェイスを提供するために、オペレーティング システムのリリース、サービス パックのリリース、 Lync Server 2013 などの一部のアプリケーションには、管理用テンプレートが同梱されています。
+これらの設定を構成する管理者向けのユーザーインターフェイスを提供するために、管理用テンプレートは、オペレーティングシステムリリース、service pack リリース、および Lync Server 2013 などの一部のアプリケーションに付属しています。
 
-Lync Server 2013 に同梱されている管理用テンプレートである Communicator.adm ファイルは、*%windir%*\\inf\\ ディレクトリにインストールされており、グループ ポリシー設定に対するインターフェイスを提供します。Communicator.adm の各設定は、アプリケーションの動作に影響するレジストリの設定に対応しています。
+Communicator ファイルは、Lync Server 2013 に付属している管理用テンプレートであり、% windir%\\inf\\ディレクトリにインストールされ、グループポリシー設定のインターフェイスを提供します。 Communicator の各設定は、アプリケーションの動作に影響するレジストリ内の設定に対応しています。
 
-この設定には、GPedit.dll からアクセスできます。GPedit.dll は、Active Directory ユーザーとコンピューターのコンソールおよびグループ ポリシー管理コンソール (GPMC) から利用できます。
+設定は、Active Directory ユーザーとコンピューター本体およびグループポリシー管理コンソール (GPMC) から利用できる GPedit からアクセスできます。
 
-## グループ ポリシーのセキュリティの設定
+</div>
 
-グループ ポリシーには、GPOのセキュリティ設定が含まれます。この設定は、GPedit.dll からアクセスした場合、"コンピューターの構成/Windows の設定/セキュリティの設定" にあります。セキュリティ テンプレートをインポートして、GPO のセキュリティ設定を構成できます。「Windows Server 2008 セキュリティ ガイド」([http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186)) および「Windows Server 2008 R2 セキュリティ コンプライアンス管理ツールキット (英語)」([http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882)) には、ニーズに合わせて変更できるサンプル テンプレートがいくつか用意されています。
+<div>
 
-## ベスト プラクティス
+## <a name="group-policy-security-settings"></a>グループポリシーのセキュリティ設定
 
-  - すべてのサーバー オペレーティング システムおよびアプリケーションを強化します。
+グループポリシーには、GPedit からアクセスした場合の、[コンピューターの構成]、[Windows の設定]、[セキュリティ設定] の下にある GPO のセキュリティ設定が含まれています。 セキュリティテンプレートをインポートして、GPO のセキュリティ設定を構成することができます。 Windows server 2008 セキュリティガイド[http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186)と windows Server 2008 R2 セキュリティコンプライアンス管理ツールキットに[http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882)は、必要に応じて変更できる多数のサンプルテンプレートが含まれています。
+
+</div>
+
+<div>
+
+## <a name="best-practices"></a>ベスト プラクティス
+
+  - すべてのサーバーオペレーティングシステムとアプリケーションを強化します。
 
   - サーバーのスナップショットを保護し、すべての仮想サーバーのセキュリティを強化します。
 
-  - グループ ポリシーを使用して、セキュリティ ロックダウンを実装します。
+  - グループポリシーを使用して、セキュリティ lockdowns を実装します。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

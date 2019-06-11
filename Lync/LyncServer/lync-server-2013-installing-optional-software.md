@@ -1,25 +1,49 @@
-﻿---
-title: 'Lync Server 2013: オプションのソフトウェアのインストール'
-TOCTitle: オプションのソフトウェアのインストール
-ms:assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615032(v=OCS.15)
-ms:contentKeyID: 52056686
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: オプションのソフトウェアをインストールする'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing optional software
+ms:assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615032(v=OCS.15)
+ms:contentKeyID: 51541509
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6723d005a41b52025c7e3e475bc3b3a108f2c3d6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832974"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのオプションのソフトウェアのインストール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-21_
+# <a name="installing-optional-software-in-lync-server-2013"></a>Lync Server 2013 でオプションのソフトウェアをインストールする
 
-Microsoft Lync Server 2013、計画ツールは、Microsoft Excel および Microsoft Visio にエクスポートできるように設計されています。これは 計画ツールの操作に必要ではありませんが、展開や設計のドキュメントに重要な価値を加えます。
+</div>
 
-## オプション ソフトウェア
+<div id="mainSection">
 
-## Microsoft Excel
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-21_
+
+Microsoft Lync Server 2013 の計画ツールは、Microsoft Excel と Microsoft Visio にエクスポートするように設計されています。 これらのアプリケーションは計画ツールの操作には必要ありませんが、設計の展開とドキュメントに大きな価値を加えることになります。
+
+<div>
+
+## <a name="optional-software"></a>オプション ソフトウェア
+
+<div>
+
+## <a name="microsoft-excel"></a>Microsoft Excel
 
 デザインを Microsoft Excel にエクスポートすると、次の 7 つのタブがあるスプレッドシートを表示するレポートが作成されます。
 
@@ -29,31 +53,59 @@ Microsoft Lync Server 2013、計画ツールは、Microsoft Excel および Micr
 
   - ポートの要件 - 有効にされているすべてのポートのレポートと、DNS 負荷分散 (DNS LB) およびロード バランサー機器 (HLB) への関連付けのレポートを表示します。このレポートは、ファイアウォール、DNS LB、および HLB の構成を計画するために使用します。
 
-  - 概要レポート - エッジ サーバー ネットワークのセットアップに必要な設定の概要を表示します。
+  - 概要レポート–エッジサーバーネットワークのセットアップに必要な設定の一般的な概要が表示されます。
 
-  - 証明書レポート - エッジ サーバーを実行するための証明書に必要なサブジェクト名とサブジェクトの別名を表示します。
+  - 証明書レポート–エッジサーバーを実行するために必要な証明書に必要なサブジェクト名とサブジェクトの代替名が表示されます。
 
   - ファイアウォール レポート - 内部および外部インターフェイス用の発信元および宛先のポートと IP アドレスを表示します。
 
   - DNS レポート - 作成する DNS エントリごとに必要な完全修飾ドメイン名 (FQDN) と IP/VIP アドレスを表示します。
 
-## Microsoft Visio
+</div>
+
+<div>
+
+## <a name="microsoft-visio"></a>Microsoft Visio
 
 設計を Microsoft Visio にエクスポートすると、構成されたトポロジおよびインフラストラクチャのドキュメントに使用できるダイアグラムが作成されます。インポートされたダイアグラムは、ドキュメントのニーズに合わせて編集や再編成ができます。一般的な Visio のダイアグラムには、次の要素が含まれます。
 
-> [!NOTE]
-> フロント エンド サーバー数が 4 つを超える大きな設計の場合は、 フロント エンド プール、 フロント エンド サーバー、SQL Server、IP アドレス、および FQDN を実行するコンピューターのページが追加で作成されます。
+<div>
 
 
-  - グローバル トポロジ - 構成されている Lync Server 2013 サイトのダイアグラム。
+> [!NOTE]  
+> 3台以上のフロントエンドサーバーが必要な設計の場合は、フロントエンドプール、フロントエンドサーバー、SQL Server を実行しているコンピューター、IP アドレス、Fqdn の追加ページが作成されます。
 
-  - \[サイト名\] タブ - エッジ サーバー、ファイアウォール、ゲートウェイで接続された公衆交換電話網 (PSTN)、および内部サーバーが展開されるサイト構成のトポロジを表示します。内部展開には、フロント エンド プール、SQL Server ベース サーバー、 Active Directory ドメイン サービス、ディレクター、Exchange ユニファイド メッセージング (UM) サーバー、Exchange メールボックス サーバー、Office Web Apps Server、 仲介サーバー、 常設チャット サーバーなどの、構成されたサーバーおよびプールが含まれます。
 
-  - エッジ ネットワークのダイアグラム - エッジ サーバー構成と関連付けられた IP アドレスおよび FQDN の詳細を示すダイアグラム。DNS 負荷分散やロード バランサー機器も含まれます。さらに、ディレクターや フロント エンド サーバーまたは フロント エンド プールと、関連付けられた DNS LB または HLB や割り当てられた IP アドレス ( 計画ツール は IPv4 アドレスと IPv6 アドレスの両方をサポートします) および FQDN も表示されます。
 
-## 関連項目
+</div>
 
-#### タスク
+  - グローバルトポロジ–構成済みの Lync Server 2013 サイトの図。
 
-[Lync Server 2013 での計画ツールのインストール](lync-server-2013-installing-the-planning-tool.md)
+  - [サイト名] タブ– Edge Server、ファイアウォール、公衆交換電話網 (PSTN)、および内部サーバーの展開を使用して、サイトの構成トポロジを表示します。 内部展開は、フロントエンドプール、SQL Server ベースのサーバー、Active Directory ドメインサービス、ディレクター、Exchange ユニファイドメッセージング (UM) サーバー、Exchange メールボックスサーバー、Office Web Apps サーバーなど、構成済みのサーバーとプールで構成されます。仲介サーバーと常設チャットサーバー。
+
+  - エッジネットワーク図–関連する IP アドレスと Fqdn を含むエッジサーバー構成の詳細な図。 DNS 負荷分散やロード バランサー機器も含まれます。 さらに、関連付けられた DNS LB または HLB および割り当てられた IP アドレス (計画ツールが IPv4 アドレスと IPv6 アドレスの両方をサポートします) と FQDN が表示されたディレクターとフロントエンドサーバーまたはフロントエンドプールが表示されます。
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 での計画ツールのインストール](lync-server-2013-installing-the-planning-tool.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

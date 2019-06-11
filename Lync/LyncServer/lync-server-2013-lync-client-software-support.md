@@ -1,27 +1,53 @@
-﻿---
-title: 'Lync Server 2013: Lync クライアント ソフトウェアのサポート'
-TOCTitle: Lync クライアント ソフトウェアのサポート
-ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412781(v=OCS.15)
-ms:contentKeyID: 48273190
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync クライアントソフトウェアのサポート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync client software support
+ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412781(v=OCS.15)
+ms:contentKeyID: 48184994
+ms.date: 02/25/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9d11037f6a70d99b5e49958e72c1847912f1fff3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832932"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での Lync クライアント ソフトウェアのサポート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="lync-client-software-support-in-lync-server-2013"></a>Lync Server 2013 での lync クライアントソフトウェアのサポート
 
-このセクションでは、 Lync 2013 と Lync 2013 用オンライン ミーティング アドインのソフトウェア サポートの概要を説明します。
+</div>
 
-> [!NOTE]
-> Outlook メッセージングおよびコラボレーション クライアント内から会議管理をサポートする Lync 2013 用オンライン ミーティング アドインは、Lync 2013 と共に自動的にインストールされます。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2016-02-25_
+
+このセクションでは、lync 2013 および Lync 2013 用のオンライン会議アドインのソフトウェアサポートについて説明します。
+
+<div>
 
 
-### Lync 2013 および Lync 2013 用オンライン ミーティング アドインのソフトウェア要件
+> [!NOTE]  
+> Lync 2013 用のオンライン会議アドインは、Outlook メッセージングおよびコラボレーションクライアント内からの会議管理をサポートしており、Lync 2013 と共に自動的にインストールされます。
+
+
+
+</div>
+
+### <a name="software-requirements-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a>Lync 2013 および Lync 2013 用オンライン会議アドインのソフトウェア要件
 
 <table>
 <colgroup>
@@ -36,14 +62,17 @@ _**トピックの最終更新日:** 2016-12-08_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Windows オペレーティング システム</p></td>
-<td><p>Windows 8.1</p>
+<td><p>Windows オペレーティングシステム</p></td>
+<td><p>Windows 10</p>
+<p>Windows 8.1</p>
 <p>Windows 8</p>
 <p>Windows 7 オペレーティング システム</p>
-<p>最新のサービス パックが適用された Windows Server 2008 R2</p>
+<p>Windows Server 2008 R2 と最新の service pack</p>
+<div>
 
-> [!NOTE]
-> Lync 2013 と Lync 2013 用オンライン ミーティング アドイン は、Windows Vista や Windows XP (すべてのバージョン) ではサポートされません。
+> [!NOTE]  
+> Lync 2013 および Lync 2013 用のオンライン会議アドインは、Windows Vista または Windows XP (すべてのバージョン) でサポートされていません。
+
 
 </div></td>
 </tr>
@@ -53,14 +82,17 @@ _**トピックの最終更新日:** 2016-12-08_
 </tr>
 <tr class="odd">
 <td><p>ブラウザー</p></td>
-<td><p>Windows Internet Explorer 10 インターネット ブラウザー</p>
-<p>Internet Explorer 9 インターネット ブラウザー</p>
-<p>Internet Explorer 8 インターネット ブラウザー</p>
-<p>Internet Explorer 7 インターネット ブラウザー</p>
+<td><p>Internet Explorer 11 インターネットブラウザー</p>
+<p>Internet Explorer 10 インターネットブラウザー</p>
+<p>Internet Explorer 9 Internet browser</p>
+<p>Internet Explorer 8 インターネットブラウザー</p>
+<p>Internet Explorer 7 インターネットブラウザー</p>
 <p>Mozilla Firefox Web ブラウザー</p>
+<div>
 
-> [!NOTE]
-> Lync を Microsoft Exchange Onlineと併用し、組織で認証用 HTTP プロキシを展開している場合は、 Internet Explorer 9 または Internet Explorer 8 が必要です。
+> [!NOTE]  
+> Microsoft Exchange Online で Lync を使用していて、認証用の HTTP プロキシが組織で展開されている場合、Internet Explorer 9 または Internet Explorer 8 が必要です。
+
 
 </div></td>
 </tr>
@@ -68,8 +100,8 @@ _**トピックの最終更新日:** 2016-12-08_
 <td><p>Microsoft Office Integration</p></td>
 <td><p>統合機能の完全なセットの場合:</p>
 <ul>
-<li><p>Outlook 2013 メッセージングおよびコラボレーション クライアント</p></li>
-<li><p>Outlook 2010 メッセージングおよびコラボレーション クライアント</p></li>
+<li><p>Outlook 2013 メッセージングとコラボレーションクライアント</p></li>
+<li><p>Outlook 2010 メッセージングとコラボレーションクライアント</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -84,37 +116,67 @@ _**トピックの最終更新日:** 2016-12-08_
 </table>
 
 
-## Macintosh オペレーティング システム
+<div>
 
-Lync 2013 は、Windows のみで使用できます。ただし、Lync Server 2013 では、Mac OS 10.5.8、最新のサービス パック、またはリリース (Intel ベース) のオペレーティング システムを実行しているコンピューターで次のクライアントがサポートされています (Mac OS 10.9 オペレーティング システムは、現在サポートされていません)。サポートされている機能の詳細については、「[Lync Server 2013 のクライアントの比較表](lync-server-2013-desktop-client-comparison-tables.md)」を参照してください。
+## <a name="macintosh-operating-systems"></a>Macintosh オペレーティング システム
 
-  - Microsoft Lync for Mac 2011 (「Lync for Mac 2011 展開ガイド」( [http://go.microsoft.com/fwlink/?linkid=268786\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=268786%26clcid=0x411)) を参照してください)
+Lync 2013 は、Windows でのみ使用できます。 ただし、Lync Server 2013 は、Mac OS 10.5.8 を実行しているコンピューター、または最新の service pack やリリース (Intel ベース) オペレーティングシステムを実行しているコンピューターでは、次のクライアントをサポートしています (Mac OS 10.9 オペレーティングシステムは現在サポートされていません)。 サポートされる機能の詳細については、「 [Lync Server 2013 のクライアント比較表](lync-server-2013-desktop-client-comparison-tables.md)」を参照してください。
 
-  - Microsoft Communicator for Mac 2011 (「Communicator for Mac 2011 展開ガイド」( [http://go.microsoft.com/fwlink/?linkid=268787\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=268787%26clcid=0x411)) を参照してください)
+  - Microsoft Lync for Mac 2011 (「Lync for Mac 2011 展開ガイド」を参照[http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786))
 
-## Lync Web App ブラウザー
+  - Microsoft Communicator for Mac 2011 (「Communicator for Mac 2011 展開ガイド」を参照[http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787))
 
-Lync Web App は、特定の組み合わせのオペレーティング システムとブラウザーをサポートします。詳細については、「計画」のドキュメントの「[Lync Server 2013 の Lync Web App がサポートされるプラットフォーム](lync-server-2013-lync-web-app-supported-platforms.md)」を参照してください。
+</div>
 
-## Microsoft Office のサポート状況
+<div>
 
-Lync Server 2013 クライアントは、さまざまなバージョンの Microsoft Office との統合をサポートしています。ここでは、その概要を説明します。
+## <a name="lync-web-app-browsers"></a>Lync Web App のブラウザー
 
-  - Outlook 2013 と Microsoft Outlook 2010 では、Lync 2013 の統合機能がサポートされています。
+Lync Web App では、オペレーティングシステムとブラウザーの特定の組み合わせがサポートされています。 詳細については、計画ドキュメントの「lync [Web App で Lync Server 2013 用にサポートされているプラットフォーム](lync-server-2013-lync-web-app-supported-platforms.md)」を参照してください。
 
-  - Microsoft Exchange Server 2013 と Microsoft Exchange Server 2010 では、Lync 2013 の統合機能がサポートされています。
+</div>
 
-  - Office 2013 および Microsoft Office 2010 では、Lync 2013 用オンライン会議アドインがサポートされています。
+<div>
 
-## 固定プロファイルの使用
+## <a name="microsoft-office-supportability"></a>Microsoft Office のサポート状況
 
-ユーザーが Lync 2013 会議機能の使用を予定している場合、ユーザーが Active Directory ドメイン サービス の固定プロファイルを使用して Lync 2013 クライアントにサインインすることを禁止してください。固定プロファイルは読み取り専用のユーザー プロファイルなので、Lync 2013 会議で必要とされる公開キー基板 (PKI) のキーをプロファイルに保存できません。詳細については、Microsoft サポート技術情報の記事 2552221「ユーザーが固定ユーザー プロファイルを使用してサインインしていると Lync 2010 の会議機能が失敗する」( [http://go.microsoft.com/fwlink/?linkid=3052\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=3052%26clcid=0x411)) を参照してください。
+Lync Server 2013 クライアントは、このセクションで説明するように、さまざまなバージョンの Microsoft Office との統合をサポートしています。
 
-## 関連項目
+  - Lync 2013 の統合機能は、Outlook 2013 および Microsoft Outlook 2010 でサポートされています。
 
-#### 概念
+  - Lync 2013 の統合機能は Microsoft Exchange Server 2013 および Microsoft Exchange Server 2010 でサポートされています。
+
+  - Lync 2013 用のオンライン会議アドインは、Office 2013 と Microsoft Office 2010 でサポートされています。
+
+</div>
+
+<div>
+
+## <a name="using-mandatory-profiles"></a>固定プロファイルの使用
+
+Lync 2013 会議機能の使用を計画しているユーザーは、Active Directory ドメインサービスの必須プロファイルを使用して Lync 2013 クライアントにサインインしないでください。 必須プロファイルは読み取り専用のユーザープロファイルであるため、Lync 2013 会議に必要な公開キー基盤 (PKI) キーをプロファイルに保存することはできません。 詳細については、「Microsoft サポート技術情報の記事2552221」を参照してください。ユーザーが固定ユーザープロファイル (at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)) を使ってサインインしていると、Lync 2010 会議機能が失敗します。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 での Lync クライアントのハードウェアのサポート](lync-server-2013-lync-client-hardware-support.md)  
-[Lync Server 2013 の Lync クライアント ビデオ要件](lync-server-2013-lync-client-video-requirements.md)  
-[Lync Server 2013 で以前の展開からサポートされるクライアント](lync-server-2013-supported-clients-from-previous-deployments.md)
+[Lync Server 2013 の lync クライアントのビデオ要件](lync-server-2013-lync-client-video-requirements.md)  
+[Lync Server 2013 で以前の展開からサポートされるクライアント](lync-server-2013-supported-clients-from-previous-deployments.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

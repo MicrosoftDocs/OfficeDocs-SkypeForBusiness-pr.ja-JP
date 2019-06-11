@@ -1,27 +1,47 @@
-﻿---
-title: 'Lync Server 2013: 着信通話'
-TOCTitle: 着信通話
-ms:assetid: 65b9c1b4-6af7-4527-8c33-22c4442bd209
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ994038(v=OCS.15)
-ms:contentKeyID: 52056608
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 着信通話'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Incoming calls
+ms:assetid: 65b9c1b4-6af7-4527-8c33-22c4442bd209
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994038(v=OCS.15)
+ms:contentKeyID: 51803948
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c007fbaec317a8e9d9d374ea62dafcab6c7a63f4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833015"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 着信通話
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="incoming-calls-in-lync-server-2013"></a>Lync Server 2013 着信通話
 
-場所に基づくルーティングが有効になっているユーザーへの着信通話のルーティングは、ユーザーのエンドポイントの場所に依存します。着信通話のルーティングは、次のように影響されます。ユーザーが、場所に基づくルーティングが有効になっているネットワーク サイトにあるエンドポイントへの着信通話を受けた場合、エンドポイントが PSTN ゲートウェイと同じネットワーク サイトにあれば、通話はルーティングされます。ユーザーが、場所に基づくルーティングが有効になっているネットワーク サイトにあるエンドポイントへの着信通話を受けた場合、エンドポイントが PSTN ゲートウェイとは異なるネットワーク サイトにあれば、通話はルーティングされません。着信通話の発信元の PSTN ゲートウェイと同じネットワーク サイトにエンドポイントがない場合、着信通話はユーザーのボイスメールに直接ルーティングされ、不在着信通知が呼び出し先パーティに送信されます。
+</div>
 
-場所に基づくルーティングが有効になっているユーザーの通話転送設定は、引き続き適用されますが、転送される通話はユーザーの場所に基づくルーティング制約の対象になります。
+<div id="mainSection">
 
-次の表は、呼び出し先のエンドポイントの場所によって、場所に基づくルーティングが着信通話のルーティングにどのように影響するかを示しています。PSTN ゲートウェイのネットワーク サイトは、場所に基づくルーティングが有効になっています。場所に基づくルーティングでは、同じネットワーク サイト内のエンドポイントへの PSTN 通話のルーティングのみが許可されます。
+<div id="mainBody">
 
-### 呼び出し先が PSTN から着信通話を受信する
+<span> </span>
+
+_**最終更新日:** 2013-03-09_
+
+場所に基づくルーティングが有効になっているユーザーに対する着信のルーティングは、ユーザーのエンドポイントの場所によって異なります。 着信通話のルーティングは、次のように影響されます。 ユーザーが位置情報に基づくルーティングが有効になっているネットワークサイト内のエンドポイントに対して着信した場合、そのエンドポイントが PSTN ゲートウェイと同じネットワークサイト内にある場合は、通話がルーティングされます。 ユーザーが位置情報に基づくルーティングが有効になっているネットワークサイトにあるエンドポイントへの着信通話を使用していて、そのエンドポイントが PSTN ゲートウェイとは異なるネットワークサイトにある場合、通話はルーティングされません。 着信通話の発信元の PSTN ゲートウェイと同じネットワーク サイトにエンドポイントがない場合、着信通話はユーザーのボイスメールに直接ルーティングされ、不在着信通知が呼び出し先に送信されます。
+
+位置情報に基づくルーティングが有効になっているユーザーの着信の転送設定は引き続き適用されますが、転送された通話には、ユーザーの位置情報に基づくルーティングの制限が適用されます。
+
+次の表は、位置情報に基づくルーティングが、呼び出し元のエンドポイントの場所に応じて着信呼び出しのルーティングにどのように影響するかを示しています。 PSTN ゲートウェイのネットワークサイトが位置情報に基づくルーティングに対応しており、位置情報に基づくルーティングでは、同じネットワークサイト内のエンドポイントへの PSTN 通話のルーティングのみを許可します。
+
+### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>呼び出し先が PSTN から着信通話を受信する
 
 <table>
 <colgroup>
@@ -50,9 +70,23 @@ _**トピックの最終更新日:** 2015-03-09_
 
   
 
-## 関連項目
+<div>
 
-#### その他のリソース
+## <a name="see-also"></a>関連項目
 
-[Lync Server 2013 の場所に基づくルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)
+
+[Lync Server 2013 の場所に基づくルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

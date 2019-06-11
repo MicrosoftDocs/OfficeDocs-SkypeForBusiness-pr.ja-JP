@@ -1,25 +1,59 @@
-﻿---
-title: Lync Server 2013 でのオンライン ミーティング アドインのカスタマイズ
-TOCTitle: Lync Server 2013 でのオンライン ミーティング アドインのカスタマイズ
-ms:assetid: 0fbf298f-7182-4a06-a2da-94ddbbc3db7e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204674(v=OCS.15)
-ms:contentKeyID: 48271288
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: オンライン会議アドインをカスタマイズする'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Customizing the Online Meeting Add-in
+ms:assetid: 0fbf298f-7182-4a06-a2da-94ddbbc3db7e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204674(v=OCS.15)
+ms:contentKeyID: 48183424
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9f1ab26efd3715ed78b1c06b0878fc6d06731eef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833744"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのオンライン ミーティング アドインのカスタマイズ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-06-28_
+# <a name="customizing-the-online-meeting-add-in-in-lync-server-2013"></a>Lync Server 2013 でのオンライン会議アドインのカスタマイズ
 
-Lync 2013 用オンライン ミーティング アドインは、Outlook メッセージングおよびコラボレーション クライアント内からの会議管理をサポートします。このアドインの機能はいくつかの方法でカスタマイズできます。その中に、オンライン ミーティングの招待状の本文にロゴとテキストを追加する新しいオプションがあります。
+</div>
 
-## このセクション中
+<div id="mainSection">
 
-  - [Outlook の有効リストの更新](lync-server-2013-updating-the-outlook-enable-list.md)
+<div id="mainBody">
 
-  - [会議出席依頼の構成](lync-server-2013-configuring-the-meeting-invitation.md)
+<span> </span>
+
+_**最終更新日:** 2012-06-28_
+
+Lync 2013 用のオンライン会議アドインは、Outlook メッセージングおよびコラボレーションクライアント内での会議管理をサポートしています。 アドインの動作をカスタマイズするには、いくつかの方法があります。 オンライン会議の出席依頼の本文にロゴとテキストを追加するための新しいオプションは、次のうちのいずれかです。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 の Outlook 有効化リストを更新する](lync-server-2013-updating-the-outlook-enable-list.md)
+
+  - [Lync Server 2013 で会議出席依頼を設定する](lync-server-2013-configuring-the-meeting-invitation.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

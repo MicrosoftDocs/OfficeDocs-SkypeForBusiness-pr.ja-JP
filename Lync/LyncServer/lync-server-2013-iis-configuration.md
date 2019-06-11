@@ -1,33 +1,57 @@
-﻿---
-title: 'Lync Server 2013: IIS 構成'
-TOCTitle: IIS 構成
-ms:assetid: b458babf-bf64-43f0-8a8e-612f5096b63c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412871(v=OCS.15)
-ms:contentKeyID: 48273322
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: IIS 構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IIS configuration
+ms:assetid: b458babf-bf64-43f0-8a8e-612f5096b63c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412871(v=OCS.15)
+ms:contentKeyID: 48185169
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: de2205ad049beb05f30dd58795257b62eca68d46
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833055"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の IIS 構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013 の IIS 構成
 
-この手順を正常に完了するには、少なくともローカル管理者またはドメイン ユーザーとして、サーバーにログオンしている必要があります。
+</div>
 
-Lync Server 2013Standard Edition の フロント エンド サーバーまたはプール内の最初の フロント エンド サーバーを構成およびインストールする前に、 インターネット インフォメーション サービス (IIS) のサーバーの役割および Web サービスをインストールおよび構成します。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-02-17_
+
+この手順を完了するには、ローカル管理者とドメインユーザーとして、サーバーに少なくともログオンしている必要があります。
+
+Lync Server 2013、Standard Edition、または第1のフロントエンドサーバー用のフロントエンドサーバーをプールに構成してインストールする前に、サーバーの役割とインターネットインフォメーションサービス (IIS) 用の Web サービスをインストールして構成します。
+
+<div class=" ">
 
 
-> [!IMPORTANT]
-> 組織で IIS およびすべての Web サービスをシステム ドライブ以外のドライブに配置する必要がある場合は、Lync Server 2013 の管理ツールを初めてインストールするときに、[セットアップ] ダイアログ ボックスで Lync Server 2013 ファイルのインストール先パスを変更できます。管理ツールは、IIS をインストールする前にインストールします。OCSCore.msi などのセットアップ ファイルをこのパスにインストールすると、残りの Lync Server 2013 ファイルもこのドライブに展開されます。詳細については、「<A href="lync-server-2013-install-lync-server-administrative-tools.md">Lync Server 2013 管理ツールをインストールする</A>」を参照してください。IIS のインストール時に Windows サーバー マネージャーによって展開された INETPUB を再配置する方法の詳細については、<A class=uri href="http://go.microsoft.com/fwlink/?linkid=216888">http://go.microsoft.com/fwlink/?linkid=216888</A> を参照してください。
+> [!IMPORTANT]  
+> 組織で IIS およびすべての Web サービスをシステムドライブ以外のドライブに配置する必要がある場合は、Lync Server 2013 を初めてインストールするときに、[セットアップ] ダイアログボックスで Lync Server 2013 ファイルのインストール場所のパスを変更することができます。管理ツール。 IIS をインストールする前に、管理ツールをインストールします。 このパス (OCSCore など) にセットアップファイルをインストールすると、Lync Server の他の2013ファイルもこのドライブに展開されます。 Dtails については、「 <A href="lync-server-2013-install-lync-server-administrative-tools.md">Lync Server 2013 管理ツールをインストール</A>する」を参照してください。 IIS をインストールするときに、Windows Server Manager によって展開された INETPUB <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>を再配置する方法の詳細については、を参照してください。
 
 
 
-次の表に、必要な IIS 7.5 の役割サービスを示します。
+</div>
 
-### IIS 7.5 の役割サービス
+次の表は、必要な IIS 7.5 の役割サービスを示しています。
+
+### <a name="iis-75-role-services"></a>IIS 7.5 の役割サービス
 
 <table>
 <colgroup>
@@ -36,55 +60,55 @@ Lync Server 2013Standard Edition の フロント エンド サーバーまた�
 </colgroup>
 <thead>
 <tr class="header">
-<th>役割の見出し</th>
+<th>ロール見出し</th>
 <th>役割サービス</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>HTTP 共通機能インストール済み</p></td>
-<td><p>静的コンテンツ</p></td>
+<td><p>インストールされている一般的な HTTP 機能</p></td>
+<td><p>静的なコンテンツ</p></td>
 </tr>
 <tr class="even">
-<td><p>HTTP 共通機能インストール済み</p></td>
+<td><p>インストールされている一般的な HTTP 機能</p></td>
 <td><p>既定のドキュメント</p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTP 共通機能インストール済み</p></td>
+<td><p>インストールされている一般的な HTTP 機能</p></td>
 <td><p>HTTP エラー</p></td>
 </tr>
 <tr class="even">
 <td><p>アプリケーション開発</p></td>
 <td><p>ASP.NET</p>
-<p>Windows Server 2012 では ASP.NET4.5 も必要</p></td>
+<p>Windows Server 2012 にも、.ASP 4.5 が必要です。</p></td>
 </tr>
 <tr class="odd">
 <td><p>アプリケーション開発</p></td>
-<td><p>.NET 拡張機能</p></td>
+<td><p>.NET の拡張性</p></td>
 </tr>
 <tr class="even">
 <td><p>アプリケーション開発</p></td>
-<td><p>Internet Server API (ISAPI) 拡張機能</p></td>
+<td><p>Internet Server API (ISAPI) の拡張機能</p></td>
 </tr>
 <tr class="odd">
 <td><p>アプリケーション開発</p></td>
 <td><p>ISAPI フィルター</p></td>
 </tr>
 <tr class="even">
-<td><p>状態と診断</p></td>
-<td><p>HTTP ロギング機能</p></td>
+<td><p>正常性と診断</p></td>
+<td><p>HTTP ログ</p></td>
 </tr>
 <tr class="odd">
-<td><p>状態と診断</p></td>
-<td><p>ログ ツール</p></td>
+<td><p>正常性と診断</p></td>
+<td><p>ログツール</p></td>
 </tr>
 <tr class="even">
-<td><p>状態と診断</p></td>
-<td><p>追跡</p></td>
+<td><p>正常性と診断</p></td>
+<td><p>トレース</p></td>
 </tr>
 <tr class="odd">
 <td><p>セキュリティ</p></td>
-<td><p>匿名認証 (既定でインストールされ、有効になっています)</p></td>
+<td><p>匿名認証 (既定でインストールされ、有効になっている)</p></td>
 </tr>
 <tr class="even">
 <td><p>セキュリティ</p></td>
@@ -92,16 +116,16 @@ Lync Server 2013Standard Edition の フロント エンド サーバーまた�
 </tr>
 <tr class="odd">
 <td><p>セキュリティ</p></td>
-<td><p>クライアント証明書マッピング認証</p></td>
+<td><p>クライアント証明書のマッピング認証</p></td>
 </tr>
 <tr class="even">
 <td><p>セキュリティ</p></td>
-<td><p>要求のフィルタリング</p></td>
+<td><p>フィルターを要求する</p></td>
 </tr>
 <tr class="odd">
 <td><p>パフォーマンス</p></td>
-<td><p>静的コンテンツ圧縮</p>
-<p>動的コンテンツ圧縮</p></td>
+<td><p>静的なコンテンツの圧縮</p>
+<p>動的なコンテンツの圧縮</p></td>
 </tr>
 <tr class="even">
 <td><p>管理ツール</p></td>
@@ -115,30 +139,39 @@ Lync Server 2013Standard Edition の フロント エンド サーバーまた�
 </table>
 
 
-Windows Server 2008 R2 SP1 x64 オペレーティング システムの場合は、 Windows PowerShell 2.0 を使用できます。最初に ServerManager モジュールをインポートしてから、IIS 7.5 の役割および役割サービスをインストールする必要があります。
+Windows Server 2008 R2 SP1 x64 オペレーティングシステムでは、Windows PowerShell 2.0 を使うことができます。 最初に ServerManager モジュールをインポートし、次に IIS 7.5 の役割と役割サービスをインストールする必要があります。
 
-```
-Import-Module ServerManager
-```
-   
-```
-Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
-```
+   ```
+    Import-Module ServerManager
+   ```
 
-> [!NOTE]
-> 匿名認証は、IIS サーバーの役割と共に既定でインストールされます。匿名認証は、IIS をインストールした後に管理することができます。詳細については、「匿名認証を有効にする (IIS 7)」( <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>) を参照してください。
+   ```
+    Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+   ```
 
-
-次の表に、Windows Server 2012 と Windows Server 2012 R2 に必要な IIS 8.0 および IIS 8.5 の役割サービスを示します。
-
-> [!NOTE]
-> Windows Server 2012 および Windows Server 2012 R2 の場合は、Add-WindowsFeature コマンドレットは Install-WindowsFeature コマンドレットに置き換えられています。詳細については、「<a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+<div class=" ">
 
 
-### IIS 8.0 および IIS 8.5 の役割サービス
+> [!NOTE]  
+> 匿名認証は、既定で IIS server の役割と共にインストールされます。 匿名認証は、IIS のインストール後に管理できます。 詳細については、の「匿名認証 (IIS 7) <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>を有効にする」を参照してください。
+
+
+
+</div>
+
+次の表は、Windows Server 2012 および Windows Server 2012 R2 に必要な IIS 8.0 と IIS 8.5 の役割サービスを示しています。
+
+<div class=" ">
+
+
+> [!NOTE]  
+> Windows Server 2012 および Windows Server 2012 R2 の場合、add-windowsfeature コマンドレットは Install コマンドレットに置き換えられています。 詳細については、「 <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-add-windowsfeature</A>」を参照してください。
+
+
+
+</div>
+
+### <a name="iis-80-and-iis-85-role-services"></a>IIS 8.0 および IIS 8.5 の役割サービス
 
 <table>
 <colgroup>
@@ -147,7 +180,7 @@ Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scriptin
 </colgroup>
 <thead>
 <tr class="header">
-<th>役割の見出し</th>
+<th>ロール見出し</th>
 <th>役割サービス</th>
 </tr>
 </thead>
@@ -157,28 +190,28 @@ Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scriptin
 <td><p>Web サーバー</p></td>
 </tr>
 <tr class="even">
-<td><p>共通の HTTP 機能</p></td>
+<td><p>HTTP 共通機能</p></td>
 <td><p>既定のドキュメント</p></td>
 </tr>
 <tr class="odd">
-<td><p>共通の HTTP 機能</p></td>
-<td><p>ディレクトリ参照</p></td>
+<td><p>HTTP 共通機能</p></td>
+<td><p>ディレクトリの参照</p></td>
 </tr>
 <tr class="even">
-<td><p>共通の HTTP 機能</p></td>
+<td><p>HTTP 共通機能</p></td>
 <td><p>HTTP エラー</p></td>
 </tr>
 <tr class="odd">
-<td><p>共通の HTTP 機能</p></td>
-<td><p>静的コンテンツ</p></td>
+<td><p>HTTP 共通機能</p></td>
+<td><p>静的なコンテンツ</p></td>
 </tr>
 <tr class="even">
-<td><p>共通の HTTP 機能</p></td>
-<td><p>HTTP リダイレクト</p></td>
+<td><p>HTTP 共通機能</p></td>
+<td><p>HTTP リダイレクション</p></td>
 </tr>
 <tr class="odd">
 <td><p>状態と診断</p></td>
-<td><p>HTTP ロギング機能</p></td>
+<td><p>HTTP ログ</p></td>
 </tr>
 <tr class="even">
 <td><p>状態と診断</p></td>
@@ -190,7 +223,7 @@ Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scriptin
 </tr>
 <tr class="even">
 <td><p>状態と診断</p></td>
-<td><p>追跡</p></td>
+<td><p>トレース</p></td>
 </tr>
 <tr class="odd">
 <td><p>セキュリティ</p></td>
@@ -210,11 +243,11 @@ Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scriptin
 </tr>
 <tr class="odd">
 <td><p>アプリケーション開発</p></td>
-<td><p>.Net Extensibility 3.5</p></td>
+<td><p>.Net 拡張機能3.5</p></td>
 </tr>
 <tr class="even">
 <td><p>アプリケーション開発</p></td>
-<td><p>.Net Extensibility 4.5</p></td>
+<td><p>.Net 拡張機能4.5</p></td>
 </tr>
 <tr class="odd">
 <td><p>アプリケーション開発</p></td>
@@ -234,7 +267,7 @@ Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scriptin
 </tr>
 <tr class="odd">
 <td><p>アプリケーション開発</p></td>
-<td><p>サーバー側インクルード</p></td>
+<td><p>サーバー側のインクルード</p></td>
 </tr>
 <tr class="even">
 <td><p>管理ツール</p></td>
@@ -242,89 +275,109 @@ Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scriptin
 </tr>
 <tr class="odd">
 <td><p>管理ツール</p></td>
-<td><p>IIS 6 メタベース互換</p></td>
+<td><p>IIS 6 メタベースの互換性</p></td>
 </tr>
 <tr class="even">
 <td><p>管理ツール</p></td>
 <td><p>IIS 管理スクリプトおよびツール</p></td>
 </tr>
 <tr class="odd">
-<td><p>.Net 3.5 Framework 機能</p></td>
-<td><p>.Net 3.5 Framework</p></td>
+<td><p>.Net 3.5 Framework の機能</p></td>
+<td><p>.Net 3.5 フレームワーク</p></td>
 </tr>
 <tr class="even">
-<td><p>.Net 4.5 Framework 機能</p></td>
+<td><p>.Net 4.5 Framework の機能</p></td>
 <td><p>.Net Framework 4.5</p></td>
 </tr>
 <tr class="odd">
-<td><p>.Net 4.5 Framework 機能</p></td>
+<td><p>.Net 4.5 Framework の機能</p></td>
 <td><p>ASP.Net 4.5</p></td>
 </tr>
 <tr class="even">
-<td><p>.Net 4.5 Framework 機能</p></td>
+<td><p>.Net 4.5 Framework の機能</p></td>
 <td><p>HTTP アクティブ化</p></td>
 </tr>
 <tr class="odd">
-<td><p>.Net 4.5 Framework 機能</p></td>
+<td><p>.Net 4.5 Framework の機能</p></td>
 <td><p>TCP ポート共有</p></td>
 </tr>
 <tr class="even">
-<td><p>バックグラウンド インテリジェント転送サービス</p></td>
-<td><p>IIS サーバー拡張機能</p></td>
+<td><p>バックグラウンドインテリジェント転送サービス</p></td>
+<td><p>IIS Server Extensions</p></td>
 </tr>
 <tr class="odd">
-<td><p>インクおよび手書きサービス</p></td>
-<td><p>インクおよび手書きサービス</p></td>
+<td><p>インクと手書きサービス</p></td>
+<td><p>インクと手書きサービス</p></td>
 </tr>
 <tr class="even">
 <td><p>メディア ファンデーション</p></td>
 <td><p>メディア ファンデーション</p></td>
 </tr>
 <tr class="odd">
-<td><p>ユーザー インターフェイスおよびインフラストラクチャ</p></td>
-<td><p>グラフィック管理ツールおよびインフラストラクチャ</p></td>
+<td><p>ユーザーインターフェイスとインフラストラクチャ</p></td>
+<td><p>グラフィカル管理ツールとインフラストラクチャ</p></td>
 </tr>
 <tr class="even">
-<td><p>ユーザー インターフェイスおよびインフラストラクチャ</p></td>
-<td><p>デスクトップ エクスペリエンス</p></td>
+<td><p>ユーザーインターフェイスとインフラストラクチャ</p></td>
+<td><p>デスクトップエクスペリエンス</p></td>
 </tr>
 <tr class="odd">
-<td><p>ユーザー インターフェイスおよびインフラストラクチャ</p></td>
-<td><p>サーバー グラフィック シェル</p></td>
+<td><p>ユーザーインターフェイスとインフラストラクチャ</p></td>
+<td><p>サーバーグラフィカルシェル</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Identity Foundation 3.5</p></td>
 <td><p>Windows Identity Foundation 3.5</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows プロセス アクティブ化サービス</p></td>
-<td><p>プロセス モデル</p></td>
+<td><p>Windows プロセスアクティブ化サービス</p></td>
+<td><p>プロセスモデル</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows プロセス アクティブ化サービス</p></td>
-<td><p>構成 API</p></td>
+<td><p>Windows プロセスアクティブ化サービス</p></td>
+<td><p>構成 Api</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Windows Server 2012 および Windows Server 2012 R2 では、Windows PowerShell 3.0 を使用して IIS の必要条件をインストールできます。Windows PowerShell 3.0 で ServerManager モジュールを使用して、次のように入力します。
+Windows Server 2012 および Windows Server 2012 R2 では、Windows PowerShell 3.0 を使用して、IIS の要件をインストールできます。 Windows PowerShell 3.0 で ServerManager モジュールを使用して、次のように入力します。
 
-```
-Import-Module ServerManager
-```
-```
-Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
-```
+   ```
+    Import-Module ServerManager
+   ```
 
-> [!IMPORTANT]
-> Windows Server 2012 では、Windows Server 2012 ソース メディアのある場所を定義する –Source パラメーターが追加されました。メディアは DVD ドライブとして定義するか (例: D:\Sources\Sxs)、メディア ファイルがコピーされているネットワーク共有に定義 (例: \\\\fileserver\windows2012\sources\Sxs) できます。
+   ```
+    Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+   ```
+
+<div class=" ">
+
+
+> [!IMPORTANT]  
+> Windows Server 2012 での新機能は、Windows Server 2012 ソースメディアが存在する場所を定義する、– Source パラメーターです。 メディアは、DVD ドライブ (D:\Sources\Sxs など)、またはメディアファイルがコピーされたネットワーク共有 (Fileserver\windows2012\sources\Sxs など\\) として定義できます。
 
 
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
 
-[Lync Server 2013 のフロントエンド プールおよび Standard Edition サーバーの IIS 要件](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 のフロントエンド プールおよび Standard Edition サーバーの IIS 要件](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

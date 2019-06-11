@@ -1,21 +1,41 @@
-﻿---
-title: FocusJoinsAndLeaves ビュー
-TOCTitle: FocusJoinsAndLeaves ビュー
-ms:assetid: 226460ef-766f-4d61-80cb-f332b65a210d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ687992(v=OCS.15)
-ms:contentKeyID: 49886874
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: FocusJoinsAndLeaves view'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: FocusJoinsAndLeaves view
+ms:assetid: 226460ef-766f-4d61-80cb-f332b65a210d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687992(v=OCS.15)
+ms:contentKeyID: 49733582
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3e1302bf744b0954d00eae4f4cc27454b2889745
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833147"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# FocusJoinsAndLeaves ビュー
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="focusjoinsandleaves-view-in-lync-server-2013"></a>Lync Server 2013 での FocusJoinsAndLeaves の表示
 
-FocusJoinsAndLeaves ビューには、1 つの会議における参加と退出についての情報が格納されます。各会議は、ユーザーが会議に参加して会議を退出するたびに書き込まれるレコードによってこのビューで表されます。このビューは Microsoft Lync Server 2013 で導入されました。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-01_
+
+FocusJoinsAndLeaves ビューには、1人の会議に参加するための情報が保存されます。 各会議は、ユーザーが会議に参加して退席するたびに書き込まれるレコードによって表示されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -33,74 +53,74 @@ FocusJoinsAndLeaves ビューには、1 つの会議における参加と退出�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
+<td><p><strong>セッション Id</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>会議インスタンスの時刻。会議インスタンスを一意に識別するために SessionIdSeq と併用されます。詳細については、「<a href="lync-server-2013-conferences-table.md">Lync Server 2013 の Conferences テーブル</a>」を参照してください。</p></td>
+<td><p>会議インスタンスの時刻。 電話会議インスタンスを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 での会議の表</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>会議インスタンスを識別する ID 番号。会議インスタンスを一意に識別するために SessionIdTime と併用されます。詳細については、「<a href="lync-server-2013-conferences-table.md">Lync Server 2013 の Conferences テーブル</a>」を参照してください。</p></td>
+<td><p>会議インスタンスを識別する ID 番号。 電話会議インスタンスを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 での会議の表</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>会議の参加/退出情報が取得されたユーザーの URI。</p></td>
+<td><p>会議の参加/退出情報がキャプチャされたユーザーの URI です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>会議の参加/退出情報が取得されたユーザーの URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>会議の参加/退出情報がキャプチャされたユーザーの URI の種類です。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>会議の参加/退出情報が取得されたユーザーのテナント。詳細については、「<a href="lync-server-2013-tenants-table.md">Lync Server 2013 の Tenants テーブル</a>」を参照してください。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>会議の参加/退出情報がキャプチャされたユーザーのテナントです。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの一覧</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserEndpointId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>会議の参加/退出情報が取得されたユーザーの一意の識別子。</p></td>
+<td><p>長さ</p></td>
+<td><p>会議の参加/退出情報がキャプチャされたユーザーを表す一意の識別子です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientVersion</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>会議の参加/退出情報が取得されたユーザーが使用したクライアントのバージョン。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>会議の参加/退出情報がキャプチャされたユーザーが使用したクライアントのバージョン。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>会議の参加/退出情報が取得されたユーザーが使用したクライアント。詳細については、「<a href="lync-server-2013-useragentdef-table.md">UserAgentDef テーブル</a>」を参照してください。</p></td>
+<td><p>電話会議の参加/退出情報がキャプチャされたユーザーによって使用されたクライアント。 詳細については、「 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 の Useragentdef テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>会議の参加/退出情報が取得されたユーザーが使用したクライアントのカテゴリ名。</p></td>
+<td><p>会議の参加/退出情報がキャプチャされたユーザーが使用したクライアントのカテゴリの名前です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FocusUserInstance</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsuserInternal</strong></p></td>
 <td><p>bit</p></td>
-<td><p>ユーザーが内部ユーザーか否かを表すビット。</p></td>
+<td><p>ユーザーが内部ユーザーかどうかを表すビット。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DialogSessionIdTime</strong></p></td>
+<td><p><strong>/セッション Id</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>セッション要求の時刻。セッションを一意に識別するために SessionIdSeq と併用されます。詳細については、「<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 の Dialogs テーブル</a>」を参照してください。</p></td>
+<td><p>セッション要求の時刻。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogSessionIdSeq</strong></p></td>
+<td><p><strong>"/セッション Id"</strong></p></td>
 <td><p>int</p></td>
-<td><p>ユーザーが複数のコンピューターまたはデバイスから同時にログオンしている場合は、UserInstance を使用してユーザーとデバイスの組み合わせを一意に識別します。</p></td>
+<td><p>ユーザーが複数のコンピューターまたはデバイスに同時にログオンしている場合は、UserInstance を使って、ユーザーとデバイスの組み合わせを一意に識別します。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DialogId</strong></p></td>
-<td><p>varchar(775)</p></td>
-<td><p>セッションの SIP ダイアログ ID。書式は dialog;from-tag;to-tag となります。</p></td>
+<td><p><strong>この Id</strong></p></td>
+<td><p>varchar (775)</p></td>
+<td><p>セッションの SIP ダイアログ ID。 形式は次のようになります。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserJoinTime</strong></p></td>
@@ -110,13 +130,24 @@ FocusJoinsAndLeaves ビューには、1 つの会議における参加と退出�
 <tr class="even">
 <td><p><strong>UserLeaveTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>ユーザーが会議を退出した時刻。</p></td>
+<td><p>ユーザーが会議から退出した時刻。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserRole</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>会議でのユーザーの役割 (発表者、参加者など)。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>会議でのユーザーの役割 (発表者や出席者など)</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

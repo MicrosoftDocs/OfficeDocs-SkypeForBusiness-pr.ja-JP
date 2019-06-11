@@ -1,71 +1,116 @@
-﻿---
-title: 'Lync Server 2013: Hosted Exchange UM 統合のアーキテクチャ'
-TOCTitle: Hosted Exchange UM 統合のアーキテクチャ
-ms:assetid: 0094d5dc-1836-441c-b6e2-f88e35203a8d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398067(v=OCS.15)
-ms:contentKeyID: 48271057
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Hosted Exchange UM 統合のアーキテクチャ'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hosted Exchange UM integration architecture
+ms:assetid: 0094d5dc-1836-441c-b6e2-f88e35203a8d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398067(v=OCS.15)
+ms:contentKeyID: 48183222
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2991bb35298534943d030b04c1cae7a438318c62
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833065"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の Hosted Exchange UM 統合のアーキテクチャ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-25_
+# <a name="hosted-exchange-um-integration-architecture-in-lync-server-2013"></a>Lync Server 2013 の Hosted Exchange UM 統合のアーキテクチャ
 
-Lync Server 2013 ExUM ルーティング アプリケーションは、内部設置型 Exchange ユニファイド メッセージング (UM) 展開環境との統合を、1 社のサービス プロバイダーがホストする Exchange UM と共に、または 2 社のサービス プロバイダーがホストする Exchange UM の組み合わせと共にサポートします。 以下の図に、3 つすべての展開シナリオを示します。
+</div>
 
-**内部設置型 Exchange UM 展開環境と 2 社の Hosted Exchange プロバイダーとの統合**
+<div id="mainSection">
 
-![社内の Lync Server Exchange UM 展開](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "社内の Lync Server Exchange UM 展開")
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-25_
+
+Lync Server 2013 ExUM ルーティングアプリケーションでは、オンプレミスの Exchange ユニファイドメッセージング (UM) 展開との統合、サービスプロバイダーによってホストされている Exchange UM、またはこの2つの組み合わせをサポートしています。 次の図は、3つのすべての可能性を示しています。
+
+**オンプレミスの Exchange UM 展開と2つのホストされた Exchange プロバイダーとの統合**
+
+![オンプレミスの Lync Server EXCHANGE UM の展開](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "オンプレミスの Lync Server EXCHANGE UM の展開")
 
 次のモードがサポートされています。
 
-  - **内部設置型展開 :** Lync Server 2013 および Exchange UM は、企業内のローカル サーバーに展開されます。
+  - **オンプレミスの展開:** Lync Server 2013 と Exchange UM は両方とも、エンタープライズ内のローカルサーバーに展開されます。
 
-  - **構内間の展開 :** Lync Server 2013 は企業内のローカル サーバーに展開され、Exchange UM は Microsoft Exchange Online データ センターなどのオンライン サービス プロバイダーの設備にホストされます。
+  - **クロスプレミスの展開:** Lync Server 2013 は企業内のローカルサーバーに展開され、Exchange UM は Microsoft Exchange Online のデータセンターなどのオンラインサービスプロバイダーの機能でホストされます。
 
-  - **混合展開 :** Lync Server 2013 展開環境には、社内のローカル Exchange サーバーに属するユーザー メールボックスも、Hosted Exchange サービス データ センターに属するメールボックスも存在します。
+  - **混在展開:** Lync Server 2013 の展開では、一部のユーザーのメールボックスが企業内のローカル Exchange サーバー上にあり、一部のメールボックスは、ホスティングされている Exchange service データセンターに置かれています。
     
-    > [!NOTE]
-    > 混合展開は、評価のためにユーザーを Hosted Exchange UM に段階的に移行する場合の暫定的なソリューションとして、または、一部のユーザーの Exchange UM サービスを社外に移行した後で、他のユーザーの Exchange UM サービスを内部設置型で維持する場合の恒久的なソリューションとして使用できます。
-
-
-## 共有 SIP アドレス スペース
-
-Lync Server 2013 と内部設置型 Exchange UM 展開環境を統合する場合は、Exchange UM Active Directory Domain サービス オブジェクトの読み取りアクセス許可を Lync Server 2013 に付与します。 ただし、Lync Server 2013 と Exchange UM は、相互に信頼のない個別のフォレストにインストールされるため、このアプローチは Hosted Exchange UM との統合では使用できません。
-
-Lync Server 2013 と Hosted Exchange UM を統合するには、*共有 SIP アドレス スペース*を構成する必要があります。この構成では、同一の SIP ドメイン アドレス スペースは、Lync Server 2013 と Hosted Exchange UM サービス プロバイダーの両方が使用できます。
-
-> [!NOTE]
-> 共有 SIP アドレス スペースの使用は、一部のユーザーが内部設置型展開環境に存在し、その他のユーザーがホスト型展開環境 (Lync Server 2013 など) に存在する構内間 Lync Online 環境で使用されるアプローチと似ています。SIP ドメインは、2 者間で分割されています。Lync Server 2013 を Hosted Exchange UM と統合する場合は、共有 SIP アドレス スペースに Exchange UM サービス プロバイダーを必ず含めてください。
-
-
-Exchange UM サービス プロバイダーとの統合用に共有 SIP アドレス スペースを構成するには、エッジ サーバーを以下のように構成する必要があります。
-
-1.  エッジ サーバーでフェデレーションを構成するには、**Set-CsAccessEdgeConfiguration** コマンドレットを実行して、以下のパラメーターを設定します。
+    <div>
     
-      - **UseDnsSrvRouting** は、エッジ サーバーがフェデレーション要求を送信および受信するときに、DNS SRV レコードを使用するように指定します。
-    
-      - **AllowFederatedUsers** は、内部ユーザーとフェデレーション ドメインからのユーザーとの通信を許可するかどうかを指定します。 このプロパティは、さらに内部ユーザーが分割ドメインのシナリオでユーザーと通信できるかどうかも決定します。
-    
-      - **EnablePartnerDiscovery** は、Lync Server 2013 が DNS レコードを使用して、Active Directory によって許可されたドメイン リストにないパートナー ドメインを検出するかどうかを指定します。 False に設定された場合、Lync Server 2013 は、許可されたドメイン リストにあるドメインに対してのみフェデレーションを行います。DNS のサービス ルーティングを使用する場合、このパラメーターは必須です。 ほとんどの展開環境では、すべてのパートナーに対してフェデレーションが開かれることのないように、この値を False に設定します。
 
-2.  中央管理ストアをエッジ サーバーにレプリケートして、レプリケーションを確認します。詳細については、「展開」のドキュメントの「[エッジ インストール用の Lync Server 2013 のトポロジをエクスポートして外部メディアにコピーする](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)」を参照してください。
+    > [!NOTE]  
+    > 混在展開は、ユーザーをホストされた Exchange UM に移行するときの移行ソリューションとして使用することができます。また、他のユーザーを転送した後で、一部のユーザーの Exchange UM サービスをオンプレミスのままにしておくと、永続的なソリューションとして使用できます。
 
-3.  **New-CsHostingProvider** コマンドレットを実行して以下のパラメーターを設定することで、*ホスティング プロバイダー*をエッジ サーバー上で構成します。
     
-      - **Identity** は、作成しているホスティング プロバイダーの一意の文字列値からなる識別子 (**Hosted Exchange UM** など) を指定します。
+    </div>
+
+<div>
+
+## <a name="shared-sip-address-space"></a>共有 SIP アドレス空間
+
+Lync Server 2013 をオンプレミスの Exchange UM 展開に統合するには、Lync Server 2013 権限を付与して、Exchange UM Active Directory ドメインサービスオブジェクトを読み取ります。 この方法は、ホストされた Exchange UM との統合には対応していません。ただし、Lync Server 2013 と Exchange UM は別々のフォレストにインストールされているため、信頼関係がありません。
+
+Lync Server 2013 をホストされた Exchange UM と統合するには、*共有 SIP アドレス空間*を構成する必要があります。 この構成では、Lync Server 2013 と hosted Exchange UM サービスプロバイダーの両方で同じ SIP ドメインアドレス空間を利用できます。
+
+<div>
+
+
+> [!NOTE]  
+> 共有 SIP アドレス空間の使用は、クロスプレミスの Lync Server 2013 環境で使用されているアプローチと似ています。一部のユーザーはオンプレミスの展開に所属していて、一部のユーザーは、社内の展開 (Lync Online など) であるためです。 SIP ドメインが分割されます。 Lync Server 2013 をホストされた Exchange UM と統合する場合は、共有 SIP アドレス空間に Exchange UM サービスプロバイダーが含まれていることを確認します。
+
+
+
+</div>
+
+Exchange UM サービスプロバイダーと統合するために共有 SIP アドレス空間を構成するには、次のようにエッジサーバーを構成する必要があります。
+
+1.  次のパラメーターを設定するには、 **CsAccessEdgeConfiguration**コマンドレットを実行して、フェデレーション用にエッジサーバーを構成します。
     
-      - **Enabled** は、ドメインとホスティング プロバイダー間のネットワーク接続が有効になっているかどうかを示します。 **True** に設定する必要があります。
+      - **UseDnsSrvRouting ** は、エッジ サーバーがフェデレーション要求を送信および受信するときに、DNS SRV レコードを使用するように指定します。
     
-      - **EnabledSharedAddressSpace** は、ホスティング プロバイダーが共有 SIP アドレス スペース シナリオで使用されるかどうかを示します。**True** に設定する必要があります。
+      - **AllowFederatedUsers ** は、内部ユーザーとフェデレーション ドメインからのユーザーとの通信を許可するかどうかを指定します。このプロパティは、さらに内部ユーザーが分割ドメインのシナリオでユーザーと通信できるかどうかも決定します。
     
-      - **HostsOCSUsers** は、ホスティング プロバイダーが Lync Server 2013 アカウントをホストするために使用されているかどうかを示します。 **False** に設定する必要があります。
+      - **Enablepartnerdiscovery** Lync Server 2013 で DNS レコードを使用して、Active Directory で許可されているドメインの一覧に含まれていないパートナードメインを検出するかどうかを指定します。 False の場合、Lync Server 2013 は、[許可したドメイン] 一覧にあるドメインのみをフェデレーションします。 DNS のサービス ルーティングを使用する場合、このパラメーターは必須です。 ほとんどの展開環境では、すべてのパートナーに対してフェデレーションが開かれることのないように、この値を False に設定します。
+
+2.  中央管理ストアをエッジサーバーにレプリケートし、レプリケーションを確認します。 詳細については、展開ドキュメントの「 [Lync Server 2013 トポロジをエクスポートして、microsoft edge インストール用の外部メディアにコピーする](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)」を参照してください。
+
+3.  次のパラメーターを設定するには、**新しい-CsHostingProvider**コマンドレットを実行して、エッジサーバーで*ホスティングプロバイダー*を構成します。
     
-      - **ProxyFQDN** は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) (**proxyserver.fabrikam.com** など) を指定します。 この情報については、ホスティング プロバイダーに問い合わせてください。この値は変更できません。 ホスティング プロバイダーがプロキシ サーバーを変更すると、そのプロバイダーのエントリを削除して再作成する必要があります。
+      - **Id**は、ホストされている**Exchange UM**など、作成しているホスティングプロバイダーの一意の文字列値識別子を指定します。
     
-      - **IsLocal** は、ホスティング プロバイダーによって使用されるプロキシ サーバーが Lync Server 2013 トポロジ内に含まれているかどうかを示します。**False** に設定する必要があります。
+      - **Enabled ** は、ドメインとホスティング プロバイダー間のネットワーク接続が有効になっているかどうかを示します。 **True**に設定する必要があります。
+    
+      - **EnabledSharedAddressSpace** は、ホスティング プロバイダーが共有 SIP アドレス スペース シナリオで使用されるかどうかを示します。 **True**に設定する必要があります。
+    
+      - **Hostているユーザー**は、ホスティングプロバイダーが Lync Server 2013 アカウントをホストするために使用されているかどうかを示します。 **False**に設定する必要があります。
+    
+      - **Proxyfqdn**は、ホスティングプロバイダーによって使用されるプロキシサーバーの完全修飾ドメイン名 (FQDN) を指定します。たとえば、 **proxyserver.fabrikam.com**のように指定します。 この情報については、ホスティングプロバイダーにお問い合わせください。 この値は変更できません。 ホスティングプロバイダーがプロキシサーバーを変更した場合は、そのプロバイダーのエントリを削除してから再作成する必要があります。
+    
+      - **Islocal**は、ホスティングプロバイダーによって使用されたプロキシサーバーが Lync server 2013 トポロジ内に含まれているかどうかを示します。 **False**に設定する必要があります。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

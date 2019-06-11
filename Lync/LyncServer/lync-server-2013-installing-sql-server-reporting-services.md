@@ -1,51 +1,81 @@
-﻿---
-title: SQL Server Reporting Services のインストール
-TOCTitle: SQL Server Reporting Services のインストール
-ms:assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204957(v=OCS.15)
-ms:contentKeyID: 48272316
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: SQL Server Reporting Services のインストール'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing SQL Server Reporting Services
+ms:assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204957(v=OCS.15)
+ms:contentKeyID: 48184345
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6707cafc3a08123bd2189639704741681eb9cdd6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832986"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# SQL Server Reporting Services のインストール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-06-20_
+# <a name="installing-sql-server-reporting-services-in-lync-server-2013"></a>Lync Server 2013 で SQL Server Reporting Services をインストールする
 
-Microsoft Lync Server 2013 監視レポートを使用する場合は、SQL Server Reporting Services をインストールしておく必要があります (詳細についてはこのドキュメントの次のセクションを参照してください)。Reporting Services は、Microsoft SQL Server と同時にインストールするか、SQL Server のインストール後の任意の時点でインストールできます。SQL Server をインストールしていない場合は、このドキュメントで前述した指示に従います。SQL Server をインストールするとき、\[機能の選択\] ページで Reporting Services を必ず選択します。これにより、SQL Server Reporting Services がインストールされます。
+</div>
 
-SQL Server はインストールしたが、SQL Server Reporting Services はインストールしていない場合は、SQL Server 2008 R2 または SQL Server 2012 に適した指示に従って、この機能を追加できます。
+<div id="mainSection">
 
-Reporting Services が正常にインストールされたことを確認するには、次の手順に従います。
+<div id="mainBody">
 
-1.  Microsoft SQL Server 2008 R2 を実行中の場合は、\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft SQL Server 2008 R2**\]、\[**構成ツール**\] の順にクリックし、\[**Reporting Services 構成マネージャー**\] をクリックします。
+<span> </span>
+
+_**最終更新日:** 2012-06-20_
+
+Microsoft Lync Server 2013 監視レポートを使用する場合 (詳細については、このドキュメントの次のセクションを参照してください)、まず SQL Server Reporting Services をインストールする必要があります。Reporting Services は、Microsoft SQL Server のインストール時に、または SQL Server をインストールした後であれば、いつでもインストールできます。 SQL Server がインストールされていない場合は、このドキュメントで前に説明した指示に従ってください。 SQL Server をインストールするときに、[機能の選択] ページで [Reporting Services] を選択していることを確認します。 これにより、SQL Server Reporting Services がインストールされます。
+
+Sql server が既にインストールされているが、SQL Server Reporting Services をインストールしていない場合は、SQL Server 2008 R2 または SQL Server 2012 の適切な手順に従って、その機能を追加できます。
+
+レポートサービスが正常にインストールされたことを確認するには、次の手順を実行します。
+
+1.  Microsoft SQL Server 2008 R2 を実行している場合は、[**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft SQL Server 2008 R2**]、[**構成ツール**]、[ **Reporting Services 構成マネージャー**] の順にクリックします。
     
-    Microsoft SQL Server 2012 を実行中の場合は、\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft SQL Server 2012**\]、\[**構成ツール**\] の順にクリックし、\[**Reporting Services 構成マネージャー**\] をクリックします。
+    Microsoft SQL Server 2012 を実行している場合は、[**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft SQL Server 2012**]、[**構成ツール**]、[ **Reporting Services 構成マネージャー**] の順にクリックします。
 
-2.  \[**Reporting Services 構成の接続**\] ダイアログ ボックスで、サーバーの名前が \[**サーバー名**\] ボックスに、および監視データを保存する SQL Server インスタンスの名前が \[**レポート サーバー インスタンス**\] ボックスに表示されることを確認します。\[**接続**\] をクリックします。
+2.  [ **Reporting Services の構成接続**] ダイアログボックスで、[**サーバー名**] ボックスにサーバー名が表示され、監視データを格納する SQL server インスタンスの名前がレポートサーバーに表示されることを確認します。 **インスタンス**ボックス。 [**接続**] をクリックします。
 
-Reporting Service 構成マネージャーの \[レポート サーバーの状態\] ウィンドウに、SQL Server Reporting Services がインストールされていること、および現在 Reporting Services が実行中であることが示されます。\[レポート サーバーの状態\] として、\[**開始**\] が表示されます。\[**開始**\] ボタンは灰色表示され、使用できません。Reporting Service が実行されていない場合は、\[**開始**\] をクリックして、サービスを開始します。
+Reporting Service 構成マネージャーの [レポートサーバーの状態] ウィンドウには、SQL Server Reporting Services がインストールされていて、Reporting Services が現在実行されていることが表示されます。レポートサーバーの状態は [**開始**] と表示され、[**スタート**] ボタンは淡色表示になっていて使用できません。 レポートサービスが実行されていない場合は、[**開始**] をクリックしてサービスを開始します。
 
-\[レポート サーバー データベース名\] ラベルの横にデータベースが表示されない場合は、次の操作を行います。
+[レポートサーバーデータベース名] ラベルの横にデータベースが表示されない場合は、次の操作を行います。
 
-1.  Reporting Services 構成マネージャーで、\[**データベース**\] をクリックします。
+1.  Reporting Services 構成マネージャーで [**データベース**] をクリックします。
 
-2.  \[レポート サーバー データベース\] ウィンドウで、\[**データベースの変更**\] をクリックします。
+2.  [レポートサーバーデータベース] ウィンドウで、[**データベースの変更**] をクリックします。
 
-3.  レポート サーバー データベース構成ウィザードで、\[**新しいレポート サーバー データベースを作成する**\] を選択し、\[**次へ**\] をクリックします。
+3.  レポートサーバーデータベース構成ウィザードの [操作] ウィンドウで、[**新しいレポートサーバーデータベースの作成**] を選択し、[**次へ**] をクリックします。
 
-4.  レポート サーバー データベース構成ウィザードの \[データベース サーバー\] ウィンドウで、\[**サーバー名**\] ボックス、\[**認証の種類**\] ボックス、および \[**ユーザー名**\] ボックスに表示される情報が正しいことを確認します。\[**接続テスト**\] をクリックしてデータベース サーバーに接続できることを確認し、\[**次へ**\] をクリックします。
+4.  [レポートサーバーデータベース構成ウィザード] の [データベースサーバー] ウィンドウで、[**サーバー名**]、[**認証の種類**]、[**ユーザー名**] ボックスに表示されている情報が正しいことを確認します。 [**接続テスト**] をクリックしてデータベースサーバーへの接続を確立できることを確認し、[**次へ**] をクリックします。
 
-5.  レポート サーバー データベース構成ウィザードの \[データベース\] ウィンドウで、\[**データベース名**\]、\[**言語**\]、および \[**レポート サーバー モード**\] の既定値をそのまま使用し、\[**次へ**\] をクリックします。
+5.  レポートサーバーデータベース構成ウィザードの [データベース] ウィンドウで、**データベース名**、**言語**、および**レポートサーバーモード**の既定値をそのまま使用し、[**次へ**] をクリックします。
 
-6.  レポート サーバー データベース構成ウィザードの \[資格情報\] ウィンドウで、\[**認証の種類**\] ドロップダウン リスト、\[**ユーザー名**\] ボックス、および \[**パスワード**\] ボックスに正しい情報が表示されていることを確認し、\[**次へ**\] をクリックします。
+6.  [レポートサーバーデータベースの構成ウィザード] の [資格情報] ウィンドウで、[**認証の種類**] ドロップダウンリストと [**ユーザー名**] ボックスと [**パスワード**] ボックスに正しい情報が表示されていることを確認し、[**次へ**] をクリックします。
 
-7.  レポート サーバー データベース構成ウィザードの \[概要\] ウィンドウで、\[**次へ**\] をクリックします。
+7.  レポートサーバーデータベース構成ウィザードの [概要] ウィンドウで、[**次へ**] をクリックします。
 
-8.  レポート サーバー データベース構成ウィザードの \[続行して完了する\] ウィンドウで、\[**完了**\] をクリックします。
+8.  [レポートサーバーデータベースの構成ウィザード] の [進行状況] と [完了] ウィンドウで、[**完了**] をクリックします。
 
-Reporting Services の URL が構成されていることを確認するには、\[**Web サービスの URL**\] をクリックします。\[**レポート サーバー Web サービスの URL**\] 見出しの下に、1 つまたは複数の URL が表示されることを確認します。これらの各 URL をクリックすることで、SQL Server Reporting Services のローカル インストール用のホーム ページにアクセスできることを確認できます。
+レポートサービスの Url が構成されていることを確認するには、[ **Web サービスの url**] をクリックします。 [見出し**レポートサーバー] Web サービスの url**の下に、1つ以上の url が表示されます。 これらの各 Url をクリックして、SQL Server Reporting Services のローカルインストールのホームページにアクセスできることを確認します。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,53 @@
-﻿---
-title: Lync Server 2013 での DNS 概要 - 自動検出
-TOCTitle: Lync Server 2013 での DNS 概要 - 自動検出
-ms:assetid: b336a2ae-0e58-4b74-b606-aedbbd411587
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ945644(v=OCS.15)
-ms:contentKeyID: 52056677
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: DNS の概要-自動検出'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - Autodiscover
+ms:assetid: b336a2ae-0e58-4b74-b606-aedbbd411587
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945644(v=OCS.15)
+ms:contentKeyID: 51541504
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 64e303ebecc42f03197f6502296c8a2708e97ebf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833360"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での DNS 概要 - 自動検出
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>DNS 概要-Lync Server 2013 での自動検出
 
-自動検出は、HTTP または HTTPS 経由の通信を受け入れる柔軟なサービスです。このためには、自動検出サービスをホストするサーバーによって使用されるドメイン ネーム システム (DNS) と証明書を正しく設定する必要があります。証明書要件については、「[証明書の概要 - 自動検出](lync-server-2013-certificate-summary-autodiscover.md)」で説明しています。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-13_
+
+自動検出は、HTTP または HTTPS 経由での通信を受け付ける、柔軟なサービスです。 これを実現するために、ドメインネームシステム (DNS) と自動検出サービスをホストするサーバーによって使われる証明書が正しく構成されている必要があります。 証明書の要件については[、「証明書の概要-Lync Server 2013 での自動検出](lync-server-2013-certificate-summary-autodiscover.md)」で説明します。
+
+<div>
 
 
-> [!IMPORTANT]
-> Lync Server クライアントの DNS 参照ロジックでは、特定の順序で解決を使用します。DNS には、必ず lyncdiscoverinternal.&lt;domain&gt; と lyncdiscover.&lt;domain&gt; の両方を含める必要があります。lyncdiscoverinternal.&lt;domain&gt; レコードを除外すると、内部クライアントが目的のサービスに接続できなくなるか、自動検出サービスからの不適切な応答を受信します。
+> [!IMPORTANT]  
+> Lync Server クライアントの DNS 検索ロジックは、特定の解決方法を使用します。 常に lyncdiscoverinternal の両方が含まれている必要があります。&lt;ドメイン&gt;と lyncdiscover&lt;DNS&gt;でドメインを選びます。 Lyncdiscoverinternal を除外します。&lt;ドメイン&gt;レコードを使用すると、内部クライアントは、目的のサービスに接続できないか、または正しくない自動検出応答を受信します。
 
 
 
-### 内部 DNS レコード
+</div>
+
+### <a name="internal-dns-records"></a>内部 DNS レコード
 
 <table>
 <colgroup>
@@ -41,21 +65,21 @@ _**トピックの最終更新日:** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>Lyncdiscoverinternal.&lt;internal domain name&gt;</p></td>
-<td><p>ディレクター プール (ディレクター プールがある場合) またはフロント エンド プール (ディレクターがない場合) の内部 Web サービス FQDN</p></td>
+<td><p>Lyncdiscoverinternal.&lt;内部ドメイン名&gt;</p></td>
+<td><p>ディレクタープールがある場合は、そのディレクタープールの内部 Web サービス FQDN。ディレクターを持っていない場合は、フロントエンドプールにも使用できます。</p></td>
 </tr>
 <tr class="even">
-<td><p>A (ホスト、IPv6 の場合は AAAA)</p></td>
-<td><p>lyncdiscoverinternal.&lt;internal domain name&gt;</p></td>
-<td><p>ディレクター プール (ディレクター プールがある場合) またはフロント エンド プール (ディレクターがない場合) の内部 Web サービス IP アドレス (ロード バランサーを使用する場合は仮想 IP (VIP) アドレス)</p></td>
+<td><p>A (IPv6 の場合は host、AAAA の場合)</p></td>
+<td><p>lyncdiscoverinternal.&lt;内部ドメイン名&gt;</p></td>
+<td><p>ディレクターを持っていない場合は、ディレクタープールの内部 Web サービス IP アドレス (ロードバランサーを使用している場合は仮想 IP (VIP) のアドレス)。ディレクターを持っていない場合は、フロントエンドプールを所有している場合は、このアドレスを使用します。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-次の外部 DNS レコードの 1 つを作成する必要があります。
+次のいずれかの外部 DNS レコードを作成する必要があります。
 
-### 外部 DNS レコード
+### <a name="external-dns-records"></a>外部 DNS レコード
 
 <table>
 <colgroup>
@@ -74,32 +98,57 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="odd">
 <td><p>CNAME</p></td>
 <td><p>lyncdiscover.&lt;sipdomain&gt;</p></td>
-<td><p>ディレクター プール (ディレクター プールがある場合) またはフロント エンド プール (ディレクターがない場合) の外部 Web サービス FQDN</p></td>
+<td><p>ディレクタープールを所有している場合は、そのディレクタープールの外部 Web サービス FQDN。ディレクターを持っていない場合は、フロントエンドプールに対応する必要があります。</p></td>
 </tr>
 <tr class="even">
-<td><p>A (ホスト、IPv6 の場合は AAAA)</p></td>
+<td><p>A (IPv6 の場合は host、AAAA の場合)</p></td>
 <td><p>lyncdiscover.&lt;sipdomain&gt;</p></td>
-<td><p>リバース プロキシの外部またはパブリック IP アドレス</p></td>
+<td><p>リバースプロキシの外部またはパブリック IP アドレス。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]
-> 外部トラフィックはリバース プロキシを経由します。
+<div>
 
 
-> [!NOTE]
-> モバイル デバイスのクライアントでは、異なるドメインからの複数の SSL (Secure Sockets Layer) 証明書がサポートされません。つまり、HTTPS では、異なるドメインへの CNAME のリダイレクトがサポートされません。たとえば、director.contoso.net のアドレスにリダイレクトされる lyncdiscover.contoso.com の DNS CNAME レコードは、HTTPS ではサポートされません。このようなトポロジでは、CNAME のリダイレクトが HTTP で解決されるように、モバイル デバイスのクライアントは、最初の要求に対して HTTP を使用する必要があります。その後、以降の要求については HTTPS を使用します。このシナリオをサポートするには、ポート 80 (HTTP) の Web 公開ルールを使用して、リバース プロキシを構成する必要があります。詳細については、「<a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 での、モビリティに合わせたリバース プロキシの構成</a>」の「ポート 80 の Web 公開ルールを作成するには」を参照してください。HTTPS では、同じドメインへの CNAME のリダイレクトはサポートされます。この場合、リダイレクト先のドメインの証明書で元のドメインがカバーされます。
+> [!NOTE]  
+> 外部トラフィックはリバースプロキシ経由で送信されます。
 
 
-## 関連項目
 
-#### タスク
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> モバイルデバイスクライアントは、異なるドメインからの複数の Secure Sockets Layer (SSL) 証明書をサポートしていません。 したがって、異なるドメインへの CNAME リダイレクションは HTTPS 経由ではサポートされません。 たとえば、director.contoso.net のアドレスにリダイレクトされる lyncdiscover.contoso.com の DNS CNAME レコードは HTTPS ではサポートされません。 このようなトポロジでは、モバイルデバイスクライアントは、最初の要求に対して HTTP を使う必要があるため、CNAME リダイレクションが HTTP で解決されます。 それ以降の要求では HTTPS を使用します。 このシナリオをサポートするには、ポート 80 (HTTP) 用の web 公開ルールを使用してリバースプロキシを構成する必要があります。 詳細については、「 <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 でモビリティのリバースプロキシを構成</A>する」の「ポート80用の web 公開ルールを作成するには」を参照してください。 同じドメインへの CNAME リダイレクションは HTTPS 経由でサポートされています。 この場合、宛先ドメインの証明書は元のドメインを対象としています。
+
+
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 での、モビリティに合わせたリバース プロキシの構成](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)  
 
-#### 概念
 
-[証明書の概要 - 自動検出](lync-server-2013-certificate-summary-autodiscover.md)
+[証明書の概要-Lync Server 2013 での自動検出](lync-server-2013-certificate-summary-autodiscover.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

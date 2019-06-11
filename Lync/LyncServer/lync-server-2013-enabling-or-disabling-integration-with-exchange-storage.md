@@ -1,51 +1,88 @@
-﻿---
-title: Exchange ストレージとの統合の有効化または無効化
-TOCTitle: Exchange ストレージとの統合の有効化または無効化
-ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205228(v=OCS.15)
-ms:contentKeyID: 48273473
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Exchange 記憶域との統合を有効または無効にする'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling integration with Exchange storage
+ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205228(v=OCS.15)
+ms:contentKeyID: 48185295
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8d2ded7e4cf586faf1f15ea6205aa23802413dc9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833236"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exchange ストレージとの統合の有効化または無効化
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-09_
+# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>Lync Server 2013 と Exchange ストレージの統合を有効または無効にする
 
-Lync Server 2013 コントロール パネル では、アーカイブ構成を使用して、Exchange ストレージとの統合を有効または無効にします。これには、次のアーカイブ構成が含まれます。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-09_
+
+Lync Server 2013 コントロールパネルで、[アーカイブ構成] を使って、Exchange ストレージとの統合を有効または無効にします。 これには、次のアーカイブ構成が含まれます。
 
   - Lync Server 2013 を展開するときに既定で作成されるグローバル構成。
 
-  - 特定のサイトまたはプールに対するアーカイブの実装方法を指定するために作成して使用できる、オプションのサイトレベルおよびプールレベルのポリシー。
+  - 作成および使用して、特定のサイトまたはプールに対するアーカイブの実装方法を指定することができる、オプションのサイトレベルとプールレベルの構成。
 
-指定できるオプションやアーカイブ構成の階層など、アーカイブ構成の実装方法の詳細については、「計画」のドキュメント、「展開」のドキュメント、または「操作」のドキュメントの「[Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」を参照してください。
+アーカイブ構成の実装方法について詳しくは、「指定できるオプションやアーカイブ構成の階層」を参照してください。「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)(計画ドキュメント、展開)」を参照してください。ドキュメント、または操作のドキュメント。
 
-## Microsoft Exchange ストレージとの統合を有効または無効にするには
+<div>
+
+## <a name="to-enable-or-disable-integration-with-microsoft-exchange-storage"></a>Microsoft Exchange 記憶域との統合を有効または無効にするには
 
 1.  CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで、\[**監視とアーカイブ**\] をクリックし、\[**アーカイブ構成**\] をクリックします。
+3.  左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
 
-4.  アーカイブ構成一覧で、適切なグローバル構成、サイト構成、またはプール構成の名前をクリックし、\[**編集**\]、\[**詳細の表示**\] の順にクリックして、次の操作を実行します。
+4.  アーカイブ構成の一覧から、適切なグローバル構成、サイト構成、またはプール構成の名前をクリックし、[**編集**]、[**詳細の表示**] の順にクリックし、次の操作を実行します。
     
-      - Exchange 2013 ストレージとの統合を有効にするには、\[**Microsoft Exchange 統合**\] チェック ボックスをオンにします。
+      - Exchange 2013 ストレージとの統合を有効にするには、[ **Microsoft Exchange 統合**] チェックボックスをオンにします。
     
-      - Exchange 2013 ストレージとの統合を無効にするには、\[**Microsoft Exchange 統合**\] チェック ボックスをオフにします。
+      - Exchange 2013 ストレージとの統合を無効にするには、[ **Microsoft Exchange 統合**] チェックボックスをオフにします。
 
-5.  \[**確定**\] をクリックします。
+5.  [**コミット**] をクリックします。
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)  
 
-#### その他のリソース
 
-[Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+[組織、サイト、およびプールの Lync Server 2013 でアーカイブ構成オプションを管理する](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

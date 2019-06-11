@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: アナウンス アプリケーションの展開プロセス'
-TOCTitle: アナウンス アプリケーションの展開プロセス
-ms:assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398545(v=OCS.15)
-ms:contentKeyID: 48272449
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: アナウンスメントアプリケーションの展開プロセス'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment process for the Announcement application
+ms:assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398545(v=OCS.15)
+ms:contentKeyID: 48184500
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f2b1e9f8dd78b299a8e89e958f5b1c03acdffb7d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833449"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のアナウンス アプリケーションの展開プロセス
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 のアナウンスメントアプリケーションの展開プロセス
 
-このセクションでは、アナウンス アプリケーションの展開に含まれるステップの概要を説明します。アナウンスを構成する前に、エンタープライズ VoIP を展開する必要があります。アナウンス アプリケーションで必要なコンポーネントは、エンタープライズ VoIP の展開時にインストールされ、有効にされます。
+</div>
 
-### アナウンスの展開プロセス
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-12_
+
+このセクションでは、アナウンスメントアプリケーションの展開に関連する手順の概要を説明します。 お知らせを構成する前に、エンタープライズボイスを展開する必要があります。 [エンタープライズ Voip] を展開すると、アナウンスメントアプリケーションで必要なコンポーネントがインストールされて有効になります。
+
+### <a name="announcement-deployment-process"></a>アナウンスの展開プロセス
 
 <table>
 <colgroup>
@@ -29,7 +49,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <thead>
 <tr class="header">
 <th>フェーズ</th>
-<th>ステップ</th>
+<th>手順</th>
 <th>役割</th>
 <th>「展開」のドキュメント</th>
 </tr>
@@ -46,15 +66,26 @@ _**トピックの最終更新日:** 2015-03-09_
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p>
 <p>CsViewOnlyAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でのアナウンスの作成</a></p>
+<td><p><a href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でお知らせを作成する</a></p>
 <p><a href="lync-server-2013-configure-the-unassigned-number-table.md">Lync Server 2013 での割り当てられていない番号の表の構成</a></p></td>
 </tr>
 <tr class="even">
 <td><p>アナウンスの展開の確認</p></td>
 <td><p>アナウンスを聞いてテストし、構成が予想どおりに動作することを確認します。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">(オプション) Lync Server 2013 でのアナウンスの展開の確認</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">省略Lync Server 2013 でのアナウンスメントの展開を確認する</a></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

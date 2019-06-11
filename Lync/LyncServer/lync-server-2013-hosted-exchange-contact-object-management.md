@@ -1,57 +1,107 @@
-﻿---
-title: 'Lync Server 2013: Hosted Exchange 連絡先オブジェクト管理'
-TOCTitle: Hosted Exchange 連絡先オブジェクト管理
-ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412978(v=OCS.15)
-ms:contentKeyID: 48273945
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Hosted Exchange 連絡先オブジェクト管理'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hosted Exchange Contact object management
+ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412978(v=OCS.15)
+ms:contentKeyID: 48185748
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c67438745ee7cbb9de0ccfdef1d5d8959bb4679c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833061"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の Hosted Exchange 連絡先オブジェクト管理
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-25_
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Lync Server 2013 の Hosted Exchange 連絡先オブジェクト管理
 
-横断設置型の展開では、自動応答番号およびサブスクライバー アクセス番号ごとに連絡先オブジェクトを構成する必要があります。
+</div>
 
-Hosted Exchange UM との統合では、ocsumutil.exe は Active Directory Exchange UM 設定に依存するため、ocsumutil.exe を使用して連絡先オブジェクトを管理することはできません。横断設置型の展開では、 Lync Server 2013 と Hosted Exchange UM が両者の間に信頼関係がない別々のフォレストにインストールされます。 Lync Server 2013 の管理者は、セキュリティ上の理由から、Exchange UM の Active Directory 設定に直接アクセスする権限は持ちません。このため、 Lync Server 2013 では、別のモデルが用意され、連絡先オブジェクトは、 Lync Server 2013 と Hosted Exchange UM サービスの両方がアクセスできる共有 SIP アドレス スペース で管理されます。
+<div id="mainSection">
 
-## ホスト型連絡先オブジェクトのワークフロー
+<div id="mainBody">
 
-以下では、Hosted Exchange のテナント管理者と協力して、連絡先オブジェクトを管理するための一般的な手順を示します。
+<span> </span>
 
-1.  Exchange の管理者が、Exchange UM サブスクライバー アクセス連絡先オブジェクトおよび自動応答連絡先オブジェクトの電話番号を要求します。
+_**最終更新日:** 2012-09-25_
 
-2.  Lync Server 2013 の管理者が、各電話番号の連絡先オブジェクトを作成して、ホスト ボイス メール ポリシーを各連絡先オブジェクトに割り当てます。
+クロスプレミスの展開で、自動応答の番号とサブスクライバーのアクセス番号ごとに、連絡先オブジェクトを構成する必要があります。
 
-3.  Lync Server 2013 の管理者が、電話番号を Exchange 管理者に提供します。
+ホストされた Exchange UM との統合のために、Active Directory の Exchange UM 設定によって異なるため、連絡先オブジェクトを管理するために ocsumutil を使うことはできません。 クロスプレミスの展開では、Lync Server 2013 とホストされた Exchange UM は別々のフォレストにインストールされ、それらの間に信頼はありません。 セキュリティ上の理由から、Lync Server 2013 管理者は Exchange UM Active Directory の設定に直接アクセスすることはできません。 このため、Lync Server 2013 には、Lync Server 2013 とホストされている Exchange UM サービスの両方からアクセスできる*共有 SIP アドレス空間*の連絡先オブジェクトを管理するための別のモデルが用意されています。
 
-4.  Exchange 管理者は、自動応答およびサブスクライバー アクセス用の該当する Exchange UM ダイヤルプランに電話番号を割り当てます。
+<div>
 
-> [!NOTE]
-> 内部設置型展開では必要ですが、連絡先オブジェクトに対して、 Lync Server 2013 のダイヤル プラン設定を構成する必要はありません。
+## <a name="hosted-contact-object-workflow"></a>ホステッド連絡先オブジェクトワークフロー
+
+ホストされた Exchange テナント管理者と協力して連絡先オブジェクトを管理する一般的な手順を次に示します。
+
+1.  Exchange 管理者は、Exchange UM サブスクライバーアクセスと自動応答の連絡先オブジェクトの電話番号を要求します。
+
+2.  Lync Server 2013 管理者は、電話番号ごとに連絡先オブジェクトを作成し、ホストされたボイスメールポリシーを各連絡先オブジェクトに割り当てます。
+
+3.  Lync Server 2013 管理者は、Exchange 管理者に電話番号を提供します。
+
+4.  Exchange 管理者は、自動応答と加入者アクセスの適切な Exchange UM ダイヤルプランに電話番号を割り当てます。
+
+<div>
 
 
-## ホスト型連絡先オブジェクトの構成
-
-> [!NOTE]
-> Lync Server 2013 の連絡先オブジェクトを Hosted Exchange UM に対して有効化する前に、連絡先オブジェクトに適用されるホスト ボイス メール ポリシーを展開する必要があります。ここで展開するポリシーは、有効化する連絡先オブジェクトに適用するのであれば、そのスコープがグローバルなものでも、サイト レベルのものでも、ユーザー単位のものでもかまいません。詳細については、「<a href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 のホスト型ボイス メール ポリシー</a>」を参照してください。
+> [!NOTE]  
+> オンプレミスの展開があるため、連絡先オブジェクトの Lync Server 2013 ダイヤルプランの設定を構成する必要はありません。
 
 
-横断型展開でホスト型自動応答およびサブスクライバー アクセス連絡先オブジェクトを構成するには、次の各コマンドレットを使用する必要があります。
 
-  - **New-CsExUmContact** は、ホスト型 UM 用の新しい連絡先オブジェクトを作成します。
+</div>
 
-  - **Set-CsExUmContact** は、Hosted Exchange UM 用の既存の連絡先オブジェクトを変更します。
+</div>
 
-次の例では、自動応答連絡先オブジェクトが作成されます。
+<div>
+
+## <a name="configuring-hosted-contact-objects"></a>ホステッド連絡先オブジェクトの構成
+
+<div>
+
+
+> [!NOTE]  
+> Lync Server 2013 連絡先オブジェクトをホストされた Exchange UM に対して有効にする前に、それらに適用されるホストされたボイスメールポリシーを展開する必要があります。 有効にする連絡先オブジェクトに適用される限り、ポリシーはグローバル、サイトレベル、またはユーザーごとのスコープにすることができます。 詳細については、「 <A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 のホスト型ボイスメールポリシー</A>」を参照してください。
+
+
+
+</div>
+
+クロスプレミスの展開でホストされた自動応答とサブスクライバーアクセスの連絡先オブジェクトを構成するには、次のコマンドレットを使用する必要があります。
+
+  - **新しい-CsExUmContact**は、ホストされた UM 用の新しい連絡先オブジェクトを作成します。
+
+  - **Set-CsExUmContact**は、ホストされた Exchange UM の既存の連絡先オブジェクトを変更します。
+
+次の例では、自動応答の連絡先オブジェクトを作成します。
 
     New-CsExUmContact -SipAddress sip:exumaa1@fabrikam.com -RegistrarPool RedmondPool.litwareinc.com -OU "OU=ExUmContacts,DC=litwareinc,DC=com" -DisplayNumber 2065559876 -AutoAttendant $True
 
-この例では、SIP アドレスが sip:exumaa1@fabrikam.com の、新しい Exchange UM 連絡先オブジェクトが作成されます。 Lync Server 2013 のレジストラー サービスが実行されているプールの名前は、RedmondPool.litwareinc.com です。この情報が保存される Active Directory 組織単位は、OU=ExUmContacts,DC=litwareinc,DC=com です。連絡先オブジェクトの電話番号は、2065554567 です。オプションの -AutoAttendant $True パラメーターは、このオブジェクトが自動応答連絡先オブジェクトであることを指定しています。-AutoAttendant パラメーターを False (既定) に設定すると、このオブジェクトがサブスクライバー アクセス連絡先オブジェクトであることが指定されます。
+この例では、SIP アドレス sip:exumaa1@fabrikam.com を使用して、新しい Exchange UM 連絡先オブジェクトを作成します。 Lync Server 2013 レジストラーサービスを実行しているプールの名前は、RedmondPool.litwareinc.com です。 この情報が保存される Active Directory の組織単位は、OU = ExUmContacts、DC = litwareinc、DC = com です。 連絡先オブジェクトの電話番号は2065554567です。 オプション-AutoAttendant $True パラメーターは、このオブジェクトが自動応答の連絡先オブジェクトであることを指定します。 -AutoAttendant パラメーターを False に設定する (既定) サブスクライバーアクセスの連絡先オブジェクトを指定します。
 
-New-CsExUmContact および Set-CsExUmContact コマンドレットの詳細については、 Lync Server 管理シェルのドキュメントを参照してください。
+新しい-CsExUmContact と Set-CsExUmContact コマンドレットの詳細については、「Lync Server 管理シェルのドキュメント」を参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

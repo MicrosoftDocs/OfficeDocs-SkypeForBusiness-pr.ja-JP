@@ -1,45 +1,88 @@
-﻿---
-title: 'Lync Server 2013: 音声ルーティング テスト ケースのインポート'
-TOCTitle: 音声ルーティング テスト ケースのインポート
-ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398460(v=OCS.15)
-ms:contentKeyID: 48272292
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 音声ルーティング テスト ケースのインポート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Import voice routing test cases
+ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398460(v=OCS.15)
+ms:contentKeyID: 48184325
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d8b1aba05447904d4515df7ab6137743edb52ea7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833024"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 音声ルーティング テスト ケースのインポート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-21_
+# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Lync Server 2013 音声ルーティング テスト ケースのインポート
 
-テスト ケースを使用すると、組織の音声ルートをテストできます。ダイヤルする番号、ダイヤル プラン、使用する音声ポリシーなどを定義し、Lync Server 2013 が指定された条件下で指定された番号を PSTN ネットワークに正常にルーティングできることを確認できます。
+</div>
 
-テスト ケースは、通常は、ケースを作成して実行したサーバーにのみ保存されます (テスト ケースは Lync Server コントロール パネルで作成できます)。ただし、これらのテスト ケースは XML ファイル (拡張子 .vtest) としてエクスポートし、他のサーバーにインポートできます。これにより、同じテストをトポロジの別の地点に配置された別のコンピューターで実行できます。
+<div id="mainSection">
 
-## 音声ルーティングのテスト ケースをインポートするには
+<div id="mainBody">
 
-1.  RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「[Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」を参照してください。
+<span> </span>
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+_**最終更新日:** 2013-02-21_
 
-3.  左側のナビゲーション バーで \[**音声ルーティング**\] をクリックします。
+テストケースは、組織内のボイスルートをテストするための手段を提供します。ダイヤルする番号や、使用するダイヤルプランや音声2013ポリシーなどの項目を定義し、その条件が満たされた場合に、指定した電話番号が succes されることを確認します。sfully に PSTN ネットワークにルーティングされます。
 
-4.  \[**操作**\] メニューの \[**テスト ケースのインポート**\] をクリックします。
+Lync Server コントロールパネルを使用して作成できるテストケースは、通常、ケースが最初に作成されて実行されたサーバーにのみ保存されます。 ただし、これらのテストケースは XML ファイルとしてエクスポートし、他のサーバーにインポートすることができます。 これにより、トポロジ内のさまざまな場所にあるさまざまなコンピューターで同じテストを実行できます。
 
-5.  インポートするテスト ケースのファイル (.vtest) を探して、\[**開く**\] をクリックします。
+<div>
 
-6.  \[**確定**\] をクリックし、\[**すべて確定**\] をクリックします。
+## <a name="to-import-a-voice-routing-test-case"></a>ボイスルーティングテストケースをインポートするには
+
+1.  RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「 [Lync Server 2013 でセットアップのアクセス許可を委任](lync-server-2013-delegate-setup-permissions.md)する」を参照してください。
+
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+
+3.  左側のナビゲーション バーで [**音声ルーティング**] をクリックします。
+
+4.  [**操作**] メニューの [**テストケースのインポート**] をクリックします。
+
+5.  インポートするテストケースファイル (vtest) を見つけて、[**開く**] をクリックします。
+
+6.  [**確定**] をクリックし、[**すべて確定**] をクリックします。
     
-    > [!NOTE]
-    > .vtest ファイルをインポートするときは常に、[<strong>すべて確定</strong>] コマンドを実行して、テスト ケースを公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。
+    <div>
+    
+
+    > [!NOTE]  
+    > Vtest ファイルをインポートするたびに、[<STRONG>すべてコミット</STRONG>] コマンドを実行してテストケースを発行する必要があります。 詳細については、「操作のドキュメントで「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 のボイスルーティング構成に保留中の変更を発行する</A>」を参照してください。
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
 
 
-## 関連項目
+[Lync Server 2013 での音声ルーティング テスト ケースのエクスポート](lync-server-2013-export-voice-routing-test-cases.md)  
+  
 
-#### タスク
+</div>
 
-[Lync Server 2013 での音声ルーティング テスト ケースのエクスポート](lync-server-2013-export-voice-routing-test-cases.md)
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,43 +1,73 @@
-﻿---
-title: 'Lync Server 2013: ネットワーク領域の作成または変更'
-TOCTitle: ネットワーク領域の作成または変更
-ms:assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412933(v=OCS.15)
-ms:contentKeyID: 48273464
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ネットワークの領域を作成または変更する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a network region
+ms:assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412933(v=OCS.15)
+ms:contentKeyID: 48185281
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 21a9b7a8adbb4ca4c0853aa7013662433701201d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833795"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのネットワーク領域の作成または変更
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-19_
+# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>Lync Server 2013 でネットワークの領域を作成または変更する
 
-*ネットワーク地域* は、通話受付管理 (CAC)、E9-1-1、およびメディア バイパスで使用するネットワーク ハブまたはバックボーンです。ネットワーク地域を作成または変更するには、以下の手順に従います。たとえば、1 つの音声機能用に既にネットワーク地域を作成している場合、新しいネットワーク地域を作成する必要はありません。その他の高度なエンタープライズ VoIP 機能は、それらの同じネットワーク地域を使用します。ただし、機能固有の設定を適用するために、既存のネットワーク地域定義を変更することが必要になる場合があります。たとえば、E9-1-1 のネットワーク地域 (関連付けられた中央サイトが不要) を作成済みで、その後に通話受付制御を展開する場合は、ネットワーク地域の定義を変更して中央サイトを指定する必要があります。詳細については、「[CAC のネットワーク地域の構成](lync-server-2013-configure-network-regions-for-cac.md)」を参照してください。
+</div>
 
-> [!NOTE]
-> ネットワーク地域の定義で機能固有の要件については、すべてその機能の「展開」のトピックで説明されています。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-19_
+
+*ネットワーク領域*とは、通話受付制御、E9-1、メディアバイパスの構成で使用されるネットワークハブまたはバックボーンのことです。 ネットワーク領域を作成または変更するには、次の手順を使用します。 たとえば、1つの音声機能のネットワーク領域を既に作成している場合は、新しいネットワークの領域を作成する必要はありません。その他の高度なエンタープライズ Voip 機能でも、同じネットワーク領域が使用されます。 ただし、機能固有の設定を適用するために、ネットワーク地域に関する既存の定義に変更を加える必要が生じることがあります。 たとえば、E9-1-1 用のネットワーク地域を作成し (この場合は関連付けられた中央サイトは必要ありません)、次に通話受付管理を展開する場合は、中央サイトを指定するためにネットワーク地域の定義を変更する必要があります。 詳細については、「 [Lync Server 2013 で CAC のネットワーク領域を構成する](lync-server-2013-configure-network-regions-for-cac.md)」を参照してください。
+
+<div>
 
 
-ネットワーク地域を使用した作業の詳細については、次のコマンドレットに関する Lync Server 管理シェル のドキュメントを参照してください。
+> [!NOTE]  
+> ネットワーク領域定義の機能固有の要件については、この機能の展開に関するトピックで説明されています。
 
-  - [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)
 
-  - [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)
+</div>
 
-  - [Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)
+ネットワーク領域の操作の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
 
-## ネットワーク地域の作成
+  - [新しい CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)
 
-通話受付管理、E9-1-1、またはメディア バイパスで使用できるネットワーク地域を作成します。
+  - [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
 
-## Lync Server 管理シェルを使用してネットワーク地域を作成するには
+  - [Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+  - [CsNetworkRegion の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)
+
+<div>
+
+## <a name="create-a-network-region"></a>ネットワークの領域を作成する
+
+通話受付制御、E9、またはメディアバイパスで使用できるネットワーク領域を作成します。
+
+<div>
+
+## <a name="to-create-a-network-region-using-lync-server-management-shell"></a>Lync Server Management Shell を使用してネットワークの領域を作成するには
+
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 2.  New-CsNetworkRegion コマンドレットを実行してネットワーク地域を作成します。
     
@@ -47,43 +77,55 @@ _**トピックの最終更新日:** 2012-10-19_
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
     
-    この例では、サイト ID が CHICAGO の中央サイトと関連付けられた "NorthAmerica" というネットワーク地域を作成しました。
+    この例では、サイト ID が CHICAGO の中央サイトに関連付けられた "NorthAmerica" というネットワーク地域を作成しました。
 
 3.  トポロジでのネットワーク地域の作成を完了するには、ネットワーク地域ごとの設定値を使用してステップ 2 を繰り返します。
 
-## Lync Server コントロール パネルを使用してネットワーク地域を作成するには
+</div>
 
-1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+<div>
 
-2.  左側のナビゲーション バーで \[**ネットワーク構成**\] をクリックします。
+## <a name="to-create-a-network-region-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使ってネットワークの領域を作成するには
 
-3.  \[**地域**\] をクリックします。
+1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-4.  \[**新規**\] をクリックします。
+2.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 
-5.  \[**新しい地域**\] ページで、\[**名前**\] をクリックしてネットワーク地域の名前を入力します。
+3.  [**地域**] をクリックします。
 
-6.  \[**中央サイト**\] をクリックし、リストにある中央サイトを 1 つクリックします。
+4.  [**新規**] をクリックします。
 
-7.  オプションで、\[**説明**\] をクリックして、このネットワーク サイトを説明する追加情報を入力します。
+5.  [**新しい地域**] ページで、[**名前**] をクリックしてネットワーク地域の名前を入力します。
 
-8.  \[**確定**\] をクリックします。
+6.  [**中央サイト**] をクリックし、リストにある中央サイトを 1 つクリックします。
+
+7.  オプションで、[**説明**] をクリックして、このネットワーク サイトを説明する追加情報を入力します。
+
+8.  [**コミット**] をクリックします。
 
 9.  トポロジでのネットワーク地域の作成を完了するには、その他の地域の設定値を使用してステップ 4 ～ 8 を繰り返します。
 
-## ネットワーク地域の変更
+</div>
 
-既存のネットワーク地域の設定を変更して、基本地域情報に対する変更、または新しい機能で必要な変更に対応します。
+</div>
 
-## Lync Server 管理シェルを使用してネットワーク地域を変更するには
+<div>
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+## <a name="modify-a-network-region"></a>ネットワークの領域を変更する
+
+既存のネットワーク領域の設定を変更して、新しい機能によって必要とされる基本領域の情報や変更に対応します。
+
+<div>
+
+## <a name="to-modify-a-network-region-using-lync-server-management-shell"></a>Lync Server 管理シェルを使用してネットワークの領域を変更するには
+
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 2.  Set-CsNetworkRegion コマンドレットを実行して、既存のネットワーク地域を変更します。
     
         Set-CsNetworkRegion -Identity <String> -CentralSite <String>
     
-    次に例を示します。
+    例:
     
         Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
     
@@ -91,21 +133,39 @@ _**トピックの最終更新日:** 2012-10-19_
 
 3.  その他のネットワーク地域を変更するには、その他の地域の設定値を使用してステップ 2 を繰り返します。
 
-## Lync Server コントロール パネルを使用してネットワーク地域を変更するには
+</div>
 
-1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+<div>
 
-2.  左側のナビゲーション バーで \[**ネットワーク構成**\] をクリックします。
+## <a name="to-modify-a-network-region-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してネットワークの領域を変更するには
 
-3.  \[**地域**\] ナビゲーション ボタンをクリックします。
+1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+
+2.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
+
+3.  [**地域**] ナビゲーション ボタンをクリックします。
 
 4.  表で、変更するネットワーク地域をクリックします。
 
-5.  \[**編集**\] をクリックして、\[**詳細の表示...**\] をクリックします。
+5.  [**編集**] をクリックして、[**詳細の表示...**] をクリックします。
 
-6.  \[**地域の編集**\] ページで、このネットワーク地域の設定の値を必要に応じて変更します。
+6.  [**地域の編集**] ページで、このネットワーク地域の設定の値を必要に応じて変更します。
 
-7.  \[**確定**\] をクリックします。
+7.  [**確定**] をクリックします。
 
 8.  ネットワーク地域の変更を完了するには、他の地域の設定値を使用してステップ 4 ～ 7 を繰り返します。
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

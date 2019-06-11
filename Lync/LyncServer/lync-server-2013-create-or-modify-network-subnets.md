@@ -1,78 +1,123 @@
-﻿---
-title: ネットワーク サブネットの作成または変更
-TOCTitle: ネットワーク サブネットの作成または変更
-ms:assetid: 1ba8c4e3-fbc7-4758-88ac-d651fef17bed
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg520957(v=OCS.15)
-ms:contentKeyID: 48271426
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ネットワークサブネットを作成または変更する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify network subnets
+ms:assetid: 1ba8c4e3-fbc7-4758-88ac-d651fef17bed
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520957(v=OCS.15)
+ms:contentKeyID: 48183548
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f27088b59745bac580990b3e898f485d34dcad57
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833783"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ネットワーク サブネットの作成または変更
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-21_
+# <a name="create-or-modify-network-subnets-in-lync-server-2013"></a>Lync Server 2013 でネットワークサブネットを作成または変更する
 
-ネットワーク サブネットは、そのサブネットに所属するホストの地理的な場所を指定するために、ネットワーク サイトに関連付ける必要があります。Lync Server コントロール パネルを使用するとサブネットを構成できます。Lync Server コントロール パネルから、ネットワーク サブネットを作成、変更、または削除できます。ネットワーク サブネットの削除の詳細については、「[ネットワーク サブネットの削除](lync-server-2013-deleting-network-subnets.md)」を参照してください。
+</div>
 
-通話受付管理 (CAC) を実装している大部分の Microsoft Lync Server 2013 の展開には、一般的に、多くのサブネットが存在します。このため、Lync Server 管理シェルからサブネットを構成するのが、多くの場合、最も良い方法です。Lync Server 管理シェルから、Windows PowerShell のコマンドレット **Import-CSV** とともに **New-CsNetworkSubnet** を呼び出すことができます。これらのコマンドレットを同時に使用することで、csv (コンマ区切り値) ファイルからサブネット設定を読み取って、同時に複数のサブネットを作成できます。csv ファイルからサブネットを作成する方法の例については、「[New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
+<div id="mainSection">
 
-## ネットワーク サブネットを作成するには
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-21_
+
+ネットワークサブネットは、このサブネットに属しているホストの地理的な場所を判断するために、ネットワークサイトと関連付けられている必要があります。 Lync Server コントロールパネルを使用して、サブネットを構成することができます。 Lync Server コントロールパネルから、ネットワークサブネットの作成、変更、または削除を行うことができます。 ネットワークサブネットの削除の詳細については、「 [Lync Server 2013 でのネットワークサブネットの削除](lync-server-2013-deleting-network-subnets.md)」を参照してください。
+
+通話受付制御 (CAC) が実装されている Microsoft Lync Server 2013 の大半の展開では、通常、多数のサブネットが存在します。 このため、多くの場合、Lync Server 管理シェルからサブネットを構成することをお勧めします。 そこから、Windows PowerShell コマンドレットの**Import-CSV**と組み合わせて、**新しい csnetworksubnet**を呼び出すことができます。 これらのコマンドレットを一緒に使用することで、サブネットの設定をコンマ区切り値 (.csv) ファイルから読み取り、複数のサブネットを同時に作成することができます。 .Csv ファイルからサブネットを作成する方法の例については、「[新しい-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
+
+<div>
+
+## <a name="to-create-a-network-subnet"></a>ネットワークサブネットを作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**ネットワーク構成**\] をクリックし、\[**サブネット**\] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**サブネット**] をクリックします。
 
-4.  \[**サブネット**\] ページで、\[**新規**\] をクリックします。
+4.  [**サブネット**] ページで、[**新規**] をクリックします。
 
-5.  \[**新しいサブネット**\] で、\[**サブネット ID**\] フィールドに値を入力します。 これは、IP アドレス (174.11.12.0 など) である必要があります。また、サブネットで定義される IP アドレス範囲の最初のアドレスである必要があります。
+5.  [**新しいサブネット**] で、[**サブネット ID** ] フィールドに値を入力します。 これは IP アドレス (たとえば、174.11.12.0) である必要があり、サブネットで定義された IP アドレス範囲の最初のアドレスである必要があります。
 
-6.  \[**マスク**\] フィールドで、1 ～ 32 の数値を入力します。
+6.  [**マスク**] フィールドに、1 ~ 32 の数値を入力します。
     
-    > [!NOTE]
-    > この値は、作成するサブネットに適用するビットマスクです。
+    <div>
+    
 
+    > [!NOTE]  
+    > この値は、作成されるサブネットに適用されるビットマスクです。
 
-7.  \[**ネットワーク サイト ID**\] で、このサブネットが所属するサイトを選択します。
+    
+    </div>
 
-8.  (オプション) \[**説明**\] フィールドに値を入力して、名前だけでは表現することのできないこのサブネットの詳細情報を提供します。
+7.  [**ネットワークサイト ID**] で、このサブネットが所属するサイトを選びます。
 
-9.  \[**確定**\] をクリックします。
+8.  省略[**説明**] フィールドに値を入力して、このサブネットについて、名前だけでは表現できない詳細情報を入力します。
 
-## ネットワーク サブネットを変更するには
+9.  [**コミット**] をクリックします。
+
+</div>
+
+<div>
+
+## <a name="to-modify-a-network-subnet"></a>ネットワークサブネットを変更するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**ネットワーク構成**\] をクリックし、\[**サブネット**\] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**サブネット**] をクリックします。
 
-4.  \[**サブネット**\] ページで、変更するサブネットをクリックします。
+4.  [ **Subnet** ] ページで、変更するサブネットをクリックします。
 
-5.  \[**編集**\] メニューの \[**詳細の表示**\] をクリックします。
+5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-6.  \[**サブネットの編集**\] ページでは、ビットマスク、関連付けられたネットワーク サイト、または説明を変更できます。 ビットマスクを変更する場合は、変更後もサブネット ID がサブネットで定義される IP アドレス範囲の最初のアドレスでなければならないことに注意してください。
+6.  [**サブネットの編集**] ページでは、ビットマスク、関連付けられたネットワークサイト、または説明を変更できます。 ビットマスクを変更する場合は、サブネット ID が、サブネットで定義されている IP アドレス範囲の最初のアドレスである必要があることに注意してください。
 
-7.  \[**確定**\] をクリックします。
+7.  [**コミット**] をクリックします。
 
-## 関連項目
+</div>
 
-#### タスク
+<div>
 
-[ネットワーク サブネットの削除](lync-server-2013-deleting-network-subnets.md)  
+## <a name="see-also"></a>関連項目
 
-#### 概念
+
+[Lync Server 2013 でのネットワークサブネットの削除](lync-server-2013-deleting-network-subnets.md)  
+
 
 [Lync Server 2013 ネットワーク領域、サイト、およびサブネットの構成](lync-server-2013-about-network-regions-sites-and-subnets.md)  
 
-#### その他のリソース
 
-[New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)  
-[Set-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSubnet)  
-[Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)  
-[Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet)
+[新しい-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
+[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSubnet)  
+[CsNetworkSubnet の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSubnet)  
+[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

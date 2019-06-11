@@ -1,66 +1,115 @@
-﻿---
-title: 音声ビデオ エッジ サーバー構成設定のコレクションの作成または変更
-TOCTitle: 音声ビデオ エッジ サーバー構成設定のコレクションの作成または変更
-ms:assetid: 43899518-59c6-4be4-8892-d6f6207bfaab
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688039(v=OCS.15)
-ms:contentKeyID: 49886935
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: A/V Edge サーバー構成設定のコレクションを作成または変更する
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a collection of A/V Edge Server configuration settings
+ms:assetid: 43899518-59c6-4be4-8892-d6f6207bfaab
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688039(v=OCS.15)
+ms:contentKeyID: 49733630
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9a4010c209e1231c47c328d616f686f55fc89008
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833815"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 音声ビデオ エッジ サーバー構成設定のコレクションの作成または変更
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での A/V Edge サーバー構成設定のコレクションを作成または変更する
 
-音声ビデオ エッジ サービスにより、内部ユーザー (組織のネットワークにログオンしているユーザー) は、外部ユーザー (組織のネットワークにログオンしていないユーザー) と音声とビデオを共有することができます。音声ビデオ エッジ サービスは、主に音声ビデオ エッジ構成設定を使用して管理されます。音声ビデオ エッジ構成設定は、サイト スコープまたはサービス スコープで (つまり音声ビデオ エッジ サーバーごとに) 設定できます。
+</div>
 
-Lync Server をインストールするとき、音声ビデオ エッジ構成設定のグローバル コレクションが自動的に作成されます。また Lync Server 管理シェルと New-CsAVEdgeConfiguration コマンドレットを使用して、サイト スコープまたはサービス スコープで (つまり個々の音声ビデオ エッジ サーバーに) 新しい設定を作成できます。新しい設定を作成する場合は、次のことに留意してください。
+<div id="mainSection">
 
-  - サービス スコープで (つまり個々のサーバーに) 構成された設定は、すべてに優先されます。
+<div id="mainBody">
 
-  - サイト スコープで構成された設定は、グローバル スコープで構成された設定より優先されます。ただしサービス スコープ設定はサイト スコープ設定より優先されます。
+<span> </span>
 
-  - 個々のサーバーでサービス設定が構成されていない場合、およびサーバーが配置されているサイトにサイト設定が存在しない場合に限り、グローバル スコープの設定が使用されます。
+_**最終更新日:** 2012-11-01_
 
-すべての設定は、Set-CsAVEdgeConfiguration コマンドレットを使用して変更できます。詳細については、[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration) コマンドレットと [Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration) コマンドレットのヘルプ トピックを参照してください。
+A/V Edge サービスは、内部ユーザー (組織のネットワークにログオンしているユーザー) が、外部ユーザー (組織のネットワークにログオンしていないユーザー) とオーディオやビデオを共有できるようにするための手段を提供します。 A/V edge サービスは、主に、A/V Edge 構成設定を使用して管理されます。これは、サイトスコープまたはサービスの範囲で構成できます (つまり、個々の A/V Edge サーバー用に構成できます)。
 
-## サイト スコープで新しい音声ビデオ エッジ構成設定を作成する
+Lync Server をインストールすると、A/V Edge のグローバルコレクションが設定されます。 さらに、Windows PowerShell と CsAVEdgeConfiguration コマンドレットを使用して、サイトのスコープまたはサービスのスコープ (つまり、個別の A/V Edge サーバーの場合) で新しい設定を作成することもできます。 新しい設定を作成する場合は、次の点に注意してください。
 
-  - 以下のコマンドでは、Redmond サイト用の音声ビデオ エッジ構成設定の新しいコレクションを作成します。
+  - サービスの範囲 (つまり個々のサーバー) で構成された設定は、すべてのユーザーに対して優先順位を持ちます。
+
+  - サイトのスコープで構成された設定は、グローバルスコープで構成されている設定よりも優先されます。 ただし、サービスの範囲設定は、サイトの範囲設定にも優先されます。
+
+  - グローバルスコープの設定は、個々のサーバーで構成されているサービス設定がなく、そのサーバーが配置されているサイトのサイト設定がない場合にのみ使用されます。
+
+設定を変更するには、CsAVEdgeConfiguration コマンドレットを使用します。 詳細については、 [CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))および[CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))コマンドレットのヘルプトピックを参照してください。
+
+<div>
+
+## <a name="to-create-new-av-edge-configuration-settings-at-the-site-scope"></a>新しい A/V Edge の構成設定をサイトのスコープで作成するには
+
+  - 次のコマンドは、Redmond サイトの A/V Edge 構成設定の新しいコレクションを作成します。
     
         New-CsAVEdgeConfiguration -Identity "site:Redmond"
 
-## サイト スコープでカスタムの音声ビデオ エッジ構成設定を作成する
+</div>
 
-  - 追加のパラメーターが指定されない場合、これらの新しい設定では、音声ビデオ エッジ サービスに既定値が使用されます。あるいは、追加のパラメーターとパラメーター値を指定してカスタム コレクションを作成できます。たとえばこのコマンドでは、MaxTokenLifetime プロパティを 4 時間 (04 時間 : 00 分 : 00 秒) に設定します。
+<div>
+
+## <a name="to-create-custom-av-edge-configuration-settings-at-the-site-scope"></a>ユーザー設定の A/V Edge の構成設定をサイトのスコープで作成するには
+
+  - 追加のパラメーターが含まれていないため、これらの新しい設定では、A/V Edge サービスの既定値が使用されます。 または、追加のパラメーターとパラメーター値を追加して、カスタムコレクションを作成することもできます。 たとえば、次のコマンドは MaxTokenLifetime プロパティを4時間 (04 時間:00 分:00 秒) に設定します。
     
         New-CsAVEdgeConfiguration -Identity "site:Redmond" -MaxTokenLifetime "04:00:00"
 
-## サービス スコープでカスタムの音声ビデオ エッジ構成設定を作成する
+</div>
 
-  - このコマンドは、音声ビデオ エッジ サーバー atl-edge-001.litwareinc.com に適用される同様のコレクションを作成します。
+<div>
+
+## <a name="to-create-custom-av-edge-configuration-settings-at-the-service-scope"></a>カスタムの A/V Edge の構成設定をサービスのスコープで作成するには
+
+  - このコマンドは、A/V Edge サーバー atl-edge-001.litwareinc.com に適用される同様のコレクションを作成します。
     
         New-CsAVEdgeConfiguration -Identity "service:EdgeServer:atl-edge-001.litwareinc.com" -MaxTokenLifetime "04:00:00"
 
-## 既存の音声ビデオ エッジ構成設定を変更する
+</div>
 
-  - この例では、Redmond サイトの最大トークン存続時間を 12 時間に変更するために、Set-CsAVEdgeConfiguration コマンドレットが使用されます。
+<div>
+
+## <a name="to-modify-existing-av-edge-configuration-settings"></a>既存の A/V Edge の構成設定を変更するには
+
+  - この例では、CsAVEdgeConfiguration コマンドレットを使用して、Redmond サイトの最大トークンの有効期間を12時間に変更します。
     
         Set-CsAVEdgeConfiguration -Identity "site:Redmond" -MaxTokenLifetime "12:00:00"
 
-## 関連項目
+</div>
 
-#### タスク
+<div>
 
-[音声ビデオ エッジ サーバーの構成情報を戻す](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
-[音声ビデオ エッジ サーバー構成設定の既存コレクションの削除](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
+## <a name="see-also"></a>関連項目
 
-#### その他のリソース
 
-[音声ビデオ (A/V) エッジ サーバー](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration)  
-[Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration)
+[Lync Server 2013 で A/V Edge サーバーの構成情報を返す](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
+[Lync Server 2013 での既存の A/V エッジサーバー構成の設定を削除する](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
+
+
+[Lync Server 2013 の音声/ビデオ (A/V) エッジサーバー](lync-server-2013-audio-video-a-v-edge-servers.md)  
+[新規-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))  
+[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

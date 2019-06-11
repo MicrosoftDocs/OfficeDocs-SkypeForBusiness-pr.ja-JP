@@ -1,45 +1,97 @@
-﻿---
-title: デバイス更新プログラム ルールをインポートする
-TOCTitle: デバイス更新プログラム ルールをインポートする
-ms:assetid: 919e9c87-912b-4bc9-92e7-5998fc2e0bf0
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ994056(v=OCS.15)
-ms:contentKeyID: 52056653
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: デバイス更新ルールをインポートする'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Import Device Update rules
+ms:assetid: 919e9c87-912b-4bc9-92e7-5998fc2e0bf0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994056(v=OCS.15)
+ms:contentKeyID: 51803967
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cef7e14806a1f4c7853d157d0c4ce304583b9720
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833025"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# デバイス更新プログラム ルールをインポートする
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="import-device-update-rules-in-lync-server-2013"></a>Lync Server 2013 でデバイス更新ルールをインポートする
 
-デバイス更新プログラム ルールは、Windows PowerShell と **Import-CsDeviceUpdate** コマンドレットを使用してのみインポートできます。このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモート セッションから実行できます。
+</div>
 
-> [!NOTE]
-> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-23_
+
+デバイス更新ルールをインポートするには、Windows PowerShell と**インポート-CsDeviceUpdate**コマンドレットを使用する必要があります。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。
+
+<div>
+
+
+> [!NOTE]  
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
 
 
 
-## 単一の Web サーバーにデバイス更新プログラム ルールをインポートするには
+</div>
 
-  - 以下のコマンドは、Web サーバー atl-cs-001.litwareinc.com にデバイス更新プログラム ルールをインポートします。
+<div>
+
+
+<div>
+
+## <a name="to-import-device-update-rules-to-a-single-web-server"></a>デバイス更新ルールを1つの web サーバーにインポートするには
+
+  - 次のコマンドは、デバイス更新ルールを Web サーバー atl-cs-001.litwareinc.com にインポートします。
     
         Import-CsDeviceUpdate -Identity "service:WebServer:atl-cs-001.litwareinc.com" -FileName C:\Updates\UCUpdates.cab
 
-## すべての Web サーバーにデバイス更新プログラム ルールをインポートするには
+</div>
 
-  - このサンプルでは、デバイス更新プログラム ルールは、組織に展開されたすべての Web サーバーにインポートされます。このコマンドを機能させるには、フォルダー \\\\atl-fs-001.litwareinc.com\\Updates をすべての Web サーバーで共有して、使用可能にする必要があります。
+<div>
+
+## <a name="to-import-device-update-rules-to-all-your-web-servers"></a>すべての web サーバーにデバイス更新ルールをインポートするには
+
+  - この例では、デバイス更新ルールは、組織に展開されているすべての Web サーバーにインポートされます。 このコマンドが動作するためには\\ \\、\\フォルダーの atl-fs-001.litwareinc.com の更新が共有され、すべての Web サーバーで利用できるようになっている必要があります。
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
-詳細については、[Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate) コマンドレットに関するヘルプ トピックを参照してください。
+</div>
 
-## 関連項目
+詳細については、「[インポート-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate)コマンドレット」のヘルプトピックを参照してください。
 
-#### タスク
+</div>
 
-[デバイス更新ルールに関する情報の表示](lync-server-2013-view-information-about-device-update-rules.md)  
-[デバイス更新プログラム ルールを承認する](lync-server-2013-approve-a-device-update-rule.md)
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でのデバイス更新ルールに関する情報を確認する](lync-server-2013-view-information-about-device-update-rules.md)  
+[Lync Server 2013 でデバイス更新ルールを承認する](lync-server-2013-approve-a-device-update-rule.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

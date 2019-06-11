@@ -1,35 +1,74 @@
-﻿---
-title: 'Lync Server 2013: ブランチ ユーザー用の VoIP ルーティング ポリシーの作成'
-TOCTitle: ブランチ ユーザー用の VoIP ルーティング ポリシーの作成
-ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398196(v=OCS.15)
-ms:contentKeyID: 48271295
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ブランチ ユーザー用の VoIP ルーティング ポリシーの作成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create the VoIP routing policy for branch users
+ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398196(v=OCS.15)
+ms:contentKeyID: 48183435
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4f53e69069bc1f39f84c057f1e90882d5ae0d65d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833763"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのブランチ ユーザー用の VoIP ルーティング ポリシーの作成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-23_
+# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a>Lync Server 2013 でのブランチ ユーザー用の VoIP ルーティング ポリシーの作成
 
-ブランチ サイトのユーザーを対象に独立したボイス オーバー IP (VoIP) ポリシーを作成することをお勧めします。 このポリシーには、存続可能ブランチ アプライアンス ゲートウェイまたは 存続可能ブランチ サーバー外部ゲートウェイからの出口へのルートや、セントラル サイトのゲートウェイからの出口へのバックアップ ルートを含める必要があります。 ユーザーの VoIP ポリシーは、ユーザーの登録位置 (存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバー上のレジストラー上またはセントラル サイトのバックアップ レジストラー クラスター上) とは関係なく、常に有効です。
+</div>
 
-## ブランチ ユーザーの VoIP ルーティング ポリシーを構成するには
+<div id="mainSection">
 
-1.  ユーザーレベルのダイヤル プランを作成してブランチ ユーザーに割り当てます (「操作」のドキュメントの「[Lync Server 2013 でのダイヤル プランの作成](lync-server-2013-create-a-dial-plan.md)」を参照してください)。
+<div id="mainBody">
 
-2.  そのサイトのユーザーのダイヤリング方法に対応する正規化ルールを割り当てます。存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバーのユーザーがセントラル サイトのバックアップ レジストラー プールにフェールオーバーしても、同じダイヤル プランが有効になります (「操作」のドキュメントの「[Lync Server 2013 でのダイヤル プランの作成](lync-server-2013-create-a-dial-plan.md)」を参照してください)。
+<span> </span>
 
-3.  存続可能ブランチ アプライアンス ゲートウェイまたは 存続可能ブランチ サーバー外部ゲートウェイからの出口となるボイス ルートを構成します (「操作」のドキュメントの「[Lync Server 2013 でのボイス ルートの作成](lync-server-2013-create-a-voice-route.md)」を参照してください)。
+_**最終更新日:** 2012-09-23_
 
-4.  存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバー ゲートウェイのバックアップ通話ルートを設定して、セントラル サイトのバックアップ レジストラー プール (仲介サーバーと併置) を示すようにします (存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバー ベンダーのマニュアルを参照してください)。
+ブランチサイトのユーザーに対して、個別のボイスオーバー IP (VoIP) ポリシーを作成することをお勧めします。 このポリシーには、Survivable Branch Appliance ゲートウェイまたは Survivable ブランチサーバーの外部ゲートウェイからの出口へのルート、および中央サイトのゲートウェイからの出口へのバックアップルートを含める必要があります。 ユーザーが登録されている場所に関係なく、Survivable Branch Appliance または Survivable Branch Server のレジストラー、またはセントラルサイトのバックアップレジストラークラスターでは、ユーザーの VoIP ポリシーが常に有効になります。
+
+<div>
+
+## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a>ブランチユーザーの VoIP ルーティングポリシーを構成するには
+
+1.  ユーザーレベルのダイヤルプランを作成して、ブランチユーザーに割り当てる。 (操作のドキュメントにある「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md)する」を参照してください)。
+
+2.  そのサイトのユーザーのダイヤルの傾向に対応する正規化ルールを割り当てます。 Survivable Branch Appliance または Survivable Branch Server ユーザーがセントラルサイトのバックアップレジストラープールにフェールオーバーした場合、同じダイヤルプランが有効になります。 (操作のドキュメントにある「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md)する」を参照してください)。
+
+3.  Survivable Branch Appliance ゲートウェイまたは Survivable ブランチサーバー外部ゲートウェイから egresses されるボイスルートを構成します。 (操作のドキュメントの「 [Lync Server 2013 での音声ルートの作成](lync-server-2013-create-a-voice-route.md)」を参照してください)。
+
+4.  Survivable Branch Appliance または Survivable Branch Server ゲートウェイでバックアップのレジストラープール (仲介サーバーに接続されている) をセントラルサイトで参照するように設定します。 (Survivable Branch Appliance または Survivable Branch Server ベンダーのマニュアルを参照してください。)
     
-    > [!NOTE]
-    > このバックアップ通話ルートのセットアップにより、たとえば、メンテナンスのための停止などの理由で 存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバーを使用できない場合でも、ブランチ ユーザーに対する着信通話が機能します。 ユーザーがセントラル サイトのバックアップ レジストラー プールに登録されていれば、存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバー上のレジストラーまたは仲介サーバーを使用できない場合でも、着信通話はそのユーザーにルーティングされます。
+    <div>
+    
 
+    > [!NOTE]  
+    > このバックアップ通話ルーティングのセットアップは、Survivable Branch Appliance または Survivable Branch Server が利用できない場合 (たとえば、メンテナンスのために停止している場合など) に、ブランチユーザーへの着信通話が機能するようにするために役立ちます。 Survivable Branch Appliance または Survivable ブランチサーバー上のレジストラーと仲介サーバーが使用できず、ユーザーがセントラルサイトのバックアップレジストラープールに登録されている場合は、着信通話をユーザーにルーティングすることができます。
 
-**次のステップ** : [Lync Server 2013 でのボイス メール再ルーティング設定の構成](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+    
+    </div>
+
+**次の手順**: [Lync Server 2013 でボイスメールの再ルーティング設定を構成する](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

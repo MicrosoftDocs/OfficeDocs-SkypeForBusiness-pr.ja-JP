@@ -1,63 +1,106 @@
-﻿---
-title: 'Lync Server 2013: Lync VDI プラグインの前提条件'
-TOCTitle: Lync VDI プラグインの前提条件
-ms:assetid: da25a976-7624-4dfc-b332-9c4db4ee78da
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205304(v=OCS.15)
-ms:contentKeyID: 48273811
-ms.date: 03/08/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync VDI プラグインの前提条件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync VDI plug-in prerequisites
+ms:assetid: da25a976-7624-4dfc-b332-9c4db4ee78da
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205304(v=OCS.15)
+ms:contentKeyID: 48185552
+ms.date: 03/07/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ae32480e5a3dbfbdfc22c4dbde59c62383c9587f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832920"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の Lync VDI プラグインの前提条件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2017-03-07_
+# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Lync Server 2013 の Lync VDI プラグインの前提条件
 
-仮想デスクトップ インフラストラクチャ (VDI) 環境では、仮想マシンとユーザーのローカル コンピューターが、このセクションで概要を示す要件を満たす必要があります。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2017-03-07_
+
+仮想デスクトップインフラストラクチャ (VDI) 環境では、仮想マシンとユーザーのローカルコンピューターがこのセクションで示されている要件を満たしている必要があります。
+
+<div>
+
 
 > [!NOTE]  
-> 仮想化環境のインストール方法および展開方法の詳細については、仮想化ソリューション プロバイダーに問い合わせてください。Hyper-V およびリモート デスクトップ サービスに基づいた仮想化環境の展開については、Microsoft TechNet ライブラリの次の記事を参照してください。
-> <ul><li><p>「Hyper-V」 ( <a href="http://go.microsoft.com/fwlink/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/?linkid=247514</a>)</p></li>
-> <li><p>Windows Server 2008 R2 リモート デスクトップ サービス ( <a href="http://go.microsoft.com/fwlink/?linkid=247513" class="uri">http://go.microsoft.com/fwlink/?linkid=247513</a>)</p></li></ul>
+> 仮想化された環境をインストールして展開する方法の詳細については、仮想化ソリューションプロバイダーを参照してください。 Hyper-v とリモートデスクトップサービスに基づいて仮想環境を展開する方法については、Microsoft TechNet ライブラリの次の記事を参照してください。 
+> <UL>
+> <LI>
+> <P>Hyper-v<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
+> <LI>
+> <P>Windows Server&nbsp;2008&nbsp;R2 のリモートデスクトップサービス (at)<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
 
 
-データ センターのコンピューターで実行されている仮想マシンに対する要件は次のとおりです。
 
-  - 仮想マシンは、 Windows 8、 Windows 7、または Windows Server 2008 R2 の最新サービス パックで構成されている必要があります。
+</div>
 
-ユーザーと、ユーザーのローカル コンピューターに対する要件は次のとおりです。
+データセンターコンピューターで実行されている仮想マシンの要件を次に示します。
 
-  - ユーザーは Lync Server 2013 に所属する必要があります。
+  - 仮想マシンは、最新の service pack を使用して、Windows 10、Windows 8.1、Windows 8、windows 7、または Windows Server 2008 R2 で構成する必要があります。
 
-  - ローカル コンピューターでは、Windows Embedded Standard 7 SP1、 Windows 7 SP1、または Windows 8 が動作している必要があります。
+ユーザーとユーザーのローカルコンピューターの要件を次に示します。
 
-  - リモート デスクトップ サービスを実行している場合は、 Lync VDI プラグインのビット数 (すなわち、アプリケーションが 32 ビットであるか 64 ビットであるか) は、ローカル コンピューターのオペレーティング システムのビット数と一致する必要があります。ローカル コンピューターと仮想マシンのオペレーティング システムのビット数が一致する必要はありません。別の仮想化ソリューションまたは仮想化プラットフォームを使用している場合は、ビット数の要件については、仮想化ソリューション プロバイダーのガイダンスを参照してください。
+  - ユーザーは、Lync Server 2013 上に置かれている必要があります。
 
-  - ローカル コンピューターは、最新バージョンのリモート デスクトップ クライアントを実行している必要があります。Microsoft からリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。リモート デスクトップ サービスの最新更新プログラムについては、 <http://go.microsoft.com/fwlink/?linkid=268032> を参照してください。
+  - ローカルコンピューターでは、SP1、Windows 7 SP1、Windows 8、windows 8.1 Embedded、または Windows 8.1 (埋め込み以外) で Windows Embedded 標準7を実行している必要があります。
 
-  - ローカル コンピューター上のリモート デスクトップ クライアントの設定は、オーディオがローカル コンピューターで再生され、リモート録音が無効となるように構成する必要があります。 Windows でリモート デスクトップ接続のこれらの設定を構成するには、次のセクション「リモート デスクトップ接続の設定を構成するには」を参照してください。
+  - リモートデスクトップサービスを使用している場合は、Lync VDI プラグインビット (つまり、32ビットと64ビットのどちらであるか) がローカルコンピューターのオペレーティングシステムのビットと一致している必要があります。 ローカルコンピューター上のオペレーティングシステムと仮想マシン上のオペレーティングシステムのビットが一致している必要はありません。 別の仮想化ソリューションまたはプラットフォームを使用している場合は、「ビット要件について仮想化ソリューションプロバイダーからのガイダンス」を参照してください。
 
-## リモート デスクトップ接続の設定を構成するには
+  - ローカルコンピューターで、最新バージョンのリモートデスクトップクライアントが実行されている必要があります。 Microsoft からリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。 最新のリモートデスクトップサービスの更新につい[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)ては、を参照してください。
 
-Lync VDI プラグインのために Windows でリモート デスクトップ接続を準備するには、次のステップを実行します。
+  - ローカル コンピューター上のリモート デスクトップ クライアントの設定は、オーディオがローカル コンピューターで再生され、リモート レコーディングが無効となるように構成する必要があります。 Windows でリモートデスクトップ接続のこれらの設定を構成するには、次のセクション「リモートデスクトップ接続設定を構成する」を参照してください。
 
-1.  ローカル コンピューターが Windows 8 を実行している場合は、このステップを省略します。ローカル コンピューターが Windows 7 SP1 を実行している場合は、 <http://go.microsoft.com/fwlink/?linkid=268032> で取得できる最新の Windows 8 バージョンのリモート デスクトップ サービス クライアントをインストールします。
+<div>
 
-2.  \[**スタート**\]、\[**リモート デスクトップ接続**\] の順にクリックして、リモート デスクトップ サービス クライアントを起動します。
+## <a name="to-configure-remote-desktop-connection-settings"></a>リモートデスクトップ接続設定を構成するには
 
-3.  \[**オプション**\] をクリックします。
+Windows で Lync VDI プラグインのリモートデスクトップ接続を準備するには、次の手順を実行します。
 
-4.  \[**ローカル リソース**\] タブをクリックします。\[**リモート オーディオ**\] の下にある \[**設定**\] をクリックし、次の手順を実行します。
+1.  ローカルコンピューターで Windows 8 を実行している場合は、この手順をスキップしてください。 ローカルコンピューターで Windows 7 SP1 を実行している場合は、最新の Windows 8 バージョンのリモートデスクトップサービスクライアントをインストール[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)します。
+
+2.  [**スタート**]、[**リモート デスクトップ接続**] の順にクリックして、リモート デスクトップ サービス クライアントを起動します。
+
+3.  [**オプション**] をクリックします。
+
+4.  [**ローカル リソース**] タブをクリックします。[**リモート オーディオ**] の下にある [**設定**] をクリックし、次の手順を実行します。
     
-      - \[**リモート オーディオ再生**\] の下の \[**このコンピューターで再生**\] を選択します。
+      - [**リモート オーディオ再生**] で [**このコンピューターで再生**] を選択します。
     
-      - \[**リモート オーディオ録音**\] の下の \[**録音しない**\] を選択します。
+      - [**リモート オーディオ録音**] で [**録音しない**] を選択します。
     
-      - \[**OK**\] をクリックします。
+      - [**OK**] をクリックします。
 
-5.  \[**エクスペリエンス**\] タブをクリックします。\[**パフォーマンス**\] の下にある \[**ビットマップのキャッシュを保持**\] チェック ボックスをオフにします。
+5.  [**エクスペリエンス**] タブをクリックします。[**パフォーマンス**] で [**ビットマップのキャッシュを保持**] チェック ボックスをオフにします。
 
-6.  \[**全般**\] タブをクリックします。\[**コンピューター**\] で仮想マシンの名前を入力し、\[**接続**\] をクリックします。
+6.  [**全般**] タブをクリックします。[**コンピューター**] で、仮想マシンの名前を入力し、[**接続**] をクリックします。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

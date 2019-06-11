@@ -1,61 +1,113 @@
-﻿---
-title: 'Lync Server 2013: リモート ユーザー アクセスの有効化または無効化'
-TOCTitle: リモート ユーザー アクセスの有効化または無効化
-ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg182586(v=OCS.15)
-ms:contentKeyID: 48273601
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: リモート ユーザー アクセスの有効化または無効化'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable remote user access
+ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
+ms:contentKeyID: 48185660
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6a8edd8d6736d181b59579db29cc1e7244b0a750
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833291"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのリモート ユーザー アクセスの有効化または無効化
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="enable-or-disable-remote-user-access-in-lync-server-2013"></a>Lync Server 2013 でのリモート ユーザー アクセスの有効化または無効化
 
-リモート ユーザーは、組織内の永続的な Active Directory ID を持つ、組織内のユーザーです。リモート ユーザーは組織のネットワークに接続していない場合、仮想プライベート ネットワーク (VPN) を使用してネットワークの外から Lync Server にサインインすることがよくあります。リモート ユーザーには自宅や外出先で作業する従業員のほか、エンタープライズ資格情報を付与された信頼できるベンダーなどのリモート作業者が含まれます。リモート ユーザーのリモート ユーザー アクセスを有効にすると、サポートされるリモート ユーザーはインターネット経由で接続できるようになるので、 Lync Server を使用して内部ユーザーとコラボレーションを行うために VPN を使用して接続する必要がありません。
+</div>
 
-リモート ユーザー アクセスをサポートするには、リモート ユーザー アクセスを有効にする必要があります。有効にする場合は、組織全体に対して有効にします。後でリモート ユーザー アクセスを一時的または永久に禁止する場合は、組織に対するリモート ユーザー アクセスを無効にできます。組織に対するリモート ユーザー アクセスを有効または無効にするには、このセクションの手順を使用します。
+<div id="mainSection">
 
-> [!NOTE]
-> リモート ユーザー アクセスを有効にした時点では、アクセス エッジ サービスを実行するサーバーがリモート ユーザーとの通信をサポートするという指定が行われるだけです。リモート ユーザー アクセスの使用を管理するポリシーを少なくとも 1 つ構成するまで、リモート ユーザーは組織内のインスタント メッセージング (IM) や会議に参加できません。 あるポリシー レベルで適用されている Lync Server ポリシー設定が、他のポリシー レベルで適用されている設定によって無効になることがあります。Lync Server ポリシーの優先順位は、ユーザー ポリシーが最も高く、サイト ポリシー、グローバル ポリシー (優先度が最も低い) と続きます。つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。リモート ユーザー アクセスの使用に対するポリシーの構成については、「<a href="lync-server-2013-configure-policies-to-control-remote-user-access.md">Lync Server 2013 でのリモート ユーザー アクセスを制御するポリシーの構成</a>」を参照してください。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-23_
+
+リモートユーザーは組織内のユーザーで、組織内に Active Directory id が固定されています。 リモートユーザーは、組織のネットワークに接続されていないときに仮想プライベートネットワーク (VPN) を使用して、ネットワークの外部から Lync Server にサインインすることがよくあります。 リモートユーザーには、自宅や外出先で作業している従業員や、信頼できるベンダーなど、企業の資格情報が付与されている信頼できる社員が含まれます。 リモートユーザーに対してリモートユーザーアクセスを有効にすると、サポートされているリモートユーザーはインターネット経由で接続し、Lync Server を使用して内部ユーザーと共同作業するために VPN を使用して接続する必要はありません。
+
+リモートユーザーアクセスをサポートするには、リモートユーザーアクセスを有効にする必要があります。 リモートユーザーアクセスを有効にすると、組織全体で有効にすることができます。 後でリモートユーザーのアクセスを一時的または完全に禁止する必要がある場合は、組織に対して無効にすることができます。 組織のリモートユーザーアクセスを有効または無効にするには、このセクションの手順を使用します。
+
+<div>
 
 
-## 組織に対するリモート ユーザー アクセスを有効または無効にするには
+> [!NOTE]  
+> リモートユーザーアクセスを有効にすることは、アクセスエッジサービスを実行しているサーバーがリモートユーザーとの通信をサポートしていることを示しますが、リモートユーザーは、を構成するまで、組織内のインスタントメッセージング (IM) または会議に参加することはできません。リモートユーザーアクセスの使用を管理するためのポリシーが少なくとも1つあります。 1つのポリシーレベルで適用される Lync Server ポリシーの設定は、別のポリシーレベルで適用されている設定を上書きすることができます。 Lync Server ポリシーの優先順位: ユーザーポリシー (ほとんどの影響) によってサイトポリシーが上書きされ、サイトポリシーがグローバルポリシーを上書きします (最も影響が少なくなります)。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。 リモートユーザーアクセスを使用するためのポリシーの構成の詳細については、「 <A href="lync-server-2013-configure-policies-to-control-remote-user-access.md">Lync Server 2013 でリモートユーザーアクセスを制御するためのポリシーを構成する</A>」を参照してください。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>組織のリモートユーザーアクセスを有効または無効にするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**フェデレーションと外部アクセス**\] をクリックし、\[**アクセス エッジ構成**\] をクリックします。
+3.  左側のナビゲーション バーで [**フェデレーションと外部アクセス**] をクリックし、[**アクセス エッジ構成**] をクリックします。
 
-4.  \[**アクセス エッジ構成**\] ページで、\[**グローバル**\]、\[**編集**\]、\[**詳細の表示**\] の順にクリックします。
+4.  [**アクセスエッジの構成**] ページで [**グローバル**] をクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-5.  \[**アクセス エッジ構成の編集**\] で、次のどちらかの操作を行います。
+5.  [ **Access Edge 構成の編集**] で、次のいずれかの操作を行います。
     
-      - 組織に対してリモート ユーザー アクセスを有効にするには、\[**リモート ユーザー アクセスを有効にする**\] チェック ボックスをオンにします。
+      - 組織のリモートユーザーアクセスを有効にするには、[**リモートユーザーアクセスを有効**にする] チェックボックスをオンにします。
     
-      - 組織に対してリモート ユーザー アクセスを無効にするには、\[**リモート ユーザー アクセスを有効にする**\] チェック ボックスをオフにします。
+      - 組織のリモートユーザーアクセスを無効にするには、[**リモートユーザーアクセスを有効に**する] チェックボックスをオフにします。
 
-6.  \[**確定**\] をクリックします。
+6.  [**コミット**] をクリックします。
 
-Lync Server を実行するサーバーへのリモート ユーザーのサインインを有効にするには、リモート ユーザー アクセスをサポートする外部アクセス ポリシーを少なくとも 1 つ構成する必要もあります。詳細については、「展開」または「操作」のドキュメントの「[Lync Server 2013 でのリモート ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-remote-user-access.md)」を参照してください。
+リモートユーザーが Lync Server を実行しているサーバーにサインインできるようにするには、リモートユーザーのアクセスをサポートするために、少なくとも1つの外部アクセスポリシーを構成する必要があります。 詳細については、「展開ドキュメントまたは運用ドキュメントの「 [Lync Server 2013 でリモートユーザーアクセスを制御するためのポリシーを構成する](lync-server-2013-configure-policies-to-control-remote-user-access.md)」を参照してください。
 
-## Windows PowerShell コマンドレットを使用してリモート ユーザー アクセスを有効または無効にする
+</div>
 
-Windows PowerShell および Set-CsAccessEdgeConfiguration コマンドレットを使用してリモート ユーザー アクセスを管理できます。このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+<div>
 
-## リモート ユーザー アクセスを有効にするには
+## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したリモートユーザーアクセスの有効化または無効化
 
-  - リモート ユーザー アクセスを有効にするには、 **AllowOutsideUsers** プロパティの値を True ($True) に設定します。
+リモートユーザーアクセスを管理するには、Windows PowerShell と CsAccessEdgeConfiguration コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-enable-remote-user-access"></a>リモートユーザーアクセスを有効にするには
+
+  - リモートユーザーアクセスを有効にするには、 **Allowoutsideusers**プロパティの値を True ($True) に設定します。
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
 
-## リモート ユーザー アクセスを無効にするには
+</div>
 
-  - リモート ユーザー アクセスを無効にするには、 **AllowOutsideUsers** プロパティの値を False ($False) に設定します。
+<div>
+
+## <a name="to-disable-remote-user-access"></a>リモートユーザーアクセスを無効にするには
+
+  - リモートユーザーアクセスを無効にするには、 **Allowoutsideusers**プロパティの値を False ($False) に設定します。
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

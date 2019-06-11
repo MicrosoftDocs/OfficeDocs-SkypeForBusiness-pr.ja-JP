@@ -1,43 +1,69 @@
-﻿---
-title: 'Lync Server 2013: トポロジの定義と構成'
-TOCTitle: トポロジの定義と構成
-ms:assetid: 51d1601e-4f83-48d4-ad08-3b4d5e2003aa
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398339(v=OCS.15)
-ms:contentKeyID: 48272081
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: トポロジの定義と構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining and configuring the topology
+ms:assetid: 51d1601e-4f83-48d4-ad08-3b4d5e2003aa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398339(v=OCS.15)
+ms:contentKeyID: 48184146
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8660ac75e325e5737ceb5df59e9463c88ef1c077
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833709"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのトポロジの定義と構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-14_
+# <a name="defining-and-configuring-the-topology-in-lync-server-2013"></a>Lync Server 2013 でのトポロジの定義と構成
 
-トポロジ ビルダーを使用すると、トポロジを定義および構成することができます。トポロジ ビルダーでは、ローカルの Administrators グループまたは特権ドメイン グループ (Domain Admins など) のメンバーである必要はありません。 標準ユーザーでもトポロジを定義できます。 初めて トポロジ ビルダーを起動して、その後、編集セッションを行う場合、トポロジ ビルダーに現在の構成ドキュメントを読み込ませる場所を指定するようメッセージが表示されます。 選択肢には以下があります。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-14_
+
+トポロジを定義して構成するには、トポロジビルダーを使用します。 トポロジビルダーでは、ローカルの管理者グループまたは (Domain Admins など) の権限を持つドメイングループのメンバーである必要はありません。 トポロジは標準ユーザーとして定義できます。 最初の使用時と後続の編集セッションでトポロジビルダーを起動すると、トポロジビルダーで現在の構成ドキュメントを読み込む場所を確認するメッセージが表示されます。 以下の選択肢があります。
 
   - 既存の展開環境からトポロジをダウンロードする
 
-  - ローカル ファイルからトポロジを開く
+  - ローカルファイルからトポロジを開く
 
   - 新しいトポロジ
 
-既にトポロジを定義していて、中央管理ストアを確立してある場合、既存の展開環境からトポロジをダウンロードする必要があります。トポロジ ビルダーはデータストアを読み取って、現在の定義を取得します。 既存の 中央管理ストアがある場合は、必ずこのオプションを選択します。
+トポロジを既に定義していて、全体管理ストアを確立している場合は、既存の展開からトポロジをダウンロードすることを選択する必要があります。 トポロジビルダーはデータベースを読み取り、現在の定義を取得します。 既存のサーバーの全体管理ストアがある場合は、常にこのオプションを選択する必要があります。
 
-中央管理ストアを確立していなくて、以前保存した構成を編集する場合は、トポロジをローカル ファイルから開く必要があります。 開くファイルは、以前のセッションで保存した構成ファイルになります。 このオプションを使用して、以前保存されたトポロジを編集することができます。
+一元管理ストアを確立していない場合に、以前に保存した構成を編集するには、ローカルファイルからトポロジを開くように選択する必要があります。 開こうとしているファイルは、以前のセッションで保存された構成ファイルです。 このオプションを使用して、以前に保存したトポロジを編集できます。
 
-
-> [!WARNING]
-> トポロジを既に公開している場合は、ローカル構成ファイルを読み込まないでください。 既存の展開環境からトポロジをダウンロードする必要があります。
+<div>
 
 
+> [!WARNING]  
+> 公開されているトポロジを既に持っている場合は、ローカル構成ファイルを読み込まないでください。 既存の展開からトポロジをダウンロードすることを選択する必要があります。
 
-新しい トポロジ ビルダーの構成を作成する場合は、新しいトポロジを作成します。 以前の設計セッションで作成したものと同じファイルとして保存しなければ、以前保存した設計は上書きされません。
 
-これらの各オプションで、トポロジ ビルダーの構成ファイルの保存場所を指定するように指示されます。 ファイルの場所は、ローカルの場所、確立されたファイル共有の共有の場所、またはリムーバブル メディアにすることができます。
 
-## このセクション中
+</div>
+
+新しいトポロジビルダー構成を作成する場合は、新しいトポロジを作成します。 以前のデザインセッションで作成したのと同じファイルとして保存するように選択しない限り、以前に保存したデザインは上書きされません。
+
+これらの各オプションでは、トポロジビルダー構成ファイルを保存する場所を指定するように求められます。 ファイルの場所は、ローカルの場所、確立されたファイル共有上の共有の場所、リムーバブルメディアのいずれかになります。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 のトポロジ ビルダーでのトポロジの定義と構成](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)
 
@@ -50,4 +76,16 @@ _**トピックの最終更新日:** 2012-09-14_
   - [Lync Server 2013 での簡単な URL の編集または構成](lync-server-2013-edit-or-configure-simple-urls.md)
 
   - [Lync Server 2013 での中央管理サーバーの選択](lync-server-2013-select-the-central-management-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

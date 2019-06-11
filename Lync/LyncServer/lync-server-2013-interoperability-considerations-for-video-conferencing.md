@@ -1,43 +1,87 @@
-﻿---
-title: ビデオ会議の相互運用性に関する考慮事項
-TOCTitle: ビデオ会議の相互運用性に関する考慮事項
-ms:assetid: 31ead3b5-ed95-42d4-96e2-7d9403d5c026
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204790(v=OCS.15)
-ms:contentKeyID: 48271699
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ビデオ会議の相互運用性に関する考慮事項'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Interoperability considerations for video conferencing
+ms:assetid: 31ead3b5-ed95-42d4-96e2-7d9403d5c026
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204790(v=OCS.15)
+ms:contentKeyID: 48183782
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 880b2e41a1ea92b3d6da9cd29153695b474e88f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832956"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ビデオ会議の相互運用性に関する考慮事項
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-02_
+# <a name="interoperability-considerations-for-video-conferencing-in-lync-server-2013"></a>Lync Server 2013 でのビデオ会議の相互運用性に関する考慮事項
 
-このセクションでは、レガシ クライアントと Lync Server 2013 プールの間に、または Lync Server 2013 クライアントとレガシ プールの間に相互運用性がある場合の、移行の共存フェーズ中のユーザー エクスペリエンスについて説明します。
+</div>
 
-## Lync Server 2013 プール
+<div id="mainSection">
 
-レガシ クライアントが Lync Server 2013 プールで使用されるとき、ユーザー エクスペリエンスは以下のようになります。
+<div id="mainBody">
 
-  - 2 者間通話では、ビデオ解像度はレガシ プールと同じです。
+<span> </span>
 
-  - マルチパーティの電話会議、ビデオ解像度、およびビデオ会議の機能は、レガシ プールと同じです。ギャラリー ビューと高解像度は使用できません。
+_**最終更新日:** 2012-10-02_
 
-## レガシ プール
+このセクションでは、従来のクライアントと Lync Server 2013 プールの間、または Lync Server 2013 クライアントと従来のプールの間で相互運用性がある場合に、移行の共存フェーズでのユーザーエクスペリエンスについて説明します。
 
-Lync Server 2013 クライアントがレガシ プールで使用されるとき、ユーザー エクスペリエンスは以下のようになります。
+<div>
 
-  - 2 者間通話では、Lync Server 2013 クライアントは以下の新機能を使用できます。
+## <a name="lync-server-2013-pools"></a>Lync Server 2013 プール
+
+Lync Server 2013 プールでレガシクライアントが使用されている場合、ユーザーには次の動作が発生します。
+
+  - 2パーティーの通話では、ビデオ解像度は従来のプールと同じです。
+
+  - マルチパーティ会議の場合、ビデオの解像度とビデオ会議の機能は、従来のプールと同じです。 ギャラリービューと高解像度は使用できません。
+
+</div>
+
+<div>
+
+## <a name="legacy-pools"></a>従来のプール
+
+従来のプールで Lync Server 2013 クライアントが使用されている場合、ユーザーには次の動作が発生します。
+
+  - 2パーティの通話の場合、Lync Server 2013 クライアントでは次のような新機能を使用できます。
     
-      - 両方の参加者が Lync Server 2013 クライアントを使用している場合は、H.264 を使用できます。
+      - 両方の参加者が Lync Server 2013 クライアントを使用している場合は、"264. 264" を使うことができます。
     
-      - Lync Server 2013 クライアントは TotalReceiveVideoBitRateKb の既定値を使用します。これは、レガシ サーバーがインバンド準備でこの情報を送信しないことによります。
+      - 従来のサーバーは、インバンドプロビジョニングでこの情報を送信しないため、Lync Server 2013 クライアントは TotalReceiveVideoBitRateKb の既定値を使います。
 
-  - マルチパーティの電話会議、ビデオ解像度、およびビデオ会議の機能は、レガシ プール内のレガシ クライアントでのユーザー エクスペリエンスと同じです。
+  - マルチパーティ会議の場合、ビデオの解像度とビデオ会議の機能は、従来のプールのレガシクライアントでの経験と同じです。
 
-> [!NOTE]
-> レガシ サーバーが Lync Server 2013 クライアントをホストするとき、プール上のすべてのユーザーが低解像度のビデオのみを受信し、高解像度ビデオを送信するように、ビデオ会議帯域幅を構成できます。この例は、メディア構成で MaxVideoRateAllowed が CIF-250K に設定され、会議ポリシーで VideoBitRateKb が 2000 kbps に設定された場合です。この設定では、プール上のユーザーは高解像度を送信できないことになります。<br />
-> MaxVideoRateAllowed が Lync Server 2013 クライアントでは使用されなくなったことにより、Lync Server 2013 クライアントからの高解像度ビデオの要求を拒否することはできません。その代わりに、すべてのプール上のユーザーの会議ポリシーで VideoBitRateKb を MaxVideoRateAllowed と同じ値に設定します (つまり、CIF が 250 kbps、VGA が 600 kbps、HD が 1500 kbps に設定されます)。
+<div>
+
+
+> [!NOTE]  
+> 従来のサーバーが Lync Server 2013 クライアントをホストしている場合は、プールのすべてのユーザーが低解像度のビデオを受信できるだけで、高解像度のビデオを送信できるように、ビデオ会議の帯域幅を構成することができます。 この例としては、メディア構成の MaxVideoRateAllowed が250K に設定されていて、VideoBitRateKb が会議ポリシーで 2000 kbps に設定されている場合です。 この状況では、プールのユーザーに対して高解像度を実現することはできません。<BR>MaxVideoRateAllowed は Lync Server 2013 クライアントでは使われなくなったため、Lync Server 2013 クライアントから高解像度ビデオを要求することはできません。 代わりに、プールのすべてのユーザーに対して、プールのすべてのユーザーに対して、VideoBitRateKb を MaxVideoRateAllowed (つまり、250 kbps に設定されているか、VGA が 600 kbps に設定されているか、HD が 1500 kbps に設定されている) と同じ値に設定します。
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

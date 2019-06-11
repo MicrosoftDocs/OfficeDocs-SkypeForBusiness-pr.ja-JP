@@ -1,41 +1,75 @@
-﻿---
-title: 環境テストに関する問題
-TOCTitle: 環境テストに関する問題
-ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205421(v=OCS.15)
-ms:contentKeyID: 48274169
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 環境テストの問題'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Issues with the environment test
+ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205421(v=OCS.15)
+ms:contentKeyID: 48185970
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6ed158c598b9dc5596df23cb845f0adac4c6fed3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832952"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 環境テストに関する問題
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-21_
+# <a name="issues-with-the-environment-test-in-lync-server-2013"></a>Lync Server 2013 での環境テストの問題
 
-ベスト プラクティス アナライザーでは、Lync Server 2013 の環境がサポートされている構成であることを確認する方法を提供します。Active Directory Domain サービスのチェックの一環として、ベスト プラクティス アナライザーは次を行います。
+</div>
 
-  - Active Directory Domain サービスのフォレストとスキーマの準備を検証します。
+<div id="mainSection">
 
-  - 展開の Active Directory Domain サービスのサイトとドメインの数を特定します。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-21_
+
+ベストプラクティスアナライザーは、Lync Server 2013 環境がサポートされている構成であることを確認するための手段を提供します。 Active Directory ドメインサービスのチェックの一部として、ベストプラクティスアナライザーは次の操作を実行します。
+
+  - Active Directory ドメインサービスのフォレストとスキーマの準備を確認します。
+
+  - 展開内の Active Directory ドメインサービスのサイトとドメインの数を示します。
 
   - フォレストとドメインのレベルを確認します。
 
-  - ドメイン コントローラーのバージョンを確認します。
+  - ドメインコントローラーのバージョンを確認します。
 
-  - ドメイン、構成、およびスキーマの名前付けコンテキストを特定します。
+  - ドメイン、構成、およびスキーマの名前付けコンテキストを識別します。
 
-  - 有効なユーザーの数を特定します。
+  - 有効なユーザーの数を示します。
 
-  - グローバル Active Directory Domain サービス設定が保存されている場所を確認します。
+  - グローバル Active Directory ドメインサービスの設定が保存されている場所を確認します。
 
-  - Lync Server のサービス接続ポイント (SCP) を確認します。
+  - Lync Server のサービス接続ポイント (Scp) を確認します。
 
-  - データベース バージョンを特定します。
+  - データベースのバージョンを示します。
 
-## 環境での問題の解決
+<div>
 
-使用している環境に問題があることが環境テストで判明した場合、それらの問題は恐らく Active Directory の構成または特定のサーバーで実行されているソフトウェアのレベルの問題に起因します。たとえば、ベスト プラクティス アナライザーが Windows Server 2000 を実行しているドメイン コントローラーを環境で特定した場合、警告を発するため、Windows Server のサポート対象バージョンにドメイン コントローラーをアップグレードする必要があります。
+## <a name="resolving-issues-with-the-environment"></a>環境の問題を解決する
+
+環境テストで環境の問題が検出された場合、これらの問題は、Active Directory 構成の問題、または特定のサーバーで実行されているソフトウェアのレベルに起因している可能性があります。 たとえば、Windows Server 2000 を実行している環境内のドメインコントローラーを特定する場合は、警告が表示され、サポートされているバージョンの Windows Server にアップグレードする必要があります。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

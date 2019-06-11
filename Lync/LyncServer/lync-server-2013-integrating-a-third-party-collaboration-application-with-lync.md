@@ -1,41 +1,63 @@
-﻿---
-title: サードパーティ製コラボレーション アプリケーションと Lync との統合
-TOCTitle: サードパーティ製コラボレーション アプリケーションと Lync との統合
-ms:assetid: 00b9312c-b0c8-4f79-8b76-05b2d820e197
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398068(v=OCS.15)
-ms:contentKeyID: 52056524
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: サードパーティのコラボレーションアプリケーションと Lync の統合
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Integrating a third-party collaboration application with Lync
+ms:assetid: 00b9312c-b0c8-4f79-8b76-05b2d820e197
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398068(v=OCS.15)
+ms:contentKeyID: 48183224
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a0b56fabbc1bd341e3ba2c5fe535d147c09335b7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832983"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# サードパーティ製コラボレーション アプリケーションと Lync との統合
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>サードパーティコラボレーションアプリケーションと Lync Server 2013 の統合
 
-サードパーティのオンライン コラボレーション アプリケーションに関する情報をレジストリに追加することで、Lync 2013 をそのオンライン コラボレーション アプリケーションと統合できます。Lync 2013 を使用して、社内サーバー、インターネットベースのサービス、またはその両方でホストされるデータ会議セッションを開始できます。コラボレーションまたはデータ会議のセッションは、連絡先リストまたは既存のインスタント メッセージング、音声、またはビデオのセッションから開始できます。Lync 2013 は、アプリケーションを開始するための手段としてのみ動作します。オンライン コラボレーション セッションが開始された後も、既存の Lync 2013 の会話はアクティブなままです。
+</div>
 
-次のセクションでは、Lync 2013 をインターネットベースおよびサーバーベースのコラボレーション アプリケーションと統合する方法について説明します。
+<div id="mainSection">
 
-## インターネットベースのコラボレーション アプリケーションと Lync 2013 の統合
+<div id="mainBody">
 
-一般的に、サードパーティ製コラボレーション アプリケーションの統合手順は次のようになります。
+<span> </span>
+
+_**最終更新日:** 2013-02-20_
+
+アプリケーションに関する情報をレジストリに追加することで、Lync 2013 をサードパーティのオンラインコラボレーションアプリケーションと統合することができます。 Lync 2013 を使用すると、社内のサーバー、インターネットベースのサービス、またはその両方でホストされているデータ会議セッションを開始できます。 コラボレーションまたはデータ会議セッションは、連絡先リストから、または既存のインスタントメッセージング、音声、またはビデオセッションから開始できます。 Lync 2013 は、アプリケーションを起動するための車両としてのみ機能します。 オンラインコラボレーションセッションが開始された後も、既存の Lync 2013 の会話はアクティブなままになります。
+
+以下のセクションでは、Lync 2013 をインターネットベースおよびサーバーベースのコラボレーションアプリケーションと統合する方法について説明します。
+
+<div>
+
+## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>インターネットベースのコラボレーションアプリケーションと Lync 2013 の統合
+
+一般的に、サードパーティ製のコラボレーションアプリケーションを統合するために必要な手順は次のとおりです。
 
 1.  アプリケーションに関する情報がレジストリに追加されます。
 
-2.  開催者が Lync 2013 にサインインし、データ共有およびコラボレーションの連絡先を選択します。または、開催者が既に会話に参加しており、データ会議の追加を決定する場合もあります。
+2.  開催者は Lync 2013 にサインインし、データ共有と共同作業のために連絡先を選択します。 または、開催者が既に会話に入っている場合は、[データ会議の追加] を選択します。
 
-3.  Lync 2013 はレジストリを読み込み、コラボレーション アプリケーションを起動して、カスタム SIP メッセージ (appINVITE) を選択した参加者に送信します。
+3.  Lync 2013 は、レジストリを読み取り、共同作業アプリケーションを開始してから、ユーザー設定の SIP メッセージ (appINVITE) を選択した参加者に送信します。
 
-4.  参加者が招待を承諾すると、コラボレーション アプリケーションが各自のコンピューター上で起動します。Lync 2013 は、レジストリを使用してどのコラボレーション アプリケーションを使用するかを決定し、appINVITE メッセージに含まれるパラメーターを使用してそのアプリケーションを起動します。
+4.  参加者が招待状を承諾し、共同作業アプリケーションが各ユーザーのコンピューターで開始されます。 Lync 2013 は、レジストリを使って、どのコラボレーションアプリケーションを使うかを決定し、appINVITE メッセージに含まれるパラメーターを使ってそのアプリケーションを開始します。
 
-次の表に、インターネットベースのコラボレーション アプリケーションを Lync 2013 と統合する際に必要なレジストリ エントリを示します。これらのエントリは、次の場所のレジストリ内にあります。
+次の表では、インターネットベースのコラボレーションアプリケーションと Lync 2013 を統合するために必要なレジストリエントリについて説明します。 これらのエントリは、レジストリの次の場所に配置されます。
 
-  - HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters
+  - HKEY\_ローカル\_コンピューター\\ソフトウェア\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\パラメーター
 
-### インターネットベースのコラボレーション アプリケーションのレジストリ エントリ
+### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>インターネットベースのコラボレーションアプリケーションのレジストリエントリ
 
 <table>
 <colgroup>
@@ -46,7 +68,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <thead>
 <tr class="header">
 <th>名前</th>
-<th>タイプ</th>
+<th>種類</th>
 <th>データ</th>
 </tr>
 </thead>
@@ -59,45 +81,45 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="even">
 <td><p>SmallIcon</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>16 ピクセル x 16 ピクセルのアイコン (BMP または PNG) へのパス。</p></td>
+<td><p>16ピクセル x 16 ピクセルのアイコン、BMP、または PNG へのパス。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>オンライン コラボレーション アプリケーションを起動するための参加者のパス。</p></td>
+<td><p>オンラインコラボレーションアプリケーションを開始するための参加者のパス。</p></td>
 </tr>
 <tr class="even">
-<td><p>OriginatorPath</p></td>
+<td><p>発信先のパス</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>オンライン コラボレーション アプリケーションを起動するための開催者のパス。 このパスには、Parameters サブキーに定義されている、1 つ以上のカスタム パラメーターが含まれる場合があります。 たとえば、次のような場合です。<code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
+<td><p>オンライングループ作業アプリケーションを開始するための開催者のパス。 このパスには、Parameters サブキーで定義されている1つ以上のカスタムパラメーターを含めることができます。 例えば<code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
 <td><p>DWORD</p></td>
-<td><p>0 = ローカル セッション。アプリケーションはローカル コンピュータ上で起動します。</p>
-<p>1 = 2 者間セッション (既定値)。Lync 2013 はアプリケーションをローカルで起動し、他のユーザーにシステム通知を送信します。相手のユーザーは通知をクリックし、指定されたアプリケーションを自分のコンピューター上で起動します。</p>
-<p>2 = 複数ユーザー間セッション。Lync 2013 は、アプリケーションをローカルで起動し、システム通知を他のユーザーに送信します。この際、相手のユーザーに対して、指定されたアプリケーションを自分のコンピューター上で起動するように求めるメッセージが表示されます。</p></td>
+<td><p>0 = ローカルセッション。 アプリケーションがローカルコンピューターで開始されます。</p>
+<p>1 = 2 パーティセッション (既定)。 Lync 2013 によってアプリケーションがローカルで開始され、他のユーザーにシステム通知が送信されます。 他のユーザーが通知をクリックして、指定されたアプリケーションを自分のコンピューターで開始します。</p>
+<p>2 = マルチパーティセッション。 Lync 2013 は、アプリケーションをローカルで開始した後、システム通知を他のユーザーに送信して、自分のコンピューターで指定されたアプリケーションを起動するように指示します。</p></td>
 </tr>
 <tr class="even">
 <td><p>ExensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>(セミコロンで区切られた) このコマンドが表示されるメニューの一覧。有効な値は次のとおりです。</p>
+<td><p>このコマンドが表示されるメニューの一覧。セミコロンで区切ります。 値の例は次のとおりです。</p>
 <ul>
 <li><p>MainWindowActions</p></li>
-<li><p>MainWindowRightClick</p></li>
+<li><p>MainWindowRightClick 上</p></li>
 <li><p>ConversationWindowActions</p></li>
 <li><p>ConversationWindowButton</p></li>
 <li><p>ConversationWindowRightClick</p></li>
 </ul>
-<p>ExtensibleMenu が定義されていない場合は、MainWindowRightClick および ConversationWindowContextual の既定値が使用されます。</p></td>
+<p>ExtensibleMenu が定義されていない場合は、MainWindowRightClick と ConversationWindowActions の既定値が使用されます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-次の表は、パラメーターのレジストリ エントリを示します。これらのエントリは、HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters にあります。
+次の表では、パラメーターのレジストリエントリについて説明します。 これら\_のエントリは、現在\_のユーザー\\ソフトウェア\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\のパラメーターに設定されています。
 
-### インターネットベースのコラボレーション アプリケーションのレジストリ エントリ
+### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>インターネットベースのコラボレーションアプリケーションのレジストリエントリ
 
 <table>
 <colgroup>
@@ -108,7 +130,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <thead>
 <tr class="header">
 <th>名前</th>
-<th>タイプ</th>
+<th>種類</th>
 <th>データ</th>
 </tr>
 </thead>
@@ -116,23 +138,23 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="odd">
 <td><p>Param1</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>OriginatorPath レジストリ キーにユーザー固有の値を追加するため、トークン化された形式 (<code>%Parm1%</code>) で使用される。</p></td>
+<td><p>トークン形式 (<code>%Parm1%</code>) で、ユーザー固有の値を、指定された形式のレジストリキーに追加します。</p></td>
 </tr>
 <tr class="even">
 <td><p>Param2</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Param1 を参照。</p></td>
+<td><p>「Param1」をご覧ください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Param3</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Param1 を参照。</p></td>
+<td><p>「Param1」をご覧ください。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-次の例のレジストリ設定では、ADatum Collaboration Client を Lync 2013 と統合します。
+次のレジストリ設定の例では、ADatum コラボレーションクライアントと Lync 2013 を統合しています。
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\SessionManager]
@@ -154,13 +176,17 @@ _**トピックの最終更新日:** 2015-03-09_
     "Param2"="admin"
     "Param3"="abcdefg123"
 
-## サーバーベースのコラボレーション アプリケーションと Lync 2013 の統合
+</div>
 
-サーバーベースのコラボレーション アプリケーションを Lync 2013 内から起動するコマンドを追加するための設定は、前のセクションで説明した「インターネットベースのコラボレーション アプリケーションと Lync 2013 の統合」の設定と似ています。ただし、OriginatorPath は必要ではなく、いくつかの値が変更されます。レジストリ エントリは次の場所にあります。
+<div>
 
-  - HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters
+## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>サーバーベースのコラボレーションアプリケーションと Lync 2013 の統合
 
-### サーバーベースのコラボレーション アプリケーションのレジストリ エントリ
+Lync 2013 内からサーバーベースのコラボレーションアプリケーションを起動するためのコマンドを追加するための設定は、前のセクションで説明したものと同じであり、インターネットベースのコラボレーションアプリケーションを Lync 2013 と統合しています。 ただし、原点の Path は必須ではなく、一部の値が変更されます。 レジストリエントリは次の場所に配置されます。
+
+  - HKEY\_ローカル\_コンピューター\\ソフトウェア\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\パラメーター
+
+### <a name="registry-entries-for-a-server-based-collaboration-application"></a>サーバーベースのコラボレーションアプリケーションのレジストリエントリ
 
 <table>
 <colgroup>
@@ -171,7 +197,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <thead>
 <tr class="header">
 <th>名前</th>
-<th>タイプ</th>
+<th>種類</th>
 <th>データ</th>
 </tr>
 </thead>
@@ -179,48 +205,48 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="odd">
 <td><p>名前</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>メニューに表示されるアプリケーション名。</p></td>
+<td><p>メニューに表示されるアプリケーションの名前。</p></td>
 </tr>
 <tr class="even">
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
-<td><p>値 = 1 アプリケーションの種類をプロトコルに設定する。その他の値は、この場合には適用されません。値が指定されないと、ApplicationType は 0 (実行可能) に設定されます。</p></td>
+<td><p>値 = 1。 アプリケーションの種類を protocol に設定します。 この場合、その他の可能な値は適用されません。 存在しない場合、ApplicationType は 0 (実行可能ファイル) に設定されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>コラボレーション アプリケーションの起動に使用するプロトコル。Live Meeting 2007 では、Path の値が <code>meet:%conf-uri%</code> に設定されます。</p></td>
+<td><p>コラボレーションアプリケーションを開始するために使用されるプロトコル。 Live Meeting 2007 の場合、Path の値はに<code>meet:%conf-uri%</code>設定されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionType</p></td>
 <td><p>DWORD</p></td>
-<td><p>0 = ローカル セッション。アプリケーションはローカル コンピュータ上で起動します。</p>
-<p>1 = 2 者間セッション (既定値)。Lync 2013 はアプリケーションをローカルで起動し、他のユーザーにシステム通知を送信します。相手のユーザーは通知をクリックし、指定されたアプリケーションを自分のコンピューター上で起動します。</p>
-<p>2 = 複数ユーザー間セッション。Lync 2013 は、アプリケーションをローカルで起動し、システム通知を他のユーザーに送信します。この際、相手のユーザーに対して、指定されたアプリケーションを自分のコンピューター上で起動するように求めるメッセージが表示されます。</p></td>
+<td><p>0 = ローカルセッション。 アプリケーションがローカルコンピューターで開始されます。</p>
+<p>1 = 2 パーティセッション (既定)。 Lync 2013 によってアプリケーションがローカルで開始され、他のユーザーにシステム通知が送信されます。 他のユーザーが通知をクリックして、指定されたアプリケーションを自分のコンピューターで開始します。</p>
+<p>2 = マルチパーティセッション。 Lync 2013 は、アプリケーションをローカルで開始した後、システム通知を他のユーザーに送信して、コンピューターで指定されたアプリケーションを開始するように求めます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>MCUType</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>DATA = サーバーの種類。</p></td>
+<td><p>データ = サーバーの種類。</p></td>
 </tr>
 <tr class="even">
 <td><p>ExtensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>(セミコロンで区切られた) このコマンドが表示されるメニューの一覧。有効な値は次のとおりです。</p>
+<td><p>このコマンドが表示されるメニューの一覧。セミコロンで区切ります。 値の例は次のとおりです。</p>
 <ul>
 <li><p>MainWindowActions</p></li>
-<li><p>MainWindowRightClick</p></li>
+<li><p>MainWindowRightClick 上</p></li>
 <li><p>ConversationWindowActions</p></li>
 <li><p>ConversationWindowButton</p></li>
 <li><p>ConversationWindowRightClick</p></li>
 </ul>
-<p>ExtensibleMenu が定義されていない場合は、MainWindowRightClick および ConversationWindowContextual の既定値が使用されます。</p></td>
+<p>ExtensibleMenu が定義されていない場合は、MainWindowRightClick と ConversationWindowActions の既定値が使用されます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-次の例では、Lync 2013 内から ADatum コラボレーション クライアントを起動するためのコマンドを追加します。
+次の例では、Lync 2013 内から ADatum コラボレーションクライアントを開始するためのコマンドを追加します。
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\SessionManager]
@@ -233,4 +259,16 @@ _**トピックの最終更新日:** 2015-03-09_
     "Name"="ADatum Collaboration Client"
     "MCUType"="Data"
     "Extensiblemenu"="MainWindowActions;MainWindowRightClick;ConversationWindowActions;ConversationWindowRightClick"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

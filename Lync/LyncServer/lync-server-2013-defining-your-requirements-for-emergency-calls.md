@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: 緊急電話の要件の定義'
-TOCTitle: 緊急電話の要件の定義
-ms:assetid: 5c12b517-9be6-41d0-83e2-11c78793620c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398404(v=OCS.15)
-ms:contentKeyID: 48272206
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 緊急電話の要件の定義'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining your requirements for emergency calls
+ms:assetid: 5c12b517-9be6-41d0-83e2-11c78793620c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398404(v=OCS.15)
+ms:contentKeyID: 48184276
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 53543d815519dc440ba038999e5fc531173551f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833695"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での緊急電話の要件の定義
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="defining-your-requirements-for-emergency-calls-in-lync-server-2013"></a>Lync Server 2013 での緊急電話の要件の定義
 
-Microsoft Lync Server 2013 の E9-1-1 展開を開始する前に、以下のセクションに記載されている質問に答えることができるようにしておく必要があります。必要な計画は、展開する E9-1-1 ソリューションの種類 (SIP トランク E9-1-1 サービス プロバイダー、または緊急位置識別番号 (ELIN) ゲートウェイ) によって異なります。 次の表は、この計画ブックで確認する必要があるセクションをソリューションの種類別に示しています。
+</div>
 
-### E9-1-1 ソリューションの種類別の計画手順
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-06-06_
+
+Microsoft Lync Server 2013 E9 の展開を開始する前に、まず、次のセクションで説明する質問に回答できるようにする必要があります。 必要な計画は、展開する E9-1-1 ソリューションの種類 (SIP トランク E9-1-1 サービス プロバイダー、または緊急位置識別番号 (ELIN) ゲートウェイ) によって異なります。 次の表は、この計画ブックで確認する必要があるセクションをソリューションの種類別に示しています。
+
+### <a name="planning-steps-by-type-of-e9-1-1-solution"></a>E9-1-1 ソリューションの種類別の計画手順
 
 <table>
 <colgroup>
@@ -32,70 +52,84 @@ Microsoft Lync Server 2013 の E9-1-1 展開を開始する前に、以下のセ
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md">Lync Server 2013 での E9-1-1 展開の範囲の定義</a></p></td>
-<td><p><a href="lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md">Lync Server 2013 での E9-1-1 展開の範囲の定義</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md">Lync Server 2013 での E9 展開のスコープの定義</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md">Lync Server 2013 での E9 展開のスコープの定義</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-defining-the-network-elements-used-to-determine-location.md">Lync Server 2013 での場所の判断に使用するネットワーク要素の定義</a></p></td>
-<td><p><a href="lync-server-2013-defining-the-network-elements-used-to-determine-location.md">Lync Server 2013 での場所の判断に使用するネットワーク要素の定義</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-network-elements-used-to-determine-location.md">Lync Server 2013 での場所の決定に使用するネットワーク要素の定義</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-network-elements-used-to-determine-location.md">Lync Server 2013 での場所の決定に使用するネットワーク要素の定義</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-enabling-users-for-e9-1-1.md">Lync Server 2013 で、E9-1-1 でユーザーを有効にする</a></p></td>
-<td><p><a href="lync-server-2013-enabling-users-for-e9-1-1.md">Lync Server 2013 で、E9-1-1 でユーザーを有効にする</a></p></td>
+<td><p><a href="lync-server-2013-enabling-users-for-e9-1-1.md">Lync Server 2013 でのユーザーの E9-1 の有効化</a></p></td>
+<td><p><a href="lync-server-2013-enabling-users-for-e9-1-1.md">Lync Server 2013 でのユーザーの E9-1 の有効化</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-managing-locations-for-sip-trunk-service-providers.md">Lync Server 2013 での SIP トランク サービス プロバイダーの場所の管理</a></p></td>
+<td><p><a href="lync-server-2013-managing-locations-for-sip-trunk-service-providers.md">Lync Server 2013 で SIP トランクサービスプロバイダーの場所を管理する</a></p></td>
 <td><p><a href="lync-server-2013-managing-locations-for-elin-gateways.md">Lync Server 2013 での ELIN ゲートウェイの場所の管理</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md">Lync Server 2013 での手動で場所を取得する際のユーザー エクスペリエンスの定義</a></p></td>
-<td><p><a href="lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md">Lync Server 2013 での手動で場所を取得する際のユーザー エクスペリエンスの定義</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md">Lync Server 2013 で場所を手動で取得するときのユーザーエクスペリエンスの定義</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md">Lync Server 2013 で場所を手動で取得するときのユーザーエクスペリエンスの定義</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-designing-the-sip-trunk-for-e9-1-1.md">Lync Server 2013 での E9-1-1 の SIP トランクの設計</a></p></td>
-<td><p><a href="lync-server-2013-including-the-security-desk.md">Lync Server 2013 でのセキュリティ デスクの追加</a></p></td>
+<td><p><a href="lync-server-2013-designing-the-sip-trunk-for-e9-1-1.md">Lync Server 2013 での E9 の SIP トランクの設計</a></p></td>
+<td><p><a href="lync-server-2013-including-the-security-desk.md">Lync Server 2013 にセキュリティデスクを含める</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-including-the-security-desk.md">Lync Server 2013 でのセキュリティ デスクの追加</a></p></td>
-<td><p><a href="lync-server-2013-defining-the-location-policy.md">Lync Server 2013 の場所ポリシーの定義</a></p></td>
+<td><p><a href="lync-server-2013-including-the-security-desk.md">Lync Server 2013 にセキュリティデスクを含める</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-location-policy.md">Lync Server 2013 の位置情報ポリシーの定義</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-choosing-an-e9-1-1-service-provider.md">Lync Server 2013 の E9-1-1 サービス プロバイダーの選択</a></p></td>
-<td><p><a href="lync-server-2013-assigning-location-policy-scope.md">Lync Server 2013 での場所ポリシーのスコープの割り当て</a></p></td>
+<td><p><a href="lync-server-2013-choosing-an-e9-1-1-service-provider.md">Lync Server 2013 用の E9 サービスプロバイダーを選ぶ</a></p></td>
+<td><p><a href="lync-server-2013-assigning-location-policy-scope.md">Lync Server 2013 で位置情報ポリシーのスコープを割り当てる</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-defining-the-location-policy.md">Lync Server 2013 の場所ポリシーの定義</a></p></td>
-<td><p></p></td>
+<td><p><a href="lync-server-2013-defining-the-location-policy.md">Lync Server 2013 の位置情報ポリシーの定義</a></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-assigning-location-policy-scope.md">Lync Server 2013 での場所ポリシーのスコープの割り当て</a></p></td>
-<td><p></p></td>
+<td><p><a href="lync-server-2013-assigning-location-policy-scope.md">Lync Server 2013 で位置情報ポリシーのスコープを割り当てる</a></p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-## このセクション中
+<div>
 
-  - [Lync Server 2013 での E9-1-1 展開の範囲の定義](lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md)
+## <a name="in-this-section"></a>このセクション中
 
-  - [Lync Server 2013 での場所の判断に使用するネットワーク要素の定義](lync-server-2013-defining-the-network-elements-used-to-determine-location.md)
+  - [Lync Server 2013 での E9 展開のスコープの定義](lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md)
 
-  - [Lync Server 2013 で、E9-1-1 でユーザーを有効にする](lync-server-2013-enabling-users-for-e9-1-1.md)
+  - [Lync Server 2013 での場所の決定に使用するネットワーク要素の定義](lync-server-2013-defining-the-network-elements-used-to-determine-location.md)
 
-  - [Lync Server 2013 での SIP トランク サービス プロバイダーの場所の管理](lync-server-2013-managing-locations-for-sip-trunk-service-providers.md)
+  - [Lync Server 2013 でのユーザーの E9-1 の有効化](lync-server-2013-enabling-users-for-e9-1-1.md)
+
+  - [Lync Server 2013 で SIP トランクサービスプロバイダーの場所を管理する](lync-server-2013-managing-locations-for-sip-trunk-service-providers.md)
 
   - [Lync Server 2013 での ELIN ゲートウェイの場所の管理](lync-server-2013-managing-locations-for-elin-gateways.md)
 
-  - [Lync Server 2013 での手動で場所を取得する際のユーザー エクスペリエンスの定義](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md)
+  - [Lync Server 2013 で場所を手動で取得するときのユーザーエクスペリエンスの定義](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md)
 
-  - [Lync Server 2013 での E9-1-1 の SIP トランクの設計](lync-server-2013-designing-the-sip-trunk-for-e9-1-1.md)
+  - [Lync Server 2013 での E9 の SIP トランクの設計](lync-server-2013-designing-the-sip-trunk-for-e9-1-1.md)
 
-  - [Lync Server 2013 でのセキュリティ デスクの追加](lync-server-2013-including-the-security-desk.md)
+  - [Lync Server 2013 にセキュリティデスクを含める](lync-server-2013-including-the-security-desk.md)
 
-  - [Lync Server 2013 の E9-1-1 サービス プロバイダーの選択](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
+  - [Lync Server 2013 用の E9 サービスプロバイダーを選ぶ](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
 
-  - [Lync Server 2013 の場所ポリシーの定義](lync-server-2013-defining-the-location-policy.md)
+  - [Lync Server 2013 の位置情報ポリシーの定義](lync-server-2013-defining-the-location-policy.md)
 
-  - [Lync Server 2013 での場所ポリシーのスコープの割り当て](lync-server-2013-assigning-location-policy-scope.md)
+  - [Lync Server 2013 で位置情報ポリシーのスコープを割り当てる](lync-server-2013-assigning-location-policy-scope.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Dialog テーブル'
-TOCTitle: Dialog テーブル
-ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398313(v=OCS.15)
-ms:contentKeyID: 48272040
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Dialog テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dialog table
+ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398313(v=OCS.15)
+ms:contentKeyID: 48184068
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d47744cf17d3459c16e382c3551b427aa45b5ce6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833391"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の Dialog テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="dialog-table-in-lync-server-2013"></a>Lync Server 2013 の Dialog テーブル
 
-Dialog テーブルは、サポート テーブルです。各レコードは、1 つのセッション開始プロトコル (SIP) ダイアログを表します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-02_
+
+ダイアログテーブルはサポートテーブルです。各レコードは、1つのセッション開始プロトコル (SIP) ダイアログを表します。
 
 
 <table>
@@ -37,27 +57,38 @@ Dialog テーブルは、サポート テーブルです。各レコードは、
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>QoE (Quality of Excellence) エージェントが発信者または呼び出し先から最初のレポートを受信する時刻です。セッションを一意に識別するために SessionSeq と併用されます。</p></td>
+<td><p>Primary</p></td>
+<td><p>卓越した品質 (QoE) エージェントが、呼び出し元または呼び出し元から最初のレポートを受け取る時刻。 セッションを一意に識別するために SessionSeq と組み合わせて使用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>複数のセッションの ConferenceDateTime が同じであるときに、セッションどうしを区別するためのシーケンス番号です。</p></td>
+<td><p>Primary</p></td>
+<td><p>セッションを区別するための順序番号 (同じ ConferenceDateTime がある場合)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogID</strong></p></td>
-<td><p>varchar(256)</p></td>
-<td><p></p></td>
-<td><p>グローバルに一意のダイアログ ID です。</p></td>
+<td><p><strong>この Id</strong></p></td>
+<td><p>varchar (256)</p></td>
+<td></td>
+<td><p>グローバルに一意のダイアログ ID。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DialogIDChecksum</strong></p></td>
+<td><p><strong>このチェックサム</strong></p></td>
 <td><p>int</p></td>
-<td><p>インデックス</p></td>
-<td><p>ダイアログ ID のチェックサムです。</p></td>
+<td><p>位置</p></td>
+<td><p>ダイアログ ID のチェックサム。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

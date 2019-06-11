@@ -1,52 +1,98 @@
-﻿---
-title: 場所ポリシーの削除
-TOCTitle: 場所ポリシーの削除
-ms:assetid: 8ca9ba10-f45f-435a-b39c-519d251e9085
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688125(v=OCS.15)
-ms:contentKeyID: 49887039
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 場所のポリシーを削除する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting a location policy
+ms:assetid: 8ca9ba10-f45f-435a-b39c-519d251e9085
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688125(v=OCS.15)
+ms:contentKeyID: 49733724
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4766d2b05cef89ab29b9c303c5ba1ec456843669
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833590"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 場所ポリシーの削除
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-10_
+# <a name="deleting-a-location-policy-in-lync-server-2013"></a>Lync Server 2013 で位置情報ポリシーを削除する
 
-Lync Server 2013 では、場所のポリシーを使用して、Enhanced 9-1-1 (E9-1-1) 機能とユーザーまたは連絡先の場所の設定に関連する設定を適用します。場所のポリシーには、ユーザーを E9-1-1 に対して有効にするかどうか、および有効にする場合、緊急電話の動作を指定します。たとえば、場所のポリシーを使用して、緊急電話 (たとえば、米国の場合、911) を構成する番号、社内セキュリティに自動的に通知するかどうか、および通話をルーティングする方法を定義できます。
+</div>
 
-場所のポリシーは、Lync Server 2013 コントロール パネルの \[**ネットワーク構成**\] グループから構成できます。また、このポリシーは、Lync Server コントロール パネルで、表示、作成、変更、または削除できます。場所のポリシーを削除するには次の手順を使用します。場所のポリシーの作成または変更の詳細については、「[場所ポリシーの作成または変更](lync-server-2013-creating-or-modifying-a-location-policy.md)」を参照してください。
+<div id="mainSection">
 
-## 場所のポリシーを削除するには
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-10_
+
+Lync Server 2013 では、位置情報ポリシーを使用して、強化された 9-1-1 (E9) 機能と、ユーザーまたは連絡先の位置設定に関連する設定を適用することができます。 位置情報ポリシーは、ユーザーが E9 に対して有効になっているかどうかを決定し、場合によっては緊急通話の動作を確認します。 たとえば、位置情報ポリシーを使用して、緊急通話 (米国の911など)、企業のセキュリティに自動的に通知するかどうか、および通話のルーティング方法を定義できます。
+
+Lync Server 2013 コントロールパネルの [**ネットワーク構成**] グループから、場所のポリシーを構成できます。 Lync Server コントロールパネルから、場所のポリシーの表示、作成、変更、または削除を行うことができます。 次の手順を使用して、場所のポリシーを削除します。 場所のポリシーの作成または変更の詳細については、「 [Lync Server 2013 で位置情報ポリシーを作成または変更](lync-server-2013-creating-or-modifying-a-location-policy.md)する」を参照してください。
+
+<div>
+
+## <a name="to-delete-a-location-policy"></a>場所のポリシーを削除するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**ネットワーク構成**\] をクリックし、\[**場所のポリシー**\] をクリックします。
+3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**場所のポリシー**] をクリックします。
 
-4.  \[**場所のポリシー**\] ページで、削除する場所のポリシーを選択します。
+4.  [**場所のポリシー** ] ページで、削除する場所のポリシーを選びます。
     
-    > [!NOTE]
-    > 1 つ以上の場所のポリシーを一度に削除できます。 これを実行するには、Ctrl キーを押しながら、複数のポリシーを選択します。 また、すべてのポリシーを選択するには、[<strong>編集</strong>] メニューの [<strong>すべて選択</strong>] をクリックします。
-
-
-5.  \[**編集**\] メニューの \[**削除**\] をクリックします。
-
-6.  \[**OK**\] をクリックします。
+    <div>
     
 
-    > [!IMPORTANT]
-    > グローバルの場所のポリシーを削除することはできません。 グローバルのポリシーの削除を試みると、警告メッセージが表示され、ポリシーはそのポリシーの既定値にリセットされます。
+    > [!NOTE]  
+    > 複数の場所ポリシーは一度に削除できます。 これを行うには、ctrl キーを押しながら、CTRL キーを押しながら複数のポリシーを選択します。 または、すべてのポリシーを選択するには、[<STRONG>編集</STRONG>] メニューの [<STRONG>すべて選択</STRONG>] をクリックします。
+
+    
+    </div>
+
+5.  [**編集**] メニューの [**削除**] をクリックします。
+
+6.  **[OK]** をクリックします。
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > グローバルな場所のポリシーを削除することはできません。 グローバルポリシーを削除しようとすると、警告メッセージが表示され、そのポリシーは既定値にリセットされます。
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
 
 
+[Lync Server 2013 で位置情報ポリシーを作成または変更する](lync-server-2013-creating-or-modifying-a-location-policy.md)  
+[Lync Server 2013 で位置情報ポリシー情報を表示する](lync-server-2013-viewing-location-policy-information.md)  
+  
 
-## 関連項目
+</div>
 
-#### タスク
+</div>
 
-[場所ポリシーの作成または変更](lync-server-2013-creating-or-modifying-a-location-policy.md)  
-[場所ポリシー情報の表示](lync-server-2013-viewing-location-policy-information.md)
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,51 +1,85 @@
-﻿---
-title: 'Lync Server 2013: Microsoft Exchange Server 2013 との統合'
-TOCTitle: Lync Server 2013 および Exchange Server 2013 の統合
-ms:assetid: 795dc1c6-524f-4012-8b66-103b55198044
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688098(v=OCS.15)
-ms:contentKeyID: 49887007
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Microsoft Exchange Server 2013 との統合'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Integrating Lync Server 2013 and Exchange Server 2013
+ms:assetid: 795dc1c6-524f-4012-8b66-103b55198044
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688098(v=OCS.15)
+ms:contentKeyID: 49733697
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5ba140e4f7e33684a280a9d9c4b71f1d7e141a65
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832972"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 の統合
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 の統合
 
-Exchange と Lync Server には統合と互換性の長い歴史があります。この統合は、それぞれのクライアント アプリケーションの中でも最も重要なものです。たとえば、Lync のプレゼンス情報を Microsoft Outlook でレポートできます。同様に、Lync は、Outlook 予定表を使用してプレゼンス情報を自動的に更新できます (たとえば、Lync は予定表で会議が予定されている時間のステータスを取り込み中に変更できます)。Lync Server を実行するために Exchange を実行する必要はありませんが (またはその逆)、2 つの製品を併用すると "Better Together" という用語の定義が最適なものになることは確かです。
+</div>
 
-Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 のリリースでは、これは特に当てはまります。Microsoft Exchange Server 2010 および Microsoft Lync Server 2010 のユニファイド メッセージング、IM、プレゼンスなどの機能に加えて、サーバー製品の 2013 リリースには多くの新機能が含まれています。以下はその一例です。
+<div id="mainSection">
 
-  - **Lync アーカイブの統合** 。Lync Server 2013 でも、管理者はインスタント メッセージングおよび Web 会議のトランスクリプトを SQL Server にアーカイブすることを選択できます (Lync Server 2010 と同じ方法です)。しかし、一方で、トランスクリプトを Exchange 2013 にアーカイブし、Exchange が通信をアーカイブするのと同じ方法で個別のユーザー メールボックスにトランスクリプトを格納することもできます。つまり、(Exchange および Lync Server からの) すべての電子通信に 1 つのリポジトリを使用でき、必要なときにアーカイブされた通信をいっそう簡単に検索して取得できるようになります。
+<div id="mainBody">
 
-  - **統合連絡先ストア** 。Lync Server 2010 では、ユーザーは Outlook と Lync で個別に連絡先を管理する必要がありました。実際、両方の製品で同じ連絡先を利用できるようにするには、Outlook 用と Lync 用に連絡先一覧を重複して管理することが必要でした。一方、Lync Server 2013 では、ユーザーの連絡先を Exchange 2013 および統合連絡先ストアに格納できます。1 つの連絡先ストアを使用することで、ユーザーは連絡先のセットを 1 つだけ管理すればよく、Lync 2013、Outlook 2013、Outlook Web Access 2013 で同じ連絡先セットを使用できます。
+<span> </span>
 
-  - **OWA からの Lync 会議のスケジュール** 。 Lync Server 2013 と Exchange 2013 を統合したことで、ユーザーは Outlook Web Access 2013 から Lync 会議をスケジュールできます。
+_**最終更新日:** 2014-07-09_
 
-  - **高解像度の写真** 。Lync 2010 では、連絡先の小さい写真しか表示できませんでした。これは、写真が Active Directory に格納されており、Active Directory では格納される写真のサイズに 48 × 48 ピクセルの制限があるためでした。一方、Lync Server 2013 では、写真を Microsoft Exchange に保管できるので、最大 648 × 648 ピクセルの高解像度の写真を使用できます。また、Lync 2013 も高解像度写真を表示できるようにアップグレードされています。
+Exchange と Lync Server には、統合と互換性の長い履歴があります。 この統合は、それぞれのクライアントアプリケーションで最も顕著です。 たとえば、Lync のプレゼンス情報は Microsoft Outlook で報告できます。同様に、Lync では、Outlook の予定表を使って、プレゼンス情報を自動的に更新することができます。 (たとえば、会議がスケジュールされていることを予定表に示すときは、Lync によって状態が [取り込み中] に変更されることがあります)。Lync Server を実行するために Exchange を実行する必要はありませんが (またはその逆)、2つの製品を同時に使用することによって、"epitomizes" という用語の定義をまとめることはほとんどありません。
 
-これらの新機能を使用するには Lync Server 2013 と Exchange 2013 の両方が必要であることに注意してください。さらに、新機能を完全に利用するには、Lync Server 2013 および Exchange 2013 にアカウントがあり、最新バージョンのクライアント ソフトウェア (Lync 2013 など) を使用する必要があります。たとえば、Lync Server 2010 に所属しているユーザーは統合連絡先ストアを使用できません。同様に、Lync 2010 では高解像度の写真を表示できません。
+これは、Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 のリリースに特に当てはまります。 Microsoft Exchange Server 2010 および Microsoft Lync Server 2010 で利用できるユニファイドメッセージング、IM、プレゼンスなどの機能に加えて、サーバー製品の2013リリースには、多くの新機能が含まれています。 これらの機能には、次のようなものがあります。
 
-このドキュメントでは、Lync Server 2013 と Exchange 2013 の統合に関して説明し、それにはアーカイブの統合や統合連絡先ストアなどの新機能を有効にする詳細な手順も含まれます。これら 2 つの製品の初期セットアップと構成については、このドキュメントでは説明しません。Lync Server 2013 の展開の詳細については、Lync Server 2013 TechCenter ([http://go.microsoft.com/fwlink/?linkid=246127\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=246127%26clcid=0x411)) を参照してください。Exchange 2013 の展開の詳細については、Exchange 2013 TechCenter ([http://go.microsoft.com/fwlink/?linkid=268528\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=268528%26clcid=0x411)) を参照してください。
+  - **Lync アーカイブの統合**。 Lync Server 2013 管理者でも、インスタントメッセージと Web 会議のトランスクリプトを SQL Server にアーカイブするオプションがあります (これらのトランスクリプトが Lync Server 2010 でアーカイブされた場合と同じです)。 また、管理者は、exchange のアーカイブと同じ方法で、トランスクリプトを Exchange 2013 にアーカイブすることを選ぶことができます。これらのトランスクリプトは個々のユーザーのメールボックスに保存されます。 つまり、すべての電子通信 (Exchange と Lync Server の両方) について単一のリポジトリを意味します。これにより、アーカイブされた通信を検索して、必要に応じて取得しやすくなります。
 
-## このセクション中
+  - **統合連絡先ストア**。 Lync Server 2010 では、ユーザーは Outlook と Lync で個別の連絡先リストを管理する必要がありました。実際には、両方の製品で同じ連絡先が使用可能であることを確認するために、Outlook 用と Lync 用の連絡先リストの重複を管理する必要がありました。 ただし、Lync Server 2013 では、ユーザーの連絡先を Exchange 2013 とユニファイド連絡先ストアに保存できます。 1つの連絡先ストアを使用すると、ユーザーは1つの連絡先セットだけを保持できるため、Lync 2013、Outlook 2013、Outlook Web Access 2013 で利用できる連絡先と同じセットを使用できます。
 
-[Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 の統合の前提条件](lync-server-2013-prerequisites-for-integrating-with-exchange-server-2013.md)
+  - **OWA からの Lync 会議のスケジュール設定**。 Lync Server 2013 および Exchange 2013 の統合機能を使用すると、ユーザーは Outlook Web Access 2013 から Lync 会議をスケジュールできます。
 
-[Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 のパートナー アプリケーションの構成](lync-server-2013-configuring-partner-applications-in-lync-server-2013-and-exchange-server-2013.md)
+  - **高解像度の写真**。 Lync 2010 では、連絡先の小さな写真しか表示できませんでした。このような写真は Active Directory に保存されており、Active Directory では、保存された写真に48ピクセルのサイズの制限48を設けています。 ただし、Lync Server 2013 では、写真を Microsoft Exchange に保存することができます。これにより、648ピクセルから648ピクセルまでの高解像度の写真を使用できます。 このような高解像度の写真が表示されるように、Lync 2013 はアップグレードされています。
 
-[Microsoft Exchange Server 2013 アーカイブを使用するための Microsoft Lync Server 2013 の構成](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md)
+これらの新機能には Lync Server 2013 と Exchange 2013 の両方を使用する必要があることに注意してください。 また、これらの新機能を最大限に活用したいユーザーは、Lync Server 2013 および Exchange 2013 上のアカウントを持っている必要があります。また、最新バージョンのクライアントソフトウェア (Lync 2013 など) を使用している必要があります。 たとえば、統合連絡先ストアは、Lync Server 2010 を使っているユーザーは使用できません。同様に、高解像度の写真を Lync 2010 で表示することはできません。
 
-[アーカイブされた Microsoft Lync Server 2013 データを検索するための Microsoft SharePoint Server 2013 の構成](lync-server-2013-configuring-microsoft-sharepoint-server-2013-to-search-for-archived-lync-server-2013-data.md)
+このドキュメントでは、Lync Server 2013 および Exchange 2013 の統合について説明します。 アーカイブ統合やユニファイド連絡先ストアなどの新機能を有効にする手順について説明します。 このドキュメントでは、これら2つの製品の初期設定と構成について説明します。 Lync Server 2013 の展開の詳細については、「Lync Server [http://go.microsoft.com/fwlink/p/?LinkId=246127](http://go.microsoft.com/fwlink/p/?linkid=246127)2013 の技術センター」を参照してください。 Exchange 2013 の展開の詳細については、「Exchange [http://go.microsoft.com/fwlink/p/?LinkId=268528](http://go.microsoft.com/fwlink/p/?linkid=268528)2013 の技術センター」を参照してください。
 
-[統合連絡先ストアを使用する Microsoft Lync Server 2013 の構成](lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md)
+<div>
 
-[Microsoft Lync Server 2013 で高解像度写真を使用する構成](lync-server-2013-configuring-the-use-of-high-resolution-photos.md)
+## <a name="in-this-section"></a>このセクション中
 
-[Microsoft Lync Server 2013 ボイスメールに対する Microsoft Exchange Server 2013 ユニファイド メッセージングの構成](lync-server-2013-configuring-microsoft-exchange-server-2013-unified-messaging-for-lync-server-2013-voice-mail.md)
+[Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 を統合するための前提条件](lync-server-2013-prerequisites-for-integrating-with-exchange-server-2013.md)
 
-[Microsoft Lync Server 2013 および Microsoft Outlook Web App 2013 の統合](lync-server-2013-integrating-lync-server-and-outlook-web-app-2013.md)
+[Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 でパートナーアプリケーションを構成する](lync-server-2013-configuring-partner-applications-in-lync-server-2013-and-exchange-server-2013.md)
+
+[Microsoft Exchange Server 2013 アーカイブを使用するように Microsoft Lync Server 2013 を構成する](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md)
+
+[Microsoft SharePoint Server 2013 を構成してアーカイブされた Microsoft Lync Server 2013 データを検索する](lync-server-2013-configuring-microsoft-sharepoint-server-2013-to-search-for-archived-lync-server-2013-data.md)
+
+[ユニファイド連絡先ストアを使用するように Microsoft Lync Server 2013 を構成する](lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md)
+
+[Microsoft Lync Server 2013 で高解像度の写真を使用するように構成する](lync-server-2013-configuring-the-use-of-high-resolution-photos.md)
+
+[Microsoft Lync Server 2013 用 Microsoft Exchange Server 2013 ユニファイドメッセージングの構成ボイスメール](lync-server-2013-configuring-microsoft-exchange-server-2013-unified-messaging-for-lync-server-2013-voice-mail.md)
+
+[Microsoft Lync Server 2013 と Microsoft Outlook Web App 2013 の統合](lync-server-2013-integrating-lync-server-and-outlook-web-app-2013.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

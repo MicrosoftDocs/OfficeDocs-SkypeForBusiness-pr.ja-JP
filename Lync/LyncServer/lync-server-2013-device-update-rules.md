@@ -1,37 +1,71 @@
-﻿---
-title: Lync Server 2013 でのデバイス更新ルール
-TOCTitle: Lync Server 2013 でのデバイス更新ルール
-ms:assetid: a2f7e293-3342-4566-9605-410cb95f3b3b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ994062(v=OCS.15)
-ms:contentKeyID: 52056660
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: デバイス更新ルール'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device Update rules
+ms:assetid: a2f7e293-3342-4566-9605-410cb95f3b3b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994062(v=OCS.15)
+ms:contentKeyID: 51803973
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cce4b0be575665d23b2b09126905fc35791f61ce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833423"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのデバイス更新ルール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-20_
+# <a name="device-update-rules-in-lync-server-2013"></a>Lync Server 2013 のデバイス更新ルール
 
-Microsoft は、Lync Phone Edition 向けのデバイス ファームウェア更新プログラムの新しいセットを定期的にリリースしています。デバイス更新ルールは、ファームウェア更新プログラムを、ハードウェア デバイス (Lync Phone Edition を実行する電話などのデバイス) に関連付けます。
+</div>
 
-デバイス更新ルールの最新のセットを取得するには、Microsoft の Web サイトのヘルプとサポート ページで、"Phone Edition" を検索します。更新パッケージをダウンロードして、更新プログラムのアップロード先となるコンピューター上のフォルダーにファイルを展開します。ファイルを展開した後、展開した .CAB ファイル (UCUpdates.cab という名前) で見つかったデバイス更新ルールをインポートします。次に Lync Server コントロール パネルまたは Windows PowerShell コマンドレットを使用して、組織のデバイスに対するこれらのルールを表示および管理します。
+<div id="mainSection">
 
-次のトピックでは、デバイス更新ルールのインポート、表示、および管理方法について説明します。
+<div id="mainBody">
 
-## このセクション中
+<span> </span>
 
-  - [デバイス更新ルールに関する情報の表示](lync-server-2013-view-information-about-device-update-rules.md)
+_**最終更新日:** 2013-02-20_
 
-  - [デバイス更新プログラム ルールをインポートする](lync-server-2013-import-device-update-rules.md)
+Microsoft は定期的に、Lync Phone Edition 用の新しいデバイスファームウェア更新プログラムセットをリリースします。 *デバイス更新ルール*は、Lync Phone Edition を実行している電話やその他のデバイスなどのファームウェア更新プログラムをハードウェアデバイスに関連付けます。
 
-  - [デバイス更新プログラム ルールを承認する](lync-server-2013-approve-a-device-update-rule.md)
+最新のデバイス更新ルールのセットを取得するには、Microsoft web サイトの [ヘルプとサポート] ページに移動して、"Phone Edition" を検索します。 更新プログラムパッケージをダウンロードし、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。 ファイルを抽出した後、展開されたデバイス更新ルールをインポートします。CAB ファイル ("UCUpdates .cab" という名前が付いています)。 次に、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使用して、組織のデバイスのこれらのルールを表示し、管理します。
 
-  - [デバイス更新ルールの削除](lync-server-2013-remove-a-device-update-rule.md)
+次のトピックでは、デバイス更新ルールをインポート、表示、管理する方法について説明します。
 
-  - [デバイス更新ルールのリセット](lync-server-2013-reset-a-device-update-rule.md)
+<div>
 
-  - [デバイス更新ルールの復元](lync-server-2013-restore-a-device-update-rule.md)
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 でのデバイス更新ルールに関する情報を確認する](lync-server-2013-view-information-about-device-update-rules.md)
+
+  - [Lync Server 2013 でデバイス更新ルールをインポートする](lync-server-2013-import-device-update-rules.md)
+
+  - [Lync Server 2013 でデバイス更新ルールを承認する](lync-server-2013-approve-a-device-update-rule.md)
+
+  - [Lync Server 2013 でデバイス更新ルールを削除する](lync-server-2013-remove-a-device-update-rule.md)
+
+  - [Lync Server 2013 でのデバイス更新ルールのリセット](lync-server-2013-reset-a-device-update-rule.md)
+
+  - [Lync Server 2013 でデバイス更新ルールを復元する](lync-server-2013-restore-a-device-update-rule.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

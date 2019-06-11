@@ -1,89 +1,138 @@
-﻿---
-title: Lync Server 2013 管理パックのインポート
-TOCTitle: Lync Server 2013 管理パックのインポート
-ms:assetid: 846287e1-660f-453f-bdba-b2137b5f0ea1
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205052(v=OCS.15)
-ms:contentKeyID: 48272703
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server 2013 管理パックのインポート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Importing the Lync Server 2013 management packs
+ms:assetid: 846287e1-660f-453f-bdba-b2137b5f0ea1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205052(v=OCS.15)
+ms:contentKeyID: 48184690
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 70c753334ea9a046c6081a73ce70e4de00de9188
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833022"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 管理パックのインポート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="importing-the-lync-server-2013-management-packs"></a>Lync Server 2013 管理パックのインポート
 
-管理パックをインストールすることで、System Center Operations Manager の機能を拡張できます。管理パックは、System Center Operations Manager が監視できる項目、それらの項目を監視する方法、および通知をトリガーして報告する方法が示されているソフトウェアです。Lync Server 2013 には 2 つの System Center Operations Manager 管理パックが含まれ、以下の機能が提供されます。
+</div>
 
-  - Component and User Management Pack (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) は、イベント ログに記録されたり、パフォーマンス カウンターによって登録されたり、通話詳細記録 (CDR) データベースや Quality of Experience (QoE) データベースに記録されたりした Lync Server の問題を追跡します。重大な問題については、電子メール、インスタント メッセージ、または Short Message Service (SMS) メッセージングで管理者にすぐに通信するように、System Center Operations Manager を構成できます。SMS は、モバイル デバイス間でテキスト メッセージを送信するために使用されるテクノロジです。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-22_
+
+管理パック (System Center Operations Manager が監視できる項目を決定するソフトウェア、およびそれらの項目を監視する方法、およびアラートをトリガーする方法、および警告をトリガーする方法) をインストールすることによって System Center Operations Manager の機能を拡張することができます。発生. Lync Server 2013 には、次の機能を提供する System Center Operations Manager の2つの管理パックが含まれています。
+
+  - コンポーネントとユーザー管理パック (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) は、イベントログに記録された Lync Server の問題を追跡し、パフォーマンスカウンターで登録するか、または通話の詳細レコード (CDR) またはエクスペリエンスの品質 (QoE) に記録します。databases. 重大な問題については、System Center Operations Manager を構成して、メール、インスタントメッセージ、またはショートメッセージサービス (SMS) メッセージングを使って管理者にすぐに通知することができます。 SMS は、あるモバイルデバイスから別のモバイルデバイスにテキストメッセージを送信するために使用されるテクノロジです。)
     
-    > [!NOTE]
-    > Operations Manager 通知の構成の詳細については、TechNet ライブラリの「通知の構成」(<a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x411</a>) を参照してください。
+    <div>
+    
+
+    > [!NOTE]  
+    > Operations Manager の通知の構成の詳細については、TechNet ライブラリの「 <A href="http://go.microsoft.com/fwlink/p/?linkid=268785">http://go.microsoft.com/fwlink/p/?LinkId=268785</A>通知を設定する」を参照してください。
+
+    
+    </div>
+
+  - アクティブな監視管理パック (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) は、システムへのサインイン、インスタントメッセージの交換、パブリックスイッチのある電話への呼び出しなど、Lync Server の主要なコンポーネントを事前にテストします。電話網 (PSTN)。 これらのテストは、Lync Server の代理トランザクションコマンドレットを使用して行われます。 たとえば、テスト**用の cgi**コマンドレットを使用して、1組のテストユーザー間のインスタントメッセージング (IM) 会話をシミュレートできます。 このシミュレートされたメッセージの会話に失敗した場合は、アラートが生成されます。
+
+管理パックをインポートする必要があります。 管理パックをインポートしない場合、Operations Manager を使用して Lync Server イベントを監視したり、Lync Server の代理トランザクションを実行したりすることはできません。
+
+コンポーネントとユーザー管理パックは、Lync Server 2013 を監視するためだけに使用されます。 Lync Server 2013 と Lync Server 2010 の両方がインストールされている共存シナリオを使用している場合は、引き続き lync server 2010 コンピューター用の Lync Server 2010 管理パックを使用する必要があります。
+
+<div>
 
 
-  - Active Monitoring Management Pack (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) は、システムへのサインイン、インスタント メッセージの交換、公衆交換電話網 (PSTN) に存在する電話の呼び出しなど、Lync Server の重要なコンポーネントに対する予防的なテストを行います。これらのテストは、Lync Server の代理トランザクション コマンドレットを使用して実施されます。たとえば、**Test-CsIM** コマンドレットを使用すると、テスト ユーザーのペア間のインスタント メッセージング (IM) の会話をシミュレーションできます。このシミュレーションされたメッセージの会話が失敗すると、通知が生成されます。
+> [!NOTE]  
+> Lync server 2010 用の管理パックには、Lync Server 2010 監視管理パックと Lync Server 2010 グループチャット監視管理パックが含まれています。
 
-管理パックをインポートする必要があります。管理パックをインポートしないと、Operations Manager を使用して Lync Server のイベントを監視したり、Lync Server の代理トランザクションを実行したりすることができません。
 
-Component and User Management Pack は、Lync Server 2013 の監視にのみ使用されます。Lync Server 2013 と Lync Server 2010 の両方がインストールされている併置シナリオの場合、Lync Server 2010 のコンピューターには引き続き Lync Server 2010 管理パックを使用する必要があります。
 
-> [!NOTE]
-> Lync Server 2010 用の管理パックには、Lync Server 2010 Monitoring Management Pack と Lync Server 2010 Group Chat Monitoring Management Pack が含まれます。
-
+</div>
 
 次のいずれかのツールを使用して、管理パックをインポートできます。
 
-  - **System Center Operations Manager**   この方法では、Operations Manager を使用して Lync Server の監視を追加します。
+  - **System Center Operations manager**   この方法では、Operations manager を使用して Lync Server の監視を追加します。
 
-  - **Operations Manager シェル**   Operations Manager シェルを使用して、管理パックを直接インポートしたり、System Center Operations Manager コンソールで管理パックをインポートするときに発生した問題をトラブルシューティングしたりできます。
+  - **Operations manager shell**   operations manager shell を使用して直接インポートするか、System Center Operations Manager コンソールを使用して、管理パックのインポート時に発生した問題のトラブルシューティングを行うことができます。
 
-## System Center Operations Manager を使用した管理パックのインポート
+<div>
 
-1.  ファイル Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp と Microsoft.LS.2013.Monitoring.ComponentAndUser.mp をダウンロードします。
+## <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>System Center Operations Manager を使用した管理パックのインポート
 
-2.  System Center Operations Manager で \[**管理**\] をクリックします。
+1.  Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp と Microsoft.LS.2013.Monitoring.ComponentAndUser.mp ファイルをダウンロードします。
 
-3.  \[**管理**\] ウィンドウで、\[**管理パック**\] を右クリックして \[**管理パックのインポート**\] をクリックします。
+2.  System Center Operations Manager で、[**管理**] をクリックします。
 
-4.  \[**管理パックの選択**\] ダイアログ ボックスで、\[**追加**\] をクリックし、\[**ディスクから追加する**\] をクリックします。
+3.  [管理**** ] ウィンドウで、[**管理パック**] を右クリックし、[**管理パックのインポート**] をクリックします。
 
-5.  \[**オンライン カタログ接続**\] ダイアログ ボックスで \[**キャンセル**\] をクリックして、Lync Server 管理パックに依存関係が存在するかどうかを確認するために Operations Manager がオンラインにならないようにします。System Center Operations Manager 2012 を使用している場合は、\[**いいえ**\] をクリックします。
+4.  [**管理パックの選択**] ダイアログ ボックスで、[**追加**] をクリックし、[**ディスクから追加する**] をクリックします。
 
-6.  \[**インポートする管理パックの選択**\] ダイアログ ボックスで、ファイル **Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp** と **Microsoft.LS.2013.Monitoring.ComponentAndUser.mp** を探して選択し、\[**開く**\] をクリックします。ダイアログ ボックスで複数のファイルを選択するには、最初のファイルをクリックした後、Ctrl キーを押しながら 2 番目のファイルをクリックします。
+5.  [**オンラインカタログ接続**] ダイアログボックスで、[**キャンセル**] をクリックして、Lync Server 管理パックの依存関係が存在するかどうかを確認します。 System Center Operations Manager 2012 を使っている場合は、[**いいえ**] をクリックします。
 
-7.  \[**管理パックの選択**\] ダイアログ ボックスで、\[**インストール**\] をクリックします。エラー メッセージが表示されてインストールが失敗する場合は、通常、管理パックのファイルが Windows ユーザー アカウント制御によって保護されているフォルダー内にあることを意味します。その場合は、ファイルを別のフォルダーにコピーした後、インポートとインストールの処理を再度開始します。
+6.  **[インポートする管理パックの選択**] ダイアログボックスで、 **Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp**と**Microsoft.LS.2013.Monitoring.ComponentAndUser.mp**ファイルを探して選び、[**開く**] をクリックします。 ダイアログボックスで複数のファイルを選択するには、最初のファイルをクリックし、Ctrl キーを押しながら2番目のファイルをクリックします。
 
-8.  \[**管理パックの選択**\] ダイアログ ボックスで、\[**閉じる**\] をクリックします。インポートとインストールの処理には数分かかることがあります。
+7.  [**管理パックの選択**] ダイアログ ボックスで、[**インストール**] をクリックします。 エラー メッセージが表示されてインストールが失敗する場合は、通常、管理パックのファイルが Windows ユーザー アカウント制御によって保護されているフォルダー内にあることを意味します。 この問題が発生した場合は、ファイルを別のフォルダーにコピーし、インポートとインストールのプロセスを再起動します。
 
-## Operations Manager シェルを使用した管理パックのインポート
+8.  [**管理パックの選択**] ダイアログ ボックスで、[**閉じる**] をクリックします。 インポートとインストールのプロセスには数分かかる場合があることに注意してください。
 
-一般には、管理パックをインポートするには Operations Manager を使用する方が簡単です。ただし、エラーが発生してインポートが失敗する場合、コンソールでは適切にエラーが報告されないことがあります。これに対し、Operations Manager シェルでは詳細な情報が提供されます。Operations Manager を使用していて、管理パックのインポートに問題がある場合は、Operations Manager シェルを使用してパックをインポートしてください。Operations Manager シェルではインポートが失敗した理由の特定に役立つ可能性のある詳細な情報が提供されます。
+</div>
+
+<div>
+
+## <a name="importing-management-packs-by-using-the-operations-manager-shell"></a>Operations Manager シェルを使用して管理パックをインポートする
+
+通常、管理パックのインポートは、Operations Manager を使用して簡単に行うことができます。ただし、エラーが発生してインポートが失敗した場合は、コンソールが適切なエラーレポートを提供するとは限りません。 比較では、Operations Manager Shell に詳細情報が表示されます。 Operations Manager を使用していて、管理パックのインポートで問題が発生した場合は、Operations Manager Shell を使用してパックをインポートします。 Operations Manager Shell には、インポートが失敗した理由を特定するのに役立つ情報が記載されています。
 
 System Center Operations Manager 2007 R2 を使用している場合は、次の手順を実行します。
 
-1.  \[**スタート**\]、\[**すべてのプログラム**\]、\[**System Center Operations Manager 2007 R2**\] の順にクリックし、\[**Operations Manager シェル**\] をクリックします。
+1.  [**スタート**] をクリックし、[**すべてのプログラム**] をクリックし、[ **System Center Operations Manager 2007 R2**] をクリックして、[ **Operations Manager Shell**] をクリックします。
 
-2.  Operations Manager シェルのコマンド プロンプトで次のコマンドを入力して、Enter キーを押します。パスには、Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp ファイルのコピーの実際のパスを使用します。
+2.  Operations Manager シェルで、コマンドプロンプトで、Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp ファイルの実際のパスを使用して、次のコマンドを入力し、ENTER キーを押します。
     
         MPImport.exe D:\MP\Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp
 
-3.  最初の管理パックをインポートした後、Microsoft.LS.2013.Monitoring.ComponentAndUser.mp ファイルのコピーのパスを使用して処理を繰り返します。
+3.  最初の管理パックをインポートした後、Microsoft.LS.2013.Monitoring.ComponentAndUser.mp ファイルのコピーへのパスを使用して、次の手順を繰り返します。
     
         MPImport.exe D:\MP\Microsoft.LS.2013.Monitoring.ComponentAndUser.mp
 
 4.  Operations Manager シェルを閉じます。
 
-System Center Operations Manager 2012 を使用している場合は、以下の手順を使用します。
+System Center Operations Manager 2012 を使用している場合は、代わりに次の手順を実行します。
 
-1.  \[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft System Center 2012**\]、\[**Operations Manager**\] の順にクリックし、\[**Operations Manager シェル**\] をクリックします。
+1.  [**スタート**]、[**すべてのプログラム**]、[**Microsoft System Center 2012**]、[**Operations Manager**] の順にクリックし、[**Operations Manager シェル**] をクリックします。
 
-2.  Operations Manager シェルのコマンド プロンプトで次のコマンドを入力して、Enter キーを押します。パスには、Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp ファイルのコピーの実際のパスを使用します。
+2.  Operations Manager シェルで、コマンドプロンプトで、Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp ファイルの実際のパスを使用して、次のコマンドを入力し、ENTER キーを押します。
     
         Import-SCOMManagementPack -FullName "D:\MP\ Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp"
 
-3.  最初の管理パックをインポートした後、Microsoft.LS.2013.Monitoring.ComponentAndUser.mp ファイルのコピーのパスを使用して処理を繰り返します。
+3.  最初の管理パックをインポートした後、Microsoft.LS.2013.Monitoring.ComponentAndUser.mp ファイルのコピーへのパスを使用して、次の手順を繰り返します。
     
         Import-SCOMManagementPack -FullName "D:\MP\ Microsoft.LS.2013.Monitoring.ComponentAndUser.mp"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

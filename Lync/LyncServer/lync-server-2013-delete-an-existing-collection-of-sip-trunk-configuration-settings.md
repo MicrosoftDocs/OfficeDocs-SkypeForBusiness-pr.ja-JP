@@ -1,29 +1,49 @@
-﻿---
-title: SIP トランク構成設定の既存コレクションの削除
-TOCTitle: SIP トランク構成設定の既存コレクションの削除
-ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688024(v=OCS.15)
-ms:contentKeyID: 49886918
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: SIP トランク構成設定の既存コレクションの削除
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an existing collection of SIP trunk configuration settings
+ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688024(v=OCS.15)
+ms:contentKeyID: 49733614
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2b896d53760184d15b02afed14b8a9c0d660f96b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833619"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# SIP トランク構成設定の既存コレクションの削除
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-22_
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 で既存の SIP トランク構成設定のコレクションを削除する
 
-SIP トランク構成設定では、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP 構内交換機 (PBX)、またはサービス プロバイダーのセッション境界コントローラー (SBC) との間の関係と機能を定義します。これらの設定では以下を指定します。
+</div>
 
-  - トランクでメディアのバイパスを有効にする必要があるかどうか
+<div id="mainSection">
 
-  - リアルタイム転送制御プロトコル (RTCP) パケットを送信する条件
+<div id="mainBody">
 
-  - 各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化が必要かどうか
+<span> </span>
 
-Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバル コレクションが作成されます。この設定のグローバル コレクションは削除できません。ただし、グローバル コレクションのプロパティは、Lync Server コントロール パネルまたは [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) コマンドレットを使用して既定値に "リセット" できます。たとえば、Enable3pccRefer プロパティを True に設定した場合、グローバル コレクションをリセットすると、Enable3pccRefer プロパティは既定値である False に戻ります。
+_**最終更新日:** 2013-02-22_
+
+SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチ交換 (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) 間の関係と機能を定義します。 たとえば、次の設定ができます。
+
+  - トランクでメディア バイパスを有効化するか。
+
+  - リアルタイム伝送制御プロトコル (RTCP) パケットを送信する条件。
+
+  - 各トランクで、セキュリティで保護されたリアルタイムプロトコル (SRTP) 暗号化が必要かどうかを示します。
+
+Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。 この設定のグローバル コレクションは削除できません。 ただし、Lync Server コントロールパネルまたは[set-cstrunkconfiguration](https://technet.microsoft.com/en-us/library/Gg425943(v=OCS.15))コマンドレットを使用して、グローバルコレクションのプロパティを既定値に "リセット" することができます。 たとえば、Enable3pccRefer プロパティを True に設定した場合、グローバル コレクションをリセットすると、Enable3pccRefer プロパティは既定値である False に戻ります。
 
 管理者がサイト スコープまたはサービス スコープでカスタム トランク構成設定を作成することもできます (個別の PSTN ゲートウェイの場合)。これらのカスタム設定は削除できます。カスタム設定を削除するときは、次の点に注意してください。
 
@@ -31,41 +51,71 @@ Microsoft Lync Server 2013 をインストールすると、SIP トランク構�
 
   - サイト スコープの設定を削除すると、その設定で管理されていたすべての SIP トランクが、トランク構成設定のグローバル コレクションによって管理されます。
 
-## Lync Server コントロール パネルを使用してトランク構成設定を削除する
+<div>
 
-1.  Lync Server コントロール パネルで、\[**音声のルーティング**\]、\[**トランク構成**\] の順にクリックします。
+## <a name="to-remove-trunk-configuration-settings-with-lync-server-control-panel"></a>Lync Server コントロールパネルでトランク構成設定を削除するには
 
-2.  \[**トランク構成**\] タブで、削除する SIP トランク構成設定のコレクションを選択し、\[**編集**\]、\[**削除**\] の順にクリックします。同じ操作で複数のコレクションを削除するには、削除する最初のコレクションをクリックし、Ctrl キーを押しながら、削除するその他のコレクションをクリックします。
+1.  Lync Server コントロールパネルで、[**音声ルーティング**] をクリックし、[**トランク構成**] をクリックします。
 
-3.  コレクションの \[**状態**\] プロパティが \[**コミットされていません**\] に更新されます。変更をコミットし、コレクションを削除するには、\[**コミット**\]、\[**すべてコミット**\] の順にクリックします。
+2.  [**トランク構成**] タブで、削除する SIP トランク構成設定のコレクションを選択し、[**編集**]、[**削除**] の順にクリックします。同じ操作で複数のコレクションを削除するには、削除する最初のコレクションをクリックし、Ctrl キーを押しながら、削除するその他のコレクションをクリックします。
 
-4.  \[**コミットされていない音声構成設定**\] ダイアログ ボックスで、\[**OK**\] をクリックします。
+3.  コレクションの [**状態**] プロパティが、[**コミットされていません**] に変わります。変更をコミットし、コレクションを削除するには、[**コミット**] をクリックした後、[**すべてコミット**] をクリックします。
 
-5.  \[**Microsoft Lync Server 2013 Control Panel**\] ダイアログ ボックスで、\[**OK**\] をクリックします。
+4.  [**コミットされていない音声構成設定**] ダイアログ ボックスで、[**OK**] をクリックします。
 
-6.  後でコレクションを削除しないことにした場合は、\[**コミット**\]、\[**コミットされていないすべての変更を取り消し**\] の順にクリックします。\[**Microsoft Lync Server 2013 Control Panel**\] ダイアログ ボックスが表示されたら、\[**OK**\] をクリックします。
+5.  [ **Microsoft Lync Server 2013 コントロールパネル**] ダイアログボックスで、[ **OK**] をクリックします。
 
-## Lync Server PowerShell コマンドレットを使用してトランク構成設定を削除する
+6.  If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. [ **Microsoft Lync Server 2013 コントロールパネル**] ダイアログボックスが表示されたら、[ **OK**] をクリックします。
 
-Windows PowerShell および Remove-CsTrunkConfiguration コマンドレットを使用して、トランク構成設定を削除することもできます。このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+</div>
 
-## 指定した設定のコレクションを削除する
+<div>
+
+## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したトランク構成設定の削除
+
+Windows PowerShell と**set-cstrunkconfiguration**コマンドレットを使用して、トランク構成設定を削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-remove-a-specified-collection-of-settings"></a>指定した設定のコレクションを削除するには
 
   - 次のコマンドを実行すると、Redmond サイトに適用されていたトランク構成設定が削除されます。
     
         Remove-CsTrunkConfiguration -Identity site:Redmond
 
-## サイト スコープに適用されているすべてのコレクションを削除する
+</div>
+
+<div>
+
+## <a name="to-remove-all-the-collections-applied-to-the-site-scope"></a>サイト スコープに適用されているすべてのコレクションを削除するには
 
   - 次のコマンドを実行すると、サービス スコープに適用されているすべてのトランク構成設定が削除されます。
     
         Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration
 
-## メディア バイパスが有効になっているすべてのコレクションを削除する
+</div>
+
+<div>
+
+## <a name="to-remove-all-the-collections-where-media-bypass-is-enabled"></a>メディア バイパスが有効になっているすべてのコレクションを削除するには
 
   - 次のコマンドを実行すると、メディア バイパスが有効になっているすべてのトランク構成設定が削除されます。
     
         Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
 
-詳細については、[Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) コマンドレットのヘルプ トピックを参照してください。
+</div>
+
+詳細については、 [set-cstrunkconfiguration](https://technet.microsoft.com/en-us/library/Gg425943(v=OCS.15))コマンドレットのヘルプトピックを参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,53 @@
-﻿---
-title: 'Lync Server 2013: 計画ツールのインストール'
-TOCTitle: 計画ツールのインストール
-ms:assetid: ebdc9e26-4b22-4b02-85b9-7462bcfe7c93
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615046(v=OCS.15)
-ms:contentKeyID: 52056742
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 計画ツールのインストール'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing the Planning Tool
+ms:assetid: ebdc9e26-4b22-4b02-85b9-7462bcfe7c93
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615046(v=OCS.15)
+ms:contentKeyID: 51541525
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0e528062d5fd04e1a11df934cbc01b2dc8c92aa4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832969"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での計画ツールのインストール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-11-07_
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Lync Server 2013 での計画ツールのインストール
 
-Microsoft Lync Server 2013、計画ツールを使用して Lync Server 2013 インフラストラクチャの設計と計画を開始する前に、最初に 計画ツールをインストールする必要があります。 Lync Server 2013 をインストールする予定のドメインまたはインフラストラクチャの一部であるワークステーションやサーバーに、 計画ツールを展開する必要はありません。 計画ツールに付属する Readme ファイルに、このツールのインストールと使用に関する重要な情報が詳しく記載されています。わかりやすくするために、Readme ファイルの情報の一部をここに転載します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-11-07_
+
+Microsoft Lync Server 2013、計画ツールを使用して、Lync Server 2013 インフラストラクチャの設計と計画を開始する前に、まず計画ツールをインストールする必要があります。 計画ツールは、Lync Server 2013 をインストールする予定のドメインまたはインフラストラクチャの一部であるワークステーションまたはサーバーに展開する必要はありません。 計画ツールに付随する Readme ファイルには、ツールのインストールと使用に関する重要な情報が説明されています。 わかりやすくするために、Readme ファイルの情報の一部をここに転載します。
+
+<div>
 
 
-> [!IMPORTANT]
-> 管理者権限とアクセス許可を持つユーザーが、ツールのインストール先となるコンピューターに 計画ツールをインストールする必要があります。
+> [!IMPORTANT]  
+> 計画ツールをインストールするには、ツールをインストールするコンピューターの管理者権限と権限を持つユーザーによるインストールが必要です。
 
 
 
-以下のサポートされるオペレーティング システムに 計画ツールをインストールして使用できます。
+</div>
+
+計画ツールのインストールと運用でサポートされているオペレーティングシステムは次のとおりです。
 
   - Windows 8
 
@@ -39,33 +63,51 @@ Microsoft Lync Server 2013、計画ツールを使用して Lync Server 2013 イ
 
   - Windows Server 2008 R2、WOW 使用
 
-さらに、 計画ツールには Microsoft .NET Framework 4.5 が必要です。
+さらに、計画ツールには Microsoft .NET Framework 4.5 が必要です。
 
-インストール前の前提条件を満たせば、 計画ツールをインストールできます。
+プレインストールの要件が満たされたら、計画ツールをインストールすることができます。
 
-## 計画ツールをインストールするには
+<div>
+
+## <a name="to-install-the-planning-tool"></a>計画ツールをインストールするには
 
 1.  Administrators グループのメンバーとして、ローカル コンピューターにログオンします。
 
-2.  Windows Explorer またはコマンド ウィンドウを使用して、 計画ツールのインストール ファイルをダウンロードしたディレクトリを検索します。
+2.  Windows エクスプローラーまたはコマンドウィンドウを使って、計画ツールのインストールファイルをダウンロードしたディレクトリを見つけます。
 
-3.  LyncPlanningTool.msi を検索します。Windows Explorer で、ファイルをダブルクリックします。コマンド ウィンドウで、ファイル名を入力してから、 **Enter** キーを押してファイルを実行します。
+3.  LyncPlanningTool を見つけます。 Windows Explorer で、ファイルをダブルクリックします。 コマンド ウィンドウで、ファイル名を入力してから、**Enter** キーを押してファイルを実行します。
 
-4.  **Microsoft Lync Server 2013、計画ツール セットアップ ウィザード** の \[ようこそ\] ページで、\[**次へ**\] をクリックします。
+4.  **Microsoft Lync Server 2013、計画ツールのセットアップウィザード**の [ようこそ] ページで、[**次へ**] をクリックします。
 
-5.  \[**使用許諾契約書**\] を読んでから、使用許諾契約書に同意する場合には \[**使用許諾契約書に同意します**\] チェック ボックスをオンにして、\[**次へ**\] をクリックします。
+5.  [**使用許諾契約書**] を読んでから、使用許諾契約書に同意する場合には [**使用許諾契約書に同意します**] チェック ボックスをオンにして、[**次へ**] をクリックします。
 
-6.  計画ツール ファイルをインストールする場所を選択します。既定の場所は C:\\Program Files (x86)\\Microsoft Lync Server 2013\\Planning Tool です。インストール先を変更するには、\[**変更**\] をクリックします。\[**インストール先フォルダーの変更**\] で、ファイルをインストールする場所を参照または入力し、\[**OK**\] をクリックしてから、\[**次へ**\] をクリックします。
+6.  計画ツール ファイルをインストールする場所を選択します。 既定の場所は C:\\Program Files (x86)\\Microsoft Lync Server 2013\\計画ツールです。 インストール先を変更するには、[**変更 **] をクリックします。 [**インストール先フォルダーの変更**] で、ファイルをインストールする場所を参照または入力し、[**OK **] をクリックしてから、[**次へ**] をクリックします。
 
-7.  これでインストーラーによる 計画ツールのインストール準備ができました。\[**インストール**\] をクリックして、インストール プロセスを開始します。
+7.  これで、インストーラーで計画ツールをインストールする準備が整いました。 [**インストール**] をクリックして、インストール プロセスを開始します。
 
-8.  インストールが開始され、進行状況が表示されます。インストールが正常に完了したら、\[**完了**\] をクリックします。
+8.  インストールが開始され、進行状況が表示されます。 インストールが正常に完了したら、[**完了**] をクリックします。
 
-9.  これで 計画ツールを使用できるようになりました。
+9.  計画ツールを使用する準備ができました。
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
 
-[Lync Server 2013 でのオプションのソフトウェアのインストール](lync-server-2013-installing-optional-software.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でオプションのソフトウェアをインストールする](lync-server-2013-installing-optional-software.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

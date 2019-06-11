@@ -1,47 +1,85 @@
-﻿---
-title: Lync Server 2013 でのネットワーク サイト間ポリシーの作成
-TOCTitle: Lync Server 2013 でのネットワーク サイト間ポリシーの作成
-ms:assetid: b0714aae-55dc-4587-b718-34a03f596b22
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412844(v=OCS.15)
-ms:contentKeyID: 48273291
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ネットワークのサイト間ポリシーを作成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create network intersite policies
+ms:assetid: b0714aae-55dc-4587-b718-34a03f596b22
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412844(v=OCS.15)
+ms:contentKeyID: 48185148
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b6309b27ddedb37c2c38e7d40e74e427f61b904a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833831"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのネットワーク サイト間ポリシーの作成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-19_
+# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Lync Server 2013 でネットワークのサイト間ポリシーを作成する
 
-*ネットワーク サイト間ポリシー*は、WAN リンクで直接接続されたサイト間の帯域幅制限を定義します。
+</div>
 
-詳細については、Lync Server 管理シェルのドキュメントに記載されている次のコマンドレットを参照してください。
+<div id="mainSection">
 
-  - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)
+<div id="mainBody">
 
-  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)
+<span> </span>
 
-  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)
+_**最終更新日:** 2012-10-19_
 
-  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
+*ネットワークのサイト間ポリシー*は、それらの間に直接 WAN リンクがあるサイト間の帯域幅制限を定義します。
+
+詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
+
+  - [新規-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)
+
+  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)
+
+  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)
+
+  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
+
+<div>
 
 
-> [!IMPORTANT]
-> ネットワーク サイト間ポリシーが必要なのは、2 つのネットワーク サイト間に直接クロス リンクがある場合<EM>のみ</EM>です。
+> [!IMPORTANT]  
+> ネットワークのサイト間ポリシーは、2つのネットワークサイト間に直接クロスリンクがある場合に<EM>のみ</EM>必要です。
 
 
 
-North America 地域のトポロジの例では、Reno と Albuquerque のサイト間に直接リンクがあります。 この 2 つのサイトでは、適切な帯域幅ポリシー プロファイルを適用するサイト間ポリシーが必要です。 次の例は、20Mb\_Link プロファイルを適用します。
+</div>
 
-## ネットワーク サイト間ポリシーを作成するには
+North America 地域のトポロジの例では、Reno と Albuquerque のサイト間に直接リンクがあります。 この2つのサイトでは、適切な帯域幅ポリシープロファイルを適用するサイト間ポリシーが必要です。 次の例では、\_20 ~ 20 のリンクプロファイルを適用します。
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+<div>
 
-2.  New-CsNetworkInterSitePolicy コマンドレットを実行してネットワーク サイト間ポリシーを作成し、直接クロス リンクで接続された 2 つのサイトに対して適切な帯域幅ポリシー プロファイルを適用します。たとえば、以下を実行します。
+## <a name="to-create-a-network-intersite-policy"></a>ネットワークのサイト間ポリシーを作成するには
+
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+
+2.  CsNetworkInterSitePolicy コマンドレットを実行して、ネットワークのサイト間ポリシーを作成し、ダイレクトクロスリンクを持つ2つのサイトに対して、適切な帯域幅ポリシープロファイルを適用します。 たとえば、以下を実行します。
     
         New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
 
-3.  必要に応じてステップ 2 を繰り返し、直接クロス リンクで接続されたすべてのネットワーク サイトのペアに対してネットワーク サイト間ポリシーを作成します。
+3.  必要に応じて、手順2を繰り返して、ダイレクトクロスリンクを含むすべてのネットワークサイトペアのネットワークサイト間ポリシーを作成します。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,65 +1,107 @@
-﻿---
-title: 'Lync Server 2013: セットアップ アクセス許可の付与'
-TOCTitle: セットアップ アクセス許可の付与
-ms:assetid: 15982bfe-6844-44f6-815a-72dcaf0e4d21
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398225(v=OCS.15)
-ms:contentKeyID: 48271363
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: セットアップ アクセス許可の付与'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Granting setup permissions
+ms:assetid: 15982bfe-6844-44f6-815a-72dcaf0e4d21
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398225(v=OCS.15)
+ms:contentKeyID: 48183491
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 751ec9ba024780344596bfc0513c15f7e9eafec7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833118"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのセットアップ アクセス許可の付与
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-08-27_
+# <a name="granting-setup-permissions-in-lync-server-2013"></a>Lync Server 2013 でのセットアップ アクセス許可の付与
 
-**Grant-CsSetupPermission** コマンドレットを使用して、Read、Write、ReadSPN、および WriteSPN のアクセス許可を特定の Active Directory 組織単位 (OU) の RTCUniversalServerAdmins グループに追加できます。これにより、その OU の RTCUniversalServerAdmins グループのメンバーは、Domain Admins グループのメンバーでなくても、指定したドメインで Lync Server 2013 を実行するサーバーをインストールできるようになります。
+</div>
 
-**Grant-CsSetupPermission** コマンドレットを使用して設定したアクセス許可は、**Test-CsSetupPermission** コマンドレットを使用して確認できます。
+<div id="mainSection">
 
-**Grant-CsSetupPermission** コマンドレットを使用して付与したアクセス許可は、**Revoke-CsSetupPermission** コマンドレットを使用して削除できます。
+<div id="mainBody">
 
-## セットアップのアクセス許可を付与するには
+<span> </span>
 
-1.  セットアップのアクセス許可を付与する、ドメイン内の Lync Server 2013 を実行しているコンピューターにログオンします。OU が別の子ドメインに存在する場合、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。
+_**最終更新日:** 2012-08-27_
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+WriteSPN アクセス許可コマンド**** レットを使用して、指定した Active Directory 組織単位 (OU) の RTCUniversalServerAdmins グループに読み取り、書き込み、readspn、およびのアクセス許可を追加することができます。 その後、その OU の RTCUniversalServerAdmins グループのメンバーは、ドメイン管理者グループのメンバーにならずに、指定したドメインで Lync Server 2013 を実行しているサーバーをインストールできます。
+
+Cssetuppermission コマンドレットを使用して、設定したアクセス許可を確認します。これには、**グラント Setuppermission**コマンドレットを使用します。 ****
+
+無効にした場合は、 **Revoke setuppermissions**コマンドレットを使用して、**付与**したアクセス許可を削除できます。
+
+<div>
+
+## <a name="to-grant-setup-permissions"></a>セットアップのアクセス許可を付与するには
+
+1.  セットアップのアクセス許可を付与するドメインの、Lync Server 2013 を実行しているコンピューターにログオンします。 OU が別の子ドメインにある場合は、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。
+
+2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 3.  次のコマンドレットを実行します。
     
         Grant-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside > [-Domain <Domain FQDN>]
     
-    指定したドメインの既定の名前付けコンテキストに相対的な ComputerOu パラメーターを指定できます (CN=computer など)。または、このパラメーターに完全な OU 識別名 (DN) を指定することもできます ("CN=computers,DC=Contoso,DC=com" など)。後者の場合、指定するドメインに一致する OU DN を指定する必要があります。
+    指定したドメインの既定の名前付けコンテキスト (たとえば、CN = computers) を基準として、ComputerOu パラメーターを指定できます。 または、このパラメーターを完全な OU 識別名 (DN) として指定することもできます (たとえば、"CN = computers, DC = Contoso, DC = com")。 後者の場合、指定したドメインと一貫性のある OU DN を指定する必要があります。
     
-    Domain パラメーターを指定しない場合、既定値はローカル ドメインになります。
+    Domain パラメーターを指定しない場合、既定値はローカルドメインです。
 
-## セットアップのアクセス許可を確認するには
+</div>
 
-1.  **Grant-CsSetupPermission** コマンドレットを使用して付与したセットアップのアクセス許可を確認する、ドメイン内の Lync Server 2013 を実行しているコンピューターにログオンします。OU が別の子ドメインに存在する場合、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。
+<div>
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+## <a name="to-verify-setup-permissions"></a>セットアップのアクセス許可を確認するには
+
+1.  アクセス許可を**付与**したドメイン内の Lync Server 2013 を実行しているコンピューターにログオンします。このコマンドレットを使用して、付与したセットアップのアクセス許可を確認します。 OU が別の子ドメインにある場合は、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。
+
+2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 3.  次のコマンドレットを実行します。
     
         Test-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside> [-Domain <Domain FQDN>]
     
-    指定したドメインの既定の名前付けコンテキストに相対的な ComputerOu パラメーターを指定できます (CN=computer など)。または、このパラメーターに完全な OU 識別名 (DN) を指定することもできます ("CN=computers,DC=Contoso,DC=com" など)。後者の場合、指定するドメインに一致する OU DN を指定する必要があります。
+    指定したドメインの既定の名前付けコンテキスト (たとえば、CN = computers) を基準として、ComputerOu パラメーターを指定できます。 または、このパラメーターを完全な OU 識別名 (DN) として指定することもできます (たとえば、"CN = computers, DC = Contoso, DC = com")。 後者の場合、指定したドメインと一貫性のある OU DN を指定する必要があります。
     
-    Domain パラメーターを指定しない場合、既定値はローカル ドメインになります。
+    Domain パラメーターを指定しない場合、既定値はローカルドメインです。
 
-## セットアップのアクセス許可を無効にするには
+</div>
 
-1.  **Grant-CsSetupPermission** コマンドレットを使用して付与したセットアップのアクセス許可を無効にする、ドメイン内の Lync Server 2013 を実行しているコンピューターにログオンします。OU が別の子ドメインに存在する場合、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。
+<div>
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+## <a name="to-revoke-setup-permissions"></a>セットアップのアクセス許可を取り消すには
+
+1.  **グラント Setuppermission**コマンドレットによって付与されたセットアップのアクセス許可を取り消すドメインで、Lync Server 2013 を実行しているコンピューターにログオンします。 OU が別の子ドメインにある場合は、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。
+
+2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 3.  次のコマンドレットを実行します。
     
         Revoke-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside > [-Domain <Domain FQDN>]
     
-    指定したドメインの既定の名前付けコンテキストに相対的な ComputerOu パラメーターを指定できます (CN=computer など)。または、このパラメーターに完全な OU 識別名 (DN) を指定することもできます ("CN=computers,DC=Contoso,DC=com" など)。後者の場合、指定するドメインに一致する OU DN を指定する必要があります。
+    指定したドメインの既定の名前付けコンテキスト (たとえば、CN = computers) を基準として、ComputerOu パラメーターを指定できます。 または、このパラメーターを完全な OU 識別名 (DN) として指定することもできます (たとえば、"CN = computers, DC = Contoso, DC = com")。 後者の場合、指定したドメインと一貫性のある OU DN を指定する必要があります。
     
-    Domain パラメーターを指定しない場合、既定値はローカル ドメインになります。
+    Domain パラメーターを指定しない場合、既定値はローカルドメインです。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

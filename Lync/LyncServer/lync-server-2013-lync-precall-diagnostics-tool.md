@@ -1,146 +1,189 @@
-﻿---
-title: Lync PreCall 診断ツール
-TOCTitle: Lync PreCall 診断ツール
-ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn451255(v=OCS.15)
-ms:contentKeyID: 59602749
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync PreCall ツール'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync PreCall Diagnostics Tool
+ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
+ms:contentKeyID: 56708404
+ms.date: 11/04/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1e22b542a5840714455d4abdb0a7163e6a8ba748
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832926"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync PreCall 診断ツール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Lync の PreCall のすべての診断ツール (Lync Server 2013)
 
-Lync PreCall Diagnostics Tool (PCD) はクライアントベースのアプリケーションで、ネットワークの現在の状態が、予定されているエンタープライズ VoIP 通話の音声品質にどのように影響する可能性があるかを確認できます。
+</div>
 
-PCD が最も便利であるのは、ネットワークの最終ホップが最も弱い可能性が高い (たとえば、パブリック WiFi ネットワーク上のノート PC、またはホーム ユーザーが関与する) 状況です。PCD では、ネットワークのこの最終レグをスキャンする小さなパケット ストリームを作成します。続いて、このツールはパケット ストリームを分析して、このレグに沿ったジッターと損失が通話品質にどの程度影響するかを見積もり、レポートを提示します。通話が行われている最中でも、クライアント上で連続的に PCD を実行できます。パケット ストリームは、帯域幅に大きな影響を与えません。
+<div id="mainSection">
 
-**PCD の最新リリースであるバージョン 1.1 には、次の拡張機能が含まれています。**
+<div id="mainBody">
 
-  - 最大 127 文字の長いパスワードのサポート
+<span> </span>
 
-  - 認証サインインの問題に対する追加の診断機能
+_**最終更新日:** 2016-11-04_
 
-  - Lync ハイブリッド展開のサポートの向上
+Lync PreCall Diagnostics ツール (PCD) はクライアントベースのアプリケーションであり、ネットワークの現在の状態が、今後のエンタープライズ音声通話での音声品質にどのように影響するかを確認できます。
 
-  - Credential Picker の更新
+PCD は、ネットワークの最後のホップが脆弱である可能性が高い場合 (たとえば、公共の WiFi ネットワークまたはホームユーザーのノート pc など) に最も役立ちます。 PCD は、ネットワークのこの最終区間を走査する小さなパケットストリームを作成します。 このツールは、パケットストリームを分析して、この区間でのジッターと損失が通話品質にどのように影響するかを予測し、レポートを提供します。 PCD は、通話が行われているときでも、クライアントで継続的に実行できます。 パケットストリームは、帯域幅に大きな影響を与えません。
+
+**PCD バージョン1.1 の最新のリリースには、次の機能強化が含まれています。**
+
+  - 長いパスワードをサポートし、最大127文字まで使用できるようになりました。
+
+  - 認証サインインの問題に関する追加診断
+
+  - Lync ハイブリッド展開のサポートが向上
+
+  - 資格情報ピッカーの更新
 
   - 安定性の向上
 
-Microsoft はフィードバックをお待ちしています。サポートに関するすべての質問や問題は、<pcdfb@microsoft.com> の [PCD Feedback](mailto:pcdfb@microsoft.com) エイリアスに送信してください。
+ご意見をお寄せいただき、ありがとうございます。 すべてのサポート質問または問題を[PCD のフィードバック](mailto:pcdfb@microsoft.com)エイリアスに<pcdfb@microsoft.com>送信してください。
 
 このトピックには次のセクションがあります。
 
   - Lync PCD のバージョン
 
-  - Lync PCD のシステム要件
+  - Lync PCD システム要件
 
   - Lync PCD の機能
 
-  - Lync PCD の実行
+  - Lync PCD を実行する
 
-  - Lync PCD のアンインストール
+  - Lync PCD をアンインストールする
 
-## Lync PCD のバージョン
+<span id="Version"></span>
 
-このトピックでは、無料ダウンロードで入手できる、次のバージョンのツールについて説明します。
+<div>
 
-  - Windows デスクトップ アプリ ([http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914))
+## <a name="lync-pcd-versions"></a>Lync PCD のバージョン
 
-  - Windows 8 Modern アプリ ([http://go.microsoft.com/fwlink/?LinkId=322110](http://go.microsoft.com/fwlink/p/?linkid=322110))
+このトピックでは、無料でダウンロードできるツールの次のバージョンについて説明します。
 
-> [!NOTE]
-> Office 365 Lync のユーザーは、両方のバージョンの PCD を使用できます。
+  - Windows デスクトップアプリ ([http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914))
 
+</div>
 
-以前のバージョンの PCD を使用する場合は、以下を参照してください。
+<span id="Requirements"></span>
 
-  - 32 ビット版の PCD は、Microsoft ダウンロード センター ([Office Communications Server 2007 R2, PreCallDiagnostic Resource Kit Tool (32 Bit)](http://go.microsoft.com/fwlink/p/?linkid=164769)) から無料でダウンロードできます。
+<div>
 
-  - 64 ビット版の PCD は、Microsoft ダウンロード センター ([Office Communications Server 2007 R2 Resource Kit Tools](http://go.microsoft.com/fwlink/p/?linkid=145159)) から無料でダウンロードできる Office Communications Server 2007 R2 Resource Kit Tools に含まれています。
+## <a name="lync-pcd-system-requirements"></a>Lync PCD システム要件
 
-## Lync PCD のシステム要件
-
-> [!NOTE]
-> PCD では、Unified Communications Web API (UCWA) がインストールされ、Lync Server 展開でモバイル クライアントをサポートするように構成されている必要があります。UCWA は Lync Server と共にインストールされます。
+<div>
 
 
-## Windows デスクトップ アプリの要件
+> [!NOTE]  
+> PCD をご利用になるには、ユニファイドコミュニケーション Web API (UCWA) をインストールして、Lync Server の展開でモバイルクライアントをサポートするように構成する必要があります。 UCWA は Lync Server と共にインストールされます。
 
-  - すべてのエディションの Windows 7 または Windows 8 オペレーティング システム
 
-  - Microsoft .NET Framework 4.5 ([http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790))
 
-## Windows 8 Modern アプリの要件
+</div>
 
-  - すべてのエディションの Windows 8 オペレーティング システム
+<div>
 
-  - Microsoft .NET Framework 4.5 ([http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790))
+## <a name="windows-desktop-app-requirements"></a>Windows デスクトップアプリの要件
 
-## Lync PCD の機能
+  - Windows 7 または Windows 8 オペレーティングシステムの任意のエディション
 
-Lync PCD には次の機能が搭載されています。
+  - Microsoft .NET Framework 4.5 は、で入手できます。[http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
 
-  - 既定のオンデマンド設定での実行 (2 分のバースト)
+</div>
 
-  - 常時稼動状態での実行 (スナップ ビューで最長 24 時間) モード
+</div>
 
-  - テスト実行の履歴表示
+<span id="features"></span>
 
-  - サインイン エラーの診断 (Lync PCD for Windows 8 のみ)
+<div>
 
-![Lync PCD、サインイン進捗状況のスクリーンショット](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Lync PCD、サインイン進捗状況のスクリーンショット")
+## <a name="lync-pcd-features"></a>Lync PCD の機能
 
-  - ネットワーク指標のグラフィカル表示 – 全画面表示とスナップ ビューでのネットワーク MOS、パケット損失、および到着間ジッター。
+Lync PCD には、次の機能が含まれています。
+
+  - 既定ではオンデマンドで実行する (2 分バースト)
+
+  - Always On (スナップビューで最大24時間) モードで実行する
+
+  - テストの実行の履歴ビュー
+
+  - サインインエラーの診断 (Windows 8 向け Lync PCD)
+
+![LYNC PCD 機能のサインインの進行状況を示すスクリーンショット](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "LYNC PCD 機能のサインインの進行状況を示すスクリーンショット")
+
+  - ネットワークメトリックのグラフィカル表示–ネットワーク MOS、パケット損失、および全画面表示とスナップビューでの着信のジッター。
 
 **全画面表示**
 
-![PreCall 診断ツールのテスト結果のグラフ](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "PreCall 診断ツールのテスト結果のグラフ")
+![Precall 診断ツールのテスト結果グラフ](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Precall 診断ツールのテスト結果グラフ")
 
-**スナップ ビュー**
+**スナップビュー**
 
-![PreCall 診断ツール、使用状況テストの結果](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "PreCall 診断ツール、使用状況テストの結果")
+![Precall のすべての診断ツールの使用率テスト結果](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Precall のすべての診断ツールの使用率テスト結果")
 
-## Lync PCD の実行
+</div>
 
-## Windows デスクトップ アプリの実行
+<span id="running"></span>
 
-1.  Windows 7 システムで PCD を起動するには、\[**スタート**\] メニューから \[**PreCall Diagnostics**\] を選びます。
+<div>
+
+## <a name="running-lync-pcd"></a>Lync PCD を実行する
+
+<div>
+
+## <a name="running-windows-desktop-app"></a>Windows デスクトップアプリを実行している場合
+
+1.  Windows 7 システムで PCD を開始するには、[**スタート**] メニューから [**すべての診断**を事前に実行] を選択します。
     
-    Windows 8 システムで PCD を起動するには、スタート画面のアイコンを選ぶか、"PreCall Diagnostics" を検索します。
+    Windows 8 システムで PCD を開始するには、スタート画面でアイコンを選ぶか、"すべての診断" を検索します。
     
-    ![PreCall 診断ツール アイコン](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall 診断ツール アイコン")
+    ![Precall 診断ツールアイコン](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Precall 診断ツールアイコン")
 
-2.  ツールが起動したら、資格情報を提供する優先方法を選び、\[**PreCall Diagnostics Tool Options**\] ダイアログ ボックスでネットワークの動作モードを選び、\[**OK**\] を選びます。
+2.  ツールが起動したら、資格情報を提供するための推奨される方法を選択し、[**すべての診断ツールのオプション**] ダイアログボックスでネットワークの動作モードを選択して、[ **OK]** を選択します。
 
-3.  \[**Start Test**\] ボタンを選んで、診断の実行を開始します。
+3.  [**テストの開始**] ボタンを選択して診断の実行を開始します。
     
-    \[**Use network credentials**\] オプションを選んだ場合、テストはすぐに始まります。
+    [**ネットワーク資格情報を使用**する] オプションを選択した場合、テストは直ちに開始されます。
     
-    \[**Let me enter my credentials**\] オプションを選んだ場合、**Windows のセキュリティ**に関するダイアログ ボックスが表示されます。資格情報を入力した後、テストが始まります。
+    [**資格情報を入力**する] オプションを選んだ場合は、[ **Windows セキュリティ**] ダイアログボックスが開きます。 資格情報を入力すると、テストが開始されます。
 
-## Windows 8 Modern アプリの実行
+</div>
 
+</div>
 
-1.  PCD を起動するには、スタート画面のアイコンを選ぶか、"PreCall Diagnostics" を検索します。
-    
-    ![PreCall 診断ツール アイコン](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall 診断ツール アイコン")
+<span id="uninstall"></span>
 
-2.  ツールが起動したら、Lync の資格情報を入力し、\[**OK**\] を選びます。
-    
-    ![Lync PreCall 診断ツール サインイン](images/Dn451255.88039914-4c68-48f6-a9fa-58cb4e3f3488(OCS.15).jpg "Lync PreCall 診断ツール サインイン")
+<div>
 
-3.  \[**Start test**\] ボタンを選んで、診断の実行を開始します。
+## <a name="uninstalling-lync-pcd"></a>Lync PCD をアンインストールする
 
-## Lync PCD のアンインストール
+Lync PCD を削除するには、使用しているオペレーティングシステムの手順に従います。
 
-Lync PCD を削除するには、オペレーティング システムに応じた手順を実行します。
+  - Windows 7 システムでは、**コントロールパネル**を開き、[**プログラムと機能**] を選択して、[ **Lync 2013 precall Diagnostics**] をダブルクリックします。
 
-  - Windows 7 システムでは、**コントロール パネル** を開き、\[**プログラムと機能**\] を選んで、\[**Lync 2013 PreCall Diagnostics**\] をダブルクリックします。
+  - Windows 8 システムでは、PCD タイルを右クリックして、スタート画面の下部にあるアプリバーから [**アンインストール**] をクリックします。
 
-  - Windows 8 システムでは、PCD のタイルを右クリックし、スタート画面の下部にあるアプリ バーから \[**アンインストール**\] をクリックします。
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

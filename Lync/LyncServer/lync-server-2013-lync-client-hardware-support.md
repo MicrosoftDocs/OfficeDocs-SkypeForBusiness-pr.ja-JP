@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: Lync クライアントのハードウェアのサポート'
-TOCTitle: Lync クライアントのハードウェアのサポート
-ms:assetid: 91b84b67-965c-45c0-808c-bab680a5e10a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688134(v=OCS.15)
-ms:contentKeyID: 49887053
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync クライアントのハードウェアのサポート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync client hardware support
+ms:assetid: 91b84b67-965c-45c0-808c-bab680a5e10a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688134(v=OCS.15)
+ms:contentKeyID: 49733734
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a632cf1fc7947a393ca64cf19e32e2bd30cbe03d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832931"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での Lync クライアントのハードウェアのサポート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="lync-client-hardware-support-in-lync-server-2013"></a>Lync Server 2013 での Lync クライアントのハードウェアのサポート
 
-ここでは、 Lync 2013 および Lync 2013 用オンライン ミーティング アドインの推奨ハードウェアについて説明します。
+</div>
 
-### Lync 2013 および Lync 2013 用オンライン ミーティング アドインの推奨ハードウェア
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-12-14_
+
+このセクションでは、lync 2013 および Lync 2013 用のオンライン会議アドインに推奨されるハードウェアについて説明します。
+
+### <a name="recommended-hardware-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a>Lync 2013 用の推奨ハードウェアと Lync 2013 用のオンライン会議アドイン
 
 <table>
 <colgroup>
@@ -32,51 +52,62 @@ _**トピックの最終更新日:** 2016-12-08_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>コンピューター/プロセッサ</p></td>
-<td><p>Intel Pentium 4、AMD Athlon 64、または同等の CPU</p></td>
+<td><p>コンピュータ/プロセッサ</p></td>
+<td><p>Intel Pentium 4、AMD Athlon 64、または同等の機能</p></td>
 </tr>
 <tr class="even">
 <td><p>メモリ</p></td>
-<td><p>2 GB の RAM</p></td>
+<td><p>2ギガバイト (GB) の RAM</p></td>
 </tr>
 <tr class="odd">
-<td><p>データおよび音声</p></td>
-<td><p>1.6 GHz 以上のプロセッサ (2.0 GHz (32 ビットまたは 64 ビット) を推奨)</p></td>
+<td><p>データと音声</p></td>
+<td><p>最小1.6 ギガヘルツ (GHz) 以上のプロセッサ。 2.0 ghz (32 ビットまたは64ビット) をお勧めします。</p></td>
 </tr>
 <tr class="even">
 <td><p>ビデオ</p></td>
-<td><p>「<a href="lync-server-2013-lync-client-video-requirements.md">Lync Server 2013 の Lync クライアント ビデオ要件</a>」を参照</p></td>
+<td><p><a href="lync-server-2013-lync-client-video-requirements.md">Lync Server 2013 の lync クライアントのビデオ要件を</a>参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ディスプレイの解像度</p></td>
-<td><p>1024x768 必須</p></td>
+<td><p>表示解像度</p></td>
+<td><p>1024x768 が必要</p></td>
 </tr>
 <tr class="even">
-<td><p>グラフィックス ハードウェア</p></td>
+<td><p>グラフィックスハードウェア</p></td>
 <td><ul>
-<li><p>Microsoft DirectX 9 アプリケーション プログラミング インターフェイス サポート</p></li>
-<li><p>128 MB のグラフィック メモリ (最小) (256 MB のグラフィック メモリを推奨)</p></li>
-<li><p>Windows Display Driver Model ドライバー</p></li>
-<li><p>ハードウェアのピクセル シェーダー 2.0</p></li>
-<li><p>32 ビット/ピクセル</p></li>
+<li><p>Microsoft DirectX 9 アプリケーションプログラミングインターフェイスのサポート</p></li>
+<li><p>128 mb (MB) のグラフィックスメモリ (最小) 256 MB のグラフィックスメモリをお勧めします。</p></li>
+<li><p>Windows ディスプレイドライバーモデルドライバー</p></li>
+<li><p>ハードウェアのピクセルシェーダー2.0</p></li>
+<li><p>1ピクセルあたり32ビット</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>テレフォニー</p></td>
-<td><p>マイクおよびスピーカー、マイク付きヘッドセット、または同等のデバイス。推奨デバイスは次のとおり</p>
+<td><p>マイクとスピーカー、マイク付きヘッドセット、または同等のデバイス。 推奨されるデバイス:</p>
 <ul>
-<li><p>&quot;Optimized for Microsoft Lync&quot; というロゴの付いた電話 (電話の一覧については、「Phones and Devices Qualified for Microsoft Lync」( <a href="http://go.microsoft.com/fwlink/?linkid=208938%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=208938&amp;clcid=0x411</a>) を参照)</p></li>
+<li><p>"Microsoft Lync 用に最適化された" ロゴが表示された電話 (「Microsoft <a href="http://go.microsoft.com/fwlink/p/?linkid=208938">http://go.microsoft.com/fwlink/p/?LinkID=208938</a> Lync で認定された電話とデバイス」をご覧ください)</p></li>
 <li><p>Lync Phone Edition を実行する電話</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>ビデオ ソース</p></td>
-<td><p>USB 2.0 ビデオ カメラまたは Polycom CX5000 HD デバイス ( RoundTable デバイス)</p></td>
+<td><p>ビデオソース</p></td>
+<td><p>USB 2.0 ビデオカメラまたは Polycom CX5000 HD デバイス (会議デバイス)</p></td>
 </tr>
 <tr class="odd">
 <td><p>帯域幅要件</p></td>
-<td><p>「<a href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Lync Server 2013 でのメディア トラフィックのネットワーク帯域幅の要件</a>」を参照</p></td>
+<td><p>「 <a href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Lync Server 2013 でのメディアトラフィックのネットワーク帯域幅要件」を</a>参照してください。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

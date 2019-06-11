@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: DNS の概要 - DNS と HLB 負荷分散'
-TOCTitle: DNS の概要 - DNS と HLB 負荷分散
-ms:assetid: d2132695-1956-4190-a98e-cd7255cbded6
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205273(v=OCS.15)
-ms:contentKeyID: 48273716
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: DNS の概要 - DNS と HLB 負荷分散'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - DNS and HLB load balanced
+ms:assetid: d2132695-1956-4190-a98e-cd7255cbded6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205273(v=OCS.15)
+ms:contentKeyID: 48185447
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ceccb52a8ef9fae810821ffe6b52b763dd8904c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833346"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# DNS の概要 - Lync Server 2013 での DNS と HLB 負荷分散
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="dns-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>DNS の概要 - Lync Server 2013 での DNS と HLB 負荷分散
 
-次の表に、DNS 負荷分散およびハードウェア負荷分散される ディレクターをサポートするために必要な DNS レコードの概要を示します。 ディレクターの役割には、 フロント エンド サーバーと同様の DNS レコードが必要です。必要なレコードの個数は、 ディレクター証明書で必要なサブジェクト代替名に反映されます。 フロント エンド サーバーと異なり、 ディレクター プールはユーザー アカウントまたは Mobility Service をホストしません。
+</div>
 
-### DNS 負荷分散およびハードウェア ロード バランサーを使用するディレクター プールに必要な DNS レコード
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-20_
+
+次の表には、DNS の負荷分散とハードウェア負荷分散ディレクターをサポートするために必要な DNS レコードの概要が記載されています。 ディレクターの役割には、フロントエンドサーバーと同様の DNS レコードが必要です。 必要なレコードの数は、ディレクター証明書に必要なサブジェクトの代替名に反映されます。 フロントエンドサーバーとは異なり、ディレクタープールでは、ユーザーアカウントをホストしたり、モビリティサービスをホストしたりすることはありません。
+
+### <a name="dns-records-required-for-the-director-pool-using-dns-load-balancing-and-hardware-load-balancer"></a>DNS 負荷分散とハードウェアロードバランサーを使って、ディレクタープールに必要な DNS レコード
 
 <table>
 <colgroup>
@@ -31,7 +51,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <th>場所/種類/ポート</th>
 <th>FQDN/DNS レコード</th>
 <th>IP アドレス/FQDN</th>
-<th>マッピング先/コメント</th>
+<th>マップ先/コメント</th>
 </tr>
 </thead>
 <tbody>
@@ -39,38 +59,49 @@ _**トピックの最終更新日:** 2015-03-09_
 <td><p>内部 DNS/A</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>ディレクター</p></td>
-<td><p>レプリケーションおよびサーバー間に使用される ディレクター ホスト レコード</p></td>
+<td><p>レプリケーションとサーバー間で使用されるディレクターホストレコード</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
 <td><p>dirpool01.contoso.net</p></td>
 <td><p>ディレクター プール</p></td>
-<td><p>サーバー間の、DNS 負荷分散される ディレクター プール用のホスト ホストレコード</p></td>
+<td><p>サーバー間の DNS 負荷分散ダイレクタプールのホストレコード</p></td>
 </tr>
 <tr class="odd">
 <td><p>内部 DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>ディレクター プール</p></td>
-<td><p>エッジ サーバーの内部インターフェイスからの受信 SIP (セッション開始プロトコル)</p></td>
+<td><p>エッジサーバーの内部インターフェイスからの受信セッション開始プロトコル (SIP)</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>ディレクター プール HLB VIP</p></td>
-<td><p>リバース プロキシから、ハードウェア負荷分散される公開ダイヤルイン Web サービス</p></td>
+<td><p>ディレクタープール HLB VIP</p></td>
+<td><p>リバースプロキシから発行されたハードウェア負荷分散の web サービス</p></td>
 </tr>
 <tr class="odd">
 <td><p>内部 DNS/A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>ディレクター プール HLB VIP</p></td>
-<td><p>リバース プロキシから、ハードウェア負荷分散される公開ミーティング Web サービス</p></td>
+<td><p>ディレクタープール HLB VIP</p></td>
+<td><p>リバースプロキシの web サービスによって発行されるハードウェア負荷分散</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
-<td><p>ディレクター プール HLB VIP</p></td>
-<td><p>ハードウェア負荷分散され公開され、リバース プロキシによって定義された、ディレクター プールの Web チケット外部 Web サービス</p></td>
+<td><p>ディレクタープール HLB VIP</p></td>
+<td><p>ハードウェアの負荷分散が発行され、そのリバースプロキシ Web チケットによって定義されます。ディレクタープールの外部 web サービス</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

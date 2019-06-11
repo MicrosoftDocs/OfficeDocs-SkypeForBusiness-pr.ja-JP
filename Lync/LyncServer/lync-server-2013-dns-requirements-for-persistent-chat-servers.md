@@ -1,27 +1,49 @@
-﻿---
-title: 常設チャット サーバーの DNS 要件
-TOCTitle: 常設チャット サーバーの DNS 要件
-ms:assetid: f7531374-d7ed-4b63-ae81-02294cb4496a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205391(v=OCS.15)
-ms:contentKeyID: 48274160
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 常設チャットサーバーの DNS 要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS requirements for Persistent Chat Servers
+ms:assetid: f7531374-d7ed-4b63-ae81-02294cb4496a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205391(v=OCS.15)
+ms:contentKeyID: 48185857
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a1f52fde1ee1034f453fe62f2aa3aa44d04b389c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833364"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 常設チャット サーバーの DNS 要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="dns-requirements-for-persistent-chat-servers-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーの DNS 要件
 
-このセクションでは、常設チャット サーバー の展開に必要なドメイン ネーム システム (DNS) レコードについて説明します。
+</div>
 
-## 常設チャット サーバー用 DNS レコード
+<div id="mainSection">
 
-次の表は、常設チャット サーバー の展開に必要な DNS の要件を示しています。
+<div id="mainBody">
 
-### 常設チャット サーバーの DNS 要件
+<span> </span>
+
+_**最終更新日:** 2012-06-28_
+
+このセクションでは、常設チャットサーバーの展開に必要なドメインネームシステム (DNS) レコードについて説明します。
+
+<div>
+
+## <a name="dns-records-for-persistent-chat-servers"></a>常設チャットサーバーの DNS レコード
+
+次の表は、常設チャットサーバーの展開の DNS 要件を示しています。
+
+### <a name="dns-requirements-for-a-persistent-chat-server"></a>常設チャットサーバーの DNS 要件
 
 <table>
 <colgroup>
@@ -36,20 +58,33 @@ _**トピックの最終更新日:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 つの常設チャット サーバー</p></td>
-<td><p>サーバーの完全修飾ドメイン名 (FQDN) を、そのサーバーの IP アドレスに解決する内部 A レコード。</p></td>
+<td><p>1つの常設チャットサーバー</p></td>
+<td><p>内部の A レコード。サーバーの完全修飾ドメイン名 (FQDN) を IP アドレスに解決します。</p></td>
 </tr>
 <tr class="even">
-<td><p>Persistent Chat プール</p></td>
-<td><p>サーバーの完全修飾ドメイン名 (FQDN) を、そのサーバーの IP アドレスに解決する内部 A レコード。</p>
+<td><p>常設チャットプール</p></td>
+<td><p>内部の A レコード。サーバーの完全修飾ドメイン名 (FQDN) を IP アドレスに解決します。</p>
 <p><strong>例</strong></p>
-<p>PersistentChatServer01.contoso.com     10.10.10.1</p>
-<p>PersistentChatServer02.contoso.com     10.10.10.2</p>
-<p>サーバーの完全修飾ドメイン名 (FQDN) を、そのサーバーの IP アドレスに解決する内部 A レコード。</p>
+<p>PersistentChatServer01.contoso.com 10.10.10.1</p>
+<p>PersistentChatServer02.contoso.com 10.10.10.2</p>
+<p>内部の A レコード。サーバーの完全修飾ドメイン名 (FQDN) を IP アドレスに解決します。</p>
 <p><strong>例</strong></p>
-<p>PersistentChatPool.contoso.com    10.10.10.1</p>
-<p>PersistentChatPool.contoso.com    10.10.10.2</p></td>
+<p>PersistentChatPool.contoso.com 10.10.10.1</p>
+<p>PersistentChatPool.contoso.com 10.10.10.2</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

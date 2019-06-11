@@ -1,39 +1,78 @@
-﻿---
-title: 'Lync Server 2013: Standard Edition サーバー データベースのインストール'
-TOCTitle: Standard Edition サーバー データベースのインストール
-ms:assetid: 0bd3a804-aad6-48cb-981b-54725af032db
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398167(v=OCS.15)
-ms:contentKeyID: 48271249
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Standard Edition サーバー データベースのインストール'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install Standard Edition server database
+ms:assetid: 0bd3a804-aad6-48cb-981b-54725af032db
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398167(v=OCS.15)
+ms:contentKeyID: 48183385
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5cad6f67dbf1bfff1ee16dbd7455b02d904aac0d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833000"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の Standard Edition サーバー データベースのインストール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-01_
+# <a name="install-standard-edition-server-database-for-lync-server-2013"></a>Lync Server 2013 の Standard Edition サーバー データベースのインストール
 
-インフラストラクチャ内でユーザーが所属する唯一のサーバーとして Standard Edition サーバーをセットアップする場合、他のサーバー インストールとは異なり、**展開ウィザード**で最初のサーバーのセットアップに特有の選択を行います。
+</div>
 
-## Standard Edition サーバーをインストールするには
+<div id="mainSection">
 
-1.  Standard Edition サーバー をインストールするサーバーにローカル管理者または同等のドメインとしてログオンします。
+<div id="mainBody">
 
-2.  nm-ad-1st Active Directory ドメイン サービスLync Server 用の Active Directory ドメイン サービスの準備 [Lync Server 2013 用の Active Directory ドメイン サービスの準備](lync-server-2013-preparing-active-directory-domain-services.md)
+<span> </span>
 
-3.  Lync Server 展開ウィザードで、\[ **最初の Standard Edition サーバーの準備**\] をクリックします。
+_**最終更新日:** 2012-10-01_
 
-4.  \[**単一の Standard Edition サーバーの準備**\] ページで、\[**次へ**\] をクリックします。
+インフラストラクチャ内で、標準エディションのサーバーをインフラストラクチャ内の唯一のサーバーとして設定します。これは、**展開ウィザード**で最初のサーバーを設定することを目的としています。
 
-5.  \[**コマンドを実行しています**\] ページで、SQL Server 2012 Express が 中央管理ストアとしてインストールされます。必要なファイアウォール規則が作成されます。データベースと必要なソフトウェアのインストールが完了したら、\[**完了**\] をクリックします。
+<div>
+
+## <a name="to-install-a-standard-edition-server"></a>Standard Edition サーバーをインストールするには
+
+1.  Standard Edition server をインストールしようとしているサーバーに、ローカル管理者または同等のドメインとしてログオンします。
+
+2.  Active Directory ドメインサービスの準備ができていない場合は、最初にこれらの手順を実行します。 詳細については、「 [Lync Server 2013 用の Active Directory ドメインサービスの準備](lync-server-2013-preparing-active-directory-domain-services.md)」を参照してください。
+
+3.  Lync Server 展開ウィザードで、[**最初の Standard Edition サーバーの準備**] をクリックします。
+
+4.  [**単一標準エディションサーバーの準備**] ページで、[**次へ**] をクリックします。
+
+5.  [**コマンドの実行**] ページで、SQL Server 2012 Express が中央管理ストアとしてインストールされています。 必要なファイアウォールルールが作成されます。 データベースと必須ソフトウェアのインストールが完了したら、[**完了**] をクリックします。
     
-    > [!NOTE]
-    > 最初のインストールには少し時間がかかります。この際、コマンド出力の概要画面が更新されることはありません。これは、SQL Server Express がインストールされるためです。データベースのインストールの進行状況を監視する必要がある場合は、タスク マネージャーを使用してセットアップを監視してください。
+    <div>
+    
 
+    > [!NOTE]  
+    > 最初のインストールでは、コマンド出力の概要画面に表示される更新プログラムがないと、時間がかかる場合があります。 これは、SQL Server Express がインストールされているためです。 データベースのインストールを監視する必要がある場合は、タスクマネージャーを使用してセットアップを監視します。
 
-6.  管理ツールをインストールしていない場合は、\[ Lync Server 展開ウィザード\] ページで \[**トポロジ ビルダーのインストール**\] をクリックします。詳細については、「[Lync Server 2013 管理ツールをインストールする](lync-server-2013-install-lync-server-administrative-tools.md)」を参照してください。
+    
+    </div>
 
-7.  \[Active Directory の準備\]、\[最初の Standard Edition サーバーの準備\]、および \[トポロジ ビルダーのインストール\] の横に緑のチェック マークが付いていることを確認します。
+6.  [Lync Server 展開ウィザード] ページで、[管理ツール] をまだインストールしていない場合は、[**トポロジビルダーのインストール**] をクリックします。 詳細については、「 [Lync Server 2013 管理ツールをインストール](lync-server-2013-install-lync-server-administrative-tools.md)する」を参照してください。
+
+7.  [Active Directory の準備] の横に緑色のチェックマークが表示されていることを確認します。 "最初の Standard Edition サーバーの準備" と "トポロジビルダーのインストール" を確認してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

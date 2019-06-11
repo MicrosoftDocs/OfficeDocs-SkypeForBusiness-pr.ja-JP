@@ -1,60 +1,106 @@
-﻿---
-title: 'Lync Server 2013: Hosted Exchange UM の連絡先オブジェクトの作成'
-TOCTitle: Hosted Exchange UM の連絡先オブジェクトの作成
-ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412765(v=OCS.15)
-ms:contentKeyID: 48273160
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Hosted Exchange UM の連絡先オブジェクトの作成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create contact objects for hosted Exchange UM
+ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412765(v=OCS.15)
+ms:contentKeyID: 48185045
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c0ce65ed39e67068fcd57aba1177ecb72f553ccf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833848"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での Hosted Exchange UM の連絡先オブジェクトの作成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-24_
+# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Lync Server 2013 での Hosted Exchange UM の連絡先オブジェクトの作成
 
-次の手順では、Hosted Exchange ユニファイド メッセージング (UM) の自動応答 (AA) またはサブスクライバー アクセス (SA) の連絡先オブジェクトを作成する方法について説明します。
+</div>
 
-詳細については、「計画」のドキュメントの「[Lync Server 2013 の Hosted Exchange 連絡先オブジェクト管理](lync-server-2013-hosted-exchange-contact-object-management.md)」を参照してください。
+<div id="mainSection">
 
-連絡先オブジェクトの構成の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
+<div id="mainBody">
 
-  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
+<span> </span>
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
+_**最終更新日:** 2012-09-24_
+
+次の手順では、ホストされた Exchange ユニファイドメッセージング (UM) 用に自動応答 (AA) または加入者アクセス (SA) 連絡先オブジェクトを作成する方法について説明します。
+
+詳細については、計画ドキュメントの「 [Lync Server 2013 での Hosted Exchange Contact object management](lync-server-2013-hosted-exchange-contact-object-management.md) 」を参照してください。
+
+連絡先オブジェクトの構成の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
+
+  - [新規-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
+
+  - [Set-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Set-CsExUmContact)
+
+<div class=" ">
 
 
-> [!IMPORTANT]
-> Lync Server 2013 の連絡先オブジェクトを Hosted Exchange UM に対して有効化する前に、連絡先オブジェクトに適用されるホスト ボイス メール ポリシーを展開する必要があります。詳細については、「<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 のホスト型ボイス メール ポリシー</A>」を参照してください。
+> [!IMPORTANT]  
+> Lync Server 2013 連絡先オブジェクトをホストされた Exchange UM に対して有効にする前に、それらに適用されるホストされたボイスメールポリシーを展開する必要があります。 詳細については、「 <A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 のホスト型ボイスメールポリシー</A>」を参照してください。
 
 
 
-## Hosted Exchange UM の AA または SA の連絡先オブジェクトを作成するには
+</div>
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+<div>
 
-2.  New-CsExUmContact コマンドレットを実行して、展開に必要な連絡先オブジェクトを作成します。たとえば、AA および SA の連絡先オブジェクトを作成するには、次のように実行します。
+## <a name="to-create-aa-or-sa-contact-objects-for-hosted-exchange-um"></a>Hosted Exchange UM 用の AA または SA の連絡先オブジェクトを作成するには
+
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+
+2.  新しい-CsExUmContact コマンドレットを実行して、展開に必要な連絡先オブジェクトを作成します。 たとえば、次のように実行して AA と SA の連絡先オブジェクトを作成します。
     
+       ```
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
-
-       &nbsp;
+       ```
     
+       ```
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
+       ```
     
-    これらの例は、次のパラメーターを設定します。
+    これらの例では、次のパラメーターを設定します。
     
-      - **SipAddress** は、連絡先オブジェクトの SIP アドレスを指定します。これは、Active Directory ドメイン サービスでユーザーまたは連絡先オブジェクトを構成するために以前使用したことのないアドレスである必要があります。この値は、前の例で示したように、"sip:\< *SIP address* \>" の形式にする必要があります。
+      - **SipAddress**連絡先オブジェクトの SIP アドレスを指定します。 これは、Active Directory ドメインサービスでユーザーまたは連絡先オブジェクトを構成するためにまだ使用されていないアドレスである必要があります。 この値は、前の例で示した\<ように、"sip:*sip アドレス*\>" の形式になっている必要があります。
     
-      - **RegistrarPool** は、レジストラー サービスが実行されているプールの完全修飾ドメイン名 (FQDN) を指定します。
+      - **RegistrarPool**は、レジストラーサービスが実行されているプールの完全修飾ドメイン名 (FQDN) を指定します。
         
+        <div class=" ">
+        
+
         > [!NOTE]  
-        > Exchange UM の連絡先オブジェクトは、 Lync Server 2013 の前に、 Lync Server 2013 の展開の一部であるプールに移動することはできません。
+        > Lync server 2013 より前の Lync Server 2013 展開の一部であるプールに Exchange UM 連絡先オブジェクトを移動することはできません。
+
+        
+        </div>
     
-      - **OU** は、この連絡先オブジェクトの配置先となる Active Directory 組織単位を指定します。
+      - **OU**この連絡先オブジェクトを配置する Active Directory の組織単位を指定します。
     
-      - **DisplayNumber** は、連絡先オブジェクトの電話番号を指定します。各連絡先オブジェクトの電話番号は一意である必要があります。
+      - **Displaynumber**連絡先オブジェクトの電話番号を指定します。 各連絡先オブジェクトの電話番号は一意である必要があります。
     
-      - **AutoAttendant** は、連絡先オブジェクトを自動応答にするかどうかを指定します。発信者は自動応答の音声案内セットを利用することで、電話システムを通して、希望する相手先に連絡することができます。このパラメーターに **False** (既定値) の値が設定されている場合、それはサブスクライバー アクセスの連絡先オブジェクトです。
+      - **Autoattendant**連絡先オブジェクトが自動応答かどうかを指定します。 自動応答では、発信者が電話システムを移動して、連絡を希望する当事者に連絡できるようにする一連の音声プロンプトが用意されています。 このパラメーターの値が**False** (既定値) の場合、サブスクライバーアクセスの contact オブジェクトが示されます。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

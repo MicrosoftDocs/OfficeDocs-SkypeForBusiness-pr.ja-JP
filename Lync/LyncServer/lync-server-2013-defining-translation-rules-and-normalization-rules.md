@@ -1,31 +1,69 @@
-﻿---
-title: 変換ルールおよび正規化ルールの定義
-TOCTitle: 変換ルールおよび正規化ルールの定義
-ms:assetid: a22e4804-8802-42b1-a1b1-be42f85b3d46
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688159(v=OCS.15)
-ms:contentKeyID: 49887078
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 翻訳ルールと正規化ルールを定義する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining translation rules and normalization rules
+ms:assetid: a22e4804-8802-42b1-a1b1-be42f85b3d46
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688159(v=OCS.15)
+ms:contentKeyID: 49733763
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2ad1fc019db0512c605fd436354c5e5107a16c4b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833699"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 変換ルールおよび正規化ルールの定義
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-18_
+# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a>Lync Server 2013 での翻訳ルールと正規化ルールの定義
 
-このセクションのトピックでは、Lync Server 2013 のトランクを構成する方法について説明します。
+</div>
 
-## このセクション中
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-18_
+
+Lync Server 2013 用に Trunks を構成する方法については、セクションのトピックを参照してください。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 での変換ルールの定義](lync-server-2013-defining-translation-rules.md)
 
   - [Lync Server 2013 の正規化ルールの定義](lync-server-2013-defining-normalization-rules.md)
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Lync Server 2013 での音声ルーティングの管理](lync-server-2013-managing-voice-routing.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 での音声ルーティングの管理](lync-server-2013-managing-voice-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,33 +1,53 @@
-﻿---
-title: 場所に基づくルーティングと取次通話転送
-TOCTitle: 場所に基づくルーティングと取次通話転送
-ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn362836(v=OCS.15)
-ms:contentKeyID: 56270145
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 場所に基づくルーティングとコンサルティングによる通話転送'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Location-Based Routing and consultative call transfers
+ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)
+ms:contentKeyID: 56335089
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d7c7b73efb670c5569b8c4600c1759e981cda211
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832938"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 場所に基づくルーティングと取次通話転送
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Lync Server 2013 での位置情報に基づくルーティングとコンサルティングによる通話転送
 
-Location-Based Routing Conferencing アプリケーションでは、場所に基づくルーティングを Lync 会議に適用するほか、場所に基づくルーティングの制限事項が、PSTN エンドポイントに出る取次通話転送に適用されます。取次通話転送とは 2 者間で確立される通話で、そのうち一方が通話を新しいユーザーに転送します。たとえば、PSTN エンドポイントによってユーザー A (Lync の呼び出し先) が呼び出されます。ユーザー A は、PSTN ユーザーをユーザー B (Lync ユーザー) に転送するかどうかを決定します。ユーザー A は PSTN ユーザーとの通話を保留にして、ユーザー B を呼び出します。ユーザー B が PSTN ユーザーとの通話を承諾します。ユーザー A は保留していた通話をユーザー B に転送します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-07-31_
+
+Lync 会議への位置情報に基づくルーティングを適用することに加えて、場所に基づくルーティング会議アプリケーションは、PSTN エンドポイントに送信される提案型呼び出しの転送についての位置情報に基づくルーティング制限を適用します。 お客様による発信は、2つの当事者間で確立された通話であり、一方の当事者が新しいユーザーに通話を転送します。 たとえば、PSTN エンドポイントはユーザー A (Lync 呼び出し元) を呼び出します。 ユーザー A は、PSTN ユーザーをユーザー B (Lync ユーザー) に転送する必要があることを決定します。 ユーザー A は、PSTN ユーザーとの通話を保留にし、ユーザー B を呼び出します。ユーザー B は PSTN ユーザーとの通信に同意します。 ユーザー A は、着信をユーザー B に転送します。
 
 **取次通話転送の通話フロー**
 
-![会議の位置情報に基づくルーティングの図](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "会議の位置情報に基づくルーティングの図")
+![会議図の位置情報に基づくルーティング](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "会議図の位置情報に基づくルーティング")
 
-場所に基づくルーティングが有効なユーザーが (以下の図のように) PSTN エンドポイントの取次通話転送を開始すると、2 つの通話がアクティブになります。PSTN ユーザーと Lync ユーザー A の通話、および Lync ユーザー A と Lync ユーザー B の通話です。Location-Based Routing Conferencing アプリケーションによって、次の動作が適用されます。
+位置情報に基づくルーティングが有効になっている場合、PSTN エンドポイント (上の図に示されているように) によって、2つのアクティブな通話、PSTN ユーザー A と Lync ユーザー A との間の通話、および Lync ユーザー A と Lync ユーザー B 間の通話が1つ作成されます。次の動作は、場所に基づくルーティング会議アプリケーションによって適用されます。
 
-  - PSTN 通話をルーティングする SIP トランクが、Lync ユーザー B が属するネットワーク サイト(転送ターゲット) に対する PSTN 通話の再ルーティングを承認されている場合は、通話転送が許可されます。そうでない場合は、取次通話転送が禁止されます。この承認は、アクティブな通話を PSTN エンドポイントにルーティングする SIP トランクと同じネットワーク サイトに属する、転送を受ける側の場所に基づいて行われます。
+  - PSTN 通話をルーティングする SIP トランクが、Lync ユーザー B (つまり転送先) があるネットワークサイトへの PSTN 通話を再ルーティングすることを許可されている場合は、通話転送が許可されます。それ以外の場合は、コンサルティング着信の転送がブロックされます。 この承認は、転送された当事者が、PSTN エンドポイントへのアクティブな通話をルーティングしている SIP トランクと同じネットワークサイトに配置されている場所に基づいて行われます。
 
-  - 着信する PSTN 通話をルーティングする SIP トランクが、転送を受ける側 (Lync ユーザー B) が属するネットワーク サイトへの通話のルーティングを承認されていなかったり、転送を受ける側が不明なネットワーク サイトに属していたりする場合は、PSTN エンドポイント (通話転送ターゲット) への取次通話転送は禁止されます。
+  - 着信 PSTN 通話をルーティングしている SIP トランクが、転送されたパーティ (Lync ユーザー B) が存在するか、または送信されたパーティが不明なネットワークサイトにある場合は、PSTN への提案型コール転送エンドポイント (つまり、着信転送ターゲット) はブロックされます。
 
-次の表は、取次通話転送で、場所に基づくルーティングの制限事項が Location-Based Routing Conferencing アプリケーションによってどのように適用されるかを示しています。PBX エンドポイントはネットワーク サイトに直接関連付けられませんが、PBX の接続先の SIP トランクにネットワーク サイトが割り当てられる場合があります。したがって、PBX エンドポイントがネットワーク サイトに間接的に関連付けられる場合があります。
+次の表では、位置情報に基づくルーティングの制限が、提案型の通話転送についての位置情報に基づくルーティング会議アプリケーションによってどのように適用されるかを説明します。 PBX エンドポイントはネットワーク サイトに直接関連付けられませんが、PBX の接続先の SIP トランクにネットワーク サイトが割り当てられる場合があります。 したがって、PBX エンドポイントがネットワーク サイトに間接的に関連付けられる場合があります。
 
 
 <table>
@@ -44,22 +64,22 @@ Location-Based Routing Conferencing アプリケーションでは、場所に�
 </tr>
 <tr class="even">
 <td><p>PSTN エンドポイント</p></td>
-<td><p>同じネットワーク サイト (サイト 1) 内の Lync ユーザー</p></td>
+<td><p>同じネットワークサイト内の Lync ユーザー (例: サイト 1)</p></td>
 <td><p>取次転送が許可される</p></td>
 </tr>
 <tr class="odd">
 <td><p>PSTN エンドポイント</p></td>
-<td><p>別のネットワーク サイト (サイト 2) 内の Lync ユーザー</p></td>
+<td><p>異なるネットワークサイトの Lync ユーザー (例: サイト 2)</p></td>
 <td><p>取次転送が許可されない</p></td>
 </tr>
 <tr class="even">
 <td><p>PSTN エンドポイント</p></td>
-<td><p>不明なネットワーク サイト内の Lync ユーザー</p></td>
+<td><p>不明なネットワークサイトの Lync ユーザー</p></td>
 <td><p>取次転送が許可されない</p></td>
 </tr>
 <tr class="odd">
 <td><p>PSTN エンドポイント</p></td>
-<td><p>フェデレーション Lync ユーザー</p></td>
+<td><p>フェデレーションされた Lync ユーザー</p></td>
 <td><p>取次転送が許可されない</p></td>
 </tr>
 <tr class="even">
@@ -84,24 +104,35 @@ Location-Based Routing Conferencing アプリケーションでは、場所に�
 </tr>
 <tr class="even">
 <td><p>任意のサイト内の PBX エンドポイント</p></td>
-<td><p>同じネットワーク サイト (サイト 1) 内の Lync ユーザー</p></td>
+<td><p>同じネットワークサイト内の Lync ユーザー (例: サイト 1)</p></td>
 <td><p>取次転送が許可される</p></td>
 </tr>
 <tr class="odd">
 <td><p>任意のサイト内の PBX エンドポイント</p></td>
-<td><p>別のネットワーク サイト (サイト 2) 内の Lync ユーザー</p></td>
+<td><p>異なるネットワークサイトの Lync ユーザー (例: サイト 2)</p></td>
 <td><p>取次転送が許可される</p></td>
 </tr>
 <tr class="even">
 <td><p>任意のサイト内の PBX エンドポイント</p></td>
-<td><p>不明なネットワーク サイト内の Lync ユーザー</p></td>
+<td><p>不明なネットワークサイトの Lync ユーザー</p></td>
 <td><p>取次転送が許可される</p></td>
 </tr>
 <tr class="odd">
 <td><p>任意のサイト内の PBX エンドポイント</p></td>
-<td><p>フェデレーション Lync ユーザー</p></td>
+<td><p>フェデレーションされた Lync ユーザー</p></td>
 <td><p>取次転送が許可される</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
