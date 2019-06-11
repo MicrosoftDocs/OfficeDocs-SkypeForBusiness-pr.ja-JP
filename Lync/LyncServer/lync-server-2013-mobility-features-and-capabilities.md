@@ -1,45 +1,69 @@
-﻿---
-title: 'Lync Server 2013: モビリティの機能'
-TOCTitle: モビリティの機能
-ms:assetid: 12517a88-2531-44a5-bea5-d8884aff53eb
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh689983(v=OCS.15)
-ms:contentKeyID: 48271318
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: モビリティの機能'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mobility features and capabilities
+ms:assetid: 12517a88-2531-44a5-bea5-d8884aff53eb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689983(v=OCS.15)
+ms:contentKeyID: 48183457
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4e47a37acd45ed577b9ad730de39c79d4113c8f0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827194"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のモビリティの機能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Lync Server 2013 のモビリティの機能
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-19_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 の累積した更新プログラム: 2013 年 2 月で導入されたモビリティ機能では、Lync 2010 Mobile および Lync 2013 Mobile のクライアント機能がサポートされます。Lync Server 2013 Mobility Service を展開すると、ユーザーは、サポートされる Apple iOS、Android、および Windows Phone、または Nokia Symbian の各モバイル デバイスを使用して、インスタント メッセージの送受信、連絡先の表示、プレゼンスの表示など、各種作業を実行できます。また、クリックして会議に参加、勤務先から通話、同一番号接続、ボイス メール、不在着信など、モバイル デバイスでいくつかのエンタープライズ VoIP 機能がサポートされます。Lync Server 2013 の累積した更新プログラム: 2013 年 2 月で導入された新しい機能には、会議出席者のためのボイス オーバー IP (VoIP) 機能とビデオ (H.264) が含まれます。
+Lync Server 2013 の累積更新プログラムで導入されたモバイル機能: 2 月2013は Lync 2010 Mobile および Lync 2013 モバイルクライアント機能をサポートしています。 Lync Server 2013 モビリティサービスを展開すると、サポートされている Apple iOS、Android、Windows Phone、Nokia Symbian モバイルデバイスを使って、インスタントメッセージの送受信、連絡先の表示、プレゼンスの表示などの操作を実行できます。 さらに、モバイルデバイスでは、クリックして電話会議に参加したり、勤務先の電話による通話、ボイスメール、不在着信など、一部のエンタープライズ音声機能をサポートしたりします。 Lync Server 2013 の累積更新プログラムで導入された新機能: 2013 年2月電話には、会議出席者のためのボイスオーバー IP (VoIP) 機能とビデオ (.H) が含まれています。
 
-Lync Server 2013 の累積した更新プログラム: 2013 年 2 月で導入されたモビリティ機能では、Lync 2013 Mobile のクライアント機能がサポートされます。Lync Server 2013 の累積した更新プログラム: 2013 年 2 月では統合コミュニケーション Web API (UCWA) がインストールされます。UCWA は、Lync 2013 Mobile のクライアントで使用されるコンポーネントです。Lync Server 2013 では、Lync 2010 Mobile クライアント用に Mcx が使用されます。Lync Server 2013 の累積した更新プログラム: 2013 年 2 月では、モビリティ サービスの新しいエントリ ポイントとして UCWA が導入されます。Lync Server 2013 は、Lync Server 2010 の累積した更新プログラム: 2011 年 11 月で導入された Mobility Service (Mcx) を同時に実装し、Lync 2010 Mobile をサポートします。Lync Server 2013 の累積した更新プログラム: 2013 年 2 月を展開すると、ユーザーはサポートされる Apple iOS、Android、および Windows Phone の各モバイル デバイスを使用して以下の作業を実行できます。
+Lync Server 2013 の累積更新プログラムで導入されたモバイル機能: 2013 年2月のモバイルクライアントの機能が2013サポートされています。 Lync Server 2013 向けの累積的な更新プログラム: 年 2 2013 月ユニファイドコミュニケーションの Web API、または UCWA をインストールします。 UCWA は、Lync 2013 モバイルクライアントで使用されるコンポーネントです。 Lync Server 2013 では、Mcx が Lync 2010 モバイルクライアントで使用されます。 Lync Server 2013 の累積更新プログラム: 2013 年2月に、モビリティサービスの新しいエントリポイントとして UCWA が導入されています。 Lync Server 2013 は、Lync Server 2010: 2011 年11月の累積更新プログラムで導入されたモビリティサービス (Mcx) を同時に実装し、Lync 2010 Mobile のサポートを提供します。 Lync Server 2013 2013 の累積更新プログラムを展開する場合、ユーザーはサポートされている Apple iOS、Android、Windows Phone のモバイルデバイスを使用して、次のような操作を実行できます。
 
-
-> [!IMPORTANT]
-> Lync Server 2010 の累積した更新プログラム: 2011 年 11 月の Mobility Service でサポートされる機能には (Mcx) の印が付けられています。示されているすべての機能は、Lync Server 2013 の累積した更新プログラム: 2013 年 2 月で導入された UCWA でサポートされます。
+<div>
 
 
+> [!IMPORTANT]  
+> Lync Server 2010 の累積的な更新プログラムのモビリティサービスでサポートされている機能: 2011 年11月には、(Mcx) と記載されています。 リストされたすべての機能は、UCWA でサポートされます。 Lync Server 2013 の累積更新プログラムで導入されました。2013年2月。
 
-  - インスタント メッセージの送受信 (Mcx)
 
-  - プレゼンスの表示 (Mcx)
 
-  - 連絡先の表示 (Mcx)
+</div>
 
-  - クリックして会議に参加 (Mcx)
+  - インスタントメッセージ (Mcx) を送受信する
 
-  - 勤務先から通話 (Mcx)
+  - プレゼンスを表示する (Mcx)
 
-  - 同一番号接続 (Mcx)
+  - 連絡先を表示する (Mcx)
 
-  - ボイス メール (Mcx)
+  - クリックして会議に参加する (Mcx)
+
+  - 職場での通話 (Mcx)
+
+  - 1つの番号への到達 (Mcx)
+
+  - ボイスメール (Mcx)
 
   - 不在着信通知 (Mcx)
 
@@ -47,31 +71,61 @@ Lync Server 2013 の累積した更新プログラム: 2013 年 2 月で導入�
 
   - 出席者のビデオ (H.264)
 
-> [!NOTE]
-> Lync 2010 Mobile では Nokia Symbian デバイス用のクライアントが提供されました。Lync 2013 Mobile に Nokia Symbian ベースのデバイス用のクライアントはありません。
+<div>
 
 
-Apple iPad ユーザーは強化機能を利用できるようになります。iPad ユーザーは、音声コールバックを使用して会議に参加した後、アップロードされた Microsoft PowerPoint プレゼンテーションを会議内で表示したり、アプリケーションとデスクトップを共有したり、会議の参加者リストを表示したり、会議内で共有するその他のコンテンツ タイプの通知を受け取ったりできます。
-
-
-> [!TIP]
-> "同一番号接続" では、ユーザーは勤務先電話番号にダイヤルされた通話を携帯電話で受信します。"勤務先から通話" では、ユーザーは、携帯電話番号の代わりに勤務先電話番号を使用して、Lync Mobile クライアントから通話を発信します。"ダイヤルアウト" では、クライアントは、(Lync Mobile バージョンに基づいて) Mcx または UCWA に要求を送信して通話を発信します。サーバーは通話を開始した後、ユーザーの携帯電話にコールバックします。ユーザーが応答すると、サーバーはもう一方の参加者にダイヤルすることで通話を完了します。"勤務先から電話" を使用すると、ユーザーは通話中に勤務先 ID を維持できます。つまり、発信者の携帯番号が呼び出し先に表示されません。また、発信者に発信通話料金がかかりません。
+> [!NOTE]  
+> Lync 2010 Mobile では、Nokia Symbian デバイス用のクライアントが用意されています。 Lync 2013 Mobile には、Nokia Symbian ベースのデバイスのクライアントはありません。
 
 
 
-> [!NOTE]
-> すべてのモバイル デバイスですべての機能がまったく同じように動作するとは限りません。モバイル デバイスでサポートされる機能の詳細については、「モバイル クライアントの比較表」(<a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>) を参照してください。サポートされるデバイスとオペレーティング システムの詳細については、「<a href="lync-server-2013-planning-for-mobile-clients.md">Lync Server 2013 でのモバイル クライアントの計画</a>」で、要件に関するトピックを参照してください。
+</div>
+
+Apple iPad ユーザーは、強化された機能にアクセスできます。 音声通話を使用して会議に参加した後、iPad ユーザーは、会議中にアップロードされた Microsoft PowerPoint プレゼンテーションを表示したり、アプリケーションとデスクトップを共有したり、会議参加者リストを表示したり、他のコンテンツタイプの通知を受信したりすることができます。会議内で共有されている。
+
+<div>
 
 
-Lync Server 2013 の自動検出機能を使用すると、ユーザーが URL をデバイスの設定に手動で入力しなくても、モバイル アプリケーションで Lync Server 2013 Web サービスを自動的に検索できます。URL をモバイル デバイスの設定に手動で入力することも、主にトラブルシューティングの目的でサポートされます。
-
-
-> [!IMPORTANT]
-> Mcx と UCWA は無料のサービスであり、Lync 2010 Mobile と Lync 2013 Mobile のクライアントをサポートするにはこの 2 つを展開します。Lync 2013 Mobile は Lync Server 2010 展開にサインインできません。Lync 2010 Mobile と Lync 2013 Mobile は、Lync Server 2013 の累積した更新プログラム: 2013 年 2 月が適用された Lync Server 2013 展開を使用できます。
+> [!TIP]  
+> 1つの番号に到達すると、勤務先の電話番号にダイヤルされた携帯電話で着信を受けることができます。 勤務先からの通話では、ユーザーは携帯電話番号ではなく勤務先の電話番号を使用して、Lync モバイルクライアントから発信通話を発信します。 ダイヤルアウトの場合、クライアントは Mcx または UCWA (Lync モバイルバージョンに基づく) に要求を送信して、通話を発信します。 サーバーによって通話が開始され、携帯電話に発信されます。 ユーザーが応答すると、相手にダイヤルすることによってサーバーが通話を完了します。 勤務先から通話を使用することで、ユーザーは通話中に作業の id を保持することができます。つまり、通話の受信者には発信者の携帯電話番号が表示されず、発信者は発信通話料金を伴わなくなります。
 
 
 
-モビリティ機能では、バックグラウンドで実行されるアプリケーションをサポートしないモバイル デバイス用に*プッシュ通知*もサポートされます。プッシュ通知とは、モバイル アプリケーションが活動していない間に発生したイベントに関して、モバイル デバイスに送信される通知です。たとえば、不在着信したインスタント メッセージング (IM) への招待によってプッシュ通知を発生できます。
+</div>
 
-Mcx、UCWA、自動検出サービス、およびプッシュ通知のサポートは、Lync Server 2013 で提供されます。更新されたクライアント機能、およびモビリティのエントリ ポイントとしての UCWA の使用は、Lync Server 2013 の累積した更新プログラム: 2013 年 2 月で導入されます。
+<div>
+
+
+> [!NOTE]  
+> すべての機能が、すべてのモバイルデバイスでまったく同じであるとは限りません。 モバイルデバイスでサポートされている機能の詳細については、 <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>のモバイルクライアントの比較表を参照してください。 サポートされているデバイスとオペレーティングシステムの詳細については、「 <A href="lync-server-2013-planning-for-mobile-clients.md">Lync Server 2013 のモバイルクライアントの計画</A>」の要件に関するトピックを参照してください。
+
+
+
+</div>
+
+Lync Server 2013 自動検出機能を使用すると、モバイルアプリケーションは、ユーザーがデバイスの設定で Url を手動で入力する必要なく、Lync Server 2013 Web サービスを自動的に見つけることができます。 モバイルデバイスの設定では、手動での Url の入力もサポートされます。主にトラブルシューティングを目的としています。
+
+<div>
+
+
+> [!IMPORTANT]  
+> Mcx と UCWA は、無料サービスであり、両方とも Lync 2010 Mobile および Lync 2013 モバイルクライアントをサポートするために展開されています。 Lync 2013 Mobile では、Lync Server 2010 の展開にサインインすることはできません。 Lync 2010 Mobile および Lync 2013 Mobile では、lync server 2013 の累積更新プログラムで Lync Server 2013 の展開を使用できるようになります。2月2013適用されています。
+
+
+
+</div>
+
+モビリティ機能では、バックグラウンドで実行されているアプリケーションをサポートしないモバイル デバイス用の*プッシュ通知*もサポートされます。 プッシュ通知は、モバイル アプリケーションが非アクティブなときに発生したイベントについてモバイル デバイスに送信される通知です。 たとえば、不在着信したインスタントメッセージング (IM) 招待は、プッシュ通知につながる可能性があります。
+
+Mcx、UCWA、自動検出サービス、およびプッシュ通知のサポートについては、「Lync Server 2013」をご利用ください。 更新されたクライアント機能、機能、および UCWA の使用は、モビリティーエントリポイントが Lync Server 2013 の累積更新プログラムで導入されています (2013 年2月)。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,44 +1,83 @@
-﻿---
-title: 'Lync Server 2013: (オプション) 応答グループの営業時間の定義'
-TOCTitle: (オプション) 応答グループの営業時間の定義
-ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205291(v=OCS.15)
-ms:contentKeyID: 48273704
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (オプション) 応答グループの勤務時間を定義する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Define Response Group business hours
+ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205291(v=OCS.15)
+ms:contentKeyID: 48185504
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e8ddd2bde582c66cf337deb9aa78178d3e22d1b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825787"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (オプション) Lync Server 2013 での応答グループの営業時間の定義
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>省略Lync Server 2013 での応答グループの営業時間の定義
 
-## 営業時間の定義
+</div>
 
-営業時間設定では、ワークフローが通話に応答できる時間を定義し、営業時間外の通話に対するアクションを指定します。応答グループ管理者は、 **New-CsRgsHoursOfBusiness** コマンドレットを使用して、使用できる応答グループの数に制限がない事前設定スケジュールを作成できます。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-11-01_
+
+<div>
+
+## <a name="defining-business-hours"></a>営業時間の定義
+
+営業時間設定では、ワークフローが通話に応答できる時間を定義し、営業時間外の通話に対するアクションを指定します。 応答グループ管理者は、**New-CsRgsHoursOfBusiness** コマンドレットを使用して、使用できる応答グループの数に制限がない事前設定スケジュールを作成できます。
+
+<div>
 
 
-> [!TIP]
-> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。詳細については、「<A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Lync Server 2013 でのハント グループ ワークフローの作成または変更</A>」および「<A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Lync Server 2013 での対話ワークフローの作成または変更</A>」を参照してください。
+> [!TIP]  
+> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、「 <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Lync server 2013 でハントグループワークフローを作成または変更</A>する」または「 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">lync server 2013 で対話型ワークフローを作成または変更</A>する」を参照してください。
 
 
-> [!NOTE]
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
 > ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割を割り当てられているすべてのユーザーは、管理するワークフローのカスタム営業時間を設定および変更できます。
 
 
 
-> [!IMPORTANT]
+</div>
+
+<div>
+
+
+> [!IMPORTANT]  
 > 次のコマンドレットのパラメーターの時刻表記は、24 時間形式で入力する必要があります (例: 20:00 は午後 8:00 を表します)。
 
 
 
-## 事前設定された営業時間コレクションを作成するには
+</div>
+
+<div>
+
+## <a name="to-create-a-predefined-business-hours-collection"></a>事前設定された営業時間コレクションを作成するには
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 3.  定義する一意の時間の範囲ごとに、以下を実行します。
     
@@ -55,15 +94,32 @@ _**トピックの最終更新日:** 2012-11-01_
         $c = NewRgsTimeRange -Name "Saturday Afternoon Hours" -OpenTime "14:00" -CloseTime "18:00" 
         New-CsRgsHoursOfBusiness -Parent "ApplicationServer:Redmond.contoso.com" -Name "Help Desk Business Hours" -MondayHours1 $a -TuesdayHours1 $a -WednesdayHours1 $a -ThursdayHours1 $a -FridayHours1 $a -SaturdayHours1 $b -SaturdayHours2 $c
 
-## 関連項目
+</div>
 
-#### 概念
+</div>
 
-[Lync Server 2013 でのハント グループ ワークフローの作成または変更](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でハントグループワークフローを作成または変更する](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
 [Lync Server 2013 での対話ワークフローの作成または変更](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
-#### その他のリソース
 
-[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
-[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
+[新規-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
+[新規-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

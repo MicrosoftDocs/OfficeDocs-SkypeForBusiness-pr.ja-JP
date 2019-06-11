@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: ワークフロー作成のシナリオの概要'
-TOCTitle: ワークフロー作成のシナリオの概要
-ms:assetid: 05e0c175-0f1a-4bb1-b048-c68584d00649
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204646(v=OCS.15)
-ms:contentKeyID: 48271127
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ワークフロー作成のシナリオの概要'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of workflow creation scenarios
+ms:assetid: 05e0c175-0f1a-4bb1-b048-c68584d00649
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204646(v=OCS.15)
+ms:contentKeyID: 48183309
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1fc785392c50ea0ea1babe79ca5d30b455844ecd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825311"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのワークフロー作成のシナリオの概要
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-17_
+# <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a>Lync Server 2013 でのワークフロー作成のシナリオの概要
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-17_
 
 ワークフローを作成する際には、考えられるシナリオとして次の 2 つがあります。
 
@@ -21,6 +41,22 @@ _**トピックの最終更新日:** 2012-10-17_
 
   - **管理者がワークフローを作成してマネージャーがオプションを構成する** - CsResponseGroupAdministrator の役割のメンバー (または同等のメンバー) は、プライマリ SIP URI や表示名を定義し、CsResponseGroupManager の役割のメンバーを割り当て、キューの選択とワークフローのアクティブ化を行います。その後、CsResponseGroupManager は、ログオンしてワークフローの構成を編集できます。具体的には、エージェント グループの作成、キューへのグループの割り当て、電話番号、休日と営業時間、保留音などの構成が実行できます。
     
-    > [!NOTE]
+    <div>
+    
+
+    > [!NOTE]  
     > 管理ワークフローを作成する際には、そのワークフローをアクティブなものとして作成する必要があります。アクティブな管理ワークフローは、保存後に変更したり非アクティブにしたりできます。
+
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

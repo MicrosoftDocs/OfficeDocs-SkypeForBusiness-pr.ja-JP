@@ -1,25 +1,45 @@
-﻿---
-title: 場所データベースの設定
-TOCTitle: 場所データベースの設定
-ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg413069(v=OCS.15)
-ms:contentKeyID: 48274139
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 場所データベースを設定する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Populate the location database
+ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
+ms:contentKeyID: 48185939
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 08c1718c3d7ffdc79b82ac34016e79bf647ae6f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824051"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 場所データベースの設定
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="populate-the-location-database-in-lync-server-2013"></a>Lync Server 2013 で位置情報データベースを設定する
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-17_
 
 ネットワーク内のクライアントを自動で検出するために、まず、ネットワーク要素を正式な住所にマップする、ネットワークの*ワイヤマップ*を場所データベースに読み込む必要があります。ワイヤマップの定義には、サブネット、ワイヤレス アクセス ポイント、スイッチ、およびポートを使用できます。
 
 住所は場所データベースに個別に追加することも、次の表に示す列形式を含む CSV ファイルを使用して一括で追加することもできます。
 
-緊急位置識別番号 (ELIN) ゲートウェイを使用している場合、各場所の \[**CompanyName**\] フィールドに ELIN を含めます。各場所に複数の ELIN をセミコロンで区切って含めることができます。
+緊急位置識別番号 (ELIN) ゲートウェイを使用している場合、各場所の **[CompanyName]** フィールドに ELIN を含めます。各場所に複数の ELIN をセミコロンで区切って含めることができます。
 
 
 <table>
@@ -36,31 +56,31 @@ _**トピックの最終更新日:** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p><strong>ワイヤレス アクセス ポイント</strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p>&lt;BSSID&gt;、&lt;説明&gt;、&lt;場所&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、&lt;predirectional&gt;,...</p>
+<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;市区&gt;町村&lt;、&gt;都道府県&lt;、&gt;郵便&lt;番号、国&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>サブネット</strong></p></td>
-<td><p>&lt;Subnet&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p><strong>Subnet</strong></p></td>
+<td><p>&lt;サブ&gt;ネット&lt;、&gt;説明&lt;、&gt;場所&lt;、&gt;CompanyName&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix&lt;、predirectional&gt;,...</p>
+<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;市区&gt;町村&lt;、&gt;都道府県&lt;、&gt;郵便&lt;番号、国&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ポート</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,…</p>
-<p>…&lt;PreDirectional&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p>&lt;ChPortIDSubType sid&gt;、&lt;&gt;、&lt;PortID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;,...</p>
+<p>...&lt;Predirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;&gt;postdirectional&lt;市区町村&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt; 、居住&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>スイッチ</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p>&lt;ChHouseNumber sid&gt;、&lt;説明&gt;、&lt;場所&gt;、&lt;CompanyName&gt;、&lt;&gt;、&lt;HouseNumberSuffix&gt;、&lt;predirectional&gt;,...</p>
+<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;市区&gt;町村&lt;、&gt;都道府県&lt;、&gt;郵便&lt;番号、国&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-場所のデータベースに情報を読み込んでいない場合に、場所のポリシーの **\[場所 (必須)\]** を **\[はい\]** または **\[免責事項\]** に設定すると、クライアントから場所の情報を手動で入力するように指示されます。
+場所のデータベースに情報を読み込んでいない場合に、場所のポリシーの **[場所 (必須)]** を **[はい]** または **[免責事項]** に設定すると、クライアントから場所の情報を手動で入力するように指示されます。
 
-場所のデータベースへの読み込みの詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
+場所データベースの設定の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
 
   - **Get-CsLisSubnet**
 
@@ -86,7 +106,9 @@ _**トピックの最終更新日:** 2015-03-09_
 
   - **Remove-CsLisPort**
 
-## ネットワーク要素を場所のデータベースに追加するには
+<div>
+
+## <a name="to-add-network-elements-to-the-location-database"></a>ネットワーク要素を場所のデータベースに追加するには
 
 1.  次のコマンドレットを実行して、サブネットの場所を場所データベースに追加します。
     
@@ -96,7 +118,7 @@ _**トピックの最終更新日:** 2015-03-09_
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    また、「subnets.csv」という名前のファイルを使用して、次の各コマンドレットでサブネットの場所を一括で更新することができます。
+    また、"subnets.csv" という名前のファイルを使用して、次のコマンドレットでサブネットの場所を一括で更新することができます。
     
         $g = Import-Csv subnets.csv
         $g | Set-CsLisSubnet
@@ -105,7 +127,7 @@ _**トピックの最終更新日:** 2015-03-09_
     
         Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
     
-    また、「waps.csv」という名前の CSV ファイルを使用して、次の各コマンドレットでワイヤレスの場所を一括で更新することもできます。
+    また、"waps.csv" という名前のファイルを使用して、次のコマンドレットでワイヤレスの場所を一括で更新することもできます。
     
         $g = Import-Csv waps.csv
         $g | Set-CsLisWirelessAccessPoint
@@ -114,7 +136,7 @@ _**トピックの最終更新日:** 2015-03-09_
     
         Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    また、「switches.csv」という名前の CSV ファイルを使用して、次の各コマンドレットでスイッチの場所を一括で更新することもできます。
+    また、"switches.csv" という名前のファイルを使用して、次のコマンドレットでスイッチの場所を一括で更新することもできます。
     
         $g = Import-Csv switches.csv
         $g | Set-CsLisSwitch
@@ -125,8 +147,20 @@ _**トピックの最終更新日:** 2015-03-09_
     
     PortIDSubType の既定値は、LocallyAssigned です。これを、InterfaceAlias または InterfaceName に設定することもできます。
     
-    また、「ports.csv」という名前の CSV ファイルを使用して、次の各コマンドレットでポートの場所を一括で更新することもできます。
+    また、"ports.csv" という名前のファイルを使用して、次のコマンドレットでポートの場所を一括で更新することもできます。
     
         $g = Import-Csv ports.csv
         $g | Set-CsLisPort
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

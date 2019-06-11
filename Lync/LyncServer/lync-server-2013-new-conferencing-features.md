@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: 新しい会議機能'
-TOCTitle: 新しい会議機能
-ms:assetid: feeb81e8-1424-408c-a440-886aa0fb133c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg413085(v=OCS.15)
-ms:contentKeyID: 48274211
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 新しい会議機能'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New conferencing features
+ms:assetid: feeb81e8-1424-408c-a440-886aa0fb133c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413085(v=OCS.15)
+ms:contentKeyID: 48185966
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4b3436abea9f520c790195d28cd0fed5eaccd013
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826480"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の新しい会議機能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-08_
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Lync Server 2013 の新しい会議機能
 
-Lync Server 2013 では、以下の一覧で説明するように、会議を拡張するいくつかの新機能を導入しています。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-11-08_
+
+Lync Server 2013 には、次の一覧に示すように、会議を強化するいくつかの新機能が導入されています。
 
   - **Join Launcher**
     
-    Lync Server 2013 は、Join Launcher を更新して、クライアントを起動する前に各会議を確認し、次のクライアントで会議を開くためのサポートを提供します。
+    Lync Server 2013 は、クライアントを起動する前に各会議を検証するための結合起動ツールを更新し、次のクライアントで会議を開始するためのサポートを提供します。
     
       - Windows Phone 7
     
@@ -31,45 +51,64 @@ Lync Server 2013 では、以下の一覧で説明するように、会議を拡
     
       - Internet Explorer 10
 
-  - **更新された PowerPoint 共有**
+  - **更新された PowerPoint の共有**
     
-    Lync Server 2013 は、Office Web Apps および Office Web Apps Server (以前の WAC Server) を使用して PowerPoint プレゼンテーションを処理するようになりました。Office Web Apps Server を使用すると、表示解像度と PowerPoint 機能のサポートが向上します。また、より多くの種類のモバイル デバイスにアクセスできるようになり ( Lync Server 2013 は標準の DHTML と JavaScript を使用して PowerPoint プレゼンテーションを配信)、ユーザーは、プレゼンテーション自体からは独立して適切な権限で PowerPoint プレゼンテーションをスクロールできるようになります。
+    Lync Server 2013 では、Office Web Apps と Office Web Apps サーバー (以前は WAC Server) を使って PowerPoint プレゼンテーションを処理できるようになりました。 Office Web Apps サーバーを使用すると、より高解像度の表示と PowerPoint の機能のサポート、より多くの種類のモバイルデバイスにアクセスできます (Lync Server 2013 は、PowerPoint プレゼンテーションのブロードキャストに標準の DHTML と JavaScript を使用します)。適切な権限を持つユーザーが、プレゼンテーション自体とは関係なく、PowerPoint プレゼンテーションをスクロールすることができます。
 
-  - **ギャラリー ビューおよび HD ビデオ会議**
+  - **ギャラリーの表示と HD ビデオ会議**
     
-    ビデオ会議では、ユーザーは最大 5 人の会議参加者のビデオを同時に見ることができます。
+    ビデオ会議では、ユーザーは同時に最大5人の会議出席者のビデオを見ることができます。
     
-    > [!NOTE]
-    > ギャラリー ビューは会議の参加者が最大 75 人の場合に採用されます。しかし、会議の参加者が 75 人を超えるとシングル ビューに戻ります。
+    <div>
+    
 
+    > [!NOTE]  
+    > ギャラリービューは、最大75人の参加者との会議で経験しています。 会議が75の参加者を超える場合、エクスペリエンスは1つのビューに戻ります。
+
+    
+    </div>
 
   - **HD ビデオ**
     
-    2 パーティの通話およびマルチパーティ会議では、ユーザーに最大 HD 1080P の解像度で表示されます。
+    ユーザーは、2パーティーの通話とマルチパーティの会議で、HD 1080P までの解像度を体験できます。
 
-  - **発表者のみのビデオ モード**
+  - **発表者のみのビデオモード**
     
-    発表者は、発表者からのビデオだけが表示されるように会議を構成できます。このモードでは、複数のビデオ ストリームが使用可能で、異なるソースにロックしている大規模な会議の場合に、注意をそらすものを排除できます。このモードは、会議デバイスによってキャプチャおよび提供されるビデオにも適用されます。
+    発表者は、発表者のビデオのみが表示されるように会議を構成できます。 このモードでは、複数のビデオストリームが利用可能なときに、さまざまなソースにロックされているときに、大きな会議の集中を防止します。 このモードは、会議デバイスでキャプチャされたビデオにも適用されます。
 
   - **ビデオ スポットライト**
     
-    発表者は、ビデオ ソースである選択された参加者のビデオだけが会議の全員に表示されるように、会議を構成できます。このモードは、パノラマ ビデオのために会議デバイスによってキャプチャおよび提供されるビデオにも適用されます。
+    発表者は、ビデオソースとして選択された参加者のビデオのみが、会議の参加者全員に表示されるように会議を構成できます。 このモードは、キャプチャしたビデオにも適用され、パノラマビデオの会議デバイスによって提供されます。
 
-  - **エンタープライズ VoIP を使用しないユーザーのダイヤルアウト会議**
+  - **エンタープライズ以外のボイスユーザー向けのダイヤルアウト会議**
     
-    Lync Server 2013 では、エンタープライズ VoIP が有効でないユーザーでも会議からダイヤルアウト通話を開始できます。この機能は管理者が構成できます。
+    Lync Server 2013 では、エンタープライズボイスを有効にしていない参加者が、会議電話会議からダイヤルアウト通話を開始できるようになりました。 この機能は管理者が構成できます。
 
   - **アーカイブ**
     
-    会議中に共有されるすべてのドキュメントは、Exchange Server 統合でアーカイブが有効になっている場合は Exchange 2013 データ ストレージにアーカイブされます。これには、PowerPoint プレゼンテーション、添付ファイル、ホワイトボード、投票が含まれます。
+    会議中に共有されているすべてのドキュメントは、アーカイブで Exchange Server の統合が有効になっている場合、Exchange 2013 のデータストレージにアーカイブされます。 これには、PowerPoint プレゼンテーション、添付ファイル、ホワイトボード、投票が含まれます。
 
-  - **会議の招待のカスタマイズ**
+  - **会議出席依頼のカスタマイズ**
     
-    管理者は、 Lync Server コントロール パネルまたは Lync Server 管理シェルを使用してオンライン会議への電子メールの招待状をカスタマイズできます。カスタマイズには、ロゴの URL、ヘルプのテキスト、法的テキスト、およびフッターのテキストが含まれます。次回以降のすべての招待状にカスタマイズが反映されます。
+    管理者は、Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して、オンライン会議のメールの招待状をカスタマイズできます。 カスタマイズには、ロゴ、ヘルプテキスト、リーガルテキスト、フッターテキストなどの Url を含めることができます。 以降のすべての招待には、カスタマイズが含まれます。
 
-## 関連項目
+<div>
 
-#### その他のリソース
+## <a name="see-also"></a>関連項目
 
-[Lync Server 2013 での会議の計画](lync-server-2013-planning-for-conferencing.md)
+
+[Lync Server 2013 での会議の計画](lync-server-2013-planning-for-conferencing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

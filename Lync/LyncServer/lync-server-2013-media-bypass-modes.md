@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: メディア バイパス モード'
-TOCTitle: メディア バイパス モード
-ms:assetid: 38c06c81-7e45-4423-9e00-7fbfa4befe46
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425862(v=OCS.15)
-ms:contentKeyID: 48271779
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: メディア バイパス モード'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Media bypass modes
+ms:assetid: 38c06c81-7e45-4423-9e00-7fbfa4befe46
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425862(v=OCS.15)
+ms:contentKeyID: 48183898
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a08ec3ae6d985c18e20964a857a74ad40bc7668d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827453"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のメディア バイパス モード
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-05_
+# <a name="media-bypass-modes-in-lync-server-2013"></a>Lync Server 2013 のメディア バイパス モード
 
-メディア バイパスには、グローバル レベルの構成と個々の PSTN トランクごとの構成が必要です。 メディア バイパスをグローバルで有効にする場合は、 \[**常にバイパスする**\] と \[**サイトおよび地域情報の使用**\] の 2 つの選択肢があります。
+</div>
 
-\[**常にバイパスする**\] では、その名のとおり、すべての PSTN 通話に対してバイパスが試みられます。 \[**常にバイパスする**\] は、通話受付管理を有効にする必要がない展開で使用されます。また、メディア バイパスを試行するタイミングに関する詳細な構成情報を指定する必要がない展開でも使用されます。 また、\[**常にバイパスする**\] は、クライアントと PSTN ゲートウェイ間に十分な接続がある場合にも使用されます。 この構成では、すべてのサブネットが、システムが計算する 1 つのバイパス ID だけにマップされます。
+<div id="mainSection">
 
-\[**サイトおよび地域情報の使用**\] では、バイパスの決定にサイトや地域の構成に関連付けられたバイパス ID が使用されます。 ほとんどの一般的なトポロジでは、この構成によりバイパス構成が柔軟になります。この構成では、バイパス発生のタイミングについて詳細なコントロールが可能であり、通話受付管理 (CAC) との対話もサポートされるからです。システムは、以下で説明するようにバイパス ID を自動で割り当てることで、タスクを容易にしようとします。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-05_
+
+メディア バイパスには、グローバル レベルの構成と個々の PSTN トランクごとの構成が必要です。メディア バイパスをグローバルで有効にする場合は、[**常にバイパスする**] と [**サイトおよび地域情報の使用**] の 2 つの選択肢があります。
+
+[**常にバイパスする**] では、その名のとおり、すべての PSTN 通話に対してバイパスが試みられます。[**常にバイパスする**] は、通話受付管理を有効にする必要がない展開で使用されます。また、メディア バイパスを試行するタイミングに関する詳細な構成情報を指定する必要がない展開でも使用されます。また、[**常にバイパスする**] は、クライアントと PSTN ゲートウェイ間に十分な接続がある場合にも使用されます。この構成では、すべてのサブネットが、システムが計算する 1 つのバイパス ID だけにマップされます。
+
+[**サイトおよび地域情報の使用**] では、バイパスの決定にサイトや地域の構成に関連付けられたバイパス ID が使用されます。ほとんどの一般的なトポロジでは、この構成によりバイパス構成が柔軟になります。この構成では、バイパス発生のタイミングについて詳細なコントロールが可能であり、通話受付管理 (CAC) との対話もサポートされるからです。システムは、以下で説明するようにバイパス ID を自動で割り当てることで、タスクを容易にしようとします。
 
   - システムは、各地域に一意のバイパス ID を自動で 1 つ割り当てます。
 
@@ -29,11 +49,25 @@ _**トピックの最終更新日:** 2012-10-05_
 
   - 各サイトに関連付けられるサブネットは、そのサイトのバイパス ID を継承します。
 
-## 関連項目
+<div>
 
-#### 概念
+## <a name="see-also"></a>関連項目
 
-[Lync Server 2013 のメディア バイパスの概要](lync-server-2013-overview-of-media-bypass.md)  
+
+[Lync Server 2013 でのメディアのバイパスの概要](lync-server-2013-overview-of-media-bypass.md)  
 [Lync Server 2013 でのメディア バイパスと通話受付管理](lync-server-2013-media-bypass-and-call-admission-control.md)  
-[Lync Server 2013 メディア バイパスの技術要件](lync-server-2013-technical-requirements-for-media-bypass.md)
+[Lync Server 2013 メディア バイパスの技術要件](lync-server-2013-technical-requirements-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

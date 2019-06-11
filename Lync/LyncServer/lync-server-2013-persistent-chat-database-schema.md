@@ -1,41 +1,67 @@
-﻿---
-title: 'Lync Server 2013: 常設チャット データベースのスキーマ'
-TOCTitle: 常設チャット データベースのスキーマ
-ms:assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg558653(v=OCS.15)
-ms:contentKeyID: 48272160
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 常設チャット データベースのスキーマ'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Persistent Chat database schema
+ms:assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558653(v=OCS.15)
+ms:contentKeyID: 48184228
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3f35b1551b1ef7f228c70cbb76e748eae5e7cf59
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825192"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の常設チャット データベースのスキーマ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-18_
+# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Lync Server 2013 の常設チャット データベースのスキーマ
 
-ここでは、Lync Server 2013通信ソフトウェアの 常設チャット データベースのスキーマについて説明します。
+</div>
 
-常設チャット データベースは、Lync Server 2013 バックエンド サーバーの役割である **PersistentChatStore** (mgc データベースに対応) と **PersistentChatComplianceStore** (mgccomp データベースに対応) に対応するデータベースを参照します。このスキーマを公開する目的は、クエリを作成し、チャットの使用状況、アクティブなルーム、上位のポスターなどに関する有用なレポートの作成について理解できるようにすることです。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-18_
+
+これにより、Lync Server 2013 通信ソフトウェアの常設チャットデータベースのスキーマがドキュメントに記載されます。
+
+常設チャットデータベースは、Lync Server 2013 バックエンドサーバーのロール**PersistentChatStore** (行うデータベースに対応) と**PersistentChatComplianceStore**に対応しているデータベースを参照します。データベース)。 このスキーマを公開することは、お客様がクエリを作成して、チャットの利用状況、アクティブな会議室、トップ投稿などに関する有用なレポートを作成できるようにすることを目的としています。
+
+<div>
 
 
-> [!IMPORTANT]
-> Microsoft はこのスキーマを進化させる権利があります。Microsoft では、公開されたこのスキーマとの完全な下位互換性を維持することは一切保証していません。
+> [!IMPORTANT]  
+> このスキーマを進化させる権利を留保します。 Microsoft は、この公開されたスキーマとの完全な下位互換性を維持する保証を行っていません。
 
 
 
-次のベスト プラクティスに従ってください。
+</div>
 
-  - 列一覧は拡大される可能性があるため、SELECT\* // はサポートされません。
+以下のベストプラクティスに従ってください。
+
+  - 列リスト\*のサイズが大きくなる可能性があるため、SELECT//はサポートされません。
 
   - ユーザーが生成したスキーマの変更はサポートされません。
 
-  - 書き込み操作はサポートされません。
+  - 書き込み操作はサポートされていません。
 
-  - 作成したクエリを標準的なサイズのデータベースでテストして、ニーズを満たすレベルでクエリを実行できることを確認してください。
+  - Representatively サイズのデータベースで作成したクエリをテストして、ニーズに合わせてクエリが確実に実行されることを確認します。
 
-## このセクション中
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 の常設チャット サーバーのテーブルのリスト](lync-server-2013-list-of-persistent-chat-server-tables.md)
 
@@ -44,4 +70,16 @@ _**トピックの最終更新日:** 2012-09-18_
   - [Lync Server 2013 の常設チャット サーバー テーブルの詳細](lync-server-2013-persistent-chat-server-table-details.md)
 
   - [Lync Server 2013 の常設チャット データベースのクエリのサンプル](lync-server-2013-sample-persistent-chat-database-queries.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

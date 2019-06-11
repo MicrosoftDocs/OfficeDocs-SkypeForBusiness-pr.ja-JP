@@ -1,61 +1,107 @@
-﻿---
-title: モビリティ サービスおよび UCWA の使用状況の監視
-TOCTitle: モビリティ サービスおよび UCWA の使用状況の監視
-ms:assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh690025(v=OCS.15)
-ms:contentKeyID: 48272692
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: モビリティサービスと UCWA の使用状況を監視する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Monitoring Mobility Service and UCWA usage
+ms:assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690025(v=OCS.15)
+ms:contentKeyID: 48184683
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 758fef9e3f2c31bec88927c75b271808d5bbc43c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826704"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# モビリティ サービスおよび UCWA の使用状況の監視
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-14_
+# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a>Lync Server 2013 でのモビリティサービスと UCWA の使用状況の監視
 
-Lync Server Mobility Service (Mcx) と Unified Communications Web API (UCWA) で使用される CPU とメモリを継続的に監視する必要があります。使用状況を監視するには、次を使用できます。
+</div>
 
-**For Unified Communications Web API (UCWA):**
+<div id="mainSection">
 
-  - インターネット インフォメーション サービス (IIS) マネージャー内の **LyncUcwa** ワーカー プロセス。\[**ワーカー プロセス**\] ウィンドウで、\[**CPU %**\] および \[**プライベート バイト (KB)**\] (メモリ) の列を確認します。
+<div id="mainBody">
 
-  - \[**CPU**\] および \[**プロセッサ**\] パフォーマンス カウンター
+<span> </span>
 
-ほとんどの展開で、UCWA の CPU 使用率は平均で 15% を下回っている必要があります。メモリ使用量は、「[サーバーのメモリ容量制限の監視](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)」で説明されている制限の範囲内に含まれる必要があります。
+_**最終更新日:** 2013-02-14_
+
+継続的に、Lync Server Mobility Service (Mcx) とユニファイドコミュニケーション Web API (UCWA) で使用されている CPU とメモリを監視する必要があります。 使用状況を監視するには、次の操作を行います。
+
+**Unified Communications Web API (UCWA):**
+
+  - インターネットインフォメーションサービス (IIS) マネージャーでの**LyncUcwa** worker プロセス。 [**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。
+
+  - [**CPU**] および [**プロセッサ**] パフォーマンス カウンター。
+
+ほとんどの展開で、UCWA の CPU 使用率は平均で 15% を下回っている必要があります。 メモリ使用量は、「 [Lync server 2013 でのサーバーメモリ容量の上限を監視](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)する」で説明されている制限内に収まる必要があります。
 
 CPU とメモリの使用状況カウンターに加えて、以下のパフォーマンス カウンターを使用すると、サーバーが要求で過負荷になっていないかどうかを確認するのに役立つ場合があります。
 
-  - **LS:WEB – Throttling and Authentication\\WEB – Total Requests in Processing**。これは、サーバー上の保留中の Web 要求数を示します。このカウンターが 10,000 に達すると、以降の要求は失敗し、エラー メッセージ "503 - サービスを利用できません" が表示されます。
+  - **LS: web –調整と認証\\WEB –処理中の要求の合計**。サーバー上の保留中の WEB 要求の数を示します。 このカウンターが1万に達すると、その後の要求は失敗し、"503-サービスを利用できません" というエラーメッセージが表示されます。
 
-  - **ASP.NET\\Requests Queued** (常にゼロである必要があります)。
+  - **ASP.NET\\要求のキュー**(常にゼロである必要があります)。
 
-> [!NOTE]
-> これらの値に達するか、これらの値を超えた場合、Web サービスをホストしているコンピューターの CPU、コア数、およびメモリの適切な規模設定の容量計画を再検討して、再計算する必要があります。
+<div>
 
+
+> [!NOTE]  
+> これらの値を満たしているか、それ以上の場合は、Web サービスをホストしているコンピューターの CPU、コア数、メモリのサイズが適切に調整されるように、キャパシティ計画を再検討して再計算する必要があります。
+
+
+
+</div>
 
 **Mobility Service (Mcx):**
 
-  - インターネット インフォメーション サービス (IIS) マネージャー内の **CSIntMcxAppPool** および **CSExtMcxAppPool** ワーカー プロセス。\[**ワーカー プロセス**\] ウィンドウで、\[**CPU %**\] および \[**プライベート バイト (KB)**\] (メモリ) の列を確認します。
+  - **Csintmcxapppool**と**csextmcxapppool**ワーカープロセス (インターネットインフォメーションサービス (IIS) マネージャー)。 [**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。
 
-  - \[**CPU**\] および \[**プロセッサ**\] パフォーマンス カウンター
+  - [**CPU**] および [**プロセッサ**] パフォーマンス カウンター。
 
-ほとんどの展開で、Mobility Service の CPU 使用率は平均で 15% を下回っている必要があります。メモリ使用量は、「[サーバーのメモリ容量制限の監視](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)」で説明されている制限の範囲内に含まれる必要があります。
+ほとんどの展開で、Mobility Service の CPU 使用率は平均で 15% を下回っている必要があります。 メモリ使用量は、「 [Lync server 2013 でのサーバーメモリ容量の上限を監視](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)する」で説明されている制限内に収まる必要があります。
 
 CPU とメモリの使用状況カウンターに加えて、以下の ASP.NET パフォーマンス カウンターを使用すると、サーバーが要求で過負荷になっていないかどうかを確認するのに役立つ場合があります。
 
-  - **ASP.NET v2.0.50727\\Requests Current**。これは、サーバー上の保留中の Web 要求数を示します。このカウンターが 5,000 に達すると、以降の要求は失敗し、エラー メッセージ "503 - サービスを利用できません" が表示されます。
+  - **ASP.NET v 2.0.50727\\要求 Current**は、サーバー上の保留中の web 要求の数を示します。 このカウンターが5000に達すると、その後の要求は失敗し、"503-サービスを利用できません" というエラーメッセージが表示されます。
 
-  - **ASP.NET\\Requests Queued** (常にゼロである必要があります)。
+  - **ASP.NET\\要求のキュー**(常にゼロである必要があります)。
 
-> [!NOTE]
-> これらの値に達するか、これらの値を超えた場合、Web サービスをホストしているコンピューターの CPU、コア数、およびメモリの適切な規模設定の容量計画を再検討して、再計算する必要があります。
+<div>
 
 
-## 関連項目
+> [!NOTE]  
+> これらの値を満たしている、または超える場合は、Web サービスをホストしているコンピューターの CPU、コア数、メモリの適切なサイズ変更のために、キャパシティ計画を再検討して再計算する必要があります。
 
-#### 概念
 
-[サーバーのメモリ容量制限の監視](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でのサーバーメモリ容量の上限を監視する](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

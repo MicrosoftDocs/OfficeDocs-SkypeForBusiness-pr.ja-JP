@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Monitoring group chat'
+---
+title: 'Lync Server 2013: グループチャットを監視する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Monitoring group chat
 ms:assetid: bddcf0be-ebf3-46bc-90c7-2576877734fb
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn720924(v=OCS.15)
-ms:contentKeyID: 62246650
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720924(v=OCS.15)
+ms:contentKeyID: 63969648
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 74897191cac7559237e961b7600a3ed478d11e58
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826683"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Monitoring group chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="monitoring-group-chat-in-lync-server-2013"></a>Lync Server 2013 でグループチャットを監視する
 
-We highly recommend running the most recent [Cumulative Server Update Installer](https://support.microsoft.com/kb/968802) available on the Microsoft Download Center for performance improvements.
+</div>
 
-Assuming you are running latest cumulative update, use the following stress test table for metrics to understand if your Group Chat Servers are running at optimal health.
+<div id="mainSection">
 
-### Test environment and user model
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-08-04_
+
+パフォーマンスを向上させるには、Microsoft ダウンロードセンターで入手できる最新の[累積サーバー更新プログラムインストーラー](http://support.microsoft.com/kb/968802)を実行することを強くお勧めします。
+
+最新の累積更新プログラムを実行していることを前提として、グループチャットサーバーが最適な状態で実行されているかどうかを判断するために、メトリックについて次のストレステストテーブルを使用します。
+
+### <a name="test-environment-and-user-model"></a>環境とユーザーモデルのテスト
 
 <table>
 <colgroup>
@@ -32,77 +52,81 @@ Assuming you are running latest cumulative update, use the following stress test
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Three Group Chat Servers in a Group Chat pool, each with 8 GB memory and 8 processors.</p></td>
+<td><p>グループチャットプール内の3つのグループチャットサーバ、それぞれに 8 GB のメモリと8個のプロセッサが搭載されています。</p></td>
 </tr>
 <tr class="even">
-<td><p>Two Lync Server 2013 Front Ends in Enterprise Edition.</p></td>
+<td><p>Enterprise Edition での2台の Lync Server 2013 フロントエンド。</p></td>
 </tr>
 <tr class="odd">
-<td><p>60,000 concurrent users across three Group Chat Servers.</p></td>
+<td><p>6万で3つのグループチャットサーバに同時に接続できます。</p></td>
 </tr>
 <tr class="even">
-<td><p>25,000 channels hosted by Group Chat Pool.</p></td>
+<td><p>グループチャットプールによってホストされている25000チャネル。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Channel Size:</p>
+<td><p>チャンネルサイズ:</p>
 <ul>
-<li><p>Small Channel Size: 30</p></li>
-<li><p>Medium Channel Size: 150</p></li>
-<li><p>Large Channel Size: 2500</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>Channel Count:</p>
-<ul>
-<li><p>Number small channels: 24,000</p></li>
-<li><p>Number medium channels 800</p></li>
-<li><p>Number large channels 24</p></li>
-<li><p>Total Channels 24,824</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>Invite channels:</p>
-<ul>
-<li><p>Half the channels were invite channels</p></li>
+<li><p>小さいチャンネルサイズ:30</p></li>
+<li><p>ミディアムチャネルサイズ: 150</p></li>
+<li><p>大きいチャンネルサイズ: 2500</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Number of channels a user joins:</p>
+<td><p>チャネル数:</p>
 <ul>
-<li><p>Small: 12</p></li>
-<li><p>Medium: 2</p></li>
-<li><p>Large: 1</p></li>
+<li><p>小さいチャンネル数: 24000</p></li>
+<li><p>数値媒体チャネル800</p></li>
+<li><p>大きいチャンネルの番号24</p></li>
+<li><p>チャネルの合計24824</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Join rate:</p>
+<td><p>チャネルの招待:</p>
 <ul>
-<li><p>10 total/second, 3.33/second per server</p></li>
+<li><p>チャンネルがチャンネルを招待した残りのチャネル</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Logout rate:</p>
+<td><p>ユーザーが参加するチャネルの数:</p>
 <ul>
-<li><p>10 total/second, 3.33/second per server</p></li>
+<li><p>小:12</p></li>
+<li><p>中: 2</p></li>
+<li><p>大: 1</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Chat rate:</p>
+<td><p>参加率:</p>
 <ul>
-<li><p>20 total/second, 6.66/second per server</p></li>
+<li><p>サーバーあたり10合計/秒、3.33/秒</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><p>ログアウト率:</p>
+<ul>
+<li><p>サーバーあたり10合計/秒、3.33/秒</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><p>チャット料金:</p>
+<ul>
+<li><p>1サーバーあたり20合計/秒、6.66/秒</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-
-> [!IMPORTANT]
-> The following performance counter numbers will likely vary when different hardware specifications or user profiles are used.
+<div>
 
 
+> [!IMPORTANT]  
+> ハードウェア仕様またはユーザープロファイルが異なる場合、次のパフォーマンスカウンターの数値が異なる可能性があります。
 
-### Performance counter to be monitored
+
+
+</div>
+
+### <a name="performance-counter-to-be-monitored"></a>監視対象のパフォーマンスカウンター
 
 <table>
 <colgroup>
@@ -111,15 +135,26 @@ Assuming you are running latest cumulative update, use the following stress test
 </colgroup>
 <thead>
 <tr class="header">
-<th>Performance Counter</th>
-<th>Thresholds</th>
+<th>パフォーマンスカウンター</th>
+<th>しきい値</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Process(ChannelService)-&gt;%Processor Time</p></td>
+<td><p>プロセス (ChannelService)-&gt;プロセッサ時間の割合</p></td>
 <td><p>Min: 0</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
