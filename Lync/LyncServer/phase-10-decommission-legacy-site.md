@@ -1,41 +1,83 @@
-﻿---
-title: 'フェーズ 10: 従来のサイトを使用停止にする'
-TOCTitle: 'フェーズ 10: 従来のサイトを使用停止にする'
-ms:assetid: d591a310-3b5c-4092-b19e-0349616e40df
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205300(v=OCS.15)
-ms:contentKeyID: 48273699
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'フェーズ 10: レガシサイトの廃止'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 10: Decommission legacy site'
+ms:assetid: d591a310-3b5c-4092-b19e-0349616e40df
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205300(v=OCS.15)
+ms:contentKeyID: 48185540
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a04054c158f1c97f5090328e1277dcdb63b1d823
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848028"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# フェーズ 10: 従来のサイトを使用停止にする
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="phase-10-decommission-legacy-site"></a>フェーズ 10: レガシサイトの廃止
 
-以下のトピックでは、プールを使用停止にする方法、およびサーバーとプールを非アクティブ化して Office Communications Server 2007 R2 の従来の展開から削除する方法について説明します。このセクションに記載されているすべての手順が必要なわけではありません。個々のトピックの情報を読んで、どの使用停止の手順を使用するかを判断してください。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-16_
+
+次のトピックでは、Office Communications Server 2007 R2 のレガシ展開でのプールの廃止、サーバーとプールの無効化と削除に関するガイダンスを提供します。 このセクションに記載されているすべての手順を行う必要はありません。 以下の各トピックの情報を読み、使用する使用停止手順を確認してください。
+
+<div>
 
 
-> [!TIP]
-> ダイヤルイン会議の会議ディレクトリを Lync Server 2013 にインポートしていた場合は、プールの使用停止を開始する前に、会議ディレクトリの所有権を Lync Server 2013 に切り替えることが重要です。会議ディレクトリの所有権を最初に切り替えずにプールを使用停止すると、移行したすべての会議のダイヤルイン機能が動作しなくなります。使用していたプールのそれぞれの会議ディレクトリについて、所有権を切り替えるための手順を 1 回ずつ実行する必要があります。
+> [!WARNING]  
+> ダイヤルイン会議用の会議ディレクトリを Lync Server 2013 にインポートした場合は、プールの廃止を開始する前に、会議ディレクトリの所有権を Lync Server 2013 に移行することが重要です。 最初に会議ディレクトリの所有権を移行することなくプールを廃止すると、移行したすべての会議のダイヤルイン機能が機能しなくなります。 従来のプールの各会議ディレクトリについて、所有権を1回移行する手順を実行する必要があります。
 
 
 
+</div>
 
-> [!IMPORTANT]
-> 従来の環境を使用停止にする前に Microsoft Unified Communications Managed API (UCMA) アプリケーションを移行およびアップグレードする方法については、<A class=uri href="http://go.microsoft.com/fwlink/?linkid=269555%26clcid=0x411">http://go.microsoft.com/fwlink/?linkid=269555&amp;clcid=0x411</A> を参照してください。
+<div>
+
+
+> [!IMPORTANT]  
+> Microsoft ユニファイドコミュニケーションマネージ API (UCMA) アプリケーションの移行とアップグレードに関する情報については、「従来の環境を廃止する前に」を参照してください。<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
-## このセクション中
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [会議ディレクトリを移動する](move-conference-directories.md)
 
   - [DNS SRV レコードの更新](update-dns-srv-records_1.md)
 
-  - [サーバーとプールの使用停止](decommissioning-servers-and-pools.md)
+  - [サーバーとプールの無効化](decommissioning-servers-and-pools.md)
 
-  - [BackCompatSite の削除](remove-backcompatsite.md)
+  - [BackCompatSite を削除する](remove-backcompatsite.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

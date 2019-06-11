@@ -1,21 +1,51 @@
-﻿---
-title: 'Lync Server 2013: SQL Server のシステム要件'
-TOCTitle: SQL Server のシステム要件
-ms:assetid: 9c235085-cbfa-4e9e-9cec-3f5749039a6b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205112(v=OCS.15)
-ms:contentKeyID: 48273019
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: SQL Server のシステム要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: System requirements for SQL Server
+ms:assetid: 9c235085-cbfa-4e9e-9cec-3f5749039a6b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205112(v=OCS.15)
+ms:contentKeyID: 48184904
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4d8e8bb923fd10d505eb9e1b02b0b0ee31612d40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848608"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の SQL Server のシステム要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-10-25_
+# <a name="system-requirements-for-sql-server-in-lync-server-2013"></a>Lync Server 2013 の SQL Server のシステム要件
 
-Enterprise Edition サーバーを展開する前に、Microsoft SQL Server 2008 R2 または Microsoft SQL Server 2012 を、ハードウェア要件を満たす専用のコンピューターにインストールします。ハードウェア要件の詳細については、「サポート」のドキュメントの「[Lync Server 2013　用のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。ソフトウェア要件の詳細については、「サポート」のドキュメントの「[Lync Server 2013 でのデータベース ソフトウェアのサポート](lync-server-2013-database-software-support.md)」を参照してください。展開に必要なアクセス許可の詳細については、「[Lync Server 2013 の SQL Server の展開のアクセス許可](lync-server-2013-deployment-permissions-for-sql-server.md)」を参照してください。
+</div>
 
-また、フロントエンド プールを作成する前に、Lync Server 2013 が特定のポートを経由して SQL Server にアクセスできるように Windows ファイアウォールを構成する必要があります。そのためには、SQL Server 構成マネージャーを使用するサーバー用のポートを定義し、それらのポートをセキュリティが強化された Windows ファイアウォールで開きます。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-10-25_
+
+Enterprise Edition server を展開する前に、ハードウェア要件を満たす専用のコンピューターに Microsoft SQL Server 2008 R2 または Microsoft SQL Server 2012 をインストールしてください。 ハードウェア要件の詳細については、サポートドキュメントの「[サーバーハードウェアプラットフォーム (Lync server 2013 の場合](lync-server-2013-server-hardware-platforms.md))」を参照してください。 ソフトウェア要件の詳細については、サポートドキュメントの「 [Lync Server 2013 でのデータベースソフトウェアのサポート](lync-server-2013-database-software-support.md)」を参照してください。 展開に必要なアクセス許可については、「 [Lync server 2013 の SQL Server の展開権限](lync-server-2013-deployment-permissions-for-sql-server.md)」を参照してください。
+
+フロントエンドプールを作成する前に、SQL Server 構成マネージャーを使用してサーバーのポートを定義し、Windows ファイアウォールでポートを開くことで、特定のポート経由で Lync Server 2013 から SQL Server へのアクセスを許可するように Windows ファイアウォールを構成する必要もあります。高度なセキュリティ。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

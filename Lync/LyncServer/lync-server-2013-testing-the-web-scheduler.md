@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing the Web scheduler'
+---
+title: 'Lync Server 2013: Web scheduler のテスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing the Web scheduler
 ms:assetid: 58e34058-1afa-42e3-9096-c4ea1954c237
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn727304(v=OCS.15)
-ms:contentKeyID: 62388704
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727304(v=OCS.15)
+ms:contentKeyID: 63969603
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: beb4030a87302c8abaaba9418eaba06b831ed8d6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848417"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing the Web scheduler in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Lync Server 2013 で Web scheduler をテストする
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-11-03_
 
 
 <table>
@@ -23,110 +43,140 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>[毎日]</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsWebScheduler</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>CsWebScheduler</strong>コマンドレットを実行するアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebScheduler&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsWebScheduler** cmdlet enables you to determine whether a specific user can schedule a meeting using the Web Scheduler. The Web Scheduler enables users who are not running Outlook to schedule online meetings. Among other things, this new feature (which incorporates the functionality found in the Web Scheduler tool that was included with the Microsoft Lync Server 2010 resource kit) enables users to:
+## <a name="description"></a>説明
 
-  - Schedule a new online meeting.
+**テスト用の webscheduler**コマンドレットを使用すると、特定のユーザーが Web Scheduler を使って会議をスケジュールできるかどうかを判断できます。 Web Scheduler は、Outlook を実行していないユーザーがオンライン会議をスケジュールすることを可能にします。 この新機能 (Microsoft Lync Server 2010 リソースキットに含まれていた Web Scheduler ツールに含まれていた機能が組み込まれています) では、ユーザーは次のことを行うことができます。
 
-  - List all meetings that he or she has scheduled.
+  - 新しいオンライン会議をスケジュールします。
 
-  - View/modify an existing meeting.
+  - 自分がスケジュールしたすべての会議を一覧表示します。
 
-  - Delete an existing meeting.
+  - 既存の会議を表示または変更する。
 
-  - Send an email invitation to meeting participants by using a preconfigured SMTP mail server.
+  - 既存の会議を削除します。
 
-  - Join an existing conference.
+  - 事前に構成された SMTP メールサーバーを使用して、会議の出席者にメール招待状を送信します。
 
-## Running the test
+  - 既存の会議に参加します。
 
-The following example verifies the Web Scheduler for the pool atl-cs-001.litwareinc.com. This command will work only if test users are defined for the pool atl-cs-001.litwareinc.com. If they have, then the command will determine whether the first test user can schedule an online meeting using the Web Scheduler.
+</div>
 
-If test users are not defined, then the command will fail because it won't know which user to log on as. If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user the command should use when trying to log on.
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+次の例では、プール atl-cs-001.litwareinc.com の Web Scheduler を確認します。 このコマンドは、プール atl-cs-001.litwareinc.com に対してテストユーザーが定義されている場合にのみ機能します。 その場合、コマンドは、最初のテストユーザーが Web Scheduler を使ってオンライン会議をスケジュールできるかどうかを決定します。
+
+テストユーザーが定義されていない場合は、どのユーザーとしてログオンするかがわからないため、コマンドは失敗します。 プールのテストユーザーを定義していない場合は、UserSipAddress パラメーターと、ログオンしようとしたときにコマンドによって使用されるユーザーの資格情報を含める必要があります。
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-The commands shown in the next example test the ability of a specific user (litwareinc\\kenmeyer) to schedule an online meeting using the Web scheduler. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Ken Meyer. (Because the logon name litwareinc\\kenmeyer is included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Ken Meyer account.) The resulting credential object is then stored in a variable named $cred1.
+次の例に示すコマンドは、Web scheduler を使ってオンライン会議を\\スケジュールするために、特定のユーザー (litwareinc kenmeyer) の機能をテストします。 これを行うには、この例の最初のコマンドでは、 **Credential**コマンドレットを使用して、ユーザー Ken Meyer の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイスの資格情報オブジェクトを作成します。 (Logon name litwareinc\\kenmeyer はパラメーターとして含まれているため、Windows PowerShell 資格情報の要求ダイアログボックスでは、管理者が Ken Meyer account のパスワードを入力するだけであることになります。)結果として得られた資格情報オブジェクトは、$cred 1 という名前の変数に格納されます。
 
-The second command then checks whether this user can log on to the pool atl-cs-001.litwareinc.com and schedule an online meeting. To run this task, the **Test-CsWebScheduler** cmdlet is called, together with three parameters: TargetFqdn (the FQDN of the Registrar pool); UserCredential (the Windows PowerShell object that contains Pilar Ackerman’s user credentials); and UserSipAddress (the SIP address that corresponds to the supplied user credentials).
+2番目のコマンドは、このユーザーがプール atl-cs-001.litwareinc.com にログオンしてオンライン会議をスケジュールできるかどうかを確認します。 このタスクを実行するために、**テスト用の Webscheduler**コマンドレットが呼び出され、次の3つのパラメーター (レジストラープールの FQDN) が使用されます。UserCredential (Pilar Ackerman のユーザー資格情報を格納する Windows PowerShell オブジェクト)UserSipAddress (提供されているユーザー資格情報に対応する SIP アドレス) を選びます。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-## Determining success or failure
+</div>
 
-If the web scheduler is configured correctly , you'll receive output similar to this, with the Result property marked as **Success**:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-Target Uri : https:// atl-cs-001.litwareinc.com.
+Web scheduler が適切に構成されている場合は、次のような結果が返され、Result プロパティは**Success**とマークされます。
+
+ターゲット Fqdn: atl-cs-001.litwareinc.com
+
+ターゲット Uri: https://atl-cs-001.litwareinc.com。
 
 litwareinc.com:443/Scheduler
 
-Result : Success
+結果: 成功
 
-Latency : 00:00:00
+待ち時間: 00:00:00
 
-Error Message :
+エラーメッセージ:
 
-Diagnosis :
+診断
 
-If the web scheduler is not configured correctly, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Web scheduler が正しく構成されていない場合は、結果が**失敗**として表示され、エラーと診断のプロパティに追加情報が記録されます。
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+警告: 指定した完全修飾のレジストラーポート番号の読み取りに失敗しました
 
-domain name (FQDN). Using default Registrar port number. Exception:
+ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 エラー
 
-System.InvalidOperationException: No matching cluster found in topology.
+InvalidOperationException: トポロジで一致するクラスターが見つかりませんでした。
 
-at
+自宅
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+SipSyntheticTransaction-TryRetri の同期を行います。
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Target Fqdn : atl-cs-001.litwareinc.com
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Target Uri :
+ターゲット Uri:
 
-Result : Failure
+結果: エラー
 
-Latency : 00:00:00
+待ち時間: 00:00:00
 
-Error Message : No matching cluster found in topology.
+エラーメッセージ: 一致するクラスターがトポロジに見つかりませんでした。
 
-Diagnosis :
+診断
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why **Test-CsWebScheduler** might fail:
+<div>
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
 
-  - This command will fail if the Web Scheduler is misconfigured or not yet deployed.
+次に **、テスト用の Webscheduler スケジューラ**が機能しない場合の一般的な理由を示します。
 
-## 関連項目
+  - 指定されたパラメーター値が正しくありません。 使用する場合は、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。 省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
 
-#### その他のリソース
+  - Web Scheduler が正しく構成されていない場合、またはまだ展開されていない場合、このコマンドは失敗します。
 
-[Set-CsWebServer](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServer)
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Set-CsWebServer](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServer)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

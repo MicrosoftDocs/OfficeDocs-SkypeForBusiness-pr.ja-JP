@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing peer to peer audio/video call'
+---
+title: 'Lync Server 2013: ピアツーピア音声/ビデオ通話のテスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing peer to peer audio/video call
 ms:assetid: 95eb3693-b866-4652-bc45-9b75fdb40b49
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn743835(v=OCS.15)
-ms:contentKeyID: 62279273
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743835(v=OCS.15)
+ms:contentKeyID: 63969627
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 43fc4da7619dcc4cfd88417b52543dc23c447883
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848433"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing peer to peer audio/video call in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Lync Server 2013 でピアツーピア音声/ビデオ通話をテストする
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-06-05_
 
 
 <table>
@@ -23,112 +43,138 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>[毎日]</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsP2PAV cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、CsP2PAV コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-Test-CsP2PAV is used to determine whether a pair of test users can participate in a peer-to-peer A/V conversation. To test this scenario, the cmdlet starts off by logging on the two users to Lync Server. Assuming that the two logons succeed, the first user then invites the second user to join an A/V call. The second user accepts the call, the connection between the two users is tested, and then the call is ended and the test users are logged off from the system.
+## <a name="description"></a>説明
 
-Test-CsP2PAV does not actually conduct an A/V call. Multimedia information is not exchanged between the test users. Instead, the cmdlet merely verifies that the appropriate connections can be made and that the two users can conduct such a call.
+CsP2PAV は、テストユーザーのペアがピアツーピアの A/V の会話に参加できるかどうかを判断するために使用されます。 このシナリオをテストするために、このコマンドレットは、2人のユーザーを Lync Server にログオンして開始します。 2つのログオンが成功すると、最初のユーザーは、A/V 呼び出しに参加するように2番目のユーザーを招待します。 2人目のユーザーが通話を受け入れ、2人のユーザー間の接続がテストされた後、通話が終了し、テストユーザーがシステムからログオフされます。
 
-For more information, see the Help documentation for the [Test-CsP2PAV](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsP2PAV) cmdlet.
+CsP2PAV は、実際に A/V 通話を行いません。 マルチメディア情報は、テストユーザー間では交換されません。 代わりに、コマンドレットは、適切な接続を行うことができ、2人のユーザーがそのような呼び出しを実行できることを確認するだけです。
 
-## Running the test
+詳細については、「 [CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV)コマンドレットのヘルプドキュメント」を参照してください。
 
-The Test-CsP2PAV cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+CsP2PAV コマンドレットを実行するには、定義済みのテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照) を使用するか、Lync Server を有効にしている2人のユーザーのアカウントを使用します。 テストアカウントを使用してこの確認を実行するには、テストする Lync Server プールの FQDN を指定する必要があります。 次に例を示します。
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using actual user accounts, you must create two Lync Server credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsP2PAV:
+実際のユーザーアカウントを使用してこのチェックを実行するには、Lync Server credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) をそれぞれのアカウントに作成する必要があります。 次に、CsP2PAV を呼び出したときに、これらの資格情報オブジェクトと、2つのアカウントの SIP アドレスを含める必要があります。
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-## Determining success or failure
+</div>
 
-If the two test users can complete a peer-to-peer A/V call, then you'll receive output similar to this with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-Result : Success
+2つのテストユーザーがピアツーピアの A/V の呼び出しを完了できる場合は、次のような結果として、Success とマークされた Result プロパティの出力が表示され**ます。**
 
-Latency : 00:00:06.8630376
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+結果: 成功
 
-Diagnosis :
+待ち時間:00:00: 06.8630376
 
-If the test users can't complete the call, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+誤差
 
-TargetFqdn : atl-cs-001.litwareinc.com
+診断
 
-Result : Failure
+テストユーザーが通話を完了できなかった場合、結果は失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 480, Temporarily Unavailable
+結果: エラー
 
-Diagnosis : ErrorCode=15030,Source=atl-cs-001.litwareinc.com,Reason=Failed
+待ち時間: 00:00:00
 
-to route to Exchange Server
+エラー: 480、一時的に使用できません
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+診断: ErrorCode = 15030、Source = atl-litwareinc、Reason = Failed。
 
-For example, the previous output states that the test failed because the Microsoft Exchange Server couldn't be contacted. This error message typically indicates a problem the configuration of Exchange Unified Messaging.
+Exchange Server にルーティングするには
 
-If Test-CsP2PAV fails then you might want to rerun the test, this time including the Verbose parameter:
+DiagnosticHeader の場合
 
-Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
+たとえば、前回の出力では、Microsoft Exchange Server に接続できなかったため、テストが失敗したことが示されます。 このエラーメッセージは、通常、Exchange ユニファイドメッセージングの構成に問題があることを示します。
 
-When the Verbose parameter is included, Test-CsP2PAV will return a step-by-step account of each action it tried as it checked the ability of the specified user to log on to Lync Server. For example, suppose that your test failed with the following Diagnosis:
+テスト-CsP2PAV が失敗した場合は、Verbose パラメーターも含めて、テストを再実行することをお勧めします。
 
-ErrorCode=6003,Source=atl-cs-001.litwareinc.com,Reason=Unsupported out of dialog request
+CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
-If you rerun Test-CsP2PAV and include the Verbose parameter, you'll get output similar to this:
+Verbose パラメーターが含まれている場合、CsP2PAV は、指定されたユーザーが Lync Server にログオンする機能をチェックしたときに実行される各操作のステップバイステップのアカウントを返します。 たとえば、次のような診断でテストが失敗したとします。
 
-VERBOSE: 'Register' activity started.
+ErrorCode = 6003、Source = atl-litwareinc、Reason = サポートされていないダイアログの要求
 
-Sending Registration request:
+CsP2PAV を再実行し、Verbose パラメーターを含めると、次のような出力が表示されます。
 
-Target Fqdn = atl-cs-011.litwareinc.com
+VERBOSE: ' Register ' アクティビティが開始されました。
 
-User Sip Address = sip:kenmyer@litwareinc.com
+登録リクエストの送信:
 
-Registrar Port = 5062.
+ターゲット Fqdn = atl-cs-011.litwareinc.com
 
-Auth Type 'IWA' is selected.
+ユーザー Sip アドレス = sip:kenmyer@litwareinc.com
 
-An exception 'The endpoint was unable to register. See the ErrorCode for specific reason.' occurred during workflow Microsoft.Rtc.SyntheticTransactions.Workflows.STP2PAVWorkflow execution.
+レジストラーポート = 5062。
 
-Although it might not be immediately obvious, if you examine the output carefully you’ll see that an incorrect Registrar port (port 5062) was specified. In turn, that caused the test to fail.
+認証の種類 ' IWA ' が選択されています。
 
-## Reasons why the test might have failed
+"エンドポイントを登録できませんでした。" という例外が発生します。 具体的な理由については、「エラーコード」をご覧ください。 STP2PAVWorkflow の実行中に発生したワークフローのことです。
 
-Here are some common reasons why Test-CsP2PAV might fail:
+あまり明確でない場合もありますが、出力を慎重に確認すると、誤ったレジストラーポート (port 5062) が指定されていることがわかります。 これにより、テストが失敗する原因となります。
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+
+次に、テスト-CsP2PAV が失敗する可能性がある一般的な理由を示します。
+
+  - 無効なユーザーアカウントが指定されました。 次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。
     
-    Get-CsUser "sip:kenmyer@litwareinc.com"
+    ユーザー "sip:kenmyer@litwareinc.com" を取得する
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 Lync Server でユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server を有効にしていないことを意味します。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

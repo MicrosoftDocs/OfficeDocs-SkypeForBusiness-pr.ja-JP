@@ -1,62 +1,110 @@
-﻿---
-title: Exchange ユニファイド メッセージングの連絡先オブジェクトの移動
-TOCTitle: Exchange ユニファイド メッセージングの連絡先オブジェクトの移動
-ms:assetid: 35c7e987-41b5-4798-b617-3303f20e52e3
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688022(v=OCS.15)
-ms:contentKeyID: 49886915
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Exchange ユニファイドメッセージングの連絡先オブジェクトを移動する
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Move Exchange Unified Messaging Contact objects
+ms:assetid: 35c7e987-41b5-4798-b617-3303f20e52e3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688022(v=OCS.15)
+ms:contentKeyID: 49733612
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 946bf7221ab9f4c5a7111839bca25dabaad31d82
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848037"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exchange ユニファイド メッセージングの連絡先オブジェクトの移動
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-19_
+# <a name="move-exchange-unified-messaging-contact-objects"></a>Exchange ユニファイドメッセージングの連絡先オブジェクトを移動する
 
-自動応答 (AA) およびサブスクライバー アクセス (SA) の連絡先オブジェクトを新しい Lync Server 2013 の展開に移行するには、最初に、 **Get-CsExUmContact** および **Move-CsExUmContact** コマンドレットを使用して、従来の Office Communications Server 2007 R2 の展開から新しい Lync Server 2013 の展開にオブジェクトを移動する必要があります。その後、Exchange Server において、 **ExchUCUtil**Windows PowerShell スクリプトを実行して、新しく展開された Lync プールで以下を行います。
+</div>
 
-  - ユニファイド メッセージング IP ゲートウェイに追加します。
+<div id="mainSection">
 
-  - ユニファイド メッセージング ハント グループに追加します。
+<div id="mainBody">
 
-> [!NOTE]
-> <strong>Get-CsExUmContact</strong> および <strong>Move-CsExUmContact</strong> コマンドレットを使用するには、RTCUniversalUserAdmins グループのメンバーであり、連絡先オブジェクトを格納する組織単位 (OU) に対する OU アクセス許可を持っている必要があります。OU アクセス許可は <strong>Grant-OUPermission</strong> コマンドレットを使用して付与できます。
+<span> </span>
+
+_**最終更新日:** 2012-10-19_
+
+自動応答 (AA) および加入者アクセス (SA) 連絡先オブジェクトを新しい Lync Server 2013 の展開に移行するには、まず、**従来の Office Communications Server 2007 R2 の展開から新しい Lync server 2013 展開にオブジェクトを移動します。CsExUmContact**と**移動-csexumcontact**コマンドレット。 Exchange サーバーで、 **Exchucutil** Windows PowerShell スクリプトを実行して、新しく展開された Lync プールに対して次の操作を行います。
+
+  - ユニファイドメッセージング IP ゲートウェイに追加します。
+
+  - ユニファイドメッセージングハントグループに追加します。
+
+<div>
 
 
-## Lync Server 管理シェルを使用して連絡先オブジェクトを移動するには
+> [!NOTE]  
+> <STRONG>Get-csexumcontact</STRONG>および<STRONG>Move-csexumcontact</STRONG>コマンドレットを使用するには、RTCUniversalUserAdmins グループのメンバーであり、連絡先オブジェクトが保存されている OU に対して組織単位 (ou) のアクセス許可を持っている必要があります。 権限付与は、 <STRONG>Grant permission</STRONG>コマンドレットを使って行うことができます。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-move-contact-objects-by-using-the-lync-server-management-shell"></a>Lync Server 管理シェルを使用して連絡先オブジェクトを移動するには
 
 1.  Lync Server 管理シェルを開きます。
 
-2.  Exchange UM で登録された各プールについて (pool1.contoso.net は Office Communications Server 2007 R2 の展開のプール、pool2.contoso.net は Lync Server 2013 の展開のプール) について、コマンド ラインで次のように入力します。
+2.  Exchange UM に登録されている各プール (pool1.contoso.net は、Office Communications Server 2007 R2 の展開からのプールであり、pool2.contoso.net は Lync Server 2013 の展開からのプールである) には、次のように入力します。
     
         Get-CsExUmContact -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsExUmContact -Target pool02.contoso.net
     
-    連絡先オブジェクトが移動されたことを確認するには、 **Get-CsExumContact** コマンドレットを実行し、 **RegistrarPool** が新しいプールを参照していることを確認します。
+    連絡先オブジェクトが移動されたことを確認する**** には、 **RegistrarPool**コマンドレットを実行し、新しいプールをポイントしていることを確認します。
 
-## Windows PowerShell の ExchUCUtil スクリプトを実行するには
+</div>
 
-1.  Exchange 組織管理者特権のあるユーザーとして Exchange UM Server にログオンします。
+<div>
 
-2.  Windows PowerShell の ExchUCUtil スクリプトがある場所に移動します。
+## <a name="to-run-the-exchucutil-windows-powershell-script"></a>ExchUCUtil Windows PowerShell スクリプトを実行するには
+
+1.  Exchange の組織管理者権限を持つユーザーとして Exchange UM サーバーにログオンします。
+
+2.  ExchUCUtil Windows PowerShell スクリプトに移動します。
     
-    Exchange 2007 では、ExchUCUtil.ps1 が **%Program Files%\\Microsoft\\Exchange Server\\Scripts\\ExchUCUtil.ps1** にあります。
+    Exchange 2007 では、ExchUCUtil は次の場所にあります。 **%\\Program\\Files%\\Microsoft\\Exchange Server スクリプト exchucutil**
     
-    Exchange 2010 では、ExchUCUtil.ps1 が **%Program Files%\\Microsoft\\Exchange Server\\V14\\Scripts\\ExchUCUtil.ps1** にあります。
+    Exchange 2010 では、ExchUCUtil は次の場所にあります: **%\\Program\\Files%\\Microsoft\\Exchange\\Server V14 スクリプト exchucutil**
 
-3.  Exchange が単一のフォレストに展開されている場合は、次のように入力します。
+3.  1つのフォレストに Exchange が展開されている場合は、次のように入力します。
     
         exchucutil.ps1
     
-    Exchange を複数のフォレストに展開する場合は、次のように入力します。
+    または、複数のフォレストに Exchange が展開されている場合は、次のように入力します。
     
         exchucutil.ps1 -Forest:" <forest FQDN>"
     
-    *フォレスト FQDN* には、Lync Server 2013 を展開するフォレストを指定します。
+    ここで、[フォレスト FQDN の指定は Lync Server 2013 が展開されているフォレストを指定します。
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > exchucutil.ps1 を実行した後で、<STRONG>Lync Server フロントエンド</STRONG> サービス (rtcsrv.exe) を再起動してください。再起動しないと、Lync Server 2013 でトポロジのユニファイド メッセージングが検出されません。
+    > [!IMPORTANT]  
+    > Exchucutil を実行し<EM>た後</EM>、必ず<STRONG>Lync Server のフロントエンド</STRONG>サービス (rtcsrv) を再起動してください。 そうしないと、Lync Server 2013 は、トポロジでユニファイドメッセージングを検出しません。
 
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

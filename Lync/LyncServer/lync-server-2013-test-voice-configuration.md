@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test voice configuration'
+---
+title: 'Lync Server 2013: ボイス構成のテスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test voice configuration
 ms:assetid: 574794a3-cb30-4762-bb62-3a68574f05e9
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn725208(v=OCS.15)
-ms:contentKeyID: 62335954
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725208(v=OCS.15)
+ms:contentKeyID: 63969605
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: fbe9be7e0f7962bbab546822e7ce6cd47e063540
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848502"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test voice configuration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="test-voice-configuration-in-lync-server-2013"></a>Lync Server 2013 での音声構成のテスト
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-05-20_
 
 
 <table>
@@ -23,58 +43,68 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>毎月</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoiceTestConfiguration cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、CsVoiceTestConfiguration コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceTestConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-Lync Server includes several Windows PowerShell cmdlets (such as Test-CsVoiceRoute and Test-CsVoicePolicy, Test-CsTrunkConfiguration) that enable you to verify that the individual pieces of your Enterprise Voice infrastructure – voice routes, voice policies, SIP trunks – are working as expected.
+## <a name="description"></a>説明
 
-While it’s important with Enterprise Voice that all the individual pieces work: it’s possible to have a valid voice route, a valid voice policy, and a valid SIP trunk, but still have users unable to make or receive phone calls. Because of that, Lync Server also provides the ability to create voice test configurations. Voice test configurations represent common Enterprise Voice scenarios: you can specify such things as a voice route, a voice policy, and a dial plan, and then verify that those individual items are work able to work together to provide phone service. In addition, you can validate your expectations in a given scenario. For example, suppose that you expect that the combination of dial plan A and voice policy B would result in calls being routed over voice route C. You can enter voice route C as the ExpectedRoute. When you run the test, if voice route C is not employed then the test will be marked as having failed.
+Lync Server には、複数の Windows PowerShell コマンドレット (CsVoiceRoute や CsVoicePolicy のテストなど) が含まれており、エンタープライズ Voip インフラストラクチャの個々の要素 (ボイスルーティング、音声) を確認できます。ポリシー、SIP trunks –期待どおりに機能しています。
 
-## Running the test
+エンタープライズ Voip では、個々の要素がすべて機能することが重要です。ただし、有効なボイスルート、有効な音声ポリシー、有効な SIP トランクを持っていても、ユーザーは電話をかけたり受けたりすることはできません。 そのため、Lync Server にはボイステスト構成を作成する機能もあります。 音声テスト構成は、一般的なエンタープライズ Voip シナリオを示します。このようなことは、ボイスルート、音声ポリシー、ダイヤルプランなどを指定できます。また、それらの項目が複数のユーザーが協力して電話サービスを提供できることを確認できます。 さらに、特定のシナリオで期待値を検証することもできます。 たとえば、ダイヤルプラン A とボイスポリシー B の組み合わせによって、ボイスルーティング C 経由で通話がルーティングされていると想定したとします。ボイスルーティング C を ExpectedRoute として入力できます。 テストを実行すると、voice route C が使用されていない場合、テストは失敗したとマークされます。
 
-Before testing Voice configuration collections using Windows PowerShell, you must first use the Get-CsVoiceTestConfiguration cmdlet to retrieve an instance of these configuration settings. That instance must then be piped to the Test-CsVoiceTestConfiguration. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+Windows PowerShell を使用してボイス構成コレクションをテストする前に、まず CsVoiceTestConfiguration コマンドレットを使用してこれらの構成設定のインスタンスを取得する必要があります。 その後、そのインスタンスを CsVoiceTestConfiguration にパイプする必要があります。 次に例を示します。
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-To validate all the voice test configuration settings at the same time, use this command instead:
+すべての音声テストの構成設定を同時に検証するには、代わりに次のコマンドを使用します。
 
 `Get-CsVoiceTestConfiguration | Test-CsVoiceTestConfiguration`
 
-For more information, see the Help documentation for the Test-CsVoiceTestConfiguration cmdlet.
+詳細については、「CsVoiceTestConfiguration コマンドレットのヘルプドキュメント」を参照してください。
 
-## Determining success or failure
+</div>
 
-The Test-CsVoiceTestConfiguration cmdlet reports whether a test failed or succeeded, and provides additional information about each successful test, such as the translation rule, voice route, and PSTN usage used to complete the task:
+<div>
 
-Result:             Success
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-TranslatedNumber:   +15551234
+CsVoiceTestConfiguration コマンドレットは、テストが失敗したか成功したかを報告し、タスクを完了するために使用された翻訳ルール、ボイスルーティング、PSTN の使用状況などの各テストの成功に関する追加情報を提供します。
 
-MatchingRule:       Description=;Pattern=^(\\d{4})$;Translation=+1\\d;Name=Test;IsInternalExtension=False
+結果: 成功
 
-FirstMatchingRoute: site:Redmond
+TranslatedNumber: + 15551234
 
-MatchingUsage:      Local
+MatchingRule: Description =;Pattern = ^ (\\d{4}) $;翻訳 = + 1\\d;Name = Test; IsInternalExtension = False
 
-If the test fails then the result is reported as Fail:
+FirstMatchingRoute: サイト: レドモンド
 
-Result:             Fail
+MatchingUsage: Local
+
+テストが失敗した場合、結果は Fail として報告されます。
+
+結果: Fail
 
 TranslatedNumber:   
 
@@ -82,29 +112,49 @@ FirstMatchingRoute:
 
 MatchingUsage:      
 
-## Reasons why the test might have failed
+</div>
 
-Because voice test configuration testing tests several different items – including voice policies, dial plans, voice routes, and so on – there are several different factors that could result in a failed test. If a test fails, your first step should be to review the configuration settings themselves by using the Get-CsVoiceTestConfiguration cmdlet:
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+
+ボイステスト構成テストでは、ボイスポリシー、ダイヤルプラン、音声ルートなど、さまざまな項目をテストするため、テストが失敗する原因となる可能性のある要素がいくつかあります。 テストに失敗した場合は、最初の手順として、CsVoiceTestConfiguration コマンドレットを使用して構成設定を確認する必要があります。
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration"`
 
-If the settings seem to be configured correctly, re-run the test while including the Verbose parameter:
+設定が正しく構成されているように見える場合は、Verbose パラメーターを含めてテストを再実行します。
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-The Verbose parameter will provide a step-by-step account of each action taken by Test-CsVoiceTestConfiguration as shown in this example:
+Verbose パラメーターは、次の例に示すように、CsVoiceTestConfiguration によって実行される各アクションのステップバイステップのアカウントを提供します。
 
-VERBOSE: Loading dial plan: "Global"
+詳細: ダイヤルプランの読み込み: "グローバル"
 
-VERBOSE: Loading voice policy: "RedmondDialPlan"
+詳細: 音声ポリシーを読み込み中: "RedmondDialPlan"
 
-This step-by-step account might provide a useful clue as to where the test actually failed. If not, you can then use other Windows PowerShell cmdlets (such as Test-CsVoicePolicy) and methodically begin to verify the individual components that are included in the voice test configuration settings.
+このステップバイステップのアカウントでは、テストが実際に失敗した場所について、役に立つ手掛かりを提供する場合があります。 それ以外の場合は、Windows PowerShell コマンドレット (CsVoicePolicy など) を使用して、ボイステスト構成の設定に含まれている個々のコンポーネントの確認を系統的に開始できます。
 
-In addition to that, be aware that it’s possible for a test to be able to route a call and yet still be marked as a failure; that can occur if you enter values for ExpectedRoute, ExpectedTranslatedNumber, and ExpectedUsage, and any of those expectations are not met. For example, suppose that you enter voice route C as your expected voice route, but the test actually completes the call using voice route D. In that case the test will be marked as Failed because the expected voice route was not used. If a test fails, you might remove the values for ExpectedRoute, ExpectedTranslatedNumber, and ExpectedUsage and then re-run the test. That will help you determine whether the failure was because the call couldn't be completed, or because you expect one thing and actually received another.
+これに加えて、テストによって通話のルーティングが可能で、まだエラーとしてマークされている場合もあります。これは、ExpectedRoute、ExpectedTranslatedNumber、ExpectedUsage の値を入力した場合に発生する可能性があります。これらの期待値は満たされません。 たとえば、予想されるボイスルートとして「ボイスルーティング C」と入力しても、テストではボイスルーティング D を使って通話を完了しているとします。その場合、予期されるボイスルートが使用されなかったため、テストは失敗としてマークされます。 テストが失敗した場合は、ExpectedRoute、ExpectedTranslatedNumber、ExpectedUsage の値を削除して、テストを再実行することができます。 これは、通話が完了できなかったこと、または1つの問題が発生して、実際に他のユーザーが受信したためにエラーが発生したかどうかを判断するのに役立ちます。
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Test-CsVoiceTestConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoiceTestConfiguration)
+## <a name="see-also"></a>関連項目
+
+
+[テスト-CsVoiceTestConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceTestConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

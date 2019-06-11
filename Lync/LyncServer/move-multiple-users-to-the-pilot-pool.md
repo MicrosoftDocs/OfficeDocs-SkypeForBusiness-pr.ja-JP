@@ -1,79 +1,121 @@
-﻿---
-title: 複数のユーザーをパイロット プールに移動する
-TOCTitle: 複数のユーザーをパイロット プールに移動する
-ms:assetid: 90d0590c-922c-4933-b778-9dd850b59310
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205096(v=OCS.15)
-ms:contentKeyID: 48272841
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 複数のユーザーをパイロットプールに移動する
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Move multiple users to the pilot pool
+ms:assetid: 90d0590c-922c-4933-b778-9dd850b59310
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205096(v=OCS.15)
+ms:contentKeyID: 48184838
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bc3104566841cc70eeee489a4b8812a6b8039a31
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848034"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 複数のユーザーをパイロット プールに移動する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-02_
+# <a name="move-multiple-users-to-the-pilot-pool"></a>複数のユーザーをパイロットプールに移動する
 
-Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理シェルを使用すると、複数のユーザーを Lync Server 2010 プールから Lync Server 2013 パイロット プールに移動できます。
+</div>
 
-## Lync Server 2013 コントロール パネルを使用して複数のユーザーを移動するには
+<div id="mainSection">
 
-1.  \[**Lync Server コントロール パネル**\] を開きます。
+<div id="mainBody">
 
-2.  \[**ユーザー**\]、\[検索\] の順にクリックして、\[**ユーザー検索**\] をクリックします。
+<span> </span>
 
-3.  Lync Server 2013 プールに移動する 2 人のユーザーを選択します。この例では、Chen Yang および Claus Hansen というユーザーを移動します。
+_**最終更新日:** 2012-10-02_
+
+Lync server 2013 コントロールパネルまたは Lync Server 2013 Management Shell を使用して、lync Server 2010 プールから Lync Server 2013 パイロットプールに複数のユーザーを移動することができます。
+
+<div>
+
+## <a name="to-move-multiple-users-by-using-the-lync-server-2013-control-panel"></a>Lync Server 2013 コントロールパネルを使用して複数のユーザーを移動するには
+
+1.  [**Lync Server コントロール パネル**] を開きます。
+
+2.  [**ユーザー**]、[検索] の順にクリックして、[**ユーザー検索**] をクリックします。
+
+3.  Lync Server 2013 プールに移動する2人のユーザーを選びます。 この例では、Chen Yang sold と Claus というユーザーを移動します。
     
-    ![特定の登録プールへのユーザーの移動](images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "特定の登録プールへのユーザーの移動")  
+    ![ユーザーを特定のレジスタプールに移動する](images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "ユーザーを特定のレジスタプールに移動する")  
 
-4.  \[**アクション**\] メニューで、\[**選択されたユーザーをプールに移動**\] をクリックします。
+4.  [**アクション**] メニューで、[**選択したユーザーをプールに移動**] を選択します。
 
-5.  ドロップダウン リストから \[Lync Server 2013 プール\] をクリックします。
+5.  ドロップダウンリストから、Lync Server 2013 プールを選択します。
 
-6.  \[**アクション**\] をクリックし、\[**選択されたユーザーをプールに移動**\] をクリックします。\[OK\] をクリックします。
+6.  [**アクション**] をクリックし、[**選択されたユーザーをプールに移動**] をクリックします。 [OK] をクリックします。
     
-    ![\[ユーザーの移動\]、\[移動先レジストラー プール\] ダイアログ ボックス](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "[ユーザーの移動]、[移動先レジストラー プール] ダイアログ ボックス")  
+    ![[ユーザーの移動]、[宛先レジストラー pool] ダイアログボックス](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "[ユーザーの移動]、[宛先レジストラー pool] ダイアログボックス")  
 
-7.  ユーザーの \[**レジストラー プール**\] 列に Lync Server 2013 プールが表示されていることを確認します。このプールが表示されていれば、ユーザーは正常に移動しています。
+7.  ユーザーの**レジストラー pool**列に Lync Server 2013 プールが含まれていることを確認します。これは、ユーザーが正常に移動されたことを示します。
 
-## Lync Server 2013 管理シェルを使用して複数のユーザーを移動するには
+</div>
+
+<div>
+
+## <a name="to-move-multiple-users-by-using-the-lync-server-2013-management-shell"></a>Lync Server 2013 管理シェルを使用して複数のユーザーを移動するには
 
 1.  Lync Server 2013 管理シェルを開きます。
 
-2.  コマンド ラインで、次のように入力します。 **User1** と **User2** には、移動する特定のユーザーの名前を指定します。 **pool\_FQDN** には、移動先プールの名前を指定します。この例では、ユーザー Hao Chen と Katie Jordan を移動します。
+2.  コマンドラインで、次のように入力し、移動する特定のユーザー名で**User1**と**User2**を置き換えて、**プール\_の FQDN**を移行先プールの名前で置き換えます。 この例では、ユーザーの Hao Chen と Katie ヨルダンを移動します。
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
     
-    ![PowerShell、Get-CsUser コマンドレットの例](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "PowerShell、Get-CsUser コマンドレットの例")  
+    ![PowerShell Get-CsUser コマンドレットの例](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "PowerShell Get-CsUser コマンドレットの例")  
 
-3.  コマンド ラインで、次のように入力します。
+3.  コマンドラインで、次のように入力します。
     
         Get-CsUser -Identity "User1"
 
-4.  **レジストラー プール** ID は、前の手順で **pool\_FQDN** に指定したプールを指しています。この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。手順 4. を繰り返して、 **User2** が移動されていることを確認します。
+4.  これで、**レジストラープール**id が、前の手順で**プール\_の FQDN**として指定したプールをポイントするようになります。 この id の存在は、ユーザーが正常に移動されたことを確認します。 「 **User2**が移動されたことを確認する」の手順を繰り返します。
     
-    ![PowerShell、Get-UsUser -Identity コマンドレットの出力](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell、Get-UsUser -Identity コマンドレットの出力")  
+    ![PowerShell Get-UsUser Identity コマンドレットの出力](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser Identity コマンドレットの出力")  
 
-## Lync Server 2013 管理シェルを使用して、すべてのユーザーを同時に移動するには
+</div>
 
-この例では、すべてのユーザーが Lync Server 2010 プール (pool01.contoso.net) に戻されています。 Lync Server 2013 管理シェルを使用して、すべてのユーザーを同時に Lync Server 2013 プール (pool02.contoso.net) に移動します。
+<div>
 
-1.  \[**Lync Server 2013 管理シェル**\] を開きます。
+## <a name="to-move-all-users-at-the-same-time-by-using-the-lync-server-2013-management-shell"></a>Lync Server 2013 管理シェルを使用してすべてのユーザーを同時に移動するには
+
+この例では、すべてのユーザーが Lync Server 2010 プール (pool01.contoso.net) に戻されています。 Lync Server 2013 管理シェルを使用して、すべてのユーザーを Lync Server 2013 プール (pool02.contoso.net) に同時に移行します。
+
+1.  **Lync Server 2013 管理シェル**を開きます。
 
 2.  コマンドラインで、次のように入力します。
     
         Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
     
-    ![管理シェルの PowerShell コマンドレットと結果](images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "管理シェルの PowerShell コマンドレットと結果")  
+    ![PowerShell コマンドレットと結果の管理シェル](images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "PowerShell コマンドレットと結果の管理シェル")  
 
-3.  次に、いずれかのパイロット ユーザーに対して **Get-CsUser** を実行します。
+3.  次に、パイロットユーザーの1人に対して、**ユーザーの取得-CsUser**を実行します。
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  各ユーザーの **レジストラー プール** ID は、前の手順で "pool\_FQDN" に指定したプールを指しています。この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。
+4.  各ユーザーの**レジストラープール**id は、前の手順で "プール\_FQDN" として指定したプールを指すようになりました。 この id の存在は、ユーザーが正常に移動されたことを確認します。
 
-5.  また、 Lync Server 2013 コントロール パネルでユーザーの一覧を表示して、レジストラー プールの値が Lync Server 2013 プールを指していることを確認できます。
+5.  さらに、Lync Server 2013 コントロールパネルでユーザーの一覧を表示し、[レジストラー Pool] の値が Lync Server 2013 プールを指すようになったことを確認します。
     
-    ![Lync Server 2013 コントロール パネル、ユーザー一覧](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync Server 2013 コントロール パネル、ユーザー一覧")
+    ![Lync Server 2013 コントロールパネルのユーザーリスト](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync Server 2013 コントロールパネルのユーザーリスト")  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

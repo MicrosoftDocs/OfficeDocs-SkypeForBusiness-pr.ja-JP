@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: VoipDetails テーブル'
-TOCTitle: VoipDetails テーブル
-ms:assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398566(v=OCS.15)
-ms:contentKeyID: 48272473
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: VoipDetails テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: VoipDetails table
+ms:assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398566(v=OCS.15)
+ms:contentKeyID: 48184522
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7879f5dc7d5b884dfc2d3777ed4fa800978a3cff
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848121"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の VoipDetails テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="voipdetails-table-in-lync-server-2013"></a>Lync Server 2013 の VoipDetails テーブル
 
-それぞれのレコードは、少なくとも 1 人のユーザーが VoIP ユーザーであるような 1 回の 2 者間通話を表します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-28_
+
+各レコードは、少なくとも1人のユーザーが VoIP ユーザーである 1 2 パーティーの通話を表します。
 
 
 <table>
@@ -35,65 +55,76 @@ _**トピックの最終更新日:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
+<td><p><strong>セッション Id</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>セッション要求の時間。<strong>SessionIdSeq</strong> と合わせて使用して、セッションを一意に識別します。詳細については、「<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 の Dialogs テーブル</a>」を参照してください。</p></td>
+<td><p>Primary</p></td>
+<td><p>セッション要求の時刻。 セッションを一意に識別するために<strong>Sessionidseq</strong>と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>セッションを識別するための ID 番号。セッションを一意に識別するために <strong>SessionIdTime</strong> と併用されます。詳細については、「<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 の Dialogs テーブル</a>」を参照してください。</p></td>
+<td><p>Primary</p></td>
+<td><p>セッションを識別する ID 番号。 セッションを一意に識別するために<strong>Sessionidtime</strong>と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>FromNumberId</strong></p></td>
+<td><p><strong>Fromnumber Id</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>発信者の <strong>PhoneId</strong> 。詳細については、「<a href="lync-server-2013-phones-table.md">Lync Server 2013 の Phones テーブル</a>」を参照してください。この値と <strong>FromGatewayId</strong> がどちらも NULL でない場合、発信者は PSTN ユーザーです。</p></td>
+<td><p>発信者の<strong>PhoneId</strong> 。 詳細については、「 <a href="lync-server-2013-phones-table.md">Lync Server 2013 で電話の表</a>」を参照してください。 Not NULL と<strong>Fromgatewayid</strong>が null でない場合は、発信者は PSTN ユーザーです。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ConnectedNumberId</strong></p></td>
+<td><p><strong>Connected番号 Id</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の受信者の <strong>PhoneId</strong> 。詳細については、「<a href="lync-server-2013-phones-table.md">Lync Server 2013 の Phones テーブル</a>」を参照してください。この値と <strong>ToGatewayId</strong> がどちらも NULL でない場合、通話の受信者は PSTN ユーザーです。</p></td>
+<td><p>通話受信者の<strong>PhoneId</strong> 。 詳細については、「 <a href="lync-server-2013-phones-table.md">Lync Server 2013 で電話の表</a>」を参照してください。 Not NULL と<strong>Togatewayid</strong>が null でない場合は、通話レシーバーは PSTN ユーザーでした。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の発信元の仲介サーバー。詳細については、「<a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 の MediationServers テーブル</a>」を参照してください。</p></td>
+<td><p>通話が発信される仲介サーバー。 詳細については、「 <a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 の Mediationservers の表</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMediationServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の発信先の仲介サーバー。詳細については、「<a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 の MediationServers テーブル</a>」を参照してください。</p></td>
+<td><p>仲介サーバーが呼び出されます。 詳細については、「 <a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 の Mediationservers の表</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromGatewayId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の発信元のゲートウェイ。詳細については、「<a href="lync-server-2013-gateways-table.md">Lync Server 2013 のゲートウェイ テーブル</a>」を参照してください。</p></td>
+<td><p>ゲートウェイ通話の発信元です。 詳細については、「 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 のゲートウェイテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToGatewayId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の発信先のゲートウェイ。詳細については、「<a href="lync-server-2013-gateways-table.md">Lync Server 2013 のゲートウェイ テーブル</a>」を参照してください。</p></td>
+<td><p>通話の発信先のゲートウェイ。 詳細については、「 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 のゲートウェイテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedbyURIId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話を切断したユーザーの URI (ユーザーが URI を持つ場合)。詳細については、「<a href="lync-server-2013-users-table.md">Lync Server 2013 のユーザー テーブル</a>」を参照してください。</p></td>
+<td><p>ユーザーが URI を持っている場合に、通話を切断したユーザーの URI。 詳細については、「 <a href="lync-server-2013-users-table.md">Lync Server 2013 のユーザーテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedbyPhoneId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>別の電話から切断された通話を切断した電話の ID。詳細については、「<a href="lync-server-2013-phones-table.md">Lync Server 2013 の Phones テーブル</a>」を参照してください。</p></td>
+<td><p>通話を切断した電話の ID が電話から切断されました。 詳細については、「 <a href="lync-server-2013-phones-table.md">Lync Server 2013 で電話の表</a>」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

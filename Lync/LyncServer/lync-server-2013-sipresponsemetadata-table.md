@@ -1,23 +1,43 @@
-﻿---
-title: SIPResponseMetaData テーブル
-TOCTitle: SIPResponseMetaData テーブル
-ms:assetid: cf723737-4a75-4352-829b-f4954aa59716
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205294(v=OCS.15)
-ms:contentKeyID: 48273680
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: SIPResponseMetaData テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: SIPResponseMetaData table
+ms:assetid: cf723737-4a75-4352-829b-f4954aa59716
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205294(v=OCS.15)
+ms:contentKeyID: 48185510
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 31df563172cce2e6ac9780511665ef563532a7d9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848705"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# SIPResponseMetaData テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="sipresponsemetadata-table-in-lync-server-2013"></a>Lync Server 2013 の SIPResponseMetaData テーブル
 
-SIPResponseMetaDataTable には、SIP 応答コードと、各コードの分類と定義の一覧が含まれます。これらのコードは SIP デバイスおよび SIP 通信セッションに影響を与えるイベントへの応答して生成されます。たとえば、応答コード 403 は、SIP デバイスが要求を行い、サーバーがその要求の実行を拒否したときに生成されます。
+</div>
 
-このテーブルは、Microsoft Lync Server 2013 で導入されました。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-28_
+
+SIPResponseMetaDataTable には、SIP 応答コードの一覧と、各コードの分類と定義が含まれています。 これらのコードは、SIP デバイスと SIP コミュニケーションセッションに影響を与えるイベントに対応して生成されます。たとえば、応答コード403は、SIP デバイスが要求を行ったときに、サーバーがその要求を受け入れることを拒否したときに生成されます。
+
+この表は、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -37,32 +57,43 @@ SIPResponseMetaDataTable には、SIP 応答コードと、各コードの分類
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ResponseCode</strong></p></td>
+<td><p><strong>返信</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
+<td><p>Primary</p></td>
 <td><p>SIP 応答コードを表す数値。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Class</strong></p></td>
+<td><p><strong>クラス</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>応答コードの一般的な分類。以下の分類があります。</p>
+<td></td>
+<td><p>応答コードの一般的な分類。 分類には以下が含まれます。</p>
 <ul>
-<li><p>1 – 情報応答</p></li>
-<li><p>2 – 正常応答</p></li>
-<li><p>3 – リダイレクト応答</p></li>
-<li><p>4 – クライアント エラー応答</p></li>
-<li><p>5 - サーバー エラー応答</p></li>
-<li><p>6 – グローバル エラー応答</p></li>
+<li><p>1–情報の返信</p></li>
+<li><p>2–成功応答</p></li>
+<li><p>3–リダイレクション応答</p></li>
+<li><p>4–クライアントエラー応答</p></li>
+<li><p>5--サーバー障害への応答</p></li>
+<li><p>6–グローバルエラー応答</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Description</strong></p></td>
+<td><p><strong>説明</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p></p></td>
-<td><p>SIP 応答コードの説明。たとえば、コード 181 には以下の説明があります。</p>
-<p>Call Is Being Forwarded (呼び出しを転送中)</p></td>
+<td></td>
+<td><p>SIP 応答コードの説明。 たとえば、応答コード181には次の説明があります。</p>
+<p>通話が転送されています</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

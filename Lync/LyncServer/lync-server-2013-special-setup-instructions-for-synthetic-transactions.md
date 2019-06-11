@@ -1,103 +1,169 @@
-﻿---
-title: 代理トランザクションの特別なセットアップ指示
-TOCTitle: 代理トランザクションの特別なセットアップ指示
-ms:assetid: 694cbe05-5dba-4035-a01c-c87ebfb0478b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688080(v=OCS.15)
-ms:contentKeyID: 49886986
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 代理トランザクション用の特別なセットアップ手順'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Special setup instructions for synthetic transactions
+ms:assetid: 694cbe05-5dba-4035-a01c-c87ebfb0478b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688080(v=OCS.15)
+ms:contentKeyID: 49733676
+ms.date: 11/16/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b8c2f0f45aa2187f1b47f8dfa81b3ba121388f6a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848694"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 代理トランザクションの特別なセットアップ指示
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-11-16_
+# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 での代理トランザクションの特別なセットアップ手順
 
-大半の代理トランザクションは、監視ノード上でそのまま実行できます。つまり、代理トランザクションが監視ノード構成設定に追加されると、監視ノードはその代理トランザクションの使用をテスト パス中に直ちに開始できます。ただし、これは、すべての代理トランザクションに当てはまるわけではありません。以降のセクションで、特別なセットアップが必要な代理トランザクションについて説明します。
+</div>
 
-## データ会議代理トランザクション
+<div id="mainSection">
 
-監視ノード コンピューターが境界ネットワークの外部に配置されている場合は、ネットワーク サービス アカウントの Internet Explorer プロキシ設定を無効にしない限り、データ会議代理トランザクションはほぼ実行できません。このサービスのプロキシ設定を無効にするには、次の手順に従います。
+<div id="mainBody">
 
-1.  監視ノード コンピューターで、\[**スタート**\] ボタン、\[**すべてのプログラム**\]、\[**アクセサリ**\] の順にクリックし、\[**コマンド プロンプト**\] を右クリックし、\[**管理者として実行**\] をクリックします。
+<span> </span>
 
-2.  コンソール ウィンドウで、次のコマンドを入力し、Enter キーを押します。
+_**最終更新日:** 2015-11-16_
+
+ほとんどの代理トランザクションは、のようにウォッチャーノードで実行できます。つまり、代理トランザクションがウォッチャーノードの構成設定に追加されるとすぐに、ウォッチャーノードは、テストパス中に合成トランザクションの使用を開始できます。 ただし、すべての代理トランザクションでこれは当てはまりません。 例外 (特殊なセットアップ手順を必要とする代理トランザクション) については、次のセクションで説明します。
+
+<div>
+
+## <a name="dealing-with-server-timeout-errors"></a>サーバータイムアウトエラーを処理する
+
+場合によっては、エラーコード504で、代理トランザクションがサーバータイムアウトエラーで失敗することがあります。 通常、これらのエラーは、ファイアウォールの問題が原因で発生します。 代理トランザクションが実行されると、そのトランザクションは MonitoringHost .exe プロセスで実行されます。さらに、MonitoringHost は、PowerShell の .exe プロセスのインスタンスを開始します。 ファイアウォールによって、MonitoringHost または PowerShell がブロックされている場合、代理トランザクションは失敗し、504エラーが生成されます。
+
+この問題を解決するには、ローカルコンピューター上の MonitoringHost と PowerShell の両方に対して、受信ファイアウォール規則を手動で作成する必要があります。 この操作は、サーバーの既存の構成に応じて、Windows ファイアウォールまたはサードパーティのローカルファイアウォールソフトウェアを使用して行うことができます。
+
+代理として使用するトランザクションホストマシンと、監視しようとしている Lync サーバーとの間でネットワークファイアウォールデバイスを使用している場合は、ホストをクライアントコンピューターとして扱う必要があります。また、[ポートとプロトコルからすべてのファイアウォールポート要件をオブザーバーする必要があります。Lync Server 2013 の内部サーバーの場合](lync-server-2013-ports-and-protocols-for-internal-servers.md)。
+
+</div>
+
+<div>
+
+## <a name="data-conferencing-synthetic-transactions"></a>データ会議の代理トランザクション
+
+ウォッチャーノードのコンピューターが境界ネットワークの外部にある場合は、ネットワークサービスアカウントの Internet Explorer プロキシ設定を無効にしない限り、データ会議の代理トランザクションを実行できない可能性があります。 このサービスのプロキシ設定を無効にするには、次の手順を実行します。
+
+1.  ウォッチャーノードのコンピューターで、[**スタート**] をクリックし、[**すべてのプログラム**]、[**アクセサリ**]、[**コマンドプロンプト**] を右クリックして、[**管理者として実行**] をクリックします。
+
+2.  コンソールウィンドウで、次のコマンドを入力し、enter キーを押します。
     
         bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 
-コマンド ウィンドウに次のようなメッセージが表示されます。
+コマンドウィンドウに次のメッセージが表示されます。
 
     BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
     
     Internet proxy settings for account NetworkService set to NO_PROXY. 
     (connection = default)
 
-このメッセージは、ネットワーク サービス アカウントの Internet Explorer プロキシ設定が無効になったことを意味します。
+このメッセージは、ネットワークサービスアカウントの Internet Explorer のプロキシ設定を無効にしていることを意味します。
 
-## Exchange ユニファイド メッセージング代理トランザクション
+</div>
 
-Exchange ユニファイド メッセージング (UM)代理トランザクションは、テスト ユーザーが Exchange に属するボイスメール アカウントに接続できることを検証します。これらのテスト ユーザーは、Exchange UM テストを使用する前に、ボイスメール アカウントを使用して事前に構成しておく必要があります。
+<div>
 
-## 常設チャット代理トランザクション
+## <a name="exchange-unified-messaging-synthetic-transactions"></a>Exchange ユニファイドメッセージングの代理トランザクション
 
-常設チャット代理トランザクションを使用するには、管理者は、まずチャネルを作成し、テスト ユーザーにチャネルを使用する許可を与える必要があります。これらのテスト ユーザーは、[Test-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPersistentChatMessage) コマンドレットを使用して適切に構成できます。
+Exchange Unified Messaging (UM) 代理トランザクションは、テスト ユーザーが Exchange に属するボイスメール アカウントに接続できることを検証します。 これらのテストユーザーは、Exchange UM テストを使用する前に、ボイスメールアカウントで事前に構成する必要があります。
+
+</div>
+
+<div>
+
+## <a name="persistent-chat-synthetic-transactions"></a>常設チャットの代理トランザクション
+
+常設チャットの代理トランザクションを使用するには、最初にチャネルを作成し、それを使用するための権限をテストユーザーに付与する必要があります。 [CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Test-CsPersistentChatMessage)コマンドレットを使用して、これらのテストユーザーを適切に構成できます。
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
     
     Test-CsPersistentChatMessage -TargetFqdn atl-cs-001.litwareinc.com -SenderSipAddress sip:kenmyer@litwareinc.com -SenderCredential $cred1 -ReceiverSipAddress sip:pilar@litwareinc.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:kenmyer@litwareinc.com -TestUser2SipAddress sip:pilar@litwareinc.com -Setup $True
 
-このセットアップ タスクは、社内から実行する必要があります。
+このセットアップタスクは、エンタープライズ内から実行する必要があります。
 
-  - サーバー以外のコンピューターから実行する場合、コマンドレットを実行するユーザーは、役割ベースのアクセス制御 (RBAC) の PersistentChatAdministrators 役割のメンバーである必要があります。
+  - Nonserver コンピューターから実行する場合、コマンドレットを実行するユーザーは、ロールベースのアクセス制御 (RBAC) の PersistentChatAdministrators ロールのメンバーである必要があります。
 
-  - サーバーから実行する場合、コマンドレットを実行するユーザーは、RTCUniversalServerAdmins グループのメンバーである必要があります。
+  - サーバー自体から実行する場合、コマンドレットを実行するユーザーは、RTCUniversalServerAdmins グループのメンバーである必要があります。
 
-上のコマンドには Setup パラメーターが含まれ、True ($True) が設定されています。Setup パラメーターを指定した場合、Test-CsPersistentChatMessage は、特別な常設チャット ルームを作成し、そのルームにテスト ユーザーを割り当てます。これにより、テスト目的で使用できるチャット ルームが実際に存在することが保証されます。Setup パラメーターは、フロント エンド サーバーからのみ実行する必要があります。
+上記のコマンドでは、Setup パラメーターが含まれており、True ($True) に設定されています。 Setup パラメーターを含める場合は、CsPersistentChatMessage によって特別な常設チャットルームが作成され、そのルームにテストユーザーが設定されます。 これにより、実際にはテスト目的でチャットルームが用意されていることを確認できます。 Setup パラメーターは、フロントエンドサーバーからのみ実行する必要があることに注意してください。
 
-Test-CsPersistentChatMessage を使用して作成されたチャット ルームは、管理者のみが削除できます。
+CsPersistentChatMessage によって作成されたチャットルームは、管理者のみが削除できます。
 
-## PSTN ピアツーピア通話代理トランザクション
+</div>
 
-[Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall)代理トランザクションは、公衆交換電話網 (PSTN) 経由で通話を発信および受信できるかどうか検証します。
+<div>
 
-この代理トランザクションを実行するには、管理者は以下を構成する必要があります。
+## <a name="pstn-peer-to-peer-call-synthetic-transactions"></a>PSTN ピアツーピア通話の代理トランザクション
 
-  - エンタープライズ VoIP用に有効化された 2 名のテスト ユーザー (発信者と受信者)。
+[テスト-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall)合成トランザクションは、公衆交換電話網 (PSTN) 経由で通話を発信および受信できるかどうかを確認します。
+
+この代理トランザクションを実行するには、管理者が次のように構成する必要があります。
+
+  - エンタープライズ Voip の2つのテストユーザー (発信者と受信者) が有効になっています。
 
   - 各ユーザー アカウントのダイレクト インワード ダイヤリング (DID) 番号。
 
-  - 受信者の番号への通話が PSTN ゲートウェイに到達できるようにする音声ポリシーと音声ルート。
+  - PSTN ゲートウェイに到達するために受信者の電話番号への通話を可能にする音声ポリシーと音声ルート。
 
-  - 通話を受ける PSTN ゲートウェイと、ダイヤルされた番号に基づいて受信者のホーム プールに通話を戻すメディア。
+  - 着信を受け付ける PSTN ゲートウェイ。通話をルーティングするメディアは、ダイヤルした番号に基づいて受信者のホームプールにバックバックします。
 
-## 統合連絡先ストア代理トランザクション
+</div>
 
-統合連絡先ストア代理トランザクションは、Lync Server 2013 が Microsoft Exchange Server 2013 からユーザーに代わって連絡先を取得できることを検証します。
+<div>
+
+## <a name="unified-contact-store-synthetic-transactions"></a>統合連絡先ストアの代理トランザクション
+
+統合連絡先ストアの代理トランザクションは、Lync Server 2013 が Microsoft Exchange Server 2013 からユーザーの代わりに連絡先を取得できることを確認します。
 
 この代理トランザクションを使用するには、次の条件を満たす必要があります。
 
-  - Lync Server 2013 と Exchange 2013 の間に、[Lync Server 2013 でのサーバー間認証 (Oauth) およびパートナー アプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)を構成する必要があります。
+  - Lync server [2013 でサーバー間認証 (OAuth) とパートナーアプリケーションを管理するに](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)は、lync server 2013 と Exchange 2013 の間で構成する必要があります。
 
-  - テスト ユーザーが有効な Exchange 2013 メールボックスを持っている必要があります。
+  - テストユーザーは、有効な Exchange 2013 メールボックスを持っている必要があります。
 
-これらの条件が満たされた後、管理者は、次のコマンドを実行して、SIP アドレスが kenmyer@litwareinc.com であるユーザーが自分の連絡先を統合連絡先ストアから取得できることを検証できます。
+これらの条件が満たされた後、管理者は次のコマンドを実行して、SIP アドレス kenmyer@litwareinc.com を持つユーザーが、ユニファイド連絡先ストアから連絡先を取得できるかどうかを確認できます。
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer -Setup
 
-上のコマンドでの Setup パラメーターの使い方に注意してください。Test-CsUnifiedContactStore の実行時に Setup パラメーターが含まれている場合、指定されたユーザーの連絡先 (この例では sip:kenmyer@litwareinc.com) が統合連絡先ストアに移動されます (もちろん、ユーザーの連絡先が統合連絡先ストア内にすでに存在する場合、連絡先は移動されません)。通常、Setup パラメーターは、一度だけ使用され (Test-CsUnifiedContactStore の初回の実行時)、テスト ユーザー、つまり Lync Server に実際にログオンすることがないユーザー アカウントでのみ使用する必要があります。テスト ユーザーが統合連絡先ストアに移行された後、Setup パラメーターなしで Test-CsUnifiedContactStore を呼び出すことで、ユーザーの連絡先を取得できます。
+前のコマンドで使用した Setup パラメーターを使用することに注意してください。 CsUnifiedContactStore の実行中に Setup パラメーターが含まれている場合は、指定したユーザーの連絡先 (この場合は sip:kenmyer@litwareinc.com) が統合連絡先ストアに移動されます。 (もちろん、ユーザーの連絡先が既にユニファイド連絡先ストアにある場合は、それを移動する必要はありません)。通常、Setup パラメーターは1回のみ使用され (初回のテスト CsUnifiedContactStore が実行されます)、テストユーザーでのみ使用する必要があります。つまり、Lync Server に実際にはログオンしないユーザーアカウントを使用しています。 テストユーザーがユニファイド連絡先ストアに移行されたら、セットアップパラメーターを指定せずに CsUnifiedContactStore を呼び出してユーザーの連絡先を取得できることを確認できます。
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer
 
-## XMPP 代理トランザクション
+</div>
 
-XMPP (Extensible Messaging and Presence Protocol) IM 代理トランザクションでは、XMPP 機能を 1 つ以上のフェデレーション ドメインで構成する必要があります。
+<div>
 
-XMPP 代理トランザクションを有効にするには、XmppTestReceiverMailAddress パラメーターにルーティング可能な XMPP ドメインのユーザー アカントを指定して使用する必要があります。次に例を示します。
+## <a name="xmpp-synthetic-transactions"></a>XMPP の代理トランザクション
+
+XMPP (拡張メッセージングとプレゼンスプロトコル) IM の代理トランザクションでは、1つ以上のフェデレーションドメインで XMPP 機能が構成されている必要があります。
+
+XMPP の代理トランザクションを有効にするには、ルーティング可能な XMPP ドメインのユーザーアカウントで XmppTestReceiverMailAddress パラメーターを指定する必要があります。 次に例を示します。
 
     Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 
-この例では、litwareinc.com 用のメッセージを XMPP ゲートウェイにルーティングするために、Lync Server 2013 ルールが存在する必要があります。
+この例では、litwareinc.com のメッセージを XMPP ゲートウェイにルーティングするために、Lync Server 2013 ルールが存在している必要があります。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

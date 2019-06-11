@@ -1,45 +1,73 @@
-﻿---
-title: ダイヤルイン会議アクセス番号の表示
-TOCTitle: ダイヤルイン会議アクセス番号の表示
-ms:assetid: 41a7dfb4-0c89-4650-b61b-0e1bf875c62b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688037(v=OCS.15)
-ms:contentKeyID: 49886932
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ダイヤルイン会議アクセス番号を表示する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View dial-in conferencing access numbers
+ms:assetid: 41a7dfb4-0c89-4650-b61b-0e1bf875c62b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688037(v=OCS.15)
+ms:contentKeyID: 49733628
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0b9d9e6ca8d4f388edf6f04f4012726f6abee9e9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848207"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ダイヤルイン会議アクセス番号の表示
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="view-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Lync Server 2013 でダイヤルイン会議アクセス番号を表示する
 
-Lync Server 2013 コントロール パネルで、ダイヤルイン アクセス番号をユーザーに提供し、そのユーザーが外部的に会議に参加できるようにます。
+</div>
 
-## ダイヤルイン アクセス番号を表示するには
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-23_
+
+Lync Server 2013 コントロールパネルでは、ユーザーが外部から会議に参加できるようにダイヤルインアクセス番号をユーザーに提供します。
+
+<div>
+
+## <a name="to-view-dial-in-access-numbers"></a>ダイヤルインアクセス番号を表示するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**会議**\] をクリックし、\[**ダイヤルイン アクセス番号**\] をクリックします。
+3.  左側のナビゲーション バーで [**会議**] をクリックし、[**ダイヤルイン アクセス番号**] をクリックします。
 
-4.  \[**ダイヤルイン アクセス番号**\] ページで、表示するアクセス番号をクリックします。
+4.  [**ダイヤルイン アクセス番号**] ページで、表示するアクセス番号をクリックします。
 
-5.  \[**編集**\] で、\[**詳細の表示**\] チェック ボックスをオンにします。
+5.  [**編集**] で、[**詳細の表示**] を選択します。 チェックボックスをオンにします。
 
-## Lync Server PowerShell コマンドレットを使用してダイヤルイン会議アクセス番号を表示する
+</div>
 
-Lync Server PowerShell および Get-CsDialInConferencingAccessNumber コマンドレットを使用して、ダイヤルイン会議アクセス番号を表示することもできます。このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+<div>
 
-## SIP トランク構成情報を表示する
+## <a name="viewing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ダイヤルイン会議アクセス番号を表示する
 
-  - すべてのダイヤルイン会議アクセス番号に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、Enter キーを押します。
+Windows PowerShell と CsDialInConferencingAccessNumber コマンドレットを使用して、ダイヤルイン会議アクセス番号を表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-view-dial-in-conferencing-access-numbers"></a>ダイヤルイン会議アクセス番号を表示するには
+
+  - すべてのダイヤルイン会議アクセス番号に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
     
         Get-CsDialInConferencingAccessNumber
     
-    これは次のような情報を返します。
+    次のような情報が表示されます。
     
         Identity           : CN={20ca8dc8-5ff8-41f4-b5bb-22ba9972ae2e},
                              CN=Application Contacts,CN=RTCService=Services,
@@ -54,5 +82,19 @@ Lync Server PowerShell および Get-CsDialInConferencingAccessNumber コマン�
         HostingProvider    :
         Regions            : {US}
 
-詳細については、[Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber) コマンドレットのヘルプ トピックを参照してください。
+</div>
+
+詳細については、 [CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber)コマンドレットのヘルプトピックを参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

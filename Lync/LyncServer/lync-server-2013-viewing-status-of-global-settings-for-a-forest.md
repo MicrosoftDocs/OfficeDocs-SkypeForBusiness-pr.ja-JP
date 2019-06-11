@@ -1,33 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Viewing status of global settings for a forest'
+---
+title: 'Lync Server 2013: フォレストのグローバル設定の状態を表示する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View status of global settings for a forest
 ms:assetid: 2ab0f2f1-9908-4e6f-aff3-d6b3cc474b6b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn747889(v=OCS.15)
-ms:contentKeyID: 62293541
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747889(v=OCS.15)
+ms:contentKeyID: 63969590
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e2215e0514f019e94467a204ae86e604dcc0da61
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848145"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# View status of global settings for a forest in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-05-20_
+# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Lync Server 2013 でフォレストのグローバル設定の状態を表示する
 
-Administrators should review the global settings for a Lync Server 2013 deployment monthly. The objective would be to review implemented settings against a set of known configurations—a baseline configuration to help guarantee that settings are valid and to determine whether the baseline documentation should be updated. Changes to global setting should be implemented through a Change Control process which should include documenting the new settings.
+</div>
 
-Global settings that should be reviewed are described in the following sections:
+<div id="mainSection">
 
-## Check general settings
+<div id="mainBody">
 
-Check general settings, including the supported Session Initiation Protocol (SIP) domains for Lync Server 2013.
+<span> </span>
 
-SIP domain information can be returned by using Windows PowerShell and the **Get-CsSipDomain** cmdlet. To return this information, run the `Get-CsSipDomain` Windows PowerShell command.
+_**最終更新日:** 2014-05-20_
 
-Get-CsSipDomain will return information similar to this for all the authorized SIP domains:
+管理者は、Lync Server 2013 展開のグローバル設定を毎月確認する必要があります。 目標として、実装されている設定を既知の構成のセットと照らし合わせて確認します。設定は有効であることを保証し、ベースラインのドキュメントを更新する必要があるかどうかを判断するための基準構成となります。 グローバル設定の変更は、新しい設定の文書化を含める必要がある変更管理プロセスによって実装する必要があります。
 
-Identity Name IsDefault
+レビューする必要があるグローバル設定については、次のセクションで説明します。
+
+<div>
+
+## <a name="check-general-settings"></a>全般設定を確認する
+
+Lync Server 2013 でサポートされているセッション開始プロトコル (SIP) ドメインなど、一般的な設定を確認します。
+
+SIP ドメイン情報は、Windows PowerShell と**CsSipDomain**コマンドレットを使って返すことができます。 この情報を返すには、 `Get-CsSipDomain` Windows PowerShell コマンドを実行します。
+
+CsSipDomain は、認証されたすべての SIP ドメインについて、次のような情報を返します。
+
+識別名の IsDefault
 
 \-------- ---- ---------
 
@@ -35,417 +57,461 @@ fabrikam.com fabrikam.com True
 
 na.fabrikam.com na.fabrikam.com False
 
-If the IsDefault property is set to True, the corresponding domain is your default SIP domain. You can use the Set-CsSipDomain cmdlet to change the default SIP domain for your organization. However, you can't just delete the default SIP domain because that would leave you without a default domain. If you wanted to delete the fabrikam.com domain (as shown in the previous example), you would first have to configure na.fabrikam.com to be your default domain.
+IsDefault プロパティが True に設定されている場合、対応するドメインは既定の SIP ドメインになります。 CsSipDomain コマンドレットを使用して、組織の既定の SIP ドメインを変更できます。 ただし、既定のドメインがないままであるため、既定の SIP ドメインを削除することはできません。 (前の例で示したように) fabrikam.com ドメインを削除する場合は、最初に既定のドメインとなるように na.fabrikam.com を設定する必要があります。
 
-## Check meeting settings
+</div>
 
-Meeting settings include meeting policy definitions and support for participation of anonymous users in meetings.
+<div>
 
-Meeting configuration settings can be retrieved by using Windows PowerShell and the **Get-CsMeetingConfiguration** cmdlet. For example, this command returns information about the global meeting configuration settings:
+## <a name="check-meeting-settings"></a>会議の設定を確認する
 
-Get-CsMeetingConfiguration –Identity "Global"Meeting configuration settings can also be configured at the site scope. Because of that, you might want to use the following command, which returns information about all the meeting configuration settings:
+会議の設定には、会議のポリシー定義と、会議での匿名ユーザーの参加のサポートが含まれます。
+
+会議の構成設定を取得するには、Windows PowerShell を使用するか、または**csmeeting 構成**コマンドレットを使用します。 たとえば、次のコマンドは、グローバル会議の構成設定に関する情報を返します。
+
+Cs会議構成– Id "グローバル" 会議の構成設定は、サイトのスコープで構成することもできます。 そのため、次のコマンドを使用することができます。これは、すべての会議の構成設定に関する情報を返します。
 
 `Get-CsMeetingConfiguration`
 
-The **Get-CsMeetingConfiguration** cmdlet returns information similar to the following:
+**Cs会議構成**コマンドレットは、次のような情報を返します。
 
-Identity : Global
+Identity: グローバル
 
-PstnCallersBypassLobby : True
+PstnCallersBypassLobby: True
 
-EnableAssignedConferenceType : True
+EnableAssignedConferenceType: True
 
-DesignateAsPresenter : Company
+デザインの発表者: 会社
 
-AssignedConferenceTypeByDefault : True
+AssignedConferenceTypeByDefault: True
 
-AdmitAnonymousUsersByDefault : True
+AdmitAnonymousUsersByDefault: True
 
-Again, the final item in the list, **AdmitAnonymousUsersByDefault**, enables or disables the ability of anonymous users to participate in meetings.
+**AdmitAnonymousUsersByDefault**の最後の項目では、匿名ユーザーが会議に参加する機能を有効または無効にします。
 
-When checking meeting configuration settings, you might find it useful to compare the current settings against the default equivalents. You can view the default meeting configuration settings by running the following command:
+会議の構成設定を確認するときに、現在の設定を既定の対応する値と比較すると便利な場合があります。 次のコマンドを実行して、既定の会議構成設定を表示できます。
 
 `New-CsMeetingConfiguration -Identity "Global" -InMemory`
 
-The previous command creates an in-memory-only instance of the global meeting configuration settings, an instance that uses the default value for each property. No actual meeting configuration settings are created when you run the command. However, all the default property values will be displayed on-screen.
+前のコマンドでは、グローバル会議構成設定のメモリ内のインスタンス (各プロパティの既定値を使用するインスタンス) が作成されます。 このコマンドを実行しても、実際の会議の構成設定は作成されません。 ただし、すべての既定のプロパティ値が画面に表示されます。
 
-## Check Edge Servers and their settings
+</div>
 
-Edge Server information can be retrieved by using Windows PowerShell. This command returns information about all the Edge Servers configured for use in your organization:
+<div>
+
+## <a name="check-edge-servers-and-their-settings"></a>エッジサーバーとその設定を確認する
+
+エッジサーバーの情報は、Windows PowerShell を使用して取得できます。 このコマンドは、組織で使用するように構成されているすべてのエッジサーバーについての情報を返します。
 
 `Get-CsService -EdgeServer`
 
-The returned information includes all of the FQDN and port settings for each Edge Server:
+返される情報には、各エッジサーバーの FQDN とポートの設定がすべて含まれています。
 
-Identity : EdgeServer: dc.fabrikam.com
+Id: EdgeServer: dc.fabrikam.com
 
-Registrar : Registrar: LYNC-SE.fabrikam.com
+レジストラー: レジストラー: LYNC-SE.fabrikam.com
 
-AccessEdgeInternalSipPort : 5061
+AccessEdgeInternalSipPort: 5061
 
-AccessEdgeExternalSipPort : 5061
+AccessEdgeExternalSipPort: 5061
 
-AccessEdgeClientPort : 443
+AccessEdgeClientPort: 443
 
-DataPsomServerPort : 8057
+DataPsomServerPort: 8057
 
-DataPsomClientPort : 444
+DataPsomClientPort: 444
 
-MediaRelayAuthEdgePort : 5062
+MediaRelayAuthEdgePort: 5062
 
-MediaRelayAuthInternalTurnTcpPort : 443
+MediaRelayAuthInternalTurnTcpPort: 443
 
-MediaRelayAuthExternalTurnTcpPort : 445
+MediaRelayAuthExternalTurnTcpPort: 445
 
-MediaRelayAuthInternalTurnUdpPort : 3478
+MediaRelayAuthInternalTurnUdpPort: 3478
 
-MediaRelayAuthExternalTurnUdpPort : 3478
+MediaRelayAuthExternalTurnUdpPort: 3478
 
-MediaCommunicationPortStart : 50000
+MediaCommunicationPortStart: 5万
 
-MediaComunicationPortCount : 10000
+MediaComunicationPortCount: 1万
 
-AccessEdgeExternalFqdn : dc.fabrikam.com
+AccessEdgeExternalFqdn: dc.fabrikam.com
 
-DataEdgeExternalFqdn : dc.fabrikam.com
+DataEdgeExternalFqdn: dc.fabrikam.com
 
 AVEdgeExternalFqdn :
 
 InternalInterfaceFqdn :
 
-ExternalMrasFqdn : dc.fabrikam.com
+ExternalMrasFqdn: dc.fabrikam.com
 
-DependentServiceList : {Registrar:LYNC-SE.fabrikam.com,
+DependentServiceList: {レジストラー: LYNC-SE.fabrikam.com,
 
-ConferencingServer:LYNC-SE.fabrikam
+ConferencingServer: LYNC-SE
 
-com, MediationServer:LYNC-SE.
+com、MediationServer: LYNC-SE。
 
 fabrikam.com}
 
-ServiceId : fabrikam.com-EdgeServer-2
+ServiceId: fabrikam.com-EdgeServer
 
-SiteId : site:fabrikam.com
+SiteId: サイト: fabrikam
 
-PoolFqdn : dc.fabrikam.com
+PoolFqdn: dc.fabrikam.com
 
-Version : 5
+バージョン: 5
 
-Role : EdgeServer
+役割: EdgeServer
 
-## Check federation settings
+<div>
 
-Check Federation settings, such as whether it is configured and, if the answer is "yes,", the FQDN and port. Federation is enabled and disabled by using the global collection of Access Edge configuration settings. Among other things, these mean that federation is configured on an all-or-nothing basis: either federation is enabled for the whole organization or federation is disabled for the whole organization
+## <a name="check-federation-settings"></a>フェデレーション設定を確認する
 
-Your Access Edge configuration settings can be returned by using Windows PowerShell. To do that, run the following Windows PowerShell command:
+構成されているかどうかなど、フェデレーション設定を確認します。回答が "yes" の場合は、FQDN とポートを確認します。 フェデレーションは、アクセスエッジ構成のグローバルコレクションを使って有効または無効にします。 特に、フェデレーションがすべてまたはまったく機能していないことを意味します。組織全体でフェデレーションが有効になっているか、組織全体でフェデレーションが無効になっていることを意味します。
+
+アクセスエッジの構成設定は、Windows PowerShell を使用して返すことができます。 そのためには、次の Windows PowerShell コマンドを実行します。
 
 `Get-CsAccessEdgeConfiguration`
 
-In turn, that command will return data similar to this:
+このコマンドを実行すると、次のようなデータが返されます。
 
-Identity : Global
+Identity: グローバル
 
-AllowAnonymousUsers : False
+AllowAnonymousUsers: False
 
-AllowFederatedUsers : False
+AllowFederatedUsers: False
 
-AllowOutsideUsers : False
+AllowOutsideUsers: False
 
-BeClearingHouse : False
+BeClearingHouse: False
 
-EnablePartnerDiscovery : False
+EnablePartnerDiscovery: False
 
-EnableArchivingDisclaimer : False
+EnableArchivingDisclaimer: False
 
-KeepCrlsUpToDateForPeers : True
+KeepCrlsUpToDateForPeers: True
 
-MarkSourceVerifiableOnOutgoingMessages : True
+MarkSourceVerifiableOnOutgoingMessages: True
 
-OutgoingTlsCountForFederatedPartners : 4
+OutgoingTlsCountForFederatedPartners: 4
 
-RoutingMethod : UseDnsSrvRouting
+RoutingMethod: UseDnsSrvRouting
 
-If the **AllowFederatedUsers** property is set to True, that means that federation is enabled for your organization. (Setting **AllowFederatedUsers** to True also means that, in a split domain scenario, your on-premises users will be able to communicate seamlessly with your in-the-cloud users.)
+**AllowFederatedUsers**プロパティが True に設定されている場合は、組織でフェデレーションが有効になっていることを意味します。 ( **AllowFederatedUsers**を True に設定すると、分割されたドメインのシナリオでは、オンプレミスのユーザーはクラウド内のユーザーとシームレスに通信できることを意味します)。
 
-To retrieve the FQDN and port settings for your Edge Server, see the previous task (Edge Servers and their settings).
+エッジサーバーの FQDN とポートの設定を取得するには、前のタスク (エッジサーバーとその設定) を参照してください。
 
-Enabling federation at the global scope only means that users can potentially communicate with federated users. To determine whether any individual users can actually communicate with federated users requires you to examine the external user access policy assigned to that user.
+グローバルスコープでフェデレーションを有効にすると、ユーザーはフェデレーションされたユーザーと通信できる可能性があります。 個々のユーザーが実際にフェデレーションユーザーと通信できるかどうかを判断するには、そのユーザーに割り当てられている外部ユーザーアクセスポリシーを調べる必要があります。
 
-External user access information can be returned by using Windows PowerShell. For example, this command returns information for the global external user access policy:
+外部ユーザーアクセスの情報は、Windows PowerShell を使用して返すことができます。 たとえば、次のコマンドは、グローバル外部ユーザーアクセスポリシーに関する情報を返します。
 
 `Get-CsExternalAccessPolicy -Identity "Global"`
 
-And this command returns information for all the external user access policies:
+このコマンドは、すべての外部ユーザーアクセスポリシーに関する情報を返します。
 
 `Get-CsExternalAccessPolicy`
 
-The returned information will resemble this:
+返される情報は次のようになります。
 
-Identity : False
+Id: False
 
-Description :
+説明
 
-EnableFederationAccess : False
+EnableFederationAccess: False
 
-EnablePublicCloudAccess : False
+EnablePublicCloudAccess: False
 
-EnablePublicCloudAccessAudioVideoAccess : False
+EnablePublicCloudAccessAudioVideoAccess: False
 
-EnableOutsideAccess : False
+EnableOutsideAccess: False
 
-If **EnableFederationAccess** is set to True, then users managed by the given policy can communicate with federated users.
+**EnableFederationAccess**が True に設定されている場合、特定のポリシーによって管理されるユーザーはフェデレーションユーザーと通信できます。
 
-## Check archiving settings
+</div>
 
-Check archiving settings for internal and federated communications.Before verifying the settings for internal and external archiving, you should verify that archiving is enabled.
+</div>
 
-Archiving configuration settings can be verified by using Windows PowerShell and the Get-CsArchivingConfiguration cmdlet:
+<div>
+
+## <a name="check-archiving-settings"></a>アーカイブ設定を確認する
+
+内部およびフェデレーションされた通信のアーカイブ設定を確認します。内部および外部のアーカイブの設定を確認する前に、アーカイブが有効になっていることを確認する必要があります。
+
+アーカイブ構成の設定を確認するには、Windows PowerShell と CsArchivingConfiguration コマンドレットを使用します。
 
 `Get-CsArchivingConfiguration -Identity "Global"`
 
-Note that archiving settings can also be configured at the site scope. To return information about all the archiving settings, use this command:
+アーカイブ設定は、サイトのスコープで構成することもできます。 すべてのアーカイブ設定に関する情報を取得するには、次のコマンドを使用します。
 
 `Get-CsArchivingConfiguration`
 
-The Get-CsArchivingConfiguration cmdlet returns data similar to this:
+CsArchivingConfiguration コマンドレットを実行すると、次のようなデータが返されます。
 
-Identity : Global
+Identity: グローバル
 
-EnableArchiving : False
+EnableArchiving: False
 
-EnablePurging : False
+EnablePurging: False
 
-PurgeExportedArchivesOnly : False
+PurgeExportedArchivesOnly: False
 
-BlockOnArchiveFailure : False
+Blockonアーカイブエラー: False
 
-KeepArchivingDataForDays : 14
+KeepArchivingDataForDays:14
 
-PurgeHourOfDay : 2
+PurgeHourOfDay: 2
 
-ArchiveDuplicateMessages : True
+ArchiveDuplicateMessages: True
 
-CachePurgingInterval : 24
+CachePurgingInterval:24
 
-If the EnableArchiving property is set to False, that means that no communication sessions will be archived. If you want to archive instant messaging sessions only, use a command such as the following to enable the archiving of IM sessions:
-
-`Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
-
-To archive conferencing sessions and instant messaging sessions, use this command:
+EnableArchiving プロパティが False に設定されている場合は、通信セッションがアーカイブされないことを意味します。 インスタントメッセージングセッションのみをアーカイブする場合は、次のようなコマンドを使用して、IM セッションのアーカイブを有効にします。
 
 `Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
 
-If you’d like to compare your current archiving settings with the default settings, run the following Windows PowerShell command:
+会議セッションとインスタントメッセージングセッションをアーカイブするには、次のコマンドを使用します。
+
+`Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
+
+現在のアーカイブ設定と既定の設定を比較する場合は、次の Windows PowerShell コマンドを実行します。
 
 `New-CsArchivingConfiguration -Identity "Global" -InMemory`
 
-That command creates an in-memory-only instance of the global archiving configuration settings. This is not a real collection of settings that is used by Lync Server. However, it does display the default values for all the archiving configuration properties.
+このコマンドによって、グローバルアーカイブ構成の設定のメモリ内のみのインスタンスが作成されます。 これは、Lync Server によって使用される設定の実際のコレクションではありません。 ただし、すべてのアーカイブ構成プロパティの既定値が表示されます。
 
-You can also use this command to return the FQDN of your Archiving servers:
+このコマンドを使用して、アーカイブサーバーの FQDN を返すこともできます。
 
 `Get-CsService -ArchivingServer`
 
-After you have verified that archiving is enabled, you can then view your archiving policies to determine whether internal and external communication sessions are being archived.
+アーカイブが有効になっていることを確認したら、アーカイブポリシーを表示して、内部と外部の通信セッションがアーカイブされているかどうかを確認できます。
 
-Archiving policy information can be retrieved by using the Get-CsArchivingPolicy cmdlet. For example, this command returns information about the global archiving policy:
+CsArchivingPolicy コマンドレットを使用して、アーカイブポリシー情報を取得できます。 たとえば、次のコマンドはグローバルアーカイブポリシーに関する情報を返します。
 
 `Get-CsArchivingPolicy -Identity "Global"`
 
-Because archiving policies can also be configured at the site and the per-user scope, you might also want to use this command, which returns information about all the archiving policies:
+アーカイブポリシーは、サイトとユーザーごとのスコープで構成することもできるため、次のコマンドを使用して、すべてのアーカイブポリシーに関する情報を返すこともできます。
 
 `Get-CsArchivingPolicy`
 
-The information that you receive from Get-CsArchivingPolicy will resemble this:
+CsArchivingPolicy から受け取った情報は、次のようになります。
 
-Identity : Global
+Identity: グローバル
 
-Description :
+説明
 
-ArchiveInternal : False
+アーカイブ内部: False
 
-ArchiveExternal : False
+アーカイブ外部: False
 
-Note that, by default, both internal and external archiving are disabled in an archiving policy.
+アーカイブポリシーでは、既定では、内部および外部のアーカイブの両方が無効になっていることに注意してください。
 
-## Check CDR settings
+</div>
 
-Check Call Detail Record (CDR) settings for peer-to-peer, conferencing, and Voice call detail recording. Detailed information about your CDR settings can be returned by using the **Get-CsCdrConfiguration** cmdlet. For example, this command returns information about the global collection of CDR configuration settings:
+<div>
+
+## <a name="check-cdr-settings"></a>CDR の設定を確認する
+
+ピアツーピア、電話会議、音声通話の詳細記録の通話の詳細レコード (CDR) 設定を確認します。 CDR の設定の詳細については、CsCdrConfiguration コマンドレットを使用して**取得**できます。 たとえば、次のコマンドは、CDR 構成設定のグローバルコレクションに関する情報を返します。
 
 `Get-CsCdrConfiguration -Identity "Global"`
 
-Because CDR can also be configured at the site scope, you might also want to run this command, which returns information about all the CDR configuration settings:
+また、CDR はサイトのスコープでも設定できるため、このコマンドを実行することもできます。これは、すべての CDR 構成の設定に関する情報を返します。
 
 `Get-CsCdrConfiguration`
 
-The Get-CsCdrConfiguration cmdlet returns information similar to this for each collection of CDR configuration settings:
+CsCdrConfiguration コマンドレットは、CDR 構成設定のコレクションごとに、次のような情報を返します。
 
-Identity : Global
+Identity: グローバル
 
-EnableCDR : True
+EnableCDR: True
 
-EnablePurging : True
+EnablePurging: True
 
-KeepCallDetailForDays : 60
+KeepCallDetailForDays:60
 
-KeepErrorReportForDays : 60
+KeepErrorReportForDays:60
 
-PurgeHourOfDay : 2
+PurgeHourOfDay: 2
 
-Similar information can be returned for QoE monitoring by using the Get-CsQoEConfiguration cmdlet. For example, this command returns information about the global collection of QoE configuration settings:
+QoE の監視についても同様の情報を取得するには、CsQoEConfiguration 指定コマンドレットを使用します。 たとえば、次のコマンドは、QoE 構成設定のグローバルコレクションに関する情報を返します。
 
 `Get-QoEConfiguration -Identity "Global"`
 
-That information will resemble this:
+この情報は次のようになります。
 
-Identity : Global
+Identity: グローバル
 
 ExternalConsumerIssuedCertId :
 
-EnablePurging : True
+EnablePurging: True
 
-KeepQoEDataForDays : 60
+KeepQoEDataForDays:60
 
-PurgeHourOfDay : 1
+PurgeHourOfDay: 1
 
-EnableExternalConsumer : False
+EnableExternalConsumer: False
 
 ExternalConsumerName :
 
 ExternalConsumerURL :
 
-EnableQoE : True
+EnableQoE: True
 
-If you want to compare your current CDR settings with the default CDR settings, the default values can be reviewed by running this command:
+現在の CDR 設定と既定の CDR 設定を比較する場合は、次のコマンドを実行して既定値を確認できます。
 
 `New-CsCdrConfiguration -Identity "Global" -InMemory`
 
-Likewise, the default values for QoE monitoring can be retrieved by using this command:
+同様に、次のコマンドを使用して、QoE モニターの既定値を取得できます。
 
 `New-CsQoEConfiguration -Identity "Global" -InMemory`
 
-You can also return the FQDN of your Monitoring servers by running this command:
+このコマンドを実行して、監視サーバーの FQDN を返すこともできます。
 
 `Get-CsService -MonitoringServer`
 
-## Check voice settings
+</div>
 
-The voice settings typically important to administrators are contained in voice policies and voice routes: voice policies contain the settings that determine the capabilities exposed to individual users (such as the ability to forward or transfer calls), while voice routes determine how (and if) calls are routed across the PSTN.
+<div>
 
-Voice policy information can be retrieved by using Windows PowerShell. For example, this command returns information about the global voice policy:
+## <a name="check-voice-settings"></a>音声の設定を確認する
+
+音声の設定は、通常、管理者にとって重要です。音声ポリシーには、個々のユーザーに対して公開される機能を決定する設定 (通話の転送や転送機能など) が含まれます。ボイスルートは、通話が PSTN を介してどのようにルーティングされるかを決定します。
+
+音声ポリシー情報は、Windows PowerShell を使用して取得できます。 たとえば、次のコマンドはグローバルボイスポリシーに関する情報を返します。
 
 `Get-CsVoicePolicy -Identity "Global"`
 
-And this command returns information about all the voice policies configured for use in the organization:
+このコマンドは、組織で使用するように構成されているすべてのボイスポリシーに関する情報を返します。
 
 `Get-CsVoicePolicy`
 
-The information returned by the Get-CsVoicePolicy cmdlet resembles the following:
+CsVoicePolicy コマンドレットによって返される情報は、次のようになります。
 
-Identity : Global
+Identity: グローバル
 
-PstnUsages : {}
+PstnUsages :{}
 
-Description :
+説明
 
-AllowSimulRing : True
+AllowSimulRing: True
 
-AllowCallForwarding : True
+AllowCallForwarding: True
 
-AllowPSTNReRouting : True
+AllowPSTNReRouting: True
 
-Name : DefaultPolicy
+Name: DefaultPolicy
 
-EnableDelegation : True
+EnableDelegation: True
 
-EnableTeamCall : True
+EnableTeamCall: True
 
-EnableCallTransfer : True
+EnableCallTransfer: True
 
-EnableCallPark : False
+EnableCallPark: False
 
-EnableMaliciousCallTracing : False
+EnableMaliciousCallTracing: False
 
-EnableBWPolicyOverride : False
+EnableBWPolicyOverride: False
 
-PreventPSTNTollBypass : False
+PreventPSTNTollBypass: False
 
-You can also create queries that returned a subset of your voice policies. For example, this command returns all the voice policies that allow call forwarding:
+音声ポリシーのサブセットを返すクエリを作成することもできます。 たとえば、次のコマンドは、着信の転送を許可するすべての音声ポリシーを返します。
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $True}`
 
-And this command returns all the voice policies that don’t allow call forwarding:
+このコマンドは、着信の転送を許可していないすべての音声ポリシーを返します。
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $False}`
 
-In Windows PowerShell, use the Get-CsVoiceRouting cmdlet to return information about your voice routes:
+Windows PowerShell では、CsVoiceRouting コマンドレットを使用して、音声ルートに関する情報を取得します。
 
 `Get-CsVoiceRoute`
 
-That command returns information such as this for all the voice routes:
+このコマンドは、すべての音声ルートについて、次のような情報を返します。
 
-Identity : LocalRoute
+Identity: LocalRoute
 
-Priority : 0
+優先度: 0
 
-Description :
+説明
 
-NumberPattern : ^(\\+1\[0-9\]{10})$
+数字パターン: ^ (\\+ 1\[0-9\]{10}) $
 
-PstnUsages : {}
+PstnUsages :{}
 
-PstnGatewayList : {}
+PstnGatewayList :{}
 
-Name : LocalRoute
+Name: LocalRoute
 
 SuppressCallerId :
 
 AlternateCallerId :
 
-Lync Server allows you to create voice routes that do not have a PSTN usage and do not specify a PSTN gateway. However, you can't actually route calls over a voice route that does not have these two property values configured. Because of that, you might find it useful to periodically run this command, which returns the identity of any voice route that does not have a PSTN usage:
+Lync Server を使用すると、PSTN を使わず、PSTN ゲートウェイを指定しないボイスルートを作成できます。 ただし、この2つのプロパティ値が構成されていないボイスルーティングでは、実際に着信をルーティングすることはできません。 そのため、このコマンドを定期的に実行すると便利な場合があります。これは、PSTN を使用していないボイスルートの id を返します。
 
 `Get-CsVoiceRoute | Where-Object {$_.PstnUsages -eq $Null} | Select-Object Identity`
 
-Similarly, this command returns the identity of any voice route that has not been configured to have a PSTN gateway:
+同様に、このコマンドは、PSTN ゲートウェイを使用するように構成されていないすべてのボイスルートの id を返します。
 
 `Get-CsVoiceRoute | Where-Object {$_.PstnGatewayList -eq $Null}} | Select-Object Identity`
 
-## Check Conferencing Attendant settings
+</div>
 
-Check conferencing Attendant settings for PSTN dial-in conferencing. Conferencing Attendant settings can only be retrieved by using the **Get-CsDialInConferencingConfiguration** cmdlet. These settings are not available in the Lync Server コントロール パネル. To view your Conferencing Attendant settings, use a Windows PowerShell command similar to the following, which returns the global collection of Conferencing Attendant settings:
+<div>
+
+## <a name="check-conferencing-attendant-settings"></a>会議アテンダントの設定を確認する
+
+PSTN ダイヤルイン会議の会議アテンダントの設定を確認します。 会議アテンダントの設定を取得するには、 **CsDialInConferencingConfiguration**コマンドレットを使用します。 これらの設定は Lync Server コントロールパネルでは使用できません。 会議アテンダントの設定を表示するには、次のような Windows PowerShell コマンドを使います。これは、会議アテンダント設定のグローバルコレクションを返します。
 
 `Get-CsDialInConferencingConfiguration -Identity "Global"`
 
-Note that Conferencing Attendant settings can also be configured at the site scope. To return information about all the Conferencing Attendant settings, use this command instead:
+会議アテンダントの設定は、サイトのスコープで構成することもできます。 会議アテンダントのすべての設定に関する情報を取得するには、代わりに次のコマンドを使用します。
 
 `Get-CsDialInConferencingConfiguration`
 
-The Get-CsDialInConferencingConfiguration cmdlet returns data similar to this:
+CsDialInConferencingConfiguration コマンドレットを実行すると、次のようなデータが返されます。
 
-Identity : Global
+Identity: グローバル
 
-EntryExitAnnouncementsType : UseNames
+Entryexitアナウンスの場合: UseNames
 
-EnableNameRecording : True
+EnableNameRecording: True
 
-EntryExitAnnouncementsEnabledByDefault : False
+EntryExitAnnouncementsEnabledByDefault: False
 
-If EntryExitAnnouncementsEnabledByDefault is set to False, that means the conferencing announcements are disabled. To enable entry and exit announcements, run a Windows PowerShell command similar to this:
+EntryExitAnnouncementsEnabledByDefault が False に設定されている場合は、会議のアナウンスが無効になっていることを意味します。 エントリと終了のアナウンスを有効にするには、次のように Windows PowerShell コマンドを実行します。
 
 `Set-CsDialInConferencingConfiguration -Identity "Global" -EntryExitAnnouncementsEnabledByDefault $True`
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Get-CsSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSipDomain)  
-[Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration)  
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
-[Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Get-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsArchivingConfiguration)  
-[Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration)  
-[Get-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsQoEConfiguration)  
-[Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)  
-[Get-CsVoiceRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoiceRoute)  
-[Get-CsDialInConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingConfiguration)
+## <a name="see-also"></a>関連項目
+
+
+[Get-CsSipDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsSipDomain)  
+[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingConfiguration)  
+[CsService の入手](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAccessEdgeConfiguration)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Get-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsArchivingConfiguration)  
+[Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration)  
+[取得-CsQoEConfiguration しくみ](https://docs.microsoft.com/powershell/module/skype/Get-CsQoEConfiguration)  
+[Get-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicePolicy)  
+[Get-CsVoiceRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsVoiceRoute)  
+[Get-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

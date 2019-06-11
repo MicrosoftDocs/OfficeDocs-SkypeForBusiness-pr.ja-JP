@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblADCookie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblADCookie
 ms:assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg558610(v=OCS.15)
-ms:contentKeyID: 48271208
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558610(v=OCS.15)
+ms:contentKeyID: 48183366
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2eef65e18de609f7e10fed4aaad9283612778070
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848591"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の tblADCookie
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tbladcookie-in-lync-server-2013"></a>Lync Server 2013 の tblADCookie
 
-tblADCookie には、現在のライトウェイト ディレクトリ アクセス プロトコル (LDAP) 同期 Cookie が格納されます。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-06-25_
+
+tblADCookie には、現在のライトウェイトディレクトリアクセスプロトコル (LDAP) 同期 cookie が含まれています。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -35,34 +55,34 @@ tblADCookie には、現在のライトウェイト ディレクトリ アクセ
 <tbody>
 <tr class="odd">
 <td><p>prinGuid</p></td>
-<td><p>NULL でない GUID</p></td>
-<td><p>監視対象のドメインのプリンシパル GUID。</p></td>
+<td><p>GUID、null ではない</p></td>
+<td><p>監視されているドメインのプリンシパル GUID。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDCHost</p></td>
 <td><p>nvarchar (255)</p></td>
-<td><p>Active Directory ドメイン サービス の同期に使用される現在のドメイン コントローラーの完全修飾ドメイン名 (FQDN)。情報提供のための値です。</p></td>
+<td><p>Active Directory ドメインサービスの同期に使用される、現在のドメインコントローラーの完全修飾ドメイン名 (FQDN) です。情報があります。</p></td>
 </tr>
 <tr class="odd">
 <td><p>adcContent</p></td>
 <td><p>image (バイナリ)</p></td>
-<td><p>Active Directory の同期 Cookie。</p></td>
+<td><p>Active Directory 同期 cookie。</p></td>
 </tr>
 <tr class="even">
-<td><p>lastUpdated</p></td>
+<td><p>最終更新日</p></td>
 <td><p>datetime</p></td>
-<td><p>行更新時刻でのタイムスタンプ。</p></td>
+<td><p>行の更新時刻を含むタイムスタンプ。</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockedUntil</p></td>
 <td><p>datetime</p></td>
-<td><p>行が変更のためにロックされるまでの時間。これは、一度に 1 つのチャット サービスのみが Active Directory 同期を行うことを保証するソフトウェア インタロック メカニズムの一部です。</p></td>
+<td><p>変更のために行がロックされるまでの時間です。 これは、チャットサービスの1つだけが同時に Active Directory の同期を行うことができるようにするソフトウェアの連結メカニズムの一部です。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="keys"></a>機能
 
 <table>
 <colgroup>
@@ -82,8 +102,19 @@ tblADCookie には、現在のライトウェイト ディレクトリ アクセ
 </tr>
 <tr class="even">
 <td><p>prinGuid</p></td>
-<td><p>Principal.prinGuid テーブル内の参照による外部キー。</p></td>
+<td><p>プリンシパルで参照される外部キー (prinGuid テーブル)。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

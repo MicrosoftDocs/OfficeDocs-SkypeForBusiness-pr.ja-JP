@@ -1,29 +1,63 @@
-﻿---
-title: 'フェーズ 5: パイロット プールの構成'
-TOCTitle: 'フェーズ 5: パイロット プールの構成'
-ms:assetid: 190faee2-e2d6-45cb-8315-f39e477df418
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204717(v=OCS.15)
-ms:contentKeyID: 48271407
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'フェーズ 5: パイロットプールを構成する'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 5: Configure the pilot pool'
+ms:assetid: 190faee2-e2d6-45cb-8315-f39e477df418
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204717(v=OCS.15)
+ms:contentKeyID: 48183532
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e5ffa799a07cdb5b1583ba96708dc79599d52df5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848001"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# フェーズ 5: パイロット プールの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-19_
+# <a name="phase-5-configure-the-pilot-pool"></a>フェーズ 5: パイロットプールを構成する
 
-パイロット プールを作成し、従来の展開情報を Lync Server 2013 とマージしたので、ここではパイロット プールに対して行う必要のあるいくつかの構成について説明します。
+</div>
 
-## このセクション中
+<div id="mainSection">
 
-  - [パイロット プールをレガシ エッジ サーバーに接続する](connect-pilot-pool-to-legacy-edge-servers_1.md)
+<div id="mainBody">
 
-  - [Office Communications Server 2007 R2 エッジ サーバーへの接続を承認する](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+<span> </span>
 
-  - [構成設定の確認](verify-configuration-settings_1.md)
+_**最終更新日:** 2012-10-19_
+
+パイロットプールが作成され、従来の展開情報が Lync Server 2013 に統合されました。このセクションでは、パイロットプールに加える必要があるいくつかの構成を示します。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
+
+  - [パイロット プールのレガシ エッジ サーバーへの接続](connect-pilot-pool-to-legacy-edge-servers_1.md)
+
+  - [Office Communications Server 2007 R2 Edge サーバーへの接続を承認する](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+
+  - [構成の設定の確認](verify-configuration-settings_1.md)
 
   - [XMPP ゲートウェイ アクセス ポリシーおよび証明書の構成](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

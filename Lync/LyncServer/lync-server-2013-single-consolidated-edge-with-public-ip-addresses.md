@@ -1,63 +1,106 @@
-﻿---
-title: 'Lync Server 2013: パブリック IP アドレスを使用する単一統合エッジ'
-TOCTitle: パブリック IP アドレスを使用する単一統合エッジ
-ms:assetid: a92d1179-6a1f-4efe-908a-f8dfc5024f30
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205148(v=OCS.15)
-ms:contentKeyID: 48273228
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: パブリック IP アドレスを使用する単一統合エッジ'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Single consolidated edge with public IP addresses
+ms:assetid: a92d1179-6a1f-4efe-908a-f8dfc5024f30
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205148(v=OCS.15)
+ms:contentKeyID: 48185035
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3bf6655c596be657d1779a404c6f1f5b108f3251
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848726"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のパブリック IP アドレスを使用する単一統合エッジ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013 のパブリック IP アドレスを使用する単一統合エッジ
 
-組織がサポートを必要とするアクセス エッジ サービスのクライアント接続が 15,000 未満、有効 Lync Server Web 会議サービスのクライアント接続が 1,000 未満、および音声ビデオ エッジの同時セッションが 500 未満であり、エッジ サーバーの高可用性が重要ではない場合には、このトポロジを活用することで、ハードウェア コストを削減し、展開を単純化できます。高い処理能力や高可用性を必要とする場合には、拡張統合エッジ トポロジを展開する必要があります。
+</div>
 
-  - [Lync Server 2013 における拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+<div id="mainSection">
 
-  - [Lync Server 2013 での拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+<div id="mainBody">
 
-  - [Lync Server 2013 のハードウェア ロード バランサーによる拡張統合エッジ](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+<span> </span>
 
+_**最終更新日:** 2012-09-08_
 
-> [!IMPORTANT]
-> エッジ サーバーでパブリック IP アドレスを使用すると、 エッジ サーバーのデフォルト ゲートウェイは、ファイアウォールまたはルーターではなくなりますが、パブリック境界エッジのルーターまたはファイアウォール、つまりパブリック アドレスになります。リバース プロキシは引き続き、最も外側の境界ネットワークに関連付けられたルーターまたはファイアウォールを使用します。リバース プロキシとパブリック IP アドレスを使用した エッジ サーバーとの違いは、リバース プロキシは NAT を使用し、 エッジ サーバーはルート関係を使用する点です。
+15000アクセスエッジサービスクライアント接続、1000アクティブな Lync Server Web 会議サービスクライアント接続、および500の同時 A/V Edge セッションのサポートが必要な場合、エッジサーバーの高可用性は重要ではありません。このトポロジでは、ハードウェアコストの削減と展開の簡素化という利点が提供されます。 容量を増やす必要がある場合、または高可用性が必要な場合は、スケーリングされた統合エッジサーバートポロジを展開する必要があります。
 
+  - <span></span>  
+    [Lync Server 2013 における拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
+  - <span></span>  
+    [Lync Server 2013 での拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-この図では、内部ネットワークで エッジ サーバーと フロント エンド プールまたはサーバーとの間に展開されるオプションのサーバー役割である ディレクターは示されていません。ディレクターのトポロジの詳細については、「[Lync Server 2013 のディレクターに必要なコンポーネント](lync-server-2013-components-required-for-the-director.md)」を参照してください。この図は、単一のリバース プロキシを表しています。
+  - <span></span>  
+    [Lync Server 2013 のハードウェア ロード バランサーによる拡張統合エッジ](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-> [!NOTE]
-> 以下の図には、方向と IP アドレス指定の例が示されていますが、正しい受信トラフィックと送信トラフィックを使用した実際の通信フローを表すことを目的としていません。図は、可能なトラフィックを大まかに表しています。着信 (リッスン ポートへの) および発信 (宛先サーバーまたはクライアントへの) に関連するトラフィック フローの詳細は、各シナリオのポートの概要図に示されています。たとえば、実際には TCP 443 は着信 (エッジ プロキシまたはリバース プロキシへの) のみで、プロトコル (TCP) の観点から見た場合のみ双方向のフローになります。たとえば、実際には TCP 443 は着信 (エッジ プロキシまたはリバース プロキシへの) のみで、プロトコル (TCP) の観点から見た場合のみ双方向のフローになります。さらに、図は、ネットワーク アドレス変換 (NAT) が発生したとき (着信で宛先アドレスが変更され、発信で発信元アドレスが変更されます) に変化するトラフィックの特性を示しています。外部および内部ファイアウォールとサーバー インターフェイスの例は参照のみを目的としたものです。最後に、必要に応じて、既定のゲートウェイとルート関係の例が示されています。図では、 <em>.com</em> DNS ゾーンを使用してリバース プロキシおよび エッジ サーバーの外部 DNS ゾーンを表し、 <em>.net</em> DNS ゾーンを使用して内部 DNS ゾーンを表していることに注意してください。
-
-
-Microsoft Lync Server 2013 では、IPv6 アドレス指定が新しくサポートされるようになりました。IPv4 アドレス指定と同じように、IPv6 アドレスを、割り当てられた IPv6 アドレス スペースの一部になるように割り当てる必要があります。このトピックのアドレスは、例としてのみ使用されています。展開で機能する IPv6 アドレスを取得して正しいスコープを指定し、内部および外部アドレスと相互運用する必要があります。 Windows Server は、段階的な IPv6 運用と *デュアル スタック* と呼ばれる IPv4 から IPv6 への通信にとって重要な機能を提供します。デュアル スタックは、IPv4 および IPv6 用の別個のネットワーク スタックです。デュアル スタックを使用すると、IPv4 および IPv6 用のアドレスを同時に割り当て、要件に基づいて、サーバーが他のホストやクライアントと通信できるようになります。
-
-IPv6 アドレス指定で使用する通常のアドレス タイプは、IPv6 グローバル アドレス (パブリック IPv4 アドレスに類似しています)、一意の IPv6 ローカル アドレス (プライベート IPv4 アドレスに類似しています)、および IPv6 リンクローカル アドレス (IPv4 用 Windows Server の自動プライベート IP アドレスに類似しています) です。
-
-IPv6 から IPv4 に変換 (一般に NAT64 と呼ばれます) したり、IPv6 から IPv6 に変換 (一般に NAT66 と呼ばれます) したりするネットワーク アドレス変換 (NAT) テクノロジが存在します。NAT テクノロジが存在するため、 Lync Serverエッジ サーバー用に示された 5 つのシナリオは引き続き有効です。
+<div>
 
 
-> [!WARNING]
-> IPv6 は複雑なトピックであり、ネットワーク チームおよびインターネット プロバイダーと共同で注意深く計画し、Windows サーバー レベルおよび Lync Server 2013 レベルに割り当てるアドレスが意図したとおりに動作することを保証する必要があります。IPv6 アドレス指定および計画に関するその他のリソースについては、このトピックの最後にあるリンクを参照してください。
+> [!IMPORTANT]  
+> エッジサーバーでパブリック IP アドレスを使用している場合、エッジサーバー上の既定のゲートウェイは、ファイアウォールまたはルーターではなく、公開されている境界エッジのルーターまたはファイアウォールで、パブリックアドレスになります。 リバースプロキシは、外部境界ネットワークに関連付けられているルーターまたはファイアウォールを引き続き使用します。 リバースプロキシとパブリック IP アドレスを使ったエッジサーバーの違いは、リバースプロキシが依然として NAT を使用していて、エッジサーバーがルートリレーションシップを使用していることです。
 
 
 
-**パブリック IP アドレスを使用した単一統合エッジのトポロジ**
+</div>
 
-![単一統合エッジのエッジ シナリオ](images/JJ205148.2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d(OCS.15).jpg "単一統合エッジのエッジ シナリオ")
+この図には、エッジサーバーとフロントエンドプールまたはサーバー間の内部ネットワークに展開されたオプションのサーバー役割であるダイレクタは表示されません。 ディレクターのトポロジの詳細については、「 [Lync Server 2013 でディレクターに必要なコンポーネント](lync-server-2013-components-required-for-the-director.md)」を参照してください。 この図は、単一の逆プロキシを示しています。
 
-
-> [!IMPORTANT]
-> 通話受付管理 (CAC) を使用している場合は、IPv4 アドレスを エッジ サーバー内部インターフェイスに引き続き割り当てる必要があります。CAC は IPv4 アドレスを使用しており、動作可能な IPv4 アドレスが存在する必要があります。
+<div>
 
 
+> [!NOTE]  
+> 次の図は、向きと IP アドレス指定の例を示していますが、正しい着信トラフィックと発信トラフィックでの実際の通信フローを示すものではありません。 この図は、可能なトラフィックの高レベルビューを示しています。 着信 (リッスンするポート) に関連するトラフィックフローと送信 (送信先サーバーまたはクライアント) は、各シナリオの [ポートの概要] ダイアグラムで表されます。 たとえば、TCP 443 は実際には (エッジまたは逆プロキシに対する) 受信のみであり、プロトコル (TCP) の観点からの双方向のフローにすぎません。 また、この図では、NAT (ネットワークアドレス変換) が発生したときのトラフィックの性質を示しています (宛先のアドレスが受信時に変更されると、送信時にソースアドレスが変更されます)。 外部および内部ファイアウォールの例とサーバーインターフェイスは、参照目的でのみ表示されます。 最後に、既定のゲートウェイとルートリレーションシップの例を示します (該当する場合)。 また、図では、リバースプロキシとエッジサーバーの両方の外部 DNS ゾーンを示すために<EM>.Com</EM> dns ゾーンを使用し、 <EM>.net</EM> DNS ゾーンは内部 dns ゾーンを参照していることにも注意してください。
 
-## このセクション中
+
+
+</div>
+
+Microsoft Lync Server 2013 の新機能は、IPv6 アドレス指定をサポートしています。 IPv4 アドレス指定と同じように、IPv6 アドレスは、割り当てられている IPv6 アドレス空間の一部であるため、アドレスを割り当てる必要があります。 このトピックの住所は、例としてのみ使用できます。 展開で機能する IPv6 アドレスを取得し、適切なスコープを指定して、内部および外部のアドレス指定と相互運用されるようにする必要があります。 Windows Server では、2つの*スタック*と呼ばれる、ipv6 操作と IPv4 から ipv6 への通信に重要な機能が提供されています。 デュアルスタックは、IPv4 と IPv6 のための独立した個別のネットワークスタックです。 デュアルスタックでは、IPv4 と IPv6 のアドレスを同時に割り当てることができます。また、要件に基づいてサーバーが他のホストやクライアントと通信できるようにします。
+
+IPv6 アドレス指定に使用する一般的なアドレスの種類は、IPv6 のグローバルアドレス (パブリック IPv4 アドレスに似ています)、ipv6 固有のローカルアドレス (プライベート IPv4 アドレスの範囲に似ています)、IPv6 リンクローカルアドレス (自動プライベート IP に類似) です。IPv4 用 Windows Server のアドレス
+
+IPv6 向けのネットワークアドレス変換技術 (NAT) が存在します。これにより、NAT IPv6 (通常は、NAT64 とも呼ばれます) と NAT IPv6 (通常は NAT66 と呼ばれます) を使用できます。 NAT 技術が存在することは、Lync Server Edge サーバーに対して提示された5つのシナリオが有効であることを意味します。
+
+<div>
+
+
+> [!WARNING]  
+> IPv6 は複雑なトピックであり、ネットワークチームとインターネットプロバイダーによる慎重な計画を行う必要があります。これにより、Windows server レベルで割り当てるアドレスと Lync Server 2013 レベルで割り当てたアドレスが予期したとおりに動作するようになります。 IPv6 のアドレス指定と計画に関するその他のリソースについては、このトピックの最後にあるリンクを参照してください。
+
+
+
+</div>
+
+**パブリック IP アドレスのトポロジを使った単一の統合エッジ**
+
+![2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d](images/JJ205148.2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d(OCS.15).jpg "2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d")
+
+<div>
+
+
+> [!IMPORTANT]  
+> 通話受付制御 (CAC) を使用している場合でも、エッジサーバーの内部インターフェイスに IPv4 アドレスを割り当てる必要があります。 CAC は IPv4 アドレスを使用し、操作には使用できるようにする必要があります。
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [証明書の概要 - Lync Server 2013 のパブリック IP アドレスを使用する単一の統合エッジ](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
@@ -65,11 +108,27 @@ IPv6 から IPv4 に変換 (一般に NAT64 と呼ばれます) したり、IPv6
 
   - [DNS の概要 - Lync Server 2013 でパブリック IP アドレスを持つ単一統合エッジ](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[IP Version 6 アドレス指定アーキテクチャ](http://tools.ietf.org/html/rfc4291)  
-[IPv6 グローバル ユニキャスト アドレス形式](http://tools.ietf.org/html/rfc3587)  
-[一意のローカル IPv6 ユニキャスト アドレス](http://tools.ietf.org/html/rfc4193)
+## <a name="see-also"></a>関連項目
+
+
+[IP バージョン6アドレス体系](http://tools.ietf.org/html/rfc4291)  
+[IPv6 グローバルユニキャストアドレス形式](http://tools.ietf.org/html/rfc3587)  
+[一意のローカル IPv6 ユニキャストアドレス](http://tools.ietf.org/html/rfc4193)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

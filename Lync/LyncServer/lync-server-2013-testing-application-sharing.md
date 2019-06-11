@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing application sharing'
+---
+title: 'Lync Server 2013: アプリケーション共有のテスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing application sharing
 ms:assetid: 8d21db9b-10d1-4b43-b057-0deb1df1c205
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn727310(v=OCS.15)
-ms:contentKeyID: 62388711
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727310(v=OCS.15)
+ms:contentKeyID: 63969629
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 77a65e2dbea8ca0df01fab37c08f47c8e7d0c5b6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848452"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing application sharing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="testing-application-sharing-in-lync-server-2013"></a>Lync Server 2013 でのアプリケーション共有のテスト
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-11-01_
 
 
 <table>
@@ -23,101 +43,131 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>[毎日]</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsASConference cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合、ユーザーには、テスト用の CsASConference コマンドレットを実行するアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsASConference&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsASConference** cmdlet verifies that a pair of test users can participate in an online conference that includes application sharing. To do this, the cmdlet registers the two users with Lync Server 2013, and then it uses one of the user accounts to create a new conference that includes applications sharing. The cmdlet then verifies that the second user is able to join that conference.
+## <a name="description"></a>説明
 
-## Running the test
+**CsASConference**コマンドレットを使用すると、アプリケーション共有が含まれるオンライン会議に参加できるテストユーザーが1組であることを確認できます。 これを行うには、コマンドレットによって Lync Server 2013 に2人のユーザーが登録され、次にいずれかのユーザーアカウントを使って、アプリケーションの共有を含む新しい会議を作成します。 次に、2番目のユーザーがその会議に参加できるかどうかを確認します。
 
-The command shown in Example 1 verifies that an Application Sharing conference can be conducted on the pool atl-cs-001.litwareinc.com. This command assumes that you have configured a pair of test users for the specified pool. If no such test users exist, the command will fail.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+例1に示すコマンドは、アプリ共有会議がプール atl-cs-001.litwareinc.com で実行できることを確認します。 このコマンドは、指定されたプールのテストユーザーのペアを構成していることを前提としています。 このようなテストユーザーが存在しない場合、コマンドは失敗します。
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Example 2 tests the ability of the Join Launcher service to participate in an Application Sharing conference on the pool atl-cs-001.litwareinc.com. Note that this command tests only the service itself; you do not need any mobile devices in order to run the command.
+例2プール atl-cs-001.litwareinc.com でのアプリケーション共有会議に参加するための、Join ランチャーサービスの機能をテストします。 このコマンドは、サービス自体のみをテストすることに注意してください。コマンドを実行するために、モバイルデバイスは必要ありません。
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com" -TestJoinLauncher 
 
-The commands shown in Example 2 test the ability of a pair of users (litwareinc\\pilar and litwareinc\\kenmyer) to log on to Lync Server 2013 and then conduct an Application Sharing conference. To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credential object containing the name and password of the user Pilar Ackerman. (Because the logon name, litwareinc\\pilar, has been included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credential object is then stored in a variable named $cred1. The second command does the same thing, this time returning a credential object for the Ken Myer account.
+例2に示すコマンドは、ユーザーのペア (litwareinc\\pilar と litwareinc\\Kenmyer) が Lync Server 2013 にログオンして、アプリケーション共有会議を開催する機能をテストしています。 これを行うには、この例の最初のコマンドでは、Credential コマンドレットを使用して、user Pilar Ackerman の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス Credential オブジェクトを作成します。 (Logon name、litwareinc\\pilar はパラメーターとして指定されているため、Windows PowerShell 資格情報の要求ダイアログボックスでは、管理者は Pilar Ackerman アカウントのパスワードを入力する必要があります)。結果として得られた資格情報オブジェクトは、$cred 1 という名前の変数に格納されます。 2番目のコマンドでも同じことが実行されますが、今回は Ken Myer アカウントの credential オブジェクトを返します。
 
-With the credential objects in hand, the third command determines whether or not these two users can log on to Lync Server 2013 and conduct an Application Sharing conference. To carry out this task, the **Test-CsASConference** cmdlet is called, along with the following parameters: TargetFqdn (the FQDN of the Registrar pool); SenderSipAddress (the SIP address for the first test user); SenderCredential (the Windows PowerShell object containing the credentials for this same user); ReceiverSipAddress (the SIP address for the other test user); and ReceiverCredential (the Windows PowerShell object containing the credentials for the other test user).
+資格情報オブジェクトが手元にある場合、3番目のコマンドは、これら2人のユーザーが Lync Server 2013 にログオンして、アプリケーション共有会議を実行できるかどうかを決定します。 このタスクを実行するために、次のパラメーターと共に、 **CsASConference**コマンドレットが呼び出されます。 Targetfqdn (レジストラー POOL の FQDN)SenderSipAddress (最初のテストユーザーの SIP アドレス)SenderCredential (同じユーザーの資格情報が含まれている Windows PowerShell オブジェクト)ReceiverSipAddress (他のテストユーザーの SIP アドレス)ReceiverCredential (他のテストユーザーの資格情報を格納する Windows PowerShell オブジェクト)。
 
     $cred1 = Get-Credential "litwareinc\pilar" 
     $cred2 = Get-Credential "litwareinc\kenmyer" 
     Test-CsASConference -TargetFqdn atl-cs-001.litwareinc.com -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $cred1 -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -ReceiverCredential $cred2
 
-## Determining success or failure
+</div>
 
-If application sharing is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-Result : Success
+アプリケーション共有が適切に構成されている場合は、次のような結果が返され、Result プロパティは Success とマークされ**ます。**
 
-Latency : 00:00:01
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Error Message :
+結果: 成功
 
-Diagnosis :
+待ち時間: 00:00:01
 
-If the specified users can't share applications, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+エラーメッセージ:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+診断
 
-Result : Failure
+指定したユーザーがアプリケーションを共有できない場合、結果はエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
 
-Latency : 00:00:00
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+結果: エラー
 
-did not properly respond after a period of time, or
+待ち時間: 00:00:00
 
-established connection failed because connected host has
+エラーメッセージ: 10060、接続されているパーティのため、接続に失敗しました
 
-failed to respond 10.188.116.96:5061
+一定の期間が経過した後に正しく応答しなかった場合、または
 
-Inner Exception:A connection attempt failed because the
+接続されているホストに、接続に失敗しました
 
-connected party did not properly respond after a period of
+10.188.116.96 に応答できませんでした: 5061
 
-time, or established connection failed because connected host
+内部例外: 接続の試行が失敗したため、接続できませんでした。
 
-has failed to respond 10.188.116.96:5061
+しばらくしても、接続されているパーティが正しく応答しませんでした
 
-Diagnosis :
+接続されているホストが原因で、時刻、または接続に失敗しました
 
-For example, the previous output includes the note “the connected party did not properly respond” That typically indicates a problem with the Edge Server.
+さんが10.188.116.96 に応答できませんでした: 5061
 
-## Reasons why the test might have failed
+診断
 
-Here are some common reasons why **Test-CsASConference** might fail:
+たとえば、前回の出力には、"接続されているパーティは正しく応答しませんでした" というメモが含まれています。通常、エッジサーバーに問題があることを示します。
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - This command will fail if the test users were assigned a conferencing policy that prevents them from using application sharing.
+<div>
 
-  - This command will fail if the Edge Server is misconfigured or not yet deployed.
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
 
-## 関連項目
+次に **、テスト用の CsASConference**が失敗する一般的な理由をいくつか示します。
 
-#### その他のリソース
+  - 指定されたパラメーター値が正しくありません。 使用する場合は、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。 省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
 
-[Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy)  
-[Test-CsDataConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDataConference)
+  - テストユーザーに会議ポリシーが割り当てられていて、それらのユーザーがアプリケーション共有を使用できない場合、このコマンドは失敗します。
+
+  - エッジサーバーが正しく構成されていないか、まだ展開されていない場合、このコマンドは失敗します。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy)  
+[Test-CsDataConference](https://docs.microsoft.com/powershell/module/skype/Test-CsDataConference)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

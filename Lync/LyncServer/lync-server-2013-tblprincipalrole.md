@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalRole'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalRole
 ms:assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615039(v=OCS.15)
-ms:contentKeyID: 48273759
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615039(v=OCS.15)
+ms:contentKeyID: 48185597
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 560f454531060a8458c8c920a1e4c5921867f3e4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848599"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の tblPrincipalRole
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblprincipalrole-in-lync-server-2013"></a>Lync Server 2013 の tblPrincipalRole
 
-tblPrincipalRole には、ノードに割り当てられている明示的な役割が含まれています。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-12_
+
+tblPrincipalRole には、ノードに割り当てられている明示的な役割が含まれます。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -34,30 +54,30 @@ tblPrincipalRole には、ノードに割り当てられている明示的な役
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinRoleNodeID</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>役割の適用先のノード ID。</p></td>
+<td><p>Prinrolid</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>役割が適用されるノード ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinRolePrinID</p></td>
-<td><p>NULL でない int</p></td>
+<td><p>int (null ではない)</p></td>
 <td><p>プリンシパル ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinRoleTypeID</p></td>
-<td><p>NULL でない int</p></td>
+<td><p>int (null ではない)</p></td>
 <td><p>役割の種類の ID (tblRoleType から)。</p></td>
 </tr>
 <tr class="even">
-<td><p>prinRoleUpdatedBy</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>このエントリを最後に更新したプリンシパルの ID。</p></td>
+<td><p>prinroleupdat</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>このエントリを最後に更新したプリンシパルの ID です。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="keys"></a>機能
 
 <table>
 <colgroup>
@@ -72,21 +92,32 @@ tblPrincipalRole には、ノードに割り当てられている明示的な役
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinRoleNodeID, prinRolePrinID, prinRoleTypeID&gt;</p></td>
+<td><p>&lt;Prinroldeid、prinRolePrinID、prinRoleTypeID&gt;</p></td>
 <td><p>主キー。</p></td>
 </tr>
 <tr class="even">
-<td><p>prinRoleNodeID</p></td>
-<td><p>tblNode.nodeID テーブルを参照する外部キー。</p></td>
+<td><p>Prinrolid</p></td>
+<td><p>TblNode テーブルで参照される外部キー。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinRolePrinID</p></td>
-<td><p>tblPrincipal.prinID テーブルを参照する外部キー。</p></td>
+<td><p>TblPrincipal Id テーブルで参照される外部キー。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinRoleTypeID</p></td>
-<td><p>tblRoleType.rtypeID テーブルを参照する外部キー。</p></td>
+<td><p>TblRoleType の Typeid テーブルで参照される外部キー。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

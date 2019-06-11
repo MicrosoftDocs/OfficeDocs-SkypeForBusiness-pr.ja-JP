@@ -1,53 +1,91 @@
-﻿---
-title: サービスのセッションの禁止
-TOCTitle: サービスのセッションの禁止
-ms:assetid: 4b541c72-cdc1-4f86-a5a8-c43c24f41d8b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688049(v=OCS.15)
-ms:contentKeyID: 49886947
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: サービスのセッションの禁止
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Prevent sessions for services
+ms:assetid: 4b541c72-cdc1-4f86-a5a8-c43c24f41d8b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688049(v=OCS.15)
+ms:contentKeyID: 49733642
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 19f3ed7c788db120782966541bfea9813328d90c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847970"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# サービスのセッションの禁止
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-04_
+# <a name="prevent-sessions-for-services"></a>サービスのセッションの禁止
 
-Microsoft Lync Server 2010 コントロール パネルを使用し、特定のコンピューター上で実行されているすべての Lync Server 2010 サービスの新しいセッションを禁止したり、特定の Lync Server 2010 サービスの新しいセッションを禁止したりできます。
+</div>
 
-## コンピューター上のすべての Lync Server サービスの新しいセッションを禁止するには
+<div id="mainSection">
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Lync Server 2013 を展開したネットワーク内の任意のコンピューターにログオンします。
+<div id="mainBody">
 
-2.  Lync Server コントロール パネルを開きます。
+<span> </span>
 
-3.  左側のナビゲーション バーで \[**トポロジ**\] をクリックし、\[**状態**\] をクリックします。
+_**最終更新日:** 2012-10-04_
 
-4.  \[**状態**\] ページで、必要に応じて一覧を並べ替えるかまたは検索し、新しいセッションを禁止するサービスを実行しているコンピューターを確認してクリックします。
+Microsoft Lync Server 2010 コントロールパネルを使用すると、特定のコンピューターで実行されているすべての Lync Server 2010 サービスの新しいセッションを禁止したり、特定の Lync Server 2010 サービスの新しいセッションを禁止したりすることができます。
 
-5.  \[**アクション**\] をクリックします。
+<div>
 
-6.  \[**すべてのサービスの新しいセッションを禁止**\] をクリックします。
+## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a>コンピューター上のすべての Lync Server サービスの新しいセッションを禁止するには
 
-## 特定のサービスの新しいセッションを禁止するには
+1.  RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Lync Server 2013 を展開したネットワーク上のコンピューターにログオンします。
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Lync Server 2013 を展開したネットワーク内の任意のコンピューターにログオンします。
+2.  [Lync Server コントロール パネル] を開きます。
 
-2.  Lync Server コントロール パネルを開きます。
+3.  左側のナビゲーションバーで、[**トポロジ**] をクリックし、[**状態**] をクリックします。
 
-3.  左側のナビゲーション バーで \[**トポロジ**\] をクリックし、\[**状態**\] をクリックします。
+4.  [**状態**] ページで、必要に応じて一覧を並べ替えます。または、新しいセッションを禁止するサービスを実行しているコンピューターを検索して、それをクリックします。
 
-4.  \[**状態**\] ページで、必要に応じて一覧を並べ替えるかまたは検索して、開始または停止するサービスを実行しているコンピューターを確認してクリックします。
+5.  [**アクション**] をクリックします。
 
-5.  \[**プロパティ**\] をクリックします。
+6.  [**すべてのサービスに対して新規セッションを**許可しない] をクリックします。
 
-6.  必要に応じてサービスの一覧を並べ替え、新しいセッションを禁止するサービスをクリックします。
+</div>
 
-7.  \[**アクション**\] をクリックします。
+<div>
 
-8.  \[**サービスの新しいセッションを禁止**\] をクリックします。
+## <a name="to-prevent-new-sessions-for-a-specific-service"></a>特定のサービスの新しいセッションを禁止するには
 
-9.  \[**閉じる**\] をクリックします。
+1.  RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Lync Server 2013 を展開したネットワーク上のコンピューターにログオンします。
+
+2.  [Lync Server コントロール パネル] を開きます。
+
+3.  左側のナビゲーションバーで、[**トポロジ**] をクリックし、[**状態**] をクリックします。
+
+4.  [**状態**] ページで、必要に応じて一覧を並べ替えます。または、開始または停止するサービスを実行しているコンピューターを検索して、それをクリックします。
+
+5.  [**プロパティ**] をクリックします。
+
+6.  必要に応じてサービスの一覧を並べ替えて、新しいセッションを禁止するサービスをクリックします。
+
+7.  [**アクション**] をクリックします。
+
+8.  [**サービスの新規セッションを**許可しない] をクリックします。
+
+9.  [**閉じる**] をクリックします。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

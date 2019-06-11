@@ -1,27 +1,53 @@
-﻿---
-title: サポートしているデバイス
-TOCTitle: サポートしているデバイス
-ms:assetid: 9985c232-cc9a-41fb-ac6f-99d1986552f9
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205105(v=OCS.15)
-ms:contentKeyID: 48272935
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: サポートされているデバイス'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported devices
+ms:assetid: 9985c232-cc9a-41fb-ac6f-99d1986552f9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205105(v=OCS.15)
+ms:contentKeyID: 48184882
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7247d295a7807bf2a1f6970412384ce6006a2b89
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848631"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# サポートしているデバイス
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="supported-devices-in-lync-server-2013"></a>Lync Server 2013 でサポートされているデバイス
 
-Lync Server は、次の表に示す電話をすべてサポートしています。サポートされているすべての電話で Lync Phone Edition を実行できるとは限りません (以前のバージョンのみを実行できるものもあります)。この表は、Lync Phone Edition を実行できる電話と、サポートされているすべての電話の詳細情報の参照先を確認するのに使用します。
+</div>
 
-> [!NOTE]
-> サポートされる電話は 3 種類で、電話 (従業員がデスクで使用することを想定して設計されたハンドセット IP または USB デバイス)、電話会議デバイス (会議室で使用することを想定して設計されたハンズフリー IP または USB 電話)、および共有エリアの電話 (ロビー、キッチン、工場フロア、共有ワークスペースなどの共有エリアで使用することを想定して設計された IP 電話で、Lync Phone Edition の各種機能を提供するようにカスタマイズ可能) です。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-08_
+
+Lync Server は、次の表に記載されているすべての電話をサポートしています。 サポートされているすべての電話機で Lync Phone Edition を実行できないことに注意してください (一部は以前のバージョンでのみ実行可能)。 表を使用して、Lync Phone Edition を実行できる電話と、サポートされているすべての電話に関する詳細情報を取得する場所について説明します。
+
+<div>
 
 
-Lync と連携するように最適化されたすべてのデバイスについての詳細な比較表については、[http://go.microsoft.com/fwlink/?linkid=208938\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=208938%26clcid=0x411) の「Phones and devices qualified for Microsoft Lync」を参照してください。この Web サイトに掲載される電話比較表には、価格情報と技術仕様も記載されています。
+> [!NOTE]  
+> サポートされる電話には、卓上電話 (机の従業員が使用するために設計された携帯電話機の IP または USB デバイス)、会議デバイス (会議室で使用するために設計された、ハンズフリーの IP または USB 電話)、一般的なエリア電話 (IP 電話) があります。ロビー、kitchens、工場フロア、共有ワークスペースなどの共有領域での使用を目的として設計されています。また、Lync Phone Edition のさまざまな機能を提供するようにカスタマイズすることもできます。
+
+
+
+</div>
+
+Lync と連携するように最適化されているすべてのデバイスに関する詳細な比較表については、「 <http://go.microsoft.com/fwlink/p/?linkid=208938>Microsoft Lync 用に認定された電話とデバイス」を参照してください。 この web サイトの電話の比較表には、価格情報と技術仕様が記載されています。
 
 
 <table>
@@ -32,66 +58,83 @@ Lync と連携するように最適化されたすべてのデバイスについ
 </colgroup>
 <thead>
 <tr class="header">
-<th>電話</th>
-<th>Lync Phone Edition の実行の可否</th>
+<th>ダイヤル</th>
+<th>Lync Phone Edition を実行します</th>
 <th>詳細情報</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Aastra 6721ip 共有エリアの電話</p></td>
+<td><p>Aastra 6721ip 共通領域電話</p></td>
 <td><p>X</p></td>
-<td><p>Aastra Web サイトの <a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=6074">Downloads Aastra 6721ip</a></p></td>
+<td><p><a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=6074">Aastra 6721ip</a>を Aastra の web サイトにダウンロードする</p></td>
 </tr>
 <tr class="even">
-<td><p>Aastra 6725ip 電話</p></td>
+<td><p>Aastra 6725ip 卓上電話</p></td>
 <td><p>X</p></td>
-<td><p>Aastra Web サイトの <a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26amp%3bcurr_nav=2%26prod_id=12991">Downloads Aastra 6725ip</a></p></td>
+<td><p><a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=12991">Aastra 6725ip</a>を Aastra の web サイトにダウンロードする</p></td>
 </tr>
 <tr class="odd">
-<td><p>HP 4110 IP 電話 (共有エリアの電話)</p></td>
+<td><p>HP 4110 IP 電話 (共通領域電話)</p></td>
 <td><p>X</p></td>
-<td><p>HP Web サイトの <a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en-us%26prodtypeid=12883%26prodseriesid=5171755">HP 4110 IP Phone Series</a></p></td>
+<td><p>Hp の web サイトでの<a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5171755">hp 4110 IP 電話シリーズ</a></p></td>
 </tr>
 <tr class="even">
-<td><p>HP 4120 IP 電話 (電話)</p></td>
+<td><p>HP 4120 IP 電話 (卓上電話)</p></td>
 <td><p>X</p></td>
-<td><p>HP Web サイトの <a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en-us%26prodtypeid=12883%26prodseriesid=5204220">HP 4120 IP Phone Series</a></p></td>
+<td><p>Hp の web サイトでの<a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5204220">hp 4120 IP 電話シリーズ</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Polycom CX300 USB 電話</p></td>
-<td><p></p></td>
-<td><p>Polycom Web サイトの <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a></p></td>
+<td><p>Polycom CX300 USB 卓上電話</p></td>
+<td></td>
+<td><p>Polycom web サイトの<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Polycom CX500 IP 共有エリアの電話</p></td>
+<td><p>Polycom CX500 IP 共通領域電話</p></td>
 <td><p>X</p></td>
-<td><p>Polycom Web サイトの <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a></p></td>
+<td><p>Polycom の web サイトでの<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Polycom CX600 IP 電話</p></td>
+<td><p>Polycom CX600 IP 卓上電話</p></td>
 <td><p>X</p></td>
-<td><p>Polycom Web サイトの <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a></p></td>
+<td><p>Polycom の web サイトでの<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Polycom CX700 IP 電話</p></td>
-<td><p></p></td>
-<td><p>Polycom Web サイトの <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a></p></td>
+<td><p>Polycom CX700 IP 卓上電話</p></td>
+<td></td>
+<td><p>Polycom の web サイトで<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX3000 IP 会議電話</p></td>
 <td><p>X</p></td>
-<td><p>Polycom Web サイトの <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a></p></td>
+<td><p>Polycom web サイトの<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Polycom CX5000 USB 会議デバイス</p></td>
-<td><p></p></td>
-<td><p>Polycom Web サイトの <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a></p></td>
+<td></td>
+<td><p>Polycom web サイトの<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a></p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]
-> アナログ デバイスもサポートされています。詳細については、Lync Server 2010 TechNet ライブラリの「<a href="http://go.microsoft.com/fwlink/?linkid=257502%26clcid=0x411">アナログ デバイスの展開の計画</a>」を参照してください (Lync Phone Edition は Lync Server 2013 と Lync Server 2010 で同じように機能します)。
+<div>
+
+
+> [!NOTE]  
+> アナログデバイスのサポートも提供されています。 詳細については、「Lync Server 2010 TechNet ライブラリで<A href="http://go.microsoft.com/fwlink/p/?linkid=257502">アナログデバイスを展開するための計画</A>」を参照してください。 Lync Phone Edition は、Lync Server 2013 および Lync Server 2010 でも同じように動作します。
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

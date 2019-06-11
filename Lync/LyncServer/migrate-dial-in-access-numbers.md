@@ -1,89 +1,134 @@
-﻿---
-title: ダイヤルイン アクセス番号を移行する
-TOCTitle: ダイヤルイン アクセス番号を移行する
-ms:assetid: e0dfaed2-64c7-45cb-aaa9-d6117a26625d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721909(v=OCS.15)
-ms:contentKeyID: 49887178
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: ダイヤルイン アクセス番号の移行
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate dial-in access numbers
+ms:assetid: e0dfaed2-64c7-45cb-aaa9-d6117a26625d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721909(v=OCS.15)
+ms:contentKeyID: 49733843
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f4f0f286450aeaaf747d4642bf8791695d16b603
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848074"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ダイヤルイン アクセス番号を移行する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-19_
+# <a name="migrate-dial-in-access-numbers"></a>ダイヤルイン アクセス番号の移行
 
-ダイヤルイン アクセス番号を Lync Server 2010 から Lync Server 2013 に移行するには、 **Move-CsApplicationEndpoint** コマンドレットを実行して、連絡先オブジェクトを移行する必要があります。このセクションで前述したように、 Lync Server 2010 と Lync Server 2013 の共存期間中、 Lync Server 2013 で作成したダイヤルイン アクセス番号は、 Lync Server 2010 で作成したダイヤルイン アクセス番号と同じように動作します。
+</div>
 
-Lync Server 2010 で作成して Lync Server 2013 に移動したダイヤルイン アクセス番号、または Lync Server 2013 で以前に作成したダイヤルイン アクセス番号は、移行中または移行後に次の特性を持ちます。
+<div id="mainSection">
 
-  - Office Communications Server 2007 R2 の会議への招待およびダイヤルイン アクセス番号ページに表示されません。
+<div id="mainBody">
 
-  - Lync Server 2010 の会議への招待およびダイヤルイン アクセス番号ページに表示されます。
+<span> </span>
 
-  - Lync Server 2013 の会議への招待およびダイヤルイン アクセス番号ページに表示されます。
+_**最終更新日:** 2012-10-19_
 
-  - Office Communications Server 2007 R2 管理ツールで表示または変更できません。
+Lync Server 2010 から Lync Server 2013 にダイヤルインアクセス番号を移行するには、 **Move-CsApplicationEndpoint**コマンドレットを実行して、連絡先オブジェクトを移行する必要があります。 Lync server 2010 および Lync Server 2013 の共存期間中、Lync Server 2013 で作成したダイヤルインアクセス番号は、このセクションで説明するように、Lync Server 2010 で作成したダイヤルインアクセス番号と同じように動作します。
 
-  - Lync Server 2010 コントロール パネルおよび Lync Server 2010 管理シェルで表示および変更できます。
+Lync server 2010 で作成したが、Lync Server 2013 に移動した、または Lync server 2013 で作成したダイヤルインアクセス番号は、移行中または移行後に次のような特性を持つことになります。
 
-  - Lync Server 2013 コントロール パネルおよび Lync Server 2013 管理シェルで表示および変更できます。
+  - Office Communications Server 2007 R2 会議の出席依頼とダイヤルインアクセス番号のページには表示されません。
 
-  - Set-CsDialinConferencingAccessNumber コマンドレットで Priority パラメーターを指定して、地域内で並べ直すことができます。
+  - Lync Server 2010 会議の出席依頼とダイヤルインアクセス番号のページに表示されます。
 
-Lync Server 2010 プールを使用停止にする前に、Lync Server 2010 プールをポイントするダイヤルイン アクセス番号の移行を終了する必要があります。記載されている以下の手順でダイヤルイン アクセス番号の移行を完了しないと、そのアクセス番号への着信通話が失敗します。
+  - Lync Server 2013 会議の出席依頼とダイヤルインアクセス番号のページに表示されます。
+
+  - Office Communications Server 2007 R2 管理ツールでは、表示または変更できません。
+
+  - Lync Server 2010 コントロールパネルと Lync Server 2010 Management Shell で表示および変更できます。
+
+  - Lync Server 2013 コントロールパネルと Lync Server 2013 Management Shell で表示および変更できます。
+
+  - Priority パラメーターを指定して CsDialinConferencingAccessNumber コマンドレットを使用して、地域内で再シーケンスできます。
+
+Lync server 2010 プールを廃止する前に、Lync Server 2010 プールを参照するダイヤルインアクセス番号の移行を完了する必要があります。 次の手順で説明するように、ダイヤルインアクセス番号の移行が完了していない場合は、アクセス番号への着信通話が失敗します。
+
+<div>
 
 
-> [!IMPORTANT]
-> この手順は、 Lync Server 2010 プールを使用停止にする前に実行する必要があります。
+> [!IMPORTANT]  
+> Lync Server 2010 プールの使用を停止する前に、この手順を実行する必要があります。
 
 
 
-> [!NOTE]
-> サービスが短時間停止される場合に備えて、ネットワークの使用率が低いときに、ダイヤルイン アクセス番号を移動することをお勧めします。
+</div>
+
+<div>
 
 
-**ダイヤルイン アクセス番号を識別し、移動するには**
+> [!NOTE]  
+> 短時間のサービス停止が発生した場合に備えて、ネットワーク使用量が少ない場合は、ダイヤルインアクセス番号を移動することをお勧めします。
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
 
-2.  各ダイヤルイン アクセス番号を Lync Server 2013 でホストされるプールに移動するには、コマンド ラインで次のコマンドを実行します。
+
+</div>
+
+**ダイヤルインアクセス番号を特定して移動するには**
+
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+
+2.  Lync Server 2013 でホストされているプールにダイヤルインアクセス番号を移動するには、コマンドラインで次を実行します。
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-3.  Lync Server コントロール パネルを開きます。
+3.  [Lync Server コントロール パネル] を開きます。
 
-4.  左側のナビゲーション バーで \[**会議**\] をクリックします。
+4.  左側のナビゲーション バーで [**会議**] をクリックします。
 
-5.  \[**ダイヤルイン アクセス番号**\] タブをクリックします。
+5.  [**ダイヤルインアクセス番号**] タブをクリックします。
 
-6.  ダイヤルイン アクセス番号が移行元の Lync Server 2010 プールに残っていないことを確認します。
+6.  移行元の Lync Server 2010 プールのダイヤルインアクセス番号が残っていないことを確認します。
     
-    > [!NOTE]
-    > すべてのダイヤルイン アクセス番号が Lync Server 2013 プールをポイントすれば、 Lync Server 2010 プールを使用停止にできます。
+    <div>
+    
 
+    > [!NOTE]  
+    > すべてのダイヤルインアクセス番号が Lync Server 2013 プールをポイントしている場合は、Lync Server 2010 プールの使用を停止することができます。
 
-**Lync Server コントロール パネルを使用してダイヤルイン アクセス番号の移行を確認する**
+    
+    </div>
 
-1.  **CsUserAdministrator** または **CsAdministrator** の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
+**Lync Server コントロールパネルを使用して、ダイヤルインアクセス番号の移行を確認する**
 
-2.  Lync Server コントロール パネルを開きます。
+1.  **Csuseradministrator**ロールまたは**csadministrator**ロールに割り当てられているユーザーアカウントから、社内展開の任意のコンピューターにログオンします。
 
-3.  左側のナビゲーション バーで \[**会議**\] をクリックします。
+2.  [Lync Server コントロール パネル] を開きます。
 
-4.  \[**ダイヤルイン アクセス番号**\] タブをクリックします。
+3.  左側のナビゲーション バーで [**会議**] をクリックします。
 
-5.  Lync Server 2013 にホストされているプールにすべてのダイヤルイン アクセス番号が移行したことを確認します。
+4.  [**ダイヤルインアクセス番号**] タブをクリックします。
 
-**Lync Server 管理シェルを使用してダイヤルイン アクセス番号の移行を確認する**
+5.  すべてのダイヤルインアクセス番号が、Lync Server 2013 でホストされているプールに移行されていることを確認します。
+
+**Lync Server 管理シェルを使用して、ダイヤルインアクセス番号の移行を確認する**
 
 1.  Lync Server 管理シェルを開きます。
 
-2.  移行したすべてのダイヤルイン アクセス番号を戻すには、コマンド ラインで次のコマンドを実行します。
+2.  移行されたダイヤルイン会議アクセス番号をすべて返すには、コマンドラインで次を実行します。
     
         Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
 
-3.  Lync Server 2013 にホストされているプールにすべてのダイヤルイン アクセス番号が移行したことを確認します。
+3.  すべてのダイヤルインアクセス番号が、Lync Server 2013 でホストされているプールに移行されていることを確認します。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

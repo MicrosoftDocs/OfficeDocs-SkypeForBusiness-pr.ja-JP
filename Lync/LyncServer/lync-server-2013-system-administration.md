@@ -1,59 +1,105 @@
-﻿---
-title: 'Lync Server 2013: System administration'
+---
+title: 'Lync Server 2013: システム管理'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: System administration
 ms:assetid: 063eb962-b96a-4699-8579-bb7125112df4
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn720318(v=OCS.15)
-ms:contentKeyID: 62222304
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720318(v=OCS.15)
+ms:contentKeyID: 63969577
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: d62526daf43308b4ed38538e5ea16e15b271fc9a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848618"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# System administration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="system-administration-in-lync-server-2013"></a>Lync Server 2013 でのシステム管理
 
-System administration includes the day-to-day administrative tasks, both planned and on-demand, that are required to keep an IT system operating smoothly. Typically, system administration tasks are covered by written procedures. These procedures help ensure that the same standard tools and methods are used by all support staff.
+</div>
 
-In a Lync environment, typical system administration tasks include backing up and archiving pools, monitoring logs, creating and managing users, and updating antivirus software.
+<div id="mainSection">
 
-## System troubleshooting
+<div id="mainBody">
 
-An organization must be prepared to deal with unexpected issues and should have a procedure to manage issues from the point at which they are reported until their resolution. Information about how support staff diagnosed an issue should be recorded and used in the future to avoid unnecessarily repeating completed work.
+<span> </span>
 
-## System troubleshooting process
+_**最終更新日:** 2014-08-18_
 
-The following diagram shows the system troubleshooting process and the interactions with other operations roles.
+システム管理には、IT システムをスムーズに運用するために必要な日常的な管理タスク (計画およびオンデマンドの両方) が含まれています。 通常、システム管理タスクについては、記載されている手順で説明します。 以下の手順を行うと、すべてのサポートスタッフが同じ標準ツールとメソッドを使用していることを確認できます。
 
-**System troubleshooting flowchart**
+Lync 環境では、一般的なシステム管理タスクには、バックアップとアーカイブのプール、ログの監視、ユーザーの作成と管理、ウイルス対策ソフトウェアの更新が含まれます。
 
-![システム トラブルシューティング、フローチャート](images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "システム トラブルシューティング、フローチャート")
+<div>
 
-  - **Classify and Prioritize**   This task is typically performed by the service desk. For example, an issue may be grouped as a software issue or a hardware issue. The issue is then routed to the appropriate support team for investigation. The rules for determining the priority of an issue, together with the time to respond and time to resolve, are typically defined in the SLA.
+## <a name="system-troubleshooting"></a>システムのトラブルシューティング
 
-  - **Investigate and Diagnose**   The appropriate support team diagnoses the issue and proposes changes to resolve the issue. If the solution is simple and does not require change control, the solution can be applied immediately. If the solution is not easy, a request for change should be raised and the proposed work should be managed by the change management process, frequently under a “fast-track” procedure. Any changes that are made should be recorded using the configuration management process.
+予期しない問題に対処するために組織が準備しておく必要があります。また、解決までに報告されるポイントから問題を管理するための手順を用意しておく必要があります。 不要になった完了した作業を回避するために、問題を診断したサポートスタッフを記録して、将来使用する方法についての情報を参照してください。
 
-  - **Close and Record**   After testing the resolution, the issue should be closed. If there are lessons to be learned from the issue, an entry should be created in the knowledge base.
+</div>
 
-  - **Review and Trend Analysis**   Periodic reviews of recent issues should be performed to identify issue trends. For example, if the users are experiencing frequent issues with slow logons to their Lync sites, network bandwidth issues may be the cause. Issue resolution times and the effect of any outages on system availability should be reviewed and compared with the SLA. The person who liaises with the customer on service issues, such as an account manager, should be informed of any significant issues.
+<div>
 
-## Issue management tools
+## <a name="system-troubleshooting-process"></a>システムのトラブルシューティングプロセス
 
-Service desk tools enable staff to record, classify, and prioritize new issues. Tools will then provide the workflow processes to manage the issue service request through investigation and diagnosis, often by more than one support team. Tools, which will frequently provide reports about resolution times and historical trends, may also include a knowledge base database, which can be used to search through past issues.
+次の図は、システムのトラブルシューティングプロセスと、他の操作の役割との相互作用を示しています。
 
-The Microsoft Knowledge Base is a useful record of support issues that were encountered by Microsoft. For more information, see the Microsoft Support website (<https://go.microsoft.com/fwlink/?linkid=14898>).
+**システムのトラブルシューティングのフローチャート**
 
-Third-party software typically requires customization to suit the organization’s needs, such as the organization of teams, reporting requirements, and measures required by the SLA.
+![システムのトラブルシューティングのフローチャート](images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "システムのトラブルシューティングのフローチャート")
 
-## Centralized vs. decentralized administration
+  - **このタスクの分類と優先順位付け**   は、通常、サービスデスクによって行われます。 たとえば、問題がソフトウェアの問題またはハードウェアの問題としてグループ化されている可能性があります。 この問題は、調査のために適切なサポートチームにルーティングされます。 問題の優先順位を決定するための規則と、それに対応するための時間と解決策は、通常、SLA で定義されます。
 
-Roles and responsibilities for performing system administration tasks depend on whether the organization follows a centralized model, a decentralized model, or a combination of both.
+  - ****   適切なサポートチームを調査して診断し、問題を診断し、変更を提案して、問題を解決します。 ソリューションが単純で、変更の制御が必要ない場合は、ソリューションをすぐに適用できます。 ソリューションが簡単でない場合は、変更依頼を発生させる必要があります。提案された作業は、"ファストトラッキング" の手順で頻繁に変更管理プロセスによって管理する必要があります。 加えた変更はすべて、構成管理プロセスを使用して記録する必要があります。
 
-  - **Centralized Model**   In a centralized model, one or several administrative groups maintain complete control of the whole Lync Server environment. This administrative model resembles a data center where all administration tasks are performed by a single information technology group. Roles and responsibilities within the team should be defined according to experience and expertise.
+  - ****   解決した解決策を確認して記録したら、問題を閉じる必要があります。 問題から学んだ教訓がある場合は、サポート技術情報でエントリを作成する必要があります。
 
-  - **Decentralized Model**   Decentralized organizations are located in several geographic locations and have functioning Lync Server servers and teams of administrators in different locations. For example, there may be local administration staff and one or more servers that are running Lync Server 2013 for each country/region. Or, there may be a pool of servers that are running Lync Server 2013 and an administrative team for North America and one for Europe. Sometimes, you may want administrators to be responsible only for their own geographical area and restrict permissions to administer resources in other areas.
+  - ****   問題の傾向を特定するために、最近の問題のレビューとトレンド分析を定期的に行う必要があります。 たとえば、ユーザーが Lync サイトへのログオン速度が遅いという問題が頻繁に発生する場合、ネットワーク帯域幅の問題が原因である可能性があります。 問題の解決時間と、システムの可用性の停止による影響は、SLA と比較して確認する必要があります。 アカウントマネージャーなどのサービスの問題について顧客と liaises したユーザーには、重大な問題があることを通知する必要があります。
 
-Lync Server also allows you to delegate specific administrative tasks to specific people or groups by using role-based access control (RBAC). RBAC allows administrators to delegate specific user rights and permissions to other administrators to perform a subset of the administrative tasks possible. By using RBAC, the user’s ability to perform specific administrative tasks depends on the RBAC roles that are assigned to the user. RBAC provides a list of cmdlets that the user can run based on the RBAC roles that the user is a member of.
+</div>
+
+<div>
+
+## <a name="issue-management-tools"></a>問題管理ツール
+
+サービスデスクツールを使用すると、スタッフは、新しい問題の記録、分類、優先順位付けを行うことができます。 ツールでは、複数のサポートチームによって、調査と診断を通じて問題のサービスリクエストを管理するワークフロープロセスが提供されます。 [ツール] では、解決時間や履歴の傾向に関するレポートを頻繁に提供します。また、過去の問題を検索するために使用できるナレッジベースデータベースも含めることができます。
+
+Microsoft サポート技術情報は、Microsoft によって発生したサポートの問題を記録したものです。 詳細については、Microsoft サポート web サイト<http://go.microsoft.com/fwlink/?linkid=14898>() を参照してください。
+
+サードパーティのソフトウェアでは通常、組織のニーズに合わせてカスタマイズする必要があります。これには、チームの編成、レポート要件、SLA に必要な措置などがあります。
+
+</div>
+
+<div>
+
+## <a name="centralized-vs-decentralized-administration"></a>一元管理と分散管理
+
+システム管理タスクを実行するための役割と責任は、組織が一元管理モデル、分散モデル、または両方の組み合わせのいずれを使用しているかによって異なります。
+
+  - ****   一元管理モデルでは、1つまたは複数の管理グループが、Lync Server 環境全体の完全な制御を維持します。 この管理モデルは、1つの情報技術グループによってすべての管理タスクが実行されるデータセンターに似ています。 チーム内の役割と責任は、経験と専門知識に基づいて定義する必要があります。
+
+  - **分散型モデル**   分散組織は、いくつかの地理的な場所に配置されており、Lync Server サーバーと管理者のチームがさまざまな場所で機能しています。 たとえば、地域管理スタッフと、Lync Server 2013 を実行している1つ以上のサーバーが、国/地域ごとに存在する場合があります。 または、Lync Server 2013 を実行しているサーバーのプールと北米向けの管理チーム、およびヨーロッパのサーバーのプールが存在する場合もあります。 場合によっては、管理者が自分の地理的領域のみを担当し、他の領域のリソースを管理するためのアクセス許可を制限することができます。
+
+Lync Server では、役割ベースのアクセス制御 (RBAC) を使って特定の管理タスクを特定のユーザーまたはグループに委任することもできます。 RBAC を使用すると、管理者は、特定のユーザー権限と権限を他の管理者に委任して、可能な管理タスクのサブセットを実行することができます。 RBAC を使うことで、ユーザーに割り当てられている RBAC の役割に応じて、特定の管理タスクを実行することができます。 RBAC には、ユーザーがメンバーになっている RBAC の役割に基づいてユーザーが実行できるコマンドレットの一覧が用意されています。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

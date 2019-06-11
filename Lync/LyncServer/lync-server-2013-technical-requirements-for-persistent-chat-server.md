@@ -1,35 +1,57 @@
-﻿---
-title: 'Lync Server 2013: 常設チャット サーバーの技術要件'
-TOCTitle: 常設チャット サーバーの技術要件
-ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398495(v=OCS.15)
-ms:contentKeyID: 48272356
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 常設チャットサーバーの技術要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Persistent Chat Server
+ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398495(v=OCS.15)
+ms:contentKeyID: 48184383
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9b84f1a2932b76c8030c907463e8f0f2e93bedda
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848554"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 常設チャット サーバーの技術要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーの技術要件
 
-常設チャット サーバーをホストする各コンピューターには、次のコンポーネントの既存の Lync Server 2013 トポロジへのアクセス権が必要です。
+</div>
 
-  - **Lync Server 2013、フロント エンド サーバー。**  フロント エンド サーバーはセッション開始プロトコル (SIP) ルーティングの基盤であり、常設チャット機能と 常設チャット サーバーを実行しているコンピューター間の通信が可能になります。常設チャット サーバーを展開する前に、Lync Server 2013 Standard Edition または Lync Serverフロント エンド プールと Lync Server を実行する他の社内コンピューターが組織に適切に展開されていることを確認してください。
+<div id="mainSection">
 
-以下のセクションでは、常設チャット サーバーと 常設チャットデータを格納するデータベースの固有の要件について説明します。
+<div id="mainBody">
 
-## 常設チャット サーバーの要件
+<span> </span>
 
-Lync Server および最新バージョンの 常設チャット サーバーを展開するハードウェア要件の詳細については、「サポート」のドキュメントの「[Lync Server 2013　用のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
+_**最終更新日:** 2013-01-06_
 
-Lync Server および 常設チャット サーバーに対するサーバーおよびツールのオペレーションシステム サポートの詳細については、「サポート」ドキュメントの「[Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
+常設チャットサーバーをホストする各コンピューターは、次のコンポーネントを使用して、既存の Lync Server 2013 トポロジにアクセスする必要があります。
 
-常設チャット サーバー の展開に必要となる追加ソフトウェアの詳細については、次の表を参照してください。
+  - **Lync Server 2013、フロントエンドサーバー。** フロントエンドサーバーは、セッション開始プロトコル (SIP) ルーティングの基盤です。これにより、常設チャットサーバーを実行しているコンピューターと常設チャット機能を実行しているコンピューター間の通信が可能になります。 常設チャットサーバーの展開を開始する前に、組織に合わせて、lync server 2013、Standard Edition、または lync server のフロントエンドプールと lync server が実行されているその他の内部コンピューターの展開を確認します。
 
-### 常設チャット サーバーのソフトウェア要件
+以下のセクションでは、常設チャットサーバーと永続的なチャットデータを格納するデータベースの固有の要件について説明します。
+
+<div>
+
+## <a name="persistent-chat-server-requirements"></a>常設チャットサーバーの要件
+
+Lync Server および最新バージョンの常設チャットサーバーの展開に推奨されるハードウェアの詳細については、サポートドキュメントの「 [Lync server 2013 用のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
+
+Lync Server および常設チャットサーバー向けのサーバーとツールのオペレーティングシステムサポートの詳細については、サポートドキュメントの「 [Lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
+
+常設チャットサーバーの展開に必要なその他のソフトウェアの詳細については、次の表を参照してください。
+
+### <a name="persistent-chat-server-software-prerequisites"></a>常設チャットサーバーソフトウェアの前提条件
 
 <table>
 <colgroup>
@@ -44,34 +66,58 @@ Lync Server および 常設チャット サーバーに対するサーバーお
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>メッセージ キュー</p></td>
-<td><p>常設チャット サーバーと 常設チャット コンプライアンス サービスで使用されます (展開されている場合)。</p></td>
+<td><p>メッセージキュー</p></td>
+<td><p>常設チャットサーバーと常設チャットコンプライアンスサービス (展開されている場合)。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 常設チャット サーバーのデータベース要件
+</div>
 
-常設チャット サーバーでは、常設チャット データベースを使用して、チャット履歴、構成、ユーザー プロビジョニング データを保存します。必要に応じて、常設チャット コンプライアンス データベースを使用して、コンプライアンス データを保存します。
+<div>
+
+## <a name="persistent-chat-server-database-requirements"></a>常設チャットサーバーのデータベース要件
+
+常設チャットサーバーは、常設チャットデータベースを使って、チャット履歴、構成、ユーザープロビジョニングデータを保存します。 必要に応じて、常設チャットのコンプライアンスデータベースを使ってコンプライアンスデータを保存します。
+
+<div>
 
 
-> [!IMPORTANT]
-> 常設チャット データベース (mgc) とコンプライアンス データベース (mgccomp) は、同じ SQL Server インスタンスに置くことも、別の SQL Server に置くこともきます。
+> [!IMPORTANT]  
+> 常設チャットデータベース (行う) とコンプライアンスデータベース () は、SQL Server の同じインスタンスまたは別の SQL server に配置できます。
 
 
+
+</div>
 
 データベース サーバー プラットフォームを準備するには、各コンピューターがハードウェア要件を満たしていることを確認した後、必要なソフトウェアをインストールします。
 
-常設チャット データベース サーバー用のサーバー プラットフォームには、Lync Server バックエンド データベース サーバーと同じハードウェアが必要です。詳細については、「サポート」のドキュメントの「[Lync Server 2013　用のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
+常設チャットデータベースサーバーのサーバープラットフォームには、Lync Server バックエンドデータベースサーバーと同じハードウェアが必要です。 詳細については、サポートドキュメントの「 [Lync server 2013 用のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
 
 次のどちらかのソフトウェア アプリケーションがデータベース サーバーにインストールされていることを確認してください。
 
-  - Microsoft SQL Server 2012。Microsoft SQL Server 2012 のインストール方法の詳細については、「SQL Server 2012 のインストール」(<http://go.microsoft.com/fwlink/?linkid=248559>) を参照してください。
+  - Microsoft SQL Server 2012 Microsoft SQL Server 2012 のインストール方法の詳細については、「SQL Server 2012 を[http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559)インストールする」を参照してください。
 
-  - Microsoft SQL Server 2008 R2。Microsoft SQL Server 2008 R2 をインストールする方法については、<http://go.microsoft.com/fwlink/?linkid=275702> で「SQL Server Installation (SQL Server 2008 R2)」を参照してください。
+  - Microsoft SQL Server 2008 R2 Microsoft SQL Server 2008 R2 のインストール方法の詳細については、「SQL Server のインストール (SQL Server 2008 R2 [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702))」を参照してください。
 
-## 常設チャット サーバー の証明書の要件
+</div>
 
-証明書の取得、SQL Server データベースの作成、およびファイル ストアの作成の詳細については、展開ドキュメントの「[Lync Server 2013 の展開](lync-server-2013-deploying-lync-server.md)」を参照してください。
+<div>
+
+## <a name="persistent-chat-server-certificate-requirements"></a>常設チャットサーバー証明書の要件
+
+証明書の取得、SQL Server データベースの作成、ファイルストアの作成の詳細については、「展開ドキュメントに[Lync Server 2013 を展開](lync-server-2013-deploying-lync-server.md)する」を参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

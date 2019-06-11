@@ -1,55 +1,74 @@
-﻿---
-title: 代理トランザクションのリッチ ログの使用
-TOCTitle: 代理トランザクションのリッチ ログの使用
-ms:assetid: 32714a71-9f42-4d5b-a508-e176d8f08bbf
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204798(v=OCS.15)
-ms:contentKeyID: 48271683
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 代理トランザクションでのリッチログの使用'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using rich logging for synthetic transactions
+ms:assetid: 32714a71-9f42-4d5b-a508-e176d8f08bbf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204798(v=OCS.15)
+ms:contentKeyID: 48183812
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 455d7bcdc14dd4d701d749407759cead0834906f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848278"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 代理トランザクションのリッチ ログの使用
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-22_
+# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 での代理トランザクションに対するリッチログの使用
 
-Microsoft Lync Server 2010 で導入された代理トランザクションにより、管理者は、システムへのログオン、インスタント メッセージの交換、公衆交換電話網 (PSTN) 上の電話への発信などの一般的なタスクをユーザーが正常に実行できることを検証するものです。これらのテストは、一連の Lync ServerWindows PowerShell コマンドレットとしてパッケージ化されており、管理者が手動で実行することも、System Center Operations Manager などのアプリケーションから自動で実行することもできます。
+</div>
 
-Lync Server 2010 で、代理トランザクションは、管理者がシステムの問題を識別する際に非常に役立っていました。たとえば、**Test-CsRegistration** コマンドレットは、一部のユーザーの Lync Server への登録がうまくいっていないことを管理者に通知できました。しかし、代理トランザクションは、管理者が、これらのユーザーの Lync Server への登録で問題が発生していた原因を判定することにはあまり役立ちませんでした。これは、代理トランザクションでは、管理者が Lync Server での問題をトラブルシューティングできる詳細なログ記録情報が提供されなかったことによります。せいぜい、代理トランザクションからの詳細出力では、問題がどこで発生したかを管理者が推測できる、ステップごとの情報を示すだけでした。
+<div id="mainSection">
 
-Microsoft Lync Server 2013では、代理トランザクションは、高機能なログ記録を実現するよう再設計されました。"高機能なログ記録" とは、代理トランザクションが行う各アクティビティについて、以下のような情報が記録されるということです。
+<div id="mainBody">
 
-  - アクティビティが開始した時間
+<span> </span>
 
-  - アクティビティが終了した時間
+_**最終更新日:** 2012-10-22_
 
-  - 実行されたアクション (たとえば、電話会議の作成、参加、または終了、Lync Server へのサインオン、インスタント メッセージの送信など)
+代理トランザクション (Microsoft Lync Server 2010 で導入されました) では、管理者は、システムへのログオン、インスタントメッセージの交換、または特定の電話への通話の発信などの一般的なタスクを正常に完了できることを管理者が確認する方法を提供します。[公衆交換電話網 (PSTN)] を選びます。 これらのテスト (Lync Server Windows PowerShell コマンドレットのセットとしてパッケージ化されているもの) は、管理者によって手動で実行することも、System Center Operations Manager などのアプリケーションで自動的に実行することもできます。
 
-  - アクティビティが行われたとき生成された、情報提供メッセージ、詳細メッセージ、警告メッセージ、またはエラー メッセージ
+Lync Server 2010 では、管理者がシステムの問題を特定するのに役立つように、代理トランザクションが非常に役立ちます。 たとえば、 **CsRegistration**コマンドレットを使用すると、一部のユーザーが Lync Server への登録に障碍があることを管理者に通知することができます。 ただし、代理トランザクションは、管理者が Lync Server に登録できない理由を特定するのに役立ちます。 これは、管理者が Lync Server の問題のトラブルシューティングを行うときに役立つ詳細なログ情報が、代理トランザクションによって提供されなかったことが原因です。 最善策として、合成トランザクションからの冗長な出力について説明しました。管理者は、問題が発生した可能性のある箇所についての知識を得ることができる場合があります。
+
+Microsoft Lync Server 2013 では、リッチなログを提供するために、代理トランザクションが再設計されています。 "リッチログ" とは、代理トランザクション請け負うの各アクティビティについて、次のような情報が記録されることを意味します。
+
+  - アクティビティが開始された時刻
+
+  - アクティビティが完了した時刻
+
+  - 実行されたアクション (たとえば、会議の作成、参加、退席、Lync サーバーへのサインイン、インスタントメッセージの送信など)
+
+  - アクティビティが行われたときに生成された、情報提供メッセージ、詳細メッセージ、警告メッセージ、またはエラー メッセージ
 
   - SIP 登録メッセージ
 
-  - アクティビティが行われたとき生成された例外レコードまたは診断コード
+  - アクティビティの実行時に生成される例外レコードまたは診断コード
 
-  - アクティビティを実行した全体的な結果
+  - アクティビティを実行した場合の最終的な結果
 
-代理トランザクションが実行されるたびに、この情報は自動的に生成されます。しかし、この情報は、自動的に表示されることや、ログ ファイルに保存されることはありません。この場合、手動で代理トランザクションを実行中の管理者は、OutLoggerVariable パラメーターを使用して、情報が保存された Windows PowerShell 変数を指定できます。次に、管理者は、ペアのメソッドを使用して、リッチ ログを XML または HTML 形式で、保存または表示できます。
+この情報は、代理トランザクションが実行されるたびに自動的に生成されます。 ただし、情報が自動的に表示されたり、ログファイルに保存されたりすることはありません。 代わりに、代理トランザクションを手動で実行している管理者は、OutLoggerVariable パラメーターを使って、情報が格納される Windows PowerShell 変数を指定できます。 このような場合、管理者は、XML 形式または HTML 形式のリッチログの保存や表示を行うことができるようにする一連のメソッドを使うことができます。
 
-たとえば、Lync Server 2010 管理者は、以下のようなコマンドを使用して **Test-CsRegistration** コマンドレットを実行できます。
+たとえば、Lync Server 2010 管理者は、次のようなコマンドを使用して、 **CsRegistration**コマンドレットを実行することができます。
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com
 
-管理者は、OutLoggerVariable パラメーターと、それに続く任意の変数名を含めることができます。
+管理者には、OutLoggerVariable パラメーターと、その後に選択する変数名を含めるオプションがあります。
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
-> [!NOTE]
-> 変数名の前に $ 記号を付けないでください。$RegistrationTest ではなく、RegistrationTest のような変数名を使用します。
+> [!NOTE]  
+> 変数名の先頭に $ 文字を付けないでください。 RegistrationTest などの変数名を使用しますが、$RegistrationTest は使用しないでください。
 
-
-前記のコマンドは、以下のような内容を出力します。
+上のコマンドを実行すると、次のような内容が出力されます。
 
     Target Fqdn   : atl-cs-001.litwareinc.com
     Result        : Failure
@@ -57,7 +76,7 @@ Microsoft Lync Server 2013では、代理トランザクションは、高機能
     Error Message : This machine does not have any assigned certificates.
     Diagnosis     :
 
-実際には、この障害については、上記のエラー メッセージだけでなく、より詳細な情報を参照できます。この情報に HTML 形式でアクセスするには、以下のようなコマンドを使用して、変数 RegistrationTest に保存された情報を HTML ファイルに保存します。
+ただし、このエラーには、上に示したエラーメッセージだけでなく、さらに詳細な情報が記載されています。 HTML 形式でその情報にアクセスするには、次のようなコマンドを使用して、変数 RegistrationTest に保存されている情報を HTML ファイルに保存します。
 
     $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 
@@ -65,12 +84,19 @@ Microsoft Lync Server 2013では、代理トランザクションは、高機能
 
     $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
-これらのファイルは、Internet Explorer、Visual Studio、またはその他すべての HTML/XML ファイルを開けるアプリケーションで表示できます。
+これらのファイルは、Internet Explorer、Visual Studio、または HTML/XML ファイルを開くことができるその他のアプリケーションを使って表示できます。
 
-System Center Operations Manager の内側から実行された代理トランザクションは、障害が発生した場合、これらのログ ファイルを自動的に生成します。しかし、これらのログは、Windows PowerShell が読み込まれて、代理トランザクションを行う前に、実行が失敗した場合、生成されません。
+System Center Operations Manager の内部で実行される代理トランザクションでは、エラーのログファイルが自動的に生成されます。 ただし、Windows PowerShell が代理トランザクションを読み込んで実行できない場合は、これらのログは生成されません。
+
+> [!IMPORTANT]  
+> 既定では、Lync Server 2013 は共有されていないフォルダーにログファイルを保存します。 これらのログにアクセスできるようにするには、このフォルダーを共有\\ \\する必要があります (例: litwareinc com\WatcherNode.
 
 
-> [!IMPORTANT]
-> 既定で、Lync Server 2013は、共有されていないフォルダーにログ ファイルを保存します。これらのログにすぐにアクセスできるように、このフォルダーを共有する必要があります (たとえば、\\\\atl-watcher-001.litwareinc.com\WatcherNode)。
+</div>
 
+</div>
+
+</div>
+
+</div>
 

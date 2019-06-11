@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing Unified Contact Store access'
+---
+title: 'Lync Server 2013: ユニファイド連絡先ストアへのアクセスのテスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing Unified Contact Store access
 ms:assetid: 761f46bd-2e14-4f40-82b9-afa1eaa816b0
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn727309(v=OCS.15)
-ms:contentKeyID: 62388710
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727309(v=OCS.15)
+ms:contentKeyID: 63969621
+ms.date: 05/16/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: ef1d8d8930b9e732faeef02c76d722331c726b67
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848409"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing Unified Contact Store access in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-05-15_
+# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Lync Server 2013 での統合連絡先ストアへのアクセスのテスト
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2015-05-15_
 
 
 <table>
@@ -23,105 +43,135 @@ _**トピックの最終更新日:** 2015-05-15_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>[毎日]</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsUnifiedContactStore</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、 <strong>CsUnifiedContactStore</strong>コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUnifiedContactStore&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The unified contact store introduced in Lync Server 2013 gives administrators the option of storing a user's contacts in Microsoft Exchange Server 2013 instead of in Lync Server. This allows the user to access the same set of contacts in Outlook Web Access in addition to Lync 2013. (Or, you can continue to store contacts in Lync Server. In that case, users will have to maintain two separate sets of contacts: one for use with Outlook and Outlook Web Access, and one for use with Lync 2013.)
+## <a name="description"></a>説明
 
-You can determine whether or not a user's contacts were moved to the unified contact store by running the **Test-CsUnifiedContactStore** cmdlet. The **Test-CsUnifiedContactStore** cmdlet will take the specified user account, connect to the unified contact store, and attempt to retrieve a contact for the user. If no contacts can be retrieved then the command will fail together with the message "No contacts were received for the user. Verify that contacts exist for the user."
+Lync Server 2013 で導入された統合連絡先ストアでは、管理者はユーザーの連絡先を Lync Server ではなく Microsoft Exchange Server 2013 に保存するオプションが提供されます。 これにより、ユーザーは Lync 2013 だけでなく、Outlook Web Access でも同じ連絡先のセットにアクセスできるようになります。 (または、引き続き Lync Server に連絡先を保存することができます。 この場合、ユーザーは、Outlook と Outlook Web Access で使用するためと Lync 2013 で使用するために、2つの別々の連絡先を管理する必要があります。
 
-Note that the **Test-CsUnifiedContactStore** cmdlet will fail if the user has successfully migrated to the unified contact store but has no contacts on his or her Contacts list. The specified user must have at least one contact for the **Test-CsUnifiedContactStore** cmdlet to complete successfully.
+**CsUnifiedContactStore**コマンドレットを実行することで、ユーザーの連絡先がユニファイド連絡先ストアに移動されたかどうかを確認できます。 **CsUnifiedContactStore**コマンドレットは、指定されたユーザーアカウントを受け取り、ユニファイド連絡先ストアに接続して、ユーザーの連絡先を取得しようとします。 連絡先を取得できない場合、コマンドは "ユーザーの連絡先は受信されませんでした" というメッセージと共に失敗します。 ユーザーに対して連絡先が存在することを確認します。 "
 
-## Running the test
+ユーザーが統合された連絡先ストアに正常に移行したが、連絡先リストに連絡先がない場合は、 **CsUnifiedContactStore**コマンドレットが失敗します。 指定したユーザーは、 **CsUnifiedContactStore**コマンドレットを正常に完了するために、少なくとも1つの連絡先を持っている必要があります。
 
-The commands shown in in the following example determine whether contacts for the user litwareinc\\kenmyer can be found in the unified contact store. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credentials object for the user litwareinc\\kenmyer. Note that you must supply the password for this account to create a valid credentials object and to make sure that the **Test-CsUnifiedContactStore** cmdlet can run its check.
+</div>
 
-The second command in the example uses the supplied credentials object ($x) and the SIP address of the user litwareinc\\kenmyer to determine whether his contacts can be found in the unified contact store.
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+次の例に示すコマンドは、ユーザー litwareinc\\kenmyer の連絡先がユニファイド連絡先ストアで見つかるかどうかを決定します。 これを行うには、この例の最初のコマンドでは、 **Credential**コマンドレットを使って、user litwareinc\\kenmyer の Windows PowerShell コマンドラインインターフェイスの credentials オブジェクトを作成します。 有効な資格情報オブジェクトを作成し、 **CsUnifiedContactStore**コマンドレットでチェックを実行できるようにするには、このアカウントのパスワードを指定する必要があることに注意してください。
+
+この例の2番目のコマンドでは、指定された資格情報オブジェクト ($x) と\\ユーザーの litwareinc KENMYER の SIP アドレスを使って、自分の連絡先がユニファイド連絡先ストアで見つかるかどうかを確認します。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsUnifiedContactStore -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-## Determining success or failure
+</div>
 
-If access to the contact store is configured correctly, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-Result : Success
+連絡先ストアへのアクセスが適切に構成されている場合は、次のような結果が返され、Result プロパティは Success とマークされ**ます。**
 
-Latency : 00:00:14.9862716
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Error Message :
+結果: 成功
 
-Diagnosis :
+待ち時間:00:00: 14.9862716
 
-If access to the contact store is not configured correctly, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+エラーメッセージ:
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+診断
 
-domain name (FQDN). Using default Registrar port number. Exception:
+連絡先ストアへのアクセスが正しく構成されていない場合は、結果が**失敗**として表示され、エラーと診断のプロパティに追加の情報が記録されます。
 
-System.InvalidOperationException: No matching cluster found in topology.
+警告: 指定した完全修飾のレジストラーポート番号の読み取りに失敗しました
 
-at
+ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 エラー
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+InvalidOperationException: トポロジで一致するクラスターが見つかりませんでした。
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+自宅
 
-Target Fqdn : atl-cs-001.litwareinc.com
+SipSyntheticTransaction-TryRetri の同期を行います。
 
-Result : Failure
+eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Latency : 00:00:00
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+結果: エラー
 
-did not properly respond after a period of time, or
+待ち時間: 00:00:00
 
-established connection failed because connected host has
+エラーメッセージ: 10060、接続されているパーティのため、接続に失敗しました
 
-failed to respond 10.188.116.96:5061
+一定の期間が経過した後に正しく応答しなかった場合、または
 
-Inner Exception:A connection attempt failed because the
+接続されているホストに、接続に失敗しました
 
-connected party did not properly respond after a period of
+10.188.116.96 に応答できませんでした: 5061
 
-time, or established connection failed because connected host
+内部例外: 接続の試行が失敗したため、接続できませんでした。
 
-has failed to respond 10.188.116.96:5061
+しばらくしても、接続されているパーティが正しく応答しませんでした
 
-Diagnosis :
+接続されているホストが原因で、時刻、または接続に失敗しました
 
-## Reasons why the test might have failed
+さんが10.188.116.96 に応答できませんでした: 5061
 
-Here are some common reasons why **Test-CsUnifiedContactStore** might fail:
+診断
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - Connect to the unified contact store failed, and the attempt to retrieve a contact for the user was not possible. There may be network connectivity issues.
+<div>
 
-## 関連項目
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
 
-#### その他のリソース
+次に **、テスト-CsUnifiedContactStore**が失敗する可能性がある一般的な理由を示します。
 
-[New-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUserServicesPolicy)  
-[Set-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserServicesPolicy)
+  - 指定されたパラメーター値が正しくありません。 使用する場合は、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。 省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
+
+  - ユニファイド連絡先ストアに接続できませんでした。ユーザーの連絡先を取得しようとしましたが、できませんでした。 ネットワーク接続に問題がある可能性があります。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[New-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)  
+[Set-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

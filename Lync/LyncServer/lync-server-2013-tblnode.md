@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblNode'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblNode
 ms:assetid: a31d2961-aa83-4286-a12e-15d279c95f19
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615024(v=OCS.15)
-ms:contentKeyID: 48273047
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615024(v=OCS.15)
+ms:contentKeyID: 48184960
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 84bf7cf57f9890093a56deb2e0769b82e92aa0ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848597"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の tblNode
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblnode-in-lync-server-2013"></a>Lync Server 2013 の tblNode
 
-tblNode には、 Lync Server 2013 コントロール パネルおよび管理コマンドレットで管理されているオブジェクト ツリー (カテゴリ ノードまたはチャット ルーム ノードを持つ) が含まれています。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-12_
+
+tblNode には、Lync Server 2013 コントロールパネルと管理コマンドレットで管理されるオブジェクトツリー (カテゴリまたはチャットルームノードを含む) が含まれています。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -35,60 +55,60 @@ tblNode には、 Lync Server 2013 コントロール パネルおよび管理�
 <tbody>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>NULL でない int</p></td>
+<td><p>int (null ではない)</p></td>
 <td><p>ノード ID (一意の番号)。</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeGuid</p></td>
-<td><p>NULL でない GUID</p></td>
+<td><p>GUID、null ではない</p></td>
 <td><p>ノード GUID。</p></td>
 </tr>
 <tr class="odd">
 <td><p>parentID</p></td>
 <td><p>int</p></td>
-<td><p>親のノード ID。ルート ノード (ID 1) にもそれ自体が親として含まれます。</p></td>
+<td><p>親のノード ID。 ルートノード (ID 1 の) には、それ自体も親として含まれています。</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeType</p></td>
-<td><p>NULL でない bit</p></td>
-<td><p>ノードがカテゴリの場合は、True。</p>
-<p>ノードがチャット ルームの場合は、False。</p></td>
+<td><p>ビット、null ではない</p></td>
+<td><p>ノードがカテゴリの場合は True です。</p>
+<p>ノードがチャットルームの場合は False です。</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeName</p></td>
-<td><p>NULL でない nvarchar (256)</p></td>
+<td><p>nvarchar (256)、null ではない</p></td>
 <td><p>ノード名。</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeDesc</p></td>
-<td><p>NULL でない nvarchar (256)</p></td>
+<td><p>nvarchar (256)、null ではない</p></td>
 <td><p>ノードの説明。</p></td>
 </tr>
 <tr class="odd">
-<td><p>invite</p></td>
+<td><p>召集</p></td>
 <td><p>bit</p></td>
 <td><p>カテゴリの場合:</p>
 <ul>
-<li><p>招待がオンの場合は、True。</p></li>
-<li><p>招待がオフの場合は、False。</p></li>
+<li><p>招待がオンの場合は True です。</p></li>
+<li><p>招待がオフの場合は False です。</p></li>
 </ul>
-<p>ルームの場合:</p>
+<p>会議室の場合:</p>
 <ul>
-<li><p>招待がオフの場合は、False (親カテゴリが上書きされます)。</p></li>
-<li><p>招待の設定が親カテゴリから継承される場合は、NULL。</p></li>
+<li><p>[招待] がオフの場合は False です (親カテゴリを上書きします)。</p></li>
+<li><p>招待設定が親カテゴリから継承されている場合は Null です。</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>logged</p></td>
+<td><p>ログ</p></td>
 <td><p>bit</p></td>
 <td><p>カテゴリの場合:</p>
 <ul>
-<li><p>チャット履歴がオンの場合は、True。</p></li>
-<li><p>チャット履歴がオフの場合は、False。</p></li>
+<li><p>チャット履歴がオンの場合は True です。</p></li>
+<li><p>チャット履歴がオフの場合は False です。</p></li>
 </ul>
-<p>ルームの場合:</p>
+<p>会議室の場合:</p>
 <ul>
-<li><p>Null。</p></li>
+<li><p>空.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -96,81 +116,81 @@ tblNode には、 Lync Server 2013 コントロール パネルおよび管理�
 <td><p>bit</p></td>
 <td><p>カテゴリの場合:</p>
 <ul>
-<li><p>ファイルのアップロードが許可される場合は、True。</p></li>
-<li><p>ファイルのアップロードが許可されない場合は、False。</p></li>
+<li><p>ファイルのアップロードが許可されている場合は True です。</p></li>
+<li><p>ファイルのアップロードが許可されていない場合は False です。</p></li>
 </ul>
-<p>ルームの場合:</p>
+<p>会議室の場合:</p>
 <ul>
-<li><p>Null。</p></li>
+<li><p>空.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>disabled</p></td>
-<td><p>NULL でない bit</p></td>
-<td><p>チャット ルームが無効化されている場合は、True。チャット ルームにのみ適用されます。(カテゴリでは False)</p></td>
+<td><p>無効に</p></td>
+<td><p>ビット、null ではない</p></td>
+<td><p>チャットルームが無効になっている場合は True です。 チャットルームにのみ適用されます。 (カテゴリの場合は False)。</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>behavior</p></td>
-<td><p>NULL でない smallint</p></td>
-<td><p>動作 (EnumValue テーブルで検索):</p>
+<td><p>状況</p></td>
+<td><p>smallint (null ではない)</p></td>
+<td><p>動作 (EnumValue テーブルでの検索):</p>
 <ul>
-<li><p>4: 標準 (標準チャット ルーム)。</p></li>
-<li><p>5: 大会議室 (大会議室のチャット ルーム、発表者のみが投稿可能)。</p></li>
+<li><p>4: 標準 (通常のチャットルーム)。</p></li>
+<li><p>5: 聴衆 (聴衆チャットルーム、発表者のみが投稿できます)。</p></li>
 </ul>
-<p>チャット ルームにのみ適用されます。</p></td>
+<p>チャットルームにのみ適用されます。</p></td>
 </tr>
 <tr class="odd">
-<td><p>visibility</p></td>
-<td><p>NULL でない smallint</p></td>
-<td><p>表示設定 (EnumValue テーブルで検索):</p>
+<td><p>明確化</p></td>
+<td><p>smallint (null ではない)</p></td>
+<td><p>Visibility (EnumValue テーブル上で検索される):</p>
 <ul>
 <li><p>2: プライベート</p></li>
-<li><p>3: スコープ内</p></li>
-<li><p>6: オープン</p></li>
+<li><p>3: 範囲</p></li>
+<li><p>6: 開く</p></li>
 </ul>
-<p>チャット ルームにのみ適用されます。</p></td>
+<p>チャットルームにのみ適用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>siopID</p></td>
 <td><p>GUID</p></td>
-<td><p>このチャット ルームにアドインが関連付けられている場合は、アドインの GUID (カテゴリはアドインを持たない)。</p>
-<p>アドインの情報は SiopWhiteList テーブルで検索されます。</p></td>
+<td><p>アドインがこのチャットルームに関連付けられている場合は、アドインの GUID。 (カテゴリにはアドインがありません。)</p>
+<p>アドイン情報は、SiopWhiteList リスト表で検索されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeAddedBy</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>このノードを作成した プリンシパルの ID。</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>このノードを作成したプリンシパルの ID です。</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeAddedOn</p></td>
-<td><p>NULL でない bigint</p></td>
-<td><p>ノード作成のタイム スタンプ。</p></td>
+<td><p>bigint (null ではない)</p></td>
+<td><p>ノードの作成のタイムスタンプ。</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeUpdatedBy</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>このノードの最新更新を行ったプリンシパルの ID。</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>このノードの最新の更新を実行したプリンシパルの ID です。</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeUpdatedOn</p></td>
-<td><p>NULL でない bigint</p></td>
-<td><p>このノードの最新更新のタイム スタンプ。</p></td>
+<td><p>bigint (null ではない)</p></td>
+<td><p>このノードの最新の更新プログラムのタイムスタンプです。</p></td>
 </tr>
 <tr class="odd">
 <td><p>purgedOn</p></td>
 <td><p>datetime</p></td>
-<td><p>このノードに影響する最新のパージ操作 (スコープを tblScopedPrincipal テーブルから削除し、さらにロールを tblPrincipalRole テーブルから削除する) の時刻。これはチャット サービスの内部キャッシュ更新機構で使われます。</p></td>
+<td><p>このノードに影響を与える最新の消去操作 (tblScopedPrincipal テーブルと tblPrincipalRole テーブルからのスコープの削除) の時間。 これは、チャットサービスの内部キャッシュ更新メカニズムによって使用されます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="keys"></a>機能
 
 <table>
 <colgroup>
@@ -189,21 +209,32 @@ tblNode には、 Lync Server 2013 コントロール パネルおよび管理�
 <td><p>主キー。</p></td>
 </tr>
 <tr class="even">
-<td><p>behavior</p></td>
-<td><p>tblEnumValue.valueID テーブルを参照する外部キー。</p></td>
+<td><p>状況</p></td>
+<td><p>TblEnumValue Id テーブルで参照される外部キー。</p></td>
 </tr>
 <tr class="odd">
-<td><p>visibility</p></td>
-<td><p>tblEnumValue.valueID テーブルを参照する外部キー。</p></td>
+<td><p>明確化</p></td>
+<td><p>TblEnumValue Id テーブルで参照される外部キー。</p></td>
 </tr>
 <tr class="even">
 <td><p>parentID</p></td>
-<td><p>tblNode.nodeID テーブルを参照する外部キー。</p></td>
+<td><p>TblNode テーブルで参照される外部キー。</p></td>
 </tr>
 <tr class="odd">
 <td><p>siopID</p></td>
-<td><p>tblSiopWhiteList.siopId テーブルを参照する外部キー。</p></td>
+<td><p>TblSiopWhiteList テーブルで参照する外部キー。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

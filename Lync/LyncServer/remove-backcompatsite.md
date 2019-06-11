@@ -1,47 +1,81 @@
-﻿---
-title: BackCompatSite の削除
-TOCTitle: BackCompatSite の削除
-ms:assetid: 039650e3-541b-45c2-a682-c4fa08423118
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204637(v=OCS.15)
-ms:contentKeyID: 48271108
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: BackCompatSite を削除する
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove BackCompatSite
+ms:assetid: 039650e3-541b-45c2-a682-c4fa08423118
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204637(v=OCS.15)
+ms:contentKeyID: 48183265
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fe6a3d1dc92e45bc99892e7827394376b6f28b12
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847964"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# BackCompatSite の削除
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-28_
+# <a name="remove-backcompatsite"></a>BackCompatSite を削除する
 
-すべてのプールを非アクティブ化し、すべてのエッジ サーバーをアンインストールした後、トポロジ ビルダー結合ウィザードを実行して、\[**BackCompatSite**\] を削除します。
+</div>
 
-## トポロジ ビルダーで BackCompat サイトを削除するには
+<div id="mainSection">
 
-1.  トポロジ ビルダーから既存の展開を開きます。
+<div id="mainBody">
 
-2.  \[**操作**\] メニューの \[**Office Communications Server 2007 R2 トポロジのマージ**\] をクリックします。
+<span> </span>
 
-3.  \[**次へ**\] をクリックして続行します。
+_**最終更新日:** 2012-09-28_
 
-4.  \[**レガシ エッジの指定**\] ページで、エッジ サーバーの一覧が空になっていることを確認します。一覧が空でない場合は、\[**削除**\] ボタンを使用してすべてのレガシ エッジ サーバーを削除し、\[**次へ**\] をクリックします。
+すべてのプールが非アクティブ化され、すべてのエッジサーバーがアンインストールされたら、トポロジビルダーの結合ウィザードを実行して、 **BackCompatSite**を削除します。
+
+<div>
+
+## <a name="to-remove-backcompat-site-from-topology-builder"></a>Topology Builder から BackCompat サイトを削除するには
+
+1.  トポロジビルダーから既存の展開を開きます。
+
+2.  [**操作**] メニューで、[ **2007 R2 トポロジのマージ**] をクリックします。
+
+3.  [**次へ**] をクリックして続行します。
+
+4.  [**レガシ edge の指定**] ページで、エッジサーバーの一覧が空であることを確認します。 リストが空でない場合は、[**削除**] ボタンを使用して、すべてのレガシーエッジサーバーを削除してから、[**次へ**] をクリックします。
     
-    ![トポロジのマージ ウィザード、\[エッジ セットアップの指定\] ページ](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "トポロジのマージ ウィザード、[エッジ セットアップの指定] ページ")  
+    ![トポロジの結合ウィザード、[Edge セットアップ] ページを指定する](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "トポロジの結合ウィザード、[Edge セットアップ] ページを指定する")  
 
-5.  \[**内部 SIP ポートの指定**\] ページで、\[**次へ**\] をクリックします。
+5.  [**内部 SIP ポート設定の指定**] ページで、[**次へ**] をクリックします。
 
-6.  \[**概要**\] ページで、\[**次へ**\] をクリックして、レガシ サイトを削除するためのトポロジのマージを開始します。
+6.  [**概要**] ページで、[**次**へ] をクリックして、トポロジの結合を開始して、従来のサイトを削除します。
 
-7.  \[**状態**\] 列の値が " **成功**" になっていることを確認し、\[**完了**\] をクリックしてウィザードを閉じます。
+7.  [**状態**] 列で、値が**成功**していることを確認し、[**完了**] をクリックしてウィザードを閉じます。
 
-8.  トポロジ ビルダーの左側のウィンドウで \[BackCompatSite\] を展開し、サーバーが表示されないことを確認します。
+8.  [Topology Builder] の左側のウィンドウで、[BackCompatSite] を展開して、サーバーが一覧に表示されていないことを確認します。
 
-9.  \[**BackCompatSite**\] を右クリックし、\[**削除**\] をクリックします。
+9.  **BackCompatSite**を右クリックし、[**削除**] をクリックします。
 
-10. **トポロジ ビルダー**で、最上位ノードの \[**Lync Server**\] を選択します。
+10. [**トポロジビルダー**] で、トップノードの**Lync Server**を選択します。
 
-11. \[**操作**\] メニューの \[**トポロジの公開**\] を選択し、\[**次へ**\] をクリックします。
+11. [**アクション**] メニューで、[**発行トポロジ**] を選択し、[**次へ**] をクリックします。
 
-12. **公開ウィザード**の実行が完了したら、\[**完了**\] をクリックしてウィザードを閉じます。
+12. **発行ウィザード**が完了したら、[**完了**] をクリックしてウィザードを閉じます。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

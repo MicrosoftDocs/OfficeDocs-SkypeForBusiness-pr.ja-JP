@@ -1,23 +1,43 @@
-﻿---
-title: UCWA イベント
-TOCTitle: UCWA イベント
-ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ945621(v=OCS.15)
-ms:contentKeyID: 52056557
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: UCWA イベント'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UCWA events
+ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945621(v=OCS.15)
+ms:contentKeyID: 51541461
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d0671b51e5fbd4b5f072676855d9e8f5201b3e04
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848381"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# UCWA イベント
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="ucwa-events-in-lync-server-2013"></a>Lync Server での UCWA 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-15_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 は、Microsoft Exchange にアクセスして連絡先を検索することから、モバイル クライアントのプレゼンスを更新することまで、さまざまな目的で統合コミュニケーション Web API を使用します。
+Lync Server 2013 は、Microsoft Exchange に連絡して、モバイルクライアントのプレゼンスを更新するなど、さまざまな目的で、ユニファイドコミュニケーション Web API (UCWA) を使用します。
 
 UCWA は、実行動作の記録を、"情報"、"警告"、および "エラー" のイベントの種類として書き込みます。次の表に、UCWA コンポーネントによって書き込まれる可能性があるイベントを示します。
 
@@ -33,8 +53,8 @@ UCWA は、実行動作の記録を、"情報"、"警告"、および "エラー
 <tr class="header">
 <th>イベント ID</th>
 <th>イベントの種類</th>
-<th>要約</th>
-<th>原因および解決策</th>
+<th>概要</th>
+<th>原因と解決策</th>
 </tr>
 </thead>
 <tbody>
@@ -42,8 +62,8 @@ UCWA は、実行動作の記録を、"情報"、"警告"、および "エラー
 <td><p>20001</p></td>
 <td><p>情報</p></td>
 <td><p>UCWA が初期化されました</p></td>
-<td><p>該当なし</p>
-<p>該当なし</p></td>
+<td><p>N/A</p>
+<p>N/A</p></td>
 </tr>
 <tr class="even">
 <td><p>20002</p></td>
@@ -70,7 +90,7 @@ UCWA は、実行動作の記録を、"情報"、"警告"、および "エラー
 <td><p>20005</p></td>
 <td><p>情報</p></td>
 <td><p>Exchange の HD 写真にアクセスできないエラーから復旧しました</p></td>
-<td><p>該当なし</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="even">
 <td><p>20006</p></td>
@@ -83,20 +103,20 @@ UCWA は、実行動作の記録を、"情報"、"警告"、および "エラー
 <td><p>20007</p></td>
 <td><p>情報</p></td>
 <td><p>Exchange の連絡先を検索できないエラーから復旧しました</p></td>
-<td><p>該当なし</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="even">
 <td><p>20008</p></td>
 <td><p>警告</p></td>
-<td><p>アプリケーションごとの許容数を超えるプレゼンス サブスクリプションの登録が試みられました</p></td>
-<td><p>アプリケーションごとの許容数を超えるプレゼンス サブスクリプションの登録が試みられました</p>
+<td><p>アプリケーションごとの許容数を超えるプレゼンス サブスクリプションの登録が試行されました</p></td>
+<td><p>アプリケーションごとの許容数を超えるプレゼンス サブスクリプションの登録が試行されました</p>
 <p>クライアントに不要なサブスクリプションがないかどうかを確認します</p></td>
 </tr>
 <tr class="odd">
 <td><p>20009</p></td>
 <td><p>警告</p></td>
-<td><p>バッチごとの許容数を超えるプレゼンス サブスクリプションの登録が試みられました</p></td>
-<td><p>バッチごとの許容数を超えるプレゼンス サブスクリプションの登録が試みられました</p>
+<td><p>バッチごとの許容数を超えるプレゼンス サブスクリプションの登録が試行されました</p></td>
+<td><p>バッチごとの許容数を超えるプレゼンス サブスクリプションの登録が試行されました</p>
 <p>クライアントに不要なサブスクリプションがないかどうかを確認します</p></td>
 </tr>
 <tr class="even">
@@ -131,7 +151,7 @@ UCWA は、実行動作の記録を、"情報"、"警告"、および "エラー
 <td><p>20014</p></td>
 <td><p>情報</p></td>
 <td><p>IM MCU に接続できないエラーから復旧しました</p></td>
-<td><p>該当なし</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>20015</p></td>
@@ -144,7 +164,7 @@ UCWA は、実行動作の記録を、"情報"、"警告"、および "エラー
 <td><p>20016</p></td>
 <td><p>情報</p></td>
 <td><p>AV MCU に接続できないエラーから復旧しました</p></td>
-<td><p>該当なし</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>20017</p></td>
@@ -170,7 +190,7 @@ UCWA は、実行動作の記録を、"情報"、"警告"、および "エラー
 <td><p>20020</p></td>
 <td><p>情報</p></td>
 <td><p>データ MCU に接続できないエラーから復旧しました</p></td>
-<td><p>該当なし</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>20021</p></td>
@@ -222,4 +242,15 @@ UCWA は、実行動作の記録を、"情報"、"警告"、および "エラー
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

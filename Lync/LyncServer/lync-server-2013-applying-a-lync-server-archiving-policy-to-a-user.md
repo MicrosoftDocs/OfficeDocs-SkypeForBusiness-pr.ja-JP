@@ -1,45 +1,88 @@
-﻿---
-title: ユーザーへの Lync Server アーカイブ ポリシーの適用
-TOCTitle: ユーザーへの Lync Server アーカイブ ポリシーの適用
-ms:assetid: a23e4876-aa8d-4f49-a3bd-3696616e8290
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205143(v=OCS.15)
-ms:contentKeyID: 48273040
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server のアーカイブポリシーをユーザーに適用する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Applying a Lync Server Archiving policy to a user
+ms:assetid: a23e4876-aa8d-4f49-a3bd-3696616e8290
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205143(v=OCS.15)
+ms:contentKeyID: 48185024
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 295f1a0370372d937b07a38eab51cd43d0ef9f5c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848818"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ユーザーへの Lync Server アーカイブ ポリシーの適用
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-10_
+# <a name="applying-a-lync-server-archiving-policy-to-a-user-in-lync-server-2013"></a>Lync server 2013 でユーザーに Lync Server のアーカイブポリシーを適用する
 
-Lync Server ユーザー ポリシーを作成したら、それを有効にする前に、Lync Server 2013 に所属する特定のユーザーまたはユーザー グループに適用する必要があります。特定のユーザー用のユーザー ポリシーの作成の詳細については、「展開」のドキュメントの「[Lync Server でのアーカイブ用のユーザー ポリシーの作成と構成](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md)」を参照してください。
+</div>
 
-グローバル ポリシー、サイト ポリシー、ユーザー ポリシーの階層を含むアーカイブ ポリシーのしくみの詳細については、「計画」、「展開」、または「操作」のドキュメントの「[Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」 を参照してください。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-10_
+
+Lync Server ユーザーポリシーを作成した後、有効にする前に、Lync Server 2013 上に置かれている特定のユーザーまたはユーザーグループに適用する必要があります。 特定のユーザーのユーザーポリシーの作成について詳しくは、「展開ドキュメントの[Lync Server 2013 でアーカイブ用のユーザーポリシーを作成して構成](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md)する」をご覧ください。
+
+グローバル、サイト、ユーザーのポリシーの階層など、アーカイブポリシーの動作について詳しくは、「計画ドキュメント、展開ドキュメント、または操作のドキュメント」の「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)」をご覧ください。
+
+<div>
+
 
 > [!NOTE]  
-> アーカイブを構成して使用するためには、まずアーカイブを展開する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-deploying-archiving.md">Lync Server 2013 でのアーカイブの展開</a>」を参照してください。<br />
-> 展開で Microsoft Exchange の統合を有効にした場合、Exchange 2013 に所属し、メールボックスがインプレース保持になっているユーザーに対してアーカイブが有効となるかどうかが Exchange のインプレース保持ポリシーによって制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。<br />
-> アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-archiving-options.md">アーカイブ オプションの構成</a>」を参照してください。
+> アーカイブを構成して使用するためには、まずアーカイブを展開する必要があります。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-deploying-archiving.md">Lync Server 2013 でのアーカイブの展開</A>」を参照してください。<BR>展開に対して Microsoft Exchange の統合を有効にしている場合、Exchange 2013 を使っているユーザーに対してアーカイブが有効になっているかどうか、およびそのメールボックスがインプレースホールドに組み込まれているかどうかを Exchange のインプレースホールドポリシーで制御します。 詳細については、展開ドキュメントで<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server との統合を使用する場合の「Lync server 2013 でアーカイブするためのポリシーを設定する</A>」を参照してください。<BR>アーカイブを有効にする前に、アーカイブ構成ですべての適切なオプションを指定する必要があります。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 でアーカイブオプションを構成する</A>」を参照してください。
 
 
-## Lync Server アーカイブ ポリシーをユーザーに適用するには
+
+</div>
+
+<div>
+
+## <a name="to-apply-a-lync-server-archiving-policy-to-a-user"></a>Lync Server のアーカイブポリシーをユーザーに適用するには
 
 1.  CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server 2013 コントロール パネルを開きます。Lync Server 2013 コントロール パネルを起動するさまざまな方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server 2013 コントロールパネルを開きます。 Lync Server 2013 コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**ユーザー**\] をクリックして、構成するユーザー アカウントを検索します。
+3.  左側のナビゲーション バーで [**ユーザー**] をクリックして、構成するユーザー アカウントを検索します。
 
-4.  検索結果一覧の表でユーザー アカウントをクリックし、\[**編集**\] をクリックして、\[**詳細の表示**\] をクリックします。
+4.  検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-5.  \[**Lync Server ユーザーの編集**\] の \[**アーカイブ ポリシー**\] で、適用するアーカイブ ユーザー ポリシーを選択します。
+5.  [**アーカイブポリシー**] の [ **Lync Server ユーザーの編集**] で、適用するアーカイブユーザーポリシーを選択します。
     
-    > [!NOTE]
-    > [<strong>&lt;自動&gt;</strong>] 設定では、既定のサーバー インストールの設定が適用されます。 これらの設定はサーバーにより自動的に適用されます。
+    <div>
+    
 
+    > [!NOTE]  
+    > <STRONG> &lt;自動&gt; </STRONG>設定では、既定のサーバーインストール設定が適用されます。 これらの設定はサーバーにより自動的に適用されます。
 
-6.  \[**確定**\] をクリックします。
+    
+    </div>
+
+6.  [**コミット**] をクリックします。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

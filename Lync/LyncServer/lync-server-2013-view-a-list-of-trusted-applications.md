@@ -1,45 +1,83 @@
-﻿---
-title: 信頼されたアプリケーションの一覧の表示
-TOCTitle: 信頼されたアプリケーションの一覧の表示
-ms:assetid: f09300b3-67cf-4e70-a51a-23d62479b913
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg182604(v=OCS.15)
-ms:contentKeyID: 48274070
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 信頼できるアプリケーションの一覧を表示する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View a list of trusted applications
+ms:assetid: f09300b3-67cf-4e70-a51a-23d62479b913
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182604(v=OCS.15)
+ms:contentKeyID: 48185844
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 23866bfbc437d87911a84d065ae7f501c7d80466
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848216"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 信頼されたアプリケーションの一覧の表示
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-21_
+# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a>Lync Server 2013 で信頼済みアプリケーションの一覧を表示する
 
-Lync Server 2013 コントロール パネルを使用して、Lync Server 2013 環境で展開した信頼されたアプリケーションの一覧を表示できます。信頼されたアプリケーションとは、Lync Server 2013 が信頼する Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK に基づくアプリケーションのことです。この信頼関係は、次のように要約されます。
+</div>
 
-  - 信頼されたアプリケーションは、Lync Server による認証でチャレンジされません。
+<div id="mainSection">
 
-  - 信頼されたアプリケーションは、SIP トランザクション、接続、または発信側のボイス オーバー IP (VoIP) 通話の場合に、Lync Server によって制限されません。
+<div id="mainBody">
 
-  - 信頼されたアプリケーションは、任意のユーザーの代理となり、名簿に記載されなくても会議に参加できます。
+<span> </span>
 
-  - 信頼されたアプリケーションは、高い可用性と復元性を示します。
+_**最終更新日:** 2012-09-21_
 
-Lync Server コントロール パネル では、アプリケーションの名前、アプリケーションが実行されるプール、およびアプリケーションが使用するポートを表示できます。
+Lync Server 2013 コントロールパネルを使用して、Lync Server 2013 環境に展開した信頼済みアプリケーションの一覧を表示することができます。 信頼されたアプリケーションは、Lync Server 2013 によって信頼されている Microsoft ユニファイドコミュニケーションマネージ API (UCMA) 3.0 コア SDK に基づくアプリケーションです。 この信頼関係は、次の一覧にまとめられています。
 
-## 信頼されたアプリケーションの一覧を表示するには
+  - 信頼されたアプリケーションは、Lync Server による認証の対象にはなりません。
 
-1.  CsServerAdministrator、CsAdministrator、CsHelpDesk、または CsViewOnlyAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。Lync Server 2013 で使用できる定義済みの管理者の役割の詳細については、「[Lync Server 2013 での役割ベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。
+  - SIP トランザクション、接続、またはボイスオーバーインターネットプロトコル (VoIP) 通話の場合、信頼済みアプリケーションは Lync Server によって調整されません。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+  - 信頼されたアプリケーションは、選手名簿に表示されることなく、任意のユーザーを偽装し、会議に参加することができます。
 
-3.  左側のナビゲーション バーで \[**トポロジ**\] をクリックし、\[**信頼されたアプリケーション**\] をクリックします。
+  - 信頼性の高いアプリケーションは、高可用性と回復性を備えています。
 
-4.  \[**信頼されたアプリケーション**\] ページで、必要に応じて列の見出しをクリックし、アプリケーションを並べ替えます。
+Lync Server コントロールパネルには、アプリケーションの名前、実行されているプール、および使用しているポートが表示されます。
 
-## 関連項目
+<div>
 
-#### その他のリソース
+## <a name="to-view-a-list-of-trusted-applications"></a>信頼されているアプリケーションの一覧を表示するには
 
-[Lync Server 2013 トポロジの管理](lync-server-2013-managing-the-lync-server-topology.md)
+1.  CsServerAdministrator、CsAdministrator、CsHelpDesk、CsViewOnlyAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 Lync Server 2013 で利用できる定義済みの管理者ロールの詳細については、「 [Lync server 2013 でのロールベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。
+
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+
+3.  左側のナビゲーションバーで、[**トポロジ**] をクリックし、[**信頼済みアプリケーション**] をクリックします。
+
+4.  [**信頼済みアプリケーション**] ページで、必要に応じて、アプリケーションを並べ替える列見出しをクリックします。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 トポロジの管理](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

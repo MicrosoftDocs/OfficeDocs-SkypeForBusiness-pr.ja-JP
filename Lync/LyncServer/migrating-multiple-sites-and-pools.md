@@ -1,31 +1,61 @@
-﻿---
-title: 複数のサイトとプールの移行
-TOCTitle: 複数のサイトとプールの移行
-ms:assetid: a6d726d2-564d-4b39-a97c-5656a673292a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205165(v=OCS.15)
-ms:contentKeyID: 48273169
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 複数のサイトとプールの移行
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrating multiple sites and pools
+ms:assetid: a6d726d2-564d-4b39-a97c-5656a673292a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205165(v=OCS.15)
+ms:contentKeyID: 48185079
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c7759c52051dfe4ca4a46e105e6a33f3284f334e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848059"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 複数のサイトとプールの移行
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-17_
+# <a name="migrating-multiple-sites-and-pools"></a>複数のサイトとプールの移行
 
-Lync Server 2013 は、複数のサイトと複数のプールで構成される展開をサポートしています。 Lync Server 2010 から Lync Server 2013 に複数のプールを移行する場合は、次の点について検討する必要があります。
+</div>
 
-1.  Lync Server 2013 パイロット プールを展開した後、 Lync Server 2013 プールに移動するパイロット ユーザーのサブセットと、ユーザーの機能を検証する方法を定義する必要があります。たとえば、ユーザーをパイロット プールに移動した後、ユーザーの会議ポリシーが Lync Server 2013 に移動されたことを確認します。
+<div id="mainSection">
 
-2.  パイロット プールでのエッジ サーバーの展開後は、外部のユーザーが Lync Server 2013 プールと通信できることを確認する必要があります。
+<div id="mainBody">
 
-3.  フェデレーション ルートを Lync Server 2010 エッジ サーバーから Lync Server 2013 のパイロット エッジ サーバーに移行した後は、フェデレーション ユーザーが Lync Server 2013 プールと通信できることを確認する必要があります。
+<span> </span>
 
-4.  ユーザーおよびユーザー以外のすべての連絡先オブジェクトを移動した後、 Lync Server 2010 プールが空であることを確認する必要があります。
+_**最終更新日:** 2012-09-17_
 
-5.  Lync Server 2010 プールが空であることを確認した後、プールを非アクティブ化できます。
+Lync Server 2013 は、複数サイトと複数プールの展開をサポートしています。 複数のプールを Lync Server 2010 から Lync Server 2013 に移行するには、次の点を考慮する必要があります。
+
+1.  Lync Server 2013 パイロットプールを展開した後、Lync Server 2013 プールに移動されるパイロットユーザーのサブセットと、ユーザーの機能を検証するための方法を定義する必要があります。 たとえば、パイロットプールにユーザーを移動した後、ユーザーの会議ポリシーが Lync Server 2013 に移動されたことを確認します。
+
+2.  パイロットプールにエッジサーバーを展開した後、外部ユーザーが Lync Server 2013 プールと通信できることを検証する必要があります。
+
+3.  Lync Server 2010 エッジサーバーからのフェデレーションルートを試験的な Lync Server 2013 エッジサーバーに移行した後、フェデレーションされたユーザーが Lync Server 2013 プールと通信できることを検証する必要があります。
+
+4.  すべてのユーザーと非ユーザーの連絡先オブジェクトを移動した後、Lync Server 2010 プールが空であることを確認する必要があります。
+
+5.  Lync Server 2010 プールが空であることを確認した後、プールを非アクティブ化することができます。
     
-    従来の Lync Server 2010 プールおよびサーバーを非アクティブ化する方法の詳細については、「[フェーズ 8: 従来のプールの使用を停止する](phase-8-decommission-legacy-pools.md)」を参照してください。
+    従来の Lync Server 2010 プールとサーバーを非アクティブ化する方法について詳しくは、「[フェーズ 8: レガシプールの廃止](phase-8-decommission-legacy-pools.md)」をご覧ください。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

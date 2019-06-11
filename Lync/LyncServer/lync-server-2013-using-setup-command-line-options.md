@@ -1,25 +1,45 @@
-﻿---
-title: セットアップ コマンドライン オプションの使用
-TOCTitle: セットアップ コマンドライン オプションの使用
-ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205129(v=OCS.15)
-ms:contentKeyID: 48272936
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: セットアップコマンドラインオプションを使用する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Setup command-line options
+ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205129(v=OCS.15)
+ms:contentKeyID: 48184957
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5087c8ac777e5e2fd3259f925a4217a4d47dd800
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848270"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# セットアップ コマンドライン オプションの使用
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Lync Server 2013 でセットアップコマンドラインオプションを使用する
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-03_
 
 Setup.exe コマンド ラインは、Office セットアップの操作ではほとんど使用されません。製品のセットアップや機能のカスタマイズには、セットアップ コマンドライン オプションではなく Office カスタマイズ ツールと Config.xml ファイルを使用するのが一般的です。
 
 Office Setup.exe コマンド ラインは、次の表に示すコマンドライン オプションを認識します。
 
-### Office セットアップ コマンドライン オプション
+### <a name="office-setup-command-line-options"></a>Office セットアップ コマンドライン オプション
 
 <table>
 <colgroup>
@@ -43,23 +63,33 @@ Office Setup.exe コマンド ラインは、次の表に示すコマンドラ�
 </tr>
 <tr class="odd">
 <td><p>/config [パス]</p></td>
-<td><p>インストール時にセットアップで使用する Config.xml ファイルを指定します。/config オプションを使用して、Lync 2013 のインストール用にカスタマイズした Config.xml ファイルを指定します (例: <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code>)。</p></td>
+<td><p>インストール時にセットアップで使用する Config.xml ファイルを指定します。 次の例のように、[/config] オプションを使用して、Lync 2013 のインストール用にカスタマイズした Config.xml ファイルを指定します。<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
-<td><p>/modify Lync</p></td>
-<td><p>変更した Config.xml ファイルと共に使用して、セットアップをメンテナンス モードで実行して Office の既存のインストールを変更します。たとえば、/modify オプションを使用して Lync 機能を追加または削除できます。</p></td>
+<td><p>Lync/modify</p></td>
+<td><p>変更した Config.xml ファイルと共に使用して、セットアップをメンテナンス モードで実行して Office の既存のインストールを変更します。 たとえば、/modify オプションを使用して、Lync 機能を追加または削除することができます。</p></td>
 </tr>
 <tr class="odd">
-<td><p>/repair Lync</p></td>
+<td><p>Lync/repair</p></td>
 <td><p>ユーザーのコンピューターからセットアップを実行して Lync を修復します。</p></td>
 </tr>
 <tr class="even">
 <td><p>/uninstall Lync</p></td>
-<td><p>セットアップを実行してユーザーのコンピューターから Lync を削除します。</p></td>
+<td><p>セットアップを実行して、ユーザーのコンピューターから Lync を削除します。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-セットアップ コマンドライン オプションの使用の詳細については、[http://go.microsoft.com/fwlink/?linkid=267515\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=267515%26clcid=0x411) を参照してください。
+Setup コマンドラインオプションの使用について詳しくは、 <http://go.microsoft.com/fwlink/p/?linkid=267515>「」をご覧ください。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

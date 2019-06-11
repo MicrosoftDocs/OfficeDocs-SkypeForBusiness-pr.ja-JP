@@ -1,47 +1,88 @@
-﻿---
-title: フロントエンド プールまたは Standard Edition サーバーの削除
-TOCTitle: フロントエンド プールまたは Standard Edition サーバーの削除
-ms:assetid: 83c39a36-49a1-4ac6-9cc5-b0e441b1fdec
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688115(v=OCS.15)
-ms:contentKeyID: 49887030
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: フロントエンド プールまたは Standard Edition サーバーの削除
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove Front End pool or Standard Edition server
+ms:assetid: 83c39a36-49a1-4ac6-9cc5-b0e441b1fdec
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688115(v=OCS.15)
+ms:contentKeyID: 49733713
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a5a3b08d6e8b4f0b792063b19a47889de11283c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847962"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# フロントエンド プールまたは Standard Edition サーバーの削除
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-04_
+# <a name="remove-front-end-pool-or-standard-edition-server"></a>フロントエンド プールまたは Standard Edition サーバーの削除
 
-ここでは、フロント エンド プールまたは Standard Edition フロント エンド サーバーを削除するプロセスについて説明します。フロント エンド プールを削除する場合は、プール削除プロセスの一環として、そのプールに所属するそれぞれの フロント エンド サーバーを削除します。Standard Edition フロント エンド サーバーを削除する場合は、トポロジ ビルダーから SQL ストアの定義を削除する必要があります。
+</div>
 
-## フロントエンド サーバー プールを削除するには
+<div id="mainSection">
 
-1.  トポロジ ビルダーを開きます。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-04_
+
+このトピックでは、フロントエンドプールまたは標準エディションのフロントエンドサーバーを削除する手順について説明します。 フロントエンドプールを削除する場合は、プールに属している各フロントエンドサーバーをプール削除プロセスの一部として削除します。 Standard Edition のフロントエンドサーバーを削除する場合は、トポロジビルダーから SQL ストアの定義を削除する必要があります。
+
+<div>
+
+## <a name="to-remove-a-front-end-server-pool"></a>フロントエンドサーバープールを削除するには
+
+1.  トポロジビルダーを開きます。
 
 2.  Lync Server 2010 ノードに移動します。
 
-3.  \[**Enterprise Edition フロントエンド プール**\]、フロント エンド プールの順に展開し、削除する フロント エンド プールを右クリックして、\[**削除**\] をクリックします。
+3.  **Enterprise Edition のフロントエンド**プールを展開し、フロントエンドプールを展開して、削除するフロントエンドプールを右クリックし、[**削除**] をクリックします。
 
-4.  トポロジを公開し、レプリケーションの状態を確認し、必要に応じて Lync Server 展開ウィザードを実行します。
+4.  トポロジを公開し、レプリケーションの状態を確認してから、必要に応じて Lync Server 展開ウィザードを実行します。
 
-## Standard Edition フロントエンド サーバーを削除するには
+</div>
 
-1.  トポロジ ビルダーを開きます。
+<div>
+
+## <a name="to-remove-a-standard-edition-front-end-server"></a>Standard Edition フロントエンドサーバーを削除するには
+
+1.  トポロジビルダーを開きます。
 
 2.  Lync Server 2010 ノードに移動します。
 
-3.  \[**Standard Edition フロントエンド サーバー**\] を展開し、削除する フロント エンド サーバーを右クリックして、\[**削除**\] をクリックします。
+3.  **Standard Edition のフロントエンド**サーバーを展開し、削除するフロントエンドサーバーを右クリックして、[**削除**] をクリックします。
 
-4.  \[**SQL ストア**\] を展開し、Standard Edition フロント エンド サーバーに関連付けられた SQL Server データベースを右クリックして、\[**削除**\] をクリックします。
+4.  [ **Sql ストア**] を展開し、Standard Edition フロントエンドサーバーに関連付けられている sql Server データベースを右クリックし、[**削除**] をクリックします。
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > 併置された SQL Server データベースの定義を Standard Edition フロント エンド サーバーから削除する必要があります。
+    > [!IMPORTANT]  
+    > 併置された SQL Server データベースの定義は、Standard Edition のフロントエンドサーバーから削除する必要があります。
 
+    
+    </div>
 
+5.  トポロジを公開し、レプリケーションの状態を確認してから、必要に応じて Lync Server 展開ウィザードを実行します。
 
-5.  トポロジを公開し、レプリケーションの状態を確認し、必要に応じて Lync Server 展開ウィザードを実行します。
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

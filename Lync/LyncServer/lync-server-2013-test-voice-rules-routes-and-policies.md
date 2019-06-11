@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test voice rules, routes, and policies'
+---
+title: 'Lync Server 2013: ボイスルール、ルート、ポリシーをテストする'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test voice rules, routes, and policies
 ms:assetid: ebb9c3fa-6950-4311-87ca-e1ecd9280a43
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn725213(v=OCS.15)
-ms:contentKeyID: 62335959
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725213(v=OCS.15)
+ms:contentKeyID: 63969661
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 8b3d0cec7e5bd127f5b69eba6956fc3c653cfa51
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848462"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test voice rules, routes, and policies in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>Lync Server 2013 でのボイスルール、ルート、ポリシーのテスト
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-05-20_
 
 
 <table>
@@ -23,104 +43,134 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>毎月</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoiceUser cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、Get-csvoiceuser コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceUser&quot;}</code></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-When a user makes a phone call, the route the call takes to reach its destination depends on both the policies and dial plans assigned to that user. Given a user’s SIP address and a phone number, the Test-CsVoiceUser cmdlet verifies whether the user in question can complete a call to that number. If the test succeeds, Test-CsVoiceUser returns the following:
+## <a name="description"></a>説明
 
-  - The number translated to E.164 format (based on the user’s dial plan)
+ユーザーが電話をかけると、通話の発信先のルートは、そのユーザーに割り当てられているポリシーとダイヤルプランの両方によって異なります。 ユーザーの SIP アドレスと電話番号を指定すると、Get-csvoiceuser コマンドレットによって、問題のユーザーがその番号への呼び出しを完了できるかどうかが確認されます。 テストが成功した場合、Get-csvoiceuser は次の値を返します。
 
-  - The normalization rule that supplied that translation
+  - 番号が164形式に変換されます (ユーザーのダイヤルプランに基づく)
 
-  - The voice route used (based on route priority);
+  - 翻訳を提供した正規化ルール
 
-  - The phone usage that linked the user’s voice policy to the voice route.
+  - 使用されているボイスルート (ルートの優先順位に基づく)
 
-Test-CsVoiceUser enables you to determine whether a specific phone number will route and translate as expected, and can help troubleshoot call-related problems that are experienced by individual users.
+  - ユーザーのボイスポリシーを音声ルートにリンクした電話の使用状況。
 
-## Running the test
+Get-csvoiceuser を使用すると、特定の電話番号が予期したとおりにルーティングおよび翻訳されるかどうかを判断でき、個々のユーザーが経験した通話関連の問題のトラブルシューティングに役立ちます。
 
-When running the Test-CsVoiceUser cmdlet you must supply two pieces of information: the number being dialed (DialedNumber) and the Identity of the user account being tested. For example, this command tests the ability of the user who has the SIP address sip:kenmyer@litwareinc.com to make a call to the phone number +1206555-1219:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+Get-csvoiceuser コマンドレットを実行するときには、ダイヤルされる番号とテストされるユーザーアカウントの Id の2つの情報を提供する必要があります。 たとえば、次のコマンドは、SIP アドレス sip:kenmyer@litwareinc.com を持っているユーザーが電話番号 + 1206555-1219 への通話を発信できるかどうかをテストします。
 
 `Test-CsVoiceUser -DialedNumber "12065551219" -SipUri "sip:kenmyer@litwareinc.com"`
 
-The phone number should be formatted in the way that you expect it to be dialed. For example, if users typically do not dial the 1 before placing a long distance call then you should use this format:
+電話番号は、ダイヤルする場合と同じように書式設定する必要があります。 たとえば、通常、長距離通話を発信する前に1がダイヤルされない場合は、次の形式を使用する必要があります。
 
 `-DialedNumber "2065551219"`
 
-Of course, in that case, the test will fail if you do not have a normalization rule that can correctly translate the number 2065551219 into the E.164 telephone format that is used by Lync Server. For more information, see the help topic New-CsVoiceNormalizationRule cmdlet.
+ただし、この場合、番号2065551219を正しく変換できる正規化ルールを持っていない場合、テストは失敗します。これは、Lync Server で使用されている電子電話形式の E.i になります。 詳細については、ヘルプトピック「CsVoiceNormalizationRule コマンドレット」を参照してください。
 
-If you want to run this same test against each of your user accounts, you can use a command similar to the following:
+各ユーザーアカウントに対して同じテストを実行する場合は、次のようなコマンドを使用できます。
 
 `Get-CsUser | ForEach-Object {$_.DisplayName; Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri $_.SipAddress} | Format-List`
 
-For more information, see the Help documentation for the Test-CsVoiceUser cmdlet.
+詳細については、「Get-csvoiceuser コマンドレットのヘルプドキュメント」を参照してください。
 
-## Determining success or failure
+</div>
 
-If the test is completed successfully (that is, if the user can make a phone call to the specified number), the output will show information like the translated phone number and the matching normalization rule and voice route:
+<div>
+
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+
+テストが正常に完了した場合 (つまり、ユーザーが指定した番号に電話をかけることができる場合)、出力には、翻訳された電話番号や、一致する正規化ルールとボイスルートなどの情報が表示されます。
 
 TranslatedNumber    MatchingRule    FirstMatchingRoute    MatchingUsage
 
 \----------------    ------------    ------------------    -------------
 
-\+12065551219        Descripti...    LocalRoute            Local
+\+12065551219 Descripti   LocalRoute ローカル
 
-Because of the limitations of the Windows PowerShell screen, at least some returned information (most notably the full description of the matching normalization rule) might not appear on-screen. If you are only interested in the success or failure of the test, then this might not matter. If you would prefer to see the full details of the returned data then pipe the output to the Format-List cmdlet when running the test:
+Windows PowerShell 画面の制限により、少なくともいくつかの情報 (一致する正規化ルールの詳細な説明) が画面に表示されないことがあります。 テストの成功または失敗のみを目的としている場合は、これは問題ではない可能性があります。 返されるデータの完全な詳細情報を表示する場合は、テストを実行するときに、出力を形式指定コマンドレットにパイプします。
 
 `Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri "sip:kenmyer@litwareinc.com" -Verbose | Format-List`
 
-That will display the output in a more reader-friendly format:
+これにより、次のような出力がわかりやすい形式で表示されます。
 
-TranslatedNumber : +12065551219
+TranslatedNumber: + 12065551219
 
-MatchingRule : Description=;Pattern=^(\\d{11})$;Translation=+$1;
+MatchingRule: Description =;Pattern = ^ (\\d{11}) $;翻訳 = + $ 1;
 
-Name=Prefix All;IsInternalExtension=False
+Name = Prefix All; IsInternalExtension = False
 
-FirsMatchingRoute : LocalRoute
+FirsMatchingRoute: LocalRoute
 
-MatchingUsage : Local
+MatchingUsage: Local
 
-If the test fails, Test-CsVoiceUser will return an empty set of property values:
+テストに失敗した場合、Get-csvoiceuser は、空のプロパティ値のセットを返します。
 
 TranslatedNumber MatchingRule FirstMatchingRoute MatchingUsage
 
 \---------------- ------------ ------------------ -------------
 
-## Reasons why the test might have failed
+</div>
 
-There are any number of reasons why the Test-CsVoiceUser cmdlet might fail: there might not be a normalization rule that can translate the provided phone number. There could be problems with the voice route. There could be a configuration issue with the dial plan assigned to the user in question. Because of that, you might want to include the Verbose parameter when you are running the Test-CsVoiceUser cmdlet:
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+
+Get-csvoiceuser コマンドレットが失敗する可能性がある理由はいくつかあります。指定した電話番号を変換できる正規化ルールがない可能性があります。 ボイスルーティングで問題が発生する可能性があります。 問題のユーザーに割り当てられているダイヤルプランの構成で問題が発生している可能性があります。 このため、Get-csvoiceuser コマンドレットを実行する場合は、Verbose パラメーターを含めることができます。
 
 `Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri "sip:kenmyer@litwareinc.com" -Verbose`
 
-When the Verbose cmdlet is included, Test-CsVoiceUser will issue a detailed account of all the steps in takes when conducting its checks. For example, you might see steps similar to these: 
+Verbose コマンドレットが含まれている場合、Get-csvoiceuser は、チェックを実行するときに実行されるすべての手順の詳細なアカウントを発行します。 たとえば、次のような手順が表示される場合があります。 
 
-VERBOSE: Locating user with identity "sip:kenmyer@litwareinc.com"
+VERBOSE: id が "sip:kenmyer@litwareinc.com" のユーザーを検索しています
 
-VERBOSE: Loading dial plan: "RedmondDialPlan"
+詳細: ダイヤルプランを読み込み中: "RedmondDialPlan"
 
-This additional information can provide hints as to the steps that you can take to pinpoint the cause of the failure. For example, the verbose output shown here tells us that the user being tested was assigned the dial plan RedmondDialPlan. If the test has failed, one logical next step would be to verify that RedmondDialPlan can translate the supplied phone number.
+この追加情報は、エラーの原因を特定するために実行できる手順についてのヒントを提供します。 たとえば、ここに表示される verbose の出力では、テスト対象のユーザーにダイヤルプランの RedmondDialPlan が割り当てられたことがわかります。 テストが失敗した場合は、RedmondDialPlan が指定した電話番号を翻訳できるかどうかを確認するための論理的な次の手順があります。
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Test-CsVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoiceUser)
+## <a name="see-also"></a>関連項目
+
+
+[テスト-Get-csvoiceuser](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceUser)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

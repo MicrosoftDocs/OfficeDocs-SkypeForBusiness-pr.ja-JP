@@ -1,39 +1,77 @@
-﻿---
-title: 'Lync Server 2013: IPv6 の技術要件'
-TOCTitle: IPv6 の技術要件
-ms:assetid: caff0123-ce41-4a62-87a0-00b1d118b72b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205278(v=OCS.15)
-ms:contentKeyID: 48273606
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: IPv6 の技術要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for IPv6
+ms:assetid: caff0123-ce41-4a62-87a0-00b1d118b72b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205278(v=OCS.15)
+ms:contentKeyID: 48185465
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 972b59ba2ea01f967d5cfb8a7767a4f322bcb2fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848537"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の IPv6 の技術要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Lync Server 2013 の IPv6 の技術要件
 
-Lync Server 2013 を IPv6 向けに構成する予定の場合は、以下の要件を考慮します。
+</div>
 
-  - Lync Server で IPv6 アドレスを使用するには、検出されて IPv6 アドレスに解決される必要のあるレコード用にドメイン ネーム システム (DNS) レコードを作成する必要があります。IPv6 DNS はホスト AAAA (クアッド A) レコードを使用します。展開内で IPv4 と IPv6 の両方を使用する場合は、IPv4 用のホスト A レコードと IPv6 用のホスト AAAA レコードの両方を構成し保持するのが最善の方法です。自身の展開を IPv6 に完全に移行した場合でも、IPv4 を使用する外部ユーザーのために IPv4 DNS ホスト レコードが引き続き必要となる場合があります。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-30_
+
+Lync Server 2013 を IPv6 用に構成する場合は、次の要件を念頭に置いてください。
+
+  - Lync Server で IPv6 アドレスを使用するには、IPv6 アドレスを検出し、解決する必要があるレコードに対して、ドメインネームシステム (DNS) レコードを作成する必要があります。 IPv6 DNS はホスト AAAA (クアッド A) レコードを使用します。 展開内で IPv4 と IPv6 の両方を使用する場合は、IPv4 用のホスト A レコードと IPv6 用のホスト AAAA レコードの両方を構成し保持するのが最善の方法です。 自身の展開を IPv6 に完全に移行した場合でも、IPv4 を使用する外部ユーザーのために IPv4 DNS ホスト レコードが引き続き必要となる場合があります。
     
     IPv6 DNS ホスト レコードは IPv6 の使用を始める前から展開できます。クライアントまたはサーバーが IPv6 を使用しない場合、そのレコードは参照されません。移行時のテクノロジは、どのレコードを使用するかを、移行テクノロジの構成およびポリシーに基づいて判断します。
 
-  - 各 IPv6 アドレスはスコープを持ちます。IPv6 アドレス指定では 3 つのスコープを使用できます。IPv6 グローバル アドレス (パブリック IPv4 アドレスと同様)、IPv6 ユニーク ローカル アドレス (プライベート IPv4 アドレス範囲と同様)、IPv6 リンクローカル アドレス (IPv4 の Windows Server における自動プライベート IP アドレスと同様) の 3 つです。同一プール内のすべてのサーバーは同じスコープの IPv6 アドレスを持つ必要があります。
+  - 各 IPv6 アドレスにはスコープがあります。 IPv6 アドレス指定に使用できる3つのスコープは、IPv6 グローバルアドレス (パブリック IPv4 アドレスに似ています)、ipv6 固有のローカルアドレス (プライベート IPv4 アドレス範囲に類似)、IPv6 リンクローカルアドレス (自動プライベート IP アドレスに似ています) です。Windows Server (IPv4 の場合)。 プール内のすべてのサーバーに、同じスコープの IPv6 アドレスが含まれている必要があります。
+
+<div>
 
 
-> [!IMPORTANT]
-> IPv6 は複雑なトピックです。ネットワーク チームやインターネット プロバイダーと協力して慎重に計画し、 Windows Server レベル、および Lync Server 2013 レベルで割り当てるアドレスが想定どおりに機能するようにしてください。IPv6 のアドレス指定および計画に関する追加資料については、このトピックの最後にあるリンクを参照してください。
+> [!IMPORTANT]  
+> IPv6 は複雑なトピックであり、ネットワークチームとインターネットプロバイダーによる慎重な計画を行う必要があります。これにより、Windows Server レベルで割り当てるアドレスと Lync Server 2013 レベルで自分が意図したとおりに動作することを確認することができます。 IPv6 のアドレス指定と計画に関するその他のリソースについては、このトピックの最後にあるリンクを参照してください。
 
 
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[IP Version 6 アドレス指定アーキテクチャ](http://tools.ietf.org/html/rfc4291)  
-[IPv6 グローバル ユニキャスト アドレス形式](http://tools.ietf.org/html/rfc3587)  
-[一意のローカル IPv6 ユニキャスト アドレス](http://tools.ietf.org/html/rfc4193)
+## <a name="see-also"></a>関連項目
+
+
+[IP バージョン6アドレス体系](http://tools.ietf.org/html/rfc4291)  
+[IPv6 グローバルユニキャストアドレス形式](http://tools.ietf.org/html/rfc3587)  
+[一意のローカル IPv6 ユニキャストアドレス](http://tools.ietf.org/html/rfc4193)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing PSTN phone call routing'
+---
+title: 'Lync Server 2013: PSTN 電話の通話ルーティングのテスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing PSTN phone call routing
 ms:assetid: 301dd44d-03e9-41cd-9722-54e00365aa45
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn727302(v=OCS.15)
-ms:contentKeyID: 62388702
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727302(v=OCS.15)
+ms:contentKeyID: 63969598
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: faa6bfe178397ab474c1bcd8edc21107faff8dc3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848438"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing PSTN phone call routing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Lync Server 2013 での PSTN 電話による通話ルーティングのテスト
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-11-01_
 
 
 <table>
@@ -23,38 +43,48 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>[毎日]</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsInterTrunkRouting</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、 <strong>CsInterTrunkRouting</strong>コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsInterTrunkRouting&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsInterTrunkRouting** cmdlet verifies that calls can be routed from one SIP to another. To do this, the cmdlet is given a phone number and a trunk configuration. **Test-CsInterTrunkRouting** will then report back matching routes and matching PSTN usages for the specified number. Note that calls can be routed between trunks only if the trunks have a number pattern that matches the specified phone number and only if the trunks share at least one PSTN usage.
+## <a name="description"></a>説明
 
-## Running the test
+**CsInterTrunkRouting**コマンドレットは、通話がある SIP から別の SIP にルーティングできることを確認します。 これを行うには、コマンドレットに電話番号とトランク構成を指定します。 **CsInterTrunkRouting**は、指定された番号について、一致するルートと一致する PSTN の使用状況を報告します。 Trunks には、指定した電話番号と一致する番号パターンがあり、trunks が少なくとも1つの PSTN 使用を共有している場合のみ、trunks 間で通話をルーティングできます。
 
-The commands shown below return the matching routes and matching phone usages that enable users to call the phone number 1-206-555-1219 using the trunk configuration settings for the Redmond site.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+次に示すコマンドは、ユーザーが Redmond サイトのトランク構成設定を使用して電話番号1-206-555-1219 に発信できるように、一致するルートと一致する電話の使用状況を返します。
 
     $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
     
     Test-CsInterTrunkRouting -TargetNumber "tel:+12065551219" -TrunkConfiguration $trunk
 
-## Determining success or failure
+</div>
 
-If calls can be routed from one SIP to another, you'll receive output similar to this:
+<div>
+
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+
+通話を別の SIP にルーティングできる場合は、次のような出力が表示されます。
 
 FirstMatchingRoute MatchingUsage MatchingRoutes
 
@@ -62,42 +92,62 @@ FirstMatchingRoute MatchingUsage MatchingRoutes
 
 RedmondRoute LocalUsage {RedmondRoute}
 
-If the test did not succeed, you'll receive output similar to this:
+テストが成功しなかった場合は、次のような出力が表示されます。
 
-Test-CsInterTrunkRouting : Cannot process argument transformation on parameter
+CsInterTrunkRouting: パラメーターでの引数変換を処理できません
 
-'TrunkConfiguration'. Invalid TrunkConfigurationsetting (parameter). Specify a
+'TrunkConfiguration'. TrunkConfigurationsetting (パラメーター) が無効です。 を指定する
 
-valid setting (parameter) and then try again.
+有効な設定 (パラメーター) を入力してからやり直してください。
 
-At line:1 char:79
+行: 1 char:79
 
-\+ Test-CsInterTrunkRouting -TargetNumber "tel:+12065551219"
+\+CsInterTrunkRouting-TargetNumber "tel: + 12065551219"
 
-\-TrunkConfiguration $t ...
+\-TrunkConfiguration $t...
 
 \+
 
 ~~
 
-\+ CategoryInfo : InvalidData: (:) \[Test-CsInterTrunkRouting\], Par
+\+カテゴリ情報: InvalidData: (:)\[CsInterTrunkRouting\]、Par
 
-ameterBindingArgumentTransformationException
+Ameterbindingargumentの例外
 
-\+ FullyQualifiedErrorId : ParameterArgumentTransformationError,Microsoft.R
+\+FullyQualifiedErrorId: Parameterargumentトランスエラー、Microsoft R
 
-tc.Management.Voice.Cmdlets.TestOcsInterTrunkRoutingCmdlet
+tc.TestOcsInterTrunkRoutingCmdlet を管理します。
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why **Test-CsInterTrunkRouting** might fail:
+<div>
 
-  - You specified invalid parameters. The trunk might not yet be correctly configured and the specified target number might be incorrect or invalid.
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
 
-## 関連項目
+次に **、テスト-CsInterTrunkRouting**が失敗する可能性がある一般的な理由を示します。
 
-#### その他のリソース
+  - 無効なパラメーターが指定されました。 トランクがまだ正しく構成されておらず、指定されたターゲット番号が間違っているか、無効である可能性があります。
 
-[Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk)  
-[Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration)
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)  
+[Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,39 +1,62 @@
-﻿---
-title: 'Lync Server 2013: サポートされるサーバー移行パスと共存のシナリオ'
-TOCTitle: サポートされるサーバー移行パスと共存のシナリオ
-ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425764(v=OCS.15)
-ms:contentKeyID: 48271638
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: サポートされるサーバー移行パスと共存のシナリオ'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported server migration paths and coexistence scenarios
+ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425764(v=OCS.15)
+ms:contentKeyID: 48183686
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 33b2ce878fef53f444e3834e8b1cd40286c24b0e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848644"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でサポートされるサーバー移行パスと共存のシナリオ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-16_
+# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 でサポートされるサーバー移行パスと共存のシナリオ
 
-Lync Server 2013 では、次のどちらかの製品からの移行がサポートされています。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-16_
+
+Lync Server 2013 は、次のいずれかの移行をサポートしています。
 
   - Microsoft Lync Server 2010
 
   - Microsoft Office Communications Server 2007 R2
 
-上記の両方のバージョンを実行する環境からの移行はサポートされません。Microsoft Office Communications Server 2007 や Live Communications Server 2005 など、これより前のバージョンからの移行はサポートされません。以前の展開に グループ チャットが含まれる場合は、別途移行する必要があります。
+これらの以前のバージョンの両方を実行している環境からの移行はサポートされていません。 Microsoft Office Communications Server 2007 や Live Communications Server 2005 などの以前のバージョンからの移行はサポートされていません。 以前の展開にグループチャットが含まれていた場合は、個別に移行する必要があります。
 
-## 移行方法
+<div>
 
-すべての Lync Server トポロジとサーバーの役割の移行がサポートされています。Standard Edition サーバーから Enterprise Edition サーバーへの移行など、あるトポロジから別のトポロジに移行できます。
+## <a name="migration-methods"></a>移行方法
 
-Lync Server 2013 では、次の移行方法のみがサポートされています。
+すべての Lync Server トポロジとサーバーロールの移行がサポートされます。 Standard Edition server から Enterprise Edition server に移行することで、1つのトポロジから別のトポロジに移行することができます。
 
-  - **サイド バイ サイド移行 :** サイド バイ サイド移行では、Lync Server 2013 が既存の Microsoft Lync Server 2010 または Office Communications Server 2007 R2 展開と並行して展開されます。その後、手動で、運用を新しいサーバーに移行し、ユーザーを Lync Server 2013 に移動します。この方法では、移行中に、ハードウェアとソフトウェアを含む、追加サーバー プラットフォームが必要であり、新しい構成ではシステム名とプール名が異なります。以前のバージョンにロールバックする必要がある場合は、以前のサーバーに運用を戻すことができます。
+Lync Server 2013 は、次の移行方法のみをサポートしています。
 
-Active Directory ドメイン サービス フォレスト間での移行は、サポートされません。
+  - <span></span>  
+    **サイドバイサイド移行。** サイドバイサイドの移行では、Lync Server 2013 は既存の Microsoft Lync Server 2010 または Office Communications Server 2007 R2 の展開と共に展開され、その後、操作を新しいサーバーに移してユーザーを Lync Server 2013 に移行します。 この方法を使うには、移行時にハードウェアやソフトウェアを含めた追加のサーバープラットフォーム、およびシステム名とプール名が新しい構成で異なる必要があります。 以前のバージョンに戻す必要がある場合は、操作を前のサーバーに戻すことができます。
 
-推奨される移行パスは、段階的な方法です。コンポーネント展開の適切な段階実行など、以前のリリースからの移行の詳細については、「移行」のドキュメントの以下のトピックを参照してください。
+Active Directory ドメインサービスフォレスト間の移行はサポートされていません。
+
+推奨される移行パスは、段階的なアプローチです。 以前のリリースから移行する方法について詳しくは、「段階的なコンポーネントの展開」をご覧ください。移行ドキュメントの次のトピックを参照してください。
 
   - [Lync Server 2010 から Lync Server 2013 への移行](migration-from-lync-server-2010-to-lync-server-2013.md)
 
@@ -41,19 +64,43 @@ Active Directory ドメイン サービス フォレスト間での移行は、�
 
   - [Lync Server 2010、グループ チャットまたは Office Communicatins Server 2007 R2 グループ チャットから Lync Server 2013、常設チャット サーバーへの移行](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)
 
-## 共存シナリオ
+</div>
 
-Lync Server 2013 は、Lync Server 2010 展開または Office Communications Server 2007 R2 展開のどちらかのコンポーネントと共存できます。Lync Server 2013 の Lync Server 2010 および Office Communications Server 2007 R2 の両方との同時展開、つまり 3 つのバージョンの同時展開はサポートされません。
+<span id="BKMK_PhasedMigration"></span>
 
-以前の Lync Server 2010 または Office Communications Server 2007 R2 展開が新しい Lync Server 2013 展開と一時的に共存する段階的移行の進行中は、混在バージョンのルーティングのサポートは制限されます。詳細については、「移行」のドキュメントを参照してください。
+<div>
 
-Lync Server 2013 のデータベース インスタンスには、Microsoft SQL Server 2008 R2 または Microsoft SQL Server 2012 を実行する別のコンピューターを使用する必要があります。Lync Server 2010 または Office Communications Server 2007 R2 のフロントエンド プールに使用しているものと同じ SQL Server のインスタンスを Lync Server 2013 のフロントエンド プールに使用することはできません。Lync Server 2010 または Office Communications Server 2007 R2 が既に展開されている環境において トポロジ ビルダーで Lync Server 2013 を定義および構成する場合、トポロジ ビルダーでは、既にトポロジ内で使用されている Lync Server 2013 のインスタンスを定義することはできません。
+## <a name="coexistence-scenarios"></a>共存シナリオ
 
-トポロジ ビルダーでは、この問題について知らせるために、"SQL Server '\[サーバーの FQDN\]' には、役割 'ユーザー ストア' をホストする SQL インスタンスが既に存在します。" というメッセージが表示されます。
+Lync Server 2013 は、Lync Server 2010 の展開または Office Communications Server 2007 R2 の展開のコンポーネントと共存させることができます。 Lync Server 2010 と Office Communications Server 2007 R2 の両方 (3 つのバージョンの同時展開) での Lync Server 2013 の同時展開はサポートされていません。
 
-> [!NOTE]
-> Lync Server 2013 展開に新しいサーバー役割を展開する予定がある場合は、最初に「移行」のドキュメントおよび「展開」のドキュメントの説明に従って既存の展開をアップグレードしてから、「計画」のドキュメントおよび「展開」のドキュメントの説明に従って新しいサーバー役割を展開します。以前のバージョンのグループ チャットを移行する場合は、Lync Server 2010 または Office Communications Server 2007 R2 から他のすべてのコンポーネントを移行する作業が完了した後で、最後に移行してください。
+以前の Lync Server 2010 または Office Communications Server 2007 R2 の展開が、新しい Lync Server 2013 の展開で一時的に coexists される段階的な移行では、混合バージョンルーティングのサポートは制限されています。 詳細については、移行に関するドキュメントを参照してください。
+
+Lync Server 2013 データベースインスタンスには、Microsoft SQL Server 2008 R2 または Microsoft SQL Server 2012 を実行している個別のコンピューターと個別のコンピューターを使用する必要があります。 Lync Server 2010 または Office Communications Server 2007 R2 フロントエンドプールに使用している Lync Server 2013 フロントエンドプールに対して、同じインスタンスの SQL Server を使用することはできません。 Lync server 2010 または Office Communications Server 2007 R2 を既に展開している展開のために、トポロジビルダーで Lync Server 2013 を定義して構成した場合、トポロジビルダーでは、既に使用されている Lync Server 2013 のインスタンスを定義することはできません。トポロジ。
+
+次のメッセージが表示され、この問題が発生したことを通知する\[メッセージが表示さ\]れます。 "サーバーの sql Server FQDN には、既に sql インスタンスホスティングロール ' ユーザーストア ' が含まれています。"
+
+<div>
 
 
-Lync Server 2010 または Office Communications Server 2007 R2 と Lync Server 2013 のコンポーネントの共存と移行に関する具体的な共存の要件やその他の詳細については、「移行」のドキュメントの「[Lync Server 2010 から Lync Server 2013 への移行](migration-from-lync-server-2010-to-lync-server-2013.md)」および「[Office Communications Server 2007 R2 から Lync Server 2013 への移行](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)」を参照してください。クライアントの混在バージョン サポートの詳細については、「[Lync Server 2013 で以前の展開からサポートされるクライアント](lync-server-2013-supported-clients-from-previous-deployments.md)」を参照してください。
+> [!NOTE]  
+> Lync Server 2013 の展開に初めて導入されたサーバーの役割を展開する場合は、移行ドキュメントと展開ドキュメントの説明に従って既存の展開をアップグレードし、次に示すように新しいサーバーの役割を展開する必要があります。計画ドキュメントと展開ドキュメント。 グループチャットの以前のバージョンを移行する場合は、Lync Server 2010 または Office Communications Server 2007 R2 から他のすべてのコンポーネントを移行するプロセスを完了した後で、最後に移行します。
+
+
+
+</div>
+
+特定の共存要件、および Lync Server 2010 または Office Communications Server 2007 R2 および Lync Server 2013 コンポーネントの共存と移行の詳細については、「 [Lync server 2010 から Lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) [に移行する」を参照してください。Office Communications Server 2007 R2 から Lync Server 2013 へ](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)の移行に関するドキュメントを参照してください。 クライアントの混在バージョンサポートの詳細については、「 [Lync Server 2013 での以前の展開でサポートされているクライアント](lync-server-2013-supported-clients-from-previous-deployments.md)」を参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

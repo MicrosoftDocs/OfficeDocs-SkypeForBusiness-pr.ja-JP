@@ -1,35 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Validate Domain Name System settings for load balancing'
+---
+title: 'Lync Server 2013: 負荷分散のためにドメインネームシステムの設定を検証する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Validate Domain Name System settings for load balancing
 ms:assetid: 92858e1c-91a5-4303-9bb4-b182e7f9c78b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn720920(v=OCS.15)
-ms:contentKeyID: 62246646
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720920(v=OCS.15)
+ms:contentKeyID: 63969625
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 4d56219dc36859eb37a766a94f827fb0c28a9909
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848250"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Validate Domain Name System settings for load balancing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-05-02_
+# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a>Lync Server 2013 での負荷分散のためにドメインネームシステムの設定を検証する
 
-To support the FQDN used by DNS load balancing, you must provision DNS to resolve the pool FQDN (such as pool01.contoso.com) to the IP addresses of all the servers in the pool (for example, 192.168.1.1, 192.168.1.2, and so on). You should include only the IP addresses of servers that are currently deployed.
+</div>
 
-Additionally if you are using DNS load balancing for the Edge pools the following DNS entries are required:
+<div id="mainSection">
 
-  - For the Lync Server Access Edge service, you must have one entry for each server in the pool. Each entry must resolve the FQDN of the Lync Server Access Edge service (for example, sip.contoso.com) to the IP address of the Lync Server Access Edge service on one of the Edge Servers in the pool.
+<div id="mainBody">
 
-  - For the Lync Server Web Conferencing Edge service, you must have one entry for each server in the pool. Each entry must resolve the FQDN of the Lync Server Web Conferencing Edge service (for example, webconf.contoso.com) to the IP address of the Lync Server Web Conferencing Edge service on one of the Edge Servers in the pool.
+<span> </span>
 
-  - For the Lync Server Audio/Video Edge service, you must have one entry for each server in the pool. Each entry must resolve the FQDN of the Lync Server Audio/Video Edge service (for example, av.contoso.com) to the IP address of the Lync Server Audio/Video Edge service on one of the Edge Servers in the pool.
+_**最終更新日:** 2014-05-02_
 
-  - If you want to use DNS load balancing on the internal interface of the Edge pool, you must add one DNS record, which resolves the internal FQDN of the Edge pool to the IP address of each server in the pool.
+DNS の負荷分散で使用される FQDN をサポートするには、DNS をプロビジョニングしてプールの FQDN (pool01.contoso.com など) を、プール内のすべてのサーバーの IP アドレス (たとえば、192.168.1.1、192.168.1.2 など) に解決する必要があります。 現在展開されているサーバーの IP アドレスのみを含める必要があります。
 
-To verify that DNS is returning the correct values for DNS load balancing you should use the nslookup tool. To return all values for a DNS record with nslookup you should run the command:
+また、エッジプールで DNS の負荷分散を使用している場合は、次の DNS エントリが必要になります。
+
+  - Lync Server Access Edge サービスの場合、プール内の各サーバーに対して1つのエントリが必要です。 各エントリでは、Lync Server アクセスエッジサービスの FQDN (sip.contoso.com など) を、プール内のいずれかのエッジサーバー上にある Lync Server アクセスエッジサービスの IP アドレスに解決する必要があります。
+
+  - Lync Server Web 会議エッジサービスの場合、プール内の各サーバーに対して1つのエントリを用意する必要があります。 各エントリでは、Lync Server Web 会議エッジサービスの FQDN (webconf.contoso.com など) を、プール内のいずれかのエッジサーバー上にある Lync Server Web 会議エッジサービスの IP アドレスに解決する必要があります。
+
+  - Lync Server の音声/ビデオエッジサービスの場合、プール内の各サーバーに対して1つのエントリが必要です。 各エントリは、Lync Server の音声/ビデオエッジサービス (av.contoso.com など) の FQDN を、プール内のエッジサーバーの1つである Lync Server オーディオ/ビデオエッジサービスの IP アドレスに解決する必要があります。
+
+  - エッジプールの内部インターフェイスで DNS の負荷分散を使用する場合は、1つの DNS レコードを追加する必要があります。これにより、エッジプールの内部 FQDN がプール内の各サーバーの IP アドレスに解決されます。
+
+DNS が DNS の負荷分散の正しい値を返していることを確認するには、nslookup ツールを使用する必要があります。 Nslookup を使用して DNS レコードのすべての値を返すには、次のコマンドを実行します。
 
 `nslookup <FQDN >`
 
-You would run this command for every FQDN used in DNS load balancing configuration to verify that every record set for DNS load balancing returned all of the correct entries.
+Dns ロードバランス構成で使用されているすべてのレコードセットで、すべての正しいエントリが返されたことを確認するために、このコマンドを実行します。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

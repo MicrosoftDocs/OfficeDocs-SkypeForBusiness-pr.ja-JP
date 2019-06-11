@@ -1,37 +1,69 @@
-﻿---
-title: Lync Server 2013 コントロール パネルのトラブルシューティング
-TOCTitle: Lync Server 2013 コントロール パネルのトラブルシューティング
-ms:assetid: 54e7ab57-34ce-4a07-bcc9-643379eb4eb7
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg195689(v=OCS.15)
-ms:contentKeyID: 48272116
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server 2013 コントロールパネルのトラブルシューティング'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Troubleshooting Lync Server 2013 Control Panel
+ms:assetid: 54e7ab57-34ce-4a07-bcc9-643379eb4eb7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195689(v=OCS.15)
+ms:contentKeyID: 48184145
+ms.date: 07/28/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 943f2ab5f0fe808d1bf5e10cf8b451ac1df2575b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848388"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 コントロール パネルのトラブルシューティング
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="troubleshooting-lync-server-2013-control-panel"></a>Lync Server 2013 コントロールパネルのトラブルシューティング
 
-このトピックでは、Lync Server 2013 コントロール パネルへのアクセスをトラブルシューティングするときに役立つ情報と手順を示します。
+</div>
 
-## インターネット ブラウザーの要件
+<div id="mainSection">
 
-Lync Server コントロール パネルを使用するには、Microsoft Silverlight ブラウザー プラグイン バージョン 4.0.50524.0 以降がインストールされている必要があります。Silverlight がインストールされていない場合や、以前のバージョンがインストールされている場合は、メッセージ内の手順に従って必要なバージョンをインストールしてください。
+<div id="mainBody">
 
-> [!NOTE]
-> Lync Server コントロール パネルの他のソフトウェア要件は、Lync Server コントロール パネルおよび他のすべての Lync Server 2013 管理ツールをインストールできるオペレーティング システムに関するものです。詳細については、「サポート」のドキュメントの「<a href="lync-server-2013-server-and-tools-operating-system-support.md">Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート</a>」を参照してください。
+<span> </span>
+
+_**最終更新日:** 2016-07-28_
+
+このトピックでは、Lync Server 2013 コントロールパネルへのアクセスのトラブルシューティングに役立つ情報と手順について説明します。
+
+<div>
+
+## <a name="internet-browser-requirements"></a>インターネットブラウザーの要件
+
+Lync Server コントロールパネルでは、Microsoft Silverlight ブラウザープラグインバージョン4.0.50524.0 または最新バージョンがインストールされている必要があります。 Silverlight がインストールされていない場合、または以前のバージョンがインストールされている場合は、メッセージの指示に従って必要なバージョンをインストールします。
+
+<div>
 
 
-セキュリティ上の理由により、インターネット ブラウザーで Silverlight のインストールがブロックされる場合は、Lync Server コントロール パネルを開く URL (Uniform Resource Locator) を信頼済みサイトの一覧に追加します。Internet Explorer のセキュリティ設定で、\[**ActiveX コントロールとプラグインの実行**\] が \[**有効にする**\] に設定されていることを確認します。詳細については、[http://go.microsoft.com/fwlink/?linkid=214060\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=214060%26clcid=0x411) を参照してください。また、ブラウザーが SSL 3.0 を使用するように構成されていることも確認してください。
+> [!NOTE]  
+> Lync Server コントロールパネルのその他のソフトウェア要件は、Lync Server コントロールパネルとその他のすべての Lync Server 2013 管理ツールをインストールできるオペレーティングシステムに関連しています。 詳細については、サポートドキュメントの「 <A href="lync-server-2013-server-and-tools-operating-system-support.md">Lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート</A>」を参照してください。
 
-インターネット ブラウザーがプロキシ サーバーを使用するように構成されている場合、内部サイトとして自動検出されたサイトにはプロキシ サーバーを使用しない構成になっていることを確認します。または、プロキシ サーバーの構成設定で、アドレスをブラウザーの例外リストに追加します。
 
-## 管理アクセス URL の DNS レコードおよび証明書の要件
 
-Lync Server コントロール パネルにアクセスする簡易 URL を構成した場合は、その管理アクセス URL を使用するために必要な静的ドメイン ネーム システム (DNS) ホスト (A) のリソース レコードと証明書も構成済みであることを確認します。ベース URL を随時変更する場合は、その変更が適切な DNS レコードと証明書に反映されていることを確認し、各ディレクターとフロント エンド サーバーで *Enable-CsComputer* を実行して変更を必ず登録します。詳細については、「計画」のドキュメントの以下のトピックを参照してください。
+</div>
+
+セキュリティ上の理由により、インターネットブラウザーで Silverlight のインストールがブロックされている場合は、[Lync Server] コントロールパネルを開くための Uniform Resource Locator (URL) を信頼済みサイトの一覧に追加します。 Internet Explorer の [セキュリティ設定] で、[ **ActiveX コントロールとプラグインの実行**] が [**有効**] に設定されていることを確認します。 詳細について[http://go.microsoft.com/fwlink/p/?linkId=214060](http://go.microsoft.com/fwlink/p/?linkid=214060)は、を参照してください。 さらに、ブラウザーが SSL 3.0 を使用するように構成されていることを確認します。
+
+インターネットブラウザーがプロキシサーバーを使用するように構成されている場合は、内部サイトとして自動的に検出されるサイトのプロキシサーバーを経由しないようにブラウザーが構成されていることを確認します。 または、プロキシサーバーの構成設定で、ブラウザーの例外リストにアドレスを追加します。
+
+</div>
+
+<div>
+
+## <a name="dns-record-and-certificate-requirements-for-the-administrative-access-url"></a>管理アクセス URL の DNS レコードと証明書の要件
+
+Lync Server コントロールパネルにアクセスするための単純な URL を構成している場合は、その管理アクセス URL を使用するために必要な静的ドメインネームシステム (DNS) のリソースレコードと証明書も構成していることを確認します。 ベース URL をいつでも変更する場合は、適切な DNS レコードと証明書に変更が反映されていることを** 確認します。また、各ディレクターとフロントエンドサーバー上のユーザーがこの変更を登録するようにします。 詳細については、計画ドキュメントの次のトピックを参照してください。
 
   - [Lync Server 2013 での簡単な URL の計画](lync-server-2013-planning-for-simple-urls.md)
 
@@ -39,41 +71,69 @@ Lync Server コントロール パネルにアクセスする簡易 URL を構�
 
   - [Lync Server 2013 の内部サーバーに対する証明書要件](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
-管理アクセス URL を構成するための操作手順については、「展開」のドキュメントの「[Lync Server 2013 での簡単な URL の編集または構成](lync-server-2013-edit-or-configure-simple-urls.md)」を参照してください。
+管理アクセス URL を構成するための詳しい手順については、展開ドキュメントの「 [Lync Server 2013 での単純な url の編集または構成](lync-server-2013-edit-or-configure-simple-urls.md)」を参照してください。
 
-> [!NOTE]
-> Web サーバーに複数のネットワーク アダプターが装着されている場合は、DNS 解決が正しく機能するように、追加のネットワーク アダプターごとに DNS を手動で構成する必要があります。
+</div>
 
+<div>
 
-## インターネット インフォメーション サービス (IIS) の要件
+## <a name="internet-information-services-iis-requirements"></a>インターネットインフォメーションサービス (IIS) の要件
 
-Lync Server コントロール パネルは、インターネット インフォメーション サービス (IIS) を必要とする Lync Server 2013 のコンポーネントの 1 つです。特に、HTTP リダイレクト機能と Windows 認証機能が有効になっていること、および World Wide Web 発行サービス (W3SVC) が実行されていることを確認してください。
+Lync Server コントロールパネルは、インターネットインフォメーションサービス (IIS) を必要とする、Lync Server 2013 のコンポーネントの1つです。 特に、HTTP リダイレクションと Windows 認証機能が有効であり、World Wide Web 発行サービス (W3SVC) が実行されていることを確認します。
 
-## World Wide Web 発行サービス (Windows サービス) への依存
+<div>
 
-World Wide Web 発行サービスが停止していると、Lync Server コントロール パネルにアクセスできません。サービスを再起動するには、Windows サービス Microsoft 管理コンソール (MMC) を使用します。
+## <a name="world-wide-publishing-service-windows-service-dependency"></a>World Wide 発行サービス (Windows サービス) の依存関係
+
+World Wide Web 発行サービスが停止すると、Lync Server コントロールパネルにアクセスできなくなります。 Windows Services Microsoft 管理コンソール (MMC) を使用してサービスを再起動することができます。
 
 **World Wide Web 発行サービスを開始するには**
 
-1.  World Wide Web 発行サービスがインターネット インフォメーション サービス (IIS) の一部としてインストールされているコンピューターにログオンします。
+1.  World Wide Web 発行サービスがインターネットインフォメーションサービス (IIS) の一部としてインストールされているコンピューターにログオンします。
 
-2.  \[**スタート**\] ボタンをクリックし、\[**管理ツール**\] をクリックして、\[**サービス**\] をクリックします。
+2.  [**スタート**] をクリックし、[**管理ツール**] をクリックして、[**サービス**] をクリックします。
 
-3.  \[**World Wide Web 発行サービス**\] を右クリックし、\[**開始**\] をクリックします。
+3.  [ **World Wide Web 発行サービス**] を右クリックし、[**開始**] をクリックします。
 
-## アプリケーション プール モード
+</div>
 
-CsManagementAppPool アプリケーション プールがネットワーク サービス アカウントをプロセス モデル ID として使用するように IIS を構成します。
+<div>
 
-## ユーザー権限およびアクセス許可
+## <a name="application-pool-mode"></a>アプリケーションプールモード
 
-Lync Server コントロール パネルにサインインするには、CsAdministrator グループのメンバーであるドメイン アカウントを使用するか、管理者がユーザー権限とアクセス許可を委任したアカウントを使用する必要があります。ローカル コンピューターのアカウントを使用して Lync Server コントロール パネルにサインインすることはできません。役割ベースのアクセス制御 (RBAC) による管理タスクの委任の詳細については、「計画」のドキュメントの「[Lync Server 2013 での役割ベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。
+CsManagementAppPool アプリケーションプールがプロセスモデル id としてネットワークサービスアカウントを使用できるように IIS を構成します。
 
-簡易 URL を使用して Lync Server コントロール パネルにアクセスする場合は、Web サーバーが RTCUniversalServerAdmins グループおよび RTCUniversalUserAdmins グループに追加されていることを確認してください。
+</div>
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
 
-[Lync Server 2013 管理ツール](lync-server-2013-lync-server-administrative-tools.md)
+## <a name="user-rights-and-permissions"></a>ユーザー権利と権限
+
+CsAdministrator グループのメンバーであるドメインアカウントを使用するか、ユーザー権利と権限を委任しているアカウントを使用して、Lync Server コントロールパネルにサインインする必要があります。 ローカルコンピューターアカウントを使用して、Lync Server コントロールパネルにサインインすることはできません。 ロールベースのアクセス制御 (RBAC) による管理タスクの委任について詳しくは、計画ドキュメントの「 [Lync Server 2013 での役割ベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」をご覧ください。
+
+簡単な URL を使用して Lync Server コントロールパネルにアクセスする場合は、web サーバーが RTCUniversalServerAdmins グループと RTCUniversalUserAdmins グループに追加されていることを確認します。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 管理ツール](lync-server-2013-lync-server-administrative-tools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalInvites'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalInvites
 ms:assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg558650(v=OCS.15)
-ms:contentKeyID: 48272110
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558650(v=OCS.15)
+ms:contentKeyID: 48184141
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 1081dbec8575eac0cc2aca7fc434b5801668f447
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848582"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の tblPrincipalInvites
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblprincipalinvites-in-lync-server-2013"></a>Lync Server 2013 の tblPrincipalInvites
 
-tblPrincipalInvites には、自動招待が有効になっているすべてのノードのプロビジョニングされた全ユーザーの招待が含まれます。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-06-25_
+
+tblPrincipalInvites には、自動招待を含むすべてのノードのプロビジョニングされたすべてのユーザーの招待が含まれます。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -35,29 +55,29 @@ tblPrincipalInvites には、自動招待が有効になっているすべての
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>NULL でない int</p></td>
+<td><p>int (null ではない)</p></td>
 <td><p>プリンシパル ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>invID</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>tblLastInviteId テーブルから生成された (プリンシパル ID ごとの) 一意のシーケンシャル番号。</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>TblLastInviteId テーブルから生成された一意の連続番号 (プリンシパル ID ごと)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>ノード ID (チャット ルームのみ)。</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>ノード ID (チャットルームのみ)。</p></td>
 </tr>
 <tr class="even">
 <td><p>createdOn</p></td>
-<td><p>NULL でない datetime</p></td>
-<td><p>作成の時刻。</p></td>
+<td><p>datetime。 null ではありません</p></td>
+<td><p>作成時刻。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="keys"></a>機能
 
 <table>
 <colgroup>
@@ -72,17 +92,28 @@ tblPrincipalInvites には、自動招待が有効になっているすべての
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinID, nodeID&gt;</p></td>
+<td><p>&lt;prinID、nodeID&gt;</p></td>
 <td><p>主キー。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>tblPrincipal.prinID テーブルを参照する外部キー。</p></td>
+<td><p>TblPrincipal Id テーブルで参照される外部キー。</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>tblNode.nodeID テーブルを参照する外部キー。</p></td>
+<td><p>TblNode テーブルで参照される外部キー。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

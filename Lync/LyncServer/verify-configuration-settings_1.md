@@ -1,23 +1,45 @@
-﻿---
-title: 構成設定の確認
-TOCTitle: 構成設定の確認
-ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204848(v=OCS.15)
-ms:contentKeyID: 48271902
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 構成の設定の確認
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Verify configuration settings
+ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204848(v=OCS.15)
+ms:contentKeyID: 48183997
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a20b78ac9275657461beb74a7325c0c46e4e40fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847931"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 構成設定の確認
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="verify-configuration-settings"></a>構成の設定の確認
 
-トポロジを統合して **Import-CsLegacyConfiguration** コマンドレットを実行した後、Office Communications Server 2007 R2 のポリシーと設定が Lync Server 2013 にインポートされたことを確認します。次の表に、確認が必要なポリシーと設定を示します。
+</div>
 
-## 移行後に確認が必要なポリシーと設定
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-28_
+
+トポロジをマージして、 **CsLegacyConfiguration**コマンドレットを実行した後、Office Communications Server 2007 R2 のポリシーと設定が Lync Server 2013 にインポートされたことを確認します。 次の表に、確認する必要があるポリシーと設定を示します。
+
+<div>
+
+## <a name="policies-and-settings-to-verify-after-migration"></a>移行後に確認するポリシーと設定
 
 
 <table>
@@ -27,19 +49,19 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>このワークロードを使用する場合:</th>
-<th>確認が必要なポリシーと設定:</th>
+<th>この作業負荷を使用する場合:</th>
+<th>以下のポリシーと設定を確認します。</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>インスタント メッセージング (IM) および電話会議</p></td>
-<td><p>プレゼンス ポリシー</p>
+<td><p>インスタントメッセージング (IM) と会議</p></td>
+<td><p>プレゼンスポリシー</p>
 <p>会議ポリシー</p></td>
 </tr>
 <tr class="even">
 <td><p>ダイヤルイン会議</p></td>
-<td><p>ダイヤルイン アクセス番号</p>
+<td><p>ダイヤルインアクセス番号</p>
 <p>ダイヤル プラン</p></td>
 </tr>
 <tr class="odd">
@@ -47,7 +69,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <td><p>音声ポリシー</p>
 <p>音声ルート</p>
 <p>ダイヤル プラン</p>
-<p>PSTN 使用法設定</p></td>
+<p>PSTN 使用状況の設定</p></td>
 </tr>
 <tr class="even">
 <td><p>Communicator Web Access</p></td>
@@ -55,73 +77,108 @@ _**トピックの最終更新日:** 2015-03-09_
 </tr>
 <tr class="odd">
 <td><p>外部ユーザー</p></td>
-<td><p>外部アクセス ポリシー</p></td>
+<td><p>外部アクセスポリシー</p></td>
 </tr>
 <tr class="even">
 <td><p>アーカイブ</p></td>
-<td><p>アーカイブ ポリシー</p></td>
+<td><p>アーカイブポリシー</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## ポリシーと設定を確認するには
+</div>
 
-1.  Office Communications Server 2007 R2 環境で、Communicator Web Access に使用される URL に加えて、ダイヤル プラン (旧称は場所のプロファイル) の名前、ダイヤルイン アクセス番号 (会議アテンダントのアクセス電話番号と地域)、ボイス ルート、および前記の表に示されているポリシーを記録しておきます。
+<div>
 
-2.  Lync Server 2013 フロントエンド サーバーで、Lync Server コントロール パネルを開きます。
+## <a name="to-verify-policies-and-settings"></a>ポリシーと設定を確認するには
 
-3.  インポートされた会議ポリシーを確認するには、左側のウィンドウで \[**電話会議**\] をクリックし、\[**電話会議ポリシー**\] をクリックして、Office Communications Server 2007 R2 環境のすべての会議ポリシーがリストに含まれていることを確認します。
+1.  Office Communications Server 2007 R2 環境で、ダイヤルプラン (以前は位置情報プロファイル)、ダイヤルインアクセス番号 (会議アテンダントアクセス電話番号と地域)、音声ルート、および以下に記載されているポリシーの名前をメモしておきます。Communicator Web Access で使用される Url に加えて、前の表が表示されます。
+
+2.  Lync Server 2013 フロントエンドサーバーで、[Lync Server] コントロールパネルを開きます。
+
+3.  インポートした会議ポリシーを確認するには、左側のウィンドウで [**会議**] をクリックし、[**会議ポリシー**] をクリックして、Office Communications Server 2007 R2 環境のすべての会議ポリシーが一覧に含まれていることを確認します。
     
-    > [!NOTE]
-    > 以前のバージョンの Office Communications Server で <strong>ミーティング</strong> ポリシーと呼ばれていたものは、Lync Server 2013 では会議ポリシーと呼ばれるようになっています。また、以前のバージョンの Office Communications Server での [<strong>匿名参加者</strong>] の設定は、Lync Server 2013 では会議ポリシーの設定になっています。
+    <div>
     
-    > [!NOTE]
-    > Office Communications Server 2007 R2 で会議ポリシーが [<strong>ユーザー単位のポリシーを使用する</strong>] に設定されていない場合、グローバル ポリシーの設定のみがインポートされます。この場合、他の会議ポリシーはインポートされません。
+
+    > [!NOTE]  
+    > 以前のバージョンの Office Communications Server の<STRONG>会議</STRONG>ポリシーは、Lync Server 2013 の会議ポリシーと呼ばれるようになりました。 さらに、以前のバージョンの Office Communications Server からの<STRONG>匿名</STRONG>の管理設定は、Lync Server 2013 会議ポリシーの設定になりました。
+
     
-    > [!NOTE]
-    > Office Communications Server 2007 R2 の会議ポリシーで [<strong>AnonymousParticipants</strong>] が [<strong>ユーザーごとに適用</strong>] に設定されている場合は、移行時に 2 つの会議ポリシー ([<strong>AllowAnonymousParticipantsInMeetings</strong>] が <strong>True</strong> に設定されているものと [<strong>AllowAnonymousParticipantsInMeetings</strong>] が <strong>False</strong> に設定されているもの) が作成されます。
-
-
-4.  インポートされたダイヤル プランを確認するには、\[**音声のルーティング**\] をクリックし、\[**ダイヤル プラン**\] をクリックして、Office Communicator 2007 R2 環境のダイヤル プランがリストにすべて含まれていることを確認します。
+    </div>
     
-    > [!NOTE]
-    > Lync Server 2013 では、[<strong>場所のプロファイル</strong>] は [<strong>ダイヤル プラン</strong>] と呼ばれるようになっています。
-
-
-5.  インポートされた音声ポリシーを確認するには、\[**音声のルーティング**\] をクリックし、\[**音声ポリシー**\] をクリックして、 Office Communicator 2007 R2 環境の音声ポリシーがリストにすべて含まれていることを確認します。
+    <div>
     
-    > [!NOTE]
-    > 音声ポリシーが Office Communications Server 2007 R2 環境で [<strong>ユーザー単位のポリシーを使用する</strong>] に設定されていない場合は、グローバル ポリシーの設定のみがインポートされます。この場合、音声ポリシーはインポートされません。
 
+    > [!NOTE]  
+    > Office Communications Server 2007 R2 で、会議ポリシーが<STRONG>ユーザーごとに使用</STRONG>するように設定されていない場合は、グローバルポリシー設定のみがインポートされます。 この状況では、他の会議ポリシーはインポートされません。
 
-6.  インポートされた音声ルートを確認するには、\[**音声のルーティング**\] をクリックし、\[**ルート**\] をクリックして、Office Communicator 2007 R2 環境の音声ルートがリストにすべて含まれていることを確認します。
+    
+    </div>
+    
+    <div>
+    
 
-7.  インポートされた PSTN 使用法の設定を確認するには、\[**音声のルーティング**\] をクリックし、\[**PSTN 使用法**\] をクリックして、Office Communicator 2007 R2 環境の PSTN 使用法の設定がリストに含まれていることを確認します。
+    > [!NOTE]  
+    > Office Communications Server 2007 R2 会議ポリシーで<STRONG>ユーザーごとに適用</STRONG>するように<STRONG>匿名の参加者</STRONG>が設定されている場合、移行中に2つの会議ポリシーが作成されます。1つは<STRONG>AllowAnonymousParticipantsInMeetings</STRONG>に設定されています。<STRONG>AllowAnonymousParticipantsInMeetings</STRONG>が<STRONG>False</STRONG>に設定されている<STRONG>場合は True</STRONG> 。
 
-8.  インポートされた外部アクセス ポリシーを確認するには、\[**フェデレーションと外部アクセス**\] をクリックし、\[**外部アクセス ポリシー**\] をクリックして、Office Communicator 2007 R2 環境のすべての外部アクセス ポリシーがリストに含まれていることを確認します。
+    
+    </div>
 
-9.  アーカイブ ポリシーを確認するには、\[**監視およびアーカイブ**\] をクリックし、\[**アーカイブ ポリシー**\] をクリックして、Office Communications Server 2007 R2 環境のアーカイブ ポリシーがリストにすべて含まれていることを確認します。
+4.  インポートしたダイヤルプランを確認するには、[**音声ルーティング**]、[**ダイヤルプラン**] の順にクリックし、Office Communicator 2007 R2 環境のすべてのダイヤルプランがリストに含まれていることを確認します。
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Lync Server 2013 では、<STRONG>位置情報プロファイル</STRONG>は<STRONG>ダイヤルプラン</STRONG>として参照されるようになりました。
+
+    
+    </div>
+
+5.  インポートした音声ポリシーを確認するには、[**音声ルーティング**]、[**音声ポリシー**] の順にクリックし、Office Communicator 2007 R2 環境のすべての音声ポリシーが一覧に含まれていることを確認します。
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Office Communications Server 2007 R2 環境で<STRONG>ユーザーごとに使用</STRONG>するようにボイスポリシーが設定されていない場合、グローバルポリシー設定のみがインポートされます。 この状況では、他の音声ポリシーはインポートされません。
+
+    
+    </div>
+
+6.  インポートした音声ルートを確認するには、[**音声ルーティング**] をクリックし、[**ルーティング**] をクリックして、Office Communicator 2007 R2 環境のすべてのボイスルートがリストに含まれていることを確認します。
+
+7.  インポートした PSTN 使用状況の設定を確認するには、[**音声ルーティング**] をクリックし、[ **pstn 使用状況**] をクリックして、Office Communicator 2007 R2 環境からの pstn 使用の設定が一覧に含まれていることを確認します。
+
+8.  インポートされた外部アクセスポリシーを確認するには、[**フェデレーションと外部アクセス**] をクリックし、[**外部アクセスポリシー**] をクリックして、Office Communicator 2007 R2 環境のすべての外部アクセスポリシーがリストに含まれていることを確認します。
+
+9.  アーカイブポリシーを確認するには、[**監視およびアーカイブ**] をクリックし、[**アーカイブポリシー**] をクリックして、Office Communications Server 2007 R2 環境のすべてのアーカイブポリシーが一覧に含まれていることを確認します。
 
 10. Lync Server 管理シェルを開きます。
 
-11. プレゼンス ポリシーを確認するには、コマンド ラインで次のように入力します。
+11. プレゼンスポリシーを確認するには、コマンドラインで次のように入力します。
     
         Get-CsPresencePolicy
     
-    **Identity** パラメーターの名前を調べて、Office Communications Server 2007 R2 環境のすべてのプレゼンス ポリシーがインポートされたことを確認します。
+    **Identity**パラメーターの名前を確認して、Office Communications Server 2007 R2 環境のすべてのプレゼンスポリシーがインポートされていることを確認します。
 
-## コマンドレットを使用してポリシーと設定を確認するには
+</div>
+
+<div>
+
+## <a name="to-verify-policies-and-settings-by-using-cmdlets"></a>コマンドレットを使用してポリシーと設定を確認するには
 
 1.  Lync Server 管理シェルを開きます。
 
-2.  次の表に示すコマンドレットを実行して、ポリシーと設定を確認します。
+2.  ポリシーと設定を確認するには、次の表のコマンドレットを実行します。
     
-    これらのコマンドレットの構文は次のようになります。
+    これらのコマンドレットの構文は、次の例のようになります。
     
         Get-CsConferencingPolicy
     
-    これらのコマンドレットの詳細については、次のように実行してください。
+    これらのコマンドレットの詳細については、次を実行します。
     
         Get-Help <cmdlet name> -Detailed
 
@@ -133,13 +190,13 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>次のポリシーまたは設定を確認する場合:</th>
-<th>使用するコマンドレット:</th>
+<th>このポリシーまたは設定:</th>
+<th>次のコマンドレットを使用します。</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>プレゼンス ポリシー</p></td>
+<td><p>プレゼンスポリシー</p></td>
 <td><p><strong>Get-CsPresencePolicy</strong></p></td>
 </tr>
 <tr class="even">
@@ -147,7 +204,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <td><p><strong>Get-CsConferencingPolicy</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>ダイヤルイン アクセス番号</p></td>
+<td><p>ダイヤルインアクセス番号</p></td>
 <td><p><strong>Get-CsDialInConferencingAccessNumber</strong></p></td>
 </tr>
 <tr class="even">
@@ -163,21 +220,34 @@ _**トピックの最終更新日:** 2015-03-09_
 <td><p><strong>Get-CsVoiceRoute</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>PSTN の使用法</p></td>
+<td><p>PSTN 使用法</p></td>
 <td><p><strong>Get-CsPstnUsage</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>URL</p></td>
-<td><p><strong>Get-CsSimpleUrlConfiguration</strong></p></td>
+<td><p>Url</p></td>
+<td><p><strong>CsSimpleUrlConfiguration の入手</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>外部アクセス ポリシー</p></td>
+<td><p>外部アクセスポリシー</p></td>
 <td><p><strong>Get-CsExternalAccessPolicy</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>アーカイブ ポリシー</p></td>
+<td><p>アーカイブポリシー</p></td>
 <td><p><strong>Get-CsArchivingPolicy</strong></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

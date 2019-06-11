@@ -1,35 +1,60 @@
-﻿---
-title: Lync Server 2013 でのユーザーとクライアントの認証
-TOCTitle: Lync Server 2013 でのユーザーとクライアントの認証
-ms:assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn481132(v=OCS.15)
-ms:contentKeyID: 59679287
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ユーザーとクライアントの認証'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User and client authentication for Lync Server 2013
+ms:assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481132(v=OCS.15)
+ms:contentKeyID: 59893868
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 052c65bad805dff0d993cbf8533593c1f12915a6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848362"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのユーザーとクライアントの認証
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-11-11_
+# <a name="user-and-client-authentication-for-lync-server-2013"></a>Lync Server 2013 のユーザーとクライアントの認証
 
-信頼されたユーザーとは、Microsoft Lync Server 2013 の信頼されたサーバーによって資格情報が認証されたユーザーを指します。このサーバーは、通常、Standard Edition サーバー、Enterprise Edition、フロント エンド サーバー、またはディレクターです。Lync Server 2013 は、ユーザー資格情報の信頼された単一のバックエンド リポジトリとして、Active Directory ドメイン サービスを使います。
+</div>
 
-認証では、ユーザーの資格情報が信頼されたサーバーに渡されます。Lync Server 2013 では、ユーザーの状態や場所に応じて、次の認証プロトコルを使用します。
+<div id="mainSection">
 
-  - **MIT Kerberos Version 5 セキュリティ プロトコル**: Active Directory の資格情報を持つ内部ユーザーに対して使われます。Kerberos では、クライアントが Active Directory ドメイン サービスに接続できる状態である必要があります。このため、Kerberos は企業のファイアウォールの外側にいるクライアントの認証には使うことができません。
+<div id="mainBody">
 
-  - **NTLM プロトコル**: Active Directory の資格情報を持ち、企業のファイアウォールの外側にあるエンドポイントから接続しているユーザーに対して使用されます。アクセス エッジ サービスによってログオン要求がディレクター (ある場合) またはフロント エンド サーバーに渡され、そこで認証が行われます。アクセス エッジ サービス自体では認証は行われません。
+<span> </span>
+
+_**最終更新日:** 2013-11-11_
+
+信頼されたユーザーとは、Microsoft Lync Server 2013 の信頼できるサーバーによって資格情報が認証されたユーザーのことです。 通常、このサーバーは Standard Edition server、Enterprise Edition のフロントエンドサーバー、またはディレクターです。 Lync Server 2013 は、ユーザー資格情報の単一の信頼できるバックエンドリポジトリとして Active Directory ドメインサービスに依存します。
+
+認証では、ユーザーの資格情報が信頼されたサーバーに渡されます。 Lync Server 2013 では、ユーザーの状態と場所に応じて、次の認証プロトコルが使用されます。
+
+  - Active Directory 資格情報を持つ内部ユーザー用の**MIT Kerberos バージョン5セキュリティプロトコル**。 Kerberos には Active Directory ドメインサービスへのクライアント接続が必要です。このため、会社のファイアウォール以外のクライアントを認証するために使用することはできません。
+
+  - 企業ファイアウォール外のエンドポイントから接続している Active Directory 資格情報を持つユーザーの**NTLM プロトコル**。 アクセスエッジサービスは、ログイン要求をディレクター (存在する場合) または認証用のフロントエンドサーバーに渡します。 アクセスエッジサービス自体では、認証は実行されません。
     
-    > [!NOTE]
-    > NTLM プロトコルは Kerberos ほど攻撃に対して強くないので、NTLM の使用を最小限にしている組織もあります。その結果、Lync Server 2013 へのアクセスは、内部のクライアント、または VPN 接続または DirectAccess 接続で接続するクライアントに制限される場合があります。
+    <div>
+    
 
+    > [!NOTE]  
+    > NTLM プロトコルは Kerberos ほど攻撃に対して強くないので、NTLM の使用を最小限にしている組織もあります。 その結果、Lync Server 2013 へのアクセスは、VPN または DirectAccess 接続経由で接続されている内部またはクライアントに制限されることがあります。
+
+    
+    </div>
 
   - **ダイジェスト プロトコル**: いわゆる匿名ユーザーに対して使用されます。匿名ユーザーは、有効な Active Directory の資格情報は持たないが、社内会議に招待され、有効な会議キーを持つ外部ユーザーです。ダイジェスト認証は、他のクライアント操作には使用されません。
 
-Lync Server 2013 の認証は 2 つのフェーズで構成されます。
+Lync Server 2013 認証は、次の2つのフェーズで構成されます。
 
 1.  クライアントとサーバーの間に、セキュリティ アソシエーションが確立されます。
 
@@ -41,5 +66,15 @@ Lync Server 2013 の認証は 2 つのフェーズで構成されます。
 
 ICE プロトコルおよび TURN プロトコルでも、IETF TURN RFC に記載されているとおり、ダイジェスト認証が使用されます。
 
-クライアント証明書を使用すると、ユーザーは Lync Server 2013 によって別の方法で認証を受けることができます。ユーザー名とパスワードを提供する代わりに、ユーザーは、証明書と、暗号化チャレンジを解決するために必要な証明書に対応する秘密キーを所有します (この証明書は、ユーザーを示すサブジェクト名またはサブジェクトの別名を持ち、Lync Server 2013 を実行するサーバーによって信頼されるルート CA によって発行され、証明書の有効期間内であり、失効していないものである必要があります)。ユーザーは、暗証番号 (PIN) を入力するだけで、認証を受けることができます。証明書は、スマート カード アクセスの場合、およびユーザー名やパスワードの入力が困難な Microsoft Lync 2013 Phone Edition を実行する電話および他のデバイスの場合に特に有効です。
+クライアント証明書は、ユーザーが Lync Server 2013 による認証を行うための代替手段を提供します。 ユーザー名とパスワードを提供する代わりに、ユーザーは証明書と、暗号化認証の解決に必要な証明書に対応する秘密キーを持ちます。 (この証明書には、ユーザーを識別するサブジェクト名またはサブジェクトの別名が必要です。また、Lync Server 2013 を実行しているサーバーによって信頼されているルート CA によって発行され、失効していない場合は、証明書の有効期間内に存在する必要があります)。認証するには、個人識別番号 (PIN) を入力する必要があります。 証明書は、Microsoft Lync 2013 Phone Edition を実行している電話やその他のデバイスで、ユーザー名やパスワードの入力が困難な場合に特に便利です。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

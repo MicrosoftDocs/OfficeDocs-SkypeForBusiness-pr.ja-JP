@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing PSTN peer to peer call'
+---
+title: 'Lync Server 2013: PSTN ピアとピアの通話をテストする'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing PSTN peer to peer call
 ms:assetid: 7e128eef-9ada-49b4-940f-97d7d13f1e4a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn690131(v=OCS.15)
-ms:contentKeyID: 62281078
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690131(v=OCS.15)
+ms:contentKeyID: 63969622
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 51b74697c7d6d5a037537bb036494d89264c4e75
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848436"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing PSTN peer to peer call in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Lync Server 2013 で PSTN ピアツーピア通話をテストする
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-06-05_
 
 
 <table>
@@ -23,102 +43,128 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>[毎日]</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsPstnPeerToPeerCall cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、テスト-CsPstnPeerToPeerCall コマンドレットを実行する権限を持つ RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnPeerToPeerCall&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsPstnPeerToPeerCall cmdlet verifies the ability a pair of users has to conduct a peer-to-peer call over the public switched telephone network (PSTN) gateway. When you call Test-CsPstnPeerToPeerCall, the cmdlet will first attempt to log on two test users to Lync Server. Assuming that the logons succeed, the cmdlet will then have user 1 attempt to call user 2 over the PSTN gateway. Test-CsPstnPeerToPeerCall will make this call using the dial plan, voice policy, and other policy and configuration settings assigned to the test user. If the test goes as planned, the cmdlet will verify that user 2 was able to answer the call, and then log off both test accounts from the system.
+## <a name="description"></a>説明
 
-Test-CsPstnPeerToPeerCall makes an actual phone call, one that verifies that a connection can be made and that also transmits DTMF codes over the network to determine whether media can be sent over the connection. The call is answered by the cmdlet itself, and no manual termination of the call is necessary. (That is, no one must answer and then hang up the phone that was called.)
+テスト-CsPstnPeerToPeerCall コマンドレットを使って、ユーザーのペアが公衆交換電話網 (PSTN) ゲートウェイ経由でピアツーピア通話を実行することを許可しているかどうかを確認します。 テスト-CsPstnPeerToPeerCall を呼び出すと、コマンドレットは最初に2つのテストユーザーに Lync Server をログオンしようとします。 ログオンが成功したことを前提として、コマンドレットは、ユーザー1が PSTN ゲートウェイ経由でユーザー2に通話を試みていることを前提としています。 テスト-CsPstnPeerToPeerCall は、テストユーザに割り当てられているダイヤルプラン、ボイスポリシー、その他のポリシーと設定を使用して、この通話を行います。 テストが計画どおりに行われた場合、コマンドレットは、ユーザー2が通話に応答できることを確認した後、システムから両方のテストアカウントをログオフします。
 
-## Running the test
+テスト-CsPstnPeerToPeerCall は、接続を確立できることを確認する実際の電話を発信します。また、ネットワーク経由で DTMF コードを送信して、メディアを接続経由で送信できるかどうかを確認します。 この呼び出しはコマンドレット自体によって応答され、手動で通話を終了する必要はありません。 (つまり、通話に応答して電話を切る必要はありません)。
 
-The Test-CsPstnPeerToPeerCall cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+テスト-CsPstnPeerToPeerCall コマンドレットは、定義済みのテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントのセットアップ」をご覧ください)、または Lync Server を有効にしている2人のユーザーのアカウントを使って実行できます。 テストアカウントを使用してこの確認を実行するには、テストする Lync Server プールの FQDN を指定する必要があります。 次に例を示します。
 
 `Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com"`
 
-To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsPstnPeerToPeerCall:
+実際のユーザーアカウントを使用してこのチェックを実行するには、2つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次に、テスト (CsPstnPeerToPeerCall) を呼び出す際に、これらの資格情報オブジェクトと2つのアカウントの SIP アドレスを含める必要があります。
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-For more information, see the Help documentation for the [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall) cmdlet.
+詳細については、「[テスト-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) 」コマンドレットのヘルプドキュメントを参照してください。
 
-## Determining success or failure
+</div>
 
-If the specified users can complete a peer-to-peer call, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-Result : Success
+指定したユーザーがピアツーピアの通話を完了できる場合は、次のような結果が返され、Result プロパティは Success とマークされ**ます。**
 
-Latency : 00:00:06.8630376
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+結果: 成功
 
-Diagnosis :
+待ち時間:00:00: 06.8630376
 
-If the specified users can't complete a peer-to-peer call, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+誤差
 
-TargetFqdn : atl-cs-001.litwareinc.com
+診断
 
-Result : Failure
+指定したユーザーがピアツーピアの呼び出しを完了できなかった場合、結果は失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。
 
-Latency : 00:00:0182361
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 403, Forbidden
+結果: エラー
 
-Diagnosis : ErrorCode=12001,Source=atl-cs-001.litwareinc.com,
+待ち時間: 00:00:0182361
 
-Reason=User Policy does not contain phone route usage
+エラー: 403、許可されていません
 
-The previous output states that the test failed because the voice policy assigned to at least one of the specified users does not include a phone usage. (Phone usages tie voice policies to voice routes. Without both a voice policy and a corresponding voice route, you can't make calls over the PSTN.)
+診断: ErrorCode = 12001、Source = atl-cs-001.litwareinc.com、
 
-If Test-CsPstnPeerToPeerCall fails, then you might want to rerun the test, this time including the Verbose parameter:
+理由 = ユーザーポリシーに電話ルートの使用が含まれていません
+
+前の出力では、指定されたユーザーの少なくとも1人に割り当てられているボイスポリシーに電話の使用が含まれていないため、テストが失敗したことが示されます。 (電話の使用状況によりボイスポリシーを音声ルートに関連付けます。 ボイスポリシーと、対応するボイスルートの両方がないと、PSTN 経由で通話を発信することはできません。)
+
+テスト-CsPstnPeerToPeerCall が失敗した場合は、Verbose パラメーターも含めて、テストを再実行することをお勧めします。
 
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsPstnPeerToPeerCall will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example, this output indicates that network problems are preventing a connection with the PSTN:
+Verbose パラメーターが含まれている場合、テスト-CsPstnPeerToPeerCall は、指定されたユーザーが Lync Server にログオンする機能をオンにしたときに実行された各操作のステップバイステップのアカウントを返します。 たとえば、次の出力は、ネットワークの問題によって PSTN との接続が妨げられていることを示しています。
 
-Establishing Audio Video call to 'sip:+12065551219@litwareinc.com;user=phone'.
+' Sip: +12065551219@litwareinc.com; user = phone ' への音声ビデオ通話を確立しています。
 
-An exception 'A 404 (Not Found) response was received from the network and the operation failed.
+ネットワークから受信した例外 ' A 404 (見つからない) 応答は、操作に失敗しました。
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsPstnPeerToPeerCall might fail:
+<div>
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+
+テスト-CsPstnPeerToPeerCall が失敗する一般的な理由を次に示します。
+
+  - 無効なユーザーアカウントが指定されました。 次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 Lync Server でユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server を有効にしていないことを意味します。
 
-  - The voice policy assigned to the specified user does not have a valid PSTN usage. You can determine the voice policy that is assigned to a user by using a command similar to this:
+  - 指定したユーザーに割り当てられている音声ポリシーに、有効な PSTN の使用状況がありません。 次のようなコマンドを使用して、ユーザーに割り当てられている音声ポリシーを確認できます。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object VoicePolicy
     
-    And then you can determine the PSTN usages (if any) that are assigned to that policy by using a command similar to the following, which retrieves information about the per-user voice policy RedmondVoicePolicy:
+    次のようなコマンドを使用して、そのポリシーに割り当てられている PSTN (存在する場合) を特定することができます。これにより、ユーザーごとの音声ポリシー RedmondVoicePolicy に関する情報を取得できます。
     
         Get-CsVoicePolicy -Identity "RedmondVoicePolicy"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing UCWA conferencing'
+---
+title: 'Lync Server 2013: UCWA 会議のテスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing UCWA conferencing
 ms:assetid: 62b3866a-0759-4b1f-99ec-5a68d6a74f00
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn727306(v=OCS.15)
-ms:contentKeyID: 62388707
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727306(v=OCS.15)
+ms:contentKeyID: 63969610
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 9b05b67f6f235cdcf3153149c9bd2373c30815d9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848418"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing UCWA conferencing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>Lync Server 2013 での UCWA 会議のテスト
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-11-03_
 
 
 <table>
@@ -23,110 +43,140 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>[毎日]</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsUcwaConference</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、 <strong>CsUcwaConference</strong>コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUcwaConference&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsUcwaConference** cmdlet verifies that a pair of test users can schedule, join, and then conduct an online conference using the Unified Communications Web API (UCWA). To do this, the cmdlet uses the Lync Server web ticket service to authenticate the two test users and register them with Lync Server. The cmdlet then starts a conference using the organizer credentials and invites the participant to join the meeting. After the meeting is joined, the **Test-CsUcwaConference** cmdlet verifies that the users can do such things as exchange instant message and conduct pools, then disconnects the conference and unregisters the two test users. The scheduled conference will also be deleted when the test is finished.
+## <a name="description"></a>説明
 
-The **Test-CsUcwaConference** cmdlet can also be used to determine whether anonymous users can join online conferences.
+**CsUcwaConference**コマンドレットは、1組のテストユーザーがユニファイドコミュニケーション Web API (ucwa) を使用してオンライン会議をスケジュール、参加、実施できることを確認します。 これを行うには、コマンドレットは Lync Server web ticket サービスを使って2つのテストユーザーを認証し、Lync Server に登録します。 次に、このコマンドレットは開催者の資格情報を使用して会議を開始し、参加者を会議に参加するように招待します。 会議が参加した後、 **CsUcwaConference**コマンドレットは、ユーザーが exchange インスタントメッセージやプールの実施などの操作を実行できることを確認した後、会議を切断し、2つのテストユーザーの登録を解除します。 スケジュールされた会議も、テストが完了したときに削除されます。
 
-Note that the **Test-CsUcwaConference** cmdlet should not be run against a Microsoft Lync Server 2010 pool unless UCWA was installed on that pool. If UCWA has not been installed then the call to the **Test-CsUcwaConference** cmdlet will fail.
+**CsUcwaConference**コマンドレットを使用して、匿名ユーザーがオンライン会議に参加できるかどうかを判断することもできます。
 
-## Running the test
+UCWA がそのプールにインストールされていない場合は、 **CsUcwaConference**コマンドレットを Microsoft Lync Server 2010 プールに対して実行しないように注意してください。 UCWA がインストールされていない場合は、 **CsUcwaConference**コマンドレットの呼び出しが失敗します。
 
-The command shown in Example 1 verifies that a pair of test users can participate in an UCWA conference on the pool atl-cs-001.litwareinc.com. Note that this command will fail if you have not predefined a pair of health monitoring configuration test users for atl-cs-001.litwareinc.com.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+例1に示すコマンドは、テストユーザーのペアが、プール atl-cs-001.litwareinc.com の UCWA 会議に参加できることを確認します。 Atl-cs-001.litwareinc.com の正常性監視構成テストユーザーのペアを定義していない場合、このコマンドは失敗します。
 
     Test-CsUcwaConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-The commands shown in Example 2 test the ability of a pair of users (litwareinc\\pilar and litwareinc\\kenmyer) to participate in an UCWA conference. To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Pilar Ackerman. (Because the logon name, litwareinc\\pilar, was included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credentials object is then stored in a variable named $cred1. The second command does the same thing, this time returning a credential object for the Ken Myer account.
+例2に示すコマンドは、UCWA 会議に参加するユーザーのペア\\(litwareinc pilar\\と litwareinc kenmyer) の機能をテストします。 これを行うには、この例の最初のコマンドでは、Credential コマンドレットを使用して、user Pilar Ackerman の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (Logon name、litwareinc\\pilar はパラメーターとして指定されているため、Windows PowerShell 資格情報の要求ダイアログボックスでは、管理者は Pilar Ackerman アカウントのパスワードを入力する必要があります)。結果として得られた資格情報オブジェクトは、$cred 1 という名前の変数に格納されます。 2番目のコマンドでも同じことが実行されますが、今回は Ken Myer アカウントの credential オブジェクトを返します。
 
-With the two credential objects in hand, the third command in the example determines whether the two users can participate in an UCWA conference. To run this task, the **Test-CsUcwaConference** cmdlet is called, together with the following parameters: TargetFqdn (the FQDN of the Registrar pool); OrganizerSipAddress (the SIP address for the meeting organizer); OrganizerCredential (the Windows PowerShell object that contains the credentials for this same user); ParticipantSipAddress (the SIP address for the other test user); and ParticipantCredential (the Windows PowerShell command-line interface object that contains the credentials for the other user).
+2つの資格情報オブジェクトを使うと、この例の3番目のコマンドは、2人のユーザーが UCWA 会議に参加できるかどうかを決定します。 このタスクを実行するために、 **CsUcwaConference**コマンドレットが呼び出され、次のパラメーターが使用されます。 targetfqdn (レジストラープールの FQDN)OrganizerSipAddress (会議の開催者の SIP アドレス)組織の資格情報 (同じユーザーの資格情報を格納する Windows PowerShell オブジェクト)ParticipantSipAddress (他のテストユーザーの SIP アドレス)ParticipantCredential (他のユーザーの資格情報が含まれている Windows PowerShell コマンドラインインターフェイスオブジェクト) を選びます。
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
     Test-CsUcwaConference -TargetFqdn atl-cs-001.litwareinc.com -OrganizerSipAddress "sip:pilar@litwareinc.com" -OrganizerCredential $cred1 -ParticipantSipAddress "sip:kenmyer@litwareinc.com" -ParticipantCredential $cred2
 
-## Determining success or failure
+</div>
 
-If conferencing is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-Target Uri : https:// LyncTest-SE.LyncTest.SelfHost.Corp.
+会議が適切に構成されている場合は、次のような結果が返され**ます。** これには、Result プロパティが Success とマークされています。
+
+ターゲット Fqdn: atl-cs-001.litwareinc.com
+
+ターゲット Uri: https://LyncTest-SE. LyncTest.
 
 Microsoft.com:443/CertProv/CertProvisiongService.svc
 
-Result : Success
+結果: 成功
 
-Latency : 00:00:14.9862716
+待ち時間:00:00: 14.9862716
 
-Error Message :
+エラーメッセージ:
 
-Diagnosis :
+診断
 
-If the specified users can't use conferencing, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+指定されたユーザーが会議を使用できない場合は、 **** 結果がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+警告: 指定した完全修飾のレジストラーポート番号の読み取りに失敗しました
 
-domain name (FQDN). Using default Registrar port number. Exception:
+ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 エラー
 
-System.InvalidOperationException: No matching cluster found in topology.
+InvalidOperationException: トポロジで一致するクラスターが見つかりませんでした。
 
-at
+自宅
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+SipSyntheticTransaction-TryRetri の同期を行います。
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Test-CsUcwaConference : There is no test user assigned for
+CsUcwaConference: のテストユーザーが割り当てられていません。
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]. Verify test user configuration.
+\[LyncTest.SelfHost.Corp.Microsoft.com\]。 テストユーザー構成を確認します。
 
-At line:1 char:1
+行: 1 char: 1
 
-\+ Test-CsUcwaConference -TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
+\+CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\+ CategoryInfo : ResourceUnavailable: (:) \[Test-CsUcwaConference\]
+\+カテゴリ情報: ResourceUnavailable 使用できません: (:)\[テスト-CsUcwaConference\]
 
-, InvalidOperationException
+、InvalidOperationException
 
-\+ FullyQualifiedErrorId : NotFoundTestUsers,Microsoft.Rtc.Management.Synth
+\+FullyQualifiedErrorId: Notん Testusers、Microsoft Rtc。
 
-eticTransactions.TestUcwaConferenceCmdlet
+TestUcwaConferenceCmdlet
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why **Test-CsUcwaConference** might fail:
+<div>
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
 
-  - The ability to conduct a conference depends on the conferencing policy that has been assigned to the user who organized the conference (in the case of the **Test-CsUcwaConference** cmdlet, that is the "sender"). If the organizer is not allowed to include collaborative activities in his or her meeting (for example, if his or her conferencing policy has the EnableDataCollaboration property set to False) then the **Test-CsUcwaConference** cmdlet will fail.
+次に **、テスト-CsUcwaConference**が失敗する可能性がある一般的な理由を示します。
 
-  - This command will fail if the Edge Server is misconfigured or not yet deployed.
+  - 指定されたパラメーター値が正しくありません。 使用する場合は、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。 省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
 
-## 関連項目
+  - 会議を開催する機能は、会議を開催したユーザーに割り当てられている会議ポリシー ( **CsUcwaConference**コマンドレットの場合は "送信者") によって異なります。 開催者が、会議に共同作業のアクティビティを含めることを許可していない場合 (たとえば、自分の会議ポリシーの EnableDataCollaboration プロパティが False に設定されている場合など)、 **CsUcwaConference**コマンドレットは失敗します。
 
-#### その他のリソース
+  - エッジサーバーが正しく構成されていないか、まだ展開されていない場合、このコマンドは失敗します。
 
-[Test-CsASConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsASConference)  
-[Test-CsDataConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDataConference)  
-[Test-CsAVConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAVConference)
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Test-CsASConference](https://docs.microsoft.com/powershell/module/skype/Test-CsASConference)  
+[Test-CsDataConference](https://docs.microsoft.com/powershell/module/skype/Test-CsDataConference)  
+[Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

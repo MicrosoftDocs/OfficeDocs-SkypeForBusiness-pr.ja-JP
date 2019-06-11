@@ -1,95 +1,164 @@
-﻿---
-title: 'Lync Server 2013: モビリティのトポロジとコンポーネント'
-TOCTitle: モビリティのトポロジとコンポーネント
-ms:assetid: be3cae7a-095d-4785-91ba-6fac99eba92a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh690037(v=OCS.15)
-ms:contentKeyID: 48273457
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: モビリティのトポロジとコンポーネント'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Topologies and components for mobility
+ms:assetid: be3cae7a-095d-4785-91ba-6fac99eba92a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690037(v=OCS.15)
+ms:contentKeyID: 48185282
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 537eda14f2587e06bd8a1112f2a6a44299b0b78e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848401"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のモビリティのトポロジとコンポーネント
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-17_
+# <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a>Lync Server 2013 のモビリティのトポロジとコンポーネント
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-17_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-モバイル デバイスで Lync モバイル アプリケーションをサポートするために、Lync Server 2013 では、Lync Server 2013 の Mcx Mobility Service、Lync Server 2013 の自動検出サービス、および Lync Server 2013 のプッシュ通知サービスの 3 つのサービスを提供します。Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月では、Lync 2013 モバイル クライアント向けの高度なサービス (統合コミュニケーション Web API (UCWA) によるモビリティのサポート) が無料で追加されています。このセクションでは、これらのコンポーネントについて簡単に説明し、モビリティをサポートする Lync Server 2013 トポロジを確認します。
+Lync server 2013 には、モバイルデバイスでの Lync モバイルアプリケーションのサポートについて、lync Server 2013 Mcx Mobility Service、Lync Server 2013 自動検出サービス、Lync Server 2013 プッシュ通知サービスという3つのサービスが用意されています。 Lync Server 2013 向けの累積的な更新プログラム: 2013 年2月に、Lync 2013 モバイルクライアント向けの無料のサービスが追加されました。ユニファイドコミュニケーション Web API、または UCWA を使用したモビリティサポート。 このセクションでは、これらのコンポーネントについて簡単に説明し、モバイル機能をサポートする Lync Server 2013 トポロジを示します。
 
-> [!NOTE]
-> モビリティ サービスは、ハイブリッド展開でも利用できます。ユーザーが常時オンラインである場合はモビリティをサポートするためのサービスを展開する必要はありません。モバイル ユーザーが自分のオンライン ID を検索できるようにするために、自動検出サービスの設定を定義する必要があります。
-
+<div>
 
 
-> [!IMPORTANT]
-> 何らかの外部ユーザーによる接続 (たとえば、フェデレーション、外部ユーザー アクセス、またはモビリティ機能) を計画している場合、 Standard Edition サーバーを使用した エッジ サーバー と、 フロント エンド サーバーまたは フロント エンド プールを使用する必要があります。 Standard Edition サーバーと、 フロント エンド サーバーまたは フロント エンド プールには、外部ユーザーが内部展開にアクセスできるようにするか、または内部展開が外部ユーザーと通信できるようにするための必須のコンポーネントはありません。モビリティを含め、外部ユーザーが内部ユーザーと共同作業または通信を行うあらゆるシナリオで、少なくとも 1 つの エッジ サーバーと 1 つのリバース プロキシが必要になります。<BR><EM>プッシュ通知</EM>では、Push Notification Clearing House (PNCH) をホストする Lync Online サービスに対する一種のフェデレーションを使用します。プッシュ通知とは、警告音、画面上の警告 (テキスト) のほか、モバイル デバイスが非アクティブのときに、アプリケーションによって Apple iPhone、iPad、Windows Phone にプッシュ配信されるバッジを指します。PNCH は、Lync Server からプッシュ通知を受け取ります。PNCH は、メッセージを通知として受け取ると、メッセージの送信先として意図されたモバイル クライアントに基づいて、Apple Push Notification Service または Lync Server 2013 Push Notification Service を通じてモバイル クライアントに通知を転送します。PNCH は、これらのモバイル クライアントにとって必須のサービスです。PNCH は、Lync Online に対するフェデレーションを行うために、エッジ サーバー、機密性と認証を確保するための証明書、ポリシー、および正しく構成されたドメイン ネーム システム (DNS) レコードを使用します。Nokia Symbian および Android ベースの Lync Mobile クライアントは、PNCH を使用しません。エッジ サーバーのプランニングと展開の詳細については、「<A href="lync-server-2013-planning-for-external-user-access.md">Lync Server 2013 の外部ユーザー アクセスの計画</A>」および「<A href="lync-server-2013-deploying-external-user-access.md">Lync Server 2013 での外部ユーザー アクセスの展開</A>」を参照してください。<BR>Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月で導入された Apple デバイス向けの Lync 2013 モバイル クライアントは、プッシュ通知または Push Notification Clearing House (PNCH) を使用しません。 Windows Phone の Lync 2013 モバイル クライアントは、引き続きプッシュ通知および PNCH を使用します。
+> [!NOTE]  
+> モバイルサービスは、ハイブリッド展開でも利用できます。 ユーザーがオンラインになっている場合、モバイル機能をサポートするためにサービスを展開する必要はありません。 モバイルユーザーがオンライン id を見つけることができるようにするには、自動検出サービスの設定を定義する必要があります。
 
 
 
-## モビリティ コンポーネント
+</div>
 
-モビリティをサポートするサービスは次のとおりです。
+<div>
 
-  - **Lync Server 2013 統合コミュニケーション Web API (UCWA)**    Lync Server 2013 でのモバイルおよび Web クライアントとのリアルタイム通信用のサービスを提供します。Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月を フロント エンド サーバーと ディレクターに展開すると、インストールにより、内部および外部 Web サービスに仮想ディレクトリ (Ucwa) が作成されます。Ucwa 仮想ディレクトリに属する Web コンポーネントは、UCWA 対応のクライアントからの通話を受け付けます。クライアント アプリケーションは、プレゼンス、連絡先、インスタント メッセージング、VoIP、ビデオ会議、コラボレーション用の REST インターフェイスを介して通信します。UCWA では、P-GET ベースのチャネルを使用して、着信通話、着信インスタント メッセージ、メッセージなどのイベントをクライアント アプリケーションに送信します。
+
+> [!IMPORTANT]  
+> 外部ユーザー接続 (フェデレーション、外部ユーザーアクセス、モバイル機能など) を計画している場合は、Standard Edition server と、フロントエンドサーバーまたはフロントエンドプールでエッジサーバーを使用する必要があります。 Standard Edition server とフロントエンドサーバーまたはフロントエンドプールには、外部ユーザーが内部展開にアクセスすること、または外部ユーザーとの通信を可能にするために必要なコンポーネントがありません。 外部ユーザーが共同作業しているか、モバイルを含む内部ユーザーと通信するすべてのシナリオでは、少なくとも1つのエッジサーバーと1つの逆プロキシを展開する必要があります。<BR><EM>プッシュ通知</EM>では、フェデレーションの種類を Lync Online サービスに使用します。これは、プッシュ通知のクリアリングハウス (pnch) をホストします。 プッシュ通知とは、モバイルデバイスが非アクティブになっているときに、アプリケーションから Apple iPhone、iPad、Windows Phone にプッシュされるサウンド通知、画面上の通知 (テキスト)、バッジを指します。 PNCH Lync Server からプッシュ通知を受信します。 PNCH がメッセージの通知を受信すると、PNCH は、メッセージが意図されているモバイルクライアントに基づいて、Apple Push Notification Services または Lync Server 2013 プッシュ通知サービスを通じてモバイルクライアントに通知を転送します。 PNCH は、これらのモバイルクライアントに必要なサービスです。 Lync Online にフェデレーションを行うために、PNCH はエッジサーバーと証明書を使用して、機密性と認証、ポリシー、適切に構成された domain name system (DNS) レコードを確認します。 Nokia Symbian および Android ベースの Lync モバイルクライアントでは、PNCH は使用されません。 エッジサーバーの計画と展開の詳細については、「 <A href="lync-server-2013-planning-for-external-user-access.md">Lync server 2013 での外部ユーザーアクセスの計画</A>」および「 <A href="lync-server-2013-deploying-external-user-access.md">lync server 2013 での外部ユーザーアクセスの展開</A>」を参照してください。<BR>Apple デバイスの Lync 2013 モバイルクライアントは、Lync Server 2013 の累積更新プログラムで導入されました。2013年2月以降、プッシュ通知またはプッシュ通知のクリアリングハウス (PNCH) は使用されなくなりました。 Windows Phone 上の Lync 2013 モバイルクライアントでも、プッシュ通知と (PNCH) が使用されます。
+
+
+
+</div>
+
+<div>
+
+## <a name="mobility-components"></a>モバイルコンポーネント
+
+モバイル機能をサポートするサービスは次のとおりです。
+
+  - **Lync server 2013 ユニファイドコミュニケーション Web API (ucwa)**   では、lync server 2013 のモバイルおよび Web クライアントとのリアルタイム通信のサービスを提供します。 Lync Server 2013 の累積的な更新プログラムを展開すると、2013年2月のフロントエンドサーバーとディレクターに、インストールにより、内部と外部の web サービス (Ucwa) に仮想ディレクトリが作成されます。 Ucwa 仮想ディレクトリの一部である web コンポーネントは、UCWA 対応クライアントからの呼び出しを受け入れます。 クライアントアプリは、プレゼンス、連絡先、インスタントメッセージング、VoIP、ビデオ会議、共同作業のために REST インターフェイスを介して通信します。 UCWA は、P-GET ベースのチャネルを使って、着信通話、インスタントメッセージの受信、クライアントアプリへのメッセージなどのイベントを送信します。
     
-    > [!NOTE]
-    > <em>REST</em> (Representational State Transfer) は、多くのファームで広範囲に採用されている、配信システム向けのソフトウェア アーキテクチャ スタイルで、一般的に Web サービスの要件に適しています。
-
-
-  - **Lync Server 2013 Mobility Service (Mcx)**   このサービスは、インスタント メッセージング (IM)、プレゼンス、連絡先などの Lync 機能を、モバイル デバイスでサポートします。Mobility Service は、各プールのすべての フロント エンド サーバーにインストールされ、モバイル デバイス上で Lync 機能をサポートします。 Lync Server 2013 をインストールすると、新しい仮想ディレクトリ (Mcx) が フロント エンド サーバーの内部 Web サイトおよび外部 Web サイトの両方に作成されます。
+    <div>
     
 
-    > [!IMPORTANT]
-    > Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月が適用された Lync Server 2013 では、Lync Server 2010 の累積的な更新プログラム: 2011 年 11 月で導入された Mobility Service (一般に Mcx と呼ばれる) と UCWA Web コンポーネントの両方をサポートします。この 2 つの Mobility Service を組み合わせると、 Lync Server 2013 上の Lync 2010 Mobile および Lync 2013 モバイル クライアントとの相互運用とユーザーの利用が可能になります。
+    > [!NOTE]  
+    > <EM>REST</EM>または表現は、さまざまな形式で広く採用されている分散システム向けのソフトウェアアーキテクチャスタイルであり、一般の Web サービスの要件にも適しています。
 
-
-
-  - **Lync Server 2013 自動検出サービス**   このサービスはユーザーの場所を特定します。さらに、Lync Server 2013 Web サービス用の内部および外部 URL、Mcx または UCWA 用の URL などのリソースを、ネットワークの場所にかかわらず、モバイル デバイスやその他の Lync クライアントが検出できるようにします。自動検出は、ハードコードされたホスト名 (ネットワーク内部のユーザーの場合は lyncdiscoverinternal、ネットワーク外部のユーザーの場合は lyncdiscover) およびユーザーの SIP ドメインを使用します。また、HTTP または HTTPS のどちらかを使用するクライアント接続をサポートします。
     
-    自動検出サービスは、すべての フロント エンド サーバーと各プールのすべての ディレクターにインストールされ、モバイル デバイスで Lync 機能をサポートします。自動検出サービスをインストールすると、新しい仮想ディレクトリ (Autodiscover) が フロント エンド サーバーと ディレクターの内部および外部 Web サイトに作成されます。
+    </div>
+
+  - **Lync Server 2013 モビリティサービス (mcx)**   このサービスは、モバイルデバイスでのインスタントメッセージング (IM)、プレゼンス、連絡先などの Lync 機能をサポートします。 モバイルデバイスで Lync 機能をサポートするには、各プールの各フロントエンドサーバーにモビリティサービスがインストールされます。 Lync Server 2013 をインストールすると、内部 web サイトとフロントエンドサーバー上の外部 web サイトの両方に新しい仮想ディレクトリ (Mcx) が作成されます。
     
-    > [!NOTE]
-    > 自動検出サービスは、モバイル クライアント サービスの提供時に引き続き重要なコンポーネントなので、ここに記載されています。すべてのクライアントに対してサービスを提供するために、 Lync Server 2013 における自動検出の役割が拡張されました。自動検出サービスの計画に関する詳細については、「<a href="lync-server-2013-planning-for-autodiscover.md">自動検出の計画</a>」を参照してください。
-
-
-  - **プッシュ通知サービス**   このサービスは、クラウドベースのサービスで、Lync Online データセンターに存在します。サポートされている Apple iOS デバイスまたは Windows Phone の Lync モバイル アプリケーションは、非アクティブの場合、新しいインスタント メッセージング (IM) の招待状、不在着信のインスタント メッセージ、不在着信、ボイス メールなどの新しいイベントに応答できません。これは、これらのデバイスがバックグラウンドで動作するモバイル アプリケーションをサポートしないためです。このような場合、新しいイベント用の*プッシュ通知*と呼ばれる通知がモバイル デバイスに送信されます。Mobility Service は、通知をクラウドベースのプッシュ通知サービスに送信し、プッシュ通知サービスはその通知を Apple Push Notification Service (APNS) (サポートされている Apple iOS デバイス用) または Microsoft Push Notification Service (MPNS) (Windows Phone 用) に送信します。最後に、APNS または MPNS がその通知をモバイル デバイスに送信します。その後、ユーザーはモバイル デバイス上でこの通知にアクセスしてアプリケーションをアクティブにすることができます。
+    <div>
     
-    Apple デバイスまたは Windows Phone デバイス上の Lync 2010 Mobile では、プッシュ通知を使用します。Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月で導入された Apple デバイス用の Lync 2013 モバイル クライアントは、プッシュ通知または Push Notification Clearing House (PNCH) を使用しません。
 
-次の図は、プッシュ通知サービスが UCWA および Lync 2013 モバイル クライアントを使用する Lync Server 2013 トポロジとどのように適合しているかを示しています。
+    > [!IMPORTANT]  
+    > Lync server 2013 の累積更新プログラムを含む lync server 2013: 年2月2013では、Lync Server 2010 の累積的な更新プログラムで導入されたモビリティサービスの両方がサポートされます。11月2011、一般的には Mcx、UCWA web コンポーネント。 この2つのモバイルサービスを組み合わせることで、lync 2010 Mobile クライアントと lync 2013 モバイルクライアントを使用するユーザーは、Lync Server 2013 で相互運用性と使用を行うことができます。
 
-![プッシュ通知サービス UCWA](images/Hh690037.166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae(OCS.15).jpg "プッシュ通知サービス UCWA")
+    
+    </div>
 
-Mcx サービスは、 Lync Server 2010 の累積的な更新プログラム: 2011 年 11 月で導入され、 Lync 2010 Mobile クライアント向けのサービスを提供します。次の図は、Mcx および Lync 2010 Mobile クライアントを使用するトポロジに適用されるプッシュ通知サービスを示しています。
+  - **Lync server 2013 自動検出サービス**   このサービスは、ユーザーの場所を特定し、モバイルデバイスや他の lync クライアントが lync Server 2013 Web サービスの内部と外部の url、および、ネットワークの場所に関係なく、mcx または UCWA。 自動検出では、ハードコーディングされたホスト名 (ネットワーク内のユーザー向けの lyncdiscover、ネットワーク外のユーザー向けの lyncdiscoverinternal、ユーザーの SIP ドメイン) が使用されます。 HTTP または HTTPS を使用しているクライアント接続をサポートします。
+    
+    自動検出サービスは、各フロントエンドサーバーにインストールされ、モバイルデバイスで Lync 機能をサポートする各プールの各ディレクターにインストールされます。 自動検出サービスをインストールすると、フロントエンドサーバーとディレクターの両方で、内部 web サイトと外部 web サイトの両方に新しい仮想ディレクトリ (自動検出) が作成されます。
+    
+    <div>
+    
 
-![プッシュ通知サービス MCX](images/Hh690037.3081634e-60e7-4348-b24e-bbbf05a90f5f(OCS.15).jpg "プッシュ通知サービス MCX")
+    > [!NOTE]  
+    > 自動検出サービスは、モバイルクライアントサービスを提供するときに重要なコンポーネントであるため、ここに記載されています。 Lync Server 2013 での自動検出の役割は、すべてのクライアントに対してサービスを提供するために拡張されています。 自動検出サービスの計画について詳しくは、「 <A href="lync-server-2013-planning-for-autodiscover.md">Lync Server 2013 での自動検出の計画</A>」をご覧ください。
 
-## サポートされるトポロジ
+    
+    </div>
 
-Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月を適用すると、次のトポロジで Lync 2013 モバイル クライアント機能用のモビリティをサポートするために、UCWA Web コンポーネントが追加されます。
+  - **プッシュ通知サービス**   このサービスは、Lync Online データセンターにあるクラウドベースのサービスです。 サポートされている Apple iOS デバイスまたは Windows Phone の Lync モバイルアプリケーションが非アクティブになっていると、新しいインスタントメッセージ (IM) の招待、不在着信メッセージ、不在着信、ボイスメールなど、これらのデバイスはサポートされていないため、新しいイベントに応答できません。バックグラウンドで実行されているモバイルアプリケーション。 このような場合には、新しいイベントの通知 (*プッシュ通知*と呼ばれる) がモバイルデバイスに送信されます。 モバイルサービスはクラウドベースのプッシュ通知サービスに通知を送信します。これにより、Apple Push Notification Service (APNS) (サポートされている Apple iOS デバイスの場合) または Microsoft プッシュ通知サービス (MPNS) に通知が送信されます。) (Windows Phone の場合) がモバイルデバイスに送信されます。 ユーザーは、モバイルデバイスで通知に応答して、アプリケーションをアクティブ化することができます。
+    
+    Apple と Windows Phone デバイス上の Lync 2010 Mobile では、プッシュ通知が使われます。 Apple デバイス向け Lync 2013 モバイルクライアントは、Lync Server 2013 の累積更新プログラムで導入されました。年2月 7 2013 日に、プッシュ通知またはプッシュ通知のクリアリングハウス (PNCH) を使用しなくなりました。
 
-  - Lync Server 2013  Standard Edition
+次の図は、UCWA と Lync 2013 モバイルクライアントを使用する Lync Server 2013 トポロジ内でプッシュ通知サービスがどのように適合するかを示しています。
 
-  - Lync Server 2013 Enterprise Edition
+![166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae](images/Hh690037.166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae(OCS.15).jpg "166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae")
 
-エッジ サーバーは Lync Server 2010  エッジ サーバーになります。
+Lync Server 2010 向けの累積的な更新プログラムで導入されました: 2011 年11月、Mcx サービスは Lync 2010 モバイルクライアントにサービスを提供します。 次の図は、Mcx と Lync 2010 モバイルクライアントを使用したトポロジに適用される、プッシュ通知サービスを示しています。
 
-Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月が適用されていない Lync Server 2013 の展開では、Mcx Mobility Service を使用し、 Lync 2010 Mobile に対してのみサービスを提供できます。
+![3081634e-60e7-4348-b24e-bbbf05a90f5f](images/Hh690037.3081634e-60e7-4348-b24e-bbbf05a90f5f(OCS.15).jpg "3081634e-60e7-4348-b24e-bbbf05a90f5f")
+
+</div>
+
+<div>
+
+## <a name="supported-topologies"></a>サポートされるトポロジ
+
+Lync Server 2013 の累積的な更新プログラムの適用: 2013 年2月に、次のトポロジでの Lync 2013 モバイルクライアント機能の機動性をサポートするために、UCWA web コンポーネントが追加されます。
+
+  - Lync Server 2013 Standard Edition
+
+  - Lync Server 2013 Enterprise Edition
+
+エッジサーバーは、Lync Server 2010 Edge サーバーにすることができます。
+
+Lync server 2013 の累積更新プログラムが適用されていない Lync Server 2013 の展開: 2013 年2月は、Mcx Mobility Service を使用し、Lync 2010 Mobile のサービスのみを提供します。
+
+<div>
 
 
-> [!IMPORTANT]
-> Mobility Service は、 仲介サーバーの役割と併置される フロント エンド サーバーで、2 つのネットワーク インターフェイスを使用してサポートされますが、適切な手順を使用してインターフェイスを構成する必要があります。 仲介サーバーとして通信する特定のインターフェイスと、 フロント エンド サーバーとして通信するネットワーク インターフェイス IP に対して IP アドレスを割り当てる必要があります。 トポロジ ビルダーで割り当てを行うには、既定の [<STRONG>すべての構成済み IP アドレスを使用する</STRONG>] を使用するのではなく、サービスごとに適切な IP アドレスを選択します。
+> [!IMPORTANT]  
+> モバイルサービスは、2つのネットワークインターフェイスで仲介サーバーの役割と連携しているフロントエンドサーバーでサポートされますが、インターフェイスを構成するための適切な手順を実行する必要があります。 仲介サーバーとして通信する特定のインターフェイスと、フロントエンドサーバーとして通信するネットワークインターフェイス IP に IP アドレスを割り当てる必要があります。 これを行うには、トポロジビルダーで、既定の [<STRONG>すべての構成された ip アドレスを使用</STRONG>する] ではなく、各サービスの正しい ip アドレスを選択します。
 
 
 
-## 関連項目
+</div>
 
-#### その他のリソース
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 の外部ユーザー アクセスの計画](lync-server-2013-planning-for-external-user-access.md)  
 [Lync Server 2013 での外部ユーザー アクセスの展開](lync-server-2013-deploying-external-user-access.md)  
-[自動検出の計画](lync-server-2013-planning-for-autodiscover.md)
+[Lync Server 2013 での自動検出の計画](lync-server-2013-planning-for-autodiscover.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

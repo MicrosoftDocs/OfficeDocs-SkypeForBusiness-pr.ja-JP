@@ -1,25 +1,51 @@
-﻿---
-title: 'Lync Server 2013: Tenants テーブル'
-TOCTitle: Tenants テーブル
-ms:assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412950(v=OCS.15)
-ms:contentKeyID: 48273488
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tenants テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Tenants table
+ms:assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412950(v=OCS.15)
+ms:contentKeyID: 48185309
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a7da863aa2b713f874aba00f5a4f481f45fb79b3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848529"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の Tenants テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tenants-table-in-lync-server-2013"></a>Lync Server 2013 の Tenants テーブル
 
-Tenants テーブルは、各種テナントの一覧を格納しているサポート テーブルです。テーブル内の各レコードが 1 つのテナントを表します。
+</div>
 
-> [!NOTE]
-> 内部設置型展開では、CDR は組み込みのテナント ID を使用して、パブリック IM 接続、フェデレーション、匿名など、さまざまな認証の種類を示します。
+<div id="mainSection">
 
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-28_
+
+テナントの表は、さまざまなテナントの一覧を格納するサポートテーブルです。 テーブル内の各レコードは、1つのテナントを表します。
+
+<div>
+
+
+> [!NOTE]  
+> オンプレミスの展開では、CDR はビルトインのテナント ID を使用して、パブリック IM 接続、フェデレーション、匿名など、さまざまな認証の種類を示します。
+
+
+
+</div>
 
 
 <table>
@@ -39,23 +65,34 @@ Tenants テーブルは、各種テナントの一覧を格納しているサポ
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>TenantId</strong></p></td>
+<td><p><strong>テナント</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>このテナント ID を識別する一意の番号。</p></td>
+<td><p>Primary</p></td>
+<td><p>このテナント ID を識別する一意の番号です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TenantKey</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p></p></td>
-<td><p>有効な値は次のとおりです。</p>
+<td><p>nvarchar(256)</p></td>
+<td></td>
+<td><p>許可される値:</p>
 <ul>
-<li><p>00000000-0000-0000-0000-000000000000 - エンタープライズ</p></li>
-<li><p>00000000-0000-0000-0000-000000000001 - フェデレーション</p></li>
-<li><p>00000000-0000-0000-0000-000000000002 - 匿名</p></li>
-<li><p>00000000-0000-0000-0000-000000000003 - パブリック IM 接続</p></li>
+<li><p>00000000-0000-0000-0000-000000000000 – Enterprise</p></li>
+<li><p>00000000-0000-0000-0000-000000000001 –フェデレーション</p></li>
+<li><p>00000000-0000-0000-0000-000000000002 –匿名</p></li>
+<li><p>00000000-0000-0000-0000-000000000003 –パブリック IM 接続</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

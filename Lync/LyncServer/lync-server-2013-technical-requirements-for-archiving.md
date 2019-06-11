@@ -1,57 +1,93 @@
-﻿---
-title: 'Lync Server 2013: アーカイブの技術要件'
-TOCTitle: アーカイブの技術要件
-ms:assetid: 896d60e2-be4b-462d-8357-4cd307ab7304
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205059(v=OCS.15)
-ms:contentKeyID: 48272805
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: アーカイブの技術要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Archiving
+ms:assetid: 896d60e2-be4b-462d-8357-4cd307ab7304
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205059(v=OCS.15)
+ms:contentKeyID: 48184732
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1e4847815f10a48b954d3d83348d95cc137f4b39
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848559"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のアーカイブの技術要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブの技術要件
 
-Lync Server 2013 の技術上の要件を次に示します。
+</div>
 
-  - インフラストラクチャの要件
+<div id="mainSection">
 
-  - アーカイブ用にインストールする必要があるソフトウェア
+<div id="mainBody">
 
-  - アーカイブ用のデータ ストレージの要件
+<span> </span>
 
-  - アーカイブ展開における拡張の要件および考慮事項
+_**最終更新日:** 2012-10-09_
 
-  - アーカイブ データベースのパフォーマンスの要件および考慮事項
+Lync Server 2013 の技術要件には、次のようなものがあります。
 
-> [!NOTE]
-> この Lync Server 2013 リリースでは、拡張およびパフォーマンス情報は使用できません。
+  - インフラストラクチャの要件。
+
+  - アーカイブ用にインストールする必要がある必須ソフトウェア。
+
+  - アーカイブのためのデータストレージ要件。
+
+  - アーカイブの展開に必要なスケーリングと考慮事項。
+
+  - アーカイブデータベースのパフォーマンス要件と考慮事項。
+
+<div>
 
 
-## インフラストラクチャの要件
+> [!NOTE]  
+> スケーリングとパフォーマンスに関する情報は、この Lync Server 2013 リリースでは利用できません。
 
-Lync Server 2013 アーカイブ インフラストラクチャの要件は、 Lync Server 2013 の展開と同じです。詳細については、「計画」のドキュメントの「[Lync Server 2013 に関するインフラストラクチャ要件の決定](lync-server-2013-determining-your-infrastructure-requirements.md)」を参照してください。
 
-## アーカイブの前提条件
 
-Lync Server 2013 では、アーカイブの前提条件が簡素化されています。理由は次のとおりです。
+</div>
 
-  - サーバーの役割からアーカイブ サーバーが除外されました。代わりに、統合データ収集エージェントが、プール内のフロントエンド サーバーと Standard Edition サーバーで実行され、アーカイブ用のデータがキャプチャされます。したがって、アーカイブ用に別のシステム プラットフォームを設定する必要はありません。
+<div>
 
-  - アーカイブに会議コンテンツの一時記憶域として Lync Server 2013 ファイル ストレージを使用するため、アーカイブ用に別のファイル ストアを設定する必要はありません。
+## <a name="infrastructure-requirements"></a>インフラストラクチャの要件
 
-  - Lync Server 2013 では、メッセージ キューは不要です。
+Lync Server 2013 アーカイブインフラストラクチャの要件は、Lync Server 2013 の展開の場合と同じです。 詳細については、計画ドキュメントで「 [Lync Server 2013 のインフラストラクチャ要件を決定](lync-server-2013-determining-your-infrastructure-requirements.md)する」を参照してください。
 
-## アーカイブ用のデータ ストレージの要件
+</div>
 
-また、アーカイブ ストレージ用のインフラストラクチャを設定する必要があります。これには、次のどちらか、または両方があります。
+<div>
 
-  - **Microsoft Exchange ストレージ**。PowerPoint プレゼンテーションなどの会議コンテンツ ファイルは、添付ファイルとしてアーカイブされます。 Microsoft Exchange 統合を使用して Lync アーカイブ データを Exchange コンプライアンス データと共に格納する場合は、 Exchange 展開に Exchange 2013 を使用し、最大ストレージ サイズで会議コンテンツ ファイルのストレージがサポートされていることを確認する必要があります。 Microsoft Exchange 統合オプションを使用してアーカイブを展開する場合は、 Lync アーカイブ データを、 Exchange 2013 サーバーに所属するユーザーの Exchange 2013 コンプライアンス データとのみ格納します。 Exchange 2013 は、 Microsoft Exchange 統合オプションを使用してアーカイブを展開および有効にする前に展開する必要があります。 Exchange 2013 ストレージの使用を選択する場合は、 Exchange 2013 サーバーに所属しない Lync ユーザーが存在しない限り、アーカイブ用に別の SQL Server データベースを展開する必要はありません。
+## <a name="archiving-prerequisites"></a>アーカイブの前提条件
 
-  - **アーカイブ用の SQL Server データベース ストレージ**。Exchange 2013 サーバーに所属しないユーザーをサポートする場合、または Microsoft Exchange 統合オプションを使用しない場合は、SQL Server データベースを使用したアーカイブ ストレージを展開する必要があります。Lync Server 2013 は、次の 64 ビット版 SQL Server をサポートします。
+Lync Server 2013 は、次の理由によりアーカイブの前提条件を合理化します。
+
+  - アーカイブサーバーは、サーバーの役割ではなくなりました。 代わりに、統合されたデータ収集エージェントは、アーカイブ用のデータをキャプチャするために、プールのフロントエンドサーバーと標準エディションのサーバーで実行されるため、アーカイブ用に個別のシステムプラットフォームを設定する必要はありません。
+
+  - アーカイブでは、会議コンテンツファイルの一時的なストレージとして Lync Server 2013 ファイルストレージが使用されるため、アーカイブ用に別のファイルストアを設定する必要はありません。
+
+  - Lync Server 2013 では、メッセージキューは必要ありません。
+
+</div>
+
+<div>
+
+## <a name="data-storage-requirements-for-archiving"></a>アーカイブのためのデータストレージ要件
+
+さらに、アーカイブストレージ用のインフラストラクチャを設定する必要があります。 これには、次のいずれかまたは両方が含まれます。
+
+  - **Microsoft Exchange ストレージ**。 Meeting content files, such as PowerPoint presentations, are archived as attachments. Microsoft Exchange の統合を使用して、Lync アーカイブデータが Exchange のコンプライアンスデータと共に保存されるようにするには、exchange 2013 を Exchange の展開に使用し、最大記憶域サイズが会議コンテンツファイルの記憶域をサポートしていることを確認する必要があります。 [Microsoft Exchange 統合] オプションを使用してアーカイブを展開する場合、Lync アーカイブデータは exchange 2013 サーバーをホームとしているユーザーに対してのみ Exchange 2013 のコンプライアンスデータと共に保存されます。 Microsoft Exchange 統合オプションを使用してアーカイブを展開して有効にする前に、Exchange 2013 を展開する必要があります。 Exchange 2013 ストレージを使用する場合は、Exchange 2013 サーバーをホームにしていない Lync ユーザーがいない限り、アーカイブ用に個別の SQL Server データベースを展開する必要はありません。
+
+  - **アーカイブ用の SQL Server データベースストレージ**。 Exchange 2013 サーバーを使っていないユーザーをサポートする場合、または Microsoft Exchange の統合オプションを使用しない場合は、SQL Server データベースを使ってアーカイブストレージを展開する必要があります。 Lync Server 2013 では、次の64ビットバージョンの SQL Server がサポートされています。
     
       - Microsoft SQL Server 2008 R2 Enterprise
     
@@ -59,10 +95,28 @@ Lync Server 2013 では、アーカイブの前提条件が簡素化されてい
     
       - Microsoft SQL Server 2012 Enterprise
     
-      - Microsoft SQL Server 2012 Standard
+      - Microsoft SQL Server 2012 標準
     
-    > [!NOTE]
-    > Microsoft SQL Server 2008 R2 Express と Microsoft SQL Server 2012 Express をアーカイブに使用することはできません。32 ビット版 SQL Server はサポートされません。SQL Server の要件と制限の関連情報については、「計画」のドキュメントまたは「サポート」のドキュメントの「<a href="lync-server-2013-database-software-support.md">Lync Server 2013 でのデータベース ソフトウェアのサポート</a>」を参照してください。
+    <div>
     
-    アーカイブを展開し、有効化する前に、 SQL Server プラットフォームを設定する必要があります。トポロジの公開に使用するアカウントに適切な管理権限とアクセス許可がある場合、トポロジを公開するときにアーカイブ データベース (LcsLog) を作成できます。インストール手順の一部を含め、データベースを後で作成することもできます。 SQL Server の詳細については、SQL Server TechCenter ( [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x411)) を参照してください。
+
+    > [!NOTE]  
+    > Microsoft SQL Server 2008 R2 Express および Microsoft SQL Server 2012 Express はアーカイブに対応していません。 32ビット版の SQL Server はサポートされていません。 SQL Server のその他の要件と制限については、計画ドキュメントまたはサポートサポートドキュメントの「 <A href="lync-server-2013-database-software-support.md">Lync Server 2013 でのデータベースソフトウェアのサポート</A>」を参照してください。
+
+    
+    </div>
+    
+    アーカイブを展開して有効にする前に、SQL Server プラットフォームをセットアップする必要があります。 トポロジの公開に使用するアカウントに適切な管理権限とアクセス許可がある場合、トポロジを公開するときにアーカイブ データベース (LcsLog) を作成できます。 また、インストール手順の一部として、後でデータベースを作成することもできます。 SQL Server の詳細については、SQL Server の[http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)TechCenter を参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

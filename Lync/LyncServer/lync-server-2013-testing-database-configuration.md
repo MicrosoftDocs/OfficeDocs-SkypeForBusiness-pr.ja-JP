@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing database configuration'
+---
+title: 'Lync Server 2013: データベース構成のテスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing database configuration
 ms:assetid: 60f7fcd2-5efe-4791-b159-b0f9bf39a41b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn727307(v=OCS.15)
-ms:contentKeyID: 62388706
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727307(v=OCS.15)
+ms:contentKeyID: 63969606
 ms.date: 07/07/2016
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 805b62e234f7a5469d3af3677ba81478fb3abc8f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848450"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing database configuration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-07-07_
+# <a name="testing-database-configuration-in-lync-server-2013"></a>Lync Server 2013 でのデータベース構成のテスト
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2016-07-07_
 
 
 <table>
@@ -23,156 +43,186 @@ _**トピックの最終更新日:** 2016-07-07_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>[毎日]</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group, and need to have Administrator privileges on the SQL server.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsDatabase</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーであり、SQL Server の管理者権限を持っている必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合、ユーザーには、<strong>テスト用のデータベース</strong>コマンドレットを実行する権限を持つ RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDatabase&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsDatabase** cmdlet verifies connectivity to one or more Lync Server 2013 databases. When run, the **Test-CsDatabase** cmdlet reads the Lync Server topology, attempts to connect to relevant databases, and then reports back the success or failure of each try. If a connection can be made, the cmdlet will also report back such information as the database name, SQL Server version information, and the location of any installed mirror databases.
+## <a name="description"></a>説明
 
-## Running the test
+**テスト用のデータベース**コマンドレットは、1つ以上の Lync Server 2013 データベースへの接続を確認します。 **テスト用のデータベース**コマンドレットを実行すると、Lync Server トポロジを読み取り、関連データベースに接続しようとし、各試行の成功または失敗を報告します。 接続できる場合は、コマンドレットによって、データベース名、SQL Server のバージョン情報、インストールされているミラーデータベースの場所などの情報も報告されます。
 
-The command shown in Example 1 verifies the configuration of the Central Management database.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+例1に示すコマンドは、サーバーの全体管理データベースの構成を確認します。
 
     Test-CsDatabase -CentralManagementDatabase
 
-Example 2 verifies all the Lync Server databases installed on the computer atl-sql-001.litwareinc.com.
+使用例 2: コンピューター atl-sql-001.litwareinc.com にインストールされているすべての Lync Server データベースを確認します。
 
     Test-CsDatabase -ConfiguredDatabases -SqlServerFqdn "atl-sql-001.litwareinc.com"
 
-In Example 3, verification is performed only for the Archiving database installed on the computer atl-sql-001.litwareinc.com. Note that the SqlInstanceName parameter is included to specify the SQL Server instance (Archinst) where the Archiving database is located.
+例3では、コンピューター atl-sql-001.litwareinc.com にインストールされているアーカイブデータベースに対してのみ確認が行われます。 SqlInstanceName パラメーターは、アーカイブデータベースが配置されている SQL Server インスタンス (アーキテクチャ) を指定するために含まれていることに注意してください。
 
     Test-CsDatabase -DatabaseType "Archiving" -SqlServerFqdn "atl-sql-001.litwareinc.com" -SqlInstanceName "archinst"
 
-The command shown in Example 4 verifies the databases installed on the local computer.
+例4に示すコマンドは、ローカルコンピューターにインストールされているデータベースを確認します。
 
     Test-CsDatabase -LocalService
 
-## Determining success or failure
+</div>
 
-If database connectivity is configured correctly, you'll receive output similar to this, with the Succeed property marked as **True**:
+<div>
 
-SqlServerFqdn : atl-sql-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-SqlInstanceName : rtc
+データベース接続が適切に構成されている場合は、次のような出力が返されます。これは、成功プロパティが**True**とマークされていることになります。
+
+SqlServerFqdn: atl-sql-001.litwareinc.com
+
+SqlInstanceName: rtc
 
 MirrorSqlServerFqdn :
 
 MirrorSqlInstanceName :
 
-DatabaseName : xds
+DatabaseName: xds
 
-DataSource :
+データソース
 
 SQLServerVersion :
 
 ExpectedVersion : 10.13.2
 
-InstalledVersion :
+バージョン:
 
-Succeed : True
+成功: True
 
-SqlServerFqdn : atl-sql-001.litwareinc.com
+SqlServerFqdn: atl-sql-001.litwareinc.com
 
-SqlInstanceName : rtc
+SqlInstanceName: rtc
 
 MirrorSqlServerFqdn :
 
 MirrorSqlInstanceName :
 
-DatabaseName : lis
+DatabaseName: lis
 
-DataSource :
+データソース
 
 SQLServerVersion :
 
-ExpectedVersion : 3.1.1
+ExpectedVersion: 3.1.1
 
-InstalledVersion :
+バージョン:
 
-Succeed : True
+成功: True
 
-If the database is configured correctly but still available, the Succeed field will be shown as **False**, and additional warnings and information will be provided:
+データベースが正しく構成されていても利用可能な場合は、"成功" フィールドに**False**と表示され、追加の警告と情報が提供されます。
 
-SqlServerFqdn : atl-sql-001.litwareinc.com
+SqlServerFqdn: atl-sql-001.litwareinc.com
 
-SqlInstanceName : rtc
+SqlInstanceName: rtc
 
 MirrorSqlServerFqdn :
 
 MirrorSqlInstanceName :
 
-DatabaseName : xds
+DatabaseName: xds
 
-DataSource :
+データソース
 
 SQLServerVersion :
 
 ExpectedVersion : 10.13.2
 
-InstalledVersion :
+バージョン:
 
-Succeed : False
+成功: False
 
-SqlServerFqdn : atl-cs-001.litwareinc.com
+SqlServerFqdn: atl-cs-001.litwareinc.com
 
-SqlInstanceName : rtc
+SqlInstanceName: rtc
 
 MirrorSqlServerFqdn :
 
 MirrorSqlInstanceName :
 
-DatabaseName : lis
+DatabaseName: lis
 
-DataSource :
+データソース
 
 SQLServerVersion :
 
-ExpectedVersion : 3.1.1
+ExpectedVersion: 3.1.1
 
-InstalledVersion :
+バージョン:
 
-Succeed : False
+成功: False
 
-WARNING: Test-CsDatabase encountered errors. Consult the log file for a
+警告: テスト-CsDatabase でエラーが発生しました。 ログファイルを参照してください。
 
-detailed analysis, and to make sure that all errors (2) and warnings (0) are addressed
+詳細な分析と、すべてのエラー (2) と警告 (0) が対応していることを確認する
 
-before continuing.
+続行してください。
 
-WARNING: Detailed results can be found at
+警告: 詳細な結果は次のページでご覧いただけます。
 
-"C:\\Users\\Testing\\AppData\\Local\\Temp\\2\\Test-CsDatabase-b18d488a-8044-4679-bbf2-
+"C:\\\\\\AppData\\ローカル\\Temp\\2\\テスト-csdatabase-b18d488a-8044-4679-bbf2-
 
-04d593cce8e6.html".
+04d593cce8e6 "。
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why **Test-CsDatabase** might fail:
+<div>
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
 
-  - This command will fail if the database is misconfigured or not yet deployed.
+次に **、テスト用のデータベース**が失敗する一般的な理由をいくつか示します。
 
-## 関連項目
+  - 指定されたパラメーター値が正しくありません。 使用する場合は、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。 省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
 
-#### その他のリソース
+  - データベースが正しく構成されていないか、まだ配置されていない場合、このコマンドは失敗します。
 
-[Get-CsDatabaseMirrorState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDatabaseMirrorState)  
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
-[Get-CsUserDatabaseState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserDatabaseState)
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Get-CsDatabaseMirrorState](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  
+[CsService の入手](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[Get-CsUserDatabaseState](https://docs.microsoft.com/powershell/module/skype/Get-CsUserDatabaseState)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

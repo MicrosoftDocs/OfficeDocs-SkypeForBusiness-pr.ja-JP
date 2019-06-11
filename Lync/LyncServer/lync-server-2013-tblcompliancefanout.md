@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblComplianceFanout'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblComplianceFanout
 ms:assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615050(v=OCS.15)
-ms:contentKeyID: 48274140
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615050(v=OCS.15)
+ms:contentKeyID: 48185828
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 6edae4c6e37f5abb6714e7c6863c80b7a6e7756b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848600"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 内の tblComplianceFanout
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblcompliancefanout-in-lync-server-2013"></a>Lync Server 2013 内の tblComplianceFanout
 
-tblComplianceFanout には、コンプライアンス イベントを処理したすべてのサーバーが格納されています。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-12_
+
+tblComplianceFanout には、コンプライアンスイベントを処理したすべてのサーバーが含まれています。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -41,13 +61,13 @@ tblComplianceFanout には、コンプライアンス イベントを処理し�
 <tr class="even">
 <td><p>fanoutServerID</p></td>
 <td><p>int</p></td>
-<td><p>サーバーの ID (tblServerIdentity.serverID テーブルに対応)。</p></td>
+<td><p>サーバー id (serverID テーブルに対応する tblServerIdentity)。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="key"></a>キー
 
 <table>
 <colgroup>
@@ -63,8 +83,19 @@ tblComplianceFanout には、コンプライアンス イベントを処理し�
 <tbody>
 <tr class="odd">
 <td><p>fanoutEventID</p></td>
-<td><p>tblComplianceData.cmplEventID テーブルを参照する外部キー。</p></td>
+<td><p>TblComplianceData Pleventid テーブルで参照する外部キー。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

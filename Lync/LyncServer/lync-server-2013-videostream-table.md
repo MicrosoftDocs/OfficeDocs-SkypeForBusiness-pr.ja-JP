@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: VideoStream テーブル'
-TOCTitle: VideoStream テーブル
-ms:assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425928(v=OCS.15)
-ms:contentKeyID: 48271910
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: VideoStream テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: VideoStream table
+ms:assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425928(v=OCS.15)
+ms:contentKeyID: 48184014
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 98e0ad3f7c18032dd903d2f8d1d41428ccc12cf9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848225"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の VideoStream テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="videostream-table-in-lync-server-2013"></a>Lync Server 2013 の VideoStream テーブル
 
-1 つのレコードが 1 つのビデオ ストリームを表します。通常、1 つのビデオ メディア ラインに 2 つのビデオ ストリームが含まれます。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-12-13_
+
+各レコードは1つのビデオストリームを表します。 1つのビデオメディアラインには通常、2つのビデオストリームが含まれています。
 
 
 <table>
@@ -37,497 +57,508 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a> から参照されます。</p></td>
+<td><p>Primary</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されている。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a> から参照されます。</p></td>
+<td><p>Primary</p></td>
+<td><p>MediaLine は、 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 のテーブル</a>から参照されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a> から参照されます。</p></td>
+<td><p>Primary</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されている。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>StreamID</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>メディア ライン内の一意の ID。</p></td>
+<td><p>Primary</p></td>
+<td><p>メディアライン内の一意の ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPayloadDescription</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>外部、プライマリ</p></td>
-<td><p>ペイロードの説明。詳細については、「<a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 の PayloadDescription テーブル</a>」を参照してください。</p></td>
+<td><p>外来、プライマリ</p></td>
+<td><p>ペイロードの説明。 詳細については、「 <a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 の PayloadDescription テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrival</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>リアルタイム制御プロトコル (RTCP) 統計情報に基づく平均ネットワーク ジッター。</p></td>
+<td><p>リアルタイム制御プロトコル (RTCP) の統計情報からの平均ネットワークジッター。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>ビデオ セッション時の最大ネットワーク ジッター。</p></td>
+<td><p>ビデオセッション中の最大ネットワークジッター。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RoundTrip</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>RTCP 統計情報に基づく往復時間。</p></td>
+<td><p>RTCP の統計情報からのラウンドトリップ時間。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RoundTripMax</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>ビデオ ストリームの最大往復時間。</p></td>
+<td><p>ビデオストリームの最大ラウンドトリップ時間。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PacketLossRate</strong></p></td>
-<td><p>decimal(5.4)</p></td>
+<td><p>10進数 (5, 4)</p></td>
 <td><p> </p></td>
-<td><p>通話時の平均パケット損失率。</p></td>
+<td><p>通話中の平均パケット損失率。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PacketLossRateMax</strong></p></td>
-<td><p>decimal(5.4)</p></td>
+<td><p>10進数 (5, 4)</p></td>
 <td><p> </p></td>
-<td><p>通話時に観測された最大パケット損失。</p></td>
+<td><p>通話中に発生したパケット損失の上限。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PacketUtilization</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>ビデオ ストリームのパケット数 (リアルタイム転送プロトコル、RTP)。</p></td>
+<td><p>ビデオストリームのパケット数 (リアルタイムトランスポートプロトコル、RTP)。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BandwidthEst</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>ビデオ ストリームの帯域幅の推定。</p></td>
+<td><p>ビデオストリームの帯域幅推定。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoResolution</strong></p></td>
-<td><p>char(9)</p></td>
+<td><p>char (9)</p></td>
 <td><p> </p></td>
-<td><p>幅×高さで示すビデオの解像度 (単位ピクセル)。文字列で報告されます。</p></td>
+<td><p>ピクセル幅にピクセルの高さを掛けたビデオの解像度。 文字列として報告されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoBitRateAvg</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>ビデオ ストリームの平均ビット レート。</p></td>
+<td><p>ビデオストリームの平均ビットレート。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>InboundVideoFrameRateAvg</strong></p></td>
-<td><p>decimal(9.4)</p></td>
+<td><p>10進数 (9, 4)</p></td>
 <td><p> </p></td>
-<td><p>ビデオの受信フレーム レート。</p></td>
+<td><p>ビデオフレームレートが適用されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutboundVideoFrameRateAvg</strong></p></td>
-<td><p>decimal(9.4)</p></td>
+<td><p>10進数 (9, 4)</p></td>
 <td><p> </p></td>
-<td><p>ビデオの送信フレーム レート。</p></td>
+<td><p>送信されたビデオフレームレート。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoBitRateMax</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>ビデオ セッション時の最大ビデオ ビット レート。</p></td>
+<td><p>ビデオセッション中の最大ビデオビットレート。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoFrameLossRate</strong></p></td>
-<td><p>decimal(9.4)</p></td>
+<td><p>10進数 (9, 4)</p></td>
 <td><p> </p></td>
-<td><p>失われた合計ビデオ フレーム数の割合。</p></td>
+<td><p>失われたビデオフレームの合計のパーセンテージ。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoFEC</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>該当なし。</p></td>
+<td><p>使用できません。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>VideoLocalFrameLossPercentageAvg</strong></p></td>
-<td><p>decimal(9.4)</p></td>
-<td><p></p></td>
-<td><p>失われた合計ビデオ フレーム数の割合。</p></td>
+<td><p><strong>ビデオ</strong></p></td>
+<td><p>10進数 (9, 4)</p></td>
+<td></td>
+<td><p>失われたビデオフレームの合計のパーセンテージ。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CIFQualityRatio</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>Common Interchange Format (CIF) 解像度を使用した通話のパーセンテージ。</p></td>
+<td></td>
+<td><p>共通インターチェンジ形式 (CIF) の解像度での通話の割合。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VGAQualityRatio</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>VGA 解像度を使用した通話のパーセンテージ。</p></td>
+<td></td>
+<td><p>VGA 解像度での通話の割合。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>HD720QualityRatio</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>HD720 解像度を使用した通話のパーセンテージ。</p></td>
+<td></td>
+<td><p>HD720 の解像度での通話の割合。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NoneDropRatio</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>フレームが欠落していない通話時間のパーセンテージ。</p></td>
+<td></td>
+<td><p>フレームドロップなしの通話時間の割合。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BDropRatio</strong></p></td>
+<td><p><strong>Bスペック</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>B フレームが欠落している通話時間のパーセンテージ。</p></td>
+<td></td>
+<td><p>B フレームドロップでの通話時間の割合。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>BPDropRatio</strong></p></td>
+<td><p><strong>Bp・スペック</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>BP フレームが欠落している通話時間のパーセンテージ。</p></td>
+<td></td>
+<td><p>BP フレームドロップでの通話時間の割合。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BPSPDropRatio</strong></p></td>
+<td><p><strong>Bpsp・ bp</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>BPSP フレームが欠落している通話時間のパーセンテージ。</p></td>
+<td></td>
+<td><p>BPSP フレームドロップでの通話時間の割合。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BPSPIDropRatio</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>BPSPI フレームが欠落している通話時間のパーセンテージ。</p></td>
+<td></td>
+<td><p>BPSPI フレームドロップでの通話時間の割合。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Inbound</strong></p></td>
+<td><p><strong>トラフィック</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>受信側のストリーム データが受信されます。</p></td>
+<td><p>受信側のストリームデータが受信されます。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Outbound</strong></p></td>
+<td><p><strong>発信</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>送信側のストリーム データが受信されます。</p></td>
+<td><p>送信側のストリームデータが受信されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SenderIsCallerPAI</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>1 は、ストリームの方向が発信者から呼び出し先へ向かうことを意味します。</p>
-<p>0 は、ストリームの方向が呼び出し先から発信者へ向かうことを意味します。</p></td>
+<td><p>1ストリームの方向は、呼び出し元から呼び出し先へとなります。</p>
+<p>0は、ストリームの方向を呼び出し元から呼び出し元に転送します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LossCongestionPercent</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>呼び出しが損失輻輳状態にあった時間の割合を示します。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>通話が切断された輻輳状態であった時間の割合を示します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DelayCongestionPercent</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>ネットワーク パケットの遅延到着により輻輳が発生している間に行われた呼び出しの割合を示します。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>ネットワークパケットが遅延したために発生した、通話の割合を示します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ContentionDetectedPercent</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>呼び出しがネットワーク リソースを奪い合っていた時間の割合を示します。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>通話がネットワークリソースに対して競合した時間の割合を示します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BandwidthEstMin</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>呼び出し中に測定された最小推定帯域幅。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>通話中の最小帯域幅推定値。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BandwidthEstMax</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>呼び出し中に測定された最大推定帯域幅。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>通話中に測定された帯域幅推定の最大量。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BandwidthEstStdDev</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>呼び出し中に測定された推定帯域幅の標準偏差。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>通話中に測定された帯域幅推定の標準偏差。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BandwidthEstAvge</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>呼び出し中に測定された平均推定帯域幅。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>通話中に計測された平均帯域幅推定量。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowBandwidthForMultiview</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>ネットワーク接続がマルチビュー ビデオをサポートできなかったとエンドポイントによって判断された通話のパーセンテージ。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>エンドポイントが、ネットワーク接続が multiview ビデオをサポートしていないと判断した通話の割合。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayTotal</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>一方向の遅延の合計時間。相対的な一方向の遅延によって、クライアントとサーバーの間の遅延が測定されます。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>一方向の待機時間の合計。 相対的な一方向の待ち時間は、クライアントとサーバーの間の遅延を測定します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverage</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>一方向の遅延の平均時間。相対的な一方向の遅延によって、クライアントとサーバーの間の遅延が測定されます。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>一方向の待ち時間の平均値。 相対的な一方向の待ち時間は、クライアントとサーバーの間の遅延を測定します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayMax</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>一方向の遅延の最大時間。相対的な一方向の遅延によって、クライアントとサーバーの間の遅延が測定されます。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>一方向の待機時間の上限。 相対的な一方向の待ち時間は、クライアントとサーバーの間の遅延を測定します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>一方向のバーストの合計発生数。&quot;バースト的な&quot; 伝送とは、安定的なストリームではなく、予測できないバーストでデータが流れている伝送のことです。この指標では、クライアントとサーバーの間のデータ フローが測定されます。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>1方向のバースト発生の合計。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。 このメトリックは、クライアントとサーバー間のデータフローを計測します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>一方向のバーストの合計密度。&quot;バースト的な&quot; 伝送とは、安定的なストリームではなく、予測できないバーストでデータが流れている伝送のことです。この指標では、クライアントとサーバーの間のデータ フローが測定されます。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>全体的な1方向バースト密度。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。 このメトリックは、クライアントとサーバー間のデータフローを計測します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>一方向のバーストの合計期間。&quot;バースト的な&quot; 伝送とは、安定的なストリームではなく、予測できないバーストでデータが流れている伝送のことです。この指標では、クライアントとサーバーの間のデータ フローが測定されます。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>一方向のバースト期間の合計。 "Bursty" 伝送とは、安定したストリームと比べて予期しないバーストでデータが流れる伝送です。 このメトリックは、クライアントとサーバー間のデータフローを計測します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>一方向のギャップの合計発生数。&quot;バースト的な&quot; 伝送とは、安定的なストリームではなく、予測できないバーストでデータが流れている伝送のことです。ギャップは、これらのバースト間の遅延を示します。この指標では、クライアントとサーバーの間のデータ フローが測定されます。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>一方向のギャップ出現の合計。 "Bursty" 伝送とは、安定したストリームではなく、予期しないバーストでデータが流れる伝送です。ギャップは、このようなバーストの間の遅延を示します。 このメトリックは、クライアントとサーバー間のデータフローを計測します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>一方向のギャップの合計密度。&quot;バースト的な&quot; 伝送とは、安定的なストリームではなく、予測できないバーストでデータが流れている伝送のことです。ギャップは、これらのバースト間の遅延を示します。この指標では、クライアントとサーバーの間のデータ フローが測定されます。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>一方向のギャップの密度の合計。 "Bursty" 伝送とは、安定したストリームではなく、予期しないバーストでデータが流れる伝送です。ギャップは、このようなバーストの間の遅延を示します。 このメトリックは、クライアントとサーバー間のデータフローを計測します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>一方向のギャップの合計期間。&quot;バースト的な&quot; 伝送とは、安定的なストリームではなく、予測できないバーストでデータが流れている伝送のことです。ギャップは、これらのバースト間の遅延を示します。この指標では、クライアントとサーバーの間のデータ フローが測定されます。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>一方向のギャップ期間の合計。 "Bursty" 伝送とは、安定したストリームではなく、予期しないバーストでデータが流れる伝送です。ギャップは、このようなバーストの間の遅延を示します。 このメトリックは、クライアントとサーバー間のデータフローを計測します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>VideoPacketLossRate</strong></p></td>
-<td><p>decimal(9.4)</p></td>
-<td><p></p></td>
-<td><p>ビデオ パケットが失われたレート。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p><strong>パケット損失率</strong></p></td>
+<td><p>10進数 (9, 4)</p></td>
+<td></td>
+<td><p>ビデオパケットが失われた速度。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoAllocateBWAvg</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>ビデオに割り当てる平均帯域幅。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>ビデオに割り当てられている平均帯域幅。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SendCodecTypes</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>外部</p></td>
-<td><p>送信者が使用するビデオ コーデックの種類。詳細については、「<a href="lync-server-2013-codecdescription-table.md">CodecDescription テーブル</a>」を参照してください。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>送信者が使用するビデオコーデックの種類。 詳細については、「 <a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 の CodecDescription テーブル</a>」を参照してください。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>SendResolutionWidth</strong></p></td>
+<td><p><strong>Send解像度の幅</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>送信者が使用する解像度の幅。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>送信者が使用した解像度の幅。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SendResolutionHeight</strong></p></td>
+<td><p><strong>Sendの解像度の高さ</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>送信者が使用する解像度の高さ。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SendFrameRateAverage</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>送信者が使用する平均ビデオ フレーム レート伝送。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>送信者が使用した平均ビデオフレームレート送信。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SendBitRateMaximum</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>送信者の最大ビット レート。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>送信者の最大ビットレート。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SendBitRateAverage</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>送信者の平均ビット レート。</p></td>
+<td></td>
+<td><p>送信者の平均ビットレート。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SendVideoStreamsMax</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>送信者が使用するビデオ ストリームの最大数。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>送信者が使用したビデオストリームの最大数。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvCodecTypes</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>外部</p></td>
-<td><p>受信者が使用するビデオ コーデック。詳細については、「<a href="lync-server-2013-codecdescription-table.md">CodecDescription テーブル</a>」を参照してください。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>受信者が使用するビデオコード。 詳細については、「 <a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 の CodecDescription テーブル</a>」を参照してください。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvResolutionWidth</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>受信者が使用する解像度の幅。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>レシーバーで使用される解像度の幅。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvResolutionHeight</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>受信者が使用する解像度の高さ。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RecvFrameRateAverage</strong></p></td>
+<td><p><strong>受信フレームレート</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>受信者が使用する平均ビデオ フレーム レート。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>受信者が使用した平均ビデオフレームレート。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvBitRateMaximum</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>受信者の最大ビット レート。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>受信者の最大ビットレート。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvBitRateAverage</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>受信者の平均ビット レート。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>受信者の平均ビットレート。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvVideoStreamsMax</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>受信者の最大ビデオ ストリーム。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>受信者の最大ビデオストリーム。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvVideoStreamsMin</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>受信者の最小ビデオ ストリーム。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>受信者の最小ビデオストリーム。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvVideoStreamsMode</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>受信者のビデオ モード (ギャラリー、単一ストリームなど)。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>受信者のビデオモード (たとえば、ギャラリーや単一ストリーム)。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>VideoPostFECPLR</strong></p></td>
+<td><p><strong>ビデオ plr</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>前方向エラー訂正の適用後のパケット損失レート。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>転送後のエラー訂正が適用された後のパケット損失率。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DynamicCapabilityPercent</strong></p></td>
+<td><p><strong>動的機能</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>動的機能フラグがアクティブだった時間の割合。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>動的機能フラグがアクティブになった時間のパーセンテージ。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ResolutionMin</strong></p></td>
-<td><p>char(9)</p></td>
-<td><p></p></td>
-<td><p>呼び出し中に測定された最小解像度。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p><strong>解像度分</strong></p></td>
+<td><p>char (9)</p></td>
+<td></td>
+<td><p>通話中に測定された最小解像度。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowBitRateCallPercent</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>低ビット レートのしきい値を下回る通話のパーセンテージ (70 キロビット/秒)。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>低ビットレートのしきい値 (70 kb/秒) 未満の通話のパーセンテージ。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercent</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>低フレーム レートのしきい値を下回る通話のパーセンテージ (7.5 フレーム/秒、受信)。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>低フレームレートのしきい値を下回る通話の割合 (1 秒あたりの7.5 フレーム数)。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LowResolutionCallPercent</strong></p></td>
+<td><p><strong>低解像度</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>最小解像度で発生した通話のパーセンテージ。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>最低の解像度で発生した通話の割合。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DurationSeconds</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>通話の長さ (秒単位)。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsAggregatedData</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>データが複数の通話から収集されたかどうかを示します。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>複数の通話からデータが集計されたかどうかを示します。</p>
+<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

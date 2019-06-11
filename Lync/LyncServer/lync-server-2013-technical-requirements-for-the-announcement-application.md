@@ -1,51 +1,103 @@
-﻿---
-title: 'Lync Server 2013: アナウンス アプリケーションの技術要件'
-TOCTitle: アナウンス アプリケーションの技術要件
-ms:assetid: fbd8c204-3765-4b22-a0c9-a781b5126366
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205413(v=OCS.15)
-ms:contentKeyID: 48274146
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: アナウンス アプリケーションの技術要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for the Announcement application
+ms:assetid: fbd8c204-3765-4b22-a0c9-a781b5126366
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205413(v=OCS.15)
+ms:contentKeyID: 48185944
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ec0da862ce2032f5a659c9e9b7bd3b437349a3cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848530"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のアナウンス アプリケーションの技術要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-11-07_
+# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 のアナウンス アプリケーションの技術要件
 
-ここでは、アナウンス アプリケーション の次の技術要件について説明します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-11-07_
+
+このセクションでは、アナウンスメントアプリケーションの次の技術上の要件について説明します。
 
   - ハードウェア要件
 
   - ソフトウェア要件
 
-  - ポート要件   
+  - ポートの要件
 
-  - オーディオ ファイルの要件
+  - オーディオファイルの要件
 
-## ハードウェア要件
+<div>
 
-アナウンス アプリケーションのハードウェア要件は フロント エンド サーバーと同じです。ハードウェア要件の詳細については、「サポート」のドキュメントの「[Lync Server 2013　用のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
+## <a name="hardware-requirements"></a>ハードウェア要件
 
-## ソフトウェア要件
+アナウンスメントアプリケーションには、フロントエンドサーバーと同じハードウェア要件があります。 ハードウェア要件の詳細については、サポートドキュメントの「[サーバーハードウェアプラットフォーム (Lync server 2013 の場合](lync-server-2013-server-hardware-platforms.md))」を参照してください。
 
-アナウンス アプリケーションのオペレーティング システムの要件とソフトウェアの前提は フロント エンド サーバーと同じです。ソフトウェア要件の詳細については、「サポート」のドキュメントの「[Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
+</div>
 
-アナウンス アプリケーションを実行するすべての フロント エンド サーバーまたは Standard Edition サーバーでは、Windows Server 2008 R2 を実行するサーバーで Windows Media フォーマット ランタイムをインストールしている必要があり、Windows Server 2012 または Windows Server 2012 R2 を実行するサーバーで Microsoft Media Foundation をインストールしている必要があります。Windows Server 2008 R2 では、Windows Media フォーマット ランタイムは Windows デスクトップ エクスペリエンスの一部としてインストールされています。アナウンス アプリケーションがアナウンスや音楽として再生する Windows Media オーディオ (.wma) ファイルでは、Windows Media フォーマット ランタイムまたは Microsoft Media Foundation が必要です。
+<div>
 
-## ポートの要件
+## <a name="software-requirements"></a>ソフトウェア要件
 
-アナウンス アプリケーション は次のポートを使用します。
+アナウンスメントアプリケーションには、フロントエンドサーバーと同じオペレーティングシステム要件とソフトウェアの前提条件があります。 ソフトウェア要件の詳細については、サポートドキュメントの「 [Lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
 
-  - **ポート 5071**   SIP リッスン要求のために使用
+アナウンスメントアプリケーションを実行するすべてのフロントエンドサーバーまたは標準エディションのサーバーは、windows server 2008 R2 を実行しているサーバー、または Windows Server 2012 を実行しているサーバーの Microsoft メディアファンデーションに Windows Media Format ランタイムをインストールする必要があります。Windows Server 2012 R2。 Windows Server 2008 R2 の場合、windows Media 形式ランタイムは Windows デスクトップエクスペリエンスの一部としてインストールされます。 Windows media Format Runtime または Microsoft メディアファンデーションは、アナウンスメントアプリケーションがお知らせや音楽を再生するために Windows Media オーディオ (.wma) ファイルを使用する場合に必要です。
 
-> [!NOTE]
-> このポートは既定の設定であり、<strong>Set-CsApplicationServer</strong> コマンドレットを使用して変更することができます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
+</div>
+
+<div>
+
+## <a name="port-requirements"></a>ポートの要件
+
+アナウンスメントアプリケーションでは、次のポートが使用されます。
+
+  - ****   SIP リスニング要求に使用されるポート5071
+
+<div>
 
 
-## オーディオ ファイルの要件
+> [!NOTE]  
+> このポートは既定の設定であり、<STRONG>Set-CsApplicationServer</STRONG> コマンドレットを使用して変更することができます。 このコマンドレットの詳細については、「Lync Server 管理シェルのドキュメント」を参照してください。
 
-アナウンス アプリケーションは、音楽とアナウンスのために Wave (.wav) ファイル形式と Windows Media オーディオ (.wma) ファイルをサポートしています。アナウンス アプリケーションのオーディオ ファイルの要件は 応答グループ アプリケーションと同じです。詳細は、「[Lync Server 2013 の応答グループの技術要件](lync-server-2013-technical-requirements-for-response-group.md)」を参照してください。
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="audio-file-requirements"></a>オーディオ ファイルの要件
+
+アナウンスメントアプリケーションは、音楽とお知らせのウェーブ (.wav) ファイル形式と Windows Media オーディオ (.wma) ファイル形式をサポートしています。 アナウンスメントアプリケーションのオーディオファイルの要件は、応答グループアプリケーションの場合と同じです。 詳細については、「 [Lync Server 2013 の応答グループの技術要件](lync-server-2013-technical-requirements-for-response-group.md)」を参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

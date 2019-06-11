@@ -1,21 +1,41 @@
-﻿---
-title: ユーザー ビュー
-TOCTitle: ユーザー ビュー
-ms:assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688100(v=OCS.15)
-ms:contentKeyID: 49887009
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ユーザービュー'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User view
+ms:assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688100(v=OCS.15)
+ms:contentKeyID: 49733699
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 21c22bdfbf758545418a821edaba5d8aaf447b87
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848337"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ユーザー ビュー
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="user-view-in-lync-server-2013"></a>Lync Server 2013 のユーザービュー
 
-ユーザー ビューには、データベース内にレコードのある通話またはセッションに関係するユーザーについての情報が格納されます。このビューは Microsoft Lync Server 2013 で導入されました。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-01_
+
+ユーザービューには、データベース内のレコードを持つ通話またはセッションに参加しているユーザーに関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -35,23 +55,34 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="odd">
 <td><p>UserId</p></td>
 <td><p>int</p></td>
-<td><p>このユーザーを識別する一意の番号。</p></td>
+<td><p>このユーザーを識別する一意の番号です。</p></td>
 </tr>
 <tr class="even">
 <td><p>UserUri</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>ユーザーの URI。</p></td>
+<td><p>ユーザーの Uri。</p></td>
 </tr>
 <tr class="odd">
 <td><p>TenantKey</p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>ユーザーのテナント。詳細については、「<a href="lync-server-2013-tenants-table.md">Lync Server 2013 の Tenants テーブル</a>」を参照してください。</p></td>
+<td><p>長さ</p></td>
+<td><p>ユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの一覧</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>UriType</p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>ユーザー URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>ユーザー URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

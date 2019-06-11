@@ -1,71 +1,141 @@
-﻿---
-title: ユーザー管理のコマンドレット
-TOCTitle: ユーザー管理のコマンドレット
-ms:assetid: 85312f3f-28e8-421c-b94c-e6ead1f5f755
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398677(v=OCS.15)
-ms:contentKeyID: 48272771
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ユーザー管理コマンドレット'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User management cmdlets
+ms:assetid: 85312f3f-28e8-421c-b94c-e6ead1f5f755
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398677(v=OCS.15)
+ms:contentKeyID: 48184702
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a841daae6a811b6668c61ac1befca045fb73b03f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848360"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ユーザー管理のコマンドレット
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="user-management-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のユーザー管理コマンドレット
 
-Microsoft Lync Server 2013 に含まれるユーザー管理のコマンドレットを使用すると、Lync Server のユーザー アカウントを有効または無効にしたり、変更したりできます。
+</div>
 
-## ユーザー管理のコマンドレット
+<div id="mainSection">
 
-ユーザーとユーザー アカウントに適用されるほとんどの管理タスクは、Lync Server コントロール パネルから実行できます。主な例外は、電話会議プロバイダーを操作するコマンドレットです。ユーザー管理タスクは、Lync Server 管理シェルから、またはスクリプト内からコマンドレットを使用して実行できます。スクリプトを使用すると、特定のタスクを自動化できます。以下は、ユーザーとユーザー アカウントの管理に直接関連するコマンドレットの一覧です。
+<div id="mainBody">
 
-  - [Get-CsAdContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdContact)
+<span> </span>
 
-  - [Get-CsAdUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdUser)
+_**最終更新日:** 2013-02-18_
 
-  - [Get-CsClientAccessLicense](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientAccessLicense)
+Microsoft Lync Server 2013 に含まれているユーザー管理コマンドレットを使用すると、Lync Server のユーザーアカウントを有効にしたり、無効にしたり、変更したりすることができます。
 
-  - [Get-CsEffectivePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsEffectivePolicy)
+<div>
 
-  - [Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback)
+## <a name="user-management-cmdlets"></a>ユーザー管理コマンドレット
 
-  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)
+ユーザーとユーザーアカウントに適用されるほとんどの管理タスクは、Lync Server コントロールパネルから実行できます。 主な例外として、電話会議プロバイダーを扱うコマンドレットがあります。 ユーザー管理タスクは、Lync Server 管理シェルまたはスクリプト内からコマンドレットを使用して実行できます。 スクリプトを使用することで、特定のタスクを自動化できます。 ユーザーとユーザーアカウントの管理に直接関連するコマンドレットの一覧を次に示します。
 
-  - [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)
+  - <span></span>  
+    [お問い合わせ](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)
 
-  - [Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)
+<!-- end list -->
 
-  - [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
+  - <span></span>  
+    [CsAdUser](https://docs.microsoft.com/powershell/module/skype/Get-CsAdUser)
 
-  - [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
+<!-- end list -->
 
-  - [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser)
+  - [Get-CsClientAccessLicense](https://docs.microsoft.com/powershell/module/skype/Get-CsClientAccessLicense)
 
-  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+<!-- end list -->
 
-  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+  - [Get-CsEffectivePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsEffectivePolicy)
 
-  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+<!-- end list -->
 
-  - [Test-CsAudioConferencingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAudioConferencingProvider)
+  - [CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback)
 
-  - [Get-CsUserPoolInfo](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserPoolInfo)
+<!-- end list -->
 
-  - [Get-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserServicesPolicy)
+  - [Debug-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/Debug-CsUnifiedContactStore)
 
-  - [Grant-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsUserServicesPolicy)
+  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore)
 
-  - [New-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUserServicesPolicy)
+<!-- end list -->
 
-  - [Remove-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserServicesPolicy)
+  - <span></span>  
+    [無効-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)
 
-  - [Set-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserServicesPolicy)
+  - <span></span>  
+    [(CsUser) を有効にする](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)
 
-## 関連項目
+  - <span></span>  
+    [ユーザーを取得する](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
 
-#### その他のリソース
+  - <span></span>  
+    [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
 
-[Lync Server PowerShell ブログ](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x411)
+  - <span></span>  
+    [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Get-CsUserAcp)
+
+  - <span></span>  
+    [CsUserAcp の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserAcp)
+
+  - <span></span>  
+    [Set-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)
+
+  - <span></span>  
+    [Test-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Test-CsAudioConferencingProvider)
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsUserPoolInfo](https://docs.microsoft.com/powershell/module/skype/Get-CsUserPoolInfo)
+
+<!-- end list -->
+
+  - [Get-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsUserServicesPolicy)
+
+  - [Grant-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsUserServicesPolicy)
+
+  - [New-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)
+
+  - [Csuserサービスポリシーを削除する](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserServicesPolicy)
+
+  - [Set-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server PowerShell ブログ](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

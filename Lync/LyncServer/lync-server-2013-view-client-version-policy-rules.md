@@ -1,45 +1,73 @@
-﻿---
-title: クライアント バージョン ポリシー ルールを表示する
-TOCTitle: クライアント バージョン ポリシー ルールを表示する
-ms:assetid: f3a0215f-f72f-4e9b-a07b-25858dc4203a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ923060(v=OCS.15)
-ms:contentKeyID: 52056749
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: クライアントのバージョンポリシールールを表示する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View client version policy rules
+ms:assetid: f3a0215f-f72f-4e9b-a07b-25858dc4203a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923060(v=OCS.15)
+ms:contentKeyID: 50675350
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f2f4bf9d60d9f99addffed25a87b05ea91650294
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848218"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# クライアント バージョン ポリシー ルールを表示する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="view-client-version-policy-rules-in-lync-server-2013"></a>Lync Server 2013 でクライアントのバージョンポリシールールを表示する
 
-クライアント バージョン ポリシーは、一連のクライアント バージョン ポリシー ルールで構成されます。これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。クライアント バージョン ポリシー ルールは Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理シェルから表示できます。
+</div>
 
-## Lync Server コントロール パネルを使用してクライアント バージョン ポリシー ルールを表示するには
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-23_
+
+クライアントのバージョンポリシーは、一連のクライアントバージョンポリシールールで構成されています。 これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。 Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルからクライアントのバージョンポリシールールを表示できます。
+
+<div>
+
+## <a name="to-view-client-version-policy-rules-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してクライアントのバージョンポリシールールを表示するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**クライアント**\] をクリックし、\[**クライアント バージョン ポリシー**\] ナビゲーション ボタンをクリックします。
+3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。
 
-4.  \[**クライアント バージョン ポリシー**\] ページで、表示するクライアント バージョン ポリシーをダブルクリックします。
+4.  [**クライアントのバージョンポリシー** ] ページで、表示するクライアントのバージョンポリシーをダブルクリックします。
 
-5.  \[**編集 クライアント バージョン ポリシー**\] ページにルールが表示されます。ルールの詳細を表示するには、ルールを選択し、\[**詳細の表示**\] をクリックします。
+5.  [**クライアントのバージョンポリシーの編集**] ページにルールが表示されます。 ルールの詳細を表示するには、ルールを選択し、[**詳細の表示**] をクリックします。
 
-## Windows PowerShell コマンドレットを使用してクライアント バージョン ポリシー ルールを表示する
+</div>
 
-クライアント バージョン ポリシー ルールは Lync Server 管理シェルおよび **Get-CsClientVersionPolicyRule** コマンドレットを使用して表示できます。このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモート セッションのどちらからでも実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+<div>
 
-## クライアント バージョン ポリシー ルールを表示するには
+## <a name="viewing-client-version-policy-rules-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してクライアントのバージョンポリシールールを表示する
 
-  - クライアント バージョン ポリシー ルールを表示するには、Lync Server 管理シェルに次のコマンドを入力し、Enter キーを押します。
+Lync Server 管理シェルと、 **CsClientVersionPolicyRule rule**コマンドレットを使用して、クライアントのバージョンポリシールールを表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-view-client-version-policy-rules"></a>クライアントのバージョンポリシールールを表示するには
+
+  - クライアントのバージョンポリシールールを表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
     
         Get-CsClientVersionPolicyRule
     
-    構成されているルールごとに次のような情報が表示されます。
+    これは、構成されている各ルールについて、次のような情報を返します。
     
         Identity          : Global/2336c611-a243-4c5d-994b-eea8a524d0e4
         Priority          : 0
@@ -56,5 +84,19 @@ _**トピックの最終更新日:** 2013-02-23_
         Enabled           : True
         CompareOp         : LEQ
 
-詳細については、[Get-CsClientVersionPolicyRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicyRule) コマンドレットに関するヘルプ トピックを参照してください。
+</div>
+
+詳細については、「 [CsClientVersionPolicyRule rule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) 」コマンドレットのヘルプトピックを参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

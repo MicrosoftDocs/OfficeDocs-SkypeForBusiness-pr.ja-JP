@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: ユーザー テーブル'
-TOCTitle: ユーザー テーブル
-ms:assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412791(v=OCS.15)
-ms:contentKeyID: 48273184
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ユーザー テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Users table
+ms:assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412791(v=OCS.15)
+ms:contentKeyID: 48185032
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6acc63c2271b5ab58e168d0f0f662c6cb3653aac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848327"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のユーザー テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="users-table-in-lync-server-2013"></a>Lync Server 2013 のユーザー テーブル
 
-ユーザー テーブルは補助的なテーブルです。このテーブルの個々のレコードには、データベースに記録が残された通話またはセッションに関係する特定のユーザーの情報が格納されています。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-28_
+
+ユーザーテーブルは、サポートテーブルです。 テーブル内の各レコードには、データベース内のレコードが含まれる1人のユーザーに関する情報が含まれています。
 
 
 <table>
@@ -35,35 +55,46 @@ _**トピックの最終更新日:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>NextUpdateTS</strong></p></td>
+<td><p><strong>Nextupdatupdat</strong></p></td>
 <td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>タイム スタンプ (社内使用向け)。</p></td>
+<td></td>
+<td><p>内部使用のタイムスタンプ。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>このユーザーを識別する一意の番号。</p></td>
+<td><p>Primary</p></td>
+<td><p>このユーザーを識別する一意の番号です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p> </p></td>
-<td><p>ユーザーの URI。</p></td>
+<td><p>ユーザー URI。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TenantId</strong></p></td>
+<td><p><strong>テナント</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>このユーザーのテナント ID。詳細については、「<a href="lync-server-2013-tenants-table.md">Lync Server 2013 の Tenants テーブル</a>」を参照してください。</p></td>
+<td><p>このユーザーのテナント ID。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの一覧</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>このユーザーの URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>このユーザーの URI 型。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

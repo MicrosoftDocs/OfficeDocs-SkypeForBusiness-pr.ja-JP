@@ -1,57 +1,107 @@
-﻿---
-title: 'Lync Server 2013: SIP トランクの展開チェックリスト'
-TOCTitle: SIP トランクの展開チェックリスト
-ms:assetid: 94f4f03e-19d5-4198-92be-e4076dbb959a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398755(v=OCS.15)
-ms:contentKeyID: 48272893
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: SIP トランクの展開チェックリスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: SIP trunk deployment checklist
+ms:assetid: 94f4f03e-19d5-4198-92be-e4076dbb959a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398755(v=OCS.15)
+ms:contentKeyID: 48184891
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7854693702f1583ccaeb2ae6d54a1c7cb9bbcbcd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848722"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 に関する SIP トランクの展開チェックリスト
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-21_
+# <a name="sip-trunk-deployment-checklist-for-lync-server-2013"></a>Lync Server 2013 に関する SIP トランクの展開チェックリスト
 
-SIP トランクを展開する前に、ユーザーとサービス プロバイダーは、SIP トランク エンドポイントに関する各自の基本的な接続情報を交換する必要があります。
+</div>
 
-接続する各 ITSP ゲートウェイについて以下の情報を取得してください。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-21_
+
+SIP トランクを展開する前に、お客様とサービスプロバイダがそれぞれの SIP トランクエンドポイントに関する基本的な接続情報を交換する必要があります。
+
+接続する各 ITSP ゲートウェイについて次の情報を取得します。
 
   - IP アドレス
 
   - 完全修飾ドメイン名 (FQDN)
 
-> [!NOTE]
-> サービス プロバイダーから、複数の ITSP ゲートウェイに接続するよう求められることがあります。その場合は、各 ITSP ゲートウェイとプール内の各 仲介サーバー間の接続を構成する必要があります。
+<div>
 
 
-サービス プロバイダーに渡す情報は、ご使用の SIP トランク接続の種類によって異なります。
-
-  - Multiprotocol Label Switching (MPLS) またはプライベート ネットワーク接続の場合は、境界ネットワーク (DMZ、非武装地帯、およびスクリーン サブネットとも呼ばれる) 内のルーターのパブリック ルーティング可能な IP アドレスを ITSP に渡します。ITSP のゲートウェイまたはセッション ボーダー コントローラー (SBC) がこのアドレスに接続できることを確認してください。 仲介サーバーの FQDN も ITSP に渡してください。
-
-  - 仮想プライベート ネットワーク (VPN) 接続の場合は、VPN サーバーの IP アドレスを ITSP に渡します。
-
-## 証明書に関する考慮事項
-
-SIP トランキング用の証明書が必要かどうかを判断するには、どのプロトコルがサポートされているのかを ITSP に確認してください。
-
-1.  ITSP が伝送制御プロトコル (TCP) のみをサポートしている場合、証明書は不要です。
-
-2.  ITSP がトランスポート層セキュリティ (TLS) をサポートしている場合、ITSP から証明書を取得する必要があります。
-
-> [!NOTE]
-> SIP は、リアルタイム転送プロトコル (RTP) またはセキュア リアルタイム転送プロトコル (SRTP) (ボイス オーバー IP (VoIP) 通話の実際の音声データを管理するプロトコル) と共に動作します。
+> [!NOTE]  
+> サービスプロバイダーから、複数の ITSP ゲートウェイに接続するように求められる場合があります。 その場合は、各 ITSP ゲートウェイとプール内の各仲介サーバー間の接続を構成する必要があります。
 
 
-## 展開プロセス
 
-SIP トランク接続の Lync Server 側を実装するには、以下の手順に従います。
+</div>
 
-1.  Lync Serverトポロジ ビルダーを使用して、SIP ドメイン トポロジを作成、構成します。詳細については、「展開」のドキュメントの「[Lync Server 2013 のトポロジ ビルダーでのトポロジの定義と構成](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)」を参照してください。
+サービスプロバイダに提供する情報は、SIP トランク接続の種類によって異なります。
 
-2.  Lync Server コントロール パネルを使用して、新しい SIP ドメインの音声ルーティングを構成します。詳細については、「展開」のドキュメントの「[Lync Server 2013 でのトランクの構成](lync-server-2013-configuring-trunks.md)」を参照してください。
+  - マルチプロトコルラベル切り替え (MPLS) またはプライベートネットワーク接続の場合は、ITSP に境界ネットワーク (DMZ、非武装地帯、スクリーンサブネットとも呼ばれます) のルーターのパブリックルーティング可能な IP アドレスを指定します。 ITSP のゲートウェイまたはセッション境界コントローラー (SBC) がこのアドレスに到達できることを確認します。 また、ITSP に仲介サーバーの FQDN を指定します。
 
-3.  **Test-CsPstnOutboundCall** コマンドレットを使用して、接続をテストします。詳細については、 Lync Server 管理シェルのドキュメントまたは Lync Server 管理シェルのヘルプを参照してください。
+  - 仮想プライベートネットワーク (VPN) 接続の場合、ITSP に VPN サーバーの IP アドレスを指定します。
+
+<div>
+
+## <a name="certificate-considerations"></a>証明書に関する考慮事項
+
+SIP トランク用の証明書が必要かどうかを判断するには、お使いの ITSP でプロトコルのサポートについて確認してください。
+
+1.  ITSP が伝送制御プロトコル (TCP) のみをサポートしている場合は、証明書は必要ありません。
+
+2.  ITSP がトランスポート層セキュリティ (TLS) をサポートしている場合、ITSP は証明書を提供する必要があります。
+
+<div>
+
+
+> [!NOTE]  
+> SIP は、リアルタイムトランスポートプロトコル (RTP) またはセキュリティで保護されたリアルタイムトランスポートプロトコル (SRTP) と連携し、ボイスオーバーインターネットプロトコル (VoIP) 通話で実際のボイスデータを管理するプロトコルに対応しています。
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="deployment-process"></a>展開プロセス
+
+SIP トランク接続の Lync サーバー側を実装するには、次の手順を実行します。
+
+1.  Lync Server Topology Builder を使用して、SIP ドメイントポロジを作成し、構成します。 詳細については、展開ドキュメントの「トポロジ[ビルダーでの Lync Server 2013 のトポロジの定義と構成](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)」を参照してください。
+
+2.  Lync Server コントロールパネルを使用して、新しい SIP ドメインの音声ルーティングを構成します。 詳細については、展開ドキュメントの「 [Lync Server 2013 での trunks の構成](lync-server-2013-configuring-trunks.md)」を参照してください。
+
+3.  **テスト-CsPstnOutboundCall**コマンドレットを使用して接続をテストします。 詳細については、「Lync Server 管理シェルのドキュメント」または「Lync Server 管理シェルのヘルプ」を参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

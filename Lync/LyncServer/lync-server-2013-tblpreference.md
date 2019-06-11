@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPreference'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPreference
 ms:assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615052(v=OCS.15)
-ms:contentKeyID: 48274113
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615052(v=OCS.15)
+ms:contentKeyID: 48185913
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 652312c5ca48a140ee7f17486ef98debb4e08672
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848604"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の tblPreference
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblpreference-in-lync-server-2013"></a>Lync Server 2013 の tblPreference
 
-tblPreference には、ユーザーのクライアントの設定が格納されています。これは一般に、 Lync 2013 より前のクライアントによって使用されます。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-24_
+
+tblPreference には、ユーザーのクライアントの設定が含まれます。 通常、これは Lync 2013 より前のクライアントで使用されます。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -35,13 +55,13 @@ tblPreference には、ユーザーのクライアントの設定が格納され
 <tbody>
 <tr class="odd">
 <td><p>prefLabel</p></td>
-<td><p>NULL でない nvarchar (255)</p></td>
-<td><p>&lt;user sip uri&gt;|username.&lt;preference set&gt; などの形式のラベル。</p></td>
+<td><p>nvarchar (255)、null ではない</p></td>
+<td><p>"ユーザー sip uri &lt;&gt;| ユーザー名" のような形式のラベル。&lt;設定&gt;。</p></td>
 </tr>
 <tr class="even">
 <td><p>prefSeqID</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>バージョン付けのための連続した番号 (ラベルごと)。</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>バージョン管理のための連続番号 (ラベルあたり)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prefContent</p></td>
@@ -49,15 +69,15 @@ tblPreference には、ユーザーのクライアントの設定が格納され
 <td><p>エンコードされたコンテンツ。</p></td>
 </tr>
 <tr class="even">
-<td><p>lastModifiedBy</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>この設定を更新したプリンシパルの ID。</p></td>
+<td><p>最終方法</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>設定を更新したプリンシパルの ID です。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="key"></a>キー
 
 <table>
 <colgroup>
@@ -77,4 +97,15 @@ tblPreference には、ユーザーのクライアントの設定が格納され
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

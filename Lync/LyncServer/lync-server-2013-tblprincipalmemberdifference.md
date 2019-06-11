@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalMemberDifference'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalMemberDifference
 ms:assetid: 0b94f555-6888-4fe0-a048-4660a2513276
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg558612(v=OCS.15)
-ms:contentKeyID: 48271221
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558612(v=OCS.15)
+ms:contentKeyID: 48183379
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: f5db403431c182e3f5bb8e7a3fabaa04cd2a94d4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848580"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の tblPrincipalMemberDifference
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a>Lync Server 2013 の tblPrincipalMemberDifference
 
-tblPrincipalMemberDifference には、Active Directory ドメイン サービス の同期の後続手順によってまだ処理されていないグループ メンバーシップの変更 (メンバーの追加と削除の両方) が格納されます。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-12_
+
+tblPrincipalMemberDifference には、後の Active Directory ドメインサービスの同期手順でまだ処理されていないグループメンバーシップの変更 (メンバーの追加と削除) が含まれています。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -35,7 +55,7 @@ tblPrincipalMemberDifference には、Active Directory ドメイン サービス
 <tbody>
 <tr class="odd">
 <td><p>prinGuid</p></td>
-<td><p>NULL でない GUID</p></td>
+<td><p>GUID、null ではない</p></td>
 <td><p>変更されたグループのプリンシパル GUID。</p></td>
 </tr>
 <tr class="even">
@@ -44,15 +64,15 @@ tblPrincipalMemberDifference には、Active Directory ドメイン サービス
 <td><p>メンバーの識別名。</p></td>
 </tr>
 <tr class="odd">
-<td><p>memberRemoved</p></td>
-<td><p>NULL でない bit</p></td>
-<td><p>メンバーが追加された場合は False。メンバーが削除された場合は True。</p></td>
+<td><p>メンバーの削除</p></td>
+<td><p>ビット、null ではない</p></td>
+<td><p>メンバーが追加された場合は False。 メンバーが削除された場合は True です。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="key"></a>キー
 
 <table>
 <colgroup>
@@ -72,4 +92,15 @@ tblPrincipalMemberDifference には、Active Directory ドメイン サービス
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
