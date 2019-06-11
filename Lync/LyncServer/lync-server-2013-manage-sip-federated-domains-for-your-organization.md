@@ -1,41 +1,79 @@
-﻿---
-title: 'Lync Server 2013: 組織の SIP フェデレーション ドメインの管理'
-TOCTitle: 組織の SIP フェデレーション ドメインの管理
-ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ552454(v=OCS.15)
-ms:contentKeyID: 49115241
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 組織の SIP フェデレーション ドメインの管理'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage SIP federated domains for your organization
+ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
+ms:contentKeyID: 48679565
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4022edf2509d0fe75ec8cc91b8f1e3a519f1f21c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828251"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での組織の SIP フェデレーション ドメインの管理
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-19_
+# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Lync Server 2013 での組織の SIP フェデレーション ドメインの管理
 
-このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
+</div>
 
-フェデレーションを行うことができる SIP ドメインを管理および構成する場合、次の操作を実行できます。
+<div id="mainSection">
 
-  - SIP フェデレーション パートナー ドメインの許可されたドメイン リストを作成または編集する
+<div id="mainBody">
 
-  - SIP フェデレーション ドメインの禁止ドメイン リストを作成または編集する
+<span> </span>
+
+_**最終更新日:** 2012-10-19_
+
+このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
+
+フェデレーションできる SIP ドメインを管理して構成するには、次の操作を行います。
+
+  - SIP フェデレーションパートナードメインの許可ドメインリストを作成または編集します。
+
+  - SIP フェデレーションドメインのブロックドメインリストを作成または編集します。
 
 これらのタスクを実行するには、このセクションの手順を使用します。
 
-## このセクション中
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 での、許可された外部ドメイン向けサポートの構成](lync-server-2013-configure-support-for-allowed-external-domains.md)
 
   - [Lync Server 2013 での禁止された外部ドメイン向けサポートの構成](lync-server-2013-configure-support-for-blocked-external-domains.md)
 
-## 関連項目
+</div>
 
-#### タスク
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 でのフェデレーション ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
 [Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
-[Lync Server 2013 でのフェデレーション パートナーの検出の有効化または無効化](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)
+[Lync Server 2013 でのフェデレーション パートナーの検出の有効化または無効化](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: PSTN 使用法レコード'
-TOCTitle: PSTN 使用法レコード
-ms:assetid: b5f624aa-abe8-455b-a8e3-c228be230463
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412878(v=OCS.15)
-ms:contentKeyID: 48273330
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: PSTN 使用法レコード'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PSTN usage records
+ms:assetid: b5f624aa-abe8-455b-a8e3-c228be230463
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412878(v=OCS.15)
+ms:contentKeyID: 48185188
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e32000f1664591a3e054d058ced4f996a98f27cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823582"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の PSTN 使用法レコード
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="pstn-usage-records-in-lync-server-2013"></a>Lync Server 2013 の PSTN 使用法レコード
 
-PSTN 使用法レコードの計画では、主に、CEO から派遣社員、コンサルタント、および臨時スタッフに至る組織内のすべてのユーザーに現在適用されているすべての通話許可の一覧を作成します。この作業を行うと、既存の通話許可を再度検証し、それらを修正することができます。エンタープライズ VoIP の見込みユーザーに適用する通話許可のみに対応した PSTN 使用法レコードを作成することもできますが、現時点で通話許可がエンタープライズ VoIP で有効なユーザー グループのメンバーに適用されるかどうかに関係なく、すべての通話許可に対応した PSTN 使用法レコードを作成する方が、長期的には優れたソリューションになる場合があります。通話許可の変更や、異なる通話許可を持つ新規ユーザーを追加する場合でも、必要な電話 PSTN 使用法レコードは既に作成済みであるため、新しく作成する必要がありません。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-23_
+
+PSTN 使用法レコードの計画では、主に、CEO から派遣社員、コンサルタント、および臨時スタッフに至る組織内のすべてのユーザーに現在適用されているすべての通話許可の一覧を作成します。 この作業を行うと、既存の通話許可を再度検証し、それらを修正することができます。 予想されるエンタープライズ Voip ユーザーに適用される通話のアクセス許可に対してのみ、PSTN 使用状況レコードを作成できますが、現在のところ一部ではない可能性があるかどうかにかかわらず、すべての通話アクセス許可について PSTN 使用状況レコードを作成することがあります。エンタープライズ Voip を有効にするユーザーのグループに適用します。 通話許可の変更や、異なる通話許可を持つ新規ユーザーを追加する場合でも、必要な電話 PSTN 使用法レコードは既に作成済みであるため、新しく作成する必要がありません。
 
 次の表に、一般的な PSTN 使用法テーブルを示します。
 
-### PSTN 使用法レコード
+### <a name="pstn-usage-records"></a>PSTN 使用法レコード
 
 <table>
 <colgroup>
@@ -42,7 +62,7 @@ PSTN 使用法レコードの計画では、主に、CEO から派遣社員、�
 <td><p>長距離通話</p></td>
 </tr>
 <tr class="odd">
-<td><p>インターナショナル</p></td>
+<td><p>International</p></td>
 <td><p>国際通話</p></td>
 </tr>
 <tr class="even">
@@ -50,7 +70,7 @@ PSTN 使用法レコードの計画では、主に、CEO から派遣社員、�
 <td><p>Delhi のフルタイム社員</p></td>
 </tr>
 <tr class="odd">
-<td><p>レドモンド</p></td>
+<td><p>Redmond</p></td>
 <td><p>Redmond のフルタイム社員</p></td>
 </tr>
 <tr class="even">
@@ -71,5 +91,15 @@ PSTN 使用法レコードは単独では機能しません。PSTN 使用法レ�
 
   - ルート (電話番号に割り当てる)
 
-音声ポリシーとルートの詳細については、「[Lync Server 2013 の音声ポリシー](lync-server-2013-voice-policies.md)」および「[Lync Server 2013 の音声ルート](lync-server-2013-voice-routes.md)」を参照してください。これらの作成および構成方法の詳細については、「[Lync Server 2013 での発信通話用のボイス ルートの構成](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)」を参照してください。
+音声ポリシーとルートの詳細については、「lync [server 2013 のボイスポリシー](lync-server-2013-voice-policies.md) 」および「 [lync Server 2013 の音声ルート](lync-server-2013-voice-routes.md)」を参照してください。 それらの作成と構成の詳細については、「 [Lync Server 2013 で送信通話の音声ルートを構成](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)する」を参照してください。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

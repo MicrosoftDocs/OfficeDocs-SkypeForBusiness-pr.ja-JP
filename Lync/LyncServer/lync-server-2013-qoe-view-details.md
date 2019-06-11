@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013 での QoE ビューの詳細
-TOCTitle: Lync Server 2013 での QoE ビューの詳細
-ms:assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688081(v=OCS.15)
-ms:contentKeyID: 49886990
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: QoE ビューの詳細'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: QoE view details
+ms:assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688081(v=OCS.15)
+ms:contentKeyID: 49733677
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8e223ff2adee63eb8e13304e4df6db519e85014f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823687"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での QoE ビューの詳細
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="qoe-view-details-in-lync-server-2013"></a>Lync Server 2013 の QoE ビューの詳細
 
-ビューは、QoE SQL データベースからデータを取得するための一般的なシナリオのほとんどをカバーします。カスタム レポートを構築する場合は、データベース テーブルに直接アクセスするのではなくビューを使用することをお勧めします。ビューの方が、今後のリリースで下位互換性が維持される可能性が高いためです。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-03_
+
+ビューでは、QoE SQL データベースからデータを返す最も一般的なシナリオがカバーされています。 データベーステーブルに直接アクセスするのではなく、カスタムレポートの作成に使用することをお勧めします。これは、ビューが将来のリリースとの下位互換性を維持する可能性が高いためです。
 
 
 <table>
@@ -31,29 +51,40 @@ _**トピックの最終更新日:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-audiostreamdetail-view.md">AudioStreamDetail ビュー</a></p></td>
-<td><p>データベース内の各オーディオ ストリームについての情報を格納します。</p></td>
+<td><p><a href="lync-server-2013-audiostreamdetail-view.md">Lync Server 2013 の AudioStreamDetail ビュー</a></p></td>
+<td><p>データベース内の各オーディオストリームに関する情報を格納します。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-medialine-view.md">MediaLine ビュー</a></p></td>
-<td><p>データベース内の各メディア ラインについての情報を格納します。通常、1 つの音声セッションに 1 つの音声メディア ラインが含まれます。また、通常は 1 つの音声ビデオ (A/V) セッションに 1 つの音声メディア ラインと 1 つのビデオ メディア ラインが含まれますが、会議デバイスまたはギャラリー ビューが使用される場合は、セッションに 2 つのビデオ メディア ラインが含まれることがあります。</p></td>
+<td><p><a href="lync-server-2013-medialine-view.md">Lync Server 2013 での MediaLine の表示</a></p></td>
+<td><p>データベース内の各メディア行に関する情報を格納します。 1つのオーディオセッションには通常、1つのオーディオメディアラインが含まれています。 通常、1つのオーディオとビデオ (A/V) セッションには、1つのオーディオメディアラインと1つのビデオメディアラインが含まれます。ただし、会議デバイスが使用されている場合、または [ギャラリー] ビューを使用している場合は、2つのビデオメディアがセッションに含まれている可能性があります。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">NetworkConfigurationSettings ビュー</a></p></td>
-<td><p>ネットワーク構成についての情報を格納します。</p></td>
+<td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">Lync Server 2013 の NetworkConfigurationSettings view</a></p></td>
+<td><p>ネットワーク構成に関する情報を格納します。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-session-view.md">Session ビュー</a></p></td>
-<td><p>データベース内のレコードを持つセッションについての情報を格納します。</p></td>
+<td><p><a href="lync-server-2013-session-view.md">Lync Server 2013 のセッションビュー</a></p></td>
+<td><p>データベースにレコードがあるセッションに関する情報を格納します。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-useragent-view.md">UserAgent ビュー</a></p></td>
-<td><p>データベース内のレコードを持つセッションに関与しているユーザー エージェントについての情報を格納します。</p></td>
+<td><p><a href="lync-server-2013-useragent-view.md">Lync Server 2013 での UserAgent の表示</a></p></td>
+<td><p>データベースにレコードがあるセッションに関連しているユーザーエージェントに関する情報を格納します。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-videostreamdetail-view.md">VideoStreamDetail ビュー</a></p></td>
-<td><p>データベース内の各ビデオ ストリームについての情報を格納します。</p></td>
+<td><p><a href="lync-server-2013-videostreamdetail-view.md">Lync Server 2013 の VideoStreamDetail ビュー</a></p></td>
+<td><p>データベース内の各ビデオストリームに関する情報を格納します。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

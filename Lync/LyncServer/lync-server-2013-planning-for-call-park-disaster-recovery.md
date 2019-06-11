@@ -1,39 +1,77 @@
-﻿---
-title: 'Lync Server 2013: コール パーク障害復旧の計画'
-TOCTitle: コール パーク障害復旧の計画
-ms:assetid: f7cf3958-177b-4340-a864-35a6f44d6d88
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205395(v=OCS.15)
-ms:contentKeyID: 48274095
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: コール パーク障害復旧の計画'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Call Park disaster recovery
+ms:assetid: f7cf3958-177b-4340-a864-35a6f44d6d88
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205395(v=OCS.15)
+ms:contentKeyID: 48185867
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2a7da940f55574e1c6d50aeb06c0c80710bdbaad
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825003"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのコール パーク障害復旧の計画
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-30_
+# <a name="planning-for-call-park-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 でのコール パーク障害復旧の計画
 
-このセクションでは、障害復旧のために コール パーク アプリケーションを準備する方法、および障害復旧プロセスの考慮事項を示します。
+</div>
 
-## コール パークの障害復旧の準備
+<div id="mainSection">
 
-障害復旧手順を作成し、実行する際は、次に留意してください。
+<div id="mainBody">
 
-  - 処理能力計画を行う際に障害復旧を計画します。障害復旧の処理能力のためには、ペアとなるプールのそれぞれが、両方のプール内にある コール パークサービスのワークロードを処理できる必要があります。コール パークの処理能力計画の詳細については、「[Lync Server 2013 のコール パークの処理能力計画](lync-server-2013-capacity-planning-for-call-park.md)」を参照してください。
+<span> </span>
 
-  - 障害復旧の間、フェールオーバー プロセスの一部としてバックアップ プールにリダイレクトされたユーザーは、バックアップ プールで実行されるたコール パーク サービスを使用します。そのため、障害復旧中の コール パークのサポートには、プライマリ プールとバックアップ プールの両方に コール パーク アプリケーションが展開され、有効化されている必要があります。
+_**最終更新日:** 2012-10-30_
 
-  - 各プールは、そのプールに所属しているユーザーがパーキング コールに使用するための有効な範囲のオービット数を持っている必要があります。
+このセクションでは、障害回復用のコールパークアプリケーションを準備する方法と、障害回復プロセスの考慮事項について説明します。
 
-  - コール パークにアップロードされている保留中のカスタマイズ音楽に対し、常に個別のバックアップ コピーを保持します。これらのファイルは Lync Server 2013 の障害復旧プロセスの一部としてバックアップされることはなく、プールにアップロードされているファイルが破損したり、消去されたりした場合はファイルが失われます。
+<div>
 
-## コール パーク 障害復旧の考慮事項
+## <a name="preparing-for-call-park-disaster-recovery"></a>コールパークの障害回復の準備
 
-プールごとに、1 セットの コール パーク アプリケーション構成設定、および 1 つのカスタマイズされた保留音オーディオ ファイルしか定義できません。これらの設定には、タイムアウトしきい値、保留音、コール ピックアップの最大試行回数、およびタイムアウト URI が含まれます。構成設定を表示するには、**Get-CsCpsConfiguration** コマンドレットを実行します。**Get-CsCpsConfiguration** コマンドレットの詳細については、「[Get-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCpsConfiguration)」を参照してください。
+障害回復の手順を準備して実行する場合は、次の点にご注意ください。
 
-障害復旧の際、コール パークはバックアップ プールの コール パーク アプリケーションを使うため、プライマリ プールの設定はバックアップされません。プライマリ プールを復旧できず、プライマリ プールの代わりに新しいプールを展開した場合、プライマリ プールの設定は失われ、新しいプールにある コール パークの設定およびカスタマイズした保留音オーディオ ファイルをすべて再構成する必要があります。
+  - キャパシティ計画を行うときの障害回復計画を立てます。 障害回復キャパシティの場合、ペア化されたプール内の各プールは、両方のプールのコールパークサービスの作業負荷を処理できる必要があります。 通話パークキャパシティ計画の詳細については、「 [Lync Server 2013 でのコールパークのキャパシティ計画](lync-server-2013-capacity-planning-for-call-park.md)」を参照してください。
 
-プライマリ プールの代わりに、異なる完全修飾ドメイン名 (FQDN) を持つ新しいプールを展開する場合、プライマリ プールに関連付けられていたすべての コール パークのオービット範囲を新しいプールの FQDN に再割り当てする必要があります。オービット範囲を新しいプールに再割り当てするには、Lync Server コントロール パネル または **Set-CsCallParkOrbit** コマンドレットを使用します。**Set-CsCallParkOrbit** コマンドレットの詳細については、「[Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)」を参照してください。
+  - 障害回復中に、フェールオーバープロセスの一環としてバックアッププールにリダイレクトされたユーザーは、バックアッププールで実行されているコールパークサービスを使用します。 そのため、障害回復中のコールパークのサポートでは、プライマリプールとバックアッププールの両方でコールパークアプリケーションを展開して有効にする必要があります。
+
+  - 各プールには、そのプールに所属しているユーザーがパーキング通話に使用するために、有効な範囲の軌道番号が必要です。
+
+  - 通話パーク用にアップロードされた、カスタマイズした音楽の個別のバックアップコピーを常に保持しておきます。 これらのファイルは、Lync Server 2013 の障害回復プロセスの一部としてはバックアップされません。また、プールにアップロードされたファイルが破損、破損、または消去された場合は、失われます。
+
+</div>
+
+<div>
+
+## <a name="call-park-disaster-recovery-considerations"></a>コールパーク障害回復に関する考慮事項
+
+1組のコールパークアプリケーションの構成設定と、1つのプールにつき1つのカスタマイズされた音楽オンホールドオーディオファイルを定義できます。 これらの設定には、タイムアウトしきい値、保留中の音楽、最大通話ピックアップ試行回数、タイムアウト URI が含まれます。 これらの構成設定を表示するには、 **CsCpsConfiguration**コマンドレットを実行します。 **CsCpsConfiguration**コマンドレットの詳細については、「 [get-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCpsConfiguration)」を参照してください。
+
+障害回復中に、コールパークはバックアッププールのコールパークアプリケーションを使用するため、プライマリプールの設定はバックアップされません。 プライマリプールを復元できない場合に、プライマリプールの代わりに新しいプールを展開すると、プライマリプールの設定は失われ、新規プール内のコールパーク設定とカスタマイズされた音楽の保留中のオーディオファイルを再設定する必要があります。
+
+別の完全修飾ドメイン名 (FQDN) で新しいプールを展開してプライマリプールを置き換える場合は、プライマリプールに関連付けられていたすべてのコールパークの範囲を、新しいプールの FQDN に再割り当てする必要があります。 新しいプールに軌道範囲を再割り当てするには、Lync Server コントロールパネルまたは**CsCallParkOrbit**コマンドレットを使用できます。 **CsCallParkOrbit**コマンドレットの詳細については、「 [set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)」を参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

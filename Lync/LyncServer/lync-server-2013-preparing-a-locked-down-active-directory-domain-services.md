@@ -1,31 +1,65 @@
-﻿---
-title: 'Lync Server 2013: ロックダウンされた Active Directory ドメイン サービスの準備'
-TOCTitle: ロックダウンされた Active Directory ドメイン サービスの準備
-ms:assetid: 68bde963-3fa3-4102-88d6-ac931c1dd2d7
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398492(v=OCS.15)
-ms:contentKeyID: 48272380
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ロックダウンされた Active Directory ドメイン サービスの準備'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing a locked-down Active Directory Domain Services
+ms:assetid: 68bde963-3fa3-4102-88d6-ac931c1dd2d7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398492(v=OCS.15)
+ms:contentKeyID: 48184377
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 482c5a59c6dc53fc712db7e77430367dd9c37af5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823939"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのロックダウンされた Active Directory ドメイン サービスの準備
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-05-14_
+# <a name="preparing-a-locked-down-active-directory-domain-services-in-lync-server-2013"></a>Lync Server 2013 でのロックダウンされた Active Directory ドメイン サービスの準備
 
-多くの場合、組織は、セキュリティ リスクを軽減するために Active Directory ドメイン サービス をロックダウンしています。 しかし、ロックダウンされた Active Directory 環境では、Lync Server 2013 で必要なアクセス許可が制限される場合があります。Lync Server 2013 用にロックダウンされた Active Directory 環境を適切に準備するには、追加の考慮事項の検討と追加のステップの実行が必要です。
+</div>
 
-ロックダウンされた Active Directory 環境でアクセス許可が制限されるのは、一般に次の 2 つの場合です。
+<div id="mainSection">
 
-  - 認証済みユーザーのアクセス制御エントリ (ACE) がコンテナーから削除されている。
+<div id="mainBody">
 
-  - ユーザー オブジェクト、連絡先オブジェクト、InetOrgPerson オブジェクト、またはコンピューター オブジェクトのコンテナーでアクセス許可の継承が無効になっている。
+<span> </span>
 
-## このセクション中
+_**最終更新日:** 2012-05-14_
+
+組織は、セキュリティリスクを軽減するために Active Directory ドメインサービスをロックダウンすることがよくあります。 ただし、ロックダウンされた Active Directory 環境では、Lync Server 2013 で必要なアクセス許可を制限できます。 Lync Server 2013 用のロックダウン Active Directory 環境を適切に準備するには、いくつかの追加の考慮事項と手順が必要です。
+
+ロックダウンされた Active Directory 環境でアクセス許可が制限される一般的な方法には、次の2つがあります。
+
+  - 認証済みユーザーアクセス制御エントリ (Ace) がコンテナーから削除されます。
+
+  - ユーザー、連絡先、InetOrgPerson、またはコンピューターのオブジェクトのコンテナーでは、アクセス許可の継承が無効になっています。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 で認証済みユーザーのアクセス許可が削除されている](lync-server-2013-authenticated-user-permissions-are-removed.md)
 
   - [Lync Server 2013 のコンピューター、ユーザー、または InetOrgPerson のコンテナーでアクセス許可の継承が無効になっている](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

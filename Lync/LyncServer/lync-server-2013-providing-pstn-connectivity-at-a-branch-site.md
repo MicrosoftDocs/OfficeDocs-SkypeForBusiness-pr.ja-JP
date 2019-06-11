@@ -1,42 +1,86 @@
-﻿---
-title: 'Lync Server 2013: ブランチ サイトでの PSTN 接続の提供'
-TOCTitle: ブランチ サイトでの PSTN 接続の提供
-ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398945(v=OCS.15)
-ms:contentKeyID: 48273712
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ブランチ サイトでの PSTN 接続の提供'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Providing PSTN connectivity at a branch site
+ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398945(v=OCS.15)
+ms:contentKeyID: 48185633
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cf7ba3c77c789d10e80319542cd163186eef2d4c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823624"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 におけるブランチ サイトでの PSTN 接続の提供
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-05_
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Lync Server 2013 におけるブランチ サイトでの PSTN 接続の提供
 
-Microsoft Lync Server 2013、計画ツール を使用して、ブランチ サイトをトポロジに追加し、ブランチ サイトの音声インフラストラクチャを設定することをお勧めします。
+</div>
 
-計画ツールを使用しない場合には、このセクションのトピックにある手順に従って、ブランチ サイトをまず追加してから、音声インフラストラクチャを設定してください。それには、IP/公衆交換電話網 (PSTN) ゲートウェイの定義と SIP トランクの構成 (メディア バイパス有効または無効) の両方、またはいずれかを実行します。構内交換機 (PBX) をブランチ サイトに接続するという方法もあります。
+<div id="mainSection">
 
-> [!NOTE]
-> ブランチ サイトを復元可能にするには、 存続可能ブランチ アプライアンス、 存続可能ブランチ サーバー、または Standard Edition サーバー をブランチ サイトに展開する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Lync Server 2013 を使用した存続可能ブランチ アプライアンスまたはサーバーの展開</a>」または「<a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 の展開</a>」を必要に応じて参照してください。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-05_
+
+Microsoft Lync Server 2013、計画ツールを使用してトポロジにブランチサイトを追加し、ブランチサイトで音声インフラストラクチャを設定することをお勧めします。
+
+計画ツールを使用していない場合は、まずこのセクションのトピックに記載されている手順を使用してブランチサイトを追加します。次に、IP/公衆交換電話網 (PSTN) ゲートウェイを定義するか、SIP を構成して、音声インフラストラクチャをセットアップします。トランク (メディアバイパスありまたはなし) プライベートブランチ exchange (PBX) からブランチサイトへの接続は、別のオプションです。
+
+<div>
 
 
-## このセクション中
+> [!NOTE]  
+> ブランチサイトの回復性を提供する場合は、ブランチサイトに Survivable Branch Appliance、Survivable Branch Server、Standard Edition サーバーを展開する必要があります。 詳細については、展開ドキュメントに「 <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Lync server 2013 を使って Survivable Branch Appliance または server を展開する</A>」または「 <A href="lync-server-2013-deploying-lync-server.md">lync server 2013</A>を展開する」を参照してください。
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 でのトポロジへのブランチ サイトの追加](lync-server-2013-add-branch-sites-to-your-topology.md)
 
   - [Lync Server 2013 でのブランチ サイト用の PSTN ゲートウェイの定義](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
 
-  - [Lync Server 2013 でメディア バイパスを有効にしてトランクを構成する](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
-  - [Lync Server 2013 でメディア バイパスを無効にしてトランクを構成する](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+  - [Lync Server 2013 でメディアをバイパスせずにトランクを構成する](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
-[Lync Server 2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md)
+[Lync Server 2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

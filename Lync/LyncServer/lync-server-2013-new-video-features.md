@@ -1,31 +1,65 @@
-﻿---
-title: 'Lync Server 2013: 新しいビデオの機能'
-TOCTitle: 新しいビデオの機能
-ms:assetid: c5d7ef57-cda7-456e-b263-c78179991b79
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205246(v=OCS.15)
-ms:contentKeyID: 48273538
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 新しいビデオの機能'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New video features
+ms:assetid: c5d7ef57-cda7-456e-b263-c78179991b79
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205246(v=OCS.15)
+ms:contentKeyID: 48185355
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6560b18bd2b1db72aca6dc98997c8a7cdf33445b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825962"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の新しいビデオの機能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-08-16_
+# <a name="new-video-features-in-lync-server-2013"></a>Lync Server 2013 の新しいビデオの機能
 
-Lync Server 2013 では、次の新しいビデオ機能が導入されています。
+</div>
 
-  - **HD ビデオ**   ユーザーは、2 者間の通話とマルチパーティの電話会議で最大 HD 1080P の解像度まで使用できます。
+<div id="mainSection">
 
-  - **ギャラリー ビュー**   3 人以上のユーザーが参加するビデオ会議で、会議の参加者のビデオが表示されます。会議の参加者が 6 人以上の場合は、最もアクティブな参加者のビデオだけが最上部の行に表示され、その他の参加者については写真が表示されます。
+<div id="mainBody">
 
-  - **H.264 ビデオ**   現在、H.264 ビデオは Lync 2013 クライアントでビデオをエンコードする既定のビデオです。H.264 ビデオは、より広範な解像度とフレーム レートをサポートし、ビデオのスケーラビリティを向上させます。
+<span> </span>
 
-## 関連項目
+_**最終更新日:** 2012-08-16_
 
-#### その他のリソース
+Lync Server 2013 には、次の新しいビデオ機能が導入されています。
 
-[ビデオの構成](lync-server-2013-planning-and-deploying-video.md)
+  - **Hd ビデオ**   ユーザは、2人の相手との通話とマルチパーティの会議で、hd 1080p の品質を向上させることができます。
+
+  - **[ギャラリービュー**   ] 2 人以上のユーザーがいるビデオ会議では、ユーザーは会議の参加者のビデオを見ることができます。 会議に5人以上の参加者がいる場合は、最もアクティブな参加者のみのビデオが一番上の行に表示され、他の参加者の写真が表示されます。
+
+  - ****   これで、Lync 2013 クライアント上のビデオをエンコードするための既定値として、264のビデオコーデックが設定されます。 .H ビデオでは、さまざまな解像度とフレームレートをサポートしており、ビデオのスケーラビリティが向上しています。
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でのビデオの計画と展開](lync-server-2013-planning-and-deploying-video.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

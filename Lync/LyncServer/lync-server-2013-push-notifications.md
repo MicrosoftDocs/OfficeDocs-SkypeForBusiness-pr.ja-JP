@@ -1,33 +1,71 @@
-﻿---
-title: プッシュ通知
-TOCTitle: プッシュ通知
-ms:assetid: 214d18a5-0ce8-4f07-bc47-c3b6bc894e8b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ687991(v=OCS.15)
-ms:contentKeyID: 49886873
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: プッシュ通知'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Push notifications
+ms:assetid: 214d18a5-0ce8-4f07-bc47-c3b6bc894e8b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687991(v=OCS.15)
+ms:contentKeyID: 49733581
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 97c1575ffb7a4cf1e53aa5006b8196fe4e0666d7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823638"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# プッシュ通知
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-19_
+# <a name="push-notifications-in-lync-server-2013"></a>Lync Server 2013 でのプッシュ通知
 
-プッシュ通知は Lync Server 2013 コントロール パネルの \[**クライアント**\] セクションから管理できます。
+</div>
 
-## このセクション中
+<div id="mainSection">
 
-  - [iPhone のプッシュ通知の有効化または無効化](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
+<div id="mainBody">
 
-  - [Windows Phone のプッシュ通知の有効化または無効化](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
+<span> </span>
 
-  - [プッシュ通知の設定に関する情報の表示](lync-server-2013-viewing-information-about-push-notification-settings.md)
+_**最終更新日:** 2012-10-19_
 
-## 関連項目
+Lync Server 2013 コントロールパネルの [**クライアント**] セクションからプッシュ通知を管理することができます。
 
-#### タスク
+<div>
 
-[Lync Server 2013 でプッシュ通知を構成する](lync-server-2013-configuring-for-push-notifications.md)
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 での iPhones のプッシュ通知を有効または無効にする](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
+
+  - [Lync Server 2013 での Windows Phone のプッシュ通知を有効または無効にする](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
+
+  - [Lync Server 2013 でのプッシュ通知設定に関する情報の表示](lync-server-2013-viewing-information-about-push-notification-settings.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でプッシュ通知を構成する](lync-server-2013-configuring-for-push-notifications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,35 +1,67 @@
-﻿---
-title: アドレス帳管理用の New-CsAddressBookConfiguration
-TOCTitle: アドレス帳管理用の New-CsAddressBookConfiguration
-ms:assetid: a58ddc8c-ae04-4141-b69e-e45374a67d72
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg429718(v=OCS.15)
-ms:contentKeyID: 48273093
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: アドレス帳管理用の新しい-CsAddressBookConfiguration'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New-CsAddressBookConfiguration for Address Book management
+ms:assetid: a58ddc8c-ae04-4141-b69e-e45374a67d72
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429718(v=OCS.15)
+ms:contentKeyID: 48184985
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 10a11829a6c0dd4e53f5684e5b950e3adf755811
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826368"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# アドレス帳管理用の New-CsAddressBookConfiguration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="new-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理用の新しい CsAddressBookConfiguration
 
-このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが New-CsAddressBookConfiguration コマンドレットをローカルで実行することを承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-11-01_
+
+このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーは、新しい-CsAddressBookConfiguration コマンドレットをローカルで実行することを許可されています。 RTCUniversalServerAdmins このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsAddressBookConfiguration"}
 
-New-CsAddressBookConfiguration コマンドレットは、アドレス帳の動作を管理する新しい構成を作成します。 アドレス帳サービスによるクライアント ダウンロード ファイルの作成の有無、正規化ルールの使用方法と使用の有無、差分ファイルと圧縮差分ファイルの保持期間、新しい完全なファイルを作成する前の圧縮ファイル サイズ、完全なファイルのアドレス帳の作成時刻、ユーザー データベース情報の同期間隔は、このコマンドレットでのみ定義できます。
+新しい-CsAddressBookConfiguration コマンドレットは、アドレス帳の動作を管理するための新しい構成を作成します。 このコマンドレットに固有の機能は、アドレス帳サービスがクライアントのダウンロードファイルを作成するかどうか、正規化ルールを使用するかどうか、デルタとコンパクトな差分ファイルの保持期間、新しいフルファイル作成を組み込む前のファイルサイズを定義することです。ファイルの完全なアドレス帳が作成され、ユーザーデータベース内の情報がどのように同期されるか。
 
-次にその例を示します。
+次に例を示します。
 
     New-CsAddressBookConfiguration -Identity site:Redmond -KeepDuration 15 -SynchronizePollingInterval 00:10:00
 
-コマンド全体の詳細については、Lync Server Windows PowerShell RTCCmdlets メイン リファレンスの次の項目を参照してください。
+<div>
 
-## 関連項目
+## <a name="see-also"></a>関連項目
 
-#### その他のリソース
 
-[New-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAddressBookConfiguration)
+[New-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsAddressBookConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

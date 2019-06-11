@@ -1,111 +1,161 @@
-﻿---
-title: 'Lync Server 2013: QoE reports'
+---
+title: 'Lync Server 2013: QoE レポート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: QoE reports
 ms:assetid: 49c827af-b8dd-4c6e-b0dc-b4bc6d60e9a3
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn720913(v=OCS.15)
-ms:contentKeyID: 62246639
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720913(v=OCS.15)
+ms:contentKeyID: 63969601
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 04960c43dc8e29c6e5af44a1d3109e40dd578479
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823736"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# QoE reports in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-05-01_
+# <a name="qoe-reports-in-lync-server-2013"></a>Lync Server 2013 の QoE レポート
 
-## QoE summary/trend reports
+</div>
 
-The QoE summary/trends reports are useful for finding the peak usage times of day and examining the media quality during those times to help assure that your organization's network resources are sufficient. Your organization can also use the many filters available in the report to isolate performance numbers for certain locations, client and device types, and servers.
+<div id="mainSection">
 
-QoE summary/trend reports consist of:
+<div id="mainBody">
 
-  - UC-to-UC Summary/Trend Report
+<span> </span>
 
-  - PSTN Summary/Trend Report
+_**最終更新日:** 2014-05-01_
 
-  - Conference Summary/Trend Report
+<div>
 
-## QoE performance reports
+## <a name="qoe-summarytrend-reports"></a>QoE サマリー/トレンドレポート
 
-QoE performance reports provide details about the three reports that concentrate on the QoE performance of Mediation Servers, A/V Conferencing Servers, and endpoint locations.
+QoE サマリー/トレンドレポートは、組織のネットワークリソースが十分であることを確認するために、1日のピーク使用時間を見つけてメディアの品質を確認するのに役立ちます。 組織では、レポートで利用可能な多くのフィルターを使用して、特定の場所、クライアントとデバイスの種類、サーバーのパフォーマンスの数値を特定することもできます。
 
-## Mediation server performance report
+QoE サマリー/トレンドレポートは次の要素で構成されます。
 
-The Mediation Server Performance report lists the metrics achieved by one or more Mediation during the specified time period. The metrics for the unified communications (UC)-to-Mediation Server leg and the Mediation Server-to-Gateway leg of each call are reported separately. Use this report to compare the volume and performance of your organization's various Mediation Servers.
+  - UC 対多集計のサマリー/トレンドレポート
 
-For each Mediation Server (and for each call leg), the report displays the following:
+  - PSTN サマリー/トレンドレポート
 
-  - Number of calls
+  - 会議の概要/傾向レポート
 
-  - Packet Loss
+</div>
 
-  - Round Trip Time
+<div>
 
-  - Jitter
+## <a name="qoe-performance-reports"></a>QoE のパフォーマンスレポート
 
-  - Conversational mean opinion score (MOS)
+QoE パフォーマンスレポートには、仲介サーバー、A/V 会議サーバー、エンドポイントの場所の QoE パフォーマンスに焦点を当てた3つのレポートに関する詳細が用意されています。
 
-  - Sending MOS
+</div>
 
-  - Listening MOS
+<div>
 
-  - Network MOS
+## <a name="mediation-server-performance-report"></a>仲介サーバーパフォーマンスレポート
 
-  - Network MOS Degradation
+仲介サーバーのパフォーマンスレポートには、指定した期間中に、1つ以上の仲介によって得られたメトリックが一覧表示されます。 ユニファイドコミュニケーション (UC) 対仲介サーバーの区間と、各通話の仲介サーバー間の区間のメトリックは、別々に報告されます。 このレポートを使用して、組織のさまざまな仲介サーバーのボリュームとパフォーマンスを比較します。
 
-  - Echo Return
+各仲介サーバー (および各通話区間用) には、次のようなレポートが表示されます。
 
-  - Signal Level
+  - 通話の数
 
-## A/V conferencing server performance report
+  - パケット損失
 
-The A/V Conferencing Server Performance report provides lists of metrics achieved by one or more A/V Conferencing Servers during the specified time period. This report can be used to compare the volume and performance of your organization’s various A/V Conferencing Servers. Your organization can also isolate the report to show only the experience for specific client types, such as Lync clients or PSTN clients.
+  - ラウンドトリップ時間
 
-For each A/V Conferencing Server, the report displays the following:
+  - ジッター
 
-  - Number of conferences
+  - 話し言葉平均の意見 (MOS)
 
-  - Packet Loss
+  - MOS を送信中
 
-  - Round Trip Time
-
-  - Jitter
-
-  - Conversational mean opinion score (MOS)
-
-  - Sending MOS
-
-  - Listening MOS
+  - 聞き取り MOS
 
   - Network MOS
 
-  - Network MOS Degradation
+  - ネットワーク MOS の低下
 
-  - Echo Return
+  - エコーリターン
 
-  - Signal Level
+  - シグナルレベル
 
-## Location-based performance report
+</div>
 
-The Location-Based Performance report provides a list of network locations and for each location shows the number of calls in each pre-determined range of quality. The goal of this report is to provide insight into the media quality of the bulk of your organization’s telephone calls for various locations so that you can identify poorly performing locations, and see the different grades of media quality in your organization’s different locations.
+<div>
 
-When displaying the report, different tables of metrics appear—one table for each metric your organization decides to report on. You can choose from the following metrics for this report:
+## <a name="av-conferencing-server-performance-report"></a>A/V 会議サーバーパフォーマンスレポート
 
-  - Conversational mean opinion score (MOS)
+A/V 会議サーバーパフォーマンスレポートでは、指定された期間中に1つ以上の A/V 会議サーバーによって達成された指標の一覧が表示されます。 このレポートは、組織のさまざまな A/V 会議サーバーのボリュームとパフォーマンスを比較するために使用できます。 組織でレポートを分離して、Lync クライアントや PSTN クライアントなど、特定のクライアントの種類のエクスペリエンスのみを表示することもできます。
+
+各 A/V 会議サーバーでは、レポートに次の内容が表示されます。
+
+  - 会議の数
+
+  - パケット損失
+
+  - ラウンドトリップ時間
+
+  - ジッター
+
+  - 話し言葉平均の意見 (MOS)
+
+  - MOS を送信中
+
+  - 聞き取り MOS
 
   - Network MOS
 
-  - Network MOS Degradation
+  - ネットワーク MOS の低下
 
-  - Sending MOS
+  - エコーリターン
 
-  - Listening MOS
+  - シグナルレベル
 
-  - Packet Loss
+</div>
 
-  - Jitter
+<div>
 
-  - Latency
+## <a name="location-based-performance-report"></a>位置ベースのパフォーマンスレポート
+
+位置ベースのパフォーマンスレポートでは、ネットワーク上の場所の一覧が表示され、各場所には、事前に決定された各品質の範囲の通話数が示されます。 このレポートの目的は、さまざまな場所についての組織の電話による通話の質を把握して、組織内で実行されている場所を特定し、さまざまな種類のメディアの品質を確認できるようにすることです。異なる場所。
+
+レポートを表示すると、さまざまなメトリックのテーブルが表示されます。組織がレポートを決定する各指標ごとに1つのテーブルが表示されます。 このレポートには、次のメトリックから選ぶことができます。
+
+  - 話し言葉平均の意見 (MOS)
+
+  - Network MOS
+
+  - ネットワーク MOS の低下
+
+  - MOS を送信中
+
+  - 聞き取り MOS
+
+  - パケット損失
+
+  - ジッター
+
+  - 間隔
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

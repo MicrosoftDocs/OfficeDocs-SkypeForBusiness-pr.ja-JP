@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013 でのスキーマのクラスと説明
-TOCTitle: Lync Server 2013 でのスキーマのクラスと説明
-ms:assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398625(v=OCS.15)
-ms:contentKeyID: 48272639
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: スキーマのクラスと説明'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema classes and descriptions
+ms:assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398625(v=OCS.15)
+ms:contentKeyID: 48184612
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 39bd0b3ff3c99e7de731f94eda0d3775ac4bd7cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822140"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのスキーマのクラスと説明
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="schema-classes-and-descriptions-in-lync-server-2013"></a>Lync Server 2013 のスキーマクラスと説明
 
-ここでは、Lync Server 2013 で使用されるすべてのスキーマ クラスについて説明します。
+</div>
 
-## スキーマのクラスと説明
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-30_
+
+このセクションでは、Lync Server 2013 で使用されるすべてのスキーマクラスについて説明します。
+
+<div>
+
+## <a name="schema-classes-and-descriptions"></a>スキーマのクラスと説明
 
 
 <table>
@@ -35,310 +57,323 @@ _**トピックの最終更新日:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Mail-Recipient</p></td>
-<td><p>Exchange ユニファイド メッセージング (UM) 電子メール受信者。</p></td>
-<td><p>Exchange UM と共有される補助型クラスです。</p></td>
+<td><p>メール受信者</p></td>
+<td><p>Exchange ユニファイドメッセージング (UM) メール受信者。</p></td>
+<td><p>この補助クラスは Exchange UM と共有されます。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ApplicationContacts</p></td>
-<td><p>複数のアプリケーションの連絡先のコンテナーです。属性そのものは含まれません。</p></td>
-<td><p>Microsoft Office Communications Server 2007 R2 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-ApplicationContacts</p></td>
+<td><p>このクラスは、複数のアプリケーションの連絡先のコンテナーであり、属性自体は含まれません。</p></td>
+<td><p>Microsoft Office Communications Server 2007 R2 の新製品。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ApplicationServer</p></td>
-<td><p>統合コミュニケーション アプリケーション サービス (UCAS) のインスタンスのサービス制御ポイントのエントリを保持するクラスです。</p></td>
-<td><p>Office Communications Server 2007 R2 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-ApplicationServer</p></td>
+<td><p>このクラスは、ユニファイドコミュニケーションアプリケーションサービス (UCAS) のインスタンスのサービスコントロールポイントのエントリを保持します。</p></td>
+<td><p>Office Communications Server 2007 R2 の新製品。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ApplicationServerService</p></td>
-<td><p>特定のプールからそのアプリケーション サービスへの関連付けを提供するクラスです。</p></td>
-<td><p>Communications Server 2007 R2 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-ApplicationServerService</p></td>
+<td><p>このクラスは、特定のプールからそのアプリケーションサービスへの関連付けを提供します。</p></td>
+<td><p>Communications Server 2007 R2 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ApplicationServerSettings</p></td>
-<td><p>アプリケーション サービスのインスタンスの設定を表す属性を保持する msRTCSIP-ApplicationServer の補助型クラスです。</p></td>
-<td><p>Communications Server 2007 R2 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-ApplicationServerSettings</p></td>
+<td><p>この補助クラスと Msrtcsip-userenabled true-ApplicationServer は、アプリケーションサービスのインスタンスの設定を表す属性を保持します。</p></td>
+<td><p>Communications Server 2007 R2 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Archive (廃止)</p></td>
-<td><p>アーカイブに関連するすべての設定を保持する msRTCSIP-GlobalContainer の補助型クラスです。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-アーカイブ (廃止)</p></td>
+<td><p>この補助クラス to Msrtcsip-userenabled true-GlobalContainer は、アーカイブに関連するすべての設定を保持します。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ArchivingServer (廃止)</p></td>
-<td><p>1 つのインスタント メッセージング アーカイブ サーバーを表すクラスです。 このクラスのインスタンスは、コンピューター (インスタント メッセージング アーカイブ サービスがインストールされたコンピューターなど) がインスタント メッセージング アーカイブ サーバーとしてアクティブ化されると作成されます。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-ArchivingServer (廃止)</p></td>
+<td><p>このクラスは、単一のインスタントメッセージングアーカイブサーバーを表します。 このクラスのインスタンスは、インスタントメッセージアーカイブサービスがインストールされているコンピューターなど、コンピューターがインスタントメッセージングアーカイブサーバーとしてアクティブ化されたときに作成されます。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ConferenceDirectories</p></td>
-<td><p>会議ディレクトリの複数のインスタンスを格納するコンテナーです。属性そのものは含まれません。</p></td>
-<td><p>Communications Server 2007 R2 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-ConferenceDirectories</p></td>
+<td><p>このクラスは、会議ディレクトリの複数のインスタンスのコンテナーであり、属性自体は含まれません。</p></td>
+<td><p>Communications Server 2007 R2 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ConferenceDirectory</p></td>
-<td><p>特定の会議ディレクトリの設定を表す属性を保持します。</p></td>
-<td><p>Communications Server 2007 R2 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-ConferenceDirectory</p></td>
+<td><p>このクラスには、特定の会議ディレクトリの設定を表す属性が保持しています。</p></td>
+<td><p>Communications Server 2007 R2 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ConnectionPoint</p></td>
-<td><p>コンピューターを Lync Server を実行しているサーバーとして指定する、汎用のサービス制御ポイント (SCP) です。</p></td>
-<td><p>Lync 2010 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-ConnectionPoint</p></td>
+<td><p>[汎用サービス制御ポイント (SCP)] は、Lync Server を実行しているサーバーとしてコンピューターを指定します。</p></td>
+<td><p>Lync 2010 の新方法。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-DefaultCWABank</p></td>
-<td><p>Microsoft Lync Web App バンクの設定を保持する補助型クラスです。</p></td>
-<td><p>Communications Server 2007 R2 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-DefaultCWABank</p></td>
+<td><p>この補助クラスは、Microsoft Lync Web App bank の設定を保持します。</p></td>
+<td><p>Communications Server 2007 R2 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Domain</p></td>
-<td><p>SIP レジストラーの構成済みドメインを定義する属性を保持するクラスです。</p></td>
+<td><p>Msrtcsip-userenabled true-ドメイン</p></td>
+<td><p>このクラスは、SIP レジストラーの構成済みドメインを定義する属性を保持します。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-EdgeProxy</p></td>
-<td><p>1 つのアクセス エッジ サービスを表すクラス コンテナーです。アクセス エッジ サービスは境界ネットワークに展開され、通常は、境界ネットワークから Active Directory ドメイン サービス へのアクセスは許可されないため、アクセス エッジ サービスのインスタンスはイントラネットの Active Directory ネットワークに参加しません。 したがって、アクセス プロキシは、自動的には AD DS に登録されません。 管理者が手動で、アクセス エッジ サービスの各インスタンスの存在を AD DS で構成する必要があります。</p></td>
+<td><p>Msrtcsip-userenabled true-EdgeProxy</p></td>
+<td><p>このクラスコンテナーは、単一のアクセスエッジサービスを表します。 アクセスエッジサービスは境界ネットワークに展開されているため、ユーザーは通常、境界ネットワークからの Active Directory ドメインサービスへのアクセスを許可しません。アクセスエッジサービスのインスタンスは、イントラネットの Active Directory ネットワークには参加していません。 そのため、アクセスプロキシは AD DS に自動的に登録されません。 管理者は、AD DS のアクセスエッジサービスの各インスタンスの存在を手動で構成する必要があります。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EnterpriseMCUSettings</p></td>
-<td><p>電話会議サーバーの設定を表す属性を保持する msRTCSIP-MCU の補助型クラスです。</p></td>
-<td><p>Microsoft Office Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-EnterpriseMCUSettings</p></td>
+<td><p>この補助クラスから Msrtcsip-userenabled true への属性は、会議サーバーの設定を表す属性を保持します。</p></td>
+<td><p>Microsoft Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-EnterpriseMediationServerSettings</p></td>
-<td><p>仲介サーバーの設定を表す属性を保持する msRTCSIP-MediationServer の補助型クラスです。</p></td>
-<td><p>Office Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-EnterpriseMediationServerSettings</p></td>
+<td><p>この補助クラスの Msrtcsip-userenabled true-MediationServer は、仲介サーバーの設定を表す属性を保持します。</p></td>
+<td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EnterpriseServerSettings</p></td>
-<td><p>SIP サーバーの設定を表す属性を保持する msRTCSIP-Server の補助型クラスです。</p></td>
+<td><p>Msrtcsip-userenabled true-EnterpriseServerSettings</p></td>
+<td><p>Msrtcsip-userenabled true への補助クラスは、SIP サーバーの設定を表す属性を保持します。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Federation</p></td>
-<td><p>フェデレーションに関連するすべての設定を保持する msRTCSIP-GlobalContainer の補助型クラスです。</p></td>
+<td><p>Msrtcsip-userenabled true-フェデレーション</p></td>
+<td><p>この補助クラス to Msrtcsip-userenabled true-GlobalContainer は、フェデレーションに関連するすべての設定を保持します。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalContainer</p></td>
-<td><p>Lync Server の展開全体に適用されるすべての設定を保持するクラスです。</p></td>
+<td><p>Msrtcsip-userenabled true-GlobalContainer</p></td>
+<td><p>このクラスは、Lync Server の展開全体で適用されるすべての設定を保持します。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-GlobalUserPolicy (廃止)</p></td>
-<td><p>1 つの Office Communications Server 会議ポリシーを表すクラスです。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-GlobalUserPolicy (廃止)</p></td>
+<td><p>このクラスは、1つの Office Communications Server 会議ポリシーを表します。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalTopologySetting</p></td>
-<td><p>ローカルのグローバル トポロジ設定オブジェクトです。</p></td>
-<td><p>Lync Server 2010 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-GlobalTopologySetting</p></td>
+<td><p>ローカルグローバルトポロジ設定オブジェクト。</p></td>
+<td><p>Lync Server 2010 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-GlobalTopologySettings</p></td>
-<td><p>グローバル トポロジ設定オブジェクトを保持するコンテナーです。</p></td>
-<td><p>Lync Server 2010 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-GlobalTopologySettings</p></td>
+<td><p>グローバルトポロジ設定オブジェクトを保持するコンテナー。</p></td>
+<td><p>Lync Server 2010 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocalNormalization</p></td>
-<td><p>ローカル正規化ルールのインスタンスを表すコンテナーです。</p></td>
+<td><p>Msrtcsip-userenabled true-LocalNormalization</p></td>
+<td><p>このクラスは、位置正規化規則のインスタンスを表すコンテナーです。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocationContactMapping</p></td>
-<td><p>会議アテンダント アプリケーションによって作成され、会議電話番号を地域別に分類するために使用される属性を保持するクラスです。</p></td>
-<td><p>Communications Server 2007 R2 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-LocationContactMapping</p></td>
+<td><p>このクラスは、会議アテンダントアプリケーションによって作成され、地域ごとの会議電話番号の分類に使われる属性を保持します。</p></td>
+<td><p>Communications Server 2007 R2 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocationContactMappings</p></td>
-<td><p>場所と連絡先のマッピングの複数のインスタンスを保持するコンテナーです。属性そのものは含まれません。</p></td>
-<td><p>Communications Server 2007 R2 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-LocationContactMappings マッピング</p></td>
+<td><p>このクラスは、場所の連絡先マッピングの複数のインスタンスのコンテナーであり、属性自体は含まれません。</p></td>
+<td><p>Communications Server 2007 R2 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocationProfile</p></td>
-<td><p>特定の場所のプロファイルを表すコンテナーです。</p></td>
+<td><p>Msrtcsip-userenabled true-LocationProfile</p></td>
+<td><p>このクラスは、特定の位置情報プロファイルを表すコンテナーです。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocationProfiles (廃止)</p></td>
-<td><p>複数の場所のプロファイルのコンテナーです。属性そのものは含まれません。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-LocationProfiles (廃止)</p></td>
+<td><p>このクラスは、複数の場所プロファイルのコンテナーであり、属性自体は含まれません。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocalNormalizations (廃止)</p></td>
-<td><p>複数のローカル正規化ルールのコンテナーです。属性そのものは含まれません。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-LocalNormalizations 廃止)</p></td>
+<td><p>このクラスは、複数のローカル正規化規則のコンテナーであり、属性自体は含まれません。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MCU</p></td>
-<td><p>1 つの電話会議サーバーを表すクラスです。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-MCU</p></td>
+<td><p>このクラスは、単一の会議サーバーを表します。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUFactories</p></td>
-<td><p>複数の msRTCSIP-MCUFactory クラスを保持するクラスです。属性そのものは含まれません。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-MCUFactories</p></td>
+<td><p>このクラスは、複数の Msrtcsip-userenabled true を保持し、属性自体は持ちません。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MCUFactory</p></td>
-<td><p>1 つのメディアの種類の会議サーバー ファクトリを表すコンテナーです。 このクラスのインスタンスは、この特定の種類およびベンダーの最初の電話会議サーバーがアクティブ化されると作成されます。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-MCUFactory</p></td>
+<td><p>このクラスは、単一のメディアの種類の会議サーバーファクトリを表すコンテナーです。 このクラスのインスタンスは、この特定の種類とベンダーの最初の会議サーバーがアクティブ化されたときに作成されます。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUFactoryService</p></td>
-<td><p>特定のプールからその会議サーバー ファクトリへの関連付けを提供するクラスです。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-MCUFactoryService</p></td>
+<td><p>このクラスは、特定のプールから会議サーバーファクトリへの関連付けを提供します。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MediationServer</p></td>
-<td><p>仲介サーバーのサービス制御ポイントのエントリを保持するクラスです。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-MediationServer</p></td>
+<td><p>このクラスは、仲介サーバーのサービス制御ポイントのエントリを保持します。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Meeting (廃止)</p></td>
-<td><p>構成可能な会議の設定を表す属性を保持する msRTCSIP-GlobalContainer の補助型クラスです。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-会議 (廃止)</p></td>
+<td><p>この補助クラスの Msrtcsip-userenabled true-GlobalContainer は、構成可能な会議の設定を示す属性を保持します。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Mobility</p></td>
-<td><p>グローバル モビリティ設定を格納するコンテナーです。</p></td>
+<td><p>Msrtcsip-userenabled true</p></td>
+<td><p>グローバルモバイル設定を格納するコンテナー。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MonitoringServer</p></td>
-<td><p>1 つの監視サーバーの設定を表す属性を保持するクラスです。</p></td>
-<td><p>Communications Server 2007 R2 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-MonitoringServer</p></td>
+<td><p>このクラスは、単一の監視サーバーの設定を表す属性を保持します。</p></td>
+<td><p>Communications Server 2007 R2 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PhoneRoute (廃止)</p></td>
-<td><p>ゲートウェイまたはゲートウェイのセットへの最小コスト経路のインスタンスを表すコンテナーです。 この情報は、すべてのエンタープライズ プールや Standard Edition サーバーによって、最もコストの小さい方法で、発信通話を公衆交換電話網 (PSTN) にルーティングするために使用されます。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-PhoneRoute (廃止)</p></td>
+<td><p>このクラスは、ゲートウェイまたはゲートウェイのセットへの最小料金のルートのインスタンスを示すコンテナーです。 この情報は、標準エディションを実行しているすべてのエンタープライズプールまたはサーバーが、発信した通話を、最もお得な方法で公衆交換電話網 (PSTN) にルーティングするために使用されます。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PhoneRoutes (廃止)</p></td>
-<td><p>複数の最小コスト経路のコンテナーです。属性そのものは含まれません。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-PhoneRoutes (廃止)</p></td>
+<td><p>このクラスは、コストが最小の複数のルートのコンテナーであり、属性自体は含まれません。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Policies (廃止)</p></td>
-<td><p>複数のLync Server ポリシー クラスを保持するクラスです。属性そのものは含まれません。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-ポリシー (廃止)</p></td>
+<td><p>このクラスには、複数の Lync Server ポリシークラスが含まれており、属性自体は含まれていません。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Pool</p></td>
-<td><p>1 つの Lync Server プールを表すクラスです。</p></td>
+<td><p>Msrtcsip-userenabled true プール</p></td>
+<td><p>このクラスは、単一の Lync サーバープールを表します。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pools</p></td>
-<td><p>複数の Lync Server プールを保持するクラスです。属性そのものは含まれません。</p></td>
+<td><p>Msrtcsip-userenabled true-プール</p></td>
+<td><p>このクラスは、複数の Lync Server プールを保持しており、属性自体を持ちません。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PoolService</p></td>
-<td><p>プールのサービス制御ポイントを表すクラスです。プールでホストされるユーザーは、msRTCSIP-PrimaryHomeServer 属性をこのクラスのインスタンスに設定します。</p></td>
+<td><p>Msrtcsip-userenabled true-PoolService</p></td>
+<td><p>このクラスは、プールのサービス制御ポイントサービス制御ポイントを表します。 プールでホストされているユーザーの Msrtcsip-userenabled true 属性ポイントは、このクラスのインスタンスになります。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Presence</p></td>
-<td><p>グローバル プレゼンス設定を格納するコンテナーです。</p></td>
+<td><p>Msrtcsip-userenabled true-プレゼンス</p></td>
+<td><p>グローバルプレゼンス設定を格納するコンテナー。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Registrar</p></td>
-<td><p>SIP レジストラー サーバーによって管理されるユーザー設定を表す属性を保持する msRTCSIP-GlobalContainer の補助型クラスです。</p></td>
+<td><p>Msrtcsip-userenabled true-レジストラー</p></td>
+<td><p>この補助クラス to Msrtcsip-userenabled true-GlobalContainer は、SIP レジストラーサーバーによって管理されるユーザー設定を表す属性を保持します。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-RouteUsage (廃止)</p></td>
-<td><p>電話ルート使用法のインスタンスを表すコンテナーです。電話ルート使用法クラスは、属性フィールドと説明フィールドで構成されています。属性フィールドは使用法の種類を定義します。管理者は説明フィールドに、電話ルートでのその属性の使用法の説明を記入できます。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-RouteUsage (廃止)</p></td>
+<td><p>このクラスは、電話ルートの使用状況のインスタンスを表すコンテナーです。 電話ルートの利用状況クラスは、属性フィールドと説明フィールドで構成されます。 属性フィールドには、使用の種類が定義されています。 [説明] フィールドでは、管理者が電話ルートでこの属性の使用を説明できます。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-RouteUsages (廃止)</p></td>
-<td><p>msRTCSIP-RouteUsage クラスの複数のインスタンスを保持するクラスです。属性そのものは含まれません。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-RouteUsages (廃止)</p></td>
+<td><p>このクラスは、Msrtcsip-userenabled true-RouteUsage クラスの複数のインスタンスを保持します。属性自体はありません。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Search</p></td>
-<td><p>検索結果の範囲を制限および制御する属性を保持する msRTCSIP-GlobalContainer の補助型クラスです。</p></td>
+<td><p>Msrtcsip-userenabled true-検索</p></td>
+<td><p>この補助クラス to Msrtcsip-userenabled true-GlobalContainer は、検索結果の範囲を制限および制御する属性を保持します。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Server</p></td>
-<td><p>Lync Server を実行している 1 つのサーバーを表すクラスです。</p></td>
+<td><p>Msrtcsip-userenabled true-サーバー</p></td>
+<td><p>このクラスは、Lync Server を実行している1台のサーバーを表します。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Service</p></td>
-<td><p>グローバル設定コンテナーと msRTCSIP-Domain オブジェクトを保持するクラスです。</p></td>
+<td><p>Msrtcsip-userenabled true-サービス</p></td>
+<td><p>このクラスは、グローバル設定コンテナーと Msrtcsip-userenabled true オブジェクトを保持します。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedMCU</p></td>
-<td><p>1 つの信頼済み電話会議サーバーの設定を表す属性を保持するクラスです。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedMCU</p></td>
+<td><p>このクラスは、信頼できる会議サーバーの設定を表す属性を保持します。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedMCUs</p></td>
-<td><p>msRTCSIP-TrustedMCU クラスの複数のインスタンスを保持するクラスです。属性そのものは含まれません。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedMCUs</p></td>
+<td><p>このクラスには、Msrtcsip-userenabled true の複数のインスタンスが含まれており、属性自体はありません。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedProxies</p></td>
-<td><p>複数の msRTCSIP-TrustedProxy クラスを保持するクラスです。属性そのものは含まれません。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedProxies</p></td>
+<td><p>このクラスは、複数の Msrtcsip-userenabled true プロキシクラスを保持し、属性自体は含まれません。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedProxy</p></td>
-<td><p>プロキシ サーバーを実行しているサーバーを表すコンテナーです。 このクラスのインスタンスは、AD DS に参加しているコンピューターで新しいプロキシ サーバーがアクティブ化されると作成されます。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedProxy</p></td>
+<td><p>このクラスは、プロキシサーバーを実行しているサーバーを表すコンテナーです。 このクラスのインスタンスは、AD DS に参加しているコンピューターで新しいプロキシサーバーをアクティブ化するときに作成されます。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServer</p></td>
-<td><p>1 つの信頼済みサーバーの設定を表す属性を保持するクラスです。</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedServer</p></td>
+<td><p>このクラスは、信頼されたサーバーの設定を表す属性を保持します。</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedService</p></td>
-<td><p>グローバルにルーティング可能なユーザー エージェント (GRUU) アドレスを使用してルーティングできる信頼済みサービスを表すコンテナーです。 このクラスのインスタンスは、Lync Server によって信頼されている新しいサーバーがアクティブ化されると作成されます。この信頼済みサーバーは Active Directory ドメインに参加している必要があります。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedService</p></td>
+<td><p>このクラスは、グローバルルーティング可能なユーザーエージェント URI (GRUU) アドレスを使ってルーティング可能な、信頼されたサービスを表すコンテナーです。 このクラスのインスタンスは、Lync Server によって信頼されている新しいサーバーがアクティブ化されたときに作成されます。 この信頼できるサーバーは Active Directory ドメインに参加している必要があります。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServices</p></td>
-<td><p>複数の GRUU サーバーのコンテナーです。属性そのものは含まれません。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedServices</p></td>
+<td><p>このクラスは、複数の GRUU サーバーのコンテナーであり、属性自体は含まれていません。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedWebComponentsServer</p></td>
-<td><p>1 つの信頼済み Web コンポーネントの設定を表す属性を保持するクラスです。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-Trustedwebのサーバー</p></td>
+<td><p>このクラスは、信頼された web コンポーネントの設定を表す属性を保持します。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedWebComponentsServers</p></td>
-<td><p>msRTCSIP-TrustedWebComponentServer クラスの複数のインスタンスを保持するクラスです。属性そのものは含まれません。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-Trustedwebservers サーバー</p></td>
+<td><p>このクラスは、Msrtcsip-userenabled true Webcomponentserver クラスの複数のインスタンスを保持します。属性自体はありません。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-UnifiedCommunications (廃止)</p></td>
-<td><p>統合コミュニケーションに関連する属性を保持する msRTCSIP-GlobalContainer の補助型クラスです。</p></td>
-<td><p>Lync Server 2010 で廃止。</p></td>
+<td><p>Msrtcsip-userenabled true-UnifiedCommunications (廃止)</p></td>
+<td><p>この補助クラスの Msrtcsip-userenabled true-GlobalContainer は、統合された通信に関連する属性を保持します。</p></td>
+<td><p>Lync Server 2010 では廃止されています。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-WebComponents</p></td>
-<td><p>インターネット インフォメーション サーバー (IIS) のサービス制御ポイントを保持するクラスです。サーバーを Web コンポーネント サーバーとして識別します。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-Web コンポーネント</p></td>
+<td><p>このクラスは、インターネットインフォメーションサーバー (IIS) のサービスコントロールポイントサービス制御ポイントを保持します。 Web コンポーネントサーバーとしてサーバーを識別します。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-WebComponentsService</p></td>
-<td><p>特定のプールからそのプールが使用する Web コンポーネントへの関連付けを提供するクラスです。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-Webmessages サービス</p></td>
+<td><p>このクラスは、プールで使用される web コンポーネントと特定のプールとの関連付けを提供します。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-WebComponentSettings</p></td>
-<td><p>Web コンポーネントの設定を表す属性を保持する msRTCSIP-WebComponents の補助型クラスです。</p></td>
-<td><p>Communications Server 2007 で新規。</p></td>
+<td><p>Msrtcsip-userenabled true-WebComponentSettings</p></td>
+<td><p>この補助クラスの Msrtcsip-userenabled true コンポーネントは、web コンポーネントの設定を表す属性を保持します。</p></td>
+<td><p>Communications Server 2007 の新サービスです。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,39 +1,69 @@
-﻿---
-title: 'Lync Server 2013: ハイブリッド Lync Server 展開の計画'
-TOCTitle: ハイブリッド Lync Server 展開の計画
-ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205403(v=OCS.15)
-ms:contentKeyID: 48274109
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ハイブリッド展開を計画する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for hybrid deployments
+ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)
+ms:contentKeyID: 48185910
+ms.date: 05/25/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b528e22e24635d47755096cd4bf81d4066feb3c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825150"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 ハイブリッド展開の計画
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="planning-for-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 ハイブリッド展開の計画
 
-ハイブリッド展開を計画する際は、ユーザーおよびネットワーク インフラストラクチャに対する次の必要条件を考慮する必要があります。
+</div>
 
-## インフラストラクチャの要件
+<div id="mainSection">
 
-Lync Server 2013 ハイブリッド展開を実装および構成するためには、ユーザーの環境において次のことが必要です。
+<div id="mainBody">
 
-  - Lync Online が有効化されている Office 365 テナント。
+<span> </span>
 
-  - 内部設置型または Microsoft Azure を使用している Active Directory Federation Services (AD FS) Server。AD FS の詳細については、「[Active Directory Federation Services (AD FS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=393795)」または「[Windows Azure Pack 用の Active Directory フェデレーション サービスの構成](http://go.microsoft.com/fwlink/p/?linkid=522475)」を参照してください。
+_**最終更新日:** 2016-05-25_
 
-  - Lync Server 2013 または Lync Server 2010 の累積的更新プログラム: 2013 年 3 月以降を適用した Lync Server 2010 の内部設置展開。
+ハイブリッド展開を計画する場合は、ユーザーとネットワークインフラストラクチャについて、次の要件を考慮する必要があります。
 
-  - Lync Server 2013 管理ツール。
+<div>
 
-  - ディレクトリ同期。ディレクトリ同期の詳細については、「[ハイブリッド ID 管理](http://go.microsoft.com/fwlink/p/?linkid=231010)」を参照してください。
+## <a name="infrastructure-requirements"></a>インフラストラクチャの要件
 
-## Lync クライアント サポート
+ハイブリッド展開を実装して展開するには、環境内で次のように構成されている必要があります。
 
-Lync クライアントでサポートされる機能には違いがあります。また、内部設置型環境とオンライン環境で使用できる機能にも違いがあります。ユーザーを組織のどこに置くかを決める前に、Lync Server の各種構成に対するクライアント サポートを確認できます。Lync のハイブリッド展開では、Skype for Business Online で次のクライアントがサポートされます。
+  - Skype for Business Online が有効になっている Microsoft Office 365 テナント オンプレミスの展開でハイブリッド構成に使用できるテナントは1つだけであることに注意してください。
+
+  - サポートされているトポロジ内に展開された、Skype for Business Server または Lync Server の単一のオンプレミス展開 (インフラストラクチャ)。 「トポロジの要件」をご覧ください。
+    
+    ハイブリッド用の Lync Server 2013 または Lync Server 2010 の展開を構成する方法については、「 [Lync server 2013 ハイブリッド展開を構成する](lync-server-2013-configuring-hybrid-deployments.md)」を参照してください。
+
+  - Skype for Business Server 2015 管理ツール。 Lync Server 2013 または Lync Server 2010 を使用している場合は、Lync Server 2013 管理ツールを使用できます。
+
+  - Office 365 を使ったシングルサインオンをサポートして、ユーザーがオンプレミスとして Office にサインインするときに同じログイン資格情報を使用できるようにするには、Azure Active Directory (AAD) Connect のパスワード同期機能を使用できます。 また、Office 365 でのシングル サインオンに Active Directory フェデレーション サービス (AD FS) を使用することもできます。
+    
+    詳細については、「[オンプレミス id と Azure Active Directory の統合](http://go.microsoft.com/fwlink/p/?linkid=619754)」を参照してください。
+
+  - オンプレミスとオンラインの Active Directory オブジェクトの同期を維持するための単一のディレクトリ同期ソリューション。 ディレクトリ同期の詳細については、「[ディレクトリ統合ツール](http://go.microsoft.com/fwlink/p/?linkid=530320)」を参照してください。
+
+</div>
+
+<div>
+
+## <a name="lync-client-support"></a>Lync クライアントのサポート
+
+Lync クライアントでサポートされる機能、およびオンプレミスとオンラインの環境で利用できる機能にはいくつかの違いがあります。 組織内のホームユーザーを決定する前に、Lync Server のさまざまな構成のクライアントサポートを表示できます。 Lync ハイブリッド展開では、次のクライアントが Skype for Business Online でサポートされています。
 
   - Lync 2010
 
@@ -51,7 +81,7 @@ Lync クライアントでサポートされる機能には違いがあります
 
   - Lync Basic 2013
 
-クライアント サポートの詳細については、次のトピックを参照してください。
+クライアントのサポートの詳細については、次のトピックを参照してください。
 
   - [Lync Online のクライアント](http://go.microsoft.com/fwlink/?linkid=281902)
 
@@ -59,61 +89,142 @@ Lync クライアントでサポートされる機能には違いがあります
 
   - [Lync Server 2013 のモバイル クライアントの比較表](lync-server-2013-mobile-client-comparison-tables.md)
 
-## トポロジ要件
+</div>
 
-Skype for Business Online とのハイブリッド用の Lync Server 2013 展開を構成するには、次のサポートされているトポロジのいずれかが必要です。
+<span id="BKMK_Topology"></span>
 
-  - Microsoft Office Communications Server 2007 R2 と Lync Server 2013 の内部設置型。 Lync Server 2013 のフェデレーション エッジ サーバーとフェデレーション エッジ サーバーからの次のホップ サーバーで Lync Server 2013 が実行され、中央管理ストアが展開されている必要があります。 エッジ サーバーおよびプールは内部設置型で展開する必要があります。
+<div>
+
+## <a name="topology-requirements"></a>トポロジ要件
+
+Skype for Business Online とのハイブリッド展開を構成するには、次のサポートされているトポロジのいずれかを使用する必要があります。
+
+  - Skype for business server 2015 を実行しているすべてのサーバーでの Skype for Business Server 2015 の展開。
+
+  - Lync server 2013 を実行しているすべてのサーバーでの Lync Server 2013 の展開。
+
+  - Lync server 2010 の展開で、Lync Server 2010 を実行しているすべてのサーバーと最新の累積更新プログラムが適用されています。
     
-
-    > [!IMPORTANT]
-    > このトポロジをサポートすることにより、一部の機能が制限されることがあります。たとえば、Microsoft Lync Online ユーザーと社内の Office Communications Server 2007 R2 ユーザーの間のプレゼンス情報は想定どおりに機能しない場合があります。
-
-
-
-  - Microsoft Lync Server 2010 (Lync Server 2010 の累積的な更新プログラム: 2013 年 3 月を適用済み) と内部設置された Lync Server 2013 管理ツール。フェデレーション エッジ サーバー とフェデレーション エッジ サーバー からの次のホップサーバーで、最新の累積的な更新プログラム 2013 年 3 月以降が適用された Microsoft Lync Server 2010 または Lync Server 2013 が実行されている必要があります。
+      - フェデレーションエッジサーバーのフェデレーションエッジサーバーと次ホップサーバーでは、最新の累積更新プログラムを使用して、Lync Server 2010 を実行している必要があります。
     
+      - Skype for Business Server 2015 または Lync Server 2013 の管理ツールは、少なくとも1つのサーバーまたは管理ワークステーションにインストールする必要があります。
 
-    > [!IMPORTANT]
-    > Lync Server 2013 管理ツールは、既存の Lync Server 2010 の展開にアクセスできる別個のサーバーにインストールされている必要があります。ユーザーを内部設置型展開から Lync Online に移動する Move-CsUser コマンドレットは、内部設置型展開に接続されている Lync Server 2013 管理ツールから実行する必要があります。
+  - Lync Server 2013 と Skype for Business Server 2015 の混在: Skype for Business Server 2015 を実行している少なくとも1つのサイトに次のサーバーロールが含まれています。
+    
+      - 少なくとも 1 台のエンタープライズ プールまたは Standard Edition サーバー 
+    
+      - SIP フェデレーションに関連づけられたディレクター プール (もしあれば)
+    
+      - SIP フェデレーションに関連づけられたエッジ プール (もしあれば)
+
+  - Lync Server 2010 と Skype for Business Server 2015 の混在: Skype for Business Server 2015 を実行している少なくとも1つのサイトに次のサーバーの役割が含まれています。
+    
+      - 少なくとも 1 台のエンタープライズ プールまたは Standard Edition サーバー 
+    
+      - SIP フェデレーションに関連づけられたディレクター プール (もしあれば)
+    
+      - サイトの SIP フェデレーションに関連づけられたエッジ プール
+
+  - Lync server 2013 を実行している少なくとも1つのサイトに次のサーバーロールが含まれている、混在する Lync Server 2010 と Lync Server 2013 の展開:
+    
+      - サイトの少なくとも 1 台のエンタープライズ プールまたは Standard Edition サーバー
+    
+      - SIP フェデレーションに関連づけられたディレクター プール (もしサイトにあれば)
+    
+      - サイトの SIP フェデレーションに関連づけられたエッジ プール
+
+<div>
+
+
+> [!IMPORTANT]  
+> オンプレミスと UNRESOLVED_TOKEN_VAL (skypeforbusiness) の間のユーザー移動を含むすべてのユーザー管理は、最新バージョンの管理ツールを使用して実行する必要があります。 管理ツールは、既存のオンプレミスの展開とインターネットへの接続にアクセスできる個別のサーバーにインストールする必要があります。 オンプレミスの展開から UNRESOLVED_TOKEN_VAL (skype16_online) にユーザーを移動するための<A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">移動ユーザー</A>コマンドレットは、オンプレミス展開に接続されている管理ツールから実行されている必要があります。
 
 
 
-  - すべてのサーバーで Lync Server 2013 が実行されている Lync Server 2013 展開。
+</div>
 
-サポートされるトポロジの詳細については、「[Lync Server 2013 でサポートされるトポロジ](lync-server-2013-supported-topologies.md)」、および「[エンタープライズ ハイブリッド展開用の Lync Server 2013 参照トポロジ (Lync Server 2013 Reference Topologies for Enterprise Hybrid Deployments)](http://go.microsoft.com/fwlink/p/?linkid=398709)」を参照してください。
+サポートされるトポロジの詳細については、「 [Lync server 2013 でサポートされるトポロジ](lync-server-2013-supported-topologies.md)」および「[エンタープライズハイブリッド展開の Lync Server 2013 リファレンストポロジ](http://go.microsoft.com/fwlink/p/?linkid=398709)」を参照してください。
 
-ハイブリッド展開や Lync Online への PowerShell の接続に関するトラブルシューティング情報については、「[Lync Online: Lync PowerShell とハイブリッド トラブルシューティング (Lync Online: Lync PowerShell and Hybrid Troubleshooting)](http://go.microsoft.com/fwlink/p/?linkid=306718)」を参照してください。
+ハイブリッド展開と Lync Online への PowerShell の接続のトラブルシューティングについては、「 [Lync Online: Lync PowerShell とハイブリッドトラブルシューティング](http://go.microsoft.com/fwlink/p/?linkid=306718)」を参照してください。
 
-## フェデレーション許可/禁止の一覧の要件
+</div>
 
-許可ドメインの一覧には、パートナー エッジの完全修飾ドメイン名 (FQDN) が構成されているドメインが含まれます。これらは許可パートナー サーバー またはダイレクト フェデレーション パートナー と呼ばれることもあります。オープン フェデレーションとクローズド フェデレーションの違いをよく理解しておくことが必要です。内部設置型展開ではこれらはそれぞれパートナーの検出 および許可パートナー ドメインの一覧 と呼ばれます。
+<div>
+
+## <a name="requirements-for-federation-allowedblocked-lists"></a>フェデレーション許可/禁止リストの要件
+
+許可ドメインの一覧には、パートナー エッジの完全修飾ドメイン名 (FQDN) が構成されているドメインが含まれます。これらは*許可パートナー サーバー*または*ダイレクト フェデレーション パートナー*と呼ばれることもあります。オープン フェデレーションとクローズド フェデレーションの違いをよく理解しておくことが必要です。オンプレミス展開ではこれらはそれぞれ*パートナーの検出*および*許可パートナー ドメインの一覧*と呼ばれます。
 
 ハイブリッド展開を正しく構成するには、次の必要条件を満たす必要があります。
 
-  - 内部設置型展開と Office 365 テナントでドメイン マッチングの構成を同一にする必要があります。内部設置型展開でパートナーの検出が有効になっている場合、オンライン テナントではオープン フェデレーションを有効にする必要があります。パートナーの検出が無効になっている場合、オンライン テナントではクローズド フェデレーションを構成する必要があります。
+  - オンプレミス展開と Office 365 テナントでドメイン マッチングの構成を同一にする必要があります。オンプレミス展開でパートナーの検出が有効になっている場合、オンライン テナントではオープン フェデレーションを有効にする必要があります。パートナーの検出が無効になっている場合、オンライン テナントではクローズド フェデレーションを構成する必要があります。
 
-  - 内部設置型展開における禁止ドメインの一覧はオンライン テナントの禁止ドメインの一覧と正確に一致する必要があります。
+  - オンプレミス展開における禁止ドメインの一覧はオンライン テナントの禁止ドメインの一覧と正確に一致する必要があります。
 
-  - 内部設置型展開における許可ドメインの一覧はオンライン テナントの許可ドメインの一覧と正確に一致する必要があります。
+  - オンプレミス展開における許可ドメインの一覧はオンライン テナントの許可ドメインの一覧と正確に一致する必要があります。
 
-  - オンライン テナントの外部通信ではフェデレーションを有効にする必要があります。これは Lync Online のコントロール パネルを使用して構成します。
+  - オンラインテナントの外部通信では、フェデレーションを有効にする必要があります。これは、Lync Online のコントロールパネルを使用して構成されます。
 
-## DNS の設定
+</div>
 
-ハイブリッド展開の DNS SRV レコードを作成する場合は、\_sipfederationtls.\_tcp.\<domain\> と \_sip.\_tls.\<domain\> のレコードが内部設置型のアクセス ポリシーを指す必要があります。
+<div>
 
-## ファイアウォールの考慮
+## <a name="dns-settings"></a>DNS 設定
+
+ハイブリッド展開用の DNS レコードを作成するときには、すべての Lync 外部 DNS レコードがオンプレミスインフラストラクチャを指すようにする必要があります。 必要な DNS レコードの詳細については、「 [Lync Server 2013 のドメインネームシステム (DNS) 要件](lync-server-2013-domain-name-system-dns-requirements.md)」を参照してください。
+
+さらに、次の表で説明している DNS 解決が使用しているオンプレミス展開で機能することを確認する必要があります。
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>DNS レコード</p></td>
+<td><p>解決方法</p></td>
+<td><p>DNS 要件</p></td>
+</tr>
+<tr class="even">
+<td><p>_Tcp の DNS SRV レコード。 _sipfederationtls&lt;サポート&gt;されているすべての SIP ドメインで、アクセスエッジの外部 IP へのアクセスを解決する sipdomain.com</p></td>
+<td><p>エッジ サーバー</p></td>
+<td><p>ハイブリッド展開でフェデレーション通信を有効にする。オンプレミスとオンラインで分割される SIP ドメイン用のフェデレーション トラフィックのルートをエッジ サーバーで認識している必要があります。</p></td>
+</tr>
+<tr class="odd">
+<td><p>エッジ Web 会議サービス FQDN の DNS A レコード、たとえば、webcon.contoso.com は Web 会議のエッジ外部 IP に解決される</p></td>
+<td><p>ユーザーのコンピューターが接続している会社内ネットワーク</p></td>
+<td><p>オンライン ユーザーを有効にして、オンプレミスのホストされた会議でのコンテンツを提供または表示する。コンテンツには、PowerPoint ファイル、ホワイトボード、投票、および共有メモがあります。</p></td>
+</tr>
+</tbody>
+</table>
+
+
+所属する組織での DNS の構成方法によっては、内部 DNS 解決をこれらのレコードに適用するために、対応する SIP ドメインに対して組織内でホストする DNS ゾーンにこれらのレコードを追加する必要があります。
+
+</div>
+
+<div>
+
+## <a name="firewall-considerations"></a>ファイアウォールに関する考慮事項
 
 ネットワーク上のコンピューターは、標準のインターネット DNS 参照を実行できる必要があります。これらのコンピューターが標準のインターネット サイトに接続できれば、ネットワークはこの要件を満たしています。
 
-また、Microsoft Online Services データ センターの場所によって、ワイルドカードを使用したドメイン名に基づく接続 (\*.outlook.com からのすべてのトラフィックなど) を受け付けるようにネットワーク ファイアウォール デバイスを構成する必要があります。組織のファイアウォールがワイルドカードを使用した名前の構成方法をサポートしない場合は、許可する IP アドレスの範囲および特定のポートを手動で決める必要があります。
+Microsoft Online Services データセンターの場所によっては、ネットワークファイアウォールデバイスで、ワイルドカードドメイン名 (たとえば、outlook.com から\*のすべてのトラフィック) に基づいて接続を受け入れるように構成する必要もあります。 組織のファイアウォールがワイルドカードを使用した名前の構成方法をサポートしない場合は、許可する IP アドレスの範囲および特定のポートを手動で決める必要があります。
 
-ヘルプ トピック「[Office 365 の URL と IP アドレスの範囲](http://go.microsoft.com/fwlink/p/?linkid=252942)」を参照してください。
+ヘルプトピック「 [Office 365 の url と IP アドレスの範囲](http://go.microsoft.com/fwlink/p/?linkid=252942)」を参照してください。
 
-## ポートとプロトコルの要件
+</div>
 
-内部 Lync Server 2013 通信に必要なポートのほかに、次のポートも構成する必要があります。
+<span id="b"></span>
+
+<div>
+
+## <a name="port-and-protocol-requirements"></a>ポートとプロトコルの要件
+
+Lync Server 2013 では、内部通信のポート要件のほかに、次のポートを構成する必要もあります。
 
 
 <table>
@@ -132,17 +243,17 @@ Skype for Business Online とのハイブリッド用の Lync Server 2013 展開
 <td><p>TCP 443</p></td>
 <td><p>受信を開く</p>
 <ul>
-<li><p>Active Directory フェデレーション サービス (フェデレーション サーバーの役割)</p>
-<p>詳細は、「<a href="http://go.microsoft.com/fwlink/p/?linkid=281899">AD FS の役割サービスとは</a>」を参照してください。</p></li>
-<li><p>Active Directory フェデレーション サービス (プロキシ サーバーの役割)</p></li>
+<li><p>Active Directory フェデレーションサービス (フェデレーションサーバーの役割)</p>
+<p>詳細については、「 <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">AD FS の役割サービスについ</a>て」を参照してください。</p></li>
+<li><p>Active Directory フェデレーションサービス (プロキシサーバーの役割)</p></li>
 <li><p>Microsoft Online Services ポータル</p></li>
-<li><p>ポータル サイト</p></li>
+<li><p>会社のポータル</p></li>
 <li><p>Outlook Web App</p></li>
-<li><p>Lync クライアント (内部設置型の Lync サーバーから Lync Online への通信)</p></li>
+<li><p>Lync クライアント (オンプレミスの Lync Server から Lync Online への通信)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>TCP 80 および 443</p></td>
+<td><p>TCP 80 および443</p></td>
 <td><p>受信を開く</p>
 <ul>
 <li><p>Microsoft Online Services ディレクトリ同期ツール</p></li>
@@ -150,7 +261,7 @@ Skype for Business Online とのハイブリッド用の Lync Server 2013 展開
 </tr>
 <tr class="odd">
 <td><p>TCP 5061</p></td>
-<td><p>エッジ サーバーで受信/送信を開く</p></td>
+<td><p>エッジサーバーで受信/送信を開く</p></td>
 </tr>
 <tr class="even">
 <td><p>PSOM/TLS 443</p></td>
@@ -158,91 +269,71 @@ Skype for Business Online とのハイブリッド用の Lync Server 2013 展開
 </tr>
 <tr class="odd">
 <td><p>STUN/TCP 443</p></td>
-<td><p>音声、ビデオ、アプリケーション共有セッションで受信/送信を開く</p></td>
+<td><p>オーディオ、ビデオ、アプリケーション共有セッションで受信/送信を開く</p></td>
 </tr>
 <tr class="even">
 <td><p>STUN/UDP 3478</p></td>
-<td><p>音声およびビデオ セッションで受信/送信を開く</p></td>
+<td><p>音声およびビデオセッションで受信/送信を開く</p></td>
 </tr>
 <tr class="odd">
-<td><p>RTP/TCP 50000 ～ 59999</p></td>
-<td><p>音声およびビデオ セッションで送信を開く</p></td>
-</tr>
-<tr class="even">
-<td><p>TCP 443</p></td>
-<td><p>受信を開く</p>
-<ul>
-<li><p>Active Directory フェデレーション サービス (フェデレーション サーバーの役割)</p>
-<p>詳細は、「<a href="http://go.microsoft.com/fwlink/p/?linkid=281899">AD FS の役割サービスとは</a>」を参照してください。</p></li>
-<li><p>Active Directory フェデレーション サービス (プロキシ サーバーの役割)</p></li>
-<li><p>Microsoft Online Services ポータル</p></li>
-<li><p>ポータル サイト</p></li>
-<li><p>Outlook Web App</p></li>
-<li><p>Lync クライアント (内部設置型の Lync サーバーから Lync Online への通信)</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>TCP 80 および 443</p></td>
-<td><p>受信を開く</p>
-<ul>
-<li><p>Microsoft Online Services ディレクトリ同期ツール</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>TCP 5061</p></td>
-<td><p>エッジ サーバーで受信/送信を開く</p></td>
-</tr>
-<tr class="odd">
-<td><p>PSOM/TLS 443</p></td>
-<td><p>データ共有セッションで受信/送信を開く</p></td>
-</tr>
-<tr class="even">
-<td><p>STUN/TCP 443</p></td>
-<td><p>音声、ビデオ、アプリケーション共有セッションで受信/送信を開く</p></td>
-</tr>
-<tr class="odd">
-<td><p>STUN/UDP 3478</p></td>
-<td><p>音声およびビデオ セッションで受信/送信を開く</p></td>
-</tr>
-<tr class="even">
-<td><p>RTP/TCP 50000 ～ 59999</p></td>
-<td><p>音声およびビデオ セッションで送信を開く</p></td>
+<td><p>RTP/TCP 50000-59999</p></td>
+<td><p>音声およびビデオセッションで送信を開く</p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]
-> Office Communications Server 2007 を実行しているパートナーとフェデレーションが必要な場合は、受信/送信 RTP/UDP および RTP/TCP ポート 50000 ～ 59999 を開く必要があります。A/V ファイアウォール要件の詳細については、「<a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Lync Server 2013 の外部の音声ビデオ ファイアウォールおよびポートの要件を決定する</a>」を参照してください。ポートおよびプロトコルの詳細については、「<a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">ポートの概要 - Lync Server 2013 の拡張統合エッジ (ロード バランサー機器を使用)</a>」を参照してください。
+</div>
+
+<div>
+
+## <a name="user-accounts-and-data"></a>ユーザーアカウントとデータ
+
+Lync Server 2013 ハイブリッド展開では、Lync Online でホームにするすべてのユーザーは、まずオンプレミスの展開でそのユーザーアカウントが作成されるようにする必要があります。 その後、ユーザーを Skype for Business Online に移動します。これにより、ユーザーの連絡先リストが移動します。
+
+Lync のオンプレミスと Lync Online の展開との間で、AD FS と Dirsync を使用してユーザーアカウントを同期する場合は、組織内のすべての Lync ユーザーの AD アカウントを、オンプレミスとオンラインの Lync の展開の間で、ユーザーも同期する必要があります。Lync Online に移動されません。 すべてのユーザーを同期しない場合、組織のオンプレミス展開のユーザーとオンライン ユーザーとの間の通信が正常に動作しない可能性があります。
+
+<div>
 
 
-## ユーザー アカウントおよびデータ
-
-Lync Server 2013 ハイブリッド展開では、ユーザー アカウントが Active Directory ドメイン サービス に作成されるように、内部設置型展開で最初に Lync Online に属するユーザーを作成する必要があります。これで、ユーザーを Skype for Business Online に移動でき、これによりユーザーの連絡先リストが移動します。
-
-AD FS および Dirsync を使用して内部設置型 Lync 展開と Lync Online 展開間のユーザー アカウントを同期する場合、組織内のすべての Lync ユーザーの AD アカウントを内部設置 Lync 展開とオンライン Lync 展開間で同期する必要があります。これは、ユーザーが Lync Online に移動されていない場合でも該当します。すべてのユーザーを同期しない場合、組織の内部設置型展開のユーザーとオンライン ユーザーとの間の通信が正常に動作しない可能性があります。
+> [!IMPORTANT]  
+> ユーザーが Office 365 のオンラインポータルを使って作成されている場合、ユーザーアカウントはオンプレミスの Active Directory と同期されず、ユーザーはオンプレミスの Active Directory に存在しません。 Lync Online で既にユーザーを作成していて、オンプレミスの Lync サーバーとハイブリッドに構成する場合は、「lync <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Online から Lync server 2013 の lync にユーザーを移行</A>する」を参照してください。
 
 
-> [!IMPORTANT]
-> Office 365 のオンライン ポータルを使用してユーザーを作成した場合、ユーザー アカウントは内部設置型の Active Directory と同期されず、ユーザーは内部設置型の Active Directory には存在しません。Lync Online でユーザーを作成済みで、内部設置型の Lync Server とハイブリッドを構成する場合は、「<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Lync Server 2013 での Lync Online から内部設置型 Lync へのユーザーの移動</A>」を参照してください。
 
-
+</div>
 
 また、ハイブリッド展開を計画する場合は、次のユーザー関連の問題も考慮する必要があります。
 
-  - **ユーザーの連絡先**   Lync Online ユーザーの連絡先の上限は 250 です。その数を超えた連絡先は、アカウントが Lync Online に移動されるときにユーザーの連絡先リストから削除されます。
+  - **ユーザーの連絡先**   Lync Online ユーザーの連絡先の制限は250です。 その数を超えた連絡先は、アカウントが Lync Online に移動されるときにユーザーの連絡先リストから削除されます。
 
-  - **インスタント メッセージングとプレゼンス**   ユーザーの連絡先リスト、グループ、およびアクセス制御リスト (ACL) はユーザー アカウントと一緒に移行されます。
+  - **インスタントメッセージとプレゼンス**   のユーザーの連絡先リスト、グループ、アクセス制御リスト (acl) は、ユーザーアカウントを使用して移行されます。
 
-  - **会議データ、会議コンテンツ、および予約済み会議**   このコンテンツはユーザー アカウントと一緒に移行されません。ユーザーは、アカウントが Lync Online に移行された後で会議を予約し直す必要があります。
+  - **会議データ、会議コンテンツ、スケジュール**   された会議このコンテンツは、ユーザーアカウントで移行されません。 ユーザーは、アカウントが Lync Online に移行された後で会議を予約し直す必要があります。
 
-## ユーザー ポリシーと機能
+</div>
 
-  - Lync Server 2013 のハイブリッド環境では、ユーザーに対してインスタント メッセージング、音声、および会議の内部設置型またはオンラインでの使用を許可できますが、両方を同時に許可することはできません。
+<div>
 
-  - **Lync クライアント**   ユーザーによっては、Lync Online への移動時に新しいクライアント バージョンを必要とする場合があります。Office Communications Server 2007 R2 では、ユーザーを Lync Online に移行する前に Lync Server 2013 プールに移動する必要があります。
+## <a name="user-policies-and-features"></a>ユーザーポリシーと機能
+
+  - Lync Server 2013 ハイブリッド環境では、インスタントメッセージング、音声、会議のオンプレミスまたはオンラインでの使用を有効にすることはできますが、両方を同時に有効にすることはできません。
+
+  - **Lync クライアント**   一部のユーザーは、lync Online に移行するときに、新しいクライアントバージョンを必要とする場合があります。 Office Communications Server 2007 R2 の場合、Lync Online に移行する前に、ユーザーを Lync Server 2013 プールに移動する必要があります。
     
-    クライアント サポートの詳細については、「[Lync Online のクライアント](http://go.microsoft.com/fwlink/p/?linkid=281902)」および「[サポートされている Lync クライアントとネットワーク ポートの構成](http://go.microsoft.com/fwlink/p/?linkid=281901)」を参照してください。
+    クライアントのサポートの詳細については、「 [Lync Online のクライアント](http://go.microsoft.com/fwlink/p/?linkid=281902)」および「[サポートされている lync クライアントとネットワークポートの構成](http://go.microsoft.com/fwlink/p/?linkid=281901)」を参照してください。
 
-  - **内部設置型ポリシーと構成 (非ユーザー)**   オンライン ポリシーと内部設置型ポリシーには個別の構成が必要です。両方に適用されるグローバル ポリシーを設定することはできません。
+  - **オンプレミスのポリシーと構成 (非ユーザー)**   のオンラインおよびオンプレミスのポリシーには、個別の構成が必要です。 両方に適用されるグローバル ポリシーを設定することはできません。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

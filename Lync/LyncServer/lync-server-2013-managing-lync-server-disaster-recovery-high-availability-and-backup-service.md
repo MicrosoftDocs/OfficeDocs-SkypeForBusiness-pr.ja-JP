@@ -1,44 +1,70 @@
-﻿---
-title: 'Lync Server 2013: Lync Server の障害復旧、高可用性およびバックアップ サービスの管理'
-TOCTitle: Lync Server 2013 の障害復旧、高可用性およびバックアップ サービスの管理
-ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721939(v=OCS.15)
-ms:contentKeyID: 49887220
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server の災害復旧、高可用性、バックアップサービスの管理
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Lync Server disaster recovery, high availability, and Backup Service
+ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721939(v=OCS.15)
+ms:contentKeyID: 49733876
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cada393fca28895ee5f23a12fdd55eabd211128e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828013"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の障害復旧、高可用性およびバックアップ サービスの管理
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-12_
+# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>Lync Server 2013 の障害復旧、高可用性およびバックアップ サービスの管理
 
-このセクションには、障害復旧操作のほか、ペアになったフロントエンド プール内のデータを同期するバックアップ サービスの保守を行う手順が含まれています。
+</div>
 
-障害復旧の手順は、フェールオーバーとフェールバックのどちらも、手動によるものです。障害が発生した場合、管理者はフェールオーバーの手順を手動で開始する必要があります。プール修復後のフェールバックにも同じことが当てはまります。
+<div id="mainSection">
 
-このセクションの以降の部分における障害復旧の手順では、以下のことを前提としています。
+<div id="mainBody">
 
-  - ペアになったフロントエンド プールが別々のサイトに配置された展開が存在します (「[Lync Server 2013 での高可用性および障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」の説明を参照)。バックアップ サービスは、ペアになったプールの同期を保つためにこれらのプール上で実行されています。
+<span> </span>
 
-  - 中央管理ストアは、どちらかのプールでホストされていても、そのインストールと実行はペアになったプールの双方で行われ、一方のプールではアクティブなマスター側を、他方のプールではスタンバイ側をそれぞれホストします。
+_**最終更新日:** 2012-11-12_
+
+このセクションには、障害回復操作の手順、およびペアリングされたフロントエンドプールのデータを同期するバックアップサービスの保守の手順が含まれています。
+
+フェールオーバーとフェールバックの両方の障害回復手順は手動で行うことができます。 障害が発生した場合、管理者はフェールオーバー手順を手動で呼び出す必要があります。 プールが修復された後も、フェイルバックにも同じことが適用されます。
+
+このセクションの残りの部分では、次のような障害回復手順について説明します。
+
+  - 「 [Lync Server 2013 での高可用性と障害回復の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」で説明されているように、複数のフロントエンドプールを使用して展開を行うことができます。 これらのペアのプールでバックアップサービスが実行されているため、同期されません。
+
+  - 中央管理ストアがいずれかのプールでホストされている場合は、これらのペアのプールの両方にインストールされて実行され、アクティブなマスターをホストしているプールと、スタンバイをホストしている他のプールのどちらかになります。
+
+<div>
 
 
 > [!IMPORTANT]
-> 以下の手順では、影響を受けるユーザーのリダイレクト元になるプールではなく、障害の影響を受けるプールの完全修飾 FQDN を PoolFQDN パラメーターが参照しています。影響を受ける同じユーザー群が同じ場合、このパラメーターはフェールオーバーとフェールバックの各コマンドレットで同じプール (つまり、ユーザーがフェールオーバー前に最初に所属していたプール) を参照します。<BR>たとえば、プール P1 に所属していたすべてのユーザーがバックアップ プール P2 にフェールオーバーされた場合を想定します。現在 P2 によるサービス提供を受けているすべてのユーザーを移動して P1 によるサービス提供を受けるようにする場合、管理者は、以下の手順を実行する必要があります。 
+> 次の手順では、 <EM>Poolfqdn</EM>パラメーターが、障害によって影響を受けるプールの fqdn を示しますが、影響を受けるユーザーがリダイレクトされるプールには関係ありません。 影響を受けているユーザーの同じセットの場合、フェールオーバーとフェールバックの両方のコマンドレット (つまり、フェールオーバー前に最初にユーザーをホームにしたプール) で同じプールを参照します。<BR>たとえば、プール P1 に所属しているすべてのユーザーがバックアッププール (P2) にフェールオーバーした場合を想定します。 管理者が、現在 P2 で処理されているすべてのユーザーを P1 で処理するようにする場合は、管理者は次の手順を実行する必要があります。 
 > <OL>
 > <LI>
-> <P>フェールバック用コマンドレットを使用して、当初 P1 に所属していたすべてのユーザーを P2 から P1 にフェールバックします。この場合、PoolFQDN は P1 の FQDN になります。</P>
+> <P>フェールバックコマンドレットを使用して、最初に P1 をホームにしたユーザーをすべて P2 から P1 にフェールバックします。 この場合、 <EM>Poolfqdn</EM>は P1's fqdn です。</P>
 > <LI>
-> <P>フェールオーバー用コマンドレットを使用して、当初 P2 に所属していたすべてのユーザーを P1 にフェールオーバーします。この場合、PoolFQDN は P2 の FQDN になります。</P>
+> <P>フェールオーバーコマンドレットを使用して、最初に P2 でホームに所属していたすべてのユーザーをフェールオーバーします。 この場合、 <EM>Poolfqdn</EM>は P2's fqdn です。</P>
 > <LI>
-> <P>後で管理者がこれらの P2 ユーザーを P2 にフェールバックする場合、PoolFQDN は P2 の FQDN になります。</P></LI></OL>上記の手順 1. は、プールの整合性を保持するために手順 2. の前に実行する必要があります。手順 1. の前に手順 2. を行おうとすると、手順 2. のコマンドレットは失敗します。
+> <P>後で管理者が p2 に戻すようにしたい場合は、 <EM>Poolfqdn</EM>は P2's fqdn です。</P></LI></OL>上記の手順1では、手順2を実行してプールの整合性を維持する必要があります。 手順1より前の手順2を実行した場合は、手順2のコマンドレットが失敗します。
 
 
 
-## このセクション中
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 でのバックアップ サービスの構成と監視](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
 
@@ -58,9 +84,25 @@ _**トピックの最終更新日:** 2012-11-12_
 
   - [Lync Server 2013 でのバックアップ サービスを使用した会議コンテンツの復元](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
 
-[Lync Server 2013 での高可用性および障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 での高可用性および障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

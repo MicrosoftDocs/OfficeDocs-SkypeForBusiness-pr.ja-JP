@@ -1,91 +1,119 @@
-﻿---
-title: 'Lync Server 2013: Lync Server 2013 へのフェデレーションおよび外部アクセスの管理'
-TOCTitle: Lync Server 2013 へのフェデレーションおよび外部アクセスの管理
-ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg520966(v=OCS.15)
-ms:contentKeyID: 48271594
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server 2013 へのフェデレーションおよび外部アクセスの管理'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing federation and external access to Lync Server 2013
+ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
+ms:contentKeyID: 48183665
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e8eb4dcf6a690e2bab7b834624fb0f695e3e770e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828125"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 へのフェデレーションおよび外部アクセスの管理
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>Lync Server 2013 へのフェデレーションおよび外部アクセスの管理
 
-外部ユーザーをサポートするには、最初に、エッジ サーバーまたはエッジ プールを展開する必要があります。 エッジ サーバーの展開の詳細については、「展開」のドキュメントの「[Lync Server 2013 での外部ユーザー アクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。
+</div>
 
-Lync Server 2013 の内部展開のインストールと構成が終わると、組織の内部ユーザーは、Active Directory ドメイン サービス (AD DS) で SIP アカウントを持つ他の内部ユーザーと共同作業ができます。共同作業には、インスタント メッセージの送受信、プレゼンス状態の更新、電話会議 (「会議」とも呼ばれます) への参加などがあります。外部ユーザー アクセスを有効にして構成し、サポートされる外部ユーザーが内部 Lync Server ユーザーと共同作業できるかどうかを制御します。外部ユーザーには、展開のリモート ユーザー、フェデレーション ユーザー (パブリック インスタント メッセージング (IM) サービス プロバイダーのサポートされるユーザーを含む)、XMPP フェデレーション、および電話会議への匿名参加者などのユーザーがあります。
+<div id="mainSection">
 
-展開に Lync Server 2013 の エッジ サーバーまたは エッジ プールのインストールが含まれている場合は、外部ユーザー アクセス、他の SIP フェデレーション ドメインのメンバーとの通信、SIP フェデレーション プロバイダー、および XMPP フェデレーション ユーザーに関する数多くのオプションによって、可能な通信の種類の範囲が大きく拡大します。エッジ サーバーまたは エッジ プールをセットアップした後、提供する外部ユーザー アクセスの種類を有効にして、外部アクセスを制御するためのポリシーを構成します。Lync Server 2013 では、Lync Server コントロール パネル、Lync Server 管理シェル、またはその両方を使用して、外部ユーザー アクセスおよびポリシーを有効にして構成します。これらの管理ツールの詳細については、「操作」のドキュメントの「[Lync Server 2013 管理ツール](lync-server-2013-lync-server-administrative-tools.md)」、「[Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)」、および「[Lync Server 2013 管理ツールをインストールする](lync-server-2013-install-lync-server-administrative-tools.md)」を参照してください。
+<div id="mainBody">
 
+<span> </span>
 
-> [!IMPORTANT]
-> 外部ユーザー アクセスの構成およびポリシーを設計する場合は、ポリシーの優先度およびポリシーの適用方法について理解しておく必要があります。あるポリシー レベルで適用されている Lync Server ポリシー設定が、他のポリシー レベルで適用されている設定によって無効になることがあります。Lync Server ポリシーの優先順位は、ユーザー ポリシーが最も高く、サイト ポリシー、グローバル ポリシー (優先度が最も低い) と続きます。つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
+_**最終更新日:** 2013-10-07_
 
+エッジサーバーまたはエッジプールの展開は、外部ユーザーをサポートするための最初の手順です。 エッジサーバーの展開の詳細については、展開ドキュメントの「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。
 
+Lync Server 2013 の内部展開をインストールして構成した後、組織内の内部ユーザーは、Active Directory ドメインサービス (AD DS) に SIP アカウントを持つ他の内部ユーザーと共同作業を行うことができます。 共同作業には、インスタントメッセージの送受信、プレゼンス状態の更新、会議 (「会議」とも呼ばれます) の参加が含まれます。 外部ユーザーアクセスを有効にして構成し、サポートされている外部ユーザーが内部の Lync Server ユーザーと共同作業できるかどうかを制御します。 外部ユーザーには、展開のリモートユーザー、フェデレーションユーザー (パブリックインスタントメッセージング (IM) サービスプロバイダーのサポートされているユーザーを含む)、XMPP フェデレーション、および会議の匿名参加者を含めることができます。
 
-組織の外部ユーザー アクセス サポートが既に有効になっている場合でも、既定では、リモート ユーザー アクセス、フェデレーション ユーザー アクセスなど、外部ユーザー アクセスをサポートするポリシーは構成されません。外部ユーザー アクセスを制御するには、1 つ以上のポリシーを構成し、各ポリシーでサポートする外部ユーザー アクセスの種類を指定する必要があります。これには、次の外部アクセス ポリシーが含まれます。
+展開に Lync Server 2013 エッジサーバーまたはエッジプールのインストールが含まれている場合は、可能な通信の種類の範囲が、外部ユーザーアクセスのさまざまなオプションと、他の SIP フェデレーションドメインのメンバーとの通信に大きく拡張されています。SIP フェデレーションプロバイダーと XMPP フェデレーションされたユーザー。 エッジサーバーまたはエッジプールをセットアップした後、提供する外部ユーザーアクセスの種類を有効にし、外部アクセスを制御するためのポリシーを構成します。 Lync server 2013 では、lync Server コントロールパネル、Lync Server 管理シェル、またはその両方を使用して、外部ユーザーのアクセスとポリシーを有効にし、構成することができます。 これらの管理ツールの詳細については、「運用ドキュメントの[Lync server 2013 管理ツール](lync-server-2013-lync-server-administrative-tools.md)」、「運用ドキュメントの[Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)」、「 [lync Server 2013 管理ツールをインストールする」を参照してください。](lync-server-2013-install-lync-server-administrative-tools.md)を参照してください。
 
-  - **グローバル ポリシー**   エッジ サーバーの展開時に作成されます。既定では、グローバル ポリシーで有効になっている外部ユーザー アクセス オプションはありません。外部ユーザー アクセスをグローバル レベルでサポートするには、1 種類以上の外部ユーザー アクセス オプションをサポートするようにグローバル ポリシーを構成します。グローバル ポリシーは組織のすべてのユーザーに適用されますが、サイト ポリシーとユーザー ポリシーはグローバル ポリシーよりも優先されます。グローバル ポリシーを削除しても、ポリシー自体が削除されるのではなく、既定の設定にリセットされます。
-
-  - **サイト ポリシー**   外部ユーザー アクセスのサポートを特定のサイトに限定するために、1 つ以上のサイト ポリシーを作成し、構成できます。サイト ポリシーの構成はグローバル ポリシーよりも優先されますが、サイト ポリシーで指定されたサイトだけが対象となります。たとえば、グローバル ポリシーでリモート ユーザー アクセスが有効になっていても、特定のサイトのリモート ユーザー アクセスを無効にするサイト ポリシーを指定できます。既定では、サイト ポリシーはそのサイトのすべてのユーザーに適用されますが、特定のユーザーにユーザー ポリシーを割り当てることで、サイト ポリシーの設定を無効にすることができます。
-
-  - **ユーザー ポリシー**   リモート ユーザー アクセスのサポートを特定のユーザーに限定するために、1 つ以上のユーザー ポリシーを作成し、構成できます。ユーザー ポリシーの構成はグローバル ポリシーやサイト ポリシーよりも優先されますが、そのユーザー ポリシーが割り当てられている特定のユーザーだけが対象となります。たとえば、グローバル ポリシーとサイト ポリシーでリモート ユーザー アクセスを有効にしても、リモート ユーザー アクセスを無効にするユーザー ポリシーを指定し、そのポリシーを特定のユーザーに割り当てることができます。ユーザー ポリシーを作成した場合、ポリシーを有効にするには、1 人以上のユーザーに適用する必要があります。
-
-どの構成設定およびポリシーを作成または編集する必要があるかを判断するには、次の判断ポイントを参照してください。
-
-**ドメインの内部ユーザーおよび外部ユーザーが、インスタント メッセージング、Web 会議、および音声/ビデオを使用して共同作業することを許可するか。**
-
-トピック「[Lync Server 2013 でのリモート ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-remote-user-access.md)」および「[Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)」の説明のとおりに設定を構成します。
-
-**匿名ユーザーが、展開内のユーザーがホストする電話会議に招待され、参加することを許可するか。**
-
-トピック「[Lync Server 2013 での匿名ユーザー サポートのための会議ポリシーの割り当て](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md)」、「[Lync Server 2013 での会議ポリシーの作成または変更](lync-server-2013-create-or-modify-a-conferencing-policy.md)」、および「[Lync Server 2013 での会議ポリシー設定の参照](lync-server-2013-conferencing-policy-settings-reference.md)」の説明のとおりに設定を構成します。
-
-**ユーザーが、SIP フェデレーション ドメインの連絡先と通信することを許可するか。**
-
-トピック「[Lync Server 2013 でのフェデレーション ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-federated-user-access.md)」、「[Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)」、および「[Lync Server 2013 での組織の SIP フェデレーション ドメインの管理](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)」の説明のとおりに設定を構成します。
-
-**SIP フェデレーション ドメインとの通信を有効化した場合、XMPP フェデレーション パートナーの連絡先との通信を有効化するか。**
-
-トピック「[Lync Server 2013 での XMPP フェデレーション ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)」および「[Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)」の説明のとおりに設定を構成します。
-
-**SIP フェデレーション ドメインとの通信を有効化した場合、SIP フェデレーションの自動検出を有効化するか。**
-
-トピック「[Lync Server 2013 でのフェデレーション パートナーの検出の有効化または無効化](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)」の説明のとおりに設定を構成します。
-
-**SIP フェデレーション ドメインとの通信を有効化した場合、フェデレーションからの連絡先に対して、アーカイブを使用しているため通信がアーカイブされる可能性があることを通知する免責事項の送信を有効化するか。**
-
-トピック「[Lync Server 2013 でのフェデレーション パートナーに対するアーカイブ免責事項の送信の有効化または無効化](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)」の説明のとおりに設定を構成します。
-
-**ユーザーに対して SIP フェデレーション プロバイダーとの通信を許可して、Windows Live Messenger、AOL、Yahoo\! などのパブリック プロバイダーと通信できるようにするか。**
-
-トピック「[Lync Server 2013 でのパブリック ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-public-user-access.md)」、「[Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)」、および「[Lync Server 2013 での公開 SIP フェデレーション プロバイダーの作成または編集](lync-server-2013-create-or-edit-public-sip-federated-providers.md)」の説明のとおりに設定を構成します。
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
+> 外部ユーザーアクセスの構成とポリシーを設計する場合は、ポリシーの優先順位とポリシーの適用方法を理解しておく必要があります。 1つのポリシーレベルで適用される Lync Server ポリシーの設定は、別のポリシーレベルで適用されている設定を上書きすることができます。 Lync Server ポリシーの優先順位: ユーザーポリシー (ほとんどの影響) によってサイトポリシーが上書きされ、サイトポリシーがグローバルポリシーを上書きします (最も影響が少なくなります)。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
+
+
+
+</div>
+
+既定では、組織で外部ユーザーアクセスのサポートを有効にしている場合でも、リモートユーザーアクセス、フェデレーションされたユーザーアクセスなどの外部ユーザーアクセスをサポートするようにポリシーは構成されません。 外部ユーザーアクセスの使用を制御するには、1つ以上のポリシーを構成して、各ポリシーでサポートされている外部ユーザーアクセスの種類を指定する必要があります。 これには、次の外部アクセスポリシーが含まれます。
+
+  - **グローバルポリシー**   エッジサーバーを展開すると、グローバルポリシーが作成されます。 既定では、グローバルポリシーで外部ユーザーアクセスオプションは有効になっていません。 グローバルレベルで外部ユーザーのアクセスをサポートするには、1つ以上の種類の外部ユーザーアクセスオプションをサポートするようにグローバルポリシーを構成します。 グローバルポリシーは組織内のすべてのユーザーに適用されますが、サイトポリシーとユーザーポリシーはグローバルポリシーを上書きします。 グローバルポリシーを削除しても、削除されることはありません。 代わりに、既定の設定にリセットします。
+
+  - **サイトポリシー**   1 つ以上のサイトポリシーを作成し、構成して、特定のサイトへの外部ユーザーアクセスのサポートを制限することができます。 サイト ポリシーの構成はグローバル ポリシーよりも優先されますが、サイト ポリシーで指定されたサイトだけが対象となります。 たとえば、グローバルポリシーでリモートユーザーアクセスを有効にする場合、特定のサイトのリモートユーザーアクセスを無効にするサイトポリシーを指定することができます。 既定では、サイトポリシーはそのサイトのすべてのユーザーに適用されますが、サイトポリシー設定を上書きするユーザーポリシーをユーザーに割り当てることができます。
+
+  - **ユーザーポリシー**   1 つまたは複数のユーザーポリシーを作成および構成して、リモートユーザーアクセスのサポートを特定のユーザーに制限することができます。 ユーザーポリシーの構成は、グローバルポリシーおよびサイトポリシーを上書きしますが、ユーザーポリシーが割り当てられている特定のユーザーに対してのみ設定されます。 たとえば、グローバルポリシーとサイトポリシーでリモートユーザーアクセスを有効にすると、リモートユーザーアクセスを無効にするユーザーポリシーを指定して、そのユーザーポリシーを特定のユーザーに割り当てることができます。 ユーザーポリシーを作成する場合は、それを有効にする前に1人以上のユーザーに適用する必要があります。
+
+作成または編集する必要のある構成設定とポリシーを決定するには、次の決定ポイントを参照してください。
+
+**インスタントメッセージング、Web 会議、音声/ビデオを使用して、ドメインの内部および外部ユーザーが共同作業できるようにする必要がありますか?**
+
+「 [Lync server 2013 でリモートユーザーアクセスを制御するためのポリシーを構成する](lync-server-2013-configure-policies-to-control-remote-user-access.md)」および「 [lync server 2013 でフェデレーションとパブリック IM 接続を有効または無効](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)にする」の説明に従って設定を構成します。
+
+**組織内のユーザーによってホストされている会議への参加を匿名ユーザーに許可するかどうかを指定します。**
+
+「Lync server [2013 で](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md)会議ポリシーを割り当て、lync [server 2013 の会議ポリシーを作成または変更](lync-server-2013-create-or-modify-a-conferencing-policy.md)する」、「 [lync の会議ポリシー設定リファレンス」で説明するように設定を構成します。サーバー 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+
+**SIP フェデレーションドメイン連絡先との通信をユーザーに許可しますか?**
+
+「 [Lync server 2013 でフェデレーションされたユーザーのアクセスを制御するためのポリシーを構成する](lync-server-2013-configure-policies-to-control-federated-user-access.md)」の説明に従って設定を構成します。 [lync server 2013 でフェデレーションとパブリック IM 接続を有効または無効](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)にし、[自分の SIP フェデレーションドメインを管理します。Lync Server 2013 の組織](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)
+
+**SIP フェデレーションドメインとの通信を有効にしている場合は、XMPP フェデレーションパートナーの連絡先との通信を有効にしますか?**
+
+「[ポリシーを構成して、Lync server 2013 での XMPP フェデレーションユーザーアクセスを制御する](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)」および「 [lync server 2013 で xmpp フェデレーションパートナーを管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)する」の説明に従って設定を構成します。
+
+**SIP フェデレーションドメインとの通信を有効にしている場合、SIP フェデレーション自動検出を有効にしますか?**
+
+「 [Lync Server 2013 でフェデレーションパートナーの検出を有効または無効](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)にする」のトピックで詳しく説明するように設定を構成します。
+
+**SIP フェデレーションドメインとの通信を有効にしている場合は、アーカイブを使用していて、通信がアーカイブされていることを通知するフェデレーションされた連絡先への免責事項の送信を有効にしますか?**
+
+「 [Lync Server 2013 のフェデレーションパートナーへのアーカイブの免責事項の送信を有効または無効](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)にする」のトピックで詳しく説明するように設定を構成します。
+
+**ユーザーに、Windows Live Messenger、AOL、Yahoo\!などのパブリックプロバイダーとの通信を可能にする SIP フェデレーションプロバイダーとの通信を許可しますか?**
+
+「 [Lync server 2013 でパブリックユーザーアクセスを制御するポリシーを構成する](lync-server-2013-configure-policies-to-control-public-user-access.md)」の説明に従って設定を構成します。[lync server 2013 でフェデレーションとパブリック IM 接続を有効または無効](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)にし、[パブリック SIP フェデレーションを作成または編集するLync Server 2013 のプロバイダー](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
+
+<div>
+
+
+> [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>2012 年 9 月 1 日の時点で、Microsoft Lync パブリック IM 接続のユーザー サブスクリプション ライセンス ("PIC USL") を新規または更新契約において購入することができなくなりました。アクティブなライセンスをお持ちのお客様は、サービスの停止日まで Yahoo! Messenger とのフェデレーションを引き続きご利用いただけます。AOL と Yahoo! に関しては、2014 年 6 月の終了日が発表されています。詳細については、「<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 でのパブリック インスタント メッセンジャーの接続のサポート</A>」を参照してください。</P>
+> <P>2012年9月1日以降、Microsoft Lync パブリック IM 接続ユーザーサブスクリプションライセンス ("PIC USL") は、新規または更新契約の購入に使用できなくなりました。 アクティブなライセンスを持っているお客様は、Yahoo! とのフェデレーションを継続できます。 サービスが終了するまでの Messenger。 AOL および Yahoo! の2014年6月の終了日 が発表されました。 詳細については、「 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 でのパブリックインスタントメッセンジャー接続のサポート</A>」を参照してください。</P>
 > <LI>
-> <P>PIC USL は、ユーザー単位および月単位のサブスクリプション ライセンスであり、Lync Server または Office Communications Server と Yahoo! Messenger とのフェデレーションを行うにはこのライセンスが必要です。Microsoft がこのサービスを提供できるのは、Yahoo! からのサポートを条件とするものでしたが、その基盤となる契約の終了が近づいてきました。</P>
+> <P>PIC USL は、Lync Server または Office Communications Server が Yahoo! とのフェデレーションを行うために必要な1か月あたりのユーザーごとのサブスクリプションライセンスです。 Messenger. このサービスを提供するための Microsoft の機能は、Yahoo! からのサポートによって決定されたものであり、その基となる契約は "巻停止" となります。</P>
 > <LI>
-> <P>Lync は組織間を接続したり世界中のユーザーと接続したりするための、これまで以上の強力なツールとなります。Windows Live Messenger とのフェデレーションを行うのに、Lync Standard CAL を超えてユーザー/デバイス ライセンスを追加する必要はありません。Skype フェデレーションがこのリストに追加されることで、Lync ユーザーは IM および音声を使用して数億のユーザーにアクセスできます。</P></LI></UL>
+> <P>Lync は、組織間、および世界各地の個人と接続するための強力なツールです。 Windows Live Messenger とのフェデレーションには、Lync 標準 CAL 以外の追加のユーザー/デバイスライセンスは必要ありません。 Skype federation はこのリストに追加されます。 Lync ユーザーは、IM と音声を使用して、数百人の何百万ものユーザーに連絡できます。</P></LI></UL>
 
 
 
-**Microsoft Office 365、Microsoft Lync Online、および Microsoft Lync Online 2010 を実行するホストされるプロバイダーである SIP フェデレーション プロバイダーとの通信をユーザーに許可するか。**
+</div>
 
-トピック「[Lync Server 2013 での公開 SIP フェデレーション プロバイダーの作成または編集](lync-server-2013-create-or-edit-public-sip-federated-providers.md)」、「[Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)」、および「[Lync Server 2013 でのホスト SIP フェデレーション プロバイダーの作成または編集](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)」の説明のとおりに設定を構成します。
+**Microsoft Office 365、Microsoft Lync Online、Microsoft Lync Online 2010 を実行しているホスティングプロバイダーである SIP フェデレーションプロバイダーとの通信をユーザーに許可しますか?**
 
-**一部のユーザーのホーム サーバーは社内展開にあり、他のユーザーはオンライン環境のホーム サーバーに構成されている分割ドメイン (ハイブリッドとも呼ばれます) で展開が構成されているか。**
+トピック「 [Lync server 2013 でパブリック SIP フェデレーションプロバイダーを作成または編集](lync-server-2013-create-or-edit-public-sip-federated-providers.md)する」、「 [lync server 2013 でフェデレーションおよびパブリック IM 接続を有効または無効](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)にする」、「ホストされた[SIP フェデレーションプロバイダーを作成または編集する」の説明に従って設定を構成します。Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
-トピック「[Lync Server 2013 でのフェデレーション ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-federated-user-access.md)」、「[Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)」、および「[Lync Server 2013 でのホスト SIP フェデレーション プロバイダーの作成または編集](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)」の説明のとおりに設定を構成します。
+**展開は、分割 (ハイブリッド) ドメインで構成されます。一部のユーザーは、オンプレミスの展開でホームサーバーを使用していますが、他のユーザーはオンライン環境でホームサーバーを使用して構成されていますか?**
 
-次に、要件を一覧表示した表を示します。
+「 [Lync server 2013 でフェデレーションされたユーザーのアクセスを制御するポリシーを構成する](lync-server-2013-configure-policies-to-control-federated-user-access.md)」の説明に従って設定を構成します。 [lync server 2013 でフェデレーションとパブリック IM 接続を有効または無効](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)にし、ホストされた[SIP フェデレーションを作成または編集します。プロバイダー Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+
+要件を一覧表示するテーブルが必要な場合は、次のようにします。
 
 
 <table style="width:100%;">
@@ -99,82 +127,84 @@ Lync Server 2013 の内部展開のインストールと構成が終わると、
 </colgroup>
 <thead>
 <tr class="header">
-<th>[フェデレーションと外部アクセス] のタブ (横方向) フェデレーションまたは外部アクセスの種類 (縦方向)</th>
+<th>フェデレーションおよび外部アクセス (分散) フェデレーションまたは外部アクセスの種類 (ダウン) のタブ</th>
 <th>外部アクセス ポリシー</th>
-<th>アクセス エッジ構成</th>
-<th>SIP フェデレーション ドメイン</th>
+<th>Access Edge 構成</th>
+<th>SIP フェデレーションドメイン</th>
 <th>SIP フェデレーション プロバイダー</th>
-<th>XMPP フェデレーション パートナー</th>
+<th>XMPP フェデレーションパートナー</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>リモート ユーザー</p></td>
+<td><p>リモートユーザー</p></td>
 <td><p><a href="lync-server-2013-configure-policies-to-control-remote-user-access.md">Lync Server 2013 でのリモート ユーザー アクセスを制御するポリシーの構成</a></p></td>
 <td><p><a href="lync-server-2013-enable-or-disable-remote-user-access.md">Lync Server 2013 でのリモート ユーザー アクセスの有効化または無効化</a></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>SIP フェデレーションからの連絡先</p></td>
-<td><p><a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Lync Server 2013 でのフェデレーション ユーザー アクセスを制御するポリシーの構成</a></p>
-<p></p></td>
+<td><p>SIP フェデレーション連絡先</p></td>
+<td><p><a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Lync Server 2013 でのフェデレーション ユーザー アクセスを制御するポリシーの構成</a></p></td>
 <td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化</a></p>
 <p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Lync Server 2013 でのフェデレーション パートナーの検出の有効化または無効化</a></p>
 <p><a href="lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md">Lync Server 2013 でのフェデレーション パートナーに対するアーカイブ免責事項の送信の有効化または無効化</a></p></td>
 <td><p><a href="lync-server-2013-manage-sip-federated-domains-for-your-organization.md">Lync Server 2013 での組織の SIP フェデレーション ドメインの管理</a></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>XMPP フェデレーションからの連絡先</p></td>
+<td><p>XMPP フェデレーション連絡先</p></td>
 <td><p><a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Lync Server 2013 でのフェデレーション ユーザー アクセスを制御するポリシーの構成</a></p>
 <p><a href="lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md">Lync Server 2013 での XMPP フェデレーション ユーザー アクセスを制御するポリシーの構成</a></p></td>
 <td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化</a></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
 <td><p><a href="lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md">Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理</a></p></td>
 </tr>
 <tr class="even">
-<td><p>分割ドメイン/ハイブリッド ユーザー</p></td>
+<td><p>ドメイン/ハイブリッドユーザーの分割</p></td>
 <td><p><a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Lync Server 2013 でのフェデレーション ユーザー アクセスを制御するポリシーの構成</a></p></td>
 <td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化</a></p></td>
-<td><p></p></td>
+<td></td>
 <td><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Lync Server 2013 でのホスト SIP フェデレーション プロバイダーの作成または編集</a></p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>パブリック IM サービスの連絡先</p></td>
 <td><p><a href="lync-server-2013-configure-policies-to-control-public-user-access.md">Lync Server 2013 でのパブリック ユーザー アクセスを制御するポリシーの構成</a></p></td>
 <td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化</a></p></td>
-<td><p></p></td>
+<td></td>
 <td><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Lync Server 2013 での公開 SIP フェデレーション プロバイダーの作成または編集</a></p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>会議や電話会議への匿名ユーザー アクセス</p></td>
-<td><p></p></td>
+<td><p>匿名ユーザーによる会議と会議へのアクセス</p></td>
+<td></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Lync Server 2013 での匿名ユーザー サポートのための会議ポリシーの割り当て</a></p>
 <div>
 
-> [!NOTE]
->「<a href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Lync Server 2013 での会議ポリシーの作成または変更</a>」および「<a href="lync-server-2013-conferencing-policy-settings-reference.md">Lync Server 2013 での会議ポリシー設定の参照</a>」に説明されている、[電話会議ポリシー] の構成設定も考慮する必要があります。
+> [!NOTE]  
+> 会議ポリシーの下で、次の構成設定を検討する必要があります。 <A href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Lync server 2013 の会議ポリシーを作成または変更</A>する、 <A href="lync-server-2013-conferencing-policy-settings-reference.md">lync Server 2013 の会議ポリシー設定リファレンス</A>
+
 
 </div></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-ユーザーは、組織の外部ユーザー アクセスを有効にしていない場合でも、外部ユーザー アクセスの制御に使用する任意のポリシーを含む、外部ユーザー アクセス設定を構成できます。ただし、構成したポリシーおよびその他の設定は、組織で外部ユーザー アクセスを有効にしていなければ、実際には使用できません。外部ユーザー アクセスが無効になっている場合やサポートする外部ユーザー アクセス ポリシーが構成されていない場合、外部ユーザーは組織のユーザーと通信できません。
+外部ユーザーアクセスを制御するために使用するポリシーなど、組織の外部ユーザーアクセスを有効にしていない場合でも、外部ユーザーアクセスの設定を構成できます。 ただし、構成したポリシーとその他の設定は、組織で外部ユーザーのアクセスが有効になっている場合にのみ有効になります。 外部ユーザーのアクセスが無効になっている場合、または外部ユーザーのアクセスポリシーがサポートされていない場合、外部ユーザーは組織のユーザーと通信できません。
 
-エッジ展開は、エッジ サポートの構成方法に応じて、外部ユーザーの種類を認証し (匿名ユーザーは例外。匿名ユーザーは、会議を作成して参加者を招待した時に匿名の参加者に送信される会議 ID とパスキーによって認証)、アクセスを制御します。通信を制御するために、展開の内側と外側のユーザーが互いに通信する方法を定義する 1 つ以上のポリシーおよび設定を構成できます。ポリシーと設定には、特定のサイトまたはユーザーについて 1 つ以上の種類の外部ユーザー アクセスを有効にするために作成および構成できるサイト ポリシーおよびユーザー ポリシーに加えて、外部ユーザー アクセスの既定のグローバル ポリシーが含まれます。
+エッジ展開では、外部ユーザーの種類 (会議 ID によって認証された匿名ユーザー、会議の作成および参加者の招待時に匿名の参加者に送信されるパスキー) を認証します。edge サポートの構成方法に基づくアクセス。 通信を制御するために、1つまたは複数のポリシーを構成し、展開の内外のユーザーとの通信方法を定義する設定を構成することができます。 ポリシーと設定には、外部ユーザーアクセスの既定のグローバルポリシーに加えて、特定のサイトまたはユーザーに対して1つ以上の種類の外部ユーザーアクセスを有効にするために作成および構成できるサイトとユーザーのポリシーが含まれます。
 
-## このセクション中
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 での組織の外部アクセス ポリシーの管理](lync-server-2013-manage-external-access-policy-for-your-organization.md)
 
@@ -186,5 +216,17 @@ Lync Server 2013 の内部展開のインストールと構成が終わると、
 
   - [Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)
 
-  - [Lync Online の顧客のためのフェデレーション サポートの構成](lync-server-2013-configuring-federation-support-for-a-lync-online-customer.md)
+  - [Lync Server 2013 での Lync Online ユーザーのフェデレーションサポートの構成](lync-server-2013-configuring-federation-support-for-a-lync-online-customer.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

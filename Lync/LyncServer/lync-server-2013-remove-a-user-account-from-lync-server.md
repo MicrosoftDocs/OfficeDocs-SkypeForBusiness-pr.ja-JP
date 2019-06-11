@@ -1,63 +1,114 @@
-﻿---
-title: Lync Server からのユーザー アカウントの削除
-TOCTitle: Lync Server からのユーザー アカウントの削除
-ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688008(v=OCS.15)
-ms:contentKeyID: 49886895
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server からユーザーアカウントを削除する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove a user account from Lync Server
+ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688008(v=OCS.15)
+ms:contentKeyID: 49733596
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9780e19fb608855d9c820285cc87582787ff896d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823155"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server からのユーザー アカウントの削除
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-22_
+# <a name="remove-a-user-account-from-lync-server-2013"></a>Lync Server 2013 からユーザーアカウントを削除する
 
-次の手順を実行して、Lync Server 2013 に以前に追加したユーザー アカウントを削除できます。
+</div>
 
-> [!NOTE]
-> ユーザーを削除すると、そのユーザー アカウントに対して構成したすべての設定が失われます。ユーザー アカウントを削除せずに一時的に無効にする場合は、「<a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Lync Server 2013 ユーザー アカウントの再有効化または無効化</a>」を参照してください。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-22_
+
+Lync Server 2013 で、以前に追加したユーザーアカウントを削除するには、次の手順を使用します。
+
+<div>
 
 
-## Lync Server から Lync Server ユーザー アカウントを削除するには
+> [!NOTE]  
+> ユーザーを削除すると、ユーザーアカウントに対して構成した設定が失われます。 代わりにユーザーアカウントを一時的に無効にする場合は、「 <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Lync Server 2013 のユーザーアカウントを無効にする、またはもう一度有効</A>にする」のトピックを参照してください。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-remove-a-user-account-by-using-lync-server-management-shell"></a>Lync Server 管理シェルを使用してユーザーアカウントを削除するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**ユーザー**\] をクリックします。
+3.  左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4.  \[**ユーザーの検索**\] ボックスに、無効または再度有効にするユーザー アカウントの表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、あるいは回線 URI (Uniform Resource Identifier) の全体か最初の一部の文字列を入力して、\[**検索**\] をクリックします。
+4.  [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、またはもう一度有効にするユーザーアカウントの Ip Uniform リソース識別子 (URI) のすべてまたは最初の部分を入力します。[**検索**] をクリックします。
 
-5.  表で、削除するユーザー アカウントをクリックします。
+5.  テーブルで、削除するユーザーアカウントをクリックします。
 
-6.  \[**操作**\] メニューの \[**Lync Server から削除**\] をクリックします。ダイアログ ボックスが表示されます。
+6.  [**操作**] メニューの [ **Lync Server から削除**] を選択すると、ダイアログボックスが表示されます。
 
-7.  ダイアログ ボックスで、ユーザーを削除するかどうかを確認するメッセージが表示されます。\[**OK**\] をクリックします。
+7.  ダイアログボックスで、[ **OK** ] を選択してユーザーを削除します。
 
-## Lync Server PowerShell コマンドレットを使用してユーザー アカウントを削除する
+</div>
 
-Disable-CsUser コマンドレットを使用してユーザー アカウントを削除することもできます。このコマンドレットは、Lync Server 2013 管理シェルまたはリモート セッションの Windows PowerShell から実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+<div>
 
-## ユーザー アカウントの削除
+## <a name="removing-user-accounts-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してユーザーアカウントを削除する
 
-  - ユーザー アカウントを削除するには、Disable-CsUser コマンドレットを使用します。次に例を示します。
+ユーザーアカウントを削除するには、ユーザーの無効化コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 Management Shell またはリモートセッション Windows PowerShell から実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-remove-a-user-account"></a>ユーザーアカウントを削除するには
+
+  - ユーザーアカウントを削除するには、ユーザーの無効化コマンドレットを使用します。 次に例を示します。
     
         Disable-CsUser -Identity "Ken Myer"
     
-    このコマンドを実行した後、削除したアカウントおよびその以前の設定を再度有効化することはできません。Enable-CsUser コマンドレットを使用して、Ken Myer の新規アカウントを作成する必要があります。
+    このコマンドが実行されると、アカウントとその前の設定を再び有効にする方法はありません。 代わりに、ユーザーコマンドレットを使用して、Ken Myer の新しいアカウントを作成する必要があります。
 
-詳細については、[Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser) コマンドレットのヘルプ トピックを参照してください。
+</div>
 
-## 関連項目
+詳細については、「[ユーザーの無効化](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)」コマンドレットのヘルプトピックを参照してください。
 
-#### タスク
+</div>
 
-[Lync Server 2013 ユーザー アカウントの再有効化または無効化](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+<div>
 
-#### その他のリソース
+## <a name="see-also"></a>関連項目
 
-[Lync Server 2013 のユーザーの有効化または無効化](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+
+[Lync Server 2013 のユーザーアカウントを無効にするか、再び有効にする](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+
+
+[Lync Server 2013 のユーザーを有効または無効にする](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: SessionDetails ビュー
-TOCTitle: SessionDetails ビュー
-ms:assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721924(v=OCS.15)
-ms:contentKeyID: 49887196
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: セッションの詳細ビュー'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: SessionDetails view
+ms:assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721924(v=OCS.15)
+ms:contentKeyID: 49733859
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4bd3902fd35679366e905c04e99ff1e72b2ece86
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822091"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# SessionDetails ビュー
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="sessiondetails-view-in-lync-server-2013"></a>Lync Server 2013 のセッション詳細表示
 
-SessionDetails ビューには、ピアツーピア セッションに関する情報が格納されます。ピアツーピア セッションは、VoIP 間の電話による通話、2 者間 IM セッション、その他の種類のセッションのいずれかです。このビューは、Microsoft Lync Server 2013 で導入されました。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-01_
+
+セッション詳細ビューには、VoIP 電話、2パーティの IM セッション、その他の種類のセッションなど、ピアツーピアセッションに関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -33,59 +53,59 @@ SessionDetails ビューには、ピアツーピア セッションに関する�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
+<td><p><strong>セッション Id</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>セッション要求の時間。セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。詳細については、「<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 の Dialogs テーブル</a>」の表を参照してください。</p></td>
+<td><p>セッション要求の時刻。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 テーブルのダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッションを識別するための ID 番号。セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。詳細については、「<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 の Dialogs テーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別する ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>InviteTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>最初の INVITE 要求の時刻。通常は、セッションの最初の INVITE メッセージから生成されたデータが設定されます。INVITE メッセージがない場合は、関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。このフィールドには通常、セッションの最初の INVITE メッセージから生成されたデータが設定されます。INVITE メッセージがない場合、このフィールドには関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。</p></td>
+<td><p>最初の招待要求の時刻。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p>nvarchar (450)</p></td>
 <td><p>セッションを開始したユーザーの URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p>nvarchar (450)</p></td>
 <td><p>セッションに参加したユーザーの URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromUriType</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションを開始したユーザーの URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>セッションを開始したユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToUriType</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションに参加したユーザーの URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>セッションに参加したユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromTenant</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>セッションを開始したユーザーのテナント。詳細については、「<a href="lync-server-2013-tenants-table.md">Lync Server 2013 の Tenants テーブル</a>」を参照してください。</p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>セッションを開始したユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの一覧</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ToTenant</strong></p></td>
+<td><p><strong>すべての Ant</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションに参加したユーザーのテナント。詳細については、「<a href="lync-server-2013-tenants-table.md">Lync Server 2013 の Tenants テーブル</a>」を参照してください。</p></td>
+<td><p>セッションに参加したユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの一覧</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromEndpointId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>セッションを開始したユーザーのエンドポイントの一意の識別子。</p></td>
+<td><p>長さ</p></td>
+<td><p>セッションを開始したユーザーのエンドポイントを表す一意の識別子です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToEndpointId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>セッションに参加したユーザーのエンドポイントの一意の識別子。</p></td>
+<td><p>長さ</p></td>
+<td><p>セッションに参加したユーザーのエンドポイントを表す一意の識別子です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EndTime</strong></p></td>
@@ -95,134 +115,134 @@ SessionDetails ビューには、ピアツーピア セッションに関する�
 <tr class="odd">
 <td><p><strong>FromMessageCount</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッションを開始したユーザーが送信したメッセージの数。</p></td>
+<td><p>セッションを開始したユーザーによって送信されたメッセージの数です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMessageCount</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッションに参加したユーザーが送信したメッセージの数。</p></td>
+<td><p>セッションに参加したユーザーによって送信されたメッセージの数です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromClientVersion</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションを開始したユーザーが使用しているクライアントのバージョン。</p></td>
+<td><p>セッションを開始したユーザーによって使用されたクライアントのバージョン。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッションを開始したユーザーが使用しているクライアント。詳細については、「<a href="lync-server-2013-useragentdef-table.md">UserAgentDef テーブル</a>」を参照してください。</p></td>
+<td><p>セッションを開始したユーザーによって使用されたクライアント。 詳細については、「 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 の Useragentdef テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromClientCategory</strong></p></td>
-<td><p>nvarchar(64)</p></td>
-<td><p>セッションを開始したユーザーが使用しているクライアントのカテゴリ名。</p></td>
+<td><p>nvarchar (64)</p></td>
+<td><p>セッションを開始したユーザーによって使用されたクライアントのカテゴリの名前です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToClientVersion</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションに参加したユーザーが使用しているクライアントのバージョン。</p></td>
+<td><p>セッションに参加したユーザーによって使用されたクライアントのバージョン</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッションに参加したユーザーが使用しているクライアント。詳細については、「<a href="lync-server-2013-useragentdef-table.md">UserAgentDef テーブル</a>」を参照してください。</p></td>
+<td><p>セッションに参加したユーザーによって使用されたクライアント。 詳細については、「 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 の Useragentdef テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToClientCategory</strong></p></td>
-<td><p>nvarchar(64)</p></td>
-<td><p>セッションに参加したユーザーが使用しているクライアントのカテゴリ名。</p></td>
+<td><p>nvarchar (64)</p></td>
+<td><p>セッションに参加したユーザーによって使用されたクライアントのカテゴリの名前です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TargetUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>セッションのターゲット ユーザーの URI。</p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>セッションのターゲットユーザーの URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TargetUriType</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>セッションのターゲット ユーザーの URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>セッションのターゲットユーザーの URI の種類です。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OnBehalfOfUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>代表してセッションを開始したユーザーの URI。</p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>セッションが開始されたユーザーの URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OnnnBehalfOfUriType</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>代表してセッションを開始したユーザーの URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>セッションが開始されたユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OnBehalfOfTenant</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>代表してセッションを開始したユーザーのテナント。詳細については、「<a href="lync-server-2013-tenants-table.md">Lync Server 2013 の Tenants テーブル</a>」を参照してください。</p></td>
+<td><p>セッションを開始したユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの一覧</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ReferredByUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>セッションを委譲したユーザーの URI。</p></td>
+<td><p><strong>△この Uri</strong></p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>セッションを参照したユーザーの URI。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ReferredByUriType</strong></p></td>
+<td><p><strong>ベンチャー Redbyuritん</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションを委譲したユーザーの URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>セッションを参照したユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ReferredByTenant</strong></p></td>
+<td><p><strong>このテナント</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションを委譲したユーザーのテナント。詳細については、「<a href="lync-server-2013-tenants-table.md">Lync Server 2013 の Tenants テーブル</a>」を参照してください。</p></td>
+<td><p>セッションを参照したユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの一覧</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogId</strong></p></td>
-<td><p>varchar(775)</p></td>
-<td><p>SIP ダイアログ ID。形式は次のとおりです。</p>
-<p>dialog;from-tag;to-tag</p></td>
+<td><p><strong>この Id</strong></p></td>
+<td><p>varchar (775)</p></td>
+<td><p>SIP ダイアログ ID。 形式は次のとおりです。</p>
+<p>ダイアログ; 開始タグからタグへ</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CorrelationId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>複数のセッションを相互に関連付けるために使用する GUID。</p></td>
+<td><p>長さ</p></td>
+<td><p>複数のセッションの関連付けに使用する GUID。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ReplaceDialogIdTime</strong></p></td>
+<td><p><strong>Edialogidtime の置き換え</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>セッションに置き換えられたダイアログの時刻。セッションに置き換えられるダイアログを一意に識別するために ReplaceDialogIdSeq と併用されます。詳細については、「<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 の Dialogs テーブル</a>」を参照してください。</p></td>
+<td><p>セッションによって置き換えられたダイアログの時間です。 セッションによって置き換えられるダイアログを一意に識別するには、置換 Edialogidseq と組み合わせて使います。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ReplaceDialogIdSeq</strong></p></td>
+<td><p><strong>Edialogidseq の置き換え</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッションを識別するための ID 番号。セッションに置き換えられるダイアログを一意に識別するために ReplacesDialogIdTime と併用されます。詳細については、「<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 の Dialogs テーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別する ID 番号。 セッションによって置き換えられるダイアログを一意に識別するために、交換 Edialogidtime と組み合わせて使います。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ReplacesDialogId</strong></p></td>
-<td><p>varchar(775)</p></td>
-<td><p>セッションに置き換えられる SIP ダイアログ ID。形式は次のとおりです。</p>
-<p>dialog;from-tag;to-tag</p></td>
+<td><p><strong>置換の方法 Id</strong></p></td>
+<td><p>varchar (775)</p></td>
+<td><p>SIP ダイアログ ID によってセッションが置き換えられます。 形式は次のとおりです。</p>
+<p>ダイアログ; 開始タグからタグへ</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ResponseTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>最初の INVITE メッセージに対する応答の時刻。通常は、セッションの最初の INVITE メッセージから生成されたデータが設定されます。INVITE メッセージがない場合は、関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。</p></td>
+<td><p>最初の招待メッセージに対する返信の時刻。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ResponseCode</strong></p></td>
+<td><p><strong>返信</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッションへの招待に対する SIP 応答コード。通常は、セッションの最初の INVITE メッセージから生成されたデータが設定されます。INVITE メッセージがない場合は、関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。</p></td>
+<td><p>セッション招待状への SIP 応答コード。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DiagnosticId</strong></p></td>
 <td><p>int</p></td>
-<td><p>SIP ヘッダーから取得された診断 ID。</p></td>
+<td><p>SIP ヘッダーからキャプチャされた診断 ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ContentType</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションのコンテンツの種類。</p></td>
+<td><p>セッションのコンテンツの種類です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FrontEnd</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションのデータをキャプチャしたフロントエンド サーバーの FQDN。</p></td>
+<td><p>セッションのデータをキャプチャしたフロントエンドサーバーの FQDN。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
@@ -232,52 +252,63 @@ SessionDetails ビューには、ピアツーピア セッションに関する�
 <tr class="even">
 <td><p><strong>FromEdgeServer</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションを開始したユーザーが使用しているエッジ サーバーの FQDN。</p></td>
+<td><p>セッションを開始したユーザーによって使用されたエッジサーバーの FQDN。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToEdgeServer</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションを開始したユーザーが使用しているエッジ サーバーの FQDN。</p></td>
+<td><p>セッションを開始したユーザーによって使用されたエッジサーバーの FQDN</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsFromInternal</strong></p></td>
 <td><p>bit</p></td>
-<td><p>セッションを開始したユーザーが内部ネットワークからログオンしていたかどうかを示します。</p></td>
+<td><p>セッションを開始したユーザーが内部ネットワークからログオンしているかどうかを示します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsToInternal</strong></p></td>
 <td><p>bit</p></td>
-<td><p>セッションに参加したユーザーが内部ネットワークからログオンしていたかどうかを示します。</p></td>
+<td><p>セッションに参加したユーザーが内部ネットワークからログオンしているかどうかを示します。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallPriority</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>セッションの通話の優先順位。</p></td>
+<td><p>セッションの通話優先度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromUserFlag</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>セッションを開始したユーザーの属性を示します。次の属性定義ができます。</p>
-<p>0x01 - デスクトップ電話と統合</p></td>
+<td><p>セッションを開始したユーザーの属性を示します。 次の属性定義を使用できます。</p>
+<p>0x01-デスクトップ電話と統合</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToUserFlag</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>セッションを開始したユーザーの属性を示します。次の属性定義ができます。</p>
-<p>0x01 - デスクトップ電話と統合</p></td>
+<td><p>セッションを開始したユーザーの属性を示します。 次の属性定義を使用できます。</p>
+<p>0x01-デスクトップ電話と統合</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallFlag</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>通話の属性を示します。次の属性定義ができます。</p>
-<p>0x01 - 再試行されたセッション</p>
-<p>0x02 - 応答グループの代理を務めるエージェントによって行われた通話</p></td>
+<td><p>呼び出しの属性を示します。 次の属性定義を使用できます。</p>
+<p>0x01-再試行セッション</p>
+<p>0x02-応答グループの代理としてエージェントによって発信された通話</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Location</strong></p></td>
-<td><p>varchar(max)</p></td>
+<td><p><strong>場所</strong></p></td>
+<td><p>varchar (max)</p></td>
 <td><p>緊急通話の場所。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

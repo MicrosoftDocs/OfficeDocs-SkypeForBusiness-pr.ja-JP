@@ -1,45 +1,74 @@
-﻿---
-title: 'Lync Server 2013: 会議の計画'
-TOCTitle: 会議の計画
-ms:assetid: 983a272a-e1b3-4d70-8f84-836b092fe526
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398781(v=OCS.15)
-ms:contentKeyID: 48272923
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 会議の計画'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for conferencing
+ms:assetid: 983a272a-e1b3-4d70-8f84-836b092fe526
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398781(v=OCS.15)
+ms:contentKeyID: 48184937
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2aff3eef21ca150f4ad6fc9bb2358c2ac81680fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824821"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での会議の計画
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-01-29_
+# <a name="planning-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 での会議の計画
 
-Lync Server 2013 は、会議機能を豊富に備えています。
+</div>
 
-  - Web 会議には、ドキュメントのコラボレーション、アプリケーション共有、デスクトップ共有が含まれます。 Lync Server 2013 では、 Office Web Apps と Office Web Apps サーバー を使用して、PowerPoint プレゼンテーションの共有とレンダリングを処理します。 Office Web Apps サーバー のインストールと構成の詳細については、「[Lync Server 2013 と Office Web Apps サーバーの統合の構成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)」を参照してください。
+<div id="mainSection">
 
-  - 音声ビデオ (A/V) 会議では、ユーザーがリアルタイムの電話会議またはビデオ会議を行うことが可能です。Microsoft Live Meeting サービスまたはサードパーティの音声ブリッジのような外部サービスを使用する必要もありません。
+<div id="mainBody">
 
-  - ダイヤルイン会議では、ユーザーは公衆交換電話網 (PSTN) 電話を使用して、 Lync Server 2013 会議の音声部分に参加できます。サードパーティの音声会議プロバイダーを使用する必要はありません。
+<span> </span>
 
-  - インスタント メッセージング (IM) 会議では、単一の IM セッションで複数者間で通信できます。IM 会議の詳細については、「[Lync Server 2013 でのフロントエンド サーバー、インスタント メッセージングおよびプレゼンスの計画](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)」を参照してください。
+_**最終更新日:** 2013-01-29_
 
-Lync Server 2013 では、予定された会議および緊急会議のどちらもサポートします。
+Lync Server 2013 には、次のような豊富な会議機能が用意されています。
 
-Lync Server 2013フロント エンド サーバーを展開する場合、Web 会議、音声ビデオ会議、およびダイヤルイン会議機能もまた展開するかどうかを選択できます。 Lync Server 2013フロント エンド サーバーでは、IM 会話機能と共に、IM 会議機能は常に自動的に展開されます。
+  - Web 会議。ドキュメントのグループ作業、アプリの共有、デスクトップ共有が含まれます。 Lync Server 2013 は、PowerPoint プレゼンテーションの共有とレンダリングを処理するために、Office Web Apps と Office Web Apps サーバーを使用します。 Office Web Apps サーバーのインストールと構成の詳細については、「 [Office Web Apps サーバーおよび Lync server 2013 との統合を構成する](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)」を参照してください。
+
+  - 音声/ビデオ (A/V) 会議: Microsoft Live Meeting サービスやサードパーティのオーディオブリッジなどの外部サービスを必要とせずに、リアルタイムの音声通話またはビデオ会議を行うことができます。
+
+  - ダイヤルイン会議: ユーザーは、サードパーティの電話会議プロバイダーを必要とせずに、公衆交換電話網 (PSTN) 電話を使って、Lync Server 2013 会議のオーディオ部分に参加することができます。
+
+  - インスタントメッセージング (IM) 会議: 3 人以上の当事者が単一の IM セッションで通信します。 IM 会議の詳細については、「 [Lync Server 2013 でのフロントエンドサーバー、インスタントメッセージング、およびプレゼンスの計画](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)」を参照してください。
+
+Lync Server 2013 は、スケジュールされた会議と一時的会議の両方をサポートしています。
+
+Lync Server 2013、フロントエンドサーバーを展開するときに、web 会議、A/V 会議、ダイヤルイン会議機能も展開するかどうかを選ぶことができます。 IM 会議機能は、Lync Server 2013 フロントエンドサーバーの IM 会話機能と共に、常に自動的に展開されます。
+
+<div>
+
 
 > [!NOTE]  
-> 展開に Office Communicator 2007 R2 クライアント ( Live Meeting コンソールまたは Microsoft Office Outlook 用会議アドインを含む) を使用してスケジュール設定された会議が含まれる場合は、会議が Lync Server 2013 に移行された後で以下の制限事項があります。
-> <ul>
-> <li><p>会議内のユーザーは、ドキュメント コラボレーション、アプリケーション共有、およびデスクトップ共有を含む、データのグループ作業機能を使用できません。</p></li>
-> <li><p>Office Communicator 2007 R2 クライアントが Lync Server 2013 でサポートされていないことから、動作が不安定になることがあります。</p></li></ul>
-> これらの問題を回避するには、 Office Communicator 2007 R2 クライアントを使用してスケジュール設定されたすべての会議を、 Lync 2010 用オンライン ミーティング アドインまたは Lync 2013 用オンライン ミーティング アドインを使用し、 Outlook 2010 または Outlook 2013 で、再度、スケジュール設定します。
+> 展開に Office Communicator 2007 R2 クライアント (Microsoft Office Outlook 用 Live Meeting 本体または電話会議アドインを含む) を使って開催された会議が含まれている場合、会議は Lync に移行した後に次の制限があります。サーバー 2013: 
+> <UL>
+> <LI>
+> <P>会議に参加しているユーザーは、ドキュメントのグループ作業、アプリケーション共有、デスクトップ共有などのデータコラボレーション機能を使用できなくなります。</P>
+> <LI>
+> <P>Office Communicator 2007 R2 クライアントが Lync Server 2013 でサポートされていないため、安定性の問題が発生する場合があります。</P></LI></UL>これらの問題を回避するには、lync 2010 用のオンライン会議アドインまたは Lync 2013 用オンライン会議アドインのいずれかを使用して、Office Communicator 2007 R2 2013 2010 クライアントを使用して開催される会議を再スケジュールします。
 
 
-次のセクションでは、計画プロセス、コンポーネント、ハードウェアおよびソフトウェアの要件、および展開プロセスを含む、さまざまな種類の会議機能の展開に必要な項目について説明します。
 
-## このセクション中
+</div>
+
+以下のセクションでは、計画プロセス、コンポーネント、ハードウェアとソフトウェアの要件、展開プロセスなど、さまざまな種類の会議機能を展開するために必要なものについて説明します。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 での会議の概要](lync-server-2013-overview-of-conferencing.md)
 
@@ -52,4 +81,16 @@ Lync Server 2013フロント エンド サーバーを展開する場合、Web �
   - [Lync Server 2013 の会議の展開チェックリスト](lync-server-2013-deployment-checklist-for-conferencing.md)
 
   - [Lync Server 2013 での大規模会議のサポート](lync-server-2013-support-for-large-meetings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

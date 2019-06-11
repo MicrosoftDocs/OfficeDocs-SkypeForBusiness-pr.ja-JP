@@ -1,27 +1,61 @@
-﻿---
-title: 新しいグループ通話ピックアップ機能
-TOCTitle: 新しいグループ通話ピックアップ機能
-ms:assetid: 59ec90d6-0ec6-4635-91f9-78a6dd02b93c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ945630(v=OCS.15)
-ms:contentKeyID: 52056600
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 新しいグループ通話のピックアップ機能'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New Group Call Pickup feature
+ms:assetid: 59ec90d6-0ec6-4635-91f9-78a6dd02b93c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945630(v=OCS.15)
+ms:contentKeyID: 51541478
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dd66d9c73fbe8c537c99b81cfa6386e34244f334
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826200"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 新しいグループ通話ピックアップ機能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-12_
+# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Lync Server 2013 の新しいグループ通話のピックアップ機能
 
-Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月では、グループ通話ピックアップが新しいエンタープライズ VoIP 機能として導入されています。このグループ通話ピックアップを使用して、ユーザーをグループに割り当てると、そのグループのユーザーにかかってきた電話を、他のユーザーが自分の電話でとることができます。
+</div>
 
-グループ通話ピックアップはコール パーク アプリケーションに基づきます。グループ通話ピックアップでは、コール パークと同様に、仮想番号の範囲がグループ番号として使用されるように設定します。ユーザーはグループ番号をダイヤルすることで、グループ内の他のユーザーにかかってきた電話をとります。
+<div id="mainSection">
 
-## 関連項目
+<div id="mainBody">
 
-#### その他のリソース
+<span> </span>
 
-[Lync Server 2013 でのグループ通話ピックアップの計画](lync-server-2013-planning-for-group-call-pickup.md)
+_**最終更新日:** 2013-02-12_
+
+Lync Server 2013 の累積更新プログラム: 2013 年2月に、グループ通話のピックアップが新しいエンタープライズ Voip 機能として導入されています。 グループ通話のピックアップ機能を使用すると、グループにユーザーを割り当てることができます。これにより、他のユーザーは、自分の電話からグループに参加しているユーザーへの着信に応答することができます。
+
+グループ通話のピックアップは、コールパークアプリケーションに基づいています。 グループ通話の集配の場合、通話パークと同様に、グループ番号として使用するために、一定範囲の仮想番号を設定します。 ユーザーがグループ番号をダイヤルして、グループ内の他のユーザーに対して着信した通話を選びます。
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でグループ通話のピックアップを計画する](lync-server-2013-planning-for-group-call-pickup.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

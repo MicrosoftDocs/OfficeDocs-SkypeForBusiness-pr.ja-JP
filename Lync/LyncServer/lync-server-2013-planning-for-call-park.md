@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: コール パークの計画'
-TOCTitle: コール パークの計画
-ms:assetid: e463c4ba-b7e4-42e5-98f0-0c8b842206dd
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg399010(v=OCS.15)
-ms:contentKeyID: 48273863
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: コール パークの計画'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Call Park
+ms:assetid: e463c4ba-b7e4-42e5-98f0-0c8b842206dd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399010(v=OCS.15)
+ms:contentKeyID: 48185727
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f0e7c6a1ae06ca484cb624ac647b9d491c00dd35
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825031"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのコール パークの計画
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-07_
+# <a name="planning-for-call-park-in-lync-server-2013"></a>Lync Server 2013 でのコール パークの計画
 
-Lync Serverコール パーク アプリケーションを使用すると、エンタープライズ VoIP のユーザーは通話を保留にし、後でどの電話からでもその通話を取得できます。通話を保留したユーザーは、コール パークが提供するオービット番号をダイヤルして保留した通話を取得するか、インスタント メッセージングやポケットベルなどの外部の機能を使用して、他のユーザーに番号を知らせて取得させることができます。このセクションには、コール パーク固有の計画情報が掲載されています。
+</div>
 
-## このセクション中
+<div id="mainSection">
 
-  - [Lync Server 2013 のコール パークの概要](lync-server-2013-overview-of-call-park.md)
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-07_
+
+Lync Server Call パークアプリケーションを使用すると、エンタープライズボイスユーザーは通話を保留にしてから、どの電話からでも通話を取得することができます。 通話を保留にしたユーザーは、保留中の通話を取得するために、通話パークによって提供されたオービットをダイヤルするか、インスタントメッセージやページングシステムなどの外部メカニズムを使用して、他の人に通話を取得するように指示することができます。 このセクションでは、コールパークに固有の計画情報について説明します。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 のコールパークの概要](lync-server-2013-overview-of-call-park.md)
 
   - [Lync Server 2013 のコール パークで使用されるコンポーネント](lync-server-2013-components-used-by-call-park.md)
 
@@ -29,5 +51,17 @@ Lync Serverコール パーク アプリケーションを使用すると、エ�
 
   - [Lync Server 2013 のコール パークの処理能力計画](lync-server-2013-capacity-planning-for-call-park.md)
 
-  - [Lync Server 2013 のコール パークの展開プロセス](lync-server-2013-deployment-process-for-call-park.md)
+  - [Lync Server 2013 でのコールパークの展開プロセス](lync-server-2013-deployment-process-for-call-park.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

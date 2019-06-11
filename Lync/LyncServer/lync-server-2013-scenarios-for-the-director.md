@@ -1,29 +1,55 @@
-﻿---
-title: 'Lync Server 2013: ディレクターのシナリオ'
-TOCTitle: ディレクターのシナリオ
-ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398908(v=OCS.15)
-ms:contentKeyID: 48273720
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ディレクターのシナリオ'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scenarios for the Director
+ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398908(v=OCS.15)
+ms:contentKeyID: 48185419
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eba35647e8ecc0cfa59d5c7c6b5c32b07bedf95e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822154"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のディレクターのシナリオ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-22_
+# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Lync Server 2013 のディレクターのシナリオ
 
-ディレクターは、Microsoft Lync Server 2013  通信ソフトウェアを実行しているサーバーであり、ユーザー要求を認証できますが、ユーザー アカウントはホストしません。ディレクターも フロント エンド サーバーと同じように Web サービスをホストし、Web チケット要求を認証して、他のサービスを提供します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-22_
+
+ディレクターは、Microsoft Lync Server 2013 通信ソフトウェアを実行していて、ユーザー要求を認証することはできますが、ユーザーアカウントのホームにはなりません。 このディレクターは、フロントエンドサーバーと同様の web サービスもホストし、web チケット要求を認証し、その他のサービスを提供します。
+
+<div>
 
 
-> [!IMPORTANT]
-> ディレクターを展開する場合は、フロント エンド サーバー の Web サービスと一緒に、ディレクター の Web サービスをリバース プロキシを介して外部に公開する必要があります。以下のトピックでは、ディレクターの可能なトポロジの計画プロセスについて説明します。
+> [!IMPORTANT]  
+> ディレクターを展開する場合、ディレクター web サービスをリバースプロキシ経由で外部に公開するか、フロントエンドサーバーの web サービスとして公開する必要があります。 以下のトピックでは、可能なディレクタートポロジの計画プロセスについて説明します。
 
 
 
-## このセクション中
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 のディレクターの概要](lync-server-2013-overview-of-the-director.md)
 
@@ -35,10 +61,26 @@ _**トピックの最終更新日:** 2012-10-22_
 
   - [Lync Server 2013 の拡張ディレクター プール](lync-server-2013-scaled-director-pool.md)
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 でサポートされるトポロジ](lync-server-2013-supported-topologies.md)  
-[Lync Server 2013　用のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)
+[Lync Server 2013 のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

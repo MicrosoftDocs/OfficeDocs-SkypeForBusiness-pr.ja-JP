@@ -1,25 +1,45 @@
-﻿---
-title: アドレス帳管理用の New-CsClientPolicy
-TOCTitle: アドレス帳管理用の New-CsClientPolicy
-ms:assetid: ef4415fc-82c4-4dc8-97d1-37a084553343
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg429726(v=OCS.15)
-ms:contentKeyID: 48273949
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: アドレス帳管理用の新しい CsClientPolicy'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New-CsClientPolicy for Address Book management
+ms:assetid: ef4415fc-82c4-4dc8-97d1-37a084553343
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429726(v=OCS.15)
+ms:contentKeyID: 48185771
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 77cf1f7ebe085fc11d23381db9d1c474c79403d0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826270"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# アドレス帳管理用の New-CsClientPolicy
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理用の新しい CsClientPolicy
 
-このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが New-CsClientPolicy コマンドレットを実行することを承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-11-01_
+
+このコマンドレットを実行できるのはどのユーザーですか。既定では、次のグループのメンバーは、新しい-CsClientPolicy コマンドレット: RTCUniversalServerAdmins を実行することを許可されています。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsClientPolicy"}
 
-New-CsClientPolicy コマンドレットにより、Lync Server 2013 で使用可能な機能にクライアントを備えさせるための数多くの設定を定義します。アドレス帳サービスの場合、関心の対象は AddressBookAvailability パラメーターです。 クライアントが利用できるオプションに直接影響するこのパラメーターには、次に示す 3 つの設定可能なオプションがあります。
+このコマンドレットの新しい Clientpolicy によって、Lync Server 2013 で利用できる機能のクライアントプロビジョニングのための多数の設定が定義されます。 アドレス帳サービスの場合は、パラメーター住所録の可用性が重要です。 このパラメーターは、クライアントで利用できるオプションに直接影響を与えます。次の3つのオプションがあります。
 
   - WebSearchAndFileDownload
 
@@ -27,15 +47,29 @@ New-CsClientPolicy コマンドレットにより、Lync Server 2013 で使用�
 
   - FileDownloadOnly
 
-定義すると、クライアントがアドレス帳にアクセスするときの方法が決まります。 このパラメーターを定義する場合は、オプションの 1 つを定義する必要があります。 この設定を変更しない場合は、既定の WebSearchAndFileDownload が有効なままになります。
+定義すると、クライアントがアドレス帳にどのようにアクセスするかを決定します。 このパラメーターを定義する場合は、いずれかのオプションを定義する必要があります。 この設定を変更しない場合、既定の WebSearchAndFileDownload は有効なままになります。
 
-次にその例を示します。
+次に例を示します。
 
     New-CsClientPolicy -Identity RedmondClientPolicy -DisableCalendarPresence $True -DisablePhonePresence $True -DisplayPhoto "PhotosFromADOnly" -AddressBookAvailability "WebSearchOnly"
 
-## 関連項目
+<div>
 
-#### その他のリソース
+## <a name="see-also"></a>関連項目
 
-[New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy)
+
+[New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

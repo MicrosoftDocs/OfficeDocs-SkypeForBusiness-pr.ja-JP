@@ -1,27 +1,47 @@
-﻿---
-title: 'Lync Server 2013: QoE テーブルの詳細'
-TOCTitle: QoE テーブルの詳細
-ms:assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg413003(v=OCS.15)
-ms:contentKeyID: 48274073
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: QoE テーブルの詳細'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: QoE table details
+ms:assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413003(v=OCS.15)
+ms:contentKeyID: 48185775
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bcfb0d3dd40341f082e4efdcb8bd22a7c3ba6b25
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823778"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 QoE テーブルの詳細
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-02_
+# <a name="qoe-table-details-in-lync-server-2013"></a>Lync Server 2013 QoE テーブルの詳細
 
-以下のセクションでは、Quality of Experience (QoE) データベース スキーマ テーブルの列の詳細について説明します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-02_
+
+以下のセクションでは、各 Quality of Experience (QoE) データベーススキーマテーブルの列について詳しく説明します。
 
   - [Lync Server 2013 の AppliedBandwidthSource テーブル](lync-server-2013-appliedbandwidthsource-table.md)
 
-  - [AppSharingMetricsThreshold テーブル](lync-server-2013-appsharingmetricsthreshold-table.md)
+  - [Lync Server 2013 の AppSharingMetricsThreshold テーブル](lync-server-2013-appsharingmetricsthreshold-table.md)
 
-  - [AppSharingStream テーブル](lync-server-2013-appsharingstream-table.md)
+  - [Lync Server 2013 の AppSharingStream テーブル](lync-server-2013-appsharingstream-table.md)
 
   - [Lync Server 2013 の AudioClientEvent テーブル](lync-server-2013-audioclientevent-table.md)
 
@@ -29,7 +49,7 @@ _**トピックの最終更新日:** 2012-10-02_
 
   - [Lync Server 2013 の AudioStream テーブル](lync-server-2013-audiostream-table.md)
 
-  - [CodecDescription テーブル](lync-server-2013-codecdescription-table.md)
+  - [Lync Server 2013 の CodecDescription テーブル](lync-server-2013-codecdescription-table.md)
 
   - [Lync Server 2013 の Conference テーブル](lync-server-2013-conference-table.md)
 
@@ -43,7 +63,7 @@ _**トピックの最終更新日:** 2012-10-02_
 
   - [Lync Server 2013 の EndpointSubnet テーブル](lync-server-2013-endpointsubnet-table.md)
 
-  - [Lync Server 2013 での IPAddress テーブル](lync-server-2013-ipaddress-table.md)
+  - [Lync Server 2013 の IPAddress テーブル](lync-server-2013-ipaddress-table.md)
 
   - [Lync Server 2013 の MacAddress テーブル](lync-server-2013-macaddress-table.md)
 
@@ -53,13 +73,13 @@ _**トピックの最終更新日:** 2012-10-02_
 
   - [MonitoredUserSiteLink テーブル](monitoredusersitelink-table.md)
 
-  - [Lync Server 2013 での NetworkConnectionDetail テーブル](lync-server-2013-networkconnectiondetail-table.md)
+  - [Lync Server 2013 の NetworkConnectionDetail テーブル](lync-server-2013-networkconnectiondetail-table.md)
 
   - [Lync Server 2013 の PayloadDescription テーブル](lync-server-2013-payloaddescription-table.md)
 
   - [Lync Server 2013 の Pool テーブル](lync-server-2013-pool-table.md)
 
-  - [PurgeSettings テーブル (QoE)](lync-server-2013-purgesettings-table-qoe.md)
+  - [Lync Server 2013 の PurgeSettings テーブル (QoE)](lync-server-2013-purgesettings-table-qoe.md)
 
   - [Lync Server 2013 の Region テーブル](lync-server-2013-region-table.md)
 
@@ -71,19 +91,29 @@ _**トピックの最終更新日:** 2012-10-02_
 
   - [Lync Server 2013 の Subnet テーブル](lync-server-2013-subnet-table.md)
 
-  - [TraceRoute テーブル](lync-server-2013-traceroute-table.md)
+  - [Lync Server 2013 の TraceRoute テーブル](lync-server-2013-traceroute-table.md)
 
   - [Lync Server 2013 の User テーブル](lync-server-2013-user-table.md)
 
   - [Lync Server 2013 の UserAgent テーブル](lync-server-2013-useragent-table.md)
 
-  - [UserAgentDef テーブル (QoE)](lync-server-2013-useragentdef-table-qoe.md)
+  - [Lync Server 2013 の UserAgentDef テーブル (QoE)](lync-server-2013-useragentdef-table-qoe.md)
 
   - [Lync Server 2013 の UserSite テーブル](lync-server-2013-usersite-table.md)
 
   - [Lync Server 2013 の VideoClientEvent テーブル](lync-server-2013-videoclientevent-table.md)
 
-  - [VideoMetricsThreshold テーブル](lync-server-2013-videometricsthreshold-table.md)
+  - [Lync Server 2013 の VideoMetricsThreshold テーブル](lync-server-2013-videometricsthreshold-table.md)
 
   - [Lync Server 2013 の VideoStream テーブル](lync-server-2013-videostream-table.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

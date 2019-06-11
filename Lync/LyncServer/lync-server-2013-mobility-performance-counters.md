@@ -1,27 +1,49 @@
-﻿---
-title: モビリティ パフォーマンス カウンター
-TOCTitle: モビリティ パフォーマンス カウンター
-ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh690046(v=OCS.15)
-ms:contentKeyID: 48273649
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: モビリティーパフォーマンスカウンター'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mobility performance counters
+ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690046(v=OCS.15)
+ms:contentKeyID: 48185441
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c0759ccd6a9203dfac87f0ec55f555d49d19ccc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827117"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# モビリティ パフォーマンス カウンター
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="mobility-performance-counters-in-lync-server-2013"></a>Lync Server 2013 のモバイルパフォーマンスカウンター
 
-以下の表は、Unified Communications Web API (UCWA) および Lync Server 2013 Mcx Mobility Service を実行しているサーバーの監視に使用できるパフォーマンス カウンターの名前と説明です。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-22_
+
+次の表は、ユニファイドコミュニケーション Web API (UCWA) および Lync Server 2013 Mcx Mobility Service を実行しているサーバーを監視するために使用できるパフォーマンスカウンターの名前と説明を示しています。
 
 UCWA の表のカウンターのカテゴリ名は、**LS:WEB - UCWA** です。
 
 Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - Mobile Communication Service** です。
 
-## UCWA のパフォーマンス カウンター
+<div>
+
+## <a name="performance-counters-for-ucwa"></a>UCWA のパフォーマンス カウンター
 
 
 <table>
@@ -66,7 +88,7 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 </tr>
 <tr class="even">
 <td><p>Active Pending Get Count</p></td>
-<td><p>現在アクティブな保留中の取得数、サーバーへの接続は長時間維持されます</p></td>
+<td><p>現在アクティブな保留中の取得数。サーバーへの接続は長時間維持されます</p></td>
 </tr>
 <tr class="odd">
 <td><p>Active Session Count</p></td>
@@ -141,7 +163,7 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 <td><p>シリアル化解除が失敗した合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Number of HD Photo Get Failures</p></td>
+<td><p>HD Photo Get エラーの数</p></td>
 <td><p>Exchange からの HD 写真の取得に失敗した合計数</p></td>
 </tr>
 <tr class="even">
@@ -212,7 +234,11 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 </table>
 
 
-### Mcx Mobility Service のパフォーマンス カウンター
+</div>
+
+<div id="sectionSection1" class="section">
+
+### <a name="performance-counters-for-mcx-mobility-service"></a>Mcx Mobility Service のパフォーマンス カウンター
 
 <table>
 <colgroup>
@@ -352,4 +378,17 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,41 +1,79 @@
-﻿---
-title: Lync Server のネットワーク計画
-TOCTitle: Lync Server のネットワーク計画
-ms:assetid: cb4383e3-118a-40f2-92eb-d723c5b037c2
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721883(v=OCS.15)
-ms:contentKeyID: 49887146
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 ネットワーク計画
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Network planning for Lync Server
+ms:assetid: cb4383e3-118a-40f2-92eb-d723c5b037c2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721883(v=OCS.15)
+ms:contentKeyID: 49733817
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 61f6cdd5e64337b040e97ac350824f3e38b3d698
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826487"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server のネットワーク計画
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-10_
+# <a name="network-planning-for-lync-server-2013"></a>Lync Server 2013 のネットワーク計画
 
-このセクションのトピックを使用して、ネットワークが Lync Server 向けに準備できているかを確認できます。
+</div>
 
-## このセクション中
+<div id="mainSection">
 
-  - [Lync Server 2013 でのネットワーク インフラストラクチャの要件](lync-server-2013-network-infrastructure-requirements.md)
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-10_
+
+このセクションのトピックを使用して、ネットワークが Lync Server に対応していることを確認できます。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 のネットワークインフラストラクチャ要件](lync-server-2013-network-infrastructure-requirements.md)
 
   - [Lync Server 2013 での IPv6 の計画と構成](lync-server-2013-planning-for-and-configuring-ipv6.md)
 
-  - [Lync Server 2013 での負荷分散の要件](lync-server-2013-load-balancing-requirements.md)
+  - [Lync Server 2013 の負荷分散の要件](lync-server-2013-load-balancing-requirements.md)
 
-  - [ドメイン ネーム システム (DNS) の要件](lync-server-2013-domain-name-system-dns-requirements.md)
+  - [Lync Server 2013 のドメインネームシステム (DNS) 要件](lync-server-2013-domain-name-system-dns-requirements.md)
 
-  - [ポートの要件](lync-server-2013-port-requirements.md)
+  - [Lync Server 2013 のポート要件](lync-server-2013-port-requirements.md)
 
-  - [Lync Server 2013 でのメディア トラフィックのネットワーク帯域幅の要件](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)
+  - [Lync Server 2013 でのメディアトラフィックのネットワーク帯域幅要件](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)
 
-  - [サービスの品質 (QoS) の管理](lync-server-2013-managing-quality-of-service-qos.md)
+  - [Lync Server 2013 での QoS (Quality of Service) の管理](lync-server-2013-managing-quality-of-service-qos.md)
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Lync Server 2013 に関するインフラストラクチャ要件の決定](lync-server-2013-determining-your-infrastructure-requirements.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 に関するインフラストラクチャ要件の決定](lync-server-2013-determining-your-infrastructure-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

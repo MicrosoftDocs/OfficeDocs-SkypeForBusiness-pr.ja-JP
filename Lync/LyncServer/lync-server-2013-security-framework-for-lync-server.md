@@ -1,53 +1,87 @@
-﻿---
-title: Lync Server 2013 のセキュリティ フレームワーク
-TOCTitle: Lync Server 2013 のセキュリティ フレームワーク
-ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn481316(v=OCS.15)
-ms:contentKeyID: 59682884
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server のセキュリティフレームワーク'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Security framework for Lync Server 2013
+ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481316(v=OCS.15)
+ms:contentKeyID: 59893866
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 17900e0ca9db8f9dbc1bf66a1bd65aff62d9dd62
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822077"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のセキュリティ フレームワーク
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-11-08_
+# <a name="security-framework-for-lync-server-2013"></a>Lync Server 2013 のセキュリティフレームワーク
 
-ここでは、Microsoft Lync Server 2013 のセキュリティ フレームワークを形成する基本要素の概要を示します。これらの要素が連携するしくみを理解することは、実際に使う Lync Server 2013 展開のセキュリティ保護について十分な情報に基づいた決断を行うために不可欠です。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-11-08_
+
+このセクションでは、Microsoft Lync Server 2013 のセキュリティフレームワークを形成する基本的な要素の概要について説明します。 これらの要素がどのように連携するかについて理解することは、特定の Lync Server 2013 の展開をセキュリティで保護することについて、情報に基づいて決定する
 
 具体的な要素は次のとおりです。
 
-  - Active Directory ドメイン サービス (AD DS) は、ユーザー アカウントとネットワーク リソースの信頼できる単一のバックエンド リポジトリを提供します。
+  - Active Directory ドメインサービス (AD DS) は、ユーザーアカウントとネットワークリソース用の1つの信頼されたバックエンドリポジトリを提供します。
 
-  - 役割ベースのアクセス制御 (RBAC) では、高水準のセキュリティを維持しながら管理タスクを委任できます。
+  - 役割ベースのアクセス制御 (RBAC) を使用すると、高水準のセキュリティを維持しながら管理操作を委任できます。
 
-  - 公開キー基盤 (PKI) は、信頼された証明機関 (CA) によって発行された証明書を使用してサーバーを認証し、データの整合性を確保します。
+  - 公開キー基盤 (PKI) は、信頼された証明機関 (CA) から発行された証明書を使用してサーバーを認証し、データの整合性を確保します。
 
-  - トランスポート層セキュリティ (TLS)、HTTP over SSL (HTTPS)、および相互 TLS (MTLS) により、エンドポイント認証と IM の暗号化が可能になります。ポイント間の音声、ビデオ、およびアプリケーション共有のストリームは、セキュア リアルタイム転送プロトコル (SRTP) で暗号化されます。
+  - トランスポート層セキュリティ (TLS)、HTTPS over SSL (HTTPS)、相互 TLS (MTLS) を使用すると、エンドポイント認証と IM の暗号化ができます。ポイント間の音声、ビデオ、アプリケーション共有のストリームは、セキュア リアルタイム転送プロトコル (SRTP) で暗号化されます。
 
-  - ユーザーの認証には、業界標準のプロトコルが可能な限り使用されます。
+  - ユーザーの認証には、業界標準のプロトコルができる限り使用されます。
 
-  - Windows PowerShell には、既定で有効となっているセキュリティ機能があり、ユーザーが簡単には (または知らないうちに) スクリプトを実行できないようになっています。
+  - Windows PowerShell には既定で有効になっているセキュリティ機能が用意されているため、ユーザーは簡単にスクリプトを実行することはできません。
 
-これらの基本的なセキュリティ要素が連携することで、信頼の置けるユーザー、サーバー、接続、および操作が定められ、Lync Server 2013 の安全な基盤が確立されます。
+これらの基本的なセキュリティ要素は連携して、Lync Server 2013 のセキュリティ保護された基盤を確保するのに役立つ、信頼されたユーザー、サーバー、接続、操作を定義します。
 
-## このセクション中
+<div>
 
-このセクションのトピックでは、Lync Server インフラストラクチャのセキュリティを高めるために、これらの各基本要素が機能するしくみについて説明します。
+## <a name="in-this-section"></a>このセクション中
 
-  - [Lync Server 2013 用の Active Directory ドメイン サービス](lync-server-2013-active-directory-domain-services-for-lync-server.md)
+このセクションのトピックでは、Lync Server インフラストラクチャのセキュリティを強化するために、これらの各基本的な要素がどのように動作するかについて説明します。
+
+  - [Lync Server 2013 用 Active Directory ドメインサービス](lync-server-2013-active-directory-domain-services-for-lync-server.md)
 
   - [Lync Server 2013 の役割ベースのアクセス制御 (RBAC)](lync-server-2013-role-based-access-control-rbac.md)
 
-  - [Lync Server 2013 の公開キー基盤](lync-server-2013-public-key-infrastructure.md)
+  - [Lync Server 2013 用の公開キー基盤](lync-server-2013-public-key-infrastructure.md)
 
   - [Lync Server 2013 の TLS と MTLS](lync-server-2013-tls-and-mtls.md)
 
   - [Lync Server 2013 の暗号化](lync-server-2013-encryption.md)
 
-  - [Lync Server 2013 でのユーザーとクライアントの認証](lync-server-2013-user-and-client-authentication.md)
+  - [Lync Server 2013 のユーザーとクライアントの認証](lync-server-2013-user-and-client-authentication.md)
 
   - [Windows PowerShell と Lync Server 2013 の管理ツール](lync-server-2013-windows-powershell-and-lync-server-management-tools.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

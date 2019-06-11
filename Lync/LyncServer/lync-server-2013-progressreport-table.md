@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: ProgressReport テーブル'
-TOCTitle: ProgressReport テーブル
-ms:assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425864(v=OCS.15)
-ms:contentKeyID: 48271781
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ProgressReport テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ProgressReport table
+ms:assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425864(v=OCS.15)
+ms:contentKeyID: 48183847
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: aa8ca0341cd5b85418ef5f71234870ae4171af27
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823722"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の ProgressReport テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="progressreport-table-in-lync-server-2013"></a>Lync Server 2013 の ProgressReport テーブル
 
-進行状況レポートは、通話またはセッションの完了後にクライアントによってデータベースにアップロードされたデータに基づきます。進行状況レポートは、Lync Server 2013 による診断時に役立ちそうな通話とセッションのみを対象として書き込まれます。
+</div>
 
-ErrorTime、ErrorReportSeq、および ProgressReportSeq フィールドは、必ずしもエラーを参照するのではなく、通話またはメッセージの状態を示すメッセージを参照します。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-28_
+
+進行状況レポートは、呼び出しまたはセッションが完了した後に、クライアントからデータベースにアップロードされたデータに基づいています。 進行状況レポートは、Lync Server 2013 で判別目的で役立つ可能性がある通話とセッションに対してのみ記録されます。
+
+ErrorTime、ErrorReportSeq、進捗レポート Seq フィールドは、必ずしもエラーも参照しません。通話またはメッセージの状態を示すメッセージが表示されるわけではありません。
 
 
 <table>
@@ -39,68 +59,79 @@ ErrorTime、ErrorReportSeq、および ProgressReportSeq フィールドは、�
 <tr class="odd">
 <td><p><strong>ErrorTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>主/プライマリ、外部</p></td>
-<td><p>この進行状況レポートを含む進行状況エラー レポートの日時。詳細については、「<a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a>」を参照してください。</p></td>
+<td><p>プライマリ、外部</p></td>
+<td><p>この進捗状況レポートが含まれる進捗状況エラーレポートの日付と時刻。 詳細については、「 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ErrorId</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ、外部</p></td>
-<td><p>進行状況レポートを一意に識別するための ID 番号。ErrorTime と ProgressReportSeq と併用されます。詳細については、「<a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a>」を参照してください。</p></td>
+<td><p>プライマリ、外部</p></td>
+<td><p>ID 番号は、ErrorTime と共に使用されます。進捗レポートは、進行状況レポートを一意に識別するために使われます。 詳細については、「 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ErrorReportSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ、外部</p></td>
-<td><p>エラー レポートを識別する ID 番号。ErrorReporSeq は、一意的にエラー レポートを識別する目的で ErrorTime と共に使用されます。詳細については、「<a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a>」を参照してください。</p>
-<p>このフィールドは Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>プライマリ、外部</p></td>
+<td><p>エラーレポートを識別する ID 番号。 エラーレポートを一意に識別するには、ErrorReporSeq と ErrorTime との組み合わせで使用されます。 詳細については、「 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a>」を参照してください。</p>
+<p>このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ProgressReportSeq</strong></p></td>
+<td><p><strong>進捗状況レポート Seq</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>進行状況レポートを識別するための ID 番号。進行状況レポートを一意に識別するために ErrorTime と ErrorReportSeq と併用されます。</p></td>
+<td><p>Primary</p></td>
+<td><p>進捗状況レポートを識別する ID 番号。 ErrorTime と ErrorReportSeq と組み合わせて、進行状況レポートを一意に識別するために使用されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagId</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>進行状況レポートの診断 ID。</p>
-<p>このフィールドは Microsoft Lync Server 2013 で導入されました。</p></td>
+<p>このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SourceId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>(レポートがサーバー コンポーネントから送信された場合) エラー レポートを送信したサーバー。詳細は「<a href="lync-server-2013-servers-table.md">Lync Server 2013 の Servers テーブル</a>」を参照してください。このフィールドは Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>エラーレポートを送信したサーバー (レポートがサーバーコンポーネントから送信された場合)。 詳細については、「 <a href="lync-server-2013-servers-table.md">Lync Server 2013 のサーバーの表</a>」を参照してください。このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ApplicationId</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>レポートの対象となる Lync Server プロセス。詳細については、「アプリケーション テーブル」を参照してください。</p></td>
+<td></td>
+<td><p>レポートの作成に関する Lync Server プロセス。 詳しくは、アプリケーションの表をご覧ください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>詳細</strong></p></td>
+<td><p><strong>[詳細]</strong></p></td>
 <td><p>画像</p></td>
-<td><p></p></td>
-<td><p>進行状況レポートの詳細。記憶域を節約するできるようにバイナリ形式で格納されます。このデータは、次のコードを使用してテキスト形式に変換できます。</p>
-<p>cast(cast(Detail as varbinary(max)) as varchar(max))</p></td>
+<td></td>
+<td><p>サイズを節約するためのバイナリ形式で保存された進行状況レポートの詳細。このデータは、次の構文を使用してテキスト形式に変換できます。</p>
+<p>cast (cast (varbinary (max) としての Detail (max))</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TelemetryId</strong></p></td>
-<td><p>uniqueIdentifier</p></td>
-<td><p></p></td>
-<td><p>電話会議に関係するさまざまなコンポーネントの参加時間情報を関連付ける一意識別子。</p>
-<p>このフィールドは Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>長さ</p></td>
+<td></td>
+<td><p>会議に参加しているさまざまなコンポーネントの参加時間情報を関連付ける一意の識別子です。</p>
+<p>このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionSetupTime</strong></p></td>
+<td><p><strong>SessionSetupTime 時間</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>特定のコンポーネントが電話会議に参加する時間 (単位はミリ秒)。</p>
-<p>このフィールドは Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>特定のコンポーネントが会議に参加するまでの時間 (ミリ秒単位) です。</p>
+<p>このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

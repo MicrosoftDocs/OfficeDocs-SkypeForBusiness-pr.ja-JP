@@ -1,107 +1,162 @@
-﻿---
-title: Lync Server と Office Communications Server のフェデレーションの計画
-TOCTitle: Lync Server と Office Communications Server のフェデレーションの計画
-ms:assetid: c9eaf06b-054f-41a4-ad0c-499400d6c4c7
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205335(v=OCS.15)
-ms:contentKeyID: 48273570
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server と Office Communications Server フェデレーションの計画
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Lync Server and Office Communications Server federation
+ms:assetid: c9eaf06b-054f-41a4-ad0c-499400d6c4c7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205335(v=OCS.15)
+ms:contentKeyID: 48185640
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c683092b61d278d380ad68cef86795d496498fbf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824786"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server と Office Communications Server のフェデレーションの計画
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-13_
+# <a name="planning-for-lync-server-2013-and-office-communications-server-federation"></a>Lync Server 2013 と Office Communications Server フェデレーションの計画
 
-Microsoft Lync Server 2013、Lync Server 2010、および Office Communications Server の間のフェデレーションは、ピアツーピアでマルチパーティの通信をサポートします。ピアツーピアの会話をマルチパーティの会話にエスカレートでき、臨時の会議を実行できます。会議 – Web 会議または音声ビデオ会議をスケジュールし、組織内の連絡先およびフェデレーションしているパートナーの連絡先を含めることができます。
+</div>
 
-Microsoft Office Live Communications Server 2005 で初めて登場し、サポートされる唯一の種類のフェデレーションは、直接フェデレーションでした。直接フェデレーションでは、フェデレーション パートナーのセッション開始プロトコル (SIP) ドメインと、パートナーのエッジ サーバーの完全修飾ドメイン名 (FQDN) を知っている必要がありました。Live Communications Server 2005 SP1 ではフェデレーションの種類が追加されましたが、そのすべてで、エッジ サーバーを探すためにドメイン ネーム システム (DNS) SRV レコードがフェデレーション パートナーによって公開されている必要がありました。そのリリースで使用されていた用語は次のとおりです。
+<div id="mainSection">
 
-  - *オープン拡張フェデレーション*: あらゆる SIP ドメイン名を受け入れ、DNS SRV を使用してパートナー エッジ サーバーを探す
+<div id="mainBody">
 
-  - *拡張フェデレーション*: パートナーの SIP ドメイン名を組織のフェデレーション パートナーとして構成し、DNS SRV を使用してパートナー エッジ サーバーを探す
+<span> </span>
 
-  - *直接フェデレーション*: パートナーの SIP ドメイン名と、パートナーのエッジ サーバーに対する FQDN を構成する
+_**最終更新日:** 2013-02-13_
 
-  - *サーバー許可リスト*: あらゆるドメインを受け入れ、DNS SRV を使用してホスティング プロバイダーまたはパブリック インスタント メッセージング (IM) 接続プロバイダーのエッジ サーバーを探す
+Microsoft Lync Server 2013、Lync Server 2010、および Office Communications Server 間のフェデレーションは、ピアツーピア通信とマルチパーティ通信をサポートしています。 ピアツーピアの会話は、複数の相手との会話にエスカレーションして、臨時の会議を可能にすることができます。 会議– Web 会議や音声/ビジュアル会議–組織内の連絡先、およびフェデレーションするパートナーの連絡先を含めるようにスケジュールできます。
 
-Microsoft Office Communications Server 2007 では、各フェデレーションの種類で実際に行われることをより的確に表すように、フェデレーションの種類の名前が変更されました。
+フェデレーションは、Microsoft Office Live Communications Server 2005 で初めて表示され、サポートされているフェデレーションの1つになります。 直接フェデレーションでは、フェデレーションパートナーのセッション開始プロトコル (SIP) ドメインとパートナーのエッジサーバーの完全修飾ドメイン名 (FQDN) を知っている必要があります。 SP1 での Live Communications Server 2005 には、フェデレーションパートナーがエッジサーバーを検索するために必要なすべてのフェデレーションの種類 (DNS) SRV レコードが導入されています。 このリリースの用語は次のとおりです。
 
-  - オープン拡張フェデレーションは、*検出済みのパートナー ドメイン*に変更
+  - *拡張フェデレーションを開く*: すべての SIP ドメイン名を受け入れ、DNS SRV を使ってパートナーエッジサーバーを検索する
 
-  - 拡張フェデレーションは、*許可されたパートナー ドメイン*に変更
+  - *拡張フェデレーション*: パートナーの SIP ドメイン名を組織のフェデレーションパートナーとして構成し、DNS SRV を使ってパートナーエッジサーバーを検索します。
 
-  - 直接フェデレーションは、*許可されたパートナー サーバー*に変更
+  - *直接フェデレーション*: パートナーの SIP ドメイン名と、パートナーのエッジサーバーに対して FQDN を構成する
 
-  - サーバー許可リストは、*ホスティング プロバイダー*および*パブリック IM プロバイダー*に変更
+  - *サーバーの許可リスト*: 任意のドメインを承諾し、DNS SRV を使って、ホスティングプロバイダーまたはパブリックインスタントメッセージング (IM) 接続プロバイダーのエッジサーバーを検索します。
 
-Microsoft Lync Server 2010 では、Microsoft Lync Online 2010 と Microsoft Office 365 に従ってホスティング プロバイダーの定義が狭められるとともに、許可されたパートナー ドメインのフェデレーションの種類によって定義されるものと同じ許可リストに従うようになりました。
+Microsoft Office Communications Server 2007 では、フェデレーションの種類の名前が更新され、各フェデレーションの種類が実際にどのように対応しているかがより明確になりました。
 
-Microsoft Lync Server 2013、Lync Server 2010、および Office Communications Server の間のフェデレーションを有効にすると、エッジ サーバーとリバース プロキシを使用して、ユーザーが定義するルールと許可されたパートナー ドメインが適用されます。計画の観点からは、他の Lync Server および Office Communications Server とのフェデレーションには以下が必要になります。
+  - オープン拡張フェデレーションが検出された*パートナードメイン*として認識される
 
-  - トポロジ ビルダーでフェデレーションを有効にします。詳細については、「展開」のトピック「[Lync Server 2013 での SIP フェデレーション、XMPP フェデレーションおよびパブリック インスタント メッセージングの構成](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)」を参照してください。
+  - 拡張フェデレーションが*許可パートナードメイン*として認識される
 
-  - フェデレーションされたドメインの検出に対する要件を決定します。
+  - 直接フェデレーションが*許可パートナーサーバー*と呼ばれました
+
+  - サーバーの許可リストは、*ホスティングプロバイダー*と*パブリック IM プロバイダー*と呼ばれます
+
+Microsoft Lync Server 2010 は、Microsoft Lync Online 2010 と Microsoft Office 365 に準拠して、ホスティングプロバイダーの幅の狭い定義を導入しました。また、許可パートナードメインフェデレーションタイプで定義されたのと同じ許可一覧も適用されます。
+
+Microsoft Lync Server 2013、Lync Server 2010、Office Communications Server の間のフェデレーションを有効にすると、エッジサーバーとリバースプロキシを使って、定義したルールと許可されたパートナードメインを適用することができます。 計画の観点から、他の Lync Server とのフェデレーションを行うには、Office Communications Server で次のことを行う必要があります。
+
+  - トポロジビルダーでフェデレーションを有効にします。 詳細については、「 [Lync Server 2013 で SIP フェデレーション、XMPP フェデレーションおよびパブリックインスタントメッセージングを構成する展開に](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)関するトピックを参照してください。
+
+  - フェデレーションドメイン探索の要件を決定する:
     
-      - フェデレーションを手動で構成する場合、パートナーのエッジ サーバーの完全修飾ドメイン名 (FQDN) つまりオンライン ドメイン名が必要です。これは、Lync Server コントロール パネル の \[**フェデレーションと外部アクセス**\]、\[**SIP フェデレーション ドメイン**\] に入力します。FQDN によってドメインを許可または禁止するには、ポリシーを**新規作成**するか、既存のポリシーを**編集**します。
+      - <span></span>  
+        フェデレーションを手動で構成するには、パートナーのエッジサーバーとドメイン名の完全修飾ドメイン名 (FQDN)、および Lync Server コントロールパネル、**フェデレーション、外部アクセス**、SIP に入力されたオンラインドメイン名が必要です。 **フェデレーションドメイン**。 ドメインを FQDN で許可またはブロックするには、**新しい**ポリシーを作成するか、既存のポリシーを**編集**します。
+        
+        <div>
         
 
         > [!WARNING]
-        > フェデレーション パートナーのエッジ サーバーを手動で構成すると、パートナーがエッジ サーバーの IP アドレスを変更したときにエラーが発生しやすくなります。
+        > フェデレーションパートナーのエッジサーバーを手動で構成すると、パートナーがエッジサーバーの IP アドレスを変更した場合にエラーが発生しやすくなります。
 
         
-        > [!NOTE]  
-        > [<strong>新規 SIP フェデレーション ドメイン</strong>] については、Microsoft Lync Online、Microsoft Office 365 の [<strong>ドメイン名 (または FQDN)</strong>] を指定する必要があります。Microsoft Lync Server 2013、Lync Server 2010 および Office Communications Server については、[<strong>アクセス エッジ サービス (FQDN)</strong>] も指定する必要があります。
+        </div>
+        
+        <div>
+        
+
+        > [!NOTE]
+        > <STRONG>新しい SIP フェデレーションドメイン</STRONG>の場合は、Microsoft Lync Online、microsoft Office 365 の<STRONG>ドメイン名 (または FQDN)</STRONG>を指定する必要があります。 Microsoft Lync Server 2013、Lync Server 2010、Office Communications Server の場合は、<STRONG>アクセスエッジサービス (FQDN)</STRONG>も指定する必要があります。
+
+        
+        </div>
     
-      - 検出済みのパートナーのフェデレーションの場合、パートナーがこちらのエッジ サーバーを検出できますが、エッジ サーバーのポート 5061 およびホスト (A) レコードをポイントする SRV レコードを、こちらの外部 DNS に作成します (\_sipfederationtls.\_tcp.contoso.com)。
+      - <span></span>  
+        パートナーがエッジサーバーを検出できる検出されたパートナーフェデレーションについては、外部 DNS- \_SIPFEDERATIONTLS で SRV レコードを作成します。\_Tcp.contoso.com –エッジサーバーのポート5061およびホスト (A) レコードを指します。
+        
+        <div>
         
 
         > [!IMPORTANT]
-        > Windows Phone または Apple iPhone、iPad、その他の Apple デバイス上で Microsoft Lync Mobile クライアントをサポートしており、プッシュ通知サービスまたはプッシュ通知サービスを使用している場合、Lync Mobile クライアントを使用する SIP ドメインごとに _sipfederationtls._tcp. <EM>&lt;SIP ドメイン&gt;</EM> の SRV レコードを計画する必要があります。Android と Nokia Symbian の Lync Mobile はプッシュ通知を使用しないため、この要件は適用されません。
+        > Windows Phone または Apple iPhone、iPad、またはその他の Apple デバイスで Microsoft Lync モバイルクライアントをサポートしており、プッシュ通知サービスまたはプッシュ通知サービスを使っている場合は、_sipfederationtls を計画する必要があります。 _tcp &lt;Lync モバイル&gt;クライアントを使用している sip ドメインごとに sip ドメイン SRV レコード。 Android および Nokia Symbian Lync Mobile では、プッシュ通知は使用されず、この要件の対象にはなりません。
 
+        
+        </div>
 
+  - フェデレーションドメインをサポートするように外部ユーザーアクセスポリシーを構成する
 
-  - フェデレーションされたドメインをサポートするように外部ユーザー アクセス ポリシーを構成します
+  - 有効にしているフェデレーションまたは連絡先に対応するために、セッション開始プロトコル (SIP)、web 会議、およびオーディオ/ビジュアル用のファイアウォールポートを開きます。 詳細については、「 [Lync Server 2013 の外部の A/V ファイアウォールとポートの要件を確認](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)する」を参照してください。
 
-  - セッション開始プロトコル (SIP)、Web 会議、音声ビデオ用にファイアウォールのポートを開き、有効にしているフェデレーションまたは連絡先に対応します。詳細については、「[Lync Server 2013 の外部の音声ビデオ ファイアウォールおよびポートの要件を決定する](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)」を参照してください。
+Microsoft Lync Server 2013 および Lync Server 2010 とのフェデレーションのための証明書、ポート/プロトコル、および DNS の要件を定義するには、次の情報を参考にしてください。
 
-Microsoft Lync Server 2013 および Lync Server 2010 とのフェデレーション用の証明書、ポート/プロトコル、DNS の要件を定義するときは、次の情報が役に立ちます。
+Microsoft Lync Server 2013 Edge サーバーを計画または展開した場合、通常、証明書、ファイアウォール、ポート/プロトコルの要件と DNS 要件を計画します。 フェデレーションは、既存のエッジサーバーを使用する追加機能であるため、通常、計画の要件はエッジサーバーの計画と展開によって満たされます。 以下の表を使用して、要件を満たしていることを確認し、それに応じてポート/プロトコルと DNS を変更してください。
 
-証明書、ファイアウォール、ポート/プロトコルの要件および DNS の要件の計画は、Microsoft Lync Server 2013 エッジ サーバーを計画または展開してある場合は一般に簡単なプロセスです。フェデレーションは既存のエッジ サーバーを使用する追加機能なので、計画の要件は通常はエッジ サーバーの計画と展開によって満たされます。次の表を使用して要件が満たされていることを確認し、それに従ってポート/プロトコルおよび DNS を変更します。
+<div>
 
 
 > [!IMPORTANT]
-> エッジ サーバーのプールがあり、Lync Server 2013 または Lync Server 2010 のパートナーとフェデレーションしている場合は、エッジ サーバーの内側または外側で DNS 負荷分散またはロード バランサー機器を使用できます。Office Communications Server 2007 または Office Communications Server 2007 R2 とフェデレーションしている場合は、ロード バランサー機器によってエッジ サーバーの場合のフェールオーバー サポートが提供されます。Office Communications Server 2007 および Office Communications Server 2007 R2 は、DNS 負荷分散には対応していません。パートナーのエッジ サーバーは、プール内で最初に応答したエッジ サーバーと通信を確立します。そのエッジ サーバーで障害が発生した場合、通信は自動的にはフェールオーバーしません。
+> エッジサーバーのプールと Lync Server 2013 または Lync Server 2010 パートナーとのフェデレーションを行っている場合は、エッジサーバーの内部および外部のサイドで DNS 負荷分散またはハードウェアロードバランサーを使用できます。 Office Communications Server 2007 または Office Communications Server 2007 R2 とのフェデレーションを行う場合、ハードウェア負荷分散によって、エッジサーバーのイベントに対するフェールオーバーサポートが提供されます。 Office Communications Server 2007 と Office Communications Server 2007 R2 は、DNS 負荷分散に対応していません。 パートナーエッジサーバーは、お使いのプールの最初のエッジサーバーとの通信を確立します。 このエッジサーバーに障害が発生した場合、通信が自動的にフェイルオーバーされることはありません。
 
 
 
-証明書の要件は、通常、選択したエッジ サーバーまたはプールされたエッジ サーバーの計画に対する証明書の計画によって満たされます。
+</div>
 
-## このセクション中
+通常、証明書の要件は、選択したエッジサーバーまたはプールされたエッジサーバープランの証明書の計画によって満たされます。
 
-  - [証明書の概要 - SIP、XMPP フェデレーション、パブリック インスタント メッセージング](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+<div>
 
-  - [ポートの概要 - SIP、XMPP フェデレーション、パブリック インスタント メッセージング](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+## <a name="in-this-section"></a>このセクション中
 
-  - [DNS の概要 - SIP、XMPP フェデレーション、パブリック インスタント メッセージング](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [証明書の概要-Lync Server 2013 での SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-## 関連項目
+  - [[ポートの概要]-Lync Server 2013 での SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-#### タスク
+  - [DNS 概要-Lync Server 2013 での SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 でのフェデレーション ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
 
-#### 概念
 
 [Lync Server 2013 の外部ユーザー アクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)  
 [Lync Server 2013 の外部の音声ビデオ ファイアウォールおよびポートの要件を決定する](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
 [Lync Server 2013 の DNS の要件を確認する](lync-server-2013-determine-dns-requirements.md)  
 
-#### その他のリソース
 
 [Lync Server 2013 での組織のアクセス エッジ構成の管理](lync-server-2013-manage-access-edge-configuration-for-your-organization.md)  
 [Lync Server 2013 での組織の SIP フェデレーション ドメインの管理](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
-[Lync Server 2013 での組織の SIP フェデレーション プロバイダーの管理](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)
+[Lync Server 2013 での組織の SIP フェデレーション プロバイダーの管理](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

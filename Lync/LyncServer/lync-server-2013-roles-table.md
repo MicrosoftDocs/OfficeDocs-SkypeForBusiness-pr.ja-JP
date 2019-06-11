@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Roles テーブル'
-TOCTitle: Roles テーブル
-ms:assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg399043(v=OCS.15)
-ms:contentKeyID: 48273909
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Roles テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Roles table
+ms:assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399043(v=OCS.15)
+ms:contentKeyID: 48185893
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 12ed7ed4a6f152ce103e3e100bf14918cf945345
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822308"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の Roles テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="roles-table-in-lync-server-2013"></a>Lync Server 2013 の Roles テーブル
 
-Roles テーブルは、会議で使用可能な役割 (参加者、発表者など) のリストを格納する静的なテーブルです。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-28_
+
+Roles テーブルは、出席者や発表者など、可能な電話会議ロールのリストを保存する静的テーブルです。
 
 
 <table>
@@ -37,20 +57,31 @@ Roles テーブルは、会議で使用可能な役割 (参加者、発表者な
 <tr class="odd">
 <td><p><strong>RoleId</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p></p></td>
+<td><p>Primary</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Role</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p></p></td>
-<td><p>有効な値は次のとおりです。</p>
+<td><p><strong>[役割]</strong></p></td>
+<td><p>nvarchar(256)</p></td>
+<td></td>
+<td><p>許可される値:</p>
 <ul>
-<li><p>0 - 不明</p></li>
-<li><p>1 - 発表者</p></li>
-<li><p>2 - 参加者</p></li>
+<li><p>0-不明</p></li>
+<li><p>1-プレゼンター</p></li>
+<li><p>2-出席者</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

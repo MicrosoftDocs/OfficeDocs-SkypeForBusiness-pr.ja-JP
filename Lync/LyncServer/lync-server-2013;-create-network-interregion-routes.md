@@ -1,79 +1,128 @@
-﻿---
-title: ネットワーク地域間ルートの作成
-TOCTitle: ネットワーク地域間ルートの作成
-ms:assetid: 5555262a-a502-4b01-9593-836dd30064f5
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398368(v=OCS.15)
-ms:contentKeyID: 48272127
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013;ネットワーク間の領域ルートを作成する
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Create network interregion routes
+ms:assetid: 5555262a-a502-4b01-9593-836dd30064f5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
+ms:contentKeyID: 48184159
+ms.date: 07/23/2014
+mtps_version: v=OCS.15
+ms.openlocfilehash: be1c28450708660e2322144802c81d5458ded6da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "34821818"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ネットワーク地域間ルートの作成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-20_
+# <a name="create-network-interregion-routes-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク間通信領域ルートの作成
 
-*ネットワーク地域間ルート*では、ネットワーク地域のペア間のルートを定義します。 通話受付管理展開のネットワーク地域の各ペアには、ネットワーク地域間ルートが必要です。 これにより、展開内の各ネットワーク地域が他のすべての地域にアクセスできるようになります。
+</div>
 
-地域のリンクが地域間の接続に対する帯域幅制限を設定し、地域間ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。
+<div id="mainSection">
 
-ネットワーク地域間ルートの操作の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
+<div id="mainBody">
 
-  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)
+<span> </span>
 
-  - [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+_**最終更新日:** 2012-10-20_
 
-  - [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+*ネットワークインター領域ルート*は、ネットワーク領域のペア間のルートを定義します。 通話受付制御の展開におけるネットワーク領域の各ペアには、ネットワークインター領域ルートが必要です。 これにより、展開内の各ネットワーク地域が他のすべての地域にアクセスできるようになります。
 
-  - [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
+地域のリンクでは、領域間の接続に帯域幅の制限を設定していますが、相互領域ルートによって、接続が1つの領域から別の領域に移動するリンク先のパスが決定されます。
 
-トポロジの例では、北アメリカ/EMEA、EMEA/APAC、および北アメリカ/APAC の 3 つの各地域ペアにネットワーク地域間ルートを定義する必要があります。
+ネットワークインターセクションルートの操作の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
 
-## Lync Server 管理シェルを使用してネットワーク地域間ルートを作成するには
+  - [新しい (CsNetworkInterRegionRoute)](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+  - [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 
-2.  **New-CsNetworkInterRegionRoute** コマンドレットを実行して、必要なルートを定義します。たとえば、以下を実行します。
+  - [設定-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+
+  - [CsNetworkInterRegionRoute の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
+
+このトポロジの例では、北米、EMEA、EMEA、APAC、北米/APAC という3つの地域のペアのそれぞれに対して、ネットワークの interregion ルートを定義する必要があります。
+
+<div>
+
+## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>Lync Server 管理シェルを使用してネットワーク間の領域ルートを作成するには
+
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+
+2.  **New-CsNetworkInterRegionRoute** コマンドレットを実行して、必要なルートを定義します。 たとえば、以下を実行します。
     
+       ```
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
-
-       &nbsp;
+       ```
     
+       ```
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
-
-       &nbsp;
+       ```
     
+       ```
         New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
+       ```
     
-    > [!NOTE]
-    > 北アメリカ/APAC 間には直接のネットワーク地域リンクがないため、このネットワーク地域間ルートには 2 つのネットワーク地域リンクが必要です。
-
-
-## Lync Server コントロール パネルを使用してネットワーク地域間ルートを作成するには
-
-1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
-
-2.  左側のナビゲーション バーで \[**ネットワーク構成**\] をクリックします。
-
-3.  \[**地域ルート**\] ナビゲーション ボタンをクリックします。
-
-4.  \[**新規**\] をクリックします。
-
-5.  \[**新しい地域ルート**\] ページで、\[**名前**\] をクリックし、ネットワーク地域間ルートの名前を入力します。
-
-6.  \[**ネットワーク地域 \#1**\] をクリックし、一覧でネットワーク地域 \#2 にルーティングするネットワーク地域をクリックします。
-
-7.  \[**ネットワーク地域 \#2**\] をクリックし、一覧でネットワーク地域 \#1 にルーティングするネットワーク地域をクリックします。
-
-8.  \[**ネットワーク地域リンク**\] フィールドの横の \[**追加**\] をクリックし、ネットワーク地域間ルートで使用するネットワーク地域リンクを追加します。
+    <div class=" ">
     
-    > [!NOTE]
-    > 2 つのネットワーク地域のルートを作成する場合、その間に直接のネットワーク地域リンクがなければ、必要なすべてのリンクを追加してルートを完成させる必要があります。 たとえば、北アメリカ/APAC 間には直接のネットワーク地域リンクがないため、このネットワーク地域間ルートには 2 つのネットワーク地域リンクが必要です。
 
+    > [!NOTE]  
+    > 北米/APAC ネットワーク interregion ルートには、ネットワーク領域間の直接リンクがないため、2つのネットワークリージョンリンクが必要です。
 
-9.  \[**確定**\] をクリックします。
+    
+    </div>
 
-10. トポロジのネットワーク地域間ルートを作成するには、他のネットワーク地域間ルートに関してステップ 4 ～ 9 を繰り返します。
+</div>
+
+<div>
+
+## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してネットワーク間の領域ルートを作成するには
+
+1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+
+2.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
+
+3.  [**地域ルート**] ナビゲーション ボタンをクリックします。
+
+4.  [**新規**] をクリックします。
+
+5.  [**新しい地域ルート**] ページで、[**名前**] をクリックし、ネットワークインターセクションルートの名前を入力します。
+
+6.  [**ネットワーク領域\#1**] をクリックし、ネットワーク領域\#2 にルーティングするリスト内のネットワーク領域をクリックします。
+
+7.  [**ネットワーク領域\#2**] をクリックし、ネットワーク領域\#1 にルーティングするリスト内のネットワーク領域をクリックします。
+
+8.  [**ネットワークの領域リンク**] フィールドの横にある [**追加**] をクリックし、ネットワークのインターセクションルートで使用されるネットワーク領域のリンクを追加します。
+    
+    <div class=" ">
+    
+
+    > [!NOTE]  
+    > 2 つのネットワーク地域のルートを作成する場合、その間に直接のネットワーク地域リンクがなければ、必要なすべてのリンクを追加してルートを完成させる必要があります。 たとえば、北米/APAC ネットワーク interregion ルートには、2つのネットワーク領域リンクが必要です。これには、その間にネットワークの直接リンクがありません。
+
+    
+    </div>
+
+9.  [**コミット**] をクリックします。
+
+10. トポロジのネットワークでのネットワーク間ルートの作成を完了するには、他のネットワークインターセクションルートの設定を使用して、手順4から9を繰り返します。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

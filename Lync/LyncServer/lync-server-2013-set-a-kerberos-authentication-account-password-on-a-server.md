@@ -1,33 +1,55 @@
-﻿---
-title: 'Lync Server 2013: サーバーへの Kerberos 認証アカウント パスワードの設定'
-TOCTitle: サーバーへの Kerberos 認証アカウント パスワードの設定
-ms:assetid: 902d3292-678d-4512-9248-586053cb638b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398734(v=OCS.15)
-ms:contentKeyID: 48272826
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: サーバーへの Kerberos 認証アカウント パスワードの設定'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set a Kerberos authentication account password on a server
+ms:assetid: 902d3292-678d-4512-9248-586053cb638b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398734(v=OCS.15)
+ms:contentKeyID: 48184787
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bc4eefe4c1ef804b1deb06d056bfbd61ade35eb0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821944"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのサーバーへの Kerberos 認証アカウント パスワードの設定
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-01-16_
+# <a name="set-a-kerberos-authentication-account-password-on-a-server-in-lync-server-2013"></a>Lync Server 2013 でのサーバーへの Kerberos 認証アカウント パスワードの設定
 
-この手順を正常に完了させるには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。
+</div>
 
-フロントエンド サーバー、Standard Edition サーバー、およびディレクターが存在する各サイトの Kerberos アカウントにパスワードを設定する必要があります。 サイト内の 1 台のサーバー (例、フロント エンド サーバー) で **Set-CsKerberosAccountPassword**  Windows PowerShell コマンドレットを実行することで、パスワードを設定することができます。 それぞれのサイトで **Set-CsKerberosAccountPassword** コマンドレットを実行する必要があります。 コマンドレットは、Web サービス サービスに インターネット インフォメーション サービス (IIS) を構成し、それから Active Directory ドメイン サービス のコンピューター アカウントでパスワードを設定します。 Kerberos アカウント パスワードのソースとして構成された別のサーバーを使用しながら、コマンドレットと使用されるパラメーターに基づいて、別のメソッドが 1 台のサーバーで IIS を構成します。
+<div id="mainSection">
 
-**Set-CsKerberosAccountPassword** コマンドレットを使用してパスワードを設定する場合、Kerberos はランダムに生成された文字列をパスワードに設定します。このコマンドレットは、このアカウントが割り当てられているすべての Lync Server 2013 中央サイトで、すべての IIS インスタンスに問い合わせます。
+<div id="mainBody">
 
-## Kerberos 認証アカウントのパスワードを設定するには
+<span> </span>
 
-1.  Lync Server 管理シェルがインストールされているドメイン コンピューターに、RTCUniversalServerAdmins グループのメンバーとしてログオンします。
+_**最終更新日:** 2012-01-16_
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+この手順を正常に完了するには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。
 
-3.  コマンド ラインで次の 2 つのコマンドを実行します。
+フロントエンドサーバー、標準エディションサーバー、およびディレクターがある各サイトの Kerberos アカウントでパスワードを設定する必要があります。 パスワードを設定するには、サイト内の1つのサーバー (たとえば、1つのフロントエンドサーバー) に対して、 **set-cskerberosaccountpassword** Windows PowerShell コマンドレットを実行します。 各サイトについて、 **Set-csker"@ accountpassword** " コマンドレットを実行する必要があります。 Web サービス用のインターネットインフォメーションサービス (IIS) を構成し、Active Directory ドメインサービスのコンピューターアカウントにパスワードを設定します。 コマンドレットで使用されるパラメーターに基づいた代替メソッドは、Kerberos アカウントのパスワードのソースとして構成されている別のサーバーを使用しているときに、あるサーバーで IIS を構成します。
+
+**Set-Cskerの**コマンドレットを使用してパスワードを設定すると、Kerberos はパスワードをランダムに生成された文字列に設定します。 このコマンドレットは、このアカウントが割り当てられているすべての Lync Server 2013 セントラルサイト内のすべての IIS インスタンスに接続します。
+
+<div>
+
+## <a name="to-set-a-password-for-a-kerberos-authentication-account"></a>Kerberos 認証アカウントのパスワードを設定するには
+
+1.  RTCUniversalServerAdmins グループのメンバーとしてインストールされている Lync Server 管理シェルがインストールされている任意のドメインコンピューターにログオンします。
+
+2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+
+3.  コマンドラインで、次の2つのコマンドを実行します。
     
         Set-CsKerberosAccountPassword -UserAccount "Domain\UserAccount"
     
@@ -35,11 +57,33 @@ _**トピックの最終更新日:** 2012-01-16_
     
         Set-CsKerberosAccountPassword -UserAccount "contoso\KerbAuth"
     
-    > [!NOTE]
-    > UserAccount パラメーターは、ドメイン\ユーザーの形式で指定する必要があります。 Kerberos 認証目的で作成されたコンピューター オブジェクトの参照には、「ユーザー@ドメイン.拡張子」形式はサポートされていません。
+    <div>
     
 
-    > [!IMPORTANT]
-    > アカウントの追加または削除のように、Kerberos 認証に何らかの変更を行った後は、Lync Server 管理シェル コマンド プロンプトから <STRONG>Enable-CsTopology</STRONG> を実行する必要があります。
+    > [!NOTE]  
+    > UserAccount パラメーターを指定するには、Domain\User 形式を使用する必要があります。 ユーザー @ ドメイン拡張子形式は、Kerberos 認証のために作成されたコンピューターオブジェクトを参照する場合はサポートされません。
 
+    
+    </div>
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > アカウントの追加やアカウントの削除など、Kerberos 認証を変更した後は、Lync Server 管理シェルのコマンドプロンプトから、 <STRONG>Enable-CsTopology</STRONG>方法を実行する必要があります。
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

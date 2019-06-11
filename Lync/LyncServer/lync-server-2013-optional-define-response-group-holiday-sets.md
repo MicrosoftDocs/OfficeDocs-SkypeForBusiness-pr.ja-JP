@@ -1,31 +1,59 @@
-﻿---
-title: (オプション) 応答グループ休日セットの定義
-TOCTitle: (オプション) 応答グループ休日セットの定義
-ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688063(v=OCS.15)
-ms:contentKeyID: 49886961
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (オプション) 応答グループの休日セットを定義する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Define Response Group holiday sets
+ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688063(v=OCS.15)
+ms:contentKeyID: 49733657
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2ca58b3e2c17ea70e9af7a9eba48df8582b1485c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825717"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (オプション) 応答グループ休日セットの定義
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-02-07_
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>省略Lync Server 2013 で回答グループの休日セットを定義する
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-02-07_
 
 休日設定では、応答グループが営業しない日を定義し、その日に実行するアクションを指定します。休日セットは、応答グループに適用する休日のコレクションです。
 
-> [!NOTE]
+<div>
+
+
+> [!NOTE]  
 > ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割に割り当てられたユーザーは、管理するワークフローの休日を設定および変更できます。
 
 
-## 休日セットを作成するには
+
+</div>
+
+<div>
+
+## <a name="to-create-a-holiday-set"></a>休日セットを作成するには
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 3.  定義する休日ごとに、次のコマンドを実行します。
     
@@ -41,15 +69,30 @@ _**トピックの最終更新日:** 2014-02-07_
         $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
         New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com -Name "2013 Holidays" -HolidayList ($a, $b)
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
 
-[Lync Server 2013 でのハント グループ ワークフローの作成または変更](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でハントグループワークフローを作成または変更する](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
 [Lync Server 2013 での対話ワークフローの作成または変更](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
-#### その他のリソース
 
-[New-CsRgsHoliday](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoliday)  
-[New-CsRgsHolidaySet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHolidaySet)
+[新規-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
+[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

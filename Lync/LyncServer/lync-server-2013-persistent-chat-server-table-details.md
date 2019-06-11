@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: 常設チャット サーバー テーブルの詳細'
-TOCTitle: 常設チャット サーバー テーブルの詳細
-ms:assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615034(v=OCS.15)
-ms:contentKeyID: 48273496
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 常設チャット サーバー テーブルの詳細'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Persistent Chat Server table details
+ms:assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615034(v=OCS.15)
+ms:contentKeyID: 48185323
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 81f23e3ea5642341248be304612d71f12148865c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825185"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の常設チャット サーバー テーブルの詳細
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-06-25_
+# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a>Lync Server 2013 の常設チャット サーバー テーブルの詳細
 
-以下のトピックでは、各 常設チャット データベース スキーマ テーブル内の列について詳しく説明します。
+</div>
 
-## このセクション中
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-06-25_
+
+次のトピックでは、常設チャットデータベースの各スキーマテーブルの列について詳しく説明します。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 の tblADCookie](lync-server-2013-tbladcookie.md)
 
@@ -80,4 +102,16 @@ _**トピックの最終更新日:** 2012-06-25_
   - [Lync Server 2013 内の tblComplianceParticipant](lync-server-2013-tblcomplianceparticipant.md)
 
   - [Lync Server 2013 の tblComplianceState](lync-server-2013-tblcompliancestate.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

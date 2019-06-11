@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: 操作'
-TOCTitle: 操作
-ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398344(v=OCS.15)
-ms:contentKeyID: 48272087
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 操作'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Operations
+ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398344(v=OCS.15)
+ms:contentKeyID: 48184155
+ms.date: 01/27/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63fe79fbf30d41f3f365d3ae06027cb43e557b1f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825836"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での操作
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-01-26_
+# <a name="operations-in-lync-server-2013"></a>Lync Server 2013 での操作
 
-このセクションのトピックでは、管理ツールを使用して Lync Server 2013 展開を構成および管理する方法について説明します。
+</div>
 
-## このセクション内
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2015-01-26_
+
+このセクションのトピックでは、管理ツールを使用して Lync Server 2013 の展開を構成および管理する方法について説明します。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション内
 
   - [Operations Guide for Lync Server 2013](lync-server-2013-operations-guide.md)
 
@@ -49,9 +71,9 @@ _**トピックの最終更新日:** 2015-01-26_
 
   - [Lync Server 2013 ネットワーク インフラストラクチャの管理](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)
 
-  - [Lync Server 2013 での拡張 9-1-1 および場所サービスの管理](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
+  - [Lync Server 2013 での拡張  9-1-1 および場所サービスの管理](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
 
-  - [Lync Server 2013 サービスおよびサーバーの役割の管理](lync-server-2013-managing-lync-server-services-and-server-roles.md)
+  - [Lync Server 2013 サービスとサーバーの役割を管理する](lync-server-2013-managing-lync-server-services-and-server-roles.md)
 
   - [Lync Server 2013 でのアプリケーションの管理](lync-server-2013-managing-applications.md)
 
@@ -59,16 +81,32 @@ _**トピックの最終更新日:** 2015-01-26_
 
   - [Lync Server 2013 のバックアップと復元](lync-server-2013-backing-up-and-restoring-lync-server.md)
 
-  - [Lync Server 2013 での監視および状態の構成](lync-server-2013-monitoring-and-health-configuration.md)
+  - [Lync Server 2013 での監視と正常性の構成](lync-server-2013-monitoring-and-health-configuration.md)
 
   - [Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)
 
   - [Lync Server 2013 ベスト プラクティス アナライザー](lync-server-2013-lync-server-best-practices-analyzer.md)
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[展開](lync-server-2013-deployment.md)  
-[Lync Server 2013 での計画](lync-server-2013-planning.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 の展開](lync-server-2013-deployment.md)  
+[Lync Server 2013 の計画](lync-server-2013-planning.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

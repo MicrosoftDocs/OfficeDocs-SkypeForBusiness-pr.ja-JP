@@ -1,21 +1,41 @@
-﻿---
-title: モビリティのパフォーマンスの監視
-TOCTitle: モビリティのパフォーマンスの監視
-ms:assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh690033(v=OCS.15)
-ms:contentKeyID: 48272981
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: パフォーマンスのためのモビリティの監視'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Monitoring mobility for performance
+ms:assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690033(v=OCS.15)
+ms:contentKeyID: 48184908
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b3b6cbdefcb7c78f68fe8838109dea3be5b8203d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826634"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# モビリティのパフォーマンスの監視
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-14_
+# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>Lync Server 2013 でのモバイルパフォーマンスの監視
 
-Lync Server Mobility Service によって、フロント エンド サーバーおよびフロント エンド プールの負荷が増大します。モバイル アプリケーションが最小化されてもサーバーへの接続を維持するモバイル デバイス (Android デバイス、Nokia デバイスなど) は、モバイル アプリケーションが最小化されたときにサーバーへの接続を終了するデバイスよりも大きい負荷がかかります。モビリティの使用量が増加するにつれて、モビリティのパフォーマンスを監視し、容量の増加が必要な時期を決定する必要があります。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-14_
+
+Lync Server Mobility Service (Mcx) とユニファイドコミュニケーション Web API (UCWA) では、フロントエンドサーバーとフロントエンドプールの負荷が高くなります。 モバイルアプリケーションが最小化されている場合でもサーバーへの接続を維持するモバイルデバイス (lync 2010 Mobile を実行している Android や Nokia デバイス、Lync 2013 Mobile を実行している Android および Apple デバイスなど) には、高負荷の負荷がかかることがあります。モバイルアプリケーションが最小化されているときに、サーバーとの接続を終了します。 モバイル使用の増加に応じて、容量を増やす必要があるタイミングを判断するために、モビリティのパフォーマンスを監視する必要があります。
 
 モビリティのパフォーマンスに影響を与えるいくつかの制限値があります。
 
@@ -27,17 +47,31 @@ Lync Server Mobility Service によって、フロント エンド サーバー�
 
   - IIS キューの長さ
 
-モビリティのパフォーマンスに影響する可能性のある、サーバーへのその他の制限値として、最大 12 の同時サインイン数、認証数、セッションの更新数、およびセッションの終了数があります。ただし、ほとんどの展開でこれらの最大値を変更する必要はありません。
+モビリティのパフォーマンスに影響を与える可能性のあるサーバーの制限は、最大12個の同時サインイン、認証、セッションの更新、終了です。 ただし、ほとんどの展開でこれらの最大値を変更する必要はありません。
 
-## このセクション中
+<div>
 
-  - [サーバーのメモリ容量制限の監視](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
+## <a name="in-this-section"></a>このセクション中
 
-  - [モビリティ サービスおよび UCWA の使用状況の監視](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
+  - [Lync Server 2013 でのサーバーメモリ容量の上限を監視する](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
 
-  - [高いパフォーマンスを実現する Mobility Service の構成](lync-server-2013-configuring-mobility-service-for-high-performance.md)
+  - [Lync Server 2013 でのモビリティサービスと UCWA の使用状況の監視](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
 
-  - [IIS 要求トレース ログ ファイルの監視](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
+  - [Lync Server 2013 での高パフォーマンスのモビリティサービスの構成](lync-server-2013-configuring-mobility-service-for-high-performance.md)
 
-  - [モビリティ パフォーマンス カウンター](lync-server-2013-mobility-performance-counters.md)
+  - [Lync Server 2013 で IIS 要求トレースのログファイルを監視する](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
+
+  - [Lync Server 2013 のモバイルパフォーマンスカウンター](lync-server-2013-mobility-performance-counters.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

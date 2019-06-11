@@ -1,35 +1,67 @@
-﻿---
-title: アドレス帳管理用の Remove-CsWebServiceConfiguration
-TOCTitle: アドレス帳管理用の Remove-CsWebServiceConfiguration
-ms:assetid: 91947cad-5cdd-41b9-83e1-650703c55879
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg429713(v=OCS.15)
-ms:contentKeyID: 48272859
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: アドレス帳管理用の CsWebServiceConfiguration を削除します。'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove-CsWebServiceConfiguration for Address Book management
+ms:assetid: 91947cad-5cdd-41b9-83e1-650703c55879
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429713(v=OCS.15)
+ms:contentKeyID: 48184848
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 206c47ebb272f6ab637f4f07e9bb54a7fd1d40e7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823176"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# アドレス帳管理用の Remove-CsWebServiceConfiguration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="remove-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理用の CsWebServiceConfiguration の削除
 
-このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが、Remove-CsWebServiceConfiguration コマンドレットをローカルで実行することを承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-11-01_
+
+このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーは CsWebServiceConfiguration コマンドレットをローカルで実行することを許可されています。 RTCUniversalServerAdmins このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Remove-CsWebServiceConfiguration"}
 
-Remove-CsWebServiceConfiguration コマンドレットを使用して、管理者は以前に作成した Web サービス構成を削除できます。 このコマンドレットで、グローバル Web サービス構成を削除することはできません。
+CsWebServiceConfiguration コマンドレットを使用すると、管理者が以前に作成した Web サービス構成を削除することができます。 グローバル Web サービス構成を削除することはできません。
 
-次にその例を示します。
+次に例を示します。
 
     Remove-CsWebServiceConfiguration -Identity site:Redmond
 
-コマンド全体の詳細については、Lync Server Windows PowerShell RTCCmdlets メイン リファレンスの次の項目を参照してください。
+<div>
 
-## 関連項目
+## <a name="see-also"></a>関連項目
 
-#### その他のリソース
 
-[Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration)
+[Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWebServiceConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

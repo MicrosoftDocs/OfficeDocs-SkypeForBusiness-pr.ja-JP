@@ -1,23 +1,43 @@
-﻿---
-title: 概要レポートの確認
-TOCTitle: 概要レポートの確認
-ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg558626(v=OCS.15)
-ms:contentKeyID: 52056559
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 概要レポートを確認する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reviewing the Summary Report
+ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558626(v=OCS.15)
+ms:contentKeyID: 51541459
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b42532da1272a06309b51d1f0090285fcf10c1f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822322"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 概要レポートの確認
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-21_
+# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>Lync Server 2013 の概要レポートを確認する
 
-Lync Server 管理者レポートは、ユーザーの設計を詳細に記録した 4 つの貴重なレポートのうちの最初のレポートに当たります。 このレポートおよび関連付けられた他の 3 つのレポートの情報は、情報テクノロジ チームにとって貴重な資料です。
+</div>
 
-![概要管理レポート](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "概要管理レポート")
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-21_
+
+Lync Server 管理者レポートは、設計の詳細を記載した4つの重要なレポートの最初です。 このレポートと他の3つの関連するレポートの情報は、お客様の情報技術チーム向けの優れたドキュメントです。
+
+![一般的な概要管理レポート](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "一般的な概要管理レポート")
 
   - 証明書レポート
 
@@ -29,9 +49,23 @@ Lync Server 管理者レポートは、ユーザーの設計を詳細に記録�
 
 設計者および、インフラストラクチャの展開、管理、およびメンテナンスを担当する各チームは、概要レポートを参照して精度を高め、エラーを最小限に抑える必要があります。
 
-## 関連項目
+<div>
 
-#### その他のリソース
+## <a name="see-also"></a>関連項目
 
-[Lync Server 2013 での管理者レポートの確認](lync-server-2013-reviewing-the-administrator-reports.md)
+
+[Lync Server 2013 での管理者レポートの確認](lync-server-2013-reviewing-the-administrator-reports.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

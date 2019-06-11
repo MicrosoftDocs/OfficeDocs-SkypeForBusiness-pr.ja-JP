@@ -1,62 +1,106 @@
-﻿---
-title: 監視データまたはアーカイブ データの復元
-TOCTitle: 監視データまたはアーカイブ データの復元
-ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh202175(v=OCS.15)
-ms:contentKeyID: 52056603
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 監視またはアーカイブデータを復元する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring monitoring or archiving data
+ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202175(v=OCS.15)
+ms:contentKeyID: 51541483
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 803cb6050d4230653a13f1e3e66c2a092911c509
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822385"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 監視データまたはアーカイブ データの復元
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-18_
+# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a>Lync Server 2013 での監視またはアーカイブデータの復元
 
-監視およびアーカイブ データを復元しなくても、障害発生後に Lync Server を起動して実行できます。ただし、監視データやアーカイブ データが組織にとって非常に重要な場合は、データベースの再作成後にそれらのデータを復元できます。
+</div>
 
-次の手順では、SQL Server Management Studio を使用してアーカイブ データまたは監視データを復元する方法を説明します。
+<div id="mainSection">
 
-## 監視データまたはアーカイブ データをバックアップ ファイルから復元するには
+<div id="mainBody">
 
-1.  ローカル コンピューターの Administrators グループまたは同等のユーザー権限を持つグループのメンバーとして、復元するサーバーに ログオンします。
+<span> </span>
 
-2.  SQL Server Management Studio を開きます。そのためには、\[**スタート**\] ボタン、\[**すべてのプログラム**\] の順にクリックし、\[**Microsoft SQL Server 2012**\] または \[**Microsoft SQL Server 2008 R2**\] をクリックしてから \[**SQL Server Management Studio**\] をクリックします。
+_**最終更新日:** 2013-02-18_
 
-3.  \[**サーバーへの接続**\] で、少なくともサーバーの名前と認証情報を入力して SQL Server インスタンスに接続します。
+障害が発生した後に Lync Server を起動して実行するために、データの監視とアーカイブを復元する必要はありません。 ただし、データの監視とアーカイブが組織にとって重要である場合は、データベースを再作成した後でデータを復元する必要があります。
 
-4.  \[**オブジェクト エクスプローラー**\] で、\[**データベース**\] を右クリックし、\[**データベースの復元**\] をクリックします。
+次の手順では、SQL Server Management Studio を使用して、アーカイブまたはモニタリングデータを復元する方法について説明します。
 
-5.  \[**ページの選択**\] で \[**全般**\] をクリックし、\[**復元先データベース**\] でデータベース名を次のように選択します。
+<div>
+
+## <a name="to-restore-monitoring-or-archiving-data-from-a-backup-file"></a>バックアップファイルからのデータの監視またはアーカイブを復元するには
+
+1.  ローカルコンピューターの管理者グループのメンバー、または同等のユーザー権限を持つグループとして、復元するサーバーにログオンします。
+
+2.  SQL Server Management Studio を開きます。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **microsoft sql server 2012** ]、または [ **microsoft sql server 2008 R2**] をクリックして、[ **sql server management studio**] をクリックします。
+
+3.  [**サーバーへの接続**] で、少なくともサーバーの名前と認証情報を指定して、SQL Server インスタンスに接続します。
+
+4.  **オブジェクトエクスプローラー**で、[**データベース**] を右クリックし、[**データベースの復元**] をクリックします。
+
+5.  [**ページの選択**] の [**全般**] をクリックし、[**データベース**] でデータベース名を次のように選択します。
     
-      - アーカイブ データベースの場合は、\[**LcsLog**\] を選択します。
+      - アーカイブデータベースの場合は、 **Lcslog**を選択します。
     
-      - 通話詳細記録 (CDR) データベースの場合は、\[**LcsCDR**\] を選択します。
+      - 通話の詳細記録 (CDR) データベースの場合は、[ **Lcscdr**] を選びます。
     
-      - Quality of Experience (QoE) データベースの場合は、\[**QoEMetrics**\] を選択します。
+      - Quality of Experience (QoE) データベースの場合は、[ **QoEMetrics**] を選びます。
 
-6.  \[**復元元デバイス**\] をクリックします。
+6.  [**デバイスから] を**クリックします。
 
-7.  \[**復元するバックアップ セットの選択**\] で、バックアップ ファイルをクリックし、\[**復元**\] をクリックします。
+7.  [**復元するバックアップセットの選択**] でバックアップファイルをクリックし、[**復元**] をクリックします。
 
-8.  \[**ページの選択**\] で、\[**オプション**\] をクリックし、データ ファイルのパスとログのパスが適切なフォルダー内にあることを確認して、\[**OK**\] をクリックします。
+8.  [**ページの選択**] の [**オプション**] をクリックし、データファイルのパスとログのパスが正しいフォルダーにあることを確認して、[ **OK]** をクリックします。
 
-## アクセス制御リスト (ACL) が適切なことを確認するには
+</div>
 
-1.  \[**データベース**\] を展開し、アーカイブ データベースまたは監視データベース、\[**セキュリティ**\]、\[**ユーザー**\] の順に展開します。
+<div>
 
-2.  ドメイン グループ RTCComponentUniversalServices がユーザーとして存在することを確認します。
+## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a>アクセス制御リスト (Acl) が正しく設定されていることを確認するには
 
-3.  RTCComponentUniversalServices が \[**ユーザー**\] の下に存在しない場合は、次の操作を実行します。
+1.  [**データベース**] を展開し、[アーカイブ] または [監視] データベースを展開し、[**セキュリティ**] を展開して、[**ユーザー**] を展開します。
+
+2.  ドメイングループ RTCComponentUniversalServices がユーザーとして存在することを確認します。
+
+3.  [**ユーザー**] の下に RTCComponentUniversalServices が存在しない場合は、次の操作を行います。
     
-    1.  \[**ユーザー**\] を右クリックし、\[**新しいユーザー**\] をクリックします。
+    1.  [**ユーザー**] を右クリックし、[**新しいユーザー**] をクリックします。
     
-    2.  \[**ログイン名**\] に必要なグループ名 (RTCComponentUniversalServices) を入力します。
+    2.  [ **Login name**] に、不足しているグループ名 RTCComponentUniversalServices を入力します。
     
-    3.  \[**データベース ロールのメンバーシップ**\] で、\[**ServerRole**\] アクセス許可を選択し、\[**OK**\] をクリックします。
+    3.  [**データベースロールメンバーシップ**] で、[ **ServerRole** ] 権限を選び、[ **OK]** をクリックします。
     
-    > [!NOTE]
-    > アーカイブ サービスまたは監視サービスを再起動する必要はありません。
+    <div>
+    
+
+    > [!NOTE]  
+    > アーカイブまたは監視サービスを再起動する必要はありません。
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

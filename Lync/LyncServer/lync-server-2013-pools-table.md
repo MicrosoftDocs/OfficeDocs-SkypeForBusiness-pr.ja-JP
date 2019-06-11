@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Pools テーブル'
-TOCTitle: Pools テーブル
-ms:assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398991(v=OCS.15)
-ms:contentKeyID: 48273829
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Pools テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Pools table
+ms:assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398991(v=OCS.15)
+ms:contentKeyID: 48185680
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1dab7679f663d20b5c81998c6252132a6051244b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824142"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の Pools テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="pools-table-in-lync-server-2013"></a>Lync Server 2013 の Pools テーブル
 
-Pools テーブルは、さまざまなプールについての情報を格納するサポート テーブルです。テーブルの各レコードが 1 つのプールを表します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2010-11-09_
+
+プールテーブルは、さまざまなプールに関する情報を格納するサポートテーブルです。 テーブル内の各レコードは、1つのプールを表します。
 
 
 <table>
@@ -37,15 +57,26 @@ Pools テーブルは、さまざまなプールについての情報を格納�
 <tr class="odd">
 <td><p><strong>PoolId</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>このプールを示す一意の番号です。</p></td>
+<td><p>Primary</p></td>
+<td><p>このプールを識別する一意の番号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolFQDN</strong></p></td>
-<td><p>nvarchar (256)</p></td>
+<td><p>nvarchar(256)</p></td>
 <td><p> </p></td>
-<td><p>プールの FQDN です。</p></td>
+<td><p>プールの FQDN。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

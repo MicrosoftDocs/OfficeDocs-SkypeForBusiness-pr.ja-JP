@@ -1,35 +1,67 @@
-﻿---
-title: アドレス帳管理用の Set-CsAddressBookConfiguration
-TOCTitle: アドレス帳管理用の Set-CsAddressBookConfiguration
-ms:assetid: 3a64ceb1-9f79-4f3b-bf33-eaf346dbd60d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg429700(v=OCS.15)
-ms:contentKeyID: 48271802
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: アドレス帳管理用に設定-CsAddressBookConfiguration'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set-CsAddressBookConfiguration for Address Book management
+ms:assetid: 3a64ceb1-9f79-4f3b-bf33-eaf346dbd60d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429700(v=OCS.15)
+ms:contentKeyID: 48183913
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: edafd6b51da15b3302a9c3f454400325527fa631
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821937"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# アドレス帳管理用の Set-CsAddressBookConfiguration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="set-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理用の設定-CsAddressBookConfiguration
 
-このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーは Set-CsAddressBookConfiguration コマンドレットのローカル実行を承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-11-01_
+
+このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーは、Set-CsAddressBookConfiguration コマンドレットをローカルで実行することを許可されています。 RTCUniversalServerAdmins このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-Set-CsAddressBookConfiguration は、既存の構成を変更するために使用するという点を除けば、New-CsAddressBookConfiguration コマンドレットによく似ています。
+Set-CsAddressBookConfiguration は、既存の構成の変更に使用される点を除き、新しい-CsAddressBookConfiguration コマンドレットと似ています。
 
-次にその例を示します。
+次に例を示します。
 
     Set-CsAddressBookConfiguration -identity site:Redmond -RunTimeOfDay 23:00
 
-コマンド全体の詳細については、Lync Server Windows PowerShell RTCCmdlets メイン リファレンスの次の項目を参照してください。
+<div>
 
-## 関連項目
+## <a name="see-also"></a>関連項目
 
-#### その他のリソース
 
-[Set-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAddressBookConfiguration)
+[Set-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

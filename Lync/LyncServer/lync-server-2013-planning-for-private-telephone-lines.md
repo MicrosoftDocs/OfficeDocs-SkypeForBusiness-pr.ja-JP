@@ -1,29 +1,53 @@
-﻿---
-title: 'Lync Server 2013: プライベート電話回線の計画'
-TOCTitle: プライベート電話回線の計画
-ms:assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412728(v=OCS.15)
-ms:contentKeyID: 48272984
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: プライベート電話回線の計画'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for private telephone lines
+ms:assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412728(v=OCS.15)
+ms:contentKeyID: 48184909
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4287e4b80b146e26fe5e548c07e5df189b1960e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824569"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 を使用したプライベート電話回線の計画
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-11_
+# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>Lync Server 2013 でのプライベート電話回線の計画
 
-Lync Server 2013 では、プライマリ電話回線以外に、セカンダリのプライベート電話回線をユーザーに提供する機能が導入されています。プライベート電話回線は、多くの場合、役員や直接受信できる非公開の電話番号が必要なユーザーに割り当てられます。
+</div>
 
-プライベート電話回線は、 Lync Server 管理シェルでのみ構成できます。 Lync Server コントロール パネルでプライベート電話回線を構成することはできません。プライベート電話回線は、 Lync Server の展開でのみ構成できます。混在環境では構成できません。
+<div id="mainSection">
 
-## プライベート電話回線の特徴
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-11_
+
+Lync Server 2013 では、第2の私的な電話回線と、お客様の代表電話回線をユーザーに提供することができます。 プライベート電話回線は、多くの場合、役員や直接受信できる非公開の電話番号が必要なユーザーに割り当てられます。
+
+プライベート電話回線を構成するには、Lync Server 管理シェルを使用する必要があります。 Lync Server コントロールパネルでプライベート電話回線を構成することはできません。 プライベートな電話回線は、複数の展開ではなく、Lync Server の展開でのみ構成する必要があります。
+
+<div>
+
+## <a name="characteristics-of-private-telephone-lines"></a>プライベート電話回線の特徴
 
 セカンダリのプライベート電話回線の概念は基本的に単純なものですが、プライベート番号の特徴およびユーザーのプライマリ電話回線との類似点と相違点を理解することが重要です。
 
-## プライベート電話回線の一般的特徴
+<div>
+
+## <a name="general-characteristics-of-private-telephone-lines"></a>プライベート電話回線の一般的特徴
 
   - ユーザーに割り当てることができるプライベート電話回線は 1 つのみです。
 
@@ -33,7 +57,11 @@ Lync Server 2013 では、プライマリ電話回線以外に、セカンダリ
 
   - プライベート電話回線は、内部設置型展開でのみ使用できます。 Lync Server のホスト型展開では使用できません。
 
-## プライベート電話回線とプライマリ電話回線の相違点
+</div>
+
+<div>
+
+## <a name="how-private-telephone-lines-differ-from-primary-telephone-lines"></a>プライベート電話回線とプライマリ電話回線の相違点
 
   - プライベート電話回線の電話番号は、電話帳や Active Directory ドメイン サービスから得られる連絡先リストには表示されません。
 
@@ -45,7 +73,11 @@ Lync Server 2013 では、プライマリ電話回線以外に、セカンダリ
 
   - プライベート電話回線は着信のみで、発信通話に使用することはできません。プライベート電話回線を割り当てられたユーザーが電話をかけた場合、その通話はユーザーのプライマリ電話回線から発信され、ユーザーの名前やプライマリ電話番号は通話先に対して非表示にはなりません。
 
-## プライベート電話回線とプライマリ電話回線の類似点
+</div>
+
+<div>
+
+## <a name="how-private-telephone-lines-are-similar-to-primary-telephone-lines"></a>プライベート電話回線とプライマリ電話回線の類似点
 
   - プライベート電話回線の呼び出しで応答のなかったものは、プライマリ電話回線のものと同じボイス メール用受信ボックス (ボイス メールが有効になっている場合) にルーティングされます。
 
@@ -55,36 +87,79 @@ Lync Server 2013 では、プライマリ電話回線以外に、セカンダリ
 
   - プライベート電話回線の電話番号は、ユーザーのプライマリ電話回線の電話番号と同じ方法で詳細な通話の記録に記録されますが、プライベート電話番号であることが表示されます。
 
-  - ユーザーがプライベート電話回線で通話に応答した場合、その通話はユーザーのプライマリ電話回線の通話と同じように処理されます。たとえば、プライベート電話回線で通話を受信したユーザーが、その通話を転送したり、相手を電話会議に招待した場合、そのユーザーの名前が Lync 2013 に表示され、ユーザーのプライマリ電話回線の電話番号が発信者番号通知に表示されます。
+  - ユーザーがプライベート電話回線で通話に応答した場合、その通話はユーザーのプライマリ電話回線の通話と同じように処理されます。 たとえば、プライベート電話回線で通話を受信したユーザーが通話を転送したり、会議通話に他のユーザーを招待したりすると、ユーザーの名前が Lync 2013 に表示され、ユーザーのプライマリ電話回線の電話番号が発信者番号認識に表示されます。
 
   - ユーザーは、プライマリ電話回線と同じ方法で、プライベート電話回線からの通話を切り替える (応答する前に、携帯電話や自宅の電話などの別の宛先に通話をリダイレクトする) ことができます。
     
-    > [!NOTE]
-    > プライベート番号の呼び出しが別の電話番号にルーティングされた場合、その別の電話番号でプライベート電話回線の電話番号を使用できるようになり、その番号のログを表示できます。
+    <div>
     
-    > [!NOTE]
-    > 会議からプライベート電話回線への呼び出しでは、着信システム通知に <em>プライベート番号</em> 表示は行われません。
 
+    > [!NOTE]  
+    > プライベート番号の呼び出しが別の電話番号にルーティングされた場合、その別の電話番号でプライベート電話回線の電話番号を使用できるようになり、その番号のログを表示できます。
 
-## プライベート電話回線の管理
+    
+    </div>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > 会議からプライベート電話回線への呼び出しでは、着信システム通知に<EM>プライベート番号</EM>表示は行われません。
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="administering-private-telephone-lines"></a>プライベート電話回線の管理
 
 プライベート電話回線の作成および管理の技術的な側面に加えて、プライベート電話回線用の回線管理手順を設定する必要があります。これには、組織内のプライベート番号の対象ユーザー向けのポリシーの指定、それらのユーザーとその電話番号の一覧の作成および管理、役員のプライベート電話帳の作成、ユーザー トレーニングの調整、関連する作業などがあります。
 
-> [!NOTE]
+<div>
+
+
+> [!NOTE]  
 > プライベート電話回線は、Active Directory にユーザー オブジェクトの msRTCSIP-PrivateLine 属性として格納されます。既定では、Authenticated Users グループのメンバーは、この属性に対して読み取りアクセスを持ちます。
 
 
-## 電話番号の割り当て
 
-プライベート電話回線が必要な新しいユーザーのアカウントは、 Lync Server コントロール パネルまたは Lync Server 管理シェルを使用して、プライベート電話回線が割り当てられていないアカウントと同じ方法で作成されます。
+</div>
 
-Lync Server 管理シェルで **Set-CsUser** コマンドレットを使用して、ユーザーのプライベート電話回線に電話番号を割り当てます。たとえば、 **Set-CsUser -Identity "sip:joe@contoso.com" -PrivateLine "Tel:+14255551212"** のようにします。
+<div>
 
-プライベート電話回線の電話番号は、3 ～ 15 桁の数字にでき、先頭に "TEL:" を付ける必要があります。組織で市外局番や国/地域コードに Direct Inward Dialing を使用している場合、その市外局番や国/地域コードを指定できます。
+## <a name="assigning-telephone-numbers"></a>電話番号の割り当て
 
-コマンドレットおよび Lync Server 管理シェルの詳細については、「[Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)」のドキュメントを参照してください。
+専用の電話回線を必要とする新しいユーザーのアカウントは、Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して、プライベート電話回線のないアカウントと同じ方法で作成されます。
 
-## 混在環境におけるプライベート電話回線
+Lync Server 管理シェルで**set-csuser**コマンドレットを使用して、ユーザーのプライベート電話回線に電話番号を割り当てます。たとえば、 **Set-Csuser-Identity "Sip:joe@contoso.com"-PrivateLine "Tel: + 14255551212"**。
 
-プライベート電話回線は、 Lync Server の展開でのみ構成できます。 Lync Server および Office Communications Server 2007 または Office Communications Server 2007 R2 サーバーの両方が存在する環境で、古いバージョンのユーザーがプライベート電話回線の通話を試みると、サーバーがプライベート電話回線で逆引き番号検索を実行できないため、通話のルーティングは失敗します。
+プライベート電話回線の電話番号には、3 ~ 15 個の番号を使用できます。また、前に "TEL:" プレフィックスを指定する必要があります。 組織で市外局番や国/地域コードに Direct Inward Dialing を使用している場合、その市外局番や国/地域コードを指定できます。
+
+コマンドレットと Lync Server Management Shell の詳細については、「 [Lync server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)のドキュメント」を参照してください。
+
+</div>
+
+<div>
+
+## <a name="private-telephone-lines-in-mixed-deployments"></a>混在環境におけるプライベート電話回線
+
+専用の電話回線は、Lync Server の展開用にのみ構成する必要があります。 Lync Server と Office 2007 Communications server 2007 R2 サーバーの両方が含まれている展開で、以前のバージョンのユーザーがプライベート電話回線に電話をかけようとしたときに、サーバーが使用できないため、通話のルーティングが失敗します。プライベート電話回線で逆引き参照を実行します。
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

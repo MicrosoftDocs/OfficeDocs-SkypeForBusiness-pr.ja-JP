@@ -1,31 +1,65 @@
-﻿---
-title: Lync Server のバックアップと復元の準備
-TOCTitle: Lync Server のバックアップと復元の準備
-ms:assetid: 044623a1-948e-4957-b6e1-354d301ad505
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh202159(v=OCS.15)
-ms:contentKeyID: 52056529
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server のバックアップと復元の準備'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing for Lync Server backup and restoration
+ms:assetid: 044623a1-948e-4957-b6e1-354d301ad505
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202159(v=OCS.15)
+ms:contentKeyID: 51541442
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 20454d4e361ef91ff16fcecf586db773372f796b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823876"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server のバックアップと復元の準備
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-17_
+# <a name="preparing-for-lync-server-2013-backup-and-restoration"></a>Lync Server 2013 のバックアップと復元の準備
 
-以下のトピックでは、障害や停電が発生した場合にサーバーとデータベースを復元できるようにバックアップする必要のある設定、構成、およびその他のデータについて説明します。
+</div>
 
-## このセクション中
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-17_
+
+次のトピックでは、障害や停止が発生した場合にサーバーとデータベースを復元できるように、バックアップする必要がある設定、構成、およびその他のデータについて説明します。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 でのバックアップと復元の要件: データ](lync-server-2013-backup-and-restoration-requirements-data.md)
 
-  - [バックアップと復元の要件: ツールとアクセス許可](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
+  - [Lync Server 2013 でのバックアップと復元の要件: ツールと権限](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
 
-  - [バックアップと復元のプロセスの概要](lync-server-2013-backup-and-restoration-process-overview.md)
+  - [Lync Server 2013 のバックアップと復元プロセスの概要](lync-server-2013-backup-and-restoration-process-overview.md)
 
-  - [バックアップと復元の戦略および計画の作成](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
+  - [バックアップと復元の戦略と Lync Server 2013 の計画を作成する](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
 
-  - [バックアップと復元のベスト プラクティス](lync-server-2013-best-practices-for-backup-and-restoration.md)
+  - [Lync Server 2013 のバックアップと復元に関するベストプラクティス](lync-server-2013-best-practices-for-backup-and-restoration.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

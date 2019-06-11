@@ -1,71 +1,118 @@
-﻿---
-title: 集中ログサービスからキャプチャしたログの閲覧
-TOCTitle: 集中ログサービスからキャプチャしたログの閲覧
-ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721879(v=OCS.15)
-ms:contentKeyID: 49887144
-ms.date: 12/28/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 一元ログサービスからのキャプチャログの読み取り'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reading capture logs from the Centralized Logging Service
+ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)
+ms:contentKeyID: 49733813
+ms.date: 12/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 55bfeaa5bc9a2e89d8c52529c5d05ae7e3ee8feb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823729"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 集中ログサービスからキャプチャしたログの閲覧
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-28_
+# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 の一元ログサービスからのキャプチャログの読み取り
 
-検索を実行し、報告された問題の追跡に使用できるファイルを入手することで、集中ログ サービス の真のメリットを実感できます。このファイルを読む方法はさまざまです。出力ファイルは標準のテキスト形式であり、メモ帳を使用するか、テキスト ファイルを開いて読むことができるその他の任意のプログラムを使用することができます。ファイルのサイズが比較的大きく、問題がより複雑である場合、集中ログ サービス からのログ出力の読み込みと解析を行えるように設計された Snooper.exe などのツールを使用できます。Snooper は、個別のダウンロードとして入手可能な Lync Server 2013 デバッグ ツールに含まれています。Lync Server 2013 デバッグ ツールをインストールしたら、Windows エクスプローラーのコマンドライン ビューを開くか、Lync Server 管理シェル を開いてディレクトリ (既定の場所) C:\\Program Files\\Microsoft Lync Server 2013\\Debugging Tools に移動します。コマンドラインまたは Lync Server 管理シェル を使用する場合は、Snooper.exe をダブルクリックするか、Snooper.exe と入力してから Enter キーを押します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2016-12-28_
+
+検索を実行した後で一元管理サービスの実際の利点を実感し、報告された問題を追跡するために使用できるファイルを用意しています。 このファイルは、さまざまな方法で読むことができます。 出力ファイルは標準のテキスト形式なので、メモ帳など、テキスト ファイルを開いて読むことができる任意のプログラムを使用できます。 大規模なファイルとより複雑な問題については、一元管理サービスからのログ出力の読み取りと解析のために設計された Snooper などのツールを使うことができます。 Snooper は、個別のダウンロードとして利用できる Lync Server 2013 デバッグツールに含まれています。 Lync Server 2013 デバッグツールは、次[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)のページからダウンロードできます。 Lync Server 2013 デバッグツールをインストールすると、短い切り取りとメニュー項目は作成されません。 Lync Server 2013 デバッグツールをインストールしたら、Windows エクスプローラー、コマンドラインウィンドウ、または Lync Server Management Shell を開いて、ディレクトリ (既定の場所) C:\\Program Files\\Microsoft Lync Server 2013\\デバッグツールを開きます。 Snooper をダブルクリックするか、Snooper を入力して、コマンドラインまたは Lync Server Management Shell を使用している場合は、ENTER キーを押します。
+
+<div>
 
 
-> [!IMPORTANT]
-> このトピックの目的は、トラブルシューティングの手法を詳細に説明したり議論したりすることではありません。トラブルシューティングとそれに関連するプロセスは、複雑な問題です。トラブルシューティングの基本およびトラブルシューティング固有のワークロードの詳細については、「Microsoft Lync Server 2010 リソース キットブック」(<A class=uri href="http://go.microsoft.com/fwlink/?linkid=211003%26clcid=0x411">http://go.microsoft.com/fwlink/?linkid=211003&amp;clcid=0x411</A>) を参照してください。プロセスと手順は、Lync Server 2013 にも適用されます。
+> [!IMPORTANT]  
+> このトピックの目的は、トラブルシューティングの手法を詳細に説明したり議論したりすることではありません。 トラブルシューティングとそれに関連するプロセスは、複雑な問題です。 基本的なトラブルシューティングと特定のワークロードのトラブルシューティングの詳細については、「 <A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>Microsoft Lync Server 2010 リソースキット」を参照してください。 プロセスと手順は、引き続き Lync Server 2013 に適用されます。
 
 
 
-Lync Server 2013 では、いくつかの新機能を含む更新されたバージョンの Snooper が導入されています。次のスクリーン ショットは、Office Communications Server 2007 のバージョンの Snooper を示します。
+</div>
 
-![Office Communications 2007 バージョンの Snooper](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007 バージョンの Snooper")
+Lync Server 2013 には、いくつかの新機能が含まれている Snooper の更新バージョンが導入されています。 次のスクリーンショットは、Office Communications Server 2007 からの Snooper のバージョンを示しています。
 
-次のスクリーン ショットは、Lync Server 2013 デバッグ ツールに含まれる新しいバージョンの Snooper を示します。
+![Office Communications 2007 バージョンの Snooper。](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007 バージョンの Snooper。")
 
-![Lync Server 2013 バージョンの Snooper](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 バージョンの Snooper")
+次のスクリーンショットは、Lync Server 2013 デバッグツールに含まれている Snooper の新しいバージョンを示しています。
 
-次のスクリーン ショットは、よく使用する機能を含むツールバーを示します。
+![Snooper の Lync Server 2013 バージョン。](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Snooper の Lync Server 2013 バージョン。")
 
-![Snooper 2013 のツール バー](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013 のツール バー")
+次のスクリーンショットは、よく使われる関数を含むツールバーを示しています。
 
-また、価値を高める最新の機能として、フロー チャート (通話フロー) 図ビューがあります。\[**メッセージ**\] タブでメッセージ フローを選択して \[**通話フロー**\] ボタンをクリックします。メッセージを読み進めると、通話フロー図が新しいデータで更新されます。
+![Snooper 2013 ツールバー。](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013 ツールバー。")
 
-![Snooper 2013 の通話フロー図](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013 の通話フロー図")
+また、値を追加する最新の機能は、フローチャート (コールフロー) ダイアグラムビューです。 [**メッセージ**] タブでメッセージフローを選択し、[**通話フロー** ] ボタンをクリックします。 メッセージを移動すると、コールフローダイアグラムが新しいデータで更新されます。
 
-図のビューにマウスを合わせると、メッセージに関する詳細、フローおよびメッセージの内容、サーバーの要素が表示されます。通話フローのいずれかの矢印をクリックすると、メッセージ ビューでメッセージが表示されます。
+![Snooper 2013 コールフロー図。](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013 コールフロー図。")
 
-![通話フロー図のメッセージの詳細](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "通話フロー図のメッセージの詳細")
+ダイアグラムビューの上にマウスポインターを移動すると、メッセージや、フローとメッセージの内容、およびサーバー要素に関する詳細情報を取得することができます。 いずれかの通話フローの矢印をクリックして、[メッセージ] ビューのメッセージに移動します。
 
-## Snooper でログ ファイルを開くには
+![コールフロー図のメッセージの詳細。](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "コールフロー図のメッセージの詳細。")
 
-1.  Snooper を使用してログ ファイルを開くためには、ログ ファイルへの読み取りアクセス権が必要です。Snooper を使用してログ ファイルにアクセスするためには、役割ベースのアクセス制御 (RBAC) のセキュリティ グループである CsAdministrator または CsServerAdministrator のメンバーであるか、これらの 2 グループのいずれかを含むカスタムの RBAC の役割のメンバーである必要があります。
+<div>
 
-2.  Lync Server デバッグ ツール (LyncDebugTools.msi) のインストール後に、Windows エクスプローラーまたはコマンド ラインを使用して、Snooper.exe が存在するディレクトリに移動します。既定では、デバッグ ツールは C:\\Program Files\\Microsoft Lync Server 2013\\Debugging Tools にあります。Snooper.exe をダブルクリックするか、実行します。
+## <a name="to-open-a-log-file-in-snooper"></a>Snooper でログ ファイルを開くには
 
-3.  Snooper を開いたら、\[**ファイル**\] を右クリックして \[**OpenFile**\] をクリックします。ログ ファイルを探し、\[**開く**\] ダイアログ ボックスでファイルを選択して \[**開く**\] をクリックします。
+1.  Snooper を使用してログ ファイルを開くためには、ログ ファイルへの読み取りアクセス権が必要です。Snooper を使用してログ ファイルにアクセスするためには、役割ベースのアクセス制御 (RBAC) のセキュリティ グループである CsAdministrator または CsServerAdministrator のメンバーであるか、これらの 2 つのグループのいずれかを含むカスタムの RBAC の役割のメンバーである必要があります。
 
-4.  ログ ファイルの**トレース** メッセージは、\[**トレース**\] タブに表示されます。収集されたトレースのメッセージの内容を表示するには、\[**メッセージ**\] タブをクリックします。
+2.  Lync Server デバッグツール (LyncDebugTools) をインストールした後、Windows エクスプローラーまたはコマンドラインから Snooper の場所にディレクトリを変更します。 既定では、デバッグツールは C:\\Program Files\\Microsoft Lync Server 2013\\デバッグツールに含まれています。 Snooper.exe をダブルクリックするか、実行します。
 
-## 通話フロー図を表示するには
+3.  Snooper を開いたら、[**ファイル**] を右クリックして [**OpenFile**] をクリックします。ログ ファイルを探し、[**開く**] ダイアログ ボックスでファイルを選択して [**開く**] をクリックします。
 
-1.  Snooper を使用してログ ファイルを開くためには、ログ ファイルへの読み取りアクセス権が必要です。Snooper を使用してログ ファイルにアクセスするためには、役割ベースのアクセス制御 (RBAC) のセキュリティ グループである CsAdministrator または CsServerAdministrator のメンバーであるか、これらの 2 グループのいずれかを含むカスタムの RBAC の役割のメンバーである必要があります。
+4.  ログ ファイルの**トレース** メッセージは、[**トレース**] タブに表示されます。収集されたトレースのメッセージの内容を表示するには、[**メッセージ**] タブをクリックします。
 
-2.  ログ ファイルを開いて \[**メッセージ**\] タブをクリックし、メッセージ ビューで会話を選択するか、\[**トレース**\] タブでトレース コンポーネントを選択します。
+</div>
 
-3.  \[**通話フロー**\] をクリックします。
+<div>
+
+## <a name="to-display-a-call-flow-diagram"></a>通話フロー図を表示するには
+
+1.  Snooper を使用してログ ファイルを開くためには、ログ ファイルへの読み取りアクセス権が必要です。Snooper を使用してログ ファイルにアクセスするためには、役割ベースのアクセス制御 (RBAC) のセキュリティ グループである CsAdministrator または CsServerAdministrator のメンバーであるか、これらの 2 つのグループのいずれかを含むカスタムの RBAC の役割のメンバーである必要があります。
+
+2.  ログ ファイルを開いて [**メッセージ**] タブをクリックし、メッセージ ビューで会話を選択するか、[**トレース**] タブでトレース コンポーネントを選択します。
+
+3.  [**通話フロー**] をクリックします。
     
-    > [!NOTE]
-    > 通話フローに含まれていないメッセージまたはトレースをクリックした場合、図は表示されず、Snooper の最下部に &quot;This message is not eligible for callfow&quot; (このメッセージは通話フローの対象ではありません) というステータス メッセージが表示されます。別のメッセージまたはトレースを選択すると、そのメッセージまたはトレースが通話フローに含まれている場合は通話フローが表示されます。
+    <div>
+    
 
+    > [!NOTE]  
+    > 通話フローに含まれていないメッセージまたはトレースをクリックした場合、図は表示されず、Snooper の最下部に "This message is not eligible for callfow" (このメッセージは通話フローの対象ではありません) というステータス メッセージが表示されます。別のメッセージまたはトレースを選択すると、そのメッセージまたはトレースが通話フローに含まれている場合は通話フローが表示されます。
+
+    
+    </div>
 
 4.  メッセージ間またはトレース線を移動して、通話フロー図が更新されるか変化して、新しい図が表示されるかどうかに注目してください。
 
 5.  要素にマウスをポイントすると、通話メッセージ、エンドポイント、その他のコンポーネントに関する情報を表示されます。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

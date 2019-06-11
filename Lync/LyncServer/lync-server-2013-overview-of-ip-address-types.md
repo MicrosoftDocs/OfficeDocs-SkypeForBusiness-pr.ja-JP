@@ -1,35 +1,63 @@
-﻿---
-title: 'Lync Server 2013: IP アドレス タイプの概要'
-TOCTitle: Lync Server の IP アドレス タイプの概要
-ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205363(v=OCS.15)
-ms:contentKeyID: 48273944
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: IP アドレス タイプの概要'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of IP address types for Lync Server
+ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205363(v=OCS.15)
+ms:contentKeyID: 48185759
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 90d31045879c4e6f488c232687346ed0413ef62b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825514"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の IP アドレス タイプの概要
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Lync Server 2013 の IP アドレス タイプの概要
 
-Lync Server 2013 では、IP アドレスを構成する際に 3 つのオプションを利用できます。IP version 4 (IPv4) または IP version 6 (IPv6) のみをサポートするよう Lync Server 2013 を構成するか、両方を組み合わせて構成 ( *デュアル スタック* ) することができます。各構成には、いくつか考慮すべき問題があります。
+</div>
 
-  - **IPv4 のみ**   IPv6 は IPv4 アドレスが枯渇し始めたために開発されました。IPv6 は最終的に世界中で完全にサポートされることになりますが、現時点では企業が通信する可能性のある会社やデバイスの多くがまだ IPv6 に対応していません。また、この状況はしばらく続く可能性があります。IPv4 のみの構成で Lync Server を実装すれば、ほぼすべての既存デバイスと通信できます。
+<div id="mainSection">
 
-  - **IPv6 のみ**   反対に、現時点で完全な IPv6 実装を行うと、多くの既存デバイスと通信できなくなります。
+<div id="mainBody">
 
-  - **デュアル スタック**   デュアル スタックは、IPv4 と IPv6 アドレスの両方を使用できるネットワークです。完全な IPv4 から完全な IPv6 への移行にはおそらく数年を要するため、 Lync Server 2013 ではこの構成をサポートしています。
+<span> </span>
 
-このセクションでは、 Lync Server の各種機能に対するこれら 3 構成の互換性について概要を説明します。
+_**最終更新日:** 2013-01-29_
 
-> [!NOTE]
+Lync Server 2013 で IP アドレスを構成する際には、次の3つのオプションがあります。 Lync Server 2013 は、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6)、またはその両方の組み合わせ (*デュアルスタック*とも呼ばれます) をサポートするように構成できます。 各種の構成には、いくつか考慮すべき問題があります。
+
+  - **Ipv4 のみ**   ipv4 アドレスが不足しているため、IPv6 のみが作成されました。 最終的には、IPv6 は世界中で完全にサポートされますが、現時点では、企業が通信する必要がある多くの会社やデバイスは IPv6 をサポートしていませんが、しばらくの間、そうでない可能性があります。 IPv4 のみの構成は、Lync Server の実装が、既存のほとんどのデバイスと通信できるようにするために役立ちます。
+
+  - **Ipv6 のみ**   逆に、現時点では ipv6 の完全な実装であるため、多くの既存のデバイスとの通信は除外されます。
+
+  - **デュアルスタック**   デュアルスタックは、IPv4 アドレスと IPv6 アドレスの両方が有効になっているネットワークです。 この構成は Lync Server 2013 でサポートされているため、ほとんどの場合、フル IPv4 からフル-IPv6 への移行は数年で完了します。
+
+以下のセクションでは、Lync Server のさまざまな機能について、これらの3つの構成の互換性についての概要を示します。
+
+<div>
+
+
+> [!NOTE]  
 > クライアントまたはサーバーを IPv6 のみの構成にすることは、試験や検証の目的でのみサポートされています。IPv6 のみの構成は運用展開ではサポートされていません。
 
 
-## クライアントの登録
+
+</div>
+
+<div>
+
+## <a name="client-registration"></a>クライアントの登録
 
 
 <table>
@@ -76,7 +104,11 @@ Lync Server 2013 では、IP アドレスを構成する際に 3 つのオプシ
 </table>
 
 
-## ピアツーピア クライアント
+</div>
+
+<div>
+
+## <a name="peer-to-peer-client"></a>ピアツーピア クライアント
 
 ピアツーピア通信には、オーディオ、音声ビデオ、アプリケーション共有、ファイル転送などがあります。両方のクライアントが正常に登録された後、次の組み合わせがサポートされます。
 
@@ -117,9 +149,13 @@ Lync Server 2013 では、IP アドレスを構成する際に 3 つのオプシ
 </table>
 
 
-## 電話会議
+</div>
 
-会議には、音声ビデオ、アプリケーション共有、およびデータ コラボレーション (ホワイト ボードとファイル共有) が含まれます。
+<div>
+
+## <a name="conferencing"></a>会議
+
+会議には、音声/ビデオ、アプリケーション共有、データコラボレーション (whiteboarding とファイル共有) が含まれます。
 
 
 <table>
@@ -166,9 +202,13 @@ Lync Server 2013 では、IP アドレスを構成する際に 3 つのオプシ
 </table>
 
 
-## 仲介サーバー/PSTN
+</div>
 
-Lync Server 2013 では、トラフィックが IPv6 インターフェイスを経由する場合の公衆交換電話網 (PSTN) 通話のメディア バイパスをサポートしていません。メディア バイパスが必要な場合は、PSTN ゲートウェイを IPv4 に構成することをお勧めします。
+<div>
+
+## <a name="mediation-serverpstn"></a>仲介サーバー/PSTN
+
+トラフィックが IPv6 インターフェイスを通過している場合、Lync Server 2013 は、公衆交換電話網 (PSTN) 通話のメディアバイパスをサポートしていません。 メディア バイパスが必要な場合は、PSTN ゲートウェイを IPv4 に構成することをお勧めします。
 
 
 <table>
@@ -204,9 +244,13 @@ Lync Server 2013 では、トラフィックが IPv6 インターフェイスを
 </table>
 
 
-\* プライマリ インターフェイスは、 Lync Server コンポーネントと通信を行うインターフェイスです。
+\*プライマリインターフェイスは、Lync Server コンポーネントと通信するインターフェイスです。
 
-## リモート ユーザーのピアツーピア通信
+</div>
+
+<div>
+
+## <a name="remote-user-peer-to-peer-communications"></a>リモート ユーザーのピアツーピア通信
 
 リモート ユーザーとのピアツーピア通信には、インスタント メッセージング、音声ビデオ、アプリケーション共有、およびファイル転送が含まれます。
 
@@ -247,11 +291,15 @@ Lync Server 2013 では、トラフィックが IPv6 インターフェイスを
 </table>
 
 
-## フロントエンド プールとエッジ プールの構成
+</div>
 
-次の表は、 フロント エンド サーバー プールと内部 エッジ サーバー プールの間のサポート マトリックスを示しています。
+<div>
 
-### フロントエンド プールとエッジ プール (内部エッジ) のマトリックス
+## <a name="front-end-pool-and-edge-pool-configuration"></a>フロントエンド プールとエッジ プールの構成
+
+次の表は、フロントエンドサーバープールと内部エッジサーバープールの間のサポートマトリックスを示しています。
+
+### <a name="front-end-pool-and-edge-pool-internal-edge-matrix"></a>フロントエンド プールとエッジ プール (内部エッジ) のマトリックス
 
 <table>
 <colgroup>
@@ -262,38 +310,38 @@ Lync Server 2013 では、トラフィックが IPv6 インターフェイスを
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td><p><strong>エッジ プール: IPv4</strong></p></td>
 <td><p><strong>エッジ プール: デュアル スタック</strong></p></td>
 <td><p><strong>エッジ プール: IPv6</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>フロントエンド プール: IPv4</strong></p></td>
-<td><p>○</p></td>
-<td><p>○</p></td>
-<td><p>×</p></td>
+<td><p>はい</p></td>
+<td><p>あり</p></td>
+<td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>フロントエンド プール: デュアル スタック</strong></p></td>
-<td><p>○</p></td>
-<td><p>○</p></td>
-<td><p>×</p></td>
+<td><p>はい</p></td>
+<td><p>はい</p></td>
+<td><p>いいえ</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>フロントエンド プール: IPv6</strong></p></td>
-<td><p>×</p></td>
-<td><p>×</p></td>
+<td><p>なし</p></td>
+<td><p>いいえ</p></td>
 <td><p>はい*</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\* ラボ環境のみでこの組み合わせを使用。
+\*この組み合わせは、ラボ環境でのみ使用します。
 
 次のテーブルは、内部エッジ インターフェイスと外部エッジ インターフェイスの組み合わせのサポート マトリックスです。
 
-### エッジ プール (内部エッジ) とエッジ プール (外部エッジ) のマトリックス
+### <a name="edge-pool-internal-edge-and-edge-pool-external-edge-matrix"></a>エッジ プール (内部エッジ) とエッジ プール (外部エッジ) のマトリックス
 
 <table>
 <colgroup>
@@ -304,56 +352,82 @@ Lync Server 2013 では、トラフィックが IPv6 インターフェイスを
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td><p><strong>エッジ プール (外部エッジ): IPv4</strong></p></td>
 <td><p><strong>エッジ プール (外部エッジ): デュアル スタック</strong></p></td>
 <td><p><strong>エッジ プール (外部エッジ): IPv6</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>エッジ プール (内部エッジ): IPv4</strong></p></td>
-<td><p>○</p></td>
-<td><p>○</p></td>
-<td><p>×</p></td>
+<td><p>はい</p></td>
+<td><p>はい</p></td>
+<td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>エッジ プール (内部エッジ): デュアル スタック</strong></p></td>
-<td><p>×</p></td>
-<td><p>○</p></td>
-<td><p>×</p></td>
+<td><p>いいえ</p></td>
+<td><p>あり</p></td>
+<td><p>いいえ</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>エッジ プール (内部エッジ): IPv6</strong></p></td>
-<td><p>×</p></td>
-<td><p>×</p></td>
+<td><p>いいえ</p></td>
+<td><p>いいえ</p></td>
 <td><p>はい*</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\* ラボ環境のみでこの組み合わせを使用。
+\*この組み合わせは、ラボ環境でのみ使用します。
 
-## IPv6 の高度なエンタープライズ VoIP のサポート
+</div>
+
+<div>
+
+## <a name="advanced-enterprise-voice-support-for-ipv6"></a>IPv6 の高度なエンタープライズ VoIP のサポート
 
 通話受付管理 (CAC)、拡張 9-1-1 (E9-1-1)、メディア バイパスなどの展開は、IPv4 のみ、またはデュアル スタック実装として構成する必要があります。
 
-> [!NOTE]
-> デュアル スタック展開では、 Lync クライアントが IPv6 を使用して Lync Server に接続した場合も、 Lync は E9-1-1 をサポートするために適切な IPv4 アドレスをマッピングするよう最大限に試みます。
+<div>
 
 
-IPv6 アドレスの 場所情報サービス はサポートされていません。
+> [!NOTE]  
+> デュアルスタック展開では、Lync クライアントが IPv6 を使って Lync サーバーに接続している場合でも、Lync では、E9-1 をサポートする適切な IPv4 アドレスをマッピングすることが最善に行われます。
+
+
+
+</div>
+
+IPv6 アドレスを使用した位置情報サービスはサポートされていません。
 
 Exchange ユニファイド メッセージング (UM) では IPv6 をサポートしていません。Exchange UM の場合は、DNS 解決が IPv6 アドレスを返さないことを確認します。IPv6 を使用すると、通話がボイス メールに送信されたときに障害が発生する可能性があります。
 
-## IPv6 のその他の Lync Server 2013 機能のサポート
+</div>
 
-前述の機能およびコンポーネントに加え、 Lync Server 2013 では次の機能についても IPv6 をサポートしています。
+<div>
+
+## <a name="other-lync-server-2013-feature-support-for-ipv6"></a>IPv6 向けのその他の Lync Server 2013 機能のサポート
+
+前に説明した機能とコンポーネントに加えて、Lync Server 2013 では、次の機能の IPv6 がサポートされています。
 
   - **常設チャット**
     
-    トポロジ ビルダーを使用して、 常設チャット用の IPv6 を構成します。 常設チャットの構成の詳細については、ドキュメント「常設チャット サーバーの展開」を参照してください。
+    "トポロジビルダー" を使用して、常設チャットの IPv6 を構成します。 常設チャットの設定の詳細については、「常設チャットサーバーのマニュアルの展開」を参照してください。
 
   - **Quality of Experience (QoE) と通話詳細記録 (CDR) のレポート**
     
-    IPv4 か IPv6 かにかかわらず、監視レポートには監視サーバー データベースに格納されている IP アドレスがそのまま含まれます。
+    IPv4 と IPv6 のいずれの場合でも、監視レポートには監視サーバー データベースに格納されている IP アドレスがそのまま含まれます。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

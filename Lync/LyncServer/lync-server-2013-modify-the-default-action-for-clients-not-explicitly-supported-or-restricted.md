@@ -1,71 +1,125 @@
-﻿---
-title: サポートまたは制限が明示的に設定されていないクライアントの既定のアクションの変更
-TOCTitle: サポートまたは制限が明示的に設定されていないクライアントの既定のアクションの変更
-ms:assetid: 548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg520994(v=OCS.15)
-ms:contentKeyID: 48272118
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 明示的にサポートまたは制限されていないクライアントの既定のアクションを変更する
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modify the default action for clients not explicitly supported or restricted
+ms:assetid: 548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520994(v=OCS.15)
+ms:contentKeyID: 48184137
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 97b364253a87f1cbff1ef60322c65780b6497880
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826844"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# サポートまたは制限が明示的に設定されていないクライアントの既定のアクションの変更
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Lync Server 2013 で明示的にサポートまたは制限されていないクライアントの既定のアクションを変更する
 
-Lync Server 2013 環境でサポートするクライアントのバージョンのほか、バージョン ポリシーが定義されていないクライアントに対する既定のアクションも指定できます。これにより、Lync Server 環境で使用するクライアント バージョンを制限できるため、複数のクライアント バージョンをサポートすることで発生するコストを抑えることができます。
+</div>
 
-## 明示的にサポートまたは制限されていないクライアントの既定のアクションを変更するには
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-23_
+
+Lync Server 2013 環境でサポートするクライアントのバージョンを指定するだけでなく、バージョンポリシーが定義されていないクライアントに対する既定のアクションを指定することもできます。 これにより、Lync Server 環境で使用するクライアントバージョンを制限することができます。これにより、複数のクライアントバージョンのサポートに関連するコストを制御するのに役立ちます。
+
+<div>
+
+## <a name="to-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted"></a>明示的にサポートまたは制限されていないクライアントの既定のアクションを変更するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**クライアント**\] をクリックし、\[**クライアント バージョン構成**\] をクリックします。
+3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**クライアントバージョンの構成**] をクリックします。
 
-4.  \[**クライアント バージョン構成**\] ページで、リスト内の \[**グローバル**\] 構成をダブルクリックします。
+4.  [**クライアントバージョンの構成**] ページで、リスト内の**グローバル**構成をダブルクリックします。
 
-5.  \[**クライアント バージョン構成の編集**\] ダイアログ ボックスで \[**バージョン管理を有効にする**\] チェック ボックスがオンになっていることを確認し、\[**既定のアクション**\] で次のいずれかを選択します。
+5.  [**クライアントのバージョン構成の編集**] ダイアログボックスで、[**バージョン管理を有効に**する] チェックボックスがオンになっていることを確認し、[**既定のアクション**] で次のいずれかを選択します。
     
-      - \[**許可**\]   クライアント バージョンが \[**クライアント バージョン ポリシー**\] リスト内のフィルターと一致しない場合に、クライアントのログオンを許可します。
+      - **[許可**   ] を選択すると、クライアントバージョンがクライアントの [**バージョンポリシー** ] 一覧のいずれのフィルターとも一致しない場合に、クライアントはログオンできます。
     
-      - \[**禁止**\]   クライアント バージョンが \[**クライアント バージョン ポリシー**\] リスト内のフィルターと一致しない場合に、クライアントのログオンを禁止します。
+      - ****   クライアントのバージョンがクライアントの [**バージョンポリシー** ] の一覧のどのフィルターとも一致しない場合、ブロックされます。
     
-      - \[**禁止して URL を表示**\]   クライアント バージョンが \[**クライアント バージョン ポリシー**\] リスト内のフィルターと一致しない場合にクライアントのログオンを禁止し、新しいクライアントをダウンロードできる URL を含むエラー メッセージを表示します。
+      - **[Url**   を含むブロック] クライアントのバージョンが [**クライアントのバージョンポリシー** ] 一覧のいずれのフィルターとも一致しない場合、クライアントはログオンを拒否し、新しいクライアントをダウンロードできる url を含むエラーメッセージを含めます。
     
-      - \[**許可して URL を表示**\]   クライアント バージョンが \[**クライアント バージョン ポリシー**\] リスト内のフィルターと一致しない場合にクライアントのログオンを許可し、新しいクライアントをダウンロードできる URL を含むエラー メッセージを表示します。
+      - **[URL**   による許可] を使うと、クライアントのバージョンが [**クライアントのバージョンポリシー** ] のいずれのフィルターとも一致しない場合に、クライアントはログオンでき、新しいクライアントをダウンロードできる URL を含むエラーメッセージが表示されます。
 
-6.  \[**禁止して URL を表示**\] を選択した場合は、エラー メッセージに含めるクライアントのダウンロード用 URL を \[**URL**\] ボックスに入力します。
+6.  [ **Url でブロック**する] を選択した場合、[ **url** ] ボックスにエラーメッセージとして含めるクライアントのダウンロード URL を入力します。
 
-7.  \[**確定**\] をクリックします。
+7.  [**コミット**] をクリックします。
 
-## クライアント バージョン管理を無効にするには
+</div>
 
-  - バージョン管理を無効にしてすべてのクライアントがクライアント バージョンに関係なくログオンできるようにするには、\[**バージョン管理を有効にする**\] をオフにして \[**確定**\] をクリックします。
+<div>
 
-## Lync Server PowerShell コマンドレットを使用した既定のアクションの変更
+## <a name="to-disable-client-version-control"></a>クライアントのバージョン管理を無効にするには
 
-クライアント バージョン ポリシーによって明示的にサポートまたは制限されていないクライアントを使用してユーザーがサインオンしようとしたときに実行される既定のアクションは、Windows PowerShell コマンドライン インターフェイスと **Set-CsClientVersionPolicy** コマンドレットを使用して管理することもできます。このコマンドレットは、Lync Server 2013 管理シェルから実行することも、Windows PowerShell のリモート セッションから実行することもできます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+  - クライアントのバージョンに関係なくすべてのクライアントがログオンできるバージョン管理を無効にするには、[**バージョン管理を有効**にする] チェックボックスをオフにして、[**コミット**] をクリックします。
 
-## アクセスを禁止するように既定のアクションを構成する
+</div>
 
-  - 次のコマンドでは、Redmond サイトの既定のアクションを "Block" に設定します。これにより、クライアント バージョン構成ルールが存在しないクライアントの登録が禁止されます。
+<div>
+
+## <a name="modifying-the-default-action-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して既定のアクションを変更する
+
+クライアントバージョンポリシーによって明示的にサポートまたは制限されていないクライアントを使ってユーザーがサインインしようとしたときに実行される既定のアクションは、Windows PowerShell コマンドラインインターフェイスと**Set-CsClientVersionPolicy**コマンドレットを使用して管理できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-configure-the-default-action-to-block-access"></a>アクセスをブロックする既定のアクションを構成するには
+
+  - 次のコマンドは、レドモンドサイトブロックの既定のアクションを設定します。 これにより、クライアントのバージョン設定ルールが存在しないクライアントについては、登録がブロックされます。
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Block
 
-## アクセスを許可するように既定のアクションを構成する
+</div>
 
-  - この例では、Redmond サイトの既定のアクションが "Allow" に設定されています。これにより、クライアント バージョン構成ルールが存在しないクライアントの登録が許可されます。
+<div>
+
+## <a name="to-configure-the-default-action-to-allow-access"></a>アクセスを許可するように既定のアクションを構成するには
+
+  - この例では、Redmond サイトの既定のアクションが [許可] に設定されています。 これにより、クライアントのバージョン設定ルールが存在しないすべてのクライアントに対して登録が許可されます。
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Allow
 
-詳細については、[Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) コマンドレットに関するヘルプ トピックを参照してください。
+</div>
 
-## 関連項目
+詳細については、「 [Set-CsClientVersionPolicy](https://technet.microsoft.com/en-us/library/Gg398876(v=OCS.15)) 」コマンドレットのヘルプトピックを参照してください。
 
-#### その他のリソース
+</div>
 
-[Lync Server 2013 でのデバイス、電話、クライアント アプリケーションの管理](lync-server-2013-managing-devices-phones-and-client-applications.md)
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でのデバイス、電話、クライアント アプリケーションの管理](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

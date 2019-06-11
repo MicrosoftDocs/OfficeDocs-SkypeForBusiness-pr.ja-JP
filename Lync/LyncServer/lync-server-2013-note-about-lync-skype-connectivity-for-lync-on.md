@@ -1,23 +1,53 @@
-﻿---
-title: Lync Online のお客様用の Lync と Skype の接続に関する注意事項
-TOCTitle: Lync Online のお客様用の Lync と Skype の接続に関する注意事項
-ms:assetid: 1d0f5c1a-74c6-468f-9877-ad2b1ddf355f
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn440169(v=OCS.15)
-ms:contentKeyID: 59602751
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: lync についての注意-Lync On Lync の Skype 接続'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Note about Lync-Skype connectivity for Lync On
+ms:assetid: 1d0f5c1a-74c6-468f-9877-ad2b1ddf355f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440169(v=OCS.15)
+ms:contentKeyID: 57793359
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9a3c3327a731f3a7c6bba25469376ffffeee8d8d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826046"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Online のお客様用の Lync と Skype の接続に関する注意事項
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-09-23_
+# <a name="note-about-lync-skype-connectivity-in-lync-server-2013-for-lync-online-customers"></a>Lync Online ユーザー向けの lync Server 2013 での Lync についての注-Skype 接続
 
-このドキュメントは、Lync Server の社内管理者が Lync と Skype の接続を設定できるようにするために作成されています。Lync と Skype の接続は、Office 365 の一部である Lync Online の機能でもあります。Office 365 ポータル内の Lync 管理センターから、Lync と Skype の接続機能を有効にすることができます。
+</div>
 
-Office 365 Midsize Business、Office 365 Enterprise、Office 365 Education、および Office 365 for Government の場合: Office 365 ポータルにサインインし、\[**Lync 管理センター**\] に移動します。\[**外部通信**\] に移動します。\[**パブリック IM サービス プロバイダー**\] で、\[**有効化**\] をクリックします。Lync と Skype の接続への個別ユーザーのアクセスを制御する場合は、個別ユーザーの外部通信の設定を編集することで制御できます。
+<div id="mainSection">
 
-Office 365 Small Business Premium の場合: Office 365 にサインインし、\[**管理**\]、\[**サービス設定**\]、\[**インスタント メッセージング、ミーティング、および会議**\] の順に移動します。外部通信をオンにします。外部通信のスイッチは、Lync と Skype の接続と、Lync を使用する他の組織との通信の両方でオンです。Lync Online の使用を開始したタイミングに応じて、"オン" 状態の外部通信のスイッチは最初に、他の Lync 組織との通信のみが有効であると示している場合があります。Lync と Skype の接続をオンにするには、単にオフのスイッチを切り替えてオンに戻します。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-09-23_
+
+このドキュメントは、Lync Server のオンプレミス管理者が Lync をセットアップするのに役立つように作成されました。 Skype の接続を設定します。Lync-Skype 接続は、Office 365 の一部である Lync Online の機能でもあります。 Lync-Skype の接続機能は、Office 365 ポータル内の Lync 管理センターから有効にすることができます。
+
+Office 365 中堅企業向け、Office 365 Enterprise、Office 365 エデュケーション、office 365 for Government: Office 365 ポータルにサインインして、 **Lync 管理センター**に移動します。 **外部通信**に移動します。 [**パブリック IM サービスプロバイダー**] で [**有効にする**] をクリックします。 Lync-Skype 接続への個々のユーザーアクセスを制御する場合は、個々のユーザーの外部通信設定を編集します。
+
+Office 365 Small Business Premium の場合: Office 365 にサインインし、[**管理者\>サービスの\>設定] で [インスタントメッセージング、会議、会議**] に移動します。 外部通信を有効にします。 [外部通信] スイッチは、lync を使用する他の組織との両方の接続と通信を有効にします。 Lync Online の使用を開始した時点によっては、"オン" 状態の外部通信スイッチが、他の Lync 組織との通信がアクティブ化されていることだけが最初に表示されることがあります。 Lync-Skype の接続を有効にするには、スイッチをオフにしてからもう一度オンにします。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013 でのクラスごとのスキーマの属性
-TOCTitle: Lync Server 2013 でのクラスごとのスキーマの属性
-ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398544(v=OCS.15)
-ms:contentKeyID: 48272511
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: クラスごとのスキーマ属性'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema attributes by class
+ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398544(v=OCS.15)
+ms:contentKeyID: 48184468
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 09978d9b0cad055b4c3b33976df838ba5543887d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822042"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのクラスごとのスキーマの属性
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="schema-attributes-by-class-in-lync-server-2013"></a>Lync Server 2013 のクラス別のスキーマ属性
 
-このセクションでは、Lync Server 2013 の各クラスに含まれる可能性のあるスキーマ属性と、他のクラスに含まれる可能性のあるクラスについて説明します。すべてのクラスとその説明の一覧については、「[Lync Server 2013 でのスキーマのクラスと説明](lync-server-2013-schema-classes-and-descriptions.md)」を参照してください。すべての属性とその説明の一覧については、「[Lync Server 2013 でのスキーマの属性と説明](lync-server-2013-schema-attributes-and-descriptions.md)」を参照してください。
+</div>
 
-## クラスごとの属性
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-08-29_
+
+このセクションでは、各 Lync Server 2013 クラスに含めることができるスキーマ属性と、他のクラスに含めることができるクラスについて説明します。 すべてのクラスとその説明の一覧については、「 [Lync Server 2013 でのスキーマクラスと説明](lync-server-2013-schema-classes-and-descriptions.md)」を参照してください。 すべての属性と説明の一覧については、「 [Lync Server 2013 でのスキーマの属性と説明](lync-server-2013-schema-attributes-and-descriptions.md)」を参照してください。
+
+<div>
+
+## <a name="attributes-by-class"></a>クラスごとの属性
 
 
 <table>
@@ -28,253 +50,255 @@ _**トピックの最終更新日:** 2015-03-09_
 <thead>
 <tr class="header">
 <th>クラス</th>
-<th>含まれる属性</th>
+<th>以下の属性が含まれている可能性がある</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Contact</p></td>
-<td><p>msDS-SourceObjectDN</p>
-<p>msRTCSIP-AcpInfo</p>
-<p>msRTCSIP-ApplicationDestination</p>
-<p>msRTCSIP-ApplicationOptions</p>
-<p>msRTCSIP-ApplicationPrimaryLanguage</p>
-<p>msRTCSIP-ApplicationSecondaryLanguages</p>
-<p>msRTCSIP-ArchivingEnabled</p>
+<td><p>問い合わせ</p></td>
+<td><p>SourceObjectDN</p>
+<p>Msrtcsip-userenabled true-AcpInfo</p>
+<p>Msrtcsip-userenabled true-ApplicationDestination</p>
+<p>Msrtcsip-userenabled true-ApplicationOptions</p>
+<p>Msrtcsip-userenabled true-ApplicationPrimaryLanguage</p>
+<p>Msrtcsip-userenabled true-ApplicationSecondaryLanguages</p>
+<p>Msrtcsip-userenabled true-ArchivingEnabled</p>
 <p>msRTCSIP-DeploymentLocator</p>
-<p>msRTCSIP-FederationEnabled</p>
-<p>msRTCSIP-GroupingID</p>
-<p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
-<p>msRTCSIP-LineServer</p>
-<p>msRTCSIP-OptionFlags</p>
-<p>msRTCSIP-OriginatorSid</p>
-<p>msRTCSIP-OwnerUrn</p>
-<p>msRTCSIP-PrimaryHomeServer</p>
+<p>Msrtcsip-userenabled true-FederationEnabled</p>
+<p>Msrtcsip-userenabled true-GroupingID</p>
+<p>Msrtcsip-userenabled true-InternetAccessEnabled</p>
+<p>Msrtcsip-userenabled true ライン</p>
+<p>Msrtcsip-userenabled true</p>
+<p>Msrtcsip-userenabled true-OptionFlags</p>
+<p>Msrtcsip-userenabled true-Sid</p>
+<p>Msrtcsip-userenabled true-OwnerUrn</p>
+<p>Msrtcsip-userenabled true-PrimaryHomeServer</p>
 <p>msRTCSIP-PrimaryUserAddress</p>
-<p>msRTCSIP-PrivateLine</p>
-<p>msRTCSIP-ProxyAddresses</p>
-<p>msRTCSIP-SourceObjectType</p>
-<p>msRTCSIP-TargetHomeServer</p>
-<p>msRTCSIP-TargetUserPolicies</p>
-<p>msRTCSIP-TenantId</p>
-<p>msRTCSIP-UserEnabled</p>
-<p>msRTCSIP-UserExtension</p>
-<p>msRTCSIP-UserLocationProfile</p>
-<p>msRTCSIP-UserPolicies</p>
-<p>msRTCSIP-UserPolicy</p>
-<p>msRTCSIP-UserRoutingGroupId</p>
+<p>Msrtcsip-userenabled true-PrivateLine</p>
+<p>Msrtcsip-userenabled true-ProxyAddresses</p>
+<p>Msrtcsip-userenabled true-SourceObjectType</p>
+<p>Msrtcsip-userenabled true-Targethoのメッセージ</p>
+<p>Msrtcsip-userenabled true-TargetUserPolicies</p>
+<p>Msrtcsip-userenabled true-TenantId</p>
+<p>Msrtcsip-userenabled true-UserEnabled</p>
+<p>Msrtcsip-userenabled true-UserExtension</p>
+<p>Msrtcsip-userenabled true-UserLocationProfile</p>
+<p>Msrtcsip-userenabled true-UserPolicies</p>
+<p>Msrtcsip-userenabled true-UserPolicy</p>
+<p>Msrtcsip-userenabled true-UserRoutingGroupId</p>
 <p>ProxyAddresses</p></td>
 </tr>
 <tr class="even">
-<td><p>Mail-Recipient</p></td>
+<td><p>メール受信者</p></td>
 <td><p>msExchUCVoiceMailSettings</p>
 <p>msExchUserHoldPolicies</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ApplicationServerService</p></td>
-<td><p>msRTCSIP-ApplicationServerBL</p></td>
+<td><p>Msrtcsip-userenabled true-ApplicationServerService</p></td>
+<td><p>Msrtcsip-userenabled true-ApplicationServerBL</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ApplicationServerSettings</p></td>
-<td><p>msRTCSIP-ApplicationList</p>
-<p>msRTCSIP-ApplicationServerPoolLink</p>
-<p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>Msrtcsip-userenabled true-ApplicationServerSettings</p></td>
+<td><p>Msrtcsip-userenabled true-ApplicationList</p>
+<p>Msrtcsip-userenabled true-ApplicationServerPoolLink</p>
+<p>Msrtcsip-userenabled true-ExtensionData</p>
+<p>Msrtcsip-userenabled true-ServerVersion</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ConferenceDirectory</p></td>
-<td><p>msRTCSIP-ConferenceDirectoryHomePool</p>
-<p>msRTCSIP-ConferenceDirectoryId</p>
-<p>msRTCSIP-ConferenceDirectoryTargetPool</p>
-<p>msRTCSIP-ExtensionData</p></td>
+<td><p>Msrtcsip-userenabled true-ConferenceDirectory</p></td>
+<td><p>Msrtcsip-userenabled true-ConferenceDirectoryHomePool</p>
+<p>Msrtcsip-userenabled true-ConferenceDirectoryId</p>
+<p>Msrtcsip-userenabled true-ConferenceDirectoryTargetPool</p>
+<p>Msrtcsip-userenabled true-ExtensionData</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-DefaultCWABank</p></td>
-<td><p>msRTCSIP-DefaultCWAExternalURL</p>
-<p>msRTCSIP-DefaultCWAInternalURL</p></td>
+<td><p>Msrtcsip-userenabled true-DefaultCWABank</p></td>
+<td><p>Msrtcsip-userenabled true-DefaultCWAExternalURL</p>
+<p>Msrtcsip-userenabled true-DefaultCWAInternalURL</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Domain</p></td>
-<td><p>msRTCSIP-Default</p>
-<p>msRTCSIP-DomainData</p>
-<p>msRTCSIP-DomainName</p></td>
+<td><p>Msrtcsip-userenabled true-ドメイン</p></td>
+<td><p>Msrtcsip-userenabled true-既定値</p>
+<p>Msrtcsip-userenabled true-DomainData</p>
+<p>Msrtcsip-userenabled true-ドメイン名</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EdgeProxy</p></td>
-<td><p>msRTCSIP-EdgeProxyData</p>
-<p>msRTCSIP-EdgeProxyFQDN</p></td>
+<td><p>Msrtcsip-userenabled true-EdgeProxy</p></td>
+<td><p>Msrtcsip-userenabled true-EdgeProxyData</p>
+<p>Msrtcsip-userenabled true-EdgeProxyFQDN</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-EnterpriseMCUSettings</p></td>
-<td><p>msRTCSIP-MCUData</p>
-<p>msRTCSIP-MCUFactoryAddress</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>Msrtcsip-userenabled true-EnterpriseMCUSettings</p></td>
+<td><p>Msrtcsip-userenabled true-MCUData</p>
+<p>Msrtcsip-userenabled true-MCUFactoryAddress</p>
+<p>Msrtcsip-userenabled true-ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EnterpriseMediationServerSettings</p></td>
-<td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-ServerVersion</p>
-<p>msRTCSIP-TrustedServiceLinks</p></td>
+<td><p>Msrtcsip-userenabled true-EnterpriseMediationServerSettings</p></td>
+<td><p>Msrtcsip-userenabled true-ExtensionData</p>
+<p>Msrtcsip-userenabled true-ServerVersion</p>
+<p>Msrtcsip-userenabled true-TrustedServiceLinks</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-EnterpriseServerSettings</p></td>
-<td><p>msRTCSIP-EnterpriseServices</p>
-<p>msRTCSIP-PoolAddress</p>
-<p>msRTCSIP-ServerData</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>Msrtcsip-userenabled true-EnterpriseServerSettings</p></td>
+<td><p>Msrtcsip-userenabled true-EnterpriseServices</p>
+<p>Msrtcsip-userenabled true-PoolAddress</p>
+<p>Msrtcsip-userenabled true-ServerData</p>
+<p>Msrtcsip-userenabled true-ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalTopologySetting</p></td>
-<td><p>msRTCSIP-BackEndServer</p>
-<p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-MirrorBackEndServer</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>Msrtcsip-userenabled true-GlobalTopologySetting</p></td>
+<td><p>Msrtcsip-userenabled true-BackEndServer</p>
+<p>Msrtcsip-userenabled true-ExtensionData</p>
+<p>Msrtcsip-userenabled true-MirrorBackEndServer</p>
+<p>Msrtcsip-userenabled true-ServerVersion</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocalNormalization</p></td>
-<td><p>msRTCSIP-LocalNormalizationOptions</p></td>
+<td><p>Msrtcsip-userenabled true-LocalNormalization</p></td>
+<td><p>Msrtcsip-userenabled true-LocalNormalizationOptions</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocationContactMapping</p></td>
-<td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-MappingContact</p>
-<p>msRTCSIP-MappingLocation</p></td>
+<td><p>Msrtcsip-userenabled true-LocationContactMapping</p></td>
+<td><p>Msrtcsip-userenabled true-ExtensionData</p>
+<p>Msrtcsip-userenabled true-MappingContact</p>
+<p>Msrtcsip-userenabled true-MappingLocation</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocationProfile</p></td>
-<td><p>msRTCSIP-ExternalAccessCode</p>
-<p>msRTCSIP-LocationProfileOptions</p></td>
+<td><p>Msrtcsip-userenabled true-LocationProfile</p></td>
+<td><p>Msrtcsip-userenabled true-ExternalAccessCode</p>
+<p>Msrtcsip-userenabled true-LocationProfileOptions</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MCUFactory</p></td>
-<td><p>msRTCSIP-MCUFactoryData</p>
-<p>msRTCSIP-MCUFactoryProviderID</p>
-<p>msRTCSIP-MCUServers</p>
-<p>msRTCSIP-MCUType</p>
-<p>msRTCSIP-MCUVendor</p>
-<p>msRTCSIP-PoolAddresses</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>Msrtcsip-userenabled true-MCUFactory</p></td>
+<td><p>Msrtcsip-userenabled true-MCUFactoryData</p>
+<p>Msrtcsip-userenabled true-MCUFactoryProviderID</p>
+<p>msrtcsip-userenabled true-mcuser</p>
+<p>Msrtcsip-userenabled true-MCUType</p>
+<p>Msrtcsip-userenabled true-MCUVendor</p>
+<p>Msrtcsip-userenabled true-PoolAddresses</p>
+<p>Msrtcsip-userenabled true-ServerVersion</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUFactoryService</p></td>
-<td><p>msRTCSIP-MCUFactoryPath</p></td>
+<td><p>Msrtcsip-userenabled true-MCUFactoryService</p></td>
+<td><p>Msrtcsip-userenabled true-MCUFactoryPath</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Mobility</p></td>
-<td><p>msRTCSIP-MobilityFlags</p>
-<p>msRTCSIP-MobilityPolicy</p></td>
+<td><p>Msrtcsip-userenabled true</p></td>
+<td><p>Msrtcsip-userenabled true-MobilityFlags</p>
+<p>Msrtcsip-userenabled true-MobilityPolicy</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MonitoringServer</p></td>
+<td><p>Msrtcsip-userenabled true-MonitoringServer</p></td>
 <td><p>dnsHostName</p>
-<p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<p>Msrtcsip-userenabled true-ExtensionData</p>
+<p>Msrtcsip-userenabled true-ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pool</p></td>
-<td><p>msRTCSIP-ApplicationList</p>
-<p>msRTCSIP-BackEndServer</p>
-<p>msRTCSIP-dnsHostName</p>
-<p>msRTCSIP-PoolData</p>
-<p>msRTCSIP-PoolDisplayName</p>
-<p>msRTCSIP-PoolDomainFQDN</p>
-<p>msRTCSIP-PoolFunctionality</p>
-<p>msRTCSIP-PoolType</p>
-<p>msRTCSIP-PoolVersion</p>
-<p>msRTCSIP-TrustedServiceLinks</p></td>
+<td><p>Msrtcsip-userenabled true プール</p></td>
+<td><p>Msrtcsip-userenabled true-ApplicationList</p>
+<p>Msrtcsip-userenabled true-BackEndServer</p>
+<p>Msrtcsip-userenabled true-dnsHostName</p>
+<p>Msrtcsip-userenabled true-PoolData</p>
+<p>Msrtcsip-userenabled true-PoolDisplayName</p>
+<p>Msrtcsip-userenabled true-Pooldomaqdn</p>
+<p>Msrtcsip-userenabled true-PoolFunctionality</p>
+<p>Msrtcsip-userenabled true-PoolType</p>
+<p>Msrtcsip-userenabled true-PoolVersion</p>
+<p>Msrtcsip-userenabled true-TrustedServiceLinks</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PoolService</p></td>
-<td><p>msRTCSIP-FrontEndServers</p></td>
+<td><p>Msrtcsip-userenabled true-PoolService</p></td>
+<td><p>Msrtcsip-userenabled true-FrontEndServers</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Presence</p></td>
-<td><p>msRTCSIP-PresenceFlags</p>
-<p>msRTCSIP-PresencePolicy</p></td>
+<td><p>Msrtcsip-userenabled true-プレゼンス</p></td>
+<td><p>Msrtcsip-userenabled true-PresenceFlags</p>
+<p>Msrtcsip-userenabled true-PresencePolicy</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedMCU</p></td>
-<td><p>msRTCSIP-MCUType</p>
-<p>msRTCSIP-MCUVendor</p>
-<p>msRTCSIP-RoutingPoolDN</p>
-<p>msRTCSIP-TrustedMCUData</p>
-<p>msRTCSIP-TrustedMCUFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedMCU</p></td>
+<td><p>Msrtcsip-userenabled true-MCUType</p>
+<p>Msrtcsip-userenabled true-MCUVendor</p>
+<p>Msrtcsip-userenabled true-RoutingPoolDN</p>
+<p>Msrtcsip-userenabled true-TrustedMCUData</p>
+<p>Msrtcsip-userenabled true-TrustedMCUFQDN</p>
+<p>Msrtcsip-userenabled true-TrustedServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedProxy</p></td>
-<td><p>msRTCSIP-TrustedProxyData</p>
-<p>msRTCSIP-TrustedProxyFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedProxy</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedProxyData</p>
+<p>Msrtcsip-userenabled true-TrustedProxyFQDN</p>
+<p>Msrtcsip-userenabled true-TrustedServerVersion</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServer</p></td>
-<td><p>msRTCSIP-TrustedServerData</p>
-<p>msRTCSIP-TrustedServerFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedServer</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedServerData</p>
+<p>Msrtcsip-userenabled true-TrustedServerFQDN</p>
+<p>Msrtcsip-userenabled true-TrustedServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedService</p></td>
-<td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-Routable</p>
-<p>msRTCSIP-RoutingPoolDN</p>
-<p>msRTCSIP-ServerBL</p>
-<p>msRTCSIP-TrustedServerFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p>
-<p>msRTCSIP-TrustedServiceFlags</p>
-<p>msRTCSIP-TrustedServicePort</p>
-<p>msRTCSIP-TrustedServiceType</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedService</p></td>
+<td><p>Msrtcsip-userenabled true-ExtensionData</p>
+<p>Msrtcsip-userenabled true-ルーティング可能</p>
+<p>Msrtcsip-userenabled true-RoutingPoolDN</p>
+<p>Msrtcsip-userenabled true-ServerBL</p>
+<p>Msrtcsip-userenabled true-TrustedServerFQDN</p>
+<p>Msrtcsip-userenabled true-TrustedServerVersion</p>
+<p>Msrtcsip-userenabled true-TrustedServiceFlags</p>
+<p>Msrtcsip-userenabled true-TrustedServicePort</p>
+<p>Msrtcsip-userenabled true-TrustedServiceType</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedWebComponentsServer</p></td>
-<td><p>msRTCSIP-TrustedWebComponentsServerData</p>
-<p>msRTCSIP-TrustedWebComponentsServerFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>Msrtcsip-userenabled true-Trustedwebのサーバー</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedWebComponentsServerData</p>
+<p>Msrtcsip-userenabled true-TrustedWebComponentsServerFQDN</p>
+<p>Msrtcsip-userenabled true-TrustedServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-WebComponentsService</p></td>
-<td><p>msRTCSIP-WebComponentsServers</p></td>
+<td><p>Msrtcsip-userenabled true-Webmessages サービス</p></td>
+<td><p>Msrtcsip-userenabled true-Webservers サーバー</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-WebComponentSettings</p></td>
-<td><p>msRTCSIP-WebComponentsData</p>
-<p>msRTCSIP-WebComponentsPoolAddress</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>Msrtcsip-userenabled true-WebComponentSettings</p></td>
+<td><p>Msrtcsip-userenabled true-Webcontacts データ</p>
+<p>Msrtcsip-userenabled true-WebComponentsPoolAddress</p>
+<p>Msrtcsip-userenabled true-ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>User</p></td>
-<td><p>msRTCSIP-AcpInfo</p>
-<p>msRTCSIP-ApplicationOptions</p>
-<p>msRTCSIP-ArchivingEnabled</p>
+<td><p>ユーザー</p></td>
+<td><p>Msrtcsip-userenabled true-AcpInfo</p>
+<p>Msrtcsip-userenabled true-ApplicationOptions</p>
+<p>Msrtcsip-userenabled true-ArchivingEnabled</p>
 <p>msRTCSIP-DeploymentLocator</p>
-<p>msRTCSIP-FederationEnabled</p>
-<p>msRTCSIP-GroupingID</p>
-<p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
-<p>msRTCSIP-LineServer</p>
-<p>msRTCSIP-OptionFlags</p>
-<p>msRTCSIP-OriginatorSid</p>
-<p>msRTCSIP-OwnerUrn</p>
-<p>msRTCSIP-PrimaryHomeServer</p>
+<p>Msrtcsip-userenabled true-FederationEnabled</p>
+<p>Msrtcsip-userenabled true-GroupingID</p>
+<p>Msrtcsip-userenabled true-InternetAccessEnabled</p>
+<p>Msrtcsip-userenabled true ライン</p>
+<p>Msrtcsip-userenabled true</p>
+<p>Msrtcsip-userenabled true-OptionFlags</p>
+<p>Msrtcsip-userenabled true-Sid</p>
+<p>Msrtcsip-userenabled true-OwnerUrn</p>
+<p>Msrtcsip-userenabled true-PrimaryHomeServer</p>
 <p>msRTCSIP-PrimaryUserAddress</p>
-<p>msRTCSIP-PrivateLine</p>
-<p>msRTCSIP-TargetHomeServer</p>
-<p>msRTCSIP-TargetUserPolicies</p>
-<p>msRTCSIP-TenantId</p>
-<p>msRTCSIP-UserEnabled</p>
-<p>msRTCSIP-UserExtension</p>
-<p>msRTCSIP-UserLocationProfile</p>
-<p>msRTCSIP-UserPolicies</p>
-<p>msRTCSIP-UserPolicy</p>
-<p>msRTCSIP-UserRoutingGroupId</p>
+<p>Msrtcsip-userenabled true-PrivateLine</p>
+<p>Msrtcsip-userenabled true-Targethoのメッセージ</p>
+<p>Msrtcsip-userenabled true-TargetUserPolicies</p>
+<p>Msrtcsip-userenabled true-TenantId</p>
+<p>Msrtcsip-userenabled true-UserEnabled</p>
+<p>Msrtcsip-userenabled true-UserExtension</p>
+<p>Msrtcsip-userenabled true-UserLocationProfile</p>
+<p>Msrtcsip-userenabled true-UserPolicies</p>
+<p>Msrtcsip-userenabled true-UserPolicy</p>
+<p>Msrtcsip-userenabled true-UserRoutingGroupId</p>
 <p>ProxyAddresses</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 他のクラスに含まれているクラス
+<div>
+
+## <a name="classes-contained-in-other-classes"></a>他のクラスに含まれるクラス
 
 
 <table>
@@ -285,81 +309,96 @@ _**トピックの最終更新日:** 2015-03-09_
 <thead>
 <tr class="header">
 <th>クラス</th>
-<th>含まれるクラス</th>
+<th>このクラスを含めることができます</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>serviceConnectionPoint</p></td>
-<td><p>msRTCSIP-Server</p>
-<p>msRTCSIP-PoolService</p>
-<p>msRTCSIP-MCU</p>
-<p>msRTCSIP-MCUFactoryService</p>
-<p>msRTCSIP-WebComponents</p>
-<p>msRTCSIP-WebComponentsService</p>
-<p>msRTCSIP-ApplicationServerService</p>
-<p>msRTCSIP-Service</p>
-<p>msRTCSIP-ConnectionPoint</p>
-<p>msRTCSIP-MediationServer</p>
-<p>msRTCSIP-ApplicationServer</p></td>
+<td><p>Msrtcsip-userenabled true-サーバー</p>
+<p>Msrtcsip-userenabled true-PoolService</p>
+<p>Msrtcsip-userenabled true-MCU</p>
+<p>Msrtcsip-userenabled true-MCUFactoryService</p>
+<p>Msrtcsip-userenabled true-Web コンポーネント</p>
+<p>Msrtcsip-userenabled true-Webmessages サービス</p>
+<p>Msrtcsip-userenabled true-ApplicationServerService</p>
+<p>Msrtcsip-userenabled true-サービス</p>
+<p>Msrtcsip-userenabled true-ConnectionPoint</p>
+<p>Msrtcsip-userenabled true-MediationServer</p>
+<p>Msrtcsip-userenabled true-ApplicationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Service</p></td>
-<td><p>msRTCSIP-GlobalContainer</p>
-<p>msRTCSIP-Pools</p>
-<p>msRTCSIP-MCUFactories</p>
-<p>msRTCSIP-TrustedMCUs</p>
-<p>msRTCSIP-TrustedWebComponentsServers</p>
-<p>msRTCSIP-TrustedProxies</p>
-<p>msRTCSIP-TrustedServices</p>
-<p>msRTCSIP-ApplicationContacts</p>
-<p>msRTCSIP-LocationContactMappings</p>
-<p>msRTCSIP-ConferenceDirectories</p>
-<p>msRTCSIP-GlobalTopologySettings</p></td>
+<td><p>Msrtcsip-userenabled true-サービス</p></td>
+<td><p>Msrtcsip-userenabled true-GlobalContainer</p>
+<p>Msrtcsip-userenabled true-プール</p>
+<p>Msrtcsip-userenabled true-MCUFactories</p>
+<p>Msrtcsip-userenabled true-TrustedMCUs</p>
+<p>Msrtcsip-userenabled true-Trustedwebservers サーバー</p>
+<p>Msrtcsip-userenabled true-TrustedProxies</p>
+<p>Msrtcsip-userenabled true-TrustedServices</p>
+<p>Msrtcsip-userenabled true-ApplicationContacts</p>
+<p>Msrtcsip-userenabled true-LocationContactMappings マッピング</p>
+<p>Msrtcsip-userenabled true-ConferenceDirectories</p>
+<p>Msrtcsip-userenabled true-GlobalTopologySettings</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-GlobalContainer</p></td>
-<td><p>msRTCSIP-Domain</p>
-<p>msRTCSIP-TrustedServer</p>
-<p>msRTCSIP-EdgeProxy</p>
-<p>msRTCSIP-MonitoringServer</p></td>
+<td><p>Msrtcsip-userenabled true-GlobalContainer</p></td>
+<td><p>Msrtcsip-userenabled true-ドメイン</p>
+<p>Msrtcsip-userenabled true-TrustedServer</p>
+<p>Msrtcsip-userenabled true-EdgeProxy</p>
+<p>Msrtcsip-userenabled true-MonitoringServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pools</p></td>
-<td><p>msRTCSIP-Pool</p></td>
+<td><p>Msrtcsip-userenabled true-プール</p></td>
+<td><p>Msrtcsip-userenabled true プール</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUFactories</p></td>
-<td><p>msRTCSIP-MCUFactory</p></td>
+<td><p>Msrtcsip-userenabled true-MCUFactories</p></td>
+<td><p>Msrtcsip-userenabled true-MCUFactory</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedMCUs</p></td>
-<td><p>msRTCSIP-TrustedMCU</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedMCUs</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedMCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedWebComponentsServers</p></td>
-<td><p>msRTCSIP-TrustedWebComponentsServer</p></td>
+<td><p>Msrtcsip-userenabled true-Trustedwebservers サーバー</p></td>
+<td><p>Msrtcsip-userenabled true-Trustedwebのサーバー</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedProxies</p></td>
-<td><p>msRTCSIP-TrustedProxy</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedProxies</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedProxy</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServices</p></td>
-<td><p>msRTCSIP-TrustedService</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedServices</p></td>
+<td><p>Msrtcsip-userenabled true-TrustedService</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocationContactMappings</p></td>
-<td><p>msRTCSIP-LocationContactMapping</p></td>
+<td><p>Msrtcsip-userenabled true-LocationContactMappings マッピング</p></td>
+<td><p>Msrtcsip-userenabled true-LocationContactMapping</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ConferenceDirectories</p></td>
-<td><p>msRTCSIP-ConferenceDirectory</p></td>
+<td><p>Msrtcsip-userenabled true-ConferenceDirectories</p></td>
+<td><p>Msrtcsip-userenabled true-ConferenceDirectory</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalTopologySettings</p></td>
-<td><p>msRTCSIP-GlobalTopologySetting</p></td>
+<td><p>Msrtcsip-userenabled true-GlobalTopologySettings</p></td>
+<td><p>Msrtcsip-userenabled true-GlobalTopologySetting</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

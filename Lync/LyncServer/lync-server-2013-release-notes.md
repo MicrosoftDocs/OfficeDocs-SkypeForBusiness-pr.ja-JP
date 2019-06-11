@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: リリース ノート'
-TOCTitle: リリース ノート
-ms:assetid: 9f9e864c-3365-4800-803c-5289bd8fd363
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205120(v=OCS.15)
-ms:contentKeyID: 48273011
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: リリース ノート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Release notes
+ms:assetid: 9f9e864c-3365-4800-803c-5289bd8fd363
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205120(v=OCS.15)
+ms:contentKeyID: 48184930
+ms.date: 12/09/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5a93fabf10355dcc4ba7873921c0aaf35475927c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824037"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のリリース ノート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="release-notes-for-lync-server-2013"></a>Lync Server 2013 のリリース ノート
 
-これは Lync Server 2013 のリリース ノートです。 Lync Server 2013 に関する既知の問題については、このファイルを参照してください。
+</div>
 
-## この文書について
+<div id="mainSection">
 
-この文書には、 Lync Server 2013 を展開および使用するにあたって理解しておく必要のある重要な情報が含まれています。 Lync Server 2013 の詳細については、 [Microsoft Lync Server 2013](microsoft-lync-server-2013.md) のドキュメントを参照してください。
+<div id="mainBody">
 
-この文書には以下のセクションが含まれています。
+<span> </span>
+
+_**最終更新日:** 2016-12-08_
+
+Lync Server 2013 のリリースノートへようこそ。 Lync Server 2013 に関する既知の問題については、このファイルを参照してください。
+
+<div>
+
+## <a name="about-this-document"></a>このドキュメントについて
+
+このドキュメントには、Lync Server 2013 を展開して使用する前に知っておく必要がある重要な情報が含まれています。 Lync Server 2013 の詳細については、「 [Microsoft Lync server 2013](microsoft-lync-server-2013.md)のドキュメント」を参照してください。
+
+このドキュメントには、次のセクションが含まれています。
 
   - Lync 2013 クライアント
 
@@ -31,273 +53,355 @@ _**トピックの最終更新日:** 2016-12-08_
 
   - モビリティ
 
-  - 電話会議
+  - 会議
 
   - エンタープライズ VoIP
 
   - プレゼンス
 
-  - 応答グループ アプリケーションおよびコール パーク アプリケーション
+  - 応答グループ アプリケーションとコール パーク アプリケーション
 
   - Lync Server コントロール パネル、トポロジ ビルダー、および計画ツール
 
-  - ローカリゼーション
+  - 版
 
-  - 著作権
+  - 著作
 
-## Lync 2013 クライアント
+</div>
 
-## ファイルを別のアプリケーションで開いた場合、インスタント メッセージでのファイル転送が失敗する (1920369)
+<span id="LyncClient"></span>
 
-**問題:**
+<div>
 
-Word ドキュメントなどのファイルをインスタント メッセージに含めて別の Lync ユーザーに転送しようとすると、転送は成功したと思われますが、実際にはファイルの転送が失敗していることがあります。Lync クライアントにファイル タイプのアイコンが表示されますが、目的の受信者はファイルを開くことができません。転送が失敗したことを通知するエラー メッセージは表示されません。
+## <a name="lync-2013-client"></a>Lync 2013 クライアント
 
-**回避方法:**
+<div>
 
-この問題を回避するには、開いているファイルまたはファイルを開いたアプリケーションを閉じてからファイルをインスタント メッセージで転送してください。
+## <a name="transferring-a-file-in-an-instant-message-fails-if-the-file-is-open-in-another-application"></a>他のアプリケーションでファイルを開いている場合、インスタントメッセージでファイルを転送できない
 
-## Lync Server
+**点**
 
-## Lync Server ストレージ サービスのデータ レプリケーションが失敗した場合、管理者は、古くなったストレージ サービス キュー アイテムがないかどうかパフォーマンス カウンターを確認する必要がある (3225121)
+別の Lync ユーザーにインスタントメッセージを追加して、Word 文書などのファイルを転送しようとすると、転送は成功したように見えますが、実際にはファイルの転送に失敗することがあります。 ファイルの種類のアイコンは Lync クライアントに表示されますが、目的の受信者がファイルを開くことはできません。 送信に失敗したことを通知するエラーメッセージは表示されません。
 
-**問題:**
+**ところ**
 
-Lync Server ストレージ サービスは、レプリケーションに Windows Fabric を使用します。プライマリフロント エンド サーバーでデータが削除された場合にセカンダリフロント エンド サーバーで削除に失敗すると (フロント エンド サーバーで予期しないシャットダウンやエラーが発生した場合など)、残ったデータが "孤立" する可能性があります。孤立したデータは、パフォーマンスの低下やディスク領域の浪費の原因になります。
+この問題を回避するには、インスタントメッセージでファイルを転送する前に、開いている開いているファイルまたはアプリケーションを閉じます。
 
-**回避方法:**
+</div>
 
-この問題を回避するには、 フロント エンド サーバーのパフォーマンス カウンター ( **LS:LYSS - Storage Service API** の **LYSS - Current number of Storage Service stale queue items**) を確認する必要があります (イベント LYSS\_DB\_SPACE\_USED\_ERROR (Id=32058) および LYSS\_DB\_SPACE\_USED\_CRITICAL (Id=32059) がイベント ログに生成されている場合)。このパフォーマンス カウンターの値が高くなっている場合 (50,000 を超えている場合など) は、 Lync Server 2013 リソース キットの CleanuUpStorageServiceData.exe ツールを実行する必要があります。このツールは、孤立したデータをプールからすべて削除します。このツールの詳細については、 Lync Server 2013 リソース キットのドキュメントを参照してください。
+</div>
 
-## サーバーまたはプールの IP アドレスの構成を変更した場合は常に Lync Server のサービスを再起動する必要がある (3212447)
+<span id="LyncServer"></span>
 
-**問題:**
+<div>
 
-Lync Server 2013 の展開で IP アドレスの構成を変更した場合 (IPv4 からデュアル スタック、またはデュアル スタックから Ipv6 に変更した場合など)、サービスを再起動しないとその構成変更が反映されないサーバー コンポーネントがあります。
+## <a name="lync-server"></a>Lync Server
 
-**回避方法:**
+<div>
 
-この問題を回避するには、展開で IP アドレスの構成を変更した後に Lync Server のサービスを再起動します。そのためには、 Lync Server 管理シェルで次のコマンドレットを実行します。
+## <a name="if-lync-server-storage-service-data-replication-fails-administrators-will-need-to-check-performance-counters-for-stale-storage-service-queue-items"></a>Lync Server ストレージサービスのデータレプリケーションに失敗した場合、管理者は、古いストレージサービスキューアイテムのパフォーマンスカウンターを確認する必要があります。
 
+**点**
+
+Lync Server ストレージサービスは、Windows Fabric を使用してレプリケーションを行います。 プライマリフロントエンドサーバーでデータが削除されたが、セカンダリフロントエンドサーバーでの削除に失敗した場合 (たとえば、フロントエンドサーバーに予期しないシャットダウンまたはエラーが発生した場合)、データを残して、"切り離された" 状態にすることができます。 孤立したデータは、パフォーマンスが低下したり、ドライブの空き領域を浪費したりする可能性があります。
+
+**ところ**
+
+この問題を回避するには、イベント (Id\_=\_32058\_)\_と\_by ss\_db space\_\_(id = 32059) が使用されていることを確認する必要があります。[LS:] の下にあるフロントエンドサーバーのパフォーマンスカウンター: 指定した [**現在の記憶域サービスの古いキューアイテムの数**] に「いいね!」という名前の**ストレージサービス API**があります。 このパフォーマンスカウンターが大きい値 (たとえば、50,000 より大きい値) である場合、管理者は Lync Server 2013 リソースキットで CleanuUpStorageServiceData ツールを実行し、孤立したデータがプールからすべて削除されるようにする必要があります。 このツールの詳細については、「Lync Server 2013 リソースキットドキュメント」を参照してください。
+
+</div>
+
+<div>
+
+## <a name="whenever-the-ip-address-configuration-is-changed-for-a-server-or-pool-lync-server-services-need-to-be-restarted"></a>サーバーまたはプールの IP アドレス構成が変更されるたびに、Lync Server サービスを再起動する必要があります。
+
+**点**
+
+IPv4 からデュアルスタックへの変更、またはデュアルスタックから Ipv6 への変更など、Lync Server 2013 の展開用に IP アドレス構成が変更された場合、すべてのサーバーコンポーネントは、サービスが再起動されるまで構成の変更を選択します。
+
+**ところ**
+
+この問題を回避するには、展開の IP アドレス構成を変更した後で Lync Server サービスを再起動します。 そのためには、Lync Server 管理シェルで次のコマンドレットを実行します。
+
+   ```
     Stop-CsWindowsService -graceful
+   ```
 
-   &nbsp;
-
+   ```
     Start-CsWindowsService
+   ```
 
-## ダイヤルイン会議代理トランザクション コマンドレットは Lync Server 2013 管理パックでは使用できない (3212342)
+</div>
 
-**問題:**
+<div>
 
-ダイヤルイン会議代理トランザクション コマンドレット **Test-CsDialInConferencing** は、 Lync Server 2013 管理パックでは使用できなくなりました。
+## <a name="the-dial-in-conferencing-synthetic-transaction-cmdlet-is-no-longer-available-in-the-lync-server-2013-management-pack"></a>ダイヤルイン会議の代理トランザクションコマンドレットは、Lync Server 2013 管理パックでは利用できなくなりました
 
-**回避方法:**
+**点**
 
-ダイヤルイン会議代理トランザクション コマンドレット **Test-CsDialInConferencing** は、企業の内部での使用のみサポートされています。
+ダイヤルイン会議の統合トランザクションコマンドレット**テスト**用の会議は、Lync Server 2013 管理パックでは利用できなくなりました。
 
-管理者は引き続き、 Lync Server 管理シェルでこのコマンドレットをトラブルシューティングのために使用できます。必要に応じて、このコマンドレットを内部で実行するためのプライベート管理パックを開発することもできます。
+**ところ**
 
-## ログ ファイルをネットワーク共有にコピーしているときにネットワーク トラフィックが中断されると Centralized Logging Service が停止する (3212464)
+ダイヤルイン会議の代理トランザクションコマンドレットの使用**テスト-Csdial In会議**は、社内でのみサポートされます。
 
-**問題:**
+トラブルシューティングのために、管理者は Lync Server 管理シェルのコマンドレットを引き続き使用することができます。 必要に応じて、社内でコマンドレットを実行するためのプライベート管理パックを開発することもできます。
 
-Centralized Logging Service がネットワーク パスを使用するように構成されている場合 ( **Get-CsClsConfiguration** コマンドレットの CacheFileNetworkFolder パラメーターの値が有効な UNC パスである場合)、キャッシュされたログ ファイルはネットワーク共有にコピーされます。これらのファイルのコピー中にネットワーク トラフィックが中断されると、例外が発生して Centralized Logging Service が停止します。
+</div>
 
-このサービスは、3 回までは自動的に再起動するように構成されているため、最初の 3 回の例外からは回復します。
+<div>
 
-**回避方法:**
+## <a name="the-centralized-logging-service-stops-if-network-traffic-is-disrupted-when-log-files-are-being-copied-to-network-share"></a>ログファイルがネットワーク共有にコピーされているときに、ネットワークトラフィックが中断されると、一元管理サービスは停止します
 
-この問題の解決法はありません。この問題を特定するには、イベント ログで "サービス コントロール マネージャー" のイベント ID 7031 を監視します。このイベントは、" Lync Server Centralized Logging Service Agent" サービスが予期せず終了した場合に記録されます。この問題の発生回数が 3 回を超えた場合は、 **Start-CsWindowService** コマンドレットを使用してこのサービスを手動で再起動します。
+**点**
 
-## ストレージ サービス キュー アイテムは手動でインポートする必要がある (3211368)
+中央集中ログサービスがネットワークパスを使用するように構成されている場合 (CacheFileNetworkFolder パラメーター **** の値は有効な UNC パスです)、キャッシュされたログファイルはネットワーク共有にコピーされます。 ファイルのコピー中にネットワークトラフィックが中断する場合は、集中化されたログサービスが停止する例外が発生します。
 
-**問題:**
+サービスが最大3回自動的に再起動するように構成されているため、サービスは最初の3つの例外から回復します。
 
-Lync Server 2013 では、会議およびインスタント メッセージングに関するデータ (アーカイブされたメッセージ、通話詳細記録 (CDR) など) が、目的の送信先に配信される前の処理の間、各 フロント エンド サーバーのデータベースに格納されます。 Lync Server 2013では、パフォーマンス向上のために、長期間処理されていないキュー アイテムが定期的にローカル データベースからエクスポートされてファイル ストアに保存されます。ファイル ストアが使用できない場合は各 フロント エンド サーバーで格納されます。プールのフェールオーバーの際にも、データの損失を防ぐために同じ操作が行われます。
+**ところ**
 
-Lync Server ストレージ サービスは、このエクスポート操作のすべてのステージを、イベント ID 32075 (フル フラッシュ操作の開始)、32076 (フル フラッシュの完了)、32082 (メンテナンス レベル フラッシュの開始)、32083 (メンテナンス レベル フラッシュの完了)、32089 (データベースがいっぱいになったことによるフラッシュの発生) を使用してイベント ログに記録します。エクスポートされたデータが処理および最終的な宛先 ( SQL Server または Exchange Server) への配信のために再びシステムに自動的にインポートされることはありません。
+この問題の回避策はありません。 問題を特定するには、"Lync Server 集中ログサービスエージェント" サービスが予期せず終了したときにログに記録する "サービスコントロールマネージャー" からイベント7031ログを監視します。 この問題が3回以上発生する場合は、 **Start-CsWindowService**コマンドレットを使用してサービスを手動で再開します。
 
-**回避方法:**
+</div>
 
-エクスポートされたデータをシステムにインポートするには、 Lync Server リソース キットの ImportStorageServiceData ツールを使用する必要があります。このツールは、データを処理して最終的な宛先に配信するためにシステムに戻します。
+<div>
 
-## UseNormalizationRules の既定値を False に変更するとアドレス帳 Web クエリの検索が失敗する (3175514)
+## <a name="storage-service-queue-items-need-to-be-imported-manually"></a>ストレージサービスキューアイテムを手動でインポートする必要がある
 
-**問題:**
+**点**
 
-UseNormalizationRules の既定値を False に変更すると、アドレス帳 Web クエリの検索が失敗します。この既定値を変更すると、Lync クライアントのユーザーが Lync のアドレス帳 Web クエリを使用してユーザーを検索できなくなります。
+Lync Server 2013 は、アーカイブされたメッセージや通話の詳細記録 (CDR) など、各フロントエンドサーバー上のデータベース上の会議とインスタントメッセージに関するデータを保存します。 指定された宛先に配信される前に、データはデータベースに格納されます。 Lync Server 2013 は、パフォーマンスを向上させるために、長期間に処理されていないローカルデータベースのキューアイテムを定期的にエクスポートし、ファイルストアに保存します。 ファイルストアを使用できない場合は、各フロントエンドサーバーにアイテムが格納されます。 プールのフェールオーバー中にデータが失われないように、同じ操作が発生します。
 
-**回避方法:**
+エクスポート操作の実行中、Lync Server ストレージサービスは、イベント Id (完全なフラッシュ操作が開始されました)、32076 (完全なフラッシュが完了)、32082 (メンテナンスレベルのフラッシュが開始されました) 32075 の各ステージをイベントログに記録し32083ます。完了)、32089 (データベースの読み込みによってフラッシュが発生しました)。 このデータは、処理されて最終的な送信先 (SQL Server または Exchange Server) に配信されるように、システムに自動的にインポートされることはありません。
 
-Active Directory ドメイン サービス で定義されている電話番号を Lync Server 2013 の正規化ルールを適用せずに使用できるように UseNormalizationRules の既定値を False に設定する場合は、次の操作を実行することによってこの問題を回避できます。
+**ところ**
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+システムにデータをインポートするには、管理者は Lync Server リソースキットの ImportStorageServiceData ツールを使用する必要があります。これにより、システムにデータが追加され、最終的な送信先に配信されます。
+
+</div>
+
+<div>
+
+## <a name="address-book-web-query-searches-will-fail-if-the-default-value-for-usenormalizationrules-is-changed-to-false"></a>UseNormalizationRules の既定値が False に変更されている場合、アドレス帳の Web クエリの検索は失敗します。
+
+**点**
+
+UseNormalizationRules の既定値が False に変更されると、アドレス帳の Web クエリの検索は失敗します。 既定値が変更されると、Lync クライアントユーザーは Lync アドレス帳の web クエリを使ってユーザーを検索することができなくなります。
+
+**ところ**
+
+UseNormalizationRules の既定値が False に設定されている場合に、ユーザーが Lync Server 2013 で定義されている電話番号を使用できるようにするには、次の操作を行ってこの問題を回避します。
+
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 2.  次のいずれかの操作を行います。
     
-      - Lync Server 2013 サーバーのみが展開に含まれる場合、グローバル レベルで次のコマンドレットを実行し、UseNormalizationRules および IgnoreGenericRules の値を True に変更します。
+      - 展開に Lync Server 2013 サーバーしか含まれていない場合は、次のコマンドレットをグローバルレベルで実行して、UseNormalizationRules と IgnoreGenericRules の値を True に変更します。
         
             Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
     
-      - Lync Server 2013 と Lync Server 2010 または Office Communications Server 2007 R2 の組み合わせが展開に含まれる場合、次のコマンドレットを実行し、トポロジの各 Lync Server 2013 プールに割り当てます。
-      ```  
+      - 展開に Lync Server 2013 および Lync Server 2010 または Office Communications Server 2007 R2 の組み合わせが含まれている場合は、次のコマンドレットを実行して、トポロジの各 Lync Server 2013 プールに割り当てます。
+        
             new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
-      ```
-3.  すべてのプールで CMS のレプリケーションが発生するのを待機します。
 
-4.  展開の電話正規化ルールのファイルを変更して内容を消去します。このファイルは、各 Lync Server 2013 プールのファイル共有上にあります。このファイルがない場合は、"Company\_Phone\_Number\_Normalization\_Rules.txt" という名前の空のファイルを作成します。
+3.  CMS のレプリケーションがすべてのプールで行われるのを待ちます。
 
-5.  すべてのフロントエンド プールで新しいファイルが読み取られるまで数分待ちます。
+4.  展開の電話の正規化規則ファイルを変更して、コンテンツをクリアします。 ファイルは、各 Lync Server 2013 プールのファイル共有にあります。 ファイルが表示されていない場合は、"\_会社電話\_番号\_の正規化\_ルール .txt" という名前の空のファイルを作成します。
+
+5.  すべてのフロントエンドプールが新しいファイルを読み取るまで数分待ちます。
 
 6.  展開の各 Lync Server 2013 プールで次のコマンドレットを実行します。
     
         Update-csAddressBook
 
-## 各 Lync 2013 プールで 1 日 1 回アドレス帳サーバーのエラー イベント 21054 が生成される (3195918)
+</div>
 
-**問題:**
+<div>
 
-Lync Server 2013 アドレス帳サーバーでエラー イベント 21054 が 1 日 1 回、毎日のメンテナンスの実行時に生成されます。このエラーは、 **Update-csAddressBook** コマンドレットの実行時にも毎回 (更新が成功した場合も) 発生しますが、更新が成功した場合は無視してかまいません。
+## <a name="address-book-server-error-event-21054-is-generated-once-daily-for-each-lync-2013-pool"></a>アドレス帳サーバーエラーイベント21054が Lync 2013 プールごとに1回生成される
 
-**回避方法:**
+**点**
 
-このエラー イベントが発生した場合は、次のコマンドレットを実行します。
+Lync Server 2013 アドレス帳サーバーでは、毎日のメンテナンス実行時に、毎日1回エラーイベント21054が生成されます。 また、更新が成功した場合でも、管理者が**csAddressBook**コマンドレットを実行するたびにエラーが生成されます。 ただし、更新が成功した場合は、このエラーイベントを無視しても問題ありません。
+
+**ところ**
+
+このエラーイベントが発生した場合は、次のコマンドレットを実行します。
 
     Debug-csAddressBookReplication -Poolfqdn <Pool FQDN for which the event was generated>
 
-このコマンドレットを実行した結果、インデックスのないオブジェクトや放棄されたオブジェクトがなかった場合は、エラー イベント 21054 を無視してかまいません。
+コマンドレットで、インデックスを作成しない、または破棄されたオブジェクトがないと報告された場合、エラーイベント21054は安全に無視できます。
 
-さらに、System Center Operations Manager で主要状態インジケーター (KHI) "Address Book Users Correctly Indexed" (アドレス帳ユーザーのインデックスは正常) をオフにする必要もあります。
+さらに、System Center Operations Manager では、キー正常性インジケータ (KHI) のアドレス帳のユーザーが正しくインデックス処理されていることを無効にする必要があります。
 
-## エッジ プールで IPv6 が構成されていると要求が失敗する場合がある (3205810)
+</div>
 
-**問題:**
+<div>
 
-エッジ プールで IPv6 が構成されていると、エッジ プールへの要求が失敗する場合があります。
+## <a name="requests-may-fail-when-ipv6-is-configured-on-an-edge-pool"></a>エッジプールで IPv6 が構成されていると、要求が失敗することがある
 
-**回避方法:**
+**点**
 
-この問題を回避するには、エッジ プールを IPv6 で構成しないようにします。
+エッジプールで IPv6 が構成されている場合、エッジプールへの要求が失敗することがあります。
 
-## プールのフェールバック時に invoke-csPoolFailback コマンドレットが失敗する場合がある (3206153)
+**ところ**
 
-**問題:**
+この問題を回避するには、IPv6 でエッジプールを構成しないでください。
 
-プールのフェールバック時に **invoke-csPoolFailback** コマンドレットが "Failed to complete hydration process after repeated attempts" (試行を繰り返しましたが、hydration プロセスを完了できませんでした) というエラーで失敗する場合があります。
+</div>
 
-**回避方法:**
+<div>
 
-この問題を回避するには、このコマンドレットを再実行して、成功するまで待ちます。フェールバック プロセスは、完了までに数分かかる場合があります。20,000 ユーザーのプールでは、最大で 60 分かかることもあります。
+## <a name="the-invoke-cspoolfailback-cmdlet-may-fail-during-pool-failback"></a>プールのフェイルバック中に csPoolFailback コマンドレットが失敗することがある
 
-## 既に確立されているプールに フロント エンド サーバーを追加するとデータ損失が発生する場合がある (3015990) - ハイブリッド、 Skype for Business Online
+**点**
 
-**問題:**
+プールをフェイルバックしようとすると、 **csPoolFailback**コマンドレットが失敗することがあります。「再試行後に hydration プロセスを完了できませんでした」というエラーが表示されることがあります。
 
-この問題は、プールに複数の フロント エンド サーバーが含まれている環境で、いずれかの フロント エンド サーバーを再起動したり、以前にプールに含まれていなかった新しい フロント エンド サーバーを追加したりした場合に発生する可能性があります。
+**ところ**
 
-データ損失が発生する可能性があるのは、プールでデータ アーカイブの分散が安定するまでの間にアーカイブされたユーザーのデータです。その期間は、1 対 1 の会話の場合は最長 15 分、会議の場合は最長 30 分です。
+この問題を回避するには、もう一度コマンドレットを実行し、コマンドレットが正常に完了するまで待ちます。 フェイルバックプロセスが完了するまで数分かかる場合があることに注意してください。 2万ユーザーがいるプールの場合、最大60分かかることがあります。
 
-**回避方法:**
+</div>
 
-メンテナンスの際には、プール内の フロント エンド サーバーを 1 つずつ起動するのではなく、プールを別のプールにフェールオーバーしてからそれらのサーバーのメンテナンス タスクを実行します。サービスを使用不可にしてからメンテナンス タスクを実行し、メンテナンスの完了後に使用可能な状態に戻すこともできます。
+<div>
 
-## Get-CsClientAccessLicense コマンドレットを使用してライセンス許可対象者の数を取得できない (3012255)
+## <a name="data-loss-may-occur-when-you-add-a-front-end-server-to-an-already-established-pool--hybrid-skype-for-business-online"></a>フロントエンドサーバーを既に確立されているプール (ハイブリッド、Skype for Business Online) に追加すると、データが失われることがある
 
-**問題:**
+**点**
 
-**Get-CsClientAccessLicense** コマンドレットを使用してクライアント ライセンスの正確な使用状況を取得できません。
+この問題は、プールに複数のフロントエンドサーバーがある環境で、フロントエンドサーバーの1つを再起動するか、またはプールの一部ではない新しいフロントエンドサーバーを追加することによって発生する場合があります。
 
-**回避方法:**
+データがアーカイブされているユーザーは、プールのデータアーカイブの安定した分布が確立されるまで、データの損失が発生する可能性があります。 このデータ損失の可能性がある期間は、人同士の会話で15分に制限され、会議に30分の通話が可能です。
 
-サーバー ライセンスの種類を確認するには、 **Get-CsService** コマンドレットを実行してすべてのデータベースの完全修飾ドメイン名 (FDQN) を取得します。 フロント エンド サーバーの FQDN がバック エンド データベースの FQDN と同じ場合、そのライセンスは Standard Edition のライセンスです。それ以外の場合は、Enterprise Edition のライセンスです。
+**ところ**
 
-## クライアント ライセンスの許可対象者の数が正確に報告されない (3010175)
+プール内のフロントエンドサーバーを1つずつ開始する代わりに、管理を実行する場合は、プールを別のプールにフェールオーバーして、サーバーの保守タスクを実行する必要があります。 メンテナンスタスクを実行する前にサービスを利用できないようにすることもできます。メンテナンスが完了したら、空き時間情報を復元することもできます。
 
-**問題:**
+</div>
 
-クライアント ライセンスの数を確認するときに次のような現象が発生する場合があります。
+<div>
 
-1.  **モバイル ユーザーのライセンス数が正しくない**
+## <a name="administrators-cannot-get-licensee-count-by-using-the-get-csclientaccesslicense-cmdlet"></a>管理者は、取得-CsClientAccessLicense コマンドレットを使用してライセンシーの数を取得できません
+
+**点**
+
+管理者は、 **CsClientAccessLicense**コマンドレットを使用して、クライアントライセンスの正確な使用状況を取得することはできません。
+
+**ところ**
+
+サーバーのライセンスの種類を確認するには、ユーザーの**取得サービス**コマンドレットを実行して、すべてのデータベースの完全修飾ドメイン名 (FDQNs) を取得します。 フロントエンドサーバーの FQDN がバックエンドデータベースの FQDN と同じである場合、ライセンスは標準エディションライセンスです。 それ以外の場合は、ライセンスは Enterprise edition ライセンスです。
+
+</div>
+
+<div>
+
+## <a name="client-licensee-count-is-not-accurately-reported"></a>クライアントのライセンス数が正確に報告されていない
+
+**点**
+
+クライアントのライセンス数を確認するときに、次のような状況が発生することがあります。
+
+1.  **モバイルユーザーのライセンス数が正しくない**
     
-    このライセンス数は、デバイス ベースのユーザーの一意の IP アドレスの数に基づいています。このライセンス数には次のような制限があります。
+    ライセンス数は、デバイスベースのユーザーの一意の IP アドレスの数に基づいています。 ライセンス数は、次のように制限されています。
     
-      - Lync セッションの間にユーザーの IP アドレスが変更されるとライセンス数が実際より多くなります。この問題は、ユーザーがデスクトップ クライアントを使用して複数の場所から Lync Server に接続した場合に発生する可能性があります。
+      - ユーザーの IP アドレスが Lync セッション中に変更されると、ライセンスは過大にカウントされます。 この問題は、ユーザーがデスクトップクライアントで複数の場所から Lync Server に接続したときに発生する可能性があります。
     
-      - ユーザーがモバイル クライアントを使用して接続するとライセンス数が実際より少なくなります。これは、デバイスの IP アドレスを特定できないためです。
+      - ユーザーがモバイルクライアントに接続すると、デバイスの IP アドレスを確認できないため、ライセンスはカウントされます。
 
-2.  **公衆交換電話網 (PSTN) から Lync クライアントへの通話、Lync クライアントから PSTN 回線への通話、および PSTN 回線に転送された Lync 通話でライセンスが 2 回カウントされる**
+2.  **ライセンスは、公衆交換電話網 (PSTN) 通話、Lync クライアント、PSTN 回線への Lync クライアント通話、PSTN 回線に転送された Lync 通話に対して2回カウントされます。**
     
-    以下のシナリオでは、ライセンスが 1 つではなく 2 つカウントされます。これは、使用されているライセンスの数を特定するために電話番号と Lync ユーザーの両方がカウントされるためです。正確なライセンス データを入手するには、電話番号によって生成されたライセンスを手動で削除します。
+    次のシナリオでは、電話番号と Lync ユーザーの両方がカウントされ、使用されているライセンス数が判断されるため、2つの追加ライセンスは1つではなくカウントされます。 正確なライセンスデータを取得するには、電話番号によって生成されたライセンスを手動で削除します。
     
-      - PSTN 電話から Lync への通話
+      - Lync への PSTN 電話通話
     
       - PSTN 回線への Lync 通話
     
-      - Lync によって PSTN 回線に転送される Lync への PSTN 通話。一方の PSTN 回線がカウントされます。
+      - Lync への PSTN 通話。その後、Lync が着信を PSTN 回線に転送します。 いずれかの PSTN 線がカウントされます。
 
-3.  **ログオンしている Lync 電話のライセンスがカウントされない**
+3.  **ログオンしている Lync 携帯電話のライセンスはカウントされません**
     
-    Lync 認定の電話機でログインして接続が保持されている場合 (ログオン状態が維持されます)、ログイン後に行われたライセンス照会でその電話機のライセンスがカウントされません。
+    ユーザーが Lync 認定電話を使用している場合、電話のログイン後も接続されたままで、ログイン状態が維持されている場合は、ライセンスの照会が電話のログイン後に行われると、電話はライセンスを使用しているものとしてカウントされません。
 
-4.  **会議に参加している PSTN 電話でライセンスがカウントされる**
+4.  **電話会議に参加している PSTN 電話にカウントされたライセンス**
     
-    ユーザーが PSTN 電話を使用して会議に参加すると、会議への参加のライセンスが誤ってカウントされます。PSTN 電話で会議に参加するのにライセンスは必要ありません。
+    ユーザーが PSTN 電話を使って会議に参加すると、会議に参加するためのライセンスが誤ってカウントされます。 ただし、PSTN 電話を使って会議に参加する場合はライセンスは必要ありません。
 
-**回避方法:**
+**ところ**
 
-1.  **モバイル ユーザーのライセンス数が正しくない**
+1.  **モバイルユーザーのライセンス数が正しくない**
     
-      - 同じデバイスに属する IP アドレスを手動で特定して、そのうちの 1 つをライセンス数から削除します。
+      - 同じデバイスに属している IP アドレスを手動で特定して、ライセンス数のいずれかを削除することができます。
     
-      - Lync クライアントを使用して接続するモバイル デバイスでこの問題を回避する方法はありません。
+      - この問題の回避策は、Lync クライアントで接続しているモバイルデバイスには対応していません。
 
-2.  **PSTN から Lync クライアントへの通話、Lync クライアントから PSTN 回線への通話、および PSTN 回線に転送された Lync 通話でライセンスが 2 回カウントされる**
+2.  **ライセンスは、Lync クライアントへの PSTN 通話、PSTN 回線への Lync クライアント通話、PSTN 回線への lync 通話の転送について2回カウントされます。**
     
-    手動で PSTN 電話番号を特定し、その番号に対してカウントされたライセンスをライセンス数から削除する必要があります。
+    PSTN 電話番号を手動で特定し、生成されたライセンス数を削除する必要があります。
 
-3.  **ログオンしている Lync 電話のライセンスがカウントされない**
+3.  **ログインしている Lync 携帯電話のライセンスはカウントされません**
     
-    定期的に (3 か月ごとなど) ログオフしてログオンし直すように Lync 電話を構成できます。
+    Lync 携帯電話を設定して、ログオフした後、3ヶ月ごとに定期的にログオンすることができます。
 
-4.  **会議に参加している PSTN 電話でライセンスがカウントされる**
+4.  **電話会議に参加している PSTN 電話にカウントされたライセンス**
     
-    会議に参加するために使用されている PSTN 電話番号を手動で特定し、その電話番号によって生成されたライセンスを削除します。
+    電話会議に参加するために使用される PSTN 電話番号を手動で特定して、電話番号によって生成されたライセンスを削除することができます。
 
-## Silverlight 5 にアップグレードすると VMware 環境で Lync Server コントロール パネルが機能しなくなる (3010077)
+</div>
 
-**問題:**
+<div>
 
-VMware 環境で Lync Server コントロール パネルを使用している場合に Microsoft Silverlight をバージョン 5 にアップグレードすると Lync Server コントロール パネルが機能しなくなることがあります。
+## <a name="the-lync-server-control-panel-stops-working-in-a-vmware-environment-after-upgrading-to-silverlight-5"></a>Silverlight 5 にアップグレードした後、Lync Server コントロールパネルが VMware 環境で動作しなくなります。
 
-**回避方法:**
+**点**
+
+VMware 環境で Lync Server コントロールパネルを使用すると、Microsoft Silverlight をバージョン5にアップグレードした後に Lync Server コントロールパネルが機能しなくなることがあります。
+
+**ところ**
 
 この問題を回避するには、次のいずれかの操作を行います。
 
-  - Silverlight 5 をアンインストールし、 <http://go.microsoft.com/fwlink/?linkid=149156> から Silverlight 4 をインストールします。
+  - Silverlight 5 をアンインストールし、から[https://go.microsoft.com/fwlink/p/?LinkID=149156](https://go.microsoft.com/fwlink/p/?linkid=149156)silverlight 4 をインストールします。
 
-  - VMware 仮想コンピューターではないコンピューターから Lync Server コントロール パネルにアクセスします。
+  - Lync Server コントロールパネルに、VMware 仮想コンピューターではないコンピューターからアクセスします。
     
-    Lync Server 管理ツールがコンピューターにインストールされている場合は、サーバーの Windows \[ **スタート** \] メニューから Lync Server コントロール パネルを起動できます。
+    Lync server の管理ツールがコンピューターにインストールされている場合は、サーバーの Windows の [**スタート**] メニューから Lync Server コントロールパネルを起動することができます。
     
-    Web ブラウザーを使用して Lync Server コントロール パネルにアクセスすることもできます。https://\<frontend\_pool\_fqdn\>/cscp のような URL を使用します。
+    Lync Server コントロールパネルには、web ブラウザーを使用してアクセスすることもできます。 この URL\<は https://フロントエンド\_プール\_の fqdn\>に似ています/cscp.
 
-## Active Directory でユーザーの識別名を変更するとアドレス帳サービスのユーザー情報が更新されなくなる (3211549)
+</div>
 
-**問題:**
+<div>
 
-Active Directory ドメイン サービスでユーザーの識別名 (DN) を変更すると、その後の変更がアドレス帳サービス (ABS) に反映されなくなります。この問題は、ユーザーのサインインやプレゼンスには影響しませんが、SIP アドレスが変更されると、検索で古い SIP アドレスが返されるため、ユーザーの通信が妨げられます。
+## <a name="user-information-in-the-address-book-service-is-not-updated-after-the-distinguished-name-for-the-user-is-modified-in-active-directory"></a>ユーザーの識別名が Active Directory で変更された後、アドレス帳サービスのユーザー情報が更新されない
 
-**回避方法:**
+**点**
 
-この問題を回避するには、ユーザーの DN を変更しないようにします。ユーザーの DN を以前の値に戻すと、アドレス帳サービスで更新が反映されるようになります。
+Active Directory ドメインサービスでユーザーの識別名 (DN とも呼ばれます) が変更された場合、アドレス帳サービス (ABS) では、追加の変更は更新されません。 この操作を行っても、ユーザーのサインインやプレゼンスには影響はありませんが、SIP アドレスが変更された場合、ユーザーは、古い SIP アドレスを返します。
 
-## インストール
+**ところ**
 
-## 非 ASCII 文字を使用すると、Lync サーバーが起動に失敗する場合がある
+この問題を回避するには、ユーザーの DN を変更しないでください。 ユーザーの DN を以前の値に戻した場合、更新はアドレス帳サービスに反映されます。
 
-**問題:**
+</div>
 
-宛先フォルダー名に非 ASCII 文字 (UNICODE、2 バイト文字セット (DBCS)、UTF-8、UTF-16 など) が含まれる場合、セットアップが失敗します。また、以下のいずれかに非 ASCII 文字が含まれる場合、セットアップは成功する可能性がありますが、サーバーは起動しません。
+</div>
+
+<span id="Installation"></span>
+
+<div>
+
+## <a name="installation"></a>インストール
+
+<div>
+
+## <a name="using-non-ascii-characters-may-result-in-lync-server-failing-to-start"></a>ASCII 以外の文字を使用すると、Lync server が起動しない場合がある
+
+**点**
+
+エクスポート先のフォルダー名に ASCII 以外の文字 (UNICODE、2バイト文字セット (DBCS)、UTF-8、UTF-16 など) が含まれている場合、セットアップは失敗します。 また、セットアップは成功しますが、ASCII 以外の文字が次のいずれかに含まれている場合は、サーバーが起動しません。
 
   - コンピューター名
 
@@ -307,239 +411,339 @@ Active Directory ドメイン サービスでユーザーの識別名 (DN) を�
 
   - ユーザー SIP URI
 
-  - サービス アカウント名
+  - サービスアカウント名
 
-**回避方法:**
+**ところ**
 
-宛先フォルダー名、コンピューター名、ドメイン名、ユーザー名、ユーザー SIP URI、およびサービス アカウント名では ASCII 文字のみを使用します。
+目的のフォルダー名、コンピューター名、ドメイン名、ユーザー名、ユーザー SIP URI、およびサービスアカウント名には ASCII 文字のみを使用します。
 
-## Lync Server 2013 をインストールする前に "モジュールが IIS 7.5 の InsertEntityBody メソッドを呼び出すとヒープが破損する" の修正プログラムをインストールする必要がある。
+</div>
 
-**問題:**
+<div>
 
-Lync Server 2013 をインストールする前に、マイクロソフト サポート技術情報の記事 264886 ( [http://go.microsoft.com/fwlink/p/?LinkId=268603](http://go.microsoft.com/fwlink/p/?linkid=268603)) で説明されている "モジュールが IIS 7.5 の InsertEntityBody メソッドを呼び出すとヒープが破損する" の修正プログラム ( [http://go.microsoft.com/fwlink/p/?LinkId=268602](http://go.microsoft.com/fwlink/p/?linkid=268602)) をインストールする必要があります。
+## <a name="the-hotfix-for-heap-corruption-occurs-when-a-module-calls-the-insertentitybody-method-in-iis-75-must-be-installed-prior-to-installing-lync-server-2013"></a>"ヒープの破損" の修正プログラムは、Lync Server 2013 をインストールする前に、モジュールが IIS 7.5 の InsertEntityBody メソッドをインストールする必要がある場合に発生します。
 
-**回避方法:**
+**点**
 
-この修正プログラムを Microsoft ダウンロード センター ( [http://go.microsoft.com/fwlink/?linkid=268602\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=268602%26clcid=0x411)) からダウンロードしてインストールします。
+"ヒープの破損" の修正プログラムは、「モジュールが IIS 7.5 で InsertEntityBody メソッドを[https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)呼び出すときに発生します。」 (264886[https://go.microsoft.com/fwlink/p/?LinkId=268603](https://go.microsoft.com/fwlink/p/?linkid=268603)) は、Lync Server 2013 をインストールする前にインストールする必要があります。
 
-## ITA Windows Server 2012 OS RTM バージョンで Lync Server 2013 のインストールが失敗する (3179467)
+**ところ**
 
-**問題:**
+Microsoft ダウンロードセンターから修正プログラムをダウンロードしてインストール[https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)します。
 
-ITA Windows Server 2012 で Lync Server 2013 のインストールが失敗します。これは、Windows Fabric のインストールに失敗するためです。
+</div>
 
-Windows Fabric のインストールが失敗するのは、ファブリックのトレースが HH:MM:SS という時刻の形式で作成されるのに対し、ITA Windows Server の時刻の形式は HH.MM.SS であるためです。
+<div>
 
-**回避方法:**
+## <a name="lync-server-2013-fails-to-install-on-ita-windows-server-2012-os-rtm-version"></a>Lync Server 2013 が ITA Windows Server 2012 OS RTM バージョンでインストールできない
 
-この問題を回避するには、 Lync Server 2013 をインストールする前にシステム レジストリを更新します。更新する必要があるレジストリ キーは、HKEY\_USERS\\.DEFAULT\\Control Panel\\International\\sTimeFormat です。次のように、 Windows PowerShell コマンドライン インターフェイスを使用して sTimeFormat の値を HH:mm:ss に変更します。
+**点**
 
-1.  Windows PowerShell を起動して次のコマンドレットを実行します。
+Windows Fabric のインストールに失敗したため、ITA Windows Server 2012 で Lync Server 2013 のインストールが失敗します。
+
+ファブリックトレースは、HH: MM: SS という時刻形式で作成されるため、Windows ファブリックインストールが失敗します。 ただし、ITA Windows Server では、時刻の形式は HH です。MM.SS。
+
+**ところ**
+
+この問題を回避するには、Lync Server 2013 をインストールする前にシステムレジストリを更新します。 更新する必要があるレジストリキーは、HKEY\_ユーザー\\です。既定\\のコントロール\\パネル\\国際形式の書式。 次のように Windows PowerShell コマンドラインインターフェイスを使用して、"s" 形式の値を HH: mm: ss に変更します。
+
+1.  Windows PowerShell を起動し、次のコマンドレットを実行します。
     
+       ```
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-
-       &nbsp;
+       ```
     
+       ```
         $a="HKU:\.Default\Control Panel\International"
+       ```
 
 2.  現在の値を表示するには、次のコマンドレットを実行します。
     
         Get-itemproperty $a -Name sTimeFormat
     
-    インストールが完了したら元に戻せるように、sTimeFormat の現在の値を書き留めておきます。
+    インストールの完了後に復元できるように、現在の形式の値をメモしておきます。
 
-3.  新しい値を設定するには、次のコマンドレットを実行します。
+3.  新しい値に設定するには、次のコマンドレットを実行します。
     
         Set-ItemProperty $a -Name sTimeFormat -Value "HH:mm:ss"
 
-4.  Lync Server 2013 のインストールが完了したら、次のコマンドレットを実行して sTimeFormat の値を元に戻します。
+4.  Lync Server 2013 が正常にインストールされた後、次のコマンドレットを実行して、その形式の元の値を復元します。
     
-        - Set-ItemProperty $a -Name sTimeFormat -Value "<Value noted down in Step 3. above>"
+        - Set-ItemProperty $a-Name という <の値について、手順3でメモした値を表示します。 上の> "
 
-## モビリティ
+</div>
 
-## サーバーのフェールオーバー プロセス中のモバイル クライアントの問題 (3345992)
+</div>
 
-**問題:**
+<span id="Mobility"></span>
 
-Lync Server で障害が発生してフェールオーバー プロセスが開始されたときに、次の問題によってモバイル クライアント ユーザーが影響を受けることがあります。
+<div>
 
-  - フェールオーバー後に最大 10 分間、Lync 通話または信号を着信しない
+## <a name="mobility"></a>モビリティ
 
-  - 着信したチャット要求を承諾できない
+<div>
 
-  - 障害が発生したサーバーがユーザーのホーム サーバーである場合、会議に参加できない
+## <a name="issues-for-mobile-clients-during-the-server-failover-process"></a>サーバーのフェールオーバープロセス中のモバイルクライアントの問題
 
-**回避方法:**
+**点**
 
-この問題の解決法はありません。 フェールオーバー プロセスが完了すると通常の機能が回復します。
+Lync サーバーに障害が発生してフェールオーバープロセスが開始されると、次の問題がモバイルクライアントユーザーに影響を与える可能性があります。
 
-## ユーザーが別の Lync エンドポイントからの着信通話を拒否した場合に、その通話が Lync Mobile クライアントで不在着信した会話として表示される (3346251)
+  - フェールオーバーの開始後、最長10分間、Lync の着信またはシグナルがありません。
 
-**問題:**
+  - 着信チャット要求を受け入れることができません
 
-モバイル ユーザーが別の Lync エンドポイントから発信された着信通話を拒否した場合に、その通話が Lync Mobile クライアントでデバイス通話リストの通話ではなく不在着信した会話として表示されます。
+  - 障害が発生したサーバーがユーザーのホームサーバーである場合、会議に参加できない
 
-**回避方法:**
+**ところ**
 
-この問題の解決法はありません。
+この問題の回避策はありません。 フェールオーバープロセスが完了すると、通常の機能が復元されます。
 
-## モバイル クライアントで連絡先を検索したときにフェデレーションの連絡先の表示名が表示されないことがある (3346256)
+</div>
 
-**問題:**
+<div>
 
-連絡先リスト内でフェデレーションの連絡先を検索したときなどに、フェデレーションの連絡先の表示名が表示されないことがあります。この問題は、連絡先に対する Lync モバイル クライアントからのアクティブなプレゼンス サブスクリプションが存在しない場合に発生する可能性があります。
+## <a name="if-a-mobile-user-declines-an-incoming-call-from-another-lync-endpoint-the-call-is-displayed-as-a-missed-conversion-on-lync-mobile-clients"></a>モバイルユーザーが別の Lync エンドポイントからの着信を拒否した場合、その通話は Lync モバイルクライアントでの不在着信として表示されます。
 
-**回避方法:**
+**点**
 
-この問題の解決法はありません。
+モバイルユーザーが着信を拒否した場合に、別の Lync エンドポイントから発信された通話は、デバイス呼び出しリストの電話ではなく、Lync モバイルクライアントで不在着信した会話として表示されます。
 
-## モバイル クライアントで、会議への招待である不在着信した会話の招待者とタイムスタンプの情報が表示されない (3346265)
+**ところ**
 
-**問題:**
+この問題の回避策はありません。
 
-モバイル クライアントで、不在着信した会話が会議への招待である場合に、不在着信した会話メッセージの招待者とタイムスタンプの情報が表示されません。
+</div>
 
-**回避方法:**
+<div>
 
-この問題の解決法はありません。
+## <a name="the-mobile-client-may-not-display-a-federated-contacts-display-name-when-searching-for-contacts"></a>連絡先を検索するときに、モバイルクライアントでフェデレーション連絡先の表示名が表示されない場合がある
 
-## モバイル クライアント ユーザーが VoIP を使用して電話をかける場合に、ボイス メールが Exchange 2010 以前で構成されたユーザーにボイス メールを残すことができない (3346260)
+**点**
 
-**問題:**
+フェデレーションされた連絡先の表示名は、連絡先リストでフェデレーション連絡先を検索する場合など、一部のシナリオでは表示されない場合があります。 この問題は、Lync モバイルクライアントからの連絡先に対してアクティブなプレゼンスサブスクリプションがない場合に発生することがあります。
 
-モバイル クライアント ユーザーが VoIP を使用して電話をかける場合に、 Microsoft Exchange Server 2007 または Microsoft Exchange Server 2010 でボイス メールを使用するように構成されたユーザーにボイス メール メッセージを残すことができません。
+**ところ**
 
-**回避方法:**
+この問題の回避策はありません。
 
-この問題を回避するには、 Exchange 2010 SP1 以降のバージョンの Microsoft Exchange Server を使用します。
+</div>
 
-## モバイル クライアントの \[クライアント バージョンの構成\] で \[URL を使用した禁止\] を使用している場合に、誤ったエラー メッセージが表示されることがある (3346258)
+<div>
 
-**問題:**
+## <a name="in-the-mobile-client-invitee-and-timestamp-information-are-missing-from-a-missed-conversation-that-is-an-invitation-to-a-conference"></a>モバイルクライアントでは、会議に招待された不在着信した会話に出席者とタイムスタンプ情報が含まれていない
 
-モバイル クライアントの \[クライアント バージョンの構成\] で \[ **URL を使用した禁止**\] を使用している場合に、クライアント バージョンがサポートされていないと、誤ったエラー メッセージが表示されることがあります。
+**点**
 
-**回避方法:**
+モバイルクライアントで、不在着信した会話が会議に招待された場合、不在着信した会話メッセージに出席者とタイムスタンプ情報が表示されません。
 
-この問題を回避するには、\[ **URL を使用した禁止**\] ではなく \[ **禁止**\] を使用するように \[クライアント バージョンの構成\] を構成します。
+**ところ**
 
-## 電話会議
+この問題の回避策はありません。
 
-## Lync Server 2013フロント エンド サーバーで実行されているウイルス対策ソフトウェアによってアプリケーション ドメインのリサイクルが引き起こされて、 Lync Web App 2013、Lync Mobile 2010、および Lync Mobile 2013 の各クライアントのサービスが一時的に中断されることがある (3212531)
+</div>
 
-**問題:**
+<div>
 
-ウイルス対策ソフトウェアによってアプリケーション ドメインの再起動が引き起こされて、Lync Mobility Service 2013 と統合コミュニケーション (UC) Web API クライアント アプリケーション ( Lync Web App 2013、Lync Mobile 2010、および Lync Mobile 2013) の状態が失われることがあります。
+## <a name="mobile-client-users-making-calls-using-voip-are-not-be-able-to-leave-voice-mail-for-users-whose-voice-mail-is-configured-in-exchange-2010-or-earlier-versions"></a>VoIP を使用して電話をかけるモバイルクライアントユーザーが、Exchange 2010 以前のバージョンでボイスメールを構成しているユーザーのボイスメールを残すことができない
 
-**回避方法:**
+**点**
 
-この問題を回避するには、Web コンポーネントを含むフォルダーと .NET framework を含むフォルダーをウイルス スキャンから除外します。詳細については、マイクロソフト サポート技術情報の記事 312592 「\[PRB\] ASP.NET で不特定のアプリケーションが再起動し、"Application Is Restarting" エラーが発生する」( [http://go.microsoft.com/fwlink/?linkid=3052\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=3052%26clcid=0x411)) を参照してください。
+モバイルクライアントユーザーが VoIP を使用して通話を発信している場合、ユーザーは、Microsoft Exchange Server 2007 または Microsoft Exchange Server 2010 でボイスメールを使用するように構成されたユーザーのボイスメールメッセージを残すことはできません。
+
+**ところ**
+
+この問題を回避するには、Exchange 2010 と SP1 以降のバージョンの Microsoft Exchange Server を使用します。
+
+</div>
+
+<div>
+
+## <a name="when-using-block-with-url-for-client-version-configuration-on-mobile-clients-an-incorrect-error-message-may-be-displayed"></a>モバイルクライアントでクライアントのバージョン構成の URL がブロックされていると、誤ったエラーメッセージが表示されることがある
+
+**点**
+
+モバイルクライアントでクライアントバージョン構成の**URL をブロック**すると、クライアントバージョンがサポートされていない場合に誤ったエラーメッセージが表示されることがあります。
+
+**ところ**
+
+この問題を回避するには、 **URL を**指定して block の代わりに**block**を使うようにクライアントのバージョン構成を構成します。
+
+</div>
+
+</div>
+
+<span id="Conferencing"></span>
+
+<div>
+
+## <a name="conferencing"></a>会議
+
+<div>
+
+## <a name="antivirus-software-running-on-lync-server-2013front-end-servers-can-cause-application-domain-recycling-which-temporarily-interrupts-service-for-lync-web-app-2013-lync-mobile-2010-and-lync-mobile-2013-clients"></a>Lync Server 2013 フロントエンドサーバーで実行されているウイルス対策ソフトウェアが原因で、アプリケーションドメインのリサイクルが発生し、Lync Web App 2013、Lync Mobile 2010、Lync Mobile 2013 クライアントのサービスが一時的に停止することがあります。
+
+**点**
+
+ウイルス対策ソフトウェアを使用すると、アプリケーションドメインを再起動することができます。これにより、Lync Mobility Service 2013 および統合通信 (UC) Web API クライアントアプリケーション (Lync Web App 2013、Lync Mobile 2010、Lync Mobile 2013) が状態を失います。
+
+**ところ**
+
+この問題を回避するには、Web コンポーネントと .NET framework を含むフォルダーをウイルススキャンで除外します。 詳細については、「Microsoft サポート技術情報の記事 312592 "PRB: ASP.NET で" アプリケーションが再起動します "と[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592)いうエラーが表示されています。
 
 次のフォルダーを除外する必要があります。
 
-  - %ProgramFiles%\\Microsoft Lync Server 2013\\Web Components\\Mcx\\Ext
+  - % ProgramFiles%\\Microsoft Lync Server 2013\\Web コンポーネント\\mcx\\Ext
 
-  - %ProgramFiles%\\Microsoft Lync Server 2013\\Web Components\\Mcx\\Int
+  - % ProgramFiles%\\Microsoft Lync Server 2013\\Web コンポーネント\\mcx\\Int
 
-  - %ProgramFiles%\\Microsoft Lync Server 2013\\Web Components\\Ucwa\\Int
+  - % ProgramFiles%\\Microsoft Lync Server 2013\\Web コンポーネント\\ucwa\\Int
 
-  - %ProgramFiles%\\Microsoft Lync Server 2013\\Web Components\\Ucwa\\Ext
+  - % ProgramFiles%\\Microsoft Lync Server 2013\\Web コンポーネント\\ucwa\\Ext
 
-  - %Windir%\\Microsoft.NET\\Framework64\\v4.0.30319\\Config
+  - % Windir%\\Microsoft.NET\\Framework64\\v 4.0.30319\\Config
 
-## 会議に参加するには Windows Internet Explorer で ActiveX コントロールかネイティブ XMLHTTP サポートを有効にする必要がある (2798163)
+</div>
 
-**問題:**
+<div>
 
-Windows Internet Explorer インターネット ブラウザーの設定で ActiveX コントロールとネイティブ XMLHTTP サポートが両方とも無効になっていると、Internet Explorer が既定のブラウザーとして選択されている場合に会議に参加できません。
+## <a name="activex-controls-or-native-xmlhttp-support-must-be-enabled-in-windows-internet-explorer-to-successfully-join-conferences"></a>会議に参加するには、Windows Internet Explorer で ActiveX コントロールまたはネイティブ XMLHTTP のサポートが有効になっている必要があります。
 
-**回避方法:**
+**点**
+
+Windows Internet Explorer の Internet browser 設定で、ユーザーが ActiveX コントロールとネイティブ XMLHTTP のサポートを無効にしている場合、Internet Explorer が既定のブラウザーとして選択されていると、ユーザーは会議に参加できません。
+
+**ところ**
 
 Internet Explorer で ActiveX コントロールまたは "ネイティブ XMLHTTP サポート" を有効にします。
 
-## Lync Server Web 会議サービスが重要モードから回復できない (2788663)
+</div>
 
-**問題:**
+<div>
 
-アーカイブで重要モードが有効になっている場合にシステム障害が発生すると、重要モードが開始されて参加者が会議を利用できなくなります。管理者が (データベースの問題を修正するなどして) システム障害を修復してもデータ会議サービスは自動的に回復しません。会議を再開するには管理者が手動で会議サービスを再起動する必要があります。
+## <a name="lync-server-web-conferencing-service-cannot-recover-from-critical-mode"></a>Lync Server Web 会議サービスが、重要なモードから復元できない
 
-**回避方法:**
+**点**
 
-システム障害を修復した後に管理者が手動で会議サービスを再起動する必要があります。
+システム障害が発生した場合に、クリティカルモードが有効になっていると、重要モードが開始され、会議が参加者に対して機能しなくなります。 管理者がシステムエラー (データベースの問題を修正するなど) を修正した後、データ会議サービスは自動的に回復しません。また、管理者は会議サービスを手動で再開して会議を再開する必要があります。
 
-## Web 会議サービスが外部の Office Web App サーバーの HTTP プロキシを無視する (2602182)
+**ところ**
 
-**問題:**
+システム障害が修正された後、管理者は会議サービスを手動で再起動する必要があります。
 
-Web 会議サービスの外部にある (企業の内部ネットワークにない) Office Web Apps サーバー をインターネットまたは境界ネットワークに展開していて、Web 会議サービスが HTTP プロキシを使用してそのサーバーに接続する必要がある場合、 Office Web Apps サーバー の検出に失敗します。Web 会議サービスは、 トポロジ ビルダーで Office Web Apps サーバー に対して定義されている HTTP プロキシの設定を無視します。その結果、Lync クライアントが会議の他の参加者と Microsoft PowerPoint 2010 の共有を実行できなくなります。 Lync Server を社内にインストールし、 Office Web Apps サーバー も社内の内部ネットワークで構成する場合は、プロキシを構成する必要はありません。
+</div>
 
-**回避方法:**
+<div>
 
-この問題を回避するには、外部の Office Web Apps サーバー との通信に HTTP プロキシを必要とする展開構成を使用しないようにするしかありません。
+## <a name="web-conferencing-service-ignores-the-http-proxy-for-external-office-web-app-servers"></a>外部の Office Web App サーバーの HTTP プロキシを無視する web 会議サービス
 
-## 電話会議プロバイダーの会議へのビデオの追加はサポートされていない (2603861)
+**点**
 
-**問題:**
+Web 会議サービスの外部に Office Web Apps サーバーを展開している場合 (つまり、社内ネットワークに接続されていないサーバーである)、インターネット、境界ネットワーク、Web 会議サービスに接続するには、次のような HTTP プロキシが必要です。Office Web Apps サーバーの検出は失敗します。 Web 会議サービスでは、[Office Web Apps サーバーセットアップ] の [トポロジビルダー] で定義されている HTTP プロキシ設定を無視します。 この結果、Lync クライアントは、会議の他の参加者と Microsoft PowerPoint 2010 共有を行うことができなくなります。 オンプレミスの Lync Server をインストールしていて、内部ネットワークで Office Web Apps サーバーがオンプレミスにも構成されている場合、プロキシ構成は必要ありません。
 
-電話会議プロバイダーの電話会議に参加している場合にビデオを追加することはできません。
+**ところ**
 
-**回避方法:**
+唯一の回避策は、外部の Office Web Apps サーバーとの通信に HTTP プロキシを使用する必要がある展開構成を持たないことです。
 
-この問題の解決法はありません。
+</div>
 
-## IPv6 が有効なトポロジでは、 Lync Web App から画面共有機能を使用できるようにするために Lync Web App Silverlight プラグインが強制的に自動更新される (2604634)
+<div>
 
-**問題:**
+## <a name="adding-video-to-an-audio-conferencing-provider-conference-is-not-supported"></a>電話会議プロバイダーの会議へのビデオの追加はサポートされていません
 
-IPv6 を有効にして構成されているトポロジでは、以前のバージョンの画面共有プラグインがインストールされていると Lync Web App クライアントから画面を共有できません。
+**点**
 
-**回避方法:**
+ユーザーが音声会議プロバイダーの電話会議に参加している場合、ビデオの追加はサポートされません。
 
-Lync Web App から会議に参加するときに画面共有プラグインを強制的に最新バージョンに更新するには、次の両方のファイルで **MinSupportedBuildVersion** の値を "4.0.7457.0" から "4.0.7577.380" に変更します。
+**ところ**
 
-  - %ProgramFiles%\\Microsoft Lync Server 15\\Web Components\\Reach\\Int\\Client\\Plugins\\ReachAppShPluginProperties.xml
+この問題の回避策はありません。
 
-  - %ProgramFiles%\\Microsoft Lync Server 15\\Web Components\\Reach\\Ext\\Client\\Plugins\\ReachAppShPluginProperties.xml
+</div>
 
-## エンタープライズ VoIP
+<div>
 
-## IPv4 と IPv6 のデュアル スタックを使用するように構成されたコンピューター上で実行されている Lync クライアントで、コンピューターの IP サブネットに依存する E911、メディア バイパス、通話受付管理、場所ベースのルーティングなどの機能がサポートされない場合がある (3335508)
+## <a name="topologies-with-ipv6-enabled-force-the-lync-web-app-silverlight-plug-in-auto-update-to-ensure-screen-sharing-functionality-can-work-from-lync-web-app"></a>IPv6 が有効になっているトポロジ lync Web App Silverlight プラグインを自動更新して、Lync Web App から画面共有機能を使用できるようにする
 
-> [!NOTE]
+**点**
+
+IPv6 を有効にしてトポロジを構成すると、以前のバージョンの画面共有プラグインが既にインストールされている場合、ユーザーは Lync Web App クライアントから画面を共有することはできません。
+
+**ところ**
+
+Lync Web App を使って会議に参加するときに、画面共有プラグインの最新バージョンに更新するには、次の2つ**** のファイルで "4.0.7457.0" から "4.0.7577.380" に変更します。
+
+  - % ProgramFiles%\\Microsoft Lync Server 15\\Web コンポーネント\\は\\、\\Int\\クライアント\\プラグイン ReachAppShPluginProperties にアクセスします
+
+  - % ProgramFiles%\\Microsoft Lync Server 15\\Web コンポーネント\\は\\Ext\\クライアント\\プラグイン\\ReachAppShPluginProperties に到達します。
+
+</div>
+
+</div>
+
+<span id="EnterpriseVoice"></span>
+
+<div>
+
+## <a name="enterprise-voice"></a>エンタープライズ VoIP
+
+<div>
+
+## <a name="in-some-cases-a-lync-client-running-on-a-computer-configured-to-use-ipv4-and-ipv6-dual-stack-might-not-support-capabilities-that-rely-in-the-ip-subnet-of-the-computer-such-as-e911-media-bypass-call-admission-control-and-location-based-routing"></a>場合によっては、IPv4 と IPv6 を使用するように構成されているコンピューターで実行されている Lync クライアントで、E911、メディアのバイパス、通話受付制御、位置ベースのルーティングなど、コンピューターの IP サブネットに依存する機能がサポートされていないことがあります。
+
+<div class="">
+
+
+> [!NOTE]  
 > このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
-**問題:**
 
-IPv4 と IPv6 のデュアル スタックが有効にされた、プロキシ サーバーの DNS 解決をベースとするコンピューター上で Lync クライアントが実行されている場合に、クライアントはコンピューターの IPv6 アドレスを使用してサインインすることがあります。その場合、Lync クライアントは IPv6 でサポートされる機能のみをサポートし、E911、メディア バイパス、通話受付管理、場所ベースのルーティングはサポートしません。
+</div>
 
-**回避方法:**
+**点**
 
-この問題を回避するには、クライアント コンピューターで IPv6 のサポートを無効にします。
+使用しているコンピューターで、IPv4 および IPv6 デュアルスタックが有効になっていて、プロキシサーバーの DNS 解決に基づいている場合、クライアントはコンピューターの IPv6 アドレスを使ってサインインすることができます。 この操作を行うと、Lync クライアントは IPv6 でサポートされている機能のみをサポートします。これにより、E911、メディアバイパス、通話受付制御、位置情報に基づくルーティングが除外されます。
 
-## エンタープライズ VoIP が構成されていないユーザーは、会議からのダイヤルアウトに E164 形式を使用する必要がある (3215342)
+**ところ**
 
-**問題:**
+この問題を回避するには、クライアントコンピューターで IPv6 サポートを無効にします。
 
-エンタープライズ VoIP が構成されていないユーザーは、会議からのダイヤルアウトに E164 形式を使用する必要があります。E164 形式を使用しないと会議からダイヤルアウトできません。
+</div>
 
-**回避方法:**
+<div>
 
-この問題を回避するには、 エンタープライズ VoIP が有効になっていないユーザーは会議からのダイヤルアウトに E164 形式の番号を使用する必要があります。
+## <a name="if-enterprise-voice-is-not-configured-for-a-user-the-user-will-need-to-use-e164-format-to-dial-out-from-a-conference"></a>エンタープライズ Voip がユーザーに対して構成されていない場合、ユーザーは [E164] 形式を使用して電話会議からダイヤルアウトする必要があります。
 
-## プレゼンス
+**点**
 
-## 統合連絡先ストアが有効になっているユーザーが "招待と通信をすべてブロックする" を選択した場合に、プレゼンス状態が拒否されるべきときに拒否されない (3204526)
+エンタープライズボイスがユーザーに対して構成されていない場合は、ユーザーは [E164] 形式を使用して会議からのダイヤルアウトを成功させる必要があります。 E164 形式が使用されていない場合、ユーザーは電話会議からダイヤルアウトすることはできません。
 
-**問題:**
+**ところ**
 
-統合連絡先ストアが有効になっているユーザーが "招待と通信をすべてブロックする" を選択した場合に、プレゼンス状態が拒否されるべきときに拒否されません。
+この問題を回避するために、エンタープライズボイスを有効にしていないユーザーは、E164 形式の数字を使って会議からダイヤルアウトする必要があります。
 
-**回避方法:**
+</div>
 
-この問題を回避するには、そのユーザーに対して統合連絡先ストアを無効にします。そのためには、次のコマンドレットを実行します。
+</div>
+
+<span id="Presence"></span>
+
+<div>
+
+## <a name="presence"></a>プレゼンス
+
+<div>
+
+## <a name="if-a-user-has-selected-block-all-invites-and-communications-while-the-unified-contact-store-is-turned-on-for-the-user-presence-status-is-not-rejected-when-it-should-be"></a>ユーザーが [すべての招待と通信をブロックする] をオンにした場合、統合連絡先ストアが有効になっているときにプレゼンス状態が拒否されない
+
+**点**
+
+ユーザーが [すべての招待と通信をブロックする] をオンにした場合、統合連絡先ストアが有効になっている間、プレゼンス状態は拒否されません。
+
+**ところ**
+
+この問題を回避するには、ユーザーに対してユニファイド連絡先ストアを無効にすることができます。 そのためには、次のコマンドレットを実行します。
 
     Set-CsUserServicesPolicy -Identity "<user display name>" -UcsAllowed $False
 
@@ -547,307 +751,437 @@ IPv4 と IPv6 のデュアル スタックが有効にされた、プロキシ �
 
     Set-CsUserServicesPolicy -Identity "Ken Myer" -UcsAllowed $False
 
-## ハイブリッド展開で、社内に所属する Office Communications Server 2007 R2 ユーザーが Skype for Business Online ユーザーのプレゼンス状態を表示できない (3014624) - ハイブリッド
+</div>
 
-**問題:**
+<div>
 
-この問題は、ハイブリッド展開で Lync Server 2013 ディレクターを使用している場合に発生する可能性があります。
+## <a name="office-communications-server-2007-r2-users-homed-on-premises-are-not-able-to-see-the-presence-status-of-skype-for-business-online-users-in-hybrid-deployments---hybrid"></a>Office Communications Server 2007 R2 をオンプレミスで使用している場合、ハイブリッド展開での Skype for Business Online ユーザーのプレゼンス状態の表示はできません。ハイブリッド
 
-Skype for Business Online に所属しているユーザーのプレゼンス状態が社内ユーザーに対して "状態確認不可" として表示されます。また、 Skype for Business Online に所属しているユーザーが Office Communications Server R2 の社内ユーザーのプレゼンス状態を表示できません。
+**点**
 
-**回避方法:**
+この問題は、Lync Server 2013 ディレクターを使用している場合にハイブリッド展開で発生する可能性があります。
 
-この問題を部分的に回避するには、 Skype for Business Online ユーザーのホーム サーバー (msrtcsip-presencehomeserver) を、 Lync Server 2013 ディレクターではなく Lync Server 2013 の社内プールを参照するように変更します。この設定は、社内の フロント エンド サーバーで変更できます。
+Skype for Business Online を使用しているユーザーのプレゼンス状態は、オンプレミスのユーザーに対して不明なプレゼンスとして表示されます。 また、Skype for Business Online をホームとして使用しているユーザーは、Office Communications Server R2 オンプレミスユーザーのプレゼンス状態を表示することはできません。
 
-これにより、 Office Communications Server 2007 R2 に所属するユーザーのプレゼンス状態が Skype for Business Online ユーザーに正しく表示されるようになります。
+**ところ**
 
-## 応答グループ アプリケーション、 コール パーク アプリケーション、グループ通話ピックアップ
+この問題を部分的に回避するには、Lync Server 2013 ディレクターではなく、Lync Server 2013 のオンプレミスプールをポイントするように、Skype for Business Online ユーザーのホームサーバー (msrtcsip-userenabled true presencehomeserver) を変更します。 オンプレミスフロントエンドサーバーでこの設定を変更できます。
 
-## 受信側との通話の確立中に、発信者に対して 1 秒間の保留音が再生されることがある (3334097)
+この回避策では、Office Communications Server 2007 R2 に所属しているユーザーのプレゼンス状態が Skype for Business Online ユーザーに正しく表示されます。
 
-> [!NOTE]
+</div>
+
+</div>
+
+<span id="ResponseGroup"></span>
+
+<div>
+
+## <a name="response-group-application-call-park-application-and-group-call-pickup"></a>応答グループアプリケーション、コールパークアプリケーション、グループ通話のピックアップ
+
+<div>
+
+## <a name="a-caller-might-hear-one-second-of-music-on-hold-during-the-establishment-of-a-call-with-the-retrieving-party"></a>発信者は、相手を検索して通話を発信するときに、1秒間音楽の再生待ちを聞くことができます。
+
+<div class="">
+
+
+> [!NOTE]  
 > このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
-**問題:**
 
-通話がグループ通話ピックアップによって取得される場合、受信側との通話の確立中に、発信者に対して 1 秒間の保留音が再生されることがあります。
+</div>
 
-**回避方法:**
+**点**
 
-この問題の解決法はありません。
+グループ通話の集配を使用して通話を取得すると、発信者は、取得側で通話を発信するときに、1秒間音楽を保留にすることができます。
 
-## 応答グループ エージェントが Lync Server 2010 のエージェント コンソールからサインイン/サインアウトできるのは Lync Server 2010 の公式エージェント グループのみ (2773455)
+**ところ**
 
-**問題:**
+この問題の回避策はありません。
 
-Lync Server 2013 の 応答グループ エージェントが Lync Server 2010 のエージェント コンソールからサインイン/サインアウトできるのは Lync Server 2010 の公式エージェント グループだけです。 Lync Server 2010 のエージェント コンソールには、ユーザーが所属している Lync Server 2010 の 応答グループのみが表示されます。ユーザーが所属している Lync Server 2013 の応答グループは表示されません。
+</div>
 
-**回避方法:**
+<div>
 
-応答グループ エージェントが Lync Server 2013 ユーザーで、 Lync Server 2013 の公式エージェント グループに含まれている場合、そのユーザーが Lync Server 2013 のエージェント グループにサインイン/サインアウトするには、ブラウザーで Web リンクから直接 Lync Server 2013 のエージェント コンソールにアクセスする必要があります。
+## <a name="a-response-group-agent-can-sign-in-and-sign-out-through-a-lync-server-2010-agent-console-to-lync-server-2010-formal-agent-groups-only"></a>応答グループエージェントは、Lync Server 2010 エージェントコンソールを使用して、Lync Server 2010 の正式なエージェントグループのみにサインインしてサインアウトすることができます。
 
-## Lync Server 2010応答グループのエージェントが Lync Server 2013応答グループの代理として電話をかけることはできない (2773471)
+**点**
 
-**問題:**
+Lync server 2013 応答グループエージェントは、lync Server 2010 エージェントコンソールを使用して、lync server 2010 正式なエージェントグループに対してのみサインインし、サインアウトすることができます。 Lync Server 2010 エージェントコンソールでは、ユーザーが所属している Lync Server の2010応答グループのみを表示できます。 自分が属している Lync Server 2013 応答グループを表示することはできません。
 
-Lync Server 2013応答グループのエージェントである Lync Server 2010 ユーザーがその 応答グループの代理として電話をかけることはできません。Lync クライアントで電話をかけるときに Lync Server 2013応答グループを使用できません。
+**ところ**
 
-**回避方法:**
+応答グループエージェントが Lync Server 2013 ユーザーであり、Lync Server 2013 の正式なエージェントグループの一部である場合、ユーザーはブラウザーの web リンクを通じて直接 Lync Server 2013 エージェントコンソールにアクセスし、Lync Server 2013 エージェントグループにサインインしてサインアウトする必要があります。
 
-この問題を回避するには、その Lync Server 2010 ユーザーを Lync Server 2013 に移動する必要があります。
+</div>
 
-## Lync Server 2013 に移行した 応答グループを Lync Server 2010 から削除すると、その 応答グループが着信通話に応答しなくなる (3016227)
+<div>
 
-**問題:**
+## <a name="a-lync-server-2010response-group-agent-cannot-place-calls-on-behalf-of-a-lync-server-2013response-group"></a>Lync server 2010 応答グループエージェントは、Lync Server 2013 応答グループの代理として通話を発信することはできません
 
-Lync Server 2010 から Lync Server 2013 に移行した 応答グループを、 Lync Server コントロール パネルまたは Lync Server 管理シェルを使用して Lync Server 2010 から削除すると、その 応答グループが Lync Server 2013 で着信通話に応答しなくなります。
+**点**
 
-**回避方法:**
+Lync server 2013 応答グループのエージェントである Lync Server 2010 ユーザーは、応答グループの代理として通話を発信できません。 Lync Server 2013 応答グループは、通話を発信するために Lync クライアントでは利用できません。
 
-この問題を回避するには、 Lync Server 2010 から Lync Server 2013 に移行した応答グループを Lync Server 2010 から削除しないようにします。
+**ところ**
 
-既に 応答グループを削除してしまった場合は、 Lync Server 2013 で再展開する必要があります。
+この問題を回避するには、Lync Server 2010 ユーザーを Lync Server 2013 に移動する必要があります。
 
-## 新しい管理ワークフローを作成時に非アクティブに設定するとそのワークフローの展開に失敗する (3207527)
+</div>
 
-**問題:**
+<div>
 
-新しい管理ワークフローを作成時に非アクティブに設定するとそのワークフローの展開に失敗します。この問題は、ワークフローを作成時に非アクティブに設定した場合に発生します。展開済みのワークフローを編集して非アクティブに設定した場合には発生しません。
+## <a name="removing-a-response-group-from-lync-server-2010-after-it-has-been-migrated-to-lync-server-2013-will-prevent-the-response-group-from-accepting-any-incoming-calls"></a>Lync server 2013 に移行された後に、Lync Server 2010 から応答グループを削除すると、応答グループが着信を受け付けることができなくなります。
 
-**回避方法:**
+**点**
 
-ワークフローを作成して展開するときにアクティブに設定して展開します。展開が完了した後に、ワークフローを編集して非アクティブに設定できます。
+Lync server 2010 から Lync server 2013 に移行された応答グループが lync server の [コントロールパネル] または [Lync Server 管理シェル] から2010削除された場合、Lync Server 2013 の応答グループは、着信の受信を停止します。
 
-## バックアップ プールにインポートした 応答グループを所有者プールから削除すると、バックアップ プールの 応答グループがフェールオーバー時に着信通話に応答しなくなる (3016214)
+**ところ**
 
-**問題:**
+この問題を回避するには、Lync Server 2010 から Lync Server 2013 に移行された返信グループを Lync server 2010 から削除しないようにします。
 
-プライマリ プールが所有する 応答グループを、所有者を上書きせずにバックアップ プールにインポートし、所有者プールから削除すると、バックアップ プールの 応答グループがフェールオーバー時に着信通話に応答しなくなります。
+応答グループが既に削除されている場合は、Lync Server 2013 で再展開する必要があります。
 
-**回避方法:**
+</div>
 
-プライマリ プールで 応答グループを再展開する必要があります。その後、 応答グループの構成をプライマリ プールからエクスポートして、再びバックアップ プールにインポートする必要があります。
+<div>
 
-バックアップ プールで 応答グループを再作成することもできます。その場合、バックアップ プールがその 応答グループの所有者プールになります。
+## <a name="when-a-new-managed-workflow-is-set-to-inactive-when-created-deployment-of-the-workflow-will-fail"></a>作成時に新しいマネージワークフローが非アクティブに設定されると、ワークフローの展開に失敗します。
 
-## 取得要求が 応答グループの代理で行われた場合、パークされた通話を コール パーク アプリケーションから取得できない (3211798)
+**点**
 
-**問題:**
+作成時に新しいマネージワークフローが非アクティブに設定されると、ワークフローの展開が失敗します。 この問題は、作成時にワークフローが [非アクティブ] に設定されているときに発生しますが、展開された後に [非アクティブ] に設定するように編集されたワークフローには影響しません。
 
-次の条件に当てはまる場合、パークされた通話の取得要求が失敗します。
+**ところ**
 
-  - エージェントが匿名の 応答グループに含まれている
+ワークフローを作成して展開するときに、ワークフローをアクティブとして設定し、展開します。 ワークフローが正常に展開されると、ワークフローが編集可能になり、[非アクティブ] に設定されます。
 
-  - エージェントがその匿名の 応答グループを通じて コール パーク アプリケーションからパークされた通話を取得しようとしている
+</div>
 
-  - エージェントが、\[Call On Behalf\] (代理) オプションまたは Lync Attendant クライアントの同じオプションを使用して、オービット番号をダイヤルして通話を取得しようとしている
+<div>
 
-**回避方法:**
+## <a name="removing-a-response-group-from-the-owner-pool-will-prevent-the-response-group-of-the-backup-pool-from-accepting-any-incoming-calls-during-failover-if-the-response-group-has-been-imported-to-the-backup-pool"></a>所有者プールから応答グループを削除すると、バックアッププールの応答グループがバックアッププールにインポートされた場合に、フェールオーバー中に着信を受け付けることができなくなります。
 
-この問題の解決法はありません。パークされた通話を 応答グループの代理として取得しないようにする必要があります。
+**点**
 
-## Lync Server コントロール パネル、 トポロジ ビルダー、および計画ツール
+所有者を上書きせずに、プライマリプールによって所有されている応答グループがバックアッププールにインポートされていて、所有者プールから応答グループが削除された場合、バックアッププール内の応答グループは、フェールオーバー中に着信通話を受け入れません。
 
-## 計画ツールの制限 (3331056 および 3331059)
+**ところ**
 
-> [!NOTE]
+プライマリプールで応答グループを再展開する必要があります。 次に、プライマリプールから応答グループの構成をエクスポートして、もう一度バックアッププールにインポートする必要があります。
+
+バックアッププールで応答グループを再作成することもできます。 この場合、バックアッププールは応答グループの所有者プールになります。
+
+</div>
+
+<div>
+
+## <a name="a-parked-call-cant-be-retrieved-from-the-call-park-application-if-the-retrieve-request-is-done-on-behalf-of-a-response-group"></a>受信要求が応答グループの代理として実行されている場合は、保留中の通話をコールパークアプリケーションから取得できない
+
+**点**
+
+次の条件が満たされている場合は、保留中の通話の取得要求が失敗します。
+
+  - エージェントが匿名応答グループの一部である
+
+  - エージェントは、匿名応答グループを通じて、コールパークアプリケーションから保留中の通話を取得しようとします。
+
+  - エージェントは、[代理人として呼び出し] オプションを通じて、または Lync アテンダントクライアントで同じオプションを使用して、軌道番号にダイヤルすることで、通話を取得しようとします。
+
+**ところ**
+
+この問題の回避策はありません。 保留中の呼び出しは、応答グループに代わって取得する必要があります。
+
+</div>
+
+</div>
+
+<span id="TopoBuilder"></span>
+
+<div>
+
+## <a name="lync-server-control-panel-topology-builder-and-planning-tool"></a>Lync Server コントロール パネル、トポロジ ビルダー、および計画ツール
+
+<div>
+
+## <a name="planning-tool-limitations"></a>計画ツールの制限
+
+<div class="">
+
+
+> [!NOTE]  
 > このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
-**問題:**
 
-展開を計画する際、計画ツールには以下の制限があります。
+</div>
 
-  - サポートされるセントラル サイトは最大 10
+**点**
 
-  - 各セントラル サイトに設定できるブランチ サイトは最大 14
+展開を計画する場合、計画ツールには次の制限があります。
 
-  - 各セントラル サイトに設定できるユーザーは最大 240,000
+  - サポートされる最大10個のセントラルサイトがあります
 
-また、計画ツールは、推奨されるトポロジを計算する際に次の値を含めません。
+  - 各セントラルサイトは、最大で14個のブランチサイトを持つことができます。
 
-  - オンラインに所属するユーザーの数
+  - 各セントラルサイトには、最大24万ユーザーを含めることができます。
 
-  - XMPP フェデレーションに対して有効にされているユーザーのパーセンテージ
+また、推奨されるトポロジを計算するときに、計画ツールには次の値は含まれません。
+
+  - オンラインになっているユーザーの数
+
+  - XMPP フェデレーションが有効になっているユーザーのパーセンテージ
 
   - Lync Web App を使用しているユーザーのパーセンテージ
 
-**回避方法:**
+**ところ**
 
-この問題の解決法はありません。 計画ツールの詳細については、「 [計画ツールを使用した Lync Server 2013 のトポロジの設計](lync-server-2013-designing-the-topology-by-using-the-planning-tool.md)」を参照してください。
+この問題の回避策はありません。 計画ツールの詳細については、「[計画ツールを使用して Lync Server 2013 のトポロジを設計](lync-server-2013-designing-the-topology-by-using-the-planning-tool.md)する」を参照してください。
 
-## 計画ツールで、オプションを更新する際に事前に定義した IP アドレスが使用されない場合がある
+</div>
 
-**問題:**
+<div>
 
-計画ツールを使用した設計の完了後にエッジ ネットワーク オプションを変更すると、既存の IP アドレスを更新する代わりに新しい IP アドレスが追加されることがあります。この問題は、エッジ ネットワーク ダイアグラムの詳細の表示中に \[ **Click here to update your options** \] を選択し、\[Configuration Options\] ダイアログでエッジ ネットワークを選択して \[ **I want to use the same FQDNs and IP addresses, but different ports for the edge services on my Edge Server** \] を選択した場合に発生する可能性があります。変更を適用すると、新しい IP アドレスとエッジ サーバーが設計に追加されることがあります。
+## <a name="planning-tool-may-not-use-previously-defined-ip-addresses-for-the-edge-network-when-updating-options"></a>オプションを更新するときに、計画ツールで、エッジネットワークに事前に定義された IP アドレスを使用できない場合がある
 
-**回避方法:**
+**点**
 
-現時点では、この問題の解決法はありません。
+計画ツールを使用して設計を完了した後、エッジネットワークのオプションを変更すると、既存の IP アドレスを更新する代わりに、追加の IP アドレスを設計に追加することができます。 この問題は、Edge ネットワーク図の詳細を表示しているときに、[**ここをクリックしてオプションを更新する**] を選択し、[構成オプション] ダイアログで、[Edge ネットワーク] を選択します。 [**同じ fqdn と IP アドレスを使用しますが、エッジサーバー上のエッジサービスのさまざまなポート**。 変更を適用すると、新しい IP アドレスとエッジサーバーがデザインに追加されることがあります。
 
-## Lync Server コントロール パネルで "すべてのユーザーをプールに移動" が正常に機能しない場合がある (3199270)
+**ところ**
 
-**問題:**
+現時点では、この問題の回避策はありません。
 
-複雑な Active Directory 環境 (複数のドメイン コントローラーと親/子ドメインを含む環境など) で、 Lync Server コントロール パネルを使用してプールのすべてのユーザーを別のプールに移動するときに、"指定されたユーザーはレガシ ユーザーではありません。代わりに Move-CsUser コマンドレットを使用してください" というエラー メッセージが返される場合があります。これは、複雑な Active Directory 環境ではレプリケーションに時間がかかるためです。
+</div>
 
-**回避方法:**
+<div>
 
-この問題を回避するには、次のいずれかの操作を行います。
+## <a name="in-lync-server-control-panel-move-all-users-to-pool-may-not-work-as-expected"></a>Lync Server コントロールパネルの [すべてのユーザーをプールに移動] が期待どおりに動作しない場合がある
 
-  - Lync Server コントロール パネルのフィルターを使用してレガシ ユーザーを検索し、それらのユーザーを選択して、\[ **すべてのユーザーをプールに移動** \] の代わりに \[ **選択されたユーザーをプールに移動** \] を使用します。
+**点**
 
-  - Lync Server 管理シェルで Lync Server のコマンドレットを使用してレガシ ユーザーをまとめて移動します。
+Lync Server コントロールパネルを使用して、1つのプールから、複数のドメインコントローラーと親/子ドメインを持つ複雑な Active Directory 環境内の別のプールにすべてのユーザーを移動すると、"指定されたユーザーは" というエラーメッセージが返されることがあります。従来のユーザーではない場合は、代わりに Move-CsUser コマンドレットを使用します。 " これは、複雑な Active Directory 環境でのレプリケーション時間が長くなったためです。
 
-## Microsoft Silverlight ブラウザー プラグインをバージョン 5 に更新すると VMware 環境で Lync Server コントロール パネルが機能しなくなる (3199270)
-
-**問題:**
-
-VMware 環境で Lync Server コントロール パネルを使用している場合に Silverlight をバージョン 5 にアップグレードすると Lync Server コントロール パネルが機能しなくなることがあります。
-
-**回避方法:**
+**ところ**
 
 この問題を回避するには、次のいずれかの操作を行います。
 
-  - Silverlight 5 をアンインストールし、 [http://go.microsoft.com/fwlink/?linkid=149156\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=149156%26clcid=0x411) から Silverlight 4 をインストールします。
+  - Lync Server コントロールパネルで [フィルター] を使用して、従来のユーザーを検索し、それらのユーザーを選択して、[**すべてのユーザーをプールに**移動] ではなく、[**選択したユーザーをプールに移動] コマンド**を使用します。
 
-  - VMware 仮想コンピューターではないコンピューターから Lync Server コントロール パネルを開きます。
+  - Lync server 管理シェルを使用して、Lync Server コマンドレットを使用して、従来のユーザーをまとめて移動します。
+
+</div>
+
+<div>
+
+## <a name="the-lync-server-control-panel-stops-working-in-a-vmware-environment-after-the-microsoft-silverlight-browser-plug-in-is-updated-to-version-5"></a>Microsoft Silverlight ブラウザープラグインをバージョン5に更新した後に、Lync Server コントロールパネルが VMware 環境で動作を停止する
+
+**点**
+
+VMware 環境で Lync Server コントロールパネルを使用すると、Silverlight をバージョン5にアップグレードした後に Lync Server コントロールパネルが機能しなくなることがあります。
+
+**ところ**
+
+この問題を回避するには、次のいずれかの操作を行います。
+
+  - Silverlight 5 をアンインストールしてから、Silverlight 4 [https://go.microsoft.com/fwlink/p/?LinkID=149156\&v=4.0](https://go.microsoft.com/fwlink/p/?linkid=149156%26v=4.0)をからインストールします。
+
+  - Lync Server コントロールパネルを、VMware 仮想コンピューターではないコンピューターから開きます。
     
-    リモート コンピューターから Lync Server コントロール パネルを開くには、 Lync Server 管理ツールをコンピューターにインストールし、Windows \[ **スタート** \] メニューから Lync Server コントロール パネルを起動します。
+    リモートコンピューターから Lync Server コントロールパネルを開くには、コンピューターに Lync Server 管理ツールをインストールして、Windows の [**スタート**] メニューから Lync Server コントロールパネルを起動します。
     
-    Web ブラウザーで URL を入力して Lync Server コントロール パネルを開くこともできます。https://\<frontend\_pool\_fqdn\>/cscp のような URL を使用します。
+    Web ブラウザーで URL を入力して、Lync Server コントロールパネルを開くこともできます。 この URL\<は https://フロントエンド\_プール\_の fqdn\>に似ています/cscp.
 
-## トポロジ ビルダーでミラーリング データベースを削除すると Uninstall-csMirrorDB コマンドレットを実行できなくなる (3199266)
+</div>
 
-**問題:**
+<div>
 
-トポロジ ビルダーでミラーリング データベースを無効にした後、 トポロジ ビルダーでそのミラーリング データベースを削除すると、 **Uninstall-csMirrorDatabase** コマンドレットを実行して SQL Server からミラーリングを削除するように求めるメッセージがタスク一覧に表示されますが、このコマンドレットを実行すると失敗します。
+## <a name="an-administrator-cannot-run-the-uninstall-csmirrordb-cmdlet-after-removing-the-mirroring-database-in-topology-builder"></a>トポロジビルダーでミラーリングデータベースを削除した後に、管理者がアンインストール-csMirrorDB コマンドレットを実行できない
 
-**回避方法:**
+**点**
 
-トポロジ ビルダーでプールの SQL ミラーリングを削除するには、 SQL Server でミラーを削除するコマンドレットを先に使用する必要があります。その後、 トポロジ ビルダーを使用してトポロジからミラーを削除できます。 SQL Server でミラーを削除するには、次のコマンドレットを使用します。
+管理者がトポロジビルダーでミラーリングデータベースを無効にして、トポロジビルダーでミラーリングデータベースを削除すると、管理者が削除する**csMirrorDatabase**コマンドレットを実行するためのメッセージが表示されます。SQL Server からのミラーリング。 管理者がコマンドレットを実行しようとすると、失敗します。
+
+**ところ**
+
+トポロジビルダーでプールの SQL ミラーリングを削除するには、最初にコマンドレットを使用して、SQL Server のミラーを削除する必要があります。 次に、トポロジ ビルダーを使用して、トポロジからミラーを削除できます。 SQL Server でミラーを削除するには、次のコマンドレットを使用します。
 
     Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
 
-たとえば、ミラーリングを削除してユーザー データベースのデータベースをドロップするには、次のように入力します。
+たとえば、ミラーリングを削除してユーザーデータベースのデータベースをドロップするには、次のように入力します。
 
     Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 
-*DropExistingDatabasesOnMirror* パラメーターを指定すると、影響を受けるデータベースがミラーから削除されます。その後、トポロジからミラーを削除するために次の操作を行います。
+*Dropexistingdatabases Onmirror*パラメーターを使うと、影響を受けたデータベースがミラーから削除されます。 その後、トポロジからミラーを削除するために次の操作を行います。
 
-1.  トポロジ ビルダーで、プールを右クリックし、\[ **プロパティの編集** \] をクリックします。
+1.  トポロジ ビルダーで、プールを右クリックし、[**プロパティの編集**] をクリックします。
 
-2.  \[ **SQL ストアのミラーリングを有効にする** \] チェック ボックスをオフにし、\[ **OK** \] をクリックします。
+2.  [ **SQL ストアミラーリングを有効にする**] をオフにし、[ **OK]** をクリックします。
 
 3.  トポロジを公開します。
 
-
-> [!IMPORTANT]
-> バック エンド データベースのミラーリング リレーションシップに変更を加えた場合は常にプールのすべての フロント エンド サーバーを再起動する必要があります。
+<div class="">
 
 
+> [!IMPORTANT]  
+> バックエンドデータベースミラーリングの関係を変更する場合は、必ずプール内のすべてのフロントエンドサーバーを再起動する必要があります。
 
-## 監視ストアが関連付けられているフロントエンド プールを含む展開を削除しようとすると トポロジ ビルダーで検証エラーが返される (3199266)
 
-**問題:**
 
-監視ストアが関連付けられているフロントエンド プールを含む展開を トポロジ ビルダーの \[ **展開の削除** \] コマンドで削除しようとすると、 トポロジ ビルダーで検証エラーが表示されて操作が続行されません。
+</div>
 
-**回避方法:**
+</div>
+
+<div>
+
+## <a name="validation-errors-are-returned-in-topology-builder-when-an-administrator-attempts-to-remove-a-deployment-with-a-front-end-pool-that-has-an-associated-witness-store"></a>管理者が、関連付けられている監視ストアを持つフロントエンドプールを使用して展開を削除しようとすると、検証エラーがトポロジビルダーで返される
+
+**点**
+
+管理者が、関連付けられている監視ストアでフロントエンドプールを含む展開を削除するために、管理者がトポロジビルダーで [**展開の削除**] を使用しようとした場合、トポロジビルダーに検証エラーが表示され、操作は続行されません。.
+
+**ところ**
 
 この問題を回避するには、次のいずれかの操作を行います。
 
-  - 展開を削除する前に監視ストアを削除します。
+  - 展開を削除する前に、監視ストアを削除します。
 
-  - フロントエンド プールに監視ストアを追加して削除します。
+  - フロントエンドプールの監視ストアを追加してから、削除します。
 
-## 常設チャット サーバーの展開情報が計画ツールと トポロジ ビルダーで矛盾している (3012228)
+</div>
 
-**問題:**
+<div>
 
-障害復旧が有効な 常設チャット サーバーの展開のサイト トポロジ図を Lync Server 2013、計画ツールで出力すると、 常設チャット サーバーが均一に割り当てられた複数の (物理) サイトがサイト トポロジ図に含まれます。 トポロジ ビルダーの表示では、すべての 常設チャット サーバーが 1 つの (論理) サイトに属していて、同じ 常設チャット サーバー プール ノードの下に表示されます。
+## <a name="persistent-chat-server-deployment-information-is-inconsistent-between-the-planning-tool-and-topology-builder"></a>計画ツールとトポロジビルダーとの間の常設チャットサーバーの展開情報に一貫性がない
 
-**回避方法:**
+**点**
 
-現在のところ、この問題を回避する方法はありません。 計画ツールの 常設チャット サーバーの展開の出力を分析して、個々のニーズに合わせて計画を変更する必要があります。
+Lync Server 2013 の計画ツールで、障害回復が有効になっている常設チャットサーバーの展開用のサイトトポロジ図を出力すると、サイトトポロジ図には複数の (物理) サイトが含まれており、それぞれに常設チャットサーバーが均等に割り当てられています。サービス. Topology Builder では、すべての常設チャットサーバーは1つの (論理) サイトに属しているものとして表され、同じ常設チャットサーバープールノードの下に表示されます。
 
-## ローカリゼーション
+**ところ**
 
-## 監視
+現時点では、この問題の回避策はありません。 ユーザーは、常設チャットサーバー展開の計画ツールの出力を分析し、特定のニーズに合わせてプランを変更する必要があります。
 
-## 東アジア版の Lync Server を使用している場合に監視レポートの展開ウィザードで正しくない文字が表示されることがある (3113565)
+</div>
 
-**問題:**
+</div>
 
-システム ロケールが東アジアの言語に設定されていないオペレーティング システムで東アジア版の Lync Server 2013 (簡体字中国語、繁体字中国語、日本語、韓国語など) を使用すると、監視レポートの展開ウィザードで、ローカライズされたメッセージの代わりに疑問符などの文字が表示されます。UNRESOLVED\_TOKEN\_VAL()
+<span id="Localization"></span>
 
-**回避方法:**
+<div>
 
-この問題を修正するには、オペレーティング システムと Lync Server 2013 のロケールを同じ言語に設定します。これにより、すべてのメッセージが正しく表示されるようになります。
+## <a name="localization"></a>版
 
-## Lync Server コントロール パネル
+<div>
 
-## Lync Server コントロール パネルのページの上部にあるナビゲーション バーで最後のアイテムをクリックすると最初のアイテムが表示されなくなることがある (3158118)
+## <a name="monitoring"></a>監視
 
-**問題:**
+<div>
 
-Lync Server コントロール パネルのページの上部にあるナビゲーション バーで最後のアイテムをクリックすると最初のアイテムが表示されなくなることがあります。次の 3 つのケースが確認されています。
+## <a name="the-deploy-monitoring-reports-wizard-displays-incorrect-characters-under-certain-circumstances-when-using-the-east-asian-version-of-lync-server"></a>東アジアバージョンの Lync Server を使用すると、監視レポートの展開ウィザードで特定の状況で誤った文字が表示される
 
-  - フランス語版の "Federation et acces externe" ページで "Partenaires federes XMPP" をクリックすると "Strategie d'acces externe" が表示されなくなります。
+**点**
 
-  - ドイツ語版の "Clients" ページで "Pushbenachrichtigungskonfiguration" をクリックすると "Clientversionskonfiguration" が表示されなくなります。
+東アジアバージョンの Lync Server 2013 (中国語 (簡体字)、中国語 (繁体字)、日本語、韓国語など) を使用している場合、システムロケールが東アジア言語に設定されていないオペレーティングシステムでは、[監視レポートの展開] ウィザードが表示されます。ローカライズされたメッセージではなく、疑問符などの文字を表示します。
 
-  - ロシア語版の "Конфигурация сети" ページで "Маршрут региона" をクリックすると "Глобально" が表示されなくなります。
+**ところ**
 
-**回避方法:**
+この問題を解決するには、オペレーティングシステムと Lync Server 2013 のロケールを同じ言語に設定します。これにより、すべてのメッセージが正しく表示されます。
 
-この問題を回避するには、ブラウザーで Lync Server コントロール パネルのページの表示を更新します。ページがブラウザーに読み込まれて、上部のナビゲーション バーのアイテムがすべて表示されます。
+</div>
 
-## アドレス帳
+</div>
 
-## 一部の言語でアドレス帳でのインデックス作成が正しく動作しない (3336047)
+<div>
 
-> [!NOTE]
+## <a name="lync-server-control-panel"></a>Lync Server コントロール パネル
+
+<div>
+
+## <a name="in-certain-cases-the-first-item-in-the-top-navigation-bar-on-a-page-of-lync-server-control-panel-disappears-when-the-last-item-in-the-top-navigation-bar-is-clicked"></a>特定の状況では、トップナビゲーションバーの最後のアイテムがクリックされると、Lync Server コントロールパネルのページ上のトップナビゲーションバーの最初のアイテムが表示されなくなります。
+
+**点**
+
+Lync Server コントロールパネルのページの上部にあるナビゲーションバーで最後のアイテムをクリックすると、トップナビゲーションバーの最初のアイテムが非表示になるという3つの既知の場合があります。
+
+  - フランス語版のページ "Féderation et accès externe" で、"Partenaires d'accès XMPP" がクリックされると、"項目" Stratégie externe fédérés "が表示されなくなります。
+
+  - ドイツ語版の [クライアント] ページで、"Pushbenachrichtigungskonfiguration" がクリックされると、"Clientversionskonfiguration" 項目が表示されなくなります。
+
+  - ロシア語版の "Конфигурациясети" ページでは、"Маршрутрегиона" がクリックされると、項目 "Глобально" が表示されなくなります。
+
+**ところ**
+
+この問題を回避するには、ブラウザーで Lync Server コントロールパネルのページを更新します。 ページは、上部のナビゲーションバーに表示されているすべてのアイテムと共にブラウザーに読み込まれます。
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="address-book"></a>アドレス帳
+
+<div>
+
+## <a name="indexing-in-the-address-book-does-not-work-as-expected-in-some-languages"></a>一部の言語で、アドレス帳のインデックス処理が予期したとおりに機能しない
+
+<div class="">
+
+
+> [!NOTE]  
 > このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
-ユーザーのプロパティにインデックス フィールドが含まれ、そのフィールドにインデックスを作成できない文字のみが含まれる場合、アドレス帳で検索を実行するとユーザーが表示されません。
 
-次の文字およびロケールのインデックスは作成できません。
+</div>
 
-  - 大文字のキリル文字、ギリシャ文字、アルメニア文字
+ユーザーのプロパティにインデックス付きフィールドが含まれており、そのフィールドにインデックスを作成できない文字しか含まれていない場合、そのユーザーはアドレス帳で実行された検索には表示されません。
 
-  - 大文字のアクセント付き文字
+次の文字とロケールのインデックスを作成することはできません。
 
-  - タイ文字
+  - 大文字のキリル文字、ギリシャ文字、およびアルメニア文字
 
-  - ラオス文字
+  - 大文字アクセント記号付き文字
 
-  - ミャンマー文字
+  - タイ語
 
-  - デーバナーガリー文字
+  - ラオス
 
-  - エチオピア文字
+  - ビルマ
 
-  - チベット文字
+  - バナー
 
-  - ベンガル文字
+  - 語
 
-  - グジャラート文字
+  - 語
 
-  - テルグ文字
+  - ベンガル語
 
-  - 他のすべてのインド系文字 scripts
+  - グジャラート語
 
-## Lync Web App、Web Scheduler、および Web コンポーネント
+  - テルグ語
 
-## Lync Web Scheduler、Dial-In、Join Launcher、常設チャット ルーム管理、OCTab で言語のフォールバックが正常に機能しない場合がある (3079700)
+  - その他のすべてのインド系言語スクリプト
 
-**問題:**
+</div>
 
-Web ブラウザーで、言語、スクリプト、ロケールを指定するロケールではなく中立的なロケールを選択すると (たとえば、Internet Explorer で "ノルウェー語、ブークモール (ノルウェー) \[nb-NO\]" などではなく "ノルウェー語 \[no\]" などの追加の指定のない言語名を選択した場合)、Lync Web Scheduler、Dial-In、Join Launcher、常設チャット ルーム管理、OCTab で予期しない表示動作が発生する場合があります。たとえば、次のいずれかの言語を選択すると、英語のページが表示される場合があります。
+</div>
+
+<div>
+
+## <a name="lync-web-app-web-scheduler-and-web-components"></a>Lync Web App、Web Scheduler、Web コンポーネント
+
+<div>
+
+## <a name="language-fallback-for-certain-languages-in-lync-web-scheduler-dial-in-join-launcher-persistent-chat-room-management-and-octab-might-not-work-as-expected"></a>Lync Web Scheduler、ダイヤルイン、参加起動ツール、常設チャットルーム管理、および OCTab の一部の言語の言語のフォールバックは、期待どおりに動作しないことがあります。
+
+**点**
+
+Web ブラウザーでニュートラルロケール ("ノルウェー \[no\]" など) を選択すると、言語、スクリプト、ロケール (たとえば、"ノルウェー語、ブークモール () を指定していない" などの指定のない言語名) が表示されます。ノルウェー) \[NB-NO\]") では、Lync Web Scheduler、ダイヤルイン、参加起動ツール、常設チャットルーム管理、および octab の特定の言語に対して予期しない表示動作が発生する可能性があります。 たとえば、次のいずれかの言語が選択されている場合、ユーザーに英語のページが表示されることがあります。
 
   - ノルウェー語
 
@@ -855,67 +1189,107 @@ Web ブラウザーで、言語、スクリプト、ロケールを指定する�
 
   - セルビア語
 
-**回避方法:**
+**ところ**
 
-中立的なロケールの言語を選択する場合は常に、ブラウザーの言語の優先順位の一覧で、追加の言語として特定のロケール (スクリプトや国コード) を持つ言語も追加するようにします。
+ニュートラルロケールの言語を選択する場合は、ブラウザーの [言語設定] ボックスの一覧で、特定のロケール (スクリプトおよび国コードを含む) の言語も追加であることを必ず確認してください。
 
-## 一部の Web ブラウザーで、Lync Web Scheduler、ダイヤルイン、Join Launcher、常設チャット ルーム管理、OCTabThere の使用時にアゼルバイジャン語とウズベク語のロケールがサポートされない (3336748)
+</div>
 
-> [!NOTE]
+<div>
+
+## <a name="there-is-limited-support-for-azeri-and-uzbek-locales-when-using-lync-web-scheduler-dial-in-join-launcher-persistent-chat-room-management-and-octab-in-some-web-browsers"></a>Lync Web Scheduler、ダイヤルイン、参加起動ツール、常設チャットルーム管理、および一部の Web ブラウザーでの OCTab を使用している場合、アゼルバイジャン語とウズベク語のサポートは制限されています。
+
+<div class="">
+
+
+> [!NOTE]  
 > このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
-**問題:**
 
-Internet Explorer 8 または Internet Explorer 9 の使用時にブラウザーの言語をアゼルバイジャン語 (ラテン) またはウズベク語 (ラテン) に設定すると、ダイヤルインと Join Launcher のページが英語またはブラウザーに設定された優先言語で表示されます。
+</div>
 
-Firefox または Chrome ブラウザーの使用時にブラウザーの言語をアゼルバイジャン語 (ラテン) またはウズベク語 (ラテン) に設定すると、 Lync Web App、Lync Web Scheduler、RGS OCTab が英語またはブラウザーに設定された優先言語で表示されます。
+**点**
 
-Safari ブラウザーではウズベク語 (ラテン) のロケールはサポートされません。
+Internet Explorer 8 または Internet Explorer 9 を使用して、ブラウザーの言語をアゼルバイジャン語 (ラテン) またはウズベク語 (ラテン) に設定すると、ダイヤルインと参加起動ツールのページは、英語またはブラウザーで設定した言語で表示されます。
 
-**回避方法:**
+Firefox または Chrome ブラウザーを使用しているときに、ブラウザーの言語を [アゼルバイジャン (ラテン)] または [ウズベク語 (ラテン)] に設定すると、Lync Web App、Lync Web Scheduler、および RGS OCTab が、英語で表示されるか、ブラウザーの優先言語セットとして表示されます。
 
-この問題の解決法はありません。
+Safari ブラウザーでは、ウズベク語 (ラテン) ロケールはサポートされていません。
 
-## ルーマニア語版の Lync Web App で "Join meeting from" (会議への参加) の一覧のドロップダウン矢印が表示されない (3154899)
+**ところ**
 
-**問題:**
+この問題の回避策はありません。
 
-ルーマニア語版の Lync Web App を使用しているユーザーが次の手順を実行すると、\[ **会議に参加** \] ボックスの一覧のドロップダウン矢印が表示されません。
+</div>
 
-1.  \[ **全般** \] タブの \[ **このコンピューターにアカウントを記憶する** \] を選択します。
+</div>
 
-2.  \[ **電話** \] タブを選択します。
+<div>
 
-3.  \[ **Join meeting from** \] (会議への参加) のドロップダウン リストをクリックします。
+## <a name="the-drop-down-arrow-is-missing-for-join-meeting-from-list-in-the-romanian-version-of-lync-web-app"></a>ルーマニア語版の Lync Web App の [会議に参加する] リストのドロップダウン矢印が表示されない
+
+**点**
+
+ルーマニア語版の Lync Web App を使用しているユーザーが次の手順を実行すると、ドロップダウンリストに**会議に参加**するためのドロップダウン矢印が表示されません。
+
+1.  [**全般**] タブの [**このコンピューター上でパスワードを記憶**する] を選択します。
+
+2.  [**電話**] タブを選択します。
+
+3.  [**会議に参加**する] のドロップダウンリストをクリックします。
     
-    既定の \[ **Lync Web App**\] 以外のオプション (\[ **オーディオに参加しない** \] (ルーマニア語では "Nu se asocia?a la componenta audio")、\[ **新しい番号** \] (ルーマニア語では "Num?r nou") など) があることを示す矢印が表示されません。
+    ユーザーには、既定の**Lync Web App**よりも多くのオプションが含まれていることを示す矢印が表示されません。これには、**オーディオに参加しない**(ルーマニア語、"ニュー se asociaža la componenta Audio") と**新しい番号**"(ルーマニア語で" Număr nou ") が含まれます。
 
-**回避方法:**
+**ところ**
 
-このドロップダウン リストの矢印が表示されなくても、既定値をクリックして一覧のその他の設定を選択できます。
+このドロップダウンリストの矢印が表示されていない場合でも、ユーザーは既定値をクリックして、リスト内の追加の設定を選ぶことができます。
 
-## トルコ語版の Lync Web Scheduler を使用している場合に \[発表者となるユーザー\] で "選択した個人" オプションを選択すると会議を保存できない (3169483)
+</div>
 
-**問題:**
+<div>
 
-トルコ語版の Lync Web Scheduler で会議を作成または編集するときには \[発表者となるユーザー\] のオプション "選択した個人" はサポートされません。このオプションを選択すると会議を保存できません。代わりに、発表者にできないユーザーが含まれているという内容のエラー メッセージが表示されます。
+## <a name="when-using-the-turkish-version-of-lync-web-scheduler-a-meeting-cannot-be-saved-when-using-the-people-i-choose-option-under-who-is-a-presenter"></a>トルコ語版の Lync Web Scheduler を使用している場合、[発表者になる人] の下にある [選択したユーザー] オプションを使用すると、会議を保存できません。
 
-**回避方法:**
+**点**
 
-この問題を回避するには、既定のオプションの "会社内の人" か、"開催者のみ" や "会社外の人を含むすべての人 (制限なし)" などのその他のオプションを使用します。開催者は、参加者が会議に参加した後に参加者を適切な役割に降格または昇格できます。
+トルコ語版の Lync Web Scheduler で会議を作成または編集している場合、[発表者になるユーザー] の下の [選択したユーザー] オプションはサポートされません。 このオプションが選択されている場合、会議を保存することはできません。 代わりに、1人以上のユーザーが発表者を作成できないことを示すエラーメッセージが表示されます。
 
-他の言語がわかる場合は、ブラウザーで選択されている言語を他の 43 のサポートされている言語のいずれかに変更して "選択した個人" オプションを使用することもできます。
+**ところ**
 
-## 著作権
+この問題を回避するために、ユーザーは、"社内のユーザー" の既定のオプション、または [開催者のみ] や [社外のユーザーを含むすべてのユーザー] などの任意の選択肢を使用できます。 開催者は、会議に参加した後で、後でユーザーを適切なロールに降格または昇格させることができます。
 
-このドキュメントに記載の情報は、プレリリース版のソフトウェア製品に関する米国 Microsoft Corporation の機密情報であり、対象のソフトウェア製品は最終的な正式リリースの前に大幅に変更される可能性があります。この機密情報は、受領者と米国 Microsoft Corporation との間で締結された機密保持契約書に基づいて開示されるものです。このドキュメントに記載された内容は情報提供のみを目的としており、明示または黙示にかかわらず、これらの情報についてマイクロソフトはいかなる責任も負わないものとします。このドキュメントに記載されている情報 (URL 等のインターネット Web サイトに関する情報を含む) は、将来予告なしに変更することがあります。お客様がこのドキュメントを運用した結果の影響については、お客様が負うものとします。別途記載されていない場合、例として表記されている会社、組織、製品、ドメイン名、電子メール アドレス、ロゴ、人物、場所、および出来事は、すべて架空のものです。実在する会社、組織、製品、ドメイン名、電子メール アドレス、ロゴ、人物、場所、または出来事との関連を意図したものではなく、またそれを推測するためでもありません。お客様ご自身の責任において、適用されるすべての著作権関連法規に従ったご使用をお願いします。このドキュメントのいかなる部分も、米国 Microsoft Corporation の書面による許諾を受けることなく、その目的を問わず、どのような形態であっても、複製または譲渡することは禁じられています。ここでいう形態とは、複写や記録など、電子的な、または物理的なすべての手段を含みます。ただしこれは、著作権法上のお客様の権利を制限するものではありません。
+または、別の言語を理解しているユーザーは、ブラウザーでの言語の選択を、サポートされている他の43言語のいずれかに変更して、[選択したユーザー] オプションを使用しようとすることができます。
 
-マイクロソフトは、このドキュメントに記載されている内容に関し、特許、特許申請、商標、著作権、またはその他の無体財産権を有する場合があります。別途マイクロソフトのライセンス契約上に明示の規定のない限り、このドキュメントはこれらの特許、商標、著作権、またはその他の無体財産権に関する権利をお客様に許諾するものではありません。
+</div>
 
-© 2012 Microsoft Corporation. All rights reserved.
+</div>
 
-Microsoft、Windows、Windows Live、Active Directory、Internet Explorer、MSN、Outlook、および SQL Server は、米国 Microsoft Corporation の米国およびその他の国における登録商標または商標です。
+<span id="Copyright"></span>
 
-その他の商標については当該各社が所有権を有します。
+<div>
+
+## <a name="copyright"></a>著作
+
+このドキュメントでは、最終的な商用リリースの前に実質的に変更される可能性があるソフトウェア製品の暫定的なリリースをサポートしています。また、Microsoft Corporation の機密情報でもあります。 この情報は、受信者と Microsoft との間の非開示契約に基づいて公開されます。 このドキュメントは、情報提供のみを目的として提供されています。このドキュメントでは、Microsoft は明示または黙示のいずれの保証も行いません。 このドキュメントに記載されている情報 (URL などのインターネット web サイトへの参照を含む) は、予告なしに変更される可能性があります。 このドキュメントの使用、またはこのドキュメントの使用による結果のすべてのリスクは、ユーザーに残ります。 特に記載がない限り、ここに記載されている会社、組織、製品、ドメイン名、メールアドレス、ロゴ、人物、場所、およびイベントは架空のものです。 実際の会社、組織、製品、ドメイン名、メールアドレス、ロゴ、人物、場所、またはイベントに関連するものではありません。 すべての該当する著作権法を遵守することは、ユーザーにとっての責任となります。 著作権の下にある権利を制限することなく、このドキュメントの一部は、どの形式または任意の形態 (電子的、機械的、複写、レコーディングなど) またはその他の手段 (電子的、機械、複写、記録など) でも、または送信される可能性があります。Microsoft Corporation の書面による明示的な許可がない場合。
+
+Microsoft には、このドキュメントの内容について、特許、特許申請、商標、著作権、またはその他の知的財産権が含まれている場合があります。 Microsoft の書面によるライセンス契約で明示的に記載されている場合を除き、このドキュメントの提供により、これらの特許、商標、著作権、またはその他の知的財産権の許諾を得ることはできません。
+
+© 2012 Microsoft Corporation。 All rights reserved.
+
+Microsoft、Windows、Windows Live、Active Directory、Internet Explorer、MSN、Outlook、および SQL Server は、米国およびその他の国/地域で、Microsoft Corporation の登録商標または商標です。
+
+その他のすべての商標は、各所有者の財産権を持っています。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

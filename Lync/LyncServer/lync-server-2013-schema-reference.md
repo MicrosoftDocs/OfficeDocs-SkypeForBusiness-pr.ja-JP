@@ -1,21 +1,43 @@
-﻿---
-title: スキーマ リファレンス
-TOCTitle: スキーマ リファレンス
-ms:assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398370(v=OCS.15)
-ms:contentKeyID: 48272130
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: スキーマリファレンス'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema reference
+ms:assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398370(v=OCS.15)
+ms:contentKeyID: 48184191
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7ad70a69426f0fb858fe3b231ddbbddfa5f0753d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821902"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# スキーマ リファレンス
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-06-29_
+# <a name="schema-reference-for-lync-server-2013"></a>Lync Server 2013 のスキーマリファレンス
 
-## このセクション中
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-06-29_
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 の通話詳細記録 (CDR) データベース スキーマ](lync-server-2013-call-detail-recording-cdr-database-schema.md)
 
@@ -24,4 +46,16 @@ _**トピックの最終更新日:** 2012-06-29_
   - [Lync Server 2013 の常設チャット データベースのスキーマ](lync-server-2013-persistent-chat-database-schema.md)
 
   - [Lync Server 2013 が使用する Active Directory のスキーマ拡張、クラス、属性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

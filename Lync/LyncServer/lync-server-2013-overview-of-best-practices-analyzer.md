@@ -1,48 +1,85 @@
-﻿---
-title: ベスト プラクティス アナライザーの概要
-TOCTitle: ベスト プラクティス アナライザーの概要
-ms:assetid: c5fcaa05-eb1c-4092-90ad-177b127e795b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg591349(v=OCS.15)
-ms:contentKeyID: 48273541
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ベストプラクティスアナライザーの概要'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of Best Practices Analyzer
+ms:assetid: c5fcaa05-eb1c-4092-90ad-177b127e795b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591349(v=OCS.15)
+ms:contentKeyID: 48185364
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a304f33071b8be13c61c3f930f196113ac3af6de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825689"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ベスト プラクティス アナライザーの概要
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-19_
+# <a name="overview-of-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 のベストプラクティスアナライザーの概要
 
-Lync Server 2013、ベスト プラクティス アナライザーを使用して、Lync Server 2013 展開に関する問題を特定し、解決することができます。Lync Server 2013、ベスト プラクティス アナライザーは、Lync Server 2013 のコンポーネントから構成情報を収集します。
+</div>
 
-ベスト プラクティス アナライザーは、適切なネットワーク アクセスを使用することで、Active Directory ドメイン サービス、Exchange Server ユニファイド メッセージング (UM)、およびLync Server 2013 を実行するサーバーを調査できます。ベスト プラクティス アナライザーを使用して実行できるのは、以下の作業です。
+<div id="mainSection">
 
-  - 事前にチェックを実行して、推奨されるベスト プラクティスに従って構成が設定されていることを確認します。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-19_
+
+Lync Server 2013 のベストプラクティスアナライザーを使用して、Lync Server 2013 の展開に関する問題を特定して解決することができます。 Lync Server 2013 のベストプラクティスアナライザーは、Lync Server 2013 コンポーネントから構成情報を収集します。
+
+ベストプラクティスアナライザーは、適切なネットワークアクセスで、Active Directory ドメインサービス、Exchange Server ユニファイドメッセージング (UM)、および Lync Server 2013 を実行しているサーバーを調査できます。 ベストプラクティスアナライザーを使用して、次の操作を行うことができます。
+
+  - 事前にチェックを行い、推奨されるベストプラクティスに従って構成が設定されていることを確認します。
 
   - Lync Server 2013 に必要な更新プログラムを自動的に検出します。
 
-  - 最適化されていない構成設定、サポートされていないオプション、適用されていない更新プログラム、推奨されないプラクティスなど、問題の一覧を生成します。
+  - 最適の構成設定、サポートされていないオプション、不足している更新、または推奨されないプラクティスなどの問題の一覧を生成します。
 
-  - 特定の問題のトラブルシューティングと修正を支援します。
+  - 特定の問題のトラブルシューティングと解決に役立ちます。
 
-ベスト プラクティス アナライザーは、以下の特徴を備えています。
+ベストプラクティスアナライザーには、次の機能が用意されています。
 
-  - 最小限のインストールの前提条件。
+  - インストールの最小要件。
 
-  - トラブルシューティングのヒントなど、レポートされた問題に関するオンライン ドキュメント。
+  - トラブルシューティングのヒントを含む、報告された問題に関するオンラインドキュメント。
 
-  - 保存しておいて後で確認できる構成情報。
+  - 後で確認するために保存できる構成情報。
 
-  - 最先端のシステム分析。
+  - 最新のシステムの分析。
 
-ベスト プラクティス アナライザーは、一組の XML 構成ファイルを使用して、Lync Server 2013 環境から収集する情報を決定します。Active Directory ドメイン サービスのチェックに加えて、Windows Management Instrumentation (WMI) での Windows Server オペレーティング システムのレジストリや設定などのソースをチェックします。
+ベストプラクティスアナライザーは、一連の XML 構成ファイルを使用して、Lync Server 2013 環境から収集する情報を決定します。 Active Directory ドメインサービスの確認に加えて、windows Server オペレーティングシステムのレジストリと、Windows Management Instrumentation (WMI) の設定などのソースを確認します。
 
-ベスト プラクティス アナライザーは、収集したデータを、Lync Server 2013 展開の設定と構成に関する事前定義されたルールのセットと比較します。
+ベストプラクティスアナライザーは、収集したデータを、Lync Server 2013 展開の設定と構成に関する事前定義されたルールのセットと比較します。
 
-収集したデータと事前定義されたルールを比較した後で、このツールは問題をレポートします。レポートする問題ごとに、スキャンした Lync Server 2013 環境で検出された情報および推奨される構成に関する情報を提供します。また、特定の問題に関するさらに詳細な情報へのリンクも提供します。
+収集したデータと事前定義されたルールを比較した後、ツールによって問題が報告されます。 レポートされるすべての問題について、ベストプラクティスアナライザーは、スキャンされた Lync Server 2013 環境と推奨される構成についての情報を提供します。 ベストプラクティスアナライザーには、特定の問題に関する詳細情報へのリンクも含まれています。
 
-> [!NOTE]
-> Lync Server 2013、ベスト プラクティス アナライザーは、Lync Server 2013 のコンポーネントからのみ構成情報を収集します。以前の環境のスキャンには、このツールの以前のバージョンを使用することができます。詳細については、「<a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">ベスト プラクティス アナライザー実行の要件</a>」を参照してください。
+<div>
+
+
+> [!NOTE]  
+> Lync Server 2013 のベストプラクティスアナライザーは、Lync Server 2013 コンポーネントからのみ構成情報を収集します。 以前のバージョンのツールを使用して、以前の環境をスキャンすることができます。 詳細については、「 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Lync Server 2013 でベストプラクティスアナライザーを実行するための要件</A>」を参照してください。
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
