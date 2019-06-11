@@ -1,24 +1,59 @@
-﻿---
-title: 移行後のサーバーの管理
-TOCTitle: 移行後のサーバーの管理
-ms:assetid: 7b08f048-c951-4050-b77c-0fff351620e7
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205023(v=OCS.15)
-ms:contentKeyID: 48272606
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 移行後のサーバーの管理
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Administering servers after migration
+ms:assetid: 7b08f048-c951-4050-b77c-0fff351620e7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205023(v=OCS.15)
+ms:contentKeyID: 48184582
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3f784bbc0525fecc2f2462dab5094a5d6263ca71
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840103"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 移行後のサーバーの管理
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-29_
+# <a name="administering-servers-after-migration"></a><span data-ttu-id="96702-102">移行後のサーバーの管理</span><span class="sxs-lookup"><span data-stu-id="96702-102">Administering servers after migration</span></span>
 
-通常は、管理するサーバー バージョンに対応した管理ツールを使用する必要があります。Lync Server 2010 と Lync Server 2013 管理ツールを同じコンピューターにインストールすることはできません。また、Lync Server 2013 コントロール パネルが各サーバーに自動的にインストールされることはありません。Lync Server 2013 コントロール パネルをインストールするには、「展開」のドキュメントのトピック「[Lync Server 2013 管理ツールをインストールする](lync-server-2013-install-lync-server-administrative-tools.md)」内の手順に従います。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="96702-103">_**最終更新日:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="96702-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+
+<span data-ttu-id="96702-104">通常、管理するサーバーのバージョンに対応する管理ツールを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="96702-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="96702-105">Lync Server 2010 と Lync Server 2013 の管理ツールを同じコンピューターにインストールすることはできません。</span><span class="sxs-lookup"><span data-stu-id="96702-105">You cannot install the Lync Server 2010 and the Lync Server 2013 administrative tools on the same computer.</span></span> <span data-ttu-id="96702-106">また、Lync Server 2013 コントロールパネルは、各サーバーに自動的にインストールされることはありません。</span><span class="sxs-lookup"><span data-stu-id="96702-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="96702-107">Lync Server 2013 コントロールパネルをインストールするには、展開ドキュメントの「 [Lync server 2013 管理ツールをインストール](lync-server-2013-install-lync-server-administrative-tools.md)する」のトピック内の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="96702-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
-> Lync Server 2013 パイロット プールの展開後は、どのような Lync Server 2013 リソースの管理にも Lync Server 2010 のトポロジ ビルダーや Lync Server 2010 コントロール パネルは使用できません。Lync Server 2013 ツールを使用して Lync Server 2013 および Lync Server 2010 のリソースを管理する必要があります。
+> [!IMPORTANT]  
+> <span data-ttu-id="96702-108">Lync server 2013 パイロットプールを展開した後は、lync server 2010 Topology Builder または Lync Server 2010 コントロールパネルを使用して、Lync Server 2013 リソースを管理することはできません。</span><span class="sxs-lookup"><span data-stu-id="96702-108">After a Lync Server 2013 pilot pool is deployed, you cannot use Lync Server 2010 Topology Builder or Lync Server 2010 Control Panel to manage any Lync Server 2013 resources.</span></span> <span data-ttu-id="96702-109">Lync server 2013 および lync server 2010 リソースを管理するには、Lync Server 2013 ツールを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="96702-109">You must use Lync Server 2013 tools to manage Lync Server 2013 and Lync Server 2010 resources.</span></span>
 
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
