@@ -1,19 +1,39 @@
-﻿---
-title: "Lync Server 2013: Test mobile users' ability to exchange instant messages"
+---
+title: 'Lync Server 2013: モバイルユーザーがインスタントメッセージをやり取りする機能をテストする'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test mobile users' ability to exchange instant messages
 ms:assetid: a78a048f-d413-4bee-8626-d62b8b74f811
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn767950(v=OCS.15)
-ms:contentKeyID: 62486272
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767950(v=OCS.15)
+ms:contentKeyID: 63969638
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b7fd19f6ef2f4a44a61d56848b4bf845c79736ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848503"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test mobile users' ability to exchange instant messages in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Lync Server 2013 でモバイルユーザーがインスタントメッセージをやり取りする機能をテストする
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-06-07_
 
 
 <table>
@@ -23,125 +43,151 @@ _**トピックの最終更新日:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>毎月</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsMcxP2PIM cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、CsMcxP2PIM コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxP2PIM&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Mobility Service enables mobile device users to do such things as:
+## <a name="description"></a>説明
 
-1.  Exchange instant messages and presence information.
+モバイルデバイスユーザーは、次のような操作を行うことができます。
 
-2.  Store and retrieve voice mail internally instead of with their wireless provider.
+1.  インスタントメッセージとプレゼンス情報を交換します。
 
-3.  Take advantage of Lync Server capabilities such as Call via Work and dial-out conferencing.
+2.  ワイヤレスプロバイダーではなく、内部でボイスメールを保存して取得します。
 
-The Test-CsMxcP2PIM cmdlet provides a quick and easy way to verify that users can use the Mobility Service to exchange instant messages.
+3.  職場やダイヤルアウト会議などの Lync Server 機能を利用できます。
 
-## Running the test
+CsMxcP2PIM コマンドレットを使うと、ユーザーがモビリティサービスを使用してインスタントメッセージを交換できることを簡単かつ簡単に確認することができます。
 
-To run this test, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsMcxP2PIM:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+このテストを実行するには、2つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次に、CsMcxP2PIM を呼び出したときに、これらの資格情報オブジェクトと、2つのアカウントの SIP アドレスを含める必要があります。
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\pilar"
     
     Test-CsMcxP2PIM -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -SenderSipAddres "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:packerman@litwareinc.com" -ReceiverCredential $credential2
 
-For more information, see the help topic for the [Test-CsMcxP2PIM](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM) cmdlet.
+詳細については、 [CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM)コマンドレットのヘルプトピックを参照してください。
 
-## Determining success or failure
+</div>
 
-If the two test users can exchange instant messages by using the mobility service then Test-CsMcxP2PIM will return test result Success:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-Target Uri : http://atl-cs-001.litwareinc.com:443/mcx
+2つのテストユーザーがモバイルサービスを使用してインスタントメッセージを交換できる場合は、CsMcxP2PIM によってテスト結果の成功が返されます。
 
-Result : Success
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Latency : 00:00:00
+ターゲット Uri:http://atl-cs-001.litwareinc.com:443/mcx
 
-Error Message :
+結果: 成功
 
-Diagnosis :
+待ち時間: 00:00:00
 
-If the test fails then the Result will be set to Failure and a detailed error message and diagnosis will be displayed:
+エラーメッセージ:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+診断
 
-Target Uri : https://atl-cs-001.litwareinc.com:443/mcx
+テストが失敗した場合、結果は "失敗" に設定され、詳細なエラーメッセージと診断が表示されます。
 
-Result : Failure
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Latency : 00:00:00
+ターゲット Uri:https://atl-cs-001.litwareinc.com:443/mcx
 
-Error Message : No response received for Web-Ticket service.
+結果: エラー
 
-Inner Exception:The HHTP request is unauthorized with
+待ち時間: 00:00:00
 
-client negotiation scheme 'Ntlm'. The authentication
+エラーメッセージ: Web チケットサービスの応答がありませんでした。
 
-header received from the server was 'Negotiate,NTLM'.
+内部例外: HHTP 要求は、で許可されていません。
 
-Inner Exception:The remote server returned an error:
+クライアントネゴシエーションスキーム ' Ntlm '。 認証
 
-(401) Unauthorized.
+サーバーから受信したヘッダーは、"Negotiate、NTLM" でした。
 
-Diagnosis :
+内部例外: リモートサーバーからエラーが返されました:
 
-Inner Diagnosis:X-MS-server-Fqdb : atl-cs-
+(401) 承認されていません。
+
+診断
+
+内部診断: X-MS---------------------------
 
 001.litwareinc.com
 
-Cache-Control : private
+キャッシュ制御: プライベート
 
-Content-Type : text/html; charset=utf-8.
+Content-type: text/html;charset = utf-8。
 
-Server : Microsoft-IIS/8.5
+サーバー: Microsoft-IIS/8.5
 
-WWW-Authenticate : Negotiate,NTLM
+WWW-認証: Negotiate、NTLM
 
-X-Powered-By : ASP.NET
+X-電力: ASP.NET
 
-X-Content-Type-Options : nosniff
+X-コンテンツタイプ-オプション: nosniff
 
-Date : Wed, 28 May 2014 19:16:05 GMT
+日付: 水曜日、28年5月 19:16:05 2014 日
 
-Content-Length : 6305
+Content-length: 6305
 
-## Reasons why the test might have failed
+</div>
 
-If Test-CsMcxP2PIM fails your first step should be to verify that the mobility service is up and running. That can be done by using a web browser to verify that the mobility service URL for your Lync Server pool can be accessed. For example, this command verifies the URL for the pool atl-cs-001.litwareinc.com:
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+
+テスト-CsMcxP2PIM が失敗した場合は、最初の手順でモビリティサービスが起動して実行されていることを確認する必要があります。 この操作を行うには、web ブラウザーを使用して、Lync Server プールのモビリティサービスの URL にアクセスできることを確認します。 たとえば、次のコマンドは、プール atl-cs-001.litwareinc.com の URL を確認します。
 
     https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc
 
-If the mobility service seems to be running then verify that your two test users have valid Lync Server accounts. You can retrieve account information by using a command similar to this:
+モバイルサービスが実行されているように見える場合は、2つのテストユーザーが有効な Lync Server アカウントを持っていることを確認します。 次のようなコマンドを使用して、アカウント情報を取得できます。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.
+Enabled プロパティが True と等しくない場合、またはコマンドが失敗した場合は、ユーザーが有効な Lync Server アカウントを持っていないことを意味します。
 
-You should also verify that the user is enabled for mobility. To do that, first determine the mobility policy that is assigned to the account:
+また、ユーザーがモビリティを有効にしていることも確認する必要があります。 そのためには、まず、アカウントに割り当てられているモビリティポリシーを特定します。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-After you know the policy name, use the Get-CsMobilityPolicy cmdlet to verify that the policy in question (for example, RedmondMobilityPolicy) has the EnableMobility property set to True:
+ポリシー名がわかったら、Set-csmobilitypolicy コマンドレットを使用して、問題のポリシー (RedmondMobilityPolicy など) で EnableMobility プロパティが True に設定されていることを確認します。
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-If you receive an error message with authentication headers, that often means that you have not specified a valid user account. Verify the user name and password and then try the test again. If you are convinced that the user account is valid, then use the Get-CsWebServiceConfiguration cmdlet and check the value of the UseWindowsAuth property. That will tell you which authentication methods are enabled in your organization.For more tips about how to troubleshoot the mobility service, see the blog post [Troubleshooting External Lync Mobility Connectivity Issues Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
+認証ヘッダーを含むエラーメッセージが表示された場合は、それは、有効なユーザーアカウントを指定していないことを意味します。 ユーザー名とパスワードを確認して、もう一度テストしてみてください。 ユーザーアカウントが有効であると確信できる場合は、CsWebServiceConfiguration コマンドレットを使用して、UseWindowsAuth プロパティの値を確認します。 これにより、どの認証方法が組織で有効になっているかがわかります。モバイルサービスのトラブルシューティングのヒントについては、「ブログの投稿の[トラブルシューティング外部の Lync モバイル接続の問題のトラブルシューティング](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)」を参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

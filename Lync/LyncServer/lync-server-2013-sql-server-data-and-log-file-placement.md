@@ -1,27 +1,53 @@
-﻿---
-title: 'Lync Server 2013: SQL Server データとログ ファイルの配置'
-TOCTitle: SQL Server データとログ ファイルの配置
-ms:assetid: 67aa525b-8aa3-474f-827e-8e1d4697f30f
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398479(v=OCS.15)
-ms:contentKeyID: 48272361
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: SQL Server データとログ ファイルの配置'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: SQL Server data and log file placement
+ms:assetid: 67aa525b-8aa3-474f-827e-8e1d4697f30f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398479(v=OCS.15)
+ms:contentKeyID: 48184395
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0a528ba7a348ebb5c8f865a795f8b1f1c1bc30cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848683"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の SQL Server データとログ ファイルの配置
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>Lync Server 2013 の SQL Server データとログ ファイルの配置
 
-Microsoft SQL Server 2012 または Microsoft SQL Server 2008 R2 SP1 を Lync Server 2013フロント エンド プール用に計画、展開する際に重要なのは、パフォーマンスを向上させるためにデータ ファイルとログ ファイルをどのように物理ハード ディスクに配置するかという点です。推奨のディスク構成は、6 スピンドルを使用した 1+0 RAID セットの実装です。Lync Server 展開ウィザードを使用している RAID ドライブ セットに、フロント エンド プールと関連するサーバーの役割およびサービス (つまり、アーカイブおよび監視サーバー、Lync Server 応答グループ サービス、Lync Server コール パーク サービス) によって使用されるすべてのデータベースとログ ファイルを配置する構成は、よいパフォーマンスが得られることがテストで確認されています。データベース ファイルとその役割の詳細を次の表に示します。
+</div>
 
-> [!NOTE]
-> ポリシーと SQL Server 構成がより特殊なインストールを必要とする場合、データベースとログ ファイルは Lync Server 管理シェルを使用して、任意の定義済みの場所にインストールできます。詳細は、「<a href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Lync Server 2013 での Lync Server 管理シェルを使用したデータベースのインストール</a>」を参照してください。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-21_
+
+Lync Server 2013 フロントエンドプール用の Microsoft SQL Server 2012 または Microsoft SQL Server 2008 R2 SP1 の計画および展開中に、パフォーマンスを考慮して、データとログファイルを物理ハードディスクに配置することが重要となります。 推奨されるディスク構成は、6つのスピンドルを使用した 1 + 0 RAID セットの実装です。 フロントエンドプールおよび関連付けられているサーバーの役割とサービスによって使用されるすべてのデータベースファイルとログファイルを配置します。これには、Lync Server を使用している RAID ドライブへのアーカイブと監視サーバー、lync server の応答グループサービス、Lync Server Call パークサービス。展開ウィザードは、良好なパフォーマンスをテストした構成になります。 次の表では、データベースファイルとその役割について説明します。
+
+<div>
 
 
-### 中央管理ストアのデータ ファイルとログ ファイル
+> [!NOTE]  
+> ポリシーと SQL Server の構成でより特殊なインストールが必要な場合は、Lync Server 管理シェルを使用して、定義済みの場所にデータベースとログファイルをインストールできます。 詳細については、「lync server<A href="lync-server-2013-database-installation-using-lync-server-management-shell.md">の管理シェルを使用したデータベースのインストール 2013</A> 」を参照してください。
+
+
+
+</div>
+
+### <a name="data-and-log-files-for-central-management-store"></a>中央管理ストアのデータとログファイル
 
 <table>
 <colgroup>
@@ -30,32 +56,32 @@ Microsoft SQL Server 2012 または Microsoft SQL Server 2008 R2 SP1 を Lync Se
 </colgroup>
 <thead>
 <tr class="header">
-<th>中央管理ストアのデータベース ファイル</th>
-<th>データ ファイルまたはログ目的</th>
+<th>一元管理ストアのデータベースファイル</th>
+<th>データファイルまたはログ目的</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Xds.ldf</p></td>
-<td><p>中央管理ストアのトランザクション ログ ファイル</p></td>
+<td><p>Xds</p></td>
+<td><p>中央管理ストアのトランザクションログファイル</p></td>
 </tr>
 <tr class="even">
-<td><p>Xds.mdf</p></td>
-<td><p>トポロジ ビルダーによって定義および公開されたとおりの現在の Lync Server 2013 トポロジの構成を保持</p></td>
+<td><p>Xds</p></td>
+<td><p>トポロジビルダーで定義および公開されている、現在の Lync Server 2013 トポロジの構成を保持します。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lis.mdf</p></td>
-<td><p>場所情報サービス のデータ ファイル</p></td>
+<td><p>Lis</p></td>
+<td><p>位置情報サービスデータファイル</p></td>
 </tr>
 <tr class="even">
-<td><p>Lis.ldf</p></td>
-<td><p>場所情報サービスのデータ ファイルのトランザクション ログ</p></td>
+<td><p>Lis</p></td>
+<td><p>位置情報サービスデータファイルのトランザクションログ</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### ユーザー、会議、およびアドレス帳のデータおよびログ ファイル
+### <a name="data-and-log-files-for-user-conferencing-and-address-book"></a>ユーザー、会議、アドレス帳のデータとログファイル
 
 <table>
 <colgroup>
@@ -64,52 +90,52 @@ Microsoft SQL Server 2012 または Microsoft SQL Server 2008 R2 SP1 を Lync Se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lync Server 2013 のコア データベース ファイル</th>
-<th>データ ファイルまたはログ目的</th>
+<th>主要な Lync Server 2013 データベースファイル</th>
+<th>データファイルまたはログ目的</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Rtc.mdf</p></td>
-<td><p>常設ユーザー データ (たとえば、アクセス制御リスト (ACL)、連絡先、スケジュールされた電話会議)</p></td>
+<td><p>Rtc</p></td>
+<td><p>固定ユーザーデータ (アクセス制御リスト (Acl)、連絡先、スケジュールされた会議など)</p></td>
 </tr>
 <tr class="even">
-<td><p>Rtc.ldf</p></td>
-<td><p>Rtc データのトランザクション ログ</p></td>
+<td><p>Rtc. .ldf</p></td>
+<td><p>Rtc データのトランザクションログ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Rtcdyn.mdf</p></td>
-<td><p>一時ユーザー データ (プレゼンス実行時データ) を管理します</p></td>
+<td><p>Rtcdyn</p></td>
+<td><p>一時的なユーザーデータ (プレゼンスランタイムデータ) を保持する</p></td>
 </tr>
 <tr class="even">
-<td><p>Rtcdyn.ldf</p></td>
-<td><p>Rtcdyn データのトランザクション ログ</p></td>
+<td><p>Rtcdyn</p></td>
+<td><p>Rtcdyn データのトランザクションログ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Rtcab.mdf</p></td>
+<td><p>Rtcab. mdf</p></td>
 <td><p>リアルタイム通信 (RTC) アドレス帳データベースは、アドレス帳サービス情報が保存される SQL Server リポジトリです。</p></td>
 </tr>
 <tr class="even">
-<td><p>Rtcab.ldf</p></td>
-<td><p>アドレス帳サービスのトランザクション ログ</p></td>
+<td><p>Rtcab. .ldf</p></td>
+<td><p>アドレス帳サービスのトランザクションログ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Rtclocal.mdb</p></td>
-<td><p>会議ディレクトリをホスト</p></td>
+<td><p>Rtclocal</p></td>
+<td><p>会議ディレクトリのホスト</p></td>
 </tr>
 <tr class="even">
-<td><p>Rtcxds.mdf</p></td>
-<td><p>ユーザー データのバックアップを保持</p></td>
+<td><p>Rtcxds</p></td>
+<td><p>ユーザーデータのバックアップを保持する</p></td>
 </tr>
 <tr class="odd">
-<td><p>Rtcxds.ldf</p></td>
-<td><p>Rtcxds データのトランザクション ログ</p></td>
+<td><p>Rtcxds</p></td>
+<td><p>Rtcxds データのトランザクションログ</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### 通話保留および応答グループのデータとログ ファイル
+### <a name="data-and-log-files-for-call-park-and-response-group"></a>コールパークと応答グループのデータとログファイル
 
 <table>
 <colgroup>
@@ -119,39 +145,39 @@ Microsoft SQL Server 2012 または Microsoft SQL Server 2008 R2 SP1 を Lync Se
 <thead>
 <tr class="header">
 <th>アプリケーション データベース</th>
-<th>データ ファイルまたはログ目的</th>
+<th>データファイルまたはログ目的</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Cpsdyn.mdf</p></td>
-<td><p>コール パーク アプリケーションの動的な情報データベース</p></td>
+<td><p>Cpsdyn</p></td>
+<td><p>コールパークアプリケーションの動的情報データベース</p></td>
 </tr>
 <tr class="even">
-<td><p>Cpsdyn.ldf</p></td>
-<td><p>コール パーク アプリケーションのデータ ファイルのトランザクション ログ</p></td>
+<td><p>Cpsdyn</p></td>
+<td><p>コールパークアプリケーションデータファイルのトランザクションログ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Rgsconfig.mdf</p></td>
-<td><p>サービスの構成の Lync Server 応答グループ サービス データ ファイル</p></td>
+<td><p>Rgsconfig</p></td>
+<td><p>サービスの構成用の Lync サーバー応答グループサービスデータファイル</p></td>
 </tr>
 <tr class="even">
-<td><p>Rgsconfig.ldf</p></td>
-<td><p>応答グループ アプリケーションの構成のトランザクション ログ ファイル</p></td>
+<td><p>Rgsconfig</p></td>
+<td><p>応答グループアプリケーション構成のトランザクションログファイル</p></td>
 </tr>
 <tr class="odd">
-<td><p>Rgsdyn.mdf</p></td>
-<td><p>ランタイム操作の応答グループ サービス データ ファイル</p></td>
+<td><p>Rgsdyn</p></td>
+<td><p>ランタイム操作の応答グループサービスデータファイル</p></td>
 </tr>
 <tr class="even">
-<td><p>Rgsdyn.ldf</p></td>
-<td><p>応答グループ サービス ランタイム データ ファイルのトランザクション ログ</p></td>
+<td><p>Rgsdyn</p></td>
+<td><p>応答グループサービスランタイムデータファイルのトランザクションログ</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### アーカイブ サーバーおよび監視サーバーのデータとログ ファイル
+### <a name="data-and-log-files-for-archiving-and-monitoring-server"></a>アーカイブおよび監視サーバー用のデータとログファイル
 
 <table>
 <colgroup>
@@ -160,42 +186,52 @@ Microsoft SQL Server 2012 または Microsoft SQL Server 2008 R2 SP1 を Lync Se
 </colgroup>
 <thead>
 <tr class="header">
-<th>アーカイブ データベースと監視データベースのファイル</th>
-<th>データ ファイルまたはログ目的</th>
+<th>データベースファイルのアーカイブと監視</th>
+<th>データファイルまたはログ目的</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>LcsCdr.mdf</p></td>
-<td><p>監視サーバーの通話詳細記録 (CDR) プロセスのデータ ストア</p></td>
+<td><p>LcsCdr mdf</p></td>
+<td><p>監視サーバーの通話の詳細記録 (CDR) プロセスのデータストア</p></td>
 </tr>
 <tr class="even">
-<td><p>LcsCdr.ldf</p></td>
-<td><p>通話詳細記録 (CDR) データのトランザクション ログ</p></td>
+<td><p>LcsCdr .ldf</p></td>
+<td><p>通話の詳細記録 (CDR) データのトランザクションログ</p></td>
 </tr>
 <tr class="odd">
-<td><p>QoEMetrics.mdf</p></td>
-<td><p>監視サーバーから保存した体感品質データ ファイル</p></td>
+<td><p>QoEMetrics</p></td>
+<td><p>監視サーバーから保存された環境の品質データファイル</p></td>
 </tr>
 <tr class="even">
-<td><p>QoEMetrics.ldf</p></td>
-<td><p>監視データのトランザクション ログ</p></td>
+<td><p>QoEMetrics</p></td>
+<td><p>データを監視するためのトランザクションログ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lcslog.mdf</p></td>
-<td><p>アーカイブ サーバー上のインスタント メッセージングおよび電話会議のデータの保持期間のデータ ファイル</p></td>
+<td><p>Lcslog</p></td>
+<td><p>アーカイブサーバー上のインスタントメッセージングと会議データの保持に使用するデータファイル</p></td>
 </tr>
 <tr class="even">
-<td><p>Lcslog.ldf</p></td>
-<td><p>アーカイブ データのトランザクション ログ</p></td>
+<td><p>Lcslog</p></td>
+<td><p>データをアーカイブするためのトランザクションログ</p></td>
 </tr>
 </tbody>
 </table>
 
 
-このトピックでは、ディスクおよび RAID セットについて説明します。SQL Server リソースの構成では、ディスクへの参照は単一のハードディスク デバイスへの参照を意味します。2 つのパーティションがある 1 台のハード ディスク ドライブ (1 つはログ ファイルを保持し、もう 1 つのパーティションはデータ ファイルを保持) は、2 台のディスクそれぞれがログ ファイル専用またはデータ ファイル専用になっている状態とは異なります。
+このトピックでは、ディスクと RAID セットへの参照が行われます。 ディスクを参照する SQL Server リソースの構成では、単一のハードウェアデバイスを指します。 2つのパーティション、1つのログファイルを保持する他のパーティションのハードディスクドライブは、それぞれログファイルまたはデータファイル専用の2つのディスクとは異なります。
 
-RAID セットの場合、さまざまなベンダーから出ている多様な RAID テクノロジが多数あります。また、ストレージ エリア ネットワーク (SAN) が急増しているため、RAID セットが単一のシステム専用にされることはほとんどありません。SQL Server を Lync Server 2013 で構成する場合のディスク レイアウトに最適な構成を決定するには、RAID または SAN ベンダーに相談する必要があります。
+RAID セットのリファレンスとして、さまざまなベンダーからのさまざまな RAID テクノロジが用意されています。 また、ストレージエリアネットワーク (SAN) が普及しているため、単一システム専用の RAID セットは非常にまれです。 Lync Server 2013 で SQL Server のパフォーマンスを構成する場合は、使用しているディスクレイアウトの最適な構成を判断するために、お使いの RAID または SAN ベンダーにお問い合わせください。
 
-また、すべてのディスク ドライブが同じように作成されるわけではありません。一部のディスク ドライブは他のディスク ドライブよりも高パフォーマンスになります。同じメーカーのドライブでも、回転速度、ハードウェアのキャッシュ サイズ、その他の要因により、パフォーマンスに差が生じることがあります。
+また、ディスクドライブがすべて同じではないことにも注意してください。他の機能よりも優れたパフォーマンスを発揮します。 同じ製造元のドライブでも、回転速度、ハードウェアキャッシュサイズ、その他の要因によってパフォーマンスが異なる場合があります。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

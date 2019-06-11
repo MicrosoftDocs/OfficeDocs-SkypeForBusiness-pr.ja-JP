@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblSkippedAffiliations'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblSkippedAffiliations
 ms:assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg558611(v=OCS.15)
-ms:contentKeyID: 48271218
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558611(v=OCS.15)
+ms:contentKeyID: 48183373
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 06269ede55a46757f78595d7573f3cd77414d1d5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848564"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の tblSkippedAffiliations
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblskippedaffiliations-in-lync-server-2013"></a>Lync Server 2013 の tblSkippedAffiliations
 
-tblSkippedAffiliations には、(通常は Active Directory ドメイン サービス アクセス エラーのため) 読み取ることができなかった所属が格納されます。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-12_
+
+tblSkippedAffiliations には、読み取ることができなかった所属先が含まれています (通常は Active Directory ドメインサービスアクセスエラーが原因です)。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -35,25 +55,25 @@ tblSkippedAffiliations には、(通常は Active Directory ドメイン サー�
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>NULL でない int</p></td>
+<td><p>int (null ではない)</p></td>
 <td><p>プリンシパル ID。</p></td>
 </tr>
 <tr class="even">
-<td><p>affDescription</p></td>
-<td><p>NULL でない nvarchar (256)</p></td>
-<td><p>所属を示す文字列。</p>
-<p>形式: guid: <em>{0}</em> uri: <em>{1}</em> &gt; id: <em>{2}</em></p></td>
+<td><p>影響の説明</p></td>
+<td><p>nvarchar (256)、null ではない</p></td>
+<td><p>所属を識別する文字列。</p>
+<p>形式は次のとおりです{0} : guid {1} &gt; : uri: id:{2}</p></td>
 </tr>
 <tr class="odd">
 <td><p>updatedBy</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>この行を更新したプリンシパルの ID。これらのエントリのソースは Active Directory の同期だけなので、常に 1 (システム ユーザー) です。</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>この行を更新したプリンシパルの ID です。 Active Directory 同期がこれらのエントリの唯一のソースであるため、常に 1 (システムユーザー) になります。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="keys"></a>機能
 
 <table>
 <colgroup>
@@ -68,13 +88,24 @@ tblSkippedAffiliations には、(通常は Active Directory ドメイン サー�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinID、affDescription&gt;</p></td>
+<td><p>&lt;prinID、の影響の説明&gt;</p></td>
 <td><p>主キー。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>tblPrincipal.prinID テーブルを参照する外部キー。</p></td>
+<td><p>TblPrincipal Id テーブルで参照される外部キー。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

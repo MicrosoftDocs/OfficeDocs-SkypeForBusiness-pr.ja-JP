@@ -1,39 +1,69 @@
-﻿---
-title: 移行フェーズ
-TOCTitle: 移行フェーズ
-ms:assetid: 71c7cb8e-45f8-441f-b433-03e3d9436992
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205002(v=OCS.15)
-ms:contentKeyID: 48272443
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 移行のフェーズ
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migration phases
+ms:assetid: 71c7cb8e-45f8-441f-b433-03e3d9436992
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205002(v=OCS.15)
+ms:contentKeyID: 48184494
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 943a569ead03901fd0da2f0bd9ef4931757f2d1d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848057"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 移行フェーズ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-08-29_
+# <a name="migration-phases"></a>移行のフェーズ
 
-以下のフェーズは、Office Communications Server 2007 R2 から Lync Server 2013 へのプールの移行プロセスを記述したものです。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-08-29_
+
+次のフェーズでは、Office Communications Server 2007 R2 から Lync Server 2013 へのプール移行のプロセスについて説明します。
 
   - [フェーズ 1: Office Communications Server 2007 R2 からの移行を計画する](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [フェーズ 2: 移行を準備する](phase-2-prepare-for-migration_1.md)
+  - [フェーズ 2: 移行の準備](phase-2-prepare-for-migration_1.md)
 
-  - [フェーズ 3: Lync Server 2013 パイロット プールを展開する](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [フェーズ 3: Lync Server 2013 パイロットプールの展開](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [フェーズ 4: トポロジを結合する](phase-4-merge-topologies.md)
+  - [フェーズ 4: トポロジの結合](phase-4-merge-topologies.md)
 
-  - [フェーズ 5: パイロット プールの構成](phase-5-configure-the-pilot-pool.md)
+  - [フェーズ 5: パイロットプールを構成する](phase-5-configure-the-pilot-pool.md)
 
-  - [フェーズ 6: ユーザーをパイロット プールに移動する](phase-6-move-users-to-the-pilot-pool.md)
+  - [フェーズ 6: ユーザーをパイロットプールに移動する](phase-6-move-users-to-the-pilot-pool.md)
 
-  - [フェーズ 7: Lync Server 2013 エッジ サーバーをパイロット プールに追加する](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [フェーズ 7: Lync Server 2013 エッジサーバーをパイロットプールに追加する](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [フェーズ 8: パイロット展開を運用展開に移行する](phase-8-move-from-pilot-deployment-into-production.md)
+  - [フェーズ 8: パイロット展開から実稼働への移行](phase-8-move-from-pilot-deployment-into-production.md)
 
   - [フェーズ 9: 移行後のタスクを完了する](phase-9-complete-post-migration-tasks.md)
 
-  - [フェーズ 10: 従来のサイトを使用停止にする](phase-10-decommission-legacy-site.md)
+  - [フェーズ 10: レガシサイトの廃止](phase-10-decommission-legacy-site.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

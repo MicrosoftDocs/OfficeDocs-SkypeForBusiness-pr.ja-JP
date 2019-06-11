@@ -1,29 +1,59 @@
-﻿---
-title: 仲介サーバーの移行
-TOCTitle: 仲介サーバーの移行
-ms:assetid: b0b77121-2c8f-413e-b276-dbf1038361d3
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205173(v=OCS.15)
-ms:contentKeyID: 48273287
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 仲介サーバーを移行する
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate Mediation Server
+ms:assetid: b0b77121-2c8f-413e-b276-dbf1038361d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205173(v=OCS.15)
+ms:contentKeyID: 48185117
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 79fc35a7641b4acb42578ec4e75375e171ae905e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848076"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 仲介サーバーの移行
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-28_
+# <a name="migrate-mediation-server"></a>仲介サーバーを移行する
 
-仲介サーバーは、マージ ウィザードの実行時に Lync Server 2013 のパイロット トポロジにマージされます。ただし、すべてのユーザーの移行後に Lync Server 2013 仲介サーバーの構成を行います。これは、Office Communications Server 2007 R2 プールが Lync Server 2013 仲介サーバーと通信できないからです。サイド バイ サイド移行では、Lync Server 2013 プールが Office Communications Server 2007 R2 仲介サーバーと通信します。
+</div>
 
-Lync Server 2013 仲介サーバーを構成すると、Office Communications Server 2007 R2 ゲートウェイのアップグレードまたは置き換えも必要になります。Office Communications Server 2007 R2 ゲートウェイは、Lync Server 2013 仲介サーバーをサポートしていません。Lync Server 2013 向けの認定ゲートウェイを展開し、Lync Server 2013 仲介サーバーに関連付ける必要があります。Office Communications Server 2007 R2 展開を完全に廃止するには、このステップが必要です。
+<div id="mainSection">
 
-このセクションのトピックでは、Lync Server 2013 仲介サーバーの移行を完了した後で行う必要がある構成タスクについて説明します。併置された仲介サーバーからスタンドアロンの仲介サーバーへの移行は、オプションのタスクです。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-28_
+
+統合ウィザードを実行すると、仲介サーバーが Lync Server 2013 パイロットトポロジに統合されます。 ただし、Office Communications Server 2007 R2 プールは Lync Server 2013 仲介サーバーと通信できないため、すべてのユーザーが移行した後で、Lync Server 2013 仲介サーバーを構成します。 並列での移行中に、Lync Server 2013 プールは、Office Communications Server 2007 R2 仲介サーバーと通信します。
+
+Lync Server 2013 仲介サーバーを構成する場合は、Office Communications Server 2007 R2 ゲートウェイもアップグレードまたは置き換える必要があります。 Office Communications Server 2007 R2 ゲートウェイは、Lync Server 2013 仲介サーバーをサポートしていません。 Lync Server 2013 で認定されているゲートウェイを展開して、Lync Server 2013 仲介サーバーと関連付ける必要があります。 Office Communications Server 2007 R2 の展開を完全に停止するには、この手順を実行する必要があります。
+
+このセクションのトピックでは、Lync Server 2013 仲介サーバーの移行を完了した後に実行する必要がある構成タスクについて説明します。 併置された仲介サーバーをスタンドアロンの仲介サーバーに移行することは、任意のタスクです。
 
   - [仲介サーバーを構成する](configure-mediation-server.md)
 
-  - [新しい Lync Server 2013 仲介サーバーを使用するようにボイス ルートを変更する](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
+  - [新しい Lync Server 2013 仲介サーバーを使用するようにボイスルートを変更する](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
 
-  - [併置された仲介サーバーをスタンドアロンの仲介サーバーに移行する (省略可能)](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+  - [併置した仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

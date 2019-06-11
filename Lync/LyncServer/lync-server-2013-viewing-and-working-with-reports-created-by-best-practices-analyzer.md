@@ -1,25 +1,59 @@
-﻿---
-title: ベスト プラクティス アナライザーで作成したレポートの表示および作業
-TOCTitle: ベスト プラクティス アナライザーで作成したレポートの表示および作業
-ms:assetid: 58a030ca-b827-4370-b848-1358c8bd2b68
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg607689(v=OCS.15)
-ms:contentKeyID: 48272189
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: ベストプラクティスアナライザーによって作成されたレポートの表示と操作
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing and working with reports created by Best Practices Analyzer
+ms:assetid: 58a030ca-b827-4370-b848-1358c8bd2b68
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607689(v=OCS.15)
+ms:contentKeyID: 48184215
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8261f5e2d474e30d919aa5bea1538ba8636be691
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848184"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ベスト プラクティス アナライザーで作成したレポートの表示および作業
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-06-14_
+# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でベストプラクティスアナライザーによって作成されたレポートを表示して操作する
 
-ベスト プラクティス アナライザーを使用して環境をスキャンすると、展開の問題点や他の情報を示すレポートが作成されます。ベスト プラクティス アナライザーを使用することにより、スキャン結果が含まれたレポートを表示し、レポートで特定された問題を把握できます。
+</div>
 
-## このセクション中
+<div id="mainSection">
 
-  - [ベスト プラクティス アナライザーによるレポートの表示](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
+<div id="mainBody">
 
-  - [ベスト プラクティス アナライザーで作成したレポートについて](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
+<span> </span>
+
+_**最終更新日:** 2012-06-14_
+
+ベストプラクティスアナライザーを使用して環境をスキャンすると、ベストプラクティスアナライザーによって、問題や展開に関するその他の情報を特定するレポートが作成されます。 ベストプラクティスアナライザーを使用して、スキャン結果が含まれているレポートを表示し、レポートで特定された問題について理解することができます。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 のベストプラクティスアナライザーからレポートを表示する](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
+
+  - [Lync Server 2013 のベストプラクティスアナライザーによって作成されたレポートについて](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

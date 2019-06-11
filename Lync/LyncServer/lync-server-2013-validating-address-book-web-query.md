@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Validating address book web query'
+---
+title: 'Lync Server 2013: アドレス帳の web クエリの検証'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Validating address book web query
 ms:assetid: e6ae0a5a-e131-4cfe-9a33-6e611831072d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn720925(v=OCS.15)
-ms:contentKeyID: 62246651
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720925(v=OCS.15)
+ms:contentKeyID: 63969662
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 44c43b4332be67bb164f21a2bb07459d61b23e85
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848255"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Validating address book web query in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="validating-address-book-web-query-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳 web クエリの検証
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-06-05_
 
 
 <table>
@@ -23,109 +43,135 @@ _**トピックの最終更新日:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>[毎日]</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsAddressBookWebQuery cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合、ユーザーには、テスト-CsAddressBookWebQuery コマンドレットを実行するアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAddressBookWebQuery&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsAddressBookWebQuery cmdlet enables administrators to verify that users can use the Address Book Web Query service to search for a specific contact. When you run the cmdlet, Test-CsAddressBookWebQuery will first connect to the Web Ticket service to be authenticated. If authentication is successful, the cmdlet will then connect to the Address Book Web Query service and search for the specified contact. If that contact is found, the cmdlet will attempt to return that information to the local computer. The test will be marked a success only if all those steps can be completed.
+## <a name="description"></a>説明
 
-For more information, see the Help documentation for the [Test-CsAddressBookWebQuery](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookWebQuery) cmdlet.
+ユーザーがアドレス帳 Web クエリサービスを使用して特定の連絡先を検索できることを、管理者が確認できるようにします。 コマンドレットを実行すると、まず、テスト用の Web チケットサービスに接続して認証されます。 認証が成功すると、コマンドレットはアドレス帳 Web クエリサービスに接続し、指定された連絡先を検索します。 その連絡先が見つかった場合、コマンドレットはローカルコンピューターにその情報を返します。 テストは、すべての手順が完了した場合にのみ成功としてマークされます。
 
-## Running the test
+詳細については、「[テスト-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery)コマンドレットのヘルプドキュメント」を参照してください。
 
-The Test-CsAddressBookWebQuery cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server pool and the SIP address of the user acting as the target of the search. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+テスト-CsAddressBookWebQuery コマンドレットは、事前に定義されたテストアカウント (「Lync Server テストを実行するためにテストアカウントをセットアップする」を参照)、または Lync Server を有効にしているユーザーのアカウントを使用して実行できます。 テストアカウントを使用してこのチェックを実行するには、Lync Server プールの FQDN と、検索のターゲットとして機能しているユーザーの SIP アドレスを指定する必要があります。 次に例を示します。
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com"
 
-To run this check using an actual user account, you must create a Windows PowerShell credentials object that contains a valid user name and password. You must then include that credentials object and the SIP address assigned to the account when the code calls Test-CsAddressBookWebQuery:
+実際のユーザーアカウントを使用してこのチェックを実行するには、有効なユーザー名とパスワードを含む Windows PowerShell 資格情報オブジェクトを作成する必要があります。 次に、コードが Test-CsAddressBookWebQuery を呼び出したときに、アカウントに割り当てられている資格情報オブジェクトと SIP アドレスを含める必要があります。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsAddressBookWebQuery](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookWebQuery) cmdlet.
+詳細については、「[テスト-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery)コマンドレットのヘルプドキュメント」を参照してください。
 
-## Determining success or failure
+</div>
 
-If the specified user can connect to the Address Book Service and retrieve the targeted user address, you'll return output similar to this with the Result property marked as Success:
+<div>
 
-TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-TargetFqdn : atl-cs-001.litwareinc.com
+指定したユーザーがアドレス帳サービスに接続し、ターゲットユーザーアドレスを取得できる場合は、次のような出力が返されます。これは、Success とマークされた Result プロパティによって返されます。
 
-Result : Success
+TargetUri :https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
-Latency : 00:00:06.2611356
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+結果: 成功
 
-Diagnosis :
+待ち時間:00:00: 06.2611356
 
-If the specified user can't connect or if the target user address cannot be retrieved, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+誤差
 
-TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+診断
 
-TargetFqdn : atl-cs-001.litwareinc.com
+指定したユーザーが接続できない場合、またはターゲットのユーザーアドレスを取得できない場合は、結果がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
 
-Result : Failure
+TargetUri :https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : Address Book Web service request has failed with response code
+結果: エラー
 
-NoEntryFound.
+待ち時間: 00:00:00
 
-Diagnosis :
+エラー: アドレス帳 Web サービスの要求は応答コードで失敗しました
 
-The previous output states that the test failed because the target user couldn't be found. You can determine whether or not a valid SIP address was passed to Test-CsAddressBookWebQuery by running a command similar to the following:
+NoEntryFound。
+
+診断
+
+前の出力では、ターゲットユーザーが見つからなかったため、テストが失敗したことが示されます。 次のようなコマンドを実行することで、有効な SIP アドレスが CsAddressBookWebQuery に渡されたかどうかを確認できます。
 
     Get-CsUser | Where-Object {$_.SipAddress -eq "sip:davidlongmire@litwareinc.com"
 
-If Test-CsAddressBookWebQuery fails, then you might want to rerun the test, this time including the Verbose parameter:
+テスト-CsAddressBookWebQuery が失敗した場合は、Verbose パラメーターも含めて、テストを再実行することをお勧めします。
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsAddressBookWebQuery will return a step-by-step account of each action it tried while checking the ability of the specified user to log on to Lync Server. For example, this output indicates that Test-CsAddressBookWebQuery was able to connect to the Address Book Service, but was not able to locate the target SIP address:
+Verbose パラメーターが含まれている場合は、指定したユーザーが Lync Server にログオンする機能を確認している間に、テスト-CsAddressBookWebQuery によって実行された各操作のステップバイステップのアカウントが返されます。 たとえば、次の出力は、テスト-CsAddressBookWebQuery がアドレス帳サービスに接続できましたが、ターゲット SIP アドレスが見つかりませんでした。
 
-'QueryAddressBookWebService' activity started.
+' QueryAddressBookWebService ' アクティビティが開始されました。
 
-Calling Address Book Web Query Service. ABWS URL =
+アドレス帳 Web クエリサービスを呼び出します。 ABWS URL =
 
 https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
-Address book query exception : Address Book Web service request has failed with response code NoEntryFound.
+アドレス帳のクエリ例外: アドレス帳 Web サービスの要求は、応答コード NoEntryFound で失敗しました。
 
-## Reasons Why the Test Might Have Failed
+</div>
 
-Here are some common reasons why Test-CsAddressBookWebQuery might fail:
+<div>
 
-  - You specified an invalid user account. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+
+次に、テストまたは CsAddressBookWebQuery が失敗する可能性がある一般的な理由を示します。
+
+  - 無効なユーザアカウントを指定しました。 次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is not currently enabled for Lync Server. To verify that a user account has been enabled for Lync Server, run a command similar to the following:
+  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server では有効になっていません。 Lync Server のユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False that means that the user is not currently enabled for Lync Server.
+    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server に対して有効になっていないことを意味します。
 
-  - The target user might not be in the Address Book.
+  - ターゲットユーザーがアドレス帳に登録されていない可能性があります。
 
-  - The Address Book might not have fully updated and replicated. You can force an update of all the Address Book Servers in your organization by running the following command:
+  - アドレス帳が完全に更新されて複製されていない可能性があります。 次のコマンドを実行して、組織内のすべてのアドレス帳サーバーを強制的に更新することができます。
     
         Update-CsAddressBook
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
