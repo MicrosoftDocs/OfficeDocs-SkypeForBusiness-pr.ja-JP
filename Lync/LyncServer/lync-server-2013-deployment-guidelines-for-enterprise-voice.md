@@ -1,71 +1,128 @@
-﻿---
-title: 'Lync Server 2013: エンタープライズ VoIP の展開ガイドライン'
-TOCTitle: エンタープライズ VoIP の展開ガイドライン
-ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398694(v=OCS.15)
-ms:contentKeyID: 48272806
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: エンタープライズ VoIP の展開ガイドライン'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment guidelines for Enterprise Voice
+ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)
+ms:contentKeyID: 48184733
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b0f4f6198f8fb82720834d112bcf363554aaf84d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833494"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のエンタープライズ VoIP の展開ガイドライン
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-21_
+# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="7e6b0-102">Lync Server 2013 のエンタープライズ VoIP の展開ガイドライン</span><span class="sxs-lookup"><span data-stu-id="7e6b0-102">Deployment guidelines for Enterprise Voice in Lync Server 2013</span></span>
 
-ここでは、Lync Server 2013 および エンタープライズ VoIP のワークロードの展開を計画するときに考慮する前提条件とその他のガイドラインについて説明します。
+</div>
 
-## 展開に関する前提条件
+<div id="mainSection">
 
-エンタープライズ VoIP を最適に展開できるように、IT インフラストラクチャ、ネットワーク、およびシステムが、次の前提条件を満たしていることを確認します。
+<div id="mainBody">
 
-  - Lync Server 2013 Standard Edition または Enterprise Edition がネットワーク上にインストールされ、実行されていること。
+<span> </span>
 
-  - 境界ネットワーク内にすべてのエッジ サーバー (アクセス エッジ サービス、音声ビデオ エッジ サービス、Web 会議エッジ サービス、およびリバース プロキシなどを備えたエッジ サーバー) が展開され、実行されていること。
+<span data-ttu-id="7e6b0-103">_**最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="7e6b0-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-  - 1 人以上のユーザーが作成され、Lync Server に対して有効化されていること。
+<span data-ttu-id="7e6b0-104">このトピックでは、Lync Server 2013 およびエンタープライズボイスワークロードの展開を計画する際に考慮する必要のある前提条件およびその他のガイドラインについて説明します。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-104">This topic describes prerequisites and other guidelines to consider when you are planning to deploy Lync Server 2013 and the Enterprise Voice workload.</span></span>
 
-  - Microsoft Exchange Server 2007 Service Pack 1 (SP1) 以上、または Microsoft Exchange Server 2010 がインストールされていること。Exchange ユニファイド メッセージング (UM) を Lync Server と統合し、優れた通話と通話ログ情報をクライアント エンドポイントに提供するには、これらのいずれかが必要です。
+<div>
 
-  - 一意の主要電話番号が指定され、正規化されており、エンタープライズ VoIP に対して有効化する各ユーザーの **msRTCSIP-line** 属性にコピーされていること。
+## <a name="deployment-prerequisites"></a><span data-ttu-id="7e6b0-105">展開の前提条件</span><span class="sxs-lookup"><span data-stu-id="7e6b0-105">Deployment Prerequisites</span></span>
+
+<span data-ttu-id="7e6b0-106">エンタープライズ Voip を展開するときに最適なエクスペリエンスを実現するには、IT インフラストラクチャ、ネットワーク、システムが次の前提条件を満たしていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-106">For an optimum experience when deploying Enterprise Voice, make sure that your IT infrastructure, network, and systems meet the following prerequisites:</span></span>
+
+  - <span data-ttu-id="7e6b0-107">Lync Server 2013 Standard Edition または Enterprise Edition がネットワークにインストールされ、動作する。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-107">Lync Server 2013 Standard Edition or Enterprise Edition is installed and operational on your network.</span></span>
+
+  - <span data-ttu-id="7e6b0-108">すべてのエッジサーバーは、アクセスエッジサービス、A/V Edge サービス、Web 会議エッジサービス、リバースプロキシなどのエッジサーバーを含む境界ネットワークに展開され、動作します。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-108">All Edge Servers are deployed and operational in your perimeter network, including Edge Servers with Access Edge service, A/V Edge service, Web Conferencing Edge service, and a reverse proxy.</span></span>
+
+  - <span data-ttu-id="7e6b0-109">Lync Server の1人以上のユーザーが作成され、有効になっている。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-109">One or more users have been created and enabled for Lync Server.</span></span>
+
+  - <span data-ttu-id="7e6b0-110">Microsoft Exchange Server 2007 Service Pack 1 (SP1) または最新の Service pack、または Microsoft Exchange Server 2010 がインストールされています。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-110">Microsoft Exchange Server 2007 Service Pack 1 (SP1) or latest service pack, or Microsoft Exchange Server 2010 is installed.</span></span> <span data-ttu-id="7e6b0-111">これらのいずれかを使用するには、Exchange ユニファイドメッセージング (UM) を Lync Server と統合し、クライアントエンドポイントに対して豊富な通知と通話ログ情報を提供する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-111">One of these is required for integrating Exchange Unified Messaging (UM) with Lync Server and to provide rich notifications and call log information to client endpoints.</span></span>
+
+  - <span data-ttu-id="7e6b0-112">エンタープライズ Voip が有効になっている各ユーザーの**msrtcsip-userenabled true**属性に、固有のプライマリ電話番号が指定、正規化、コピーされました。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-112">A unique primary phone number has been designated, normalized, and copied to the **msRTCSIP-line** attribute for each user who is to be enabled for Enterprise Voice.</span></span>
     
-    > [!NOTE]
-    > Lync Server では、E.164 番号に加え、Direct Inward Dialing (DID) 以外の番号がサポートされています。DID 以外の番号は、<strong>&lt;E.164&gt;;ext=&lt;extension&gt;</strong> 形式で、または数値の文字列で表記できます。数値の文字列を使用する場合は、個人用内線番号が企業内で一意である必要があります。たとえば、個人用内線番号が 1001 の場合は、<strong>+1425550100;ext=1001</strong> または <strong>1001</strong> と表記できます。<strong>1001</strong> と表記すると、その個人用内線番号が企業内で一意であると想定されます。
-
-
-  - エンタープライズ VoIP を展開する管理者が RTCUniversalServerAdmins グループのメンバーであること。
-
-  - 少なくとも Office Communicator 2007 が正常に展開されていること。このリリースの新しい機能を使用するには、Lync 2013 を展開します。
-
-  - マイクロソフトまたはサードパーティの CA (証明機関) インフラストラクチャのいずれかを使用して、MKI (Managed key infrastructure) が展開され、構成されていること。
-
-  - 仲介サーバーをインストールする各コンピューターの要件は次のとおりです。
+    <div>
     
-      - ドメインのメンバー サーバーであり、Active Directory ドメイン サービス 用に準備されていること。Active Directory ドメイン サービス の準備手順については、「展開」のドキュメントの「[Lync Server 2013 用の Active Directory ドメイン サービスの準備](lync-server-2013-preparing-active-directory-domain-services.md)」を参照してください。
+
+    > [!NOTE]  
+    > <span data-ttu-id="7e6b0-113">Lync Server は、電子番号をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-113">Lync Server supports E.164 numbers and non-Direct Inward Dialing (DID) numbers.</span></span> <span data-ttu-id="7e6b0-114">非表示の数値は、" <STRONG> &lt;e.i&gt;&lt;&gt; </STRONG> " または "内線" の形式で表すことができます。また、秘密の内線番号は企業全体で一意である必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-114">Non-DID numbers can be represented in the format <STRONG>&lt;E.164&gt;;ext=&lt;extension&gt;</STRONG> or as a string of digits, with the requirement that the private extension is unique across the enterprise.</span></span> <span data-ttu-id="7e6b0-115">たとえば、1001の秘密番号は、 <STRONG>+ 1425550100; ext = 1001</STRONG>、または<STRONG>1001</STRONG>として表すことができます。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-115">For example, a private number of 1001 can be represented as <STRONG>+1425550100;ext=1001</STRONG>, or as <STRONG>1001</STRONG>.</span></span> <span data-ttu-id="7e6b0-116"><STRONG>1001</STRONG>として表現された場合、このプライベート番号は企業全体で一意であるという期待があります。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-116">When represented as <STRONG>1001</STRONG>, the expectation is that this private number is unique across the enterprise.</span></span>
+
     
-      - 次のいずれかのオペレーティング システムを実行していること。
+    </div>
+
+  - <span data-ttu-id="7e6b0-117">エンタープライズボイスを展開する管理者は、RTCUniversalServerAdmins グループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-117">Administrators who deploy Enterprise Voice should be members of the RTCUniversalServerAdmins group.</span></span>
+
+  - <span data-ttu-id="7e6b0-118">少なくとも、Office Communicator 2007 が正常に展開されました。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-118">At a minimum, Office Communicator 2007 is successfully deployed.</span></span> <span data-ttu-id="7e6b0-119">このリリースの新機能を使用するには、Lync 2013 が展開されています。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-119">To use features new to this release, Lync 2013 is deployed.</span></span>
+
+  - <span data-ttu-id="7e6b0-120">管理キー基盤 (MKI) は、Microsoft またはサードパーティの証明機関 (CA) インフラストラクチャを使用して展開および構成されます。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-120">Managed key infrastructure (MKI) is deployed and configured, using either a Microsoft or a third-party certification authority (CA) infrastructure.</span></span>
+
+  - <span data-ttu-id="7e6b0-121">仲介サーバーをインストールするコンピューターごとに、次のことを行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-121">Each computer on which you install Mediation Server must be:</span></span>
+    
+      - <span data-ttu-id="7e6b0-122">ドメインのメンバーサーバーで、Active Directory ドメインサービスの準備ができていること。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-122">A member server of a domain, and prepared for Active Directory Domain Services.</span></span> <span data-ttu-id="7e6b0-123">Active Directory ドメインサービスの準備手順については、展開ドキュメントで「 [Lync Server 2013 用 Active Directory ドメインサービスの準備](lync-server-2013-preparing-active-directory-domain-services.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-123">For Active Directory Domain Services preparation procedures, see [Preparing Active Directory Domain Services for Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) in the Deployment documentation.</span></span>
+    
+      - <span data-ttu-id="7e6b0-124">次のいずれかのオペレーティングシステムを実行している。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-124">Running one of the following operating systems:</span></span>
         
-          - 64 ビット版の Windows Server 2008 Standard オペレーティング システム
+          - <span></span>  
+            <span data-ttu-id="7e6b0-125">64ビット版の Windows Server 2008 標準オペレーティングシステム</span><span class="sxs-lookup"><span data-stu-id="7e6b0-125">The 64-bit edition of the Windows Server 2008 Standard operating system</span></span>
         
-          - 64 ビット版の Windows Server 2008 Enterprise オペレーティング システム
+          - <span></span>  
+            <span data-ttu-id="7e6b0-126">Windows Server 2008 Enterprise オペレーティングシステムの64ビット版</span><span class="sxs-lookup"><span data-stu-id="7e6b0-126">The 64-bit edition of the Windows Server 2008 Enterprise operating system</span></span>
 
-  - 公衆交換電話網 (PSTN) または構内交換機 (PBX) への接続に時分割多重 (TDM) 接続を使用する場合は、1 つ以上の PSTN ゲートウェイを展開できること (接続に SIP トランクを使用する場合、PSTN ゲートウェイは不要です)。
+  - <span data-ttu-id="7e6b0-127">公衆交換電話網 (PSTN) または構内交換機 (PBX) への接続が、Time 除算多重 (TDM) 接続によって使用されている場合は、1つ以上の PSTN ゲートウェイを展開することができます。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-127">If the connection to the public switched telephone network (PSTN) or private branch exchange (PBX) is by means of a Time Division Multiplexing (TDM) connection, one or more PSTN gateways are available for deployment.</span></span> <span data-ttu-id="7e6b0-128">(接続が SIP トランクを使っている場合、PSTN ゲートウェイは必要ありません)。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-128">(If the connection is by means of a SIP trunk, a PSTN gateway is not required.)</span></span>
 
-## 電力、ネットワーク、または電話サービスの停止
+</div>
 
-電力、ネットワーク、または電話サービスの停止、中断、障害などが発生すると、Lync Server の音声通話、インスタント メッセージング、プレゼンスなどの機能や、Lync Server に接続されるデバイスが正常に機能しなくなることがあります。
+<div>
 
-## エンタープライズ VoIP が、サーバーの可用性と VoIP クライアントおよびハードウェアの正常動作に依存する
+## <a name="power-network-or-telephone-service-outages"></a><span data-ttu-id="7e6b0-129">電源、ネットワーク、または電話サービスの停止</span><span class="sxs-lookup"><span data-stu-id="7e6b0-129">Power, Network, or Telephone Service Outages</span></span>
 
-Lync Server による音声通信は、サーバー ソフトウェアの可用性と、サーバー ソフトウェアに接続する VoIP クライアントまたはハードウェア電話デバイスの正常な動作に依存します。
+<span data-ttu-id="7e6b0-130">お客様の所在地での電源、ネットワーク、または電話サービスの停止、中断、またはその他のパフォーマンス低下が発生した場合は、Lync Server および Lync Server に接続されたデバイスの音声、インスタントメッセージ、プレゼンス、その他の機能が正常に動作しないことがあります。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-130">If there is an outage, disruption, or other degradation of the power, network, or telephone services at your location, the voice, instant messaging, presence, and other features of Lync Server and any device connected to Lync Server may not work properly.</span></span>
 
-## 緊急サービスへの代替アクセス手段
+</div>
 
-VoIP クライアントのインストール先 (Lync クライアントを実行するコンピューターや Lync Phone Edition デバイスなど) には、停電、ネットワーク接続の不具合、電話サービスの停止など、Lync Server、Lync、または Lync Phone Edition デバイスの動作を阻害する可能性のある問題が発生した場合に備え、ユーザーが緊急サービス (911 や 999 など) に連絡するためのバックアップ オプションを組み込むことをお勧めします。このような代替オプションには、標準公衆交換電話網回線に接続された電話、携帯電話などが含まれます。
+<div>
 
-## 緊急呼び出しと複数回線電話システム
+## <a name="enterprise-voice-depends-on-server-availability-and-voice-client-and-hardware-operability"></a><span data-ttu-id="7e6b0-131">エンタープライズ Voip は、サーバーの可用性と音声クライアントとハードウェアの運用性に依存</span><span class="sxs-lookup"><span data-stu-id="7e6b0-131">Enterprise Voice Depends on Server Availability and Voice Client and Hardware Operability</span></span>
 
-複数回線電話システム (MLTS) を使用する場合は、緊急サービスに電話をかけたときに (911、999 など、緊急アクセス番号をダイヤルする場合など)、MLTS が発信者の電話番号、内線番号、または住所を該当する緊急サービスに知らせることを義務付ける米国の州や国の法令または他の国/地域の法令が適用される場合があります。このリリースでは、発信者の住所を緊急サービス プロバイダーに提供するように Lync Server を構成できます。この方法は、「[Lync Server 2013 での緊急サービス (E9-1-1) の計画](lync-server-2013-planning-for-emergency-services-e9-1-1.md)」に記載されています。Lync Server、Lync クライアント、および Lync Phone Edition デバイスの購入者が、自己の責任で MLTS 法令に準拠することが必要となります。
+<span data-ttu-id="7e6b0-132">Lync Server との音声通信は、サーバーソフトウェアの可用性と、サーバーソフトウェアに接続する音声クライアントまたはハードウェア電話デバイスの適切な機能によって異なります。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-132">Voice communications with Lync Server depend upon the availability of the server software and the proper functioning of the voice clients or the hardware phone devices connecting to the server software.</span></span>
+
+</div>
+
+<div>
+
+## <a name="alternative-means-of-accessing-emergency-services"></a><span data-ttu-id="7e6b0-133">緊急サービスへのアクセスの代替手段</span><span class="sxs-lookup"><span data-stu-id="7e6b0-133">Alternative Means of Accessing Emergency Services</span></span>
+
+<span data-ttu-id="7e6b0-134">音声クライアント (たとえば、Lync クライアントまたは Lync Phone Edition のデバイスを実行している PC) をインストールする場合は、電源障害が発生した場合に緊急サービス (911 や999など) を呼び出すためのバックアップオプションを維持することをお勧めします。または、ネットワーク接続の低下、電話サービスの停止、lync Server、Lync、Lync Phone Edition のデバイスの操作を妨げる可能性があるその他の問題が発生します。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-134">For those locations where you install a voice client (for example, a PC running Lync client or an Lync Phone Edition device), we recommend that you maintain a backup option for users to call emergency services (for example, 911 or 999) in case of a power failure, network connectivity degradation, telephone service outage, or other issue that may inhibit operation of Lync Server, Lync, or Lync Phone Edition devices.</span></span> <span data-ttu-id="7e6b0-135">このような代替オプションには、標準の公衆交換電話網回線または携帯電話に接続された電話が含まれている場合があります。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-135">Such alternative options could include a telephone connected to a standard public switched telephone network line or a cell phone.</span></span>
+
+</div>
+
+<div>
+
+## <a name="emergency-calls-and-multi-line-telephone-systems"></a><span data-ttu-id="7e6b0-136">緊急通話と複数回線電話システム</span><span class="sxs-lookup"><span data-stu-id="7e6b0-136">Emergency Calls and Multi-Line Telephone Systems</span></span>
+
+<span data-ttu-id="7e6b0-137">複数行の電話システム (MLTS) を使用する場合は、米国の州または連邦法が必要となる場合があります。これには、発信者の電話番号、内線番号、またはその他の国/地域の法律が必要であり、発信者は、緊急サービス (911 や999などのエマージェンシーアクセス番号をダイヤルするときなど) に設定されます。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-137">The use of a multiline telephone system (MLTS) may be subject to U.S state or federal laws or the laws of other countries/regions that require the MLTS to provide a caller’s telephone number, extension, and/or physical location to applicable emergency services when a caller is placed to emergency services (for example, when dialing an emergency access number such as 911 or 999).</span></span> <span data-ttu-id="7e6b0-138">このリリースでは、 [lync server 2013 の緊急サービス (E9) の計画](lync-server-2013-planning-for-emergency-services-e9-1-1.md)に記載されているように、発信者の物理的な場所を緊急サービスプロバイダーに提供するように構成することができます。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-138">In this release, Lync Server can be configured to provide a caller’s physical location to an emergency services provider, as described in [Planning for emergency services (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).</span></span> <span data-ttu-id="7e6b0-139">MLTS 法へのコンプライアンスは、Lync Server、Lync クライアント、Lync Phone Edition デバイスの購入者に対する唯一の責任となります。</span><span class="sxs-lookup"><span data-stu-id="7e6b0-139">Compliance with MLTS laws is the sole responsibility of the purchaser of Lync Server, Lync client, and Lync Phone Edition devices.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

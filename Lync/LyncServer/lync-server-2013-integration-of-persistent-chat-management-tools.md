@@ -1,31 +1,64 @@
-﻿---
-title: 'Lync Server 2013: 常設チャット管理ツールの統合'
-TOCTitle: 常設チャット管理ツールの統合
-ms:assetid: 5231aec7-5046-4052-800b-3b63806b9558
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688057(v=OCS.15)
-ms:contentKeyID: 49886956
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 常設チャット管理ツールの統合'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Integration of Persistent Chat management tools
+ms:assetid: 5231aec7-5046-4052-800b-3b63806b9558
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688057(v=OCS.15)
+ms:contentKeyID: 49733651
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 120991c749201dc507edcd5f15f451a4fe5da621
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832962"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での常設チャット管理ツールの統合
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-08-16_
+# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a><span data-ttu-id="3f45b-102">Lync Server 2013 での常設チャット管理ツールの統合</span><span class="sxs-lookup"><span data-stu-id="3f45b-102">Integration of Persistent Chat management tools in Lync Server 2013</span></span>
 
-Lync Server 2013 では、Lync Server の他の部分で使用されるツールと管理ツールの統合により、常設チャット サーバーを効率的に管理できます。
+</div>
 
-常設チャット サーバーには、Lync Server コントロール パネルと統合された管理ユーザー インターフェイス環境が用意されています。また、常設チャット サーバーには、常設チャット サーバーのカテゴリ、ルーム (ルームおよび古いコンテンツの削除を含む)、およびアドインを管理するための一連の Windows PowerShell コマンドレットも含まれます。
+<div id="mainSection">
 
-## 関連項目
+<div id="mainBody">
 
-#### 概念
+<span> </span>
 
-[Lync Server 2013 の常設チャット サーバーの概要](lync-server-2013-overview-of-persistent-chat-server.md)  
+<span data-ttu-id="3f45b-103">_**最終更新日:** 2012-08-16_</span><span class="sxs-lookup"><span data-stu-id="3f45b-103">_**Topic Last Modified:** 2012-08-16_</span></span>
 
-#### その他のリソース
+<span data-ttu-id="3f45b-104">Lync Server 2013 は、管理ツールと Lync Server の他の部分で使用されるツールを統合することで、常設チャットサーバーの管理を簡素化します。</span><span class="sxs-lookup"><span data-stu-id="3f45b-104">Lync Server 2013 simplifies the administration of Persistent Chat Server by integrating its administration tools with the tools used for the rest of Lync Server.</span></span>
 
-[Lync Server 2013、常設チャット サーバーの管理](managing-lync-server-2013-persistent-chat-server.md)
+<span data-ttu-id="3f45b-105">常設チャットサーバーには、Lync Server コントロールパネルと統合された管理ユーザーインターフェイスエクスペリエンスが含まれています。</span><span class="sxs-lookup"><span data-stu-id="3f45b-105">Persistent Chat Server includes an administrative user interface experience integrated with the Lync Server Control Panel.</span></span> <span data-ttu-id="3f45b-106">また、常設チャットサーバーには Windows PowerShell コマンドレットのコレクションが含まれており、常設チャットサーバーのカテゴリ、会議室 (会議室の削除、廃止されたコンテンツの削除など)、アドインを管理して管理します。</span><span class="sxs-lookup"><span data-stu-id="3f45b-106">Also, Persistent Chat Server includes a collection of Windows PowerShell cmdlets to administer and manage Persistent Chat Server categories, rooms (including deleting rooms and purging obsolete content), and add-ins.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="3f45b-107">関連項目</span><span class="sxs-lookup"><span data-stu-id="3f45b-107">See Also</span></span>
+
+
+[<span data-ttu-id="3f45b-108">Lync Server 2013 の常設チャット サーバーの概要</span><span class="sxs-lookup"><span data-stu-id="3f45b-108">Overview of Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-overview-of-persistent-chat-server.md)  
+
+
+[<span data-ttu-id="3f45b-109">Lync Server 2013、常設チャット サーバーの管理</span><span class="sxs-lookup"><span data-stu-id="3f45b-109">Managing Lync Server 2013, Persistent Chat Server</span></span>](managing-lync-server-2013-persistent-chat-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

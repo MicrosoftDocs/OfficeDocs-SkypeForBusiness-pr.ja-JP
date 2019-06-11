@@ -1,47 +1,86 @@
-﻿---
-title: 'Lync Server 2013: エッジ サーバーのインストール'
-TOCTitle: エッジ サーバーのインストール
-ms:assetid: 1655ab69-3899-4ee4-a1cc-8243bc1bfa0f
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398230(v=OCS.15)
-ms:contentKeyID: 48271375
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: エッジ サーバーのインストール'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install Edge Servers
+ms:assetid: 1655ab69-3899-4ee4-a1cc-8243bc1bfa0f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398230(v=OCS.15)
+ms:contentKeyID: 48183503
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 211baa13f80e89fa081b6bf65d4bd7e90d50d000
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833006"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のエッジ サーバーのインストール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-08_
+# <a name="install-edge-servers-for-lync-server-2013"></a><span data-ttu-id="660af-102">Lync Server 2013 のエッジ サーバーのインストール</span><span class="sxs-lookup"><span data-stu-id="660af-102">Install Edge Servers for Lync Server 2013</span></span>
 
-エッジ サーバーに Lync Server 2013 をインストールするには、Lync Server 展開ウィザードを使用します。各エッジ サーバーで展開ウィザードを実行することにより、エッジ サーバーのセットアップに必要なタスクの大部分を完了できます。エッジ サーバーに Lync Server 2013 を展開するためには、事前に トポロジ ビルダーを実行してエッジ サーバー トポロジを定義および公開し、それをエッジ サーバーから利用できるメディアにエクスポートしておく必要があります。詳細については、「[Lync Server 2013 の外部ユーザー アクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」および「[エッジ インストール用の Lync Server 2013 のトポロジをエクスポートして外部メディアにコピーする](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)」を参照してください。
+</div>
 
-展開ウィザードを使用して各エッジ サーバーをインストールした後、必要な証明書をインストールして割り当てて、必要なサービスを開始します。「[Lync Server 2013 での外部ユーザー アクセスのサポートの構成](lync-server-2013-configuring-support-for-external-user-access.md)」を参照して外部ユーザーのアクセスを有効化および構成し、「[Lync Server 2013 でのエッジの展開の検証](lync-server-2013-verifying-your-edge-deployment.md)」を参照してサーバーおよびクライアント間接続を含むセットアップを検証することで、セットアップを完了させることできます。
+<div id="mainSection">
 
-## エッジ サーバーをインストールするには
+<div id="mainBody">
 
-1.  Administrators グループのメンバーとして、または同等の権限およびアクセス権を有するアカウントとして、エッジ サーバーをインストールするコンピューターにログオンします。
+<span> </span>
 
-2.  トポロジ ビルダーを使用して作成し、外部メディアにエクスポートしてコピーしたトポロジ構成ファイルがエッジ サーバーで利用できる状態になっていることを確認します (たとえば、トポロジ構成ファイルをコピーした USB ドライブにアクセスするか、ファイルをコピーしたネットワーク共有へのアクセスを確認します)。
+<span data-ttu-id="660af-103">_**最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="660af-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-3.  展開ウィザードを開始します。
+<span data-ttu-id="660af-104">Lync Server 2013 は、Lync Server 展開ウィザードを使って、エッジサーバーにインストールします。</span><span class="sxs-lookup"><span data-stu-id="660af-104">You install Lync Server 2013 on Edge Servers by using Lync Server Deployment Wizard.</span></span> <span data-ttu-id="660af-105">各エッジサーバーで展開ウィザードを実行することで、エッジサーバーのセットアップに必要なほとんどのタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="660af-105">By running the Deployment Wizard on each Edge Server, you can complete most of the tasks required to set up the Edge Server.</span></span> <span data-ttu-id="660af-106">エッジサーバーに Lync Server 2013 を展開するには、既にトポロジビルダーを実行して、エッジサーバートポロジを定義および公開し、エッジサーバーから入手できるメディアにエクスポートする必要があります。</span><span class="sxs-lookup"><span data-stu-id="660af-106">In order to deploy Lync Server 2013 on an Edge Server, you must have already run Topology Builder to define and publish your Edge Server topology, and exported it to media that is available from the Edge Server.</span></span> <span data-ttu-id="660af-107">詳細については、「 [Lync server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」および「 [lync server 2013 トポロジをエクスポートして、edge インストール用の外部メディアにコピーする](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="660af-107">For details, see [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) and [Export your Lync Server 2013 topology and copy it to external media for edge installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).</span></span>
+
+<span data-ttu-id="660af-108">展開ウィザードを使用して各エッジサーバーをインストールし、必要な証明書をインストールして割り当て、必要なサービスを開始すると、 [Lync server 2013 で外部ユーザーアクセスのサポートを構成する方法に関する情報を使用して、セットアップを完了することができます。](lync-server-2013-configuring-support-for-external-user-access.md)外部ユーザーアクセスを有効にして構成するには、「 [Lync server 2013 での edge の展開を確認](lync-server-2013-verifying-your-edge-deployment.md)して、サーバーとクライアントの接続などのセットアップを検証する」の情報を有効にして構成します。</span><span class="sxs-lookup"><span data-stu-id="660af-108">After using the Deployment Wizard to install each Edge Server, install and assign the required certificates, and start the required services, you can complete the setup by using the information in [Configuring support for external user access in Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) to enable and configure external user access and the information in [Verifying your edge deployment in Lync Server 2013](lync-server-2013-verifying-your-edge-deployment.md) to validate the setup, including server and client connectivity.</span></span>
+
+<div>
+
+## <a name="to-install-an-edge-server"></a><span data-ttu-id="660af-109">エッジサーバーをインストールするには</span><span class="sxs-lookup"><span data-stu-id="660af-109">To install an Edge Server</span></span>
+
+1.  <span data-ttu-id="660af-110">エッジサーバーをローカルの管理者グループのメンバーまたは同等のユーザー権限とアクセス許可を持つアカウントとしてインストールするコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="660af-110">Log on to the computer on which you want to install your Edge Server as a member of the local Administrators group or an account with equivalent user rights and permissions.</span></span>
+
+2.  <span data-ttu-id="660af-111">トポロジビルダーを使用して作成したトポロジ構成ファイルと、外部メディアにエクスポートしてコピーしたものは、Edge サーバーで利用できます (たとえば、トポロジ構成ファイルをコピーした USB ドライブにアクセスするか、確認してください)。ファイルをコピーしたネットワーク共有にアクセスします)。</span><span class="sxs-lookup"><span data-stu-id="660af-111">Ensure that the topology configuration file you created using Topology Builder, and then exported and copied to external media, is available on the Edge Server (for example, access to the USB drive onto which you copied the topology configuration file, or verify access to the network share where you copied the file).</span></span>
+
+3.  <span data-ttu-id="660af-112">展開ウィザードを開始します。</span><span class="sxs-lookup"><span data-stu-id="660af-112">Start the Deployment Wizard.</span></span>
     
-    > [!NOTE]
-    > Microsoft Visual C++ (再頒布可能) をインストール必要があるというメッセージが表示されたら、[<strong>はい</strong>] をクリックします。 次のダイアログ ボックスで、既定の [<strong>インストール先</strong>] をそのまま使用するか、または [<strong>参照</strong>] をクリックして別のロケーションを選択し、[<strong>インストール</strong>] をクリックします。 次のダイアログ ボックスで、[<strong>使用許諾契約書に同意します</strong>] チェック ボックスをオンにし、[<strong>OK</strong>] をクリックします。
-
-
-4.  展開ウィザードで、\[**Lync Server システムのインストールまたは更新**\] をクリックします。
-
-5.  ウィザードが展開状態を判別した後、\[**手順 1: ローカル構成ストアのインストール**\] で \[**実行**\] をクリックし、次の手順に従います。
+    <div>
     
-      - \[**中央管理ストアのローカル レプリカの構成**\] ダイアログ ボックスで、\[**ファイルからインポートする (エッジ サーバーで推奨)**\] をクリックします。エクスポートしたトポロジ構成ファイルのロケーションに進み, .zip ファイルを選択し、\[**開く**\] をクリックします。そして、\[**次へ**\] をクリックします。
-    
-      - 展開ウィザードが構成ファイルから構成情報を読み取り、ローカル コンピューターへ XML 構成ファイルを書き込みます。
-    
-      - \[**コマンドの実行**\] プロセスが完了した後、\[**終了**\] をクリックします。
 
-6.  展開ウィザードで \[**手順 2: Lync Server コンポーネントの設定または削除**\] をクリックし、ローカル コンピューターに格納された XML 構成ファイルで指定されている Lync Server 2013 エッジ コンポーネントをインストールします。
+    > [!NOTE]  
+    > <span data-ttu-id="660af-113">Microsoft Visual C++ 再頒布可能パッケージをインストールする必要があるというメッセージが表示されたら、[<STRONG>はい</STRONG>] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="660af-113">If you get a message saying that you need to install Microsoft Visual C++ Redistributable, click <STRONG>Yes</STRONG>.</span></span> <span data-ttu-id="660af-114">次のダイアログボックスでは、既定の<STRONG>インストール場所</STRONG>をそのまま使用するか、[<STRONG>参照</STRONG>] をクリックして別の場所を選択し、[<STRONG>インストール</STRONG>] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="660af-114">In the next dialog box, you can accept the default <STRONG>Installation Location</STRONG> or click the <STRONG>Browse</STRONG> to select an alternate location, and then click <STRONG>Install</STRONG>.</span></span> <span data-ttu-id="660af-115">次のダイアログボックスで、[<STRONG>使用許諾契約書の条項に同意</STRONG>します] チェックボックスをオンにし、[ <STRONG>OK</STRONG>] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="660af-115">In the next dialog box, select the <STRONG>I accept the terms in the license agreement</STRONG> check box, and then click <STRONG>OK</STRONG>.</span></span>
 
-7.  インストールが完了した後、「[Lync Server 2013 用のエッジ証明書のセットアップ](lync-server-2013-set-up-edge-certificates.md)」を参照し、サービスを開始する前に必要な証明書をインストールし、割り当てます。
+    
+    </div>
+
+4.  <span data-ttu-id="660af-116">展開ウィザードで、[ **Lync Server System のインストールまたは更新**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="660af-116">In the Deployment Wizard, click **Install or Update Lync Server System**.</span></span>
+
+5.  <span data-ttu-id="660af-117">ウィザードによって、手順1の展開状態が決定された後 **。ローカル構成ストアをインストール**し、[**実行**] をクリックして、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="660af-117">After the wizard determines the deployment state, for **Step 1. Install Local Configuration Store**, click **Run** and then do the following:</span></span>
+    
+      - <span data-ttu-id="660af-118">[**セントラル管理ストアのローカルレプリカの構成**] ダイアログボックスで、[**ファイルからインポートする (Edge サーバーに推奨)**] をクリックし、エクスポートされたトポロジ構成ファイルの場所に移動して、.zip ファイルを選択し、[**開く**] をクリックして、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="660af-118">In the **Configure Local Replica of Central Management Store** dialog box, click **Import from a file (Recommended for Edge Servers)**, go to the location of the exported topology configuration file, select the .zip file, click **Open**, and then click **Next**.</span></span>
+    
+      - <span data-ttu-id="660af-119">展開ウィザードは、構成ファイルから構成情報を読み取り、その XML 構成ファイルをローカルコンピューターに書き込みます。</span><span class="sxs-lookup"><span data-stu-id="660af-119">The Deployment Wizard reads the configuration information from the configuration file and writes the XML configuration file to the local computer.</span></span>
+    
+      - <span data-ttu-id="660af-120">[**コマンドの実行**] プロセスが完了した後、[**終了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="660af-120">After the **Executing Commands** process is finished, click **Finish**.</span></span>
+
+6.  <span data-ttu-id="660af-121">展開ウィザードで、[**手順 2: Lync サーバーコンポーネントをセットアップまたは削除**する] をクリックして、ローカルコンピューターに保存されている XML 構成ファイルで指定されている lync server 2013 edge コンポーネントをインストールします。</span><span class="sxs-lookup"><span data-stu-id="660af-121">In the Deployment Wizard, click **Step 2: SetUp or Remove Lync Server Components** to install the Lync Server 2013 edge components specified in the XML configuration file that is stored on the local computer.</span></span>
+
+7.  <span data-ttu-id="660af-122">インストールが完了したら、サービスを開始する前に、 [Lync Server 2013 の Edge 証明書のセットアップ](lync-server-2013-set-up-edge-certificates.md)に関する情報を使用して、必要な証明書をインストールして割り当てます。</span><span class="sxs-lookup"><span data-stu-id="660af-122">After completing the installation, use the information in [Set up Edge certificates for Lync Server 2013](lync-server-2013-set-up-edge-certificates.md) to install and assign the required certificates before you start services.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

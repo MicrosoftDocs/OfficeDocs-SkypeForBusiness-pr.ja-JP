@@ -1,45 +1,79 @@
-﻿---
-title: 'Lync Server 2013: データの収集'
-TOCTitle: データの収集
-ms:assetid: e40b03e5-455d-4bbc-831a-c61b1380db53
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg399008(v=OCS.15)
-ms:contentKeyID: 48273973
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: データの収集'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Data collection
+ms:assetid: e40b03e5-455d-4bbc-831a-c61b1380db53
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399008(v=OCS.15)
+ms:contentKeyID: 48185722
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: df4f19df012dfeac7576cc5b39d749564a4350a1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833740"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のデータの収集
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-08_
+# <a name="data-collection-in-lync-server-2013"></a><span data-ttu-id="1a253-102">Lync Server 2013 のデータの収集</span><span class="sxs-lookup"><span data-stu-id="1a253-102">Data collection in Lync Server 2013</span></span>
 
-Microsoft Lync Server 2013通信ソフトウェアでは、既存および提案されている IP アドレスとエッジ サーバーの完全修飾ドメイン名 (FQDN) を記録せずに、 Microsoft Lync Server 2013、計画ツールを実行できます。ただし、そのような記録なしで構成エラーを回避するのはかなり困難です。たとえば、ある期間に共存が必要である場合には、 Lync Server 2013 のエッジ展開に既存エッジ展開の FQDN を再び使用してしまうという間違いがよく起こります。既存および提案されている IP アドレスと FQDN をスプレッドシート、テーブル、その他のビジュアル フォームに書き留めておくことで、インストール中の設定問題を防止できます。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="1a253-103">_**最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="1a253-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+
+<span data-ttu-id="1a253-104">Microsoft Lync Server 2013 通信ソフトウェアでは、既存および提案された IP アドレスとエッジサーバーの完全修飾ドメイン名 (Fqdn) を文書化することなく、Microsoft Lync Server 2013、計画ツールを実行できますが、これは非常に困難です。そのため、構成エラーが発生することはありません。</span><span class="sxs-lookup"><span data-stu-id="1a253-104">In Microsoft Lync Server 2013 communications software, you can run the Microsoft Lync Server 2013, Planning Tool without documenting your existing and proposed IP addresses and Edge Server fully qualified domain names (FQDNs), but it is significantly harder to do so without causing configuration errors.</span></span> <span data-ttu-id="1a253-105">たとえば、一定の期間共存が必要な場合は、Lync Server 2013 Edge の展開のために既存のエッジ展開から Fqdn を再利用することがよくあります。</span><span class="sxs-lookup"><span data-stu-id="1a253-105">For example, if coexistence is required for a period of time, a common mistake is to reuse FQDNs from an existing Edge deployment for your Lync Server 2013 Edge deployment.</span></span> <span data-ttu-id="1a253-106">既存の IP アドレスと Fqdn をスプレッドシート、表、またはその他の視覚的な形式で書き留めておくと、インストール時のセットアップの問題を防ぐのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="1a253-106">By having the existing and proposed IP addresses and FQDNs written down in a spreadsheet, table, or other visual form, you help prevent setup problems during installation.</span></span>
+
+<div>
 
 
-> [!WARNING]
-> 以前のバージョンの 計画ツールを使用してトポロジを作成し、 トポロジ ビルダーで使用するトポロジ ドキュメントをエクスポートし、トポロジを公開する場合がありました。 計画ツールでは、トポロジをエクスポートする機能が削除されました。以前のバージョンの 計画ツールを使用して、 Lync Server 2013 のトポロジ ドキュメントを作成することはお勧めできません。以前のバージョンを使用すると、予期しない結果が発生します。
+> [!WARNING]  
+> <span data-ttu-id="1a253-107">計画ツールの以前のバージョンを使用したことがある場合は、トポロジの作成にこのツールを使用し、トポロジビルダーで使用するトポロジドキュメントをエクスポートしてトポロジを公開している可能性があります。</span><span class="sxs-lookup"><span data-stu-id="1a253-107">If you have used previous versions of the Planning Tool, you may have used the tool to create your topology and the exported the topology document for use in Topology Builder to publish your topology.</span></span> <span data-ttu-id="1a253-108">トポロジのエクスポート機能が計画ツールから削除されました。</span><span class="sxs-lookup"><span data-stu-id="1a253-108">The ability to export the topology was removed from Planning Tool.</span></span> <span data-ttu-id="1a253-109">以前のバージョンの計画ツールを使用して、Lync Server 2013 のトポロジドキュメントを作成することはお勧めできません。予期しない結果が生成されます。</span><span class="sxs-lookup"><span data-stu-id="1a253-109">Using a previous version of the Planning Tool to create a topology document for Lync Server 2013 is strongly discouraged, and will produce unexpected results.</span></span>
 
 
 
-そのため、エッジ トポロジに対応した以下のデータ収集テンプレートを使用して、 計画ツール に入力する必要があるさまざまな FQDN と IP アドレスを収集することをお勧めします。現在の構成と提案されている構成を記録して、運用環境の適切なコンテキストに値を入力できます。また、簡単な URL、ファイル共有、負荷分散などの新機能および共存をどのように構成するかを検討できます。
+</div>
 
-Microsoft Lync Server 2013 を正しく展開するには、個々のコンポーネントの相互作用を理解することが必要です。既存のネットワークおよびサーバー インフラストラクチャからデータを収集し、これらのセクションの計画のガイドラインを適用することによって、 Lync Server 2013エッジ サーバー コンポーネントをインフラストラクチャに統合することができます。
+<span data-ttu-id="1a253-110">したがって、推奨される方法は、次のデータコレクションテンプレートを使用することです。これは、Edge トポロジに対応しており、計画ツールに入力する必要があるさまざまな FQDN と IP アドレスを収集します。</span><span class="sxs-lookup"><span data-stu-id="1a253-110">Therefore, the recommended approach is to use the following data collection template, which corresponds to your Edge topology, to gather the various FQDN and IP addresses that you will need to enter into the Planning Tool.</span></span> <span data-ttu-id="1a253-111">現在の構成と提案された構成を文書化することで、実稼働環境の適切なコンテキストに値を配置することができます。</span><span class="sxs-lookup"><span data-stu-id="1a253-111">By documenting the current and proposed configuration, you can put the values in the proper context for your production environment.</span></span> <span data-ttu-id="1a253-112">また、単純な Url、ファイル共有、負荷分散などの共存と機能をどのように構成するかを考える必要があります。</span><span class="sxs-lookup"><span data-stu-id="1a253-112">And, you are forced to think about how you will configure coexistence and features such as simple URLs, file shares, and load balancing.</span></span>
 
-「[Lync Server 2013 でのトポロジの選択](lync-server-2013-choosing-a-topology.md)」で紹介したように、展開シナリオとしては 3 つの主要なアーキテクチャと 2 つの変化形があり、合計 5 つのシナリオが使用できます。これらのシナリオの 1 つが、データ収集の開始点となります。IP アドレス、サーバー名、およびドメイン名などを、適合する証明書、ファイアウォール、および DNS のダイアグラムと一致させます。これらは、計画ソリューションの完成に必要な情報の詳細です。ダイアグラム、および、必要な証明書、DNS、ファイアウォールの値を設定することの意義が特に重要となるのは、複数チームにわたる通信で、証明機関、ファイアウォール構成、および DNS の管理が、展開を計画したチーム以外のチームによって行われる場合です。ダイアグラムは、複数チームにわたるグループ作業で必要となるこれらの値を通信する際に使用される、必要なコンポーネントに関する情報を提供します。
+<span data-ttu-id="1a253-113">Microsoft Lync Server 2013 を正常に展開するには、個々のコンポーネントに対する操作と依存関係を理解している必要があります。</span><span class="sxs-lookup"><span data-stu-id="1a253-113">To successfully deploy Microsoft Lync Server 2013, you need to understand the interaction of and reliance on the individual components.</span></span> <span data-ttu-id="1a253-114">既存のネットワークとサーバーインフラストラクチャからデータを収集し、計画ガイダンスを適用することで、Lync Server 2013 エッジサーバーコンポーネントをインフラストラクチャに統合することができます。</span><span class="sxs-lookup"><span data-stu-id="1a253-114">By collecting data from your existing network and server infrastructure, and applying the planning guidance in these sections, you can integrate Lync Server 2013 Edge Server components into your infrastructure.</span></span>
 
-示されているダイアグラムには、意図的に汎用性を持たせていますが、ネットワーク、ファイアウォール、証明書の作成と管理、サーバーの展開、およびサーバーの管理が異なるグループによって処理される複数チームにわたるシナリオでの、要件の伝達に必要なすべての関連データの収集が可能です。 Lync Server の展開が進行しているときに、ネットワーク、ファイアウォール、ポートとプロトコル、証明書、およびサーバーの構成に関して必要な詳細を取得することが不可欠になります。
+<span data-ttu-id="1a253-115">「 [Lync Server 2013 でのトポロジの選択](lync-server-2013-choosing-a-topology.md)」で説明した3つの主要なアーキテクチャには、合計5つの展開シナリオが含まれています。</span><span class="sxs-lookup"><span data-stu-id="1a253-115">Introduced in [Choosing a topology in Lync Server 2013](lync-server-2013-choosing-a-topology.md), there are three main architectures with two variations, for a total of five possible deployment scenarios.</span></span> <span data-ttu-id="1a253-116">これらのシナリオのいずれかが、データ収集の出発点になります。</span><span class="sxs-lookup"><span data-stu-id="1a253-116">One of these scenarios will be the starting point for your data collection.</span></span> <span data-ttu-id="1a253-117">IP アドレス、サーバー名、ドメイン名は、完全な計画ソリューションに必要な情報について説明する、一致する証明書、ファイアウォール、DNS ダイアグラムと一致する例です。</span><span class="sxs-lookup"><span data-stu-id="1a253-117">The IP addresses, server names, and domain names are examples that coincide with the matching certificate, firewall, and DNS diagrams that detail the information required for a complete planning solution.</span></span> <span data-ttu-id="1a253-118">必要な証明書、DNS、ファイアウォールの値の図と入力は、チーム間通信では特に重要であり、証明機関、ファイアウォール構成、DNS はチーム以外のチームによって管理されます。展開を計画します。</span><span class="sxs-lookup"><span data-stu-id="1a253-118">The diagrams and filling in your required certificate, DNS and firewall values is especially important in cross-team communications where the management of the certification authority, firewall configuration and DNS is managed by teams other than the team that plans the deployment.</span></span> <span data-ttu-id="1a253-119">これらの図は、チーム間での共同作業のためにこれらの要件を伝えるために使用できる必須コンポーネントについて説明しています。</span><span class="sxs-lookup"><span data-stu-id="1a253-119">The diagrams provide information on required components that can be used to communicate these requirements for cross-team collaboration.</span></span>
 
-**エッジ サーバーおよびエッジ プール**
+<span data-ttu-id="1a253-120">提供されているダイアグラムは意図的に標準であり、ネットワーク、ファイアウォール、証明書の作成と管理、サーバーなど、チーム間での要件の通信に必要なすべての関連データを収集することを許可します。展開とサーバー管理は、さまざまなグループで処理されます。</span><span class="sxs-lookup"><span data-stu-id="1a253-120">The provided diagrams are intentionally generic, but allow for the collection of all pertinent data that would be necessary for communication of requirements in a cross team scenario where networking, firewall, certificate creation and management, server deployment, and server management are handled by different groups.</span></span> <span data-ttu-id="1a253-121">Lync Server の展開が進行中の場合は、ネットワーク、ファイアウォール、ポート、プロトコル、証明書、サーバーの構成に必要な詳細情報が非常に重要になります。</span><span class="sxs-lookup"><span data-stu-id="1a253-121">Having the required details for configuration of networking, firewalls, ports and protocols, certificates, and servers is invaluable when the deployment of Lync Server is underway.</span></span>
 
-![エッジ サーバーおよびエッジ プール](images/Gg399008.7624717a-ce99-4ae8-a929-2c4d74a2e47d(OCS.15).jpg "エッジ サーバーおよびエッジ プール")
+<span data-ttu-id="1a253-122">**エッジサーバーとエッジプール**</span><span class="sxs-lookup"><span data-stu-id="1a253-122">**Edge Server and Edge pool**</span></span>
 
-**リバース プロキシ**
+<span data-ttu-id="1a253-123">![7624717a-ce99-4ae8-a929-2c4d74a2e47d](images/Gg399008.7624717a-ce99-4ae8-a929-2c4d74a2e47d(OCS.15).jpg "7624717a-ce99-4ae8-a929-2c4d74a2e47d")</span><span class="sxs-lookup"><span data-stu-id="1a253-123">![7624717a-ce99-4ae8-a929-2c4d74a2e47d](images/Gg399008.7624717a-ce99-4ae8-a929-2c4d74a2e47d(OCS.15).jpg "7624717a-ce99-4ae8-a929-2c4d74a2e47d")</span></span>
 
-![リバース プロキシ](images/Gg399008.cf63fc50-2d11-4334-afc8-2d664ba1b6bb(OCS.15).jpg "リバース プロキシ")
+<span data-ttu-id="1a253-124">**リバースプロキシ**</span><span class="sxs-lookup"><span data-stu-id="1a253-124">**Reverse Proxy**</span></span>
 
-**ディレクターまたはディレクター プール**
+<span data-ttu-id="1a253-125">![cf63fc50-2d11-4334-afc8-2d664ba1b6bb](images/Gg399008.cf63fc50-2d11-4334-afc8-2d664ba1b6bb(OCS.15).jpg "cf63fc50-2d11-4334-afc8-2d664ba1b6bb")</span><span class="sxs-lookup"><span data-stu-id="1a253-125">![cf63fc50-2d11-4334-afc8-2d664ba1b6bb](images/Gg399008.cf63fc50-2d11-4334-afc8-2d664ba1b6bb(OCS.15).jpg "cf63fc50-2d11-4334-afc8-2d664ba1b6bb")</span></span>
 
-![ディレクターおよびディレクター プール](images/Gg399008.56ba29ff-1309-4d5d-bf5c-35372169e947(OCS.15).jpg "ディレクターおよびディレクター プール")
+<span data-ttu-id="1a253-126">**ディレクターまたはディレクタープール**</span><span class="sxs-lookup"><span data-stu-id="1a253-126">**Director or Director pool**</span></span>
+
+<span data-ttu-id="1a253-127">![56 ba29ff001 130916d5d56 72169e・]デ・・・・・・・・・・ライド7(images/Gg399008.56ba29ff-1309-4d5d-bf5c-35372169e947(OCS.15).jpg "56 ba29ff001 130916d5d56 72169e・")デ・・・・・・・・・・ライド7</span><span class="sxs-lookup"><span data-stu-id="1a253-127">![56ba29ff-1309-4d5d-bf5c-35372169e947](images/Gg399008.56ba29ff-1309-4d5d-bf5c-35372169e947(OCS.15).jpg "56ba29ff-1309-4d5d-bf5c-35372169e947")</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

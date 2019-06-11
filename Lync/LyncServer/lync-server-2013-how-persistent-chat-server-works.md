@@ -1,137 +1,213 @@
-﻿---
-title: Lync Server 2013 での常設チャット サーバーのしくみ
-TOCTitle: Lync Server 2013 での常設チャット サーバーのしくみ
-ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ683096(v=OCS.15)
-ms:contentKeyID: 49886922
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 常設チャットサーバーのしくみ'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: How Persistent Chat Server works
+ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ683096(v=OCS.15)
+ms:contentKeyID: 49684643
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0bf6179e1ce24264c2079b3096fa9bb8c539ca1c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833071"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での常設チャット サーバーのしくみ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-21_
+# <a name="how-persistent-chat-server-works-in-lync-server-2013"></a><span data-ttu-id="6dbc3-102">Lync Server 2013 での常設チャットサーバーの動作方法</span><span class="sxs-lookup"><span data-stu-id="6dbc3-102">How Persistent Chat Server works in Lync Server 2013</span></span>
 
-Lync Server 2013、常設チャット サーバーでは、永続的な、マルチパーティのトピックベースの会話に参加できます。常設チャット サーバーは、組織で次のことを行う場合に役立ちます。
+</div>
 
-  - 地理的に分散されたチームや職能上の枠を越えたチーム間でのコミュニケーションを深めます。
+<div id="mainSection">
 
-  - 情報を広めて参加の輪を広げます。
+<div id="mainBody">
 
-  - 組織外の人間とのコミュニケーションを深めます。
+<span> </span>
 
-  - 情報過多を緩和します。
+<span data-ttu-id="6dbc3-103">_**最終更新日:** 2012-11-21_</span><span class="sxs-lookup"><span data-stu-id="6dbc3-103">_**Topic Last Modified:** 2012-11-21_</span></span>
 
-  - 情報の認知を高めます。
+<span data-ttu-id="6dbc3-104">Lync Server 2013 の常設チャットサーバーでは、時間の経過に伴う、トピックベースの会話に参加することができます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-104">Lync Server 2013, Persistent Chat Server enables you to participate in multiparty, topic-based conversations that persist over time.</span></span> <span data-ttu-id="6dbc3-105">常設チャットサーバーは、組織が次のことを行うのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-105">Persistent Chat Server can help your organization do the following:</span></span>
 
-  - 重要な知識と情報の分散を促進します。
+  - <span data-ttu-id="6dbc3-106">地理的に分散したチームと部門間のチーム間のコミュニケーションを向上させる</span><span class="sxs-lookup"><span data-stu-id="6dbc3-106">Improve communication between geographically dispersed and cross-functional teams</span></span>
 
-Lync Server 2013 では常設チャット サーバーをオプションの役割として展開できます。常設チャット サービスは専用プールで実行され、常設チャット サーバー プールは、Lync Server プールを使用してここにメッセージをルーティングします。クライアントは、XCCOS (eXtensible Chat Communication Over SIP) を使用します。Lync Serverフロント エンド サーバーは、トラフィックを常設チャット サーバー プールにルーティングするように構成されています。
+  - <span data-ttu-id="6dbc3-107">情報の認識と参加を広げる</span><span class="sxs-lookup"><span data-stu-id="6dbc3-107">Broaden information awareness and participation</span></span>
 
-## アーキテクチャの概要
+  - <span data-ttu-id="6dbc3-108">拡張組織とのコミュニケーションを向上させる</span><span class="sxs-lookup"><span data-stu-id="6dbc3-108">Improve communication with your extended organization</span></span>
 
-次の図は、常設チャット サーバー アーキテクチャおよびサービスの概要を示しています。
+  - <span data-ttu-id="6dbc3-109">情報過多の削減</span><span class="sxs-lookup"><span data-stu-id="6dbc3-109">Reduce information overload</span></span>
 
-**常設チャット サーバーのアーキテクチャの概要**
+  - <span data-ttu-id="6dbc3-110">情報認識の向上</span><span class="sxs-lookup"><span data-stu-id="6dbc3-110">Improve information awareness</span></span>
 
-![常設チャット サーバーのアーキテクチャ](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "常設チャット サーバーのアーキテクチャ")
+  - <span data-ttu-id="6dbc3-111">重要な知識と情報の分散を増やす</span><span class="sxs-lookup"><span data-stu-id="6dbc3-111">Increase dispersion of important knowledge and information</span></span>
 
-**常設チャット サーバーのサービスの概要**
+<span data-ttu-id="6dbc3-112">Lync Server 2013 を使用すると、オプションの役割として常設チャットサーバーを展開できます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-112">You can deploy Persistent Chat Server as an optional role with Lync Server 2013.</span></span> <span data-ttu-id="6dbc3-113">常設チャットサービスは専用のプールで実行され、常設チャットサーバープールは、Lync サーバープールによってメッセージがルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-113">Persistent Chat services run on a dedicated pool, and a Persistent Chat Server pool depends on a Lync Server pool to route messages to it.</span></span> <span data-ttu-id="6dbc3-114">クライアントは、SIP (XCCOS) 経由の拡張チャット通信を使用します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-114">Clients use eXtensible Chat Communication Over SIP (XCCOS).</span></span> <span data-ttu-id="6dbc3-115">Lync Server フロントエンドサーバーは、トラフィックを常設チャットサーバープールにルーティングするように構成されています。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-115">The Lync Server Front End Servers are configured to route the traffic to a Persistent Chat Server pool.</span></span>
 
-![常設チャット サーバーのコンポーネント](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "常設チャット サーバーのコンポーネント")
+<div>
 
-2 つのサービスが 常設チャット サーバーフロント エンド サーバーで実行されています。
+## <a name="high-level-architecture"></a><span data-ttu-id="6dbc3-116">高レベルのアーキテクチャ</span><span class="sxs-lookup"><span data-stu-id="6dbc3-116">High-Level Architecture</span></span>
 
-  - 常設チャット (チャネル)
+<span data-ttu-id="6dbc3-117">次の図は、常設チャットサーバーのアーキテクチャとサービスの大まかな視点を示しています。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-117">The following diagrams provide high-level perspectives of the Persistent Chat Server architecture and services.</span></span>
 
-  - コンプライアンス
+<span data-ttu-id="6dbc3-118">**常設チャット サーバーのアーキテクチャの概要**</span><span class="sxs-lookup"><span data-stu-id="6dbc3-118">**Persistent Chat Server High-Level Architecture**</span></span>
 
-## 常設チャット (チャネル) サービス
+<span data-ttu-id="6dbc3-119">![常設チャットサーバーのアーキテクチャ。](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "常設チャットサーバーのアーキテクチャ。")</span><span class="sxs-lookup"><span data-stu-id="6dbc3-119">![Persistent Chat Server architecture.](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Persistent Chat Server architecture.")</span></span>
 
-常設チャット (チャネル) サービスは、常設チャット サーバー用のコア サービスです。このサービスには、次の機能が用意されています。
+<span data-ttu-id="6dbc3-120">**常設チャット サーバーのサービスの概要**</span><span class="sxs-lookup"><span data-stu-id="6dbc3-120">**Persistent Chat Server High-Level Services**</span></span>
 
-  - 受信メッセージを受け入れます。
+<span data-ttu-id="6dbc3-121">![常設チャットサーバーコンポーネント。](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "常設チャットサーバーコンポーネント。")</span><span class="sxs-lookup"><span data-stu-id="6dbc3-121">![Persistent Chat Server components.](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Persistent Chat Server components.")</span></span>
 
-  - 常設チャット ルーム内のオンライン参加者を登録し、参加者の一覧を表示します。
+<span data-ttu-id="6dbc3-122">常設チャットサーバーフロントエンドサーバーでは、次の2つのサービスが実行されます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-122">Two services run on the Persistent Chat Server Front End Servers:</span></span>
 
-  - メッセージを他のチャネル サブスクライバーに再送信します。
+  - <span data-ttu-id="6dbc3-123">常設チャット (チャネル)</span><span class="sxs-lookup"><span data-stu-id="6dbc3-123">Persistent Chat (Channel)</span></span>
 
-  - チャネル管理、チャット ルームへの招待、検索、および新しいコンテンツ通知のロジックを実装します。
+  - <span data-ttu-id="6dbc3-124">コン</span><span class="sxs-lookup"><span data-stu-id="6dbc3-124">Compliance</span></span>
 
-常設チャット (チャネル) サービスは、常設チャット ストアを使用して、チャット ルームのコンテンツおよびその他のシステム メタデータ (承認規則など) を格納し、この情報にアクセスします。このサービスには、チャット ルームで常設チャット ファイル ストアにアップロードされたファイルが格納されます。
+<div>
 
-## コンプライアンス サービス
+## <a name="persistent-chat-channel-service"></a><span data-ttu-id="6dbc3-125">常設チャット (チャネル) サービス</span><span class="sxs-lookup"><span data-stu-id="6dbc3-125">Persistent Chat (Channel) Service</span></span>
 
-常設チャット サーバーのオプションのコンポーネントであるコンプライアンス サービスは、常設チャット コンプライアンス ストアに、チャット コンテンツとイベントをアーカイブします。常設チャット アクティビティをアーカイブするように組織の規制で要求されている場合、このオプションの常設チャット コンプライアンス サービスを展開できます。コンプライアンス サービスは、常設チャット プールの各常設チャット サーバーにインストールされます。また、ルームへの参加、ルームからの退出、メッセージの投稿、メッセージの読み取りなどのユーザー アクティビティを記録するように構成した場合は、これらのアクティビティが常設チャット サーバー コンプライアンスによって記録されます。アーカイブする必要があるファイルは、常設チャット コンプライアンス ファイル ストアに格納されます。
+<span data-ttu-id="6dbc3-126">常設チャット (チャネル) サービスは、常設チャットサーバーを担当するコアサービスです。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-126">The Persistent Chat (Channel) service is the core service responsible for Persistent Chat Server.</span></span> <span data-ttu-id="6dbc3-127">このサービスは次の機能を提供します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-127">This service provides the following functions:</span></span>
 
-## 常設チャット Web サービス
+  - <span data-ttu-id="6dbc3-128">受信メッセージを受け入れます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-128">Accepts incoming messages</span></span>
 
-Lync Serverフロント エンド サーバーでは、インターネット インフォメーション サービス (IIS) に依存する 2 つのサービスが実行され、Web コンポーネントとして実装されています。
+  - <span data-ttu-id="6dbc3-129">常設チャット ルーム内のオンライン参加者を登録し、参加者の一覧を表示します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-129">Registers and lists online participants within a Persistent Chat room</span></span>
 
-  - **ファイルのアップロード/ダウンロード用常設チャット Web サービス** チャット ルームでファイルを投稿および取得します。
+  - <span data-ttu-id="6dbc3-130">メッセージを他のチャネル サブスクライバーに再送信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-130">Retransmits messages to other channel subscribers</span></span>
 
-  - **チャット ルーム管理用常設チャット Web サービス** ユーザーがチャット ルームを管理したり、新しいチャット ルームを作成したりできるようにします。
+  - <span data-ttu-id="6dbc3-131">チャネル管理、チャットルームの招待状、検索、新しいコンテンツ通知のロジックを実装します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-131">Implements logic for channel management, chat room invitation, search, and new content notifications</span></span>
 
-## 常設チャット サーバーの使用を開始する方法
+<span data-ttu-id="6dbc3-132">常設チャット (チャネル) サービスは、常設チャットストアを使用して、チャットルームのコンテンツやその他のシステムメタデータ (承認ルールなど) を保存およびアクセスします。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-132">The Persistent Chat (Channel) service stores and accesses chat room content and other system metadata (authorization rules, and so on) by using the Persistent Chat Store.</span></span> <span data-ttu-id="6dbc3-133">このサービスは、常設チャットファイルストアのチャットルームにアップロードされたファイルを保存します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-133">This service stores files that are uploaded into chat rooms in the Persistent Chat File Store.</span></span>
 
-常設チャット サーバーは、Lync Server 2013 インフラストラクチャにおけるオプションのサーバーの役割です。常設チャット サーバーの役割をインストールしたら、ポリシーを介して管理者によって有効になっているすべてのユーザーが、Lync 2013 クライアントで常設チャットを使用できます。常設チャット サーバーを展開し、ポリシーによってユーザーが機能を利用できるようにする方法の詳細については、「[Lync Server 2013 での常設チャット サーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」を参照してください。
+</div>
 
-常設チャット サーバーの展開で設定を構成する方法の詳細については、「[Lync Server 2013 での常設チャット サーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」および「[Lync Server 2013、常設チャット サーバーの管理](managing-lync-server-2013-persistent-chat-server.md)」を参照してください。
+<div>
 
-ユーザーが Lync 2013 クライアントで常設チャット機能を利用できるように、ポリシーによってそのユーザーを有効にする方法の詳細については、「[Lync Server 2013 での常設チャット サーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」および「[Lync Server 2013、常設チャット サーバーの管理](managing-lync-server-2013-persistent-chat-server.md)」を参照してください。
+## <a name="compliance-service"></a><span data-ttu-id="6dbc3-134">コンプライアンスサービス</span><span class="sxs-lookup"><span data-stu-id="6dbc3-134">Compliance Service</span></span>
 
-常設チャット コンプライアンスを展開した場合、コンプライアンスの設定を構成する方法の詳細については、「[Lync Server 2013、常設チャット サーバーの管理](managing-lync-server-2013-persistent-chat-server.md)」を参照してください。
+<span data-ttu-id="6dbc3-135">コンプライアンスサービスは、常設チャットサーバーのオプションコンポーネントであり、チャットのコンテンツとイベントを常設チャットのコンプライアンスストアにアーカイブする責任を負います。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-135">The Compliance service is an optional component of Persistent Chat Server and is responsible for archiving chat content and events to the Persistent Chat Compliance Store.</span></span> <span data-ttu-id="6dbc3-136">常設チャットのアクティビティのアーカイブを求める規制が組織に存在する場合、オプションの常設チャット コンプライアンス サービスを展開できます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-136">If your organization has regulations that require Persistent Chat activity to be archived, you can deploy the optional Persistent Chat Compliance service.</span></span> <span data-ttu-id="6dbc3-137">コンプライアンスサービスは、常設チャットプールの常設チャットサーバーごとにインストールされます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-137">The Compliance service is installed on each Persistent Chat Server in a Persistent Chat pool.</span></span> <span data-ttu-id="6dbc3-138">構成されている場合、常設チャットサーバーのコンプライアンスは、会議室への参加や退室、メッセージの投稿と読み取りなどのユーザーアクティビティを記録します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-138">When configured, Persistent Chat Server compliance records user activity such as joining and leaving rooms, and posting and reading of messages.</span></span> <span data-ttu-id="6dbc3-139">コンプライアンスサービスは、常設チャットのコンプライアンスファイルストアにアーカイブする必要があるファイルを保存します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-139">The Compliance service stores files that need to be archived in the Persistent Chat Compliance File Store.</span></span>
 
-## 常設チャット通話の流れ
+</div>
 
-Lync クライアントは、XCCOS を使用して常設チャット サービスと通信します。次の手順では、サインイン プロセス、および標準のルームのサブスクリプションとメッセージ投稿シナリオについて説明します。
+<div>
 
-## サインインする
+## <a name="persistent-chat-web-services"></a><span data-ttu-id="6dbc3-140">常設チャット Web サービス</span><span class="sxs-lookup"><span data-stu-id="6dbc3-140">Persistent Chat Web Services</span></span>
 
-次の手順では、サインイン プロセスについて説明します。
+<span data-ttu-id="6dbc3-141">Lync Server のフロントエンドサーバーでは、2つのサービスがインターネットインフォメーションサービス (IIS) に依存し、web コンポーネントとして実装されています。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-141">On the Lync Server Front End Servers, two services run that depend on Internet Information Services (IIS), and are implemented as web components:</span></span>
 
-1.  Lync クライアントは最初に SIP SUBSCRIBE を送信し、インバンド プロビジョニング ドキュメントをサーバーから取得します。このドキュメントは、常設チャットがユーザーに対して有効になっているか無効になっているか、および常設チャット サーバー プールの SIP URI の一覧を示します。
+  - <span data-ttu-id="6dbc3-142">**ファイルアップロード/ダウンロード用の常設チャット Web サービス**チャットルームからファイルを投稿および取得する責任を負います。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-142">**Persistent Chat Web Services for File Upload/Download** Responsible for posting and retrieving files from chat rooms.</span></span>
 
-2.  Lync クライアントは SIP INVITE メッセージを、前の手順で取得した常設チャット サーバーの SIP URI に送信します。INVITE 手順には 200 OK と ACK が続き、Lync クライアントは、常設チャット サーバー エンドポイントで SIP セッションを開きました。その結果、クライアントは、サーバーにアクションを実行するように要求するコマンドまたはチャット メッセージが含まれる SIP INFO メッセージを送信することで、常設チャット サーバーと通信します。これらのすべてのメッセージに対して、"200 OK" または "503 サービスを利用できません" (つまり、サーバー の負荷が高い) のどちらかの確認応答が返されます。クライアントが 503 応答を受け取った場合、そのクライアントはメッセージを再試行します (この例には 503 応答は含まれません)。メッセージまたはコマンドを受け入れ、200 OK を送信したサーバーは、応答を別の SIP INFO メッセージの形式でクライアントに提供します。この応答には、発信コマンドへの参照が含まれます。
+  - <span data-ttu-id="6dbc3-143">**チャットルーム管理用の常設チャット Web サービス**ユーザーがチャットルームを管理し、新しいチャットルームを作成できるようにする責任を負います。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-143">**Persistent Chat Web Services for Chat Room Management** Responsible for providing users the ability to manage their chat rooms, and create new chat rooms.</span></span>
 
-3.  Lync クライアントは、XCCOS **getserverinfo** コマンドが含まれる SIP INFO メッセージを送信します。常設チャット サーバーは、常設チャット サービス構成に関する情報が含まれる新しい SIP INFO メッセージで応答します。
+</div>
 
-4.  Lync クライアントは、XCCOS **getassociations** コマンドが含まれる SIP INFO メッセージを送信します。常設チャット サーバーは、ユーザーがメンバーになっているルームの一覧が含まれる新しい SIP INFO メッセージで応答します。Lync クライアントは、コマンドを繰り返して、ユーザーがマネージャーになっているルームの一覧を取得します。
+</div>
 
-5.  Lync クライアントは、フォローされたルームの一覧を "プレゼンス" ドキュメントから取得します。このドキュメントでは、フォローされた各ルームが "roomSetting" カテゴリによって表されています。フォローされたすべてのルームに 1 つの SIP INFO メッセージで参加します。このメッセージには、ルーム URI の一覧を含む XCCOS **bjoin** コマンドが含まれます。フォローされたルームの一覧はサーバー上に保持されるので、指定したユーザー URI のフォローされたルームの一覧は、どのコンピューターのどのクライアントでも同じになります。Lync クライアントは、開いているルームの一覧もローカル コンピューターのレジストリに保持しており (このオプションがユーザーによって有効になっている場合)、開いているルームごとに XCCOS **join** コマンドが含まれる SIP INFO メッセージを送信することで、サインイン時にこれらのルームそれぞれに参加します。この一覧はレジストリに保持されるので、異なるコンピューターで実行される 2 つの Lync クライアントでは異なる場合があります。
+<div>
 
-6.  参加したルームごとに、Lync クライアントは、XCCOS **bccontext** コマンドが含まれる SIP INFO メッセージを送信します。常設チャット サーバーは、ルームの最新のチャット メッセージが含まれる新しい SIP INFO メッセージで応答します。
+## <a name="how-do-i-start-using-persistent-chat-server"></a><span data-ttu-id="6dbc3-144">常設チャットサーバーの使用を開始するにはどうすればよいですか?</span><span class="sxs-lookup"><span data-stu-id="6dbc3-144">How Do I Start Using Persistent Chat Server?</span></span>
 
-7.  Lync クライアントは、XCCOS **getinv** (つまり、招待の取得) コマンドが含まれる SIP INFO メッセージを送信し、クライアントがまだ確認していない新しいルーム招待を要求します。別の SIP INFO メッセージでは、常設チャット サーバーがこれらのルームの一覧を返します。
+<span data-ttu-id="6dbc3-145">常設チャットサーバーは、Lync Server 2013 インフラストラクチャ内のオプションのサーバーロールです。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-145">Persistent Chat Server is an optional server role within the Lync Server 2013 infrastructure.</span></span> <span data-ttu-id="6dbc3-146">常設チャットサーバーの役割をインストールした場合、管理者によって有効になったすべてのユーザーは、常設チャットを Lync 2013 クライアントと共に使用できます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-146">If you install the Persistent Chat Server role, any users who have been enabled through policy by an administrator can use Persistent Chat with the Lync 2013 client.</span></span>
 
-## ルームを購読し、メッセージを投稿する
+<span data-ttu-id="6dbc3-147">常設チャットサーバーを展開して、ユーザーがポリシーによって機能を活用できるようにする方法について詳しくは、「 [Lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-147">For details about how to deploy Persistent Chat Server and enable users to leverage the capabilities by policy, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span></span>
 
-次の手順では、標準のルームのサブスクリプションとメッセージ投稿シナリオについて説明します。
+<span data-ttu-id="6dbc3-148">常設チャットサーバーの展開時に設定を構成する方法の詳細については、「 [Lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」および「 [lync Server 2013、常設チャットサーバーの管理](managing-lync-server-2013-persistent-chat-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-148">For details about how to configure settings on your Persistent Chat Server deployment, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) and [Managing Lync Server 2013, Persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md).</span></span>
 
-1.  Lync クライアントで、User1 が \[**チャット ルームに参加**\] をクリックし、\[**検索**\] をクリックして、検索条件を入力します。クライアントは、XCCOS **chansrch** (ルームの検索) コマンドが含まれる SIP INFO メッセージと、検索条件を送信します。常設チャット サーバーは、バックエンド データベースに対してクエリを実行し、検索条件を満たす使用可能なルームの一覧が含まれる新しい SIP INFO で応答します。
+<span data-ttu-id="6dbc3-149">ユーザーが Lync 2013 クライアントの常設チャット機能を利用できるようにする方法について詳しくは、「 [Lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)と「 [lync Server 2013、常設チャットサーバーの管理](managing-lync-server-2013-persistent-chat-server.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-149">For details about how to enable users by policy such that they can leverage Persistent Chat functionality in Lync 2013 client, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) and [Managing Lync Server 2013, Persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md).</span></span>
 
-2.  User1 が自身が参加するチャット ルームを選択し、\[**このルームをフォロー**\] をクリックします。クライアントは、常設チャット サーバーに、XCCOS **join** コマンド、およびユーザーが選択したチャット ルームのルーム ID が含まれる SIP INFO メッセージを送信します。常設チャット サーバーは、プロビジョニング データが含まれる SIP INFO メッセージで応答します。
+<span data-ttu-id="6dbc3-150">常設チャットのコンプライアンスを展開した場合は、コンプライアンスの設定を構成する方法の詳細について「 [Lync server 2013、常設チャットサーバーを管理](managing-lync-server-2013-persistent-chat-server.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-150">If you deployed Persistent Chat compliance, see [Managing Lync Server 2013, Persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md) for details about how to configure settings for compliance.</span></span>
 
-3.  Lync クライアントは、常設チャット サーバーに、XCCOS **bccontext** (バックチャット コンテキスト) コマンドが含まれる SIP INFO メッセージを送信します。常設チャット サーバーは、チャット履歴を取得し、別の SIP INFO メッセージでクライアントに返します。この時点で、ユーザーはチャット ルームに入り、いつでも参加することができます。
+</div>
 
-4.  User1 が新しいメッセージを入力し、\[**送信**\] をクリックします。Lync クライアントは、SIP INFO XCCOS **grpchat** コマンドでメッセージをチャット ルームに投稿します。常設チャット サーバーは、この新しいメッセージのコピーを常設チャット バックエンド データベースに格納します。
+<div>
 
-5.  常設チャット サーバーは、SIP INFO XCCOS **grpchat** メッセージの別のコピーを、既にチャット ルームに入っている User2 に送信します。
+## <a name="persistent-chat-call-flows"></a><span data-ttu-id="6dbc3-151">常設チャットの通話フロー</span><span class="sxs-lookup"><span data-stu-id="6dbc3-151">Persistent Chat Call Flows</span></span>
 
-## 常設チャット コンプライアンス通話の流れ
+<span data-ttu-id="6dbc3-152">常設チャットクライアントは、XCCOS を使用して常設チャットサービスと通信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-152">The Persistent Chat client communicates with the Persistent Chat service by using XCCOS.</span></span> <span data-ttu-id="6dbc3-153">次のシーケンスでは、サインインプロセスと、一般的な会議室のサブスクリプションとメッセージの投稿のシナリオについて説明します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-153">The following sequences describe the sign-in process and a typical room subscription and message post scenario.</span></span>
 
-常設チャット サーバーは、メッセージ キュー (MSMQ とも呼ばれる) および追加コンプライアンス データベース (mgccomp) を使用して、コンプライアンス データを処理します。コンプライアンス イベントの処理方法の例として、次のイベントの手順では、メッセージ投稿イベントの処理方法について説明します。
+<div>
 
-1.  ユーザーがメッセージをルームに投稿します。
+## <a name="sign-in"></a><span data-ttu-id="6dbc3-154">サインイン</span><span class="sxs-lookup"><span data-stu-id="6dbc3-154">Sign-in</span></span>
 
-2.  常設チャット サーバーは、プライベート メッセージ キューのイベントに関連する情報を配置します。
+<span data-ttu-id="6dbc3-155">次のコールフロー図と手順では、サインインプロセスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-155">The following call flow diagram and steps describe the sign-in process.</span></span>
 
-3.  常設チャット コンプライアンス サーバーは、このイベントをキューから読み取り、後で処理できるように mgccomp データベースに配置します。
+<span data-ttu-id="6dbc3-156">**常設チャットクライアントのサインインコールフロー**</span><span class="sxs-lookup"><span data-stu-id="6dbc3-156">**Persistent Chat Client Sign-in Call Flow**</span></span>
 
-4.  常設チャット コンプライアンス サーバーは、定期的にデータベースで一連のイベントを処理し、さらに処理するために常設チャット コンプライアンス アダプターに送信します。
+<span data-ttu-id="6dbc3-157">![常設チャットサーバーのコールフロー図。](images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "常設チャットサーバーのコールフロー図。")</span><span class="sxs-lookup"><span data-stu-id="6dbc3-157">![Persistent Chat Server call flow diagram.](images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "Persistent Chat Server call flow diagram.")</span></span>
 
-5.  アダプターによってデータが適切に処理されたら、イベントは常設チャット コンプライアンス サーバーによって mgccomp データベースから削除されます。
+1.  <span data-ttu-id="6dbc3-158">常設チャットクライアントは、最初に SIP サブスクライブを送信して、サーバーから帯域内プロビジョニングドキュメントを取得します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-158">The Persistent Chat client first sends a SIP SUBSCRIBE to retrieve the in-band provisioning document from the server.</span></span> <span data-ttu-id="6dbc3-159">このドキュメントは、常設チャットが有効または無効になっているかどうかを示します。また、常設チャットサーバープールの SIP Uri の一覧が表示されます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-159">This document indicates if Persistent Chat is enabled or disabled for the user and the list of SIP URIs for the Persistent Chat Server pool.</span></span>
+
+2.  <span data-ttu-id="6dbc3-160">常設チャットクライアントから、前の手順で取得した常設チャットサーバーの SIP URI に SIP INVITE メッセージが送信されます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-160">The Persistent Chat client sends a SIP INVITE message to the SIP URI of the Persistent Chat Server that it obtained in the previous step.</span></span> <span data-ttu-id="6dbc3-161">招待状の後には、200 OK と ACK が続いて、常設チャットクライアントでは、常設チャットサーバーのエンドポイントを使用して SIP セッションが開かれました。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-161">The INVITE sequence is followed by 200 OK and ACK, and the Persistent Chat client has now opened a SIP session with a Persistent Chat Server endpoint.</span></span> <span data-ttu-id="6dbc3-162">そのため、常設チャットクライアントは、チャットメッセージまたはアクションを実行するように要求するコマンドのいずれかを含む SIP 情報メッセージを送信することによって、常設チャットサーバーと通信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-162">Consequently, the Persistent Chat client communicates with Persistent Chat Server by sending SIP INFO messages that contain either chat messages or commands requesting the server to take an action.</span></span> <span data-ttu-id="6dbc3-163">これらのメッセージはすべて、200 OK または503サービスを利用できません (つまり、サーバーの負荷が重い場合)。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-163">All of these messages are acknowledged with either 200 OK or 503 Service Unavailable (that is, in the event of heavy server load).</span></span> <span data-ttu-id="6dbc3-164">クライアントが503応答を受信した場合は、メッセージを再試行します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-164">If the client receives a 503 response, it will retry the message.</span></span> <span data-ttu-id="6dbc3-165">(この例では、503応答は含まれていません)。サーバーがメッセージまたはコマンドを受け入れ、200を送信した場合は、別の SIP 情報メッセージの形式でクライアントへの応答を提供します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-165">(This example does not include a 503 response.) If the server accepts the message or command and sends 200 OK, it provides a response to the client in the form of a separate SIP INFO message.</span></span> <span data-ttu-id="6dbc3-166">この応答には、元のコマンドへの参照が含まれます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-166">This response includes a reference to the originating command.</span></span>
+
+3.  <span data-ttu-id="6dbc3-167">常設チャットクライアントから、XCCOS **getserverinfo**コマンドを含む SIP 情報メッセージが送信されます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-167">The Persistent Chat client sends a SIP INFO message that contains the XCCOS **getserverinfo** command.</span></span> <span data-ttu-id="6dbc3-168">常設チャットサーバーは、常設チャットサービスの構成に関する情報を含む新しい SIP 情報メッセージで返信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-168">Persistent Chat Server replies with a new SIP INFO message that contains information about the Persistent Chat service configuration.</span></span>
+
+4.  <span data-ttu-id="6dbc3-169">常設チャットクライアントから、XCCOS **getassociations**コマンドを含む SIP 情報メッセージが送信されます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-169">The Persistent Chat client sends a SIP INFO message that contains the XCCOS **getassociations** command.</span></span> <span data-ttu-id="6dbc3-170">常設チャットサーバーは、ユーザーがメンバーである会議室の一覧を含む新しい SIP 情報メッセージで返信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-170">Persistent Chat Server replies with a new SIP INFO message that contains the list of rooms of which the user is a member.</span></span> <span data-ttu-id="6dbc3-171">常設チャットクライアントは、ユーザーがマネージャーである会議室の一覧を取得するためにコマンドを繰り返します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-171">The Persistent Chat client repeats the command to retrieve the list of rooms of which the user is a manager.</span></span>
+
+5.  <span data-ttu-id="6dbc3-172">常設チャットクライアントは、"プレゼンス" ドキュメントからフォローしているルームの一覧を取得します。ここでは、それぞれの部屋は "roomSetting" カテゴリで表されます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-172">The Persistent Chat client gets the list of followed rooms from the "presence" document, where each followed room is represented by a "roomSetting" category.</span></span> <span data-ttu-id="6dbc3-173">すべてのフォローされたルームは、room uri のリストを含む XCCOS **bskype**コマンドを含む SIP 情報メッセージの1つによって結合されます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-173">All followed rooms are joined by a single SIP INFO message that contains the XCCOS **bjoin** command that contains the list of room URIs.</span></span> <span data-ttu-id="6dbc3-174">フォローされているルームの一覧はサーバー上に保持されるため、任意のコンピューターのすべてのクライアントには、指定したユーザー URI のフォローしているルームの一覧が含まれます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-174">Because the list of followed rooms is kept on the server, any client on any computer has the same list of followed rooms for the specified user URI.</span></span> <span data-ttu-id="6dbc3-175">常設チャットクライアントでは、ローカルコンピューターのレジストリで、開いているルームの一覧も (ユーザーによって有効になっている場合)、各ルームの [XCCOS **join** ] コマンドを含む SIP 情報メッセージを送信することによって、サインイン時に参加することができます。.</span><span class="sxs-lookup"><span data-stu-id="6dbc3-175">The Persistent Chat client also keeps the list of opened rooms (if this option is enabled by the user) in the local computer registry, and joins each of these rooms at sign-in by sending a SIP INFO message that contains the XCCOS **join** command for each opened room.</span></span> <span data-ttu-id="6dbc3-176">この一覧はレジストリに保存されているため、別のコンピューターで実行されている2つの常設チャットクライアントで異なる場合があります。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-176">Because this list is kept in the registry, it can be different on two Persistent Chat clients running on different computers.</span></span>
+
+6.  <span data-ttu-id="6dbc3-177">常設チャットクライアントは、参加した各部屋の XCCOS **bccontext**コマンドを含む SIP 情報メッセージを送信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-177">For each room joined, the Persistent Chat client sends a SIP INFO message that contains the XCCOS **bccontext** command.</span></span> <span data-ttu-id="6dbc3-178">常設チャットサーバーは、会議室の最新のチャットメッセージを含む新しい SIP 情報メッセージに返信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-178">Persistent Chat Server replies with a new SIP INFO message that contains the most recent chat message in the room.</span></span>
+
+7.  <span data-ttu-id="6dbc3-179">常設チャットクライアントは、XCCOS **getinv** (つまり、招待を取得) コマンドを含む SIP 情報メッセージを送信し、クライアントがまだ表示されていない新しい会議室の招待を要求します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-179">The Persistent Chat client sends a SIP INFO message that contains a XCCOS **getinv** (that is, get invitation) command to request any new room invitations that the client has not yet seen.</span></span> <span data-ttu-id="6dbc3-180">別の SIP 情報メッセージでは、常設チャットサーバーはこれらのルームの一覧を返します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-180">In a separate SIP INFO message, Persistent Chat Server returns a list of those rooms.</span></span>
+
+</div>
+
+<div>
+
+## <a name="subscribe-to-a-room-and-post-a-message"></a><span data-ttu-id="6dbc3-181">会議室を購読し、メッセージを投稿する</span><span class="sxs-lookup"><span data-stu-id="6dbc3-181">Subscribe to a Room and Post a Message</span></span>
+
+<span data-ttu-id="6dbc3-182">次のコールフロー図と手順では、一般的な会議室のサブスクリプションとメッセージの投稿のシナリオについて説明します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-182">The following call flow diagram and steps describe a typical room subscription and message post scenario.</span></span>
+
+<span data-ttu-id="6dbc3-183">**常設チャットクライアントルームのサブスクリプションとメッセージ投稿のコールフロー**</span><span class="sxs-lookup"><span data-stu-id="6dbc3-183">**Persistent Chat Client Room Subscription and Message Posting Call Flow**</span></span>
+
+<span data-ttu-id="6dbc3-184">![会議室のサブスクリプションとメッセージの投稿のシナリオ。](images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "会議室のサブスクリプションとメッセージの投稿のシナリオ。")</span><span class="sxs-lookup"><span data-stu-id="6dbc3-184">![Room subscription and message post scenario.](images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "Room subscription and message post scenario.")</span></span>
+
+1.  <span data-ttu-id="6dbc3-185">常設チャットクライアントでは、User1 が「**チャットルームに参加**」、「**検索**」をクリックして、検索条件を入力します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-185">From the Persistent Chat client, User1 clicks **Join a Chat Room**, clicks **Search**, and then enters some search criteria.</span></span> <span data-ttu-id="6dbc3-186">常設チャットクライアントは、検索条件と共に、XCCOS **chansrch** (ルーム検索) コマンドを含む SIP 情報メッセージを送信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-186">The Persistent Chat client sends a SIP INFO message that contains the XCCOS **chansrch** (room search) command, along with the search criteria.</span></span> <span data-ttu-id="6dbc3-187">常設チャットサーバーは、バックエンドデータベースを照会し、検索条件を満たす利用可能な会議室の一覧を含む新しい SIP 情報メッセージで返信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-187">Persistent Chat Server queries the back-end database and replies in a new SIP INFO message that contains a list of available rooms that meet the search criteria.</span></span>
+
+2.  <span data-ttu-id="6dbc3-188">User1 は、参加したいチャットルームを選択し、「**このルームをフォロー**」をクリックします。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-188">User1 selects the chat room that he or she wants to join, and then clicks **Follow this room**.</span></span> <span data-ttu-id="6dbc3-189">常設チャットクライアントは、常設チャットサーバーに、XCCOS **join**コマンドと、ユーザーが選択したチャットルームのルーム ID を含む SIP 情報メッセージを送信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-189">The Persistent Chat client sends Persistent Chat Server a SIP INFO message that contains the XCCOS **join** command and the room ID of the chat room that the user selected.</span></span> <span data-ttu-id="6dbc3-190">常設チャットサーバーは、プロビジョニングデータを含む SIP 情報メッセージと共に応答します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-190">Persistent Chat Server replies with a SIP INFO message that contains the provisioning data.</span></span>
+
+3.  <span data-ttu-id="6dbc3-191">常設チャットクライアントは、XCCOS **bccontext** (backchat コンテキスト) コマンドを含む SIP 情報メッセージを常設チャットサーバーに送信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-191">The Persistent Chat client sends Persistent Chat Server a SIP INFO message that contains the XCCOS **bccontext** (backchat context) command.</span></span> <span data-ttu-id="6dbc3-192">常設チャットサーバーは、チャット履歴を取得して、別の SIP 情報メッセージで常設チャットクライアントに返します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-192">Persistent Chat Server retrieves the chat history, and returns it to the Persistent Chat client in a separate SIP INFO message.</span></span> <span data-ttu-id="6dbc3-193">この時点で、ユーザはチャットルームに入り、参加する準備ができました。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-193">At this point, the user enters the chat room and is ready to participate.</span></span>
+
+4.  <span data-ttu-id="6dbc3-194">User1 が新しいメッセージを入力し、[**送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-194">User1 enters a new message, and then clicks **Send**.</span></span> <span data-ttu-id="6dbc3-195">常設チャットクライアントは、SIP INFO XCCOS **grpchat**コマンドのチャットルームにメッセージを投稿します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-195">The Persistent Chat client posts the message to the chat room in a SIP INFO XCCOS **grpchat** command.</span></span> <span data-ttu-id="6dbc3-196">常設チャットサーバーは、この新しいメッセージのコピーを永続的なチャットバックエンドデータベースに保存します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-196">Persistent Chat Server stores a copy of this new message in the Persistent Chat back-end database.</span></span>
+
+5.  <span data-ttu-id="6dbc3-197">常設チャットサーバーは、既にチャットルームに入っている SIP INFO XCCOS **grpchat**メッセージのコピーを User2 に送信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-197">Persistent Chat Server sends a separate copy of the SIP INFO XCCOS **grpchat** message to User2, who has already entered the chat room.</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="persistent-chat-compliance-call-flows"></a><span data-ttu-id="6dbc3-198">常設チャットのコンプライアンスのコールフロー</span><span class="sxs-lookup"><span data-stu-id="6dbc3-198">Persistent Chat Compliance Call Flows</span></span>
+
+<span data-ttu-id="6dbc3-199">常設チャットサーバーでは、メッセージキュー (MSMQ とも呼ばれます) と追加のコンプライアンスデータベース (管理用組織) を使用して、コンプライアンスデータを処理します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-199">Persistent Chat Server uses Message Queuing (also known as MSMQ) and an additional compliance database (mgccomp) to process compliance data.</span></span> <span data-ttu-id="6dbc3-200">コンプライアンスイベントが処理される方法の例として、次の一連のイベントは、メッセージ投稿イベントが処理される方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-200">As an example of how compliance events are processed, the following sequence of events describes how a message post event is processed.</span></span>
+
+1.  <span data-ttu-id="6dbc3-201">ユーザーがメッセージを会議室に投稿します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-201">A user posts a message to a room.</span></span>
+
+2.  <span data-ttu-id="6dbc3-202">常設チャットサーバーは、プライベートメッセージキューのキューにイベントに関連する情報を配置します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-202">Persistent Chat Server places information pertaining to the event in a private Message Queuing queue.</span></span>
+
+3.  <span data-ttu-id="6dbc3-203">常設チャットのコンプライアンスサーバーは、キューからこのイベントを読み取り、後で処理するために、このイベントを使用しているデータベースに配置します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-203">Persistent Chat Compliance server reads this event from the queue, and places it into the mgccomp database for processing later.</span></span>
+
+4.  <span data-ttu-id="6dbc3-204">定期的に、常設チャットのコンプライアンスサーバーはデータベース内の一連のイベントを処理し、それを処理のために常設チャットコンプライアンスアダプターに送信します。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-204">Periodically, the Persistent Chat Compliance server processes a set of events in the database, and sends them to the Persistent Chat Compliance adapter for processing.</span></span>
+
+5.  <span data-ttu-id="6dbc3-205">アダプターがデータを正常に処理した場合は、常設チャットのコンプライアンスサーバーによって、イベントが、このデータベースから削除されます。</span><span class="sxs-lookup"><span data-stu-id="6dbc3-205">If the adapter successfully processes the data, Persistent Chat Compliance server deletes the events from the mgccomp database.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
