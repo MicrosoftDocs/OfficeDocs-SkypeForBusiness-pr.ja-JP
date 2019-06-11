@@ -1,27 +1,57 @@
-﻿---
-title: Microsoft Lync クライアントのポート範囲の構成
-TOCTitle: Microsoft Lync クライアントのポート範囲の構成
-ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204760(v=OCS.15)
-ms:contentKeyID: 48271625
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Microsoft Lync クライアントのポート範囲の構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring port ranges for your Microsoft Lync clients
+ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
+ms:contentKeyID: 48183694
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03cd4c109760756dd265526bd9d5285fdc9fed30
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840188"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Microsoft Lync クライアントのポート範囲の構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="configuring-port-ranges-for-your-microsoft-lync-clients-in-lync-server-2013"></a>Lync Server 2013 で Microsoft Lync クライアントのポート範囲を構成する
 
-既定では、Lync クライアント アプリケーションが通信セッションに参加する場合、1024 ～ 65535 の範囲の任意のポートを使用できます。これは、クライアントに対して特定のポート範囲が自動的には有効化されないためです。ただし、サービス品質 (QoS) を使用するためには、さまざまなトラフィックの種類 (音声、ビデオ、メディア、アプリケーション共有、およびファイル送信) を一意のポート範囲のセットに再割り当てする必要があります。この操作は、Set-CsConferencingConfiguration コマンドレットを使用して実行できます。
+</div>
 
-Microsoft Lync Server 2013 管理シェルで次のコマンドを実行して、通信セッションで現在使用されているポート範囲を特定できます。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-04-22_
+
+既定では、Lync クライアントアプリケーションは、通信セッションに参加している場合は、ポート1024と65535の間の任意のポートを使うことができます。これは、特定のポート範囲がクライアントに対して自動的に有効にならないためです。 ただし、サービスの品質を使用するためには、さまざまな種類のトラフィック (オーディオ、ビデオ、メディア、アプリケーション共有、ファイル転送) を、一連の固有のポート範囲に割り当てる必要があります。 これを行うには、CsConferencingConfiguration コマンドレットを使用します。
+
+<div>
+
+
+> [!NOTE]  
+> エンドユーザーはこれらの変更を行うことはできません。 ポートの変更は、CsConferencingConfiguration コマンドレットを使用している管理者のみが実行できます。
+
+
+
+</div>
+
+現在通信セッションに使用されているポート範囲を特定するには、Microsoft Lync Server 2013 管理シェルで次のコマンドを実行します。
 
     Get-CsConferencingConfiguration
 
-Lync Server 2013 をインストールした後に会議の設定を変更していない場合は、次のプロパティ値を含む情報が返されます。
+Lync Server 2013 をインストールした後で会議の設定を変更していない場合は、次のプロパティ値を含む情報を取得する必要があります。
 
     ClientMediaPortRangeEnabled : False
     ClientAudioPort             : 5350
@@ -33,30 +63,30 @@ Lync Server 2013 をインストールした後に会議の設定を変更して
     ClientFileTransferPort      : 5350
     ClientTransferPortRange     : 40
 
-ここに示した出力には、重要な情報が 2 つ含まれています。1 つ目は、ClientMediaPortRangeEnabled プロパティが False に設定されていることです。
+上記の出力をよく見ると、2つの重要な点が表示されます。 まず、ClientMediaPortRangeEnabled プロパティが False に設定されます。
 
     ClientMediaPortRangeEnabled : False
 
-このことが重要なのは、このプロパティが False に設定されている場合は、Lync クライアントが通信セッションに参加する場合に、他のポート設定 (ClientMediaPort や ClientVideoPort など) にかかわらず 1024 ～ 65535 の範囲の利用可能な任意のポートが使用されるためです。指定したポートのセットのみを使用するように制限する場合 (サービス品質の実装を計画している場合はこのような制限を行います)、最初にクライアントのメディア ポート範囲を有効にする必要があります。メディア ポート範囲の有効化は、次の Windows PowerShell コマンドを使用して実行できます。
+このプロパティが False に設定されている場合、通信セッションに参加するときに、Lync クライアントは、ポート1024と65535の間で利用可能なポートを使用します。これは、他のポート設定 (ClientMediaPort や ClientVideoPort など) に関係なく true になります。 指定した一連のポートに使用を制限する場合 (これは、サービスの品質の実装を計画している場合に実行します)、まずクライアントのメディアポート範囲を有効にする必要があります。 この操作を行うには、次の Windows PowerShell コマンドを使用します。
 
     Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True
 
-上記のコマンドを実行すると、会議の構成設定のグローバル コレクションに対してクライアントのメディア ポート範囲が有効化されます。ただし、これらの設定は、サイト範囲またはサービスの範囲 (電話会議サーバー サービスのみ) に対しても適用できます。特定のサイトまたはサーバーに対してクライアントのメディア ポート範囲を有効にするには、Set-CsConferencingConfiguration の呼び出し時にそのサイトまたはサーバーの ID を指定します。
+上のコマンドを実行すると、会議構成設定のグローバルコレクションに対してクライアントのメディアポート範囲が有効になります。ただし、これらの設定は、サイトのスコープやサービスの範囲 (会議サーバーサービスのみ) に適用することもできます。 特定のサイトまたはサーバーに対してクライアントのメディアポート範囲を有効にするには、Set-CsConferencingConfiguration を呼び出すときにそのサイトまたはサーバーの Id を指定します。
 
     Set-CsConferencingConfiguration -Identity "site:Redmond" -ClientMediaPortRangeEnabled $True
 
-次のコマンドを使用して、会議のすべての構成設定に対して同時にポート範囲を有効化することもできます。
+または、このコマンドを使用して、すべての会議構成設定のポート範囲を同時に有効にすることもできます。
 
     Get-CsConferencingConfiguration | Set-CsConferencingConfiguration  -ClientMediaPortRangeEnabled $True
 
-2 つ目の重要な情報は、サンプルの出力では、既定で、各種類のネットワーク トラフィックに対して同じメディア ポート範囲が設定されていることです。
+2番目の重要な点は、既定では、各種類のネットワークトラフィックに設定されたメディアポート範囲が同じであることを示しています。
 
     ClientAudioPort             : 5350
     ClientVideoPort             : 5350
     ClientAppSharingPort        : 5350
     ClientFileTransferPort      : 5350
 
-QoS を実装するためには、これらの各ポート範囲が一意であることが必要です。たとえば、次のようにポート範囲を構成します。
+QoS を実装するために、これらの各ポート範囲は一意である必要があります。 たとえば、次のようなポート範囲を構成することができます。
 
 
 <table>
@@ -67,51 +97,67 @@ QoS を実装するためには、これらの各ポート範囲が一意であ�
 </colgroup>
 <thead>
 <tr class="header">
-<th>クライアント トラフィックの種類</th>
-<th>開始ポート</th>
-<th>ポート範囲</th>
+<th>クライアントトラフィックの種類</th>
+<th>ポートの開始</th>
+<th>ポートの範囲</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>音声</p></td>
+<td><p>オーディオ</p></td>
 <td><p>50020</p></td>
-<td><p>20</p></td>
+<td><p>超える</p></td>
 </tr>
 <tr class="even">
 <td><p>ビデオ</p></td>
 <td><p>58000</p></td>
-<td><p>20</p></td>
+<td><p>超える</p></td>
 </tr>
 <tr class="odd">
 <td><p>アプリケーション共有</p></td>
 <td><p>42000</p></td>
-<td><p>20</p></td>
+<td><p>超える</p></td>
 </tr>
 <tr class="even">
-<td><p>ファイル送信</p></td>
+<td><p>ファイル転送</p></td>
 <td><p>42020</p></td>
-<td><p>20</p></td>
+<td><p>超える</p></td>
 </tr>
 </tbody>
 </table>
 
 
-上記の表では、クライアントのポート範囲はサーバーに構成されたポート範囲のサブセットを表しています。たとえば、サーバーではアプリケーション共有が 40803 ～ 49151 のポートを使用するように構成されており、クライアント コンピューターではアプリケーション共有が 42000 ～ 42019 のポートを使用するように構成されています。このように構成されているのは、主に QoS を管理しやすくするためです。クライアントのポートは、サーバーで使用されるポートのサブセットになっている必要はありません (たとえば、クライアント コンピューターで、アプリケーション共有が 10000 ～ 10019 のポートを使用するように構成できます)。ただし、クライアントのポート範囲がサーバーのポート範囲のサブセットになるように構成することをお勧めします。
+上の表のクライアントポート範囲は、サーバーに構成されているポート範囲のサブセットを表しています。 たとえば、サーバー上では、40803 ~ 49151 のポートを使用するようにアプリケーション共有が構成されています。クライアントコンピューターでは、[アプリケーション共有] は、42000 ~ 42019 のポートを使用するように構成されます。 これは主に、QoS の管理を簡単にするために行われています。クライアントポートは、サーバーで使われているポートのサブセットを表す必要はありません。 (たとえば、クライアントコンピューターで、1万 ~ 10019 のポートを使用するようにアプリケーション共有を構成することができます)。ただし、クライアントポート範囲をサーバーのポート範囲のサブセットにすることをお勧めします。
 
-また、サーバー上でアプリケーション共有のために 8348 個のポートが用意されているにもかかわらず、クライアントでアプリケーション共有のために確保されているポートが 20 個のみであることに気付きます。これも推奨されるルールですが、どのような場合でも必ず守る必要があるルールではありません。一般的に、1 つの利用可能なポートは、それぞれ 1 件の通信セッションを表していると考えることができます。ポート範囲に 100 個の利用可能なポートがある場合は、そのコンピューターが任意の時点で最大 100 件の通信セッションに参加する可能性があることを意味します。通常、サーバーはクライアントよりも多くの通信に参加するため、サーバー上でクライアントよりもはるかに多くのポートが開かれるのは当然のことです。クライアントでアプリケーション共有のために 20 個のポートを確保するということは、ユーザーが、指定したデバイスで同時に 20 のアプリケーション共有セッションに参加できることを意味します。大多数のユーザーにとっては、セッション数が 20 あれば十分です。
+また、サーバー上でのアプリケーション共有のために8348のポートが設定されていても、クライアントでのアプリケーション共有については20個のポートしか設定されていないことに気付いた場合もあります。 これは推奨されていますが、ハード・ファースト・ファーストルールではありません。 一般的に、1つの通信セッションを表すために使用可能な各ポートを検討することができます。ポートの範囲内で利用可能な100ポートがある場合は、特定の時間に最大100の通信セッションに参加できることを意味します。 サーバーはクライアントよりも多くの会話に参加する可能性があるため、クライアントよりも多くのポートをサーバー上で開くことが適切です。 クライアント上のアプリケーション共有に20個のポートを確保することは、ユーザーが指定したデバイスで20個のアプリケーション共有セッションに参加することを意味します。 これは、ほとんどのユーザーにとって十分なものであることを証明する必要があります。
 
-上記のポート範囲を会議の構成設定のグローバル コレクションに割り当てるには、次の Lync Server 管理シェル コマンドを使用します。
+会議の構成設定のグローバルコレクションに上記のポート範囲を割り当てるには、次の Lync Server 管理シェルコマンドを使用できます。
 
     Set-CsConferencingConfiguration -Identity global -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 - ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
 
-または、次のコマンドを使用して、この同じポート範囲を会議のすべての構成設定に割り当てます。
+または、このコマンドを使用して、すべての会議の構成設定にこれらと同じポート範囲を割り当てることができます。
 
     Get-CsConferencingConfiguration | Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 - ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
 
-これらの変更内容を実際に有効にするには、各ユーザーが一度 Lync からログオフして、再度ログオンする必要があります。
+個々のユーザーは Lync からログオフしてから再びログインする必要があります。実際には、これらの変更は有効になります。
 
-> [!NOTE]
-> 1 つのコマンドで、クライアントのメディア ポート範囲を有効化し、これらのポート範囲を割り当てることもできます。次に例を示します。<br />
-> <code>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</code>
+<div>
+
+
+> [!NOTE]  
+> クライアントのメディアポート範囲を有効にして、1つのコマンドを使用してこれらのポート範囲を割り当てることもできます。 例:<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

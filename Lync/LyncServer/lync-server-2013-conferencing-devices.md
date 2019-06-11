@@ -1,35 +1,75 @@
-﻿---
-title: Lync Server 2013 での会議デバイス
-TOCTitle: Lync Server 2013 での会議デバイス
-ms:assetid: 8a317568-073b-49a9-a06b-02dc56b2c8f2
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ994050(v=OCS.15)
-ms:contentKeyID: 52056646
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 会議デバイス'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferencing devices
+ms:assetid: 8a317568-073b-49a9-a06b-02dc56b2c8f2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994050(v=OCS.15)
+ms:contentKeyID: 51803961
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 066b0ba4fede67a27c3cd8b6ab76ba7d09afd8fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840469"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での会議デバイス
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="conferencing-devices-in-lync-server-2013"></a>Lync Server 2013 の会議デバイス
 
-会議デバイスにより、会議室で、Lync Phone Edition 機能を使用できます。これにより、その部屋にいる人は、他の場所にいる人の声を聞き、さらに、デバイスによっては姿を見ることもできます。
+</div>
 
-このセクションのトピックでは、会議デバイスをセットアップして、管理する方法を説明します。
+<div id="mainSection">
 
-> [!NOTE]
-> Lync Server 2013 での使用がサポートされている会議デバイスについて詳しくは、「<a href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Microsoft Lync に対応する電話とデバイス (Phones and devices qualified for Microsoft Lync)</a>」をご覧ください。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-02-05_
+
+会議デバイスは、Lync Phone Edition 機能を会議室に取り込み、チャットルーム内のユーザーが聞くことができるようにします。また、デバイスによっては、他の場所にいるユーザーも表示されます。
+
+このセクションのトピックを使用して、会議デバイスのセットアップと管理を行う方法について説明します。
+
+<div>
 
 
-## このセクション中
+> [!NOTE]  
+> Lync Server 2013 でサポートされている会議デバイスの詳細については、「 <A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Microsoft Lync 用に認定</A>された web ページの電話とデバイス」を参照してください。
 
-  - [会議デバイス情報の表示](lync-server-2013-view-conferencing-device-information.md)
 
-  - [会議デバイス連絡先オブジェクトの作成または変更](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
 
-  - [会議デバイスの有効化または無効化](lync-server-2013-enable-or-disable-a-conferencing-device.md)
+</div>
 
-  - [新しいレジストラー プールに会議デバイスを移動する](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
+<div>
+
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 で会議デバイス情報を表示する](lync-server-2013-view-conferencing-device-information.md)
+
+  - [Lync Server 2013 で会議デバイスの連絡先オブジェクトを作成または変更する](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
+
+  - [Lync Server 2013 で会議デバイスを有効または無効にする](lync-server-2013-enable-or-disable-a-conferencing-device.md)
+
+  - [Lync Server 2013 で会議デバイスを新しいレジストラープールに移動する](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,47 +1,81 @@
-﻿---
-title: Lync Server 2013 のバックアップと復元
-TOCTitle: Lync Server 2013 のバックアップと復元
-ms:assetid: 07dc1f5e-af66-4e18-bf39-881dceff8bc3
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh202160(v=OCS.15)
-ms:contentKeyID: 52056531
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server のバックアップと復元'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backing up and restoring Lync Server 2013
+ms:assetid: 07dc1f5e-af66-4e18-bf39-881dceff8bc3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202160(v=OCS.15)
+ms:contentKeyID: 51541443
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5a0cf9f9baabd095e54373c31acd4f4522974a82
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840897"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のバックアップと復元
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-21_
+# <a name="backing-up-and-restoring-lync-server-2013"></a>Lync Server 2013 のバックアップと復元
 
-このセクションでは、Lync Server 2013 データのバックアップに関するベスト プラクティス、および障害が発生した場合のそのデータの復元に関するベスト プラクティスについて説明します。これらのベスト プラクティスは以下の状況に適用されます。
+</div>
 
-  - 任意の種類の Lync Server プール全体 (フロント エンド サーバー、エッジ サーバー、仲介サーバー、常設チャット サーバー、または ディレクター) またはこれらのプールの 1 つに含まれる個々のサーバーに障害が発生。
+<div id="mainSection">
 
-  - 中央管理サーバーに障害が発生。
+<div id="mainBody">
 
-  - Standard Edition に障害が発生。
+<span> </span>
 
-  - Enterprise Editionバック エンド サーバーに障害が発生。
+_**最終更新日:** 2013-02-21_
 
-  - ファイル ストアに障害が発生。
+このセクションでは、Lync Server 2013 データをバックアップするためのベストプラクティスと、エラーが発生した場合に復元するためのベストプラクティスについて説明します。 このベストプラクティスは、次のような場合に適用されます。
 
-  - アーカイブ データベース、監視データベース、または常設チャット データベースに障害が発生。
+  - 任意の種類の Lync Server プール全体 (フロントエンドサーバー、エッジサーバー、仲介サーバー、常設チャットサーバー、またはディレクター)、またはこれらのいずれかのプールの個々のサーバー。
 
-このセクションでは、サイト全体の復元またはスタンバイ サイトの開発に関する情報については説明しません。ペアになったフロント エンド プールを使用する障害復旧ソリューションの開発に関する詳細については、「[Lync Server 2013 での高可用性および障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」を参照してください。障害復旧の計画にはこの方法をお勧めします。
+  - 中央管理サーバー
 
-ペアとなったフロント エンド プールを展開しており、そのうちの 1 つのプールが失敗して回復不可能な状態になった場合、新しい完全修飾ドメイン名 (FQDN) を使用し、ペアの相手のプールからこのプールを復元できます。この復旧の実行手順の詳細については、「[Lync Server 2013 でのプールのフェールオーバー](lync-server-2013-failing-over-a-pool.md)」を参照してください。また、後で、フロント エンド ペアの一部であった、失敗して回復不可能となったプールを再作成する場合は、「[ABC フロントエンド プール フェールオーバーを実行する](lync-server-2013-performing-an-abc-front-end-pool-failover.md)」の手順を使用できます。
+  - Standard Edition サーバー
 
-このドキュメントで説明する方法論には、計画フェーズでの特別な考慮事項が含まれます。詳細については、「[バックアップと復元の計画の策定](lync-server-2013-establishing-a-backup-and-restoration-plan.md)」を参照してください。
+  - Enterprise Edition バックエンドサーバー
 
-## このセクション中
+  - ファイルストア
 
-  - [Lync Server のバックアップと復元の準備](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
+  - アーカイブデータベース、監視データベース、または常設チャットデータベース
 
-  - [データと設定のバックアップ](lync-server-2013-backing-up-data-and-settings.md)
+このセクションには、サイト全体の復元、またはスタンバイサイトの開発に関する情報は含まれていません。 ペアリングされたフロントエンドプールでの障害回復ソリューションの開発について詳しくは、「 [Lync Server 2013 での高可用性と障害回復の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」をご覧ください。 これは、障害回復を計画するための推奨される方法です。
 
-  - [データと設定の復元](lync-server-2013-restoring-data-and-settings.md)
+ペアリングされたフロントエンドプールを展開している場合、これらのプールのいずれかが失敗して回復不能になった場合は、そのペアのプールから新しい完全修飾ドメイン名 (FQDN) を使用して、このプールを復元することができます。 この回復を実行する手順の詳細については、「 [Lync Server 2013 でのプールのフェールオーバー](lync-server-2013-failing-over-a-pool.md)」を参照してください。 さらに、フロントエンドペアの一部であった失敗した回復可能なプールを後で再作成する必要がある場合は、「 [Lync Server 2013 で ABC フロントエンドプールフェールオーバーを実行](lync-server-2013-performing-an-abc-front-end-pool-failover.md)する」の手順を使用できます。
 
-  - [バックアップと復元のワークシート](lync-server-2013-backup-and-restoration-worksheets.md)
+このドキュメントで説明する方法には、計画フェーズでの特別な考慮事項が含まれます。 詳細については、「 [Lync Server 2013 のバックアップと復元計画を立てる](lync-server-2013-establishing-a-backup-and-restoration-plan.md)」を参照してください。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 のバックアップと復元の準備](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
+
+  - [Lync Server 2013 でのデータと設定のバックアップ](lync-server-2013-backing-up-data-and-settings.md)
+
+  - [Lync Server 2013 でのデータと設定の復元](lync-server-2013-restoring-data-and-settings.md)
+
+  - [Lync Server 2013 のバックアップと復元ワークシート](lync-server-2013-backup-and-restoration-worksheets.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

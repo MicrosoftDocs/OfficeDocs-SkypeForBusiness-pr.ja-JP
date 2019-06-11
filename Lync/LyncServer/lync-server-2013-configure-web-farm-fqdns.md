@@ -1,47 +1,84 @@
-﻿---
-title: 'Lync Server 2013: Web ファームの FQDN の構成'
-TOCTitle: Web ファームの FQDN の構成
-ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg429722(v=OCS.15)
-ms:contentKeyID: 48273582
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Web ファームの FQDN の構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure web farm FQDNs
+ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429722(v=OCS.15)
+ms:contentKeyID: 48185481
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 517e00baef63e3597c2f5b2b6621e62efb02ca62
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840305"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 向けの Web ファームの FQDN の構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-03-29_
+# <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>Lync Server 2013 向けの Web ファームの FQDN の構成
 
-Standard Edition サーバー、フロント エンド プール、ディレクター または ディレクター プールの構成を トポロジ ビルダーで定義するときは、外部 Web サービスの完全修飾ドメイン名 (FQDN) を構成します。Standard Edition サーバーまたは フロント エンド プールに属しているクライアントのログオン プロセスの間に、構成されている Web サービスの FQDN がインバンド プロビジョニングによって送信されます。外部 Web サービスの URL を追加または変更する必要がある場合は、トポロジ ビルダーで以下の手順を使用して Web サービスを構成または再攻勢します。
+</div>
 
-## Web サービスで使用する外部プールの FQDN を構成するには
+<div id="mainSection">
 
-1.  トポロジ ビルダーを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server トポロジ ビルダー**\] の順にクリックします。
+<div id="mainBody">
 
-2.  トポロジ ビルダーのコンソール ツリーの \[**Standard Edition フロントエンド サーバー**\]、\[**Enterprise Edition フロントエンド プール**\]、および \[**ディレクター プール**\] で編集する必要のあるプール名を右クリックして、\[**プロパティの編集**\] をクリックします。
+<span> </span>
 
-3.  \[**Web サービス**\] セクションで、\[**外部 Web サービスの FQDN**\] を追加または編集します。
+_**最終更新日:** 2013-03-29_
 
-4.  HTTP および HTTPS 両方の \[**リッスン ポート**\] を確認して調整します。既定値は次のとおりです。
+Standard Edition server、フロントエンドプール、ディレクター、またはディレクターの構成をトポロジビルダーで定義した場合、外部 web サービスの完全修飾ドメイン名 (FQDN) を構成します。 Standard Edition server またはフロントエンドプールに所属しているクライアントのログオンプロセスでは、構成された web サービスの Fqdn は、インバンドプロビジョニングを通じて送信されます。 外部 web サービスの URL を追加または変更する必要がある場合は、このトピックの手順を使用して、トポロジビルダーを使用して web サービスの構成を構成または再構成します。
+
+<div>
+
+## <a name="to-configure-an-external-pool-fqdn-for-web-services"></a>Web サービス用の外部プール FQDN を構成するには
+
+1.  トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。
+
+2.  [トポロジビルダー] のコンソールツリーの、**標準エディションのフロントエンド**、 **Enterprise Edition のフロントエンド**、および**ディレクター**で、編集する必要があるプール名を右クリックし、[**プロパティの編集**] をクリックします。
+
+3.  [ **Web services** ] セクションで、**外部 WEB サービスの FQDN**を追加または編集します。
+
+4.  HTTP と HTTPS の両方の**リスニングポート**を確認し、調整します。 既定値は、次のようになります。
     
-      - **リッスン ポート:** HTTP 8080、HTTPS 4443
+      - **リスニングポート:** HTTP 8080、HTTPS 4443
     
-      - **公開ポート:** HTTP 80、HTTPS 443
+      - 公開された**ポート:** HTTP 80、HTTPS 443
     
-    \[**リッスン ポート**\] は外部 Web サービスがリバース プロキシからの要求を受信するように構成されているポートであり、\[**公開ポート**\] はリバース プロキシによって外部に公開されているポートで、インバンド プロビジョニングの間にクライアントに通知されます。
+    このポート**** は、外部 web サービスがリバースプロキシからの要求を受信するように構成されているポートであり、公開された**ポート**はリバースプロキシによって外部で公開されているポートであり、インバンドプロビジョニング中のクライアント。
 
-5.  追加および更新が終了したら、\[**OK**\] をクリックして続行します。
+5.  追加と更新が完了したら、[ **OK]** をクリックして操作を続けます。
 
-6.  \[**Lync Server 2013**\] を右クリックして、\[**公開**\] をクリックします。
+6.  [ **Lync Server 2013**] を右クリックし、[**発行**] をクリックします。
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > 公開が正常に完了した後、実行する必要のある追加手順があることを示すリンクが表示される場合があります。リンクをクリックすると、 トポロジ ビルダーで行った変更によって影響を受けたサーバーの一覧が開くので、示されている各サーバーで Lync Server 展開ウィザードを再度実行して追加、削除、変更したコンポーネントの構成を更新する必要があります。
+    > [!IMPORTANT]  
+    > 発行が正常に完了すると、追加の手順を実行する必要があることを知らせるリンクが表示されることがあります。 リンクをクリックすると、[トポロジビルダー] で行った変更の影響を受けるサーバーの一覧が表示されます。このリンクをクリックすると、一覧の各サーバーで Lync Server 展開ウィザードを再実行して、追加、削除、または変更されたコンポーネントの構成を更新する必要があります。
 
+    
+    </div>
 
+7.  組織内の標準エディションサーバー、フロントエンドプール、ディレクター、またはディレクタープールごとに、この手順を繰り返します。
 
-7.  組織の Standard Edition サーバー、フロント エンド プール、ディレクター または ディレクター プール のそれぞれについて、これらの手順を繰り返します。
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

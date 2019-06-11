@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013 の Active Directory のサポート
-TOCTitle: Active Directory のサポート
-ms:assetid: 28ed9ac4-586d-4803-ad45-99c4fa793f54
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425756(v=OCS.15)
-ms:contentKeyID: 48271628
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 の Active Directory のサポート
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory support
+ms:assetid: 28ed9ac4-586d-4803-ad45-99c4fa793f54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425756(v=OCS.15)
+ms:contentKeyID: 48183679
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9be3bda71e44d0e739fce3a8d01db9cb84e2b9e3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840957"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での Active Directory のサポート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="active-directory-support-in-lync-server-2013"></a>Lync Server 2013 での Active Directory のサポート
 
-Lync Server 2013 でサポートされる Active Directory ドメイン サービス 内部設置型トポロジは次のとおりです。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-12-04_
+
+Lync Server 2013 でサポートされている Active Directory ドメインサービスオンプレミストポロジは、次のようになります。
 
   - 単一のドメインを含む単一のフォレスト
 
@@ -27,13 +47,35 @@ Lync Server 2013 でサポートされる Active Directory ドメイン サー�
 
   - リソース フォレスト トポロジの複数のフォレスト
 
-> [!NOTE]
-> Lync Server 2013 では、単一ラベルのドメインはサポートされません。たとえば、<strong>contoso.local</strong> という名前のルート ドメインを持つフォレストはサポートされますが、<strong>local</strong> という名前の単一ラベルのルート ドメインはサポートされません。詳細については、Microsoft サポート技術情報の記事 300684「単一ラベル DNS 名を使用して Active Directory のドメインを構成する」(<a href="http://go.microsoft.com/fwlink/?linkid=143752%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=143752&amp;clcid=0x411</a>) を参照してください。
+<div>
 
 
-> [!NOTE]
-> Lync Server 2013 では、ドメインの名前変更はサポートしていません。Lync Server が展開されるドメインの名前を変更する必要がある場合は、最初に Lync Server をアンインストールし、ドメインの名前を変更してから、Lync Server を再インストールする必要があります。
+> [!NOTE]  
+> Lync Server 2013 では、単一ラベルドメインはサポートされていません。 たとえば、 <STRONG>local</STRONG>という名前のルートドメインを持つフォレストはサポートされていますが、 <STRONG>local</STRONG>という名前の単一ラベルルートドメインはサポートされていません。 詳細については、「Microsoft サポート技術情報の記事300684」を参照してください<A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>。 "単一ラベルの DNS 名でドメイン用に Windows を構成する" について説明します。
 
 
-内部設置型展開でサポートされるトポロジと要件の詳細については、「計画」のドキュメントの「[Lync Server 2013 の Active Directory ドメイン サービスの要件、サポート、およびトポロジ](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md)」を参照してください。
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Lync Server 2013 では、ドメイン名の変更はサポートされていません。 Lync Server が展開されているドメインの名前を変更する必要がある場合は、まず Lync Server をアンインストールしてから、ドメインの名前を変更してから、Lync Server を再インストールする必要があります。
+
+
+
+</div>
+
+オンプレミス展開のサポートされるトポロジと要件の詳細については、計画ドキュメントの「 [Lync Server 2013 での Active Directory ドメインサービスの要件、サポート、およびトポロジ](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md)」を参照してください。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

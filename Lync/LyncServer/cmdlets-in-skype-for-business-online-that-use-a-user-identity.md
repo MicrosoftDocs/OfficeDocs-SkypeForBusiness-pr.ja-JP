@@ -1,76 +1,82 @@
-﻿---
-title: ユーザー ID を使用するコマンドレット
-TOCTitle: ユーザー ID を使用するコマンドレット
-ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn362842(v=OCS.15)
-ms:contentKeyID: 56270141
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# ユーザー ID を使用するコマンドレット
+title: ユーザー id を使用する Skype for Business Online のコマンドレット
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use a user identity
+ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362842(v=OCS.15)
+ms:contentKeyID: 56558859
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63e0086f4b04dd199a285820db811a57899cdc0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840095"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>ユーザー id を使用する Skype for Business Online のコマンドレット
 
  
 
-_**トピックの最終更新日:** 2015-06-22_
 
-Skype for Business Online では、個々のユーザー ID を参照するためのさまざまな方法があります。
+Skype for Business Online には、個々のユーザー Id を参照するさまざまな方法があります。
 
-  - ユーザーの Active Directory ドメイン サービスの表示名を使用する。例:
+  - ユーザーの Active Directory ドメインサービスの表示名を使用します。 次に例を示します。
     
         -Identity "Ken Myer"
 
-  - ユーザーの SIP アドレスを使用する。例:
+  - ユーザーの SIP アドレスを使用します。 次に例を示します。
     
         -Identity "sip:kenmyer@litwareinc.com"
 
-  - ユーザーの UPN を使用する。例:
+  - ユーザーの UPN を使用します。 次に例を示します。
     
         -Identity " kenmyer@litwareinc.com"
 
-  - ユーザーの Active Directory ドメイン サービスの識別名を使用する。例:
+  - ユーザーの Active Directory ドメインサービスの識別名を使用します。 次に例を示します。
     
         -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 
-次のコマンドレットでは、ユーザー ID を使用できます。
+次のコマンドレットは、ユーザー Id を受け取ります。
 
-  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))
 
-  - [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom)
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))
 
-  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
+  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))
 
-  - [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))
 
-  - [Get-CsOnlineUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsOnlineUser?view=skype-ps)
+  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))
 
-  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))
 
-  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
+  - [新規-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
 
-  - [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExUmContact)
+  - [削除-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
 
-  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+  - [CsUserAcp の削除](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
+  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))
 
-  - [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom)
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))
 
-  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))
 
-次のいずれかの **Get-Cs** コマンドレットを呼び出す場合は、ユーザー ID を指定する必要はありません。この場合、コマンドレットによって指定した項目のすべてのインスタンスが返されます。たとえば、次のコマンドを実行すると Skype for Business Online が有効なすべてのユーザーに関する情報が返されます。
+**Get Cs**コマンドレットのいずれかを呼び出す場合は、ユーザー id を指定する必要はないことに注意してください。 この場合、コマンドレットは指定された項目のすべてのインスタンスを返します。 たとえば、次のコマンドは、Skype for Business Online が有効になっているすべてのユーザーに関する情報を返します。
 
     Get-CsOnlineUser
 
-特定のユーザーの情報を返したい場合にのみ、Identity パラメーターが必要です。
+Identity パラメーターが必要になるのは、特定のユーザーに関する情報を返す場合のみです。
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
-## 関連項目
+## <a name="see-also"></a>関連項目
 
-#### 概念
 
-[ID、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Skype for Business Online の id、スコープ、テナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Lync Online のコマンドレット](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

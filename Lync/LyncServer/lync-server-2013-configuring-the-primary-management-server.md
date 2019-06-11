@@ -1,29 +1,49 @@
-﻿---
-title: プライマリ管理サーバーの構成
-TOCTitle: プライマリ管理サーバーの構成
-ms:assetid: 44e2e9a8-c130-4c66-9871-80b1ff11b27c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204844(v=OCS.15)
-ms:contentKeyID: 48271935
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: プライマリ管理サーバーを構成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring the primary management server
+ms:assetid: 44e2e9a8-c130-4c66-9871-80b1ff11b27c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204844(v=OCS.15)
+ms:contentKeyID: 48183986
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 54b34c685ef59c6315b9d1a667f0715aa4300a83
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840168"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# プライマリ管理サーバーの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configuring-the-primary-management-server-in-lync-server-2013"></a>Lync Server 2013 でのプライマリ管理サーバーの構成
 
-Microsoft Lync Server 2013 に含まれる新しい状態監視機能を最大限に利用するために、管理者は最初にコンピューターがプライマリ管理サーバーとして動作するように指定し、そのコンピューターに System Center Operations Manager 2007 R2 または System Center Operations Manager 2012 をインストールする必要があります。さらに Operations Manager のバックエンド データベースとして機能するように、サポートされているバージョンの SQL Server をインストールする必要があります。System Center Operations Manager 2012 を使用している場合は、次のバージョンの SQL Server をバックエンド データベースとして使用できます。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-03-19_
+
+Microsoft Lync Server 2013 に含まれている新しい正常性監視機能を最大限に活用するためには、まず、プライマリ管理サーバーとして動作するようにコンピューターを指定する必要があります。そのコンピューターで、System Center Operations Manager 2007 R2 または System Center Operations Manager 2012 をインストールする必要があります。 さらに、サポートされているバージョンの SQL Server を、Operations Manager バックエンドデータベースとして機能するようにインストールする必要があります。 System Center Operations Manager 2012 を使用している場合は、次のいずれかのバージョンの SQL Server をバックエンドデータベースとして使用できます。
 
   - SQL Server 2008 R2 Service Pack 1
 
   - SQL Server 2008 R2 Service Pack 2
 
-System Center Operations Manager 2007 R2 を使用している場合は、SQL Server 2005 Service Pack 4 または SQL Server 2008 Service Pack 3 のどちらかをインストールすることをお勧めします。System Center Operations Manager 2007 R2 のバックエンド データベースとして SQL Server 2008 R2 を使用することもできます。System Center Operations Manager 2007 R2 と連携して動作するように SQL Server 2008 R2 を構成する方法の詳細については、このドキュメントの「付録 1」を参照してください。
+System Center Operations Manager 2007 R2 を使用している場合は、SQL Server 2005 Service Pack 4 または SQL Server 2008 Service Pack 3 をインストールすることをお勧めします。 また、System Center Operations Manager 2007 R2 のバックエンドデータベースとして SQL Server 2008 R2 を使用することもできます。 SQL Server 2008 R2 を System Center Operations Manager 2007 R2 と連携するように構成する方法については、このドキュメントの「付録1」を参照してください。
 
-System Center Operations Manager 2012 または System Center Operations Manager 2007 R2 をインストールする場合、次のような、その製品のすべてのコンポーネントをインストールする必要があります。
+System Center Operations Manager 2012 または System Center Operations Manager 2007 R2 をインストールするには、次のような製品のすべてのコンポーネントをインストールする必要があります。
 
   - オペレーション データベース
 
@@ -31,7 +51,7 @@ System Center Operations Manager 2012 または System Center Operations Manager
 
   - コンソール
 
-  - Windows PowerShell のコマンドレット
+  - Windows PowerShell コマンドレット
 
   - Web コンソール
 
@@ -39,9 +59,19 @@ System Center Operations Manager 2012 または System Center Operations Manager
 
   - データ ウェアハウス
 
-これらのコンポーネントとそのインストールの詳細については、このドキュメントでは説明しません。System Center Operations Manager 2007 R2 の詳細については、[http://go.microsoft.com/fwlink/?linkid=257526\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=257526%26clcid=0x411) の Operations Manager 2007 R2 のドキュメントと、[http://go.microsoft.com/fwlink/?linkid=257527\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=257527%26clcid=0x411) の System Center Operations Manager 2012 のドキュメントを参照してください。バックエンド データベースとして SQL Server 2005 または SQL Server 2008 Service Pack 1 を使用する場合は、これらの指示に従う必要があります。
+このドキュメントでは、これらのコンポーネントとそのインストールについて詳しくは説明しません。 System Center Operations Manager 2007 R2 の詳細については、「Operations Manager 2007 R2 <http://go.microsoft.com/fwlink/p/?linkid=257526>のドキュメント」および System Center operations manager 2012 <http://go.microsoft.com/fwlink/p/?linkid=257527>のドキュメントを参照してください。 SQL Server 2005 または SQL Server 2008 Service Pack 1 をバックエンドデータベースとして使用する場合は、これらの手順に従う必要があります。
 
-System Center Operations Manager 2012 を使用している場合は、バックエンド データベースとして SQL Server 2012 を使用できます。SQL Server 2012 の詳細については、[http://go.microsoft.com/fwlink/?linkid=257528\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=257528%26clcid=0x411)の「SQL Server 2012 オンライン ブック」を参照してください。
+System Center Operations Manager 2012 を使用している場合は、バックエンドデータベースとして SQL Server 2012 を使用できます。 SQL Server 2012 の詳細については、「SQL Server 2012 の[http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)オンラインブック」を参照してください。
 
-Lync Server の展開ごとに設定できるのは 1 つのプライマリ管理サーバーだけであることに注意してください。また System Center Operations Manager 2012 または System Center Operations Manager 2007 R2 を使用しているときは、2 つのアプリケーションを同時に実行することはできません。どちらかを選ぶ必要があります。たとえば System Center Operations Manager 2012 を実行している場合は、すべての System Center エージェントでも System Center Operations Manager 2012 を実行している必要があります。あるエージェントでは System Center Operations Manager 2012 を実行し、別のエージェントでは System Center Operations Manager 2007 R2 を実行することはできません。
+Lync Server の展開ごとに1つのプライマリ管理サーバーしか設定できないことに注意してください。 また、System Center Operations Manager 2012 または System Center Operations Manager 2007 R2 のいずれかを使用できますが、2つのアプリケーションを同時に実行することはできません。どちらか一方を選ぶ必要があります。 たとえば、System Center Operations Manager 2012 を実行している場合、System Center エージェントも System Center Operations Manager 2012 を実行している必要があります。 System Center Operations Manager 2012 と System Center Operations Manager 2007 R2 を実行しているエージェントの一部を実行することはできません。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

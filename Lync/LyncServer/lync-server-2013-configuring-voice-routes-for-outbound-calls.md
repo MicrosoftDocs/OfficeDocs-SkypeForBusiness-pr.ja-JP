@@ -1,41 +1,66 @@
-﻿---
-title: 'Lync Server 2013: 発信通話用のボイス ルートの構成'
-TOCTitle: 発信通話用のボイス ルートの構成
-ms:assetid: 3c182cdd-7a4a-4a9d-bdac-4199f0abd947
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425890(v=OCS.15)
-ms:contentKeyID: 48271835
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 発信通話用のボイス ルートの構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring voice routes for outbound calls
+ms:assetid: 3c182cdd-7a4a-4a9d-bdac-4199f0abd947
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425890(v=OCS.15)
+ms:contentKeyID: 48183875
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6e91525f5d35110560b28059f774be8d2cb5df6d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840148"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での発信通話用のボイス ルートの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a>Lync Server 2013 での発信通話用のボイス ルートの構成
 
-Lync Server 2013 音声ルートは、通話先の電話番号を、1 つ以上の公衆交換電話網 (PSTN) ゲートウェイまたは SIP トランクおよび 1 つ以上の PSTN 使用法レコードに関連付けます。
+</div>
 
-**Lync Server コントロール パネルを使用して音声ルートを表示するには**
+<div id="mainSection">
 
-1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+<div id="mainBody">
 
-2.  \[**音声のルーティング**\] をクリックします。
+<span> </span>
 
-3.  \[**ルート**\] をクリックします。
+_**最終更新日:** 2012-11-01_
 
-4.  音声ルートをダブルクリックし、音声ルートの一覧から追加のプロパティを表示するか、ルートを選択し、\[**編集**\] をクリックします。次に、\[**詳細の表示**\] をクリックします。
+Lync Server 2013 のボイスルーティングは、1つ以上の公衆交換電話網 (PSTN) ゲートウェイまたは SIP trunks と1つ以上の PSTN 使用状況レコードとの接続先電話番号を関連付けます。
+
+**Lync Server コントロールパネルを使用して音声ルートを表示するには**
+
+1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+
+2.  [**音声ルーティング**] をクリックします。
+
+3.  [**ルート**] をクリックします。
+
+4.  ボイスルートをダブルクリックして、音声ルートの一覧からその他のプロパティを表示するか、ルートを選んで [**編集**] をクリックします。 次に、[**詳細の表示**] をクリックします。
     
-    > [!NOTE]
-    > 一度に 1 つのルートの詳細情報しか表示できません。
+    <div>
+    
 
+    > [!NOTE]  
+    > 一度に1つのルートの詳細情報のみを表示することができます。
+
+    
+    </div>
 
 **Windows PowerShell を使用して音声ルートを表示するには**
 
-  - Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。Windows PowerShell と **Get-CsVoiceRoute** コマンドレットを使用して、音声ルートを表示できます。このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+  - Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。 音声ルートを表示するには、Windows PowerShell と**CsVoiceRoute**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
     
-    すべての音声ルートに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、Enter キーを押します。
+    すべての音声ルートに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
     
         Get-CsVoiceRoute
     
@@ -51,19 +76,43 @@ Lync Server 2013 音声ルートは、通話先の電話番号を、1 つ以上�
         SuppressCallerId  :
         AlternateCallerId :
 
-> [!NOTE]
-> 詳細については、「計画」のドキュメントの「<a href="lync-server-2013-voice-routes.md">Lync Server 2013 の音声ルート</a>」を参照してください。
+<div>
 
 
-## このセクション中
+> [!NOTE]  
+> 詳細については、計画ドキュメントの「 <A href="lync-server-2013-voice-routes.md">Lync Server 2013 の音声ルート</A>」を参照してください。
 
-  - [Lync Server 2013 でのボイス ルートの作成](lync-server-2013-create-a-voice-route.md)
 
-  - [Lync Server 2013 でのボイス ルートの変更](lync-server-2013-modify-a-voice-route.md)
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Lync Server 2013 での音声ルーティングの管理](lync-server-2013-managing-voice-routing.md)
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 での音声ルートの作成](lync-server-2013-create-a-voice-route.md)
+
+  - [Lync Server 2013 での音声ルートの変更](lync-server-2013-modify-a-voice-route.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 での音声ルーティングの管理](lync-server-2013-managing-voice-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

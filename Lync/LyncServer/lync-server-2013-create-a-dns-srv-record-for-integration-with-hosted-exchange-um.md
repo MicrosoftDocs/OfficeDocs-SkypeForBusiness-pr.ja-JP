@@ -1,69 +1,119 @@
-﻿---
-title: 'Lync Server 2013: Hosted Exchange UM との統合のための DNS SRV レコードを作成する'
-TOCTitle: Hosted Exchange UM との統合のための DNS SRV レコードを作成する
-ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh500728(v=OCS.15)
-ms:contentKeyID: 48272803
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Hosted Exchange UM との統合のための DNS SRV レコードを作成する
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a DNS SRV record for integration with hosted Exchange UM
+ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh500728(v=OCS.15)
+ms:contentKeyID: 48184770
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b2f96b8873e7d83b7025b43b111312185b8e5d5c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840134"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Hosted Exchange UM との統合のための DNS SRV レコードを作成する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Hosted Exchange UM との統合のための DNS SRV レコードを作成する
 
-このトピックでは、Microsoft Exchange Online など、Hosted Exchange サービスに Lync Server 2013  エッジ サーバーをルーティングするために必要とされる、ドメイン ネーム システム (DNS) の SRV レコードを構成する方法について説明します。
+</div>
 
-## Hosted Exchange サービス用の外部 DNS SRV レコードを作成するには
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-20_
+
+このトピックでは、Lync Server 2013 エッジサーバーが Microsoft Exchange Online などのホストされた Exchange サービスにルーティングするために必要なドメインネームシステム (DNS) SRV レコードを構成する方法について説明します。
+
+<div>
+
+## <a name="to-create-an-external-dns-srv-record-for-the-hosted-exchange-service"></a>ホストされている Exchange サービスの外部 DNS SRV レコードを作成するには
 
 1.  DnsAdmins グループのメンバーとして外部 DNS サーバーにログオンします。
 
-2.  \[**スタート**\]、\[**管理ツール**\]、\[**DNS**\] の順にクリックします。
+2.  [**スタート**] をクリックし、[**管理ツール**]、[ **DNS**] の順にクリックします。
 
-3.  SIP ドメインのコンソール ツリーで、\[**前方参照ゾーン**\] を展開し、 Lync Server 2013 をインストールする SIP ドメインを選択します。
+3.  SIP ドメインのコンソールツリーで [**前方参照ゾーン**] を展開し、Lync Server 2013 をインストールする SIP ドメインを選択します。
+    
+    <div>
     
 
     > [!IMPORTANT]
-    > Lync Server がインストールされているか Lync Server がインストールされる SIP ドメインに DNS SRV レコードを作成する必要があります。SRV レコードを作成するときに、[このサービスを提供しているホスト] フィールドで使用する FQDN には、エッジ プールの外部 FQDN を指定する必要があります。たとえば、エッジ プールの外部 FQDN が edge01.contoso.net の場合、その値を入力します。また、これは、DNS ホスト (A) レコードと同じドメインに含まれる必要があります。
+    > Lync Server がインストールされている、またはインストールされる SIP ドメインで DNS SRV レコードを作成する必要があります。 SRV レコードを作成するときに、[このサービスを提供するホスト] フィールドを使う FQDN は、Edge プールの外部 FQDN である必要があります。 たとえば、Edge プールの外部 FQDN が edge01.contoso.net の場合は、その値を入力します。 また、DNS Hosts (A) レコードと同じドメイン内に存在する必要があります。
 
-
-
-4.  選択したドメインを右クリックし、\[**その他の新しいレコード**\] をクリックします。
-
-5.  \[**リソース レコードの種類**\] で、\[**サービス ロケーション (SRV)**\]、\[**レコードの作成**\] の順にクリックします。
-
-6.  \[**新しいリソース レコード**\] で、\[**サービス**\] をクリックし、「**\_sipfederationtls** 」と入力します。
-
-7.  "**プロトコル**" フィールドをクリックし、「**\_tcp**」と入力します。
-
-8.  "**ポート番号**" フィールドをクリックし、「**5061**」と入力します。
-
-9.  \[**このサービスを提供しているホスト**\] をクリックし、信頼される外部クライアントに Lync Server 2013 システムへのアクセスを提供する Lync Server 2013  エッジ プールの完全修飾ドメイン名 (FQDN) を入力します。
     
+    </div>
+
+4.  選んだドメインを右クリックし、[**その他の新しいレコード**] をクリックします。
+
+5.  [**リソースレコードの種類**] で [**サービスの場所 (SRV)**] をクリックし、[**レコードの作成**] をクリックします。
+
+6.  [**新しいリソースレコード**] で、[**サービス**] をクリックし、「 ** \_sipfederationtls**」と入力します。
+
+7.  [**プロトコル**] をクリックして、「 ** \_tcp**」と入力します。
+
+8.  [**ポート番号**] をクリックし、「**5061**」と入力します。
+
+9.  [**このサービスを提供するホスト**] をクリックして、lync Server 2013 Edge プールの完全修飾ドメイン名 (FQDN) を入力します。これにより、信頼できる外部クライアントの lync server 2013 システムへのアクセスが提供されます。
+    
+    <div>
+    
+
     > [!NOTE]
-    > このドメインを、Exchange Online 設定内で権限のある承認済みドメインとしてセットアップする必要もあります。詳細については、「承認済みドメインの作成 - Office 365 Beta for enterprises」( <a href="http://go.microsoft.com/fwlink/?linkid=229762%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=229762&amp;clcid=0x411</a>) を参照してください。
+    > また、ドメインは、Exchange Online の設定で、権限を持つ承認済みドメインとして設定する必要があります。 詳しくは、「承認された<A href="http://go.microsoft.com/fwlink/p/?linkid=229762">http://go.microsoft.com/fwlink/p/?linkId=229762</A>ドメインをで作成する」をご覧ください。
 
+    
+    </div>
 
-10. \[**OK**\] をクリックしてから、\[**完了**\] をクリックします。
+10. [**OK**] をクリックしてから、[**完了**] をクリックします。
 
-## DNS SRV レコードが正常に作成されたことを確認するには
+</div>
 
-1.  ドメイン内のクライアント コンピューターにログオンします。
+<div>
 
-2.  \[**スタート**\] ボタンをクリックし、\[**ファイル名を指定して実行**\] をクリックします。
+## <a name="to-verify-that-the-dns-srv-record-was-created-successfully"></a>DNS SRV レコードが正常に作成されたことを確認するには
 
-3.  コマンド プロンプトで、次のコマンドを実行します。
+1.  ドメイン内のクライアントコンピューターにログオンします。
+
+2.  [**スタート**] ボタンをクリックし、[**ファイル名を指定して実行**] をクリックします。
+
+3.  コマンドプロンプトで、次のコマンドを実行します。
     
         nslookup <FQDN Lync Edge Pool>
 
-4.  受け取る応答が、FQDN の適切な IP アドレスに解決していることを確認します。
+4.  FQDN の適切な IP アドレスに解決される返信を受信したことを確認します。
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
 
-[Lync Server 2013 でのリバース プロキシ サーバーの DNS レコードの作成](lync-server-2013-create-dns-records-for-reverse-proxy-servers.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でのリバース プロキシ サーバーの DNS レコードの作成](lync-server-2013-create-dns-records-for-reverse-proxy-servers.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

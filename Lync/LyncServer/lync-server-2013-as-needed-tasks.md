@@ -1,125 +1,163 @@
-﻿---
-title: 'Lync Server 2013: As-needed tasks'
+---
+title: 'Lync Server 2013: 必要に応じてタスク'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: As-needed tasks
 ms:assetid: b66bc6fe-f138-4cf4-ba7f-aee9a3e0497e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn722431(v=OCS.15)
-ms:contentKeyID: 62281966
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722431(v=OCS.15)
+ms:contentKeyID: 63969643
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e96fd6e73e043c5ea7c476f939b3a3e06eadbdfb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840760"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# As-needed tasks in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="as-needed-tasks-in-lync-server-2013"></a>Lync Server 2013 での必要なタスク
 
-Perform the following tasks as necessary. They are frequently also covered by standard procedures:
+</div>
 
-  - **Full Security Auditing   **You can perform this audit regularly, in response to an upgrade or redesign of the messaging system, or in response to an attempted (or successful) security breach. The procedure may involve port scans on servers and firewalls, audits of security fixes, and third-party penetration tests.
+<div id="mainSection">
 
-  - **Replace Certificates about to Expire**   Checking Lync Server Certificates is one of regular weekly tasks, and as part of the procedure an administrator should have a record of all certificates’ expiry dates. This record enables an administrator to create a notification when a particular certificate is about to be expired and replaced as needed.
+<div id="mainBody">
 
-  - **Updating Performance Baselines**   Update performance baselines after an upgrade or configuration change. Your organization can use baselines to measure performance changes and to detect issues that affect system performance.
+<span> </span>
 
-  - **Managing Enterprise Pool**   Initial configuration of Enterprise pools, Standard Edition servers, and any other servers in your organization's environment were done during deployment of the individual servers. Post-deployment management of servers and pools for Standard Edition servers and Enterprise pools includes the following tasks:
-    
-      - Managing Front End Servers
-    
-      - Managing Web Conferencing
-    
-      - Managing Conferencing
-    
-      - Changing Service Account Credentials
-    
-      - Managing Databases
-    
-      - Starting and Stopping Services and Deactivating Server Roles
-    
-      - Removing Servers and Server Roles, Removing Pools, and Decommissioning Servers and Pools
+_**最終更新日:** 2014-08-18_
 
-  - **Managing Usage**   You can configure Lync Server 2013 to provide the features and functionality that are most appropriate for your organization. This includes the following:
-    
-      - Managing Support for On-Premise Web Conferencing Meetings
-    
-      - Managing the Use of Distribution Groups to Send Instant Messages
-    
-      - Managing Contacts, Presence, and Queries
-    
-      - Configuring Client Version Filtering
-    
-      - Configuring Intelligent IM Filtering
-    
-      - Configuring Archiving, Call Detail Recording, and Meeting Compliance
+必要に応じて、次のタスクを実行します。 通常、標準の手順でもカバーされています。
 
-  - **Managing Edge Server Connectivity**   Ongoing management of the servers and settings required to provide external connectivity includes the following:
-    
-      - Managing Connectivity between Internal Servers and Edge Servers
-    
-      - Configuring Internal and External Interfaces and Certificates for Edge Servers
-    
-      - Managing Federated Partner Access
+  - **完全なセキュリティ監査   **この監査は、メッセージングシステムのアップグレードまたは再設計、または試行された (または成功した) セキュリティ違反に対応して、定期的に行うことができます。 この手順では、サーバーやファイアウォールでのポートスキャン、セキュリティ修正プログラムの監査、サードパーティのペネトレーションテストなどを行うことができます。
 
-  - **Administering the Address Book**   Administering Address Book Servers includes the following:
-    
-      - Configuring Address Book Server phone normalization
-    
-      - Managing the Address Book Server from the command line
+  - **証明書に関する情報を期限切れ**   にするには Lync Server 証明書は通常の週間タスクの1つであり、管理者はすべての証明書の有効期限を記録する必要があります。 このレコードを使用すると、特定の証明書が期限切れになり、必要に応じて置き換えられるときに、管理者が通知を作成できます。
 
-  - **Managing User Accounts**   Management of user accounts includes the following:
-    
-      - Enabling User Accounts for Lync Server
-    
-      - Configuring Lync Server Users using the Wizard
-    
-      - Configuring Individual Lync Server User Account Properties
-    
-      - Searching for Lync Server Users
-    
-      - Moving Lync Server Users
-    
-      - Deleting Lync Server Users
+  - **パフォーマンスの基準計画**   を更新するアップグレードまたは構成の変更後にパフォーマンスベースラインを更新します。 組織では、ベースラインを使用してパフォーマンスの変化を測定し、システムのパフォーマンスに影響する問題を検出することができます。
 
-  - **Analyzing Lync Server 2013 Log Files**   One very helpful tool, generally used for troubleshooting, is the Lync Server 2013 Logging Tool described in detail in [Using Lync Server 2013 Logging Tool](https://technet.microsoft.com/en-us/library/gg558599.aspx).
+  - **エンタープライズプール**   、標準エディションサーバー、および組織内の他のすべてのサーバーのエンタープライズプールの初期構成を管理するには、個々のサーバーを展開するときに行いました。 Standard Edition server とエンタープライズプールの展開後のサーバーとプールの管理には、次のタスクが含まれます。
+    
+      - フロントエンドサーバーの管理
+    
+      - Web 会議を管理する
+    
+      - 会議を管理する
+    
+      - サービスアカウントの資格情報を変更する
+    
+      - データベースの管理
+    
+      - サービスを開始および停止し、サーバーの役割を非アクティブ化する
+    
+      - サーバーとサーバーの役割の削除、プールの削除、サーバーとプールの無効化
 
-Because the Logging Tool generates log files (on a per-server basis), these log files can be viewed and analyzed by using the Snooper tool, if the Microsoft Office Server 12 Resource Kit Tools are installed on the computer. Otherwise, logs can also be analyzed by using a text editor, which is much less transparent and more complex than using the Snooper utility.
+  - **利用状況**   の管理 Lync Server 2013 を構成して、組織に最も適した機能を提供できます。 これには、次のポリシーが含まれます。
+    
+      - オンプレミスの Web 会議会議のサポートを管理する
+    
+      - インスタントメッセージを送信するための配布グループの使用を管理する
+    
+      - 連絡先、プレゼンス、およびクエリを管理する
+    
+      - クライアントのバージョンのフィルター処理を構成する
+    
+      - インテリジェント IM フィルターの設定
+    
+      - アーカイブ、通話の詳細の記録、会議のコンプライアンスを構成する
 
-To View and Analyze Protocol Messages
+  - **エッジサーバー**   への接続の管理外部接続を提供するために必要なサーバーと設定の進行状況には、次のものが含まれます。
+    
+      - 内部サーバーとエッジサーバー間の接続の管理
+    
+      - エッジサーバーの内部および外部インターフェイスと証明書の構成
+    
+      - フェデレーションパートナーへのアクセスを管理する
 
-In the Logging Tool, when you have ended the debug session, click Analyze Log Files to view the log files by using the Snooper tool. You can analyze protocol logs for the following components:
+  - ****   アドレス帳の管理アドレス帳サーバーを管理するには、次のものが含まれます。
+    
+      - アドレス帳のサーバー電話の正規化を構成する
+    
+      - コマンドラインからアドレス帳サーバーを管理する
+
+  - ****   ユーザーアカウントの管理を管理するには、次のものが含まれます。
+    
+      - Lync Server のユーザーアカウントを有効にする
+    
+      - ウィザードを使用して Lync Server ユーザーを構成する
+    
+      - Lync Server の個々のユーザーアカウントのプロパティを構成する
+    
+      - Lync Server ユーザーを検索する
+    
+      - Lync Server ユーザーを移動する
+    
+      - Lync Server ユーザーを削除する
+
+  - **Lync server 2013 ログファイル**   の分析一般的なトラブルシューティングに使用される便利なツールの1つについては、「lync server [2013 logging ツールの使用](http://technet.microsoft.com/en-us/library/gg558599.aspx)について詳しく説明されている lync server 2013 ログツール」をご覧ください。
+
+ログツールによって (サーバーごとに) ログファイルが生成されるため、Microsoft Office Server 12 リソースキットツールがコンピューターにインストールされている場合は、Snooper ツールを使用してこれらのログファイルを表示および分析することができます。 そうしないと、ログもテキストエディターを使って分析することができます。これは、Snooper ユーティリティを使用する場合よりも透明で、より複雑なものになります。
+
+プロトコルメッセージの表示と分析を行うには
+
+ログツールで、デバッグセッションを終了したら、[ログファイルの分析] をクリックし、Snooper ツールを使用してログファイルを表示します。 次のコンポーネントのプロトコルログを分析できます。
 
   - Lync Server SipStack (SIP)
 
   - Lync Server S4 (SIP)
 
-  - Lync Server Conferencing signaling traffic (C3P), including MCU Infra C3P and Focus C3P
+  - MCU インフラストラクチャ C3P とフォーカス C3P を含む Lync Server 会議のシグナリングトラフィック (C3P)
 
-  - Lync Server Web conferencing traffic (PSOM)
+  - Lync Server Web 会議トラフィック (PSOM)
 
-  - Lync Server Unified Communications Client Platform client (UCCP)
+  - Lync Server ユニファイドコミュニケーションクライアントプラットフォームクライアント (UCCP)
 
-  - Error reports from the archiving database
+  - アーカイブデータベースからのエラーレポート
 
-To help organize the performance of as-needed tasks, see As-Needed Operations Checklist.
+必要なタスクのパフォーマンスを整理するために、必要に応じて操作のチェックリストを確認します。
 
-
-> [!IMPORTANT]
-> For detailed administration and management procedures, see the Microsoft Lync Server 2013 Administration Guide.
+<div>
 
 
+> [!IMPORTANT]  
+> 詳細な管理手順と管理手順については、「Microsoft Lync Server 2013 管理者ガイド」を参照してください。
 
-## Backup (and restore) policies or configuration settings
 
-Lync Server 2013 lets you back up and restore the whole system. Iif you want to back up (and then maybe someday restore) a single policy or a single collection of configuration settings, retrieve the appropriate policy, and then pipe that object to the Export-Clixml cmdlet, which saves the policy information as an XML file:
+
+</div>
+
+<div>
+
+## <a name="backup-and-restore-policies-or-configuration-settings"></a>バックアップ (および復元) ポリシーまたは構成設定
+
+Lync Server 2013 を使用すると、システム全体のバックアップと復元を行うことができます。 1つのポリシーまたは構成設定の単一のコレクションをバックアップして、適切なポリシーを取得し、そのオブジェクトを Clixml コマンドレットにパイプして、ポリシー情報を XML ファイルとして保存します。
 
 `Get-CsClientPolicy -Identity "RedmondClientPolicy" | Export-Clixml -Path C:\Backup\RedmondClientPolicy.xml`
 
-You may now experiment with RedmondClientPolicy and change lots of the settings. If you decide instead to restore the old policy, enter:
+これで、RedmondClientPolicy を試して、設定を変更することができます。 以前のポリシーを復元する場合は、次のように入力します。
 
 `$x = Import-Clixml -Path C:\Backup\RedmondClientPolicy.xml`
 
 `Set-CsClientPolicy -Instance $x`
 
-Note that this approach will work for most policies and settings but it won't work with some of the more complex items—items that contain multiple sub-objects (like routing configuration settings, which contain many separate voice routes).
+この方法はほとんどのポリシーと設定で動作しますが、より複雑な項目 (ルーティング構成設定など、複数の異なる音声ルートを含むアイテム) では動作しません。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

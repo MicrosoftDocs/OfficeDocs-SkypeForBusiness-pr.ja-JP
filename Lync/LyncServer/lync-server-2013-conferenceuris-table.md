@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: ConferenceUris テーブル'
-TOCTitle: ConferenceUris テーブル
-ms:assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412854(v=OCS.15)
-ms:contentKeyID: 48273301
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ConferenceUris テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceUris table
+ms:assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412854(v=OCS.15)
+ms:contentKeyID: 48185160
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e2b1ab44b564d649b6c8fb812077645c6dc13093
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840482"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の ConferenceUris テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="conferenceuris-table-in-lync-server-2013"></a>Lync Server 2013 の ConferenceUris テーブル
 
-ConfereneUris テーブルは、データベースに記録されている会議セッションに参加したさまざまな会議 URI の一覧を格納する補助的なテーブルです。このテーブルの個々のレコードが、1 つの会議 URI を表します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-05-25_
+
+ConfereneUris テーブルは、データベースに記録された会議セッションに参加しているさまざまな会議の Uri のリストを格納するサポートテーブルです。 テーブル内の各レコードは、1つの会議 URI を表します。
 
 
 <table>
@@ -35,35 +55,46 @@ ConfereneUris テーブルは、データベースに記録されている会議
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>NextUpdateTS</strong></p></td>
+<td><p><strong>Nextupdatupdat</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>タイム スタンプ (社内使用向け)。</p></td>
+<td><p>Primary</p></td>
+<td><p>タイムスタンプ、内部使用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriId</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>この会議 URI を識別する一意の番号。</p></td>
+<td><p>Primary</p></td>
+<td><p>この会議 URI を識別する一意の番号です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p></p></td>
-<td><p>会議 URI。</p></td>
+<td></td>
+<td><p>会議の URI。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Checksum</strong></p></td>
+<td><p><strong>サム</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>ConferenceUri のチェックサム。データベース検索の速度を速めるために使用されます。</p></td>
+<td></td>
+<td><p>ConferenceUri のチェックサム。 データベースの検索速度を上げるために使われます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>URI の種類。たとえば、conf:chat (IM 会議の場合)、conf:audio-video (音声ビデオ会議の場合)。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>URI の種類 ("conf: IM 会議用チャット" または "conf: 音声/ビデオ会議用のオーディオビデオ" など)。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 テーブルの UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

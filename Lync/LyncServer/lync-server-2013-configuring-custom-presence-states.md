@@ -1,50 +1,80 @@
-﻿---
-title: カスタム プレゼンス状態の構成
-TOCTitle: カスタム プレゼンス状態の構成
-ms:assetid: e17364a8-8b93-45fc-a614-c80e45435d42
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398997(v=OCS.15)
-ms:contentKeyID: 52056733
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: カスタムプレゼンス状態の構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring custom presence states
+ms:assetid: e17364a8-8b93-45fc-a614-c80e45435d42
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398997(v=OCS.15)
+ms:contentKeyID: 48185534
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 12083d1895f8e5191f15b43efaf2835faecdb5ca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840274"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# カスタム プレゼンス状態の構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Lync Server 2013 でのカスタムプレゼンス状態の構成
 
-Lync 2013 でカスタム プレゼンス状態を定義するには、XML カスタム プレゼンス構成ファイルを作成してから、Lync Server 管理シェルのコマンドレット **New-CSClientPolicy** または **Set-CSClientPolicy** とパラメーター CustomStateURL を使用して、構成ファイルの場所を指定します。
+</div>
 
-構成ファイルには次のプロパティがあります。
+<div id="mainSection">
 
-  - 連絡可能、取り込み中、応答不可といったプレゼンス インジケーターを使用して、カスタム プレゼンス状態を構成できます。
+<div id="mainBody">
 
-  - 状態属性は、どのプレゼンス インジケーターがカスタム状態の状態テキストに関連付けられているかを示します。 このトピックで後述する例では、緑色 (連絡可能) プレゼンス インジケーターの右側に、状態テキスト \[自宅で仕事中\] が表示されます。
+<span> </span>
 
-  - 状態テキストの最大文字数は 64 文字です。
+_**最終更新日:** 2013-01-10_
 
-  - 最大で 4 つのカスタム プレゼンス状態を追加できます。
+Lync 2013 でカスタムプレゼンス状態を定義するには、XML カスタムのプレゼンス構成ファイルを作成し、Lync Server 管理シェルコマンドレットを使用**** して場所を指定する**** か、パラメーターを使用して、その場所を指定します。CustomStateURL。
 
-  - CustomStateURL パラメーターは構成ファイルの場所を指定します。Lync 2013 では、SIP 高セキュリティ モードは既定で有効です。このことにより、HTTPS を有効にした Web サーバーにカスタムのプレゼンス構成ファイルを格納する必要があります。このようにしないと、Lync 2013 クライアントは接続することができません。たとえば、有効なアドレスは `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml` のようになります。
+構成ファイルには、次のプロパティがあります。
+
+  - カスタムプレゼンス状態は、[利用可能]、[取り込み中]、[応答不可] のプレゼンスインジケーターで構成できます。
+
+  - [可用性] 属性は、カスタム状態の状態テキストに関連付けられているプレゼンスインジケーターを決定します。 このトピックの後半の例では、[自宅から] の状態テキストが緑色 (使用可能) のプレゼンスインジケーターの右側に表示されています。
+
+  - 状態テキストの最大の長さは、64文字です。
+
+  - 最大4つのカスタムプレゼンス状態を追加できます。
+
+  - CustomStateURL パラメーターは、構成ファイルの場所を指定します。 Lync 2013 では、SIP high security モードは既定で有効になっているため、HTTPS が有効になっている web サーバーにカスタムのプレゼンス設定ファイルを格納する必要があります。 そうしないと、Lync 2013 クライアントに接続できなくなります。 たとえば、有効なアドレスになり`https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`ます。
+
+<div>
+
 
 > [!NOTE]  
-> 運用環境では推奨されませんが、クライアントで SIP 高セキュリティ モードを無効にする目的で EnableSIPHighSecurityMode レジストリ設定を使用して、非 HTTPS のファイル共有にある構成ファイルをテストできます。次に、CustomStateURL レジストリ設定を使用して、非 HTTPS での構成ファイルの場所を指定できます。Lync 2013 では Lync 2010 のレジストリ設定は有効ですが、レジストリ ハイブが更新されていることに注意してください。レジストリ設定は以下のように作成します。
-> <ul><li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</p>
-> <p>種類: DWORD</p>
-> <p>値のデータ: 0</p></li>
-> <li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</p>
-> <p>種類: 文字列 (REG_SZ)</p>
-> <p>値のデータ (例): file://\\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml or file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</p></li>
-> </ul>
+> 実稼働環境ではお勧めできませんが、HTTPS 以外のファイル共有に配置されている構成ファイルをテストするには、EnableSIPHighSecurityMode registry 設定を使用して、クライアントで SIP high security モードを無効にします。 次に、CustomStateURL レジストリ設定を使用して、構成ファイルの HTTPS 以外の場所を指定できます。 Lync 2013 では Lync 2010 のレジストリ設定は無視されますが、レジストリハイブは更新されています。 レジストリ設定は次の手順で作成します。 
+> <UL>
+> <LI>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
+> <P>Type: DWORD</P>
+> <P>値のデータ: 0</P>
+> <LI>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
+> <P>Type: String (REG_SZ)</P>
+> <P>値のデータ (例):\\File://lspool または file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</P></LI></UL>
 
 
-XML 構成ファイルに 1 つまたは複数のロケール ID (LCID) スキーマを指定して、カスタム プレゼンス状態をローカライズします。このトピックで後述する例では、英語 - 米国 (1033)、ノルウェー語 - ブークモール (1044)、フランス語 - フランス (1036)、およびトルコ語 (1055) へのローカリゼーションを示します。LCID の一覧については、<http://go.microsoft.com/fwlink/?linkid=157331>にアクセスし、Microsoft によって割り当てられているロケール ID を参照してください。
 
-## カスタム プレゼンス状態を Lync 2013 に追加するには
+</div>
 
-1.  次の例のフォーマットを使用して、XML 構成ファイルを作成します。
+XML 構成ファイルで1つ以上のロケール ID (LCID) スキーマを指定して、カスタムのプレゼンス状態をローカライズします。 このトピックの後半の例では、ローカライズされた言語 (1033)、ノルウェー語-ブークモール (1044)、フランス語-フランス (1036)、およびトルコ語 (1055) について説明します。 Lcid の一覧については、「Microsoft によって<http://go.microsoft.com/fwlink/p/?linkid=157331>割り当てられたロケール id」をご覧ください。
+
+<div>
+
+## <a name="to-add-custom-presence-states-to-lync-2013"></a>Lync 2013 にカスタムプレゼンス状態を追加するには
+
+1.  次の例の形式を使用する XML 構成ファイルを作成します。
     
         <?xml version="1.0"?>
         <customStates xmlns="http://schemas.microsoft.com/09/2009/communicator/customStates">
@@ -67,21 +97,42 @@ XML 構成ファイルに 1 つまたは複数のロケール ID (LCID) スキ�
           </customState>
         </customStates>
 
-2.  HTTPS が有効な Web サーバーに XML 構成ファイルを保存します。この例では、ファイルは Presence.xml の名前で、https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml に保存されます。
+2.  HTTPS が有効になっている web サーバーに XML 構成ファイルを保存します。 この例では、ファイルには ".xml" という名前が付けhttps://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xmlられ、場所に保存されています。
 
-3.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+3.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 4.  Lync Server 管理シェルで、次のようなコマンドを使用して、XML 構成ファイルの場所を定義します。
     
         New-CsClientPolicy -Identity ContosoCustomStates 
         -CustomStateURL "https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml"
 
-5.  **Grant-CSClientPolicy** コマンドレットを使用して、この新しいポリシーをユーザーに割り当てます。
+5.  この新しいポリシーをユーザーに割り当てるには、**グラント Clientpolicy**コマンドレットを使用します。
 
-詳細については、「Lync Server 管理シェル」のドキュメントの「[New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy)」と「[Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)」を参照してください。
+詳細については、「[新しい-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) 」と「Lync Server 管理シェルドキュメントの[権限を付与](https://docs.microsoft.com/powershell/module/skype/Grant-CsClientPolicy)する」を参照してください。
+
+<div>
+
 
 > [!NOTE]  
-> <ul><li><p>既定では、Lync Server 2013 でクライアント ポリシーと設定が 3 時間ごとに更新されます。</p></li>
-> <li><p>CustomStateURL のような、以前の製品リリースからのグループ ポリシー設定を引き続き使用する必要がある場合、これらが新しいポリシー レジストリ ハイブ (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync) にあれば、Lync 2013 はこの設定を認識します。ただし、サーバーベースのクライアント ポリシーが優先されます。</p></li>
-> </ul>
+> <UL>
+> <LI>
+> <P>既定では、Lync Server&nbsp;2013 は、クライアントポリシーと設定を3時間ごとに更新します。</P>
+> <LI>
+> <P>CustomStateURL などの以前のリリースのグループポリシー設定を引き続き使用する場合は、その設定が新しいポリシーレジストリハイブ (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync) に含まれているかどうかが、Lync 2013 によって認識されます。 ただし、サーバーベースのクライアントポリシーが優先されます。</P></LI></UL>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

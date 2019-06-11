@@ -1,53 +1,87 @@
-﻿---
-title: パイロット プールをレガシ エッジ サーバーに接続する
-TOCTitle: パイロット プールをレガシ エッジ サーバーに接続する
-ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721875(v=OCS.15)
-ms:contentKeyID: 49887137
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: パイロット プールのレガシ エッジ サーバーへの接続
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Connect pilot pool to legacy Edge Servers
+ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721875(v=OCS.15)
+ms:contentKeyID: 49733808
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7fc42c645548ea9bad072da5f18643271a9eceeb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840840"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# パイロット プールをレガシ エッジ サーバーに接続する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-29_
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>パイロット プールのレガシ エッジ サーバーへの接続
 
-Lync Server 2013 の展開後に、サイトのフェデレーション ルートを構成する必要があります。 Lync Server 2010 によって使用されているフェデレーション ルートを使用できるようにするには、そのルートを使用するように Lync Server 2013 を構成する必要があります。
+</div>
 
-Lync Server 2013 サイトで Lync Server 2010 展開のディレクターとエッジ サーバーを使用できるようにするには、トポロジ ビルダーを使用してレガシ エッジ プールを関連付けます。
+<div id="mainSection">
 
-## トポロジ ビルダーを使用してレガシ エッジ プールを関連付けるには
+<div id="mainBody">
 
-1.  **トポロジ ビルダー**を開きます。
+<span> </span>
 
-2.  **Lync Server** ノードの直下にあるサイトを選択します。
+_**最終更新日:** 2012-09-29_
 
-3.  \[**操作**\] メニューの \[**プロパティの編集**\] をクリックします。
+Lync Server 2013 を展開した後、サイトのフェデレーションルートを構成する必要があります。 Lync Server 2010 で使用されているフェデレーションルートを使用するには、Lync Server 2013 がこのルートを使用するように構成されている必要があります。
 
-4.  左ウィンドウで、\[**フェデレーション ルート**\] をクリックします。
+Lync server 2013 サイトで Lync Server 2010 展開のディレクターとエッジサーバーを使用できるようにするには、トポロジビルダーを使用して、従来のエッジプールを関連付けます。
 
-5.  \[**サイトのフェデレーション ルートの割り当て**\] で、\[**SIP フェデレーションの有効化**\] を選択し、Lync Server 2010 ディレクターを選択するか、ディレクターが一覧にない場合は Lync Server 2010 エッジ サーバーを選択します。
+<div>
+
+## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>トポロジビルダーを使用して従来のエッジプールを関連付けるには
+
+1.  **トポロジビルダー**を開きます。
+
+2.  **Lync Server**ノードのすぐ下にあるサイトを選びます。
+
+3.  [**操作**] メニューの [**プロパティの編集**] をクリックします。
+
+4.  左側のウィンドウで、[**フェデレーションルート**] を選びます。
+
+5.  [**サイトフェデレーションルートの割り当て**] で、[ **SIP フェデレーションを有効にする**] を選び、lync server 2010 ディレクター、またはディレクターが表示されていない場合は Lync server 2010 エッジサーバーを選びます。
     
-    ![\[プロパティの編集\]、\[フェデレーション ルート\] ページ](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "[プロパティの編集]、[フェデレーション ルート] ページ")  
+    ![[プロパティの編集]、[フェデレーションルート] ページ](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "[プロパティの編集]、[フェデレーションルート] ページ")  
 
-6.  \[**OK**\] をクリックして、\[**プロパティの編集**\] ページを閉じます。
+6.  [ **OK]** をクリックして、[**プロパティの編集**] ページを閉じます。
 
-7.  トポロジ ビルダーの Lync Server 2013 のノードで、\[**Standard Edition サーバー**\] または \[**Enterprise Edition フロントエンド プール**\] に移動し、プールを右クリックして、\[**プロパティの編集**\] をクリックします。
+7.  [トポロジビルダー] の [Lync Server 2013] ノードで、 **Standard edition Server**または**Enterprise Edition のフロントエンドプール**に移動し、プールを右クリックして、[**プロパティの編集**] をクリックします。
 
-8.  \[**関連付け**\] で、\[**エッジ プール (メディア コンポーネント用) を関連付ける**\] の横のチェック ボックスをオンにします。
+8.  [**関連付け**] で [ **Edge プールを関連付ける (メディアコンポーネント)**] の横にあるチェックボックスをオンにします。
 
-9.  一覧から、レガシ エッジ サーバーを選択します。
+9.  リストから、従来のエッジサーバーを選択します。
     
-    ![\[プロパティの編集\] ダイアログ ボックス、レガシ エッジの選択](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "[プロパティの編集] ダイアログ ボックス、レガシ エッジの選択")  
+    [![プロパティの編集] ダイアログ、[旧端] の選択][(images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "プロパティの編集] ダイアログ、[旧端] の選択")  
 
-10. \[**OK**\] をクリックして、\[**プロパティの編集**\] ページを閉じます。
+10. [ **OK]** をクリックして、[**プロパティの編集**] ページを閉じます。
 
-11. **トポロジ ビルダー**で、最上位ノードの **Lync Server** を選択します。
+11. [**トポロジビルダー**] で、最上位のノードである**Lync Server**を選択します。
 
-12. \[**操作**\] メニューで、\[**トポロジの公開**\]、\[**次へ**\] の順にクリックします。
+12. [**操作**] メニューの [**トポロジの公開**] をクリックし、[**次へ**] をクリックします。
 
-13. **公開ウィザード**の実行が完了したら、\[**完了**\] をクリックします。
+13. **発行ウィザード**が完了したら、[**完了**] をクリックします。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

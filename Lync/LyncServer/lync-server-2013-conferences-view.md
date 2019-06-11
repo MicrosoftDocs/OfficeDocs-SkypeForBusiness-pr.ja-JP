@@ -1,21 +1,41 @@
-﻿---
-title: 会議 ビュー
-TOCTitle: 会議 ビュー
-ms:assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721871(v=OCS.15)
-ms:contentKeyID: 49887127
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 会議ビュー'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferences view
+ms:assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721871(v=OCS.15)
+ms:contentKeyID: 49733803
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 710aadb2770e9389d9e4becf206d68b8e8d815ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840486"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 会議 ビュー
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="conferences-view-in-lync-server-2013"></a>Lync Server 2013 での会議ビュー
 
-\[電話会議\] ビューには、電話会議に関する情報が格納されます。このビューは、Microsoft Lync Server 2013 で導入されました。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-01_
+
+会議ビューには、会議に関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -33,66 +53,77 @@ _**トピックの最終更新日:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
+<td><p><strong>セッション Id</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>セッション要求の時間。セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。詳細については、「<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 の Dialogs テーブル</a>」を参照してください。</p></td>
+<td><p>セッション要求の時刻。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッションを識別するための ID 番号。セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。詳細については、「<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 の Dialogs テーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別する ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>電話会議の URI。</p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>会議の URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriType</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>電話会議 URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>会議 URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConfInstance</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>定期的な電話会議に使用されます。定期的な電話会議の各インスタンスは、ConferenceUri は同じですが、ConfInstance はそれぞれ異なります。</p></td>
+<td><p>長さ</p></td>
+<td><p>定期的な会議に使用されます。 定期的な会議の各インスタンスには、同じ ConferenceUri がありますが、ConfInstance は異なります。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceStartTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>電話会議の開始時刻。</p></td>
+<td><p>会議の開始時刻。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceEndTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>電話会議の終了時刻。</p></td>
+<td><p>会議の終了時刻。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>OrganizerUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>電話会議を開催したユーザーの URI。</p></td>
+<td><p><strong>オーガナイザーの Uri</strong></p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>会議を開催したユーザーの URI。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>OrganizerType</strong></p></td>
+<td><p><strong>オーガナイザーの種類</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>電話会議を開催したユーザーの URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>会議を開催したユーザーの URI の種類です。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>OrganizerTenant</strong></p></td>
+<td><p><strong>組織のテナント</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>電話会議を開催したユーザーのテナント。詳細については、「<a href="lync-server-2013-tenants-table.md">Lync Server 2013 の Tenants テーブル</a>」を参照してください。</p></td>
+<td><p>会議を開催したユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの一覧</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>電話会議をホストしたプールの完全修飾ドメイン名。</p></td>
+<td><p>会議をホストしているプールの完全修飾ドメイン名。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Flag</strong></p></td>
+<td><p><strong>フラッグ</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>電話会議の属性が格納されているビット マスク。有効な値は次のとおりです。</p>
-<p>0X01 – 代理トランザクション</p></td>
+<td><p>会議の属性が含まれているビットマスク。 値の例は次のとおりです。</p>
+<p>0X01 –代理トランザクション</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

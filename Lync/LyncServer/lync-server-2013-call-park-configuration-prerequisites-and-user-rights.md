@@ -1,73 +1,124 @@
-﻿---
-title: 'Lync Server 2013: コール パーク構成の前提条件とユーザー権限'
-TOCTitle: コール パーク構成の前提条件とユーザー権限
-ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425730(v=OCS.15)
-ms:contentKeyID: 48271581
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: コール パーク構成の前提条件とユーザー権限'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Park configuration prerequisites and user rights
+ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425730(v=OCS.15)
+ms:contentKeyID: 48183648
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 64a2f322ffec1d2ffa7aa238b76686391fc76ed7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840697"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のコール パーク構成の前提条件とユーザー権限
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-10_
+# <a name="call-park-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Lync Server 2013 のコール パーク構成の前提条件とユーザー権限
 
-コール パークは、エンタープライズ VoIP を展開する際に既定でインストールされる通話管理機能です。このトピックでは、コール パークの構成の前に用意しておく必要がある項目、および構成タスクの実行に必要なユーザー権限について説明します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-10_
+
+コールパークは、エンタープライズボイスの展開時に既定でインストールされる通話管理機能です。 このトピックでは、コールパークと構成タスクを実行するために必要なユーザー権利を設定する前に、準備しておく必要があることについて説明します。
+
+<div>
 
 
-> [!IMPORTANT]
-> コール パーク アプリケーション用のカスタマイズされた保留音ファイルは Lync Server 2013 の障害復旧プロセスの過程でバックアップされることはなく、プールにアップロードされているファイルが破損したり消去されたりした場合はファイルが失われます。コール パーク用にアップロードされていたカスタマイズされた保留音ファイルのバックアップ コピーを常に別途保管しておいてください。
+> [!IMPORTANT]  
+> 会議のカスタマイズされた保留中のファイルは Lync Server 2013 の障害回復プロセスの一部としてはバックアップされません。プールにアップロードされたファイルが破損、破損、または消去された場合、ファイルは失われます。 コール パーク用にアップロードされているカスタマイズした保留音ファイルについては、常に個別のバックアップ コピーを保持してください。
 
 
 
-ここでは、読者が コール パークに関する「計画」のドキュメントを読み終えていること前提に説明を進めます (「[Lync Server 2013 通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)」を参照)。
+</div>
 
-## コール パーク構成の前提条件
+このセクションでは、通話パークに関連する計画ドキュメントを読み取っていることを前提としています (「 [Lync Server 2013 での通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)」を参照してください)。
 
-コール パークでは、次のコンポーネントが必要です。
+<div>
+
+## <a name="call-park-configuration-prerequisites"></a>コールパーク構成の前提条件
+
+コールパークには、次のコンポーネントが必要です。
 
   - アプリケーション サービス
 
   - コール パーク アプリケーション
 
-これらのコンポーネントは、エンタープライズ VoIP を展開する際に自動でインストールされます。
+これらのコンポーネントは、エンタープライズボイスの展開時に自動的にインストールされます。
 
-通話の保留中に発信者が音楽を聞けるようにするには、保留音ファイルも必要です。既定の保留音ファイルは、エンタープライズ VoIP を展開する際に自動でインストールされます。既定のファイルを独自の保留音ファイルと入れ替えることができます。コール パークは、ファイル ストアを使用してオーディオ ファイルを保管します。
+通話の保留中に発信者に音楽が聞こえるようにする場合は、音楽の保留ファイルも必要です。 既定の音楽の保留ファイルは、エンタープライズボイスの展開時に自動的にインストールされます。 既定のファイルは、独自の音楽の保留ファイルに置き換えることができます。 [コールパークファイルストアでは、オーディオファイルを保持します。
 
-## コール パーク構成のユーザー権限
+</div>
 
-次の管理ツールを使用して コール パークを構成できます。
+<div>
+
+## <a name="call-park-configuration-user-rights"></a>コールパーク構成のユーザー権利
+
+以下の管理ツールを使って、コールパークを構成することができます。
 
   - Lync Server コントロール パネル
 
   - Lync Server 管理シェル
 
-これらのツールを使用して コール パーク オービット テーブルを設定し、コール パークで使用される他の設定を構成します。
+これらのツールを使って、コールパークの軌道を設定したり、コールパークで使用される他の設定を構成したりします。
 
-コール パークの構成には、タスクによって異なりますが、次の管理者の役割のいずれかが必要です。
+コールパークを構成するには、タスクに応じて次の管理者ロールが必要です。
 
-  - **CsVoiceAdministrator :** この管理者の役割は、音声関連のすべての設定とポリシーを作成、構成、および管理できます。
+  - **CsVoiceAdministrator:** この管理者ロールは、音声関連のすべての設定とポリシーを作成、構成、管理できます。
 
-  - **CsUserAdministrator :** この管理者の役割は、音声ポリシーで コール パークを有効にすることができます。また、すべての音声構成に対する読み取り専用の表示アクセス権を持ちます。
+  - **Csuseradministrator:** この管理者の役割は、音声ポリシーでのコールパークを有効にすることができます。 この管理者ロールは、すべての音声構成に対して読み取り専用ビューでアクセスすることもできます。
 
-  - **CsServerAdministrator :** この管理者の役割は、サーバーとサービスを管理、監視、およびトラブルシューティングできます。
+  - **Csserveradministrator:** この管理者の役割は、サーバーとサービスの管理、監視、トラブルシューティングを行うことができます。
 
-  - **CsAdministrator :** この管理者の役割は、CsVoiceAdministrator、CsServerAdministrator、および CsUserAdministrator のすべてのタスクを実行できます。
+  - **Csadministrator:** この管理者ロールは、CsVoiceAdministrator、CsServerAdministrator、Csserveradministrator のすべてのタスクを実行できます。
 
-> [!NOTE]
-> 管理者権限の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</a>」を参照してください。
+<div>
 
 
-## 関連項目
+> [!NOTE]  
+> 管理権限の詳細については、計画ドキュメントの「 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</A>」を参照してください。
 
-#### 概念
 
-[Lync Server 2013 でのエンタープライズ VoIP の展開](lync-server-2013-deploying-enterprise-voice.md)  
 
-#### その他のリソース
+</div>
 
-[Lync Server 2013 通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でのエンタープライズボイスの展開](lync-server-2013-deploying-enterprise-voice.md)  
+
+
+[Lync Server 2013 の通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

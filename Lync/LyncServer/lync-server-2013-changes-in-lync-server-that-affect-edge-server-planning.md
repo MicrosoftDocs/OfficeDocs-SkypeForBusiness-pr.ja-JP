@@ -1,77 +1,155 @@
-﻿---
-title: 'Lync Server 2013: エッジ サーバーの計画に影響する Lync Server 2013 での変更点'
-TOCTitle: エッジ サーバーの計画に影響する Lync Server 2013 での変更点
-ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204965(v=OCS.15)
-ms:contentKeyID: 48272322
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: エッジ サーバーの計画に影響する Lync Server 2013 での変更点'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Changes in Lync Server 2013 that affect Edge Server planning
+ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204965(v=OCS.15)
+ms:contentKeyID: 48184378
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 71d13b40430455c87a60c0fadc20980df5a8aa1b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840612"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# エッジ サーバーの計画に影響する Lync Server 2013 での変更点
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-22_
+# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>エッジ サーバーの計画に影響する Lync Server 2013 での変更点
 
-Lync Server 2013 では、各種機能とユーザーの通信方法を拡張する新機能が導入されました。また、Lync Server 2013 では既存のサービスも変更され、組織で使用できるサービスの統合性と拡張性が向上しました。ここでは、Lync Server 2013  エッジ サーバー サービスの計画と展開に影響する可能性のある変更点の概要を説明します。
+</div>
 
-## IPv6 アドレス指定のサポート
+<div id="mainSection">
 
-Lync Server 2013 は、すべての エッジ サーバー サービスについて IPv6 アドレス指定をサポートします。Windows Server での構成によってインターフェイスの IPv6 アドレス指定を規定している場合は、トポロジ ビルダーでの IP アドレス指定構成によって、エッジ サーバー構成で IPv6 アドレス指定を使用できます。さらに、XMPP (Extensible Messaging and Presence Protocol) も IPv6 をサポートします。追加構成は必要ありません。トポロジで IPv6 を構成すると、XMPP で IPv6 が使用されます (必要な場合)。
+<div id="mainBody">
 
-Lync Server 2013 で IPv6 をサポートするための追加要件は、検出して IPv6 アドレスに解決する必要があるレコード用のドメイン名システム レコードを作成することです。IPv6 DNS は、**AAAA** と定義され、"quad-A" と呼ばれるホスト レコードを使用します。他のレコードの種類は、IPv4 の対応する種類と一致します。
+<span> </span>
 
-## XMPP (Extensible Messaging and Presence Protocol) 展開のサポート
+_**最終更新日:** 2012-10-22_
 
-エッジ サーバーでは、完全に統合された XMPP プロキシ (エッジ サーバーに展開される) と、XMPP ゲートウェイ (フロントエンド サーバーに展開される) が導入されました。オプションのコンポーネントとして XMPP フェデレーションを展開できます。XMPP プロキシと XMPP ゲートウェイを追加して構成することで、Microsoft Lync 2013 ユーザーがインスタント メッセージング (IM) とプレゼンスのために XMPP ベースのパートナーからの連絡先を追加できるようになります。
+Lync Server 2013 には、ユーザーの機能と通信方法を拡張する新機能が導入されています。 また、Lync Server 2013 では、組織で利用できるサービスをより適切に統合および拡張するために、既存のサービスへの変更が導入されています。 以下は、Lync Server 2013 Edge Server サービスの計画と展開に影響を与える可能性のある変更内容をまとめたものです。
 
-> [!NOTE]
-> 現在のところ、エッジ サーバーの XMPP サービスは、Lync Server クライアントと XMPP ベースの連絡先との間でのみ IM とプレゼンスを提供します。さらに、XMPP は 1 つのサイトでのみホストされます。
+<div>
+
+## <a name="support-for-ipv6-addressing"></a>IPv6 アドレス指定のサポート
+
+Lync Server 2013 は、すべての Edge Server サービスの IPv6 アドレス指定をサポートしています。 Windows Server の構成を通じてインターフェイスの IPv6 アドレスを指定している場合は、トポロジビルダーの IP アドレス構成を使用して、エッジサーバー構成の IPv6 アドレスを使うことができます。 さらに、拡張メッセージングとプレゼンスプロトコル (XMPP) は IPv6 をサポートしています。 追加の構成は必要ありません。 IPv6 がトポロジで構成されている場合、XMPP は IPv6 を使用します (必要な場合)。
+
+Lync Server 2013 で IPv6 をサポートするための追加の要件として、IPv6 アドレスを検出し、解決する必要があるレコードのドメインネームシステムレコードを作成します。 IPv6 DNS は、 **AAAA**と呼ばれるホストレコードと "クワッド-A" を使用します。 その他の種類のレコードは、IPv4 に対応しています。
+
+</div>
+
+<div>
+
+## <a name="support-for-extensible-messaging-and-presence-protocol-xmpp-deployment"></a>拡張メッセージングとプレゼンスプロトコル (XMPP) 展開のサポート
+
+エッジサーバーでは、完全に統合された XMPP プロキシ (エッジサーバーに展開されている) と XMPP ゲートウェイ (フロントエンドサーバーに展開されている) が導入されています。 XMPP フェデレーションは、オプションのコンポーネントとして展開できます。 XMPP プロキシと XMPP ゲートウェイを追加して構成することにより、Microsoft Lync 2013 ユーザーは、インスタントメッセージング (IM) とプレゼンスのために、XMPP ベースのパートナーから連絡先を追加できるようになります。
+
+<div>
+
+
+> [!NOTE]  
+> 現時点では、Edge Server の XMPP サービスは、Lync Server クライアントと XMPP ベースの連絡先との間で IM とプレゼンスを提供します。 さらに、XMPP は1つのサイトでのみホストされます。
 
 
 
-> [!IMPORTANT]
+</div>
+
+<div>
+
+
+> [!IMPORTANT]  
 > Lync Server 2013 の XMPP 機能は、Google Talk とのインスタント メッセージングのフェデレーションについては Microsoft によってテストとサポートが行われています。その他の XMPP システムについては、Lync Server 2013 とのフェデレーションのサポートや、展開またはトラブルシューティングの推奨事項に関して、サード パーティ ベンダーに問い合わせて確認してください。
 
 
 
-## 音声ビデオ認証証明書およびサーバー間認証証明書のサポート
+</div>
 
-証明書は、音声ビデオ認証サービスのクライアントおよび他のコンシューマーに対して発行されるトークンを生成するため、およびサーバー間認証のために使用されます。音声ビデオ認証証明書の種類は AudioVideoAuthentication であり、サーバー間認証証明書の種類は OAuthTokenIssuer です。
+</div>
 
-音声ビデオ認証では、トークンを使用してポート割り当て要求が認証されます。このトークンは、最大 8 時間 (トークンの既定のライフタイム)、キャッシュされます。通常の操作では、これは、認証マテリアルを作成して音声ビデオ コンシューマーに配布するための非常に信頼できる方法です。ただし、証明書のライフタイムは有限であり、あらかじめ定義された日時に期限切れになります (日時は作成日と、証明書を作成した証明機関で採用されているポリシーに基づきます。この種類の証明書は、通常は 2 年間有効です)。証明書が期限切れになると、期限切れになった証明書によって作成され、コンシューマーによってキャッシュされたすべてのトークンは無効になります。期限切れの証明書によって作成されたトークンを使用しようとすると、メディア リレーの割り当てが失敗し、現在の音声ビデオ セッションが失敗します。クライアントが通常の音声ビデオ機能を再開するには、有効な証明書によって作成された新しいトークンを取得する必要があります。
+<div>
 
-サーバー間認証は、展開内のすべてのサーバーに対して要求され、適用されるグローバル証明書によって管理されます。この証明書は、Lync Server 2013 でのサーバーの認証に加え、Exchange 2013 および Microsoft SharePoint Server 2013 への認証を行います。サーバー間認証の動作方法の詳細については、「[Lync Server 2013 でのサーバー間認証 (Oauth) およびパートナー アプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。音声ビデオ認証プロセスとサーバー間認証プロセスの非常に重要な相違点は、認証 (トークン) のライフタイムです。音声ビデオ認証では、認証は 8 時間後に期限が切れます。サーバー間認証のライフタイムは 24 時間です。これらの証明書の種類に応じて、計画を立てる必要があります。
+## <a name="support-for-rolling-audiovideo-authentication-and-server-to-server-authentication-certificates"></a>ローリングオーディオ/ビデオ認証とサーバー間認証証明書のサポート
 
-Lync Server 2013 の新機能は、現在の証明書が期限切れになる前に、音声ビデオ認証証明書とサーバー間認証証明書を置き換えることです。この操作の後、新しい証明書を使用して、新しいトークンと新しい認証要求が生成されます。ただし、古い証明書は、現在のセッションと認証を検証するために保持されます。これにより、トークンと証明書の期限切れによるエラーのほぼすべてを効果的に防止できます。この機能の詳細と構成方法については、「[Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)」を参照してください。
+証明書は、A/V 認証サービスのクライアントおよび他のコンシューマーに対して発行されたトークンを生成するために使用され、サーバー間の認証に使われます。 音声/ビデオ認証証明書は種類が*Audiovideoauthentication*であり、サーバー間認証証明書は*Oauthtokenissuer*型です。
 
-## Cookie ベースのアフィニティに対する依存性の低減
+音声/ビデオ認証の場合、トークンはポート割り当て要求を認証するために使用され、トークンは最大8時間 (トークンの既定の有効期間) キャッシュされます。 通常の操作では、このメソッドを使うと、認証資料を作成し、A/V コンシューマーに配布することができます。 ただし、証明書には有効期限があり、事前定義された日付と時刻で有効期限が切れています (作成日と、証明書を作成した証明機関によって適用されるポリシー (通常は、この種類の証明書の場合は2年間)。 証明書の有効期限が切れると、有効期限が切れた証明書によって作成され、コンシューマーによってキャッシュされたトークンは有効になりません。 有効期限が切れた証明書で作成されたトークンを使用しようとすると、メディアリレーの割り当てが失敗し、現在のオーディオ/ビデオセッションは失敗します。 クライアントは、通常の音声とビデオの機能を再開するために、有効な証明書によって作成された新しいトークンを取得する必要があります。
 
-Lync Server および Office Communications Server のこれまでのバージョンでは、クライアントと Web サービスのセッション状態を確実に管理するために、Web サービスによって Cookie ベースのアフィニティが使用されていました。Lync Server 2013 Web サービスには、Cookie ベースのアフィニティの要件の大半を排除するアフィニティ メカニズムが組み込まれています。
+サーバー間認証は、展開されているすべてのサーバーに要求されて適用されるグローバル証明書によって管理されます。 この証明書は、Lync Server 2013 のサーバーの認証と、Exchange 2013 および Microsoft SharePoint Server 2013 の認証に責任を負います。 サーバー間認証のしくみの詳細については、「 [Lync server 2013 でサーバー間認証 (OAuth) とパートナーアプリケーションを管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)する」を参照してください。 音声/ビデオ認証プロセスとサーバー間の認証プロセスの間の重要な違いの1つは、認証 (トークン) の有効期間です。 音声/ビデオ認証の場合、認証は8時間後に期限切れとなります。 サーバー間認証には、24時間の有効期限があります。 各証明書の種類に応じて計画する必要があります。
 
+Lync Server 2013 の新機能として、現在の証明書の有効期限が切れる前に、交換用のオーディオ/ビデオ認証証明書とサーバー認証証明書をステージすることができます。 新しい証明書を使って、新しいトークンを生成したり、新しい認証要求を生成したりします。 ただし、現在のセッションと認証を確認するための古い証明書は保持されます。 これにより、トークンと証明書の有効期限が切れたときに発生したほぼすべての障害を効果的に回避することができます。 この機能と構成方法の詳細については、「 [Lync Server 2013 でのステージング AV と OAuth 証明書の使用](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)」を参照してください。
 
-> [!WARNING]
-> Microsoft Lync 2010 Mobile クライアントでは、依然として Cookie ベースのアフィニティを使用する必要があり、すべてのクライアントを今後リリース予定の Microsoft Lync Mobile クライアントに移行するまでは Cookie ベースのアフィニティを構成する必要があります (クライアントのリリース日は未定です)。
+</div>
 
+<div>
 
+## <a name="reduced-reliance-on-cookie-based-affinity"></a>Cookie ベースのアフィニティへの依存度の低下
 
-Lync Server 2013 での Cookie ベースのアフィニティの詳細については、「[Lync Server 2013 の外部ユーザー アクセスに必要なコンポーネント](lync-server-2013-components-required-for-external-user-access.md)」を参照してください。
+以前のバージョンの Lync Server と Office Communications Server では、クライアントと Web サービスのセッション状態が維持されるように、Web サービスによって cookie ベースのアフィニティが使用されていました。 Lync Server 2013 Web サービスでは、cookie ベースのアフィニティの要件をほとんど解消する組み込みのアフィニティメカニズムを使用します。
 
-## 自動検出の拡張
-
-Lync Server 2013 の自動検出機能を使用することで、クライアントは、通信用の追加機能を検出できます。自動検出は、Mobility および Microsoft Lync 2010 Mobile 用の Lync Server 2010 の累積した更新プログラム (2011 年 11 月) で初めて導入されました。クライアントは、自動検出機能 (DNS レコード名 LyncDiscover および LyncDiscoverInternal としても知られています) を使用してモビリティ サービス (Microsoft Lync 2010 Mobile クライアント用)、Microsoft Lync Web App、および Lync Web スケジューラを検出すると共に、Microsoft Exchange Server および SharePoint Server と通信できます。自動検出は、インフラストラクチャおよび Lync Server 2013 サーバーのセットアップと展開を行うための通常のパーツとしてインストールされます。トポロジ ビルダーと Lync Server 展開ウィザードにより、Lync Server 2010 の累積した更新プログラム (2011 年 11 月) で要求された構成タスクの大半が排除されます。
-
-## モバイル クライアントに対するサービス
-
-Lync Server 2010 の累積した更新プログラム (2011 年 11 月) によって導入された Lync Server 2013 のモビリティ サービスにより、Lync Mobile を実行中の携帯電話およびサポートされる Apple iOS、Android、Windows Phone、または Nokia モバイル デバイスを使用するタブレット デバイスは、インスタント メッセージの送受信、連絡先の表示、プレゼンスの表示などのアクティビティを実行できます。さらに、モバイル デバイスは、クリックして会議に参加、勤務先から通話、同一番号接続、ボイス メール、不在着信通知などのいくつかの エンタープライズ VoIP 機能をサポートします。
-
-> [!NOTE]
-> モビリティ サービスは、フロントエンド サーバーに展開されたリバース プロキシと公開されたサービスを使用します。エッジ サーバーの変更は必要ありません。最低限、Lync Server アクセス エッジ サービスを実行中のサーバーからのアウトバウンド SIP/TCP/5061 が必要です。
+<div>
 
 
-## ディレクターの役割はオプション
+> [!WARNING]  
+> Microsoft Lync 2010 モバイルクライアントでは、依然として cookie ベースのアフィニティを使用する必要があります。すべてのクライアントを今後の Microsoft Lync モバイルクライアントに移行するまで、cookie ベースのアフィニティの構成が必要になります (リリース日はまだ確定していません)。
 
-Lync Server 2013 トポロジでの ディレクター サーバーの役割は変わっていません。これまでと同様、Web サービスをホストし、ユーザーからの要求を事前認証し、外部ユーザーをそれぞれのホーム プールに導きます。ディレクターの役割が推奨からオプションに変更されたのは、ディレクターの価値を下げることが目的ではありません。目的は、機能に影響を与えずにサーバーの数とその他のハードウェア要件 (ディレクターのハードウェア負荷分散など) を軽減することです。フロント エンド サーバーは、提供するサービスに悪影響を与えずに ディレクターと同じジョブを実行できるため、ディレクターを展開するかどうかは任意に決められます。フロント エンド サーバーが ディレクターに代わって同じサービスを提供するため、ディレクターを安全に除外できます。
+
+
+</div>
+
+Lync Server 2013 での cookie ベースのアフィニティの詳細については、「 [Lync server 2013 での外部ユーザーアクセスに必要なコンポーネント](lync-server-2013-components-required-for-external-user-access.md)」を参照してください。
+
+</div>
+
+<div>
+
+## <a name="autodiscover-enhancements"></a>自動検出の拡張機能
+
+Lync Server 2013 の自動検出機能を使用すると、クライアントは通信可能なその他の機能を見つけることができます。 自動検出は、Lync Server 2010 の累積的な更新プログラムで導入されました。モビリティと Microsoft Lync 2010 Mobile 用の2011年11月。 自動検出機能 (DNS レコード名 LyncDiscover と LyncDiscoverInternal にも呼ばれます) を使うと、クライアントはモビリティサービス (Microsoft Lync 2010 モバイルクライアント)、Microsoft Lync Web App、Lync Web scheduler などを検索して使用することができます。Microsoft Exchange Server および SharePoint Server との通信。 自動検出は、インフラストラクチャと Lync Server 2013 サーバーのセットアップと展開の通常の部分としてインストールされます。 トポロジビルダーと Lync Server Deployment ウィザードを使用すると、Lync Server 2010 の累積的な更新プログラムで必要とされる構成タスクのほとんどが、2011年11月に行われなくなります。
+
+</div>
+
+<div>
+
+## <a name="services-for-mobile-clients"></a>モバイルクライアント用のサービス
+
+Lync Server 2010 の累積的な更新プログラムで導入されています。 Lync Server 2013 のモバイルサービス、Android、Windows Phone、Nokia のモバイルデバイスを使用して、Lync Mobile およびタブレットデバイスを実行している携帯電話を有効にし2011ます。インスタントメッセージの送受信、連絡先の表示、プレゼンスの表示などのアクティビティ。 さらに、モバイルデバイスでは、クリックして会議に参加したり、勤務先の電話、1回の通話、ボイスメール、不在着信通知など、一部のエンタープライズ音声機能をサポートしたりします。
+
+<div>
+
+
+> [!NOTE]  
+> モビリティサービスは、フロントエンドサーバーに展開されているリバースプロキシと公開されたサービスを使用します。 エッジサーバーへの変更は必要ありません。 少なくとも、Lync Server アクセスエッジサービスを実行しているサーバーから発信 SIP/TCP/5061from 必要です。
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="director-role-is-optional"></a>ディレクターの役割はオプション
+
+Lync Server 2013 トポロジでのディレクターサーバーの役割が変更されていません。 さらに、web サービスをホストして、着信ユーザー要求を事前認証し、外部ユーザーをホームプールにリダイレクトします。 推奨された役割からディレクターをオプションの役割に変更することで、Microsoft はディレクターの価値を減少することを意図していません。 目的は、機能を損なうことなく、サーバー数とその他のハードウェア要件 (ディレクターのハードウェアロードバランサーなど) を削減することです。 フロントエンドサーバーは、提供されているサービスに影響を与えずにディレクターと同じジョブを実行できるため、選択する場合は、ディレクターを展開できます。 フロントエンドサーバーによってディレクターの代わりに同じサービスが提供されるという確信を持って、ディレクターを安全に除外することができます。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

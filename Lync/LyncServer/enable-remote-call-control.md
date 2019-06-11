@@ -1,35 +1,65 @@
-﻿---
-title: リモート通話コントロールの有効化
-TOCTitle: リモート通話コントロールの有効化
-ms:assetid: 0b91d418-e6ed-4556-97af-e8523e01f249
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204664(v=OCS.15)
-ms:contentKeyID: 48271220
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: リモート通話コントロールを有効にする
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Enable remote call control
+ms:assetid: 0b91d418-e6ed-4556-97af-e8523e01f249
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204664(v=OCS.15)
+ms:contentKeyID: 48183380
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 310a140d3497a77ddcaeb8ba32403aa8f28b68e5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840873"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# リモート通話コントロールの有効化
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-02_
+# <a name="enable-remote-call-control"></a>リモート通話コントロールを有効にする
 
-リモート通話コントロールにより、ユーザーは Lync Server 2013 を使用してデスクトップの構内交換機 (PBX) 電話を制御できます。従来の環境にリモート通話コントロールを展開してあり、それを Lync Server 2013 に移行する場合は、以下の作業を行う必要があります。
+</div>
 
-1.  SIP/CSTA ゲートウェイをインストールし、PBX と通信するように構成します。Lync Server 2013 パイロット プールを展開する場合、この手順を行う必要があります。
+<div id="mainSection">
 
-2.  トポロジをマージし、ポリシーと設定を移行した後、CSTA 要求を SIP/CSTA ゲートウェイにルーティングするように Lync Server 2013 を構成します。この手順は、自動移行の後で行う手動手順です。CSTA 要求のルーティングを構成するには、次の操作を行います。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-02_
+
+リモート通話コントロールを使用すると、ユーザーは Lync Server 2013 を使用して、デスクトップのプライベートブランチ exchange (PBX) 電話を制御できます。 従来の環境でリモート通話コントロールを展開して、Lync Server 2013 を移行する必要がある場合は、次のタスクを実行する必要があります。
+
+1.  SIP/CSTA ゲートウェイをインストールして、PBX と通信できるように設定します。 Lync Server 2013 パイロットプールを展開する場合は、この手順を実行する必要があります。
+
+2.  トポロジを結合してポリシーと設定を移行した後で、Lync Server 2013 を構成して、CSTA 要求が SIP/CSTA ゲートウェイにルーティングされるようにします。 この手順は、自動移行の後に続く手動の手順です。 CSTA 要求のルーティングを構成するには、次の操作を行います。
     
-      - 従来の承認済みホスト エントリ (Lync Server 2013 では "信頼されたサーバー エントリ" と呼ばれます) を削除します。従来の展開からユーザーを移行する場合は、SIP/CSTA ゲートウェイに対して作成した既存の承認済みホスト エントリをすべて削除してから、新しい信頼されたアプリケーション エントリを Lync Server 2013 パイロット プールに構成してください。従来の承認済みホスト エントリを削除する方法の詳細については、「[承認済みホスト エントリを削除する](remove-an-authorized-host-entry.md)」を参照してください。
+      - 従来の承認済みホストエントリを削除します (Lync Server 2013 では、*信頼されたサーバーエントリ*と呼ばれます)。 従来の展開からユーザーを移行する場合は、Lync Server 2013 パイロットプールで新しい信頼されたアプリケーションのエントリを構成する前に、SIP/CSTA ゲートウェイ用に作成した既存の認証済みホストエントリをすべて削除してください。 従来の承認済みホストのエントリを削除する方法について詳しくは、「承認され[たホストエントリを削除](remove-an-authorized-host-entry.md)する」をご覧ください。
     
-      - リモート通話コントロールの静的ルートを構成します。リモート通話コントロールをサポートする個別のプールに静的ルートを構成すること、またはプール レベルの静的ルートが構成されていない各プールでグローバル静的ルートが使用されるようにグローバル静的ルートを構成できます。静的ルートの構成方法の詳細については、「展開」のドキュメントの「[Lync Server 2013 でのリモート通話コントロールの静的ルートの構成](lync-server-2013-configure-a-static-route-for-remote-call-control.md)」を参照してください。
+      - リモート通話コントロールの静的ルートを構成します。 リモート通話コントロールをサポートする個々のプールに対して静的ルートを構成できます。また、プールレベルの静的ルートで構成されていない各プールがグローバル静的ルートを使うように、グローバル静的ルートを構成することもできます。 静的ルートを構成する方法の詳細については、展開ドキュメントの「 [Lync Server 2013 でリモート通話コントロールの静的ルートを構成](lync-server-2013-configure-a-static-route-for-remote-call-control.md)する」を参照してください。
     
-      - リモート通話コントロールをサポートする各プールで、リモート通話コントロールの信頼されたアプリケーション エントリを構成します。信頼されたアプリケーション エントリの構成方法の詳細については、「展開」のドキュメントの「[Lync Server 2013 でリモート通話コントロールの信頼済みアプリケーション エントリを構成する](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)」を参照してください。
+      - リモート通話コントロールをサポートする各プールで、リモート通話コントロール用の信頼されたアプリケーションエントリを構成します。 信頼されたアプリケーションのエントリを構成する方法の詳細については、展開ドキュメントの「 [Lync Server 2013 でのリモート通話コントロール用に信頼されているアプリケーションエントリを構成](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)する」を参照してください。
 
-3.  伝送制御プロトコル (TCP) を使用して Lync Server 2013 に接続する SIP/CSTA ゲートウェイを展開した場合は、トポロジ ビルダーでゲートウェイの IP アドレスを定義します。IP アドレスの定義の詳細については、「展開」のドキュメントの「[Lync Server 2013 での SIP/CSTA ゲートウェイの IP アドレスの定義](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)」を参照してください。
+3.  伝送制御プロトコル (TCP) を使って Lync Server 2013 に接続している SIP/CSTA ゲートウェイを展開した場合は、トポロジビルダーでゲートウェイの IP アドレスを定義してください。 IP アドレスの定義の詳細については、展開ドキュメントの「 [Lync Server 2013 で SIP/CSTA ゲートウェイの IP アドレスを定義する](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)」を参照してください。
 
-4.  リモート通話コントロールを有効にし、回線サーバーの Uniform Resource Identifier (URI) と回線の URI を割り当てることで、リモート通話コントロール用に Lync 2013 ユーザーを構成します。従来の展開から Lync Server 2013 にユーザーを移行すると、リモート通話コントロールの設定も他のユーザー設定と共に移行されます。
+4.  リモートの通話コントロールを有効にし、line server の Uniform Resource Identifier (URI) と行の URI を割り当てることで、リモート通話コントロール用に Lync 2013 ユーザーを構成します。 従来の展開から Lync Server 2013 にユーザーを移行すると、リモートの通話コントロールの設定が他のユーザーの設定とともに移行されます。
 
-5.  従来の展開でアドレス帳の電話番号正規化ルールをカスタマイズしてある場合は、ポリシーと設定の自動移行が完了した後でいくつかの手作業を実行し、カスタマイズした正規化ルールを移行する必要があります。正規化ルールをカスタマイズしていない場合は、アドレス帳はトポロジの他の部分と共に移行されます。カスタマイズした正規化ルールの手動移行の詳細については、「[アドレス帳の移行](migrate-address-book_1.md)」を参照してください。
+5.  従来の展開で、アドレス帳の電話番号の正規化ルールをカスタマイズした場合、カスタマイズされた正規化ルールを移行するには、ポリシーの自動移行と設定が完了した後に、いくつかの手動タスクを実行する必要があります。 正規化ルールをカスタマイズしていない場合は、アドレス帳が他のトポロジと共に移行されます。 カスタマイズされた正規化ルールを手動で移行する方法について詳しくは、「[アドレス帳を移行](migrate-address-book_1.md)する」をご覧ください。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

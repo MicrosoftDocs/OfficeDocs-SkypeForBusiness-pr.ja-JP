@@ -1,33 +1,59 @@
-﻿---
-title: 'Lync Server 2013: 応答グループの構成'
-TOCTitle: 応答グループの構成
-ms:assetid: c56db929-cb21-4af0-be3f-c8f807b78a5a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205249(v=OCS.15)
-ms:contentKeyID: 48273512
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 応答グループの構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Response Group
+ms:assetid: c56db929-cb21-4af0-be3f-c8f807b78a5a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205249(v=OCS.15)
+ms:contentKeyID: 48185359
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c4d12d1ee21cfa5e480dea52a0de9f89b250715c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840179"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での応答グループの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configuring-response-group-in-lync-server-2013"></a>Lync Server 2013 での応答グループの構成
 
-応答グループは、ヘルプ デスクやカスタマー サービス デスクなどの、*エージェント* と呼ばれるグループに着信通話をルーティングし、キューに配置する エンタープライズ VoIP 機能です。
+</div>
 
-応答グループで必要なコンポーネントは、エンタープライズ VoIP を展開するときに、フロントエンド サーバーまたは Standard Edition サーバーに自動的にインストールされ、有効になります。応答グループをユーザーが利用できるようにするには、エージェント グループ、キュー、およびワークフローを順に構成する必要があります。さらに、応答グループの管理者は既存のワークフローの構成を 応答グループのマネージャーに委任でき、マネージャーはワークフローおよびそれに関連するエージェント グループとキューを変更、再構成できます。
+<div id="mainSection">
 
-このセクションでは、Lync Server 2013応答グループの構成について説明します。読者が 応答グループに関する計画の項目を既に読んでおり、Enterprise Edition または Standard Edition サーバーが エンタープライズ VoIP と共に展開済みであることを前提としています。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-30_
+
+[応答グループ] は、ヘルプデスクや顧客サービスデスクなどの*エージェント*と呼ばれる、着信通話をルーティングしてキューに登録するエンタープライズ voip 機能です。
+
+エンタープライズボイスの展開時に、応答グループに必要なコンポーネントが、フロントエンドサーバーまたは Standard Edition サーバーにインストールされ、自動的に有効になります。 ユーザーが応答グループを利用できるようにするには、エージェントグループ、[キュー]、[ワークフロー] を構成する必要があります。 さらに、応答グループ管理者は、既存のワークフローの構成を応答グループマネージャーに委任することができます。これにより、ワークフローと関連するエージェントグループおよびキューを変更して再構成することができます。
+
+このセクションでは、Lync Server 2013 応答グループの構成について説明します。 応答グループに関連する計画セクションを既に読んでいて、enterprise Edition サーバーまたはエンタープライズ Voip サーバーを展開していることを前提としています。
+
+<div>
 
 
-> [!TIP]
-> Lync Server 管理シェルを使用して 応答グループを作成する方法の詳細 (サンプル スクリプトを含む) については、「Creating Your First Response Group Using Lync Server Management Shell (Lync Server 管理シェルを使用して最初の応答グループを作成する)」(<A class=uri href="http://go.microsoft.com/fwlink/?linkid=204108%26clcid=0x411">http://go.microsoft.com/fwlink/?linkid=204108&amp;clcid=0x411</A>) を参照してください。
+> [!TIP]  
+> Lync Server 管理シェルを使用した応答グループの作成について詳しくは、「at で<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>の Lync Server 管理シェルを使用した最初の応答グループの作成」をご覧ください。
 
 
 
-## このセクション中
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 の応答グループ構成のアクセス許可と前提条件](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
 
@@ -39,17 +65,33 @@ _**トピックの最終更新日:** 2016-12-08_
 
   - [Lync Server 2013 での応答グループのキューの作成](lync-server-2013-create-response-group-queues.md)
 
-  - [(オプション) Lync Server 2013 での応答グループの営業時間の定義](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [省略Lync Server 2013 での応答グループの営業時間の定義](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [(オプション) 応答グループ休日セットの定義](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [省略Lync Server 2013 で回答グループの休日セットを定義する](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
   - [Lync Server 2013 での応答グループのワークフローの作成](lync-server-2013-create-response-group-workflows.md)
 
-  - [(オプション) 応答グループの展開の確認](lync-server-2013-optional-verify-response-group-deployment.md)
+  - [省略Lync Server 2013 での応答グループの展開を確認する](lync-server-2013-optional-verify-response-group-deployment.md)
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Lync Server 2013 通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 の通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

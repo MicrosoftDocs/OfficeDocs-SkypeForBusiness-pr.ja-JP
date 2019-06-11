@@ -1,33 +1,61 @@
-﻿---
-title: バックアップと復元のワークシート
-TOCTitle: バックアップと復元のワークシート
-ms:assetid: 26c78155-0306-41ac-845b-7ad58000a1d6
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh202169(v=OCS.15)
-ms:contentKeyID: 52056561
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: バックアップと復元のワークシート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backup and restoration worksheets
+ms:assetid: 26c78155-0306-41ac-845b-7ad58000a1d6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202169(v=OCS.15)
+ms:contentKeyID: 51541460
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7ca10b848dfa1f6cf53724b364cf53b1fc0fad90
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840747"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# バックアップと復元のワークシート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Lync Server 2013 のバックアップと復元ワークシート
 
-組織のバックアップおよび復元計画には、データと設定をバックアップする方法とタイミングに関する詳細を含める必要があります。ここで提供されているワークシートを使用して、特定の展開および組織のバックアップおよび復元の要件に関するこの情報を文書化できます。
+</div>
 
-次のワークシートを使用して、データベース、ファイル ストア、および Lync Server プールまたは Standard Edition サーバーの設定情報をバックアップおよび復元するために必要な情報を記録してください。これらのワークシートのコピーを安全な場所に保管し、Lync Server を復元する必要がある場合にすぐに入手できるようにしてください。
+<div id="mainSection">
 
-> [!NOTE]
-> このセクションのワークシートは、Lync Server のデータベースおよびサーバーのデータと設定を復元するために必要な情報だけが対象です。オペレーティング システムおよび他のソフトウェアの再インストールに関する情報など、他の復元情報を文書化する必要がある場合は、組織の展開計画およびバックアップと復元の計画を使用して、要件に対応してください。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-18_
+
+組織のバックアップと復元の計画には、データと設定をバックアップする方法とタイミングについての詳細が含まれている必要があります。 ここに記載されているワークシートを使用して、特定の展開や組織のバックアップと復元の要件について、この情報を文書化することができます。
+
+次のワークシートを使用して、Lync Server プールまたは Standard Edition サーバーのデータベース、ファイルストア、設定情報をバックアップおよび復元するために必要な情報を記録します。 Lync Server を復元する必要がある場合は、これらのワークシートのコピーを安全な場所に保管して、簡単にアクセスできるようにします。
+
+<div>
 
 
-## データベースのバックアップと復元のワークシート
+> [!NOTE]  
+> このセクションのワークシートには、Lync Server データベースおよびサーバーのデータと設定を復元するために必要な情報のみが記載されています。 オペレーティングシステムやその他のソフトウェアの再インストールに関する情報など、他の復元情報を文書化する必要がある場合は、組織の展開計画とバックアップおよび復元計画を使用して、これらの要件に対応します。
 
-次の表を使用して、Lync Server データベースをバックアップおよび復元するために必要な情報を記録します。
 
-### バックアップおよび復元のためのデータベース情報
+
+</div>
+
+<div>
+
+## <a name="database-backup-and-restoration-worksheet"></a>データベースのバックアップと復元のワークシート
+
+次の表を使用して、Lync Server データベースのバックアップと復元に必要な情報を記録します。
+
+### <a name="database-information-for-backup-and-restoration"></a>バックアップと復元に関するデータベース情報
 
 <table style="width:100%;">
 <colgroup>
@@ -43,64 +71,64 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="header">
 <th>データベース</th>
 <th>サーバー名 (FQDN)</th>
-<th>バックアップ スケジュール</th>
-<th>データベース バックアップ ツール</th>
-<th>バックアップ セット</th>
+<th>バックアップスケジュール</th>
+<th>データベースバックアップツール</th>
+<th>バックアップセット</th>
 <th>バックアップ先</th>
-<th>メモ</th>
+<th>ノート</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>バックエンド サーバー上のユーザー データ用の Rtc データベース</p></td>
+<td><p>バックエンドサーバー上の Rtc データベース (ユーザーデータの場合)</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
-<td><p><strong>Export-CsUserData</strong> コマンドレット</p></td>
-<td><p>名前 :</p>
-<p>有効期限:</p>
+<td><p><strong>エクスポート-CsUserData</strong>コマンドレット</p></td>
+<td><p>氏名</p>
+<p>無期限</p>
 <p>                   </p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
 </tr>
 <tr class="even">
-<td><p>アーカイブ データベース サーバー上の LcsLog (既定名) データベース</p></td>
+<td><p>アーカイブデータベースサーバーの LcsLog (既定の名前) データベース</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>SQL Server 管理ツール</p></td>
-<td><p>名前 :</p>
-<p>有効期限:</p></td>
+<td><p>氏名</p>
+<p>無期限</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p>監視データベース サーバー上の通話詳細記録 (CDR) 用の LcsCdr データベース</p></td>
+<td><p>通話詳細レコードのモニタリングデータベースサーバー上の LcsCdr データベース (CDRs)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>SQL Server 管理ツール</p></td>
-<td><p>名前 :</p>
-<p>有効期限:</p></td>
+<td><p>氏名</p>
+<p>無期限</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p>監視データベース サーバー上の QoE (Quality of Experience) データ用の QoEMetrics データベース</p></td>
+<td><p>Quality of Experience (QoE) データの監視データベースサーバー上の QoEMetrics データベース</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>SQL Server 管理ツール</p></td>
-<td><p>名前 :</p>
-<p>有効期限:</p></td>
+<td><p>氏名</p>
+<p>無期限</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p>常設チャット データベース</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>SQL Server 管理ツールまたは <strong>Export-CsPersistentChatData</strong> コマンドレット</p></td>
-<td><p>名前:</p>
-<p>有効期限:</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>常設チャットデータベース</p></td>
+<td></td>
+<td></td>
+<td><p>SQL Server management tool または<strong>Export-CsPersistentChatData</strong>コマンドレット</p></td>
+<td><p>氏名</p>
+<p>無期限</p></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -108,21 +136,25 @@ _**トピックの最終更新日:** 2015-03-09_
 
 次のデータベースのバックアップまたは復元は必要ありません。
 
-  - Rtcdyn。このデータベースの一時的なユーザー データは、サービスの復元に必要ありません。
+  - Rtcdyn. このデータベースの一時的なユーザーデータは、サービスの復元には必要ありません。
 
-  - Rtcab。アドレス帳データベースは、Active Directory ドメイン サービス のグローバル アドレス一覧 (GAL) から自動的に再作成されます。
+  - Rtcab アドレス帳データベースは、Active Directory ドメインサービスのグローバルアドレス一覧 (GAL) から自動的に再作成されます。
 
-  - Rgsdyn。このデータベースの一時的な応答グループ サービス データは、サービスの復元に必要ありません。
+  - Rgsdyn. このデータベースの一時的な応答グループサービスデータは、サービスの復元には必要ありません。
 
-  - Cpsdyn。コール パーク アプリケーションの動的な情報は、サービスの復元に必要ありません。
+  - Cpsdyn. コールパークアプリケーションの動的な情報は、サービスの復元には必要ありません。
 
-  - MgcComp。常設チャットのコンプライアンス データベースは、サービスの復元に必要ありません。
+  - ・カンプ 常設チャットのコンプライアンスデータベースは、サービスの復元には必要ありません。
 
-## ファイル ストアのバックアップと復元のワークシート
+</div>
 
-次の表を使用して、ファイル ストアをバックアップおよび復元するために必要な情報を記録します。ファイル ストアには、会議コンテンツ メタデータ、会議コンプライアンス ログ、デバイス更新プログラムの更新ログのほかに、応答グループ、コール パーク、アナウンス アプリケーションのオーディオ ファイルなど、各種データが格納されます。
+<div>
 
-### バックアップおよび復元のためのファイル ストア情報
+## <a name="file-store-backup-and-restoration-worksheet"></a>ファイルストアのバックアップと復元のワークシート
+
+次の表を使用して、ファイルストアのバックアップと復元に必要な情報を記録します。 ファイルストアには、会議コンテンツメタデータ、会議のコンプライアンスログ、デバイス更新プログラムの更新ログ、応答グループ、コールパーク、アナウンスメントアプリケーションのオーディオファイルなどのデータが含まれています。
+
+### <a name="file-store-information-for-backup-and-restoration"></a>バックアップと復元に関するファイルストア情報
 
 <table style="width:100%;">
 <colgroup>
@@ -138,32 +170,36 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="header">
 <th>コンテンツ</th>
 <th>サーバー名 (FQDN)</th>
-<th>バックアップ スケジュール</th>
-<th>ファイル システム バックアップ ツール</th>
-<th>バックアップ対象のファイル共有 *</th>
+<th>バックアップスケジュール</th>
+<th>ファイルシステムバックアップツール</th>
+<th>バックアップするファイル共有 *</th>
 <th>バックアップ先</th>
-<th>メモ</th>
+<th>ノート</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Server ファイル ストア</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>標準バックアップ ツール (Robocopy など)</p></td>
-<td><p>Enterprise Edition の場合はファイル サーバー上。Standard Edition の展開の場合は、既定では Standard Edition 上。通常はサイトごとに 1 つ。</p></td>
-<td><p></p></td>
-<td><p><strong>Meeting.Active</strong> という名前のファイルはバックアップしないでください。これらのファイルは、会議の開催中に使用されており、ロックされています。</p></td>
+<td><p>Lync Server ファイルストア</p></td>
+<td></td>
+<td></td>
+<td><p>標準バックアップツール (Robocopy など)</p></td>
+<td><p>Enterprise Edition のファイルサーバー。 Standard edition デプロイメントの場合は、標準エディションでは既定でオンになっています。 通常、サイトごとに1つ。</p></td>
+<td></td>
+<td><p>" <strong>Meeting. Active</strong> " という名前のファイルはバックアップしないでください。 これらのファイルは使用中であり、会議の実行中にロックされます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 設定のバックアップと復元のワークシート
+</div>
 
-次の表を使用して、設定をバックアップおよび復元するために必要な情報を記録します。
+<div>
 
-### バックアップおよび復元のための設定情報
+## <a name="settings-backup-and-restoration-worksheet"></a>設定のバックアップと復元のワークシート
+
+次の表を使用して、設定のバックアップと復元に必要な情報を記録します。
+
+### <a name="settings-information-for-backup-and-restoration"></a>バックアップと復元の設定情報
 
 <table style="width:100%;">
 <colgroup>
@@ -179,11 +215,11 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="header">
 <th>データベース</th>
 <th>サーバー名 (FQDN)</th>
-<th>バックアップ スケジュール</th>
-<th>バックアップ ツール</th>
+<th>バックアップスケジュール</th>
+<th>バックアップツール</th>
 <th>構成ファイル (.xml) 名</th>
-<th>バックアップ場所</th>
-<th>メモ</th>
+<th>バックアップの場所</th>
+<th>ノート</th>
 </tr>
 </thead>
 <tbody>
@@ -191,29 +227,42 @@ _**トピックの最終更新日:** 2015-03-09_
 <td><p>トポロジ構成用の中央管理ストア内の Xds データベース (グローバル)</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
-<td><p><strong>Export-CsConfiguration</strong> コマンドレット</p></td>
+<td><p><strong>エクスポート-CsConfiguration</strong>コマンドレット</p></td>
 <td><p>                   </p></td>
 <td><p>                    </p></td>
 <td><p>                   </p></td>
 </tr>
 <tr class="even">
-<td><p>E9-1-1 場所情報用の中央管理ストア内の Lis データベース (グローバル)</p></td>
+<td><p>E9 の中央管理ストアの Lis データベース (グローバル) の場所情報 (グローバル)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p><strong>Export-CsLisConfiguration</strong> コマンドレット</p></td>
-<td><p></p></td>
+<td><p><strong>CsLisConfiguration</strong>コマンドレット</p></td>
+<td></td>
 <td><p> </p></td>
 <td><p>                    </p></td>
 </tr>
 <tr class="odd">
-<td><p>応答グループ構成用のバックエンド サーバー上の RgsConfig データベース (プール)</p></td>
+<td><p>応答グループ構成用のバックエンドサーバー上の RgsConfig データベース (プール)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p><strong>Export-CsRgsConfiguration</strong> コマンドレット</p></td>
-<td><p></p></td>
+<td><p><strong>Export-CsRgsConfiguration</strong>コマンドレット</p></td>
+<td></td>
 <td><p> </p></td>
 <td><p>                    </p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

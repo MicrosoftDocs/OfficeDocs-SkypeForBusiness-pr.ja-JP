@@ -1,27 +1,61 @@
-﻿---
-title: 'Lync Server 2013: IP アドレスの種類の構成'
-TOCTitle: IP アドレスの種類の構成
-ms:assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204710(v=OCS.15)
-ms:contentKeyID: 48271388
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: IP アドレスの種類を構成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure IP address types
+ms:assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204710(v=OCS.15)
+ms:contentKeyID: 48183515
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b19a9ee054cb0dee5a435d0b9cfa358bc1f0343c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840351"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での IP アドレスの種類の構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-06-13_
+# <a name="configure-ip-address-types-in-lync-server-2013"></a>Lync Server 2013 で IP アドレスの種類を構成する
 
-IP アドレスの種類を展開するには、トポロジ ビルダーで構成するトポロジ設定を使用します。このセクションでは、フロント エンド サーバー、仲介サーバー、および エッジ サーバーで IP アドレスの種類を展開する方法について説明します。
+</div>
 
-## このセクション中
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-06-13_
+
+IP アドレスの種類を展開するには、トポロジビルダーで構成したトポロジ設定を使用します。 このセクションでは、フロントエンドサーバー、仲介サーバー、およびエッジサーバーに IP アドレスの種類を展開する方法について説明します。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [IP アドレス タイプを Lync Server 2013 のフロント エンド サーバーに展開する](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
   - [Lync Server 2013 の仲介サーバーに IP アドレス タイプを展開する](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
   - [IP アドレスの種類を Lync Server 2013 のエッジ サーバーに展開する](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,65 +1,74 @@
-﻿---
-title: グローバル スコープとタグ スコープを使用するコマンドレット
-TOCTitle: グローバル スコープとタグ スコープを使用するコマンドレット
-ms:assetid: 1e2bc055-8a72-425e-967b-e253add7018c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn362774(v=OCS.15)
-ms:contentKeyID: 56270054
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# グローバル スコープとタグ スコープを使用するコマンドレット
+title: グローバルスコープとタグスコープを使う Skype for Business Online のコマンドレット
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use the global scope and the tag scope
+ms:assetid: 1e2bc055-8a72-425e-967b-e253add7018c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362774(v=OCS.15)
+ms:contentKeyID: 56558824
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 51327b98be69f92736c1c8523c97b4de6463273b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840094"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>グローバルスコープとタグスコープを使う Skype for Business Online のコマンドレット
 
  
 
-_**トピックの最終更新日:** 2015-06-22_
 
-Skype for Business Online では、ポリシーはグローバル スコープとタグ スコープ (またはユーザーごとのスコープ) のいずれかで構成できます。**Get-Cs** コマンドレットを使用する場合はスコープまたは ID を指定する必要はありません。パラメーターを指定せずにこれらのコマンドレットのいずれかを呼び出すと、関連するすべての項目が返されます。たとえば、次のコマンドは、すべての外部アクセス ポリシーに関する情報を返します。
+Skype for Business Online では、ポリシーは*グローバルスコープ*または*タグのスコープ*(または*ユーザーごとのスコープ*) で構成できます。 **Get-Cs**コマンドレットを使う場合は、スコープまたは id を指定する必要はありません。 パラメーターを指定せずにこれらのコマンドレットのいずれかを呼び出すと、関連するすべての項目が返されます。 たとえば、次のコマンドは、すべての外部アクセスポリシーに関する情報を返します。
 
     Get-CsExternalAccessPolicy
 
-返されるデータを制限する場合、含める必要があるのは Identity パラメーターまたは Filter パラメーターのみです。たとえば、グローバル ポリシーのみを返すには、次のコマンドを使用します。
+返されるデータを制限する場合は、Identity パラメーターまたは Filter パラメーターのみを含める必要があります。 たとえば、グローバルポリシーのみを返すには、次のコマンドを使用します。
 
     Get-CsExternalAccessPolicy -Identity "global"
 
-ID "RedmondAccessPolicy" が含まれるユーザーごとのポリシーを返すには、次のコマンドを使用します。
+Id が "RedmondAccessPolicy" のユーザーごとのポリシーを返すには、次のコマンドを使用します。
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
-> [!NOTE]
-> ユーザーごとのポリシーを参照する場合、タグ <strong>プレフィクス</strong>は省略可能です。プレフィクスが含まれる次の構文も有効です。<br />
-> Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;
+
+> [!NOTE]  
+> ユーザーごとのポリシーを参照する場合、タグ<STRONG>プレフィックス</STRONG>は省略可能です。 プレフィックスを含むこの構文は、次の場合にも有効です。<BR>Get-CsExternalAccessPolicy – Identity "tag: RedmondAccessPolicy"
 
 
-グローバル ポリシーを除くすべてのポリシー (つまり、すべてのユーザーごとのポリシー) を返すには、次のコマンドを使用します。
+
+グローバルポリシー (つまり、ユーザーごとのポリシー) を除くすべてのポリシーを返すには、次のコマンドを使用します。
 
     Get-CsExternalAccessPolicy -Filter "tag:*"
 
-次のコマンドレットは、グローバル スコープとユーザーごと (タグ) スコープの両方に対して機能します。
+次のコマンドレットは、グローバルスコープとユーザーごとの (タグ) スコープの両方に対して動作します。
 
-  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
+  - [CsClientPolicy の入手](https://technet.microsoft.com/en-us/library/gg398830\(v=ocs.15\))
 
-  - [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy)
+  - [Get-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg398293\(v=ocs.15\))
 
-  - [Get-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialPlan)
+  - [Get-CsDialPlan](https://technet.microsoft.com/en-us/library/gg413043\(v=ocs.15\))
 
-  - [Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)
+  - [Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/gg425805\(v=ocs.15\))
 
-  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
+  - [Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/gg398348\(v=ocs.15\))
 
-  - [Get-CsPresencePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPresencePolicy)
+  - [Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/gg398463\(v=ocs.15\))
 
-  - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
-
-> [!NOTE]
-> ダイヤル プランは、名前とは異なり、機能的にはポリシーです。たとえば、ダイヤル プランという用語はダイヤル ポリシーの代わりに使用されていますが、これは以前のバージョンの Lync Server で使用された用語を保持するためです。
+  - [Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398101\(v=ocs.15\))
 
 
-## 関連項目
+> [!NOTE]  
+> 名前にかかわらず、ダイヤルプランは、機能的に言うことができます。ポリシー。 以前のバージョンの Lync Server で使用されていた用語を保存するために、[ダイヤルポリシー] の代わりに、"<EM>ダイヤルプラン</EM>" という用語を使用します。
 
-#### 概念
 
-[ID、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+
+## <a name="see-also"></a>関連項目
+
+
+[Skype for Business Online の id、スコープ、テナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Lync Online のコマンドレット](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

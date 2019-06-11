@@ -1,57 +1,95 @@
-﻿---
-title: 'Lync Server 2013: 会議のための場所に基づくルーティングの構成'
-TOCTitle: 会議のための場所に基づくルーティングの構成
-ms:assetid: d8c708cc-a1b1-48b1-808c-a64df15f7701
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn362846(v=OCS.15)
-ms:contentKeyID: 56270146
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 会議のための場所に基づくルーティングの構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuration of Location-Based Routing for conferencing
+ms:assetid: d8c708cc-a1b1-48b1-808c-a64df15f7701
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362846(v=OCS.15)
+ms:contentKeyID: 56335088
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 657978ee622713ffd830d4aeb92a05d949287568
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840470"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での会議のための場所に基づくルーティングの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configuration-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 での会議のための場所に基づくルーティングの構成
 
-Location-Based Routing Conferencing アプリケーションは、Lync Server 2013 Location-Based Routing の構成に依存しています。主な構成は次のとおりです。
+</div>
 
-  - 会議の参加者の場所は、ネットワーク サイトに基づいて決定されます。場所に基づくルーティングを強制するには、ネットワーク サイトとその関連ネットワーク サブネットが Lync Server に定義されている必要があります。
+<div id="mainSection">
 
-  - 会議の場所に基づくルーティングを強制するため、Lync 参加者は場所に基づくルーティングを有効にしている必要があります。
+<div id="mainBody">
 
-  - 会議に参加する PSTN エンドポイントの場所に基づくルーティングを強制するには、PSTN エンドポイントとの接続に使用される SIP トランクが場所に基づくルーティング向けに構成されている必要があります。
+<span> </span>
 
-Lync Server 2013 の場所に基づくルーティングの展開と構成の詳細については、「[場所に基づくルーティングの構成](lync-server-2013-configuring-location-based-routing.md)」を参照してください。
+_**最終更新日:** 2013-09-11_
 
-## Location-Based Routing Conferencing アプリケーションを有効にする
+場所に基づくルーティング会議アプリケーションは、Lync Server 2013 の場所に基づくルーティングの構成に依存します。 主な構成は次のとおりです。
 
-Location-Based Routing Conferencing アプリケーションは既定で無効になっています。このアプリケーションを有効にする前に、このアプリケーションに割り当てるのに適した優先順位を決める必要があります。この優先順位を決めるには、Lync Server 管理シェル で次のコマンドレットを実行します。
+  - 会議の参加者の場所は、ネットワーク サイトに基づいて決定されます。 場所に基づくルーティングを適用するには、ネットワークサイトと関連付けられたネットワークサブネットが Lync Server で定義されている必要があります。
 
-Get-CsServerApplication -Identity Service:Registrar:\<Pool FQDN\>
+  - 会議の位置情報に基づくルーティングを適用するには、場所に基づくルーティングで Lync の出席者を有効にする必要があります。
 
-このコマンドレットで、\<Pool FQDN\> は Location-Based Routing Conferencing アプリケーションを有効にするプールです。
+  - 会議に参加する PSTN エンドポイントの位置に基づくルーティングを適用するには、PSTN エンドポイントを接続するために使用される SIP トランクが位置情報に基づくルーティング用に構成されている必要があります。
 
-このコマンドレットは、Lync Server によってホストされるアプリケーションとそれぞれの優先順位の値の一覧を返します。Location-Based Routing Conferencing アプリケーションに割り当てられる優先順位の値は、「UdcAgent」アプリケーションより大きく、「DefaultRouting」、「ExumRouting」、「OutboundRouting」の各アプリケーションより小さいことが必要です。Location-Based Routing Conferencing アプリケーションには、「UdcAgent」アプリケーションより 1 ポイント高い優先順位の値を割り当てることをお勧めします。
+Lync Server 2013 の位置情報に基づくルーティングの展開と構成の詳細については、「[場所ベースのルーティング](lync-server-2013-configuring-location-based-routing.md)を構成する」を参照してください。
 
-たとえば、「UdcAgent」アプリケーションの優先順位の値が「2」、「DefaultRouting」アプリケーションの優先順位の値が「8」、「ExumRouting」アプリケーションの優先順位の値が「9」、「OutboundRouting」アプリケーションの優先順位の値が「10」の場合、Location-Based Routing Conferencing アプリケーションには優先順位の値として「3」を割り当てます。これにより、各アプリケーションの優先順位は次のような順序になります。他のアプリケーション (優先順位: 0 ～ 1)、「UdcAgent」(優先順位: 2)、Location-Based Routing Conferencing アプリケーション (優先順位: 3)、他のアプリケーション (優先順位: 4 ～ 8)、「DefaultRouting」(優先順位: 9)「ExumRouting」(優先順位: 10)、および「OutboundRouting」(優先順位: 11)。
+<div>
 
-Location-Based Routing Conferencing アプリケーションに適した優先順位の値が見つかったら、場所に基づくルーティングを有効にしているユーザーが属する各フロント エンド プール サーバー、または Standard Edition サーバーに次のコマンドレットを入力します。
+## <a name="enabling-the-location-based-routing-conferencing-application"></a>位置に基づくルーティング会議アプリケーションを有効にする
 
-New-CsServerApplication -Identity Service:Registrar:\<Pool FQDN\>/LBRouting -Priority \<Application Priority\> -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+場所に基づくルーティング会議アプリケーションは、既定では無効になっています。 このアプリケーションを有効にする前に、このアプリケーションに割り当てるのに適した優先順位を決める必要があります。 この優先度を決定するには、Lync Server 管理シェルで次のコマンドレットを実行します。
+
+CsServerApplication-Identity Service: レジストラー:\<Pool FQDN\>
+
+このコマンドレットで\<は、\>位置情報に基づくルーティング会議アプリケーションを有効にするプールをプールの FQDN として指定します。
+
+このコマンドレットは、Lync Server によってホストされているアプリケーションの一覧とそれぞれの priority の値を返します。 場所に基づくルーティング会議アプリケーションには、"UdcAgent" アプリケーションよりも大きく、"DefaultRouting"、"ExumRouting"、"OutboundRouting" アプリケーションよりも小さい優先度の値を割り当てる必要があります。 場所に基づくルーティング会議アプリケーションは、"UdcAgent" アプリケーションの優先度値より1ポイント高い優先度の値に割り当てることをお勧めします。
+
+たとえば、"UdcAgent" アプリケーションの優先度値が "2" の場合、"DefaultRouting" アプリケーションには "8" という優先度の値が設定されています。 "ExumRouting" アプリケーションの優先度値は "9" で、"OutboundRouting" アプリケーションには "10" という優先順位値があります。場所に基づくルーティング会議アプリケーションには、"3" の優先度の値を割り当てる必要があります。 その場合、アプリケーションの優先度は、その他のアプリケーション (優先度: 0 から 1)、"UdcAgent" (優先度: 2)、場所に基づくルーティング会議アプリケーション (優先度: 3)、その他のアプリケーション (優先度: 4 ~ 8)、"DefaultRouting "(優先度: 9)、" ExumRouting "(優先度:10) と" OutboundRouting "(Priority:11)。
+
+場所に基づくルーティング会議アプリケーションの適切な優先度の値を見つけたら、次のコマンドレットを使用して、位置情報に基づくルーティングが有効になっている各フロントエンドプールまたは標準エディションのサーバーに対して、次のコマンドレットを入力します。
+
+新しい-CsServerApplication-Identity Service: レジストラー:\<Pool FQDN\>/LBRouting-priority \<アプリケーション優先\> $true-重要な $true Urihttp://www.microsoft.com/LCS/LBRouting
 
 次に例を示します。
 
-New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+新規の CsServerApplication-Identity Service: レジストラー: Ls2013cu2lbrLBRouting-Priority 3 $true--------------------------------------$truehttp://www.microsoft.com/LCS/LBRouting
 
-このコマンドレットを使用したら、Location-Based Routing Conferencing アプリケーションが有効になっている、該当するプールのフロント エンド サーバー、または Standard Edition サーバーを再起動します。
+このコマンドレットを使用した後、プールまたは場所ベースのルーティング会議アプリケーションが有効になっている Standard Edition サーバーで、すべてのフロントエンドサーバーを再起動します。
 
-
-> [!IMPORTANT]
-> 場所に基づくルーティングの会議または取次転送への強制は、該当するプールのフロント エンド サーバー、または Standard Edition サーバーが再起動されるまで反映されません。上記のコマンドレットで <STRONG>–Critical</STRONG> を <STRONG>$true</STRONG> に設定した場合、Lync サービスはただちに再開されます。これらのサービスがすぐには再開されないようにするには、<STRONG>–Critical</STRONG> を当面 <STRONG>$false</STRONG> に設定し、後でサービスを再開したときに <STRONG>Set-CsServerApplication</STRONG> を使用して <STRONG>-Critical</STRONG> を <STRONG>$true</STRONG> に設定します。
+<div>
 
 
+> [!IMPORTANT]  
+> 会議への位置情報に基づくルーティング enforcements は、対象のプールまたは Standard Edition サーバーのすべてのフロントエンドサーバーが再起動されるまでは適用されません。
 
-Location-Based Routing Conferencing アプリケーションが正常に有効になり、該当するすべての Lync サーバーが再起動されると、場所に基づくルーティングを有効にしている Lync ユーザーによって開催されたすべての会議が監視され、PSTN 料が適切に課金されます。
+
+
+</div>
+
+位置情報に基づくルーティング会議アプリケーションが正常に有効になり、適用可能なすべての Lync サーバーが再起動されると、PSTN の通話を許可しないように、場所ベースのルーティングが有効になっている Lync ユーザーが開催するすべての会議が監視されます
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

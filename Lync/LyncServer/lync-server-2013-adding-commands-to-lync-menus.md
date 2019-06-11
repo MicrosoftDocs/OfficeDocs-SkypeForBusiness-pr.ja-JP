@@ -1,53 +1,77 @@
-﻿---
-title: Lync メニューへのコマンドの追加
-TOCTitle: Lync メニューへのコマンドの追加
-ms:assetid: a8443bc2-e234-4022-870a-00700f38b1ea
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412788(v=OCS.15)
-ms:contentKeyID: 52056665
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync のメニューにコマンドを追加する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding commands to Lync menus
+ms:assetid: a8443bc2-e234-4022-870a-00700f38b1ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412788(v=OCS.15)
+ms:contentKeyID: 48185091
+ms.date: 04/11/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1dfb79a985791e6994d8409339d12b12e1146ec5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840936"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync メニューへのコマンドの追加
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-04-11_
+# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Lync Server 2013 での Lync メニューへのコマンドの追加
 
-Lync 2013 のメニューにカスタム コマンドを追加し、現在のユーザーおよび選択した連絡先の SIP URI (Uniform Resource Identifier) を、カスタム コマンドが起動するアプリケーションに渡すことができます。
+</div>
 
-追加するカスタム コマンドは、次の 1 つ以上のメニューに表示されます。
+<div id="mainSection">
 
-  - Lync のメイン ウィンドウのメニュー バー上にある、\[ツール\] メニュー
+<div id="mainBody">
 
-  - 連絡先リストの連絡先に対するショートカット メニュー
+<span> </span>
 
-  - \[会話\] ウィンドウの \[その他のオプション\] メニュー
+_**最終更新日:** 2016-04-11_
 
-  - \[会話\] ウィンドウの参加者リストに表示された人に対するショートカット メニュー
+Lync 2013 メニューにカスタムコマンドを追加し、現在のユーザーの SIP Uniform リソース識別子 (URI) を、カスタムコマンドの開始時に選択した連絡先に渡すことができます。
 
-  - 連絡先カードの \[オプション\] メニュー
+追加するカスタムコマンドは、次の1つ以上のメニューに表示されます。
 
-2 種類のアプリケーション用のカスタム コマンドを定義することができ、そのアプリケーションは次のいずれかを行います。
+  - Lync メインウィンドウのメニューバーの [ツール] メニュー
 
-  - 現在のユーザーのみに適用され、ローカル コンピューター上で起動するアプリケーション。
+  - 連絡先リストの連絡先のショートカットメニュー
 
-  - オンライン コラボレーション プログラムなどの別のユーザーが関与するアプリケーションであり、各ユーザーのコンピューター上で起動される必要があるアプリケーション。
+  - [会話] ウィンドウの [その他のオプション] メニュー
 
-カスタム コマンドは、次の方法で呼び出すことができます。
+  - [会話] ウィンドウの参加者リストに一覧表示されたユーザーのショートカットメニュー
 
-  - 1 人以上のユーザーを選択し、カスタム コマンドを選択します。
+  - 連絡先カードの [オプション] メニュー
 
-  - 2 パーティまたはマルチパーティの通話を開始し、カスタム コマンドを選択します。
+2種類のアプリケーション (次のいずれかのアプリケーション) のカスタムコマンドを定義できます。
 
-## カスタム コマンドを追加するには
+  - 現在のユーザーにのみ適用され、ローカルコンピューターで開始されます。
 
-次の表のレジストリ設定を使用して、メニューにコマンドを追加します。これらのエントリは、レジストリ内の次の場所にあります。
+  - オンラインコラボレーションプログラムなどの追加のユーザーを参加させると、各ユーザーのコンピューターで開始する必要があります。
 
-HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
+カスタムコマンドは、次の方法で呼び出すことができます。
 
-### カスタム コマンドのレジストリ エントリ
+  - 1人以上のユーザーを選択し、[ユーザー設定] コマンドを選択します。
+
+  - 2パーティまたはマルチパーティの会話を開始し、[ユーザー設定] コマンドを選択します。
+
+<div>
+
+## <a name="to-add-a-custom-command"></a>カスタムコマンドを追加するには
+
+次の表のレジストリ設定を使用して、メニューにコマンドを追加します。 これらのエントリは、レジストリの次のいずれかの場所に配置されます。
+
+  - 32ビット OS の場合\_:\_HKEY\\ローカル\\コンピューター\\ソフトウェア\\Microsoft\\Office\\15.0\\Lync SessionManager アプリ
+
+  - 64ビット OS の場合\_:\_HKEY\\LOCAL\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Office\\15.0\\Lync SessionManager アプリ
+
+### <a name="custom-command-registry-entries"></a>カスタムコマンドレジストリエントリ
 
 <table>
 <colgroup>
@@ -58,23 +82,25 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <thead>
 <tr class="header">
 <th>名前</th>
-<th>タイプ</th>
+<th>種類</th>
 <th>データ</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p>名前</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>メニューに表示されるアプリケーション名。</p></td>
+<td><p>メニューに表示されるアプリケーションの名前。</p></td>
 </tr>
 <tr class="even">
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
-<td><p>0 = 実行可能 (既定値)</p>
+<td><p>0 = 実行可能ファイル (既定)</p>
+<div>
 
-> [!NOTE]
-> ApplicationInstallPath が必要。
+> [!NOTE]  
+> ApplicationInstallPath が必要です。
+
 
 </div>
 <p>1 = プロトコル</p></td>
@@ -82,44 +108,46 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <tr class="odd">
 <td><p>ApplicationInstallPath</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>実行可能ファイルの完全なパス。</p>
+<td><p>実行可能ファイルの完全パス。</p>
+<div>
 
-> [!NOTE]
-> ApplicationType が 0 (実行可能) の場合は指定が必要。
+> [!NOTE]  
+> ApplicationType が 0 (実行可能ファイル) の場合は指定する必要があります。
+
 
 </div></td>
 </tr>
 <tr class="even">
 <td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>起動する完全なパスと、既定のパラメーターの <em>%user-id%</em> および <em>%contact-id%</em> を含むパラメーター。</p></td>
+<td><p>既定のパラメーター <em>%、ユーザー id</em> %、<em>連絡先 id</em>% など、すべてのパラメーターと共に開始する完全パス。</p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
 <td><p>DWORD</p></td>
-<td><p>0 = ローカル セッション。アプリケーションはローカル コンピュータ上で起動します。</p>
-<p>1 = 2 者間セッション (既定値)。Lync 2013 は、アプリケーションをローカルで起動し、デスクトップ通知を他のユーザーに送信します。相手のユーザーが通知をクリックすると、アプリケーションがそのコンピューター上で起動します。</p>
-<p>2 = 複数ユーザー間セッション。Lync 2013 は、アプリケーションをローカルで起動し、デスクトップ通知を他のユーザーに送信します。相手のユーザーが通知をクリックすると、指定されたアプリケーションがそのコンピューター上で起動します。</p></td>
+<td><p>0 = ローカルセッション。 アプリケーションがローカルコンピューターで開始されます。</p>
+<p>1 = 2 パーティセッション (既定)。 Lync 2013 では、アプリケーションをローカルで開始した後、他のユーザーにデスクトップ通知が送信されます。 他のユーザーが通知をクリックして、コンピューター上でアプリケーションを起動します。</p>
+<p>2 = マルチパーティセッション。 Lync 2013 は、アプリケーションをローカルで開始してから、デスクトップ通知を他のユーザーに送信します。 他のユーザーが通知をクリックして、指定されたアプリケーションを自分のコンピューターで起動します。</p></td>
 </tr>
 <tr class="even">
 <td><p>ExtensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>(セミコロンで区切られた) このコマンドが表示されるメニューの一覧。有効な値は次のとおりです。</p>
+<td><p>このコマンドが表示されるメニューの一覧。セミコロンで区切ります。 値の例は次のとおりです。</p>
 <p>MainWindowActions</p>
-<p>MainWindowRightClick</p>
+<p>MainWindowRightClick 上</p>
 <p>ConversationWindowActions</p>
 <p>ConversationWindowRightClick</p>
-<p>ContactCardMenu</p>
-<p>ExtensibleMenu が定義されていない場合は、MainWindowRightClick および ConversationWindowContextual の既定値が使用されます。</p></td>
+<p>連絡先カードメニュー</p>
+<p>ExtensibleMenu が定義されていない場合は、MainWindowRightClick と ConversationWindowActions の既定値が使用されます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-たとえば、次のレジストリ エディター (.REG) ファイルは、\[Contoso Sales Contact Manager\] メニュー項目を \[会話\] ウィンドウの \[操作\] メニューに追加した結果を示しています。
+たとえば、次のレジストリエディター (.REG) ファイルには、[会話] ウィンドウの [アクション] メニューに Contoso の営業連絡先マネージャーのメニュー項目を追加した結果が表示されます。
 
     Windows Registry Editor Version 5.00
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\CustomCommands\{1F9F07C6-7E0B-462B-AAD7-98C6DBEA8F69}]
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Lync\SessionManager\Apps\{1F9F07C6-7E0B-462B-AAD7-98C6DBEA8F69}]
     "Name"="Contoso Sales Contact Manager"
     "HelpMessage"="The Contoso Sales Contact Manager is not installed. Contact the Help Desk for more information."
     "ApplicationType"=dword:00000000
@@ -128,17 +156,31 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
     "SessionType"=dword:00000001
     "ExtensibleMenu"="ConversationWindowActions;MainWindowRightClick"
 
-## カスタム コマンドにアクセスするには
+</div>
 
-追加済みのカスタム コマンドにアクセスするには、定義する ExtensibleMenu の値に応じて、次のいずれかの操作を行います。
+<div>
 
-  - **MainWindowActions**   Lync のメイン ウィンドウで、\[**ツール**\] をクリックし、カスタム コマンドをクリックします。
+## <a name="to-access-a-custom-command"></a>カスタムコマンドにアクセスするには
 
-  - **MainWindowRightClick**   Lync のメイン ウィンドウで、連絡先を右クリックし、カスタム コマンドをクリックします。
+追加したカスタムコマンドにアクセスするには、定義した ExtensibleMenu 値に応じて、次のいずれかの操作を行います。
 
-  - **ConversationWindowActions**   \[会話\] ウィンドウで、\[**その他のオプション**\] アイコンをクリックし、カスタム コマンドをクリックします。
+  - **[メイン**   ウィンドウ] Lync メインウィンドウで [**ツール**] をクリックし、[ユーザー設定] コマンドをクリックします。
 
-  - **ConversationWindowRightClick**   \[会話\] ウィンドウで、連絡先名を右クリックし、カスタム コマンドをクリックします。
+  - **[Mainwindowrightclick**   メインウィンドウで、連絡先を右クリックし、[ユーザー設定] をクリックします。
 
-  - **ContactCardMenu**   ユーザーの連絡先カードで、\[オプション\] アイコンをクリックし、カスタム コマンドをクリックします。
+  - **ConversationWindowActions**   会話ウィンドウで、[**その他のオプション**] アイコンをクリックし、ユーザー設定のコマンドをクリックします。
+
+  - **ConversationWindowRightClick**   会話ウィンドウで、連絡先の名前を右クリックし、[ユーザー設定] をクリックします。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

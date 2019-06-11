@@ -1,23 +1,45 @@
-﻿---
-title: 証明書の概要  - パブリック インスタント メッセージング接続
-TOCTitle: 証明書の概要  - パブリック インスタント メッセージング接続
-ms:assetid: 2b3687ee-50c2-4c1c-880e-8dcf8bd4f309
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ618370(v=OCS.15)
-ms:contentKeyID: 49115208
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 証明書の概要-パブリックインスタントメッセージングの接続'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Public instant messaging connectivity
+ms:assetid: 2b3687ee-50c2-4c1c-880e-8dcf8bd4f309
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618370(v=OCS.15)
+ms:contentKeyID: 49105657
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 31988207403ef1ccb5ea366da6e1ec6b3d448b4e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840639"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 証明書の概要 - パブリック インスタント メッセージング接続
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>証明書の概要-Lync Server 2013 でのパブリックインスタントメッセージング接続
 
-パブリック インスタント メッセージング接続の証明書の構成は、America Online (AOL) では独自の証明書の構成を必要とする点を除いて、他の種類の SIP フェデレーションや標準のエッジ サーバー証明書とまったく同じです。America Online では、使用する 1 つまたは複数 (エッジ プールの場合) の証明書に、通常のサーバーの拡張キー使用法 (EKU) に加えて、クライアント EKU も含める必要があります。クライアント EKU は証明書に追加されるものであり、エッジ サーバーに割り当てられる外部パブリック証明書の一部に含まれます。
+</div>
 
-## 証明書の概要 - パブリック インスタント メッセージング接続
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-19_
+
+パブリックインスタントメッセージング接続用の証明書を構成するには、まず、America Online (AOL) には固有のものが必要であることを除き、他の SIP フェデレーションタイプまたは標準エッジサーバーの証明書には何も違いがないことに注意してください。証明書の構成。 America Online では、通常のサーバー拡張キー使用法 (EKU) に加えて、証明書または証明書 (Edge プールの場合) がクライアント EKU も含まれている必要があります。 クライアント EKU は証明書に追加されたものであり、エッジサーバーに割り当てられている外部公開証明書の一部です。
+
+<div>
+
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a>証明書の概要–パブリックインスタントメッセージング接続
 
 
 <table>
@@ -31,32 +53,48 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="header">
 <th>コンポーネント</th>
 <th>サブジェクト名</th>
-<th>サブジェクトの別名 (SAN)/順序</th>
+<th>サブジェクト代替名 (SAN)/Order</th>
 <th>コメント</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>外部/アクセス エッジ</p></td>
+<td><p>外部/アクセスエッジ</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>証明書は公的 CA のものである必要があります。また、AOL とのパブリック IM 接続を展開する場合は、サーバー EKU およびクライアント EKU が必要です。証明書は、次のエッジの外部エッジ サーバー インターフェイスに割り当てられます。</p>
+<td><p>証明書はパブリック CA からである必要があります。また、AOL とのパブリック IM 接続を展開する場合は、サーバーの EKU とクライアントの EKU を持っている必要があります。 証明書は、次のための外部エッジサーバーインターフェイスに割り当てられます。</p>
 <ul>
 <li><p>アクセス エッジ サービス</p></li>
 <li><p>Web 会議エッジ サービス</p></li>
 <li><p>音声ビデオ エッジ サービス</p></li>
 </ul>
-<p>SAN は、トポロジ ビルダーの定義に基づいて自動的に証明書に追加されます。追加の SIP ドメインで必要な SAN エントリや、サポートする必要がある他のエントリを追加します。SAN にはサブジェクト名がレプリケートされるため、正常に動作するためにはサブジェクト名が存在している必要があります。</p></td>
+<p>San は、トポロジビルダーの定義に基づいて、自動的に証明書に追加されることに注意してください。 必要に応じて、必要に応じて SAN エントリを追加します。これには、サポートが必要な追加の SIP ドメインや他のエントリも含まれます。 サブジェクト名は SAN でレプリケートされ、正しい操作のために存在している必要があります。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
 
-[Lync Server 2013 の外部ユーザー アクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 の外部ユーザー アクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

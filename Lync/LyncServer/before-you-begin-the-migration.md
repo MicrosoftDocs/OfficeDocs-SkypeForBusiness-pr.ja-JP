@@ -1,21 +1,41 @@
-﻿---
-title: 移行を始める前に
-TOCTitle: 移行を始める前に
-ms:assetid: 035e38f7-eb75-4e2f-9f3a-c9f942b0a55b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204634(v=OCS.15)
-ms:contentKeyID: 48271104
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 移行を始める前に
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Before you begin the migration
+ms:assetid: 035e38f7-eb75-4e2f-9f3a-c9f942b0a55b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204634(v=OCS.15)
+ms:contentKeyID: 48183259
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a7ab2e365e8653695b88b1e7b12ee1104edd115d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840101"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 移行を始める前に
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-23_
+# <a name="before-you-begin-the-migration"></a>移行を始める前に
 
-作業を始める前に、このドキュメントと次のガイドを読んで、対応する Lync Server 2013 の役割の展開について理解することをお勧めします。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-23_
+
+開始する前に、このドキュメントと次のガイドを参照して、対応する Lync Server 2013 ロールの展開について理解しておくことをお勧めします。
 
   - [Lync Server 2013 の展開](lync-server-2013-deploying-lync-server.md)
 
@@ -23,11 +43,25 @@ _**トピックの最終更新日:** 2012-09-23_
 
   - [Lync Server 2013 での外部ユーザー アクセスの展開](lync-server-2013-deploying-external-user-access.md)
 
-  - [Lync Server 2013 でのクライアントおよびデバイスの展開](lync-server-2013-deploying-clients-and-devices.md)
+  - [Lync Server 2013 でのクライアントとデバイスの展開](lync-server-2013-deploying-clients-and-devices.md)
 
-## このセクション中
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [移行のプロセス](migration-process.md)
 
   - [移行のフェーズ](migration-phases.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

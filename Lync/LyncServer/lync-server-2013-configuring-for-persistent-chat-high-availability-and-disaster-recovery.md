@@ -1,19 +1,49 @@
-﻿---
-title: 'Lync Server 2013: 常設チャットの高可用性および障害復旧の構成'
-TOCTitle: 常設チャットの高可用性および障害復旧の構成
-ms:assetid: 2b91c244-796c-416d-bf9b-e99613e901af
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ552854(v=OCS.15)
-ms:contentKeyID: 49115209
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 常設チャットの高可用性および障害復旧の構成
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring for Persistent Chat high availability and disaster recovery
+ms:assetid: 2b91c244-796c-416d-bf9b-e99613e901af
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552854(v=OCS.15)
+ms:contentKeyID: 48706003
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 48b439caee20e6e4545975a40d8d99020009abe4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840244"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での常設チャットの高可用性および障害復旧の構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-06_
+# <a name="configuring-for-persistent-chat-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での常設チャットの高可用性および障害復旧の構成
 
-常設チャット サービスで高可用性および障害復旧を構成する方法の詳細については、「[Lync Server 2013 での常設チャット サーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」を参照してください。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-06_
+
+高可用性と災害復旧のための常設チャットサービスを構成する方法の詳細については、「 [Lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」を参照してください。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

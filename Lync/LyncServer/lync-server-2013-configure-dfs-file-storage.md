@@ -1,49 +1,93 @@
-﻿---
-title: 'Lync Server 2013: ファイルの記憶域を構成する'
-TOCTitle: ファイルの記憶域を構成する
-ms:assetid: a985be20-5a00-4f38-b45b-83dc82de3827
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205150(v=OCS.15)
-ms:contentKeyID: 48273229
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ファイルの記憶域を構成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure DFS file storage
+ms:assetid: a985be20-5a00-4f38-b45b-83dc82de3827
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205150(v=OCS.15)
+ms:contentKeyID: 48185037
+ms.date: 05/23/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c34d0f93e94c954b3ad2ab6cbd472a3d6a40e3e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840404"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でファイルの記憶域を構成する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Lync Server 2013 でファイルの記憶域を構成する
 
-Lync Server 2013 は、分散ファイル システム (DFS) でのファイル共有をサポートしています。Windows Server 2008 の DFS の詳細については、「ステップ バイ ステップ ガイド - Windows Server 2008 の分散ファイル システム」( [http://go.microsoft.com/fwlink/?linkid=202835\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=202835%26clcid=0x411)) を参照してください。DFS を使用するには、 Lync Server 2013 は次の条件を満たす必要があります。
+</div>
 
-  - 名前空間はドメインベースであること。
+<div id="mainSection">
 
-  - すべての名前空間サーバーで Windows 2008 以降を実行すること。
+<div id="mainBody">
 
-Lync Server 2013 のセットアップでは、共有フォルダーに対するアクセス許可によって管理者にフル アクセスが許可される必要があります。後で、 Lync Server 2013 は、NTFS ファイル アクセス許可を使用してフォルダーを ACL に登録します。継承された DFS 共有アクセス許可はアクセスの制限に使用されません。
+<span> </span>
 
-ファイル共有の要件の詳細については、「サポート」のドキュメントの「[Lync Server 2013 のファイル記憶域のサポート](lync-server-2013-file-storage-support.md)」を参照してください。
+_**最終更新日:** 2016-05-23_
 
-次の手順では、(DFS セットアップ ガイドに示す) DFS 名前空間ウィザードを使用して、共有フォルダー アクセス許可を適切に構成する方法について説明します。
+Lync Server 2013 は、分散ファイルシステム (DFS) でのファイル共有の使用をサポートしています。 Windows Server 2008 用の DFS の詳細については、Windows Server 2008 の DFS のステップバイステップガイド[http://go.microsoft.com/fwlink/p/?linkId=202835](http://go.microsoft.com/fwlink/p/?linkid=202835)を参照してください。DFS を使用するには、Lync Server 2013 で次のことを行う必要があります。
 
-## 共有フォルダー アクセス許可を構成するには
+  - 名前空間はドメインベース
 
-1.  \[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\] をポイントします。次に、\[**管理ツール**\] をポイントし、\[**DFS の管理**\] をクリックします。
+  - すべての名前空間サーバーは、少なくとも Windows 2008 を実行しています
 
-2.  DFS の管理スナップインのコンソール ツリーで、名前空間サーバー (たとえば、filesrv1.contoso.com) を右クリックし、\[**設定の編集**\] をクリックします。
+Lync Server 2013 セットアップでは、共有フォルダーに対するアクセス許可を付与して、管理者へのフルアクセスを許可する必要があります。 Lync Server 2013 は、NTFS ファイルのアクセス許可を使用してフォルダーに ACL を設定します。 継承された DFS 共有のアクセス許可は、アクセスを制限するためには使用されません。
 
-3.  \[**共有フォルダーのアクセス許可**\] を選択します。
+ファイル共有の要件の詳細については、サポートドキュメントの「 [Lync Server 2013 でのファイルストレージのサポート](lync-server-2013-file-storage-support.md)」を参照してください。
 
-4.  \[**カスタムのアクセス許可**\] を選択します。
+<div>
 
-5.  管理者グループの場合、\[**許可**\] の下で、次の選択を行います。
+
+> [!NOTE]  
+> DFS 以外の共有を構成する方法については、こちらを参照してください。 その場合は、「 <A href="lync-server-2013-hardware-setup.md">Lync Server 2013 用のハードウェアのセットアップ</A>」をご覧ください。
+
+
+
+</div>
+
+次の手順では、DFS 名前空間ウィザードを使用して、共有フォルダーのアクセス許可を適切に構成する方法について説明します (「DFS のセットアップガイド」で説明します)。
+
+<div>
+
+## <a name="to-configure-shared-folder-permissions"></a>共有フォルダーのアクセス許可を構成するには
+
+1.  [**スタート**] をクリックし、[**すべてのプログラム**]、[**管理ツール**] の順にポイントして、[ **DFS の管理**] をクリックします。
+
+2.  DFS の管理スナップインのコンソールツリーで、名前空間サーバー (たとえば、filesrv1.contoso.com) を右クリックし、[**設定の編集**] をクリックします。
+
+3.  [**共有フォルダーの権限**] を選びます。
+
+4.  [**ユーザー設定の権限を使用する**] を選びます。
+
+5.  [管理者] グループで、[許可] で次の**よう**に選択します。
     
-      - \[**フル コントロール**\]
+      - **フルコントロール**
     
-      - \[**変更**\]
+      - **変更**
     
-      - \[**読み取り**\]
+      - **モード**
 
-6.  \[**適用**\] をクリックし、\[**OK**\] をクリックします。
+6.  [**適用**] をクリックし、[ **OK]** をクリックします。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

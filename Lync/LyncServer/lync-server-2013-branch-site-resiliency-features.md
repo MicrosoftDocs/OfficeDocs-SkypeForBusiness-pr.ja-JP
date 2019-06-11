@@ -1,21 +1,43 @@
-﻿---
-title: 'Lync Server 2013: ブランチ サイトの復元機能'
-TOCTitle: ブランチ サイトの復元機能
-ms:assetid: 8e3feda5-9a38-4e3c-b808-af29f19c5eb9
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398715(v=OCS.15)
-ms:contentKeyID: 48272838
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ブランチ サイトの復元機能'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Branch-site resiliency features
+ms:assetid: 8e3feda5-9a38-4e3c-b808-af29f19c5eb9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398715(v=OCS.15)
+ms:contentKeyID: 48184765
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5e452dc297a79525b587d13aa58ed1e1270d41aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840737"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のブランチ サイトの復元機能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-02-10_
+# <a name="branch-site-resiliency-features-in-lync-server-2013"></a>Lync Server 2013 のブランチ サイトの復元機能
 
-ブランチ サイトに復元性を提供する場合、ブランチ サイトで中央サイトへの WAN 接続に障害が発生したり、中央サイトが到達不能なときに、次の音声機能を引き続き使用できる必要があります。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-02-10_
+
+ブランチ サイトに復元性を提供する場合、ブランチ サイトで中央サイトへの WAN 接続に障害が発生したり、中央サイトが到達不能であったりする場合に、次の音声機能を引き続き使用できる必要があります。
+
+<div>
 
 
   - 着信と発信の公衆交換電話網 (PSTN) 通話
@@ -32,11 +54,11 @@ _**トピックの最終更新日:** 2014-02-10_
 
   - 自動応答アテンダントを使用した PSTN ダイヤルイン会議
 
-  - ボイス メール ルーティング設定を構成している場合、ボイス メール機能 (詳細については、「[Lync Server 2013 のブランチ サイトの復元要件](lync-server-2013-branch-site-resiliency-requirements.md)」を参照)。
+  - ボイス メール機能 (ボイス メール ルーティング設定を構成している場合) (詳しくは、「 [Lync Server 2013 のブランチサイトの回復性の要件](lync-server-2013-branch-site-resiliency-requirements.md)」をご覧ください)。
 
   - ユーザーの認証と権限の付与
 
-次の機能は、復元ソリューションがブランチ サイトで大規模な Lync Server 展開である場合のみ使用できます。
+以下の機能は、回復可能なソリューションがブランチサイトでのフルスケールの Lync Server 展開である場合にのみ使用できます。
 
   - IM、Web、音声ビデオ会議
 
@@ -44,14 +66,33 @@ _**トピックの最終更新日:** 2014-02-10_
 
   - 着信の転送設定の更新
 
-  - 応答グループ アプリケーションおよび コール パーク アプリケーション
+  - 応答グループアプリケーションとコールパークアプリケーション
 
-  - 新しい電話とクライアントのプロビジョニング。ただし、Active Directory ドメイン サービス がブランチ サイトで使用されている場合のみ
+  - 新しい固定電話とクライアントのプロビジョニング。ただし、ブランチサイトに Active Directory ドメインサービスが存在する場合に限ります。
 
-  - Enhanced 9-1-1 (E9-1-1)
+  - 拡張 9-1-1 (E9-1-1)
     
-    E9-1-1 が展開されており、WAN リンクの停止のために中央サイトの SIP トランクが使用できない場合、存続可能ブランチ アプライアンスでは、E9-1-1 通話をローカル ブランチのゲートウェイにルーティングします。この機能を有効にするには、WAN に障害が発生した場合、ブランチ サイトのユーザーの音声ポリシーにより、ローカルのゲートウェイに通話をルーティングする必要があります。
+    E9 が展開され、中央サイトの SIP トランクが WAN リンクがダウンしているために使用できない場合、Survivable Branch Appliance は、ローカルブランチゲートウェイに E9 1-1 の通話をルーティングします。 この機能を有効にするには、WAN に障害が発生した場合、ブランチ サイトのユーザーの音声ポリシーにより、ローカルのゲートウェイに通話をルーティングする必要があります。
 
-> [!NOTE]
-> SBA (存続可能ブランチ オフィス) は、XMPP ではサポートされません。SBA 構成がホームになっているユーザーは、XMPP の連絡先に IM を送信したり、プレゼンスを確認できません。
+<div>
+
+
+> [!NOTE]  
+> SBA (存続可能ブランチ オフィス) は、XMPP ではサポートされません。 SBA 構成をホームにしているユーザーは、Im を送信したり、XMPP の連絡先とプレゼンスを表示したりすることはできません。
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

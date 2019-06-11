@@ -1,55 +1,96 @@
-﻿---
-title: 移行後の簡易 URL の変更
-TOCTitle: 移行後の簡易 URL の変更
-ms:assetid: addb0dc8-8324-42b1-9a00-f4bd14fdf5c0
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721844(v=OCS.15)
-ms:contentKeyID: 49887096
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 移行後の簡易 URL の変更
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Change simple URLs after migration
+ms:assetid: addb0dc8-8324-42b1-9a00-f4bd14fdf5c0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721844(v=OCS.15)
+ms:contentKeyID: 49733777
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0203b33d787310544f4f376872ecf9c99fc7254d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840098"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 移行後の簡易 URL の変更
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-22_
+# <a name="change-simple-urls-after-migration"></a>移行後の簡易 URL の変更
 
-Lync Server  では、次に示す 3 つの簡易 URL がサポートされています。
+</div>
 
-  - **会議** URL は、サイトまたは組織内のすべての会議のベース URL として使用されます。簡単な会議 URL では、会議に参加する簡単な会議 URL を使用すると、会議に参加するためのリンクが覚えやすくなり、通知も配布も簡単になります。
+<div id="mainSection">
 
-  - **ダイヤルイン** URL を使用すると、\[ダイヤルイン会議の設定\] Web ページにアクセスできます。簡単なダイヤルイン URL は、すべての会議への招待に含まれるため、会議にダイヤルインするユーザーは、必要な電話番号および PIN 情報にアクセスできます。
+<div id="mainBody">
 
-  - **管理** URL を使用すると、 Lync Server コントロール パネルに迅速にアクセスできます。簡単な管理 URL は、組織内部の URL です。
+<span> </span>
 
-Lync Server 2013 に移行したら、その変更が簡易 URL の DNS レコードと証明書に及ぼす影響について認識しておく必要があります。従来の Lync Server 2010 ディレクターがトポロジ内でそのまま使用される場合、簡易 URL を変更する必要はありません。移行後に Lync Server 2010 ディレクターがトポロジから削除される場合は、いずれかの Lync Server 2013 プールを示すように簡易 URL DNS レコードを更新する必要があります。ただし、簡易 URL の名前を変更するときは、各ディレクターおよびフロントエンド サーバーで Enable-CsComputer を実行して変更を登録する必要があります。
+_**最終更新日:** 2012-09-22_
 
-## 移行後の簡易 URL の変更
+Lync Server は、次の3つの簡単な Url をサポートします。
 
-**簡単な会議 URL を更新するには**
+  - **会議**は、サイトまたは組織内のすべての会議のベース URL として使用されます。 [会議への参加] の [シンプル URL] を使用すると、会議に参加するためのリンクを簡単に理解して、簡単に連絡して配布することができます。
 
-1.  トポロジ ビルダーで、最上位ノードの \[**Lync Server**\] を右クリックし、\[**プロパティの編集**\] をクリックします。
+  - [**ダイヤル**イン] は、ダイヤルイン会議の設定の web ページにアクセスできるようにします。 ダイヤルインの簡易 URL は、会議にダイヤルインするユーザーが必要な電話番号と PIN 情報にアクセスできるように、すべての会議出席依頼に含まれています。
 
-2.  左ウィンドウで \[**簡易 URL**\] をクリックし、\[**会議の URL:**\] の下の会議 URL をクリックして、\[**URL の編集**\] をクリックします。
+  - **管理者**が Lync Server コントロールパネルにすばやくアクセスできるようにします。 管理者の簡易 URL は、組織の内部にあります。
 
-3.  URL を目的の値に更新し、\[**OK**\] をクリックして編集した URL を保存します。
+Lync Server 2013 に移行した後は、変更によって単純な Url の DNS レコードと証明書にどのような影響があるかを把握しておく必要があります。 従来の Lync Server 2010 ディレクターがトポロジで引き続き使用されている場合は、単純な Url への変更は必要ありません。 移行後に Lync Server 2010 ディレクターがトポロジから削除された場合は、Lync Server 2013 プールの1つをポイントするように、単純な URL の DNS レコードを更新する必要があります。 ただし、単純な URL 名を変更する場合は必ず、各ディレクターとフロントエンドサーバーで [ユーザーの有効化] を実行して、変更を登録する必要があります。
 
-**簡単な管理 URL を更新するには**
+<div>
 
-1.  トポロジ ビルダーで、最上位ノードの \[**Lync Server**\] を右クリックし、\[**プロパティの編集**\] をクリックします。
+## <a name="changing-simple-urls-after-migration"></a>移行後に単純な Url を変更する
 
-2.  左ウィンドウで \[**簡易 URL**\] をクリックし、\[**管理アクセス URL**\] ボックスの下に Lync Server 2013 コントロール パネルへの管理アクセスのための簡易 URL を入力して、\[**OK**\] をクリックします。
+**[シンプルの概要 URL を更新するには、**
+
+1.  [トポロジビルダー] で、トップノードの**Lync サーバー**を右クリックし、[**プロパティの編集**] をクリックします。
+
+2.  左側のウィンドウで [**単純な url** ] を選び、[会議 url] を選び**ます。** [会議 url] を選び、[ **url の編集**] をクリックします。
+
+3.  URL を目的の値に更新し、[**OK**] をクリックして編集した URL を保存します。
+
+**管理者の簡易 URL を更新するには**
+
+1.  [トポロジビルダー] で、トップノードの**Lync サーバー**を右クリックし、[**プロパティの編集**] をクリックします。
+
+2.  左側のウィンドウで [**単純な url** ] を選び、[**管理アクセス URL** ] ボックスに、Lync Server 2013 コントロールパネルへの管理アクセスに使用する単純な url を入力して、[ **OK]** をクリックします。
+    
+    <div>
     
 
-    > [!TIP]
-    > 管理 URL にできるだけ簡易 URL を使用することをお勧めします。最も簡単なのは、<STRONG>https://admin.</STRONG> <EM>&lt;domain&gt;</EM> です。
+    > [!TIP]  
+    > 管理 URL には、できる限りシンプルな URL を使用することをお勧めします。 最も簡単なオプションは<STRONG> https://adminです。</STRONG>&lt;ドメイン&gt;。
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
 
 
+[Lync Server 2013 での簡単な URL の計画](lync-server-2013-planning-for-simple-urls.md)  
+  
 
-## 関連項目
+</div>
 
-#### 概念
+</div>
 
-[Lync Server 2013 での簡単な URL の計画](lync-server-2013-planning-for-simple-urls.md)
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

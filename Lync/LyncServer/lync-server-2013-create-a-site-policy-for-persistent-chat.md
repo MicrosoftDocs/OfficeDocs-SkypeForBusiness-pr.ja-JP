@@ -1,54 +1,96 @@
-﻿---
-title: 'Lync Server 2013: 常設チャットのサイト ポリシーを作成する'
-TOCTitle: 常設チャットのサイト ポリシーを作成する
-ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204693(v=OCS.15)
-ms:contentKeyID: 48271330
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 常設チャットのサイト ポリシーを作成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a site policy for Persistent Chat
+ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204693(v=OCS.15)
+ms:contentKeyID: 48183470
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: be98028bf06c20c82dca98fc3bc20d25e97a94c5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840075"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 で常設チャットのサイト ポリシーを作成する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-06_
+# <a name="create-a-site-policy-for-persistent-chat-in-lync-server-2013"></a>Lync Server 2013 で常設チャットのサイト ポリシーを作成する
 
-展開したサイトごとに、サイト固有の 常設チャット ポリシーを作成できます。
+</div>
 
-サイト ポリシーの構成はグローバル ポリシーの構成よりも優先されますが、対象になるのはサイト ポリシーで指定された特定のサイトだけです。
+<div id="mainSection">
 
-> [!NOTE]
-> 常設チャット サーバーを構成して使用するには、まず、トポロジ ビルダーを使用して 常設チャット サーバー サポートをトポロジに追加してから、そのトポロジを公開する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync Server 2013 での展開への常設チャットサーバーの追加</a>」を参照してください。<br />
-> 常設チャット サーバーの構成設定を構成するには、「展開」のドキュメントの「<a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Lync Server 2013 で常設チャット サーバーのオプションをグローバルに、または常設チャット サーバー プール用に構成する</a>」を参照してください。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-06_
+
+展開したサイトごとに、サイト固有の常設チャットポリシーを作成できます。
+
+サイト ポリシーの構成はグローバル ポリシーよりも優先されますが、サイト ポリシーで指定されたサイトだけが対象となります。
+
+<div>
 
 
-## サイトの 常設チャット ポリシーを作成するには
+> [!NOTE]  
+> 常設チャットサーバーを構成して使用するには、最初にトポロジビルダーを使用して、トポロジに常設チャットサーバーサポートを追加してから、トポロジを発行する必要があります。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync server 2013 での展開への常設チャットサーバーの追加</A>」を参照してください。<BR>常設チャットサーバーの構成設定を構成するには、展開ドキュメントの「 <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Lync server 2013 で常設チャットサーバーのオプションをグローバルまたは常設チャットサーバープールに構成</A>する」を参照してください。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>サイトの常設チャットポリシーを作成するには
 
 1.  CsPersistentChatAdministrator、CsAdministrator、または CsUserAdministrator の役割に割り当てられているユーザーから、内部展開の任意のコンピューターにログオンします。
 
-2.  \[**スタート**\] メニューから \[ Lync Server コントロール パネル\] を選択するか、ブラウザー ウィンドウを開いて管理 URL を入力します。Lync Server コントロール パネルの起動に使用できるさまざまな方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  [**スタート**] メニューから [Lync Server コントロールパネル] を選択するか、ブラウザーウィンドウを開き、管理 URL を入力します。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**常設チャット**\] をクリックし、\[**常設チャットのポリシー**\] をクリックします。
+3.  左側のナビゲーション バーで [**常設チャット**] をクリックし、[**常設チャットのポリシー**] をクリックします。
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Windows PowerShell コマンドレットを使用することもできます。詳細については、「展開」のドキュメントの「<A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Windows PowerShell コマンドレットを使用した常設チャット サーバーの構成</A>」を参照してください。
+    > [!IMPORTANT]  
+    > Windows PowerShell コマンドレットを使うこともできます。 詳細については、展開ドキュメントの「 <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Windows PowerShell コマンドレットを使用して常設チャットサーバーを構成</A>する」を参照してください。
 
-
-
-4.  \[**新規作成**\] をクリックし、\[**サイト ポリシー**\] をクリックします。
-
-5.  \[**サイトの選択**\] でポリシーを適用するサイトをクリックします。
-
-6.  \[**新規 常設チャットのポリシー**\] で、次の操作を実行します。
     
-      - \[**名前**\] で、新しいサイト ポリシーの名前 (Redmond など) を指定します。
-    
-      - \[**説明**\] にサイト ポリシーの内容の詳細 (「Redmond のチャット ルーム ポリシー」など) を入力します。
-    
-      - サイト ポリシーによって特に制御されていないすべてのサイトの常設チャットを制御するには、\[**常設チャットを有効にする**\] チェック ボックスをオンまたはオフにします。
+    </div>
 
-7.  \[**確定**\] をクリックします。
+4.  [**新規作成**] をクリックし、[**サイト ポリシー**] をクリックします。
+
+5.  [**サイトの選択**] でポリシーを適用するサイトをクリックします。
+
+6.  [**新規 常設チャットのポリシー**] で、次の操作を実行します。
+    
+      - [**名前**] で、新しいサイト ポリシーの名前 (Redmond など) を指定します。
+    
+      - [**説明**] にサイト ポリシーの内容の詳細 (「Redmond のチャット ルーム ポリシー」など) を入力します。
+    
+      - サイト ポリシーによって特に制御されていないすべてのサイトの常設チャットを制御するには、[**常設チャットを有効にする**] チェック ボックスをオンまたはオフにします。
+
+7.  [**コミット**] をクリックします。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

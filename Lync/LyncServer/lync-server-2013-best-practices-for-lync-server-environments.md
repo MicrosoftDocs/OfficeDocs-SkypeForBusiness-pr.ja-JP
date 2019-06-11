@@ -1,77 +1,119 @@
-﻿---
-title: 'Lync Server 2013: Best practices for Lync Server environments'
+---
+title: 'Lync Server 2013: Lync Server 環境のベストプラクティス'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Best practices for Lync Server environments
 ms:assetid: b0e45d84-09c8-4d3e-aad0-bc6f34ce233b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn720348(v=OCS.15)
-ms:contentKeyID: 62221627
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720348(v=OCS.15)
+ms:contentKeyID: 63969642
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 00dbbf95990875b8366ce5a03f1d2d70e6652828
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840742"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Best practices for Lync Server 2013 environments
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="best-practices-for-lync-server-2013-environments"></a>Lync Server 2013 環境のベストプラクティス
 
-The following general principles should be applied to ongoing operations of your system:
+</div>
 
-  - **Understand and utilize MOF**   MOF is a collection of best practices, principles, and models that provide organizations technical guidance about the management of IT assets, such as daily Lync Server 2013 operations. Following MOF guidelines can help you achieve mission-critical production system reliability, availability, supportability, and manageability for Microsoft products. For more information, see [Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939).
+<div id="mainSection">
 
-  - **Learn about best practices for Lync Server 2013**   We recommend that you implement practical and proven procedures to manage Lync Server 2013. By using tried, tested, and documented methods of managing operations may be more efficient than developing your own methods.
+<div id="mainBody">
 
-  - **Separate operations into daily, weekly, and monthly processes**   Document the required operational tasks that you'll regularly perform. Documenting how you perform tasks helps make sure that your information is preserved when there is a change in your operational environment such as when new technologies are deployed or staff changes occur. We recommend that operational tasks be separated into manageable workloads where tasks are performed daily, weekly, and monthly. Daily tasks would focus efforts on the functioning of a system, and monthly tasks would focus more on ensuring the long-term health of a system.
+<span> </span>
+
+_**最終更新日:** 2014-08-04_
+
+システムの実行中の操作には、次の一般的な原則を適用する必要があります。
+
+  - **Mof mof を理解して使用**   することは、ベストプラクティス、原則、およびモデルの集まりで、IT 資産の管理について組織の技術ガイダンスを提供します。たとえば、毎日の Lync Server 2013 の操作などです。 MOF ガイドラインは、次のように、Microsoft 製品のミッションクリティカルな生産システムの信頼性、可用性、サポート性、および管理性を実現するのに役立ちます。 詳細については、「 [Microsoft Operations Framework 4.0](http://go.microsoft.com/fwlink/p/?linkid=40939)」を参照してください。
+
+  - **Lync server 2013**   のベストプラクティスについては、「lync server 2013 を管理するための実用的で実証された手順を実装することをお勧めします。 試用、テスト、文書化された操作を管理する方法は、独自のメソッドを開発する場合よりも効率的に行うことができます。
+
+  - **日常的、週単位、月**   単位のプロセスに個別の操作を行うことで、必要な運用タスクを定期的に文書化することができます。 タスクの実行方法を文書化することで、新しいテクノロジが展開された、またはスタッフが変更されたときなど、運用環境に変更があった場合に、情報が確実に保持されるようにすることができます。 タスクが毎日、毎週、毎月実行される管理可能なワークロードに、運用タスクを分けることをお勧めします。 日常的な作業では、システムの機能に重点を置いています。また、毎月のタスクでは、システムの長期の正常性を確保することに重点を置いています。
     
-    This document can be used in environments deploying only instant messaging/presence (IM/P) components or IM/P with Enterprise Voice. When tasks or checklist items are specific to Enterprise Voice, this is mentioned and if your environment does not include Enterprise Voice the portion may be skipped.
+    このドキュメントは、エンタープライズ Voip でインスタントメッセージ/プレゼンス (IM/P) コンポーネントまたは IM/P を展開する環境で使用できます。 タスクまたはチェックリスト項目がエンタープライズ Voip に固有の場合、これが説明されています。また、環境にエンタープライズ Voip が含まれていない場合は、その部分がスキップされる可能性があります。
 
-  - **Deploy the tools that are required for operating Lync Server 2013**   Many tools are available to help troubleshoot issues, automate tasks, and help monitor and maintain the Lync Server 2013 environment. Define a standard set of tools for your organization so the tasks that are performed by the operations team are performed accurately, efficiently, consistently, and in a controlled manner. You should also implement processes to track incidents and major configuration changes.
+  - **Lync server 2013**   を使用するために必要なツールを展開する多くのツールを利用して、問題のトラブルシューティング、タスクの自動化、lync server 2013 環境の監視と維持に役立ちます。 運営チームによって実行されるタスクを正確かつ効率的に実行し、管理された方法で実行するために、組織用に標準のツールセットを定義します。 また、インシデントおよび主要構成の変更を追跡するプロセスも実装する必要があります。
 
-## 参照
+<div>
 
-For the benefit of readers not already familiar with the basics of server management in general, we provide an overview of server management practices. Readers already familiar with server management may choose to skip this section.
+## <a name="reference"></a>参照
 
-Best practices are recommendations that are based on the knowledge and experience that IT professionals have gained across many environments. They provide standard procedures for typical tasks that your Lync Server administrators must perform daily, and list the tools that they should use to manage a Lync Server environment.
+一般的にサーバー管理の基本について理解していない読者のために、ここではサーバー管理のプラクティスの概要について説明します。 既にサーバー管理に慣れている読者は、このセクションをスキップすることができます。
 
-Typical tasks for Lync administrators include the following:
+ベストプラクティスとは、IT プロフェッショナルが多くの環境で得た知識と経験に基づいた推奨事項です。 Lync Server の管理者が日常的に実行する必要のある一般的なタスクの標準的な手順と、Lync Server 環境を管理するために使う必要のあるツールについて説明します。
 
-  - **Capacity and Availability Management**   Define how and what to measure to predict future capacity requirements and to report about the capacity, reliability, and availability of your systems. You must verify that servers that are running Lync Server are sized to handle the load on the system, and that unplanned downtime is kept under the levels defined in the service level agreement (SLA). Additionally, you'll have to upgrade hardware to continue to meet the defined requirements.
+Lync 管理者向けの一般的なタスクには、次のものがあります。
 
-  - **Change Management and Configuration Management**   Control how changes are made to IT systems. This should include testing, application feedback and contingency plans, documentation of all changes, and approval from management if issues occur. Keep a record of your software and hardware assets and their configurations.
+  - **容量と可用性の管理**   によって、将来の容量要件を予測し、システムの容量、信頼性、および可用性に関するレポートを作成する方法と測定方法が定義されます。 Lync Server を実行しているサーバーがシステムの負荷を処理するように設定されていること、および予期しないダウンタイムがサービスレベル契約 (SLA) で定義されているレベルの下にあることを確認する必要があります。 さらに、定義された要件を引き続き満たすためには、ハードウェアをアップグレードする必要があります。
 
-  - **System Administration**   Outline standard methods for doing administrative tasks such as database administration and site administration.
+  - **管理と構成の管理**   を変更し、IT システムに加えられた変更を制御します。 これには、テスト、アプリケーションのフィードバックと不測事態対応の計画、すべての変更の文書化、問題が発生した場合の管理からの承認などが含まれます。 ソフトウェアとハードウェアの資産とその構成を記録しておきます。
 
-  - **Security Administration**   Have a detailed policy and plan that protects data confidentiality, data integrity, and data availability of the IT infrastructure. This includes day-to-day activities and tasks that are related to maintaining and adjusting the IT security infrastructure.
+  - **システム管理**   の概要データベース管理、サイト管理などの管理タスクを実行するための標準的な方法。
 
-  - **System Troubleshooting**   Outline methods for dealing with unexpected issues, including steps to prevent similar issues in the future.
+  - **セキュリティ管理**   には、データの機密性、データの整合性、IT インフラストラクチャのデータ可用性を保護するための詳細なポリシーと計画が用意されています。 これには、IT セキュリティインフラストラクチャの維持と調整に関連する日常的なアクティビティとタスクが含まれます。
 
-  - **Service Level Agreements**   Maintain a set of goals for the performance of the IT systems and regularly measure performance against these goals.
+  - ****   将来の問題を回避するための手順など、予期しない問題を処理するためのシステムのトラブルシューティングのアウトライン方法。
 
-  - **Documentation**   Document standard procedures, such as configuration information and lessons learned, and make them available to the staff members that need them. As changes to the configuration are made, update the documentation accordingly.
+  - **サービスレベル契約**   は、IT システムのパフォーマンスに対する一連の目標を維持し、これらの目標に対するパフォーマンスを定期的に測定します。
 
-## 関連項目
+  - **ドキュメント**   ドキュメントの標準的な手順 (構成情報や教訓など) と、それを必要とするスタッフメンバーが利用できるようにする方法について説明します。 構成の変更が行われると、それに合わせてドキュメントが更新されます。
 
-Review the following topics concerning system operations before proceeding:
+</div>
 
-  - [Capacity and availability management in Lync Server 2013](lync-server-2013-capacity-and-availability-management.md)
+<div>
 
-  - [Change management in Lync Server 2013](lync-server-2013-change-management.md)
+## <a name="related-sections"></a>関連項目
 
-  - [Configuration management in Lync Server 2013](lync-server-2013-configuration-management.md)
+続行する前に、次のシステム操作に関するトピックを確認してください。
 
-  - [System administration in Lync Server 2013](lync-server-2013-system-administration.md)
+  - [Lync Server 2013 での容量と可用性の管理](lync-server-2013-capacity-and-availability-management.md)
 
-  - [Service level agreements in Lync Server 2013](lync-server-2013-service-level-agreements.md)
+  - [Lync Server 2013 で管理を変更する](lync-server-2013-change-management.md)
 
-  - [Documentation in Lync Server 2013](lync-server-2013-documentation.md)
+  - [Lync Server 2013 での構成管理](lync-server-2013-configuration-management.md)
 
-  - [Standard procedures in Lync Server 2013](lync-server-2013-standard-procedures.md)
+  - [Lync Server 2013 でのシステム管理](lync-server-2013-system-administration.md)
 
-  - [Emergency procedures in Lync Server 2013](lync-server-2013-emergency-procedures.md)
+  - [Lync Server 2013 のサービスレベル契約](lync-server-2013-service-level-agreements.md)
 
-## 関連項目
+  - [Lync Server 2013 のドキュメント](lync-server-2013-documentation.md)
 
-#### その他のリソース
+  - [Lync Server 2013 の標準手順](lync-server-2013-standard-procedures.md)
 
-[Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939)
+  - [Lync Server 2013 の緊急対応手順](lync-server-2013-emergency-procedures.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Microsoft 運用フレームワーク4.0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

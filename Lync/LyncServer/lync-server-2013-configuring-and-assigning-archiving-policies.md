@@ -1,40 +1,79 @@
-﻿---
-title: アーカイブ ポリシーの構成と割り当て
-TOCTitle: アーカイブ ポリシーの構成と割り当て
-ms:assetid: acd18ea8-c7f1-4178-871a-cd3b75bdaa8b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205175(v=OCS.15)
-ms:contentKeyID: 48273248
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: アーカイブポリシーの構成と割り当て'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring and assigning Archiving policies
+ms:assetid: acd18ea8-c7f1-4178-871a-cd3b75bdaa8b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205175(v=OCS.15)
+ms:contentKeyID: 48185121
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e8b3b4f1f9465684d7c9139b8cd548caacf91c41
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840289"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# アーカイブ ポリシーの構成と割り当て
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-01_
+# <a name="configuring-and-assigning-archiving-policies-in-lync-server-2013"></a>Lync Server 2013 でアーカイブポリシーを構成して割り当てる
 
-Lync Server 2013 では、ポリシーを使用して Lync Server 2013 に所属しているユーザーの内部通信および外部通信のアーカイブを有効化/無効化します。これには、次のアーカイブ ポリシーが含まれます。
+</div>
 
-  - Lync Server 2013 を展開するときに既定で作成されるグローバル ポリシー。
+<div id="mainSection">
 
-  - 特定のサイトまたはユーザーに対するアーカイブの実装方法を指定するために作成して使用できるオプションのサイトレベルおよびユーザーレベルのポリシー。
+<div id="mainBody">
 
-アーカイブ ポリシーは、最初はアーカイブの展開時にセットアップしますが、展開後に変更、追加、および削除できます。Lync Server 2013 コントロール パネルで、\[**アーカイブおよび監視**\] グループの \[**アーカイブ ポリシー**\] ページを使用して、ポリシーをグローバル レベル、サイト レベル、およびユーザー レベルで管理できます。
+<span> </span>
 
-> [!NOTE]
-> アーカイブの実装を制御するには、重要モード、削除オプション、IM と会議のどちらをアーカイブするかなどのアーカイブ構成のオプションを指定する必要があります。既定では、グローバル アーカイブ構成やサイトまたはプール アーカイブ構成で有効になっているオプションはありません。アーカイブ ポリシーで内部通信または外部通信のアーカイブを有効にする前に、すべての該当するオプションをアーカイブ構成で指定する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理</a>」を参照してください。<br />
-> Lync Server ストレージを Exchange 2013 ストレージと統合する場合、Exchange ユーザー ポリシーは Lync Server 2013 アーカイブ ポリシーよりも優先されますが、メールボックスを持っていた Exchange 2013 に所属しているユーザーの場合のみはインプレース保持になります。
+_**最終更新日:** 2012-10-01_
+
+Lync server 2013 では、ポリシーを使って、内部通信のアーカイブを有効または無効にすることができます。また、Lync Server 2013 を使用しているユーザー向けの外部通信を有効または無効にします。 これには、次のアーカイブポリシーが含まれます。
+
+  - Lync Server 2013 を展開するときに既定で作成されるグローバルポリシー。
+
+  - 特定のサイトまたはユーザーに対するアーカイブの実装方法を指定するために作成および使用できる、オプションのサイトレベルとユーザーレベルのポリシー。
+
+アーカイブの展開時にアーカイブポリシーを最初に設定しましたが、展開後にポリシーの変更、追加、削除を行うことができます。 Lync Server 2013 コントロールパネルで、[**アーカイブと監視**] グループの [**アーカイブポリシー** ] ページを使用して、グローバルレベル、サイトレベル、ユーザーレベルでポリシーを管理できます。
+
+<div>
 
 
-ポリシーの階層など、ポリシーの実装方法の詳細については、「計画」のドキュメント、「展開」のドキュメント、「操作」のドキュメントの「[Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」を参照してください。展開後にポリシーを管理する方法の詳細については、「操作」のドキュメントの「[Lync Server 2013 での内部通信および外部通信のアーカイブの管理](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)」を参照してください。
+> [!NOTE]  
+> アーカイブの実装を制御するには、IM または会議のアーカイブ、重要モードの使用、削除オプションなど、アーカイブ構成のオプションを指定する必要があります。 既定では、グローバルアーカイブ構成またはサイトまたはプールのアーカイブ構成では、どのオプションも有効になっていません。 アーカイブポリシーで、内部または外部通信のアーカイブを有効にする前に、アーカイブ構成ですべての適切なオプションを指定する必要があります。 詳細については、「 <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 でアーカイブ構成オプションを管理</A>する」を参照してください。この操作のドキュメントでは、組織、サイト、プールについて説明します。<BR>Lync Server ストレージを Exchange 2013 ストレージと統合する場合、Exchange ユーザーのポリシーは、Lync Server 2013 アーカイブポリシーよりも優先されますが、Exchange 2013 を使用しているユーザーに対して、メールボックスがインプレースホールドに組み込まれています。
 
-## このセクション中
 
-  - [アーカイブ用のグローバル ポリシーの構成](lync-server-2013-configuring-the-global-policy-for-archiving.md)
 
-  - [アーカイブ用のサイト ポリシーの設定](lync-server-2013-setting-up-site-policies-for-archiving.md)
+</div>
 
-  - [ユーザーのアーカイブ ポリシーの設定](lync-server-2013-setting-up-archiving-policies-for-users.md)
+ポリシーの実装方法 (ポリシーの階層を含む) について詳しくは、「計画ドキュメント、展開ドキュメント、または運用ドキュメント」の「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)」をご覧ください。 展開後にポリシーを管理する方法について詳しくは、「運用ドキュメントの「 [Lync Server 2013 での社内および社外の通信のアーカイブを管理](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)する」をご覧ください。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 でアーカイブ用のグローバルポリシーを構成する](lync-server-2013-configuring-the-global-policy-for-archiving.md)
+
+  - [Lync Server 2013 でアーカイブ用のサイトポリシーを設定する](lync-server-2013-setting-up-site-policies-for-archiving.md)
+
+  - [Lync Server 2013 でユーザーのアーカイブポリシーを設定する](lync-server-2013-setting-up-archiving-policies-for-users.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

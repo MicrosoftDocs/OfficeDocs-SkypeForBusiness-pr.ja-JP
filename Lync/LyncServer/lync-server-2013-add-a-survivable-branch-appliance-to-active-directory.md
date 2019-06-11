@@ -1,65 +1,108 @@
-﻿---
-title: 'Lync Server 2013: Active Directory への存続可能ブランチ アプライアンスの追加'
-TOCTitle: Active Directory への存続可能ブランチ アプライアンスの追加
-ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425906(v=OCS.15)
-ms:contentKeyID: 48271859
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Active Directory への存続可能ブランチ アプライアンスの追加'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add a Survivable Branch Appliance to Active Directory
+ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425906(v=OCS.15)
+ms:contentKeyID: 48183938
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4dc057318a0d241a28b8529802ea9f2016a1f5b5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840956"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での、Active Directory への存続可能ブランチ アプライアンスの追加
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-23_
+# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Lync Server 2013 での、Active Directory への存続可能ブランチ アプライアンスの追加
 
-存続可能ブランチ アプライアンスを展開する予定がある場合は、Active Directory ドメイン サービスに 存続可能ブランチ アプライアンスを追加する必要があります。 中央サイトでこの手順を実行します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-23_
+
+Survivable Branch Appliance の展開を計画している場合は、Survivable Branch Appliance を Active Directory ドメインサービスに追加する必要があります。 セントラルサイトでこの手順を実行します。
+
+<div>
 
 
-> [!IMPORTANT]
-> この手順は、存続可能ブランチ アプライアンスを展開している場合にのみ実行します。 この手順は、存続可能ブランチ サーバーを展開している場合には実行しないでください。
+> [!IMPORTANT]  
+> この手順は、Survivable Branch Appliance を展開している場合にのみ実行してください。 Survivable ブランチサーバーを展開する場合は、この操作を行わないでください。
 
 
 
-## 存続可能ブランチ アプライアンスを Active Directory ドメイン サービスに追加するには
+</div>
 
-1.  Enterprise Admins グループのメンバーとしてメンバー サーバーにログオンします。
+<div>
 
-2.  \[**スタート**\]、\[**管理ツール**\]、\[**Active Directory ユーザーとコンピューター**\] の順にクリックします。
+## <a name="to-add-an-survivable-branch-appliance-to-active-directory-domain-services"></a>Active Directory ドメインサービスに Survivable Branch アプライアンスを追加するには
 
-3.  \[**操作**\] メニューの \[**新規**\] をクリックし、\[**コンピューター**\] をクリックします。
+1.  Enterprise Admins グループのメンバーとしてメンバーサーバーにログオンします。
 
-4.  \[**新しいオブジェクト - コンピューター**\] ダイアログ ボックスで、存続可能ブランチ アプライアンス コンピューター オブジェクトの名前 (BranchOffice1 など) を入力し、\[**変更**\] をクリックします。
+2.  [**スタート**] をクリックし、[**管理ツール**] をクリックして、[ **Active Directory ユーザーとコンピューター**] をクリックします。
 
-5.  \[**ユーザーまたはグループの選択**\] ダイアログ ボックスで、RTCUniversalSBATechnicians グループを追加して \[**OK**\] をクリックします。
+3.  [**操作**] メニューの [**新規作成**] をクリックし、[**コンピューター**] をクリックします。
+
+4.  [**新しいオブジェクト-コンピューター** ] ダイアログボックスで、Survivable Branch アプライアンスのコンピューターオブジェクトの名前 (たとえば BranchOffice1) を入力し、[**変更**] をクリックします。
+
+5.  **[ユーザーまたはグループの選択**] ダイアログボックスで、RTCUniversalSBATechnicians グループを追加し、[ **OK]** をクリックします。
     
-    > [!NOTE]
-    > ブランチ サイトの RTCUniversalSBATechnicians グループのメンバーが、後でこのデバイスをドメインに追加します。
+    <div>
+    
 
+    > [!NOTE]  
+    > ブランチサイトの RTCUniversalSBATechnicians グループのメンバーは、このデバイスを後でドメインに追加します。
 
-6.  \[**OK**\] をクリックして 存続可能ブランチ アプライアンス コンピューター オブジェクトを保存します。
+    
+    </div>
 
-7.  \[**スタート**\]、\[**管理ツール**\]、\[**ADSI Edit**\] の順にクリックします。
+6.  [ **OK** ] をクリックして、Survivable Branch Appliance コンピューターオブジェクトを保存します。
 
-8.  \[**ADSI Edit**\] で、前のステップで作成したコンピューター オブジェクトを右クリックし、\[**プロパティ**\] をクリックします。
+7.  [**スタート**] をクリックし、[**管理ツール**] をクリックして、[ **ADSI の編集**] をクリックします。
 
-9.  属性リストで **servicePrincipalName** をクリックし、\[**編集**\] をクリックします。
+8.  **ADSI edit**で、前の手順で作成したコンピューターオブジェクトを右クリックし、[**プロパティ**] をクリックします。
 
-10. **追加する値**フィールドに「HOST/\<SBA FQDN\>」と入力します。ここで、\<SBA FQDN\> は 存続可能ブランチ アプライアンスの完全修飾ドメイン名 (FQDN) です。 たとえば、**HOST/BranchOffice1.contoso.com** のように入力します。
+9.  [属性] の一覧で、[ **servicePrincipalName**] をクリックし、[**編集**] をクリックします。
 
-11. \[**OK**\] をクリックして **servicePrincipalName** 属性の設定を保存し、\[**OK**\] をクリックしてコンピューター オブジェクトのプロパティを保存します。
+10. [**追加する値**] フィールドに、「HOST\</SBA\> fqdn \<」と\>入力します。 SBA fqdn は Survivable Branch Appliance の完全修飾ドメイン名 (FQDN) です。 たとえば、「 **HOST/BranchOffice1**」と入力します。
 
-12. \[**Active Directory ユーザーとコンピューター**\] で \[**ユーザー**\] を右クリックし、\[**新規作成**\] をクリックして \[**ユーザー**\] をクリックします。
+11. [ **Ok** ] をクリックして**servicePrincipalName**属性の設定を保存してから、[ **ok** ] をクリックして、コンピューターオブジェクトのプロパティを保存します。
 
-13. ウィザードに情報を入力して 存続可能ブランチ アプライアンス技術者のドメイン ユーザー アカウントを作成します。
+12. **Active Directory ユーザーとコンピューター**で、[**ユーザー**] を右クリックし、[**新規作成**] をクリックして、[**ユーザー**] をクリックします。
 
-14. \[**Active Directory ユーザーとコンピューター**\] で \[**ユーザー**\] をクリックし、ユーザー オブジェクトを右クリックして \[**グループに追加**\] をクリックします。
+13. ウィザードに情報を入力して、Survivable Branch Appliance テクニシャンのドメインユーザーアカウントを作成します。
 
-15. \[**選択するオブジェクト名を入力してください**\] に **RTCUniversalSBATechnicians** と入力し、\[**OK**\] をクリックします。
+14. [ **Active Directory ユーザーとコンピューター**] で [**ユーザー**] をクリックし、ユーザーオブジェクトを右クリックして、[**グループに追加**] をクリックします。
 
-16. ブランチ サイト技術者ごとに、ステップ 12 ～ 15 を繰り返します。
+15. **[選択するオブジェクト名を入力**してください] に「 **RTCUniversalSBATechnicians**」と入力して、[ **OK]** をクリックします。
 
-**次のステップ**: [Lync Server 2013 でのトポロジへのブランチ サイトの追加](lync-server-2013-add-branch-sites-to-your-topology.md)
+16. ブランチサイトの技術ごとに、手順12-15 を繰り返します。
+
+**次のステップ**: [Lync Server 2013 でトポロジにブランチサイトを追加する](lync-server-2013-add-branch-sites-to-your-topology.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

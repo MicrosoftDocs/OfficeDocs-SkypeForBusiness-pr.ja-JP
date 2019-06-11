@@ -1,45 +1,79 @@
-﻿---
-title: Lync Server 2013 Persistent Chat Resource Kit Tools
+---
+title: Lync Server 2013 常設チャットリソースキットツール
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync Server 2013 Persistent Chat Resource Kit Tools
 ms:assetid: 7a34d2ba-eb25-4e22-92d1-b9baf81b102c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ945599(v=OCS.15)
-ms:contentKeyID: 52056766
-ms.date: 08/02/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945599(v=OCS.15)
+ms:contentKeyID: 51541423
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2c851be7bb7046021cc2d37c88ef03bdea60c95a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841043"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 Persistent Chat Resource Kit Tools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-24_
+# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Lync Server 2013 常設チャットリソースキットツール
 
-The Lync Server 2013 常設チャット Resource Kit tools help to make routine tasks easier for IT administrators who deploy and manage Lync Server 2013 常設チャット サーバー. In addition to installation instructions, this topic describes the purpose of each tool, and examples of its use.
+</div>
 
-## Installation of the Resource Kit Tools
+<div id="mainSection">
 
-To install the Lync Server 2013、リソース キット ツール, download **PersistentChatReskit.msi**. Run **PersistentChatReskit.msi** to do a simple installation. The .msi installs all the tools in the following path: \\**Program Files\\ Microsoft Lync Server 2013\\Persistent Chat Server Resource Kit**. Tools that are self-contained executables are in this folder. Tools that also have files are in their own subfolders.
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-24_
+
+Lync Server 2013 常設チャットリソースキットツールは、Lync Server 2013 常設チャットサーバーの展開と管理を行う IT 管理者にとって、日常的なタスクを簡単にするのに役立ちます。 このトピックでは、インストール手順に加えて、各ツールの目的とその用途の例について説明します。
+
+<div>
+
+## <a name="installation-of-the-resource-kit-tools"></a>リソース キット ツールのインストール
+
+Lync Server 2013 のリソースキットツールをインストールするには、 **PersistentChatReskit**をダウンロードします。 簡単なインストールを実行するには、 **PersistentChatReskit**を実行します。 .Msi は、次のパスにあるすべてのツールを\\インストールします。 **Program\\ Files\\Microsoft Lync server 2013 常設チャットサーバーリソースキット**。 このフォルダーには、自己完結型のツールの実行可能ファイルが格納されます。 ファイルが自分のサブフォルダーにもあるツール。
+
+<div>
 
 
-> [!IMPORTANT]
-> After installing the Lync Server 2013、リソース キット ツール, you must install <STRONG>PsExec.exe</STRONG> and copy <STRONG>PsExec.exe</STRONG> to the following path: \\<STRONG>Program Files\ Microsoft Lync Server 2013\Persistent Chat Server Resource Kit\ChatStressTool</STRONG>. If you do not copy <STRONG>PsExec.exe</STRONG>, the 常設チャット Stress Tool will throw an error exception, and not perform correctly. Make sure that you meet this prerequisite requirement prior to running the tool. For details about installing <STRONG>PsExec.exe</STRONG>, see <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>.
+> [!IMPORTANT]  
+> Lync server 2013 のリソースキットツールをインストールした後、 <STRONG>PsExec</STRONG>をインストールして、 <STRONG>PsExec</STRONG>を次のパスにコピーする\\必要があります。 <STRONG>Program Files \ Lync server 2013 \ 常設チャットサーバーリソース Kit\ChatStressTool</STRONG>. <STRONG>PsExec</STRONG>をコピーしない場合、常設チャットのストレスツールでエラー例外がスローされ、正しく実行されません。 ツールを実行する前に、必ずこの必須要件を満たしていることを確認してください。 <STRONG>PsExec</STRONG>のインストールの詳細については<A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>、を参照してください。
 
 
 
-## Supported Environments
+</div>
 
-For optimal performance, the Lync Server 2013、リソース キット ツール should be installed in the same environment and with the same specifications that are required for Lync Server 2013.
+</div>
 
-## Resource Kit Tools Overview
+<div>
 
-Here are the tools that are provided in the Lync Server 2013 常設チャット Resource Kit. The following section provides a description of each tool, including requirements and example usage.
+## <a name="supported-environments"></a>サポートされる環境
 
-  - AffCheck
+最適なパフォーマンスを実現するには、Lync Server 2013、リソースキットツールを同じ環境にインストールして、Lync Server 2013 で必要とされる仕様と同じようにする必要があります。
+
+</div>
+
+<div>
+
+## <a name="resource-kit-tools-overview"></a>リソース キット ツールの概要
+
+Lync Server 2013 常設チャットリソースキットには、次のツールが用意されています。 次のセクションでは、要件や使用例など、各ツールの説明を示します。
+
+  - 影響チェック
 
   - ChatMonitoringSummary
 
-  - ChatStress Tool
+  - ChatStress ツール
 
   - ChatUpgradeVerifier
 
@@ -47,23 +81,37 @@ Here are the tools that are provided in the Lync Server 2013 常設チャット
 
   - ScheduleADSyncforPrincipal
 
-## AffCheck
+</div>
 
-## Description
+<div>
 
-The AffCheck tool confirms that the 常設チャット back-end database user and group affiliation records match that of Active Directory ドメイン サービス.
+## <a name="affcheck"></a>影響チェック
 
-## Requirements
+<div>
 
-The tool is installed with the PersistentChatResKit installer on a domain joined machine.
+## <a name="description"></a>説明
 
-The user account under which the tool is run must have Read access to the 常設チャット back-end database and Active Directory Domain Services.
+このツールは、常設チャットバックエンドデータベースユーザーとグループの所属レコードが Active Directory ドメインサービスのものと一致することを確認します。
 
-## Usage
+</div>
 
-Configure the AffCheck.exe.config file according to the instructions in the config file and run the AffCheck tool without command-line parameters. Following are the contents of the default AffCheck.exe.config.
+<div>
 
-**AffCheck.exe.config:**
+## <a name="requirements"></a>要件
+
+このツールは、ドメインに参加しているコンピューター上の PersistentChatResKit installer と共にインストールされます。
+
+ツールが実行されるユーザーアカウントには、常設チャットのバックエンドデータベースと Active Directory ドメインサービスへの読み取りアクセス権が必要です。
+
+</div>
+
+<div>
+
+## <a name="usage"></a>使用方法
+
+構成ファイルに記載されている手順に従って、またはコマンドラインパラメーターを指定せずに、操作を実行します。 次に示すのは、既定の影響を示す .exe の内容です。
+
+**影響を確認します。**
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -98,37 +146,56 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
         <add key="Ignore" value ="DC=uatest,DC=test,DC=contoso,DC=com;DC=test,DC=contoso,DC=com"/>
       </appSettings>
     </configuration>
-```
+  ```
+</div>
 
-## ChatMonitoringSummary
+</div>
 
-## Description
+<div>
 
-The PersistentChatMonitoringSummary tool moves 常設チャット monitoring information from the monitoring database into a specified CSV log file.
+## <a name="chatmonitoringsummary"></a>ChatMonitoringSummary
 
-The CSV file will contain a breakdown of 常設チャット sessions by number of total sessions, successful sessions, unexpected failures, expected failures, and a breakdown of the unexpected failures by diagnostic ID, number of failures, and failure description.
+<div>
 
-## Requirements
+## <a name="description"></a>説明
 
-Install the 常設チャット Resource Kit tools on a domain-joined machine that has access to the Monitoring database.
+PersistentChatMonitoringSummary ツールは、一時的なチャット監視情報を監視データベースから指定された CSV ログファイルに移動します。
 
-The user account under which the tool runs must have Read access to the Monitoring database.
+CSV ファイルには、合計セッション数、成功セッション、予期しないエラー、予期したエラーの数、診断 ID、失敗数、障害の説明による予期しないエラーの内訳が含まれています。
 
-The file, PersistentChatMonitoringSummary.exe.config, must contain a \<connectionStrings\> section that defines the connection string to the Monitoring database. It must also contain a key for the PersistentChatEndpointUri that the monitoring data will be gathered for, and a file path to a location for the CSV file that will be generated. Refer to the installed config file for examples. The file must be located in the same directory as the tool.
+</div>
 
-## Usage
+<div>
+
+## <a name="requirements"></a>要件
+
+固定チャットリソースキットツールを、監視データベースにアクセスできるドメインに参加しているコンピューターにインストールします。
+
+ツールを実行するユーザーアカウントには、監視データベースへの読み取りアクセス権が必要です。
+
+PersistentChatMonitoringSummary というファイルには、監視データベースへの接続\<文字列\>を定義する connectionStrings セクションが含まれている必要があります。 また、監視データを収集する PersistentChatEndpointUri のキーと、生成される CSV ファイルの場所へのファイルパスが含まれている必要があります。 例については、インストールされている構成ファイルを参照してください。 このファイルは、ツールと同じディレクトリ内に存在する必要があります。
+
+</div>
+
+<div>
+
+## <a name="usage"></a>使用方法
 
 ```Batch
-PersistentChatMonitoringSummary [-StartDateTime <date>] [-EndDateTime <date>]
+    PersistentChatMonitoringSummary [-StartDateTime <date>] [-EndDateTime <date>]
 ```
 
-These parameters define the selection of data:
+次のパラメーターでデータの選択を定義します。
 
-**StartDateTime:** Optionally specifies the start date of the selection period. Default: 1/1/1753 12:00:00 AM
+**StartDateTime:** 必要に応じて、選択期間の開始日を指定します。 既定値: 1/1/1753 12:00:00 AM
 
-**EndDateTime:** Optionally specifies the last date of the selection period. Default: Now
+**Enddatetime:** オプションで、選択期間の最後の日付を指定します。 既定値: 今すぐ
 
-## Example
+</div>
+
+<div>
+
+## <a name="example"></a>例
 
 ```Batch
     C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
@@ -141,163 +208,224 @@ These parameters define the selection of data:
     Press enter to exit...
 ```
 
-## 常設チャット Stress Tool
+</div>
 
-## Description
+</div>
 
-The 常設チャット Stress tool provides an easy way to simulate usage of 常設チャット to test real-world performance, including varied user models to better fit your expected usage scenarios.
+<div>
 
-## Requirements
+## <a name="persistent-chat-stress-tool"></a>常設チャット応力ツール
 
-Install the 常設チャット Resource Kit tools onto a domain-joined machine that has access to the 常設チャット back-end database.
+<div>
 
-In addition to this *controller* machine, you will need several *loader* machines. For every 10K users in your user model, you will need at least 4GB of free RAM on a loader machine. For example, a run with 80K users will require about 32GB of RAM spread across all loader machines. We recommend that you have at least three loader machines, regardless of expected load.
+## <a name="description"></a>説明
 
-Loader machines must have the .NET 4.5 Framework as well as the Visual C++ 2012 Redistributable installed.
+常設チャットのストレスツールでは、継続的なチャットの使用をシミュレートして、さまざまなユーザーモデルを含め、想定される用途のシナリオに合わせてリアルタイムのパフォーマンスをテストすることができます。
 
-## Configuration
+</div>
 
-Copy ChatStressTool files into a shared folder accessible from all loader machines.
+<div>
 
-Create users and channels for use in the stress run:
+## <a name="requirements"></a>要件
 
-  - Create as many users as your user model calls for, enable them for Lync, and set their 常設チャット policy to Enabled.
+常設チャットリソースキットツールを、常設チャットのバックエンドデータベースにアクセスできるドメインに参加しているコンピューターにインストールします。
 
-  - Create a category for your stress channels, and then create as many rooms as are needed under that category. The category should have all stress users in its **Allowed** list (by way of adding their OU), and stress rooms should have a privacy setting of **Open**.
+この*コントローラー*マシンに加えて、いくつかの*ローダー*マシンが必要です。 ユーザーモデル内のすべての10K ユーザーに対して、ローダーコンピューターで少なくとも 4 GB の空き RAM が必要です。 たとえば、80K ユーザーとの実行には、すべてのローダーコンピューターで分散した RAM の 32 GB が必要です。 予想される負荷に関係なく、少なくとも3つのローダーコンピューターを持っていることをお勧めします。
 
-  - We recommend creating extra stress rooms. You can create 50,000 rooms with the following Windows PowerShell コマンドライン インターフェイス command:
-    
-       ```Powershell
+ローダーコンピューターには、.NET 4.5 フレームワークに加えて、Visual C++ 2012 再頒布可能パッケージがインストールされている必要があります。
+
+</div>
+
+<div>
+
+## <a name="configuration"></a>構成
+
+すべてのローダーコンピューターからアクセスできる共有フォルダーに ChatStressTool ファイルをコピーします。
+
+ストレスの実行で使用するユーザーとチャネルを作成します。
+
+  - ユーザーモデルを使って通話を発信し、Lync で有効にして、常設チャットポリシーを [有効] に設定します。
+
+  - 応力チャネルのカテゴリを作成し、そのカテゴリに必要なだけのルームを作成します。 カテゴリには、(OU を追加することで)**許可**リスト内のすべてのストレスユーザーを含める必要があります。また、ストレスルームには、 **[開く**] のプライバシー設定が必要です。
+
+  - 追加のストレス会議を作成することをお勧めします。 5万ルームを作成するには、次の Windows PowerShell コマンドラインインターフェイスコマンドを使用します。
+    ```Powershell
         for ($i = 0; $i -le 50000; $i++) { New-CsPersistentChatRoom -Category <parent category> -Name "StressChan_$i" -Privacy Open }
-       ```
+    ```    
 
-Edit the configuration files to fit your topology:
+トポロジに合わせて構成ファイルを編集します。
 
-In **LoaderProcess.exe.config**, change “controller.contoso.com” to the controller machine’s fully qualified domain name (FQDN).
+**LoaderProcess**で、"controller.contoso.com" をコントローラーコンピューターの完全修飾ドメイン名 (FQDN) に変更します。
 
-In **StressLauncher.exe.config:**
+**StressLauncher で次のよう**になります。
 
-1.  Change the “LoaderBinary” setting value to the shared folder’s path.
+1.  "LoaderBinary" 設定値を共有フォルダーのパスに変更します。
 
-2.  Change “AdminUser”/”AdminPassword” to credentials that have admin access to loader machines.
+2.  ローダーコンピューターへの管理者アクセス権を持つ資格情報に "AdminUser"/"Adminuser" を変更します。
 
-3.  Change “ChannelCategory” to the name of the category that stress channels have been created under.
+3.  "ChannelCategory" を、ストレスチャンネルが作成されたカテゴリの名前に変更します。
 
-4.  Change “UserNamePattern” and “UserPasswordPattern” to a template that matches your stress user credentials. {0} is replaced with the user’s index number.
+4.  "UserNamePattern" と "UserPasswordPattern" を、ストレスユーザーの資格情報と一致するテンプレートに変更します。 {0}は、ユーザーのインデックス番号に置き換えられます。
 
-5.  Change “Domain” to the SIP domain of your test topology.
+5.  "Domain" をテストトポロジの SIP ドメインに変更します。
 
-6.  Change “ConnectionString” to a connection string for your 常設チャット back-end database.
+6.  "ConnectionString" を永続的なチャットのバックエンドデータベースの接続文字列に変更します。
 
-7.  Change “UserIndexStart” to the index of the first stress user.
+7.  "UserIndexStart" を最初のストレスユーザーのインデックスに変更します。
 
-8.  Change “LyncFQDN” to the FQDN of your Front End pool.
+8.  "LyncFQDN" をフロントエンドプールの FQDN に変更します。
 
-9.  Modify the “Machines” list to include machine names for all of your loader machines.
+9.  [マシン] の一覧を変更して、すべてのローダーコンピューターにコンピューター名を含めます。
 
-10. Change the baseAddress of the service endpoint (default is “controller.contoso.com”) to the FQDN of your controller machine.
+10. サービスエンドポイントの baseAddress (既定は "controller.contoso.com") をコントローラーコンピューターの FQDN に変更します。
 
-## Usage
+</div>
 
-After configuration is complete, open StressLauncher.exe on the controller machine. You can launch StressLauncher as any user. The credentials under which the loader processes start on the loader machines must be specified in the config file. You also must give a connection string that has Read access to the 常設チャット back-end database. If this connection string uses integrated Windows authentication, you must launch StressLauncher as a user that has this access.
+<div>
 
-Alter the user model settings as needed. Click **Start Load** to initiate a run. After a minute or so, users will start being signed in, and the progress bar will begin to fill. At this point, you may can the controller machine working and take performance measurements.
+## <a name="usage"></a>使用方法
 
-## ChatUpgradeVerifier
+構成が完了したら、コントローラーコンピューターで StressLauncher を開きます。 StressLauncher は、任意のユーザーとして起動できます。 ローダーコンピューターで開始されるローダープロセスの資格情報は、構成ファイルで指定する必要があります。 また、常設チャットバックエンドデータベースへの読み取りアクセス権を持つ接続文字列も指定する必要があります。 この接続文字列で統合 Windows 認証を使っている場合は、このアクセス権を持つユーザーとして StressLauncher を起動する必要があります。
 
-## Description
+必要に応じて、ユーザーモデルの設定を変更します。 [**読み込みの開始**] をクリックして実行を開始します。 1分以上経過すると、ユーザーはサインインを開始し、進行状況バーの入力が開始されます。 この時点で、コントローラーマシンは動作し、パフォーマンスの測定を行うことができます。
 
-ChatUpgradeVerifier is a 常設チャット specific database comparison tool. The tool compares either the Group Chat 2007 R2 or Group Chat 2010 Database (2007/2010Db) to the 常設チャット 2013 Database (2013Db).
+</div>
 
-The tool will check, one by one, each category, 常設チャット room, and add-in in 2007/2010Db to see if it appears in the 2013Db. The comparison includes checking all settings on the category, chat room, or add-in, any principals in scope on the category, and any principal in a role on either the category or the chat room. If a category or a chat room does not appear correctly in the 2013Db, the differences will be output to a conflicts file. If, after the upgrade has occurred, the 2007/2010Db is changed and then this tool is run, there will be a differences output to the conflicts file. Note that this application is a database comparison tool only and does not validate the upgrade process.
+</div>
 
-## Requirements
+<div>
 
-Install the 常設チャット Resource Kit tools on a domain-joined machine that has access to the 常設チャット back-end databases (previous and current versions for 常設チャット).
+## <a name="chatupgradeverifier"></a>ChatUpgradeVerifier
 
-The user account under which the tool runs must have Read access to the 常設チャット databases.
+<div>
 
-The ChatUpgradeVerifier.exe.config file must contain either the GroupChat2007R2Db parameter or the GroupChat2010Db parameter, with a connection string to the appropriate Group Chat database (either Groupchat 2007R2 or 2010). It must also contain a PersistentChat2013Db parameter, with a connection string to the 常設チャット 2013 database.
+## <a name="description"></a>説明
 
-## Usage
+ChatUpgradeVerifier は、常設チャット固有のデータベース比較ツールです。 このツールは、グループチャット 2007 R2 またはグループチャット2010データベース (2007/2010Db) を常設 Chat 2013 データベース (2010Db) に比較します。
 
-Run **ChatUpgradeVerifier** without any parameters.
+ツールは、1つずつ、各カテゴリ、常設チャットルーム、および 2007/2010Db のアドインをチェックして、2010Db に表示されているかどうかを確認します。 比較では、カテゴリ、チャットルーム、アドイン、カテゴリの範囲に含まれるすべてのプリンシパル、カテゴリまたはチャットルームのいずれかのプリンシパルのすべての設定を確認することができます。 カテゴリまたはチャットルームが2013Db で正しく表示されない場合、相違点は競合ファイルに出力されます。 アップグレードが行われた後に、2007/2010Db が変更され、このツールが実行されると、競合ファイルへの相違点が出力されます。 このアプリケーションはデータベースの比較ツールにすぎないことに注意してください。アップグレードプロセスを検証しません。
 
-## Example
+</div>
 
-![ChatUpgradeVerifier.exe の実行](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "ChatUpgradeVerifier.exe の実行")
+<div>
 
-## 常設チャット Usage Report
+## <a name="requirements"></a>要件
 
-## Description
+常設チャットリソースキットツールは、常設チャットのバックエンドデータベースにアクセスできるドメインに参加しているコンピューターにインストールします (これは、常設チャット用の以前のバージョンと現在のバージョンになります)。
 
-The ChatUsageReport tool generates an HTML report of 常設チャット service usage.
+ツールを実行するユーザーアカウントには、常設チャットデータベースへの読み取りアクセス権が必要です。
 
-## Requirements
+ChatUpgradeVerifier ファイルには、適切なグループチャットデータベース (Groupchat 2007R2 または 2010) への接続文字列を含む、GroupChat2007R2Db パラメーターまたは GroupChat2010Db パラメーターのいずれかが含まれている必要があります。 また、常設 Chat 2013 データベースへの接続文字列を持つ PersistentChat2013Db パラメーターも含まれている必要があります。
 
-Install the 常設チャット Resource Kit tools on a domain-joined machine that has access to the 常設チャット back-end database.
+</div>
 
-The user account under which the tool is run must have Read access to the 常設チャット back-end database.
+<div>
 
-The file, ChatUsageReport.exe.config, must contain a \<connectionStrings\> section defining the connection string to the 常設チャット back-end database. The contents of the default config file are included here, for your reference.
+## <a name="usage"></a>使用方法
 
-## Usage
+パラメーターなしで**Chatupgradeverifier**を実行します。
 
-```Powershell
-ChatUsageReport [-StartDate {date}] [-EndDate {date}] [-TopActiveUsers {n}] [-TopActiveRooms {n}] [-LeastActiveRooms {n}] [-RoomsInactiveSince {Date}] [-OutputFolder {path}]
-```
+</div>
 
-These parameters define the selection of data:
+<div>
 
-**StartDate:** Optionally specifies the UTC start date of the selection period. Default: Earliest Date
+## <a name="example"></a>例
 
-**EndDate:** Optionally specifies the UTC end date of the selection period. Default: Now
+![ChatUpgradeVerifier を実行しています。](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "ChatUpgradeVerifier を実行しています。")
 
-These parameters define how and what data is displayed:
+</div>
 
-**TopActiveUsers:** If this is specified, the report will include the n most active users in terms of the number of messages the user has posted in the chat room for the selected period. Default: 10
+</div>
 
-**TopActiveRooms:** If this is specified, the report will include the n most active chat rooms in terms of the number of messages posted in the room for the selected period. Default: 10
+<div>
 
-**LeastActiveRooms:** If this is specified, the report will include the n least active chat rooms in terms of the number of messages posted in the chat room for the selected period. Rooms will have at least one message posted. Default: 10
+## <a name="persistent-chat-usage-report"></a>常設チャットの使用状況レポート
 
-**RoomsInactiveSince:** If this is specified, the report will include a list of chat rooms that have been inactive since the specified date. Default: Entire Time
+<div>
 
-**OutputFolder:** The folder where the ChatUsageReport.html and the graph images will be placed. This must be defined in the config file or on the command line.
+## <a name="description"></a>説明
 
-All of the command line parameter values can also be specified in the ChatUsageReport.exe.config file that is located in the same directory as the tool. If any value is specified in both the config file and the command line, the command line value will override the config file value.
+ChatUsageReport ツールは、常設チャットサービスの利用状況に関する HTML レポートを生成します。
 
-## Output
+</div>
 
-The report will always include the following output:
+<div>
 
-  - Top n most active chat rooms by number of message posts for selected period.
+## <a name="requirements"></a>要件
 
-  - Top n most active users by number of message posts for selected period.
+常設チャットリソースキットツールは、常設チャットのバックエンドデータベースにアクセスできるドメインに参加しているコンピューターにインストールします。
 
-  - Top n least active chat rooms by number of message posts for selected period.
+ツールが実行されるユーザーアカウントには、常設チャットのバックエンドデータベースへの読み取りアクセス権が必要です。
 
-  - Chat rooms that are inactive for the entire life of the database, or since the specified date.
+ChatUsageReport というファイルには、常設チャットバックエンドデータベース\<へ\>の接続文字列を定義する connectionStrings セクションが含まれている必要があります。 既定の構成ファイルの内容は、参照用にここに記載されています。
 
-  - Daily message post trend for selected period.
+</div>
 
-  - Weekly message post trend for selected period.
+<div>
 
-  - Monthly message post trend for selected period.
-
-  - Total message posts for selected period.
-
-  - Total number of enabled rooms.
-
-## Example
-
-The following example generates a usage report for the entire year 2001 and places the report in the OutputFolder specified in the ChatUsageReport.exe.config.
+## <a name="usage"></a>使用方法
 
 ```Powershell
-ChatUsageReport -RoomsInactiveSince 06-20-2010
+    ChatUsageReport [-StartDate {date}] [-EndDate {date}] [-TopActiveUsers {n}] [-TopActiveRooms {n}] [-LeastActiveRooms {n}] [-RoomsInactiveSince {Date}] [-OutputFolder {path}]
 ```
+次のパラメーターでデータの選択を定義します。
 
-ChatUsageReport.exe.config:
+**StartDate:** オプションで、選択期間の UTC 開始日を指定します。 既定値: 最も古い日付
+
+終了日 **:** オプションで、選択期間の UTC の終了日を指定します。 既定値: 今すぐ
+
+これらのパラメーターは、どのように表示されるかを定義します。
+
+**Topactiveusers:** この値が指定されている場合、レポートには、選択した期間にユーザーがチャットルームに投稿したメッセージの数に基づいて、最もアクティブな n 人のユーザーが含まれます。 既定値:10
+
+**TopActiveRooms:** この値が指定されている場合、レポートには、選択した期間のルームに投稿されたメッセージ数に基づいて、最もアクティブなチャットルームが含まれます。 既定値:10
+
+**LeastActiveRooms:** この値を指定すると、選択した期間のチャットルームに投稿されたメッセージ数に基づいて、アクティブなチャットルームが少なくとも1つ含まれます。 ルームには、少なくとも1つのメッセージが投稿されます。 既定値:10
+
+**RoomsInactiveSince:** 指定した場合、レポートには、指定した日付以降に無効になっているチャットルームのリストが含まれます。 既定値: 時間全体
+
+**Outputfolder:** ChatUsageReport とグラフ画像が配置されているフォルダー。 これは、構成ファイルまたはコマンドラインで定義されている必要があります。
+
+すべてのコマンドラインパラメーターの値は、ツールと同じディレクトリにある ChatUsageReport ファイルで指定することもできます。 構成ファイルとコマンドラインの両方でいずれかの値が指定されている場合、コマンドライン値は構成ファイルの値を上書きします。
+
+</div>
+
+<div>
+
+## <a name="output"></a>出力
+
+レポートには、常に次の出力が含まれます。
+
+  - 選択された期間のメッセージ投稿数に基づいて、最もアクティブなチャットルームの上位 n 個。
+
+  - 選択した期間のメッセージ投稿数に基づいて、最もアクティブなユーザーの上位 n 個。
+
+  - 選択された期間のメッセージ投稿数の多い、最もアクティブなチャットルーム。
+
+  - データベースの全期間にわたって、または指定した日付以降、非アクティブなチャットルーム。
+
+  - 選択された期間の毎日のメッセージ投稿の傾向。
+
+  - 選択された期間の毎週のメッセージ投稿の傾向。
+
+  - 選択された期間の月次メッセージ投稿のトレンド。
+
+  - 選択された期間のメッセージ投稿の合計数です。
+
+  - 有効なルームの合計数です。
+
+</div>
+
+<div>
+
+## <a name="example"></a>例
+
+次の例では、2001年全体の利用状況レポートを生成し、ChatUsageReport で指定された OutputFolder にレポートを配置します。
+
+```Powershell
+    ChatUsageReport -RoomsInactiveSince 06-20-2010
+```
+ChatUsageReport:
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -319,20 +447,35 @@ ChatUsageReport.exe.config:
       </appSettings>
     </configuration></configuration>
 ```
+</div>
 
-## ScheduleADSyncForPrincipal
+</div>
 
-## Description
+<div>
 
-ScheduleADSyncForPrincipal is a Microsoft SQL Server 2012 script that must be run directly from within SQL Server Management Studio when connected to the 常設チャット back-end database. This script enables you to force 常設チャット to synchronize its records of a user with those of Active Directory Domain Services, rather than waiting for the scheduled synchronization time.
+## <a name="scheduleadsyncforprincipal"></a>ScheduleADSyncForPrincipal
 
-## Requirements
+<div>
 
-The user account under which the script is run must have owner access to the 常設チャット back-end database.
+## <a name="description"></a>説明
 
-## Usage
+ScheduleADSyncForPrincipal は、常設チャットバックエンドデータベースに接続しているときに、SQL Server Management Studio 内から直接実行する必要がある Microsoft SQL Server 2012 スクリプトです。 このスクリプトを使用すると、強制チャットによって、スケジュールされた同期時間を待つのではなく、Active Directory ドメインサービスのユーザーのレコードを同期することができます。
 
-Following are the contents of the default script:
+</div>
+
+<div>
+
+## <a name="requirements"></a>要件
+
+スクリプトが実行されるユーザーアカウントには、常設チャットバックエンドデータベースへの所有者アクセス権が必要です。
+
+</div>
+
+<div>
+
+## <a name="usage"></a>使用方法
+
+既定のスクリプトの内容は次のとおりです。
 
 ```Powershell
     /*
@@ -371,4 +514,18 @@ Following are the contents of the default script:
         where
          prinID = <PrinID,int,0>
 ```
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,43 +1,69 @@
-﻿---
-title: Lync Server 2013 でのフォレストの準備による変更
-TOCTitle: Lync Server 2013 でのフォレストの準備による変更
-ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425791(v=OCS.15)
-ms:contentKeyID: 48271670
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: フォレストの準備によって行われた変更'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Changes made by forest preparation
+ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425791(v=OCS.15)
+ms:contentKeyID: 48183734
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ef94ea82f31871cf90939aa25a130903f15ef756
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840615"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのフォレストの準備による変更
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Lync Server 2013 でのフォレストの準備によって行われた変更
 
-ここでは、グローバル設定とオブジェクト、およびフォレストの準備中に作成するユニバーサル サービス グループとユニバーサル管理グループについて説明します。
+</div>
 
-## Active Directory のグローバル設定とオブジェクト
+<div id="mainSection">
 
-(新しい Lync Server 2013 展開で常に行われるように) 構成コンテナー内にグローバル設定を格納する場合は、フォレストの準備で既存のサービス コンテナーが使用され、Configuration\\Services オブジェクトに **RTC Service** オブジェクトが追加されます。フォレストの準備では、msRTCSIP-GlobalContainer 型の **Global Settings** オブジェクトが RTC サービス オブジェクトに追加されます。グローバル設定オブジェクトには、Lync Server の展開に適用されるすべての設定が保持されます。グローバル設定をシステム コンテナーに保存する場合は、フォレストの準備で新しい ルート ドメインのシステム コンテナーの下の Microsoft コンテナーと、システム\\Microsoft オブジェクトの下の RTC サービス オブジェクトが使用されます。
+<div id="mainBody">
 
-またフォレストの準備では、この手順が実行されるルート ドメインの新しい **msRTCSIP-Domain** オブジェクトが追加されます。
+<span> </span>
 
-## Active Directory のユニバーサル サービス グループとユニバーサル管理グループ
+_**最終更新日:** 2012-10-30_
 
-フォレストの準備では、指定したドメインを基にユニバーサル グループを作成し、これらのグループのアクセス制御エントリ (ACE) を追加します。このステップにより、指定したドメインのユーザー コンテナーにユニバーサル グループが作成されます。
+このセクションでは、グローバル設定とオブジェクト、およびフォレストの準備手順によって作成されるユニバーサルサービスと管理グループについて説明します。
 
-ユニバーサル グループを使用すると、管理者はグローバル設定およびサービスにアクセスしてそれらを管理できます。フォレストの準備により、次の種類のユニバーサル グループが追加されます。
+<div>
 
-  - **管理グループ** これらのグループは Lync Server ネットワークの管理者の役割を定義します。
+## <a name="active-directory-global-settings-and-objects"></a>Active Directory のグローバル設定とオブジェクト
 
-  - **インフラストラクチャ グループ**Lync Server インフラストラクチャの特定の領域へのアクセスを許可するグループです。これらのグループは管理グループの構成要素として機能します。これらのグループを変更したり、ユーザーをこれらのグループに直接追加したりしないでください。
+すべての新しい Lync Server 2013 の展開の場合と同様に、構成コンテナーにグローバル設定を保存している場合、フォレストの準備では既存のサービスコンテナーが使用され\\、構成サービスの下に**RTC サービス**オブジェクトが追加されます。オブジェクト. RTC Service オブジェクトの下で、フォレストの準備によって型が Msrtcsip-userenabled true-GlobalContainer の**グローバル設定**オブジェクトが追加されます。 グローバル設定オブジェクトには、Lync Server の展開に適用されるすべての設定が含まれます。 システムコンテナーにグローバル設定を保存する場合、フォレストの準備では、ルートドメインシステムコンテナーの下に Microsoft コンテナー、System\\microsoft オブジェクトの下に RTC サービスオブジェクトが使用されます。
 
-  - **サービス グループ** これらのグループは、さまざまな Lync Server サービスへのアクセスに必要なサービス アカウントです。
+フォレストの準備では、この手順を実行するルートドメイン用の新しい**msrtcsip-userenabled true**オブジェクトも追加されます。
+
+</div>
+
+<div>
+
+## <a name="active-directory-universal-service-and-administration-groups"></a>Active Directory ユニバーサルサービスと管理グループ
+
+フォレストの準備によって、指定したドメインに基づいてユニバーサルグループが作成され、これらのグループにアクセス制御エントリ (Ace) が追加されます。 この手順では、指定したドメインのユーザーコンテナーでユニバーサルグループを作成します。
+
+ユニバーサルグループを使用すると、管理者はグローバル設定とサービスにアクセスして管理することができます。 フォレストの準備によって、次の種類のユニバーサルグループが追加されます。
+
+  - **管理グループ**   これらのグループは、Lync Server ネットワークの管理者ロールを定義します。
+
+  - **インフラストラクチャグループ**   これらのグループは、Lync Server インフラストラクチャの特定の領域にアクセスするためのアクセス許可を提供します。 これらは、管理グループのコンポーネントとして機能します。 これらのグループを変更したり、これらのグループにユーザーを直接追加したりすることはできません。
+
+  - **サービスグループ**   これらのグループは、さまざまな Lync Server サービスへのアクセスに必要なサービスアカウントです。
 
 次の表では、管理グループについて説明します。
 
-### フォレストの準備時に作成される管理グループ
+### <a name="administrative-groups-created-during-forest-preparation"></a>フォレストの準備中に作成された管理グループ
 
 <table>
 <colgroup>
@@ -53,23 +79,23 @@ _**トピックの最終更新日:** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p>このグループのメンバーは、すべてのサーバーの役割、グローバル設定、ユーザーなど、サーバーおよびプールの設定を管理できます。</p></td>
+<td><p>すべてのサーバーの役割、グローバル設定、ユーザーなど、サーバーとプールの設定を管理することをメンバーに許可します。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>このグループのメンバーは、ユーザー設定を管理したり、あるサーバーまたはプールから、別のサーバーまたはプールにユーザーを移動したりできます。</p></td>
+<td><p>メンバーがユーザー設定を管理し、あるサーバーまたはプール間でユーザーを移動できるようにします。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalReadOnlyAdmins</p></td>
-<td><p>このグループのメンバーは、サーバー、プール、およびユーザーの設定を読み取ることができます。</p></td>
+<td><p>サーバー、プール、ユーザー設定の読み取りをメンバーに許可します。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-次の表では、インフラストラクチャ グループについて説明します。
+次の表では、インフラストラクチャグループについて説明します。
 
-### フォレストの準備時に作成されるインフラストラクチャ グループ
+### <a name="infrastructure-groups-created-during-forest-preparation"></a>フォレストの準備中に作成されたインフラストラクチャグループ
 
 <table>
 <colgroup>
@@ -78,38 +104,38 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>インフラストラクチャ グループ</th>
+<th>インフラストラクチャグループ</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalGlobalWriteGroup</p></td>
-<td><p>Lync Server のグローバル設定オブジェクトへの書き込みアクセス権が付与されます。</p></td>
+<td><p>Lync Server のグローバル設定オブジェクトへの書き込みアクセス権を付与します。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalGlobalReadOnlyGroup</p></td>
-<td><p>Lync Server のグローバル設定オブジェクトへの読み取り専用アクセス権が付与されます。</p></td>
+<td><p>Lync Server のグローバル設定オブジェクトへの読み取り専用アクセスを許可します。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>Lync Server のユーザー設定への読み取り専用アクセス権が付与されます。</p></td>
+<td><p>Lync Server のユーザー設定に対する読み取り専用アクセス権を付与します。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Lync Server の設定への読み取り専用アクセス権が付与されます。このグループは、プール レベルの設定にはアクセスできず、個々のサーバーに固有の設定のみにアクセスできます。</p></td>
+<td><p>Lync Server の設定に対する読み取り専用アクセス権を付与します。 このグループは、個々のサーバーに固有の設定のみに、プールレベルの設定にアクセスすることはできません。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalSBATechnicians</p></td>
-<td><p>Lync Server の構成への読み取り専用アクセス権が付与され、インストール中に、存続可能ブランチ アプライアンスの Local Administrators グループに配置されます。</p></td>
+<td><p>インストール時に、Lync Server 構成への読み取り専用アクセスを許可し、survivable branch アプライアンスのローカル管理者グループに配置されます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-次の表では、サービス グループについて説明します。
+次の表では、サービスグループについて説明します。
 
-### フォレストの準備時に作成されるサービス グループ
+### <a name="service-groups-created-during-forest-preparation"></a>フォレストの準備中に作成されたサービスグループ
 
 <table>
 <colgroup>
@@ -118,44 +144,44 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>サービス グループ</th>
+<th>サービスグループ</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>フロント エンド サーバーと Standard Edition サーバーの実行に使用されるサービス アカウントが含まれます。このグループを使用すると、Lync Server のグローバル設定および Active Directory ユーザー オブジェクトに対するサーバーの読み取り/書き込みアクセスが許可されます。</p></td>
+<td><p>フロントエンドサーバーおよび Standard Edition サーバーの実行に使用するサービスアカウントが含まれています。 このグループでは、Lync Server のグローバル設定と Active Directory ユーザーオブジェクトへのサーバーの読み取り/書き込みアクセスが許可されています。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCComponentUniversalServices</p></td>
-<td><p>音声ビデオ会議サーバー、Web サービス、仲介サーバー、アーカイブ サーバー、および監視サーバーの実行に使用されるサービス アカウントが含まれます。</p></td>
+<td><p>A/V 会議サーバー、Web サービス、仲介サーバー、アーカイブサーバー、監視サーバーの実行に使用されるサービスアカウントが含まれています。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCProxyUniversalServices</p></td>
-<td><p>Lync Server エッジ サーバーの実行に使用されるサービス アカウントが含まれます。</p></td>
+<td><p>Lync Server Edge サーバーを実行するために使用されるサービスアカウントが含まれています。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalConfigReplicator</p></td>
-<td><p>Lync Server中央管理ストアのレプリケーションに参加できるサーバーが含まれます。</p></td>
+<td><p>Lync Server 全体管理ストアのレプリケーションに参加できるサーバーが含まれています。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCSBAUniversalServices</p></td>
-<td><p>Lync Server の設定への読み取り専用アクセス権が付与されますが、存続可能ブランチ サーバーおよび存続可能ブランチ アプライアンス展開のインストールに関する構成は許可されます。</p></td>
+<td><p>Lync Server の設定への読み取り専用アクセス権を付与しますが、survivable branch Server と survivable branch appliance の展開のインストールの構成を許可します。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-フォレストの準備では、次に示すサービス グループと管理グループをインフラストラクチャ グループに追加します。
+次に示すように、フォレストの準備によって、適切なインフラストラクチャグループにサービスグループと管理グループが追加されます。
 
-  - RTCUniversalServerAdmins を、RTCUniversalGlobalReadOnlyGroup、RTCUniversalGlobalWriteGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup に追加します。
+  - RTCUniversalServerAdmins は、RTCUniversalGlobalReadOnlyGroup、RTCUniversalGlobalWriteGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup に追加されます。
 
-  - RTCUniversalUserAdmins を、RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup のメンバーとして追加します。
+  - RTCUniversalUserAdmins は、RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup のメンバーとして追加されます。
 
-  - RTCHSUniversalServices、RTCComponentUniversalServices、および RTCUniversalReadOnlyAdmins を、RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup のメンバーとして追加します。
+  - RTCHSUniversalServices、RTCComponentUniversalServices、RTCUniversalReadOnlyAdmins は、RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup のメンバーとして追加されます。
 
-フォレストの準備によって、次の役割ベースのアクセス制御 (RBAC) グループも作成されます。
+フォレストの準備では、次の役割ベースのアクセス制御 (RBAC) グループも作成されます。
 
   - CSAdministrator
 
@@ -179,11 +205,11 @@ _**トピックの最終更新日:** 2015-03-09_
 
   - CsResponseGroupManager
 
-RBAC の役割、および各役割で許可されるタスクの詳細については、「計画」のドキュメントの「[Lync Server 2013 での役割ベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。
+RBAC の役割と、それぞれに対して許可されるタスクの詳細については、計画ドキュメントの「 [Lync Server 2013 での役割ベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。
 
-フォレストの準備では、プライベート ACE とパブリック ACE の両方を作成します。プライベート ACE は、Lync Server で使用されるグローバル設定コンテナーに対して作成されます。このコンテナーは Lync Server のみで使用され、グローバル設定の格納場所によって、ルート ドメイン内の構成コンテナーまたはシステム コンテナーに配置されます。フォレストの準備で作成するパブリック ACE の一覧を次の表に示します。
+フォレストの準備では、プライベート Ace とパブリック Ace の両方が作成されます。 Lync Server によって使用されるグローバル設定コンテナーにプライベート Ace を作成します。 このコンテナーは、Lync Server によってのみ使用され、グローバル設定を保存する場所に応じて、構成コンテナーまたはルートドメイン内のシステムコンテナーのいずれかにあります。 次の表に、フォレストの準備によって作成されたパブリック Ace を示します。
 
-### フォレストの準備で作成するパブリック ACE
+### <a name="public-aces-created-by-forest-preparation"></a>フォレストの準備によって作成されたパブリック Ace
 
 <table>
 <colgroup>
@@ -192,36 +218,54 @@ RBAC の役割、および各役割で許可されるタスクの詳細につい
 </colgroup>
 <thead>
 <tr class="header">
-<th>ACE</th>
+<th>AS</th>
 <th>RTCUniversalGlobalReadOnlyGroup</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ルート ドメインのシステム コンテナーの読み取り (継承されない)<strong>*</strong></p></td>
+<td><p>ルートドメインシステムコンテナーを読み取ります (継承されません)<strong>*</strong></p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="even">
-<td><p>構成の DisplaySpecifiers コンテナーの読み取り (継承されない)</p></td>
+<td><p>構成の DisplaySpecifiers 子コンテナーを読み取ります (継承されません)</p></td>
 <td><p>X</p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]
-> <strong>*</strong> 継承されない ACE では、これらのコンテナーの下の子オブジェクトへのアクセスが許可されません。継承される ACE では、これらのコンテナーの下の子オブジェクトへのアクセスが許可されます。
+<div>
 
 
-フォレストの準備では、構成名前付けコンテキストの下の構成コンテナーで次のタスクを実行します。
+> [!NOTE]  
+> <STRONG>*</STRONG>継承されない Ace は、これらのコンテナーの下にある子オブジェクトへのアクセス権を付与しません。 継承された Ace は、これらのコンテナーの下にある子オブジェクトへのアクセス権を付与します。
 
-  - **RTC property** ページのエントリ **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** を、ユーザー、連絡先、および InetOrgPersons の言語表示指定子の adminContextMenu および adminPropertyPages 属性に追加します (CN=user-Display、CN=409、CN=DisplaySpecifiers など)。
 
-  - User クラスと Contact クラスに適用される **Extended-Rights** に、**controlAccessRight** 型の **RTCPropertySet** オブジェクトを追加します。
 
-  - User、Contact、OU、および DomainDNS クラスに適用される **Extended-Rights** に、**controlAccessRight** 型の **RTCUserSearchPropertySet** オブジェクトを追加します。
+</div>
 
-  - 各言語の組織単位 (OU) の表示指定子の **extraColumns** 属性に **msRTCSIP-PrimaryUserAddress** を追加し (CN=organizationalUnit-Display、CN=409、CN=DisplaySpecifiers など)、既定の表示の **extraColumns** 属性の値をコピーします (CN=default-Display、CN=409、CN=DisplaySpecifiers など)。
+構成コンテナーでは、構成の名前付けコンテキストの下で、フォレストの準備で次のタスクを実行します。
 
-  - **msRTCSIP-PrimaryUserAddress**、**msRTCSIP-PrimaryHomeServer**、および **msRTCSIP-UserEnabled** フィルター属性を、Users、Contacts、および InetOrgPerson オブジェクトの各言語表示指定子の **attributeDisplayNames** 属性に追加します (たとえば英語では、CN=user-Display、CN=409、CN=DisplaySpecifiers など)。
+  - ユーザー、連絡先、InetOrgPersons の言語表示指定子の adminContextMenu 属性と adminPropertyPages 属性の下に、[ **RTC] プロパティ**ページのエントリ **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** を追加します (例: CN =ユーザーによる表示、CN = 409、CN = DisplaySpecifiers 子
+
+  - ユーザークラスと連絡先クラスに適用される**拡張権限**の下に、 **controlaccessright**型の**RTCPropertySet**オブジェクトを追加します。
+
+  - ユーザー、連絡先、OU、および DomainDNS クラスに適用される**拡張権限**の下に、 **controlaccessright**型の**RTCUserSearchPropertySet**オブジェクトを追加します。
+
+  - 各言語の組織単位 (OU) 表示指定子の**extraColumns**属性の下に**Msrtcsip-userenabled true-primaryuseraddress**を追加します (例: CN = ORGANIZATIONALUNIT-display、CN = 409、cn = displayspecifiers 子)。既定の表示の**extraColumns**属性 (たとえば、cn = Default-DISPLAY、cn = 409、Cn = displayspecifiers 子)。
+
+  - ユーザー、連絡先、Msrtcsip-userenabled true の各言語表示指定子の**Attributedisplaynames**属性で、 **-primaryuseraddress**、 **Msrtcsip-userenabled true-PrimaryHomeServer**、および**msrtcsip-userenabled true-userenabled**フィルター属性を追加します。および InetOrgPerson オブジェクト (たとえば、英語: CN = ユーザー表示、CN = 409、CN = DisplaySpecifiers 子)。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

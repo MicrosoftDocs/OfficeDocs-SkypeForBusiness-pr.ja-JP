@@ -1,29 +1,55 @@
-﻿---
-title: ギャラリー ビューの構成
-TOCTitle: ギャラリー ビューの構成
-ms:assetid: 4a609178-47d8-4682-ac8d-29f882801924
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204871(v=OCS.15)
-ms:contentKeyID: 48272007
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ギャラリービューを構成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Gallery View
+ms:assetid: 4a609178-47d8-4682-ac8d-29f882801924
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204871(v=OCS.15)
+ms:contentKeyID: 48184069
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7333c1928bd92dbe6145f238d828e81bbeb3d868
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840245"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ギャラリー ビューの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configuring-gallery-view-in-lync-server-2013"></a>Lync Server 2013 でギャラリービューを構成する
 
-Lync Server 2013 では、会議ポリシーを使用してギャラリー ビューのビデオ会議を構成します。ギャラリー ビューは既定で有効になっています。ギャラリー ビューを許可しない場合、または一部のユーザーにのみ許可する場合は、会議ポリシーを使用して機能を無効にする必要があります。
+</div>
 
-会議参加者のビデオを利用できないときは、Lync Server 2013 の新機能である高解像度の写真を配置すると、ユーザーのギャラリー ビューの操作性を拡張できます。高解像度の写真は、Active Directory ドメイン サービス に格納されている小さく、解像度が制限された連絡先用の写真の代わりとなるものです。高解像度の写真は、ユーザーの Exchange 2013 メールボックスに格納されるため、Lync Server 2013 を Exchange 2013 と統合する必要があります。詳細については、NextHop ブログの記事「Integrating Exchange 2013 and Lync Server 2013」([http://go.microsoft.com/fwlink/?linkid=260987\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=260987%26clcid=0x411)」を参照してください。
+<div id="mainSection">
 
-> [!NOTE]
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-30_
+
+Lync Server 2013 では、会議ポリシーの [ビデオ会議] を構成します。 ギャラリービューは既定でオンになっています。 ギャラリービューを許可しない場合、または一部のユーザーのみに許可する場合は、会議ポリシーのこの機能を無効にする必要があります。
+
+会議参加者のビデオが利用できない場合は、Lync Server 2013 の新機能である高解像度の写真を展開すると、ユーザーのギャラリービューエクスペリエンスが向上します。 高解像度の写真は、Active Directory ドメインサービスに保存されている小型の限定された解像度の連絡先写真の代わりとなるものです。 高解像度の写真はユーザーの Exchange 2013 メールボックスに保存されるため、Lync Server 2013 を Exchange 2013 と統合する必要があります。 詳細については、「NextHop のブログ記事、「Exchange 2013 と Lync Server 2013 の[http://go.microsoft.com/fwlink/p/?LinkId=260987](http://go.microsoft.com/fwlink/p/?linkid=260987)統合」を参照してください。
+
+<div>
+
+
+> [!NOTE]  
 > 各ブログの内容と URL は、将来予告なしに変更されることがあります。
 
 
-Lync Server 2013 コントロール パネルを使用するか、次のコマンドレットの 1 つを使用して、ギャラリー ビューのパラメーターを表示または変更できます。
+
+</div>
+
+ギャラリーの表示パラメーターを表示または変更するには、Lync Server 2013 コントロールパネルを使用するか、次のいずれかのコマンドレットを使用します。
 
   - **Get-CsConferencingPolicy**
 
@@ -31,33 +57,47 @@ Lync Server 2013 コントロール パネルを使用するか、次のコマ�
 
   - **New-CsConferencingPolicy**
 
-次の会議ポリシー設定を使用してギャラリー ビューを構成します。
+以下の会議ポリシー設定を使用して、ギャラリービューを構成します。
 
-  - **AllowMultiview**   このパラメーターでは、ユーザーがギャラリー ビューのビデオ会議を開催できるかどうかを管理します。このパラメーターは、ユーザーによって作成されたケジュール済みの会議および臨時の会議に適用されます。
+  - **AllowMultiview**   このパラメーターは、ユーザーがギャラリービューのビデオ会議を整理することを許可されているかどうかを制御します。 このパラメーターは、ユーザーが作成したスケジュールされた会議と臨時の会議に適用されます。
     
-    例:
+    たとえば
     
-      - Lync Server 2013 プールに所属するユーザー A については、このパラメーターは True に設定されます。ユーザー A が開催する会議では、ユーザーは会議に参加し複数のビデオ ストリームを受信できます。
+      - ユーザー A が Lync Server 2013 プールをホームにしている場合は、このパラメーターを True に設定します。 ユーザーによって開催された会議複数のビデオストリームの参加と受信を可能にします。
     
-      - Lync Server 2013 プールに所属するユーザー B については、このパラメーターは False に設定されます。ユーザー B が開催する会議では、Lync Server 2010 が提供するビデオ会議エクスペリエンスと同様に単一のビデオ ストリームを使用します。
+      - ユーザー B が Lync Server 2013 プールをホームにしている場合は、このパラメーターを False に設定します。 ユーザー B によって開催された会議には、Lync Server 2010 によって提供されるビデオ会議エクスペリエンスに似た1つのビデオストリームがあります。
     
-    このパラメーターにより、複数のビデオ ストリームが許可される会議を開催できるユーザーが決定します。複数のビデオ ストリームが許可される会議の参加者は、個々のアクセス許可に応じて、複数のビデオ ストリームを受信できたりできなかったりします (EnableMultiviewJoin パラメーターの説明を参照してください)。
+    このパラメーターは、複数のビデオストリームを許可する会議を開催できるユーザーを指定します。 複数のビデオストリームを許可する会議の参加者は、個別のアクセス許可に基づいて複数のビデオストリームを受信することは許可されない場合があります (EnableMultiviewJoin パラメーターの説明を参照してください)。
 
-  - **EnableMultiviewJoin**   このパラメーターでは、会議の参加者が、ギャラリー ビューのビデオ エクスペリエンスが許可されている会議でギャラリー ビューのビデオ エクスペリエンスを受け入れるかどうかを管理します。このパラメーターは、ユーザーが参加する会議でのユーザー エクスペリエンスを管理します。
+  - **EnableMultiviewJoin**   このパラメーターは、会議の参加者が、会議で許可されているギャラリーの表示ビデオエクスペリエンスを受け取るかどうかを制御します。 このパラメーターは、ユーザーが参加している会議でのユーザーエクスペリエンスを制御します。
     
-    例:
+    たとえば
     
-      - ユーザー C については、このパラメーターは True に設定されます。ユーザー Ｃ は、ユーザー A が開催または開始した会議に参加しているときは、複数のビデオ ストリームを受信できます。ユーザー C は、ユーザー B が開催または開始した会議に参加しているときは、Lync Server 2010 が提供するビデオ会議エクスペリエンスと同様に単一のビデオ ストリームを受信します。
+      - ユーザー c の場合、このパラメーターは True に設定されます。ユーザー A は、会議に参加している場合、またはユーザー A が開始した場合に、複数のビデオストリームを受け取ることができます。ユーザー C は、Lync Server 2010 によって提供されるビデオ会議と同様のビデオストリームを1つ受信します。ユーザー B によって開催または開始された会議への参加。
     
-      - ユーザー D については、このパラメータは False に設定されます。ユーザー D は、ユーザー A またはユーザー B が開催した会議に参加しているときは、Lync Server 2010 が提供するビデオ会議エクスペリエンスと同様に単一のビデオ ストリームを受信します。
+      - ユーザー D の場合、このパラメーターは False に設定されます。ユーザー D は、ユーザー A またはユーザー B によって開催された会議に参加しているときに、Lync Server 2010 によって提供されるビデオ会議エクスペリエンスと同様の単一のビデオストリームを受け取ります。
 
-次の手順は、Lync Server 管理シェルを使用してギャラリー ビューのビデオ会議を有効にします。
+次の手順では、Lync Server 管理シェルを使って、ギャラリービューのビデオ会議を有効にする例を示します。
 
-## ギャラリー ビューのビデオ会議用の会議ポリシーを変更するには
+<div>
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+## <a name="to-modify-conferencing-policy-for-gallery-view-video-conferencing"></a>ギャラリービューのビデオ会議用の会議ポリシーを変更するには
 
-2.  コマンド ラインで次のコマンドレットを実行して、会議ポリシーを編集します。
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+
+2.  コマンドラインで、次のコマンドレットを実行して会議ポリシーを編集します。
     
-        Set-CsConferencingPolicy -Identity Pool01ConferencingPolicy -AllowMultiview $true -EnableMultiviewJoin $true
+        Set-CsConferencingPolicy -Identity Pool01ConferencingPolicy -AllowMultiview $true -EnableMultiviewJoin $true 
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,35 +1,75 @@
-﻿---
-title: SNMP アプリケーションの構成
-TOCTitle: SNMP アプリケーションの構成
-ms:assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412972(v=OCS.15)
-ms:contentKeyID: 48273531
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: SNMP アプリケーションを構成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure an SNMP application
+ms:assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412972(v=OCS.15)
+ms:contentKeyID: 48185346
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a15a911abc614ff30c4130fb2a35886458fcb1dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840431"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# SNMP アプリケーションの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-03_
+# <a name="configure-an-snmp-application-in-lync-server-2013"></a>Lync Server 2013 での SNMP アプリケーションの構成
 
-Lync Server 2013には、場所情報サービスを簡易ネットワーク管理プロトコル (SNMP) アプリケーションに接続するときに使用できる標準の Web サービス インターフェイスが組み込まれています。SNMP アプリケーションは、MAC アドレスをポートおよびスイッチの情報と照合します。
+</div>
 
-SNMP アプリケーションがインストールされているが、場所情報サービスが、場所データベース内で一致する情報を見つけられない場合、クライアントによって示される MAC アドレスを使用して、自動的にアプリケーションについて照会します。次に場所情報サービスは、SNMP アプリケーションによって戻されたポートおよびスイッチ情報を使用して、場所データベースに再照会します。
+<div id="mainSection">
 
-詳細については、「[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)」を参照してください。
+<div id="mainBody">
 
-> [!NOTE]
-> MAC アドレスは、Windows 8を実行しているコンピューター上では使用できません。
+<span> </span>
+
+_**最終更新日:** 2012-10-03_
+
+Lync Server 2013 には標準の web サービスインターフェイスが含まれています。これを使用すると、場所情報サービスを、MAC アドレスとポートおよびスイッチ情報を照合する SNMP (簡易ネットワーク管理プロトコル) アプリケーションに接続することができます。
+
+SNMP アプリケーションがインストールされていて、位置情報サービスが位置情報データベースで一致を見つけることができなかった場合、位置情報サービスは、クライアントから提供された MAC アドレスを使ってアプリケーションを自動的に照会します。 次に、位置情報サービスは、SNMP アプリケーションによって返されるポートとスイッチの情報を使用して、位置情報データベースをもう一度照会します。
+
+詳細については、「 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)」を参照してください。
+
+<div>
 
 
-## SNMP アプリケーションの URL を構成するには
+> [!NOTE]  
+> MAC アドレスは、Windows 8 を実行しているコンピューターでは使用できません。
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+
+
+</div>
+
+<div>
+
+## <a name="to-configure-the-snmp-application-url"></a>SNMP アプリケーションの URL を構成するには
+
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 2.  次のコマンドレットを使用して SNMP アプリケーションの URL を構成します。
     
-        Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>"
+        Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

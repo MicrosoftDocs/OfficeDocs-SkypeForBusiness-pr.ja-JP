@@ -1,51 +1,89 @@
-﻿---
-title: Lync Server 2013 でのユーザー単位のホスト ボイス メール ポリシーの作成
-TOCTitle: Lync Server 2013 でのユーザー単位のホスト ボイス メール ポリシーの作成
-ms:assetid: 39018a7c-e0c3-46a2-be4e-05604ec67a50
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425867(v=OCS.15)
-ms:contentKeyID: 48271793
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ユーザーごとにホストされるボイスメールポリシーを作成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a per-user hosted voice mail policy
+ms:assetid: 39018a7c-e0c3-46a2-be4e-05604ec67a50
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425867(v=OCS.15)
+ms:contentKeyID: 48183902
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d09638c28c1cbd2b068972aff169376508325885
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840077"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのユーザー単位のホスト ボイス メール ポリシーの作成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-24_
+# <a name="create-a-per-user-hosted-voice-mail-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザーごとにホストされるボイスメールのポリシーを作成する
 
-ユーザー単位のポリシーは、個々のユーザー、グループ、および連絡先オブジェクトにのみ影響します。ユーザー単位のポリシーを展開するには、ポリシーを 1 つ以上のユーザー、グループ、または連絡先オブジェクトに明示的に割り当てる必要があります。詳細については、「[Lync Server 2013 でのユーザー単位のホスト ボイス メール ポリシーの割り当て](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)」を参照してください。
+</div>
 
-ユーザー単位のホスト ボイス メール ポリシーを操作する方法の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
+<div id="mainSection">
 
-  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
+<div id="mainBody">
 
-  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
+<span> </span>
 
-  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
+_**最終更新日:** 2012-09-24_
 
-## ユーザー単位のホスト ボイス メール ポリシーを作成するには
+*ユーザーごと*のポリシーは、個々のユーザー、グループ、連絡先オブジェクトにのみ影響を与える可能性があります。 ユーザーごとのポリシーを展開するには、ポリシーを1つ以上のユーザー、グループ、または連絡先オブジェクトに明示的に割り当てる必要があります。 詳細については、「 [Lync Server 2013 でユーザーごとにホストされるボイスメールのポリシーを割り当てる](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)」を参照してください。
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+ユーザーごとにホストされるボイスメールポリシーの使用について詳しくは、次のコマンドレットの Lync Server 管理シェルに関するドキュメントをご覧ください。
 
-2.  New-CsHostedVoicemailPolicy コマンドレットを実行して、ポリシーを作成します。たとえば、以下を実行します。
+  - [新規-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
+
+  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy)
+
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsHostedVoicemailPolicy)
+
+<div>
+
+## <a name="to-create-a-per-user-hosted-voice-mail-policy"></a>ユーザーごとにホストされるボイスメールポリシーを作成するには
+
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+
+2.  CsHostedVoicemailPolicy コマンドレットを実行して、ポリシーを作成します。 たとえば、以下を実行します。
     
         New-CsHostedVoicemailPolicy -Identity ExRedmond -Destination ExUM.fabrikam.com -Description "Hosted voice mail policy for Redmond users." -Organization "corp1.litwareinc.com, corp2.litwareinc.com"
     
-    前の例では、ユーザー単位のスコープを使用してホスト ボイス メール ポリシーを作成し、次のパラメーターを設定しています。
+    上の例では、ホストされたボイスメールポリシーをユーザーごとのスコープで作成し、次のパラメーターを設定します。
     
-      - **Identity** では、ポリシーの一意の識別子を指定します。これにはスコープも含まれます。 ユーザー単位のスコープを使用するポリシーの場合、このパラメーター値には単純な文字列 (ExRedmond など) を指定します。
+      - **Id**は、スコープを含むポリシーの一意の識別子を指定します。 ユーザーごとのスコープを持つポリシーの場合、このパラメーター値は単純な文字列 (ExRedmond など) として指定されます。
     
-      - **Destination** では、Hosted Exchange UM サービスの完全修飾ドメイン名 (FQDN) を指定します。このパラメーターは省略可能ですが、ユーザーに割り当てられているポリシーで送信先の値が設定されていないと、ユーザーのホスト ボイス メールを有効にしようとしても失敗します。
+      - [ **Destination** ] は、ホストされた Exchange UM サービスの完全修飾ドメイン名 (FQDN) を指定します。 このパラメーターは省略可能ですが、ホストされたボイスメールに対してユーザーを有効にしようとしても、ユーザーに割り当てられているポリシーに送信先の値がない場合、有効にすることはできません。
     
-      - **Description** では、ポリシーに関する説明情報を指定します (オプション)。
+      - **説明**ポリシーに関するオプションの説明情報を提供します。
     
-      - **Organization** では、Lync Server 2013 ユーザーが所属する Exchange テナントのコンマ区切り一覧を指定します。各テナントは、Hosted Exchange UM サービス上のテナントの FQDN として指定する必要があります。
+      - [**組織**] は、Lync Server 2013 のホームユーザーである Exchange テナントのコンマ区切りリストを指定します。 各テナントは、ホストされた Exchange UM サービスでそのテナントの FQDN として指定する必要があります。
 
-## 関連項目
+</div>
 
-#### タスク
+<div>
 
-[Lync Server 2013 でのユーザー単位のホスト ボイス メール ポリシーの割り当て](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でユーザーごとにホストされるボイスメールのポリシーを割り当てる](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

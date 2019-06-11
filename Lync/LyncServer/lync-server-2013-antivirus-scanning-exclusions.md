@@ -1,31 +1,67 @@
-﻿---
-title: 'Lync Server 2013: ウイルス スキャン除外範囲'
-TOCTitle: Lync Server 2013 用のウイルス スキャン除外範囲
-ms:assetid: 71e1f1cc-2d16-4111-9864-9276bf24dfe0
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn440138(v=OCS.15)
-ms:contentKeyID: 59602753
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ウイルス スキャン除外範囲'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Antivirus scanning exclusions for Lync Server 2013
+ms:assetid: 71e1f1cc-2d16-4111-9864-9276bf24dfe0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440138(v=OCS.15)
+ms:contentKeyID: 57793042
+ms.date: 11/03/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e6f354b93bf21f054e9b5b24e3befd1787279bbe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841038"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 用のウイルス スキャン除外範囲
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-11-02_
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013 用のウイルス スキャン除外範囲
 
-ウイルス検出プログラムが Lync Server 2013 の動作を妨げないようにするには、ウイルス検出プログラムの実行対象となる Lync Server 2013 のサーバーまたはサーバーの役割のそれぞれで、特定のプロセスおよびディレクトリを除外する必要があります。除外が必要なプロセスとディレクトリを以下に示します。
+</div>
 
-> [!NOTE]
-> 次のフォルダーとファイルの場所は、 Lync Server 2013 の既定の場所です。既定の設定を使用しなかったすべての場所については、ここに示す既定の場所の代わりに、組織で指定した場所を除外してください。
+<div id="mainSection">
 
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2015-11-02_
+
+ウイルス対策スキャナーが Lync Server 2013 の動作を妨害しないようにするには、ウイルススキャンを実行している Lync Server 2013 サーバーまたはサーバーの役割ごとに、特定のプロセスとディレクトリを除外する必要があります。 除外が必要なプロセスとディレクトリを以下に示します。
+
+<div>
+
+
+> [!NOTE]  
+> 次に示すフォルダーとファイルの場所は、Lync Server 2013 の既定の場所です。 既定の設定を使用しなかったすべての場所については、ここに示す既定の場所の代わりに、組織で指定した場所を除外してください。
+
+
+
+</div>
+
+<div>
+
+
+> [!IMPORTANT]  
+> 一部のウイルス対策プログラムでは、除外リストに相対パスでなく絶対パスが必要な場合があります。
+
+
+
+</div>
 
   - Lync Server 2013 のプロセス:
     
       - ABServer.exe
     
-      - AcpMcuSvc.exe
+      - AcpMcuSvc
     
       - ASMCUSvc.exe
     
@@ -79,43 +115,53 @@ _**トピックの最終更新日:** 2015-11-02_
 
   - IIS のプロセス:
     
-      - %systemroot%\\system32\\inetsrv\\w3wp.exe
+      - % systemroot%\\system32\\inetsrv\\w3wp
     
-      - %systemroot%\\SysWOW64\\inetsrv\\w3wp.exe
+      - % systemroot%\\SysWOW64\\inetsrv\\は、w3wp
 
   - SQL Server バックエンドのプロセス:
     
-      - %ProgramFiles%\\Microsoft SQL Server\\MSSQL11.MSSQLSERVER\\MSSQL\\Binn\\SQLServr.exe
+      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。MSSQLSERVER\\MSSQL\\Binn\\sqlservr.exe
     
-      - %ProgramFiles%\\Microsoft SQL Server\\MSRS11.MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\ReportingServicesService.exe
+      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11。MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\reportingサービスの service .exe
     
-      - %ProgramFiles%\\Microsoft SQL Server\\MSAS11.MSSQLSERVER\\OLAP\\Bin\\MSMDSrv.exe
+      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11。MSSQLSERVER\\OLAP\\Bin\\MSMDSrv
 
   - SQL Server フロントエンドのプロセス:
     
-      - %ProgramFiles%\\Microsoft SQL Server\\MSSQL11.LYNCLOCAL\\MSMQL\\Binn\\SQLServr.exe
+      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。LYNCLOCAL\\MSSQL\\Binn\\sqlservr.exe
     
-      - %ProgramFiles%\\Microsoft SQL Server\\MSSQL11.RTCLOCAL\\MSMQL\\Binn\\SQLServr.exe
+      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。RTCLOCAL\\MSSQL\\Binn\\sqlservr.exe
 
   - ディレクトリとファイル:
     
-      - %systemroot%\\System32\\LogFiles
+      - % systemroot%\\System32\\ログのログ
     
-      - %systemroot%\\SysWow64\\LogFiles
+      - % systemroot%\\SysWow64\\ログ
     
-      - %systemroot%\\Microsoft.NET\\assembly\\GAC\_MSIL
+      - % systemroot%\\Microsoft.NET\\assembly\\GAC\_MSIL
     
-      - %programfiles%\\Microsoft Lync Server 2013
+      - % programfiles%\\Microsoft Lync Server 2013
     
-      - %programfiles%\\Common Files\\Microsoft Lync Server 2013\\Watcher Node
+      - % programfiles%\\共通ファイル\\Microsoft Lync Server 2013\\ウォッチャーノード
     
-      - %programfiles%\\Common Files\\Microsoft Lync Server 2013
+      - % programfiles%\\(共通\\ファイル Microsoft Lync Server 2013)
     
-      - %SystemDrive%\\RtcReplicaRoot
+      - % SystemDrive%\\RtcReplicaRoot
     
-      - ファイル共有ストア (トポロジ ビルダーで指定)。ファイル ストアはトポロジ ビルダーで指定されています。
+      - ファイル共有ストア (トポロジ ビルダーで指定)。 ファイル ストアはトポロジ ビルダーで指定されています。
     
-      - SQL Server のデータおよびログ ファイル (バックエンド データベース、ユーザー ストア、アーカイブ ストア、監視ストア、およびアプリケーション ストア用のものを含みます)。データベースとログ ファイルは、トポロジ ビルダーで指定できます。既定の名前など、各データベースのデータおよびログ ファイルの詳細については、展開のドキュメントの「[Lync Server 2013 の SQL Server データとログ ファイルの配置](lync-server-2013-sql-server-data-and-log-file-placement.md)」を参照してください。
+      - SQL Server のデータおよびログ ファイル (バックエンド データベース、ユーザー ストア、アーカイブ ストア、監視ストア、およびアプリケーション ストア用のものを含みます)。 データベースとログ ファイルは、トポロジ ビルダーで指定できます。 既定の名前など、各データベースのデータファイルとログファイルの詳細については、「 [SQL server のデータと、Lync Server 2013 用のログファイルの配置](lync-server-2013-sql-server-data-and-log-file-placement.md)」を参照してください。
     
-      - SQL Server のデータおよびログ ファイル (フロントエンド データベース、Lync ストアおよび RtcDatabase ストア用のものを含みます)。これらは通常、%localdrive%\\CSData の下位にあります。
+      - SQL Server のデータファイルとログファイル (フロントエンドデータベース、Lync ストア、および RtcDatabase store のものを含む)。 通常、% localdrive%\\csdata の下にあります。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

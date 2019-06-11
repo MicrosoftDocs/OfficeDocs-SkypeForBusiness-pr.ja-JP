@@ -1,61 +1,99 @@
-﻿---
-title: "Lync Server 2013 と Exchange Server 2013 のパートナー アプリケーションの構成"
-TOCTitle: "Lync Server 2013 と Exchange Server 2013 のパートナー アプリケーションの構成"
-ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688151(v=OCS.15)
-ms:contentKeyID: 49887070
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 および Exchange Server 2013 でパートナーアプリケーションを構成する
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring partner applications in Lync Server 2013 and Exchange Server 2013
+ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688151(v=OCS.15)
+ms:contentKeyID: 49733754
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3dad815a67dafea510513e334c910a5dbb8a2e82
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840199"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 のパートナー アプリケーションの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configuring-partner-applications-in-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 でパートナーアプリケーションを構成する
 
-サーバー間認証には、通常、3 つのエンティティが関与します。相互に通信する必要がある 2 つのサーバーと、サードパーティのセキュリティ トークン サーバーです。通信する必要がある 2 つのサーバー (サーバー A とサーバー B など) は、通常、最初にトークン サーバーに接続して、相互に信頼されたセキュリティ トークンを取得します。そのセキュリティ トークンが、サーバーが本物であり、信頼できることを保証するための手段として、一方のサーバーからもう一方のサーバー (サーバー A からサーバー B、またはサーバー B からサーバー A) に提示されます。
+</div>
 
-ただし、それは一般的な場合です。Lync Server 2013、Microsoft Exchange Server 2013、および Microsoft SharePoint Server 2013 では、相互に通信する際にサードパーティのトークン サーバーを使用する必要はありません。これらのサーバー製品では、独立したトークン サーバーを使用せずに相互に受け入れ可能なセキュリティ トークンを作成できるからです (この機能を使用できるのは、Lync Server 2013、Exchange 2013、および SharePoint Server 2013 のみです。その他のサーバー (マイクロソフトのその他のサーバー製品を含む) とのサーバー間認証を設定する必要がある場合は、サードパーティのトークン サーバーを使用する必要があります)。
+<div id="mainSection">
 
-Lync Server と Exchange の間でサーバー間認証を設定するには、次の 2 つの作業を行う必要があります。1) 各サーバーに適切な証明書を割り当てる必要があります。2) 各サーバーをもう一方のサーバーのパートナー アプリケーションとして構成する必要があります (つまり、Lync Server 2013 を Exchange 2013 のパートナー アプリケーションとして構成し、Exchange 2013 を Lync Server 2013 のパートナー アプリケーションとして構成する必要があります)。
+<div id="mainBody">
 
-## Lync Server 2013 を Exchange 2013 のパートナー アプリケーションとして構成する
+<span> </span>
 
-Lync Server 2013 を Exchange 2013 のパートナー アプリケーションとして構成するには、Configure-EnterprisePartnerApplication.ps1 スクリプトを実行するのが最も簡単です。これは、Exchange 2013 に付属の Windows PowerShell スクリプトです。このスクリプトを実行するには、Lync Server の認証メタデータ ドキュメントの URL を指定する必要があります。これは通常、SharePoint プールの完全修飾ドメイン名に /metadata/json/1 というサフィックスを追加したものになります。次に例を示します。
+_**最終更新日:** 2012-11-12_
+
+サーバー間認証には、通常、相互に通信する必要がある2つのサーバーと、サードパーティのセキュリティトークンサーバーという3つのエンティティが含まれます。 2つのサーバー (サーバー A とサーバー B など) が通信する必要がある場合は、通常、これらの両方のサーバーが、トークンサーバーに連絡して、相互に信頼されたセキュリティトークンを取得することから始まります。 サーバー A は、そのセキュリティトークンをサーバー B に提示し (その逆も可能)、信頼性と信頼性の両方を保証する手段として提供されます。
+
+ただし、それは一般的な場合です。 Lync Server 2013、Microsoft Exchange Server 2013、および Microsoft SharePoint Server 2013 は、相互に通信するときに、サードパーティのトークンサーバーを使用する必要はありません。これは、これらのサーバー製品では、個別のトークンサーバーを必要とせずに、相互に受け入れ可能なセキュリティトークンを作成できるためです。 (この機能は、Lync Server 2013、Exchange 2013、および SharePoint Server 2013 でのみ利用できます。 その他のサーバー (マイクロソフトのその他のサーバー製品を含む) とのサーバー間認証を設定する必要がある場合は、サードパーティのトークン サーバーを使用する必要があります)。
+
+Lync Server と Exchange の間のサーバー間認証をセットアップするには、次の2つの操作を行う必要があります。 1) 各サーバーに適切な証明書を割り当てる必要があります。さらに、2) 各サーバーを他のサーバーのパートナーアプリケーションとして構成する必要があります。つまり、このため、Lync server 2013 を Exchange 2013 のパートナーアプリケーションとして構成する必要があります。つまり、lync Server 2013 のパートナーアプリケーションとなるように Exchange 2013 を構成する必要があります。
+
+<div>
+
+## <a name="configuring-lync-server-2013-to-be-a-partner-application-for-exchange-2013"></a>Lync Server 2013 を Exchange 2013 のパートナーアプリケーションとして構成する
+
+Lync Server 2013 を Exchange 2013 のパートナーアプリケーションとして構成するには、Configure-EnterprisePartnerApplication スクリプトを実行するのが最も簡単な方法です。これには、Exchange 2013 に付属する Windows PowerShell スクリプトを使用します。 このスクリプトを実行するには、Lync Server authentication metadata ドキュメントの URL を指定する必要があります。通常、これは Lync Server 2013 プールの完全修飾ドメイン名の後にサフィックス/metadata/json/1. が表示されます。 次に例を示します。
 
     https://atl-cs-001.litwareinc.com/metadata/json/1
 
-Lync Server をパートナー アプリケーションとして構成するには、Exchange 管理シェルを開いて次のようなコマンドを実行します (Exchange がドライブ C: にインストールされていて既定のフォルダー パスが使用されている場合)。
+パートナーアプリケーションとして Lync Server を構成するには、Exchange 管理シェルを開き、次のようなコマンドを実行します (Exchange がドライブ C にインストールされていること、および既定のフォルダーパスを使用していることを前提としています)。
 
     "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-cs-001.litwareinc.com/metadata/json/1' -ApplicationType Lync"
 
-パートナー アプリケーションの構成が完了したら、Exchange のメールボックス サーバーとクライアント アクセス サーバーでインターネット インフォメーション サービス (IIS) を停止して再起動することをお勧めします。IIS を再起動するには次のようなコマンドを使用します。このコマンドは、コンピューター atl-exchange-001 でこのサービスを再起動します。
+パートナーアプリケーションを構成した後、Exchange メールボックスとクライアントアクセスサーバーでインターネットインフォメーションサービス (IIS) を停止して再起動することをお勧めします。 次のようなコマンドを使用して、IIS を再起動することができます。これは、コンピューターの atl-exchange-001 のサービスを再起動します。
 
     iisreset atl-exchange-001
 
-このコマンドは、Exchange 管理シェルから実行することも、管理者特権で実行されている他の任意のコマンド ウィンドウから実行することもできます。
+このコマンドは、Exchange 管理シェルから、または他のコマンドウィンドウで、管理者特権で実行できます。
 
-## Exchange 2013 を Lync Server 2013 のパートナー アプリケーションとして構成する
+</div>
 
-Lync Server 2013 を Exchange 2013 のパートナー アプリケーションとして構成したら、次に、Exchange を Lync Server のパートナー アプリケーションとして構成する必要があります。そのためには、Lync Server 管理シェルを使用して、Exchange の認証メタデータ ドキュメントを指定します。これは通常、Exchange 自動検出サービスの URI にサフィックス /metadata/json/1 を追加したものになります。次に例を示します。
+<div>
+
+## <a name="configuring-exchange-2013-to-be-a-partner-application-for-lync-server-2013"></a>Lync Server 2013 のパートナーアプリケーションとなるように Exchange 2013 を構成する
+
+Lync Server 2013 を Exchange 2013 のパートナーアプリケーションとして構成した後、Lync Server のパートナーアプリケーションとなるように Exchange を構成する必要があります。 この操作を行うには、Lync Server 管理シェルを使用し、Exchange の認証メタデータドキュメントを指定します。通常、これは Exchange 自動検出サービスの URI に続けてサフィックス/metadata/json/1. を指定します。 次に例を示します。
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-Lync Server では、[New-CsPartnerApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPartnerApplication) コマンドレットを使用してパートナー アプリケーションを構成します。メタデータの URI を指定するほかに、アプリケーションの信頼レベルを Full に設定する必要もあります。これにより、Exchange が領域内で自身と承認済みユーザーの両方を表すことができるようになります。次に例を示します。
+Lync Server では、[新しい-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204628(v=OCS.15))コマンドレットを使用してパートナーアプリケーションを構成します。 メタデータ URI の指定に加えて、アプリケーションの信頼レベルも完全に設定する必要があります。これにより、Exchange は、レルム内の権限を持つすべてのユーザーを表すことができます。 次に例を示します。
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 
-また、Lync Server 2013 のサーバー間認証のドキュメントに含まれているスクリプト コードをコピーして変更することによってパートナー アプリケーションを作成することもできます。詳細については、「[Lync Server 2013 でのサーバー間認証 (Oauth) およびパートナー アプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。
+または、Lync Server 2013 サーバー間認証のドキュメントにあるスクリプトコードをコピーして変更することで、パートナーアプリケーションを作成することもできます。 詳細については、「 [Lync server 2013 でサーバー間認証 (OAuth) とパートナーアプリケーションを管理する](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。
 
-Lync Server と Exchange の両方のパートナー アプリケーションの構成が完了したら、この 2 つの製品間のサーバー間認証の構成が完了したことになります。Lync Server 2013 に含まれている [Test-CsExStorageConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExStorageConnectivity) という Windows PowerShell コマンドレットを使用すると、サーバー間認証が正しく構成されているかどうかと、Lync Server ストレージ サービスが Exchange 2013 に接続できるかどうかを確認できます。これは、Exchange 2013 ユーザーのメールボックスに接続し、そのユーザーの会話履歴フォルダーに項目を書き込むことによって行われます。必要に応じてその項目を削除することもできます。
+Lync Server と Exchange の両方にパートナーアプリケーションを正しく設定した場合、2つの製品間のサーバー間認証も正常に構成されていることを意味します。 Lync Server 2013 には、Windows PowerShell コマンドレット[CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))が含まれています。これにより、サーバー間の認証が正しく構成されていること、および Lync Server ストレージサービスが Exchange に接続できることを確認できます。2013。 このコマンドレットでは、Exchange 2013 ユーザーのメールボックスに接続し、そのユーザーの [会話履歴] フォルダーにアイテムを書き込んで、必要に応じてそのアイテムを削除します。
 
-Lync Server 2013 と Exchange 2013 の統合をテストするには、Lync Server 管理シェルから次のようなコマンドを実行します。
+Lync server 2013 と Exchange 2013 の統合をテストするには、Lync Server 管理シェルで次のようなコマンドを実行します。
 
     Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 
-上のコマンドの SipUri は、Exchange 2013 のアカウントを持つユーザーの SIP アドレスを表します。これが有効なユーザー アカウントでない場合、このコマンドは失敗します。
+上記のコマンドでは、Si24> は Exchange 2013 上のアカウントを持つユーザーの SIP アドレスを表します。このコマンドは、無効なユーザアカウントであるため失敗します。
 
 テストが成功して、接続が確立されたら、オプション機能 (アーカイブの統合、統合連絡先ストアなど) を構成できます。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

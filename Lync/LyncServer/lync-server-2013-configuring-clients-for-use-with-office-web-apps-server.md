@@ -1,23 +1,53 @@
-﻿---
-title: Office Web Apps サーバーで使用するクライアントの構成
-TOCTitle: Office Web Apps サーバーで使用するクライアントの構成
-ms:assetid: e5eaead7-0b32-42fb-97eb-ca203af59a9d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205339(v=OCS.15)
-ms:contentKeyID: 48273890
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Office Web Apps サーバーを使用するためのクライアントの構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring clients for use with Office Web Apps Server
+ms:assetid: e5eaead7-0b32-42fb-97eb-ca203af59a9d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205339(v=OCS.15)
+ms:contentKeyID: 48185668
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 263f53b61aa609c4385af2a9646bf84da2dea3cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840273"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Office Web Apps サーバーで使用するクライアントの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-25_
+# <a name="configuring-clients-of-lync-server-2013-for-use-with-office-web-apps-server"></a>Lync Server 2013 のクライアントで Office Web Apps サーバーを使用するように構成する
 
-Office Web App Server のフル機能をユーザーに体験してもらいたい場合は、ユーザーを Microsoft Lync 2013にアップグレードする必要があります。Lync 2013のユーザーのみが、実際の PowerPoint プレゼンテーションに関係なく PowerPoint スライドをスクロールすることなどが行えます (つまり、実際のプレゼンテーションにいかなる方法でも干渉せずに、プレゼンテーションのスライドをいつでも見ることができます)。Lync 2013を使用していないユーザーは、引き続きオンライン会議に参加したり、PowerPoint プレゼンテーションを閲覧できますが、スライドを別個にスクロールしたり、スライドの変遷を閲覧したり、埋め込まれたビデオを視聴したりすることはできません。
+</div>
 
-Lync 2013 のユーザーはこれらの機能を常に使用できることに注意してください。これは、PowerPoint 発表者が Microsoft Lync 2010 を実行している場合でも当てはまります。PowerPoint プレゼンテーションが Lync 2010 を実行しているユーザーにホストされている場合、Lync Server 2013 は Office Web Apps Server と連携して、Lync 2013 のユーザーにそのプレゼンテーションの Office Web Apps Server バージョンが表示されるようにします。Office Web Apps Server は、Lync 2013 以外のクライアントを実行しているユーザーに PowerPoint サービスを提供しません。その代わり、それらのユーザーは、Microsoft Lync Server 2010 で行った同じ方法で会議サーバー サービスに接続し、PowerPoint プレゼンテーションを閲覧します。つまり、これらのユーザーは、Lync Server 2010 によって提供されるより制限された機能へのアクセスのみが可能です。
+<div id="mainSection">
 
-Office Web Apps Server では、クライアント構成が不要ですが (ユーザーを Lync 2013にアップグレードすること以外)、会議出席者を Internet Explorer 9 にアップグレードすることをお勧めします。Internet Explorer 8 を使用して会議にアクセスできますが、この Web ブラウザーの使用にはいくつかの制限があります。たとえば、Internet Explorer 8 のユーザーは、PowerPoint ステージをカスタム サイズに変更できません。代わりに、事前設定された 3 つのステージ サイズのいずれかを使用するように制限されています。同様に、Internet Explorer 8 のユーザーはメディア ファイルを再生できません。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-25_
+
+ユーザーが Office Web App Server の全機能を使用できるようにする場合は、これらのユーザーを Microsoft Lync 2013 にアップグレードする必要があります。Lync 2013 のユーザーのみが、実際の PowerPoint プレゼンテーションに依存しない PowerPoint スライドをスクロールして、そのような作業を行うことができます。 (つまり、これらのユーザーはプレゼンテーションの任意のスライドをいつでも見ることができ、実際のプレゼンテーションに影響を及ぼすことはありません)。Lync 2013 を使っていないユーザーは、引き続きオンライン会議に参加し、PowerPoint プレゼンテーションを表示することができます。ただし、それらのユーザーはスライドを個別にスクロールすることはできません。また、スライドの画面切り替えを表示したり、埋め込みビデオを表示したりすることはできません。
+
+これらの機能は、Lync 2013 のユーザーがいつでも利用できることに注意してください。これは、PowerPoint の発表者が Microsoft Lync 2010 を実行している場合でも同様です。 PowerPoint プレゼンテーションが Lync 2010 を実行しているユーザーによってホストされている場合、lync Server 2013 では Office Web Apps サーバーを使用して、Lync 2013 ユーザーに Office Web Apps サーバーバージョンのプレゼンテーションが表示されるようにします。 Office Web Apps サーバーは、Lync 2013 以外のクライアントを実行しているユーザー向けの PowerPoint サービスを提供していません。 代わりに、これらのユーザーは会議サーバーサービスに接続し、Microsoft Lync Server 2010 と同じように PowerPoint プレゼンテーションを表示します。 また、これらのユーザーは、Lync Server 2010 によって提供される制限のある機能にのみアクセスできます。
+
+Office Web Apps Server にはクライアントの構成は必要ありませんが (ユーザーを Lync 2013 にアップグレードすることはできません)、会議の出席者が Internet Explorer 9 にアップグレードすることをお勧めします。 電話会議には、Internet Explorer 8 を使ってアクセスできますが、その Web ブラウザーの使用にはいくつかの制限があります。 たとえば、Internet Explorer 8 のユーザーは、PowerPoint ステージのサイズをユーザー設定のサイズに変更することはできません。代わりに、3つの定義済みステージサイズのいずれかを使用するように制限されます。 同様に、Internet Explorer 8 ユーザーがメディアファイルを再生することはできません。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

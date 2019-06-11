@@ -1,33 +1,53 @@
-﻿---
-title: ConferenceJoinTimeThresholds テーブル
-TOCTitle: ConferenceJoinTimeThresholds テーブル
-ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204809(v=OCS.15)
-ms:contentKeyID: 48271792
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ConferenceJoinTimeThresholds テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceJoinTimeThresholds table
+ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204809(v=OCS.15)
+ms:contentKeyID: 48183855
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 66793cc3bd545d343198d00f7fb477c1f9b88fac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840489"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ConferenceJoinTimeThresholds テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a>Lync Server 2013 の ConferenceJoinTimeThresholds テーブル
 
-ConferenceJoinTimeThresholds テーブルには、電話会議参加時間要約レポートによって使用される分類境界が含まれます。電話会議参加時間要約レポートは、ユーザーが問題なく電話会議に参加する目的で必要な時間を集計します。これらの時間値は、平均と、以下のカテゴリの 1 つの両方で報告されます。
+</div>
 
-  - 2 秒未満。
+<div id="mainSection">
 
-  - 2 ～ 5 秒の間。
+<div id="mainBody">
 
-  - 5 ～ 10 秒の間。
+<span> </span>
 
-  - 10 秒以上。
+_**最終更新日:** 2012-09-28_
 
-ConferenceJoinTimeThresholds テーブルには、2 秒、5 秒、および 10 秒の分類値が含まれます。
+ConferenceJoinTimeThresholds テーブルには、電話会議の参加時間のサマリーレポートで使用される分類境界が含まれています。 [会議参加時間のサマリー] レポートは、ユーザーが会議に参加するのに必要な時間の概要を示します。これらの時間値は、平均として、または次のいずれかのカテゴリに報告されます。
 
-このテーブルは、Microsoft Lync Server 2013 で導入されました。
+  - 2秒未満。
+
+  - 2秒と5秒の間。
+
+  - 5 ~ 10 秒の間。
+
+  - 10秒以上
+
+ConferenceJoinTimeThresholds テーブルには、2秒、5秒、10秒の分類値が含まれています。
+
+この表は、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -49,20 +69,31 @@ ConferenceJoinTimeThresholds テーブルには、2 秒、5 秒、および 10 �
 <tr class="odd">
 <td><p><strong>ThresholdId</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>分類の一意識別子。</p></td>
+<td><p>Primary</p></td>
+<td><p>分類の一意の識別子。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ThresholdValue</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>分類の上限。有効な値は次のとおりです。</p>
+<td></td>
+<td><p>分類の上限。 有効な値は次のとおりです。</p>
 <ol>
 <li><p>2</p></li>
 <li><p>5</p></li>
-<li><p>10</p></li>
+<li><p>常用</p></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

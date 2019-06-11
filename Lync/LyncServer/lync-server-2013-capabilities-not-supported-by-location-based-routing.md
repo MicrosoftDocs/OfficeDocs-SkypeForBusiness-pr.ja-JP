@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: 場所に基づくルーティングでサポートされていない機能'
-TOCTitle: 場所に基づくルーティングでサポートされていない機能
-ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ994071(v=OCS.15)
-ms:contentKeyID: 52056697
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 場所に基づくルーティングでサポートされていない機能'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capabilities not supported by Location-Based Routing
+ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994071(v=OCS.15)
+ms:contentKeyID: 51803982
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7ca2d775fc17d0919ceb31a38b242e54d37b6a55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840682"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の場所に基づくルーティングでサポートされていない機能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-03-12_
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 の場所に基づくルーティングでサポートされていない機能
 
-場所に基づくルーティングは、次の種類の操作には適用されません。場所に基づくルーティングは、Lync エンドポイントが次の機能を使って PSTN エンドポイントとやり取りするときには実行されません。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-03-12_
+
+位置情報に基づくルーティングは、次の種類の操作には適用されません。 Lync エンドポイントがこれらの機能を使って PSTN エンドポイントを操作する場合、位置情報に基づくルーティングは強制されません。
 
   - 会議への PSTN ダイヤルイン
 
@@ -27,7 +47,7 @@ _**トピックの最終更新日:** 2014-03-12_
 
   - 着信 PSTN 通話のグループ通話ピックアップによる再開
 
-次のリストにある種類の操作に場所に基づくルーティング規則を施行するには、会議の場所に基づくルーティングを有効にする必要があります。
+次の一覧の操作の種類に位置ベースのルーティングルールを適用するには、会議で位置情報に基づくルーティングを有効にする必要があります。
 
   - 会議からの PSTN ダイヤルアウト
 
@@ -35,11 +55,25 @@ _**トピックの最終更新日:** 2014-03-12_
 
   - PSTN エンドポイントを利用する取次転送
 
-会議の場所に基づくルーティングを有効にする方法の詳細については、「[会議の場所に基づくルーティング](lync-server-2013-location-based-routing-for-conferencing.md)」を参照してください。
+会議で位置情報に基づくルーティングを有効にするには、「 [Lync Server 2013 の会議での位置情報に基づくルーティング](lync-server-2013-location-based-routing-for-conferencing.md)」を参照してください。
 
-## 関連項目
+<div>
 
-#### その他のリソース
+## <a name="see-also"></a>関連項目
 
-[Lync Server 2013 での場所に基づくルーティングの計画](lync-server-2013-planning-for-location-based-routing.md)
+
+[Lync Server 2013 での場所に基づくルーティングの計画](lync-server-2013-planning-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

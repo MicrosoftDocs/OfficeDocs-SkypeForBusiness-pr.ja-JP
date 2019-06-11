@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: CallPriorities テーブル'
-TOCTitle: CallPriorities テーブル
-ms:assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398093(v=OCS.15)
-ms:contentKeyID: 48271099
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: CallPriorities テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: CallPriorities table
+ms:assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398093(v=OCS.15)
+ms:contentKeyID: 48183275
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fdf08f1dfa8cd04b29f6edb6604a57ab5ec9e822
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840691"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の CallPriorities テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="callpriorities-table-in-lync-server-2013"></a>Lync Server 2013 の CallPriorities テーブル
 
-CallPriorities テーブルは、使用できる通話の優先度 ("緊急"、"至急"、"通常" など) の一覧を格納する静的テーブルです。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-28_
+
+CallPriorities 度テーブルは、"緊急"、"緊急"、"標準" などの、可能な呼び出しの優先順位の一覧を保存する静的テーブルです。
 
 
 <table>
@@ -35,24 +55,35 @@ CallPriorities テーブルは、使用できる通話の優先度 ("緊急"、"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>PriorityId</strong></p></td>
+<td><p><strong>優先順位 Id</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p></p></td>
+<td><p>Primary</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Priority</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p></p></td>
-<td><p>有効な値は次のとおりです。</p>
+<td><p><strong>[Priority]</strong></p></td>
+<td><p>nvarchar(256)</p></td>
+<td></td>
+<td><p>許可される値:</p>
 <ul>
-<li><p>0 - 不明</p></li>
-<li><p>1 - 非緊急</p></li>
-<li><p>2 - 通常</p></li>
-<li><p>3 - 至急</p></li>
-<li><p>4 - 緊急</p></li>
+<li><p>0-不明</p></li>
+<li><p>1–緊急以外</p></li>
+<li><p>2-標準</p></li>
+<li><p>3-緊急</p></li>
+<li><p>4-緊急</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013 での管理ツールのインフラストラクチャ要件
-TOCTitle: Lync Server 2013 での管理ツールのインフラストラクチャ要件
-ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg195766(v=OCS.15)
-ms:contentKeyID: 48273200
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 管理ツールインフラストラクチャの要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Administrative tools infrastructure requirements
+ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195766(v=OCS.15)
+ms:contentKeyID: 48185102
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fe2c520bd8af46699f2499efcbcb5ef5a7142339
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841016"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での管理ツールのインフラストラクチャ要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-27_
+# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Lync Server 2013 での管理ツールインフラストラクチャの要件
 
-Microsoft Lync Server 2013 の管理ツールをインストールしたり、それらの管理ツールを使用してほとんどの管理タスクを実行したりする場合に必要となるインフラストラクチャ要件は他にはありません。特定のシナリオでのインフラストラクチャ要件については、このセクションのトピックを参照してください。
+</div>
 
-## このセクション中
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-27_
+
+Microsoft Lync Server 2013 管理ツールをインストールしたり、これらのツールを使用してほとんどの管理タスクを実行したりするための、その他のインフラストラクチャ要件はありません。 特定のシナリオのインフラストラクチャ要件については、このセクションのトピックを参照してください。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 でトポロジを公開する場合の要件](lync-server-2013-requirements-to-publish-a-topology.md)
 
@@ -27,21 +49,39 @@ Microsoft Lync Server 2013 の管理ツールをインストールしたり、�
 
   - [Lync Server 2013 での簡単な URL の編集または構成](lync-server-2013-edit-or-configure-simple-urls.md)
 
-## 関連項目
+</div>
+
+<div>
+
+## <a name="related-sections"></a>関連項目
 
   - [Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)
 
-## 関連項目
+</div>
 
-#### タスク
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 管理ツールをインストールする](lync-server-2013-install-lync-server-administrative-tools.md)  
 
-#### 概念
 
 [Lync Server 2013 の管理ツールのソフトウェア要件](lync-server-2013-administrative-tools-software-requirements.md)  
 
-#### その他のリソース
 
-[Lync Server 2013 のセットアップと管理に必要な管理者権限およびアクセス許可](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
+[Lync Server 2013 のセットアップと管理に必要な管理者権限およびアクセス許可](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

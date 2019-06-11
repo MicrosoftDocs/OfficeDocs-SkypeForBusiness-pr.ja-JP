@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: ClientVersions テーブル'
-TOCTitle: ClientVersions テーブル
-ms:assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398356(v=OCS.15)
-ms:contentKeyID: 48272104
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ClientVersions テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ClientVersions table
+ms:assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398356(v=OCS.15)
+ms:contentKeyID: 48184176
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cba578209ca6c22360da73c2317334ecf77da569
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840554"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の ClientVersions テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="clientversions-table-in-lync-server-2013"></a>Lync Server 2013 の ClientVersions テーブル
 
-ClientVersions テーブルはサポート テーブルで、データベースに記録されているセッションに参加したさまざまなクライアントの種類とバージョンのリストが格納されます。テーブルの各レコードは、1 つのクライアント バージョンを表します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-28_
+
+ClientVersions テーブルは、データベースに記録されているセッションに参加しているさまざまなクライアントの種類とバージョンの一覧を格納するサポートテーブルです。 テーブル内の各レコードは、1つのクライアントバージョンを表します。
 
 
 <table>
@@ -37,22 +57,33 @@ ClientVersions テーブルはサポート テーブルで、データベース�
 <tr class="odd">
 <td><p><strong>VersionId</strong></p></td>
 <td><p><strong>int</strong></p></td>
-<td><p>主/プライマリ</p></td>
+<td><p>Primary</p></td>
 <td><p>このクライアントの種類とバージョンを識別する一意の番号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>バージョン</strong></p></td>
 <td><p><strong>nvarchar(256)</strong></p></td>
-<td><p></p></td>
+<td></td>
 <td><p>バージョン名。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>セッションで使用するクライアントの種類を指定します。詳細については、「<a href="lync-server-2013-useragentdef-table.md">UserAgentDef テーブル</a>」を参照してください。</p>
-<p>このフィールドは Microsoft Lync Server 2013 で導入されました。</p></td>
+<td></td>
+<td><p>セッションで使用するクライアントの種類を指定します。 詳細については、「 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 の Useragentdef テーブル</a>」を参照してください。</p>
+<p>このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

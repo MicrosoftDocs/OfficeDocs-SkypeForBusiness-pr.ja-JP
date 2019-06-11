@@ -1,29 +1,67 @@
-﻿---
-title: 'Lync Server 2013: ディレクターを使った自動クライアント サインインの構成'
-TOCTitle: ディレクターを使った自動クライアント サインインの構成
-ms:assetid: 85369ffc-53ae-43be-8a23-84a094faecff
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398678(v=OCS.15)
-ms:contentKeyID: 48272770
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ディレクターを使った自動クライアント サインインの構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure Automatic Client Sign-In to use the Director
+ms:assetid: 85369ffc-53ae-43be-8a23-84a094faecff
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398678(v=OCS.15)
+ms:contentKeyID: 48184703
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63e885080879b2b7ce3cf87557b21822fe9cd26f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840422"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのディレクターを使った自動クライアント サインインの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-08_
+# <a name="configure-automatic-client-sign-in-to-use-the-director-in-lync-server-2013"></a>Lync Server 2013 でのディレクターを使った自動クライアント サインインの構成
 
-Lync Server 2013、ディレクター、またはディレクター プールを展開する場合、ベスト プラクティスとして自動クライアント サインインを使用することをお勧めします。DNS サーバーに自動クライアント サインインを構成する方法の詳細については、「計画」のドキュメントの「[Lync Server 2013 での自動クライアント サインインの DNS 要件](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)」を参照してください。
+</div>
 
-自動クライアント サインインを既に展開している場合は、次のセクションを参照してディレクターに構成してください。
+<div id="mainSection">
 
-## 単一のディレクター インスタンス
+<div id="mainBody">
 
-既に自動クライアント サインインを展開していて、フロント エンド サーバーまたは フロント エンド プールを指し示している場合、ディレクターを示すように DNS SRV レコードを変更する必要があります。
+<span> </span>
 
-## ディレクター プール
+_**最終更新日:** 2012-09-08_
 
-既に自動クライアント サインインを展開していて、フロント エンド サーバーまたは フロント エンド プールを指し示している場合、ディレクター プールを示すように DNS SRV レコードを変更する必要があります。
+Lync Server 2013、ディレクター、またはディレクタープールを展開する場合は、ベストプラクティスとして、自動クライアントサインインを使用することをお勧めします。 自動クライアントサインイン用に DNS サーバーを構成する方法について詳しくは、「計画ドキュメントの「 [Lync Server 2013 での自動クライアントサインインの dns 要件](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)」をご覧ください。
+
+既に自動クライアントサインインを展開している場合は、次のセクションを参照してディレクターで構成してください。
+
+<div>
+
+## <a name="single-director-instance"></a>単一のディレクターインスタンス
+
+既にクライアントの自動サインインが導入されていて、フロントエンドサーバーまたはフロントエンドプールをポイントしている場合は、そのディレクターをポイントするように DNS SRV レコードを変更する必要があります。
+
+</div>
+
+<div>
+
+## <a name="director-pool"></a>ディレクタープール
+
+既にクライアントの自動サインインが導入されていて、フロントエンドサーバーまたはフロントエンドプールを指している場合は、そのディレクタープールをポイントするように DNS SRV レコードを変更する必要があります。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

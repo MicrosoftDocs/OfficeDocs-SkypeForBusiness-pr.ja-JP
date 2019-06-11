@@ -1,23 +1,53 @@
-﻿---
-title: 'Lync Server 2013: バックアップ レジストラー関係'
-TOCTitle: バックアップ レジストラー関係
-ms:assetid: 7e078271-84b9-4666-989c-c4507a0cdf4a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205033(v=OCS.15)
-ms:contentKeyID: 48272649
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: バックアップ レジストラー関係'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backup Registrar relationships
+ms:assetid: 7e078271-84b9-4666-989c-c4507a0cdf4a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205033(v=OCS.15)
+ms:contentKeyID: 48184631
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3a642c8d8872b2c0d1372a209c9c05dac704ee20
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840741"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のバックアップ レジストラー関係
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-06-28_
+# <a name="backup-registrar-relationships-in-lync-server-2013"></a>Lync Server 2013 のバックアップ レジストラー関係
 
-障害復旧の機能を提供するほか、ペアになった 2 つのプールは互いにバックアップ レジストラーの役割も果たします。Lync Server 2013 では、フロント エンド プール間のバックアップ レジストラーの関係が常に 1 対 1 であり、相互的です。これは、P1 が P2 のバックアップであれば P2 が P1 のバックアップでなければならず、また双方がその他のいかなるフロントエンド プールのバックアップにもなれないことを意味します。この点は、フロント エンド プールのバックアップ関係が多対 1 になる可能性があった Lync Server 2010 からの変更部分です。
+</div>
 
-たとえ 2 つの フロント エンド プール間のバックアップ関係が 1 対 1 であって対称的でなければならないとしても、各 フロント エンド プールは依然として、Lync Server 2010 での場合のように、任意の数の 存続可能ブランチ アプライアンスのバックアップ レジストラーになる可能性があります。
+<div id="mainSection">
 
-Lync Server 2013 では、障害復旧のサポート対象に 存続可能ブランチ アプライアンスに所属するユーザーが含まれません。存続可能ブランチ アプライアンスのバックアップとしての役割を果たすフロントエンド プールがダウンした場合、存続可能ブランチ アプライアンスにサインインしていたユーザーは、フロントエンド プールに所属していたユーザーがバックアップの フロント エンド プールにフェールオーバーされた後でも、復元モードになります。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-06-28_
+
+障害復旧の機能を提供するほか、ペアになった 2 つのプールは互いにバックアップ レジストラーの役割も果たします。 Lync Server 2013 では、フロントエンドプール間のバックアップレジストラーの関係は、常に1:1 と逆数になります。 つまり、P1 が P2 のバックアップである場合、P2 は P1 のバックアップである必要があります。また、その他のフロントエンドプールのバックアップを行うことはできません。 これは、Lync Server 2010 からの変更であり、フロントエンドプールのバックアップ関係は何度でもかまいません。
+
+2つのフロントエンドプール間のバックアップリレーションシップは1:1 と対称である必要がありますが、Lync Server 2010 の場合と同様に、各フロントエンドプールも、任意の数の Survivable Branch アプライアンスのバックアップレジストラーにすることができます。
+
+Lync Server 2013 は、Survivable Branch アプライアンスをホームにしているユーザーに対して、障害回復のサポートを拡張しないことに注意してください。 Survivable Branch アプライアンスのバックアップとして機能するフロントエンドプールがダウンしている場合は、フロントエンドプールに所属しているユーザーが、バックアップフロントエンドプールにフェールオーバーした後でも、Survivable Branch アプライアンスにサインインしたユーザーは復元性モードになります。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

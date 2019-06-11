@@ -1,51 +1,97 @@
-﻿---
-title: Lync Server 2013 での CAC のネットワーク サイトの構成
-TOCTitle: Lync Server 2013 での CAC のネットワーク サイトの構成
-ms:assetid: afcea38f-5789-45ec-97af-c6e38364950c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412840(v=OCS.15)
-ms:contentKeyID: 48273281
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: CAC 用のネットワークサイトを構成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure network sites for CAC
+ms:assetid: afcea38f-5789-45ec-97af-c6e38364950c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412840(v=OCS.15)
+ms:contentKeyID: 48185144
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 528ed67243fb0ab0451abf504a458afc420d94ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840341"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での CAC のネットワーク サイトの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-05_
+# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a>Lync Server 2013 での CAC 用のネットワークサイトの構成
 
+</div>
 
-> [!IMPORTANT]
-> E9-1-1 またはメディア バイパス用のネットワーク サイトが既に作成されている場合は、既存のネットワーク サイトを変更し、<STRONG>Set-CsNetworkSite</STRONG> コマンドレットを使用して帯域幅ポリシー プロファイルを適用できます。 ネットワーク サイトを変更する方法の例については、「<A href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013 でのネットワーク サイトの作成または変更</A>」を参照してください。
+<div id="mainSection">
 
+<div id="mainBody">
 
+<span> </span>
 
-*ネットワーク サイト*は、通話受付管理 (CAC)、E9-1-1、およびメディア バイパスが展開される各ネットワーク地域内のオフィスまたは拠点です。 次の手順を使用して、CAC のネットワーク トポロジの例におけるネットワーク サイトに合わせたネットワーク サイトを作成してください。 この手順は、WAN の帯域幅により制約があるために、リアルタイムの音声またはビデオのトラフィック フローを制限する帯域幅ポリシーが必要なネットワーク サイトの作成および構成方法を示します。
+_**最終更新日:** 2012-09-05_
 
-CAC の展開の例では、北アメリカ地域に 6 つのサイトがあります。 そのうち Reno、Portland、および Albuquerque の 3 つのサイトは、WAN の帯域幅の制約があります。その他次の 3 つのサイトでは、WAN の帯域幅の制約が*ありません*: ニューヨーク、シカゴ、およびデトロイト。このような、その他のネットワーク サイトを作成または変更する方法の例については、「[Lync Server 2013 でのネットワーク サイトの作成または変更](lync-server-2013-create-or-modify-a-network-site.md)」を参照してください。
-
-ネットワーク トポロジの例を見る場合は、「計画」のドキュメントの「[例: Lync Server 2013 での通話受付管理の組織要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
-
-> [!NOTE]
-> 次の手順では、ネットワーク サイトの作成に Lync Server 管理シェルが使用されています。Lync Server コントロール パネルを使用したネットワーク サイトの作成の詳細については、「<a href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013 でのネットワーク サイトの作成または変更</a>」を参照してください。
+<div class=" ">
 
 
-## 通話受付管理用のネットワーク サイトを作成するには
+> [!IMPORTANT]  
+> E9-1 または media バイパス用のネットワークサイトを既に作成している場合は、 <STRONG>Set-CsNetworkSite</STRONG>コマンドレットを使用して、既存のネットワークサイトを変更して帯域幅ポリシープロファイルを適用することができます。 ネットワークサイトを変更する方法の例については、「 <A href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013 でネットワークサイトを作成または変更</A>する」を参照してください。
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
 
-2.  **New-CsNetworkSite** コマンドレットを実行してネットワーク サイトを作成し、各サイトに適切な帯域幅ポリシーを適用します。たとえば、以下を実行します。
+
+</div>
+
+[*ネットワークサイト*] は、通話受付制御 (CAC)、E9、および media バイパスの展開の各ネットワーク領域内の事業所または場所です。 次の手順を使用して、CAC のネットワークトポロジの例でネットワークサイトに合わせてネットワークサイトを作成します。 次の手順では、WAN の帯域幅に制約があるネットワークサイトを作成して構成する方法について説明します。そのため、リアルタイムの音声またはビデオのトラフィックフローを制限する帯域幅ポリシーが必要です。
+
+CAC の展開例では、北米地域には6つのサイトがあります。 これら3つのサイトは、WAN の帯域幅 (Reno、ポートランド、およびアルバカーキ) によって制限されています。 他の3つのサイトは、WAN の帯域幅によって制約されることは*ありません*。ニューヨーク、シカゴ、デトロイト。 他のネットワークサイトを作成または変更する方法の例については、「 [Lync Server 2013 でネットワークサイトを作成または変更](lync-server-2013-create-or-modify-a-network-site.md)する」を参照してください。
+
+ネットワークトポロジの例については、「例: 計画ドキュメントで[Lync Server 2013 の通話受付制御の要件を収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)する」を参照してください。
+
+<div class=" ">
+
+
+> [!NOTE]  
+> 次の手順では、Lync Server 管理シェルを使ってネットワークサイトを作成します。 Lync Server コントロールパネルを使用してネットワークサイトを作成する方法について詳しくは、「 <A href="lync-server-2013-create-or-modify-a-network-site.md">Lync server 2013 でネットワークサイトを作成または変更</A>する」をご覧ください。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-create-network-sites-for-call-admission-control"></a>通話受付制御用のネットワークサイトを作成するには
+
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+
+2.  **新しい-CsNetworkSite**コマンドレットを実行して、ネットワークサイトを作成し、各サイトに適切な帯域幅ポリシープロファイルを適用します。 たとえば、以下を実行します。
     
+       ```
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
-
-       &nbsp;
+       ```
     
+       ```
         New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
-
-       &nbsp;
+       ```
     
+       ```
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+       ```
 
-3.  トポロジの例全体のネットワーク サイトの作成を完了するには、帯域幅の制約がある、EMEA および APAC 地域のネットワーク サイトに対してステップ 2 を繰り返します。
+3.  トポロジ全体のネットワークサイトの作成を完了するには、EMEA と APAC 地域の帯域幅制約のあるネットワークサイトについて、手順2を繰り返します。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

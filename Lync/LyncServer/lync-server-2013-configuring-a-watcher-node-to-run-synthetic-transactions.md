@@ -1,23 +1,43 @@
-﻿---
-title: 代理トランザクションを実行する監視ノードの構成
-TOCTitle: 代理トランザクションを実行する監視ノードの構成
-ms:assetid: cedda508-8881-4079-88d5-49798f342ddf
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205314(v=OCS.15)
-ms:contentKeyID: 48273616
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 代理トランザクションを実行するためのウォッチャーノードの構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring a watcher node to run synthetic transactions
+ms:assetid: cedda508-8881-4079-88d5-49798f342ddf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205314(v=OCS.15)
+ms:contentKeyID: 48185578
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9ec42f5b0f3839ee0efac84f08344aa1718120b7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840297"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 代理トランザクションを実行する監視ノードの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 で代理トランザクションを実行するためのウォッチャーノードの構成
 
-System Center エージェント ファイルがインストールされたら、次に監視ノード自体を構成する必要があります。監視ノードを構成する手順は監視ノードを境界ネットワークの内側に置くか、外側に置くかによって異なります。
+</div>
 
-監視ノードの構成時には、そのノードが使用する認証方法の種類も選択する必要があります。Lync Server 2013 では、信頼済みサーバーと資格情報認証という 2 つの方法から 1 つを選択することができます。この 2 つの方法の主な違いを次の表にまとめます。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-02-07_
+
+System Center agent ファイルをインストールしたら、次にウォッチャーノード自体を構成する必要があります。 ウォッチャーノードを構成するための手順は、ウォッチャーノードのコンピューターが境界ネットワーク内にあるか境界ネットワークの外側にあるかによって異なります。
+
+監視ノードの構成時には、そのノードが使用する認証方法の種類も選択する必要があります。 Lync Server 2013 では、次の2つの認証方法のいずれかを選択できます。信頼されたサーバーまたは資格情報認証。 この2つの方法の違いについては、次の表で説明します。
 
 
 <table>
@@ -30,21 +50,21 @@ System Center エージェント ファイルがインストールされたら�
 <tr class="header">
 <th>構成</th>
 <th>説明</th>
-<th>サポートされる場所</th>
+<th>サポートされている場所</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>信頼済みサーバー</p></td>
+<td><p>信頼できるサーバー</p></td>
 <td><p>内部サーバーを偽装する証明書を使用し、認証チャレンジをバイパスします。</p>
-<p>この方法は、各監視ノードで多数のユーザー パスワードではなく、1 つの証明書を管理したいと考える管理者にとって便利です。</p></td>
+<p>これは、各ウォッチャーノードで多くのユーザーパスワードの代わりに1つの証明書を管理することを希望している管理者にとって便利です。</p></td>
 <td><p>エンタープライズの内側。</p>
-<p>この方法では、監視ノードが監視対象のプールと同じドメイン内に存在する必要があることに注意してください。監視ノードと監視対象のプールが別のドメインに存在する場合は、この方法ではなく、資格情報認証を使用します。</p></td>
+<p>この方法では、監視ノードが監視対象のプールと同じドメインに存在する必要があることに注意してください。 ウォッチャーノードと監視対象のプールが異なるドメインにある場合は、代わりに資格情報認証を使用します。</p></td>
 </tr>
 <tr class="even">
 <td><p>資格情報認証</p></td>
 <td><p>ユーザー名とパスワードを各監視ノードの Windows 資格情報マネージャーに保管します。</p>
-<p>このモードは、パスワード管理の手間を必要としますが、エンタープライズの外側に位置する監視ノードの場合には唯一の選択肢となります。このような外側に位置する監視ノードを認証の際に信頼済みのエンドポイントとして扱うことはできません。</p></td>
+<p>このモードでは、より多くのパスワードを管理する必要がありますが、エンタープライズの外部にあるウォッチャーノードには唯一の選択肢です。 このような外側に位置する監視ノードを認証の際に信頼済みのエンドポイントとして扱うことはできません。</p></td>
 <td><p>エンタープライズの外側。</p>
 <p>エンタープライズの内側。</p></td>
 </tr>
@@ -52,5 +72,15 @@ System Center エージェント ファイルがインストールされたら�
 </table>
 
 
-また、MonitoringHost.exe と PowerShell.exe の両方について、ファイアウォールに受信規則があることを確認する必要があります。これらのプロセスがファイアウォールによってブロックされている場合、代理トランザクションは 504 (サーバー タイムアウト) エラーになって失敗します。
+また、ファイアウォールが MonitoringHost と PowerShell の両方の受信規則を持っていることも確認する必要があります。 これらのプロセスがファイアウォールによってブロックされた場合、代理トランザクションは 504 (サーバータイムアウト) エラーで失敗します。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

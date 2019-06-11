@@ -1,91 +1,172 @@
-﻿---
-title: Configuring the Various Policies
+---
+title: 各種ポリシーの構成
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring the Various Policies
 ms:assetid: e3b3cbda-7c17-470b-acb0-82fdcc473184
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ945610(v=OCS.15)
-ms:contentKeyID: 52056771
-ms.date: 09/13/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945610(v=OCS.15)
+ms:contentKeyID: 51541436
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: a105ea62b82d904007a2faa0493fd17092b84462
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841051"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuring the Various Policies
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-24_
+# <a name="configuring-the-various-policies"></a>各種ポリシーの構成
 
-## Configuring the Various Policies
+</div>
 
-Here are the various policies that you can configure in your Lync Server 2013 topology, prior to running the Lync Server 2013 Stress and Performance Tool.
+<div id="mainSection">
 
-## Configuring the Archiving Policy
+<div id="mainBody">
 
-See the example script ArchivingPolicy.ps1. You need to use this script only if an Archiving Server is deployed in your topology. For details, see the Lync Server 2013 documentation and cmdlet Help for [アーカイブおよび監視のコマンドレット](https://technet.microsoft.com/ja-jp/library/gg415629\(v=ocs.15\)).
+<span> </span>
 
-## Configuring the Conferencing Policy
+_**最終更新日:** 2013-02-24_
 
-See the example script MeetingPolicy.ps1. For details, see the Lync Server 2013 documentation and the cmdlet Help for [Web 会議のコマンドレット](https://technet.microsoft.com/ja-jp/library/gg415675\(v=ocs.15\)).
+<div>
 
-## Configuring the Contacts Policy
+## <a name="configuring-the-various-policies"></a>各種ポリシーの構成
 
-See the example ContactsPolicy.ps1. For details, see the Lync Server 2013 documentation and the cmdlet Help for [IM およびプレゼンスのコマンドレット](https://technet.microsoft.com/ja-jp/library/gg398611\(v=ocs.15\)).
+Lync Server 2013 のストレスとパフォーマンスツールを実行する前に、Lync Server 2013 トポロジで構成できる各種のポリシーを次に示します。
 
-## Configuring the Federation Policy
+<div>
 
-See the example FederationPolicy.ps1. For details, see the Lync Server 2013 documentation and the cmdlet Help for [エッジ サーバーのコマンドレット](https://technet.microsoft.com/ja-jp/library/gg415635\(v=ocs.15\)) and [Lync Server 2013 でのフェデレーションおよび外部アクセスのコマンドレット](https://technet.microsoft.com/ja-jp/library/gg415651\(v=ocs.15\)).
+## <a name="configuring-the-archiving-policy"></a>アーカイブポリシーを構成する
 
-## Configuring the Call Admission Control Policy
+「スクリプト ArchivingPolicy の例を参照してください。 このスクリプトは、アーカイブサーバーがトポロジに展開されている場合にのみ使用する必要があります。 詳細については、「lync Server 2013 のドキュメントとコマンドレットのヘルプ」を参照してください。 [lync server 2013 のコマンドレットのアーカイブと監視](https://technet.microsoft.com/en-us/library/gg415629\(v=ocs.15\))を行います。
 
-See the example BandwidthPolicy.ps1. For details, see the Lync Server 2013 documentation [Lync Server 2013 通話受付管理の概要](https://technet.microsoft.com/ja-jp/library/gg398529\(v=ocs.15\)) and the cmdlet Help for [通話受付管理のコマンドレット](https://technet.microsoft.com/ja-jp/library/gg415676\(v=ocs.15\)).
+</div>
 
-## Configuring the Voice Routing Rules
+<div>
 
-See the example RoutingRules.ps1. When you configure the voice routing rules, take note of the Phone Context (that is, /Location Profile or /SimpleName) and Internal/External Area Codes so that you can specify them when creating users and during LyncPerfTool configuration (specifically for PSTN-UC and UC-PSTN). For example, the SimpleName parameter in the call to the **New-CsDialPlan** cmdlet in the RoutingRules.ps1 example should be used for the LocationProfile value in the following figure of UserProfileGenerator.exe.
+## <a name="configuring-the-conferencing-policy"></a>会議ポリシーを構成する
 
-![サンプルの音声のルーティング ルール](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "サンプルの音声のルーティング ルール")
+「スクリプト会議ポリシー ps1」の例を参照してください。 詳細については、「lync Server 2013 ドキュメント」および「 [Lync server 2013 の Web 会議コマンド](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\))レットのヘルプ」を参照してください。
 
-For details, see the Lync Server 2013 documentation and the cmdlet Help for [エンタープライズ VoIP のコマンドレット](https://technet.microsoft.com/ja-jp/library/gg415658\(v=ocs.15\)).
+</div>
 
-## Configuring Conferencing Attendant application
+<div>
 
-See the example ConferenceAutoAttendantConfiguration.ps1. Take note of the ConferencingAutoAttendant phone number (1121111111, by default), so that you can type it into the LyncPerf Tool Configuration tool for configuration generation.
+## <a name="configuring-the-contacts-policy"></a>連絡先ポリシーを構成する
 
-![会議アテンダント アプリケーションを構成する](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "会議アテンダント アプリケーションを構成する")
+例 ContactsPolicy を参照してください。 詳細については、「lync Server 2013 ドキュメント」および「 [Lync server 2013 の IM とプレゼンスのコマンド](https://technet.microsoft.com/en-us/library/gg398611\(v=ocs.15\))レットのヘルプ」を参照してください。
 
-For details, see the Lync Server 2013 documentation and the cmdlet Help for [Web 会議のコマンドレット](https://technet.microsoft.com/ja-jp/library/gg415675\(v=ocs.15\)) and [ダイヤルイン会議のコマンドレット](https://technet.microsoft.com/ja-jp/library/gg415630\(v=ocs.15\)).
+</div>
 
-## Configuring Lync Server Call Park Service
+<div>
 
-Call Park is disabled by default. See the example CallParkConfiguration.ps1. For details, see the Lync Server 2013 documentation and the cmdlet Help for [コール パーク アプリケーションのコマンドレット](https://technet.microsoft.com/ja-jp/library/gg415639\(v=ocs.15\)).
+## <a name="configuring-the-federation-policy"></a>フェデレーションポリシーを構成する
 
-## Configuring Emergency Calls
+例 FederationPolicy を参照してください。 詳細については、「lync server 2013 ドキュメント」および「lync server 2013 での microsoft Lync Server 2013 および[フェデレーションと外部アクセスコマンド](https://technet.microsoft.com/en-us/library/gg415651\(v=ocs.15\))レットの[Edge server コマンド](https://technet.microsoft.com/en-us/library/gg415635\(v=ocs.15\))レットのヘルプ」を参照してください。
 
-Perform the following steps to configure stress and performance testing for emergency calls.
+</div>
 
-1.  Set up a voice route for emergency calls. See the RoutingRules.ps1 script under the comment "Route E911 to PSTN" for an example of setting up this voice route.
+<div>
+
+## <a name="configuring-the-call-admission-control-policy"></a>通話受付制御ポリシーを構成する
+
+例 BandwidthPolicy を参照してください。 詳細については、lync server 2013 の「[通話受付制御](https://technet.microsoft.com/en-us/library/gg398529\(v=ocs.15\))」と「lync server [2013 での通話受付制御コマンド](https://technet.microsoft.com/en-us/library/gg415676\(v=ocs.15\))レットのヘルプ」を参照し2013てください。
+
+</div>
+
+<div>
+
+## <a name="configuring-the-voice-routing-rules"></a>ボイスルーティングルールを構成する
+
+例 RoutingRules を参照してください。 ボイスルーティングルールを構成するときは、電話のコンテキスト (¥ Location Profile または/simplename) と内部/外部の市外局番をメモして、ユーザーの作成時と LyncPerfTool の構成時に指定できるようにします (特にPSTN-UC および UC-PSTN)。 たとえば、RoutingRules の例の**CsDialPlan**コマンドレットの呼び出しの simplename パラメーターは、UserProfileGenerator の次の図の locationprofile 値に使用する必要があります。
+
+![ボイスルーティングルールの例。](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "ボイスルーティングルールの例。")
+
+詳細については、「lync Server 2013 ドキュメント」および「 [Lync server 2013 のエンタープライズボイスコマンド](https://technet.microsoft.com/en-us/library/gg415658\(v=ocs.15\))レットのヘルプ」を参照してください。
+
+</div>
+
+<div>
+
+## <a name="configuring-conferencing-attendant-application"></a>会議アテンダントアプリケーションの構成
+
+例 ConferenceAutoAttendantConfiguration を参照してください。 ConferencingAutoAttendant 電話番号 (既定では 1121111111) をメモし、それを構成の生成用の LyncPerf ツール構成ツールに入力できるようにします。
+
+![会議アテンダントアプリケーションの構成](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "会議アテンダントアプリケーションの構成")
+
+詳細については、「lync server 2013 ドキュメント」および「lync server 2013 での[Web 会議コマンド](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\))レットのヘルプ (lync server 2013 および[ダイヤルイン会議コマンド](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\))レットのヘルプ)」を参照してください。
+
+</div>
+
+<div>
+
+## <a name="configuring-lync-server-call-park-service"></a>Lync Server コールパークサービスの構成
+
+コールパークは既定では無効になっています。 「CallParkConfiguration」の例を参照してください。 詳細については、「lync Server 2013 ドキュメント」および「 [Lync server 2013 のコールパークアプリケーションコマンドレット](https://technet.microsoft.com/en-us/library/gg415639\(v=ocs.15\))のヘルプ」を参照してください。
+
+</div>
+
+<div>
+
+## <a name="configuring-emergency-calls"></a>緊急通話の設定
+
+緊急通話のストレスとパフォーマンスのテストを構成するには、次の手順を実行します。
+
+1.  緊急通話のためのボイスルートを設定します。 このボイスルートを設定する例については、「コメント "E911 にルーティングする RoutingRules」の説明を参照してください。
+    
+    <div>
     
 
-    > [!WARNING]
-    > The example command in RoutingRules.ps1 has a number pattern that includes the number 119 rather than 911. You should avoid using 911 (or your actual local emergency number) to prevent accidental calls to your local emergency operators during load testing. This configuration is for simulation purposes only.
+    > [!WARNING]  
+    > RoutingRules の例のコマンドには、911ではなく数値119を含む数値パターンが含まれています。 ロードテスト中に、ローカルの緊急電話会社に誤って通話を発信しないようにするには、911 (または実際のローカル緊急電話番号) の使用を避ける必要があります。 この構成は、シミュレーション目的でのみ使用されます。
 
-
-
-2.  Configure addresses by filling in the values on the **LIS** tab in the UserProvisioningTool, as shown in the following figure.
     
-    ![場所情報サービスの構成](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "場所情報サービスの構成")  
+    </div>
 
-3.  Click **Generate LIS Config Files**.
+2.  次の図に示すように、Userプロビジョニングツールの [ **LIS** ] タブの値を入力して、アドレスを構成します。
+    
+    ![位置情報サービスを構成します。](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "位置情報サービスを構成します。")  
 
-4.  CSV files for ports, subnets, switches, and wireless access points (WAPs), and an XML file for the Lync Server 2013 Stress and Performance Tool, are generated. The CSV files are to be used as inputs (in the same folder) when configuring Location Information service (LIS) with the LisConfiguration.ps1 script. Move the generated Locations0.xml file to the same folder as the Lync Server 2013 Stress and Performance Tool executable (LyncPerfTool.exe), which will run location profile (dial plan) scenarios.
+3.  [ **LIS 構成ファイルの生成**] をクリックします。
 
-## Creating, Enabling, Configuring and Disabling Users
+4.  ポート、サブネット、スイッチ、ワイヤレスアクセスポイント (Wap) の CSV ファイル、および Lync Server 2013 ストレスおよびパフォーマンスツール用の XML ファイルが生成されます。 CSV ファイルは、LisConfiguration スクリプトを使用して位置情報サービス (LIS) を構成するときに、同じフォルダー内で入力として使用されます。 生成された Locations0 ファイルを、Lync Server 2013 のストレスとパフォーマンスツールの実行可能ファイル (LyncPerfTool) と同じフォルダーに移動します。これにより、位置情報プロファイル (ダイヤルプラン) のシナリオが実行されます。
 
-You should create all your users before running the following scripts. Follow the instructions in [Create Users and Contacts](create-users-and-contacts.md) to create users. For details, see the Lync Server 2013 cmdlet documentation for the [Get-CsUser](https://technet.microsoft.com/ja-jp/library/gg398125\(v=ocs.15\)), [Set-CsUser](https://technet.microsoft.com/ja-jp/library/gg398510\(v=ocs.15\)), and [Disable-CsUser](https://technet.microsoft.com/ja-jp/library/gg398747\(v=ocs.15\)) cmdlets.
+</div>
 
-## Configuring Response Group application
+<div>
 
-See the example ResponseGroupConfiguration.ps1. For details, see the Lync Server 2013 documentation and the cmdlet Help for [応答グループ アプリケーションのコマンドレット](https://technet.microsoft.com/ja-jp/library/gg415654\(v=ocs.15\)).To review the Response Group application configuration, see `https://<poolfqdn>/RgsConfig/`, as shown in the following figure.
+## <a name="creating-enabling-configuring-and-disabling-users"></a>ユーザーの作成、有効化、構成、無効化
 
-![応答グループ構成ツール](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "応答グループ構成ツール")
+次のスクリプトを実行する前に、すべてのユーザーを作成する必要があります。 「ユーザー[と連絡先を作成して](create-users-and-contacts.md)ユーザーを作成する」の手順に従います。 詳細については、「[ユーザー](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\))用の Lync Server 2013 コマンドレット」を参照してください。また[](https://technet.microsoft.com/en-us/library/gg398747\(v=ocs.15\)) 、「ユーザーの[設定](https://technet.microsoft.com/en-us/library/gg398510\(v=ocs.15\))」を参照してください。
+
+</div>
+
+<div>
+
+## <a name="configuring-response-group-application"></a>応答グループアプリケーションを構成する
+
+ResponseGroupConfiguration ps1 の例を参照してください。 詳細については、「Lync Server 2013 ドキュメント」および「 [lync server 2013 のグループアプリケーションコマンドレットに応答](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\))するためのコマンドレットのヘルプ」を参照してください。応答グループのアプリケーション構成を確認するに`https://<poolfqdn>/RgsConfig/`は、次の図のように「」を参照してください。
+
+![応答グループ構成ツール。](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "応答グループ構成ツール。")
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

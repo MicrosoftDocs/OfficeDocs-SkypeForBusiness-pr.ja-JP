@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Check Lync Server 2013 server certificates'
+---
+title: 'Lync Server 2013: Lync Server 2013 サーバーの証明書を確認する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Check server certificates
 ms:assetid: 7b0474e8-0efe-47f0-84eb-a1ba575dabfd
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn725210(v=OCS.15)
-ms:contentKeyID: 62335956
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725210(v=OCS.15)
+ms:contentKeyID: 63969620
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: dced86c93b7ec35cb410601f1d72720e25d156b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840586"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Check Lync Server 2013 server certificates
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="check-lync-server-2013-server-certificates"></a>Lync Server 2013 サーバー証明書を確認する
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-11-01_
 
 
 <table>
@@ -23,96 +43,106 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>毎月</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Get-CsCertificate cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合、ユーザーには、CsCertificate の取得コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Get-CsCertificate&quot;}</code></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Get-CsCertificate cmdlet enables you to retrieve information about each of your Lync Server certificates. That’s especially important because certificates have a built-in expiration date. For example,, privately-issued certificates typically expire after 12 months. If any of your Lync Server certificates expire then you'll lose the accompanying functionality until that certificate is renewed or replaced.
+## <a name="description"></a>説明
 
-## Running the test
+CsCertificate コマンドレットを使用すると、Lync Server の各証明書に関する情報を取得できます。 これは特に重要です。証明書には有効期限があります。 たとえば、プライベートに発行された証明書は通常、12か月後に期限切れになります。 いずれかの Lync Server 証明書の有効期限が切れている場合は、その証明書が更新または置き換えられるまで、付属の機能が失われます。
 
-To return information about each of your Lync Server certificates just run the following command:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+Lync Server の各証明書に関する情報を取得するには、次のコマンドを実行します。
 
 `Get-CsCertificate`
 
-Or, you can filter the return certificate information based on expiration date. For example, this command limits the returned data to certificates that expire (cannot be used after) June 1, 2014:
+または、有効期限日に基づいて、返送証明書情報をフィルター処理することもできます。 たとえば、次のコマンドは、返されるデータを有効期限が切れた証明書 (2014 年6月1日以降は使用できません) に制限します。
 
 `Get-CsCertificate | Where-Object {$_.NotAfter -lt "6/1/2014"}`
 
-For more information, see the Help documentation for the Get-CsCertificate cmdlet.
+詳細については、「CsCertificate を取得する」コマンドレットのヘルプドキュメントを参照してください。
 
-Note that, although the Test-CsCertificateConfiguration cmdlet exists, it is not very useful to administrators. (Instead, that cmdlet is primarily used by the Certificate wizard.) Although the cmdlet works, the information that it returns is of minimal value as shown in the following output example:
+ここでは、テスト用の Csコマンドレットは存在しますが、管理者にとってはあまり役に立ちません。 (その代わりに、このコマンドレットは証明書ウィザードで主に使用されます)。このコマンドレットは動作しますが、次の出力例に示すように、返される情報は最小限の値になります。
 
-Thumbprint Use
+拇印の使用
 
 \---------- ---
 
-A9D51A2911C74FABFF7F2A8A994B20857D399107 Default
+A9D51A2911C74FABFF7F2A8A994B20857D399107 の既定値
 
-## Reviewing the output
+</div>
 
-The Get-CsCertificate cmdlet returns information similar to the following for each of your Lync Server certificates:
+<div>
 
-Issuer : CN=FabrikamCA
+## <a name="reviewing-the-output"></a>出力を確認する
 
-NotAfter : 12/28/2015 3:35:41 PM
+各 Lync Server 証明書について、次のような情報が返されます。
 
-NotBefore : 1/2/2014 12:49:37 PM
+発行者: CN = FabrikamCA
 
-SerialNumber : 611BB01200000000000C
+NotAfter: 12/28/2015 3:35:41 PM
 
-Subject : CN=LYNC-SE.fabrikam.com
+NotBefore: 1/2/2014 12:49:37 PM
 
-AlternativeNames : {sip.fabrikam.com, LYNC-SE.fabrikam.com,
+シリアル: 611BB01200000000000C
 
-meet.fabrikam.com, admin.fabrikam.com...}
+Subject: CN = LYNC-SE.fabrikam.com
 
-Thumbprint : A9D51A2911C74FABFF7F2A8A994B20857D399107
+代替: {sip.fabrikam.com、LYNC-SE.fabrikam.com、
 
-Use : Default
+meet.fabrikam.com、admin.fabrikam.com
 
-As a rule, the top issues involving Lync Server certificates involve dates and times, such as when certificates take effect (NotBefore) or when they expire (NotAfter). Because these dates and times are so important, you might want to limit the returned data to information such as the certificate use, the certificate serial number, and the certificate expiration date; then you can quickly review all the certificates and when they will expire. To return just that information, use the command together with the options as shown:
+拇印: A9D51A2911C74FABFF7F2A8A994B20857D399107
+
+使用: 既定
+
+ルールとして、Lync Server の証明書に関連する主な問題には、証明書が適用される時期 (NotBefore)、または期限切れになったとき (NotAfter) など、日付と時刻が含まれます。 このような日付と時刻は重要であるため、証明書の使用、証明書のシリアル番号、証明書の有効期限などの情報に、返されるデータを制限することができます。これにより、すべての証明書を簡単に確認して、期限切れにすることができます。 その情報だけを返すには、次のようなオプションと共にコマンドを使用します。
 
 `Get-CsCertificate | Select-Object Use, SerialNumber, NotAfter | Sort-Object NotAfter`
 
-That command returns data similar to the following, with the certificates sorted in order of their expiration date:
+このコマンドを実行すると、次のようなデータが返されます。証明書は有効期限の順に並べ替えられます。
 
-Use SerialNumber NotAfter
+以降のシリアルで使用
 
 \--- ------------ --------
 
-Default 611BB01200000000000C 12/28/2015 3:35:41 PM
+既定の 611BB01200000000000C 12/28/2015 3:35:41 PM
 
-WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 PM
+Webservices Interal 32980AA20BBB20000191 02/15/2016 2:16:12 PM
 
 WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM
 
-If you have certificate problems, you might want to review the AlternativeNames configured for a certificate. At first glance, that seems to be a problem. By default, and depending on the size of your console window, Get-CsCertificate might not be able to display all the names:
+証明書の問題がある場合は、証明書に対して構成されている代替の内容を確認することをお勧めします。 一見したところ、問題に思えるかもしれません。 既定では、コンソールウィンドウのサイズに応じて、ユーザーがすべての名前を表示できない場合があります。
 
-AlternativeNames : {sip.fabrikam.com, LYNC.fabrikam.com,
+代替: {sip.fabrikam.com、LYNC.fabrikam.com、
 
-meet.fabrikam.com, admin.fabrika...}
+meet.fabrikam.com の場合は、fabrika
 
-To see all the alternative names assigned to a certificate use a command similar to this one:
+証明書に割り当てられている代替名をすべて表示するには、次のようなコマンドを使用します。
 
 `Get-CsCertificate | Where-Object {$_.SerialNumber -eq "611BB01200000000000C"} | Select-Object -ExpandProperty AlternativeNames`
 
-That should show you all of the alternative names on the certificate:
+これにより、証明書のすべての代替名が表示されます。
 
 sip.fabrikam.com
 
@@ -126,9 +156,25 @@ LYNC-SE.fabrikam.com
 
 Dialin.fabrikam.com
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)
+## <a name="see-also"></a>関連項目
+
+
+[Get-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
