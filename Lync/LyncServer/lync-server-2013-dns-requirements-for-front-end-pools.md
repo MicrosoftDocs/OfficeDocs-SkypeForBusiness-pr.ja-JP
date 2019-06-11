@@ -1,27 +1,49 @@
-﻿---
-title: フロントエンド プールの DNS 要件
-TOCTitle: フロントエンド プールの DNS 要件
-ms:assetid: ba28919c-fbbe-4c54-8bf9-2b0cd3fa39c7
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412910(v=OCS.15)
-ms:contentKeyID: 48273388
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: フロントエンドプールの DNS 要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS requirements for Front End pools
+ms:assetid: ba28919c-fbbe-4c54-8bf9-2b0cd3fa39c7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412910(v=OCS.15)
+ms:contentKeyID: 48185228
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03759267ea10a4eaf7046fd25390b45265e479f6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833368"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# フロントエンド プールの DNS 要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="dns-requirements-for-front-end-pools-in-lync-server-2013"></a><span data-ttu-id="f74f2-102">Lync Server 2013 のフロントエンドプールの DNS 要件</span><span class="sxs-lookup"><span data-stu-id="f74f2-102">DNS requirements for Front End pools in Lync Server 2013</span></span>
 
-ここでは、フロントエンド プールの展開に必要なドメイン ネーム システム (DNS) レコードについて説明します。
+</div>
 
-## フロントエンド プールの DNS レコード
+<div id="mainSection">
 
-次の表に、Lync Server 2013 フロントエンド プール展開における DNS の要件を示します。
+<div id="mainBody">
 
-### フロントエンド プールでの DNS の要件
+<span> </span>
+
+<span data-ttu-id="f74f2-103">_**最終更新日:** 2012-11-07_</span><span class="sxs-lookup"><span data-stu-id="f74f2-103">_**Topic Last Modified:** 2012-11-07_</span></span>
+
+<span data-ttu-id="f74f2-104">このセクションでは、フロントエンドプールの展開に必要なドメインネームシステム (DNS) レコードについて説明します。</span><span class="sxs-lookup"><span data-stu-id="f74f2-104">This section describes the Domain Name System (DNS) records that are required for deployment of Front End pools.</span></span>
+
+<div>
+
+## <a name="dns-records-for-front-end-pools"></a><span data-ttu-id="f74f2-105">フロントエンドプールの DNS レコード</span><span class="sxs-lookup"><span data-stu-id="f74f2-105">DNS Records for Front End Pools</span></span>
+
+<span data-ttu-id="f74f2-106">次の表は、Lync Server 2013 フロントエンドプールの展開の DNS 要件を示しています。</span><span class="sxs-lookup"><span data-stu-id="f74f2-106">The following table specifies DNS requirements for a Lync Server 2013 Front End pool deployment.</span></span>
+
+### <a name="dns-requirements-for-a-front-end-pool"></a><span data-ttu-id="f74f2-107">フロントエンドプールの DNS 要件</span><span class="sxs-lookup"><span data-stu-id="f74f2-107">DNS Requirements for a Front End Pool</span></span>
 
 <table>
 <colgroup>
@@ -30,73 +52,72 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>展開シナリオ</th>
-<th>DNS 要件</th>
+<th><span data-ttu-id="f74f2-108">展開シナリオ</span><span class="sxs-lookup"><span data-stu-id="f74f2-108">Deployment scenario</span></span></th>
+<th><span data-ttu-id="f74f2-109">DNS 要件</span><span class="sxs-lookup"><span data-stu-id="f74f2-109">DNS requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>複数のフロントエンド サーバーと 1 つのロード バランサー機器で構成されるフロントエンド プール (DNS 負荷分散もそのプールで展開されているかどうかは無関係)</p></td>
-<td><p>DNS 負荷分散とロード バランサー機器の両方を使用する場合は、ホスト (A) レコードが必要になります。DNS 負荷分散用のフロント エンド プールの完全修飾ドメイン名 (FQDN) を解決する内部 A レコードを作成します。ロード バランサーの仮想 IP (VIP) アドレスに対する内部 Web サービスの内部ホスト (A) レコードを作成します。トポロジ ビルダーで定義されている内部 Web サービス名を使用する必要があります。</p>
-<p>たとえば、DNS 負荷分散とハードウェア負荷分散の両方を使用する場合、DNS 負荷分散用のプール内のフロント エンド サーバーごとに A レコードが 1 つ、ロード バランサー機器の仮想 IP をポイントする内部 Web サービス用に A レコードが 1 つ必要です。</p>
+<td><p><span data-ttu-id="f74f2-110">複数のフロントエンドサーバーとハードウェアロードバランサーを備えたフロントエンドプール (このプールには DNS 負荷分散も展開されているかどうかにかかわらず)</span><span class="sxs-lookup"><span data-stu-id="f74f2-110">Front End pool with multiple Front End Servers and a hardware load balancer (whether or not DNS load balancing is also deployed on that pool)</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-111">DNS ロードバランシングとハードウェアロードバランサーの両方を使用する場合は、(A) レコードをホストする必要があります。</span><span class="sxs-lookup"><span data-stu-id="f74f2-111">When using both DNS load balancing and a hardware load balancer, you need to Host (A) records.</span></span> <span data-ttu-id="f74f2-112">DNS の負荷分散のために、フロントエンドプールの完全修飾ドメイン名 (FQDN) を解決する内部 A レコードを作成します。</span><span class="sxs-lookup"><span data-stu-id="f74f2-112">Create an internal A record that resolves the fully qualified domain name (FQDN) of the Front End pool for DNS load balancing.</span></span> <span data-ttu-id="f74f2-113">内部 Web サービスの内部ホスト (A) レコードを、ロードバランサーの仮想 IP (VIP) アドレスに作成します。</span><span class="sxs-lookup"><span data-stu-id="f74f2-113">Create an internal host (A) record for the internal Web services to the virtual IP (VIP) address of the load balancer.</span></span> <span data-ttu-id="f74f2-114">トポロジビルダーで定義されている内部 Web サービス名を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f74f2-114">You must use the internal Web services name as defined in Topology Builder.</span></span></p>
+<p><span data-ttu-id="f74f2-115">たとえば、DNS の負荷分散とハードウェアの負荷分散の両方を使用する場合は、DNS の負荷分散用のプール内の各フロントエンドサーバーの A レコードと、ハードウェアロードバランサーの仮想 IP を指す内部 Web サービスの A レコードがあります。:</span><span class="sxs-lookup"><span data-stu-id="f74f2-115">For example, if you use both DNS load balancing and hardware load balancing, you would have an A record for each Front End Server in a pool for DNS load balancing, and an A record for the internal Web services pointing to the virtual IP of the hardware load balancer:</span></span></p>
 <ul>
-<li><p>DNS 負荷分散:   Pool01.contoso.net   プールの IP アドレス   10.10.10.5</p>
+<li><p><span data-ttu-id="f74f2-116">DNS の負荷分散: Pool01.contoso.net プールの IP アドレス10.10.10.5</span><span class="sxs-lookup"><span data-stu-id="f74f2-116">DNS load balancing:   Pool01.contoso.net   IP Address of pool   10.10.10.5</span></span></p>
 <div>
 
-> [!WARNING]
-> 各フロント エンド サーバーにも一意の A レコードがあります。
+> [!WARNING]  
+> <span data-ttu-id="f74f2-117">各フロントエンドサーバーにも、個別のレコードがあります。</span><span class="sxs-lookup"><span data-stu-id="f74f2-117">Each Front End Server will also have a distinct A record:</span></span>
 
 
 </div>
 <ol>
-<li><p>FE01.contoso.net    10.10.10.1</p></li>
-<li><p>FE02.contoso.net    10.10.10.2</p></li>
-<li><p>FE03.contoso.net    10.10.10.3</p></li>
-<li><p>FE04.contoso.net    10.10.10.4</p></li>
+<li><p><span data-ttu-id="f74f2-118">FE01.contoso.net 10.10.10.1</span><span class="sxs-lookup"><span data-stu-id="f74f2-118">FE01.contoso.net    10.10.10.1</span></span></p></li>
+<li><p><span data-ttu-id="f74f2-119">FE02.contoso.net 10.10.10.2</span><span class="sxs-lookup"><span data-stu-id="f74f2-119">FE02.contoso.net    10.10.10.2</span></span></p></li>
+<li><p><span data-ttu-id="f74f2-120">FE03.contoso.net 10.10.10.3</span><span class="sxs-lookup"><span data-stu-id="f74f2-120">FE03.contoso.net    10.10.10.3</span></span></p></li>
+<li><p><span data-ttu-id="f74f2-121">FE04.contoso.net 10.10.10.4</span><span class="sxs-lookup"><span data-stu-id="f74f2-121">FE04.contoso.net    10.10.10.4</span></span></p></li>
 </ol></li>
-<li><p>ハードウェア負荷分散:   WebInternal.contoso.net   HLB VIP の IP アドレス   192.168.10.5</p></li>
+<li><p><span data-ttu-id="f74f2-122">ハードウェア負荷分散: HLB VIP 192.168.10.5 の WebInternal.contoso.net IP アドレス</span><span class="sxs-lookup"><span data-stu-id="f74f2-122">Hardware load balancing:   WebInternal.contoso.net   IP Address of HLB VIP   192.168.10.5</span></span></p></li>
 </ul>
-<p>HTTP/HTTPS トラフィックを除くすべてのトラフィックは、Pool01.contoso.net レコードを使用します。HTTP/HTTPS トラフィックは、定義された内部 Web サービス アドレス 192.168.10.5 を使用します。</p></td>
+<p><span data-ttu-id="f74f2-123">HTTP/HTTPS トラフィック以外のすべてのトラフィックでは、Pool01.contoso.net レコードが使用されます。</span><span class="sxs-lookup"><span data-stu-id="f74f2-123">All traffic except for HTTP/HTTPS traffic will use the Pool01.contoso.net record.</span></span> <span data-ttu-id="f74f2-124">HTTP/HTTPS トラフィックでは、定義された内部 Web サービスのアドレスを使用します192.168.10.5</span><span class="sxs-lookup"><span data-stu-id="f74f2-124">HTTP/HTTPS traffic will use the defined internal Web services address of 192.168.10.5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DNS 負荷分散が展開されているフロントエンド プール</p></td>
-<td><p>プールの FQDN をそのプールの各サーバーの IP アドレスに解決する内部 A レコードのセット。プール内のサーバーごとに A レコードが 1 つ必要です。</p></td>
+<td><p><span data-ttu-id="f74f2-125">DNS 負荷分散が展開されたフロントエンドプール</span><span class="sxs-lookup"><span data-stu-id="f74f2-125">Front End pool with DNS load balancing deployed</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-126">プールの FQDN を、プールの各サーバーの IP アドレスに解決する内部 A レコードのセット。</span><span class="sxs-lookup"><span data-stu-id="f74f2-126">A set of internal A records that resolve the FQDN of the pool to the IP address of each server in the pool.</span></span> <span data-ttu-id="f74f2-127">プール内の各サーバーに1つのレコードが必要です。</span><span class="sxs-lookup"><span data-stu-id="f74f2-127">There must one A record for each server in the pool.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>DNS 負荷分散が展開されているフロントエンド プール</p></td>
-<td><p>プール内の各サーバーの FQDN をそのサーバーの IP アドレスに解決する内部 A レコードのセット。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-dns-load-balancing.md">Lync Server 2013 での DNS 負荷分散</a>」を参照してください。</p></td>
+<td><p><span data-ttu-id="f74f2-128">DNS 負荷分散が展開されたフロントエンドプール</span><span class="sxs-lookup"><span data-stu-id="f74f2-128">Front End pool with DNS load balancing deployed</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-129">プール内の各サーバーの FQDN をそのサーバーの IP アドレスに解決する内部 A レコードのセット。</span><span class="sxs-lookup"><span data-stu-id="f74f2-129">A set of internal A records that resolve the FQDN of each server in the pool to the IP address of that server.</span></span> <span data-ttu-id="f74f2-130">詳細については、計画ドキュメントの「 <a href="lync-server-2013-dns-load-balancing.md">Lync Server 2013 での DNS の負荷分散</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f74f2-130">For details, see <a href="lync-server-2013-dns-load-balancing.md">DNS load balancing in Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>1 つのフロントエンド サーバーおよび専用のバックエンド データベースを備え、ロード バランサーは備えていないフロントエンド プール</p></td>
-<td><p>フロントエンド プールの FQDN を 1 つの Enterprise Edition フロントエンド サーバーの IP アドレスに解決する内部 A レコード。</p>
-<p></p></td>
+<td><p><span data-ttu-id="f74f2-131">フロントエンドサーバーと、専用のバックエンドデータベースを備えたフロントエンドプール (ロードバランサーはありません)</span><span class="sxs-lookup"><span data-stu-id="f74f2-131">Front End pool with a single Front End Server and a dedicated back-end database but no load balancer</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-132">フロントエンドプールの FQDN を単一の Enterprise Edition フロントエンドサーバーの IP アドレスに解決する内部の A レコード。</span><span class="sxs-lookup"><span data-stu-id="f74f2-132">An internal A record that resolves the FQDN of the Front End pool to the IP address of the single Enterprise Edition Front End Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>自動クライアント サインイン</p></td>
-<td><p>サポートされている SIP ドメインごとの _sipinternaltls._tcp.&lt;ドメイン&gt; の SRV レコード (ポート 5061 経由)。このレコードは、サインインのクライアント要求を認証およびリダイレクトするフロントエンド プールの FQDN にマップされます。詳細については、「<a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">Lync Server 2013 での自動クライアント サインインの DNS 要件</a>」を参照してください。</p></td>
+<td><p><span data-ttu-id="f74f2-133">自動クライアントサインイン</span><span class="sxs-lookup"><span data-stu-id="f74f2-133">Automatic client sign-in</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-134">サポートされている各 SIP ドメインについて、_sipinternaltls の SRV レコード。 _tcp&lt;サインイン&gt;のためのクライアント要求を認証してリダイレクトするフロントエンドプールの FQDN にマップされる、ポート5061経由のドメイン。</span><span class="sxs-lookup"><span data-stu-id="f74f2-134">For each supported SIP domain, an SRV record for _sipinternaltls._tcp.&lt;domain&gt; over port 5061 that maps to the FQDN of the Front End pool that authenticates and redirects client requests for sign-in.</span></span> <span data-ttu-id="f74f2-135">詳細については、「 <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">Lync Server 2013 での自動クライアントサインインの DNS 要件</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f74f2-135">For details, see <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS requirements for automatic client sign-in in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>統合コミュニケーション (UC) デバイスによるデバイス更新 Web サービスの検出</p></td>
-<td><p>デバイス更新 Web サービスをホストするフロントエンド プールの IP アドレスに解決する、名前が ucupdates-r2.&lt;SIP ドメイン&gt; の内部 A レコード。UC デバイスが有効になっていても、ユーザーがデバイスにログインしたことがない場合、デバイスは、A レコードを使用して、デバイス更新 Web サービスをホストするフロントエンド プールを検出し、更新プログラムを取得できます。この方法を実行しない場合、デバイスはユーザーが最初にログインしたときにインバンド プロビジョニングを通じてこの情報を取得します。</p>
+<td><p><span data-ttu-id="f74f2-136">ユニファイドコミュニケーション (UC) デバイスによるデバイス更新 Web サービスの検出</span><span class="sxs-lookup"><span data-stu-id="f74f2-136">Device Update Web service discovery by unified communications (UC) devices</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-137">"Ucupdates-r2" という名前の内部 A レコード。&lt;デバイス更新&gt; Web サービスをホストしているフロントエンドプールの IP アドレスに解決される SIP ドメイン。</span><span class="sxs-lookup"><span data-stu-id="f74f2-137">An internal A record with the name ucupdates-r2.&lt;SIP domain&gt; that resolves to the IP address of the Front End pool that hosts the Device Update Web service.</span></span> <span data-ttu-id="f74f2-138">UC デバイスが有効になっている状態で、ユーザーがデバイスにログインしたことがない場合、A レコードにより、デバイスはデバイス更新 Web サービスをホストするフロントエンドプールを検出し、更新プログラムを入手できます。</span><span class="sxs-lookup"><span data-stu-id="f74f2-138">In the situation where a UC device is turned on, but a user has never logged into the device, the A record allows the device to discover the Front End pool hosting Device Update Web service and obtain updates.</span></span> <span data-ttu-id="f74f2-139">そうしないと、デバイスは、ユーザーが初めてログインしたときに、インバンドプロビジョニングでこの情報を取得します。</span><span class="sxs-lookup"><span data-stu-id="f74f2-139">Otherwise, devices obtain this information though in-band provisioning the first time a user logs in.</span></span></p>
 <div>
 
-> [!IMPORTANT]
-> Lync Server 2010 にデバイス更新 Web サービスの既存の展開がある場合は、ucupdates.&lt;SIP ドメイン&gt; という名前の内部 A レコードが既に作成されています。Microsoft Office Communications Server 2007 R2 の場合は、名前が ucupdates-r2.&lt;SIP ドメイン&gt; の追加の DNS A レコードを作成する必要があります。
+> [!IMPORTANT]  
+> <span data-ttu-id="f74f2-140">Lync Server 2010 で既存のデバイス更新 Web サービスを展開している場合は、「ucupdates」という名前の内部レコードが既に作成されています。&lt;SIP ドメイン&gt;。</span><span class="sxs-lookup"><span data-stu-id="f74f2-140">If you have an existing deployment of Device Update Web service in Lync Server 2010, you have already created an internal A record with the name ucupdates.&lt;SIP domain&gt;.</span></span> <span data-ttu-id="f74f2-141">Microsoft Office Communications Server 2007 R2 の場合は、ucupdates-R2 という名前の追加 DNS A レコードを作成する必要があります。&lt;SIP ドメイン&gt;。</span><span class="sxs-lookup"><span data-stu-id="f74f2-141">For Microsoft Office Communications Server 2007 R2, you must create an additional DNS A record with the name ucupdates-r2.&lt;SIP domain&gt;.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>HTTP トラフィックをサポートするためのリバース プロキシ</p></td>
-<td><p>Web ファームの外部 FQDN を、リバース プロキシの外部 IP アドレスに解決する外部 A レコード。クライアントと UC デバイスは、このレコードを使用してリバース プロキシに接続します。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013 の DNS の要件を確認する</a>」を参照してください。</p></td>
+<td><p><span data-ttu-id="f74f2-142">HTTP トラフィックをサポートする逆プロキシ</span><span class="sxs-lookup"><span data-stu-id="f74f2-142">A reverse proxy to support HTTP traffic</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-143">外部の web ファーム FQDN をリバースプロキシの外部 IP アドレスに解決する外部の A レコード。</span><span class="sxs-lookup"><span data-stu-id="f74f2-143">An external A record that resolves the external web farm FQDN to the external IP address of the reverse proxy.</span></span> <span data-ttu-id="f74f2-144">クライアントと UC デバイスこのレコードを使ってリバースプロキシに接続します。</span><span class="sxs-lookup"><span data-stu-id="f74f2-144">Clients and UC devices use this record to connect to the reverse proxy.</span></span> <span data-ttu-id="f74f2-145">詳細については、「計画ドキュメントの「 <a href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013 の DNS 要件を決定</a>する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f74f2-145">For details, see <a href="lync-server-2013-determine-dns-requirements.md">Determine DNS requirements for Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-次の表に、内部 Web ファームの FQDN で必要な DNS レコードの例を示します。
+<span data-ttu-id="f74f2-146">次の表は、内部 web ファーム FQDN に必要な DNS レコードの例を示しています。</span><span class="sxs-lookup"><span data-stu-id="f74f2-146">The following table shows an example of the DNS records required for the internal web farm FQDN.</span></span>
 
-### 内部 Web ファームの FQDN のための DNS レコードの例
+### <a name="example-dns-records-for-internal-web-farm-fqdn"></a><span data-ttu-id="f74f2-147">内部 Web ファーム FQDN の DNS レコードの例</span><span class="sxs-lookup"><span data-stu-id="f74f2-147">Example DNS Records for Internal Web Farm FQDN</span></span>
 
 <table>
 <colgroup>
@@ -106,24 +127,37 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>内部 Web ファームの FQDN</th>
-<th>プールの FQDN</th>
-<th>DNS A レコード</th>
+<th><span data-ttu-id="f74f2-148">内部 web ファーム FQDN</span><span class="sxs-lookup"><span data-stu-id="f74f2-148">Internal web farm FQDN</span></span></th>
+<th><span data-ttu-id="f74f2-149">プールの FQDN</span><span class="sxs-lookup"><span data-stu-id="f74f2-149">Pool FQDN</span></span></th>
+<th><span data-ttu-id="f74f2-150">DNS A レコード</span><span class="sxs-lookup"><span data-stu-id="f74f2-150">DNS A record(s)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>webcon.contoso.com</p></td>
-<td><p>ee-pool.contoso.com</p></td>
-<td><p>フロントエンド サーバーが使用するロード バランサーの VIP アドレスに解決する ee-pool.contoso.com の DNS A レコード。</p>
-<p>フロントエンド サーバーが使用するロード バランサーの VIP アドレスに解決する webcon.contoso.com の DNS A レコード。</p></td>
+<td><p><span data-ttu-id="f74f2-151">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="f74f2-151">webcon.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-152">ee-pool.contoso.com</span><span class="sxs-lookup"><span data-stu-id="f74f2-152">ee-pool.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-153">DNS A フロントエンドサーバーによって使用されるロードバランサーの VIP アドレスに解決される ee-pool.contoso.com のレコード。</span><span class="sxs-lookup"><span data-stu-id="f74f2-153">DNS A record for the ee-pool.contoso.com that resolves to the VIP address of the load balancer used by the Front End Servers.</span></span></p>
+<p><span data-ttu-id="f74f2-154">DNS A フロントエンドサーバーによって使用されるロードバランサーの VIP アドレスに解決される webcon.contoso.com のレコード。</span><span class="sxs-lookup"><span data-stu-id="f74f2-154">DNS A record for webcon.contoso.com that resolves to the VIP address of the load balancer used by the Front End Servers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>ee-pool.contoso.com</p></td>
-<td><p>ee-pool.contoso.com</p></td>
-<td><p>フロントエンド プールの Enterprise Edition フロントエンド サーバーが使用するロード バランサーの仮想 IP (VIP) アドレスに解決する ee-pool.contoso.com の DNS A レコード。</p>
-<p>このプールで DNS 負荷分散を使用する場合は、フロントエンド プールと内部 Web ファームで同じ FQDN を使用することはできません。</p></td>
+<td><p><span data-ttu-id="f74f2-155">ee-pool.contoso.com</span><span class="sxs-lookup"><span data-stu-id="f74f2-155">ee-pool.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-156">ee-pool.contoso.com</span><span class="sxs-lookup"><span data-stu-id="f74f2-156">ee-pool.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="f74f2-157">DNS A ee-pool.contoso.com の A レコード。フロントエンドプールの Enterprise Edition フロントエンドサーバーによって使用されるロードバランサーの仮想 IP (VIP) アドレスに解決されます。</span><span class="sxs-lookup"><span data-stu-id="f74f2-157">DNS A record for ee-pool.contoso.com that resolves to the virtual IP (VIP) address of the load balancer used by the Enterprise Edition Front End Servers in the Front End pool.</span></span></p>
+<p><span data-ttu-id="f74f2-158">このプールで DNS の負荷分散を使用している場合は、フロントエンドプールと内部 web ファームの FQDN を同じにすることはできません。</span><span class="sxs-lookup"><span data-stu-id="f74f2-158">Note that if you are using DNS load balancing on this pool, your Front End pool and internal web farm cannot have the same FQDN.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

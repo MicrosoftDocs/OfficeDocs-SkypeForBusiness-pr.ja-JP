@@ -1,21 +1,51 @@
-﻿---
-title: 'Lync Server 2013: Lync 2013 用オンライン会議アドインの展開'
-TOCTitle: Lync 2013 用オンライン会議アドインの展開
-ms:assetid: ce8608f6-71d4-46f1-b101-50f163916d52
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398873(v=OCS.15)
-ms:contentKeyID: 48273614
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync 2013 用オンライン会議アドインの展開'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploy the Online Meeting Add-in for Lync 2013
+ms:assetid: ce8608f6-71d4-46f1-b101-50f163916d52
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398873(v=OCS.15)
+ms:contentKeyID: 48185485
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7ece8175be48e0d1fd49915f21370fc64f809460
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833569"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync 2013 用オンライン会議アドインの展開
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-30_
+# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a><span data-ttu-id="44508-102">Lync 2013 用オンライン会議アドインの展開</span><span class="sxs-lookup"><span data-stu-id="44508-102">Deploy the Online Meeting Add-in for Lync 2013</span></span>
 
-ダイヤルイン会議をサポートする会議をユーザーがスケジュールできるよう、 Lync 2013 用オンライン ミーティング アドインを展開します。
+</div>
 
-Lync 2013 用オンライン ミーティング アドインは、 Lync 2013 をインストールすると自動的にインストールされます。 Lync 2013 用オンライン ミーティング アドインの Lync 向けのカスタマイズの詳細については、「[会議出席依頼の構成](lync-server-2013-configuring-the-meeting-invitation.md)」を参照してください。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="44508-103">_**最終更新日:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="44508-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+
+<span data-ttu-id="44508-104">Lync 2013 用のオンライン会議アドインを展開して、ユーザーがダイヤルイン会議をサポートする会議をスケジュールできるようにします。</span><span class="sxs-lookup"><span data-stu-id="44508-104">Deploy the Online Meeting Add-in for Lync 2013 so that users can schedule conferences that support dial-in conferencing.</span></span>
+
+<span data-ttu-id="44508-105">Lync 2013 をインストールすると、Lync 2013 用のオンライン会議アドインが自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="44508-105">The Online Meeting Add-in for Lync 2013 is installed automatically when you install Lync 2013.</span></span> <span data-ttu-id="44508-106">Lync 用の Lync 2013 用のオンライン会議アドインのカスタマイズの詳細については、「 [Lync Server 2013 で会議出席依頼を設定する](lync-server-2013-configuring-the-meeting-invitation.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="44508-106">For details about customizing Online Meeting Add-in for Lync 2013 for Lync, see [Configuring the meeting invitation in Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

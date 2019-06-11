@@ -1,68 +1,138 @@
-﻿---
-title: 'Lync Server 2013: オペレーティング システムと必要なソフトウェアのサーバーへのインストール'
-TOCTitle: オペレーティング システムと必要なソフトウェアのサーバーへのインストール
-ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398103(v=OCS.15)
-ms:contentKeyID: 48271115
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: オペレーティング システムと必要なソフトウェアのサーバーへのインストール
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install operating systems and prerequisite software on servers
+ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398103(v=OCS.15)
+ms:contentKeyID: 48183288
+ms.date: 07/24/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 26a4eed86f12386b10b49d4290a4596b40c1fcc9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833010"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のオペレーティング システムと必要なソフトウェアのサーバーへのインストール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="install-operating-systems-and-prerequisite-software-on-servers-for-lync-server-2013"></a><span data-ttu-id="7b894-102">Lync Server 2013 のオペレーティング システムと必要なソフトウェアのサーバーへのインストール</span><span class="sxs-lookup"><span data-stu-id="7b894-102">Install operating systems and prerequisite software on servers for Lync Server 2013</span></span>
 
-ハードウェアおよびシステム インフラストラクチャのセットアップ後は、展開する各サーバーに適切な Windows オペレーティング システム、更新プログラム、およびその他の必要なソフトウェアをすべてインストールする必要があります。これには、展開に必要な、各 Lync Server 2013 サーバーの役割と、追加のインフラストラクチャ サーバーまたは SQL Server 実行サーバーが含まれます。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="7b894-103">_**最終更新日:** 2014-07-24_</span><span class="sxs-lookup"><span data-stu-id="7b894-103">_**Topic Last Modified:** 2014-07-24_</span></span>
+
+<span data-ttu-id="7b894-104">ハードウェアとシステムインフラストラクチャをセットアップした後は、展開する各サーバー上の他のすべての必須ソフトウェアに加えて、適切な Windows オペレーティングシステムと更新プログラムをインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7b894-104">After you have set up the hardware and system infrastructure, you need to install the appropriate Windows operating systems and updates, in addition to all other prerequisite software on each server that you are deploying.</span></span> <span data-ttu-id="7b894-105">これには、各 Lync Server 2013 サーバーの役割と、展開に必要な SQL Server が実行されているその他のインフラストラクチャサーバーまたはサーバーが含まれます。</span><span class="sxs-lookup"><span data-stu-id="7b894-105">This includes each Lync Server 2013 server role and any additional infrastructure servers or servers running SQL Server that are required for your deployment.</span></span>
+
+<div>
+
 
 > [!NOTE]
-> ここでは、オペレーティング システムと内部サーバーに必要なソフトウェアのインストールについて説明します。外部ユーザー アクセスをサポートするために エッジ サーバーを展開する場合は、そうしたサーバーに必要なオペレーティング システムやソフトウェア (エッジ サーバー、リバース プロキシ サーバーなど) もインストールする必要があります。外部ユーザー アクセスをサポートするためのサーバーの準備の詳細については、「展開」のドキュメントの「<a href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Lync Server 2013 の境界ネットワークへのサーバーのインストールの準備</a>」を参照してください。
+> <span data-ttu-id="7b894-106">このセクションでは、内部サーバーのオペレーティングシステムと必須ソフトウェアのインストールについて説明します。</span><span class="sxs-lookup"><span data-stu-id="7b894-106">This section describes installation of operating systems and prerequisite software for internal servers.</span></span> <span data-ttu-id="7b894-107">エッジサーバーを展開して外部ユーザーのアクセスをサポートする場合は、エッジサーバーやリバースプロキシサーバーなど、それらのサーバーのオペレーティングシステムと必須ソフトウェアをインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7b894-107">If you are deploying Edge Servers to support external user access, you also need to install operating systems and prerequisite software for those servers, including Edge Servers and reverse proxy servers.</span></span> <span data-ttu-id="7b894-108">外部ユーザーアクセスをサポートするようにサーバーを準備する方法について詳しくは、「展開ドキュメントの「<A href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">境界ネットワークでの Lync Server 2013 の境界ネットワークでのサーバーインストールの準備</A>」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="7b894-108">For details about preparing servers to support external user access, see <A href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Preparing for installation of servers in the perimeter network for Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
-## サーバーへの Windows オペレーティング システムのインストール
 
-展開するサーバーごとに適切な Windows オペレーティング システムをインストールします。
+</div>
 
-  - **Lync Server 2013 を実行するサーバー**Lync Server 2013 を実行するサーバーのオペレーティング システム要件の詳細については、「サポート」のドキュメントの「[Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
+<div>
 
-  - **データベース サーバー**   データベース サーバー (バック エンド データベース、アーカイブ データベース、監視データベースなど) のオペレーティング システム要件の詳細については、SQL Server のドキュメントを参照してください。 SQL Server 2012 の場合は、「SQL Server 2012 のインストール」([http://go.microsoft.com/fwlink/?linkid=218015\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=218015%26clcid=0x411)) を参照してください。
+## <a name="install-windows-operating-systems-on-servers"></a><span data-ttu-id="7b894-109">Windows オペレーティングシステムをサーバーにインストールする</span><span class="sxs-lookup"><span data-stu-id="7b894-109">Install Windows Operating Systems on Servers</span></span>
+
+<span data-ttu-id="7b894-110">展開する各サーバーで、次のように適切な Windows オペレーティングシステムをインストールします。</span><span class="sxs-lookup"><span data-stu-id="7b894-110">On each server that you are deploying, install the appropriate Windows operating system as follows:</span></span>
+
+  - <span data-ttu-id="7b894-111">**Lync server 2013**   を実行しているサーバー lync server 2013 を実行しているサーバーのオペレーティングシステム要件の詳細については、サポートドキュメントの「 [lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7b894-111">**Servers running Lync Server 2013**   For details about the operating system requirements for servers running Lync Server 2013, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.</span></span>
+
+  - <span data-ttu-id="7b894-112">**データベース**サーバー: バックエンドデータベース、アーカイブデータベース、監視データベースなど、データベースサーバーのオペレーティングシステム要件の詳細については、SQL Server のドキュメントを参照してください。   </span><span class="sxs-lookup"><span data-stu-id="7b894-112">**Database servers**   For details about operating system requirements for database servers, including the back-end database, Archiving database, and Monitoring database, see the SQL Server documentation.</span></span> <span data-ttu-id="7b894-113">SQL Server 2012 の場合は、SQL Server 2012 Books Online を[http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)参照してください。</span><span class="sxs-lookup"><span data-stu-id="7b894-113">For SQL Server 2012, see the SQL Server 2012 Books Online at [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015).</span></span>
+
+<div>
+
 
 > [!NOTE]
-> Lync Server 2013 を Windows Server 2008 R2 にインストールする場合は、Microsoft サポート技術情報の記事 2646886「FIX: Heap corruption occurs when a module calls the InsertEntityBody method in IIS 7.5 (英語)」(<a href="http://go.microsoft.com/fwlink/?linkid=3052%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;clcid=0x411</a>) に記載されている更新プログラムを最初にインストールする必要があります。<br />
-> さらに、サポート技術情報の記事「<a href="http://go.microsoft.com/fwlink/p/?linkid=506893">Windows Server 2012 の R2 に取り付けられている Lync Server 2013 のフロント エンド サーバーでログに記録はイベント Id 32402、61045</a>」に従って、レジストリも変更する必要があります。
+> <span data-ttu-id="7b894-114">Windows Server&nbsp;2008&nbsp;R2 SP1 で Lync Server 2013 をインストールする場合は、Microsoft サポート技術情報の記事2646886「FIX: モジュールが insertentitybody メソッドを呼び出したときにヒープの破損が発生する」で説明されている更新プログラムをインストールする必要があります。IIS 7.5 "、at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 2646886</A>。</span><span class="sxs-lookup"><span data-stu-id="7b894-114">If you are installing Lync Server 2013 on Windows Server&nbsp;2008&nbsp;R2 with SP1, you must first install the update described in the Microsoft Knowledge Based article 2646886, “FIX: Heap corruption occurs when a module calls the InsertEntityBody method in IIS 7.5”, at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886">http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2646886</A>.</span></span><BR><span data-ttu-id="7b894-115">また、「サポート技術情報」の記事に記載されているようにレジストリを変更する必要があります。これには、 <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">Windows Server 2012 R2 にインストールされている Lync Server 2013 フロントエンドサーバーに</A>保存されている、「イベント id 32402, 61045 の記録」の</span><span class="sxs-lookup"><span data-stu-id="7b894-115">You must also modify the registry as described in the KB article, <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">Event IDs 32402, 61045 are logged in Lync Server 2013 Front End servers that are installed in Windows Server 2012 R2</A>.</span></span>
 
 
-## サーバーへの Windows Updateのインストール
 
-Windows Update で提供されている次の更新プログラムを各サーバーにインストールします。
+</div>
 
-  - **Lync Server 2013 を実行するサーバー用の Windows 更新プログラム**   Lync Server 2013 を実行するサーバーに必要な、Windows Updateの更新プログラムの詳細については、「計画」のドキュメントの「[Lync Server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。
+</div>
 
-  - **データベース サーバー**   データベース サーバー (バックエンド データベース、アーカイブ データベース、監視データベースなど) に必要な、Windows Update の更新プログラムの詳細については、SQL Server 2012 のドキュメントを参照してください。 SQL Server 2012 の場合は、「SQL Server 2012 のインストール」([http://go.microsoft.com/fwlink/?linkid=218015\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=218015%26clcid=0x411)) を参照してください。
+<div>
 
-## 他の必要なソフトウェアのサーバーへのインストール
+## <a name="install-windows-update-on-servers"></a><span data-ttu-id="7b894-116">サーバーに Windows Update をインストールする</span><span class="sxs-lookup"><span data-stu-id="7b894-116">Install Windows Update on Servers</span></span>
 
-Lync Server 2013 では、以下の追加ソフトウェアをサーバーにインストールする必要があります。
+<span data-ttu-id="7b894-117">各サーバー上の Windows Update から以下の更新プログラムをインストールします。</span><span class="sxs-lookup"><span data-stu-id="7b894-117">Install the following updates from Windows Update on each server:</span></span>
 
-  - **Lync Server 2013 を実行するサーバーに必要なソフトウェア**    Lync Server 2013 を実行するサーバーに必要な追加ソフトウェアは、展開するサーバーの役割によって異なります。各サーバー特有のソフトウェア要件の詳細については、「計画」のドキュメントの「[Lync Server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。
+  - <span data-ttu-id="7b894-118">**Lync server 2013**   を実行しているサーバーの windows update lync server 2013 を実行しているサーバーに必要な windows update の更新プログラムの詳細については、「計画の[lync server 2013 のその他のソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。documentation.</span><span class="sxs-lookup"><span data-stu-id="7b894-118">**Windows Update for servers running Lync Server 2013**   For details about the updates from Windows Update that are required for servers running Lync Server 2013, see [Additional software requirements for Lync Server 2013](lync-server-2013-additional-software-requirements.md) in the Planning documentation.</span></span>
 
-  - **Windows Identity Foundation**    Lync Server 2013 では、サーバー間認証のシナリオをサポートするために、Windows Identity Foundation のインストールが必要です。既に Windows Identity Foundation がコンピューターにインストールされているかどうかを確認するには、コントロール パネルを開き、\[**プログラムと機能**\]、\[**インストールされている更新プログラムを表示**\] の順にクリックして、\[**Microsoft Windows**\] の下を探します。Windows Identity Foundation のインストールの詳細については、([http://go.microsoft.com/fwlink/?linkid=204657\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=204657%26clcid=0x411)) を参照してください。
+  - <span data-ttu-id="7b894-119">**データベース**   サーバーバックエンドデータベース、アーカイブデータベース、監視データベースなど、データベースサーバーに必要な更新プログラムの詳細については、SQL Server 2012 に関するドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="7b894-119">**Database servers**   For details about the updates from Windows Update that are required for database servers, including the back-end database, Archiving database, and Monitoring database, see the SQL Server 2012 documentation.</span></span> <span data-ttu-id="7b894-120">SQL Server 2012 の場合は、SQL Server 2012 Books Online を[http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)参照してください。</span><span class="sxs-lookup"><span data-stu-id="7b894-120">For SQL Server 2012, see the SQL Server 2012 Books Online at [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015).</span></span>
 
-  - **Microsoft .NET Framework 4.5**    Lync Server 2013 には、64 ビット版の Microsoft .NET Framework 4.5 が必要です。
+</div>
 
-  - **データベース サーバーに必要なソフトウェア**   データベース サーバー (バックエンド データベース、アーカイブ データベース、監視データベースなど) に必要な Windows 更新プログラムの詳細については、SQL Server 2012 のドキュメント ([http://go.microsoft.com/fwlink/?linkid=218015\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=218015%26clcid=0x411)) を参照してください。
+<div>
+
+## <a name="install-other-prerequisite-software-on-servers"></a><span data-ttu-id="7b894-121">サーバーにその他の必須ソフトウェアをインストールする</span><span class="sxs-lookup"><span data-stu-id="7b894-121">Install Other Prerequisite Software on Servers</span></span>
+
+<span data-ttu-id="7b894-122">Lync Server 2013 では、サーバーに次の追加ソフトウェアがインストールされている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7b894-122">Lync Server 2013 requires the installation of the following additional software on servers:</span></span>
+
+  - <span data-ttu-id="7b894-123">**Lync server 2013**   を実行しているサーバーの必須ソフトウェア。 lync server 2013 を実行しているサーバーの追加ソフトウェアの前提条件は、展開されているサーバーの役割によって異なります。</span><span class="sxs-lookup"><span data-stu-id="7b894-123">**Prerequisite software for servers running Lync Server 2013**   The additional software prerequisites for servers running Lync Server 2013 depend on the server role being deployed.</span></span> <span data-ttu-id="7b894-124">各サーバー固有のソフトウェア要件の詳細については、「計画ドキュメントの「 [Lync server 2013 のその他のソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7b894-124">For details about the specific software requirements for each server, see [Additional software requirements for Lync Server 2013](lync-server-2013-additional-software-requirements.md) in the Planning documentation.</span></span>
+
+  - <span data-ttu-id="7b894-125">**Windows identity foundation**   Lync Server 2013 では、サーバー間認証のシナリオをサポートするために、windows id ファンデーションをインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7b894-125">**Windows Identity Foundation**   Lync Server 2013 requires the installation of Windows Identity Foundation in order to support server-to-server authentication scenarios.</span></span> <span data-ttu-id="7b894-126">コンピューターにインストールされていることを確認するには、[コントロールパネル]、[**プログラムと機能**]、[**インストールされている更新**プログラムの表示]、[ **Microsoft Windows**] の下の [確認] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7b894-126">To verify that it has already been installed on your computer, go to Control Panel, click **Programs and Features**, **View installed updates**, and look under **Microsoft Windows**.</span></span> <span data-ttu-id="7b894-127">Windows Id Foundation のインストールの詳細につい[http://go.microsoft.com/fwlink/p/?linkId=204657](http://go.microsoft.com/fwlink/p/?linkid=204657)ては、を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7b894-127">For details about installing Windows Identity Foundation, see [http://go.microsoft.com/fwlink/p/?linkId=204657](http://go.microsoft.com/fwlink/p/?linkid=204657).</span></span>
+
+  - <span data-ttu-id="7b894-128">**Microsoft .net framework 4.5**   Lync Server 2013 には、64ビット版の microsoft .net framework 4.5 が必要です。</span><span class="sxs-lookup"><span data-stu-id="7b894-128">**Microsoft .NET Framework 4.5**   The 64-bit edition of Microsoft .NET Framework 4.5 is required for Lync Server 2013.</span></span>
+
+  - <span data-ttu-id="7b894-129">**データベースサーバー**   用の必須ソフトウェアバックエンドデータベース、アーカイブデータベース、監視データベースなど、データベースサーバーに必要な Windows Update の詳細については、SQL Server 2012 ドキュメントを参照[http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)してください。</span><span class="sxs-lookup"><span data-stu-id="7b894-129">**Prerequisite software for database servers**   For details about the Windows Update required for database servers, including the back-end database, Archiving database, and Monitoring database, see the SQL Server 2012 documentation at [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015).</span></span>
     
-    > [!NOTE]
-    > Lync Server 2013 では、各 Standard Edition サーバーと、ローカル構成ストアが配置される Lync Server 2013 実行サーバーのそれぞれに、Microsoft SQL Server 2012 Express が自動的にインストールされます。
-
-
-  - **Windows Media フォーマット ランタイム**   会議が展開される フロント エンド サーバーおよび Standard Edition サーバーのすべてに Windows Media フォーマット ランタイムをインストールする必要があります。Windows Media フォーマット ランタイムは、コール パーク、アナウンス、および応答グループ アプリケーションのアナウンスや音楽で再生される Windows Media オーディオ (.wma) ファイルを実行するために必要です。
+    <div>
     
+
     > [!NOTE]
-    > Windows Server 2012 および Windows Server 2012 R2 では、Windows Media フォーマット ランタイムが Microsoft Media Foundation と共にインストールされます。
+    > <span data-ttu-id="7b894-130">Lync Server 2013 は、各標準エディションサーバーと、ローカル構成ストアが配置されている Lync Server 2013 を実行している各サーバーに、Microsoft SQL Server 2012 Express を自動的にインストールします。</span><span class="sxs-lookup"><span data-stu-id="7b894-130">Lync Server 2013 automatically installs Microsoft SQL Server 2012 Express on each Standard Edition server and each server running Lync Server 2013 on which the local configuration store is located.</span></span>
+
     
+    </div>
+
+  - <span data-ttu-id="7b894-131">**Windows media format runtime**   の場合会議を展開するすべてのフロントエンドサーバーおよび標準エディションサーバーには、windows media Format ランタイムがインストールされている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7b894-131">**Windows Media Format Runtime**   All Front End Servers and Standard Edition servers where conferencing will be deployed must have the Windows Media Format Runtime installed.</span></span> <span data-ttu-id="7b894-132">Windows Media 形式ランタイムは、コールパーク、アナウンスメント、および応答グループアプリケーションがお知らせや音楽を再生するために、Windows Media オーディオ (.wma) ファイルを実行するために必要です。</span><span class="sxs-lookup"><span data-stu-id="7b894-132">The Windows Media Format Runtime is required to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]
-    > Windows Server 2008 および Windows Server 2008 R2 では、Windows Media フォーマット ランタイムが Windows デスクトップ エクスペリエンスの一部としてインストールされます。 Lync Server 2013 をインストールする前に、Windows デスクトップ エクスペリエンスをインストールすることをお勧めします。このソフトウェアが Lync Server 2013 によってサーバーから検出されない場合は、このソフトウェアのインストールを指示するメッセージが表示されます。このメッセージが表示されたら、サーバーを再起動してインストールを完了する必要があります。
+    > <span data-ttu-id="7b894-133">Windows Server 2012 および Windows Server 2012 R2 の場合、Windows Media Format Runtime は Microsoft メディアファンデーションと共にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="7b894-133">For Windows Server 2012 and Windows Server 2012 R2 the Windows Media Format Runtime installs with Microsoft Media Foundation.</span></span>
+
+    
+    </div>
+    
+    <div>
+    
+
+    > [!NOTE]
+    > <span data-ttu-id="7b894-134">Windows Server&nbsp;2008 および windows server&nbsp;2008&nbsp;R2 の場合、windows デスクトップエクスペリエンスの一部として windows Media 形式ランタイムがインストールされます。</span><span class="sxs-lookup"><span data-stu-id="7b894-134">For Windows Server&nbsp;2008 and Windows Server&nbsp;2008&nbsp;R2 the Windows Media Format Runtime installs as part of the Windows Desktop Experience.</span></span> <span data-ttu-id="7b894-135">Lync Server 2013 をインストールする前に、Windows デスクトップエクスペリエンスをインストールすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7b894-135">It is recommended that you install Windows Desktop Experience before you install Lync Server 2013.</span></span> <span data-ttu-id="7b894-136">Lync Server 2013 でサーバー上にこのソフトウェアが見つからない場合は、インストールするように求められます。その後、インストールを完了するには、サーバーを再起動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7b894-136">If Lync Server 2013 does not find this software on the server, it will prompt you to install it, and then you must restart the server to complete installation.</span></span>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

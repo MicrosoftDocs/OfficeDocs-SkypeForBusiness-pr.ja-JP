@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: コール パークの展開プロセス'
-TOCTitle: コール パークの展開プロセス
-ms:assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398283(v=OCS.15)
-ms:contentKeyID: 48271472
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: コールパークの展開プロセス'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment process for Call Park
+ms:assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398283(v=OCS.15)
+ms:contentKeyID: 48183586
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bab02c8cfbf0f1ca71aff85c8a71a2bcb20ee3fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833480"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のコール パークの展開プロセス
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a><span data-ttu-id="e0f48-102">Lync Server 2013 でのコールパークの展開プロセス</span><span class="sxs-lookup"><span data-stu-id="e0f48-102">Deployment process for Call Park in Lync Server 2013</span></span>
 
-このセクションでは、コール パーク アプリケーションの展開に含まれる手順の概要を説明します。コール パークを構成する前に、Enterprise Edition または Standard Edition を エンタープライズ VoIP と共に展開する必要があります。コール パークが必要とするコンポーネントは、エンタープライズ VoIP を展開するときにインストールされ、有効化されます。
+</div>
 
-### コール パーク展開プロセス
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e0f48-103">_**最終更新日:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="e0f48-103">_**Topic Last Modified:** 2013-02-25_</span></span>
+
+<span data-ttu-id="e0f48-104">このセクションでは、コールパークアプリケーションの展開に関連する手順の概要について説明します。</span><span class="sxs-lookup"><span data-stu-id="e0f48-104">This section provides an overview of the steps involved in deploying the Call Park application.</span></span> <span data-ttu-id="e0f48-105">コールパークを構成する前に、enterprise Edition または Standard Edition をエンタープライズボイスと共に展開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e0f48-105">You must deploy Enterprise Edition or Standard Edition with Enterprise Voice before you configure Call Park.</span></span> <span data-ttu-id="e0f48-106">エンタープライズ Voip を展開すると、コールパークに必要なコンポーネントがインストールされて有効になります。</span><span class="sxs-lookup"><span data-stu-id="e0f48-106">The components required by Call Park are installed and enabled when you deploy Enterprise Voice.</span></span>
+
+### <a name="call-park-deployment-process"></a><span data-ttu-id="e0f48-107">コール パーク展開プロセス</span><span class="sxs-lookup"><span data-stu-id="e0f48-107">Call Park Deployment Process</span></span>
 
 <table>
 <colgroup>
@@ -28,83 +48,101 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>フェーズ</th>
-<th>ステップ</th>
-<th>必要なグループおよび役割</th>
-<th>「展開」のドキュメント</th>
+<th><span data-ttu-id="e0f48-108">フェーズ</span><span class="sxs-lookup"><span data-stu-id="e0f48-108">Phase</span></span></th>
+<th><span data-ttu-id="e0f48-109">ステップ</span><span class="sxs-lookup"><span data-stu-id="e0f48-109">Steps</span></span></th>
+<th><span data-ttu-id="e0f48-110">必要なグループおよび役割</span><span class="sxs-lookup"><span data-stu-id="e0f48-110">Required groups and roles</span></span></th>
+<th><span data-ttu-id="e0f48-111">「展開」のドキュメント</span><span class="sxs-lookup"><span data-stu-id="e0f48-111">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>オービット テーブルでコール パーク オービット範囲を構成する</p></td>
-<td><p>Lync Server コントロール パネルまたは <strong>New-CSCallParkOrbit</strong> コマンドレットを使用して、コール パーク オービット テーブルでオービット範囲を作成し、コール パーク アプリケーションをホストする アプリケーション サービスと関連付けます。</p>
+<td><p><span data-ttu-id="e0f48-112">オービット テーブルでコール パーク オービット範囲を構成する</span><span class="sxs-lookup"><span data-stu-id="e0f48-112">Configure the call park orbit ranges in the orbit table</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-113">Lync Server コントロールパネルまたは<strong>CSCallParkOrbit</strong>コマンドレットを使用して、呼び出しパークのテーブルに軌道範囲を作成し、それを call パークアプリケーションをホストするアプリケーションサービスと関連付けます。</span><span class="sxs-lookup"><span data-stu-id="e0f48-113">Use Lync Server Control Panel or the <strong>New-CSCallParkOrbit</strong> cmdlet to create the orbit ranges in the call park orbit table and associate them with the Application service that hosts the Call Park application.</span></span></p>
+<div>
 
-> [!NOTE]
-> 既存のダイヤル プランとシームレスに統合するため、オービット範囲、は通常仮想の内線番号の禁止として構成されます。 コール パーク オービット テーブルでオービット番号として Direct Inward Dialing (DID) 番号を指定することは、サポートされていません。
+> [!NOTE]  
+> <span data-ttu-id="e0f48-p102">既存のダイヤル プランとシームレスに統合するため、一般的にオービット範囲は仮想の内線番号の禁止として構成されます。コール パーク オービット テーブルでオービット番号として Direct Inward Dialing (DID) 番号を指定することは、サポートされていません。</span><span class="sxs-lookup"><span data-stu-id="e0f48-p102">For seamless integration with existing dial plans, orbit ranges are typically configured as a block of virtual extensions. Assigning Direct Inward Dialing (DID) numbers as orbit numbers in the call park orbit table is not supported.</span></span>
+
 
 </div></td>
-<td><p>RTCUniversalServerAdmins</p>
-<p>CsVoiceAdministrator</p>
-<p>CsServerAdministrator</p>
-<p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Lync Server 2013 でのコール パーク オービット範囲の作成または変更</a></p></td>
+<td><p><span data-ttu-id="e0f48-116">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="e0f48-116">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="e0f48-117">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-117">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="e0f48-118">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-118">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="e0f48-119">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-119">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-120"><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">通話パークの作成または変更 Lync Server 2013 の範囲の軌道</a></span><span class="sxs-lookup"><span data-stu-id="e0f48-120"><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Create or modify a Call Park orbit range in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>コール パーク設定を構成する</p></td>
-<td><p><strong>Set-CsCpsConfiguration</strong> コマンドレットを使用して、コール パーク設定を構成します。少なくとも、<strong>OnTimeoutURI</strong> オプションを構成して、パークされた通話がタイムアウトしたときに使用するフォールバック先を構成すことをお勧めします。次の設定も構成できます。</p>
+<td><p><span data-ttu-id="e0f48-121">コール パーク設定の構成</span><span class="sxs-lookup"><span data-stu-id="e0f48-121">Configure Call Park settings</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-122"><strong>CsCpsConfiguration</strong>コマンドレットを使用して、コールパーク設定を構成します。</span><span class="sxs-lookup"><span data-stu-id="e0f48-122">Use the <strong>Set-CsCpsConfiguration</strong> cmdlet to configure Call Park settings.</span></span> <span data-ttu-id="e0f48-123">少なくとも、[ <strong>Ontimeouturi</strong> ] オプションを構成して、保留中の通話がタイムアウトしたときに使うフォールバック先を構成することをお勧めします。次の設定を構成することもできます。</span><span class="sxs-lookup"><span data-stu-id="e0f48-123">At a minimum, we recommend that you configure the <strong>OnTimeoutURI</strong> option to configure the fallback destination to use when a parked call times out. You can also configure the following settings:</span></span></p>
 <ul>
-<li><p>(オプション) <strong>EnableMusicOnHold</strong> を構成して保留音を有効または無効にします。</p></li>
-<li><p>(オプション) <strong>MaxCallPickupAttempts</strong> を構成して、パークされた通話が、代替 Uniform Resource Identifier (URI) に転送されるまでに、応答した電話にかけ直す回数を決定します。</p></li>
-<li><p>(オプション) <strong>CallPickupTimeoutThreshold</strong> を構成して、通話がパークされてから、呼び出しに応答した電話にかけ直されるまでの経過時間を決定します。</p></li>
+<li><p><span data-ttu-id="e0f48-124">(オプション) <strong>EnableMusicOnHold</strong> を構成して保留音を有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="e0f48-124">(Optional) <strong>EnableMusicOnHold</strong> to enable or disable music on hold.</span></span></p></li>
+<li><p><span data-ttu-id="e0f48-125">(オプション) <strong>MaxCallPickupAttempts</strong> を構成して、パークされた通話が、代替 Uniform Resource Identifier (URI) に転送されるまでに、応答した電話にかけ直す回数を決定します。</span><span class="sxs-lookup"><span data-stu-id="e0f48-125">(Optional) <strong>MaxCallPickupAttempts</strong> to determine the number of times a parked call rings back to the answering phone before forwarding the call to the fallback Uniform Resource Identifier (URI).</span></span></p></li>
+<li><p><span data-ttu-id="e0f48-126">(オプション) <strong>CallPickupTimeoutThreshold</strong> を構成して、通話がパークされてから、呼び出しに応答した電話にかけ直されるまでの経過時間を決定します。</span><span class="sxs-lookup"><span data-stu-id="e0f48-126">(Optional) <strong>CallPickupTimeoutThreshold</strong> to determine the amount of time that elapses after a call has been parked before it rings back to the phone where the call was answered.</span></span></p></li>
 </ul></td>
-<td><p>RTCUniversalServerAdmins</p>
-<p>CsVoiceAdministrator</p>
-<p>CsServerAdministrator</p>
-<p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-call-park-settings.md">コール パーク設定の構成</a></p></td>
+<td><p><span data-ttu-id="e0f48-127">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="e0f48-127">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="e0f48-128">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-128">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="e0f48-129">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-129">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="e0f48-130">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-130">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-131"><a href="lync-server-2013-configure-call-park-settings.md">Lync Server 2013 でのコールパーク設定の構成</a></span><span class="sxs-lookup"><span data-stu-id="e0f48-131"><a href="lync-server-2013-configure-call-park-settings.md">Configure Call Park settings in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>必要に応じて、保留音をカスタマイズする</p></td>
-<td><p>既定の保留音を使用しない場合は、<strong>Set-CsCallParkServiceMusicOnHoldFile</strong> コマンドを使用して、音声ファイルをカスタマイズおよびアップロードします。</p></td>
-<td><p>RTCUniversalServerAdmins</p>
-<p>CsVoiceAdministrator</p>
-<p>CsServerAdministrator</p>
-<p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-customize-call-park-music-on-hold.md">コール パーク保留音のカスタマイズ</a></p></td>
+<td><p><span data-ttu-id="e0f48-132">必要に応じて、保留音をカスタマイズする</span><span class="sxs-lookup"><span data-stu-id="e0f48-132">Optionally, customize the music on hold</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-133">既定の保留音を使用しない場合は、<strong>Set-CsCallParkServiceMusicOnHoldFile</strong> コマンドを使用して、音声ファイルをカスタマイズおよびアップロードします。</span><span class="sxs-lookup"><span data-stu-id="e0f48-133">Use the <strong>Set-CsCallParkServiceMusicOnHoldFile</strong> cmdlet to customize and upload an audio file, if you don't want to use the default music on hold.</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-134">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="e0f48-134">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="e0f48-135">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-135">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="e0f48-136">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-136">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="e0f48-137">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-137">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-138"><a href="lync-server-2013-customize-call-park-music-on-hold.md">通話パークをカスタマイズする Lync Server 2013 の保留中の音楽</a></span><span class="sxs-lookup"><span data-stu-id="e0f48-138"><a href="lync-server-2013-customize-call-park-music-on-hold.md">Customize Call Park music on hold in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>音声ポリシーを構成し、ユーザーに対して コール パークを有効化する</p></td>
-<td><p>Lync Server コントロール パネルまたは <strong>Set-CSVoicePolicy</strong> コマンドレットと <strong>EnableCallPark</strong> オプションを使用して、音声ポリシーのユーザーに対して コール パークを有効化します。</p>
+<td><p><span data-ttu-id="e0f48-139">音声ポリシーを構成してユーザーのコールパークを有効にする</span><span class="sxs-lookup"><span data-stu-id="e0f48-139">Configure voice policy to enable Call Park for users</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-140">Lync Server コントロールパネルまたは<strong>CSVoicePolicy</strong>コマンドレットを<strong>Enablecallpark</strong>オプションと共に使用して、ボイスポリシーのユーザーに対してコールパークを有効にします。</span><span class="sxs-lookup"><span data-stu-id="e0f48-140">Use Lync Server Control Panel or the <strong>Set-CSVoicePolicy</strong> cmdlet with the <strong>EnableCallPark</strong> option to enable Call Park for users in voice policy.</span></span></p>
+<div>
 
-> [!NOTE]
-> 既定では、コール パークはすべてのユーザーに対して無効になっています。
+> [!NOTE]  
+> <span data-ttu-id="e0f48-141">既定では、すべてのユーザーに対して [コールパーク] が無効になっています。</span><span class="sxs-lookup"><span data-stu-id="e0f48-141">By default, Call Park is disabled for all users.</span></span>
 
 
-> [!NOTE]
-> 複数の音声ポリシーが存在する場合、EnableCallPark プロパティが、既定のポリシーに対してだけでなく、それぞれの音声ポリシーに設定されているのを確認してください。
+</div>
+<div>
+
+> [!NOTE]  
+> <span data-ttu-id="e0f48-142">複数の音声ポリシーが存在する場合、EnableCallPark プロパティが、既定のポリシーに対してだけでなく、それぞれの音声ポリシーに設定されているのを確認してください。</span><span class="sxs-lookup"><span data-stu-id="e0f48-142">If you have multiple voice policies, make sure the EnableCallPark property is set for each voice policy, not just for the default policy.</span></span>
+
 
 </div></td>
-<td><p>RTCUniversalServerAdmins</p>
-<p>CsVoiceAdministrator</p>
-<p>CsUserAdministrator</p>
-<p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-enable-call-park-for-users.md">Lync Server 2013 でのユーザーに対するコール パークの有効化</a></p></td>
+<td><p><span data-ttu-id="e0f48-143">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="e0f48-143">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="e0f48-144">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-144">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="e0f48-145">CsUserAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-145">CsUserAdministrator</span></span></p>
+<p><span data-ttu-id="e0f48-146">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-146">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-147"><a href="lync-server-2013-enable-call-park-for-users.md">Lync Server 2013 のユーザーに対してコールパークを有効にする</a></span><span class="sxs-lookup"><span data-stu-id="e0f48-147"><a href="lync-server-2013-enable-call-park-for-users.md">Enable Call Park for users in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>コール パークの正規化ルールを確認する</p></td>
-<td><p>コール パーク オービットを正規化することはできません。 正規化ルールにオービット範囲が含まれていないのを確認します。 必要に応じて、オービットが正規化されるのを防ぐため、追加の正規化ルールを作成します。</p></td>
-<td><p>RTCUniversalServerAdmins</p>
-<p>CsVoiceAdministrator</p>
-<p>CsServerAdministrator</p>
-<p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-verify-normalization-rules-for-call-park.md">Lync Server 2013 でのコール パーク正規化ルールの確認</a></p></td>
+<td><p><span data-ttu-id="e0f48-148">コール パーク正規化ルールの確認</span><span class="sxs-lookup"><span data-stu-id="e0f48-148">Verify normalization rules for Call Park</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-p104">コール パーク オービットを正規化することはできません。正規化ルールにオービット範囲が含まれていないのを確認します。必要に応じて、オービットが正規化されるのを防ぐため、追加の正規化ルールを作成します。</span><span class="sxs-lookup"><span data-stu-id="e0f48-p104">Call park orbits must not be normalized. Verify that your normalization rules do not include any of your orbit ranges. If necessary, create additional normalization rules to prevent orbits being normalized.</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-152">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="e0f48-152">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="e0f48-153">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-153">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="e0f48-154">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-154">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="e0f48-155">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="e0f48-155">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-156"><a href="lync-server-2013-verify-normalization-rules-for-call-park.md">Lync Server 2013 でのコールパークの正規化ルールを確認する</a></span><span class="sxs-lookup"><span data-stu-id="e0f48-156"><a href="lync-server-2013-verify-normalization-rules-for-call-park.md">Verify normalization rules for Call Park in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>コール パーク展開を確認する</p></td>
-<td><p>通話の保留と取得をテストし、構成が予想どおりに動作することを確認します。</p></td>
+<td><p><span data-ttu-id="e0f48-157">コールパークの展開を確認する</span><span class="sxs-lookup"><span data-stu-id="e0f48-157">Verify your Call Park deployment</span></span></p></td>
+<td><p><span data-ttu-id="e0f48-158">通話の保留と取得をテストし、構成が予想どおりに動作することを確認します。</span><span class="sxs-lookup"><span data-stu-id="e0f48-158">Test parking and retrieving calls to make sure that your configuration works as expected.</span></span></p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-call-park-deployment.md">(オプション) Lync Server 2013 でのコール パーク展開の確認</a></p></td>
+<td><p><span data-ttu-id="e0f48-159"><a href="lync-server-2013-optional-verify-call-park-deployment.md">省略Lync Server 2013 でのコールパークの展開を確認する</a></span><span class="sxs-lookup"><span data-stu-id="e0f48-159"><a href="lync-server-2013-optional-verify-call-park-deployment.md">(Optional) Verify Call Park deployment in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

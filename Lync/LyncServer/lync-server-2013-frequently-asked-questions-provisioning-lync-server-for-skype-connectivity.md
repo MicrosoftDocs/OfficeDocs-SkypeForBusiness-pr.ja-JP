@@ -1,123 +1,162 @@
-﻿---
-title: 'Lync Server 2013: FAQ: Skype 接続用の Lync Server のプロビジョニング'
-TOCTitle: 'FAQ: Skype 接続用の Lync Server のプロビジョニング'
-ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn440172(v=OCS.15)
-ms:contentKeyID: 59602757
-ms.date: 12/28/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'FAQ: Skype 接続用の Lync Server のプロビジョニング'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
+ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440172(v=OCS.15)
+ms:contentKeyID: 57793362
+ms.date: 12/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0fc06cda300945ccf4d7da9424b5615028c2e8f5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833150"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# FAQ: Skype 接続用の Lync Server 2013 のプロビジョニング
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-27_
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a><span data-ttu-id="b1641-102">FAQ: Skype 接続用の Lync Server 2013 のプロビジョニング</span><span class="sxs-lookup"><span data-stu-id="b1641-102">Frequently Asked Questions: Provisioning Lync Server 2013 for Skype connectivity</span></span>
 
-**Q: Microsoft Lync と Skype の間ではどの機能がサポートされていますか。**
+</div>
 
-**A:** 現在、Skype は Microsoft 製品ファミリの一部であるため、Skype を利用する何億人というユーザーには、統合通信のシナリオを拡張する新しい可能性が広がっています。この組み合わせでは、Lync の豊富な機能と Skype のカバー範囲により、Lync のお客様は、サプライヤー、カスタマー、およびパートナーとの接続と共同作業が実現できます。
+<div id="mainSection">
 
-  - インスタント メッセージと音声/ビデオ通話 - Lync ユーザーと Skype ユーザーの間で、音声/ビデオ通話とインスタント メッセージングのフェデレーションが実現されます。
+<div id="mainBody">
 
-  - プレゼンスの共有 - フェデレーション連絡先の間でプレゼンス情報を交換できます。
+<span> </span>
 
-  - シンプルな管理 - 設定と制御で、組織のポリシーと基準に従ってフェデレーション通信を構成できます。
+<span data-ttu-id="b1641-103">_**最終更新日:** 2019-03-22_</span><span class="sxs-lookup"><span data-stu-id="b1641-103">_**Topic Last Modified:** 2019-03-22_</span></span>
 
-**Q: Lync 展開と Skype を接続するにはどのような条件が必要ですか。**
+<span data-ttu-id="b1641-104">2019年4月以降、pic.lync.com の web サイトから Skype フェデレーションを提供されているお客様の連絡先情報の収集と保持を停止します。</span><span class="sxs-lookup"><span data-stu-id="b1641-104">Beginning in April 2019, we will stop the collection and retention of contact information for customers who are provisioned for Skype Federation via the pic.lync.com website.</span></span> <span data-ttu-id="b1641-105">この変更は、pic.lync.com プロビジョニングシステムが Microsoft のプライバシーポリシーに準拠していることを確認するために行われています。</span><span class="sxs-lookup"><span data-stu-id="b1641-105">This change is being made to ensure that the pic.lync.com provisioning system adheres to Microsoft privacy policies.</span></span> 
+ 
+<span data-ttu-id="b1641-106">この変更が有効になった後は、保留中のプロビジョニングの変更でメールの更新を提供することはできなくなります。</span><span class="sxs-lookup"><span data-stu-id="b1641-106">Once this change goes live, we will no longer be able to provide email updates on pending provisioning changes.</span></span> <span data-ttu-id="b1641-107">PIC プロビジョニングの変更は、通常、入力後の24-48 時間以内に完了します。</span><span class="sxs-lookup"><span data-stu-id="b1641-107">PIC provisioning changes typically complete within 24-48 hours after being entered.</span></span> <span data-ttu-id="b1641-108">引き続き Skype フェデレーションの問題が発生した場合は、プロビジョニングリクエストの送信後に48時間がかかる場合は、Microsoft テクニカルサポートに協力して、さらに詳しく調査してください。</span><span class="sxs-lookup"><span data-stu-id="b1641-108">If you are still experiencing Skype Federation issues 48 hours after submitting a provisioning request, please engage Microsoft Technical Support to investigate further.</span></span>
 
-**A:** 次のいずれか一方を所有している場合、Skype 接続のライセンスがあります。
+> [!IMPORTANT]
+> <span data-ttu-id="b1641-109">この変更の一環として、以前に入力したすべての連絡先情報は、2019年4月のによってシステムから削除されます。</span><span class="sxs-lookup"><span data-stu-id="b1641-109">As part of this change, all previously entered contact information will be purged from our system by the end of April, 2019.</span></span>
 
-  - Skype に接続する組織内のユーザー/デバイス用の Lync Server (2010 または 2013) と Lync Server Standard Client Access Licenses (2010 または 2013 の "CAL")。
 
-  - (スタンドアロン ライセンス、または Office 365 スイートの一部である) Lync Online。ただし、このサービス (pic.lync.com) は、Lync Server およびハイブリッドの Lync Server と Lync Online 展開のプロビジョニング専用です。Lync Online PIC のプロビジョニングは、Lync Online コントロール パネル (LOCP) で行います。
+<span data-ttu-id="b1641-110">**Q: Microsoft Lync と Skype の間でサポートされている機能は何ですか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-110">**Q: What features are supported between Microsoft Lync and Skype?**</span></span>
 
-**Q: Lync のエンド ユーザーが Skype の連絡先に接続するにはどのような操作が必要ですか。**
+<span data-ttu-id="b1641-111">**A:** Skype を Microsoft ファミリの一部として使用することで、統合された通信シナリオを Skype を利用している無数のユーザーに拡張することができます。</span><span class="sxs-lookup"><span data-stu-id="b1641-111">**A:** With Skype now part of the Microsoft family, new possibilities open up for extending unified communications scenarios to the hundreds of millions of people who use Skype.</span></span> <span data-ttu-id="b1641-112">この組み合わせによって、Lync のお客様は、Lync の豊富な機能と Skype の利用に基づいて、サプライヤー、顧客、パートナーとつながり、共同作業を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="b1641-112">This combination will enable Lync customers to connect and collaborate with suppliers, customers, and partners, relying on the richness of Lync and the reach of Skype.</span></span>
 
-**A:** 組織の Lync 管理者によりドメインがアクティブにされ、機能が有効にされた後、Lync のユーザーは Skype の連絡先を Lync クライアント内の連絡先リストに追加できます。
+  - <span data-ttu-id="b1641-113">インスタントメッセージ (im)、音声通話、ビデオ通話-Lync と Skype ユーザ間でのチャットとビデオ通話、インスタントメッセージ (im)</span><span class="sxs-lookup"><span data-stu-id="b1641-113">Instant Message and Audio and Video Calls—Federated audio and video calling and instant messaging between Lync and Skype users</span></span>
 
-**Q: Skype のエンド ユーザーが Lync の連絡先に接続するにはどのような操作が必要ですか。**
+  - <span data-ttu-id="b1641-114">プレゼンスの共有—フェデレーションされた連絡先間のプレゼンス情報の交換</span><span class="sxs-lookup"><span data-stu-id="b1641-114">Presence Sharing— Exchange presence information between federated contacts</span></span>
 
-**A:** Lync のユーザーへの接続が必要なすべての Skype のユーザーは、Skype ID と関連付けられている Microsoft アカウントを用意し、その Microsoft アカウントを使用してサインインする必要があります。この操作は Skype クライアント内で実施できます。
+  - <span data-ttu-id="b1641-115">簡単な管理—組織のポリシーと標準に従ってフェデレーション通信を構成するための設定とコントロール</span><span class="sxs-lookup"><span data-stu-id="b1641-115">Simple Administration—Settings and controls to configure federated communications in accordance with your organization’s policies and standards</span></span>
 
-**Q: Windows Live とのフェデレーションはまだ使用できますか。**
+<span data-ttu-id="b1641-116">**Q: Lync の展開を Skype に接続するには、どうすればよいですか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-116">**Q: How do I qualify to connect my Lync deployment with Skype?**</span></span>
 
-**A:** 2012 年 10 月より、マイクロソフトは Windows Live Messenger (WLM) のユーザーを Skype に移行する支援を開始しましたが、これは最終的には WLM の提供中止を目的としています。Lync は WLM が市場に存在する限りは WLM とのフェデレーションを引き続きサポートしますが、追加の Windows Live ドメインのアクティブ化は許可されていません。WLM ユーザーの移行は、Microsoft アカウント (WLM と同じ資格情報) を使用したサインインが可能である、Mac および Windows 版の Skype 6.0 (2012 年 10 月 25 日リリース) により実現されます。Skype にサインインするだけで、WLM のバディ リストは自動的に Skype に入力されます。またユーザーは、固定電話と携帯電話への通話、画面の共有、グループ ビデオ通話などの Skype の拡張通信機能と、幅広いデバイスのサポートを利用できます。さらに、WLM ユーザーのフェデレーション関係にある Lync の連絡先は残りのバディ リストと共に Skype への移行に従い、またこれらの連絡先に関する Skype と Lync の間の IM はすぐに使用できるようになります。Lync のお客様には、このサービスの継続を有効にするために必要な操作はありません。
+<span data-ttu-id="b1641-117">**A:** 以下のいずれかをお持ちの場合は、Skype の接続が許諾されます。</span><span class="sxs-lookup"><span data-stu-id="b1641-117">**A:** You are licensed for Skype connectivity if you have either:</span></span>
 
-**Q: Yahoo\! または AOL とのフェデレーションはまだ使用できますか。**
+  - <span data-ttu-id="b1641-118">Lync Server (2010 または 2013) に加えて、Lync Server Standard Client Access のライセンス (Cal "、2010、または 2013) と、Skype に接続する組織内のデバイスが含まれます。</span><span class="sxs-lookup"><span data-stu-id="b1641-118">Lync Server (2010 or 2013) plus Lync Server Standard Client Access Licenses (“CALs”; 2010 or 2013) for the users and/or devices in your organization that will connect to Skype.</span></span> 
 
-**A:** Lync および Office Communications Server のお客様用の、Yahoo\! および AOL とのフェデレーションは両方とも終了予定です。Microsoft がこれらの各サービスを提供できるのは、Yahoo\! と AOL からのサポートを条件とするものでしたが、これらの基盤となる契約の終了が近づいてきました。Yahoo\! と AOL のサービスは、2014 年 6 月まで継続されます。
+  - <span data-ttu-id="b1641-119">Lync Online (スタンドアロンライセンスとして、または Office 365 スイートの一部として)。</span><span class="sxs-lookup"><span data-stu-id="b1641-119">Lync Online (as standalone licenses or as part of an Office 365 suite).</span></span><span data-ttu-id="b1641-120">ただし、このサービス (pic.lync.com) は、Lync Server およびハイブリッド Lync Server および Lync Online の展開のプロビジョニングのみを対象としています。</span><span class="sxs-lookup"><span data-stu-id="b1641-120">  However, this service (pic.lync.com) is only for provisioning Lync Server and hybrid Lync Server and Lync Online deployments.</span></span><span data-ttu-id="b1641-121">Lync Online の PIC プロビジョニングは、Lync Online コントロールパネル (LOCP) で行われます。</span><span class="sxs-lookup"><span data-stu-id="b1641-121">  Lync Online PIC provisioning is done in Lync Online Control Panel (LOCP).</span></span>
 
-  - Yahoo\!: サービスは 2014 年 6 月まで継続され、お客様は引き続き Microsoft Lync パブリック IM 接続のユーザー サブスクリプション ライセンス ("PIC USL") によるライセンスが必要です。2012 年 9 月 1 日の時点で、PIC USL を新規または更新契約で購入できなくなりました。この日の前に購入されたライセンスをお持ちのお客様は、サービス終了日またはライセンス有効期限のうち、早い方の日付まで Yahoo\! とのフェデレーションを引き続きご利用いただけます。有効期限が 2014 年 7 月 1 日以降の PIC ライセンスをお持ちのお客様には、2014 年 7 月 1 日以降の期間に相当するお支払額を返金いたします。
+<span data-ttu-id="b1641-122">**Q: Lync エンドユーザーが Skype の連絡先に接続するには何が必要ですか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-122">**Q: What must Lync end users do to connect to Skype contacts?**</span></span>
 
-  - AOL: 2014 年 6 月 30 日をもって、Lync の IM 接続 ("PIC") サービスは終了いたします。サービス終了時のお客様のサービス中断を避けるため、追加ドメインの提供はすでに終了しています。2014 年 6 月 30 日までの期間、お客様は特別な手続きなしに引き続き AIM でフェデレーションによる通信をサポートしていただけます。7 月 1 日以降 (またはそれまでの間、追加ドメインをご希望のお客様には)、AOL から代替サービスが直接提供されます。AOL の新規サービスの詳細については、 <http://aimenterprise.aol.com/pic.php> (英語) を参照してください。 
+<span data-ttu-id="b1641-123">**A:** ドメインをアクティブ化した後に、組織の Lync 管理者によって機能が有効になると、Lync ユーザーは Lync クライアント内の連絡先リストに Skype の連絡先を追加できます。</span><span class="sxs-lookup"><span data-stu-id="b1641-123">**A:** After a domain is activated and the features are enabled by an organization’s Lync administrator, Lync users can add Skype contacts to their contact lists within the Lync client.</span></span>
 
-**Q: Lync を購入する前に Skype の接続を試用することはできますか。**
+<span data-ttu-id="b1641-124">**Q: Skype エンドユーザが Lync の連絡先に接続するには、どうすればよいですか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-124">**Q: What must Skype end users do to connect to Lync contacts?**</span></span>
 
-**A:** Skype の接続は試用では提供されていません。試用の代わりに、適格なライセンスを所有する Lync のお客様には、サービスにサインアップしてテストすることをお勧めします。
+<span data-ttu-id="b1641-125">**A:** Lync ユーザーに接続するすべての Skype ユーザーは、Skype Id に関連付けられた Microsoft アカウントを持っていて、Microsoft アカウントを使ってサインインする必要があります。</span><span class="sxs-lookup"><span data-stu-id="b1641-125">**A:** All Skype users wishing to connect to a Lync user must have a Microsoft Account associated with their Skype IDs and sign in using the Microsoft Account.</span></span><span data-ttu-id="b1641-126">これは、Skype クライアント内で有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="b1641-126">  This can be enabled within the Skype client.</span></span>
 
-**Q: プロビジョニングにはどのような情報が必要ですか。**
+<span data-ttu-id="b1641-127">**Q: Windows Live とのフェデレーションはまだ利用できますか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-127">**Q: Is federation with Windows Live still available?**</span></span>
 
-**A:** 条件を満たすライセンスの下でプロビジョニング要求を送信するには、次の情報が必要です。
+<span data-ttu-id="b1641-128">**A:** 2012年10月から、Microsoft は、Windows Live Messenger (WLM) ユーザーが Skype に移行して、最終的に WLM の廃止に向けたサポートを開始しました。</span><span class="sxs-lookup"><span data-stu-id="b1641-128">**A:** Beginning in October, 2012, Microsoft started helping Windows Live Messenger (WLM) users move to Skype, en route to eventually retiring WLM.</span></span><span data-ttu-id="b1641-129">WLM が市場にある限り、Lync は WLM とのフェデレーションを引き続きサポートしますが、Windows Live ドメインのライセンス認証は追加されません。</span><span class="sxs-lookup"><span data-stu-id="b1641-129"> Lync will continue to support federation with WLM as long as WLM is in market, but no additional Windows Live domain activations will be allowed.</span></span><span data-ttu-id="b1641-130">WLM ユーザの移動は、Skype 6.0 for Mac および Windows (2012 年10月25日リリース) によって有効にされています。これにより、Microsoft アカウント (つまり WLM と同じ資格情報) でサインインできます。</span><span class="sxs-lookup"><span data-stu-id="b1641-130"> The movement of WLM users is enabled by the Skype 6.0 for Mac and Windows (released October 25, 2012) which allows signing in with a Microsoft Account (i.e., the same credentials as WLM).</span></span> <span data-ttu-id="b1641-131">Skype にサインインするだけで、WLM の仲間リストが自動的に Skype に追加されます。また、ユーザは、固定電話や携帯電話への通話発信や、画面共有、グループビデオ通話、サポートなど、Skype の拡張された通信機能を利用できます。さまざまなデバイス。</span><span class="sxs-lookup"><span data-stu-id="b1641-131">After simply signing in to Skype, WLM buddy lists automatically populate into Skype, and users can take advantage of Skype’s expanded communication capabilities such as calling landlines and mobiles, screen sharing, group video calling, and support for a wide variety of devices.</span></span><span data-ttu-id="b1641-132">さらに、WLM ユーザのフェデレーションされた Lync の連絡先は、他の仲間リストを使用して Skype への切り替えを行った後、Skype と Lync の間の IM をすぐに利用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="b1641-132"> Moreover, WLM users’ federated Lync contacts follow the transition into Skype with the rest of their buddy lists, and IM between Skype and Lync for these contacts will be available immediately.</span></span> <span data-ttu-id="b1641-133">Lync のお客様は、このサービスの継続性を実現するために何もする必要はありません。</span><span class="sxs-lookup"><span data-stu-id="b1641-133">Lync customers do not need to do anything to enable this continuity of service.</span></span>
 
-  - マイクロソフト契約番号:
+<span data-ttu-id="b1641-134">**Q: Yahoo\!または AOL とのフェデレーションはまだ利用できますか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-134">**Q: Is federation with Yahoo\! or AOL still available?**</span></span>
+
+<span data-ttu-id="b1641-135">**A:** 違います。</span><span class="sxs-lookup"><span data-stu-id="b1641-135">**A:** No.</span></span> <span data-ttu-id="b1641-136">Yahoo とのフェデレーション\!</span><span class="sxs-lookup"><span data-stu-id="b1641-136">Federation with Yahoo\!</span></span> <span data-ttu-id="b1641-137">また、AOL は Yahoo のサポートに応じて、\!</span><span class="sxs-lookup"><span data-stu-id="b1641-137">and AOL were contingent upon support from Yahoo\!</span></span> <span data-ttu-id="b1641-138">および AOL。</span><span class="sxs-lookup"><span data-stu-id="b1641-138">and AOL.</span></span><span data-ttu-id="b1641-139">両方の Yahoo の場合\!</span><span class="sxs-lookup"><span data-stu-id="b1641-139"> For both Yahoo\!</span></span> <span data-ttu-id="b1641-140">AOL の場合、このサービスは2014年6月30日に終了しました。</span><span class="sxs-lookup"><span data-stu-id="b1641-140">and AOL, the service ended on June 30, 2014.</span></span> 
+
+<span data-ttu-id="b1641-141">**Q: Lync を購入する前に Skype の接続を試用することはできますか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-141">**Q: Can I trial Skype connectivity before purchasing Lync?**</span></span>
+
+<span data-ttu-id="b1641-142">**A:** Skype の接続は、試用版では提供されていません。</span><span class="sxs-lookup"><span data-stu-id="b1641-142">**A:** Skype connectivity is not offered on a trial basis.</span></span> <span data-ttu-id="b1641-143">試用の代わりに、適格なライセンスを持つ Lync のお客様には、サービスにサインアップしてテストすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="b1641-143">In place of a trial, Lync customers with eligible licenses are encouraged to simply sign up for the service to test.</span></span>
+
+<span data-ttu-id="b1641-144">**Q: プロビジョニングに必要な情報は何ですか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-144">**Q: What information is required for provisioning?**</span></span>
+
+<span data-ttu-id="b1641-145">**A:** 認定されたライセンスの下でプロビジョニング要求を送信するには、次のものが必要です。</span><span class="sxs-lookup"><span data-stu-id="b1641-145">**A:** To submit a provisioning request under a qualified license, you need the following:</span></span>
+
+  - <span data-ttu-id="b1641-146">Microsoft 契約番号:</span><span class="sxs-lookup"><span data-stu-id="b1641-146">Microsoft agreement number:</span></span>
     
-      - Microsoft ボリューム ライセンス サポート: Microsoft ボリューム ライセンス契約番号
+      - <span data-ttu-id="b1641-147">Microsoft ボリュームライセンスサポート: Microsoft ボリュームライセンス契約番号</span><span class="sxs-lookup"><span data-stu-id="b1641-147">Microsoft Volume Licensing Support: Microsoft Volume Licensing Agreement number</span></span>
     
-      - Microsoft Partner Network: ヘッドクォーター パートナー ID
+      - <span data-ttu-id="b1641-148">Microsoft パートナーネットワーク: Headquarter パートナー ID</span><span class="sxs-lookup"><span data-stu-id="b1641-148">Microsoft Partner Network: Headquarter partner ID</span></span>
     
-      - サービス ブロバイダーのライセンス契約: 初期登録番号
+      - <span data-ttu-id="b1641-149">サービスプロバイダライセンス契約: 最初の登録番号</span><span class="sxs-lookup"><span data-stu-id="b1641-149">Service Provider Licensing Agreement: Initial enrollment number</span></span>
     
-      - 高ボリューム サービス: 製品登録番号
+      - <span data-ttu-id="b1641-150">高ボリュームサービス: 製品登録番号</span><span class="sxs-lookup"><span data-stu-id="b1641-150">High Volume Services: Product enrollment number</span></span>
 
-  - アクセス エッジ サービスの完全修飾ドメイン名 (FQDN)。
+  - <span data-ttu-id="b1641-151">アクセスエッジサービスの完全修飾ドメイン名 (Fqdn)。</span><span class="sxs-lookup"><span data-stu-id="b1641-151">Fully qualified domain names (FQDNs) for the Access Edge service.</span></span>
     
-      - 少なくとも 1 つのアクセス エッジ サービスの FQDN が必要です。
+      - <span data-ttu-id="b1641-152">少なくとも1つのアクセスエッジサービスの FQDN が必要です。</span><span class="sxs-lookup"><span data-stu-id="b1641-152">FQDN for at least one Access Edge service is required.</span></span>
     
-      - 組織でアクセス エッジ サービスを実行しているサーバーが複数存在する場合、追加のアクセス エッジ サービスごとに FQDN を指定します。重要: 以前にアクセス エッジ サービスの FQDN を指定していて、それを変更する必要がある場合、変更のプロビジョニングが完了するまで数日かかる可能性があり、また結果としてサービスが中断する可能性があります。サービスの中断を防ぐには、アクセス エッジ サービスの以前に指定した FQDN を維持することをお勧めします。
+      - <span data-ttu-id="b1641-153">アクセスエッジサービスを実行している複数のサーバーが組織で使用されている場合は、追加のアクセスエッジサービスごとに Fqdn を指定します。</span><span class="sxs-lookup"><span data-stu-id="b1641-153">If your organization has more than one server running the Access Edge service, specify the FQDNs for each additional Access Edge service.</span></span> <span data-ttu-id="b1641-154">重要: 以前にアクセスエッジサービスの FQDN を指定していて、それを変更する場合は、変更の準備が完了するまで数日間かかることがあり、サービスが中断される可能性があります。</span><span class="sxs-lookup"><span data-stu-id="b1641-154">Important: If you previously specified an FQDN for the Access Edge service and want to change it, provisioning for the change can take several days to complete and can result in a disruption in service.</span></span> <span data-ttu-id="b1641-155">サービスの中断を防ぐには、以前に指定したアクセスエッジサービスの FQDN を維持することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="b1641-155">To prevent service disruption, we recommend that you maintain the previously specified FQDN of the Access Edge service.</span></span>
 
-  - セッション開始プロトコル (SIP) ドメイン。これは、ユーザーがインスタント メッセージングに現在使用している SIP URI のドメイン サフィックスです。組織で複数の SIP ドメインを使用している場合は、インスタント メッセージングに使用する各ドメインのドメイン サフィックスを指定します。たとえば、user1@contoso.com には SIP ドメインの contoso.com を指定し、user1@example.fabrikam.com には SIP ドメインとして example.fabrikam.com を指定します。
+  - <span data-ttu-id="b1641-156">セッション開始プロトコル (SIP) ドメイン。</span><span class="sxs-lookup"><span data-stu-id="b1641-156">Session Initiation Protocol (SIP) domain(s).</span></span> <span data-ttu-id="b1641-157">これは、ユーザーが現在インスタントメッセージングに使用している SIP URI のドメインサフィックスです。</span><span class="sxs-lookup"><span data-stu-id="b1641-157">This is the domain suffix of the SIP URI that users currently use for instant messaging.</span></span> <span data-ttu-id="b1641-158">組織に複数の SIP ドメインがある場合は、インスタントメッセージング用に使用される各ドメインのドメインサフィックスを指定します。</span><span class="sxs-lookup"><span data-stu-id="b1641-158">If your organization has more than one SIP domain, specify the domain suffix for each domain used for instant messaging.</span></span> <span data-ttu-id="b1641-159">たとえば、user1@contoso.com の場合、SIP ドメインの contoso.com を指定します。user1@example.fabrikam.com の場合は、SIP ドメインとして example.fabrikam.com を指定します。</span><span class="sxs-lookup"><span data-stu-id="b1641-159">For example, for user1@contoso.com, specify contoso.com for the SIP domain; for user1@example.fabrikam.com, specify example.fabrikam.com as the SIP domain.</span></span>
     
+    <div>
+    
+
     > [!NOTE]
-    > SIP ドメインのドメイン サフィックスのみを指定します。SIP ドメインの FQDN (アクセス エッジ サービスの FQDN を含む) は指定しないでください。
+    > <span data-ttu-id="b1641-160">SIP ドメインのドメインサフィックスのみを指定します。</span><span class="sxs-lookup"><span data-stu-id="b1641-160">Specify only the domain suffix for the SIP domain.</span></span> <span data-ttu-id="b1641-161">SIP ドメインのアクセスエッジサービスの FQDN など、どの Fqdn も指定しないでください。</span><span class="sxs-lookup"><span data-stu-id="b1641-161">Do not specify any FQDNs, including the FQDN for the Access Edge service, for the SIP domain.</span></span>
 
+    
+    </div>
 
-  - 連絡先情報。指定する各 SIP ドメインの管理者のメール アドレスを指定します。
+  - <span data-ttu-id="b1641-162">連絡先情報。</span><span class="sxs-lookup"><span data-stu-id="b1641-162">Contact information.</span></span> <span data-ttu-id="b1641-163">指定した各 SIP ドメインの管理者の電子メールアドレスを指定します。</span><span class="sxs-lookup"><span data-stu-id="b1641-163">Specify an e-mail address for the administrator of each SIP domain that you specify.</span></span>
 
-**Q: 分割ドメインのシナリオで Lync と Skype の接続を有効にするにはどうすればよいですか。**
+<span data-ttu-id="b1641-164">**Q: 切り離されるドメインシナリオで Lync を有効にするにはどうすればよいですか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-164">**Q: How do I enable Lync-Skype Connectivity in a split-domain scenario?**</span></span>
 
-**A:** Lync Online 2013 と Lync Server 社内分割ドメインのシナリオ (ユーザーは両方ともオンラインで、社内では同じ SIP ドメインを使用) を使用している場合は、次の順序で以下の 2 つの手順を実行して、Lync と Skype の接続を有効にします。
+<span data-ttu-id="b1641-165">**A:** Lync Online 2013 および Lync Server のオンプレミスの分割ドメインシナリオ (同じ SIP ドメインを使用して、オンラインとオンプレミスの両方のユーザーを含む) を使用している場合は、次の2つの手順を実行して、Lync-Skype の接続を有効にします。</span><span class="sxs-lookup"><span data-stu-id="b1641-165">**A:** If you have a Lync Online 2013 and Lync Server on-premise split-domain scenario (with users on both online and on-premise using the same SIP domain), enable Lync-Skype Connectivity by doing these two steps in the following order</span></span>
 
-1.  「PIC プロビジョニング ガイド」で説明されているように、社内の Lync と Skype の接続を設定します。
+1.  <span data-ttu-id="b1641-166">「PIC プロビジョニングガイド」で説明されているように、オンプレミスの Lync をセットアップします。</span><span class="sxs-lookup"><span data-stu-id="b1641-166">Set up on-premise Lync-Skype Connectivity as explained in the PIC Provisioning Guide.</span></span>
 
-2.  マイクロソフトによりドメインがプロビジョニングされたという確認を参照するまで待ちます。
+2.  <span data-ttu-id="b1641-167">ドメインが Microsoft によってプロビジョニングされたことを示す確認メッセージが表示されるまで待ちます。</span><span class="sxs-lookup"><span data-stu-id="b1641-167">Wait until you see confirmation that your domain has been provisioned by Microsoft.</span></span>
 
-3.  確認を参照した後、Lync 管理センターを使用して "外部通信" を有効にします。詳細については、[http://office.microsoft.com/ja-jp/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/ja-jp/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356) を参照してください。
+3.  <span data-ttu-id="b1641-168">確認メッセージが表示されたら、Lync 管理センターを使用して、"外部通信" を有効にします。</span><span class="sxs-lookup"><span data-stu-id="b1641-168">After you see the confirmation, use the Lync admin center to turn on “external communications”.</span></span> <span data-ttu-id="b1641-169">詳細については、[http://office.microsoft.com/en-us/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/en-us/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)</span><span class="sxs-lookup"><span data-stu-id="b1641-169">For more information, see [http://office.microsoft.com/en-us/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/en-us/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)</span></span>
 
-この順序は重要です。Lync Online での通信を有効にする前に、社内の接続を設定する必要があります。順序が逆であると、 <https://pic.lync.com> で社内用に入力された情報が有効になりません。このドメインとの外部通信用に Lync Online を既に設定した場合は、その通信を無効にして 24 時間待機してから再開します。まず、 <https://pic.lync.com> で社内の情報を入力し、Lync Online の外部通信を有効にします。
+<span data-ttu-id="b1641-170">この順序は重要です。</span><span class="sxs-lookup"><span data-stu-id="b1641-170">This order is important.</span></span><span data-ttu-id="b1641-171">Lync Online で通信を有効にする前に、オンプレミスの接続をセットアップする必要があります。</span><span class="sxs-lookup"><span data-stu-id="b1641-171">  You must set up the on-premise connectivity before you enable the communications in Lync Online.</span></span> <span data-ttu-id="b1641-172">注文が取り消されると、オンプレミスで<https://pic.lync.com>入力された情報は移動しません。</span><span class="sxs-lookup"><span data-stu-id="b1641-172">If the order is reversed, the information entered for on-premise in <https://pic.lync.com> will not go through.</span></span> <span data-ttu-id="b1641-173">このドメインとの外部通信用に Lync Online を既に設定している場合は、オンプレミス情報<https://pic.lync.com>を入力してから、lync online の外部通信を有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="b1641-173">If you have already set up Lync Online for external communications with this domain, you must turn it off, wait for 24 hours, and start again, first by entering your on-premise information at <https://pic.lync.com> and then turning on external communications for Lync Online.</span></span>
 
-**Q: Skype 接続用に複数のアクセス エッジ サービスの FQDN をプロビジョニングできますか。**
+<span data-ttu-id="b1641-174">**Q: 複数のアクセスエッジサービスの Fqdn を Skype 接続用にプロビジョニングすることはできますか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-174">**Q: Can I provision multiple Access Edge service FQDNs for Skype connectivity?**</span></span>
 
-**A:** プロビジョニング要求ごとに 10 個までのアクセス エッジ サービスの FQDN をプロビジョニングできます。
+<span data-ttu-id="b1641-175">**A:** 1つまたは複数のドメインに対して1つのアクセスエッジ FQDN のみをプロビジョニングできます。</span><span class="sxs-lookup"><span data-stu-id="b1641-175">**A:** You can provision only one access edge FQDN for one or more domains.</span></span> <span data-ttu-id="b1641-176">個別のドメインがある場合は、要求ごとに最大10個のアクセスエッジ Fqdn をプロビジョニングできます。</span><span class="sxs-lookup"><span data-stu-id="b1641-176">You can provision multiple access edge FQDNs, up to 10 per request, if they have distinct domains.</span></span>
 
-**Q: プロビジョニングを要求する組織に関してマイクロソフトの担当者が確認した Microsoft アカウントのメール アドレスの一覧を入手できますか。**
+<span data-ttu-id="b1641-177">**Q: プロビジョニングを要求する組織で見つかった Microsoft アカウントのメールアドレスの一覧を取得できますか。**</span><span class="sxs-lookup"><span data-stu-id="b1641-177">**Q: Can I obtain the list of Microsoft Account e-mail addresses that you find for the organization requesting provisioning?**</span></span>
 
-**A:** いいえ。これらのアドレスは個人を識別できる情報と見なされ、共有されません。
+<span data-ttu-id="b1641-178">**A:** 違います。</span><span class="sxs-lookup"><span data-stu-id="b1641-178">**A:** No.</span></span> <span data-ttu-id="b1641-179">これらのアドレスは、個人を特定できる情報と見なされ、共有されません。</span><span class="sxs-lookup"><span data-stu-id="b1641-179">These addresses are considered personally identifiable information and are not shared.</span></span>
 
-**Q: Windows Live でサポートされるドメイン以外のドメインが含まれる ID が付属する Windows Live Messenger 連絡先を追加するにはどうすればよいですか。**
+<span data-ttu-id="b1641-180">**Q: windows Live でサポートされているもの以外のドメインを含む ID を持つ Windows Live Messenger の連絡先を追加するには、どうすればよいですか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-180">**Q: How do I add a Windows Live Messenger contact that has an ID containing a domain other than those supported by Windows Live?**</span></span>
 
-**A:** ドメインが Windows Live 以外のドメインであるアカウントまたは ID が付属する Windows Live Messenger ユーザーを追加する場合は、\<ユーザー名\>(\<ドメイン名\>)@msn.com の形式でアドレスを入力します。\<ドメイン名\> はユーザーのメール アドレスのドメイン名です。たとえば、ted@contoso.com を追加する場合は、ted(contoso.com)@msn.com という形式を使用します。Windows Live により管理されるドメインの一覧については、http://support.microsoft.com/?kbid=897567 の「Live Communications Server Service Pack 1 をインストールした後にパブリック インスタント メッセージングで発生する可能性がある既知の問題」の「サポートされるドメイン」セクションを参照してください。
+<span data-ttu-id="b1641-181">**A:** Windows live Messenger ユーザーに、windows 以外のドメインを持つアカウントまたは ID を追加する場合は、次の形式のアドレスを入力し\<ます。\>ユーザー\<名 (\>ドメイン名) @msn .com ( \<ドメイン名\>はユーザーのメールアドレスのドメイン名。</span><span class="sxs-lookup"><span data-stu-id="b1641-181">**A:** If you are adding a Windows Live Messenger user with an account or ID with a non-Windows Live domain, enter the address in the following format: \<user name\>(\<domain name\>)@msn.com, where \<domain name\> is the domain name in the e-mail address of the user.</span></span> <span data-ttu-id="b1641-182">たとえば、ted@contoso.com を追加する場合は、次の形式を使用します。 ted (コントソ) @msn。</span><span class="sxs-lookup"><span data-stu-id="b1641-182">For example, if you wanted to add ted@contoso.com, you would use the following format: ted(contoso.com)@msn.com.</span></span> <span data-ttu-id="b1641-183">Windows Live によって管理されるドメインの一覧については、の「Live Communications Server Service Pack 1 をインストールした後のパブリックインスタントメッセージングで発生する既知のhttp://support.microsoft.com/?kbid=897567問題」の「サポートされているドメイン」セクションを参照してください。</span><span class="sxs-lookup"><span data-stu-id="b1641-183">For a list of domains that are administered by Windows Live, see the Supported Domains section in “Known Issues That Occur with Public Instant Messaging After You Install Live Communications Server Service Pack 1” at http://support.microsoft.com/?kbid=897567.</span></span>
 
-**Q: プロビジョニング処理にはどの程度の時間がかかりますか。**
+<span data-ttu-id="b1641-184">**Q: プロビジョニングプロセスにはどのくらいの時間がかかりますか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-184">**Q: How long does the provisioning process take?**</span></span>
 
-**A:** プロビジョニングは最長で 30 日かかる可能性があります。
+<span data-ttu-id="b1641-185">**A:** プロビジョニングには最長で30日間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="b1641-185">**A:** Provisioning can take up to 30 days.</span></span>
 
-**Q: プロビジョニングの完了はどのようにすればわかりますか。**
+<span data-ttu-id="b1641-186">**Q: プロビジョニングが完了したことはどのように判断されますか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-186">**Q: How will I know when provisioning is complete?**</span></span>
 
-**A:** プロビジョニングが完了した時点で、マイクロソフトはメール通知を送信します。
+<span data-ttu-id="b1641-187">**A:** プロビジョニングが完了すると、Microsoft から電子メールで通知が送信されます。</span><span class="sxs-lookup"><span data-stu-id="b1641-187">**A:** Microsoft will send e-mail notification when provisioning is complete.</span></span>
 
-**Q: 送信した構成または連絡先の詳細情報を更新するにはどうすればよいですか。**
+<span data-ttu-id="b1641-188">**Q: 申請した構成や連絡先の詳細を更新するにはどうすればよいですか?**</span><span class="sxs-lookup"><span data-stu-id="b1641-188">**Q: How can I update the configuration or contact details that I submit?**</span></span>
 
-**A:** プロビジョニングが完了する前に、プロビジョニングの要求に使用した同じ Web サイトで情報を更新できます。契約番号を入力し、\[Update service\] (サービスの更新) をクリックします。
+<span data-ttu-id="b1641-189">**A:** プロビジョニングが完了した後で、プロビジョニングを要求するために使用したのと同じ web サイトで情報を更新することができます。</span><span class="sxs-lookup"><span data-stu-id="b1641-189">**A:** You can update your information at the same web site that you used to request provisioning, after provisioning is complete.</span></span> <span data-ttu-id="b1641-190">ライセンス契約番号を入力して、[サービスの更新] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b1641-190">Enter your agreement number, and then click Update service.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

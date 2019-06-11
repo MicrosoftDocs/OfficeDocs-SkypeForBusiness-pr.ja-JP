@@ -1,30 +1,71 @@
-﻿---
-title: 'Lync Server 2013: IP とネットワーク プロトコルのサポート'
-TOCTitle: IP とネットワーク プロトコルのサポート
-ms:assetid: b0cffb10-3478-445c-89c7-8cb8b5027424
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412848(v=OCS.15)
-ms:contentKeyID: 48273293
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: IP とネットワーク プロトコルのサポート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IP and networking protocol support
+ms:assetid: b0cffb10-3478-445c-89c7-8cb8b5027424
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412848(v=OCS.15)
+ms:contentKeyID: 48185128
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a35395c9bb7eb8d90e5618ba6afde17defdbbcfd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832951"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での IP とネットワーク プロトコルのサポート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a><span data-ttu-id="0b828-102">Lync Server 2013 での IP とネットワーク プロトコルのサポート</span><span class="sxs-lookup"><span data-stu-id="0b828-102">IP and networking protocol support in Lync Server 2013</span></span>
 
-Lync Server 2013 は、次の IP プロトコルおよびネットワーク プロトコルをサポートします。
+</div>
 
-  - **IP プロトコル。**   Lync Server 2013 は、サーバー ネットワークに対して IP version 4 (IPv4) または IP version 6 (IPv6) をサポートします。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="0b828-103">_**最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="0b828-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+
+<span data-ttu-id="0b828-104">Lync Server 2013 は、次の IP およびネットワークプロトコルをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="0b828-104">Lync Server 2013 supports the following IP and networking protocols:</span></span>
+
+  - <span data-ttu-id="0b828-105">**IP プロトコル。**   Lync server 2013 では、サーバーネットワークの ip バージョン 4 (IPv4) または ip version 6 (IPv6) がサポートされています。</span><span class="sxs-lookup"><span data-stu-id="0b828-105">**IP Protocols.**   Lync Server 2013 supports either IP version 4 (IPv4) or IP version 6 (IPv6) for the server network.</span></span>
     
-    > [!NOTE]
-    > Lync Server 2013 は、デュアル IP スタックが有効になっているネットワークで動作できます。
-
-
-  - **SIP 転送プロトコル。** 通常、SIP では、ユーザー データグラム プロトコル (UDP)、伝送制御プロトコル (TCP)、およびトランスポート層セキュリティ (TLS) の少なくとも 3 つの転送タイプを使用できます。既定の SIP 転送構成では、TLS は TCP 上で動作します。TLS は Lync Server 2013 ネットワーク内で使用されます。ネットワーク境界では、 Lync Server 2013 は TCP 上で同時に運用できます。しかし、企業の通信のセキュリティ、信頼性、スケーラビリティの最低基準を満たさないため、 Lync Server 2013 では SIP 転送用の UDP をサポートしません。詳細については、NextHop のブログ記事「UDP 対応か UDP 非対応か、それが問題だ」( [http://go.microsoft.com/fwlink/?linkid=185369\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=185369%26clcid=0x411)) を参照してください。
+    <div>
     
-    > [!NOTE]
-    > 各ブログの内容と URL は、将来予告なしに変更されることがあります。
+
+    > [!NOTE]  
+    > <span data-ttu-id="0b828-106">Lync Server 2013 は、デュアル IP スタックが有効になっているネットワークで機能することができます。</span><span class="sxs-lookup"><span data-stu-id="0b828-106">Lync Server 2013 can function in a network with dual IP stack enabled.</span></span>
+
+    
+    </div>
+
+  - <span data-ttu-id="0b828-107">**SIP トランスポートプロトコル。**   一般的に、SIP では、ユーザーデータグラムプロトコル (UDP)、伝送制御プロトコル (TCP)、トランスポート層セキュリティ (TLS) の3つ以上のトランスポートタイプを使うことができます。</span><span class="sxs-lookup"><span data-stu-id="0b828-107">**SIP Transport Protocols.**   Generically, SIP can use at least three transport types: User Datagram Protocol (UDP), Transmission Control Protocol (TCP), and Transport Layer Security (TLS).</span></span> <span data-ttu-id="0b828-108">既定の SIP トランスポート構成では、TLS は TCP 経由で実行されます。</span><span class="sxs-lookup"><span data-stu-id="0b828-108">In the default SIP transport configuration, TLS runs over TCP.</span></span> <span data-ttu-id="0b828-109">TLS は Lync Server 2013 ネットワーク内で使用されます。</span><span class="sxs-lookup"><span data-stu-id="0b828-109">TLS is used within the Lync Server 2013 network.</span></span> <span data-ttu-id="0b828-110">ネットワークの端では、Lync Server 2013 は TCP 経由で相互運用できます。</span><span class="sxs-lookup"><span data-stu-id="0b828-110">At the edge of the network, Lync Server 2013 can interoperate over TCP.</span></span> <span data-ttu-id="0b828-111">Lync Server 2013 では、エンタープライズ通信のセキュリティ、信頼性、スケーラビリティに関する最小標準を満たしていないため、SIP トランスポートの UDP はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="0b828-111">Lync Server 2013 does not support UDP for SIP transport because it doesn’t meet the minimum standards for enterprise communications security, reliability, and scalability.</span></span> <span data-ttu-id="0b828-112">詳細については、「NextHop のブログ記事「udp について」または「UDP ではなく」 [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0b828-112">For details, see the NextHop blog article, "To UDP, or not to UDP, that is the question," at [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369).</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="0b828-113">各ブログの内容と URL は、将来予告なしに変更されることがあります。</span><span class="sxs-lookup"><span data-stu-id="0b828-113">The content of each blog and its URL are subject to change without notice.</span></span>
+
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

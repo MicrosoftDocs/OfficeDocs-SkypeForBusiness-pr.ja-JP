@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: 応答グループの展開プロセス'
-TOCTitle: 応答グループの展開プロセス
-ms:assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205270(v=OCS.15)
-ms:contentKeyID: 48273668
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 応答グループの展開プロセス'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment process for Response Group
+ms:assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205270(v=OCS.15)
+ms:contentKeyID: 48185437
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2151532b31f3c1660be98d11ac9d9c337ffecb64
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833458"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の応答グループの展開プロセス
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="deployment-process-for-response-group-in-lync-server-2013"></a><span data-ttu-id="a05b8-102">Lync Server 2013 の応答グループの展開プロセス</span><span class="sxs-lookup"><span data-stu-id="a05b8-102">Deployment process for Response Group in Lync Server 2013</span></span>
 
-ここでは、 応答グループ アプリケーションの展開に含まれるフェーズとステップの概要を説明します。.
+</div>
 
-### 応答グループの展開プロセス
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a05b8-103">_**最終更新日:** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="a05b8-103">_**Topic Last Modified:** 2012-09-27_</span></span>
+
+<span data-ttu-id="a05b8-104">このセクションでは、応答グループアプリケーションの展開に関連するフェーズと手順の概要について説明します。</span><span class="sxs-lookup"><span data-stu-id="a05b8-104">This section provides an overview of the phases and steps involved in deploying the Response Group application.</span></span>
+
+### <a name="response-group-deployment-process"></a><span data-ttu-id="a05b8-105">応答グループの展開プロセス</span><span class="sxs-lookup"><span data-stu-id="a05b8-105">Response Group Deployment Process</span></span>
 
 <table>
 <colgroup>
@@ -28,88 +48,101 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>フェーズ</th>
-<th>ステップ</th>
-<th>アクセス許可</th>
-<th>「展開」のドキュメント</th>
+<th><span data-ttu-id="a05b8-106">フェーズ</span><span class="sxs-lookup"><span data-stu-id="a05b8-106">Phase</span></span></th>
+<th><span data-ttu-id="a05b8-107">ステップ</span><span class="sxs-lookup"><span data-stu-id="a05b8-107">Steps</span></span></th>
+<th><span data-ttu-id="a05b8-108">アクセス許可</span><span class="sxs-lookup"><span data-stu-id="a05b8-108">Permissions</span></span></th>
+<th><span data-ttu-id="a05b8-109">「展開」のドキュメント</span><span class="sxs-lookup"><span data-stu-id="a05b8-109">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>応答グループ アプリケーションをインストールする</p></td>
-<td><p>応答グループ アプリケーションは、 エンタープライズ VoIP を展開すると既定でインストールおよびアクティブ化されます。</p></td>
-<td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-deploying-enterprise-voice.md">Lync Server 2013 でのエンタープライズ VoIP の展開</a></p></td>
+<td><p><span data-ttu-id="a05b8-110">応答グループアプリケーションをインストールする</span><span class="sxs-lookup"><span data-stu-id="a05b8-110">Install the Response Group application</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-111">応答グループアプリケーションは、エンタープライズボイスの展開時に既定でインストールされ、有効になります。</span><span class="sxs-lookup"><span data-stu-id="a05b8-111">The Response Group application is installed and activated by default when you deploy Enterprise Voice.</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-112">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a05b8-112">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-113"><a href="lync-server-2013-deploying-enterprise-voice.md">Lync Server 2013 でのエンタープライズボイスの展開</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-113"><a href="lync-server-2013-deploying-enterprise-voice.md">Deploying Enterprise Voice in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>応答グループのコンポーネントをインストールする</p></td>
-<td><p>Lync Server コマンドレット、 Lync Server コントロール パネル、 応答グループ構成ツール、エージェントのサインインおよびサインアウト コンソール、および応答グループ クライアント Web サービスが、Web サービスの一部としてインストールされます。Web サービスは、 Enterprise Edition プールまたは Standard Edition サーバーの展開時にインストールされます。</p></td>
-<td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 の展開</a></p></td>
+<td><p><span data-ttu-id="a05b8-114">応答グループのコンポーネントをインストールする</span><span class="sxs-lookup"><span data-stu-id="a05b8-114">Install components for Response Group</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-115">Lync Server コマンドレット、Lync Server コントロールパネル、応答グループ構成ツール、エージェントのサインインとサインアウトのコンソール、応答グループのクライアント Web サービスは、Web サービスの一部としてインストールされます。</span><span class="sxs-lookup"><span data-stu-id="a05b8-115">Lync Server cmdlets, the Lync Server Control Panel, Response Group Configuration Tool, agents' sign-in and sign-out console, and Response Group Client Web service are installed as part of Web Services.</span></span> <span data-ttu-id="a05b8-116">Enterprise Edition プールまたは Standard Edition サーバーを展開すると、Web サービスがインストールされます。</span><span class="sxs-lookup"><span data-stu-id="a05b8-116">Web Services is installed when you deploy an Enterprise Edition pool or a Standard Edition server.</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-117">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a05b8-117">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-118"><a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 の展開</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-118"><a href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ユーザーを Lync 2013 および エンタープライズ VoIP に対して有効にする</p></td>
-<td><p>Lync Server および エンタープライズ VoIP のエージェントにする予定のユーザーを有効にします。ユーザーをエージェント グループに追加する前に、ユーザーを有効にする必要があります。通常、ユーザーは、 Enterprise Edition または Standard Edition サーバーの展開中に、 Lync Server に対して有効化されます。また、 エンタープライズ VoIP の展開中に、 エンタープライズ VoIP に対して有効化されます。</p></td>
-<td><p>RTCUniversal-UserAdmins</p>
-<p>CsUserAdministrator</p>
-<p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Lync Server 2013 ユーザー アカウントの再有効化または無効化</a></p>
-<p><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Lync Server 2013 でのエンタープライズ VoIP に対するユーザーの有効化</a></p></td>
+<td><p><span data-ttu-id="a05b8-119">Lync 2013 およびエンタープライズ Voip のユーザーを有効にする</span><span class="sxs-lookup"><span data-stu-id="a05b8-119">Enable users for Lync 2013 and for Enterprise Voice</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-120">Lync Server およびエンタープライズ Voip 用のエージェントになるユーザーを有効にします。</span><span class="sxs-lookup"><span data-stu-id="a05b8-120">Enable users who will be agents for Lync Server and Enterprise Voice.</span></span> <span data-ttu-id="a05b8-121">ユーザーをエージェント グループに追加する前に、ユーザーを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="a05b8-121">Users must be enabled before you can add them to agent groups.</span></span> <span data-ttu-id="a05b8-122">通常、ユーザーは Enterprise Edition または Standard Edition server の展開中に Lync Server に対して有効になっています。</span><span class="sxs-lookup"><span data-stu-id="a05b8-122">Typically, users are enabled for Lync Server during the Enterprise Edition or Standard Edition server deployment.</span></span> <span data-ttu-id="a05b8-123">エンタープライズボイスの展開中に、ユーザーはエンタープライズ Voip に対応しています。</span><span class="sxs-lookup"><span data-stu-id="a05b8-123">Users are enabled for Enterprise Voice during the Enterprise Voice deployment.</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-124">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="a05b8-124">RTCUniversalUserAdmins</span></span></p>
+<p><span data-ttu-id="a05b8-125">CsUserAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-125">CsUserAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-126">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-126">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-127"><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Lync Server 2013 のユーザーアカウントを無効にするか、再び有効にする</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-127"><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a05b8-128"><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Lync Server 2013 でのエンタープライズ Voip のユーザーの有効化</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-128"><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Enable users for Enterprise Voice in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>エージェント グループ、キュー、ワークフローから成る応答グループを作成および構成する</p></td>
+<td><p><span data-ttu-id="a05b8-129">エージェント グループ、キュー、ワークフローから構成される応答グループを作成および構成する</span><span class="sxs-lookup"><span data-stu-id="a05b8-129">Create and configure response groups, which consist of agent groups, queues, and workflows</span></span></p></td>
 <td><ol>
-<li><p>Lync Server コントロール パネルまたは Lync Server 管理シェルを使用して、次のことを行います。</p>
+<li><p><span data-ttu-id="a05b8-130">Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="a05b8-130">Use the Lync Server Control Panel or Lync Server Management Shell to do the following:</span></span></p>
 <ol>
-<li><p>エージェント グループを作成して構成する</p></li>
-<li><p>キューを作成して構成する</p></li>
+<li><p><span data-ttu-id="a05b8-131">エージェント グループを作成して構成する</span><span class="sxs-lookup"><span data-stu-id="a05b8-131">Create and configure agent groups.</span></span></p></li>
+<li><p><span data-ttu-id="a05b8-132">キューを作成して構成する</span><span class="sxs-lookup"><span data-stu-id="a05b8-132">Create and configure queues.</span></span></p></li>
 </ol></li>
-<li><p>オプションで、 Lync Server 管理シェルを使用して、事前定義される応答グループの営業時間と休日を作成します。</p></li>
-<li><p>応答グループ構成ツールまたは Lync Server 管理シェルを使用して、カスタム応答グループの営業時間と休日を含む、ワークフロー (ハント グループまたは対話型音声応答 (IVR) 通話フロー) を作成します。</p>
+<li><p><span data-ttu-id="a05b8-133">必要に応じて、Lync Server 管理シェルを使用して、定義済みの応答グループの勤務時間および休日を作成します。</span><span class="sxs-lookup"><span data-stu-id="a05b8-133">Optionally, use Lync Server Management Shell to create predefined response group business hours and holidays.</span></span></p></li>
+<li><p><span data-ttu-id="a05b8-134">応答グループの構成ツールまたは Lync Server 管理シェルを使用して、カスタム応答グループの営業時間や休日などのワークフロー (ハントグループまたはインタラクティブな音声応答 (IVR) 通話フロー) を作成します。</span><span class="sxs-lookup"><span data-stu-id="a05b8-134">Use the Response Group Configuration Tool or Lync Server Management Shell to create workflows (hunt groups or interactive voice response (IVR) call flows), including custom response group business hours and holidays.</span></span></p>
+<div>
 
-> [!NOTE]
-> 応答グループ構成ツールには、 Lync Server コントロール パネルからアクセスできます。
+> [!NOTE]  
+> <span data-ttu-id="a05b8-135">Lync Server コントロールパネルから応答グループの構成ツールにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="a05b8-135">You can access the Response Group Configuration Tool through Lync Server Control Panel.</span></span>
+
 
 </div></li>
 </ol></td>
-<td><p>RTCUniversalServerAdmins</p>
-<p>CsResponseGroupAdministrator</p>
-<p>CsVoiceAdministrator</p>
-<p>CsServerAdministrator</p>
-<p>CsAdministrator</p>
-<p>CsResponseGroupManager</p></td>
-<td><p><a href="lync-server-2013-create-response-group-agent-groups.md">Lync Server 2013 での応答グループのエージェント グループの作成</a></p>
-<p><a href="lync-server-2013-create-response-group-queues.md">Lync Server 2013 での応答グループのキューの作成</a></p>
-<p><a href="lync-server-2013-optional-define-response-group-business-hours.md">(オプション) Lync Server 2013 での応答グループの営業時間の定義</a></p>
-<p><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(オプション) 応答グループ休日セットの定義</a></p>
-<p><a href="lync-server-2013-create-or-modify-a-workflow.md">ワークフローの作成または変更</a></p></td>
+<td><p><span data-ttu-id="a05b8-136">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a05b8-136">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="a05b8-137">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-137">CsResponseGroupAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-138">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-138">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-139">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-139">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-140">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-140">CsAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-141">CsResponseGroupManager</span><span class="sxs-lookup"><span data-stu-id="a05b8-141">CsResponseGroupManager</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-142"><a href="lync-server-2013-create-response-group-agent-groups.md">Lync Server 2013 での応答グループのエージェント グループの作成</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-142"><a href="lync-server-2013-create-response-group-agent-groups.md">Create Response Group agent groups Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a05b8-143"><a href="lync-server-2013-create-response-group-queues.md">Lync Server 2013 での応答グループのキューの作成</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-143"><a href="lync-server-2013-create-response-group-queues.md">Create Response Group queues in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a05b8-144"><a href="lync-server-2013-optional-define-response-group-business-hours.md">省略Lync Server 2013 での応答グループの営業時間の定義</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-144"><a href="lync-server-2013-optional-define-response-group-business-hours.md">(Optional) Define Response Group business hours in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a05b8-145"><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">省略Lync Server 2013 で回答グループの休日セットを定義する</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-145"><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Optional) Define Response Group holiday sets in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a05b8-146"><a href="lync-server-2013-create-or-modify-a-workflow.md">Lync Server 2013 でワークフローを作成または変更する</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-146"><a href="lync-server-2013-create-or-modify-a-workflow.md">Create or modify a workflow in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>(オプション) アプリケーションレベルの設定をカスタマイズする</p></td>
-<td><p>Lync Server 管理シェルを使用して、既定の保留音構成、既定の保留音オーディオ ファイル、エージェントのリングバックの猶予期間、および呼び出しコンテキスト構成をカスタマイズします。</p></td>
-<td><p>RTCUniversalServerAdmins</p>
-<p>CsResponseGroupAdministrator</p>
-<p>CsVoiceAdministrator</p>
-<p>CsServerAdministrator</p>
-<p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-managing-application-level-response-group-settings.md">アプリケーション レベルの応答グループ設定の管理</a></p></td>
+<td><p><span data-ttu-id="a05b8-147">(オプション) アプリケーションレベルの設定をカスタマイズする</span><span class="sxs-lookup"><span data-stu-id="a05b8-147">(Optional) Customize application-level settings</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-148">Lync Server 管理シェルを使用して、既定の音楽保留の構成、既定の音楽の保留中のオーディオファイル、エージェントの ringback 猶予期間、通話コンテキストの構成をカスタマイズします。</span><span class="sxs-lookup"><span data-stu-id="a05b8-148">Use Lync Server Management Shell to customize the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-149">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a05b8-149">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="a05b8-150">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-150">CsResponseGroupAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-151">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-151">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-152">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-152">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-153">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-153">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-154"><a href="lync-server-2013-managing-application-level-response-group-settings.md">Lync Server 2013 でのアプリケーションレベルの応答グループの設定の管理</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-154"><a href="lync-server-2013-managing-application-level-response-group-settings.md">Managing application-level Response Group settings in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>(オプション) 応答グループの管理を委任する</p></td>
-<td><p>ユーザーに CsResponseGroupManager ロールを割り当て、応答グループの構成を委任します。 応答グループ Manager は割り当てられた応答グループの構成を行うことが可能になります。</p></td>
-<td><p>RTCUniversalServerAdmins</p>
-<p>CsResponseGroupAdministrator</p>
-<p>CsVoiceAdministrator</p>
-<p>CsServerAdministrator</p>
-<p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</a></p></td>
+<td><p><span data-ttu-id="a05b8-155">(オプション) 応答グループの管理を委任する</span><span class="sxs-lookup"><span data-stu-id="a05b8-155">(Optional) Delegate management of response groups</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-156">ユーザーに CsResponseGroupManager ロールを割り当て、応答グループの構成を委任します。</span><span class="sxs-lookup"><span data-stu-id="a05b8-156">Assign users the CsResponseGroupManager role to delegate configuration of response groups.</span></span> <span data-ttu-id="a05b8-157">応答グループマネージャーは、それらに割り当てられた応答グループを構成できます。</span><span class="sxs-lookup"><span data-stu-id="a05b8-157">Response Group Managers can then configure the response groups assigned to them.</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-158">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a05b8-158">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="a05b8-159">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-159">CsResponseGroupAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-160">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-160">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-161">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-161">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="a05b8-162">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a05b8-162">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-163"><a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</a></span><span class="sxs-lookup"><span data-stu-id="a05b8-163"><a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>応答グループ展開を検証する</p></td>
-<td><p>ハント グループ ワークフローおよび対話型音声応答ワークフローに対する通話への応答をテストして、構成が予想どおりに機能していることを確認します。</p></td>
+<td><p><span data-ttu-id="a05b8-164">応答グループ展開を検証する</span><span class="sxs-lookup"><span data-stu-id="a05b8-164">Verify your Response Group deployment</span></span></p></td>
+<td><p><span data-ttu-id="a05b8-165">ハント グループ ワークフローおよび対話型音声応答ワークフローに対する通話への応答をテストして、構成が正常に機能していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="a05b8-165">Test answering calls to your hunt group and interactive voice response workflows to ensure that your configuration works as expected.</span></span></p></td>
 <td><p>-</p></td>
 <td><p>-</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

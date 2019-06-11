@@ -1,29 +1,51 @@
-﻿---
-title: 場所の傾向レポート
-TOCTitle: 場所の傾向レポート
-ms:assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204941(v=OCS.15)
-ms:contentKeyID: 48272248
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 位置情報の傾向レポート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Location Trend Report
+ms:assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204941(v=OCS.15)
+ms:contentKeyID: 48184280
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 68c1eac461d65c2c0b023086422bb66505e9c929
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832940"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 場所の傾向レポート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="location-trend-report-in-lync-server-2013"></a><span data-ttu-id="6307b-102">Lync Server 2013 の位置情報のトレンドレポート</span><span class="sxs-lookup"><span data-stu-id="6307b-102">Location Trend Report in Lync Server 2013</span></span>
 
-場所の傾向レポートは、ネットワークの場所の通話品質に関する傾向情報を提供します。
+</div>
 
-## フィルター
+<div id="mainSection">
 
-フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざま方法で表示したりする方法として利用できます。たとえば、場所の傾向レポートでは、返されたデータをアクセスの種類 (内部アクセスまたは外部アクセス) や有線/ワイヤレス ネットワーク接続でフィルターできます。データをグループ化する方法も選択できます。この場合は、時間、日、または週を基準に通話がグループ化されます。
+<div id="mainBody">
 
-次の表に、場所の傾向レポートで使用できるフィルターを示します。
+<span> </span>
 
-### 場所の傾向レポートのフィルター
+<span data-ttu-id="6307b-103">_**最終更新日:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="6307b-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+
+<span data-ttu-id="6307b-104">場所の傾向レポートは、ネットワークの場所の通話品質に関する傾向情報を提供します。</span><span class="sxs-lookup"><span data-stu-id="6307b-104">The Location Trend Report provides call quality trend information for network locations.</span></span>
+
+<div>
+
+## <a name="filters"></a><span data-ttu-id="6307b-105">フィルター</span><span class="sxs-lookup"><span data-stu-id="6307b-105">Filters</span></span>
+
+<span data-ttu-id="6307b-p101">フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざまな方法で表示したりする方法として利用できます。たとえば、場所の傾向レポートでは、返されたデータをアクセスの種類 (内部アクセスまたは外部アクセス) や有線/ワイヤレス ネットワーク接続でフィルターできます。データをグループ化する方法も選択できます。この場合は、時間、日、または週を基準に通話がグループ化されます。</span><span class="sxs-lookup"><span data-stu-id="6307b-p101">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Location Trend Report enables you to filter the returned data by such things as access type (that is, interval access vs. external access) or by wired/wireless network connection. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, or week.</span></span>
+
+<span data-ttu-id="6307b-110">次の表に、場所の傾向レポートで使用できるフィルターを示します。</span><span class="sxs-lookup"><span data-stu-id="6307b-110">The following table lists the filters that you can use with the Location Trend Report.</span></span>
+
+### <a name="location-trend-report-filters"></a><span data-ttu-id="6307b-111">場所の傾向レポートのフィルター</span><span class="sxs-lookup"><span data-stu-id="6307b-111">Location Trend Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -32,68 +54,81 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名前</th>
-<th>説明</th>
+<th><span data-ttu-id="6307b-112">名前</span><span class="sxs-lookup"><span data-stu-id="6307b-112">Name</span></span></th>
+<th><span data-ttu-id="6307b-113">説明</span><span class="sxs-lookup"><span data-stu-id="6307b-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[<strong>開始</strong>]</p></td>
-<td><p>時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</p>
-<p>7/7/2012 13:00</p>
-<p>開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</p>
-<p>7/7/2012</p>
-<p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
-<p>7/3/2012</p>
-<p>週は、常に日曜日から土曜日までです。</p></td>
+<td><p><span data-ttu-id="6307b-114"><strong>開始</strong></span><span class="sxs-lookup"><span data-stu-id="6307b-114"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="6307b-p102">時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="6307b-p102">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="6307b-117">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="6307b-117">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="6307b-p103">開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="6307b-p103">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="6307b-120">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="6307b-120">7/7/2012</span></span></p>
+<p><span data-ttu-id="6307b-121">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="6307b-121">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="6307b-122">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="6307b-122">7/3/2012</span></span></p>
+<p><span data-ttu-id="6307b-123">一週間は、日曜日から始まり、土曜日で終わるものとします。</span><span class="sxs-lookup"><span data-stu-id="6307b-123">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>[<strong>終了</strong>]</p></td>
-<td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 13:00</p>
-<p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
-<p>7/7/2012</p>
-<p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
-<p>7/3/2012</p>
-<p>週は、常に日曜日から土曜日までです。</p></td>
+<td><p><span data-ttu-id="6307b-124"><strong>終了</strong></span><span class="sxs-lookup"><span data-stu-id="6307b-124"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="6307b-p104">時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="6307b-p104">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="6307b-127">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="6307b-127">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="6307b-p105">終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="6307b-p105">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="6307b-130">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="6307b-130">7/7/2012</span></span></p>
+<p><span data-ttu-id="6307b-131">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="6307b-131">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="6307b-132">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="6307b-132">7/3/2012</span></span></p>
+<p><span data-ttu-id="6307b-133">一週間は、日曜日から始まり、土曜日で終わるものとします。</span><span class="sxs-lookup"><span data-stu-id="6307b-133">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>[<strong>間隔</strong>]</p></td>
-<td><p>時間間隔です。次のいずれかを選択します。</p>
+<td><p><span data-ttu-id="6307b-134"><strong>[間隔]</strong></span><span class="sxs-lookup"><span data-stu-id="6307b-134"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="6307b-p106">時間間隔です。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="6307b-p106">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p>時間単位 (最大 25 時間の表示が可能)</p></li>
-<li><p>日単位 (最大 31 日の表示が可能)</p></li>
-<li><p>週単位 (最大 12 週の表示が可能)</p></li>
+<li><p><span data-ttu-id="6307b-137">毎時 (最大 25 時間の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="6307b-137">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="6307b-138">毎日 (最大 31 日の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="6307b-138">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="6307b-139">毎週 (最大 12 週の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="6307b-139">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
 </ul>
-<p>入力した開始日と終了日が選択した間隔で使用できる値の最大数を超える場合は、最大数の値 (開始日からカウント) のみが表示されます。たとえば、開始日と終了日をそれぞれ 2012/8/7 (2012 年 8 月 7 日)、2012/9/28 (2012 年 9 月 28 日) として毎日の間隔を選択しても、2012 年 8 月 7 日の午前 12:00 から 2012 年 9 月 7 日の午前 12:00 までの日付のデータ (つまり、合計 31 日分のデータのみ) が表示されることになります。</p></td>
+<p><span data-ttu-id="6307b-p107">入力した開始日と終了日が選択した間隔で使用できる値の最大数を超える場合は、最大数の値 (開始日からカウント) のみが表示されます。たとえば、[毎日] を選択して開始日と終了日をそれぞれ 1/1/2011 (2011 年 1 月 1 日)、2/28/2011 (2011 年 2 月 28 日) として毎日の間隔を選択しても、2011 年 8 月 1 日の午前 12:00 から 2011 年 9 月 1 日の午前 12:00 までの日付のデータ (つまり、合計 31 日分のデータのみ) が表示されることになります。</span><span class="sxs-lookup"><span data-stu-id="6307b-p107">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 1/1/2011 and an end date of 2/28/2011, data is displayed for the days 8/1/2011 12:00 AM to 9/1/2011 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>[<strong>アクセスの種類</strong>]</p></td>
-<td><p>クライアントが通話時に内部ネットワークにログオンしたか、外部ネットワークにログオンしたかを示します。次のいずれかを選択します。</p>
+<td><p><span data-ttu-id="6307b-142"><strong>[アクセスの種類]</strong></span><span class="sxs-lookup"><span data-stu-id="6307b-142"><strong>Access type</strong></span></span></p></td>
+<td><p><span data-ttu-id="6307b-p108">クライアントが通話時に内部ネットワークにログオンしたか、外部ネットワークにログオンしたかを示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="6307b-p108">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p>すべて</p></li>
-<li><p>内部</p></li>
-<li><p>外部</p></li>
+<li><p><span data-ttu-id="6307b-145">[すべて]</span><span class="sxs-lookup"><span data-stu-id="6307b-145">[All]</span></span></p></li>
+<li><p><span data-ttu-id="6307b-146">内部</span><span class="sxs-lookup"><span data-stu-id="6307b-146">Internal</span></span></p></li>
+<li><p><span data-ttu-id="6307b-147">外部</span><span class="sxs-lookup"><span data-stu-id="6307b-147">External</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>[<strong>ネットワークの種類</strong>]</p></td>
-<td><p>通話時にクライアントが接続したネットワークの種類を示します。次のいずれかを選択します。</p>
+<td><p><span data-ttu-id="6307b-148"><strong>[ネットワークの種類]</strong></span><span class="sxs-lookup"><span data-stu-id="6307b-148"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="6307b-p109">通話時にクライアントが接続したネットワークの種類を示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="6307b-p109">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p>すべて</p></li>
-<li><p>有線</p></li>
-<li><p>ワイヤレス</p></li>
+<li><p><span data-ttu-id="6307b-151">[すべて]</span><span class="sxs-lookup"><span data-stu-id="6307b-151">[All]</span></span></p></li>
+<li><p><span data-ttu-id="6307b-152">有線</span><span class="sxs-lookup"><span data-stu-id="6307b-152">Wired</span></span></p></li>
+<li><p><span data-ttu-id="6307b-153">ワイヤレス</span><span class="sxs-lookup"><span data-stu-id="6307b-153">Wireless</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>[<strong>VPN</strong>]</p></td>
-<td><p>通話時に外部クライアントが仮想プライベート ネットワーク (VPN) 接続を使用したかどうかを示します。次のいずれかを選択します。</p>
+<td><p><span data-ttu-id="6307b-154"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="6307b-154"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="6307b-p110">通話時に外部クライアントが仮想プライベート ネットワーク (VPN) 接続を使用したかどうかを示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="6307b-p110">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p>すべて</p></li>
-<li><p>VPN</p></li>
-<li><p>非 VPN</p></li>
+<li><p><span data-ttu-id="6307b-157">[すべて]</span><span class="sxs-lookup"><span data-stu-id="6307b-157">[All]</span></span></p></li>
+<li><p><span data-ttu-id="6307b-158">VPN</span><span class="sxs-lookup"><span data-stu-id="6307b-158">VPN</span></span></p></li>
+<li><p><span data-ttu-id="6307b-159">非 VPN</span><span class="sxs-lookup"><span data-stu-id="6307b-159">Non-VPN</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

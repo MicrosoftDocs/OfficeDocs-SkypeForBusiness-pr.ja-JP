@@ -1,27 +1,57 @@
-﻿---
-title: 'Lync Server 2013: チャット ルームまたはカテゴリの削除'
-TOCTitle: チャット ルームまたはカテゴリの削除
-ms:assetid: adccb869-0015-4eba-ac73-718bac7843b5
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ215881(v=OCS.15)
-ms:contentKeyID: 48273258
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: チャット ルームまたはカテゴリの削除'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting a chat room or category
+ms:assetid: adccb869-0015-4eba-ac73-718bac7843b5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215881(v=OCS.15)
+ms:contentKeyID: 48706009
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f64b89abd0b3266d2be52e300458ceabf3f9b915
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833593"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのチャット ルームまたはカテゴリの削除
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="deleting-a-chat-room-or-category-in-lync-server-2013"></a><span data-ttu-id="a6f52-102">Lync Server 2013 でのチャット ルームまたはカテゴリの削除</span><span class="sxs-lookup"><span data-stu-id="a6f52-102">Deleting a chat room or category in Lync Server 2013</span></span>
 
-常設チャット ルームは削除できます。使用しなくなったチャット ルームは、無効にすることができます。詳細については、「[Lync Server 2013 でのチャット ルームの無効化または有効化](lync-server-2013-disabling-or-enabling-a-chat-room.md)」を参照してください。
+</div>
 
-常設チャット管理者は、無効になったチャット ルームを照会し、 Windows PowerShell のコマンドレット **Remove-CsPersistentChatRoom** を使用することにより、チャット ルームを定期的に削除して完全に削除することができます。
+<div id="mainSection">
 
-カテゴリは削除できます。ただし、カテゴリを削除するには、最初にその下のチャット ルームをすべて削除するか、削除する空のカテゴリを残してチャット ルームを新しいカテゴリに移動する必要があります。 常設チャット サーバーでは、チャット ルームが含まれるカテゴリを削除することができません。詳細については、「[Lync Server 2013 での 1 つのカテゴリから他のカテゴリへのチャット ルームの移動](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)」を参照してください。
+<div id="mainBody">
 
-Windows PowerShell コマンドライン インターフェイスを使用した空のカテゴリの削除の詳細については、「[Windows PowerShell コマンドレットを使用した常設チャット サーバーの構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)」の「ルーム管理」を参照してください。
+<span> </span>
 
-チャット ルームおよびカテゴリの詳細については、「展開」のドキュメントの「[Lync Server 2013 でルームを構成する](lync-server-2013-configure-rooms.md)」および「[Lync Server 2013 でのカテゴリの構成](lync-server-2013-configure-categories.md)」を参照してください。
+<span data-ttu-id="a6f52-103">_**最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="a6f52-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="a6f52-104">常設チャットルームを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="a6f52-104">Persistent Chat rooms can be deleted.</span></span> <span data-ttu-id="a6f52-105">使用されなくなったチャットルームがある場合は、無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="a6f52-105">If you have a chat room that is no longer being used, you can disable it.</span></span> <span data-ttu-id="a6f52-106">詳細については、「 [Lync Server 2013 でチャットルームを無効または有効にする](lync-server-2013-disabling-or-enabling-a-chat-room.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a6f52-106">For details, see [Disabling or enabling a chat room in Lync Server 2013](lync-server-2013-disabling-or-enabling-a-chat-room.md).</span></span>
+
+<span data-ttu-id="a6f52-107">常設チャット管理者は、Windows PowerShell コマンドレット**CsPersistentChatRoom**を使って、チャットルームを検索して、定期的にチャットルームを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="a6f52-107">A Persistent Chat administrator can query for disabled chat rooms, and can periodically purge and permanently delete the chat rooms, by using the Windows PowerShell cmdlet, **Remove-CsPersistentChatRoom**.</span></span>
+
+<span data-ttu-id="a6f52-108">分類項目を削除することができます。</span><span class="sxs-lookup"><span data-stu-id="a6f52-108">Categories can be deleted.</span></span> <span data-ttu-id="a6f52-109">ただし、分類項目を削除するには、まずその下にあるすべてのチャットルームを削除するか、チャットルームを新しいカテゴリに移動して、削除する空のカテゴリを残しておく必要があります。</span><span class="sxs-lookup"><span data-stu-id="a6f52-109">However, to delete a category, you must first either delete all chat rooms under it or move the chat rooms to a new category, leaving an empty category for deletion.</span></span> <span data-ttu-id="a6f52-110">常設チャットサーバーでは、チャットルームを含むカテゴリを削除することはできません。</span><span class="sxs-lookup"><span data-stu-id="a6f52-110">Persistent Chat Server does not allow you to delete a category that contains chat rooms.</span></span> <span data-ttu-id="a6f52-111">詳細については、「 [Lync Server 2013 で1つのカテゴリのチャットルームを別のカテゴリに移動する](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a6f52-111">For details, see [Moving a chat room from one category to another in Lync Server 2013](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md).</span></span>
+
+<span data-ttu-id="a6f52-112">Windows PowerShell コマンドラインインターフェイスを使用して空のカテゴリを削除する方法の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)する」の「会議室の管理」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a6f52-112">For details about deleting empty categories by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span>
+
+<span data-ttu-id="a6f52-113">チャットルームとカテゴリの詳細については、展開ドキュメントの「lync [server 2013 で会議室を構成](lync-server-2013-configure-rooms.md)する」および「 [lync server 2013 でカテゴリを構成する](lync-server-2013-configure-categories.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a6f52-113">For details about chat rooms and categories, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) and [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) in the Deployment documentation.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

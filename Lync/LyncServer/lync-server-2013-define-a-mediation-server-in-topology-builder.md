@@ -1,114 +1,199 @@
-﻿---
-title: 'Lync Server 2013: トポロジ ビルダーでの仲介サーバーの定義'
-TOCTitle: トポロジ ビルダーでの仲介サーバーの定義
-ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398391(v=OCS.15)
-ms:contentKeyID: 48272166
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: トポロジビルダーで仲介サーバーを定義する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Define a Mediation Server in Topology Builder
+ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398391(v=OCS.15)
+ms:contentKeyID: 48184217
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7f1356217b9effe3f2282f6931b601e84aa46770
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833726"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のトポロジ ビルダーでの仲介サーバーの定義
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-03-25_
+# <a name="define-a-mediation-server-in-topology-builder-in-lync-server-2013"></a><span data-ttu-id="a0d3b-102">Lync Server 2013 でのトポロジビルダーでの仲介サーバーの定義</span><span class="sxs-lookup"><span data-stu-id="a0d3b-102">Define a Mediation Server in Topology Builder in Lync Server 2013</span></span>
 
-トポロジ ビルダーを使用して、エンタープライズ VoIP を展開していないサイトで、フロント エンド プールと併置されたスタンドアロン 仲介サーバーまたはプールを定義するには、このトピックの手順に従ってください。
+</div>
 
-Administrators グループのメンバーであるアカウントを使用して、トポロジを定義することができます。
+<div id="mainSection">
 
-## フロント エンド プールに併置された 仲介サーバーの定義
+<div id="mainBody">
 
-トポロジ ビルダーを使用して、エンタープライズ VoIP が展開されていないサイトで、フロント エンド プールに併置された 仲介サーバーを定義するには、このトピックの手順に従ってください。
+<span> </span>
 
-## 仲介サーバーを フロント エンド プールに追加するには
+<span data-ttu-id="a0d3b-103">_**最終更新日:** 2013-03-25_</span><span class="sxs-lookup"><span data-stu-id="a0d3b-103">_**Topic Last Modified:** 2013-03-25_</span></span>
 
-1.  トポロジ ビルダーを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server トポロジ ビルダー**\] の順にクリックします。
+<span data-ttu-id="a0d3b-104">このトピックの手順に従って、トポロジビルダーを使用して、まだエンタープライズ Voip を展開していないサイトで、フロントエンドプールと共に管理されているスタンドアロンの仲介サーバーまたはプールを定義します。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-104">Follow the steps in this topic to use Topology Builder to define a stand-alone Mediation Server or a pool collocated with a Front End pool at a site for which you did not previously deploy Enterprise Voice.</span></span>
 
-2.  トポロジ ビルダーのコンソール ツリーで、フロント エンド プールを定義するサイトの名前を展開します。
+<span data-ttu-id="a0d3b-105">[管理者] グループのメンバーであるアカウントを使用してトポロジを定義できます。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-105">You can define a topology using an account that is a member of the Administrators group.</span></span>
 
-3.  コンソール ツリーで、必要なフロント エンド プールの種類を右クリックし、\[**新しいフロント エンド プール**\] をクリックします。
+<div>
 
-4.  \[**併置されたサーバーの役割の選択**\] ページが表示されるまで、**新しいフロントエンド プールの定義**ウィザードを進めます。
+## <a name="define-mediation-server-collocated-to-a-front-end-pool"></a><span data-ttu-id="a0d3b-106">フロントエンドプールに併置した仲介サーバーの定義</span><span class="sxs-lookup"><span data-stu-id="a0d3b-106">Define Mediation Server collocated to a Front End pool</span></span>
 
-5.  \[**併置されたサーバーの役割の選択** \] で、\[**仲介サーバーを併置する**\] をオンにします。
+<span data-ttu-id="a0d3b-107">このトピックの手順に従って、トポロジビルダーを使用して、エンタープライズ Voip を展開していないサイトのフロントエンドプールに併置されている仲介サーバーを定義します。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-107">Follow the steps in this topic to use Topology Builder to define a Mediation Server collocated to a Front End pool in a site where Enterprise Voice has not been previously deployed.</span></span>
+
+<div>
+
+## <a name="to-add-a-mediation-server-to-a-front-end-pool"></a><span data-ttu-id="a0d3b-108">フロントエンドプールに仲介サーバーを追加するには</span><span class="sxs-lookup"><span data-stu-id="a0d3b-108">To Add a Mediation Server to a Front End pool</span></span>
+
+1.  <span data-ttu-id="a0d3b-109">トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-109">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="a0d3b-110">[トポロジビルダー] のコンソールツリーで、フロントエンドプールを定義するサイト名を展開します。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-110">In Topology Builder, in the console tree, expand the name of the site for which you want to define a Front End pool.</span></span>
+
+3.  <span data-ttu-id="a0d3b-111">コンソールツリーで、使用するフロントエンドプールの種類を右クリックし、[**新しいフロントエンドプール**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-111">In the console tree, right-click the type of Front End pool you want, and then click **New Front End pool..**.</span></span>
+
+4.  <span data-ttu-id="a0d3b-112">[**併置されたサーバーの役割の選択**] ページが表示されるまで、**新しいフロントエンド プールの定義**ウィザードを進めます。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-112">Navigate through the **Define New Front End Pool** wizard until you reach the **Select collocated server roles** page.</span></span>
+
+5.  <span data-ttu-id="a0d3b-113">[併置された**サーバーの役割を選択**してください] で、オプションの [**仲介サーバーの検索**] をオンにします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-113">In **Select collocated server roles**, check the option **Collocate Mediation Server**.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > <ul><li><p>選択した フロント エンド プールの種類が Enterprise Edition の場合、その フロント エンド プールのすべての フロント エンド サーバーに 仲介サーバー コンポーネントがインストールされます。</p></li>
-    > <li><p>仲介サーバーが使用する <strong>次ホップ プール</strong>は、仲介サーバーが併置された フロント エンド プールになります。</p></li>
-    > <li><p>仲介サーバーが使用する <strong>エッジ プール</strong>は、仲介サーバーが併置された フロント エンド プールに関連付けられた エッジ プールになります。</p></li></ul>
+    > <UL>
+    > <LI>
+    > <P><span data-ttu-id="a0d3b-114">選択したフロントエンドプールの種類が Enterprise Edition の場合、仲介サーバーコンポーネントは、そのフロントエンドプールのすべてのフロントエンドサーバーにインストールされます。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-114">If the type of Front End pool you selected is the Enterprise Edition, then the Mediation Server component will be installed on all the Front End Servers of that Front End pool.</span></span></P>
+    > <LI>
+    > <P><span data-ttu-id="a0d3b-115">仲介サーバーによって使用される next-hop<STRONG>プール</STRONG>は、仲介サーバーが併置されているフロントエンドプールになります。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-115">The <STRONG>Next hop pool</STRONG> used by the Mediation Server will be the Front End pool where the Mediation Server is collocated on.</span></span></P>
+    > <LI>
+    > <P><span data-ttu-id="a0d3b-116">仲介サーバーで使用される<STRONG>エッジプール</STRONG>は、仲介サーバーが併置されているフロントエンドプールと同じエッジプールになります。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-116">The <STRONG>Edge pool</STRONG> used by the Mediation Server will be the same Edge pool associated with the Front End pool where the Mediation Server is collocated on.</span></span></P></LI></UL>
 
-
-6.  この フロント エンド プールを使用して Microsoft Office Communications Server 2007 R2 から PSTN に通話をルーティングするために、\[**既定にする**\] をクリックします。
-
-7.  1 つ以上のピアと フロント エンド プールとの関連付けを終えたら、\[**完了**\] をクリックします。
     
-    > [!NOTE]
-    > エンタープライズ VoIP 展開プロセスの次のステップに進む前に、仲介サーバー プール (仲介サーバー コンポーネントが併置された フロント エンド プール) で、指定した FQDN が使用されていることを確認してください。
+    </div>
 
+6.  <span data-ttu-id="a0d3b-117">[**既定**にする] をクリックして、Microsoft Office Communications Server 2007 R2 から PSTN に通話をルーティングするために、このフロントエンドプールを使用するように設定します。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-117">Click **Make Default** to use this Front End pool to route calls from Microsoft Office Communications Server 2007 R2 to the PSTN.</span></span>
 
-8.  次に、展開ガイドの「[Lync Server 2013 でトポロジを公開する](lync-server-2013-publish-the-topology.md)」の手順に従って、仲介サーバーをトポロジに追加してから、必要に応じて 仲介サーバーのリッスン ポートを変更する次の手順に進みます。トポロジ ビルダーを使用してトポロジを定義または変更するたびに、トポロジを公開する必要があります。
-
-## スタンドアロン 仲介サーバーの定義
-
-トポロジ ビルダーを使用して、エンタープライズ VoIP を展開していないサイトで、スタンドアロン 仲介サーバーまたはプールを定義するには、このトピックの手順に従ってください。
-
-このサイトで フロント エンド プールに併置した 仲介サーバーを既に展開している場合は、このセクションと「[Lync Server 2013 仲介サーバーのファイルのインストール](lync-server-2013-install-the-files-for-mediation-server.md)」をスキップして、「[Lync Server 2013 でのトランクの構成](lync-server-2013-configuring-trunks.md)」に進んでかまいません。
-
-> [!NOTE]
-> このセクションは、展開ガイドの「<a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync Server 2013 でフロントエンド プールまたは Standard Edition サーバーを定義および構成する</a>」と「<a href="lync-server-2013-publish-the-topology.md">Lync Server 2013 でトポロジを公開する</a>」の説明に従って、1 つ以上の フロント エンド プールを既にセットアップしていることを前提としています。
-
-
-## 仲介サーバーを追加するには
-
-1.  トポロジ ビルダーを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server トポロジ ビルダー**\] の順にクリックします。
-
-2.  トポロジ ビルダーのコンソール ツリーで、仲介サーバーを定義するサイトの名前を展開します。
-
-3.  コンソール ツリーで \[**仲介プール**\] ノードを右クリックし、\[**仲介サーバー プール**\] をクリックします。
-
-4.  \[**新しい仲介プールの定義**\] で、仲介サーバー プールの完全修飾ドメイン名 (FQDN) を入力します。
-
-5.  次に、以下のいずれかの操作を行います。
+7.  <span data-ttu-id="a0d3b-118">1つまたは複数のピアのフロントエンドプールへの関連付けが終了したら、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-118">Click **Finish** when you are finished associating one or more peers to the Front End pool.</span></span>
     
-      - 高可用性を実現するためにプールに複数の 仲介サーバーを展開する場合は、\[**複数のコンピューター プール**\] を選択します。
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="a0d3b-119">エンタープライズ Voip 展開プロセスの次の手順に進む前に、指定した Fqdn を使用して、仲介サーバープール (たとえば、仲介サーバーコンポーネントが含まれているフロントエンドプール) であることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-119">Before you proceed to the next step in the Enterprise Voice deployment process, make sure that the Mediation Server pool (i.e. Front End pool with the Mediation Server component collocated) is using the FQDNs that you specified.</span></span>
+
+    
+    </div>
+
+8.  <span data-ttu-id="a0d3b-120">次に、展開ガイドドキュメントの「 [Lync server 2013 のトポロジを公開](lync-server-2013-publish-the-topology.md)する」の手順に従って、必要に応じて、仲介サーバーのリッスンポートを変更する次の手順に進みます。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-120">Next, follow the procedures in [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md) in the Deployment Guide documentation to add the Mediation Server to your topology before proceeding to the next step of modifying the listening ports of the Mediation Server if needed.</span></span> <span data-ttu-id="a0d3b-121">トポロジを定義または変更するには、トポロジビルダーを使用するたびにトポロジを公開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-121">You must publish your topology each time you use Topology Builder to define or modify your topology.</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="define-stand-alone-mediation-server"></a><span data-ttu-id="a0d3b-122">スタンドアロンの仲介サーバーを定義する</span><span class="sxs-lookup"><span data-stu-id="a0d3b-122">Define stand-alone Mediation Server</span></span>
+
+<span data-ttu-id="a0d3b-123">このトピックの手順に従って、トポロジビルダーを使用して、エンタープライズボイスが以前に展開されていないサイトで、スタンドアロンの仲介サーバーまたはプールを定義します。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-123">Follow the steps in this topic to use Topology Builder to define a stand-alone Mediation Server or pool at a site where Enterprise Voice has not been previously deployed.</span></span>
+
+<span data-ttu-id="a0d3b-124">このサイトでフロントエンドプールに併置されている仲介サーバーを既に展開している場合は、 [lync server 2013 で trunks を構成](lync-server-2013-configuring-trunks.md)する前に、このセクションをスキップし、[仲介サーバー用のファイルを lync Server 2013 にインストール](lync-server-2013-install-the-files-for-mediation-server.md)することができます。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-124">If you already deployed Mediation Servers collocated to Front End pools at this site, you can skip this section and [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) before proceeding to [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="a0d3b-125">このセクションでは、既に少なくとも1つのフロントエンドプールをセットアップしていることを前提としています。詳細については、「 <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync server 2013 でフロントエンドプールまたは Standard Edition server を定義して構成</A>する」および「展開ガイドの<A href="lync-server-2013-publish-the-topology.md">lync server 2013 でトポロジを公開</A>する」を参照してください。documentation.</span><span class="sxs-lookup"><span data-stu-id="a0d3b-125">This section assumes that you have already setup at least one Front End pool, as described in <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Define and configure a Front End pool or Standard Edition server in Lync Server 2013</A> and <A href="lync-server-2013-publish-the-topology.md">Publish the topology in Lync Server 2013</A> in the Deployment Guide documentation.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="to-add-a-mediation-server"></a><span data-ttu-id="a0d3b-126">仲介サーバーを追加するには</span><span class="sxs-lookup"><span data-stu-id="a0d3b-126">To Add a Mediation Server</span></span>
+
+1.  <span data-ttu-id="a0d3b-127">トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-127">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="a0d3b-128">[トポロジビルダー] のコンソールツリーで、仲介サーバーを定義するサイトの名前を展開します。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-128">In Topology Builder, in the console tree, expand the name of the site for which you want to define a Mediation Server.</span></span>
+
+3.  <span data-ttu-id="a0d3b-129">コンソールツリーで、[**仲介プール**] ノードを右クリックし、[**仲介サーバープール**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-129">In the console tree, right-click the **Mediation pools** node, and then click **Mediation Server pool**.</span></span>
+
+4.  <span data-ttu-id="a0d3b-130">[**新しい仲介プールの定義**] で、仲介サーバープールの完全修飾ドメイン名 (FQDN) を入力します。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-130">In **Define New Mediation Pool**, type the Mediation Server pool fully qualified domain name (FQDN).</span></span>
+
+5.  <span data-ttu-id="a0d3b-131">次に、以下のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-131">Next, do one of the following:</span></span>
+    
+      - <span data-ttu-id="a0d3b-132">プールに複数の仲介サーバーを展開して高可用性を提供する場合は、[**複数のコンピュータープール**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-132">If you want to deploy multiple Mediation Servers in the pool to provide high availability, then select **Multiple computer pool**.</span></span>
         
+        <div>
+        
+
         > [!NOTE]  
-        > 複数の 仲介サーバーを含む 仲介サーバー プールをサポートするには、DNS 負荷分散を展開する必要があります。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-dns-load-balancing.md">Lync Server 2013 での DNS 負荷分散</a>」の「仲介サーバー プールでの DNS 負荷分散の使用」を参照してください。
+        > <span data-ttu-id="a0d3b-133">複数の仲介サーバーがある仲介サーバープールをサポートするには、DNS の負荷分散を展開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-133">You must deploy DNS load balancing to support Mediation Server pools that have multiple Mediation Servers.</span></span> <span data-ttu-id="a0d3b-134">詳細については、計画ドキュメントの「 <A href="lync-server-2013-dns-load-balancing.md">Lync server 2013 の dns の負荷</A>分散での Dns 負荷分散の使用」セクションを参照してください。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-134">For details, see the Using DNS Load Balancing on Mediation Server Pools section of <A href="lync-server-2013-dns-load-balancing.md">DNS load balancing in Lync Server 2013</A> in the Planning documentation.</span></span>
+
+        
+        </div>
     
-      - 高可用性が不要なため、仲介サーバーを 1 つだけプールに展開する場合は、\[**単一コンピューターのプール**\] を選択します。 以下のステップは省略してください。
+      - <span data-ttu-id="a0d3b-135">高可用性を必要としないため、プールに1つの仲介サーバーのみを展開する場合は、[**単一コンピュータープール**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-135">If you want to deploy only one Mediation Server in the pool because you do not require high availability, then select **Single computer pool**.</span></span> <span data-ttu-id="a0d3b-136">以下のステップは省略してください。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-136">Skip the following step.</span></span>
 
-6.  前の手順で \[**複数のコンピューター プール**\] を選択した場合は、\[**このプール内のコンピューターを定義します。**\] で \[**コンピューターの FQDN**\] をクリックし、プール内の各サーバーの FQDN を入力して、\[**追加**\] をクリックします。プールに追加する他のすべての 仲介サーバーについて、この手順を繰り返します。プール内のすべてのコンピューターを定義したら、\[**次へ**\] をクリックします。
+6.  <span data-ttu-id="a0d3b-137">前の手順**で複数のコンピュータープール**を選択した場合は、[**このプールのコンピューターを定義**する] 項目で [コンピューターの**fqdn**] をクリックし、プール内の各サーバーの fqdn を入力して、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-137">If you selected **Multiple computer pool** in the previous step, on the **Define the computers in this pool** item, click **Computer FQDN**, type the FQDN of each server in the pool, and then click **Add**.</span></span> <span data-ttu-id="a0d3b-138">プールに追加するその他のすべての仲介サーバーについて、この手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-138">Repeat this step for all other Mediation Servers that you want to add to the pool.</span></span> <span data-ttu-id="a0d3b-139">プール内のすべてのコンピューターを定義したら、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-139">When you have defined all the computers in the pool, click **Next**.</span></span>
 
-7.  \[**次ホップ プールの選択**\] ページで \[**次ホップ ツール**\] をクリックし、この 仲介サーバー プールを使用するフロントエンド プールの FQDN をクリックして、\[**次へ**\] をクリックします。
+7.  <span data-ttu-id="a0d3b-140">[**次ホップの選択**] ページで、[**次ホッププール**] をクリックし、この仲介サーバープールを使用するフロントエンドプールの FQDN をクリックして、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-140">On the **Select the next hop** page, click **Next hop pool**, click the FQDN of the Front End pool that will use this Mediation Server pool, and then click **Next**.</span></span>
 
-8.  \[**エッジ サーバーの選択**\] ページで、次のどちらかの操作を行います。
+8.  <span data-ttu-id="a0d3b-141">[**エッジ サーバーの選択**] ページで、次のどちらかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-141">On the **Select an Edge Server** page, do one of the following:</span></span>
     
-      - エンタープライズ VoIP が有効な外部ユーザーに PSTN 接続を提供する場合は、\[**この仲介サーバーによって使用されるエッジ プールを選択**\] で、この 仲介サーバー プールを使用して外部ユーザーに PSTN 接続を提供するエッジ サーバー プールの FQDN をクリックし、\[**次へ**\] をクリックします。
+      - <span data-ttu-id="a0d3b-142">エンタープライズ Voip が有効になっている外部ユーザーに PSTN 接続を提供する場合は、[**この仲介サーバーで使用されるエッジプールを選択して**ください] で、この仲介サーバープールを使用して、pstn 接続を提供するエッジサーバープールの FQDN をクリックします。それらの外部ユーザーを選び、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-142">If you want to provide PSTN connectivity to external users enabled for Enterprise Voice, under **Select Edge Pool used by this Mediation Server**, click the FQDN of the Edge Server pool that will use this Mediation Server pool to provide PSTN connectivity to those external users, and then click **Next**.</span></span>
     
-      - 外部ユーザーに対して エンタープライズ VoIP を有効にしない場合、またはユーザーが内部ネットワークの外にいるときには PSTN 接続を提供しない場合は、\[**次へ**\] をクリックします。
+      - <span data-ttu-id="a0d3b-143">外部ユーザーをエンタープライズボイスとして有効にする予定がない場合、または内部ネットワークの外部にいるユーザーに PSTN 接続を提供しない場合は、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-143">If you do not plan to enable external users for Enterprise Voice, or if you do not want to provide PSTN connectivity to users when they are outside the internal network, click **Next**.</span></span>
 
-9.  次に、「展開」のドキュメントの「[Lync Server 2013 でトポロジを公開する](lync-server-2013-publish-the-topology.md)」にある手順に従って、仲介サーバーをトポロジに追加します。トポロジ ビルダーを使用してトポロジを構築または変更するたびにトポロジを公開して、Lync Server を実行するサーバー用のファイルのインストールにデータを使用できるようにする必要があります。次のステップに進み、必要に応じて仲介サーバー上のリッスン ポートを変更します。
+9.  <span data-ttu-id="a0d3b-144">次に、展開ドキュメントの「 [Lync server 2013 でトポロジを公開](lync-server-2013-publish-the-topology.md)する」の手順に従って、仲介サーバーをトポロジに追加します。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-144">Next, follow the procedures in [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md) in the Deployment documentation to add the Mediation Server to the topology.</span></span> <span data-ttu-id="a0d3b-145">トポロジビルダーを使用してトポロジを作成または変更するたびにトポロジを公開する必要があります。これにより、Lync Server を実行しているサーバーのファイルをインストールするためにデータを使用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-145">You must publish your topology each time you use Topology Builder to build or modify your topology so that the data can be used to install the files for servers that are running Lync Server.</span></span> <span data-ttu-id="a0d3b-146">次の手順に進んで、必要に応じて、仲介サーバーのリッスンポートを変更します。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-146">Then continue to the next steps to modify the listening ports on the Mediation Server, if necessary.</span></span>
 
-## 仲介サーバーのリッスン ポートの定義
+</div>
 
-トポロジ ビルダーを使用して、仲介サーバーまたはプールがゲートウェイ ピアからの着信接続を受け入れるリッスン ポートを定義するには、このトピックの手順に従ってください。
+</div>
 
-## 仲介サーバーのリッスン ポートを変更するには
+<div>
 
-1.  トポロジ ビルダーを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server トポロジ ビルダー**\] の順にクリックします。
+## <a name="define-the-mediation-server-listening-ports"></a><span data-ttu-id="a0d3b-147">仲介サーバーのリッスンポートを定義する</span><span class="sxs-lookup"><span data-stu-id="a0d3b-147">Define the Mediation Server Listening Ports</span></span>
 
-2.  トポロジ ビルダーのコンソール ツリーで、\[**仲介プール**\] ノードを展開し、以前に作成した 仲介サーバーを右クリックします。
+<span data-ttu-id="a0d3b-148">このトピックの手順に従って、トポロジビルダーを使用してリッスンポートを定義します。仲介サーバーまたはプールは、ゲートウェイピアからの着信接続を受け入れます。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-148">Follow the steps in this topic to use Topology Builder to define the listening ports a Mediation Server or pool will accept incoming connections from a gateway peer.</span></span>
 
-3.  既定では、仲介サーバーの SIP リッスン ポートは、Lync Server からの TLS トラフィックの場合は 5070、ピア (ゲートウェイ、PBX、または SBC) からの TLS トラフィックの場合は 5067 です。 TCP ポートは既定で無効になっています。TLS をサポートしていないゲートウェイがある場合は、TCP ポートを有効にする必要があります。
+<div>
 
-4.  仲介サーバーが PSTN ゲートウェイからの着信接続を受け入れる、目的の TLS または TCP リッスン ポートの範囲を指定します。
+## <a name="to-modify-the-mediation-server-listening-ports"></a><span data-ttu-id="a0d3b-149">仲介サーバーのリッスンポートを変更するには</span><span class="sxs-lookup"><span data-stu-id="a0d3b-149">To Modify the Mediation Server Listening Ports</span></span>
+
+1.  <span data-ttu-id="a0d3b-150">トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-150">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="a0d3b-151">[トポロジビルダー] のコンソールツリーで、[**仲介プール**] ノードを展開し、前に作成した仲介サーバーを右クリックします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-151">In Topology Builder, in the console tree, expand the **Mediation pools** node, and right-click the Mediation Server previously created.</span></span>
+
+3.  <span data-ttu-id="a0d3b-152">既定では、仲介サーバー上の SIP リスニングポートは、Lync Server からの TLS トラフィック用の5070であり5067、ピアからの TLS トラフィック (ゲートウェイ、PBXes、または SBCs) を対象としています。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-152">By default, the SIP listening ports on the Mediation Server are 5070 for TLS traffic from Lync Server, 5067 for TLS traffic from peers (gateways, PBXes, or SBCs).</span></span> <span data-ttu-id="a0d3b-153">TCP ポートは既定で無効になっています。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-153">TCP port is disabled by default.</span></span> <span data-ttu-id="a0d3b-154">TLS をサポートしていないゲートウェイがある場合は、TCP ポートを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-154">You must enable TCP port if you have gateways that do not support TLS.</span></span>
+
+4.  <span data-ttu-id="a0d3b-155">目的の TLS または TCP リッスンポートの範囲を指定する仲介サーバーは、PSTN ゲートウェイからの着信接続を受け入れます。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-155">Specify the desired TLS or TCP listening port range the Mediation Server will accept incoming connections from PSTN gateways.</span></span>
     
-    > [!NOTE]
-    > [<strong>TCP ポートの有効化</strong>] がオフになっている場合は、TCP ポート範囲を入力する必要はありません。この設定はオプションです。
+    <div>
+    
 
+    > [!NOTE]  
+    > <span data-ttu-id="a0d3b-156">[<STRONG>TCP ポートの有効化</STRONG>] がオフになっている場合は、TCP ポート範囲を入力する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-156">Entering a TCP port range is not required if <STRONG>Enable TCP port</STRONG> is not checked.</span></span> <span data-ttu-id="a0d3b-157">この設定はオプションです。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-157">This setting is optional.</span></span>
 
-次に、[Lync Server 2013 での、トポロジ ビルダーを使用したゲートウェイの定義](lync-server-2013-define-a-gateway-in-topology-builder.md)を行い、「[Lync Server 2013 仲介サーバーのファイルのインストール](lync-server-2013-install-the-files-for-mediation-server.md)」の手順に従って、プール内の各 仲介サーバー上のファイルをインストールします。
+    
+    </div>
+
+<span data-ttu-id="a0d3b-158">次に、lync server [2013 のトポロジビルダーでゲートウェイを定義](lync-server-2013-define-a-gateway-in-topology-builder.md)し、「 [lync Server 2013 の仲介サーバー用のファイルをインストール](lync-server-2013-install-the-files-for-mediation-server.md)する」の手順に従って、プール内の各仲介サーバーにファイルをインストールします。</span><span class="sxs-lookup"><span data-stu-id="a0d3b-158">Next, [Define a gateway in Topology Builder in Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md) and install the files on each Mediation Server in the pool by following the procedures in [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md).</span></span>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

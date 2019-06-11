@@ -1,49 +1,75 @@
-﻿---
-title: 'Lync Server 2013: 外部ユーザー アクセスの展開チェックリスト'
-TOCTitle: 外部ユーザー アクセスの展開チェックリスト
-ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425910(v=OCS.15)
-ms:contentKeyID: 48271867
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 外部ユーザー アクセスの展開チェックリスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment checklist for external user access
+ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425910(v=OCS.15)
+ms:contentKeyID: 48183947
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0c8831e8bd94040095fabd9fb335113b62b5287b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833518"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の外部ユーザー アクセスの展開チェックリスト
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a><span data-ttu-id="eb3e7-102">Lync Server 2013 の外部ユーザー アクセスの展開チェックリスト</span><span class="sxs-lookup"><span data-stu-id="eb3e7-102">Deployment checklist for external user access in Lync Server 2013</span></span>
 
-境界ネットワークを展開して外部ユーザーのサポートを実装する前に、フロント エンド プール、Standard Edition サーバーなどの Microsoft Lync Server 2013 内部サーバーを展開しておく必要があります。内部ネットワークにオプションの ディレクターを展開する予定がある場合は、エッジ サーバーを展開する前にそれらも展開する必要があります。ディレクターの展開プロセスの詳細については、「計画」のドキュメントの「[Lync Server 2013 のディレクターのシナリオ](lync-server-2013-scenarios-for-the-director.md)」を参照してください。
+</div>
 
-Microsoft Lync Server 2013 には、内部サーバーおよびエッジ サーバーの両方の計画と展開を容易にするためのツールが付属しています。トポロジが完成したら、作成したトポロジ定義を運用環境に公開します。これを行うためには、**Domain Admins** グループと **RTCUniversalServerAdmins** グループのメンバーである必要があります。
+<div id="mainSection">
 
-  - **計画ツール**Office Communications Server 2007 R2 には、トポロジ設計の手順を順に示す計画ツールとエッジ計画ツールが付属していました。Lync Server 2010 では、これら 2 つのツールは、計画ユーザー数、VoIP 要件、外部ユーザー アクセス タイプ、フェデレーション オプションの収集など、追加の機能を備えた 1 つの 計画ツールに統合されました。また、IP アドレス、ロード バランサー タイプ、その他境界ネットワークの考慮事項など、インフラストラクチャのネットワーク パラメーターを計画することもできます。
+<div id="mainBody">
 
-  - **トポロジ ビルダー**Lync Server 2013トポロジ ビルダーは、トポロジとコンポーネントを定義するのに役立ちます。トポロジ ビルダーは、Lync Server 2013 を実行するサーバーの展開に不可欠です。結果は、トポロジ ビルダーによって 中央管理ストアに公開され、組織内で Lync Server 2013 を実行するすべてのサーバーの構成に使用されます。トポロジ ビルダーを使用せずに Lync Server 2013 をサーバーにインストールすることはできません。
+<span> </span>
 
-トポロジ ビルダーを実行してエッジ トポロジを定義するなど、計画プロセスでエッジ トポロジを設計した場合は、これらの結果を使用してエッジ サーバーの展開を開始できます。まだエッジ トポロジの構築が完了していない場合や、以前に指定した情報を変更する場合は、他の展開手順に進む前に トポロジ ビルダーの実行を完了しておく必要があります。トポロジの構築方法の詳細については、「[Lync Server 2013 の外部ユーザー アクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」を参照してください。
+<span data-ttu-id="eb3e7-103">_**最終更新日:** 2014-02-04_</span><span class="sxs-lookup"><span data-stu-id="eb3e7-103">_**Topic Last Modified:** 2014-02-04_</span></span>
 
-計画ツールおよびトポロジ ビルダーの詳細については、「計画」のドキュメントの「[Lync Server 2013 の計画プロセスの開始](lync-server-2013-beginning-the-planning-process.md)」を参照してください。
+<span data-ttu-id="eb3e7-104">境界ネットワークを展開して外部ユーザーのサポートを実装する前に、フロントエンドプールまたは Standard Edition サーバーを含む Microsoft Lync Server 2013 内部サーバーを既に展開しておく必要があります。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-104">Before you deploy your perimeter network and implement support for external users, you must already have deployed your Microsoft Lync Server 2013 internal servers, including a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="eb3e7-105">内部ネットワークにオプションのディレクターを展開する予定がある場合は、エッジサーバーを展開する前に展開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-105">If you plan to deploy the optional Directors in your internal network, you should also deploy them prior to deploying Edge Servers.</span></span> <span data-ttu-id="eb3e7-106">ディレクター展開プロセスの詳細については、計画ドキュメントの「 [Lync Server 2013 のディレクターのシナリオ](lync-server-2013-scenarios-for-the-director.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-106">For details about the Director deployment process, see [Scenarios for the Director in Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) in the Planning documentation.</span></span>
 
-次の表に、エッジ サーバーの展開プロセスの概要を示します。外部ユーザー アクセスの展開前に決定する必要がある計画事項を確認するには、「[Lync Server 2013 の外部ユーザー アクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」を参照してください。
+<span data-ttu-id="eb3e7-107">Microsoft Lync Server 2013 には、内部サーバーとエッジサーバーの両方の計画と展開を容易にするためのツールが含まれています。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-107">Microsoft Lync Server 2013 includes tools to facilitate planning and deployment of both internal servers and Edge Servers.</span></span> <span data-ttu-id="eb3e7-108">トポロジが完了したら、生成されたトポロジ定義を運用環境に公開します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-108">After the topology is completed, publish the resulting topology definition to your production environment.</span></span> <span data-ttu-id="eb3e7-109">これを行うには、 **Domain Admins**グループと**RTCUniversalServerAdmins**グループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-109">To do this, you must be a member of the **Domain Admins** group and the **RTCUniversalServerAdmins** group.</span></span>
+
+  - <span data-ttu-id="eb3e7-110">**計画ツール**   Office Communications Server 2007 R2 には計画ツールとエッジ計画ツールが含まれており、これを使ってトポロジの設計をガイドすることができます。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-110">**Planning Tool**   Office Communications Server 2007 R2 included a Planning Tool and an Edge Planning Tool that you could use to help guide topology design.</span></span> <span data-ttu-id="eb3e7-111">Lync Server 2010 では、これら2つのツールが1つの計画ツールとしてまとめられており、計画されたユーザー数の収集、音声要件、外部ユーザーアクセスの種類、フェデレーションオプションなどの追加の機能が備わっています。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-111">In Lync Server 2010, these two tools were combined into a single Planning Tool that has additional features and functionality, such as collecting planned user count, voice requirements, external user access types, and federation options.</span></span> <span data-ttu-id="eb3e7-112">さらに、IP アドレス、ロードバランサーの種類、その他の境界ネットワークに関する考慮事項など、インフラストラクチャのネットワークパラメーターを計画することもできます。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-112">Additionally, you can plan your infrastructure’s network parameters, such as IP addresses, load balancer types and other perimeter network considerations.</span></span>
+
+  - <span data-ttu-id="eb3e7-113">**トポロジビルダー**   Lync Server 2013 トポロジビルダーを使用すると、トポロジとコンポーネントを定義できます。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-113">**Topology Builder**   Lync Server 2013 Topology Builder helps you define your topology and components.</span></span> <span data-ttu-id="eb3e7-114">トポロジビルダーは、Lync Server 2013 を実行しているサーバーの展開に不可欠です。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-114">Topology Builder is essential to deploying servers running Lync Server 2013.</span></span> <span data-ttu-id="eb3e7-115">トポロジビルダーは、組織内の Lync Server 2013 を実行しているすべてのサーバーを構成するために使用される中央管理ストアに結果を発行します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-115">Topology Builder publishes the results to a Central Management store that is used to configure all of the servers running Lync Server 2013 in your organization.</span></span> <span data-ttu-id="eb3e7-116">サーバーには、トポロジビルダーを使わずに Lync Server 2013 をインストールすることはできません。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-116">You cannot install Lync Server 2013 on servers without using Topology Builder.</span></span>
+
+<span data-ttu-id="eb3e7-117">計画プロセスで edge トポロジを設計して、edge トポロジを定義したトポロジビルダーを実行している場合は、これらの結果を使用してエッジサーバーの展開を開始できます。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-117">If you designed your edge topology during your planning process, including running Topology Builder to define your edge topology, you can use those results to start your Edge Server deployment.</span></span> <span data-ttu-id="eb3e7-118">以前にエッジトポロジの作成を完了していない場合、または以前に指定した情報を変更したい場合は、他の展開手順に進む前に、トポロジビルダーの実行を完了する必要があります。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-118">If you did not finish building your edge topology earlier or you want to change the information you previously specified, you must finish running Topology Builder before proceeding with other deployment steps.</span></span> <span data-ttu-id="eb3e7-119">トポロジの構築方法の詳細については、「 [Lync Server 2013 での外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-119">For details about how to build your topology, see [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).</span></span>
+
+<span data-ttu-id="eb3e7-120">計画ツールとトポロジビルダーの詳細については、計画ドキュメントの「 [Lync Server 2013 の計画プロセスの開始](lync-server-2013-beginning-the-planning-process.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-120">For details about the Planning Tool and Topology Builder, see [Beginning the planning process for Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) in the Planning documentation.</span></span>
+
+<span data-ttu-id="eb3e7-121">次の表では、エッジサーバーの展開プロセスの概要を示します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-121">The following table provides an overview of the Edge Server deployment process.</span></span> <span data-ttu-id="eb3e7-122">外部ユーザーアクセスを展開する前に行う必要がある計画決定を確認するには、「 [Lync Server 2013 での外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-122">To review the planning decisions that must be made before deploying external user access, see [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).</span></span>
+
+<div>
 
 
-> [!WARNING]
-> 次の表には、新規展開に関する情報を掲載しています。 Lync Server 2010、Office Communications Server 2007 R2、または Office Communications Server 2007 環境にエッジ サーバーを展開済みの場合、Lync Server 2013 への移行の詳細については、「<A href="migration.md">移行</A>」を参照してください。 Office Communications Server 2007 R2 より前のバージョン (Office Communications Server 2007、Live Communications Server 2005、Live Communications Server 2003 など) からの移行はサポートされていません。
+> [!WARNING]  
+> <span data-ttu-id="eb3e7-123">次の表の情報は、新しい展開に焦点を当てています。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-123">The information in the following table focuses on a new deployment.</span></span> <span data-ttu-id="eb3e7-124">Lync Server 2010、Office Communications Server 2007 R2、または Office Communications Server 2007 環境でエッジサーバーを展開している場合は、「<A href="migration.md">移行</A>」で「lync server 2013 への移行に関する詳細」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-124">If you have deployed Edge Servers in a Lync Server 2010, Office Communications Server 2007 R2 or Office Communications Server 2007 environment, see the <A href="migration.md">Migration</A> for details about migrating to Lync Server 2013.</span></span> <span data-ttu-id="eb3e7-125">Office communications server 2007、Live Communications Server 2005、Live Communications Server 2003 など、Office Communications Server 2007 R2 より前のバージョンでは、移行はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-125">Migration is not supported from any version prior to Office Communications Server 2007 R2, including Office Communications Server 2007, Live Communications Server 2005, and Live Communications Server 2003.</span></span>
 
 
 
-エッジ サーバーのパフォーマンスとセキュリティを向上させ、展開作業を円滑に行うことができるようにするため、次のベスト プラクティスに従って境界ネットワークとエッジ サーバーを展開します。
+</div>
 
-  - エッジ サーバーの展開は、組織内で Lync Server 2013 の動作をテストおよび検証した後にのみ行います。
+<span data-ttu-id="eb3e7-126">エッジサーバーのパフォーマンスとセキュリティを強化し、展開を容易にするために、境界ネットワークとエッジサーバーを展開するときに、次のベストプラクティスを適用します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-126">To enhance Edge Server performance and security, and to facilitate deployment, apply the following best practices when you deploy your perimeter network and Edge Servers:</span></span>
 
-  - エッジ サーバーは、ドメインではなく、ワークグループに展開することをお勧めします。これにより、インストールが容易になり、Active Directory ドメイン サービス (AD DS) を境界ネットワークの外側に置くことができます。境界ネットワーク上に AD DS を配置すると、セキュリティ リスクが高くなる場合があります。
+  - <span data-ttu-id="eb3e7-127">エッジサーバーを展開するのは、組織内の Lync Server 2013 のテストと検証が完了した後のみです。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-127">Deploy Edge Servers only after you have tested and verified operation of Lync Server 2013 inside your organization.</span></span>
 
-  - 全体が境界ネットワーク内にあるドメインへのエッジ サーバーの追加はサポートされていますが、お勧めしません。内部ドメインに属するエッジ サーバーは、インターネットは最も信頼性が低く、境界ネットワークはインターネットよりも信頼性が高く、内部ネットワークは最も信頼性が高いという信頼されたネットワークの境界の規則に違反します。内部ドメインのメンバーであるエッジ サーバーは自動的に最も信頼性の高いネットワークに属しますが、実際にはより信頼性の低いネットワーク (境界ネットワーク) に存在するからです。
+  - <span data-ttu-id="eb3e7-128">エッジサーバーは、ドメインではなくワークグループに展開することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-128">We recommend that you deploy Edge Servers in a workgroup rather than a domain.</span></span> <span data-ttu-id="eb3e7-129">これにより、インストールが簡単になり、境界ネットワークから Active Directory ドメインサービス (AD DS) が維持されます。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-129">Doing so simplifies installation and keeps Active Directory Domain Services (AD DS) out of the perimeter network.</span></span> <span data-ttu-id="eb3e7-130">境界ネットワークで広告 DS を検索すると、重大なセキュリティリスクをもたらす可能性があります。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-130">Locating AD DS in the perimeter network can present a significant security risk.</span></span>
 
-## エッジ サーバーの展開プロセス
+  - <span data-ttu-id="eb3e7-131">境界ネットワーク内の完全なドメインにエッジサーバーに参加することはサポートされますが、お勧めしません。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-131">Joining an Edge Server to a domain located entirely in the perimeter network is supported but not recommended.</span></span> <span data-ttu-id="eb3e7-132">内部ドメインの一部としてのエッジサーバーが、信頼できるネットワーク境界に違反していて、インターネットが最も信頼できない、境界ネットワークがインターネットよりも信頼されていて、内部ネットワークが最も信頼されている。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-132">An Edge Server as part of the internal domain violates trusted network boundaries, where the Internet is least trusted, perimeter network is more trusted than the Internet, and the internal network is most trusted.</span></span> <span data-ttu-id="eb3e7-133">ドメインのメンバーとしてのエッジサーバーは、最も信頼されたネットワークの一部になりますが、信頼度の低いネットワーク (境界) に存在します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-133">An Edge server as a member of the domain is automatically a part of the most trusted network, but resides in a less trusted network (the perimeter).</span></span>
+
+<div>
+
+## <a name="deployment-process-for-edge-servers"></a><span data-ttu-id="eb3e7-134">エッジサーバーの展開プロセス</span><span class="sxs-lookup"><span data-stu-id="eb3e7-134">Deployment Process for Edge Servers</span></span>
 
 
 <table>
@@ -55,116 +81,129 @@ Microsoft Lync Server 2013 には、内部サーバーおよびエッジ サー�
 </colgroup>
 <thead>
 <tr class="header">
-<th>フェーズ</th>
-<th>ステップ</th>
-<th>アクセス許可</th>
-<th>ドキュメント</th>
+<th><span data-ttu-id="eb3e7-135">段階</span><span class="sxs-lookup"><span data-stu-id="eb3e7-135">Phase</span></span></th>
+<th><span data-ttu-id="eb3e7-136">ステップ</span><span class="sxs-lookup"><span data-stu-id="eb3e7-136">Steps</span></span></th>
+<th><span data-ttu-id="eb3e7-137">アクセス許可</span><span class="sxs-lookup"><span data-stu-id="eb3e7-137">Permissions</span></span></th>
+<th><span data-ttu-id="eb3e7-138">ドキュメント</span><span class="sxs-lookup"><span data-stu-id="eb3e7-138">Documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>適切なエッジ トポロジの作成および適切なコンポーネントの決定。</p></td>
+<td><p><span data-ttu-id="eb3e7-139">適切なエッジトポロジを作成し、適切なコンポーネントを決定します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-139">Create the appropriate edge topology and determine the appropriate components.</span></span></p></td>
 <td><ul>
-<li><p>トポロジ ビルダーを実行して、エッジ サーバーの設定を構成してトポロジを作成および公開し、Lync Server 管理シェルを使用してトポロジ構成ファイルをエクスポートします。</p></li>
-</ul>
-<p></p></td>
-<td><p><strong>Domain Admins</strong> グループおよび <strong>RTCUniversalServerAdmins</strong> または <strong>CsAdmins</strong> グループ</p>
+<li><p><span data-ttu-id="eb3e7-140">トポロジビルダーを実行して、エッジサーバーの設定を構成し、トポロジを作成および公開してから、Lync Server 管理シェルを使用してトポロジ構成ファイルをエクスポートします。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-140">Run Topology Builder to configure Edge Server settings and create and publish the topology, and then use Lync Server Management Shell to export the topology configuration file.</span></span></p></li>
+</ul></td>
+<td><p><span data-ttu-id="eb3e7-141"><strong>Domain Admins</strong>グループおよび<strong>RTCUniversalServerAdmins</strong>または<strong>csadmins</strong>グループ</span><span class="sxs-lookup"><span data-stu-id="eb3e7-141"><strong>Domain Admins</strong> group and <strong>RTCUniversalServerAdmins</strong> or <strong>CsAdmins</strong> group</span></span></p>
+<div>
 
-> [!NOTE]
-> ローカル ユーザー グループのメンバーであるアカウントを使用してトポロジを定義することはできますが、トポロジを公開するには <strong>Domain Admins</strong> グループおよび <strong>RTCUniversalServerAdmins</strong> グループのメンバーであるアカウントが必要です。
+> [!NOTE]  
+> <span data-ttu-id="eb3e7-142">[ローカルユーザー] グループのメンバーであるアカウントを使用してトポロジを定義できますが、トポロジを公開するには、 <STRONG>Domain Admins</STRONG>グループと<STRONG>RTCUniversalServerAdmins</STRONG>グループのメンバーであるアカウントが必要です。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-142">You can define a topology using an account that is a member of the local users group, but publishing a topology requires an account that is a member of the <STRONG>Domain Admins</STRONG> group and the <STRONG>RTCUniversalServerAdmins</STRONG> group.</span></span>
 
-<td><p>「展開」のドキュメントの「<a href="lync-server-2013-building-an-edge-and-director-topology.md">Lync Server 2013 でのエッジおよびディレクターのトポロジの作成</a>」</p></td>
+
+</div></td>
+<td><p><span data-ttu-id="eb3e7-143">展開ドキュメントの<a href="lync-server-2013-building-an-edge-and-director-topology.md">Lync Server 2013 でエッジとディレクターのトポロジを構築する</a></span><span class="sxs-lookup"><span data-stu-id="eb3e7-143"><a href="lync-server-2013-building-an-edge-and-director-topology.md">Building an edge and Director topology in Lync Server 2013</a> in the Deployment documentation</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>セットアップの準備。</p></td>
+<td><p><span data-ttu-id="eb3e7-144">セットアップの準備をします。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-144">Prepare for setup.</span></span></p></td>
 <td><ol>
-<li><p>システムの前提条件が適合していることを確認します。</p></li>
-<li><p>各エッジ サーバーの、内部とパブリック側の両方のネットワーク インターフェイスの IP アドレス (IPv4 および IPv6 (使用されている場合)) を構成します。</p></li>
-<li><p>内部および外部の DNS レコード (IPv4 および IPv6 の場合はホスト A および AAAA) を構成します。これにはエッジ サーバーとして展開されるコンピューターでの DNS サフィックスの構成も含まれます。</p></li>
-<li><p>(オプション) パブリック証明書を作成してインストールします。証明書の取得に必要な時間は、証明書を発行する証明機関 (CA) によって異なります。現時点でこのステップを実行しない場合は、エッジ サーバーのインストール時に実行する必要があります。証明書を取得してインストールしないと、エッジ サーバー サービスを開始できません。</p></li>
-<li><p>展開が Windows Live、AOL、または Yahoo! ユーザーとの通信をサポートする場合は、パブリック IM 接続のサポートをプロビジョニングします。</p>
+<li><p><span data-ttu-id="eb3e7-145">システムの前提条件が満たされていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-145">Ensure that system prerequisites are met.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-146">各エッジサーバー上の内部および一般向けのネットワークインターフェイスの両方に対して、IP アドレス (IPv4 および IPv6 を使用している場合) を構成します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-146">Configure IP addresses (IPv4 and IPv6, if used) for both internal and public facing network interfaces on each Edge Server.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-147">エッジサーバーとして展開するコンピューター上の DNS サフィックスを構成するなど、内部と外部の DNS レコード (IPv4 および IPv6 の場合は host A と AAAA) を構成します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-147">Configure internal and external DNS records (host A and AAAA for IPv4 and IPv6), including configuring the DNS suffix on the computer to be deployed as an Edge Server.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-148">省略公開証明書を作成してインストールします。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-148">(Optional) Create and install public certificates.</span></span> <span data-ttu-id="eb3e7-149">証明書を取得するために必要な時間は、証明書が発行される証明機関 (CA) によって異なります。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-149">The time required to obtain certificates depends on which certification authority (CA) issues the certificate.</span></span> <span data-ttu-id="eb3e7-150">この手順をこの時点で実行しない場合は、Edge Server のインストール中に実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-150">If you do not perform this step at this point, you must do it during Edge Server installation.</span></span> <span data-ttu-id="eb3e7-151">エッジサーバーのサービスは、証明書が取得されてインストールされるまで開始できません。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-151">The Edge Server services cannot be started until certificates are obtained and installed.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-152">展開が Windows Live、AOL、または Yahoo! との通信をサポートする場合は、パブリック IM 接続のサポートを提供します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-152">Provision support for public IM connectivity, if your deployment is to support communications with Windows Live, AOL, or Yahoo!</span></span> <span data-ttu-id="eb3e7-153">ユーザー.</span><span class="sxs-lookup"><span data-stu-id="eb3e7-153">users.</span></span></p>
+<div>
 
-
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>2012 年 9 月 1 日の時点で、Microsoft Lync パブリック IM 接続のユーザー サブスクリプション ライセンス ("PIC USL") を新規または更新契約において購入することができなくなりました。アクティブなライセンスをお持ちのお客様は、サービスの停止日まで Yahoo! Messenger とのフェデレーションを引き続きご利用いただけます。AOL と Yahoo! に関しては、2014 年 6 月の終了日が発表されています。詳細については、「<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 でのパブリック インスタント メッセンジャーの接続のサポート</A>」を参照してください。</P>
+> <P><span data-ttu-id="eb3e7-154">2012年9月1日以降、Microsoft Lync パブリック IM 接続ユーザーサブスクリプションライセンス ("PIC USL") は、新規または更新契約の購入に使用できなくなりました。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-154">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="eb3e7-155">アクティブなライセンスを持っているお客様は、Yahoo! とのフェデレーションを継続できます。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-155">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="eb3e7-156">サービスが終了するまでの Messenger。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-156">Messenger until the service shut down date.</span></span> <span data-ttu-id="eb3e7-157">AOL および Yahoo! の2014年6月の終了日</span><span class="sxs-lookup"><span data-stu-id="eb3e7-157">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="eb3e7-158">が発表されました。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-158">has been announced.</span></span> <span data-ttu-id="eb3e7-159">詳細については、「 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 でのパブリックインスタントメッセンジャー接続のサポート</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-159">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
 > <LI>
-> <P>PIC USL は、ユーザー単位および月単位のサブスクリプション ライセンスであり、Lync Server または Office Communications Server と Yahoo! Messenger とのフェデレーションを行うにはこのライセンスが必要です。Microsoft がこのサービスを提供できるのは、Yahoo! からのサポートを条件とするものでしたが、その基盤となる契約の終了が近づいてきました。</P>
+> <P><span data-ttu-id="eb3e7-160">PIC USL は、Lync Server または Office Communications Server が Yahoo! とのフェデレーションを行うために必要な1か月あたりのユーザーごとのサブスクリプションライセンスです。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-160">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="eb3e7-161">Messenger.</span><span class="sxs-lookup"><span data-stu-id="eb3e7-161">Messenger.</span></span> <span data-ttu-id="eb3e7-162">このサービスを提供するための Microsoft の機能は、Yahoo! からのサポートによって決定されたものであり、その基となる契約は "巻停止" となります。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-162">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
 > <LI>
-> <P>Lync は組織間を接続したり世界中のユーザーと接続したりするための、これまで以上の強力なツールとなります。Windows Live Messenger とのフェデレーションを行うのに、Lync Standard CAL を超えてユーザー/デバイス ライセンスを追加する必要はありません。Skype フェデレーションがこのリストに追加されることで、Lync ユーザーは IM および音声を使用して数億のユーザーにアクセスできます。</P></LI></UL>
+> <P><span data-ttu-id="eb3e7-163">Lync は、組織間、および世界各地の個人と接続するための強力なツールです。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-163">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="eb3e7-164">Windows Live Messenger とのフェデレーションには、Lync 標準 CAL 以外の追加のユーザー/デバイスライセンスは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-164">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="eb3e7-165">Skype federation はこのリストに追加されます。 Lync ユーザーは、IM と音声を使用して、数百人の何百万ものユーザーに連絡できます。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-165">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
 
 
-
-<li><p>展開で使用する場合は、XMPP のサポートおよび Office Communications Server 2007、Office Communications Server 2007 R2、Lync Server 2010 パートナーのフェデレーション サポートをプロビジョニングします。</p></li>
-<li><p>ファイアウォールの構成。</p></li>
+</div></li>
+<li><p><span data-ttu-id="eb3e7-166">展開で使用される場合は、Office Communications Server 2007、Office Communications Server 2007 R2、Lync Server 2010 パートナー向けの XMPP およびフェデレーションサポートのサポートを提供します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-166">Provision support for XMPP and federation support for Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 partners, if your deployment will use these</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-167">ファイアウォールを構成します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-167">Configure firewalls.</span></span></p></li>
 </ol></td>
-<td><p>組織に合わせて設定</p></td>
-<td><p>「展開」のドキュメントの「<a href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Lync Server 2013 の境界ネットワークへのサーバーのインストールの準備</a>」</p></td>
+<td><p><span data-ttu-id="eb3e7-168">組織に応じて</span><span class="sxs-lookup"><span data-stu-id="eb3e7-168">As appropriate to your organization</span></span></p></td>
+<td><p><span data-ttu-id="eb3e7-169">展開ドキュメントで<a href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Lync Server 2013 用の境界ネットワークにサーバーをインストールするための準備</a></span><span class="sxs-lookup"><span data-stu-id="eb3e7-169"><a href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Preparing for installation of servers in the perimeter network for Lync Server 2013</a> in the Deployment documentation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>リバース プロキシの設定。</p></td>
+<td><p><span data-ttu-id="eb3e7-170">リバースプロキシをセットアップします。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-170">Set up reverse proxy.</span></span></p></td>
 <td><ul>
-<li><p>境界ネットワークでリバース プロキシ (Microsoft Forefront Threat Management Gateway 2010 用または Service Pack 1 を適用した Microsoft Internet Security and Acceleration (ISA) Server 用など) を設定し、必要なパブリック証明書を取得し、リバース プロキシ サーバーで Web 公開ルールを構成します。</p>
-<p>モビリティの計画を行っており、フロントエンド プールまたは Standard Edition サーバーに Mobility Service を展開する場合は、Mobility Service 用のリバース プロキシを準備します。</p></li>
+<li><p><span data-ttu-id="eb3e7-171">境界ネットワークに、(Microsoft Forefront Threat Management Gateway 2010 または Microsoft インターネットセキュリティとアクセラレータ (ISA) サーバーの場合) リバースプロキシをセットアップして、必要なパブリック証明書を取得して構成します。リバースプロキシサーバー上の web 公開ルール。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-171">Set up the reverse proxy (for example, for Microsoft Forefront Threat Management Gateway 2010 or Microsoft Internet Security and Acceleration (ISA) Server with Service Pack 1) in the perimeter network, obtain the necessary public certificates, and configure the web publishing rules on the reverse proxy server.</span></span></p>
+<p><span data-ttu-id="eb3e7-172">モビリティを計画していて、フロントエンドプールまたは Standard Edition サーバーにモビリティサービスを展開している場合は、モビリティサービスのリバースプロキシを準備します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-172">Prepare the reverse proxy for Mobility services if you have planned for Mobility and are deploying the Mobility services on the Front End pool or Standard Edition server.</span></span></p></li>
 </ul></td>
-<td><p><strong>Administrators</strong> グループまたはリバース プロキシの管理者</p></td>
-<td><p></p>
-<p>「展開」のドキュメントの「<a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 のリバース プロキシ サーバーの設定</a>」</p></td>
+<td><p><span data-ttu-id="eb3e7-173"><strong>管理者</strong>グループまたはリバースプロキシ管理者</span><span class="sxs-lookup"><span data-stu-id="eb3e7-173"><strong>Administrators</strong> group or Reverse Proxy administrator</span></span></p></td>
+<td><p><span data-ttu-id="eb3e7-174">展開ドキュメントの<a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 用にリバースプロキシサーバー</a>をセットアップする</span><span class="sxs-lookup"><span data-stu-id="eb3e7-174"><a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Setting up reverse proxy servers for Lync Server 2013</a> in the Deployment documentation</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>ディレクターのセットアップ (オプション)。</p></td>
+<td><p><span data-ttu-id="eb3e7-175">ディレクターを設定する (省略可能)。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-175">Setup a Director (optional).</span></span></p></td>
 <td><ul>
-<li><p>(オプション) 内部ネットワークにディレクターを 1 つ以上インストールして構成します。</p></li>
+<li><p><span data-ttu-id="eb3e7-176">省略内部ネットワークに1つ以上のディレクターをインストールして構成します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-176">(Optional) Install and configure one or more Directors in the internal network.</span></span></p></li>
 </ul></td>
-<td><p><strong>Administrators</strong> グループ</p></td>
-<td><p>「展開」のドキュメントの「<a href="lync-server-2013-setting-up-the-director.md">Lync Server 2013 でのディレクターの設定</a>」</p></td>
+<td><p><span data-ttu-id="eb3e7-177"><strong>管理者</strong>グループ</span><span class="sxs-lookup"><span data-stu-id="eb3e7-177"><strong>Administrators</strong> group</span></span></p></td>
+<td><p><span data-ttu-id="eb3e7-178">展開ドキュメントの<a href="lync-server-2013-setting-up-the-director.md">Lync Server 2013 でのディレクターの</a>セットアップ</span><span class="sxs-lookup"><span data-stu-id="eb3e7-178"><a href="lync-server-2013-setting-up-the-director.md">Setting up the Director in Lync Server 2013</a> in the Deployment documentation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>エッジ サーバーの設定。</p></td>
+<td><p><span data-ttu-id="eb3e7-179">エッジサーバーをセットアップします。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-179">Set up Edge Servers.</span></span></p></td>
 <td><ol>
-<li><p>必要なソフトウェアをインストールします。</p></li>
-<li><p>エクスポートされたトポロジ構成ファイルを各エッジ サーバーにトランスポートします。</p></li>
-<li><p>各エッジ サーバーに Lync Server 2013 ソフトウェアをインストールします。</p></li>
-<li><p>エッジ サーバーを構成します。</p></li>
-<li><p>各エッジ サーバー用の証明書を要求してインストールします。</p></li>
-<li><p>エッジ サーバー サービスを開始します。</p></li>
+<li><p><span data-ttu-id="eb3e7-180">必須ソフトウェアをインストールします。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-180">Install prerequisite software.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-181">エクスポートされたトポロジ構成ファイルを各エッジサーバーに転送します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-181">Transport the exported topology configuration file to each Edge Server.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-182">各エッジサーバーに Lync Server 2013 ソフトウェアをインストールします。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-182">Install the Lync Server 2013 software on each Edge Server.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-183">エッジサーバーを構成します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-183">Configure the Edge Servers.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-184">各エッジサーバーに対して証明書を要求およびインストールします。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-184">Request and install certificates for each Edge Server.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-185">Edge Server サービスを開始します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-185">Start the Edge Server services.</span></span></p></li>
 </ol></td>
-<td><p><strong>Administrators</strong> グループ</p></td>
-<td><p>「展開」のドキュメントの「<a href="lync-server-2013-setting-up-edge-servers.md">Lync Server 2013 でのエッジ サーバーの設定</a>」</p></td>
+<td><p><span data-ttu-id="eb3e7-186"><strong>管理者</strong>グループ</span><span class="sxs-lookup"><span data-stu-id="eb3e7-186"><strong>Administrators</strong> group</span></span></p></td>
+<td><p><span data-ttu-id="eb3e7-187">展開ドキュメントの<a href="lync-server-2013-setting-up-edge-servers.md">Lync Server 2013 での Edge サーバーの</a>セットアップ</span><span class="sxs-lookup"><span data-stu-id="eb3e7-187"><a href="lync-server-2013-setting-up-edge-servers.md">Setting up Edge Servers in Lync Server 2013</a> in the Deployment documentation</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>外部ユーザー アクセスの展開の構成。</p></td>
+<td><p><span data-ttu-id="eb3e7-188">外部ユーザーアクセスの展開を構成します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-188">Configure deployment for external user access.</span></span></p></td>
 <td><ol>
-<li><p>Lync Server コントロール パネルを使用して、以下の各項目のサポートを構成します (適用可能な場合)。</p>
+<li><p><span data-ttu-id="eb3e7-189">Lync Server コントロールパネルを使用して、次の各機能のサポートを構成します (該当する場合)。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-189">Use the Lync Server Control Panel to configure support for each of the following (as applicable):</span></span></p>
 <ul>
-<li><p>メディア リレー</p></li>
-<li><p>フェデレーション ルート</p></li>
-<li><p>リモート ユーザー アクセス</p></li>
-<li><p>Lync Server、Office Communications Server、および Live Communications Server とのフェデレーション</p></li>
-<li><p>パブリック IM 接続</p></li>
-<li><p>XMPP フェデレーション</p></li>
-<li><p>匿名ユーザー</p></li>
+<li><p><span data-ttu-id="eb3e7-190">メディアリレー</span><span class="sxs-lookup"><span data-stu-id="eb3e7-190">Media relay</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-191">フェデレーションルート</span><span class="sxs-lookup"><span data-stu-id="eb3e7-191">Federation route</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-192">リモートユーザーアクセス</span><span class="sxs-lookup"><span data-stu-id="eb3e7-192">Remote user access</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-193">Lync Server、Office Communications Server、Live Communications Server とのフェデレーション</span><span class="sxs-lookup"><span data-stu-id="eb3e7-193">Federation with Lync Server, Office Communications Server and Live Communications Server</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-194">パブリック IM 接続</span><span class="sxs-lookup"><span data-stu-id="eb3e7-194">Public IM connectivity</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-195">XMPP フェデレーション</span><span class="sxs-lookup"><span data-stu-id="eb3e7-195">XMPP federation</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-196">匿名ユーザー</span><span class="sxs-lookup"><span data-stu-id="eb3e7-196">Anonymous users</span></span></p></li>
 </ul></li>
-<li><p>(必要に応じて) リモート ユーザー アクセス、フェデレーション、パブリック IM 接続、XMPP、および匿名ユーザー サポート用のユーザー アカウントを構成します。</p></li>
+<li><p><span data-ttu-id="eb3e7-197">リモートユーザーアクセス、フェデレーション、パブリック IM 接続、XMPP、匿名ユーザーのサポート (該当する場合) のユーザーアカウントを構成する</span><span class="sxs-lookup"><span data-stu-id="eb3e7-197">Configure user accounts for remote user access, federation, public IM connectivity, XMPP and anonymous user support (as applicable)</span></span></p></li>
 </ol></td>
-<td><p><strong>RTCUniversalServerAdmins</strong> グループ、または <strong>CSAdministrator</strong> の役割に割り当てられているユーザー アカウント</p>
-<p></p></td>
-<td><p>「展開」のドキュメントの「<a href="lync-server-2013-configuring-support-for-external-user-access.md">Lync Server 2013 での外部ユーザー アクセスのサポートの構成</a>」</p></td>
+<td><p><span data-ttu-id="eb3e7-198"><strong>Csadministrator</strong>ロールに割り当てられている<strong>RTCUniversalServerAdmins</strong>グループまたはユーザーアカウント</span><span class="sxs-lookup"><span data-stu-id="eb3e7-198"><strong>RTCUniversalServerAdmins</strong> group or user account that is assigned to the <strong>CSAdministrator</strong> role</span></span></p></td>
+<td><p><span data-ttu-id="eb3e7-199">展開ドキュメントの<a href="lync-server-2013-configuring-support-for-external-user-access.md">Lync Server 2013 で外部ユーザーアクセスのサポートを構成する</a></span><span class="sxs-lookup"><span data-stu-id="eb3e7-199"><a href="lync-server-2013-configuring-support-for-external-user-access.md">Configuring support for external user access in Lync Server 2013</a> in the Deployment documentation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>エッジ サーバー構成の確認。</p></td>
+<td><p><span data-ttu-id="eb3e7-200">エッジサーバーの構成を確認します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-200">Verify your Edge Server configuration.</span></span></p></td>
 <td><ol>
-<li><p>内部サーバーからのサーバー接続および構成データのレプリケーションを確認します。</p></li>
-<li><p>外部ユーザー (リモート ユーザー、フェデレーション ドメイン内のユーザー、パブリック IM ユーザー、および匿名ユーザーなど) が、必要に応じて展開に接続できることを確認します。</p></li>
-<li><p>Lync Server Remote Connectivity Analyzer (<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a>) を使用して、構成と通信を確認します。</p></li>
-<li><p>構成および通信の問題のトラブルシューティングを行います。</p></li>
+<li><p><span data-ttu-id="eb3e7-201">サーバーの接続と、内部サーバーからの構成データのレプリケーションを確認します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-201">Verify server connectivity and replication of configuration data from internal servers.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-202">展開に応じて、リモートユーザー、フェデレーションドメインのユーザー、パブリック IM ユーザー、匿名ユーザーなどの外部ユーザーが接続できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="eb3e7-202">Verify that external users can connect, including remote users, users in federated domains, public IM users, and anonymous users, as appropriate to your deployment.</span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-203">Lync Server Remote Connectivity Analyzer を使用して構成と通信を確認する<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></span><span class="sxs-lookup"><span data-stu-id="eb3e7-203">Verify configuration and communication using the Lync Server Remote Connectivity Analyzer <a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></span></span></p></li>
+<li><p><span data-ttu-id="eb3e7-204">構成と通信に関する問題のトラブルシューティング</span><span class="sxs-lookup"><span data-stu-id="eb3e7-204">Troubleshoot configuration and communication difficulties</span></span></p></li>
 </ol></td>
-<td><p>レプリケーションの確認の場合は、<strong>RTCUniversalServerAdmins</strong> グループ、または <strong>CSAdministrator</strong> の役割に割り当てられているユーザー アカウント</p>
-<p>ユーザー接続の確認の場合は、サポートしている外部ユーザー アクセスの各種ユーザー</p>
-<p>リモート ユーザー</p></td>
-<td><p>「展開」のドキュメントの「<a href="lync-server-2013-verifying-your-edge-deployment.md">Lync Server 2013 でのエッジの展開の検証</a>」</p></td>
+<td><p><span data-ttu-id="eb3e7-205"><strong>RTCUniversalServerAdmins</strong> 、または<strong>csadministrator</strong>の役割に割り当てられているユーザーアカウントを確認するには</span><span class="sxs-lookup"><span data-stu-id="eb3e7-205">For verification of replication, <strong>RTCUniversalServerAdmins</strong> group or user account that is assigned to the <strong>CSAdministrator</strong> role</span></span></p>
+<p><span data-ttu-id="eb3e7-206">ユーザー接続を確認するために、サポートする外部ユーザーアクセスの各種類のユーザー</span><span class="sxs-lookup"><span data-stu-id="eb3e7-206">For verification of user connectivity, a user for each type of external user access that you support</span></span></p>
+<p><span data-ttu-id="eb3e7-207">リモートユーザー</span><span class="sxs-lookup"><span data-stu-id="eb3e7-207">Remote users</span></span></p></td>
+<td><p><span data-ttu-id="eb3e7-208">展開ドキュメントの<a href="lync-server-2013-verifying-your-edge-deployment.md">Lync Server 2013 での edge の展開を確認</a>する</span><span class="sxs-lookup"><span data-stu-id="eb3e7-208"><a href="lync-server-2013-verifying-your-edge-deployment.md">Verifying your edge deployment in Lync Server 2013</a> in the Deployment documentation</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

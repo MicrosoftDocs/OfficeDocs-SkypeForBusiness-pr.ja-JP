@@ -1,39 +1,73 @@
-﻿---
-title: ハイブリッドおよび分割ドメイン - 自動検出
-TOCTitle: ハイブリッドおよび分割ドメイン - 自動検出
-ms:assetid: c855bcc5-b656-4d2d-92d6-f016f2797d3a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ945652(v=OCS.15)
-ms:contentKeyID: 52056704
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ハイブリッドおよび分割ドメイン-自動検出'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hybrid and split-domain - Autodiscover
+ms:assetid: c855bcc5-b656-4d2d-92d6-f016f2797d3a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945652(v=OCS.15)
+ms:contentKeyID: 51541520
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 389288a695f7e8ed96ab72d16f612ffd92a7b013
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833044"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ハイブリッドおよび分割ドメイン - 自動検出
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-14_
+# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a><span data-ttu-id="730f6-102">ハイブリッドおよび分割ドメイン-Lync Server 2013 での自動検出</span><span class="sxs-lookup"><span data-stu-id="730f6-102">Hybrid and split-domain - Autodiscover in Lync Server 2013</span></span>
 
-共有済みの SIP アドレス スペースは、"分割ドメイン" 展開または "ハイブリッド" 展開とも呼ばれる構成で、ユーザーは社内展開とオンライン展開をまたいで展開されます。この構成では、ホーム サーバーの設置場所 (社内またはオンラインのどちらであるか) に関係なく、展開にログインしたユーザーは、そのホーム サーバーの設置場所にリダイレクトされることが望まれます。これを達成するために、Lync Server 2013 の自動検出を使用して、オンライン ユーザーはオンライン トポロジにリダイレクトされます。このリダイレクトを行うには、Lync Server 管理シェルで **Get-CsHostingProvider** コマンドレットおよび **Set-CsHostingProvider** コマンドレットを使用して自動検出の Uniform Resource Locator (URL) を構成します。
+</div>
 
-## 分割ドメイン展開でのモビリティ
+<div id="mainSection">
 
-次の展開属性を収集して記録する必要があります。
+<div id="mainBody">
 
-  - Lync Server 管理シェルで、次のように入力します。
+<span> </span>
+
+<span data-ttu-id="730f6-103">_**最終更新日:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="730f6-103">_**Topic Last Modified:** 2013-02-14_</span></span>
+
+<span data-ttu-id="730f6-104">共有 SIP アドレス空間 (*分割ドメイン*展開とも呼ばれます) または*ハイブリッド*展開とも呼ばれる構成で、ユーザーがオンプレミスの展開とオンライン環境を通じて展開されます。</span><span class="sxs-lookup"><span data-stu-id="730f6-104">A shared SIP address space, also known as a *split-domain* deployment, or a *hybrid* deployment, is a configuration where users are deployed across an on-premise deployment and an online environment.</span></span> <span data-ttu-id="730f6-105">必要な結果は、ホームサーバーが配置されている場所 (オンプレミスまたはオンライン) に関係なく、展開にログインし、ホームサーバーの場所にリダイレクトされることです。</span><span class="sxs-lookup"><span data-stu-id="730f6-105">The desired outcome is to have a user, regardless of where their home server is located (on-premise or online), log into the deployment and be redirected to their home server location.</span></span> <span data-ttu-id="730f6-106">これを実現するために、Lync Server 2013 の自動検出機能を使用して、オンラインユーザーをオンライントポロジにリダイレクトします。</span><span class="sxs-lookup"><span data-stu-id="730f6-106">To accomplish this, the Autodiscover feature of Lync Server 2013 is used to redirect the online user to the online topology.</span></span> <span data-ttu-id="730f6-107">これを行うには、Lync Server 管理シェル、 **Get-CsHostingProvider**コマンドレット、 **Set-cshostingprovider**コマンドレットを使用して、自動検出の UNIFORM resource locator (URL) を構成します。</span><span class="sxs-lookup"><span data-stu-id="730f6-107">You can do this by configuring the Autodiscover uniform resource locator (URL) by using the Lync Server Management Shell, the **Get-CsHostingProvider** cmdlet, and the **Set-CsHostingProvider** cmdlet.</span></span>
+
+<div>
+
+## <a name="mobility-for-the-split-domain-deployment"></a><span data-ttu-id="730f6-108">分離ドメイン展開のモビリティ</span><span class="sxs-lookup"><span data-stu-id="730f6-108">Mobility for the Split Domain Deployment</span></span>
+
+<span data-ttu-id="730f6-109">次の展開された属性を収集して記録する必要があります。</span><span class="sxs-lookup"><span data-stu-id="730f6-109">You will need to collect and record the following deployed attributes:</span></span>
+
+  - <span data-ttu-id="730f6-110">Lync Server 管理シェルで、「</span><span class="sxs-lookup"><span data-stu-id="730f6-110">From the Lync Server Management Shell, type</span></span>
     
         Get-CsHostingProvider
 
-  - 実行結果から、**ProxyFQDN** 属性を持つオンライン プロバイダー (たとえば、sipfed.online.lync.com) を見つけます。
+  - <span data-ttu-id="730f6-111">結果で、属性**Proxyfqdn**を含むオンラインプロバイダーを見つけます。</span><span class="sxs-lookup"><span data-stu-id="730f6-111">In the results, find the online provider with the attribute **ProxyFQDN**.</span></span> <span data-ttu-id="730f6-112">たとえば、sipfed.online.lync.com のようになります。</span><span class="sxs-lookup"><span data-stu-id="730f6-112">For example, sipfed.online.lync.com.</span></span>
 
-  - ProxyFQDN の値を記録します。
+  - <span data-ttu-id="730f6-113">ProxyFQDN の値を記録します。</span><span class="sxs-lookup"><span data-stu-id="730f6-113">Record the value of the ProxyFQDN.</span></span>
 
-  - 社内の Lync Server コントロール パネルでフェデレーションを有効にします。オンライン プロバイダーとのフェデレーションが可能になります。
+  - <span data-ttu-id="730f6-114">オンプレミスの Lync Server コントロールパネルでフェデレーションを有効にして、オンラインプロバイダーとのフェデレーションを許可します。</span><span class="sxs-lookup"><span data-stu-id="730f6-114">Enable federation in the on-premise Lync Server Control Panel, allowing federation with the online provider.</span></span>
 
-  - オンライン プロバイダーに対してフェデレーションを有効にします。既定では、ドメイン フェデレーションに対してすべてのオンライン ユーザーが有効になり、すべてのドメインと通信できます。
+  - <span data-ttu-id="730f6-115">オンラインプロバイダーのフェデレーションを有効にします。</span><span class="sxs-lookup"><span data-stu-id="730f6-115">Enable federation for the online provider.</span></span> <span data-ttu-id="730f6-116">既定では、すべてのオンラインユーザーがドメインフェデレーションを有効にしており、すべてのドメインと通信できます。</span><span class="sxs-lookup"><span data-stu-id="730f6-116">By default, all online users are enabled for domain federation and can communicate with all domains.</span></span>
 
-  - 禁止ドメインと許可ドメインを定義する場合は、明示的に許可するドメイン、または明示的に禁止するドメインを決めます。
+  - <span data-ttu-id="730f6-117">ブロックされるドメインと許可ドメインを定義する場合は、明示的に許可する、または明示的にブロックするドメインを決定します。</span><span class="sxs-lookup"><span data-stu-id="730f6-117">If you will define blocked and allowed domains, determine the domains that you will explicitly allow or explicitly block.</span></span>
 
-  - オンライン フェデレーションの場合、ファイアウォールの例外、証明書、および DNS ホスト (A、または IPv6 を使用する場合は AAAA) レコードを計画する必要があります。また、フェデレーション ポリシーを構成する必要もあります。詳細については、「[Lync Server と Office Communications Server のフェデレーションの計画](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)」を参照してください。
+  - <span data-ttu-id="730f6-118">オンラインフェデレーションの場合、ファイアウォールの例外、証明書、DNS ホスト (IPv6 を使用している場合は AAAA) を計画する必要があります。</span><span class="sxs-lookup"><span data-stu-id="730f6-118">For online federation, you must plan for firewall exceptions, certificates, and DNS host (A or AAAA, if using IPv6) records.</span></span> <span data-ttu-id="730f6-119">さらに、フェデレーションポリシーを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="730f6-119">Additionally, you must configure federation policies.</span></span> <span data-ttu-id="730f6-120">詳細については、「 [Lync server 2013 と Office Communications server フェデレーションの計画](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="730f6-120">For details, see [Planning for Lync Server 2013 and Office Communications Server federation](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

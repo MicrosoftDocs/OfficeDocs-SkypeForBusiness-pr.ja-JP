@@ -1,59 +1,101 @@
-﻿---
-title: 'Lync Server 2013: 組織単位アクセス許可の付与'
-TOCTitle: 組織単位アクセス許可の付与
-ms:assetid: 95ee5ffa-39b1-4d80-87a2-27bb364f7396
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398763(v=OCS.15)
-ms:contentKeyID: 48272904
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 組織単位アクセス許可の付与'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Granting organizational unit permissions
+ms:assetid: 95ee5ffa-39b1-4d80-87a2-27bb364f7396
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398763(v=OCS.15)
+ms:contentKeyID: 48184849
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c65ff483fbb9c63d4eaca31eca47c9093d229438
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833120"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での組織単位アクセス許可の付与
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-05-14_
+# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a><span data-ttu-id="b361a-102">Lync Server 2013 での組織単位アクセス許可の付与</span><span class="sxs-lookup"><span data-stu-id="b361a-102">Granting organizational unit permissions in Lync Server 2013</span></span>
 
-**Grant-CsOuPermission** コマンドレットを使って、特定の組織単位 (OU) ごとにオブジェクトに対するアクセス許可を出すことができます。そうすることで、フォレストの準備によって作成された RTC ユニバーサル グループのメンバーが、Domain Admins グループのメンバーにならなくともそれらのオブジェクトにアクセスすることが可能になります。特定の OU に追加されたアクセス許可は、 **Enable-CsAdDomain** コマンドレットがドメインの準備中にコンピューターおよびユーザー コンテナーに追加するのと同じアクセス許可です。
+</div>
 
-**Test-CsOuPermission** コマンドレットを使用して設定したアクセス許可は、 **Grant-CsOuPermission** コマンドレットを使用して確認できます。
+<div id="mainSection">
 
-**Revoke-CsOuPermission** コマンドレットを使用して付与したアクセス許可は、 **Grant-CsOuPermission** コマンドレットを使用して削除できます。
+<div id="mainBody">
 
-## OU アクセス許可を付与するには
+<span> </span>
 
-1.  OU アクセス許可を付与したいドメインで、 Lync Server 2013 を実行しているコンピューターへログオンします。OU が別の子ドメインに存在する場合、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。
+<span data-ttu-id="b361a-103">_**最終更新日:** 2012-05-14_</span><span class="sxs-lookup"><span data-stu-id="b361a-103">_**Topic Last Modified:** 2012-05-14_</span></span>
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+<span data-ttu-id="b361a-104">**Grant-CsOuPermission**コマンドレットを使用して、指定した組織単位 (ou) 内のオブジェクトにアクセス許可を付与することで、フォレストの準備で作成された RTC ユニバーサルグループのメンバーが Domain Admins グループのメンバーにならずにアクセスできるようにします。.</span><span class="sxs-lookup"><span data-stu-id="b361a-104">You can use the **Grant-CsOuPermission** cmdlet to grant permissions to objects in specified organizational units (OUs) so that members of the RTC universal groups created by forest preparation can access them without being members of the Domain Admins group.</span></span> <span data-ttu-id="b361a-105">指定した OU に追加されたアクセス許可は、 \*\*\*\* ドメインの準備中に [コンピューターとユーザー] コンテナーに追加される [権限の付与] のアクセス許可と同じです。</span><span class="sxs-lookup"><span data-stu-id="b361a-105">The permissions added to the specified OU are the same permissions that the **Enable-CsAdDomain** cmdlet adds to the computers and users containers during domain preparation.</span></span>
 
-3.  次のコマンドレットを実行します。
+<span data-ttu-id="b361a-106">ユーザー権限の**付与**コマンドレットを使用して、設定したアクセス許可を確認するには、 **csoupermission**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="b361a-106">Use the **Test-CsOuPermission** cmdlet to verify the permissions you set up by using the **Grant-CsOuPermission** cmdlet.</span></span>
+
+<span data-ttu-id="b361a-107">**Revoke-csoupermission**コマンドレットを使用して、**グラント-csoupermission**コマンドレットを使用して付与したアクセス許可を削除できます。</span><span class="sxs-lookup"><span data-stu-id="b361a-107">You can use the **Revoke-CsOuPermission** cmdlet to remove permissions that you granted by using the **Grant-CsOuPermission** cmdlet.</span></span>
+
+<div>
+
+## <a name="to-grant-ou-permissions"></a><span data-ttu-id="b361a-108">OU 権限を付与するには</span><span class="sxs-lookup"><span data-stu-id="b361a-108">To grant OU permissions</span></span>
+
+1.  <span data-ttu-id="b361a-109">OU 権限を付与するドメインの、Lync Server 2013 を実行しているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="b361a-109">Log on to a computer running Lync Server 2013 in the domain where you want to grant OU permissions.</span></span> <span data-ttu-id="b361a-110">OU が別の子ドメインにある場合は、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。</span><span class="sxs-lookup"><span data-stu-id="b361a-110">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
+
+2.  <span data-ttu-id="b361a-111">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="b361a-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="b361a-112">次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="b361a-112">Run:</span></span>
     
         Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    Domain パラメーターを指定しない場合、既定値はローカル ドメインになります。
+    <span data-ttu-id="b361a-113">Domain パラメーターを指定しない場合、既定値はローカルドメインです。</span><span class="sxs-lookup"><span data-stu-id="b361a-113">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
 
-## OU アクセス許可を確認するには
+</div>
 
-1.  **Grant-CsOuPermission** コマンドレットを使って付与した OU アクセス許可を確認したいドメインで、 Lync Server 2013 を実行しているコンピューターにログオンします。OU が別の子ドメインに存在する場合、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。
+<div>
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+## <a name="to-verify-ou-permissions"></a><span data-ttu-id="b361a-114">OU 権限を確認するには</span><span class="sxs-lookup"><span data-stu-id="b361a-114">To verify OU permissions</span></span>
 
-3.  次のコマンドレットを実行します。
+1.  <span data-ttu-id="b361a-115">**Grant-CsOuPermission**コマンドレットを使用して付与した OU 権限を確認するドメインの、Lync Server 2013 を実行しているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="b361a-115">Log on to a computer running Lync Server 2013 in the domain where you want to verify OU permissions that you granted by using the **Grant-CsOuPermission** cmdlet.</span></span> <span data-ttu-id="b361a-116">OU が別の子ドメインにある場合は、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。</span><span class="sxs-lookup"><span data-stu-id="b361a-116">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
+
+2.  <span data-ttu-id="b361a-117">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="b361a-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="b361a-118">次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="b361a-118">Run:</span></span>
     
         Test-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    Domain パラメーターを指定しない場合、既定値はローカル ドメインになります。
+    <span data-ttu-id="b361a-119">Domain パラメーターを指定しない場合、既定値はローカルドメインです。</span><span class="sxs-lookup"><span data-stu-id="b361a-119">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
 
-## OU アクセス許可を無効にするには
+</div>
 
-1.  **Grant-CsOuPermission** コマンドレットを使って設定した OU アクセス許可を無効にしたいドメインで、 Lync Server 2013 を実行しているコンピューターにログオンします。OU が別の子ドメインに存在する場合、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。
+<div>
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+## <a name="to-revoke-ou-permissions"></a><span data-ttu-id="b361a-120">OU 権限を取り消すには</span><span class="sxs-lookup"><span data-stu-id="b361a-120">To revoke OU permissions</span></span>
 
-3.  次のコマンドレットを実行します。
+1.  <span data-ttu-id="b361a-121">**Grant-CsOuPermission**コマンドレットによって付与された OU 権限を取り消すドメインで、Lync Server 2013 を実行しているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="b361a-121">Log on to a computer running Lync Server 2013 in the domain where you want to revoke OU permissions that were granted by the **Grant-CsOuPermission** cmdlet.</span></span> <span data-ttu-id="b361a-122">OU が別の子ドメインにある場合は、Domain Admins グループまたは Enterprise Admins グループのメンバーであるアカウントを使用します。</span><span class="sxs-lookup"><span data-stu-id="b361a-122">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
+
+2.  <span data-ttu-id="b361a-123">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="b361a-123">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="b361a-124">次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="b361a-124">Run:</span></span>
     
         Revoke-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    Domain パラメーターを指定しない場合、既定値はローカル ドメインになります。
+    <span data-ttu-id="b361a-125">Domain パラメーターを指定しない場合、既定値はローカルドメインです。</span><span class="sxs-lookup"><span data-stu-id="b361a-125">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,111 +1,171 @@
-﻿---
-title: 'Lync Server 2013: ネットワーク領域の作成または変更'
-TOCTitle: ネットワーク領域の作成または変更
-ms:assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412933(v=OCS.15)
-ms:contentKeyID: 48273464
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ネットワークの領域を作成または変更する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a network region
+ms:assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412933(v=OCS.15)
+ms:contentKeyID: 48185281
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 21a9b7a8adbb4ca4c0853aa7013662433701201d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833795"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのネットワーク領域の作成または変更
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-19_
+# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a><span data-ttu-id="a8824-102">Lync Server 2013 でネットワークの領域を作成または変更する</span><span class="sxs-lookup"><span data-stu-id="a8824-102">Create or modify a network region in Lync Server 2013</span></span>
 
-*ネットワーク地域* は、通話受付管理 (CAC)、E9-1-1、およびメディア バイパスで使用するネットワーク ハブまたはバックボーンです。ネットワーク地域を作成または変更するには、以下の手順に従います。たとえば、1 つの音声機能用に既にネットワーク地域を作成している場合、新しいネットワーク地域を作成する必要はありません。その他の高度なエンタープライズ VoIP 機能は、それらの同じネットワーク地域を使用します。ただし、機能固有の設定を適用するために、既存のネットワーク地域定義を変更することが必要になる場合があります。たとえば、E9-1-1 のネットワーク地域 (関連付けられた中央サイトが不要) を作成済みで、その後に通話受付制御を展開する場合は、ネットワーク地域の定義を変更して中央サイトを指定する必要があります。詳細については、「[CAC のネットワーク地域の構成](lync-server-2013-configure-network-regions-for-cac.md)」を参照してください。
+</div>
 
-> [!NOTE]
-> ネットワーク地域の定義で機能固有の要件については、すべてその機能の「展開」のトピックで説明されています。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a8824-103">_**最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="a8824-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+
+<span data-ttu-id="a8824-104">*ネットワーク領域*とは、通話受付制御、E9-1、メディアバイパスの構成で使用されるネットワークハブまたはバックボーンのことです。</span><span class="sxs-lookup"><span data-stu-id="a8824-104">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="a8824-105">ネットワーク領域を作成または変更するには、次の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="a8824-105">Use the following procedures to create or modify network regions.</span></span> <span data-ttu-id="a8824-106">たとえば、1つの音声機能のネットワーク領域を既に作成している場合は、新しいネットワークの領域を作成する必要はありません。その他の高度なエンタープライズ Voip 機能でも、同じネットワーク領域が使用されます。</span><span class="sxs-lookup"><span data-stu-id="a8824-106">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="a8824-107">ただし、機能固有の設定を適用するために、ネットワーク地域に関する既存の定義に変更を加える必要が生じることがあります。</span><span class="sxs-lookup"><span data-stu-id="a8824-107">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="a8824-108">たとえば、E9-1-1 用のネットワーク地域を作成し (この場合は関連付けられた中央サイトは必要ありません)、次に通話受付管理を展開する場合は、中央サイトを指定するためにネットワーク地域の定義を変更する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a8824-108">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="a8824-109">詳細については、「 [Lync Server 2013 で CAC のネットワーク領域を構成する](lync-server-2013-configure-network-regions-for-cac.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a8824-109">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
+
+<div>
 
 
-ネットワーク地域を使用した作業の詳細については、次のコマンドレットに関する Lync Server 管理シェル のドキュメントを参照してください。
+> [!NOTE]  
+> <span data-ttu-id="a8824-110">ネットワーク領域定義の機能固有の要件については、この機能の展開に関するトピックで説明されています。</span><span class="sxs-lookup"><span data-stu-id="a8824-110">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
 
-  - [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)
 
-  - [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)
+</div>
 
-  - [Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)
+<span data-ttu-id="a8824-111">ネットワーク領域の操作の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="a8824-111">For details about working with network regions, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-## ネットワーク地域の作成
+  - [<span data-ttu-id="a8824-112">新しい CsNetworkRegion</span><span class="sxs-lookup"><span data-stu-id="a8824-112">New-CsNetworkRegion</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)
 
-通話受付管理、E9-1-1、またはメディア バイパスで使用できるネットワーク地域を作成します。
+  - [<span data-ttu-id="a8824-113">Get-CsNetworkRegion</span><span class="sxs-lookup"><span data-stu-id="a8824-113">Get-CsNetworkRegion</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
 
-## Lync Server 管理シェルを使用してネットワーク地域を作成するには
+  - [<span data-ttu-id="a8824-114">Set-CsNetworkRegion</span><span class="sxs-lookup"><span data-stu-id="a8824-114">Set-CsNetworkRegion</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+  - [<span data-ttu-id="a8824-115">CsNetworkRegion の削除</span><span class="sxs-lookup"><span data-stu-id="a8824-115">Remove-CsNetworkRegion</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)
 
-2.  New-CsNetworkRegion コマンドレットを実行してネットワーク地域を作成します。
+<div>
+
+## <a name="create-a-network-region"></a><span data-ttu-id="a8824-116">ネットワークの領域を作成する</span><span class="sxs-lookup"><span data-stu-id="a8824-116">Create a Network Region</span></span>
+
+<span data-ttu-id="a8824-117">通話受付制御、E9、またはメディアバイパスで使用できるネットワーク領域を作成します。</span><span class="sxs-lookup"><span data-stu-id="a8824-117">Create a network region that can be used by call admission control, E9-1-1, or media bypass.</span></span>
+
+<div>
+
+## <a name="to-create-a-network-region-using-lync-server-management-shell"></a><span data-ttu-id="a8824-118">Lync Server Management Shell を使用してネットワークの領域を作成するには</span><span class="sxs-lookup"><span data-stu-id="a8824-118">To create a network region using Lync Server Management Shell</span></span>
+
+1.  <span data-ttu-id="a8824-119">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="a8824-120">New-CsNetworkRegion コマンドレットを実行してネットワーク地域を作成します。</span><span class="sxs-lookup"><span data-stu-id="a8824-120">Run the New-CsNetworkRegion cmdlet to create network regions:</span></span>
     
         New-CsNetworkRegion -Identity <String> -CentralSite <String>
     
-    次に例を示します。
+    <span data-ttu-id="a8824-121">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="a8824-121">For example:</span></span>
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
     
-    この例では、サイト ID が CHICAGO の中央サイトと関連付けられた "NorthAmerica" というネットワーク地域を作成しました。
+    <span data-ttu-id="a8824-122">この例では、サイト ID が CHICAGO の中央サイトに関連付けられた "NorthAmerica" というネットワーク地域を作成しました。</span><span class="sxs-lookup"><span data-stu-id="a8824-122">In this example, you created a network region called “NorthAmerica” that is associated with a central site with site ID CHICAGO.</span></span>
 
-3.  トポロジでのネットワーク地域の作成を完了するには、ネットワーク地域ごとの設定値を使用してステップ 2 を繰り返します。
+3.  <span data-ttu-id="a8824-123">トポロジでのネットワーク地域の作成を完了するには、ネットワーク地域ごとの設定値を使用してステップ 2 を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="a8824-123">To finish creating network regions for your topology, repeat step 2 with settings for each network region.</span></span>
 
-## Lync Server コントロール パネルを使用してネットワーク地域を作成するには
+</div>
 
-1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+<div>
 
-2.  左側のナビゲーション バーで \[**ネットワーク構成**\] をクリックします。
+## <a name="to-create-a-network-region-using-lync-server-control-panel"></a><span data-ttu-id="a8824-124">Lync Server コントロールパネルを使ってネットワークの領域を作成するには</span><span class="sxs-lookup"><span data-stu-id="a8824-124">To create a network region using Lync Server Control Panel</span></span>
 
-3.  \[**地域**\] をクリックします。
+1.  <span data-ttu-id="a8824-125">ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="a8824-125">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a8824-126">Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="a8824-126">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-4.  \[**新規**\] をクリックします。
+2.  <span data-ttu-id="a8824-127">左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-127">In the left navigation bar, click **Network Configuration**.</span></span>
 
-5.  \[**新しい地域**\] ページで、\[**名前**\] をクリックしてネットワーク地域の名前を入力します。
+3.  <span data-ttu-id="a8824-128">[**地域**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-128">Click **Region**.</span></span>
 
-6.  \[**中央サイト**\] をクリックし、リストにある中央サイトを 1 つクリックします。
+4.  <span data-ttu-id="a8824-129">[**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-129">Click **New**.</span></span>
 
-7.  オプションで、\[**説明**\] をクリックして、このネットワーク サイトを説明する追加情報を入力します。
+5.  <span data-ttu-id="a8824-130">[**新しい地域**] ページで、[**名前**] をクリックしてネットワーク地域の名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="a8824-130">On the **New Region** page, click **Name** and then type a name for the network region.</span></span>
 
-8.  \[**確定**\] をクリックします。
+6.  <span data-ttu-id="a8824-131">[**中央サイト**] をクリックし、リストにある中央サイトを 1 つクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-131">Click **Central site**, and then click a central site in the list.</span></span>
 
-9.  トポロジでのネットワーク地域の作成を完了するには、その他の地域の設定値を使用してステップ 4 ～ 8 を繰り返します。
+7.  <span data-ttu-id="a8824-132">オプションで、[**説明**] をクリックして、このネットワーク サイトを説明する追加情報を入力します。</span><span class="sxs-lookup"><span data-stu-id="a8824-132">Optionally, click **Description**, and then type additional information to describe this network site.</span></span>
 
-## ネットワーク地域の変更
+8.  <span data-ttu-id="a8824-133">[**コミット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-133">Click **Commit**.</span></span>
 
-既存のネットワーク地域の設定を変更して、基本地域情報に対する変更、または新しい機能で必要な変更に対応します。
+9.  <span data-ttu-id="a8824-134">トポロジでのネットワーク地域の作成を完了するには、その他の地域の設定値を使用してステップ 4 ～ 8 を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="a8824-134">To finish creating network regions for your topology, repeat steps 4 through 8 with settings for other regions.</span></span>
 
-## Lync Server 管理シェルを使用してネットワーク地域を変更するには
+</div>
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+</div>
 
-2.  Set-CsNetworkRegion コマンドレットを実行して、既存のネットワーク地域を変更します。
+<div>
+
+## <a name="modify-a-network-region"></a><span data-ttu-id="a8824-135">ネットワークの領域を変更する</span><span class="sxs-lookup"><span data-stu-id="a8824-135">Modify a Network Region</span></span>
+
+<span data-ttu-id="a8824-136">既存のネットワーク領域の設定を変更して、新しい機能によって必要とされる基本領域の情報や変更に対応します。</span><span class="sxs-lookup"><span data-stu-id="a8824-136">Modify settings for an existing network region to accommodate changes to the basic region information or changes required by a new feature.</span></span>
+
+<div>
+
+## <a name="to-modify-a-network-region-using-lync-server-management-shell"></a><span data-ttu-id="a8824-137">Lync Server 管理シェルを使用してネットワークの領域を変更するには</span><span class="sxs-lookup"><span data-stu-id="a8824-137">To modify a network region using Lync Server Management Shell</span></span>
+
+1.  <span data-ttu-id="a8824-138">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-138">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="a8824-139">Set-CsNetworkRegion コマンドレットを実行して、既存のネットワーク地域を変更します。</span><span class="sxs-lookup"><span data-stu-id="a8824-139">Run the Set-CsNetworkRegion cmdlet to modify an existing network region:</span></span>
     
         Set-CsNetworkRegion -Identity <String> -CentralSite <String>
     
-    次に例を示します。
+    <span data-ttu-id="a8824-140">例:</span><span class="sxs-lookup"><span data-stu-id="a8824-140">For example:</span></span>
     
         Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
     
-    この例では、説明を変更することにより、(このトピックの前半で説明した手順を使用して作成した) "NorthAmerica" という既存のネットワーク地域に変更を加えました。"NorthAmerica" 地域の説明があった場合、このコマンドはここでの値で地域の説明を上書きします。説明が設定されていない場合、このコマンドは説明を設定します。
+    <span data-ttu-id="a8824-p103">この例では、説明を変更することにより、(このトピックの前半で説明した手順を使用して作成した) "NorthAmerica" という既存のネットワーク地域に変更を加えました。"NorthAmerica" 地域の説明があった場合、このコマンドはここでの値で地域の説明を上書きします。説明が設定されていない場合、このコマンドは説明を設定します。</span><span class="sxs-lookup"><span data-stu-id="a8824-p103">In this example, you modified an existing network region called “NorthAmerica” (created using the procedures earlier in this topic) by changing the description. If a description existed for the “NorthAmerica” region, this command overwrites it with this value; if no description had been set, then this command sets it.</span></span>
 
-3.  その他のネットワーク地域を変更するには、その他の地域の設定値を使用してステップ 2 を繰り返します。
+3.  <span data-ttu-id="a8824-143">その他のネットワーク地域を変更するには、その他の地域の設定値を使用してステップ 2 を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="a8824-143">To modify other network regions, repeat step 2 with settings for other regions.</span></span>
 
-## Lync Server コントロール パネルを使用してネットワーク地域を変更するには
+</div>
 
-1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+<div>
 
-2.  左側のナビゲーション バーで \[**ネットワーク構成**\] をクリックします。
+## <a name="to-modify-a-network-region-using-lync-server-control-panel"></a><span data-ttu-id="a8824-144">Lync Server コントロールパネルを使用してネットワークの領域を変更するには</span><span class="sxs-lookup"><span data-stu-id="a8824-144">To modify a network region using Lync Server Control Panel</span></span>
 
-3.  \[**地域**\] ナビゲーション ボタンをクリックします。
+1.  <span data-ttu-id="a8824-145">ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="a8824-145">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a8824-146">Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="a8824-146">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-4.  表で、変更するネットワーク地域をクリックします。
+2.  <span data-ttu-id="a8824-147">左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-147">In the left navigation bar, click **Network Configuration**.</span></span>
 
-5.  \[**編集**\] をクリックして、\[**詳細の表示...**\] をクリックします。
+3.  <span data-ttu-id="a8824-148">[**地域**] ナビゲーション ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-148">Click the **Region** navigation button.</span></span>
 
-6.  \[**地域の編集**\] ページで、このネットワーク地域の設定の値を必要に応じて変更します。
+4.  <span data-ttu-id="a8824-149">表で、変更するネットワーク地域をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-149">In the table, click the network region that you want to modify.</span></span>
 
-7.  \[**確定**\] をクリックします。
+5.  <span data-ttu-id="a8824-150">[**編集**] をクリックして、[**詳細の表示...**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-150">Click **Edit**, and then click **Show details…**.</span></span>
 
-8.  ネットワーク地域の変更を完了するには、他の地域の設定値を使用してステップ 4 ～ 7 を繰り返します。
+6.  <span data-ttu-id="a8824-151">[**地域の編集**] ページで、このネットワーク地域の設定の値を必要に応じて変更します。</span><span class="sxs-lookup"><span data-stu-id="a8824-151">On the **Edit Region** page, change the values for this network region’s settings as appropriate.</span></span>
+
+7.  <span data-ttu-id="a8824-152">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a8824-152">Click **Commit**.</span></span>
+
+8.  <span data-ttu-id="a8824-153">ネットワーク地域の変更を完了するには、他の地域の設定値を使用してステップ 4 ～ 7 を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="a8824-153">To finish modify network regions, repeat steps 4 through 7 with settings for other regions.</span></span>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
