@@ -1,93 +1,135 @@
-﻿---
-title: 共存シナリオでの Lync Server 2010 管理パックの使用
-TOCTitle: 共存シナリオでの Lync Server 2010 管理パックの使用
-ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205078(v=OCS.15)
-ms:contentKeyID: 48272816
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 共存シナリオでの Lync Server 2010 管理パックの使用
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using the Lync Server 2010 management packs in a coexistence scenario
+ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205078(v=OCS.15)
+ms:contentKeyID: 48184772
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 159aaa55e61068356701abaed3c0a67a60265c75
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848268"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 共存シナリオでの Lync Server 2010 管理パックの使用
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-22_
+# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a><span data-ttu-id="feea7-102">共存シナリオでの Lync Server 2010 管理パックの使用</span><span class="sxs-lookup"><span data-stu-id="feea7-102">Using the Lync Server 2010 management packs in a coexistence scenario</span></span>
 
-ユーザーが Microsoft Lync Server 2010 から Lync Server 2013 に徐々に移行する企業内では、多くのユーザーがロールアウト プログラムを採用します。これらの企業の管理者は、両方のバージョンの Lync Server の監視に留意し、すべてのエンド ユーザーが最良の通信環境を確実に利用できるようにします。このシナリオでは、Lync Server 2013 管理パックが、Lync Server 2010 管理パックを使用したサイド バイ サイド移行パスをサポートします。
+</div>
 
-Lync Server 2010 では、Lync Server コンピューターは、中央管理ストアに格納されたトポロジ ドキュメントを使用して検出されていました。この構成では、単一コンピューターが、他のすべての Lync Server コンピューターの存在を報告します。
+<div id="mainSection">
 
-Lync Server 2013 の管理パックでは、Lync Server 2010 で使用されていた中央検出メカニズムではなく、マシン レベルの検出を使用します。これは、各 System Center エージェントが基本的に自身を検出し、その存在を System Center Operations Manager に報告することを意味します。マシン レベルの検出を使用すると、System Center インフラストラクチャの管理が簡素化され、また異なるバージョンの Lync Server 管理パック (Lync Server 2010 の管理パック、Lync Server 2013 の管理パックなど) を簡単に共存させることができます。
+<div id="mainBody">
 
-この移行をサポートするために、まず既存の Lync Server 2010 の監視をアップグレードして、バージョン間の移行でのギャップが生じないようにする必要があります。これを行うには、Lync Server 2010 に Central Discovery スクリプトを提供する既存の Lync Server 2010 コンピューターを選択してから、中央管理ストアを Lync Server 2013 にアップグレードします。このためには、次の 4 つの手順を実行します。
+<span> </span>
 
-1.  Lync Server 2010 管理パックを、累積的な更新プログラム 7 にアップグレードします。
+<span data-ttu-id="feea7-103">_**最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="feea7-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-2.  Lync Server 2010 コンピューターに Central Discovery スクリプトを実行するよう指示します。
+<span data-ttu-id="feea7-104">多くのお客様は、ユーザーが Microsoft Lync Server 2010 から Lync Server 2013 に段階的に移行されている組織内でロールアウトプログラムを採用しています。</span><span class="sxs-lookup"><span data-stu-id="feea7-104">Many customers adopt a rollout program inside of their enterprises in which users are progressively migrated from Microsoft Lync Server 2010 to Lync Server 2013.</span></span> <span data-ttu-id="feea7-105">これらの会社の管理者は、両方のバージョンの Lync Server を監視して、すべてのエンドユーザーが最高のコミュニケーションエクスペリエンスを実現できるようにすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="feea7-105">The administrators at these companies will care about monitoring both versions of Lync Server to help ensure that all of their end users are getting the best possible communication experience.</span></span> <span data-ttu-id="feea7-106">このシナリオでは、Lync Server 2013 管理パックは、Lync Server 2010 管理パックを使用してサイドバイサイドの移行パスをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="feea7-106">For this scenario, the Lync Server 2013 Management Pack supports a side-by-side migration path with the Lync Server 2010 Management Pack.</span></span>
 
-3.  Microsoft Lync Server 2010 管理パックの Central Discovery Candidate をオーバーライドします。
+<span data-ttu-id="feea7-107">Lync server 2010 では、Lync Server コンピューターは、中央管理ストアに保存されているトポロジドキュメントを通じて検出されました。</span><span class="sxs-lookup"><span data-stu-id="feea7-107">In the Lync Server 2010, Lync Server computers were discovered through the topology document stored with the Central Management store.</span></span> <span data-ttu-id="feea7-108">この構成では、1台のコンピューターで他のすべての Lync Server コンピューターの存在が報告されます。</span><span class="sxs-lookup"><span data-stu-id="feea7-108">In this configuration, a single computer would report the existence of all the other Lync Server computers.</span></span>
 
-4.  新しい Central Discovery Candidate が検出されていることを確認します。
+<span data-ttu-id="feea7-109">Lync server 2013 用の管理パックで、Lync Server 2010 で使用されていたセントラル探索メカニズムではなく、マシンレベルの検出が使用されるようになりました。</span><span class="sxs-lookup"><span data-stu-id="feea7-109">The management packs for Lync Server 2013 now use machine-level discovery instead of the central discovery mechanism that was used in Lync Server 2010.</span></span> <span data-ttu-id="feea7-110">つまり、各 System Center agent は基本的に自分自身を検出し、System Center Operations Manager にその存在を報告します。</span><span class="sxs-lookup"><span data-stu-id="feea7-110">This means that each System Center agent essentially discovers itself and reports its existence to System Center Operations Manager.</span></span> <span data-ttu-id="feea7-111">マシンレベルの検出を使用すると、System Center インフラストラクチャの管理が簡単になり、さまざまなバージョンの Lync Server 管理パック (たとえば、lync Server 2010 用の管理パックと Lync Server 2013 用の管理パック) も有効になります。より簡単になります。</span><span class="sxs-lookup"><span data-stu-id="feea7-111">Using machine-level discovery simplifies administration of your System Center infrastructure and also enables different versions of the Lync Server management packs (for example, management packs for Lync Server 2010 and management packs for Lync Server 2013) to coexist more easily.</span></span>
 
-## Lync Server 2010 コンピューターに Central Discovery スクリプトを実行するよう指示する
+<span data-ttu-id="feea7-112">この移行をサポートするには、最初に既存の Lync Server 2010 監視をアップグレードして、範囲内のギャップを回避する必要があります。</span><span class="sxs-lookup"><span data-stu-id="feea7-112">To support this migration, you will first need to upgrade your existing Lync Server 2010 monitoring to avoid gaps in coverage.</span></span> <span data-ttu-id="feea7-113">これを行うには、既存の Lync Server 2010 コンピューターを選択して、中央管理ストアを Lync Server 2013 にアップグレードする前に、Lync Server 2010 のセントラル探索スクリプトを処理するようにします。</span><span class="sxs-lookup"><span data-stu-id="feea7-113">To do this, elect an existing Lync Server 2010 computer to service the Central Discovery script for the Lync Server 2010 before upgrading your Central Management store to Lync Server 2013.</span></span> <span data-ttu-id="feea7-114">これは、4つのステップからなるプロセスです。</span><span class="sxs-lookup"><span data-stu-id="feea7-114">This is a four-step process:</span></span>
 
-中央管理ストア コンピューター以外 (Lync Server フロントエンドなど) のサーバーが Central Discovery を処理するように指定するには、中央管理ストア以外のサーバーに次のレジストリ キーを作成する必要があります。
+1.  <span data-ttu-id="feea7-115">Lync Server 2010 管理パックを累積更新プログラム7にアップグレードします。</span><span class="sxs-lookup"><span data-stu-id="feea7-115">Upgrade the Lync Server 2010 Management Packs to Cumulative Update 7.</span></span>
 
-HKLM\\Software\\Microsoft\\Real-Time Communications\\Health\\CentralDiscoveryCandidate
+2.  <span data-ttu-id="feea7-116">Lync Server 2010 コンピューターに、セントラル探索スクリプトを実行するように指示します。</span><span class="sxs-lookup"><span data-stu-id="feea7-116">Instruct a Lync Server 2010 computer to run the Central Discovery script.</span></span>
 
-このレジストリ キーを作成するには、次の手順を実行します。
+3.  <span data-ttu-id="feea7-117">Microsoft Lync Server 2010 管理パックのセントラル探索候補を上書きします。</span><span class="sxs-lookup"><span data-stu-id="feea7-117">Override the Central Discovery Candidate in the Microsoft Lync Server 2010 Management Pack.</span></span>
 
-1.  \[**スタート**\] ボタンをクリックし、\[**ファイル名を指定して実行**\] をクリックします。
+4.  <span data-ttu-id="feea7-118">新しいセントラル検出候補が検出されたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="feea7-118">Verify that the new Central Discovery Candidate has been discovered.</span></span>
 
-2.  \[**ファイル名を指定して実行**\] ダイアログ ボックスで「**regedit**」と入力し、Enter キーを押します。
+<div>
 
-3.  レジストリ エディターで、\[**HKEY\_LOCAL\_MACHINE**\]、\[**SOFTWARE**\]、\[**Microsoft**\]、\[**Real-Time Communications**\] の順に展開します。
+## <a name="instructing-a-lync-server-2010-computer-to-run-the-central-discovery-script"></a><span data-ttu-id="feea7-119">セントラル探索スクリプトを実行するように Lync Server 2010 コンピューターに指示する</span><span class="sxs-lookup"><span data-stu-id="feea7-119">Instructing a Lync Server 2010 Computer to Run the Central Discovery script</span></span>
 
-4.  \[**Health**\] を右クリックし、\[**新規**\] をクリックして、\[**キー**\] をクリックします。**Health** キーが存在しない場合は、\[**Real-Time Communications**\] を右クリックし、\[**新規**\] をポイントして、\[**キー**\] をクリックします。新しいキーが作成されたら、「Health」と入力し、Enter キーを押します。
+<span data-ttu-id="feea7-120">中央の検出を処理するために、中央管理ストア以外のコンピューター (たとえば、Lync Server フロントエンド) サーバーを指名するには、次のレジストリキーをサーバーの非セントラル管理ストアサーバーに作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="feea7-120">To nominate a non-Central Management store computer (for example, a Lync Server Front End) server to handle central discovery, you will need to create the following registry key on the non-Central Management store server:</span></span>
+
+<span data-ttu-id="feea7-121">HKLM\\ソフトウェア\\Microsoft\\リアルタイム通信\\正常性\\CentralDiscoveryCandidate</span><span class="sxs-lookup"><span data-stu-id="feea7-121">HKLM\\Software\\Microsoft\\Real-Time Communications\\Health\\CentralDiscoveryCandidate</span></span>
+
+<span data-ttu-id="feea7-122">このレジストリキーを作成するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="feea7-122">You can create this registry key by completing the following procedure:</span></span>
+
+1.  <span data-ttu-id="feea7-123">[**スタート**] をクリックし、[**実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-123">Click **Start** and then click **Run**.</span></span>
+
+2.  <span data-ttu-id="feea7-124">[**実行**] ダイアログボックスで、「 **regedit** 」と入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="feea7-124">In the **Run** dialog box, type **regedit** and then press ENTER.</span></span>
+
+3.  <span data-ttu-id="feea7-125">レジストリエディターで、[ **HKEY\_ローカル\_コンピューター**]、[**ソフトウェア**]、[ **Microsoft**] の順に展開し、[**リアルタイム通信**] を展開します。</span><span class="sxs-lookup"><span data-stu-id="feea7-125">In Registry Editor, expand **HKEY\_LOCAL\_MACHINE**, expand **SOFTWARE**, expand **Microsoft**, and then expand **Real-Time Communications**.</span></span>
+
+4.  <span data-ttu-id="feea7-126">[**正常性**] を右クリックし、[**新規作成**] をクリックして、[**キー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-126">Right-click **Health**, click **New**, and then click **Key**.</span></span> <span data-ttu-id="feea7-127">**正常性**キーが存在しない場合は、**リアルタイム通信**を右クリックし、[**新規作成**] をポイントして、[**キー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-127">If the **Health** key does not exist, then right-click **Real-Time Communications**, point to **New**, and then click **Key**.</span></span> <span data-ttu-id="feea7-128">新しいキーが作成されたら、「Health」と入力して、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="feea7-128">When the new key is created, type Health, and then press ENTER.</span></span>
     
-    新しいキーが作成されたら、「**CentralDiscoveryCandidate**」と入力し、Enter キーを押してキーの名前を変更します。
+    <span data-ttu-id="feea7-129">新しいキーを作成したら、「 **CentralDiscoveryCandidate** 」と入力し、enter キーを押してキーの名前を変更します。</span><span class="sxs-lookup"><span data-stu-id="feea7-129">After the new key has been created, type **CentralDiscoveryCandidate** and then press ENTER to rename the key.</span></span>
 
-コンピューターがこの変更を取得するのに数時間かかることがあります。この変更を直ちに有効にするには、Health Agent サービスをいったん停止してから再起動します。Health Agent サービスを再起動するには、Lync Server 2010 コンピューターで次の手順を実行します。
+<span data-ttu-id="feea7-130">この変更を選択するには、コンピューターに数時間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="feea7-130">It may take the computer several hours to pick up this change.</span></span> <span data-ttu-id="feea7-131">変更をすぐに有効にするには、正常性エージェントサービスを停止してから再起動します。</span><span class="sxs-lookup"><span data-stu-id="feea7-131">To make the change take effect immediately, stop and then restart the Health Agent service.</span></span> <span data-ttu-id="feea7-132">正常性エージェントサービスを再起動するには、Lync Server 2010 コンピューターで次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="feea7-132">To restart the Health Agent service, complete the following procedure on the Lync Server 2010 computer:</span></span>
 
-1.  \[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\]、\[**アクセサリ**\] の順にクリックし、\[**コマンド プロンプト**\] を右クリックし、\[**管理者として実行**\] をクリックします。
+1.  <span data-ttu-id="feea7-133">[**スタート**] をクリックし、[**すべてのプログラム**]、[**アクセサリ**]、[**コマンドプロンプト**] を右クリックして、[**管理者として実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-133">Click **Start**, click **All Programs**, click **Accessories**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span>
 
-2.  コンソール ウィンドウで、次のコマンドを入力し、Enter キーを押します。
+2.  <span data-ttu-id="feea7-134">コンソールウィンドウで、次のコマンドを入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="feea7-134">In the console window, type the following command and then press ENTER:</span></span>
     
         Net stop HealthService
 
-3.  "System Center Management サービスが停止する" ことを知らせるメッセージが表示され、その後、サービスが停止したことを伝えるメッセージが表示されます。サービスが停止した後、次のコマンドを入力し、Enter キーを押すと、サービスを再起動できます。
+3.  <span data-ttu-id="feea7-135">"System Center 管理サービスは停止しています" というメッセージが表示され、その後にサービスが停止されたことを示す2番目のメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="feea7-135">You will see a message that states "The System Center Management service is stopping," followed by a second message that tells you that the service has been stopped.</span></span> <span data-ttu-id="feea7-136">サービスが停止した後、次のコマンドを入力して ENTER キーを押すと、サービスを再起動できます。</span><span class="sxs-lookup"><span data-stu-id="feea7-136">After the service has stopped, you can restart it by typing the following command and pressing ENTER:</span></span>
     
         Net start HealthService
 
-## Lync Server 2010 管理パックでの Central Discovery Candidate のオーバーライド
+</div>
 
-Lync Server 2010 コンピューターに Lync Server 2010 コンピューターについて報告するよう指示した後、Lync Server 2010 管理パックにもこの変更について通知する必要があります。これを行うには、管理パックにオーバーライドを作成する必要があります。このためには、次の手順を実行します。
+<div>
 
-1.  Operations Manager コンソールで、\[**作成**\] をクリックします。
+## <a name="overriding-the-central-discovery-candidate-in-the-lync-server-2010-management-pack"></a><span data-ttu-id="feea7-137">Lync Server 2010 管理パックでの中央の検出候補の上書き</span><span class="sxs-lookup"><span data-stu-id="feea7-137">Overriding the Central Discovery Candidate in the Lync Server 2010 Management Pack</span></span>
 
-2.  \[作成\] タブで \[**管理パック オブジェクト**\] を展開し、\[**オブジェクト検出**\] をクリックし、\[**スコープ**\] をクリックします。
+<span data-ttu-id="feea7-138">Lync server 2010 コンピューターに Lync Server 2010 コンピューターについて報告するように指示した後、lync Server 2010 管理パックにもこの変更について通知する必要があります。</span><span class="sxs-lookup"><span data-stu-id="feea7-138">After instructing a Lync Server 2010 computer to report on Lync Server 2010 computers, you will need to inform the Lync Server 2010 Management Pack about this change as well.</span></span> <span data-ttu-id="feea7-139">これを行うには、管理パックで上書きを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="feea7-139">To do this, you will need to create an override in the Management Pack.</span></span> <span data-ttu-id="feea7-140">この操作を行うには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="feea7-140">That can be done by completing the following procedure:</span></span>
 
-3.  \[**管理パック オブジェクトのスコープ設定**\] ダイアログ ボックスで、ターゲット **LS Discovery Candidate**が指定された項目選択し、\[**OK**\] をクリックします。LS Discovery Candidate は、Lync Server 2010 管理パックをインストールしている場合にのみ表示されます。
+1.  <span data-ttu-id="feea7-141">Operations Manager コンソールで、[**作成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-141">In the Operations Manager console, click **Authoring**.</span></span>
 
-4.  Operations Manager コンソールで、\[**LS Discovery Candidate**\] を右クリックし、\[**上書き**\]、\[**オブジェクト検出の上書き**\] の順にポイントし、\[**クラス LS Discovery Candidate のすべてのオブジェクト**\] をクリックします。
+2.  <span data-ttu-id="feea7-142">[作成] タブで [**管理パックオブジェクト**] を展開し、[**オブジェクト**検出] をクリックして、[**スコープ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-142">On the Authoring tab, expand **Management Pack Objects**, click **Object Discoveries**, and then click **Scope**.</span></span>
 
-5.  \[**上書きのプロパティ**\] ダイアログ ボックスで、パラメーター **Central Discovery WatcherNode Fqdn** の横の \[**上書き**\] チェック ボックスをオンにします。\[**上書き値**\] ボックスおよび \[**有効な値**\] ボックスに Lync Server 2010 コンピューターの完全修飾ドメイン名を入力します。\[**強制**\] チェック ボックスをオンにして、\[**OK**\] をクリックします。
+3.  <span data-ttu-id="feea7-143">[ **Scope Management Pack Objects** ] ダイアログボックスで、対象の**LS 検出候補**を含むアイテムを選び、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-143">In the **Scope Management Pack Objects** dialog box, select the item with the Target **LS Discovery Candidate** and then click **OK**.</span></span> <span data-ttu-id="feea7-144">LS 検出候補は、Lync Server 2010 管理パックをインストールしている場合にのみ表示されることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="feea7-144">Note that LS Discovery Candidate will appear only if you have installed the Lync Server 2010 Management Pack.</span></span>
 
-オーバーライドを作成した後、ルート管理サーバーで正常性サービスを再起動する必要があります。正常性サービスを再起動するには、ルート管理サーバーで次の手順を実行します。
+4.  <span data-ttu-id="feea7-145">Operations Manager コンソールで、[ **LS 検出候補**] を右クリックし、 \*\*\*\*[上書き] をポイントして、[**オブジェクト検出の上書き**] をポイントし、[ **class: LS 検出候補のすべてのオブジェクト**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-145">In the Operations Manager console, right-click **LS Discovery Candidate**, point to **Overrides**, point to **Override the Object Discovery**, and then click **For all objects of class: LS Discovery Candidate**.</span></span>
 
-1.  \[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\]、\[**アクセサリ**\] の順にクリックし、\[**コマンド プロンプト**\] を右クリックし、\[**管理者として実行**\] をクリックします。
+5.  <span data-ttu-id="feea7-146">[**プロパティの上書き**] ダイアログボックスで、[ **Central Discovery WatcherNode Fqdn**] の横にある [**上書き**] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="feea7-146">In the **Override Properties** dialog box, select the **Override** check box next to the parameter **Central Discovery WatcherNode Fqdn**.</span></span> <span data-ttu-id="feea7-147">[**上書き値**] ボックスと [**有効な値**] ボックスに、Lync Server 2010 コンピューターの完全修飾ドメイン名を入力します。</span><span class="sxs-lookup"><span data-stu-id="feea7-147">Type the fully qualified domain name of the Lync Server 2010 computer in the **Override Value** and **Effective Value** boxes.</span></span> <span data-ttu-id="feea7-148">[**強制**] チェックボックスをオンにし、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-148">Select the **Enforced** check box and click **OK**.</span></span>
 
-2.  コンソール ウィンドウで、次のコマンドを入力し、Enter キーを押します。
+<span data-ttu-id="feea7-149">上書きを作成したら、ルート管理サーバーで正常性サービスを再起動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="feea7-149">After you have created the override, you need to restart the health service on the Root Management Server.</span></span> <span data-ttu-id="feea7-150">正常性サービスを再起動するには、ルート管理サーバーで次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="feea7-150">To restart the health service, complete the following procedure on the Root Management Server:</span></span>
+
+1.  <span data-ttu-id="feea7-151">[**スタート**] をクリックし、[**すべてのプログラム**]、[**アクセサリ**]、[**コマンドプロンプト**] を右クリックして、[**管理者として実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-151">Click **Start**, click **All Programs**, click **Accessories**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span>
+
+2.  <span data-ttu-id="feea7-152">コンソールウィンドウで、次のコマンドを入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="feea7-152">In the console window, type the following command, and then press ENTER:</span></span>
     
         Net stop HealthService
 
-3.  "System Center Management サービスが停止する" ことを知らせるメッセージが表示され、その後、サービスが停止したことを伝えるメッセージが表示されます。サービスが停止したら、次のコマンドを入力し、Enter キーを押して、サービスを再起動できます。
+3.  <span data-ttu-id="feea7-153">"System Center 管理サービスは停止しています" というメッセージが表示され、その後にサービスが停止されたことを示す2番目のメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="feea7-153">You will see a message stating that "The System Center Management service is stopping," followed by a second message that tells you that the service has been stopped.</span></span> <span data-ttu-id="feea7-154">サービスが停止した後、次のコマンドを入力して ENTER キーを押すと、サービスを再起動できます。</span><span class="sxs-lookup"><span data-stu-id="feea7-154">After the service has stopped, you can then restart it by typing the following command and pressing ENTER:</span></span>
     
         Net start HealthService
 
-## 新しい Central Discovery Candidate が検出されたことを確認する
+</div>
 
-中央管理ストアのアップグレード前に行う最後のステップは、新しい Central Discovery Candidate が Lync Server 2010 管理パックによって検出されたことを確認することです。このためには、Operations Manager コンソールを開き、\[監視\] をクリックします。\[監視\] タブで、\[**Microsoft Lync Server 2010 Health**\]、\[**Topology Discovery**\] の順に展開し、\[**Discovery State View**\] をクリックします。表示の行の**パス**に Central Discovery Candidate の完全修飾ドメイン名が表示されていることを確認します。コンピューターの状態が**健全**と報告されていることを確認する必要もあります。
+<div>
+
+## <a name="verifying-that-the-new-central-discovery-candidate-was-discovered"></a><span data-ttu-id="feea7-155">新しいセントラル探索候補が検出されたことを確認する</span><span class="sxs-lookup"><span data-stu-id="feea7-155">Verifying that the New Central Discovery Candidate Was Discovered</span></span>
+
+<span data-ttu-id="feea7-156">全体管理ストアをアップグレードする前の最後の手順では、新しいセントラル探索候補が Lync Server 2010 管理パックによって検出されたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="feea7-156">The final step before upgrading Central Management store is to make sure that the new central discovery candidate was discovered by the Lync Server 2010 Management Pack.</span></span> <span data-ttu-id="feea7-157">これを行うには、Operations Manager コンソールを開き、[監視] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-157">To do this, open the Operations Manager console and then click Monitoring.</span></span> <span data-ttu-id="feea7-158">[監視] タブで、[ **Microsoft Lync Server 2010 正常性**] を展開し、[**トポロジの検出**] を展開して、[**検出状態の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feea7-158">On the Monitoring tab, expand **Microsoft Lync Server 2010 Health**, expand **Topology Discovery**, and then click **Discovery State View**.</span></span> <span data-ttu-id="feea7-159">表示される行に、セントラル検出候補の完全修飾ドメイン名を一覧表示する**パス**が含まれていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="feea7-159">Verify that a row in the display has a **Path** that lists the fully qualified domain name of the central discovery candidate.</span></span> <span data-ttu-id="feea7-160">また、コンピューターの状態が**正常**であると報告されていることも確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="feea7-160">You should also verify that the computer state is reported as **Healthy**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

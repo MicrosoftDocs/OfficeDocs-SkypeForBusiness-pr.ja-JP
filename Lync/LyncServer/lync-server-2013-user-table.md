@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: User テーブル'
-TOCTitle: User テーブル
-ms:assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398505(v=OCS.15)
-ms:contentKeyID: 48272384
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: User テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User table
+ms:assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398505(v=OCS.15)
+ms:contentKeyID: 48184437
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4baaf8b8dea0f9e5aa77986791c82051fc00e90b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848335"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の User テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="user-table-in-lync-server-2013"></a><span data-ttu-id="7c53e-102">Lync Server 2013 の User テーブル</span><span class="sxs-lookup"><span data-stu-id="7c53e-102">User table in Lync Server 2013</span></span>
 
-User テーブルは、データベースに記録されるセッションに参加したさまざまなユーザーの一覧を格納するサポート テーブルです。このテーブルの各レコードは、1 人のユーザーを表しています。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="7c53e-103">_**最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="7c53e-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="7c53e-104">ユーザーテーブルは、データベースに記録されているセッションに参加しているさまざまなユーザーの一覧を格納するサポートテーブルです。</span><span class="sxs-lookup"><span data-stu-id="7c53e-104">The User table is a supporting table that stores a list of the various users who have participated in sessions recorded in the database.</span></span> <span data-ttu-id="7c53e-105">テーブル内の各レコードは、1人のユーザーを表します。</span><span class="sxs-lookup"><span data-stu-id="7c53e-105">Each record in the table represents one user.</span></span>
 
 
 <table>
@@ -27,52 +47,63 @@ User テーブルは、データベースに記録されるセッションに参
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>列</strong></th>
-<th><strong>データ型</strong></th>
-<th><strong>キー/インデックス</strong></th>
-<th><strong>詳細</strong></th>
+<th><span data-ttu-id="7c53e-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="7c53e-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="7c53e-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="7c53e-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="7c53e-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="7c53e-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="7c53e-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="7c53e-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>UserKey</strong></p></td>
-<td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>このユーザーを識別する一意の番号。</p></td>
+<td><p><span data-ttu-id="7c53e-110"><strong>UserKey</strong></span><span class="sxs-lookup"><span data-stu-id="7c53e-110"><strong>UserKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="7c53e-111">int</span><span class="sxs-lookup"><span data-stu-id="7c53e-111">int</span></span></p></td>
+<td><p><span data-ttu-id="7c53e-112">Primary</span><span class="sxs-lookup"><span data-stu-id="7c53e-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="7c53e-113">このユーザーを識別する一意の番号です。</span><span class="sxs-lookup"><span data-stu-id="7c53e-113">Unique number identifying this user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>URI</strong></p></td>
-<td><p>nvarchar (450)</p></td>
-<td><p>一意</p></td>
-<td><p>URI 文字列です。</p></td>
+<td><p><span data-ttu-id="7c53e-114"><strong>URI</strong></span><span class="sxs-lookup"><span data-stu-id="7c53e-114"><strong>URI</strong></span></span></p></td>
+<td><p><span data-ttu-id="7c53e-115">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="7c53e-115">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="7c53e-116">一意</span><span class="sxs-lookup"><span data-stu-id="7c53e-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="7c53e-117">URI 文字列。</span><span class="sxs-lookup"><span data-stu-id="7c53e-117">URI string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>URIType</strong></p></td>
-<td><p>int</p></td>
-<td><p></p></td>
-<td><p>1 は不明な URI の種類です。</p>
-<p>2 はユーザーの URI です。</p>
-<p>4 は電話会議の URI です。</p>
-<p>8 は電話の URI です。</p></td>
+<td><p><span data-ttu-id="7c53e-118"><strong>URIType</strong></span><span class="sxs-lookup"><span data-stu-id="7c53e-118"><strong>URIType</strong></span></span></p></td>
+<td><p><span data-ttu-id="7c53e-119">int</span><span class="sxs-lookup"><span data-stu-id="7c53e-119">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="7c53e-120">1の URI の型が不明です。</span><span class="sxs-lookup"><span data-stu-id="7c53e-120">1 is unknown URI type.</span></span></p>
+<p><span data-ttu-id="7c53e-121">2はユーザー URI です。</span><span class="sxs-lookup"><span data-stu-id="7c53e-121">2 is user URI.</span></span></p>
+<p><span data-ttu-id="7c53e-122">4は会議の URI です。</span><span class="sxs-lookup"><span data-stu-id="7c53e-122">4 is conference URI.</span></span></p>
+<p><span data-ttu-id="7c53e-123">8は電話の URI です。</span><span class="sxs-lookup"><span data-stu-id="7c53e-123">8 is phone URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TenantKey</strong></p></td>
-<td><p>int</p></td>
-<td><p>外部</p></td>
-<td><p>ユーザーのテナントであり、テナント テーブルから参照されます。</p></td>
+<td><p><span data-ttu-id="7c53e-124"><strong>TenantKey</strong></span><span class="sxs-lookup"><span data-stu-id="7c53e-124"><strong>TenantKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="7c53e-125">int</span><span class="sxs-lookup"><span data-stu-id="7c53e-125">int</span></span></p></td>
+<td><p><span data-ttu-id="7c53e-126">外部</span><span class="sxs-lookup"><span data-stu-id="7c53e-126">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="7c53e-127">テナントテーブルから参照されたユーザーのテナント。</span><span class="sxs-lookup"><span data-stu-id="7c53e-127">Tenant of the user, referenced from tenant table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LastPoorCallTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>ユーザーが低音質の通話を行った時点を示す最新のタイム スタンプです。</p></td>
+<td><p><span data-ttu-id="7c53e-128"><strong>LastPoorCallTime</strong></span><span class="sxs-lookup"><span data-stu-id="7c53e-128"><strong>LastPoorCallTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="7c53e-129">datetime</span><span class="sxs-lookup"><span data-stu-id="7c53e-129">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="7c53e-130">ユーザーが低品質の音声通話を行ったときの最新のタイムスタンプ。</span><span class="sxs-lookup"><span data-stu-id="7c53e-130">Latest time stamp when the user had a poor audio call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>内部使用のみ。</p></td>
+<td><p><span data-ttu-id="7c53e-131"><strong>Nextupdatupdat</strong></span><span class="sxs-lookup"><span data-stu-id="7c53e-131"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="7c53e-132">datetime</span><span class="sxs-lookup"><span data-stu-id="7c53e-132">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="7c53e-133">内部使用のみ。</span><span class="sxs-lookup"><span data-stu-id="7c53e-133">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

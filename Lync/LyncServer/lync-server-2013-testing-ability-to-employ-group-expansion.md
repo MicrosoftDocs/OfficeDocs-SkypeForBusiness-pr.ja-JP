@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing ability to employ group expansion'
+---
+title: 'Lync Server 2013: グループ展開を使用するためのテスト機能'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing ability to employ group expansion
 ms:assetid: 9b0fc954-6f9c-411a-ab32-94ebabc42de2
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn743836(v=OCS.15)
-ms:contentKeyID: 62279274
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743836(v=OCS.15)
+ms:contentKeyID: 63969634
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: f99be38a906c508346f580b36d055ccba86a168e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848461"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing ability to employ group expansion in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a><span data-ttu-id="68efb-102">Lync Server 2013 でグループ展開を使用するためのテスト機能</span><span class="sxs-lookup"><span data-stu-id="68efb-102">Testing ability to employ group expansion in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="68efb-103">_**最終更新日:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="68efb-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -23,115 +43,141 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p><span data-ttu-id="68efb-104">確認のスケジュール</span><span class="sxs-lookup"><span data-stu-id="68efb-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="68efb-105">[毎日]</span><span class="sxs-lookup"><span data-stu-id="68efb-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p><span data-ttu-id="68efb-106">テストツール</span><span class="sxs-lookup"><span data-stu-id="68efb-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="68efb-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="68efb-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsGroupExpansion cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p><span data-ttu-id="68efb-108">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="68efb-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="68efb-109">Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="68efb-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="68efb-110">Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、CsGroupExpansion コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="68efb-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsGroupExpansion cmdlet.</span></span> <span data-ttu-id="68efb-111">このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="68efb-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupExpansion&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsGroupExpansion cmdlet lets you determine whether group expansion is working within your organization. When group expansion is enabled, users configure distribution groups as a contact. That means that those users can then send the same instant message to all the group members by addressing the message to the group instead of to individual members of that group. Group expansion enables you to quickly and easily view all the group members and their current status.
+## <a name="description"></a><span data-ttu-id="68efb-112">説明</span><span class="sxs-lookup"><span data-stu-id="68efb-112">Description</span></span>
 
-With the Test-CsGroupExpansion cmdlet, you specify an Active Directory distribution group by using the group’s email address. Test-CsGroupExpansion then uses group expansion to retrieve the group membership and compare the retrieved list to the membership of the group email address that you supplied. If the two lists match, then group expansion is working correctly. Note that you can test group expansion in two ways: by testing the service itself or by testing the associated web service.
+<span data-ttu-id="68efb-113">テスト用の CsGroupExpansion コマンドレットを使用すると、グループの展開が組織内で機能しているかどうかを確認できます。</span><span class="sxs-lookup"><span data-stu-id="68efb-113">The Test-CsGroupExpansion cmdlet lets you determine whether group expansion is working within your organization.</span></span> <span data-ttu-id="68efb-114">グループの拡張が有効になっている場合、ユーザーは配布グループを連絡先として構成します。</span><span class="sxs-lookup"><span data-stu-id="68efb-114">When group expansion is enabled, users configure distribution groups as a contact.</span></span> <span data-ttu-id="68efb-115">つまり、これらのユーザーは、グループの個々のメンバーではなく、グループにメッセージをアドレス指定して、すべてのグループメンバーに同じインスタントメッセージを送信することができます。</span><span class="sxs-lookup"><span data-stu-id="68efb-115">That means that those users can then send the same instant message to all the group members by addressing the message to the group instead of to individual members of that group.</span></span> <span data-ttu-id="68efb-116">グループ展開では、すべてのグループメンバーとその現在の状態をすばやく簡単に表示できます。</span><span class="sxs-lookup"><span data-stu-id="68efb-116">Group expansion enables you to quickly and easily view all the group members and their current status.</span></span>
 
-For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsGroupExpansion) cmdlet.
+<span data-ttu-id="68efb-117">テスト用の CsGroupExpansion コマンドレットを使用して、グループのメールアドレスを使って Active Directory 配布グループを指定します。</span><span class="sxs-lookup"><span data-stu-id="68efb-117">With the Test-CsGroupExpansion cmdlet, you specify an Active Directory distribution group by using the group’s email address.</span></span> <span data-ttu-id="68efb-118">テスト-CsGroupExpansion では、グループの展開を使用してグループメンバーシップを取得し、取得したリストと、指定したグループメールアドレスのメンバーシップを比較します。</span><span class="sxs-lookup"><span data-stu-id="68efb-118">Test-CsGroupExpansion then uses group expansion to retrieve the group membership and compare the retrieved list to the membership of the group email address that you supplied.</span></span> <span data-ttu-id="68efb-119">2つのリストが一致する場合、グループの展開は正常に機能しています。</span><span class="sxs-lookup"><span data-stu-id="68efb-119">If the two lists match, then group expansion is working correctly.</span></span> <span data-ttu-id="68efb-120">グループの展開をテストするには、サービス自体をテストするか、関連付けられた web サービスをテストするという2つの方法があります。</span><span class="sxs-lookup"><span data-stu-id="68efb-120">Note that you can test group expansion in two ways: by testing the service itself or by testing the associated web service.</span></span>
 
-## Running the test
+<span data-ttu-id="68efb-121">詳細については、「 [CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion)コマンドレットのヘルプドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="68efb-121">For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) cmdlet.</span></span>
 
-The Test-CsGroupExpansion cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who was enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested and the email address for a valid distribution group. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a><span data-ttu-id="68efb-122">テストの実行</span><span class="sxs-lookup"><span data-stu-id="68efb-122">Running the test</span></span>
+
+<span data-ttu-id="68efb-123">テスト用の CsGroupExpansion コマンドレットを実行するには、事前に定義されたテストアカウント (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照) または Lync Server を有効にしたユーザーのアカウントを使用します。</span><span class="sxs-lookup"><span data-stu-id="68efb-123">The Test-CsGroupExpansion cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who was enabled for Lync Server.</span></span> <span data-ttu-id="68efb-124">テストアカウントを使用してこのチェックを実行するには、テスト対象の Lync Server プールの FQDN と、有効な配布グループのメールアドレスを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="68efb-124">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested and the email address for a valid distribution group.</span></span> <span data-ttu-id="68efb-125">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="68efb-125">For example:</span></span>
 
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com"
 
-To run this check using an actual user account, you must first create a Lync Server credentials object that contains the account name and password. You must then include that credentials object and the SIP address assigned to the account when the system calls Test-CsGroupExpansion:
+<span data-ttu-id="68efb-126">実際のユーザーアカウントを使用してこのチェックを実行するには、まず、アカウント名とパスワードを含む Lync Server 資格情報オブジェクトを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="68efb-126">To run this check using an actual user account, you must first create a Lync Server credentials object that contains the account name and password.</span></span> <span data-ttu-id="68efb-127">次に、資格情報オブジェクトと、システムによってテスト CsGroupExpansion が呼び出されたときにアカウントに割り当てられる SIP アドレスを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="68efb-127">You must then include that credentials object and the SIP address assigned to the account when the system calls Test-CsGroupExpansion:</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsGroupExpansion) cmdlet.
+<span data-ttu-id="68efb-128">詳細については、「 [CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion)コマンドレットのヘルプドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="68efb-128">For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) cmdlet.</span></span>
 
-## Determining success or failure
+</div>
 
-If the specified user can use group expansion, you'll receive output similar to this with the Result property marked as **Success:**
+<div>
 
-TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+## <a name="determining-success-or-failure"></a><span data-ttu-id="68efb-129">成功または失敗を確認する</span><span class="sxs-lookup"><span data-stu-id="68efb-129">Determining success or failure</span></span>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+<span data-ttu-id="68efb-130">指定したユーザーがグループ拡張を使用できる場合は、次のような結果として、Success とマークされた Result プロパティが表示され**ます。**</span><span class="sxs-lookup"><span data-stu-id="68efb-130">If the specified user can use group expansion, you'll receive output similar to this with the Result property marked as **Success:**</span></span>
 
-Result : Success
+<span data-ttu-id="68efb-131">TargetUri :https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span><span class="sxs-lookup"><span data-stu-id="68efb-131">TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span></span>
 
-Latency : 00:00:01.1234976
+<span data-ttu-id="68efb-132">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="68efb-132">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-Error :
+<span data-ttu-id="68efb-133">結果: 成功</span><span class="sxs-lookup"><span data-stu-id="68efb-133">Result : Success</span></span>
 
-Diagnosis :
+<span data-ttu-id="68efb-134">待ち時間:00:00: 01.1234976</span><span class="sxs-lookup"><span data-stu-id="68efb-134">Latency : 00:00:01.1234976</span></span>
 
-If the specified user can't use group expansion, then the Result will be shown as Failure and additional information will be recorded in the Error and Diagnosis properties:
+<span data-ttu-id="68efb-135">誤差</span><span class="sxs-lookup"><span data-stu-id="68efb-135">Error :</span></span>
 
-TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+<span data-ttu-id="68efb-136">診断</span><span class="sxs-lookup"><span data-stu-id="68efb-136">Diagnosis :</span></span>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+<span data-ttu-id="68efb-137">指定したユーザーがグループの展開を使用できない場合は、結果がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。</span><span class="sxs-lookup"><span data-stu-id="68efb-137">If the specified user can't use group expansion, then the Result will be shown as Failure and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-Result : Failure
+<span data-ttu-id="68efb-138">TargetUri :https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span><span class="sxs-lookup"><span data-stu-id="68efb-138">TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span></span>
 
-Latency : 00:00:00
+<span data-ttu-id="68efb-139">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="68efb-139">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-Error :
+<span data-ttu-id="68efb-140">結果: エラー</span><span class="sxs-lookup"><span data-stu-id="68efb-140">Result : Failure</span></span>
 
-Diagnosis :
+<span data-ttu-id="68efb-141">待ち時間: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="68efb-141">Latency : 00:00:00</span></span>
 
-Test-CsGroupExpansion : The endpoint was unable to register. See the ErrorCode for specific reason.
+<span data-ttu-id="68efb-142">誤差</span><span class="sxs-lookup"><span data-stu-id="68efb-142">Error :</span></span>
 
-The previous output states that the test failed because the specified user was unable to register with Lync Server. This will typically occur if the test account does not exist or has not enabled for Lync Server. You can verify that the account exists, and determine whether or not the account has been enabled for nm-ocs-14-3rd by running a command similar to the following:
+<span data-ttu-id="68efb-143">診断</span><span class="sxs-lookup"><span data-stu-id="68efb-143">Diagnosis :</span></span>
+
+<span data-ttu-id="68efb-144">テスト-CsGroupExpansion: エンドポイントは登録できませんでした。</span><span class="sxs-lookup"><span data-stu-id="68efb-144">Test-CsGroupExpansion : The endpoint was unable to register.</span></span> <span data-ttu-id="68efb-145">具体的な理由については、「エラーコード」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="68efb-145">See the ErrorCode for specific reason.</span></span>
+
+<span data-ttu-id="68efb-146">以前の出力では、指定されたユーザーが Lync Server に登録できなかったため、テストが失敗したことが示されます。</span><span class="sxs-lookup"><span data-stu-id="68efb-146">The previous output states that the test failed because the specified user was unable to register with Lync Server.</span></span> <span data-ttu-id="68efb-147">これは通常、テストアカウントが存在しないか、Lync Server に対して有効になっていない場合に発生します。</span><span class="sxs-lookup"><span data-stu-id="68efb-147">This will typically occur if the test account does not exist or has not enabled for Lync Server.</span></span> <span data-ttu-id="68efb-148">アカウントが存在するかどうかを確認し、次のようなコマンドを実行して、nm-ocs-14-3 のアカウントが有効になっているかどうかを確認できます。</span><span class="sxs-lookup"><span data-stu-id="68efb-148">You can verify that the account exists, and determine whether or not the account has been enabled for nm-ocs-14-3rd by running a command similar to the following:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-If Test-CsGroupExpansion fails, then you might want to rerun the test, this time including the Verbose parameter:
+<span data-ttu-id="68efb-149">テスト用の CsGroupExpansion 展開に失敗した場合は、Verbose パラメーターも含めて、テストを再実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="68efb-149">If Test-CsGroupExpansion fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -Verbose
 
-When the Verbose parameter is included Test-CsGroupExpansion will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example, this output indicates that the specified distribution group couldn't be found:
+<span data-ttu-id="68efb-150">Verbose パラメーターが含まれている場合は、指定したユーザーが Lync Server にログオンする機能を確認したときに実行される各操作のステップバイステップのアカウントが返されます。</span><span class="sxs-lookup"><span data-stu-id="68efb-150">When the Verbose parameter is included Test-CsGroupExpansion will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="68efb-151">たとえば、次の出力は、指定された配布グループが見つからなかったことを示します。</span><span class="sxs-lookup"><span data-stu-id="68efb-151">For example, this output indicates that the specified distribution group couldn't be found:</span></span>
 
-Trying to get web ticket.
+<span data-ttu-id="68efb-152">Web チケットを取得しようとしています。</span><span class="sxs-lookup"><span data-stu-id="68efb-152">Trying to get web ticket.</span></span>
 
-Web Service url : https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc
+<span data-ttu-id="68efb-153">Web サービスの url:https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc</span><span class="sxs-lookup"><span data-stu-id="68efb-153">Web Service url : https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc</span></span>
 
-Using NTLM/Kerb auth.
+<span data-ttu-id="68efb-154">NTLM/Kerb auth を使用しています。</span><span class="sxs-lookup"><span data-stu-id="68efb-154">Using NTLM/Kerb auth.</span></span>
 
-GetWebTicketActivity completed.
+<span data-ttu-id="68efb-155">GetWebTicketActivity が完了しました。</span><span class="sxs-lookup"><span data-stu-id="68efb-155">GetWebTicketActivity completed.</span></span>
 
-'VerifyDistributionList' activity started.
+<span data-ttu-id="68efb-156">' VerifyDistributionList ' アクティビティが開始されました。</span><span class="sxs-lookup"><span data-stu-id="68efb-156">'VerifyDistributionList' activity started.</span></span>
 
-DLX Web Service Response Status is: NotFound.
+<span data-ttu-id="68efb-157">DLX Web サービスの応答状態: NotFound。</span><span class="sxs-lookup"><span data-stu-id="68efb-157">DLX Web Service Response Status is: NotFound.</span></span>
 
-'VerifyDistributionList' activity completed in '0.2597923' secs.
+<span data-ttu-id="68efb-158">' VerifyDistributionList ' アクティビティは "0.2597923" 秒で完了しました。</span><span class="sxs-lookup"><span data-stu-id="68efb-158">'VerifyDistributionList' activity completed in '0.2597923' secs.</span></span>
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsGroupExpansion might fail:
+<div>
 
-  - You specified an invalid user account. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="68efb-159">テストに失敗した可能性がある理由</span><span class="sxs-lookup"><span data-stu-id="68efb-159">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="68efb-160">次に、テスト用の CsGroupExpansion 展開が失敗する可能性がある一般的な理由を示します。</span><span class="sxs-lookup"><span data-stu-id="68efb-160">Here are some common reasons why Test-CsGroupExpansion might fail:</span></span>
+
+  - <span data-ttu-id="68efb-161">無効なユーザアカウントを指定しました。</span><span class="sxs-lookup"><span data-stu-id="68efb-161">You specified an invalid user account.</span></span> <span data-ttu-id="68efb-162">次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。</span><span class="sxs-lookup"><span data-stu-id="68efb-162">You can verify that a user account exists by running a command similar to this:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account was enabled for Lync Server, run a command similar to the following:
+  - <span data-ttu-id="68efb-163">ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。</span><span class="sxs-lookup"><span data-stu-id="68efb-163">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="68efb-164">ユーザーアカウントが Lync Server 用に有効になっていることを確認するには、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="68efb-164">To verify that a user account was enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    <span data-ttu-id="68efb-165">Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server を有効にしていないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="68efb-165">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
 
-  - Group expansion might be disabled. It is possible to turn off group expansion. If group expansion was disabled then the Test-CsGroupExpansion cmdlet will fail. To determine whether group expansion is enabled, use a command similar to this:
+  - <span data-ttu-id="68efb-166">グループの拡張が無効になっている可能性があります。</span><span class="sxs-lookup"><span data-stu-id="68efb-166">Group expansion might be disabled.</span></span> <span data-ttu-id="68efb-167">グループの拡張機能をオフにすることができます。</span><span class="sxs-lookup"><span data-stu-id="68efb-167">It is possible to turn off group expansion.</span></span> <span data-ttu-id="68efb-168">グループの拡張が無効になっている場合、テスト用の CsGroupExpansion コマンドレットは失敗します。</span><span class="sxs-lookup"><span data-stu-id="68efb-168">If group expansion was disabled then the Test-CsGroupExpansion cmdlet will fail.</span></span> <span data-ttu-id="68efb-169">グループの展開が有効であるかどうかを判断するには、次のようなコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="68efb-169">To determine whether group expansion is enabled, use a command similar to this:</span></span>
     
         Get-CsWebServiceConfiguration | Select-Object Identity, EnableGroupExpansion
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

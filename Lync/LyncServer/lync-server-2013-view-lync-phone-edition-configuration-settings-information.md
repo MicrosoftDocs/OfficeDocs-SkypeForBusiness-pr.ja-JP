@@ -1,43 +1,71 @@
-﻿---
-title: Lync Phone Edition 構成設定情報の表示
-TOCTitle: Lync Phone Edition 構成設定情報の表示
-ms:assetid: 15f94478-651f-4063-9918-6a059f98df16
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ687976(v=OCS.15)
-ms:contentKeyID: 49886853
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Phone Edition の構成設定の情報を表示する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View Lync Phone Edition configuration settings information
+ms:assetid: 15f94478-651f-4063-9918-6a059f98df16
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687976(v=OCS.15)
+ms:contentKeyID: 49733564
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 213b9775b22818c34eb8f7896ea02a4872182a42
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848203"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Phone Edition 構成設定情報の表示
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="view-lync-phone-edition-configuration-settings-information-in-lync-server-2013"></a><span data-ttu-id="f6fc5-102">Lync Server 2013 で Lync Phone Edition の構成設定の情報を表示する</span><span class="sxs-lookup"><span data-stu-id="f6fc5-102">View Lync Phone Edition configuration settings information in Lync Server 2013</span></span>
 
-Lync Phone Edition を実行しているデバイスに関する構成情報を表示できます。情報はコレクションにまとめられています。Lync Server をインストールすると、展開内で Lync Phone Edition を実行しているすべてのデバイスに適用される、Lync Phone Edition 設定のコレクションが得られます。特定のサイトに対して、設定の新しいコレクションを作成することもできます。サイト設定は、グローバル設定より優先されます。設定の各コレクションは、名前、スコープ (グローバルまたはサイト)、SIP セキュリティ設定、ログ レベル、音声のサービス品質 (QoS) レベル、電話ロック設定、および電話ロックの詳細 (ロック解除の暗証番号 (PIN) の最小桁数および電話が自動ロックされるまでの時間) で構成されています。
+</div>
 
-## Lync Phone Edition を実行しているデバイスに関する構成情報を表示するには
+<div id="mainSection">
 
-1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
+<div id="mainBody">
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+<span> </span>
 
-3.  左側のナビゲーション バーで \[**クライアント**\] をクリックし、\[**デバイスの構成**\] 移動ボタンをクリックします。
+<span data-ttu-id="f6fc5-103">_**最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="f6fc5-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-4.  \[**デバイスの構成**\] ページで、情報を表示する設定のコレクションをクリックします。名前、スコープ、SIP セキュリティ設定、音声の品質レベル、および電話ロック設定がメイン ページに表示されます。ログ レベルと電話ロックの詳細を表示するには、\[**編集**\] メニューをクリックし、\[**詳細の表示**\] をクリックします。
+<span data-ttu-id="f6fc5-104">Lync Phone Edition を実行しているデバイスに関する構成情報を表示できます。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-104">You can view configuration information about devices running Lync Phone Edition.</span></span> <span data-ttu-id="f6fc5-105">情報はコレクションに整理されます。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-105">The information is organized into collections.</span></span> <span data-ttu-id="f6fc5-106">Lync Server をインストールすると、展開で Lync Phone Edition を実行しているすべてのデバイスに適用される Lync Phone エディション設定のコレクションを取得できます。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-106">When you install Lync Server, you get a collection of Lync Phone Edition settings that apply to all the devices running Lync Phone Edition in your deployment.</span></span> <span data-ttu-id="f6fc5-107">また、特定のサイトの設定の新しいコレクションを作成することもできます。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-107">You can also create new collections of settings for a specific site.</span></span> <span data-ttu-id="f6fc5-108">サイトの設定はグローバル設定よりも優先されます。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-108">Site settings take precedence over global settings.</span></span> <span data-ttu-id="f6fc5-109">設定の各コレクションは、名前、スコープ (グローバルまたはサイト)、SIP セキュリティ設定、ログレベル、音声品質サービス (QoS) レベル、電話ロック設定、および電話ロックの詳細 (ロック解除の個人識別の最小文字数) で構成されます。電話がロックされるまでの番号 (PIN) と時刻。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-109">Each collection of settings consists of a name, the scope (global or site), SIP security setting, logging level, voice quality of service (QoS) level, phone-lock setting, and phone-lock details, that is, the minimum length of the unlock personal identification number (PIN) and time before the phone locks itself.</span></span>
 
-## Lync Server 管理シェル コマンドレットを使用して Lync Phone Edition の構成情報を表示するには
+<div>
 
-Lync Server 管理シェルと **Get-CsUCPhoneConfiguration** コマンドレットを使用して、Lync Phone Edition の構成情報を表示することもできます。このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+## <a name="to-view-configuration-information-about-devices-running-lync-phone-edition"></a><span data-ttu-id="f6fc5-110">Lync Phone Edition を実行しているデバイスに関する構成情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="f6fc5-110">To view configuration information about devices running Lync Phone Edition</span></span>
 
-## Lync Phone Edition の構成情報を表示するには
+1.  <span data-ttu-id="f6fc5-111">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-  - Lync Phone Edition のすべての構成設定について情報を表示するには、Lync Server 管理シェルで次のコマンドを入力して、Enter キーを押します。
+2.  <span data-ttu-id="f6fc5-112">ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="f6fc5-113">Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="f6fc5-114">左側のナビゲーションバーで、[**クライアント**] をクリックし、[**デバイス構成**] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-114">In the left navigation bar, click **Clients**, and then click the **Device Configuration** navigation button.</span></span>
+
+4.  <span data-ttu-id="f6fc5-115">[**デバイスの構成**] ページで、情報を表示する設定のコレクションをクリックします。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-115">On the **Device Configuration** page, click the collection of settings you want to view information about.</span></span> <span data-ttu-id="f6fc5-116">名前、スコープ、SIP セキュリティ設定、音声品質レベル、および電話ロックの設定が、メインページに表示されます。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-116">The name, scope, SIP security setting, voice quality level, and phone lock setting are listed on the main page.</span></span> <span data-ttu-id="f6fc5-117">ログレベルと電話ロックの詳細を表示するには、[**編集**] メニューをクリックし、[**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-117">To view the logging level and phone lock details, click the **Edit** menu, and then click **Show details**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="viewing-lync-phone-edition-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="f6fc5-118">Windows PowerShell コマンドレットを使用した Lync Phone Edition 構成情報の表示</span><span class="sxs-lookup"><span data-stu-id="f6fc5-118">Viewing Lync Phone Edition Configuration Information by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="f6fc5-119">Lync Server 管理シェルと**CsUCPhoneConfiguration**コマンドレットを使用して、Lync Phone Edition の構成設定を表示できます。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-119">You can view Lync Phone Edition configuration settings by using Lync Server Management Shell and the **Get-CsUCPhoneConfiguration** cmdlet.</span></span> <span data-ttu-id="f6fc5-120">このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-120">You can run this cmdlet can from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="f6fc5-121">リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-view-lync-phone-edition-configuration-information"></a><span data-ttu-id="f6fc5-122">Lync Phone Edition の構成情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="f6fc5-122">To view Lync Phone Edition configuration information</span></span>
+
+  - <span data-ttu-id="f6fc5-123">すべての Lync Phone エディションの構成設定に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-123">To view information about all your Lync Phone Edition configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsUCPhoneConfiguration
     
-    コマンドを実行すると、次のような情報が返されます。
+    <span data-ttu-id="f6fc5-124">このコマンドは、次のような情報を返します。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-124">The command returns information similar to the following:</span></span>
     
         Identity             : Global
         CalendarPollInterval : 00:03:00
@@ -49,14 +77,32 @@ Lync Server 管理シェルと **Get-CsUCPhoneConfiguration** コマンドレッ
         Voice8021p           : 0
         LoggingLevel         : Off
 
-詳細については、「[Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration)」を参照してください。
+</div>
 
-## 関連項目
+<span data-ttu-id="f6fc5-125">詳細については、「 [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsUCPhoneConfiguration)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f6fc5-125">For details, see [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsUCPhoneConfiguration).</span></span>
 
-#### タスク
+</div>
 
-[Lync Phone Edition 構成設定のコレクションの作成または変更](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)  
-[Lync Phone Edition 構成設定の既存コレクションの削除](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)  
-[Lync Phone Edition のセキュリティ設定の構成](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)  
-[電話のロックの適用](lync-server-2013-enforce-phone-locking.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="f6fc5-126">関連項目</span><span class="sxs-lookup"><span data-stu-id="f6fc5-126">See Also</span></span>
+
+
+[<span data-ttu-id="f6fc5-127">Lync Server 2013 で Lync Phone エディションの構成設定のコレクションを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="f6fc5-127">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)  
+[<span data-ttu-id="f6fc5-128">Lync Server 2013 で既存の Lync Phone エディション構成の設定を削除する</span><span class="sxs-lookup"><span data-stu-id="f6fc5-128">Delete an existing collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)  
+[<span data-ttu-id="f6fc5-129">Lync Server 2013 で Lync Phone Edition のセキュリティ設定を構成する</span><span class="sxs-lookup"><span data-stu-id="f6fc5-129">Configure security settings for Lync Phone Edition in Lync Server 2013</span></span>](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)  
+[<span data-ttu-id="f6fc5-130">Lync Server 2013 での電話のロックを適用する</span><span class="sxs-lookup"><span data-stu-id="f6fc5-130">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

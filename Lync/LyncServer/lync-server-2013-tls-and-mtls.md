@@ -1,31 +1,61 @@
-﻿---
-title: Lync Server 2013 の TLS と MTLS
-TOCTitle: Lync Server 2013 の TLS と MTLS
-ms:assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn481133(v=OCS.15)
-ms:contentKeyID: 59679288
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: TLS と MTLS'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: TLS and MTLS for Lync Server 2013
+ms:assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481133(v=OCS.15)
+ms:contentKeyID: 59893873
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 066612f08c61ad1df342b4f2dd9b61ff5a5cc286
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848404"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の TLS と MTLS
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-11-07_
+# <a name="tls-and-mtls-for-lync-server-2013"></a><span data-ttu-id="7e2cb-102">Lync Server 2013 の TLS と MTLS</span><span class="sxs-lookup"><span data-stu-id="7e2cb-102">TLS and MTLS for Lync Server 2013</span></span>
 
-TLS プロトコルと MTLS プロトコルにより、インターネット上での通信の暗号化とエンドポイント認証機能が提供されます。Microsoft Lync Server 2013 は、この 2 つのプロトコルを使用して、信頼されたサーバーのネットワークを形成し、このネットワーク上のすべての通信が暗号化されるようにします。サーバー間のすべての SIP 通信は MTLS により行われます。クライアントからサーバーへの SIP 通信は TLS により行われます。
+</div>
 
-TLS により、ユーザーはそのクライアント ソフトウェアを介して接続先の Lync Server 2013 サーバーを認証することができます。TLS 接続では、クライアントはサーバーから有効な証明書を要求します。証明書が有効であると見なされるためには、証明書の発行元の CA がクライアントからも信頼されていること、およびサーバーの DNS 名が証明書の DNS 名に一致していることが必要です。証明書が有効な場合、クライアントは証明書内の公開キーを使用して、通信に使う対称暗号化キーを暗号化し、証明書の最初の所有者だけが、その秘密キーを使用して通信の内容を暗号化することができます。この接続は信頼済みと見なされ、それ以降は他の信頼されたサーバーやクライアントからチャレンジされません。このような意味合いで、Web サービスで使用される SSL (Secure Sockets Layer) は TLS ベースであるということができます。
+<div id="mainSection">
 
-サーバー間の接続では相互認証のために MTLS が利用されます。MTLS 接続でメッセージの発信元のサーバーとそのメッセージを受信するサーバーは相互に信頼された CA から取得した証明書を交換します。この証明書により、各サーバーは互いに身元を証明します。Lync Server 2013 展開では、エンタープライズ CA の発行した証明書のうち有効期間がまだあって発行元の CA で失効していないものが、すべての内部クライアントおよびサーバーで自動的に有効と見なされます。Active Directory ドメインのすべてのメンバーは、そのドメイン内のエンタープライズ CA を信頼しているからです。フェデレーション シナリオでは、発行元の CA は両方のフェデレーション パートナーによって信頼されている必要があります。各パートナーは必要に応じて別の CA を使用できますが、その CA はもう一方のパートナーからも信頼されている必要があります。この信頼関係を築くための最も簡単な方法は、パートナーのルート CA 証明書をエッジ サーバーの信頼されたルート CA に追加すること、または両方のパートナーによって信頼されたサードパーティの CA を使うことです。
+<div id="mainBody">
 
-TLS と MTLS は、盗聴および中間者 (man-in-the-middle) 攻撃の両方を防ぐのに役立ちます。中間者 (man-in-the-middle) 攻撃では、攻撃者は 2 つのネットワーク エンティティ間の通信を、双方に気付かれることなく、攻撃者のコンピューターを経由して再ルーティングします。TLS および Lync Server 2013 の仕様による信頼されたサーバー (トポロジ ビルダーで指定されているもののみ) では、2 つのエンドポイントの間で公開キー暗号法に基づいて連携するエンドツーエンドの暗号化を使用することで、アプリケーション層での中間者 (man-in-the-middle) 攻撃のリスクが部分的に軽減され、攻撃者は有効で信頼された証明書 (対応する秘密キーがあり、クライアントが通信の暗号を解読するためにやり取りするサービスの名前に合わせて発行されたもの) を手に入れるしかなくなります。とはいえ、結局は、現在のネットワーク インフラストラクチャ (このケースでは社内 DNS) でのセキュリティのベスト プラクティスに従う必要があります。Lync Server 2013 は、DNS サーバーがドメイン コントローラーやグローバル カタログと同じような方法で信頼されるものと仮定しますが、DNS は攻撃者のサーバーがなりすましの要求にうまく応答できないようにすることで DNS ハイジャック攻撃に対するもう一段の安全策を提供します。
+<span> </span>
 
-次の図は、Lync Server 2013 において、信頼されたサーバーのネットワークが MTLS に基づいて構築されるしくみの概略を示しています。
+<span data-ttu-id="7e2cb-103">_**最終更新日:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="7e2cb-103">_**Topic Last Modified:** 2013-11-07_</span></span>
 
-**Lync Server ネットワークの信頼済み接続**
+<span data-ttu-id="7e2cb-104">TLS プロトコルと MTLS プロトコルにより、インターネット上での通信の暗号化とエンドポイント認証機能が提供されます。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-104">Transport Layer Security (TLS) and Mutual Transport Layer Security (MTLS) protocols provide encrypted communications and endpoint authentication on the Internet.</span></span> <span data-ttu-id="7e2cb-105">Microsoft Lync Server 2013 は、これら2つのプロトコルを使って、信頼されたサーバーのネットワークを作成し、そのネットワーク上のすべての通信を暗号化します。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-105">Microsoft Lync Server 2013 uses these two protocols to create the network of trusted servers and to ensure that all communications over that network are encrypted.</span></span> <span data-ttu-id="7e2cb-106">サーバー間のすべての SIP 通信は MTLS により行われます。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-106">All SIP communications between servers occur over MTLS.</span></span> <span data-ttu-id="7e2cb-107">クライアントからサーバーへの SIP 通信は TLS により行われます。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-107">SIP communications from client to server occur over TLS.</span></span>
 
-![MTLS の使用](images/Dn481133.437749da-c372-4f0d-ac72-ccfd5191696b(OCS.15).jpg "MTLS の使用")
+<span data-ttu-id="7e2cb-108">TLS は、ユーザーがクライアントソフトウェアを通じて、接続先の Lync Server 2013 サーバーを認証できるようにします。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-108">TLS enables users, through their client software, to authenticate the Lync Server 2013 servers to which they connect.</span></span> <span data-ttu-id="7e2cb-109">TLS 接続では、クライアントはサーバーから有効な証明書を要求します。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-109">On a TLS connection, the client requests a valid certificate from the server.</span></span> <span data-ttu-id="7e2cb-110">証明書が有効であると見なされるためには、証明書の発行元の CA がクライアントからも信頼されていること、およびサーバーの DNS 名が証明書の DNS 名に一致していることが必要です。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-110">To be valid, the certificate must have been issued by a CA that is also trusted by the client and the DNS name of the server must match the DNS name on the certificate.</span></span> <span data-ttu-id="7e2cb-111">証明書が有効な場合、クライアントは証明書内の公開キーを使用して、通信に使う対称暗号化キーを暗号化し、証明書の最初の所有者だけが、その秘密キーを使用して通信の内容を暗号化することができます。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-111">If the certificate is valid, the client uses the public key in the certificate to encrypt the symmetric encryption keys to be used for the communication, so only the original owner of the certificate can use its private key to decrypt the contents of the communication.</span></span> <span data-ttu-id="7e2cb-112">この接続は信頼済みと見なされ、それ以降は他の信頼されたサーバーやクライアントからチャレンジされません。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-112">The resulting connection is trusted and from that point is not challenged by other trusted servers or clients.</span></span> <span data-ttu-id="7e2cb-113">このような意味合いで、Web サービスで使用される SSL (Secure Sockets Layer) は TLS ベースであるということができます。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-113">Within this context, Secure Sockets Layer (SSL) as used with Web services can be associated as TLS-based.</span></span>
+
+<span data-ttu-id="7e2cb-114">サーバー間接続は、相互認証に MTLS を利用します。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-114">Server-to-server connections rely on MTLS for mutual authentication.</span></span> <span data-ttu-id="7e2cb-115">MTLS 接続では、サーバーが発信したメッセージをサーバーが受信すると、相互に信頼できる CA からの証明書を交換します。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-115">On an MTLS connection, the server originating a message and the server receiving it exchange certificates from a mutually trusted CA.</span></span> <span data-ttu-id="7e2cb-116">証明書は、各サーバーの ID を他のサーバーに証明します。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-116">The certificates prove the identity of each server to the other.</span></span> <span data-ttu-id="7e2cb-117">Lync Server 2013 の展開では、エンタープライズ CA によって発行された証明書が有効期間中に公開 CA によって失効されていなくても、Active Directory ドメインのすべてのメンバーによって、すべての内部クライアントとサーバーで有効と見なされます。そのドメインのエンタープライズ CA を信頼します。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-117">In Lync Server 2013 deployments, certificates issued by the enterprise CA that are during their validity period and not revoked by the issuing CA are automatically considered valid by all internal clients and servers because all members of an Active Directory domain trust the Enterprise CA in that domain.</span></span> <span data-ttu-id="7e2cb-118">フェデレーションシナリオでは、発行 CA は両方のフェデレーションパートナーによって信頼されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-118">In federated scenarios, the issuing CA must be trusted by both federated partners.</span></span> <span data-ttu-id="7e2cb-119">各パートナーは、必要に応じて異なる CA を使用できます。その CA は、他のパートナーによっても信頼されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-119">Each partner can use a different CA, if desired, so long as that CA is also trusted by the other partner.</span></span> <span data-ttu-id="7e2cb-120">この信頼は、エッジサーバーが信頼されたルート ca でパートナーのルート CA 証明書を持っているか、または両方の当事者が信頼しているサードパーティ CA を使用して、最も簡単に実現できます。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-120">This trust is most easily accomplished by the Edge Servers having the partner’s root CA certificate in their trusted root CAs, or by use of a third-party CA that is trusted by both parties.</span></span>
+
+<span data-ttu-id="7e2cb-121">TLS と MTLS は、盗聴および中間者 (man-in-the-middle) 攻撃の両方を防ぐのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-121">TLS and MTLS help prevent both eavesdropping and man-in-the middle attacks.</span></span> <span data-ttu-id="7e2cb-122">中間者 (man-in-the-middle) 攻撃では、攻撃者は 2 つのネットワーク エンティティ間の通信を、双方に気付かれることなく、攻撃者のコンピューターを経由して再ルーティングします。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-122">In a man-in-the-middle attack, the attacker reroutes communications between two network entities through the attacker’s computer without the knowledge of either party.</span></span> <span data-ttu-id="7e2cb-123">TLS および Lync Server 2013 の信頼されたサーバー (Topology Builder で指定されたもののみ) の仕様は、公開キーの暗号化を使用して調整されたエンドツーエンドの暗号化を使用することで、アプリケーションレイヤー上の一部の中間攻撃のリスクを軽減します。2つのエンドポイント間で、攻撃者は、対応する秘密キーを持つ有効な信頼できる証明書と、クライアントが通信して通信を解読するサービスの名前に発行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-123">TLS and Lync Server 2013 specification of trusted servers (only those specified in Topology Builder) mitigate the risk of a man-in-the middle attack partially on the application layer by using end-to-end encryption coordinated using the Public Key cryptography between the two endpoints, and an attacker would have to have a valid and trusted certificate with the corresponding private key and issued to the name of the service to which the client is communicating to decrypt the communication.</span></span> <span data-ttu-id="7e2cb-124">とはいえ、結局は、現在のネットワーク インフラストラクチャ (このケースでは社内 DNS) でのセキュリティのベスト プラクティスに従う必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-124">Ultimately, however, you must follow best security practices with your networking infrastructure (in this case corporate DNS).</span></span> <span data-ttu-id="7e2cb-125">Lync Server 2013 は、ドメインコントローラーとグローバルカタログが信頼されているのと同じ方法で DNS サーバーが信頼されていることを前提としていますが、DNS は、攻撃者のサーバーが正常に応答できないようにすることで、dns ハイジャック攻撃に対する保護レベルを提供します。スプーフィングされた名前を要求します。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-125">Lync Server 2013 assumes that the DNS server is trusted in the same way that domain controllers and global catalogs are trusted, but DNS does provide a level of safeguard against DNS hijack attacks by preventing an attacker’s server from responding successfully to a request to the spoofed name.</span></span>
+
+<span data-ttu-id="7e2cb-126">次の図は、Lync Server 2013 で MTLS を使用して信頼されたサーバーのネットワークを作成する方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="7e2cb-126">The following figure shows at a high level how Lync Server 2013 uses MTLS to create a network of trusted servers.</span></span>
+
+<span data-ttu-id="7e2cb-127">**Lync Server ネットワークの信頼された接続**</span><span class="sxs-lookup"><span data-stu-id="7e2cb-127">**Trusted connections in a Lync Server network**</span></span>
+
+<span data-ttu-id="7e2cb-128">![437749da-c372-4f・] ・・・・・・・・・・・・・・・ナイン(images/Dn481133.437749da-c372-4f0d-ac72-ccfd5191696b(OCS.15).jpg "437749da-c372-4f・") ・・・・・・・・・・・・・・・ナイン</span><span class="sxs-lookup"><span data-stu-id="7e2cb-128">![437749da-c372-4f0d-ac72-ccfd5191696b](images/Dn481133.437749da-c372-4f0d-ac72-ccfd5191696b(OCS.15).jpg "437749da-c372-4f0d-ac72-ccfd5191696b")</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
