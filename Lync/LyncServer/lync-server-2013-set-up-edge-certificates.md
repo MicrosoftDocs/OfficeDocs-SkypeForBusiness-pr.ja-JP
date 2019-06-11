@@ -1,29 +1,63 @@
-﻿---
-title: 'Lync Server 2013: エッジ証明書のセットアップ'
-TOCTitle: エッジ証明書のセットアップ
-ms:assetid: b266e793-dcec-4807-b548-02c83848c983
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412858(v=OCS.15)
-ms:contentKeyID: 48273308
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: エッジ証明書のセットアップ'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set up Edge certificates
+ms:assetid: b266e793-dcec-4807-b548-02c83848c983
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412858(v=OCS.15)
+ms:contentKeyID: 48185151
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9a7a8bcddd1873607d0f1aa5eee7f63c622f00b2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821923"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 用のエッジ証明書のセットアップ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-08_
+# <a name="set-up-edge-certificates-for-lync-server-2013"></a><span data-ttu-id="787a0-102">Lync Server 2013 用のエッジ証明書のセットアップ</span><span class="sxs-lookup"><span data-stu-id="787a0-102">Set up Edge certificates for Lync Server 2013</span></span>
 
-エッジ サーバーをインストールするときは、内部インターフェイスと外部インターフェイスに必要な証明書の要求、インストール、および割り当てを行う必要があります。
+</div>
 
-## このセクション中
+<div id="mainSection">
 
-  - [Lync Server 2013 における外部ユーザー アクセスに対する証明書要件](lync-server-2013-certificate-requirements-for-external-user-access.md)
+<div id="mainBody">
 
-  - [Lync Server 2013 での内部エッジ インターフェイス用の証明書の設定](lync-server-2013-set-up-certificates-for-the-internal-edge-interface.md)
+<span> </span>
 
-  - [Lync Server 2013 外部エッジ インターフェイスの証明書の設定](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)
+<span data-ttu-id="787a0-103">_**最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="787a0-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-  - [Lync Server 2013 でのリバース プロキシの証明書の設定](lync-server-2013-set-up-certificates-for-the-reverse-proxy.md)
+<span data-ttu-id="787a0-104">エッジサーバーをインストールする場合は、内部インターフェイスと外部インターフェイスに必要な証明書を要求、インストールして割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="787a0-104">When you install an Edge Server, you need to request, install, and assign the required certificates for the internal and external interfaces.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="787a0-105">このセクション中</span><span class="sxs-lookup"><span data-stu-id="787a0-105">In This Section</span></span>
+
+  - [<span data-ttu-id="787a0-106">Lync Server 2013 における外部ユーザー アクセスに対する証明書要件</span><span class="sxs-lookup"><span data-stu-id="787a0-106">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
+
+  - [<span data-ttu-id="787a0-107">Lync Server 2013 での内部エッジ インターフェイス用の証明書の設定</span><span class="sxs-lookup"><span data-stu-id="787a0-107">Set up certificates for the internal edge interface in Lync Server 2013</span></span>](lync-server-2013-set-up-certificates-for-the-internal-edge-interface.md)
+
+  - [<span data-ttu-id="787a0-108">Lync Server 2013 外部エッジ インターフェイスの証明書の設定</span><span class="sxs-lookup"><span data-stu-id="787a0-108">Set up certificates for the external edge interface for Lync Server 2013</span></span>](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)
+
+  - [<span data-ttu-id="787a0-109">Lync Server 2013 でのリバース プロキシの証明書の設定</span><span class="sxs-lookup"><span data-stu-id="787a0-109">Set up certificates for the reverse proxy in Lync Server 2013</span></span>](lync-server-2013-set-up-certificates-for-the-reverse-proxy.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

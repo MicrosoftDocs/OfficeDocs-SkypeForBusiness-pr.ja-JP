@@ -1,69 +1,118 @@
-﻿---
-title: 'Lync Server 2013: リモート通話コントロールの計画'
-TOCTitle: リモート通話コントロールの計画
-ms:assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg558658(v=OCS.15)
-ms:contentKeyID: 48272377
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: リモート通話コントロールの計画'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for remote call control
+ms:assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558658(v=OCS.15)
+ms:contentKeyID: 48184371
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8ede2b5d63c57864f478cb8fd9bcd4689a91ab3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824555"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 リモート通話コントロールの計画
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-05_
+# <a name="planning-for-remote-call-control-in-lync-server-2013"></a><span data-ttu-id="6e734-102">Lync Server 2013 でのリモート通話コントロールの計画</span><span class="sxs-lookup"><span data-stu-id="6e734-102">Planning for remote call control in Lync Server 2013</span></span>
 
-Lync Server 2013 では、リモート通話コントロールに対するサポートにより、構内交換機 (PBX) 電話をデスクトップ コンピューターの Lync 2013 を使用して制御できます。このセクションでは、リモート通話コントロール機能およびリモート通話コントロールを展開するための要件について説明します。
+</div>
 
-PBX および Lync Server 2013 間の統合により、リモート通話コントロールに対して有効化されているユーザーは、Lync 2013 ユーザー インターフェイス (UI) を使用して、次のような方法で PBX 電話の通話を制御できます。
+<div id="mainSection">
 
-> [!NOTE]
-> 最終的には、ユーザーの PBX 電話をホストする PBX の機能が、そのユーザーが利用することができるリモート通話コントロールの機能を決定します。
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="6e734-103">_**最終更新日:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="6e734-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+
+<span data-ttu-id="6e734-104">Lync Server 2013 では、リモート通話コントロールのシナリオがサポートされているため、ユーザーは自分のデスクトップコンピューターで Lync 2013 を使用して、プライベート支店の exchange (PBX) 電話を制御することができます。</span><span class="sxs-lookup"><span data-stu-id="6e734-104">In Lync Server 2013, support for remote call control scenarios enables users to control their private branch exchange (PBX) phones by using Lync 2013 on their desktop computers.</span></span> <span data-ttu-id="6e734-105">このセクションでは、リモート通話コントロールの機能と、リモート通話コントロールを展開するための要件について説明します。</span><span class="sxs-lookup"><span data-stu-id="6e734-105">This section describes remote call control features and requirements for deploying remote call control.</span></span>
+
+<span data-ttu-id="6e734-106">PBX と Lync Server 2013 を統合すると、リモート通話2013コントロールが有効になっているユーザーは、次のようにして、PBX 電話での通話を制御できるようになります。</span><span class="sxs-lookup"><span data-stu-id="6e734-106">Integration between a PBX and Lync Server 2013 makes it possible for users enabled for remote call control to use the Lync 2013 user interface (UI) to control calls on their PBX phones in the following ways:</span></span>
+
+<div>
 
 
-  - 通話を発信する
+> [!NOTE]  
+> <span data-ttu-id="6e734-107">最終的には、ユーザーの PBX 携帯電話をホストしている PBX の機能によって、そのユーザーが使用できるリモート通話コントロール機能が決定されます。</span><span class="sxs-lookup"><span data-stu-id="6e734-107">Ultimately, the capabilities of the PBX that hosts a user’s PBX phone determine the remote call control features that will be available to that user.</span></span>
 
-  - 着信通話に応答する
 
-  - インスタント メッセージで着信した通話に応答する
+
+</div>
+
+  - <span data-ttu-id="6e734-108">発信通話を行う</span><span class="sxs-lookup"><span data-stu-id="6e734-108">Make an outgoing call</span></span>
+
+  - <span data-ttu-id="6e734-109">着信通話に応答する</span><span class="sxs-lookup"><span data-stu-id="6e734-109">Answer an incoming call</span></span>
+
+  - <span data-ttu-id="6e734-110">インスタントメッセージで着信に応答する</span><span class="sxs-lookup"><span data-stu-id="6e734-110">Answer an incoming call with an instant message</span></span>
     
-    > [!NOTE]
-    > つまり、発信者の電話番号が、組織内のグローバル アドレス一覧 (GAL) の、呼び出し先の Lync 連絡先リストの、またはフェデレーション パートナー組織の、インスタント メッセージ アドレスに関連付けられる場合です。
+    <div>
+    
 
+    > [!NOTE]  
+    > <span data-ttu-id="6e734-111">つまり、発信者の電話番号は、組織のグローバルアドレス一覧 (GAL)、呼び出し元の Lync 連絡先リスト、またはフェデレーションパートナーの組織内のインスタントメッセージアドレスに関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="6e734-111">That is, when the caller’s phone number can be associated with an instant message address in your organization’s global address list (GAL), in the callee’s Lync Contacts list, or in a federated partner’s organization.</span></span>
 
-  - 通話の転送
+    
+    </div>
 
-  - 着信の転送
+  - <span data-ttu-id="6e734-112">通話の転送</span><span class="sxs-lookup"><span data-stu-id="6e734-112">Transfer a call</span></span>
 
-  - 通話の保留
+  - <span data-ttu-id="6e734-113">着信通話を転送する</span><span class="sxs-lookup"><span data-stu-id="6e734-113">Forward an incoming call</span></span>
 
-  - 複数の同時通話間の切り替え
+  - <span data-ttu-id="6e734-114">通話を保留にする</span><span class="sxs-lookup"><span data-stu-id="6e734-114">Place calls on hold</span></span>
 
-  - 既に通話中である時に 2 番目の通話に応答する (つまり、通話中の着信)
+  - <span data-ttu-id="6e734-115">複数の同時通話の切り替え</span><span class="sxs-lookup"><span data-stu-id="6e734-115">Alternate between multiple concurrent calls</span></span>
 
-  - デュアルトーン多重周波数 (DTMF) 電話番号をダイヤルする
+  - <span data-ttu-id="6e734-116">すでに通話中 (通話待ち) 中に2回目の通話に応答する</span><span class="sxs-lookup"><span data-stu-id="6e734-116">Answer a second call while already in a call (that is, call waiting)</span></span>
 
-  - \[会話\] ウィンドウで、Microsoft Office OneNote メモ プログラムにメモを入力する
+  - <span data-ttu-id="6e734-117">Dial dual トーン (DTMF) 数字</span><span class="sxs-lookup"><span data-stu-id="6e734-117">Dial dual-tone multifrequency (DTMF) digits</span></span>
 
-さらに、ユーザーがリモート通話コントロールに対して有効化されている場合、Lync 2013 は次の通話情報をユーザーに提供します。
+  - <span data-ttu-id="6e734-118">[会話] ウィンドウで、Microsoft Office OneNote のノート作成プログラムにノートを入力する</span><span class="sxs-lookup"><span data-stu-id="6e734-118">In the Conversation window, type notes in Microsoft Office OneNote note-taking program</span></span>
 
-  - 発信者の電話番号が、リモート通話コントロールが有効になっているユーザーの Microsoft Office Outlook メッセージおよびグループ作業クライアントの連絡先リスト、Lync の連絡先リスト、または組織の GAL に存在する場合は、名前による発信者の ID。
+<span data-ttu-id="6e734-119">さらに、ユーザーがリモート通話コントロールを有効にしている場合は、Lync 2013 によって次の通話情報がユーザーに提供されます。</span><span class="sxs-lookup"><span data-stu-id="6e734-119">Additionally, when a user is enabled for remote call control, Lync 2013 provides the user with the following call information:</span></span>
 
-  - Outlook の \[会話履歴\] フォルダーに保存されている、過去の着信および発信通話。
+  - <span data-ttu-id="6e734-120">呼び出し元の電話番号が、リモート通話コントロール対応ユーザーの Microsoft Office Outlook メッセージングおよびコラボレーションクライアント、Lync 連絡先リスト、または組織の GAL の連絡先リストに存在する場合の、名前による発信者の識別。</span><span class="sxs-lookup"><span data-stu-id="6e734-120">Identification of a caller by name when the caller’s phone number exists in the Contacts list of a remote call control-enabled user’s Microsoft Office Outlook messaging and collaboration client, Lync Contacts list, or your organization’s GAL.</span></span>
 
-  - ユーザーの Outlook 受信トレイ フォルダーに送信される不在着信通知 (ただし、通話の受信時に Lync が実行されている場合のみ生成されます)。
+  - <span data-ttu-id="6e734-121">Outlook の [会話履歴] フォルダーに保存されている、過去の着信と発信の通話。</span><span class="sxs-lookup"><span data-stu-id="6e734-121">Past incoming and outgoing calls, which are saved in the Conversation History folder in Outlook.</span></span>
 
-## リモート通話コントロールとエンタープライズ VoIP
+  - <span data-ttu-id="6e734-122">不在着信通知。ユーザーの Outlook 受信トレイフォルダーに送信されますが、着信呼び出しの受信時に Lync が実行されている場合にのみ生成されます。</span><span class="sxs-lookup"><span data-stu-id="6e734-122">Missed call notifications, which are sent to the user’s Outlook Inbox folder, but are generated only if Lync is running when the incoming call is received.</span></span>
 
-リモート通話コントロール機能は エンタープライズ VoIP 機能から分離しており、ユーザーを両方に対して有効化することはできませんが、エンタープライズ VoIP は、リモート通話コントロールに対して有効化されているユーザーも利用可能な機能のサブセットを提供します。エンタープライズ VoIP が展開されると、リモート通話コントロールに対して有効化されているユーザーは、Lync を使用して次の エンタープライズ VoIP 機能にアクセスできます。
+<div>
 
-  - 別の Lync クライアントに対する通話の発信および受信
+## <a name="remote-call-control-and-enterprise-voice"></a><span data-ttu-id="6e734-123">リモート通話コントロールとエンタープライズボイス</span><span class="sxs-lookup"><span data-stu-id="6e734-123">Remote Call Control and Enterprise Voice</span></span>
 
-  - エンタープライズ VoIP に対して有効化されているユーザーによって作成された会議の音声部分への参加
+<span data-ttu-id="6e734-124">リモート通話コントロール機能はエンタープライズボイス機能とは異なりますが、どちらのユーザーも有効にすることはできませんが、エンタープライズボイスは、リモート通話コントロールが有効になっているユーザーが利用できる機能のサブセットを提供します。</span><span class="sxs-lookup"><span data-stu-id="6e734-124">Although remote call control features are separate from Enterprise Voice features and users cannot be enabled for both, Enterprise Voice provides a subset of features that are also available to users who are enabled for remote call control.</span></span> <span data-ttu-id="6e734-125">エンタープライズボイスが展開されている場合、リモート通話コントロールが有効になっているユーザーは、Lync を使って次のエンタープライズ Voip 機能にアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="6e734-125">If Enterprise Voice is deployed, users who are enabled for remote call control can use Lync to access the following Enterprise Voice features:</span></span>
 
-## このセクション中
+  - <span data-ttu-id="6e734-126">別の Lync クライアントに対して音声通話を発信および受信する</span><span class="sxs-lookup"><span data-stu-id="6e734-126">Make and receive audio calls to another Lync client</span></span>
 
-  - [Lync Server 2013 のリモート通話コントロールの展開タスク](lync-server-2013-deployment-tasks-for-remote-call-control.md)
+  - <span data-ttu-id="6e734-127">エンタープライズ Voip が有効になっているユーザーによって作成された会議のオーディオ部分に参加する</span><span class="sxs-lookup"><span data-stu-id="6e734-127">Join the audio portion of a conference created by a user who is enabled for Enterprise Voice</span></span>
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="6e734-128">このセクション中</span><span class="sxs-lookup"><span data-stu-id="6e734-128">In This Section</span></span>
+
+  - [<span data-ttu-id="6e734-129">Lync Server 2013 のリモート通話コントロールの展開タスク</span><span class="sxs-lookup"><span data-stu-id="6e734-129">Deployment tasks for remote call control in Lync Server 2013</span></span>](lync-server-2013-deployment-tasks-for-remote-call-control.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

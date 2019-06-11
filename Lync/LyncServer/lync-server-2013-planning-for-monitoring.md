@@ -1,33 +1,67 @@
-﻿---
-title: 'Lync Server 2013: 監視の計画'
-TOCTitle: 監視の計画
-ms:assetid: 26cead5a-183c-42f1-a4b0-0e8d61c6159d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204752(v=OCS.15)
-ms:contentKeyID: 48271589
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 監視の計画'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for monitoring
+ms:assetid: 26cead5a-183c-42f1-a4b0-0e8d61c6159d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204752(v=OCS.15)
+ms:contentKeyID: 48183671
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7a866be23c9bcf59133fb60f4facf46e867d3d08
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824604"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での監視の計画
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-05_
+# <a name="planning-for-monitoring-in-lync-server-2013"></a><span data-ttu-id="631c7-102">Lync Server 2013 での監視の計画</span><span class="sxs-lookup"><span data-stu-id="631c7-102">Planning for monitoring in Lync Server 2013</span></span>
 
-Microsoft Lync Server 2013 の監視サービスを使用すると、管理者は組織内で行われている通信セッションの使用率、動向、およびサービス品質のデータを収集できます。Lync Server 2013 の監視では、独立したサーバーの役割は不要になりました。代わりに、監視サービスが各フロントエンド サーバーに組み込まれます。ただし、既定では Lync Server 2013 で監視が有効になりません。このドキュメントは、組織で監視を有効にする必要があるかどうかを判断するのに役立ちます。
+</div>
 
-## このセクション中
+<div id="mainSection">
 
-  - [Lync Server 2013 監視の概要](lync-server-2013-overview-of-monitoring.md)
+<div id="mainBody">
 
-  - [Lync Server 2013 での監視要件の定義](lync-server-2013-defining-your-requirements-for-monitoring.md)
+<span> </span>
 
-  - [監視の有効化](lync-server-2013-enabling-monitoring.md)
+<span data-ttu-id="631c7-103">_**最終更新日:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="631c7-103">_**Topic Last Modified:** 2012-09-05_</span></span>
 
-  - [監視データへのアクセス](lync-server-2013-accessing-monitoring-data.md)
+<span data-ttu-id="631c7-104">Microsoft Lync Server 2013 の監視サービスでは、管理者が、組織内で行われる通信セッションの利用状況、傾向、およびサービスデータの品質を収集するための手段を提供します。</span><span class="sxs-lookup"><span data-stu-id="631c7-104">The monitoring service in Microsoft Lync Server 2013 provides a way for administrators to collect usage, trend, and quality of service data for the communication sessions that take place in their organization.</span></span> <span data-ttu-id="631c7-105">Lync Server 2013 での監視では、別のサーバーの役割が不要になりました。代わりに、監視サービスは各フロントエンドサーバーに組み込まれています。</span><span class="sxs-lookup"><span data-stu-id="631c7-105">Monitoring in Lync Server 2013 no longer requires a separate server role; instead, the monitoring service is built into each Front End server.</span></span> <span data-ttu-id="631c7-106">ただし、既定では、Lync Server 2013 で監視は有効になっていません。</span><span class="sxs-lookup"><span data-stu-id="631c7-106">However, by default monitoring is not enabled in Lync Server 2013.</span></span> <span data-ttu-id="631c7-107">このドキュメントでは、組織で監視を有効にするかどうかを決定する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="631c7-107">This document will help you determine whether or not monitoring should be enabled in your organization.</span></span>
 
-  - [Lync Server 2013 における監視のためのコンポーネントとトポロジ](lync-server-2013-components-and-topologies-for-monitoring.md)
+<div>
 
-  - [Lync Server 2013 の監視の展開チェックリスト](lync-server-2013-deployment-checklist-for-monitoring.md)
+## <a name="in-this-section"></a><span data-ttu-id="631c7-108">このセクション中</span><span class="sxs-lookup"><span data-stu-id="631c7-108">In This Section</span></span>
+
+  - [<span data-ttu-id="631c7-109">Lync Server 2013 での監視の概要</span><span class="sxs-lookup"><span data-stu-id="631c7-109">Overview of monitoring in Lync Server 2013</span></span>](lync-server-2013-overview-of-monitoring.md)
+
+  - [<span data-ttu-id="631c7-110">Lync Server 2013 での監視要件の定義</span><span class="sxs-lookup"><span data-stu-id="631c7-110">Defining your requirements for monitoring in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-monitoring.md)
+
+  - [<span data-ttu-id="631c7-111">Lync Server 2013 で監視を有効にする</span><span class="sxs-lookup"><span data-stu-id="631c7-111">Enabling monitoring in Lync Server 2013</span></span>](lync-server-2013-enabling-monitoring.md)
+
+  - [<span data-ttu-id="631c7-112">Lync Server 2013 での監視データへのアクセス</span><span class="sxs-lookup"><span data-stu-id="631c7-112">Accessing monitoring data in Lync Server 2013</span></span>](lync-server-2013-accessing-monitoring-data.md)
+
+  - [<span data-ttu-id="631c7-113">Lync Server 2013 における監視のためのコンポーネントとトポロジ</span><span class="sxs-lookup"><span data-stu-id="631c7-113">Components and topologies for monitoring in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-monitoring.md)
+
+  - [<span data-ttu-id="631c7-114">Lync Server 2013 の監視の展開チェックリスト</span><span class="sxs-lookup"><span data-stu-id="631c7-114">Deployment checklist for monitoring in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-monitoring.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,45 +1,93 @@
-﻿---
-title: 'Lync Server 2013: エッジ コンポーネントの証明書を要求する'
-TOCTitle: エッジ コンポーネントの証明書を要求する
-ms:assetid: 8c72b877-febc-428f-89dc-389e7a7ac849
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398708(v=OCS.15)
-ms:contentKeyID: 48272781
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: エッジ コンポーネントの証明書を要求する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Request certificates for edge components
+ms:assetid: 8c72b877-febc-428f-89dc-389e7a7ac849
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398708(v=OCS.15)
+ms:contentKeyID: 48184779
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0e848e5fb8ea120bab2251dff776e2c9c27eacca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823302"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でエッジ コンポーネントの証明書を要求する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-11-07_
+# <a name="request-certificates-for-edge-components-in-lync-server-2013"></a><span data-ttu-id="576c0-102">Lync Server 2013 でエッジ コンポーネントの証明書を要求する</span><span class="sxs-lookup"><span data-stu-id="576c0-102">Request certificates for edge components in Lync Server 2013</span></span>
 
-外部ユーザー アクセスのサポートに必要な証明書には、パブリック証明機関 (CA) が発行する証明書および内部のエンタープライズ CA が発行する証明書があります。
+</div>
 
-  - エッジ サーバーとリバース プロキシの外部インターフェイスに必要な証明書は、パブリック CA から発行される必要があります。
+<div id="mainSection">
 
-  - 内部インターフェイスに必要な証明書は、パブリック CA または内部のエンタープライズ CA から発行できます。これらの証明書を作成するときは、内部の Windows Server 2008 CA、Windows Server 2008 R2 CA、Windows Server 2012 CA、または Windows Server 2012 R2 CA を使用して、パブリック証明書を使用するコストを節約することをお勧めします。
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="576c0-103">_**最終更新日:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="576c0-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+
+<span data-ttu-id="576c0-104">外部ユーザーアクセスをサポートするために必要な証明書には、パブリック証明機関 (CA) によって発行された証明書と、社内のエンタープライズ CA によって発行された証明書があります。</span><span class="sxs-lookup"><span data-stu-id="576c0-104">The certificates required to support external user access include certificates issued by a public certification authority (CA), and certificates issued by an internal Enterprise CA:</span></span>
+
+  - <span data-ttu-id="576c0-105">エッジサーバーの外部インターフェイスに必要な証明書とリバースプロキシは、パブリック CA によって発行されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="576c0-105">Certificates required for the external interface of Edge Server and the reverse proxy must be issued by a public CA.</span></span>
+
+  - <span data-ttu-id="576c0-106">内部インターフェイスに必要な証明書は、公開 CA または内部のエンタープライズ CA のいずれかによって発行できます。</span><span class="sxs-lookup"><span data-stu-id="576c0-106">Certificates required for the internal interface can be issued by either a public CA or an internal enterprise CA.</span></span> <span data-ttu-id="576c0-107">公開証明書を使用するための経費を節約するために、これらの証明書を作成するには、内部の Windows Server 2008 CA、Windows Server 2008 R2 CA、windows server 2012 CA、または Windows Server 2012 R2 CA の使用をお勧めします。</span><span class="sxs-lookup"><span data-stu-id="576c0-107">We recommend using an internal Windows Server 2008 CA, Windows Server 2008 R2 CA, Windows Server 2012 CA, or Windows Server 2012 R2 CA for creating these certificates to save on the expense of using public certificates.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
-> 証明書の要求、特にパブリック CA に証明書を要求した場合は、処理に時間がかかる可能性があります。したがって、エッジ サーバーの証明書は早めに要求し、エッジ サーバー コンポーネントの展開を開始するときには証明書を使用できるようになっている必要があります。 エッジ サーバーの証明書要件の概要については、「<A href="lync-server-2013-certificate-requirements-for-external-user-access.md">Lync Server 2013 における外部ユーザー アクセスに対する証明書要件</A>」を参照してください。
+> [!IMPORTANT]  
+> <span data-ttu-id="576c0-108">証明書の要求、特にパブリック Ca への要求を処理するのに時間がかかる場合があるため、エッジサーバーコンポーネントの展開を開始するときに使用できるようにするために、最初にエッジサーバーの証明書を要求する必要があります。</span><span class="sxs-lookup"><span data-stu-id="576c0-108">It can take time to process certificate requests, especially requests to public CAs, so you should request certificates for your Edge Servers early enough to ensure that they are available when you start deployment of your Edge Server components.</span></span> <span data-ttu-id="576c0-109">エッジサーバーの証明書の要件の概要については、「 <A href="lync-server-2013-certificate-requirements-for-external-user-access.md">Lync Server 2013 での外部ユーザーアクセスの証明書の要件</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="576c0-109">For a summary of certificate requirements for Edge Servers, see <A href="lync-server-2013-certificate-requirements-for-external-user-access.md">Certificate requirements for external user access in Lync Server 2013</A>.</span></span>
 
 
 
-内部エッジの証明書にパブリック CA を使用するという選択肢もありますが、証明書のコストを最小限に抑える代わりに、これらの他の証明書には内部エンタープライズ CA を使用することをお勧めします。 エッジ サーバーの証明書要件の概要については、「[Lync Server 2013 における外部ユーザー アクセスに対する証明書要件](lync-server-2013-certificate-requirements-for-external-user-access.md)」を参照してください。
+</div>
 
-> [!NOTE]
-> エッジ サーバーをインストールするときは、証明書ウィザードを実行します。このウィザードを使用すると、「<a href="lync-server-2013-set-up-edge-certificates.md">Lync Server 2013 用のエッジ証明書のセットアップ</a>」に記載される証明書の要求、割り当て、およびインストール作業を容易に実行できます。エッジ サーバーをインストールする前に証明書を要求する場合 (たとえば、エッジ サーバー コンポーネントの実際の展開時に時間を節約するために)、証明書がエクスポート可能で、かつ必要なすべてのサブジェクトの別名が含まれていれば、内部サーバーを使用して証明書を要求できます。このドキュメントでは、内部サーバーを使用して証明書を要求する手順については説明しません。
+<span data-ttu-id="576c0-110">内部のエッジ証明書にパブリック CA を使用することもできますが、証明書のコストを最小限に抑えるため、その他の証明書には内部のエンタープライズ CA を使用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="576c0-110">Although you can choose to use a public CA for the internal edge certificate, we recommend that you use an internal enterprise CA for those other certificates instead to minimize the cost of certificates.</span></span> <span data-ttu-id="576c0-111">エッジサーバーの証明書の要件の概要については、「 [Lync Server 2013 での外部ユーザーアクセスの証明書の要件](lync-server-2013-certificate-requirements-for-external-user-access.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="576c0-111">For a summary of certificate requirements for Edge Servers, see [Certificate requirements for external user access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).</span></span>
+
+<div>
 
 
-## 証明書をパブリック CA に要求する
+> [!NOTE]  
+> <span data-ttu-id="576c0-112">エッジサーバーをインストールする場合、セットアップには、「 <A href="lync-server-2013-set-up-edge-certificates.md">Lync server 2013 の edge 証明書のセットアップ</A>」セクションで説明されているように、証明書の要求、割り当て、インストールのタスクを容易にする証明書ウィザードが含まれています。</span><span class="sxs-lookup"><span data-stu-id="576c0-112">When you install an Edge Server, setup includes a certificate wizard that facilitates the tasks of requesting, assigning, and installing certificates, as described in the <A href="lync-server-2013-set-up-edge-certificates.md">Set up Edge certificates for Lync Server 2013</A> section.</span></span> <span data-ttu-id="576c0-113">エッジサーバーをインストールする前に証明書を要求する場合 (たとえば、エッジサーバーコンポーネントの実際の展開中に時間を節約する場合など)、証明書がエクスポート可能であり、すべての必須の件名の代替名。</span><span class="sxs-lookup"><span data-stu-id="576c0-113">If you want to request certificates prior to installing an Edge Server (such as to save time during actual deployment of Edge Server components), you can do so using internal servers as long as you ensure that the certificates are exportable and contain all of the required subject alternative names.</span></span> <span data-ttu-id="576c0-114">このドキュメントでは、内部サーバーを使用して証明書を要求する手順は説明していません。</span><span class="sxs-lookup"><span data-stu-id="576c0-114">This documentation does not provide procedures for using internal servers to request certificates.</span></span>
 
-エッジ サーバーの展開には、エッジ サーバーの外部インターフェイス用にパブリック証明書が 1 つ必要です。この証明書は、アクセス エッジ サービス、Web 会議エッジ サービス、および音声ビデオ認証サービスに使用されます。この証明書には、エクスポート可能な秘密キーが必要で、音声ビデオ認証サービスはプール内のすべての エッジ サーバーで同じキーを使用する必要があります。Microsoft Internet Security and Acceleration (ISA) Server 2006 や Microsoft Forefront Threat Management Gateway 2010 で使用されるリバース プロキシにも、パブリック証明書が必要です。
 
-## 証明書を内部エンタープライズ CA に要求する
 
-内部エッジ インターフェイスに必要な証明書は、パブリック証明機関 (CA) または内部 CA から発行されます。内部エンタープライズ CA を使用して、証明書のコストを最小限に抑えることができます。組織で内部 CA が展開されている場合、内部エッジの証明書は内部 CA から発行されます。内部証明書に内部エンタープライズ CA を使用すると、証明書のコストを削減できます。
+</div>
 
-エッジ コンポーネントの証明書要件の概要については、「[Lync Server 2013 における外部ユーザー アクセスに対する証明書要件](lync-server-2013-certificate-requirements-for-external-user-access.md)」を参照してください。パブリック CA を使用して証明書を取得する方法の詳細については、「[Lync Server 2013 でエッジ コンポーネントの証明書を要求する](lync-server-2013-request-certificates-for-edge-components.md)」を参照してください。証明書の要求、インストール、および割り当ての詳細については、「[Lync Server 2013 用のエッジ証明書のセットアップ](lync-server-2013-set-up-edge-certificates.md)」を参照してください。
+<div>
+
+## <a name="request-certificates-from-a-public-ca"></a><span data-ttu-id="576c0-115">パブリック CA から証明書を要求する</span><span class="sxs-lookup"><span data-stu-id="576c0-115">Request certificates from a public CA</span></span>
+
+<span data-ttu-id="576c0-116">エッジサーバーの展開には、アクセスエッジサービス、Web 会議エッジサービス、A/V 認証サービス用に使用されるエッジサーバーの外部インターフェイスに対して、1つの公開証明書が必要です。</span><span class="sxs-lookup"><span data-stu-id="576c0-116">Your Edge Server deployment requires a single public certificate for the external interfaces of Edge Servers, which is used for the Access Edge service, the Web Conferencing Edge service, and for A/V authentication service.</span></span> <span data-ttu-id="576c0-117">この証明書には、A/V 認証サービスがプール内のすべてのエッジサーバーで同じキーを使用するように、エクスポート可能な秘密キーが必要です。</span><span class="sxs-lookup"><span data-stu-id="576c0-117">This certificate must have an exportable private key to ensure that the A/V authentication service uses the same keys on all Edge Servers in a pool.</span></span> <span data-ttu-id="576c0-118">リバースプロキシは、Microsoft インターネットセキュリティとアクセラレータ (ISA) サーバー2006または Microsoft Forefront Threat Management Gateway 2010 と共に使用されます。また、公開証明書も必要です。</span><span class="sxs-lookup"><span data-stu-id="576c0-118">The reverse proxy, which is used with Microsoft Internet Security and Acceleration (ISA) Server 2006 or Microsoft Forefront Threat Management Gateway 2010, also requires a public certificate.</span></span>
+
+</div>
+
+<div>
+
+## <a name="request-certificates-from-an-internal-enterprise-ca"></a><span data-ttu-id="576c0-119">社内のエンタープライズ CA から証明書を要求する</span><span class="sxs-lookup"><span data-stu-id="576c0-119">Request certificates from an internal Enterprise CA</span></span>
+
+<span data-ttu-id="576c0-120">内部エッジインターフェイスに必要な証明書は、公開証明機関 (CA) または内部 CA のいずれかによって発行できます。</span><span class="sxs-lookup"><span data-stu-id="576c0-120">The certificates required for the internal edge interface can be issued by either a public certification authority (CA) or an internal CA.</span></span> <span data-ttu-id="576c0-121">社内のエンタープライズ CA を使用して、証明書のコストを最小限に抑えることができます。</span><span class="sxs-lookup"><span data-stu-id="576c0-121">You can use an internal enterprise CA to help minimize the cost of certificates.</span></span> <span data-ttu-id="576c0-122">組織に内部 CA が展開されている場合、内部境界の証明書は、内部 CA によって発行される必要があります。</span><span class="sxs-lookup"><span data-stu-id="576c0-122">If your organization has an internal CA deployed, the certificates for the internal edge should be issued by the internal CA.</span></span> <span data-ttu-id="576c0-123">内部のエンタープライズ CA を内部証明書に使用すると、証明書のコストを削減できます。</span><span class="sxs-lookup"><span data-stu-id="576c0-123">Using an internal enterprise CA for internal certificates can reduce the cost of certificates.</span></span>
+
+<span data-ttu-id="576c0-124">エッジコンポーネントの証明書の要件の概要については、「 [Lync Server 2013 での外部ユーザーアクセスの証明書の要件](lync-server-2013-certificate-requirements-for-external-user-access.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="576c0-124">For a summary of certificate requirements for edge components, see [Certificate requirements for external user access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).</span></span> <span data-ttu-id="576c0-125">パブリック CA を使用して証明書を取得する方法について詳しくは、「 [Lync Server 2013 でエッジコンポーネントの証明書を要求](lync-server-2013-request-certificates-for-edge-components.md)する」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="576c0-125">For details about using a public CA to obtain certificates, see [Request certificates for edge components in Lync Server 2013](lync-server-2013-request-certificates-for-edge-components.md).</span></span> <span data-ttu-id="576c0-126">証明書の要求、インストール、割り当ての詳細については、「 [Lync Server 2013 での Edge 証明書のセットアップ](lync-server-2013-set-up-edge-certificates.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="576c0-126">For details about requesting, installing, and assigning certificates, see [Set up Edge certificates for Lync Server 2013](lync-server-2013-set-up-edge-certificates.md).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

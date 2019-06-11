@@ -1,40 +1,75 @@
-﻿---
-title: 監視ノードの管理
-TOCTitle: 監視ノードの管理
-ms:assetid: 66deaf49-a71f-4a6e-ada0-ea8b688ee921
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688078(v=OCS.15)
-ms:contentKeyID: 49886982
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ウォッチャーノードの管理'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing watcher nodes
+ms:assetid: 66deaf49-a71f-4a6e-ada0-ea8b688ee921
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688078(v=OCS.15)
+ms:contentKeyID: 49733674
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e7edddd1a1bb67dc4bf3df5b7809aa76b2397e56
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827642"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 監視ノードの管理
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-20_
+# <a name="managing-watcher-nodes-in-lync-server-2013"></a><span data-ttu-id="e4665-102">Lync Server 2013 でのウォッチャーノードの管理</span><span class="sxs-lookup"><span data-stu-id="e4665-102">Managing watcher nodes in Lync Server 2013</span></span>
 
-監視ノードで実行される代理トランザクションの変更に加え、管理者は **Set-CsWatcherNodeConfiguration** コマンドレットを使用して、監視ノードを有効化または無効化すること、およびテストの実行時に内部 URL または外部 URL を使用するように監視ノードを構成すること、という 2 つの重要なタスクも実行できます。
+</div>
 
-既定では、監視ノードは、すべての有効な代理トランザクションを定期的に実行するように設計されています。ただし、これらのトランザクションの中断が必要な場合があります。たとえば、監視ノードを一時的にネットワークから切り離す場合は、代理トランザクションを実行する理由がありません。ネットワーク接続がなければ、これらのトランザクションは必ず失敗します。監視ノードを一時的に無効にする場合は、Lync Server 管理シェルから次のようなコマンドを実行します。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e4665-103">_**最終更新日:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="e4665-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+
+<span data-ttu-id="e4665-104">ウォッチャーノードで実行される代理トランザクションの変更に加えて、管理者は、 **CsWatcherNodeConfiguration**コマンドレットを使用して、他の2つの重要なタスク (ウォッチャーノードの有効化と無効化) を実行することもできます。テストを実行するときに、内部 Url または外部 Url のいずれかを使用するようにウォッチャーノードを構成します。</span><span class="sxs-lookup"><span data-stu-id="e4665-104">In addition to modifying the synthetic transactions that are executed on a watcher node, administrators can also use the **Set-CsWatcherNodeConfiguration** cmdlet to carry out two other important tasks: enabling and disabling the watcher node, and configuring the watcher node to use either internal URLs or external URLs when running its tests.</span></span>
+
+<span data-ttu-id="e4665-105">既定では、監視ノードは、すべての有効な代理トランザクションを定期的に実行するように設計されています。</span><span class="sxs-lookup"><span data-stu-id="e4665-105">By default, watcher nodes are designed to periodically run all their enabled synthetic transactions.</span></span> <span data-ttu-id="e4665-106">ただし、場合によっては、それらのトランザクションを中断する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e4665-106">Sometimes, however, you may need to suspend those transactions.</span></span> <span data-ttu-id="e4665-107">たとえば、監視ノードを一時的にネットワークから切り離す場合は、代理トランザクションを実行する理由がありません。</span><span class="sxs-lookup"><span data-stu-id="e4665-107">For example, if the watcher node is temporarily disconnected from the network, then there is no reason to run the synthetic transactions.</span></span> <span data-ttu-id="e4665-108">ネットワーク接続されていない場合、これらのトランザクションは確実に失敗します。</span><span class="sxs-lookup"><span data-stu-id="e4665-108">Without network connectivity, those transactions are guaranteed to fail.</span></span> <span data-ttu-id="e4665-109">ウォッチャーノードを一時的に無効にする場合は、次のようなコマンドを Lync Server 管理シェルから実行します。</span><span class="sxs-lookup"><span data-stu-id="e4665-109">If you want to temporarily disable a watcher node, run a command similar to this from the Lync Server Management Shell:</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 
-このコマンドは、監視ノード atl-watcher- 001.litwareinc.com での代理トランザクションの実行を無効にします。代理トランザクションの実行を再開するには、Enabled プロパティを True ($True) に戻します。
+<span data-ttu-id="e4665-110">このコマンドは、watcher ノードの001.litwareinc.com での代理トランザクションの実行を無効にします。</span><span class="sxs-lookup"><span data-stu-id="e4665-110">This command will disable the execution of synthetic transactions on the watcher node atl-watcher- 001.litwareinc.com.</span></span> <span data-ttu-id="e4665-111">代理トランザクションの実行を再開するには、Enabled プロパティを True ($True) に戻します。</span><span class="sxs-lookup"><span data-stu-id="e4665-111">To resume execution of the synthetic transactions, set the Enabled property back to True ($True):</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
-> [!NOTE]  
-> Enabled プロパティを使用して監視ノードをオンまたはオフにできます。監視ノードを完全に削除する場合は、<strong>Remove-CsWatcherNodeConfiguration</strong> コマンドレットを使用します。<br />
-> Remove-CsWatcherNodeConfiguration –Identity &quot;atl-watcher-001.litwareinc.com&quot;<br />
-> このコマンドは、指定されたコンピューターからすべての監視ノード構成設定を削除します。これにより、代理トランザクションの自動的な実行が停止します。ただし、このコマンドは、System Center エージェント ファイルまたは Lync Server 2013 システム ファイルをアンインストールしません。
+<div>
 
-既定では、監視ノードは、テストを実行するときに組織の外部 URL を使用します。ただし、監視ノードは、組織の内部 URL を使用するように構成することもできます。これにより、管理者は、境界ネットワーク内に配置されたユーザーの URL アクセスを検証できます。監視ノードを外部 URL ではなく内部 URL を使用するように構成するには、UseInternalWebUrls プロパティを True ($True) に設定します。
+
+> [!NOTE]  
+> <span data-ttu-id="e4665-p103">Enabled プロパティを使用して監視ノードをオンまたはオフにできます。監視ノードを完全に削除する場合は、<STRONG>Remove-CsWatcherNodeConfiguration</STRONG> コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="e4665-p103">The Enabled property can be used to turn watcher nodes on or off. If you want to permanently delete a watcher node, use the <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> cmdlet:</span></span><BR><span data-ttu-id="e4665-114">Remove-CsWatcherNodeConfiguration – Identity "atl-watcher-001.litwareinc.com"</span><span class="sxs-lookup"><span data-stu-id="e4665-114">Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"</span></span><BR><span data-ttu-id="e4665-115">このコマンドは、指定されたコンピューターからすべてのウォッチャーノードの構成設定を削除します。これにより、コンピューターで代理トランザクションが自動的に実行されることはなくなります。</span><span class="sxs-lookup"><span data-stu-id="e4665-115">That command removes all the watcher node configuration settings from the specified computer, which prevents the computer from automatically running synthetic transactions.</span></span> <span data-ttu-id="e4665-116">ただし、このコマンドを実行しても、System Center agent ファイルまたは Lync Server 2013 のシステムファイルはアンインストールされません。</span><span class="sxs-lookup"><span data-stu-id="e4665-116">However, the command does not uninstall the System Center agent files or the Lync Server 2013 system files.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="e4665-117">既定では、ウォッチャーノードでは、テストを実施するときに、組織の外部 Url が使用されます。</span><span class="sxs-lookup"><span data-stu-id="e4665-117">By default, watcher nodes use an organization's external URLs when conducting their tests.</span></span> <span data-ttu-id="e4665-118">ただし、組織の内部 Url を使用するようにウォッチャーノードを構成することもできます。</span><span class="sxs-lookup"><span data-stu-id="e4665-118">However, watcher nodes can also be configured to use the organization's internal URLs.</span></span> <span data-ttu-id="e4665-119">これにより、管理者は、境界ネットワーク内に配置されたユーザーの URL アクセスを検証できます。</span><span class="sxs-lookup"><span data-stu-id="e4665-119">This enables administrators to verify URL access for users located inside the perimeter network.</span></span> <span data-ttu-id="e4665-120">外部 Url の代わりに内部 Url を使用するようにウォッチャーノードを構成するには、UseInternalWebUrls プロパティを True ($True) に設定します。</span><span class="sxs-lookup"><span data-stu-id="e4665-120">To configure a watcher node to use internal URLs instead of external URLs, set the UseInternalWebUrls property to True ($True):</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 
-このプロパティを既定値である False ($False) にリセットすると、監視ノードは外部 URL を使用します。
+<span data-ttu-id="e4665-121">このプロパティを既定値の False ($False) にリセットすると、ウォッチャーは外部 Url を使用します。</span><span class="sxs-lookup"><span data-stu-id="e4665-121">If you reset this property to the default value of False ($False), the watcher will then use the external URLs:</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

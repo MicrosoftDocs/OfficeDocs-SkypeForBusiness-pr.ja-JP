@@ -1,35 +1,69 @@
-﻿---
-title: 'Lync Server 2013: 組織の SIP フェデレーション プロバイダーの管理'
-TOCTitle: 組織の SIP フェデレーション プロバイダーの管理
-ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ552455(v=OCS.15)
-ms:contentKeyID: 49115245
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 組織の SIP フェデレーション プロバイダーの管理'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage SIP federated providers for your organization
+ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
+ms:contentKeyID: 48679566
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4a5716c6f5af1674e2d597c25b7476154af2fbc3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828237"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での組織の SIP フェデレーション プロバイダーの管理
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-19_
+# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a><span data-ttu-id="910a1-102">Lync Server 2013 での組織の SIP フェデレーション プロバイダーの管理</span><span class="sxs-lookup"><span data-stu-id="910a1-102">Manage SIP federated providers for your organization in Lync Server 2013</span></span>
 
-このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
+</div>
 
-SIP フェデレーション プロバイダーのユーザーのサポートを構成するには、次の操作を行う必要があります。
+<div id="mainSection">
 
-  - 1 つ以上の外部ユーザー アクセス ポリシーを構成して、SIP フェデレーション プロバイダーの連絡先との通信をサポートします。
+<div id="mainBody">
 
-  - サポートの対象となるホストされるプロバイダーを指定します。
+<span> </span>
 
-  - サポートの対象となるパブリック IM プロバイダーを指定します。
+<span data-ttu-id="910a1-103">_**最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="910a1-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-これらのタスクを実行するには、このセクションの手順を使用します。
+<span data-ttu-id="910a1-104">このドキュメントは暫定版であり、変更される可能性があります。</span><span class="sxs-lookup"><span data-stu-id="910a1-104">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="910a1-105">空白のトピックがプレースホルダーとして含まれています。</span><span class="sxs-lookup"><span data-stu-id="910a1-105">Blank topics are included as placeholders.</span></span>
 
-## このセクション中
+<span data-ttu-id="910a1-106">SIP フェデレーションプロバイダーのユーザー向けのサポートを構成するには、次の手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="910a1-106">To configure support for users of SIP federated providers, you need to do the following:</span></span>
 
-  - [Lync Server 2013 での公開 SIP フェデレーション プロバイダーの作成または編集](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
+  - <span data-ttu-id="910a1-107">SIP フェデレーションプロバイダの連絡先との通信をサポートするように1つ以上の外部ユーザーアクセスポリシーを構成する</span><span class="sxs-lookup"><span data-stu-id="910a1-107">Configure one or more external user access policies to support communicating with SIP federated provider contacts</span></span>
 
-  - [Lync Server 2013 でのホスト SIP フェデレーション プロバイダーの作成または編集](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+  - <span data-ttu-id="910a1-108">サポートするホストされているプロバイダーを指定する</span><span class="sxs-lookup"><span data-stu-id="910a1-108">Specify which hosted providers you want to support</span></span>
+
+  - <span data-ttu-id="910a1-109">サポートするパブリック IM プロバイダーを指定する</span><span class="sxs-lookup"><span data-stu-id="910a1-109">Specify which public IM providers you want to support</span></span>
+
+<span data-ttu-id="910a1-110">これらのタスクを実行するには、このセクションの手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="910a1-110">To perform these tasks, use the procedures in this section.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="910a1-111">このセクション中</span><span class="sxs-lookup"><span data-stu-id="910a1-111">In This Section</span></span>
+
+  - [<span data-ttu-id="910a1-112">Lync Server 2013 での公開 SIP フェデレーション プロバイダーの作成または編集</span><span class="sxs-lookup"><span data-stu-id="910a1-112">Create or edit public SIP federated providers in Lync Server 2013</span></span>](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
+
+  - [<span data-ttu-id="910a1-113">Lync Server 2013 でのホスト SIP フェデレーション プロバイダーの作成または編集</span><span class="sxs-lookup"><span data-stu-id="910a1-113">Create or edit hosted SIP federated providers Lync Server 2013</span></span>](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,49 +1,85 @@
-﻿---
-title: 'Lync Server 2013: ELIN ゲートウェイを使用した E9-1-1 通話のルーティング'
-TOCTitle: ELIN ゲートウェイを使用した E9-1-1 通話のルーティング
-ms:assetid: 5a3997e3-898d-49cb-922a-4184c3373350
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204919(v=OCS.15)
-ms:contentKeyID: 48272170
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ELIN ゲートウェイを使用した E9-1-1 通話のルーティング'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Routing E9-1-1 calls by using an ELIN gateway
+ms:assetid: 5a3997e3-898d-49cb-922a-4184c3373350
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204919(v=OCS.15)
+ms:contentKeyID: 48184221
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cdb4b5879f92da79e8a6ec96f61e24fbe182c028
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822294"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での ELIN ゲートウェイを使用した E9-1-1 通話のルーティング
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a><span data-ttu-id="4c339-102">Lync Server 2013 での ELIN ゲートウェイを使用した E9-1-1 通話のルーティング</span><span class="sxs-lookup"><span data-stu-id="4c339-102">Routing E9-1-1 calls by using an ELIN gateway in Lync Server 2013</span></span>
 
-統合コミュニケーション オープン相互運用性プログラムの一部のパートナーは、認定 E9-1-1 サービス プロバイダーへの SIP トランク接続の代替として機能する、緊急位置識別番号 (ELIN) 対応の認定ゲートウェイを提供しています。ELIN ゲートウェイは、公衆交換電話網 (PSTN) ベースの E9-1-1 サービスへの ISDN 接続または Centralized Automatic Message Accounting (CAMA) 接続をサポートします。ELIN ゲートウェイを提供しているパートナーの詳細と、そのドキュメントへのリンクについては、[http://go.microsoft.com/fwlink/p/?LinkId=248425](http://go.microsoft.com/fwlink/?linkid=248425) を参照してください。
+</div>
 
-E9-1-1 サービス プロバイダーへの SIP トランク接続と同様に、ELIN ゲートウェイでも緊急通話を発信者の最適な緊急応答機関 (PSAP) にルーティングできます。ただし、これらのゲートウェイでは場所 ID として ELIN を使用します。組織内の緊急応答ロケーション (ERL) ごとに ELIN を定義します (詳細については、「[Lync Server 2013 での ELIN ゲートウェイの場所の管理](lync-server-2013-managing-locations-for-elin-gateways.md)」を参照してください)。
+<div id="mainSection">
 
-緊急通話に ELIN ゲートウェイを使用する場合、SIP トランク接続に使用する Lync Server E9-1-1 インフラストラクチャを使用します。つまり、場所情報サービス データベースによって Lync Server クライアントに場所が提供され、場所ポリシーによって機能が有効になり、ルーティングが定義されます。ただし、ELIN ゲートウェイを使用する場合は、ELIN を 場所情報サービス データベースに追加する必要があり、PSTN 通信事業者がそれらの ELIN を自動ロケーション識別 (ALI) データベースにアップロードする必要があります。
+<div id="mainBody">
 
-Lync クライアントが 場所情報サービスから場所を取得すると、その場所には ELIN が含まれています。緊急通話時には、ELIN ゲートウェイに送信される場所に ELIN が含まれています。ELIN ゲートウェイは通話を緊急通話と見なすと、発信者の番号を ELIN に置き換えます。その後、ELIN を発信番号として、通話を PSTN にルーティングします。PSTN E9-1-1 プロバイダーは、主要道路住所案内 (MSAG) データベースのコンパニオン データベースである ALI データベースで ELIN を検索します。PSTN が ALI 検索に基づいて最適な PSAP に通話を送信すると、PSAP は ALI 検索に基づいて発信者の場所に最初の対応員を送ります。発信番号は、コールバック用に事前定義された時間だけ ELIN ゲートウェイ上にキャッシュされます。コールバック時に、PSAP が ELIN ゲートウェイに到達すると、ELIN が発信者の Direct Inward Dialing (DID) 番号に置き換えられます。
+<span> </span>
 
-ELIN ゲートウェイがサポートするのは、組織のネットワーク内からの緊急通話だけです。ネットワーク外からの緊急通話はサポートされません。
+<span data-ttu-id="4c339-103">_**最終更新日:** 2013-02-05_</span><span class="sxs-lookup"><span data-stu-id="4c339-103">_**Topic Last Modified:** 2013-02-05_</span></span>
 
-> [!NOTE]
-> 緊急通話に SIP トランク接続を使用する方法の詳細については、「<a href="lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md">Lync Server 2013 での SIP トランクを使用した E9-1-1 通話のルーティング</a>」を参照してください。
+<span data-ttu-id="4c339-104">統合コミュニケーション オープン相互運用性プログラムの一部のパートナーは、認定 E9-1-1 サービス プロバイダーへの SIP トランク接続の代替として機能する、緊急位置識別番号 (ELIN) 対応の認定ゲートウェイを提供しています。</span><span class="sxs-lookup"><span data-stu-id="4c339-104">Some partners in the Unified Communications Open Interoperability Program provide qualified Emergency Location Identification Number (ELIN)-capable gateways, which can serve as an alternative to a SIP trunk connection to a qualified E9-1-1 service provider.</span></span> <span data-ttu-id="4c339-105">ELIN ゲートウェイは、公衆交換電話網 (PSTN) ベースの E9-1-1 サービスへの ISDN 接続または Centralized Automatic Message Accounting (CAMA) 接続をサポートします。</span><span class="sxs-lookup"><span data-stu-id="4c339-105">ELIN gateways support ISDN or Centralized Automatic Message Accounting (CAMA) connectivity to public switched telephone network (PSTN)-based E9-1-1 services.</span></span> <span data-ttu-id="4c339-106">ELIN ゲートウェイとそのドキュメントへのリンクを提供するパートナーの詳細に[http://go.microsoft.com/fwlink/p/?LinkId=248425](http://go.microsoft.com/fwlink/p/?linkid=248425)ついては、を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4c339-106">For details about partners who provide ELIN gateways and links to their documentation, see [http://go.microsoft.com/fwlink/p/?LinkId=248425](http://go.microsoft.com/fwlink/p/?linkid=248425).</span></span>
+
+<span data-ttu-id="4c339-107">E9 サービスプロバイダへの SIP トランク接続と同様、ELIN ゲートウェイでも、呼び出し元の最も適したパブリック安全応答ポイント (PSAP) に緊急通話をルーティングする手段が提供されていますが、これらのゲートウェイは、場所識別子として ELIN を使います。</span><span class="sxs-lookup"><span data-stu-id="4c339-107">Like SIP trunk connections to E9-1-1 service providers, ELIN gateways also provide the means of routing an emergency call to the caller's most appropriate Public Safety Answering Point (PSAP), but these gateways use an ELIN as the location identifier.</span></span> <span data-ttu-id="4c339-108">組織の緊急対応の場所 (ERL) ごとに ELINs を定義します (詳細については、「 [Lync Server 2013 で ELIN ゲートウェイの場所を管理](lync-server-2013-managing-locations-for-elin-gateways.md)する」を参照してください)。</span><span class="sxs-lookup"><span data-stu-id="4c339-108">You define ELINs for each Emergency Response Location (ERL) in your organization (for details, see [Managing locations for ELIN gateways in Lync Server 2013](lync-server-2013-managing-locations-for-elin-gateways.md)).</span></span>
+
+<span data-ttu-id="4c339-109">緊急通話に ELIN ゲートウェイを使用する場合、SIP トランク接続に使用するのと同じ Lync Server E9 1-1 インフラストラクチャを使用します。</span><span class="sxs-lookup"><span data-stu-id="4c339-109">When you use an ELIN gateway for emergency calls, you use the same Lync Server E9-1-1 infrastructure that you would use for a SIP trunk connection.</span></span> <span data-ttu-id="4c339-110">つまり、場所情報サービスデータベースによって Lync Server クライアントへの場所が提供され、場所のポリシーによって機能が有効になり、ルーティングが定義されます。</span><span class="sxs-lookup"><span data-stu-id="4c339-110">That is, the Location Information service database provides the location to the Lync Server client, and the location policy enables the feature and defines the routing.</span></span> <span data-ttu-id="4c339-111">ただし、ELIN gateway では、場所情報サービスデータベースに ELINs を追加して、PSTN キャリアが自動位置情報認識 (ALI) データベースにアップロードする必要があります。</span><span class="sxs-lookup"><span data-stu-id="4c339-111">With an ELIN gateway, however, you need to add the ELINs to the Location Information service database and have your PSTN carrier upload them to the Automatic Location Identification (ALI) database.</span></span>
+
+<span data-ttu-id="4c339-112">Lync クライアントが位置情報サービスから場所を取得すると、場所に ELIN が含まれます。</span><span class="sxs-lookup"><span data-stu-id="4c339-112">When a Lync client obtains its location from the Location Information service, the location includes the ELIN.</span></span> <span data-ttu-id="4c339-113">緊急通話時には、ELIN ゲートウェイに送信される場所に ELIN が含まれています。</span><span class="sxs-lookup"><span data-stu-id="4c339-113">During an emergency call, the ELIN is included with the location sent to the ELIN gateway.</span></span> <span data-ttu-id="4c339-114">ELIN ゲートウェイは通話を緊急通話と見なすと、発信者の番号を ELIN に置き換えます。</span><span class="sxs-lookup"><span data-stu-id="4c339-114">The ELIN gateway identifies the call as an emergency call and swaps the calling party's number with the ELIN.</span></span> <span data-ttu-id="4c339-115">その後、ELIN を発信番号として、通話を PSTN にルーティングします。</span><span class="sxs-lookup"><span data-stu-id="4c339-115">The ELIN gateway then routes the call to the PSTN with the ELIN as the calling number.</span></span> <span data-ttu-id="4c339-116">PSTN E9-1-1 プロバイダーは、主要道路住所案内 (MSAG) データベースのコンパニオン データベースである ALI データベースで ELIN を検索します。</span><span class="sxs-lookup"><span data-stu-id="4c339-116">The PSTN E9-1-1 provider looks up the ELIN in the ALI database, which is a companion database to the Master Street Address Guide (MSAG) database.</span></span> <span data-ttu-id="4c339-117">PSTN が ALI 検索に基づいて最適な PSAP に通話を送信すると、PSAP は ALI 検索に基づいて発信者の場所に最初の対応員を送ります。</span><span class="sxs-lookup"><span data-stu-id="4c339-117">The PSTN then sends the call to the most appropriate PSAP based on the ALI lookup, and the PSAP sends first responders to the caller's location based on the ALI lookup.</span></span> <span data-ttu-id="4c339-118">発信番号は、コールバック用に事前定義された時間だけ ELIN ゲートウェイ上にキャッシュされます。</span><span class="sxs-lookup"><span data-stu-id="4c339-118">The calling number is cached on the ELIN gateway for a predefined amount of time for callbacks.</span></span> <span data-ttu-id="4c339-119">コールバック時に、PSAP が ELIN ゲートウェイに到達すると、ELIN が発信者の Direct Inward Dialing (DID) 番号に置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="4c339-119">During a callback, the PSAP reaches the ELIN gateway, which swaps the ELIN for the caller's direct inward dialing (DID) number.</span></span>
+
+<span data-ttu-id="4c339-120">ELIN ゲートウェイがサポートするのは、組織のネットワーク内からの緊急通話だけです。</span><span class="sxs-lookup"><span data-stu-id="4c339-120">ELIN gateways support emergency calls only from within your organization's network.</span></span> <span data-ttu-id="4c339-121">ネットワーク外からの緊急通話はサポートされません。</span><span class="sxs-lookup"><span data-stu-id="4c339-121">They do not support emergency calls made from outside your network.</span></span>
+
+<div>
 
 
-次の図は、ELIN ゲートウェイを使用する場合に、緊急通話が Lync Server から PSAP にルーティングされるしくみを示しています。
+> [!NOTE]  
+> <span data-ttu-id="4c339-122">緊急通話に SIP トランク接続を使用する方法について詳しくは、「 <A href="lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md">Lync Server 2013 で sip トランクを使用して E9 通話を転送</A>する」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="4c339-122">For details about using a SIP trunk connection for emergency calls, see <A href="lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md">Routing E9-1-1 calls by using a SIP trunk in Lync Server 2013</A>.</span></span>
 
-**ELIN ゲートウェイを使用した E9-1-1 通話のルーティング**
 
-![ELIN 通話ルーティング](images/JJ204919.ea68f88a-0fc4-43d4-9660-79a7e8936df1(OCS.15).jpg "ELIN 通話ルーティング")
 
-1.  場所、発信者のコールバック番号、および通知 URL と会議コールバック番号 (オプション) を含む SIP INVITE が Lync Server にルーティングされます。
+</div>
 
-2.  Lync Server は緊急番号を照合し、(該当する場所ポリシーで定義されている \[**PSTN 使用法**\] の値に基づいて) 仲介サーバー経由で ELIN ゲートウェイに通話をルーティングします。
+<span data-ttu-id="4c339-123">次の図は、ELIN gateway を使用しているときに、緊急通話が Lync Server から PSAP にルーティングされる方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="4c339-123">The following diagram shows how an emergency call is routed from Lync Server to the PSAP when you use an ELIN gateway.</span></span>
 
-3.  ELIN ゲートウェイは、ISDN または CAMA トランク経由で PSTN に通話をルーティングします。
+<span data-ttu-id="4c339-124">**ELIN ゲートウェイを使用した E9-1-1 通話のルーティング**</span><span class="sxs-lookup"><span data-stu-id="4c339-124">**Routing E9-1-1 calls with an ELIN gateway**</span></span>
 
-4.  PSTN は通話を緊急通話と見なし、ネットワーク内で選択された E9-1-1 ルーターに通話をルーティングします。E9-1-1 ルーターは、ALI データベースで発信者の番号を検索して地理的な場所を取得します。E9-1-1 ルーターは、ALI データベースから取得した場所情報に基づいて最適な PSAP に通話を送信します。
+<span data-ttu-id="4c339-125">![ea68f88a-0fc4-43d4-9660-79a7e8936df1](images/JJ204919.ea68f88a-0fc4-43d4-9660-79a7e8936df1(OCS.15).jpg "ea68f88a-0fc4-43d4-9660-79a7e8936df1")</span><span class="sxs-lookup"><span data-stu-id="4c339-125">![ea68f88a-0fc4-43d4-9660-79a7e8936df1](images/JJ204919.ea68f88a-0fc4-43d4-9660-79a7e8936df1(OCS.15).jpg "ea68f88a-0fc4-43d4-9660-79a7e8936df1")</span></span>
 
-5.  場所ポリシーを通知用に構成した場合、組織の 1 人以上のセキュリティ担当者に特別な Lync 緊急通知インスタント メッセージが送信されます。このメッセージはセキュリティ担当者の画面に必ずポップアップ表示され、そこには発信者の名前、電話番号、時刻、および場所も含まれているので、セキュリティ担当者はインスタント メッセージまたは音声によってその緊急通話発信者に迅速に応答できます。
+1.  <span data-ttu-id="4c339-126">場所、発信者のコールバック番号、(オプション) 通知 URL と会議のコールバック番号を含む SIP 招待は、Lync Server にルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="4c339-126">A SIP INVITE containing the location, the caller's callback number, and the (optional) Notification URL and conference callback number is routed to Lync Server.</span></span>
 
-6.  通話が途切れた場合、PSAP は ELIN を使用して発信者に直接連絡します。ELIN ゲートウェイは、ELIN を発信者の DID に置き換えます。
+2.  <span data-ttu-id="4c339-127">Lync Server は緊急電話番号と一致し、(該当する場所のポリシーで定義されている**PSTN 使用量**の値に基づく) 通話を仲介サーバーにルーティングし、そこから ELIN ゲートウェイに転送します。</span><span class="sxs-lookup"><span data-stu-id="4c339-127">Lync Server matches the emergency number and then routes the call (based on the **PSTN Usage** value defined in the applicable location policy) to a Mediation Server, and from there to an ELIN gateway.</span></span>
+
+3.  <span data-ttu-id="4c339-128">ELIN ゲートウェイは、ISDN または CAMA トランク経由で PSTN に通話をルーティングします。</span><span class="sxs-lookup"><span data-stu-id="4c339-128">The ELIN gateway routes the call over an ISDN or CAMA trunk to the PSTN.</span></span>
+
+4.  <span data-ttu-id="4c339-p106">PSTN は通話を緊急通話と見なし、ネットワーク内で選択された E9-1-1 ルーターに通話をルーティングします。E9-1-1 ルーターは、ALI データベースで発信者の番号を検索して地理的な場所を取得します。E9-1-1 ルーターは、ALI データベースから取得した場所情報に基づいて最適な PSAP に通話を送信します。 </span><span class="sxs-lookup"><span data-stu-id="4c339-p106">The PSTN identifies the call as an emergency call and routes it to an E9-1-1 selective router in the network. The E9-1-1 selective router looks up the caller's number in the ALI database to obtain the geographical location. The E9-1-1 selective router sends the call to the most appropriate PSAP based on the location information that was retrieved from the ALI database.</span></span>
+
+5.  <span data-ttu-id="4c339-132">通知の場所のポリシーを構成している場合は、1つ以上の組織のセキュリティ責任者に、Lync 緊急通報に関する特別な通知のインスタントメッセージが送信されます。</span><span class="sxs-lookup"><span data-stu-id="4c339-132">If you configured the location policy for notifications, one or more of your organization’s security officers are sent a special Lync emergency notification instant message.</span></span> <span data-ttu-id="4c339-133">このメッセージはセキュリティ担当者の画面に必ずポップアップ表示され、そこには発信者の名前、電話番号、時刻、および場所も含まれているので、セキュリティ担当者はインスタント メッセージまたは音声によってその緊急通話発信者に迅速に応答できます。</span><span class="sxs-lookup"><span data-stu-id="4c339-133">This message always pops up on the security officers’ screen(s) and contains the caller’s name, phone number, time, and location, enabling security personnel to quickly respond to the emergency caller by using an instant message or voice.</span></span>
+
+6.  <span data-ttu-id="4c339-p108">通話が途切れた場合、PSAP は ELIN を使用して発信者に直接連絡します。ELIN ゲートウェイは、ELIN を発信者の DID に置き換えます。</span><span class="sxs-lookup"><span data-stu-id="4c339-p108">If the call is broken prematurely, the PSAP uses the ELIN to contact the caller directly. The ELIN gateway swaps the ELIN for the caller's DID.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,27 +1,57 @@
-﻿---
-title: スケーラビリティのテスト
-TOCTitle: スケーラビリティのテスト
-ms:assetid: bf41bac6-d4ec-4de6-9a44-a82d01a87279
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205226(v=OCS.15)
-ms:contentKeyID: 48273431
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 のスケーラビリティテスト
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scalability testing
+ms:assetid: bf41bac6-d4ec-4de6-9a44-a82d01a87279
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205226(v=OCS.15)
+ms:contentKeyID: 48185289
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f454ad3d78affb7106bcd0e750adae13624d9c9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822273"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# スケーラビリティのテスト
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-01_
+# <a name="scalability-testing-in-lync-server-2013"></a><span data-ttu-id="97700-102">Lync Server 2013 でのスケーラビリティのテスト</span><span class="sxs-lookup"><span data-stu-id="97700-102">Scalability testing in Lync Server 2013</span></span>
 
-Lync Server 2013 は、インスタント メッセージング (IM) とプレゼンス、会議、エンタープライズ VoIP など、Lync Server のすべてのリアルタイムの通信を扱うサーバー インフラストラクチャを提供します。これには、Lync Server 2013 プールのハードウェア リソースを使用するあらゆる機能が含まれるため、パフォーマンスとスケールに影響します。すべての組織がすべての機能を同じように使用するわけではありません。
+</div>
 
-たとえば、電話会議にビデオを多用する組織もあれば、ビデオをほとんど使用しない組織もあります。アプリケーション共有よりも PowerPoint スライドの共有を好む組織もあれば、その逆の組織もあります。エンタープライズ VoIP を展開する組織の中にも、応答グループ アプリケーション を頻繁に使用する組織とそうでない組織があります。ほとんどの組織は 監視サーバー を展開しますが、アーカイブ サーバーを展開する組織はそう多くありません。さらに、ハードウェア容量、ネットワーク容量、展開されているプール数とプール サイズなど、すべての組織が同じインフラストラクチャを持っているわけではありません。このような機能とインフラストラクチャの多様性によって、スケーラビリティのテストは困難になります。機能とインフラストラクチャのあらゆる組み合わせをシミュレートすることは不可能です。
+<div id="mainSection">
 
-マイクロソフトでは、Lync Server に関するスケーラビリティのサポートを決定するために、平均的な使用モデル (ユーザー モデル) に基づいて、Lync Server のすべての機能を同時に使用することでテストを実施しています。また、Lync Server ワークロードの適切なユーザー モデルを決定するために、ユーザー調査、マイクロソフト カスタマー エクスペリエンス向上プログラムからのフィードバック、マイクロソフトの社内 IT 部門からの Lync Server 使用データ、Live Meeting サービスからマイニングされたデータを始めとする多数のデータ要素を分析します。多くの場合、組織内の使用に関して十分な余裕を持たせるために、ユーザー モデルは負荷が高い方向に偏っています。
+<div id="mainBody">
 
-マイクロソフトのスケーラビリティ テストでは、Active Directory ドメイン サービス などのインフラストラクチャ コンポーネント、ロード バランサー機器、ファイアウォールを含め、推奨されるハードウェアとソフトウェアの仕様に従って Lync Server 2013 プールをセットアップします。現実の典型的な環境にできるだけ近づけるように、Lync Server 環境をセットアップします。さらに、Lync Server 2013 Stress and Performance Tool を使用して、(ユーザー モデル) に基づく Lync Server 2013 の負荷をシミュレートします。
+<span> </span>
 
-スケーラビリティ テストは複数回繰り返します (3 週間にわたるテストの複数回の実行を含みます)。すべてのテスト結果を使用して、パフォーマンス チューニングに役立てるとともに、ユーザー モデルでのスケーラビリティの数値がサポートされることを検証します。
+<span data-ttu-id="97700-103">_**最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="97700-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+
+<span data-ttu-id="97700-104">Lync Server 2013 は、インスタントメッセージング (IM) とプレゼンス、会議、エンタープライズ Voip など、すべての Lync Server のリアルタイム通信のサーバーインフラストラクチャを提供します。</span><span class="sxs-lookup"><span data-stu-id="97700-104">Lync Server 2013 provides the server infrastructure for all Lync Server real-time communications, including instant messaging (IM) and presence, conferencing, and Enterprise Voice.</span></span> <span data-ttu-id="97700-105">これには、Lync Server 2013 プールのハードウェアリソースを使用するすべての機能が含まれます。そのため、パフォーマンスと規模が影響を受けます。</span><span class="sxs-lookup"><span data-stu-id="97700-105">This includes any features that use the hardware resources of a Lync Server 2013 pool and, therefore, affect performance and scale.</span></span> <span data-ttu-id="97700-106">すべての組織が同じ機能を使用するわけではありません。</span><span class="sxs-lookup"><span data-stu-id="97700-106">All organizations do not use all features equally.</span></span>
+
+<span data-ttu-id="97700-107">たとえば、一部の組織では、会議でビデオを頻繁に使用することもありますが、ビデオの使用量が少ない、またはまったくない場合もあります。</span><span class="sxs-lookup"><span data-stu-id="97700-107">For example, some organizations might use video in conferences very heavily while others might have little or no video usage.</span></span> <span data-ttu-id="97700-108">一部の組織では、PowerPoint スライドの共有をアプリケーション共有に適用していますが、その他の場合は反対のことを好みます。</span><span class="sxs-lookup"><span data-stu-id="97700-108">Some organizations prefer PowerPoint slide sharing to application sharing, while others prefer the opposite.</span></span> <span data-ttu-id="97700-109">エンタープライズボイスを展開する組織では、応答グループアプリケーションが多用されている可能性があります。</span><span class="sxs-lookup"><span data-stu-id="97700-109">Those organizations that deploy Enterprise Voice might or might not use the Response Group application heavily.</span></span> <span data-ttu-id="97700-110">ほとんどの組織では、監視サーバーを展開していますが、その多くはアーカイブサーバーを展開しています。</span><span class="sxs-lookup"><span data-stu-id="97700-110">Most organizations deploy Monitoring Servers, but not many of them deploy Archiving Servers.</span></span> <span data-ttu-id="97700-111">さらに、組織には、ハードウェアの容量、ネットワークの容量、プールの数、展開されているプールのサイズなど、同じインフラストラクチャが含まれているわけではありません。</span><span class="sxs-lookup"><span data-stu-id="97700-111">Additionally, organizations do not all have the same infrastructures, including hardware capacities, network capacities, and the number of pools and size of pools deployed.</span></span> <span data-ttu-id="97700-112">機能とインフラストラクチャの多様性は、スケーラビリティテストの課題となります。機能とインフラストラクチャのすべての可能な組み合わせをシミュレートすることはできません。</span><span class="sxs-lookup"><span data-stu-id="97700-112">The diversity of features and infrastructures poses a challenge to scalability testing – it is not possible to simulate all possible combinations of features and infrastructures.</span></span>
+
+<span data-ttu-id="97700-113">Lync Server のスケーラビリティのサポートを判断するには、平均的な利用モデル (ユーザーモデル) に基づいて、すべての Lync Server 機能を同時に使用してテストを実施します。</span><span class="sxs-lookup"><span data-stu-id="97700-113">To determine scalability support for Lync Server, we conduct testing by using all Lync Server features concurrently, based on an average usage model (user model).</span></span> <span data-ttu-id="97700-114">Lync Server のワークロードに適したユーザーモデルを決定するために、Microsoft の社内の IT 部門からのお客様のアンケート、Microsoft カスタマーエクスペリエンス向上プログラムからのフィードバック、Lync Server の使用状況データなど、さまざまなデータを分析します。また、skype Live Meeting サービスからデータを抽出します。</span><span class="sxs-lookup"><span data-stu-id="97700-114">To determine an appropriate user model for Lync Server workloads, we analyze many data points, including customer surveys, feedback from the Microsoft customer experience improvement program, Lync Server usage data from the internal IT department at Microsoft, and data mined from our Live Meeting Service.</span></span> <span data-ttu-id="97700-115">多くの場合、ユーザーモデルは、組織内での使用に適した余白を提供するために、負荷が高くなるようにバイアスしています。</span><span class="sxs-lookup"><span data-stu-id="97700-115">In many cases, the user model has a bias towards heavier loads to provide a comfortable margin for usage within an organization.</span></span>
+
+<span data-ttu-id="97700-116">Skype のスケーラビリティテストでは、Active Directory ドメインサービス、ハードウェアロードバランサー、ファイアウォールなどのインフラストラクチャコンポーネントなど、推奨されるハードウェアとソフトウェア仕様に従って Lync Server 2013 プールをセットアップします。</span><span class="sxs-lookup"><span data-stu-id="97700-116">In our scalability tests, we set up Lync Server 2013 pools according to the recommended hardware and software specifications, including infrastructure components, such as Active Directory Domain Services, hardware load balancers, and firewalls.</span></span> <span data-ttu-id="97700-117">Lync Server 環境は、実際の一般的な環境にできるだけ近づけるようにセットアップしています。</span><span class="sxs-lookup"><span data-stu-id="97700-117">We set up Lync Server environments as closely as possible to typical real-world environments.</span></span> <span data-ttu-id="97700-118">次に、Lync Server 2013 ストレス/パフォーマンスツールを使用して、Lync Server 2013 のロード (ユーザーモデルに基づく) をシミュレートします。</span><span class="sxs-lookup"><span data-stu-id="97700-118">We then use the Lync Server 2013 Stress and Performance Tool to simulate Lync Server 2013 loads (based on our user model).</span></span> <span data-ttu-id="97700-119">.</span><span class="sxs-lookup"><span data-stu-id="97700-119"></span></span>
+
+<span data-ttu-id="97700-120">スケーラビリティテスト (複数の3週間テストの実行を含む) を複数回繰り返します。</span><span class="sxs-lookup"><span data-stu-id="97700-120">We do multiple iterations of scalability tests (including multiple three-week test runs).</span></span> <span data-ttu-id="97700-121">すべてのテストの結果を使用して、パフォーマンスの調整を行い、ユーザーモデルのスケーラビリティ数のサポートを確認します。</span><span class="sxs-lookup"><span data-stu-id="97700-121">We use the results of all tests to help with performance tuning and to verify support for the scalability numbers in our user model.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

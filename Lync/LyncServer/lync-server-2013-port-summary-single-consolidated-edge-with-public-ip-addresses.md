@@ -1,153 +1,57 @@
-﻿---
-title: 'Lync Server 2013: ポートの概要 - パブリック IP アドレスを使用する単一の統合エッジ'
-TOCTitle: ポートの概要 - パブリック IP アドレスを使用する単一の統合エッジ
-ms:assetid: 28407acc-8b92-4f78-875c-fd6b4323b602
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204756(v=OCS.15)
-ms:contentKeyID: 48271622
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: ポートの概要 - パブリック IP アドレスを使用する単一の統合エッジ
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - Single consolidated edge with public IP addresses
+ms:assetid: 28407acc-8b92-4f78-875c-fd6b4323b602
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204756(v=OCS.15)
+ms:contentKeyID: 48183685
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7c1a61341908bef3a3098e70b06816bbf5ea328b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824240"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ポートの概要 - Lync Server 2013 でパブリック IP アドレスを使用する単一の統合エッジ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="port-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a><span data-ttu-id="b0852-102">ポートの概要 - Lync Server 2013 でパブリック IP アドレスを使用する単一の統合エッジ</span><span class="sxs-lookup"><span data-stu-id="b0852-102">Port summary - Single consolidated edge with public IP addresses in Lync Server 2013</span></span>
 
-このシナリオ アーキテクチャで説明されている Lync Server 2013エッジ サーバー機能は、 Lync Server 2010 で実装されていた機能とよく似ています。最も目を引くのは、XMPP (Extensible Messaging and Presence Protocol) 用の ポート **5269/TCP** エントリが追加されたことです。 Lync Server 2013 は、必要に応じて、XMPP プロキシを エッジ サーバーまたは エッジ プールに展開し、XMPP ゲートウェイ サーバーを フロント エンド サーバーまたは フロント エンド プールに展開します。リバース プロキシおよびフェデレーションの計画に関する情報は、それぞれ「 [Lync Server 2013 のリバース プロキシのシナリオ](lync-server-2013-scenarios-for-reverse-proxy.md)」および「 [Lync Server 2013 での SIP、XMPP フェデレーション、パブリック インスタント メッセージングの計画](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)」を参照してください。
+</div>
 
-エッジ サーバーでは、IPv4 に加えて IPv6 もサポートされるようになりました。わかりやすいように、シナリオでは IPv4 のみを使用します。
+<div id="mainSection">
 
-**パブリック IP アドレスを使用する単一の統合エッジのエンタープライズ境界ネットワーク**
+<div id="mainBody">
 
-![単一統合エッジ サーバー](images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "単一統合エッジ サーバー")
+<span> </span>
 
-## ポートとプロトコルの詳細
+<span data-ttu-id="b0852-103">_**最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="b0852-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-外部アクセスを提供する機能のサポートに必要なポートのみを開くことをお勧めします。
+<span data-ttu-id="b0852-104">このシナリオアーキテクチャで説明されている Lync Server 2013 のエッジサーバー機能は、Lync Server 2010 で実装されたものとよく似ています。</span><span class="sxs-lookup"><span data-stu-id="b0852-104">The Lync Server 2013, Edge Server functionality described in this scenario architecture is very similar to what was implemented in Lync Server 2010.</span></span> <span data-ttu-id="b0852-105">最も顕著な追加機能は、拡張メッセージングとプレゼンスプロトコル (XMPP) の TCP エントリのポート**5269**です。</span><span class="sxs-lookup"><span data-stu-id="b0852-105">The most noticeable addition is the port **5269 over TCP** entry for the extensible messaging and presence protocol (XMPP).</span></span> <span data-ttu-id="b0852-106">Lync Server 2013 では、必要に応じて、microsoft Edge サーバーまたはエッジプールに XMPP プロキシを展開し、フロントエンドサーバーまたはフロントエンドプールに XMPP ゲートウェイサーバーを配置します。</span><span class="sxs-lookup"><span data-stu-id="b0852-106">Lync Server 2013 optionally deploys an XMPP proxy on the Edge Server or Edge pool and the XMPP gateway server on the Front End Server or Front End pool.</span></span> <span data-ttu-id="b0852-107">リバースプロキシおよびフェデレーションの計画情報については、「 [lync server 2013 のリバースプロキシのシナリオ](lync-server-2013-scenarios-for-reverse-proxy.md)」および「 [lync server 2013 セクションでの SIP、xmpp フェデレーション、パブリックインスタントメッセージングの計画](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b0852-107">Planning information for the reverse proxy and federation are found in [Scenarios for reverse proxy in Lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md) and [Planning for SIP, XMPP federation, and public instant messaging in Lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md) sections, respectively.</span></span>
 
-エッジ サービスのリモート アクセスが機能するためには、受信/送信のエッジ トラフィックの図が示すように、SIP トラフィックの双方向通過が許可されていることが必須です。つまり、インスタント メッセージング (IM)、プレゼンス、Web 会議、音声ビデオ (A/V)、およびフェデレーションでは、アクセス エッジ サービスとの間で SIP メッセージングが実行されます。
+<span data-ttu-id="b0852-108">IPv4 に加えて、エッジサーバーは IPv6 をサポートするようになりました。</span><span class="sxs-lookup"><span data-stu-id="b0852-108">In addition to IPv4, the Edge Server now supports IPv6.</span></span> <span data-ttu-id="b0852-109">わかりやすくするために、シナリオでは IPv4 のみが使用されます。</span><span class="sxs-lookup"><span data-stu-id="b0852-109">For clarity, only IPv4 is used in the scenarios.</span></span>
 
-### パブリック IP アドレスを使用する単一の統合エッジのファイアウォールの概要: 外部インターフェイス
+<span data-ttu-id="b0852-110">**パブリック IP アドレスを使った単一の統合エッジのエンタープライズ境界ネットワーク**</span><span class="sxs-lookup"><span data-stu-id="b0852-110">**Enterprise perimeter network for single consolidated edge with public IP addressing**</span></span>
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>役割/プロトコル/TCP または UDP/ポート</th>
-<th>送信元 IP アドレス</th>
-<th>宛先 IP アドレス</th>
-<th>メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>XMPP/TCP/5269</p></td>
-<td><p>任意</p></td>
-<td><p>XMPP プロキシ サービス ( アクセス エッジ サービスと IP アドレスを共有)</p></td>
-<td><p>XMPP プロキシ サービスは、定義済みの XMPP フェデレーションの XMPP 連絡先からのトラフィックを受け付ける</p></td>
-</tr>
-<tr class="even">
-<td><p>アクセス/HTTP/TCP/80</p></td>
-<td><p>エッジ サーバーアクセス エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>任意</p></td>
-<td><p>証明書の失効/CRL のチェックおよび取得</p></td>
-</tr>
-<tr class="odd">
-<td><p>アクセス/DNS/TCP/53</p></td>
-<td><p>エッジ サーバーアクセス エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>任意</p></td>
-<td><p>TCP による DNS クエリ</p></td>
-</tr>
-<tr class="even">
-<td><p>アクセス/DNS/UDP/53</p></td>
-<td><p>エッジ サーバーアクセス エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>任意</p></td>
-<td><p>UDP による DNS クエリ</p></td>
-</tr>
-<tr class="odd">
-<td><p>アクセス/SIP (TLS)/TCP/443</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバーアクセス エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>外部ユーザー アクセス用のクライアントからサーバーへの SIP トラフィック</p></td>
-</tr>
-<tr class="even">
-<td><p>アクセス/SIP (MTLS)/TCP/5061</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバーアクセス エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>SIP を使用したフェデレーションおよびパブリック IM 接続用</p></td>
-</tr>
-<tr class="odd">
-<td><p>アクセス/SIP (MTLS)/TCP/5061</p></td>
-<td><p>エッジ サーバーアクセス エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>任意</p></td>
-<td><p>SIP を使用したフェデレーションおよびパブリック IM 接続用</p></td>
-</tr>
-<tr class="even">
-<td><p>Web 会議/PSOM (TLS)/TCP/443</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバーWeb 会議エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>Web 会議メディア</p></td>
-</tr>
-<tr class="odd">
-<td><p>音声ビデオ/RTP/TCP/50,000 ～ 59,999</p></td>
-<td><p>エッジ サーバーアクセス エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>任意</p></td>
-<td><p>Office Communications Server 2007、 Office Communications Server 2007 R2、 Lync Server 2010、および Lync Server 2013 を実行するパートナーとのフェデレーション時に必要です。</p></td>
-</tr>
-<tr class="even">
-<td><p>音声ビデオ/RTP/UDP/50,000 ～ 59,999</p></td>
-<td><p>エッジ サーバー音声ビデオ エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>任意</p></td>
-<td><p>Office Communications Server 2007 を実行するパートナーとのフェデレーションにのみ必要です。</p></td>
-</tr>
-<tr class="odd">
-<td><p>音声ビデオ/RTP/TCP/50,000 ～ 59,999</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバー音声ビデオ エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>Office Communications Server 2007 を実行するパートナーとのフェデレーションにのみ必要です。</p></td>
-</tr>
-<tr class="even">
-<td><p>音声ビデオ/RTP/UDP/50,000 ～ 59,999</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバー音声ビデオ エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>Office Communications Server 2007 を実行するパートナーとのフェデレーションにのみ必要です。</p></td>
-</tr>
-<tr class="odd">
-<td><p>音声ビデオ/STUN、MSTURN/UDP/3478</p></td>
-<td><p>エッジ サーバー音声ビデオ エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>任意</p></td>
-<td><p>3478 の発信は、 Lync Server の通信相手である エッジ サーバーのバージョンを判別するためと、 エッジ サーバーと エッジ サーバーのメディア トラフィックのために使用されます。 Lync Server 2010、Windows Live Messenger、および Office Communications Server 2007 R2 とのフェデレーションで必要なほかに、社内に複数の エッジ プールが展開されている場合に必要です。</p></td>
-</tr>
-<tr class="even">
-<td><p>音声ビデオ/STUN、MSTURN/UDP/3478</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバー音声ビデオ エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>UDP/3478 による候補の STUN/TURN ネゴシエーション</p></td>
-</tr>
-<tr class="odd">
-<td><p>音声ビデオ/STUN、MSTURN/TCP/443</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバー音声ビデオ エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>TCP/443 による候補の STUN/TURN ネゴシエーション</p></td>
-</tr>
-<tr class="even">
-<td><p>音声ビデオ/STUN、MSTURN/TCP/443</p></td>
-<td><p>エッジ サーバー音声ビデオ エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>任意</p></td>
-<td><p>TCP/443 による候補の STUN/TURN ネゴシエーション</p></td>
-</tr>
-</tbody>
-</table>
+<span data-ttu-id="b0852-111">![f8c144c5-e5fb-498a-823e-eb39f26b6847](images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")</span><span class="sxs-lookup"><span data-stu-id="b0852-111">![f8c144c5-e5fb-498a-823e-eb39f26b6847](images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")</span></span>
 
+<div>
 
-### パブリック IP アドレスを使用する単一の統合エッジのファイアウォールの概要: 内部インターフェイス
+## <a name="port-and-protocol-details"></a><span data-ttu-id="b0852-112">ポートとプロトコルの詳細</span><span class="sxs-lookup"><span data-stu-id="b0852-112">Port and Protocol Details</span></span>
+
+<span data-ttu-id="b0852-113">外部アクセスを提供する機能をサポートするために必要なポートのみを開くことをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="b0852-113">We recommend that you open only the ports required to support the functionality for which you are providing external access.</span></span>
+
+<span data-ttu-id="b0852-114">エッジサービスに対してリモートアクセスを使用するには、受信/送信エッジトラフィックの図に示すように、SIP トラフィックが双方向に流れるようにすることが必須です。</span><span class="sxs-lookup"><span data-stu-id="b0852-114">For remote access to work for any edge service, it is mandatory that SIP traffic is allowed to flow bidirectionally as shown in the Inbound/Outbound edge traffic figure.</span></span> <span data-ttu-id="b0852-115">別の方法として、アクセスエッジサービスとの間の SIP メッセージングは、インスタントメッセージング (IM)、プレゼンス、web 会議、音声/ビデオ (A/V)、およびフェデレーションに関連しています。</span><span class="sxs-lookup"><span data-stu-id="b0852-115">Stated another way, the SIP messaging to and from the Access Edge service is involved in instant messaging (IM), presence, web conferencing, audio/video (A/V) and federation.</span></span>
+
+### <a name="firewall-summary-for-single-consolidated-edge-with-public-ip-addresses-external-interface"></a><span data-ttu-id="b0852-116">パブリック IP アドレスを持つ単一の統合エッジのファイアウォールの概要: 外部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-116">Firewall Summary for Single Consolidated Edge with Public IP Addresses: External Interface</span></span>
 
 <table>
 <colgroup>
@@ -158,90 +62,114 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>プロトコル/TCP または UDP/ポート</th>
-<th>送信元 IP アドレス</th>
-<th>宛先 IP アドレス</th>
-<th>コメント</th>
+<th><span data-ttu-id="b0852-117">Role/Protocol/TCP または UDP/ポート</span><span class="sxs-lookup"><span data-stu-id="b0852-117">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="b0852-118">送信元 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-118">Source IP address</span></span></th>
+<th><span data-ttu-id="b0852-119">宛先 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-119">Destination IP address</span></span></th>
+<th><span data-ttu-id="b0852-120">メモ</span><span class="sxs-lookup"><span data-stu-id="b0852-120">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>XMPP/MTLS/TCP/23456</p></td>
-<td><p>任意 (XMPP ゲートウェイ サービスを実行している Standard Edition サーバー IP、 Standard Edition サーバー IP アドレス、またはプール IP アドレスとして定義可能)</p></td>
-<td><p>エッジ サーバーの内部インターフェイス</p></td>
-<td><p>フロント エンド サーバーまたは フロント エンド プールで実行されている XMPP ゲートウェイ サービスからの発信 XMPP トラフィック</p>
-<p></p></td>
+<td><p><span data-ttu-id="b0852-121">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="b0852-121">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="b0852-122">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-122">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-123">XMPP プロキシサービス (アクセスエッジサービスで IP アドレスを共有)</span><span class="sxs-lookup"><span data-stu-id="b0852-123">XMPP Proxy service (shares IP address with Access Edge service)</span></span></p></td>
+<td><p><span data-ttu-id="b0852-124">XMPP プロキシサービスは、定義された XMPP フェデレーションの XMPP 連絡先からのトラフィックを受け入れます。</span><span class="sxs-lookup"><span data-stu-id="b0852-124">XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>SIP/MTLS/TCP/5061</p></td>
-<td><p>任意 ( ディレクター、 ディレクター プール IP アドレス、 フロント エンド サーバー、または フロント エンド プール IP アドレスとして定義可能)</p></td>
-<td><p>内部インターフェイスを保持する エッジ サーバー IP またはプール</p></td>
-<td><p>( ディレクター、 ディレクター プール IP アドレス、 フロント エンド サーバー、または フロント エンド プール IP アドレスから) エッジ サーバー内部インターフェイスへの送信 SIP トラフィック</p>
-<p></p></td>
+<td><p><span data-ttu-id="b0852-125">Access/HTTP/TCP/80</span><span class="sxs-lookup"><span data-stu-id="b0852-125">Access/HTTP/TCP/80</span></span></p></td>
+<td><p><span data-ttu-id="b0852-126">エッジサーバーアクセスエッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-126">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-127">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-127">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-128">証明書の失効/CRL の確認と取得</span><span class="sxs-lookup"><span data-stu-id="b0852-128">Certificate revocation/CRL check and retrieval</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>SIP/MTLS/TCP/5061</p></td>
-<td><p>エッジ サーバーの内部インターフェイス</p></td>
-<td><p>任意 ( ディレクター、 ディレクター プール IP アドレス、 フロント エンド サーバー、または フロント エンド プール アドレスとして定義可能)</p></td>
-<td><p>エッジ サーバー内部インターフェイスから ( ディレクター、 ディレクター プール IP アドレス、 フロント エンド サーバー、または フロント エンド プール IP アドレスへの) 受信 SIP トラフィック</p>
-<p></p></td>
+<td><p><span data-ttu-id="b0852-129">Access/DNS/TCP/53</span><span class="sxs-lookup"><span data-stu-id="b0852-129">Access/DNS/TCP/53</span></span></p></td>
+<td><p><span data-ttu-id="b0852-130">エッジサーバーアクセスエッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-130">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-131">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-131">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-132">TCP 経由の DNS クエリ</span><span class="sxs-lookup"><span data-stu-id="b0852-132">DNS query over TCP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>PSOM/MTLS/TCP/8057</p></td>
-<td><p>任意 ( フロント エンド サーバー IP アドレス、または フロント エンド プール内の各 フロント エンド サーバー IP アドレスとして定義可能)</p>
-<p></p></td>
-<td><p>エッジ サーバーの内部インターフェイス</p></td>
-<td><p>フロント エンド サーバーまたは各 フロント エンド サーバー (プール内の場合) から エッジ サーバーの内部インターフェイスへの Web 会議トラフィック</p>
-<p></p></td>
+<td><p><span data-ttu-id="b0852-133">Access/DNS/UDP/53</span><span class="sxs-lookup"><span data-stu-id="b0852-133">Access/DNS/UDP/53</span></span></p></td>
+<td><p><span data-ttu-id="b0852-134">エッジサーバーアクセスエッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-134">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-135">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-135">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-136">UDP 経由の DNS クエリ</span><span class="sxs-lookup"><span data-stu-id="b0852-136">DNS query over UDP</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>SIP/MTLS/TCP/5062</p></td>
-<td><p>任意 (この エッジ サーバーを使用して、 フロント エンド サーバーの IP アドレスまたは フロント エンド プールの IP アドレス、あるいは任意の 存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバーとして定義可能)</p></td>
-<td><p>エッジ サーバーの内部インターフェイス</p></td>
-<td><p>フロント エンド サーバーまたは フロント エンド プール IP アドレス、あるいはこの エッジ サーバーを使用した任意の 存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバーからの音声ビデオ ユーザーの認証 (音声ビデオ認証サービス)</p></td>
+<td><p><span data-ttu-id="b0852-137">アクセス/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="b0852-137">Access/SIP(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="b0852-138">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-138">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-139">エッジサーバーアクセスエッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-139">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-140">外部ユーザーアクセスのクライアントツーサーバー SIP トラフィック</span><span class="sxs-lookup"><span data-stu-id="b0852-140">Client-to-server SIP traffic for external user access</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>STUN/MSTURN/UDP/3478</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバーの内部インターフェイス</p></td>
-<td><p>内部ユーザーと外部ユーザー、 存続可能ブランチ アプライアンス、または 存続可能ブランチ サーバーとの間の音声ビデオ メディア転送の優先パス</p></td>
+<td><p><span data-ttu-id="b0852-141">アクセス/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="b0852-141">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="b0852-142">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-142">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-143">エッジサーバーアクセスエッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-143">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-144">SIP を使用するフェデレーションおよびパブリック IM 接続の場合</span><span class="sxs-lookup"><span data-stu-id="b0852-144">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>STUN/MSTURN/TCP/443</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバーの内部インターフェイス</p></td>
-<td><p>UDP 通信を確立できない場合の、内部ユーザーと外部ユーザー、 存続可能ブランチ アプライアンス、または 存続可能ブランチ サーバーとの間の音声ビデオ メディア転送のフォールバック パス、TCP はファイル転送およびデスクトップ共有に使用</p></td>
+<td><p><span data-ttu-id="b0852-145">アクセス/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="b0852-145">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="b0852-146">エッジサーバーアクセスエッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-146">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-147">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-147">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-148">SIP を使用するフェデレーションおよびパブリック IM 接続の場合</span><span class="sxs-lookup"><span data-stu-id="b0852-148">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>HTTPS/TCP/4443</p></td>
-<td><p>任意 ( フロント エンド サーバー IP アドレス、または 中央管理ストアを保持するプールとして定義可能)</p></td>
-<td><p>エッジ サーバーの内部インターフェイス</p></td>
-<td><p>中央管理ストアから エッジ サーバーへの変更のレプリケーション</p></td>
+<td><p><span data-ttu-id="b0852-149">Web 会議/PSOM (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="b0852-149">Web Conferencing/PSOM(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="b0852-150">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-150">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-151">エッジサーバー Web 会議エッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-151">Edge Server Web Conferencing Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-152">Web 会議メディア</span><span class="sxs-lookup"><span data-stu-id="b0852-152">Web Conferencing media</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MTLS/TCP/50001</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルおよび 集中ログ サービス コマンドレットを使用した 集中ログ サービス コントローラー、ClsController コマンドライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドおよびログ コレクション</p></td>
+<td><p><span data-ttu-id="b0852-153">A/V/RTP/59,999</span><span class="sxs-lookup"><span data-stu-id="b0852-153">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="b0852-154">エッジサーバーアクセスエッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-154">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-155">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-155">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-156">Office Communications Server 2007、Office Communications Server 2007 R2、Lync Server 2010、および Lync Server 2013 を実行しているパートナーとのフェデレーションに必要。</span><span class="sxs-lookup"><span data-stu-id="b0852-156">Required for federating with partners running Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>MTLS/TCP/50002</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルおよび 集中ログ サービス コマンドレットを使用した 集中ログ サービス コントローラー、ClsController コマンドライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドおよびログ コレクション</p></td>
+<td><p><span data-ttu-id="b0852-157">A/V/RTP/59,999</span><span class="sxs-lookup"><span data-stu-id="b0852-157">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="b0852-158">エッジサーバーの A/V エッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-158">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-159">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-159">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-160">Office Communications Server 2007 を実行しているパートナーとのフェデレーションにのみ必須</span><span class="sxs-lookup"><span data-stu-id="b0852-160">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MTLS/TCP/50003</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルおよび 集中ログ サービス コマンドレットを使用した 集中ログ サービス コントローラー、ClsController コマンドライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドおよびログ コレクション</p></td>
+<td><p><span data-ttu-id="b0852-161">A/V/RTP/59,999</span><span class="sxs-lookup"><span data-stu-id="b0852-161">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="b0852-162">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-162">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-163">エッジサーバーの A/V エッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-163">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-164">Office Communications Server 2007 を実行しているパートナーとのフェデレーションの場合のみ必須です。</span><span class="sxs-lookup"><span data-stu-id="b0852-164">Required only for federation with partners running Office Communications Server 2007.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-165">A/V/RTP/59,999</span><span class="sxs-lookup"><span data-stu-id="b0852-165">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="b0852-166">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-166">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-167">エッジサーバーの A/V エッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-167">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-168">Office Communications Server 2007 を実行しているパートナーとのフェデレーションの場合のみ必須です。</span><span class="sxs-lookup"><span data-stu-id="b0852-168">Required only for federation with partners running Office Communications Server 2007.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-169">A/V/STUN、MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="b0852-169">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="b0852-170">エッジサーバーの A/V エッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-170">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-171">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-171">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-172">3478送信は、Lync Server が通信するエッジサーバーのバージョンと、エッジサーバーからエッジサーバーへのメディアトラフィックも確認するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="b0852-172">3478 outbound is used to determine the version of Edge Server that Lync Server is communicating with and also for media traffic from Edge Server-to-Edge Server.</span></span> <span data-ttu-id="b0852-173">Lync Server 2010、Windows Live Messenger、Office Communications Server 2007 R2 とのフェデレーション、および複数のエッジプールが会社内に展開されている場合に必要です。</span><span class="sxs-lookup"><span data-stu-id="b0852-173">Required for federation with Lync Server 2010, Windows Live Messenger, and Office Communications Server 2007 R2, and also if multiple Edge pools are deployed within a company.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-174">A/V/STUN、MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="b0852-174">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="b0852-175">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-175">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-176">エッジサーバーの A/V エッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-176">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-177">UDP/3478 経由の候補のネゴシエーションをオフ/オンにする</span><span class="sxs-lookup"><span data-stu-id="b0852-177">STUN/TURN negotiation of candidates over UDP/3478</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-178">A/V/STUN、MSTURN/443</span><span class="sxs-lookup"><span data-stu-id="b0852-178">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="b0852-179">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-179">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-180">エッジサーバーの A/V エッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-180">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-181">TCP/443 経由での候補のネゴシエーションをオフ/オンにする</span><span class="sxs-lookup"><span data-stu-id="b0852-181">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-182">A/V/STUN、MSTURN/443</span><span class="sxs-lookup"><span data-stu-id="b0852-182">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="b0852-183">エッジサーバーの A/V エッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-183">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-184">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-184">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-185">TCP/443 経由での候補のネゴシエーションをオフ/オンにする</span><span class="sxs-lookup"><span data-stu-id="b0852-185">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## フェデレーションのファイアウォールの概要
-
+### <a name="firewall-summary-for-single-consolidated-edge-with-public-ip-addresses-internal-interface"></a><span data-ttu-id="b0852-186">パブリック IP アドレスを持つ単一の統合エッジのファイアウォールの概要: 内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-186">Firewall Summary for Single Consolidated Edge with Public IP Addresses: Internal Interface</span></span>
 
 <table>
 <colgroup>
@@ -252,83 +180,88 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>役割/プロトコル/TCP または UDP/ポート</th>
-<th>送信元 IP アドレス</th>
-<th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th><span data-ttu-id="b0852-187">Protocol/TCP または UDP/ポート</span><span class="sxs-lookup"><span data-stu-id="b0852-187">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="b0852-188">送信元 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-188">Source IP address</span></span></th>
+<th><span data-ttu-id="b0852-189">宛先 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-189">Destination IP address</span></span></th>
+<th><span data-ttu-id="b0852-190">コメント</span><span class="sxs-lookup"><span data-stu-id="b0852-190">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>アクセス/SIP (MTLS)/TCP/5061</p></td>
-<td><p>アクセス エッジ サービスのパブリック IP アドレス</p></td>
-<td><p>任意</p></td>
-<td><p>SIP を使用したフェデレーションおよびパブリック IM 接続用</p></td>
+<td><p><span data-ttu-id="b0852-191">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="b0852-191">XMPP/MTLS/TCP/23456</span></span></p></td>
+<td><p><span data-ttu-id="b0852-192">Any (標準エディションサーバー IP、Standard Edition server IP アドレス、または XMPP ゲートウェイサービスを実行しているプール IP アドレスとして定義できます)</span><span class="sxs-lookup"><span data-stu-id="b0852-192">Any (can be defined as Standard Edition server IP, Standard Edition server IP address, or pool IP address running the XMPP Gateway service)</span></span></p></td>
+<td><p><span data-ttu-id="b0852-193">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-193">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-194">フロントエンドサーバーまたはフロントエンドプールで実行されている XMPP ゲートウェイサービスからの送信 XMPP トラフィック</span><span class="sxs-lookup"><span data-stu-id="b0852-194">Outbound XMPP traffic from XMPP Gateway service running on Front End Server or Front End pool</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-195">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="b0852-195">SIP/MTLS/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="b0852-196">Any (ディレクター、ディレクタープールの IP アドレス、フロントエンドサーバー、フロントエンドプールの IP アドレスとして定義できます)</span><span class="sxs-lookup"><span data-stu-id="b0852-196">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
+<td><p><span data-ttu-id="b0852-197">エッジサーバー IP、または内部インターフェイスを保持するプール</span><span class="sxs-lookup"><span data-stu-id="b0852-197">Edge Server IP, or pool that holds the internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-198">送信 SIP トラフィック (ディレクター、ディレクタープール IP アドレス、フロントエンドサーバーまたはフロントエンドプールの IP アドレス) からエッジサーバーの内部インターフェイスへ</span><span class="sxs-lookup"><span data-stu-id="b0852-198">Outbound SIP traffic (from Director, Director pool IP address, Front End Server or Front End pool IP address) to Edge Server internal interface</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-199">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="b0852-199">SIP/MTLS/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="b0852-200">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-200">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-201">Any (ディレクター、ディレクタープール IP アドレス、フロントエンドサーバー、フロントエンドプールのアドレスとして定義できます)</span><span class="sxs-lookup"><span data-stu-id="b0852-201">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool address)</span></span></p></td>
+<td><p><span data-ttu-id="b0852-202">エッジサーバーの内部インターフェイスから受信 SIP トラフィック (ディレクター、ディレクタープール IP アドレス、フロントエンドサーバー、またはフロントエンドプールの IP アドレス)</span><span class="sxs-lookup"><span data-stu-id="b0852-202">Inbound SIP traffic (to Director, Director pool IP address, Front End Server or Front End pool IP address) from Edge Server internal interface</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-203">PSOM/MTLS/TCP/8057</span><span class="sxs-lookup"><span data-stu-id="b0852-203">PSOM/MTLS/TCP/8057</span></span></p></td>
+<td><p><span data-ttu-id="b0852-204">Any (フロントエンドサーバーの IP アドレス、またはフロントエンドプールの各フロントエンドサーバー IP アドレスとして定義できます)</span><span class="sxs-lookup"><span data-stu-id="b0852-204">Any (can be defined as Front End Server IP address, or each Front End Server IP address in a Front End pool)</span></span></p></td>
+<td><p><span data-ttu-id="b0852-205">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-205">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-206">フロントエンドサーバーからの Web 会議トラフィック、またはプール内の各フロントエンドサーバーから Edge Server の内部インターフェイスへの Web 会議トラフィック</span><span class="sxs-lookup"><span data-stu-id="b0852-206">Web conferencing traffic from Front End Server or each Front End Server if in a pool, to Edge Server internal interface</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-207">SIP/MTLS/TCP/5062</span><span class="sxs-lookup"><span data-stu-id="b0852-207">SIP/MTLS/TCP/5062</span></span></p></td>
+<td><p><span data-ttu-id="b0852-208">Any (フロントエンドサーバーの IP アドレス、またはこのエッジサーバーを使用している Survivable Branch Appliance または Survivable ブランチサーバー) として定義することができます。</span><span class="sxs-lookup"><span data-stu-id="b0852-208">Any (can be defined as Front End Server IP address, or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server)</span></span></p></td>
+<td><p><span data-ttu-id="b0852-209">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-209">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-210">このエッジサーバーを使用して、フロントエンドサーバーまたはフロントエンドプールの IP アドレスまたは Survivable Branch Appliance または Survivable ブランチサーバーからの、A/V ユーザー (A/V 認証サービス) の認証</span><span class="sxs-lookup"><span data-stu-id="b0852-210">Authentication of A/V users (A/V authentication service) from Front End Server or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-211">STUN/MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="b0852-211">STUN/MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="b0852-212">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-212">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-213">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-213">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-214">内部と外部のユーザー、Survivable Branch Appliance または Survivable ブランチサーバー間の A/V メディア転送の優先パス</span><span class="sxs-lookup"><span data-stu-id="b0852-214">Preferred path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-215">STUN/MSTURN/443</span><span class="sxs-lookup"><span data-stu-id="b0852-215">STUN/MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="b0852-216">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-216">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-217">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-217">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-218">内部と外部のユーザーとの間でのメディア転送のフォールバックパス Survivable Branch Appliance または Survivable Branch Server (UDP 通信が確立できない場合は、TCP を使ってファイル転送とデスクトップ共有を行う)</span><span class="sxs-lookup"><span data-stu-id="b0852-218">Fallback path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server if UDP communication cannot be established, TCP is used for file transfer and desktop sharing</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-219">HTTPS/TCP/4443</span><span class="sxs-lookup"><span data-stu-id="b0852-219">HTTPS/TCP/4443</span></span></p></td>
+<td><p><span data-ttu-id="b0852-220">Any (任意) (フロントエンドサーバーの IP アドレス、または全体管理ストアを保持するプールとして定義できます)</span><span class="sxs-lookup"><span data-stu-id="b0852-220">Any (can be defined as the Front End Server IP address, or pool that holds the Central Management store)</span></span></p></td>
+<td><p><span data-ttu-id="b0852-221">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-221">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-222">中央管理ストアからエッジサーバーへの変更のレプリケーション</span><span class="sxs-lookup"><span data-stu-id="b0852-222">Replication of changes from the Central Management store to the Edge Server</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-223">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="b0852-223">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="b0852-224">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-224">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-225">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-225">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-226">Lync Server 管理シェルと一元ログサービスコマンドレットを使用した一元管理サービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller .exe) コマンドとログ収集</span><span class="sxs-lookup"><span data-stu-id="b0852-226">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-227">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="b0852-227">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="b0852-228">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-228">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-229">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-229">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-230">Lync Server 管理シェルと一元ログサービスコマンドレットを使用した一元管理サービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller .exe) コマンドとログ収集</span><span class="sxs-lookup"><span data-stu-id="b0852-230">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-231">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="b0852-231">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="b0852-232">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-232">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-233">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="b0852-233">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="b0852-234">Lync Server 管理シェルと一元ログサービスコマンドレットを使用した一元管理サービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller .exe) コマンドとログ収集</span><span class="sxs-lookup"><span data-stu-id="b0852-234">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## ファイアウォールの概要 ‐ パブリック インスタント メッセージング接続
+</div>
 
+<div>
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>役割/プロトコル/TCP または UDP/ポート</th>
-<th>送信元 IP アドレス</th>
-<th>宛先 IP アドレス</th>
-<th>メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>アクセス/SIP (MTLS)/TCP/5061</p></td>
-<td><p>パブリック IM 接続パートナー</p></td>
-<td><p>エッジ サーバー アクセス エッジ サービス</p></td>
-<td><p>SIP を使用したフェデレーションおよびパブリック IM 接続用</p></td>
-</tr>
-<tr class="even">
-<td><p>アクセス/SIP (MTLS)/TCP/5061</p></td>
-<td><p>エッジ サーバー アクセス エッジ サービス</p></td>
-<td><p>パブリック IM 接続パートナー</p></td>
-<td><p>SIP を使用したフェデレーションおよびパブリック IM 接続用</p></td>
-</tr>
-<tr class="odd">
-<td><p>アクセス/SIP (TLS)/TCP/443</p></td>
-<td><p>クライアント</p></td>
-<td><p>エッジ サーバー アクセス エッジ サービス</p></td>
-<td><p>外部ユーザー アクセス用のクライアントからサーバーへの SIP トラフィック</p></td>
-</tr>
-<tr class="even">
-<td><p>音声ビデオ/RTP/TCP/50,000 ～ 59,999</p></td>
-<td><p>エッジ サーバー 音声ビデオ エッジ サービス</p></td>
-<td><p>Live Messenger クライアント</p></td>
-<td><p>パブリック IM 接続が構成されている場合に、Windows Live Messenger との音声ビデオ セッションに使用されます。</p></td>
-</tr>
-<tr class="odd">
-<td><p>音声ビデオ/STUN、MSTURN/UDP/3478</p></td>
-<td><p>エッジ サーバー 音声ビデオ エッジ サービス</p></td>
-<td><p>Live Messenger クライアント</p></td>
-<td><p>Windows Live Messenger とのパブリック IM 接続では必須</p></td>
-</tr>
-<tr class="even">
-<td><p>音声ビデオ/STUN、MSTURN/UDP/3478</p></td>
-<td><p>Live Messenger クライアント</p></td>
-<td><p>エッジ サーバー 音声ビデオ エッジ サービス</p></td>
-<td><p>Windows Live Messenger とのパブリック IM 接続では必須</p></td>
-</tr>
-</tbody>
-</table>
-
-
-## XMPP のファイアウォールの概要
+## <a name="firewall-summary-for-federation"></a><span data-ttu-id="b0852-235">フェデレーションのためのファイアウォールの概要</span><span class="sxs-lookup"><span data-stu-id="b0852-235">Firewall Summary for Federation</span></span>
 
 
 <table>
@@ -340,31 +273,140 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>プロトコル/TCP または UDP/ポート</th>
-<th>送信元 (IP アドレス)</th>
-<th>宛先 (IP アドレス)</th>
-<th>コメント</th>
+<th><span data-ttu-id="b0852-236">Role/Protocol/TCP または UDP/ポート</span><span class="sxs-lookup"><span data-stu-id="b0852-236">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="b0852-237">送信元 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-237">Source IP address</span></span></th>
+<th><span data-ttu-id="b0852-238">宛先 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-238">Destination IP address</span></span></th>
+<th><span data-ttu-id="b0852-239">メモ</span><span class="sxs-lookup"><span data-stu-id="b0852-239">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>XMPP/TCP/5269</p></td>
-<td><p>任意</p></td>
-<td><p>エッジ サーバー  アクセス エッジ サービス インターフェイス IP アドレス</p></td>
-<td><p>XMPP 用の標準的なサーバー間通信。フェデレーション XMPP パートナーから エッジ サーバー XMPP プロキシへの通信を可能にします。</p></td>
-</tr>
-<tr class="even">
-<td><p>XMPP/TCP/5269</p></td>
-<td><p>エッジ サーバー  アクセス エッジ サービス インターフェイス IP アドレス</p></td>
-<td><p>任意</p></td>
-<td><p>XMPP 用の標準的なサーバー間通信。 エッジ サーバー XMPP プロキシからフェデレーション XMPP パートナーへの通信を可能にします。</p></td>
-</tr>
-<tr class="odd">
-<td><p>XMPP/MTLS/TCP/23456</p></td>
-<td><p>任意</p></td>
-<td><p>各内部 エッジ サーバー インターフェイス IP</p></td>
-<td><p>フロント エンド サーバーまたは フロント エンド プールの XMPP ゲートウェイから エッジ サーバー内部 IP アドレスあるいは各 エッジ プール メンバーの内部 IP アドレスへの内部 XMPP トラフィック</p></td>
+<td><p><span data-ttu-id="b0852-240">アクセス/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="b0852-240">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="b0852-241">アクセスエッジサービスのパブリック IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-241">Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-242">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-242">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-243">SIP を使用するフェデレーションおよびパブリック IM 接続の場合</span><span class="sxs-lookup"><span data-stu-id="b0852-243">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<div>
+
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="b0852-244">ファイアウォールの概要–パブリックインスタントメッセージング接続</span><span class="sxs-lookup"><span data-stu-id="b0852-244">Firewall Summary – Public Instant Messaging Connectivity</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="b0852-245">Role/Protocol/TCP または UDP/ポート</span><span class="sxs-lookup"><span data-stu-id="b0852-245">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="b0852-246">送信元 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-246">Source IP address</span></span></th>
+<th><span data-ttu-id="b0852-247">宛先 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-247">Destination IP address</span></span></th>
+<th><span data-ttu-id="b0852-248">メモ</span><span class="sxs-lookup"><span data-stu-id="b0852-248">Notes</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-249">アクセス/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="b0852-249">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="b0852-250">パブリック IM 接続パートナー</span><span class="sxs-lookup"><span data-stu-id="b0852-250">Public IM connectivity partners</span></span></p></td>
+<td><p><span data-ttu-id="b0852-251">エッジサーバーアクセスエッジサービス</span><span class="sxs-lookup"><span data-stu-id="b0852-251">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="b0852-252">SIP を使用するフェデレーションおよびパブリック IM 接続の場合</span><span class="sxs-lookup"><span data-stu-id="b0852-252">For federated and public IM connectivity using SIP</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-253">アクセス/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="b0852-253">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="b0852-254">エッジサーバーアクセスエッジサービス</span><span class="sxs-lookup"><span data-stu-id="b0852-254">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="b0852-255">パブリック IM 接続パートナー</span><span class="sxs-lookup"><span data-stu-id="b0852-255">Public IM connectivity partners</span></span></p></td>
+<td><p><span data-ttu-id="b0852-256">SIP を使用するフェデレーションおよびパブリック IM 接続の場合</span><span class="sxs-lookup"><span data-stu-id="b0852-256">For federated and public IM connectivity using SIP</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-257">アクセス/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="b0852-257">Access/SIP(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="b0852-258">クライアント</span><span class="sxs-lookup"><span data-stu-id="b0852-258">Clients</span></span></p></td>
+<td><p><span data-ttu-id="b0852-259">エッジサーバーアクセスエッジサービス</span><span class="sxs-lookup"><span data-stu-id="b0852-259">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="b0852-260">外部ユーザーアクセスのクライアントツーサーバー SIP トラフィック</span><span class="sxs-lookup"><span data-stu-id="b0852-260">Client-to-server SIP traffic for external user access</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-261">A/V/RTP/59,999</span><span class="sxs-lookup"><span data-stu-id="b0852-261">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="b0852-262">エッジサーバーの A/V Edge サービス</span><span class="sxs-lookup"><span data-stu-id="b0852-262">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="b0852-263">Live Messenger クライアント</span><span class="sxs-lookup"><span data-stu-id="b0852-263">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="b0852-264">パブリック IM 接続が構成されている場合、Windows Live Messenger でのセッションに使用されます。</span><span class="sxs-lookup"><span data-stu-id="b0852-264">Used for A/V sessions with Windows Live Messenger if public IM connectivity is configured.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-265">A/V/STUN、MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="b0852-265">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="b0852-266">エッジサーバーの A/V Edge サービス</span><span class="sxs-lookup"><span data-stu-id="b0852-266">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="b0852-267">Live Messenger クライアント</span><span class="sxs-lookup"><span data-stu-id="b0852-267">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="b0852-268">Windows Live Messenger とのパブリック IM 接続に必要</span><span class="sxs-lookup"><span data-stu-id="b0852-268">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-269">A/V/STUN、MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="b0852-269">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="b0852-270">Live Messenger クライアント</span><span class="sxs-lookup"><span data-stu-id="b0852-270">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="b0852-271">エッジサーバーの A/V Edge サービス</span><span class="sxs-lookup"><span data-stu-id="b0852-271">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="b0852-272">Windows Live Messenger とのパブリック IM 接続に必要</span><span class="sxs-lookup"><span data-stu-id="b0852-272">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<div>
+
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="b0852-273">拡張メッセージングとプレゼンスプロトコルのファイアウォールの概要</span><span class="sxs-lookup"><span data-stu-id="b0852-273">Firewall Summary for Extensible Messaging and Presence Protocol</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="b0852-274">Protocol/TCP または UDP/ポート</span><span class="sxs-lookup"><span data-stu-id="b0852-274">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="b0852-275">ソース (IP アドレス)</span><span class="sxs-lookup"><span data-stu-id="b0852-275">Source (IP address)</span></span></th>
+<th><span data-ttu-id="b0852-276">宛先 (IP アドレス)</span><span class="sxs-lookup"><span data-stu-id="b0852-276">Destination (IP address)</span></span></th>
+<th><span data-ttu-id="b0852-277">コメント</span><span class="sxs-lookup"><span data-stu-id="b0852-277">Comments</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-278">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="b0852-278">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="b0852-279">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-279">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-280">エッジサーバーアクセスエッジサービスインターフェイスの IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-280">Edge Server Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-281">XMPP 向けの標準的なサーバー間通信ポート。</span><span class="sxs-lookup"><span data-stu-id="b0852-281">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="b0852-282">フェデレーションされた XMPP パートナーからエッジサーバーの XMPP プロキシへの通信を許可します。</span><span class="sxs-lookup"><span data-stu-id="b0852-282">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b0852-283">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="b0852-283">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="b0852-284">エッジサーバーアクセスエッジサービスインターフェイスの IP アドレス</span><span class="sxs-lookup"><span data-stu-id="b0852-284">Edge Server Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="b0852-285">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-285">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-286">XMPP 向けの標準的なサーバー間通信ポート。</span><span class="sxs-lookup"><span data-stu-id="b0852-286">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="b0852-287">エッジサーバーの XMPP プロキシからフェデレーションされた XMPP パートナーへの通信を許可します。</span><span class="sxs-lookup"><span data-stu-id="b0852-287">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b0852-288">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="b0852-288">XMPP/MTLS/TCP/23456</span></span></p></td>
+<td><p><span data-ttu-id="b0852-289">任意</span><span class="sxs-lookup"><span data-stu-id="b0852-289">Any</span></span></p></td>
+<td><p><span data-ttu-id="b0852-290">各内部エッジサーバーインターフェイス IP</span><span class="sxs-lookup"><span data-stu-id="b0852-290">Each internal Edge Server Interface IP</span></span></p></td>
+<td><p><span data-ttu-id="b0852-291">フロントエンドサーバーまたはフロントエンドプールの XMPP ゲートウェイから Edge Server 内部 IP アドレスまたは各エッジプールメンバーの内部 IP アドレスへの内部の XMPP トラフィック</span><span class="sxs-lookup"><span data-stu-id="b0852-291">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server internal IP address or each Edge pool member’s internal IP address</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

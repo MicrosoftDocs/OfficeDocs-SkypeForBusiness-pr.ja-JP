@@ -1,44 +1,86 @@
-﻿---
-title: 'Lync Server 2013: ディレクターのシナリオ'
-TOCTitle: ディレクターのシナリオ
-ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398908(v=OCS.15)
-ms:contentKeyID: 48273720
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ディレクターのシナリオ'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scenarios for the Director
+ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398908(v=OCS.15)
+ms:contentKeyID: 48185419
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eba35647e8ecc0cfa59d5c7c6b5c32b07bedf95e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822154"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のディレクターのシナリオ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-22_
+# <a name="scenarios-for-the-director-in-lync-server-2013"></a><span data-ttu-id="749e6-102">Lync Server 2013 のディレクターのシナリオ</span><span class="sxs-lookup"><span data-stu-id="749e6-102">Scenarios for the Director in Lync Server 2013</span></span>
 
-ディレクターは、Microsoft Lync Server 2013  通信ソフトウェアを実行しているサーバーであり、ユーザー要求を認証できますが、ユーザー アカウントはホストしません。ディレクターも フロント エンド サーバーと同じように Web サービスをホストし、Web チケット要求を認証して、他のサービスを提供します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="749e6-103">_**最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="749e6-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+
+<span data-ttu-id="749e6-104">ディレクターは、Microsoft Lync Server 2013 通信ソフトウェアを実行していて、ユーザー要求を認証することはできますが、ユーザーアカウントのホームにはなりません。</span><span class="sxs-lookup"><span data-stu-id="749e6-104">A Director is a server running Microsoft Lync Server 2013 communications software that can authenticate user requests, but does not home any user accounts.</span></span> <span data-ttu-id="749e6-105">このディレクターは、フロントエンドサーバーと同様の web サービスもホストし、web チケット要求を認証し、その他のサービスを提供します。</span><span class="sxs-lookup"><span data-stu-id="749e6-105">The Director also hosts web services similar to the Front End Server and will authenticate web ticket requests and provide other services.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
-> ディレクターを展開する場合は、フロント エンド サーバー の Web サービスと一緒に、ディレクター の Web サービスをリバース プロキシを介して外部に公開する必要があります。以下のトピックでは、ディレクターの可能なトポロジの計画プロセスについて説明します。
+> [!IMPORTANT]  
+> <span data-ttu-id="749e6-106">ディレクターを展開する場合、ディレクター web サービスをリバースプロキシ経由で外部に公開するか、フロントエンドサーバーの web サービスとして公開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="749e6-106">If you deploy Directors, you must publish the Director web services externally through the reverse proxy as well as the web services of the Front End Server.</span></span> <span data-ttu-id="749e6-107">以下のトピックでは、可能なディレクタートポロジの計画プロセスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="749e6-107">The topics following describe the planning process for the possible Director topologies.</span></span>
 
 
 
-## このセクション中
+</div>
 
-  - [Lync Server 2013 のディレクターの概要](lync-server-2013-overview-of-the-director.md)
+<div>
 
-  - [Lync Server 2013 のディレクターに必要なコンポーネント](lync-server-2013-components-required-for-the-director.md)
+## <a name="in-this-section"></a><span data-ttu-id="749e6-108">このセクション中</span><span class="sxs-lookup"><span data-stu-id="749e6-108">In This Section</span></span>
 
-  - [Lync Server 2013 のディレクターのハードウェアおよびソフトウェア要件](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
+  - [<span data-ttu-id="749e6-109">Lync Server 2013 のディレクターの概要</span><span class="sxs-lookup"><span data-stu-id="749e6-109">Overview of the Director in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-director.md)
 
-  - [Lync Server 2013 の単一ディレクター](lync-server-2013-single-director.md)
+  - [<span data-ttu-id="749e6-110">Lync Server 2013 のディレクターに必要なコンポーネント</span><span class="sxs-lookup"><span data-stu-id="749e6-110">Components required for the Director in Lync Server 2013</span></span>](lync-server-2013-components-required-for-the-director.md)
 
-  - [Lync Server 2013 の拡張ディレクター プール](lync-server-2013-scaled-director-pool.md)
+  - [<span data-ttu-id="749e6-111">Lync Server 2013 のディレクターのハードウェアおよびソフトウェア要件</span><span class="sxs-lookup"><span data-stu-id="749e6-111">Hardware and software requirements for the Director in Lync Server 2013</span></span>](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
 
-## 関連項目
+  - [<span data-ttu-id="749e6-112">Lync Server 2013 の単一ディレクター</span><span class="sxs-lookup"><span data-stu-id="749e6-112">Single Director in Lync Server 2013</span></span>](lync-server-2013-single-director.md)
 
-#### 概念
+  - [<span data-ttu-id="749e6-113">Lync Server 2013 の拡張ディレクター プール</span><span class="sxs-lookup"><span data-stu-id="749e6-113">Scaled Director pool in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool.md)
 
-[Lync Server 2013 でサポートされるトポロジ](lync-server-2013-supported-topologies.md)  
-[Lync Server 2013　用のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="749e6-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="749e6-114">See Also</span></span>
+
+
+[<span data-ttu-id="749e6-115">Lync Server 2013 でサポートされるトポロジ</span><span class="sxs-lookup"><span data-stu-id="749e6-115">Supported topologies in Lync Server 2013</span></span>](lync-server-2013-supported-topologies.md)  
+[<span data-ttu-id="749e6-116">Lync Server 2013 のサーバー ハードウェア プラットフォーム</span><span class="sxs-lookup"><span data-stu-id="749e6-116">Server hardware platforms for Lync Server 2013</span></span>](lync-server-2013-server-hardware-platforms.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

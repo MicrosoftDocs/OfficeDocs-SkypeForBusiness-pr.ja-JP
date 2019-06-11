@@ -1,35 +1,73 @@
-﻿---
-title: Lync Server 2013 でのトポロジ ビルダーによるトランクの変更
-TOCTitle: Lync Server 2013 でのトポロジ ビルダーによるトランクの変更
-ms:assetid: 81055a82-c6f8-47b2-9779-223b1d842f36
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688110(v=OCS.15)
-ms:contentKeyID: 49887022
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: トポロジビルダーでトランクを変更する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modify a trunk in Topology Builder
+ms:assetid: 81055a82-c6f8-47b2-9779-223b1d842f36
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688110(v=OCS.15)
+ms:contentKeyID: 49733709
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e185929294aa7c40ec4157b06bfe466ce328b04a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827033"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのトポロジ ビルダーによるトランクの変更
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-21_
+# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a><span data-ttu-id="17e10-102">Lync Server 2013 でのトポロジビルダーでのトランクの変更</span><span class="sxs-lookup"><span data-stu-id="17e10-102">Modify a trunk in Topology Builder in Lync Server 2013</span></span>
 
-トランクの代替メディア IP アドレスおよび代替バイパス ID を変更するには、以下の手順に従います。
+</div>
 
-## トランクの代替メディア IP アドレスを変更するには
+<div id="mainSection">
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+<div id="mainBody">
 
-2.  Set-CsPstnGateway コマンドレットを実行し、Lync Server 管理シェルで AlternateBypassId フィールドを変更します。
+<span> </span>
+
+<span data-ttu-id="17e10-103">_**最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="17e10-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+
+<span data-ttu-id="17e10-104">次の手順に従って、交互のメディア IP アドレスとトランクの代替のバイパス識別子を変更します。</span><span class="sxs-lookup"><span data-stu-id="17e10-104">Follow these steps to modify the alternate media IP address and alternate bypass identifier of a trunk.</span></span>
+
+<div>
+
+## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a><span data-ttu-id="17e10-105">トランクの代替メディアの IP アドレスを変更するには</span><span class="sxs-lookup"><span data-stu-id="17e10-105">To Modify the Alternate Media IP Address of a Trunk</span></span>
+
+1.  <span data-ttu-id="17e10-106">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="17e10-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="17e10-107">Set-CsPstnGateway コマンドレットを実行して、Lync Server 管理シェルで AlternateBypassId フィールドを変更します。</span><span class="sxs-lookup"><span data-stu-id="17e10-107">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -RepresentativeMediaIP <IP address>
 
-## トランクの代替バイパス ID を変更するには
+</div>
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+<div>
 
-2.  Set-CsPstnGateway コマンドレットを実行し、Lync Server 管理シェルで AlternateBypassId フィールドを変更します。
+## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a><span data-ttu-id="17e10-108">トランクの代替 BypassID を変更するには</span><span class="sxs-lookup"><span data-stu-id="17e10-108">To Modify the Alternate BypassID of a Trunk</span></span>
+
+1.  <span data-ttu-id="17e10-109">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="17e10-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="17e10-110">Set-CsPstnGateway コマンドレットを実行して、Lync Server 管理シェルで AlternateBypassId フィールドを変更します。</span><span class="sxs-lookup"><span data-stu-id="17e10-110">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -AlternateBypassID <identifier>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

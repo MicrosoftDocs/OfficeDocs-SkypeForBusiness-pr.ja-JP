@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013: リバース プロキシの証明書の設定'
-TOCTitle: リバース プロキシの証明書の設定
-ms:assetid: c03a08ec-a67b-4f11-b0d7-6677461beaaa
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412938(v=OCS.15)
-ms:contentKeyID: 48273452
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: リバース プロキシの証明書の設定'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set up certificates for the reverse proxy
+ms:assetid: c03a08ec-a67b-4f11-b0d7-6677461beaaa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412938(v=OCS.15)
+ms:contentKeyID: 48185291
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: be12aabd8c4d7aa026e6c7e1ab6f1d5189a596c8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821930"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのリバース プロキシの証明書の設定
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-08_
+# <a name="set-up-certificates-for-the-reverse-proxy-in-lync-server-2013"></a><span data-ttu-id="83b34-102">Lync Server 2013 でのリバース プロキシの証明書の設定</span><span class="sxs-lookup"><span data-stu-id="83b34-102">Set up certificates for the reverse proxy in Lync Server 2013</span></span>
 
-各リバース プロキシ サーバーは、リッスン サービスで使用する Web サーバー証明書を必要とします。Web サーバー証明書は、パブリック証明機関 (CA) が発行する必要があります。
+</div>
 
-この証明書およびその他の証明書の要件の詳細については、「[Lync Server 2013 における外部ユーザー アクセスに対する証明書要件](lync-server-2013-certificate-requirements-for-external-user-access.md)」を参照してください。
+<div id="mainSection">
 
-## リバース プロキシの Web サービス証明書を設定するには
+<div id="mainBody">
 
-  - Web サービス証明書の設定を含め、既にリバース プロキシの設定が済んでいる必要があります。エッジ サーバーの展開を開始する前にその設定を行わなかった場合は、「[Lync Server 2013 のリバース プロキシ サーバーの設定](lync-server-2013-setting-up-reverse-proxy-servers.md)」の手順に従って、要求を作成し、Web サービス証明書をインストールし、各 Web 公開ルールを作成して、証明書を使用するようにルールを構成してください。
+<span> </span>
+
+<span data-ttu-id="83b34-103">_**最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="83b34-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+
+<span data-ttu-id="83b34-104">各リバースプロキシサーバーでは、リスニングサービスで使用するために web サーバー証明書が必要です。</span><span class="sxs-lookup"><span data-stu-id="83b34-104">Each reverse proxy server requires a web server certificate for use by the listening service.</span></span> <span data-ttu-id="83b34-105">Web サーバー証明書は、公開証明機関 (CA) によって発行されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="83b34-105">The web server certificate must be issued by a public certification authority (CA).</span></span>
+
+<span data-ttu-id="83b34-106">このような証明書の要件の詳細については、「 [Lync Server 2013 の外部ユーザーアクセスの証明書の要件](lync-server-2013-certificate-requirements-for-external-user-access.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="83b34-106">For details about this and other certificate requirements, see [Certificate requirements for external user access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).</span></span>
+
+<div>
+
+## <a name="to-set-up-a-web-services-certificate-for-the-reverse-proxy"></a><span data-ttu-id="83b34-107">リバースプロキシの Web サービス証明書を設定するには</span><span class="sxs-lookup"><span data-stu-id="83b34-107">To set up a Web Services certificate for the reverse proxy</span></span>
+
+  - <span data-ttu-id="83b34-108">Web サービス証明書のセットアップなど、リバースプロキシを既にセットアップしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="83b34-108">You should have already set up your reverse proxy, including setting up the Web Services certificate.</span></span> <span data-ttu-id="83b34-109">エッジサーバーの展開を開始する前に、この操作を行っていない場合は、「 [Lync Server 2013 用のリバースプロキシサーバー](lync-server-2013-setting-up-reverse-proxy-servers.md)をセットアップして、web サービスの証明書を作成してインストールする」の手順を実行し、各 web 発行ルールを作成して、証明書を使用するように構成します。</span><span class="sxs-lookup"><span data-stu-id="83b34-109">If you did not do so before starting your deployment of your Edge Servers, use the procedures in [Setting up reverse proxy servers for Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) to create request and install the Web Services certificate, and then create each web publishing rule and configure it to use the certificate.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

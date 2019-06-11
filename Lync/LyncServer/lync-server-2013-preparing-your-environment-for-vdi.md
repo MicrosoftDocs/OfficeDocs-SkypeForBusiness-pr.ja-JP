@@ -1,25 +1,55 @@
-﻿---
-title: 'Lync Server 2013: VDI の使用環境の準備'
-TOCTitle: VDI の使用環境の準備
-ms:assetid: a3ec2e13-1a73-4b1c-a54a-8db7d4cd50f9
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205154(v=OCS.15)
-ms:contentKeyID: 48273164
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: VDI の使用環境の準備'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing your environment for VDI
+ms:assetid: a3ec2e13-1a73-4b1c-a54a-8db7d4cd50f9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205154(v=OCS.15)
+ms:contentKeyID: 48185052
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5081d1267b9de521ebd17fa5f3ec5ae57a912970
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823701"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# VDI の Lync Server 2013 使用環境の準備
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-22_
+# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a><span data-ttu-id="d0804-102">VDI の Lync Server 2013 使用環境の準備</span><span class="sxs-lookup"><span data-stu-id="d0804-102">Preparing your Lync Server 2013 environment for VDI</span></span>
 
-Lync VDI プラグインを使用する環境を準備するには、次の手順を実行する必要があります。
+</div>
 
-1.  Lync Server 2013 で、すべての VDI ユーザーに対して EnableMediaRedirection が TRUE に設定されていることを確認します。詳細については、[New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) コマンドレットおよび [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) コマンドレットに関するヘルプ トピックを参照してください。
+<div id="mainSection">
 
-2.  データ センター コンピューターで、 Lync 2013 クライアントをすべての仮想マシンにインストールします。
+<div id="mainBody">
 
-3.  ローカル コンピューターで、 Lync VDI プラグインをインストールします。
+<span> </span>
+
+<span data-ttu-id="d0804-103">_**最終更新日:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="d0804-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+
+<span data-ttu-id="d0804-104">Lync VDI プラグインの環境を準備するには、管理者が次の手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0804-104">To prepare the environment for the Lync VDI plug-in, the administrator must perform the following steps.</span></span>
+
+1.  <span data-ttu-id="d0804-105">Lync Server 2013 で、すべての VDI ユーザーに対して EnableMediaRedirection が TRUE に設定されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="d0804-105">In Lync Server 2013, ensure that EnableMediaRedirection is set to TRUE for all VDI users.</span></span> <span data-ttu-id="d0804-106">詳細については、「[新しい-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)コマンドレット」および「 [csclientpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy)コマンドレット」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="d0804-106">For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
+
+2.  <span data-ttu-id="d0804-107">データセンターコンピューターで、すべての仮想マシンに Lync 2013 クライアントをインストールします。</span><span class="sxs-lookup"><span data-stu-id="d0804-107">On the data center computer, install the Lync 2013 client on all virtual machines.</span></span>
+
+3.  <span data-ttu-id="d0804-108">ローカルコンピューターで、Lync VDI プラグインをインストールします。</span><span class="sxs-lookup"><span data-stu-id="d0804-108">On the local computers, install the Lync VDI plug-in.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,43 +1,75 @@
-﻿---
-title: 'Lync Server 2013: 外部ユーザー アクセスのシナリオ'
-TOCTitle: 外部ユーザー アクセスのシナリオ
-ms:assetid: 25697446-b045-4d12-9b1c-47f694b4f224
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425727(v=OCS.15)
-ms:contentKeyID: 48271507
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 外部ユーザー アクセスのシナリオ'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scenarios for external user access
+ms:assetid: 25697446-b045-4d12-9b1c-47f694b4f224
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425727(v=OCS.15)
+ms:contentKeyID: 48183640
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 27e4f7410d7038971c6ddefe1af1c7b3ecd97ab9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822329"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の外部ユーザー アクセスのシナリオ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a><span data-ttu-id="e7cc2-102">Lync Server 2013 の外部ユーザー アクセスのシナリオ</span><span class="sxs-lookup"><span data-stu-id="e7cc2-102">Scenarios for external user access in Lync Server 2013</span></span>
 
-外部ユーザーが Lync Server 2013 にアクセスできるようにするには、境界ネットワークに少なくとも 1 つの エッジ サーバーと 1 つのリバース プロキシを展開する必要があります。必要に応じて、内部ネットワークに ディレクターまたは ディレクター プールを展開することもできます。
+</div>
 
-1 つの エッジ サーバーでは処理能力が不足する場合、または エッジ サーバー展開で高可用性が必要な場合は、負荷分散を構成し、負荷分散されたプールに複数の エッジ サーバーを展開できます。複数のデータ センターがある組織では、エッジ サーバー展開または エッジ プール展開を複数の場所に配置できます。ただし、フェデレーション ルートとして指定できるのは 1 つの エッジ サーバー展開のみです。
+<div id="mainSection">
 
-このセクションでは、エッジ サーバー展開のシナリオを定義し、「計画」のセクションを実行可能なシナリオに対応付けます。たとえば、展開に高可用性、XMPP (eXtensible Messaging and Presence Protocol) 連絡先とのフェデレーション、および Lync のモビリティが必要な場合は、下の表でこれらの要件を満たす項目を選択し、参照先の「計画」のセクションを使用して、次のフロー チャートに示すように展開を定義します。
+<div id="mainBody">
 
-**エッジ サーバー展開シナリオの選択プロセス**
+<span> </span>
 
-![展開例フローチャート](images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "展開例フローチャート")
+<span data-ttu-id="e7cc2-103">_**最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="e7cc2-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-このプロセスを使用すると、ユーザーに展開する可能性のあるすべての機能の構成を計画し、ドキュメント化することができます。ただし、フェデレーション サービスとモビリティ サービスは、エッジ サーバーを展開して正常な動作を確認した後で、他の機能を追加する前に追加できます。既存の エッジ サーバー展開に機能を追加するプロセスについては、「展開」のセクションで説明しています。展開の詳細については、「[Lync Server 2013 での外部ユーザー アクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。最初の計画プロセス時にこれらの機能の計画を組み込むことで、追加する機能の DNS、ファイアウォール、および証明書の要件に対する準備をし、事前に証明書を取得して DNS とポート/プロトコルの要件を構成できるようになります。
+<span data-ttu-id="e7cc2-104">Lync Server 2013 の外部ユーザーアクセスを提供するには、境界ネットワークに少なくとも1つのエッジサーバーと1つの逆プロキシを展開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-104">Providing external user access for Lync Server 2013 requires that you deploy at least one Edge Server and one reverse proxy in your perimeter network.</span></span> <span data-ttu-id="e7cc2-105">必要に応じて、内部ネットワークにディレクターまたはディレクタープールを展開することができます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-105">Optionally, you may deploy a Director or Director pool in your internal network.</span></span>
+
+<span data-ttu-id="e7cc2-106">1つのエッジサーバーでは提供できないキャパシティを確保する必要がある場合、またはエッジサーバーの展開に高可用性が必要な場合は、負荷分散プールで複数のエッジサーバーを構成することができます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-106">If you need greater capacity than a single Edge Server can provide, or if you need high availability for your Edge Server deployment, you can configure load balancing and deploy multiple Edge Servers in a load balanced pool.</span></span> <span data-ttu-id="e7cc2-107">組織に複数のデータセンターがある場合は、複数の場所でエッジサーバーまたはエッジプールの展開を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-107">If your organization has multiple data centers, you can have Edge Server or Edge pool deployments at more than one location.</span></span> <span data-ttu-id="e7cc2-108">ただし、1エッジサーバーの展開のみをフェデレーションルートとして指定できます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-108">However, only one of the Edge Server deployments can be designated as the federation route.</span></span>
+
+<span data-ttu-id="e7cc2-109">このセクションでは、Edge Server の展開のシナリオを定義し、計画セクションを考えられるシナリオにマップします。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-109">This section defines the scenarios for Edge Server deployments and maps the planning sections to the possible scenarios.</span></span> <span data-ttu-id="e7cc2-110">たとえば、高い可用性、拡張可能なメッセージングとプレゼンス (XMPP) の連絡先とのフェデレーション、および Lync のモバイル機能が必要な場合は、次の表で、これらの要件を満たす対応エントリを選択して、次のフローチャートに示すように、参照計画セクションで展開を定義します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-110">For example, if your deployment requires high availability, federation with extensible messaging and presence (XMPP) contacts, and Lync mobility, you would select the matching entries in the following table that would satisfy these requirements and use the referenced planning sections to define your deployment, as illustrated in the following flowchart.</span></span>
+
+<span data-ttu-id="e7cc2-111">**エッジサーバーの展開シナリオの選択プロセス**</span><span class="sxs-lookup"><span data-stu-id="e7cc2-111">**Edge Server deployment scenario selection process**</span></span>
+
+<span data-ttu-id="e7cc2-112">![展開フローチャートの例](images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "展開フローチャートの例")</span><span class="sxs-lookup"><span data-stu-id="e7cc2-112">![Sample deployment flowchart](images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Sample deployment flowchart")</span></span>
+
+<span data-ttu-id="e7cc2-113">このプロセスを使用することで、ユーザーに展開する可能性があるすべての機能の構成を計画し、文書化することができます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-113">By using this process, you can plan for and document the configuration of all potential features that you intend to deploy for your users.</span></span> <span data-ttu-id="e7cc2-114">ただし、エッジサーバーを展開して、他の機能を追加する前に適切な操作を確認した後で、フェデレーションサービスとモバイルサービスを追加することができます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-114">However, you can add federation and mobility services after you have deployed the Edge Server and have confirmed the correct operation before adding other features.</span></span> <span data-ttu-id="e7cc2-115">既存のエッジサーバー展開に機能を追加するプロセスについては、「展開」セクションを参照してください。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-115">The process of adding features to an existing Edge Server deployment is covered in the Deployment section.</span></span> <span data-ttu-id="e7cc2-116">展開の詳細については、「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。最初の計画プロセスでこれらの機能の計画を含めることで、追加した機能の DNS、ファイアウォール、証明書の要件を準備することができます。これにより、証明書を取得し、DNS およびポート/プロトコルの要件を事前に構成することができます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-116">For details on deployment, see [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) By including planning for these features during the initial planning process, you can prepare for the DNS, firewall, and certificate requirements for the added features, which enables you to acquire the certificates and configure DNS and port/protocol requirements in advance.</span></span>
+
+<div>
 
 
-> [!TIP]
-> エッジ サーバーとリバース プロキシをインストールし、後から機能 (フェデレーションやモビリティなど) を追加することを計画している場合は、展開後にすべてのサービスにどのような証明書が必要になるかを確認してください。最初から展開するかどうかにかかわらず、すべての機能に必要な証明書の計画を事前に立てて取得しておくと、フェデレーション (つまり エッジ サーバー上) の要件やリバース プロキシ (つまりモビリティ サービス用) の要件を満たすために新しい証明書を注文せずに済むようになります。
+> [!TIP]  
+> <span data-ttu-id="e7cc2-117">エッジサーバーとリバースプロキシをインストールし、後で機能を追加することを計画している場合 (たとえば、フェデレーションとモビリティ)、展開後にすべてのサービスに必要な証明書を決定します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-117">If you are planning to install the Edge Servers and reverse proxy and then add features later (for example, federation and mobility), determine what certificates you will require for all services after deployment.</span></span> <span data-ttu-id="e7cc2-118">事前にすべての機能の証明書を計画して取得する場合は、最初に展開されたかどうかにより、新しい証明書の順序を設定して、フェデレーション (つまりエッジサーバー上) またはリバースプロキシ (つまり、モビリティ) の要件を満たす必要があります。サービス)。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-118">Planning for and acquiring the certificates for all features in advance, initially deployed or not, saves you from having to order new certificates to satisfy the requirements of federation (that is, on the Edge Servers) or the reverse proxy (that is, for mobility services).</span></span>
 
 
 
-> [!NOTE]
-> エッジ サービスはすべて各 エッジ サーバーで実行されます。2 つの異なる エッジ サーバーにサービスを分割することはできません。スケーラビリティを実現するために エッジ プールを展開する場合、エッジ サービスはすべてプール内の各 エッジ サーバーに展開されます。XMPP フェデレーション、Office Communications Server、Lync Server フェデレーション、パブリック IM 接続、クライアント モビリティの各追加サービスは、最初の エッジ サーバーまたは エッジ プールを展開した後で展開できます。モビリティ サービス機能では、リバース プロキシが使用されます。モビリティ サービスをインストールしても エッジ サーバーには機能が追加されませんが、リバース プロキシの再構成が必要になります。これらの機能を示す [ <strong>インストールの目標</strong>] 列に対応する [ <strong>エッジ サーバーの「計画」のセクション</strong>] 列の項目には、エッジ サーバーをインストールして構成するのと並行してこれらの機能の展開を計画するためのガイダンスが示されています。
+</div>
+
+<div>
 
 
-## 展開の目標を見極めて対応付ける
+> [!NOTE]  
+> <span data-ttu-id="e7cc2-119">エッジサービスは、各エッジサーバー上で実行されます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-119">All edge services run on each Edge Server.</span></span> <span data-ttu-id="e7cc2-120">サービスは、2つの異なるエッジサーバー間で分割することはできません。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-120">Services cannot be split between two different Edge Servers.</span></span> <span data-ttu-id="e7cc2-121">スケーラビリティのためにエッジプールを展開すると、すべてのエッジサービスがプールの各エッジサーバーに展開されます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-121">If you deploy an Edge pool for scalability, all edge services are deployed on each Edge Server in the pool.</span></span> <span data-ttu-id="e7cc2-122">XMPP フェデレーション、Office Communications Server、Lync Server federation、パブリック IM 接続、クライアントモビリティは、最初のエッジサーバーまたはエッジプールの展開後に展開できる追加サービスです。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-122">XMPP federation, Office Communications Server, and Lync Server federation, public IM connectivity and client mobility are additional services that can be deployed after you have deployed your first Edge Server or Edge pool.</span></span> <span data-ttu-id="e7cc2-123">モビリティーサービスは、リバースプロキシを使用する機能です。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-123">Mobility services is a feature that uses the reverse proxy.</span></span> <span data-ttu-id="e7cc2-124">モバイルサービスをインストールしても、エッジサーバーに機能は追加されませんが、リバースプロキシの再構成が必要になります。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-124">Installation of mobility services will not add features to your Edge Servers, but will require reconfiguration of your reverse proxy.</span></span> <span data-ttu-id="e7cc2-125">これらの機能が表示されている [<STRONG>インストールの目標</STRONG>] 列で<STRONG></STRONG>は、エッジサーバーの場合、これらの機能を同時に計画するための、関連する列にある関連列の計画ガイダンスについて説明します。をインストールして構成します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-125">The <STRONG>Installation goal</STRONG> column that lists these features provides planning guidance in the associated column under <STRONG>Edge Server planning section or sections</STRONG> for concurrently planning these features to be deployed when the Edge Servers are installed and configured.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="identifying-and-mapping-your-deployment-goals"></a><span data-ttu-id="e7cc2-126">展開目標の特定とマッピング</span><span class="sxs-lookup"><span data-stu-id="e7cc2-126">Identifying and Mapping Your Deployment Goals</span></span>
 
 
 <table>
@@ -47,61 +79,78 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>インストールの目標</th>
-<th>エッジ サーバーの「計画」のドキュメント</th>
+<th><span data-ttu-id="e7cc2-127">インストールの目標</span><span class="sxs-lookup"><span data-stu-id="e7cc2-127">Installation goal</span></span></th>
+<th><span data-ttu-id="e7cc2-128">エッジサーバー計画のドキュメント</span><span class="sxs-lookup"><span data-stu-id="e7cc2-128">Edge Server planning documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>現在のインフラストラクチャのエッジ サービスには、単一のサーバーで十分であると判断しました。また、エッジ サーバーの外部インターフェイスにはプライベート IP アドレスを使用し、NAT 経由でインターネットに接続する予定です。</p>
-<p>境界内に単一の エッジ サーバーを展開する場合は、この「計画」のセクションを使用してください。プライベート IP アドレスを エッジ サーバーに割り当てて エッジ サーバーを展開し、インターネット上の外部ユーザーには NAT を使用してパブリック IP アドレスを提供します。</p></td>
-<td><p><a href="lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md">Lync Server 2013 におけるプライベート IP アドレスと NAT を用いた単一統合エッジ</a></p></td>
+<td><p><span data-ttu-id="e7cc2-129">お客様は、インフラストラクチャのエッジサービスには1台のサーバーのみで十分であると判断しました。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-129">You have decided that a single server is sufficient for Edge services in your infrastructure.</span></span> <span data-ttu-id="e7cc2-130">また、インターネットに NAT を使用して、エッジサーバーの外部インターフェイスに対してもプライベート IP アドレスを使用することを意図しています。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-130">You also intend to use private IP addresses for the Edge server external interfaces with NAT to the Internet.</span></span></p>
+<p><span data-ttu-id="e7cc2-131">この計画セクションは、境界に単一エッジサーバーを展開する場合に使用します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-131">Use this planning section if you are deploying a single Edge Server in your perimeter.</span></span> <span data-ttu-id="e7cc2-132">エッジサーバーに、プライベート IP アドレスが割り当てられたエッジサーバーを展開し、インターネット上の外部ユーザーに対して NAT を使用してパブリック IP アドレスを提供します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-132">You will deploy an Edge Server with private IP addresses assigned to the Edge Server and will use NAT to provide the public IP addresses for the external users on the Internet.</span></span></p></td>
+<td><p><span data-ttu-id="e7cc2-133"><a href="lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md">Lync Server 2013 におけるプライベート IP アドレスと NAT を用いた単一統合エッジ</a></span><span class="sxs-lookup"><span data-stu-id="e7cc2-133"><a href="lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>現在のインフラストラクチャのエッジ サービスには、単一のサーバーで十分であると判断しました。また、エッジ サーバーの外部インターフェイスにはパブリック IP アドレスを使用してインターネットに接続する予定です。</p>
-<p>境界内に単一の エッジ サーバーを展開する場合は、この「計画」のセクションを使用してください。パブリック IP アドレスを エッジ サーバーに割り当てて エッジ サーバーを展開します。NAT の代わりに、このシナリオではルーティングを使用します。エッジ サーバーの実際のパブリック IP アドレスが外部ユーザーの接続に使用されます。</p></td>
-<td><p><a href="lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md">Lync Server 2013 のパブリック IP アドレスを使用する単一統合エッジ</a></p></td>
+<td><p><span data-ttu-id="e7cc2-134">お客様は、インフラストラクチャのエッジサービスには1台のサーバーのみで十分であると判断しました。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-134">You have decided that a single server is sufficient for Edge services in your infrastructure.</span></span> <span data-ttu-id="e7cc2-135">また、エッジサーバーのインターネットへの外部インターフェイスにパブリック IP アドレスを使いたいと考えています。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-135">You also intend to use public IP addresses for the Edge server external interfaces to the Internet.</span></span></p>
+<p><span data-ttu-id="e7cc2-136">この計画セクションは、境界に単一エッジサーバーを展開する場合に使用します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-136">Use this planning section if you are deploying a single Edge Server in your perimeter.</span></span> <span data-ttu-id="e7cc2-137">エッジサーバーにパブリック IP アドレスが割り当てられたエッジサーバーを展開します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-137">You will deploy an Edge Server with public IP addresses assigned to the Edge Server.</span></span> <span data-ttu-id="e7cc2-138">NAT の代わりに、このシナリオでルーティングを使います。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-138">Instead of NAT, you will use routing in this scenario.</span></span> <span data-ttu-id="e7cc2-139">エッジサーバーの実際のパブリック IP アドレスは、外部ユーザー接続に対して利用可能になります。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-139">The actual public IP address of the Edge Server are made available for external user connections.</span></span></p></td>
+<td><p><span data-ttu-id="e7cc2-140"><a href="lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md">Lync Server 2013 のパブリック IP アドレスを使用する単一統合エッジ</a></span><span class="sxs-lookup"><span data-stu-id="e7cc2-140"><a href="lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md">Single consolidated edge with public IP addresses in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ユーザーにとってエッジ サービスの高可用性が重要であると判断し、このプールに複数のエッジ サーバーを展開することにしました。また、エッジ サーバーの外部インターフェイスにはプライベート IP アドレスを使用し、NAT 経由でインターネットに接続する予定です。</p>
-<p>境界内に エッジ サーバーのプールを展開する場合は、この「計画」のセクションを使用してください。プライベート IP アドレスを エッジ サーバーに割り当てて エッジ サーバーを展開し、DNS 負荷分散を使用して通信をプール全体で分散します。インターネット上の外部ユーザーには NAT を使用してパブリック IP アドレスを提供します。</p></td>
-<td><p><a href="lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md">Lync Server 2013 における拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散</a></p></td>
+<td><p><span data-ttu-id="e7cc2-141">エッジサービスの高可用性がユーザーにとって重要であり、このプールに2つ以上のエッジサーバーを展開することを決定しました。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-141">You have decided that high availability of the Edge services is important to your users and you will deploy two or more Edge Servers in this pool.</span></span> <span data-ttu-id="e7cc2-142">また、インターネットに NAT を使用して、エッジサーバーの外部インターフェイスに対してもプライベート IP アドレスを使用することを意図しています。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-142">You also intend to use private IP addresses for the Edge Server external interfaces with NAT to the Internet.</span></span></p>
+<p><span data-ttu-id="e7cc2-143">境界にエッジサーバーのプールを展開する場合は、この計画セクションを使用します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-143">Use this planning section if you are deploying a pool of Edge Servers in your perimeter.</span></span> <span data-ttu-id="e7cc2-144">DNS の負荷分散を使ってプール間で通信を分散する、エッジサーバーに割り当てられているプライベート IP アドレスを持つエッジサーバーを展開します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-144">You will deploy the Edge Servers with private IP addresses assigned to the Edge Server, using DNS load balancing to distribute communication across the pool.</span></span> <span data-ttu-id="e7cc2-145">インターネット上の外部ユーザーに対してパブリック IP アドレスを提供するには、NAT を使用します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-145">You will use NAT to provide the public IP addresses for the external users on the Internet.</span></span></p></td>
+<td><p><span data-ttu-id="e7cc2-146"><a href="lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md">Lync Server 2013 における拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散</a></span><span class="sxs-lookup"><span data-stu-id="e7cc2-146"><a href="lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>ユーザーにとってエッジ サービスの高可用性が重要であると判断し、このプールに複数の エッジ サーバーを展開することにしました。また、エッジ サーバーの外部インターフェイスにはパブリック IP アドレスを使用してインターネットに接続する予定です。</p>
-<p>境界内に エッジ サーバーのプールを展開する場合は、この「計画」のセクションを使用してください。パブリック IP アドレスを エッジ サーバーに割り当てて エッジ サーバーを展開し、DNS 負荷分散を使用して通信をプール全体で分散します。NAT の代わりにルーティングを使用して、インターネット上の外部ユーザーにパブリック IP アドレスを提供します。</p></td>
-<td><p><a href="lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md">Lync Server 2013 での拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散</a></p></td>
+<td><p><span data-ttu-id="e7cc2-147">エッジサービスの高可用性がユーザーにとって重要であり、このプールに2つ以上のエッジサーバーを展開することを決定しました。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-147">You have decided that high availability of the Edge services is important to your users and you will deploy two or more Edge Servers in this pool.</span></span> <span data-ttu-id="e7cc2-148">また、エッジサーバーのインターネットへの外部インターフェイスにパブリック IP アドレスを使いたいと考えています。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-148">You also intend to use public IP addresses for the Edge Server external interfaces to the Internet.</span></span></p>
+<p><span data-ttu-id="e7cc2-149">境界にエッジサーバーのプールを展開する場合は、この計画セクションを使用します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-149">Use this planning section if you are deploying a pool of Edge Servers in your perimeter.</span></span> <span data-ttu-id="e7cc2-150">DNS の負荷分散を使ってプール間で通信を分散する、エッジサーバーに割り当てられたパブリック IP アドレスを持つエッジサーバーを展開します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-150">You will deploy the Edge Servers with public IP addresses assigned to the Edge Server, using DNS load balancing to distribute communication across the pool.</span></span> <span data-ttu-id="e7cc2-151">NAT の代わりに、ルーティングを使用して、インターネット上の外部ユーザーに対してパブリック IP アドレスを提供します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-151">Instead of NAT, you will use routing to provide the public IP addresses for the external users on the Internet.</span></span></p></td>
+<td><p><span data-ttu-id="e7cc2-152"><a href="lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md">Lync Server 2013 での拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散</a></span><span class="sxs-lookup"><span data-stu-id="e7cc2-152"><a href="lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ユーザーにとってエッジ サービスの高可用性が重要であると判断し、ロード バランサー機器を使用してこのプールに複数の エッジ サーバーを展開することにしました。</p>
-<p>境界内に エッジ サーバーのプールを展開する場合は、この「計画」のセクションを使用してください。パブリック IP アドレスを エッジ サーバーに割り当てて エッジ サーバーを展開し、ロード バランサー機器を使用して通信をプール全体で分散します。NAT の代わりにルーティングを使用して、インターネット上の外部ユーザーにパブリック IP アドレスを提供します。</p></td>
-<td><p><a href="lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md">Lync Server 2013 のハードウェア ロード バランサーによる拡張統合エッジ</a></p></td>
+<td><p><span data-ttu-id="e7cc2-153">エッジサービスの高可用性がユーザーにとって重要であると判断し、ハードウェアロードバランサーを使って、このプールに2つ以上のエッジサーバーを展開します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-153">You have decided that high availability of the Edge services is important to your users and you will deploy two or more Edge Servers in this pool using a hardware load balancer.</span></span></p>
+<p><span data-ttu-id="e7cc2-154">境界にエッジサーバーのプールを展開する場合は、この計画セクションを使用します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-154">Use this planning section if you are deploying a pool of Edge Servers in your perimeter.</span></span> <span data-ttu-id="e7cc2-155">ハードウェアロードバランサーを使ってプール間で通信を分散するエッジサーバーを、エッジサーバーに割り当てられたパブリック IP アドレスを使って展開します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-155">You will deploy the Edge Servers with public IP addresses assigned to the Edge Server, using hardware load balancers to distribute communication across the pool.</span></span> <span data-ttu-id="e7cc2-156">NAT の代わりに、ルーティングを使用して、インターネット上の外部ユーザーに対してパブリック IP アドレスを提供します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-156">Instead of NAT, you will use routing to provide the public IP addresses for the external users on the Internet.</span></span></p></td>
+<td><p><span data-ttu-id="e7cc2-157"><a href="lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md">Lync Server 2013 のハードウェア ロード バランサーによる拡張統合エッジ</a></span><span class="sxs-lookup"><span data-stu-id="e7cc2-157"><a href="lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md">Scaled consolidated edge with hardware load balancers in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>フェデレーションのシナリオを使用すると、ユーザーが通信できるパートナーの種類を拡大する機能の計画を立てることができます。</p>
+<td><p><span data-ttu-id="e7cc2-158">フェデレーションシナリオでは、ユーザーが通信できるパートナーの種類を拡張する機能を計画することができます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-158">The federation scenarios allow you to plan for the feature that will extend the types of partners that your users can communicate with.</span></span></p>
 <ul>
-<li><p>Lync Server フェデレーション</p></li>
-<li><p>Office Communications Server フェデレーション</p></li>
-<li><p>パブリック IM 接続</p></li>
-<li><p>XMPP フェデレーション</p></li>
+<li><p><span data-ttu-id="e7cc2-159">Lync Server フェデレーション</span><span class="sxs-lookup"><span data-stu-id="e7cc2-159">Lync Server federation</span></span></p></li>
+<li><p><span data-ttu-id="e7cc2-160">Office Communications Server フェデレーション</span><span class="sxs-lookup"><span data-stu-id="e7cc2-160">Office Communications Server federation</span></span></p></li>
+<li><p><span data-ttu-id="e7cc2-161">パブリック IM 接続</span><span class="sxs-lookup"><span data-stu-id="e7cc2-161">Public IM connectivity</span></span></p></li>
+<li><p><span data-ttu-id="e7cc2-162">XMPP フェデレーション</span><span class="sxs-lookup"><span data-stu-id="e7cc2-162">XMPP federation</span></span></p></li>
 </ul></td>
-<td><p>フェデレーションのシナリオの計画</p>
+<td><p><span data-ttu-id="e7cc2-163">フェデレーションシナリオの計画</span><span class="sxs-lookup"><span data-stu-id="e7cc2-163">Planning for Federation Scenarios</span></span></p>
 <ul>
-<li><p><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Lync Server と Office Communications Server のフェデレーションの計画</a></p></li>
-<li><p><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">パブリック インスタント メッセージング接続の計画</a></p></li>
-<li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Lync Server 2013 での XMPP (Extensible Messaging and Presence Protocol) フェデレーションの計画</a></p></li>
+<li><p><span data-ttu-id="e7cc2-164"><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Lync Server 2013 と Office Communications Server フェデレーションの計画</a></span><span class="sxs-lookup"><span data-stu-id="e7cc2-164"><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Planning for Lync Server 2013 and Office Communications Server federation</a></span></span></p></li>
+<li><p><span data-ttu-id="e7cc2-165"><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">Lync Server 2013 でのパブリックインスタントメッセージング接続の計画</a></span><span class="sxs-lookup"><span data-stu-id="e7cc2-165"><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">Planning for public instant messaging connectivity in Lync Server 2013</a></span></span></p></li>
+<li><p><span data-ttu-id="e7cc2-166"><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Lync Server 2013 での拡張メッセージングとプレゼンスプロトコル (XMPP) フェデレーションの計画</a></span><span class="sxs-lookup"><span data-stu-id="e7cc2-166"><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</a></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>モビリティ サービスはリバース プロキシを通じて提供されます。外部ユーザーに対してモビリティを有効にするサービスは、フロント エンド サーバーまたは フロント エンド プールに展開されます。リバース プロキシの公開ルールを作成または変更し、外部ユーザーに対してモビリティ サービスを有効にします。</p></td>
-<td><p><a href="lync-server-2013-planning-for-mobility.md">Lync Server 2013 でのモビリティの計画</a></p></td>
+<td><p><span data-ttu-id="e7cc2-167">モビリティーサービスはリバースプロキシを通じて提供されます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-167">Mobility services are offered through the reverse proxy.</span></span> <span data-ttu-id="e7cc2-168">外部ユーザーに対するモビリティを有効にするサービスは、フロントエンドサーバーまたはフロントエンドプールに展開されます。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-168">Services that enable mobility for external users are deployed on the Front End Server or Front End pool.</span></span> <span data-ttu-id="e7cc2-169">リバースプロキシで既存の公開ルールを作成または変更して、外部ユーザーのモビリティサービスを有効にします。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-169">You create or modify existing publishing rules on the reverse proxy to enable mobility services for your external users.</span></span></p></td>
+<td><p><span data-ttu-id="e7cc2-170"><a href="lync-server-2013-planning-for-mobility.md">Lync Server 2013 でのモビリティの計画</a></span><span class="sxs-lookup"><span data-stu-id="e7cc2-170"><a href="lync-server-2013-planning-for-mobility.md">Planning for mobility in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
 
-> [!TIP]
-> 以下の「シナリオ」のセクションには、関連アーキテクチャ、DNS の例、ポート/プロトコルの定義、および証明書要件が記載されています。また、DNS、ポート/プロトコルの定義、および証明書要件用の図表も含まれています。この図表は、記入して他のチーム (組織のネットワーク チーム、公開キー基盤チーム、サーバー展開チームなど) に配布するためのテンプレートになります。意思疎通を円滑にし、実際の構成作業に携わる人々に エッジ サーバーに必要な構成要素を正しく伝達できるように作成されています。展開を計画する際にはこの図表と関連アーキテクチャを使用することをお勧めします。
 
+> [!TIP]  
+> <span data-ttu-id="e7cc2-171">次のシナリオでは、リファレンスアーキテクチャ、DNS、ポート/プロトコル定義、証明書の要件などについて説明します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-171">In the following Scenarios sections are reference architectures, example DNS, port/protocol definitions, and certificate requirements.</span></span> <span data-ttu-id="e7cc2-172">DNS、ポート/プロトコル定義、証明書のニーズに関する図も含まれています。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-172">Also included are diagrams for your DNS, port/protocol definitions and certificate needs.</span></span> <span data-ttu-id="e7cc2-173">この図では、他のチーム (たとえば、組織のネットワークチーム、公開キー基盤チーム、サーバー展開チーム) に入力して配布するためのテンプレートを提供します。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-173">The diagrams will provide a template for you to fill in and distribute to other teams (for example, your organization’s Network Team, Public Key Infrastructure Team, and Server Deployment Team).</span></span> <span data-ttu-id="e7cc2-174">図の目的は、コミュニケーションを強化し、必要なエッジサーバー構成要素を実際の構成作業を行うユーザーに伝えるときの成功を確実にすることです。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-174">The goal of the diagrams is to enhance communication and to ensure success when communicating the required Edge Server configuration elements to the people who will do the actual configuration work.</span></span> <span data-ttu-id="e7cc2-175">図と関連付けられた参照アーキテクチャを使用して展開を計画することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="e7cc2-175">We recommend that you use the diagrams and associated reference architectures to plan your deployment.</span></span>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

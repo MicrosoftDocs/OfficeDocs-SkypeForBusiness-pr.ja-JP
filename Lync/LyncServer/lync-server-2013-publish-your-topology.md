@@ -1,42 +1,80 @@
-﻿---
-title: 'Lync Server 2013: トポロジの公開'
-TOCTitle: トポロジの公開
-ms:assetid: bfed3829-7a54-4b5c-a7cb-28871acd35e7
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412935(v=OCS.15)
-ms:contentKeyID: 48273446
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: トポロジの公開'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Publish your topology
+ms:assetid: bfed3829-7a54-4b5c-a7cb-28871acd35e7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412935(v=OCS.15)
+ms:contentKeyID: 48185287
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3bd542db6acedbec75e475045ae2ace6d63d5469
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823666"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのトポロジの公開
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-08_
+# <a name="publish-your-topology-in-lync-server-2013"></a><span data-ttu-id="99152-102">Lync Server 2013 でのトポロジの公開</span><span class="sxs-lookup"><span data-stu-id="99152-102">Publish your topology in Lync Server 2013</span></span>
 
-トポロジ ビルダーを使用してトポロジを作成するときには毎回、そのトポロジを 中央管理ストアのデータベースに対して公開し、データを Lync Server 2013 の展開で使用できるようにする必要があります。次の手順を使用してトポロジを公開してください。
+</div>
 
-## トポロジを公開するには
+<div id="mainSection">
 
-1.  トポロジ ビルダーを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server トポロジ ビルダー**\] の順にクリックします。
+<div id="mainBody">
 
-2.  トポロジ ビルダーのコンソール ツリーで、\[**Lync 2013**\] を右クリックし、\[**トポロジの公開**\] をクリックします。
+<span> </span>
 
-3.  ウィザードの \[**ようこそ**\] ページで、\[**次へ**\] をクリックします。
+<span data-ttu-id="99152-103">_**最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="99152-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-4.  \[**トポロジ ビルダーで検出した CMS ストア**\] ページで、\[**次へ**\] をクリックします。
+<span data-ttu-id="99152-104">トポロジビルダーを使用してトポロジを構築するたびに、データを使用して Lync Server 2013 を展開できるように、トポロジを中央管理ストアのデータベースに発行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="99152-104">Each time you use Topology Builder to build your topology, you must publish the topology to a database in the Central Management store so that the data can be used to deploy Lync Server 2013.</span></span> <span data-ttu-id="99152-105">トポロジを公開するには、次の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="99152-105">Use the following procedure to publish your topology.</span></span>
 
-5.  \[**他のデータベースの作成**\] ページで、\[**次へ**\] をクリックします。
+<div>
 
-6.  状態に、データベースが正常に作成されたことが示されたら、次の操作を行います。
+## <a name="to-publish-the-topology"></a><span data-ttu-id="99152-106">トポロジを公開するには</span><span class="sxs-lookup"><span data-stu-id="99152-106">To publish the topology</span></span>
+
+1.  <span data-ttu-id="99152-107">トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="99152-107">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="99152-108">[トポロジビルダー] のコンソールツリーで、[ **Lync 2013**] を右クリックし、[**トポロジの公開**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99152-108">In Topology Builder, in the console tree, right-click **Lync 2013**, and then click **Publish Topology**.</span></span>
+
+3.  <span data-ttu-id="99152-109">ウィザードの [**ようこそ**] ページで、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99152-109">On the **Welcome** page of the wizard, click **Next**.</span></span>
+
+4.  <span data-ttu-id="99152-110">**トポロジビルダーで CMS ストア**のページが見つかったら、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99152-110">On the **Topology Builder found a CMS store** page, click **Next**.</span></span>
+
+5.  <span data-ttu-id="99152-111">[**他のデータベースの作成**] ページで、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99152-111">On the **Create other databases** page, click **Next**.</span></span>
+
+6.  <span data-ttu-id="99152-112">状態がデータベースの作成に成功したことを示す場合は、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="99152-112">When the status indicates that database creation succeeded, do the following:</span></span>
     
-      - ログを表示するには、\[**ログの表示**\] をクリックします。
+      - <span data-ttu-id="99152-113">ログを表示するには、[**ログの表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99152-113">To view the log, click **View log**.</span></span>
     
-      - ウィザードを閉じるには、\[**完了**\] をクリックします。
+      - <span data-ttu-id="99152-114">ウィザードを閉じるには、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99152-114">To close the wizard, click **Finish**.</span></span>
+        
+        <div>
         
 
-        > [!IMPORTANT]
-        > これが エッジ サーバーまたは エッジ プールの新しいインストールである場合は、既存の フロント エンド サーバー、 フロント エンド プール、または Standard Edition サーバーから エッジ サーバー構成をエクスポートする必要があります。構成をエクスポートするには、「<A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">エッジ インストール用の Lync Server 2013 のトポロジをエクスポートして外部メディアにコピーする</A>」を参照してください。 エッジ サーバーのセットアップおよび展開フェーズで、 Lync Server 展開ウィザードを使用して、外部メディアやネットワーク共有から構成ファイルをインポートします。<BR>エッジ サーバーが実行され、ローカル構成管理ストア データベースが内部展開でレプリケートされると、 Lync Server 2013 構成に対する以降の更新プログラムは エッジ サーバーに公開され、レプリケートされます。
+        > [!IMPORTANT]  
+        > <span data-ttu-id="99152-115">エッジサーバーまたはエッジプールの新規インストールの場合は、既存のフロントエンドサーバー、フロントエンドプール、または Standard Edition サーバーから Edge Server 構成をエクスポートする必要があります。</span><span class="sxs-lookup"><span data-stu-id="99152-115">If this is a new installation of an Edge Server or Edge pool, you must export the Edge Server configuration from an existing Front End Server, Front End pool, or Standard Edition server.</span></span> <span data-ttu-id="99152-116">構成をエクスポートするには、「 <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Lync Server 2013 トポロジをエクスポートして、edge インストール用の外部メディアにコピーする</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="99152-116">To export the configuration, see <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Export your Lync Server 2013 topology and copy it to external media for edge installation</A>.</span></span> <span data-ttu-id="99152-117">Lync Server 展開ウィザードを通じて、エッジサーバーのセットアップおよび展開フェーズ中に、外部メディアまたはネットワーク共有から構成ファイルをインポートします。</span><span class="sxs-lookup"><span data-stu-id="99152-117">You will import the configuration file from the external media or network share during the setup and deployment phase of the Edge Servers through the Lync Server Deployment Wizard.</span></span><BR><span data-ttu-id="99152-118">エッジサーバーが動作していて、ローカル構成管理ストアデータベースが内部展開によってレプリケートされると、それ以降の Lync Server 2013 構成の更新は公開され、エッジサーバーにレプリケートされます。</span><span class="sxs-lookup"><span data-stu-id="99152-118">Once the Edge Servers are operational and the local configuration management store database is replicating with the internal deployment, subsequent updates to the Lync Server 2013 configuration will be published and replicated to the Edge Servers.</span></span>
 
+        
+        </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

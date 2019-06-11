@@ -1,47 +1,84 @@
-﻿---
-title: 'Lync Server 2013: トポロジを公開する場合の要件'
-TOCTitle: トポロジを公開する場合の要件
-ms:assetid: 841cdf5d-d884-414d-ab50-3bb681b622ed
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg195733(v=OCS.15)
-ms:contentKeyID: 48272755
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: トポロジを公開する場合の要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Requirements to publish a topology
+ms:assetid: 841cdf5d-d884-414d-ab50-3bb681b622ed
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195733(v=OCS.15)
+ms:contentKeyID: 48184688
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 02e90604315732d9e9bfe4c45968ff0bcf5fbd2e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823260"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でトポロジを公開する場合の要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-21_
+# <a name="requirements-to-publish-a-topology-in-lync-server-2013"></a><span data-ttu-id="28631-102">Lync Server 2013 でトポロジを公開する場合の要件</span><span class="sxs-lookup"><span data-stu-id="28631-102">Requirements to publish a topology in Lync Server 2013</span></span>
 
-このトピックでは、トポロジ ビルダーまたは Lync Server 2013 管理シェル コマンドライン インターフェイスを使用してトポロジを公開する場合に限って適用されるインフラストラクチャおよびソフトウェアの要件について説明します。Lync Server 2013 のすべての管理ツールは、オペレーティング システム、ソフトウェア、およびアクセス許可の一般的な要件に加えて、これらの要件も満たす必要があります。トポロジを公開する前に、管理ツールのすべての要件を満たしていることを確認してください。
+</div>
 
-  - トポロジ ビルダーは、作成する Lync Server 2013 展開と同じドメインまたはフォレストに参加するコンピューター上で実行する必要があります。このように実行すると、 Active Directory ドメイン サービス の準備が完了し、そのコンピューター上で管理ツールを実行してトポロジを適切に公開できます。
+<div id="mainSection">
 
-  - トポロジに定義されているコンピューターは、ドメイン (エッジ サーバーを除く)、および AD DS に参加する必要があります。ただし、トポロジを公開するときにコンピューターがオンラインである必要はありません。
+<div id="mainBody">
 
-  - プールのファイル共有を作成し、リモート ユーザーが使用できるようにする必要があります。
+<span> </span>
 
-  - Enterprise Edition フロント エンド プールを公開するには、SQL Server ベースのバックエンド サーバーが、サーバーを展開するドメインに参加し、オンラインであり、リモート ユーザーが使用できるように適切なファイアウォール ルールで構成する必要があります。ファイアウォール例外の指定の詳細については、「[Lync Server 2013 での SQL Server のファイアウォール要件について](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)」を参照してください。SQL Server の構成のその他の詳細については、「[Lync Server 2013 用 SQL Server の構成](lync-server-2013-configure-sql-server-for-lync-server.md)」を参照してください。
+<span data-ttu-id="28631-103">_**最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="28631-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+
+<span data-ttu-id="28631-104">このトピックでは、トポロジビルダーを使用するか、または Lync Server 2013 Management Shell コマンドラインインターフェイスを使用しているかにかかわらず、トポロジの発行に固有のインフラストラクチャとソフトウェアの要件について説明します。</span><span class="sxs-lookup"><span data-stu-id="28631-104">This topic describes the infrastructure and software requirements that are specific to publishing a topology, whether by using Topology Builder or the Lync Server 2013 Management Shell command-line interface.</span></span> <span data-ttu-id="28631-105">これらの要件は、すべての Lync Server 2013 管理ツールに適用されるオペレーティングシステム、ソフトウェア、アクセス許可の一般的な要件に加えています。</span><span class="sxs-lookup"><span data-stu-id="28631-105">These requirements are in addition to the general operating system, software, and permissions requirements applicable to all Lync Server 2013 administrative tools.</span></span> <span data-ttu-id="28631-106">トポロジを公開する前に、管理ツールの要件をすべて満たしていることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="28631-106">Make sure that you satisfy all administrative tools requirements before you publish a topology.</span></span>
+
+  - <span data-ttu-id="28631-107">Active Directory ドメインサービスの準備手順が既に完了していることを確認して、管理ツールの使用を有効にするには、作成中の Lync Server 2013 展開の同じドメインまたはフォレストに参加しているコンピューターでトポロジビルダーを実行する必要があります。このコンピューターでトポロジを正常に公開します。</span><span class="sxs-lookup"><span data-stu-id="28631-107">You must run Topology Builder on a computer that is joined to the same domain or forest of the Lync Server 2013 deployment you are creating so that Active Directory Domain Services preparation steps are already completed, enabling you to use the administrative tools on that computer to successfully publish your topology.</span></span>
+
+  - <span data-ttu-id="28631-108">トポロジで定義されたコンピューターは、エッジサーバーと AD DS を除き、ドメインに参加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="28631-108">The computers defined in the topology must be joined to the domain, except for Edge Servers, and in AD DS.</span></span> <span data-ttu-id="28631-109">ただし、トポロジを公開するときに、コンピューターはオンラインである必要はありません。</span><span class="sxs-lookup"><span data-stu-id="28631-109">However, the computers do not need to be online when you publish the topology.</span></span>
+
+  - <span data-ttu-id="28631-110">プールのファイル共有を作成し、リモートユーザーが使用できるようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="28631-110">The file share for the pool must be created and available to remote users.</span></span>
+
+  - <span data-ttu-id="28631-111">Enterprise Edition のフロントエンドプールを公開するには、SQL Server ベースのバックエンドサーバーを、リモートユーザーが利用できるようにするために、適切なファイアウォールルールを使用してサーバーを展開しているドメインに参加している必要があります。</span><span class="sxs-lookup"><span data-stu-id="28631-111">In order to publish an Enterprise Edition Front End pool, the SQL Server-based Back End Server must be joined to the domain in which you are deploying the servers, online, and configured with the appropriate firewall rules to make it available to remote users.</span></span> <span data-ttu-id="28631-112">ファイアウォールの例外の指定の詳細については、「 [Lync server 2013 での SQL Server のファイアウォール要件につい](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)て」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="28631-112">For details about specifying firewall exceptions, see [Understanding firewall requirements for SQL Server with Lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md).</span></span> <span data-ttu-id="28631-113">SQL Server の構成の詳細については、「 [Lync server 2013 用に Sql server を構成する](lync-server-2013-configure-sql-server-for-lync-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="28631-113">For other details about configuring SQL Server, see [Configure SQL Server for Lync Server 2013](lync-server-2013-configure-sql-server-for-lync-server.md).</span></span>
     
-    > [!NOTE]
-    > Standard Edition サーバーには、公開される構成を受け入れる併置されたデータベースがあります。最初に、 Lync Server 展開ウィザードで [<strong>最初の Standard Edition サーバーの準備</strong>] 設定タスクを実行する必要があります。
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="28631-114">Standard Edition サーバーには、公開された構成を受け入れる、併置されたデータベースがあります。</span><span class="sxs-lookup"><span data-stu-id="28631-114">Standard Edition server has a collocated database that will accept the published configuration.</span></span> <span data-ttu-id="28631-115">まず、Lync Server 展開ウィザードで [<STRONG>最初の Standard Edition server</STRONG>セットアップ] タスクを実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="28631-115">You must first run the <STRONG>Prepare first Standard Edition server</STRONG> setup task in the Lync Server Deployment Wizard.</span></span>
+
+    
+    </div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="28631-116">関連項目</span><span class="sxs-lookup"><span data-stu-id="28631-116">See Also</span></span>
 
 
-## 関連項目
+[<span data-ttu-id="28631-117">Lync Server 2013 でトポロジを公開する</span><span class="sxs-lookup"><span data-stu-id="28631-117">Publish the topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-topology.md)  
+[<span data-ttu-id="28631-118">Lync Server 2013 でのセットアップのアクセス許可の委任</span><span class="sxs-lookup"><span data-stu-id="28631-118">Delegate setup permissions in Lync Server 2013</span></span>](lync-server-2013-delegate-setup-permissions.md)  
 
-#### タスク
 
-[Lync Server 2013 でトポロジを公開する](lync-server-2013-publish-the-topology.md)  
-[Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)  
+[<span data-ttu-id="28631-119">Lync Server 2013 の管理ツールのソフトウェア要件</span><span class="sxs-lookup"><span data-stu-id="28631-119">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)  
+[<span data-ttu-id="28631-120">Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート</span><span class="sxs-lookup"><span data-stu-id="28631-120">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)  
 
-#### 概念
 
-[Lync Server 2013 の管理ツールのソフトウェア要件](lync-server-2013-administrative-tools-software-requirements.md)  
-[Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)  
+[<span data-ttu-id="28631-121">Lync Server 2013 のセットアップと管理に必要な管理者権限およびアクセス許可</span><span class="sxs-lookup"><span data-stu-id="28631-121">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+  
 
-#### その他のリソース
+</div>
 
-[Lync Server 2013 のセットアップと管理に必要な管理者権限およびアクセス許可](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

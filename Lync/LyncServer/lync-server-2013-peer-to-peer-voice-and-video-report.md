@@ -1,51 +1,81 @@
-﻿---
-title: 'Lync Server 2013: ピアツーピア音声およびビデオ レポート'
-TOCTitle: ピアツーピア音声およびビデオ レポート
-ms:assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615040(v=OCS.15)
-ms:contentKeyID: 48273840
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ピアツーピアの音声とビデオのレポート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Peer-to-Peer Voice and Video Report
+ms:assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615040(v=OCS.15)
+ms:contentKeyID: 48185535
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b938a5281717528143cfc077a42f51bd68f69bae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825395"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のピアツーピア音声およびビデオ レポート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a><span data-ttu-id="50f55-102">Lync Server 2013 のピアツーピア音声とビデオレポート</span><span class="sxs-lookup"><span data-stu-id="50f55-102">Peer-to-Peer Voice and Video Report in Lync Server 2013</span></span>
 
-ピアツーピア音声およびビデオ レポートは、指定した期間における音声通話やビデオ通話の配信に関する詳細を提供します (たとえば、1 時間あたりの通話回数または 1 日あたりの通話回数)。また、行われたすべての音声通話とビデオ通話を表示したり、正常な通話または失敗した通話のみを表示したりできます。レポートでは、次のグループに分割した通話情報が表示されます。
+</div>
 
-  - プール別の通話
+<div id="mainSection">
 
-  - 通話の種類別の通話 (たとえば、 Lync から Lync への通話、PSTN ネットワーク上のユーザーへの Lync 通話)
+<div id="mainBody">
 
-  - アクセスの種類別の通話 (内部ネットワークにログオンしているユーザー、外部ネットワークにログオンしているユーザー)
+<span> </span>
 
-  - 仲介サーバー別の通話
+<span data-ttu-id="50f55-103">_**最終更新日:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="50f55-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-## ピアツーピア音声およびビデオ レポートにアクセスするには
+<span data-ttu-id="50f55-p101">ピアツーピア音声およびビデオ レポートは、指定した期間における音声通話やビデオ通話の配信に関する詳細を提供します (たとえば、1 時間あたりの通話回数または 1 日あたりの通話回数)。また、行われたすべての音声通話とビデオ通話を表示したり、正常な通話または失敗した通話のみを表示したりできます。レポートでは、次のグループに分割した通話情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="50f55-p101">The Peer-to-Peer Voice and Video Report provides a detailed look at the distribution of voice and video calls over a specified period of time (for example, calls per hour or calls per day). The report also gives you the option of viewing all the voice and video calls that were made, or of viewing only the successful or failed calls. The reports shows call information broken down into the following groupings:</span></span>
 
-ピアツーピア アクティビティ概要レポートを開き、次のいずれかの指標をクリックすることによってのみ、ピアツーピア音声およびビデオ レポートにアクセスできます。
+  - <span data-ttu-id="50f55-107">プール別の通話</span><span class="sxs-lookup"><span data-stu-id="50f55-107">Calls per pool</span></span>
 
-  - \[ピアツーピア音声セッションの合計数\]
+  - <span data-ttu-id="50f55-108">通話の種類 (Lync から Lync への通話、および PSTN ネットワーク上のユーザーへの Lync 通話など) ごとの通話</span><span class="sxs-lookup"><span data-stu-id="50f55-108">Calls per call type (for example, a Lync to Lync call vs. a Lync call to a person on the PSTN network)</span></span>
 
-  - ピアツーピア音声セッションの合計時間
+  - <span data-ttu-id="50f55-109">アクセスの種類別の通話 (内部ネットワークにログオンしているユーザー、外部ネットワークにログオンしているユーザー)</span><span class="sxs-lookup"><span data-stu-id="50f55-109">Calls per access type (users logged on to the internal network vs. users logged on to the external network)</span></span>
 
-  - \[ピアツーピア ビデオ セッションの合計数\]
+  - <span data-ttu-id="50f55-110">仲介サーバーあたりの通話</span><span class="sxs-lookup"><span data-stu-id="50f55-110">Calls per Mediation Server</span></span>
 
-  - ピアツーピア ビデオ セッションの合計時間
+<div>
 
-## ピアツーピア音声およびビデオ レポートを最大限に活用するには
+## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a><span data-ttu-id="50f55-111">ピアツーピア音声およびビデオ レポートにアクセスするには</span><span class="sxs-lookup"><span data-stu-id="50f55-111">To access the peer-to-peer voice and video report</span></span>
 
-ピアツーピア音声およびビデオ レポートをフィルターするさまざまな方法があります。ただし、既定では、これらのフィルター オプションは非表示になっています。使用できるフィルター オプションを表示するには、\[レポート\] ウィンドウの右上隅にある \[ **パラメータの表示/非表示** \] ボタンをクリックします。
+<span data-ttu-id="50f55-112">ピアツーピア音声およびビデオ レポートにアクセスするには、ピアツーピア アクティビティ概要レポートを開き、次のいずれかの指標をクリックする必要があります。</span><span class="sxs-lookup"><span data-stu-id="50f55-112">You can access the Peer-to-Peer Voice and Video Report only by opening the Peer-to-Peer Activity Summary Report and then clicking any of the following metrics:</span></span>
 
-## フィルター
+  - <span data-ttu-id="50f55-113">ピアツーピア音声セッションの合計数</span><span class="sxs-lookup"><span data-stu-id="50f55-113">Total peer-to-peer audio sessions</span></span>
 
-フィルターは、細かく絞り込んだデータ セットを返したり、データをさまざま方法で表示したりする方法として利用できます。次の表に、ピアツーピア音声およびビデオ レポートで使用できるフィルターを示します。
+  - <span data-ttu-id="50f55-114">ピアツーピア音声セッションの合計時間</span><span class="sxs-lookup"><span data-stu-id="50f55-114">Total peer-to-peer audio minutes</span></span>
 
-### ピアツーピア音声およびビデオ レポートのフィルター
+  - <span data-ttu-id="50f55-115">ピアツーピア ビデオ セッションの合計数</span><span class="sxs-lookup"><span data-stu-id="50f55-115">Total peer-to-peer video sessions</span></span>
+
+  - <span data-ttu-id="50f55-116">ピアツーピア ビデオ セッションの合計時間</span><span class="sxs-lookup"><span data-stu-id="50f55-116">Total peer-to-peer video minutes</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a><span data-ttu-id="50f55-117">ピアツーピア音声およびビデオ レポートを最大限に活用するには</span><span class="sxs-lookup"><span data-stu-id="50f55-117">To make the best use of the peer-to-peer voice and video report</span></span>
+
+<span data-ttu-id="50f55-p102">ピアツーピア音声およびビデオ レポートをフィルターするさまざまな方法があります。ただし、既定では、これらのフィルター オプションは非表示になっています。使用できるフィルター オプションを表示するには、[レポート] ウィンドウの右上隅にある [**パラメーターの表示/非表示**] ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="50f55-p102">There are a number of ways you can filter the Peer-to-Peer Voice and Video Report. However, those filtering options are hidden from view by default. To view the filtering options available to you, click **Show/Hide Parameters** button in the upper-right corner of the Report window.</span></span>
+
+</div>
+
+<div>
+
+## <a name="filters"></a><span data-ttu-id="50f55-121">フィルター</span><span class="sxs-lookup"><span data-stu-id="50f55-121">Filters</span></span>
+
+<span data-ttu-id="50f55-p103">フィルターは、細かく絞り込んだデータ セットを返したり、データをさまざまな方法で表示したりする方法として利用できます。次の表に、ピアツーピア音声およびビデオ レポートで使用できるフィルターを示します。</span><span class="sxs-lookup"><span data-stu-id="50f55-p103">Filters provide a way for you to return a more finely targeted set of data or to view the data in different ways. The following table lists the filters that you can use with the Peer-to-Peer Voice and Video Report.</span></span>
+
+### <a name="peer-to-peer-voice-and-video-report-filters"></a><span data-ttu-id="50f55-124">ピアツーピア音声およびビデオ レポートのフィルター</span><span class="sxs-lookup"><span data-stu-id="50f55-124">Peer-to-peer voice and video report filters</span></span>
 
 <table>
 <colgroup>
@@ -54,77 +84,81 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名前</th>
-<th>説明</th>
+<th><span data-ttu-id="50f55-125">名前</span><span class="sxs-lookup"><span data-stu-id="50f55-125">Name</span></span></th>
+<th><span data-ttu-id="50f55-126">説明</span><span class="sxs-lookup"><span data-stu-id="50f55-126">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[ <strong>開始</strong> ]</p></td>
-<td><p>時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</p>
-<p>7/7/2012 1:00 PM</p>
-<p>開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</p>
-<p>7/7/2012</p>
-<p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
-<p>7/3/2012</p>
-<p>一週間は、日曜日から始まり、土曜日で終わるものとします。</p></td>
+<td><p><span data-ttu-id="50f55-127"><strong>開始</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-127"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-p104">時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="50f55-p104">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="50f55-130">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="50f55-130">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="50f55-p105">開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="50f55-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="50f55-133">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="50f55-133">7/7/2012</span></span></p>
+<p><span data-ttu-id="50f55-134">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="50f55-134">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="50f55-135">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="50f55-135">7/3/2012</span></span></p>
+<p><span data-ttu-id="50f55-136">一週間は、日曜日から始まり、土曜日で終わるものとします。</span><span class="sxs-lookup"><span data-stu-id="50f55-136">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>[ <strong>終了</strong> ]</p></td>
-<td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 1:00 PM</p>
-<p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
-<p>7/7/2012</p>
-<p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
-<p>7/3/2012</p>
-<p>一週間は、日曜日から始まり、土曜日で終わるものとします。</p></td>
+<td><p><span data-ttu-id="50f55-137"><strong>終了</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-137"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-p106">時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="50f55-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="50f55-140">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="50f55-140">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="50f55-p107">終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="50f55-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="50f55-143">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="50f55-143">7/7/2012</span></span></p>
+<p><span data-ttu-id="50f55-144">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="50f55-144">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="50f55-145">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="50f55-145">7/3/2012</span></span></p>
+<p><span data-ttu-id="50f55-146">一週間は、日曜日から始まり、土曜日で終わるものとします。</span><span class="sxs-lookup"><span data-stu-id="50f55-146">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>[ <strong>間隔</strong> ]</p></td>
-<td><p>時間間隔です。次のいずれかを選択します。</p>
+<td><p><span data-ttu-id="50f55-147"><strong>[間隔]</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-147"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-p108">時間間隔です。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="50f55-p108">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p>時間単位 (最大 25 時間の表示が可能)</p></li>
-<li><p>日単位 (最大 31 日の表示が可能)</p></li>
-<li><p>週単位 (最大 12 週の表示が可能)</p></li>
-<li><p>月単位 (最大 12 か月の表示が可能)</p></li>
+<li><p><span data-ttu-id="50f55-150">毎時 (最大 25 時間の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="50f55-150">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="50f55-151">毎日 (最大 31 日の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="50f55-151">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="50f55-152">毎週 (最大 12 週の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="50f55-152">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="50f55-153">毎月 (最大 12 か月の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="50f55-153">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p>入力した開始日と終了日が選択した間隔で使用できる値の最大数を超える場合は、最大数の値 (開始日からカウント) のみが表示されます。たとえば、開始日と終了日をそれぞれ 7/7/2012 (2012 年 7 月 7 日)、2/28/2012 (2012 年 2 月 28 日) として毎日の間隔を選択しても、2012 年 8 月 7 日の午前 12:00 から 2012 年 9 月 7 日の午前 12:00 までの日付のデータ (つまり、合計 31 日分のデータのみ) が表示されることになります。</p></td>
+<p><span data-ttu-id="50f55-154">入力した開始日と終了日が選択した間隔で使用できる値の最大数を超える場合は、最大数の値 (開始日からカウント) のみが表示されます。</span><span class="sxs-lookup"><span data-stu-id="50f55-154">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed.</span></span> <span data-ttu-id="50f55-155">たとえば、開始日が7/7/2012 で、終了日が2/28/2012 の [日] 間隔を選択した場合は、8/7/2012 12:00 AM から 9/7/2012 12:00 AM (つまり、31日分のデータ) のデータが表示されます。</span><span class="sxs-lookup"><span data-stu-id="50f55-155">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>[ <strong>メディアの種類</strong> ]</p></td>
-<td><p>セッションで使用されたメディアの種類を示します。次のいずれかを選択します。</p>
+<td><p><span data-ttu-id="50f55-156"><strong>メディアの種類</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-156"><strong>Media type</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-p110">セッションで使用されたメディアの種類を示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="50f55-p110">Indicates the type of media used in the session. Select one of the following:</span></span></p>
 <ul>
-<li><p>両方</p></li>
-<li><p>音声</p></li>
-<li><p>ビデオ</p></li>
+<li><p><span data-ttu-id="50f55-159">両方</span><span class="sxs-lookup"><span data-stu-id="50f55-159">Both</span></span></p></li>
+<li><p><span data-ttu-id="50f55-160">音声</span><span class="sxs-lookup"><span data-stu-id="50f55-160">Audio</span></span></p></li>
+<li><p><span data-ttu-id="50f55-161">ビデオ</span><span class="sxs-lookup"><span data-stu-id="50f55-161">Video</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>[ <strong>通話のディスポジション</strong> ]</p></td>
-<td><p>セッションの成功または失敗を示します。次のいずれかを選択します。</p>
+<td><p><span data-ttu-id="50f55-162"><strong>通話のディスポジション</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-162"><strong>Call disposition</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-p111">セッションの成功または失敗を示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="50f55-p111">Indicates the success or failure of the session. Select one of the following:</span></span></p>
 <ul>
-<li><p>[すべて]</p></li>
-<li><p>成功した通話</p></li>
-<li><p>失敗した通話</p></li>
+<li><p><span data-ttu-id="50f55-165">[すべて]</span><span class="sxs-lookup"><span data-stu-id="50f55-165">[All]</span></span></p></li>
+<li><p><span data-ttu-id="50f55-166">成功した通話</span><span class="sxs-lookup"><span data-stu-id="50f55-166">Success Calls</span></span></p></li>
+<li><p><span data-ttu-id="50f55-167">失敗した通話</span><span class="sxs-lookup"><span data-stu-id="50f55-167">Failed Calls</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>[ <strong>報告元</strong> ]</p></td>
-<td><p>レポートで使用する値を指定します。次のいずれかを選択します。</p>
+<td><p><span data-ttu-id="50f55-168"><strong>報告元</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-168"><strong>Report by</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-p112">レポートで使用する値を指定します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="50f55-p112">Indicates the values to be used in the report. Select one of the following:</span></span></p>
 <ul>
-<li><p>セッション数</p></li>
-<li><p>通話の分数</p></li>
+<li><p><span data-ttu-id="50f55-171">セッション数</span><span class="sxs-lookup"><span data-stu-id="50f55-171">Session count</span></span></p></li>
+<li><p><span data-ttu-id="50f55-172">通話の分数</span><span class="sxs-lookup"><span data-stu-id="50f55-172">Call minutes</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-## プール別のピアツーピア音声およびビデオ アクティビティの指標
+</div>
 
-次の表に、ピアツーピア音声およびビデオ レポートで各プールについて表示される情報を示します。
+<div>
 
-### プール別のピアツーピア音声およびビデオ アクティビティの指標
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a><span data-ttu-id="50f55-173">プール別のピアツーピア音声およびビデオ アクティビティの指標</span><span class="sxs-lookup"><span data-stu-id="50f55-173">Metrics for peer-to-peer voice and video activity by Pool</span></span>
+
+<span data-ttu-id="50f55-174">次の表に、ピアツーピア音声およびビデオ レポートで各プールについて表示される情報を示します。</span><span class="sxs-lookup"><span data-stu-id="50f55-174">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each pool.</span></span>
+
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a><span data-ttu-id="50f55-175">プール別のピアツーピア音声およびビデオ アクティビティの指標</span><span class="sxs-lookup"><span data-stu-id="50f55-175">Metrics for peer-to-peer voice and video activity by pool</span></span>
 
 <table>
 <colgroup>
@@ -134,36 +168,40 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名前</th>
-<th>この項目での並べ替え</th>
-<th>説明</th>
+<th><span data-ttu-id="50f55-176">名前</span><span class="sxs-lookup"><span data-stu-id="50f55-176">Name</span></span></th>
+<th><span data-ttu-id="50f55-177">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="50f55-177">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="50f55-178">説明</span><span class="sxs-lookup"><span data-stu-id="50f55-178">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[ <strong>プール</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>通話で使用された レジストラー プールまたは エッジ サーバーの名前。</p></td>
+<td><p><span data-ttu-id="50f55-179"><strong>プール</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-179"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-180">いいえ</span><span class="sxs-lookup"><span data-stu-id="50f55-180">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-181">通話に使用されるレジストラープールまたはエッジサーバーの名前。</span><span class="sxs-lookup"><span data-stu-id="50f55-181">Name of the Registrar pool or Edge Server used for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>[ <strong>日付/時刻</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>通話が行われた日付と時間。</p></td>
+<td><p><span data-ttu-id="50f55-182"><strong>日付/時刻</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-182"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-183">いいえ</span><span class="sxs-lookup"><span data-stu-id="50f55-183">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-184">通話が行われた日付と時間。</span><span class="sxs-lookup"><span data-stu-id="50f55-184">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>[ <strong>合計</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>セッション数またはメッセージ数の合計。</p></td>
+<td><p><span data-ttu-id="50f55-185"><strong>合計</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-185"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-186">いいえ</span><span class="sxs-lookup"><span data-stu-id="50f55-186">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-187">セッション数またはメッセージ数の合計。</span><span class="sxs-lookup"><span data-stu-id="50f55-187">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 通話の種類別のピアツーピア音声およびビデオ アクティビティの指標
+</div>
 
-次の表に、ピアツーピア音声およびビデオ レポートで各種類の通話について表示される情報を示します。
+<div>
 
-### 通話の種類別のピアツーピア音声およびビデオ アクティビティの指標
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a><span data-ttu-id="50f55-188">通話の種類別のピアツーピア音声およびビデオ アクティビティの指標</span><span class="sxs-lookup"><span data-stu-id="50f55-188">Metrics for peer-to-peer voice and video activity by call type</span></span>
+
+<span data-ttu-id="50f55-189">次の表に、ピアツーピア音声およびビデオ レポートで各種類の通話について表示される情報を示します。</span><span class="sxs-lookup"><span data-stu-id="50f55-189">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each type of call that was made.</span></span>
+
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a><span data-ttu-id="50f55-190">通話の種類別のピアツーピア音声およびビデオ アクティビティの指標</span><span class="sxs-lookup"><span data-stu-id="50f55-190">Metrics for peer-to-peer voice and video activity by call type</span></span>
 
 <table>
 <colgroup>
@@ -173,42 +211,46 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名前</th>
-<th>この項目での並べ替え</th>
-<th>説明</th>
+<th><span data-ttu-id="50f55-191">名前</span><span class="sxs-lookup"><span data-stu-id="50f55-191">Name</span></span></th>
+<th><span data-ttu-id="50f55-192">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="50f55-192">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="50f55-193">説明</span><span class="sxs-lookup"><span data-stu-id="50f55-193">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[ <strong>通話の種類</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>行われた通話の種類を示します。値は次のいずれかです。</p>
+<td><p><span data-ttu-id="50f55-194"><strong>通話の種類</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-194"><strong>Call type</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-195">いいえ</span><span class="sxs-lookup"><span data-stu-id="50f55-195">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-p113">行われた通話の種類を示します。値は次のいずれかです。</span><span class="sxs-lookup"><span data-stu-id="50f55-p113">Indicates the type of call that was made. Values are one of the following:</span></span></p>
 <ul>
-<li><p>UC 間</p></li>
-<li><p>UC-PSTN 間</p></li>
-<li><p>PSTN-UC 間</p></li>
-<li><p>PSTN 間</p></li>
+<li><p><span data-ttu-id="50f55-198">UC 間</span><span class="sxs-lookup"><span data-stu-id="50f55-198">UC-to-UC</span></span></p></li>
+<li><p><span data-ttu-id="50f55-199">UC-PSTN 間</span><span class="sxs-lookup"><span data-stu-id="50f55-199">UC-to-PSTN</span></span></p></li>
+<li><p><span data-ttu-id="50f55-200">PSTN-UC 間</span><span class="sxs-lookup"><span data-stu-id="50f55-200">PSTN-to-UC</span></span></p></li>
+<li><p><span data-ttu-id="50f55-201">PSTN 間</span><span class="sxs-lookup"><span data-stu-id="50f55-201">PSTN-to-PSTN</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>[ <strong>日付/時刻</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>通話が行われた日付と時間。</p></td>
+<td><p><span data-ttu-id="50f55-202"><strong>日付/時刻</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-202"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-203">いいえ</span><span class="sxs-lookup"><span data-stu-id="50f55-203">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-204">通話が行われた日付と時間。</span><span class="sxs-lookup"><span data-stu-id="50f55-204">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>[ <strong>合計</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>セッション数またはメッセージ数の合計。</p></td>
+<td><p><span data-ttu-id="50f55-205"><strong>合計</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-205"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-206">いいえ</span><span class="sxs-lookup"><span data-stu-id="50f55-206">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-207">セッション数またはメッセージ数の合計。</span><span class="sxs-lookup"><span data-stu-id="50f55-207">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## アクセスの種類別のピアツーピア音声およびビデオ アクティビティの指標
+</div>
 
-次の表に、ピアツーピア音声およびビデオ レポートで各種類のアクセスについて表示される情報を示します。
+<div>
 
-### アクセスの種類別のピアツーピア音声およびビデオ アクティビティの指標
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a><span data-ttu-id="50f55-208">アクセスの種類別のピアツーピア音声およびビデオ アクティビティの指標</span><span class="sxs-lookup"><span data-stu-id="50f55-208">Metrics for peer-to-peer voice and video activity by access type</span></span>
+
+<span data-ttu-id="50f55-209">次の表に、ピアツーピア音声およびビデオ レポートで各種類のアクセスについて表示される情報を示します。</span><span class="sxs-lookup"><span data-stu-id="50f55-209">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each network access type.</span></span>
+
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a><span data-ttu-id="50f55-210">アクセスの種類別のピアツーピア音声およびビデオ アクティビティの指標</span><span class="sxs-lookup"><span data-stu-id="50f55-210">Metrics for peer-to-peer voice and video activity by access type</span></span>
 
 <table>
 <colgroup>
@@ -218,41 +260,45 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名前</th>
-<th>この項目での並べ替え</th>
-<th>説明</th>
+<th><span data-ttu-id="50f55-211">名前</span><span class="sxs-lookup"><span data-stu-id="50f55-211">Name</span></span></th>
+<th><span data-ttu-id="50f55-212">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="50f55-212">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="50f55-213">説明</span><span class="sxs-lookup"><span data-stu-id="50f55-213">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[ <strong>動作状況の種類</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>クライアントが通話時に内部ネットワークにログオンしたか、外部ネットワークにログオンしたかを示します。通常は次のいずれかの値です。</p>
+<td><p><span data-ttu-id="50f55-214"><strong>動作状況の種類</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-214"><strong>Activity type</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-215">不可</span><span class="sxs-lookup"><span data-stu-id="50f55-215">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-p114">クライアントが通話時に内部ネットワークにログオンしたか、外部ネットワークにログオンしたかを示します。通常は次のいずれかの値です。</span><span class="sxs-lookup"><span data-stu-id="50f55-p114">Indicates whether the clients were logged on to the internal network or the external network when the call was placed. Values are typically one of the following:</span></span></p>
 <ul>
-<li><p>内部</p></li>
-<li><p>外部</p></li>
-<li><p>混合</p></li>
+<li><p><span data-ttu-id="50f55-218">内部</span><span class="sxs-lookup"><span data-stu-id="50f55-218">Internal</span></span></p></li>
+<li><p><span data-ttu-id="50f55-219">外部</span><span class="sxs-lookup"><span data-stu-id="50f55-219">External</span></span></p></li>
+<li><p><span data-ttu-id="50f55-220">混合</span><span class="sxs-lookup"><span data-stu-id="50f55-220">Mixed</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>[ <strong>日付/時刻</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>通話が行われた日付と時間。</p></td>
+<td><p><span data-ttu-id="50f55-221"><strong>日付/時刻</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-221"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-222">いいえ</span><span class="sxs-lookup"><span data-stu-id="50f55-222">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-223">通話が行われた日付と時間。</span><span class="sxs-lookup"><span data-stu-id="50f55-223">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>[ <strong>合計</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>セッション数またはメッセージ数の合計。</p></td>
+<td><p><span data-ttu-id="50f55-224"><strong>合計</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-224"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-225">いいえ</span><span class="sxs-lookup"><span data-stu-id="50f55-225">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-226">セッション数またはメッセージ数の合計。</span><span class="sxs-lookup"><span data-stu-id="50f55-226">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 仲介サーバー別のピアツーピア音声およびビデオ アクティビティの指標
+</div>
 
-次の表に、ピアツーピア音声およびビデオ レポートで各 仲介サーバーについて表示される情報を示します。
+<div>
 
-### 仲介サーバー別のピアツーピア音声およびビデオ アクティビティの指標
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a><span data-ttu-id="50f55-227">仲介サーバー別のピアツーピア音声およびビデオ アクティビティの指標</span><span class="sxs-lookup"><span data-stu-id="50f55-227">Metrics for peer-to-peer voice and video activity by mediation server</span></span>
+
+<span data-ttu-id="50f55-228">次の表は、各仲介サーバーのピアツーピア音声およびビデオレポートで提供される情報をまとめたものです。</span><span class="sxs-lookup"><span data-stu-id="50f55-228">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each Mediation Server.</span></span>
+
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a><span data-ttu-id="50f55-229">仲介サーバー別のピアツーピア音声およびビデオ アクティビティの指標</span><span class="sxs-lookup"><span data-stu-id="50f55-229">Metrics for peer-to-peer voice and video activity by mediation server</span></span>
 
 <table>
 <colgroup>
@@ -262,27 +308,40 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名前</th>
-<th>この項目での並べ替え</th>
-<th>説明</th>
+<th><span data-ttu-id="50f55-230">名前</span><span class="sxs-lookup"><span data-stu-id="50f55-230">Name</span></span></th>
+<th><span data-ttu-id="50f55-231">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="50f55-231">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="50f55-232">説明</span><span class="sxs-lookup"><span data-stu-id="50f55-232">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[ <strong>仲介サーバー</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>仲介サーバーの名前。</p></td>
+<td><p><span data-ttu-id="50f55-233"><strong>仲介サーバー</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-233"><strong>Mediation Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-234">不可</span><span class="sxs-lookup"><span data-stu-id="50f55-234">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-235">仲介サーバーの名前。</span><span class="sxs-lookup"><span data-stu-id="50f55-235">Name of the Mediation Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>[ <strong>日付/時刻</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>通話が行われた日付と時間。</p></td>
+<td><p><span data-ttu-id="50f55-236"><strong>日付/時刻</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-236"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-237">不可</span><span class="sxs-lookup"><span data-stu-id="50f55-237">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-238">通話が行われた日付と時間。</span><span class="sxs-lookup"><span data-stu-id="50f55-238">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>[ <strong>合計</strong> ]</p></td>
-<td><p>×</p></td>
-<td><p>セッション数またはメッセージ数の合計。</p></td>
+<td><p><span data-ttu-id="50f55-239"><strong>合計</strong></span><span class="sxs-lookup"><span data-stu-id="50f55-239"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="50f55-240">いいえ</span><span class="sxs-lookup"><span data-stu-id="50f55-240">No</span></span></p></td>
+<td><p><span data-ttu-id="50f55-241">セッション数またはメッセージ数の合計。</span><span class="sxs-lookup"><span data-stu-id="50f55-241">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

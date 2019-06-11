@@ -1,33 +1,77 @@
-﻿---
-title: デバイスと関連付けられていないデバイス更新プログラム ファイルを削除する
-TOCTitle: デバイスと関連付けられていないデバイス更新プログラム ファイルを削除する
-ms:assetid: ecebbf73-b456-4990-a91d-308b84d39404
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ994084(v=OCS.15)
-ms:contentKeyID: 52056744
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: デバイスに関連付けられていないデバイス更新ファイルを削除する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove Device Update files not associated with a device
+ms:assetid: ecebbf73-b456-4990-a91d-308b84d39404
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994084(v=OCS.15)
+ms:contentKeyID: 51803996
+ms.date: 12/12/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8ea26cd20826ed099e27c7287c53cc7ca79bef9c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823127"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# デバイスと関連付けられていないデバイス更新プログラム ファイルを削除する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-20_
+# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a><span data-ttu-id="6cc77-102">Lync Server 2013 でデバイスに関連付けられていないデバイス更新ファイルを削除する</span><span class="sxs-lookup"><span data-stu-id="6cc77-102">Remove Device Update files not associated with a device in Lync Server 2013</span></span>
 
-新しいデバイス更新プログラムがシステムにアップロードされるごとに、対応するデバイス更新プログラム ルールが作成されます。これらの新しいデバイス更新プログラム ルールは、既定で Pending 状態に割り当てられます。これは、テスト デバイスにルールをダウンロードしてインストールすることはできても、実働デバイスではそれができないことを意味します。これにより、ユーザーが更新プログラムを使用できるようにする前に、それをテストできます。テストに基づき、受け入れて展開するか、拒否してその更新プログラムを削除できます。ある更新プログラムを拒否したとき、そのデバイス更新プログラムはデバイス更新プログラム ルールから除外されます。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="6cc77-103">_**最終更新日:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="6cc77-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+
+<span data-ttu-id="6cc77-104">新しいデバイス更新プログラムがシステムにアップロードされるたびに、対応するデバイス更新ルールが作成されます。</span><span class="sxs-lookup"><span data-stu-id="6cc77-104">Each time new device updates are uploaded to the system, a corresponding device update rule is created.</span></span> <span data-ttu-id="6cc77-105">既定では、これらの新しいデバイス更新ルールは保留状態に割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="6cc77-105">By default, these new device update rules are assigned to the Pending state.</span></span> <span data-ttu-id="6cc77-106">つまり、テストデバイスにはルールをダウンロードしてインストールすることができますが、ユーザーが更新プログラムを使用できるようになる前にテストをテストすることができます。</span><span class="sxs-lookup"><span data-stu-id="6cc77-106">This means that the rules can be downloaded and installed on test devices, but not on production devices, which enables you to test the updates before making them available to users.</span></span> <span data-ttu-id="6cc77-107">テストに基づいて、更新プログラムを承諾して展開するか、または元に戻して削除します。</span><span class="sxs-lookup"><span data-stu-id="6cc77-107">Based on the tests, you either accept and deploy or reject and delete the update.</span></span> <span data-ttu-id="6cc77-108">更新プログラムを拒否すると、デバイス更新プログラムのデバイス更新ルールとの関連付けが解除されます。</span><span class="sxs-lookup"><span data-stu-id="6cc77-108">When you reject an update, the device update is disassociated from its device update rule.</span></span>
+
+<div>
 
 
-デバイスとの関連付けが解除されたデバイス更新プログラム ファイルは、Windows PowerShell と **Clear-CsDeviceUpdateFile** コマンドレットを使用して削除できます。このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモート セッションから実行できます。
+<span data-ttu-id="6cc77-109">デバイスに関連付けられていないデバイス更新ファイルは、Windows PowerShell と**空の Deviceupdatefile**コマンドレットを使用して削除できます。</span><span class="sxs-lookup"><span data-stu-id="6cc77-109">Device update files that are no longer associated with a device can be removed by using Windows PowerShell and the **Clear-CsDeviceUpdateFile** cmdlet.</span></span> <span data-ttu-id="6cc77-110">このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="6cc77-110">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
-> [!NOTE]
-> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。
-
+<div>
 
 
-  - たとえば、以下のコマンドを実行すると、デバイスに関連付けられていないすべてのデバイス更新プログラム ルールが Web サーバー atl-cs-001.litwareinc.com から削除されます。
+> [!NOTE]  
+> <span data-ttu-id="6cc77-111">リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6cc77-111">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+
+
+
+</div>
+
+<div>
+
+
+  - <span data-ttu-id="6cc77-112">たとえば、次のコマンドを実行すると、デバイスに関連付けられていない Web サーバー atl-cs-001.litwareinc.com 上のデバイス更新ルールがすべて削除されます。</span><span class="sxs-lookup"><span data-stu-id="6cc77-112">For example, the following command removes any device update rules on the Web server atl-cs-001.litwareinc.com that are no longer associated with a device:</span></span>
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
-詳細については、[Clear-CsDeviceUpdateFile](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateFile) コマンドレットに関するヘルプ トピックを参照してください。
+</div>
+
+<span data-ttu-id="6cc77-113">詳細については、「 [CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile)コマンドレット」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="6cc77-113">For details, see the Help topic for the [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) cmdlet.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
