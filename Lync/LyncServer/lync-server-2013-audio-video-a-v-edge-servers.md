@@ -1,37 +1,71 @@
-﻿---
-title: 音声ビデオ (A/V) エッジ サーバー
-TOCTitle: 音声ビデオ (A/V) エッジ サーバー
-ms:assetid: b0cc538b-77eb-47fb-be82-5ab0631c6219
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721852(v=OCS.15)
-ms:contentKeyID: 49887104
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 音声/ビデオ (A/V) エッジサーバー'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Audio/Video (A/V) Edge Servers
+ms:assetid: b0cc538b-77eb-47fb-be82-5ab0631c6219
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721852(v=OCS.15)
+ms:contentKeyID: 49733785
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ce9738dbb11ce731ac832a5529d2013f3f9b2907
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840905"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 音声ビデオ (A/V) エッジ サーバー
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="audiovideo-av-edge-servers-in-lync-server-2013"></a>Lync Server 2013 の音声/ビデオ (A/V) エッジサーバー
 
-音声ビデオ エッジ サービスを使用すると、内部ユーザー (組織のネットワークにログオンしているユーザー) は外部ユーザー (組織のネットワークにログオンしていないユーザー) とオーディオおよびビデオを共有できるようになります。音声およびビデオに加え、音声ビデオ エッジ サービスはデスクトップ共有やファイル送信などもサポートします。
+</div>
 
-音声ビデオ エッジ サービスは主に音声ビデオ エッジ構成を使用して管理されます。これらの設定を使用すると、ポートごとおよびユーザーごとに割り当てる最大帯域幅を管理したり、認証トークンを更新する前に使用できる時間の長さを指定したりすることができます。音声ビデオ エッジ構成設定は、サイトまたは個々の音声ビデオ エッジ サーバーに適用できます。優先する設定のコレクションを判断するときは、以下のガイドを使用します。
+<div id="mainSection">
 
-  - サービス スコープで (つまり個々のサーバーで) 構成した設定は最優先されます。
+<div id="mainBody">
 
-  - サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。ただし、サービス スコープ設定はサイトスコープ設定を置き換えます。
+<span> </span>
 
-  - グローバル スコープで構成した設定は、個々のサーバーで構成されたサービス設定がなく、サーバーが配置されているサイトのサイト設定がない場合にのみ使用されます。
+_**最終更新日:** 2012-11-01_
 
-音声ビデオ エッジ サービスは、Lync Server PowerShell および CsAVEdgeConfiguration コマンドレットを使用してのみ管理できます。
+A/V Edge サービスは、内部ユーザー (組織のネットワークにログオンしているユーザー) が、外部ユーザー (組織のネットワークにログオンしていないユーザー) とオーディオやビデオを共有できるようにするための手段を提供します。 オーディオとビデオに加えて、A/V Edge サービスでは、デスクトップ共有やファイル転送などの機能もサポートしています。
 
-## このセクション中
+A/V Edge サービスは、主に、A/V Edge 構成を使って管理されます。これらの設定では、1つのポートとユーザーごとに割り当てることができる帯域幅の最大量を管理できます。また、そのトークンが更新されるまでに認証トークンを使うことができる時間の長さを指定します。 A/V Edge の構成設定は、サイトまたは個々の A/V エッジサーバーに適用できます。 優先される設定のコレクションを決定する際には、次のガイドを使用します。
 
-  - [音声ビデオ エッジ サーバーの構成情報を戻す](lync-server-2013-return-a-v-edge-server-configuration-information.md)
+  - サービスの範囲 (つまり個々のサーバー) で構成された設定は、すべてのユーザーに対して優先順位を持ちます。
 
-  - [音声ビデオ エッジ サーバー構成設定のコレクションの作成または変更](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
+  - サイトのスコープで構成された設定は、グローバルスコープで構成されている設定よりも優先されます。 ただし、サービスの範囲設定は、サイトの範囲設定にも優先されます。
 
-  - [音声ビデオ エッジ サーバー構成設定の既存コレクションの削除](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
+  - グローバルスコープの設定は、個々のサーバーで構成されているサービス設定がなく、そのサーバーが配置されているサイトのサイト設定がない場合にのみ使用されます。
+
+A/V Edge サービスを管理するには、Lync Server PowerShell と CsAVEdgeConfiguration コマンドレットを使用する必要があります。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
+
+  - [Lync Server 2013 で A/V Edge サーバーの構成情報を返す](lync-server-2013-return-a-v-edge-server-configuration-information.md)
+
+  - [Lync Server 2013 での A/V Edge サーバー構成設定のコレクションを作成または変更する](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
+
+  - [Lync Server 2013 での既存の A/V エッジサーバー構成の設定を削除する](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

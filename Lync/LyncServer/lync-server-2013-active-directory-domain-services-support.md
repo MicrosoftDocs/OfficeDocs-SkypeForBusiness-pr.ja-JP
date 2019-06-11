@@ -1,79 +1,135 @@
-﻿---
-title: 'Lync Server 2013: Active Directory ドメイン サービスのサポート'
-TOCTitle: Active Directory ドメイン サービスのサポート
-ms:assetid: aeb62d5e-e424-473a-b795-9452150c98dd
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412831(v=OCS.15)
-ms:contentKeyID: 48273265
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Active Directory ドメイン サービスのサポート'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory Domain Services support
+ms:assetid: aeb62d5e-e424-473a-b795-9452150c98dd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412831(v=OCS.15)
+ms:contentKeyID: 48185136
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5b264abefb1234892df355fee123dd6ce68b4dfb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840960"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での Active Directory ドメイン サービスのサポート
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013 での Active Directory ドメイン サービスのサポート
 
-Lync Server 2013 は、 中央管理ストアを使用して、サーバーとサービスの構成データを格納するので、かつてのように、この情報を得るために Active Directory ドメイン サービス を使用することはありません。 Lync Server 2013 が、AD DS に格納しているのは次の情報です。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-11-07_
+
+Lync Server 2013 は、この情報について Active Directory ドメインサービスに依存するのではなく、サーバーとサービスの構成データを保存するために、中央管理ストアを使用しています。 Lync Server 2013 では、引き続き次の内容が AD DS に保存されています。
 
   - **スキーマ拡張**
     
       - ユーザー オブジェクトの拡張
     
-      - Lync Server 2010 および Office Communications Server 2007 R2 クラスの拡張 (以前サポートされていたバージョンとの下位互換性を保つため)
+      - 以前サポートされているバージョンとの下位互換性を維持するための、Lync Server 2010 および Office Communications Server 2007 R2 クラス用の拡張機能
 
-  - **データ** ( Lync Server 2013 の拡張スキーマおよび既存のクラスに格納)
+  - **データ**(Lync Server 2013 の拡張スキーマと既存のクラスに保存されています)
     
       - ユーザーの SIP URI と他のユーザー設定
     
-      - アプリケーションの連絡先オブジェクト ( 応答グループ アプリケーションや 会議アテンダント アプリケーションなど)
+      - アプリケーションの連絡先オブジェクト (たとえば、応答グループのアプリケーション、会議アテンダントアプリケーションなど)
     
-      - 下位互換性について公開されたデータ
+      - 下位互換性のために公開されたデータ
     
-      - 中央管理ストアのサービス コントロール ポイント (SCP)
+      - 中央管理ストアのサービス制御ポイント (SCP)
     
-      - Kerberos 認証のアカウント (オプションのコンピューター オブジェクト)
+      - Kerberos 認証アカウント (オプションのコンピューターオブジェクト)
 
-ここでは、Lync Server 2013 に対する AD DS のサポート要件について説明します。サポートされているトポロジの詳細については、「サポート」のドキュメントの「[Lync Server 2013 でサポートされている Active Directory トポロジ](lync-server-2013-supported-active-directory-topologies.md)」を参照してください。
+このセクションでは、Lync Server 2013 の AD DS のサポート要件について説明します。 トポロジのサポートの詳細については、サポートドキュメントの「 [Lync Server 2013 でサポートされている Active Directory トポロジ](lync-server-2013-supported-active-directory-topologies.md)」を参照してください。
 
-## サポートされるドメイン コントローラー オペレーティング システム
+<div>
 
-Lync Server 2013 は、次のオペレーティング システムを実行するドメイン コントローラーをサポートします。
+## <a name="supported-domain-controller-operating-systems"></a>サポートされているドメインコントローラーオペレーティングシステム
 
-  - Windows Server 2012 R2 オペレーティング システム
+Lync Server 2013 は、次のオペレーティングシステムを実行しているドメインコントローラーをサポートしています。
 
-  - Windows Server 2012 オペレーティング システム
+  - Windows Server 2012 R2 オペレーティングシステム
+
+  - Windows Server 2012 オペレーティングシステム
 
   - Windows Server 2008 R2 オペレーティング システム
 
   - Windows Server 2008 オペレーティング システム
 
-  - Windows Server 2008 Enterprise 32 ビット版
+  - Windows Server 2008 Enterprise 32 ビット
 
-  - Windows Server 2003 R2 オペレーティング システムの 32 ビット版または 64 ビット版
+  - Windows Server 2003 R2 オペレーティングシステムの32ビットまたは64ビットバージョン
 
-  - Windows Server 2003 オペレーティング システムの 32 ビット版または 64 ビット版
+  - Windows Server 2003 オペレーティングシステムの32ビットまたは64ビットバージョン
 
-## フォレストおよびドメインの機能レベル
+</div>
 
-Lync Server 2013 を展開するすべてのドメインは、Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008、または少なくとも Windows Server 2003 のドメインの機能レベルに引き上げる必要があります。
+<div>
 
-Lync Server 2013 を展開するすべてのフォレストは、Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008、または少なくとも Windows Server 2003 のフォレストの機能レベルに引き上げる必要があります。
+## <a name="forest-and-domain-functional-level"></a>フォレストとドメインの機能レベル
 
-## 読み取り専用ドメイン コントローラーのサポート
+Lync Server 2013 を展開するすべてのドメインを、windows server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008、または Windows Server 2003 以上のドメインの機能レベルに展開する必要があります。
 
-Lync Server 2013 は、書き込み可能なドメイン コントローラーを使用できる限り、読み取り専用ドメイン コントローラーまたは読み取り専用グローバル カタログ サーバーが含まれる、 Active Directory ドメイン サービス の展開をサポートします。
+Lync Server 2013 を展開するすべてのフォレストは、Windows Server 2012 R2、windows Server 2012、Windows Server 2008 R2、Windows Server 2008、または Windows Server 2003 以上のフォレストの機能レベルに上げる必要があります。
 
-## ドメイン名
+</div>
 
-Lync Server は、単一ラベルのドメインをサポートしません。たとえば、ルート ドメイン名が **contoso.local** であるフォレストはサポートされますが、**local** という名前のルート ドメインはサポートされません。詳細については、Microsoft サポート技術情報の記事 300684「単一ラベル DNS 名を使用して Active Directory のドメインを構成する」( <http://go.microsoft.com/fwlink/?linkid=143752>) を参照してください。
+<div>
 
-> [!NOTE]
-> Lync Server では、ドメインの名前変更はサポートしていません。 Lync Server が展開されるドメインの名前を変更する必要がある場合は、最初に Lync Server をアンインストールし、ドメインの名前を変更してから、 Lync Server を再インストールする必要があります。
+## <a name="support-for-read-only-domain-controllers"></a>読み取り専用ドメインコントローラーのサポート
+
+Lync Server 2013 は、書き込み可能なドメインコントローラーが利用可能であれば、読み取り専用のドメインコントローラーまたは読み取り専用のグローバルカタログサーバーを含む Active Directory ドメインサービスの展開をサポートしています。
+
+</div>
+
+<div>
+
+## <a name="domain-names"></a>ドメイン名
+
+Lync Server では、単一ラベルのドメインはサポートされていません。 たとえば、 **local**という名前のルートドメインを持つフォレストはサポートされていますが、 **local**という名前のルートドメインはサポートされていません。 詳細については、「Microsoft サポート技術情報の記事300684」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752)。 "単一ラベルの DNS 名でドメイン用に Windows を構成する" について説明します。
+
+<div>
 
 
-## ロックダウンされた AD DS 環境
+> [!NOTE]  
+> Lync Server では、ドメイン名の変更はサポートされていません。 Lync Server が展開されているドメインの名前を変更する必要がある場合は、まず Lync Server をアンインストールしてから、ドメインの名前を変更してから、Lync Server を再インストールする必要があります。
 
-AD DS 環境がロックダウンされると、多くの場合、ユーザー オブジェクトとコンピューター オブジェクトは特定の組織単位 (OU) に置かれ、アクセス許可の継承が無効になります。これで管理業務の安全な委任が促進され、グループ ポリシー オブジェクト (GPO) を使用してセキュリティ ポリシーを執行できるようになります。Lync Server 2013 は、ロックダウンされた Active Directory 環境に展開することができます。ロックダウンされた環境で Lync Server を展開するために必要な機能の詳細については、「展開」のドキュメントの「[Lync Server 2013 でのロックダウンされた Active Directory ドメイン サービスの準備](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)」を参照してください。
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="locked-down-adds-environments"></a>ロックダウンされた AD DS 環境
+
+ロックダウンされた AD DS 環境では、管理者の委任を保護し、グループポリシーオブジェクト (Gpo) の使用を有効にするために、ユーザーとコンピューターオブジェクトが特定の組織単位 (Ou) に配置されることがよくあります。セキュリティポリシー。 Lync Server 2013 は、ロックダウンされた Active Directory 環境に展開できます。 ロックダウン環境での Lync Server の展開に必要なものについて詳しくは、「展開ドキュメントの[Lync server 2013 でロックダウンされた Active Directory ドメインサービスの準備](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)」をご覧ください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

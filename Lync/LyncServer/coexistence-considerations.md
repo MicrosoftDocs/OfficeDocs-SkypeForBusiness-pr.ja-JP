@@ -1,33 +1,63 @@
-﻿---
-title: 共存の考慮事項
-TOCTitle: 共存の考慮事項
-ms:assetid: 9d1a3c0f-492a-4e37-bc2f-63509e328785
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205131(v=OCS.15)
-ms:contentKeyID: 48272987
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 共存の考慮事項
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Coexistence considerations
+ms:assetid: 9d1a3c0f-492a-4e37-bc2f-63509e328785
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205131(v=OCS.15)
+ms:contentKeyID: 48184990
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c0e06e5620b3b9ce81826bf623a42ec8d89c5d3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840085"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 共存の考慮事項
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-06_
+# <a name="coexistence-considerations"></a>共存の考慮事項
 
-移行が完了すると、存在するのは Lync Server 2013、 常設チャット サーバー プールのみになるため、従来の展開を使用停止にすることができます。
+</div>
 
-移行が完了する前および現在の グループ チャット サーバーの展開を完全に使用停止にする前は、次の展開を使用できます。
+<div id="mainSection">
 
-  - Lync Server 2013、 常設チャット サーバー プール。 Lync Server 2013 プールに所属している必要があります。
+<div id="mainBody">
 
-  - Lync Server 2010、グループ チャット プール。 Lync Server 2010 プールに所属している必要があります。
+<span> </span>
 
-  - Office Communications Server 2007 R2グループ チャット プール。 Office Communications Server 2007 R2 プールに所属している必要があります。
+_**最終更新日:** 2012-10-06_
 
-これらの展開は共存できますが、カテゴリ、ルーム、およびアドイン間のやり取りはできません。
+移行後、Lync Server 2013、常設チャットサーバープールのみが存在し、従来の展開を廃止することができます。
 
-手動構成を使用すると、従来のクライアント ( グループ チャット クライアント) で一度に 1 つのプールに接続できます ( Office Communications Server 2007 R2、 Lync Server 2010、グループ チャット、または Lync Server 2013 のプール)。
+移行が完了する前に、現在のグループチャットサーバーの展開を完全に解除する前に、次のいずれかの展開を使用している可能性があります。
 
-Lync 2013 (クライアント) がやり取りできるのは、 Lync Server 2013、 常設チャット サーバー プールだけです。従来の グループ チャット サーバー プールとやり取りすることはできません。 Lync 2013 (クライアント) で 常設チャットを使用するには、ユーザーが Lync 2013 に所属していて、ポリシーによって有効になっている必要があります。
+  - Lync server 2013 の常設チャットサーバープール。 Lync Server 2013 プールに所属している必要があります。
+
+  - Lync server 2010、グループチャットプール (Lync Server 2010 プールに所属している必要があります)。
+
+  - Office Communications Server 2007 R2 グループチャットプール。これは、Office Communications Server 2007 R2 プールに所属している必要があります。
+
+これらの展開は、並行して行うことができます。 ただし、1つの展開に含まれているカテゴリ、ルーム、アドインは、関連付けられている展開では操作できません。
+
+手動構成を使用すると、レガシクライアント (グループチャットクライアント) は、Office Communications Server 2007 R2、Lync Server 2010、グループチャット、または Lync Server 2013 で、一度に1つのプールに接続できます。
+
+Lync 2013 (クライアント) は、従来のグループチャットサーバープールではなく、Lync Server 2013、常設チャットサーバープールのみで操作できます。 Lync 2013 (クライアント) で常設チャットを使用するには、ユーザーが Lync 2013 を使っていて、ポリシーによって有効になっている必要があります。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

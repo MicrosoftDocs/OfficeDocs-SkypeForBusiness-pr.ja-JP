@@ -1,27 +1,49 @@
-﻿---
-title: 'バックアップと復元の要件: ツールとアクセス許可'
-TOCTitle: 'バックアップと復元の要件: ツールとアクセス許可'
-ms:assetid: 35ec2e33-f33e-4f84-9e64-6550fd78aa52
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh202171(v=OCS.15)
-ms:contentKeyID: 52056568
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: バックアップと復元の要件: ツールと権限'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Backup and restoration requirements: tools and permissions'
+ms:assetid: 35ec2e33-f33e-4f84-9e64-6550fd78aa52
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202171(v=OCS.15)
+ms:contentKeyID: 51541465
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 53128d99abfd438c174b98544889781b5f29b57b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840751"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# バックアップと復元の要件: ツールとアクセス許可
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Lync Server 2013 でのバックアップと復元の要件: ツールと権限
 
-このトピックでは、Lync Server 2013 のバックアップおよび復元に使用できるツール、必要なアクセス許可、およびリモートまたはローカルで実行できるコマンドについて説明します。特に、このトピックでは、Lync Server に用意されているバックアップ ツールおよび復元ツールに焦点を絞ります。
+</div>
 
-## バックアップ
+<div id="mainSection">
 
-Lync Server をバックアップするには、次の表に示すツールを使用します。Lync Server のバックアップに必要なコマンドはすべてスクリプトで使用できます。また、これらのコマンドは、リモートで実行できます。
+<div id="mainBody">
 
-### Lync Server のバックアップ ツール
+<span> </span>
+
+_**最終更新日:** 2013-02-17_
+
+このトピックでは、Lync Server 2013 のバックアップと復元に使用できるツール、必要なアクセス許可、コマンドをリモートまたはローカルで実行できるかどうかについて説明します。 具体的には、このトピックでは、Lync Server にバックアップと復元のために提供されるツールについて説明します。
+
+<div>
+
+## <a name="backups"></a>バックアップ
+
+Lync Server をバックアップするには、次の表で示されているツールを使用します。 Lync Server のバックアップに必要なすべてのコマンドをスクリプト化して、リモートで実行することができます。
+
+### <a name="tools-for-backing-up-lync-server"></a>Lync Server のバックアップツール
 
 <table>
 <colgroup>
@@ -30,58 +52,64 @@ Lync Server をバックアップするには、次の表に示すツールを�
 </colgroup>
 <thead>
 <tr class="header">
-<th>バックアップ対象:</th>
-<th>使用するツールまたはコマンドレット:</th>
+<th>バックアップするには、次の操作を行います。</th>
+<th>このツールまたはコマンドレットを使用します。</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>トポロジ構成データ (Xds.mdf)</p></td>
-<td><p>Export-CsConfiguration</p></td>
+<td><p>トポロジ構成データ (Xds)</p></td>
+<td><p>エクスポート-CsConfiguration</p></td>
 </tr>
 <tr class="even">
-<td><p>Location Information Service (E9-1-1) データ (Lis.mdf)</p></td>
-<td><p>Export-CsLisConfiguration</p></td>
+<td><p>位置情報サービス (E9-1) データ (Lis)</p></td>
+<td><p>エクスポート-CsLisConfiguration</p></td>
 </tr>
 <tr class="odd">
-<td><p>応答グループ構成データ (RgsConfig.mdf)</p></td>
+<td><p>応答グループの構成データ (RgsConfig)</p></td>
 <td><p>Export-CsRgsConfiguration</p></td>
 </tr>
 <tr class="even">
-<td><p>永続ユーザー データ (Rtcxds.mdf データベース)</p>
-<p>会議 ID</p></td>
+<td><p>常設ユーザーデータ (Rtcxds データベース)</p>
+<p>会議 Id</p></td>
 <td><p>Export-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><ul>
-<li><p>アーカイブ データベース (LcsLog.mdf)</p></li>
-<li><p>監視通話詳細記録データベース (LcsCDR.mdf)</p></li>
-<li><p>監視 QoE データベース (QoEMetrics.mdf)</p></li>
+<li><p>アーカイブデータベース (LcsLog)</p></li>
+<li><p>通話の詳細レコードデータベース (LcsCDR. mdf) を監視する</p></li>
+<li><p>QoE データベース (QoEMetrics) の監視</p></li>
 </ul></td>
-<td><p>SQL Server Management Studio などの SQL Server データベース ツール</p></td>
+<td><p>Sql server Management Studio などの SQL Server データベースツール</p></td>
 </tr>
 <tr class="even">
-<td><p>常設チャット データベース (Mgc.mdf)</p></td>
-<td><p>SQL Server バックアップ手順または Export-CsPersistentChatData。Export-CsPersistentChatData によって、常設チャットがファイルとしてエクスポートされます。</p></td>
+<td><p>常設チャットデータベース (行う)</p></td>
+<td><p>SQL Server のバックアップ手順またはエクスポート-CsPersistentChatData。 エクスポート-CsPersistentChatData は、常設チャットデータをファイルとしてエクスポートします。</p></td>
 </tr>
 <tr class="odd">
-<td><p>すべてのファイル ストア: Lync Server ファイル ストア、アーカイブ ファイル ストア</p>
+<td><p>すべてのファイルストア: Lync Server ファイルストア、アーカイブファイルストア</p>
+<div>
 
-> [!NOTE]
-> <strong>Meeting.Active</strong> という名前のファイルはバックアップしないでください。これらのファイルは、会議の開催中に使用されており、ロックされています。
+> [!NOTE]  
+> " <STRONG>Meeting. Active</STRONG> " という名前のファイルはバックアップしないでください。 これらのファイルは、会議の実行時に使用され、ロックされます。
+
 
 </div></td>
-<td><p>標準のファイル システム管理ツール (Robocopy など)</p></td>
+<td><p>標準ファイルシステム管理ツール (Robocopy など)。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 復元
+</div>
 
-Lync Server を復元するには、次の表に示すツールを使用します。Lync Server の復元に必要なコマンドはすべてスクリプトで使用できます。一部のコマンドについてはリモートで実行できますが、次の表に示すように、ローカルで実行しなければならないものもあります。
+<div>
 
-### Lync Server の復元ツール
+## <a name="restoration"></a>回復
+
+Lync Server を復元するには、次の表のツールを使用します。 Lync Server を復元するために必要なすべてのコマンドをスクリプト化することができます。 一部はリモートで実行できますが、次の表に示すようにローカルで実行する必要があります。
+
+### <a name="tools-for-restoring-lync-server"></a>Lync Server を復元するためのツール
 
 <table>
 <colgroup>
@@ -90,25 +118,25 @@ Lync Server を復元するには、次の表に示すツールを使用しま�
 </colgroup>
 <thead>
 <tr class="header">
-<th>操作内容:</th>
-<th>使用するツールまたはコマンドレット:</th>
+<th>その手順は次のとおりです。</th>
+<th>このツールまたはコマンドレットを使用します。</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>新規またはクリーン コンピューターを構築する</p></td>
+<td><p>新しいコンピューターまたはクリーンコンピューターを作成する</p></td>
 <td><ul>
-<li><p>Windows オペレーティング システム インストール ソフトウェア</p></li>
-<li><p>SQL Server インストール ソフトウェア</p></li>
-<li><p>証明書とエクスポート可能な秘密キーを復元する場合は、Microsoft 管理コンソール (MMC) の証明書スナップイン</p></li>
+<li><p>Windows オペレーティングシステムのインストールソフトウェア</p></li>
+<li><p>SQL Server インストールソフトウェア</p></li>
+<li><p>証明書 Microsoft 管理コンソール (MMC) スナップイン (エクスポート可能な秘密キーで証明書を復元する場合)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>ファイル ストア データを復元する</p></td>
-<td><p>標準のファイル システム管理ツール (Robocopy など)</p></td>
+<td><p>ファイルストアデータを復元する</p></td>
+<td><p>標準ファイルシステム管理ツール (Robocopy など)</p></td>
 </tr>
 <tr class="odd">
-<td><p>空のデータベースを再作成し、次のアクセス許可を設定する</p>
+<td><p>空のデータベースを再作成し、次の権限を設定します。</p>
 <ul>
 <li><p>中央管理ストア</p></li>
 <li><p>バック エンド サーバー</p></li>
@@ -118,71 +146,93 @@ Lync Server を復元するには、次の表に示すツールを使用しま�
 <td><p>Install-CsDatabase</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Directory ドメイン サービス ポインターを中央管理ストアに復元する</p>
+<td><p>Active Directory ドメインサービスのポインターを中央管理ストアに復元します。</p>
+<div>
 
-> [!NOTE]
-> サービス接続ポイントを失った場合は、このコマンドレットをいつでも再実行できます。
+> [!NOTE]  
+> サービス接続ポイントをいつでも紛失した場合は、このコマンドレットを再実行できます。
+
 
 </div></td>
 <td><p>Set-CsConfigurationStoreLocation</p></td>
 </tr>
 <tr class="odd">
-<td><p>トポロジ、ポリシー、および構成設定を中央管理ストアにインポートします (Xds.mdf)。</p></td>
-<td><p>Import-CsConfiguration</p></td>
+<td><p>トポロジ、ポリシー、構成の設定を中央管理ストア (Xds) にインポートする</p></td>
+<td><p>インポート-CsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>トポロジを公開して有効にする</p></td>
 <td><p>トポロジ ビルダー</p>
-<p>- または -</p>
-<p>Publish-CsTopology および Enable-CsTopology</p></td>
+<p>/</p>
+<p>公開-CsTopology と有効化-CsTopology 機能</p></td>
 </tr>
 <tr class="odd">
-<td><p>最後に公開したトポロジを有効にする</p></td>
-<td><p>Enable-CsTopology</p></td>
+<td><p>最後に公開されたトポロジを有効にする</p></td>
+<td><p>有効にする-CsTopology テクノロジー</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server コンポーネントを再インストールする</p></td>
-<td><p>Lync Server セットアップ</p>
+<td><p>Lync Server のセットアップ</p>
+<div>
 
-> [!NOTE]
-> Lync Server インストール フォルダーまたは \setup\amd64\Setup.exe のインストール メディアにあります。
+> [!NOTE]  
+> Lync Server のインストールフォルダーまたは¥の場合は、「¥の場合」をご覧ください。
+
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>位置情報 (E9-1-1) データ (Lis.mdf) を復元する</p></td>
+<td><p>位置情報 (E9-1) データ (Lis) を復元する</p></td>
 <td><p>Import-CsLisConfiguration</p></td>
 </tr>
 <tr class="even">
-<td><p>永続ユーザー データ (Rtcxds.mdf) を復元する</p></td>
-<td><p>Import-CsUserData</p></td>
+<td><p>永続的なユーザーデータ (Rtcxds) を復元する</p></td>
+<td><p>インポート-CsUserData</p></td>
 </tr>
 <tr class="odd">
-<td><p>応答グループ構成データ (RgsConfig.mdf) を復元する</p></td>
-<td><p>Set-CsRgsConfiguration</p>
+<td><p>応答グループの構成データ (RgsConfig) を復元する</p></td>
+<td><p>Import-CsRgsConfiguration</p>
+<div>
 
-> [!NOTE]
-> 応答グループのデータがデータベースに含まれない、新しく展開されたプールに構成が復元される場合は、-OverwriteOwner オプションを使用することをお勧めします。このオプションは、データが、完全修飾ドメイン名 (FQDN) を持つプールに復元される場合にも使用してください。応答グループの連絡先オブジェクトは既に Active Directory に存在するので、このオプションを使用しないと、インポートは正常に行われません。
+> [!NOTE]  
+> データベースに応答グループデータがない、新しく展開されたプールで構成を復元する場合は、– OverwriteOwner オプションを使用する必要があります。 復元されるデータが、同じ完全修飾ドメイン名 (FQDN) を持つプールにある場合でも、このオプションを使用します。 そうしないと、アクティブディレクトリに既に存在する返信グループに連絡先オブジェクトが存在するため、インポートは成功しません。
+
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p>次のデータベースを復元する</p>
+<td><p>次のデータベースを復元します。</p>
 <ul>
-<li><p>アーカイブ データベース (LcsLog.mdf)</p></li>
-<li><p>監視データベース: 通話詳細記録データベース (LcsCDR.mdf) と QoE データベース (QoEMetrics.mdf)</p></li>
+<li><p>アーカイブデータベース (LcsLog)</p></li>
+<li><p>監視データベース: call detail レコードデータベース (LcsCDR mdf) と QoE データベース (QoEMetrics)</p></li>
 </ul></td>
 <td><p>SQL Server データベース管理ツール</p></td>
 </tr>
 <tr class="odd">
-<td><p>常設チャット データベース (Mgs.mdf)</p></td>
-<td><p>SQL Server 復元手順または Import-CsPersistentChatData。Import-CsPersistentChatData を、Export-CsPersistentChatData で作成されたファイルで使用すると、データは常設チャット データベースにインポートされます。</p></td>
+<td><p>常設チャットデータベース (Mgs)</p></td>
+<td><p>SQL Server の復元手順またはインポート-CsPersistentChatData。 CsPersistentChatData で作成されたファイルと共に CsPersistentChatData を使用すると、データは永続的なチャットデータベースにインポートされます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 必要なアクセス許可
+</div>
 
-このトピックに記載されているコマンドを実行するには、**RTCUniversalServerAdmins** グループのメンバーである必要があります。バックアップおよび復元コマンドのほとんどが、ロール ベースのアクセス制御 (RBAC) をサポートしていません。ただし、常設チャット コマンドレットである Export-CsPersistentChatData と Import-CsPersistentChatData の 2 つは除きます。このコマンドレットは両方とも、CsPersistentChatAdministrator グループのメンバーが実行する必要があります。また、Lync Server 展開ウィザードを実行するには、Local Adminstrators グループのメンバーである必要もあります。
+<div>
+
+## <a name="required-permissions"></a>必要なアクセス許可
+
+このトピックで説明されているすべてのコマンドを実行するには、ユーザーが**RTCUniversalServerAdmins** group のメンバーである必要があります。 ほとんどのバックアップと復元コマンドは、役割ベースのアクセス制御 (RBAC) をサポートしていません。 2つの例外は、常設チャットコマンドレットのエクスポート-CsPersistentChatData と CsPersistentChatData を使用することです。これは、CsPersistentChatAdministrator グループのメンバーであるユーザーが実行する必要があります。 Lync Server 展開ウィザードを実行するには、ユーザーはローカルの [電話番号] グループのメンバーでもある必要があります。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

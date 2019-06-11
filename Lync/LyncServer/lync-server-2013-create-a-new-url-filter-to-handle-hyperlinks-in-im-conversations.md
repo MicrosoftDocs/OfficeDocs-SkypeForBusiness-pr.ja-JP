@@ -1,53 +1,90 @@
-﻿---
-title: IM 会話でのハイパーリンクの処理のための新しい URL フィルターの作成
-TOCTitle: IM 会話でのハイパーリンクの処理のための新しい URL フィルターの作成
-ms:assetid: d0ee01e5-f039-4a34-ac9d-659fe4e9e879
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg182590(v=OCS.15)
-ms:contentKeyID: 48273643
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: IM 会話でハイパーリンクを処理するための新しい URL フィルターを作成する
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a new URL filter to handle hyperlinks in IM conversations
+ms:assetid: d0ee01e5-f039-4a34-ac9d-659fe4e9e879
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182590(v=OCS.15)
+ms:contentKeyID: 48185426
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3f8f9a06dd80f87f2758269ddd2d468aeae2014d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840081"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# IM 会話でのハイパーリンクの処理のための新しい URL フィルターの作成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-26_
+# <a name="create-a-new-url-filter-in-lync-server-2013-to-handle-hyperlinks-in-im-conversations"></a>Lync Server 2013 で新しい URL フィルターを作成して、IM 会話のハイパーリンクを処理する
 
-グローバル URL フィルターを変更する以外にも、Lync Server 2013 展開内の個々のサイトに対して、カスタム URL フィルターを構成できます。URL フィルターの詳細については、「[Lync Server 2013 でのインスタント メッセージング (IM) の URL フィルターおよびファイル送信の構成](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)」を参照してください。
+</div>
 
-## 新しい URL フィルターを作成するには
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-26_
+
+グローバル URL フィルターを変更するだけでなく、Lync Server 2013 展開内の個々のサイトのカスタム URL フィルターを構成することができます。 URL フィルタリングの詳細については、「 [Lync Server 2013 でインスタントメッセージング (IM) のファイル転送と URL フィルタリングを構成する](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)」を参照してください。
+
+<div>
+
+## <a name="to-create-a-new-url-filter"></a>新しい URL フィルターを作成するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**IM とプレゼンス**\] をクリックし、\[**URL フィルター**\] をクリックします。
+3.  左側のナビゲーションバーで、[ **IM とプレゼンス**] をクリックし、[ **URL フィルター**] をクリックします。
 
-4.  \[**URL フィルター**\] ページで \[**新規**\] をクリックします。
+4.  [ **URL フィルター** ] ページで、[**新規**] をクリックします。
 
-5.  \[**サイトの選択**\] で URL フィルターを作成するサイトをクリックしてから、\[**OK**\] をクリックします。
+5.  [**サイトの選択**] で、URL フィルターを作成するサイトをクリックし、[ **OK**] をクリックします。
 
-6.  \[**新しい URL フィルター**\] ダイアログ ボックスで、\[**URL フィルターを有効にする**\] チェック ボックスをオンにして、サイトの URL フィルターを有効にします。
+6.  [**新しい Url フィルター** ] ダイアログボックスで、[url フィルターを**有効**にする] チェックボックスをオンにして、サイトの url フィルタリングを有効にします。
 
-7.  \[**ファイル フィルタの編集**\] の \[**禁止するファイル拡張子の種類**\] に一覧表示されている拡張子を持つファイルを含むすべてのアクティブな URL を禁止するには、\[**ファイル拡張子を持つ URL を禁止する**\] チェック ボックスをオンにします。
+7.  [ファイルの種類の**編集**] で、[**ブロックするファイルの種類の拡張子**] の下に一覧表示されている拡張子を持つファイルをブロックするには、[**ファイル拡張子を含む url をブロック**する] チェックボックスをオンにします。
 
-8.  \[**ハイパーリンクのプレフィックス**\] ドロップダウン リスト ボックスで、インスタント メッセージ会話内の URL の処理方法に対応するオプションをクリックします。
+8.  [**ハイパーリンクのプレフィックス**] ドロップダウンリストボックスで、インスタントメッセージの会話で url を処理する方法に対応するオプションをクリックします。
     
-    \[**メッセージを許可**\] ボックスでは、送信が許可されているハイパーリンクの送信時に、ユーザーに対して警告メッセージを送信できます。
+    [**許可] メッセージ**ボックスを使用すると、送信が許可されているハイパーリンクを送信するときに、ユーザーに警告メッセージが送信されます。
 
-9.  \[**確定**\] をクリックします。
+9.  [**コミット**] をクリックします。
 
-## 関連項目
+</div>
 
-#### タスク
+<div>
 
-[Lync Server 2013 でのインスタント メッセージング (IM) の URL フィルターおよびファイル送信の構成](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[特定のサイト用の新しいファイル送信フィルターの作成](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[既定のファイル送信フィルターの変更](lync-server-2013-modify-the-default-file-transfer-filter.md)  
+## <a name="see-also"></a>関連項目
 
-#### 概念
 
-[既定の URL フィルターの変更](lync-server-2013-modify-the-default-url-filter.md)
+[Lync Server 2013 でのインスタントメッセージング (IM) のファイル転送と URL フィルタリングの構成](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[Lync Server 2013 で特定のサイト用の新しいファイル転送フィルターを作成する](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[Lync Server 2013 で既定のファイル転送フィルターを変更する](lync-server-2013-modify-the-default-file-transfer-filter.md)  
+
+
+[Lync Server 2013 で既定の URL フィルターを変更する](lync-server-2013-modify-the-default-url-filter.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

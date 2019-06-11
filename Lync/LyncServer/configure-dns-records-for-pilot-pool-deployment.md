@@ -1,35 +1,65 @@
-﻿---
-title: パイロット プール展開の DNS レコードの構成
-TOCTitle: パイロット プール展開の DNS レコードの構成
-ms:assetid: eb421bad-4bf1-4837-a077-7795094692d9
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721921(v=OCS.15)
-ms:contentKeyID: 49887199
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: パイロット プール展開の DNS レコードの構成
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure DNS records for pilot pool deployment
+ms:assetid: eb421bad-4bf1-4837-a077-7795094692d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721921(v=OCS.15)
+ms:contentKeyID: 49733855
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: afde57a9ed64dbff537395ccef908ae44b86177d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840080"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# パイロット プール展開の DNS レコードの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-29_
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a>パイロット プール展開の DNS レコードの構成
 
-Lync Server 2013 パイロット プールを展開する前に、パイロット プールの DNS ホスト A のエントリを更新する必要があります。この手順を正常に完了するには、Domain Admins グループまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンしている必要があります。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-29_
+
+Lync Server 2013 パイロットプールを展開する前に、パイロットプールの DNS ホストのエントリを更新する必要があります。 この手順を完了するには、サーバーまたはドメインに、Domain Admins グループのメンバーまたは DnsAdmins グループのメンバーとしてログオンしている必要があります。
 
 **DNS ホスト A レコードを構成するには**
 
-1.  ドメイン ネーム システム (DNS) サーバーで、\[**スタート**\]、\[**管理ツール**\]、および \[**DNS**\] の順にクリックします。
+1.  ドメインネームシステム (DNS) サーバーで、[**スタート**] をクリックし、[**管理ツール**]、[ **DNS**] の順にクリックします。
 
-2.  ドメインのコンソール ツリーで、\[**前方参照ゾーン**\] を展開し、 Lync Server 2013 がインストールされるドメインを右クリックします。
+2.  ドメインのコンソールツリーで [**前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされているドメインを右クリックします。
 
-3.  \[**新しいホスト (A または AAAA)**\] をクリックします。
+3.  [**新しいホスト (A または AAAA)**] をクリックします。
 
-4.  \[**名前**\] をクリックし、 Lync Server 2013 プールのホスト名を入力します (ドメイン名は、レコードが定義されるゾーンから取られるため、A レコードの一部として入力する必要はありません)。
+4.  [**名前**] をクリックして、Lync Server 2013 プールのホスト名を入力します (ドメイン名は、レコードが定義されていて、A レコードの一部として入力する必要はありません)。
 
-5.  \[**IP アドレス**\] をクリックし、 フロント エンド プール の IP アドレス入力します。
+5.  [ **Ip アドレス**] をクリックして、フロントエンドプールの ip アドレスを入力します。
 
-6.  \[**ホストの追加**\] をクリックし、\[**OK**\] をクリックします。
+6.  [**ホストの追加**] をクリックし、[ **OK**] をクリックします。
 
-7.  すべて終了したら \[**完了**\] をクリックします。
+7.  完了したら、[**完了**] をクリックします。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

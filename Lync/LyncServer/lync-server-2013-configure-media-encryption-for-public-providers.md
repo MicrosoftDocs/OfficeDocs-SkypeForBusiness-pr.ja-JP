@@ -1,42 +1,76 @@
-﻿---
-title: 'Lync Server 2013: 公開プロバイダーに対するメディアの暗号化の構成'
-TOCTitle: 公開プロバイダーに対するメディアの暗号化の構成
-ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205149(v=OCS.15)
-ms:contentKeyID: 48273230
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 公開プロバイダーに対するメディアの暗号化の構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure media encryption for public providers
+ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205149(v=OCS.15)
+ms:contentKeyID: 48185036
+ms.date: 12/13/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1496bda01456593066efd212241e3d930f1e2cc6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840348"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での公開プロバイダーに対するメディアの暗号化の構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-12-12_
+# <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a>Lync Server 2013 での公開プロバイダーに対するメディアの暗号化の構成
 
-ライセンス要件およびプロビジョニング プロセスの実行方法の詳細については、「Microsoft Lync Server、Office Communications Server、および Live Communications Server のパブリック IM 接続のプロビジョニング ガイド」( <http://go.microsoft.com/fwlink/?linkid=155970>) を参照してください。
+</div>
 
-Windows Live Messenger との音声ビデオ (A/V) フェデレーションを実装する場合は、 Lync Server の暗号化レベルと EnablePublicCloudAccess ポリシーという 2 つのパラメーターを変更する必要があります。既定では、暗号化レベルは「必須」です。この設定を「サポート」に変更する必要があります。EnablePublicCloudAccess ポリシーが false に設定されている場合は、 **True** に変更する必要があります。この変更は、 Lync Server 管理シェルから実行できます。
+<div id="mainSection">
 
+<div id="mainBody">
 
-> [!IMPORTANT]
-> Lync は組織間を接続したり世界中のユーザーと接続したりするための、これまで以上の強力なツールとなります。Windows Live Messenger とのフェデレーションを行うのに、Lync Standard Client Access License (CAL) を超えてユーザー/デバイス ライセンスを追加する必要はありません。翌年、Skype フェデレーションがこのリストに追加されることで、Lync ユーザーは IM および音声を使用して数億のユーザーにアクセスできます。
+<span> </span>
 
+_**最終更新日:** 2014-12-12_
 
+音声/ビデオ (A/V) フェデレーションを Windows Live Messenger と共に実装する場合は、Lync Server の暗号化レベルと EnablePublicCloudAccess ポリシーという2つのパラメーターを変更する必要があります。 既定では、暗号化レベルは [必須] に設定されています。 この設定は、"サポート" に変更する必要があります。 EnablePublicCloudAccess ポリシーが false に設定されている場合は、 **True**に設定する必要があります。 これは、Lync Server 管理シェルから行うことができます。
 
-## Windows Live のフェデレーションを構成する
+<div>
 
-1.  フロントエンド サーバーで Lync Server 管理シェルを起動します。そのためには、\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+## <a name="configure-federation-for-windows-live"></a>Windows Live 用フェデレーションを構成する
 
-2.  コマンド プロンプトで、次の各コマンドを入力します。
+1.  フロントエンドサーバーで Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+
+2.  コマンドプロンプトで、次のコマンドを入力します。
     
+       ```
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-
-       &nbsp;
+       ```
     
+       ```
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+       ```
     
-    > [!NOTE]
-    > Windows Live Messenger は、音声ビデオの暗号化をサポートしていないため、この手順は必ず実行する必要があります。このコマンドは、音声ビデオ データの暗号化を必須にするのではなく、グローバル ポリシーの暗号化設定を「サポート」に設定します。暗号化をサポートするクライアントは、この場合も Lync 2013 などの暗号化を使用します。
+    <div class=" ">
+    
+
+    > [!NOTE]  
+    > Windows Live Messenger では音声/ビデオの暗号化がサポートされていないため、これは必須の手順です。 このコマンドは、オーディオ/ビデオデータの暗号化を必要とするのではなく、グローバルポリシーをサポート暗号化設定に設定します。 暗号化をサポートするクライアントでも、Lync 2013 などの暗号化が使用されます。
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

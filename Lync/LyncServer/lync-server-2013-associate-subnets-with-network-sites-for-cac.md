@@ -1,21 +1,51 @@
-﻿---
-title: CAC のネットワーク サイトとのサブネットの関連付け
-TOCTitle: CAC のネットワーク サイトとのサブネットの関連付け
-ms:assetid: a749c9b3-15f3-4e74-9f43-1507d3c2c940
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412786(v=OCS.15)
-ms:contentKeyID: 48273204
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: サブネットと CAC のネットワークサイトとの関連付け'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Associate subnets with network sites for CAC
+ms:assetid: a749c9b3-15f3-4e74-9f43-1507d3c2c940
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412786(v=OCS.15)
+ms:contentKeyID: 48185017
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9c00205e8aa070eacb7b5d99ec724ad8b67fa2ae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840913"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# CAC のネットワーク サイトとのサブネットの関連付け
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-20_
+# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a>Lync Server 2013 で、サブネットとネットワークサイトを CAC に関連付ける
 
-ネットワーク内のすべてのサブネットが、特定のネットワーク サイトに関連付けられている必要があります。これは、サブネット情報を使用して、エンドポイントが存在するネットワーク サイトを判断するためです。セッションを行う双方の場所が分かっている場合、通話受付管理 (CAC) は、通話を確立するために十分な帯域幅があるかどうかを判断できます。
+</div>
 
-通話受付管理には、サブネットをネットワーク サイトと関連付けるための特別な要件はありません。トポロジ内のサブネットとネットワーク サイト間の関連付けを作成するには、「[Lync Server 2013 でのネットワーク サイトとサブネットの関連付け](lync-server-2013-associate-a-subnet-with-a-network-site.md)」の手順を実行します。 通話受付管理のネットワーク トポロジの例におけるネットワーク サイトとそれぞれのサブネットを表示するには、「計画」のドキュメントの「[例: Lync Server 2013 での通話受付管理の組織要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-20_
+
+ネットワーク内のすべてのサブネットは、特定のネットワークサイトと関連付けられている必要があります。 これは、エンドポイントが配置されているネットワークサイトを特定するためにサブネット情報が使用されるためです。 セッション内の両方の当事者の場所がわかっている場合、通話受付制御 (CAC) では、通話を確立するために十分な帯域幅があるかどうかを判断できます。
+
+通話受付制御には、サブネットとネットワークサイトを関連付けるための特別な要件はありません。 トポロジのサブネットとネットワークサイトの間の関連付けを作成するには、「 [Lync Server 2013 でサブネットとネットワークサイトを関連付ける](lync-server-2013-associate-a-subnet-with-a-network-site.md)」の手順に従います。 通話受付制御のネットワークトポロジの例でネットワークサイト (および各サブネット) を表示する方法については、「例: 計画ドキュメントの[Lync Server 2013 での通話受付制御の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
