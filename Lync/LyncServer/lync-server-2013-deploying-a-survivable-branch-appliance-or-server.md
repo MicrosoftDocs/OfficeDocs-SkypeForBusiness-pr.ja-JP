@@ -1,32 +1,69 @@
-﻿---
-title: 'Lync Server 2013: 存続可能ブランチ アプライアンスまたはサーバーの展開'
-TOCTitle: 存続可能ブランチ アプライアンスまたはサーバーの展開
-ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398849(v=OCS.15)
-ms:contentKeyID: 48273586
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 存続可能ブランチ アプライアンスまたはサーバーの展開'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying a Survivable Branch Appliance or Server
+ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398849(v=OCS.15)
+ms:contentKeyID: 48185643
+ms.date: 12/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c7cf894fe6650ff3c06eaaa37f6ba05d70f50eeb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833566"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 を使用した存続可能ブランチ アプライアンスまたはサーバーの展開
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-12-10_
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Lync Server 2013 を使用した存続可能ブランチ アプライアンスまたはサーバーの展開
 
-復元性 エンタープライズ VoIP とはブランチサイトの復元性のことです。つまり、中央サイトへのリンクが使用不能になってもブランチ サイトのユーザーに エンタープライズ VoIP サービスを継続して提供する機能のことです。
+</div>
 
-小中規模のブランチ サイト (ユーザーが 25 ～ 1,000 のブランチ サイト) の場合は、 存続可能ブランチ アプライアンスを展開し、公衆交換電話網 (PSTN) 通話を、組み込み PSTN ゲートウェイまたは SIP トランクを使用して電話サービス プロバイダーに終結させることをお勧めします。 存続可能ブランチ アプライアンスは、 Windows Server 2008 R2 オペレーティング システム、 Lync Server 2013 レジストラー、 仲介サーバー ソフトウェア、および PSTN ゲートウェイを実行するブレード サーバーを含み、すべてが 1 つのアプライアンス シャーシに組み込まれたサードパーティ デバイスです。
+<div id="mainSection">
 
-ユーザー数が 1,000 ～ 5,000 で、復元性 WAN が存在しないブランチ サイトの場合は、PSTN ゲートウェイと SIP トランクのどちらかを経由して 存続可能ブランチ サーバーを電話サービス プロバイダーに接続するようお勧めします。 存続可能ブランチ サーバーは、レジストラーと 仲介サーバー ソフトウェアがインストールされている Windows Server ベースのコンピューターです。
+<div id="mainBody">
 
-> [!NOTE]
-> ユーザーと専任の Lync Server 管理者の総数が 5,000 を超えるブランチ サイトの場合は、中央サイトの展開とは別の完全な Lync Server 2013 の展開をお勧めします。<br />
-> 各自のブランチ サイトにとって最善の復元性ソリューションを選択するための前提条件、計画、考慮事項など詳細については、「計画」のドキュメントの「<a href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 のブランチ サイトの復元要件</a>」を参照してください。
+<span> </span>
+
+_**最終更新日:** 2014-12-10_
+
+耐障害性のあるエンタープライズボイスとは、ブランチサイトの回復性 (セントラルサイトへのリンクが利用できなくなった場合に、継続的なエンタープライズボイスサービスを提供して、サイトのユーザーをブランチサイトユーザーに提供することを意味します)。
+
+小規模または中規模のブランチサイト (25 ~ 1000 ユーザーの支店) の場合は、Survivable Branch Appliance を導入することをお勧めします。このアプライアンスは、内蔵の PSTN ゲートウェイまたは SIP トランクを電話に接続することで、公衆交換電話網 (PSTN) 通話を終了します。サービスプロバイダ。 Survivable Branch Appliance は、Windows Server 2008 R2 オペレーティングシステムを実行しているブレードサーバー、Lync Server 2013 レジストラー、仲介サーバーソフトウェア、PSTN ゲートウェイがすべて1つのアプライアンスシャーシに含まれているサードパーティ製のデバイスです。
+
+1000 5000 を使用している支社と、回復できる WAN がないブランチサイトの場合は、PSTN ゲートウェイまたは電話サービスプロバイダーへの SIP トランクのどちらかに接続された Survivable Branch Server をお勧めします。 Survivable Branch Server は、レジストラーと仲介サーバーソフトウェアがインストールされている Windows Server ベースのコンピューターです。
+
+<div>
 
 
-## このセクション中
+> [!NOTE]  
+> 5000ユーザーと専用の Lync Server 管理者がいる支店サイトの場合は、中央サイトとは別の Lync Server 2013 の展開をお勧めします。<BR>組織内のブランチサイトに最適な復元策を選択する方法について詳しくは、「計画のための前提条件と計画の考慮事項」を参照して<A href="lync-server-2013-branch-site-resiliency-requirements.md">2013</A>ください。
+
+
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Lync Server Survivable Branch Appliance をホームとして使用しているユーザーは、新しいチャットルームを作成したり、既存のルームの会議室カードを表示したりすることはできません。
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 による存続可能ブランチ アプライアンスまたはサーバーの展開 - 中央サイトのタスク](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)
 
@@ -38,9 +75,25 @@ _**トピックの最終更新日:** 2014-12-10_
 
   - [付録: Lync Server 2013 の存続可能ブランチ アプライアンスとサーバー](lync-server-2013-appendices-survivable-branch-appliances-and-servers.md)
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Lync Server 2013 の展開](lync-server-2013-deploying-lync-server.md)
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 の展開](lync-server-2013-deploying-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: XSLT 定義ファイルのカスタマイズ'
-TOCTitle: XSLT 定義ファイルのカスタマイズ
-ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ679898(v=OCS.15)
-ms:contentKeyID: 49887215
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: XSLT 定義ファイルのカスタマイズ'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Customizing the XSLT definition file
+ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679898(v=OCS.15)
+ms:contentKeyID: 49557733
+ms.date: 09/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e57acbd4cbcd66a3a3371c4ce144fcd2a23bd0ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833743"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での XSLT 定義ファイルのカスタマイズ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Lync Server 2013 での XSLT 定義ファイルのカスタマイズ
 
-コンプライアンス サービスは、 Lync Server 2013、 常設チャット サーバーのそれぞれの会話に関連するデータを記録してアーカイブします。これには、参加者が次のことを行う場合が含まれます。
+</div>
 
-  - 常設チャット ルームに参加する
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-09-11_
+
+コンプライアンスサービスは、参加者がいる場合など、各 Lync Server 2013 の常設チャットサーバーの会話に関連するデータを記録およびアーカイブします。
+
+  - 常設チャットルームに参加する
 
   - チャット ルームから退出する
 
@@ -29,11 +49,13 @@ _**トピックの最終更新日:** 2015-03-09_
 
   - ファイルをダウンロードする
 
-データは XML として送信されるため、XSLT 定義ファイルを使用して組織に最適な書式に変換できます。このトピックでは、コンプライアンス サービスが作成する XML ファイルについて説明します。また、XSLT の定義および出力ファイルを提供します。
+データは XML として配信され、XSLT 定義ファイルを使用することで、組織に最も適した形式に変換することができます。 このトピックでは、コンプライアンス サービスが作成する XML ファイルについて説明します。 また、XSLT の定義および出力ファイルを提供します。
 
-## 出力書式
+<div>
 
-コンプライアンス サービスの出力は、会話 (Conversation 要素) とメッセージ (Messages 要素) によって分類されます。次のコード サンプルに例を示します。
+## <a name="output-format"></a>出力形式
+
+コンプライアンスサービスの出力は、次のコードサンプルに示すように、スレッド (スレッド) 別に分類され、次にメッセージ (Messages 要素) によって分類されます。
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -48,23 +70,23 @@ _**トピックの最終更新日:** 2015-03-09_
       </Conversation>
     </Conversations>
 
-Conversation 要素には、4 つの要素 (Channel、FirstMessage、StartTimeUTC、および EndTimeUTC) が含まれます。Channel 要素には、チャット ルームの Uniform Resource Identifier (URI) が含まれます。FirstMessage 要素は、Messages 要素の最初のメッセージを記述します。StartTimeUTC および EndTimeUTC 要素は、会話の開始および終了時刻を示します。次のコード サンプルに例を示します。
+スレッド要素には、4つの要素 (チャネル、FirstMessage、StartTimeUTC、EndTimeUTC) が含まれています。 チャネル要素にはチャットルームの Uniform Resource Identifier (URI) が含まれ、FirstMessage 要素は Messages 要素の最初のメッセージを記述します。 StartTimeUTC 要素と EndTimeUTC 要素は、次のコードサンプルに示すように、スレッドの開始時刻と終了時刻を指定します。
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つの属性 (type、content、および id) が含まれます。Sender 要素は、メッセージを送信したユーザーを表し、DateTimeUTC 要素は、イベントの発生時刻を表します。次のコード サンプルに例を示します。
+メッセージ要素には、2つの要素 (Sender と DateTimeUTC) と3つの属性 (種類、コンテンツ、ID) が含まれます。 Sender 要素は、メッセージを送信するユーザーを表し、次のコードサンプルに示すように、イベントが発生すると DateTimeUTC 要素を表します。
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
     </Message>
 
-次の表では、メッセージ属性 Type、Content、および ID について説明します。
+次の表で、メッセージ属性 Type、Content、ID について説明します。
 
-### Messages 要素の属性
+### <a name="messages-element-attributes"></a>Messages 要素の属性
 
 <table>
 <colgroup>
@@ -81,8 +103,8 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>型</p></td>
-<td><p>メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明されています。</p></td>
+<td><p>Type</p></td>
+<td><p>メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明しています。</p></td>
 <td><p>必須</p></td>
 </tr>
 <tr class="even">
@@ -99,9 +121,9 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 </table>
 
 
-各 Sender 要素には、5 つの属性 (Username、ID、Email、Internal、および Uri) が含まれます。これらの属性については、次の表で説明されています。
+各 Sender 要素には、5 つの属性 (Username、ID、Email、Internal、Uri) が含まれます。次の表で、これらの属性について説明します。
 
-### Sender 要素の属性
+### <a name="sender-element-attributes"></a>Sender 要素の属性
 
 <table>
 <colgroup>
@@ -128,13 +150,13 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 <td><p>必須</p></td>
 </tr>
 <tr class="odd">
-<td><p>メール</p></td>
-<td><p>送信者の電子メール アドレス。</p></td>
+<td><p>Email</p></td>
+<td><p>送信者のメール アドレス。</p></td>
 <td><p>省略可能</p></td>
 </tr>
 <tr class="even">
-<td><p>内部</p></td>
-<td><p>ユーザーが内部ユーザーとフェデレーション ユーザーのどちらであるかを決定します。この値が True に設定されている場合、ユーザーは内部ユーザーです。</p></td>
+<td><p>Internal</p></td>
+<td><p>ユーザーが内部ユーザーとフェデレーション ユーザーのどちらであるかを指定します。この値が True に設定されている場合、ユーザーは内部ユーザーです。</p></td>
 <td><p>省略可能</p></td>
 </tr>
 <tr class="odd">
@@ -146,9 +168,9 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 </table>
 
 
-次の表では、Messages 要素に含めることのできるメッセージ型について説明します。また、各要素の使用方法の例を提供します。
+次の表で、Messages 要素に含めることのできるメッセージ型について説明します。また、各要素の使用方法の例を示します。
 
-### Messages 要素のメッセージ型
+### <a name="message-element-message-types"></a>Messages 要素のメッセージ型
 
 <table>
 <colgroup>
@@ -165,7 +187,7 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>参加</p></td>
+<td><p>Join</p></td>
 <td><p>ユーザーがチャット ルームに参加しました。</p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -182,7 +204,7 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 </tr>
 <tr class="odd">
 <td><p>Chat</p></td>
-<td><p>送信者の電子メール アドレス。</p></td>
+<td><p>送信者のメール アドレス。</p></td>
 <td><pre><code>&lt;Message type=&quot;CHAT&quot; content=&quot;hello&quot; id=&quot;1&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351800522&quot; string=&quot;2008-03-12T19:56:40.522264Z&quot; long=&quot;633409486005222640&quot; /&gt; 
@@ -216,9 +238,11 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 </table>
 
 
-## 常設チャットの既定の出力 XSD とサンプル XSL 変換
+<div>
 
-次のコード サンプルには、コンプライアンス サーバーからの既定の出力が含まれています。
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>既定の常設チャット出力の XSD とサンプルの XSL 変換
+
+次のコードサンプルは、コンプライアンスサーバーからの既定の出力を示しています。
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -315,7 +339,7 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
       </xs:element>
     </xs:schema>
 
-次のコード サンプルには、サンプル XSL 変換が含まれています。
+次のコードサンプルには、サンプルの XSL 変換が含まれています。
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -384,4 +408,18 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
           <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
        </xsl:template>
     </xsl:stylesheet>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

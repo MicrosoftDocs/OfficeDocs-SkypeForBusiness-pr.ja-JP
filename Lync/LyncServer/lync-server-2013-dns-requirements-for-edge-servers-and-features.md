@@ -1,25 +1,47 @@
-﻿---
-title: エッジ サーバーおよび機能に対する DNS 要件
-TOCTitle: エッジ サーバーおよび機能に対する DNS 要件
-ms:assetid: e3bf05c8-96fb-4dd2-acb1-f0d141c9e2ea
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721912(v=OCS.15)
-ms:contentKeyID: 49887184
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: エッジサーバーと機能の DNS 要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS requirements for Edge Servers and features
+ms:assetid: e3bf05c8-96fb-4dd2-acb1-f0d141c9e2ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721912(v=OCS.15)
+ms:contentKeyID: 49733846
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 18c5069e82da9d063cc19e230db7503cd1bc640e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833370"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# エッジ サーバーおよび機能に対する DNS 要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-04-08_
+# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a>Microsoft Lync Server 2013 での microsoft Edge サーバーと microsoft 機能の DNS 要件
 
-Lync Server 2013エッジ サーバー、エッジ プール、およびリバース プロキシには、ドメイン ネーム システム (DNS) レコードに対する特定の要件があります。IPv4 および IPv6 が使用されている Lync Server 2013 では、ホスト A および AAAA レコードを計画する必要があります。
+</div>
 
-以下のトピックでは、展開計画のための DNS レコードの使用が定義されています。
+<div id="mainSection">
 
-## このセクション中
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-04-08_
+
+Lync Server 2013 Edge サーバー、エッジプール、リバースプロキシには、ドメインネームシステム (DNS) レコードの固有の要件があります。 Lync Server 2013 で IPv4 と IPv6 が使用されている場合は、host A レコードと AAAA レコードの両方を計画する必要があります。
+
+以下のトピックでは、展開計画での DNS レコードの使用を定義しています。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [DNS の概要 - Lync Server 2013 の単一統合エッジ (NAT によるプライベート IP アドレスを使用)](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
@@ -33,5 +55,17 @@ Lync Server 2013エッジ サーバー、エッジ プール、およびリバ�
 
   - [DNS の概要 - Lync Server 2013 でのリバース プロキシ](lync-server-2013-dns-summary-reverse-proxy.md)
 
-  - [DNS の概要 - SIP、XMPP フェデレーション、パブリック インスタント メッセージング](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [DNS 概要-Lync Server 2013 での SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

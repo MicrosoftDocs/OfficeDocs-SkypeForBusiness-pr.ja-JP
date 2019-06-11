@@ -1,27 +1,75 @@
-﻿---
-title: Lync Server 2013 の暗号化
-TOCTitle: Lync Server 2013 の暗号化
-ms:assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn481135(v=OCS.15)
-ms:contentKeyID: 59679290
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 暗号化'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Encryption for Lync Server 2013
+ms:assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481135(v=OCS.15)
+ms:contentKeyID: 59893874
+ms.date: 09/14/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 01c989213b050bdb536e95a8a42e8f7b35292eaf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833233"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の暗号化
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="encryption-for-lync-server-2013"></a>Lync Server 2013 の暗号化
 
-Microsoft Lync Server 2013 では、TLS と MTLS を使用してインスタント メッセージを暗号化します。トラフィックが内部ネットワークに限定されているか、内部ネットワークの境界を越えるかに関係なく、MTLS は、サーバー間のすべてのトラフィックに必要です。TLS はオプションですが、仲介サーバーとメディア ゲートウェイの間で使用することを強くお勧めします。この接続に TLS を構成する場合は MTLS も必要です。したがって、ゲートウェイは、仲介サーバーによって信頼される証明機関 (CA) から発行された証明書を使用して構成する必要があります。
+</div>
 
-クライアント間のトラフィックに対する要件は、そのトラフィックが内部の企業ファイアウォールを越えるかどうかによって異なります。厳密に言えば、内部のトラフィックでは、TLS を使うことも (インスタント メッセージが暗号化される)、TCP を使うことも (インスタント メッセージが暗号化されない) できます。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2017-09-14_
+
+Microsoft Lync Server 2013 は、TLS と MTLS を使ってインスタントメッセージを暗号化します。 トラフィックが内部ネットワークに限定されているか、内部ネットワークの境界を越えるかに関係なく、MTLS は、サーバー間のすべてのトラフィックに必要です。 TLS は必須ではありませんが、仲介サーバーとメディアゲートウェイ間で行うことを強くお勧めします。 この接続に TLS を構成する場合は MTLS も必要です。 そのため、ゲートウェイは、仲介サーバーによって信頼されている CA からの証明書を使って構成する必要があります。
+
+<div>
+
+
+> [!NOTE]  
+> SSL 3.0 に関するセキュリティ アドバイザリが 2014 年に公開されました。 Lync Server 2013 での SSL 3.0 の無効化はサポートされています。 セキュリティアドバイザリの詳細については、 <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>を参照してください。
+
+
+
+</div>
+
+<div>
+
+<table>
+<thead>
+<tr class="header">
+<th><img src="images/Gg398321.security(OCS.15).gif" title="証券" alt="security" />セキュリティメモ:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>最強の暗号化プロトコルを使用するために、Lync Server 2013 は次の順序で TLS 暗号化プロトコルをクライアントに提供します。 <strong>tls 1.2</strong> 、 <strong>tls 1.1</strong>、 <strong>tls 1.0</strong>。 TLS は Lync Server 2013 の重要な部分であるため、サポートされている環境を維持するために必要です。</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+クライアント間トラフィックの要件は、トラフィックが社内のファイアウォールを通過するかどうかによって異なります。 厳密には、すべての内部トラフィックで TLS を使うことができます。この場合、インスタントメッセージは暗号化され、TCP は使用されません。
 
 次の表に、各種トラフィックのプロトコル要件をまとめます。
 
-### トラフィックの保護
+### <a name="traffic-protection"></a>トラフィックの保護
 
 <table>
 <colgroup>
@@ -48,7 +96,7 @@ Microsoft Lync Server 2013 では、TLS と MTLS を使用してインスタン�
 <td><p>TLS (TLS 用に構成されている場合)</p></td>
 </tr>
 <tr class="even">
-<td><p>オーディオとビデオ、メディアのデスクトップ共有など</p></td>
+<td><p>オーディオとビデオ、メディアのデスクトップ共有</p></td>
 <td><p>SRTP</p></td>
 </tr>
 <tr class="odd">
@@ -67,17 +115,41 @@ Microsoft Lync Server 2013 では、TLS と MTLS を使用してインスタン�
 </table>
 
 
-## メディアの暗号化
+<div>
 
-メディア トラフィックは、Secure RTP (SRTP) を使用して暗号化されます。これは、秘密保持機能、認証、RTP トラフィックなどに対する再生攻撃からの保護機能を提供するリアルタイム転送プロトコル (RTP) のプロファイルです。SRTP では、(メディア参加者のために) サーバーの要求が正常に認証された結果としてメディア リレー認証サービスによって生成されるセッション キーを使用します。このセッション キーは、ネゴシエートされたユーザー名とパスワードによって保護されます。このユーザー名とパスワードは、フロント エンド サーバーによってメディア リレー認証サービスに対して提示され、TLS のセキュリティで保護された SIP チャネル経由で参加者に送信されます。このセッション キーは、ユーザー名とパスワードによってセキュリティで保護されます。また、このセッション キーは、メディア リレー サービスで使用され、参加者の TLS 証明書とセキュリティで保護された SIP チャネルによって提供されます。このセッション キーを復号化すると、参加者は SRTP ストリームを復号化できます。さらに、仲介サーバーと内部の次ホップの間で双方向に送信されるメディアも、SRTP を使用して暗号化されます。仲介サーバーとメディア ゲートウェイの間で双方向に送信されるメディアは暗号化されません。仲介サーバーは、メディア ゲートウェイに対して暗号化をサポートできますが、ゲートウェイは、MTLS と証明書の保管をサポートする必要があります。
+## <a name="media-encryption"></a>メディアの暗号化
 
-> [!NOTE]
-> 音声ビデオ (A/V) は、最新バージョンの Windows Live Messenger でサポートされます。Windows Live Messenger で音声ビデオ フェデレーションを実装する場合は、Lync Server の暗号化レベルを変更する必要もあります。既定では、暗号化レベルは &quot;必須&quot; です。Lync Server 管理シェルを使用して、この設定を &quot;サポート&quot; に変更する必要があります。詳しくは、展開のドキュメントの「<a href="lync-server-2013-deploying-external-user-access.md">Lync Server 2013 での外部ユーザー アクセスの展開</a>」をご覧ください。
+メディア トラフィックは、RTP トラフィックに対して機密性、認証、反射攻撃保護を提供する RTP (Real-Time Transport Protocol) のプロファイルである SRTP (Secure RTP) を使用して暗号化されます。 さらに、仲介サーバーと内部ネクスト ホップの間で双方向に流れるメディアも SRTP を使用して暗号化されます。 仲介サーバーとメディアゲートウェイ間の両方向のメディアフローは、既定では暗号化されません。 仲介サーバーはメディアゲートウェイへの暗号化をサポートしていますが、ゲートウェイは、MTLS と証明書のストレージをサポートしている必要があります。
+
+<div>
 
 
-音声ビデオ メディア トラフィックは、Microsoft Lync 2013 と Windows Live クライアントの間では暗号化されません。
+> [!NOTE]  
+> オーディオ/ビデオ (A/V) は、新しいバージョンの Windows Live Messenger でサポートされています。 Windows Live Messenger との間で A/V フェデレーションを実装している場合は、Lync Server の暗号化レベルも変更する必要があります。 既定では、暗号化レベルは "必須" です。 Lync Server 管理シェルを使用して、この設定を [サポート] に変更する必要があります。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-deploying-external-user-access.md">Lync Server 2013 での外部ユーザーアクセスの展開</A>」を参照してください。
 
-## FIPS
 
-Windows Server オペレーティング システムが、システム暗号化に Federal Information Processing Standard (FIPS) 140-2 アルゴリズムを使用するように構成されている場合、Lync Server 2013 および Microsoft Exchange Server 2013 は FIPS 140-2 アルゴリズムをサポートして動作します。FIPS サポートを実装するには、Lync Server 2013 を実行する各サーバーで FIPS のサポートを構成する必要があります。FIPS 準拠のアルゴリズムの使用および FIPS サポートの実装方法について詳しくは、Microsoft サポート技術情報の記事 811833 「Windows XP 以降のバージョンの Windows で "システム暗号化: 暗号化、ハッシュ、署名に FIPS 準拠アルゴリズムを使用する" セキュリティ設定を有効にする効果 (英語)」([http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)) をご覧ください。Exchange 2010 における FIPS 140-2 のサポートと制限について詳しくは、「Exchange 2010 SP1 と FIPS 準拠アルゴリズムのサポート (英語)」([http://go.microsoft.com/fwlink/p/?LinkId=205335](http://go.microsoft.com/fwlink/p/?linkid=205335)) をご覧ください。
+
+</div>
+
+オーディオおよびビデオのメディアトラフィックは、Microsoft Lync 2013 と Windows Live クライアントの間で暗号化されません。
+
+</div>
+
+<div>
+
+## <a name="fips"></a>FIPS
+
+Lync Server 2013 と Microsoft Exchange Server 2013 は、Windows Server オペレーティングシステムがシステム暗号化用 FIPS 140-2 アルゴリズムを使用するように構成されている場合に、米国連邦情報処理標準 (FIPS) 140-2 アルゴリズムのサポートと共に動作します。 FIPS サポートを実装するには、Lync Server 2013 を実行している各サーバーでサポートされるように構成する必要があります。 FIPS 準拠アルゴリズムの使用、および FIPS サポートの実装方法の詳細については、「Microsoft サポート技術情報の記事 811833 (「システム暗号化: 暗号化、ハッシュ、署名のための FIPS 準拠アルゴリズムを使用する」のセキュリティ) を参照してください。Windows XP と windows の以降のバージョンでの設定[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)。 Exchange 2010 の FIPS 140-2 のサポートと制限事項の詳細については、「Exchange 2010 SP1 と FIPS [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)準拠アルゴリズムのサポート」を参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,61 +1,117 @@
-﻿---
-title: クライアント バージョン構成設定のコレクションの作成または変更
-TOCTitle: クライアント バージョン構成設定のコレクションの作成または変更
-ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ898477(v=OCS.15)
-ms:contentKeyID: 52056593
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: クライアントバージョンの構成設定のコレクションを作成または変更する
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a collection of client version configuration settings
+ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898477(v=OCS.15)
+ms:contentKeyID: 50873757
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 84df13c7abbc98cbb90c5b59a6b0717deb855e28
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833802"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# クライアント バージョン構成設定のコレクションの作成または変更
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="create-or-modify-a-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でクライアントのバージョン構成設定のコレクションを作成または変更する
 
-クライアント バージョンの構成設定は、クライアント バージョンの制御を有効または無効にするために使用します。グローバル クライアント バージョンの構成は Lync Server と共にインストールされ、サーバーの展開全体に対するクライアント バージョンの制御を有効または無効にするときに使用されます。個別のサイトに対して、クライアント バージョンの構成設定を構成することもできます。クライアント バージョンの構成設定を作成または変更するには、Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理シェルを使用します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-23_
+
+クライアント バージョンの構成設定は、クライアント バージョンの制御を有効または無効にするために使用します。 グローバルクライアントバージョンの構成は Lync Server と共にインストールされ、サーバーの展開全体に対してクライアントのバージョン管理を有効または無効にするために使用されます。 個々のサイトのクライアントのバージョン構成設定を構成することもできます。 Lync Server 2013 コントロールパネルまたは Lync Server 2013 Management Shell からクライアントバージョンの構成設定を作成または変更することができます。
+
+<div>
+
 
 > [!NOTE]
 > 匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。
 
 
-## Lync Server コントロール パネルを使用して、クライアント バージョンの構成設定を作成または変更するには
+
+</div>
+
+<div>
+
+## <a name="to-create-or-modify-client-version-configuration-settings-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してクライアントのバージョン設定を作成または変更するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**クライアント**\] をクリックし、\[**クライアント バージョンの構成**\] ナビゲーション ボタンをクリックします。
+3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**クライアントバージョンの構成**] ナビゲーションボタンをクリックします。
 
-4.  \[**クライアント バージョンの構成**\] ページで、次の操作を行います。
+4.  [**クライアントのバージョン設定**] ページで、次の操作を行います。
     
-      - 新しい構成を作成するには、\[**新規**\] をクリックし、サイトを選択して \[**OK**\] をクリックし、設定を更新します。
+      - 新しい構成を作成するには、[**新規**] をクリックし、サイトを選択して、[ **OK]** をクリックし、設定を更新します。
     
-      - 構成を変更するには、構成を選択し、\[**編集**\]、\[**詳細の表示**\] の順にクリックして、設定を変更します。
+      - 構成を変更するには、構成を選択し、[**編集**] をクリックし、[**詳細の表示**] をクリックして、設定を変更します。
 
-## Windows PowerShell コマンドレットを使用してクライアント バージョンの構成設定を作成または変更する
+</div>
 
-クライアント バージョンの構成設定を作成するには、**New-CsClientVersionConfiguration** コマンドレットを使用します。変更するには、**Set-CsClientVersionConfiguration** コマンドレットを使用します。これらのコマンドレットは、Lync Server 2013 管理シェルから実行することも、Windows PowerShell のリモート セッションから実行することもできます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+<div>
 
-## クライアント バージョンの構成設定の新しいコレクションを作成するには
+## <a name="creating-or-modifying-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してクライアントのバージョン構成設定を作成または変更する
 
-  - 次のコマンドを実行すると、Redmond サイトに適用されるクライアント バージョンの構成設定の新しいコレクションが作成されます。この例では、Redmond サイトのクライアントのバージョン管理が無効になります。
+**新しい-CsClientVersionConfiguration**コマンドレットを使用してクライアントバージョンの構成設定を作成し、その設定を**** 変更することができます。 これらのコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-create-a-new-collection-of-client-version-configuration-settings"></a>クライアントのバージョン構成設定の新しいコレクションを作成するには
+
+  - 次のコマンドは、Redmond サイトに適用されるクライアントのバージョン構成設定の新しいコレクションを作成します。 この例では、レドモンドサイトのクライアントバージョン管理が無効になっています。
     
         New-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $False
 
-## サイトのクライアントのバージョン管理を有効にするには
+</div>
 
-  - 次のコマンドでは、Redmond サイトのクライアントのバージョン管理を有効にします。
+<div>
+
+## <a name="to-enable-client-versioning-for-a-site"></a>サイトのクライアントのバージョン管理を有効にするには
+
+  - このコマンドにより、レドモンドサイトのクライアントのバージョン管理が有効になります。
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-## 組織全体でクライアントのバージョン管理を無効にするには
+</div>
 
-  - 次の例では、組織で使用されているすべてのクライアント バージョンの構成設定で、クライアントのバージョン管理が無効になります。
+<div>
+
+## <a name="to-disable-client-versioning-throughout-the-organization"></a>組織全体でクライアントのバージョン管理を無効にするには
+
+  - この例では、組織で使用されているすべてのクライアントバージョンの構成設定について、クライアントのバージョン管理が無効になっています。
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
-詳細については、[New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) および [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration) コマンドレットのヘルプ トピックを参照してください。
+</div>
+
+詳細については、「[新しい-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg399029(v=OCS.15)) ()」と「 [csclientversionconfiguration](https://technet.microsoft.com/en-us/library/Gg398623(v=OCS.15))コマンドレットを設定する」のヘルプトピックを参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

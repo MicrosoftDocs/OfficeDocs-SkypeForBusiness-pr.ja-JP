@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: モビリティの展開'
-TOCTitle: モビリティの展開
-ms:assetid: f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh690055(v=OCS.15)
-ms:contentKeyID: 48274117
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: モビリティの展開'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying mobility
+ms:assetid: f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690055(v=OCS.15)
+ms:contentKeyID: 48185805
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8dc43742381bdbc9c40675039be12737d8208d3f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833530"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのモビリティの展開
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-08_
+# <a name="deploying-mobility-in-lync-server-2013"></a>Lync Server 2013 でのモビリティの展開
 
-Lync Server 2013 モビリティ機能を展開すると、モバイル ユーザーは、インスタント メッセージング (IM)、プレゼンス、連絡先などの Lync 機能をサポートしているモバイル デバイスを使用できます。
+</div>
 
-モビリティ機能を展開する前提条件の詳細については、「[Lync Server 2013 でのモビリティの計画](lync-server-2013-planning-for-mobility.md)」を参照してください。
+<div id="mainSection">
 
-このセクションでは、モビリティ機能と自動検出機能を展開および確認する方法を順を追って説明します。
+<div id="mainBody">
 
-## このセクション中
+<span> </span>
+
+_**最終更新日:** 2012-09-08_
+
+Lync Server 2013 モビリティ機能を展開するときに、モバイルユーザーは、インスタントメッセージング (IM)、プレゼンス、連絡先などの Lync 機能に対応するモバイルデバイスを使用できます。
+
+モバイル機能を展開するための要件の詳細については、「 [Lync Server 2013 でのモビリティの計画](lync-server-2013-planning-for-mobility.md)」を参照してください。
+
+このセクションでは、モバイル機能と自動検出機能を展開して確認するための手順について説明します。
+
+<div>
+
+## <a name="in-this-section"></a>このセクション中
 
   - [Lync Server 2013 での自動検出サービスの DNS レコードの作成](lync-server-2013-creating-dns-records-for-the-autodiscover-service.md)
 
@@ -36,4 +58,16 @@ Lync Server 2013 モビリティ機能を展開すると、モバイル ユー�
   - [Lync Server 2013 でプッシュ通知を構成する](lync-server-2013-configuring-for-push-notifications.md)
 
   - [Lync Server 2013 でのモビリティ ポリシーの構成](lync-server-2013-configuring-mobility-policy.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

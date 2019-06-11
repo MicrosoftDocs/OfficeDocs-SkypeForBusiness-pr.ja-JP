@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: ErrorDef テーブル'
-TOCTitle: ErrorDef テーブル
-ms:assetid: 6acf3b86-da61-4923-9812-300db6f66dec
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398503(v=OCS.15)
-ms:contentKeyID: 48272409
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ErrorDef テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ErrorDef table
+ms:assetid: 6acf3b86-da61-4923-9812-300db6f66dec
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398503(v=OCS.15)
+ms:contentKeyID: 48184403
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ef21484d564419a5ab5cce7373ceb0b0b71e4a29
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833199"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 ErrorDef テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="errordef-table-in-lync-server-2013"></a>Lync Server 2013 ErrorDef テーブル
 
-ErrorDef テーブルには、発生する可能性があるエラーの各種類に関する情報が格納されます。それぞれのレコードが 1 種類のエラーに対応しています。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-05-25_
+
+ErrorDef テーブルには、発生する可能性がある各エラーの種類に関する情報が格納されます。 各レコードは1種類のエラーです。
 
 
 <table>
@@ -37,43 +57,54 @@ ErrorDef テーブルには、発生する可能性があるエラーの各種�
 <tr class="odd">
 <td><p><strong>ErrorId</strong></p></td>
 <td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>このエラーの種類を識別する一意の ID 番号。</p></td>
+<td><p>Primary</p></td>
+<td><p>この種類のエラーを識別する固有の ID 番号。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ResponseCode</strong></p></td>
+<td><p><strong>返信</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>このエラーに関連付けられている標準的な SIP 応答コード。</p></td>
+<td><p>このエラーに関連付けられた標準 SIP 応答コード。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagId</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>マイクロソフトの診断 ID。</p></td>
+<td><p>Microsoft 診断 ID。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CallTypeId</strong></p></td>
-<td><p>int</p></td>
+<td><p><strong>発信者の Typeid</strong></p></td>
+<td><p>Int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の種類。詳細については、「<a href="lync-server-2013-calltype-table.md">Lync Server 2013 の CallType テーブル</a>」を参照してください。</p></td>
+<td><p>通話の種類。 詳細については、「 <a href="lync-server-2013-calltype-table.md">Lync Server 2013 の CallType テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>
-<td><p>varbinary(33)</p></td>
+<td><p>varbinary (33)</p></td>
 <td><p> </p></td>
-<td><p>エラーが発生した要求の種類。</p>
+<td><p>失敗した要求の種類。</p>
 <p>このデータは、次の構文を使用してテキスト形式に変換できます。</p>
 <p><code>cast(cast(RequestType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
-<td><p>varbinary(257)</p></td>
+<td><p>varbinary (257)</p></td>
 <td><p> </p></td>
-<td><p>エラーが発生した要求のコンテンツの種類。</p>
-<p>このデータは、次の構文を使用してテキスト形式に変換できます。</p>
+<td><p>失敗した要求のコンテンツタイプ。</p>
+<p>このデータは、次の syntaxt を使用してテキスト形式に変換できます。</p>
 <p><code>cast(cast(ContentType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

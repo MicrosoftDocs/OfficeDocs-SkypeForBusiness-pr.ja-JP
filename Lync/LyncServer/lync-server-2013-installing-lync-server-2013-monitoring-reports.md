@@ -1,41 +1,73 @@
-﻿---
-title: Lync Server 2013 監視レポートのインストール
-TOCTitle: Lync Server 2013 監視レポートのインストール
-ms:assetid: 6f417569-b100-442c-ad48-fdd794626cf7
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204989(v=OCS.15)
-ms:contentKeyID: 48272484
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server 2013 監視レポートのインストール'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing Lync Server 2013 Monitoring Reports
+ms:assetid: 6f417569-b100-442c-ad48-fdd794626cf7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204989(v=OCS.15)
+ms:contentKeyID: 48184445
+ms.date: 02/27/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d5908e4eb8f18ef464a4c69cc31bffdc33a10416
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832996"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 監視レポートのインストール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="installing-lync-server-2013-monitoring-reports"></a>Lync Server 2013 監視レポートをインストールする
 
-Microsoft Lync Server 2013 監視レポートは、組織内の通信セッションの品質と量に関するさまざまな情報を提供します。ただし、監視レポートは Lync Server 2013 のインストール時には自動的にインストールされません。監視レポートは、Lync Server がコンピューターにインストールされた後で個別にインストールする必要があります。
+</div>
 
-> [!NOTE]
-> 監視レポートは、監視データベースがインストールされているのと同じコンピューターにインストールすることをお勧めします。これにより、レポートへのアクセス許可の割り当てプロセスが簡単になります。監視ストアをホストしているコンピューターに監視レポートをインストールすると、別のコンピューター上で実行されている Reporting Services とデータベースが対話できるようにするためのアクセス許可を構成する必要がなくなります。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2015-02-27_
+
+Microsoft Lync Server 2013 監視レポートは、組織内で行われる通信セッションの品質と量に関するさまざまな情報を提供します。 ただし、Lync Server 2013 をインストールしても、レポートの監視は自動的にはインストールされません。代わりに、Lync Server がコンピューターにインストールされた後にのみ、監視レポートを個別にインストールする必要があります。
+
+<div>
 
 
-Lync Server 監視レポートには、会議、ピアツーピア IM セッション、ユーザー登録、応答グループ アプリケーションなどについての詳細情報を提供するように設計された 30 種類以上のレポートが含まれます。2013 バージョンでは、Lync Server 監視レポートの多くの機能が強化されています。
+> [!NOTE]  
+> 監視レポートは、監視データベースがインストールされているのと同じコンピューターにインストールすることをお勧めします。この操作を行うと、レポートへのアクセス許可の割り当てプロセスが簡単になります。監視ストアをホストしているコンピューターに監視レポートをインストールすると、別のコンピューター上で実行されている Reporting Services とデータベースが対話できるようにするためのアクセス許可を構成する必要がなくなります。
 
-  - **新しい音声品質レポート**: この新しいレポートには、異なる種類の通話 (たとえば有線通話とワイヤレス通話) 間で通話の品質を比較する[メディア品質比較レポート](lync-server-2013-media-quality-comparison-report.md)と、ユーザーが会議に参加するための所要時間の情報を提供する[会議参加時間レポート](lync-server-2013-conference-join-time-report.md)が含まれます。
 
-  - **ビデオ セッションとアプリケーション共有セッションの両方の分析およびトラブルシューティングのためのレポートの改善**: [Lync Server 2013 のメディア品質概要レポート](lync-server-2013-media-quality-summary-report.md)を利用してビデオ通話とアプリケーション共有通話を分析でき、[Lync Server 2013 のサーバー パフォーマンス レポート](lync-server-2013-server-performance-report.md)にはこれらの通話が発生したサーバーのパフォーマンスの詳細が表示されます。また、ビデオおよびアプリケーション共有の指標が、[Lync Server 2013 ピアツーピア セッション詳細レポート](lync-server-2013-peer-to-peer-session-detail-report.md)と[会議詳細レポート](lync-server-2013-conference-detail-report.md)でも報告されるようになりました。
+
+</div>
+
+Lync Server Monitoring レポートには、会議、ピアツーピア IM セッション、ユーザー登録、応答グループアプリケーションなどの詳細情報を提供するために、30個以上のレポートが含まれています。 2013バージョンの Lync Server Monitoring レポートには、いくつかの拡張機能が含まれています。
+
+  - **新しい音声品質レポート**。 これらの新しいレポートには、 [Lync Server 2013 のメディア品質比較レポート](lync-server-2013-media-quality-comparison-report.md)が含まれており、さまざまな種類の通話 (有線通話とワイヤレス通話など) の間の品質を比較しています。また、 [Lync Server 2013 の会議参加時間レポートで](lync-server-2013-conference-join-time-report.md)は、ユーザーが会議に参加するのに必要な時間に関する情報が提供されます。
+
+  - **ビデオとアプリケーションの共有セッション両方の分析とトラブルシューティングを行うためのレポートが改善されました。** Lync [server 2013 の [メディア品質の概要] レポート](lync-server-2013-media-quality-summary-report.md)では、ビデオとアプリケーションの共有通話を分析することができます。また、 [lync Server 2013 のサーバーパフォーマンスレポートで](lync-server-2013-server-performance-report.md)は、これらの通話を生成しているサーバーのパフォーマンスについて詳しく説明します。 また、ビデオとアプリケーションの共有のメトリックは、lync Server 2013 および[Lync server 2013 の [会議の詳細] レポート](lync-server-2013-conference-detail-report.md)[で、ピアツーピアのセッション詳細レポート](lync-server-2013-peer-to-peer-session-detail-report.md)によって報告されるようになりました。
 
   - **レポートのパフォーマンスの向上**: 応答時間とデータ取得時間が短縮され、レポート間の移動をすばやく簡単に行えるようになりました。
 
 個々のレポートの詳細については、監視レポートのドキュメントを参照してください。
 
-> [!NOTE]
-> Lync Server 2013 には、これ以外に、QoE 通話記録サブレポートという新しいレポートも含まれています。ただし、このレポートは主に内部用であり、直接アクセスするためのものではありません。
+<div>
 
 
-Lync Server 監視レポートをインストールするには、Lync Server 展開ウィザードを使用する方法と、Lync Server 2013 インストール ファイルに含まれている Windows PowerShell スクリプトを使用する方法の 2 つがあります。どちらの方法でレポートをインストールする場合でも、最初に次のことを確認する必要があります。
+> [!NOTE]  
+> 別の新しいレポート (QoE Call Detail サブレポート) が Lync Server 2013 に含まれています。 ただし、このレポートは主に内部用であり、直接アクセスするためのものではありません。
+
+
+
+</div>
+
+Lync Server Monitoring レポートをインストールするには、次の2つの方法があります。 Lync Server 展開ウィザードを使用するか、Lync Server 2013 インストールファイルに含まれている Windows PowerShell スクリプトを使用することができます。 どちらの方法でレポートをインストールする場合でも、最初に次のことを確認する必要があります。
 
   - 監視データベースのユーザー アカウントにデータベースの役割を追加する権限を持っている。
 
@@ -43,23 +75,23 @@ Lync Server 監視レポートをインストールするには、Lync Server �
 
 展開ウィザードを使用して監視レポートをインストールするには、次の手順を実行します。
 
-1.  \[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 展開ウィザード**\] の順にクリックします。
+1.  [**スタート**] をクリックし、[**すべてのプログラム**] をクリックし、[ **Microsoft Lync server 2013**] をクリックして、[ **Lync server Deployment Wizard**] をクリックします。
 
-2.  展開ウィザードで \[**監視レポートの展開**\] をクリックして、監視レポートの展開ウィザードを開始します。
+2.  展開ウィザードで [**監視レポートの展開**] をクリックして、監視レポートの展開ウィザードを開始します。
 
-3.  監視レポートの展開ウィザードの \[**監視データベースの指定**\] ページで、\[**監視データベース**\] ドロップダウン リストに、監視ストアをホストしているコンピューターの完全修飾ドメイン名が表示されていることを確認します (複数の監視ストアがある場合は、ドロップダウン リストから適切なサーバーを選択する必要があります)。\[**SQL Server Reporting Services (SSRS) インスタンス**\] ボックスに正しい SQL Server インスタンス (たとえば **atl-sql-001.litwareinc.com/archinst**) が表示されていることを確認し、\[**次へ**\] をクリックします。
+3.  監視レポートの展開ウィザードの [**監視データベースの指定**] ページで、[**監視データベース**] ドロップダウン リストに、監視ストアをホストしているコンピューターの完全修飾ドメイン名が表示されていることを確認します (複数の監視ストアがある場合は、ドロップダウン リストから適切なサーバーを選択する必要があります)。[**SQL Server Reporting Services (SSRS) インスタンス**] ボックスに正しい SQL Server インスタンス (たとえば **atl-sql-001.litwareinc.com/archinst**) が表示されていることを確認し、[**次へ**] をクリックします。
 
-4.  \[**資格情報の指定**\] ページの \[**ユーザー名**\] ボックスに、監視レポートへのアクセス時に使用するアカウントのドメイン名とユーザー名 (たとえば **litwareinc\\kenmyer**) を入力します。この形式 (ドメイン\\ユーザー名) を使用しない場合はエラーが発生します。
+4.  [**資格情報の指定**] ページで、[**ユーザー名**] ボックスに、監視レポートにアクセスするときに使用するアカウントのドメイン名とユーザー名を入力します (たとえば、 **\\litwareinc kenmyer**)。 この形式 (ドメイン\\ユーザー名) を使わない場合は、エラーが発生します。
     
-    \[**パスワード**\] ボックスにユーザー アカウントのパスワードを入力し、\[**次へ**\] をクリックします。このアカウントに特別な権限は必要ありません。セットアップが完了すると、このアカウントには必要なログオンおよびデータベース アクセス許可が自動的に付与されます。
+    [**パスワード**] ボックスにユーザー アカウントのパスワードを入力し、[**次へ**] をクリックします。このアカウントに特別な権限は必要ありません。セットアップが完了すると、このアカウントには必要なログオンおよびデータベース アクセス許可が自動的に付与されます。
 
-5.  \[**読み取り専用グループの指定**\] ページの \[ユーザー グループ\] ボックスに、SQL Server Reporting Services への読み取り専用の管理者アクセス権を付与するセキュリティ グループの名前を入力します。たとえば、レポートへの読み取り専用の管理者アクセス権を付与するには、「**RTCUniversalReadOnlyAdmins**」と入力します。その後、\[**次へ**\] をクリックします。
+5.  [**読み取り専用グループの指定**] ページの [ユーザー グループ] ボックスに、SQL Server Reporting Services への読み取り専用の管理者アクセス権を付与するセキュリティ グループの名前を入力します。たとえば、レポートへの読み取り専用の管理者アクセス権を付与するには、「**RTCUniversalReadOnlyAdmins**」と入力します。その後、[**次へ**] をクリックします。
 
-6.  \[**コマンドを実行しています**\] ページで、\[**完了**\] をクリックします。
+6.  [**コマンドを実行しています**] ページで、[**完了**] をクリックします。
 
-監視レポートは、Lync Server 管理シェルから DeployReports.ps1 スクリプトを実行してインストールすることもできます。この Windows PowerShell スクリプトは、\\Setup\\ReportingSetup フォルダーの Lync Server のインストール メディアにあります。DeployReports.ps1 を使用して監視レポートをインストールするには、管理シェル プロンプトで次のようなコマンドを入力します。
+監視レポートは、スクリプトの DeployReports を実行して、Lync Server 管理シェルからインストールすることもできます。この Windows PowerShell スクリプトは、セットアップ\\\\レポートのセットアップフォルダーの Lync Server インストールメディアにあります。 DeployReports. ps1 を使って監視レポートをインストールするには、管理シェルプロンプトで次のようなコマンドを入力します。
 
-    D:\Setup\AMD64\Setp\ReportingSetup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
+    C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 
 このコマンドで使用されているパラメーターの説明を次の表に示します。
 
@@ -73,7 +105,7 @@ Lync Server 監視レポートをインストールするには、Lync Server �
 <thead>
 <tr class="header">
 <th>パラメーター名</th>
-<th>必須かどうか</th>
+<th>必須</th>
 <th>説明</th>
 </tr>
 </thead>
@@ -112,17 +144,27 @@ Lync Server 監視レポートをインストールするには、Lync Server �
 </table>
 
 
-監視レポートのインストールが完了したら、Set-CsReportingConfiguration コマンドレットを使用して、これらのレポートへのアクセスに使用する URL を構成する必要があります。このタスクは、Lync Server 管理シェルから次の Windows PowerShell コマンドを実行することによって実行できます。レポート URL の構成時には、必須ではありませんが、HTTPS プロトコルを使用することをお勧めします。
+監視レポートをインストールした後に、これらのレポートにアクセスするために使用する URL を構成するには、ユーザー設定のレポートレットを使用する必要があります。 このタスクは、次の Windows PowerShell コマンドを実行して、Lync Server 管理シェルから実行できます。 レポート URL の構成時には、必須ではありませんが、HTTPS プロトコルを使用することをお勧めします。
 
     Set-CsReportingConfiguration -Identity "MonitoringDatabase:atl-sql-001.litwareinc.com" -ReportingURL "https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST"
 
 上のコマンドでは、ReportingUrl プロパティを、SQL Server 2008 R2 Reporting Services で使用されているレポート マネージャー URL に設定する必要があります。レポート マネージャー URL は、SQL Server Reporting Services がインストールされているコンピューターで次の手順を実行することで確認できます。
 
-1.  \[スタート\]、\[すべてのプログラム\]、\[Microsoft SQL Server 2008 R2\]、\[構成ツール\]、\[Reporting Services 構成マネージャー\] の順にクリックします。
+1.  [スタート]、[すべてのプログラム]、[Microsoft SQL Server 2008 R2]、[構成ツール]、[Reporting Services 構成マネージャー] の順にクリックします。
 
-2.  \[Reporting Services 構成の接続\] ダイアログ ボックスで、Reporting Services コンピューターの名前が \[サーバー名\] ボックスに表示されていることを確認します。\[レポート サーバー インスタンス\] ドロップダウン リストから SQL Server インスタンスを選択し、\[接続\] をクリックします。
+2.  [Reporting Services 構成の接続] ダイアログ ボックスで、Reporting Services コンピューターの名前が [サーバー名] ボックスに表示されていることを確認します。[レポート サーバー インスタンス] ドロップダウン リストから SQL Server インスタンスを選択し、[接続] をクリックします。
 
-3.  Reporting Services 構成マネージャーで、\[レポート マネージャー URL\] をクリックします。すると、\[レポート マネージャー URL\] ウィンドウに 1 つ以上の URL が表示されます。いずれの URL もレポート用 URL として使用できますが、上で説明したように ReportingUrl には HTTPS プロトコルを使用することをお勧めします。
+3.  Reporting Services 構成マネージャーで、[レポート マネージャー URL] をクリックします。すると、[レポート マネージャー URL] ウィンドウに 1 つ以上の URL が表示されます。いずれの URL もレポート用 URL として使用できますが、前述のように、ReportingUrl には HTTPS プロトコルを使用することをお勧めします。
 
-監視データベースのミラー データベースを設定した場合は、監視レポートをミラー データベースとも関連付ける必要があります。詳細については、「[監視レポートとミラー データベースの関連付け](lync-server-2013-associating-monitoring-reports-with-a-mirror-database.md)」を参照してください。
+監視データベースのミラー データベースを設定した場合は、監視レポートをミラー データベースとも関連付ける必要があります。 詳細については、「 [Lync Server 2013 のミラーデータベースによる監視レポートの関連付け](lync-server-2013-associating-monitoring-reports-with-a-mirror-database.md)」を参照してください。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

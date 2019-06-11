@@ -1,45 +1,70 @@
-﻿---
-title: 'Lync Server 2013: アナウンスの作成'
-TOCTitle: アナウンスの作成
-ms:assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412783(v=OCS.15)
-ms:contentKeyID: 48273171
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: お知らせを作成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create an announcement
+ms:assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412783(v=OCS.15)
+ms:contentKeyID: 48185005
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b80210787a8261d122fa7508807ab995279c7d0e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833849"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのアナウンスの作成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="create-an-announcement-in-lync-server-2013"></a>Lync Server 2013 でお知らせを作成する
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-11-01_
 
 新しいアナウンスを作成するには、次のステップを実行する必要があります。
 
 1.  音声ガイダンスの場合は、好みのオーディオ録音アプリケーションを使用してオーディオ ファイルを録音します。
 
-2.  音声ガイダンスの場合は、 **Import-CsAnnouncementFile** コマンドレットを実行して、ファイル ストアにオーディオ ファイルの内容をインポートします。
+2.  音声ガイダンスの場合は、**Import-CsAnnouncementFile** コマンドレットを実行して、ファイル ストアにオーディオ ファイルの内容をインポートします。
 
-3.  **New-CsAnnouncement** コマンドレットを実行して、アナウンスを作成して名前を付けます。このステップを実行して、音声ガイダンス、音声合成 (TTS) による音声ガイダンス、または音声ガイダンスなしのアナウンスを作成します。
+3.  **New-CsAnnouncement** コマンドレットを実行して、アナウンスを作成して名前を付けます。 このステップを実行して、音声ガイダンス、音声合成 (TTS) による音声ガイダンス、または音声ガイダンスなしのアナウンスを作成します。
+    
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > たとえば、メッセージを再生することなく、指定した宛先へ呼び出しを転送する場合は、音声ガイダンスなしのアナウンスを作成できます。
 
-
+    
+    </div>
 
 4.  新しいアナウンスを、割り当てられていない番号の表の番号範囲に割り当てます。
 
-ここでは、アナウンスをインポートおよび作成する方法について説明します。割り当てられていない番号の表にアナウンスを割り当てる方法の詳細については、「[Lync Server 2013 での割り当てられていない番号の表の構成](lync-server-2013-configure-the-unassigned-number-table.md)」を参照してください。
+ここでは、アナウンスをインポートおよび作成する方法について説明します。 [割り当てられていない番号] テーブルにお知らせを割り当てる方法について詳しくは、「 [Lync Server 2013 で未割り当ての番号表を構成する](lync-server-2013-configure-the-unassigned-number-table.md)」をご覧ください。
 
-## 新しいアナウンスを作成するには
+<div>
+
+## <a name="to-create-a-new-announcement"></a>新しいアナウンスを作成するには
 
 1.  音声ガイダンスの場合は、オーディオ ファイルを作成します。
 
-2.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「[Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。
+2.  Lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 の委任セットアップの権限](lync-server-2013-delegate-setup-permissions.md)」で説明されているように、必要なユーザー権限を持つコンピューターにログオンします。
 
-3.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+3.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 4.  音声ガイダンスの場合は、次のように実行します。
     
@@ -57,17 +82,33 @@ _**トピックの最終更新日:** 2012-11-01_
         Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
     
-    たとえば、TTS による音声ガイダンスを指定するには、次の形式を使用します。
+    たとえば、TTS によるガイダンスを指定するには、次の形式を使用します。
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    これらのコマンドレットの詳細と、 **TextToSpeechPrompt** パラメーターで使用する言語コードの一覧については、「[New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement)」を参照してください。
+    これらのコマンドレットについて詳しくは、「 **TextToSpeechPrompt**パラメーターで使う言語コードの一覧を表示する」を[](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)ご覧ください。
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Import-CsAnnouncementFile](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsAnnouncementFile)  
-[New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement)  
-[Lync Server 2013 での割り当てられていない番号の表の構成](lync-server-2013-configure-the-unassigned-number-table.md)
+## <a name="see-also"></a>関連項目
+
+
+[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/Import-CsAnnouncementFile)  
+[新しい CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
+[Lync Server 2013 での割り当てられていない番号の表の構成](lync-server-2013-configure-the-unassigned-number-table.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

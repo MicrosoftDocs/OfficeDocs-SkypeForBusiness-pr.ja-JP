@@ -1,55 +1,107 @@
-﻿---
-title: 'Lync Server 2013: フェデレーション パートナーの検出の有効化または無効化'
-TOCTitle: フェデレーション パートナーの検出の有効化または無効化
-ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg182550(v=OCS.15)
-ms:contentKeyID: 48272872
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: フェデレーション パートナーの検出の有効化または無効化'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable discovery of federation partners
+ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
+ms:contentKeyID: 48184857
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7e83f261fe6fa3ece259518b7730239adf20944c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833304"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのフェデレーション パートナーの検出の有効化または無効化
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="enable-or-disable-discovery-of-federation-partners-in-lync-server-2013"></a>Lync Server 2013 でのフェデレーション パートナーの検出の有効化または無効化
 
-エッジ サーバーを展開して組織のフェデレーションを有効にした際に、フェデレーション パートナー ドメインの自動検出をサポートするかどうかを指定しています。このトピックの手順を使用して、この構成を変更します。
+</div>
 
-> [!NOTE]
-> 次の手順では、既に組織に対してフェデレーションを有効にしていることを前提としています。フェデレーションを有効にする方法の詳細については、「展開」または「操作」のドキュメントの「<a href="lync-server-2013-enable-or-disable-remote-user-access.md">Lync Server 2013 でのリモート ユーザー アクセスの有効化または無効化</a>」を参照してください。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-23_
+
+エッジサーバーを展開して組織のフェデレーションを有効にした時点で、フェデレーションパートナードメインの自動検出をサポートするかどうかを指定する必要があります。 この設定を変更するには、このトピックの手順を使用します。
+
+<div>
 
 
-## 組織に対してフェデレーション ドメインの自動検出を有効または無効にするには
+> [!NOTE]  
+> 次の手順では、組織のフェデレーションを既に有効にしていることを前提としています。 フェデレーションを有効にする方法について詳しくは、展開ドキュメントまたは運用ドキュメントの「 <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Lync Server 2013 でのリモートユーザーアクセスを有効または無効</A>にする」をご覧ください。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-automatic-discovery-of-federated-domains-for-your-organization"></a>組織のフェデレーションドメインの自動検出を有効または無効にするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**外部ユーザー アクセス**\] をクリックし、\[**アクセス エッジ構成**\] をクリックします。
+3.  左側のナビゲーションバーで、[**外部ユーザーアクセス**] をクリックし、[**アクセスエッジ構成**] をクリックします。
 
-4.  \[**アクセス エッジ構成**\] ページで、\[**グローバル**\]、\[**編集**\]、\[**詳細の表示**\] の順にクリックします。
+4.  [**アクセスエッジの構成**] ページで [**グローバル**] をクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-5.  \[**アクセス エッジ構成の編集**\] で、\[**フェデレーション ユーザーとの通信を有効にする**\] の \[**パートナー ドメインの検出を有効にする**\] チェック ボックスをオンまたはオフにして、パートナー ドメインの自動検出を有効また無効にします。
+5.  [ **Access Edge 構成の編集**] の [**フェデレーションユーザーとの通信を有効**にする] で、パートナードメインの自動検出を有効または無効にするには、[**パートナードメインの検出を有効**にする] チェックボックスをオンまたはオフにします。
 
-6.  \[**確定**\] をクリックします。
+6.  [**コミット**] をクリックします。
 
-フェデレーション ユーザーが Lync Server 展開内のユーザーと共同作業できるようにするには、少なくとも 1 つの外部アクセス ポリシーも構成してフェデレーション ユーザー アクセスをサポートする必要があります。詳細については、「展開」または「操作」のドキュメントの「[Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)」を参照してください。特定のフェデレーション ドメインのアクセス制御の詳細については、「操作」のドキュメントの「[Lync Server 2013 での組織の SIP フェデレーション ドメインの管理](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)」、「[Lync Server 2013 での組織の SIP フェデレーション プロバイダーの管理](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)」、および「[Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)」を参照してください。
+フェデレーションされたユーザーが Lync Server の展開でユーザーと共同作業できるようにするには、フェデレーションされたユーザーアクセスをサポートするために、少なくとも1つの外部アクセスポリシーを構成する必要があります。 詳細については、展開ドキュメントまたは運用マニュアルの「 [Lync Server 2013 でフェデレーションとパブリック IM 接続を有効または無効](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)にする」を参照してください。 特定のフェデレーションドメインのアクセス制御の詳細については、「 [Lync server 2013 で組織の sip フェデレーションドメインを管理](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)する」および「 [lync server 2013 で組織の sip フェデレーションプロバイダーを管理する](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)」および「xmpp を管理する」を参照してください。 [運用ドキュメントの Lync Server 2013 のフェデレーションパートナー](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md) 。
 
-## Windows PowerShell コマンドレットを使用したフェデレーション パートナーの検出の有効化または無効化
+</div>
 
-Windows PowerShell および Set-CsAccessEdgeConfiguration コマンドレットを使用してフェデレーション パートナーの検出を管理できます。このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+<div>
 
-## フェデレーション パートナーの検出を有効にするには
+## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、フェデレーションパートナーの検出を有効または無効にする
 
-  - フェデレーション パートナーの検出を有効にするには、 **EnablePartnerDiscovery** プロパティの値を True ($True) に設定します。このプロパティの値を変更するには、DNS SRV ルーティングを有効にする必要があります。
+フェデレーションパートナーの検出は、Windows PowerShell と CsAccessEdgeConfiguration コマンドレットを使用して管理できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-enable-discovery-of-federation-partners"></a>フェデレーションパートナーの検出を有効にするには
+
+  - フェデレーションパートナーの検出を有効にするには、 **Enablepartnerdiscovery**プロパティの値を True ($True) に設定します。 このプロパティ値を変更するには、DNS SRV ルーティングを有効にする必要があることに注意してください。
     
         Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
 
-## フェデレーション パートナーの検出を無効にするには
+</div>
 
-  - フェデレーション パートナーの検出を無効にするには、 **EnablePartnerDiscovery** プロパティの値を False ($False) に設定します。
+<div>
+
+## <a name="to-disable-discovery-of-federation-partners"></a>フェデレーションパートナーの検出を無効にするには
+
+  - フェデレーションパートナーの検出を無効にするには、 **Enablepartnerdiscovery**プロパティの値を False ($False) に設定します。
     
         Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

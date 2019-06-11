@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: DNS の概要 - 拡張ディレクター プール、ハードウェア ロード バランサー'
-TOCTitle: DNS の概要 - 拡張ディレクター プール、ハードウェア ロード バランサー
-ms:assetid: 08ba48e6-bfa1-4ab0-bc89-d58ddb9c20af
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204655(v=OCS.15)
-ms:contentKeyID: 48271176
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: DNS の概要 - 拡張ディレクター プール、ハードウェア ロード バランサー'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - Scaled Director pool, hardware load balancer
+ms:assetid: 08ba48e6-bfa1-4ab0-bc89-d58ddb9c20af
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204655(v=OCS.15)
+ms:contentKeyID: 48183340
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6ff76d69952d08db72e5647b58e38a43b4181c8e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833342"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# DNS の概要 - Lync Server 2013 の拡張ディレクター プール、ハードウェア ロード バランサー
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>DNS の概要 - Lync Server 2013 の拡張ディレクター プール、ハードウェア ロード バランサー
 
-以下の表に、ハードウェア負荷分散 ディレクターのサポートに必要な DNS レコードの概要を示します。ディレクターの役割には、フロント エンド サーバーと同様の DNS レコードが必要です。必要なレコードの数は、ディレクターの証明書で必要なサブジェクトの別名に反映されます。フロント エンド サーバーとは異なり、ディレクター プールはユーザー アカウントも Mobility Service もホストしません。
+</div>
 
-### ロード バランサー機器および DNS 負荷分散を使用する ディレクター プールで必要な DNS レコード
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-20_
+
+次の表には、ハードウェア負荷分散ダイレクタをサポートするために必要な DNS レコードの概要が記載されています。 ディレクターの役割には、フロントエンドサーバーと同様の DNS レコードが必要です。 必要なレコードの数は、ディレクター証明書に必要なサブジェクトの代替名に反映されます。 フロントエンドサーバーとは異なり、ディレクタープールでは、ユーザーアカウントをホストしたり、モビリティサービスをホストしたりすることはありません。
+
+### <a name="dns-records-required-for-the-director-pool-using-a-hardware-load-balancer-and-dns-load-balancing"></a>ハードウェアロードバランサーと DNS の負荷分散を使用して、ディレクタープールに必要な DNS レコード
 
 <table>
 <colgroup>
@@ -31,7 +51,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <th>場所/種類/ポート</th>
 <th>FQDN/DNS レコード</th>
 <th>IP アドレス/FQDN</th>
-<th>マッピング先/コメント</th>
+<th>マップ先/コメント</th>
 </tr>
 </thead>
 <tbody>
@@ -39,38 +59,49 @@ _**トピックの最終更新日:** 2015-03-09_
 <td><p>内部 DNS/A</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>ディレクター</p></td>
-<td><p>レプリケーションおよびサーバー間通信のための ディレクター ホスト レコード</p></td>
+<td><p>レプリケーションとサーバー間通信に使用されるディレクターホストレコード</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
 <td><p>dirpool01.contoso.net</p></td>
-<td><p>ディレクター プール プール HLB VIP</p></td>
-<td><p>DNS 負荷分散 ディレクター プールのホスト レコード</p></td>
+<td><p>ディレクタープール HLB VIP</p></td>
+<td><p>DNS 負荷分散ダイレクタプールのホストレコード</p></td>
 </tr>
 <tr class="odd">
 <td><p>内部 DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>ディレクター プール HLB VIP</p></td>
-<td><p>エッジ サーバーの内部インターフェイスからの受信 SIP (セッション開始プロトコル)</p></td>
+<td><p>ディレクタープール HLB VIP</p></td>
+<td><p>エッジサーバーの内部インターフェイスからの受信セッション開始プロトコル (SIP)</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>ディレクター プール HLB VIP</p></td>
-<td><p>リバース プロキシから、ハードウェア負荷分散される公開ダイヤルイン Web サービス</p></td>
+<td><p>ディレクタープール HLB VIP</p></td>
+<td><p>リバースプロキシから発行されたハードウェア負荷分散の web サービス</p></td>
 </tr>
 <tr class="odd">
 <td><p>内部 DNS/A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>ディレクター プール HLB VIP</p></td>
-<td><p>リバース プロキシから、ハードウェア負荷分散される公開ミーティング Web サービス</p></td>
+<td><p>ディレクタープール HLB VIP</p></td>
+<td><p>リバースプロキシの web サービスによって発行されるハードウェア負荷分散</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
-<td><p>ディレクター プール HLB VIP</p></td>
-<td><p>ハードウェア負荷分散が行われ、リバース プロキシによって公開および定義された、ディレクター プールの Web チケット外部 Web サービス</p></td>
+<td><p>ディレクタープール HLB VIP</p></td>
+<td><p>ハードウェアの負荷分散が発行され、そのリバースプロキシ Web チケットによって定義されます。ディレクタープールの外部 web サービス</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,65 +1,121 @@
-﻿---
-title: 'Lync Server 2013: 匿名ユーザー アクセスの有効化または無効化'
-TOCTitle: 匿名ユーザー アクセスの有効化または無効化
-ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ619192(v=OCS.15)
-ms:contentKeyID: 49115250
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 匿名ユーザー アクセスの有効化または無効化'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable anonymous user access
+ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
+ms:contentKeyID: 49733872
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8d07bf27f5424f121c5dcf070f5231e2fd8c324f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833312"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 匿名ユーザー アクセスの有効化または無効化
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a>Lync Server 2013 匿名ユーザー アクセスの有効化または無効化
 
-匿名ユーザーとは、組織の Active Directory ドメイン サービス またはサポートされるフェデレーション ドメインでユーザー アカウントを持っていないが、社内会議にリモートで参加するよう招待できるユーザーのことです。会議への匿名参加を許可することで、匿名ユーザー (ミーティング キーまたは会議キーでのみ検証される ID を持つユーザー) も会議に参加できます。匿名参加を許可するには、組織でこの機能を有効にする必要があります。
+</div>
 
-匿名ユーザーによるアクセスを後で一時的または永続的に使用できないようにする場合は、組織でこの機能を無効にできます。組織の匿名ユーザー アクセスを有効または無効にするには、このセクションの手順を使用します。
+<div id="mainSection">
 
-> [!NOTE]
-> 組織の匿名ユーザー アクセスを有効にしても、アクセス エッジ サービスを実行するサーバーが匿名ユーザーによるアクセスをサポートするようになるだけです。少なくとも 1 つの会議ポリシーが設定されそのポリシーが 1 つ以上のユーザーまたはユーザー グループに適用されるまでは、匿名ユーザーは組織のどの会議にも参加できません。匿名ユーザーを会議に招待できるユーザーは、匿名ユーザーをサポートするように構成された会議ポリシーを割り当てられたユーザーのみです。匿名ユーザーの招待をサポートするように会議ポリシーを構成する方法の詳細は、「 <a href="lync-server-2013-conferencing-policies.md">Lync Server 2013 での会議ポリシー</a>」を参照してください。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-23_
+
+匿名ユーザーは、組織の Active Directory ドメインサービスまたはサポートされているフェデレーションドメインでユーザーアカウントを持っていないユーザーですが、オンプレミスの会議にリモートで参加するよう招待することができます。 会議への匿名参加を許可することにより、匿名ユーザーを有効にします (つまり、会議または会議キーによって id が確認されたユーザーのみ)、会議に参加できます。 匿名での参加を許可するには、組織で匿名参加を有効にする必要があります。
+
+匿名ユーザーによるアクセスを一時的または完全に回避する必要がある場合は、組織で無効にすることができます。 このセクションの手順を使用して、組織の匿名ユーザーアクセスを有効または無効にします。
+
+<div>
 
 
-## 組織の匿名ユーザー アクセスを有効または無効にするには
+> [!NOTE]  
+> 組織に対して匿名ユーザーアクセスを有効にすると、アクセスエッジサービスを実行しているサーバーでは、匿名ユーザーによるアクセスがサポートされることを指定するだけです。 匿名ユーザーは、少なくとも1つの会議ポリシーを構成し、1つ以上のユーザーまたはユーザーグループに適用するまで、組織内のすべての会議に参加することはできません。 匿名ユーザーを会議に招待できるユーザーは、匿名ユーザーをサポートするように構成されている会議ポリシーが割り当てられているユーザーのみです。 匿名ユーザーの招待をサポートするように会議ポリシーを構成する方法について詳しくは、「 <A href="lync-server-2013-conferencing-policies.md">Lync Server 2013 の会議ポリシー</A>」をご覧ください。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>組織の匿名ユーザーアクセスを有効または無効にするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[ **外部ユーザー アクセス** \] をクリックし、\[ **アクセス エッジ構成** \] をクリックします。
+3.  左側のナビゲーションバーで、[**外部ユーザーアクセス**] をクリックし、[**アクセスエッジ構成**] をクリックします。
 
-4.  \[ **アクセス エッジ構成** \] ページで、\[ **グローバル** \]、\[ **編集** \]、\[ **詳細の表示** \] の順にクリックします。
+4.  [**アクセスエッジの構成**] ページで [**グローバル**] をクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-5.  \[ **アクセス エッジ構成の編集** \] で、次のどちらかの操作を行います。
+5.  [ **Access Edge 構成の編集**] で、次のいずれかの操作を行います。
     
-      - 組織で匿名ユーザー アクセスを有効にするには、\[ **匿名ユーザーとの通信を有効にする** \] チェック ボックスをオンにします。
+      - 組織の匿名ユーザーアクセスを有効にするには、[**匿名ユーザーとの通信を有効**にする] チェックボックスをオンにします。
     
-      - 組織の匿名ユーザー アクセスを無効にするには、\[ **匿名ユーザーとの通信を有効にする** \] チェック ボックスをオフにします。
+      - 組織の匿名ユーザーアクセスを無効にするには、[**匿名ユーザーとの通信を有効**にする] チェックボックスをオフにします。
 
-6.  \[ **確定** \] をクリックします。
+6.  [**コミット**] をクリックします。
 
-## Windows PowerShell コマンドレットによる匿名ユーザー アクセスの有効化と無効化
+</div>
 
-Windows PowerShellおよび **Set-CsAccessEdgeConfiguration** コマンドレットを使用することによっても、匿名ユーザー アクセスを管理できます。このコマンドレットは、 Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+<div>
 
-## To enable anonymous user access
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して匿名ユーザーのアクセスを有効または無効にする
 
-  - 匿名ユーザー アクセスを有効にするには、 **AllowAnonymousUsers** プロパティの値を True ($True) に設定します。
+Windows PowerShell と**CsAccessEdgeConfiguration**コマンドレットを使用して、匿名ユーザーのアクセスを管理できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-enable-anonymous-user-access"></a>匿名ユーザーのアクセスを有効にするには
+
+  - 匿名ユーザーのアクセスを有効にするには、 **AllowAnonymousUsers**プロパティの値を True ($True) に設定します。
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
-## To disable anonymous user access
+</div>
 
-  - 匿名ユーザー アクセスを無効にするには、 **AllowAnonymousUsers** プロパティの値を False ($False) に設定します。
+<div>
+
+## <a name="to-disable-anonymous-user-access"></a>匿名ユーザーのアクセスを無効にするには
+
+  - 匿名ユーザーのアクセスを無効にするには、 **AllowAnonymousUsers**プロパティの値を False ($False) に設定します。
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
-## 関連項目
+</div>
 
-#### 概念
+</div>
 
-[Lync Server 2013 での会議ポリシー設定の参照](lync-server-2013-conferencing-policy-settings-reference.md)
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 の会議ポリシー設定リファレンス](lync-server-2013-conferencing-policy-settings-reference.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

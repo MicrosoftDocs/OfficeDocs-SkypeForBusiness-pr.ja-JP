@@ -1,89 +1,147 @@
-﻿---
-title: アーカイブ データの削除の有効と無効の切り替え
-TOCTitle: アーカイブ データの削除の有効と無効の切り替え
-ms:assetid: 28cef09f-0970-4fc3-8315-f26689e3e187
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg520968(v=OCS.15)
-ms:contentKeyID: 48271524
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: アーカイブデータの削除を有効または無効にする'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling the purging of archived data
+ms:assetid: 28cef09f-0970-4fc3-8315-f26689e3e187
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520968(v=OCS.15)
+ms:contentKeyID: 48183678
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 28eba32895ca928b40e42a04d8d701c7257f1e43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833237"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# アーカイブ データの削除の有効と無効の切り替え
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>Lync Server 2013 でアーカイブデータの削除を有効または無効にする
 
-Lync Server 2013 コントロール パネルで、アーカイブ構成を使用して削除の有効と無効を切り替え、削除の実装方法を構成します。次のようなアーカイブ構成があります。
+</div>
 
-  - Lync Server 2013 の展開時に既定で作成されるグローバル構成
+<div id="mainSection">
 
-  - 特定のサイトまたはプールでのアーカイブの実装方法を指定するために作成および使用できる、サイトレベルまたはプールレベルのオプションの構成
+<div id="mainBody">
 
-アーカイブ構成は、最初はアーカイブの展開時に設定しますが、展開後に変更、追加、および削除できます。指定できるオプションやアーカイブ構成の階層など、アーカイブ構成の実装の詳細については、「計画」、「展開」、または「操作」のドキュメントの「[Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」を参照してください。
+<span> </span>
 
-> [!NOTE]
-> Lync Server 2013 に所属するユーザーに対してアーカイブを使用するには、内部通信、外部通信、またはその両方のアーカイブを有効にするかどうかを指定するためのアーカイブ ポリシーを構成する必要があります。既定では、アーカイブは内部通信および外部通信のどちらに対しても有効になっていません。ポリシーでアーカイブを有効にする前に、このセクションの説明に従って、展開および必要に応じて特定のサイトやプールに対して適切なアーカイブ構成を指定する必要があります。アーカイブの有効化の詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">アーカイブ ポリシーの構成と割り当て</a>」を参照してください。<br />
-> アーカイブを展開した後に、Microsoft Exchange 統合を使用してアーカイブ データおよびアーカイブ ファイルを Exchange 2013 サーバーに保存し、すべてのユーザーが Exchange 2013 サーバーに所属することを決定した場合は、トポロジから SQL Server データベース構成を削除する必要があります。このためには、トポロジ ビルダーを使用する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-changing-archiving-database-options.md">Lync Server 2013 でのアーカイブ データベース オプションの変更</a>」を参照してください。
+_**最終更新日:** 2013-02-23_
+
+Lync Server 2013 コントロールパネルで、[アーカイブ構成] を使って、パージを有効または無効にし、パージの実装方法を構成します。 これには、次のアーカイブ構成が含まれます。
+
+  - Lync Server 2013 を展開するときに既定で作成されるグローバル構成。
+
+  - 作成および使用して、特定のサイトまたはプールに対するアーカイブの実装方法を指定することができる、オプションのサイトレベルとプールレベルの構成。
+
+アーカイブの展開時にアーカイブ構成を最初に設定しましたが、展開後に構成の変更、追加、削除を行うことができます。 アーカイブ構成の実装方法について詳しくは、「指定できるオプションやアーカイブ構成の階層」を参照してください。「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)(計画ドキュメント、展開)」を参照してください。ドキュメント、または操作のドキュメント。
+
+<div>
 
 
-## アーカイブの削除を有効または無効にするには
+> [!NOTE]  
+> Lync Server 2013 を使っているユーザーのためにアーカイブを使用するには、内部通信のアーカイブを有効にするか、外部通信を有効にするかを指定するようにアーカイブポリシーを構成する必要があります。 既定では、内部または外部の通信でアーカイブは有効になっていません。 すべてのポリシーでアーカイブを有効にする前に、このセクションで説明するように、展開用に適切なアーカイブ構成を指定し、必要に応じて特定のサイトとプールを指定する必要があります。 アーカイブを有効にする方法の詳細については、展開ドキュメントの「 <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Lync Server 2013 でアーカイブポリシーを構成して割り当てる</A>」を参照してください。<BR>Microsoft Exchange 統合を使用して Exchange 2013 サーバー上のアーカイブデータとファイルを保存し、すべてのユーザーが Exchange 2013 サーバー上にある場合は、アーカイブを展開した後に、SQL Server データベースの構成を削除する必要があります。を選びます。 この操作を行うには、トポロジビルダーを使用する必要があります。 詳細については、「運用ドキュメントの「 <A href="lync-server-2013-changing-archiving-database-options.md">Lync Server 2013 でアーカイブデータベースのオプションを変更する</A>」を参照してください。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-purging-for-archiving"></a>アーカイブの消去を有効または無効にするには
 
 1.  CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで、\[**監視とアーカイブ**\] をクリックし、\[**アーカイブ構成**\] をクリックします。
+3.  左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
 
-4.  アーカイブ構成の一覧で、適切なグローバル、サイト、またはプール構成の名前をクリックし、\[**編集**\]、\[**詳細の表示**\] の順にクリックします。その後、次の操作を行います。
+4.  アーカイブ構成の一覧から、適切なグローバル構成、サイト構成、またはプール構成の名前をクリックし、[**編集**]、[**詳細の表示**] の順にクリックし、次の操作を実行します。
     
-      - 削除を有効にする場合は、\[**アーカイブ データの削除を有効にする**\] チェック ボックスをオンにして、次のいずれかの操作を行います。
+      - 削除を有効にする場合は、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のいずれかの操作を行います。
         
-          - すべてのレコードを削除する場合は、\[**最大日数が経過したエクスポートおよび保存済みアーカイブ データを削除する**\] をクリックして、日数を指定します。
+          - すべてのレコードを削除する場合は、[**最大日数が経過したエクスポートおよび保存済みアーカイブ データを削除する**] をクリックし、日数を指定します。
         
-          - エクスポートされたデータのみを削除する場合は、\[**エクスポート済みのアーカイブ データのみを削除する**\] をクリックします。
+          - エクスポートされたデータのみを削除する場合は、[**エクスポート済みのアーカイブ データのみを削除する**] をクリックします。
     
-      - 削除を無効にするには、\[**アーカイブ データの削除を有効にする**\] チェック ボックスをオフにします。
+      - 削除を無効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオフにします。
 
-5.  \[**確定**\] をクリックします。
+5.  [**確定**] をクリックします。
 
-## Lync Server 管理シェル コマンドレットを使用してアーカイブ データの削除を有効化および無効化する
+</div>
 
-Windows PowerShell および **Set-CsArchivingConfiguration** コマンドレットを使用して、アーカイブ データの自動削除の有効化および無効化を管理することもできます。このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+<div>
 
-## すべてのアーカイブ データの削除の有効化
+## <a name="enabling-or-disabling-the-purging-of-archiving-data-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してアーカイブデータの削除を有効または無効にする
 
-  - すべてのアーカイブ データの削除を有効化するには、**EnablePurging** プロパティを True ($True) に設定します。次に例を示します。
+アーカイブデータの自動削除を有効または無効にするには、Windows PowerShell と**CsArchivingConfiguration**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-enable-the-purging-of-all-archiving-data"></a>すべてのアーカイブデータの削除を有効にするには
+
+  - すべてのアーカイブデータの削除を有効にするには、 **Enablepurging 消去**プロパティを true ($True) に設定します。 次に例を示します。
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
     
-    このコマンドを実行した後、**KeepArchivingDataForDays** プロパティに指定した日数よりも古いすべてのアーカイブ レコードが Lync Server によって毎日削除されます。
+    このコマンドを実行すると、Lync Server では、 **KeepArchivingDataForDays**プロパティに指定した値よりも古いすべてのアーカイブレコードが削除されます。
 
-## エクスポートされたアーカイブ データのみの削除の有効化
+</div>
 
-  - ([Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData) コマンドレットを使用して) データ ファイルにエクスポートされたアーカイブ レコードのみを削除するには、PurgeExportedArchivesOnly プロパティも True ($True) に設定する必要があります。次に例を示します。
+<div>
+
+## <a name="to-enable-the-purging-only-of-exported-archiving-data"></a>エクスポートされたアーカイブデータのみを削除できるようにするには
+
+  - データファイルにエクスポートされたレコード ( [CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData)コマンドレットを使用して) をアーカイブするようにパージを制限するには、PurgeExportedArchivesOnly プロパティも True ($True) に設定する必要があります。 次に例を示します。
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
-    このコマンドの実行後、Lync Server では、1) **KeepArchivingDataForDays** プロパティに指定された日数よりも古いアーカイブ レコード、2) **Export-CsArchivingData** コマンドレットを使用してエクスポートされたアーカイブ レコードという 2 つの条件を満たすアーカイブ レコードのみが削除されます。
+    このコマンドを実行すると、Lync Server は、2つの条件を満たすアーカイブレコードのみを消去します。 1) は、 **KeepArchivingDataForDays**プロパティに指定された値よりも古いものです。and、2) **CsArchivingData**コマンドレットを使用してエクスポートされている。
 
-## すべてのアーカイブ データの削除の無効化
+</div>
 
-  - アーカイブ レコードの自動削除を無効化するには、**EnablePurging** プロパティを False ($False) に設定します。次に例を示します。
+<div>
+
+## <a name="to-disable-the-purging-of-all-archiving-data"></a>すべてのアーカイブデータの削除を無効にするには
+
+  - アーカイブレコードの自動削除を無効にするには、 **Enablepurging 削除**プロパティを False ($False) に設定します。 次に例を示します。
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-アーカイブ データを削除する場合の追加のオプションを含む詳細については、[Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) コマンドレットのヘルプ トピックを参照してください。
+</div>
 
-## 関連項目
+アーカイブデータの削除に関するその他のオプションなど、詳細については、 [CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration)コマンドレットのヘルプトピックを参照してください。
 
-#### 概念
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)  
 
-#### その他のリソース
 
-[アーカイブ ポリシーの構成と割り当て](lync-server-2013-configuring-and-assigning-archiving-policies.md)  
-[Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+[Lync Server 2013 でアーカイブポリシーを構成して割り当てる](lync-server-2013-configuring-and-assigning-archiving-policies.md)  
+[組織、サイト、およびプールの Lync Server 2013 でアーカイブ構成オプションを管理する](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

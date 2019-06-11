@@ -1,36 +1,58 @@
-﻿---
-title: 'Lync Server 2013: 障害復旧テスト'
-TOCTitle: 障害復旧テスト
-ms:assetid: 04f5e747-d837-4350-9fc0-8605dbf025a7
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn747887(v=OCS.15)
-ms:contentKeyID: 62293540
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 障害復旧テスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Disaster recovery test
+ms:assetid: 04f5e747-d837-4350-9fc0-8605dbf025a7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747887(v=OCS.15)
+ms:contentKeyID: 63969571
+ms.date: 01/27/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f9b17f5841cad96cb83399082f61c00194ec4828
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833384"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での障害復旧テスト
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-01-26_
+# <a name="disaster-recovery-test-in-lync-server-2013"></a>Lync Server 2013 での障害復旧テスト
 
-Lync Server 2013 プール サーバーのシステム回復を実行して、ドキュメント化された障害回復プロセスをテストします。このテストは、サーバーの完全なハードウェア エラーをシミュレーションを実行して、リソース、プラン、およびデータを回復に利用できることを保証するのに役立ちます。異なるサーバーやその他の装置のエラーをいつでもテストできるようにテストの焦点を各月で循環させるようにしてください。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2015-01-26_
+
+Lync Server 2013 プールサーバーのシステム回復を実行して、文書化された障害回復プロセスをテストします。 このテストは、サーバーの完全なハードウェア エラーをシミュレーションを実行して、リソース、プラン、およびデータを回復に利用できることを保証するのに役立ちます。 異なるサーバーやその他の装置のエラーをいつでもテストできるようにテストの焦点を各月で循環させるようにしてください。
 
 組織が障害回復テストを実施するスケジュールは異なることに注意してください。障害回復テストが無視またはなおざりにされないことが非常に重要です。
 
+<div>
 
-Lync Server 2013 のトポロジ、ポリシー、および構成設定をファイルにエクスポートします。また、アップグレード、ハードウェア障害、またはその他の問題のためにデータを消失してしまっても、このファイルを使用して、これらの情報を中央管理ストアに復元することができます。
 
-Lync Server 2013 のトポロジ、ポリシー、および構成設定を、以下のコマンドに示すように中央管理ストアまたはローカル コンピューターのどちらかにインポートします。
+Lync Server 2013 のトポロジ、ポリシー、構成設定をファイルにエクスポートします。 また、アップグレード、ハードウェア障害、またはその他の問題のためにデータを消失してしまっても、このファイルを使用して、これらの情報を中央管理ストアに復元することができます。
+
+次のコマンドで示されているように、Lync Server 2013 のトポロジ、ポリシー、構成設定を中央管理ストアまたはローカルコンピューターにインポートします。
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
-運用 Lync Server 2013 データをバックアップするには、次の手順を実行します。
+プロダクション用の Lync Server 2013 データをバックアップするには、次の操作を行います。
 
-  - 標準の SQL Server バックアップ プロセスを使用して RTC および LCSLog データベースをバックアップし、データベースをファイルまたはテープ ダンプ デバイスにダンプします。
+  - 標準の SQL Server バックアッププロセスを使用して、RTC と LCSLog データベースのバックアップを作成し、ファイルまたはテープダンプデバイスにデータベースをダンプします。
 
   - サードパーティ バックアップ アプリケーションを使用してデータをファイルまたはテープにバック アップします。
 
@@ -38,58 +60,77 @@ Lync Server 2013 のトポロジ、ポリシー、および構成設定を、以
 
   - ファイル システム バックアップまたはサードパーティ バックアップ アプリケーションを使用して、会議コンテンツやコンプライアンス ログをバックアップします。
 
-  - Export-CsConfiguration コマンド ライン ツールを使用して、Lync Server 2013 の設定をバックアップします。
+  - エクスポート-CsConfiguration コマンドラインツールを使用して、Lync Server 2013 の設定をバックアップします。
 
 フェールオーバー手順の最初の手順には、運用プールから障害回復プールへのユーザーの強制的な移動が含まれます。
 
 運用プールはユーザーの再配置を受け入れることができないため、これは強制的な移動になります。
 
-Lync Server 2013 のユーザー移動プロセスは、RTC SQL データベース上でのレコードの更新に加え、ユーザー アカウント オブジェクトの属性を効果的に変更します。
+Lync Server 2013 の移動ユーザープロセスは、実質的には、RTC SQL データベースのレコードの更新に加えて、ユーザーアカウントオブジェクトの属性に対する変更になります。
 
 このデータは、以下の 2 つの処理を通じて復元できます。
 
-  - RTC データベースは、標準の SQL Server 復元プロセスを使用するか、サーバーパーティ バックアップ/復元ユーティリティを使用して、運用 SQL Server の元のバックアップ ダンプ デバイスから復元できます。
+  - RTC データベースは、標準の SQL Server 復元プロセスを使用するか、サードパーティのバックアップ/復元ユーティリティを使用して、実働 SQL Server から元のバックアップダンプデバイスから復元することができます。
 
   - ユーザー連絡先データは、運用 SQL Server エクスポートから作成した XML ファイルを使用して、DBIMPEXP.exe ユーティリティで復元できます。
 
-このデータを復元した後、ユーザーは障害回復 Lync Server 2013 プールに効果的に接続して通常どおり操作できます。
+このデータが復元されると、ユーザーは効果的に Disaster Recovery Lync Server 2013 プールに接続し、通常どおりに動作することができます。
 
-ユーザーが障害回復 Lync Server 2013 プールに接続するには、DNS レコードの変更が必要になります。
+ユーザーが Disaster Recovery Lync Server 2013 プールに接続できるようにするには、DNS レコードの変更が必要になります。
 
-運用 Lync Server 2013 プールは、クライアントにより 自動構成および次の DNS SRV レコードを使用して参照されます。
+プロダクション Lync Server 2013 プールは、次の自動構成と DNS SRV レコードを使用してクライアントから参照されます。
 
-  - SRV: \_sip.\_tls.\<domain\> /CNAME: SIP.\<domain\>
+  - SRV: \_sip。\_tls。\<ドメイン\> /CNAME: SIP。\<ドメイン\>
 
-  - CNAME: SIP.\<domain\> /cvc-pool-1.\<domain\>
+  - CNAME: SIP。\<domain\> /cvc¥ pool1。\<ドメイン\>
 
 フェールオーバーを促進するために、この CNAME レコードを更新して DROCSPool FQDN を次のように参照する必要があります。
 
-  - CNAME: SIP.\<domain\> /DROCSPool.\<domain\>
+  - CNAME: SIP。\<domain\> /DROCSPool.\<ドメイン\>
 
-  - Sip.\<domain\>
+  - フェデレーション.\<ドメイン\>
 
-  - AV.\<domain\>
+  - AV。\<ドメイン名\>
 
-  - webconf.\<domain\>
+  - webconf\<ドメイン\>
 
-  - OCSServices.\<domain\>
+  - OCSServices。\<ドメイン\>
 
-
-> [!IMPORTANT]
-> 管理および管理手順の詳細については、「<A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Lync Server 2013 のバックアップと復元</A>」を参照してください。
+<div>
 
 
+> [!IMPORTANT]  
+> 管理と管理の詳細な手順については、「 <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Lync Server 2013 のバックアップと復元</A>」を参照してください。
 
-## 関連項目
 
-#### 概念
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 での高可用性および障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[バックアップおよび高可用性のコマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)  
+[Lync Server 2013 のバックアップと高可用性のコマンドレット](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)  
 
-#### その他のリソース
 
-[Import-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsConfiguration)  
+[インポート-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
 [Lync Server 2013 のバックアップと復元](lync-server-2013-backing-up-and-restoring-lync-server.md)  
-[Lync Server 2013 の障害復旧、高可用性およびバックアップ サービスの管理](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
+[Lync Server 2013 の障害復旧、高可用性およびバックアップ サービスの管理](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

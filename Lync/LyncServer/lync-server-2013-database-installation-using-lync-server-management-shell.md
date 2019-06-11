@@ -1,127 +1,179 @@
-﻿---
-title: 'Lync Server 2013: Lync Server 管理シェルを使用したデータベースのインストール'
-TOCTitle: Lync Server 管理シェルを使用したデータベースのインストール
-ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398832(v=OCS.15)
-ms:contentKeyID: 48273554
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server 管理シェルを使用したデータベースのインストール'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Database installation using Lync Server Management Shell
+ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398832(v=OCS.15)
+ms:contentKeyID: 48185401
+ms.date: 06/16/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3fd9f07b979f89a28b6fa545f3a43009402f4ed1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833741"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での Lync Server 管理シェルを使用したデータベースのインストール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Lync Server 2013 での Lync Server 管理シェルを使用したデータベースのインストール
 
-サーバーの管理者と SQL Server 管理者の間で役割と責任を分割すると、実装で遅延が生じる可能性があります。Lync Server 2013 は、役割ベースのアクセス制御 (RBAC) を使用してこれらの問題を軽減します。場合によっては、SQL Server 管理者は、RBAC の外部で SQL Server ベース サーバーでのデータベースのインストールを管理する必要があります。Lync Server 2013 管理シェルでは、SQL Server 管理者は、正しいデータおよびログ ファイルを使用してデータベースを構成する Windows PowerShell コマンドレットを実行できます。詳細については、「[Lync Server 2013 の SQL Server の展開のアクセス許可](lync-server-2013-deployment-permissions-for-sql-server.md)」を参照してください。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2016-06-16_
+
+サーバー管理者と SQL Server 管理者との間で役割と責任を分離すると、実装で遅延が発生する可能性があります。 Lync Server 2013 は、役割ベースのアクセス制御 (RBAC) を使用して、このような問題を軽減します。 場合によっては、SQL Server 管理者が、RBAC の外部の SQL Server ベースのサーバーにデータベースのインストールを管理する必要があります。 Lync Server 2013 管理シェルは、SQL Server 管理者が Windows PowerShell コマンドレットを実行して、適切なデータとログファイルを使ってデータベースを構成するための手段を提供します。 詳細については、「 [Lync server 2013 の SQL Server の展開権限](lync-server-2013-deployment-permissions-for-sql-server.md)」を参照してください。
+
+<div class=" ">
 
 
-> [!IMPORTANT]
-> 次の手順では、最低でも Lync Server 2013 OCSCore.msi、SQL Server Native Client (sqlncli.msi)、Microsoft SQL Server 2012 Management Objects、CLR Types for Microsoft SQL Server 2012、および Microsoft SQL Server 2012 ADOMD.NET がインストールされていることを想定しています。OCSCore.msi は、インストール メディアの \Setup\AMD64\Setup ディレクトリにあります。その他のコンポーネントは、\Setup\amd64 にあります。また、 Lync Server 2013 を使用するための Active Directory の準備も正常に行われていると想定しています。
+> [!IMPORTANT]  
+> 次の手順では、少なくとも Lync Server 2013 OCSCore .msi、SQL Server Native Client (sqlncli) Microsoft SQL server 2012 の管理オブジェクト、Microsoft sql Server 2012 および Microsoft SQL Server 2012 ADOMD.NET の CLR 型がインストールされていることを前提としています。 OCSCore .msi は、インストールメディアの \Setup\AMD64\Setup ディレクトリにあります。 残りのコンポーネントは、「¥の場合」に記載されています。 さらに、Lync Server 2013 の Active Directory の準備が正常に完了しました。
 
 
 
-**Install-CsDatabase** は、データベースのインストールに使用する Windows PowerShell コマンドレットです。**Install-CsDatabase** コマンドレットには数多くのパラメーターがありますが、ここではその一部についてのみ説明します。使用可能なパラメーターの詳細については、Lync Server 2013 管理シェルのドキュメントを参照してください。
+</div>
+
+**CsDatabase をインストール**すると、データベースのインストールに使用する Windows PowerShell コマンドレットが表示されます。 **CsDatabase**コマンドレットには、多数のパラメーターがあります。一部のパラメーターはここで説明しています。 使用可能なパラメーターの詳細については、「Lync Server 2013 管理シェルのドキュメント」を参照してください。
+
+<div class=" ">
 
 
-> [!WARNING]
-> パフォーマンスの問題と考えられるタイムアウトの問題を防止するため、SQL Server ベースのサーバーを参照するときには、必ず完全修飾ドメイン名 (FQDN) を使用してください。ホスト名のみの参照は使用しないでください。たとえば、sqlbe01.contoso.net を使用し、SQLBE01 の使用は避けます。
+> [!WARNING]  
+> パフォーマンスが低下したり、タイムアウトの問題が発生したりする場合は、SQL Server ベースのサーバーを参照するときに常に完全修飾ドメイン名 (Fqdn) を使用します。 ホスト名のみの参照を使用しないでください。 たとえば、sqlbe01.contoso.net を使用しますが、SQLBE01 の使用は避けてください。
 
 
 
-データベースをインストールする場合、 **Install-CsDatabase** は、次の 3 つの主要な方法を使用して、準備のできた SQL Server ベースのサーバーにデータベースを配置します。
+</div>
 
-  - DatabasePaths または UseDefaultSqlPath なしで **Install-CsDatabase** を実行します。このコマンドレットは、組み込みアルゴリズムを使用して、ログおよびデータ ファイルの最善の配置方法を決定します。このアルゴリズムは、スタンドアロンの SQL Server 実装でのみ機能します。
+データベースをインストールするには、 **CsDatabase をインストール**するために、準備された SQL server ベースのサーバーにデータベースを配置するために、3つの主な方法を使用します。
 
-  - DatabasePaths パラメーターを指定して **Install-CsDatabase** を実行します。DtabasePaths パラメーターが定義されている場合、ログおよびデータ ファイルの場所を最適化する組み込みアルゴリズムは使用されません。このパラメーターを使用すると、ログおよびデータ ファイルを展開する場所を定義できます。
+  - DatabasePaths または UseDefaultSqlPath なしで **、CsDatabase を**実行します。 このコマンドレットは、組み込みのアルゴリズムを使って、ログファイルとデータファイルの最適な配置を決定します。 このアルゴリズムは、スタンドアロンの SQL Server 実装でのみ動作します。
 
-  - UseDefaultSqlPaths を指定して **Install-CsDatabase** を実行します。このオプションでは、組み込みアルゴリズムを使用してログおよびデータ ファイルの場所を最適化しません。ログおよびデータ ファイルは、SQL Server 管理者が設定する既定値に従って展開されます。これらのパスは、一般に SQL Server でログおよびデータ ファイルを自動管理する目的で事前に設定され、 Lync Server 2013 のセットアップと関連付けられません。
+  - DatabasePaths パラメーターを使用して**CsDatabase Install**を実行します。 DatabasePaths パラメーターが定義されている場合、ログとデータファイルの場所を最適化する組み込みアルゴリズムは使用されません。 このパラメーターを使うと、ログとデータファイルが配置される場所を定義できます。
 
-  - DatabasePathMap パラメーターは、各データベースとそのログ ファイルの場所の明示的な指定にも使用できます。
+  - UseDefaultSqlPaths で**CsDatabase Install**を実行します。 このオプションでは、組み込みのアルゴリズムを使ってログとデータファイルの場所を最適化しません。 ログとデータファイルは、SQL Server 管理者が設定した既定値に従って展開されます。 通常、これらのパスは、SQL Server のログファイルとデータファイルの自動管理を目的として設定され、Lync Server 2013 のセットアップには関連付けられません。
 
-## Windows PowerShell コマンドレットを使用して SQL Server 中央管理ストアを構成するには
+  - DatabasePathMap パラメーターを使って、各データベースとそのログファイルの場所を明示的に指定することもできます。
 
-1.  任意のコンピューターで、SQL Server ベースのサーバーでデータベースを作成するための管理資格情報を使用してログオンします。詳細については、「[Lync Server 2013 の SQL Server の展開のアクセス許可](lync-server-2013-deployment-permissions-for-sql-server.md)」を参照してください。
+<div>
 
-2.  Lync Server 2013 管理シェルを開きます。Windows PowerShellの実行ポリシーを調整していない場合は、Windows PowerShell スクリプトの実行を許可するようにポリシーを調整する必要があります。詳細については、「実行ポリシーの確認」( <http://go.microsoft.com/fwlink/?linkid=203093>) を参照してください。
+## <a name="to-use-windows-powershell-cmdlets-to-configure-the-sql-server-central-management-store"></a>Windows PowerShell コマンドレットを使用して SQL Server の中央管理ストアを構成するには
 
-3.  **Install-CsDatabase** コマンドレットを使用して 中央管理ストアをインストールします。
+1.  任意のコンピューターで、SQL Server ベースのサーバー上でデータベースを作成するための管理者資格情報を使ってログオンします。 詳細については、「 [Lync server 2013 の SQL Server の展開権限](lync-server-2013-deployment-permissions-for-sql-server.md)」を参照してください。
+
+2.  Lync Server 2013 管理シェルを開きます。 Windows PowerShell の実行ポリシーを調整していない場合は、Windows PowerShell スクリプトの実行を許可するようにポリシーを調整する必要があります。 詳細については、の「実行ポリシーを[http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093)調査する」を参照してください。
+
+3.  [**インストール-CsDatabase**コマンドレットを使用して、中央管理ストアをインストールします。
     
+       ```
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
-
-       &nbsp;
+       ```
     
+       ```
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
+       ```
+    
+    <div class=" ">
     
 
-    > [!TIP]
-    > Report パラメーターはオプションですが、インストール プロセスを文書化する場合に役立ちます。
+    > [!TIP]  
+    > Report パラメーターは省略可能ですが、インストールプロセスを文書化する場合に便利です。
 
-
-
-4.  **Install-CsDatabase –DatabasePaths** では、最大 6 つのパス パラメーターを使用できます。各パラメーターでは、「SQL Server データとログ ファイルの配置」で定義されているように、ドライブのパスを定義します。Lync Server 2013 のデータベース構成の論理ルールにより、ドライブは、2 つ、4 つ、または 6 つのバケットに解析されます。SQL Server の構成とバケットの数に応じて、2 つのパス、4 つのパス、または 6 つのパスを指定できます。
     
-    ドライブが 3 つの場合は、ログに優先順位が付けられ、データ ファイルはその優先順位に従って配布されます。6 つのドライブによって構成される SQL Server ベースのサーバーの例を次に示します。
+    </div>
+
+4.  **CsDatabase-DatabasePaths**では、最大6つの path パラメーターを使うことができます。それぞれ、SQL Server データとログファイルの配置で定義されたドライブのパスを定義します。 Lync Server 2013 のデータベース構成の論理的なルールにより、ドライブは2、4、または6のバケットに分けて解析されます。 SQL Server の構成とバケット数に応じて、2つのパス、4つのパス、または6つのパスを指定します。
+    
+    3つのドライブがある場合は、ログが優先され、データファイルは後で配布されます。 6台のドライブで構成された SQL Server ベースのサーバーの例:
     
         Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
 
-5.  データベースのインストールが完了したら、 Lync Server 2013 管理シェルを閉じるか、 トポロジ ビルダーで定義された Lync Server 2013 構成のデータベースのインストールに進むことができます。
+5.  データベースのインストールが完了したら、Lync Server 2013 管理シェルを閉じるか、またはトポロジビルダーで定義されている Lync Server 2013 構成データベースのインストールに進みます。
 
-## Windows PowerShell コマンドレットを使用して SQL Server トポロジ構成のデータベースを構成するには
+</div>
 
-1.  トポロジ ビルダーによって構成される Lync Server 2013 用のデータベースをインストールするには、Lync Server 2013 管理者は、トポロジを発行する必要があります。詳細については、「展開」のドキュメントの「[Lync Server 2013 でトポロジを公開する](lync-server-2013-publish-the-topology.md)」を参照してください。
+<div>
 
-2.  任意のコンピューターで、SQL Server ベースのサーバーでデータベースを作成するための管理資格情報を使用してログオンします。「[Lync Server 2013 の SQL Server の展開のアクセス許可](lync-server-2013-deployment-permissions-for-sql-server.md)」を参照してください。
+## <a name="to-use-windows-powershell-cmdlets-to-configure-the-sql-server-topology-configured-databases"></a>Windows PowerShell コマンドレットを使用して、SQL Server トポロジで構成されたデータベースを構成するには
+
+1.  Lync server 2013 用にトポロジビルダーで構成されたデータベースをインストールするには、Lync Server 2013 管理者がトポロジを公開する必要があります。 詳細については、展開ドキュメントの「 [Lync Server 2013 でトポロジを発行](lync-server-2013-publish-the-topology.md)する」を参照してください。
+
+2.  任意のコンピューターで、SQL Server ベースのサーバー上でデータベースを作成するための管理者資格情報を使ってログオンします。 「 [Lync server 2013 の SQL Server の展開権限](lync-server-2013-deployment-permissions-for-sql-server.md)」のトピックを参照してください。
+    
+    <div class=" ">
     
 
-    > [!IMPORTANT]
-    > SQL Server ベースのデータベースを構成するには、ここで説明する手順の実行に使用する SQL Server 管理者アカウントが、SQL Server を実行しており中央管理サーバーの役割を持つサーバー上の sysadmins グループ (または同等のグループ) のメンバーであることを確認してください。これは特に、SQL Server データベースのインストールまたは構成を必要とする追加の Lync Server 2013 プールの有無を確認する場合に重要です。たとえば、2 つ目のプール (pool02) を展開しているが、中央管理サーバーの役割は pool01 によって保持されている場合があります。SQL Server sysadmin グループ (または同等のグループ) には、両方の SQL Server ベースのデータベースに対するアクセス許可が必要です。
+    > [!IMPORTANT]  
+    > SQL Server ベースのデータベースを構成できるようにするには、ここで説明する手順を実行するために使用した SQL Server 管理者アカウントも、SQL Server を実行しているサーバー上の管理者グループ (または同等の機能) のメンバーであることを確認して、一元管理を保持する必要があります。サーバーの役割。 これは、SQL Server のデータベースのインストールまたは構成が必要な追加の Lync Server 2013 プールを確認する場合に特に重要です。 たとえば、2つ目のプール (pool02) を展開しているが、サーバーの全体管理サーバーの役割が pool01 によって保持されている場合です。 Sql Server sysadmin グループ (または同等の機能) には、SQL Server ベースの両方のデータベースに対するアクセス許可が必要です。
 
-
-
-3.  Lync Server 2013 管理シェルを開きます (まだ開いていない場合)。
-
-4.  **Install-CsDatabase** コマンドレットを使用して、 トポロジ ビルダーで構成したデータベースをインストールします。
     
-    ```
-    Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
-        -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
-    ```
+    </div>
+
+3.  まだ開いていない場合は、Lync Server 2013 管理シェルを開きます。
+
+4.  **CsDatabase**コマンドレットを使用して、トポロジビルダーで構成されたデータベースをインストールします。
     
-    ```
-    Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
+       ```
+        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
+         -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
+       ```
+    
+       ```
+        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
-    ```
+       ```
+    
+    <div class=" ">
     
 
-    > [!TIP]
-    > Report パラメーターはオプションですが、インストール プロセスを文書化する場合に役立ちます。
+    > [!TIP]  
+    > Report パラメーターは省略可能ですが、インストールプロセスを文書化する場合に便利です。
 
+    
+    </div>
 
+5.  データベースのインストールが完了したら、Lync Server 2013 Management Shell を閉じます。
 
-5.  データベースのインストールが完了したら、 Lync Server 2013 管理シェルを閉じます。
+</div>
 
-## Windows PowerShell コマンドレットで DatabasePathMap パラメーターを使用して SQL Server トポロジを構成するには
+<div>
 
-1.  Lync Server 2013 用のデータベースをインストールするためには、事前定義されたルール セットに従って Lync Server 管理者がパスを作成し、データベース ファイルとログ ファイルを展開する必要があります。
+## <a name="to-use-windows-powershell-cmdlets-to-configure-the-sql-server-topology-using-the-databasepathmap-parameter"></a>Windows PowerShell コマンドレットを使用して、DatabasePathMap パラメーターを使って SQL Server トポロジを構成するには
 
-2.  任意のコンピューターで、SQL Server ベースのサーバーでデータベースを作成するための管理資格情報を使用してログオンします。「[Lync Server 2013 の SQL Server の展開のアクセス許可](lync-server-2013-deployment-permissions-for-sql-server.md)」を参照してください。
+1.  Lync server 2013 のデータベースをインストールするには、Lync Server の管理者が、パスを作成し、事前定義された一連のルールに従ってデータベースファイルとログファイルを展開する必要があります。
+
+2.  任意のコンピューターで、SQL Server ベースのサーバー上でデータベースを作成するための管理者資格情報を使ってログオンします。 「 [Lync server 2013 の SQL Server の展開権限](lync-server-2013-deployment-permissions-for-sql-server.md)」のトピックを参照してください。
+    
+    <div class=" ">
     
 
-    > [!IMPORTANT]
-    > SQL Server ベースのデータベースを構成するには、ここで説明する手順の実行に使用する SQL Server 管理者アカウントが、SQL Server を実行しており 中央管理サーバーの役割を持つサーバー上の sysadmins グループ (または同等のグループ) のメンバーであることを確認してください。これは特に、SQL Serverデータベースのインストールまたは構成を必要とする追加の Lync Server プールの有無を確認する場合に重要です。たとえば、2 つ目のプール (pool02) を展開しているが、中央管理サーバーの役割は pool01 によって保持されている場合があります。SQL Server sysadmin グループ (または同等のグループ) には、両方の SQL Server ベースのデータベースに対するアクセス許可が必要です。
+    > [!IMPORTANT]  
+    > SQL Server ベースのデータベースを構成できるようにするには、ここで説明する手順を実行するために使用した SQL Server 管理者アカウントも、SQL Server を実行しているサーバー上の管理者グループ (または同等の機能) のメンバーであることを確認して、一元管理を保持する必要があります。サーバーの役割。 これは、SQL Server データベースのインストールまたは構成が必要な追加の Lync Server プールを確認する場合に特に重要です。 たとえば、2つ目のプール (pool02) を展開しているが、サーバーの全体管理サーバーの役割が pool01 によって保持されている場合です。 Sql Server sysadmin グループ (または同等の機能) には、SQL Server ベースの両方のデータベースに対するアクセス許可が必要です。
 
+    
+    </div>
 
+3.  まだ開いていない場合は、Lync Server 管理シェルを開きます。
 
-3.  Lync Server 管理シェルを開きます (まだ開いていない場合)。
+4.  DatabasePathMap パラメーターと PowerShell ハッシュテーブルを使って、 **CsDatabase**コマンドレットを使用して、トポロジビルダーで構成されたデータベースをインストールします。
 
-4.  **Install-CsDatabase** コマンドレットで DatabasePathMap パラメーターと PowerShell ハッシュ テーブルを使用して、 トポロジ ビルダーで構成されたデータベースをインストールします。
-
-5.  この例のコードでは、-DatabasePathsMap パラメーターと定義済みハッシュ テーブルを次のように使用することで、データベース用に定義するパスをきめ細かく決めることができます (例ではすべてのデータベース (.mdf) ファイルに対して 「C:\\CSData」を使用し、すべてのログ (.ldf) ファイルに対して 「C:\\CSLogFiles」 を使用しています。フォルダーは必要に応じて Install-CsDatabase によって作成されます)。
+5.  このコード例では、データベースに対して定義されているパスは、– DatabasePathMap パラメーターと定義されたハッシュテーブル (この例では、すべてのデータベース (\\.mdf) ファイルに "c: csdata" を使用しています\\ ) と "c:すべてのログ (.ldf) ファイルの CSLogFiles ファイル。 必要に応じて、CsDatabase からフォルダーを作成します):
     
         $pathmap = @{
         "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
@@ -134,33 +186,33 @@ _**トピックの最終更新日:** 2016-12-08_
         "MonitoringStore:MonitoringDatabase:DbPath"="C:\CsData";"MonitoringStore:MonitoringDatabase:LogPath"="C:\CsLogFiles"
         "MonitoringStore:QoEMetricsDatabase:DbPath"="C:\CsData";"MonitoringStore:QoEMetricsDatabase:LogPath"="C:\CsLogFiles"
         }
-        Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathsMap $pathmap
+        Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
 
-6.  データベース ファイルとログ ファイルには、対象のデータベース サーバー上での場所に応じて明示的に名前が付けられるので、サービスの種類ごとのデータベースとログの実際の保存場所について、特定の場所を定義することができます。次の例では、特定のサービスの種類ごとに個別のディスクにデータベースを配置し、関連するログ ファイルは別のディスクに保存しています。たとえば次のようになります。
+6.  データベースとログファイルには、ターゲットデータベースサーバー上の場所と共に明示的に名前が付けられているため、サービスの種類ごとに実際のデータベースとログの場所の特定の場所を定義できます。 次の例では、特定のサービスの種類ごとにデータベースを別々のディスクに配置し、関連するログファイルを別のディスクに配置します。 次に例を示します。
     
-      - すべての RTC データベースを「D:\\RTCDatabase」に
+      - すべての RTC データベースの "D\\: rtcdatabase"
     
-      - すべての RTC ログ ファイルを「E:\\RTCLogs」に
+      - "E:\\rtclogs" のすべての RTC ログファイル
     
-      - すべてのアプリケーション ストア データベースを「F:\\CPSDatabases」に
+      - すべてのアプリケーションストアデータベースを "F\\: cpsdatabases" に保存する
     
-      - すべてのアプリケーション ストア ログを「G:\\CPSLogs」に
+      - すべてのアプリケーションストアログを "G\\: cpslogs" に記録する
     
-      - すべての応答グループ ストア データベースを「H:\\RGSDatabases」に
+      - すべての応答グループストアデータベースの "H\\: RGSDatabases"
     
-      - すべての応答グループ ストア ログを「I:\\RGSLogs」に
+      - すべての応答グループは、"I:\\RGSLogs" に記録します。
     
-      - すべてのアドレス帳ストア データベースを「J:\\ABSDatabases」に
+      - すべてのアドレス帳ストアデータベースを "J\\: ABSDatabases" にする
     
-      - すべてのアドレス帳ストア ログ ファイルを「K:\\ABSLogs」に
+      - すべてのアドレス帳ストアのログファイルを "\\K: ABSLogs" に保存します。
     
-      - すべてのアーカイブ ストア データベースを「L:\\ArchivingDatabases」に
+      - "L:\\ArchivingDatabases" のすべてのアーカイブストアデータベース
     
-      - すべてのアーカイブ ストア ログを「M:\\ArchivingLogs」に
+      - すべてのアーカイブストアログは "M\\: ArchivingLogs" になります。
     
-      - すべての監視ストア データベースを「N:\\MonitoringDatabases」に
+      - すべての監視ストアデータベースを "N\\: monitoringdatabases" に保存する
     
-      - すべての監視ストア データベースを「O:\\MonitoringLogfiles」に
+      - すべての監視ストアのログファイルを "\\O: monitoringlogfiles monitoringlogfiles" に保存する
     
     <!-- end list -->
     
@@ -181,9 +233,21 @@ _**トピックの最終更新日:** 2016-12-08_
     Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
     ```
     
-    –DatabasePathMap パラメーターを使用して、SQL Server のパフォーマンスと配置に関する要件に最適なソリューションとなる任意の組み合わせで論理ドライブ文字のマッピングを定義できます。
+    – DatabasePathMap パラメーターを使用すると、SQL Server のパフォーマンスと配置の要件に最適なソリューションを提供する論理ドライブ文字のマッピングの組み合わせを定義できます。
 
-**DatabasePathMap** メソッドを使用してデータベース データ ファイルとログ ファイルを構成する場合は、 トポロジ ビルダー 使用するときの通常のプロセスを若干変更する必要があります。一般には、トポロジの選択肢を定義し、トポロジを公開し、さらにデータベースの選択の展開を選択します。
+**DatabasePathMap**メソッドを使用してデータベースデータファイルとログファイルを構成する場合は、トポロジビルダーを使用するときに、通常のプロセスに若干の変更を加える必要があります。 通常は、トポロジの選択肢を定義し、トポロジを公開して、選択したデータベースを展開します。
 
-**DatabasePathMap** を使用したことがある場合は、 トポロジ ビルダーのプロセスの 3 番目の部分は既に完了しています。 トポロジ ビルダーを実行する前にデータベース サーバーの構成が完了している場合、サーバーの役割とオプションをすべて定義する必要はありますが、データベースを作成するオプションは選択解除します。
+**DatabasePathMap**を使ったことがある場合は、既にトポロジビルダープロセスの3番目の部分を完了しています。 トポロジビルダーの実行前に完全に構成されたデータベースサーバーがある場合は、すべてのサーバーの役割とオプションを定義したままで、データベースを作成するオプションの選択を解除します。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

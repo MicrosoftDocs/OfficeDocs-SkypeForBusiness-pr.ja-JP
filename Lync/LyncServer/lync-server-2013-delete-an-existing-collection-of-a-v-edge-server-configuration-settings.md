@@ -1,55 +1,100 @@
-﻿---
-title: 音声ビデオ エッジ サーバー構成設定の既存コレクションの削除
-TOCTitle: 音声ビデオ エッジ サーバー構成設定の既存コレクションの削除
-ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688077(v=OCS.15)
-ms:contentKeyID: 49886981
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 既存の A/V Edge サーバー構成設定のコレクションを削除する
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an existing collection of A/V Edge Server configuration settings
+ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688077(v=OCS.15)
+ms:contentKeyID: 49733673
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6af42c338cb7032231ce562ac2227ff4089729ba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833618"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 音声ビデオ エッジ サーバー構成設定の既存コレクションの削除
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での既存の A/V エッジサーバー構成の設定を削除する
 
-音声ビデオ エッジ サービスを使用すると、内部ユーザー (組織のネットワークにログオンしているユーザー) が音声データやビデオ データを外部ユーザー (組織のネットワークにログオンしていないユーザー) と共有できます。音声ビデオ エッジ サービスは、主に音声ビデオ エッジ構成設定を使用して管理され、この設定はサイト スコープまたはサービス スコープで構成できます (音声ビデオ エッジ サーバーごとに構成できます)。
+</div>
 
-Lync Server をインストールすると、音声ビデオ エッジ構成設定のグローバル コレクションが作成されます。このグローバル コレクションは削除できません。ただし、Lync Server 管理シェルと Remove-CsAVEdgeConfiguration コマンドレットを使用してグローバル コレクションを "リセット" できます。これは、グローバル コレクションのすべてのプロパティ値は、既定値にリセットされることを意味します。たとえば、MaxTokenLifetime プロパティを 16 時間に設定した場合、そのプロパティは既定値である 8 時間にリセットされます。
+<div id="mainSection">
 
-ただし、サイト スコープまたはサービス スコープのどちらかで作成したカスタム設定コレクションは、Remove-CsDiagnosticHeaderConfiguration コマンドレットを使用して削除できます。サイト設定を削除すると、そのサイト内の音声ビデオ エッジ サーバーはグローバル設定によって管理されます。サービス スコープの設定を削除すると、サーバーは、サイト設定が存在する場合はサイト設定によって、サイト設定が使用できない場合はグローバル設定によって管理されます。
+<div id="mainBody">
 
-詳細については、[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration) コマンドレットのヘルプ トピックを参照してください。
+<span> </span>
 
-## グローバル コレクションのリセット
+_**最終更新日:** 2012-11-01_
 
-  - 次のコマンドは、音声ビデオ エッジ構成設定のグローバル コレクションをリセットします。
+A/V Edge サービスは、内部ユーザー (組織のネットワークにログオンしているユーザー) が、外部ユーザー (組織のネットワークにログオンしていないユーザー) とオーディオやビデオを共有できるようにするための手段を提供します。 A/V edge サービスは、主に、A/V Edge 構成設定を使用して管理されます。これは、サイトスコープまたはサービスの範囲で構成できます (つまり、個々の A/V Edge サーバー用に構成できます)。
+
+Lync Server をインストールすると、A/V Edge のグローバルコレクションが設定されます。 このグローバルコレクションは削除できません。 ただし、Windows PowerShell と CsAVEdgeConfiguration コマンドレットを使用して、グローバルコレクションを "リセット" することができます。つまり、グローバルコレクションのすべてのプロパティ値が既定値にリセットされるということです。 たとえば、MaxTokenLifetime プロパティを16時間として設定した場合、そのプロパティは既定値の8時間にリセットされます。
+
+ただし、サイトスコープまたはサービスのスコープで作成したカスタム設定コレクションは、CsAVEdgeConfiguration コマンドレットを使用して削除できます。 サイトの設定を削除すると、そのサイトの A/V エッジサーバーはグローバル設定によって管理されます。 サービス範囲の設定を削除すると、そのサーバーはそのサイトの設定 (存在する場合)、またはサイトの設定がない場合はグローバル設定によって管理されます。
+
+詳細については、 [CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15))コマンドレットのヘルプトピックを参照してください。
+
+<div>
+
+## <a name="to-reset-the-global-collection"></a>グローバルコレクションをリセットするには
+
+  - 次のコマンドを実行すると、A/V Edge の構成設定のグローバルコレクションがリセットされます。
     
         Remove-CsAVEdgeConfiguration -Identity "global"
 
-## サイト スコープからのコレクションの削除
+</div>
 
-  - 次のコマンドは、Redmond サイトに適用される音声ビデオ エッジ構成設定を削除します。
+<div>
+
+## <a name="to-remove-a-collection-from-the-site-scope"></a>サイトのスコープからコレクションを削除するには
+
+  - このコマンドは、Redmond サイトに適用されている A/V Edge 構成設定を削除します。
     
         Remove-CsAVEdgeConfiguration -Identity "site:Redmond"
 
-## サービス スコープからのコレクションの削除
+</div>
 
-  - 次のコマンドは、音声ビデオ エッジ サーバー atl-edge-001.litwareinc.com に適用される設定を削除します。
+<div>
+
+## <a name="to-remove-a-collection-from-the-service-scope"></a>サービスのスコープからコレクションを削除するには
+
+  - このコマンドは、A/V Edge サーバー atl-edge-001.litwareinc.com に適用されている設定を削除します。
     
         Remove-CsAVEdgeConfiguration -Identity "service:EdgeServer:atl-edge-001.litwareinc.com"
 
-## 関連項目
+</div>
 
-#### タスク
+<div>
 
-[音声ビデオ エッジ サーバーの構成情報を戻す](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
-[音声ビデオ エッジ サーバー構成設定のコレクションの作成または変更](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
+## <a name="see-also"></a>関連項目
 
-#### その他のリソース
 
-[音声ビデオ (A/V) エッジ サーバー](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)
+[Lync Server 2013 で A/V Edge サーバーの構成情報を返す](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
+[Lync Server 2013 での A/V Edge サーバー構成設定のコレクションを作成または変更する](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
+
+
+[Lync Server 2013 の音声/ビデオ (A/V) エッジサーバー](lync-server-2013-audio-video-a-v-edge-servers.md)  
+[Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15))  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
