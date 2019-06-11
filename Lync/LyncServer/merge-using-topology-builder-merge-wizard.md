@@ -1,76 +1,118 @@
-﻿---
-title: トポロジ ビルダー マージ ウィザードを使用したマージ
-TOCTitle: トポロジ ビルダー マージ ウィザードを使用したマージ
-ms:assetid: c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205243(v=OCS.15)
-ms:contentKeyID: 48273519
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: トポロジビルダーの結合ウィザードを使用してマージする
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Merge using Topology Builder Merge wizard
+ms:assetid: c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205243(v=OCS.15)
+ms:contentKeyID: 48185343
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a8a65dab8cb99b35821f12c5871ae52f608ae344
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848085"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# トポロジ ビルダー マージ ウィザードを使用したマージ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-02_
+# <a name="merge-using-topology-builder-merge-wizard"></a><span data-ttu-id="feeed-102">トポロジビルダーの結合ウィザードを使用してマージする</span><span class="sxs-lookup"><span data-stu-id="feeed-102">Merge using Topology Builder Merge wizard</span></span>
 
-1.  トポロジ ビルダーを使用して既存の展開をダウンロードします。
+</div>
 
-2.  \[**操作**\] メニューの \[**Office Communications Server 2007 R2 トポロジのマージ**\] をクリックします。
+<div id="mainSection">
 
-3.  その後、\[**次へ**\] をクリックします。
+<div id="mainBody">
 
-4.  \[**エッジ セットアップの指定**\] で、\[**追加**\] をクリックします。
+<span> </span>
+
+<span data-ttu-id="feeed-103">_**最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="feeed-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+1.  <span data-ttu-id="feeed-104">トポロジビルダーを使用して、既存の展開をダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="feeed-104">Download the existing deployment using Topology Builder.</span></span>
+
+2.  <span data-ttu-id="feeed-105">[**アクション**] メニューで、[ **Office Communications Server 2007 R2 の結合**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="feeed-105">From the **Action** menu, select **Merge Office Communications Server 2007 R2**.</span></span>
+
+3.  <span data-ttu-id="feeed-106">[ **次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feeed-106">Click **Next**.</span></span>
+
+4.  <span data-ttu-id="feeed-107">[ **Edge セットアップの指定**] で [**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feeed-107">In **Specify Edge Setup**, click **Add**.</span></span>
     
-    ![トポロジのマージ ウィザード、\[エッジ セットアップの指定\] ページ](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "トポロジのマージ ウィザード、[エッジ セットアップの指定] ページ")  
+    <span data-ttu-id="feeed-108">![トポロジの結合ウィザード、[Edge セットアップ] ページを指定する](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "トポロジの結合ウィザード、[Edge セットアップ] ページを指定する")</span><span class="sxs-lookup"><span data-stu-id="feeed-108">![Merge Topology Wizard, Specify Edge Setup page](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Merge Topology Wizard, Specify Edge Setup page")</span></span>  
 
-5.  \[**エッジの種類の指定**\] で、エッジ サーバー構成の種類を入力し、\[**次へ**\] をクリックします。この例では \[**単一エッジ サーバー**\] オプションを使用します。
+5.  <span data-ttu-id="feeed-109">[ **Edge の種類の指定**] で、エッジサーバー構成の種類を入力し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feeed-109">In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**.</span></span> <span data-ttu-id="feeed-110">この例では、[**単一エッジサーバー** ] オプションを使用します。</span><span class="sxs-lookup"><span data-stu-id="feeed-110">This example uses the **Single Edge Server** option.</span></span>
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > <STRONG>拡張エッジ展開</STRONG>の構成はサポートされていません。まず、 <STRONG>拡張エッジ サーバー</STRONG>を <STRONG>単一エッジ サーバー</STRONG>または <STRONG>負荷分散された統合エッジ</STRONG> サーバーに変換する必要があります。
+    > [!IMPORTANT]  
+    > <span data-ttu-id="feeed-111">拡張された<STRONG>エッジ展開</STRONG>は、サポートされている構成ではありません。</span><span class="sxs-lookup"><span data-stu-id="feeed-111"><STRONG>Expanded Edge deployment</STRONG> is not a supported configuration.</span></span> <span data-ttu-id="feeed-112">展開された<STRONG>エッジサーバー</STRONG>は、最初に<STRONG>1 つのエッジサーバー</STRONG>または負荷分散された<STRONG>統合エッジ</STRONG>サーバーに変換する必要があります。</span><span class="sxs-lookup"><span data-stu-id="feeed-112">An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.</span></span>
 
-
-
-6.  \[**内部エッジ設定の指定**\] で、必要に応じてエッジ プールの内部 FQDN およびポートに関する情報を入力し、\[**次へ**\] をクリックします。
     
-    ![\[内部エッジ設定の指定\] ダイアログ ボックス](images/JJ205243.dd664761-839c-4ac8-bd1a-5525589dfbb0(OCS.15).jpg "[内部エッジ設定の指定] ダイアログ ボックス")  
+    </div>
 
-7.  \[**外部エッジの指定**\] で、エッジ サーバーの Web 会議 FQDN 情報を入力します。
+6.  <span data-ttu-id="feeed-113">[**内部エッジ設定の指定**] で、必要に応じて、エッジプールの内部 FQDN とポートに関連する情報を入力し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feeed-113">In **Specify Internal Edge Settings** , enter the relevant information for your Edge pool’s internal FQDN and ports as needed, and then click **Next**.</span></span>
+    
+    <span data-ttu-id="feeed-114">![内部の端の設定ダイアログを指定する](images/JJ205243.dd664761-839c-4ac8-bd1a-5525589dfbb0(OCS.15).jpg "内部の端の設定ダイアログを指定する")</span><span class="sxs-lookup"><span data-stu-id="feeed-114">![Specify Internal Edge Settings dialog](images/JJ205243.dd664761-839c-4ac8-bd1a-5525589dfbb0(OCS.15).jpg "Specify Internal Edge Settings dialog")</span></span>  
+
+7.  <span data-ttu-id="feeed-115">[**外部エッジの指定**] で、エッジサーバーの web 会議の FQDN 情報を入力します。</span><span class="sxs-lookup"><span data-stu-id="feeed-115">In **Specify External Edge**, enter the web conferencing FQDN information for your Edge Server.</span></span>
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > [<STRONG>次へ</STRONG>] をクリックする前に、この手順の次のステップを行います。このステップを必ず行うことが非常に重要です。
+    > [!IMPORTANT]  
+    > <span data-ttu-id="feeed-116">[<STRONG>次へ</STRONG>] をクリックする前に、この手順の次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="feeed-116">Before you click <STRONG>Next</STRONG>, do the next step in this procedure.</span></span> <span data-ttu-id="feeed-117">この手順を見逃さないようにすることは非常に重要です。</span><span class="sxs-lookup"><span data-stu-id="feeed-117">It is very important that you do not miss this step.</span></span>
 
-
-
-8.  レガシ Office Communications Server 2007 R2 エッジ サーバーをフェデレーションに使用する場合は、\[**このエッジ プールは、フェデレーションとパブリック IM 接続に使用します**\] チェック ボックスをオンにします。複数のエッジ サーバーを展開している場合、そのうちの 1 つだけがフェデレーションで有効になります。このボックスをオンにせず、フェデレーションを有効にすることを後で決定した場合、トポロジ ビルダー結合ウィザードを実行してから、トポロジを再び公開する必要があります。
     
-    ![\[エッジ サーバー\] ダイアログ ボックス、\[外部エッジの指定\] ページ](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "[エッジ サーバー] ダイアログ ボックス、[外部エッジの指定] ページ")  
+    </div>
 
-9.  \[**次ホップの指定**\] に、環境内の次ホップの場所の完全修飾ドメイン名 (FQDN) を入力します。\[**完了**\] をクリックします。
+8.  <span data-ttu-id="feeed-118">フェデレーション用の従来の Office Communications Server 2007 R2 Edge サーバーの使用を計画している場合は、[**このエッジプールをフェデレーションとパブリック IM 接続に使用**する] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="feeed-118">Check the **This Edge pool is used for federation and public IM connectivity** check box if you plan to use the legacy Office Communications Server 2007 R2 Edge Server for federation.</span></span> <span data-ttu-id="feeed-119">複数のエッジサーバーが展開されている場合は、そのうちの1つのみがフェデレーション対象として有効になります。</span><span class="sxs-lookup"><span data-stu-id="feeed-119">If you have multiple Edge Servers deployed, only one of them will be enabled for federation.</span></span> <span data-ttu-id="feeed-120">このチェックボックスをオフにして、後でフェデレーションを有効にする場合は、トポロジビルダーの結合ウィザードを実行して、もう一度トポロジを公開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="feeed-120">If you do not check this box and you decide later that you want to enable federation, you must run the Topology Builder Merge wizard and publish your topology again.</span></span>
     
-    ![\[エッジ サーバー\] ダイアログ ボックス、\[次ホップの指定\] ページ](images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "[エッジ サーバー] ダイアログ ボックス、[次ホップの指定] ページ")  
+    <span data-ttu-id="feeed-121">![[エッジサーバー] ダイアログ、[外部エッジの指定] ページ](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "[エッジサーバー] ダイアログ、[外部エッジの指定] ページ")</span><span class="sxs-lookup"><span data-stu-id="feeed-121">![Edge Server dialog, Specify External Edge page](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "Edge Server dialog, Specify External Edge page")</span></span>  
 
-10. \[**エッジ セットアップの指定**\] で、すべての Office Communications Server 2007 R2 エッジ サーバーが追加されている場合は、\[**次へ**\] をクリックします。 Office Communications Server 2007 R2 エッジ サーバーをさらに追加する場合は、この手順のステップ 4 以降を繰り返します。
-
-11. \[**内部 SIP ポートの指定**\] では、既定の設定を選択します (既定の SIP ポートを変更しなかった場合)。既定のポート 5061 を使用しない場合は、適切に変更します。その後、\[**次へ**\] をクリックします。
-
-12. \[**概要**\] で、\[**次へ**\] をクリックしてトポロジのマージを開始します。
-
-13. ウィザードのページでトポロジのマージが成功したことを確認します。
-
-14. \[**状態**\] 列の値が " **成功**" になっていることを確認し、\[**完了**\] をクリックします。
-
-15. トポロジ ビルダーの左側のウィンドウに、\[**BackCompatSite**\] と表示されるようになっています。これは、 Office Communications Server 2007 R2 環境が Lync Server 2013 にマージされたことを示します。
+9.  <span data-ttu-id="feeed-122">[**次ホップの指定**] で、環境内の次のホップ位置の完全修飾ドメイン名 (FQDN) を入力します。</span><span class="sxs-lookup"><span data-stu-id="feeed-122">In **Specify Next Hop**, enter the fully qualified domain name (FQDN) of the next hop location in your environment.</span></span> <span data-ttu-id="feeed-123">[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feeed-123">Click **Finish**.</span></span>
     
-    ![マージされたトポロジを示しているトポロジ ビルダー](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "マージされたトポロジを示しているトポロジ ビルダー")  
+    <span data-ttu-id="feeed-124">[![エッジサーバー] ダイアログボックス、[次ホップの指定] ページ][(images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "エッジサーバー] ダイアログボックス、[次ホップの指定] ページ")</span><span class="sxs-lookup"><span data-stu-id="feeed-124">![Edge Server dialog, Specify Next Hop page](images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "Edge Server dialog, Specify Next Hop page")</span></span>  
 
-16. \[**操作**\] メニューで、\[**トポロジの公開**\]、\[**次へ**\] の順にクリックします。
+10. <span data-ttu-id="feeed-125">Office Communications Server 2007 R2 Edge サーバーがすべて追加されている場合は、[ **Edge セットアップの指定**] で [**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feeed-125">In **Specify Edge Setup**, if all your Office Communications Server 2007 R2 Edge Servers have been added, click **Next**.</span></span> <span data-ttu-id="feeed-126">追加する Office Communications Server 2007 R2 Edge サーバーが他にもある場合は、手順4からこの手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="feeed-126">If you have more Office Communications Server 2007 R2 Edge Servers to add, repeat this procedure starting at step 4.</span></span>
 
-17. **公開ウィザード**の実行が完了したら、\[**完了**\] をクリックします。
+11. <span data-ttu-id="feeed-127">[**内部 sip ポートの指定**] で、既定の設定 (つまり、既定の sip ポートを変更していない場合) を選択します。</span><span class="sxs-lookup"><span data-stu-id="feeed-127">In **Specify Internal SIP port** , select the default setting (that is, if you did not modify the default SIP port).</span></span> <span data-ttu-id="feeed-128">既定のポート5061を使用していない場合は、必要に応じて変更して、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feeed-128">Change as appropriate if you are not using a default port of 5061, and then click **Next**.</span></span>
+
+12. <span data-ttu-id="feeed-129">[**概要**] で、[**次へ**] をクリックしてトポロジのマージを開始します。</span><span class="sxs-lookup"><span data-stu-id="feeed-129">In **Summary**, click **Next** to begin merging the topologies.</span></span>
+
+13. <span data-ttu-id="feeed-130">ウィザードのページで、トポロジの結合が正常に完了したことを確認します。</span><span class="sxs-lookup"><span data-stu-id="feeed-130">The wizard page verifies that the merging of the topologies was successful.</span></span>
+
+14. <span data-ttu-id="feeed-131">[**状態**] 列で、値が**成功**していることを確認し、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feeed-131">In the **Status** column, verify that the value is **Success**, and then click **Finish**.</span></span>
+
+15. <span data-ttu-id="feeed-132">[Topology Builder] の左側のウィンドウに、 **BackCompatSite**が表示されます。これは、Office Communications Server 2007 R2 環境が Lync Server 2013 に統合されていることを示します。</span><span class="sxs-lookup"><span data-stu-id="feeed-132">In the left pane of Topology Builder, you should now see the **BackCompatSite**, which indicates that your Office Communications Server 2007 R2 environment has been merged with Lync Server 2013.</span></span>
     
-    > [!NOTE]
-    > 次のトピック「<a href="import-policies-and-settings.md">ポリシーと設定のインポート</a>」を完了し、従来のポリシーの設定が Lync Server 2013 にインポートされたことを確認することが重要です。
+    <span data-ttu-id="feeed-133">![結合されたトポロジを示すトポロジビルダー](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "結合されたトポロジを示すトポロジビルダー")</span><span class="sxs-lookup"><span data-stu-id="feeed-133">![Topology Builder showing a merged topology](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Topology Builder showing a merged topology")</span></span>  
+
+16. <span data-ttu-id="feeed-134">[**操作**] メニューの [**トポロジの公開**] をクリックし、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feeed-134">From the **Action** menu, click **Publish Topology**, and then click **Next**.</span></span>
+
+17. <span data-ttu-id="feeed-135">**発行ウィザード**が完了したら、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="feeed-135">When the **Publishing wizard** completes, click **Finish**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="feeed-136">従来のポリシー設定が Lync Server 2013 にインポートされるようにするには、次のトピック「<A href="import-policies-and-settings.md">ポリシーと設定のインポート</A>」を完了しておくことが重要です。</span><span class="sxs-lookup"><span data-stu-id="feeed-136">It’s important that you complete the next topic, <A href="import-policies-and-settings.md">Import policies and settings</A>, to ensure that the legacy policy settings are imported into Lync Server 2013.</span></span>
+
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

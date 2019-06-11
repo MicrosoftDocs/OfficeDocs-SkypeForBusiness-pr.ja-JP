@@ -1,39 +1,73 @@
-﻿---
-title: 'Lync Server 2013: Kerberos 認証の設定'
-TOCTitle: Kerberos 認証の設定
-ms:assetid: dd8009ef-6265-4cc0-b2c7-e474cd1f4b09
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398976(v=OCS.15)
-ms:contentKeyID: 48273762
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Kerberos 認証の設定'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Kerberos authentication
+ms:assetid: dd8009ef-6265-4cc0-b2c7-e474cd1f4b09
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398976(v=OCS.15)
+ms:contentKeyID: 48185601
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 86526b40ee837866cdf0e3b016a8e4e627ca2eef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848746"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での Kerberos 認証の設定
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-21_
+# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="c1b90-102">Lync Server 2013 での Kerberos 認証の設定</span><span class="sxs-lookup"><span data-stu-id="c1b90-102">Setting up Kerberos authentication in Lync Server 2013</span></span>
 
-Lync Server 2013 では Web サービスの NTLM および Kerberos 認証がサポートされています。 Office Communications Server 2007 と Office Communications Server 2007 R2 では、 Web サービス アプリケーション プールを実行するユーザー アカウントとして既定値の RTCComponentService と RTCService が使用され、サービス プリンシパル名 (SPN) をユーザー アカウントに割り当て、認証プリンシパルとして機能させることができました。 Lync Server では、 Web サービスの実行に NetworkService が使用されます。NetworkService に SPN を割り当てることはできません。
+</div>
 
-Active Directory オブジェクトに SPN がない問題を解決するために、Lync Server コントロール パネル ではこの目的にコンピューター アカウント オブジェクトを使用できます。コンピューター アカウント オブジェクトは SPN を持つことができます。以前のバージョンでユーザー アカウントを使用しているときには、パスワードの有効期限が問題でしたが、コンピューター アカウント オブジェクトはパスワード有効期限の影響を受けません。
+<div id="mainSection">
 
-Kerberos 認証を提供するためにコンピューター オブジェクトを構成するには、 Windows PowerShell コマンドレットを使用します。
+<div id="mainBody">
 
-## このセクション中
+<span> </span>
 
-  - [Lync Server 2013 で Kerberos 認証を有効にするための前提条件](lync-server-2013-prerequisites-for-enabling-kerberos-authentication.md)
+<span data-ttu-id="c1b90-103">_**最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="c1b90-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-  - [Lync Server 2013 での Kerberos 認証アカウントの作成](lync-server-2013-create-a-kerberos-authentication-account.md)
+<span data-ttu-id="c1b90-104">Lync Server 2013 は、Web サービスの NTLM 認証と Kerberos 認証をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="c1b90-104">Lync Server 2013 supports NTLM and Kerberos authentication for Web Services.</span></span> <span data-ttu-id="c1b90-105">Office Communications Server 2007 および Office Communications Server 2007 R2 では、サービスプリンシパル名 (SPN) をユーザーに割り当てることができるように、Web サービスのアプリケーションプールを実行するためのユーザーアカウントとして、既定の RTCComponentService と RTCService を使用しましたアカウントを選び、認証プリンシパルとして機能します。</span><span class="sxs-lookup"><span data-stu-id="c1b90-105">Office Communications Server 2007 and Office Communications Server 2007 R2 used the default RTCComponentService and RTCService as the user accounts to run the Web Services application pools, allowing for a service principal name (SPN) to be assigned to the user accounts and to act as the authentication principal.</span></span> <span data-ttu-id="c1b90-106">Lync Server は NetworkService を使って Web サービスを実行します。 NetworkService には、Spn を割り当てることはできません。</span><span class="sxs-lookup"><span data-stu-id="c1b90-106">Lync Server uses NetworkService to run Web Services and NetworkService cannot have SPNs assigned to it.</span></span>
 
-  - [Lync Server 2013 での、サイトへの Kerberos 認証アカウントの割り当て](lync-server-2013-assign-a-kerberos-authentication-account-to-a-site.md)
+<span data-ttu-id="c1b90-107">Active Directory オブジェクトに Spn を保持する必要がないという問題を解決するために、Lync Server コントロールパネルでは、この目的でコンピューターアカウントオブジェクトを使うことができます。</span><span class="sxs-lookup"><span data-stu-id="c1b90-107">To solve the issue of not having Active Directory objects to hold the SPNs, Lync Server Control Panel can use computer account objects for this purpose.</span></span> <span data-ttu-id="c1b90-108">コンピューターアカウントオブジェクトは、Spn を保持することができ、パスワードの有効期限は適用されません。これは、以前のバージョンでのユーザーアカウントの使用に関する問題です。</span><span class="sxs-lookup"><span data-stu-id="c1b90-108">The computer account objects can hold the SPNs and are not subject to password expiration, which was an issue with using user accounts in previous versions.</span></span>
 
-  - [Lync Server 2013 での Kerberos 認証アカウント パスワードの設定](lync-server-2013-setting-up-kerberos-authentication-account-passwords.md)
+<span data-ttu-id="c1b90-109">Kerberos 認証を提供するようにコンピューターオブジェクトを構成するには、Windows PowerShell コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="c1b90-109">You use Windows PowerShell cmdlets to configure the computer objects to provide Kerberos authentication.</span></span>
 
-  - [Lync Server 2013 での他のサイトへの Kerberos 認証の追加](lync-server-2013-add-kerberos-authentication-to-other-sites.md)
+<div>
 
-  - [Lync Server 2013 でのサイトからの Kerberos 認証の削除](lync-server-2013-remove-kerberos-authentication-from-a-site.md)
+## <a name="in-this-section"></a><span data-ttu-id="c1b90-110">このセクション中</span><span class="sxs-lookup"><span data-stu-id="c1b90-110">In This Section</span></span>
 
-  - [Lync Server 2013 での Kerberos 認証の状態と割り当てについてのテストおよびレポート](lync-server-2013-testing-and-reporting-the-status-and-assignment-of-kerberos-authentication.md)
+  - [<span data-ttu-id="c1b90-111">Lync Server 2013 で Kerberos 認証を有効にするための前提条件</span><span class="sxs-lookup"><span data-stu-id="c1b90-111">Prerequisites for enabling Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-prerequisites-for-enabling-kerberos-authentication.md)
+
+  - [<span data-ttu-id="c1b90-112">Lync Server 2013 での Kerberos 認証アカウントの作成</span><span class="sxs-lookup"><span data-stu-id="c1b90-112">Create a Kerberos authentication account in Lync Server 2013</span></span>](lync-server-2013-create-a-kerberos-authentication-account.md)
+
+  - [<span data-ttu-id="c1b90-113">Lync Server 2013 での、サイトへの Kerberos 認証アカウントの割り当て</span><span class="sxs-lookup"><span data-stu-id="c1b90-113">Assign a Kerberos authentication account to a site in Lync Server 2013</span></span>](lync-server-2013-assign-a-kerberos-authentication-account-to-a-site.md)
+
+  - [<span data-ttu-id="c1b90-114">Lync Server 2013 での Kerberos 認証アカウント パスワードの設定</span><span class="sxs-lookup"><span data-stu-id="c1b90-114">Setting up Kerberos authentication account passwords in Lync Server 2013</span></span>](lync-server-2013-setting-up-kerberos-authentication-account-passwords.md)
+
+  - [<span data-ttu-id="c1b90-115">Lync Server 2013 での他のサイトへの Kerberos 認証の追加</span><span class="sxs-lookup"><span data-stu-id="c1b90-115">In Lync Server 2013 add Kerberos authentication to other sites</span></span>](lync-server-2013-add-kerberos-authentication-to-other-sites.md)
+
+  - [<span data-ttu-id="c1b90-116">Lync Server 2013 でのサイトからの Kerberos 認証の削除</span><span class="sxs-lookup"><span data-stu-id="c1b90-116">In Lync Server 2013 remove Kerberos authentication from a site</span></span>](lync-server-2013-remove-kerberos-authentication-from-a-site.md)
+
+  - [<span data-ttu-id="c1b90-117">Lync Server 2013 での Kerberos 認証の状態と割り当てについてのテストおよびレポート</span><span class="sxs-lookup"><span data-stu-id="c1b90-117">Testing and reporting the status and assignment of Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-testing-and-reporting-the-status-and-assignment-of-kerberos-authentication.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

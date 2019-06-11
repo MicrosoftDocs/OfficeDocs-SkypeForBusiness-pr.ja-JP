@@ -1,137 +1,159 @@
-﻿---
-title: 'Lync Server 2013: エンド ユーザーとしての Lync と Skype の接続の使用'
-TOCTitle: エンド ユーザーとしての Lync と Skype の接続の使用
-ms:assetid: ad22f731-118c-4349-8790-b1a72941cbdd
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn440175(v=OCS.15)
-ms:contentKeyID: 59602763
-ms.date: 12/28/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: エンド ユーザーとしての Lync と Skype の接続の使用'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Lync-Skype connectivity as an end user
+ms:assetid: ad22f731-118c-4349-8790-b1a72941cbdd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440175(v=OCS.15)
+ms:contentKeyID: 57793365
+ms.date: 12/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1d2bf4584f3332171942f941cc382d22bb6a8db7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848281"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# エンド ユーザーとしての Lync Server 2013 での Lync と Skype の接続の使用
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-27_
+# <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a><span data-ttu-id="406eb-102">エンド ユーザーとしての Lync Server 2013 での Lync と Skype の接続の使用</span><span class="sxs-lookup"><span data-stu-id="406eb-102">Using Lync-Skype connectivity in Lync Server 2013 as an end user</span></span>
 
-Lync と Skype の接続によって、Skype ユーザーと Lync ユーザーが互いに連絡先の追加、インスタント メッセージのやり取り、音声通話を実行できるようになりました。Skype ユーザーが Lync ユーザーを追加する場合、Skype ユーザーは Lync ユーザーのセッション開始プロトコル (SIP) の URI (Uniform Resource Identifier) を含む連絡先を Skype に作成します。反対に、Lync ユーザーが Skype の連絡先を追加する場合、Lync ユーザーは、Skype ユーザーの Microsoft アカウント (MSA) (Skype ユーザー名ではない) を含む連絡先を Lync に作成します。
+</div>
 
-**MSA とは** Skype ユーザーが Lync の連絡先と通信するには、Microsoft アカウント (以前は Windows Live ID と呼ばれていました) で Skype にサインインする必要があります。Microsoft アカウントは、メール アドレスとパスワードの組み合わせで構成され、Microsoft OneDrive ストレージ テクノロジ、Windows Phone、Microsoft Xbox LIVE オンライン ゲーム サービス、Microsoft Outlook メッセージングおよびコラボレーション クライアントなどのサービスへのサインインにも使用できます (以前は Microsoft Hotmail の Web ベースのメール サービスや Windows Live Messenger へのサインインにも使用できました)。メール アドレスとパスワードを使用してこれらのサービスやその他のサービスにサインインしている場合は、既に Microsoft アカウントをお持ちということです。Microsoft アカウントの作成の詳細については、Microsoft アカウントのサインアップ ページ ([http://go.microsoft.com/fwlink/p/?LinkId=306061](http://go.microsoft.com/fwlink/p/?linkid=306061)) を参照してください。既存の Skype アカウントを Microsoft アカウントと結合して、さまざまなアプリケーションやサービスでシングル サインオンできます。アカウントが統合されたら、Skype ユーザーは、連絡先追加のリクエストを Lync ユーザーに送信できます。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="406eb-103">_**最終更新日:** 2016-12-27_</span><span class="sxs-lookup"><span data-stu-id="406eb-103">_**Topic Last Modified:** 2016-12-27_</span></span>
+
+<span data-ttu-id="406eb-104">Lync-skype 接続を使うと、Skype ユーザと Lync ユーザがお互いをコンタクトとして追加したり、インスタントメッセージを交換したり、音声通話やビデオ通話を発信したりできます。</span><span class="sxs-lookup"><span data-stu-id="406eb-104">Lync-Skype Connectivity enables Skype users and Lync users to add each other as contacts, exchange instant messages and make audio and video calls.</span></span> <span data-ttu-id="406eb-105">Skype ユーザーが Lync ユーザーを追加すると、skype ユーザーは、Lync ユーザーのセッション開始プロトコル (SIP) uniform resource identifier (URI) を含む連絡先を Skype で作成します。</span><span class="sxs-lookup"><span data-stu-id="406eb-105">When a Skype user adds a Lync user, a Skype user will create a contact in Skype containing the session initiation protocol (SIP) uniform resource identifier (URI) of the Lync user.</span></span> <span data-ttu-id="406eb-106">一方、Lync ユーザーが Skype 連絡先を追加すると、lync ユーザーは、skype ユーザー名ではなく、Skype ユーザーの Microsoft アカウント (MSA) を含む Lync の連絡先を作成します。</span><span class="sxs-lookup"><span data-stu-id="406eb-106">Conversely, when a Lync user adds a Skype contact, the Lync user will create a contact in Lync that will contain the Microsoft Account (MSA) of the Skype user, and not the Skype user name.</span></span>
+
+<span data-ttu-id="406eb-107">**MSA とは何ですか?**</span><span class="sxs-lookup"><span data-stu-id="406eb-107">**What is an MSA?**</span></span> <span data-ttu-id="406eb-108">Lync の連絡先と通信するためには、skype ユーザーが Microsoft アカウント (旧称 Windows Live ID) を使って Skype にサインインしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="406eb-108">Skype users must sign in to Skype with a Microsoft account (previously called Windows Live ID) in order to communicate with Lync contacts.</span></span><span data-ttu-id="406eb-109">Microsoft アカウントは、メールアドレスとパスワードの組み合わせで構成されます。また、Microsoft OneDrive ストレージテクノロジ、Windows Phone、Microsoft Xbox LIVE online ゲームサービス、Microsoft Outlook メッセージングなどのサービスへのサインインにも使用できます。共同作業クライアント (および以前は Microsoft Hotmail web ベースのメールサービスまたは Windows Live Messenger)。</span><span class="sxs-lookup"><span data-stu-id="406eb-109"> A Microsoft account consists of the combination of an email address and a password, which you can also use to sign in to services such as Microsoft OneDrive storage technology, Windows Phone, Microsoft Xbox LIVE online game service, and Microsoft Outlook messaging and collaboration client (and, previously, Microsoft Hotmail web-based e-mail service or Windows Live Messenger).</span></span><span data-ttu-id="406eb-110">メールアドレスとパスワードを使って、これらのサービスまたは他のサービスにサインインする場合は、既に Microsoft アカウントを持っています。</span><span class="sxs-lookup"><span data-stu-id="406eb-110"> If you use an email address and a password to sign in to these or other services, you already have a Microsoft account.</span></span><span data-ttu-id="406eb-111">Microsoft アカウントの作成の詳細については、Microsoft アカウントのサインアップページを[https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061)参照してください。</span><span class="sxs-lookup"><span data-stu-id="406eb-111"> For details about creating a Microsoft Account, see the Microsoft account sign-up page at [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061).</span></span> <span data-ttu-id="406eb-112">既存の Skype アカウントを、さまざまなアプリケーションやサービスで、シングルサインオン用の Microsoft アカウントに統合することができます。</span><span class="sxs-lookup"><span data-stu-id="406eb-112">You can merge your existing Skype account with your Microsoft account for single sign-on, across a variety of applications and services.</span></span> <span data-ttu-id="406eb-113">アカウントを統合すると、Skype ユーザーは連絡先要求を Lync ユーザーに送信できます。</span><span class="sxs-lookup"><span data-stu-id="406eb-113">Once the account is merged a Skype user can send a contact request to Lync users.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
-> Lync ユーザーと Skype ユーザーが完全に相互通信するには、次の要件を満たす必要があります。 
+> [!IMPORTANT]  
+> <span data-ttu-id="406eb-114">Lync と Skype ユーザーが相互に完全に通信するためには、次の要件を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="406eb-114">In order for Lync and Skype users to fully communicate with each other, the following requirements must be met:</span></span> 
 > <UL>
 > <LI>
-> <P>Skype ユーザーは Skype クライアントに Microsoft アカウント (MSA) でログインする必要があります。</P>
+> <P><span data-ttu-id="406eb-115">Skype ユーザは、Microsoft アカウント (MSA) を使って Skype クライアントにログインしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="406eb-115">Skype users must be logged into their Skype client with a Microsoft Account (MSA).</span></span></P>
 > <LI>
-> <P>Lync ユーザーでは、Lync 管理者によってパブリック IM 接続が有効化されている必要があります。</P>
+> <P><span data-ttu-id="406eb-116">Lync ユーザーは、Lync 管理者によるパブリック IM 接続を有効にしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="406eb-116">Lync users must be enabled for public IM connectivity by their Lync administrator.</span></span></P>
 > <LI>
-> <P>Skype ユーザーが Lync の連絡先を追加する場合は、連絡先の名前の下に Lync という単語が表示されることを確認します。これは、Lync URI が見つかっていることを示します。</P>
+> <P><span data-ttu-id="406eb-117">Skype ユーザーが Lync の連絡先を追加するときに、連絡先の名前の下に "Lync" と表示されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="406eb-117">When a Skype user adds a Lync contact, verify that the word Lync appears below the contact’s name.</span></span> <span data-ttu-id="406eb-118">これは、Lync URI が検出されたことを示します。</span><span class="sxs-lookup"><span data-stu-id="406eb-118">This indicates that a Lync URI has been found.</span></span></P>
 > <LI>
-> <P>Skype ユーザーが Lync の連絡先を追加し、その Lync ドメインで返される検索結果がゼロの場合、PIC プロビジョニング プロセスが完了していないか、その Lync ドメインが設定されていない可能性があります。</P>
+> <P><span data-ttu-id="406eb-119">Skype ユーザーが Lync の連絡先を追加したときに、その Lync ドメインで検索結果がゼロで返されると、PIC プロビジョニングプロセスが完了していないか、Lync ドメインがまだセットアップされていない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="406eb-119">When a Skype user adds a Lync contact and zero search results are returned for that Lync domain, the PIC provisioning process may not have completed, or the Lync domain has not yet been set up.</span></span></P>
 > <LI>
-> <P>Lync ユーザーや Skype ユーザーのプライバシー設定によっては、新しい連絡先が各ユーザーによって承諾されるまで、IM、ビデオ、プレゼンスが機能しない場合があります。</P></LI></UL>
+> <P><span data-ttu-id="406eb-120">Lync および Skype ユーザーのプライバシー設定によっては、新しい連絡先が各ユーザーによって承認されるまで、IM、ビデオ、プレゼンスが機能しないことがあります。</span><span class="sxs-lookup"><span data-stu-id="406eb-120">Depending on the privacy settings of the Lync and Skype users, IM, video, and presence may not work until the new contacts are accepted by each user.</span></span></P></LI></UL>
 
 
 
-**Skype の連絡先を Lync 2013 に追加するには**
+</div>
 
-1.  Lync で \[**連絡先の追加\]、\[外部の連絡先の追加**\] をクリックします。
+<span data-ttu-id="406eb-121">**Lync 2013 に Skype の連絡先を追加するには**</span><span class="sxs-lookup"><span data-stu-id="406eb-121">**To add a Skype contact to Lync 2013**</span></span>
 
-2.  使用可能な連絡先プロバイダーのリストから、以下のように \[**Skype**\] を選びます。
+1.  <span data-ttu-id="406eb-122">Lync で、[**連絡先の追加] をクリックし、[組織外の連絡先を追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="406eb-122">From Lync, click **Add a Contact, Add a Contact Not in My Organization**.</span></span>
+
+2.  <span data-ttu-id="406eb-123">利用可能なコンタクトプロバイダのリストから「 **Skype**」を選択します。</span><span class="sxs-lookup"><span data-stu-id="406eb-123">From the list of available contact providers, select **Skype**.</span></span>
+
+3.  <span data-ttu-id="406eb-124">[ **IM アドレス**] フィールドに、Skype ユーザーの Microsoft アカウント (MSA) を入力します。</span><span class="sxs-lookup"><span data-stu-id="406eb-124">In the **IM Address** field, enter the Microsoft Account (MSA) of the Skype user.</span></span>
+
+4.  <span data-ttu-id="406eb-125">[**連絡先グループに追加**] ドロップダウンボックスで、ユーザーを追加する連絡先グループを選びます。</span><span class="sxs-lookup"><span data-stu-id="406eb-125">In the **Add to contact group** dropdown box, select a contact group to add the user to.</span></span>
+
+5.  <span data-ttu-id="406eb-126">[**プライバシー関係の設定**] ドロップダウンボックスで、適切な連絡先の設定を選び、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="406eb-126">In the **Set privacy relationship** dropdown box, select the appropriate contact setting and then click **OK**.</span></span>
+
+6.  <span data-ttu-id="406eb-127">これで、ユーザーが Lync に連絡先として表示されるようになります。</span><span class="sxs-lookup"><span data-stu-id="406eb-127">The user will now appear as a contact in Lync.</span></span> <span data-ttu-id="406eb-128">ユーザーを選び、ユーザー名を右クリックして、[**連絡先カードの表示**] をクリックし、ユーザーのプロパティを表示します。</span><span class="sxs-lookup"><span data-stu-id="406eb-128">Select the user, right-click the user name, and click **See Contact Card** to view the user properties.</span></span> <span data-ttu-id="406eb-129">新しく追加された Skype ユーザとの音声通話またはビデオ通話を確立できるようになりました。</span><span class="sxs-lookup"><span data-stu-id="406eb-129">You can now establish an audio or video call with the newly added Skype user.</span></span>
+
+<span data-ttu-id="406eb-130">連絡先のサポートの詳細については、「 [Lync で連絡先を追加する](https://support.office.com/en-us/article/add-a-contact-ae55b88d-b9af-48da-bffe-7cc720a5059a)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="406eb-130">For additional information on support for contacts, see [Add a contact in Lync](https://support.office.com/en-us/article/add-a-contact-ae55b88d-b9af-48da-bffe-7cc720a5059a).</span></span>
+
+<span data-ttu-id="406eb-131">Skype ユーザーの Microsoft アカウントでカスタムドメイン名 ( <strong>bob@contoso.com</strong>など) を使用している場合、lync ユーザーは、次の2つの方法で microsoft アカウントを lync に追加することができます。</span><span class="sxs-lookup"><span data-stu-id="406eb-131">When a Skype user’s Microsoft account uses a custom domain name, such as <strong>bob@contoso.com</strong> , a Lync user can add that Microsoft account to Lync in two ways:</span></span>
+
+1.  <span data-ttu-id="406eb-132">[**連絡先の追加**] アイコンを使用するか、</span><span class="sxs-lookup"><span data-stu-id="406eb-132">Use the **Add a Contact** icon, or</span></span>
+
+2.  <span data-ttu-id="406eb-133">[**ユーザーまたは会議室を検索] または [電話番号をダイヤル**する] フィールドを使用します。</span><span class="sxs-lookup"><span data-stu-id="406eb-133">Use the **Find someone or a room, or a dial a number** field.</span></span>
+
+<span data-ttu-id="406eb-134">各インスタンスでは、Lync ユーザーは、Skype ユーザーのメールを次の形式で入力する必要があります。<strong>ユーザー (ドメイン名) @msn .com</strong> 。</span><span class="sxs-lookup"><span data-stu-id="406eb-134">In each instance, the Lync user must enter the Skype user’s email in the following format: <strong>user(domain name)@msn.com</strong> .</span></span>
+
+<div>
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="406eb-135">この手順は、次のドメイン名を使用する Microsoft アカウントには必要ありません。 <STRONG>@live .com、@hotmail .com、または @outlook</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="406eb-135">This step is not required for Microsoft accounts that use the following domain names: <STRONG>@live.com, @hotmail.com or @outlook.com</STRONG>.</span></span> <span data-ttu-id="406eb-136">サポートされているカスタムドメイン名の詳細については、「<A href="https://support.microsoft.com/kb/897567">サポートされているパブリック IM ドメイン</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="406eb-136">For more information on supported custom domain names, see <A href="https://support.microsoft.com/kb/897567">Supported public IM domains</A>.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="406eb-137">**カスタムドメイン名を使用しているときに、Lync に Skype 連絡先を追加するには**</span><span class="sxs-lookup"><span data-stu-id="406eb-137">**To add a Skype contact to Lync when using a custom domain name**</span></span>
+
+1.  <span data-ttu-id="406eb-138">Lync で、[**連絡先の追加] をクリックし、[組織外の連絡先を追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="406eb-138">From Lync, click **Add a Contact, Add a Contact Not in My Organization**.</span></span>
+
+2.  <span data-ttu-id="406eb-139">利用可能なコンタクトプロバイダのリストから「 **Skype**」を選択します。</span><span class="sxs-lookup"><span data-stu-id="406eb-139">From the list of available contact providers, select **Skype**.</span></span>
+
+3.  <span data-ttu-id="406eb-140">[ **IM アドレス**] フィールドに、ユーザーの形式 (<strong>ドメイン名) @msn .com</strong>の Skype ユーザーの Microsoft アカウント (MSA) を入力します。</span><span class="sxs-lookup"><span data-stu-id="406eb-140">In the **IM Address** field, enter the Microsoft Account (MSA) of the Skype user in the format <strong>user(domain name)@msn.com</strong>.</span></span> <span data-ttu-id="406eb-141">ユーザー bob@contoso.com の場合、エントリは<strong>bob (contoso) @msn になり<strong>ます。</span><span class="sxs-lookup"><span data-stu-id="406eb-141">So for user bob@contoso.com, the entry would be <strong>bob(contoso.com)@msn.com<strong> .</span></span>
+
+4.  <span data-ttu-id="406eb-142">[**連絡先グループに追加**] ドロップダウンリストボックスで、ユーザーを追加する連絡先グループを選びます。</span><span class="sxs-lookup"><span data-stu-id="406eb-142">In the **Add to contact group** drop-down list box, select a contact group to add the user to.</span></span>
+
+5.  <span data-ttu-id="406eb-143">[**プライバシー関係の設定**] ドロップダウンリストボックスで、適切な連絡先の設定を選び、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="406eb-143">In the **Set privacy relationship** drop-down list box, select the appropriate contact setting and then click **OK**.</span></span>
+
+6.  <span data-ttu-id="406eb-144">Lync ユーザーは、[ユーザーの**検索] または [会議室**] を使用したり、lync の電話番号をダイヤルしたり、次のようなアドレス<strong>(ドメイン名) @msn</strong>を追加したりすることもできます。</span><span class="sxs-lookup"><span data-stu-id="406eb-144">A Lync user can also use the **Find someone or a room, or dial a number** field in Lync, and add an address that resembles the following <strong>user(domain name)@msn.com</strong> .</span></span> <span data-ttu-id="406eb-145">Bob@contoso.com Microsoft アカウントの場合、エントリは<strong>bob (contoso) @msn</strong>になります。</span><span class="sxs-lookup"><span data-stu-id="406eb-145">So for the bob@contoso.com Microsoft account, the entry would be <strong>bob(contoso.com)@msn.com</strong> .</span></span>
+
+7.  <span data-ttu-id="406eb-146">連絡先グループに連絡先を追加して、適切なプライバシー関係を選択するには、上記の手順4と5を実行します。</span><span class="sxs-lookup"><span data-stu-id="406eb-146">Follow steps 4 and 5 earlier in this procedure to add the contact to a contact group and to select the appropriate privacy relationship.</span></span>
+
+<span data-ttu-id="406eb-147">**Lync の連絡先を Skype に追加するには**</span><span class="sxs-lookup"><span data-stu-id="406eb-147">**To add a Lync contact to Skype**</span></span>
+
+1.  <span data-ttu-id="406eb-148">Skype にサインインします。</span><span class="sxs-lookup"><span data-stu-id="406eb-148">Sign in to Skype.</span></span> <span data-ttu-id="406eb-149">Skype ユーザは、Microsoft アカウント (MSA) を使って Skype クライアントにログインしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="406eb-149">The Skype user must be logged into their Skype client with a Microsoft Account (MSA).</span></span>
+
+2.  <span data-ttu-id="406eb-150">[連絡先の追加] アイコンを選択します。</span><span class="sxs-lookup"><span data-stu-id="406eb-150">Select the Add Contacts icon.</span></span>
+
+3.  <span data-ttu-id="406eb-151">Lync ユーザーの SIP URI を入力します。</span><span class="sxs-lookup"><span data-stu-id="406eb-151">Enter the SIP URI of the Lync user.</span></span> <span data-ttu-id="406eb-152">たとえば、bob@contoso.com のようになります。</span><span class="sxs-lookup"><span data-stu-id="406eb-152">For example, bob@contoso.com.</span></span>
+
+4.  <span data-ttu-id="406eb-153">検索結果で一致するものが見つかった場合は、Lync ユーザー名の下にある word **Lync**を探します。</span><span class="sxs-lookup"><span data-stu-id="406eb-153">When Skype finds the match in the search results, look for the word **Lync** below the Lync user’s name.</span></span> <span data-ttu-id="406eb-154">これは、Skype が Lync クライアントの SIP URI を正常に見つけたことを示します。</span><span class="sxs-lookup"><span data-stu-id="406eb-154">This indicates Skype successfully located the Lync client’s SIP URI.</span></span> <span data-ttu-id="406eb-155">名前をクリックします。</span><span class="sxs-lookup"><span data-stu-id="406eb-155">Click the name.</span></span>
+
+5.  <span data-ttu-id="406eb-156">ウィンドウの右上隅の [連絡先フォルダーに追加] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="406eb-156">In the top right corner of the window, click Add to Contacts.</span></span>
+
+6.  <span data-ttu-id="406eb-157">これで、新しい連絡先が連絡先リストに追加されますが、ユーザーが要求を承認するまでは、[状態] アイコンの代わりに疑問符が表示されます。</span><span class="sxs-lookup"><span data-stu-id="406eb-157">The new contact is now added to your contact list, but you’ll see a question mark instead of their status icon until they accept your request.</span></span> <span data-ttu-id="406eb-158">新しい連絡先が要求を受け入れると、相手がオンラインであることを確認したり、IM で会話を開始したり、音声通話やビデオ通話を行ったりすることができます。</span><span class="sxs-lookup"><span data-stu-id="406eb-158">When your new contact accepts your request, you will be able to see when they are online, initiate IM conversations, and make audio and video calls.</span></span>
     
-    ![Lync クライアント、Skype 連絡先の追加方法](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Lync クライアント、Skype 連絡先の追加方法")
-
-3.  " **IM アドレス**" フィールドに Skype ユーザーの Microsoft アカウント (MSA) を入力します。
-
-4.  \[**連絡先グループに追加**\] ドロップダウン ボックスで、ユーザーを追加する連絡先グループを選びます。
-
-5.  \[**プライバシー関係の設定**\] ドロップダウン ボックスで適切な連絡先設定を選び、\[**OK**\] をクリックします。
-
-6.  これでユーザーが Lync で連絡先として表示されるようになります。ユーザーを選択し、ユーザー名を右クリックし、\[**連絡先カードの表示**\] をクリックしてユーザーのプロパティを表示します。以下に示すように、\[**通話**\]、\[**Lync 通話**\] の順にクリックして新たに追加された Skype ユーザーとの音声またはビデオ通話を確立することができます。
-    
-    ![Lync クライアント、連絡先との Lync 通話の開始](images/Dn440175.cd7cb21a-87f7-4bfa-b30c-980d4098d226(OCS.15).jpg "Lync クライアント、連絡先との Lync 通話の開始")
-
-連絡先のサポートの詳細については、「[Lync で連絡先を追加する](http://office.microsoft.com/ja-jp/office365-lync-online-help/add-a-contact-in-lync-ha102828922.aspx)」と「[Lync で外部連絡先を追加する](http://office.microsoft.com/ja-jp/office365-lync-online-help/add-an-external-contact-in-lync-ha104038998.aspx?ctt=5%26origin=ha102828922)」を参照してください。
-
-Skype ユーザーの Microsoft アカウントで <strong>bob@contoso.com</strong> などのカスタム ドメイン名が使用されている場合、Lync ユーザーがその Microsoft アカウントを Lync に追加するには、次の 2 つの方法があります。
-
-1.  \[**連絡先の追加**\] アイコンの使用、または
-
-2.  " **ユーザーまたはルームを検索するか、電話番号を入力します**" フィールドの使用
-
-いずれの場合も、Lync ユーザーは Skype ユーザーのメールを <strong>ユーザー(ドメイン名)@msn.com</strong> の形式で入力する必要があります。
-
-
-> [!IMPORTANT]
-> <STRONG>@live.com、@hotmail.com、@outlook.com</STRONG> というドメイン名を使用する Microsoft アカウントの場合、この手順は不要です。サポートされるカスタム ドメイン名の詳細については、「<A href="http://support.microsoft.com/kb/897567">サポートされているパブリック IM ドメイン</A>」を参照してください。
-
-
-
-**カスタム ドメイン名を使用している場合に Skype の連絡先を Lync に追加するには**
-
-1.  Lync で \[**連絡先の追加\]、\[外部の連絡先の追加**\] をクリックします。
-
-2.  使用可能な連絡先プロバイダーのリストから、以下のように \[**Skype**\] を選びます。
-    
-    ![Lync クライアント、Skype 連絡先の追加方法](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Lync クライアント、Skype 連絡先の追加方法")
-
-3.  " **IM アドレス**" フィールドに、Skype ユーザーの Microsoft アカウント (MSA) を<strong>ユーザー(ドメイン名)@msn.com</strong> の形式で入力します。たとえば bob@contoso.com というユーザーの場合、エントリは以下のように <strong>bob(contoso.com)@msn.com</strong> となります。
-    
-    ![Lync クライアント、新しい連絡先の設定](images/Dn440175.422e69b5-2c0c-4260-858f-f10309af772f(OCS.15).jpg "Lync クライアント、新しい連絡先の設定")
-
-4.  \[**連絡先グループに追加**\] ドロップダウン リスト ボックスでユーザーを追加する連絡先グループを選びます。
-
-5.  \[**プライバシー関係の設定**\] ドロップダウン リスト ボックスで適切な連絡先設定を選び、\[**OK**\] をクリックします。
-
-6.  Lync ユーザーは、Lync の " **Find someone or a room, or a dial a number (人やルームの検索、または番号のダイヤル)**" フィールドを使用して、次の<strong>ユーザー(ドメイン名)@msn.com</strong> のようなアドレスを追加することもできます。たとえば Microsoft アカウントが bob@contoso.com の場合、エントリは以下のように <strong>bob(contoso.com)@msn.com</strong> となります。
-    
-    ![Lync クライアントで連絡先を検索する](images/Dn440175.69787db8-f9b9-49e5-b197-b90b10393301(OCS.15).jpg "Lync クライアントで連絡先を検索する")
-
-7.  この手順で前述した手順 4. と 5. に従って連絡先グループに連絡先を追加し、適切なプライバシー関係を選びます。
-
-**Lync の連絡先を Skype に追加するには**
-
-1.  Skype にサインインします。Skype ユーザーは、Microsoft アカウント (MSA) で Skype クライアントにログインする必要があります。
-    
-    ![Skype クライアント、サインイン ページ](images/Dn440175.b4fd7c5a-be35-4205-80c7-872863b7a91d(OCS.15).jpg "Skype クライアント、サインイン ページ")
-
-2.  \[連絡先の追加\] アイコンを選びます。
-
-3.  Lync で使用する SIP URI (bob@contoso.com など) を選びます。
-
-4.  Skype の検索結果で一致する内容が見つかったら、Lync ユーザー名の下の **Lync** という単語を探します。これは、Skype で Lync クライアントの SIP URI が見つかったことを示します。その名前をクリックします。
-    
-    ![Skype クライアント、Lync 連絡先の表示](images/Dn440175.4e690a72-1a54-4442-89cf-0fb45ac5f56a(OCS.15).jpg "Skype クライアント、Lync 連絡先の表示")
-
-5.  ウィンドウの右上の \[連絡先の追加\] をクリックします。
-
-6.  新しい連絡先が連絡先リストに追加されますが、リクエストが承諾されるまでは、ステータス アイコンの代わりに疑問符が表示されます。新しい連絡先によってリクエストが承諾されると、その連絡先がオンラインになり、IM 会話や音声/ビデオ通話を行うことができます。
-    
-    ![Skype クライアント、Lync 連絡先との IM 会話](images/Dn440175.86ca6f81-4db9-45ba-8511-1f7541aaf066(OCS.15).jpg "Skype クライアント、Lync 連絡先との IM 会話")
+    <div>
     
 
-    > [!IMPORTANT]
-    > Lync Server の管理者は、着信要求が許可されるように、Lync ユーザーのポリシー設定を構成する必要があります。この設定を行わないと、Lync ユーザーが Skype ユーザーからの連絡先要求を受信できません。Lync ユーザーのポリシー設定の構成によっては、Skype ユーザーの追加要求が Lync クライアントの [<STRONG>新規</STRONG>] タブに表示されます。Lync ユーザーが Skype ユーザーとの通信を開始するには、Skype ユーザーをお気に入りリストか連絡先リストに追加する必要があります。以下の画像は、Lync クライアントの [<STRONG>新規</STRONG>] タブの場所を示しています。
+    > [!IMPORTANT]  
+    > <span data-ttu-id="406eb-159">Lync Server 管理者は、受信要求を許可するように Lync ユーザーのポリシー設定を構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="406eb-159">The Lync Server administrator must configure the Lync user’s policy settings to allow incoming requests.</span></span> <span data-ttu-id="406eb-160">サポートされていない場合、Lync ユーザーは Skype ユーザーからのコンタクト要求を受信しません。</span><span class="sxs-lookup"><span data-stu-id="406eb-160">If not, the Lync user will not receive contact requests from the Skype user.</span></span> <span data-ttu-id="406eb-161">Lync ユーザーのポリシー設定の構成に応じて、Lync クライアントの [<STRONG>新規</STRONG>] タブに Skype ユーザーの追加要求が表示されます。Skype ユーザーとの通信を開始するには、Lync ユーザーが [お気に入り] の一覧または連絡先リストに Skype ユーザーを追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="406eb-161">Depending on the configuration of the Lync user’s policy settings, the request to add the Skype user will appear on the Lync client’s <STRONG>New</STRONG> tab. To begin communicating with the Skype user, the Lync user must add the Skype user to either the Favorites list or a contact list.</span></span> <span data-ttu-id="406eb-162">次の図は、Lync クライアントでの<STRONG>新しい</STRONG>タブの場所を示しています。</span><span class="sxs-lookup"><span data-stu-id="406eb-162">The image below shows the location of the <STRONG>New</STRONG> tab in the Lync client.</span></span>
 
     
-    ![Lync クライアント、新しい連絡先ページ](images/Dn440175.b1cf8570-1401-47d9-ab14-b04f0d7e8a7a(OCS.15).jpg "Lync クライアント、新しい連絡先ページ")
+    </div>
 
-Lync ユーザーは、Skype ユーザーから送信される要求が表示されてわかるように、Lync 警告を構成する必要があります。Lync 警告を構成するには、次の手順を完了します。
+<span data-ttu-id="406eb-163">Lync ユーザーは、Skype ユーザーから送信された要求が表示され、Lync ユーザーが見つけられるようにするために、Lync 通知を設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="406eb-163">A Lync user must configure Lync alerts to ensure that requests sent from a Skype user appear and are discoverable by the Lync user.</span></span> <span data-ttu-id="406eb-164">Lync の通知を構成するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="406eb-164">To configure Lync alerts, complete the procedure that follows.</span></span>
 
-**Lync 警告を構成するには**
+<span data-ttu-id="406eb-165">**Lync 通知を構成するには**</span><span class="sxs-lookup"><span data-stu-id="406eb-165">**To configure Lync Alerts**</span></span>
 
-1.  Lync クライアントで \[**オプション**\] アイコンをクリックします。
+1.  <span data-ttu-id="406eb-166">Lync クライアントで、[**オプション**] アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="406eb-166">From the Lync client, click the **Options** icon.</span></span>
 
-2.  \[**警告**\] を選びます。
+2.  <span data-ttu-id="406eb-167">[**通知**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="406eb-167">Select **Alerts**.</span></span>
 
-3.  \[**全般的な通知**\] の \[**他のユーザーの連絡先リストに追加された場合に通知する**\] をオンにします。
+3.  <span data-ttu-id="406eb-168">[**一般通知**] で、[**だれかの連絡先リストに追加された場合**に通知する] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="406eb-168">Under **General alerts**, check **Tell me when someone adds me to his or her contact list**.</span></span>
 
-4.  \[**Lync を使っていない連絡先**\] で \[**招待は許可するが、その他のすべての通信をブロックする**\] を選びます。
+4.  <span data-ttu-id="406eb-169">[ **Lync を使っていない連絡先**] で [**招待を許可するが、その他のすべての通信をブロックする**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="406eb-169">Under **Contacts not using Lync**, select **Allow invites but block all other communications**.</span></span>
 
-5.  \[**OK**\] をクリックして \[オプション\] ウィンドウを閉じます。
+5.  <span data-ttu-id="406eb-170">[ **OK** ] をクリックして [オプション] ウィンドウを閉じます。</span><span class="sxs-lookup"><span data-stu-id="406eb-170">Click **OK** to close the Options window.</span></span>
 
-![Lync クライアント、\[オプション\] ダイアログ ボックス、\[通知\] ページ](images/Dn440175.b36ed67f-f394-4f66-b60a-b74793001bfc(OCS.15).jpg "Lync クライアント、[オプション] ダイアログ ボックス、[通知] ページ")
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

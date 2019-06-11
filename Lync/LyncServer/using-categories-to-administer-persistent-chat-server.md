@@ -1,59 +1,105 @@
-﻿---
-title: カテゴリを使用して常設チャット サーバーを管理する
-TOCTitle: カテゴリを使用して常設チャット サーバーを管理する
-ms:assetid: dfcb3ad1-da90-467e-b08c-f4e68673b7b5
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398988(v=OCS.15)
-ms:contentKeyID: 48273879
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: カテゴリを使用して常設チャット サーバーを管理する
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Using categories to administer Persistent Chat Server
+ms:assetid: dfcb3ad1-da90-467e-b08c-f4e68673b7b5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398988(v=OCS.15)
+ms:contentKeyID: 48185628
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fed28ecc7c2698f4b320729c68de9c5d56b435b2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847934"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# カテゴリを使用して常設チャット サーバーを管理する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-10-01_
+# <a name="using-categories-to-administer-persistent-chat-server"></a><span data-ttu-id="dede8-102">カテゴリを使用して常設チャット サーバーを管理する</span><span class="sxs-lookup"><span data-stu-id="dede8-102">Using categories to administer Persistent Chat Server</span></span>
 
-常設チャット サーバー の展開では、複数の 常設チャット ルームを同時にホストできます。チャット ルームは、サーバーで一連のカテゴリに編成できます。各チャット ルームは 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。この編成によって、業務目的に基づいて会話を識別するのに便利な構造が作成され、管理の委任および管理の簡単化が容易に行われます。
+</div>
 
-> [!NOTE]
-> ユーザー用の 常設チャット ( Lync クライアント) を実行しているコンピューターでは、チャット ルームを管理するための多くの機能を使用できますが、カテゴリを作成または管理するには、 常設チャットの管理者 ( <strong>cspersistentchatadministrator</strong> ロールの) は Lync Server コントロール パネルまたは Windows PowerShell コマンドレットを使用する必要があります。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="dede8-103">_**最終更新日:** 2013-10-01_</span><span class="sxs-lookup"><span data-stu-id="dede8-103">_**Topic Last Modified:** 2013-10-01_</span></span>
+
+<span data-ttu-id="dede8-104">常設チャットサーバーの展開では、多数の同時常設チャットルームをホストできます。</span><span class="sxs-lookup"><span data-stu-id="dede8-104">Your Persistent Chat Server deployment can host many concurrent Persistent Chat rooms.</span></span> <span data-ttu-id="dede8-105">チャット ルームは、サーバーで一連のカテゴリに編成できます。</span><span class="sxs-lookup"><span data-stu-id="dede8-105">Chat rooms can be organized into a set of categories on the server.</span></span> <span data-ttu-id="dede8-106">各チャット ルームは 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。</span><span class="sxs-lookup"><span data-stu-id="dede8-106">Each chat room belongs to one category, and inherits some settings from that category.</span></span> <span data-ttu-id="dede8-107">この編成によって、業務目的に基づいて会話を識別するのに便利な構造が作成され、管理の委任および管理の簡素化が容易になります。</span><span class="sxs-lookup"><span data-stu-id="dede8-107">This organization creates a useful structure for identifying conversations, based on their business purpose, and facilitates delegated administration and simplified management.</span></span>
+
+<div>
 
 
-常設チャットの管理者は、 Lync Server コントロール パネルまたは Windows PowerShell コマンドレットを使用して、カテゴリを作成および管理したり、組織内のユーザーのためにチャット ルームへのアクセスを設計したりします。
-
-常設チャット ルームのマネージャー (1 つ以上のチャット ルームを管理できる能力を持つ) は、 Lync クライアントを使用して、ルーム管理 Web アプリケーションを起動し、チャット ルームを作成および管理することができます (または、顧客がカスタム ソリューションとワークフローを作成して呼び出すことができます)。また、 常設チャットの管理者は、 Lync Server コントロール パネルまたは Windows PowerShell コマンドレットを使用して、チャット ルームを作成および管理できます。
-
-> [!NOTE]
-> 常設チャット ルームに常設チャット カテゴリと同じ名前を付けることはできません。
+> [!NOTE]  
+> <span data-ttu-id="dede8-108">チャットルームの管理機能の多くは、ユーザーに対して常設チャット (Lync client) を実行しているコンピューターで利用できますが、常設チャット管理者 ( <STRONG>cspersistentchatadministrator</STRONG>の役割) では、Lync Server コントロールパネルを使用する必要があります。カテゴリを作成または管理するための Windows PowerShell コマンドレット。</span><span class="sxs-lookup"><span data-stu-id="dede8-108">Although many of the management features of chat rooms are available in computers running Persistent Chat (Lync client) for the user, Persistent Chat Administrators (in the <STRONG>cspersistentchatadministrator</STRONG> role) must use the Lync Server Control Panel or Windows PowerShell cmdlets to create or manage categories.</span></span>
 
 
-チャット ルームのマネージャーは、チャット ルームのカテゴリ変更を除いて、チャット ルームのすべてのプロパティに変更を加えることができます。チャット ルームのマネージャーが行う以下の操作は制限できません。
 
-  - チャット ルームを無効にする
+</div>
 
-  - チャット ルームの名前を変更する
+<span data-ttu-id="dede8-109">常設チャット管理者は、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使ってカテゴリを作成および管理し、組織内のユーザーのチャットルームへのアクセスを設計します。</span><span class="sxs-lookup"><span data-stu-id="dede8-109">Persistent Chat administrators use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage categories, and to design access for chat rooms for the users in their organization.</span></span>
 
-  - チャット ルームの説明を変更する
+<span data-ttu-id="dede8-110">チャットルーム管理者は、1人または複数のチャットルームを管理する機能を備えています。 Lync クライアントを使用して、会議室の作成と管理を行うことができます (または、ユーザーがカスタムソリューションとワークフローを作成して呼び出すことができます)。</span><span class="sxs-lookup"><span data-stu-id="dede8-110">Persistent Chat room managers, who have the ability to manage one or more chat rooms, can use the Lync client to launch a room management Web application to create and manage rooms (or customers can create custom solutions and workflows to be invoked).</span></span> <span data-ttu-id="dede8-111">常設チャット管理者は、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使って、会議室の作成と管理を行うこともできます。</span><span class="sxs-lookup"><span data-stu-id="dede8-111">Persistent Chat administrators can also use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage rooms.</span></span>
 
-  - チャット ルームの種類 (大会議室と標準) を変更する
+<div>
 
-  - チャット ルームのプライバシーを変更する (開く、閉じる、非公開にする)
 
-  - メンバーを追加または削除する
+> [!NOTE]  
+> <span data-ttu-id="dede8-112">常設チャットルームには、常設チャットカテゴリと同じ名前を付けることはできません。</span><span class="sxs-lookup"><span data-stu-id="dede8-112">A Persistent Chat room cannot have the same name as a Persistent Chat category.</span></span>
 
-  - チャット ルーム マネージャーを追加または削除する
 
-  - アドインを追加または削除する
 
-  - 招待状などの設定を変更する (カテゴリで許可されている設定に応じて)
+</div>
 
-## 委任管理
+<span data-ttu-id="dede8-p103">チャット ルームのマネージャーは、チャット ルームのカテゴリ変更を除いて、チャット ルームのすべてのプロパティに変更を加えることができます。チャット ルームのマネージャーが行う以下の操作は制限できません。</span><span class="sxs-lookup"><span data-stu-id="dede8-p103">Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:</span></span>
 
-カテゴリを適切に使用することで、 常設チャット ルームの作成および管理が簡単になります。 常設チャットの管理者は、カテゴリごとに **AllowedMembers** および **Creators** を定義でき、カテゴリ内に作成されるすべてのチャット ルームに適用される既定のチャット ルーム設定および動作も定義できます。 常設チャットの管理者は、 Lync Server コントロール パネルまたは Windows PowerShell コマンドレットを使用して、カテゴリを作成および管理できます。
+  - <span data-ttu-id="dede8-115">チャット ルームを無効にする</span><span class="sxs-lookup"><span data-stu-id="dede8-115">Disabling a chat room</span></span>
 
-カテゴリの Creators として特定されるユーザー、組織単位 (OU)、ユーザー グループは、そのカテゴリのチャット ルームの作成を許可されている個人およびグループです。カテゴリを作成した後、これらの個人およびグループは、 **AllowedMembers** リストからユーザー、OU、ユーザー グループをチャット ルームの管理と参加が可能なマネージャーおよびメンバーとして選択できます。
+  - <span data-ttu-id="dede8-116">チャット ルームの名前を変更する</span><span class="sxs-lookup"><span data-stu-id="dede8-116">Changing a chat room name</span></span>
 
-カテゴリ内で作成されたチャット ルームは、カテゴリに適用されるポリシーと設定 (チャット ルームのメンバーシップに含まれるユーザー、チャット ルームを管理できるユーザー、ファイルのアップロードが許可されるかどうか、招待状を送信するかどうかなど) に従います。
+  - <span data-ttu-id="dede8-117">チャット ルームの説明を変更する</span><span class="sxs-lookup"><span data-stu-id="dede8-117">Changing a chat room description</span></span>
+
+  - <span data-ttu-id="dede8-118">チャット ルームの種類 (大会議室と標準) を変更する</span><span class="sxs-lookup"><span data-stu-id="dede8-118">Changing a chat room type (Auditorium versus Normal)</span></span>
+
+  - <span data-ttu-id="dede8-119">チャット ルームのプライバシーを変更する (開く、閉じる、非公開にする)</span><span class="sxs-lookup"><span data-stu-id="dede8-119">Changing the privacy of a room (open versus closed versus secret)</span></span>
+
+  - <span data-ttu-id="dede8-120">メンバーを追加または削除する</span><span class="sxs-lookup"><span data-stu-id="dede8-120">Adding or removing members</span></span>
+
+  - <span data-ttu-id="dede8-121">チャット ルーム マネージャーを追加または削除する</span><span class="sxs-lookup"><span data-stu-id="dede8-121">Adding or removing chat room managers</span></span>
+
+  - <span data-ttu-id="dede8-122">アドインを追加または削除する</span><span class="sxs-lookup"><span data-stu-id="dede8-122">Adding or removing an add-in</span></span>
+
+  - <span data-ttu-id="dede8-123">招待状などの設定を変更する (カテゴリで許可されている設定に応じて)</span><span class="sxs-lookup"><span data-stu-id="dede8-123">Changing settings such as invitations (according to what’s permitted by the category)</span></span>
+
+<div>
+
+## <a name="delegated-administration"></a><span data-ttu-id="dede8-124">代理管理</span><span class="sxs-lookup"><span data-stu-id="dede8-124">Delegated Administration</span></span>
+
+<span data-ttu-id="dede8-125">永続的なチャットルームの作成と管理は、カテゴリを適切に使用することで非常に簡単になります。</span><span class="sxs-lookup"><span data-stu-id="dede8-125">Creating and managing Persistent Chat rooms is much easier with the correct use of categories.</span></span> <span data-ttu-id="dede8-126">常設チャット管理者は、各カテゴリの**Allowedmembers**と**クリエーター**を定義できます。また、カテゴリで作成されたすべてのチャットルームに適用される既定のチャットルームの設定と動作も定義できます。</span><span class="sxs-lookup"><span data-stu-id="dede8-126">A Persistent Chat Administrator can define **AllowedMembers** and **Creators** for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category.</span></span> <span data-ttu-id="dede8-127">常設チャット管理者は、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使用して、カテゴリの作成と管理を行います。</span><span class="sxs-lookup"><span data-stu-id="dede8-127">Persistent Chat administrators create and manage categories by using Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
+
+<span data-ttu-id="dede8-p105">カテゴリの Creators として特定されるユーザー、組織単位 (OU)、ユーザー グループは、そのカテゴリのチャット ルームの作成を許可されている個人およびグループです。カテゴリを作成した後、これらの個人およびグループは、**AllowedMembers** リストからユーザー、OU、ユーザー グループをチャット ルームの管理と参加が可能なマネージャーおよびメンバーとして選択できます。</span><span class="sxs-lookup"><span data-stu-id="dede8-p105">Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.</span></span>
+
+<span data-ttu-id="dede8-130">カテゴリで作成されたチャットルームは、カテゴリによって適用されるポリシーと設定 (ルームのメンバーシップに含まれるユーザー、ルームを管理できるユーザー、ファイルのアップロードが許可されているかどうか、招待を送信するかどうかなど) に従っています。</span><span class="sxs-lookup"><span data-stu-id="dede8-130">Chat rooms that are created in a category adhere to the policies and settings enforced by the category (such as who can be in the room’s membership, who can manage the room, whether file uploads are allowed, whether invitations are sent, and so on).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

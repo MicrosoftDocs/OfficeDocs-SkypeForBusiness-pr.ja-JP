@@ -1,39 +1,77 @@
-﻿---
-title: 簡易 URL の詳細の表示
-TOCTitle: 簡易 URL の詳細の表示
-ms:assetid: 6ab00f2c-e1d5-4698-a58f-04b72260f9ac
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg521010(v=OCS.15)
-ms:contentKeyID: 48272406
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 単純な URL の詳細を表示する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View simple URL details
+ms:assetid: 6ab00f2c-e1d5-4698-a58f-04b72260f9ac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521010(v=OCS.15)
+ms:contentKeyID: 48184399
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9b9c351ef8d9913ea96cea3412db4ba6159cedb9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848195"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 簡易 URL の詳細の表示
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-11_
+# <a name="view-simple-url-details-in-lync-server-2013"></a><span data-ttu-id="e597b-102">Lync Server 2013 での簡単な URL の詳細の表示</span><span class="sxs-lookup"><span data-stu-id="e597b-102">View simple URL details in Lync Server 2013</span></span>
 
-Lync Server 2013 コントロール パネルを使用して、Lync Server 2013 環境の簡易 URL の詳細を表示できます。簡易 URL を使用すると、ユーザーは会議への参加が容易になり、管理者は管理ツールへのアクセスが容易になります。詳細については、「[Lync Server 2013 での簡単な URL の計画](lync-server-2013-planning-for-simple-urls.md)」を参照してください。
+</div>
 
-## 簡易 URL の詳細を表示するには
+<div id="mainSection">
 
-1.  CsServerAdministrator、CsAdministrator、CsHelpDesk、または CsViewOnlyAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。Lync Server 2013 で使用できる定義済みの管理者の役割の詳細については、「[Lync Server 2013 での役割ベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。
+<div id="mainBody">
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+<span> </span>
 
-3.  左側のナビゲーション バーで \[**トポロジ**\] をクリックし、\[**簡易 URL**\] をクリックします。
+<span data-ttu-id="e597b-103">_**最終更新日:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="e597b-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-4.  \[**簡易 URL**\] ページの列見出しをクリックし、必要に応じて一覧を並べ替えます。
+<span data-ttu-id="e597b-104">Lync Server 2013 コントロールパネルを使用して、Lync Server 2013 環境の簡単な URL の詳細を表示することができます。</span><span class="sxs-lookup"><span data-stu-id="e597b-104">You can use Lync Server 2013 Control Panel to view simple URL details for your Lync Server 2013 environment.</span></span> <span data-ttu-id="e597b-105">単純な Url を使用すると、ユーザーは簡単に会議に参加できるだけでなく、管理者は簡単に管理ツールを利用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="e597b-105">Simple URLs make it easier for users to join meetings, and they make it easier for administrators to get to administrative tools.</span></span> <span data-ttu-id="e597b-106">詳細については、「 [Lync Server 2013 での単純な url の計画](lync-server-2013-planning-for-simple-urls.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e597b-106">For details, see [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).</span></span>
 
-5.  簡易 URL の詳細を表示する名前を選択し、\[**プロパティ**\] をクリックします。
+<div>
 
-6.  詳細を見終わったら \[**閉じる**\] をクリックします。
+## <a name="to-view-simple-url-details"></a><span data-ttu-id="e597b-107">簡単な URL の詳細を表示するには</span><span class="sxs-lookup"><span data-stu-id="e597b-107">To view Simple URL details</span></span>
 
-## 関連項目
+1.  <span data-ttu-id="e597b-108">CsServerAdministrator、CsAdministrator、CsHelpDesk、CsViewOnlyAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="e597b-108">From a user account that is assigned to the CsServerAdministrator, CsAdministrator, CsHelpDesk, or CsViewOnlyAdministrator role, log on to any computer in your internal deployment.</span></span> <span data-ttu-id="e597b-109">Lync Server 2013 で利用できる定義済みの管理者ロールの詳細については、「 [Lync server 2013 でのロールベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e597b-109">For details about the predefined administrative roles available in Lync Server 2013, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span></span>
 
-#### その他のリソース
+2.  <span data-ttu-id="e597b-110">ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="e597b-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e597b-111">Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="e597b-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-[Lync Server 2013 トポロジの管理](lync-server-2013-managing-the-lync-server-topology.md)
+3.  <span data-ttu-id="e597b-112">左側のナビゲーションバーで、[**トポロジ**] をクリックし、[ **Simple URL**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e597b-112">In the left navigation bar, click **Topology** and then click **Simple URL**.</span></span>
+
+4.  <span data-ttu-id="e597b-113">[ **SIMPLE URL** ] ページで、必要に応じて、列見出しをクリックしてリストを並べ替えます。</span><span class="sxs-lookup"><span data-stu-id="e597b-113">On the **Simple URL** page, click a column heading to sort the list, if needed.</span></span>
+
+5.  <span data-ttu-id="e597b-114">簡単な URL の詳細を表示する名前を選択し、[**プロパティ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e597b-114">Select the name for which you want to see simple URL details, and then click **Properties**.</span></span>
+
+6.  <span data-ttu-id="e597b-115">詳細の表示が完了したら、[**閉じる**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e597b-115">When you are finished viewing details, click **Close**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="e597b-116">関連項目</span><span class="sxs-lookup"><span data-stu-id="e597b-116">See Also</span></span>
+
+
+[<span data-ttu-id="e597b-117">Lync Server 2013 トポロジの管理</span><span class="sxs-lookup"><span data-stu-id="e597b-117">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

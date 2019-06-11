@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPreference'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPreference
 ms:assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615052(v=OCS.15)
-ms:contentKeyID: 48274113
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615052(v=OCS.15)
+ms:contentKeyID: 48185913
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 652312c5ca48a140ee7f17486ef98debb4e08672
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848604"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の tblPreference
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblpreference-in-lync-server-2013"></a><span data-ttu-id="14208-102">Lync Server 2013 の tblPreference</span><span class="sxs-lookup"><span data-stu-id="14208-102">tblPreference in Lync Server 2013</span></span>
 
-tblPreference には、ユーザーのクライアントの設定が格納されています。これは一般に、 Lync 2013 より前のクライアントによって使用されます。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="14208-103">_**最終更新日:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="14208-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+
+<span data-ttu-id="14208-104">tblPreference には、ユーザーのクライアントの設定が含まれます。</span><span class="sxs-lookup"><span data-stu-id="14208-104">tblPreference contains the users’ client preferences.</span></span> <span data-ttu-id="14208-105">通常、これは Lync 2013 より前のクライアントで使用されます。</span><span class="sxs-lookup"><span data-stu-id="14208-105">This is generally used by clients previous to Lync 2013.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="14208-106">行</span><span class="sxs-lookup"><span data-stu-id="14208-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,37 +47,37 @@ tblPreference には、ユーザーのクライアントの設定が格納され
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
-<th>型</th>
-<th>説明</th>
+<th><span data-ttu-id="14208-107">列</span><span class="sxs-lookup"><span data-stu-id="14208-107">Column</span></span></th>
+<th><span data-ttu-id="14208-108">型</span><span class="sxs-lookup"><span data-stu-id="14208-108">Type</span></span></th>
+<th><span data-ttu-id="14208-109">説明</span><span class="sxs-lookup"><span data-stu-id="14208-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prefLabel</p></td>
-<td><p>NULL でない nvarchar (255)</p></td>
-<td><p>&lt;user sip uri&gt;|username.&lt;preference set&gt; などの形式のラベル。</p></td>
+<td><p><span data-ttu-id="14208-110">prefLabel</span><span class="sxs-lookup"><span data-stu-id="14208-110">prefLabel</span></span></p></td>
+<td><p><span data-ttu-id="14208-111">nvarchar (255)、null ではない</span><span class="sxs-lookup"><span data-stu-id="14208-111">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="14208-112">"ユーザー sip uri &lt;&gt;| ユーザー名" のような形式のラベル。&lt;設定&gt;。</span><span class="sxs-lookup"><span data-stu-id="14208-112">Label with a format such as: &lt;user sip uri&gt;|username.&lt;preference set&gt;.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prefSeqID</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>バージョン付けのための連続した番号 (ラベルごと)。</p></td>
+<td><p><span data-ttu-id="14208-113">prefSeqID</span><span class="sxs-lookup"><span data-stu-id="14208-113">prefSeqID</span></span></p></td>
+<td><p><span data-ttu-id="14208-114">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="14208-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="14208-115">バージョン管理のための連続番号 (ラベルあたり)。</span><span class="sxs-lookup"><span data-stu-id="14208-115">A sequential number (per label) for versioning purposes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>prefContent</p></td>
-<td><p>nvarchar (max)</p></td>
-<td><p>エンコードされたコンテンツ。</p></td>
+<td><p><span data-ttu-id="14208-116">prefContent</span><span class="sxs-lookup"><span data-stu-id="14208-116">prefContent</span></span></p></td>
+<td><p><span data-ttu-id="14208-117">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="14208-117">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="14208-118">エンコードされたコンテンツ。</span><span class="sxs-lookup"><span data-stu-id="14208-118">Encoded content.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>lastModifiedBy</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>この設定を更新したプリンシパルの ID。</p></td>
+<td><p><span data-ttu-id="14208-119">最終方法</span><span class="sxs-lookup"><span data-stu-id="14208-119">lastModifiedBy</span></span></p></td>
+<td><p><span data-ttu-id="14208-120">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="14208-120">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="14208-121">設定を更新したプリンシパルの ID です。</span><span class="sxs-lookup"><span data-stu-id="14208-121">ID of the principal that updated the preference.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="key"></a><span data-ttu-id="14208-122">キー</span><span class="sxs-lookup"><span data-stu-id="14208-122">Key</span></span>
 
 <table>
 <colgroup>
@@ -66,15 +86,26 @@ tblPreference には、ユーザーのクライアントの設定が格納され
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
-<th>説明</th>
+<th><span data-ttu-id="14208-123">列</span><span class="sxs-lookup"><span data-stu-id="14208-123">Column</span></span></th>
+<th><span data-ttu-id="14208-124">説明</span><span class="sxs-lookup"><span data-stu-id="14208-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prefLabel, prefSeqID&gt;</p></td>
-<td><p>主キー。</p></td>
+<td><p><span data-ttu-id="14208-125">&lt;prefLabel, prefSeqID&gt;</span><span class="sxs-lookup"><span data-stu-id="14208-125">&lt;prefLabel, prefSeqID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="14208-126">主キー。</span><span class="sxs-lookup"><span data-stu-id="14208-126">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,55 +1,74 @@
-﻿---
-title: 代理トランザクションのリッチ ログの使用
-TOCTitle: 代理トランザクションのリッチ ログの使用
-ms:assetid: 32714a71-9f42-4d5b-a508-e176d8f08bbf
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204798(v=OCS.15)
-ms:contentKeyID: 48271683
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 代理トランザクションでのリッチログの使用'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using rich logging for synthetic transactions
+ms:assetid: 32714a71-9f42-4d5b-a508-e176d8f08bbf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204798(v=OCS.15)
+ms:contentKeyID: 48183812
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 455d7bcdc14dd4d701d749407759cead0834906f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848278"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 代理トランザクションのリッチ ログの使用
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-22_
+# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a><span data-ttu-id="db0d8-102">Lync Server 2013 での代理トランザクションに対するリッチログの使用</span><span class="sxs-lookup"><span data-stu-id="db0d8-102">Using rich logging for synthetic transactions in Lync Server 2013</span></span>
 
-Microsoft Lync Server 2010 で導入された代理トランザクションにより、管理者は、システムへのログオン、インスタント メッセージの交換、公衆交換電話網 (PSTN) 上の電話への発信などの一般的なタスクをユーザーが正常に実行できることを検証するものです。これらのテストは、一連の Lync ServerWindows PowerShell コマンドレットとしてパッケージ化されており、管理者が手動で実行することも、System Center Operations Manager などのアプリケーションから自動で実行することもできます。
+</div>
 
-Lync Server 2010 で、代理トランザクションは、管理者がシステムの問題を識別する際に非常に役立っていました。たとえば、**Test-CsRegistration** コマンドレットは、一部のユーザーの Lync Server への登録がうまくいっていないことを管理者に通知できました。しかし、代理トランザクションは、管理者が、これらのユーザーの Lync Server への登録で問題が発生していた原因を判定することにはあまり役立ちませんでした。これは、代理トランザクションでは、管理者が Lync Server での問題をトラブルシューティングできる詳細なログ記録情報が提供されなかったことによります。せいぜい、代理トランザクションからの詳細出力では、問題がどこで発生したかを管理者が推測できる、ステップごとの情報を示すだけでした。
+<div id="mainSection">
 
-Microsoft Lync Server 2013では、代理トランザクションは、高機能なログ記録を実現するよう再設計されました。"高機能なログ記録" とは、代理トランザクションが行う各アクティビティについて、以下のような情報が記録されるということです。
+<div id="mainBody">
 
-  - アクティビティが開始した時間
+<span> </span>
 
-  - アクティビティが終了した時間
+<span data-ttu-id="db0d8-103">_**最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="db0d8-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-  - 実行されたアクション (たとえば、電話会議の作成、参加、または終了、Lync Server へのサインオン、インスタント メッセージの送信など)
+<span data-ttu-id="db0d8-104">代理トランザクション (Microsoft Lync Server 2010 で導入されました) では、管理者は、システムへのログオン、インスタントメッセージの交換、または特定の電話への通話の発信などの一般的なタスクを正常に完了できることを管理者が確認する方法を提供します。[公衆交換電話網 (PSTN)] を選びます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-104">Synthetic transactions (introduced in Microsoft Lync Server 2010) provide a way for administrators to verify that users are able to successfully complete common tasks such as logging on to the system, exchanging instant messages, or making calls to a phone located on the public switched telephone network (PSTN).</span></span> <span data-ttu-id="db0d8-105">これらのテスト (Lync Server Windows PowerShell コマンドレットのセットとしてパッケージ化されているもの) は、管理者によって手動で実行することも、System Center Operations Manager などのアプリケーションで自動的に実行することもできます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-105">These tests (which are packaged as a set of Lync Server Windows PowerShell cmdlets) can be conducted manually by an administrator, or they can be automatically run by an application such as System Center Operations Manager.</span></span>
 
-  - アクティビティが行われたとき生成された、情報提供メッセージ、詳細メッセージ、警告メッセージ、またはエラー メッセージ
+<span data-ttu-id="db0d8-106">Lync Server 2010 では、管理者がシステムの問題を特定するのに役立つように、代理トランザクションが非常に役立ちます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-106">In Lync Server 2010, synthetic transactions proved extremely useful in helping administrators to identify problems with the system.</span></span> <span data-ttu-id="db0d8-107">たとえば、 **CsRegistration**コマンドレットを使用すると、一部のユーザーが Lync Server への登録に障碍があることを管理者に通知することができます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-107">For example, the **Test-CsRegistration** cmdlet could alert administrators to the fact that some users were having difficulty registering with Lync Server.</span></span> <span data-ttu-id="db0d8-108">ただし、代理トランザクションは、管理者が Lync Server に登録できない理由を特定するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-108">However, the synthetic transactions were somewhat less useful in helping administrators determine why these users were having difficulty registering with Lync Server.</span></span> <span data-ttu-id="db0d8-109">これは、管理者が Lync Server の問題のトラブルシューティングを行うときに役立つ詳細なログ情報が、代理トランザクションによって提供されなかったことが原因です。</span><span class="sxs-lookup"><span data-stu-id="db0d8-109">This was due to the fact that the synthetic transactions did not provide detailed logging information that could help administrators troubleshoot problems with Lync Server.</span></span> <span data-ttu-id="db0d8-110">最善策として、合成トランザクションからの冗長な出力について説明しました。管理者は、問題が発生した可能性のある箇所についての知識を得ることができる場合があります。</span><span class="sxs-lookup"><span data-stu-id="db0d8-110">At best, the verbose output from a synthetic transaction provided step-by-step information that might enable an administrator to make an educated guess as to where a problem likely occurred.</span></span>
 
-  - SIP 登録メッセージ
+<span data-ttu-id="db0d8-111">Microsoft Lync Server 2013 では、リッチなログを提供するために、代理トランザクションが再設計されています。</span><span class="sxs-lookup"><span data-stu-id="db0d8-111">In Microsoft Lync Server 2013, synthetic transactions have been re-architected to provide rich logging.</span></span> <span data-ttu-id="db0d8-112">"リッチログ" とは、代理トランザクション請け負うの各アクティビティについて、次のような情報が記録されることを意味します。</span><span class="sxs-lookup"><span data-stu-id="db0d8-112">"Rich logging" means that, for each activity that a synthetic transaction undertakes, information such as this will be recorded:</span></span>
 
-  - アクティビティが行われたとき生成された例外レコードまたは診断コード
+  - <span data-ttu-id="db0d8-113">アクティビティが開始された時刻</span><span class="sxs-lookup"><span data-stu-id="db0d8-113">The time that the activity started</span></span>
 
-  - アクティビティを実行した全体的な結果
+  - <span data-ttu-id="db0d8-114">アクティビティが完了した時刻</span><span class="sxs-lookup"><span data-stu-id="db0d8-114">The time that the activity finished</span></span>
 
-代理トランザクションが実行されるたびに、この情報は自動的に生成されます。しかし、この情報は、自動的に表示されることや、ログ ファイルに保存されることはありません。この場合、手動で代理トランザクションを実行中の管理者は、OutLoggerVariable パラメーターを使用して、情報が保存された Windows PowerShell 変数を指定できます。次に、管理者は、ペアのメソッドを使用して、リッチ ログを XML または HTML 形式で、保存または表示できます。
+  - <span data-ttu-id="db0d8-115">実行されたアクション (たとえば、会議の作成、参加、退席、Lync サーバーへのサインイン、インスタントメッセージの送信など)</span><span class="sxs-lookup"><span data-stu-id="db0d8-115">The action that was performed (for example, creating, joining, or leaving a conference; signing on to Lync Server; sending an instant message; and so on)</span></span>
 
-たとえば、Lync Server 2010 管理者は、以下のようなコマンドを使用して **Test-CsRegistration** コマンドレットを実行できます。
+  - <span data-ttu-id="db0d8-116">アクティビティが行われたときに生成された、情報提供メッセージ、詳細メッセージ、警告メッセージ、またはエラー メッセージ</span><span class="sxs-lookup"><span data-stu-id="db0d8-116">Informational, verbose, warning, or error messages generated when the activity ran</span></span>
+
+  - <span data-ttu-id="db0d8-117">SIP 登録メッセージ</span><span class="sxs-lookup"><span data-stu-id="db0d8-117">SIP registration messages</span></span>
+
+  - <span data-ttu-id="db0d8-118">アクティビティの実行時に生成される例外レコードまたは診断コード</span><span class="sxs-lookup"><span data-stu-id="db0d8-118">Exception records or diagnostic codes generated when the activity ran</span></span>
+
+  - <span data-ttu-id="db0d8-119">アクティビティを実行した場合の最終的な結果</span><span class="sxs-lookup"><span data-stu-id="db0d8-119">The net result of running the activity</span></span>
+
+<span data-ttu-id="db0d8-120">この情報は、代理トランザクションが実行されるたびに自動的に生成されます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-120">This information is automatically generated each time a synthetic transaction is run.</span></span> <span data-ttu-id="db0d8-121">ただし、情報が自動的に表示されたり、ログファイルに保存されたりすることはありません。</span><span class="sxs-lookup"><span data-stu-id="db0d8-121">However, the information is not automatically displayed or saved to a log file.</span></span> <span data-ttu-id="db0d8-122">代わりに、代理トランザクションを手動で実行している管理者は、OutLoggerVariable パラメーターを使って、情報が格納される Windows PowerShell 変数を指定できます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-122">Instead, administrators who are manually running a synthetic transaction can use the OutLoggerVariable parameter to specify a Windows PowerShell variable in which the information will be stored.</span></span> <span data-ttu-id="db0d8-123">このような場合、管理者は、XML 形式または HTML 形式のリッチログの保存や表示を行うことができるようにする一連のメソッドを使うことができます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-123">From there, administrators can then use a pair of methods that enable them to save and/or view the rich log in either XML or HTML format.</span></span>
+
+<span data-ttu-id="db0d8-124">たとえば、Lync Server 2010 管理者は、次のようなコマンドを使用して、 **CsRegistration**コマンドレットを実行することができます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-124">For example, Lync Server 2010 administrators might run the **Test-CsRegistration** cmdlet by using a command similar to the following:</span></span>
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com
 
-管理者は、OutLoggerVariable パラメーターと、それに続く任意の変数名を含めることができます。
+<span data-ttu-id="db0d8-125">管理者には、OutLoggerVariable パラメーターと、その後に選択する変数名を含めるオプションがあります。</span><span class="sxs-lookup"><span data-stu-id="db0d8-125">Administrators have the option of including the OutLoggerVariable parameter followed by a variable name of their choosing:</span></span>
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
-> [!NOTE]
-> 変数名の前に $ 記号を付けないでください。$RegistrationTest ではなく、RegistrationTest のような変数名を使用します。
+> [!NOTE]  
+> <span data-ttu-id="db0d8-126">変数名の先頭に $ 文字を付けないでください。</span><span class="sxs-lookup"><span data-stu-id="db0d8-126">Do not preface the variable name with the $ character.</span></span> <span data-ttu-id="db0d8-127">RegistrationTest などの変数名を使用しますが、$RegistrationTest は使用しないでください。</span><span class="sxs-lookup"><span data-stu-id="db0d8-127">Use a variable name like RegistrationTest and not $RegistrationTest.</span></span>
 
-
-前記のコマンドは、以下のような内容を出力します。
+<span data-ttu-id="db0d8-128">上のコマンドを実行すると、次のような内容が出力されます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-128">The preceding command outputs content similar to the following:</span></span>
 
     Target Fqdn   : atl-cs-001.litwareinc.com
     Result        : Failure
@@ -57,20 +76,27 @@ Microsoft Lync Server 2013では、代理トランザクションは、高機能
     Error Message : This machine does not have any assigned certificates.
     Diagnosis     :
 
-実際には、この障害については、上記のエラー メッセージだけでなく、より詳細な情報を参照できます。この情報に HTML 形式でアクセスするには、以下のようなコマンドを使用して、変数 RegistrationTest に保存された情報を HTML ファイルに保存します。
+<span data-ttu-id="db0d8-129">ただし、このエラーには、上に示したエラーメッセージだけでなく、さらに詳細な情報が記載されています。</span><span class="sxs-lookup"><span data-stu-id="db0d8-129">However, much more detailed information is available for this failure than just the error message shown above.</span></span> <span data-ttu-id="db0d8-130">HTML 形式でその情報にアクセスするには、次のようなコマンドを使用して、変数 RegistrationTest に保存されている情報を HTML ファイルに保存します。</span><span class="sxs-lookup"><span data-stu-id="db0d8-130">To access that information in HTML format, use a command similar to this in order to save the information stored in the variable RegistrationTest to an HTML file:</span></span>
 
     $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 
-別の方法として、ToXML() メソッドを使用して、XML ファイルにデータを保存できます。
+<span data-ttu-id="db0d8-131">別の方法として、ToXML() メソッドを使用して、XML ファイルにデータを保存できます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-131">Alternatively, you can use the ToXML() method to save the data to an XML file:</span></span>
 
     $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
-これらのファイルは、Internet Explorer、Visual Studio、またはその他すべての HTML/XML ファイルを開けるアプリケーションで表示できます。
+<span data-ttu-id="db0d8-132">これらのファイルは、Internet Explorer、Visual Studio、または HTML/XML ファイルを開くことができるその他のアプリケーションを使って表示できます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-132">These files can then be viewed using Internet Explorer, Visual Studio, or any other application capable of opening HTML/XML files.</span></span>
 
-System Center Operations Manager の内側から実行された代理トランザクションは、障害が発生した場合、これらのログ ファイルを自動的に生成します。しかし、これらのログは、Windows PowerShell が読み込まれて、代理トランザクションを行う前に、実行が失敗した場合、生成されません。
+<span data-ttu-id="db0d8-133">System Center Operations Manager の内部で実行される代理トランザクションでは、エラーのログファイルが自動的に生成されます。</span><span class="sxs-lookup"><span data-stu-id="db0d8-133">Synthetic transactions run from inside of System Center Operations Manager will automatically generate these log files for failures.</span></span> <span data-ttu-id="db0d8-134">ただし、Windows PowerShell が代理トランザクションを読み込んで実行できない場合は、これらのログは生成されません。</span><span class="sxs-lookup"><span data-stu-id="db0d8-134">However, these logs will not be generated if the execution fails before Windows PowerShell is able to load and run the synthetic transaction.</span></span>
+
+> [!IMPORTANT]  
+> <span data-ttu-id="db0d8-135">既定では、Lync Server 2013 は共有されていないフォルダーにログファイルを保存します。</span><span class="sxs-lookup"><span data-stu-id="db0d8-135">By default, Lync Server 2013 saves log files to a folder that is not shared.</span></span> <span data-ttu-id="db0d8-136">これらのログにアクセスできるようにするには、このフォルダーを共有\\ \\する必要があります (例: litwareinc com\WatcherNode.</span><span class="sxs-lookup"><span data-stu-id="db0d8-136">To make these logs readily accessible, you should share this folder (for example, \\\\atl-watcher-001.litwareinc.com\WatcherNode.</span></span>
 
 
-> [!IMPORTANT]
-> 既定で、Lync Server 2013は、共有されていないフォルダーにログ ファイルを保存します。これらのログにすぐにアクセスできるように、このフォルダーを共有する必要があります (たとえば、\\\\atl-watcher-001.litwareinc.com\WatcherNode)。
+</div>
 
+</div>
+
+</div>
+
+</div>
 

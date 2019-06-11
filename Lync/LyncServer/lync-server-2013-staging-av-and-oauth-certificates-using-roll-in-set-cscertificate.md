@@ -1,129 +1,188 @@
-﻿---
-title: Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング
-TOCTitle: Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング
-ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ660292(v=OCS.15)
-ms:contentKeyID: 49886875
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 設定-CsCertificate での、AV および OAuth 証明書の使用
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
+ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ660292(v=OCS.15)
+ms:contentKeyID: 49354387
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4acdf759181dee3df872c7803ec595c63fb07016
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848697"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-13_
+# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a><span data-ttu-id="d930b-102">Lync Server 2013 での、AV および OAuth 証明書の使用-セットアップ-CsCertificate</span><span class="sxs-lookup"><span data-stu-id="d930b-102">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</span></span>
 
-音声ビデオ (A/V) 通信は Microsoft Lync Server 2013 の主要コンポーネントです。アプリケーション共有や音声ビデオ会議などの機能では、音声ビデオ エッジ サービス、特に音声ビデオ認証サービスに割り当てられる証明書を利用します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d930b-103">_**最終更新日:** 2012-11-13_</span><span class="sxs-lookup"><span data-stu-id="d930b-103">_**Topic Last Modified:** 2012-11-13_</span></span>
+
+<span data-ttu-id="d930b-104">音声/ビデオ (A/V) 通信は、Microsoft Lync Server 2013 の主要コンポーネントです。</span><span class="sxs-lookup"><span data-stu-id="d930b-104">Audio/Video (A/V) communications is a key component of Microsoft Lync Server 2013.</span></span> <span data-ttu-id="d930b-105">アプリケーション共有、音声会議、ビデオ会議などの機能は、A/v Edge サービスに割り当てられている証明書、特に A/V 認証サービスに依存しています。</span><span class="sxs-lookup"><span data-stu-id="d930b-105">Features such as application sharing and audio and video conferencing rely on the certificates assigned to the A/V Edge service, specifically the A/V Authentication service.</span></span>
+
+<div>
 
 
 > [!IMPORTANT]
 > <OL>
 > <LI>
-> <P>この新しい機能は、音声ビデオ エッジ サービスおよび OAuthTokenIssuer 証明書で動作するように作られています。他の証明書の種類を音声ビデオ エッジ サービスおよび OAuth 証明書の種類と共にプロビジョニングすることはできますが、音声ビデオ エッジ サービス証明書のように共存の動作による恩恵を受けることはできません。</P>
+> <P><span data-ttu-id="d930b-106">この新機能は、A/V Edge サービスと<EM>Oauthtokenissuer</EM>証明書で動作するように設計されています。</span><span class="sxs-lookup"><span data-stu-id="d930b-106">This new feature is designed to work for the A/V Edge service and the <EM>OAuthTokenIssuer</EM> certificate.</span></span> <span data-ttu-id="d930b-107">その他の種類の証明書は、A/V Edge サービスと OAuth 証明書の種類と共にプロビジョニングできますが、A/V Edge サービス証明書の共存動作の恩恵を受けることはできません。</span><span class="sxs-lookup"><span data-stu-id="d930b-107">Other certificate types can be provisioned along with the A/V Edge service and OAuth certificate type, but will not benefit from the coexistence behavior that the A/V Edge service certificate will.</span></span></P>
 > <LI>
-> <P>Microsoft Lync Server 2013 の証明書の管理に使用する Lync Server 管理シェルの PowerShell コマンドレットでは、音声ビデオ エッジ サービス証明書を AudioVideoAuthentication 証明書の種類、OAuthServer 証明書を OAuthTokenIssuer 証明書の種類として参照します。このトピックのこれ以降の説明では証明書を一意に識別するために、同じ識別子の種類を使用して AudioVideoAuthentication および OAuthTokenIssuer と呼びます。</P></LI></OL>
+> <P><span data-ttu-id="d930b-108">Microsoft Lync Server 2013 証明書を管理するために使用された Lync Server 管理シェル PowerShell コマンドレットは、 <EM>Audiovideoauthentication</EM>証明書の種類としての A/V Edge サービス証明書と、type<EM>という oauthserver certificate を指します。OAuthTokenIssuer</EM>。</span><span class="sxs-lookup"><span data-stu-id="d930b-108">The Lync Server Management Shell PowerShell cmdlets used to manage Microsoft Lync Server 2013 certificates refers to the A/V Edge service certificate as the <EM>AudioVideoAuthentication</EM> certificate type and the OAuthServer certificate as type <EM>OAuthTokenIssuer</EM>.</span></span> <span data-ttu-id="d930b-109">このトピックのこれ以降の説明では証明書を一意に識別するために、同じ識別子の種類を使用して <EM>AudioVideoAuthentication</EM> および <EM>OAuthTokenIssuer</EM> と呼びます。</span><span class="sxs-lookup"><span data-stu-id="d930b-109">For the rest of this topic and to uniquely identify the certificates, they will be referred to by the same identifier type, <EM>AudioVideoAuthentication</EM> and <EM>OAuthTokenIssuer</EM>.</span></span></P></LI></OL>
 
 
 
-音声ビデオ認証サービスは、クライアントやその他の音声ビデオ コンシューマーが使用するトークンを発行する役割を担います。トークンは証明書の属性に基づいて生成されます。証明書の有効期限が切れると接続が失われ、新しい証明書によって生成される新しいトークンを使った再参加が必要になります。Lync Server 2013 の新機能では、この問題が軽減されます。具体的には、古い証明書の有効期限が切れる前に新しい証明書をステージングできるので、両方の証明書を一定期間使い続けることができます。この機能では、Lync Server 管理シェルの Set-CsCertificate コマンドレットの更新された機能を使用します。新しい –Roll パラメーターを既存の –EffectiveDate パラメーターと共に使用すると、新しい AudioVideoAuthentication 証明書が証明書ストアに配置されます。古い方の AudioVideoAuthentication 証明書は、発行済みトークンの照合のためにそのまま残ります。新しい AudioVideoAuthentication 証明書が配置されるのに伴って、次の一連のイベントが発生します。
+</div>
+
+<span data-ttu-id="d930b-110">A/V 認証サービスは、クライアントや他の A/V コンシューマーによって使用されるトークンの発行を担当します。</span><span class="sxs-lookup"><span data-stu-id="d930b-110">The A/V Authentication service is responsible for issuing tokens that are used by clients and other A/V consumers.</span></span> <span data-ttu-id="d930b-111">トークンは証明書の属性から生成され、証明書の有効期限が切れたときに、新しい証明書によって生成された新しいトークンに接続を切断して、もう一度参加するための要件があります。</span><span class="sxs-lookup"><span data-stu-id="d930b-111">The tokens are generated from attributes on the certificate, and when the certificate expires, loss of connection and requirement to rejoin with a new token generated by the new certificate will result.</span></span> <span data-ttu-id="d930b-112">Lync Server 2013 の新機能により、古い証明書を前もって古いものから事前にステージングし、両方の証明書を一定期間有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="d930b-112">A new feature in Lync Server 2013 will alleviate this problem – the ability to stage a new certificate in advance of the old one expiring and allowing both certificates to continue to function for a period of time.</span></span> <span data-ttu-id="d930b-113">この機能では、Set-CsCertificate Lync Server Management Shell コマンドレットの更新された機能を使用します。</span><span class="sxs-lookup"><span data-stu-id="d930b-113">This feature uses updated functionality in the Set-CsCertificate Lync Server Management Shell cmdlet.</span></span> <span data-ttu-id="d930b-114">新しいパラメーター– Roll は既存のパラメーター– EffectiveDate を使用して、新しい AudioVideoAuthentication 証明書を証明書ストアに配置します。</span><span class="sxs-lookup"><span data-stu-id="d930b-114">The new parameter –Roll, with the existing parameter –EffectiveDate, will place the new AudioVideoAuthentication certificate in the certificate store.</span></span> <span data-ttu-id="d930b-115">以前の AudioVideoAuthentication 証明書は、確認のために発行されたトークンのまま残ります。</span><span class="sxs-lookup"><span data-stu-id="d930b-115">The older AudioVideoAuthentication certificate will still remain for issued tokens to be validated against.</span></span> <span data-ttu-id="d930b-116">新しい AudioVideoAuthentication 証明書を所定の場所に配置すると、次の一連のイベントが発生します。</span><span class="sxs-lookup"><span data-stu-id="d930b-116">Beginning with putting the new AudioVideoAuthentication certificate in place, the following series of events will occur:</span></span>
+
+<div>
 
 
 > [!TIP]
-> Lync Server 管理シェルのコマンドレットを証明書の管理に使用すると、エッジ サーバー上の用途ごとに独立した別々の証明書を要求できます。Lync Server 展開ウィザードの証明書ウィザードを利用すると証明書を作成できますが、通常はエッジ サーバーの証明書の用途をすべて 1 つの証明書に結合する<STRONG>既定の</STRONG>種類の証明書が作成されます。ローリング証明書機能を使用する場合は、AudioVideoAuthentication 証明書を他の証明書の用途から切り離すことをお勧めします。既定の種類の証明書をプロビジョニングおよびステージングすることもできますが、結合された証明書の AudioVideoAuthentication 部分のみがステージングによる恩恵を受けます。証明書の有効期限が切れたときに (たとえば) インスタント メッセージングの会話に参加しているユーザーは、アクセス エッジ サービスに関連付けられた新しい証明書を利用するためにいったんログアウトしてログインし直す必要があります。Web 会議エッジ サービスを使用して Web 会議に参加しているユーザーにも同様のことが起こります。OAuthTokenIssuer 証明書は、すべてのサーバーの間で共有される特定の種類の証明書です。証明書を 1 か所で作成して管理し、その証明書が他のすべてのサーバーの中央管理ストアに格納されます。
+> <span data-ttu-id="d930b-117">Lync Server Management Shell コマンドレットを使用して、証明書を管理するために、エッジサーバー上の各目的に対して個別の証明書を要求できます。</span><span class="sxs-lookup"><span data-stu-id="d930b-117">Using the Lync Server Management Shell cmdlets for managing certificates, you can request separate and distinct certificates for each purpose on the Edge Server.</span></span> <span data-ttu-id="d930b-118">Lync Server 展開ウィザードの [証明書] ウィザードを使用すると、証明書を作成できますが、通常は、エッジサーバーで使用されるすべての証明書を1つの証明書に結合する<STRONG>既定</STRONG>の種類があります。</span><span class="sxs-lookup"><span data-stu-id="d930b-118">Using the Certificate Wizard in the Lync Server Deployment Wizard assists you in creating certificates, but is typically of the <STRONG>default</STRONG> type which couples all certificate uses for the Edge Server onto a single certificate.</span></span> <span data-ttu-id="d930b-119">ローリング証明書機能を使用する場合は、AudioVideoAuthentication 証明書を他の証明書の用途から切り離すことをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="d930b-119">The recommended practice if you are going to use the rolling certificate feature is to decouple the AudioVideoAuthentication certificate from the other certificate purposes.</span></span> <span data-ttu-id="d930b-120">既定の種類の証明書をプロビジョニングおよびステージングすることもできますが、結合された証明書の AudioVideoAuthentication 部分のみがステージングによる恩恵を受けます。</span><span class="sxs-lookup"><span data-stu-id="d930b-120">You can provision and stage a certificate of the Default type, but only the AudioVideoAuthentication portion of the combined certificate will benefit from the staging.</span></span> <span data-ttu-id="d930b-121">ユーザー (たとえば、証明書の有効期限が切れたときのインスタントメッセージの会話) では、アクセスエッジサービスに関連付けられた新しい証明書を使用するためにログアウトしてもう一度ログインする必要があります。</span><span class="sxs-lookup"><span data-stu-id="d930b-121">A user involved in (for example) an instant messaging conversation when the certificate expires will need to log out and log back in to make use of the new certificate associated with the Access Edge service.</span></span> <span data-ttu-id="d930b-122">Web 会議エッジサービスを使って Web 会議に参加しているユーザーに対しても同様の動作が発生します。</span><span class="sxs-lookup"><span data-stu-id="d930b-122">Similar behavior will occur for a user involved in a Web conference using the Web Conferencing Edge service.</span></span> <span data-ttu-id="d930b-123">OAuthTokenIssuer 証明書は、すべてのサーバーの間で共有される特定の種類の証明書です。</span><span class="sxs-lookup"><span data-stu-id="d930b-123">The OAuthTokenIssuer certificate is a specific type that is shared across all servers.</span></span> <span data-ttu-id="d930b-124">証明書を1か所で作成して管理すると、その証明書は、他のすべてのサーバーの中央管理ストアに保存されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-124">You create and manage the certificate in one place and the certificate is stored in the Central Management store for all other servers.</span></span>
 
 
 
-Set-CsCertificate コマンドレットを使用するとき、および現在の証明書の有効期限が切れる前にこのコマンドレットを使用して証明書をステージングするときのオプションと要件を十分に理解するには、さらに詳しい説明が必要です。重要なのは -Roll パラメーターですが、このパラメーターの用途は実質的に 1 つです。これをパラメーターとして定義する場合は、-Type で定義された、影響を受ける証明書に関する情報 (たとえば AudioVideoAuthentication や OAuthTokenIssuer) と、–EffectiveDate で定義された、証明書が有効になる時期に関する情報を Set-CsCertificate に指定します。
+</div>
 
-**-Roll:** –Roll パラメーターは必須で、このパラメーターと共に指定する必要がある依存関係を持ちます。どの証明書が影響を受け、どのように適用されるかを完全に定義するための必須パラメーターです。
+<span data-ttu-id="d930b-p106">Set-CsCertificate コマンドレットを使用するとき、および現在の証明書の有効期限が切れる前にこのコマンドレットを使用して証明書をステージングするときのオプションと要件を十分に理解するには、さらに詳しい説明が必要です。重要なのは -Roll パラメーターですが、このパラメーターの用途は実質的に 1 つです。これをパラメーターとして定義する場合は、-Type で定義された、影響を受ける証明書に関する情報 (たとえば AudioVideoAuthentication や OAuthTokenIssuer) と、-EffectiveDate で定義された、証明書が有効になる時期に関する情報を Set-CsCertificate に指定します。</span><span class="sxs-lookup"><span data-stu-id="d930b-p106">Additional detail is needed to fully understand your options and requirements when using the Set-CsCertificate cmdlet and using it to stage certificates prior to the current certificate expiring. The –Roll parameter is important, but essentially single purpose. If you define it as a parameter, you are telling Set-CsCertificate that you will be providing information about the certificate that will be affected defined by –Type (for example AudioVideoAuthentication and OAuthTokenIssuer), when the certificate will become effective defined by –EffectiveDate.</span></span>
 
-**-EffectiveDate:** –EffectiveDate パラメーターは、新しい証明書が現在の証明書と共に有効になる時期を定義します。–EffectiveDate は現在の証明書の有効期限の間近に設定することも、それより長い時期に設定することもできます。AudioVideoAuthentication 証明書の場合は、–EffectiveDate を少なくとも 8 時間前に設定することをお勧めします。AudioVideoAuthentication 証明書を使用して発行される音声ビデオ エッジ サービス トークンの既定のトークン存続時間は 8 時間だからです。
+<span data-ttu-id="d930b-128">**-ロール:**–ロールパラメーターは必須であり、同時に指定する必要がある依存関係がある必要があります。</span><span class="sxs-lookup"><span data-stu-id="d930b-128">**-Roll:** The –Roll parameter is required and has dependencies that must be supplied along with it.</span></span> <span data-ttu-id="d930b-129">どの証明書が影響を受け、どのように適用されるかを完全に定義するための必須パラメーターです。</span><span class="sxs-lookup"><span data-stu-id="d930b-129">Required parameters to fully define which certificates will be affected and how they will be applied:</span></span>
 
-OAuthTokenIssuer 証明書をステージングするときは、証明書が有効になるまでのリード タイムの要件が異なります。OAuthTokenIssuer 証明書のリード タイムは、現在の証明書の有効期限が切れる 24 時間以上前に設定する必要があります。共存のリード タイムが長いのは、OAuthTokenIssuer 証明書に依存する他のサーバーの役割 (たとえば Exchange Server) で、証明書によって作成された認証と暗号化キー材料の保有期間が長いためです。
+<span data-ttu-id="d930b-130">**-EffectiveDate:** パラメーター– EffectiveDate は、新しい証明書が現在の証明書で相互に相互にアクティブになるタイミングを定義します。</span><span class="sxs-lookup"><span data-stu-id="d930b-130">**-EffectiveDate:** The parameter –EffectiveDate defines when the new certificate will become co-active with the current certificate.</span></span> <span data-ttu-id="d930b-131">– EffectiveDate は、現在の証明書の有効期限が近づいているか、または長い時間が経過している可能性があります。</span><span class="sxs-lookup"><span data-stu-id="d930b-131">The –EffectiveDate can be close to the expiry time of the current certificate, or it can be a longer period of time.</span></span> <span data-ttu-id="d930b-132">AudioVideoAuthentication certificate の推奨最小– EffectiveDate は8時間で、AudioVideoAuthentication certificate を使って発行される AV Edge サービストークンの既定のトークンの有効期間です。</span><span class="sxs-lookup"><span data-stu-id="d930b-132">A recommended minimum –EffectiveDate for the AudioVideoAuthentication certificate would be 8 hours, which is the default token lifetime for AV Edge service tokens issued using the AudioVideoAuthentication certificate.</span></span>
 
-**-Thumbprint:** 拇印は証明書の属性で、証明書ごとに一意となります。–Thumbprint パラメーターを使用して、Set-CsCertificate コマンドレットの処理によって影響を受ける証明書を識別します。
+<span data-ttu-id="d930b-p109">OAuthTokenIssuer 証明書をステージングするときは、証明書が有効になるまでのリード タイムの要件が異なります。OAuthTokenIssuer 証明書のリード タイムは、現在の証明書の有効期限が切れる 24 時間以上前に設定する必要があります。共存のリード タイムが長いのは、OAuthTokenIssuer 証明書に依存する他のサーバーの役割 (たとえば Exchange Server) で、証明書によって作成された認証と暗号化キー材料の保有期間が長いためです。</span><span class="sxs-lookup"><span data-stu-id="d930b-p109">When staging OAuthTokenIssuer certificates, there are different requirements for the lead time before the certificate can become effective. The minimum time that the OAuthTokenIssuer certificate should have for its lead time is 24 hours before the expiration time of the current certificate. The extended lead time for the coexistence is because of other server roles that are dependent on the OAuthTokenIssuer certificate (Exchange Server, for example) which has a longer retention time for certificate created authentication and encryption key materials.</span></span>
 
-**-Type:** –Type パラメーターは、証明書の 1 つの使用法の種類、またはコンマで区切った証明書の複数の使用法の種類のリストを受け取ることができます。証明書の種類は、その証明書の用途が何かをコマンドレットおよびサーバーに対して明示するものです。たとえば、種類が AudioVideoAuthentication であれば、音声ビデオ エッジ サービスおよび音声ビデオ認証サービスで使用されます。種類の異なる証明書を同時にステージングおよびプロビジョニングする場合は、各証明書に最小限必要な実効リード タイムのうち最も長いものを考慮する必要があります。たとえば、種類が AudioVideoAuthentication と OAuthTokenIssuer の証明書をステージングする必要があるとします。この場合は、2 つの証明書のうち最小限のリード タイムが長い方 (この例では OAuthTokenIssuer) に合わせて –EffectiveDate を設定する必要があります。OAuthTokenIssuer の最小限のリード タイムは 24 時間です。AudioVideoAuthentication 証明書を 24 時間のリード タイムでステージングしたくない場合は、この証明書を別途ステージングし、必要に応じた EffectiveDate を設定します。
+<span data-ttu-id="d930b-136">**-拇印:** 拇印は、その証明書に固有の証明書の属性です。</span><span class="sxs-lookup"><span data-stu-id="d930b-136">**-Thumbprint:** The thumbprint is an attribute on the certificate that is unique to that certificate.</span></span> <span data-ttu-id="d930b-137">-Thumbprint パラメーターを使用して、Set-CsCertificate コマンドレットの処理によって影響を受ける証明書を識別します。</span><span class="sxs-lookup"><span data-stu-id="d930b-137">The –Thumbprint parameter is used to identify the certificate that will be affected by the actions of the Set-CsCertificate cmdlet.</span></span>
 
-## –Roll および -EffectiveDate パラメーターを使用して音声ビデオ エッジ サービス証明書の更新または書き換えを行うには
+<span data-ttu-id="d930b-138">**-Type:**–型パラメーターは、1つの証明書の使用の種類を受け付けることができます。または、証明書の使用の種類のコンマ区切りリストを指定します。</span><span class="sxs-lookup"><span data-stu-id="d930b-138">**-Type:** The –Type parameter can accept a single certificate usage type or a comma separated list of certificate usage types.</span></span> <span data-ttu-id="d930b-139">証明書の種類は、コマンドレットに対して識別するものであり、証明書の目的はサーバーに対して指定されています。</span><span class="sxs-lookup"><span data-stu-id="d930b-139">The certificate types are those that identify to the cmdlet and to the server what the purpose of the certificate is.</span></span> <span data-ttu-id="d930b-140">たとえば、「AudioVideoAuthentication」と入力すると、A/V Edge サービスと AV 認証サービスが使用されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-140">For example, type AudioVideoAuthentication is for use by the A/V Edge service and the AV Authentication service.</span></span> <span data-ttu-id="d930b-141">異なる種類の証明書を同時にステージングおよびプロビジョニングすることにした場合は、証明書に必要な最も長い最小のリードタイムを考慮する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d930b-141">If you decide to stage and provision certificates of a different type at the same time, you must consider the longest required minimum effective lead time for the certificates.</span></span> <span data-ttu-id="d930b-142">たとえば、AudioVideoAuthentication と OAuthTokenIssuer の証明書をステージする必要があります。</span><span class="sxs-lookup"><span data-stu-id="d930b-142">For example, you need to stage certificates of type AudioVideoAuthentication and OAuthTokenIssuer.</span></span> <span data-ttu-id="d930b-143">少なくとも EffectiveDate は、この2つの証明書の大部分である必要があります。この例では、最小のリード時間が24時間である OAuthTokenIssuer です。</span><span class="sxs-lookup"><span data-stu-id="d930b-143">Your minimum –EffectiveDate must be the greater of the two certificates, in this case the OAuthTokenIssuer, which has a minimum lead time of 24 hours.</span></span> <span data-ttu-id="d930b-144">オーディオビデオ認証証明書のステージが24時間の間にない場合は、要件により多くの EffectiveDate と個別にステージを整理します。</span><span class="sxs-lookup"><span data-stu-id="d930b-144">If you do not want to stage the AudioVideoAuthentication certificate with a lead time of 24 hours, stage it separately with an EffectiveDate that is more to your requirements.</span></span>
 
-1.  Administrators グループのメンバーとして、ローカル コンピューターにログオンします。
+<div>
 
-2.  音声ビデオ エッジ サービスの既存の証明書に対するエクスポート可能な秘密キーを使用して、書き換えまたは新しい AudioVideoAuthentication 証明書を要求します。
+## <a name="to-update-or-renew-an-av-edge-service-certificate-with-a-roll-and--effectivedate-parameters"></a><span data-ttu-id="d930b-145">–ロールと-EffectiveDate のパラメーターを使用して A/V エッジサービス証明書を更新または更新するには</span><span class="sxs-lookup"><span data-stu-id="d930b-145">To update or renew an A/V Edge service certificate with a –Roll and -EffectiveDate parameters</span></span>
 
-3.  新しい AudioVideoAuthentication 証明書をエッジ サーバー、およびプール内の他のすべてのエッジ サーバー (プールを展開している場合) にインポートします。
+1.  <span data-ttu-id="d930b-146">Administrators グループのメンバーとして、ローカル コンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="d930b-146">Log on to the local computer as a member of the Administrators group.</span></span>
 
-4.  インポートした証明書を Set-CsCertificate コマンドレットで構成し、–Roll パラメーターを –EffectiveDate パラメーターと共に使用します。有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) からトークン存続時間 (既定では 8 時間) を引いた値で定義します。これによって証明書を有効化する時刻が得られるので、–EffectiveDate \<文字列\>: “7/22/2012 6:00:00 AM” のように指定します。
+2.  <span data-ttu-id="d930b-147">A/V Edge サービス上の既存の証明書のエクスポート可能な秘密キーを使って、更新または新しい AudioVideoAuthentication 証明書を要求します。</span><span class="sxs-lookup"><span data-stu-id="d930b-147">Request a renewal or new AudioVideoAuthentication certificate with exportable private key for the existing certificate on the A/V Edge service.</span></span>
+
+3.  <span data-ttu-id="d930b-148">新しい AudioVideoAuthentication 証明書を、エッジサーバーとプール内の他のすべてのエッジサーバーにインポートします (プールが展開されている場合)。</span><span class="sxs-lookup"><span data-stu-id="d930b-148">Import the new AudioVideoAuthentication certificate to the Edge Server and all other Edge Server in your pool (if you have a pool deployed).</span></span>
+
+4.  <span data-ttu-id="d930b-149">インポートした証明書を Set-CsCertificate コマンドレットで構成し、-Roll パラメーターを -EffectiveDate パラメーターと共に使用します。</span><span class="sxs-lookup"><span data-stu-id="d930b-149">Configure the imported certificate with the Set-CsCertificate cmdlet and use the –Roll parameter with the –EffectiveDate parameter.</span></span> <span data-ttu-id="d930b-150">有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) からトークン存続時間 (既定では 8 時間) を引いた値で定義します。</span><span class="sxs-lookup"><span data-stu-id="d930b-150">The effective date should be defined as the current certificate expire time (14:00:00, or 2:00:00 PM) minus token lifetime (by default eight hours).</span></span> <span data-ttu-id="d930b-151">これにより、証明書がアクティブに設定されている必要があり、– \<EffectiveDate\>STRING: "7/22/2012 6:00:00 AM" のようになります。</span><span class="sxs-lookup"><span data-stu-id="d930b-151">This gives us a time that the certificate must be set to active, and is the –EffectiveDate \<string\>: “7/22/2012 6:00:00 AM”.</span></span>
+    
+    <div>
     
 
     > [!IMPORTANT]
-    > エッジ プールでは、最初に展開した証明書の –EffectiveDate パラメーターで定義されている日時までにすべての AudioVideoAuthentication 証明書を展開し、プロビジョニングする必要があります。これは、クライアントとコンシューマーのすべてのトークンが新しい証明書を使って更新される前に、古い証明書の有効期限が切れて音声ビデオ通信が中断するのを防ぐためです。
+    > <span data-ttu-id="d930b-152">エッジプールについては、すべての AudioVideoAuthentication 証明書が展開され、最初の証明書の EffectiveDate パラメーターによって定義された日付と時刻でプロビジョニングされている必要があります新しい証明書を使ってすべてのクライアントとコンシューマーのトークンを更新する前に、証明書が期限切れになっている。</span><span class="sxs-lookup"><span data-stu-id="d930b-152">For an Edge pool, you must have all AudioVideoAuthentication certificates deployed and provisioned by the date and time defined by the –EffectiveDate parameter of the first certificate deployed to avoid possible A/V communications disruption due to the older certificate expiring before all client and consumer tokens have been renewed using the new certificate.</span></span>
 
     
-    –Roll および –EffectiveTime パラメーターを使用する Set-CsCertificate コマンドは次のようになります。
+    </div>
+    
+    <span data-ttu-id="d930b-153">-Roll および -EffectiveTime パラメーターを使用する Set-CsCertificate コマンドは次のようになります。</span><span class="sxs-lookup"><span data-stu-id="d930b-153">The Set-CsCertificate command with the –Roll and –EffectiveTime parameter:</span></span>
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
     
-    Set-CsCertificate コマンドの例を次に示します。
+    <span data-ttu-id="d930b-154">Set-CsCertificate コマンドの例を次に示します。</span><span class="sxs-lookup"><span data-stu-id="d930b-154">An example Set-CsCertificate command:</span></span>
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2012 6:00:00 AM"
     
+    <div>
+    
 
     > [!IMPORTANT]
-    > EffectiveDate は、サーバーの地域と言語の設定に合った形式にする必要があります。この例で使用している地域と言語の設定は英語 (米国) です。
+    > <span data-ttu-id="d930b-p113">EffectiveDate は、サーバーの地域と言語の設定に合った形式にする必要があります。この例で使用している地域と言語の設定は英語 (米国) です。</span><span class="sxs-lookup"><span data-stu-id="d930b-p113">The EffectiveDate must be formatted to match your server’s region and language settings. The example uses the US English Region and Language settings</span></span>
 
+    
+    </div>
 
+<span data-ttu-id="d930b-157">コンシューマーが使用中の AudioVideoAuthentication を検証するための既存の証明書をそのまま使用しながら、同時に AudioVideoAuthentication の新しいトークンを発行するための新しい証明書をステージングできるように Set-CsCertificate、-Roll、および -EffectiveDate が使用するプロセスを詳しく理解するには、時系列の図を使う方法が効果的です。</span><span class="sxs-lookup"><span data-stu-id="d930b-157">To further understand the process that Set-CsCertificate, -Roll, and –EffectiveDate use to stage a new certificate for issuing new AudioVideoAuthentication tokens while still using an existing certificate to validate AudioVideoAuthentication that are in use by consumers, a visual timeline is an effective means of understanding the process.</span></span>
 
-コンシューマーが使用中の AudioVideoAuthentication を検証するための既存の証明書をそのまま使用しながら、同時に AudioVideoAuthentication の新しいトークンを発行するための新しい証明書をステージングできるように Set-CsCertificate、-Roll、および –EffectiveDate が使用するプロセスを詳しく理解するには、時系列の図を使う方法が効果的です。
+<span data-ttu-id="d930b-158">次の例では、管理者は、A/V Edge サービス証明書が07/22/2012 の 2:00:00 PM に有効期限切れになっていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="d930b-158">In the following example, the administrator determines that the A/V Edge service certificate is due to expire at 2:00:00 PM on 07/22/2012.</span></span> <span data-ttu-id="d930b-159">彼は、新しい証明書を要求して受け取り、その証明書を自分のプールの各エッジサーバーにインポートします。</span><span class="sxs-lookup"><span data-stu-id="d930b-159">He requests and receives a new certificate and imports it to each Edge Server in his pool.</span></span> <span data-ttu-id="d930b-160">07/22/2012 の午前2時は、[ロール]、[拇印] が新しい証明書の拇印文字列と同じであり、-EffectiveTime が 07/22/2012 6:00:00 AM に設定されている Get-CsCertificate の実行を開始します。</span><span class="sxs-lookup"><span data-stu-id="d930b-160">At 2 AM on 07/22/2012, he begins running Get-CsCertificate with –Roll, -Thumbprint equal to the thumbprint string of the new certificate, and –EffectiveTime set to 07/22/2012 6:00:00 AM.</span></span> <span data-ttu-id="d930b-161">各エッジサーバーでこのコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="d930b-161">He runs this command on each Edge Server.</span></span>
 
-次の例では、音声ビデオ エッジ サービス証明書の有効期限が 2012 年 7 月 22 日の午後 2:00 に終了します。管理者は新しい証明書を要求して受け取り、それをプール内の各エッジ サーバーにインポートします。2012 年 7 月 22 日の午前 2:00 に、管理者は –Roll、新しい証明書の拇印文字列に相当する -Thumbprint、および 2012 年 7 月 22 日の午前 6:00 に設定した –EffectiveTime を使用して、Get-CsCertificate の実行を開始します。各エッジ サーバーでこのコマンドを実行します。
+<span data-ttu-id="d930b-162">![ロールと EffectiveDate のパラメーターを使用します。](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "ロールと EffectiveDate のパラメーターを使用します。")</span><span class="sxs-lookup"><span data-stu-id="d930b-162">![Using the Roll and the EffectiveDate parameters.](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Using the Roll and the EffectiveDate parameters.")</span></span>
 
-![Roll および EffectiveDate パラメーターの使用](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Roll および EffectiveDate パラメーターの使用")
-
-有効時刻 (2012 年 7 月 22 日午前 6:00) になると、新しいトークンはすべて新しい証明書によって発行されます。トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。検証が失敗した場合は、古い証明書が試されます。新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。古い証明書の有効期限が切れた後は (2012 年 7 月 22 日午後 2:00)、トークンは新しい証明書のみを使用して検証されます。古い証明書は、次のように Remove-CsCertificate コマンドレットに –Previous パラメーターを指定して安全に削除できます。
+<span data-ttu-id="d930b-163">有効時間 (7/22/2012 6:00:00 AM) に達すると、新しい証明書によってすべての新しいトークンが発行されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-163">When the effective time is reached (7/22/2012 6:00:00 AM), all new tokens are issued by the new certificate.</span></span> <span data-ttu-id="d930b-164">トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-164">When validating tokens, tokens will first be validated against the new certificate.</span></span> <span data-ttu-id="d930b-165">検証が失敗した場合は、古い証明書が試されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-165">If the validation fails, the old certificate is tried.</span></span> <span data-ttu-id="d930b-166">新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。</span><span class="sxs-lookup"><span data-stu-id="d930b-166">The process of trying the new and falling back to the old certificate will continue until the expiry time of the old certificate.</span></span> <span data-ttu-id="d930b-167">古い証明書の有効期限が切れた後 (7/22/2012 2:00:00 PM)、トークンは新しい証明書でのみ検証されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-167">Once the old certificate has expired (7/22/2012 2:00:00 PM), tokens will only be validated by the new certificate.</span></span> <span data-ttu-id="d930b-168">古い証明書は、次のように Remove-CsCertificate コマンドレットに -Previous パラメーターを指定して安全に削除できます。</span><span class="sxs-lookup"><span data-stu-id="d930b-168">The old certificate can be safely removed using the Remove-CsCertificate cmdlet with the –Previous parameter.</span></span>
 
     Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 
-## –Roll および -EffectiveDate パラメーターを使用して OAuthTokenIssuer 証明書の更新または書き換えを行うには
+</div>
 
-1.  Administrators グループのメンバーとして、ローカル コンピューターにログオンします。
+<div>
 
-2.  音声ビデオ エッジ サービスの既存の証明書に対するエクスポート可能な秘密キーを使用して、書き換えまたは新しい OAuthTokenIssuer 証明書を要求します。
+## <a name="to-update-or-renew-an-oauthtokenissuer-certificate-with-a-roll-and--effectivedate-parameters"></a><span data-ttu-id="d930b-169">–ロールと-EffectiveDate のパラメーターを使用して OAuthTokenIssuer 証明書を更新または更新するには</span><span class="sxs-lookup"><span data-stu-id="d930b-169">To update or renew an OAuthTokenIssuer certificate with a –Roll and -EffectiveDate parameters</span></span>
 
-3.  新しい OAuthTokenIssuer 証明書をプール内の (プールを展開している場合) フロント エンド サーバーにインポートします。OAuthTokenIssuer 証明書はグローバルにレプリケートされるので、展開内の任意のサーバーで更新および書き換うだけで十分です。ここではフロント エンド サーバーを例に使用しています。
+1.  <span data-ttu-id="d930b-170">Administrators グループのメンバーとして、ローカル コンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="d930b-170">Log on to the local computer as a member of the Administrators group.</span></span>
 
-4.  インポートした証明書を Set-CsCertificate コマンドレットで構成し、–Roll パラメーターを –EffectiveDate パラメーターと共に使用します。有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) から少なくとも 24 時間を引いた値で定義します。
+2.  <span data-ttu-id="d930b-171">A/V Edge サービス上の既存の証明書のエクスポート可能な秘密キーを使用して、更新または新しい OAuthTokenIssuer 証明書を要求します。</span><span class="sxs-lookup"><span data-stu-id="d930b-171">Request a renewal or new OAuthTokenIssuer certificate with exportable private key for the existing certificate on the A/V Edge service.</span></span>
+
+3.  <span data-ttu-id="d930b-172">新しい OAuthTokenIssuer 証明書を、プールのフロントエンドサーバーにインポートします (プールが展開されている場合)。</span><span class="sxs-lookup"><span data-stu-id="d930b-172">Import the new OAuthTokenIssuer certificate to a Front End Server in your pool (if you have a pool deployed).</span></span> <span data-ttu-id="d930b-173">OAuthTokenIssuer 証明書はグローバルにレプリケートされるので、展開内の任意のサーバーで更新と書き換えを行うだけで十分です。</span><span class="sxs-lookup"><span data-stu-id="d930b-173">The OAuthTokenIssuer certificate is replicated globally and only needs to be updated and renewed at any server in your deployment.</span></span> <span data-ttu-id="d930b-174">フロントエンドサーバーは例として使用されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-174">The Front End Server is used as an example.</span></span>
+
+4.  <span data-ttu-id="d930b-p117">インポートした証明書を Set-CsCertificate コマンドレットで構成し、-Roll パラメーターを -EffectiveDate パラメーターと共に使用します。有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) から少なくとも 24 時間を引いた値で定義します。</span><span class="sxs-lookup"><span data-stu-id="d930b-p117">Configure the imported certificate with the Set-CsCertificate cmdlet and use the –Roll parameter with the –EffectiveDate parameter. The effective date should be defined as the current certificate expire time (14:00:00, or 2:00:00 PM) minus a minimum of 24 hours.</span></span>
     
-    –Roll および –EffectiveTime パラメーターを使用する Set-CsCertificate コマンドは次のようになります。
+    <span data-ttu-id="d930b-177">-Roll および -EffectiveTime パラメーターを使用する Set-CsCertificate コマンドは次のようになります。</span><span class="sxs-lookup"><span data-stu-id="d930b-177">The Set-CsCertificate command with the –Roll and –EffectiveTime parameter:</span></span>
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
     
-    Set-CsCertificate コマンドの例を次に示します。
+    <span data-ttu-id="d930b-178">Set-CsCertificate コマンドの例を次に示します。</span><span class="sxs-lookup"><span data-stu-id="d930b-178">An example Set-CsCertificate command:</span></span>
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2012 1:00:00 PM"
     
+    <div>
+    
 
     > [!IMPORTANT]
-    > EffectiveDate は、サーバーの地域と言語の設定に合った形式にする必要があります。この例で使用している地域と言語の設定は英語 (米国) です。
+    > <span data-ttu-id="d930b-p118">EffectiveDate は、サーバーの地域と言語の設定に合った形式にする必要があります。この例で使用している地域と言語の設定は英語 (米国) です。</span><span class="sxs-lookup"><span data-stu-id="d930b-p118">The EffectiveDate must be formatted to match your server’s region and language settings. The example uses the US English Region and Language settings</span></span>
 
+    
+    </div>
 
-
-有効時刻 (2012 年 7 月 21 日午前 1:00) になると、新しいトークンはすべて新しい証明書によって発行されます。トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。検証が失敗した場合は、古い証明書が試されます。新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。古い証明書の有効期限が切れた後は (2012 年 7 月 22 日午後 2:00)、トークンは新しい証明書のみを使用して検証されます。古い証明書は、次のように Remove-CsCertificate コマンドレットに –Previous パラメーターを指定して安全に削除できます。
+<span data-ttu-id="d930b-181">有効時間 (7/21/2012 1:00:00 AM) に達すると、新しい証明書によってすべての新しいトークンが発行されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-181">When the effective time is reached (7/21/2012 1:00:00 AM), all new tokens are issued by the new certificate.</span></span> <span data-ttu-id="d930b-182">トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-182">When validating tokens, tokens will first be validated against the new certificate.</span></span> <span data-ttu-id="d930b-183">検証が失敗した場合は、古い証明書が試されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-183">If the validation fails, the old certificate is tried.</span></span> <span data-ttu-id="d930b-184">新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。</span><span class="sxs-lookup"><span data-stu-id="d930b-184">The process of trying the new and falling back to the old certificate will continue until the expiry time of the old certificate.</span></span> <span data-ttu-id="d930b-185">古い証明書の有効期限が切れた後 (7/22/2012 2:00:00 PM)、トークンは新しい証明書でのみ検証されます。</span><span class="sxs-lookup"><span data-stu-id="d930b-185">Once the old certificate has expired (7/22/2012 2:00:00 PM), tokens will only be validated by the new certificate.</span></span> <span data-ttu-id="d930b-186">古い証明書は、次のように Remove-CsCertificate コマンドレットに -Previous パラメーターを指定して安全に削除できます。</span><span class="sxs-lookup"><span data-stu-id="d930b-186">The old certificate can be safely removed using the Remove-CsCertificate cmdlet with the –Previous parameter.</span></span>
 
     Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
 
-[Lync Server 2013 でエッジ サーバー証明書を計画する](lync-server-2013-plan-for-edge-server-certificates.md)  
-[Lync Server 2013 でのサーバー間認証 (Oauth) およびパートナー アプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)  
+## <a name="see-also"></a><span data-ttu-id="d930b-187">関連項目</span><span class="sxs-lookup"><span data-stu-id="d930b-187">See Also</span></span>
 
-#### その他のリソース
 
-[Lync Server 2013 用のエッジ証明書のセットアップ](lync-server-2013-set-up-edge-certificates.md)  
-[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
-[Remove-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCertificate)
+[<span data-ttu-id="d930b-188">Lync Server 2013 でエッジ サーバー証明書を計画する</span><span class="sxs-lookup"><span data-stu-id="d930b-188">Plan for Edge Server certificates in Lync Server 2013</span></span>](lync-server-2013-plan-for-edge-server-certificates.md)  
+[<span data-ttu-id="d930b-189">Lync Server 2013 でのサーバー間認証 (OAuth) とパートナーアプリケーションの管理</span><span class="sxs-lookup"><span data-stu-id="d930b-189">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</span></span>](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)  
+
+
+[<span data-ttu-id="d930b-190">Lync Server 2013 用のエッジ証明書のセットアップ</span><span class="sxs-lookup"><span data-stu-id="d930b-190">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)  
+<span data-ttu-id="d930b-191">[設定-CsCertificate](https://technet.microsoft.com/en-us/library/Gg398518(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d930b-191">[Set-CsCertificate](https://technet.microsoft.com/en-us/library/Gg398518(v=OCS.15))</span></span>  
+<span data-ttu-id="d930b-192">[CsCertificate の削除](https://technet.microsoft.com/en-us/library/Gg412895(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d930b-192">[Remove-CsCertificate](https://technet.microsoft.com/en-us/library/Gg412895(v=OCS.15))</span></span>  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

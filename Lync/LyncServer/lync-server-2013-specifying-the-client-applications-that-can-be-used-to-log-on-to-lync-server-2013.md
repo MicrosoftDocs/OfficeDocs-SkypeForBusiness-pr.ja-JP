@@ -1,112 +1,89 @@
-﻿---
-title: Lync Server 2013 のログオンに使用するクライアント アプリケーションの指定
-TOCTitle: Lync Server 2013 のログオンに使用するクライアント アプリケーションの指定
-ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg182591(v=OCS.15)
-ms:contentKeyID: 48273718
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server 2013 へのログオンに使用できるクライアントアプリケーションの指定'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Specifying the client applications that can be used to log on to Lync Server 2013
+ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182591(v=OCS.15)
+ms:contentKeyID: 48185450
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 42f1135349c7caab0f8e3fe2e428a1bad59466ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848681"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のログオンに使用するクライアント アプリケーションの指定
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-12-11_
+# <a name="specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013"></a><span data-ttu-id="b9903-102">Lync Server 2013 へのログオンに使用できるクライアントアプリケーションの指定</span><span class="sxs-lookup"><span data-stu-id="b9903-102">Specifying the client applications that can be used to log on to Lync Server 2013</span></span>
 
-Lync Server 2013 では、各自の環境でサポートされるクライアントのバージョンを指定できます。バージョンの異なる 2 つのクライアントが対話する場合、クライアントで使用可能な機能が、いずれかのクライアントの性能によって制限されることがあります。Lync Server 2013 が備える機能を最大限に活用し、全体のユーザーの操作性を向上させるために、クライアント バージョン フィルターを利用して、Lync Server 2013 環境で使用されるクライアント バージョンを制限できます。クライアント バージョン フィルターを使用すると、複数バージョンのクライアントをサポートすることで発生するコストも抑制できます。
+</div>
 
-グローバル ポリシーの他に、特定のサービスやサイト用のクライアント バージョン ポリシー、または個々のユーザーに割り当てられるユーザー単位のポリシーを作成できます。ユーザー単位のクライアント バージョン ポリシーは、Lync Server コントロール パネルの \[**ユーザー**\] グループから、個々のユーザーに割り当てることができます。
+<div id="mainSection">
 
-> [!NOTE]
-> 匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。
+<div id="mainBody">
 
+<span> </span>
 
+<span data-ttu-id="b9903-103">_**最終更新日:** 2012-12-11_</span><span class="sxs-lookup"><span data-stu-id="b9903-103">_**Topic Last Modified:** 2012-12-11_</span></span>
 
-> [!IMPORTANT]
-> フィルターは、優先順にリストされます。たとえば、バージョン 1.5 を実行するクライアントの接続を許可するフィルターの後に、2.0 より古いバージョンを実行するクライアントを禁止するフィルターを設定した場合、最初のフィルターが優先されるため、バージョン 1.5 を実行するクライアントの接続は許可されます。
+<span data-ttu-id="b9903-104">Lync Server 2013 では、環境でサポートされているクライアントのバージョンを指定することができます。</span><span class="sxs-lookup"><span data-stu-id="b9903-104">Lync Server 2013 enables you to specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="b9903-105">クライアントバージョンポリシーを使用すると、複数のクライアントバージョンのサポートに関連するコストを削減することができます。</span><span class="sxs-lookup"><span data-stu-id="b9903-105">Using client version policies can help reduce the costs associated with supporting multiple client versions.</span></span> <span data-ttu-id="b9903-106">また、以前のバージョンのクライアントが動作している場合、使用可能な機能は以前のバージョンのクライアントで制限される可能性があるため、全体的なユーザーエクスペリエンスを向上させることができます。</span><span class="sxs-lookup"><span data-stu-id="b9903-106">It can also improve the overall user experience, because when earlier and later versions of clients interact, the available features can be limited by the earlier version of the client.</span></span>
 
+<span data-ttu-id="b9903-107">クライアントのバージョン管理には、次の3つのコンポーネントがあります。</span><span class="sxs-lookup"><span data-stu-id="b9903-107">There are three components of client version control:</span></span>
 
+  - <span data-ttu-id="b9903-108">クライアントバージョンの構成設定は、グローバルに、または特定のサイトに対して、クライアントのバージョン管理をオンまたはオフにするために使用されます。</span><span class="sxs-lookup"><span data-stu-id="b9903-108">Client version configuration settings are used to turn client version control on or off, either globally or for particular sites.</span></span>
 
-## 既定のクライアント バージョン ポリシーを編集するには
+  - <span data-ttu-id="b9903-109">クライアントバージョンポリシーは、一連のルールをグローバルに、または特定のサイト、プール、またはユーザーのグループに割り当てるために使用されます。</span><span class="sxs-lookup"><span data-stu-id="b9903-109">Client version policies are used to assign a set of rules globally, or to a particular site, pool, or group of users.</span></span>
 
-1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
+  - <span data-ttu-id="b9903-110">クライアントバージョンポリシールールは、クライアントバージョンポリシーを構成し、ユーザーが特定のクライアントとクライアントバージョンでログオンしようとしたときに実行するアクションを定義するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="b9903-110">Client version policy rules make up a client version policy, and are used to define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span>
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
-
-3.  左側のナビゲーション バーで \[**クライアント**\] をクリックします。
-    
-    > [!NOTE]
-    > 既定では、[<strong>クライアント バージョン ポリシー</strong>] タブが選択されます。
-
-
-4.  \[**クライアント バージョン ポリシー**\] ページで、一覧から \[**グローバル**\] のポリシーをダブルクリックします。
-
-5.  \[**クライアント バージョン ポリシーの編集**\] で、次のいずれかを実行します。
-    
-      - 新しいクライアント バージョン ルールを作成するには、\[**新規**\] をクリックします。
-    
-      - 一覧から定義済みのクライアントの種類を 1 つクリックしてから、\[**詳細の表示**\] をクリックします。
-    
-    > [!NOTE]
-    > ワイルドカードを使用してクライアントの種類を指定できます。
-
-
-6.  \[**ユーザー エージェント**\] で、クライアントの種類を選択します。
-
-7.  \[**バージョン番号**\] で、次の操作を実行します。
-    
-      - \[**メジャー バージョン**\] に、クライアントのメジャー リリースに対応する番号を入力します。
-    
-      - \[**マイナー バージョン**\] に、クライアントのマイナー リリースに対応する番号を入力します。
-    
-      - \[**ビルド**\] に、クライアントのメジャーおよびマイナー リリースに対応する番号を入力します。
-    
-      - \[**更新済み**\] に、クライアントの更新済みのリリースに対応する番号を入力します。
-    
-    > [!NOTE]
-    > ワイルドカードを使用してクライアント バージョン番号を指定できます。
+<div>
 
 
-8.  これまでの手順で指定したクライアント バージョンの一致操作を指定するには、\[**比較操作**\] で、次のうち 1 つをクリックします。
-    
-      - \[**同じ**\]
-    
-      - \[**異なる**\]
-    
-      - \[**より新しい**\]
-    
-      - \[**以上**\]
-    
-      - \[**より古い**\]
-    
-      - \[**以前**\]
+> [!NOTE]  
+> <span data-ttu-id="b9903-111">匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。</span><span class="sxs-lookup"><span data-stu-id="b9903-111">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
 
-9.  これまでの手順で指定した基準と一致する場合に実行するアクションを指定するには、\[**アクション**\] で、次のうち 1 つをクリックします。
-    
-      - クライアントのログオンを許可するには、\[**許可**\] をクリックします。
-    
-      - クライアントのログオンを許可し、Windows Server Update Service または Microsoft Update から更新プログラムを受信するには、\[**許可およびアップグレード**\] をクリックします。このアクションは、ユーザー エージェント **OC** が選択されている場合にのみ利用できます。
-        
-        > [!NOTE]  
-        > このアクションを選択すると、ユーザーが次に Lync 2013 にサインインしたときに通知が表示されます。この通知では、Windows Server Update Service または Microsoft Update に更新がまだリリースされていなくても、更新が利用できるようになったことが伝えられます。混乱を避けるため、このアクションは更新が利用できるようになった後でのみ選択する必要があります。
-    
-      - クライアントのログオンを許可し、他のクライアント バージョンをダウンロードする場所についてメッセージを表示するには、\[**許可して URL を表示**\] をクリックします。 この手順の後半で URL を指定します。
-    
-      - クライアントのログオンを禁止するには、\[**禁止**\] をクリックします。
-    
-      - クライアントのログオンを禁止し、クライアントに Windows Server Update Service または Microsoft Update からの更新プログラムの受信を許可するには、\[**禁止およびアップグレード**\] をクリックします。このアクションは、ユーザー エージェント **OC** が選択されている場合にのみ利用できます。
-    
-      - クライアントのログオンを禁止し、他のクライアント バージョンをダウンロードする場所についてメッセージを表示するには、\[**禁止して URL を表示**\] をクリックします。 この手順の後半で URL を指定します。
 
-10. (オプション) 前の手順で \[**許可して URL を表示**\] または \[**禁止して URL を表示**\] をクリックした場合、\[**URL**\] にメッセージに含めるクライアント ダウンロード URL を入力します。
 
-11. \[**OK**\] をクリックしてから、\[**確定**\] をクリックします。
+</div>
 
-## 関連項目
+<div>
 
-#### その他のリソース
+## <a name="in-this-section"></a><span data-ttu-id="b9903-112">このセクション中</span><span class="sxs-lookup"><span data-stu-id="b9903-112">In This Section</span></span>
 
-[Lync Server 2013 でのデバイス、電話、クライアント アプリケーションの管理](lync-server-2013-managing-devices-phones-and-client-applications.md)
+  - [<span data-ttu-id="b9903-113">Lync Server 2013 のクライアントバージョンの構成設定</span><span class="sxs-lookup"><span data-stu-id="b9903-113">Client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-client-version-configuration-settings.md)
+
+  - [<span data-ttu-id="b9903-114">Lync Server 2013 のクライアントバージョンポリシー</span><span class="sxs-lookup"><span data-stu-id="b9903-114">Client version policies in Lync Server 2013</span></span>](lync-server-2013-client-version-policies.md)
+
+  - [<span data-ttu-id="b9903-115">Lync Server 2013 でのクライアントのバージョンルール</span><span class="sxs-lookup"><span data-stu-id="b9903-115">Client version rules in Lync Server 2013</span></span>](lync-server-2013-client-version-rules.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="b9903-116">関連項目</span><span class="sxs-lookup"><span data-stu-id="b9903-116">See Also</span></span>
+
+
+[<span data-ttu-id="b9903-117">Lync Server 2013 でのデバイス、電話、クライアント アプリケーションの管理</span><span class="sxs-lookup"><span data-stu-id="b9903-117">Managing devices, phones, and client applications in Lync Server 2013</span></span>](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

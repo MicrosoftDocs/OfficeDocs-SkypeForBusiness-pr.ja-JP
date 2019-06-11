@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: 以前の展開からサポートされるクライアント'
-TOCTitle: 以前の展開からサポートされるクライアント
-ms:assetid: 69d427f8-57a5-4244-b2ed-f2eb7600285e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398499(v=OCS.15)
-ms:contentKeyID: 48272393
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 以前の展開からサポートされるクライアント'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported clients from previous deployments
+ms:assetid: 69d427f8-57a5-4244-b2ed-f2eb7600285e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398499(v=OCS.15)
+ms:contentKeyID: 48184390
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7b5cbecf45a9ea5203b3e459a895b2bddb0cfe55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848632"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 で以前の展開からサポートされるクライアント
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a><span data-ttu-id="55bbf-102">Lync Server 2013 で以前の展開からサポートされるクライアント</span><span class="sxs-lookup"><span data-stu-id="55bbf-102">Supported clients from previous deployments in Lync Server 2013</span></span>
 
-共存のシナリオでは、Lync Server 2013 クライアントが以前のバージョンの Lync Server および Office Communications Server によるクライアントと対話できます。以前のリリースとは異なり、Lync Server 2010 は新しい Lync 2013 クライアントをサポートしています。これにより、Lync Server 2010 からアップグレードする組織は新しいクライアントを、Lync Server のアップグレードに関係なく、ロールアウトできます。
+</div>
 
-## サポートされるサーバーとクライアントの組み合わせ
+<div id="mainSection">
 
-次の表に、サポートされるクライアント バージョンとサーバー バージョンの組み合わせを示します。Lync Server 2013 では以前の 2 つのクライアント バージョンをサポートしており、Lync Server 2010 では新しい Lync 2013 クライアントをサポートしています。
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="55bbf-103">_**最終更新日:** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="55bbf-103">_**Topic Last Modified:** 2012-12-14_</span></span>
+
+<span data-ttu-id="55bbf-104">共存シナリオでは、Lync Server 2013 クライアントは、以前のバージョンの Lync Server と Office Communications Server のクライアントと対話することができます。</span><span class="sxs-lookup"><span data-stu-id="55bbf-104">In a coexistence scenario, Lync Server 2013 clients can interact with clients from earlier versions of Lync Server and Office Communications Server.</span></span> <span data-ttu-id="55bbf-105">以前のリリースとは異なり、Lync Server 2010 では新しい Lync 2013 クライアントがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="55bbf-105">Unlike previous releases, Lync Server 2010 supports the new Lync 2013 clients.</span></span> <span data-ttu-id="55bbf-106">これにより、Lync Server 2010 からアップグレードしている組織は、Lync Server のアップグレードに関係なく、新しいクライアントを展開することができます。</span><span class="sxs-lookup"><span data-stu-id="55bbf-106">This allows organizations who are upgrading from Lync Server 2010 to roll out new clients independent of Lync Server upgrades.</span></span>
+
+<div>
+
+## <a name="supported-server-and-client-combinations"></a><span data-ttu-id="55bbf-107">サポートされているサーバーとクライアントの組み合わせ</span><span class="sxs-lookup"><span data-stu-id="55bbf-107">Supported Server and Client Combinations</span></span>
+
+<span data-ttu-id="55bbf-108">次の表は、クライアントバージョンとサーバーバージョンのサポートされる組み合わせを示しています。</span><span class="sxs-lookup"><span data-stu-id="55bbf-108">The following table shows the supported combinations of client versions and server versions.</span></span> <span data-ttu-id="55bbf-109">Lync Server 2013 では、2つの以前のクライアントバージョンがサポートされています。 Lync Server 2010 では、新しい Lync 2013 クライアントがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="55bbf-109">Lync Server 2013 supports two previous client versions, and Lync Server 2010 supports the new Lync 2013 client.</span></span>
 
 
 <table>
@@ -31,89 +53,108 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>クライアント</th>
-<th>Lync Server 2013</th>
-<th>Lync Server 2010</th>
-<th>Office Communications Server 2007 R2</th>
+<th><span data-ttu-id="55bbf-110">クライアント</span><span class="sxs-lookup"><span data-stu-id="55bbf-110">Client</span></span></th>
+<th><span data-ttu-id="55bbf-111">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="55bbf-111">Lync Server 2013</span></span></th>
+<th><span data-ttu-id="55bbf-112">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="55bbf-112">Lync Server 2010</span></span></th>
+<th><span data-ttu-id="55bbf-113">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="55bbf-113">Office Communications Server 2007 R2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync 2013</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象外</p></td>
+<td><p><span data-ttu-id="55bbf-114">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="55bbf-114">Lync 2013</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-115">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-115">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-116">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-116">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-117">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-117">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Web App 2013</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象外</p></td>
-<td><p>サポート対象外</p></td>
+<td><p><span data-ttu-id="55bbf-118">Lync Web App 2013</span><span class="sxs-lookup"><span data-stu-id="55bbf-118">Lync Web App 2013</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-119">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-119">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-120">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-120">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-121">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-121">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象外</p></td>
+<td><p><span data-ttu-id="55bbf-122">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="55bbf-122">Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-123">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-123">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-124">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-124">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-125">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-125">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 2010 Attendant</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象外</p></td>
+<td><p><span data-ttu-id="55bbf-126">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="55bbf-126">Lync 2010 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-127">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-127">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-128">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-128">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-129">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-129">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010 グループ チャット</p></td>
-<td><p>該当なし</p></td>
-<td><p>サポート対象1</p></td>
-<td><p>該当なし</p></td>
+<td><p><span data-ttu-id="55bbf-130">Lync 2010 グループ チャット</span><span class="sxs-lookup"><span data-stu-id="55bbf-130">Lync 2010 Group Chat</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-131">該当なし</span><span class="sxs-lookup"><span data-stu-id="55bbf-131">Not Applicable</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-132">Supported1</span><span class="sxs-lookup"><span data-stu-id="55bbf-132">Supported1</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-133">該当なし</span><span class="sxs-lookup"><span data-stu-id="55bbf-133">Not Applicable</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Web App 2010</p></td>
-<td><p>サポート対象外</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象外</p></td>
+<td><p><span data-ttu-id="55bbf-134">Lync Web App 2010</span><span class="sxs-lookup"><span data-stu-id="55bbf-134">Lync Web App 2010</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-135">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-135">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-136">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-136">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-137">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-137">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010 Attendee</p></td>
-<td><p>サポート対象外2</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象外</p></td>
+<td><p><span data-ttu-id="55bbf-138">Lync 2010 Attendee</span><span class="sxs-lookup"><span data-stu-id="55bbf-138">Lync 2010 Attendee</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-139">Supported2 しない</span><span class="sxs-lookup"><span data-stu-id="55bbf-139">Not Supported2</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-140">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-140">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-141">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-141">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Office Communicator 2007 R2</p></td>
-<td><p>相互運用可能3</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象</p></td>
+<td><p><span data-ttu-id="55bbf-142">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="55bbf-142">Office Communicator 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-143">Interoperable3</span><span class="sxs-lookup"><span data-stu-id="55bbf-143">Interoperable3</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-144">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-144">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-145">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-145">Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
-<td><p>サポート対象外</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象</p></td>
+<td><p><span data-ttu-id="55bbf-146">Microsoft Office Communications Server 2007 R2 Attendant</span><span class="sxs-lookup"><span data-stu-id="55bbf-146">Microsoft Office Communications Server 2007 R2 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-147">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-147">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-148">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-148">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-149">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-149">Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Office Communicator 2007</p></td>
-<td><p>サポート対象外</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象</p></td>
+<td><p><span data-ttu-id="55bbf-150">Office Communicator 2007</span><span class="sxs-lookup"><span data-stu-id="55bbf-150">Office Communicator 2007</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-151">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-151">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-152">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-152">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-153">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-153">Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Office Live Meeting 2007</p></td>
-<td><p>サポート対象外</p></td>
-<td><p>サポート対象</p></td>
-<td><p>サポート対象</p></td>
+<td><p><span data-ttu-id="55bbf-154">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="55bbf-154">Office Live Meeting 2007</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-155">サポート対象外</span><span class="sxs-lookup"><span data-stu-id="55bbf-155">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-156">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-156">Supported</span></span></p></td>
+<td><p><span data-ttu-id="55bbf-157">サポート対象</span><span class="sxs-lookup"><span data-stu-id="55bbf-157">Supported</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-1Microsoft Lync Server 2010 では、Lync Server 2010 用の信頼されたサードパーティ アプリケーションであるグループ チャット サーバーを使用してグループ チャット機能を使用できました。Lync 2013 クライアントは Lync Server 2010、グループ チャットと互換性がありません。
+<span data-ttu-id="55bbf-158">1 Microsoft Lync Server 2010、グループチャット機能は、Lync Server 2010 用のサードパーティの信頼済みアプリケーションであるグループチャットサーバーで利用できました。</span><span class="sxs-lookup"><span data-stu-id="55bbf-158">1In Microsoft Lync Server 2010, group chat functionality was available with Group Chat Server, a third-party trusted application for Lync Server 2010.</span></span> <span data-ttu-id="55bbf-159">Lync 2013 クライアントは、Lync Server 2010、グループチャットとは互換性がありません。</span><span class="sxs-lookup"><span data-stu-id="55bbf-159">Lync 2013 clients are not compatible with Lync Server 2010, Group Chat.</span></span>
 
-2Lync Web App 2013 は、コンピューターのオーディオとビデオを含む充実した会議のエクスペリエンスを提供するようになり、Lync 2010 Attendee を置き換えるものとして考えられています。
+<span data-ttu-id="55bbf-160">2Lync Web App 2013 では、コンピューターの音声やビデオなどの完全な会議エクスペリエンスを提供しており、Lync 2010 の出席者の代わりと見なされています。</span><span class="sxs-lookup"><span data-stu-id="55bbf-160">2Lync Web App 2013 now provides a full in-meeting experience, including computer audio and video, and is considered the replacement for Lync 2010 Attendee.</span></span>
 
-3Office Communicator 2007 R2 のプレゼンスと IM 機能は Lync Server 2013 と互換性がありますが、会議機能は互換性がありません。 Office Communications Server 2007 R2 からの移行中は、プレゼンスと IM を相互運用するのに Office Communicator 2007 R2 が適していますが、ユーザーは Lync Server 2013 会議に参加するのに Lync Web App 2013 を使用する必要があります。
+<span data-ttu-id="55bbf-161">3The Communicator 2007 R2 のプレゼンス機能と IM 機能は Lync Server 2013 と互換性がありますが、会議機能は使用できません。</span><span class="sxs-lookup"><span data-stu-id="55bbf-161">3The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not.</span></span> <span data-ttu-id="55bbf-162">Office Communications Server 2007 R2 からの移行中、Office Communicator 2007 R2 はプレゼンスと IM の相互運用性に適していますが、ユーザーは Lync Web App 2013 を使って Lync Server 2013 会議に参加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="55bbf-162">During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.</span></span>
 
-> [!NOTE]
-> Lync Server 2013 クライアントが以前のバージョンの Lync Server と Office Communications Server のクライアントと共存および対話する機能の詳細については、展開に関するドキュメントの「<a href="lync-server-2013-client-interoperability-in-lync-2013.md">Lync 2013 でのクライアント相互運用性</a>」を参照してください。
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="55bbf-163">Lync server 2013 クライアントが以前のバージョンの Lync Server と Office Communications Server のクライアントを共存させて操作する機能の詳細については、計画ドキュメントの「 <A href="lync-server-2013-client-interoperability-in-lync-2013.md">lync 2013 でのクライアントの相互運用性</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="55bbf-163">For details about the ability of Lync Server 2013 clients to coexist and interact with clients from earlier versions of Lync Server and Office Communications Server, see <A href="lync-server-2013-client-interoperability-in-lync-2013.md">Client interoperability in Lync 2013</A> in the Planning documentation.</span></span>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

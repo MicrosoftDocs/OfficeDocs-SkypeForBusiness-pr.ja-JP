@@ -1,60 +1,98 @@
-﻿---
-title: Lync Server 2013 での集中ログ サービスの使用
-TOCTitle: Lync Server 2013 での集中ログ サービスの使用
-ms:assetid: 7b05aaef-f0ea-4649-ba8a-02e68b0cdf23
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688101(v=OCS.15)
-ms:contentKeyID: 49887011
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 集中ログサービスの使用'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using the Centralized Logging Service
+ms:assetid: 7b05aaef-f0ea-4649-ba8a-02e68b0cdf23
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688101(v=OCS.15)
+ms:contentKeyID: 49733700
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03b5e4e2582c7b1738f0a6072197643f4df99238
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848258"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での集中ログ サービスの使用
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a><span data-ttu-id="54dd2-102">Lync Server 2013 での一元管理ログサービスの使用</span><span class="sxs-lookup"><span data-stu-id="54dd2-102">Using the Centralized Logging Service in Lync Server 2013</span></span>
 
-集中ログ サービス は Lync Server 2013 での新機能です。以前のリリースで提供されていた **OCSLogger** および **OCSTracer** ツールを拡張したものです。集中ログ サービス を使用すると次のタスクを実行できます。
+</div>
 
-  - 1 つの場所とコマンドから、1 つ以上のコンピューターおよびプールでログを開始します。
+<div id="mainSection">
 
-  - 1 つの場所とコマンドから、1 つ以上のコンピューターおよびプールのログを停止します。
+<div id="mainBody">
 
-  - 1 つ以上のコンピューターおよびプールで、1 つの場所とコマンドを検索します。検索コマンドを変更して、すべてのコンピューターで取得および格納されたログの集約全体を取得することも、特定のデータに絞り込んだ結果を取得することもできます。
+<span> </span>
 
-  - ログ セッションの構成は次のとおりです。
+<span data-ttu-id="54dd2-103">_**最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="54dd2-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="54dd2-104">一元管理のログサービスは、Lync Server 2013 の新機能です。</span><span class="sxs-lookup"><span data-stu-id="54dd2-104">The Centralized Logging Service is a new feature in Lync Server 2013.</span></span> <span data-ttu-id="54dd2-105">これは、以前のリリースで提供された**Ocslogger**と**ocslogger**のツールの拡張機能です。</span><span class="sxs-lookup"><span data-stu-id="54dd2-105">It is an enhanced replacement for the **OCSLogger** and **OCSTracer** tools that were provided in previous releases.</span></span> <span data-ttu-id="54dd2-106">一元ログサービスを使用して、次のタスクを実行することができます。</span><span class="sxs-lookup"><span data-stu-id="54dd2-106">You can use the Centralized Logging Service to perform the following tasks:</span></span>
+
+  - <span data-ttu-id="54dd2-107">1つまたは複数のコンピューターとプールで、1つの場所とコマンドからのログの記録を開始します。</span><span class="sxs-lookup"><span data-stu-id="54dd2-107">Start logging on one or more computers and pools from a single location and command.</span></span>
+
+  - <span data-ttu-id="54dd2-108">1つまたは複数のコンピューターとプールのログの記録を1つの場所とコマンドから停止します。</span><span class="sxs-lookup"><span data-stu-id="54dd2-108">Stop logging on one or more computers and pools from a single location and command.</span></span>
+
+  - <span data-ttu-id="54dd2-109">1つまたは複数のコンピューターとプールでログを検索し、1つの場所とコマンドを特定します。</span><span class="sxs-lookup"><span data-stu-id="54dd2-109">Search logs on one or more computers and pools for a single location and command.</span></span> <span data-ttu-id="54dd2-110">[検索] コマンドをカスタマイズして、すべてのコンピューターに保存されているログの総計を返すことも、特定のデータをキャプチャするトリムダウン結果を返すこともできます。</span><span class="sxs-lookup"><span data-stu-id="54dd2-110">You can tailor the search command to return the entire aggregation of logs that were captured and stored on all machines, or return a trimmed-down result that captures specific data.</span></span>
+
+  - <span data-ttu-id="54dd2-111">ログ セッションの構成は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="54dd2-111">Configure logging sessions as follows:</span></span>
     
-      - **シナリオ**を定義するか、既定のシナリオを使用します。集中ログ サービス のシナリオは、対象範囲 (グローバルまたはサイト)、シナリオの目的を識別するためのシナリオ名、および 1 つ以上のプロバイダーで構成されています。1 台のコンピューターで同時に 2 つのシナリオを実行できます。
+      - <span data-ttu-id="54dd2-112">**シナリオ**を定義するか、既定のシナリオを使用します。</span><span class="sxs-lookup"><span data-stu-id="54dd2-112">Define a **Scenario**, or use a default scenario.</span></span> <span data-ttu-id="54dd2-113">一元管理サービスの*シナリオ*は、スコープ (グローバルまたはサイト) で構成されています。シナリオ名は、そのシナリオの目的と1つ以上のプロバイダーを識別するために用意されています。</span><span class="sxs-lookup"><span data-stu-id="54dd2-113">A *scenario* in Centralized Logging Service is made up of scope (global or site), a scenario name to identify the purpose of the scenario, and one or more providers.</span></span> <span data-ttu-id="54dd2-114">コンピューターでは、いつでも2つのシナリオを実行できます。</span><span class="sxs-lookup"><span data-stu-id="54dd2-114">You can run two scenarios at any given time on a computer.</span></span>
     
-      - 既存のプロバイダーを使用するか、新しいプロバイダーを作成します。プロバイダーでは、ログ セッションが収集するもの、詳細さのレベル、追跡するコンポーネント、適用されるフラグを定義します。
+      - <span data-ttu-id="54dd2-p104">既存のプロバイダー\*\* を使用するか、新しいプロバイダーを作成します。プロバイダー\*\* では、ログ セッションが収集するもの、詳細さのレベル、追跡するコンポーネント、適用されるフラグを定義します。</span><span class="sxs-lookup"><span data-stu-id="54dd2-p104">Use an existing *provider* or create a new provider. A *provider* defines what the logging session collects, what level of detail, what components to trace, and what flags are applied.</span></span>
+        
+        <div>
         
 
-        > [!TIP]
-        > OCSLogger を使用したことがあれば、プロバイダーは、<STRONG>コンポーネント</STRONG>のコレクション (S4、SIPStack など)、<STRONG>ログ タイプ</STRONG> (WPP、EventLog、IIS ログファイルなど)、<STRONG>トレース レベル</STRONG> (すべて、詳細、デバッグなど)、<STRONG>フラグ</STRONG> (TF_COMPONENT、TF_DIAG など) に相当します。これらの項目はプロバイダーで定義されており (Windows PowerShell 変数)、集中ログ サービス コマンドに渡されます。
+        > [!TIP]  
+        > <span data-ttu-id="54dd2-117">OCSLogger を使用したことがあれば、プロバイダー<EM></EM>は、<STRONG>コンポーネント</STRONG>のコレクション (S4、SIPStack など)、<STRONG>ログ タイプ</STRONG> (WPP、EventLog、IIS ログファイルなど)、<STRONG>トレース レベル</STRONG> (すべて、詳細、デバッグなど)、<STRONG>フラグ</STRONG> (TF_COMPONENT、TF_DIAG など) に相当します。</span><span class="sxs-lookup"><span data-stu-id="54dd2-117">If you are familiar with OCSLogger, the term <EM>providers</EM> refers to the collection of <STRONG>components</STRONG> (for example, S4, SIPStack), a <STRONG>logging type</STRONG> (for example, WPP, EventLog, or IIS logfile), a <STRONG>tracing level</STRONG> (for example, All, verbose, debug), and <STRONG>flags</STRONG> (for example, TF_COMPONENT, TF_DIAG).</span></span> <span data-ttu-id="54dd2-118">これらの項目は、プロバイダー (Windows PowerShell 変数) で定義され、中央の [ログサービス] コマンドに渡されます。</span><span class="sxs-lookup"><span data-stu-id="54dd2-118">These items are defined in the provider (a Windows PowerShell variable) and passed into the Centralized Logging Service command.</span></span>
 
+        
+        </div>
     
-      - ログを収集するコンピューターおよびプールを構成します。
+      - <span data-ttu-id="54dd2-119">ログを収集するコンピューターとプールを構成します。</span><span class="sxs-lookup"><span data-stu-id="54dd2-119">Configure the computers and pools that you want to collect logs from.</span></span>
     
-      - ログ セッションの対象範囲を、**サイト** (そのサイトのコンピューターだけでログ キャプチャを実行します) または**グローバル** (展開のすべてのコンピューターでログ キャプチャを実行します) から定義します。
+      - <span data-ttu-id="54dd2-120">[オプション]**サイト**(そのサイト内のコンピューター上のログキャプチャの実行) または [**グローバル**] (展開のすべてのコンピューターでログのキャプチャを実行する) のログセッションのスコープを定義します。</span><span class="sxs-lookup"><span data-stu-id="54dd2-120">Define the scope for the logging session from the options **Site** (run logging captures on computers in that site only), or **Global** (run logging capture on all computers in the deployment).</span></span>
 
-集中ログ サービス は非常に強力であり、問題の大小にかかわらずほとんどすべてのトラブルシューティングのニーズを満たすことができます。根本原因の分析からパフォーマンスの問題まで、集中ログ サービス はすべての管理者にとって重要なツールになる可能性があります。すべての例は Lync Server 管理シェルを使用して示されています。**CLSController.exe** と呼ばれる 集中ログ サービス 用のコマンドライン コンポーネントがあります。ヘルプはコマンドライン ツール自体で提供されています。ただし、コマンド ラインから実行できる限られた機能のセットがあります。Lync Server 管理シェルを使用することで、さらに豊富で構成可能な機能のセットにアクセスできます。集中ログ サービス を使用するときは、Lync Server 管理シェルを最初に検討する必要があります。
+<span data-ttu-id="54dd2-121">一元的なログサービスは非常に強力であり、問題のトラブルシューティングを行うために、大規模または小規模のニーズをすべて満たすことができます。</span><span class="sxs-lookup"><span data-stu-id="54dd2-121">The Centralized Logging Service is extremely powerful and can meet nearly all of the needs for troubleshooting problems—large or small.</span></span> <span data-ttu-id="54dd2-122">根本原因の分析からパフォーマンスの問題を解決するために、一元管理サービスは、どの管理者にとっても重要なツールである場合があります。</span><span class="sxs-lookup"><span data-stu-id="54dd2-122">From root cause analysis to performance problems, the Centralized Logging Service can be an important tool for any administrator.</span></span> <span data-ttu-id="54dd2-123">すべての例は、Lync Server 管理シェルを使用して表示されます。</span><span class="sxs-lookup"><span data-stu-id="54dd2-123">All examples are shown using the Lync Server Management Shell.</span></span> <span data-ttu-id="54dd2-124">一元管理されたログサービスのコマンドラインコンポーネントが、" **Clscontroller .exe**" と呼ばれています。</span><span class="sxs-lookup"><span data-stu-id="54dd2-124">There is a command-line component for the Centralized Logging Service called **CLSController.exe**.</span></span> <span data-ttu-id="54dd2-125">ツール自体を通じてコマンドラインツールのヘルプが提供されます。</span><span class="sxs-lookup"><span data-stu-id="54dd2-125">Help is provided for the command-line tool through the tool itself.</span></span> <span data-ttu-id="54dd2-126">ただし、コマンドラインから実行できる関数のセットは限られています。</span><span class="sxs-lookup"><span data-stu-id="54dd2-126">However, there is a limited set of functions that you can execute from the command line.</span></span> <span data-ttu-id="54dd2-127">Lync Server 管理シェルを使用すると、より広範で構成可能な機能セットにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="54dd2-127">By using Lync Server Management Shell, you have access to a much larger and much more configurable set of features.</span></span> <span data-ttu-id="54dd2-128">一元管理サービスを使用する場合は、常に Lync Server 管理シェルを最初に考慮する方法として検討する必要があります。</span><span class="sxs-lookup"><span data-stu-id="54dd2-128">You should always consider Lync Server Management Shell as the first and foremost method when using the Centralized Logging Service.</span></span>
 
-このセクションのトピックでは、集中ログ サービス の使用方法を説明し、多くの機能の使用例を示します。
+<span data-ttu-id="54dd2-129">このセクションのトピックでは、一元管理サービスの使用方法と、さまざまな機能の使い方の例について説明します。</span><span class="sxs-lookup"><span data-stu-id="54dd2-129">The topics in this section explain how to use the Centralized Logging Service and examples of how to use its many features.</span></span>
 
-## このセクション中
+<div>
 
-  - [集中ログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)
+## <a name="in-this-section"></a><span data-ttu-id="54dd2-130">このセクション中</span><span class="sxs-lookup"><span data-stu-id="54dd2-130">In This Section</span></span>
 
-  - [PowerShell を使用する集中ログ サービス構成設定の管理](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)
+  - [<span data-ttu-id="54dd2-131">Lync Server 2013 の一元管理されたログサービスの概要</span><span class="sxs-lookup"><span data-stu-id="54dd2-131">Overview of the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-centralized-logging-service.md)
 
-  - [集中ログ サービスの構成設定について](lync-server-2013-understanding-centralized-logging-service-configuration-settings.md)
+  - [<span data-ttu-id="54dd2-132">Lync Server 2013 で中央集中ログサービスの構成設定を管理する</span><span class="sxs-lookup"><span data-stu-id="54dd2-132">Managing the Centralized Logging Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)
 
-  - [集中ログ サービスの Start を使用したログのキャプチャー](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)
+  - [<span data-ttu-id="54dd2-133">Lync Server 2013 の一元ログサービスの構成設定について</span><span class="sxs-lookup"><span data-stu-id="54dd2-133">Understanding Centralized Logging Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-understanding-centralized-logging-service-configuration-settings.md)
 
-  - [集中ログ サービスの Stop の使用](lync-server-2013-using-stop-for-the-centralized-logging-service.md)
+  - [<span data-ttu-id="54dd2-134">Lync Server 2013 でログをキャプチャするために、一元ログサービスの開始を使用する</span><span class="sxs-lookup"><span data-stu-id="54dd2-134">Using Start for the Centralized Logging Service to capture logs in Lync Server 2013</span></span>](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)
 
-  - [集中ログ サービスが作成したキャプチャ ログ検索の使用](lync-server-2013-using-search-on-capture-logs-created-by-the-centralized-logging-service.md)
+  - [<span data-ttu-id="54dd2-135">Lync Server 2013 の中央集中ログサービスに対して Stop を使用する</span><span class="sxs-lookup"><span data-stu-id="54dd2-135">Using Stop for the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-using-stop-for-the-centralized-logging-service.md)
 
-  - [集中ログサービスからキャプチャしたログの閲覧](lync-server-2013-reading-capture-logs-from-the-centralized-logging-service.md)
+  - [<span data-ttu-id="54dd2-136">Lync Server 2013 の中央集中ログサービスで作成されたキャプチャログでの検索の使用</span><span class="sxs-lookup"><span data-stu-id="54dd2-136">Using search on capture logs created by the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-using-search-on-capture-logs-created-by-the-centralized-logging-service.md)
+
+  - [<span data-ttu-id="54dd2-137">Lync Server 2013 の一元ログサービスからのキャプチャログの読み取り</span><span class="sxs-lookup"><span data-stu-id="54dd2-137">Reading capture logs from the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-reading-capture-logs-from-the-centralized-logging-service.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

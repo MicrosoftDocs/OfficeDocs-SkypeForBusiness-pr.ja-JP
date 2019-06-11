@@ -1,33 +1,75 @@
-﻿---
-title: Lync Server 2013 での信頼されたアプリケーション (アプリケーション、コンピューター、エンドポイント、プール)
-TOCTitle: Lync Server 2013 での信頼されたアプリケーション (アプリケーション、コンピューター、エンドポイント、プール)
-ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688073(v=OCS.15)
-ms:contentKeyID: 49886976
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 信頼されているアプリケーション (アプリケーション/コンピューター/エンドポイント/プール)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Trusted applications (application/computer/endpoint/pool)
+ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688073(v=OCS.15)
+ms:contentKeyID: 49733667
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: da1fb1a0629873d283aa7465d6eccc4d40dbf040
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848383"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での信頼されたアプリケーション (アプリケーション、コンピューター、エンドポイント、プール)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a><span data-ttu-id="eb42d-102">Lync Server 2013 の信頼済みアプリケーション (アプリケーション/コンピューター/エンドポイント/プール)</span><span class="sxs-lookup"><span data-stu-id="eb42d-102">Trusted applications (application/computer/endpoint/pool) in Lync Server 2013</span></span>
 
-このセクションの手順を使用して、Lync Server 2013 の信頼されたアプリケーションを管理します。
+</div>
 
-## このセクション中
+<div id="mainSection">
 
-  - [信頼されたアプリケーションの管理](lync-server-2013-managing-trusted-applications.md)
+<div id="mainBody">
 
-## 関連項目
+<span> </span>
 
-[信頼されたアプリケーションのコマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
+<span data-ttu-id="eb42d-103">_**最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="eb42d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-## 関連項目
+<span data-ttu-id="eb42d-104">このセクションの手順を使用して、Lync Server 2013 の信頼済みアプリケーションを管理します。</span><span class="sxs-lookup"><span data-stu-id="eb42d-104">Use the procedures in this section to manage trusted applications for Lync Server 2013.</span></span>
 
-#### その他のリソース
+<div>
 
-[信頼されたアプリケーションの管理](lync-server-2013-managing-trusted-applications.md)
+## <a name="in-this-section"></a><span data-ttu-id="eb42d-105">このセクション中</span><span class="sxs-lookup"><span data-stu-id="eb42d-105">In This Section</span></span>
+
+  - [<span data-ttu-id="eb42d-106">Lync Server 2013 で信頼済みアプリケーションを管理する</span><span class="sxs-lookup"><span data-stu-id="eb42d-106">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)
+
+</div>
+
+<div>
+
+## <a name="related-sections"></a><span data-ttu-id="eb42d-107">関連項目</span><span class="sxs-lookup"><span data-stu-id="eb42d-107">Related Sections</span></span>
+
+[<span data-ttu-id="eb42d-108">Lync Server 2013 の信頼済みアプリケーションコマンドレット</span><span class="sxs-lookup"><span data-stu-id="eb42d-108">Trusted applications cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="eb42d-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="eb42d-109">See Also</span></span>
+
+
+[<span data-ttu-id="eb42d-110">Lync Server 2013 で信頼済みアプリケーションを管理する</span><span class="sxs-lookup"><span data-stu-id="eb42d-110">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
