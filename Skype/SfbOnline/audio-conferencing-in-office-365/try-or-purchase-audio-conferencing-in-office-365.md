@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
-ms.openlocfilehash: e59c895ed60c53b3199648a0acb142037b936c75
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a96e8866671c6a6a268113b4b8ca89c67bed8fa
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302762"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813051"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Skype for Business Online の Office 365 で電話会議を試用または購入する
 
@@ -69,12 +69,10 @@ ms.locfileid: "34302762"
 3. 組織のために[組織の通信クレジットを設定](/microsoftteams/set-up-communications-credits-for-your-organization)します。 コミュニケーション クレジットの設定については、「[コミュニケーション クレジットとは](/microsoftteams/what-are-communications-credits)」を参照してください 。
     
     > [!IMPORTANT]
-    > コミュニケーション クレジットが設定されていない場合、電話会議が分数ごと従量課金ライセンスを持つすべてのユーザーに対して機能しません。
+    > コミュニケーション クレジットが設定されていない場合、電話会議が分数ごと従量課金ライセンスを持つすべてのユーザーに対して機能しません。 また、電話会議の1分あたりのライセンスをお持ちの場合は、電話会議の使用については、各ユーザーに個別に通信クレジットライセンスを割り当てる必要はありませんが、別のサービスに割り当てる必要がある場合もあります。
 
 4. 会議を計画したり主催しようとしてる組織のユーザーに対して購入した [一般法事向け Office 365 ライセンスの割り当てや削除](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) を行います。
 
-    > [!NOTE]
-    > 分数ごと従量課金制電話会議のライセンスがあれば、電話会議の使用率 (他のサービスを割り当てる必要がある可能性があります) の各ユーザーに個別にコミュニケーション クレジットのライセンスを割り当てる必要はありません。
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>手順 2: 会議の主催者または計画者のために電話会議プロバイダーを設定する
 

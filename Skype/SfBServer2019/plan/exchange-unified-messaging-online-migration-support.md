@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft は2020年2月に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止します。 この記事では、影響を受ける顧客がビジネス継続性を計画するときに知っておく必要があることについて説明します。
-ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: 3beaceb8da8169a6d2bb702841e5f040d2e22a66
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702681"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813083"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -137,7 +137,7 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
 | マシン | 発信者機能  | 発信者エクスペリエンス-プライベートボイスメール | 発信者は、レコーディングされたメッセージを非公開としてマークするオプションを選ぶことができます。  | N | Y    |
 | マシン | 発信者機能  | 無音検出   |  | N | Y    |
 | マシン | テナント-管理機能 | サーバーレベルで保護されたボイスメール    | テナント管理者は、受信ボイスメールを保護対象としてマークするサービスレベルルールを構成できます。 | Y | Y    |
-| マシン | テナント-管理機能 | 記録期間の制限を変更する  | CVM ハードコード5分    | N | Y    |
+| マシン | テナント-管理機能 | 記録期間の制限を変更する  |     | Y | Y    |
 | マシン | テナント-管理機能 | 無音検出のタイムアウトを変更する    |  | N/A    | Y    |
 | マシン | テナント-管理機能 | 入力失敗の回数を変更する | CVM: 3 に固定されたハードコード | N | Y    |
 | マシン | テナント-管理機能 | 既定の言語を変更する |  | Y | Y    |
