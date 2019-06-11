@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: MonitoredRegionLink テーブル'
-TOCTitle: MonitoredRegionLink テーブル
-ms:assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398874(v=OCS.15)
-ms:contentKeyID: 48273674
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: MonitoredRegionLink テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: MonitoredRegionLink table
+ms:assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398874(v=OCS.15)
+ms:contentKeyID: 48185487
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a176136f28f7f343dc081ca9b551a672b35e7785
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826767"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の MonitoredRegionLink テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="monitoredregionlink-table-in-lync-server-2013"></a><span data-ttu-id="09795-102">Lync Server 2013 の MonitoredRegionLink テーブル</span><span class="sxs-lookup"><span data-stu-id="09795-102">MonitoredRegionLink table in Lync Server 2013</span></span>
 
-MonitoredRegionLink テーブルは、サポート テーブルです。各レコードは、2 つの国/地域の間の 1 つのリンクを表します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="09795-103">_**最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="09795-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="09795-104">MonitoredRegionLink テーブルはサポートテーブルです。</span><span class="sxs-lookup"><span data-stu-id="09795-104">The MonitoredRegionLink table is a supporting table.</span></span> <span data-ttu-id="09795-105">各レコードは、2つの国/地域間のリンクを1つ表します。</span><span class="sxs-lookup"><span data-stu-id="09795-105">Each record represents one link between two countries/regions.</span></span>
 
 
 <table>
@@ -27,25 +47,36 @@ MonitoredRegionLink テーブルは、サポート テーブルです。各レ�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>列</strong></th>
-<th><strong>データ型</strong></th>
-<th><strong>キー/インデックス</strong></th>
-<th><strong>詳細</strong></th>
+<th><span data-ttu-id="09795-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="09795-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="09795-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="09795-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="09795-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="09795-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="09795-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="09795-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Region1Key</strong></p></td>
-<td><p>int</p></td>
-<td><p>主/プライマリ、外部</p></td>
-<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013 の Region テーブル</a> から参照されます。</p></td>
+<td><p><span data-ttu-id="09795-110"><strong>Region1Key</strong></span><span class="sxs-lookup"><span data-stu-id="09795-110"><strong>Region1Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="09795-111">int</span><span class="sxs-lookup"><span data-stu-id="09795-111">int</span></span></p></td>
+<td><p><span data-ttu-id="09795-112">プライマリ、外部</span><span class="sxs-lookup"><span data-stu-id="09795-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="09795-113"><a href="lync-server-2013-region-table.md">Lync Server 2013 の地域テーブル</a>から参照されている。</span><span class="sxs-lookup"><span data-stu-id="09795-113">Referenced from the <a href="lync-server-2013-region-table.md">Region table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Region2Key</strong></p></td>
-<td><p>int</p></td>
-<td><p>主/プライマリ、外部</p></td>
-<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013 の Region テーブル</a> から参照されます。</p></td>
+<td><p><span data-ttu-id="09795-114"><strong>Region2Key</strong></span><span class="sxs-lookup"><span data-stu-id="09795-114"><strong>Region2Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="09795-115">int</span><span class="sxs-lookup"><span data-stu-id="09795-115">int</span></span></p></td>
+<td><p><span data-ttu-id="09795-116">プライマリ、外部</span><span class="sxs-lookup"><span data-stu-id="09795-116">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="09795-117"><a href="lync-server-2013-region-table.md">Lync Server 2013 の地域テーブル</a>から参照されている。</span><span class="sxs-lookup"><span data-stu-id="09795-117">Referenced from the <a href="lync-server-2013-region-table.md">Region table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

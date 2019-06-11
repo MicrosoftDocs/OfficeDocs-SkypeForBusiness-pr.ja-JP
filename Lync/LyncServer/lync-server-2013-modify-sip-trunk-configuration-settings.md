@@ -1,31 +1,51 @@
-﻿---
-title: SIP トランク構成設定の変更
-TOCTitle: SIP トランク構成設定の変更
-ms:assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688104(v=OCS.15)
-ms:contentKeyID: 49887014
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: SIP トランク構成設定の変更'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modify SIP trunk configuration settings
+ms:assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688104(v=OCS.15)
+ms:contentKeyID: 49733703
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b70b005fc0a276ea7585d2953a3419c713fe478
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826914"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# SIP トランク構成設定の変更
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="03fc2-102">Lync Server 2013 で SIP トランクの設定を変更する</span><span class="sxs-lookup"><span data-stu-id="03fc2-102">Modify SIP trunk configuration settings in Lync Server 2013</span></span>
 
-SIP トランクの構成設定では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX、またはサービス プロバイダーのセッション境界コントローラー (SBC) との間の関係および機能が定義されています。これらの設定は、以下を指定するために使用されます。
+</div>
 
-  - トランクでメディア バイパスを有効にする必要があるかどうか。
+<div id="mainSection">
 
-  - リアルタイム転送制御プロトコル (RTCP) パケットが送信される条件。
+<div id="mainBody">
 
-  - 各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化が必要かどうか。
+<span> </span>
 
-Microsoft Lync Server 2013 をインストールすると、SIP トランクの構成設定のグローバル コレクションが自動的に作成されます。さらに、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定コレクションを作成できます。これらのコレクションはすべて、後で Lync Server コントロール パネルまたは Windows PowerShell を使用して変更できます。
+<span data-ttu-id="03fc2-103">_**最終更新日:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="03fc2-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-Lync Server コントロール パネルを使用して SIP トランクの構成設定を変更するときは、次のオプションを使用できます。
+<span data-ttu-id="03fc2-104">SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチ交換 (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) 間の関係と機能を定義します。</span><span class="sxs-lookup"><span data-stu-id="03fc2-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="03fc2-105">たとえば、次の設定ができます。</span><span class="sxs-lookup"><span data-stu-id="03fc2-105">These settings do such things as specify:</span></span>
+
+  - <span data-ttu-id="03fc2-106">トランクでメディア バイパスを有効化するか。</span><span class="sxs-lookup"><span data-stu-id="03fc2-106">Whether media bypass should be enabled on the trunks.</span></span>
+
+  - <span data-ttu-id="03fc2-107">リアルタイム伝送制御プロトコル (RTCP) パケットを送信する条件。</span><span class="sxs-lookup"><span data-stu-id="03fc2-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
+
+  - <span data-ttu-id="03fc2-108">各トランクで、セキュリティで保護されたリアルタイムプロトコル (SRTP) 暗号化が必要かどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="03fc2-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
+
+<span data-ttu-id="03fc2-109">Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。</span><span class="sxs-lookup"><span data-stu-id="03fc2-109">When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="03fc2-110">また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="03fc2-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="03fc2-111">Lync Server コントロールパネルまたは Windows PowerShell を使用して、後でこれらのコレクションのいずれかを変更できます。</span><span class="sxs-lookup"><span data-stu-id="03fc2-111">Any of these collections can later be modified using either Lync Server Control Panel or Windows PowerShell.</span></span>
+
+<span data-ttu-id="03fc2-112">Lync Server コントロールパネルを使用して SIP トランクの構成設定を変更する場合は、次のオプションを利用できます。</span><span class="sxs-lookup"><span data-stu-id="03fc2-112">When modifying SIP trunk configuration settings using Lync Server Control Panel, the following options are available to you:</span></span>
 
 
 <table>
@@ -36,130 +56,150 @@ Lync Server コントロール パネルを使用して SIP トランクの構�
 </colgroup>
 <thead>
 <tr class="header">
-<th>UI 設定</th>
-<th>PowerShell のパラメーター</th>
-<th>説明</th>
+<th><span data-ttu-id="03fc2-113">UI 設定</span><span class="sxs-lookup"><span data-stu-id="03fc2-113">UI Setting</span></span></th>
+<th><span data-ttu-id="03fc2-114">PowerShell パラメーター</span><span class="sxs-lookup"><span data-stu-id="03fc2-114">PowerShell Parameter</span></span></th>
+<th><span data-ttu-id="03fc2-115">説明</span><span class="sxs-lookup"><span data-stu-id="03fc2-115">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名前</p></td>
-<td><p>Identity</p></td>
-<td><p>コレクションの一意の識別子。このプロパティは読み取り専用です。トランク構成設定のコレクションの Identity は変更できません。</p></td>
+<td><p><span data-ttu-id="03fc2-116">名前</span><span class="sxs-lookup"><span data-stu-id="03fc2-116">Name</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-117">ID</span><span class="sxs-lookup"><span data-stu-id="03fc2-117">Identity</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-p103">コレクションの一意の識別子。このプロパティは読み取り専用です。トランク構成設定のコレクションの Identity は変更できません。</span><span class="sxs-lookup"><span data-stu-id="03fc2-p103">Unique identifier for the collection. This property is read-only; you cannot change the Identity of a collection of trunk configuration settings.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>説明</p></td>
-<td><p>Description</p></td>
-<td><p>管理者が、設定に関する追加情報を格納できます (たとえば、トランク構成の目的)。</p></td>
+<td><p><span data-ttu-id="03fc2-120">説明</span><span class="sxs-lookup"><span data-stu-id="03fc2-120">Description</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-121">説明</span><span class="sxs-lookup"><span data-stu-id="03fc2-121">Description</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-122">管理者が、設定に関する追加情報を格納できます (たとえば、トランク構成の目的)。</span><span class="sxs-lookup"><span data-stu-id="03fc2-122">Provides a way for administrators to store addition information about the settings (for example, the purpose of the trunk configuration).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>サポートされる最大初期ダイアログの数</p></td>
-<td><p>MaxEarlyDialogs</p></td>
-<td><p>サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC が、仲介サーバーに送信した INVITE に対して受信できる分岐応答の最大数です。</p></td>
+<td><p><span data-ttu-id="03fc2-123">サポートされる最大初期ダイアログの数</span><span class="sxs-lookup"><span data-stu-id="03fc2-123">Maximum early dialogs supported</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-124">MaxEarlyDialogs</span><span class="sxs-lookup"><span data-stu-id="03fc2-124">MaxEarlyDialogs</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-125">サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC が、仲介サーバーに送信した INVITE に対して受信できる分岐応答の最大数です。</span><span class="sxs-lookup"><span data-stu-id="03fc2-125">The maximum number of forked responses a PSTN gateway, IP-PBX, or SBC at the service provider can receive to an Invite that it sent to the Mediation Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>暗号化サポート レベル</p></td>
-<td><p>SRTPMode</p></td>
-<td><p>仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。メディア構成は、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> コマンドレットおよび <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> コマンドレットを使用して設定します。</p>
-<p>有効な値は次のとおりです。</p>
+<td><p><span data-ttu-id="03fc2-126">暗号化サポート レベル</span><span class="sxs-lookup"><span data-stu-id="03fc2-126">Encryption support level</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-127">SRTPMode</span><span class="sxs-lookup"><span data-stu-id="03fc2-127">SRTPMode</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-128">仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。</span><span class="sxs-lookup"><span data-stu-id="03fc2-128">Indicates the level of support for protecting media traffic between the Mediation Server and the PSTN Gateway, IP-PBX, or SBC at the service provider.</span></span> <span data-ttu-id="03fc2-129">メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。</span><span class="sxs-lookup"><span data-stu-id="03fc2-129">For media bypass cases, this value must be compatible with the EncryptionLevel setting in the media configuration.</span></span> <span data-ttu-id="03fc2-130">メディア構成は、 <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">CsMediaConfiguration</a>コマンドレットと<a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">CsMediaConfiguration</a>コマンドレットを使用して設定されます。</span><span class="sxs-lookup"><span data-stu-id="03fc2-130">Media configuration is set by using the <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> and <a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> cmdlets.</span></span></p>
+<p><span data-ttu-id="03fc2-131">有効な値は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="03fc2-131">Allowed values are:</span></span></p>
 <ul>
-<li><p>Required: SRTP 暗号化を使用する必要があります。</p></li>
-<li><p>Optional: ゲートウェイでサポートされている場合は、SRTP が使用されます。</p></li>
-<li><p>Not Supported: SRTP 暗号化がサポートされていないので、使用されません。</p></li>
+<li><p><span data-ttu-id="03fc2-132">Required: SRTP 暗号化を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="03fc2-132">Required: SRTP encryption must be used.</span></span></p></li>
+<li><p><span data-ttu-id="03fc2-133">Optional: ゲートウェイでサポートされている場合は、SRTP が使用されます。</span><span class="sxs-lookup"><span data-stu-id="03fc2-133">Optional: SRTP will be used if the gateway supports it.</span></span></p></li>
+<li><p><span data-ttu-id="03fc2-134">Not Supported: SRTP 暗号化がサポートされていないので、使用されません。</span><span class="sxs-lookup"><span data-stu-id="03fc2-134">Not Supported: SRTP encryption is not supported and therefore will not be used.</span></span></p></li>
 </ul>
-<p>SRTPMode は、ゲートウェイがトランスポート層セキュリティ (TLS) プロトコルを使用するよう構成されている場合にのみ使用されます。ゲートウェイがトランスポートとして伝送制御プロトコル (TCP) を使用するように構成されている場合は、SRTPMode は内部で Not Supported に設定されます。</p></td>
+<p><span data-ttu-id="03fc2-p105">SRTPMode は、ゲートウェイがトランスポート層セキュリティ (TLS) プロトコルを使用するよう構成されている場合にのみ使用されます。ゲートウェイがトランスポートとして伝送制御プロトコル (TCP) を使用するように構成されている場合は、SRTPMode は内部で Not Supported に設定されます。</span><span class="sxs-lookup"><span data-stu-id="03fc2-p105">SRTPMode is used only if the gateway is configured to use Transport Layer Security (TLS). If the gateway is configured with Transmission Control Protocol (TCP) as the transport, SRTPMode is internally set to Not Supported.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>サポートの参照</p></td>
-<td><p>Enable3pccRefer</p>
-<p>EnableReferSupport</p></td>
-<td><p>[<strong>ゲートウェイへの参照の送信を有効にする</strong>] に設定した場合、トランクが仲介サーバーからの REFER 要求の受信をサポートすることを示します。</p>
-<p>[<strong>サードパーティ通話コントロールを使用する参照を有効にする</strong>] に設定すると、3PCC プロトコルを使用して転送される通話がホストされたサイトをバイパスできるようにすることを示します。3PCC は、「三者間通話コントロール」とも呼ばれ、第三者を使用して二人の通話者を接続するとき (たとえば、オペレーターが人物 A から人物 B への通話を接続するとき) に使用します。</p></td>
+<td><p><span data-ttu-id="03fc2-137">サポートの参照</span><span class="sxs-lookup"><span data-stu-id="03fc2-137">Refer support</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-138">Enable3pccRefer</span><span class="sxs-lookup"><span data-stu-id="03fc2-138">Enable3pccRefer</span></span></p>
+<p><span data-ttu-id="03fc2-139">EnableReferSupport</span><span class="sxs-lookup"><span data-stu-id="03fc2-139">EnableReferSupport</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-140">[<strong>ゲートウェイへの参照の送信を有効にする</strong>] に設定した場合、トランクが仲介サーバーからの REFER 要求の受信をサポートすることを示します。</span><span class="sxs-lookup"><span data-stu-id="03fc2-140">If set to <strong>Enable sending refer to the gateway</strong>, indicates that the trunk supports receiving Refer requests from the Mediation Server.</span></span></p>
+<p><span data-ttu-id="03fc2-141">[<strong>サードパーティ通話コントロールを使用する参照を有効にする</strong>] に設定すると、3PCC プロトコルを使用して転送される通話がホストされたサイトをバイパスできるようにすることを示します。</span><span class="sxs-lookup"><span data-stu-id="03fc2-141">If set to <strong>Enable refer using third-party call control</strong>, indicates that the 3pcc protocol can be used to allow transferred calls to bypass the hosted site.</span></span> <span data-ttu-id="03fc2-142">3pcc はサードパーティコントロール&quot;&quot;とも呼ばれ、サードパーティが1組の発信者に接続するために使用される場合 (たとえば、ユーザー a からメンバー B に電話をかけているオペレーターなど) に発生します。</span><span class="sxs-lookup"><span data-stu-id="03fc2-142">3pcc is also known as &quot;third party control,&quot; and occurs when a third-party is used to connect a pair of callers (for example, an operator placing a call from person A to person B).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>メディアのバイパスを有効にする</p></td>
-<td><p>EnableBypass</p></td>
-<td><p>メディア バイパスがこのトランクに対して有効かどうかを示します。メディア バイパスは、[<strong>集中メディア処理</strong>] も有効になっている場合にのみ有効にできます。</p></td>
+<td><p><span data-ttu-id="03fc2-143">メディアのバイパスを有効にする</span><span class="sxs-lookup"><span data-stu-id="03fc2-143">Enable media bypass</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-144">EnableBypass</span><span class="sxs-lookup"><span data-stu-id="03fc2-144">EnableBypass</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-p107">メディア バイパスがこのトランクに対して有効かどうかを示します。メディア バイパスは、[<strong>集中メディア処理</strong>] も有効になっている場合にのみ有効にできます。</span><span class="sxs-lookup"><span data-stu-id="03fc2-p107">Indicates whether media bypass is enabled for this trunk. Media bypass can only be enabled if <strong>Centralized media processing</strong> is also enabled.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>集中メディア処理</p></td>
-<td><p>ConcentratedTopology</p></td>
-<td><p>既知のメディア終端ポイントがあるかどうかを示します (既知のメディア終端ポイントの例として、メディア終端が信号終端と同じ IP を持つ PSTN ゲートウェイがあります)。</p></td>
+<td><p><span data-ttu-id="03fc2-147">集中メディア処理</span><span class="sxs-lookup"><span data-stu-id="03fc2-147">Centralized media processing</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-148">ConcentratedTopology</span><span class="sxs-lookup"><span data-stu-id="03fc2-148">ConcentratedTopology</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-p108">既知のメディア終端ポイントがあるかどうかを示します (既知のメディア終端ポイントの例として、メディア終端が信号終端と同じ IP を持つ PSTN ゲートウェイがあります)。</span><span class="sxs-lookup"><span data-stu-id="03fc2-p108">Indicates whether there is a well-known media termination point. (An example of a well-known media termination point would be a PSTN gateway where the media termination has the same IP as the signaling termination.)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>RTP ラッチを有効にする</p></td>
-<td><p>EnableRTPLatching</p></td>
-<td><p>SIP トランクが RTP ラッチをサポートするかどうかを示します。RTP ラッチは、NAT (ネットワーク アドレス変換) 装置またはファイアウォールを経由した RTP/RTCP 接続を可能にする技術です。</p></td>
+<td><p><span data-ttu-id="03fc2-151">RTP ラッチを有効にする</span><span class="sxs-lookup"><span data-stu-id="03fc2-151">Enable RTP latching</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-152">EnableRTPLatching</span><span class="sxs-lookup"><span data-stu-id="03fc2-152">EnableRTPLatching</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-p109">SIP トランクが RTP ラッチをサポートするかどうかを示します。RTP ラッチは、NAT (ネットワーク アドレス変換) 装置またはファイアウォールを経由した RTP/RTCP 接続を可能にする技術です。</span><span class="sxs-lookup"><span data-stu-id="03fc2-p109">Indicates whether or not the SIP trunks support RTP latching. RTP latching is a technology that enables RTP/RTCP connectivity through a NAT (network address translator) device or firewall.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>着信転送履歴を有効にする</p></td>
-<td><p>ForwardCallHistory</p></td>
-<td><p>通話履歴の情報をトランク経由で転送するかどうかを示します。</p></td>
+<td><p><span data-ttu-id="03fc2-155">着信転送履歴を有効にする</span><span class="sxs-lookup"><span data-stu-id="03fc2-155">Enable forward call history</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-156">ForwardCallHistory</span><span class="sxs-lookup"><span data-stu-id="03fc2-156">ForwardCallHistory</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-157">通話履歴の情報をトランク経由で転送するかどうかを指定します。</span><span class="sxs-lookup"><span data-stu-id="03fc2-157">Indicates whether call history information will be forwarded through the trunk.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>P-Asserted-Identity データの転送を有効にする</p></td>
-<td><p>ForwardPAI</p></td>
-<td><p>P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。PAI ヘッダーがあれば、発信者 ID を確認できます。</p></td>
+<td><p><span data-ttu-id="03fc2-158">P-Asserted-Identity データの転送を有効にする</span><span class="sxs-lookup"><span data-stu-id="03fc2-158">Enable forward P-Asserted-Identity data</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-159">ForwardPAI</span><span class="sxs-lookup"><span data-stu-id="03fc2-159">ForwardPAI</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-p110">P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。PAI ヘッダーがあれば、発信者 ID を確認できます。</span><span class="sxs-lookup"><span data-stu-id="03fc2-p110">Indicates whether the P-Asserted-Identity (PAI) header will be forwarded along with the call. The PAI header provides a way to verify the identity of the caller.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>送信ルーティング フェールオーバー タイマーを有効にする</p></td>
-<td><p>EnableFastFailoverTimer</p></td>
-<td><p>発信通話が 10 秒以内にゲートウェイによって応答されない場合に次に使用できるトランクにルーティングするかどうかを示します。他にトランクがない場合は、通話は自動的に破棄されます。ネットワークおよびゲートウェイの応答が遅い環境の場合、通話が不必要に破棄されるようになる可能性があります。</p></td>
+<td><p><span data-ttu-id="03fc2-162">送信ルーティング フェールオーバー タイマーを有効にする</span><span class="sxs-lookup"><span data-stu-id="03fc2-162">Enable outbound routing failover timer</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-163">EnableFastFailoverTimer</span><span class="sxs-lookup"><span data-stu-id="03fc2-163">EnableFastFailoverTimer</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-p111">発信通話が 10 秒以内にゲートウェイによって応答されない場合に次に使用できるトランクにルーティングするかどうかを示します。他にトランクがない場合は、通話は自動的に破棄されます。ネットワークおよびゲートウェイの応答が遅い環境の場合、通話が不必要に破棄されるようになる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="03fc2-p111">Indicates whether outbound calls that are not answered by the gateway within 10 seconds will be routed to the next available trunk; if there are no additional trunks then the call will automatically be dropped. In an organization with slow networks and gateway responses, that could potentially result in calls being dropped unnecessarily.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>関連付けられている PSTN 使用法</p></td>
-<td><p>PSTNUsages</p></td>
-<td><p>トランクに割り当てられた PSTN 使用法のコレクションです。</p></td>
+<td><p><span data-ttu-id="03fc2-166">関連付けられている PSTN 使用法</span><span class="sxs-lookup"><span data-stu-id="03fc2-166">Associated PSTN usages</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-167">PSTNUsages</span><span class="sxs-lookup"><span data-stu-id="03fc2-167">PSTNUsages</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-168">トランクに割り当てられた PSTN 使用法のコレクションです。</span><span class="sxs-lookup"><span data-stu-id="03fc2-168">Collection of PSTN usages assigned to the trunk.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>テストする変換後の番号</p></td>
-<td><p>該当なし</p></td>
-<td><p>トランクの構成設定の臨時テストを行うために使用できる電話番号です。</p></td>
+<td><p><span data-ttu-id="03fc2-169">テストする変換後の番号</span><span class="sxs-lookup"><span data-stu-id="03fc2-169">Translated number to test</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-170">N/A</span><span class="sxs-lookup"><span data-stu-id="03fc2-170">N/A</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-171">トランクの構成設定の臨時テストを行うために使用できる電話番号です。</span><span class="sxs-lookup"><span data-stu-id="03fc2-171">Phone number that can be used to do an ad hoc test of the trunk configuration settings.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>関連付けられている変換ルール</p></td>
-<td><p>OutboundTranslationRulesList</p></td>
-<td><p>発信ルーティングによって処理される通話 (PBX または PSTN の宛先にルーティングされる通話) に適用される、電話番号変換ルールのコレクションです。</p></td>
+<td><p><span data-ttu-id="03fc2-172">関連付けられている変換ルール</span><span class="sxs-lookup"><span data-stu-id="03fc2-172">Associated translation rules</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-173">OutboundTranslationRulesList</span><span class="sxs-lookup"><span data-stu-id="03fc2-173">OutboundTranslationRulesList</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-174">発信ルーティングによって処理される通話 (PBX または PSTN の宛先にルーティングされる通話) に適用される、電話番号変換ルールのコレクションです。</span><span class="sxs-lookup"><span data-stu-id="03fc2-174">Collection of phone number translation rules that apply to calls handled by Outbound Routing (calls routed to PBX or PSTN destinations).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>着信者番号の変換ルール</p></td>
-<td><p>OutboundCallingNumberTranslationRulesList</p></td>
-<td><p>トランクに割り当てられた発信電話番号の変換ルールのコレクションです。</p></td>
+<td><p><span data-ttu-id="03fc2-175">着信者番号の変換ルール</span><span class="sxs-lookup"><span data-stu-id="03fc2-175">Called number translation rules</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-176">OutboundCallingNumberTranslationRulesList</span><span class="sxs-lookup"><span data-stu-id="03fc2-176">OutboundCallingNumberTranslationRulesList</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-177">トランクに割り当てられた発信電話番号の変換ルールのコレクションです。</span><span class="sxs-lookup"><span data-stu-id="03fc2-177">Collection of outbound calling number translation rules assigned to the trunk.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>テストする電話番号</p></td>
-<td><p>該当なし</p></td>
-<td><p>変換ルールの臨時テストを行うために使用できる電話番号です。</p></td>
+<td><p><span data-ttu-id="03fc2-178">テストする電話番号</span><span class="sxs-lookup"><span data-stu-id="03fc2-178">Phone number to test</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-179">N/A</span><span class="sxs-lookup"><span data-stu-id="03fc2-179">N/A</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-180">変換ルールの臨時テストを行うために使用できる電話番号です。</span><span class="sxs-lookup"><span data-stu-id="03fc2-180">Phone number that can be used to do an ad hoc test of the translation rules.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>発信者番号</p></td>
-<td><p>該当なし</p></td>
-<td><p>テストする電話番号が発信者の電話番号であることを示します。</p></td>
+<td><p><span data-ttu-id="03fc2-181">発信者番号</span><span class="sxs-lookup"><span data-stu-id="03fc2-181">Calling number</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-182">N/A</span><span class="sxs-lookup"><span data-stu-id="03fc2-182">N/A</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-183">テストする電話番号が発信者の電話番号であることを示します。</span><span class="sxs-lookup"><span data-stu-id="03fc2-183">Indicates that the phone number to test is the phone number of the caller.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>着信者番号</p></td>
-<td><p>該当なし</p></td>
-<td><p>テストする電話番号が着信者の電話番号であることを示します。</p></td>
+<td><p><span data-ttu-id="03fc2-184">着信者番号</span><span class="sxs-lookup"><span data-stu-id="03fc2-184">Called number</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-185">該当なし</span><span class="sxs-lookup"><span data-stu-id="03fc2-185">N/A</span></span></p></td>
+<td><p><span data-ttu-id="03fc2-186">テストする電話番号が着信者の電話番号であることを示します。</span><span class="sxs-lookup"><span data-stu-id="03fc2-186">Indicates that the phone number to test is the phone number of the person being called.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]
-> Lync Server の CsTrunkConfiguration コマンドレットは、Lync Server コントロール パネルに表示されていない他のプロパティをサポートします。詳細については、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</a> コマンドレットのヘルプ トピックを参照してください。
+<div>
 
 
-## Lync Server コントロール パネルを使用した SIP トランク構成設定の変更
+> [!NOTE]  
+> <span data-ttu-id="03fc2-187">Lync Server の Set-cstrunkconfiguration コマンドレットでは、Lync Server コントロールパネルに表示されない追加のプロパティがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="03fc2-187">The Lync Server CsTrunkConfiguration cmdlets support additional properties not shown in Lync Server Control Panel.</span></span> <span data-ttu-id="03fc2-188">詳細については、 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</A>コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="03fc2-188">For more information, see the help topic for the <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</A> cmdlet.</span></span>
 
-1.  Lync Server コントロール パネルで、\[**音声のルーティング**\] をクリックし、\[**トランク構成**\] をクリックします。
 
-2.  \[**トランク構成**\] タブで、変更するトランク構成の設定をダブルクリックします。編集できる設定のコレクションは一度に 1 つだけです。複数のコレクションで同じ変更を行う場合は、Windows PowerShell を使用してください。
 
-3.  \[**トランク構成の編集**\] ダイアログ ボックスで、適切な選択を行った後、\[**OK**\] をクリックします。
+</div>
 
-4.  コレクションの \[**状態**\] プロパティが、\[**コミットされていません**\] に変わります。変更をコミットし、コレクションを削除するには、\[**コミット**\] をクリックした後、\[**すべてコミット**\] をクリックします。
+<div>
 
-5.  \[**コミットされていない音声構成設定**\] ダイアログ ボックスで、\[**OK**\] をクリックします。
+## <a name="to-modify-sip-trunk-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="03fc2-189">Lync Server コントロールパネルを使用して SIP トランクの設定を変更するには</span><span class="sxs-lookup"><span data-stu-id="03fc2-189">To modify SIP trunk configuration settings by using Lync Server Control Panel</span></span>
 
-6.  \[**Microsoft Lync Server 2013 コントロール パネル**\] ダイアログ ボックスで、\[**OK**\] をクリックします。
+1.  <span data-ttu-id="03fc2-190">Lync Server コントロールパネルで、[**音声ルーティング**] をクリックし、[ **Trunk 構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="03fc2-190">In Lync Server Control Panel, click **Voice Routing**, and then click **Trunk Configuration**.</span></span>
+
+2.  <span data-ttu-id="03fc2-p113">[**トランク構成**] タブで、変更するトランク構成の設定をダブルクリックします。編集できる設定のコレクションは一度に 1 つだけです。複数のコレクションで同じ変更を行う場合は、Windows PowerShell を使用してください。</span><span class="sxs-lookup"><span data-stu-id="03fc2-p113">On the **Trunk Configuration** tab, double-click the trunk configuration settings to be modified. Note that you can only edit one collection of settings at a time. If you would like to make the same changes on multiple collections, use Windows PowerShell instead.</span></span>
+
+3.  <span data-ttu-id="03fc2-194">[**トランク構成の編集**] ダイアログ ボックスで、適切な選択を行った後、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="03fc2-194">In the **Edit Trunk Configuration** dialog, make the appropriate selections and then click **OK**.</span></span>
+
+4.  <span data-ttu-id="03fc2-p114">コレクションの [**状態**] プロパティが、[**コミットされていません**] に変わります。変更をコミットし、コレクションを削除するには、[**コミット**] をクリックした後、[**すべてコミット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="03fc2-p114">The **State** property for the collection will be updated to **Uncommitted**. To commit the changes, and to delete the collection, click **Commit** and then click **Commit All**.</span></span>
+
+5.  <span data-ttu-id="03fc2-197">[**コミットされていない音声構成設定**] ダイアログ ボックスで、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="03fc2-197">In the **Uncommitted Voice Configuration Settings** dialog box, click **OK**.</span></span>
+
+6.  <span data-ttu-id="03fc2-198">[ **Microsoft Lync Server 2013 コントロールパネル**] ダイアログボックスで、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="03fc2-198">In the **Microsoft Lync Server 2013 Control Panel** dialog box click **OK**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

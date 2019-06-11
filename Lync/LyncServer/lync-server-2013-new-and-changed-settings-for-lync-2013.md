@@ -1,23 +1,45 @@
-﻿---
-title: Lync 2013 の新しい設定と変更された設定
-TOCTitle: Lync 2013 の新しい設定と変更された設定
-ms:assetid: bb13789c-7eda-461c-a387-02ea8ca4dabe
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205204(v=OCS.15)
-ms:contentKeyID: 48273420
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync 2013 の新しい設定と変更された設定'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New and changed settings for Lync 2013
+ms:assetid: bb13789c-7eda-461c-a387-02ea8ca4dabe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205204(v=OCS.15)
+ms:contentKeyID: 48185241
+ms.date: 12/08/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 675997e815dc80ec173e75ca68358ef23c12f380
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826473"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync 2013 の新しい設定と変更された設定
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="new-and-changed-settings-for-lync-2013"></a><span data-ttu-id="6e240-102">Lync 2013 の新しい設定と変更された設定</span><span class="sxs-lookup"><span data-stu-id="6e240-102">New and changed settings for Lync 2013</span></span>
 
-このトピックでは、クライアント管理に直接関連する Lync Server 管理シェル コマンドレットへの変更について説明します。Lync Server 2013 は、いくつかの新しいパラメーターを紹介し、他の方法で構成できる機能の非推奨パラメーターについて説明します。
+</div>
 
-## 新しいクライアント管理パラメーター
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="6e240-103">_**最終更新日:** 2014-12-05_</span><span class="sxs-lookup"><span data-stu-id="6e240-103">_**Topic Last Modified:** 2014-12-05_</span></span>
+
+<span data-ttu-id="6e240-104">このトピックでは、クライアント管理に直接関連する Lync Server 管理シェルコマンドレットの変更について説明します。</span><span class="sxs-lookup"><span data-stu-id="6e240-104">This topic discusses changes to Lync Server Management Shell cmdlets that relate directly to client management.</span></span> <span data-ttu-id="6e240-105">Lync Server 2013 には、いくつかの新しいパラメーターと、他の手段で構成できる機能の deprecates パラメーターが導入されています。</span><span class="sxs-lookup"><span data-stu-id="6e240-105">Lync Server 2013 introduces several new parameters, and deprecates parameters for features that can be configured through other means.</span></span>
+
+<div>
+
+## <a name="new-client-management-parameters"></a><span data-ttu-id="6e240-106">新しいクライアント管理パラメーター</span><span class="sxs-lookup"><span data-stu-id="6e240-106">New Client Management Parameters</span></span>
 
 
 <table>
@@ -28,78 +50,75 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>新規</th>
-<th>Lync Server 管理シェル コマンドレット</th>
-<th>説明</th>
+<th><span data-ttu-id="6e240-107">新機能</span><span class="sxs-lookup"><span data-stu-id="6e240-107">New</span></span></th>
+<th><span data-ttu-id="6e240-108">Lync Server Management Shell コマンドレット</span><span class="sxs-lookup"><span data-stu-id="6e240-108">Lync Server Management Shell Cmdlet</span></span></th>
+<th><span data-ttu-id="6e240-109">説明</span><span class="sxs-lookup"><span data-stu-id="6e240-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>TracingLevel</p></td>
-<td><p>CsClientPolicy</p></td>
-<td><p>True に設定されている場合、ソフトウェア トレースが Lync で有効になります。False に設定されている場合、ソフトウェア トレースは無効になります。ソフトウェア トレースでは、API 呼び出しの追跡などのプログラムの動作すべてについて、詳細な記録を保持します。トレースは、開発者やアプリケーション サポートの要員にとって特に役立ちます。この設定は、Communications Server 2007 R2 のグループ ポリシー設定 &quot;Communicator のトレースをオンにする&quot; と同等です。設定は次のとおりです。</p>
+<td><p><span data-ttu-id="6e240-110">TracingLevel</span><span class="sxs-lookup"><span data-stu-id="6e240-110">TracingLevel</span></span></p></td>
+<td><p><span data-ttu-id="6e240-111">Set-csclientpolicy</span><span class="sxs-lookup"><span data-stu-id="6e240-111">CsClientPolicy</span></span></p></td>
+<td><p><span data-ttu-id="6e240-112">True に設定すると、Lync でソフトウェアのトレースが有効になります。False に設定すると、ソフトウェアのトレースが無効になります。</span><span class="sxs-lookup"><span data-stu-id="6e240-112">When set to True, software tracing will be enabled in Lync; when set to False, software tracing will be disabled.</span></span> <span data-ttu-id="6e240-113">ソフトウェアトレースには、プログラムで行われるすべての情報 (追跡 API 呼び出しを含む) の詳細な記録が含まれています。</span><span class="sxs-lookup"><span data-stu-id="6e240-113">Software tracing involves keeping a detailed record of everything that a program does (including tracking API calls).</span></span> <span data-ttu-id="6e240-114">トレースは、ほとんどが開発者やアプリケーションのサポート担当者にとって役立ちます。この設定は、Communications Server 2007 R2 グループポリシー設定&quot;と同じです。 Communicator のトレースを有効にします。&quot;設定は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="6e240-114">Tracing is mostly useful to developers and to application support personnel.This setting is equivalent to the Communications Server 2007 R2 Group Policy setting &quot;Turn on tracing for Communicator.&quot; The settings are as follows:</span></span></p>
 <ul>
-<li><p>Off = トレースは無効です。ユーザーはこの設定を変更できません。</p></li>
-<li><p>Light = 最小のトレースが実行されます。ユーザーはこの設定を変更できません。</p></li>
-<li><p>On = 詳細なトレースが実行されます。ユーザーはこの設定を変更できません。</p></li>
+<li><p><span data-ttu-id="6e240-115">オフ = トレースは無効になり、ユーザーはこの設定を変更できません。</span><span class="sxs-lookup"><span data-stu-id="6e240-115">Off = Tracing is disabled and the user cannot change this setting.</span></span></p></li>
+<li><p><span data-ttu-id="6e240-116">Light = 最小トレースが実行され、ユーザーはこの設定を変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="6e240-116">Light = Minimal tracing is performed, and the user cannot change this setting.</span></span></p></li>
+<li><p><span data-ttu-id="6e240-117">On = 詳細トレースが実行され、ユーザーはこの設定を変更できません。</span><span class="sxs-lookup"><span data-stu-id="6e240-117">On = Verbose tracing is performed, and the user cannot change this setting.</span></span></p></li>
 </ul>
-<p>既定では、TracingLevel は null 値に設定されます。この場合、最小限のトレースが実行されますが、ユーザーはこの最小限のトレースを有効または無効にすることができます。 </p></td>
+<p><span data-ttu-id="6e240-118">既定では、TracingLevel は null 値に設定されます。</span><span class="sxs-lookup"><span data-stu-id="6e240-118">By default TracingLevel is set to a null value.</span></span> <span data-ttu-id="6e240-119">つまり、最小限のトレースが実行されますが、ユーザーはこの最小トレースを有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="6e240-119">That means that minimal tracing is performed, but the user can enable or disable this minimal tracing.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>EnableMediaRedirection</p></td>
-<td><p>CsClientPolicy</p></td>
-<td><p>True ($True) に設定されている場合、オーディオおよびビデオ ストリームを他のネットワーク トラフィックから切り離すことができます。これにより、クライアント デバイスでオーディオおよびビデオのエンコードとデコードをローカルに実行できるようになります。通常、メディア リダイレクトを使用すると、デバイス リモーティングやコーデック圧縮などの類似の手法を使用した場合に比べて帯域幅の使用量が減少し、サーバーのスケーラビリティが向上し、ユーザー エクスペリエンスが最適化されます。</p></td>
+<td><p><span data-ttu-id="6e240-120">EnableMediaRedirection</span><span class="sxs-lookup"><span data-stu-id="6e240-120">EnableMediaRedirection</span></span></p></td>
+<td><p><span data-ttu-id="6e240-121">Set-csclientpolicy</span><span class="sxs-lookup"><span data-stu-id="6e240-121">CsClientPolicy</span></span></p></td>
+<td><p><span data-ttu-id="6e240-122">True ($True) に設定すると、オーディオストリームとビデオストリームを他のネットワークトラフィックから分離することができます。これにより、クライアントデバイスはローカルでオーディオとビデオのエンコードとデコードを行うことができます。</span><span class="sxs-lookup"><span data-stu-id="6e240-122">When set to True ($True) allows audio and video streams to be separated from other network traffic, In turn, this allows client devices to do encoding and decoding of audio and video locally.</span></span> <span data-ttu-id="6e240-123">メディアのリダイレクションは、一般的に、帯域幅の使用率が低くなり、サーバーのスケーラビリティも高く、デバイスリモート処理やコーデック圧縮などの同様の手法と比較して、最適なユーザーエクスペリエンスを実現します。</span><span class="sxs-lookup"><span data-stu-id="6e240-123">Media redirection typically results in lower bandwidth usage, higher server scalability, and a more-optimal user experience compared to similar techniques such as device remoting or codec compression.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>AllowLargeMeetings</p></td>
-<td><p>CsConferencing</p></td>
-<td><p>このパラメーターを True に設定すると、Lync 会議がすべて &quot;大規模会議&quot; として扱われます。大規模会議では、既定により送信される会議名簿の大きさに加え、参加者に送信される通知の数にも制限が設定されます。</p></td>
+<td><p><span data-ttu-id="6e240-124">AllowLargeMeetings</span><span class="sxs-lookup"><span data-stu-id="6e240-124">AllowLargeMeetings</span></span></p></td>
+<td><p><span data-ttu-id="6e240-125">CsConferencing</span><span class="sxs-lookup"><span data-stu-id="6e240-125">CsConferencing</span></span></p></td>
+<td><p><span data-ttu-id="6e240-126">True に設定すると、すべての Lync 会議が&quot;大規模な会議として扱われます。&quot;大規模な会議では、既定で送信された会議リストのサイズに加えて、参加者に送信される通知の数に制限が適用されます。</span><span class="sxs-lookup"><span data-stu-id="6e240-126">When set to True, all Lync Meetings are treated as &quot;large meetings.&quot; With a large meeting, restrictions are placed on the number of notifications that are sent to participants, in addition to the size of the meeting roster that is transmitted by default.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DisablePowerPointAnnotations</p></td>
-<td><p>CsConferencing</p></td>
-<td><p>このパラメーターを True ($True) に設定すると、ユーザーは、会議で使用している PowerPoint スライドに注釈を追加できません。ただし (AllowAnnotations プロパティの値によっては)、ユーザーは他の白板機能にアクセスすることができます。既定値は False で、PowerPoint の注釈が許可されます。</p></td>
+<td><p><span data-ttu-id="6e240-127">DisablePowerPointAnnotations</span><span class="sxs-lookup"><span data-stu-id="6e240-127">DisablePowerPointAnnotations</span></span></p></td>
+<td><p><span data-ttu-id="6e240-128">CsConferencing</span><span class="sxs-lookup"><span data-stu-id="6e240-128">CsConferencing</span></span></p></td>
+<td><p><span data-ttu-id="6e240-129">True ($True) に設定すると、ユーザーは会議で使用されている PowerPoint スライドに注釈を追加することはできません。</span><span class="sxs-lookup"><span data-stu-id="6e240-129">When set to True ($True) users won’t be able to add annotations to PowerPoint slides used in a conference.</span></span> <span data-ttu-id="6e240-130">ただし、(AllowAnnotations プロパティの値によっては)、ユーザーは他の whiteboarding 機能に引き続きアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="6e240-130">However (depending on the value of the AllowAnnotations property), users will still have access to other whiteboarding features.</span></span> <span data-ttu-id="6e240-131">既定値は False であり、PowerPoint の注釈が許可されていることを意味します。</span><span class="sxs-lookup"><span data-stu-id="6e240-131">The default value is False, meaning that PowerPoint annotations are allowed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>AllowSharedNotes</p></td>
-<td><p>CsConferencing</p></td>
-<td><p>このパラメーターを True (既定値) に設定すると、会議にリンクされている OneNote ノートブックで開いているものはすべて、会議参加者、会議中に共有された内容詳細などの情報により、自動的に更新されます。</p></td>
+<td><p><span data-ttu-id="6e240-132">AllowSharedNotes</span><span class="sxs-lookup"><span data-stu-id="6e240-132">AllowSharedNotes</span></span></p></td>
+<td><p><span data-ttu-id="6e240-133">CsConferencing</span><span class="sxs-lookup"><span data-stu-id="6e240-133">CsConferencing</span></span></p></td>
+<td><p><span data-ttu-id="6e240-134">True (既定値) に設定すると、会議にリンクされている開いている OneNote ノートブックが、会議の参加者や会議中に共有されたコンテンツに関する詳細などの情報で自動的に更新されます。</span><span class="sxs-lookup"><span data-stu-id="6e240-134">When set to True (the default value) any open OneNote notebooks linked to the conference will automatically be updated with information such as conference participants and details about content shared during the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>EnableInviteCustomization</p></td>
-<td><p>CsMeetingConfiguration</p></td>
-<td><p>他の新しい CsMeetingConfiguration パラメーターと併用して、Lync 2013 用オンライン ミーティング アドイン により生成される会議出席依頼をカスタマイズします。</p></td>
+<td><p><span data-ttu-id="6e240-135">EnableInviteCustomization</span><span class="sxs-lookup"><span data-stu-id="6e240-135">EnableInviteCustomization</span></span></p></td>
+<td><p><span data-ttu-id="6e240-136">Cs会議構成</span><span class="sxs-lookup"><span data-stu-id="6e240-136">CsMeetingConfiguration</span></span></p></td>
+<td><p><span data-ttu-id="6e240-137">他の新しい Csmeeting 構成パラメーターと共に使用して、Lync 2013 用のオンライン会議アドインによって生成された会議出席依頼をカスタマイズします。</span><span class="sxs-lookup"><span data-stu-id="6e240-137">Used along with the other new CsMeetingConfiguration parameters to customize the meeting invitations generated by the Online Meeting Add-in for Lync 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>LogoURL</p></td>
-<td><p>CsMeetingConfiguration</p></td>
-<td><p>Lync 2013 用オンライン ミーティング アドイン により生成されるすべての会議出席依頼に組織のロゴを追加します。GIF または JPG 画像の URL を指定します。</p></td>
+<td><p><span data-ttu-id="6e240-138">LogoURL</span><span class="sxs-lookup"><span data-stu-id="6e240-138">LogoURL</span></span></p></td>
+<td><p><span data-ttu-id="6e240-139">Cs会議構成</span><span class="sxs-lookup"><span data-stu-id="6e240-139">CsMeetingConfiguration</span></span></p></td>
+<td><p><span data-ttu-id="6e240-140">Lync 2013 用のオンライン会議アドインによって生成されたすべての招待に、組織のロゴを追加します。</span><span class="sxs-lookup"><span data-stu-id="6e240-140">Adds your organization’s logo to all invitations generated by the Online Meeting Add-in for Lync 2013.</span></span> <span data-ttu-id="6e240-141">GIF または JPG イメージの URL を指定します。</span><span class="sxs-lookup"><span data-stu-id="6e240-141">You specify the URL of a GIF or JPG image.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>HelpURL</p></td>
-<td><p>CsMeetingConfiguration</p></td>
-<td><p>Lync 2013 用オンライン ミーティング アドイン により生成されるすべての会議出席依頼に、組織のヘルプまたはサポートを追加します。</p></td>
+<td><p><span data-ttu-id="6e240-142">HelpURL</span><span class="sxs-lookup"><span data-stu-id="6e240-142">HelpURL</span></span></p></td>
+<td><p><span data-ttu-id="6e240-143">Cs会議構成</span><span class="sxs-lookup"><span data-stu-id="6e240-143">CsMeetingConfiguration</span></span></p></td>
+<td><p><span data-ttu-id="6e240-144">Lync 2013 用のオンライン会議アドインによって生成されたすべての招待に、組織のヘルプまたはサポート URL を追加します。</span><span class="sxs-lookup"><span data-stu-id="6e240-144">Adds your organization’s help or support URL to all invitations generated by the Online Meeting Add-in for Lync 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>LegalURL</p></td>
-<td><p>CsMeetingConfiguration</p></td>
-<td><p>Lync 2013 用オンライン ミーティング アドイン により生成されるすべての会議出席依頼に、法的テキストまたは免責テキストを追加します。テキストの場所を示す URL を指定します。</p></td>
+<td><p><span data-ttu-id="6e240-145">LegalURL</span><span class="sxs-lookup"><span data-stu-id="6e240-145">LegalURL</span></span></p></td>
+<td><p><span data-ttu-id="6e240-146">Cs会議構成</span><span class="sxs-lookup"><span data-stu-id="6e240-146">CsMeetingConfiguration</span></span></p></td>
+<td><p><span data-ttu-id="6e240-147">Lync 2013 用のオンライン会議アドインによって生成されたすべての招待状に法的なテキストまたは免責事項を追加します。</span><span class="sxs-lookup"><span data-stu-id="6e240-147">Adds legal text or disclaimer text to all invitations generated by the Online Meeting Add-in for Lync 2013.</span></span> <span data-ttu-id="6e240-148">テキストの場所の URL を指定します。</span><span class="sxs-lookup"><span data-stu-id="6e240-148">You specify the URL for the location of the text.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CustomFooterText</p></td>
-<td><p>CsMeetingConfiguration</p></td>
-<td><p>Lync 2013 用オンライン ミーティング アドイン により生成されるすべての会議出席依頼にカスタム フッターを追加します。カスタム フッター テキストの場所を示す URL を指定します。</p></td>
-</tr>
-<tr class="odd">
-<td><p>IsPublicDisclosureAllowed</p></td>
-<td><p>CsWebServiceConfiguration</p></td>
-<td><p>Lync Web App の新しい 2013 バージョンを有効にします。既定では、Lync Web App の新しいバージョンは無効で、管理者が有効にする必要があります。</p></td>
+<td><p><span data-ttu-id="6e240-149">Customフッターのテキスト</span><span class="sxs-lookup"><span data-stu-id="6e240-149">CustomFooterText</span></span></p></td>
+<td><p><span data-ttu-id="6e240-150">Cs会議構成</span><span class="sxs-lookup"><span data-stu-id="6e240-150">CsMeetingConfiguration</span></span></p></td>
+<td><p><span data-ttu-id="6e240-151">Lync 2013 用のオンライン会議アドインによって生成されたすべての招待にカスタムフッターを追加します。</span><span class="sxs-lookup"><span data-stu-id="6e240-151">Adds a custom footer to all invitations generated by the Online Meeting Add-in for Lync 2013.</span></span> <span data-ttu-id="6e240-152">ユーザー設定のフッターテキストの場所の URL を指定します。</span><span class="sxs-lookup"><span data-stu-id="6e240-152">You specify the URL for the location of the custom footer text.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 非推奨のクライアント管理パラメーター
+<div>
+
+## <a name="deprecated-client-management-parameters"></a><span data-ttu-id="6e240-153">非推奨のクライアント管理パラメーター</span><span class="sxs-lookup"><span data-stu-id="6e240-153">Deprecated Client Management Parameters</span></span>
 
 
 <table>
@@ -110,32 +129,62 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>パラメーター</th>
-<th>Lync Server 管理シェル コマンドレット</th>
-<th>説明</th>
+<th><span data-ttu-id="6e240-154">パラメーター</span><span class="sxs-lookup"><span data-stu-id="6e240-154">Parameter</span></span></th>
+<th><span data-ttu-id="6e240-155">Lync Server Management Shell コマンドレット</span><span class="sxs-lookup"><span data-stu-id="6e240-155">Lync Server Management Shell Cmdlet</span></span></th>
+<th><span data-ttu-id="6e240-156">説明</span><span class="sxs-lookup"><span data-stu-id="6e240-156">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>EnableSQMData</p></td>
-<td><p>CsClientPolicy</p></td>
-<td><p>Set-CSClientPolicy コマンドレットの EnableSQMData パラメーターは、Lync Server 2013 から削除されました。代わりにソフトウェア品質管理 (SQM) データ用の共有グループ ポリシーを使用して、Lync クライアントの [一般] オプション ページでカスタマー エクスペリエンス向上プログラム オプション用のユーザー インターフェイスを決定できます。</p>
-<p>HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</p>
-<p>値:</p>
-<p>1 = チェック ボックスを表示および選択します (ユーザーはチェック ボックスをオフにできます)</p>
-<p>0 = チェック ボックスをオフにして無効にします (ユーザーは上書きできません)</p>
-<p>Null = 値は Office セットアップによって決まります。ユーザーが選択に応じて設定するためのチェック ボックスが表示されます</p></td>
+<td><p><span data-ttu-id="6e240-157">CustomizedHelpUrl</span><span class="sxs-lookup"><span data-stu-id="6e240-157">CustomizedHelpUrl</span></span></p></td>
+<td><p><span data-ttu-id="6e240-158">Set-csclientpolicy</span><span class="sxs-lookup"><span data-stu-id="6e240-158">CsClientPolicy</span></span></p></td>
+<td><p><span data-ttu-id="6e240-159">このパラメーターは、Lync Server 2013 で使用するために廃止されました。</span><span class="sxs-lookup"><span data-stu-id="6e240-159">This parameter has been deprecated for use with Lync Server 2013.</span></span> <span data-ttu-id="6e240-160">このパラメーターを EnableEnterpriseCustomizedHelp と組み合わせて使うと、ユーザーが Lync の [ヘルプ] メニューをクリックしたときに、カスタマイズされたヘルプが表示されるように、組織が URL を指定することができます。</span><span class="sxs-lookup"><span data-stu-id="6e240-160">When used in conjunction with EnableEnterpriseCustomizedHelp, this parameter enabled an organization to specify a URL so that when users clicked the Help menu in Lync, customized help would display.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>AllowExchangeContactStore</p></td>
-<td><p>CsClientPolicy</p></td>
-<td><p>このパラメーターは削除されました。その代わり、Lync Server 2013 を展開してトポロジを公開するときは、統合連絡先ストアが既定ですべてのユーザーに対して有効になります。これは、ユーザーのすべての連絡先が Exchange に保持され、Lync、Outlook、および Outlook Web Access で使用できることを意味します。Set-CsUserServicesPolicy コマンドレットを使用して、統合連絡先ストアを使用可能にするユーザーをカスタマイズできます。ユーザーは、グローバル、サイト別、テナント別、個人別、または個人グループ別に有効にできます。詳細については、「<a href="lync-server-2013-enable-users-for-unified-contact-store.md">Lync Server 2013 の統合連絡先ストアでユーザーを有効にする</a>」を参照してください。</p></td>
+<td><p><span data-ttu-id="6e240-161">EnableEnterpriseCustomizedHelp</span><span class="sxs-lookup"><span data-stu-id="6e240-161">EnableEnterpriseCustomizedHelp</span></span></p></td>
+<td><p><span data-ttu-id="6e240-162">Set-csclientpolicy</span><span class="sxs-lookup"><span data-stu-id="6e240-162">CsClientPolicy</span></span></p></td>
+<td><p><span data-ttu-id="6e240-163">このパラメーターは、Lync Server 2013 で使用するために廃止されました。</span><span class="sxs-lookup"><span data-stu-id="6e240-163">This parameter has been deprecated for use with Lync Server 2013.</span></span> <span data-ttu-id="6e240-164">このパラメーターを CustomizedHelpUrl と組み合わせて使用すると、ユーザー設定のヘルプを表示できます。</span><span class="sxs-lookup"><span data-stu-id="6e240-164">When used in conjunction with CustomizedHelpUrl, this parameter enabled organizations to display customized help.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MAPIPollInterval</p></td>
-<td><p>CsClientPolicy</p></td>
-<td><p>このパラメーターは Lync 2013 では使用されません。このパラメーターは以前のリリースで、クライアントが Exchange のパブリック フォルダーから MAPI データを取得する頻度を指定していました。</p></td>
+<td><p><span data-ttu-id="6e240-165">EnableSQMData</span><span class="sxs-lookup"><span data-stu-id="6e240-165">EnableSQMData</span></span></p></td>
+<td><p><span data-ttu-id="6e240-166">Set-csclientpolicy</span><span class="sxs-lookup"><span data-stu-id="6e240-166">CsClientPolicy</span></span></p></td>
+<td><p><span data-ttu-id="6e240-167">EnableSQMData パラメーターコマンドレットが Lync Server 2013 で削除されました。</span><span class="sxs-lookup"><span data-stu-id="6e240-167">The EnableSQMData parameter of the Set-CSClientPolicy cmdlet has been removed in Lync Server 2013.</span></span> <span data-ttu-id="6e240-168">代わりに、ソフトウェア品質管理 (SQM) データの共有グループポリシー設定を使用して、Lync クライアントの [全般] オプションページのカスタマーエクスペリエンス向上オプションのユーザーインターフェイスを決定することができます。</span><span class="sxs-lookup"><span data-stu-id="6e240-168">Instead, you can use the shared Group Policy setting for Software Quality Management (SQM) data to determine the user interface for the Customer Experience Improvement option in the Lync client General options page:</span></span></p>
+<p><span data-ttu-id="6e240-169">HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</span><span class="sxs-lookup"><span data-stu-id="6e240-169">HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</span></span></p>
+<p><span data-ttu-id="6e240-170">Values</span><span class="sxs-lookup"><span data-stu-id="6e240-170">Values:</span></span></p>
+<p><span data-ttu-id="6e240-171">1 = チェックボックスを表示して選択する (ユーザーはチェックボックスをオフにすることができます)</span><span class="sxs-lookup"><span data-stu-id="6e240-171">1 = Display and select the check box (the user can clear the check box)</span></span></p>
+<p><span data-ttu-id="6e240-172">0 = チェックボックスをオフにして無効にします (ユーザーは上書きできません)。</span><span class="sxs-lookup"><span data-stu-id="6e240-172">0 = Turn off and disable the check box (user can't override)</span></span></p>
+<p><span data-ttu-id="6e240-173">Null = 値は Office のセットアップによって決定され、ユーザーが選ぶときに設定できるチェックボックスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="6e240-173">Null = The value is determined by Office setup, and the check box is displayed for users to set as they choose</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6e240-174">AllowExchangeContactStore</span><span class="sxs-lookup"><span data-stu-id="6e240-174">AllowExchangeContactStore</span></span></p></td>
+<td><p><span data-ttu-id="6e240-175">Set-csclientpolicy</span><span class="sxs-lookup"><span data-stu-id="6e240-175">CsClientPolicy</span></span></p></td>
+<td><p><span data-ttu-id="6e240-176">このパラメーターは削除されました。</span><span class="sxs-lookup"><span data-stu-id="6e240-176">This parameter has been removed.</span></span> <span data-ttu-id="6e240-177">代わりに、Lync Server 2013 を展開してトポロジを公開すると、統合連絡先ストアは既定ですべてのユーザーに対して有効になります。</span><span class="sxs-lookup"><span data-stu-id="6e240-177">Instead, when you deploy Lync Server 2013 and publish the topology, unified contact store is enabled for all users by default.</span></span> <span data-ttu-id="6e240-178">これは、すべてのユーザーの連絡先が Exchange に保存され、Lync、Outlook、Outlook Web Access で利用できることを意味します。</span><span class="sxs-lookup"><span data-stu-id="6e240-178">This means that all a user’s contacts are kept in Exchange and are available in Lync, Outlook, and Outlook Web Access.</span></span> <span data-ttu-id="6e240-179">設定-Csuserサービスのコマンドレットを使用して、統合連絡先ストアを利用できるユーザーをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="6e240-179">You can use the Set-CsUserServicesPolicy cmdlet to customize which users have unified contact store available.</span></span> <span data-ttu-id="6e240-180">ユーザーは、グローバルに、サイト、テナント、または個人またはグループごとに有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="6e240-180">You can enable users globally, by site, by tenant, or by individuals or groups of individuals.</span></span> <span data-ttu-id="6e240-181">詳細については、「 <a href="lync-server-2013-enable-users-for-unified-contact-store.md">Lync Server 2013 で統合連絡先ストアのユーザーを有効にする</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6e240-181">For details, see <a href="lync-server-2013-enable-users-for-unified-contact-store.md">Enable users for unified contact store in Lync Server 2013</a>.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="6e240-182">MAPIPollInterval</span><span class="sxs-lookup"><span data-stu-id="6e240-182">MAPIPollInterval</span></span></p></td>
+<td><p><span data-ttu-id="6e240-183">Set-csclientpolicy</span><span class="sxs-lookup"><span data-stu-id="6e240-183">CsClientPolicy</span></span></p></td>
+<td><p><span data-ttu-id="6e240-184">このパラメーターは Lync 2013 では使用されません。</span><span class="sxs-lookup"><span data-stu-id="6e240-184">This parameter is not used by Lync 2013.</span></span> <span data-ttu-id="6e240-185">以前のリリースでは、クライアントが Exchange パブリックフォルダーから MAPI データを取得する頻度を指定しています。</span><span class="sxs-lookup"><span data-stu-id="6e240-185">In previous releases, this parameter specified how often the client retrieved MAPI data from Exchange public folders</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6e240-186">DisableICE</span><span class="sxs-lookup"><span data-stu-id="6e240-186">DisableICE</span></span></p></td>
+<td><p><span data-ttu-id="6e240-187">Set-csclientpolicy</span><span class="sxs-lookup"><span data-stu-id="6e240-187">CsClientPolicy</span></span></p></td>
+<td><p><span data-ttu-id="6e240-188">このパラメーターは Lync 2013 で廃止されました。</span><span class="sxs-lookup"><span data-stu-id="6e240-188">This parameter was deprecated in Lync 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

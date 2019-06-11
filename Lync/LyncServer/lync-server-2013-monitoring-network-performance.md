@@ -1,79 +1,143 @@
-﻿---
-title: 'Lync Server 2013: ネットワーク パフォーマンスの監視'
-TOCTitle: ネットワーク パフォーマンスの監視
-ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn720923(v=OCS.15)
-ms:contentKeyID: 62246649
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ネットワーク パフォーマンスの監視'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Monitoring network performance
+ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
+ms:contentKeyID: 63969647
+ms.date: 04/27/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a2fa3c2685b4da32d5f2e3f123a938920b5ce9f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826718"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのネットワーク パフォーマンスの監視
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="monitoring-network-performance-in-lync-server-2013"></a><span data-ttu-id="62c55-102">Lync Server 2013 でのネットワーク パフォーマンスの監視</span><span class="sxs-lookup"><span data-stu-id="62c55-102">Monitoring network performance in Lync Server 2013</span></span>
 
-Lync Server 2013 は、インスタント メッセージング (IM)、音声通話、ビデオ通話を介したユーザー間の通信を可能にするリアルタイム通信テクノロジであり、ネットワークに多くの部分を依存しています。そのため、ユーザーが選択した通信方法に可能な限り最高のエクスペリエンスを提供できるように、ネットワーク パフォーマンスを継続的に監視することが重要です。
+</div>
 
-ネットワーク パフォーマンスは、次の 2 つのレベルで測定できます。
+<div id="mainSection">
 
-  - **全体的なネットワーク パフォーマンス**   組織では、このレベルのパフォーマンス測定によりネットワークの "全体像" を把握することができ、通常、これは、サードパーティ製のネットワーク監視システムによって実現されます。これらのシステムでは、ルーターやスイッチなどのネットワーク全体のリモート ネットワーク デバイスからパフォーマンスや容量のデータを取得しており、管理者は、いつでも特定のネットワーク コンポーネントの状態を判断できます。
+<div id="mainBody">
 
-  - **個々のサーバーのパフォーマンス**   このレベルのパフォーマンス測定は、特定のサーバーに限定されます。特定のパフォーマンスに関する問題のトラブルシューティングを行う場合、容量計画プロセスの一環で各サーバーのパフォーマンスを一定期間計測する場合など、管理者が特定のサーバーのネットワーク パフォーマンスを計測するときに役立ちます。
+<span> </span>
 
-ネットワークの監視には、以下のセクションで説明するツールを使用できます。
+<span data-ttu-id="62c55-103">_**最終更新日:** 2016-04-27_</span><span class="sxs-lookup"><span data-stu-id="62c55-103">_**Topic Last Modified:** 2016-04-27_</span></span>
 
-## 全体的なネットワーク パフォーマンスの監視用ツール
+<span data-ttu-id="62c55-104">Lync Server 2013 は、ネットワークに大きく依存して、インスタントメッセージング (IM)、音声通話、またはビデオ通信を通じて、ユーザー間の通信を可能にする、リアルタイムの通信技術です。</span><span class="sxs-lookup"><span data-stu-id="62c55-104">Lync Server 2013 is a real-time communications technology that relies heavily on the network to enable communication between users—either through instant messaging (IM), voice calls, or video communication.</span></span> <span data-ttu-id="62c55-105">そのため、ユーザーが選択したコミュニケーションのモダリティが最適なエクスペリエンスを実現することを保証するために、ネットワークパフォーマンスを継続的に監視することが重要です。</span><span class="sxs-lookup"><span data-stu-id="62c55-105">It is therefore important to monitor the network performance continuously to help guarantee that a user’s chosen communication modality provides the best possible experience.</span></span>
 
-## System Center Operations Manager 2012
+<span data-ttu-id="62c55-106">ネットワークパフォーマンスは、次の2つのレベルで測定できます。</span><span class="sxs-lookup"><span data-stu-id="62c55-106">Network performance can be measured at two levels:</span></span>
 
-System Center Operations Manager には、エンド ツー エンドのサービス管理機能があります。カスタマイズと拡張が簡単で、IT 環境全体のサービス レベルを改善できます。このツールを使用して、運用チームと IT 管理チームは、分散した IT サービスの正常性に影響を及ぼす問題を特定し、解決することができます。エンド ツー エンドのサービス管理機能は、Microsoft ベースの環境に限定されるものではありません。Web Services for Management (WS-Management)、簡易ネットワーク管理プロトコル (SNMP)、パートナー ソリューションもサポートされているので、Microsoft 製のオペレーティング システムやハードウェアを実行していないシステムでも、System Center Operations Manager 2012 のサービス監視対象にすることができます。
+  - <span data-ttu-id="62c55-107">**全体的なネットワークのパフォーマンス**   このレベルのパフォーマンス測定により、組織は、ネットワークの "大きな画像" ビューを作成することができ、通常はサードパーティのネットワーク監視システムを使用して実装されます。</span><span class="sxs-lookup"><span data-stu-id="62c55-107">**Overall network performance**   This level of performance measurement will allow an organization to create a "big-picture" view of their network and is usually implemented through third-party network monitoring systems.</span></span> <span data-ttu-id="62c55-108">これらのシステムでは、管理者が特定のネットワークコンポーネントの正常性をいつでも判断できるように、ルーターなどのリモートネットワークデバイスからパフォーマンスと容量のデータを受け取ります。</span><span class="sxs-lookup"><span data-stu-id="62c55-108">These systems will receive performance and capacity data from remote network devices such as routers and switched throughout the network to allow administrators to determine the health of any given network component at any time of day.</span></span>
 
-## System Center Operations Manager 2012 とサードパーティ製ネットワーク管理ソリューション
+  - <span data-ttu-id="62c55-109">**個々のサーバーのパフォーマンス**   このレベルのパフォーマンス測定値は特定のサーバーに制限され、特定のパフォーマンスのトラブルシューティングに役立つように、特定のサーバーのネットワークパフォーマンスを距離の管理者が管理するのに役立ちます。キャパシティ計画プロセスの一環として、特定の期間における個々のサーバーのパフォーマンスを測定します。</span><span class="sxs-lookup"><span data-stu-id="62c55-109">**Individual server performance**   This level of performance measurement is limited to a specific server and will help administrators with gauging the network performance of a specific server to either help with troubleshooting a specific performance issue or to gauge the respective server’s performance over a given period as part of a capacity planning process.</span></span>
 
-**EMC Smarts**   EMC Solutions for Operations Manager を使用すると、サービス レベル全体に影響を及ぼす問題を迅速に解決できます。EMC Solutions for Operations Manager では、1 つの統合された自動ソリューションで、IT サービス チェーン全体の管理と監視を行うことができます。パフォーマンスと可用性に関する問題の根本原因を容易に特定し、迅速に解決できるので、影響が軽減され、コストも削減されます。主な利点は次のとおりです。
+<span data-ttu-id="62c55-110">次のセクションで説明されているツールを使用して、ネットワークを監視することができます。</span><span class="sxs-lookup"><span data-stu-id="62c55-110">You can monitor the network by using the tools described in the following sections.</span></span>
 
-  - 高度で使いやすい管理機能   戦略的なビジネス価値の実現に集中できます。紛らわしいアラートを手動で並べ替えたり、フィルターしたりする必要はありません。
+<div>
 
-  - **迅速な解決**   IT の問題解決とビジネス ニーズへの対応が迅速になるので、影響が軽減され、コストも削減されます。
+## <a name="tools-for-overall-network-performance-monitoring"></a><span data-ttu-id="62c55-111">ネットワークパフォーマンスの全体的な監視用のツール</span><span class="sxs-lookup"><span data-stu-id="62c55-111">Tools for Overall Network Performance Monitoring</span></span>
 
-  - **わかりやすい操作**   複数の管理ツール、アプリケーション、端末を組み合わせることで、IT の煩雑さを回避します。
+<div>
 
-詳細情報:
+## <a name="system-center-operations-manager-2012"></a><span data-ttu-id="62c55-112">System Center Operations Manager 2012</span><span class="sxs-lookup"><span data-stu-id="62c55-112">System Center Operations Manager 2012</span></span>
 
-[Microsoft System Center Operations Manager](http://go.microsoft.com/fwlink/p/?linkid=243651)
+<span data-ttu-id="62c55-113">System Center Operations Manager は、IT 環境全体のサービスレベルを向上させるためのカスタマイズと拡張が容易なエンドツーエンドのサービス管理を提供します。</span><span class="sxs-lookup"><span data-stu-id="62c55-113">System Center Operations Manager provides end-to-end service management that is easy to customize and extend for improved service levels across an IT environment.</span></span> <span data-ttu-id="62c55-114">これにより、運用および IT 管理チームは、配布された IT サービスの正常性に影響する問題を特定して解決することができます。</span><span class="sxs-lookup"><span data-stu-id="62c55-114">This enables Operations and IT Management teams to identify, and resolve issues affecting the health of distributed IT services.</span></span> <span data-ttu-id="62c55-115">エンドツーエンドのサービス管理は、Microsoft ベースの環境に限定されません。</span><span class="sxs-lookup"><span data-stu-id="62c55-115">End-to-end service management is not restricted to Microsoft-based environments.</span></span> <span data-ttu-id="62c55-116">管理のための Web サービス (WS-MANAGEMENT)、簡易ネットワーク管理プロトコル (SNMP)、パートナーソリューションをサポートしており、Microsoft オペレーティングシステムとハードウェアを実行していないシステムを、System Center 内でのサービス監視に含めることができます。Operations Manager 2012。</span><span class="sxs-lookup"><span data-stu-id="62c55-116">Support for Web Services for Management (WS-Management), Simple Network Management Protocol (SNMP), and partner solutions allow for systems that do not run Microsoft operating systems and hardware to be included in service monitoring within System Center Operations Manager 2012.</span></span>
 
-[Microsoft System Center Operations Manager 向けソリューション (英語)](http://www.emc.com/collateral/software/data-sheet/h6135-server-manager-ds.pdf)
+</div>
 
-## サードパーティ製ソリューション
+<div>
 
-**HP Network Management Center (旧称: HP OpenView)**   [HP Network Management Center](https://h10078.www1.hp.com/cda/hpms/display/main/hpms_content.jsp?zn=bto%26cp=1-11-15-119_4000_100__) の統合的な障害およびパフォーマンス管理機能は、ネットワークの可用性とパフォーマンスを改善させることができます。Network Management Center は、障害、パフォーマンス、構成、変更管理を統合する HP の自動ネットワーク管理ソリューションに含まれています。
+## <a name="system-center-operations-manager-2012-and-third-party-network-management-solutions"></a><span data-ttu-id="62c55-117">System Center Operations Manager 2012 とサードパーティのネットワーク管理ソリューション</span><span class="sxs-lookup"><span data-stu-id="62c55-117">System Center Operations Manager 2012 and Third-Party Network Management Solutions</span></span>
 
-**Cisco のネットワーク管理および自動化製品**   Cisco は、CiscoWorks LAN Management Solution、Cisco Network Analysis Module など、運用の効率を改善し、ネットワークのダウンタイムを短縮できるいくつかの管理製品をエンタープライズ向けに提供しています。これらの製品の詳細については、Cisco の Web サイト ([http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)) を参照してください。
+<span data-ttu-id="62c55-118">\*\*\*\* Operations Manager 向けの emc ソリューションは、サービスレベルに影響を及ぼす問題を迅速に解決するのに役立ちます。   </span><span class="sxs-lookup"><span data-stu-id="62c55-118">**EMC Smarts**   EMC Solutions for Operations Manager help you quickly resolve issues affecting service levels throughout.</span></span> <span data-ttu-id="62c55-119">Operations Manager 用の EMC ソリューションを使用することで、1つの統合された自動ソリューションで IT サービスチェーン全体を管理および監視することができます。</span><span class="sxs-lookup"><span data-stu-id="62c55-119">By using EMC Solutions for Operations Manager, you can manage and monitor your whole IT service chain with one integrated, automated solution.</span></span> <span data-ttu-id="62c55-120">パフォーマンスと可用性の問題の根本原因を簡単に特定し、それらをより迅速に解決して効果とコストを削減します。</span><span class="sxs-lookup"><span data-stu-id="62c55-120">You'll easily identify the root causes of performance and availability issues, and resolve them faster which reduces effects and costs.</span></span> <span data-ttu-id="62c55-121">主な利点は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="62c55-121">Key benefits include the following:</span></span>
 
-簡易ネットワーク管理プロトコル (SNMP)   簡易ネットワーク管理プロトコル (SNMP) は、ネットワーク管理の標準規格であり、TCP/IP ネットワークを管理するための戦略を定義しています。SNMP を使用すると、ネットワークの構成と状態に関する情報をキャプチャし、イベント監視用として指定したコンピューターにその情報を送信することができます。この標準ベースのネットワーク管理プロトコルでは、次のような分散アーキテクチャが使用されます。
+  - <span data-ttu-id="62c55-122">高度で使いやすい管理によって、手作業での並べ替えやフィルター処理が困難なアラートの代わりに戦略的ビジネス価値を実現することができます。</span><span class="sxs-lookup"><span data-stu-id="62c55-122">Advanced, easy-to-use management   Focus on delivering strategic business value instead of manually sorting and filtering confusing alerts.</span></span>
 
-  - 複数の管理対象ノードがあり、各ノードには、管理機器へのリモート アクセス機能を持つエージェントという SNMP エンティティがあります。
+  - <span data-ttu-id="62c55-123">**より迅速に解決**   することで、IT の問題が解決し、ビジネスニーズにすばやく対応して、効果とコストを削減できます。</span><span class="sxs-lookup"><span data-stu-id="62c55-123">**Faster resolution**   Solve IT issues and respond to business needs faster, reducing effect and cost.</span></span>
 
-  - マネージャーと呼ばれる SNMP エンティティが少なくとも 1 つあり、管理アプリケーションを実行して、管理対象要素の監視と制御を行います。管理対象要素とは、ホスト、ルーターなどのデバイスです。管理情報にアクセスすることで、管理対象要素の監視と制御を行います。
+  - <span data-ttu-id="62c55-124">**合理化**   された操作では、複数の管理ツール、アプリケーション、およびターミナルを組み合わせることで、IT の複雑さを回避します。</span><span class="sxs-lookup"><span data-stu-id="62c55-124">**Streamlined operations**   Avoid IT complexity by combining multiple management tools, applications, and terminals.</span></span>
 
-  - 管理プロトコルである SNMP は、管理ステーションとエージェント間の管理情報の通信に使用されます。管理情報とは、管理情報ベース (MIB) という仮想情報ストアに格納されている管理対象オブジェクトのコレクションです。
+<span data-ttu-id="62c55-125">詳細については、次のページを参照してください。</span><span class="sxs-lookup"><span data-stu-id="62c55-125">More information can be found here:</span></span>
 
-> [!NOTE]
-> 上記は、サードパーティ製ネットワーク監視ソリューションの例です。ここに記載されたものは絶対的なものではなく、Microsoft は特定のベンダーのソリューションを推奨しません。それぞれの環境に最適なネットワーク監視ソリューションを判断する場合は、ネットワーク サービス プロバイダーや利用しているテクノロジのプロバイダーにご相談ください。
+[<span data-ttu-id="62c55-126">Microsoft System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="62c55-126">Microsoft System Center Operations Manager</span></span>](http://go.microsoft.com/fwlink/p/?linkid=243651)
+
+[<span data-ttu-id="62c55-127">Microsoft System Center Operations Manager のソリューション</span><span class="sxs-lookup"><span data-stu-id="62c55-127">Solutions for Microsoft System Center Operations Manager</span></span>](http://www.emc.com/collateral/software/data-sheet/h6135-server-manager-ds.pdf)
+
+</div>
+
+<div>
+
+## <a name="third-party-solutions"></a><span data-ttu-id="62c55-128">サードパーティのソリューション</span><span class="sxs-lookup"><span data-stu-id="62c55-128">Third-Party Solutions</span></span>
+
+<span data-ttu-id="62c55-129">**Hp ネットワーク管理センター (以前は Hp OpenView と呼ばれていました)**   [HP ネットワーク管理センター](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__)では、ネットワークの可用性とパフォーマンスを向上させるために、統合されたフォールトおよびパフォーマンス管理を実現しています。</span><span class="sxs-lookup"><span data-stu-id="62c55-129">**HP Network Management Center (previously known as HP OpenView)**   [HP Network Management Center](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) provides integrated fault and performance management to improve network availability and performance.</span></span> <span data-ttu-id="62c55-130">ネットワーク管理センターは、障害、パフォーマンス、構成、および変更管理を統合する HP 自動ネットワーク管理ソリューションの一部です。</span><span class="sxs-lookup"><span data-stu-id="62c55-130">Network Management Center is part of the HP automated network management solution that unifies fault, performance, configuration, and change management.</span></span>
+
+<span data-ttu-id="62c55-131">**Cisco のネットワーク管理およびオートメーション製品**   (cisco) には、お使いの業務効率を向上させるために、お使いのエンタープライズ向けの複数の管理製品が含まれています。ネットワークのダウンタイムを短縮します。</span><span class="sxs-lookup"><span data-stu-id="62c55-131">**Cisco Network Management and Automation products**   For the Enterprise, Cisco has several management products available including CiscoWorks LAN Management Solution and Cisco Network Analysis Module, to help improve operational efficiency and reduce network downtime.</span></span> <span data-ttu-id="62c55-132">これらの製品に関するその他の情報については[http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)、の Cisco web サイトを参照してください。</span><span class="sxs-lookup"><span data-stu-id="62c55-132">For additional data on these products, refer to the Cisco website at [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html).</span></span>
+
+<span data-ttu-id="62c55-133">簡易ネットワーク管理プロトコル (SNMP) 簡易ネットワーク管理プロトコル (SNMP) は、TCP/IP ネットワークを管理するための戦略を定義するネットワーク管理標準です。</span><span class="sxs-lookup"><span data-stu-id="62c55-133">Simple Network Management Protocol (SNMP)   Simple Network Management Protocol (SNMP) is a network management standard that defines a strategy for managing TCP/IP networks.</span></span> <span data-ttu-id="62c55-134">SNMP では、ネットワークに関する構成と状態の情報を取得し、その情報を指定のコンピューターに送信してイベントを監視することができます。</span><span class="sxs-lookup"><span data-stu-id="62c55-134">SNMP enables you to capture configuration and status information about the network, and send the information to a designated computer for event monitoring.</span></span> <span data-ttu-id="62c55-135">この規格に基づくネットワーク管理プロトコルは、次のような分散アーキテクチャを使用しています。</span><span class="sxs-lookup"><span data-stu-id="62c55-135">This standards based network management protocol uses a distributed architecture that includes the following:</span></span>
+
+  - <span data-ttu-id="62c55-136">複数の管理ノード。各ノードには、管理インストルメンテーションへのリモートアクセスを提供するエージェントと呼ばれる SNMP エンティティが含まれています。</span><span class="sxs-lookup"><span data-stu-id="62c55-136">Multiple managed nodes, each with an SNMP entity called an agent which provides remote access to management instrumentation.</span></span>
+
+  - <span data-ttu-id="62c55-137">管理要素を監視および制御するために管理アプリケーションを実行する、マネージャーと呼ばれる少なくとも1つの SNMP エンティティ。</span><span class="sxs-lookup"><span data-stu-id="62c55-137">At least one SNMP entity known as a manager which runs management applications to monitor and control managed elements.</span></span> <span data-ttu-id="62c55-138">管理要素は、ホストやルーターなどのデバイスです。</span><span class="sxs-lookup"><span data-stu-id="62c55-138">Managed elements are devices such as hosts, routers, and so on.</span></span> <span data-ttu-id="62c55-139">これらのユーザーは、管理情報にアクセスすることで監視および制御されます。</span><span class="sxs-lookup"><span data-stu-id="62c55-139">They are monitored and controlled by accessing their management information.</span></span>
+
+  - <span data-ttu-id="62c55-140">管理プロトコル SNMP は、管理ステーションとエージェントの間で管理情報を伝えるために使用されます。</span><span class="sxs-lookup"><span data-stu-id="62c55-140">A management protocol, SNMP, is used to communicate management information between the management stations and agents.</span></span> <span data-ttu-id="62c55-141">管理情報とは、管理情報ベース (MIB) と呼ばれる仮想情報ストア内に存在する管理対象オブジェクトのコレクションを指します。</span><span class="sxs-lookup"><span data-stu-id="62c55-141">Management information refers to a collection of managed objects that live in a virtual information store called a Management Information Base (MIB).</span></span>
+
+<div>
 
 
-## 個々のサーバーのネットワーク パフォーマンスの監視用ツール
+> [!NOTE]  
+> <span data-ttu-id="62c55-142">サードパーティのネットワーク監視ソリューションの例は、上記に記載されています。</span><span class="sxs-lookup"><span data-stu-id="62c55-142">Examples of third-party network monitoring solutions are provided above.</span></span> <span data-ttu-id="62c55-143">このリストは確定的なものではありません。また、Microsoft は特定のベンダーソリューションに対応していません。</span><span class="sxs-lookup"><span data-stu-id="62c55-143">This list is not definitive and Microsoft does not favor any specific vendor solution.</span></span> <span data-ttu-id="62c55-144">組織に最適なネットワーク監視ソリューションを決定するには、ネットワークサービスプロバイダーまたは各テクノロジプロバイダーに問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="62c55-144">Consult with a network service provider and or your respective technology provider to determine the best network monitoring solution for your organization.</span></span>
 
-## System Center Operations Manager 2012
 
-System Center Operations Manager 2012 では、管理者は、Windows Server 2012 管理パックを通じて個々のサーバーのネットワーク パフォーマンスを確認できます。Windows Server オペレーティング システム管理パックには "パフォーマンス" 管理パックが含まれており、管理者は、ネットワーク アダプターのパフォーマンスとアダプターの状態を監視できます。
 
-## Windows ネットワーク モニター
+</div>
 
-サーバー上のリソースの使用状況を収集、表示、分析して、ネットワーク トラフィックを測定します。ネットワーク モニターはネットワーク アクティビティのみを監視します。ネットワーク データをキャプチャ、分析し、このデータをパフォーマンス ログとともに使用することで、ネットワークの使用状況の把握、ネットワークの問題の特定、将来的なネットワークのニーズの予測を行うことができます。
+</div>
 
-ネットワーク モニター 3.4 の詳細と、ネットワーク モニターのインストールと構成やデータのキャプチャと分析の方法については、ネットワーク モニター 3.3 の概要のセッションを参照してください。また、ネットワーク モニターのブログ (<http://blogs.technet.com/b/netmon/>) も参照してください。
+</div>
+
+<div>
+
+## <a name="tools-for-monitoring-individual-server-network-performance"></a><span data-ttu-id="62c55-145">個々のサーバーのネットワークパフォーマンスを監視するためのツール</span><span class="sxs-lookup"><span data-stu-id="62c55-145">Tools for Monitoring Individual Server Network Performance</span></span>
+
+<div>
+
+## <a name="system-center-operations-manager-2012"></a><span data-ttu-id="62c55-146">System Center Operations Manager 2012</span><span class="sxs-lookup"><span data-stu-id="62c55-146">System Center Operations Manager 2012</span></span>
+
+<span data-ttu-id="62c55-147">System Center Operations Manager 2012 を使用すると、管理者は Windows Server 2012 管理パックを通じて個々のサーバーのネットワークパフォーマンスを表示することができます。 Windows Server オペレーティングシステム管理パックには、"パフォーマンス" 管理パックが含まれています。これにより、管理者はネットワークアダプターのパフォーマンスとアダプターの正常性を監視することができます。</span><span class="sxs-lookup"><span data-stu-id="62c55-147">System Center Operations Manager 2012 would allow administrators to view network performance of individual servers through the Windows Server 2012 Management Pack: The Windows Server operating system management pack includes a "Performance" management pack that would allow administrators to monitor Network Adapter performance and adapter health.</span></span>
+
+</div>
+
+<div>
+
+## <a name="windows-network-monitor"></a><span data-ttu-id="62c55-148">Windows ネットワークモニター</span><span class="sxs-lookup"><span data-stu-id="62c55-148">Windows Network Monitor</span></span>
+
+<span data-ttu-id="62c55-149">サーバー上のリソース使用状況の収集、表示、分析、ネットワークトラフィックの測定を行います。</span><span class="sxs-lookup"><span data-stu-id="62c55-149">Collects, displays, analyzes resource usage on a server, and measures network traffic.</span></span> <span data-ttu-id="62c55-150">ネットワークモニターは、ネットワークアクティビティを排他的に監視します。</span><span class="sxs-lookup"><span data-stu-id="62c55-150">Network Monitor exclusively monitors network activity.</span></span> <span data-ttu-id="62c55-151">ネットワークデータをキャプチャして分析し、そのデータをパフォーマンスログと共に使用することにより、ネットワークの使用状況の確認、ネットワークの問題の特定、将来のネットワークニーズの予測を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="62c55-151">By capturing and analyzing network data, and using this data with performance logs, you can determine the network usage, identify network issues, and forecast future network needs.</span></span>
+
+<span data-ttu-id="62c55-152">ネットワークモニター3.4 の詳細と、ネットワークモニターのインストールと構成、データのキャプチャと分析の方法については、次のセッションを参照してください。ネットワークモニター3.3 の概要。</span><span class="sxs-lookup"><span data-stu-id="62c55-152">For more information about Network Monitor 3.4, and to learn how to install and configure Network Monitor and capture and analyze data, review this session: Network Monitor 3.3 Overview.</span></span> <span data-ttu-id="62c55-153">また、[ネットワークモニターのブログ](http://blogs.technet.com/b/netmon/)も確認してください。</span><span class="sxs-lookup"><span data-stu-id="62c55-153">Also, review the [Network Monitor blog](http://blogs.technet.com/b/netmon/).</span></span>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

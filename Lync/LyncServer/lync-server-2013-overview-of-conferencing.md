@@ -1,33 +1,67 @@
-﻿---
-title: 'Lync Server 2013: 会議の概要'
-TOCTitle: 会議の概要
-ms:assetid: 5bb90e69-3d4f-4d59-a1ee-2550de84439f
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204928(v=OCS.15)
-ms:contentKeyID: 48272225
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 会議の概要'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of conferencing
+ms:assetid: 5bb90e69-3d4f-4d59-a1ee-2550de84439f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204928(v=OCS.15)
+ms:contentKeyID: 48184245
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4c25589d386d7f65cdcbb6f894991672d8675678
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825472"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での会議の概要
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-30_
+# <a name="overview-of-conferencing-in-lync-server-2013"></a><span data-ttu-id="0a91a-102">Lync Server 2013 での会議の概要</span><span class="sxs-lookup"><span data-stu-id="0a91a-102">Overview of conferencing in Lync Server 2013</span></span>
 
-会議を展開する場合、Web 会議と音声ビデオ会議の両方を有効にして使用するのか、Web 会議のみを有効にして使用するのかを選択できます。ダイヤルイン会議は音声会議のサブセットであり、追加構成が必要です。
+</div>
 
-すべての会議形式が有効になっていると、インスタント メッセージング (IM)、音声、ビデオ、デスクトップ共有、スライド プレゼンテーション、添付ファイル共有、およびアプリケーション共有を任意に組み合わせて充実した会議環境をユーザーに提供できます。会議はあらかじめ予定しておくことも臨時で行うこともできます。また、ユーザーは会議の開催中にコミュニケーション形式を簡単に追加できます。たとえば、IM で開始して、ドキュメント コラボレーションを追加し、さらに音声やビデオを追加できます。開催中の会議に新しい参加者をリアルタイムで追加することもできます。
+<div id="mainSection">
 
-以下のトピックでは、Web 会議、音声ビデオ会議、およびダイヤルイン会議で提供される機能の概要を説明します。
+<div id="mainBody">
 
-## このセクション中
+<span> </span>
 
-  - [Lync Server 2013 での会議の共通概念](lync-server-2013-common-conferencing-concepts.md)
+<span data-ttu-id="0a91a-103">_**最終更新日:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="0a91a-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-  - [Lync Server 2013 での Web 会議の概要](lync-server-2013-web-conferencing-overview.md)
+<span data-ttu-id="0a91a-104">会議を展開するときに、web 会議と A/V の会議、または単なる web 会議の両方を有効にして使用することができます。</span><span class="sxs-lookup"><span data-stu-id="0a91a-104">When you deploy conferencing, you can choose to enable and use both web conferencing and A/V conferencing, or just web conferencing.</span></span> <span data-ttu-id="0a91a-105">ダイヤルイン会議は音声会議のサブセットであり、追加構成が必要です。</span><span class="sxs-lookup"><span data-stu-id="0a91a-105">Dial-in conferencing is a subset of audio conferencing and requires additional configuration.</span></span>
 
-  - [Lync Server 2013 での音声ビデオ会議の概要](lync-server-2013-a-v-conferencing-overview.md)
+<span data-ttu-id="0a91a-106">すべての形式の会議が有効になっていると、ユーザーはインスタントメッセージング (IM)、音声、ビデオ、デスクトップ共有、スライドプレゼンテーション、添付ファイルの共有、アプリケーションの共有の任意の組み合わせを使用して、最も豊富な電話会議環境を楽しむことができます。</span><span class="sxs-lookup"><span data-stu-id="0a91a-106">With all forms of conferencing enabled, your users can enjoy the richest possible conferencing environment with any combination of instant messaging (IM), audio, video, desktop sharing, slide presentations, sharing attachments, and sharing applications.</span></span> <span data-ttu-id="0a91a-107">会議をスケジュールまたは非スケジュール設定することができます。また、ユーザーは会議の開催時に簡単にコミュニケーションのフォームを追加できます。</span><span class="sxs-lookup"><span data-stu-id="0a91a-107">Conferences can be scheduled or unscheduled, and users can easily add forms of communication to a conference while it happens.</span></span> <span data-ttu-id="0a91a-108">たとえば、[IM] から始めて、ドキュメントのグループ作業を追加して、音声やビデオを追加します。</span><span class="sxs-lookup"><span data-stu-id="0a91a-108">For example, starting with IM, adding document collaboration, and then adding voice or video.</span></span> <span data-ttu-id="0a91a-109">新しい参加者は、リアルタイムで進行中の会議に追加することもできます。</span><span class="sxs-lookup"><span data-stu-id="0a91a-109">New participants can also be added to ongoing conferences in real time.</span></span>
 
-  - [Lync Server 2013 でのダイヤルイン会議の概要](lync-server-2013-dial-in-conferencing-overview.md)
+<span data-ttu-id="0a91a-110">次のトピックでは、web 会議、A/V 会議、ダイヤルイン会議によって提供される特定の機能の概要を説明します。</span><span class="sxs-lookup"><span data-stu-id="0a91a-110">The following topics provide an overview of the specific features and capabilities provided by web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="0a91a-111">このセクション中</span><span class="sxs-lookup"><span data-stu-id="0a91a-111">In This Section</span></span>
+
+  - [<span data-ttu-id="0a91a-112">Lync Server 2013 での一般的な会議の概念</span><span class="sxs-lookup"><span data-stu-id="0a91a-112">Common conferencing concepts in Lync Server 2013</span></span>](lync-server-2013-common-conferencing-concepts.md)
+
+  - [<span data-ttu-id="0a91a-113">Lync Server 2013 での web 会議の概要</span><span class="sxs-lookup"><span data-stu-id="0a91a-113">Overview of web conferencing in Lync Server 2013</span></span>](lync-server-2013-web-conferencing-overview.md)
+
+  - [<span data-ttu-id="0a91a-114">Lync Server 2013 での A/V 会議の概要</span><span class="sxs-lookup"><span data-stu-id="0a91a-114">Overview of A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-a-v-conferencing-overview.md)
+
+  - [<span data-ttu-id="0a91a-115">Lync Server 2013 でのダイヤルイン会議の概要</span><span class="sxs-lookup"><span data-stu-id="0a91a-115">Overview of dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-overview.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
