@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: ConferenceUris テーブル'
-TOCTitle: ConferenceUris テーブル
-ms:assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412854(v=OCS.15)
-ms:contentKeyID: 48273301
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ConferenceUris テーブル'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceUris table
+ms:assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412854(v=OCS.15)
+ms:contentKeyID: 48185160
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e2b1ab44b564d649b6c8fb812077645c6dc13093
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840482"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の ConferenceUris テーブル
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="conferenceuris-table-in-lync-server-2013"></a><span data-ttu-id="21acf-102">Lync Server 2013 の ConferenceUris テーブル</span><span class="sxs-lookup"><span data-stu-id="21acf-102">ConferenceUris table in Lync Server 2013</span></span>
 
-ConfereneUris テーブルは、データベースに記録されている会議セッションに参加したさまざまな会議 URI の一覧を格納する補助的なテーブルです。このテーブルの個々のレコードが、1 つの会議 URI を表します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="21acf-103">_**最終更新日:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="21acf-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+
+<span data-ttu-id="21acf-104">ConfereneUris テーブルは、データベースに記録された会議セッションに参加しているさまざまな会議の Uri のリストを格納するサポートテーブルです。</span><span class="sxs-lookup"><span data-stu-id="21acf-104">The ConfereneUris table is a supporting table that stores a list of the various conference URIs that have participated in conference sessions recorded in the database.</span></span> <span data-ttu-id="21acf-105">テーブル内の各レコードは、1つの会議 URI を表します。</span><span class="sxs-lookup"><span data-stu-id="21acf-105">Each record in the table represents one conference URI.</span></span>
 
 
 <table>
@@ -27,43 +47,54 @@ ConfereneUris テーブルは、データベースに記録されている会議
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
-<th>データ型</th>
-<th>キー/インデックス</th>
-<th>詳細</th>
+<th><span data-ttu-id="21acf-106">列</span><span class="sxs-lookup"><span data-stu-id="21acf-106">Column</span></span></th>
+<th><span data-ttu-id="21acf-107">データ型</span><span class="sxs-lookup"><span data-stu-id="21acf-107">Data Type</span></span></th>
+<th><span data-ttu-id="21acf-108">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="21acf-108">Key/Index</span></span></th>
+<th><span data-ttu-id="21acf-109">詳細</span><span class="sxs-lookup"><span data-stu-id="21acf-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>タイム スタンプ (社内使用向け)。</p></td>
+<td><p><span data-ttu-id="21acf-110"><strong>Nextupdatupdat</strong></span><span class="sxs-lookup"><span data-stu-id="21acf-110"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="21acf-111">datetime</span><span class="sxs-lookup"><span data-stu-id="21acf-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="21acf-112">Primary</span><span class="sxs-lookup"><span data-stu-id="21acf-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="21acf-113">タイムスタンプ、内部使用。</span><span class="sxs-lookup"><span data-stu-id="21acf-113">Time stamp, Internal used.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ConferenceUriId</strong></p></td>
-<td><p>int</p></td>
-<td><p>主/プライマリ</p></td>
-<td><p>この会議 URI を識別する一意の番号。</p></td>
+<td><p><span data-ttu-id="21acf-114"><strong>ConferenceUriId</strong></span><span class="sxs-lookup"><span data-stu-id="21acf-114"><strong>ConferenceUriId</strong></span></span></p></td>
+<td><p><span data-ttu-id="21acf-115">int</span><span class="sxs-lookup"><span data-stu-id="21acf-115">int</span></span></p></td>
+<td><p><span data-ttu-id="21acf-116">Primary</span><span class="sxs-lookup"><span data-stu-id="21acf-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="21acf-117">この会議 URI を識別する一意の番号です。</span><span class="sxs-lookup"><span data-stu-id="21acf-117">Unique number identifying this conference URI.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ConferenceUri</strong></p></td>
-<td><p>nvarchar (450)</p></td>
-<td><p></p></td>
-<td><p>会議 URI。</p></td>
+<td><p><span data-ttu-id="21acf-118"><strong>ConferenceUri</strong></span><span class="sxs-lookup"><span data-stu-id="21acf-118"><strong>ConferenceUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="21acf-119">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="21acf-119">nvarchar(450)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="21acf-120">会議の URI。</span><span class="sxs-lookup"><span data-stu-id="21acf-120">Conference URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Checksum</strong></p></td>
-<td><p>int</p></td>
-<td><p></p></td>
-<td><p>ConferenceUri のチェックサム。データベース検索の速度を速めるために使用されます。</p></td>
+<td><p><span data-ttu-id="21acf-121"><strong>サム</strong></span><span class="sxs-lookup"><span data-stu-id="21acf-121"><strong>Checksum</strong></span></span></p></td>
+<td><p><span data-ttu-id="21acf-122">int</span><span class="sxs-lookup"><span data-stu-id="21acf-122">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="21acf-123">ConferenceUri のチェックサム。</span><span class="sxs-lookup"><span data-stu-id="21acf-123">Checksum of ConferenceUri.</span></span> <span data-ttu-id="21acf-124">データベースの検索速度を上げるために使われます。</span><span class="sxs-lookup"><span data-stu-id="21acf-124">Used to increases the speed of database searches.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UriTypeId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外部</p></td>
-<td><p>URI の種類。たとえば、conf:chat (IM 会議の場合)、conf:audio-video (音声ビデオ会議の場合)。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p><span data-ttu-id="21acf-125"><strong>UriTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="21acf-125"><strong>UriTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="21acf-126">int</span><span class="sxs-lookup"><span data-stu-id="21acf-126">int</span></span></p></td>
+<td><p><span data-ttu-id="21acf-127">外部</span><span class="sxs-lookup"><span data-stu-id="21acf-127">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="21acf-128">URI の種類 ("conf: IM 会議用チャット" または "conf: 音声/ビデオ会議用のオーディオビデオ" など)。</span><span class="sxs-lookup"><span data-stu-id="21acf-128">URI type, such as conf:chat for IM conference, or conf:audio-video for audio/video conference.</span></span> <span data-ttu-id="21acf-129">詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 テーブルの UriTypes テーブル</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="21acf-129">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> table for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

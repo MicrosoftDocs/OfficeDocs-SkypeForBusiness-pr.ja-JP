@@ -1,35 +1,55 @@
-﻿---
-title: ID、スコープ、およびテナント
-TOCTitle: ID、スコープ、およびテナント
-ms:assetid: 7cfa194a-2d01-4370-9b48-ee13ff597fa5
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn362819(v=OCS.15)
-ms:contentKeyID: 56270108
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Skype for Business Online の id、スコープ、テナント
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Identities, scopes, and tenants
+ms:assetid: 7cfa194a-2d01-4370-9b48-ee13ff597fa5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362819(v=OCS.15)
+ms:contentKeyID: 56558817
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8a759c53b717cbaf1ecdb747d5cb01e94b305f52
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840871"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ID、スコープ、およびテナント
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-06-22_
+# <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a><span data-ttu-id="a43e1-102">Skype for Business Online の id、スコープ、テナント</span><span class="sxs-lookup"><span data-stu-id="a43e1-102">Identities, scopes, and tenants in Skype for Business Online</span></span>
 
-Skype for Business Online の管理に使用する Windows PowerShell コマンドレットの多くでは、管理しようとする項目に対して固有の情報を指定する必要があります。たとえば、[Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp) コマンドレット実行する場合には、管理しようとするユーザーを指定する必要があります。このことには意味があり、どのユーザー アカウントを管理するかをコマンドレットに具体的に通知しないと、**Set-CsUserAcp** コマンドレットでは、どのユーザーの電話会議の情報を変更する必要があるかが不明になります。このような理由により、**Set-CsUserAcp** コマンドレットを実行するたびに、Identity パラメーターを含め、その後に変更するユーザー アカウントの ID を続ける必要があります。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a43e1-103">_**最終更新日:** 2015-03-09_</span><span class="sxs-lookup"><span data-stu-id="a43e1-103">_**Topic Last Modified:** 2015-03-09_</span></span>
+
+<span data-ttu-id="a43e1-104">Skype for Business Online を管理するために使用される Windows PowerShell コマンドレットの多くは、管理する項目について特に明確にしておく必要があります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-104">Many of the Windows PowerShell cmdlets used to manage Skype for Business Online require you to be very specific about the item that you are trying to manage.</span></span> <span data-ttu-id="a43e1-105">たとえば、 [Set-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)コマンドレットを実行する場合は、管理しようとしているユーザーを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-105">For example, when you run the [Set-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp) cmdlet, you must indicate which user you are trying to manage.</span></span> <span data-ttu-id="a43e1-106">これは理にかなっています。</span><span class="sxs-lookup"><span data-stu-id="a43e1-106">This makes sense.</span></span> <span data-ttu-id="a43e1-107">管理するユーザーアカウントをコマンドレットに明示的に指定し\*\*\*\* ていない限り、ユーザーの電話会議情報を変更する必要があるかどうかを指定することはできません。</span><span class="sxs-lookup"><span data-stu-id="a43e1-107">Unless you specifically tell the cmdlet which user account to manage, the **Set-CsUserAcp** cmdlet has no idea which user’s audio conferencing information should be modified.</span></span> <span data-ttu-id="a43e1-108">このため、 **Set-CsUserAcp**コマンドレットを実行するたびに、id パラメーターを含める必要があります。その後に、変更するユーザーアカウントの id を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-108">For this reason, each time you run the **Set-CsUserAcp** cmdlet, you’ll need to include the Identity parameter, followed by the Identity of the user account to be modified:</span></span>
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 
-Identity という用語が常にユーザー アカウントの ID を指す場合は、混乱が生じる原因にはほとんどなりません。人物 (ユーザー、連絡先など) を扱う場合は、Identity は個々のユーザー自身を指します。ただし、ユーザーアカウント以外の項目にも Identity があります。Skype for Business Online サービスのコンポーネント、つまりポリシー、構成設定などを扱う場合、Identity という用語は少し異なる内容を意味します。たとえば、次のコマンドの場合を考えます。
+<span data-ttu-id="a43e1-109">用語*id*がユーザーアカウントの id を常に参照している場合は、混乱の原因になることはほとんどありません。</span><span class="sxs-lookup"><span data-stu-id="a43e1-109">If the term *Identity* always referred to the Identity of a user account, there would be little cause for confusion.</span></span> <span data-ttu-id="a43e1-110">ユーザー (ユーザー、連絡先など) を扱う場合、Id は個々のユーザーを参照します。</span><span class="sxs-lookup"><span data-stu-id="a43e1-110">When you are dealing with people (users, contacts, and so on), Identities refer to the individual users themselves.</span></span> <span data-ttu-id="a43e1-111">ただし、ユーザーアカウント以外のアイテムにも Id があります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-111">However, items other than user accounts also have Identities.</span></span> <span data-ttu-id="a43e1-112">Skype for Business Online サービスのコンポーネント (ポリシー、構成設定など) を処理している場合は、ユーザーの用語によって若干の違いがあります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-112">When you are dealing with components of the Skype for Business Online service—policies, configuration settings, and so on—the term Identity means something slightly different.</span></span> <span data-ttu-id="a43e1-113">たとえば、次のコマンドを考えてみます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-113">For example, consider this command:</span></span>
 
     Get-CsMeetingConfiguration -Identity "global"
 
-この場合、Identity "global" は会議構成設定のスコープを指します。スコープは、Skype for Business Online (および Lync Server) において管理の範囲を指定するために使用される用語です。既定では、ポリシーと設定には常にグローバル スコープがあります。初めて Skype for Business Online アカウントを設定する場合、既定では、グローバル ポリシーと設定 (グローバルな会議構成設定、グローバルな外部アクセス ポリシー、グローバルなダイヤル プランなど) のコレクションを使用します。
+<span data-ttu-id="a43e1-114">この場合、Id "global" は、会議の構成設定の範囲を指します。</span><span class="sxs-lookup"><span data-stu-id="a43e1-114">In this case, the Identity "global" refers to the scope of the meeting configuration settings.</span></span> <span data-ttu-id="a43e1-115">*スコープ*は、管理の球体を指定するために Skype For business Online (および Lync Server) で使用される用語です。</span><span class="sxs-lookup"><span data-stu-id="a43e1-115">*Scope* is a term used in Skype for Business Online (and in Lync Server) to designate spheres of management.</span></span> <span data-ttu-id="a43e1-116">既定では、ポリシーと設定は常にグローバルスコープを持ちます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-116">By default, policies and settings always have a global scope.</span></span> <span data-ttu-id="a43e1-117">初めて Skype for Business Online アカウントを設定すると、グローバルなポリシーと設定のコレクション (グローバル会議構成の設定、グローバル外部アクセスポリシー、グローバルダイヤルプランなど) が使用されます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-117">When you first set up your Skype for Business Online account you'll have, by default, a collection of global policies and settings—global meeting configuration settings, a global external access policy, a global dial plan, and so on.</span></span>
 
-これらのグローバル ポリシーと設定は、すべてのユーザーとすべてのコンポーネントが常に何らかの方法で確実に管理されるように、Microsoft Lync Server 2010 で導入されました。このことは、Microsoft Office Communicator 2007 R2 では必ずしも該当しません。システムにアクセスした方法に応じて、(通常はグループ ポリシーをユーザー アカウントに適用できなかったことが原因で) 最終的に大部分が管理されていない状態になる可能性があります。対照的に、Lync Server および Skype for Business Online においては、管理されないまま残るものはありません。これは、「他のすべての代わりに」グローバルなポリシーと設定が常に適用されるためです。
+<span data-ttu-id="a43e1-118">これらのグローバルポリシーと設定は、Microsoft Lync Server 2010 で導入されました。すべてのユーザーとすべてのコンポーネントを常に何らかの方法で管理することができます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-118">These global policies and settings were introduced in Microsoft Lync Server 2010 to help ensure that all users and all components would always, in some way, be managed.</span></span> <span data-ttu-id="a43e1-119">これは、Microsoft Office Communicator 2007 R2 では必ずしも当てはまりません。</span><span class="sxs-lookup"><span data-stu-id="a43e1-119">This was not necessarily true in Microsoft Office Communicator 2007 R2.</span></span> <span data-ttu-id="a43e1-120">システムにアクセスした方法によっては、ほぼ管理されていない状態で終了する可能性があります (通常は、グループポリシーがユーザーアカウントに適用されていないためです)。</span><span class="sxs-lookup"><span data-stu-id="a43e1-120">Depending on how you accessed the system, you could potentially end up in a largely unmanaged state (typically, because Group Policy could not be applied to your user account).</span></span> <span data-ttu-id="a43e1-121">一方、Lync Server および Skype for Business Online では、管理されていないものは何も残りません。</span><span class="sxs-lookup"><span data-stu-id="a43e1-121">In contrast, in Lync Server and in Skype for Business Online, nothing is ever left unmanaged.</span></span> <span data-ttu-id="a43e1-122">これは、他の項目の代わりにグローバルポリシーと設定が常に適用されるためです。</span><span class="sxs-lookup"><span data-stu-id="a43e1-122">This is because, in lieu of anything else, global policies and settings will always be enforced.</span></span>
 
-ここで、「他のすべての代わりに」はどういう意味であるかが問題になりますが、Skype for Business Online の場合は、タグ スコープ、つまり管理の範囲でポリシーを作成できます。タグ スコープ (別名、ユーザーごとのスコープ) で作成されるポリシーは、グローバル スコープで作成されるポリシーよりも優先されます。つまり、ユーザーごとのポリシーはグローバル ポリシーよりも常に優先されます。たとえば、2 つの外部ユーザー アクセス ポリシーを使用するとします。グローバル ポリシーでは、Windows Live などのパブリック インスタント メッセージング (IM) プロバーダー上にアカウントを所有するユーザーとの通信が禁止されています。ユーザーごとのポリシーである AllowPublicIMCommunication では、パブリック IM プロバイダーとの通信が許可されています。
+<span data-ttu-id="a43e1-123">"Else の代わりに" とは何を意味していますか?</span><span class="sxs-lookup"><span data-stu-id="a43e1-123">What do we mean by "in lieu of anything else"?</span></span> <span data-ttu-id="a43e1-124">Skype for Business Online の場合、*タグのスコープ*または管理の球体でポリシーを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-124">Well, in the case of Skype for Business Online, it’s possible to create policies at the *tag scope*, or sphere of management.</span></span> <span data-ttu-id="a43e1-125">タグのスコープ (*ユーザーごとのスコープ*とも呼ばれます) で作成されたポリシーは、グローバルスコープで作成されたポリシーよりも優先されます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-125">Policies created at the tag scope (also known as *the per-user scope*) take priority over policies created at the global scope.</span></span> <span data-ttu-id="a43e1-126">つまり、ユーザーごとのポリシーは常にグローバルポリシーよりも優先されます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-126">In other words, a per-user policy will always take precedence over a global policy.</span></span> <span data-ttu-id="a43e1-127">たとえば、2つの外部ユーザーアクセスポリシーがある場合があります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-127">For example, you might have two external user access policies.</span></span> <span data-ttu-id="a43e1-128">グローバルポリシーを使用すると、ユーザーは、Windows Live などのパブリックインスタントメッセージング (IM) プロバイダーのアカウントを持っているユーザーとの通信を禁止できます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-128">The global policy prohibits users from communicating with people who have accounts on public instant messaging (IM) providers, such as Windows Live.</span></span> <span data-ttu-id="a43e1-129">ユーザーごとのポリシー (AllowPublicIMCommunication) では、パブリック IM プロバイダーとの通信が可能になります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-129">The per-user policy, AllowPublicIMCommunication, allows communication with public IM providers.</span></span>
 
-また、Ken Myer と Pilar Ackerman という 2 人のユーザーも存在するとします。Ken Myer にはユーザーごとのポリシーが割り当てられています。Pilar Ackerman にはユーザーごとのポリシーが割り当てられていません。つまり、グローバル外部アクセス ポリシーにより管理されています。次の表に、どのユーザーがパブリック IM プロバイダーと通信できるかを示します。
+<span data-ttu-id="a43e1-130">また、Ken Myer と Pilar Ackerman という2人のユーザーがいる場合もあります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-130">You might also have two users: Ken Myer and Pilar Ackerman.</span></span> <span data-ttu-id="a43e1-131">Ken Myer には、ユーザーごとのポリシーが割り当てられています。</span><span class="sxs-lookup"><span data-stu-id="a43e1-131">Ken Myer has been assigned the per-user policy.</span></span> <span data-ttu-id="a43e1-132">Pilar Ackerman には、ユーザーごとのポリシーが割り当てられていません。つまり、彼女はグローバル外部アクセスポリシーによって管理されます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-132">Pilar Ackerman has not been assigned a per-user policy; that is, she is managed by the global external access policy.</span></span> <span data-ttu-id="a43e1-133">次の表は、パブリック IM プロバイダーと通信できるユーザー (存在する場合) を示しています。</span><span class="sxs-lookup"><span data-stu-id="a43e1-133">The following table shows which user (if any) can communicate with public IM providers:</span></span>
 
 
 <table>
@@ -40,62 +60,78 @@ Identity という用語が常にユーザー アカウントの ID を指す場
 </colgroup>
 <thead>
 <tr class="header">
-<th>ポリシー設定</th>
-<th>Ken Myer</th>
-<th>Pilar Ackerman</th>
+<th><span data-ttu-id="a43e1-134">ポリシー設定</span><span class="sxs-lookup"><span data-stu-id="a43e1-134">Policy Settings</span></span></th>
+<th><span data-ttu-id="a43e1-135">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="a43e1-135">Ken Myer</span></span></th>
+<th><span data-ttu-id="a43e1-136">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="a43e1-136">Pilar Ackerman</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>パブリック IM プロバイダーのグローバル ポリシー設定</p></td>
-<td><p>いいえ</p></td>
-<td><p>いいえ</p></td>
+<td><p><span data-ttu-id="a43e1-137">パブリック IM プロバイダーのグローバルポリシー設定</span><span class="sxs-lookup"><span data-stu-id="a43e1-137">Global policy setting for public IM providers</span></span></p></td>
+<td><p><span data-ttu-id="a43e1-138">いいえ</span><span class="sxs-lookup"><span data-stu-id="a43e1-138">No</span></span></p></td>
+<td><p><span data-ttu-id="a43e1-139">いいえ</span><span class="sxs-lookup"><span data-stu-id="a43e1-139">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>パブリック IM プロバイダーのユーザーごとのポリシー設定</p></td>
-<td><p>はい</p></td>
-<td><p>いいえ</p></td>
+<td><p><span data-ttu-id="a43e1-140">パブリック IM プロバイダーのユーザーごとのポリシー設定</span><span class="sxs-lookup"><span data-stu-id="a43e1-140">Per-user policy setting for public IM providers</span></span></p></td>
+<td><p><span data-ttu-id="a43e1-141">はい</span><span class="sxs-lookup"><span data-stu-id="a43e1-141">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a43e1-142">いいえ</span><span class="sxs-lookup"><span data-stu-id="a43e1-142">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ユーザーがパブリック IM プロバイダーと通信できるかどうか</p></td>
-<td><p>はい</p></td>
-<td><p>いいえ</p></td>
+<td><p><span data-ttu-id="a43e1-143">ユーザーはパブリック IM プロバイダーと通信できます</span><span class="sxs-lookup"><span data-stu-id="a43e1-143">User can communicate with public IM providers</span></span></p></td>
+<td><p><span data-ttu-id="a43e1-144">はい</span><span class="sxs-lookup"><span data-stu-id="a43e1-144">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a43e1-145">いいえ</span><span class="sxs-lookup"><span data-stu-id="a43e1-145">No</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-上記からわかるように、Ken Myer はパブリック IM プロバイダーと通信できます。これは、Ken Myer に割り当てられているユーザーごとのポリシーの設定が、グローバル ポリシーの設定よりも優先されるためです。Pilar Ackerman はパブリック IM プロバイダーと通信することはできません。これは、Pilar Ackerman はグローバル ポリシーによって管理されていて、グローバル ポリシーではそのような通信が禁止されているためです。
+<span data-ttu-id="a43e1-146">ご覧のとおり、Ken Myer はパブリック IM プロバイダーとの通信を許可されています。</span><span class="sxs-lookup"><span data-stu-id="a43e1-146">As you can see, Ken Myer is allowed to communicate with public IM providers.</span></span> <span data-ttu-id="a43e1-147">これは、ユーザーに割り当てられているユーザーごとのポリシーの設定がグローバルポリシーの設定を上書きするためです。</span><span class="sxs-lookup"><span data-stu-id="a43e1-147">This is because the settings in the per-user policy assigned to him override the settings in the global policy.</span></span> <span data-ttu-id="a43e1-148">Pilar Ackerman はパブリック IM プロバイダーと通信できません。</span><span class="sxs-lookup"><span data-stu-id="a43e1-148">Pilar Ackerman cannot communicate with public IM providers.</span></span> <span data-ttu-id="a43e1-149">これは、ユーザーがグローバルポリシーによって管理されており、グローバルポリシーでそのような通信が禁止されているためです。</span><span class="sxs-lookup"><span data-stu-id="a43e1-149">This is because she is managed by the global policy, and the global policy prohibits such communications.</span></span>
 
-ユーザーごとのポリシーは、Office 365 サポートが作成する必要があります。ポリシーが作成された後、適切な **Grant-Cs** コマンドレット ([Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy) など) を使用するとユーザーにポリシーを割り当てることができます。ユーザーごとのポリシーは、ポリシー Identity の先頭が常にタグ **プレフィックス**であるため、容易に識別できます。次に例を示します。
+<span data-ttu-id="a43e1-150">Office 365 サポートでは、ユーザーごとのポリシーを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-150">Per-user policies must be created for you by Office 365 Support.</span></span> <span data-ttu-id="a43e1-151">ポリシーが作成された後、適切な**grant-Cs**コマンドレット ( [grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)など) を使用して、ポリシーをユーザーに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-151">After the policies are created, you can then assign them to users by using the appropriate **Grant-Cs** cmdlet (for example, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)).</span></span> <span data-ttu-id="a43e1-152">ポリシー Id は常にタグ**プレフィックス**で始まるため、ユーザーごとのポリシーを識別するのは簡単です。</span><span class="sxs-lookup"><span data-stu-id="a43e1-152">Per-user policies are easy to identify because the policy Identity always begins with the tag **prefix**.</span></span> <span data-ttu-id="a43e1-153">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="a43e1-153">For example:</span></span>
 
     Identity : tag:AllowPublicIMCommunication
 
-> [!NOTE]
-> タグ <strong>プレフィックス</strong>の日付は、Lync Server 2010 の初期展開の日に遡ります。当時、ユーザーごとのポリシーはタグ ポリシーと呼ばれ、タグ <strong>プレフィックス</strong>により識別されました。現在、これらのポリシーはより正確にユーザーごとのポリシーと呼ばれ、タグ スコープはより正確にユーザーごとのスコープと呼ばれています。ただし、技術上の理由により、タグ <strong>プレフィックス</strong>は変更されていません。
+<div>
 
 
-Skype for Business Online および Windows PowerShell を操作する際に使用されるもう 1 つの重要な用語としては、テナントがあります。Skype for Business Online アカウントを設定すると、新しい展開環境にはテナント ID 番号が割り当てられます。これは、次のようなグローバル一意識別子です。
+> [!NOTE]  
+> <span data-ttu-id="a43e1-154">タグ<STRONG>プレフィックス</STRONG>の日付は、Lync Server 2010 の最早開発日に戻されます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-154">The tag <STRONG>prefix</STRONG> dates back to the early development days of Lync Server 2010.</span></span> <span data-ttu-id="a43e1-155">この日に、ユーザーごとのポリシーは<EM>タグポリシー</EM>として参照され、タグ<STRONG>プレフィックス</STRONG>によって識別されました。</span><span class="sxs-lookup"><span data-stu-id="a43e1-155">In those days, per-user policies were referred to as <EM>tag policies</EM> and were identified by the tag <STRONG>prefix</STRONG>.</span></span> <span data-ttu-id="a43e1-156">これらのポリシーは、<EM>ユーザーごとのポリシー</EM>としてより正確に示されるようになりました。タグスコープは、<EM>ユーザーごとのスコープ</EM>としてより正確に参照されます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-156">These policies are now more accurately referred to as <EM>per-user policies</EM>, and the tag scope is more accurately referred to as the <EM>per-user scope</EM>.</span></span> <span data-ttu-id="a43e1-157">ただし、技術的な理由から、タグ<STRONG>プリフィックス</STRONG>は変更されませんでした。</span><span class="sxs-lookup"><span data-stu-id="a43e1-157">However, for technical reasons, the tag <STRONG>prefix</STRONG> was never changed.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="a43e1-158">Skype for Business Online と Windows PowerShell を操作するときに使用される別のキー用語は、*テナント*です。</span><span class="sxs-lookup"><span data-stu-id="a43e1-158">Another key term used when working with Skype for Business Online and Windows PowerShell is *tenant*.</span></span> <span data-ttu-id="a43e1-159">Skype for Business Online アカウントを設定すると、新しい展開には、次のようなグローバル一意識別子 (GUID) であるテナント ID 番号が割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-159">When you set up a Skype for Business Online account, your new deployment is assigned a tenant ID number, which is a globally unique identifier (GUID) similar to this:</span></span>
 
     bf19b7db-6960-41e5-a139-2aa373474354
 
-コマンドレットを実行する際にテナント ID を入力する必要がある Skype for Business Online のコマンドレットはごくわずかです。1 つのテナントにログオンしていて、そのテナントしか所有していない場合であっても、テナント ID を入力する必要があります。ただし、テナント ID を記憶しておく必要はありません。次の Windows PowerShell コマンドを実行すれば、いつでもテナント ID を取得できます。
+<span data-ttu-id="a43e1-160">Skype for Business Online のコマンドレットの一部では、コマンドレットを実行するたびにテナント ID を入力する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-160">A few of the Skype for Business Online cmdlets require you to enter the tenant ID whenever you run the cmdlet.</span></span> <span data-ttu-id="a43e1-161">1つのテナントのみにログオンしている場合でも、テナント ID を入力する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-161">You must enter the tenant ID even if you have logged on to, and only have, one tenant.</span></span> <span data-ttu-id="a43e1-162">しかし、テナント ID を覚える必要はありません。</span><span class="sxs-lookup"><span data-stu-id="a43e1-162">Fortunately, you do not have to memorize the tenant ID.</span></span> <span data-ttu-id="a43e1-163">テナント ID は、次の Windows PowerShell コマンドを実行すると、いつでも取得できます。</span><span class="sxs-lookup"><span data-stu-id="a43e1-163">You can retrieve your tenant ID at any time by running the following Windows PowerShell command:</span></span>
 
     Get-CsTenant | Select-Object TenantId
 
-当然ながら、グローバル スコープとユーザーごとのスコープ (タグ スコープ) の相違点などの項目を知っておくことは、完全な習得までの途中にすぎません。これらのスコープを使用できるタイミング (または場合によっては使用できる条件) を知っておくことも重要です。同じことが、ID やテナント パラメーターについても言えます。以降のトピックでは、さまざまな Skype for Business Online のコマンドレットで、ID、スコープ、およびテナント パラメーターを使用する方法について説明します。
+<span data-ttu-id="a43e1-164">もちろん、グローバルスコープとユーザーごとのスコープ (またはタグのスコープ) の違いがわかっている場合は、半分の戦いにすぎません。</span><span class="sxs-lookup"><span data-stu-id="a43e1-164">Of course, knowing things such as the difference between the global scope and the per-user scope (or the tag scope) is only half the battle.</span></span> <span data-ttu-id="a43e1-165">また、どのような場合にも、これらのスコープを使用できるかどうかを知っておくことが重要です。</span><span class="sxs-lookup"><span data-stu-id="a43e1-165">It’s also important to know when (or even if) you can use these scopes.</span></span> <span data-ttu-id="a43e1-166">Id とテナントパラメーターにも同じことが当てはまります。</span><span class="sxs-lookup"><span data-stu-id="a43e1-166">The same is true for Identities and the tenant parameter.</span></span> <span data-ttu-id="a43e1-167">次のトピックでは、さまざまな Skype for Business の Web コマンドレットで Id、スコープ、テナントパラメーターを使用する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="a43e1-167">The following topics describe how the different Skype for Business Online cmdlets use Identities, scopes, and the tenant parameter:</span></span>
 
-  - [グローバル スコープのみを使用するコマンドレット](cmdlets-in-skype-for-business-online-that-use-only-the-global-scope.md)
+  - [<span data-ttu-id="a43e1-168">グローバルスコープのみを使用する Skype for Business Online のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="a43e1-168">Cmdlets in Skype for Business Online that use only the global scope</span></span>](cmdlets-in-skype-for-business-online-that-use-only-the-global-scope.md)
 
-  - [グローバル スコープとタグ スコープを使用するコマンドレット](cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope.md)
+  - [<span data-ttu-id="a43e1-169">グローバルスコープとタグスコープを使う Skype for Business Online のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="a43e1-169">Cmdlets in Skype for Business Online that use the global scope and the tag scope</span></span>](cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope.md)
 
-  - [ユーザー ID を使用するコマンドレット](cmdlets-in-skype-for-business-online-that-use-a-user-identity.md)
+  - [<span data-ttu-id="a43e1-170">ユーザー id を使用する Skype for Business Online のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="a43e1-170">Cmdlets in Skype for Business Online that use a user identity</span></span>](cmdlets-in-skype-for-business-online-that-use-a-user-identity.md)
 
-  - [ユーザー ID とタグ スコープを使用するコマンドレット](cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope.md)
+  - [<span data-ttu-id="a43e1-171">ユーザー id とタグのスコープを使う Skype for Business Online のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="a43e1-171">Cmdlets in Skype for Business Online that use a user identity and the tag scope</span></span>](cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope.md)
 
-  - [Tenant パラメーターを使用するコマンドレット](cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter.md)
+  - [<span data-ttu-id="a43e1-172">テナントパラメーターを使う Skype for Business Online のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="a43e1-172">Cmdlets in Skype for Business Online that use the Tenant parameter</span></span>](cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter.md)
 
-  - [会議プロバイダー ID を使用するコマンドレット](cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity.md)
+  - [<span data-ttu-id="a43e1-173">会議プロバイダー id を使用する Skype for Business Online のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="a43e1-173">Cmdlets in Skype for Business Online that use a conferencing provider identity</span></span>](cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity.md)
 
-  - [Scope や Identity を使用しないコマンドレット](cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity.md)
+  - [<span data-ttu-id="a43e1-174">スコープまたは id を使用しない Skype for Business Online のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="a43e1-174">Cmdlets in Skype for Business Online that do not use a scope or an identity</span></span>](cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

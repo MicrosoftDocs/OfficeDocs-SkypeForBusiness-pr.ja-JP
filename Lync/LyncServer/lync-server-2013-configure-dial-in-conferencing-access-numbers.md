@@ -1,43 +1,92 @@
-﻿---
-title: 'Lync Server 2013: ダイヤルイン会議アクセス番号の構成'
-TOCTitle: ダイヤルイン会議アクセス番号の構成
-ms:assetid: d8a18030-f318-43dd-834d-70e5014b5e8a
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398952(v=OCS.15)
-ms:contentKeyID: 48273725
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ダイヤルイン会議アクセス番号の構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure dial-in conferencing access numbers
+ms:assetid: d8a18030-f318-43dd-834d-70e5014b5e8a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398952(v=OCS.15)
+ms:contentKeyID: 48185623
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d42d8fbe6d3f507d0cadb7dc879b940191c04603
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840405"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのダイヤルイン会議アクセス番号の構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2011-07-17_
+# <a name="configure-dial-in-conferencing-access-numbers-in-lync-server-2013"></a><span data-ttu-id="d4ecd-102">Lync Server 2013 でのダイヤルイン会議アクセス番号の構成</span><span class="sxs-lookup"><span data-stu-id="d4ecd-102">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>
 
-ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。 それらのダイヤルイン アクセス番号は、ミーティングの招待状と \[ダイヤルイン会議の設定\] Web ページに表示されます。
+</div>
 
-ダイヤルイン アクセス番号を作成する前に、まずダイヤルイン会議の域を計画し、その地域のダイヤル プランを構成する必要があります。地域の詳細については、「計画」のドキュメントの「[Lync Server 2013 でのダイヤルイン会議の要件](lync-server-2013-dial-in-conferencing-requirements.md)」を参照してください。ダイヤルイン会議のダイヤル プランの構成に関する詳細については、「[Lync Server 2013 でのダイヤルイン会議のダイヤル プランの構成](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)」を参照してください。
+<div id="mainSection">
 
-> [!NOTE]
-> 新しいダイヤルイン アクセス番号は、そのアクセス番号の Active Directory ドメイン サービス (AD DS) レプリケーションが完了するまで使用できません。 レプリケーションが完了するまでに数時間かかることがあります。
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d4ecd-103">_**最終更新日:** 2011-07-17_</span><span class="sxs-lookup"><span data-stu-id="d4ecd-103">_**Topic Last Modified:** 2011-07-17_</span></span>
+
+<span data-ttu-id="d4ecd-104">ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-104">When you deploy dial-in conferencing, you need to set up phone numbers that users can dial from the public switched telephone network (PSTN) to join the audio portion of conferences.</span></span> <span data-ttu-id="d4ecd-105">それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-105">These dial-in access numbers appear in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
+
+<span data-ttu-id="d4ecd-106">ダイヤルイン アクセス番号を作成する前に、まずダイヤルイン会議の域を計画し、その地域のダイヤル プランを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-106">Before you can create dial-in access numbers, you must first plan your dial-in conferencing regions and then configure dial plans with the regions.</span></span> <span data-ttu-id="d4ecd-107">地域の詳細については、計画ドキュメントの「 [Lync Server 2013 でのダイヤルイン会議の要件](lync-server-2013-dial-in-conferencing-requirements.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-107">For details about regions, see [Dial-in conferencing requirements in Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) in the Planning documentation.</span></span> <span data-ttu-id="d4ecd-108">ダイヤルイン会議のダイヤルプランの設定の詳細については、「 [Lync Server 2013 でダイヤルイン会議のダイヤルプランを構成する](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-108">For details about configuring dial plans for dial-in conferencing, see [Configure dial plans for dial-in conferencing in Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).</span></span>
+
+<div>
 
 
-> [!NOTE]
-> ダイヤルイン アクセス番号を作成した後は、Active Directory の連絡先オブジェクトの表示名を変更し、ユーザーが正しいアクセス番号を識別しやすくすることができます。 表示名を変更するには、<strong>Set-CsDialInConferencingAccessNumber</strong> コマンドレットを使用します。 Active Directory のオブジェクトは手動で変更しないでください。 <strong>Set-CsDialInConferencingAccessNumber</strong> コマンドレットを使用したアクセス番号の変更の詳細については、Lync Server 管理シェルのドキュメントを参照してください。
+> [!NOTE]  
+> <span data-ttu-id="d4ecd-109">このアクセス番号の Active Directory ドメインサービス (AD&nbsp;DS) のレプリケーションが完了するまで、新しいダイヤルインアクセス番号を使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-109">You cannot use a new dial-in access number until Active Directory Domain Services (AD&nbsp;DS) replication of that access number is complete.</span></span> <span data-ttu-id="d4ecd-110">レプリケーションが完了するまでに数時間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-110">Replication can take several hours to complete.</span></span>
 
 
-## このセクション中
 
-[Lync Server 2013 でのダイヤルイン会議アクセス番号の作成または変更](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+</div>
 
-## 関連項目
+<div>
 
-#### 概念
 
-[Lync Server 2013 でのダイヤルイン会議の要件](lync-server-2013-dial-in-conferencing-requirements.md)  
+> [!NOTE]  
+> <span data-ttu-id="d4ecd-111">ダイヤルイン アクセス番号を作成した後は、Active Directory の連絡先オブジェクトの表示名を変更し、ユーザーが正しいアクセス番号を識別しやすくすることができます。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-111">After you create dial-in access numbers, you can modify the display name for the Active Directory contact objects so that users can more easily identify the correct access number.</span></span> <span data-ttu-id="d4ecd-112">表示名を変更するには、 <STRONG>CsDialInConferencingAccessNumber</STRONG>コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-112">Use the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet to modify the display name.</span></span> <span data-ttu-id="d4ecd-113">Active Directory のオブジェクトは手動で変更しないでください。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-113">You should not modify Active Directory objects manually.</span></span> <span data-ttu-id="d4ecd-114">アクセス番号の変更について詳しくは、「 <STRONG>CsDialInConferencingAccessNumber</STRONG>コマンドレットの Lync Server 管理シェルドキュメント」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="d4ecd-114">For details about modifying an access number, see Lync Server Management Shell documentation for the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet.</span></span>
 
-#### その他のリソース
 
-[Lync Server 2013 でのダイヤルイン会議のダイヤル プランの構成](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="d4ecd-115">このセクション中</span><span class="sxs-lookup"><span data-stu-id="d4ecd-115">In This Section</span></span>
+
+[<span data-ttu-id="d4ecd-116">Lync Server 2013 でのダイヤルイン会議アクセス番号の作成または変更</span><span class="sxs-lookup"><span data-stu-id="d4ecd-116">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="d4ecd-117">関連項目</span><span class="sxs-lookup"><span data-stu-id="d4ecd-117">See Also</span></span>
+
+
+[<span data-ttu-id="d4ecd-118">Lync Server 2013 でのダイヤルイン会議の要件</span><span class="sxs-lookup"><span data-stu-id="d4ecd-118">Dial-in conferencing requirements in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-requirements.md)  
+
+
+[<span data-ttu-id="d4ecd-119">Lync Server 2013 でのダイヤルイン会議のダイヤル プランの構成</span><span class="sxs-lookup"><span data-stu-id="d4ecd-119">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

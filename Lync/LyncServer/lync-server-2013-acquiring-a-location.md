@@ -1,35 +1,65 @@
-﻿---
-title: 'Lync Server 2013: 場所の取得'
-TOCTitle: 場所の取得
-ms:assetid: 9bf069aa-d240-4d95-be3a-e795537f8e70
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205110(v=OCS.15)
-ms:contentKeyID: 48272969
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 場所の取得'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Acquiring a location
+ms:assetid: 9bf069aa-d240-4d95-be3a-e795537f8e70
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205110(v=OCS.15)
+ms:contentKeyID: 48184903
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6fb123cf2f38d935bc0cc641c67e6d0ff1d54e4e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840967"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での場所の取得
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-06-06_
+# <a name="acquiring-a-location-in-lync-server-2013"></a><span data-ttu-id="7d030-102">Lync Server 2013 での場所の取得</span><span class="sxs-lookup"><span data-stu-id="7d030-102">Acquiring a location in Lync Server 2013</span></span>
 
-Lync Server 2013 E9-1-1 の展開では、内部接続された各 Lync または Lync Phone Edition クライアントが、それ自体の場所情報を頻繁に取得します。SIP 登録後、クライアントは、クライアント自体について認識しているネットワーク接続情報すべてを、レプリケートされた SQL Server データベースに支えられた Web サービスである 場所情報サービスに対する場所の要求に含めます。中央サイト プールごとに 場所情報サービスがあり、ネットワーク情報を使用して、場所を照会するためにレコードを問い合わせます。一致が検出されると、 場所情報サービスは 1 つの場所情報をクライアントに返します。一致が検出されない場合は、(場所のポリシーの設定に応じて) 場所を手動で入力するようユーザーに求めるプロンプトが表示されます。場所データは、プレゼンス情報データ フォーマット位置オブジェクト (PIDF-LO) と呼ばれるインターネット技術標準化委員会 (IETF) の標準 XML フォーマットでクライアントに再び送信されます。
+</div>
 
-Lync Server クライアントは、緊急電話の一部として PIDF-LO データを含めます。E9-1-1 サービス プロバイダーは、このデータを使用して適切な PSAP を判断し、適切な ESQK と一緒に通話をその PSAP にルーティングします。PSAP の通信指令係は、ESQK を使用して発信者の場所情報を取得できます。
+<div id="mainSection">
 
-次の図は、 Lync Server クライアントが場所情報を取得する方法を示しています (サードパーティ クライアントの MAC アドレスベースの場所特定手法を除く)。
+<div id="mainBody">
 
-![クライアントが場所を取得する方法の図](images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "クライアントが場所を取得する方法の図")
+<span> </span>
 
-クライアントが場所情報を取得するには、次の手順を実行する必要があります。
+<span data-ttu-id="7d030-103">_**最終更新日:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="7d030-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-1.  管理者が、 場所情報サービス データベースにネットワーク ワイヤマップ (各種ネットワーク アドレスを対応する緊急応答ロケーション (ERL) にマッピングするテーブル) を取り込みます。
+<span data-ttu-id="7d030-104">Lync Server 2013 E9 の展開では、内部接続された Lync または Lync Phone Edition クライアントはそれぞれ、自分の場所をアクティブに取得しています。</span><span class="sxs-lookup"><span data-stu-id="7d030-104">In a Lync Server 2013 E9-1-1 deployment, each internally-connected Lync or Lync Phone Edition client actively acquires its own location.</span></span> <span data-ttu-id="7d030-105">SIP 登録後、クライアントは、furnishes について知っているすべてのネットワーク接続情報を、レプリケートされた SQL Server データベースによってサポートされている web サービスである位置情報サービスへの場所要求で認識します。</span><span class="sxs-lookup"><span data-stu-id="7d030-105">After SIP registration, the client furnishes all the network connectivity information that it knows about itself it in a location request to the Location Information service, which is a web service backed by a replicated SQL Server database.</span></span> <span data-ttu-id="7d030-106">各セントラルサイトプールには、位置情報サービスがあります。これにより、ネットワーク情報を使用して、一致する場所についてレコードを照会します。</span><span class="sxs-lookup"><span data-stu-id="7d030-106">Each central site pool has a Location Information service, which uses the network information to query its records for a matching location.</span></span> <span data-ttu-id="7d030-107">一致する場合は、位置情報サービスによってクライアントに位置情報が返されます。</span><span class="sxs-lookup"><span data-stu-id="7d030-107">If there is a match, the Location Information service returns a location to the client.</span></span> <span data-ttu-id="7d030-108">一致していない場合、場所を手動で入力するように求めるメッセージが表示されることがあります (場所のポリシーの設定によって異なります)。</span><span class="sxs-lookup"><span data-stu-id="7d030-108">If there is not a match, the user may be prompted to enter a location manually (depending on location policy settings).</span></span> <span data-ttu-id="7d030-109">場所データは、プレゼンス情報データ形式の場所オブジェクト (PIDF) と呼ばれるインターネットエンジニアリングタスクフォース (IETF) の標準化された XML 形式でクライアントに送信されます。</span><span class="sxs-lookup"><span data-stu-id="7d030-109">The location data are transmitted back to the client in an Internet Engineering Task Force (IETF) standardized XML format called Presence Information Data Format Location Object (PIDF-LO).</span></span>
 
-2.  SIP トランクの E9-1-1 サービス プロバイダーを使用する場合、その E9-1-1 サービス プロバイダーが維持する主要道路住所案内 (MSAG) データベースに対して、管理者は ERL の公的アドレス部分を確認します。ELIN ゲートウェイを使用する場合、管理者は、PSTN キャリアが自動ロケーション識別 (ALI) データベースに ELIN をアップロードすることを確認します。
+<span data-ttu-id="7d030-110">Lync Server クライアントには、緊急通話の一部として PIDF データが含まれており、このデータは E9 サービスプロバイダーによって、適切な PSAP を特定し、その PSAP に呼び出しをルーティングするために、正しい ESQK と共に使用されます。これにより、PSAP ディスパッチャーは、発信者の場所。</span><span class="sxs-lookup"><span data-stu-id="7d030-110">The Lync Server client includes the PIDF-LO data as part of an emergency call, and this data is used by the E9-1-1 service provider to determine the appropriate PSAP and route the call to that PSAP along with the correct ESQK, which allows the PSAP dispatcher to obtain the caller’s location.</span></span>
 
-3.  登録中、あるいは、ネットワークが変更されるたびに、内部接続されたクライアントは、検出されたクライアントのネットワーク アドレスを含む場所の要求を 場所情報サービスに送信します。
+<span data-ttu-id="7d030-111">次の図は、Lync Server クライアントで場所を取得する方法を示しています (サードパーティのクライアント MAC アドレスベースの場所のメソッドを除く)。</span><span class="sxs-lookup"><span data-stu-id="7d030-111">The following diagram shows how a Lync Server client acquires a location (except for the third-party client MAC address–based location method):</span></span>
 
-4.  場所情報サービスが 1 つの場所の公開されたレコードを照会し、一致が検出されるとその ERL を PIDF-LO フォーマットでクライアントに返します。
+<span data-ttu-id="7d030-112">![クライアントが位置情報ダイアグラムを取得する方法](images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "クライアントが位置情報ダイアグラムを取得する方法")</span><span class="sxs-lookup"><span data-stu-id="7d030-112">![How Client Acquires a Location diagram](images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "How Client Acquires a Location diagram")</span></span>
+
+<span data-ttu-id="7d030-113">クライアントが場所情報を取得するには、次の手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7d030-113">For a client to acquire a location, the following steps must take place:</span></span>
+
+1.  <span data-ttu-id="7d030-114">管理者は、場所情報サービスデータベースに network wiremap (さまざまな種類のネットワークアドレスを対応する緊急対応の場所 (ERLs) にマップするテーブル) を設定します。</span><span class="sxs-lookup"><span data-stu-id="7d030-114">The administrator populates the Location Information service database with the network wiremap (tables that map various types of network addresses to corresponding Emergency Response Locations (ERLs)).</span></span>
+
+2.  <span data-ttu-id="7d030-p102">SIP トランクの E9-1-1 サービス プロバイダーを使用する場合、その E9-1-1 サービス プロバイダーが維持する主要道路住所案内 (MSAG) データベースに対して、管理者は ERL の公的アドレス部分を確認します。ELIN ゲートウェイを使用する場合、管理者は、PSTN キャリアが自動ロケーション識別 (ALI) データベースに ELIN をアップロードすることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7d030-p102">If you use a SIP trunk E9-1-1 service provider, the administrator validates the civic address portions of the ERLs against a Master Street Address Guide (MSAG) database maintained by the E9-1-1 service provider. If you use an ELIN gateway, the administrator ensures that the PSTN carrier uploads the ELINs to the Automatic Location Identification (ALI) database.</span></span>
+
+3.  <span data-ttu-id="7d030-117">登録中、またはネットワークの変更が発生するたびに、内部接続クライアントは、クライアントの検出されたネットワークアドレスを含む位置情報要求を、位置情報サービスに送信します。</span><span class="sxs-lookup"><span data-stu-id="7d030-117">During registration or whenever a network change occurs, an internally-connected client sends a location request that contains the client's discovered network addresses to the Location Information service.</span></span>
+
+4.  <span data-ttu-id="7d030-118">位置情報サービスは、発行されたレコードに対して場所を照会します。一致するものが見つかった場合は、ERL を PIDF 形式でクライアントに返します。</span><span class="sxs-lookup"><span data-stu-id="7d030-118">The Location Information service queries its published records for a location, and, if a match is found, returns the ERL to the client in PIDF-LO format.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

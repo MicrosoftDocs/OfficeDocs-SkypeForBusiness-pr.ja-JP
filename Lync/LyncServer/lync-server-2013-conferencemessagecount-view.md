@@ -1,25 +1,51 @@
-﻿---
-title: ConferenceMessageCount ビュー
-TOCTitle: ConferenceMessageCount ビュー
-ms:assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688129(v=OCS.15)
-ms:contentKeyID: 49887046
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ConferenceMessageCount view'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceMessageCount view
+ms:assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688129(v=OCS.15)
+ms:contentKeyID: 49733727
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0324c9913a607057c4e1cd161a9040b83d6bd29b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840487"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ConferenceMessageCount ビュー
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="conferencemessagecount-view-in-lync-server-2013"></a><span data-ttu-id="d4b47-102">Lync Server 2013 での ConferenceMessageCount の表示</span><span class="sxs-lookup"><span data-stu-id="d4b47-102">ConferenceMessageCount view in Lync Server 2013</span></span>
 
-ConferenceMessageCount ビューには、ユーザーが電話会議に送信したメッセージ数に関する情報が格納されます。このビューは、Microsoft Lync Server 2013 で導入されました。
+</div>
 
-> [!NOTE]
-> ConferenceMessageCount ビューには、次に示す列に加えて「<a href="lync-server-2013-conferencesessiondetails-view.md">ConferenceSessionDetails ビュー</a>」のすべての列が含まれます。
+<div id="mainSection">
 
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d4b47-103">_**最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="d4b47-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+
+<span data-ttu-id="d4b47-104">ConferenceMessageCount ビューには、ユーザーが会議に送信したメッセージの数に関する情報が格納されます。</span><span class="sxs-lookup"><span data-stu-id="d4b47-104">The ConferenceMessageCount view stores information about how many messages were sent by a user to a conference.</span></span> <span data-ttu-id="d4b47-105">このビューは、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="d4b47-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="d4b47-106">ConferenceMessageCount ビューには、 <A href="lync-server-2013-conferencesessiondetails-view.md">Lync Server 2013 の ConferenceSessionDetails ビュー</A>のすべての列に加えて、以下の列も含まれています。</span><span class="sxs-lookup"><span data-stu-id="d4b47-106">The ConferenceMessageCount view contains all of the columns in the <A href="lync-server-2013-conferencesessiondetails-view.md">ConferenceSessionDetails view in Lync Server 2013</A> in addition the columns listed below.</span></span>
+
+
+
+</div>
 
 
 <table>
@@ -30,32 +56,43 @@ ConferenceMessageCount ビューには、ユーザーが電話会議に送信し
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
-<th>データ型</th>
-<th>詳細</th>
+<th><span data-ttu-id="d4b47-107">列</span><span class="sxs-lookup"><span data-stu-id="d4b47-107">Column</span></span></th>
+<th><span data-ttu-id="d4b47-108">データ型</span><span class="sxs-lookup"><span data-stu-id="d4b47-108">Data Type</span></span></th>
+<th><span data-ttu-id="d4b47-109">詳細</span><span class="sxs-lookup"><span data-stu-id="d4b47-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>メッセージを送信したユーザーの URI。</p></td>
+<td><p><span data-ttu-id="d4b47-110"><strong>UserUri</strong></span><span class="sxs-lookup"><span data-stu-id="d4b47-110"><strong>UserUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="d4b47-111">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="d4b47-111">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="d4b47-112">メッセージを送信したユーザーの URI。</span><span class="sxs-lookup"><span data-stu-id="d4b47-112">URI of the user who sent the message.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>メッセージを送信したユーザーの URI の種類。詳細については、「<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p><span data-ttu-id="d4b47-113"><strong>UserUriType</strong></span><span class="sxs-lookup"><span data-stu-id="d4b47-113"><strong>UserUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="d4b47-114">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="d4b47-114">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d4b47-115">メッセージを送信したユーザーの URI の種類。</span><span class="sxs-lookup"><span data-stu-id="d4b47-115">Type of URI of the user who sent the messages.</span></span> <span data-ttu-id="d4b47-116">詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d4b47-116">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserTenant</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>メッセージを送信したユーザーのテナント。詳細については、「<a href="lync-server-2013-tenants-table.md">Lync Server 2013 の Tenants テーブル</a>」を参照してください。</p></td>
+<td><p><span data-ttu-id="d4b47-117"><strong>UserTenant</strong></span><span class="sxs-lookup"><span data-stu-id="d4b47-117"><strong>UserTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="d4b47-118">長さ</span><span class="sxs-lookup"><span data-stu-id="d4b47-118">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="d4b47-119">メッセージを送信したユーザーのテナント。</span><span class="sxs-lookup"><span data-stu-id="d4b47-119">Tenant of user who sent the messages.</span></span> <span data-ttu-id="d4b47-120">詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの一覧</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d4b47-120">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserMessageCount</strong></p></td>
-<td><p>smallint</p></td>
-<td><p>電話会議セッション中にユーザーが送信したメッセージの数。</p></td>
+<td><p><span data-ttu-id="d4b47-121"><strong>UserMessageCount</strong></span><span class="sxs-lookup"><span data-stu-id="d4b47-121"><strong>UserMessageCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="d4b47-122">smallint</span><span class="sxs-lookup"><span data-stu-id="d4b47-122">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d4b47-123">会議セッション中にユーザーによって送信されたメッセージの数です。</span><span class="sxs-lookup"><span data-stu-id="d4b47-123">Number of messages sent by the user during the conference session.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

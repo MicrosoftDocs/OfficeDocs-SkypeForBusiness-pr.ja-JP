@@ -1,25 +1,45 @@
-﻿---
-title: ビデオのシナリオ例の構成
-TOCTitle: ビデオのシナリオ例の構成
-ms:assetid: da0d61a2-7ac4-4562-bf6a-18473a29acb2
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205297(v=OCS.15)
-ms:contentKeyID: 48273732
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ビデオの例のシナリオを構成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring video example scenarios
+ms:assetid: da0d61a2-7ac4-4562-bf6a-18473a29acb2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205297(v=OCS.15)
+ms:contentKeyID: 48185536
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9800f97c8ccd49780098c29c9c6c1325b072dab5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840161"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ビデオのシナリオ例の構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a><span data-ttu-id="2f2c0-102">ビデオの構成 Lync Server 2013 のシナリオの例</span><span class="sxs-lookup"><span data-stu-id="2f2c0-102">Configuring video example scenarios for Lync Server 2013</span></span>
 
-Lync 2013 は、1920 x 1080 フル高解像度 (HD) ビデオおよびギャラリー ビュー ビデオをサポートするための新しいビデオ機能を追加します。顧客データに基づく測定では、通常のビデオ帯域幅は Lync 2010 と比較してわずかしか増加していないが、フル HD サポートによって、ビデオ ストリームの最大帯域幅が増加していることが示されています (詳細については、「[Lync Server 2013 でのメディア トラフィックのネットワーク帯域幅の要件](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)」の「メディア トラフィック ネットワークの使用」セクションを参照してください)。したがって、管理者は、特定のユーザー (ネットワーク キャパシティが不十分なブランチ オフィスのユーザーなど) に対してビデオ帯域幅を制限し、他のユーザー (上級管理職など) に最善のビデオ品質を確保することができます。
+</div>
 
-次の表は、異なるネットワーク キャパシティ用にビデオを構成するための推奨設定の一覧です。これらの設定は、いくつかのユーザー シナリオで高解像度のビデオ (一番右側の列を参照してください) を送受信することを制限します。最小の設定値にすると、最大受信ネットワーク帯域幅が小さくなるため、ギャラリー ビデオが利用できなくなります。
+<div id="mainSection">
 
-### 推奨されるビデオ設定
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="2f2c0-103">_**最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="2f2c0-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="2f2c0-104">Lync 2013 では、1920 x 1080 full definition (HD) ビデオとギャラリービューのビデオをサポートする新しいビデオ機能が追加されています。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-104">Lync 2013 adds new video features to support 1920 x 1080 full high definition (HD) video and Gallery View video.</span></span> <span data-ttu-id="2f2c0-105">顧客データに基づく測定値は、一般的なビデオの帯域幅が Lync 2010 に比べてわずかに増加していますが、フル HD のサポートにより、ビデオストリームの最大帯域幅が増加していることを示しています (詳細については、「メディアトラフィックネットワークの使用状況」セクション[を参照してください)。Lync Server 2013 でのメディアトラフィックのネットワーク帯域幅要件](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-105">Measurements based on customer data show that the typical video bandwidth increased only slightly compared to Lync 2010, but the maximum video stream bandwidth has increased due to full HD support (for details, see the "Media Traffic Network Usage" section in [Network bandwidth requirements for media traffic in Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)).</span></span> <span data-ttu-id="2f2c0-106">そのため、管理者は、特定のユーザー (ネットワーク容量が少ない支店のユーザーなど) のビデオ帯域幅を制限したり、他のユーザー (エグゼクティブなど) に最適なビデオ品質を確保したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-106">Therefore, administrators may want to restrict video bandwidth for certain users (such as users in a branch office that has less network capacity) and help to ensure the best possible video quality for other users (such as executives).</span></span>
+
+<span data-ttu-id="2f2c0-107">次の表は、さまざまなネットワーク容量に対応したビデオを構成するための推奨される設定の一覧です。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-107">The following table provides a list of recommended settings for configuring video for different network capacities.</span></span> <span data-ttu-id="2f2c0-108">これらの設定により、一部のユーザーシナリオでは、高解像度のビデオの送受信が制限されます (右端の列を参照)。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-108">These settings will restrict some user scenarios from sending and receiving higher resolution videos (see rightmost column).</span></span> <span data-ttu-id="2f2c0-109">[最小] 設定では、ネットワーク帯域幅の上限が最大になったため、ギャラリーのビデオは利用できなくなります。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-109">The minimum setting will result in Gallery Video being unavailable, due to the low maximum receive network bandwidth.</span></span>
+
+### <a name="recommended-video-settings"></a><span data-ttu-id="2f2c0-110">推奨されるビデオ設定</span><span class="sxs-lookup"><span data-stu-id="2f2c0-110">Recommended Video Settings</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -33,103 +53,113 @@ Lync 2013 は、1920 x 1080 フル高解像度 (HD) ビデオおよびギャラ�
 <thead>
 <tr class="header">
 <th>-</th>
-<th>AllowMultiView</th>
-<th>EnableMultiViewJoin</th>
-<th>VideoBitRateKB</th>
-<th>TotalReceiveVideoBitRateKB</th>
-<th>良好な品質のビデオに必要とされる解像度</th>
+<th><span data-ttu-id="2f2c0-111">AllowMultiView</span><span class="sxs-lookup"><span data-stu-id="2f2c0-111">AllowMultiView</span></span></th>
+<th><span data-ttu-id="2f2c0-112">EnableMultiViewJoin</span><span class="sxs-lookup"><span data-stu-id="2f2c0-112">EnableMultiViewJoin</span></span></th>
+<th><span data-ttu-id="2f2c0-113">VideoBitRateKB</span><span class="sxs-lookup"><span data-stu-id="2f2c0-113">VideoBitRateKB</span></span></th>
+<th><span data-ttu-id="2f2c0-114">TotalReceiveVideoBitRateKB</span><span class="sxs-lookup"><span data-stu-id="2f2c0-114">TotalReceiveVideoBitRateKB</span></span></th>
+<th><span data-ttu-id="2f2c0-115">高品質ビデオにはビデオ解像度が期待されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-115">Expected video resolution for good quality video</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>最高</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
-<td><p>8000</p></td>
-<td><p>8000</p></td>
-<td><p>ピアツーピア: 最大 1920 x 1080 ビデオ解像度</p>
-<p>ギャラリー ビュー: 最大 ２ つの 1920 x 1080 ビデオ、または複数の低解像度ビデオ</p></td>
+<td><p><span data-ttu-id="2f2c0-116">よく</span><span class="sxs-lookup"><span data-stu-id="2f2c0-116">Best</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-117">True</span><span class="sxs-lookup"><span data-stu-id="2f2c0-117">True</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-118">True</span><span class="sxs-lookup"><span data-stu-id="2f2c0-118">True</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-119">8000</span><span class="sxs-lookup"><span data-stu-id="2f2c0-119">8000</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-120">8000</span><span class="sxs-lookup"><span data-stu-id="2f2c0-120">8000</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-121">ピアツーピア: 最大 1920 x 1080 のビデオ解像度</span><span class="sxs-lookup"><span data-stu-id="2f2c0-121">Peer-to-peer: Up to 1920 x 1080 video resolution</span></span></p>
+<p><span data-ttu-id="2f2c0-122">ギャラリービュー: 最大 2 1920 x 1080 のビデオまたは複数の小さな解像度のビデオ</span><span class="sxs-lookup"><span data-stu-id="2f2c0-122">Gallery View: Up to two 1920 x 1080 videos or multiple smaller resolution videos</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>良好</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
-<td><p>2500</p></td>
-<td><p>2500</p></td>
-<td><p>ピアツーピア: 最大 1280 x 720 ビデオ解像度</p>
-<p>ギャラリー ビュー: 最大 5 つの 640 x 360 解像度ビデオ</p></td>
+<td><p><span data-ttu-id="2f2c0-123">Good</span><span class="sxs-lookup"><span data-stu-id="2f2c0-123">Good</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-124">True</span><span class="sxs-lookup"><span data-stu-id="2f2c0-124">True</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-125">True</span><span class="sxs-lookup"><span data-stu-id="2f2c0-125">True</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-126">2500</span><span class="sxs-lookup"><span data-stu-id="2f2c0-126">2500</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-127">2500</span><span class="sxs-lookup"><span data-stu-id="2f2c0-127">2500</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-128">ピアツーピア: 最大 1280 x 720 のビデオ解像度</span><span class="sxs-lookup"><span data-stu-id="2f2c0-128">Peer-to-peer: Up to 1280 x 720 video resolution</span></span></p>
+<p><span data-ttu-id="2f2c0-129">ギャラリービュー: 最大 5 640 x 360 解像度のビデオ</span><span class="sxs-lookup"><span data-stu-id="2f2c0-129">Gallery View: Up to five 640 x 360 resolution videos</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>中</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
-<td><p>1000</p></td>
-<td><p>1000</p></td>
-<td><p>ピアツーピア: 最大 960 x 540 ビデオ解像度</p>
-<p>ギャラリー ビュー: 最大 5 つの 424 x 240 解像度ビデオ</p></td>
+<td><p><span data-ttu-id="2f2c0-130">中</span><span class="sxs-lookup"><span data-stu-id="2f2c0-130">Medium</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-131">True</span><span class="sxs-lookup"><span data-stu-id="2f2c0-131">True</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-132">True</span><span class="sxs-lookup"><span data-stu-id="2f2c0-132">True</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-133">1000</span><span class="sxs-lookup"><span data-stu-id="2f2c0-133">1000</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-134">1000</span><span class="sxs-lookup"><span data-stu-id="2f2c0-134">1000</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-135">ピアツーピア: 最大 960 x 540 のビデオ解像度</span><span class="sxs-lookup"><span data-stu-id="2f2c0-135">Peer-to-peer: Up to 960 x 540 video resolution</span></span></p>
+<p><span data-ttu-id="2f2c0-136">ギャラリービュー: 最大 5 424 x 240 解像度のビデオ</span><span class="sxs-lookup"><span data-stu-id="2f2c0-136">Gallery View: Up to five 424 x 240 resolution videos</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>中</p></td>
-<td><p>True</p></td>
-<td><p>False</p></td>
-<td><p>350</p></td>
-<td><p>350</p></td>
-<td><p>ピアツーピア: 最大 424 x 240 ビデオ解像度</p>
-<p>ギャラリー ビュー: 利用不可</p></td>
+<td><p><span data-ttu-id="2f2c0-137">最低</span><span class="sxs-lookup"><span data-stu-id="2f2c0-137">Minimum</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-138">True</span><span class="sxs-lookup"><span data-stu-id="2f2c0-138">True</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-139">False</span><span class="sxs-lookup"><span data-stu-id="2f2c0-139">False</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-140">350</span><span class="sxs-lookup"><span data-stu-id="2f2c0-140">350</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-141">350</span><span class="sxs-lookup"><span data-stu-id="2f2c0-141">350</span></span></p></td>
+<td><p><span data-ttu-id="2f2c0-142">ピアツーピア: 最大 424 x 240 のビデオ解像度</span><span class="sxs-lookup"><span data-stu-id="2f2c0-142">Peer-to-peer: Up to 424 x 240 video resolution</span></span></p>
+<p><span data-ttu-id="2f2c0-143">ギャラリービュー: 使用できません</span><span class="sxs-lookup"><span data-stu-id="2f2c0-143">Gallery View: Unavailable</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-上記の表にある情報を使用して、新しい HD ビデオおよびギャラリー ビュー ビデオの会議機能を組織の一部のユーザー向けに展開しながら、異なるビデオ解像度を他のユーザーに提供することができます。
+<span data-ttu-id="2f2c0-144">上の表の情報を使用して、組織内の一部のユーザーにビデオ会議機能を追加し、他のユーザーには別のビデオ解像度を適用することができます。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-144">You can use the information in the preceding table to deploy the new HD video and Gallery View video conferencing features for some users in your organization, while allowing different video resolutions for others.</span></span>
 
-次の例では、管理者が新しいビデオ機能を展開し、上級管理職だけが最高のビデオ品質を利用できるようにしています。ネットワーク キャパシティが不十分なリモート ブランチ オフィスの従業員に対しては、上記の表の最小設定値のみが展開されています。他のすべての従業員に対しては、上記の表の「良好」な設定値が展開されています。
+<span data-ttu-id="2f2c0-145">次の例では、管理者が、最高のビデオ品質で、[エグゼクティブ] のみで利用可能な新しいビデオ機能をロールアウトします。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-145">In the following example, the administrator rolls out the new video features with the highest video quality available only to executives.</span></span> <span data-ttu-id="2f2c0-146">ネットワーク容量が少ないリモート支店の従業員については、上記の表の最小設定のみが展開されます。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-146">For employees in a remote branch office that has low network capacity, only the minimum setting from the preceding table is deployed.</span></span> <span data-ttu-id="2f2c0-147">その他のすべての従業員については、上記の表の "良好" 設定が展開されます。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-147">For all other employees, the "Good" setting from the preceding table is deployed.</span></span>
 
-新しい機能を上級管理職に展開するために、管理者は、ExecutiveVideo という名前の会議ポリシーを作成します。この会議ポリシーは次のように設定されます。
+<span data-ttu-id="2f2c0-148">新しい機能を役員にロールアウトするために、管理者は ExecutiveVideo という名前の会議ポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-148">To roll out the new features to the executives, the administrator creates a conferencing policy named ExecutiveVideo.</span></span> <span data-ttu-id="2f2c0-149">この会議ポリシーには、次の設定があります。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-149">This conferencing policy has the following settings:</span></span>
 
-  - VideoBitRateKB を 8000 Kbps に設定する。
+  - <span data-ttu-id="2f2c0-150">VideoBitRateKB が 8000 Kbps に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-150">VideoBitRateKB is set to 8000 Kbps</span></span>
 
-  - TotalReceiveVideoBitRateKB を 8000 Kbps に設定する。
+  - <span data-ttu-id="2f2c0-151">TotalReceiveVideoBitRateKB が 8000 Kbps に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-151">TotalReceiveVideoBitRateKB is set to 8000 Kbps</span></span>
 
-  - AllowMultiview を True に設定する。
+  - <span data-ttu-id="2f2c0-152">AllowMultiview が True に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-152">AllowMultiview is set to True</span></span>
 
-  - EnableMultiviewJoin を True に設定する。
+  - <span data-ttu-id="2f2c0-153">EnableMultiviewJoin が True に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-153">EnableMultiviewJoin is set to True</span></span>
 
-ブランチ オフィスの従業員に対して、管理者は BranchOfficeVideo という名前の会議ポリシーを作成します。この会議ポリシーは次のように設定されます。
+<span data-ttu-id="2f2c0-154">支社の従業員の場合、管理者は BranchOfficeVideo という名前の会議ポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-154">For employees in the branch office, the administrator creates a conferencing policy named BranchOfficeVideo.</span></span> <span data-ttu-id="2f2c0-155">この会議ポリシーには、次の設定があります。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-155">This conferencing policy has the following settings:</span></span>
 
-  - VideoBitRateKB を 350 Kbps に設定する。
+  - <span data-ttu-id="2f2c0-156">VideoBitRateKB が 350 Kbps に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-156">VideoBitRateKB is set to 350 Kbps</span></span>
 
-  - TotalReceiveVideoBitRateKB を 350 Kbps に設定する。
+  - <span data-ttu-id="2f2c0-157">TotalReceiveVideoBitRateKB が 350 Kbps に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-157">TotalReceiveVideoBitRateKB is set to 350 Kbps</span></span>
 
-  - AllowMultiview を True に設定する。
+  - <span data-ttu-id="2f2c0-158">AllowMultiview が True に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-158">AllowMultiview is set to True</span></span>
 
-  - EnableMultiviewJoin を False に設定する。
+  - <span data-ttu-id="2f2c0-159">EnableMultiviewJoin が False に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-159">EnableMultiviewJoin is set to False</span></span>
 
-他のすべての従業員に対して、管理者は StandardVideo という名前の会議ポリシーを作成します。この会議ポリシーは次のように設定されます。
+<span data-ttu-id="2f2c0-160">他のすべての従業員の場合、管理者は StandardVideo という名前の会議ポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-160">For all other employees, the administrator creates a conferencing policy named StandardVideo.</span></span> <span data-ttu-id="2f2c0-161">この会議ポリシーには、次の設定があります。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-161">This conferencing policy has the following settings:</span></span>
 
-  - VideoBitRateKB を 2500 Kbps に設定する。
+  - <span data-ttu-id="2f2c0-162">VideoBitRateKB が 2500 Kbps に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-162">VideoBitRateKB is set to 2500 Kbps</span></span>
 
-  - TotalReceiveVideoBitRateKB を 2500 Kbps に設定する。
+  - <span data-ttu-id="2f2c0-163">TotalReceiveVideoBitRateKB が 2500 Kbps に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-163">TotalReceiveVideoBitRateKB is set to 2500 Kbps</span></span>
 
-  - AllowMultiview を True に設定する。
+  - <span data-ttu-id="2f2c0-164">AllowMultiview が True に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-164">AllowMultiview is set to True</span></span>
 
-  - EnableMultiviewJoin を True に設定する。
+  - <span data-ttu-id="2f2c0-165">EnableMultiviewJoin が True に設定されている</span><span class="sxs-lookup"><span data-stu-id="2f2c0-165">EnableMultiviewJoin is set to True</span></span>
 
-管理者は、次のように会議ポリシーをユーザーに割り当てます。
+<span data-ttu-id="2f2c0-166">管理者は、次のようにして会議ポリシーをユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-166">The administrator assigns conferencing policy to users as follows:</span></span>
 
-  - ExecutiveVideo 会議ポリシーを上級管理職に割り当てる。
+  - <span data-ttu-id="2f2c0-167">ExecutiveVideo 会議のポリシーが役員に割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-167">The ExecutiveVideo conferencing policy is assigned to the executives.</span></span>
 
-  - BranchOfficeVideo 会議ポリシーをブランチ オフィスの従業員すべてに割り当てる。
+  - <span data-ttu-id="2f2c0-168">BranchOfficeVideo 会議ポリシーは、支社のすべての従業員に割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-168">The BranchOfficeVideo conferencing policy is assigned to all employees in the branch office.</span></span>
 
-  - StandardVideo 会議ポリシーを他のすべての従業員に割り当てる。
+  - <span data-ttu-id="2f2c0-169">標準ビデオ会議ポリシーは、他のすべての従業員に割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-169">The StandardVideo conferencing policy is assigned to all other employees.</span></span>
 
-これらの会議ポリシー割り当ては、次のユーザー エクスペリエンスをもたらします。
+<span data-ttu-id="2f2c0-170">これらの会議ポリシーを割り当てると、次のユーザーエクスペリエンスが得られます。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-170">These conferencing policy assignments result in the following user experience:</span></span>
 
-  - ユーザーが開催する会議はギャラリー ビューをサポートしますが、ブランチ オフィスの従業員はギャラリー ビューを利用できません。
+  - <span data-ttu-id="2f2c0-171">任意のユーザーサポートギャラリービューによって開催されたすべての会議。ただし、ブランチオフィスの従業員はギャラリービューを表示できません。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-171">All conferences organized by any user support Gallery View, but employees in the branch office cannot experience Gallery View.</span></span>
 
-  - 2 者間またはマルチパーティの会議で、上級管理職は 1920 x 1080 フル HD ビデオを送信したり (ハードウェアとネットワーク リンクがサポートしている場合)、他の参加クライアントがサポートしている 1920 x 1080 フル HD ビデオを受信したりできます。
+  - <span data-ttu-id="2f2c0-172">2パーティまたはマルチパーティの会議では、役員は、1920 x 1080 のフル HD ビデオ (ハードウェアとネットワークリンクがサポートされている場合) を送信できます。また、他の参加者のクライアントがサポートしている 1920 x 1080 フル HD ビデオも受信できます。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-172">For any two-party or multiparty conferences, executives can send 1920 x 1080 full HD video, if their hardware and network link supports it, and can receive 1920 x 1080 full HD video where the other participant clients support it.</span></span>
 
-  - 2 者間またはマルチパーティの会議で上級管理職以外の従業員が利用できるビデオは、上級管理職向けのものよりも低解像度になりますが、その解像度は良好です。
+  - <span data-ttu-id="2f2c0-173">エグゼクティブ以外の従業員は、2パーティまたはマルチパーティの会議では、役員よりも低い解像度で表示されますが、解決策は引き続き有効です。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-173">Employees who are not executives experience lower resolutions than the executives in their two-party or multiparty conferences, but still get good resolution.</span></span>
 
-  - Lync が既定のビデオ ウィンドウ サイズを表示する場合、ブランチ オフィスの従業員は 2 者間の会議で良好なビデオ品質を利用できます。ただし、Lync のウィンドウが全画面表示になっている場合は、ビデオの解像度が向上しません。マルチパーティの会議の場合、ブランチ オフィスの従業員には、アクティブなビデオが 1 つしか表示されません。
+  - <span data-ttu-id="2f2c0-174">Lync が既定のビデオウィンドウサイズで表示されている場合は、支社にいる従業員は、2パーティーの通話で優れたビデオ品質を得ることができます。ただし、Lync ウィンドウが全画面に最大化されている場合、ビデオの解像度は増加しません。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-174">Employees who are in the branch office will get good video quality in two-party calls when Lync displays the default video window size; however, if the Lync window is maximized to full screen, the video resolution will not increase.</span></span> <span data-ttu-id="2f2c0-175">マルチパーティ会議の場合、支店の従業員は1つのアクティブなビデオのみを表示します。</span><span class="sxs-lookup"><span data-stu-id="2f2c0-175">For multiparty conferences, the employees in the branch office will see only one active video.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

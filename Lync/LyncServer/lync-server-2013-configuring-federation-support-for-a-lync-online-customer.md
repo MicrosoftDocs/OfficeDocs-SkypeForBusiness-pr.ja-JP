@@ -1,39 +1,79 @@
-﻿---
-title: Lync Online の顧客のためのフェデレーション サポートの構成
-TOCTitle: Lync Online の顧客のためのフェデレーション サポートの構成
-ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh202193(v=OCS.15)
-ms:contentKeyID: 48273990
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Online の顧客のためのフェデレーションサポートの構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring federation support for a Lync Online customer
+ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
+ms:contentKeyID: 48185669
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f5e3b1e7a325a078d4769116697f957815f02487
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840252"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Online の顧客のためのフェデレーション サポートの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a><span data-ttu-id="356eb-102">Lync Server 2013 での Lync Online ユーザーのフェデレーションサポートの構成</span><span class="sxs-lookup"><span data-stu-id="356eb-102">Configuring federation support for a Lync Online customer in Lync Server 2013</span></span>
 
-次のいずれかの方法で、組織のユーザーに通信サービスを提供できます。
+</div>
 
-  - Lync Server 2013 を組織に展開し (*内部設置型サービス*と呼ばれます)、組織内の Lync 2013 ユーザー アカウントを設定します。
+<div id="mainSection">
 
-  - ホスティング プロバイダーで Microsoft Lync Online 2010 顧客アカウントを設定し、ホスティング プロバイダーでユーザー アカウントを設定します ("オンライン サービス" と呼ばれます)。
+<div id="mainBody">
 
-Lync 2013 を組織内に展開する場合は、1 つ以上の Microsoft Lync Online 2010 ユーザーのドメインとフェデレーションを行うことができます。Lync 2013 の内部設置型展開のユーザーと Lync Online 2010 の顧客のユーザーのフェデレーションを有効にするには、Lync Online の顧客のドメインとユーザーのサポートを構成する必要があります。
+<span> </span>
 
-> [!NOTE]
-> このドキュメントでは、Lync Online 2010 の顧客とのフェデレーションをサポートするための組織の構成手順のみを説明します。フェデレーションをサポートするための Lync Online 2010 の顧客の構成手順については説明しません。Lync Online サービスの詳細については、<a href="http://go.microsoft.com/fwlink/?linkid=218941%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=218941&amp;clcid=0x411</a> の Lync Online を参照してください。
+<span data-ttu-id="356eb-103">_**最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="356eb-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="356eb-104">次のいずれかの方法で、組織内のユーザーに通信サービスを提供できます。</span><span class="sxs-lookup"><span data-stu-id="356eb-104">You can provide communications services to users in your organization in any of the following ways:</span></span>
+
+  - <span data-ttu-id="356eb-105">組織内の Lync Server 2013 (*オンプレミスサービス*とも呼ばれます) を展開して、組織内の lync 2013 ユーザーアカウントをセットアップします。</span><span class="sxs-lookup"><span data-stu-id="356eb-105">Deploying Lync Server 2013 in your organization (known as *on-premises services*) and setting up Lync 2013 user accounts in your organization.</span></span>
+
+  - <span data-ttu-id="356eb-106">ホスティングプロバイダーを使用して Microsoft Lync Online 2010 顧客アカウントを設定し、ホスティングプロバイダー (*オンラインサービス*とも呼ばれます) を使用してユーザーアカウントをセットアップする。</span><span class="sxs-lookup"><span data-stu-id="356eb-106">Setting up a Microsoft Lync Online 2010 customer account with a Hosting Provider and setting up user accounts with the Hosting Provider (known as *online services*).</span></span>
+
+<span data-ttu-id="356eb-107">組織に Lync 2013 を展開する場合は、1つ以上の Microsoft Lync Online 2010 ユーザーのドメインとフェデレーションを行うことができます。</span><span class="sxs-lookup"><span data-stu-id="356eb-107">If you deploy Lync 2013 in your organization, you can federate with the domains of one or more Microsoft Lync Online 2010 customers.</span></span> <span data-ttu-id="356eb-108">オンプレミスの Lync 2013 の展開と Lync Online 2010 のユーザーとのフェデレーションを有効にするには、ドメインと Lync Online のユーザーのサポートを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="356eb-108">To enable federation between users of your on-premises Lync 2013 deployment and users of a Lync Online 2010 customer, you must configure support for the domain and users of the Lync Online customer.</span></span>
+
+<div>
 
 
-## このセクション中
+> [!NOTE]  
+> <span data-ttu-id="356eb-109">このドキュメントでは、Lync Online 2010 顧客とのフェデレーションをサポートするように組織を構成する手順についてのみ説明します。</span><span class="sxs-lookup"><span data-stu-id="356eb-109">This documentation describes only the procedures for configuring your organization to support federation with an Lync Online 2010 customer.</span></span> <span data-ttu-id="356eb-110">このドキュメントでは、Lync Online 2010 顧客がフェデレーションをサポートするように構成する手順については説明していません。</span><span class="sxs-lookup"><span data-stu-id="356eb-110">This documentation does not describe the procedures for configuring the Lync Online 2010 customer to support federation.</span></span> <span data-ttu-id="356eb-111">Lync Online サービスの詳細については、「 <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>lync online at」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="356eb-111">For details about Lync Online services, see Lync Online at <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>.</span></span>
 
-  - [Lync Online の顧客とのフェデレーションの前提条件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)
 
-  - [Lync オンライン ドメインのフェデレーション サポートを構成する](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
 
-  - [Lync Online 顧客によるフェデレーションのユーザー アクセスの構成](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
+</div>
 
-  - [Lync Online の顧客との通信を確認する](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="356eb-112">このセクション中</span><span class="sxs-lookup"><span data-stu-id="356eb-112">In This Section</span></span>
+
+  - [<span data-ttu-id="356eb-113">Lync Online のユーザーと Lync Server 2013 でフェデレーションを行うための前提条件</span><span class="sxs-lookup"><span data-stu-id="356eb-113">Prerequisites for federating with a Lync Online customer in Lync Server 2013</span></span>](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)
+
+  - [<span data-ttu-id="356eb-114">Lync Server 2013 での Lync Online ドメインのフェデレーションサポートの構成</span><span class="sxs-lookup"><span data-stu-id="356eb-114">Configure federation support for a Lync Online domain in Lync Server 2013</span></span>](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
+
+  - [<span data-ttu-id="356eb-115">Lync Server 2013 で Lync Online ユーザーとのフェデレーション用にユーザーアクセスを構成する</span><span class="sxs-lookup"><span data-stu-id="356eb-115">Configure user access for federation with a Lync Online customer in Lync Server 2013</span></span>](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
+
+  - [<span data-ttu-id="356eb-116">Lync Online の顧客との通信を Lync Server 2013 で確認する</span><span class="sxs-lookup"><span data-stu-id="356eb-116">Verify communications with a Lync Online customer in Lync Server 2013</span></span>](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

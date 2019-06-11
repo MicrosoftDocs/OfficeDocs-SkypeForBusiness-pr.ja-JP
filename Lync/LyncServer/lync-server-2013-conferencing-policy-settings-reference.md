@@ -1,153 +1,49 @@
-﻿---
-title: Lync Server 2013 での会議ポリシー設定の参照
-TOCTitle: Lync Server 2013 での会議ポリシー設定の参照
-ms:assetid: ec8125f7-ef78-4a2b-8db0-4dd3cf5a4065
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg429724(v=OCS.15)
-ms:contentKeyID: 48273932
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 会議ポリシー設定リファレンス'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferencing policy settings reference
+ms:assetid: ec8125f7-ef78-4a2b-8db0-4dd3cf5a4065
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429724(v=OCS.15)
+ms:contentKeyID: 48185737
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1a2189278368d1f26ac46c9edf83d55e1bbe5ed8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840457"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での会議ポリシー設定の参照
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-04-22_
+# <a name="conferencing-policy-settings-reference-for-lync-server-2013"></a><span data-ttu-id="30e84-102">Lync Server 2013 の会議ポリシー設定リファレンス</span><span class="sxs-lookup"><span data-stu-id="30e84-102">Conferencing policy settings reference for Lync Server 2013</span></span>
 
-このトピックの各表に、Lync Server 2013 コントロール パネル を使用して指定できるすべての会議ポリシー設定の一覧を示します。
+</div>
 
-## 開催者ポリシー設定
+<div id="mainSection">
 
-以下の表に、会議の開催者に適用可能なすべての会議ポリシー設定の一覧を示します。会議ポリシー設定の最新の一覧については、[Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) コマンドレットのヘルプ トピックをご覧ください。
+<div id="mainBody">
 
-### 開催者ポリシー設定
+<span> </span>
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>設定</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>最大会議サイズ</p></td>
-<td><p>ミーティングに参加可能な最大人数を設定します。</p></td>
-</tr>
-<tr class="even">
-<td><p>参加者に匿名ユーザーの招待を許可する</p></td>
-<td><p>会議の開催者に未認証ユーザーをミーティングに招待することを許可します。</p></td>
-</tr>
-<tr class="odd">
-<td><p>レコーディングを有効にする</p></td>
-<td><p>発表者または出席者にミーティングのレコーディングを許可します。</p></td>
-</tr>
-<tr class="even">
-<td><p>フェデレーション参加者と匿名参加者にレコーディングを許可する</p></td>
-<td><p>外部および未認証の参加者にミーティングのレコーディングを許可します。</p></td>
-</tr>
-<tr class="odd">
-<td><p>[IP オーディオを有効にする]</p></td>
-<td><p>ミーティングでのオーディオの使用を許可します。</p></td>
-</tr>
-<tr class="even">
-<td><p>IP オーディオ/ビデオを有効にする</p></td>
-<td><p>ミーティングでのオーディオおよびビデオの使用を許可します。</p></td>
-</tr>
-<tr class="odd">
-<td><p>PSTN ダイヤルイン会議を有効にする</p></td>
-<td><p>ユーザーに公衆交換電話網 (PSTN) からダイヤルインしてミーティングに出席することを許可します。</p></td>
-</tr>
-<tr class="even">
-<td><p>匿名参加者にダイヤルアウトを許可する</p></td>
-<td><p>未認証ユーザーにダイヤルアウト番号を使用してミーティングに参加することを許可します。 会議サーバーはダイヤルアウト番号を使用してユーザーを呼び出し、ユーザーはその電話に応答し会議に参加します。</p></td>
-</tr>
-<tr class="odd">
-<td><p>会議でのビデオの最大解像度</p></td>
-<td><p>ビデオ会議の最大解像度を設定します。 有効な値は、[<strong>640*480(VGA)</strong>] と [<strong>352*288(CIF)</strong>] です。</p></td>
-</tr>
-<tr class="even">
-<td><p>共同作業データを有効にする</p></td>
-<td><p>共同作業データ会議または Web 会議を有効にします。</p></td>
-</tr>
-<tr class="odd">
-<td><p>フェデレーション参加者と匿名参加者にコンテンツのダウンロードを許可する</p></td>
-<td><p>外部および未認証の参加者に会議のコンテンツをダウンロードすることを許可します。</p></td>
-</tr>
-<tr class="even">
-<td><p>参加者にファイルの転送を許可する</p></td>
-<td><p>ミーティング中にファイルを転送することをミーティング参加者に許可します。</p></td>
-</tr>
-<tr class="odd">
-<td><p>注釈を有効にする</p></td>
-<td><p>コンテンツに注釈を付けることをミーティング参加者に許可します。</p></td>
-</tr>
-<tr class="even">
-<td><p>投票を有効にする</p></td>
-<td><p>ミーティング中に投票を行うことをミーティング参加者に許可します。</p></td>
-</tr>
-<tr class="odd">
-<td><p>アプリケーション共有を有効にする</p></td>
-<td><p>ユーザーにアプリケーション共有をサポートするミーティングをスケジュールすることを許可します。</p></td>
-</tr>
-<tr class="even">
-<td><p>参加者にコントロールを許可する</p></td>
-<td><p>参加者に別のユーザーの共有アプリケーションのコントロールを許可します。</p></td>
-</tr>
-<tr class="odd">
-<td><p>フェデレーション参加者と匿名参加者にコントロールを許可する</p></td>
-<td><p>外部および匿名の参加者に別のユーザーの共有アプリケーションのコントロールを許可します。</p>
-<div>
+<span data-ttu-id="30e84-103">_**最終更新日:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="30e84-103">_**Topic Last Modified:** 2014-04-22_</span></span>
 
-> [!NOTE]
-> この設定を True にし、[<strong>参加者にコントロールを許可する</strong>] を False に設定する場合、この設定は無視されます。</td>
+<span data-ttu-id="30e84-104">会議ポリシー設定の最新リストについては、「 [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) 」コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="30e84-104">For the most up-to-date list of conferencing policy settings see the help topic for the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
 
+</div>
 
-</div></td>
-</tr>
-</tbody>
-</table>
+<span> </span>
 
+</div>
 
-## 参加者ポリシー設定
+</div>
 
-以下の表に、会議の参加者に適用可能なすべての会議ポリシー設定の一覧を示します。
-
-### 参加者ポリシー設定
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>設定</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>アプリケーション共有を有効にする</p></td>
-<td><p>ユーザーにアプリケーション共有をサポートするミーティングをスケジュールすることを許可します。</p></td>
-</tr>
-<tr class="even">
-<td><p>アプリケーションとデスクトップの共有を有効にする</p></td>
-<td><p>ユーザーにアプリケーション共有とデスクトップ共有をサポートするミーティングに参加することを許可します。会議では、会議の開催者に適用されるこの設定の値が、共に参加する匿名のエンドポイントすべてに適用されます。</p></td>
-</tr>
-<tr class="odd">
-<td><p>ピアツーピア ファイル転送を有効にする</p></td>
-<td><p>ミーティング中にピアツーピア ファイル転送を実行することを参加者に許可します。 ピアツーピア ファイル転送に関係するのは、ミーティング参加者のすべてではありません。</p></td>
-</tr>
-<tr class="even">
-<td><p>ピアツーピアのレコーディングを有効にする</p></td>
-<td><p>参加者にピアツーピア会議セッションのレコーディングを許可します。</p></td>
-</tr>
-</tbody>
-</table>
+</div>
 

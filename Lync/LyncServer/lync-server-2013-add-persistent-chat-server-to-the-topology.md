@@ -1,100 +1,157 @@
-﻿---
-title: 'Lync Server 2013: 常設チャット サーバーをトポロジに追加する'
-TOCTitle: 常設チャット サーバーをトポロジに追加する
-ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205049(v=OCS.15)
-ms:contentKeyID: 48272691
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 常設チャット サーバーをトポロジに追加する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add Persistent Chat Server to the topology
+ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205049(v=OCS.15)
+ms:contentKeyID: 48184682
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8985ee2fd28a81f3630e4f80c0ac4dd5a23d4475
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840941"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 で常設チャット サーバーをトポロジに追加する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-06_
+# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a><span data-ttu-id="9c09d-102">Lync Server 2013 で常設チャット サーバーをトポロジに追加する</span><span class="sxs-lookup"><span data-stu-id="9c09d-102">Add Persistent Chat Server to the topology in Lync Server 2013</span></span>
 
-常設チャット サーバーをサポートするように展開を構成するには、その前に、トポロジに Lync Server 2013 の 常設チャット サーバーのサポートを組み込む必要があります。このトピックでは、 トポロジ ビルダーを使用して、既存のトポロジに 常設チャット サーバーのサポートを追加する方法について説明します。
+</div>
 
-## 常設チャット サーバーをトポロジに追加するには
+<div id="mainSection">
 
-障害復旧構成を使用しない単一の 常設チャット サーバー プールをインストールするには、以下の手順を実行します。高可用性と障害復旧に対応した拡張型の 常設チャット サーバー プールの構成については、「展開」のドキュメントの「[Lync Server 2013 の高可用性と障害復旧に対応した常設チャット サーバーの構成](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)」を参照してください。
+<div id="mainBody">
 
-複数の 常設チャット サーバー プール展開するには、各プールに対して同じ手順を繰り返します。
+<span> </span>
 
-1.  Lync Server 2013 を実行しているコンピューター、または Lync Server 管理ツールがインストールされているコンピューターで、ローカルの Users グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
+<span data-ttu-id="9c09d-103">_**最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="9c09d-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+
+<span data-ttu-id="9c09d-104">常設チャットサーバーをサポートするように展開を構成するには、お客様のトポロジで Lync Server 2013 の常設チャットサーバーのサポートを組み込む必要があります。</span><span class="sxs-lookup"><span data-stu-id="9c09d-104">You must incorporate Lync Server 2013, Persistent Chat Server support in your topology before you can configure your deployment to support Persistent Chat Server.</span></span> <span data-ttu-id="9c09d-105">このトピックでは、トポロジビルダーを使用して、既存のトポロジに常設チャットサーバーサポートを追加する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-105">The information in this topic describes how to use Topology Builder to add Persistent Chat Server support to your existing topology.</span></span>
+
+<div>
+
+## <a name="to-add-persistent-chat-server-to-a-topology"></a><span data-ttu-id="9c09d-106">トポロジに常設チャットサーバーを追加するには</span><span class="sxs-lookup"><span data-stu-id="9c09d-106">To add Persistent Chat Server to a topology</span></span>
+
+<span data-ttu-id="9c09d-107">災害回復構成を行わずに、1つの常設チャットサーバープールをインストールするには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-107">Perform the following steps for installing a single Persistent Chat Server pool without a disaster recovery configuration.</span></span> <span data-ttu-id="9c09d-108">拡張された常設チャットサーバープールを構成して高可用性と障害回復を実現する方法については、展開ドキュメントの「 [Lync server 2013 で高可用性と障害回復のための常設チャットサーバーを構成](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9c09d-108">For configuring a stretched Persistent Chat Server pool for high availability and disaster recovery, see [Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) in the Deployment documentation.</span></span>
+
+<span data-ttu-id="9c09d-109">複数の常設チャットサーバープールを展開するには、各プールで同じ手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-109">To deploy multiple Persistent Chat Server pools, repeat the same process for each pool.</span></span>
+
+1.  <span data-ttu-id="9c09d-110">Lync Server 2013 を実行しているか、Lync Server 管理ツールがインストールされているコンピューターで、ローカルユーザーグループのメンバーであるか、同等のユーザー権限を持つアカウントを使用してログオンします。</span><span class="sxs-lookup"><span data-stu-id="9c09d-110">On a computer that is running Lync Server 2013 or on which the Lync Server administrative tools are installed, log on using an account that is a member of the local Users group (or an account with equivalent user rights).</span></span>
     
-    > [!NOTE]
-    > トポロジの定義には、ローカルの Users グループのメンバーであるアカウントを使用できますが、トポロジを公開するには ( Lync Server 2013 サーバーをインストールするために必要)、 <strong>Domain Admins</strong> および <strong>RTCUniversalServerAdmins</strong> グループのメンバーで、かつ 常設チャット サーバーのファイル ストアとして使用するファイル ストアに対してフル コントロール アクセス許可 (つまり、読み取り、書き込み、および変更) を持つアカウント (つまり、 トポロジ ビルダーが必要な DACL を構成できるように) または同等の権限を持つアカウントを使用する必要があります。
-
-
-2.  トポロジ ビルダーを起動します。
-
-3.  コンソール ツリーで、\[**常設チャット プール**\] ノードに移動して展開し、 常設チャット サーバー プールを選択するか、ノードを右クリックして \[**新しい 常設チャット プール**\] を選択します。プールの完全修飾ドメイン名 (FQDN) を定義し、そのプールが単一サーバー プールまたは複数サーバー プールのどちらの構成であるかを指定する必要があります。
-    
-    \[**複数コンピューター プール**\] または \[**単一コンピューター プール**\] を選択できます。複数の 常設チャット サーバーフロント エンド サーバーを 常設チャット サーバー プールに作成する場合は、前者を選択します。今ここで選択するか、後ではっきりしてから選択します。単一コンピューター プールを作成した後では、サーバーを追加できません。複数コンピューター プールを選択する場合は、プールを構成する個別の 常設チャット サーバーフロント エンド サーバーの名前を入力します。
+    <div>
     
 
-    > [!IMPORTANT]
-    > 常設チャット サーバーの役割が Lync Server 2013Standard Edition サーバーにインストールされている場合は、FQDN が Standard Edition サーバーの FQDN と一致する必要があります。
+    > [!NOTE]  
+    > <span data-ttu-id="9c09d-111">トポロジを定義するには、ローカルユーザーグループのメンバーであるアカウントを使用します。ただし、Lync Server 2013 サーバーをインストールするために必要なトポロジを公開するには、 <STRONG>Domain Admins</STRONG>グループのメンバーであるアカウントと RTCUniversalS を使用する必要があります。 <STRONG>erverAdmins</STRONG>グループ。これには、常設チャットサーバーファイルストアで使用するファイルストアのフルコントロールのアクセス許可 (つまり読み取り、書き込み、変更) が含まれます (つまり、トポロジビルダーは必要な dacl を構成できます)。またはアカウント同じ権利を持つ。</span><span class="sxs-lookup"><span data-stu-id="9c09d-111">You can define a topology by using an account that is a member of the local Users group, but to publish a topology, which is required to install a Lync Server 2013 server, you must use an account that is a member of the <STRONG>Domain Admins</STRONG> group and the <STRONG>RTCUniversalServerAdmins</STRONG> group, and that has full control permissions (that is, read, write, and modify) on the file store that you are going to use for the Persistent Chat Server file store (that is, so that Topology Builder can configure the required DACLs), or an account with equivalent rights.</span></span>
 
+    
+    </div>
 
+2.  <span data-ttu-id="9c09d-112">トポロジビルダーを起動します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-112">Start Topology Builder.</span></span>
 
-4.  常設チャット サーバー プールの簡単な \[**表示名**\] を定義します。表示名はルームを区別するためにカスタム クライアントで使用でき、特に複数の 常設チャット サーバー プールがあるときに便利です。
-
-5.  常設チャット サーバーが Lync Serverフロント エンド サーバーと通信するときに使用するポートを定義します。既定のポートは 5041 です。
-
-6.  組織にコンプライアンス サポートが必要な場合は、\[**コンプライアンスを有効にする**\] チェック ボックスをオンにします。このチェック ボックスをオンにすると、 常設チャット サーバー コンプライアンス サービスが 常設チャット サーバーフロント エンド サーバーと同じコンピューターにインストールされます。後で、 常設チャット サーバー コンプライアンスの SQL Serverバック エンド サーバー の選択を求められます。
-
-7.  常設チャット サーバー プールのサイト アフィニティを割り当てます。この 常設チャット サーバー プールを現在のサイトまたはすべてのサイトの既定のプールとして指定するには、\[**このプールをサイト \<サイト名\> の既定として使用する**\] チェック ボックスまたは \[**このプールをすべてのサイトの既定として使用する**\] チェック ボックスをオンにします。 Lync 2013 クライアントを使用してルームを作成および管理すると、ユーザーのサイトに関連付けられている既定のプールがルームの作成および管理エクスペリエンスによって使用され、ルームの作成および管理の操作をそのプールに送ることができるようになります。これは、複数の 常設チャット サーバー プールを展開しており、 常設チャット サーバーのルーム作成および管理機能を使用する場合にのみ適用できます。
+3.  <span data-ttu-id="9c09d-113">コンソールツリーで、**常設チャットプール**ノードに移動して展開し、常設チャットサーバープールを選択するか、ノードを右クリックして [**新しい常設チャットプール**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-113">In the console tree, navigate to the **Persistent Chat Pools** node and expand it to select a Persistent Chat Server pool, or right-click the node and select **New Persistent Chat Pool**.</span></span> <span data-ttu-id="9c09d-114">You must define the pool’s fully qualified domain name (FQDN), and indicate whether the pool will be a single-server pool or multiple-server pool deployment.</span><span class="sxs-lookup"><span data-stu-id="9c09d-114">You must define the pool’s fully qualified domain name (FQDN), and indicate whether the pool will be a single-server pool or multiple-server pool deployment.</span></span>
+    
+    <span data-ttu-id="9c09d-115">**複数のコンピュータープール**または**1 台のコンピュータープール**を選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-115">You can choose a **Multiple Computer Pool** or a **Single Computer Pool**.</span></span> <span data-ttu-id="9c09d-116">常設チャットサーバープールに複数の常設チャットサーバーフロントエンドサーバーを使用することを計画している場合は、前者を選びます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-116">Choose the former if you are planning to have more than one Persistent Chat Server Front End Server in your Persistent Chat Server pool.</span></span> <span data-ttu-id="9c09d-117">このオプションは、1台のコンピュータープールを作成した後で、後で追加することはできないため、ここで設定します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-117">Make this choice now, or at a later point, because after you create a single computer pool, you cannot add additional servers to it later.</span></span> <span data-ttu-id="9c09d-118">複数のコンピュータープールを選択する場合は、プールを構成する個別の常設チャットサーバーのフロントエンドサーバーの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-118">If you choose a multiple computer pool, enter the names of the individual Persistent Chat Server Front End Servers that comprise the pool.</span></span>
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > 常設チャット サーバーのソフトウェア開発キット (SDK) を使用して、ルーム作成および管理機能をカスタマイズできます。<BR>障害復旧用の SQL Server バックアップ データベースを構成する方法の詳細については、「展開」のドキュメントの「<A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Lync Server 2013 の高可用性と障害復旧に対応した常設チャット サーバーの構成</A>」を参照してください。
+    > [!IMPORTANT]  
+    > <span data-ttu-id="9c09d-119">常設チャットサーバーの役割が Lync Server 2013&nbsp;Standard edition サーバーにインストールされている場合、Fqdn は standard edition サーバーの fqdn と一致する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9c09d-119">If the Persistent Chat Server role is being installed on a Lync Server 2013&nbsp;Standard Edition server, the FQDN needs to match the FQDN of the Standard Edition server.</span></span>
 
-
-
-8.  以下のどちらかの操作を行って、\[**常設チャット サーバー バックエンドの SQL ストア (チャット ルームのコンテンツの格納場所)**\] を定義します。
     
-      - 既存の SQL Server データベースを使用するには、ドロップダウン リストで、使用する SQL Server データベースの名前をクリックします。
+    </div>
+
+4.  <span data-ttu-id="9c09d-120">常設チャットサーバープールの簡易**表示名**を定義します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-120">Define a simple **Display Name** for the Persistent Chat Server pool.</span></span> <span data-ttu-id="9c09d-121">この表示名は、カスタムクライアントで使うことができます。特に、複数の常設チャットサーバープールがある場合は、ルームを区別することができます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-121">The display name can be used by custom clients, particularly when there are multiple Persistent Chat Server pools, to differentiate rooms.</span></span>
+
+5.  <span data-ttu-id="9c09d-122">常設チャットサーバーが Lync Server フロントエンドサーバーと通信するために使用するポートを定義します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-122">Define the port used by the Persistent Chat Server to communicate with Lync Server Front End Servers.</span></span> <span data-ttu-id="9c09d-123">既定のポートは 5041 です。</span><span class="sxs-lookup"><span data-stu-id="9c09d-123">The default port is 5041.</span></span>
+
+6.  <span data-ttu-id="9c09d-124">組織にコンプライアンス サポートが必要な場合は、[**コンプライアンスを有効にする**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="9c09d-124">If your organization requires compliance support, select the **Enable compliance** check box.</span></span> <span data-ttu-id="9c09d-125">選択されている場合、常設チャット Server コンプライアンスサービスは、常設チャットサーバーフロントエンドサーバーと同じコンピューターにインストールされます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-125">If chosen, the Persistent Chat Server Compliance service is installed on the same computer as the Persistent Chat Server Front End Server.</span></span> <span data-ttu-id="9c09d-126">後で常設チャットサーバーのコンプライアンス用の SQL Server バックエンドサーバーを選択するように求められます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-126">You are prompted to select a SQL Server Back End Server for Persistent Chat Server Compliance later.</span></span>
+
+7.  <span data-ttu-id="9c09d-127">常設チャットサーバープールにサイトのアフィニティを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-127">Assign site affinity for the Persistent Chat Server pool.</span></span> <span data-ttu-id="9c09d-128">この [**このプールをサイトの\<サイト\> **の既定のプールとして使用する] チェックボックスをオンにするか、またはすべてのサイトの既定のプールとしてこのプールを**使用**します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-128">Select the **Use this pool as default for site \<SiteName\>** check box or **Use this pool as default for all sites** to designate this Persistent Chat Server pool as the default pool for the current site or all sites.</span></span> <span data-ttu-id="9c09d-129">Lync 2013 クライアントを使用して会議室の作成と管理を行う場合、ユーザーのサイトに関連付けられた既定のプールは、ルームの作成と管理のエクスペリエンスによって使用され、ルームの作成と管理の操作をそのプールにルーティングすることができます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-129">When the Lync 2013 client is used to create and manage rooms, the default pool associated with the user’s site is used by the room creation and management experience so that it can route room creation and management operations to that pool.</span></span> <span data-ttu-id="9c09d-130">これは、複数の常設チャットサーバープールが展開されており、常設チャットサーバーのルーム作成と管理機能を使用する場合にのみ適用されます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-130">This only applies when you have multiple Persistent Chat Server pools deployed, and want to use the room creation and management features of Persistent Chat Server.</span></span>
     
-      - 新しい SQL Server データベースを指定するには、\[**新規作成**\] をクリックし、\[**新しい SQL ストアの定義**\] で以下の手順を実行します。
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > <span data-ttu-id="9c09d-131">常設チャットサーバーソフトウェア開発キット (SDK) を使って、ルームの作成と管理の機能をカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-131">You can customize the room creation and management features using the Persistent Chat Server Software Development Kit (SDK).</span></span><BR><span data-ttu-id="9c09d-132">ディザスターリカバリーのために SQL Server バックアップデータベースを構成する方法の詳細については、「展開ドキュメントの<A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Lync server 2013 で高可用性と障害回復のための常設チャットサーバーを構成</A>する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9c09d-132">For details about how to configure SQL Server backup databases for disaster recovery, see <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013</A> in the Deployment documentation.</span></span>
+
+    
+    </div>
+
+8.  <span data-ttu-id="9c09d-133">次のいずれかの操作を行って、**常設チャットサーバーのバックエンド用の SQL ストア (チャットルームのコンテンツが保存されている場所) を**定義します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-133">Define the **SQL store for the Persistent Chat Server Back End (where chat room content is stored)** by doing one of the following:</span></span>
+    
+      - <span data-ttu-id="9c09d-134">既存の SQL Server データベースを使用するには、ドロップダウンリストで、使用する SQL Server データベースの名前をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9c09d-134">To use an existing SQL Server database, in the drop-down list, click the name of the SQL Server database that you want to use.</span></span>
+    
+      - <span data-ttu-id="9c09d-135">新しい SQL Server データベースを指定するには、[**新規**作成] をクリックし、[**新しい Sql ストアの定義**] で次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-135">To specify a new SQL Server database, click **New**, and in **Define New SQL Store**, perform the following:</span></span>
     
     <!-- end list -->
     
-      - \[**SQL Server の FQDN**\] で、新しい SQL Server データベースを作成する SQL Server の FQDN を指定します。
+      - <span data-ttu-id="9c09d-136">[ **Sql SERVER fqdn**] で、新しい sql server データベースを作成する sql SERVER の fqdn を指定します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-136">In **SQL Server FQDN**, specify the FQDN of the SQL Server on which you want to create the new SQL Server database.</span></span>
     
-      - \[**既定のインスタンス**\] を選択して既定のインスタンスを使用するか、別のインスタンスを指定する場合は、\[**名前付きインスタンス**\] を選択して、使用するインスタンスを指定します。
+      - <span data-ttu-id="9c09d-137">[**既定のインスタンス**] を選択して既定のインスタンスを使用するか、別のインスタンスを指定する場合は、[**名前付きインスタンス**] を選択して、使用するインスタンスを指定します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-137">Either select **Default Instance** to use the default instance or, to specify a different instance, select **Named Instance**, and specify the instance that you want to use.</span></span>
 
-9.  コンプライアンスを有効にした場合は、 SQL Server コンプライアンス データベースを定義します。
+9.  <span data-ttu-id="9c09d-138">コンプライアンスを有効にしている場合は、SQL Server コンプライアンスデータベースを定義します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-138">Define the SQL Server compliance database if you enabled Compliance.</span></span>
     
-
-    > [!IMPORTANT]
-    > 常設チャット サーバー データベースおよび 常設チャット サーバー コンプライアンス データベースの高可用性のために SQL Server ミラーを構成する方法の詳細については、「展開」のドキュメントの「<A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Lync Server 2013 の高可用性と障害復旧に対応した常設チャット サーバーの構成</A>」を参照してください。
-
-
-
-10. ファイル ストアを定義します。ファイル ストアとは、ファイル リポジトリにアップロードされたファイル (チャット ルームに投稿された添付ファイルなど) のコピーが格納されるフォルダーです。複数のサーバーで構成される 常設チャット サーバー トポロジの場合は、汎用名前付け規則 (UNC) パスを使用する必要があります。また、単一サーバーの 常設チャット サーバー トポロジの場合は、ローカルのファイル パスを使用できます。
-    
-    既存のファイル ストアを使用するには、次の手順を実行します。
-    
-      - \[**ファイル サーバーの FQDN**\] で、新しいファイル ストアを作成するファイル ストアの FQDN を指定します。
-    
-      - \[**ファイル共有**\] で、使用するファイル ストアを指定します。
+    <div>
     
 
-    > [!IMPORTANT]
-    > ファイル ストアを作成する前に トポロジ ビルダーでファイル ストアを定義できますが、トポロジを公開する場合は、その前に、定義済みの場所にファイル ストアを作成する必要があります。
+    > [!IMPORTANT]  
+    > <span data-ttu-id="9c09d-139">常設チャットサーバーデータベースおよび常設チャットサーバーのコンプライアンスデータベースに対して高可用性のための SQL Server ミラーを構成する方法の詳細については、「 <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Lync の高可用性および障害回復のための常設チャットサーバーを構成する」を参照してください。</A>展開ドキュメントのサーバー2013。</span><span class="sxs-lookup"><span data-stu-id="9c09d-139">For details about how to configure SQL Server mirrors for high availability for the Persistent Chat Server database and the Persistent Chat Server compliance database, see <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
-
-
-11. この 常設チャット サーバー プール の次ホップとして使用する フロント エンド サーバー プールを選択します。これは、 常設チャット サーバー要求をこのプールにルーティングできる フロント エンド サーバー プールです。
-
-12. 構成を保存するには、\[**完了**\] をクリックします。 常設チャット サーバー プールが特定のプール設定と共に トポロジ ビルダーに表示されます。
     
-    常設チャット サーバーを追加した更新後のトポロジの公開については、「展開」のドキュメントの「[Lync Server 2013 での更新したトポロジの公開](lync-server-2013-publish-the-updated-topology.md)」を参照してください。
+    </div>
+
+10. <span data-ttu-id="9c09d-140">ファイルストアを定義します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-140">Define the file store.</span></span> <span data-ttu-id="9c09d-141">ファイルストアは、ファイルリポジトリにアップロードされたファイルのコピーが格納されているフォルダーです (たとえば、チャットルームに投稿された添付ファイルを保存します)。</span><span class="sxs-lookup"><span data-stu-id="9c09d-141">A file store is a folder where a copy of any file uploaded to the file repository is stored (for example, storing file attachments posted to a chat room).</span></span> <span data-ttu-id="9c09d-142">複数サーバーの常設チャットサーバートポロジの場合、これは汎用名前付け規則 (UNC) パスである必要があります。また、単一サーバーの常設チャットサーバートポロジでは、ローカルファイルパスにすることができます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-142">In the case of a multiple-server Persistent Chat Server topology, this must be a Universal Naming Convention (UNC) path; and for a single-server Persistent Chat Server topology, it can be a local file path.</span></span>
     
-    > [!NOTE]
-    > トポロジ ビルダーを既に開いている場合は、「<a href="lync-server-2013-publish-the-updated-topology.md">Lync Server 2013 での更新したトポロジの公開</a>」の手順 3 に進んで、更新したトポロジの公開を開始します。
+    <span data-ttu-id="9c09d-143">既存のファイル ストアを使用するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-143">To use an existing file store, perform the following steps:</span></span>
+    
+      - <span data-ttu-id="9c09d-144">[**ファイルサーバー fqdn**] で、新しいファイルストアを作成するファイルストアの FQDN を指定します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-144">In **File Server FQDN**, specify the FQDN of the file store on which you want to create the new file store.</span></span>
+    
+      - <span data-ttu-id="9c09d-145">[**ファイル共有**] で、使用するファイル ストアを指定します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-145">In **File Share**, specify the file store that you want to use.</span></span>
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > <span data-ttu-id="9c09d-146">ファイルストアを作成する前に、トポロジビルダーでファイルストアを定義できますが、トポロジを公開する前に定義した定義された場所にファイルストアを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9c09d-146">You can define the file store in Topology Builder before you create the file store, but you must create the file store in the defined location you define before you publish the topology.</span></span>
+
+    
+    </div>
+
+11. <span data-ttu-id="9c09d-147">この常設チャットサーバープールの次ホップとして使用するフロントエンドサーバープールを選択します。</span><span class="sxs-lookup"><span data-stu-id="9c09d-147">Select the Front End Server pool to be used as a next hop for this Persistent Chat Server pool.</span></span> <span data-ttu-id="9c09d-148">これは、このプールへの常設チャットサーバー要求をルーティングできるフロントエンドサーバープールです。</span><span class="sxs-lookup"><span data-stu-id="9c09d-148">This is the Front End Server pool that will be able to route Persistent Chat Server requests to this pool.</span></span>
+
+12. <span data-ttu-id="9c09d-149">構成を保存するには、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9c09d-149">To save the configuration, click **Finish**.</span></span> <span data-ttu-id="9c09d-150">常設チャットサーバープールは、特定のプール設定と共に、トポロジビルダーに表示されます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-150">The Persistent Chat Server pool appears in Topology Builder accompanied by your specific pool settings.</span></span>
+    
+    <span data-ttu-id="9c09d-151">常設チャットサーバーを使用して更新されたトポロジを公開するには、展開ドキュメントの「 [Lync Server 2013 で更新されたトポロジを公開](lync-server-2013-publish-the-updated-topology.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9c09d-151">To now publish your updated topology to which you’ve Persistent Chat Server, see [Publish the updated topology in Lync Server 2013](lync-server-2013-publish-the-updated-topology.md) in the Deployment documentation.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="9c09d-152">トポロジビルダーを既に開いている場合は、「更新されたトポロジを<A href="lync-server-2013-publish-the-updated-topology.md">Lync Server 2013 で公開</A>する」の手順3に進んで、更新されたトポロジの公開を開始できます。</span><span class="sxs-lookup"><span data-stu-id="9c09d-152">With Topology Builder already open, you can proceed to step 3 in <A href="lync-server-2013-publish-the-updated-topology.md">Publish the updated topology in Lync Server 2013</A> to begin publishing your updated topology.</span></span>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

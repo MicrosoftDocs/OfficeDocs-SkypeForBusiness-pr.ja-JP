@@ -1,23 +1,45 @@
-﻿---
-title: 証明書の概要  - XMPP (Extensible Messaging and Presence Protocol) フェデレーション
-TOCTitle: 証明書の概要  - XMPP (Extensible Messaging and Presence Protocol) フェデレーション
-ms:assetid: b059a34e-99df-40af-91fe-fe2aa52841f6
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ618374(v=OCS.15)
-ms:contentKeyID: 49115243
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 証明書の概要-拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Extensible messaging and presence protocol (XMPP) federation
+ms:assetid: b059a34e-99df-40af-91fe-fe2aa52841f6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618374(v=OCS.15)
+ms:contentKeyID: 49105661
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 01b21c8b09d93f8d2788424f2c8f440e1dec66b9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840641"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 証明書の概要 - XMPP (Extensible Messaging and Presence Protocol) フェデレーション
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="07a3a-102">証明書の概要-Lync Server 2013 での拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション</span><span class="sxs-lookup"><span data-stu-id="07a3a-102">Certificate summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
 
-Extensible Messaging and Presence Protocol (XMPP) パートナーとの通信を有効にして確立するための証明書要件では、XMPP ドメインの追加レコードが必要になります。サブジェクトの別名 (SAN) として証明書に含まれているレコードは、XMPP 通信に参加できるドメインになります。ドメイン全体に対して XMPP を有効にする場合はドメインをルートレベル ドメイン (例: contoso.com) とし、ユーザーのサブセットに対して XMPP を有効にする場合は子ドメイン (例: corp.contoso.com、finance.contoso.com) を選択できます。
+</div>
 
-## Extensible Messaging and Presence Protocol の証明書の概要
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="07a3a-103">_**最終更新日:** 2012-12-23_</span><span class="sxs-lookup"><span data-stu-id="07a3a-103">_**Topic Last Modified:** 2012-12-23_</span></span>
+
+<span data-ttu-id="07a3a-104">拡張メッセージングとプレゼンスプロトコル (XMPP) パートナーとの通信を有効にして確立するための証明書要件には、XMPP ドメインの追加レコードが必要です。</span><span class="sxs-lookup"><span data-stu-id="07a3a-104">Certificate requirements for enabling and establishing communications with extensible messaging and presence protocol (XMPP) partners require the additional record of your XMPP domains.</span></span> <span data-ttu-id="07a3a-105">サブジェクトの代替名 (SAN) として証明書に含まれているレコードは、XMPP 通信に参加できるドメインです。</span><span class="sxs-lookup"><span data-stu-id="07a3a-105">The record that is included on the certificate as a subject alternative name (SAN) will be the domain that can participate in XMPP communications.</span></span> <span data-ttu-id="07a3a-106">ドメイン全体で XMPP を有効にする場合や、ユーザーのサブセットに対して XMPP を有効にしている場合は、ドメインのルートレベルのドメイン (たとえば、contoso.com) にすることができます (例: corp.contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="07a3a-106">The domain can be the root-level domain (for example, contoso.com) if you want to enable XMPP for your entire domain, or can be selected child domains (for example, corp.contoso.com, finance.contoso.com) if you are enabling XMPP for a subset of users.</span></span>
+
+<div>
+
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="07a3a-107">拡張メッセージングとプレゼンスプロトコルの証明書の概要</span><span class="sxs-lookup"><span data-stu-id="07a3a-107">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -29,39 +51,53 @@ Extensible Messaging and Presence Protocol (XMPP) パートナーとの通信を
 </colgroup>
 <thead>
 <tr class="header">
-<th>コンポーネント</th>
-<th>サブジェクト名</th>
-<th>サブジェクトの別名 (SAN)/順序</th>
-<th>コメント</th>
+<th><span data-ttu-id="07a3a-108">コンポーネント</span><span class="sxs-lookup"><span data-stu-id="07a3a-108">Component</span></span></th>
+<th><span data-ttu-id="07a3a-109">サブジェクト名</span><span class="sxs-lookup"><span data-stu-id="07a3a-109">Subject name</span></span></th>
+<th><span data-ttu-id="07a3a-110">サブジェクト代替名 (SAN)/Order</span><span class="sxs-lookup"><span data-stu-id="07a3a-110">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="07a3a-111">コメント</span><span class="sxs-lookup"><span data-stu-id="07a3a-111">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>エッジ サーバーまたはエッジ プールのアクセス エッジ サービスに割り当て</p></td>
-<td><p>sip.contoso.com</p></td>
-<td><p>webcon.contoso.com</p>
-<p>sip.contoso.com</p>
-<p>sip.fabrikam.com</p>
-<p>contoso.com</p></td>
-<td><p>最初の 3 つの SAN 項目は、フル エッジ サーバー向けの通常の SAN 項目です。contoso.com は、ルート ドメイン レベルでの XMPP パートナーとのフェデレーションに必要な項目です。この項目により、末尾が contoso.com のすべてのドメインで XMPP が許可されます。</p></td>
+<td><p><span data-ttu-id="07a3a-112">エッジサーバーまたはエッジプールのアクセスエッジサービスに割り当てる</span><span class="sxs-lookup"><span data-stu-id="07a3a-112">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
+<td><p><span data-ttu-id="07a3a-113">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="07a3a-113">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="07a3a-114">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="07a3a-114">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="07a3a-115">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="07a3a-115">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="07a3a-116">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="07a3a-116">sip.fabrikam.com</span></span></p>
+<p><span data-ttu-id="07a3a-117">contoso.com</span><span class="sxs-lookup"><span data-stu-id="07a3a-117">contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="07a3a-118">最初の3つの SAN エントリは、フルエッジサーバーの通常の SAN エントリです。</span><span class="sxs-lookup"><span data-stu-id="07a3a-118">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="07a3a-119">Contoso.com は、ルートドメインレベルで XMPP パートナーとのフェデレーションを行うために必要なエントリです。</span><span class="sxs-lookup"><span data-stu-id="07a3a-119">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="07a3a-120">このエントリは、サフィックス contoso.com を持つすべてのドメインで XMPP を許可します。</span><span class="sxs-lookup"><span data-stu-id="07a3a-120">This entry will allow XMPP for all domains with the suffix contoso.com.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 関連項目
+</div>
 
-#### タスク
+<div>
 
-[Lync Server 2013 での XMPP 構成の例 - Google Talk との XMPP フェデレーション](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+## <a name="see-also"></a><span data-ttu-id="07a3a-121">関連項目</span><span class="sxs-lookup"><span data-stu-id="07a3a-121">See Also</span></span>
 
-#### 概念
 
-[Lync Server 2013 でエッジ サーバー証明書を計画する](lync-server-2013-plan-for-edge-server-certificates.md)  
+[<span data-ttu-id="07a3a-122">Lync Server 2013 での XMPP 構成の例  - Google Talk との XMPP フェデレーション</span><span class="sxs-lookup"><span data-stu-id="07a3a-122">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</span></span>](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
-#### その他のリソース
 
-[Lync Server 2013 用のエッジ証明書のセットアップ](lync-server-2013-set-up-edge-certificates.md)  
-[Request-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate)  
-[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
+[<span data-ttu-id="07a3a-123">Lync Server 2013 でエッジ サーバー証明書を計画する</span><span class="sxs-lookup"><span data-stu-id="07a3a-123">Plan for Edge Server certificates in Lync Server 2013</span></span>](lync-server-2013-plan-for-edge-server-certificates.md)  
+
+
+[<span data-ttu-id="07a3a-124">Lync Server 2013 用のエッジ証明書のセットアップ</span><span class="sxs-lookup"><span data-stu-id="07a3a-124">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)  
+[<span data-ttu-id="07a3a-125">要求-CsCertificate</span><span class="sxs-lookup"><span data-stu-id="07a3a-125">Request-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate)  
+[<span data-ttu-id="07a3a-126">設定-CsCertificate</span><span class="sxs-lookup"><span data-stu-id="07a3a-126">Set-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

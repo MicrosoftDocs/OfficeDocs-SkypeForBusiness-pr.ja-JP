@@ -1,49 +1,91 @@
-﻿---
-title: 'Lync Server 2013: メディア バイパスの構成'
-TOCTitle: メディア バイパスの構成
-ms:assetid: f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg413028(v=OCS.15)
-ms:contentKeyID: 48274137
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: メディア バイパスの構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure media bypass
+ms:assetid: f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413028(v=OCS.15)
+ms:contentKeyID: 48185836
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 465a949ca1581933f96f18cfe2977d400fa7a152
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840360"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 メディア バイパスの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configure-media-bypass-in-lync-server-2013"></a><span data-ttu-id="ce14c-102">Lync Server 2013 メディア バイパスの構成</span><span class="sxs-lookup"><span data-stu-id="ce14c-102">Configure media bypass in Lync Server 2013</span></span>
 
-このセクションでは、少なくとも 1 台または複数の仲介サーバー (「展開」のドキュメントの「[Lync Server 2013 のトポロジ ビルダーでの仲介サーバーの定義](lync-server-2013-define-a-mediation-server-in-topology-builder.md)」および「[Lync Server 2013 でトポロジを公開する](lync-server-2013-publish-the-topology.md)」または「[Lync Server 2013 でフロントエンド プールまたは Standard Edition サーバーを定義および構成する](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)」および「[Lync Server 2013 でトポロジを公開する](lync-server-2013-publish-the-topology.md)」でそれぞれ説明しています) が公開および構成されていることを前提に説明を進めます。
+</div>
 
-また、「[Lync Server 2013 での、トポロジ ビルダーを使用したゲートウェイの定義](lync-server-2013-define-a-gateway-in-topology-builder.md)」で説明するように、PSTN 接続を可能にするために少なくとも 1 つのゲートウェイ ピアが定義されていなければなりません。ここでは、この作業も完了していることを前提とします。接続するピアが SIP トランキング プロバイダーの SBC の場合は、プロバイダーが認定プロバイダーであることとプロバイダーがメディア バイパスをサポートしていることを必ず確認してください。たとえば、多くの SIP トランキング プロバイダーが、その SBC に仲介サーバーからのトラフィックを受信することだけを許可します。その場合は、当該のトランクに対してバイパスを有効にしないでください。また、組織がその内部ネットワーク IP アドレスを SIP トランキング プロバイダーに公開していなければ、メディア バイパスを有効にすることはできません。
+<div id="mainSection">
 
-> [!NOTE]
-> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。Microsoft では、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。メディア バイパスは、「Unified Communications Open Interoperability Program - Lync Server」( <a href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x411</a>) に記載されている製品とバージョンのみでサポートされます。
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="ce14c-103">_**最終更新日:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="ce14c-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+
+<span data-ttu-id="ce14c-104">このセクションでは、少なくとも1つ以上の仲介サーバーを既に公開して構成していることを前提としています (「 [Lync server 2013 のトポロジビルダーでの仲介サーバーの定義](lync-server-2013-define-a-mediation-server-in-topology-builder.md)」と「 [lync server 2013 でのトポロジの発行](lync-server-2013-publish-the-topology.md)」を参照してください)。または[Lync server 2013 でフロントエンドプールまたは Standard Edition サーバーを定義して構成](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)し、それぞれの展開ドキュメントに記載されているように、 [lync server 2013 でトポロジを公開](lync-server-2013-publish-the-topology.md)します。</span><span class="sxs-lookup"><span data-stu-id="ce14c-104">This section assumes that you have already published and configured either at least one or more Mediation Servers (as described in [Define a Mediation Server in Topology Builder in Lync Server 2013](lync-server-2013-define-a-mediation-server-in-topology-builder.md) and [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md), or in [Define and configure a Front End pool or Standard Edition server in Lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) and [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md), respectively, all in the Deployment documentation).</span></span>
+
+<span data-ttu-id="ce14c-105">また、このセクションでは、「 [Lync Server 2013 のトポロジビルダーでゲートウェイを定義](lync-server-2013-define-a-gateway-in-topology-builder.md)する」の説明に従って、PSTN 接続を提供するために少なくとも1つのゲートウェイピアを定義していることを前提としています。</span><span class="sxs-lookup"><span data-stu-id="ce14c-105">This section also assumes that you have defined at least one gateway peer to provide PSTN connectivity, as described in [Define a gateway in Topology Builder in Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md).</span></span> <span data-ttu-id="ce14c-106">接続するピアが SIP トランキング プロバイダーの SBC の場合は、プロバイダーが認定プロバイダーであることとプロバイダーがメディア バイパスをサポートしていることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="ce14c-106">If the peer you connect to is the SBC of a SIP trunking provider, make sure that the provider is a qualified provider and that the provider supports media bypass.</span></span> <span data-ttu-id="ce14c-107">たとえば、多くの SIP トランキング プロバイダーが、その SBC に仲介サーバーからのトラフィックを受信することだけを許可します。</span><span class="sxs-lookup"><span data-stu-id="ce14c-107">For example, many SIP trunking providers will only allow their SBC to receive traffic from the Mediation Server.</span></span> <span data-ttu-id="ce14c-108">その場合は、当該のトランクに対してバイパスを有効にしないでください。</span><span class="sxs-lookup"><span data-stu-id="ce14c-108">If so, then bypass must not be enabled for the trunk in question.</span></span> <span data-ttu-id="ce14c-109">また、組織がその内部ネットワーク IP アドレスを SIP トランキング プロバイダーに公開していなければ、メディア バイパスを有効にすることはできません。</span><span class="sxs-lookup"><span data-stu-id="ce14c-109">Also, you cannot enable media bypass unless your organization reveals its internal network IP addresses to the SIP trunking provider.</span></span>
+
+<div>
 
 
-ここでは、メディア バイパスを有効にして、仲介サーバーの要求される処理量を削減する方法について説明します。メディア バイパスを有効にする前に、「計画」のドキュメントの「[Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)」の説明に従い、環境がメディア バイパス サポートの条件を満たしていることを必ず確認してください。また、「[Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)」に記載されている情報を参照して、メディア バイパスのグローバル設定を有効にして仲介サーバーを常にバイパスするか、仲介サーバーをバイパスするかどうかを決定する際にサイトおよび地域情報を使用するかのどちらかを選択してください。この作業が済んでいるかどうか必ず確認してください。
+> [!NOTE]  
+> <span data-ttu-id="ce14c-110">メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。</span><span class="sxs-lookup"><span data-stu-id="ce14c-110">Media bypass will not interoperate with every PSTN gateway, IP-PBX, and SBC.</span></span> <span data-ttu-id="ce14c-111">マイクロソフトでは、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。</span><span class="sxs-lookup"><span data-stu-id="ce14c-111">Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs.</span></span> <span data-ttu-id="ce14c-112">メディアのバイパスは、統合された通信のオープンな相互運用性プログラム– Lync Server at <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>の製品とバージョンでのみサポートされます。</span><span class="sxs-lookup"><span data-stu-id="ce14c-112">Media bypass is supported only with products and versions listed on Unified Communications Open Interoperability Program – Lync Server at <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>.</span></span>
 
-もう 1 つの高度なエンタープライズ VoIP 機能に当たる、オプションの通話受付管理 (CAC) の構成が済んでいる場合は、通話受付管理が実行する帯域幅の予約がメディア バイパスを採用する通話に適用されないようにしてください。メディア バイパスが採用されているかどうかの検証は最初に行われます。採用されている場合は、その通話に対しては通話受付管理は使用されません。通話受付管理に対するチェックは、メディア バイパスのチェックが不合格の場合にのみ行われます。このため、PSTN にルーティングされる特定の通話に対して 2 つの機能がともに適用されることはありません。メディア バイパスは、通話のメディア エンドポイント間に帯域幅の制約がないことを前提にしているため、2 つの機能が両立しないという論理的結論にたどり着きます。メディア バイパスは、帯域幅制限のあるリンク上では実行できません。このことから、PSTN の通話には次のいずれかが適用されます。a) 仲介サーバーをメディア バイパスし、通話受付管理は通話に対して帯域幅を予約しない。または b) 通話受付管理が通話に帯域幅の予約を適用し、メディアはその通話に関わる仲介サーバーで処理される。
 
-## 次のステップ: トランク接続でのメディア バイパスの有効化
 
-PSTN 接続の初期設定 (ダイヤル プラン、音声ポリシー、PSTN 使用法レコード、発信通話ルート、および変換ルール) の構成が完了したら、「[Lync Server 2013 でメディア バイパスを有効にしてトランクを構成する](lync-server-2013-configure-a-trunk-with-media-bypass.md)」のステップを参照してメディア バイパスの有効化処理を開始します。
+</div>
 
-## 関連項目
+<span data-ttu-id="ce14c-113">このセクションでは、メディアのバイパスを有効にして、仲介サーバーで必要な処理を軽減する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="ce14c-113">This section describes how to enable media bypass to reduce the processing required of the Mediation Server.</span></span> <span data-ttu-id="ce14c-114">メディアのバイパスを有効にする前に、計画ドキュメントの「 [Lync Server 2013 でのメディアのバイパスの計画](lync-server-2013-planning-for-media-bypass.md)」で説明されているように、使用している環境がメディアのバイパスをサポートするために必要な条件を満たしていることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="ce14c-114">Before you enable media bypass, make sure that your environment meets the conditions required to support media bypass, as described in [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) in the Planning documentation.</span></span> <span data-ttu-id="ce14c-115">また、「 [Lync server 2013 でメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)」に記載されている情報を使用して、仲介サーバーを無視するか、またはサイトと地域の情報を使用しているかどうかを判断することをお勧めします。仲介サーバーをバイパスします。</span><span class="sxs-lookup"><span data-stu-id="ce14c-115">Also make sure that you used the information in [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) to decide whether to enable media bypass global settings to always bypass the Mediation Server or to use site and region information when determining whether to bypass the Mediation Server.</span></span>
 
-#### タスク
+<span data-ttu-id="ce14c-p104">もう 1 つの高度なエンタープライズ VoIP 機能に当たる、オプションの通話受付管理 (CAC) の構成が済んでいる場合は、通話受付管理が実行する帯域幅の予約がメディア バイパスを採用する通話に適用されないようにしてください。メディア バイパスが採用されているかどうかの検証は最初に行われます。採用されている場合は、その通話に対しては通話受付管理は使用されません。通話受付管理に対するチェックは、メディア バイパスのチェックが不合格の場合にのみ行われます。このため、PSTN にルーティングされる特定の通話に対して 2 つの機能がともに適用されることはありません。メディア バイパスは、通話のメディア エンドポイント間に帯域幅の制約がないことを前提にしているため、2 つの機能が両立しないという論理的結論にたどり着きます。メディア バイパスは、帯域幅制限のあるリンク上では実行できません。このことから、PSTN の通話には次のいずれかが適用されます。a) 仲介サーバーをメディア バイパスし、通話受付管理は通話に対して帯域幅を予約しない。または b) 通話受付管理が通話に帯域幅の予約を適用し、メディアはその通話に関わる仲介サーバーで処理される。</span><span class="sxs-lookup"><span data-stu-id="ce14c-p104">If you have already optionally configured call admission control (CAC), another advanced Enterprise Voice feature, note that the bandwidth reservation performed by call admission control does not apply to any calls for which media bypass is employed. The verification of whether to employ media bypass is performed first, and if media bypass is employed, call admission control is not used for the call; only if the media bypass check fails is the check performed for call admission control. The two features are thus mutually exclusive for any particular call that is routed to the PSTN. This is the logic because media bypass assumes that bandwidth constraints do not exist between the media endpoints on a call; media bypass cannot be performed on links with restricted bandwidth. As a result, one of the following will apply to a PSTN call: a) media bypasses the Mediation Server, and call admission control does not reserve bandwidth for the call; or b) call admission control applies bandwidth reservation to the call, and media is processed by the Mediation Server involved in the call.</span></span>
 
-[Lync Server 2013 でメディア バイパスを有効にしてトランクを構成する](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[メディア バイパスを構成して仲介サーバーを常にバイパスする](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md)  
-[サイトおよび地域情報を使用するためのメディア バイパス グローバル設定の構成](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md)  
+<div>
 
-#### 概念
+## <a name="next-steps-enable-media-bypass-on-the-trunk-connection"></a><span data-ttu-id="ce14c-121">次の手順: トランク接続でメディアバイパスを有効にする</span><span class="sxs-lookup"><span data-stu-id="ce14c-121">Next Steps: Enable Media Bypass on the Trunk Connection</span></span>
 
-[Lync Server 2013 でのグローバル メディア バイパス オプション](lync-server-2013-global-media-bypass-options.md)  
+<span data-ttu-id="ce14c-122">PSTN 接続の初期設定 (ダイヤルプラン、音声ポリシー、PSTN 使用状況レコード、発信通話ルート、および翻訳ルール) を構成したら、「 [Lync でメディアバイパスを構成する」の手順に従って、メディアのバイパスを有効にするプロセスを開始します。サーバー 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)。</span><span class="sxs-lookup"><span data-stu-id="ce14c-122">After configuring initial settings for PSTN connectivity (dial plans, voice policies, PSTN usage records, outbound call routes, and translation rules), begin the process of enabling media bypass by using the steps in [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md).</span></span>
 
-#### その他のリソース
+</div>
 
-[Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="ce14c-123">関連項目</span><span class="sxs-lookup"><span data-stu-id="ce14c-123">See Also</span></span>
+
+
+[<span data-ttu-id="ce14c-124">Configure a trunk with media bypass in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ce14c-124">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="ce14c-125">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span><span class="sxs-lookup"><span data-stu-id="ce14c-125">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span></span>](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md)  
+[<span data-ttu-id="ce14c-126">Configure media bypass global settings in Lync Server 2013 to use site and region information</span><span class="sxs-lookup"><span data-stu-id="ce14c-126">Configure media bypass global settings in Lync Server 2013 to use site and region information</span></span>](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md)  
+
+
+[<span data-ttu-id="ce14c-127">Lync Server 2013 のグローバルメディアバイパスオプション</span><span class="sxs-lookup"><span data-stu-id="ce14c-127">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+
+
+[<span data-ttu-id="ce14c-128">Lync Server 2013 でのメディア バイパスの計画</span><span class="sxs-lookup"><span data-stu-id="ce14c-128">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

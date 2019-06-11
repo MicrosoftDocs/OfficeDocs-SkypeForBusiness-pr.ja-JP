@@ -1,95 +1,131 @@
-﻿---
-title: 'Lync Server 2013: 電話会議、アプリケーションおよび仲介サーバーの QoS (Quality of Service) ポリシーの構成'
-TOCTitle: 電話会議、アプリケーションおよび仲介サーバーの QoS (Quality of Service) ポリシーの構成
-ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205076(v=OCS.15)
-ms:contentKeyID: 48272769
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 電話会議、アプリケーションおよび仲介サーバーの QoS (Quality of Service) ポリシーの構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers
+ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205076(v=OCS.15)
+ms:contentKeyID: 48184769
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 47a79835fb19f5a30a11eac4859f133aeec5c8cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840308"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 電話会議、アプリケーションおよび仲介サーバーの Lync Server 2013 における QoS (Quality of Service) ポリシーの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-06-23_
+# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a><span data-ttu-id="68182-102">電話会議、アプリケーションおよび仲介サーバーの Lync Server 2013 における QoS (Quality of Service) ポリシーの構成</span><span class="sxs-lookup"><span data-stu-id="68182-102">Configuring a Quality of Service policy in Lync Server 2013 for your Conferencing, Application, and Mediation servers</span></span>
 
-ポート範囲を構成すると、指定した種類のすべてのトラフィック (すべての音声トラフィックなど) が同じポート セットを通過するようになるため、サービス品質の使用が促進されます。これにより、システムは特定のパケットを簡単に識別およびマークできるようになります。ポート 49152 が音声トラフィック用に予約されている場合、ポート 49152 を通過するパケットは、これが音声パケットであることを示す DSCP コードでマークできます。さらに、これによりルーターはパケットを音声パケットとして識別し、マークされていないパケット (サーバーからサーバーへのファイルのコピーに使用されるパケットなど) よりも高い優先順位を指定できます。
+</div>
 
-ただし、ポートのセットを特定の種類のトラフィックに限定するだけでは、これらのポートを通過するパケットは適切な DSCP コードでマークされません。ポート範囲の定義に加えて、各ポート範囲に関連付ける DSCP コードを指定するサービス品質ポリシーを作成する必要もあります。Microsoft Lync Server 2013 の場合、これは通常 2 つのポリシー (音声用に 1 つとビデオ用に 1 つ) を作成することを意味します。
+<div id="mainSection">
 
-サービス品質ポリシーは、グループ ポリシーを使用すると最も簡単に作成および管理できます (これらの同じポリシーは、ローカル セキュリティ ポリシーを使用して作成することもできますが、そのためにはすべての各コンピューターで同じ手順を繰り返す必要があります)。QoS ポリシーの初期セット (音声用に 1 つとビデオ用に 1 つ) は、電話会議サーバー、アプリケーション サーバー、仲介サーバーなどのサービスを実行している Lync Server コンピューターにのみ適用する必要があります。これらすべてのコンピューターが同じ Active Directory OU に配置されている場合は、その OU に新しいグループ ポリシー オブジェクト (GPO) を割り当てるだけです。また、他の手順を実行して、新しいポリシーのターゲットを指定したコンピューターに設定することもできます。たとえば、セキュリティ グループに適切なコンピューターを配置し、グループ ポリシー セキュリティ フィルター処理を使用して、GPO をそのセキュリティ グループに適用できます。
+<div id="mainBody">
 
-音声管理用のサービス品質ポリシーを作成するには、グループ ポリシーの管理がインストールされているコンピューターにログオンします。\[グループ ポリシーの管理\] を開き (\[ **スタート** \] をクリックし、\[ **管理ツール** \] をポイントして \[ **グループ ポリシーの管理** \] をクリックします)、次の手順を実行します。
+<span> </span>
 
-1.  \[グループ ポリシーの管理\] で、新しいポリシーを作成する必要のあるコンテナーを探します。たとえば、すべての Lync Server コンピューターが Lync Server という名前の OU にある場合は、新しいポリシーを Lync Server OU に作成する必要があります。
+<span data-ttu-id="68182-103">_**最終更新日:** 2014-06-23_</span><span class="sxs-lookup"><span data-stu-id="68182-103">_**Topic Last Modified:** 2014-06-23_</span></span>
 
-2.  適切なコンテナーを右クリックし、\[ **このドメインに GPO を作成し、このコンテナーにリンクする** \] をクリックします。
+<span data-ttu-id="68182-104">ポート範囲を構成すると、指定した種類のすべてのトラフィック (たとえば、すべての音声トラフィック) が同じポートセットを通過するようにすることで、サービスの品質を活用できます。</span><span class="sxs-lookup"><span data-stu-id="68182-104">Configuring port ranges facilitates the use of Quality of Service by ensuring that all traffic of a specified type (for example, all audio traffic) travels through the same set of ports.</span></span> <span data-ttu-id="68182-105">これにより、特定のパケットをシステムで識別してマークすることが簡単になります。ポート49152が音声トラフィック用に予約されている場合は、ポート49152経由で移動したパケットは、オーディオパケットであることを示す DSCP コードでマークできます。</span><span class="sxs-lookup"><span data-stu-id="68182-105">This makes it easy for the system to identify and mark a given packet: if port 49152 is reserved for audio traffic, then any packet traveling through port 49152 can be marked with a DSCP code that indicates that this is an audio packet.</span></span> <span data-ttu-id="68182-106">これにより、ルーターは、パケットをオーディオパケットとして識別し、マークされていないパケット (あるサーバーから別のサーバーにファイルをコピーするために使用されるパケットなど) よりも高い優先順位を与えることができます。</span><span class="sxs-lookup"><span data-stu-id="68182-106">In turn, this enables routers to identify the packet as an audio packet, and give it higher priority than unmarked packets (such as packets used to copy a file from one server to another).</span></span>
 
-3.  \[ **新しい GPO** \] ダイアログ ボックスで、\[ **名前** \] ボックスに新しいグループ ポリシー オブジェクトの名前 (「**Lync Server QoS** 」など) を入力し、\[ **OK** \] をクリックします。
+<span data-ttu-id="68182-107">ただし、ポートのセットを特定の種類のトラフィックに制限するだけでは、適切な DSCP コードでマークされているポートを経由してパケットが移動されることはありません。</span><span class="sxs-lookup"><span data-stu-id="68182-107">However, simply restricting a set of ports to a specific type of traffic does not result in packets traveling through those ports being marked with the appropriate DSCP code.</span></span> <span data-ttu-id="68182-108">ポート範囲の定義に加えて、各ポート範囲に関連付ける DSCP コードを指定するサービス品質ポリシーも作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="68182-108">In addition to defining port ranges you must also create Quality of Service policies that specify the DSCP code to be associated with each port range.</span></span> <span data-ttu-id="68182-109">Microsoft Lync Server 2013 では、通常、オーディオ用とビデオ用の2つのポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="68182-109">For Microsoft Lync Server 2013 that typically means creating two policies: one for audio and one for video.</span></span>
 
-4.  新規に作成したポリシーを右クリックし、\[ **編集** \] をクリックします。
+<span data-ttu-id="68182-110">サービス品質ポリシーは、グループポリシーを使って、最も簡単に作成、管理できます。</span><span class="sxs-lookup"><span data-stu-id="68182-110">Quality of Service policies are most-easily created, and managed, by using Group Policy.</span></span> <span data-ttu-id="68182-111">(これらのポリシーは、ローカルセキュリティポリシーを使用して作成することもできます。</span><span class="sxs-lookup"><span data-stu-id="68182-111">(These same policies can also be created by using local security policies.</span></span> <span data-ttu-id="68182-112">ただし、そのためには、すべてのコンピューターで同じ手順を繰り返す必要があります。)最初の QoS ポリシーのセット (1 つはオーディオ用とビデオ用) を、会議サーバー、アプリケーションサーバー、または仲介サーバーサービスを実行している Lync Server コンピューターにのみ適用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="68182-112">However, that requires you to repeat the same procedure on each and every computer.) Your initial set of QoS policies (one for audio and one for video) should be applied only to Lync Server computers running the Conferencing server, Application server, and/or Mediation server services.</span></span> <span data-ttu-id="68182-113">これらのすべてのコンピューターが同じ Active Directory OU に配置されている場合は、その OU に新しいグループポリシーオブジェクト (GPO) を割り当てるだけで済みます。</span><span class="sxs-lookup"><span data-stu-id="68182-113">If all of these computers are located in the same Active Directory OU then you can simply assign the new Group Policy object (GPO) to that OU.</span></span> <span data-ttu-id="68182-114">または、別の手順を実行して、指定したコンピューターに新しいポリシーを作成することもできます。たとえば、セキュリティグループに適切なコンピューターを配置し、グループポリシーセキュリティフィルターを使用して、そのセキュリティグループだけに GPO を適用することができます。</span><span class="sxs-lookup"><span data-stu-id="68182-114">Alternatively, you can take other steps to target the new policy to the specified computers; for example, you can place the appropriate computers in a security group, then use Group Policy security filtering to apply the GPO just to that security group.</span></span>
 
-5.  グループ ポリシー管理エディターで、\[ **コンピューターの構成** \]、\[ **ポリシー** \]、\[ **Windows の設定** \] の順に展開し、\[ **ポリシー ベースの QoS** \] を右クリックして \[ **新規ポリシーの作成** \] をクリックします。
+<span data-ttu-id="68182-115">音声を管理するためのサービス品質ポリシーを作成するには、グループポリシー管理がインストールされているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="68182-115">In order to create a Quality of Service policy for managing audio, log on to a computer where Group Policy Management has been installed.</span></span> <span data-ttu-id="68182-116">[グループポリシーの管理] を開き ([**スタート**] をクリックし、[**管理ツール**] をポイントして、[**グループポリシーの管理**] をクリックし)、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="68182-116">Open Group Policy Management (click **Start**, point to **Administrative Tools**, and then click **Group Policy Management**) and then complete the following procedure:</span></span>
 
-6.  \[ **ポリシー ベースの QoS** \] ダイアログ ボックスの最初のページで、\[ **名前** \] ボックスに新規ポリシーの名前 (「**Lync Server QoS** 」など) を入力します。\[ **DSCP 値を指定する** \] を選択し、値を **46** に設定します。\[ **出力方向のスロットル率を指定する** \] をオフのままにして、\[ **次へ** \] をクリックします。
+1.  <span data-ttu-id="68182-117">[グループポリシーの管理] で、新しいポリシーを作成するコンテナーを見つけます。</span><span class="sxs-lookup"><span data-stu-id="68182-117">In Group Policy Management, locate the container where the new policy should be created.</span></span> <span data-ttu-id="68182-118">たとえば、すべての Lync Server コンピューターが Lync Server という名前の OU にある場合、新しいポリシーは Lync Server OU で作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="68182-118">For example, if all your Lync Server computers are located in an OU named Lync Server then the new policy should be created in the Lync Server OU.</span></span>
 
-7.  次のページで、\[**すべてのアプリケーション**\] が選択されていることを確認し、\[**次へ**\] をクリックします。これにより、すべてのアプリケーションが、指定した DSCP コードを持つ指定したポート範囲からのパケットに一致するようになります。
+2.  <span data-ttu-id="68182-119">適切なコンテナーを右クリックし、[**このドメインに GPO を作成**] をクリックして、ここにリンクを設定します。</span><span class="sxs-lookup"><span data-stu-id="68182-119">Right-click the appropriate container and then click **Create a GPO in this domain, and Link it here**.</span></span>
 
-8.  3 番目のページで、\[**すべての発信元 IP アドレス\] と \[すべての宛先 IP アドレス**\] の両方が選択されていることを確認し、\[**次へ**\] をクリックします。この 2 つの設定により、これらのパケットを送信したコンピューター (IP アドレス) やこれらのパケットを受信するコンピューター (IP アドレス) にかかわらず、パケットが管理されます。
+3.  <span data-ttu-id="68182-120">[**新しい GPO** ] ダイアログボックスで、[**名前**] ボックスに新しいグループポリシーオブジェクトの名前を入力し (「 **Lync Server QoS**」など)、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-120">In the **New GPO** dialog box, type a name for the new Group Policy object in the **Name** box (for example, **Lync Server QoS**) and then click **OK**.</span></span>
 
-9.  4 番目のページで、\[ **この QoS ポリシーを適用するプロトコルを選択してください** \] ドロップダウン リストから \[ **TCP と UDP** \] を選択します。TCP (伝送制御プロトコル) と UDP (ユーザー データグラム プロトコル) は、Lync Server とそのクライアント アプリケーションで最もよく使用される 2 つのネットワーキング プロトコルです。
+4.  <span data-ttu-id="68182-121">新しく作成したポリシーを右クリックし、[**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-121">Right-click the newly-created policy and then click **Edit**.</span></span>
 
-10. \[ **発信元ポート番号を指定してください** \] 見出しの下で、\[ **次の発信元ポート番号か範囲** \] をクリックします。付随するテキスト ボックスに、オーディオ送信用に予約されたポート範囲を入力します。たとえば、ポート 49152 からポート 57500 までを音声トラフィック用に予約した場合は、**49152:57500** という形式を使用してポート範囲を入力します。\[ **完了** \] をクリックします。
+5.  <span data-ttu-id="68182-122">グループポリシー管理エディターで、[**コンピューターの構成**]、[**ポリシー**]、[ **Windows 設定**] の順に展開し、[**ポリシーベースの QoS**] を右クリックして、[**新しいポリシーの作成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-122">In the Group Policy Management Editor, expand **Computer Configuration**, expand **Policies**, expand **Windows Settings**, right-click **Policy-based QoS**, and then click **Create new policy**.</span></span>
 
-> [!NOTE]
-> 46 の DSCP 値はある程度任意です。DSCP 46 は多くの場合に音声パケットのマーキングに使用されますが、音声通信に必ずしも DSCP 46 を使用する必要はありません。QoS を既に実装してあり、音声に別の DSCP コード (たとえば DSCP 40) を使用している場合は、その同じコードを使用 (つまり、音声に 40 を使用) するようにサービス品質ポリシーを構成する必要があります。通常は音声パケットのマーキングに DSCP 46 が使用されるため、サービス品質を実装したばかりの場合は、この値を音声に使用することをお勧めします。
+6.  <span data-ttu-id="68182-123">[**ポリシーベースの QoS** ] ダイアログボックスの [開く] ページで、[**名前**] ボックスに新しいポリシーの名前 (例: **Lync Server QoS**) を入力します。</span><span class="sxs-lookup"><span data-stu-id="68182-123">In the **Policy-based QoS** dialog box, on the opening page, type a name for the new policy (e.g., **Lync Server QoS**) in the **Name** box.</span></span> <span data-ttu-id="68182-124">[ **DSCP 値の指定**] を選択し、値を**46**に設定します。</span><span class="sxs-lookup"><span data-stu-id="68182-124">Select **Specify DSCP Value** and set the value to **46**.</span></span> <span data-ttu-id="68182-125">[**送信スロットルの比率を指定する**] をオフにして、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-125">Leave **Specify Outbound Throttle Rate** unselected, and then click **Next**.</span></span>
+
+7.  <span data-ttu-id="68182-126">次のページで、[すべての**アプリケーション**] が選択されていることを確認し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-126">On the next page, make sure that **All applications** is selected and then click **Next**.</span></span> <span data-ttu-id="68182-127">これにより、すべてのアプリケーションが指定のポート範囲のパケットを指定した DSCP コードに一致させるだけです。</span><span class="sxs-lookup"><span data-stu-id="68182-127">This simply ensures that all applications will match packets from the specified port range with the specified DSCP code.</span></span>
+
+8.  <span data-ttu-id="68182-128">3番目のページで、**すべてのソース ip アドレスと宛先 ip アドレス**が選択されていることを確認し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-128">On the third page, make sure that both **Any source IP address and Any destination IP address** are selected and then click **Next**.</span></span> <span data-ttu-id="68182-129">この2つの設定では、どのコンピューター (IP アドレス) がそれらのパケットを送信したか、どのコンピューター (IP アドレス) がそれらのパケットを受信するかに関係なく、パケットが管理されるようにします。</span><span class="sxs-lookup"><span data-stu-id="68182-129">These two settings ensure that packets will be managed regardless of which computer (IP address) sent those packets and which computer (IP address) will receive those packets.</span></span>
+
+9.  <span data-ttu-id="68182-130">4ページ目で、[**この QoS ポリシーが適用されるプロトコルを選択**してください] ドロップダウンリストから [ **TCP および UDP** ] を選びます。</span><span class="sxs-lookup"><span data-stu-id="68182-130">On page four, select **TCP and UDP** from the **Select the protocol this QoS policy applies to** dropdown list.</span></span> <span data-ttu-id="68182-131">TCP (伝送制御プロトコル) と UDP (ユーザーデータグラムプロトコル) は、Lync Server およびそのクライアントアプリケーションで最も一般的に使用される2つのネットワークプロトコルです。</span><span class="sxs-lookup"><span data-stu-id="68182-131">TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two networking protocols most-commonly used by Lync Server and its client applications.</span></span>
+
+10. <span data-ttu-id="68182-132">見出しの下で、**ソースポート番号を指定**して、[**このソースポートまたは範囲から**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="68182-132">Under the heading **Specify the source port number**, select **From this source port or range**.</span></span> <span data-ttu-id="68182-133">[付随するテキスト] ボックスに、オーディオ送信用に予約されているポート範囲を入力します。</span><span class="sxs-lookup"><span data-stu-id="68182-133">In the accompanying text box, type the port range reserved for audio transmissions.</span></span> <span data-ttu-id="68182-134">たとえば、ポート49152からオーディオトラフィック用にポート57500を予約した場合、次の形式を使用してポート範囲を入力します**49152:57500**。</span><span class="sxs-lookup"><span data-stu-id="68182-134">For example, if you reserved ports 49152 through ports 57500 for audio traffic enter the port range using this format: **49152:57500**.</span></span> <span data-ttu-id="68182-135">[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-135">Click **Finish**.</span></span>
+
+<div>
 
 
-音声トラフィックの QoS ポリシーを作成した後で、ビデオ トラフィック用の 2 つ目のポリシー (また、オプションでアプリケーション共有トラフィックの管理用の 3 つ目のポリシー) を作成する必要があります。ビデオのポリシーを作成するには、次の点を置き換えて、音声ポリシーの作成時に従ったのと同じ基本手順に従います。
+> [!NOTE]  
+> <span data-ttu-id="68182-136">46の DSCP 値は、何らかの方法で行うことができます。 DSCP 46 はオーディオパケットをマークするために使われることが多いのですが、オーディオ通信には DSCP 46 を使う必要はありません。</span><span class="sxs-lookup"><span data-stu-id="68182-136">The DSCP value of 46 is somewhat arbitrary: although DSCP 46 is often used for marking audio packets, you do not have to use DSCP 46 for audio communications.</span></span> <span data-ttu-id="68182-137">既に QoS を実装していて、オーディオ用に別の DSCP コード (たとえば、DSCP 40) を使用している場合は、その同じコードを使用するようにサービスの品質ポリシーを構成する必要があります (例:40 for audio)。</span><span class="sxs-lookup"><span data-stu-id="68182-137">If you have already implemented QoS and you are using a different DSCP code for audio (for example, DSCP 40) then you should configure your Quality of Service policy to use that same code (i.e., 40 for audio).</span></span> <span data-ttu-id="68182-138">現在、サービスの品質を実装している場合は、その値が一般的にオーディオパケットをマークするために使用されるため、オーディオには DSCP 46 を使うことをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="68182-138">If you are just now implementing Quality of Service, then it is recommended that you use DSCP 46 for audio, simply because that value is commonly used to mark audio packets.</span></span>
 
-  - 別の (一意の) ポリシー名 (**Lync Server ビデオ** など) を使用します。
 
-  - DSCP 値を 46 ではなく **34** に設定します (34 の DSCP 値の使用は必須ではありません。要件は、音声に使用したのとは異なる DSCP 値をビデオに使用することだけです)。
 
-  - ビデオ トラフィックには以前に構成したポート範囲を使用します。たとえば、ポート 57501 から 65535 までをビデオ用に予約した場合は、ポート範囲を **57501:65535** に設定します。
+</div>
 
-アプリケーション共有トラフィックの管理用のポリシーを作成する場合は、次の点を置き換えて 3 つ目のポリシーを作成する必要があります。
+<span data-ttu-id="68182-139">音声トラフィックの QoS ポリシーを作成したら、次に、ビデオトラフィックに対して2番目のポリシーを作成します (必要に応じて、アプリケーション共有トラフィックを管理するための第3のポリシーを作成します)。</span><span class="sxs-lookup"><span data-stu-id="68182-139">After you have created the QoS policy for audio traffic you should then create a second policy for video traffic (and, optionally, a third policy for managing application sharing traffic).</span></span> <span data-ttu-id="68182-140">ビデオのポリシーを作成するには、オーディオポリシーを作成する場合と同じ基本的な手順に従い、次のように置き換えます。</span><span class="sxs-lookup"><span data-stu-id="68182-140">To create a policy for video, follow the same basic procedure you followed when creating the audio policy, making these substitutions:</span></span>
 
-  - 別の (一意の) ポリシー名 (**Lync Server アプリケーション共有** など) を使用します。
+  - <span data-ttu-id="68182-141">別の (一意の) ポリシー名 (「 **Lync Server Video**」など) を使用します。</span><span class="sxs-lookup"><span data-stu-id="68182-141">Use a different (and unique) policy name (for example, **Lync Server Video**).</span></span>
 
-  - DSCP 値を 46 ではなく **24** に設定します (この場合も、24 の DSCP 値の使用は必須ではありません。要件は、音声またはビデオに使用したのとは異なる DSCP 値をアプリケーション共有に使用することだけです)。
+  - <span data-ttu-id="68182-142">DSCP 値を46ではなく、 **34**に設定します。</span><span class="sxs-lookup"><span data-stu-id="68182-142">Set the DSCP value to **34** instead of 46.</span></span> <span data-ttu-id="68182-143">(DSCP 値34は使う必要がないことに注意してください。</span><span class="sxs-lookup"><span data-stu-id="68182-143">(Note that you do not have to use a DSCP value of 34.</span></span> <span data-ttu-id="68182-144">唯一の要件は、オーディオに使用したものとは異なる DSCP 値をビデオに使用することです。</span><span class="sxs-lookup"><span data-stu-id="68182-144">The only requirement is that you use a different DSCP value for video than you used for audio.)</span></span>
 
-  - ビデオ トラフィックには以前に構成したポート範囲を使用します。たとえば、ポート 40803 から 49151 までをアプリケーション共有に予約した場合は、ポート範囲を **40803:49151** に設定します。
+  - <span data-ttu-id="68182-145">以前に構成したポート範囲をビデオトラフィックに使用します。</span><span class="sxs-lookup"><span data-stu-id="68182-145">Use the previously-configured port range for video traffic.</span></span> <span data-ttu-id="68182-146">たとえば、57501 ~ 65535 のビデオ用の予約ポートがある場合は、ポート範囲**57501:65535**を次のように設定します。</span><span class="sxs-lookup"><span data-stu-id="68182-146">For example, if you have reserved ports 57501 through 65535 for video, then set the port range to this: **57501:65535**.</span></span>
 
-作成した新しいポリシーは、Lync Server コンピューターでグループ ポリシーが更新されるまで有効になりません。グループ ポリシーは自身を定期的に更新しますが、グループ ポリシーを更新する必要のある各コンピューターで次のコマンドを実行することにより、強制的に即時に更新できます。
+<span data-ttu-id="68182-147">アプリケーション共有トラフィックを管理するためのポリシーを作成する場合は、3番目のポリシーを作成し、次のように置き換えます。</span><span class="sxs-lookup"><span data-stu-id="68182-147">If you decide to create a policy for managing application sharing traffic you must create a third policy, making the following substitutions:</span></span>
+
+  - <span data-ttu-id="68182-148">別の (一意の) ポリシー名 (「 **Lync Server アプリケーション共有**」など) を使用します。</span><span class="sxs-lookup"><span data-stu-id="68182-148">Use a different (and unique) policy name (for example, **Lync Server Application Sharing**).</span></span>
+
+  - <span data-ttu-id="68182-149">DSCP 値を46の代わりに**24**に設定します。</span><span class="sxs-lookup"><span data-stu-id="68182-149">Set the DSCP value to **24** instead of 46.</span></span> <span data-ttu-id="68182-150">(この場合も、DSCP 値24を使用する必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="68182-150">(Again, you do not have to use a DSCP value of 24.</span></span> <span data-ttu-id="68182-151">唯一の要件として、アプリケーション共有には、オーディオまたはビデオに使用したのとは異なる DSCP 値を使用します。</span><span class="sxs-lookup"><span data-stu-id="68182-151">The only requirement is that you use a different DSCP value for application sharing than you used for audio or for video.)</span></span>
+
+  - <span data-ttu-id="68182-152">以前に構成したポート範囲をビデオトラフィックに使用します。</span><span class="sxs-lookup"><span data-stu-id="68182-152">Use the previously-configured port range for video traffic.</span></span> <span data-ttu-id="68182-153">たとえば、アプリケーション共有用にポート 40803 ~ 49151 を予約している場合は、ポート範囲**40803:49151**を次のように設定します。</span><span class="sxs-lookup"><span data-stu-id="68182-153">For example, if you have reserved ports 40803 through 49151 for application sharing, then set the port range to this: **40803:49151**.</span></span>
+
+<span data-ttu-id="68182-154">作成した新しいポリシーは、Lync Server コンピューターのグループポリシーが更新されるまで有効になりません。</span><span class="sxs-lookup"><span data-stu-id="68182-154">The new policies you have created will not take effect until Group Policy has been refreshed on your Lync Server computers.</span></span> <span data-ttu-id="68182-155">グループ ポリシーは定期的に自動更新されますが、グループ ポリシーを更新する必要がある各コンピューター上で次のコマンドを実行すると、即座に強制的に更新することができます。</span><span class="sxs-lookup"><span data-stu-id="68182-155">Although Group Policy periodically refreshes on its own, you can force an immediate refresh by running the following command on each computer where Group Policy needs to be refreshed:</span></span>
 
     Gpupdate.exe /force
 
-このコマンドは、Lync Server 管理シェルから、または管理者の資格情報で実行されている任意のコマンド ウィンドウから実行できます。管理者の資格情報でコマンド ウィンドウを実行するには、\[**スタート**\] ボタンをクリックして、\[**コマンド プロンプト**\] を右クリックし、\[**管理者として実行**\] をクリックします。
+<span data-ttu-id="68182-156">このコマンドは、Lync Server 管理シェルから、または管理者の資格情報で実行されているコマンドウィンドウから実行できます。</span><span class="sxs-lookup"><span data-stu-id="68182-156">This command can be run from within the Lync Server Management Shell or from any command window that is running under administrator credentials.</span></span> <span data-ttu-id="68182-157">管理者の資格情報のもとでコマンド ウィンドウを開くには、[**スタート**] メニューをクリックし、[**コマンド プロンプト**] を右クリックして、[**管理者として実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-157">To run a command window under administrator credentials, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span>
 
-新しい QoS ポリシーが適用されたことを確認するには、次の手順を実行します。
+<span data-ttu-id="68182-158">新しい QoS ポリシーが適用されていることを確認するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="68182-158">To verify that the new QoS policies have been applied, do the following:</span></span>
 
-1.  Lync Server コンピューターで、\[**スタート**\] ボタンをクリックし、\[**ファイル名を指定して実行**\] をクリックします。
+1.  <span data-ttu-id="68182-159">Lync Server コンピューターで、[**スタート**] をクリックし、[**実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-159">On a Lync Server computer, click **Start** and then click **Run**.</span></span>
 
-2.  \[**ファイル名を指定して実行**\] ダイアログ ボックスで、「**regedit**」と入力し、Enter キーを押します。
+2.  <span data-ttu-id="68182-160">[**実行**] ダイアログボックスで、「 **regedit** 」と入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="68182-160">In the **Run** dialog box, type **regedit** and then press ENTER.</span></span>
 
-3.  レジストリ エディターで、\[ **コンピューター** \]、\[ **HKEY\_LOCAL\_MACHINE** \]、\[ **SOFTWARE** \]、\[ **Policies** \]、\[ **Microsoft** \]、\[ **Windows** \] の順に展開し、\[ **QoS** \] をクリックします。\[ **QoS** \] に、作成した各 QoS ポリシーのレジストリ キーが表示されます。たとえば、2 つの新しいポリシー (Lync Server 音声 QoS という名前と Lync Server ビデオ QoS という名前) を作成した場合は、「Lync Server 音声 QoS」と「Lync Server ビデオ QoS」のレジストリ エントリが表示されます。
+3.  <span data-ttu-id="68182-161">レジストリエディターで、[**コンピューター**] を展開し、[ **\_HKEY ローカル\_コンピューター**]、[**ソフトウェア**]、[**ポリシー**]、[ **Microsoft**]、[ **Windows**]、[ **QoS**] の順に展開します。</span><span class="sxs-lookup"><span data-stu-id="68182-161">In Registry Editor, expand **Computer**, expand **HKEY\_LOCAL\_MACHINE**, expand **SOFTWARE**, expand **Policies**, expand **Microsoft**, expand **Windows**, and then click **QoS**.</span></span> <span data-ttu-id="68182-162">[ **Qos** ] の下に、作成した各 qos ポリシーのレジストリキーが表示されます。</span><span class="sxs-lookup"><span data-stu-id="68182-162">Under **QoS** you should see registry keys for each of the QoS policies you just created.</span></span> <span data-ttu-id="68182-163">たとえば、2つの新しいポリシー (Lync Server Audio QoS という名前の別の Lync Server ビデオ QoS という名前) を作成した場合、Lync Server Audio QoS および Lync Server Video qos のレジストリエントリが必要です。</span><span class="sxs-lookup"><span data-stu-id="68182-163">For example, if you created two new policies (one named Lync Server Audio QoS and the other named Lync Server Video QoS) you should registry entries for Lync Server Audio QoS and Lync Server Video QoS.</span></span>
 
-ネットワーク パケットが適切な DSCP 値でマークされるようにするには、次の手順を実行して、各コンピューターに新しいレジストリ エントリを作成する必要もあります。
+<span data-ttu-id="68182-164">ネットワークパケットが適切な DSCP 値でマークされていることを確認するには、次の手順に従って、各コンピューターに新しいレジストリエントリを作成する必要もあります。</span><span class="sxs-lookup"><span data-stu-id="68182-164">To help ensure that network packets are marked with the appropriate DSCP value, you should also create a new registry entry on each computer by completing the following procedure:</span></span>
 
-1.  \[**スタート**\] ボタンをクリックし、\[**ファイル名を指定して実行**\] をクリックします。
+1.  <span data-ttu-id="68182-165">[**スタート**] をクリックし、[**実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-165">Click **Start** and then click **Run**.</span></span>
 
-2.  \[**ファイル名を指定して実行**\] ダイアログ ボックスで、「**regedit**」と入力し、Enter キーを押します。
+2.  <span data-ttu-id="68182-166">[**実行**] ダイアログボックスで、「 **regedit** 」と入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="68182-166">In the **Run** dialog box, type **regedit** and then press ENTER.</span></span>
 
-3.  レジストリ エディターで、\[**HKEY\_LOCAL\_MACHINE**\]、\[**SYSTEM**\]、\[**CurrentControlSet**\]、\[**services**\]、\[**Tcpip**\] の順に展開します。
+3.  <span data-ttu-id="68182-167">レジストリエディターで、[ **\_HKEY ローカル\_コンピューター**]、[**システム**]、[ **CurrentControlSet**] の順に展開し、[**サービス**] を展開して、[ **Tcpip**] を展開します。</span><span class="sxs-lookup"><span data-stu-id="68182-167">In the Registry Editor, expand **HKEY\_LOCAL\_MACHINE**, expand **SYSTEM**, expand **CurrentControlSet**, expand **services**, and then expand **Tcpip**.</span></span>
 
-4.  \[ **Tcpip** \] を右クリックし、\[ **新規** \] をポイントして \[ **キー** \] をクリックします。新しいレジストリ キーを作成した後、「**QoS** 」と入力して Enter キーを押し、キーの名前を変更します。
+4.  <span data-ttu-id="68182-168">[ **Tcpip**] を右クリックし、[**新規作成**] をポイントして、[**キー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-168">Right-click **Tcpip**, point to **New**, and then click **Key**.</span></span> <span data-ttu-id="68182-169">新しいレジストリキーが作成されたら、「 **QoS** 」と入力し、enter キーを押してキーの名前を変更します。</span><span class="sxs-lookup"><span data-stu-id="68182-169">After the new registry key is created, type **QoS** and then press ENTER to rename the key.</span></span>
 
-5.  \[ **QoS** \] を右クリックし、\[ **新規** \] をポイントして \[ **文字列値** \] をクリックします。新しいレジストリ値を作成した後、「**NLA を使用しない** 」と入力して Enter キーを押し、キーの名前を変更します。
+5.  <span data-ttu-id="68182-170">[ **QoS**] を右クリックし、[**新規作成**] をポイントして、[**文字列値**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-170">Right-click **QoS**, point to **New**, and then click **String Value**.</span></span> <span data-ttu-id="68182-171">新しいレジストリ値が作成されたら、[ **NLA を使用しない**] と入力し、enter キーを押して値の名前を変更します。</span><span class="sxs-lookup"><span data-stu-id="68182-171">After the new registry value is created, type **Do not use NLA** and then press ENTER to rename the value.</span></span>
 
-6.  \[ **NLA を使用しない** \] をダブルクリックします。\[ **文字列の編集** \] ダイアログ ボックスで、\[ **値データ** \] ボックスに「**1** 」と入力し、\[ **OK** \] をクリックします。
+6.  <span data-ttu-id="68182-172">[ **NLA を使わない**] をダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-172">Double-click **Do not use NLA**.</span></span> <span data-ttu-id="68182-173">[**文字列の編集**] ダイアログボックスで、[**値のデータ**] ボックスに「 **1** 」と入力し、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="68182-173">In the **Edit String** dialog box, type **1** in the **Value data** box and then click **OK**.</span></span>
 
-7.  レジストリ エディターを閉じて、コンピューターを再起動します。
+7.  <span data-ttu-id="68182-174">レジストリエディターを終了し、コンピューターを再起動します。</span><span class="sxs-lookup"><span data-stu-id="68182-174">Close the Registry Editor and then reboot your computer.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,49 @@
-﻿---
-title: Lync Server コンピューターを監視する構成
-TOCTitle: Lync Server コンピューターを監視する構成
-ms:assetid: 9f1b2b91-d5af-42ad-a27d-b0815f762ad8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205118(v=OCS.15)
-ms:contentKeyID: 48273045
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 監視対象の Lync Server コンピューターを構成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring the Lync Server computers that will be monitored
+ms:assetid: 9f1b2b91-d5af-42ad-a27d-b0815f762ad8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205118(v=OCS.15)
+ms:contentKeyID: 48184927
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 21a5d252035820f373183d1927b322a929340716
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840172"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server コンピューターを監視する構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-20_
+# <a name="configuring-the-lync-server-computers-that-will-be-monitored-in-lync-server-2013"></a><span data-ttu-id="c3b30-102">Lync Server 2013 で監視される Lync Server コンピューターを構成する</span><span class="sxs-lookup"><span data-stu-id="c3b30-102">Configuring the Lync Server computers that will be monitored in Lync Server 2013</span></span>
 
-Lync Server 2013 では、Microsoft Lync Server 2010 で使用されていた中央検出プロセスは使用されていないため、監視対象の各 Lync Server 2013 コンピューターが自身の存在を管理サーバーに自己報告できる必要があります。これを実現するには、監視対象の各コンピューターに Operations Manager エージェント ファイルをインストールする必要があります。エージェント ファイルをインストールした後、System Center プロキシとして動作するようにコンピューターを構成する必要があります。なお、これらの手順は、それらのコンピューターで Lync Server のインストールと構成が完了してから実行する必要があります。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="c3b30-103">_**最終更新日:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="c3b30-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+
+<span data-ttu-id="c3b30-104">Lync Server 2013 は、Microsoft Lync Server 2010 で使用されるセントラル検出プロセスを使用していないため、監視する各 Lync Server 2013 コンピューターは、管理サーバーにその存在を自己報告できる必要があります。</span><span class="sxs-lookup"><span data-stu-id="c3b30-104">Because Lync Server 2013 does not use the central discovery process used in Microsoft Lync Server 2010, each Lync Server 2013 computer that you want to monitor must be able to self-report its existence to the management server.</span></span> <span data-ttu-id="c3b30-105">これを可能にするには、監視する各コンピューターに Operations Manager エージェントファイルをインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="c3b30-105">To make this possible, you must install the Operations Manager agent files on each of the computers to be monitored.</span></span> <span data-ttu-id="c3b30-106">エージェントファイルをインストールしたら、System Center プロキシとして動作するようにコンピューターを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c3b30-106">After the agent files have been installed, you must configure the computer to act as a System Center proxy.</span></span> <span data-ttu-id="c3b30-107">これらの手順は、これらのコンピューターに Lync Server をインストールして構成した後に実行する必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="c3b30-107">Note that these procedures should be carried out after you have installed and configured Lync Server on these computers.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

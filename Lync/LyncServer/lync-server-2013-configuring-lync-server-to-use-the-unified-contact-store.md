@@ -1,79 +1,127 @@
-﻿---
-title: 統合連絡先ストアを使用する Microsoft Lync Server 2013 の構成
-TOCTitle: 統合連絡先ストアを使用する Microsoft Lync Server 2013 の構成
-ms:assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688083(v=OCS.15)
-ms:contentKeyID: 49886991
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 統合連絡先ストアを使用するように Lync Server を構成する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Lync Server 2013 to use the unified contact store
+ms:assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688083(v=OCS.15)
+ms:contentKeyID: 49733680
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 79c26321945444bcf5d450a7397fefb244223ec0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840233"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 統合連絡先ストアを使用する Microsoft Lync Server 2013 の構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2014-02-07_
+# <a name="configuring-microsoft-lync-server-2013-to-use-the-unified-contact-store"></a><span data-ttu-id="224ce-102">ユニファイド連絡先ストアを使用するように Microsoft Lync Server 2013 を構成する</span><span class="sxs-lookup"><span data-stu-id="224ce-102">Configuring Microsoft Lync Server 2013 to use the unified contact store</span></span>
 
-統合連絡先ストアを使用すると、ユーザーは単一の連絡先リストを保持し、その連絡先を Microsoft Lync 2013、Microsoft Outlook 2013、Microsoft Outlook Web App 2013 などの複数のアプリケーションで使用することができます。ユーザーに対して統合連絡先ストアを有効にすると、そのユーザーの連絡先は Microsoft Lync Server 2013 に格納されて SIP プロトコルを使用して取得されるのではなく、Microsoft Exchange Server 2013 に格納されて Exchange Web サービスを使用して取得されるようになります。
+</div>
 
-> [!NOTE]
-> 技術的には、連絡先情報はユーザーの Exchange 2013 メールボックスにある 1 組のフォルダーに格納されます。連絡先自体は、エンド ユーザーに表示される &quot;Lync 連絡先&quot; という名前のフォルダーに格納され、連絡先に関するメタデータは、エンド ユーザーには表示されないサブフォルダーに格納されます。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="224ce-103">_**最終更新日:** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="224ce-103">_**Topic Last Modified:** 2014-02-07_</span></span>
+
+<span data-ttu-id="224ce-104">ユニファイド連絡先の保存機能を使用すると、ユーザーは1つの連絡先リストを管理できるようになり、Microsoft Lync 2013、Microsoft Outlook 2013、Microsoft Outlook Web App 2013 などの複数のアプリケーションでそれらの連絡先を使用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="224ce-104">The unified contact store enables users to maintain a single contacts list and then have those contacts available in multiple applications, including Microsoft Lync 2013, Microsoft Outlook 2013, and Microsoft Outlook Web App 2013.</span></span> <span data-ttu-id="224ce-105">ユーザーに対してユニファイド連絡先ストアを有効にした場合、そのユーザーの連絡先は Microsoft Lync Server 2013 に保存されず、SIP プロトコルを使用して取得されます。</span><span class="sxs-lookup"><span data-stu-id="224ce-105">When you enable the unified contact store for a user that user's contacts are not stored in Microsoft Lync Server 2013 and then retrieved using the SIP protocol.</span></span> <span data-ttu-id="224ce-106">代わりに、彼の連絡先は Microsoft Exchange Server 2013 に保存され、Exchange Web Services を使用して取得されます。</span><span class="sxs-lookup"><span data-stu-id="224ce-106">Instead, his or her contacts are stored in Microsoft Exchange Server 2013 and are retrieved by using Exchange Web Services.</span></span>
+
+<div>
 
 
-## ユーザーに対して統合連絡先ストアを有効にする
+> [!NOTE]  
+> <span data-ttu-id="224ce-107">技術的には、連絡先情報は、ユーザーの Exchange 2013 メールボックスにある一対のフォルダーに格納されています。</span><span class="sxs-lookup"><span data-stu-id="224ce-107">Technically, contact information is stored in a pair of folders found in the user's Exchange 2013 mailbox.</span></span> <span data-ttu-id="224ce-108">連絡先自体は、エンドユーザーに表示される Lync の連絡先という名前のフォルダーに保存されます。連絡先に関するメタデータは、エンドユーザーに表示されないサブフォルダーに格納されます。</span><span class="sxs-lookup"><span data-stu-id="224ce-108">The contacts themselves are stored in a folder named Lync Contacts which is visible to end users; metadata about the contacts are stored in a subfolder that is not visible to end users.</span></span>
 
-Lync Server 2013 と Exchange 2013 の間のサーバー間認証を既に構成している場合は、統合連絡先ストアの使用も有効にされているため、追加のサーバー構成を行う必要はありません。ただし、ユーザーの連絡先を統合連絡先ストアに移動するために、追加のユーザー アカウント構成を行う必要があります。既定では、ユーザーの連絡先は Lync Server に保存され、統合連絡先ストアには保存されません。
 
-統合連絡先ストアへのアクセスは、Lync Server のユーザー サービス ポリシーを使用して管理されます。ユーザー サービス ポリシーには 1 つのプロパティ (UcsAllowed) しかありません。このプロパティは、ユーザーの連絡先の格納場所を決定するために使用されます。UcsAllowed が True ($True) に設定されたユーザー サービス ポリシーによってユーザーが管理されている場合、そのユーザーの連絡先は統合連絡先ストアに格納されます。UcsAllowed が False ($False) に設定されたユーザー サービス ポリシーによってユーザーが管理されている場合、そのユーザーの連絡先は Lync Server に格納されます。
 
-Lync Server 2013 をインストールすると、(グローバル スコープで構成された) 単一のユーザー サービス ポリシーもインストールされます。このポリシーの UcsAllowed 値は True に設定されていて、既定によって、ユーザーの連絡先は統合連絡先ストアに格納されます。ユーザーの連絡先をすべて統合連絡先ストアに移行したい場合、他の操作を行う必要はありません。
+</div>
 
-すべての連絡先を統合連絡先ストアに移行しない場合は、すべてのユーザーに対して統合連絡先ストアを無効にできます。その場合は、グローバル ポリシーの UcsAllowed プロパティを False に設定します。
+<div>
+
+## <a name="enabling-the-unified-contact-store-for-a-user"></a><span data-ttu-id="224ce-109">ユーザーに対して統合連絡先ストアを有効にする</span><span class="sxs-lookup"><span data-stu-id="224ce-109">Enabling the Unified Contact Store for a User</span></span>
+
+<span data-ttu-id="224ce-110">Lync Server 2013 と Exchange 2013 の間でサーバー間認証を既に構成している場合は、統合連絡先ストアの使用も有効になっています。追加のサーバー構成は必要ありません。</span><span class="sxs-lookup"><span data-stu-id="224ce-110">If you have already configured server-to-server authentication between Lync Server 2013 and Exchange 2013 then you have also enabled the use of the unified contact store; no additional server configuration is required.</span></span> <span data-ttu-id="224ce-111">ただし、ユーザーの連絡先を統合連絡先ストアに移動するために、追加のユーザー アカウント構成を行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="224ce-111">However, additional user account configuration is required in order to move a user's contacts into the unified contact store.</span></span> <span data-ttu-id="224ce-112">既定では、ユーザーの連絡先は Lync Server に保存され、ユニファイド連絡先ストアには保持されません。</span><span class="sxs-lookup"><span data-stu-id="224ce-112">By default, user contacts are kept in Lync Server and not in the unified contact store.</span></span>
+
+<span data-ttu-id="224ce-113">統合連絡先ストアへのアクセスは、Lync Server ユーザーサービスポリシーを使って管理されます。</span><span class="sxs-lookup"><span data-stu-id="224ce-113">Access to the unified contact store is managed by using Lync Server user services policies.</span></span> <span data-ttu-id="224ce-114">ユーザーサーバーポリシーには、1つのプロパティしかありません (UcsAllowed)。このプロパティは、ユーザーの連絡先が保存されている場所を決定するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="224ce-114">User server policies have only a single property (UcsAllowed); this property is used to determine the location where a user's contacts are stored.</span></span> <span data-ttu-id="224ce-115">ユーザーが、UcsAllowed が True ($True) に設定されているユーザーサービスポリシーによって管理されている場合、ユーザーの連絡先はユニファイド連絡先ストアに保存されます。</span><span class="sxs-lookup"><span data-stu-id="224ce-115">If a user is managed by a user services policy where UcsAllowed has been set to True ($True) then the user's contacts will be stored in the unified contact store.</span></span> <span data-ttu-id="224ce-116">ユーザーが、UcsAllowed が False ($False) に設定されているユーザーサービスポリシーによって管理されている場合、そのユーザーの連絡先は Lync Server に保存されます。</span><span class="sxs-lookup"><span data-stu-id="224ce-116">If the user is managed by a user services policy where UcsAllowed has been set to False ($False) then his or her contacts will be stored in Lync Server.</span></span>
+
+<span data-ttu-id="224ce-117">Lync Server 2013 をインストールすると、(グローバルスコープで構成された) 1 つのユーザーサービスポリシーもインストールされます。</span><span class="sxs-lookup"><span data-stu-id="224ce-117">When you install Lync Server 2013 a single user services policy (configured at the global scope) is installed as well.</span></span> <span data-ttu-id="224ce-118">このポリシーの UcsAllowed 値は True に設定されていて、ユーザーの連絡先は既定で統合連絡先ストアに格納されます (統合連絡先ストアを展開および構成済みであることが前提です)。</span><span class="sxs-lookup"><span data-stu-id="224ce-118">The UcsAllowed value in this policy is set to True, meaning that, by default, user contacts will be stored in the unified contact store (assuming this has been deployed and configured).</span></span> <span data-ttu-id="224ce-119">ユーザーの連絡先をすべて統合連絡先ストアに移行したい場合、他の操作を行う必要はありません。</span><span class="sxs-lookup"><span data-stu-id="224ce-119">If you want to migrate all of your user contacts to the unified contact store you do not have to do anything at all.</span></span>
+
+<span data-ttu-id="224ce-120">すべての連絡先を統合連絡先ストアに移行しない場合は、すべてのユーザーに対して統合連絡先ストアを無効にできます。その場合は、グローバル ポリシーの UcsAllowed プロパティを False に設定します。</span><span class="sxs-lookup"><span data-stu-id="224ce-120">If you would prefer not to migrate all your contacts to the unified contact store you can disable the unified contact store for all users by setting the UcsAllowed property in the global policy to False:</span></span>
 
     Set-CsUserServicesPolicy -Identity global -UcsAllowed $False
 
-グローバル ポリシーによって統合連絡先ストアを無効にした後で、統合連絡先ストアの使用を有効にするユーザーごとのポリシーを作成することもできます。これにより、一部のユーザーの連絡先を統合連絡先ストアに保存し、他のユーザーの連絡先を引き続き Lync Server に保存することが可能になります。ユーザーごとのユーザー サービス ポリシーは、次のようなコマンドを使用して作成できます。
+<span data-ttu-id="224ce-121">グローバルポリシーでユニファイド連絡先ストアを無効にした後は、統合された連絡先ストアの使用を有効にするユーザーごとのポリシーを作成できます。これにより、他のユーザーが引き続き Lync Server に連絡先を保持しているときに、一部のユーザーをユニファイド連絡先ストアに残しておくことができます。</span><span class="sxs-lookup"><span data-stu-id="224ce-121">After you have disabled the unified contact store in the global policy you can then create a per-user policy that enables the use of the unified contact store; this allows you to have some users keep their contacts in the unified contact store while other users continue to keep their contacts in Lync Server.</span></span> <span data-ttu-id="224ce-122">次のようなコマンドを使用して、ユーザーごとのユーザーサービスポリシーを作成できます。</span><span class="sxs-lookup"><span data-stu-id="224ce-122">You can create a per-user user services policy by using a command similar to this:</span></span>
 
     New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True
 
-新しいポリシーを作成した後、そのポリシーを、統合連絡先ストアへのアクセス権を必要とするすべてのユーザーに割り当てる必要があります。ユーザーごとのポリシーをユーザーに割り当てるには、次のようなコマンドを使用します。
+<span data-ttu-id="224ce-p107">新しいポリシーを作成した後、そのポリシーを、統合連絡先ストアへのアクセス権を必要とするすべてのユーザーに割り当てる必要があります。ユーザーごとのポリシーをユーザーに割り当てるには、次のようなコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="224ce-p107">After you have created the new policy you must then assign that policy to any user who should have access to the unified contact store. Per-user policies can be assigned to users by using commands similar to this:</span></span>
 
     Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContactStore"
 
-ポリシーの割り当てが完了すると、Lync Server は統合連絡先ストアへのユーザーの連絡先の移行を開始します。移行後は、ユーザーの連絡先が Lync Server ではなく Exchange に格納されます。移行の完了時にユーザーが Lync 2013 にログオンしている場合は、メッセージ ボックスが表示され、プロセスを完了するために Lync からログオフして再度ログオンするように求められます。ユーザーごとのポリシーを割り当てられないユーザーの連絡先は、統合連絡先ストアに移行されません。そのようなユーザーはグローバル ポリシーで管理され、グローバル ポリシーでは統合連絡先ストアの使用が無効になっているためです。
+<span data-ttu-id="224ce-125">ポリシーが割り当てられると、Lync Server によって、ユーザーの連絡先がユニファイド連絡先ストアに移行されます。</span><span class="sxs-lookup"><span data-stu-id="224ce-125">After the policy has been assigned Lync Server will begin to migrate the user's contacts to the unified contact store.</span></span> <span data-ttu-id="224ce-126">移行が完了すると、ユーザーは Lync Server ではなく、Exchange に保存された連絡先になります。</span><span class="sxs-lookup"><span data-stu-id="224ce-126">After migration is complete, the user will then have his or her contacts stored in Exchange rather than Lync Server.</span></span> <span data-ttu-id="224ce-127">移行が完了した時点でユーザーが Lync 2013 にログオンしている場合は、メッセージボックスが表示され、その後、プロセスを完了するために Lync からログオフしてからもう一度ログインするように求められます。</span><span class="sxs-lookup"><span data-stu-id="224ce-127">If the user happens to be logged on to Lync 2013 at the time migration completes, a message box will appear and he or she will be asked to log off of Lync and then log back on in order to finalize the process.</span></span> <span data-ttu-id="224ce-128">ユーザーごとのポリシーを割り当てられないユーザーの連絡先は、統合連絡先ストアに移行されません。</span><span class="sxs-lookup"><span data-stu-id="224ce-128">Users who have not been assigned this per-user policy will not have their contacts migrated to the unified contact store.</span></span> <span data-ttu-id="224ce-129">そのようなユーザーはグローバル ポリシーで管理され、グローバル ポリシーでは統合連絡先ストアの使用が無効になっているためです。</span><span class="sxs-lookup"><span data-stu-id="224ce-129">That’s because those users are being managed by the global policy, and use of the unified contact store has been disabled in the global policy.</span></span>
 
-ユーザーの連絡先が統合連絡先ストアに正常に移行されたことを確認するには、Lync Server 管理シェルから [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) コマンドレットを実行します。
+<span data-ttu-id="224ce-130">Lync Server 管理シェル内から[CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore)コマンドレットを実行することで、ユーザーの連絡先が正常に統合された連絡先ストアに移行されたことを確認できます。</span><span class="sxs-lookup"><span data-stu-id="224ce-130">You can verify that a user's contacts have successfully been migrated to the unified contact store by running the [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore) cmdlet from within the Lync Server Management Shell:</span></span>
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Test-CsUnifiedContactStore が成功すれば、統合連絡先ストアへのユーザー sip:kenmyer@litwareinc.com の連絡先の移行は完了しています。
+<span data-ttu-id="224ce-131">Test-CsUnifiedContactStore が成功すれば、統合連絡先ストアへのユーザー sip:kenmyer@litwareinc.com の連絡先の移行は完了しています。</span><span class="sxs-lookup"><span data-stu-id="224ce-131">If Test-CsUnifiedContactStore succeeds that means that the contacts for the user sip:kenmyer@litwareinc.com have been migrated to the unified contact store.</span></span>
 
-## 統合連絡先ストアのロールバック
+</div>
 
-統合連絡先ストアからユーザーの連絡先を削除する必要がある場合 (たとえば、ユーザーの所属先を Microsoft Lync Server 2010 に変更する必要があり、ユーザーが統合連絡先ストアを使用できなくなった場合など)、2 つの操作を行う必要があります。まず、統合連絡先ストアへの連絡先の格納を禁止する新しいユーザー サービス ポリシー (つまり、UcsAllowed プロパティが $False に設定されたポリシー) をユーザーに割り当てる必要があります。そのようなポリシーがない場合、次のようなコマンドを使用して作成できます。
+<div>
+
+## <a name="rolling-back-the-unified-contact-store"></a><span data-ttu-id="224ce-132">統合連絡先ストアのロールバック</span><span class="sxs-lookup"><span data-stu-id="224ce-132">Rolling Back the Unified Contact Store</span></span>
+
+<span data-ttu-id="224ce-133">ユーザーの連絡先を、統合された連絡先ストアから削除する必要がある場合 (たとえば、Microsoft Lync Server 2010 上でユーザーがホームポイントを使用する必要があり、そのため、ユニファイド連絡先ストアを使用できなくなった場合) は、2つの操作を行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="224ce-133">If you need to remove a user's contacts from the unified contact store (for example, if the user needs to be rehomed on Microsoft Lync Server 2010 and thus can no longer use the unified contact store) you must do two things.</span></span> <span data-ttu-id="224ce-134">最初に、ユーザーに、ユニファイド連絡先ストアで連絡先を保存することを禁止する新しいユーザーサービスポリシーを割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="224ce-134">First, you must assign the user a new user services policy, one that prohibits storing contacts in the unified contact store.</span></span> <span data-ttu-id="224ce-135">(これは、UcsAllowed プロパティが $False に設定されているポリシーです。)このようなポリシーがない場合は、次のようなコマンドを使用して作成できます。</span><span class="sxs-lookup"><span data-stu-id="224ce-135">(That is, a policy where the UcsAllowed property has been set to $False.) If you do not have such a policy you can create one using a command similar to this:</span></span>
 
     New-CsUserServicesPolicy -Identity NoUnifiedContactStore -UcsAllowed $False
 
-その後、次のようなコマンドを使用して、この新しいユーザーごとのポリシー (NoUnifiedContactStore) を割り当てます。
+<span data-ttu-id="224ce-136">その後、次のようなコマンドを使用して、この新しいユーザーごとのポリシー (NoUnifiedContactStore) を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="224ce-136">You can then assign this new per-user policy (NoUnifiedContactStore) by using a command like this:</span></span>
 
     Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStore
 
-上記のコマンドは、ユーザー Ken Myer に新しいポリシーを割り当てると共に、Ken の連絡先が統合連絡先ストアに移行されないようにします。
+<span data-ttu-id="224ce-137">上記のコマンドは、ユーザー Ken Myer に新しいポリシーを割り当てると共に、Ken の連絡先が統合連絡先ストアに移行されないようにします。</span><span class="sxs-lookup"><span data-stu-id="224ce-137">The preceding command assigns the new policy to the user Ken Myer, and also prevents Ken's contacts from being migrated to the unified contact store.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 場合によっては、単純にユーザーの現在のユーザー サービス ポリシーを割り当て解除するだけで同じ結果が得られます。たとえば、統合連絡先ストアを有効にするユーザーごとのユーザー サービス ポリシーが Ken Myer に割り当てられているが、グローバル ポリシーでは統合連絡先ストアの使用が禁止されているとします。その場合は、Ken のユーザーごとのサービス ポリシーを割り当て解除します。それにより、Ken は自動的にグローバル ポリシーによって管理されるようになるため、統合連絡先ストアにはアクセスできなくなります。<br />
-> 以前に割り当てたユーザーごとのポリシーを割り当て解除するには、上記と同じコマンドを使用しますが、PolicyName パラメーターを null 値に設定します。<br />
-> Grant-CsUserServicesPolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null
+> <span data-ttu-id="224ce-138">場合によっては、ユーザーの現在のユーザーサービスポリシーを割り当て解除するだけで、同じような結果を得ることができます。</span><span class="sxs-lookup"><span data-stu-id="224ce-138">In some cases you can achieve the same net effect by simply unassigning the user's current user services policy.</span></span> <span data-ttu-id="224ce-139">たとえば、統合連絡先ストアを有効にするユーザーごとのユーザー サービス ポリシーが Ken Myer に割り当てられているが、グローバル ポリシーでは統合連絡先ストアの使用が禁止されているとします。</span><span class="sxs-lookup"><span data-stu-id="224ce-139">For example, suppose Ken Myer has a per-user user services policy the enables the unified contact store, but your global policy prohibits the use of the unified contact store.</span></span> <span data-ttu-id="224ce-140">その場合は、Ken のユーザーごとのサービスポリシーを割り当て解除することができます。</span><span class="sxs-lookup"><span data-stu-id="224ce-140">In that case, you could unassign Ken's per-user services policy.</span></span> <span data-ttu-id="224ce-141">それにより、Ken は自動的にグローバル ポリシーによって管理されるようになるため、統合連絡先ストアにはアクセスできなくなります。</span><span class="sxs-lookup"><span data-stu-id="224ce-141">When you do that, Ken will automatically be managed by the global policy, and thus will no longer have access to the unified contact store.</span></span><BR><span data-ttu-id="224ce-142">以前に割り当てられたユーザーのポリシーを割り当て解除するには、前に示したのと同じコマンドを使用しますが、今回は PolicyName パラメーターを null 値に設定します。</span><span class="sxs-lookup"><span data-stu-id="224ce-142">To unassign a previously-assigned per-user policy, use the same command as shown before, but this time set the PolicyName parameter to a null value:</span></span><BR><span data-ttu-id="224ce-143">Grant-CsUserServicesPolicy –Identity "Ken Myer" –PolicyName $Null</span><span class="sxs-lookup"><span data-stu-id="224ce-143">Grant-CsUserServicesPolicy –Identity "Ken Myer" –PolicyName $Null</span></span>
 
 
-統合連絡先ストアを操作する際には、"Ken の連絡先が統合連絡先ストアに移行されないようにする" という点に注意することが重要です。単純に新しいユーザー サービス ポリシーを Ken に割り当てるだけでは、Ken の連絡先は統合連絡先ストアから移動されません。ユーザーが Lync Server 2013 にログオンする際に、システムはユーザーのユーザー サービス ポリシーをチェックして、そのユーザーの連絡先を統合連絡先ストアに保存する必要があるかどうかを調べます。答えが「はい」である (つまり、UcsAllowed プロパティが $True に設定されている) 場合は、連絡先が統合連絡先ストアに移行されます (連絡先がまだ統合連絡先ストアに移動されていないと仮定します)。答えが「いいえ」である場合は、Lync Server は単にユーザーの連絡先を無視し、次のタスクに移行します。つまり、UcsAllowed プロパティの値にかかわらず、Lync Server がユーザーの連絡先を統合連絡先ストアから自動的に移動することはありません。
 
-また、ユーザーの連絡先を Exchange 2013 から Lync Server 2013 に戻すためには、新しいユーザー サービス ポリシーをユーザーに割り当てた後で [Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback) コマンドレットを実行する必要があります。たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。
+</div>
+
+<span data-ttu-id="224ce-144">統合連絡先ストアを使用する場合は、"Ken の連絡先が統合連絡先ストアに移行されないようにする" という点に注意することが重要です。</span><span class="sxs-lookup"><span data-stu-id="224ce-144">The terminology "prevents Ken's contacts from being migrated to the unified contact store" is important to keep in mind when working with the unified contact store.</span></span> <span data-ttu-id="224ce-145">単純に新しいユーザー サービス ポリシーを Ken に割り当てるだけでは、Ken の連絡先は統合連絡先ストアから移動されません。</span><span class="sxs-lookup"><span data-stu-id="224ce-145">Simply assigning Ken a new user services policy will not move his contacts out of the unified contact store.</span></span> <span data-ttu-id="224ce-146">ユーザーが Lync Server 2013 にログオンすると、システムはユーザーのユーザーサービスポリシーをチェックして、ユーザーの連絡先をユニファイド連絡先ストアに保持する必要があるかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="224ce-146">When a user logs on to Lync Server 2013, the system checks the user's user services policy to see whether his or her contacts should be kept in the unified contact store.</span></span> <span data-ttu-id="224ce-147">答えが「はい」である (つまり、UcsAllowed プロパティが $True に設定されている) 場合は、連絡先が統合連絡先ストアに移行されます (連絡先がまだ統合連絡先ストアに移動されていないと仮定します)。</span><span class="sxs-lookup"><span data-stu-id="224ce-147">If the answer is yes (that is, if the UcsAllowed property is set to $True) then those contacts will be migrated to the unified contact store (assuming that those contacts are not already in the unified contact store).</span></span> <span data-ttu-id="224ce-148">回答が「いいえ」の場合、Lync Server はユーザーの連絡先を無視し、次のタスクに進みます。</span><span class="sxs-lookup"><span data-stu-id="224ce-148">If the answer is no, then Lync Server simply ignores the user's contacts and moves on to its next task.</span></span> <span data-ttu-id="224ce-149">つまり、Lync Server は、UcsAllowed プロパティの値に関係なく、ユーザーの連絡先を統合された連絡先ストアから自動的に移動しないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="224ce-149">That means that Lync Server will not automatically move a user's contacts from out of the unified contact store, regardless of the value of the UcsAllowed property.</span></span>
+
+<span data-ttu-id="224ce-150">つまり、ユーザーに新しいユーザーサービスポリシーを割り当てると、 [CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback)コマンドレットを実行して、ユーザーの連絡先を Exchange 2013 から移動して、Lync Server 2013 に戻す必要があります。</span><span class="sxs-lookup"><span data-stu-id="224ce-150">That also means that, after assigning the user a new user services policy, you must then run the [Invoke-CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback) cmdlet in order to move the user's contacts out of Exchange 2013 and back to Lync Server 2013.</span></span> <span data-ttu-id="224ce-151">たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。</span><span class="sxs-lookup"><span data-stu-id="224ce-151">For example, after assigning Ken Myer a new user services policy you can then move his contacts out of the unified contact store by using the following command:</span></span>
 
     Invoke-CsUcsRollback -Identity "Ken Myer"
 
-ユーザー サービス ポリシーを変更して Invoke-CsUcsRollback コマンドレットを実行しない場合、Ken の連絡先は統合連絡先ストアから削除されません。Invoke-CsUcsRollback を実行して Ken Myer のユーザー サービス ポリシーを変更しない場合は、Ken の連絡先が統合連絡先ストアから一時的に削除されます。この削除は一時的であるという点が重要です。Ken の連絡先が統合連絡先ストアから削除されると、Lync Server 2013 は 7 日間待機した後、Ken に割り当てられているユーザー サービス ポリシーを調べます。統合連絡先ストアの使用を有効にするポリシーが引き続き Ken に割り当てられている場合、Ken の連絡先は自動的に連絡先ストアに戻されます。統合連絡先ストアから連絡先を完全に削除するには、Invoke-CsUcsRollback コマンドレットを実行するだけでなく、ユーザー サービス ポリシーも変更する必要があります。
+<span data-ttu-id="224ce-152">ユーザーサービスのポリシーを変更しても、CsUcsRollback コマンドレットを実行しない場合、Ken の連絡先はユニファイド連絡先ストアから削除されません。</span><span class="sxs-lookup"><span data-stu-id="224ce-152">If you change the user services policy but do not run the Invoke-CsUcsRollback cmdlet Ken's contacts will not be removed from the unified contact store.</span></span> <span data-ttu-id="224ce-153">CsUcsRollback を実行しても、Ken Myer のユーザーサービスポリシーを変更しない場合はどうすればよいですか?</span><span class="sxs-lookup"><span data-stu-id="224ce-153">What if you run Invoke-CsUcsRollback but do not change Ken Myer's user services policy?</span></span> <span data-ttu-id="224ce-154">その場合、Ken の連絡先はユニファイド連絡先ストアから一時的に削除されます。</span><span class="sxs-lookup"><span data-stu-id="224ce-154">In that case, Ken's contacts will be temporarily removed from the unified contact store.</span></span> <span data-ttu-id="224ce-155">この削除は一時的なものであるということを念頭に置いておくことが重要です。</span><span class="sxs-lookup"><span data-stu-id="224ce-155">The fact that this removal is temporary is important to keep in mind.</span></span> <span data-ttu-id="224ce-156">Ken の連絡先がユニファイド連絡先ストアから削除されると、Lync Server 2013 は7日待ってから、Ken に割り当てられているユーザーサービスポリシーを確認します。</span><span class="sxs-lookup"><span data-stu-id="224ce-156">After Ken's contacts have been removed from the unified contact store, Lync Server 2013 will wait 7 days and then check to see which user services policy has been assigned to Ken.</span></span> <span data-ttu-id="224ce-157">この統合された連絡先ストアのユーザーを有効にするポリシーが Ken に割り当てられている場合、その連絡先は自動的に連絡先ストアに戻されます。</span><span class="sxs-lookup"><span data-stu-id="224ce-157">If Ken is still assigned a policy that enables the user of the unified contact store, then his contacts will automatically be moved back to into the contact store.</span></span> <span data-ttu-id="224ce-158">ユニファイド連絡先ストアから連絡先を完全に削除するには、CsUcsRollback コマンドレットを実行するだけでなく、ユーザーサービスのポリシーを変更する必要があります。</span><span class="sxs-lookup"><span data-stu-id="224ce-158">To permanently remove contacts from the unified contact store you must change the user services policy in addition to running the Invoke-CsUcsRollback cmdlet.</span></span>
 
-移行には多くの変数が影響するため、統合連絡先ストアにアカウントが完全に移行されるまでの時間を予想することは困難です。しかし、一般的には、移行が即座に有効になることはありません。移行する連絡先の数が少ない場合でも、完了するまでに 10 分以上かかることもあります。
+<span data-ttu-id="224ce-p114">移行には多くの変数が影響するため、統合連絡先ストアにアカウントが完全に移行されるまでの時間を予想することは困難です。しかし、一般的には、移行が即座に有効になることはありません。移行する連絡先の数が少ない場合でも、完了するまでに 10 分以上かかることもあります。</span><span class="sxs-lookup"><span data-stu-id="224ce-p114">Due to the large number of variables that can affect migration, it is difficult to estimate how long it will take before accounts are fully migrated to the unified contact store. As a general rule, however, migration does not take effect immediately: even when migrating a small number of contacts it might take 10 minutes or more before the move is complete.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

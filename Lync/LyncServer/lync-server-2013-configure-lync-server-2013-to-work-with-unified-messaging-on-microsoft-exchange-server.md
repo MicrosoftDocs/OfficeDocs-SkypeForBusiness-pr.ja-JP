@@ -1,89 +1,151 @@
 ---
-title: "Lync Server 2013: Exchange Server のユニファイド メッセージングと連動する Lync Server 2013 の構成"
-TOCTitle: Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成
+title: 'Lync Server 2013: Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398193(v=OCS.15)
-ms:contentKeyID: 48271293
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398193(v=OCS.15)
+ms:contentKeyID: 48183430
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 27909f4ae6231b1452cbfefdd82e0a0eb107c6fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840361"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a><span data-ttu-id="1d0f7-102">Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成</span><span class="sxs-lookup"><span data-stu-id="1d0f7-102">Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server</span></span>
 
-このステップを実行するには、Exchange UM 統合ユーティリティ (OcsUmUtil.exe) が必要です。このツールは, ..\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Support フォルダーの Lync Server 2013 サーバーにあります。
+</div>
 
-## Exchange UM 統合ユーティリティの実行
+<div id="mainSection">
 
-Exchange UM 統合ユーティリティは、次の特性を持つユーザー アカウントで実行する必要があります。
+<div id="mainBody">
 
-  - RTCUniversalServerAdmins グループおよび RtcUniversalUserAdmins グループ (Exchange Server ユニファイド メッセージングの設定を読み取るアクセス許可が割り当てられている) に属している。
+<span data-ttu-id="1d0f7-103">_**最終更新日:** 2013-04-03_</span><span class="sxs-lookup"><span data-stu-id="1d0f7-103">_**Topic Last Modified:** 2013-04-03_</span></span>
 
-  - 指定された組織単位 (OU) コンテナーに連絡先オブジェクトを作成するドメイン内ユーザー権限を持つ。
+<span data-ttu-id="1d0f7-104">この手順では、Exchange UM 統合ユーティリティ (OcsUmUtil) が必要です。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-104">This step requires the Exchange UM Integration Utility (OcsUmUtil.exe).</span></span> <span data-ttu-id="1d0f7-105">このツールは、の Lync Server 2013 サーバーにあります。\\Program Files\\の一般的\\なファイル Microsoft Lync\\Server 2013 サポートフォルダー。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-105">This tool is located on the Lync Server 2013 server in the ..\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Support folder.</span></span>
 
-Exchange UM 統合ユーティリティを実行すると、以下のタスクが実行されます。
+<div>
 
-  - エンタープライズ VoIP ユーザーが使用する各自動応答番号とサブスクライバー アクセス番号の連絡先オブジェクトを作成します。
+## <a name="running-the-exchange-um-integration-utility"></a><span data-ttu-id="1d0f7-106">Exchange UM 統合ユーティリティの実行</span><span class="sxs-lookup"><span data-stu-id="1d0f7-106">Running the Exchange UM Integration Utility</span></span>
 
-  - エンタープライズ VoIP の各ダイヤル プランが、対応するユニファイド メッセージング (UM) ダイヤル プランの電話コンテキストと一致するかどうかを検証します。この一致が必要なのは、Exchange 2010 Service Pack 1 (SP1) より前のバージョンの Exchange で UM ダイヤル プランを実行している場合のみです。
+<span data-ttu-id="1d0f7-107">Exchange UM 統合ユーティリティは、次の特徴を持つユーザーアカウントから実行されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-107">The Exchange UM Integration Utility must be run from a user account with the following characteristics:</span></span>
 
-> [!IMPORTANT]  
-> Exchange UM 統合ユーティリティを実行する前に、以下の作業を確実に実行します。
-> <ul><li><p>Exchange の製品ドキュメントの説明のとおりに、1 つ以上の Exchange UM ダイヤル プランを作成します。</p>
-> <p>Microsoft Exchange Server 2010 の場合は、「UM ダイヤル プランの作成」(<a href="http://go.microsoft.com/fwlink/?linkid=186177&amp;clcid=0x411  ">http://go.microsoft.com/fwlink/?linkid=186177&amp;clcid=0x411  </a>) を参照してください。</p>
-> <p>Microsoft Exchange Server 2007 Service Pack 1 (SP1) の場合は、「ユニファイド メッセージング SIP URI ダイヤル プランを作成する方法」(<a href="http://go.microsoft.com/fwlink/?linkid=185771&amp;clcid=0x411  ">http://go.microsoft.com/fwlink/?linkid=185771&amp;clcid=0x411  </a>) を参照してください。</p></li>
-> <li><p>「<a href="https://technet.microsoft.com/ja-jp/library/gg398909(v=ocs.15)">Lync Server 2013 でのダイヤル プランの作成</a>」の説明のとおりに、1 つ以上の対応する Lync Server ダイヤル プランを作成します。</p>
-    > [!IMPORTANT]  
-    > Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合、Lync Server 2013 ダイヤル プランの [簡易名] フィールドに、対応する Exchange ユニファイド メッセージング (UM) SIP ダイヤル プランの完全修飾ドメイン名 (FQDN) を入力する必要があります。Microsoft Exchange Server 2010 SP1 または最新のサービス パックを使用している場合は、このダイヤル プラン名の一致は必要ありません。</li>
-> <li>自動応答を作成し、サブスクライバー アクセス番号と自動応答番号の両方が E.164 形式であることを確認します。</li></ul>
+  - <span data-ttu-id="1d0f7-108">RTCUniversalServerAdmins グループおよび RtcUniversalUserAdmins groups のメンバーシップ (Exchange Server ユニファイドメッセージングの設定を確認するためのアクセス許可を含みます)。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-108">Membership in the RTCUniversalServerAdmins and RtcUniversalUserAdmins groups (which includes permission to read Exchange Server Unified Messaging settings).</span></span>
+
+  - <span data-ttu-id="1d0f7-109">ドメイン内のユーザー権利。指定された組織単位 (OU) コンテナーに連絡先オブジェクトを作成します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-109">User rights within the domain to create contact objects in the specified organizational unit (OU) container.</span></span>
+
+<span data-ttu-id="1d0f7-110">Exchange UM 統合ユーティリティを実行すると、次のタスクが実行されます。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-110">When you run the Exchange UM Integration Utility, it performs the following tasks:</span></span>
+
+  - <span data-ttu-id="1d0f7-111">エンタープライズボイスユーザーが使用する自動応答とサブスクライバーアクセス番号ごとに連絡先オブジェクトを作成します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-111">Creates contact objects for each auto-attendant and subscriber access number to be used by Enterprise Voice users.</span></span>
+
+  - <span data-ttu-id="1d0f7-112">各エンタープライズボイスダイヤルプランの名前が、対応するユニファイドメッセージング (UM) ダイヤルプランの電話コンテキストに一致していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-112">Verifies that the name of each Enterprise Voice dial plan matches its corresponding unified messaging (UM) dial plan phone context.</span></span> <span data-ttu-id="1d0f7-113">この照合が必要なのは、UM ダイヤルプランが Exchange 2010 Service Pack 1 (SP1) よりも*前*のバージョンの exchange で実行されている場合のみです。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-113">This matching is necessary only if the UM dial plan is running on a version of Exchange *earlier* than Exchange 2010 Service Pack 1 (SP1).</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="1d0f7-114">Exchange UM 統合ユーティリティを実行する前に、次の作業を行っていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-114">Before running the Exchange UM Integration Utility, be sure that you have done the following:</span></span>
+> <ul>
+> <li><p><span data-ttu-id="1d0f7-115">Exchange 製品のドキュメントで説明されているように、1つ以上の Exchange UM ダイヤルプランを作成します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-115">Create one or more Exchange UM dial plans, as described in the Exchange product documentation.</span></span></p>
+> <p><span data-ttu-id="1d0f7-116">Microsoft Exchange Server 2010 について&quot;は、「AT で&quot; <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>UM ダイヤルプランを作成する」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-116">For Microsoft Exchange Server 2010, see &quot;Create a UM Dial Plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</span></span></p>
+> <p><span data-ttu-id="1d0f7-117">Microsoft Exchange Server 2007 Service Pack 1 (SP1) について&quot;は、「ユニファイドメッセージング SIP URI ダイヤルプラン&quot;を<a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>作成する方法」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-117">For Microsoft Exchange Server 2007 Service Pack 1 (SP1), see &quot;How to Create a Unified Messaging SIP URI Dial Plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</span></span></p></li>
+> <li><p><span data-ttu-id="1d0f7-118">「 <a href="lync-server-2013-create-a-dial-plan.md">Lync server 2013 でダイヤルプランを作成</a>する」の説明に従って、1つまたは複数の lync server のダイヤルプランを作成します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-118">Create one or more corresponding Lync Server dial plans, as described in <a href="lync-server-2013-create-a-dial-plan.md">Create a dial plan in Lync Server 2013</a>.</span></span></p></li>
+> <ul><li><span data-ttu-id="1d0f7-119">Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合は、Lync Server 2013 ダイヤルプランの簡易名で、対応する Exchange ユニファイドメッセージング (UM) SIP ダイヤルプランの完全修飾ドメイン名 (FQDN) を入力する必要があります。 <STRONG></STRONG>フィールド。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-119">If you are using a version of Exchange that is earlier than Microsoft Exchange Server 2010 SP1, you must enter the fully qualified domain name (FQDN) of the corresponding Exchange Unified Messaging (UM) SIP dial plan in the Lync Server 2013 dial plan <STRONG>Simple name</STRONG> field.</span></span> <span data-ttu-id="1d0f7-120">Microsoft Exchange Server 2010 SP1 または最新の service pack を使用している場合、このダイヤルプランの名前の一致は必要ありません。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-120">If you are using Microsoft Exchange Server 2010 SP1 or latest service pack, this dial plan name matching is not necessary.</span></span></li></ul>
+> <li><span data-ttu-id="1d0f7-121">自動応答を作成し、サブスクライバーアクセス番号と自動応答番号の両方が必ず164形式になっていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-121">Create an auto-attendant and make sure that both the subscriber access number and auto-attendant number are in E.164 format.</span></span></li></ul>
 
 
-## Exchange UM 統合ユーティリティを実行するには
+<div>
 
-1.  フロント エンド サーバーでコマンド プロンプトを開き、「**cd %CommonProgramFiles%\\Microsoft Lync Server 2013\\Support** 」と入力し、Enter キーを押します。
+## <a name="to-run-the-exchange-um-integration-utility"></a><span data-ttu-id="1d0f7-122">Exchange UM 統合ユーティリティを実行するには</span><span class="sxs-lookup"><span data-stu-id="1d0f7-122">To run the Exchange UM Integration Utility</span></span>
 
-2.  「**OcsUmUtil.exe** 」と入力し、Enter キーを押します。
+1.  <span data-ttu-id="1d0f7-123">フロントエンドサーバーでコマンドプロンプトを開き、「 **cd% CommonProgramFiles%\\Microsoft Lync Server 2013\\サポート**」と入力して、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-123">On a Front End Server, open a command prompt and type **cd %CommonProgramFiles%\\Microsoft Lync Server 2013\\Support**, and then press ENTER.</span></span>
 
-3.  \[**データの読み込み**\] をクリックして、信頼できるすべての Exchange フォレストを探します。
+2.  <span data-ttu-id="1d0f7-124">「 **Ocsumutil**」と入力して、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-124">Type **OcsUmUtil.exe**, and then press ENTER.</span></span>
 
-4.  \[**SIP ダイヤル プラン**\] ボックスの一覧で、連絡先オブジェクトを作成する UM SIP ダイヤル プランを選択し、\[**追加**\] をクリックします。
+3.  <span data-ttu-id="1d0f7-125">[**データの読み込み**] をクリックして、信頼できるすべての Exchange フォレストを検索します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-125">Click **Load Data** to find all trusted Exchange forests.</span></span>
 
-5.  \[**連絡先**\] ボックスで、既定の組織単位をそのまま使用するか、または \[**参照**\] をクリックして \[**OU の選択**\] を開始します。 \[**OU の選択**\] ボックスで、OU を選択して \[**OK**\] をクリックするか、または \[**新しい OU の作成**\] をクリックしてルートまたはドメイン内のその他の OU の下に新しい組織単位を作成し、\[**OK**\] をクリックします (たとえば、"OU=RTC Special Accounts,DC=fourthcoffee,DC=com")。
+4.  <span data-ttu-id="1d0f7-126">**Sip ダイヤルプラン**リストで、コンタクトオブジェクトを作成する UM SIP ダイヤルプランを選択し、「**追加**」をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-126">In the **SIP Dial Plans** list, select a UM SIP dial plan for which you want to create contact objects, and then click **Add**.</span></span>
+
+5.  <span data-ttu-id="1d0f7-127">[**連絡先**] ボックスで、既定の組織単位をそのまま使用するか、[**参照**] をクリックして**OU 選択**を開始します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-127">In the **Contact** box, accept the default organizational unit, or click **Browse** to start the **OU Picker**.</span></span> <span data-ttu-id="1d0f7-128">[ **Ou の選択**] ボックスで、ou を選択して [ **OK**] をクリックします。または、[**新しい**組織単位の作成] をクリックして、ドメイン内のルートまたは他の ou (たとえば、"OU = RTC Special account, DC = 4 thコーヒー, dc = com") に新しい組織単位を作成することもできます。[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-128">In the **OU Picker** box, you can select an OU and click **OK**, or you can click **Make New OU** to create a new organizational unit under the root or any other OU in the domain (for example, "OU=RTC Special Accounts,DC=fourthcoffee,DC=com"), and then click **OK**.</span></span>
     
-    > [!NOTE]  
-    > 選択または作成した OU の識別名 (DN) が [<strong>組織単位</strong>] ボックスに表示されます。
-	
-
-6.  既定のダイヤル プラン名をそのまま使用するか、作成する連絡先オブジェクトの新しい表示名を \[**名前**\] ボックスに入力します。
+    <div>
     
+
     > [!NOTE]  
-    > たとえば、サブスクライバー アクセス連絡先オブジェクトを作成する場合は、名前を単に「Subscriber Access」とすることもできます。
+    > <span data-ttu-id="1d0f7-129">選択または作成した OU の識別名 (DN) が [<STRONG>組織単位</STRONG>] ボックスに表示されるようになります。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-129">The distinguished name (DN) of the OU that you have selected or created is now displayed in the <STRONG>Organizational Unit</STRONG> box.</span></span>
 
-
-7.  \[**SIP アドレス**\] ボックスで、既定の SIP アドレスをそのまま使用するか、別の SIP アドレスを入力します。
     
-    > [!NOTE]  
-    > 別の SIP アドレスを入力する場合は、[<strong>SIP:</strong>](コロンを含む &quot;SIP:&quot;) で始める必要があります。
+    </div>
 
-
-8.  \[**サーバーまたはプール**\] ボックスの一覧で、連絡先オブジェクトを有効にする対象として Standard Edition サーバーまたは フロント エンド プールを選択します。
+6.  <span data-ttu-id="1d0f7-130">[**名前**] ボックスで、既定のダイヤルプラン名をそのまま使うか、作成している連絡先オブジェクトの新しい表示名を入力します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-130">In the **Name** box, either accept the default dial plan name or type a new display name for the contact object that you are creating.</span></span>
     
-    > [!NOTE]  
-    > プールの場合は、できれば、エンタープライズ VoIP と Exchange UM を有効にしたユーザーを展開するプールと同じプールを選択します。
-
-
-9.  \[**電話番号**\] ボックスの一覧で、\[**電話番号の入力**\] または \[**Exchange UM からのこのパイロット番号を使用**\] をクリックし、電話番号を入力します。
-
-10. \[**連絡先の種類**\] ボックスの一覧で作成する連絡先の種類を選択し、\[**OK**\] をクリックします。
-
-11. ステップ 1. ～ 10. を繰り返し、必要に応じて、追加の連絡先オブジェクトを作成します。
+    <div>
     
+
     > [!NOTE]  
-    > 自動応答ごとに少なくとも 1 つの連絡先を作成してください。外部アクセスが必要な場合は、サブスクライバー アクセス連絡先が必要であり、DID (Direct Inward Dial) 番号を指定する必要があります。
+    > <span data-ttu-id="1d0f7-131">たとえば、サブスクライバーアクセスの contact オブジェクトを作成する場合は、"サブスクライバーアクセス" という名前を付けるだけです。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-131">For example, if you are creating a subscriber access contact object, you might simply name it Subscriber Access.</span></span>
 
+    
+    </div>
 
-連絡先オブジェクトが作成されていることを確認するには、Active Directory ユーザーとコンピューターを開き、オブジェクトを作成した OU を選択します。作成したオブジェクトが詳細ウィンドウに表示されます。
+7.  <span data-ttu-id="1d0f7-132">[ **Sip アドレス**] ボックスに、既定の sip アドレスをそのまま使うか、新しい sip アドレスを入力します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-132">In the **SIP Address** box, either accept the default SIP address or type a new SIP address.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="1d0f7-133">新しい SIP アドレスを入力する場合は、 <STRONG>sip</STRONG>で始める必要があります (つまり、コロンを含む "sip:")。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-133">If you type a new SIP address, it must begin with <STRONG>SIP:</STRONG> (that is, "SIP:" including the colon).</span></span>
+
+    
+    </div>
+
+8.  <span data-ttu-id="1d0f7-134">[**サーバーまたはプール**] ボックスの一覧で、連絡先オブジェクトを有効にする標準エディションサーバーまたはフロントエンドプールを選択します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-134">In the **Server or Pool** list, select the Standard Edition server or Front End pool in which the contact object is to be enabled.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="1d0f7-135">可能であれば、選択したプールは、エンタープライズボイスと Exchange UM が有効になっているユーザーが展開する1つのプールである必要があります。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-135">Preferably, the pool you select is the same one pool where users enabled for Enterprise Voice and Exchange UM are deployed.</span></span>
+
+    
+    </div>
+
+9.  <span data-ttu-id="1d0f7-136">[**電話番号**] ボックスの一覧で、[**電話番号を入力**するか、 **Exchange UM からこのパイロット番号を使用する**] を選択し、電話番号を入力します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-136">In the **Phone Number** list, select either **Enter phone number** or **Use this pilot number from Exchange UM** and then enter a phone number.</span></span>
+
+10. <span data-ttu-id="1d0f7-137">[**連絡先の種類**] ボックスの一覧で、作成する連絡先の種類を選び、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-137">In the **Contact Type** list, select the contact type that you want to create, and then click **OK**.</span></span>
+
+11. <span data-ttu-id="1d0f7-138">作成する追加の連絡先オブジェクトについて、手順 1 ~ 10 を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-138">Repeat steps 1 through 10 for additional contact objects that you want to create.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="1d0f7-139">自動応答ごとに、少なくとも1つの連絡先を作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-139">You should create at least one contact for each auto attendant.</span></span> <span data-ttu-id="1d0f7-140">外部アクセスが必要な場合は、サブスクライバーへのアクセスにもサブスクライバーへのアクセスが必要です。また、直接の内側ダイヤル (DID) 番号を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-140">If you want external access, you also need a Subscriber Access contact and to specify Direct Inward Dial (DID) numbers.</span></span>
+
+    
+    </div>
+
+</div>
+
+<span data-ttu-id="1d0f7-141">連絡先オブジェクトが作成されたことを確認するには、[Active Directory ユーザーとコンピューター] を開き、オブジェクトが作成された OU を選択します。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-141">To verify that the contact objects have been created, open Active Directory Users and Computers and select the OU in which the objects were created.</span></span> <span data-ttu-id="1d0f7-142">連絡先オブジェクトが詳細ウィンドウに表示されます。</span><span class="sxs-lookup"><span data-stu-id="1d0f7-142">The contact objects should appear in the details pane.</span></span>
+
+<span data-ttu-id="1d0f7-143"></div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</span><span class="sxs-lookup"><span data-stu-id="1d0f7-143"></span></span></div>
+

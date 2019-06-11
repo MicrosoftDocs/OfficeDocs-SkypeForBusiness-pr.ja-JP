@@ -1,35 +1,69 @@
-﻿---
-title: 'Lync Server 2013: アナウンス アプリケーションで使用されるコンポーネント'
-TOCTitle: アナウンス アプリケーションで使用されるコンポーネント
-ms:assetid: 7b1a0281-cf31-459d-a734-5f10a129089c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398608(v=OCS.15)
-ms:contentKeyID: 48272608
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: アナウンス アプリケーションで使用されるコンポーネント'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components used by the Announcement application
+ms:assetid: 7b1a0281-cf31-459d-a734-5f10a129089c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398608(v=OCS.15)
+ms:contentKeyID: 48184595
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7e8e4a0fdfe0dcdd69a3f371aed338caf7f73348
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840501"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のアナウンス アプリケーションで使用されるコンポーネント
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-13_
+# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a><span data-ttu-id="8b4d9-102">Lync Server 2013 のアナウンス アプリケーションで使用されるコンポーネント</span><span class="sxs-lookup"><span data-stu-id="8b4d9-102">Components used by the Announcement application in Lync Server 2013</span></span>
 
-Lync Server 2013 では、アナウンス アプリケーションは 応答グループ アプリケーションのコンポーネントです。エンタープライズ VoIP を展開するときに、アナウンス アプリケーションは 応答グループ アプリケーションと共に自動的にインストールされてアクティブ化されます。ここでは、アナウンス アプリケーションをサポートするコンポーネントについて説明します。
+</div>
 
-## アナウンス アプリケーションのコンポーネント
+<div id="mainSection">
 
-次の Lync Server コンポーネントが アナウンス アプリケーションをサポートします。
+<div id="mainBody">
 
-  - **アプリケーション サービス**    アプリケーション サービスは、統合コミュニケーション アプリケーションを展開、ホスト、および管理するためのプラットフォームを提供します。アプリケーション サービスは、フロント エンド プールのすべてのフロントエンド サーバーおよびすべての Standard Edition サーバーに自動的にインストールされます。
+<span> </span>
 
-  - **応答グループ アプリケーション**    応答グループ アプリケーションは、アプリケーション サービスがホストする統合通信アプリケーションの 1 つです。割り当てられていない電話番号範囲がアナウンスにルーティングするように構成されている場合、その電話番号への呼び出しをルーティングするには 応答グループ アプリケーションが必要です (すべての範囲が Exchange ユニファイド メッセージング (UM) にルーティングするように構成されている場合は、応答グループ アプリケーションは必要ありません)。
+<span data-ttu-id="8b4d9-103">_**最終更新日:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="8b4d9-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
-  - **オーディオ ファイル**   オーディオ ファイルはアナウンスに使用されます。
+<span data-ttu-id="8b4d9-104">Lync Server 2013 では、アナウンスメントアプリケーションは応答グループアプリケーションのコンポーネントです。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-104">In Lync Server 2013, the Announcement application is a component of the Response Group application.</span></span> <span data-ttu-id="8b4d9-105">エンタープライズ Voip を展開すると、応答グループアプリケーションと共に、アナウンスメントアプリケーションが自動的にインストールされ、アクティブ化されます。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-105">When you deploy Enterprise Voice, the Announcement application is automatically installed and activated along with the Response Group application.</span></span> <span data-ttu-id="8b4d9-106">このセクションでは、アナウンスメントアプリケーションをサポートするコンポーネントについて説明します。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-106">This section describes the components that support the Announcement application.</span></span>
 
-  - **ファイル ストア**    アナウンス アプリケーションは、ファイル ストアを使用してオーディオ ファイルを保存します。
+<div>
 
-  - **Lync Server コントロール パネル**    Lync Server コントロール パネルを使用して割り当てられていない番号の表を構成できます。
+## <a name="announcement-application-components"></a><span data-ttu-id="8b4d9-107">アナウンスメントアプリケーションのコンポーネント</span><span class="sxs-lookup"><span data-stu-id="8b4d9-107">Announcement Application Components</span></span>
 
-  - **Lync Server 管理シェル**    Lync Server 管理シェル コマンドレットを使用して、アナウンス設定および割り当てられていない番号の表を構成できます。
+<span data-ttu-id="8b4d9-108">以下の Lync Server コンポーネントは、アナウンスメントアプリケーションをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-108">The following Lync Server components support the Announcement application:</span></span>
+
+  - <span data-ttu-id="8b4d9-109">**アプリケーションサービス**   アプリケーションサービスは、ユニファイドコミュニケーションアプリケーションを展開、ホスティング、および管理するためのプラットフォームを提供します。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-109">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications.</span></span> <span data-ttu-id="8b4d9-110">アプリケーションサービスは、フロントエンドプールのすべてのフロントエンドサーバーと、すべての Standard Edition サーバーに自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-110">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
+
+  - <span data-ttu-id="8b4d9-111">**応答グループ**   アプリケーション応答グループアプリケーションは、アプリケーションサービスによってホストされるユニファイドコミュニケーションアプリケーションの1つです。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-111">**Response Group application**   The Response Group application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="8b4d9-112">[割り当てられていない電話番号] の範囲がお知らせにルーティングするように構成されている場合は、電話番号への通話をルーティングするために応答グループアプリケーションが必要です。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-112">When an unassigned phone number range is configured to route to an announcement, the Response Group application is required to route the calls made to the phone number.</span></span> <span data-ttu-id="8b4d9-113">(応答グループアプリケーションは、すべての範囲が Exchange ユニファイドメッセージング (UM) にルーティングするように構成されている場合は必須ではありません)。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-113">(Response Group application is not required if all the ranges are configured to route to Exchange Unified Messaging (UM).)</span></span>
+
+  - <span data-ttu-id="8b4d9-114">\*\*\*\*   アナウンスメントにはオーディオファイルのオーディオファイルが使用されます。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-114">**Audio files**   Audio files are used for the announcements.</span></span>
+
+  - <span data-ttu-id="8b4d9-115">**ファイルストア**   アナウンスメントアプリケーションは、ファイルストアを使ってオーディオファイルを保存します。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-115">**File Store**   The Announcement application uses File Store to store its audio files.</span></span>
+
+  - <span data-ttu-id="8b4d9-116">**Lync server コントロールパネル**   lync server コントロールパネルを使用して、割り当てられていない番号テーブルを構成することができます。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-116">**Lync Server Control Panel**   You can use Lync Server Control Panel to configure the unassigned number table.</span></span>
+
+  - <span data-ttu-id="8b4d9-117">**Lync server 管理**   シェルコマンドレットを使用して、アナウンスメントの設定および未使用の番号テーブルを構成することができます。</span><span class="sxs-lookup"><span data-stu-id="8b4d9-117">**Lync Server Management Shell**   You can use Lync Server Management Shell cmdlets to configure Announcement settings and the unassigned number table.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

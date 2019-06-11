@@ -1,31 +1,71 @@
-﻿---
-title: ベスト プラクティス アナライザーの更新の確認
-TOCTitle: ベスト プラクティス アナライザーの更新の確認
-ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204645(v=OCS.15)
-ms:contentKeyID: 48271158
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ベストプラクティスアナライザーの更新を確認する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Checking for updates to Best Practices Analyzer
+ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204645(v=OCS.15)
+ms:contentKeyID: 48183307
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6a52aec0748bb5e96de0b3e6dafae4e05ddf9c15
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840570"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ベスト プラクティス アナライザーの更新の確認
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="82678-102">Lync Server 2013 でのベストプラクティスアナライザーの更新プログラムを確認する</span><span class="sxs-lookup"><span data-stu-id="82678-102">Checking for updates to Best Practices Analyzer in Lync Server 2013</span></span>
 
-Best Practices Analyzer を起動すると、このツールに対する最新の更新プログラムを検索するオプションが提示されます。利用できる更新プログラムがあれば、ダウンロードできます。更新プログラムをダウンロードしなかった場合や、Best Practices Analyzer がインターネットにアクセスできない場合は、既にコンピューター上にあるバージョンを引き続き使用できます。
+</div>
 
-> [!NOTE]
-> インターネットにアクセスするためにプロキシ認証が必要な場合、Best Practices Analyzer はダウンロード対象の新しい更新プログラムにアクセスできません。ただし、最新バージョンの RtcBPA.msi は、Microsoft ダウンロード センター (<a href="http://go.microsoft.com/fwlink/?linkid=266539%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=266539&amp;clcid=0x411</a>) から手動でダウンロードできます。ダウンロードした .msi ファイルは、Best Practices Analyzer を更新するコンピューターにコピーし、新しいバージョンのツールをそのコンピューターにインストールするために使用できます。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="82678-103">_**最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="82678-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="82678-104">ベストプラクティスアナライザーを開始すると、ツールの最新の更新プログラムを検索するオプションが表示されます。</span><span class="sxs-lookup"><span data-stu-id="82678-104">When you start Best Practices Analyzer, the tool provides you with an option to search for the latest updates to the tool.</span></span> <span data-ttu-id="82678-105">更新プログラムが入手可能な場合は、更新プログラムをダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="82678-105">If an update is available, you can download the update.</span></span> <span data-ttu-id="82678-106">更新プログラムをダウンロードしないようにした場合、またはベストプラクティスアナライザーがインターネットにアクセスできない場合は、コンピューターに既に存在するバージョンを引き続き使用できます。</span><span class="sxs-lookup"><span data-stu-id="82678-106">If you choose not to download updates, or if Best Practices Analyzer cannot access the Internet, you can continue to use the version that is already on the computer.</span></span>
+
+<div>
 
 
-Best Practices Analyzer ルールを更新するには、ローカル コンピューター上でこのツールを管理者として実行する必要があります。管理者グループのメンバーであるアカウントを使用してログオンしていないときに更新プログラムが検出された場合は、Best Practices Analyzer をいったん閉じたうえで、以下の手順に従ってプログラムを起動します。
+> [!NOTE]  
+> <span data-ttu-id="82678-107">インターネットにアクセスするためにプロキシ認証が必要な場合は、ベストプラクティスアナライザーでダウンロードできる新しい更新プログラムにアクセスすることはできません。</span><span class="sxs-lookup"><span data-stu-id="82678-107">If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download.</span></span> <span data-ttu-id="82678-108">ただし、Microsoft ダウンロードセンターから最新バージョンの RtcBPA .msi を手動でダウンロードすることができ<A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>ます。</span><span class="sxs-lookup"><span data-stu-id="82678-108">However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>.</span></span> <span data-ttu-id="82678-109">ファイルをダウンロードした後、ベストプラクティスアナライザーを更新するコンピューターにファイルをコピーし、.msi ファイルを使用してそのコンピューターに新しいバージョンのツールをインストールすることができます。</span><span class="sxs-lookup"><span data-stu-id="82678-109">After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.</span></span>
 
-## 更新プログラムの有無を確認するために Best Practices Analyzer を管理者として開くには
 
-1.  Best Practices Analyzer がインストールされているコンピューターで、\[**スタート**\] メニューをクリックし、\[**Microsoft Lync Server 2013**\] をポイントして \[**Best Practices Analyzer**\] を右クリックしたうえで、\[**管理者として実行**\] をクリックします。
 
-2.  管理者グループのメンバーであるアカウントの資格情報を指定します。
+</div>
+
+<span data-ttu-id="82678-110">ベストプラクティスアナライザーの規則を更新するには、ローカルコンピューターの管理者としてツールを実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="82678-110">To update Best Practices Analyzer rules, you must run the tool as an Administrator on the local computer.</span></span> <span data-ttu-id="82678-111">管理者グループのメンバーであるアカウントを使用してログオンしておらず、更新が検出された場合は、ベストプラクティスアナライザーを終了して、次の手順に従ってプログラムを起動します。</span><span class="sxs-lookup"><span data-stu-id="82678-111">If you are not logged on using an account that is a member of the Administrators group and updates are detected, close Best Practices Analyzer, and then use the following procedure to start the program.</span></span>
+
+<div>
+
+## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a><span data-ttu-id="82678-112">更新プログラムを確認するために、管理者としてベストプラクティスアナライザーを開くには</span><span class="sxs-lookup"><span data-stu-id="82678-112">To open Best Practices Analyzer as Administrator to check for updates</span></span>
+
+1.  <span data-ttu-id="82678-113">ベストプラクティスアナライザーがインストールされているコンピューターで、[**スタート**] ボタンをクリックし、[ **Microsoft Lync Server 2013**] をポイントして、[**ベストプラクティスアナライザー**] を右クリックし、[**管理者として実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="82678-113">On a computer on which Best Practices Analyzer is installed, click **Start**, point to **Microsoft Lync Server 2013**, right-click **Best Practices Analyzer**, and then click **Run as administrator**.</span></span>
+
+2.  <span data-ttu-id="82678-114">管理者グループのメンバーであるアカウントの資格情報を指定します。</span><span class="sxs-lookup"><span data-stu-id="82678-114">Specify credentials of an account that is a member of the Administrators group.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

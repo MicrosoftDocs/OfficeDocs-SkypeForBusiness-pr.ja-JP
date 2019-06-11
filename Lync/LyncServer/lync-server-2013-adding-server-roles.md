@@ -1,29 +1,69 @@
-﻿---
-title: 'Lync Server 2013: サーバーの役割の追加'
-TOCTitle: サーバーの役割の追加
-ms:assetid: a8ff5f0b-50eb-43ff-941f-028e4383783c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg412794(v=OCS.15)
-ms:contentKeyID: 48273223
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: サーバーの役割の追加'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding server roles
+ms:assetid: a8ff5f0b-50eb-43ff-941f-028e4383783c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412794(v=OCS.15)
+ms:contentKeyID: 48185033
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3954fd59431341e917a3bf39dc9790d66cf56312
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840924"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのサーバーの役割の追加
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-06-19_
+# <a name="adding-server-roles-in-lync-server-2013"></a><span data-ttu-id="beeef-102">Lync Server 2013 でのサーバーの役割の追加</span><span class="sxs-lookup"><span data-stu-id="beeef-102">Adding server roles in Lync Server 2013</span></span>
 
-初期の展開が稼働するようになったら、 Lync Server 2013 に対して、他のサーバーの役割 ( ディレクター、スタンドアロン 仲介サーバーなど) を追加できます。
+</div>
 
-> [!NOTE]
-> サーバーの役割を追加インストールするタスクを実行する前に、各役割に関連する計画トピックを参照してください。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="beeef-103">_**最終更新日:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="beeef-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+
+<span data-ttu-id="beeef-104">最初の展開を開始して実行した後で、ディレクターやスタンドアロンの仲介サーバーなど、Lync Server 2013 用のサーバーの役割を追加できます。</span><span class="sxs-lookup"><span data-stu-id="beeef-104">After you have your initial deployment up and running, you can add additional server roles for Lync Server 2013, such as a Director or a stand-alone Mediation Server.</span></span>
+
+<div>
 
 
-## このセクション中
+> [!NOTE]  
+> <span data-ttu-id="beeef-105">追加のサーバーロールのインストールタスクを実行する前に、各ロールに関連する計画トピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="beeef-105">Before undertaking the task of installing additional server roles, see the Planning topics related to each role.</span></span>
 
-  - [Lync Server 2013 でのダイヤルイン会議の構成](lync-server-2013-configuring-dial-in-conferencing.md)
 
-さらに、 Lync Server 2013 で使用できるクライアント ソフトウェアおよびデバイスの展開の詳細については、「[Lync Server 2013 でのクライアントおよびデバイスの展開](lync-server-2013-deploying-clients-and-devices.md)」を参照してください。
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="beeef-106">このセクション中</span><span class="sxs-lookup"><span data-stu-id="beeef-106">In This Section</span></span>
+
+  - [<span data-ttu-id="beeef-107">Lync Server 2013 でのダイヤルイン会議の構成</span><span class="sxs-lookup"><span data-stu-id="beeef-107">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
+
+<span data-ttu-id="beeef-108">さらに、Lync Server 2013 で使用できるクライアントソフトウェアとデバイスの展開について詳しくは、「 [Lync server 2013 でのクライアントとデバイスの展開](lync-server-2013-deploying-clients-and-devices.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="beeef-108">Additionally, for details about the deployment of your client software and devices that can be used with Lync Server 2013, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

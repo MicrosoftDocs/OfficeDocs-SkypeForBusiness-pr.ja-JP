@@ -1,34 +1,68 @@
-﻿---
-title: Lync Server 2013 クライアントの展開
-TOCTitle: Lync Server 2013 クライアントの展開
-ms:assetid: 508e5dfa-588b-4289-81ce-2043c2d79e04
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204883(v=OCS.15)
-ms:contentKeyID: 48272064
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 クライアントを展開する
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploy Lync Server 2013 clients
+ms:assetid: 508e5dfa-588b-4289-81ce-2043c2d79e04
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204883(v=OCS.15)
+ms:contentKeyID: 48184100
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 659ec7be51358e73824c322461a3e27a163dc1bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840831"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 クライアントの展開
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-19_
+# <a name="deploy-lync-server-2013-clients"></a><span data-ttu-id="2d040-102">Lync Server 2013 クライアントを展開する</span><span class="sxs-lookup"><span data-stu-id="2d040-102">Deploy Lync Server 2013 clients</span></span>
 
-Lync Server 2013 にユーザーを移行した後で、次の操作を行います。
+</div>
 
-1.  新しい Lync Server 2013 サーバーでクライアント バージョン フィルターを使用して、最新の更新プログラムがインストールされているクライアントだけがサインインできるようにします。
+<div id="mainSection">
 
-2.  必要に応じて、クライアントのブートストラップに必要なグループ ポリシー設定を構成します。詳細については、「展開」のドキュメントの「[Lync Server 2013 でのクライアント ブートストラップ ポリシーの構成](lync-server-2013-configuring-client-bootstrapping-policies.md)」を参照してください。これらの設定の構成は、既存のクライアント ブートストラップ ポリシーを変更する場合、または新しいクライアント ブートストラップ ポリシーを設定する場合にのみ必要です。クライアント ブートストラップ ポリシーを構成する予定がない場合や、従来のクライアント ブートストラップ ポリシーをそのまま有効にしておく場合は、何もする必要はありません。
+<div id="mainBody">
 
-3.  Lync Server 2013 コントロール パネル、Lync Server 2013 管理シェル、またはこの両方を使用して、特定のユーザーまたはユーザー グループの他のユーザー ポリシーとクライアント ポリシーを構成します。詳細については、「計画」のドキュメントの「[Lync 2013 の新しい設定と変更された設定](lync-server-2013-new-and-changed-settings-for-lync-2013.md)」を参照してください。
+<span> </span>
 
-4.  最新バージョンの Lync Server 2013 クライアントを、最新の累積的な更新プログラムと共に展開します。詳細については、「展開」のドキュメントの「[Lync Server 2013 でのクライアントおよびデバイスの展開](lync-server-2013-deploying-clients-and-devices.md)」を参照してください。
+<span data-ttu-id="2d040-103">_**最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="2d040-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-5.  (省略可能) 組織で Lync Server 2013 の拡張プレゼンス プライバシー モードが必要な場合は、移行の完了後に、クライアント バージョン ポリシー ルールを定義して、以前のバージョンのクライアントがサインインできないようにします。その後、拡張プレゼンスのプライバシー モードを有効にします。
+<span data-ttu-id="2d040-104">ユーザーを Lync Server 2013 に移行した後で、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="2d040-104">After you migrate users to Lync Server 2013, do the following:</span></span>
+
+1.  <span data-ttu-id="2d040-105">新しい Lync Server 2013 サーバーでクライアントバージョンフィルターを使用して、最新の更新プログラムがインストールされているクライアントのみがサインインに参加できるようにします。</span><span class="sxs-lookup"><span data-stu-id="2d040-105">Use the Client Version Filter on the new Lync Server 2013 server to only allow clients with the most current updates installed to sign in.</span></span>
+
+2.  <span data-ttu-id="2d040-106">必要に応じて、クライアントブートストラップに必要なグループポリシー設定を構成します。</span><span class="sxs-lookup"><span data-stu-id="2d040-106">If necessary, configure the Group Policy settings that are required for client bootstrapping.</span></span> <span data-ttu-id="2d040-107">詳細については、展開ドキュメントの「 [Lync Server 2013 でのクライアントブートストラップポリシーの構成](lync-server-2013-configuring-client-bootstrapping-policies.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2d040-107">For details, see [Configuring client bootstrapping policies in Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) in the Deployment documentation.</span></span> <span data-ttu-id="2d040-108">これらの設定を構成する必要があるのは、既存のクライアントブートストラップポリシーを変更する場合、または新しいクライアントブートストラップポリシーを設定する場合のみです。</span><span class="sxs-lookup"><span data-stu-id="2d040-108">Configuration of these settings is only necessary if you want to change existing client bootstrapping policies or if you want to set new client bootstrapping policies.</span></span> <span data-ttu-id="2d040-109">クライアントブートストラップポリシーの構成を計画していない場合、またはレガシクライアントブートストラップポリシーを引き続き有効にする必要がある場合は、何もする必要はありません。</span><span class="sxs-lookup"><span data-stu-id="2d040-109">If you do not plan to configure client bootstrapping policies, or you want legacy client bootstrapping policies to remain in effect, no action is necessary.</span></span>
+
+3.  <span data-ttu-id="2d040-110">Lync Server 2013 コントロールパネル、Lync Server 2013 管理シェル、またはその両方を使用して、特定のユーザーまたはユーザーグループの他のユーザーとクライアントのポリシーを構成します。</span><span class="sxs-lookup"><span data-stu-id="2d040-110">Configure other user and client policies for specific users or groups of users by using Lync Server 2013 Control Panel, Lync Server 2013 Management Shell, or both.</span></span> <span data-ttu-id="2d040-111">詳細については、計画ドキュメントの「 [Lync 2013 の新しい設定と変更された設定](lync-server-2013-new-and-changed-settings-for-lync-2013.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2d040-111">For details, see [New and changed settings for Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md) in the Planning documentation.</span></span>
+
+4.  <span data-ttu-id="2d040-112">最新バージョンの Lync Server 2013 クライアントと最新の累積更新プログラムを展開します。</span><span class="sxs-lookup"><span data-stu-id="2d040-112">Deploy the latest version of Lync Server 2013 clients along with the latest cumulative updates.</span></span> <span data-ttu-id="2d040-113">詳細については、展開ドキュメントの「 [Lync Server 2013 でのクライアントとデバイスの展開](lync-server-2013-deploying-clients-and-devices.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2d040-113">For details, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) in the Deployment documentation.</span></span>
+
+5.  <span data-ttu-id="2d040-114">省略組織で Lync Server 2013 強化されたプレゼンスプライバシーモードが必要な場合は、移行が完了した後で、以前のバージョンのクライアントでサインインできないように、クライアントのバージョンポリシールールを定義します。</span><span class="sxs-lookup"><span data-stu-id="2d040-114">(Optional) If your organization requires Lync Server 2013 enhanced presence privacy mode, after migration is complete, define a Client Version Policy Rule to prevent earlier client versions from signing in.</span></span> <span data-ttu-id="2d040-115">次に、拡張プレゼンスプライバシーモードを有効にします。</span><span class="sxs-lookup"><span data-stu-id="2d040-115">Then, enable enhanced presence privacy mode.</span></span>
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Lync 2013 拡張プレゼンス プライバシー モードは、所定のサーバー プールのすべてのユーザーに最新のクライアント バージョンをインストールするまでは有効にしないでください。
+    > [!IMPORTANT]  
+    > <span data-ttu-id="2d040-116">特定のサーバープールのすべてのユーザーが最新のクライアントバージョンをインストールしているまで、Lync 2013 拡張プレゼンスプライバシーモードを有効にしないでください。</span><span class="sxs-lookup"><span data-stu-id="2d040-116">Do not enable Lync 2013 enhanced presence privacy mode until every user on a given server pool has the most current client versions installed.</span></span>
 
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

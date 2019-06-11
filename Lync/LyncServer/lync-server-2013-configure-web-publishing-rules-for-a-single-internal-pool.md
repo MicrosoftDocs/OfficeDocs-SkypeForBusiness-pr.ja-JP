@@ -1,224 +1,315 @@
-﻿---
-title: 'Lync Server 2013: 単一内部プールの Web 公開ルールの構成'
-TOCTitle: 単一内部プールの Web 公開ルールの構成
-ms:assetid: 86ff4b2a-1ba9-46a2-a175-8b19e00a49dd
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg429712(v=OCS.15)
-ms:contentKeyID: 48272732
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 単一内部プールの Web 公開ルールの構成'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure web publishing rules for a single internal pool
+ms:assetid: 86ff4b2a-1ba9-46a2-a175-8b19e00a49dd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429712(v=OCS.15)
+ms:contentKeyID: 48184725
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6ffe61072df14e28c20c45eb72302905986c6357
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840335"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 での単一内部プールの Web 公開ルールの構成
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a><span data-ttu-id="28b84-102">Lync Server 2013 での単一内部プールの Web 公開ルールの構成</span><span class="sxs-lookup"><span data-stu-id="28b84-102">Configure web publishing rules for a single internal pool in Lync Server 2013</span></span>
 
-Microsoft Forefront Threat Management Gateway 2010 および Internet Information Server のアプリケーション要求ルーティング処理 (IIS ARR) では Web 公開ルールを使用して、ミーティング URL などの内部リソースをインターネット上のユーザーに公開します。
+</div>
 
-仮想ディレクトリの Web サービス URL のほかに、簡易 URL、LyncDiscover URL、Office Web Apps サーバーの公開ルールも作成する必要があります。簡易 URL ごとに、その簡易 URL をポイントするリバース プロキシ上に個々のルールを作成する必要があります。
+<div id="mainSection">
 
-モビリティを展開し、自動検出を使用する場合、自動検出サービスの外部 URL に対して公開ルールを作成する必要があります。自動検出では、 ディレクター プールおよび フロント エンド プールの外部 Lync Server Web サービス URL に対する公開ルールも必要です。自動検出の Web 公開ルールを作成する方法の詳細については、「[Lync Server 2013 での、モビリティに合わせたリバース プロキシの構成](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)」を参照してください。
+<div id="mainBody">
 
-Web 公開ルールを作成するには、以下の手順を使用してください。
+<span> </span>
 
-> [!NOTE]
-> これらの手順では、Forefront Threat Management Gateway (TMG) 2010 の Standard Edition がインストール済みであること、または Internet Information Server とアプリケーション要求ルーティング処理 (IIS ARR) 拡張がインストールおよび構成済みであることが前提です。TMG または IIS ARR のどちらかを使用します。
+<span data-ttu-id="28b84-103">_**最終更新日:** 2014-07-07_</span><span class="sxs-lookup"><span data-stu-id="28b84-103">_**Topic Last Modified:** 2014-07-07_</span></span>
+
+<span data-ttu-id="28b84-104">Microsoft Forefront Threat Management Gateway 2010 and Internet Information Server アプリケーション要求ルーティング (IIS ARR) では、web 発行ルールを使用して、会議 URL などの内部リソースをインターネット上のユーザーに公開します。</span><span class="sxs-lookup"><span data-stu-id="28b84-104">Microsoft Forefront Threat Management Gateway 2010 and Internet Information Server Application Request Routing (IIS ARR) uses web publishing rules to publish internal resources, such as a meeting URL, to users on the Internet.</span></span>
+
+<span data-ttu-id="28b84-105">仮想ディレクトリの Web サービスの Url に加えて、単純な Url、LyncDiscover URL、Office Web Apps サーバーの公開ルールも作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-105">In addition to the Web Services URLs for the virtual directories, you must also create publishing rules for simple URLs, the LyncDiscover URL, and the Office Web Apps Server.</span></span> <span data-ttu-id="28b84-106">各単純 URL について、その単純な URL を参照する個別のルールを逆プロキシに作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-106">For each simple URL, you must create an individual rule on the reverse proxy that points to that simple URL.</span></span>
+
+<span data-ttu-id="28b84-107">モビリティを展開し、自動検出を使用している場合は、外部自動検出サービス URL 用の公開ルールを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-107">If you are deploying mobility and using automatic discovery, you need to create a publishing rule for the external Autodiscover Service URL.</span></span> <span data-ttu-id="28b84-108">自動検出では、ディレクタープールとフロントエンドプールの外部 Lync Server Web サービス URL に対する公開ルールも必要となります。</span><span class="sxs-lookup"><span data-stu-id="28b84-108">Automatic discovery also requires publishing rules for the external Lync Server Web Services URL for your Director pool and Front End pool.</span></span> <span data-ttu-id="28b84-109">自動検出用の web 公開ルールの作成について詳しくは、「 [Lync Server 2013 でのモビリティのリバースプロキシの構成](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="28b84-109">For details about creating the web publishing rules for automatic discovery, see [Configuring the reverse proxy for mobility in Lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md).</span></span>
+
+<span data-ttu-id="28b84-110">Web 公開ルールを作成するには、次の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="28b84-110">Use the following procedures to create web publishing rules.</span></span>
+
+<div>
 
 
-## TMG 2010 を実行するコンピューターで Web サーバー公開ルールを作成するには
+> [!NOTE]  
+> <span data-ttu-id="28b84-111">次の手順では、標準エディションの Forefront Threat Management Gateway (TMG) 2010 をインストールしているか、アプリケーション要求ルーティング (IIS ARR) 拡張機能を使用してインターネットインフォメーションサーバーをインストールして構成していることを前提としています。</span><span class="sxs-lookup"><span data-stu-id="28b84-111">These procedures assume that you have installed the Standard Edition of Forefront Threat Management Gateway (TMG) 2010 or have installed and configured Internet Information Server with the Application request Routing (IIS ARR) extension.</span></span> <span data-ttu-id="28b84-112">TMG または IIS のいずれかの ARR を使用します。</span><span class="sxs-lookup"><span data-stu-id="28b84-112">You use either TMG or IIS ARR.</span></span>
 
-1.  \[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\] を選択します。次に、\[**Microsoft Forefront TMG**\] を選択し、\[**Forefront TMG Management**\] をクリックします。
 
-2.  左側のウィンドウで、\[**サーバー名**\] を展開し、\[**ファイアウォール ポリシー**\] を右クリックします。次に、\[**新規作成**\] を選択し、\[**Web サイト公開ルール**\] をクリックします。
 
-3.  \[**新しい Web 公開ルール ウィザードへようこそ**\] ページで、公開ルールの表示名 (LyncServerWebDownloadsRule など) を入力します。
+</div>
 
-4.  \[**ルール動作の選択**\] ページで \[**許可**\] を選択します。
+<div>
 
-5.  \[**公開の種類**\] ページで、\[**1 つの Web サイトまたはロード バランサーを公開する**\] をクリックします。
+## <a name="to-create-a-web-server-publishing-rule-on-the-computer-running-tmg-2010"></a><span data-ttu-id="28b84-113">TMG 2010 を実行しているコンピューターで web サーバーの公開ルールを作成するには</span><span class="sxs-lookup"><span data-stu-id="28b84-113">To create a web server publishing rule on the computer running TMG 2010</span></span>
 
-6.  \[**サーバー接続セキュリティ**\] ページで、\[**公開された Web サーバーまたはサーバー ファームへの接続に SSL を使用する**\] をクリックします。
+1.  <span data-ttu-id="28b84-114">[**スタート**] をクリックし、[**プログラム**]、[ **Microsoft Forefront TMG**]、[ **forefront tmg 管理**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-114">Click **Start**, select **Programs**, select **Microsoft Forefront TMG**, and then click **Forefront TMG Management**.</span></span>
 
-7.  \[**内部公開の詳細**\] ページの \[**内部サイト名**\] ボックスに、会議コンテンツとアドレス帳コンテンツをホストする内部 Web ファームの完全修飾ドメイン名 (FQDN) を入力します。
+2.  <span data-ttu-id="28b84-115">左側のウィンドウで、[ **ServerName**] を展開して、[**ファイアウォールポリシー**] を右クリックし、[**新規作成**]、[ **Web サイト発行ルール**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-115">In the left pane, expand **ServerName**, right-click **Firewall Policy**, select **New**, and then click **Web Site Publishing Rule**.</span></span>
+
+3.  <span data-ttu-id="28b84-116">[**新しい Web 公開ルールへようこそ**] ページで、公開ルールの表示名 (たとえば、LyncServerWebDownloadsRule) を入力します。</span><span class="sxs-lookup"><span data-stu-id="28b84-116">On the **Welcome to the New Web Publishing Rule** page, type a display name for the publishing rule (for example, LyncServerWebDownloadsRule).</span></span>
+
+4.  <span data-ttu-id="28b84-117">**[ルールアクションの選択**] ページで、[**許可**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="28b84-117">On the **Select Rule Action** page, select **Allow**.</span></span>
+
+5.  <span data-ttu-id="28b84-118">[**発行の種類**] ページで、[**単一の Web サイトまたはロードバランサーを発行する**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="28b84-118">On the **Publishing Type** page, select **Publish a single Web site or load balancer**.</span></span>
+
+6.  <span data-ttu-id="28b84-119">[**サーバー接続セキュリティ**] ページで、[ **SSL を使用して公開された Web サーバーまたはサーバーファームに接続する**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="28b84-119">On the **Server Connection Security** page, select **Use SSL to connect to the published Web server or server farm**.</span></span>
+
+7.  <span data-ttu-id="28b84-120">[**内部発行の詳細**] ページで、会議コンテンツとアドレス帳のコンテンツをホストする内部 web ファームの完全修飾ドメイン名 (FQDN) を [**内部サイト名**] ボックスに入力します。</span><span class="sxs-lookup"><span data-stu-id="28b84-120">On the **Internal Publishing Details** page, type the fully qualified domain name (FQDN) of the internal web farm that hosts your meeting content and Address Book content in the **Internal Site name** box.</span></span>
     
-    > [!NOTE]
-    > 内部サーバーが Standard Edition サーバーの場合、この FQDN は Standard Edition サーバーの FQDN です。内部サーバーがフロントエンド プールの場合、この FQDN は内部 Web ファーム サーバーを負荷分散するハードウェア ロード バランサーの仮想 IP (VIP) です。TMG サーバーでは、FQDN を内部 Web サーバーの IP アドレスに解決できる必要があります。TMG サーバーで FQDN を適切な IP アドレスに解決できない場合は、[<strong>コンピューター名または IP アドレスを使用して、公開されたサーバーに接続する</strong>] チェック ボックスをオンにし、[<strong>コンピューター名またはIP アドレス</strong>] ボックスに内部 Web サーバーの IP アドレスを入力できます。その場合は、ポート 53 が TMG サーバー上で開いていること、および境界ネットワーク内にある DNS サーバーに接続できることを確認する必要があります。また、ローカル ホスト ファイル内のエントリを使用して、名前解決を行うこともできます。
-
-
-8.  \[**内部公開の詳細**\] ページの \[**パス (省略可)**\] ボックスに、公開するフォルダーのパスとして「**/\*** 」と入力します。
-    
-    > [!NOTE]
-    > Web サイトの公開ウィザードで指定できるパスは 1 つだけです。ルールのプロパティを変更すると、パスを追加できます。
-
-
-9.  \[**パブリック名の詳細**\] ページの \[**要求の許可**\] で、\[**次に入力したドメイン名**\] が選択されていることを確認して、外部 Web サービス FQDN を \[**公開名**\] ボックスに入力します。
-
-10. \[**Web リスナーの選択**\] ページで \[**新規作成**\] をクリックして、新しい Web リスナーの定義ウィザードを開きます。
-
-11. \[**新しい Web リスナー ウィザードの開始**\] ページの \[**Web リスナー名**\] ボックスに Web リスナーの名前 (たとえば、LyncServerWebServers) を入力します。
-
-12. \[**クライアント接続セキュリティ**\] ページで、\[**クライアントとの SSL セキュリティ保護接続を必要とする**\] を選択します。
-
-13. \[**Web リスナーの IP アドレス**\] ページで、\[**外部**\] をクリックし、\[**IP アドレスの選択**\] をクリックします。
-
-14. \[**外部リスナーの IP の選択**\] ページで、\[**選択したネットワークの Forefront TMG コンピューターの指定した IP アドレス**\] を選択して適切な IP アドレスを選び、\[**追加**\] をクリックします。
-
-15. \[**リスナーの SSL 証明書**\] ページで、\[**IP アドレスごとに証明書を割り当てる**\] をクリックします。次に、外部 Web FQDN に関連付けられた IP アドレスを選択し、\[**証明書の選択**\] をクリックします。
-
-16. \[**証明書の選択**\] ページで、ステップ 9 で指定したパブリック名に対応する証明書を選択し、\[**選択**\] をクリックします。
-
-17. \[**認証の設定**\] ページで \[**認証なし**\] を選択します。
-
-18. \[**シングル サインオンの設定**\] ページで、\[**次へ**\] をクリックします。
-
-19. \[**新しい Web リスナー ウィザードの完了**\] ページで、\[**Web リスナー**\] の設定が正しいことを確認し、\[**完了**\] をクリックします。
-
-20. \[**認証の委任**\] ページで \[**委任できません。クライアントは直接認証できます**\] を選択します。
-
-21. \[**ユーザー セット**\] ページで、\[**次へ**\] をクリックします。
-
-22. \[**新しい Web 公開ルール ウィザードの完了**\] ページで、Web 公開ルールの設定が正しいことを確認し、\[**完了**\] をクリックします。
-
-23. 詳細ウィンドウで \[**適用**\] をクリックして変更を保存し、構成を更新します。
-
-## IIS ARR を実行するコンピューターで Web サーバー公開ルールを作成するには
-
-1.  リバース プロキシに使用する証明書を HTTPS プロトコルにバインドします。\[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\] を選びます。次に、\[**管理ツール**\] を選び、\[**インターネット インフォメーション サービス (IIS) マネージャー**\] をクリックします。
-    
-    > [!NOTE]
-    > その他のヘルプ、スクリーン ショット、IIS ARR の展開と構成のガイダンスについては、NextHop の記事「<a href="http://go.microsoft.com/fwlink/?linkid=293391">Using IIS ARR as a Reverse Proxy for Lync Server 2013</a>」を参照してください。
-
-
-2.  リバース プロキシに使用する証明書をインポートします (まだインポートしていない場合)。**インターネット インフォメーション サービス (IIS) マネージャー**のコンソールの左側でリバース プロキシ サーバー名をクリックします。コンソールの中央の \[**IIS**\] の下で、\[**サーバー証明書**\] を見つけます。\[**サーバー証明書**\] を右クリックし、\[**機能を開く**\] を選びます。
-
-3.  コンソールの右側で、\[**インポート...**\] をクリックします。証明書のパスとファイル名を拡張子付きで入力します。または、\[**...**\] をクリックして、証明書を参照します。証明書を選び、\[**開く**\] をクリックします。秘密キーを保護するために使用するパスワードを指定します (証明書と秘密キーをエクスポートするときにパスワードを割り当てた場合)。\[**OK**\] をクリックします。証明書のインポートが成功すると、コンソールの中央にある \[**サーバー証明書**\] のエントリとしてその証明書が表示されます。
-
-4.  HTTPS で使用する証明書を割り当てます。コンソールの左側で、IIS サーバーの \[**Default Web Site**\] を選びます。右側にある \[**バインド...**\] をクリックします。\[**サイト バインド**\] ダイアログで、\[**追加...**\] をクリックします。\[**サイト バインドの追加**\] ダイアログの \[**種類:**\] で、\[**https**\] を選びます。\[https\] を選ぶと、https に使用する証明書を選べるようになります。\[**SSL 証明書:**\] で、リバース プロキシ用にインポートした証明書を選びます。\[**OK**\] をクリックします。次に、\[**閉じる**\] をクリックします。これで、証明書が Secure Socket Layer (SSL) およびトランスポート層セキュリティ (TLS) のリバース プロキシにバインドされました。
+    <div>
     
 
-    > [!IMPORTANT]
-    > [サイト バインド] ダイアログを閉じるときに中間証明書が見つからないという警告が表示される場合は、公的 CA ルート証明機関の証明書およびすべての中間 CA 証明書を見つけてインポートする必要があります。手順については、証明書を要求した公的 CA にお問い合わせください。手順に従って証明書チェーンを要求し、インポートします。エッジ サーバーから証明書をエクスポートした場合は、エッジ サーバーに関連付けられているルート CA 証明書およびすべての中間 CA 証明書をエクスポートできます。ルート CA 証明書をコンピューター (ユーザー ストアと混同しないでください) の信頼されたルート証明機関ストアにインポートし、中間証明書をコンピューターの中間証明機関ストアにインポートします。
+    > [!NOTE]  
+    > <span data-ttu-id="28b84-121">内部サーバーが Standard Edition サーバーの場合、この FQDN は Standard Edition server FQDN です。</span><span class="sxs-lookup"><span data-stu-id="28b84-121">If your internal server is a Standard Edition server, this FQDN is the Standard Edition server FQDN.</span></span> <span data-ttu-id="28b84-122">内部サーバーがフロントエンドプールの場合、この FQDN は、内部の web ファームサーバーのバランスを読み込むハードウェアロードバランサー仮想 IP (VIP) です。</span><span class="sxs-lookup"><span data-stu-id="28b84-122">If your internal server is a Front End pool, this FQDN is a hardware load balancer virtual IP (VIP) that load balances the internal web farm servers.</span></span> <span data-ttu-id="28b84-123">TMG サーバーは、FQDN を内部 web サーバーの IP アドレスに解決できる必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-123">The TMG server must be able to resolve the FQDN to the IP address of the internal web server.</span></span> <span data-ttu-id="28b84-124">TMG サーバーが FQDN を適切な IP アドレスに解決できない場合は、[<STRONG>コンピューター名または ip アドレスを使用して公開されたサーバーに接続する</STRONG>] を選択し、[<STRONG>コンピューター名または</STRONG> <STRONG>ip アドレス</STRONG>] ボックスに、内部の w の IP アドレスを入力します。eb サーバー。</span><span class="sxs-lookup"><span data-stu-id="28b84-124">If the TMG server is not able to resolve the FQDN to the proper IP address, you can select <STRONG>Use a computer name or IP address to connect to the published server</STRONG>, and then in the <STRONG>Computer name or</STRONG> <STRONG>IP address</STRONG> box, type the IP address of the internal web server.</span></span> <span data-ttu-id="28b84-125">この操作を行う場合は、TMG サーバーでポート53が開かれていて、境界ネットワークに存在する DNS サーバーに到達できることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-125">If you do this, you must ensure that port 53 is open on the TMG server and that it can reach a DNS server that resides in the perimeter network.</span></span> <span data-ttu-id="28b84-126">また、ローカルの hosts ファイルのエントリを使って、名前の解決を提供することもできます。</span><span class="sxs-lookup"><span data-stu-id="28b84-126">You can also use entries in the local hosts file to provide name resolution.</span></span>
 
-
-
-5.  コンソールの左側で、IIS サーバー名の下にある \[**サーバー ファーム**\] を右クリックし、\[**サーバー ファームの作成...**\] をクリックします。
     
-    > [!NOTE]
-    > [<strong>サーバー ファーム</strong>] ノードが表示されない場合は、アプリケーション要求ルーティング処理をインストールする必要があります。詳細については、「<a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 のリバース プロキシ サーバーの設定</a>」を参照してください。
-    
-    \[**サーバー ファームの作成**\] ダイアログの \[**サーバー ファーム名**\] に、最初の URL の名前 (わかりやすく特定しやすい名前) を入力します。\[**次へ**\] をクリックします。
+    </div>
 
-6.  \[**サーバーの追加**\] ダイアログの \[**サーバー アドレス**\] に、フロント エンド サーバー上の外部 Web サービスの完全修飾ドメイン名 (FQDN) を入力します。ここで例示する名前は、リバース プロキシの計画に関するセクション ( [証明書の概要 - Lync Server 2013 リバース プロキシ](lync-server-2013-certificate-summary-reverse-proxy.md)) で使用する名前と同じです。リバース プロキシの計画の際に入力する FQDN は `webext.contoso.com` です。\[**オンライン**\] の横にあるチェック ボックスをオンにします。\[**追加**\] をクリックして、この構成用の Web サーバーのプールにサーバーを追加します。
+8.  <span data-ttu-id="28b84-127">[**内部発行の詳細**] ページの [ **Path (オプション)** ] ボックスに\*\* / \*\* 、公開するフォルダーのパスを入力します。</span><span class="sxs-lookup"><span data-stu-id="28b84-127">On the **Internal Publishing Details** page, in the **Path (optional)** box, type **/\*** as the path of the folder to be published.</span></span>
+    
+    <div>
     
 
-    > [!WARNING]
-    > Lync Server では、ロード バランサー機器を使用して、HTTP と HTTPS のトラフィック用の ディレクターおよび フロント エンド サーバーをプールします。IIS ARR サーバー ファームにサーバーを追加するときは FQDN を 1 つだけ指定します。この FQDN は、非プールのサーバー構成における フロント エンド サーバーまたは ディレクター、またはサーバー プール用に構成済みのロード バランサー機器の FQDN です。HTTP および HTTPS のトラフィックの負荷分散の方法としてサポートされているのは、ロード バランサー機器を使用する方法のみです。
+    > [!NOTE]  
+    > <span data-ttu-id="28b84-128">Web サイト発行ウィザードでは、1つのパスのみを指定できます。</span><span class="sxs-lookup"><span data-stu-id="28b84-128">In the website publishing wizard you can only specify one path.</span></span> <span data-ttu-id="28b84-129">追加のパスを追加するには、ルールのプロパティを変更します。</span><span class="sxs-lookup"><span data-stu-id="28b84-129">Additional paths can be added by modifying the properties of the rule.</span></span>
 
-
-
-7.  \[**サーバーの追加**\] ダイアログで、\[**詳細設定...**\] をクリックします。構成済みの FQDN に対する要求のアプリケーション要求ルーティング処理を定義するためのダイアログが表示されます。ここでは、IIS ARR が要求を処理するときに使用するポートを再定義します。
     
-    既定では、送信先の HTTP ポートを 8080 として定義する必要があります。\[次へ\] をクリックし、現在の **httpPort 80** の値を **8080** に設定します。\[次へ\] をクリックし、現在の **httpsPort 443** の値を **4443** に設定します。**weight** パラメーターは 100 のままにします。基準の統計情報があれば、必要に応じて特定のルールの重みを再定義できます。\[**終了**\] をクリックして、この部分のルール構成を完了します。
+    </div>
 
-8.  すべての着信要求を自動的にサーバー ファームにルーティングするための URL 書き換え規則を IIS マネージャーで作成できることを示す \[Rewrite Rules\] ダイアログが表示される場合があります。\[**Yes**\] をクリックします。規則を手動で調整します。ただし、\[Yes\] を選ぶと初期構成が設定されます。
+9.  <span data-ttu-id="28b84-130">[**パブリック名の詳細**] ページで、[**許可する要求**] で**このドメイン名**が選択されていることを確認し、[**パブリック名**] ボックスに外部 Web サービス FQDN を入力します。</span><span class="sxs-lookup"><span data-stu-id="28b84-130">On the **Public Name Details** page, confirm that **This domain name** is selected under **Accept Requests for**, type the external Web Services FQDN, in the **Public Name** box.</span></span>
 
-9.  作成したサーバー ファームの名前をクリックします。IIS マネージャーの機能ビューの \[**Server Farm**\] で、\[**Caching**\] をダブルクリックします。\[**Enable disk cache**\] の選択を解除します。右側にある \[**Apply**\] をクリックします。
+10. <span data-ttu-id="28b84-131">[ **Web リスナーの選択**] ページで [**新規**] をクリックして、新しい Web リスナー定義ウィザードを開きます。</span><span class="sxs-lookup"><span data-stu-id="28b84-131">On **Select Web Listener** page, click **New** to open the New Web Listener Definition Wizard.</span></span>
 
-10. サーバー ファームの名前をクリックします。IIS マネージャーの機能ビューの \[**Server Farm**\] で、\[**Routing Rules**\] をダブルクリックします。\[Routing Rules\] ダイアログの \[Routing\] で、\[Enable SSL offloading\] の横にあるチェック ボックスをオフにします。このチェック ボックスをオフにできない場合は、\[**Use URL Rewrite to inspect incoming requests**\] チェック ボックスをオンにします。\[**Apply**\] をクリックして、変更内容を保存します。
+11. <span data-ttu-id="28b84-132">[**新しい Web リスナーウィザードへようこそ**] ページで、[web**リスナー名**] ボックスに web リスナーの名前を入力します (たとえば、LyncServerWebServers)。</span><span class="sxs-lookup"><span data-stu-id="28b84-132">On the **Welcome to the New Web Listener Wizard** page, type a name for the web listener in the **Web listener name** box (for example, LyncServerWebServers).</span></span>
+
+12. <span data-ttu-id="28b84-133">[**クライアント接続セキュリティ**] ページで、[**クライアントとの SSL セキュリティで保護された接続を要求する**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="28b84-133">On the **Client Connection Security** page, select **Require SSL secured connections with clients**.</span></span>
+
+13. <span data-ttu-id="28b84-134">[ **Web リスナー IP アドレス**] ページで、[**外部**] を選択し、[ **IP アドレスの選択**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-134">On the **Web Listener IP Address** page, select **External**, and then click **Select IP Addresses**.</span></span>
+
+14. <span data-ttu-id="28b84-135">[**外部リスナー IP 選択**] ページで、**選択したネットワークの Forefront TMG コンピューターで、[指定した ip アドレス**] を選択し、適切な ip アドレスを選択して、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-135">On the **External Listener IP selection** page, select **Specified IP address on the Forefront TMG computer in the selected network**, select the appropriate IP address, click **Add**.</span></span>
+
+15. <span data-ttu-id="28b84-136">[**リスナー SSL 証明書**] ページで、[**各 IP アドレスに対して証明書を割り当てる**] を選択し、外部 web FQDN に関連付けられている IP アドレスを選択して、[**証明書の選択**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-136">On the **Listener SSL Certificates** page, select **Assign a certificate for each IP address**, select the IP address that is associated with the external web FQDN, and then click **Select Certificate**.</span></span>
+
+16. <span data-ttu-id="28b84-137">[**証明書の選択**] ページで、手順9で指定したパブリック名と一致する証明書を選択し、[**選択**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-137">On the **Select Certificate** page, select the certificate that matches the public names specified in step 9, click **Select**.</span></span>
+
+17. <span data-ttu-id="28b84-138">[**認証の設定**] ページで、[**認証なし**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="28b84-138">On the **Authentication Setting** page, select **No Authentication**.</span></span>
+
+18. <span data-ttu-id="28b84-139">[**シングルサインオンの設定**] ページで、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-139">On the **Single Sign On Setting** page, click **Next**.</span></span>
+
+19. <span data-ttu-id="28b84-140">[ **Web リスナーウィザードの完了**] ページで、 **web リスナー**の設定が正しいことを確認し、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-140">On the **Completing the Web Listener Wizard** page, verify that the **Web listener** settings are correct, and then click **Finish**.</span></span>
+
+20. <span data-ttu-id="28b84-141">[**認証の委任**] ページで、[委任しない] を選択します。クライアントは、直接認証を行う**ことができ**ます。</span><span class="sxs-lookup"><span data-stu-id="28b84-141">On the **Authentication Delegation** page, select **No delegation, but client may authenticate directly**.</span></span>
+
+21. <span data-ttu-id="28b84-142">[**ユーザー設定**] ページで、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-142">On the **User Set** page, click **Next**.</span></span>
+
+22. <span data-ttu-id="28b84-143">[**新しい Web 公開ルールウィザードの完了**] ページで、web 公開ルールの設定が正しいことを確認し、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-143">On the **Completing the New Web Publishing Rule Wizard** page, verify that the web publishing rule settings are correct, and then click **Finish**.</span></span>
+
+23. <span data-ttu-id="28b84-144">[詳細] ウィンドウの [**適用**] をクリックして、変更を保存し、構成を更新します。</span><span class="sxs-lookup"><span data-stu-id="28b84-144">Click **Apply** in the details pane to save the changes and update the configuration.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-create-a-web-server-publishing-rule-on-the-computer-running-iis-arr"></a><span data-ttu-id="28b84-145">IIS ARR を実行しているコンピューターで web サーバーの公開ルールを作成するには</span><span class="sxs-lookup"><span data-stu-id="28b84-145">To create a web server publishing rule on the computer running IIS ARR</span></span>
+
+1.  <span data-ttu-id="28b84-146">リバースプロキシに使用する証明書を HTTPS プロトコルにバインドします。</span><span class="sxs-lookup"><span data-stu-id="28b84-146">Bind the certificate that you will use for the reverse proxy to the HTTPS protocol.</span></span> <span data-ttu-id="28b84-147">[**スタート**] をクリックし、[**プログラム**]、[**管理ツール**]、[**インターネットインフォメーションサービス (IIS) マネージャー**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-147">Click **Start**, select **Programs**, select **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.</span></span>
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > プロキシのタイムアウト値は、展開ごとに異なります。展開を監視して、クライアントで最適になるように値を変更する必要があります。値は、最低で 200 に設定できます。環境で Lync モバイル クライアントをサポートしている場合、タイムアウト値が 900 である Office 365 からのプッシュ通知のタイムアウトを許可するには、値を 960 に設定する必要があります。タイムアウト値が小さすぎる場合は、値を大きくして、クライアントが切断されないようにする必要があります。また、プロキシ経由の接続が切断されず、クライアントの切断後しばらくしてからクリアされる場合は、値を小さくします。この値に適した設定を正確に判断する唯一の手段は、使用する環境で正常な状態を監視し、基準を指定することです。
+    > [!NOTE]  
+    > <span data-ttu-id="28b84-148">IIS の展開と構成に関する追加のヘルプ、スクリーンショット、およびガイダンスについては、「NextHop の記事」で、「 <A href="http://go.microsoft.com/fwlink/?linkid=293391">Lync Server 2013 のリバースプロキシとして Iis を使用する</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="28b84-148">Additional help, screen shots and guidance on deploying and configuring IIS ARR can be found in the NextHop article <A href="http://go.microsoft.com/fwlink/?linkid=293391">Using IIS ARR as a Reverse Proxy for Lync Server 2013</A>.</span></span>
 
+    
+    </div>
 
+2.  <span data-ttu-id="28b84-149">リバースプロキシに使用する証明書をまだインポートしていない場合は、インポートします。</span><span class="sxs-lookup"><span data-stu-id="28b84-149">If you have not already done so, import the certificate that you will use for the reverse proxy.</span></span> <span data-ttu-id="28b84-150">**インターネットインフォメーションサービス (IIS) マネージャー**で、本体の左側のサイズにある逆プロキシサーバー名をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-150">In **Internet Information Services (IIS) Manager**, click the reverse proxy server name on the left-hand size of the console.</span></span> <span data-ttu-id="28b84-151">[ **IIS** ] のコンソールの中央にある [**サーバー証明書**] を探します。</span><span class="sxs-lookup"><span data-stu-id="28b84-151">In the middle of the console under **IIS** locate **Server Certificates**.</span></span> <span data-ttu-id="28b84-152">[**サーバー証明書**] を右クリックし、[**機能を開く**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="28b84-152">Right-click **Server Certificates** and select **Open feature**.</span></span>
 
-11. サーバー ファームの名前をクリックします。IIS マネージャーの機能ビューの \[**Server Farm**\] で、\[**Routing Rules**\] をダブルクリックします。\[Routing Rules\] ダイアログの \[Routing\] で、\[Enable SSL offloading\] の横にあるチェック ボックスをオフにします。このチェック ボックスをオフにできない場合は、\[**Use URL Rewrite to inspect incoming requests**\] チェック ボックスをオンにします。\[**Apply**\] をクリックして、変更内容を保存します。
+3.  <span data-ttu-id="28b84-153">コンソールの右側で、[**インポート.**..] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-153">On the right hand side of the console, click **Import…**.</span></span> <span data-ttu-id="28b84-154">拡張子を持つ証明書のパスとファイル名を入力するか、[.. **.** ] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-154">Type the path and filename of the certificate with the extension, or click **…**</span></span> <span data-ttu-id="28b84-155">を選び、証明書を参照します。</span><span class="sxs-lookup"><span data-stu-id="28b84-155">to browse for the certificate.</span></span> <span data-ttu-id="28b84-156">証明書を選択し、[**開く**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-156">Select the certificate and click **Open**.</span></span> <span data-ttu-id="28b84-157">秘密キーを保護するために使用するパスワードを指定します (証明書と秘密キーをエクスポートするときにパスワードを割り当てた場合)。</span><span class="sxs-lookup"><span data-stu-id="28b84-157">Supply the password used to protect the private key (if you assigned a password when exporting the certificate and private key).</span></span> <span data-ttu-id="28b84-158">**[OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-158">Click **OK**.</span></span> <span data-ttu-id="28b84-159">証明書のインポートが成功した場合、証明書は、**サーバー証明書**のエントリとしてコンソールの中央にエントリとして表示されます。</span><span class="sxs-lookup"><span data-stu-id="28b84-159">If the certificate import was successful, the certificate will appear as an entry in the middle of the console as an entry in **Server Certificates**.</span></span>
+
+4.  <span data-ttu-id="28b84-160">HTTPS で使用する証明書を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="28b84-160">Assign the certificate for use by HTTPS.</span></span> <span data-ttu-id="28b84-161">コンソールの左側で、IIS サーバーの**既定の Web サイト**を選びます。</span><span class="sxs-lookup"><span data-stu-id="28b84-161">On the left-hand side of the console, select the **Default Web Site** of the IIS server.</span></span> <span data-ttu-id="28b84-162">右側の [**バインド**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-162">On the right-hand side, click **Bindings…**.</span></span> <span data-ttu-id="28b84-163">[**サイトバインド**] ダイアログボックスの [**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-163">In the **Site Bindings** dialog, click **Add…**.</span></span> <span data-ttu-id="28b84-164">[**サイトバインドの追加**] ダイアログボックスの [**種類**] で、[ **https**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="28b84-164">On the **Add Site Binding** dialog under **Type:**, select **https**.</span></span> <span data-ttu-id="28b84-165">[Https] を選択すると、https に使用する証明書を選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="28b84-165">Selecting https will allow you to select the certificate to use for https.</span></span> <span data-ttu-id="28b84-166">[ **SSL 証明書:**] で、リバースプロキシ用にインポートした証明書を選びます。</span><span class="sxs-lookup"><span data-stu-id="28b84-166">Under **SSL certificate:**, select the certificate that you imported for the reverse proxy.</span></span> <span data-ttu-id="28b84-167">**[OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-167">Click **OK**.</span></span> <span data-ttu-id="28b84-168">次に、[**閉じる**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-168">Then, click **Close**.</span></span> <span data-ttu-id="28b84-169">これで、証明書が secure socket layer (SSL) とトランスポート層セキュリティ (TLS) のリバースプロキシにバインドされます。</span><span class="sxs-lookup"><span data-stu-id="28b84-169">The certificate is now bound to the reverse proxy for secure socket layer (SSL) and transport layer security (TLS).</span></span>
+    
+    <div>
     
 
-    > [!TIP]
-    > リバース プロキシによる SSL オフロードはサポートされていません。
+    > [!IMPORTANT]  
+    > <span data-ttu-id="28b84-170">中間証明書がないバインドダイアログを閉じるときに警告が表示される場合は、公開 CA ルート機関証明書と中間 CA 証明書を見つけてインポートする必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-170">If you receive a warning when closing the Bindings dialogs that intermediate certificates are missing, you need to locate and import the public CA root authority certificate and any intermediate CA certificates.</span></span> <span data-ttu-id="28b84-171">証明書を要求したパブリック CA の指示に従い、指示に従って証明書チェーンを要求してインポートします。</span><span class="sxs-lookup"><span data-stu-id="28b84-171">Consult the instructions at the public CA that you requested your certificate from and follow the instructions to request and import a certificate chain.</span></span> <span data-ttu-id="28b84-172">エッジサーバーから証明書をエクスポートした場合は、ルート CA 証明書と、エッジサーバーに関連付けられた中間 CA 証明書をエクスポートすることができます。</span><span class="sxs-lookup"><span data-stu-id="28b84-172">If you exported the certificate from your Edge Server, you can export the root CA certificate and any intermediate CA certificates associated with the Edge Server.</span></span> <span data-ttu-id="28b84-173">[信頼されたルート証明機関] ストアと中間証明書をコンピューターの中間証明機関ストアにインポートします (ユーザーストアと混同しないでください)。</span><span class="sxs-lookup"><span data-stu-id="28b84-173">Import the root CA certificate into the Computer’s (not to be confused with the User store) Trusted Root Certification Authorities store and intermediate certificates into the Computer’s Intermediate Certification Authorities store.</span></span>
 
+    
+    </div>
 
+5.  <span data-ttu-id="28b84-174">IIS サーバー名の下にあるコンソールの左側で、[**サーバーファーム**] を右クリックし、[**サーバーファームの作成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-174">On the left-hand side of the console below the IIS server name, right-click **Server Farms** then click **Create Server Farm…**.</span></span>
+    
+    <div>
+    
 
-12. リバース プロキシを通過する必要のある各 URL について手順 5 ～ 11 を繰り返します。一般的な URL を次に示します。
+    > [!NOTE]  
+    > <span data-ttu-id="28b84-175">[<STRONG>サーバーファーム</STRONG>] ノードが表示されない場合は、アプリケーション要求ルーティングをインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-175">If you do not see the <STRONG>Server Farms</STRONG> node, you need to install Application Request Routing.</span></span> <span data-ttu-id="28b84-176">詳細については、「 <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 でリバースプロキシサーバー</A>をセットアップする」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="28b84-176">For details, see <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Setting up reverse proxy servers for Lync Server 2013</A>.</span></span>
+
     
-      - 外部 フロント エンド サーバー Web サービス: webext.contoso.com (初期設定で構成済み)
+    </div>
     
-      - ディレクター用の外部 ディレクター Web サービス: webdirext.contoso.com ( ディレクターが展開される場合は省略可能)
+    <span data-ttu-id="28b84-177">**サーバーファーム名**の [**サーバーファームの作成**] ダイアログボックスに、最初の URL の名前 (識別のためのフレンドリ名) を入力します。</span><span class="sxs-lookup"><span data-stu-id="28b84-177">On the **Create Server Farm** dialog in **Server farm name**, type the a name (this can be a friendly name for identification purposes) for the first URL.</span></span> <span data-ttu-id="28b84-178">[ **次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-178">Click **Next**.</span></span>
+
+6.  <span data-ttu-id="28b84-179">サーバー**アドレス**の [**サーバーの追加**] ダイアログボックスに、フロントエンドサーバー上の外部 web サービスの完全修飾ドメイン名 (FQDN) を入力します。</span><span class="sxs-lookup"><span data-stu-id="28b84-179">On the **Add Server** dialog in **Server Address**, type the fully qualified domain name (FQDN) of the external web services on your Front End Server.</span></span> <span data-ttu-id="28b84-180">ここで使用される名前は、「リバースプロキシ、[証明書の概要-Lync Server 2013 のリバースプロキシ](lync-server-2013-certificate-summary-reverse-proxy.md)」の計画セクションで使用されているものと同じです。</span><span class="sxs-lookup"><span data-stu-id="28b84-180">The names that will be used here for example purposes are the same that are used in the Planning section for the reverse proxy, [Certificate summary - Reverse proxy in Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md).</span></span> <span data-ttu-id="28b84-181">リバースプロキシ計画を参照して、FQDN `webext.contoso.com`を入力します。</span><span class="sxs-lookup"><span data-stu-id="28b84-181">Referring to the reverse proxy planning, we type the FQDN `webext.contoso.com`.</span></span> <span data-ttu-id="28b84-182">[**オンライン**] の横にあるチェックボックスがオンになっていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="28b84-182">Confirm that the checkbox next to **Online** is selected.</span></span> <span data-ttu-id="28b84-183">[**追加**] をクリックして、この構成の web サーバーのプールにサーバーを追加します。</span><span class="sxs-lookup"><span data-stu-id="28b84-183">Click **Add** to add the server to the pool of web servers for this configuration.</span></span>
     
-      - 簡易 URL での会議: meet.contoso.com
+    <div>
     
-      - 簡易 URL でのダイヤルイン: dialin.contoso.com
+
+    > [!WARNING]  
+    > <span data-ttu-id="28b84-184">Lync Server は、ハードウェアロードバランサーを使って、HTTP トラフィックと HTTPS トラフィック用のディレクターとフロントエンドサーバーをプールします。</span><span class="sxs-lookup"><span data-stu-id="28b84-184">Lync Server uses hardware load balancers to pool Director and Front End Servers for HTTP and HTTPS traffic.</span></span> <span data-ttu-id="28b84-185">IIS ARR Server ファームにサーバーを追加するときは、FQDN を1つだけ指定します。</span><span class="sxs-lookup"><span data-stu-id="28b84-185">You will only supply one FQDN when adding a server to the IIS ARR Server Farm.</span></span> <span data-ttu-id="28b84-186">FQDN は、プールされていないサーバー構成のフロントエンドサーバーまたはディレクター、またはサーバープール用に構成されたハードウェアロードバランサーの FQDN のいずれかになります。</span><span class="sxs-lookup"><span data-stu-id="28b84-186">The FQDN will be the Front End Server or Director in non-pooled server configurations, or the FQDN of the configured hardware load balancer for server pools.</span></span> <span data-ttu-id="28b84-187">HTTP トラフィックと HTTPS トラフィックの負荷を分散するためにサポートされるメソッドは、ハードウェアロードバランサーを使うことだけです。</span><span class="sxs-lookup"><span data-stu-id="28b84-187">The only supported method to load balance HTTP and HTTPS traffic is by using hardware load balancers.</span></span>
+
     
-      - Lync Autodiscover の URL: lyncdiscover.contoso.com
+    </div>
+
+7.  <span data-ttu-id="28b84-188">[**サーバーの追加**] ダイアログボックスで、[**詳細設定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-188">On the **Add Server** dialog, click **Advanced settings…**.</span></span> <span data-ttu-id="28b84-189">これにより、構成済みの FQDN への要求に対するアプリケーション要求ルーティングを定義するためのダイアログが開きます。</span><span class="sxs-lookup"><span data-stu-id="28b84-189">This opens a dialog to define application request routing for requests to the configured FQDN.</span></span> <span data-ttu-id="28b84-190">目的は、要求が IIS の ARR によって処理されるときに使用されるポートを再定義することです。</span><span class="sxs-lookup"><span data-stu-id="28b84-190">The purpose is to redefine what port is used when the request is processed by IIS ARR.</span></span>
     
-      - Office Web Apps サーバーの URL: officewebapps01.contoso.com
+    <span data-ttu-id="28b84-191">既定では、送信先の HTTP ポートは8080として定義されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-191">By default, the destination HTTP port must be defined as 8080.</span></span> <span data-ttu-id="28b84-192">現在の**Httpport 80**の横にあるをクリックして、値を**8080**に設定します。</span><span class="sxs-lookup"><span data-stu-id="28b84-192">Click next to the current **httpPort 80** and set the value to **8080**.</span></span> <span data-ttu-id="28b84-193">現在の**Httpsport 443**の横にあるをクリックして、値を**4443**に設定します。</span><span class="sxs-lookup"><span data-stu-id="28b84-193">Click next to the current **httpsPort 443** and set the value to **4443**.</span></span> <span data-ttu-id="28b84-194">**Weight**パラメーターは、100のままにします。</span><span class="sxs-lookup"><span data-stu-id="28b84-194">Leave the **weight** parameter at 100.</span></span> <span data-ttu-id="28b84-195">必要に応じて、基準計画の統計情報を取得した後で、特定のルールの重みを再定義することができます。</span><span class="sxs-lookup"><span data-stu-id="28b84-195">If needed, you can redefine weights for a given rule once you have baseline statistics.</span></span> <span data-ttu-id="28b84-196">[**完了**] をクリックして、ルールの構成のこの部分を完了します。</span><span class="sxs-lookup"><span data-stu-id="28b84-196">Click **Finish** to complete this part of the rule configuration.</span></span>
+
+8.  <span data-ttu-id="28b84-197">IIS マネージャーが、すべての受信要求をサーバーファームに自動的にルーティングするために、URL 書き換えルールを作成できることを通知するダイアログリライトルールが表示される場合があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-197">You may see a dialog Rewrite Rules that informs you that IIS Manager can create a URL rewrite rule to route all incoming requests to the server farm automatically.</span></span> <span data-ttu-id="28b84-198">[**はい]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-198">Click **Yes**.</span></span> <span data-ttu-id="28b84-199">ルールは手動で調整しますが、[はい] を選択すると、初期構成が設定されます。</span><span class="sxs-lookup"><span data-stu-id="28b84-199">You will adjust the rules manually, but selecting Yes sets the initial configuration..</span></span>
+
+9.  <span data-ttu-id="28b84-200">作成したサーバーファームの名前をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-200">Click the name of the server farm that you have just created.</span></span> <span data-ttu-id="28b84-201">[IIS マネージャーの機能] ビューの [**サーバーファーム**] で、[**キャッシュ**] をダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-201">Under **Server Farm** in IIS Manager Features View, you double-click **Caching**.</span></span> <span data-ttu-id="28b84-202">「**ディスクキャッシュを有効にする」をオフに**します。</span><span class="sxs-lookup"><span data-stu-id="28b84-202">Deselect **Enable disk cache**.</span></span> <span data-ttu-id="28b84-203">右側の [**適用**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-203">Click **Apply** on the right-hand side.</span></span>
+
+10. <span data-ttu-id="28b84-204">サーバーファームの名前をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-204">Click the name of the server farm.</span></span> <span data-ttu-id="28b84-205">[IIS マネージャーの機能] ビューの [**サーバーファーム**] で、[**プロキシ**] をダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-205">Under **Server Farm** in IIS Manager Features View, you double-click **Proxy**.</span></span> <span data-ttu-id="28b84-206">[プロキシ設定] ページで、[**タイムアウト (秒)** ] の値を展開に適した値に変更します。</span><span class="sxs-lookup"><span data-stu-id="28b84-206">On the Proxy settings page change the value for **Time-out (seconds)** to a value appropriate for your deployment.</span></span> <span data-ttu-id="28b84-207">[**適用**] をクリックして変更内容を保存します。</span><span class="sxs-lookup"><span data-stu-id="28b84-207">Click **Apply** to save the change.</span></span>
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > <span data-ttu-id="28b84-208">プロキシのタイムアウト値は、展開から展開までのさまざまな数値です。</span><span class="sxs-lookup"><span data-stu-id="28b84-208">The Proxy Time-out value is a number that will vary from deployment to deployment.</span></span> <span data-ttu-id="28b84-209">クライアントに最適なエクスペリエンスを実現するには、展開を監視して、値を変更する必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-209">You should monitor your deployment and modify the value for the best experience for clients.</span></span> <span data-ttu-id="28b84-210">この値は、200に設定することができます。</span><span class="sxs-lookup"><span data-stu-id="28b84-210">You may be able to set the value as low as 200.</span></span> <span data-ttu-id="28b84-211">環境で Lync モバイルクライアントをサポートしている場合は、タイムアウト値が900である Office 365 からのプッシュ通知のタイムアウトを許可するように、値を960に設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-211">If you are supporting Lync mobile clients in your environment, you should set the value to 960 to allow for push notifications timeout from Office 365 which have a time-out value of 900.</span></span> <span data-ttu-id="28b84-212">クライアントの切断を回避するためにタイムアウト値を大きくする必要があります。また、クライアントの接続が切断された後、プロキシ経由の接続が切断されている場合は、この値が小さくなることがあります。</span><span class="sxs-lookup"><span data-stu-id="28b84-212">It is very likely that you will need to increase the time-out value to avoid client disconnects when the value is too low or decrease the number if connections through the proxy do not disconnect and clear long after the client has disconnected.</span></span> <span data-ttu-id="28b84-213">監視とベースによる並び合わせ環境に適した方法は、この値の適切な設定がどこにあるかを判断するための唯一の正確な手段です。</span><span class="sxs-lookup"><span data-stu-id="28b84-213">Monitoring and base-lining what is normal for your environment is the only accurate means to determine where the right setting is for this value.</span></span>
+
+    
+    </div>
+
+11. <span data-ttu-id="28b84-214">サーバーファームの名前をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-214">Click the name of the server farm.</span></span> <span data-ttu-id="28b84-215">[IIS マネージャーの機能] ビューの [**サーバーファーム**] で、[**ルーティングルール**] をダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-215">Under **Server Farm** in IIS Manager Features View, you double-click **Routing Rules**.</span></span> <span data-ttu-id="28b84-216">[ルーティングルール] ダイアログボックスの [ルーティング] で、[SSL オフロードを有効にする] の横にあるチェックボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="28b84-216">On the Routing Rules dialog under Routing, clear the checkbox next to Enable SSL offloading.</span></span> <span data-ttu-id="28b84-217">このチェックボックスをオフにする機能を使用できない場合は、[ **URL の書き換えを使用して着信要求を検査する**] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="28b84-217">If the ability to clear the checkbox is not available, select the checkbox for **Use URL Rewrite to inspect incoming requests**.</span></span> <span data-ttu-id="28b84-218">[**適用**] をクリックして変更内容を保存します。</span><span class="sxs-lookup"><span data-stu-id="28b84-218">Click **Apply** to save your changes.</span></span>
+    
+    <div>
+    
+
+    > [!WARNING]  
+    > <span data-ttu-id="28b84-219">リバースプロキシによる SSL オフロードはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="28b84-219">SSL Offloading by the reverse proxy is not supported.</span></span>
+
+    
+    </div>
+
+12. <span data-ttu-id="28b84-220">リバースプロキシを通過する必要がある各 URL について、手順5-11 を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="28b84-220">Repeat Steps 5-11 for each URL that must pass through the reverse proxy.</span></span> <span data-ttu-id="28b84-221">共通の一覧は、次のようになります。</span><span class="sxs-lookup"><span data-stu-id="28b84-221">A common list would be the following:</span></span>
+    
+      - <span data-ttu-id="28b84-222">フロントエンドサーバー Web サービス外部: webext.contoso.com (最初のウォークスルーで既に構成されています)</span><span class="sxs-lookup"><span data-stu-id="28b84-222">Front End Server Web services external: webext.contoso.com (already configured by initial walk through)</span></span>
+    
+      - <span data-ttu-id="28b84-223">監督に外部のディレクター Web サービス: webdirext.contoso.com (ディレクターが展開されている場合は省略可能)</span><span class="sxs-lookup"><span data-stu-id="28b84-223">Director Web services external for Director: webdirext.contoso.com (Optional if a Director is deployed)</span></span>
+    
+      - <span data-ttu-id="28b84-224">簡単な URL 会議: meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="28b84-224">Simple URL meet: meet.contoso.com</span></span>
+    
+      - <span data-ttu-id="28b84-225">シンプルな URL のダイヤルイン: dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="28b84-225">Simple URL dialin: dialin.contoso.com</span></span>
+    
+      - <span data-ttu-id="28b84-226">Lync の自動検出 URL: lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="28b84-226">Lync Autodiscover URL: lyncdiscover.contoso.com</span></span>
+    
+      - <span data-ttu-id="28b84-227">Office Web Apps サーバーの URL: officewebapps01.contoso.com</span><span class="sxs-lookup"><span data-stu-id="28b84-227">Office Web Apps Server URL: officewebapps01.contoso.com</span></span>
+        
+        <div>
         
 
-        > [!IMPORTANT]
-        > Office Web Apps サーバーの URL では別の httpsPort アドレスを使用します。手順 7 で、<STRONG>httpsPort</STRONG> を <STRONG>443</STRONG>、<STRONG>httpPort</STRONG> をポート <STRONG>80</STRONG> として定義します。他の構成設定はすべて同じです。
+        > [!IMPORTANT]  
+        > <span data-ttu-id="28b84-228">Office Web Apps サーバーの URL には、別の httpsPort アドレスが使用されます。</span><span class="sxs-lookup"><span data-stu-id="28b84-228">The URL for the Office Web Apps Server will use a different httpsPort address.</span></span> <span data-ttu-id="28b84-229">手順7では、 <STRONG>Httpsport</STRONG>を<STRONG>443</STRONG>として、 <STRONG>httpsport</STRONG>をポート<STRONG>80</STRONG>として定義します。</span><span class="sxs-lookup"><span data-stu-id="28b84-229">In step 7, you define the <STRONG>httpsPort</STRONG> as <STRONG>443</STRONG> and the <STRONG>httpPort</STRONG> as port <STRONG>80</STRONG>.</span></span> <span data-ttu-id="28b84-230">その他のすべての構成設定は同じです。</span><span class="sxs-lookup"><span data-stu-id="28b84-230">All other configuration settings are the same.</span></span>
 
+        
+        </div>
 
+13. <span data-ttu-id="28b84-231">コンソールの左側で、[IIS サーバー名] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-231">On the left-hand side of the console, click the IIS server name.</span></span> <span data-ttu-id="28b84-232">コンソールの中央で、[ **IIS**] の [ **URL の書き換え**] を見つけます。</span><span class="sxs-lookup"><span data-stu-id="28b84-232">In the middle of the console, locate **URL Rewrite** under **IIS**.</span></span> <span data-ttu-id="28b84-233">[URL の上書き] をダブルクリックして、URL 書き換えルールの構成を開きます。</span><span class="sxs-lookup"><span data-stu-id="28b84-233">Double-click URL Rewrite to open the URL Rewrite rules configuration.</span></span> <span data-ttu-id="28b84-234">前の手順で作成した各サーバーファームのルールが表示されます。</span><span class="sxs-lookup"><span data-stu-id="28b84-234">You should see rules for each Server Farm that you created in the previous steps.</span></span> <span data-ttu-id="28b84-235">この操作を行わない場合は、Internet Information Server Manager コンソールの [**スタートページ]** ノードのすぐ下にある**IIS サーバー**名をクリックしたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="28b84-235">If you do not, confirm that you clicked on the **IIS Server** name immediately below the **Start Page** node in the Internet Information Server Manager console.</span></span>
 
-13. コンソールの左側で、IIS サーバー名をクリックします。コンソールの中央の \[**IIS**\] で、\[**URL 書き換え**\] を見つけます。\[URL 書き換え\] をダブルクリックして、URL 書き換え規則の構成を開きます。前の手順で作成した各サーバー ファームの規則が表示されます。規則が表示されない場合は、Internet Information Server マネージャー コンソールの \[**スタート ページ**\] ノードのすぐ下にある **IIS サーバー**名をクリックしたかどうかをご確認ください。
-
-14. \[**URL 書き換え**\] ダイアログでは、webext.contoso.com を例として使用しており、**ARR\_webext.contoso.com\_loadbalance\_SSL** が規則の完全な名前として表示されています。
+14. <span data-ttu-id="28b84-236">例として webext.contoso.com を使用して、[ **URL リライト**] ダイアログでは、表示されるルールの完全な名前が**ARR\_\_webext.contoso.com loadbalance\_SSL**です。</span><span class="sxs-lookup"><span data-stu-id="28b84-236">In the **URL Rewrite** dialog, using webext.contoso.com as an example, the full name of the rule as displayed is **ARR\_webext.contoso.com\_loadbalance\_SSL**.</span></span>
     
-      - 規則をダブルクリックして \[**Edit Inbound Rule**\] ダイアログを開きます。
+      - <span data-ttu-id="28b84-237">ルールをダブルクリックして、[**受信ルールの編集**] ダイアログボックスを開きます。</span><span class="sxs-lookup"><span data-stu-id="28b84-237">Double-click the rule to open the **Edit Inbound Rule** dialog.</span></span>
     
-      - \[**Conditions**\] ダイアログの \[**Add...**\] をクリックします。
+      - <span data-ttu-id="28b84-238">[**追加] をクリックします。**</span><span class="sxs-lookup"><span data-stu-id="28b84-238">Click **Add…**</span></span> <span data-ttu-id="28b84-239">[**条件**] ダイアログ。</span><span class="sxs-lookup"><span data-stu-id="28b84-239">on the **Conditions** dialog.</span></span>
     
-      - \[**Add Condition**\] の \[**Condition input:**\] に、「**{HTTP\_HOST}** 」と入力します (入力が完了すると、条件を選ぶためのダイアログが表示されます)。\[**Check if input string:**\] で、\[**Matches the Pattern**\] を選びます。\[**Pattern input**\] に「**\*** 」と入力します。\[**Ignore case**\] を選んでください。\[**OK**\] をクリックします。
+      - <span data-ttu-id="28b84-240">[**条件入力**の条件を**追加**します: **{\_HTTP HOST}**"と入力します。</span><span class="sxs-lookup"><span data-stu-id="28b84-240">On the **Add Condition** in **Condition input:** type **{HTTP\_HOST}**.</span></span> <span data-ttu-id="28b84-241">(入力すると、条件を選択できるダイアログが表示されます。</span><span class="sxs-lookup"><span data-stu-id="28b84-241">(As you type, a dialog appears that will let you select the condition).</span></span> <span data-ttu-id="28b84-242">[**入力文字列のチェック**] で **、[パターンと一致**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="28b84-242">under **Check if input string:** select **Matches the Pattern**.</span></span> <span data-ttu-id="28b84-243">**パターン入力**の種類**\***。</span><span class="sxs-lookup"><span data-stu-id="28b84-243">In the **Pattern input** type **\***.</span></span> <span data-ttu-id="28b84-244">**ケースを無視**するように選択します。</span><span class="sxs-lookup"><span data-stu-id="28b84-244">**Ignore case** should be selected.</span></span> <span data-ttu-id="28b84-245">**[OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-245">Click **OK**.</span></span>
     
-      - \[**Edit Inbound Rule**\] ダイアログの下までスクロールして、\[**Action**\] ダイアログを見つけます。\[**Action Type:**\] を \[**Route to Server Farm**\]、\[**Scheme:**\] を \[<strong>https://</strong>\]、\[<strong>Server farm:</strong>\] を、この規則を適用する URL に設定します。この例では、**webext.contoso.com** に設定する必要があります。\[**Path:**\] は \[**/{R:0}**\] に設定します。
+      - <span data-ttu-id="28b84-246">[**受信ルールの編集**] ダイアログボックスを下にスクロールして、[**操作**] ダイアログを探します。</span><span class="sxs-lookup"><span data-stu-id="28b84-246">Scroll down in the **Edit Inbound Rule** dialog to locate the **Action** dialog.</span></span> <span data-ttu-id="28b84-247">**アクションの種類:** **サーバーファームにルーティング**するように設定する必要があります。**スキーム:** **https://** に設定されている [**サーバーファーム]:** このルールが適用される URL に設定します。</span><span class="sxs-lookup"><span data-stu-id="28b84-247">**Action Type:** should be set to **Route to Server Farm**, **Scheme:** set to **https://**, **Server farm:** set to the URL that this rule applies to.</span></span> <span data-ttu-id="28b84-248">この例では、 **webext.contoso.com**に設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="28b84-248">For this example, this should be set to **webext.contoso.com**.</span></span> <span data-ttu-id="28b84-249">**Path:** is **/{R: 0}** に設定されています。</span><span class="sxs-lookup"><span data-stu-id="28b84-249">**Path:** is set to **/{R:0}**</span></span>
     
-      - \[**Apply**\] をクリックして、変更内容を保存します。\[**Back to Rules**\] をクリックして URL 書き換え規則に戻ります。
+      - <span data-ttu-id="28b84-250">[**適用**] をクリックして変更内容を保存します。</span><span class="sxs-lookup"><span data-stu-id="28b84-250">Click **Apply** to save your changes.</span></span> <span data-ttu-id="28b84-251">[**ルールに戻る**] をクリックして、URL 書き換えルールに戻ります。</span><span class="sxs-lookup"><span data-stu-id="28b84-251">Click **Back to Rules** to return to the URL Rewrite rules.</span></span>
 
-15. サーバー ファームの URL ごとに 1 つ定義した各 SSL 書き換え規則について、手順 14 を繰り返します。
+15. <span data-ttu-id="28b84-252">定義した各 SSL 書き換えルールについて、手順14で定義されている手順を、サーバーファーム URL ごとに1回繰り返します。</span><span class="sxs-lookup"><span data-stu-id="28b84-252">Repeat the procedure defined in Step 14 for each of the SSL rewrite rules that you have defined, one per Server Farm URL.</span></span>
+    
+    <div>
     
 
-    > [!WARNING]
-    > 既定では、HTTP 規則も作成されます。HTTP 規則は、SSL 規則と同様の名前で表されます。ここで使用する例の場合、HTTP 規則の名前は <STRONG>ARR_webext.contoso.com_loadbalance</STRONG> になります。これらの規則に対する変更は無視されるため、変更は必要ありません。
+    > [!WARNING]  
+    > <span data-ttu-id="28b84-253">既定では、HTTP ルールも作成され、SSL ルールの名前が似た形式で示されます。</span><span class="sxs-lookup"><span data-stu-id="28b84-253">By default, HTTP rules are created as well and are denoted by the similar naming to the SSL rules.</span></span> <span data-ttu-id="28b84-254">現在の例では、HTTP ルールは<STRONG>ARR_webext _loadbalance</STRONG>という名前になっています。</span><span class="sxs-lookup"><span data-stu-id="28b84-254">For our current example, the HTTP rule would be named <STRONG>ARR_webext.contoso.com_loadbalance</STRONG>.</span></span> <span data-ttu-id="28b84-255">これらのルールに変更は必要ありません。また、無視しても問題ありません。</span><span class="sxs-lookup"><span data-stu-id="28b84-255">No modifications are needed to these rules and they can be safely ignored.</span></span>
 
-
-
-## TMG 2010 で Web 公開ルールのプロパティを変更するには
-
-1.  \[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\] をポイントします。次に、\[**Microsoft Forefront TMG**\] を選択し、\[**Forefront TMG Management**\] をクリックします。
-
-2.  左側のウィンドウで、 **サーバー名**を展開し、\[**ファイアウォール ポリシー**\] をクリックします。
-
-3.  詳細ウィンドウで、前の手順で作成した Web サーバー公開ルール (LyncServerExternalRule など) を右クリックし、\[**プロパティ**\] をクリックします。
-
-4.  \[**プロパティ**\] ページで \[**送信元**\] タブをクリックして、以下を実行します。
     
-      - \[**このルールを次の送信元からのトラフィックに適用する**\] ボックスの一覧の \[**任意の場所**\] をクリックし、\[**削除**\] をクリックします。
+    </div>
+
+</div>
+
+<div>
+
+## <a name="to-modify-the-properties-of-the-web-publishing-rule-in-tmg-2010"></a><span data-ttu-id="28b84-256">TMG 2010 で web 公開ルールのプロパティを変更するには</span><span class="sxs-lookup"><span data-stu-id="28b84-256">To modify the properties of the web publishing rule in TMG 2010</span></span>
+
+1.  <span data-ttu-id="28b84-257">[**スタート**] をクリックし、[**プログラム**]、[ **Microsoft Forefront TMG**]、[ **forefront tmg 管理**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-257">Click **Start**, point to **Programs**, select **Microsoft Forefront TMG**, and then click **Forefront TMG Management**.</span></span>
+
+2.  <span data-ttu-id="28b84-258">左側のウィンドウで、[ **ServerName**] を展開し、[**ファイアウォールポリシー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-258">In the left pane, expand **ServerName**, and then click **Firewall Policy**.</span></span>
+
+3.  <span data-ttu-id="28b84-259">[詳細] ウィンドウで、前の手順で作成した web サーバー発行ルール (LyncServerExternalRule など) を右クリックし、[**プロパティ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-259">In the details pane, right-click the web server publishing rule that you created in the previous procedure (for example, LyncServerExternalRule), and then click **Properties**.</span></span>
+
+4.  <span data-ttu-id="28b84-260">[**プロパティ**] ページの [**差出人**] タブで、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="28b84-260">On the **Properties** page, on the **From** tab, do the following:</span></span>
     
-      - \[**追加**\] をクリックします。
+      - <span data-ttu-id="28b84-261">このルールは、[**これらのソースからのトラフィックに適用さ**れます] リストで、**任意の場所**をクリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-261">In the **This rule applies to traffic from these sources** list, click **Anywhere**, and then click **Remove**.</span></span>
     
-      - \[**ネットワーク エンティティの追加**\] で、\[**ネットワーク**\] を展開し、\[**外部**\]、\[**追加**\]、\[**閉じる**\] の順にクリックします。
+      - <span data-ttu-id="28b84-262">[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-262">Click **Add**.</span></span>
+    
+      - <span data-ttu-id="28b84-263">[**ネットワークエンティティの追加**] で [**ネットワーク**] を展開し、[**外部**] をクリックし、[**追加**]、[**閉じる**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-263">In **Add Network Entities**, expand **Networks**, click **External**, click **Add**, and then click **Close**.</span></span>
 
-5.  \[**宛先**\] タブで、\[**フィールドで指定した実際のホストヘッダーの代わりに元のホスト ヘッダーを、転送する**\] チェック ボックスがオンになっていることを確認します。
+5.  <span data-ttu-id="28b84-264">[**宛先**] タブで、[**実際のホストヘッダーではなく、元のホストヘッダーを転送**する] チェックボックスがオンになっていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="28b84-264">On the **To** tab, ensure that the **Forward the original host header instead of the actual one** check box is selected.</span></span>
 
-6.  \[**ブリッジ**\] タブで、\[**要求を SSL ポートにリダイレクトする**\] チェック ボックスがオンになっていることを確認して、ポート \[**4443**\] を指定します。
+6.  <span data-ttu-id="28b84-265">[**ブリッジ**] タブで、[ **SSL ポートに要求をリダイレクトする**] チェックボックスをオンにして、[port **4443**] を指定します。</span><span class="sxs-lookup"><span data-stu-id="28b84-265">On the **Bridging** tab, select the **Redirect request to SSL port** check box, and then specify port **4443**.</span></span>
 
-7.  \[**パブリック名**\] タブで、簡易 URL (meet.contoso.com や dialin.contoso.com など) を追加します。
+7.  <span data-ttu-id="28b84-266">[**パブリック名**] タブで、単純な url (たとえば、meet.contoso.com と dialin.contoso.com) を追加します。</span><span class="sxs-lookup"><span data-stu-id="28b84-266">On the **Public Name** tab, add the simple URLs (for example, meet.contoso.com and dialin.contoso.com).</span></span>
 
-8.  \[**適用**\] をクリックして変更を保存し、\[**OK**\] をクリックします。
+8.  <span data-ttu-id="28b84-267">[**適用**] をクリックして変更を保存し、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-267">Click **Apply** to save changes, and then click **OK**.</span></span>
 
-9.  詳細ウィンドウで \[**適用**\] をクリックして変更を保存し、構成を更新します。
+9.  <span data-ttu-id="28b84-268">[詳細] ウィンドウの [**適用**] をクリックして、変更を保存し、構成を更新します。</span><span class="sxs-lookup"><span data-stu-id="28b84-268">Click **Apply** in the details pane to save the changes and update the configuration.</span></span>
 
-## IIS ARR で Web 公開ルールのプロパティを変更するには
+</div>
 
-1.  \[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\] を選びます。次に、\[**管理ツール**\] を選び、\[**インターネット インフォメーション サービス (IIS) マネージャー**\] をクリックします。
+<div>
 
-2.  コンソールの左側で、IIS サーバー名をクリックします。
+## <a name="to-modify-the-properties-of-the-web-publishing-rule-in-iis-arr"></a><span data-ttu-id="28b84-269">IIS の [web 公開ルール] のプロパティを変更するには</span><span class="sxs-lookup"><span data-stu-id="28b84-269">To modify the properties of the web publishing rule in IIS ARR</span></span>
 
-3.  コンソールの中央の \[**IIS**\] の下で、\[**URL 書き換え**\] を見つけます。\[URL 書き換え\] をダブルクリックして、URL 書き換え規則の構成を開きます。
+1.  <span data-ttu-id="28b84-270">[**スタート**] をクリックし、[**プログラム**]、[**管理ツール**]、[**インターネットインフォメーションサービス (IIS) マネージャー**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-270">Click **Start**, select **Programs**, select **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.</span></span>
 
-4.  変更が必要な規則をダブルクリックします。必要に応じて、\[**Match URL**\]、\[**Conditions**\]、\[**Server Variables**\]、または \[**Action**\] を変更します。
+2.  <span data-ttu-id="28b84-271">コンソールの左側で、[IIS サーバー名] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-271">On the left-hand side of the console, click the IIS server name.</span></span>
 
-5.  \[**Apply**\] をクリックして、変更を確定します。\[**Back to Rules**\] をクリックして他の規則を変更するか、変更が完了したら **IIS マネージャー** コンソールを閉じます。
+3.  <span data-ttu-id="28b84-272">コンソールの中央で、[ **IIS**] の [ **URL の書き換え**] を見つけます。</span><span class="sxs-lookup"><span data-stu-id="28b84-272">In the middle of the console, locate **URL Rewrite** under **IIS**.</span></span> <span data-ttu-id="28b84-273">[URL の上書き] をダブルクリックして、URL 書き換えルールの構成を開きます。</span><span class="sxs-lookup"><span data-stu-id="28b84-273">Double-click URL Rewrite to open the URL Rewrite rules configuration.</span></span>
+
+4.  <span data-ttu-id="28b84-274">変更する必要があるルールをダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="28b84-274">Double-click the rule that you need to modify.</span></span> <span data-ttu-id="28b84-275">必要に応じて、[URL、**条件**、**サーバー変数**、または**アクション**に**一致**] に変更を加えます。</span><span class="sxs-lookup"><span data-stu-id="28b84-275">Make your modifications, as needed, in **Match URL**, **Conditions**, **Server Variables** or **Action**.</span></span>
+
+5.  <span data-ttu-id="28b84-276">[**適用**] をクリックして変更をコミットします。</span><span class="sxs-lookup"><span data-stu-id="28b84-276">Click **Apply** to commit your changes.</span></span> <span data-ttu-id="28b84-277">[**ルールに戻る**] をクリックして他のルールを変更するか、変更を完了したら、 **IIS マネージャー**コンソールを閉じます。</span><span class="sxs-lookup"><span data-stu-id="28b84-277">Click **Back to Rules** to modify other rules, or close the **IIS Manager** console if you are done with your changes.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

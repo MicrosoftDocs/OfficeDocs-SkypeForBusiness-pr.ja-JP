@@ -1,45 +1,79 @@
-﻿---
-title: 'Lync Server 2013: 応答グループで使用されるコンポーネント'
-TOCTitle: 応答グループで使用されるコンポーネント
-ms:assetid: 2b058785-47ca-43b7-b3de-6928a60dc685
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg425768(v=OCS.15)
-ms:contentKeyID: 48271536
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 応答グループで使用されるコンポーネント'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components used by Response Group
+ms:assetid: 2b058785-47ca-43b7-b3de-6928a60dc685
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425768(v=OCS.15)
+ms:contentKeyID: 48183693
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f52ceb18c355f6d867b5b3b4485434df83683d26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840508"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の応答グループで使用されるコンポーネント
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-09-11_
+# <a name="components-used-by-response-group-in-lync-server-2013"></a><span data-ttu-id="57cd2-102">Lync Server 2013 の応答グループで使用されるコンポーネント</span><span class="sxs-lookup"><span data-stu-id="57cd2-102">Components used by Response Group in Lync Server 2013</span></span>
 
-エンタープライズ VoIP を展開すると、応答グループ アプリケーションが自動的に有効になります。ここでは、応答グループ アプリケーションをサポートするコンポーネントについて説明します。
+</div>
 
-## 応答グループ コンポーネント
+<div id="mainSection">
 
-次の Microsoft Lync Server 2013 コンポーネントが 応答グループ アプリケーションをサポートします。
+<div id="mainBody">
 
-  - **アプリケーション サービス**    アプリケーション サービスは、応答グループなどの統合通信アプリケーションを展開、ホスト、および管理するプラットフォームを提供します。アプリケーション サービスは、フロント エンド プール内のすべてのフロントエンド サーバー、およびすべての Standard Edition サーバーに自動的にインストールされます。
+<span> </span>
 
-  - **応答グループ アプリケーション**    応答グループ アプリケーションは、アプリケーション サービスがホストする統合通信アプリケーションの 1 つです。これは、応答グループを展開すると自動的に追加されます。応答グループ アプリケーションは、エージェントのグループへの着信をルーティングし、キューに保存します。
+<span data-ttu-id="57cd2-103">_**最終更新日:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="57cd2-103">_**Topic Last Modified:** 2012-09-11_</span></span>
 
-  - **言語パック**   言語パックは、音声合成および音声認識をサポートするために必要です。これらの音声テクノロジは、メッセージの構成 (開始メッセージおよびその他のプロンプト、対話型音声応答 (IVR) による質問と回答など) に使用します。既定では、Lync Server 2013 を展開すると、サポートされている 26 種類の言語パックがインストールされます。
+<span data-ttu-id="57cd2-104">応答グループアプリケーションは、エンタープライズボイスの展開時に自動的に有効になります。</span><span class="sxs-lookup"><span data-stu-id="57cd2-104">The Response Group application is automatically enabled when you deploy Enterprise Voice.</span></span> <span data-ttu-id="57cd2-105">このセクションでは、応答グループアプリケーションをサポートするコンポーネントについて説明します。</span><span class="sxs-lookup"><span data-stu-id="57cd2-105">This section describes the components that support the Response Group application.</span></span>
 
-  - **オーディオ ファイル**   オーディオ ファイルは、メッセージおよび保留音に使用します。
+<div>
 
-  - **ファイル ストア**    応答グループはファイル ストアを使用してオーディオ ファイルを格納します。 複数の 応答グループプールが同じファイル ストアのインスタンスを使用できます。
+## <a name="response-group-components"></a><span data-ttu-id="57cd2-106">応答グループのコンポーネント</span><span class="sxs-lookup"><span data-stu-id="57cd2-106">Response Group Components</span></span>
 
-  - **応答グループ構成ツール**    応答グループ構成ツールは、応答グループの作成および管理に使用する Web ベースのツールです。応答グループ構成ツールは、Web サービスのインストール時に追加されます。
+<span data-ttu-id="57cd2-107">次の Microsoft Lync Server 2013 コンポーネントは、応答グループアプリケーションをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="57cd2-107">The following Microsoft Lync Server 2013 components support the Response Group application:</span></span>
 
-  - **Microsoft Lync Server 2013 コントロール パネル**    Lync Server コントロール パネルを使用して、エージェント グループ、および応答グループのキューをセットアップおよび構成できます。
+  - <span data-ttu-id="57cd2-108">**アプリケーションサービス**   アプリケーションサービスは、応答グループなどのユニファイドコミュニケーションアプリケーションを展開、ホスティング、および管理するためのプラットフォームを提供します。</span><span class="sxs-lookup"><span data-stu-id="57cd2-108">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as Response Group.</span></span> <span data-ttu-id="57cd2-109">アプリケーションサービスは、フロントエンドプールとすべての Standard Edition サーバーの各フロントエンドサーバーに自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="57cd2-109">The Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
 
-  - **Lync Server 管理シェル**    応答グループの設定はすべて Lync Server 管理シェルのコマンドレットを使用して構成できます。
+  - <span data-ttu-id="57cd2-110">**応答グループ**   アプリケーション応答グループアプリケーションは、アプリケーションサービスによってホストされるユニファイドコミュニケーションアプリケーションの1つです。</span><span class="sxs-lookup"><span data-stu-id="57cd2-110">**Response Group application**   The Response Group application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="57cd2-111">応答グループを展開すると、自動的に含まれます。</span><span class="sxs-lookup"><span data-stu-id="57cd2-111">It is included automatically when you deploy Response Group.</span></span> <span data-ttu-id="57cd2-112">応答グループアプリケーションは、複数のエージェントに着信通話をルーティングしてキューに発信します。</span><span class="sxs-lookup"><span data-stu-id="57cd2-112">The Response Group application routes and queues incoming calls to groups of agents.</span></span>
 
-  - **Microsoft Lync 2013**   公式エージェント (グループの通話を受ける前にグループへのサインインが必要なエージェント) は、グループへのサインインやグループからのサインアウトに Lync 2013 を使用します。エージェント グループが公式エージェントに構成されていると、エージェントは Lync 2013 のメニュー項目をクリックして Internet Explorer を開き、グループのサインイン/サインアウトに使用する Web ページ コンソールを表示します。
+  - <span data-ttu-id="57cd2-113">**言語パック**   : 音声合成と音声認識をサポートするには、言語パックが必要です。</span><span class="sxs-lookup"><span data-stu-id="57cd2-113">**Language pack**   A language pack is required to support text-to-speech and speech recognition.</span></span> <span data-ttu-id="57cd2-114">これらの音声テクノロジは、メッセージの構成 (開始メッセージおよびその他のプロンプト、対話型音声応答 (IVR) による質問と回答など) に使用します。</span><span class="sxs-lookup"><span data-stu-id="57cd2-114">These speech technologies are used when you configure messages, such as the welcome message and other prompts, and interactive voice response (IVR) questions and answers.</span></span> <span data-ttu-id="57cd2-115">既定では、Lync Server 2013 を展開すると、サポートされている26言語パックがインストールされます。</span><span class="sxs-lookup"><span data-stu-id="57cd2-115">By default, the 26 supported language packs are installed when you deploy Lync Server 2013.</span></span>
 
-  - **Web サービス**   Web サービスは、応答グループ構成ツール、エージェントのサインイン/サインアウトのコンソール、Lync Server コントロール パネル、および 応答グループのクライアント Web サービスに必要です。
+  - <span data-ttu-id="57cd2-116">**オーディオファイル**   のオーディオファイルは、メッセージおよび保留中の音楽に使用されます。</span><span class="sxs-lookup"><span data-stu-id="57cd2-116">**Audio files**   Audio files are used for messages and on-hold music.</span></span>
 
-  - **応答グループのクライアント Web サービス**    応答グループ アプリケーションは、クライアント Web サービスを提供します。サードパーティ アプリケーションはこのサービスを使用して、エージェント、エージェント グループのメンバーシップ、エージェントのサインイン状態、グループの通話状態、および匿名通話をサポートするグループに関する情報を取得できます。Lync 2013 および Lync 2010 Attendant は、応答グループのクライアント Web サービスを使用して、エージェントが匿名通話に使用できる応答グループの一覧を取得します。クライアント Web サービスは、Web サービスのインストール時に追加されます。
+  - <span data-ttu-id="57cd2-117">**ファイル**   ストア応答グループは、ファイルストアを使ってオーディオファイルを保存します。</span><span class="sxs-lookup"><span data-stu-id="57cd2-117">**File Store**   Response Group uses File store to store audio files.</span></span> <span data-ttu-id="57cd2-118">複数の応答グループプールでは、同じファイルストアのインスタンスを使うことができます。</span><span class="sxs-lookup"><span data-stu-id="57cd2-118">Multiple Response Group pools can use the same instance of File store.</span></span>
+
+  - <span data-ttu-id="57cd2-119">**応答グループ構成ツール**   応答グループ構成ツールは、応答グループの作成と構成に使用される web ベースのツールです。</span><span class="sxs-lookup"><span data-stu-id="57cd2-119">**Response Group Configuration Tool**   The Response Group Configuration Tool is a web-based tool that is used to create and configure response groups.</span></span> <span data-ttu-id="57cd2-120">応答グループの構成ツールは、Web サービスをインストールするときに含まれています。</span><span class="sxs-lookup"><span data-stu-id="57cd2-120">The Response Group Configuration Tool is included when you install Web Services.</span></span>
+
+  - <span data-ttu-id="57cd2-121">**Microsoft lync server 2013 コントロールパネル**   lync server コントロールパネルを使用して、応答グループのエージェントグループとキューをセットアップして構成することができます。</span><span class="sxs-lookup"><span data-stu-id="57cd2-121">**Microsoft Lync Server 2013 Control Panel**   You can use Lync Server Control Panel to setup and configure agent groups and queues for response groups.</span></span>
+
+  - <span data-ttu-id="57cd2-122">**Lync server management shell**   lync server 管理シェルコマンドレットを使用して、すべての応答グループの設定を構成できます。</span><span class="sxs-lookup"><span data-stu-id="57cd2-122">**Lync Server Management Shell**   All Response Group settings can be configured by using Lync Server Management Shell cmdlets.</span></span>
+
+  - <span data-ttu-id="57cd2-123">**Microsoft Lync 2013**   正式なエージェント (グループへの通話を許可するには、グループへのサインインが必要なエージェント) Lync 2013 を使って、グループへのサインインとサインアウトを行います。</span><span class="sxs-lookup"><span data-stu-id="57cd2-123">**Microsoft Lync 2013**   Formal agents (agents who are required to sign in to the group before they can accept calls for the group) use Lync 2013 to sign in to and sign out from the group.</span></span> <span data-ttu-id="57cd2-124">エージェントグループが正式なエージェント用に構成されている場合、エージェントは Lync 2013 のメニュー項目をクリックして Internet Explorer を開き、グループへのサインインとグループからのサインアウト用の web ページ本体を表示します。</span><span class="sxs-lookup"><span data-stu-id="57cd2-124">If an agent group is configured for formal agents, the agents click a menu item in Lync 2013 to open Internet Explorer and display a webpage console for signing in and out of the group.</span></span>
+
+  - <span data-ttu-id="57cd2-125">**Web サービス**   web サービスは、応答グループ構成ツール、エージェントのサインインとサインアウトコンソール、Lync Server コントロールパネル、応答グループクライアント Web サービスに必要です。</span><span class="sxs-lookup"><span data-stu-id="57cd2-125">**Web Services**   Web Services is required for Response Group Configuration Tool, the agents’ sign-in and sign-out console, Lync Server Control Panel, and Response Group client web service.</span></span>
+
+  - <span data-ttu-id="57cd2-126">**応答グループクライアント web サービス**   応答グループアプリケーションには、サードパーティのアプリケーションによって、エージェント、エージェントグループメンバーシップ、エージェントのサインイン状態、グループの通話状態などの情報を取得するために使用できるクライアント web サービスが用意されています。匿名通話をサポートしているグループ。</span><span class="sxs-lookup"><span data-stu-id="57cd2-126">**Response Group Client Web Service**   Response Group application provides a client web service, which can be used by third-party applications to retrieve information about agents, agent group membership, agent sign-in status, call status for groups, and the groups that support anonymous calls.</span></span> <span data-ttu-id="57cd2-127">Lync 2013 および Lync 2010 アテンダント応答グループクライアント Web サービスを使用して、エージェントが匿名呼び出しを行うときに使用できる応答グループの一覧を取得します。</span><span class="sxs-lookup"><span data-stu-id="57cd2-127">Lync 2013 and Lync 2010 Attendant use Response Group Client Web service to retrieve the list of response groups that agents can use to make anonymous calls.</span></span> <span data-ttu-id="57cd2-128">Web サービスをインストールするときに、クライアント web サービスが含まれています。</span><span class="sxs-lookup"><span data-stu-id="57cd2-128">The client web service is included when you install Web Services.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,55 @@
-﻿---
-title: グループ通話ピックアップの処理能力の計画
-TOCTitle: グループ通話ピックアップの処理能力の計画
-ms:assetid: 0d654a19-6cf0-4118-903d-ec2c4e519253
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ984297(v=OCS.15)
-ms:contentKeyID: 52056535
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: グループ通話のピックアップのキャパシティ計画'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Group Call Pickup
+ms:assetid: 0d654a19-6cf0-4118-903d-ec2c4e519253
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ984297(v=OCS.15)
+ms:contentKeyID: 51476680
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ba588de723e7482039fdae4b97991080a1b92c47
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840676"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# グループ通話ピックアップの処理能力の計画
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="f6e90-102">Lync Server 2013 でのグループ通話の集配のキャパシティ計画</span><span class="sxs-lookup"><span data-stu-id="f6e90-102">Capacity planning for Group Call Pickup in Lync Server 2013</span></span>
 
-次の表は、処理能力の計画要件の土台として使用できる、グループ通話ピックアップのユーザー モデルを示しています。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="f6e90-103">_**最終更新日:** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="f6e90-103">_**Topic Last Modified:** 2013-02-12_</span></span>
+
+<div id="sectionSection0" class="section">
+
+<span data-ttu-id="f6e90-104">次の表では、キャパシティ計画の要件の基礎として使用できるグループ通話ピックアップユーザーモデルについて説明します。</span><span class="sxs-lookup"><span data-stu-id="f6e90-104">The following table describes the Group Call Pickup user model that you can use as the basis for capacity planning requirements.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
-> グループ通話ピックアップはコール パーク アプリケーションに基づきます。障害復旧に関する処理能力の計画では、ペアになったプールの各プールが、グループ通話ピックアップを含め、双方のプール内のコール パークサービスの負荷を処理できる必要があります。
+> [!IMPORTANT]  
+> <span data-ttu-id="f6e90-105">グループ通話のピックアップは、コールパークアプリケーションに基づいています。</span><span class="sxs-lookup"><span data-stu-id="f6e90-105">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="f6e90-106">障害復旧のキャパシティ計画の場合、ペアプールの各プールでは、両方のプールのグループ通話のピックアップを含む、コールパークサービスのワークロードを処理できる必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="f6e90-106">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services, including Group Call Pickup, in both pools.</span></span>
 
 
 
-### グループ通話ピックアップのユーザー モデル
+</div>
+
+### <a name="group-call-pickup-user-model"></a><span data-ttu-id="f6e90-107">グループ通話のピックアップユーザーモデル</span><span class="sxs-lookup"><span data-stu-id="f6e90-107">Group Call Pickup User Model</span></span>
 
 <table>
 <colgroup>
@@ -33,42 +59,64 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>指標</th>
-<th>フロント エンド プールごと (8 つのフロントエンド サーバー)</th>
-<th>Standard Edition サーバーごと</th>
+<th><span data-ttu-id="f6e90-108">指標</span><span class="sxs-lookup"><span data-stu-id="f6e90-108">Metric</span></span></th>
+<th><span data-ttu-id="f6e90-109">フロントエンドプールあたり (8 個のフロントエンドサーバーを含む)</span><span class="sxs-lookup"><span data-stu-id="f6e90-109">Per Front End pool (with 8 Front End Servers)</span></span></th>
+<th><span data-ttu-id="f6e90-110">Standard Edition サーバーごと</span><span class="sxs-lookup"><span data-stu-id="f6e90-110">Per Standard Edition server</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>グループあたりの推奨ユーザー数</p></td>
-<td><p>50</p></td>
-<td><p>50</p></td>
+<td><p><span data-ttu-id="f6e90-111">グループあたりの推奨ユーザー数</span><span class="sxs-lookup"><span data-stu-id="f6e90-111">Recommended number of users per group</span></span></p></td>
+<td><p><span data-ttu-id="f6e90-112">50</span><span class="sxs-lookup"><span data-stu-id="f6e90-112">50</span></span></p></td>
+<td><p><span data-ttu-id="f6e90-113">50</span><span class="sxs-lookup"><span data-stu-id="f6e90-113">50</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>推奨グループ数</p></td>
-<td><p>500</p></td>
-<td><p>60</p></td>
+<td><p><span data-ttu-id="f6e90-114">推奨グループ数</span><span class="sxs-lookup"><span data-stu-id="f6e90-114">Recommended number of groups</span></span></p></td>
+<td><p><span data-ttu-id="f6e90-115">500</span><span class="sxs-lookup"><span data-stu-id="f6e90-115">500</span></span></p></td>
+<td><p><span data-ttu-id="f6e90-116">60</span><span class="sxs-lookup"><span data-stu-id="f6e90-116">60</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>プールあたりの、グループ通話ピックアップが可能な最大ユーザー数</p></td>
-<td><p>25,000</p></td>
-<td><p>3,000</p></td>
+<td><p><span data-ttu-id="f6e90-117">プールあたりの、グループ通話ピックアップが可能な最大ユーザー数</span><span class="sxs-lookup"><span data-stu-id="f6e90-117">Maximum number of users per pool enabled for Group Call Pickup</span></span></p></td>
+<td><p><span data-ttu-id="f6e90-118">25,000</span><span class="sxs-lookup"><span data-stu-id="f6e90-118">25,000</span></span></p></td>
+<td><p><span data-ttu-id="f6e90-119">3,000</span><span class="sxs-lookup"><span data-stu-id="f6e90-119">3,000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>プールおよび分あたりの、グループ通話ピックアップが可能な総ユーザー数に対する着信通話数の最大比率</p></td>
-<td><p>500</p></td>
-<td><p>60</p></td>
+<td><p><span data-ttu-id="f6e90-120">プールおよび分あたりの、グループ通話ピックアップが可能な総ユーザー数に対する着信通話数の最大比率</span><span class="sxs-lookup"><span data-stu-id="f6e90-120">Maximum rate of incoming calls to total users enabled for Group Call Pickup per pool per minute</span></span></p></td>
+<td><p><span data-ttu-id="f6e90-121">500</span><span class="sxs-lookup"><span data-stu-id="f6e90-121">500</span></span></p></td>
+<td><p><span data-ttu-id="f6e90-122">60</span><span class="sxs-lookup"><span data-stu-id="f6e90-122">60</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>プールおよび分あたりの、グループ通話ピックアップによって取得される通話数の最大比率</p></td>
-<td><p>200</p></td>
-<td><p>25</p></td>
+<td><p><span data-ttu-id="f6e90-123">プールおよび分あたりの、グループ通話ピックアップによって取得される通話数の最大比率</span><span class="sxs-lookup"><span data-stu-id="f6e90-123">Maximum rate of calls retrieved by users with Group Call Pickup per pool per minute</span></span></p></td>
+<td><p><span data-ttu-id="f6e90-124">200</span><span class="sxs-lookup"><span data-stu-id="f6e90-124">200</span></span></p></td>
+<td><p><span data-ttu-id="f6e90-125">50</span><span class="sxs-lookup"><span data-stu-id="f6e90-125">25</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
+
+
 > [!NOTE]  
-> <ul><li><p>フロント エンド サーバーの数が 8 台に満たないフロント エンド プールでは、指標を直性的に計算します。たとえば、フロント エンド プールに 1 台のフロント エンド サーバーが含まれる場合、最大負荷は表の値の 1/8 として計算されます。</p></li>
-> <li><p>グループあたりの推奨ユーザー数とグループ数は、プールあたりの最大ユーザー数を超えない限り増減できます。たとえば、Standard Edition サーバーに 120 グループを含め、グループごとに 25 ユーザーを含めることができます。グループ通話ピックアップが可能なユーザーの数が依然としてユーザー モデルの最大数に収まっているためです (グループ通話ピックアップが可能なユーザー: 120 グループ * 25 ユーザー = 3,000 ユーザー)。</p></li></ul>
+> <UL>
+> <LI>
+> <P><span data-ttu-id="f6e90-126">フロントエンドサーバーの数が8個以下のフロントエンドプールの場合は、数値を直線的に計算します。</span><span class="sxs-lookup"><span data-stu-id="f6e90-126">For Front End pools that have fewer than eight Front End Servers, calculate the metrics linearly.</span></span> <span data-ttu-id="f6e90-127">たとえば、フロントエンドプールに1つのフロントエンドサーバーがある場合は、テーブルに表示されている値の1/8 としての最大読み込みを計算します。</span><span class="sxs-lookup"><span data-stu-id="f6e90-127">For example, if your Front End pool has one Front End Server, calculate the maximum load as 1/8 of the values shown in the table.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="f6e90-128">プールあたりのユーザー数の上限を超えていない限り、1つのグループに対して推奨されるユーザー数とグループ数を増減できます。</span><span class="sxs-lookup"><span data-stu-id="f6e90-128">You can increase or decrease the recommended number of users per group and number of groups as long as you do not exceed the maximum number of users per pool.</span></span> <span data-ttu-id="f6e90-129">たとえば、グループ通話のピックアップ用に有効になっているユーザーの数がユーザーモデルの最大数 (120 グループの場合は、グループ通話のピックアップでは3000ユーザー) のままであるため、標準エディションのサーバーではグループあたり25人のユーザーを持つ120グループを持つことができます。</span><span class="sxs-lookup"><span data-stu-id="f6e90-129">For example, your Standard Edition server can have 120 groups with 25 users per group because the number of users enabled for Group Call Pickup is still within the user model maximum (that is, 120 groups times 25 users is 3,000 users enabled for Group Call Pickup).</span></span></P></LI></UL>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

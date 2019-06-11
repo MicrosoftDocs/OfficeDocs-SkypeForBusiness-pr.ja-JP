@@ -1,23 +1,45 @@
-﻿---
-title: 証明書の概要  - パブリック インスタント メッセージング接続
-TOCTitle: 証明書の概要  - パブリック インスタント メッセージング接続
-ms:assetid: 2b3687ee-50c2-4c1c-880e-8dcf8bd4f309
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ618370(v=OCS.15)
-ms:contentKeyID: 49115208
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 証明書の概要-パブリックインスタントメッセージングの接続'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Public instant messaging connectivity
+ms:assetid: 2b3687ee-50c2-4c1c-880e-8dcf8bd4f309
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618370(v=OCS.15)
+ms:contentKeyID: 49105657
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 31988207403ef1ccb5ea366da6e1ec6b3d448b4e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840639"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 証明書の概要 - パブリック インスタント メッセージング接続
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a><span data-ttu-id="01cab-102">証明書の概要-Lync Server 2013 でのパブリックインスタントメッセージング接続</span><span class="sxs-lookup"><span data-stu-id="01cab-102">Certificate summary - Public instant messaging connectivity in Lync Server 2013</span></span>
 
-パブリック インスタント メッセージング接続の証明書の構成は、America Online (AOL) では独自の証明書の構成を必要とする点を除いて、他の種類の SIP フェデレーションや標準のエッジ サーバー証明書とまったく同じです。America Online では、使用する 1 つまたは複数 (エッジ プールの場合) の証明書に、通常のサーバーの拡張キー使用法 (EKU) に加えて、クライアント EKU も含める必要があります。クライアント EKU は証明書に追加されるものであり、エッジ サーバーに割り当てられる外部パブリック証明書の一部に含まれます。
+</div>
 
-## 証明書の概要 - パブリック インスタント メッセージング接続
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="01cab-103">_**最終更新日:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="01cab-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+
+<span data-ttu-id="01cab-104">パブリックインスタントメッセージング接続用の証明書を構成するには、まず、America Online (AOL) には固有のものが必要であることを除き、他の SIP フェデレーションタイプまたは標準エッジサーバーの証明書には何も違いがないことに注意してください。証明書の構成。</span><span class="sxs-lookup"><span data-stu-id="01cab-104">To configure certificates for public Instant Messaging connectivity, you should first notice that there is nothing different from other SIP federation types or even standard Edge Server certificates, except that America Online (AOL) requires a unique certificate configuration.</span></span> <span data-ttu-id="01cab-105">America Online では、通常のサーバー拡張キー使用法 (EKU) に加えて、証明書または証明書 (Edge プールの場合) がクライアント EKU も含まれている必要があります。</span><span class="sxs-lookup"><span data-stu-id="01cab-105">In addition to the usual server enhanced key usage (EKU), America Online requires the certificate or certificates (in the case of an Edge pool) to also contain the client EKU.</span></span> <span data-ttu-id="01cab-106">クライアント EKU は証明書に追加されたものであり、エッジサーバーに割り当てられている外部公開証明書の一部です。</span><span class="sxs-lookup"><span data-stu-id="01cab-106">The client EKU is an addition to the certificate, and is part of the external public certificate that is assigned to your Edge Server.</span></span>
+
+<div>
+
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="01cab-107">証明書の概要–パブリックインスタントメッセージング接続</span><span class="sxs-lookup"><span data-stu-id="01cab-107">Certificate Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -29,34 +51,50 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>コンポーネント</th>
-<th>サブジェクト名</th>
-<th>サブジェクトの別名 (SAN)/順序</th>
-<th>コメント</th>
+<th><span data-ttu-id="01cab-108">コンポーネント</span><span class="sxs-lookup"><span data-stu-id="01cab-108">Component</span></span></th>
+<th><span data-ttu-id="01cab-109">サブジェクト名</span><span class="sxs-lookup"><span data-stu-id="01cab-109">Subject name</span></span></th>
+<th><span data-ttu-id="01cab-110">サブジェクト代替名 (SAN)/Order</span><span class="sxs-lookup"><span data-stu-id="01cab-110">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="01cab-111">コメント</span><span class="sxs-lookup"><span data-stu-id="01cab-111">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>外部/アクセス エッジ</p></td>
-<td><p>sip.contoso.com</p></td>
-<td><p>sip.contoso.com</p>
-<p>webcon.contoso.com</p>
-<p>sip.fabrikam.com</p></td>
-<td><p>証明書は公的 CA のものである必要があります。また、AOL とのパブリック IM 接続を展開する場合は、サーバー EKU およびクライアント EKU が必要です。証明書は、次のエッジの外部エッジ サーバー インターフェイスに割り当てられます。</p>
+<td><p><span data-ttu-id="01cab-112">外部/アクセスエッジ</span><span class="sxs-lookup"><span data-stu-id="01cab-112">External/Access Edge</span></span></p></td>
+<td><p><span data-ttu-id="01cab-113">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="01cab-113">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="01cab-114">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="01cab-114">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="01cab-115">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="01cab-115">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="01cab-116">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="01cab-116">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="01cab-117">証明書はパブリック CA からである必要があります。また、AOL とのパブリック IM 接続を展開する場合は、サーバーの EKU とクライアントの EKU を持っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="01cab-117">The certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="01cab-118">証明書は、次のための外部エッジサーバーインターフェイスに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="01cab-118">The certificate is assigned to the external Edge Server interfaces for:</span></span></p>
 <ul>
-<li><p>アクセス エッジ サービス</p></li>
-<li><p>Web 会議エッジ サービス</p></li>
-<li><p>音声ビデオ エッジ サービス</p></li>
+<li><p><span data-ttu-id="01cab-119">アクセス エッジ サービス</span><span class="sxs-lookup"><span data-stu-id="01cab-119">Access Edge service</span></span></p></li>
+<li><p><span data-ttu-id="01cab-120">Web 会議エッジ サービス</span><span class="sxs-lookup"><span data-stu-id="01cab-120">Web Conferencing Edge service</span></span></p></li>
+<li><p><span data-ttu-id="01cab-121">音声ビデオ エッジ サービス</span><span class="sxs-lookup"><span data-stu-id="01cab-121">A/V Edge service</span></span></p></li>
 </ul>
-<p>SAN は、トポロジ ビルダーの定義に基づいて自動的に証明書に追加されます。追加の SIP ドメインで必要な SAN エントリや、サポートする必要がある他のエントリを追加します。SAN にはサブジェクト名がレプリケートされるため、正常に動作するためにはサブジェクト名が存在している必要があります。</p></td>
+<p><span data-ttu-id="01cab-122">San は、トポロジビルダーの定義に基づいて、自動的に証明書に追加されることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="01cab-122">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="01cab-123">必要に応じて、必要に応じて SAN エントリを追加します。これには、サポートが必要な追加の SIP ドメインや他のエントリも含まれます。</span><span class="sxs-lookup"><span data-stu-id="01cab-123">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="01cab-124">サブジェクト名は SAN でレプリケートされ、正しい操作のために存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="01cab-124">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 関連項目
+</div>
 
-#### 概念
+<div>
 
-[Lync Server 2013 の外部ユーザー アクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)
+## <a name="see-also"></a><span data-ttu-id="01cab-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="01cab-125">See Also</span></span>
+
+
+[<span data-ttu-id="01cab-126">Lync Server 2013 の外部ユーザー アクセスのシナリオ</span><span class="sxs-lookup"><span data-stu-id="01cab-126">Scenarios for external user access in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-external-user-access.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

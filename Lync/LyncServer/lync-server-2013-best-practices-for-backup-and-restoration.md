@@ -1,63 +1,101 @@
-﻿---
-title: バックアップと復元のベスト プラクティス
-TOCTitle: バックアップと復元のベスト プラクティス
-ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Hh202184(v=OCS.15)
-ms:contentKeyID: 52056675
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: バックアップと復元のベストプラクティス'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Best practices for backup and restoration
+ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202184(v=OCS.15)
+ms:contentKeyID: 51541500
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4fc7a926bd8fd5c61f87d5e8252c30f40e5a6a69
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840725"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# バックアップと復元のベスト プラクティス
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-21_
+# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a><span data-ttu-id="e23d8-102">Lync Server 2013 のバックアップと復元に関するベストプラクティス</span><span class="sxs-lookup"><span data-stu-id="e23d8-102">Best practices for backup and restoration for Lync Server 2013</span></span>
 
-このセクションでは、次の 2 種類のベスト プラクティスを説明します。
+</div>
 
-  - バックアップと復元のベスト プラクティス
+<div id="mainSection">
 
-  - 障害の影響を最小限に抑えるベスト プラクティス
+<div id="mainBody">
 
-## バックアップと復元のベスト プラクティス
+<span> </span>
 
-バックアップと復元のプロセスを円滑に行えるようにするために、データのバックアップと復元を行うとき次のベスト プラクティスを適用してください。
+<span data-ttu-id="e23d8-103">_**最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="e23d8-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-  - 定期的なバックアップを適切な間隔で遂行する。一番簡単で、特によく使われるバックアップの種類とローテーションのスケジュールは、SQL Server データベース全体を夜間に毎日完全バックアップするというものです。こうしておけば、復元が必要になっても、復元プロセスで 1 つのバックアップしか必要にならず、1 日分以上のデータが失われることはありません。
+<span data-ttu-id="e23d8-104">このセクションには、2種類のベストプラクティスが用意されています。</span><span class="sxs-lookup"><span data-stu-id="e23d8-104">This section includes two types of best practices:</span></span>
 
-  - コマンドレットまたは Lync Server コントロール パネルで構成変更を行う場合、データベースの復元が必要になったときにその変更を失いたくなければ、変更後に **Export-CsConfiguration** コマンドレットでトポロジ構成ファイル (Xds.mdf) のスナップショット バックアップをとっておく。この構成は XML 形式でバックアップされ、ZIP ファイルに圧縮されます。
+  - <span data-ttu-id="e23d8-105">バックアップと復元に関するベストプラクティス</span><span class="sxs-lookup"><span data-stu-id="e23d8-105">Best practices for backup and restoration.</span></span>
 
-  - Lync Server のバックアップに使う予定の共有フォルダーに、すべてのバックアップ データを収容する十分なディスク スペースがあることを確認する。
+  - <span data-ttu-id="e23d8-106">障害の影響を最小限に抑えるためのベストプラクティス。</span><span class="sxs-lookup"><span data-stu-id="e23d8-106">Best practices for minimizing the impact of a disaster.</span></span>
 
-  - サーバー パフォーマンスとユーザー エクスペリエンスを向上するために、Lync Server の使用率が低い時間帯を見計らってバックアップする。
+<div>
 
-  - データのバックアップ先が安全であることを確認する (リモートの場所をお勧めします)。
+## <a name="best-practices-for-backup-and-restoration"></a><span data-ttu-id="e23d8-107">バックアップと復元に関するベストプラクティス</span><span class="sxs-lookup"><span data-stu-id="e23d8-107">Best Practices for Backup and Restoration</span></span>
 
-  - データの復元に備えてバックアップ ファイルをいつでも利用できるようにしておく。
+<span data-ttu-id="e23d8-108">バックアップと復元のプロセスを容易にするために、データをバックアップまたは復元するときに、次のベストプラクティスを適用します。</span><span class="sxs-lookup"><span data-stu-id="e23d8-108">To facilitate your backup and restoration process, apply the following best practices when you back up or restore your data:</span></span>
 
-  - 組織でサポートされている復元プロセスの定期的なテストを計画して、予定どおり実施する。
+  - <span data-ttu-id="e23d8-109">適切な間隔で定期的にバックアップを実行します。</span><span class="sxs-lookup"><span data-stu-id="e23d8-109">Perform regular backups at appropriate intervals.</span></span> <span data-ttu-id="e23d8-110">最も簡単かつ一般的に使用されるバックアップの種類とローテーションスケジュールは、完全な夜間の SQL Server データベースのバックアップです。</span><span class="sxs-lookup"><span data-stu-id="e23d8-110">The simplest and most commonly used backup type and rotation schedule is a full, nightly backup of the entire SQL Server database.</span></span> <span data-ttu-id="e23d8-111">復元が必要な場合は、復元プロセスでバックアップを1つだけ行う必要があり、1日分のデータを失うことはありません。</span><span class="sxs-lookup"><span data-stu-id="e23d8-111">Then, if restoration is necessary, the restoration process requires only one backup, and no more than a day’s data should be lost.</span></span>
 
-  - バックアップと復元のプロセスが期待どおりうまくいくことを確かめる前に、その妥当性を確認する。
+  - <span data-ttu-id="e23d8-112">コマンドレットまたは Lync Server コントロールパネルを使用して構成を変更する場合は、**エクスポート-csconfiguration**コマンドレットを使用して、変更を行った後にトポロジ構成ファイル (Xds) のスナップショットバックアップを取得し、変更が失われないようにします。データベースを復元する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e23d8-112">If you use cmdlets or the Lync Server Control Panel to make configuration changes, use the **Export-CsConfiguration** cmdlet to take a snapshot backup of the topology configuration file (Xds.mdf) after you make the changes, so that you won't lose the changes if you need to restore your databases.</span></span> <span data-ttu-id="e23d8-113">この構成は XML 形式でバックアップされ、ZIP ファイルとして圧縮されていることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="e23d8-113">Note that this configuration is backed up in XML format and compressed as a ZIP file.</span></span>
 
-## 障害の影響を最小限に抑えるベスト プラクティス
+  - <span data-ttu-id="e23d8-114">Lync Server のバックアップに使用する共有フォルダーに、バックアップされたすべてのデータを保持する十分なディスク領域があることを確認します。</span><span class="sxs-lookup"><span data-stu-id="e23d8-114">Make sure that the shared folder you plan to use for backing up Lync Server has sufficient disk space to hold all the backed up data.</span></span>
 
-障害によるサービスの中断 (停電、突然のハードウェア故障などの制御しがたい事態によって引き起こされる) に対処する最善の戦略は、それが当然起こるものと考えて、それ相応の計画を立てることです。バックアップと復元の戦略の一環として練り上げる障害管理計画に、以下のプラクティスを含めてください。
+  - <span data-ttu-id="e23d8-115">Lync Server の使用量が少なく、サーバーのパフォーマンスとユーザーエクスペリエンスを向上させるために、バックアップのスケジュールを設定します。</span><span class="sxs-lookup"><span data-stu-id="e23d8-115">Schedule backups when Lync Server usage is typically low, to improve server performance and user experience.</span></span>
 
-Lync サービスの停止と中断の発生が最小であることが組織のビジネスにとって重要な場合は、「[Lync Server 2013 での高可用性および障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」で説明するように、 相互にペアとなるフロントエンド サーバーの実装を検討する必要があります。このプールのどちらかに障害が発生した場合、管理者はそのプールのユーザーを他のプールに切り替えることができるため、ダウンタイムを最小限に抑えられます。
+  - <span data-ttu-id="e23d8-116">データをバックアップする場所がセキュリティで保護されていることを確認します (リモートの場所をお勧めします)。</span><span class="sxs-lookup"><span data-stu-id="e23d8-116">Make sure that the location where you back up data is secure (we recommend a remote location).</span></span>
 
-バックアップと復元の戦略の一環として練り上げる障害管理計画に、以下のプラクティスを含めてください。
+  - <span data-ttu-id="e23d8-117">データを復元する必要がある場合に備えて、バックアップファイルを保存しておきます。</span><span class="sxs-lookup"><span data-stu-id="e23d8-117">Keep the backup files where they will be available, in case you need to restore the data.</span></span>
 
-  - ソフトウェア メディアとソフトウェアおよびファームウェアの更新プログラムをいつでも利用できるようにしておく。
+  - <span data-ttu-id="e23d8-118">組織でサポートされている復元プロセスの定期的なテストを計画してスケジュールします。</span><span class="sxs-lookup"><span data-stu-id="e23d8-118">Plan for and schedule periodic testing of the restoration processes that are supported by your organization.</span></span>
 
-  - ハードウェアおよびソフトウェアに関する記録を残しておく。
+  - <span data-ttu-id="e23d8-119">バックアップと復元のプロセスを事前に検証して、期待どおりに動作することを確認します。</span><span class="sxs-lookup"><span data-stu-id="e23d8-119">Validate your backup and restoration processes in advance to make sure that they work as expected.</span></span>
 
-  - データを定期的にバックアップし、バックアップの整合性を監視する。
+</div>
 
-  - 障害回復のスタッフを訓練し、手順を文書化し、障害回復シミュレーション演習を実施する。
+<div>
 
-  - 予備のハードウェアをいつでも利用できるようにしておく。サービス レベル契約 (SLA) を結ぶ場合は、ハードウェア ベンダーや納入業者と即時交換の契約をする。
+## <a name="best-practices-for-minimizing-the-impact-of-a-disaster"></a><span data-ttu-id="e23d8-120">障害の影響を最小限に抑えるためのベストプラクティス</span><span class="sxs-lookup"><span data-stu-id="e23d8-120">Best Practices for Minimizing the Impact of a Disaster</span></span>
 
-  - トランザクション ログ ファイル (.ldf ファイル) とデータベース ファイル (.mdf ファイル) を別の場所に保存する。
+<span data-ttu-id="e23d8-121">重大なサービス中断 (停電や突然のハードウェア障害などの問題が発生したため) を処理するための最善の戦略は、それらが発生することを前提とし、それに応じて計画することです。</span><span class="sxs-lookup"><span data-stu-id="e23d8-121">The best strategy for dealing with disastrous service interruptions (caused by unmanageable events such as power outages or sudden hardware failures) is to assume they will happen, and to plan accordingly.</span></span>
+
+<span data-ttu-id="e23d8-122">中断と停止を最小限に抑えた Lync サービスが組織にとってビジネスにとって重要である場合は、「[高可用性の計画」および「Lync Server の障害回復」で説明されているように、フロントエンドサーバーのペアプールの実装を検討してください。2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。</span><span class="sxs-lookup"><span data-stu-id="e23d8-122">If Lync services, with a minimum of disruption and outage, are business-critical for your organization, you should consider implementing paired pools of Front End Servers, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span> <span data-ttu-id="e23d8-123">次に、これらのプールのいずれかに障害がある場合、管理者は、そのプールのユーザーを他のプールによって提供されるように切り替えることができます。これには、最小限のダウンタイムがあります。</span><span class="sxs-lookup"><span data-stu-id="e23d8-123">Then, if one of these pools has a disaster, an administrator can switch the users of that pool to be served by the other pool, with a minimum of downtime.</span></span>
+
+<span data-ttu-id="e23d8-124">バックアップと復元の戦略の一部として開発した障害管理計画には、次のものが含まれている必要があります。</span><span class="sxs-lookup"><span data-stu-id="e23d8-124">The disaster management plans that you develop as part of your backup and restoration strategy should include the following:</span></span>
+
+  - <span data-ttu-id="e23d8-125">ソフトウェアメディアとソフトウェアおよびファームウェアの更新プログラムをすぐに利用できるようにします。</span><span class="sxs-lookup"><span data-stu-id="e23d8-125">Keeping your software media, and your software and firmware updates, readily available.</span></span>
+
+  - <span data-ttu-id="e23d8-126">ハードウェアとソフトウェアの記録を管理する。</span><span class="sxs-lookup"><span data-stu-id="e23d8-126">Maintaining hardware and software records.</span></span>
+
+  - <span data-ttu-id="e23d8-127">データを定期的にバックアップし、バックアップの整合性を監視します。</span><span class="sxs-lookup"><span data-stu-id="e23d8-127">Backing up your data regularly and monitoring the integrity of your backups.</span></span>
+
+  - <span data-ttu-id="e23d8-128">障害の回復、手順の文書化、障害回復シミュレーションの訓練の実装など、スタッフのトレーニングを行います。</span><span class="sxs-lookup"><span data-stu-id="e23d8-128">Training your staff in disaster recovery, documenting procedures, and implementing disaster recovery simulation drills.</span></span>
+
+  - <span data-ttu-id="e23d8-129">予備のハードウェアを利用できるようにする。または、サービスレベル契約 (SLA) を利用している場合は、ハードウェアベンダーとサプライヤーとの契約を締結して、メッセージを交換してください。</span><span class="sxs-lookup"><span data-stu-id="e23d8-129">Keeping spare hardware available, or, if you have a service level agreement (SLA), contracting with hardware vendors and suppliers for prompt replacements.</span></span>
+
+  - <span data-ttu-id="e23d8-130">トランザクションログファイル (.ldf ファイル) とデータベースファイル (.mdf ファイル) の場所を分離します。</span><span class="sxs-lookup"><span data-stu-id="e23d8-130">Separating the location of your transaction log files (.ldf files) and database files (.mdf files).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
