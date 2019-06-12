@@ -1,29 +1,63 @@
-﻿---
-title: プールからのフロントエンド サーバーの削除
-TOCTitle: プールからのフロントエンド サーバーの削除
-ms:assetid: 767225c9-7c0b-4d54-a407-d77134ba2abe
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688095(v=OCS.15)
-ms:contentKeyID: 49887003
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: プールからのフロントエンド サーバーの削除
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove a Front End Server from a pool
+ms:assetid: 767225c9-7c0b-4d54-a407-d77134ba2abe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688095(v=OCS.15)
+ms:contentKeyID: 49733694
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b798674173d14c2bd3f5638f6049c3a723786f91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847965"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# プールからのフロントエンド サーバーの削除
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-04_
+# <a name="remove-a-front-end-server-from-a-pool"></a><span data-ttu-id="c1f36-102">プールからのフロントエンド サーバーの削除</span><span class="sxs-lookup"><span data-stu-id="c1f36-102">Remove a Front End Server from a pool</span></span>
 
-Microsoft Lync Server 2010 Enterprise Edition の フロント エンド サーバー は、スタンドアロン コンピューターとしては存在できません。たとえプール内の唯一のコンピューターであっても、フロント エンド プールとして定義する必要があります。
+</div>
 
-ここでは、個々の フロント エンド サーバーを既存の フロント エンド プールから削除するプロセスについて説明します。この フロント エンド サーバーがプール内の最後のサーバーである場合や、プールを完全に削除する場合は、「[フロントエンド プールまたは Standard Edition サーバーの削除](remove-front-end-pool-or-standard-edition-server.md)」を参照してください。フロント エンド プールを削除する前に、個々の フロント エンド サーバーを削除しておく必要はありません。プールを削除する際に、各 フロント エンド サーバーを削除します。
+<div id="mainSection">
 
-## フロントエンド サーバーをプールから削除するには
+<div id="mainBody">
 
-1.  Lync Server 2013 フロントエンド サーバーを開き、トポロジ ビルダーを開きます。
+<span> </span>
 
-2.  Lync Server 2010 ノードに移動します。
+<span data-ttu-id="c1f36-103">_**最終更新日:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="c1f36-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-3.  \[**Enterprise Edition フロントエンド プール**\]、削除する フロント エンド サーバーが存在する フロント エンド プールの順に展開し、削除する フロント エンド サーバーを右クリックして、\[**削除**\] をクリックします。
+<span data-ttu-id="c1f36-104">Microsoft Lync Server 2010 Enterprise Edition のフロントエンドサーバーは、スタンドアロンコンピューターとして存在することはできません。</span><span class="sxs-lookup"><span data-stu-id="c1f36-104">The Microsoft Lync Server 2010 Enterprise Edition Front End Server cannot exist as a stand-alone computer.</span></span> <span data-ttu-id="c1f36-105">プールに1台のコンピュータしかない場合でも、フロントエンドプールとして定義する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c1f36-105">It must be defined as a Front End pool, even if there is only a single computer in the pool.</span></span>
+
+<span data-ttu-id="c1f36-106">このトピックでは、既存のフロントエンドプールから個々のフロントエンドサーバーを削除する手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="c1f36-106">This topic guides you through the process of removing an individual Front End Server from an existing Front End pool.</span></span> <span data-ttu-id="c1f36-107">フロントエンドサーバーがプール内の最後のサーバーである場合、またはプールを完全に削除する場合は、「[フロントエンドプールまたは Standard Edition サーバーを削除](remove-front-end-pool-or-standard-edition-server.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c1f36-107">If the Front End Server is the last server in the pool or if you are removing the pool completely, see [Remove Front End pool or Standard Edition server](remove-front-end-pool-or-standard-edition-server.md).</span></span> <span data-ttu-id="c1f36-108">フロントエンドプールを削除する前に、個々のフロントエンドサーバーを削除する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="c1f36-108">There is no need to remove the individual Front End Servers before you remove the Front End pool.</span></span> <span data-ttu-id="c1f36-109">プールを削除すると、各フロントエンドサーバーが削除されます。</span><span class="sxs-lookup"><span data-stu-id="c1f36-109">When you remove the pool, you remove each Front End Server.</span></span>
+
+<div>
+
+## <a name="to-remove-a-front-end-server-from-a-pool"></a><span data-ttu-id="c1f36-110">プールからフロントエンドサーバーを削除するには</span><span class="sxs-lookup"><span data-stu-id="c1f36-110">To remove a Front End Server from a pool</span></span>
+
+1.  <span data-ttu-id="c1f36-111">Lync Server 2013 フロントエンドサーバーを開き、[トポロジビルダー] を開きます。</span><span class="sxs-lookup"><span data-stu-id="c1f36-111">Open the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
+
+2.  <span data-ttu-id="c1f36-112">Lync Server 2010 ノードに移動します。</span><span class="sxs-lookup"><span data-stu-id="c1f36-112">Navigate to the Lync Server 2010 node.</span></span>
+
+3.  <span data-ttu-id="c1f36-113">[ **Enterprise Edition のフロントエンドプール**] を展開し、削除するフロントエンドサーバーでフロントエンドプールを展開して、削除するフロントエンドサーバーを右クリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c1f36-113">Expand **Enterprise Edition Front End pools**, expand the Front End pool with the Front End Server that you want to remove, right-click the Front End Server that you want to remove, and then click **Delete**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
