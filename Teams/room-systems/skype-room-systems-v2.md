@@ -15,33 +15,60 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Microsoft Teams のルームで利用できる機能について説明します。 '
-ms.openlocfilehash: e4b68b287204abfae9c678f9497d3ac00bf42b4d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8112cdd11f5f5ca192da0780a6a316056e85063b
+ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305386"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34859729"
 ---
-# <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams ミーティング ライセンス
-<a name="bkmk_srs"> </a>
+# <a name="teams-meeting-room-licensing-update"></a>Teams 会議室のライセンス更新 
 
-次の表は、Microsoft Teams のルームで利用できるライセンス依存機能と、それらを取得するためにどのライセンスを購入する必要があるかを示しています。
+## <a name="licensing-solutions-for-shared-communication-devices"></a>共有通信デバイスのライセンスソリューション
+
+Microsoft は、会議室のデバイスごと (Microsoft Teams 室や Microsoft Surface Hub など) について、会議と通話のライセンスを付与する専用の SKU を持っています。
+
+||Microsoft Room SKU |  
+|:--- |:---: |
+|Skype for Business |&#x2714;|
+|Microsoft Teams|  &#x2714;|
+|電話システム|  &#x2714;|
+|電話会議|&#x2714; &sup1;|
+|Microsoft Intune|&#x2714;|  
+|世界中どこでも利用可能 | &#x2714; &sup2;|
+|チャネルの可用性 | EA、EAS、CSP、 <br>Web ダイレクト |
+| | | |
+
+&sup1;利用可能時間と含まれる分数は、地域によって異なる場合があります。 サービスの利用状況を確認するには、[電話会議と通話プランの国と地域の空き時間](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)情報を参照してください。 国内プランの無料通話、国際通話分数などの追加サービスには、消費料金が適用される場合があります。お客様は、これらの機能を無効にして追加の請求を避けることができます。  
+
+&sup2;主権 cloud では使用できません。  
+
+
+> [!NOTE]
+> 現在、Skype for Business Standalone Plan 1 または skype for business plan 2、または Office365 電話システムと通話プランを使用して、E1、E3、E4、E5 Sku を使用している場合、これらは引き続き機能します。 ただし、現在のライセンスの有効期限が切れた後の表では、よりシンプルなライセンスモデルに移行することを検討する必要があります。  
+
+次の表は、Microsoft Teams のルームで利用できる機能と、それらを取得するためにどのライセンスを購入する必要があるかを示しています。
   
 > [!NOTE]
 > セットアップされている会議室はユーザー オブジェクトであり、該当するライセンスが割り当てられている必要があります。
-> 新しい会議室のライセンスが、Office 365 で利用できるようになりました。
 
-|Microsoft Teams 室のシナリオ |現在、Office 365 Premium、Office 365 ProPlus、または Skype for Business Standalone Plan 2 を使用しています。  <br/> 購入する必要のあるもの:  |現在、Enterprise ベースのプランをご利用の場合。  <br/> 購入する必要のあるもの: |Skype for Business Server 2015 (オンプレミスまたはハイブリッド) をご利用の場合。 <br/> 購入する必要のあるもの:|
-|:-----|:-----|:-----|:-----|
-|スケジュールされた会議に参加する。  |Skype for Business スタンドアロン プラン 1 |E1、3、4、または 5  |Skype for Business Server Standard CAL  |
-|臨時の会議を開始する。 |Skype for Business スタンドアロン プラン 2 |E1、3、4、または 5 |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|臨時の会議を開始し、会議から電話番号にダイヤルアウトします。 |電話会議付きの Skype for Business スタンドアロン プラン 2  <br/> **注:** コミュニケーション クレジットは省略可能です。 |電話会議付きの E1 または E3  <br/> または  <br/> E5  <br/> |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|会議室に電話番号を設定して、その会議室からの通話を受けたり、その電話番号を使って電話会議に参加したりします。  |Skype for Business Standalone Plan 2 (Office 365 電話システムと通話プランあり)  <br/> **注:** コミュニケーション クレジットは省略可能です。           |Office 365 の電話システムおよび Office 365 の通話プラン付きの E1 または E3  <br/> または  <br/> E5   |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|  | Microsoft Teams または Skype for Business Online を使用している場合 <br/> 購入する必要のあるもの:   |Skype for Business Server 2015/2019 (オンプレミスまたはハイブリッド) を使用しています。 <br/> 購入する必要のあるもの:|
+|:-----|:-----|:-----|
+|スケジュールされている会議に参加する  | 会議室の SKU  |Skype for Business Server Standard CAL  |
+|臨時の会議を開始する | 会議室の SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|臨時の会議を開始して、会議から電話番号にダイヤル アウトする |  会議室の SKU |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|会議室に電話番号を付け、会議室からの通話の発信や受信を行うか、電話番号を使って電話会議に参加する  | 会議室の SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Microsoft Intune で room デバイスを管理する |会議室の SKU  |[オンプレミス MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm)付きの Microsoft Intune サブスクリプション |
+| |||
 
- **適切なバージョンの windows 10 を使用**する: windows 10 イメージをデバイスに展開する場合は、「 [Microsoft Teams ルームコンソールを構成](/Skypeforbusiness/deploy/deploy-clients/console.md)する」を参照してください。
+> [!NOTE]
+> Room システムに既存のライセンスが割り当てられている場合、これらのライセンスは中断されることなく引き続き機能します。 既存のライセンスの有効期限が切れた場合は、新しい会議室の SKU を使用するように移動する必要があります。  
+
+ **適切なバージョンの windows 10 を使用**する: windows 10 イメージをデバイスに展開する場合は、「 [Microsoft Teams ルームコンソールを構成](https://docs.microsoft.com/microsoftteams/room-systems/console)する」を参照してください。 [ボリュームライセンスサービスセンター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを取得できます。

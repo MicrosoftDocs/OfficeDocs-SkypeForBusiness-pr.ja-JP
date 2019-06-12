@@ -1,48 +1,57 @@
-﻿---
-title: Lync Server 2013 でのユーザー単位のホスト ボイス メール ポリシーの割り当て
-TOCTitle: Lync Server 2013 でのユーザー単位のホスト ボイス メール ポリシーの割り当て
-ms:assetid: d44c71a0-4407-4ab4-b7e0-d671dde3425f
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398919(v=OCS.15)
-ms:contentKeyID: 48273737
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Lync Server 2013 でのユーザー単位のホスト ボイス メール ポリシーの割り当て
+title: 'Lync Server 2013: ユーザーごとにホストされるボイスメールポリシーを割り当てる'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user hosted voice mail policy
+ms:assetid: d44c71a0-4407-4ab4-b7e0-d671dde3425f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398919(v=OCS.15)
+ms:contentKeyID: 48185456
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2202e1b4c03eb25d12e46c3a533313a54bc76c4f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848844"
+---
+# <a name="assign-a-per-user-hosted-voice-mail-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザーごとにホストされるボイスメールのポリシーを割り当てる
 
  
 
-_**トピックの最終更新日:** 2010-11-07_
 
-ユーザー単位のホスト ボイス メール ポリシーを展開するかどうかはオプションです。 ユーザー単位のポリシーを展開する場合は、ユーザー、グループ、または連絡先オブジェクトにポリシーを明示的に割り当てる必要があります。
+ユーザーごとにホストされるボイスメールのポリシーを1つ以上展開することは任意です。 ユーザーごとのポリシーを展開する場合は、ユーザー、グループ、または連絡先オブジェクトに明示的に割り当てる必要があります。
 
-ユーザー単位のホスト ボイス メール ポリシーの割り当て、または割り当ての削除の詳細については、Lync Server 管理シェル のドキュメントにある以下のコマンドレットの説明を参照してください。
+ユーザーごとにホストされるボイスメールポリシーの割り当てまたは削除の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
 
   - Grant-CsHostedVoicemailPolicy
 
   - Remove-CsHostedVoicemailPolicy
 
-## ユーザー単位のホスト ボイス メール ポリシーを割り当てるには
+## <a name="to-assign-a-per-user-hosted-voice-mail-policy"></a>ユーザーごとにホストされるボイスメールのポリシーを割り当てるには
 
-1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
-2.  Grant-CsHostedVoicemailPolicy コマンドレットを実行して、個々のユーザー、グループ、および連絡先オブジェクトにユーザー単位のホスト ボイス メール ポリシーを割り当てます。たとえば、以下を実行します。
+2.  CsHostedVoicemailPolicy コマンドレットを実行して、ユーザーごとにホストされるボイスメールポリシーを個々のユーザー、グループ、連絡先オブジェクトに割り当てます。 たとえば、以下を実行します。
     
         Grant-CsHostedVoicemailPolicy -Identity "Ken Myer" -PolicyName ExRedmond
     
-    この例では、ExRedmond ホスト ボイス メール ポリシーを Ken Myer に割り当てました。
+    この例では、ユーザー Ken Myer に ExRedmond でホストされるボイスメールポリシーを割り当てました。
     
-    **Identity** により、変更するユーザー アカウントを指定しています。 Identity 値は、以下の形式のいずれかで指定できます。
+    **Id**は、変更するユーザーアカウントを指定します。 Id 値は、次の形式のいずれかを使用して指定できます。
     
       - ユーザーの SIP アドレス
     
-      - ユーザーの Active Directory ユーザー プリンシパル名
+      - ユーザーの Active Directory ユーザープリンシパル名
     
-      - ユーザーのドメイン\\ログオン名 (例: contoso\\kenmyer)
+      - ユーザーのドメイン\\ログオン名 (たとえば、contoso\\kenmyer)
     
-      - ユーザーの Active Directory ドメイン サービス表示名 (例: Ken Myer)。 表示名を Identity 値として使用する場合は、アスタリスク (\*) ワイルドカード文字を使用できます。 たとえば、"\* Smith" という Identity は、末尾が " Smith" という文字列値の表示名を持つすべてのユーザーを戻します。
+      - ユーザーの Active Directory ドメインサービスの表示名 (Ken Myer など) Id 値として表示名を使用している場合は、アスタリスク (\*) ワイルドカード文字を使うことができます。 たとえば、"\* smith" という id を指定すると、"smith" という文字列で終わる表示名を持つすべてのユーザーが返されます。
     
-    > [!NOTE]
-    > ユーザーの Active Directory SAM アカウント名は、フォレスト内で一意の名前とは限らないため、Identity 値として使用することはできません。
+
+    > [!NOTE]  
+    > SAM アカウント名はフォレスト内で必ずしも一意ではないため、ユーザーの Active Directory SAM アカウント名を Id 値として使用することはできません。
+
 

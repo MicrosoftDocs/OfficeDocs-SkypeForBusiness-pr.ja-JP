@@ -496,7 +496,7 @@ ms.locfileid: "33898731"
 
 **GPO とメッセージアナライザーによる QoS 構成の検証**
 
-**結果**の概要&nbsp;&nbsp;&nbsp;: & # 9744;_AMP_&nbsp; &nbsp; &nbsp; # 9744 を渡す&nbsp; &nbsp;部分&nbsp; & # 9744;処理
+**結果**の概要&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp;パス &#9744;&nbsp; &nbsp; &nbsp;部分的 &#9744;失敗
 
 <table>
 <tr><th colspan="2">テストのハイライト </th></tr>
@@ -549,7 +549,7 @@ Teams の分割トンネル構成ネットワークの準備の構成と検証�
 
 **分離トンネル構成の検証**
 
-**結果**の概要&nbsp;&nbsp;&nbsp;: & # 9744;_AMP_&nbsp; &nbsp; &nbsp; # 9744 を渡す&nbsp; &nbsp;部分&nbsp; & # 9744;処理
+**結果**の概要&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp;パス &#9744;&nbsp; &nbsp; &nbsp;部分的 &#9744;失敗
 
 <table>
 <tr><th colspan="2">テストのハイライト </th></tr>
@@ -599,7 +599,7 @@ Microsoft のネットワーク評価ツールでは、シミュレートされ�
 
 **場所: Seattle [インサイドワイヤード] クライアントから Office 365 の結果**
 
-**結果**の概要&nbsp;&nbsp;&nbsp;: & # 9744;_AMP_&nbsp; &nbsp; &nbsp; # 9744 を渡す&nbsp; &nbsp;部分&nbsp; & # 9744;処理 
+**結果**の概要&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp;パス &#9744;&nbsp; &nbsp; &nbsp;部分的 &#9744;失敗 
 
 
 
@@ -617,7 +617,7 @@ Microsoft のネットワーク評価ツールでは、シミュレートされ�
 <tr><th colspan="2">テストのハイライト </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">低ライトのテスト  </th></tr><br/><tr><td><strong>問題</strong>: 待ち時間が長い</td><td><strong>修復:</strong>パケットルーティングを調査し、最適なルートを実装します。</td></tr>
-<tr><td><strong>問題</strong>: 往復時間の isn& # 39; 遅延を2倍にする</td><td><strong>修復:</strong>可能なファイアウォールまたはルーターの構成の問題を調査します。 トラフィックパスを調査します。</td></tr>
+<tr><td><strong>問題</strong>: ラウンドトリップ時間が遅延の2倍に&#39;ない</td><td><strong>修復:</strong>可能なファイアウォールまたはルーターの構成の問題を調査します。 トラフィックパスを調査します。</td></tr>
 <tr><td><strong>問題</strong>: 高パケット損失 </td><td><strong>修復:</strong>ネットワークプランナーで、十分な帯域幅が割り当てられていることを確認します。 </td></tr>
 <tr><td><strong>問題</strong>: 高ジッター </td><td> <strong>修復:</strong>適切な区別サービスのコードポイント (DSCP) 値が使用されているかどうかを調査します。 </td></tr>
 <tr><td><strong>問題</strong>: 高パケット損失 </td><td><strong>修復:</strong>パケット損失を調査します。 </td></tr>
@@ -655,7 +655,7 @@ Microsoft のネットワーク評価ツールでは、シミュレートされ�
 通常、現在のサービスプロバイダからの最新の請求書または請求書に必要な情報を見つけることができます。
 
 > [!TIP]
-> 現在サポートされているすべての国/地域で電話番号を移行または転送することができます。ただし、ポート注文の要求を提出する方法は、電話番号のソースとなる国/地域によって異なる場合があります。 現在サポートされている国/地域の最新リストについては、「[電話会議と通話プランの国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)情報」を参照してください。 </Br/><br/>
+> 現在サポートされているすべての国/地域で電話番号を移行または転送することができます。ただし、ポート注文の要求を提出する方法は、電話番号のソースとなる国/地域によって異なる場合があります。 現在サポートされている国/地域の最新リストについては、「[電話会議と通話プランの国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)情報」を参照してください。 </br/><br/>
 >   電話会議への電話番号の移行に関するその他の情報については、「office [365 に電話番号を転送する](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)」および「 [office 365 内の無料ダイヤル制限](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.)」を参照してください。
 
 #### <a name="step-3"></a>手順3
@@ -716,7 +716,7 @@ Microsoft のネットワーク評価ツールでは、シミュレートされ�
 
 **サービス番号の移植**
 
-**結果**の概要&nbsp;&nbsp;&nbsp;: & # 9744;_AMP_&nbsp; &nbsp; &nbsp; # 9744 を渡す&nbsp; &nbsp;部分&nbsp; & # 9744;処理 
+**結果**の概要&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp;パス &#9744;&nbsp; &nbsp; &nbsp;部分的 &#9744;失敗 
 
 <table>
 <tr><th colspan="2">テストのハイライト </th></tr>
@@ -776,7 +776,7 @@ Microsoft のネットワーク評価ツールでは、シミュレートされ�
 
 | テストケース ID                             | テストケースのタイトル                             | テストケースの説明                                                                            | テストケースの結果の概要 | 割り当てられた欠陥 ID (該当する場合)                                                                          |
 |------------------------------------------|---------------------------------------------|---------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------|
-| 1                                        | Teams の電話会議をスケジュールする | オンライン会議をスケジュールし、会議ブリッジが招待状に表示されることを確認します。 |  &#9744;ステップ<br/>&#9744;部分<br/> &#9744;処理   | RHM が有効になっているユーザーについては、Teams Outlook のスケジュール設定アドインを使用して、ダイヤルインの座標が設定されません。 |
+| 1                                        | Teams の電話会議をスケジュールする | オンライン会議をスケジュールし、会議ブリッジが招待状に表示されることを確認します。 |  &#9744;パス<br/>&#9744;部分<br/> &#9744;Fail   | RHM が有効になっているユーザーについては、Teams Outlook のスケジュール設定アドインを使用して、ダイヤルインの座標が設定されません。 |
 
 
 <table>
@@ -796,7 +796,7 @@ Microsoft のネットワーク評価ツールでは、シミュレートされ�
 
 **Teams の電話会議**
 
-**結果**の概要&nbsp;&nbsp;&nbsp;: & # 9744;_AMP_&nbsp; &nbsp; &nbsp; # 9744 を渡す&nbsp; &nbsp;部分&nbsp; & # 9744;処理 
+**結果**の概要&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp;パス &#9744;&nbsp; &nbsp; &nbsp;部分的 &#9744;失敗 
 
 <table>
 <tr><th colspan="2">テストのハイライト </th></tr>

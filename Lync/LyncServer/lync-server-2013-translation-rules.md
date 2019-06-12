@@ -1,35 +1,61 @@
-﻿---
-title: 'Lync Server 2013: 変換ルール'
-TOCTitle: 変換ルール
-ms:assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398520(v=OCS.15)
-ms:contentKeyID: 48272413
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 翻訳ルール'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Translation rules
+ms:assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398520(v=OCS.15)
+ms:contentKeyID: 48184460
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 22b6fbacf068f6a1a388a968989259afec81d17a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848394"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 変換ルール
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="translation-rules-in-lync-server-2013"></a>Lync Server 2013 の翻訳ルール
 
-Lync Server 2013エンタープライズ VoIP では、逆引き番号検索 (RNL) を実行するためにすべてのダイヤル文字列を正規化して E.164 形式にする必要があります。Microsoft Lync Server 2010 では、着信者番号に対してのみ変換ルールがサポートされていましたが、Microsoft Lync Server 2013 では、発信者番号でも変換ルールがサポートされるようになりました。トランク ピア (つまり、関連付けられたゲートウェイ、構内交換機 (PBX)、または SIP トランク) では、番号を地域のダイヤル形式にすることが必要な場合もあります。E.164 形式から地域のダイヤル形式に番号を変換するには、トランク ピアにルーティングする前に 1 つ以上の変換ルールを定義して要求 URI を操作することができます。たとえば、ダイヤル文字列の先頭から +44 を削除して 0144 に置き換える変換ルールを作成できます。
+</div>
 
-サーバー上で発信ルート変換を実行することで、電話番号を地域のダイヤル形式に変換するための、個々のトランク ピアの構成要件を減らすことができます。特定の 仲介サーバー クラスターにどのゲートウェイを関連付けるのか、およびどの程度の数のゲートウェイを関連付けるのかを計画する際に、必要な変換ルールの数を減らして変換ルールの書き込みにかかる時間を短縮するように、類似した地域のダイヤル要件を持つトランク ピアをグループ化すると役立つ場合があります。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-05_
+
+Lync Server 2013 エンタープライズボイスでは、逆引き数値参照 (RNL) を実行するために、すべてのダイヤル文字列が E.i 形式に正規化されている必要があります。 Microsoft Lync Server 2010 では、翻訳ルールは、呼び出した番号に対してのみサポートされます。 Microsoft Lync Server 2013 の新機能には、翻訳ルールも含まれています。 *トランク ピア* (つまり、関連付けられたゲートウェイ、構内交換機 (PBX)、または SIP トランク) では、番号を地域のダイヤル形式にすることが必要な場合もあります。 E.164 形式から地域のダイヤル形式に番号を変換するには、トランク ピアにルーティングする前に 1 つ以上の変換ルールを定義して要求 URI を操作することができます。 たとえば、ダイヤル文字列の先頭から +44 を削除して 0144 に置き換える変換ルールを作成できます。
+
+サーバーで送信ルートの翻訳を実行すると、電話番号をローカルのダイヤル形式に変換するために、個々のトランクピアの構成要件を減らすことができます。 ゲートウェイとゲートウェイの数を計画しているときに、特定の仲介サーバークラスターと関連付けるには、同様のローカルダイヤル要件でトランクピアをグループ化すると便利な場合があります。 これにより、必要な翻訳ルールの数と書き込みにかかる時間を減らすことができます。
+
+<div>
 
 
-> [!IMPORTANT]
-> 1 つ以上の変換ルールを エンタープライズ VoIP トランク構成に関連付けることは、トランク ピアに変換ルールを構成することの代替として使用されます。トランク ピアで変換ルールを構成した場合は、2 つのルールが競合する可能性があるため、変換ルールを エンタープライズ VoIP トランク構成に関連付けないでください。
+> [!IMPORTANT]  
+> 1つまたは複数の翻訳ルールをエンタープライズボイストランク構成に関連付けることは、トランクピアでの翻訳ルールの設定の代わりとして使用する必要があります。 トランクピアで翻訳ルールを構成している場合は、2つのルールが競合する可能性があるため、翻訳ルールをエンタープライズボイストランク構成に関連付けないでください。
 
 
 
-## 変換ルールの例
+</div>
+
+<div>
+
+## <a name="example-translation-rules"></a>変換ルールの例
 
 以下の変換ルールの例では、トランク ピアについて E.164 形式からローカル形式に番号を変換するルールをサーバー上に作成する方法を示しています。
 
-変換ルールを実装する方法については、「展開」のドキュメントの「[Lync Server 2013 での変換ルールの定義](lync-server-2013-defining-translation-rules.md)」を参照してください。
+翻訳ルールの実装方法の詳細については、展開ドキュメントの「 [Lync Server 2013 で翻訳ルールを定義](lync-server-2013-defining-translation-rules.md)する」を参照してください。
 
 
 <table>
@@ -58,26 +84,39 @@ Lync Server 2013エンタープライズ VoIP では、逆引き番号検索 (RN
 <tbody>
 <tr class="odd">
 <td><p>米国内の従来の長距離電話ダイヤル</p>
-<p>(&quot;+&quot; を削除)</p></td>
+<p>("+" を削除)</p></td>
 <td><p>+1</p></td>
 <td><p>ちょうど 12</p></td>
 <td><p>1</p></td>
 <td><p>0</p></td>
-<td><p>^\+(1\d{10})$</p></td>
-<td><p>$1 キー</p></td>
+<td><p>^\+(1 \ d{10}) $</p></td>
+<td><p>$1</p></td>
 <td><p>+14255551010 を 14255551010 に変換</p></td>
 </tr>
 <tr class="even">
 <td><p>米国長距離国際電話ダイヤル</p>
-<p>(&quot;+&quot; を削除し、011 を追加)</p></td>
+<p>("+" を削除し、011 を追加)</p></td>
 <td><p>+</p></td>
 <td><p>11 以上</p></td>
 <td><p>1</p></td>
 <td><p>011</p></td>
-<td><p>^\+(\d{9}\d+)$</p></td>
+<td><p>^\+(\d{9}\d +) $</p></td>
 <td><p>011$1</p></td>
 <td><p>+441235551010 を 011441235551010 に変換</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

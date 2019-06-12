@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalType'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalType
 ms:assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg558633(v=OCS.15)
-ms:contentKeyID: 48271686
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558633(v=OCS.15)
+ms:contentKeyID: 48183787
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 725d097e1e2e75b6430974a4f133cb5fa4130346
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848575"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の tblPrincipalType
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblprincipaltype-in-lync-server-2013"></a>Lync Server 2013 の tblPrincipalType
 
-tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類するプリンシパル型が含まれます。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-12_
+
+tblPrincipalType には、tblPrincipal テーブルの内容を分類するためのプリンシパルの種類が含まれています。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -35,29 +55,29 @@ tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類す
 <tbody>
 <tr class="odd">
 <td><p>ptypeID</p></td>
-<td><p>NULL でない smallint</p></td>
-<td><p>プリンシパル型 ID。</p></td>
+<td><p>smallint (null ではない)</p></td>
+<td><p>プリンシパルの種類 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeDesc</p></td>
-<td><p>NULL でない nvarchar (256)</p></td>
+<td><p>nvarchar (256)、null ではない</p></td>
 <td><p>型の説明。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ptypeIsSystemUser</p></td>
-<td><p>NULL でない bit</p></td>
-<td><p>型が内部の用途で使用されるプリンシパルに対応する場合、True。</p></td>
+<td><p>ptypeIsSystemUser 場合</p></td>
+<td><p>ビット、null ではない</p></td>
+<td><p>内部目的で使用されるプリンシパルに対応する型の場合は True です。</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeIsUser</p></td>
-<td><p>NULL でない bit</p></td>
-<td><p>型がユーザー型の場合、True。</p></td>
+<td><p>ビット、null ではない</p></td>
+<td><p>型がユーザーの型である場合は True です。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="key"></a>キー
 
 <table>
 <colgroup>
@@ -79,7 +99,7 @@ tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類す
 </table>
 
 
-### プリンシパル値
+### <a name="principal-values"></a>プリンシパルの値
 
 <table>
 <colgroup>
@@ -91,67 +111,81 @@ tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類す
 <thead>
 <tr class="header">
 <th>ID</th>
-<th>[役割]</th>
+<th>役割</th>
 <th>説明</th>
-<th>ユーザー</th>
+<th>[ユーザー]</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
 <td><p>任意</p></td>
-<td><p>既知の型を持たない汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</p></td>
-<td><p></p></td>
+<td><p>既知の型のない汎用プリンシパル。 TblPrincipal テーブルでは使用されません。</p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>
-<td><p>AnyUser</p></td>
-<td><p>ユーザー型の汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</p></td>
-<td><p>○</p></td>
+<td><p>任意のユーザー</p></td>
+<td><p>ユーザーの種類の汎用プリンシパル。 TblPrincipal テーブルでは使用されません。</p></td>
+<td><p>はい</p></td>
 </tr>
 <tr class="odd">
 <td><p>3</p></td>
 <td><p>AnyGroup</p></td>
-<td><p>グループ セマンティックを持つ汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</p></td>
-<td><p></p></td>
+<td><p>グループの意味を持つ汎用プリンシパル。 TblPrincipal テーブルでは使用されません。</p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>
-<td><p>SystemUser</p></td>
-<td><p>常設チャット サーバーによって内部で使用されるプリンシパル。</p></td>
-<td><p></p></td>
+<td><p>他のお互い</p></td>
+<td><p>常設チャットサーバーで内部的に使用されているプリンシパル。</p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>5</p></td>
 <td><p>ユーザー</p></td>
-<td><p>標準のユーザー</p></td>
-<td><p>○</p></td>
+<td><p>標準ユーザー。</p></td>
+<td><p>はい</p></td>
 </tr>
 <tr class="even">
-<td><p>8</p></td>
-<td><p>DC</p></td>
-<td><p>Active Directory ドメイン サービス ドメイン コントローラー。</p></td>
-<td><p></p></td>
+<td><p>個</p></td>
+<td><p>修飾</p></td>
+<td><p>Active Directory ドメインサービスのドメインコントローラー。</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>9</p></td>
-<td><p>グループ</p></td>
-<td><p>Active Directory セキュリティ グループ。</p></td>
-<td><p></p></td>
+<td><p>ファイブ</p></td>
+<td><p>化</p></td>
+<td><p>Active Directory セキュリティグループ。</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>10</p></td>
-<td><p>Folder</p></td>
+<td><p>常用</p></td>
+<td><p>]</p></td>
 <td><p>Active Directory コンテナーまたは組織単位。</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-## 関連項目
+<div>
 
-#### 概念
+## <a name="see-also"></a>関連項目
 
-[Lync Server 2013 の tblPrincipal](lync-server-2013-tblprincipal.md)
+
+[Lync Server 2013 の tblPrincipal](lync-server-2013-tblprincipal.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

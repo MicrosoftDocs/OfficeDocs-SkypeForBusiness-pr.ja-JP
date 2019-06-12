@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test telephone number against a voice policy'
+---
+title: 'Lync Server 2013: ボイスポリシーに対して電話番号をテストする'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test telephone number against a voice policy
 ms:assetid: 30c51700-17c6-4c57-891a-8d5ec30b50ee
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn725207(v=OCS.15)
-ms:contentKeyID: 62335953
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725207(v=OCS.15)
+ms:contentKeyID: 63969596
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: a7a1e24a07a0f6e1e985c9fc42f7468838074d3a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848489"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test telephone number against a voice policy in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Lync Server 2013 でボイスポリシーに対して電話番号をテストする
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-05-20_
 
 
 <table>
@@ -23,58 +43,68 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>毎月</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoicePolicy cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、CsVoicePolicy コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoicePolicy&quot;}</code></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The ability of Enterprise Voice users to make outgoing phone calls over the Public Switched Telephone network (PSTN) hinges, in large part, on three things:
+## <a name="description"></a>説明
 
-  - The voice policy assigned to the user.
+エンタープライズボイスユーザーが公衆交換電話網 (PSTN) のヒンジを介して発信電話を発信する機能 (大きな部分) は、次の3つの点です。
 
-  - The voice routes used to route calls from Lync Server to the PSTN network.
+  - ユーザーに割り当てられている音声ポリシー。
 
-  - The PSTN usage, a Lync Server property that connects a voice policy to a voice route.
+  - Lync Server から PSTN ネットワークへの通話をルーティングするために使用される音声ルート。
 
-The PSTN usage is especially important: it’s the property that connects a voice policy to a voice route. (A voice policy and a voice route are said to be connected if they have at least one PSTN usage in common.) Voice policies can be configured without specifying a PSTN usage. In that case, users who were assigned that policy won't be able to make outgoing calls over the PSTN network. Likewise, voice routes that do not have at least one specified PSTN usage will be unable to route calls to the PSTN network.
+  - PSTN の使用状況。ボイスポリシーをボイスルートに接続する Lync Server プロパティ。
 
-The Test-CsVoicePolicy cmdlet verifies that a given voice policy has a PSTN usage and that the usage is shared by at least one voice route. If the verification run by Test-CsVoicePolicy succeeds, the cmdlet will report back the name of the first valid voice route it finds, and also the name of the PSTN usage that connects the policy to the route.
+PSTN の使用は特に重要です。ボイスポリシーをボイスルートに接続するプロパティです。 (音声ポリシーと音声ルートは、少なくとも1つの PSTN が一般的に使用されている場合、接続されていると言われます)。ボイスポリシーは、PSTN の使用を指定せずに構成できます。 その場合、そのポリシーを割り当てられたユーザーは、PSTN ネットワーク経由での発信通話を行うことができません。 同様に、少なくとも1つの PSTN 使用量が指定されていないボイスルーティングでは、通話を PSTN ネットワークにルーティングすることはできません。
 
-## Running the test
+CsVoicePolicy コマンドレットは、指定された音声ポリシーの使用状況が PSTN であり、少なくとも1つのボイスルートによって使用が共有されていることを確認します。 テスト CsVoicePolicy によって検証が正常に実行された場合、コマンドレットは、最初に見つかった有効なボイスルートの名前を報告し、そのルートにポリシーを接続する PSTN 使用の名前も返します。
 
-To run the Test-CsVoicePolicy cmdlet you must first use the Get-CsVoicePolicy cmdlet retrieve an instance of the voice policy to be tested; that instance must then be piped to Test-CsVoicePolicy. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+CsVoicePolicy コマンドレットを実行するには、まず CsVoicePolicy コマンドレットを使用して、テストする音声ポリシーのインスタンスを取得する必要があります。その後、そのインスタンスを CsVoicePolicy にパイプする必要があります。 次に例を示します。
 
 `Get-CsVoicePolicy -Identity "Global" | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-Note that this command, which does not use Get-CsVoicePolicy to retrieve a voice policy instance, will fail:
+このコマンドは、CsVoicePolicy を使って音声ポリシーインスタンスを取得しないため、失敗します。
 
 `Test-CsVoicePolicy -TargetNumber "+12065551219" -VoicePolicy "Global"`
 
-If you want to check all the voice policies against a specified phone number then use a command similar to this:
+すべての音声ポリシーを指定の電話番号に対して確認する場合は、次のようなコマンドを使用します。
 
 `Get-CsVoicePolicy | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-Note that the TargetNumber must be specified by using the E.164 format. Test-CsVoicePolicy won't attempt to normalize or translate phone numbers into the E.164 format.
+TargetNumber は、E.i 形式で指定する必要があることに注意してください。 CsVoicePolicy は、電話番号を * 164 形式で正規化または翻訳しようとしません。
 
-For more information, see the Help documentation for the Test-CsVoicePolicy cmdlet.
+詳細については、「CsVoicePolicy コマンドレットのヘルプドキュメント」を参照してください。
 
-## Determining success or failure
+</div>
 
-If the voice policy can find both a matching voice route and a matching PSTN usage, then both the route and the usage will be displayed on-screen:
+<div>
+
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+
+ボイスポリシーが一致する音声ルートと、一致する PSTN 使用の両方を見つけることができる場合は、ルートと利用状況の両方が画面に表示されます。
 
 FirstMatchingRoute MatchingUsage
 
@@ -82,27 +112,47 @@ FirstMatchingRoute MatchingUsage
 
 RedmondVoiceRoute RedmondPstnUsage
 
-If either an appropriate voice route or an appropriate PSTN usage cannot be found then blank property values will be displayed on-screen:
+適切な音声ルートまたは適切な PSTN 使用が見つからない場合は、空白のプロパティ値が画面に表示されます。
 
 FirstMatchingRoute MatchingUsage
 
 \------------------ -------------
 
-## Reasons why the test might have failed
+</div>
 
-If Test-CsVoicePolicy does not return a match that could mean that the voice policy does not share a PSTN usage with a voice route. To verify that, use a cmdlet similar to the following to verify that PSTN usages assigned to the voice policy:
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+
+CsVoicePolicy によって検索結果が返されない場合は、ボイスポリシーがボイスルートで PSTN 使用状況を共有していない可能性があります。 これを確認するには、次のようなコマンドレットを使用して、ボイスポリシーに割り当てられている PSTN の使用状況を確認します。
 
 `Get-CsVoicePolicy -Identity "Global" | Select-Object PstnUsages | Format-List`
 
-Next, run this command to determine the PSTN usages assign to each of your voice routes:
+次に、このコマンドを実行して、PSTN 使用状況が各ボイスルートに割り当てられていることを確認します。
 
 `Get-CsVoiceRoute | Select-Object Identity, PstnUsages`
 
-If you see any matches (that is, if you see one or more voice routes that share at least one PSTN usage with your voice policy), you should then run the Test-CsVoiceRoute cmdlet to verify that the voice route can dial the supplied phone number.
+一致するものが見つかった場合 (つまり、音声ポリシーで1つ以上の PSTN 使用を共有する1つ以上の音声ルートが表示されている場合) は、CsVoiceRoute コマンドレットを実行して、ボイスルートが指定した電話番号をダイヤルできることを確認します。
 
-## 関連項目
+</div>
 
-#### その他のリソース
+<div>
 
-[Test-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoicePolicy)
+## <a name="see-also"></a>関連項目
+
+
+[テスト-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsVoicePolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

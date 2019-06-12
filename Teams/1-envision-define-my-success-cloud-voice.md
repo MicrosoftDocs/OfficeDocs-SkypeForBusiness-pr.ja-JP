@@ -222,7 +222,7 @@ KSIs を定義する際には、"特定、測定可能、割り当て可能、�
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|判断のポイント|<ul><li>Organization& # 39 の OKRs と KSIs は何ですか?</li><li>組織での電話会議の実装に関連して特定したリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li><li>組織の通話プランの実装に関連していると判断したリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li><li>組織内の直接ルーティングの実装に関連すると判断されたリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|判断のポイント|<ul><li>組織&#39;s OKRs and KSIs は何ですか?</li><li>組織での電話会議の実装に関連して特定したリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li><li>組織の通話プランの実装に関連していると判断したリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li><li>組織内の直接ルーティングの実装に関連すると判断されたリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次のステップ|<ul><li>OKRs と KSIs を文書化し、リスク登録を確立します。</li></ul>|
 
 <!--ENDOFSECTION-->

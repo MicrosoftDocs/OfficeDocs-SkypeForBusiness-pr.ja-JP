@@ -1,65 +1,99 @@
-﻿---
-title: Lync Server 2013 でのバックエンド サーバーまたは Standard Edition サーバーのアップグレードまたは更新
-TOCTitle: Lync Server 2013 でのバックエンド サーバーまたは Standard Edition サーバーのアップグレードまたは更新
-ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ721942(v=OCS.15)
-ms:contentKeyID: 49887225
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: バックエンドサーバーまたは Standard Edition server をアップグレードまたは更新する
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Upgrade or update a Back End Server or Standard Edition server
+ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721942(v=OCS.15)
+ms:contentKeyID: 49733879
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6b9d5ffba604ed5e32109ed5f1a2020b1e083b22
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848366"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でのバックエンド サーバーまたは Standard Edition サーバーのアップグレードまたは更新
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-11-01_
+# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Lync Server 2013 でバックエンドサーバーまたは Standard Edition サーバーをアップグレードまたは更新する
 
-このトピックでは、Enterprise Editionバック エンド サーバーまたは Standard Edition サーバーで更新をインストールする方法について説明します。
+</div>
 
-アップグレード中にバックエンド サーバーが 30 分以上停止した場合、ユーザーは復元モードになることがあります。アップグレードが完了し、バックエンド サーバーがプール内のフロントエンド サーバーに再度接続されると、ユーザーは完全に元の機能に戻ります。アップグレードが 30 分未満の場合、ユーザーには影響ありません。
+<div id="mainSection">
 
-## バックエンド サーバーまたは Standard Edition サーバーを更新するには
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-11-01_
+
+このトピックでは、Enterprise Edition バックエンドサーバーまたは Standard Edition サーバーに更新プログラムをインストールする方法について説明します。
+
+アップグレード中に少なくとも30分間バックエンドサーバーが停止している場合、ユーザーは回復性モードに移行することがあります。 アップグレードが完了し、バックエンドサーバーがプール内のフロントエンドサーバーに再度接続されると、ユーザーは完全な機能に戻ります。 アップグレードが 30 分未満の場合、ユーザーには影響ありません。
+
+<div>
+
+## <a name="to-update-a-back-end-server-or-standard-edition-server"></a>バックエンド サーバーまたは Standard Edition サーバーを更新するには
 
 1.  アップグレードするサーバーに CsAdministrator の役割のメンバーとしてログオンします。
 
 2.  更新をダウンロードして、ローカル ハードディスクに抽出します。
 
-3.  Lync Server 管理シェルを起動します。\[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\] の順にポイントして、\[**Lync Server 管理シェル**\] をクリックします。
+3.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
-4.  Lync Server のサービスを停止します。コマンド ラインで次を入力します。
+4.  Lync Server サービスを停止します。 コマンド ラインで次を入力します。
     
         Stop-CsWindowsService
 
-5.  World Wide Web サービスを停止します。コマンド ラインで次を入力します。
+5.  World Wide Web サービスを停止します。 コマンド ラインで次を入力します。
     
         net stop w3svc
 
-6.  Lync Server 管理シェルのウィンドウをすべて閉じます。
+6.  すべての Lync Server 管理シェルウィンドウを閉じます。
 
 7.  更新をインストールします。
 
-8.  Lync Server 管理シェルを起動します。\[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\] の順にポイントして、\[**Lync Server 管理シェル**\] をクリックします。
+8.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
-9.  Lync Server のサービスを再度停止して、グローバル アセンブリ キャッシュ (GAC) –d アセンブリを取得します。コマンド ラインで次を入力します。
+9.  もう一度 Lync Server サービスを停止して、グローバルアセンブリキャッシュ (GAC) – d アセンブリをキャッチします。 コマンド ラインで次を入力します。
     
         Stop-CsWindowsService
 
-10. World Wide Web サービスを再起動します。コマンド ラインで次を入力します。
+10. World Wide Web サービスを再起動します。 コマンド ラインで次を入力します。
     
         net start w3svc
 
-11. 次のいずれかを実行して、LyncServerUpdateInstaller.exe が SQL Server データベースに対して行った変更を適用します。
+11. 次のいずれかの操作を行って、LyncServerUpdateInstaller によって行われた変更を SQL Server データベースに適用します。
     
-      - これが Enterprise Editionバック エンド サーバーで、このサーバーにアーカイブ データベースや監視データベースなど、併置されたデータベースがない場合、コマンド ラインで次を入力します。
+      - Enterprise Edition バックエンドサーバーで、データベースのアーカイブや監視など、このサーバー上に併置されたデータベースがない場合は、コマンドラインで次のように入力します。
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     
-      - これが Enterprise Editionバック エンド サーバーで、このサーバーに併置されたデータベースがある場合、コマンド ラインで次を入力します。
+      - Enterprise Edition バックエンドサーバーで、このサーバーに併置されたデータベースがある場合は、コマンドラインで次のように入力します。
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     
-      - Standard Edition サーバーの場合、コマンド ラインで次を入力します。
+      - Standard Edition サーバーの場合は、コマンドラインで次のように入力します。
         
             Install-CsDatabase -Update -LocalDatabases
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

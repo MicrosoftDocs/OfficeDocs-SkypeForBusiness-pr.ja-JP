@@ -33,7 +33,7 @@ Outlook やその他の Microsoft Office アプリケーションから Skype fo
   
 **Skype for Business および Microsoft Office の互換性**
 
-|**機能**|**Microsoft Office 2010**|**Microsoft Office 2013、2015、2016**|**Office 2016 For Mac** & # x2776; |
+|**機能**|**Microsoft Office 2010**|**Microsoft Office 2013、2015、2016**|**Office 2016 For Mac** &#x2776; |
 |:-----|:-----|:-----|:-----|
 |**Outlook の機能** ||||
 |Outlook の会議の招待 (およびロゴ、ヘルプ URL、免責事項、フッター テキスト) をカスタマイズする  |いいえ  |はい   |可|

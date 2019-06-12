@@ -1,35 +1,65 @@
-﻿---
-title: 'Lync Server 2013: トポロジ ビルダーを使用して高可用性と障害回復を構成する'
-TOCTitle: トポロジ ビルダーを使用して高可用性と障害回復を構成する
-ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205172(v=OCS.15)
-ms:contentKeyID: 48273242
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: トポロジ ビルダーを使用して高可用性と障害回復を構成する
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Topology Builder to configure high availability and disaster recovery
+ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205172(v=OCS.15)
+ms:contentKeyID: 48185113
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b167ea64f42510febe0f405d15e2eafab7efc2bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848261"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 でトポロジ ビルダーを使用して高可用性と障害回復を構成する
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-10-06_
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 でトポロジ ビルダーを使用して高可用性と障害回復を構成する
 
-トポロジ ビルダーで次の手順を実行して、 常設チャット サーバーの高可用性と障害復旧を構成します。
+</div>
 
-1.  ミラー データベースとログ配布セカンダリ データベースの SQL Server ストアを追加します。
+<div id="mainSection">
 
-2.  常設チャット サーバー のサービス プロパティを次のように編集します。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-10-06_
+
+[トポロジビルダー] で次の手順を実行して、常設チャットサーバーの高可用性と障害回復を構成します。
+
+1.  ミラーデータベースとログ配布のセカンダリデータベース SQL Server ストアを追加します。
+
+2.  常設チャットサーバーサービスのプロパティを編集するには、次の操作を行います。
     
     1.  プライマリ データベースのミラーリングを有効にします。
     
-    2.  プライマリ ミラーの SQL Server ストアを追加します。
+    2.  プライマリミラー SQL Server ストアを追加します。
     
     3.  SQL Server のログ配布データベースを有効にします。
     
-    4.  SQL Server のログ配布セカンダリ SQL Server ストアを追加します。
+    4.  SQL Server ログ配布のセカンダリ SQL Server ストアを追加します。
     
-    5.  セカンダリ データベースの SQL Server ストア ミラーを追加します。
+    5.  セカンダリデータベースの SQL Server ストアミラーを追加します。
     
     6.  トポロジを公開します。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

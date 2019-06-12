@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing user connection to Exchange UM voicemail'
+---
+title: 'Lync Server 2013: Exchange UM ボイスメールへのユーザー接続のテスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing user connection to Exchange UM voicemail
 ms:assetid: 574da104-8823-4061-9fb6-353639f1884d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn727305(v=OCS.15)
-ms:contentKeyID: 62388705
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727305(v=OCS.15)
+ms:contentKeyID: 63969604
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: f09921d62eddb1f1b426e0e3b1fc4984a0987a8e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848406"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing user connection to Exchange UM voicemail in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="testing-user-connection-to-exchange-um-voicemail-in-lync-server-2013"></a>Lync Server 2013 での Exchange UM ボイスメールへのユーザー接続のテスト
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-11-01_
 
 
 <table>
@@ -23,110 +43,140 @@ _**トピックの最終更新日:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>[毎日]</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsExUMVoiceMail</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、<strong>テスト-CsExUMVoiceMail メール</strong>コマンドレットを実行する権限を持つ RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExUMVoiceMail&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsExUMVoiceMail** cmdlet enables administrators to verify that a user can access and use the Microsoft Exchange Server 2013 unified messaging service. To do this, the cmdlet connects to the unified messaging service and leaves a voice mail in the specified mailbox. This can be a system-supplied voice mail, or it can be a custom .WAV file that you have recorded yourself.
+## <a name="description"></a>説明
 
-## Running the test
+**テスト-CsExUMVoiceMail メール**コマンドレットを使用すると、管理者は、ユーザーが Microsoft Exchange Server 2013 ユニファイドメッセージングサービスにアクセスして使用できることを確認できます。 これを行うために、コマンドレットはユニファイドメッセージングサービスに接続し、指定されたメールボックスにボイスメールを残します。 これは、システムによって提供されるボイスメールの場合もあれば、カスタムの場合もあります。自分で録音した WAV ファイル。
 
-The following example tests Exchange Unified Messaging voice mail connectivity for the pool atl-cs-001.litwareinc.com. This command will work only if test users were defined for the pool atl-cs-001.litwareinc.com. If they have, then the command will determine whether the first test user can use Unified Messaging voice mail. If test users were not configured for the pool then the command will fail.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+次の例では、プール atl-cs-001.litwareinc.com の Exchange ユニファイドメッセージングのボイスメール接続をテストします。 このコマンドは、テストユーザーがプール atl-cs-001.litwareinc.com に対して定義されている場合にのみ機能します。 その場合、コマンドは、最初のテストユーザーがユニファイドメッセージングボイスメールを使用できるかどうかを決定します。 プールのテストユーザーが構成されていない場合、コマンドは失敗します。
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" 
 
-The commands shown in the next example test Exchange Unified Messaging voice mail connectivity for the user litwareinc\\kenmyer. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credentials object for the user litwareinc\\kenmyer. Note that you must supply the password for this account to create a valid credentials object and to ensure that the **Test-CsExUMVoiceMail** cmdlet can run its check.
+次の例に示すコマンドは、ユーザー litwareinc\\Kenmyer の Exchange ユニファイドメッセージングのボイスメール接続のテストです。 これを行うには、この例の最初のコマンドでは、 **Credential**コマンドレットを使って、user litwareinc\\kenmyer の Windows PowerShell コマンドラインインターフェイスの credentials オブジェクトを作成します。 このアカウントのパスワードを入力して、有効な資格情報オブジェクトを作成し、**テスト用の CsExUMVoiceMail メール**コマンドレットでチェックを実行できるようにする必要があることに注意してください。
 
-The second command in the example uses the supplied credentials object ($x) and the SIP address of the user litwareinc\\kenmyer to determine whether or this user can connect to Exchange Unified Messaging voice mail.
+この例の2番目のコマンドでは、指定された資格情報オブジェクト ($x) と\\ユーザー litwareinc KENMYER の SIP アドレスを使って、Exchange ユニファイドメッセージングボイスメールに接続できるかどうかを決定します。
 
     $credential = Get-Credential "litwareinc\pilar" 
     
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential 
 
-The command shown in the next example is a variation of the command shown in Example 1; in this case, the OutLoggerVariable parameter is included to generate a detailed log of every step done by the **Test-CsExUMVoiceMail** cmdletand the success or failure of each of those steps. To do this, the OutLoggerVariable parameter is added alongside the parameter value ExumText; that causes detailed logging information to be stored in a variable named $ExumTest. In the final command in the example, the ToXML() method is used to convert the log information to XML format. That XML data is then written to a file that is named C:\\Logs\\VoicemailTest.xml by using the Out-File cmdlet.
+次の例に示すコマンドは、例1に示すコマンドの変形です。この例では、OutLoggerVariable パラメーターが含まれており、**テスト-CsExUMVoiceMail メール**レットによって実行されたすべての手順の詳細なログを生成し、それらの各手順の成功または失敗を生成します。 これを行うには、パラメーター値 ExumText と共に OutLoggerVariable パラメーターを追加します。これにより、詳細なログ情報が $ExumTest という名前の変数に格納されます。 この例の最後のコマンドでは、ToXML () メソッドを使ってログ情報を XML 形式に変換しています。 その XML データは、\\\\VoicemailTest コマンドレットを使用して、C: という名前のファイルに書き込まれます。
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -OutLoggerVariable VoicemailTest 
      
     $VoicemailTest.ToXML() | Out-File C:\Logs\VoicemailTest.xml
 
-## Determining success or failure
+</div>
 
-If Exchange integration is correctly configured, you'll receive output similar to this, with the Result property marked as **Success**:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-Result : Success
+Exchange の統合が適切に構成されている場合は、次のような結果が返され、Result プロパティは**Success**とマークされます。
 
-Latency : 00:00:02.9911345
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Error Message :
+結果: 成功
 
-Diagnosis :
+待ち時間:00:00: 02.9911345
 
-If the specified user can't connect to voicemail, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+エラーメッセージ:
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+診断
 
-domain name (FQDN). Using default Registrar port number. Exception:
+指定したユーザーがボイスメールに接続できない場合、結果は**** エラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
 
-System.InvalidOperationException: No matching cluster found in topology.
+警告: 指定した完全修飾のレジストラーポート番号の読み取りに失敗しました
 
-at
+ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 エラー
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+InvalidOperationException: トポロジで一致するクラスターが見つかりませんでした。
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+自宅
 
-Target Fqdn : atl-cs-001.litwareinc.com
+SipSyntheticTransaction-TryRetri の同期を行います。
 
-Result : Failure
+eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Latency : 00:00:00
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+結果: エラー
 
-did not properly respond after a period of time, or
+待ち時間: 00:00:00
 
-established connection failed because connected host has
+エラーメッセージ: 10060、接続されているパーティのため、接続に失敗しました
 
-failed to respond 10.188.116.96:5061
+一定の期間が経過した後に正しく応答しなかった場合、または
 
-Inner Exception:A connection attempt failed because the
+接続されているホストに、接続に失敗しました
 
-connected party did not properly respond after a period of
+10.188.116.96 に応答できませんでした: 5061
 
-time, or established connection failed because connected host
+内部例外: 接続の試行が失敗したため、接続できませんでした。
 
-has failed to respond 10.188.116.96:5061
+しばらくしても、接続されているパーティが正しく応答しませんでした
 
-Diagnosis :
+接続されているホストが原因で、時刻、または接続に失敗しました
 
-## Reasons why the test might have failed
+さんが10.188.116.96 に応答できませんでした: 5061
 
-Here are some common reasons why **Test-CsExUMVoiceMail** might fail:
+診断
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - This command will fail if the Exchange Server is misconfigured or not yet deployed.
+<div>
 
-## 関連項目
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
 
-#### その他のリソース
+次に **、テスト-CsExUMVoiceMail メール**が失敗する理由をいくつか示します。
 
-[Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity)
+  - 指定されたパラメーター値が正しくありません。 使用する場合は、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。 省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
+
+  - このコマンドは、Exchange サーバーが正しく構成されていないか、まだ展開されていない場合に失敗します。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

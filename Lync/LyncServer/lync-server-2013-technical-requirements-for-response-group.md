@@ -1,67 +1,114 @@
-﻿---
-title: 'Lync Server 2013: 応答グループの技術要件'
-TOCTitle: 応答グループの技術要件
-ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ204863(v=OCS.15)
-ms:contentKeyID: 48271962
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 応答グループの技術要件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Response Group
+ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204863(v=OCS.15)
+ms:contentKeyID: 48184044
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2dd87cb270d527753d9c6404ded4162791b542f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848548"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の応答グループの技術要件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Lync Server 2013 の応答グループの技術要件
 
-ここでは、応答グループ アプリケーション の次の技術要件について説明します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-11-07_
+
+このセクションでは、応答グループアプリケーションの次の技術上の要件について説明します。
 
   - ハードウェア要件
 
   - ソフトウェア要件
 
-  - ポート要件   
+  - ポートの要件
 
-  - オーディオ ファイルの要件
+  - オーディオファイルの要件
 
   - 応答グループ構成ツールの要件
 
-## ハードウェア要件
+<div>
 
-応答グループ アプリケーションのハードウェア要件は フロント エンド サーバーと同じです。ハードウェア要件の詳細については、「サポート」のドキュメントの「[Lync Server 2013　用のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
+## <a name="hardware-requirements"></a>ハードウェア要件
 
-## ソフトウェア要件
+応答グループアプリケーションには、フロントエンドサーバーと同じハードウェア要件があります。 ハードウェア要件の詳細については、サポートドキュメントの「[サーバーハードウェアプラットフォーム (Lync server 2013 の場合](lync-server-2013-server-hardware-platforms.md))」を参照してください。
 
-応答グループ アプリケーションのオペレーティング システムの要件とソフトウェアの前提は フロント エンド サーバーと同じです。ソフトウェア要件の詳細については、「サポート」のドキュメントの「[Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
+</div>
 
-応答グループの音楽およびアナウンスに Windows Media オーディオ (.wma) ファイルを使用する場合は、応答グループ アプリケーションを実行するすべての フロント エンド サーバーまたは Standard Editions サーバーに Windows Media フォーマット ランタイム (Windows Server 2008 R2 を実行するサーバーの場合) または Microsoft Media Foundation (Windows Server 2012 または Windows Server 2012 R2 を実行するサーバーの場合) がインストールされている必要があります。 Windows Server 2008 R2 では、Windows Media フォーマット ランタイムが Windows デスクトップ エクスペリエンスの一部としてインストールされます。
+<div>
 
-オーディオ要件の詳細については、このセクション後半の「オーディオ ファイルの要件」を参照してください。
+## <a name="software-requirements"></a>ソフトウェア要件
 
-## ポートの要件
+応答グループアプリケーションには、フロントエンドサーバーと同じオペレーティングシステム要件とソフトウェアの前提条件があります。 ソフトウェア要件の詳細については、サポートドキュメントの「 [Lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
 
-応答グループ アプリケーションは、次のポートを使用します。
+応答グループの音楽とお知らせに Windows Media Audio (.wma) ファイルを使用している場合は、Windows を実行しているサーバーに対して、応答グループアプリケーションを実行するすべてのフロントエンドサーバーまたは標準エディションのサーバーに Windows Media Format ランタイムがインストールされている必要があります。Windows Server 2012 または Windows Server 2012 R2 を実行しているサーバーのサーバー 2008 R2 または Microsoft メディアファンデーション。 Windows Server 2008 R2 の場合、windows Media Format Runtime は Windows デスクトップエクスペリエンスの一部としてインストールされます。
 
-  - **ポート 5071**   SIP リッスン要求のために使用
+オーディオ要件の詳細については、このセクションで後述する「オーディオファイルの要件」を参照してください。
 
-  - **ポート 8404**   サーバー間通信に使用
+</div>
+
+<div>
+
+## <a name="port-requirements"></a>ポートの要件
+
+応答グループのアプリケーションでは、次のポートが使用されます。
+
+  - ****   SIP リスニング要求に使用されるポート5071
+
+  - ****   サーバー間通信に使用されるポート8404
     
-    > [!NOTE]
-    > このポートはマッチ メイキング サービスに使用され、1 つ以上の フロント エンド サーバーを持つプールに 応答グループ アプリケーションが展開される時に必要になります。
+    <div>
+    
+
+    > [!NOTE]  
+    > このポートは、対戦を行うサービスに使用され、複数のフロントエンドサーバーを持つプールに応答グループアプリケーションを展開するときに必要です。
+
+    
+    </div>
+
+<div>
 
 
-> [!NOTE]
-> これらのポートは既定の設定であり、<strong>Set-CsApplicationServer</strong> コマンドレットを使用して変更することができます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
+> [!NOTE]  
+> これらのポートは既定の設定であり、<STRONG>Set-CsApplicationServer</STRONG> コマンドレットを使用して変更することができます。 このコマンドレットの詳細については、「Lync Server 管理シェルのドキュメント」を参照してください。
 
 
-## オーディオ ファイルの要件
 
-応答グループ アプリケーションでは、応答グループのメッセージ、保留音、対話型音声応答 (IVR) の質問に、WAVE (.wav) ファイル形式および Windows Media オーディオ (.wma) ファイル形式を使用できます。
+</div>
 
-Windows Media オーディオ ファイル形式を使用するには、Windows Server 2008 R2 と Windows Server 2008 を実行している フロント エンド サーバーに Windows Media フォーマット ランタイムがインストールされている必要があります。詳細については、このセクションで前述した「ソフトウェア要件」を参照してください。
+</div>
 
-## サポートされる WAVE ファイル形式
+<div>
+
+## <a name="audio-file-requirements"></a>オーディオ ファイルの要件
+
+応答グループのアプリケーションでは、wave (.wav) ファイル形式と Windows Media audio (.wma) ファイル形式がサポートされており、応答グループメッセージ、保留中の音楽、またはインタラクティブな音声応答 (IVR) の質問がサポートされています。
+
+Windows Media オーディオファイル形式では、windows Server 2008 R2 と Windows Server 2008 を実行しているフロントエンドサーバーに Windows Media Format ランタイムがインストールされている必要があります。 詳細については、このセクションで前述した「ソフトウェア要件」を参照してください。
+
+<div>
+
+## <a name="supported-wave-file-formats"></a>サポートされる WAVE ファイル形式
 
 すべての WAVE ファイルは、次の要件を満たしている必要があります。
 
@@ -75,21 +122,37 @@ Windows Media オーディオ ファイル形式を使用するには、Windows 
 
 WAVE ファイルで最適なパフォーマンスを得るには、16 kHz、モノ、16 ビットの WAVE ファイルをお勧めします。
 
-## サポートされる Windows Media オーディオ ファイル形式
+</div>
+
+<div>
+
+## <a name="supported-windows-media-audio-file-formats"></a>サポートされる Windows Media オーディオ ファイル形式
 
 Windows Media オーディオ ファイルを使用する場合、低いビットレートの使用を検討し、読み込み時のシステム パフォーマンスを検証してください。
 
-Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media オーディオ形式に変換できます。Expression Encoder 4 のダウンロードについては、[http://go.microsoft.com/fwlink/?linkid=202843\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=202843%26clcid=0x411) を参照してください。
+Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media オーディオ形式に変換できます。 式エンコーダー4をダウンロードするに[http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)は、を参照してください。
 
-## 応答グループ構成ツールの要件
+</div>
 
-応答グループ構成ツールは、次の表に記載されているオペレーティング システムと Web ブラウザーの組み合わせをサポートします。
+</div>
 
-> [!NOTE]
+<div>
+
+## <a name="response-group-configuration-tool-requirements"></a>応答グループ構成ツールの要件
+
+応答グループ構成ツールでは、次の表に示すオペレーティングシステムと web ブラウザーの組み合わせがサポートされます。
+
+<div>
+
+
+> [!NOTE]  
 > 32 ビット版または 64 ビット版のオペレーティング システムがサポートされています。32 ビット版の Internet Explorer がサポートされています。
 
 
-### サポートされているオペレーティング システムおよび Web ブラウザー
+
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>サポートされているオペレーティング システムおよび Web ブラウザー
 
 <table>
 <colgroup>
@@ -122,10 +185,7 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 <p>Internet Explorer 9 (ネイティブ モード)</p></td>
 </tr>
 <tr class="even">
-<td><p></p>
-<p></p>
-<p></p>
-<p>Windows Server 2008 R2</p>
+<td><p>Windows Server 2008 R2</p>
 <p>Windows Server 2008 R2 Service Pack 1</p></td>
 <td><p>Internet Explorer 8 (ネイティブ モード)</p>
 <p>Internet Explorer 9 (ネイティブ モード)</p></td>
@@ -134,15 +194,25 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 </table>
 
 
-## 応答グループのエージェント コンソール
+</div>
+
+<div>
+
+## <a name="response-group-agent-console"></a>応答グループのエージェント コンソール
 
 エージェント コンソールは、次の表に記載されているオペレーティング システムと Web ブラウザーの組み合わせをサポートします。
 
-> [!NOTE]
+<div>
+
+
+> [!NOTE]  
 > 32 ビット版または 64 ビット版のオペレーティング システムがサポートされています。32 ビット版の Internet Explorer がサポートされています。
 
 
-### サポートされているオペレーティング システムおよび Web ブラウザー
+
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>サポートされているオペレーティング システムおよび Web ブラウザー
 
 <table>
 <colgroup>
@@ -177,7 +247,7 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 <p>Internet Explorer 9 (ネイティブ モード)</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Server 2008 R2</p>
+<td><p>Windows Server 2008 R2</p>
 <p>Windows Server 2008 R2 Service Pack 1</p></td>
 <td><p>Internet Explorer 8 (ネイティブ モード)</p>
 <p>Internet Explorer 9 (ネイティブ モード)</p>
@@ -185,9 +255,22 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 <p>Chrome 18.0</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

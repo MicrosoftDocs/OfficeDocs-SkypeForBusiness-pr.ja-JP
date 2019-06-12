@@ -31,7 +31,7 @@ Skype for Business Server 2019 の新機能には、次のようなものがあ�
 
 Skype for business 2019 を Exchange 2013 または Exchange 2016 と統合すると、exchange UM は Skype for Business Server 2019 で利用可能になります。 Exchange 2019 のサポートが変更されたため、クラウドボイスメールとクラウド自動応答機能を利用して、Exchange UM との統合を強調することができます。  
 
-クラウドボイスメールを使用すると、Skype for Business 2019 users& # x2014 は、オンプレミスと online& # x2014; のどちらでも、Microsoft Cloud で同じボイスメールサービスにアクセスできます。 クラウドボイスメールでは、オンプレミスとオンラインの両方のユーザーに次の利点があります。
+クラウドボイスメールを使用すると、社内または&#x2014;オンラインのどちらにいるかを&#x2014;すべての Skype for Business 2019 ユーザーが、Microsoft Cloud で同じボイスメールサービスにアクセスすることができます。 クラウドボイスメールでは、オンプレミスとオンラインの両方のユーザーに次の利点があります。
 
 - Skype for Business Online、Teams、または Outlook クライアントを使用して、Exchange メールボックス内のボイスメールにアクセスする
 - Web ベースのポータルを使用してボイスメールオプションを管理する機能

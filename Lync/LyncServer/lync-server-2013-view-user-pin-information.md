@@ -1,74 +1,117 @@
-﻿---
-title: ユーザー PIN 情報の表示
-TOCTitle: ユーザー PIN 情報の表示
-ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688067(v=OCS.15)
-ms:contentKeyID: 49886968
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ユーザー PIN 情報の表示'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View user PIN information
+ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688067(v=OCS.15)
+ms:contentKeyID: 49733661
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eb3d854f68e9e22e8d8fb1fa0d26f555f09af1ae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848180"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ユーザー PIN 情報の表示
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-23_
+# <a name="view-user-pin-information-in-lync-server-2013"></a>Lync Server 2013 でユーザーの PIN 情報を表示する
 
-Active Directory ドメイン サービス (AD DS) の資格情報を持つ Lync Server 2013 ユーザーが、認証されたユーザーとしてダイヤルイン会議に参加するには、暗証番号 (PIN) が必要です。ユーザーの PIN 情報は、Lync Server 2013 コントロール パネルから表示できます。
+</div>
 
-> [!NOTE]
-> PIN が設定されているかどうかや PIN の最終変更日時などの PIN 状態情報を表示することはできますが、PIN の状態を調べても最新の PIN は確認できません。ユーザーが PIN をなくした場合は、「<a href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Lync Server 2013 でのユーザーのダイヤルイン会議 PIN の設定</a>」の手順に従って PIN をリセットできます。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-02-23_
+
+認証されたユーザーとしてダイヤルイン会議に参加するには、Lync Server 2013 ユーザーの Active Directory ドメインサービス (AD DS) の資格情報に暗証番号 (PIN) が必要です。 ユーザーの PIN 情報は、Lync Server 2013 コントロールパネルから表示できます。
+
+<div>
 
 
-## Lync Server コントロール パネルでユーザーの PIN を表示するには
+> [!NOTE]  
+> PIN が設定されているかどうかや PIN の最終変更日時などの PIN 状態情報を表示することはできますが、PIN の状態を調べても最新の PIN は確認できません。 ユーザーが PIN を紛失した場合は、「<A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">ユーザーのダイヤルイン会議 PIN を Lync Server 2013 で設定</A>する」の手順に従ってリセットできます。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-view-a-users-pin-in-lync-server-control-panel"></a>Lync Server コントロールパネルでユーザーの PIN を表示するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
 
-3.  左側のナビゲーション バーで \[**ユーザー**\] をクリックします。
+3.  左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4.  ユーザーを探すには、次のどちらかの方法を使用します。
+4.  ユーザーを探すには、次のいずれかの方法を使用します。
     
-      - \[**ユーザーの検索**\] ボックスに、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、またはユーザー アカウントの回線 URI (Uniform Resource Identifier) の全体か最初の一部の文字列を入力して、\[**検索**\] をクリックします。
+      - [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、またはユーザー アカウントの回線 URI (Uniform Resource Identifier) の全体か先頭部分の文字列を入力して、[**検索**] をクリックします。
     
-      - 保存済みのクエリがある場合は、\[**クエリを開く**\] アイコンをクリックします。\[**開く**\] ダイアログ ボックスを使用してそのクエリ (.usf ファイル) を取得し、\[**検索**\] をクリックします。
+      - 保存したクエリがある場合は、[**クエリを開く**] アイコンをクリックして、[**開く**] ダイアログ ボックスを使用してそのクエリ (.usf ファイル) を取得してから、[**検索**] をクリックします。
 
 5.  (オプション) 結果を絞り込むための追加の検索条件を次のように指定します。
     
-    1.  \[**フィルターの追加**\] をクリックします。
+    1.  [**フィルターの追加**] をクリックします。
     
     2.  ユーザーのプロパティを入力するか、ドロップダウン リストの矢印をクリックして選択し、プロパティを指定します。
     
-    3.  \[**次の値に等しい**\] ドロップダウン リストで、演算子 (例: \[**次の値に等しい**\] または \[**次の値に等しくない**\]) をクリックします。
+    3.  [**次の値に等しい**] ドロップダウン リストで、演算子 (例: [**次の値に等しい**]、[**次の値に等しくない**]) をクリックします。
     
     4.  選択したユーザー プロパティに応じて、検索結果のフィルターに使用する条件を入力するか、ドロップダウン リストの矢印をクリックして指定します。
         
+        <div>
+        
 
-        > [!TIP]
+        > [!TIP]  
         > クエリにその他の検索句を追加するには、[<STRONG>フィルターの追加</STRONG>] をクリックします。
 
+        
+        </div>
     
-    5.  \[**検索**\] をクリックします。
+    5.  [**検索**] をクリックします。
     
-    > [!NOTE]
-    > PIN がロックされている場合は、ロックを解除しないと PIN を設定できません。PIN のロックを解除するには、ユーザーをクリックし、[<strong>アクション</strong>] をクリックして、[<strong>PIN のロック解除</strong>] をクリックします。
+    <div>
+    
 
+    > [!NOTE]  
+    > PIN がロックされている場合は、ロックを解除しないと PIN を設定できません。PIN のロックを解除するには、ユーザーをクリックし、[<STRONG>アクション</STRONG>] をクリックして、[<STRONG>PIN のロック解除</STRONG>] をクリックします。
 
-6.  検索結果でユーザーをクリックし、\[**アクション**\] をクリックして、\[**PIN の状態を表示**\] をクリックします。
+    
+    </div>
 
-## Lync Server 管理シェル コマンドレットを使用してユーザーの PIN 情報を表示するには
+6.  検索結果でユーザーをクリックし、[**アクション**] をクリックして、[**PIN の状態を表示**] をクリックします。
 
-Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN 情報を表示できます。このコマンドレットは、Lync Server 2013 管理シェルから実行することも、Windows PowerShell のリモート セッションから実行することもできます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+</div>
 
-## ユーザーの PIN 情報を表示するには
+<div>
 
-  - ユーザーの PIN 情報を表示するには、Lync Server 管理シェルで次のようなコマンドを入力し、Enter キーを押します。
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してユーザーの PIN 情報を表示する
+
+Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN 情報を表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+
+<div>
+
+## <a name="to-view-user-pin-information"></a>ユーザーの PIN 情報を表示するには
+
+  - ユーザーの PIN 情報を表示するには、Lync Server 管理シェルで次のようなコマンドを入力し、enter キーを押します。
     
         Get-CsClientPinInfo -Identity "Ken Myer"
     
-    これは次のような情報を返します。
+    次のような情報が表示されます。
     
         Identity          : sip:kenmyer@litwareinc.com
         IsPinSet          : False
@@ -76,12 +119,30 @@ Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN �
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-詳細については、[Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer) コマンドレットに関するヘルプ トピックを参照してください。
+</div>
 
-## 関連項目
+詳細については、 [CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/Get-CsConferenceDisclaimer)コマンドレットのヘルプトピックを参照してください。
 
-#### タスク
+</div>
 
-[Lync Server 2013 でのユーザーのダイヤルイン会議 PIN の設定](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)  
-[ユーザー PIN のロックまたはロック解除](lync-server-2013-lock-or-unlock-a-user-pin.md)
+<div>
+
+## <a name="see-also"></a>関連項目
+
+
+[Lync Server 2013 でユーザーのダイヤルイン会議の PIN を設定する](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)  
+[Lync Server 2013 でユーザー PIN をロックまたはロック解除する](lync-server-2013-lock-or-unlock-a-user-pin.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

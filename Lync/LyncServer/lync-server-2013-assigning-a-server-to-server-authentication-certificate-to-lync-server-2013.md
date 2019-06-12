@@ -1,73 +1,107 @@
-﻿---
-title: サーバー間の認証証明書の Microsoft Lync Server 2013 への割り当て
-TOCTitle: サーバー間の認証証明書の Microsoft Lync Server 2013 への割り当て
-ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205253(v=OCS.15)
-ms:contentKeyID: 48273556
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: サーバー間認証証明書を Lync Server 2013 に割り当てる
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assigning a server-to-server authentication certificate to Microsoft Lync Server 2013
+ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205253(v=OCS.15)
+ms:contentKeyID: 48185367
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63d4e5e3ac8c544e83ab9cfb8f82a5c70f86131b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848847"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# サーバー間の認証証明書の Microsoft Lync Server 2013 への割り当て
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-10-24_
+# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>サーバー間認証証明書を Microsoft Lync Server 2013 に割り当てる
 
-サーバー対サーバーの認証の証明書が Microsoft Lync Server 2013 に割り当てられているかどうかを判別するには、Lync Server 2013 管理シェルから次のコマンドを実行します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-10-24_
+
+サーバー間認証証明書が Microsoft Lync Server 2013 に既に割り当てられているかどうかを確認するには、Lync Server 2013 管理シェルから次のコマンドを実行します。
 
     Get-CsCertificate -Type OAuthTokenIssuer
 
-証明書情報が返されない場合、サーバー対サーバーの認証を使用するためには、その前にトークン発行元の証明書を割り当てる必要があります。一般に、Lync Server 2013 の証明書はユーザーの OAuthTokenIssuer 証明書として使用できます。たとえば、Lync Server 2013 の既定の証明書は OAuthTokenIssuer 証明書としても使用できます (OAUthTokenIssuer 証明書は、Subject フィールドにユーザーの SIP ドメイン名を含む Web サーバー証明書にもなります)。サーバー対サーバーの認証に使用する証明書に関する 2 つの主な要件は次のとおりです。1) すべてのフロントエンド サーバーで同じ証明書を OAuthTokenIssuer 証明書として構成する必要があります。2) 証明書は最低 2048 ビットでなければなりません。
+証明書情報が返されない場合は、サーバー間認証を使用する前に、トークン発行元の証明書を割り当てる必要があります。 一般的な規則として、すべての Lync Server 2013 証明書を OAuthTokenIssuer 証明書として使うことができます。たとえば、Lync Server 2013 の既定の証明書は、OAuthTokenIssuer 証明書としても使うことができます。 (OAUthTokenIssuer 証明書には、[件名] フィールドに SIP ドメイン名を含む Web サーバー証明書でもかまいません)。サーバー間認証に使用される証明書の主な2つの要件を次に示します。 1) 同じ証明書をすべてのフロントエンドサーバー上の OAuthTokenIssuer 証明書として構成する必要があります。および 2) 証明書は、2048ビット以上である必要があります。
 
-サーバー対サーバーの認証に使用できる証明書がない場合は、新しい証明書をインポートして、その証明書をサーバー対サーバーの認証に使用します。新しい証明書を要求して取得した後で、フロントエンド サーバーのどれかにログオンし、次のような Windows PowerShell コマンドを使用して証明書をインポートして割り当てます。
+サーバー対サーバーの認証に使用できる証明書がない場合は、新しい証明書をインポートして、その証明書をサーバー対サーバーの認証に使用します。 新しい証明書を要求して取得したら、いずれかのフロントエンドサーバーにログオンし、次のような Windows PowerShell コマンドを使用して、その証明書をインポートして割り当てることができます。
 
     Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificates\ServerToServerAuth.pfx  -Password "P@ssw0rd"
 
-前述のコマンドの Path パラメーターは、証明書ファイルへの完全なパスを表し、Password パラメーターは、その証明書に割り当てられたパスワードを表します。この手順は、1 回だけ実行します。Lync Server のレプリケーション サービスが自動的に作成する一連のスケジュールされたタスクによって、証明書が復号化されてすべてのフロントエンド サーバーに展開されます。
+上記のコマンドパスパラメーターは、証明書ファイルへの完全なパスを表し、Password パラメーターは証明書に割り当てられたパスワードを表します。 この手順は1回だけ実行する必要があります。 Lync Server のレプリケーションサービスは、証明書を解読してすべてのフロントエンドサーバーに展開する一連のスケジュールされたタスクを自動的に作成します。
 
-または、既存の証明書をサーバー対サーバーの認証の証明書として使用することもできます (前述したように、既定の証明書をサーバー対サーバーの認証の証明書として使用できます)。次の 2 つの Windows PowerShell コマンドを実行すると、既定の証明書の Thumbprint プロパティの値が取得され、その値を使用して、既定の証明書がサーバー対サーバーの認証の証明書として設定されます。
+または、既存の証明書をサーバー間認証証明書として使うこともできます。 (前述のように、既定の証明書をサーバー間認証証明書として使用できます。)次のペアの Windows PowerShell コマンドは、既定の証明書の拇印プロパティの値を取得し、その値を使って、サーバー間認証証明書の既定の証明書を作成します。
 
     $x = (Get-CsCertificate -Type Default).Thumbprint
     Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 
-1 つ目のコマンドでは、取得された証明書がグローバルなサーバー対サーバーの認証の証明書として機能するように構成されます。つまり、その証明書はすべてのフロントエンド サーバーにレプリケートされ、使用されます。この場合も、このコマンドはいずれかのフロントエンド サーバーで 1 回だけ実行します。すべてのフロントエンド サーバーで同じ証明書を使用する必要がありますが、各フロントエンド サーバーで OAuthTokenIssuer 証明書を構成する必要はありません。そうではなく、証明書を 1 回構成し、Lync Server のレプリケーション サーバーに各サーバーに対して証明書をコピーさせます。
+上のコマンドでは、取得された証明書がグローバルサーバー間認証証明書として機能するように構成されています。これは、証明書がすべてのフロントエンドサーバーにレプリケートされ、使用されることを意味します。 このコマンドは、1つのフロントエンドサーバーでのみ実行できます。 フロントエンドサーバーはすべて同じ証明書を使用する必要がありますが、各フロントエンドサーバーで OAuthTokenIssuer 証明書を構成しないでください。 代わりに、証明書を1回構成して、Lync Server のレプリケーションサーバーがその証明書を各サーバーにコピーできるようにします。
 
-Set-CsCertificate コマンドレットは、当該の証明書を取得して、即座にその証明書を現在の OAuthTokenIssuer 証明書として機能するように構成します (Lync Server 2013 は 1 つの証明書の種類について、現在の証明書と以前の証明書という 2 つのコピーを保持します)。新しい証明書を即座に OAuthTokenIssuer 証明書として使用開始するには、Set-CsCertificate コマンドレットを使用してください。
+設定-CsCertificate コマンドレットは、該当する証明書を受け取り、現在の OAuthTokenIssuer 証明書として動作するようにその証明書を直ちに構成します。 (Lync Server 2013 では、証明書の種類は、現在の証明書と前の証明書の2つのコピーが保持されます)。新しい証明書を直ちに OAuthTokenIssuer 証明書として使用する必要がある場合は、Set-CsCertificate コマンドレットを使用する必要があります。
 
-Set-CsCertificate コマンドレットを使用して、新しい証明書を "ロール" することもできます。証明書の "ロール" とは、指定した時点から新しい証明書を現在の OAuthTokenIssuer 証明書にするように構成することを意味します。たとえば、次のコマンドを実行すると、既定の証明書が取得してから、2012 年 7 月 1 日付けでその証明書が現在の OAuthTokenIssuer 証明書になるように構成します。
+Set-CsCertificate コマンドレットを使用して、新しい証明書を "ロール" することもできます。 証明書の "ロール" とは、指定した時点から新しい証明書を現在の OAuthTokenIssuer 証明書にするように構成することを意味します。 たとえば、次のコマンドは、既定の証明書を取得し、2012年7月1日の時点で、現在の OAuthTokenIssuer 証明書としてその証明書を設定するように構成します。
 
     $x = (Get-CsCertificate -Type Default).Thumbprint
     Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2012" -Roll
 
-2012 年 7 月 1 日になると、新しい証明書が現在の OAuthTokenIssuer 証明書として構成され、"古い" OAuthTokenIssuer 証明書は以前の証明書として構成されます。
+2012年7月1日に、新しい証明書は現在の OAuthTokenIssuer 証明書として構成され、"old" OAuthTokenIssuer 証明書は前の証明書として構成されます。
 
-Windows PowerShell を使用したくない場合は、証明書 MMC コンソールを使用して 1 台のフロントエンド サーバーから証明書をエクスポートしてから、同じ証明書を他のすべてのフロントエンド サーバーにインポートします。これを行う場合は、証明書とともに秘密キーを必ずエクスポートしてください。
+Windows PowerShell を使用しない場合は、[証明書] MMC コンソールを使用して、1つのフロントエンドサーバーから証明書をエクスポートし、その同じ証明書を他のすべてのフロントエンドサーバーにインポートすることもできます。 これを行う場合は、証明書とともに秘密キーを必ずエクスポートしてください。
 
-
-> [!TIP]
-> この場合、この手順を各フロントエンド サーバーで実行する必要があります。この方法で証明書のエクスポートとインポートを行う場合、Lync Server 2013 は各フロントエンド サーバーにその証明書をレプリケートしません。
+<div>
 
 
+> [!WARNING]
+> この場合は、各フロントエンドサーバーで手順を実行する必要があります。 この方法で証明書をエクスポートおよびインポートするときに、Lync Server 2013 では、各フロントエンドサーバーに証明書が複製されることはありません。
 
-すべてのフロントエンド サーバーに証明書がインポートされたら、Windows PowerShell ではなく Lync Server 展開ウィザードを使用して証明書を割り当てることができます。展開ウィザードを使用して証明書を割り当てるには、展開ウィザードがインストールされているコンピューターで以下の手順を実行します。
 
-1.  \[スタート\]、\[すべてのプログラム\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 展開ウィザード**\] の順にクリックします。
 
-2.  展開ウィザードで、\[**Lync Server システムのインストールまたは更新**\] をクリックします。
+</div>
 
-3.  \[Microsoft Lync Server 2013\] ページで、\[**ステップ 3: 証明書の要求、インストール、または割り当て**\] の見出しの下にある \[**実行**\] ボタンをクリックします (注: そのコンピューターに証明書をインストールしたことがある場合は、\[**実行**\] ボタンのラベルは \[**再実行**\] になります)。
+証明書がすべてのフロントエンドサーバーにインポートされたら、Windows PowerShell の代わりに Lync Server 展開ウィザードを使用して証明書を割り当てることができます。 展開ウィザードを使用して証明書を割り当てるには、展開ウィザードがインストールされているコンピューターで以下の手順に従います。
 
-4.  証明書ウィザードで、**OAuthTokenIssuer** 証明書を選択してから \[**割り当て**\] をクリックします。
+1.  [スタート] をクリックし、[すべてのプログラム] をクリックし、[ **Microsoft Lync server 2013**] をクリックして、[ **Lync server Deployment Wizard**] をクリックします。
 
-5.  証明書の割り当てウィザードの \[**証明書の割り当て**\] ページで、\[**次へ**\] をクリックします。
+2.  展開ウィザードで、[ **Lync Server System のインストールまたは更新**] をクリックします。
 
-6.  \[**証明書ストア**\] ページで、サーバー対サーバーの認証に使用する証明書を選択して \[**次へ**\] をクリックします。
+3.  Microsoft Lync Server 2013 ページで、「**手順 3: 証明書の要求、インストール、または割り当て**を行う」の下にある [**実行**] ボタンをクリックします。 (注: このコンピューターに既に証明書をインストールしている場合は、[**実行**] ボタンは**もう一度 [実行**] というラベルが付けられます。)
 
-7.  \[証明書の割り当ての概要\] ページで、\[**次へ**\] をクリックします。
+4.  証明書ウィザードで、**OAuthTokenIssuer** 証明書を選択してから [**割り当て**] をクリックします。
 
-8.  \[コマンドを実行しています\] ページで、\[**完了**\] をクリックします。
+5.  証明書の割り当てウィザードの [**証明書の割り当て**] ページで、[**次へ**] をクリックします。
+
+6.  [**証明書ストア**] ページで、サーバー対サーバーの認証に使用する証明書を選択して [**次へ**] をクリックします。
+
+7.  [証明書の割り当ての概要] ページで、[**次へ**] をクリックします。
+
+8.  [コマンドを実行しています] ページで、[**完了**] をクリックします。
 
 9.  証明書ウィザードと展開ウィザードを閉じます。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

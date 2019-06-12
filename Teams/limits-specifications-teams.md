@@ -3,7 +3,7 @@ title: Microsoft Teams の制限事項と仕様
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/07/2019
+ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e4ea4a914b0877eebb0dfd07cf643a4ecf52d8
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: 30e3a9de6a832753b8480733528a0db44f4f143b
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802616"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857407"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -49,7 +49,6 @@ ms.locfileid: "34802616"
 |機能     | 上限 |
 |------------|---------------|
 |会議に参加できるユーザー数  | 250    |
-|プライベート チャットに参加できるユーザー数  | 50    |
 
 ## <a name="storage"></a>ストレージ
 
@@ -67,7 +66,7 @@ Team は、SharePoint Online のバックエンドのファイル共有で実行
 |Teams ファイル用のストレージ |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |
 |ファイルアップロードの上限 (ファイル単位)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
-Teams の各 [ファイル] タブは SharePoint Online をバックエンドで実行するため、上記のストレージ制限は Team 内の各チャネルに適用されます。
+チャネルは、チーム用に作成された SharePoint Online サイトコレクション内のフォルダーによってサポートされるため、チャネル内のファイルタブは、所属するチームの記憶域制限を共有します。
 
 詳細については、「[SharePoint Online の制限事項](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)」を参照してください。
 
@@ -77,15 +76,16 @@ Microsoft Teams のチャット リストの一部である会話に参加した
 
 Microsoft Teams チャット機能は、Microsoft Exchange のバックエンドで動作するため、Microsoft Teams 内のチャット機能にExchange メッセージングの制限を適用することができます。 ユーザーが Teams のチャネルにメールを送信する場合、チャネルのメール アドレスを使用します。 一度メールがチャネルの一部になると、誰でもそれに返信して会話を開始できます。 チャネルにメールを送信するための適用可能な制限の一部を次に示します。 
 
-|機能  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
-|---------|---------|---------|---------|---------|
-|メッセージ サイズの制限&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|添付ファイルの制限&Dagger;  |常用     |常用     |常用     |常用    |
-|インライン イメージの制限&Dagger; |50   |50   |50   |50   |
+|機能  | 上限  |
+|---------|---------|
+|プライベート チャットに参加できるユーザー数  | 100    |
+|メッセージサイズ&dagger;  |25 KB   |
+|添付ファイルの数&Dagger;  |常用     |
+|インライン画像の数&Dagger; |50   |
 
 &dagger; メッセージがこの制限を超えると、プレビュー メッセージが生成され、ユーザーは提供されたリンクから元のメールを表示/ダウンロードするように求められます。
 
-&Dagger; 添付ファイルまたはイメージの数がこの制限を超えると、メッセージは処理されず、NDR メールが送信者に送信され、エラーを通知します。
+&Dagger;添付ファイルまたは画像の数がこの制限を超えると、メッセージは処理されず、NDR メールが送信者に送信され、エラーが通知されます。
 
 > [!NOTE]
 > メッセージサイズ、添付ファイル、インライン画像の制限は、すべての Office 365 ライセンスで同じです。

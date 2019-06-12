@@ -1,65 +1,111 @@
-﻿---
-title: Prerequisites
+---
+title: 前提条件
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
 TOCTitle: Prerequisites
 ms:assetid: 48016bea-be3b-4ba5-8df8-d8ad4d9243d9
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ945592(v=OCS.15)
-ms:contentKeyID: 52056760
-ms.date: 06/25/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945592(v=OCS.15)
+ms:contentKeyID: 51541417
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e74603ed20fe144ca89d3ac13bc00fef0e7d6ac3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848859"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prerequisites
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-02-19_
+# <a name="prerequisites"></a>前提条件
 
-There are various hardware, software, and system configuration requirements that you’ll need to run the Lync Server 2013 Stress and Performance Tool.
+</div>
 
-## Client Hardware Requirements
+<div id="mainSection">
 
-To run the Lync Server 2013 Stress and Performance Tool on your Lync Server 2013 deployment, for every 4,500 users whose load you want to simulate, you’ll need at least one dedicated computer that meets the following minimum hardware requirements:
+<div id="mainBody">
 
-  - 1 gigabit network adapter
+<span> </span>
 
-  - 8-GB ram
+_**最終更新日:** 2013-02-19_
 
-  - 2 dual-core central processing units (CPUs)
+Lync Server 2013 のストレスとパフォーマンスのツールを実行するためには、さまざまなハードウェア、ソフトウェア、システム構成の要件があります。
 
-## Client Software Requirements
+<div>
 
-To run the Lync Server 2013 Stress and Performance Tool on your Lync Server 2013 deployment, the supported operating systems are:
+## <a name="client-hardware-requirements"></a>クライアントハードウェア要件
 
-  - Windows Server 2012 operating system
+Lync server 2013 の展開で Lync Server 2013 ストレスおよびパフォーマンスツールを実行するには、ロードをシミュレートするすべての4500ユーザーに対して、次の最小ハードウェア要件を満たす少なくとも1つの専用コンピューターが必要です。
 
-  - Windows Server 2008 operating system (64-bit edition)
+  - 1 ギガビットのネットワーク アダプター
 
-Your client computer must meet the following software requirements:
+  - 8 GB ram
 
-  - You must have the Microsoft .NET Framework 4.5 runtime installed. You can download .NET Framework 4.5 from the Microsoft Download Center at [http://go.microsoft.com/fwlink/?LinkId=143212](http://go.microsoft.com/fwlink/?linkid=143212).
+  - 2デュアルコアセントラルプロセッシングユニット (Cpu)
 
-  - On Windows Server 2008/Windows Server 2012, the Desktop Experience feature must be enabled.
+</div>
 
-  - You must have the Microsoft Visual C++ 2012 redistributable package (x64) installed. You can download Microsoft Visual C++ 2012 Redistributable Package (x64) from the Microsoft Download Center at [http://go.microsoft.com/fwlink/?LinkId=143216](http://go.microsoft.com/fwlink/?linkid=143216).
+<div>
 
-  - A fully configured Lync Server 2013 deployment.
+## <a name="client-software-requirements"></a>クライアントソフトウェア要件
+
+Lync server 2013 のストレスとパフォーマンスツールを Lync Server 2013 の展開で実行するために、サポートされているオペレーティングシステムは次のとおりです。
+
+  - Windows Server 2012 オペレーティングシステム
+
+  - Windows Server 2008 オペレーティングシステム (64 ビット版)
+
+クライアントコンピューターは、次のソフトウェア要件を満たしている必要があります。
+
+  - [Microsoft .Net Framework 4.5](http://go.microsoft.com/fwlink/?linkid=143212)ランタイムがインストールされている必要があります。
+
+  - Windows Server 2008/Windows Server 2012 では、デスクトップエクスペリエンス機能を有効にする必要があります。
+
+  - [Microsoft Visual C++ 2012 再頒布可能パッケージ](http://go.microsoft.com/fwlink/?linkid=143216)(x64) がインストールされている必要があります。
+
+  - 完全に構成された Lync Server 2013 の展開。
+
+<div>
 
 
-> [!IMPORTANT]
-> Microsoft Unified Communications Managed API (UCMA) 4.0 libraries are included in the installation package, so UCMA is not required and should not be installed on client computers.
+> [!IMPORTANT]  
+> Microsoft ユニファイドコミュニケーションマネージ API (UCMA) 4.0 ライブラリはインストールパッケージに含まれているため、UCMA は不要であり、クライアントコンピューターにインストールされていない必要があります。
 
 
 
-## Configuration Requirements
+</div>
 
-The computers that will run the Lync Server 2013 Stress and Performance Tool must be configured according to the following requirements:
+</div>
 
-1.  You must be logged on as a member of the Domain or Local Admins group.
+<div>
 
-2.  Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe) cannot be run on a computer that is also running Lync Server 2013 components.
+## <a name="configuration-requirements"></a>構成要件
 
-3.  You must run the Lync Server 2013 User Creation tool (UserProvisioningTool.exe) on the Front End Server or on the Standard Edition server where the user accounts will reside. When the tool is run multiple times, each user who is enabled for Microsoft Unified Communications must have a unique phone number.
+Lync Server 2013 のストレスとパフォーマンスツールを実行するコンピューターは、次の要件に従って構成する必要があります。
 
-4.  The page file size should be system-managed, or should be at least 1.5 times the amount of RAM on the system.
+1.  ドメインまたはローカル管理者グループのメンバーとしてログオンしている必要があります。
+
+2.  Lync server 2013 のストレスとパフォーマンスツール (LyncPerfTool) は、Lync Server 2013 コンポーネントも実行しているコンピューターでは実行できません。
+
+3.  フロントエンドサーバーまたはユーザーアカウントが存在する Standard Edition サーバーで Lync Server 2013 ユーザー作成ツール (Useritemscontrol Tool) を実行する必要があります。 ツールが複数回実行される場合、Microsoft ユニファイドコミュニケーションを有効にしている各ユーザーは、一意の電話番号を持っている必要があります。
+
+4.  ページファイルのサイズは、システムで管理されているか、システムの RAM の量の1.5 倍以上である必要があります。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

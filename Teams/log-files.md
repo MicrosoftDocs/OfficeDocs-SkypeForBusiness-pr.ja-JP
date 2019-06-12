@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0484b84daa1bd8604c5f2caf9cb728f8fce25a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5e670ffb90c91735578668bc42d1622386a0613
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219780"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857399"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================
@@ -87,7 +87,11 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 |クライアント |場所 |
 |---------|---------|
 |Windows     |%appdata%\Microsoft\Teams\media-stack\*         |
+|            |%appdata%\Microsoft\Teams\skylib\*
+|            |%appdata%\Microsoft\Teams\media-stack\*         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
+|            |~/Library/application support Support/Microsoft/Teams/skylib\*         |
+
 
 
 <a name="desktop-logs"></a>デスクトップ ログ

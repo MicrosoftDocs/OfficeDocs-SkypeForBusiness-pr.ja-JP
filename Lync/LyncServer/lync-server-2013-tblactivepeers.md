@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblActivePeers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblActivePeers
 ms:assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615030(v=OCS.15)
-ms:contentKeyID: 48273343
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615030(v=OCS.15)
+ms:contentKeyID: 48185176
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: ceb6089cfa3f3a9da8103dd0d0691031dac05d05
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848594"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 の tblActivePeers
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblactivepeers-in-lync-server-2013"></a>Lync Server 2013 の tblActivePeers
 
-tblActivePeers には、チャット サービス間の現在のピアツーピア接続が含まれています。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-06-29_
+
+tblActivePeers には、チャットサービス間の現在のピアツーピア接続が含まれています。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -35,19 +55,19 @@ tblActivePeers には、チャット サービス間の現在のピアツーピ�
 <tbody>
 <tr class="odd">
 <td><p>aplServerID</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>エントリを投稿したサーバーの ID。</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>エントリを投稿したサーバーの ID です。</p></td>
 </tr>
 <tr class="even">
 <td><p>aplPeerID</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>投稿元サーバーが接続しているピアの ID。</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>ポスティングサーバーが接続されているピアの ID です。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="keys"></a>機能
 
 <table>
 <colgroup>
@@ -67,12 +87,23 @@ tblActivePeers には、チャット サービス間の現在のピアツーピ�
 </tr>
 <tr class="even">
 <td><p>aplServerID</p></td>
-<td><p>tblServerIdentity.serverID テーブルを参照する外部キー。</p></td>
+<td><p>TblServerIdentity テーブルで参照する外部キー。</p></td>
 </tr>
 <tr class="odd">
 <td><p>aplPeerID</p></td>
-<td><p>tblServerIdentity.serverID テーブルを参照する外部キー。</p></td>
+<td><p>TblServerIdentity テーブルで参照する外部キー。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

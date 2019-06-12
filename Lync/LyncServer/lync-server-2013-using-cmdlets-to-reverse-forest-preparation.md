@@ -1,33 +1,59 @@
-﻿---
-title: 'Lync Server 2013: コマンドレットの使用によるフォレストの準備のリバース'
-TOCTitle: コマンドレットの使用によるフォレストの準備のリバース
-ms:assetid: f48c7eb3-ccb0-48e6-ac79-ab7c7062b9d3
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg413024(v=OCS.15)
-ms:contentKeyID: 48274129
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: コマンドレットの使用によるフォレストの準備のリバース'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using cmdlets to reverse forest preparation
+ms:assetid: f48c7eb3-ccb0-48e6-ac79-ab7c7062b9d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413024(v=OCS.15)
+ms:contentKeyID: 48185822
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cd186fc3b2c6171b49cf3fd4c9e78b8e66b4cc71
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848299"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# コマンドレットの使用による Lync Server 2013 のフォレストの準備のリバース
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2013-06-19_
+# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>コマンドレットの使用による Lync Server 2013 のフォレストの準備のリバース
 
-**Disable-CsAdForest** コマンドレットを使用して、フォレストの準備手順を元に戻します。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2013-06-19_
+
+[**無効化-CsAdForest** ] コマンドレットを使用して、フォレストの準備手順を逆にします。
+
+<div>
 
 
-> [!TIP]
-> Lync Server の以前のバージョンも展開されている環境で、<STRONG>Disable-CsAdForest</STRONG> コマンドレットを実行すると、以前のバージョンのグローバル設定も削除されます。
+> [!WARNING]  
+> 以前のバージョンの Lync Server が展開されている環境で、 <STRONG>CsAdForest</STRONG>コマンドレットを無効にすると、以前のバージョンのグローバル設定も削除されます。
 
 
 
-## コマンドレットを使用してフォレストの準備を元に戻すには
+</div>
 
-1.  ドメインに参加しているコンピューターに、フォレストのルート ドメインの Domain Admins グループ メンバーとしてログオンします。
+<div>
 
-2.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
+## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a>コマンドレットを使用してフォレストの準備を逆にするには
+
+1.  フォレストルートドメインの Domain Admins グループのメンバーとしてドメインに参加しているコンピューターにログオンします。
+
+2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 3.  次のコマンドレットを実行します。
     
@@ -37,17 +63,32 @@ _**トピックの最終更新日:** 2013-06-19_
     
         Disable-CsAdForest -Force -GroupDomain contoso.net
     
-    Force パラメーターは、タスクの実行を強制するかどうかを指定します。このパラメーターが存在しない場合、フォレスト内のドメインの 1 つが Lync Server 2013 用に準備されている場合でも、コマンドは実行されません。Force パラメーターが指定されている場合は、フォレスト内の他のドメインの状態とは関係なく、操作が続行されます。
+    Force パラメーターは、タスクを強制的に実行するかどうかを指定します。 このパラメーターが存在しない場合は、フォレスト内の1つのドメインがまだ Lync Server 2013 用に準備されている場合、コマンドは実行されません。 Force パラメーターを指定した場合、フォレスト内の他のドメインの状態に関係なく、操作は続行されます。
     
-    GroupDomain パラメーターを指定しない場合、既定値はローカル ドメインになります。
+    GroupDomain パラメーターを指定しない場合、既定値はローカルドメインです。
 
-## 関連項目
+</div>
 
-#### タスク
+<div>
+
+## <a name="see-also"></a>関連項目
+
 
 [Lync Server 2013 でのフォレストの準備の実行](lync-server-2013-running-forest-preparation.md)  
 
-#### その他のリソース
 
-[Lync Server 2013 でのフォレストの準備](lync-server-2013-preparing-the-forest.md)
+[Lync Server 2013 でのフォレストの準備](lync-server-2013-preparing-the-forest.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

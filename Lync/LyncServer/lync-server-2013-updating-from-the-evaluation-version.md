@@ -1,53 +1,87 @@
-﻿---
-title: Lync Server 2013 評価版からの更新
-TOCTitle: Lync Server 2013 評価版からの更新
-ms:assetid: 62a88180-4289-4a2a-9cb9-1b9899344a63
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg521005(v=OCS.15)
-ms:contentKeyID: 48272312
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 評価版から更新する'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Updating from the evaluation version of Lync Server 2013
+ms:assetid: 62a88180-4289-4a2a-9cb9-1b9899344a63
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521005(v=OCS.15)
+ms:contentKeyID: 48184294
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4b00fed276229cbaf0e960e28e622e490fb0bfbf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848372"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 評価版からの更新
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2012-06-20_
+# <a name="updating-from-the-evaluation-version-of-lync-server-2013"></a>Lync Server 2013 の評価版からの更新
 
-Microsoft Lync Server 2013 の評価版をインストールした場合は、最終的にその評価版をライセンス版に更新する必要があります。評価版はインストールしてから 180 日後に使用期限が切れるためです。ただし、評価版を完全にアンインストールしてから、ライセンス版をインストールする必要はありません。代わりに、有効なライセンス キーを取得してから、Lync Server フロント エンド サーバー、ディレクター、または エッジ サーバー として動作する各コンピューターで以下の手順を実行して、Lync Server 2013 の評価版を更新できます。監視サーバーまたはアーカイブ サーバーなどの他のサーバーの役割を実行するコンピューターは、更新する必要はありません。
+</div>
 
-## Microsoft Lync Server 2013 の評価版からの更新
+<div id="mainSection">
 
-コンピューターを Lync Server 2013 の評価版からライセンス版に更新するには、次の手順に従います。
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-06-20_
+
+Microsoft Lync Server 2013 の評価版をインストールしている場合、最終的にソフトウェアのライセンスコピーをインストールする必要があります。これは、評価バージョンがインストールされてから180日後に期限切れになるためです。 ただし、評価版を完全にアンインストールしてから、ライセンスを取得したバージョンをインストールする必要はありません。 有効なライセンスキーを取得した後は、lync server のフロントエンドサーバー、ディレクター、またはエッジサーバーとして機能するコンピューターごとに、次の手順を実行して、Lync Server 2013 の評価バージョンを更新できます。 監視サーバーやアーカイブサーバーなど、他のサーバーの役割を実行しているコンピューターは更新する必要がないことに注意してください。
+
+<div>
+
+## <a name="updating-from-the-evaluation-version-of-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013 の評価版からの更新
+
+Lync Server 2013 の評価版から、ライセンスを付与されたバージョンのソフトウェアにコンピューターを更新するには、次の操作を行います。
 
 **Microsoft Lync Server 2013 の評価版からの更新**
 
 1.  ローカル管理者としてコンピューターにログオンします。
 
-2.  \[**スタート**\]、\[**すべてのプログラム**\]、 \[**Microsoft Lync Server 2013**\] の順にクリックし、\[**Lync Server 管理シェル**\] をクリックします。
+2.  [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **Lync server 管理シェル**] の順にクリックします。
 
-3.  Lync Server 管理シェルで、以下のコマンドを入力して、Enter キーを押します。
+3.  Lync Server 管理シェルで、次のコマンドを入力し、enter キーを押します。
     
         msiexec.exe /fvomus server.msi EVALTOFULL=1 /qb
     
-    場合によっては、server.msi ファイルへの完全なパスを指定する必要があります。このファイルは、Lync Server ボリューム メディア インストール ファイルの Setup フォルダー内にあります。
+    ファイルサーバー .msi への完全なパスを指定する必要があることに注意してください。 このファイルは、Lync Server ボリュームメディアインストールファイルのセットアップフォルダーにあります。
 
-4.  セットアップの実行が終了したら、コマンド プロンプトから以下のコマンドを実行して、Enter キーを押します。
+4.  セットアップの実行が完了したら、コマンドプロンプトで次を入力して、enter キーを押します。
     
         Enable-CsComputer
 
-5.  Lync Server の評価版を実行する他のすべてのフロント エンド サーバー、ディレクター、または エッジ サーバーでこの手順を繰り返します。この手順は、Lync Server メディア インストール ファイルを使用して展開されたブランチ オフィス サーバーでも実行する必要があります。
+5.  評価版の Lync Server が実行されている他のフロントエンドサーバー、ディレクター、またはエッジサーバーで、この手順を繰り返します。 この手順は、Lync Server メディアインストールファイルを使用して展開されたブランチオフィスサーバーでも実行する必要があります。
 
-特定のコンピューターで Lync Server の評価版が実行されているかが不明な場合は、以下のコマンドを Lync Server 管理シェル内で実行して確認できます。
+Lync Server の評価版が特定のコンピューターで実行されているかどうかがわからない場合は、Lync Server 管理シェルで次のコマンドを実行して確認できます。
 
     Get-CsServerVersion
 
-[Get-CsServerVersion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsServerVersion) コマンドレットは、ローカル コンピューターを分析して、以下のいずれかを報告します。
+[CsServerVersion](https://docs.microsoft.com/powershell/module/skype/Get-CsServerVersion)コマンドレットを実行すると、ローカルコンピューターが分析され、次のいずれかが返されます。
 
-  - Lync Server ボリューム ライセンス キーがコンピューターにインストールされているため、更新は必要ない。
+  - Lync Server ボリュームライセンスキーがコンピューターにインストールされていることを意味します。つまり、更新は必要ありません。
 
-  - Lync Server 評価版のライセンス キーがインストールされているため、コンピューターを更新する必要がある。
+  - Lync Server 評価ライセンスキーがインストールされていることを意味します。つまり、コンピューターを更新する必要があります。
 
-  - ボリューム ライセンス キーはこのコンピューターでは不要。評価版からライセンス版への更新は、フロントエンド サーバー、ディレクター、およびエッジ サーバーのみで必要。
+  - これは、コンピューター上にボリュームライセンスキーが必要ないことを示します。 評価版からライセンス版への更新は、フロントエンドサーバー、監督、エッジサーバーでのみ行う必要があります。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

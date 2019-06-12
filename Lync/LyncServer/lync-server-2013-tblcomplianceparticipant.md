@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblComplianceParticipant'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblComplianceParticipant
 ms:assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg558655(v=OCS.15)
-ms:contentKeyID: 48272251
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558655(v=OCS.15)
+ms:contentKeyID: 48184262
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e98b257552f728d0976df6331673f1f55d0dbdeb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848589"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 内の tblComplianceParticipant
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2015-03-09_
+# <a name="tblcomplianceparticipant-in-lync-server-2013"></a>Lync Server 2013 内の tblComplianceParticipant
 
-tblComplianceParticipant には、現在の参加者がチャネルおよびサーバー別に格納されます。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2012-09-12_
+
+tblComplianceParticipant には、チャネルあたり、サーバーごとに現在の参加者が含まれています。
+
+### <a name="columns"></a>行
 
 <table>
 <colgroup>
@@ -35,45 +55,45 @@ tblComplianceParticipant には、現在の参加者がチャネルおよびサ�
 <tbody>
 <tr class="odd">
 <td><p>channelUri</p></td>
-<td><p>NULL でない nvarchar (255)</p></td>
-<td><p>チャネルの URI (Uniform Resource Identifier)。</p></td>
+<td><p>nvarchar (255)、null ではない</p></td>
+<td><p>チャネルの Uniform Resource Identifier (URI)。</p></td>
 </tr>
 <tr class="even">
 <td><p>userId</p></td>
-<td><p>NULL でない int</p></td>
-<td><p>参加者のプリンシパル ID (tblPrincipal.prinID テーブルに対応)。</p></td>
+<td><p>int (null ではない)</p></td>
+<td><p>参加者のプリンシパル ID (tblPrincipal ID テーブルに対応)</p></td>
 </tr>
 <tr class="odd">
 <td><p>joinedAt</p></td>
-<td><p>NULL でない bigint</p></td>
-<td><p>参加イベントのタイム スタンプ。</p></td>
+<td><p>bigint (null ではない)</p></td>
+<td><p>参加イベントのタイムスタンプ。</p></td>
 </tr>
 <tr class="even">
 <td><p>partedAt</p></td>
 <td><p>bigint</p></td>
-<td><p>参加者がまだ参加している場合は NULL。NULL でない場合は、チャネル退出イベントのタイム スタンプ。</p>
-<p>これらのエントリは、すべてのトランスレーターがイベントを処理すると最終的に削除されます。</p></td>
+<td><p>参加者がまだ参加している場合は Null です。 チャネルが null でない場合は、チャネルのタイムスタンプがイベントから出ます。</p>
+<p>これらのエントリは、すべての翻訳者がイベントを処理すると、最終的に削除されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>userUri</p></td>
-<td><p>NULL でない nvarchar (255)</p></td>
-<td><p>ユーザーの URI。</p></td>
+<td><p>nvarchar (255)、null ではない</p></td>
+<td><p>ユーザー URI。</p></td>
 </tr>
 <tr class="even">
 <td><p>serverID</p></td>
 <td><p>int</p></td>
-<td><p>サーバーの ID (tblServerIdentity.serverID テーブルなど)。</p></td>
+<td><p>サーバー id (serverID テーブルの場合)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>sessionId</p></td>
 <td><p>bigint</p></td>
-<td><p>サーバー セッション。チャット サービスが起動するたびに生成されるランダムな数値。孤立した参加者の識別を目的としたセッションの区別に使用されます。</p></td>
+<td><p>サーバーセッション。 これは、チャットサービスが開始されるたびに生成されるランダムな番号です。 これは、孤立した参加者を識別する目的でセッションを区別するために使われます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### キー
+### <a name="key"></a>キー
 
 <table>
 <colgroup>
@@ -88,9 +108,20 @@ tblComplianceParticipant には、現在の参加者がチャネルおよびサ�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;channelUri, userId, joinedAt&gt;</p></td>
+<td><p>&lt;channelUri、userId、joinedAt&gt;</p></td>
 <td><p>主キー。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

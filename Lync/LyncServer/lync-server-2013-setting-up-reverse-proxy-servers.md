@@ -1,51 +1,75 @@
-﻿---
-title: 'Lync Server 2013: リバース プロキシ サーバーの設定'
-TOCTitle: リバース プロキシ サーバーの設定
-ms:assetid: 00bc138a-243f-4389-bfa5-9c62fcc95132
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398069(v=OCS.15)
-ms:contentKeyID: 48271058
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: リバース プロキシ サーバーの設定'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up reverse proxy servers
+ms:assetid: 00bc138a-243f-4389-bfa5-9c62fcc95132
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398069(v=OCS.15)
+ms:contentKeyID: 48183225
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ef13f2351ab74c0e3b2ba558a9dbf0aef43d71b5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848736"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 のリバース プロキシ サーバーの設定
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Lync Server 2013 のリバース プロキシ サーバーの設定
 
-Microsoft Lync Server 2013 のエッジ サーバーの展開の場合、ディレクターおよびユーザーのホーム プール上の Lync Server 2013 Web サービス (Office Communications Server では *Web コンポーネント*と呼ばれます) に外部クライアントがアクセスするには、境界ネットワーク内の HTTPS リバース プロキシが必要です。リバース プロキシ経由の外部アクセスが必要な機能には、次のようなものがあります。
+</div>
 
-  - 外部ユーザーが会議の会議コンテンツをダウンロードできるようにする。
+<div id="mainSection">
 
-  - 外部ユーザーが配布グループを展開できるようにする。
+<div id="mainBody">
 
-  - リモート ユーザーがアドレス帳サービスからファイルをダウンロードできるようにする。
+<span> </span>
 
-  - Lync Web App クライアントにアクセスする。
+_**最終更新日:** 2014-05-08_
 
-  - \[ダイヤルイン会議の設定\] Web ページにアクセスする。
+Microsoft Lync Server 2013 Edge Server 展開の場合、外部クライアントがディレクター上の Lync Server 2013 Web サービス (Office Communications Server の*Web コンポーネント*と呼ばれます) にアクセスするには、境界ネットワーク内に HTTPS 逆プロキシが必要です。ユーザーのホームプール。 リバースプロキシを介して外部アクセスを必要とする機能には、次のようなものがあります。
 
-  - 外部デバイスからデバイス更新 Web サービスに接続して更新プログラムを入手できるようにする。
+  - 外部ユーザーによる会議の会議コンテンツのダウンロードを有効にします。
 
-  - モバイル アプリケーションがインターネットからモビリティ (Mcx) URL を自動的に検出して使用できるようにする。
+  - 外部ユーザーが配布グループを展開できるようにします。
 
-  - Lync 2013 クライアント、Lync Windows ストア アプリ、Lync 2013 モバイル クライアントが Lync Discover (自動検出) URL を見つけて統合コミュニケーション API (UCWA) を使用できるようにする。
+  - リモートユーザーがアドレス帳サービスからファイルをダウンロードできるようにします。
 
-HTTP リバース プロキシは、すべてのプールのすべての Web サービスを公開するように設定することをお勧めします。https:// *ExternalFQDN* /\* を公開すると、プールの IIS 仮想ディレクトリがすべて公開されます。組織内の Standard Edition サーバー、フロント エンド プール、または ディレクターや ディレクター プールごとに、公開ルールが 1 つずつ必要です。
+  - Lync Web App クライアントへのアクセス。
 
-また、簡易 URL を公開する必要があります。組織に ディレクターまたは ディレクター プールがある場合は、HTTP リバース プロキシは簡易 URL に対する HTTP/HTTPS 要求をリッスンし、ディレクターまたは ディレクター プール上の外部 Web サービス仮想ディレクトリにプロキシ化します。 ディレクターを展開していない場合は、簡易 URL に対する要求を処理するプールを 1 つ指定する必要があります (これがユーザーのホーム プールでない場合、要求はユーザーのホーム プール上の Web サービスへリダイレクトされます)。簡易 URL は専用の Web 公開ルールで処理するか、ディレクターの Web 公開ルールのパブリック名に追加できます。自動検出サービスの外部 URL も公開する必要があります。
+  - ダイヤルイン会議の設定の web ページにアクセスします。
 
-Microsoft Forefront Threat Management Gateway 2010、Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1、Internet Information Server 7.0、7.5 または 8.0 Application Request Routing (IIS ARR) を、リバース プロキシとして使用できます。このセクションの詳細ステップでは、Forefront Threat Management Gateway 2010 の構成方法について説明します。また、ISA Server 2006 を構成するためのステップはほとんど同じです。別のリバース プロキシを使用する場合は、対応する製品のドキュメントを確認し、ここで定義されている要件を他のリバース プロキシの関連する機能に対応付けてください。IIS ARR に関するガイダンスも提供されています。
+  - デバイス更新 web サービスに接続して更新プログラムを取得するために、外部デバイスを有効にします。
+
+  - モバイルアプリケーションを有効にして、インターネット上のモビリティー (Mcx) Url を自動的に検出して使用できるようにします。
+
+  - Lync 2013 クライアント、Lync Windows ストアアプリ、Lync 2013 モバイルクライアントを有効にして、Lync Discover (自動検出) Url を検索し、ユニファイドコミュニケーションの Web API (UCWA) を使用します。
+
+すべてのプールのすべての Web サービスを公開するように HTTP リバースプロキシを構成することをお勧めします。 公開 https://ExternalFQDN/\*プールのすべての IIS 仮想ディレクトリを公開します。 組織内の標準エディションサーバー、フロントエンドプール、またはディレクターまたはディレクタープールごとに1つの公開ルールが必要です。
+
+さらに、単純な Url を公開する必要があります。 組織がディレクターまたはディレクタープールを使用している場合、HTTP リバースプロキシは、HTTP/HTTPS 要求をリッスンし、その Url をディレクターまたはディレクタープールの外部 Web サービスの仮想ディレクトリにプロキシします。 ディレクターを展開していない場合は、単純な Url への要求を処理するために、1つのプールを指定する必要があります。 (これがユーザーのホームプールではない場合は、ユーザーのホームプールの Web サービスにリダイレクトされます)。 単純な Url は、専用の web 発行ルールによって処理することも、ディレクターの web 公開ルールのパブリック名に追加することもできます。 また、外部自動検出サービス URL を公開する必要もあります。
+
+Microsoft Forefront Threat Management Gateway 2010、Microsoft インターネットセキュリティとアクセラレータ (ISA) サーバー 2006 SP1、または Internet Information Server 7.0、7.5 または 8.0 (アプリケーション要求ルーティング (IIS) をリバースプロキシとして使うことができます。 このセクションの詳細な手順では、Forefront Threat Management Gateway 2010 を構成する方法と ISA Server 2006 を構成する手順について説明します。 ガイダンスは、IIS の ARR にも提供されています。 別のリバースプロキシを使用している場合は、その製品のドキュメントを参照して、ここで定義されている要件を、他のリバースプロキシの関連機能にマップします。
+
+<div>
 
 
-> [!IMPORTANT]
-> Internet Information Server Application Request Routing (IIS ARR) は、Lync Server 2010 と Lync Server 2013 のリバース プロキシを実装するためにサポートされている、完全にテスト済みのオプションです。2012 年 11 月、Microsoft は ForeFront Threat Management Gateway 2010 (TMG) のライセンス販売を終了しました。TMG は引き続き完全にサポートされている製品であり、サード パーティが販売するアプライアンス用に引き続き購入できます。また、多くのサード パーティ製ハードウェアのロード バランサーとファイアウォールが、リバース プロキシをサポートしています。リバース プロキシ機能を持つロード バランサーとファイアウォールについては、Lync Server のリバース プロキシ サポートを提供するための具体的な製品の構成手順をベンダーに確認してください。また、自社製品に関する資料をマイクロソフトに提出済みのベンダーを確認することもできます。サード パーティは自社のソリューションに関するサポートを提供しています。現在ソリューションを提供しているサード パーティを確認するには、「<A href="http://go.microsoft.com/fwlink/?linkid=268730">Infrastructure qualified for Microsoft Lync</A>」を参照してください。
+> [!IMPORTANT]  
+> インターネット Information Server アプリケーション要求ルーティング (IIS ARR) は、Lync Server 2010 および Lync Server 2013 のリバースプロキシを実装するための完全にテストされ、サポートされるオプションです。 2012年11月、Microsoft おの ForeFront Threat Management Gateway 2010、または TMG のライセンス販売。 TMG は、完全にサポートされる製品であり、サードパーティによって販売されているアプライアンスで販売することもできます。 また、多くのサードパーティ製ハードウェアロードバランサーおよびファイアウォールでは、リバースプロキシのサポートが提供されています。 ハードウェアロードバランサーとリバースプロキシ機能を提供するファイアウォールについては、「Lync Server のリバースプロキシサポートを提供するためにその製品を構成する方法については、ベンダーに確認する」を参照してください。 お客様の製品のドキュメントを Microsoft に送信している第三者を表示することもできます。 サポートは、お客様のソリューションのサードパーティによって提供されます。 ソリューションの提供でアクティブなサードパーティを確認するには、「 <A href="http://go.microsoft.com/fwlink/?linkid=268730">Microsoft Lync 用のインフラストラクチャ認定</A>」を参照してください。
 
 
 
-次のトピックと手順では、展開および構成手順の基盤として、Forefront Threat Management Gateway 2010 と IIS ARR を使用します。
+</div>
+
+次のトピックと手順では、展開と構成手順のベースとして Forefront Threat Management Gateway 2010 と IIS ARR を使用します。
 
   - [Lync Server 2013 向けの Web ファームの FQDN の構成](lync-server-2013-configure-web-farm-fqdns.md)
 
@@ -61,25 +85,53 @@ Microsoft Forefront Threat Management Gateway 2010、Microsoft Internet Security
 
   - [Lync Server 2013 でリバース プロキシ経由のアクセスを確認する](lync-server-2013-verify-access-through-your-reverse-proxy.md)
 
-## 作業を始める前に
+<div>
 
-Forefront Threat Management Gateway 2010 をリバース プロキシとして正しく展開するには、Forefront Threat Management Gateway 2010 のドキュメントに定義されている前提条件およびハードウェア要件を使用してサーバーを設定および構成する必要があります。次のトピックを参照して、ハードウェアを正しく構成し、サーバーに Forefront Threat Management Gateway 2010 をインストールしてから次に進んでください。
+## <a name="before-you-begin"></a>始める前に
 
-  - [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+リバースプロキシとして Forefront Threat Management Gateway 2010 を正常に展開するには、Forefront Threat Management Gateway 2010 ドキュメントで定義されている前提条件とハードウェア要件を使用してサーバーをセットアップして構成する必要があります。 続行する前に、次のトピック「ハードウェアを適切に構成し、Forefront Threat Management Gateway 2010 をサーバーにインストールする」を参照してください。
 
-  - [Forefront TMG 2010 のハードウェア推奨事項](http://go.microsoft.com/fwlink/?linkid=291293)
+  - <span></span>  
+    [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
 
-IIS ARR をリバース プロキシとして正しく展開するには、次のトピックでハードウェアの構成と前提条件となるソフトウェアを確認します。
+  - <span></span>  
+    [Forefront TMG 2010 ハードウェア推奨事項](http://go.microsoft.com/fwlink/?linkid=291293)
 
-  - IIS を Windows Server 2008 または Windows Server 2008 R2 にインストールするには、「[Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)」を参照してください。
+IIS ARR をリバースプロキシとして正常に展開するには、次のトピックを参照して、ハードウェアおよび必要なソフトウェアを構成します。
 
-  - IIS を Windows Server 2012 にインストールするには、「[Installing IIS 8 on Windows Server 2012](http://go.microsoft.com/fwlink/?linkid=291297)」を参照してください。
+  - <span></span>  
+    Windows Server 2008 または Windows Server 2008 R2 に IIS をインストールする方法については、「 [Windows server 2008 または Windows server 2008 r2 で iis 7 をインストール](http://go.microsoft.com/fwlink/?linkid=291296)する」を参照してください。
 
-  - IIS を Windows Server 2012 R2 にインストールするには、「[IIS 8.5 の Windows Server 2012 R2 へのインストール (Installing IIS 8.5 on Windows Server 2012 R2)](http://go.microsoft.com/fwlink/?linkid=330687)」を参照してください。
+  - <span></span>  
+    Windows Server 2012 に IIS をインストールする方法については、「 [Windows server 2012 で iis 8](http://go.microsoft.com/fwlink/?linkid=291297)をインストールする」を参照してください。
 
-  - IIS 用の Application Request Routing 拡張機能をダウンロードするには、「[Application Request Routing v2.5 Download](http://go.microsoft.com/fwlink/?linkid=291298)」にある手順に従ってください。
+  - <span></span>  
+    Windows Server 2012 R2 に IIS をインストールする方法については、「 [Windows server 2012 r2 で iis 8.5](http://go.microsoft.com/fwlink/?linkid=330687)をインストールする」を参照してください。
 
-  - ARR をインストールするには、「[Install Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)」の手順を参照してください。
+  - <span></span>  
+    IIS のアプリケーション要求ルーティング拡張機能をダウンロードするには、「[アプリケーション要求ルーティング v 2.5 のダウンロード](http://go.microsoft.com/fwlink/?linkid=291298)」の指示に従ってください。
+
+  - <span></span>  
+    [アプリケーション要求ルーティングバージョン2のインストール](http://go.microsoft.com/fwlink/?linkid=291299)の手順については、ARR をインストールする
     
-> [!NOTE]
-> 現在の記事は ARR 2.0 が対象です。拡張機能のインストールに関して 2 つのバージョンに違いはありません。
+    <div>
+    
+
+    > [!NOTE]  
+    > 現在投稿されている命令は、ARR 2.0 に対応しています。 拡張機能のインストールでは、2つのバージョンの違いはありません。
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test mobile user access'
+---
+title: 'Lync Server 2013: モバイルユーザーアクセスのテスト'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test mobile user access
 ms:assetid: 81d97420-428b-41b7-91ef-185d572d3456
-ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn767947(v=OCS.15)
-ms:contentKeyID: 62486269
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767947(v=OCS.15)
+ms:contentKeyID: 63969624
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: eda2ec2d02fe4189c8e34cf700f6f1fd07895ef6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848512"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test mobile user access in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**トピックの最終更新日:** 2016-12-08_
+# <a name="test-mobile-user-access-in-lync-server-2013"></a>Lync Server 2013 でのモバイルユーザーアクセスのテスト
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**最終更新日:** 2014-06-07_
 
 
 <table>
@@ -23,36 +43,42 @@ _**トピックの最終更新日:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>確認のスケジュール</p></td>
+<td><p>毎月</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>テストツール</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 管理シェル, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsMcxConference cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>必要なアクセス許可</p></td>
+<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、テスト-CsMcxConference コマンドレットを実行する権限を持つ RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxConference&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Mobility Service enables mobile device users to do such things as:
+## <a name="description"></a>説明
 
-1.  Exchange instant messages and presence information.
+モバイルデバイスユーザーは、次のような操作を行うことができます。
 
-2.  Store and retrieve voice mail internally instead of with their wireless provider.
+1.  インスタントメッセージとプレゼンス情報を交換します。
 
-3.  Take advantage of Lync Server capabilities such as Call via Work and dial-out conferencing. The Test-CsMcxConference cmdlet provides a quick and easy way to verify that users can join and participate in Lync Server conferences by using a mobile device.
+2.  ワイヤレスプロバイダーではなく、内部でボイスメールを保存して取得します。
 
-## Running the test
+3.  職場やダイヤルアウト会議などの Lync Server 機能を利用できます。 テスト用の CsMcxConference コマンドレットを使うと、ユーザーがモバイルデバイスを使って Lync Server 会議に参加して参加できることを簡単に確認できます。
 
-To run this check, you must create three Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsMcxConference as shown in the following example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>テストの実行
+
+このチェックを実行するには、3つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次の例のように、テスト-CsMcxConference を呼び出すときに、2つのアカウントの資格情報オブジェクトと SIP アドレスを含める必要があります。
 
     $organizerCred = Get-Credential "litwareinc\kenmyer"
     $user1Cred = Get-Credential "litwareinc\packerman"
@@ -60,85 +86,105 @@ To run this check, you must create three Windows PowerShell credentials objects 
     
     Test-CsMcxConference -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -OrganizerSipAddress "sip:kenmyer@litwareinc.com" -OrganizerCredential $organizerCred -UserSipAddress "sip:pilar@litwareinc.com" -UserCredential $user1Cred -User2SipAddress "sip:adelaney@litwareinc.com" -User2Credential $user2Cred
 
-For more information, see the help topic for the [Test-CsMcxConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxConference) cmdlet.
+詳細については、「[テスト-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxConference)コマンドレット」のヘルプトピックを参照してください。
 
-## Determining success or failure
+</div>
 
-If the check succeeds, Test-CsMcxConference will report a test result of Success:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>成功または失敗を確認する
 
-Target Uri : http://atl-cs-001.litwareinc.com:443/mcx
+チェックが成功した場合は、テスト-CsMcxConference で成功のテスト結果が報告されます。
 
-Result : Success
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Latency : 00:00:00
+ターゲット Uri:http://atl-cs-001.litwareinc.com:443/mcx
 
-Error Message :
+結果: 成功
 
-Diagnosis :
+待ち時間: 00:00:00
 
-If the check is unsuccessful Test-CsMcxConference will report a test result of Failure. This test result will typically be accompanied by a detailed error message and diagnosis. For example:
+エラーメッセージ:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+診断
 
-Target Uri : https://atl-cs-001.litwareinc.com:443/mcx
+テストが失敗した場合は、CsMcxConference で不合格のテスト結果が報告されます。 通常、このテスト結果には、詳細なエラーメッセージと診断が付随します。 次に例を示します。
 
-Result : Failure
+ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-Latency : 00:00:00
+ターゲット Uri:https://atl-cs-001.litwareinc.com:443/mcx
 
-Error Message : No response received for Web-Ticket service.
+結果: エラー
 
-Inner Exception:The HHTP request is unauthorized with client
+待ち時間: 00:00:00
 
-negotiation scheme 'Ntlm'. The authentication header received
+エラーメッセージ: Web チケットサービスの応答がありませんでした。
 
-from the server was 'Negotiate'.
+内部例外: HHTP 要求はクライアントで許可されていません
 
-Inner Exception:The remote server returned an error: (401)
+ネゴシエーションスキーム ' Ntlm '。 認証ヘッダーが受信されました
 
-Unauthorized.
+が、サーバーから ' Negotiate ' されました。
 
-Diagnosis :
+内部例外: リモートサーバーからエラーが返されました: (401)
 
-Inner Diagnosis:X-MS-server-Fqdb : atl-cs-001.litwareinc.com
+第三者.
 
-Cache-Control : private
+診断
 
-Content-Type : text/html; charset=utf-8.
+内部診断: atl-cs-001.litwareinc.com------------------------
 
-Server : Microsoft-IIS/8.5
+キャッシュ制御: プライベート
 
-WWW-Authenticate : Negotiate,NTLM
+Content-type: text/html;charset = utf-8。
 
-X-Powered-By : ASP.NET
+サーバー: Microsoft-IIS/8.5
 
-X-Content-Type-Options : nosniff
+WWW-認証: Negotiate、NTLM
 
-Date : Wed, 28 May 2014 19:22:19 GMT
+X-電力: ASP.NET
 
-Content-Length : 6305
+X-コンテンツタイプ-オプション: nosniff
 
-## Reasons why the test might have failed
+日付: 水曜日、28年5月 19:22:19 2014 日
 
-If Test-CsMcxConference fails you should begin by verifying that the mobility service is running and can be accessed. That can be done by using a web browser to verify that the mobility service URL for your Lync Server pool can be accessed. For example, this command verifies the URL for the pool atl-cs-001.litwareinc.com:
+Content-length: 6305
+
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+
+テスト用の CsMcxConference に失敗した場合は、まずモビリティサービスが実行されていてアクセスできることを確認する必要があります。 この操作を行うには、web ブラウザーを使用して、Lync Server プールのモビリティサービスの URL にアクセスできることを確認します。 たとえば、次のコマンドは、プール atl-cs-001.litwareinc.com の URL を確認します。
 
 `https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc`
 
-If the mobility service can be accessed you should then verify that your test users have valid Lync Server accounts. You can retrieve account information by using a command similar to this:
+モビリティサービスにアクセスできる場合は、テストユーザーが有効な Lync Server アカウントを持っていることを確認する必要があります。 次のようなコマンドを使用して、アカウント情報を取得できます。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.You should also verify that each user account is enabled for mobility. To do that, first determine the mobility policy that is assigned to the account:
+Enabled プロパティが True と等しくない場合、またはコマンドが失敗した場合は、ユーザーが有効な Lync Server アカウントを持っていないことを意味します。各ユーザーアカウントのモビリティが有効になっていることも確認する必要があります。 そのためには、まず、アカウントに割り当てられているモビリティポリシーを特定します。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-After you know the policy name, use the Get-CsMobilityPolicy cmdlet to verify that the policy in question (for example, RedmondMobilityPolicy) has the EnableMobility property set to True:
+ポリシー名がわかったら、Set-csmobilitypolicy コマンドレットを使用して、問題のポリシー (RedmondMobilityPolicy など) で EnableMobility プロパティが True に設定されていることを確認します。
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-If you receive an “authentication header” error message when you run Test-CsMcxConference that often means that you have not specified a valid user account, Verify the user name and password and then try the test again. If you are convinced that the user account is valid, then use the Get-CsWebServiceConfiguration cmdlet and check the value of the UseWindowsAuth property. That will tell you which authentication methods are enabled in your organization.
+テスト用の CsMcxConference を実行するときに、"authentication header" というエラーメッセージが表示される場合は、ユーザー名とパスワードを確認して、もう一度テストしてみてください。 ユーザーアカウントが有効であると確信できる場合は、CsWebServiceConfiguration コマンドレットを使用して、UseWindowsAuth プロパティの値を確認します。 これにより、どの認証方法が組織で有効になっているかがわかります。
 
-For more tips about how to troubleshoot the mobility service, see the blog post [Troubleshooting External Lync Mobility Connectivity Issues Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
+モバイルサービスのトラブルシューティングのヒントについては、「ブログの投稿の[トラブルシューティング外部の Lync モバイル接続の問題のトラブルシューティング](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)」を参照してください。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

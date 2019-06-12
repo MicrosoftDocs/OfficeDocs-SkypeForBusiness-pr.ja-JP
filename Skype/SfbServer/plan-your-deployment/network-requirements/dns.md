@@ -58,9 +58,9 @@ ms.locfileid: "34297065"
 |A/AAAA   |lyncdiscoverinternal.* \<sipdomain\>* <br/> lyncdiscoverinternal.* <span> </span>contoso<span></span>.com*   |HLB フロントエンドプール VIP またはディレクター IP  <br/>  192.168.21.121  |内部自動検出 Service1。モビリティのサポートに必要です。 内部 DNS を使ってモバイルデバイスを解決する場合は、外部 IP または DMZ VIP を参照する必要があります。  <br/> Web サービスの場合、HTTPS は DNS を利用できないため、フロントエンドプールに HLB が必要です。 フロントエンドプールまたはディレクタープールの場合、これは HLB VIP、または Standard edition サーバーまたはスタンドアロンディレクターサーバーの標準 IP に解決されます。   |Y   |
 |CNAME   |lyncdiscoverinternal.* \<sipdomain\>* <br/> lyncdiscoverinternal. *<span></span>contoso<span></span>.com*   |HLB FE プールの FQDN またはディレクターの FQDN  <br/> Web-int-13<span></span><span></span>   |内部自動検出 Service1 <br/> 必要に応じて、これを A レコードではなく CNAME として実装することができます。   ||
 |A/AAAA   |フェデレーション.* \<sipdomain\>* <br/> フェデレーション.* <span> </span>contoso<span></span>.com*  |フロントエンドプールサーバーの IP アドレス (または各ディレクター IP アドレス)  <br/>  DNS LB to *192.168.21.122 192.168.21.123 192.168.21.124*   |自動構成のために必要です。「 [Skype For business クライアントのチュートリアル](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)」を参照してください。 <br/> 内部ネットワーク上のフロントエンドプールサーバーまたはディレクターサーバーを指すレコードまたはレコード、またはクライアントが外部の場合はアクセスエッジサービス   |&#x2777;  |
-|A/AAAA   |ucupdates-r2。* \<sipdomain\>* <br/> ucupdates-r2。* <span> </span>contoso<span></span>.com*  |HLB FE プール VIP またはディレクター プール HLB VIP、または SE/ディレクター サーバー IP  <br/>  192.168.21.121  |このレコードの展開はオプションの & # x2778;  ||
+|A/AAAA   |ucupdates-r2。* \<sipdomain\>* <br/> ucupdates-r2。* <span> </span>contoso<span></span>.com*  |HLB FE プール VIP またはディレクター プール HLB VIP、または SE/ディレクター サーバー IP  <br/>  192.168.21.121  |このレコードの展開はオプション &#x2778;  ||
 |SRV   |\_sipinternaltls.\_tcp。* \<sipdomain\> * <br/>ポート5061 <br/>\_sipinternaltls.\_tcp。* <span> </span>contoso<span></span>.com* <br/>ポート5061  |フロントエンドプール FQDN  <br/>*FE-プール。<span> </span>contoso<span></span>.com*  |サインインについてのクライアントの要求を認証およびリダイレクトするフロントエンド サーバー/プールまたは SE サーバー/プールに対する内部ユーザーの自動サインイン 1 を有効にします。  |&#x2777; |
-|A/AAAA |sipinternal.* \<sipdomain\>* <br/>sipinternal.<span> </span> *contoso<span></span>.com*  |フロントエンドプール FQDN  <br/>_FE-プール。<span> </span>contoso<span></span>.com_  |内部ユーザーアクセス & # x2776;  |&#x2777;  |
+|A/AAAA |sipinternal.* \<sipdomain\>* <br/>sipinternal.<span> </span> *contoso<span></span>.com*  |フロントエンドプール FQDN  <br/>_FE-プール。<span> </span>contoso<span></span>.com_  |内部ユーザーアクセス &#x2776;  |&#x2777;  |
 |SRV   | \_ntp.\_udp。* \<sipdomain\> * <br/> \_ntp.\_udp。<span> </span> *contoso<span></span>.com*  |タイム サーバーの FQDN  <br/> north-america.pool.ntp.org   |Lync Phone Edition デバイスに必要な NTP ソース   |これは、デスクトップハンドセットをサポートするために必要です。   |
 |SRV   |\_sipfederationtls.\_tcp。* \<sipdomain\> * <br/>\_sipfederationtls.\_tcp。<span> </span> *contoso<span></span>.com*  | Access Edge サービス FQDN <br/> EdgePool-int-13<span></span>*<span></span>*  |IOS または Windows Phone のモバイル クライアントが存在する各 SIP ドメインに対して、1 つの SRV レコードを作成します。   |モバイル クライアントのサポートの場合   |
 |A/AAAA   |管理 URL  <br/>*Web-int-13<span></span><span></span>*  |HLB FE プール VIP  <br/> 192.168.21.121   |Skype for Business Server コントロールパネルの「[簡単な url](dns.md#BK_Simple) 」をご覧ください。  ||
@@ -70,11 +70,11 @@ ms.locfileid: "34297065"
 |A/AAAA   |Office Web Apps サーバープールの FQDN  <br/> Outlook.<span> </span>contoso<span></span>.com   | Office Web Apps サーバープール VIP アドレス <br/> 192.168.1.5   |Office Web Apps サーバープールの FQDN を定義します   ||
 |A/AAAA   |  内部 Web の FQDN <br/> Web-int-13<span></span><span></span>   | フロントエンドプール VIP アドレス <br/> 192.168.21.121   |Skype for Business Web App で使用される内部 Web FQDN を定義します  <br/> このプールで DNS 負荷分散を使用する場合は、フロントエンド プールと内部 Web ファームで同じ FQDN を使用することはできません。   ||
 
-&#x2776;クライアントがフロントエンドサーバーまたはフロントエンドプールを検出し、認証されてユーザーとしてサインインするために使用されます。 詳細については、「 [Skype For business クライアントでサービスを検索する](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)」をご覧ください。
+クライアントがフロントエンドサーバーまたはフロントエンドプールを検出し、ユーザーとして認証されてサインインするために使用される &#x2776;。 詳細については、「 [Skype For business クライアントでサービスを検索する](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)」をご覧ください。
 
-&#x2777;これは、Lync 2013 の前のレガシクライアントとデスクトップハンドセットをサポートするためだけに必要です。
+&#x2777; Lync 2013 の前のレガシクライアントとデスクトップハンドセットをサポートするためだけに必要です。
 
-&#x2778;ユニファイド通信デバイスが有効になっているが、ユーザーがデバイスにログインしていない場合、A レコードによってデバイス更新 Web サービスをホストするサーバーがデバイスで検出され、更新プログラムが取得されます。 そうしないと、デバイスは、ユーザーが初めてログインしたときに、インバンドプロビジョニングでサーバー情報を取得します。
+統合通信デバイスが有効になっている状況で、ユーザーがデバイスにログインしたことがない場合は、A レコードを使うと、デバイスでデバイス更新 Web サービスをホストしているサーバーを検出し、更新プログラムを取得することができます。 &#x2778; そうしないと、デバイスは、ユーザーが初めてログインしたときに、インバンドプロビジョニングでサーバー情報を取得します。
 
 次のダイアグラムでは、内部および外部 DNS レコードの両方を含んでいる場合の例と、周囲のテーブル内に数多くのレコードを示しています。
 
@@ -96,17 +96,17 @@ ms.locfileid: "34297065"
 |SRV   |\_sipfederationtls.\_tcp。* \<sipdomain\> * <br/>\_sipfederationtls.\_tcp。<span> </span> *contoso<span></span>.com*  |外部アクセスエッジ FQDN  <br/>*Access1.<span> </span>contoso<span></span>.com*  |フェデレーションとパブリック IM 接続で使用されます   |&#x2776;  |
 |SRV   |\_xmpp-サーバー。\_tcp。*<sipdomain\> * <br/>\_xmpp-サーバー。\_tcp。* <span> </span>contoso<span></span>.com*  |外部アクセスエッジ FQDN  <br/>*Access1.<span> </span>contoso<span></span>.com*  |XMPP プロキシサービスは、構成済みの XMPP フェデレーションパートナーとの間で、拡張可能なメッセージングとプレゼンスプロトコル (XMPP) のメッセージを受け取り、送信します。   |フェデレーションの展開のために必要です。それ以外の場合はオプションです  <br/> Skype for Business Server 2019 では利用できません。|
 |SRV   |\_sipfederationtls.\_tcp。* \<sipdomain\> * <br/>\_sipfederationtls.\_tcp。* <span> </span>contoso<span></span>.com*  |外部アクセスエッジ FQDN  <br/>*Access1.<span> </span>contoso<span></span>.com*  |プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、SIP ドメインごとに1つの SRV レコードを作成します。 &#x2778;  ||
-|A/AAAA   |外部フロントエンドプール web サービス FQDN  <br/>*<span>Web また</span><span></span>は .com*  |リバースプロキシパブリック IP アドレス、フロントエンドプール & # x2776 の外部 Web サービス VIP へのプロキシ <br/> 131.107.155.1 プロキシから192.168.21.120   |Skype for Business Web App で使用されるフロントエンドプールの外部インターフェイス   |Y   |
-|A/AAAA/CNAME   |lyncdiscover.* \<sipdomain\>* <br/> lyncdiscover.* <span> </span>contoso<span></span>.com*  |リバースプロキシパブリック IP アドレスは、ディレクタープールがある場合は、そのディレクタープールの外部 Web サービス VIP に解決されます。ディレクター & # x2777 を持っていない場合は、フロントエンドプールにも対応しています。 <br/> 131.107.155.1 プロキシから192.168.21.120   | モバイル、Skype for Business Web App、および scheduler Web アプリでも使用されるクライアントの自動検出の外部レコード (リバースプロキシサーバーで解決) <br/> プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、Microsoft Lync モバイルクライアントを含む SIP ドメインごとに SRV レコードを1つ作成します。 3  |Y   |
+|A/AAAA   |外部フロントエンドプール web サービス FQDN  <br/>*<span>Web また</span><span></span>は .com*  |リバースプロキシパブリック IP アドレス、フロントエンドプールの外部 Web サービス VIP へのプロキシ &#x2776; <br/> 131.107.155.1 プロキシから192.168.21.120   |Skype for Business Web App で使用されるフロントエンドプールの外部インターフェイス   |Y   |
+|A/AAAA/CNAME   |lyncdiscover.* \<sipdomain\>* <br/> lyncdiscover.* <span> </span>contoso<span></span>.com*  |リバースプロキシパブリック IP アドレスは、ディレクタープールがある場合は、外部 Web サービス VIP に解決されます。ディレクタープールを持っている場合は、フロントエンドプールに対しても、ディレクター &#x2777; を持っていない場合はそれが対象となります。 <br/> 131.107.155.1 プロキシから192.168.21.120   | モバイル、Skype for Business Web App、および scheduler Web アプリでも使用されるクライアントの自動検出の外部レコード (リバースプロキシサーバーで解決) <br/> プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、Microsoft Lync モバイルクライアントを含む SIP ドメインごとに SRV レコードを1つ作成します。 3  |Y   |
 |A/AAAA   |即時.* \<sipdomain\>* <br/> 即時.* <span> </span>contoso<span></span>.com*  |リバースプロキシパブリック IP アドレスは、フロントエンドプールの外部 Web インターフェイスに解決されます。  <br/> 131.107.155.1 プロキシから192.168.21.120   |Skype for Business Web サービスへのプロキシ  <br/> [単純な url](dns.md#BK_Simple)を表示する  |Y   |
 |A/AAAA   |*\<sipdomain\>* <br/> ダイヤルイン (*<span></span>コントソ<span></span>)*  |リバースプロキシのパブリック IP アドレス、フロントエンドプールの外部 Web インターフェイスへのプロキシ  <br/> 131.107.155.1 プロキシから192.168.21.120   |Skype for Business Web サービスへのプロキシ  <br/> [単純な url](dns.md#BK_Simple)を表示する  |Y   |
 |A/AAAA   |Office Web Apps サーバープールの FQDN  <br/> Outlook.<span> </span>contoso<span></span>.com   | リバースプロキシパブリック IP アドレス、Office Web Apps サーバーの外部 Web インターフェイスへのプロキシ <br/> 131.107.155.1 は 192.168.1.5 にプロキシ   | Office Web Apps サーバープール VIP アドレス <br/> 192.168.1.5   |Office Web Apps サーバープールの FQDN を定義します   |
 
-&#x2776;フェデレーションを展開する場合は必須。それ以外の場合は省略可能です。
+フェデレーションの展開に必要な &#x2776;、それ以外の場合は省略可能です。
 
-&#x2777;クライアントがフロントエンドサーバーまたはフロントエンドプールを検出し、認証されてユーザーとしてサインインするために使用されます。
+クライアントがフロントエンドサーバーまたはフロントエンドプールを検出し、ユーザーとして認証されてサインインするために使用される &#x2777;。
 
-&#x2778;この要件は、Apple または Microsoft ベースのモバイルデバイス上のクライアントにのみ適用されます。 Android および Nokia Symbian デバイスでは、プッシュ通知は使用されません。
+&#x2778; この要件は、Apple または Microsoft ベースのモバイルデバイス上のクライアントにのみ適用されます。 Android および Nokia Symbian デバイスでは、プッシュ通知は使用されません。
 
  エッジサーバーと境界ネットワークの詳細については、「Edge server [DNS の計画](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#DNSPlan)の内容」を参照してください。
 
