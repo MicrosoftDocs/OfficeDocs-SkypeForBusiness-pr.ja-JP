@@ -56,7 +56,7 @@ ms.locfileid: "32238111"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& # 39; こちらを参照してください</h3>
+                        <h3>ここでは、ヘルプを&#39;</h3>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ ms.locfileid: "32238111"
 
 ---
 
-<h2>What& # 39; s 新規</h2>
+<h2>新しい&#39;s</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -238,7 +238,7 @@ ms.locfileid: "32238111"
                 <div class="card">
                     <div class="cardText">
                         <h3>電話システム</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 での電話システムについて</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& # 39; Office 365 の電話システムで利用できる機能</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 での電話システムについて</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Office 365 での電話システムで利用できる&#39;s</a></p>
                </div>
                 </div>
             </div>
