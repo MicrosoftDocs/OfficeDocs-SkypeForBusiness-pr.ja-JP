@@ -16,18 +16,19 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージングポリシーと、それらを使用して Teams でチャットメッセージを制御する方法について説明します。
-ms.openlocfilehash: dd636a0c8ab3b8acdad55e64e2460dcd87e38253
-ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
+ms.openlocfilehash: 8a92ceea98d5f55c885a9fb59976dd571dba2b09
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34912857"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915149"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams のメッセージング ポリシーを管理する
 
 <!--- Add zone marker here--->
 
 メッセージングポリシーを使って、Microsoft Teams のユーザーが利用できるチャットおよびチャネルのメッセージング機能を制御します。 自動的に作成される既定のポリシーを使用するか、組織内のユーザー用に1つまたは複数のカスタムメッセージポリシーを作成することができます。 ポリシーを作成したら、組織内のユーザーまたはユーザーのグループに割り当てることができます。
+
 既定では、Global (org wide default) という名前のポリシーが作成されます。 組織内のすべてのユーザーには、既定でこのメッセージングポリシーが割り当てられます。 このポリシーを変更するか、1つ以上のカスタムポリシーを作成し、ユーザーを割り当てることができます。 カスタムポリシーを作成するときに、特定の機能がユーザーに対して利用可能になることを許可または禁止し、設定を適用する必要がある1人以上のユーザーに割り当てることができます。 
 
 ## <a name="change-or-create-a-messaging-policy"></a>メッセージングポリシーを変更または作成する

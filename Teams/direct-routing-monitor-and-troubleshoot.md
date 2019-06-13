@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: この記事では、ダイレクトルーティング構成の監視とトラブルシューティングを行う方法について説明します。
-ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290409"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915157"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>ダイレクト ルーティングの監視とトラブルシューティング
 
@@ -46,7 +46,7 @@ Microsoft は、トラブルシューティングと監視のためのより多�
 
 ![SIP オプション構成の例](media/sip-options-config-example.png)
 
-ユーザーが7つの digits> の 1 425 番号に通話を発信すると、直接ルーティングによってルートが評価されます。 ルートには、sbc1.contoso.com と sbc2.contoso.com の2つの SBCs があります。 SBCs は両方ともルートの優先度が同じです。 SBC を選ぶ前に、SBC が SIP オプションを最後に送信した場合に基づく SBCs の正常性が評価されます。 
+ユーザーが数字 + 1 425 \<への任意の 7> 桁の通話を発信すると、ダイレクトルーティングによってルートが評価されます。 ルートには、sbc1.contoso.com と sbc2.contoso.com の2つの SBCs があります。 SBCs は両方ともルートの優先度が同じです。 SBC を選ぶ前に、SBC が SIP オプションを最後に送信した場合に基づく SBCs の正常性が評価されます。 
 
 通話を送信するときに、SBC が通常の間隔でオプションを送信することを示している場合は、SBC は良好であると見なされます。  
 
