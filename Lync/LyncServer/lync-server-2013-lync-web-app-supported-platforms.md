@@ -7,15 +7,15 @@ TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
 ms:contentKeyID: 48183808
-ms.date: 02/07/2017
+ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442e00cfe36aa94eb1d2306a67707485b4859910
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e2713bfee0397c455407d0dc277851b5588fa774
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832919"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912841"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,10 +75,10 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>64ビット Internet Explorer 10</p></td>
 <td><p>32ビット Internet Explorer 9</p></td>
 <td><p>64ビット Internet Explorer 9</p></td>
-<td><p>Firefox 32 ビット</p></td>
-<td><p>Firefox 64 ビット</p></td>
+<td><p>Firefox 32-bit<sup>4</sup></p></td>
+<td><p>Firefox 64-bit<sup>4</sup></p></td>
 <td><p>Safari</p></td>
-<td><p>Chrome</p></td>
+<td><p>Chrome<sup>4</sup></p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 10</p></td>
@@ -87,99 +87,101 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
-<td><p>該当なし</p></td>
-<td><p>はい</p></td>
-<td><p>いいえ</p></td>
-<td><p>該当なし</p></td>
-<td><p>はい</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 8.11</p></td>
-<td><p>該当なし</p></td>
-<td><p>はい</p></td>
 <td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>該当なし</p></td>
-<td><p>はい</p></td>
-<td><p>いいえ</p></td>
-<td><p>該当なし</p></td>
-<td><p>はい</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows 8 (Intel ベース) 1</p></td>
-<td><p>N/A</p></td>
-<td><p>該当なし</p></td>
-<td><p>はい</p></td>
-<td><p>はい</p></td>
-<td><p>N/A</p></td>
-<td><p>該当なし</p></td>
-<td><p>はい</p></td>
-<td><p>いいえ</p></td>
-<td><p>該当なし</p></td>
-<td><p>はい</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 7 と SP12</p></td>
-<td><p>該当なし</p></td>
-<td><p>はい</p></td>
-<td><p>可</p></td>
-<td><p>可</p></td>
-<td><p>可</p></td>
-<td><p>可</p></td>
-<td><p>○</p></td>
-<td><p>いいえ</p></td>
-<td><p>該当なし</p></td>
-<td><p>いいえ</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows Server 2008 R2 with SP12</p></td>
-<td><p>該当なし</p></td>
-<td><p>はい</p></td>
-<td><p>可</p></td>
-<td><p>可</p></td>
-<td><p>可</p></td>
-<td><p>可</p></td>
-<td><p>○</p></td>
+<td><p>なし</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2008 と SP23</p></td>
+<td><p>Windows 8.1<sup>1</sup></p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
-<td><p>○</p></td>
-<td><p>いいえ</p></td>
-<td><p>○</p></td>
-<td><p>いいえ</p></td>
-<td><p>○</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>なし</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
-<td><p>Mac OS X 10.7 以降 (Intel ベース) 2</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
+<td><p>Windows 8 (Intel ベース)<sup>1</sup></p></td>
 <td><p>N/A</p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
+<td><p>はい</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>なし</p></td>
 <td><p>いいえ</p></td>
+<td><p>該当なし</p></td>
+<td><p>いいえ</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows 7 と SP1<sup>2</sup></p></td>
+<td><p>該当なし</p></td>
 <td><p>はい</p></td>
 <td><p>可</p></td>
+<td><p>可</p></td>
+<td><p>可</p></td>
+<td><p>○</p></td>
+<td><p>なし</p></td>
+<td><p>いいえ</p></td>
+<td><p>該当なし</p></td>
+<td><p>いいえ</p></td>
+</tr>
+<tr class="even">
+<td><p>Windows Server 2008 R2 SP1<sup>2</sup></p></td>
+<td><p>該当なし</p></td>
+<td><p>はい</p></td>
+<td><p>可</p></td>
+<td><p>可</p></td>
+<td><p>可</p></td>
+<td><p>○</p></td>
+<td><p>なし</p></td>
+<td><p>いいえ</p></td>
+<td><p>該当なし</p></td>
+<td><p>いいえ</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows Server 2008 (SP2<sup>3</sup> )</p></td>
+<td><p>該当なし</p></td>
+<td><p>はい</p></td>
+<td><p>○</p></td>
+<td><p>いいえ</p></td>
+<td><p>○</p></td>
+<td><p>なし</p></td>
+<td><p>なし</p></td>
+<td><p>いいえ</p></td>
+<td><p>該当なし</p></td>
+<td><p>いいえ</p></td>
+</tr>
+<tr class="even">
+<td><p>Mac OS X 10.7 以降 (Intel ベース)<sup>2</sup></p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>なし</p></td>
+<td><p>いいえ</p></td>
+<td><p>○</p></td>
+<td><p>いいえ</p></td>
 </tr>
 </tbody>
 </table>
 
 
-1 Windows 8 および Windows 8.1 で、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有を使用するために必要なプラグインは、Internet Explorer 10 または Internet Explorer 11 を実行している場合にのみインストールできます。デスクトップ. これらの機能は、デスクトップ以外のバージョンの Internet Explorer 10 または Internet Explorer 11 では使用できません。
+<sup>1</sup> windows 8 および windows 8.1 の場合、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有を使用するために必要なプラグインは、internet explorer 10 または internet explorer 11 を実行している場合にのみインストールできます。を選びます。 これらの機能は、デスクトップ以外のバージョンの Internet Explorer 10 または Internet Explorer 11 では使用できません。
 
-2サポートされている Windows 7、Windows Server 2008 R2、および Macintosh オペレーティングシステムでは、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有などのすべての機能を利用できます。 これらの機能を使用するには、画面の指示に従ってプラグインをインストールする必要があります。 Mac OS X バージョン10.6 はサポートされなくなったことに注意してください。
+<sup>2</sup>サポートされている windows 7、windows Server 2008 R2、および Macintosh オペレーティングシステムでは、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有などのすべての機能を利用できます。 これらの機能を使用するには、画面の指示に従ってプラグインをインストールする必要があります。 Mac OS X バージョン10.6 はサポートされなくなったことに注意してください。
 
-3サポートされている Windows Server 2008 オペレーティングシステムでは、コンピュータベースの音声およびビデオは使用できません。 アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有を使用できます。
+<sup>3</sup>サポートされている Windows Server 2008 オペレーティングシステムでは、コンピュータベースの音声およびビデオは使用できません。 アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有を使用できます。
+
+<sup>4</sup>プラグインを使用するには、ブラウザーで npapi がサポートされている必要があります。 Firefox はバージョン52.0 の NPAPI のサポートを削除しました。また、バージョン45で Chrome がサポートされていないため、これらのブラウザーは現在のバージョンではサポートされなくなりました。
 
 </div>
 

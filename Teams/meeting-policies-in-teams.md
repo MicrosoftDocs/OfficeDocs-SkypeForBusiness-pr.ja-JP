@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: b6ab6674da7212f14e7315a34cced60fcabe3e1f
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: bdad8f852855c8f87eb62851ddc3082026bcc0ed
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433256"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912873"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -45,11 +45,11 @@ ms.locfileid: "34433256"
 
 ## <a name="change-or-create-a-meeting-policy"></a>会議のポリシーを変更または作成する
 
-会議ポリシーを変更または作成するには、Microsoft Teams 管理センターの >**会議** > の**ポリシー**を参照してください。 リストからポリシーを選ぶか、[**新しいポリシー**] を選択します。 新しいポリシーを作成する場合は、名前と説明を追加します。 名前には特殊文字を含めたり、64文字より長い名前を指定したりすることはできません。 設定を選び、[**保存**] を選びます。
+会議のポリシーを変更または作成するには、Microsoft Teams 管理センターの >**会議** > の**会議のポリシー**を参照してください。 リストからポリシーを選ぶか、[**新しいポリシー**] を選択します。 新しいポリシーを作成する場合は、名前と説明を追加します。 名前には特殊文字を含めたり、64文字より長い名前を指定したりすることはできません。 設定を選び、[**保存**] を選びます。
 
 たとえば、多数のユーザーがいて、会議で必要な帯域幅の量を制限するとします。 "制限された帯域幅" という名前の新しいカスタムポリシーを作成して、次の設定を無効にします。
 
-[ **Audio & video**] で、次の操作を行います。
+[**オーディオ & ビデオ**:
 - クラウドの記録を無効にする
 - IP ビデオの許可を無効にする
 
@@ -87,7 +87,7 @@ ms.locfileid: "34433256"
 - [[全般]](#meeting-policy-settings---general)
 - [オーディオ & ビデオ](#meeting-policy-settings---audio--video)
 - [コンテンツ共有](#meeting-policy-settings---content-sharing)
-- [参加者 & ゲスト](#meeting-policy-settings---participants--guests)
+- [ゲスト & 参加者](#meeting-policy-settings---participants--guests)
 
 ::: zone-end 
 
@@ -192,7 +192,7 @@ Daniela がビデオで Amanda 通話を発信した場合、Amanda は音声の
 
 ### <a name="media-bit-rate-kbs"></a>メディアのビットレート (KBs)
 
-これは開催者ごとのポリシーです。 この設定は、ユーザーの通話と会議でのオーディオ、ビデオ、およびビデオベースのアプリ共有転送のメディアのビットレートを決定します。 これは、通話または会議のユーザーに対して、アップリンクとダウンリンクメディアトラバーサルの両方に適用されます。 この設定により、組織内の帯域幅の管理をきめ細かく制御できます。 ユーザーが必要とする会議シナリオによっては、優れた品質を実現するために十分な帯域幅を用意することをお勧めします。 最小値は 30 Kbps で、最大値は会議シナリオによって異なります。 Teams での品質の高い会議、通話、ライブイベントに関する最低限の推奨帯域幅の詳細については、「[帯域幅要件](prepare-network.md#bandwidth-requirements)」を参照してください。
+これは、ユーザーごとのポリシーです。 この設定は、ユーザーの通話と会議でのオーディオ、ビデオ、およびビデオベースのアプリ共有転送のメディアのビットレートを決定します。 これは、通話または会議のユーザーに対して、アップリンクとダウンリンクメディアトラバーサルの両方に適用されます。 この設定により、組織内の帯域幅の管理をきめ細かく制御できます。 ユーザーが必要とする会議シナリオによっては、優れた品質を実現するために十分な帯域幅を用意することをお勧めします。 最小値は 30 Kbps で、最大値は会議シナリオによって異なります。 Teams での品質の高い会議、通話、ライブイベントに関する最低限の推奨帯域幅の詳細については、「[帯域幅要件](prepare-network.md#bandwidth-requirements)」を参照してください。
 
 会議に十分な帯域幅がない場合、参加者には、ネットワークの品質低下を示すメッセージが表示されます。
 
@@ -312,7 +312,7 @@ Daniela は Amanda の会議でノートを取ることができ、Amanda はど
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="meeting-policy-settings---participants--guests"></a>会議のポリシー設定-参加者 & ゲスト
+## <a name="meeting-policy-settings---participants--guests"></a>会議のポリシー設定-ゲスト & 参加者
 
 これらの設定では、参加者が会議に参加する前に、ロビーで待機する会議の参加者と、会議で許可されている参加のレベルを制御します。
 
@@ -320,6 +320,9 @@ Daniela は Amanda の会議でノートを取ることができ、Amanda はど
 - [匿名ユーザーが会議を開始することを許可する](#allow-anonymous-people-to-start-a-meeting)
 - [ダイヤルインユーザーがロビーをバイパスすることを許可する](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
 - [開催者がロビーの設定を無効にすることを許可する](#allow-organizers-to-override-lobby-settings-coming-soon)
+
+> [!NOTE]
+>会議に参加するためのオプションは、各 Teams グループの設定と接続方法によって異なります。 グループに電話会議があり、それを使用して接続する場合は、「 [Office 365 の電話会議](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)」を参照してください。 Teams グループに電話会議がない場合は、「 [teams で会議に参加する」](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)を参照してください。
 
 ### <a name="automatically-admit-people"></a>ユーザーを自動的に許可する
 
