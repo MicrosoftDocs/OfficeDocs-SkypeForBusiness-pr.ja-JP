@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7885d08cd007ba94a655c85cd973b8442ea3b01d
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 5be7788c8df2247aa33b5c30111808e3606326a6
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857477"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933835"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
 > [!Tip] 
 > [共存および相互運用性の詳細については、こちらのセッション](https://aka.ms/teams-upgrade-coexistence-interop)をご覧ください。
 
-Skype for Business を使用する組織が Teams を導入するとき、管理者は TeamsUpgradePolicy のプロパティである共存 "モード" の概念を使用して、組織のユーザー エクスペリエンスを管理することができます。 モードを使用すると、管理者は Skype for Business から Teams への切り替えを管理するときに、相互運用と移行を管理することができます。  ユーザのモードによって、どのクライアントがどのような通話を受け、どのサービス (Teams または Skype for Business) の新しい会議がスケジュールされるかが決まります。 モードは今後、使用可能な機能に関して Teams クライアントの動作を定義するためにも使用されるようになります。 
+Skype for Business を使用する組織が Teams を導入するとき、管理者は TeamsUpgradePolicy のプロパティである共存 "モード" の概念を使用して、組織のユーザー エクスペリエンスを管理することができます。 モードを使用すると、管理者は Skype for Business から Teams への切り替えを管理するときに、相互運用と移行を管理することができます。  ユーザのモードによって、どのクライアントがどのような通話を受け、どのサービス (Teams または Skype for Business) の新しい会議がスケジュールされるかが決まります。 また、Teams クライアントで使用できる機能も管理します。 
 
 
 ## <a name="fundamental-concepts"></a>基礎概念
@@ -154,12 +154,6 @@ TeamsUpgradePolicy は、フェデレーションされた受信チャットと�
 
 > [!Note] 
 > - チームとチャネルの自動実施が行われる前に、SfbOnly と Sfbwithteams の各モードは同じように動作します。
-
-
-
-## <a name="teamsinteroppolicy-has-been-retired"></a>TeamsInteropPolicy が廃止されました 
-
-TeamsInteropPolicy は TeamsUpgradePolicy に置き換えられました。 以前 TeamsInteropPolicy を優先していたすべてのコンポーネントが、代わりに TeamsUpgradePolicy を優先するように更新されました。 Microsoft は以前、TeamsInteropPolicy から TeamsUpgradePolicy への移行を促進するため、TeamsUpgradePolicy に "Legacy" モードを導入しました。 Legacy モードでは、TeamsUpgradePolicy を理解していたルーティング コンポーネントは TeamsInteropPolicy に戻されました。 ルーティングは現在 TeamsUpgradePolicy を完全にサポートしています。 以前のモードはサポートされなくなりました。従来のモードを許可することはできなくなりました。 TeamsInteropPolicy のすべてのインスタンスが削除されています。
 
 
 ## <a name="detailed-mode-descriptions"></a>モードの詳細な説明

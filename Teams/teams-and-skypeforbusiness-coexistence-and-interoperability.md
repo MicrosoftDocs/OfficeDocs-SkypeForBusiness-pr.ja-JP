@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f652023a0d896c70aab2e6c3c56725568a95c35a
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857500"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933850"
 ---
 ![プロジェクト定義ステージを強調したアップグレードの図](media/upgrade-banner-project-definition.png "プロジェクト定義ステージに重点を置いたアップグレードの段階")
 
@@ -52,6 +52,9 @@ ms.locfileid: "34857500"
 この共存モード (**孤島**) では、各クライアントアプリケーションは独立したアイランドとして動作します。 Skype for Business は、Skype for business とチームとのやり取りをします。 ユーザーは、常に両方のクライアントを実行し、通信が開始されたクライアントでネイティブ通信できます。 このように、**孤島**モードでの相互運用性は不要です。
 
 混乱または regressed の Skype for Business エクスペリエンスを回避するため、外部 (フェデレーション) 通信、PSTN 音声サービスと音声アプリケーション、Office の統合、その他のいくつかの統合は、引き続き Skype for Business で処理されます。
+
+> [!Important]
+> **島々**モードでは、フェデレーションされたユーザーからのすべてのメッセージ (組織外のユーザー) が Skype for business に配信されます。 [**チームのみ**] モードに切り替えると、組織外のすべてのメッセージが teams に配信されます。
 
 > [!Tip]
 > Skype for Business Online のお客様に推奨されるパスは、既定の**アイランド**モードから開始して、組織内のチームの導入を推進した後、すぐに**teams 専用**モードに移行することです。 オンプレミスおよびハイブリッドのお客様は、組織の**コラボレーションモードでの skype For business**の展開は、孤島ではなく開始点として、**チームのコラボレーションと会議モードでの skype for business**からの進捗管理において、必要に応じて、チームを採用する準備ができた時点で、[**チームのみ**] モードにします。

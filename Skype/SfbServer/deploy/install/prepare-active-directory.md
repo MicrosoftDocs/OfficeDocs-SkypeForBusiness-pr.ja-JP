@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '概要: Skype for Business Server のインストール用に Active Directory ドメインを準備する方法について説明します。 Skype for Business Server の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: 304887bdd6096b70c8d4d7b50f404f144f869859
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e15431cf08925920f4f7ec223d9983d3dc3e35c7
+ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306599"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35002846"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Skype for Business Server 用 Active Directory の準備
  
@@ -169,7 +169,7 @@ Skype for Business Server は、Active Directory ドメインサービス (AD DS
   
 11. [ログオフ] をクリックして、新しい Skype for Business Server セキュリティグループでセキュリティトークンが更新されるように、Windows に再度ログオンします。次に、展開ウィザードをもう一度開きます。
     
-12. 図のように、[**Active Directory の準備**] の横に成功を示す緑色のチェックマークが表示されていることを確認します。
+12. 図に示すように、[ **Active Directory の準備**] の横に緑色のチェックマークが表示されていることを確認します。
     
      ![Active Directory の準備が完了しました。](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   

@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a89910c96a428b45d13b99725081d47d1cd7e245
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 92af57f0704ae00164db143d3948b5baf59f6105
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827797"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933781"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
 ======================================================
@@ -115,3 +115,30 @@ ms.locfileid: "33827797"
 これらの設定の移行が完了したら、Office 365 管理センターと Skype for Business 管理センターでそれらの設定を無効にし、新しい Microsoft Teams 管理センターで管理することができます。
 
 
+## <a name="edu-migration-june-july-2019"></a>EDU の移行: 2019 年6月
+
+2019年6月と7月以降、残りの EDU テナントは、以前の管理者エクスペリエンス (Microsoft 365 管理センター) から Teams 管理センターに移行されます。 (Microsoft 365 管理センターで) メッセージセンターを確認して、移行するタイミングを確認します。 移行後に表示されるものを次に示します。
+
+|Microsoft 365 管理センターの Teams のセクション  |設定名 (テナントレベル)  |Microsoft Teams 管理センターのポリシー   |Level: テナントまたはユーザー   |
+|---------|---------|---------|---------|  
+| メッセージング   |所有者が送信したメッセージを削除できる |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+| メッセージング  | 送信したメッセージを削除できるユーザー |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+| メッセージング   | 送信したメッセージをユーザーが編集できるようにする |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |ユーザー|
+| メッセージング  | ユーザのチャットを許可する |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+| メッセージング  | スレッドで Giphy を使用する | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+| メッセージング  | Giphy コンテンツの評価 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+| メッセージング  | 会話でミームを使う  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+| メッセージング  | 会話でステッカーを使用する |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+
+さらに、Microsoft Teams 管理センターでのみ使用できる設定を以下に示します。
+
+|設定名 | Microsoft Teams 管理センターのポリシー | Level: テナントまたはユーザー
+|-------------|-------------------------------------|---------|
+|URL プレビューを許可する | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+|グループチャットからユーザーを削除することをユーザーに許可する |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+|メッセージの表示にイマーシブリーダーを許可する |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| ユーザー |
+|ユーザーにメッセージの翻訳を許可する |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| ユーザー |
+|開封済みメッセージ | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+|ユーザーは優先度通知を送信できます | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
+|音声メッセージの作成 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| ユーザー |
+|モバイルデバイスでは、最近のチャットの上にお気に入りのチャンネルを表示 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| ユーザー |
