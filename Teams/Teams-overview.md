@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 04/18/2019
+ms.date: 06/18/2019
 ms.reviewer: LolaJ
 description: Microsoft Teams を組織に展開するための正しい経路を見つけます。 Teams のインフラストラクチャと、Office 365 での Teams の使用について説明します。
 localization_priority: Priority
@@ -15,21 +15,29 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2908c7f16f353d49ca25db0ef297601cc82db371
-ms.sourcegitcommit: 64cb4e9db6c83d25c2f5de0cc8b835675af80f0b
+ms.openlocfilehash: 84d23efc8cbec7435b4b9677bf9c6321ade4fb3d
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34100866"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957477"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
 
-Teams について不慣れな場合や、詳細が必要な場合は、このまま読み進めてください。
+Teams について不慣れな場合や、詳細が必要な場合は、このまま読み進めてください。 「[Welcome to Teams (Teams へようこそ)](https://youtu.be/s3aQV3T0D6c)」という短いビデオをご覧ください。 
 
-## <a name="overview-of-teams"></a>Teams の概要
+エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある [**ヘルプ**] をクリックするか、[Microsoft Teams ヘルプ センター](https://support.office.com/teams)に移動します。 トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
 
-Teams を初めて使用する場合は、短いビデオ「[Teams の紹介](https://youtu.be/s3aQV3T0D6c)」を参照してください。 Teams は Office 365 グループ、Office Graph、および他の Office 365 と同じエンタープライズ レベルのセキュリティ、コンプライアンス、管理容易性で構築されています。 Teams は Azure Active Directory (Azure AD) に保存された ID を活用します。 TeamsがMicrosoft 365のコンテキストのどこに適しているかを確認するには、次のアーキテクチャーポスターを参照してください: [Microsoft 365の一部としてのTeams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+## <a name="teams-architecture"></a>Teams のアーキテクチャ
+
+Teams は Office 365 グループ、Microsoft Graph、および他の Office 365 と同じエンタープライズ レベルのセキュリティ、コンプライアンス、管理容易性で構築されています。 Teams は Azure Active Directory (Azure AD) に保存された ID を活用します。 
+
+Microsoft 365 全体の中での Teams の位置を確認するには、次のアーキテクチャ ポスターを参照してください: [Microsoft 365 の一部としての Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+
+[![Teams の論理的なアーキテクチャ ポスターのサムネイル](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)         
+
+
 
 チームを作成すると、次のものが作成されることになります。
 - 新しい [Office 365 グループ](office-365-groups.md)
@@ -40,25 +48,26 @@ Teams を初めて使用する場合は、短いビデオ「[Teams の紹介](ht
 
 既存のグループからチームを作成する場合は、グループのメンバーシップ、サイト、メールボックス、ノートブックが Teams に表示されます。 詳細については、こちらのポスターをご覧ください: [ITアーキテクト向けMicrosoft 365のグループ](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-[組織全体のチーム](create-an-org-wide-team.md)、組織内のすべてのユーザーが参加し、組織でユーザーの出入りがあってもActive Directoryのメンバーシップを最新の状態に保つ特別なタイプのチームについて必ずチェックして理解するようにしてください。 
+[![グループ インフォグラフィックのサムネイル](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)
 
 Teams をカスタマイズおよび拡張するには、[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を使用してサードパーティ アプリを追加します。 Teams では、組織の外部のユーザーを[ゲストとして追加する](guest-access.md)ことで、チームまたはチャネルに含めることができます。 Office 365 の一部として、Teams は強力な[開発プラットフォーム](https://docs.microsoft.com/microsoftteams/platform)を提供します。これにより、ユーザーは組織に必要なチームワーク ハブを構築できます。 
 
-![Teams のデスクトップ アプリとモバイル アプリ](media/teams-overview-hub.png)
+> [!TIP]
+> Teams のアーキテクチャの詳細については、[Teams Platform Academy (Teams プラットフォーム アカデミー)](https://aka.ms/TeamsPlatformAcademy) にある動画を視聴してください。
 
 
 ## <a name="managing-teams"></a>Teams を管理する
 
 ユーザーは管理者として、Microsoft Teams 管理センター経由で Teams を管理します。 詳細情報:
 - [Teams 管理者ロールを使用してTeams を管理します](using-admin-roles.md)
-- [Microsoft Teams 管理センターで Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
-- [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-in-modern-portal.md)
+- [Teams 管理センターで Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
+- [新しい Teams 管理センターへの移行中に Teams を管理する](manage-teams-in-modern-portal.md)
 - [Office 365組織のチーム機能を管理します](enable-features-office-365.md)
 
 Teams およびその他の Office 365 製品とサービスに今後導入される機能についての最新情報を常に取得するには、必ず[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) と [Teams ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)を確認してください。 新機能および更新された機能、計画済みの変更、および問題についての通知を取得して、常に情報を把握して準備を整えられるようになります。 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード
-Teams は Office 365 でのインテリジェント コミュニケーションのプライマリ クライアントで、最終的に Skype for Business Online に取って代わるものとなります。 Teams に導入される新機能の詳細については、「[Microsoft 365 ロードマップ](http://aka.ms/O365Roadmap)」を参照してください。 常設チャットおよびメッセージの機能を補完するために、Teams では内蔵され完全に統合された音声とビデオによる、包括的な会議および通話のエクスペリエンスを提供しています。 Microsoft Teams ブログの「[Teams is now a complete meeting and calling solution (完全な会議および通話ソリューションとなった Teams)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)」をご覧ください。
+Teams は Office 365 でのインテリジェント コミュニケーションの中心的なクライアントで、最終的に Skype for Business Online に取って代わります。 Teams に導入される新機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](http://aka.ms/O365Roadmap)」を参照してください。 常設チャットおよびメッセージの機能を補完するために、Teams では内蔵され完全に統合された音声とビデオによる、包括的な会議および通話のエクスペリエンスを提供しています。 Microsoft Teams ブログの「[Teams is now a complete meeting and calling solution (完全な会議および通話ソリューションとなった Teams)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)」をご覧ください。
 
 Skype for Business を実行していて、Teams にアップグレードする準備が整っている場合、または Skype for Business と Teams を共存させて実行していて、完全に Teams に移動する準備が整っている場合、その移行作業を正常に完了させるために役に立つツール、ヒント、ガイダンスを利用することができます。 詳細については、「[Teams へのアップグレード](journey-skypeforbusiness-teams.md)」を参照してください。
 
@@ -85,9 +94,9 @@ Skype for Business を実行していて、Teams にアップグレードする�
 
 ## <a name="teams-known-issues"></a>Teams の既知の問題
 
-「[Microsoft Teams の既知の問題](Known-issues.md)」をご覧ください。
+「[Teams の既知の問題](Known-issues.md)」を参照してください。
 
 ## <a name="teams-client-release-notes"></a>Teams クライアントのリリース ノート
 
-「[Microsoft Teams の新機能](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)」をご覧ください。
+「[ Teams の新機能](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)」を参照してください。
 
