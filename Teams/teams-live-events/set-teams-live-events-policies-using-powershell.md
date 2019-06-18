@@ -15,12 +15,12 @@ MS.collection:
 description: PowerShell を使用してチームのポリシーを設定して、組織内の live イベントを保留できるユーザーと、作成したイベントで利用できる機能を制御する方法の例
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8858b8572a06aede2fa1de98ce9cfc14ed1745bd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f92541cfdb69237631d1552202e95e4843987a30
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204571"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012975"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する
 
@@ -35,7 +35,7 @@ ms.locfileid: "32204571"
 ## <a name="allow-users-to-schedule-live-events"></a>ユーザーがライブイベントのスケジュールを設定できるようにする 
 
 > [!NOTE]
-> 次の例は、クイックスタートイベントを示しています。 外部のエンコーダーイベントについては、追加の手順を実行する必要があります。 詳細については、「[ユーザーが外部エンコーダーイベントをスケジュールできるようにする](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events)」を参照してください。
+> 次の例は、Teams で作成されたイベントを対象としています。 外部のアプリやデバイスで生成されたイベントの場合は、追加の手順を実行する必要があります。 詳細については、「[外部アプリまたはデバイスで生成されたイベントをユーザーがスケジュールできるよう](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)にする」を参照してください。
 
 **ユーザーがライブイベントをスケジュールできるようにする**
 
@@ -123,7 +123,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>ライブイベントのレコーディングオプションを設定する
 > [!NOTE]
-> この設定は、クイックスタートイベントにのみ適用されます。
+> この設定は Teams で作成されたイベントにのみ適用されます。
 
 ライブイベントの記録を無効にするグローバルポリシーを設定します。
 ```
@@ -131,7 +131,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 ```
 ## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>ライブイベントでの議事録と翻訳を設定する (近日公開)
 > [!NOTE]
-> この設定は、クイックスタートイベントにのみ適用されます。 
+> この設定は Teams で作成されたイベントにのみ適用されます。 
 
 イベントの出席者に対して、議事録と翻訳を有効にするようにグローバルポリシーを設定します。
 ```

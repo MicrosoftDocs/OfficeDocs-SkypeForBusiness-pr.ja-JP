@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30e3a9de6a832753b8480733528a0db44f4f143b
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 40c334a1a0159614b77de11f8eb3e5a0e3dcc1b5
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857407"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012928"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -49,6 +49,16 @@ ms.locfileid: "34857407"
 |機能     | 上限 |
 |------------|---------------|
 |会議に参加できるユーザー数  | 250    |
+
+## <a name="teams-live-events"></a>Teams ライブイベント
+
+|機能     | 上限 |
+|------------|---------------|
+|対象ユーザーのサイズ | 出席者 10,000 名 |
+|イベントの期間 | 4 時間 |
+|Office 365 テナントでの同時ライブイベント | マート |
+
+ライブイベントと、Teams ライブイベントと Skype 会議ブロードキャストの比較の詳細については、「 [teams live イベント」および「Skype 会議ブロードキャスト](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)」を参照してください。
 
 ## <a name="storage"></a>ストレージ
 

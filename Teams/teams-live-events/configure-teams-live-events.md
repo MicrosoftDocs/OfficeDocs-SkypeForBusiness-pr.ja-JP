@@ -16,12 +16,12 @@ description: 組織内に保持されている Teams のライブ イベント�
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 277f5b326a2c8c4427ae4cea740630d4d1e6f0c7
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 83d7e43e75b71eefdb4a95f26c14c27956e763f9
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548646"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013038"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 詳細については、[CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。
 
 > [!NOTE]
-> 外部のエンコーダーを使用するライブ イベントの作成を考えている場合には、[Microsoft Stream で eCDN プロバイダーを構成する](https://docs.microsoft.com/stream/network-caching)必要もあります。 
+> 外部アプリまたはデバイスを使ってライブイベントを作成する予定の場合は、 [Microsoft Stream を使用して eCDN プロバイダーを構成](https://docs.microsoft.com/stream/network-caching)する必要もあります。 
 
 ### <a name="related-topics"></a>関連トピック
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)

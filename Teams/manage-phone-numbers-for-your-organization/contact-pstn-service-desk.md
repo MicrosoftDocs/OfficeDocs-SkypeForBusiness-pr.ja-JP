@@ -1,6 +1,6 @@
 ---
 title: PSTN サービスデスクに問い合わせる
-author: Tony Smith
+author: TonySmit
 ms.author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
@@ -22,16 +22,16 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: 組織で電話番号を取得したり、番号を移行 (転送) したりする場合、PSTN サービスデスクでヘルプとサポートを受ける必要がある場合があります。
-ms.openlocfilehash: 4517e798f5b3157ea3f5e121c9938bc46b6d6eab
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: ada0344c03476cd8d6582d29aed5a0c23226b111
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34868773"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012990"
 ---
-#<a name="pstn-service-desk"></a>PSTN サービスデスク
+# <a name="pstn-service-desk-help"></a>PSTN サービスデスクのヘルプ
 
-サポートが必要な場合は、お問い合わせください。 サポートの要求では、組織 ID、ドメイン、サポートが必要な番号の種類、必要な番号の数、アカウントの承認者およびその他の問題についての重要な詳細情報をお知らせください。
+電話番号の取得や転送についてのヘルプが必要な場合は、skype に連絡して、メールでお問い合わせください。 メールのヘルプ要求で、できるだけ多くの情報を含め、組織 ID、ドメイン、ヘルプが必要な種類の番号、必要な番号の数、アカウントのユーザーの承認、問題に関するその他の重要な詳細情報を含めることができます。
 
 次のいずれかのメールアドレスに要求を送信します。
 

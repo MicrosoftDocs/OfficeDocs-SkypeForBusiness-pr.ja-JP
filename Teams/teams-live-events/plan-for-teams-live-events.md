@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0093bafdf59c1d18c578f8e8edfaed3ab4c26381
-ms.sourcegitcommit: 8305fd00f6f9e302653fb383e4ac8d38490644c1
+ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34428754"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013030"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -29,16 +29,17 @@ ms.locfileid: "34428754"
 ユーザーが Teams ライブ イベントをスケジュールするには、次の前提条件を満たす必要があります。
 
 以下に、割り当てられる必要のあるライセンスを示します。  
-- Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 A3 または A5 ライセンス。 
-- Microsoft Teams、および Microsoft Stream のライセンス。
+- Office 365 Enterprise E1、E3 または E5 ライセンス、または Office 365 A3 または A5 ライセンス
+- Microsoft Teams ライセンス
+- Microsoft Stream ライセンス
 
 > [!IMPORTANT]
 > ライブイベントを作成してスケジュールするユーザーには、Exchange Online メールボックスが必要です。
 
-認証されたユーザーとしてライブ イベントに参加するのに、Office 365 のライセンスが必要であることを理解することは重要ですが、これは使用する作成方法によって異なります。
+認証済みのユーザーとしてライブイベントに参加するには、Office 365 ライセンスが必要であることを知っておく必要がありますが、この要件は、使用されている運用方法によって異なります。
 
-- **クイック スタート作成**: ユーザーは Microsoft Teams のライセンスを割り当てられる必要があります。
-- **外部エンコーダー作成**: ユーザーは Microsoft Stream のライセンスを割り当てられる必要があります。
+- **Teams で作成されたイベントの場合** ユーザーには Teams ライセンスが割り当てられている必要があります。
+- **外部アプリまたはデバイスで生成されたイベントの場合**ユーザーには、ストリームライセンスが割り当てられている必要があります。
 
 ライセンスの詳細については、「[Microsoft Teams のアドオン ライセンス](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
@@ -47,14 +48,14 @@ ms.locfileid: "34428754"
 - Teams 会議で有効なビデオ共有 (*TeamsMeetingPolicy -AllowIPVideo パラメーター = True*)。
 - Teams 会議で有効な画面共有 (*TeamsMeetingPolicy -ScreenSharingMode パラメーター = EntireScreen*)。
 - Teams でのライブ イベントのスケジューリングが有効である (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling パラメーター = True*)。
-- Microsoft Stream でライブ イベントを作成する許可 (外部エンコーダー作成の場合)。
+- ストリームでライブイベントを作成する権限 (外部アプリまたはデバイスの生産の場合)。
 
 > [!IMPORTANT]
 > Office 365 ゲスト、フェデレーション ユーザー、匿名ユーザーは、Teams ライブ イベントのプロデューサーや発表者としては招待できません。 Office 365 ゲストとフェデレーション ユーザーは、ライブ イベントを匿名で視聴することのみ可能です。 
  
 ## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか。
 
-|**出席者の表示/非表示**       |**クイック スタート**  |**外部エンコーダー**  |
+|**出席者の表示/非表示**       |**Teams の生産**  |**外部アプリまたはデバイスの製造工程**  |
 |------------------------------|-----------------|----------------------|
 |パブリック (匿名ユーザー)      |  はい            |  いいえ                  |
 |ゲスト ユーザー                   |  いいえ<sup>1</sup> |  いいえ                  |
@@ -68,7 +69,7 @@ ms.locfileid: "34428754"
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams ライブ イベントと Skype 会議ブロードキャスト
 次の表に、ライブ イベントで提供されるコア機能と特徴、および Skype 会議ブロードキャストとの相違点を示します。 
 
-|**機能**   |**Skype 会議ブロードキャスト** |**Microsoft Teams で作成されたイベント** |**外部アプリまたはデバイスで作成されたイベント** |
+|**機能**   |**Skype 会議ブロードキャスト** |**Teams で作成されたイベント** |**外部アプリまたはデバイスで作成されたイベント** |
 |---------|---------|---------|---------|
 |最大視聴者数 |出席者 10,000 名 |出席者 10,000 名* |出席者 10,000 名* |
 |ライブ イベントの最大期間 |4 時間 |4 時間 |4 時間 |
@@ -81,13 +82,13 @@ ms.locfileid: "34428754"
 |プロデューサー UI での出席者数 |X  |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
 |複数の発表者の許可 |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
 |会議中の発表者の招待 |&#x2714; (Skype for Business) |X |N/A |
-|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |X |N/A |
+|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |X |該当なし |
 |フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  | (近日公開) |該当なし |
 |発表者 – PSTN アクセス |X |&#x2714; (Teams) |N/A |
 |画面表示 |X |&#x2714; (Teams) |N/A |
 |PowerPoint 表示 (PPT 共有) |&#x2714; |X (画面共有により軽減) |N/A |
 |クラウド ベースの会議記録 |&#x2714; |&#x2714; |&#x2714; |
-|Microsoft Stream への記録の自動公開 |X |X |&#x2714; |
+|ストリームにレコーディングを自動発行する |X |X |&#x2714; |
 |リアルタイム キャプションと翻訳 |&#x2714; |&#x2714; (近日公開) |X |
 |ライブ イベント記録のキャプション |&#x2714; |&#x2714; (近日公開) |&#x2714; |
 |出席者の DVR 制御 (一時停止、巻き戻し) |&#x2714; |&#x2714; |&#x2714; |
@@ -111,7 +112,7 @@ ms.locfileid: "34428754"
 - Go Local Canada
 
 **除外対象と考慮事項**
-- **Go Locals:** イギリス、インド、オーストラリア、日本、および他の Microsoft Teams Go Local は現在サポートされていません。
+- **ローカルに移動:** 英国、インド、オーストラリア、日本、その他の Teams は現在サポートされていません。
 - **中国:** 中国では Azure CDN にアクセスできないため、イベント チームのメンバーと出席者は Teams ライブ イベントを使用できません。 企業の VPN 接続を使用して、顧客の企業ネットワーク経由でクライアントを CDN に接続することにより、これを回避できます。
 
 ## <a name="next-steps"></a>次のステップ

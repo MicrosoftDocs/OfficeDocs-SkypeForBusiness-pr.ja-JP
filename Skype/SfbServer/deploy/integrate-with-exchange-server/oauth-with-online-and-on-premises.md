@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: オンプレミスの Exchange と Skype for Business Online の間で OAuth 認証を構成すると、機能のサポートで説明されている Skype for Business と Exchange の統合機能が有効になります。
-ms.openlocfilehash: 28cf0471b13fc57c6b72c6a6216b3dd3b65726d8
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: ab778279996bd9439eaad9f13b373b206abf2662
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933842"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012982"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Skype for Business Online と Exchange Server の間で統合と OAuth を構成する 
 
@@ -126,13 +126,23 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 4. スクリプトの開始後、[資格情報] ダイアログ ボックスが表示されます。Microsoft Online Azure AD 組織のテナント管理者アカウントの資格情報を入力します。スクリプトを実行した後に、Azure AD セッションで Windows PowerShell を開いたままにします。次の手順では、これを使用して PowerShell スクリプトを実行します。
 
+### <a name="step-7-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>手順 7: 証明書が Skype for Business のサービスプリンシパルにアップロードされていることを確認する
+1. PowerShell で、Azure Active Directory が開かれ、認証されている場合は、次を実行します。
+```
+Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+```
+2. ReturnKeyValues の入力を求められたら enter キーを押します。
+3. Exchange Oauth 証明書の開始日と終了日に一致する、[開始日] と [終了] のキーが表示されていることを確認する
+
 ### <a name="verify-your-success"></a>成否を確認する
 
 機能の一部が正常に動作していることを確認して、構成が正しいことを確認します。 
 
-1. [モバイルクライアントの会話履歴を確認する] が Outlook の [会話履歴] フォルダーに表示されます。
+1. ハイブリッド Exchange Server の構成を使用している組織内の Skype for Business ユーザーが、ボイスメールの応答メッセージを正常に変更できることを確認します。
 
-2. [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)を使用して、アーカイブされたチャットメッセージが [削除] フォルダー内のユーザーのオンプレミスのメールボックスに記録されていることを確認します。
+2. [モバイルクライアントの会話履歴を確認する] が Outlook の [会話履歴] フォルダーに表示されます。
+
+3. [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)を使用して、アーカイブされたチャットメッセージが [削除] フォルダー内のユーザーのオンプレミスのメールボックスに記録されていることを確認します。
 
 または、トラフィックを確認します。 OAuth ハンドシェイクのトラフィックは、実際には非常に優れています (基本的な認証とは言えません)。特に、領域については、次のような発行者のトラフィックを表示することになります (例: 00000004-0000-0ff1-ce00-000000000000 @@ sign)。これは、渡されるトークンの中にあります。 OAuth のポイントであるユーザー名またはパスワードは表示されません。 ただし、"Office" の発行者が表示されます。この例では、「4」が Skype for Business であり、サブスクリプションの領域です。
 
