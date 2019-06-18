@@ -37,7 +37,7 @@
 ### [概要](deploy-apps-microsoft-teams-landing-page.md)
 ### [アプリのアクセス許可と考慮事項](app-permissions.md)
 ### [Teams でのアプリの管理設定](admin-settings.md)
-### [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)
+### [Teams で個人用チャット、グループ チャット、チャネルのボットを追加する](add-bots.md)
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ### [Office 365 コネクタとカスタム コネクタの使用](Office-365-custom-connectors.md)
 ### [Teams テナント アプリ カタログにアプリを公開する](tenant-apps-catalog-teams.md)
@@ -309,11 +309,15 @@
 ### [クイック スタート ガイド: 通話プランの構成](configuring-teams-calling-quickstartguide.md)
 
 ## 電話システムのダイレクト ルーティング
+
 ### [概要](direct-routing-landing-page.md)
 ### [ダイレクト ルーティングを計画する](direct-routing-plan.md)
 ### [ダイレクト ルーティングを構成する](direct-routing-configure.md)
 ### [ダイレクト ルーティングに移行する](direct-routing-migrating.md)
-### [ダイレクト ルーティングの監視とトラブルシューティング](direct-routing-monitor-and-troubleshoot.md)
+
+### ダイレクト ルーティングの監視とトラブルシューティング
+#### [概要](direct-routing-monitor-and-troubleshoot.md)
+#### [正常性ダッシュボード](direct-routing-health-dashboard.md)
 ### [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [複数のテナントにセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
 ### [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
