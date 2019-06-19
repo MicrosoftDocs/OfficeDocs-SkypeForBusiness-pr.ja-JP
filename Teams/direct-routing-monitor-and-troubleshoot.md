@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: この記事では、ダイレクトルーティング構成の監視とトラブルシューティングを行う方法について説明します。
-ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915157"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062380"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>ダイレクト ルーティングの監視とトラブルシューティング
 
@@ -66,6 +66,8 @@ Microsoft は、トラブルシューティングと監視のためのより多�
 降格とは、SBC が最初に試されないことを意味します。 たとえば、sbc1.contoso.com と sbc2.contoso.com は同じ優先度で設定されています。  
 
 上で説明したように、sbc1.contoso.com が SIP オプションを通常の間隔で送信しない場合は、降格されます。 次に、sbc2.contoso.com が通話を試みます。 Sbc2 で通話を発信できない場合、エラーが発生する前に、sbc1.contoso.com (降格) がもう一度試行されます。 
+
+2つ (以上) の concidered が1つのルートで正常に機能している場合は、SBCs 間の呼び出しが distrubute に適用されます。
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>通話品質分析ダッシュボードと SBC ログを監視する 
  

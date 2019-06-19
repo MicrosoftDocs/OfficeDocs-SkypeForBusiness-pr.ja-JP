@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: このトピックでは、Exchange および Skype for Business で Microsoft Teams ルームのアカウントを構成する方法について説明します。
-ms.openlocfilehash: 2c826be24ab9051c3dd206e2f4bbc7bdc832e250
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0fe9413c8da7c50479ddceaa524813d4ab68d8c6
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305402"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062324"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft Teams 室のアカウントを構成する
  
@@ -52,7 +52,7 @@ Microsoft Teams の会議室には、Active Directory、Exchange、Skype for Bus
 - Microsoft Teams の会議でデバイスアカウントを検証し、適切な Microsoft サービスにアクセスできるように、インフラストラクチャを構成する必要があります。
     
 > [!IMPORTANT]
-> ハードウェアを実際に設置するよりも十分に前もってアカウントを作成しておくことを、強くお勧めします。 設置の 2 週間から 3 週間前にアカウントの準備を開始するのが理想的です。 ハイブリッド環境では、microsoft Teams 会議室で使用されるアカウントでは、Microsoft Teams の会議室認証には 0ffice 365 認証が必要であるため、AAD 同期でパスワード同期が有効になっている必要があります。
+> ハードウェアを実際に設置するよりも十分に前もってアカウントを作成しておくことを、強くお勧めします。 設置の 2 週間から 3 週間前にアカウントの準備を開始するのが理想的です。 ハイブリッド環境では、microsoft Teams 会議室で使用されるアカウントでは、Microsoft Teams の会議室認証に Office 365 認証が必要であるため、AAD の同期でパスワード同期が有効になっている必要があります。
   
 デバイスアカウントは、会議室または会議スペースのアカウントとして認識されるリソースアカウントと考えることができます。 こうした会議室を使用する会議を予約する場合は、そのアカウントを会議に招待します。 Microsoft Teams の会議室を最も効果的に使用するために、各ユーザーに割り当てられているデバイスアカウントと同じ操作を行います。
   

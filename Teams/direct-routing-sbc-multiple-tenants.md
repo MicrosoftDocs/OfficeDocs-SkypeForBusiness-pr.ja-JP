@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 1つのセッション境界コントローラー (SBC) を複数のテナントに対応するように構成する方法について説明します。
-ms.openlocfilehash: 5392359307d97e010f86d3bb71f2f7c3f3d1ffb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 25cd466a221169c8e14569d121c5770364846f44
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290470"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062396"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -80,7 +80,7 @@ SBC ホスティングシナリオでの SBCs の展開と構成の詳細な手�
 
 次の図は、ベースドメイン、サブドメイン、連絡先ヘッダーの要件をまとめたものです。
 
-![ベースドメイン、サブドメイン、連絡先ヘッダーの要件](media/direct-routing-1-sbc-requirements.png)
+![ドメインと連絡先ヘッダーの要件を示す図](media/direct-routing-1-sbc-requirements.png)
 
 SBC は、接続を認証するために証明書を必要とします。 SBC ホスティングシナリオでは、通信事業者は* \*base_domain (customers.adatum.biz \*など)* で証明書を要求する必要があります。 この証明書を使って、1つの SBC から提供されている複数のテナントへの接続を認証することができます。
 
@@ -114,17 +114,17 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 1.  Microsoft 365 管理センターで、[**セットアップ** > **** > ドメインの**追加**] に移動します。
 2.  [**自分が所有しているドメインを入力して**ください] ボックスに、ベースドメインの FQDN を入力します。 次の例では、ベースドメインは*customers.adatum.biz*です。
 
-    ![ベースドメインを追加する](media/direct-routing-2-sbc-add-domain.png)
+    ![ドメインの追加] ページが表示されたスクリーンショット(media/direct-routing-2-sbc-add-domain)
 
 3. [ **次へ**] をクリックします。
 4. この例では、テナントは既に確認済みドメイン名として adatum.biz されています。 Customers.adatum.biz は既に登録されている名前のサブドメインであるため、追加の確認を求められることはありません。 ただし、以前に確認されていない FQDN を追加する場合は、確認プロセスを行う必要があります。 確認プロセスについては、[以下で説明](#add-a-subdomain-to-the-customer-tenant-and-verify-it)します。
 
-    ![確認済みドメイン名の確認](media/direct-routing-3-sbc-verify-domain.png)
+    ![確認済みドメイン名の確認を示すスクリーンショット](media/direct-routing-3-sbc-verify-domain.png)
 
 5.  [**次へ**] をクリックし、[ **Dns 設定の更新**] ページで [**自分で dns レコードを追加する**] を選択し、[**次へ**] をクリックします。
 6.  次のページで、すべての値を削除します (Exchange、SharePoint、または Teams/Skype for Business のドメイン名を使用する場合を除く)、[**次へ**] をクリックし、[**完了**] をクリックします。 新しいドメインがセットアップの完了状態になっていることを確認します。
 
-    ![セットアップ完了の状態を示すドメイン](media/direct-routing-14-sbc-setup-complete.png)
+    ![セットアップの状態が完了しているドメインを示すスクリーンショット](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>ドメイン名を有効にする
 
@@ -134,7 +134,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
 例: test@customers.adatum.biz
 
-![ベースドメインのライセンス認証ページ](media/direct-routing-4-sbc-domain-activation.png)
+![[ベースドメインのアクティブ化] ページのスクリーンショット](media/direct-routing-4-sbc-domain-activation.png)
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>顧客テナントにサブドメイン名を登録する
 
@@ -154,39 +154,39 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 1. Microsoft 365 管理センターで、[**セットアップ** > **** > ドメインの**追加**] に移動します。
 2. [**自分が所有しているドメインを入力してください**] ボックスに、このテナントのサブドメインの FQDN を入力します。 次の例では、サブドメインは sbc1.customers.adatum.biz です。
 
-    ![顧客のサブドメインを追加する](media/direct-routing-5-sbc-add-customer-domain.png)
+    ![[ドメインの追加] ページのスクリーンショット](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. [ **次へ**] をクリックします。
 4. FQDN がテナントに登録されていない。 次の手順では、ドメインを確認する必要があります。 [**代わりに TXT レコードを追加する**] を選びます。 
 
-    ![[ドメインの確認] ページのオプション](media/direct-routing-6-sbc-verify-customer-domain.png)
+    ![[ドメインの確認] ページのスクリーンショット](media/direct-routing-6-sbc-verify-customer-domain.png)
 
 5. [**次へ**] をクリックして、ドメイン名を確認するために生成された TXT 値を書き留めます。
 
-    ![[ドメインの確認] ページのテキストレコード](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![[ドメインの確認] ページのテキストレコードのスクリーンショット](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. キャリアの DNS ホスティングプロバイダーで、前の手順の値を使用して TXT レコードを作成します。
 
-    ![キャリアの DNS ホスティングプロバイダーでの TXT レコードの作成](media/direct-routing-8-sbc-txt-record.png)
+    ![TXT レコードの作成を示すスクリーンショット](media/direct-routing-8-sbc-txt-record.png)
 
     詳細については、「 [Office 365 の任意の dns ホスティングプロバイダーで dns レコードを作成](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)する」を参照してください。
 
 7. 顧客の Microsoft 365 管理センターに戻り、[**確認**] をクリックします。 
 8. 次のページで、[**自分で DNS レコードを追加**します] を選択し、[**次へ**] をクリックします。
 
-    ![[DNS 設定の更新] ページのオプション](media/direct-routing-9-sbc-update-dns.png)
+    ![[更新 DNS の設定] ページのオプションのスクリーンショット](media/direct-routing-9-sbc-update-dns.png)
 
 9. [**オンラインサービスの選択**] ページで、すべてのオプションをオフにし、[**次へ**] をクリックします。
 
-    ![[オンラインサービスの選択] ページ](media/direct-routing-10-sbc-choose-services.png)
+    ![[オンラインサービスの選択] ページのスクリーンショット](media/direct-routing-10-sbc-choose-services.png)
 
 10. [ **DNS 設定の更新**] ページで [**完了**] をクリックします。
 
-    ![[DNS 設定の更新] ページ](media/direct-routing-11-sbc-update-dns-finish.png)
+    ![[DNS 設定の更新] ページのスクリーンショット](media/direct-routing-11-sbc-update-dns-finish.png)
 
 11. ステータスが [**セットアップ完了完了**しています。 
     
-    ![セットアップ完了の状態を示すページ](media/direct-routing-12-sbc-setup-complete.png)
+    ![セットアップ完了の状態を示すページのスクリーンショット](media/direct-routing-12-sbc-setup-complete.png)
 
 ### <a name="activate-the-subdomain-name"></a>サブドメイン名を有効にする
 
@@ -196,33 +196,39 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
 例: test@sbc1.customers.adatum.biz
 
-![[サブドメイン] ページのアクティブ化](media/direct-routing-13-sbc-activate-subdomain.png)
+![[サブドメイン] ページのアクティブ化のスクリーンショット](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>トランクを作成してユーザーをプロビジョニングする
 
-> [!NOTE]
-> 技術採用プログラムで受け取ったフィードバックに基づき、Microsoft は顧客テナントでの trunks の作成プロセスを変更して、プロセスを簡素化する可能性があります。 詳細については、このページに記載されているドキュメントの更新内容を確認して、Microsoft テクニカルコミュニティのブログをご覧ください。 
+Microsoft は、直接ルーティングの最初のリリースで、新しい-CSOnlinePSTNGateway を使用して、提供される各テナント (顧客テナント) にトランクを追加する必要がありました。
 
-新しい-CSonlinePSTNGateway コマンドを使用して、顧客のドメインでトランクを作成します。 トランク FQDN は、顧客用に作成されたサブドメインと一致**する必要があり**ます。
+ただし、これは次の2つの理由により最適とは言えません。
+ 
+•**オーバーヘッド管理**。 たとえば、SBC のオフロードまたはドレインは、メディアのバイパスを有効または無効にするなど、いくつかのパラメーターを変更します。 ポートを変更するには、(Set-CSonlinePSTNGateway を実行して) 複数のテナントのパラメーターを変更する必要がありますが、実際には同じ SBC になります。 •**オーバーヘッド処理**。 複数の論理 trunks から収集されたトランクの正常性データの収集と監視 (実際には同じ SBC と物理的なトランク) によって、ルーティングデータの処理が遅くなります。
+ 
 
-次に例を示します。
+このフィードバックに基づいて、Microsoft は、お客様のテナントのために trunks をプロビジョニングするための新しいロジックを導入しています。
 
-```
-New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
-```
+2つの新しいエンティティが導入されました: • CSOnlinePSTNGateway を使用してキャリアテナントに登録されているキャリアトランク。たとえば、CSOnlinePSTNGateway customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true。
+•登録を必要としない派生トランク。 これは、単に、キャリアトランクから追加された目的のホスト名です。 これは、すべての構成パラメーターをキャリアトランクから導出します。 派生した樹幹は、PowerShell で作成する必要はありません。また、carrier トランクとの関連付けは FQDN 名に基づいています (以下の詳細を参照してください)。
 
-トランクの作成時に、次のエラーメッセージが表示されることがあります。
+プロビジョニングロジックと例。
 
-```
-Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
-```
+•航空会社は、CSOnlinePSTNGateway コマンドを使用して、1つのトランク (キャリアドメインのキャリアトランク) を設定して管理する必要があります。 上の例では、adatum.biz が使用されています。•お客様のテナントで、キャリアでは、ユーザーのボイスルーティングポリシーに派生トランク FQDN を追加するだけでできます。 トランクの新規 CSOnlinePSTNGateway を実行する必要はありません。
+•名前として派生トランクを指定すると、すべての構成パラメーターがキャリアトランクから継承されます。 例: • Customers.adatum.biz –キャリアテナントで作成する必要があるキャリアトランク。
+• Sbc1.customers.adatum.biz –顧客テナントで、PowerShell で作成する必要がない派生トランク。  オンラインボイスルーティングポリシーの顧客テナントに派生トランクの名前を追加することはできません。
 
-ドメイン登録とライセンス認証が複製されるまでしばらくお待ちください。もう一度やり直してください。
+•通信事業者のトランク (キャリアテナント) で行った変更は、派生した trunks に自動的に適用されます。 たとえば、運送業者は、電話会社のトランクの SIP ポートを変更することができます。この変更は、すべての派生 trunks に適用されます。 Trunks を構成するための新しいロジックにより、すべてのテナントに移動したり、すべてのトランクのパラメーターを変更したりする必要がないため、管理が簡単になります。
+•オプションは、キャリアトランク FQDN にのみ送信されます。 キャリアトランクの正常性状態は、すべての派生 trunks に適用され、ルーティング決定に使用されます。 [ダイレクトルーティングオプション](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)の詳細については、こちらを参照してください。
+•通信事業者は、電話会社のトランクを放電することができ、派生した trunks もすべてドレインされます。 
+ 
 
-電話番号を使ってユーザーをプロビジョニングし、音声ルーティングを構成します。
+以前のモデルからキャリアトランクへの移行
+ 
+キャリアでホストされているモデルの現在の実装から新しいモデルに移行するには、運送業者は trunks を顧客テナント用に再構成する必要があります。 Trunks を使用して、ユーザーテナントから CSOnluinePSTNGateway を削除します (電話会社のテナントにトランクを残します)。
 
-CSOnlinePSTNGateway、ユーザーのプロビジョニング、および音声ルーティングの構成の詳細については、「[直接ルーティングを構成](direct-routing-configure.md)する」を参照してください。
-
+新しいソリューションへの移行はできるだけ早くお勧めします。これにより、通信事業者と派生したトランクモデルを使用した監視とプロビジョニングが強化されます。
+ 
 
 連絡先ヘッダーでサブドメインの FQDN 名の送信を構成する方法については、「 [SBC ベンダーの手順](#deploy-and-configure-the-sbc)」を参照してください。
 

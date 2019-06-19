@@ -13,12 +13,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: このトピックでは、大規模な展開での Microsoft Teams のルームの展開について説明します。
-ms.openlocfilehash: 34bd984d16da4eeb1934c7fda7bbadb0837240be
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a5bfd888d3d70703245841a8744449854c6ffb8
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305444"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062372"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>System Center Configuration Manager を使用して Microsoft Teams ルームを展開する
 
@@ -129,6 +129,9 @@ Configuration Manager を使用して Microsoft Teams のルームを展開す�
 > ブート可能な USB メディアを作成して、PXE をサポートしていない環境の構成マネージャーのタスクシーケンスベースの展開を開始することができます。 起動可能なメディアには、ブートイメージ、オプションの起動コマンドと必要なファイル、および構成マネージャーのバイナリが含まれます。これには、Windows PE の起動と、展開プロセスの残りの部分に対して Configuration Manager への接続がサポートされます。 詳細については、「[起動可能なメディアを作成する方法](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)」を参照してください。
 
 ## <a name="create-configuration-manager-packages"></a>Configuration Manager パッケージを作成する
+
+> [!IMPORTANT]
+> 各 SRS インストーラーバージョンに必要なオペレーティングシステムのバージョンが、MSI のすべてのリリースで変更されています。 特定の MSI で最適なオペレーティングシステムバージョンを判断するには、コンソールセットアップスクリプトを1回実行します。 詳細については、「 [System Center Configuration Manager を使用して Microsoft Teams ルームを展開](room-systems-scale.md)する」を参照してください。
 
 Configuration Manager では、Microsoft Teams のルームユニットを展開して構成するために、多数のパッケージが必要です。
 

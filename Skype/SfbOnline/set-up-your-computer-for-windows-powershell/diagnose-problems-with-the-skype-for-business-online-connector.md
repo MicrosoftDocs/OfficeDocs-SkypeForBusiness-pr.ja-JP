@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: f6cd98381379c14f41c1de2dc1a7b3f239463c3d
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 44214b93e4a1c555165e8bb2e699b7ff8c4e4599
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667374"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062210"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Skype for Business Online Connector との接続の問題を診断する
 
@@ -32,6 +32,8 @@ ms.locfileid: "34667374"
 - [Windows PowerShell 実行ポリシーによる Import-Module エラー](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
     
 - [Windows PowerShell の不正なバージョンによる Import-Module エラー](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
+    
+- [WinRM Basic 認証が無効になっている場合、先進認証が失敗する](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKWinRMBasicAuth)
     
 - [Live ID Server への接続の失敗](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
     
@@ -69,6 +71,13 @@ Skype for Business Online Connector モジュール は、Windows PowerShell 3.0
 
 - **解決策**: この問題を解決するには、Microsoft ダウンロードセンターから入手できる Windows PowerShell 3.0 をインストールする方法しか[https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)ありません。
   
+## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>WinRM Basic 認証が無効になっている場合、先進認証が失敗する
+<a name="BKMKWinRMBasicAuth"> </a>
+
+最新バージョンの Skype for Business Online Connector モジュールは先進認証を使用しますが、基になる Windows リモート管理 (WinRM) クライアントは、基本認証を許可するように構成されている必要があります。  先進認証では、通常は*Authorization: bearer* header に渡される bearer トークンを使用します。 Windows PowerShell (Skype for Business PowerShell が構築されている場合) では、このヘッダーの操作は許可されません。  代わりに、Skype for Business PowerShell は*Authorization: Basic*ヘッダーを使って bearer トークンを渡します。
+
+WinRM で基本認証を有効にする方法については[、「Windows PowerShell をダウンロードしてインストール](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)する」を参照してください。
+
 ## <a name="failed-to-connect-to-live-id-server"></a>Live ID Server への接続の失敗
 <a name="BKMKFailedConnect"> </a>
 

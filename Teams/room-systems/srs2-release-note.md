@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームでの累積的な改善点について説明します。
-ms.openlocfilehash: 8461c3c7f1a3b132e3cabad81eeb211c28e8ef3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39101550be48703c3feaa367e3740f9f3c7dba9f
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288461"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062412"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -54,14 +54,14 @@ ms.locfileid: "34288461"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams の会議機能の概要と問題の解決
 
-### <a name="40850-0482018"></a>4.0.85.0 (04/8/2018)
+### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
 この更新プログラムで導入されたもの:
 
 - "フィードバックを送信する" 機能の問題を修正しました 
 - Windows 10 バージョン1809への MTR デバイスのまもなくアップグレードの準備に関する最適化
 
-### <a name="40780-03142018"></a>4.0.78.0 (03/14/2018)
+### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
 この更新プログラムで導入されたもの:
 

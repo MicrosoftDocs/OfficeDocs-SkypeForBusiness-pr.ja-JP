@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 3/18/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5e9857a04d1499e7ca9527044a2a66320291ac8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d832081bcd610e5d367c5d3d62ffdfe13650e238
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245875"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062428"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
@@ -32,7 +31,7 @@ ms.locfileid: "32245875"
 
 #### <a name="when-will-staffhub-be-retired"></a>StaffHub はいつから廃止されますか?
 
-2019年4月の最中に、新しいテナントで Microsoft StaffHub は利用できなくなり、Office 365 アプリ起動ツールからアプリにアクセスすることはできなくなります。 現在のユーザーは、2019年10月1日までサービスを利用できますが、その他の機能は利用できません。
+2019年4月の間に、新しいテナントで Microsoft StaffHub は利用できなくなり、既存のテナントの Office 365 アプリ起動ツールからアプリにアクセスすることはできなくなります。 現在のユーザーは、2019年10月1日までサービスを利用できますが、その他の機能は利用できません。
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>StaffHub が廃止された場合はどうなりますか?
 
@@ -162,6 +161,10 @@ Azure AD ユーザーアカウントにリンクされていない非アクテ�
 ユーザーを移行するには、StaffHub のデータチャット履歴を Teams に移行する予定です。 チームで利用できるチャット履歴の量は、移行のために組織を構成するまでの時間によって異なります。 2019年10月1日までに90日間のデータを移行するのに十分な時間を提供するには、2019年6月30日以降のアクションを実行することをお勧めします。
 
 移行を開始する前に、Microsoft 365 管理センターで Office 365 グループの作成が有効になっていることを確認します。これは、StaffHub のチャットデータを Teams に移動できるようにするために不可欠です。 2019年6月30日までにこのサービスを有効にしないと、移行日が後になったり、チャットデータがコピーされたりすることはありません。
+
+#### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>StaffHub にアップロードされたファイルはどうなりますか?
+
+チームが必要とするファイルを StaffHub から Teams に移動することができます。 移動したファイルは、SharePoint Online のチームサイトの [全般] フォルダーに保存されます。 Teams では、ユーザーはチームの全般チャネルの [**ファイル**] タブからファイルにアクセスできます。 詳細については、「 [Microsoft StaffHub teams を teams のシフトに移行する](move-staffhub-teams-to-shifts-in-teams.md)」を参照してください。
 
 #### <a name="can-i-export-shift-schedules-from-shifts"></a>シフトからシフトのスケジュールをエクスポートすることはできますか?
   

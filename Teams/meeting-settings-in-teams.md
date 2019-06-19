@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 組織でスケジュールされているユーザーのチーム会議の設定を管理する方法について説明します。
-ms.openlocfilehash: ff47c1315dd56369d9a00d0afad952b80520abf3
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 10edd2b0b1b665a126fa7528f4b1e24bf88f4fe5
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433152"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062388"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -49,8 +49,10 @@ ms.locfileid: "34433152"
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>会議出席依頼のロゴを作成するためのヒント  
 
 1. 高さが188ピクセル未満で、幅が30ピクセル以下の画像を作成します (非常に小さい)。
-2. イメージを JPG 形式で保存します。
+2. 画像を JPG または PNG 形式で保存します。
 3. ネットワーク共有など、組織内のすべてのユーザーがアクセスできる一元的な場所に画像を保存します。
+
+    会議出席依頼に追加できるようになります。 次の手順を参照してください。
 
 ### <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズする
 
