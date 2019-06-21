@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f45556f88513d7f35aec7fda8f0ded40848eece8
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: 76efaefecf17b37b7c0a802f738cde493fa2c194
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062316"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35115955"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -211,10 +211,6 @@ ms.locfileid: "35062316"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |Intune で管理されているモバイル デバイスで、ユーザーがアカウントを切り替えられません  <br/> |Intune で管理されているモバイル デバイスで、ユーザーがアカウントを切り替えられない場合があります  <br/> |回避策なし。  <br/> |2017/09/20  <br/>|
-
-|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
-|モバイル アプリでファン ピッカーや Giphy やステッカーを使用することができない  <br/> |モバイル クライアントで gif、絵文字、ステッカーを使用することはできません。  <br/> |回避策なし。  <br/> |2017/03/13  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
