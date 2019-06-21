@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
-ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 1c93d8b028da3fb1aaf68241a974170d0045b950
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667499"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35116018"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -114,7 +114,8 @@ Enabled               : True
 |いいえ|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 有効になっている場合、プライバシー: ID ヘッダーも送信されます。 既定値は**False** ($False) です。|False|True<br/>False|Boolean|
 |いいえ|SendSIPOptions |SBC が SIP オプションを送信するかどうかを定義します。 無効にした場合、SBC は、監視および警告システムから除外されます。 SIP オプションを有効にすることを強くお勧めします。 既定値は**True**です。 |True|True<br/>False|Boolean|
 |いいえ|MaxConcurrentSessions |アラートシステムで使用されます。 いずれかの値が設定されると、同時セッション数が 90% 以上である場合、またはこの値よりも高い場合に、通知システムによってテナント管理者に通知が生成されます。 パラメーターが設定されていない場合、アラートは生成されません。 ただし、監視システムでは、24時間ごとに同時セッションの数が報告されます。 |空|空<br/>1 ~ 10万 ||
-|いいえ|な|この SBC を発信通話に対して有効にします。 更新中またはメンテナンス中に、SBC を一時的に削除するために使用できます。 |False|True<br/>False|Boolean|
+|いいえ|MediaRelayRoutingLocationOverride |メディアのパスを手動で選ぶことができます。 直接ルーティングでは、SBC のパブリック IP に基づいて、メディアパスのデータセンターが割り当てられます。 常に、SBC データセンターに最も近いものを選択します。 ただし、場合によっては、たとえば、米国の範囲を、ヨーロッパにある SBC に割り当てることができます。 この場合は、最適なメディアパスを使用しないようにします。 このパラメーターを使うと、メディアトラフィックの優先領域を手動で設定できます。 このパラメーターを設定することをお勧めします。このパラメーターを設定することは、メディアパスのデータセンターの自動割り当てで SBC データセンターに最も近い値が割り当てられないということを意味します。 |なし|ISO 形式の国コード||
+|いいえ|有効|この SBC を発信通話に対して有効にします。 更新中またはメンテナンス中に、SBC を一時的に削除するために使用できます。 |False|True<br/>False|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>SBC ペアリングを確認する 
 
