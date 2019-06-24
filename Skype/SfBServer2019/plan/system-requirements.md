@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: このトピックを使用して、Skype for Business Server 2019 サーバーとドメインインフラストラクチャを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項、証明書の DNS、ファイル共有、Active Directory の情報と共に、サーバーファームのインストールと展開が正常に行われるようにするために、ここに記載されています。'
-ms.openlocfilehash: 94b95f97021a4633a6dbcbf300426731cefc85fe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c68d9f916d7c18c34d941ed880b81698793b4fe
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283921"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134284"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 のシステム要件
  
@@ -194,8 +194,8 @@ Skype for Business Server 2019 Enterprise Edition には、以下に示すよう
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64 ビット版)、最新の更新プログラムを使用して実行する必要があります。  <br/> |
-Microsoft SQL Server 2017 (64 ビット版)、最新の更新プログラムを使用して実行する必要があります。|
+|Microsoft SQL Server 2019 (64 ビット版)、最新の更新プログラムを使用して実行する必要があります。  <br/> |Microsoft SQL Server 2017 (64 ビット版)、最新の更新プログラムを使用して実行する必要があります。  <br/> |
+Microsoft SQL Server 2016 (64 ビット版)、最新の更新プログラムを使用して実行する必要があります。|
  |
 
 使用したい SQL Server エディションがここに表示されていない場合は、使用できません。
@@ -213,13 +213,15 @@ Skype for Business Server 2019 での SQL クラスタリングはサポート�
   
 2 ノードの場合:
   
-- Microsoft SQL Server 2016 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。
+- Microsoft SQL Server 2019 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。
 - Microsoft SQL Server 2017 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。
+- Microsoft SQL Server 2016 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。
 
 16 ノードの場合:
   
-- Microsoft SQL Server 2016 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。
+- Microsoft SQL Server 2019 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。
 - Microsoft SQL Server 2017 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。
+- Microsoft SQL Server 2016 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。
 
 SQL Always On がサポートされていますが、 [Skype For Business Server 2019 のバックエンドサーバーの高可用性](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)機能で、その詳細を確認できます。
   
@@ -441,7 +443,7 @@ Skype for Business Server 2019 では、次のような用途で証明書が使�
   
 また、Skype for Business Server 2019 が他のアプリケーションやサーバー (Microsoft Exchange Server など) と通信する場合は、証明書が必要になります。 これは明らかに、他のアプリやサーバーでサポートされている方法で使用できる証明書である必要があります。 Skype for Business Server 2019 およびその他の Microsoft 製品は、サーバー間の認証と承認のための Open Authorization (OAuth) プロトコルをサポートしています。 この項目に興味をお持ちの場合は、OAuth および Skype for Business Server 2019 のその他の計画記事をご覧ください。
   
-Skype for business Server 2019 には、(必要256とせずに) sha-1 暗号化ハッシュ関数を使って署名された証明書のサポートも含まれています。 SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
+Skype for Business Server 2019 には、(必要256とせずに) SHA-1 暗号化ハッシュ関数を使って署名された証明書のサポートも含まれています。 SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
   
 わかりやすくするために、標準エディションサーバー、フロントエンドプール、その他の役割の証明書要件を、例として使用されている架空の contoso.com を使用して、次の表に示します (これについては別の方法を使用している可能性があります)。お客様の環境)。 これらはすべて、標準の web サーバー証明書であり、エクスポートできない秘密キーが含まれています。 その他の注意事項:
   

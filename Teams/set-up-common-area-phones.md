@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ロビー、受付領域、会議室の一般的なエリア電話を設定する方法について説明します。 '
-ms.openlocfilehash: ea29fac8792c8c52112c34126f463cc3bde9873c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298759"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131513"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 > [!NOTE]
@@ -55,6 +55,26 @@ ms.locfileid: "34298759"
 
 ライセンスの詳細については、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
+一般的な市外局番のライセンスは次の機能をサポートしています。 
+
+
+|   |  共用エリア電話機  |
+|---------|---------|
+|Skype for Business |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
+|電話システム |    &#x2714; |
+|電話会議 |       &#x2718; &sup1;  |
+|Microsoft Intune |        &#x2718; &sup2; |
+|世界中どこでも利用可能 |    &#x2714; |
+|チャネルの可用性 |    EA、EAS、CSP、GCC、EES、Web ダイレクト  |
+|      |         |
+
+&sup1;一般的なエリア電話では、会議の開催者によって提供されるダイヤルイン番号を使用して、音声会議に参加できます。
+
+&sup2;主権 cloud では使用できません。  
+
+
+
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>手順 2  - 電話機の新しいユーザアカウントを作成し、ライセンスを割り当てます
 
 1. Microsoft 365 管理センターで、[ **** > **アクティブな** > ユーザー] に移動して**ユーザーを追加**します。
@@ -77,7 +97,7 @@ ms.locfileid: "34298759"
 
 Skype for Business 管理センターを使用して、ユーザーに電話番号を割り当てます。
 
-1. Microsoft 365 管理センターで、[**管理センター** > **Teams & Skype** > **レガシポータル**] を選択します。
+1. Microsoft 365 管理センターで、[**管理センター** > **チーム & Skype** > **レガシポータル**] を選択します。
 
 2. Skype for business 管理センターで、[ **** > **電話番号**] を選択します。
 

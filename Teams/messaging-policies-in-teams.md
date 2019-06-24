@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージングポリシーと、それらを使用して Teams でチャットメッセージを制御する方法について説明します。
-ms.openlocfilehash: 8a92ceea98d5f55c885a9fb59976dd571dba2b09
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: 6bd340d6fe212af43828c19ccfd974fb159261e5
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915149"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134316"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams のメッセージング ポリシーを管理する
 
@@ -89,7 +89,7 @@ Microsoft Teams 管理センターでは、管理者の資格情報でhttp://adm
 - **URL プレビューを許可する**メッセージで自動 URL プレビューのオンとオフを切り替えるには、この設定を使います。
 - **ユーザーにメッセージの翻訳を許可する**この設定をオンにすると、ユーザーは Office 365 の個人の言語設定で指定された言語に Teams のメッセージを自動的に翻訳できるようになります。
 - **メッセージの表示にイマーシブリーダーを許可する**この設定をオンにして、ユーザーが Microsoft イマーシブリーダーのメッセージを表示できるようにします。 イマーシブリーダーは、テキストの読みやすさを向上させるための全画面閲覧のエクスペリエンスを提供する学習ツールです。
-- **ユーザーは優先度通知を送信できます**これを有効にすると、ユーザーは優先度通知を使用するメッセージを送信できます。 優先度通知は、20分の間、またはメッセージが受信され、受信者がメッセージを受信して、メッセージが適切なタイミングで処理される可能性を最大化するまで、ユーザーに繰り返し通知します。   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **ユーザーは<a name="urgent-message">優先度</a>通知を送信できます**これを有効にすると、ユーザーは優先度通知を使用するメッセージを送信できます。 優先度の通知は、2分間隔で20分間、またはメッセージが受信され、受信者がメッセージを受信して、メッセージが適切なタイミングで処理される可能性を最大化するまで、ユーザーに通知します。   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **音声メッセージの作成** 
     - **チャットとチャネルで許可**つまり、ユーザはボイスメッセージをチャットとチャネルの両方に残しておくことができます。
     - **チャットで許可されている**つまり、ユーザーは音声メッセージをチャットに残すことができますが、チャネルではそのままにすることはできません。

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: このトピックを使用して、Skype for Business Server 2015 サーバーを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、サーバーファームのインストールと展開を成功させるのに役立ちます。'
-ms.openlocfilehash: af739cd01fcb2071ad271d7932483d1bf37e2bf0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74b1a26f38a0055c8222b980754106011a86ce34
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296820"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134262"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -68,7 +68,7 @@ Skype for Business Server 2015 の展開を開始する前に、いくつかの�
   
 |||
 |:-----|:-----|
-|Windows Server 2016 (Skype for Business の累積更新プログラム5以降が必要です。 詳細については、 [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016)を参照してください)  <br/> ||
+|Windows Server 2019 (Skype for Business の累積更新プログラム9以降が必要です)。 <br/> |Windows Server 2016 (Skype for Business の累積更新プログラム5以降が必要です。 詳細については、 [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016)を参照してください)  <br/> ||
 |必須の更新プログラムがすべてインストールされている Windows Server 2012 R2 Datacenter OS。  <br/> |必要な更新プログラムがすべてインストールされている Windows Server 2012 R2 Standard OS。  <br/> |
 |必要な更新プログラムがすべてインストールされている Windows Server 2012 Datacenter OS。  <br/> |必須の更新プログラムがすべてインストールされている Windows Server 2012 Standard OS。  <br/> |
    
@@ -92,10 +92,10 @@ Skype for Business Server 2015 Standard Edition をインストールすると�
   
 Skype for Business Server 2015 Enterprise Edition は少し複雑ですが、サポートされている一覧は以下のとおりです (すべては64ビット版ですが、32ビットエディションは使用しないでください)。
   
-|||||
+||||||
 |:-----|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2017 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。 <br/> |Microsoft SQL Server 2016 Enterprise (64 ビット版) Service Pack 1 以降を使用して、Skype for Business の累積更新プログラム7以降で実行する必要があります ([skype For Business 累積更新プログラムをダウンロード](https://support.microsoft.com/en-us/help/3061064)してください)。  <br/> |Microsoft SQL Server 2014 Enterprise (64 ビット版)、累積更新プログラム6以降を実行する必要があります ([累積更新プログラム6をダウンロード](https://support.microsoft.com/en-us/kb/3031047/)してください)。  <br/> |Microsoft SQL Server 2012 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。  <br/> |
-|Microsoft SQL Server 2017 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。 <br/> |Microsoft SQL Server 2016 Standard (64 ビット版) Service Pack 1 以降がインストールされています。 Skype for Business 累積更新プログラム7以降で実行する必要があります ([skype For Business 累積更新プログラムをダウンロード](https://support.microsoft.com/en-us/help/3061064)してください)。  <br/> |Microsoft SQL Server 2014 Standard (64 ビット版)、累積更新プログラム6以降を実行する必要があります ([累積更新プログラム6をダウンロード](https://support.microsoft.com/en-us/kb/3031047/)してください)。  <br/> |Microsoft SQL Server 2012 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。  <br/> |
+|Microsoft SQL Server 2019 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。 <br/> |Microsoft SQL Server 2017 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。 <br/> |Microsoft SQL Server 2016 Enterprise (64 ビット版) Service Pack 1 以降を使用して、Skype for Business の累積更新プログラム7以降で実行する必要があります ([skype For Business 累積更新プログラムをダウンロード](https://support.microsoft.com/en-us/help/3061064)してください)。  <br/> |Microsoft SQL Server 2014 Enterprise (64 ビット版)、累積更新プログラム6以降を実行する必要があります ([累積更新プログラム6をダウンロード](https://support.microsoft.com/en-us/kb/3031047/)してください)。  <br/> |Microsoft SQL Server 2012 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。  <br/> |
+|Microsoft SQL Server 2019 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。 <br/> |Microsoft SQL Server 2017 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。 <br/> |Microsoft SQL Server 2016 Standard (64 ビット版) Service Pack 1 以降がインストールされています。 Skype for Business 累積更新プログラム7以降で実行する必要があります ([skype For Business 累積更新プログラムをダウンロード](https://support.microsoft.com/en-us/help/3061064)してください)。  <br/> |Microsoft SQL Server 2014 Standard (64 ビット版)、累積更新プログラム6以降を実行する必要があります ([累積更新プログラム6をダウンロード](https://support.microsoft.com/en-us/kb/3031047/)してください)。  <br/> |Microsoft SQL Server 2012 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。  <br/> |
    
 使用したい SQL Server エディションがここに表示されていない場合は、使用できません。
   
@@ -134,6 +134,8 @@ Skype for Business Server 2015 で SQL ミラーリングまたは SQL クラス
   
 2 ノードの場合:
   
+- Microsoft SQL Server 2019 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。
+
 - Microsoft SQL Server 2017 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。
 
 - Microsoft SQL Server 2016 Standard (64 ビット版)、Service Pack 1 以降。 最新のサービスパックを使用して実行することをお勧めします。
@@ -143,6 +145,8 @@ Skype for Business Server 2015 で SQL ミラーリングまたは SQL クラス
 -  Microsoft SQL Server 2012 Standard (64 ビット版)、最新のサービスパックを使用して実行することをお勧めします。
 
 16 ノードの場合:
+
+- Microsoft SQL Server 2019 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。
 
 - Microsoft SQL Server 2017 Enterprise (64 ビット版)、最新の service pack を使用して実行することをお勧めします。
 

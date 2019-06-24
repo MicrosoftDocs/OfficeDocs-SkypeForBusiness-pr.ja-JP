@@ -13,18 +13,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: ユーザーは、他のユーザーの状態メッセージの代理人として明示的に設定することができます。
-ms.openlocfilehash: be7092d2a68010d00a2d214f12bfe9011d44bbc5
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 451577ce033f9a67bbc13ebbe2361083ab035e48
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35119485"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131505"
 ---
-# <a name="set-a-delegate-in-a-status-message"></a>状態メッセージで代理人を設定する
+# <a name="message-delegation"></a>メッセージの委任
 
-ユーザーは、状態を既に [退席中] または [応答不可] に設定して、カスタムテキストを指定できます。 委任機能を使用すると、別のユーザーにテキスト状態メッセージの一部としてメンションを @username ことができます。また、それらのユーザーが連絡できるようにする場合は、代わりに、@username メンションされたユーザーに連絡することをお勧めします。 他のユーザーに連絡してもらい、指定された代理人の上にカーソルを置いて、代わりに簡単にメッセージを送信できます。  代理人として割り当てられたユーザーには、代理人として任命されたことが通知されます。
+ユーザーは、状態を既に [退席中] または [応答不可] に設定して、カスタムテキストを指定できます。 メッセージの委任機能は、次のように動作します。
 
-これは、クライアントでのユーザーによって開始されるプロセスであり、管理者の関与は必要ありません。
+1. ユーザーは、別のユーザーをテキスト状態メッセージの一部としてメンションして、相手に連絡したいユーザーがいないときに、@username メンションされたユーザーに連絡することを提案 @username ます。
+2. 代理人として割り当てられたユーザーには、代理人として任命されたことが通知されます。
+3. 最初のユーザーに連絡しようとしているユーザーは、指定されたデリゲートの上にマウスポインターを置くと、代わりに代理人に簡単にメッセージを送信できます。  
+
+これはクライアントでのユーザーによって開始されるプロセスであり、この機能を有効にするために管理者の関与は必要ありません。 
 
 ## <a name="delegation-use-scenario-in-healthcare"></a>医療機関の委任使用シナリオ
 
@@ -34,7 +38,7 @@ ms.locfileid: "35119485"
 
 ## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>Teams クライアントでのユーザーの状態への共存モードの影響
 
-管理者は、状態メモと委任メンションが一部のユーザーの共同のモードに依存することに注意する必要があります。 このマトリックスは、次の可能性を示します。
+管理者は、[状態メモ] と [委任によるメンション] の動作が、ユーザーの共存モードに依存することに注意する必要があります。 このマトリックスは、次の可能性を示します。
 
 |共存モード | 予期される動作|
 |---|---|
@@ -49,15 +53,11 @@ ms.locfileid: "35119485"
   
 ノートが Skype for Business から設定されたことを示す視覚的な通知はありません。
 
-Skype for Business では、状態メモに文字数の制限は適用されません。 Microsoft Teams では、Skype for Business からのメモセットの最初の280文字のみが表示されます。 終端の省略記号 (...) は、切り捨てを示します。
+Skype for Business では、状態メモに文字数の制限は適用されません。 Microsoft Teams では、Skype for Business からのメモセットの最初の280文字のみが表示されます。 メモの末尾にある省略記号 (...) は、切り捨てを示します。
   
 Skype for Business では、ノートの有効期間をサポートしていません。
 
 ユーザーが TeamsOnly モードにアップグレードされている場合、Skype for Business から Teams へのメモの移行はサポートされません。
-
-## <a name="configure-allowing-clients-to-use-delegates"></a>クライアントに代理人の使用を許可するように構成する
-
-この機能には、Microsoft Teams 管理センターでの構成または PowerShell の使用は必要ありません。 サポートされているテナントでは、チームクライアントで既定で利用できます。
 
 ## <a name="related-topics"></a>関連項目
 

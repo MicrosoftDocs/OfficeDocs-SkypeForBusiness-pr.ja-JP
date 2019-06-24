@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a86aa13c826b9b741aed936e134c6df90c8ed66
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: d28eaee5b413444c9123f2334f38d599b6f753a5
+ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667491"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35133908"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -77,7 +77,7 @@ Teams には、組織に適した Teams の管理に使用できる、カスタ�
 
 |確認事項|アクション |
 |------------|-------|
-|<ul><li>自分の組織の外部アクセスをオンにするか?</li><li>有効にする場合は、自分の組織との通信を許可するドメインを制限するか?</li></ul> |<br>外部アクセスをオンにする場合は、「[Teams のユーザーが別の Teams 組織のユーザーとチャットおよび通信できるようにする](let-your-teams-users-communicate-with-other-people.md)」を参照してください。|
+|<ul><li>自分の組織の外部アクセスをオンにするか?</li><li>有効にする場合は、自分の組織との通信を許可するドメインを制限するか?</li></ul> |<br>外部アクセスをオンにする場合は、「[Teams のユーザーが別の Teams 組織のユーザーとチャットおよび通信できるようにする](manage-external-access.md#let-your-teams-users-chat-and-communicate-with-users-in-another-organization)」を参照してください。|
 |||
 
 ### <a name="guest-access"></a>ゲスト アクセス

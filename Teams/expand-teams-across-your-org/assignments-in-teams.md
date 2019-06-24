@@ -15,16 +15,14 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22c53433548715fdc2a84a0f45ce0c3fc02d7b98
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591721"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131521"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
-
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 割り当ては、学生またはチームメンバーに対して、調査の一環として、クラス内で割り当てられているタスクまたは作業単位数です。 Teams クラス内で課題を作成することができます。
 
@@ -36,6 +34,8 @@ Microsoft Teams 管理センターの管理設定を使用すると、組織内�
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>1週間のガーディアンメールダイジェスト
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 ガーディアンのメールは、学生の両親またはガーディアンに対して毎週メールで送信されます。 このメールには、前週と来週の課題に関する情報が含まれており、週末に送信されます。 学校のデータ同期機能を使用して、管理者がメールを更新する必要があります。
 
 この設定は、既定ではオフになっています。
@@ -48,10 +48,11 @@ MakeCode はブロックベースのコーディングプラットフォーム�
 
 この設定は、既定ではオフになっています。
 
-[MakeCode について、詳細はこちらをご覧ください](https://www.microsoft.com/${locale}/makecode)
+[MakeCode について、詳細はこちらをご覧ください](https://www.microsoft.com/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin は、plagiarism の検出サービスです。 これは、サードパーティの製品またはサービスであり、独自の用語とプライバシーポリシーの適用対象となります。 お客様は、サードパーティの製品とサービスの使用に関して責任を負います。
 
