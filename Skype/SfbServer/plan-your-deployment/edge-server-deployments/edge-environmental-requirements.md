@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: '概要: Skype for Business Server のエッジサーバーの環境要件について説明します。'
-ms.openlocfilehash: a154882e6fe78faee3b020830de4049827babf89
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277175"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203957"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Skype for Business Server での Edge Server の環境要件
  
@@ -81,8 +81,8 @@ Skype for Business Server Edge Server の展開では、いくつかのトポロ
 |:-----|:-----|:-----|:-----|:-----|
 |プライベート IP アドレスと NAT を使用する単一統合エッジ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
 |パブリック IP アドレスを使用する単一統合エッジ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
-|NAT によるプライベート IP アドレスを使用した拡張統合エッジ (DNS 負荷分散)  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |Yes&sup1;  <br/> |
-|パブリック IP アドレスを使用した拡張統合エッジ (DNS 負荷分散)  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |Yes&sup1;  <br/> |
+|NAT によるプライベート IP アドレスを使用した拡張統合エッジ (DNS 負荷分散)  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい&sup1;  <br/> |
+|パブリック IP アドレスを使用した拡張統合エッジ (DNS 負荷分散)  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい&sup1;  <br/> |
 |ハードウェア ロード バランサーによる拡張統合エッジ  <br/> |はい  <br/> |× (VIP ごとに 1 つの DNS A レコード)  <br/> |はい  <br/> |はい  <br/> |
    
 &sup1;Exchange ユニファイドメッセージング (UM) のリモートユーザーフェールオーバー DNS 負荷分散を使用するには、Exchange 2013 以降が必要です。
@@ -143,7 +143,7 @@ Skype for Business Server Edge Server の展開については、DNS を適切�
 
 これは、パブリック Ip または NAT を使ったプライベート Ip のいずれかを使用して、単一のエッジサーバーに必要な DNS レコードです。 これはサンプルデータであるため、自分のエントリをより簡単に処理できるように、IPs の例を提供します。
   
-- 内部ネットワーク アダプター: 172.25.33.10 (デフォルト ゲートウェイの割り当てなし)
+- 内部ネットワークアダプター: 172.25.33.10 (既定のゲートウェイは割り当てられていません)
     
     > [!NOTE]
     > Skype for Business Server または Lync Server 2013 クライアントを実行しているサーバー (172.25.33.0 から192.168.10.0 など) が含まれているすべてのネットワークへの Edge 内部インターフェイスが含まれているネットワークからのルートがあることを確認します。 

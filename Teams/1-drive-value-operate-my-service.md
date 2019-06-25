@@ -3,7 +3,7 @@ title: Microsoft Teams の操作ガイド
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +15,12 @@ description: サービスの正常性の監視、ネットワークの品質お�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c1aa8c35b43941839e7a82390bca16c16c72801
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 5bd43155e7a1a4eadc1a372ef3706912ff72cd50
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548248"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198398"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 
@@ -355,14 +355,12 @@ NPS アンケートを組織に提供するために、お気に入りのオン�
 | 建物のデータを提供する                                          | [CQD の建物定義](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)が最新の状態に維持されるように、更新されたサブネット情報を quality チャンピオン (または関連する関係者) に提供します。 | 必要に応じて              |               |
 | 変更の実装                                               | チームのビジネス要件と技術要件の変更をサポートするために、ネットワークの変更を実装します。 ネットワーク要素には次のものが含まれます。<ul><li>ファイアウォール</li><li>Vpn</li><li>有線および Wi-fi ネットワーク</li><li>インターネット接続と ExpressRoute</li><li>DNS</li></ul>     | 必要に応じて              |               |
 | ネットワーク監視とレポート                               | ネットワークプロバイダーから利用可能な既存のサードパーティのネットワーク管理ツールとレポート機能を使用して、可用性、使用率、および容量の傾向をネットワークエンドで監視します。 ネットワーク容量の計画には、トレンドデータを使用します。                                                                                                            | 日単位、週単位、月単位 |               |
-| 処理能力の計画                                              | Teams のサービス所有者と共同作業を行い、追加のキャパシティの変更を行う可能性がある、変化するビジネス要件と技術要件を把握します。 [ネットワークプランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)の結果を活用して、Microsoft Teams で十分な帯域幅が利用可能であることを確認します。                               | 必要に応じて              |               |
+| 処理能力の計画                                              | Teams のサービス所有者と共同作業を行い、追加のキャパシティの変更を行う可能性がある、変化するビジネス要件と技術要件を把握します。                                | 必要に応じて              |               |
 | ネットワークのトラブルシューティングと修復                        | チームのヘルプデスク、サービスの所有者、主な関係者に、チームの接続性、信頼性、または品質に関連する問題のトラブルシューティングと解決を支援します。 ネットワーク要素には次のものが含まれます。<ul><li>ファイアウォール</li><li>Vpn</li><li>有線および Wi-fi ネットワーク</li><li>インターネット接続と ExpressRoute</li><li>DNS</li></ul>    | 必要に応じて              |               |
 | 障害回復と高可用性テスト                | ネットワークインフラストラクチャで通常の高可用性と障害回復テストを実行して、提示されたサービスレベルの目標 (SLOs) または Teams サービスのサービスレベルアグリーメント (Sla) を満たしていることを確認します。                                                                                                                                                  | 毎月                |               |
 
 
 ### <a name="references"></a>参照設定 
-
-[ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Office 365 の URL と IP アドレスの範囲](https://aka.ms/o365ips)
 
@@ -395,8 +393,6 @@ NPS アンケートを組織に提供するために、お気に入りのオン�
 
 
 ### <a name="references"></a>参照設定 
-
-[CQD についての学習](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [テナントデータ情報をアップロードする](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 

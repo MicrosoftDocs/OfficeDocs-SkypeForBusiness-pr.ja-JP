@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65da6bfa0ec87534d39e1665079f991e8c92aaa9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6af082de468623150b1f66aa05767eaa8091cb14
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32181429"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198302"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトに関する環境の検出
 ===================================================
@@ -156,15 +156,12 @@ ms.locfileid: "32181429"
 > | ユーザーが移行の対象となるユーザーに対して、どのようにするか (または方法) <br>office を使用しているときにチームにアクセスする <br/>該当するものをすべて選択します。 | <input type="checkbox">ルーティングされた NAT 接続 <br/> <input type="checkbox">プロキシサーバー <br/> <input type="checkbox">パブリック Wi-fi <br/> <input type="checkbox">管理 (公開されていない) Wi-fi <br/> <input type="checkbox">ExpressRoute (Microsoft ピアリング) ||
 > | Office 365 へのアクセスがプロキシサーバーを介して行われている場合は、 <br>プロキシをバイパスする方法を教えてください。 | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | ExpressRoute は現在使用されていますか? | <input type="checkbox">うん <br/> <input type="checkbox">違います <br/> <input type="checkbox">いいえ、計画されています | |
-> | ネットワーク準備評価を実行しましたか? <br/>詳細については、「[ネットワーク対応の評価](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)」を参照してください。 | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
+> | ネットワーク準備評価を実行しましたか? | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | ユーザーはに接続するときに VPN の使用を要求されていますか? <br>企業リソースをリモートで確認する | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | VPN が使用されている場合は、チームのトラフィックをから除外することができます。 <br>VPN を使用して Office 365 サービスに直接アクセスするにはどうすればよいですか? | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | お使いのネットワークは QoS をサポートしていますか? | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | チームの音声とビデオのトラフィックの優先順位を付けることができる <br>高品質のエクスペリエンスを実現するには | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | 地域内のすべての場所でインターネットが出口を持つ。 <br>または、地域全体でインターネットの出口を一元管理していますか? | <input type="checkbox">インターネットへの地域アクセス <br/> <input type="checkbox">インターネットへの一元アクセス | |
-
-> [!TIP]
-> クラウドの音声展開に必要な帯域幅やその他のネットワーク要件を計算するには、組織の詳細と推定使用量に応じて、「 [Myadvisor](https://myadvisor.fasttrack.microsoft.com/)の[ネットワークプランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) 」を参照してください。
 
 <a name="endpoints"></a>エンドポイント
 ---

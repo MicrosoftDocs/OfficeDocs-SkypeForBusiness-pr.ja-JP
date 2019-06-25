@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
-ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
+ms.openlocfilehash: 51d28bc5806aebdad1bb83bb08945f45d505cde9
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34694748"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203935"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -32,7 +32,7 @@ Teams 会議アドインを使用すると、ユーザーは Outlook から Team
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Windows 版 Outlook の Teams 会議アドイン
 
-Teams の会議アドインは、Microsoft Teams と Office 2013 または Office 2016 を自分の Windows PC にインストール済みのユーザーに対して、自動的にインストールされます。 Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。
+Microsoft Teams を所有しているユーザーと、Office 2010、Office 2013、または Office 2016 が Windows PC にインストールされている場合は、Teams 会議アドインが自動的にインストールされます。 Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。
 
 ![Outlook リボンの Teams 会議アドインのスクリーンショット](media/Teams-add-in-for-Outlook.png)
 

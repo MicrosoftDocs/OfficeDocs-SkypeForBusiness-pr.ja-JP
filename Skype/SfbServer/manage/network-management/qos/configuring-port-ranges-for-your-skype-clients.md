@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この記事では、Windows 10 で実行されているクライアントのために、クライアントのポート範囲を構成し、サービスの品質ポリシーを構成する方法について説明します。
-ms.openlocfilehash: 2eaf7eb6b10f2aba2665704f973a4dfcddbd4885
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279425"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35204015"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Skype for Business Server でのクライアントのポート範囲とサービス品質ポリシーの構成
 
@@ -187,7 +187,7 @@ Windows 10 コンピューターのサービス品質のオーディオポリシ
 
 6.  [**ポリシーベースの QoS** ] ダイアログボックスの [開く] ページで、[**名前**] ボックスに新しいポリシーの名前を入力します。 [ **DSCP 値の指定**] を選択し、値を**46**に設定します。 [**送信スロットルの比率を指定する**] をオフにして、[**次へ**] をクリックします。
 
-7.  次のページで、[すべての**アプリケーション**] が選択されていることを確認し、[**次へ**] をクリックします。 この設定は、特定のアプリケーションによって作成されたパケットだけでなく、すべてのパケットを検索して46の DSCP マークを付けて、ネットワークに指示します。
+7.  次のページで、[**この実行可能ファイル名のアプリケーションのみ**] を選択し、名前として「 **Lync** 」と入力して、[**次へ**] をクリックします。 この設定では、Skype for Business クライアントからの一致トラフィックのみの優先順位付けをポリシーに指示します。
 
 8.  3番目のページで、[**ソース ip アドレス**] と [**宛先 ip アドレス**] の両方が選択されていることを確認し、[**次へ**] をクリックします。 この2つの設定では、どのコンピューター (IP アドレス) がそれらのパケットを送信したか、どのコンピューター (IP アドレス) がそれらのパケットを受信するかに関係なく、パケットが管理されるようにします。
 

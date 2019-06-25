@@ -3,7 +3,7 @@ title: Microsoft Teams クラウド ボイス ワークロードのための環�
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b655a0b5507a1a4c89ff682b9abe5ac8fa994e83
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 8aed7b648a3cd742fa7cf160d34aefced97ae31c
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548383"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198366"
 ---
 # <a name="evaluate-my-environment"></a>環境を評価する
 
@@ -42,7 +42,7 @@ ms.locfileid: "34548383"
 環境の検出の一環として、Pc やモバイルデバイスの準備評価など、エンドユーザーのコンピューティングに関連するすべての事項を含め、プランのビジネスユースケースを利用する電話会議と電話システムをサポートするために、ハードウェア要件からソフトウェア要件。
 
 環境の検出では、[電話番号を Microsoft に移行](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)する必要があるかどうかを見つけることもできます。
-この情報を把握しておくと、組織がそのプロジェクト計画を適宜調整し、番号の移行に必要な情報を準備するのに役立ちます。 MyAdvisor から[の Microsoft Teams ロールアウトの環境検出](environmental-discovery-for-microsoft-teams-rollout.md)を使用して、環境検出を実行することができます。
+この情報を把握しておくと、組織がそのプロジェクト計画を適宜調整し、番号の移行に必要な情報を準備するのに役立ちます。 [Microsoft Teams のロールアウトの環境検出](environmental-discovery-for-microsoft-teams-rollout.md)を使用して、環境検出を実行することができます。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>環境評価の完了責任者は誰ですか?</li></ol></td></tr>
@@ -83,7 +83,7 @@ Teams では、オーディオとビデオの技術 (コーデック) が使用�
 
 -   Teams を使用するクライアントから送信された UDP ポート 3478 ~ 3481 を開きます。
 
--   [ネットワークプランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)を完了して、チームの展開に十分な帯域幅があることを確認します。
+-   チームの展開に十分な帯域幅があることを確認します。
 
 -   [ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を実行して、エッジセグメントとクライアントセグメントの両方からの[メディアの品質とネットワーク接続性のパフォーマンス](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)について説明されている要件を満たしていることを確認します。
 
@@ -106,8 +106,6 @@ Teams では、オーディオとビデオの技術 (コーデック) が使用�
 ## <a name="bandwidth-planning"></a>帯域幅の計画
 
 ネットワーク準備に向けての最初のステップは、モダリティ Teams で利用できる十分な帯域幅がユーザーに提供されるようにすることです。 十分な帯域幅を計画することは、非常に簡単な作業であり、非常に低優先のチームエクスペリエンスを実現するために非常に重要な作業を開始することになります。
-
-ネットワークプランナーを使用して、[私のアドバイザーの web サイト](https://myadvisor.fasttrack.microsoft.com/)で Teams の帯域幅計画の計画を開始します。 ネットワークプランナーは、チームのサイト単位の帯域幅計画を提供します。また、ネットワークパフォーマンスを最適化するための推奨事項を提供します。
 
 ### <a name="local-internet-egress"></a>ローカルのインターネット エグレス
 
@@ -219,7 +217,7 @@ QoS (Quality of service) を使うと、トラフィックの優先順位付け�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>すべてのネットワークセグメントと組織の場所で、適切なネットワーク評価を完了する責任は誰ですか?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認することができます。 詳細については、「<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>」を参照してください。</li><li>各ネットワークセグメントのネットワーク準備評価の結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認することができます。</li><li>各ネットワークセグメントの評価結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

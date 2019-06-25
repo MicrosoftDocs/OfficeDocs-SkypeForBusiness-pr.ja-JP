@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルーム (次世代の Skype Room Systems) の展開に関する考慮事項について説明します。
-ms.openlocfilehash: 7b71969358e17b98dbfe5e5437ed4b421c27ea85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9944caab333b52c0d31c513e91f1f1b4a4cd71d1
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288594"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198653"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams のルームを計画する
 
@@ -102,8 +102,6 @@ _会議/会議室の一覧の例_
 | 本部 | Curie         | 中        | 6&ndash;12                  | はい          | スピーカー                        | 1画面、オーディオ、ビデオ plus プレゼンテーション<br>PSTN アクセス |
 | シドニー | 丘          | さまざま         | 12&ndash;16                 | はい          | 従来の AV ユニット、1画面、カメラ | 2画面、オーディオ、ビデオ、プレゼンテーション<br>PSTN アクセス |
 
-**Pro ヒント**–インベントリ対象のサイトが多い場合は、[サイトのロールアウトと移行計画のアンケート](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_15)をダウンロードして使用することをお勧めします。
-
 ## <a name="device-selection"></a>デバイスの選択 
 
 会議室向けに必要な将来の機能に基づいて、各会議室に最適な Microsoft Teams の会議ソリューションを決定します。 Room のサイズとレイアウトに応じて、最適な AV ペリフェラルデバイスを決定します。 
@@ -128,7 +126,7 @@ _組織用の Microsoft Teams 室展開テンプレートの例_
 | ミディアム18インチ (20 インチ)    | 6&ndash;12                  |                                  |                         |                 |
 | 大きい15インチ (32)     | 12&ndash;16                 |                                  |                         |                 |
 
-**Pro ヒント–** ここでは、選択した Microsoft Teams の会議ソリューションに関する情報の収集を開始すると便利です。 ベンダーと協力して、設計テンプレートを完成させることで、展開に関連する情報を取得することをお勧めします。[この便利なテンプレート](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11)は、myadvisor からダウンロードできます。 
+**Pro ヒント–** ここでは、選択した Microsoft Teams の会議ソリューションに関する情報の収集を開始すると便利です。
 
 ## <a name="procurement"></a>購入 
 

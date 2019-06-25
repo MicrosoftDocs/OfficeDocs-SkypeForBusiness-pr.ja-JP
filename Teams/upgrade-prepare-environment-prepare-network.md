@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eae5cdda83c6d480951c8e370b0d445de6afbc93
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: d18d7641c56ae2c8f84777e408133fef1cb35610
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548622"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198645"
 ---
 ![テクニカルレディネスステージを強調したアップグレードの図](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
@@ -76,9 +76,9 @@ Microsoft Teams 内でリアルタイムのメディアを使用して最適な�
 |---|---|---|
 |**遅延 (一方向)** |< 50 ミリ秒 |< 30 ミリ秒 |
 |**待機時間 (ラウンドトリップ時間、または RTT)** |< 100 ミリ秒 |< 60 ミリ秒 |
-|**バースト パケット損失** |<10% (任意の200秒の間隔中) |<1% (任意の200秒の間隔中) |
-|**パケット損失** |15秒間隔中に <1% |15秒間隔中は < 0.1% |
-|**パケット間の着信のジッター** |15秒間隔中に <30 ms |15秒間隔中に <15 ms |
+|**バースト パケット損失** |200秒間隔で <10% |200秒間隔で <1% |
+|**パケット損失** |15秒間隔で <1% |15秒間隔で <0.1% |
+|**パケット間の着信のジッター** |15秒間隔で <30 ミリ秒 |15秒間隔で <15 ミリ秒 |
 |**パケットの並べ替え** |< 順序が適切でないパケットが 0.05% |< 順序が適切でないパケットが 0.01% |
 
 両方のネットワーク セグメントをテストするために、[ネットワーク評価ツール](https://go.microsoft.com/fwlink/?linkid=855799)を使用することができます。 このツールは、クライアント PC に直接展開したり、お客様のネットワーク エッジに接続された PC に展開したりすることができます。 ツールに含まれているドキュメントは限定的ですが、ツールの使用についてのより詳細なドキュメントは「[Network Readiness Assessment (ネットワークの準備状況の評価)](https://go.microsoft.com/fwlink/?linkid=855800)」にあります。 このネットワークの準備状況の評価を実行することによって、Microsoft Teams などのリアルタイム メディア アプリケーションを実行するためのネットワークの準備状況を検証することができます。
@@ -195,7 +195,7 @@ QoS (Quality of service) を使うと、トラフィックの優先順位付け�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>すべてのネットワークセグメントと組織の場所で、適切なネットワーク評価を完了する責任は誰ですか?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認することができます。 詳細については、「<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>」を参照してください。</li><li>各ネットワークセグメントのネットワーク準備評価の結果に基づいてネットワークの修復を実行します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認することができます。 </li><li>各ネットワークセグメントのネットワーク準備評価の結果に基づいてネットワークの修復を実行します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -208,7 +208,7 @@ QoS (Quality of service) を使うと、トラフィックの優先順位付け�
 
 - Teams を使用するクライアントから送信された UDP ポート 3478 ~ 3481 を開きます。
 
-- [ネットワークプランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)を完了して、チームの展開に十分な帯域幅があることを確認します。
+- チームの展開に十分な帯域幅があることを確認します。
 
 - [ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を実行して、エッジセグメントとクライアントセグメントの両方からの[メディアの品質とネットワーク接続性のパフォーマンス](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)について説明されている要件を満たしていることを確認します。
 

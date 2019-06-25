@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: IT 専門家向けに、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラム関連情報へのリンクを提供します。
-ms.openlocfilehash: 2de8e4a1b27388e6951aa1fb3cf0380b6173fa45
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ee633bf9aa35d79c6db83371a47a948da6e6bd3
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294565"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35204022"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
 
@@ -42,6 +42,8 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 
 |パッケージ名|KB 番号|リリース日|
 |:---  |:---  |:---  |
+|Skype for Business 2016 用の更新プログラム |[KB 4464576](https://support.microsoft.com/kb/4464576) | 2019年6月|
+|Skype for Business 2016 用の更新プログラム |[KB 4464532](https://support.microsoft.com/kb/4464532) | 2019年5月|
 |Skype for Business 2016 用の更新プログラム |[KB 4462234](https://support.microsoft.com/kb/4462234/) | 2019年4月|
 |Skype for Business 2016 用の更新プログラム |[KB 4462190](https://support.microsoft.com/kb/4462190/) | 2019年3月|
 |Skype for Business 2016 用の更新プログラム |[KB 4462114](https://support.microsoft.com/kb/4462114/) | 2019年2月|

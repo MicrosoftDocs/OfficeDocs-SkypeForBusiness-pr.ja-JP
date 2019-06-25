@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d5f6614c076b212935908d8bb77973df5c3b867
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: c8060eae2a354f041b970f61729449eda6179188
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548534"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198494"
 ---
 ![オペレーショナルエクセレンスステージを強調したアップグレードの図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
@@ -357,13 +357,11 @@ NPS アンケートを組織に提供するために、お気に入りのオン�
 | 建物のデータを提供する | [CQD の建物定義](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)が最新の状態に維持されるように、更新されたサブネット情報を quality チャンピオン (または関連する関係者) に提供します。 | 必要に応じて | |
 | 変更の実装 | チームのビジネス要件と技術要件の変更をサポートするために、ネットワークの変更を実装します。 ネットワーク要素には次のものが含まれます。<ul><li>ファイアウォール</li><li>Vpn</li><li>有線および Wi-fi ネットワーク</li><li>インターネット接続と ExpressRoute</li><li>DNS</li></ul> | 必要に応じて | |
 | ネットワーク監視とレポート | ネットワークプロバイダーから利用可能な既存のサードパーティのネットワーク管理ツールとレポート機能を使用して、可用性、使用率、および容量の傾向をネットワークエンドで監視します。 ネットワーク容量の計画には、トレンドデータを使用します。 | 日単位、週単位、月単位 | |
-| 処理能力の計画 | Teams のサービス所有者と共同作業を行い、追加のキャパシティの変更を行う可能性がある、変化するビジネス要件と技術要件を把握します。 [ネットワークプランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)の結果を活用して、Microsoft Teams で十分な帯域幅が利用可能であることを確認します。 | 必要に応じて | |
+| 処理能力の計画 | Teams のサービス所有者と共同作業を行い、追加のキャパシティの変更を行う可能性がある、変化するビジネス要件と技術要件を把握します。  | 必要に応じて | |
 | ネットワークのトラブルシューティングと修復 | チームのヘルプデスク、サービスの所有者、主な関係者に、チームの接続性、信頼性、または品質に関連する問題のトラブルシューティングと解決を支援します。 ネットワーク要素には次のものが含まれます。<ul><li>ファイアウォール</li><li>Vpn</li><li>有線および Wi-fi ネットワーク</li><li>インターネット接続と ExpressRoute</li><li>DNS</li></ul> | 必要に応じて | |
 | 障害回復と高可用性テスト | ネットワークインフラストラクチャで通常の高可用性と障害回復テストを実行して、提示されたサービスレベルの目標 (SLOs) または Teams サービスのサービスレベルアグリーメント (Sla) を満たしていることを確認します。 | 毎月 | |
 
 ### <a name="references"></a>参照設定
-
-[ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Office 365 の URL と IP アドレスの範囲](https://aka.ms/o365ips)
 
@@ -394,8 +392,6 @@ NPS アンケートを組織に提供するために、お気に入りのオン�
 | 品質のチャンピオンロールを入力する | 組織の品質に対するエンドツーエンドの責任。 次の内容が含まれます。<ul><li>QER が定期的に開催されていることを確認します。</li><li>品質の状態に関する重要な関係者について報告します。</li><li>構築データ定義が最新であることを確認します。</li><li>ユーザーがチームと高品質のエクスペリエンスを確実に利用できるように、組織全体で改善をコーディネートします。</li></ul> | [毎日] | |
 
 ### <a name="references"></a>参照設定
-
-[CQD についての学習](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [建物情報のアップロード](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 

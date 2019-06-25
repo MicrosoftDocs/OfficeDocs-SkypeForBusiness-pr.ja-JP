@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: fd3a60c3fef7ea9a20084e950c8425416ac4cc80
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548113"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198342"
 ---
 # <a name="plan-my-service-management"></a>サービス管理を計画する
 
@@ -71,8 +71,6 @@ Teams サービス管理に関する顧客の責任と、ユーザーエクス�
 |導入/変更管理|ソリューションの意識、トレーニング、導入を管理する|TBA|TBA|
 |Exchange の運用|Exchange 環境を管理する|TBA|TBA|
 |テレフォニー操作|SBC と電話番号を管理する|TBA|TBA|
-
-各運用ロールに関連付けられているタスクを含む、より詳細な運用ロールのマッピングを容易にするために、[操作役割マッピングブック](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16)を使用して、役割と責任を明確にするための詳細情報をキャプチャすることができます。クラウド音声のワークロードをサポートします。
 
 <!--ENDOFSECTION-->
 

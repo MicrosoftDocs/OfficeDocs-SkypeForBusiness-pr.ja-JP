@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Microsoft Teams のルームの管理の概要。
-ms.openlocfilehash: fd16015331273fbd5f524f571c07a1c055a0d04a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 01b2550c1a0ad691acf48c58f6c13a37f2b4b7e6
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288572"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198637"
 ---
 # <a name="management-overview"></a>管理の概要 
 
@@ -62,7 +62,7 @@ Microsoft Operations Manager スイートを使用して、Microsoft Teams の�
 
 現在の運用品質と信頼性の監視手順は展開の一部として実装することをお勧めします。通話と品質と信頼性のトレンドを監視し、問題の領域を特定し、解決に向けて作業することをお勧めします。 
 
-CQD に建物情報をアップロードする場合は、建物レベルで通話品質と信頼性の傾向を調べることができます。これにより、建物を比較したり、特定の問題に注意を向けることが簡単になります。 詳細については、「 [Skype For Business Online での CQD の配信と運用のガイド」](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15)を参照してください。 
+CQD に建物情報をアップロードする場合は、建物レベルで通話品質と信頼性の傾向を調べることができます。これにより、建物を比較したり、特定の問題に注意を向けることが簡単になります。
 
 品質と信頼性の傾向を特定し[](https://aka.ms/qerguide) 、問題を解決するためのアクションプランを作成することをお勧めします。 
 
