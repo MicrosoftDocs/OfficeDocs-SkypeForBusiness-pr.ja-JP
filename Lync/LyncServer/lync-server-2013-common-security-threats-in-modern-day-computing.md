@@ -10,12 +10,12 @@ ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32d62cef3870e7134a628e0d5cedf20bb16200a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2446ee0755f4544f17f6c04c6059d70576a466f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840543"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221364"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -133,7 +133,7 @@ Traversal Using Relay NAT (TURN) プロトコルでは、トラフィックの�
 
 Microsoft Lync Server 2013 は、個人にリンクできる可能性があるパブリックネットワーク経由で情報を開示する可能性があります。 このような情報は、次の 2 つのカテゴリに分類できます。
 
-  - **拡張プレゼンスデータ **拡張プレゼンスデータとは、フェデレーションパートナーまたは組織内の連絡先へのリンクを共有したり、共有したりすることを選択できる情報です。 このデータはオープン インスタント メッセージ (IM) ネットワーク上のユーザーとは共有されません。 クライアント ポリシーや他のクライアント設定により、システム管理者に何らかのコントロールを与えることができます。 Lync Server 2013 では、ユーザーの連絡先リストに含まれていない Lync ユーザーがユーザーのプレゼンス情報を見ることができないように、個々のユーザーに対して、強化されたプレゼンスプライバシーモードを構成することができます。 拡張プレゼンスプライバシーモードでは、Microsoft Office Communicator 2007 および Microsoft Office Communicator 2007 R2 のユーザーがユーザーのプレゼンス情報を見ることはできません。 詳細については、「はじめに」のドキュメントで「 [Lync server 2013 のクライアントの新機能](lync-server-2013-what-s-new-for-clients.md)」を参照してください。展開ドキュメントの「 [lync server 2013 でのプレゼンスプライバシーモードの設定](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)」を参照してください。
+  - **拡張プレゼンスデータ**拡張プレゼンスデータとは、フェデレーションパートナーまたは組織内の連絡先へのリンクを共有したり、共有したりすることを選択できる情報です。 このデータはオープン インスタント メッセージ (IM) ネットワーク上のユーザーとは共有されません。 クライアント ポリシーや他のクライアント設定により、システム管理者に何らかのコントロールを与えることができます。 Lync Server 2013 では、ユーザーの連絡先リストに含まれていない Lync ユーザーがユーザーのプレゼンス情報を見ることができないように、個々のユーザーに対して、強化されたプレゼンスプライバシーモードを構成することができます。 拡張プレゼンスプライバシーモードでは、Microsoft Office Communicator 2007 および Microsoft Office Communicator 2007 R2 のユーザーがユーザーのプレゼンス情報を見ることはできません。 詳細については、「はじめに」のドキュメントで「 [Lync server 2013 のクライアントの新機能](lync-server-2013-what-s-new-for-clients.md)」を参照してください。展開ドキュメントの「 [lync server 2013 でのプレゼンスプライバシーモードの設定](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)」を参照してください。
 
   - **必須データ**必須データは、サーバーまたはクライアントが適切に動作するために必要です。また、クライアントやシステム管理の管理下にはありません。 これは、ルーティング、状態管理、およびシグナリングの目的で、サーバーまたはネットワークレベルで必要な情報です。
 
