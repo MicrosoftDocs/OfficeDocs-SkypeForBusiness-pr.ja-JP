@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9e4f1c5c019b7d4436bab0379a94cb61e548fa5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cc5884f5e988602cad145dd3a9ee81fbad1d532b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245692"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221210"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Microsoft Teams に早期導入者を参加させる
 
@@ -64,7 +64,7 @@ Windows デスクトップ クライアントをインストールする最も�
 3. インストールが完了したら、Teams を起動します。
 
 > [!NOTE]
-> その後、組織全体に Teams のより正式な大規模展開を検討する場合は、「[Teams Windows デスクトップ クライアント](http://aka.ms/teams-clients)」ビデオで計画と展開の方法を確認してください。 
+> その後、組織全体に Teams のより正式な大規模展開を検討する場合は、「[Teams Windows デスクトップ クライアント](https://aka.ms/teams-clients)」ビデオで計画と展開の方法を確認してください。 
 
 #### <a name="teams-for-mac"></a>Mac 用 Teams 
 Mac デスクトップ クライアントをインストールする最も簡単な方法は、次のとおりです。
