@@ -3,7 +3,7 @@ title: Microsoft Teams の範囲指定ディレクトリ検索を使用する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3b51b56b8cc8a1f08d756cdab245915a2ac6824
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bf65cec72c21e34e0aab8338d20ae36549497846
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226654"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221732"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams の範囲指定ディレクトリ検索を使用する
 
@@ -43,15 +43,13 @@ Microsoft Teams を使用すると、組織はディレクトリのカスタム�
 > [!IMPORTANT]
 > アドレス帳ポリシーは、ディレクトリの観点からのユーザーの仮想的な分離のみを提供します。 ユーザーは、完全なメールアドレスを提供して、他のユーザーとの通信を開始することができます。 また、新規または更新されたアドレス帳ポリシーを適用する前に、既にキャッシュされていたすべてのユーザーデータは、最大30日間はユーザーに対して利用可能になることに注意する必要があります。
 
-## <a name="enable-scoped-directory-search"></a>スコープ指定されたディレクトリ検索を有効にする
+## <a name="turn-on-scoped-directory-search"></a>スコープディレクトリ検索を有効にする
 
-1.  アドレス帳ポリシーを使用して、組織を仮想サブグループに構成します。 詳細については、「[アドレス帳ポリシーの手順](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)」を参照してください。
+1. アドレス帳ポリシーを使用して、組織を仮想サブグループに構成します。 詳細については、「[アドレス帳ポリシーの手順](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)」を参照してください。
 
-2.  Microsoft 365 管理センターにサインインし、[**管理センター**]、[ **Teams & Skype**] の順に選択します。
- 
-3.  Microsoft Teams 管理センターで、[**組織全体の設定** > **チームの設定**] を選択します。
+2. Microsoft Teams 管理センターで、[**組織全体の設定** > **チームの設定**] を選択します。
 
-4.  [**検索**] の [ **Exchange アドレス帳ポリシー (apb) を使用して Teams で検索**する] の横**** にある [オン] に切り替えます。 
+3. [**検索**] の [ **Exchange アドレス帳ポリシー (apb) を使用して Teams で検索**する] の横**** にある [オン] に切り替えます。
 
     ![Microsoft Teams 管理センターでのスコープディレクトリ検索](media/teams-scoped-directory-search-image1.png)
 

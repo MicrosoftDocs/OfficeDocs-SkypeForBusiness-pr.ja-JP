@@ -15,12 +15,12 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 1c29f703994794d75047a260fe5d62deddb2d937
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131521"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221258"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
@@ -66,7 +66,7 @@ Turnitin は、plagiarism の検出サービスです。 これは、サード�
 この情報を取得するための手順をいくつか紹介します。
 
 TurnitinApiUrl は、管理コンソールのホストアドレスです。
-次. https:[]()//your-tenant-name.turnitin.com
+次. `https://your-tenant-name.turnitin.com`
 
 管理コンソールでは、統合と関連付けられた API キーを作成できます。
 

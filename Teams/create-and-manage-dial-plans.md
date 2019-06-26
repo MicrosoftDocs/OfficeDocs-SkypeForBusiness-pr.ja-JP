@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Office 365 で通話のダイヤル プラン (PSTN の通話のダイヤル プラン) を作成する方法とそれを管理する方法について説明します。 '
-ms.openlocfilehash: 10a05c9d4c16f7c5681f0c7c6fcc931e041426f3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5254a2d63abeffa0b3452ed309d49272affcaf05
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281833"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221923"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -43,7 +43,7 @@ ms.locfileid: "34281833"
     
 2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
-3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。Windows PowerShell をダウンロードして、バージョン 4.0 に更新するには、「[Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845)」を参照してください。メッセージが表示されたら、コンピューターを再起動します。
+3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。 メッセージが表示されたら、コンピューターを再起動します。
     
 4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
     

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 組織内のユーザーが Skype 会議ブロードキャストを使用できるようにするには、それを有効にする必要があります。 これを行うには、Windows PowerShell の使い方を知っている必要があります。 Windows PowerShell がわからない場合は、Microsoft パートナーを採用してこの手順を実行することを検討してください。
-ms.openlocfilehash: 066aeb3d3217cb61ebcd0323b342c88d0b99caee
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 6b68931bbedc80bcd8209e366de8201e4b93c98d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591631"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221644"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを有効にする
 
@@ -48,7 +48,7 @@ ms.locfileid: "34591631"
     
 3. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
-4. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。Windows PowerShell をダウンロードして、バージョン 4.0 に更新するには、「[Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845)」を参照してください。メッセージが表示されたら、コンピューターを再起動します。
+4. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。 メッセージが表示されたら、コンピューターを再起動します。
     
 5. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
     

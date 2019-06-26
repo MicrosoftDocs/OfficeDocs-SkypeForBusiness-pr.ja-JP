@@ -15,21 +15,21 @@ description: 組織から要求されているデータおよびアクセス許�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167e8d8e628927e470422bf9d0a21adb06e48b53
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: 598fd2d9dc8c8942a2d82e136c8367afa4d8495e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859737"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221946"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
 Microsoft Teams アプリは、1つ以上の機能をインストール、アップグレード、アンインストールできる_アプリパッケージ_に集約するための手段です。 次のような機能があります。
 
--   ボット
--   メッセージングの拡張機能
--   タブ
--   コネクタ
+- ボット
+- メッセージングの拡張機能
+- タブ
+- コネクタ
 
 アプリはユーザーによって各人され、ポリシーの観点から管理されます。 ただし、ほとんどの場合、アプリのアクセス許可とリスクプロファイルは、アプリに含まれる機能の権限とリスクのプロファイルによって定義されます。 したがって、この記事では、権限とその機能レベルに関する考慮事項について説明します。
 

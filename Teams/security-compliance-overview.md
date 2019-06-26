@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 870e939602f5d954bfce64bc1f10d08838fc7c15
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: d36116cad009e7207ff4bbfc5d5617e0a3eff434
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667410"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221067"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -130,7 +130,7 @@ Teams のデータはご利用の Office 365 テナントに関連付けられ�
 
 Teams でのカナダにおけるデータ常駐の詳細については、Varun Sagar (バルン・サガール) 氏のブログ投稿記事「[Microsoft Teams Launches Canada Data Residency, Australia and Japan coming soon (Microsoft Teams によるカナダでのデータ常駐が開始、オーストラリアと日本では近日中に開始)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)」をご覧ください。 
 
-Teams のオーストラリアと日本におけるデータ常駐開始の詳細については、Varun Sagar (バルン・サガール) 氏のブログ投稿記事「[Microsoft Teams Launches Australia and Japan Data Residency (Microsoft Teams がオーストラリアと日本のデータ常駐を開始)](https://go.microsoft.com/fwlink/?linkid=867773)」をご覧ください。 
+Teams 向けのオーストラリアおよび日本のデータ常駐サービスの発売の詳細については、「Sagar のブログ[](https://go.microsoft.com/fwlink/?linkid=867773)投稿を読む」を参照してください。 
 
 Teams 向けのフランスデータレジデンシーの起動の詳細については、「Sagar のブログ投稿を[](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466)読む」を参照してください。
 

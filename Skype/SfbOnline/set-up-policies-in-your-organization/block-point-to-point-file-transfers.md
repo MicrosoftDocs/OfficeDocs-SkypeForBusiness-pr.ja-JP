@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype for Business Online では、既存の会議ポリシー設定の一部としてポイントツーポイント (P2P) ファイル転送を制御できます。 ただし、この方法では、ユーザーが同じ組織内のユーザーまたは別の組織のフェデレーションユーザーにファイルを転送しているかどうかに関係なく、ファイルの転送が許可またはブロックされます。 以下の手順に従うと、フェデレーションされた組織またはパートナーとの P2P のファイル転送をブロックできます。
-ms.openlocfilehash: 8b45067cf0c717fdcda144fc44750b7cf3d0f7f7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 248b541a4d57c3b51a48694d3194432cc207db06
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297818"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221191"
 ---
 # <a name="block-point-to-point-file-transfers"></a>ポイント ツー ポイントのファイル転送を禁止する
 
@@ -58,7 +58,7 @@ Skype for Business Online では、既存の会議ポリシー設定の一部と
     
 2. [ **Windows PowerShell** ] ウィンドウで、「 _Get Host_ 」と入力してバージョンを確認します。
     
-3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。Windows PowerShell をダウンロードして、バージョン 4.0 に更新するには、「[Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845)」を参照してください。メッセージが表示されたら、コンピューターを再起動します。
+3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。 メッセージが表示されたら、コンピューターを再起動します。
     
 4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
     

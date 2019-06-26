@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 972b997a7258ce4961fe4f94af37595846aac19b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548885"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222039"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
@@ -47,16 +47,13 @@ _図1組織のネットワークと Office 365 サービスの間の関係_
 
 ## <a name="verify-your-network-is-ready"></a>ネットワークの準備ができていることを確認する
 
-QoS の実装を検討している場合は、帯域幅要件とその他の[ネットワーク要件](prepare-network.md)を既に決定しておく必要があります。 Microsoft Teams の帯域幅の計算は複雑であり、そのためには、電卓が作成されています。 電卓にアクセスするには、MyAdvisor の [[ネットワークプランナー](https://aka.ms/bwcalc/) ] に移動します。
+QoS の実装を検討している場合は、帯域幅要件とその他の[ネットワーク要件](prepare-network.md)を既に決定しておく必要があります。 
   
   ネットワーク全体でのトラフィック渋滞は、メディアの品質に大きく影響します。 帯域幅の不足は、パフォーマンスの低下を招き、ユーザーエクスペリエンスが低下します。 チームの導入と使用量が増加するにつれて、レポート、[通話分析、通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)を使用して問題を特定し、QoS と選択的な帯域幅の追加機能を使って調整を行います。
 
 ### <a name="vpn-considerations"></a>VPN に関する考慮事項
 
 QoS は、呼び出し元間のすべてのリンクに実装されている場合にのみ動作します。 内部ネットワークで QoS を使用していて、ユーザーが遠隔地からサインインしている場合は、内部の管理されたネットワーク内でのみ優先順位を付けることができます。 リモートの場所は仮想プライベートネットワーク (VPN) を実装することによって管理された接続を受け取ることができますが、VPN の本質的にはパケットのオーバーヘッドが追加され、リアルタイムトラフィックで遅延が発生します。 VPN 経由のリアルタイム通信トラフィックを実行しないようにすることをお勧めします。
-
-> [!NOTE]
-> VPN 接続のリモートユーザーは、ユーザーエクスペリエンスの品質を最大限に引き出すために分割トンネリングを実装する必要があります。 ドキュメント[展開-ガイダンス-VPN 分割トンネル](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 )は myadvisor から利用でき、詳細な情報が含まれています。
 
 世界中の管理されたリンクを含むグローバル組織では、これらのリンクの帯域幅が LAN と比較して制限されているため、QoS を強くお勧めします。
 
@@ -183,9 +180,9 @@ QoS を有効にするには、グループポリシーオブジェクトによ�
 
 3. キャプチャを停止します。
 
-4. [**表示フィルター** ] フィールドで、通話を行った PC のソース IP アドレスを使用し、次の例に示すように、検索条件として DSCP 値 46 (hex 0xb8) を定義してフィルターを絞り込むことができます。
+4. [**表示フィルター** ] フィールドで、通話を行った PC のソース IP アドレスを使用し、次の例に示すように、検索条件として DSCP 値 46 (Hex 0x2e) を定義してフィルターを絞り込みます。
 
-    Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8
+    Source = = "192.168.137.201" AND DifferentiatedServicesField = = 0x2E
 
     ![[フィルターの表示] ダイアログボックスの [スクリーンショット] フィルター](media/Qos-in-Teams-Image4.png "ネットワークモニターの [フィルターの表示] ダイアログボックス。適用するフィルターが表示されています。")
 

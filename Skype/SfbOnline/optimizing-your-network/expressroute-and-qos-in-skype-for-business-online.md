@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: '帯域幅要件を備えたネットワークと、ビジネスクラスのユーザーエクスペリエンスのサービス品質機能を備えた Azure ExpressRoute の使用について説明します。 '
-ms.openlocfilehash: 36af4a817a106758fbe95fb91e03661b9e200b85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e42cf42caafbb5ecd43b3660608a23d20cf8814e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299185"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221249"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>Skype for Business Online での ExpressRoute および QoS
 

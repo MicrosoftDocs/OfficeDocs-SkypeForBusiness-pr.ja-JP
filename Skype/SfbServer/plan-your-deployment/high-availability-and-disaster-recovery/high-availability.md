@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Skype for Business Server でのフロントエンドプールの管理について説明します。これには、プールの管理、クォーラムの損失、2つのフロントエンドサーバーのみを含むプールの特別な手順が含まれます。
-ms.openlocfilehash: debc0700a142789f542e4b4357da4427ce74c050
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297471"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221724"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  
@@ -70,7 +70,7 @@ Skype for Business Server では、フロントエンドプールのアーキテ
 |8 ～ 9  <br/> |最初の 7 台のうちの任意の 4 台  <br/> |
 |10 ～ 12  <br/> |最初の 9 台のうちの任意の 5 台  <br/> |
    
-上の表では、"first servers" は、プールが初めて開始されたときに最初に作成されたサーバーです。 これらのサーバーを確認するには、 `Get-CsComputer` ` -PoolFqdn`オプションを指定してコマンドレットを使用します。 このコマンドレットはサーバーをトポロジ内に出現した順に表示するので、そのリストの先頭にある方が最初のサーバーです。
+上の表では、"first servers" は、プールが初めて開始されたときに最初に作成されたサーバーです。 これらのサーバーを確認するには、 `Get-CsComputer` `-PoolFqdn`オプションを指定してコマンドレットを使用します。 このコマンドレットはサーバーをトポロジ内に出現した順に表示するので、そのリストの先頭にある方が最初のサーバーです。
   
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>プールが機能していることを確認するための追加手順
 

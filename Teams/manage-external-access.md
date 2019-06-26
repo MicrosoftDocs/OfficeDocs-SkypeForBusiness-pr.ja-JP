@@ -14,12 +14,12 @@ search.appverid: MET150
 description: IT 管理者は、他のドメインの外部アクセス (フェデレーション) を構成して、これらのドメインのユーザーが Teams に参加できるようにすることができます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43e4153959a4d444a81f4769daf69976af018c4d
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: cf211e88a1eff071fcae10bc90c4d78ed3ccface
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133924"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221274"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Microsoft Teams での外部アクセス (フェデレーション) の管理
 ======================================================
@@ -67,13 +67,13 @@ Microsoft Teams の外部アクセスを使用すると、他のドメインの�
 | @mentions はサポートされています | いいえ | はい |
 | プライベート通話を行う | はい | 可 |
 | IP ビデオを許可する | はい | 可 |
-| 画面共有モード | はい | 可 |
+| 画面共有モード | いいえ | はい |
 | 今すぐ会議を許可する | いいえ | はい |
-| 送信済みメッセージを編集する | はい | 可 |
-| 送信したメッセージを削除できます | はい | 可 |
-| 会話で Giphy を使う | はい | 可 |
-| スレッドで Memes を使う | はい | 可 |
-| 会話でステッカーを使用する | はい | 可 |
+| 送信済みメッセージを編集する | いいえ | はい |
+| 送信したメッセージを削除できます | いいえ | はい |
+| 会話で Giphy を使う | いいえ | はい |
+| スレッドでミームを使う | いいえ | はい |
+| 会話でステッカーを使用する | いいえ | はい |
 ||||
 
 <sup>1</sup>ユーザーがゲストとして追加され、ゲストテナントにゲストとしてサインインしていることを示します。<br>

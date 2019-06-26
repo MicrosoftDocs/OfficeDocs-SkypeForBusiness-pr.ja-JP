@@ -15,12 +15,12 @@ f1keywords:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c1dfba0bdaec642b0ea078d7f10ba022c8514da
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8a80b39513fe86e0c49cd88988cb3f245129b2d0
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245075"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221357"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Microsoft Teams のユーザー設定を一括して編集する
 
@@ -33,7 +33,7 @@ Microsoft Teams 管理センターを使用して、一度に複数のユーザ�
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] を選択します。
 2. 編集するユーザーを検索するか、ビューをフィルター処理して、編集するユーザーを表示します。
 3. [ **&#x2713;** (チェックマーク)] 列で、次のいずれかの操作を行って [ユーザー] を選択します。
-    - 一度に1人のユーザーを選択します。 選択した各ユーザーの横に **&#x2713;** が表示されます。 20人を超えるユーザーを選択した場合、ブロックされることはありませんが、選択したユーザーの数が多いほど、操作が完了するまでに時間がかかることに注意してください。
+    - 一度に1人のユーザーを選択します。 選択した各ユーザーの横に **&#x2713;** が表示されます。 ユーザーが20人を超える場合は、ブロックされることはありませんが、選択したユーザー数が多いほど、操作が完了するまでに長い時間がかかることに注意してください。
 
         ![ユーザーが選択したことを示す [ユーザー] ページのスクリーンショット](media/bulk-edit-user-settings-select-users.png)
 

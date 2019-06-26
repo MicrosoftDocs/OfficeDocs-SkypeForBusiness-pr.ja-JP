@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04dab0b303ddea640a690c5592f8e4bc9973d1b5
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: f027a4626fef2fbfbdad5e6ceb52ca6c3828d1c7
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548854"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131410"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
@@ -107,9 +107,9 @@ Teams は、SharePoint Online と OneDrive for Business を利用して、チャ
    
 Teams のゲスト アクセスの完全な操作性を有効にするため、Office 365 管理者は次の設定を**オン**にする必要があります。
 
-- SharePoint Online: **ディレクトリに既に存在する外部ユーザーのみとの共有を許可する**
+- SharePoint Online: **既存のゲスト**、**新規および既存のゲスト**、または **すべてのユーザー**
     
-    詳細については、「[SharePoint Online 環境の外部共有を管理する](https://docs.microsoft.com/sharepoint/external-sharing-overview)」を参照してください。
+    詳細については、「[外部共有を有効または無効にする](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)」を参照してください。
     
 - Office 365 グループ: **グループ所有者に組織外のユーザーをグループに追加させる**
     

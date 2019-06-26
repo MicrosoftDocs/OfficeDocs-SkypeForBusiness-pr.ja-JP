@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: このトピックでは、Microsoft Teams のルームを Exchange Online と共に展開する方法について説明します。
-ms.openlocfilehash: 86290bdc8b198af5e4d41b8b90bd588ade5494a5
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 74cff1934e47cc8f4a621ad380bfb8e48f311666
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591705"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221372"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams ミーティング を展開
 
@@ -33,7 +33,10 @@ ms.locfileid: "34591705"
 
 Microsoft Teams のルームを Exchange Online に展開する前に、要件を満たしていることを確認してください。 詳細については、「 [Microsoft Teams の会議室の要件](requirements.md)」を参照してください。
   
-Microsoft Teams のルームを Exchange Online と共に展開するには、次の手順を実行します。 関連するコマンドレットを実行するために適切な権限があることを確認します。
+Microsoft Teams のルームを Exchange Online と共に展開するには、次の手順を実行します。 関連するコマンドレットを実行するために適切な権限があることを確認します。 
+
+   > [!NOTE]
+   >  このセクションの[Windows PowerShell コマンドレット用 Azure Active Directory モジュール](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)(たとえば、Set-get-msoluser) は、Microsoft Teams 室デバイスのアカウントのセットアップでテストされています。 ただし、他のコマンドレットは動作する可能性がありますが、この特定のシナリオではテストされていません。
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>アカウントを作成して Exchange プロパティを設定する
 

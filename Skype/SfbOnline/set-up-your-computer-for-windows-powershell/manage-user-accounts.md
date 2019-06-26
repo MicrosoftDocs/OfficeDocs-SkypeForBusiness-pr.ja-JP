@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Windows PowerShell で、組織の Skype for Business Online ユーザーに関する情報を取得するには、Windows PowerShell でユーザーの取得コマンドレットを使用します。
-ms.openlocfilehash: ca690e272f7755e826ea7432eab124c66eaa81bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 973529682224231e997e3900664fb5163156dfc3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284665"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221765"
 ---
 # <a name="manage-user-accounts"></a>ユーザー アカウントを管理する
 

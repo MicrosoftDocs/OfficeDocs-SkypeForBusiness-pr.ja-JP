@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30b50972dd53300905f580c51a410d699ebb1bff
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 11902a5d6ef768afa6d7bb1bba2f33b64757fef1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748444"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222094"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
-プレゼンスは Microsoft Teams (および Office 365 全体) のユーザーのプロファイルの一部であり、ユーザーの現在の可用性と状態を組織内の他のユーザーに対して示します。 既定では、Teams を使用している組織内のユーザーは、他のユーザーがオンラインで利用できるかどうかにかかわらず、ほぼリアルタイムで表示できます。
+プレゼンスは Microsoft Teams (および Office 365 全体) のユーザーのプロファイルの一部であり、ユーザーの現在の可用性と状態を組織内の他のユーザーに対して示します。 既定では、Teams を使用している組織内のすべてのユーザーは、ほぼリアルタイムで表示できます。これは、他のユーザーがオンラインで利用できるかどうかによって異なります。
 
 ## <a name="presence-states-in-teams"></a>Teams のプレゼンス状態
 
@@ -56,10 +56,11 @@ Teams で利用できるユーザーのプレゼンス状態は次のとおり�
 
 ユーザーは、中断できるユーザーを指定できます (応答不可の設定を上書きすることに連絡してください)。 これらの設定は、アプリ内で利用できます。
 
-## <a name="teams-is-not-skype-for-business"></a>Teams は Skype for Business ではありません
+## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Skype for Business と比較した場合のチームの管理設定
 
 Skype for Business の次の管理設定は、Teams では異なります。
-- プレゼンスの共有は、組織内のユーザーに対して Teams で常に有効になっています。 [プライバシー] (プレゼンスを表示できるユーザーを決定する) 構成は、Teams では利用できません。
+
+- Teams では、組織内のユーザーに対してプレゼンス共有が常に有効になります。 [プライバシー] (プレゼンスを表示できるユーザーを決定する) 構成は、Teams では利用できません。
 - すべてのユーザー (フェデレーションサービスを含む) とのプレゼンスの共有は、Teams のユーザーに対して常に有効になっています。 連絡先リスト (Skype for Business に含まれている場合) は、**チャット >** の [連絡先] または [ **> の連絡先**への通話] の下に表示されます。
 - クライアントが応答不可であり、チーム内のユーザーに対して画期的な機能が常に有効になります。
 - 予定表 (不在およびその他の予定表情報が含まれます) 統合は、Outlook と統合されている場合に、Teams のユーザーに対して常に有効になります。
@@ -67,7 +68,6 @@ Skype for Business の次の管理設定は、Teams では異なります。
 
 > [!NOTE]
 > チーム管理者がこれらの設定をカスタマイズできるかどうかは、現在サポートされていません。
-
 
 ## <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 

@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 92af57f0704ae00164db143d3948b5baf59f6105
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: 85893be13d07de4a3ae0111a3cdd9c6524ec3b4c
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933781"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221954"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
 ======================================================
@@ -44,7 +44,7 @@ ms.locfileid: "34933781"
 
 |Microsoft 365 管理センターの Teams のセクション  |設定名 (テナントレベル)  |Microsoft Teams 管理センターのポリシー   |Level: テナントまたはユーザー   |
 |---------|---------|---------|---------|
-|General     |個人プロファイルで組織のチャットを表示する        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  テナント       |
+|General     |個人プロファイルで組織図を表示する        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  テナント       |
 |General     |Teams を持っていない受信者に Skype for Business を使用する         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
 |電子メールの統合     |チャネルに電子メールを送信することをユーザーに許可する         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
 |電子メールの統合     |送信者リストを許可         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |テナント         |

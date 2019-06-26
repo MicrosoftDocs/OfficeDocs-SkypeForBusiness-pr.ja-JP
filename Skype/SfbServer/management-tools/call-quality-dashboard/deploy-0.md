@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '概要: 通話品質ダッシュボードの展開プロセスについて説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 3cc3b81180453454f8615d31f57911c0958553c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 16877bff7f96bd4d2f6b308b33803c741c2672c2
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274843"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221567"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの展開
  

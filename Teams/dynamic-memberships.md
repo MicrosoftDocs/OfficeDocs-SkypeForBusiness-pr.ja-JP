@@ -14,25 +14,25 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: beb93d1bd369d98743ad54b9f5753278dea36ed8
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 8f48309b5816c61668d240087c1f2815fc94ebe4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748436"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221437"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>チームの動的なメンバーシップの概要
 
-Microsoft Teams は、動的メンバーシップを使用して、Office 365 グループに関連付けられているチームをサポートします。 動的メンバーシップによって、Azure Active Directory (AAD) で特定のユーザー属性を確認する1つ以上のルールによって、チームのメンバーシップを定義できます。 ユーザー属性の変更またはユーザーの参加とテナントの脱退の際に、ユーザーは適切なチームに追加または削除されます。
+Microsoft Teams では、*動的メンバーシップ*を使用して、Office 365 グループに関連付けられているチームをサポートしています。 動的メンバーシップによって、Azure Active Directory (Azure AD) で特定のユーザー属性を確認する1つ以上のルールによって、チームのメンバーシップを定義できます。 ユーザー属性の変更またはユーザーの参加とテナントの脱退の際に、ユーザーは適切なチームに追加または削除されます。
 
 動的メンバーシップを使用して、組織内の特定のユーザーの cohorts に対して teams を設定することができます。 次のようなシナリオが考えられます。
 - 病院は、看護師、医師、surgeons のために個別のチームを作成して、コミュニケーションをブロードキャストすることができます。 これは、病院が temp 従業員に依存している場合に特に重要です。
 - 大学では、adjunct 教職員など、特定の大学のすべての教職員のチームを作成できます。
 - 航空会社は、各フライト (たとえば、シカゴからアトランタまでの火曜日の午後) のチームを作成し、必要に応じて、頻繁に変更されるフライトクルーが自動的に割り当てまたは削除されるようにしたいと考えています。
 
-この機能を使用すると、メンバーシップを手動で管理する代わりに、特定の条件セットに基づいて、特定のチームメンバーが自動的に更新されます。 この操作を行うには、Azure AD Premium P1 ライセンスが必要です。また、テナント管理者がテナントと管理者のアカウントを持っているユーザーの AAD プロパティに、チームメンバーシップを[割り当てる](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)ことができます。 
+この機能を使用すると、メンバーシップを手動で管理する代わりに、特定の条件セットに基づいて、特定のチームメンバーが自動的に更新されます。 この操作を行うには、Azure AD Premium P1 ライセンスが必要です。また、テナント管理者がテナントと管理者のアカウントを持っている場合は、[テナント管理者](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)がそのユーザーの Azure ad プロパティにチームメンバーシップを割り当てることができます。
 
-Microsoft Teams では、チームの Office 365 グループに反映された時点で動的メンバーシップの変更が反映されるまでに、数分から最大2時間かかることがあります。 
+Microsoft Teams では、チームの Office 365 グループに反映された時点で動的メンバーシップの変更が反映されるまでに、数分から最大2時間かかることがあります。
 
 > [!NOTE]
 > - ルールでは、チームメンバーになっているユーザーを定義できますが、チーム所有者とは限りません。

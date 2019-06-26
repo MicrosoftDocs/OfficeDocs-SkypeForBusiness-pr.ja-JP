@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams へのゲスト アクセスをオンまたはオフにする
+title: Microsoft Teams へのゲストアクセスを有効または無効にする
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,17 +17,17 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20aed363bcdd7777639adf04687f5d62a3757a97
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 240e93d5f6329090940e6bf49cb2d6a4ee46ce2f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894361"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221452"
 ---
-<a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
-======================================
+<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲストアクセスを有効または無効にする
+===================================================
 
-Office 365 管理者は、組織のユーザー (具体的にはチーム所有者) がゲストを追加できるようにするため事前にゲスト機能を有効にする必要があります。 
+Office 365 管理者は、組織のユーザー (具体的にはチーム所有者) がゲストを追加できるようにするため事前にゲスト機能を有効にする必要があります。
 
 ゲスト設定は Azure Active Directory で設定します。その変更が Office 365 組織全体で有効になるまでに 2 時間から 24 時間かかります。ユーザーがチームにゲストを追加しようとするときに「Contact your administrator (管理者にお問い合わせください)」というメッセージが表示される場合、ゲスト機能が使用できる状態になっていないか、設定が有効になっていないかのいずれかの可能性があります。
 
@@ -64,8 +64,8 @@ Office 365 管理者は、組織のユーザー (具体的にはチーム所有�
     - **Giphy のコンテンツ評価** –  ドロップダウン リストから次の評価を選択します。
        - **すべてのコンテンツを許可** - ゲストは、コンテンツ評価に関係なく、すべての Giphy をチャットに挿入することができるようになります。
        - **中** - ゲストは、Giphy をチャットに挿入することができますが、成人向けコンテンツの挿入についてはある程度制限されます。
-       - **高** - ゲストは、Giphy をチャットに挿入することができますが、成人向けコンテンツの挿入については厳格に制限されます。
-    - **会話でミームを使用する** – この設定を [**オン**] にすると、ゲストが会話でミームを使用することができるようになります。
+       - **Strict** –ゲストはチャットに giphy を挿入できますが、成人向けコンテンツの挿入は制限されます。
+    - **会話でミームを使う**-この設定**** をオンにすると、ゲストが会話でミームを使用できるようになります。
     - **会話でステッカーを使用する** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。 
 
 

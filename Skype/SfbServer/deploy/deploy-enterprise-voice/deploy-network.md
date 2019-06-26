@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: Skype for Business Server のネットワーク領域、ネットワークサイト、ネットワークサブネットの関連付けを作成または変更します。 これらはすべて、高度なエンタープライズ Voip 機能 (メディアバイパス、通話受付制御、位置ベースのルーティング) に使用されます。
-ms.openlocfilehash: c4fdf8649c866aa63134f7d4fa28e70e68809f9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3ce0f4dcf011f57e25c4741c34135bc4ba62085a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291201"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221484"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Skype for Business でネットワークのリージョン、サイト、サブネットを展開する
 
 Skype for Business Server のネットワーク領域、ネットワークサイト、ネットワークサブネットの関連付けを作成または変更します。 これらはすべて、高度なエンタープライズ Voip 機能 (メディアバイパス、通話受付制御、位置ベースのルーティング) に使用されます。
 
-高度なエンタープライズ VoIP 機能として、[call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)、[E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) を挙げることができます。 これらの各機能を使用するには、ネットワーク地域、ネットワーク サイト、サブネットを作成する必要があります。 たとえば、これらの各機能では、トポロジ内にある各サブネットを特定のネットワーク サイトに関連付け、各ネットワーク サイトをネットワーク地域に関連付ける必要があります。 これらの用語の詳細については、「[Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)」を参照してください。
+高度なエンタープライズ Voip 機能には、[通話受付制御](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[メディアのバイパス](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[位置情報に基づくルーティング](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)、E9-1 [-](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)1 があります。 これらの各機能を使用するには、ネットワーク地域、ネットワーク サイト、サブネットを作成する必要があります。 たとえば、これらの各機能では、トポロジ内にある各サブネットを特定のネットワーク サイトに関連付け、各ネットワーク サイトをネットワーク地域に関連付ける必要があります。 これらの用語の詳細については、「 [Skype For Business Server の高度なエンタープライズ voip 機能のネットワーク設定](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)」を参照してください。
 
 通話受付管理および E9-1-1 には、ネットワーク サイトの追加構成要件があります。
 

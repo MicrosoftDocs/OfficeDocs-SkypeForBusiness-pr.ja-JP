@@ -15,29 +15,30 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84d23efc8cbec7435b4b9677bf9c6321ade4fb3d
-ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
+ms.openlocfilehash: 7daf8261d4b242325cac630ff134e188a3be2c8e
+ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34957477"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35133861"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
 
-Teams について不慣れな場合や、詳細が必要な場合は、このまま読み進めてください。 「[Welcome to Teams (Teams へようこそ)](https://youtu.be/s3aQV3T0D6c)」という短いビデオをご覧ください。 
+エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、[Microsoft Teams ヘルプ センター](https://support.office.com/teams)に移動します。 トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
 
-エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある [**ヘルプ**] をクリックするか、[Microsoft Teams ヘルプ センター](https://support.office.com/teams)に移動します。 トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
+
+
+Teams に不慣れで詳細を知る必要がある場合は、「Teams へようこそ」ビデオを参照してください。
+
+> [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
+
 
 ## <a name="teams-architecture"></a>Teams のアーキテクチャ
 
 Teams は Office 365 グループ、Microsoft Graph、および他の Office 365 と同じエンタープライズ レベルのセキュリティ、コンプライアンス、管理容易性で構築されています。 Teams は Azure Active Directory (Azure AD) に保存された ID を活用します。 
 
 Microsoft 365 全体の中での Teams の位置を確認するには、次のアーキテクチャ ポスターを参照してください: [Microsoft 365 の一部としての Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
-
-[![Teams の論理的なアーキテクチャ ポスターのサムネイル](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)         
-
-
 
 チームを作成すると、次のものが作成されることになります。
 - 新しい [Office 365 グループ](office-365-groups.md)
@@ -47,8 +48,6 @@ Microsoft 365 全体の中での Teams の位置を確認するには、次の�
 - Planner や Power BI などのその他の Office 365 アプリとの連動
 
 既存のグループからチームを作成する場合は、グループのメンバーシップ、サイト、メールボックス、ノートブックが Teams に表示されます。 詳細については、こちらのポスターをご覧ください: [ITアーキテクト向けMicrosoft 365のグループ](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
-
-[![グループ インフォグラフィックのサムネイル](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)
 
 Teams をカスタマイズおよび拡張するには、[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を使用してサードパーティ アプリを追加します。 Teams では、組織の外部のユーザーを[ゲストとして追加する](guest-access.md)ことで、チームまたはチャネルに含めることができます。 Office 365 の一部として、Teams は強力な[開発プラットフォーム](https://docs.microsoft.com/microsoftteams/platform)を提供します。これにより、ユーザーは組織に必要なチームワーク ハブを構築できます。 
 

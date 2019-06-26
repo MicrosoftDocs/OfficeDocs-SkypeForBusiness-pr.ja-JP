@@ -1,9 +1,9 @@
 ---
-title: Microsoft Teams テナント アプリ カタログにアプリを公開する
+title: Microsoft Teams テナントアプリカタログでアプリを公開する
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/15/2019
+ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
@@ -16,25 +16,26 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebc26292e41328589f302127980f4a303efd46a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5d016fd1c341774115b9b68edafcc47a63e42b0d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226712"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221326"
 ---
-<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Microsoft Teams テナント アプリ カタログにアプリを公開する
+<a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Microsoft Teams テナントアプリカタログでアプリを公開する
 =======================================================
 
-Microsoft Teams テナントのアプリカタログを使って、基幹業務アプリケーションのテストと組織への配布を行うことができます。 
+Microsoft Teams テナントのアプリカタログを使って、基幹業務アプリケーションのテストと組織への配布を行うことができます。
 
-Teams テナントアプリカタログを使うと、組織専用に構築された基幹業務アプリケーションを配布できます。また、重要なビジネス機能をユーザーに対して実行することに依存します。 
- 
-グローバル管理者の資格情報を使用してチームクライアントにサインインし、組織のアプリを公開します。 
+Teams テナントアプリカタログを使用すると、組織専用に構築された基幹業務アプリケーションを配布することができ、重要なビジネス機能の実行に依存することになります。
 
-## <a name="publish-an-app-to-the-tenant-apps-catalog-from-the-teams-client"></a>Teams クライアントからテナントアプリカタログにアプリを発行する
+組織のアプリを公開するには、グローバル管理者の資格情報を使用してチームクライアントにサインインし、次の手順に従います。
 
-注: 組織のアプリを公開するには、グローバル管理者の資格情報を使用して Microsoft Teams クライアントにサインインしている必要があります。
+## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>Teams クライアントからテナントアプリカタログ内のアプリを公開する
+
+> [!NOTE]
+> 組織のアプリを公開するには、グローバル管理者の資格情報を使用して Microsoft Teams クライアントにサインインしている必要があります。
 
 ### <a name="get-a-teams-app-package"></a>Teams アプリパッケージを取得する
 
@@ -42,39 +43,38 @@ Teams アプリパッケージは、 [Teams アプリ Studio](https://docs.micro
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>テナントアプリカタログに移動します。
 
-Microsoft Teams クライアントを起動して、グローバル管理者の資格情報を使用してサインインします。 Microsoft Teams ストアで、特定の組織に対応する新しいセクション (この例では Contoso) を選びます。 組織内のユーザーは、カタログ内のアプリを表示して、メンバーになっているチームにインストールすることができます。 
+Microsoft Teams クライアントを起動して、グローバル管理者の資格情報を使用してサインインします。 Microsoft Teams ストアで、特定の組織に対応する新しいセクション (この例では Contoso) を選びます。 組織内のユーザーは、カタログ内のアプリを表示して、メンバーになっているチームに対してアプリをインストールできます。
 
 ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image01.png)
 
 ### <a name="add-an-app-to-the-tenant-apps-catalog"></a>テナントアプリカタログにアプリを追加する
 
-ストアで、[ > **Contoso の****カスタムアプリアップロードのアップロード**] を選びます。
+1. ストアで、[ > **Contoso の****カスタムアプリアップロードのアップロード**] を選びます。
 
-![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image02.png)
+    ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image02.png)
 
-([**自分のアップロード] または [自分のチーム**(サイドローディングと呼ばれる)] を選択して、アプリを自分または選択したチームのみが利用できるようにすることもできます。) 
+    ( **[自分のアップロード] または [自分のチーム**] (*サイドローディング*と呼ばれます) を選択することもできます。 サイドローディングによって、アプリはチームまたは選択したチームのみが利用できるようになります。)
 
-アプリパッケージに移動して選択します。
+2. アプリパッケージに移動して選択し、[**開く**] をクリックします。
 
-![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image03.png)
+    ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image03.png)
 
 テナントアプリカタログに戻ると、新しいエンタープライズアプリが表示されます。 このアプリカタログには、自分と組織のメンバーのみがアクセスできます。
 
 ### <a name="update-an-app-in-the-tenant-apps-catalog"></a>テナントアプリカタログのアプリを更新する
 
 1. テナントアプリカタログで、[**..**.] を選びます。 更新するアプリの右上にあります。
-2. 更新されたアプリパッケージに移動し、それを選択します。
 
-![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image04.png)
+2. 更新されたアプリパッケージに移動して選択し、[**開く**] をクリックします。
+
+    ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image04.png)
 
 アプリはバージョン2.0 に更新されます。 このメニューから会社全体のアプリを削除することもできます。
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Office 365 管理ポータルを使用してテナントアプリカタログを管理する
 
-バグの修正が必要なアプリがある場合は、Office 365 管理ポータルを使用してアプリを一時的に無効にすることができます。 [**設定** > **サービス & アドイン** > の**Microsoft Teams**] を選択します。 以前の設定に加えて、お客様の会社のアプリ専用のセクションが追加されました。 有効または無効にするアプリを選ぶことができます。
+バグ修正が必要なアプリがある場合は、Office 365 管理ポータルを通じてアプリを一時的に無効にすることができます。 [**設定** > **サービス & アドインの** > **Microsoft Teams**] を選択します。 以前の設定に加えて、お客様の会社のアプリ専用のセクションが追加されました。 有効または無効にするアプリを選ぶことができます。
 
 ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image05.png)
 
-これにより、ユーザーはアプリを完全に削除せずに、アプリとやり取りすることができなくなります。 これらのコントロールを使うと、管理者は、企業のアプリのガバナンスをさらに柔軟に管理できます。 
-
-
+アプリを無効にすると、アプリを完全に削除せずに、ユーザーがアプリを操作できなくなります。 これらのコントロールを使用すると、企業でアプリを管理するときの柔軟性と制御がさらに向上します。

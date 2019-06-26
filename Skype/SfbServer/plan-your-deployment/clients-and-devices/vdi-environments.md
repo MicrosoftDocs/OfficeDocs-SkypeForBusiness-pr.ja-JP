@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: このトピックでは、リモート仮想デスクトップに接続しているときに Skype for Business を使用する場合の計画に関する考慮事項について説明します。
-ms.openlocfilehash: 958c13821eea46be91d51d7399722d2af433ccf0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c6bf1cea2a18920231ea4d347b8b0471cfebbba3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277287"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221240"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>VDI 環境における Skype for Business の計画
  
@@ -41,7 +41,7 @@ VDI プラグイン コンポーネントで使用できるソリューション
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX RealTime Optimization Pack
 <a name="Citrix_RT"> </a>
 
-Citrix の VDI 環境プラグイン (XenApp と XenDesktop の機能) は、Lync 2013 および Skype for business 2015 および 2016 (任意のクリックでインストーラーを実行する完全なクライアント、または仮想にインストールされ2017た MSI インストーラー) と互換性があります。デスクトップ. 全体的な機能は、Microsoft Lync VDI プラグインをベースにしていますが、Windows 10、Macintosh、Linux など、幅広いクライアントオペレーティングシステムで動作します。
+Citrix の VDI 環境プラグイン (XenApp と XenDesktop の機能) は、Lync 2013 および Skype for Business 2015 および 2016 (任意のクリックでインストーラーを実行する完全なクライアント、または仮想にインストールされ2017た MSI インストーラー) と互換性があります。デスクトップ. 全体的な機能は、Microsoft Lync VDI プラグインをベースにしていますが、Windows 10、Macintosh、Linux など、幅広いクライアントオペレーティングシステムで動作します。
   
 すべての機能とサポートされるテクノロジの一覧は、 [Microsoft Skype For business を XenApp および XenDesktop ユーザーに配信する](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)ときに、Citrix の web サイトで参照できます。
   

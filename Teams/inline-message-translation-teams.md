@@ -1,9 +1,9 @@
 ---
-title: Microsoft Teams でインライン メッセージの翻訳を使用する
+title: Microsoft Teams でインラインメッセージの翻訳を有効にする
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 10/30/2018
+ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,14 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58e6fb04dd015e939125b75d604fe9692a32c0e2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
-ms.translationtype: HT
+ms.openlocfilehash: dfd0582837b2e9c9859b44292255e5e42a2f35a4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459909"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222070"
 ---
-<a name="use-inline-message-translation-in-microsoft-teams"></a>Microsoft Teams でインライン メッセージの翻訳を使用する 
+<a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Microsoft Teams でインラインメッセージの翻訳を有効にする 
 =================================================
 
 インライン メッセージの翻訳は、新しい Microsoft Teams の機能で、ユーザーが Teams のメッセージを、Office 365 のパーソナル言語設定で指定した[言語](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)に自動的に翻訳できるようになります。
@@ -35,16 +35,15 @@ ms.locfileid: "30459909"
 > [!NOTE]
 >このロールアウトは、Office 365 Government Community Cloud および Office 365 Germany の環境での Office 365 サブスクリプションから除外されています。
 
-## <a name="enable-by-using-powershell"></a>PowerShell を使用して有効にする
+## <a name="use-powershell-to-turn-on-inline-message-translation"></a>PowerShell を使用してインラインメッセージの翻訳を有効にする
 
-メッセージング ポリシーを使用することで、インライン メッセージの翻訳機能をオンにできます。
+メッセージポリシーを使って、インラインメッセージの翻訳を有効にすることができます。
 
-1. [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) コマンドレットを使用して、ポリシーをオンにします。
-2. ポリシーが適用されるには数分間かかります。 ユーザーは、サインアウトして再び Teams にサインインする必要があります。
+[Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) コマンドレットを使用して、ポリシーをオンにします。 ポリシーが適用されるには数分間かかります。 ユーザーは、サインアウトして再び Teams にサインインする必要があります。
 
-## <a name="enable-by-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用して有効にする
+## <a name="use-the-microsoft-teams-admin-center-to-turn-on-inline-message-translation"></a>Microsoft Teams 管理センターを使用して、インラインメッセージの翻訳を有効にする
 
-**Microsoft Teams 管理センター**で、左側のバーから [**メッセージング ポリシー**] を選択し、新しいポリシーを作成するか、既存のポリシーを編集して、[**ユーザーにメッセージの翻訳を許可する**] オプションを**オン**に設定します。
+**Microsoft Teams 管理センター**で、左のナビゲーションから [**メッセージポリシー** ] を選び、新しいポリシーを作成するか、既存のポリシーを編集して、[**メッセージの翻訳を許可**する] オプションを **[オン**] に設定します。
 
 > [!NOTE]
->サービスにより翻訳が実行され、コンプライアンス レコードでキャプチャされたコンテンツに影響のないクライアントに配信されます。 翻訳の詳細については、「[Microsoft Translator とは](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)」をご覧ください。
+> サービスは翻訳を行ってクライアントに配信し、コンプライアンスレコードでキャプチャされたコンテンツには影響しません。 翻訳の詳細については、「[Microsoft Translator とは](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)」をご覧ください。

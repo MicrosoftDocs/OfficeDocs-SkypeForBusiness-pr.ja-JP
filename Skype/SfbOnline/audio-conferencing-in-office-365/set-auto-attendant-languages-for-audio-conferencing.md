@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Skype for Business Online で電話会議番号の電話会議の自動応答の言語を選ぶ方法について説明します。
-ms.openlocfilehash: a05b393ac671447c0efe385bb1d562039aef32d6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 753efca2117363774865817d3095d8b981b4342c
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306380"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35220904"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online で電話会議の自動案内の言語を設定する
 
@@ -67,7 +67,7 @@ Skype for Business の電話会議の自動応答では、電話会議に参加�
     
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
 
-この手順を自動化するには、[Set-CsOnlineDialInConferencingServiceNumber ](https://go.microsoft.com/fwlink/?LinkId=617689) コマンドレットと[Get-CsOnlineDialInConferencingLanguagesSupported ](https://go.microsoft.com/fwlink/?LinkId=617684) コマンドレットを使用できます。
+この手順を自動化するには、 [set-csonlinedialinconferencingservicenumber](https://go.microsoft.com/fwlink/?LinkId=617689)と[get-csonlinedialinconferencinglanguagessupported](https://go.microsoft.com/fwlink/?LinkId=617684)コマンドレットを使用します。
   
 詳細については、「[Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)」をご覧ください。
   

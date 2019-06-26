@@ -16,16 +16,16 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: 管理者が Microsoft Teams のゲスト ユーザーに関する情報をどのようにして表示できるかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f86ef6a8bc152400b8f845b926b24b07b00067e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e068e6e754ab28f3c068c59c92c7a27d13e2da1d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884804"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35220895"
 ---
 <a name="view-guest-users-in-a-team"></a>チームのゲスト ユーザーを表示する
 ==========================
-チーム内のユーザーは誰でも、Microsoft Teams の **[チームの管理]** から、ゲストを含むチームのすべてのメンバーを見ることができます。 詳細については「[チームまたはチャネルにいるユーザーを確認する](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7)」を参照してください。
+チーム内のユーザーは誰でも、Microsoft Teams の **[チームの管理]** から、ゲストを含むチームのすべてのメンバーを見ることができます。 詳細について[は、「チームまたはチャネルで誰がいるかを確認する」](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7)を参照してください。
 
 ゲスト ユーザーを識別する方法は次のとおりです。
 

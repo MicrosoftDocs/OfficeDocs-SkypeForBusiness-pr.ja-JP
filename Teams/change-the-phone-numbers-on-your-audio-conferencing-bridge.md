@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 電話会議ライセンスを購入するときに、Microsoft は組織の電話会議ブリッジをホストしています。 電話会議ブリッジは、さまざまな場所からダイヤルイン電話番号を提供します。これにより、会議の開催者と参加者は、電話を使って Skype for Business または Microsoft Teams の会議に参加できるようになります。
-ms.openlocfilehash: 3508ab081535ced2cad1610fcb1f7195aaeb3dfa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 60095ff820c6aeb13745f5195a6274fa90f5eec0
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283403"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221684"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
 **電話会議**ライセンスを購入するときに、Microsoft は組織の電話会議ブリッジをホストしています。 電話会議ブリッジは、さまざまな場所からダイヤルイン電話番号を提供します。これにより、会議の開催者と参加者は、電話を使って Skype for Business または Microsoft Teams の会議に参加することができます。
   
-会議ブリッジに既に割り当てられている電話番号に加えて、他の場所にある[追加のサービス番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)(電話会議に使用する有料および無料の電話番号) を取得して、それを会議ブリッジに割り当てることができます。ユーザーの範囲を広げます。
+会議ブリッジに既に割り当てられている電話番号に加えて、他の場所にある[追加のサービス番号](/microsoftteams/getting-service-phone-numbers)(電話会議に使用する有料および無料の電話番号) を取得して、それを会議ブリッジに割り当てることができます。ユーザーの範囲を広げます。
   
 > [!NOTE]
 > 会議ブリッジの電話番号の割り当て/割り当て解除を行うには、電話番号は「*サービス*」番号でなければなりません。 番号の種類は、従来のポータルで [ **** > **電話番号**] に移動し、[**番号の種類**] 列で確認できます。 ユーザーが無料電話番号を使用してブリッジにダイヤルインするためには、Office 365 通信クレジットを最初に設定する必要があります。
@@ -57,7 +57,7 @@ ms.locfileid: "34283403"
 
 1. 職場のアカウントを使用して、Office 365 にサインインします。
 
-2. **Microsoft 365 管理センター** > **管理** > センター**Teams & Skype** > **会議** > **電話会議ブリッジ**に移動します。
+2. **Microsoft 365 管理センター** > の**管理** > センター**チーム & Skype** > **会議** > **会議ブリッジ**に移動します。
 
 3. 既定として構成するサービスの有料電話番号を強調表示します。
 
@@ -69,7 +69,7 @@ ms.locfileid: "34283403"
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. **Microsoft 365 管理センター** > **管理** > **Teams & Skype** > **従来のポータル** > **電話会議** > **ユーザー**を選び、リストからユーザーを選択します。
+2. **Microsoft 365 管理センター** > **管理** > センターの**チーム & Skype** > **従来のポータル** > **電話会議** > **ユーザー**に移動して、リストからユーザーを選びます。
 
 3. 操作ウィンドウで [**編集**] をクリックします。
 
@@ -153,7 +153,8 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 2. [ **Windows PowerShell** ] ウィンドウで「 _Get Host_ 」と入力して、バージョンを確認します。
 
-3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。Windows PowerShell をダウンロードして、バージョン 4.0 に更新するには、「[Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845)」を参照してください。メッセージが表示されたら、コンピューターを再起動します。
+3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。
+メッセージが表示されたら、コンピューターを再起動します。
 
 4. また、skype for business online に接続するリモート Windows PowerShell セッションを作成できるようにする、Skype for Business Online 用の Windows PowerShell モジュールをインストールする必要もあります。 このモジュールは、64ビットのコンピューターでのみサポートされ、 [Skype For Business Online 用の Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)で Microsoft ダウンロードセンターからダウンロードできます。
 メッセージが表示されたら、コンピューターを再起動します。

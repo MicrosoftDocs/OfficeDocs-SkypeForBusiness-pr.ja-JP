@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Skype for Business Online の会議に参加したときにユーザーが名前を記録できるかどうかを有効または無効にする方法について説明します。
-ms.openlocfilehash: d12d03c11340694673986733c73f46a3e7fccb1a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7209d95db6ada7b4569ee4c6dc1aded8b2e6b877
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290102"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221528"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Skype for Business Online の会議に参加したときにユーザーが名前を記録できるようにする
 
@@ -53,7 +53,7 @@ ms.locfileid: "34290102"
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
-- 時間を節約したり、自動化したりするには、[Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) コマンドレットを使用できます。
+- 時間を節約したり、自動化したりするには、 [-](https://go.microsoft.com/fwlink/?LinkId=715757)コマンドレットを使用します。
     
 - Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
     

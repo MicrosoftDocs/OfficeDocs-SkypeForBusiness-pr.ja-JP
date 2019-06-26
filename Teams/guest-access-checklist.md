@@ -3,7 +3,7 @@ title: Microsoft Teams のゲスト アクセスのチェックリスト
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/25/2019
+ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ad6c0abba3b0ea85bdac7e2875369c4cd1d5150
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 0ec3fb391feefae9daa5ffaa8c7b5955b6552f93
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131418"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221661"
 ---
 <a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -39,9 +39,9 @@ ms.locfileid: "35131418"
 - チームの作成または修正
 - チームの参照
 - 個人対個人のチャットへのファイルのアップロード
-- ユーザーは、完全なメール ID がわかっている場合でも、チーム外のユーザーを検索して見つけることができます。 このようなことを防ぐため、IT 管理者は、ゲストを仮想 GAL に制限する機能を持つ、スコープ指定された[ディレクトリ検索](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search)などのパターンを使用できます。
+- ユーザーの完全なメール ID がわかっている場合でも、ゲストはユーザーを検索して検索できます。 このようなことを防ぐため、IT 管理者は、ゲストを仮想 GAL に制限する機能を持つ、スコープ指定された[ディレクトリ検索](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search)などのパターンを使用できます。
 
-詳細については、「[ゲストのエクスペリエンスについて](guest-experience.md)」および「[Office 365 グループのゲスト アクセス](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」をご覧ください。
+詳細については、「 [Office 365 グループで](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)の[ゲストエクスペリエンスの概要](guest-experience.md)」と「ゲストアクセス」を参照してください。
 
 ### <a name="guest-access-vs-external-access-federation"></a>ゲスト アクセスと外部アクセス (フェデレーション)
 
@@ -49,7 +49,7 @@ ms.locfileid: "35131418"
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>ゲストに対してライセンスのエラーが表示されている場合
 
-Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネス ツー ビジネス (B2B) およびそのライセンス モデルを使用しています。 ライセンスエラーが表示される場合は、組織のユーザーが組織にゲストを招待できるように、組織のライセンス要件を理解するために、 [B2B ライセンスガイダンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)をお読みください。
+Microsoft Teams のゲストアクセスでは、Azure Active Directory (Azure AD) Business to Business (B2B) とライセンスモデルが使用されます。 ライセンスエラーが表示される場合は、組織のユーザーが組織にゲストを招待できるように、組織のライセンス要件を理解するために、 [B2B ライセンスガイダンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)をお読みください。
 
 次の点にご注意ください。
 
@@ -60,18 +60,18 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□  手順 1: Azure AD ビジネス ツー ビジネスの設定を構成する
 
-1. サインインするにはhttps://portal.azure.com
-2. 左ペインで **Azure Active Directory** をクリックします。
+1. https://portal.azure.com にサインインします。
+2. 左側のウィンドウで [ **Azure Active Directory** ] をクリックします。
 3. [**管理**] の下で、[**ユーザー設定**] をクリックします。
-4. [**外部ユーザー**] の下で、[**外部コラボレーションの設定を管理します**] をクリックします。
+4. [**外部ユーザー**] で、[**外部グループ作業設定の管理**] をクリックします。
 5. [**外部コラボレーションの設定**] ページで [**メンバーが招待可能**] が [**はい**] に設定されていることを確認します。
 
       ![スクリーンショットに AAD 設定の切り替えの例が示されます。 ](media/guest-access-checklist-AADSettings1.png)
 
-    ゲストをサポートするために、[**メンバーが招待可能**] を [**はい**] に設定する必要があります。 
-   
-> [!NOTE] 
-> [**メンバーが招待可能**] を [**いいえ**] に設定して、Office 365 グループおよび Microsoft Teams でのゲスト アクセスを有効にすると、自分のディレクトリへのゲストの招待を管理者が制御することができます。 ゲストはディレクトリに入った後、管理者ではない、チーム所有者としてのメンバーによってチームに追加されることができます。
+    ゲストをサポートするために、[**メンバーが招待可能**] を [**はい**] に設定する必要があります。
+
+    > [!NOTE] 
+    > [**メンバーが招待可能**] を [**いいえ**] に設定して、Office 365 グループおよび Microsoft Teams でのゲスト アクセスを有効にすると、自分のディレクトリへのゲストの招待を管理者が制御することができます。 ゲストはディレクトリに入った後、管理者ではない、チーム所有者としてのメンバーによってチームに追加されることができます。
 
 詳細については、「[Microsoft Teams でのゲスト アクセスを承認する](Teams-dependencies.md)」をご覧ください。
 
@@ -82,14 +82,14 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 2. [**組織外部のグループ メンバーがグループ コンテンツにアクセスすることを許可**] が [**オン**] に設定されていることを確認します。 この設定がオフになっていると、ゲストはどのグループ コンテンツにもアクセスすることはできません。
 3. [**グループ所有者が組織外部のユーザーをグループに追加することを許可**] が [**オン**] に設定されていることを確認します。 この設定がオフになっていると、チームの所有者は新しいゲストを追加することができません。 少なくとも、ゲスト アクセスをサポートするためにこの設定をオンにする必要があります。
 
-     ![Office 365 グループの切り替えスイッチを示すスクリーンショット](media/guest-access-checklist-office365.png)
+     ![Office 365 グループの切り替えを示すスクリーンショット](media/guest-access-checklist-office365.png)
 
-これらの設定の構成方法の詳細については、「[Office 365 グループのゲスト アクセスを管理する](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)」と、「[Microsoft Teams でのゲスト アクセスを承認する](Teams-dependencies.md)」の「Office 365 グループ」セクションをご覧ください。
+これらの設定を構成する詳細な手順については、「 [office 365 グループでゲストアクセスを管理](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)する」および「 [office 365 グループのゲストアクセスを制御](Teams-dependencies.md#control-guest-access-in-office-365-groups)する」を参照してください。
  
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ 手順 3: テナント レベルでのゲスト アクセスを有効にする
 
-少なくとも、**Microsoft Teams 管理センター**で Microsoft Teams のゲスト アクセスをオンにする必要があります。 
+少なくとも、microsoft **teams 管理センター**で microsoft teams のゲストアクセスを有効にする必要があります。 
 
 1. Teams 管理センターで、**[組織全体の設定]** > **[ゲスト アクセス]** を選択します。
 2. **[Microsoft Teams でのゲスト アクセスを許可]** のスイッチを **[オン]** に設定します。
@@ -99,7 +99,7 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 3. この同じページで、必要な他のゲストの設定を構成します。
 4. [**保存**] をクリックします。
 
-詳細については、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」をご覧ください。
+詳細な手順については、「 [Microsoft Teams へのゲストアクセスを有効または](set-up-guests.md)無効にする」を参照してください。
 
 
 ## <a name="--step-4-configure-sharing-in-office-365"></a>□  手順 4: Office 365 での共有を構成する 

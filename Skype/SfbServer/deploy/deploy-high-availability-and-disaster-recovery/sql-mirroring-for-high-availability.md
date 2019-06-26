@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、「SQL Server 2008 Service Pack 1 の累積更新プログラムパッケージ9」を参照してください。
-ms.openlocfilehash: 5ca6f214aed476b2f84a433a87c3fa444025dc68
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49ccc2057641b23dffa309726bc5cdf0d74f6b08
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298540"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222117"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Skype for Business server 2015 でバックエンドサーバーの高可用性を実現するための SQL ミラーリングを展開する
 
 
-SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、「 [SQL Server 2008 Service Pack 1 の累積更新プログラムパッケージ 9 ](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)」を参照してください。
+SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、「 [SQL Server 2008 Service Pack 1 の累積更新プログラムパッケージ 9](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)」を参照してください。
 
 一般に、2 つのバックエンド サーバー間での SQL ミラーリングを設定するには、以下の要件を満たしている必要があります。
 
@@ -50,7 +50,7 @@ SQL ミラーリングでは、ミラーリングのトポロジの構成を、�
 > SQL ミラーリングのセットアップと削除を行うためのトポロジビルダーまたはコマンドレットの使用は、プライマリ、ミラー、および監視 (必要な場合) サーバーがすべて同じドメインに属している場合にのみサポートされます。 異なるドメインのサーバーに SQL ミラーリングを設定する場合は、SQL Server のドキュメントを参照してください。
 
 > [!IMPORTANT]
-> バックエンド データベース ミラーリング関係を変更するたびに、プール内のすべてのフロントエンド サーバーを再起動する必要があります。 > (ミラーの場所の変更など) ミラーリングの変更については、トポロジービルダーを使用して、次の3つの手順を実行する必要があります。
+> バックエンド データベース ミラーリング関係を変更するたびに、プール内のすべてのフロントエンド サーバーを再起動する必要があります。 ミラーリングの変更 (ミラーの場所の変更など) の > は、次の3つの手順を実行するためにトポロジビルダーを使用する必要があります。
 
 1. 古いミラー サーバーからミラーリングを削除します。
 
@@ -59,7 +59,7 @@ SQL ミラーリングでは、ミラーリングのトポロジの構成を、�
 3. トポロジを公開します。
 
 > [!NOTE]
-> 書き込み先のミラーファイルに対してファイル共有を作成し、SQL Server と SQL エージェントが実行されているサービスが読み取り/書き込みアクセスを必要とするようにする必要があります。 SQL Server サービスが Network service のコンテキストで実行されている場合は、 \<プリンシパル\>\\と\>ミラーの SQL server の両方の Domain <SQLSERVERNAME $ を共有アクセス許可に追加できます。 $ は、これがコンピュータアカウントであることを特定するために重要です。
+> 書き込み先のミラーファイルに対してファイル共有を作成し、SQL Server と SQL エージェントが実行されているサービスが読み取り/書き込みアクセスを必要とするようにする必要があります。 SQL Server サービスが Network service のコンテキストで実行されている場合は、 \<プリンシパル\> \\とミラーの\>SQL server の両方のドメイン<sqlservername $ を共有アクセス許可に追加できます。 $ は、これがコンピュータアカウントであることを特定するために重要です。
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>トポロジビルダーでプールを作成するときに SQL ミラーリングを構成するには
 

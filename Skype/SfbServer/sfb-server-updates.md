@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015 および Lync 2013 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 80ba0d772b95083b901b359c2f12793c5a6e3244
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 26c203cc403e8b515597276570f1207cf2e39f35
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681819"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221859"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
@@ -120,8 +120,8 @@ ms.locfileid: "34681819"
 |[Lync Server 2013 ストレスおよびパフォーマンス ツール](https://www.microsoft.com/en-us/download/details.aspx?id=36819) |2013 年 3 月 |
 |[Lync Server 2013 ホワイトボード アーカイブ ビューアー](https://www.microsoft.com/en-us/download/details.aspx?id=36822) |2013 年 2 月 |
 |[Lync VDI 2013 プラグイン (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |2012 年 10 月 |
-|[Lync VDI 2013 プラグイン (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |2012 年 10 月 |
-|[新しい Office Visio のステンシル](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |2016 年 7 月 |
+|[Lync VDI 2013 プラグイン (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |2012 年 10 月 |
+|[新しい Office Visio ステンシル](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |2016 年 7 月 |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Lync 2013 のダウンロード可能なドキュメント
 
@@ -180,11 +180,11 @@ ms.locfileid: "34681819"
 |パッケージ名/リンク|リリース日|
 |:--- |:--- |
 |[Microsoft Lync Server 2010 のエキスパートに対するインスタント メッセージング](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=01fd2b2b-d780-4d6f-8e1e-54b2ad718f2b&displaylang=en)|2012 年 3 月 |
-|[Lync Server 2010 ベスト プラクティス アナライザー](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|2011 年 2 月 |
-|[Lync Server 2010 容量計算機](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|2012 年 2 月 |
+|[Lync Server 2010 ベストプラクティスアナライザー](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|2011 年 2 月 |
+|[Lync Server 2010 キャパシティ計算ツール](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|2012 年 2 月 |
 |[Lync Server 2010 計画ツール](https://www.microsoft.com/download/en/details.aspx?id=19711)|2011 年 2 月 |
-|[Lync Server 2010 リソース キット ツール](https://www.microsoft.com/downloads/details.aspx?FamilyID=80CC5CE7-970D-4FD2-8731-D5D7D0829266)|2012 年 5 月 |
-|[Lync Server 2010 ストレスおよびパフォーマンス ツール](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|2011 年 3 月 |
+|[Lync Server 2010 リソースキットツール](https://www.microsoft.com/downloads/details.aspx?FamilyID=80CC5CE7-970D-4FD2-8731-D5D7D0829266)|2012 年 5 月 |
+|[Lync Server 2010 のストレスとパフォーマンスのツール](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|2011 年 3 月 |
 |[Lync Server 2010 Visio ステンシル](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|2011 年 2 月 |
 |[Lync Server 2010 Web Scheduler](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|2011 年 4 月 |
 
@@ -192,13 +192,13 @@ ms.locfileid: "34681819"
 
 パッケージ名/リンク|リリース日|
 |:--- |:--- |
-|[Lync Server 2010 のドキュメントのヘルプ ファイル](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|2012 年 3 月 |
-|[Lync Server 2010 のようこそページ](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|2012 年 10 月 |
-|[Microsoft Lync Server 2010 ドキュメントのエキスパートに対するインスタント メッセージング](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012 年 3 月 |
-|[Lync 2010 リリース ノート ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|2011 年 1 月 |
-|[Lync Server 2010 リリース ノート](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|2011 年 1 月 |
+|[Lync Server 2010 ドキュメントヘルプファイル](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|2012 年 3 月 |
+|[Lync Server 2010 の [ようこそ] ページ](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|2012 年 10 月 |
+|[Microsoft Lync Server 2010 ドキュメントの専門家である IM](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012 年 3 月 |
+|[Lync 2010 リリースノート](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|2011 年 1 月 |
+|[Lync Server 2010 リリースノート](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|2011 年 1 月 |
 |[Lync Server 2010 計画ツールの Readme](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|2011 年 1 月 |
-|[Lync Server 2010 エッジ サーバー関連アーキテクチャの図](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|2011 年 3 月 |
+|[Lync Server 2010 Edge Server Reference Architecture の図](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|2011 年 3 月 |
 
 ### <a name="resource-kit-technical-reference"></a>リソース キット (テクニカル リファレンス)
 
@@ -208,9 +208,9 @@ ms.locfileid: "34681819"
 
 パッケージ名/リンク|リリース日|
 |:--- |:--- |
-|[Lync Server 2010 グループ チャット](https://www.microsoft.com/download/en/details.aspx?id=12480) |2010 年 11 月 |
-|[Lync Server 2010 グループ チャット管理ツール](https://www.microsoft.com/download/en/details.aspx?id=3610) |2010 年 11 月 |
-|[Lync 2010 グループ チャット](https://www.microsoft.com/download/en/details.aspx?id=2651) |2010 年 11 月 |
+|[Lync Server 2010 グループチャット](https://www.microsoft.com/download/en/details.aspx?id=12480) |2010 年 11 月 |
+|[Lync Server 2010 グループチャット管理ツール](https://www.microsoft.com/download/en/details.aspx?id=3610) |2010 年 11 月 |
+|[Lync 2010 グループチャット](https://www.microsoft.com/download/en/details.aspx?id=2651) |2010 年 11 月 |
 
 ### <a name="trial-software"></a>試用版ソフトウェア
 

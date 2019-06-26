@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76efaefecf17b37b7c0a802f738cde493fa2c194
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35115955"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131433"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -30,7 +30,7 @@ ms.locfileid: "35115955"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|    
 |:-----|:-----|:-----|:-----|
-|リソース アカウントで部門が正しく構成されなかった <br/> |2019 年 1 月以前に自動応答または通話キューに関連付けられているリソース アカウントでは、適切な部門パラメーター セットを持っていませんので、それが原因で電話番号の割り当てに失敗することがあります。 この問題を解決するための修正プログラムに取り組んでいます。 <br/> |この問題を削減するには、次の Cmdlet を実行し、部門パラメーターを設定します。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft コミュニケーション アプリケーション インスタンス" <br/> |2019 年 5 月 8 日 <br/> |
+|リソース アカウントで部門が正しく構成されなかった <br/> |2019 年 1 月以前に自動応答または通話キューに関連付けられているリソース アカウントでは、適切な部門パラメーター セットを持っていませんので、それが原因で電話番号の割り当てに失敗することがあります。 この問題を解決するための修正プログラムに取り組んでいます。 <br/><br/> Skype for Business Server で New-CsHybridApplicationEndpoint を使用して構成したリソース アカウントは、Department パラメーターが適切に設定されません。そのために、Skype for Business Online のリソース アカウント作成が失敗します。 この場合、オンラインへの同期を実行する前に、Active Directory で部門名を構成する必要があります。|この問題を削減するには、次の Cmdlet を実行し、部門パラメーターを設定します。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft コミュニケーション アプリケーション インスタンス" <br/> |2019 年 5 月 8 日 <br/> |
 
 
 
@@ -271,6 +271,10 @@ ms.locfileid: "35115955"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |ファイルのダウンロードの失敗 <br/> |ファイルのパスにアポストロフィが含まれているファイルをダウンロードしようとすると、Microsoft Teams デスクトップ クライアントを使用する場合に、「ファイルをダウンロードできなかった」エラーが発生します。 <br/> |Web クライアントまたは SharePoint Online からファイルをダウンロードする <br/> |2019 年 5 月 10 日  <br/> |
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|OneNote ファイルのアップロードまたはダウンロードができない <br/> |Microsoft Teams を使用して、OneNote ファイルまたはノートブックをアップロードまたはダウンロードしようとする失敗します。 <br/> |SharePoint Online でファイルを直接ダウンロードまたはアップロードしてください。 <br/> |2019 年 5 月 7 日  <br/> |
 
 ## <a name="teams"></a>Teams
 

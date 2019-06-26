@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: '概要: System Center Operations Manager と連携するように Skype for Business Server 2015 インフラストラクチャを構成する方法について説明します。'
-ms.openlocfilehash: 3f8f8d188beee3a67a2b4d7cc6308c60410cbf9a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0f16e49477e457be7743d024061288f869d9ff58
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277651"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221574"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>SCOM Management pack を使用した Skype for Business Server 2015 の管理
  

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '概要: Skype for Business Server を実装する前に、このトピックの DNS の考慮事項を確認してください。'
-ms.openlocfilehash: 13dd8b65c52329ff2db0ac3d7d57eeba990e29f6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e6bb5866cfc52dc02a1fc48c19b1f43af6077f7
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297065"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221225"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Skype for Business Server の DNS 要件
 
@@ -65,7 +65,7 @@ ms.locfileid: "34297065"
 |SRV   |\_sipfederationtls.\_tcp。* \<sipdomain\> * <br/>\_sipfederationtls.\_tcp。<span> </span> *contoso<span></span>.com*  | Access Edge サービス FQDN <br/> EdgePool-int-13<span></span>*<span></span>*  |IOS または Windows Phone のモバイル クライアントが存在する各 SIP ドメインに対して、1 つの SRV レコードを作成します。   |モバイル クライアントのサポートの場合   |
 |A/AAAA   |管理 URL  <br/>*Web-int-13<span></span><span></span>*  |HLB FE プール VIP  <br/> 192.168.21.121   |Skype for Business Server コントロールパネルの「[簡単な url](dns.md#BK_Simple) 」をご覧ください。  ||
 |A/AAAA   |会議 URL  <br/>*Web-int-13<span></span><span></span>*  |HLB FE プール VIP  <br/> 192.168.21.121   |オンライン会議, 「[単純な url](dns.md#BK_Simple) 」をご覧ください。  ||
-|A/AAAA   |ダイヤルイン URL  <br/>*Web-int-13<span></span><span></span>*  |HLB FE プール VIP  <br/> 192.168.21.121   |ダイヤルイン会議, 「[単純な url](dns.md#BK_Simple) 」をご覧ください。  ||
+|A/AAAA   |ダイヤルイン URL  <br/>*Web-int-13<span></span><span></span>*  |HLB FE プール VIP  <br/> 192.168.21.121   |ダイヤルイン会議。[簡易 URL](dns.md#BK_Simple) を参照してください。  ||
 |A/AAAA   |内部 Web サービスの FQDN  <br/>*Web-int-13<span></span><span></span>*  |HLB FE プール VIP  <br/> 192.168.21.121   |Skype for business Web App で使用される skype for Business Web サービス   ||
 |A/AAAA   |Office Web Apps サーバープールの FQDN  <br/> Outlook.<span> </span>contoso<span></span>.com   | Office Web Apps サーバープール VIP アドレス <br/> 192.168.1.5   |Office Web Apps サーバープールの FQDN を定義します   ||
 |A/AAAA   |  内部 Web の FQDN <br/> Web-int-13<span></span><span></span>   | フロントエンドプール VIP アドレス <br/> 192.168.21.121   |Skype for Business Web App で使用される内部 Web FQDN を定義します  <br/> このプールで DNS 負荷分散を使用する場合は、フロントエンド プールと内部 Web ファームで同じ FQDN を使用することはできません。   ||
@@ -98,8 +98,8 @@ ms.locfileid: "34297065"
 |SRV   |\_sipfederationtls.\_tcp。* \<sipdomain\> * <br/>\_sipfederationtls.\_tcp。* <span> </span>contoso<span></span>.com*  |外部アクセスエッジ FQDN  <br/>*Access1.<span> </span>contoso<span></span>.com*  |プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、SIP ドメインごとに1つの SRV レコードを作成します。 &#x2778;  ||
 |A/AAAA   |外部フロントエンドプール web サービス FQDN  <br/>*<span>Web また</span><span></span>は .com*  |リバースプロキシパブリック IP アドレス、フロントエンドプールの外部 Web サービス VIP へのプロキシ &#x2776; <br/> 131.107.155.1 プロキシから192.168.21.120   |Skype for Business Web App で使用されるフロントエンドプールの外部インターフェイス   |Y   |
 |A/AAAA/CNAME   |lyncdiscover.* \<sipdomain\>* <br/> lyncdiscover.* <span> </span>contoso<span></span>.com*  |リバースプロキシパブリック IP アドレスは、ディレクタープールがある場合は、外部 Web サービス VIP に解決されます。ディレクタープールを持っている場合は、フロントエンドプールに対しても、ディレクター &#x2777; を持っていない場合はそれが対象となります。 <br/> 131.107.155.1 プロキシから192.168.21.120   | モバイル、Skype for Business Web App、および scheduler Web アプリでも使用されるクライアントの自動検出の外部レコード (リバースプロキシサーバーで解決) <br/> プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、Microsoft Lync モバイルクライアントを含む SIP ドメインごとに SRV レコードを1つ作成します。 3  |Y   |
-|A/AAAA   |即時.* \<sipdomain\>* <br/> 即時.* <span> </span>contoso<span></span>.com*  |リバースプロキシパブリック IP アドレスは、フロントエンドプールの外部 Web インターフェイスに解決されます。  <br/> 131.107.155.1 プロキシから192.168.21.120   |Skype for Business Web サービスへのプロキシ  <br/> [単純な url](dns.md#BK_Simple)を表示する  |Y   |
-|A/AAAA   |*\<sipdomain\>* <br/> ダイヤルイン (*<span></span>コントソ<span></span>)*  |リバースプロキシのパブリック IP アドレス、フロントエンドプールの外部 Web インターフェイスへのプロキシ  <br/> 131.107.155.1 プロキシから192.168.21.120   |Skype for Business Web サービスへのプロキシ  <br/> [単純な url](dns.md#BK_Simple)を表示する  |Y   |
+|A/AAAA   |即時.* \<sipdomain\>* <br/> 即時.* <span> </span>contoso<span></span>.com*  |リバースプロキシパブリック IP アドレスは、フロントエンドプールの外部 Web インターフェイスに解決されます。  <br/> 131.107.155.1 プロキシから192.168.21.120   |Skype for Business Web サービスへのプロキシ  <br/> [簡易 URL](dns.md#BK_Simple) を参照してください  |Y   |
+|A/AAAA   |*\<sipdomain\>* <br/> ダイヤルイン (*<span></span>コントソ<span></span>)*  |リバースプロキシのパブリック IP アドレス、フロントエンドプールの外部 Web インターフェイスへのプロキシ  <br/> 131.107.155.1 プロキシから192.168.21.120   |Skype for Business Web サービスへのプロキシ  <br/> [簡易 URL](dns.md#BK_Simple) を参照してください  |Y   |
 |A/AAAA   |Office Web Apps サーバープールの FQDN  <br/> Outlook.<span> </span>contoso<span></span>.com   | リバースプロキシパブリック IP アドレス、Office Web Apps サーバーの外部 Web インターフェイスへのプロキシ <br/> 131.107.155.1 は 192.168.1.5 にプロキシ   | Office Web Apps サーバープール VIP アドレス <br/> 192.168.1.5   |Office Web Apps サーバープールの FQDN を定義します   |
 
 フェデレーションの展開に必要な &#x2776;、それ以外の場合は省略可能です。

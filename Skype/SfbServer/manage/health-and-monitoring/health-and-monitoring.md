@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: '概要: Skype for Business Server の監視と正常性の構成タスクについて説明します。'
-ms.openlocfilehash: 7328168a1a653586253766fb3fdae3156c9ea6b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b3595fcc42a2c2d94803fe1a9862bc726fe9d3ee
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305753"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221938"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Skype for Business Server で正常性と監視を管理する
 
@@ -39,5 +39,5 @@ ms.locfileid: "34305753"
 
 [監視の計画](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[モニタリングの展開](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[監視の展開](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 

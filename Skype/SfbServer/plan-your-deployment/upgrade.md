@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: '概要: Skype for Business Server 2015 へのアップグレードを計画するときに考慮する必要がある事項について説明します。 Skype for Business Server 2015 の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: 931ac609dec370d03fe50034300346b7e41c5f56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0f7473bac98ede76763a3f5bda8aee3484c3c03f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296785"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222132"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Skype for Business Server 2015 へのアップグレードの計画
  
@@ -68,7 +68,7 @@ Skype for business Server 2015 へのアップグレードの一環として、�
 1. 現在のトポロジについて理解している。
     
     > [!NOTE]
-    > インプレースアップグレードを実行する前に、必ず Lync Server 2013 用の LRS 管理ツールをアンインストールしてください。 Lync Server 2013 用の LRS 管理ツールは、Skype for Business Server 2015 と共存することはできません。 インプレースアップグレードを実行した後、新しい LRS 管理ツールをインストールします。詳細については、「 [Microsoft Lync Room System 管理 Web ポータル (Skype For Business Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807) )」を参照してください。
+    > インプレースアップグレードを実行する前に、必ず Lync Server 2013 用の LRS 管理ツールをアンインストールしてください。 Lync Server 2013 用の LRS 管理ツールは、Skype for Business Server 2015 と共存することはできません。 インプレースアップグレードを実行した後、新しい LRS 管理ツールをインストールします。 詳細については、「 [Skype For Business Server 2015 の Microsoft Lync Room System 管理 Web ポータル](https://go.microsoft.com/fwlink/?LinkID=544807)」を参照してください。
   
 2. アップグレードのプライマリプール。
     
@@ -148,7 +148,7 @@ Skype for business Server 2015 へのアップグレードの一環として、�
    - フロントエンド サーバー以外については、Start-CSWindowsService を使用します。
     
 > [!NOTE]
->  既存のアーカイブおよび監視データベースをアップグレードしない場合は、トポロジをアップグレードする前に、依存関係を削除します。 アップグレード中に新しいアーカイブおよび監視データベースを作成する場合は、新しい SQL ストアを作成して、それをプールに関連付けます。 手順については、「[Skype for Business Server 2015 にアップグレード](../deploy/upgrade-to-skype-for-business-server.md)する」を参照してください。 > のインプレースアップグレードでは、Skype for Business Server の高可用性または障害回復はサポートされません。 ユーザーのサービスが中断されないようにするには、[[ユーザーの移動] メソッド (ユーザーのダウンタイムは不要)](upgrade.md#bkmk_MoveUsersMethod)を使用して、アップグレードプロセス中に > を使います。このファイルは、ディスクドライブ上のローカル共有フォルダーに、最も空き領域があるローカル共有フォルダーに配置されます。 そのディスクが後で取り外されると、サービスが開始されないなどの問題が発生することがあります。
+>  既存のアーカイブおよび監視データベースをアップグレードしない場合は、トポロジをアップグレードする前に、依存関係を削除します。 アップグレード中に新しいアーカイブおよび監視データベースを作成する場合は、新しい SQL ストアを作成して、それをプールに関連付けます。 手順については、「[Skype for Business Server 2015 にアップグレード](../deploy/upgrade-to-skype-for-business-server.md)する」を参照してください。 インプレースアップグレード > は、Skype for Business Server の高可用性または障害回復をサポートしていません。 ユーザーのサービスが中断されないようにするには、[[ユーザーの移動] メソッド (ユーザーのダウンタイムは不要)](upgrade.md#bkmk_MoveUsersMethod)を使用してアップグレードします。 > は、アップグレードプロセス中に、最大の空き領域があるディスクドライブのローカル共有フォルダーに設定されます。 そのディスクが後で取り外されると、サービスが開始されないなどの問題が発生することがあります。
   
 ### <a name="upgrade-order"></a>アップグレードの順序
 
@@ -180,7 +180,7 @@ Skype for Business Server 2015 は、Survivable Branch Appliance (SBA) または
   
 Lync Server 2013 Front End (FE) プールとそれに関連付けられたブランチの一括アップグレードを計画する場合、Lync Server 2013 SBA/SBS の既存ユーザーは残すことができます。 アップグレード中、SBA/SBS ユーザーは復元モードになり、アップグレードが完了すると通常の機能に戻ります。 回復性モードでのユーザーエクスペリエンスの詳細については、「 [Lync Server 2013 のブランチサイトの回復機能](https://technet.microsoft.com/library/gg398715.aspx)」を参照してください。
   
-Lync Server 2010 トポロジを Skype for Business Server 2015 に移行する場合は、Lync Server 2013 への移行と同様に、SBA/SBS をトポロジにもう一度追加する必要があります。 必要な手順については、「Survivable Branch Appliance の接続」2013を参照してください。
+Lync Server 2010 トポロジを Skype for Business Server 2015 に移行する場合は、Lync Server 2013 への移行と同様に、SBA/SBS をトポロジにもう一度追加する必要があります。 必要な手順については、「 [Survivable Branch Appliance の接続」2013を](https://technet.microsoft.com/library/jj688026.aspx)参照してください。
   
 Lync Server 2010 および Lync Server 2013 の共存するトポロジについては、まず「Lync Server 2013 および Lync Server 2010 を使用した共存のサポート」に記載されている推奨事項に合わせてください。
   

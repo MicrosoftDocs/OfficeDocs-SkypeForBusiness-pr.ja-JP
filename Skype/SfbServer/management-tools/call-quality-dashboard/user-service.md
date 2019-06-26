@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: '概要: 通話品質ダッシュボードのリポジトリ API の一部であるユーザーサービスについて説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 3ef76d26faa27034d3f092608b52676332b254a1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6e0a6a58be98469458a8c8e7063402ff6477c35f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274521"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221311"
 ---
 # <a name="user-service-for-cqd"></a>CQD のユーザーサービス
  
@@ -39,7 +39,7 @@ ms.locfileid: "34274521"
   
 さらに、リポジトリ API は、Uri の {userId} で2つの特殊なユーザー Id を受け取ります。
   
--  *default* -API を現在操作しているユーザーを表します。 これにより、アプリケーションは実際のユーザー ID の値を追跡しなくても、現在のユーザーのコンテンツにアクセスできます。 例: ` https://<portal>/QoERepositoryService/repository/user/default`。
+-  *default* -API を現在操作しているユーザーを表します。 これにより、アプリケーションは実際のユーザー ID の値を追跡しなくても、現在のユーザーのコンテンツにアクセスできます。 例: `https://<portal>/QoERepositoryService/repository/user/default`。
     
 -  *システム*-システムユーザーを表します。 これにより、アプリケーションは実際のユーザー ID 値を知らなくても、システムユーザーのコンテンツにアクセスできます。 例: `https://<portal>/QoERepositoryService/repository/user/system`。
     

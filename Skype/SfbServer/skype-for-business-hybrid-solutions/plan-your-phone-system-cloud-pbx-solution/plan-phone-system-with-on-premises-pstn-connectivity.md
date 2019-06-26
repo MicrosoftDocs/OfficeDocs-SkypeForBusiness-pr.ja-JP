@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: オンプレミスの PSTN 接続を使用した、Office 365 (クラウド PBX) での電話システムの計画に関する考慮事項について説明します。
-ms.openlocfilehash: 7b24c0de8eab663dea771948b066a0752fe943ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287021"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221044"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype for Business Server でオンプレミスの PSTN 接続を使用して、Office 365 で電話システムを計画する
 
@@ -110,7 +110,7 @@ Skype for Business Server 2015 で直接相互運用できる従来の Pbx の�
 
     Lync Server 2013 を使っている場合は、「 [Lync server 2013 ハイブリッド](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)」を参照してください。
 
-- **(推奨) Active Directory フェデレーションサービス (AD FS)** シングルサインオンをサポートするには、AD FS を展開することをお勧めします。 詳細については、「 [Active Directory フェデレーションサービス (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)」を参照してください。
+- **勧めActive Directory フェデレーションサービス (AD FS)。** シングルサインオンをサポートするには、AD FS を展開することをお勧めします。 詳細については、「 [Active Directory フェデレーションサービス (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)」を参照してください。
 
 Office 365 での電話システムの展開の詳細については、「 [Skype For Business Server のオンプレミスの PSTN 接続を使用して、office 365 の電話システムでユーザーを有効にする](enable-users-for-phone-system.md)」を参照してください。
 
