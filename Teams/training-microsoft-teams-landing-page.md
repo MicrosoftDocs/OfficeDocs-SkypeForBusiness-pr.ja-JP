@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3c9c6791b639fcd1510b3f83cf5749286ee35b8
-ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
+ms.openlocfilehash: 144c67a968402832d059ba1b15151e24e2c1e1b3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34957542"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221334"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
@@ -120,7 +120,7 @@ ms.locfileid: "34957542"
                 <div class="card">
                     <div class="cardText">
                         <h3>導入スペシャリストの認定</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">Microsoft サービス導入スペシャリスト認定コースでは Teams を詳細に説明しています。組織での Microsoft サービスの導入を促進する方法を学ぶことができます。</a></p>
+                        <p><a href="https://aka.ms/AdoptionCert">Microsoft サービス導入スペシャリスト認定コースでは Teams を詳細に説明しています。組織での Microsoft サービスの導入を促進する方法を学ぶことができます。</a></p>
                     </div>
                 </div>
             </div>
