@@ -3,7 +3,7 @@ title: Microsoft Teams の分析とレポート
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 06/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ MS.collection:
 description: Microsoft Teams 管理センターで利用可能な Teams のレポートについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c674f9256d30e4b4a4f5a6f8e336e7d03f551df0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15c8580fb7a0f588f9a5605c348acff0458c6a77
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225017"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253795"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
@@ -33,7 +33,7 @@ Microsoft Teams 管理センターで、Microsoft Teams についての新しい
 レポートにアクセスするには、Office 365 の全体管理者、Teams のサービス管理者、または Skype for Business の管理者であることが必要です。Microsoft Teams 管理センターに移動して、左側のナビゲーションにある **[分析およびレポート]** を選択し、**[レポート]** から実行するレポートを選択します。
 
 > [!NOTE]
-> Microsoft Teams 管理センターのレポートは、Office 365 管理センターの Office 365 レポートの一部として含まれている Teams のアクティビティ レポートとは別個のものです。 Office 365 管理センターのアクティビティ レポートの詳細については、「[Microsoft Teams のアクティビティ レポートを使用する](../teams-activity-reports.md)」をご覧ください
+> Microsoft Teams 管理センターのレポートは、Microsoft 365 管理センターの Office 365 レポートの一部として含まれている Teams のアクティビティ レポートとは別個のものです。 Microsoft 365 管理センターのアクティビティ レポートの詳細については、「[Microsoft 365 管理センターでの Teams のアクティビティ レポート](../teams-activity-reports.md)」を参照してください。
 
 ## <a name="teams-reporting-reference"></a>Teams レポートの参照
 
