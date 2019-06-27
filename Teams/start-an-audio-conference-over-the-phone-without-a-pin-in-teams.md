@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'チーム管理センターから、匿名の発信者が会議に参加することを有効または無効にする方法について説明します。 '
-ms.openlocfilehash: 246eda17bd9e373a0dcecb4a75aa4f51efc8ae22
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 522970533565673b3fc68bcd5138006a6f6cf9d0
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344187"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253827"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Microsoft Teams で PIN を使用せずに電話で電話会議を開始する
 
@@ -60,13 +60,13 @@ Microsoft Teams の会議の開催者が会議を開始していないために�
 
 - PIN をリセットする場合は、「[電話会議の pin をリセット](reset-the-audio-conferencing-pin-in-teams.md)する」を参照してください。
     
-- 匿名アクセスが許可されている場合、または会議の開始に PIN が必要ではない場合は、次の操作を行います。
+- 匿名アクセスが許可されている場合、または会議の開始に PIN が必要な場合は無効になります。
     
   - 会議が開始されていない (会議にまだ参加していない) 場合: 発信者が開催者であるかどうかを確認するメッセージが表示されます。「はい」というメッセージが表示されると、PIN の入力が求められます。 PIN を入力すると、会議が開始され、ユーザーが会議に参加します。
     
   - 会議が既に始まっている場合 (他のユーザーが既に会議に参加している場合): 発信者は開催者であるかどうかを確認するメッセージは表示されず、PIN の入力を求められることはありません。会議が既に始まっていて、発信者が会議に参加します。
     
-- 匿名アクセスが許可されている場合、または会議の開始に PIN が必要な場合は無効になります。
+- 匿名アクセスが許可されている場合、または会議の開始に PIN が必要ではない場合は、次の操作を行います。
     
   - 会議が開始されていない (会議にまだ参加していない) 場合: 発信者が開催者であるかどうかを確認するメッセージは表示されません。 PIN の入力を求められることはありません。 開催者の設定がオフになっているため、会議が始まり、匿名の発信者が会議に参加します。
     

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ユーザーにクラウドボイスメールをセットアップする方法について説明します。 '
-ms.openlocfilehash: 49f64f4b4cda9830bc189310efc26f39859009af
-ms.sourcegitcommit: 1764aa53441b9de5a8cfa37be344657176ee5703
+ms.openlocfilehash: 8417d8338f8ba25b9f3c92d9fc4547ed861f8b8e
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2019
-ms.locfileid: "34808026"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253803"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
@@ -57,12 +57,9 @@ Skype for Business Online と通話プランのユーザーには、**電話シ�
 
 4. ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。Windows PowerShell を使用し、下記の手順を実行することによって、所属する組織のトランスクリプションを無効にすることができます。
 
-5. ボイスメールメッセージは、Exchange Online Protection を介してルーティングされる SMTP 経由で、ユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信されるようにするには、exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認してください。 [コネクタを使用して、メールフローを構成](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。
+5. ボイスメールメッセージは、Exchange Online Protection を介してルーティングされる SMTP 経由で、ユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信されるようにするには、exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認します。[コネクタを使用して、メールフローを構成](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。 
 
-6. Skype for Business クライアントで、グリーティングのカスタマイズや、視覚ボイスメールなどのボイスメール機能を有効にするには、Exchange Web Services を使用した Office 365 から Exchange server メールボックスへの接続が必要です。 この接続を有効にするには、「 [exchange と Exchange Online 組織の間の oauth 認証を構成](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)する」で説明する新しい Exchange Oauth 認証プロトコルを構成する必要があります。 
-
-> [!NOTE]
-> Exchange のハイブリッドウィザードは、Exchange 2013 CU5 以降以上で実行され、手順5と6の要件を自動的に処理します。 
+6. Skype for Business クライアントで、グリーティングのカスタマイズや、視覚ボイスメールなどのボイスメール機能を有効にするには、Exchange Web Services を使用した Office 365 から Exchange server メールボックスへの接続が必要です。 この接続を有効にするには、「 [exchange と Exchange Online の間の Oauth 認証の構成](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)」で説明されている新しい exchange Oauth 認証プロトコルを構成するか、EXCHANGE 2013 Cu5 以降から Exchange ハイブリッドウィザードを実行する必要があります。柔軟. さらに、「skype for business [online と Exchange server の間の統合と oauth の構成](https://docs.microsoft.com/en-us/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明されているように、Skype For business Online と exchange server の間で統合と oauth を構成する必要があります。 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>組織内のボイスメール ポリシーの設定
 

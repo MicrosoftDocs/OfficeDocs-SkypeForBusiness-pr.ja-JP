@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: このトピックでは、Skype for Business Online サービスのネットワークパフォーマンス要件のセットと、ネットワークと Skype for Business Online との間の接続にインターネットまたは ExpressRoute を使用する方法を定義する方法について説明します。ネットワークの評価に基づいています。対する. Office 365 への専用接続用に Azure ExpressRoute を展開することにした場合、このドキュメントでは、さまざまな Skype for Business Online の展開シナリオで ExpressRoute 接続を計画する方法のガイダンスについて説明します。
-ms.openlocfilehash: 2ec74fb3137b8eac048187ac4015f857428b0851
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5818c07bcc939d18275409fd34bb627be2f2abd9
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297838"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253721"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス
 
@@ -155,7 +155,7 @@ Skype for Business の最適なメディア品質を得るため、会社のネ�
 |**指標** <br/> |**Target** <br/> |
 |遅延 (一方向)  <br/> |< 30 ミリ秒  <br/> |
 |待機時間 (RTT)  <br/> |< 60 ミリ秒  <br/> |
-|バースト パケット損失  <br/> |<1% (任意の200ミリ秒)  <br/> |
+|バースト パケット損失  <br/> |200ミリ秒間隔で 1% <  <br/> |
 |パケット損失  <br/> |< 任意の 15 秒間隔で 0.1%  <br/> |
 |パケット到着間ジッター  <br/> |< 任意の 15 秒間隔で 15 ミリ秒  <br/> |
 |パケットの並べ替え  <br/> |< 順序が適切でないパケットが 0.01%  <br/> |
@@ -288,7 +288,7 @@ BGP コミュニティがサポートされている場合、Microsoft は、プ
 
 すべてのユーザーが Skype for Business Online サービスを使用していて、オフィスが1つの物理的な場所を中心に配置されていて、かつ Azure ExpressRoute を展開する場合は、会社のサイト間の単一の ExpressRoute 接続を設定する必要があります。[ExpressRoute ピアリングの場所](https://azure.microsoft.com/documentation/articles/expressroute-locations/)。
   
-次の図は、この種類の展開の例を示しています。 この例では、Contoso は FL オーランドである大学です。 Contoso には1万教職員のメンバーと学生がいます。 自分の場所から Microsoft edge サイトへのインターネットテストは、最大のクラス時間に 5% を超えるパケット損失を示しました。 は、特に Skype for Business Online のリアルタイムトラフィックについて、office 365 のネットワーク輻輳を回避するために、帯域幅を超えて、office 365 への専用接続を取得することを決定しました。 これらのユーザーは、アトランタの GA MeetMe サイトで、ExpressRoute 経由で Microsoft cloud に接続します。
+次の図は、この種類の展開の例を示しています。 この例では、Contoso は FL オーランドである大学です。 Contoso には1万教職員のメンバーと学生がいます。 自分の場所から Microsoft edge サイトへのインターネットテストは、最大のクラス時間に 5% を超えるパケット損失を示しました。 ユーザーは、特に Skype for Business Online のリアルタイムトラフィックについて、office 365 のネットワーク輻輳を回避できるように、帯域幅を超えて、ExpressRoute を使用して、Office 365 への専用接続を取得することにしました。 これらのユーザーは、アトランタの GA MeetMe サイトで、ExpressRoute 経由で Microsoft cloud に接続します。
   
 ![ExpressRoute 単一サイト。](../images/59fbca3c-a3ea-4568-8da5-3281096a7453.png)
   
