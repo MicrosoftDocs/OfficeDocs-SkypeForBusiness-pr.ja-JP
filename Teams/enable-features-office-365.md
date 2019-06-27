@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 458e6fc5fc788facb6ee900b9dd40be58428e08b
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: c4ec207061e53024b45b4e5a8e2ec9dfc20b13f1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35116026"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221537"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -44,13 +44,13 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 #### <a name="default-apps"></a>既定のアプリ
 
-プランナー、称賛、天気などのアプリは、Teams によって提供されます。 アプリをオンにするには、そのアプリのチェック ボックスを選択します。 アプリをオフにするには、チェック ボックスをクリアします。 
+プランナー、称賛、天気などの既定のアプリは、Teams によって提供されます。 アプリをオンにするには、そのアプリのチェック ボックスを選択します。 アプリをオフにするには、チェック ボックスをクリアします。
 
 ![[既定のアプリ] セクションのスクリーン ショット。](media/teams-manage-features-in-office365-image1.png "[既定のアプリ] セクションのスクリーン ショット")
 
 #### <a name="external-apps"></a>外部アプリ
 
-これらのアプリはサードパーティによって提供されます。 外部アプリについては、次の設定を構成することができます。
+外部アプリはサード パーティによって提供されます。 外部アプリについては、次の設定を構成することができます。
 
 ![[外部アプリ] セクションのスクリーンショット。](media/teams-manage-features-in-office365-image2.png "[外部アプリ] セクションのスクリーンショット。オンまたはオフにすることができる設定")
 
@@ -65,7 +65,7 @@ Microsoft Teams 管理センターで、組織全体のユーザー設定を制�
 
 ### <a name="external-access"></a>外部アクセス
 
-**外部アクセス**では、Teams および Skype for Business のユーザーが、組織の外部ユーザーと通信するように設定することができます。外部アクセスを構成するには、[[Let your Teams users chat and communicate with users in another Teams organization (Teams ユーザーが別の Teams の組織に所属するユーザーと通信することを許可する) ](let-your-teams-users-communicate-with-other-people.md)] に移動します。
+**外部アクセス**では、Teams および Skype for Business のユーザーが、組織やドメインの外部ユーザーと通信するように設定することができます。 外部アクセスを構成するには、「[Teams のユーザーが別の Teams 組織のユーザーとチャットおよび通信できるようにする](let-your-teams-users-communicate-with-other-people.md)」を参照してください。
 
 ドメインを追加またはブロックします。
 
@@ -118,7 +118,7 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 これらの設定を使用して、自分たちのユーザーがどのように Skype for Business から Microsoft Teams にアップグレードするかを構成することができます。 
 
 #### <a name="coexistence-mode"></a>共存モード
-共存モードを指定することができます。**Teams のみ**、**Islands (アイランド)** (Teams と Skype for Business が共存) または **Skype for Business のみ**を選択することができます。選択した共存モードにより、着信通話およびチャットのルーティングと、ユーザーによってチャットや通話を開始したり会議をスケジュールするために使用されるアプリが決まります。Teams と Skype for Business との相互運用性については、「[Microsoft Teams と Skype for Business の共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)」をご覧ください。
+共存モードを指定することができます。**Teams のみ**、**アイランド** (Teams と Skype for Business が共存) または **Skype for Business のみ**を選択することができます。 選択した共存モードにより、着信通話およびチャットのルーティングと、ユーザーによってチャットや通話を開始したり会議をスケジュールしたりするために使用されるアプリが決まります。 共存モードの詳細については、「[Microsoft Teams と Skype for Business の共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)」を参照してください。
 
 #### <a name="app-preferences"></a>アプリの基本設定
 

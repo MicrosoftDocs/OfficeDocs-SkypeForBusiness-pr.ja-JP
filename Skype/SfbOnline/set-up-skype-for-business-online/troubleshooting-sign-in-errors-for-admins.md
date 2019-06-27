@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Skype for Business Online のサインイン エラーの一般的な原因およびこれらの問題を解決する方法について説明します。 '
-ms.openlocfilehash: 25f6c08392823c35e4bb5d53ac523c1efeddf958
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285036"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221493"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Skype for Business Online サインイン エラーのトラブルシューティング (管理者用)
 
@@ -52,7 +52,7 @@ Skype for Business Online のサインイン エラーのトラブルシュー�
 > 
 > [詳細情報を収集し、サポートを受ける](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
-## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Skype for Business Online のサインインエラーの一般的な原因をチェックする
+## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Skype for Business Online のサインイン エラーの一般的な原因をチェックする
 <a name="toc323194094"> </a>
 
 サインインに関する問題のほとんどは、少数の原因にたどり着き、それらの多くは簡単に修正できます。 以下の表に、一般的な原因のサインイン エラー、またそれらの解決に管理者やユーザーが使用できる手順をいくつか示します。
@@ -75,9 +75,9 @@ Skype for Business Online のサインイン エラーのトラブルシュー�
 <a name="toc325626440"> </a>
 
 > [!IMPORTANT]
->  この手順は、主に Microsoft Office 365 Plan E のお客様が対象です。 Office 365 Plan P のお客様は、次のセクション「[詳細情報を収集し、サポートを受ける](troubleshooting-sign-in-errors-for-admins.md#collect-more-information) 」に進んでください。
+>  この手順は、主に Microsoft Office 365 Plan E のお客様が対象です。 Office 365 Plan P のお客様は、次のセクション「[詳細情報を収集し、サポートを受ける](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)」に進んでください。
 
-前のセクションでの説明を試した後でもユーザーがサインインできない場合、エラーのタイプに応じてその他のトラブルシューティングを行うことができます。 次の表は、最も一般的なエラー メッセージと考えられる原因を示します。 次の表は、問題にそれぞれ対応するための詳細手順です。
+前のセクションでの提案を試した後でもユーザーがサインインできない場合は、エラーのタイプに応じてその他のトラブルシューティングを行うことができます。 次の表は、最も一般的なエラー メッセージと考えられる原因を示します。 次の表は、問題にそれぞれ対応するための詳細手順です。
 
 |**エラー メッセージ**|**考えられる原因**|**解決策**|
 |:-----|:-----|:-----|

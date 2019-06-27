@@ -19,16 +19,15 @@
 # チャット、チーム、チャネルおよびアプリ
 ## [展開の計画](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [チームとチャネルの概要](teams-channels-overview.md)
-## [Microsoft Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
+## [Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
+## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)
 ## [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
 ## [Teams でファイルを共有する](sharing-files-in-teams.md)
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
-## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
-## [プレゼンス](presence-admins.md)
-## [別の組織の Teams ユーザーとの通信](let-your-teams-users-communicate-with-other-people.md)
-## [アーカイブまたはチームを削除します](archive-or-delete-a-team.md)
+## [Teams でのユーザーのプレゼンス](presence-admins.md)
+## [チームをアーカイブまたは削除する](archive-or-delete-a-team.md)
 
 
 
@@ -46,7 +45,7 @@
 
 
 ## ゲスト アクセス
-### [概要](guest-access.md)
+### [ゲスト アクセスについて](guest-access.md)
 ### [ゲストがチームに参加する方法](guest-joins.md)
 ### [ゲストのエクスペリエンスについて](guest-experience.md)
 ### [Teams でのゲスト アクセスを承認する](teams-dependencies.md)
@@ -70,7 +69,7 @@
 ### [一括でTeams のユーザー設定を編集します](edit-user-settings-in-bulk.md)
 ### [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
-### [別の組織の Teams ユーザーとの通信](let-your-teams-users-communicate-with-other-people.md)
+### [外部アクセスを管理する](manage-external-access.md)
 ### [インライン メッセージの翻訳の使用](inline-message-translation-teams.md)
 ### [Microsoft Teams の範囲指定ディレクトリ検索を使用する](teams-scoped-directory-search.md)
 
@@ -639,10 +638,11 @@
 ### [Microsoft StaffHub のチームを Teams の Shifts に移動する](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Teams で組織のシフト アプリを管理する](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
-## [医療関係組織向けのTeams](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+## 医療関係向けのTeams
 ### [医療関係組織のためのTeamsを始めましょう](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [医療関係組織向けテンプレートでTeamsを始めましょう](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [医療組織向け Secure Messaging で Teams を始めましょう](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [メッセージの委任](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [電子医療記録を Microsoft Teams に統合する](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [DSTU2 インターフェイスの仕様](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [STU3 インターフェイスの仕様](expand-teams-across-your-org/healthcare/stu3-interface.md)

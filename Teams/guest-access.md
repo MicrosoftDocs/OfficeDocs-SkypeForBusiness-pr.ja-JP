@@ -16,17 +16,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e9bf9993311ae723557b8d6f8c5ab777ebccd7c
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748389"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221669"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 ======================================
-
-## <a name="guest-access-overview"></a>ゲスト アクセスの概要
 
 ゲスト アクセスは、ユーザーからの要望が最も多かった機能の 1 つです。 ゲスト アクセスの進捗状況に対応する方法と、その機能に関する意見や要望を知らせる方法は、以下に示します。
 
@@ -34,6 +32,8 @@ ms.locfileid: "34748389"
 - 今後実装される新機能や更新された機能については、「[Teams のロードマップ](https://aka.ms/teamsroadmap)」で見つけてください。
 - ご要望については、「[Teams UserVoice](https://aka.ms/TeamsUserVoice)」でお知らせください。
 - 下にある [コメント] セクションでお客様ご自身のエクスペリエンスを共有してください。
+
+## <a name="guest-access-overview"></a>ゲスト アクセスの概要
 
 ゲスト アクセスにより、組織内のチームは、1 つまたは複数のテナントでの既存のチームやチャネルにアクセス権を組織外のユーザーに付与することで、共同作業することができるようになります。 Outlook、Gmail などの勤務先または通常のメール アカウントを持っている全てのユーザーは、チーム チャット、会議、ファイルにフル アクセス権を持つゲストとして Teams に参加することができます。
 
@@ -59,7 +59,7 @@ Teams は、Office 365 グループに基づき構築されており、Office 36
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>詳細情報
-    
+
 [ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 
   [Office 365 グループのゲスト アクセス](https://support.office.com/ja-JP/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 

@@ -3,7 +3,7 @@ title: Microsoft Teams の既知の問題
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/10/2019
+ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131433"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222078"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -215,6 +215,10 @@ ms.locfileid: "35131433"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |モバイル クライアントの Teams のレイアウトの相違点  <br/> |モバイル クライアントでは、チームはアルファベット順にリストされ、チャネルは折りたたむことができません。  <br/> |回避策なし。  <br/> |2017/03/13  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|iOS 13 ベータ版を使用している場合に発生する可能性がある問題  <br/> |1. Teams の通知が発行されない。  これには、チャット、メンション、通話が含まれます。  2. ベータ ビルドで、ファイルのプレビューが動作しない。  <br/> |現時点で回避策はありません。  Apple の開発者と協力して、これらの問題の解決に努めています。  <br/> | 2019/6/25  <br/>|
 
 
 ## <a name="people"></a>ユーザー
