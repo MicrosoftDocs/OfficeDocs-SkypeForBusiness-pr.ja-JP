@@ -7,132 +7,81 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 組織外の企業や顧客が電話をかけられるように、チームまたは Skype for Business ユーザーの勤務先電話番号を割り当て、変更、または削除する方法について説明します。
-ms.openlocfilehash: ea2135a095a60d6da37ce4db0fb443f2e9a74154
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+description: 組織外の企業やクライアントが電話をかけられるように、チームユーザーの勤務先電話番号を割り当て、変更、または削除する方法について説明します。
+ms.openlocfilehash: 4536beb4e5dc11e579f2a6ef016e0c3f94e426a6
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493899"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347948"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a><span data-ttu-id="54963-103">ユーザーの電話番号を割り当て、変更、または削除する</span><span class="sxs-lookup"><span data-stu-id="54963-103">Assign, change, or remove a phone number for a user</span></span>
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a><span data-ttu-id="c5aad-103">ユーザーの電話番号を割り当て、変更、または削除する</span><span class="sxs-lookup"><span data-stu-id="c5aad-103">Assign, change, or remove a phone number for a user</span></span>
 
-<span data-ttu-id="54963-104">Office 365 で通話プランをセットアップするときに、ユーザーに電話番号を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="54963-104">When you set up Calling Plans in Office 365, you assign phone numbers to your users.</span></span> 
+<span data-ttu-id="c5aad-104">通話プランを設定すると、ユーザーに電話番号が割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="c5aad-104">When you set up Calling Plans, you assign phone numbers to your users.</span></span> <span data-ttu-id="c5aad-105">Microsoft Teams では、ユーザーが [**通話**] をクリックすると、割り当てた電話番号が一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="c5aad-105">In Microsoft Teams, the phone number you assign is listed when a user clicks **Calls**.</span></span>
 
-<span data-ttu-id="54963-105">Microsoft Teams クライアントで、[**呼び出し**] をクリックすると、割り当てる電話番号が一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="54963-105">In the Microsoft Teams client, the phone number you assign will be listed when they click **Calls**.</span></span>
+![Teams に表示されるユーザーの電話番号。](media/teams-phone-number.png)
 
-![ユーザーの電話番号が Microsoft Teams に表示されます。](media/teams-phone-number.png)
-
-<span data-ttu-id="54963-107">Skype for Business クライアントで、割り当てる電話番号が [ **勤務先電話番号** ] ボックスに一覧にされますが、ユーザーが電話番号を変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="54963-107">In the Skype for Business client, the phone number you assign will be listed in the **Work Phone** box and can't be changed by a user.</span></span>
+<span data-ttu-id="c5aad-107">ユーザーが電話を発信および受信できるようにセットアップする場合は、最初に Microsoft Teams 管理センターを使用し、電話番号を割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="c5aad-107">When you're setting up users so they can make and receive phone calls, you must first use the Microsoft Teams admin center and assign a phone number.</span></span> <span data-ttu-id="c5aad-108">必要に応じて、電話番号を変更または削除できます。</span><span class="sxs-lookup"><span data-stu-id="c5aad-108">You can change or remove the phone number if you need to.</span></span>
   
-![勤務先電話番号は、グレー表示されます。](media/5212fa64-b55c-4398-9709-a334f3ffa749.png)
-  
-> [!IMPORTANT]
-> <span data-ttu-id="54963-109">ユーザーが [Skype for Business の自分の電話番号を変更](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) しようとしても、Skype for Business アプリで電話番号を変更できないか、グレー表示されます。つまり、電話番号は管理者がユーザーに対して設定したもので、ユーザーが変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="54963-109">If a user wants to [change his or her phone number for Skype for Business](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) and the phone number in the Skype for Business app can't be changed or is grayed out, that means an admin has set it for them and it can't be changed by them.</span></span>
-  
-
-
-<span data-ttu-id="54963-110">ユーザーが電話をかけたり、受けたりできるようにユーザーをセットアップするときは、まず Skype for Business 管理センターを使用して電話番号を割り当てます。このとき、必要に応じて、電話番号を変更したり削除したりできます。</span><span class="sxs-lookup"><span data-stu-id="54963-110">When you are setting up users so they can make and receive phone calls, you must first use the Skype for Business admin center and assign a phone number, but you can change or remove the phone number if you need to.</span></span>
-  
-<span data-ttu-id="54963-111">Office 365 の通話プランの取得方法とかかる費用については、[Skype for Business と Microsoft Teams アドオン ライセンシング](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="54963-111">To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</span></span>
+<span data-ttu-id="c5aad-109">Teams で通話プランを取得する方法とその費用については、「 [teams アドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="c5aad-109">To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="54963-112">ユーザーが割り当てられたライセンスを持っているかを確認するには、\*\*  [Skype for Business 管理センター]\*\*   > \*\*[音声] \*\* > \*\*[音声ユーザー] \*\*に移動して、ユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="54963-112">One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user.</span></span> <span data-ttu-id="54963-113">ライセンスが割り当てられている場合は、 **割り当てられたライセンス**の下にライセンスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="54963-113">If a license is assigned, it will be noted under **Assigned license**.</span></span> <span data-ttu-id="54963-114">Office 365 管理センターを使用することもできます。</span><span class="sxs-lookup"><span data-stu-id="54963-114">You also can use the Office 365 admin center.</span></span> 
+> <span data-ttu-id="c5aad-110">ユーザーにライセンスが割り当てられているかどうかを確認する1つの方法は、Microsoft Teams 管理センター >**ユーザー**にアクセスすることです。</span><span class="sxs-lookup"><span data-stu-id="c5aad-110">One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**.</span></span> <span data-ttu-id="c5aad-111">ライセンスが割り当てられている場合は、ページに表示されます。</span><span class="sxs-lookup"><span data-stu-id="c5aad-111">If a license is assigned, it will be indicated on the page.</span></span>  <span data-ttu-id="c5aad-112">Office 365 管理センターを使うこともできます。</span><span class="sxs-lookup"><span data-stu-id="c5aad-112">You can also use the Office 365 admin center.</span></span>
   
- ## <a name="assign-a-phone-number-to-a-user"></a><span data-ttu-id="54963-115">電話番号をユーザーに割り当てる</span><span class="sxs-lookup"><span data-stu-id="54963-115">Assign a phone number to a user</span></span>
+## <a name="assign-a-phone-number-to-a-user"></a><span data-ttu-id="c5aad-113">電話番号をユーザーに割り当てる</span><span class="sxs-lookup"><span data-stu-id="c5aad-113">Assign a phone number to a user</span></span>
  
-<span data-ttu-id="54963-116">![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン</span><span class="sxs-lookup"><span data-stu-id="54963-116">![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
- 
-1. <span data-ttu-id="54963-117">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="54963-117">Sign in to Office 365 with your work or school account.</span></span>
+<span data-ttu-id="c5aad-114">![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン</span><span class="sxs-lookup"><span data-stu-id="c5aad-114">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
     
-2. <span data-ttu-id="54963-118">**Microsoft Teams 管理センター** > の**従来のポータル**に移動します。</span><span class="sxs-lookup"><span data-stu-id="54963-118">Go to **Microsoft Teams admin center** > **Legacy portal**.</span></span>
-    
-3. <span data-ttu-id="54963-119">左のナビゲーションで、[ **音声**]  > \*\*[音声ユーザー] \*\*の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-119">In the left navigation, click **Voice** > **Voice users**.</span></span>
-   > [!NOTE]
-   > <span data-ttu-id="54963-120">Skype for Business 管理センターの左のナビゲーションに [**音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、**電話システム**アドオン ライセンス、または**電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。</span><span class="sxs-lookup"><span data-stu-id="54963-120">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
- 
-   
-    
-4. <span data-ttu-id="54963-121">**ボイス ユーザー** ページで、ユーザー、または電話番号を割り当てるユーザーを見つけて、選択します。</span><span class="sxs-lookup"><span data-stu-id="54963-121">On the **Voice users** page, locate and select the user or users that you want to assign a phone number to.</span></span>
-    
-5. <span data-ttu-id="54963-122">[操作] ウィンドウで、 **割り当てる番号** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-122">In the Action pane, click **Assign number**.</span></span>
-    
-6. <span data-ttu-id="54963-123">[**番号を割り当てる**] ページの [**割り当てる番号を選択**] ボックスの一覧で、ユーザー用の電話番号を選びます。</span><span class="sxs-lookup"><span data-stu-id="54963-123">On the **Assign number** page in the **Select number to assign** list, select the phone number for the user.</span></span>
-    
-    > [!TIP]
-    > <span data-ttu-id="54963-124">電話番号が表示されない場合は、最初に[ユーザーの電話番号を取得](/microsoftteams/getting-phone-numbers-for-your-users)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="54963-124">If you don't see any phone numbers listed, you need to [get phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users) first.</span></span> <span data-ttu-id="54963-125">または、**Skype for Business 管理センター**を使用している場合は、 > **音声** > **電話番号** ページで、[**追加**] をクリックしてから、[ **新しいユーザーの番号**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-125">Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**.</span></span> 
-  
-7. <span data-ttu-id="54963-126">**有効な緊急対応の場所を選択する**の下で、関連付けられている緊急対応の住所を割り当てるまたは変更するには、リストから場所を選択します。定義された場所が多くある場合は、[検索] ボックスに都市の名前を入力して、**[検索]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-126">To assign or change the associated emergency address, under **Select validated emergency location**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.</span></span>
-    
-8. <span data-ttu-id="54963-127">電話番号と緊急対応の場所を選択した後、[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-127">After you pick the phone number and emergency location, click **Save**.</span></span>
-    
+1. <span data-ttu-id="c5aad-115">左側のナビゲーションで、[ \*\*\*\* > **電話番号**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-115">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
+2. <span data-ttu-id="c5aad-116">[**電話番号**] ページで、リスト内の未使用の番号を選択し、[**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-116">On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.</span></span>  
+3. <span data-ttu-id="c5aad-117">[**編集**] ウィンドウの [**割り当て先**] の下で、表示名またはユーザー名でユーザーを検索し、[**割り当て**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-117">In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.</span></span>
+4. <span data-ttu-id="c5aad-118">関連する緊急対応の場所を割り当てる、または変更するには、[緊急対応の**場所**] で、場所を検索して選択します。</span><span class="sxs-lookup"><span data-stu-id="c5aad-118">To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.</span></span>
+6. <span data-ttu-id="c5aad-119">[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-119">Click **Save**.</span></span>
     > [!NOTE]
-    > <span data-ttu-id="54963-128">Office 365 と Skype for Business Online の間の待機時間のために、ユーザーが有効になるまで最大24時間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="54963-128">Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled.</span></span> <span data-ttu-id="54963-129">24 時間経過しても電話番号が正しく割り当てられない場合は、「[一般法人向けサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="54963-129">If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span></span> <span data-ttu-id="54963-130">ここでは、ご意見をお待ちしています。</span><span class="sxs-lookup"><span data-stu-id="54963-130">We're here to help!</span></span> 
+    > <span data-ttu-id="c5aad-120">Office 365 と Teams の間の待機時間のために、ユーザーが有効になるまで最大24時間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="c5aad-120">Because of the latency between Office 365 and Teams, it can possibly take up to 24 hours for users to be enabled.</span></span> <span data-ttu-id="c5aad-121">24時間後に電話番号が正しく割り当てられていない場合は、 [PSTN サービスデスクに問い合わせてください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。</span><span class="sxs-lookup"><span data-stu-id="c5aad-121">If after 24 hours, if the phone number isn't assigned correctly, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).</span></span> <span data-ttu-id="c5aad-122">ここでは、ご意見をお待ちしています。</span><span class="sxs-lookup"><span data-stu-id="c5aad-122">We're here to help!</span></span>
   
-
-
- ## <a name="change-a-phone-number-for-a-user"></a><span data-ttu-id="54963-131">ユーザーの電話番号を変更する</span><span class="sxs-lookup"><span data-stu-id="54963-131">Change a phone number for a user</span></span>
+## <a name="change-a-phone-number-for-a-user"></a><span data-ttu-id="c5aad-123">ユーザーの電話番号を変更する</span><span class="sxs-lookup"><span data-stu-id="c5aad-123">Change a phone number for a user</span></span>
  
-<span data-ttu-id="54963-132">![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン</span><span class="sxs-lookup"><span data-stu-id="54963-132">![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="c5aad-124">![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン</span><span class="sxs-lookup"><span data-stu-id="c5aad-124">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+    
+1. <span data-ttu-id="c5aad-125">左側のナビゲーションで [**ユーザー**] をクリックし、目的のユーザーを見つけてダブルクリックし、[**アカウント**] をクリックし、[**全般情報**] で、ユーザーに割り当てられている電話番号をメモします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-125">In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.</span></span>
+2. <span data-ttu-id="c5aad-126">左側のナビゲーションで、[ \*\*\*\* > **電話番号**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-126">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
+3. <span data-ttu-id="c5aad-127">[**電話番号**] ページで、手順1で指定した番号を選択し、[**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-127">On the **Phone numbers** page, select the number that you identified in step 1, and then click **Edit**.</span></span>  
+4. <span data-ttu-id="c5aad-128">[**編集**] ウィンドウの [**割り当て先**] で、[ **X** ] をクリックしてユーザーを削除します。</span><span class="sxs-lookup"><span data-stu-id="c5aad-128">In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.</span></span>
+5. <span data-ttu-id="c5aad-129">[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-129">Click **Save**.</span></span>
+6. <span data-ttu-id="c5aad-130">[**電話番号**] ページで、リスト内の未使用の番号を選択し、[**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-130">On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.</span></span>  
+7. <span data-ttu-id="c5aad-131">[**編集**] ウィンドウの [**割り当て先**] の下で、表示名またはユーザー名でユーザーを検索し、[**割り当て**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-131">In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.</span></span>
+8. <span data-ttu-id="c5aad-132">関連する緊急対応の場所を割り当てる、または変更するには、[緊急対応の**場所**] で、場所を検索して選択します。</span><span class="sxs-lookup"><span data-stu-id="c5aad-132">To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.</span></span>
+9. <span data-ttu-id="c5aad-133">[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-133">Click **Save**.</span></span>
+
+## <a name="remove-a-phone-number-from-a-user"></a><span data-ttu-id="c5aad-134">ユーザーの電話番号を削除する</span><span class="sxs-lookup"><span data-stu-id="c5aad-134">Remove a phone number from a user</span></span>
  
-1. <span data-ttu-id="54963-133">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="54963-133">Sign in to Office 365 with your work or school account.</span></span>
-    
-2. <span data-ttu-id="54963-134">**Microsoft Teams 管理センター** > の**従来のポータル**に移動します。</span><span class="sxs-lookup"><span data-stu-id="54963-134">Go to **Microsoft Teams admin center** > **Legacy portal**.</span></span>
-    
-3. <span data-ttu-id="54963-135">左のナビゲーションで、[ **音声**]  > \*\*[音声ユーザー] \*\*の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-135">In the left navigation, click **Voice** > **Voice users**.</span></span>
-    
-4. <span data-ttu-id="54963-136">**音声ユーザー** ページで、ユーザー、または電話番号を変更するユーザーを見つけて、選択します。</span><span class="sxs-lookup"><span data-stu-id="54963-136">On the **Voice users** page, locate and select the user or users that you want to change a phone number for.</span></span>
-    
-5. <span data-ttu-id="54963-137">操作ウィンドウの [**割り当てられた番号**] で [**変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-137">In the Action pane, under **Assigned number**, click **Change**.</span></span> 
-    
-6. <span data-ttu-id="54963-138">[**番号を割り当てる**] ページで、[**番号を変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-138">On the **Assign number** page, click **Change number**.</span></span>
-    
-7. <span data-ttu-id="54963-139">**番号の割り当て**ページの [ **割り当てる番号を選択する**の下で、リストを使用して、新しい電話番号を選択します。</span><span class="sxs-lookup"><span data-stu-id="54963-139">On the **Assign number** page, under **Select number to assign**, use the list to select the new phone number.</span></span> 
-    
-8. <span data-ttu-id="54963-140">関連付けられた緊急対応の住所を変更するには、[**場所を変更**] をクリックして、**緊急対応の住所の変更**の下で、一覧から場所を選択します。または、定義されている場所が多くある場合、[検索] ボックスに都市の名前を入力して、[**検索**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-140">To change the associated emergency address, click **Change location**, and then under **Change emergency address to**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.</span></span>
-    
-9. <span data-ttu-id="54963-141">[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-141">Click **Save**.</span></span>
-    
+<span data-ttu-id="c5aad-135">![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン</span><span class="sxs-lookup"><span data-stu-id="c5aad-135">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-
- ## <a name="remove-a-phone-number-from-a-user"></a><span data-ttu-id="54963-142">ユーザーの電話番号を削除する</span><span class="sxs-lookup"><span data-stu-id="54963-142">Remove a phone number from a user</span></span>
- 
-<span data-ttu-id="54963-143">![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン</span><span class="sxs-lookup"><span data-stu-id="54963-143">![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
- 
-1. <span data-ttu-id="54963-144">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="54963-144">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="c5aad-136">左側のナビゲーションで [**ユーザー**] をクリックし、目的のユーザーを見つけてダブルクリックし、[**アカウント**] をクリックし、[**全般情報**] で、ユーザーに割り当てられている電話番号をメモします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-136">In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.</span></span>
+2. <span data-ttu-id="c5aad-137">左側のナビゲーションで、[ \*\*\*\* > **電話番号**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-137">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
+3. <span data-ttu-id="c5aad-138">[**電話番号**] ページで、手順2で指定した番号を選び、[**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-138">On the **Phone numbers** page, select the number that you identified in step 2, and then click **Edit**.</span></span>  
+4. <span data-ttu-id="c5aad-139">[**編集**] ウィンドウの [**割り当て先**] で、[ **X** ] をクリックしてユーザーを削除します。</span><span class="sxs-lookup"><span data-stu-id="c5aad-139">In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.</span></span>
+5. <span data-ttu-id="c5aad-140">[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c5aad-140">Click **Save**.</span></span>
     
-2. <span data-ttu-id="54963-145">**Microsoft Teams 管理センター** > の**従来のポータル**に移動します。</span><span class="sxs-lookup"><span data-stu-id="54963-145">Go to **Microsoft Teams admin center** > **Legacy portal**.</span></span>
-    
-3. <span data-ttu-id="54963-146">左のナビゲーションで、[ **音声**]  > \*\*[音声ユーザー] \*\*の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-146">In the left navigation, click **Voice** > **Voice users**.</span></span>
-    
-4. <span data-ttu-id="54963-147">**音声ユーザー** ページで、ユーザー、または電話番号を削除するユーザーを見つけて、選択します。</span><span class="sxs-lookup"><span data-stu-id="54963-147">On the **Voice users** page, locate and select the user or users that you want to remove the phone number for.</span></span>
-    
-5. <span data-ttu-id="54963-148">操作ウィンドウの [**割り当てられた番号**] で、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-148">In the Action pane, under **Assigned number**, click **Remove**.</span></span> 
-    
-6. <span data-ttu-id="54963-149">**選択されている割り当て番号を削除しますか？** ページで、[ **はい**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54963-149">On the **Remove selected assigned number?** page, click **Yes**.</span></span>
-    
+## <a name="related-topics"></a><span data-ttu-id="c5aad-141">関連トピック</span><span class="sxs-lookup"><span data-stu-id="c5aad-141">Related topics</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="54963-150">関連トピック</span><span class="sxs-lookup"><span data-stu-id="54963-150">Related topics</span></span>
-[<span data-ttu-id="54963-151">住所検証とは何ですか?</span><span class="sxs-lookup"><span data-stu-id="54963-151">What is address validation?</span></span>](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
+[<span data-ttu-id="c5aad-142">住所検証とは何ですか?</span><span class="sxs-lookup"><span data-stu-id="c5aad-142">What is address validation?</span></span>](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
-<span data-ttu-id="54963-152">[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="54963-152">[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)</span></span>
+<span data-ttu-id="c5aad-143">[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="c5aad-143">[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)</span></span>
 
-[<span data-ttu-id="54963-153">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="54963-153">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="c5aad-144">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="c5aad-144">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="54963-154">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="54963-154">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
-
-  
- 
+<span data-ttu-id="c5aad-145">[緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="c5aad-145">[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
