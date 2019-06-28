@@ -338,6 +338,8 @@
 ### [通話プランで使用される電話番号の種類](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [ユーザー用の電話番号を取得する](getting-phone-numbers-for-your-users.md)
 ### [取得できる電話番号の数について](how-many-phone-numbers-can-you-get.md)
+### [ユーザーの電話番号を検索する](search-for-phone-numbers-for-users.md)
+### [組織の電話番号のリストを表示する](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [ユーザーの電話番号を割り当て、変更、または削除する](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [サービス電話番号を取得する](getting-service-phone-numbers.md)
 ### [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)
