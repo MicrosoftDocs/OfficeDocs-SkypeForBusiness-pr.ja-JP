@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 プランの呼び出しに使用するさまざまな電話番号をクリックすると、Skype for Business Online で使用されるさまざまな電話番号を確認できます。
-ms.openlocfilehash: 1051eea164cdee1c9582bf0226c1bd54620f502a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 プランの呼び出しに使用するさまざまな電話番号をクリックして、Microsoft Teams で使用されているさまざまな電話番号を確認することができます。
+ms.openlocfilehash: 062ff78f3fc1a56a86735dacf7a52dd3066d4f28
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299966"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347917"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>取得できる電話番号の数について
 
-組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 [プランの呼び出しに使用するさまざまな電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)をクリックすると、Skype For business Online で使用されるさまざまな電話番号を確認できます。
+組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 [プランの呼び出しに使用するさまざまな電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)をクリックして、Microsoft Teams で使用されているさまざまな電話番号を確認することができます。
   
-Skype for Business 管理センターの [**電話番号**] ページで取得できる電話番号の数を確認できます。または、 [CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx)コマンドレットを実行します。
+Microsoft Teams 管理センターの [**電話番号の取得**] ページで取得できる電話番号の数を確認できます。または、 [CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx)コマンドレットを実行します。
   
 > [!IMPORTANT]
 > 下記の制限には、お客様がマイクロソフトに移行した電話番号は含まれません。 
@@ -58,7 +58,7 @@ Skype for Business 管理センターの [**電話番号**] ページで取得�
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

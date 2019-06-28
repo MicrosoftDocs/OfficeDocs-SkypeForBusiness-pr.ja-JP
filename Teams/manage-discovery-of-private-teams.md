@@ -3,7 +3,6 @@ title: Microsoft Teams でプライベート チームの検索を管理する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/20/2019
 ms.reviewer: shpoddar
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,16 +16,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: チームギャラリーと検索結果の提案を通じて、プライベートチームを Microsoft Teams ユーザーが検出できるかどうかを制御する方法について説明します。
-ms.openlocfilehash: c938830f4f59345863d3f84570b387f07f4b08fc
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 099daaed42e108e63a5f8334bd2ed89744479dbd
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221233"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347877"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Microsoft Teams でプライベート チームの検索を管理する
 
-> [!INCLUDE [preview feature](includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 管理者とチーム所有者は、組織内の Microsoft Teams ユーザーがプライベートチームを検出できるかどうかを制御できます。 プライベートチームが検出可能になると、検索結果として表示され、チームギャラリーの候補には Teams の公開チームと共に含まれます。 これにより、ユーザーは参加するプライベートチームを簡単に検索して見つけることができます。 ユーザーはプライベートチームへの参加を要求することができ、チーム所有者はその要求を承認または拒否することができます。
 
@@ -64,7 +63,7 @@ Teams で、プライベートチームに移動し、[**その他のオプシ�
 
 ![既存のプライベートチームの検出設定のスクリーンショット](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell-coming-soon"></a>PowerShell を使用する (近日公開)
+### <a name="using-powershell"></a>PowerShell を使用する
 
 **[Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** コマンドレットを使用して、既存のプライベートチームの検出設定をオンまたはオフにします。 チームを検出できるようにする方法の例を次に示します。
 ```
@@ -80,7 +79,7 @@ Teams で、プライベートチームに移動し、[**その他のオプシ�
 
 既定では、組織内のすべてのユーザーに対して**Allowprivateteamdiscovery**が**true**に設定されます。
 
-この例では、VendorPolicy という名前のポリシーを作成して、ユーザーが検出可能なプライベートチームを検出できないようにします。次に、vendoruser1 という名前のユーザーにポリシーを割り当てます。 
+この例では、VendorPolicy という名前のポリシーを作成して、ユーザーが検出可能なプライベートチームを検出できないようにします。次に、vendoruser1 という名前のユーザーにポリシーを割り当てます。
 ```
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy

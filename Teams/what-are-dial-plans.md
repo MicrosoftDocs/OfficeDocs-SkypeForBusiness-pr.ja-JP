@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Office 365 で利用できるダイヤル通話プランの種類と、組織に合わせて選ぶ方法について説明します。  '
-ms.openlocfilehash: 0439b1f18569ffb04fed7a0f2d00100fcbc7778e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d6656eb317f0a90a11376e4d69935fe2a7e75384
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288167"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347996"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -38,15 +38,15 @@ ms.locfileid: "34288167"
 
 ## <a name="tenant-dial-plan-scope"></a>テナント ダイヤル プランのスコープ
 
-ダイヤル プランのスコープによって、ダイヤル プランを適用できる階層レベルが決まります。 スコープは、Skype for Business Server のオンプレミス展開のものとは異なります。 クライアントは、ユーザーが Skype for Business Online にログオンした際に自動的に提供されるプロビジョニング設定から、適切なダイヤル プランを入手します。 管理者として、リモート PowerShell を使ってダイヤル プラン スコープ レベルの管理と割り当てを行うことができます。
+ダイヤル プランのスコープによって、ダイヤル プランを適用できる階層レベルが決まります。 スコープは、Skype for Business Server のオンプレミス展開のものとは異なります。 クライアントは、ユーザーが Teams または Skype for Business Online にログオンしたときに自動的に提供されるプロビジョニング設定を通じて、適切なダイヤルプランを取得します。 管理者として、リモート PowerShell を使ってダイヤル プラン スコープ レベルの管理と割り当てを行うことができます。
 
-Skype for Business Online には、サービス スコープおよび (組織向けの) テナント スコープの 2 種類のダイヤル プランがあります。サービス スコープのダイヤル プランは、Office 365 電話システムを利用できるすべての国または地域に対して定義されます。各ユーザーには、割り当てられた Office 365 の利用場所と一致するサービス国のダイヤル プランが自動的に割り当てられます。サービス国のダイヤル プランは変更できませんが、サービス国のダイヤル プランを強化するテナント スコープのダイヤル プランは作成できます。クライアントはプロビジョニングされると、サービス国のダイヤル プランと適切なスコープのテナント ダイヤル プランの組み合わせとなる「有効なダイヤル プラン」を入手します。したがって、テナント ダイヤル プランですべての正規化ルールを定義する必要はありません。サービス国のダイヤル プランにすでに存在する可能性があるためです。
+Teams および Skype for Business Online には、サービス範囲とテナント (組織用) の2種類のダイヤルプランが用意されています。 サービス範囲のダイヤルプランは、Office 365 電話システムを利用できるすべての国または地域に対して定義されます。 各ユーザーには、ユーザーに割り当てられている Office 365 使用場所と一致するサービス国のダイヤルプランが自動的に割り当てられます。 サービス国のダイヤルプランを変更することはできませんが、テナントのスコープを設定したダイヤルプランを作成することができます。これにより、サービス国のダイヤルプランが拡張されます。 お客様は、お客様がプロビジョニングされた「有効なダイヤルプラン」を取得します。これは、サービス国のダイヤルプランと適切にスコープ指定されたテナントダイヤルプランの組み合わせです。 したがって、テナントダイヤルプランでは、サービス国のダイヤルプランに既に存在する可能性があるため、すべての正規化ルールを定義する必要はありません。
 
 テナント ダイヤル プランは、さらに 2 つのスコープ (テナント スコープとユーザー スコープ) に分けることができます。テナントがユーザー スコープのダイヤル プランを定義して割り当てる場合、そのユーザーは、ユーザーのサービス国のダイヤル プランと割り当てられたユーザー ダイヤル プランによる有効なダイヤル プランでプロビジョニングされます。テナントがテナント スコープのダイヤル プランを定義しても、ユーザー スコープのダイヤル プランを割り当てないと、そのユーザーは、ユーザーのサービス国のダイヤル プランとテナント ダイヤル プランによる有効なダイヤル プランでプロビジョニングされます。
 
-Skype for Business Online でのダイヤル プランの継承モデルは次のとおりです。
+次に、Teams と Skype for Business Online のダイヤルプランの継承モデルを示します。
 
-![How dial plans are inherited in Skype for Business Online.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![チームおよび Skype for Business Online でダイヤルプランを継承する方法](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 次に、考えられる有効なダイヤル プランを示します。
 
@@ -85,9 +85,6 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 地理的な場所または対応するダイヤル プランが適用されるユーザーのグループに関する一般的で認識可能な名前を入力することをお勧めします。
 
 ### <a name="external-access-prefix"></a>外部アクセス プレフィックス
-
-> [!CAUTION]
-> 外部アクセス プレフィックスは現在サポートされていません。 
 
 ユーザーが外線につなぐために 1 つ以上の追加の先頭数字 (9 など) をダイヤルする必要がある場合は、最大 4 文字 (#、*、0～9) の外部アクセス プレフィックスを指定できます。
 
@@ -158,4 +155,4 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 [組織のために電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

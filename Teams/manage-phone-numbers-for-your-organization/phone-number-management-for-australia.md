@@ -13,26 +13,25 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: この表を使って、Skype for Business Online および Microsoft Teams のオーストラリアでの電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: d70fcddf777aa08c71d366431eb033940668816a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: この表を使用して、Microsoft Teams のオーストラリアでの電話番号の取得と管理に関する情報を参照してください。
+ms.openlocfilehash: cd3d5c544356e806f6c33d85c951948dd33cbebc
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302715"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35348004"
 ---
 # <a name="phone-number-management-for-australia"></a>オーストラリアでの電話番号の管理
 当社はオーストラリアで、通話プランの購入と事前設定に関して Telstra 社 と提携しました。 Telstra 社は、通話プランを販売し、自動応答とコール キューに関して、ユーザーとサービス電話番号両方に電話番号管理のサポートを提供します。 ただし、電話会議用のサービス電話番号とライセンスは、引き続き Office 365 で販売、管理します。
 
 詳細については、 「[Tesltra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
 
-この表を使って、Skype for Business Online および Microsoft Teams のオーストラリアでの電話番号の取得と管理に関する情報を参照してください。
+この表を使用して、Microsoft Teams のオーストラリアでの電話番号の取得と管理に関する情報を参照してください。
 
 詳細については、「[組織の電話番号を管理](manage-phone-numbers-for-your-organization.md)する」を参照してください。
   
