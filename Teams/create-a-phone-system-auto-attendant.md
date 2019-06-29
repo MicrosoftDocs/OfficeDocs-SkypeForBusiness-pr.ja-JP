@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 組織の効率的な通話処理のためにクラウドの自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 892285e2e720e300d9b935f017dedca96e45b411
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
+ms.openlocfilehash: c590aad9bd3d81ef5d3ed6843c795e33156aa238
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432897"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394614"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -37,22 +37,20 @@ ms.locfileid: "34432897"
 > [!NOTE]
 > この記事は、Microsoft Teams と Skype for Business Online の両方に適用されます。
 
-
-
 ## <a name="step-1---get-started"></a>手順 1-開始する
 
 - 自動応答には、関連するリソースアカウントが必要です。 リソースアカウントの詳細については、「[チームのリソースアカウントを管理](manage-resource-accounts.md)する」を参照してください。
 - 直接ルーティング番号の割り当てを計画している場合は、電話システムアドオンを使用して、 \(Office 365 Enterprise E1、E3、または E5 に、次のライセンスを取得し\)て割り当てる必要があります。
-- 代わりに Microsoft サービス番号を割り当てる場合は、電話システムアドオンと通話プラン\(\)を使用して、次のライセンスを取得して、Office 365 Enterprise E1、E3、または E5 に割り当てる必要があります。
+- 代わりに Microsoft サービス番号を割り当てる場合は、電話システムアドオンを使用して、以下のライセンスを取得し\(て、Office 365 Enterprise E1、E3、または E5 に割り当てる必要が\)あります。
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft は、クラウド自動応答や通話キューなどのアプリケーションのために、コストフリーのライセンスモデルを開発しています。これで、ユーザーライセンスモデルを使用する必要があります。
 
 > [!CAUTION]
 > 無料電話番号を取得して使用するには、通信クレジットを設定する必要があります。 これを行うには、[通信クレジットとは何か](what-are-communications-credits.md)を確認して、[組織の通信クレジットを設定](set-up-communications-credits-for-your-organization.md)します。
 
 > [!TIP]
-> **電話システム**のライセンスを持つオンラインユーザーであるオペレーターまたはメニューオプションへの通話をリダイレクトするには、それらをエンタープライズボイスに対して有効にするか、Office 365 で通話プランを割り当てる必要があります。 「 [Skype For business ライセンスの割り当て](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」または「 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)」を参照してください。 Windows PowerShell を使用することもできます。 たとえば、次を実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> **電話システム**のライセンスを持つオンラインユーザーであるオペレーターまたはメニューオプションへの通話をリダイレクトするには、エンタープライズ voip に対して通話を有効にする必要があります。 「 [Skype For business ライセンスの割り当て](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」または「 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)」を参照してください。 Windows PowerShell を使用することもできます。 たとえば、次を実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>ステップ 2 - 新しい自動応答の作成
 
@@ -211,7 +209,7 @@ ms.locfileid: "34432897"
   - Enterprise Voice で有効になっているか、Office 365 の通話プランを割り当てられている、**電話システム**のライセンスをもつ**社内の担当者** 発信中のユーザーがボイスメールに送信されるように設定できます。 そのためには、「**会社内のユーザ**」を選択し、ボイスメールに直接通話を転送するように設定します。
 
     > [!Note]
-    > **社内の担当者**は、Online のユーザーか、 Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされたユーザーとなることができます。 
+    > **社内の担当者**は、Online のユーザーか、 Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされたユーザーとなることができます。
     - その他の**自動応答**
 
        既存の自動応答を使って、サブメニューを含む第2レベルのメニューオプションを作成できます。 これらは入れ子の自動応答と呼ばれます。 ネストされた自動応答に通話を送信するには、[**会社内のユーザー** ] を選び、関連付けられた自動応答を既に持っているリソースアカウントか、この自動応答の作成が完了したら、自動応答に関連付ける1つのリソースアカウントを割り当てます。
@@ -226,7 +224,6 @@ ms.locfileid: "34432897"
 ![前のスクリーンショットで吹き出しを参照している数値5のアイコン](media/sfbcallout5.png)
 
 **名前によるダイヤル** このオプションを選択すると、発信者はディレクトリ検索を使用して組織内の人を検索することができます。 [**ダイヤル スコープ**] ページでこれらのオプションをセットアップすることにより、名前によるダイヤルで誰が対応可能または対応不可として一覧表示されるのかを選択することができます。 **電話システム** のライセンスをもつオンライン ユーザーか、 Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされているユーザーであれば、名前によるダイヤルで探すことができます。
-
 
 * * *
 
@@ -278,7 +275,7 @@ ms.locfileid: "34432897"
   - Enterprise Voice で有効にされているか、Office 365 の通話プランを割り当てられた**電話システム**を使用している**社内の担当者**。 発信中のユーザーがボイスメールに送信されるように設定できます。 そのためには、「**会社内のユーザ**」を選択し、ボイスメールに直接通話を転送するように設定します。
 
     > [!Note]
-    > **社内の担当者**は、Online のユーザーか、 Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされたユーザーとなることができます。 
+    > **社内の担当者**は、Online のユーザーか、 Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされたユーザーとなることができます。
 
   - 設定済みの既存の通話キューに通話を転送するための**通話キュー** 。
   - もう1つの**自動応答**では、サブメニューを含むメニューオプションの第2レベルが作成されます。 これらは入れ子の自動応答と呼ばれます。
@@ -321,31 +318,27 @@ ms.locfileid: "34432897"
 
 操作ウィンドウの [**テスト**] ボタンを使用して、自動応答にテスト通話をすばやく配置することもできます。
 
-## <a name="want-to-know-more"></a>詳細情報
+## <a name="auto-attendant-cmdlets"></a>自動応答のコマンドレット
 
-Windows PowerShell を使用して自動応答を作成し、設定することもできます。
-
-### <a name="auto-attendant-cmdlets"></a>自動応答のコマンドレット
-
-自動応答で管理する必要があるコマンドレットを以下に示します。
+Windows PowerShell を使用して自動応答を作成し、設定することもできます。 自動応答を管理するために必要なコマンドレットを以下に示します。
 
 - [新しい-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
-- [CsAutoAttendant の入手](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps) 
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
-- [CsAutoAttendant の削除](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
-- [新規-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
-- [新しい-Csonline Audiofile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [新規-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
-- [エクスポート-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
+- [CsAutoAttendant の入手](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps)
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
+- [CsAutoAttendant の削除](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
+- [新規-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
+- [新しい-Csonline Audiofile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
+- [新規-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
+- [エクスポート-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps)
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
 - [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
 - [新規-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
 - [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [インポート-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
-- [新規-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [インポート-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
+- [新規-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
 
 ### <a name="more-about-windows-powershell"></a>Windows PowerShell の詳細について
 

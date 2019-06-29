@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: クラウドの自動応答の概要とその使用方法について説明します。
-ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 3802cab121d7f88a48f657aaa9653e7144e77abe
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330357"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394548"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>クラウドの自動応答とは？
 
@@ -55,8 +55,9 @@ Office 365 で電話システムの自動応答を設定するには、「[ク�
 自動応答を使用する場合は、次の重要な点について留意してください。
 
 - 自動応答には、関連するリソースアカウントが必要です。 リソースアカウントの詳細については、「[チームのリソースアカウントを管理](manage-resource-accounts.md)する」を参照してください。
-- 直接ルーティング番号の割り当てを計画している場合は、電話システムアドオンを使用して、 \(Office 365 Enterprise E1、E3、または E5 に、次のライセンスを取得し\)て割り当てる必要があります。
-- 代わりに Microsoft サービス番号を割り当てる場合は、電話システムアドオンと通話プラン\(\)を使用して、次のライセンスを取得して、Office 365 Enterprise E1、E3、または E5 に割り当てる必要があります。
+- 自動応答に電話番号を割り当てる場合は、リソースアカウントに次のいずれかのライセンスを取得して割り当てる必要があります。 
+    - 電話システムが追加された Office 365 Enterprise E1 または E3
+    - Office 365 Enterprise E5 電話システムを含む
 - リソースアカウントには、電話番号が割り当てられている必要があります。 入れ子になった自動応答または通話キューでは、電話番号が関連付けられていない場合、自動応答または通話キューの残りのライセンスを取得する必要はありません。 
 
 > [!NOTE]
@@ -211,11 +212,10 @@ Office 365 で電話システムの自動応答を設定するには、「[ク�
 - 次の操作も実行できます。
   - エンタープライズ音声対応の**電話システム**ライセンスを持っているか、または通話プランが割り当てられている Microsoft Teams ユーザーへの通話をリダイレクトします。 発信中のユーザーがボイスメールに送信されるように設定できます。 これを行う場合は、 **あなたの会社の人**を選択して、そのユーザーの通話が自動的にボイスメールに転送されるように設定します。
 
-  
   - 通話を通話キューにリダイレクトします。 通話キューの詳細については、「[クラウド通話キューを作成](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)する」を参照してください。
 
   - 設定済みの別の自動応答に通話をリダイレクトします。
-- メニュー オプションを作成し、発信者に対してメニュー プロンプトを再生する。例: 「セールスの場合は 1 を、サービスに場合は 2 を押してください。オペレーターとお話するには、いつれも 0 を押してください。」
+  - メニュー オプションを作成し、発信者に対してメニュー プロンプトを再生する。例: 「セールスの場合は 1 を、サービスに場合は 2 を押してください。オペレーターとお話するには、いつれも 0 を押してください。」
 
 ### <a name="menu-options"></a>メニュー オプション
 
@@ -234,9 +234,9 @@ Office 365 で電話システムの自動応答を設定するには、「[ク�
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>自動応答の電話番号の割り当て
 
-Microsoft 通話プランサービス番号またはダイレクトルーティングハイブリッド番号を自動応答に割り当てることができます。 詳しくは、「[ダイレクトルーティングを計画](direct-routing-plan.md)する」をご覧ください。
+Microsoft サービス番号、直通ルーティング番号、ハイブリッド番号を自動応答に割り当てることができます。 詳しくは、「[ダイレクトルーティングを計画](direct-routing-plan.md)する」をご覧ください。
 
-サービス番号を割り当てるには、既存の有料または無料のサービス番号を取得または移行する必要があります。 有料またはフリーダイヤルのサービス電話番号が表示されると、 <!-- validate nav path --> **Skype for business 管理センター** > **のボイス** > **電話番号**と、リストに記載されている**番号の種類**は、**有料サービス**として表示されます。 サービス番号を取得するには、「 [Skype For business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」を参照するか、既存のサービス番号を移行する場合は、「[電話番号を Office 365 に転送](transfer-phone-numbers-to-office-365.md)する」を参照してください。
+サービス番号を割り当てるには、既存の有料または無料のサービス番号を取得または移植する必要があります。 有料またはフリーダイヤルのサービス電話番号が表示されると、 <!-- validate nav path --> **Skype for business 管理センター** > **のボイス** > **電話番号**と、リストに記載されている**番号の種類**は、**有料サービス**として表示されます。 サービス番号を取得するには、「 [Skype For business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」を参照するか、既存のサービス番号を移行する場合は、「[電話番号を Office 365 に転送](transfer-phone-numbers-to-office-365.md)する」を参照してください。
   
 > [!NOTE]
 > 米国外の場合は、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。 その方法については[、「組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。

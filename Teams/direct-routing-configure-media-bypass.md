@@ -6,8 +6,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
-ms.service:
-- msteams
+ms.service: msteams
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: このトピックでは、電話システムのダイレクトルーティングでメディアバイパスを構成する方法について説明します。
-ms.openlocfilehash: a9769e921ff493e67614cf903ca9206f6f50bac8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab7fbb7549793f7c557d11629f9aab4ef922e516
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290454"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394572"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを構成する
 
@@ -30,7 +29,7 @@ ms.locfileid: "34290454"
 
 1.  セッション境界コントローラー (SBC) ベンダーがメディアバイパスをサポートしていることを確認し、SBC でバイパスを構成する方法について説明します。 SBCs の詳細については、認定ページを参照してください。このページでは、メディアのバイパスがサポートされているものと手順について説明します。
 
-2.  次のコマンドを使用して、トランクでメディアバイパスを有効にする必要があります。 CSOnlinePSTNGateway-Identity <sbc_FQDN>-mediab$true yp。
+2.  次のコマンドを使用して、トランクでメディアバイパスを有効にする必要があります: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**。
 
 3.  必要なポートが開かれていることを確認します。 
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: この記事では、Microsoft Teams で認定されている電話の一覧と、Microsoft Teams でサポートされている電話機能について説明します。
-ms.openlocfilehash: 13c607ed11eef95223e1b40ebf2f306accf4e1d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2f8f0fc8d813ea697afe9f96ffef8043662d4692
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304443"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394564"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 用の電話機
 
@@ -29,7 +29,7 @@ Microsoft Teams では、従来の電話体験が必要なユーザー向けの�
 
 ## <a name="teams-certified-ip-phones"></a>チーム認定 IP 電話
 
-高品質で信頼できる Microsoft Teams を携帯電話で実現するために、お客様は、お客様との間で、Polycom、および Audiocodes を使用して、さまざまな卓上電話と会議室のオーディオデバイスを開発し、認定しています。 現在サポートされているデバイスについて、現在認定されている[IP 電話](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones)をご覧ください。
+高品質で信頼できる Microsoft Teams を携帯電話で実現するために、お客様は、お客様との間で、Polycom、および Audiocodes を使用して、さまざまな卓上電話と会議室のオーディオデバイスを開発し、認定しています。 現在サポートされているデバイスについて、現在認定されている[IP 電話](teams-ip-phones.md#currently-certified-ip-phones)をご覧ください。
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Microsoft Teams の電話機の機能セット
 
@@ -68,27 +68,27 @@ Skype では、ユーザーが携帯電話でのチームエクスペリエン�
 
 **資格情報を使用したユーザーのサインイン**
 
-![資格情報を使用してサインインする](media/sign-in-with-credentials.png)
+![資格情報を使ってサインインする場合のスクリーンショット](media/sign-in-with-credentials.png)
 
 **PC/スマートフォンを使用したユーザーのサインイン**
 
-![別のデバイスでサインインする](media/sign-in-with-device.jpg)
+![別のデバイスでサインインする場合のスクリーンショット](media/sign-in-with-device.jpg)
 
 ## <a name="personalshared-mode"></a>個人用/共有モード
 
 サインインに成功すると、ユーザーは、デバイスを個人的な用途で使用するか、または共有の会議室で使うかを選ぶことができます。
 
-![[個人用または共有アカウント] オプション](media/personal-vs-shared-mode.jpg)
+![個人用または共有のアカウントオプションのスクリーンショット](media/personal-vs-shared-mode.jpg)
 
 チーム電話のエクスペリエンスは、ユーザーの選択に基づいて最適化されます。
 
 **個人用モード**
 
-![個人用モードのアカウント](media/personal-mode.png)
+![個人用モードのアカウントのスクリーンショット](media/personal-mode.png)
 
 **共有モード**
 
-![共有モードのアカウント](media/shared-mode.png)
+![共有モードのアカウントのスクリーンショット](media/shared-mode.png)
 
 ## <a name="calling-experience"></a>通話エクスペリエンス
 
@@ -96,11 +96,11 @@ Microsoft Teams ユーザーは、ハンドセットを持ち上げるか、[ス
 
 **スクリーンダイヤルパッド**
 
-![スクリーンダイヤルパッド](media/on-screen-dial-pad.png)
+![スクリーンダイヤルパッドのスクリーンショット](media/on-screen-dial-pad.png)
 
 **通話画面**
 
-![通話画面](media/calling-screen.png)
+![通話画面のスクリーンショット](media/calling-screen.png)
 
 ## <a name="meeting-experience"></a>会議の操作
 
@@ -108,24 +108,24 @@ Microsoft Teams ユーザーは [会議] タブに移動して、会議を表示
 
 **予定表ビュー**
 
-![[予定表] ビューの会議](media/calendar-view.png)
+![[予定表] ビューの会議のスクリーンショット](media/calendar-view.png)
 
 **会議の参加ビュー**
 
-![参加ビューの会議](media/meeting-join-view.png)
+![[参加] ビューの会議のスクリーンショット](media/meeting-join-view.png)
 
 
 ## <a name="voicemail"></a>ボイスメール
 
 Microsoft Teams ユーザーは [**ボイスメール**] タブに移動すると、ボイスメールにアクセスできます。
 
-![[ボイスメール] タブ](media/voicemail-tab.png)
+![[ボイスメール] タブのスクリーンショット](media/voicemail-tab.png)
 
 ## <a name="user-sign-out"></a>ユーザーのサインアウト
 
 チームの電話ユーザーは、左上のメニューから [**サインアウト**] オプションを選択して、サインアウトすることができます。
 
-![Teams からサインアウトする](media/teams-sign-out.png)
+![Teams からサインアウトする場合のスクリーンショット](media/teams-sign-out.png)
 
 ## <a name="finding-the-firmware-version-on-a-mobile-device"></a>モバイルデバイスでファームウェアのバージョンを検索する
 
@@ -133,11 +133,11 @@ Microsoft Teams ユーザーは [**ボイスメール**] タブに移動する�
 
 **Teams のサインインページ**
 
-![Teams のサインインページ](media/teams-sign-in-page.jpg)
+![Teams のサインインページのスクリーンショット](media/teams-sign-in-page.jpg)
 
 **設定ページ**
 
-![[チーム設定] ページ](media/teams-settings-page.jpg)
+![Teams の [設定] ページのスクリーンショット](media/teams-settings-page.jpg)
 
 ## <a name="required-licenses"></a>必要なライセンス
 
@@ -149,4 +149,4 @@ Teams の入手方法については[Microsoft Teams へのアクセス権を取
 
 [Teams Marketplace](http://office.com/teamsdevices)
 
-[Microsoft Teams で認定を受けた IP 電話](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Microsoft Teams で認定を受けた IP 電話](teams-ip-phones.md)

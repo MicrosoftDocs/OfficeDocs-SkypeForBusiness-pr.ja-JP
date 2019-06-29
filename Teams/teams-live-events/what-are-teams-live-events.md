@@ -14,12 +14,12 @@ description: ライブイベントを使用して、チーム、Yammer、およ�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4110e9dbfdff6548c0cae1406f1139835d00ec40
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013012"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394540"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -75,6 +75,9 @@ ECDN の目標は、ネットワークのパフォーマンスに影響を及ぼ
 出席者のエクスペリエンスは、ライブイベントの最も重要な側面であり、出席者が問題を発生させることなくライブイベントに参加できるようにすることが重要です。 出席者のエクスペリエンスでは、Azure Media Player (Teams で作成されたイベント用) と Stream Player (外部のアプリやデバイスで生成されたイベントの場合) が使用され、デスクトップ、ブラウザー、モバイル (iOS、Android) で動作します。 Office 365 は、Yammer と Teams を2つのコラボレーションハブとして提供しており、live 参加者エクスペリエンスはこれらのコラボレーションツールに統合されています。 
 
 ![ライブイベントの出席者エクスペリエンスを示すスクリーンショット](../media/teams-live-events-attendee.png "ライブイベントの出席者エクスペリエンスを示すスクリーンショット")
+
+### <a name="live-event-usage-report"></a>ライブイベントの使用状況レポート 
+テナント管理者は、Microsoft Teams 管理センターでライブイベントのリアルタイムの利用状況分析を表示できます。  [ライブイベントの使用状況] レポートには、組織内で保持されているライブイベントのアクティビティの概要が表示されます。  管理者は、イベントの状態、開始時刻、ビュー、および運用の種類などのイベントの利用状況情報を表示できます。  
 
 ## <a name="next-steps"></a>次のステップ
 「 [Teams ライブイベントのプラン](plan-for-teams-live-events.md)」に移動します。
