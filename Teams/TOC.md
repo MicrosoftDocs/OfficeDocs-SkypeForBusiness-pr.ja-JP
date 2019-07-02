@@ -740,6 +740,7 @@
 ### [Teams 対応の電話機](phones-for-teams.md)
 ### [USB オーディオ デバイスおよびビデオ デバイス](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [会議室のデバイスとソリューション](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Microsoft Teams 認定 IP 電話](teams-ip-phones.md)
 ### [Skype for Business Online 対応の電話機](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ## セキュリティとコンプライアンス
@@ -758,7 +759,7 @@
 #### [保持ポリシーに関する既知の問題](retention-policies-known-issues.md)
 ### [Teams のデータの場所](location-of-data-in-teams.md)
 ### [フランスでの Microsoft Teams のアクセシビリティに関する適合宣言](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Skype for Business Online および Microsoft Teams のアクセシビリティ ソリューション](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Skype for Business Online および Microsoft Teams のアクセシビリティ ソリューション](accessibility-solutions-in-france.md)
 ###  [Office 365 の通話プラン: 英国での実施基準](code-of-practice-for-the-united-kingdom-u-k.md)
 ###  [Office 365 の通話プラン: 英国での苦情処理基準](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [データ収集方法](data-collection-practices.md)

@@ -100,10 +100,10 @@
 ##### [クラウド ボイスメールの構成](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### クラウド自動応答
 ##### [クラウド自動応答の計画](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
-##### [クラウド自動応答の構成](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+##### [リソース アカウントの構成](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 #### クラウド通話キュー
 ##### [クラウド通話キューの計画](../../SfbHybrid/hybrid/plan-call-queue.md)
-##### [クラウド通話キューの構成](../../SfbHybrid/hybrid/configure-call-queue.md)
+##### [リソース アカウントの構成](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 ### [Skype for Business と Exchange の統合の計画](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [ユニファイド メッセージング](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [展開の概要](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
