@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Skype for Business Online 機能が有効ではないというエラーが発生したときに、考えられる原因と解決策を見つけることができます。 '
-ms.openlocfilehash: d819dacc777b4e6ef8f3adb9e6e7cab20a1be874
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 953d14f3e1741a6617f74cf87d6acd43c849e92b
+ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285046"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411561"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>この Skype for Business Online の機能は有効ではありません
 
@@ -33,9 +33,9 @@ ms.locfileid: "34285046"
   
 |**考えられる原因**|**推奨される操作**|
 |:-----|:-----|
-|使用可能なライセンスはありますが、このユーザーの機能が有効になっていません。  <br/> |このユーザーのライセンスを付与する**Office 365 管理センター** > の**アクティブなユーザー**に移動します。 <br/> |
-|この機能が使用できない場所にユーザーがいます。  <br/> |可能であれば、 **Office 365 管理センター** > の [**アクティブなユーザー** ] に移動し、その機能が利用できる場所にこのユーザーを割り当てます。 <br/> |
-|この機能は、組織では有効になっていません。  <br/> |**Office 365 管理センター** > **Skype for business**に移動して、組織全体でこの機能を有効にします。 <br/> |
+|使用可能なライセンスはありますが、このユーザーの機能が有効になっていません。  <br/> |このユーザーにライセンスを付与するには、 **Microsoft 365 管理センター** > の**アクティブなユーザー**に移動します。 <br/> |
+|この機能が使用できない場所にユーザーがいます。  <br/> |可能であれば、 **Microsoft 365 管理センター** > の [**アクティブなユーザー** ] に移動し、その機能が利用できる場所にこのユーザーを割り当てます。 <br/> |
+|この機能は、組織では有効になっていません。  <br/> |**Microsoft 365 管理センター** > **Skype for business**に移動して、組織全体でこの機能を有効にします。 <br/> |
    
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)

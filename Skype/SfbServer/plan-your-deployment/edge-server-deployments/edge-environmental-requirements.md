@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: '概要: Skype for Business Server のエッジサーバーの環境要件について説明します。'
-ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35203957"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414990"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Skype for Business Server での Edge Server の環境要件
  
@@ -285,7 +285,7 @@ Skype for Business Server では、証明書を使って、サーバー間とク
   
 ### <a name="external-certificates"></a>外部証明書
 
-少なくとも、外部エッジサーバーインターフェイスに割り当てられている証明書は、公開証明機関 (CA) によって提供される必要があります。 特定の CA をお客様にお勧めすることはできませんが、お客様の優先 CA がリストに記載されているかどうかを確認するための、Ca の[統合コミュニケーション証明書パートナー](https://support.microsoft.com/en-us/kb/929395)の一覧を用意しています。
+少なくとも、外部エッジサーバーインターフェイスに割り当てられている証明書は、公開証明機関 (CA) によって提供される必要があります。 特定の CA をお客様にお勧めすることはできませんが、お客様の優先 CA がリストに記載されているかどうかを確認するための、Ca の[統合コミュニケーション証明書パートナー](/SkypeForBusiness/certification/services-ssl)の一覧を用意しています。
   
 この公開証明書を取得するために CA に要求を送信する必要が生じるのはいつで、またどのような方法を使用すればよいでしょうか。この作業を実行するいくつかの方法があります。
   

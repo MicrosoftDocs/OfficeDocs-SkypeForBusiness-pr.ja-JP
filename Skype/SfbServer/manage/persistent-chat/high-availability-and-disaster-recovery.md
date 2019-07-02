@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: '概要: Skype for Business Server 2015 で永続的なチャットサーバーの高可用性と障害回復を管理する方法について説明します。'
-ms.openlocfilehash: 5cf0fc8ba175111a0e0760f4447bd309c34b759c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ff30bcdd99a4c92bd8fbd8f0a5c4bcedd8aa63b0
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279306"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418706"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの高可用性および障害復旧の管理
  
@@ -25,7 +25,7 @@ ms.locfileid: "34279306"
 このトピックでは、常設チャットサーバをフェイルオーバーしてフェイルバックする方法について説明します。 このトピックを読む前に、「 [skype For Business server 2015 の常設チャットサーバーの高可用性と障害回復の計画」](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)を参照して、 [Skype の常設チャットサーバーの高可用性と障害回復を構成することを確認してください。Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 
 > [!NOTE]
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
   
 ## <a name="fail-over-persistent-chat-server"></a>常設チャットサーバーのフェイルオーバー
 

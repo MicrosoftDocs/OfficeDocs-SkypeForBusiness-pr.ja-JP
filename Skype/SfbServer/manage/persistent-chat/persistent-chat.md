@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: '概要: Skype for Business Server 2015 で常設チャットサーバーを管理する方法について説明します。'
-ms.openlocfilehash: 17b9770d2cc3385eb797a1e868c7623f3f09a3ba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1702cc9891c34085f8de269d5e91723378c54ada
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279278"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418670"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの管理
  
@@ -25,7 +25,7 @@ ms.locfileid: "34279278"
 組織に常設チャットサーバーを設定する場合は、展開時に初期構成を指定します。 ただし、常設チャットサーバーサポートの実装方法を変更する必要がある場合もあります。 たとえば、組織内の特定のチームまたはグループに対して、常設チャットサーバーのサポートとコントロールを設定する必要がある場合があります。 このセクションには、常設チャットサーバーの展開をカスタマイズするための情報と手順が記載されています。 常設チャットサーバー用に構成できる機能の詳細については、「 [Skype For Business server 2015 での常設チャットサーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)」を参照してください。 常設チャットサーバーの展開について詳しくは、「 [Skype For Business server 2015 での常設チャットサーバーの展開](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)」をご覧ください。 
 
 > [!NOTE]
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
   
 常設チャットサーバーを管理するには、コントロールパネルを使用するか、Windows PowerShell コマンドレットを使用します。 
   

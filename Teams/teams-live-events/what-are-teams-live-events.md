@@ -14,12 +14,12 @@ description: ライブイベントを使用して、チーム、Yammer、およ�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394540"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420053"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -77,7 +77,7 @@ ECDN の目標は、ネットワークのパフォーマンスに影響を及ぼ
 ![ライブイベントの出席者エクスペリエンスを示すスクリーンショット](../media/teams-live-events-attendee.png "ライブイベントの出席者エクスペリエンスを示すスクリーンショット")
 
 ### <a name="live-event-usage-report"></a>ライブイベントの使用状況レポート 
-テナント管理者は、Microsoft Teams 管理センターでライブイベントのリアルタイムの利用状況分析を表示できます。  [ライブイベントの使用状況] レポートには、組織内で保持されているライブイベントのアクティビティの概要が表示されます。  管理者は、イベントの状態、開始時刻、ビュー、および運用の種類などのイベントの利用状況情報を表示できます。  
+テナント管理者は、Microsoft Teams 管理センターでライブイベントのリアルタイムの利用状況分析を表示できます。  [[ライブイベントの使用状況] レポート](../teams-analytics-and-reports/teams-live-event-usage-report.md)には、組織内で保持されているライブイベントのアクティビティの概要が表示されます。  管理者は、イベントの状態、開始時刻、ビュー、および運用の種類などのイベントの利用状況情報を表示できます。  
 
 ## <a name="next-steps"></a>次のステップ
 「 [Teams ライブイベントのプラン](plan-for-teams-live-events.md)」に移動します。

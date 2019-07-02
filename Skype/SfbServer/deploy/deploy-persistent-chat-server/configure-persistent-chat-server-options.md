@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '概要: Skype for Business Server 2015 のグローバル、サイト、またはプールレベルで常設チャットサーバーオプションを構成する方法について説明します。'
-ms.openlocfilehash: 6305ba9a961248b24fe1a2fc28d5944efb6adeac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3140689190900bee1633210a455c7af475bb8fa0
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273869"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418131"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバー オプションの構成
  
@@ -33,7 +33,7 @@ ms.locfileid: "34273869"
 - 会議室管理 URL。 カスタム チャット ルーム管理に使用される URL です。 この設定により、カスタム ルーム管理ソリューションを使用できるようになります。 
    
 > [!NOTE] 
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
  
 ## <a name="configure-persistent-chat-server-global-options"></a>常設チャットサーバーのグローバルオプションを構成する
 

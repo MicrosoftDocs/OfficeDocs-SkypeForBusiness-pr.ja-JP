@@ -11,21 +11,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '概要: Skype for Business Server 2015 で常設チャットサーバーチャットルームを管理する方法について説明します。'
-ms.openlocfilehash: 91e8a2888a7c83e30f80160d8c2c1fbc2af542fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5b7345626a42073bf7ebd0cb5f9900c6e15f0e2b
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279348"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417947"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのチャット ルームの管理
  
 **概要:** Skype for Business Server 2015 で常設チャットサーバーのチャットルームを管理する方法について説明します。
   
-カテゴリを適切に使用すると、チャット ルームの作成と管理が非常に簡単になります。 カテゴリは、チャットルームの作成または参加を許可するユーザーを定義します。 チャットルームを管理する前に、skype for business server 2015 の常設チャットのカテゴリ、チャットルーム、およびユーザーの2015役割を読んで、「常設チャットサーバーのカテゴリを管理する」をお読みください。
+カテゴリを適切に使用すると、チャット ルームの作成と管理が非常に簡単になります。 カテゴリは、チャットルームの作成または参加を許可するユーザーを定義します。 チャットルームを管理する前に、skype for business server 2015 の常設[チャットのカテゴリ、チャットルーム、およびユーザーの2015役割](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)を読んで、「[常設チャットサーバーのカテゴリを管理](categories.md)する」をお読みください。
   
 > [!NOTE]
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
 
 チャットルームを設定および管理するには、Windows PowerShell コマンドラインインターフェイスを使用するか、Skype for Business クライアント (チャットルームのメンバーの場合) を使用します。 ここでは、Windows PowerShell コマンド ライン インターフェイスを使用してチャット ルームを管理する方法について説明します。 Skype for Business クライアントを使用してチャットルームを管理する場合は、クライアントのヘルプを参照してください。 
   

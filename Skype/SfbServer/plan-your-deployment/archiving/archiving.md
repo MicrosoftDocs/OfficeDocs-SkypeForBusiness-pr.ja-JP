@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: '概要: Skype for Business Server でアーカイブの計画を立てる方法については、このトピックを参照してください。'
-ms.openlocfilehash: 4bbe6b5bd8eb9e5e56bfdea6f8a4187a6d14b231
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9d24457d8345aa6b496489b68347a98c069abc69
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277602"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417875"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Skype for Business Server でアーカイブの計画を立てる
  
@@ -69,7 +69,7 @@ Skype for Business Server では、次のアーカイブコンポーネントが
     Skype for Business Server では、常設チャットの会話もアーカイブされません。 常設チャットの会話をアーカイブするには、コンプライアンスサービスを有効にして構成する必要があります。これは、常設チャットサーバーで展開できるコンポーネントです。 詳細については、「 [Skype For Business server 2015 での常設チャットサーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)」を参照してください。
 
     > [!NOTE] 
-    > 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
+    > 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
     
 - **アーカイブされた資料の保持期間**。 アーカイブデータベースは、長期間の保存のためのものではありません。また、Skype for Business Server では、アーカイブデータの電子的な探索 (検索) ソリューションを提供していないため、データを他のストレージに移動する必要があります。 Skype for Business Server には、アーカイブデータのエクスポートに使用できるセッションエクスポートツールが用意されています。これにより、アーカイブデータの検索可能なトランスクリプトが作成されます。 
     

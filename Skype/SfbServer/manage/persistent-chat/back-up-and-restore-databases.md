@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: '概要: Skype for Business Server 2015 で永続的なチャットサーバーデータベースのバックアップと復元を行う方法について説明します。'
-ms.openlocfilehash: 07d904620bbc5925ec6457924af6ee1e48d98d55
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0bb4895ef85ac9f38f2f9ef414769efcac6894b4
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279362"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417961"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット データベースのバックアップと復元
  
@@ -25,7 +25,7 @@ ms.locfileid: "34279362"
 常設チャットサーバーには、履歴とコンテンツ、構成、ユーザーのプロビジョニングなど、関連するメタデータを保存するための SQL Server データベースソフトウェアが必要です。 また、アーカイブするための常設チャット活動を必要とする規制が組織にあり、オプションのコンプライアンスサービスが有効になっている場合、SQL Server データベースソフトウェアを使用して、チャットのコンテンツやイベントなどのコンプライアンスデータを保存することができます。会議室からの参加と退室。 チャットルームのコンテンツは、常設チャットデータベース (行う) に保存されます。 コンプライアンス データはコンプライアンス データベース (mgccomp) に保管されます。 コンプライアンス データは非常に重要なビジネス データであり、定期的なバックアップが必要です。 
   
 > [!NOTE]
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
 
 ## <a name="back-up-the-databases"></a>データベースをバックアップする
 

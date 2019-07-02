@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、Skype for Business Server 2019 から削除されました。'
-ms.openlocfilehash: a342f98d1a3191064d1678190a0d4b743b40a37f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9fd6ddc28a3b75b8d4c411aa7909516d4b5c0ab8
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278113"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418362"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Skype for Business Server 2019 で廃止される機能
 
@@ -35,7 +35,7 @@ Skype for Business Server 2015 とその先行機能を使用すると、エッ�
 
 常設チャットサーバーは、組織内の複数のユーザーが、時間を経て持続するチャットルームの会話に参加できるようにする、オプションの役割です。 常設チャットを Skype for Business Server 2019 で展開することはできません。 このサーバーロールは、コードからではなく、トポロジビルダーからも削除されます。 
 
-Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。
+Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>Skype for Business Server の SQL ミラーリング
 

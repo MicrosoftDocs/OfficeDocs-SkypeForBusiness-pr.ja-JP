@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: '概要: このトピックでは、Skype for Business Server 2015 の常設チャットサーバーのカテゴリ、チャットルーム、ユーザーと管理者の役割について説明します。'
-ms.openlocfilehash: 2499cabbf4d7563228108ff5037a49be2976c018
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297114"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418470"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット カテゴリ、チャット ルーム、およびユーザーの役割
  
@@ -31,7 +31,7 @@ ms.locfileid: "34297114"
 - 管理者の役割
 
 > [!NOTE] 
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>チャット ルームを整理するためのカテゴリ
 
@@ -40,7 +40,7 @@ ms.locfileid: "34297114"
 許可されたメンバー/拒否されたメンバーの概念が必要となる主な根拠は、倫理的な壁です。たとえば、銀行や金融機関では通常、ポリシーと指針の実装中にトレーダーとアナリストが連絡することを防ぐ、倫理的な境界を設定します。この要件に対応するため、管理者はカテゴリを作成できます。1 つのカテゴリではトレーダーにより作成、使用されるルームを用意し、別のカテゴリではアナリストにより作成、使用されるルームを用意できます。親カテゴリで禁止されている場合は、ルームのメンバーとしてユーザーを追加できません。
   
 > [!IMPORTANT]
-> カテゴリで許可されるメンバーと拒否されたメンバーは、常設チャットルームに適用される**メンバー**の役割とは異なります。 > 検索は、検索を実行しているユーザーが許可されているメンバーと拒否されたメンバーの一覧を表示します。 検索を行うユーザーが非公開のルームのメンバーではない場合は、非公開のルームは表示されません。 ユーザーは、自分が既にメンバーであるルームか、メンバーシップを要求することができるルームのみを検索できます。 
+> カテゴリで許可されるメンバーと拒否されるメンバーは、常設チャットルームに適用される**メンバー**の役割とは異なります。 > 検索は、検索を実行しているユーザーが許可されているメンバーと拒否されたメンバーの一覧を表示します。 検索を行うユーザーが非公開のルームのメンバーではない場合は、非公開のルームは表示されません。 ユーザーは、自分が既にメンバーであるルームか、メンバーシップを要求することができるルームのみを検索できます。 
   
 ## <a name="chat-rooms-and-user-roles"></a>チャット ルームとユーザーの役割
 

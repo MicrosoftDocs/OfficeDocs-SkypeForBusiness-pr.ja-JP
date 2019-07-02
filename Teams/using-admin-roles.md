@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: 異なる管理者ロールを使用して Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3daac0708a4e841b3619ba5104cb0ef85daf29
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6a4753fd90a687a176bb9145d4c216adc0453bce
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221218"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417983"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft Teams の管理者ロールを使用してチームを管理する
 
@@ -27,6 +27,8 @@ Azure Active Directory (Azure AD) を使用して、Microsoft Teams を管理す
 ## <a name="teams-roles-and-capabilities"></a>Teams でのロールと能力
 
 利用できる Teams の管理者ロールには 4 種類あり、Teams サービス管理者、Teams 通信管理者、Teams 通信サポート スペシャリスト、および Teams 通信サポート エンジニアが含まれます。 次の表を確認し、それぞれのロールに許可されている操作および、管理者が Microsoft Teams 管理センターや PowerShell で使用できるツールについて理解してください。
+
+
 
 <!-- add Global admin role? -->
 
@@ -53,7 +55,9 @@ Azure AD でこれらのロールにユーザーを割り当てることがで�
 
 ## <a name="cmdlets-available-for-each-role"></a>各ロールが使用可能なコマンドレット
 
-これらの管理者ロール用の PowerShell ツールのほとんどは、Skype for Business PowerShell モジュールに含まれています。また、これらの管理者ロールの一部のコマンドレットは、Skype for Business Online にも使用されている共有設定を制御するためのアクセス権を持っていることに注意する必要があります。 Skype for Business PowerShell モジュールの特定のロールで現在使用可能なコマンドレットの一覧を表示するには、以下の手順を実行します。
+これらの管理者ロール用の PowerShell ツールのほとんどは、Skype for Business PowerShell モジュールに含まれています。また、これらの管理者ロールの一部のコマンドレットは、Skype for Business Online にも使用されている共有設定を制御するためのアクセス権を持っていることに注意する必要があります。 Skype for business の管理者の役割は、Skype for Business PowerShell モジュールのすべてのコマンドレットにもアクセスできます。
+
+Skype for Business PowerShell モジュールの特定のロールで現在使用可能なコマンドレットの一覧を表示するには、以下の手順を実行します。
 
 1. ユーザーにそのロール割を割り当てます。そのユーザーに他のロールが割り当てられていないことを確認します。
 2. Skype for Business PowerShell モジュールに接続します:<br>

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 5100186b7ca73ea9ef18c7aed75f6291efbb1505
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40c17d17408f0359ba54204d363234d0b5d91e49
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896243"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417839"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -100,7 +100,7 @@ ms.locfileid: "33896243"
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

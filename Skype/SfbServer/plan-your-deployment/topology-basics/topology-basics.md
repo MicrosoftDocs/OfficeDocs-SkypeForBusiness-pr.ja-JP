@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '概要: Skype for Business Server のトポロジを選択します。 Skype for Business Server のサーバー collocation について説明します。'
-ms.openlocfilehash: 5c8c4b7cc2a0bf1c392e3fad70a179b838a64606
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 064dc9d4f7f5d2a5ac722b3cfae928501b217822
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296624"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418012"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Skype for Business Server のトポロジの基礎
 
@@ -184,7 +184,7 @@ Skype for Business Server Enterprise Edition では、フロントエンドサ�
 ### <a name="persistent-chat-server-roles"></a>常設チャットサーバーの役割
 
 > [!NOTE]
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
 
 常設チャットでは、ユーザーがトピックに基づく長時間のマルチパーティ会話に参加できます。常設チャット フロントエンド サーバーは、常設チャット サービスを実行します。常設チャット バックエンド サーバーでは、チャット履歴データと、カテゴリおよびチャット ルームに関する情報が格納されます。オプションの常設チャット コンプライアンス バックエンド サーバーでは、コンプライアンスの目的でチャットの内容とコンプライアンス イベントを格納できます。
 
@@ -239,7 +239,7 @@ Standard Edition サーバーには、次の役割が含まれています (た�
 SQL Server Express は Standard Edition Server に併置されているため、移動できません。これは非常に簡単です。 さらに、標準エディションのサーバーに常設チャットサーバーを展開すると、常設チャットと常設チャットのコンプライアンスデータベースも Standard Edition サーバーで検索することができますが、必要はありません。
 
     > [!NOTE]
-    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
+    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
 
 これらは標準エディションのサーバー上では使用できませんが、1つのデータベースサーバーにアクセスできます。
 
@@ -272,7 +272,7 @@ SQL Server Express は Standard Edition Server に併置されているため、
 - データベースサーバーでは、複数の Enterprise Edition フロントエンドプールをサポートしていません。アーカイブを実行しているサーバー1台、監視を実行している1台のサーバー、1つの常設チャットデータベース、1つの永続的なチャットのコンプライアンスデータベースがサポートされています。データベースで SQL Server の同じインスタンスと SQL Server の別のインスタンスのどちらを使うかに関係なく、
 
     > [!NOTE]
-    > 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
+    > 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
 
 ### <a name="file-shares"></a>ファイル共有
 

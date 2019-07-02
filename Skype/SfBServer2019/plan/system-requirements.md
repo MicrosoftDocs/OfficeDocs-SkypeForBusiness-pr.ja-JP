@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: このトピックを使用して、Skype for Business Server 2019 サーバーとドメインインフラストラクチャを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項、証明書の DNS、ファイル共有、Active Directory の情報と共に、サーバーファームのインストールと展開が正常に行われるようにするために、ここに記載されています。'
-ms.openlocfilehash: 3c68d9f916d7c18c34d941ed880b81698793b4fe
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: c1703c28f7c095810044145c6b3e9512b017e901
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134284"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35415005"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 のシステム要件
  
@@ -439,7 +439,7 @@ Skype for Business Server 2019 では、次のような用途で証明書が使�
   
 ### <a name="certificates-for-your-internal-servers"></a>内部サーバー用の証明書
 
-ほとんどの内部サーバーには証明書が必要ですが、ほとんどの場合、内部 CA (ドメインにある CA) から証明書を取得します。 必要に応じて、外部 CA (インターネット上にある CA) からこれらの証明書を要求することができます。 どのパブリック CA にアクセスすればよいか迷っている場合は、[ユニファイドコミュニケーション証明書パートナー](https://support.microsoft.com/kb/929395/en-us)の一覧を確認できます。
+ほとんどの内部サーバーには証明書が必要ですが、ほとんどの場合、内部 CA (ドメインにある CA) から証明書を取得します。 必要に応じて、外部 CA (インターネット上にある CA) からこれらの証明書を要求することができます。 どのパブリック CA にアクセスすればよいか迷っている場合は、[ユニファイドコミュニケーション証明書パートナー](/SkypeForBusiness/certification/services-ssl)の一覧を確認できます。
   
 また、Skype for Business Server 2019 が他のアプリケーションやサーバー (Microsoft Exchange Server など) と通信する場合は、証明書が必要になります。 これは明らかに、他のアプリやサーバーでサポートされている方法で使用できる証明書である必要があります。 Skype for Business Server 2019 およびその他の Microsoft 製品は、サーバー間の認証と承認のための Open Authorization (OAuth) プロトコルをサポートしています。 この項目に興味をお持ちの場合は、OAuth および Skype for Business Server 2019 のその他の計画記事をご覧ください。
   

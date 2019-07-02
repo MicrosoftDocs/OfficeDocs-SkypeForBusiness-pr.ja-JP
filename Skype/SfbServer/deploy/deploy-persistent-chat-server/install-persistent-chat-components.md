@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: '概要: このトピックでは、Skype for business Server の展開ウィザードを使用して Skype for Business Server 2015 コンポーネントとサービスをインストールする方法について説明します。'
-ms.openlocfilehash: 6c30ba33f1ff22b5088080048210c7dcb862cb3b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2b19599ff3523a1b96a2349d62c948ed3fe72d7b
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273805"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418161"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 への常設チャット コンポーネントのインストール
  
@@ -25,7 +25,7 @@ ms.locfileid: "34273805"
 常設チャットコンポーネントをインストールする前に、必須のハードウェアとソフトウェアを既にインストールしていることを確認し、常設チャットサーバーをサポートする適切なトポロジを作成してください。 計画と要件の詳細については、「skype for business[環境の要件](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)」および「 [Skype for business Server 2015 の常設チャットサーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)」を参照してください。 トポロジを更新して、常設チャットサーバーを含める方法については、「 [Skype For Business server 2015 トポロジに常設チャットサーバーを追加](add-persistent-chat-server.md)する」を参照してください。
   
 > [!NOTE] 
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
 
 ## <a name="install-and-start-services"></a>サービスをインストールして開始する
 

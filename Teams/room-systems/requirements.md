@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: d87d21c7b0111b4825f01b71a266e209edc2bccc
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 44f077bde6ec767b3897b25bfe8d0cbf05b6ac37
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35203994"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418218"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
@@ -53,24 +53,28 @@ Microsoft Teams のルームは、オーディオとビデオの周辺機器に�
 
 - 会議室テーブルにタブレットをセキュリティで保護するための、次のドッキングステーションオプションのいずれか。 
 
-  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
 
   - [クリエイティブ](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
 
   - [Polycom MSR シリーズ](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
-**サポートされているコンソール**
+**サポートされているその他の Microsoft Teams Room 本体**
 
-|コンソール|プロセッサ|RAM|ディスク|ファームウェアのバージョン|
-|:-----|:-----|:-----|:-----|:----|
-|[Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB|1.0.16.490|
-|[会議室 G2 の HP エリート Slice](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | |
-|[Microsoft Teams のルームでの HP エリート Slice G2 オーディオの準備](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB | |
-|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  |
-|[Logitech ビデオ会議室のタッチコントローラーをタップする](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240GB  |  |
-|[ごみ箱 MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|オーディオ-92.10.0.15</br>ビデオ-92.10.0.15|
-|
+|コンソール|プロセッサ|RAM|ディスク|
+|:-----|:-----|:-----|:-----|
+|[Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB|
+|[M150-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/All-In-One-Meeting-Solutions/Crestron-Mercury-Accessories/CCS-UC-1-T)|Core i7|8GB |128GB |
+[B160-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8GB |128GB|
+|[会議室 G2 の HP エリート Slice](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | 
+|[Microsoft Teams のルームでの HP エリート Slice G2 オーディオの準備](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB | 
+|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
+|[Logitech タップ + NUC](https://www.logitech.com/en-us/product/tap?crid=1691)|Core i5|8GB |128GB |
+|[ごみ箱 MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
+|[Logitech ビデオ会議室のタッチコントローラーをタップする](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240GB  |  
+|||||
+
 > [!NOTE]
 > コア M3 プロセッサはサポートされていません。
 

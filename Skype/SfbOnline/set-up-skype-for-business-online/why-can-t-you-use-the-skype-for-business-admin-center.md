@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Skype for Business 管理センターで使用できる機能とできない機能、およびサービスが別の Microsoft データセンターに移行される場合のその他の機能について説明します。 '
-ms.openlocfilehash: 006caf6542abfeeb38e9563b6866fb119c47b88f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
+ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284879"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411571"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>今すぐ Skype for Business Online 管理センターを使用できないのはなぜですか?
 
@@ -45,7 +45,7 @@ Skype for Business Online サービス (ユーザーと組織の設定) を別�
     
 - **移行**これは、"移動" とほぼ同じです。 この場合、お客様の Skype for Business Online のユーザーと設定を、あるデータセンターから別のデータセンターに移動し、サービスの向上に向けてより近いものにしていることを意味します。
     
-- **待機時間**これは、Office 365 管理センターにアクセスし、設定を変更して、それらの変更を保存するために必要な時間の長さです。
+- **待機時間**これは、Microsoft 365 管理センターにアクセスし、設定を変更して、それらの変更を保存するために必要な時間の長さです。
     
 - **関連付け ID**これは、先ほど送信したメッセージの一覧に表示されていた可能性があります。 この情報は、Microsoft サポートエンジニアがエラーのトラブルシューティングを行うために使用されます。 Microsoft サポートに連絡する場合は、関連付け ID の確認を求められる場合があります。
     

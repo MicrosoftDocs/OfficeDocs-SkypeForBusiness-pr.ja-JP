@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: '概要: Skype for Business Server 2015 の常設チャットサーバーコンポーネントとトポロジについては、こちらのトピックを参照してください。'
-ms.openlocfilehash: edbc0184efe19e662c9ce8933b47c32f7e6fdd1a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c31cb8b0ada280b52d902e975f1bacf947fd19e7
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297086"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418274"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>常設チャット サーバー トポロジの計画
  
@@ -25,7 +25,7 @@ ms.locfileid: "34297086"
 常設チャットサーバーでは、単一サーバー構成と複数サーバー構成の両方がサポートされています。 常設チャットサーバーは、Skype for Business Server 2015 Enterprise Edition か Standard Edition サーバーのいずれかにインストールできます。 
 
 > [!NOTE] 
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
   
 ## <a name="persistent-chat-server-components"></a>常設チャットサーバーコンポーネント
 
@@ -44,7 +44,7 @@ ms.locfileid: "34297086"
   
 - コンプライアンスが有効になっている場合は、1つ以上のサーバー (ミラーリングが使用されている場合は複数) サーバーのバックエンドデータベースを実行して、コンプライアンスイベントとコンプライアンスのためのチャットコンテンツが保存されるようにします。
     
-常設チャットサーバーのハードウェアとソフトウェアの要件の詳細については、「skype for business server 2015 の常設チャットサーバーのハードウェアおよびソフトウェア2015の要件」を参照してください。 
+常設チャットサーバーのハードウェアとソフトウェアの要件の詳細については、「skype for business server [2015 の常設チャットサーバーのハードウェアおよびソフトウェア](hardware-and-software-requirements.md) [2015 の](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)要件」を参照してください。 
   
 ## <a name="persistent-chat-server-topologies"></a>常設チャットサーバーのトポロジ
 

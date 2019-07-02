@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '概要: このトピックでは、Skype for Business Server 2015 で常設チャットサーバーの高可用性と障害回復を構成する方法について説明します。'
-ms.openlocfilehash: 152797229dc02bfcd1991a9ac6f67370c9154593
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 813ea29d8ea8b75c866e12c056b40e237173922c
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282295"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418168"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの高可用性および障害復旧の構成
  
@@ -28,7 +28,7 @@ Skype for Business Server では、データベースミラーリングなど、
 > AlwaysOn 可用性グループは、常設チャットサーバーではサポートされていません。 
 
 > [!NOTE] 
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
   
 高可用性と障害回復のための常設チャットの展開を構成する前に、「 [Skype For Business server 2015 の常設チャットサーバーの高可用性と障害回復の計画](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)」の概念に精通していることを確認してください。 これらのトピックで説明する常設チャットサーバーの障害回復ソリューションは、ストレッチされた常設チャットサーバープールに基づいています。 計画コンテンツでは、リソース要件と、SQL Server ミラーリングを使用して高可用性と障害回復を実現している、常設チャットサーバーの高可用性と災害復旧を可能にする拡張プールトポロジを示しています。障害回復。
   

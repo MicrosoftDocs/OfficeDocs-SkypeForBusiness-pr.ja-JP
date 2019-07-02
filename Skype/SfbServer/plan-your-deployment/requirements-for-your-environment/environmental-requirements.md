@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: Skype for Business Server 2015 のサーバー以外の要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。'
-ms.openlocfilehash: b547d6c4e99f0b29a4e415a15e9c1307165245b2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296862"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414983"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -255,11 +255,11 @@ Skype for Business Server 2015 では、次のような用途で証明書が使�
   
 ### <a name="certificates-for-your-internal-servers"></a>内部サーバー用の証明書
 
-ほとんどの内部サーバーには証明書が必要ですが、ほとんどの場合、内部 CA (自分のドメインにあるもの) から証明書を取得します。 必要に応じて、外部の CA (インターネット上に存在する CA) から証明書を要求できます。 どのパブリック CA にアクセスすればよいか迷っている場合は、[ユニファイドコミュニケーション証明書パートナー](https://support.microsoft.com/kb/929395/en-us)の一覧を確認できます。
+ほとんどの内部サーバーには証明書が必要ですが、ほとんどの場合、内部 CA (自分のドメインにあるもの) から証明書を取得します。 必要に応じて、外部の CA (インターネット上に存在する CA) から証明書を要求できます。 どのパブリック CA にアクセスすればよいか迷っている場合は、[ユニファイドコミュニケーション証明書パートナー](/SkypeForBusiness/certification/services-ssl)の一覧を確認できます。
   
 また、Skype for Business Server 2015 が他のアプリケーションやサーバー (Microsoft Exchange Server など) と通信する場合は、証明書が必要になります。 この証明書は当然、サポートされている方法でこれらの他のアプリケーションやサーバーが使用できる証明書である必要があります。 Skype for Business Server 2015 およびその他の Microsoft 製品は、サーバー間の認証と承認のための Open Authorization (OAuth) プロトコルをサポートしています。 この項目に興味をお持ちの場合は、OAuth および Skype for Business Server 2015 のその他の計画記事をご覧ください。
   
-Skype for business Server 2015 には、(必要256とせずに) sha-1 暗号化ハッシュ関数を使って署名された証明書のサポートも含まれています。 SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
+Skype for Business Server 2015 には、(必要256とせずに) SHA-1 暗号化ハッシュ関数を使って署名された証明書のサポートも含まれています。 SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
   
 簡単に行うことができるように、標準エディションサーバー、フロントエンドプール、その他の役割の証明書の要件は、例として使用されている架空の contoso.com を使って、次の表のようにします (おそらく使用していることに注意してください)。その他の環境の場合)。 これらはすべて、標準の web サーバー証明書であり、エクスポートできない秘密キーが含まれています。 その他の注意事項:
   

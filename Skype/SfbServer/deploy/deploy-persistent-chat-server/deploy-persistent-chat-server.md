@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: '概要: Skype for Business Server 2015 常設チャットサーバーを展開する方法については、このトピックを参照してください。'
-ms.openlocfilehash: 06cc51ccbbab193e749c2f919102d7d38fde3f56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fed07d864bda6fc3e0e93932123b2651c226b4f6
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273897"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418116"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの展開
  
@@ -33,7 +33,7 @@ ms.locfileid: "34273897"
 常設チャットサーバーを展開する前に、「 [Skype For Business server 2015 の常設チャットサーバーの計画」](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)を参照してください。 計画のトピックでは、ハードウェアとソフトウェアの要件、使用できるトポロジ、併置のシナリオについて説明しています。 
   
 > [!NOTE] 
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams への旅](/microsoftteams/journey-skypeforbusiness-teams)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
 
 ## <a name="deployment-checklist"></a>展開チェックリスト
 
