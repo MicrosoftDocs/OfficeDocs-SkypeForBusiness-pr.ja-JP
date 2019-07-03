@@ -78,6 +78,7 @@
 #### [Teams の使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams のデバイス使用状況レポート](teams-analytics-and-reports/device-usage-report.md)
+#### [Teams のライブ イベントの使用状況レポート](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Microsoft 365 管理センターでの Teams のアクティビティ レポート](teams-activity-reports.md)
 
 
@@ -89,7 +90,7 @@
 ## [展開の計画](deploy-meetings-microsoft-teams-landing-page.md)
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
 ## [会議ポリシーを管理する](meeting-policies-in-teams.md)
-## [会議の設定を管理する] (meeting-settings-in-teams.md
+## [会議の設定を管理する](meeting-settings-in-teams.md)
 ## [ユーザーの設定を変更したときに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -332,6 +333,7 @@
 
 ### ダイレクト ルーティングのテクニカル リファレンス
 #### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
+#### [メディア パスの国コード](direct-routing-country-codes.md)
 
 ## 電話番号
 ### [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -630,7 +632,8 @@
 # 
 # 
 
-# [Teams を組織全体で展開する](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+# 業界および政府機関向けのガイダンス
+## [概要](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub はまもなく廃止予定です](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
@@ -666,16 +669,45 @@
 
 <!-- ============================================================ -->
 
-# 
-# 
+# 中小企業向けのガイダンス
+## [中小企業向けの Teams のテンプレート](smb-templates.md)
+#    
+#    
 
 <!-- ============================================================ -->
 
+# セキュリティとコンプライアンス
+## [概要](security-compliance-overview.md)
+## [Teams の情報障壁 ](information-barriers-in-teams.md)
+## [Teams のコンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
+## [Teams での ID モデルと認証](identify-models-authentication.md)
+## [先進認証を使用して Teams にサインインする](sign-in-teams.md)
+## [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
+## [Teams でイベントの監査ログを検索する](audit-log-events.md)
+## [Teams のコンテンツ検索を使用する](content-search.md)
+## [Teams の AppLocker アプリケーション コントロール ポリシー](applocker-in-teams.md)
+## Teams の保持ポリシー
+### [概要](retention-policies.md)
+### [保持ポリシーに関するよくある質問](retention-policies-FAQ.md)
+### [保持ポリシーに関する既知の問題](retention-policies-known-issues.md)
+## [Teams のデータの場所](location-of-data-in-teams.md)
+## [フランスでの Microsoft Teams のアクセシビリティに関する適合宣言](accessibility-declaration-of-conformance-in-france-for-teams.md)
+## [Skype for Business Online および Microsoft Teams のアクセシビリティ ソリューション](accessibility-solutions-in-france.md)
+##  [Office 365 の通話プラン: 英国での実施基準](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Office 365 の通話プラン: 英国での苦情処理基準](complaint-handling-code-for-the-united-kingdom-u-k.md)
+## [データ収集方法](data-collection-practices.md)
+## [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+
+
+<!-- ============================================================ -->
+#       
+#        
 # [トレーニング](training-microsoft-teams-landing-page.md)
 ## [Teams のインストラクターによるトレーニング](instructor-led-training-teams-landing-page.md)
 ## [Teams の管理者トレーニング](itadmin-readiness.md)
 ## [Teams のエンド ユーザー トレーニング](enduser-training.md)
 <!-- ============================================================ -->
+
 
 
 # 参照
@@ -743,27 +775,6 @@
 ### [Microsoft Teams 認定 IP 電話](teams-ip-phones.md)
 ### [Skype for Business Online 対応の電話機](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-## セキュリティとコンプライアンス
-### [概要](security-compliance-overview.md)
-### [Teams の情報障壁 ](information-barriers-in-teams.md)
-### [Teams のコンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
-### [Teams での ID モデルと認証](identify-models-authentication.md)
-### [先進認証を使用して Teams にサインインする](sign-in-teams.md)
-### [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
-### [Teams でイベントの監査ログを検索する](audit-log-events.md)
-### [Teams のコンテンツ検索を使用する](content-search.md)
-### [Teams の AppLocker アプリケーション コントロール ポリシー](applocker-in-teams.md)
-### Teams の保持ポリシー
-#### [概要](retention-policies.md)
-#### [保持ポリシーに関するよくある質問](retention-policies-FAQ.md)
-#### [保持ポリシーに関する既知の問題](retention-policies-known-issues.md)
-### [Teams のデータの場所](location-of-data-in-teams.md)
-### [フランスでの Microsoft Teams のアクセシビリティに関する適合宣言](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Skype for Business Online および Microsoft Teams のアクセシビリティ ソリューション](accessibility-solutions-in-france.md)
-###  [Office 365 の通話プラン: 英国での実施基準](code-of-practice-for-the-united-kingdom-u-k.md)
-###  [Office 365 の通話プラン: 英国での苦情処理基準](complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [データ収集方法](data-collection-practices.md)
-### [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
 
 ## トラブルシューティングとサポート
