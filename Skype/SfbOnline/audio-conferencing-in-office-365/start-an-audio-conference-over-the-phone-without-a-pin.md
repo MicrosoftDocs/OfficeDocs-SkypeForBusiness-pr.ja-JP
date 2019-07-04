@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '匿名の発信者による Skype for Business 管理センターからの会議への参加や PowerShell スクリプトの使用を有効または無効にする方法を説明します。 '
-ms.openlocfilehash: af62ed29ed2bbe835ab811651152b231a85caaf8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 146a23c35bca8e313f193dbd1407990fc8c6a788
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302772"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535868"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Skype for Business Online で PIN を使用せずに電話で電話会議を開始する
 
@@ -65,13 +65,13 @@ ms.locfileid: "34302772"
 
 - PIN をリセットする場合は、「[電話会議の pin をリセット](reset-the-audio-conferencing-pin.md)する」を参照してください。
     
-- 匿名アクセスが許可されている場合、または会議の開始に PIN が必要ではない場合は、次の操作を行います。
+- 匿名アクセスが許可されている場合、または会議の開始に PIN が必要な場合は無効になります。
     
   - 会議が開始されていない (会議にまだ参加していない) 場合: 発信者が開催者であるかどうかを確認するメッセージが表示されます。「はい」というメッセージが表示されると、PIN の入力が求められます。 PIN を入力すると、会議が開始され、ユーザーが会議に参加します。
     
   - 会議が既に始まっている場合 (他のユーザーが既に会議に参加している場合): 発信者は開催者であるかどうかを確認するメッセージは表示されず、PIN の入力を求められることはありません。会議が既に始まっていて、発信者が会議に参加します。
     
-- 匿名アクセスが許可されている場合、または会議の開始に PIN が必要な場合は無効になります。
+- 匿名アクセスが許可されている場合、または会議の開始に PIN が必要ではない場合は、次の操作を行います。
     
   - 会議が開始されていない (会議にまだ参加していない) 場合: 発信者が開催者であるかどうかを確認するメッセージは表示されません。 PIN の入力を求められることはありません。 開催者の設定がオフになっているため、会議が始まり、匿名の発信者が会議に参加します。
     

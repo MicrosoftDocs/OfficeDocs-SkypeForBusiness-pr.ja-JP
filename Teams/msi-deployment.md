@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e35c3d62ee43e3b3123993e29c17a8ec1e8f94f7
-ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
+ms.openlocfilehash: 711018e754f64960fc7b120baad13966ebf1a1ac
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34694730"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535893"
 ---
 <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 =================================
@@ -70,11 +70,11 @@ Teams デスクトップアプリを展開するプロセスを次に示しま�
 
 2. MSI を VDI VM にインストールするには、次のコマンドを実行します (または完全な更新が必要です)。
 
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
 
     これにより、チームがプログラムファイルにインストールされます。 この時点で、ゴールデンイメージのセットアップが完了しています。
 
-    次の対話型ログオンセッションでは、チームが起動し、資格情報を求められます。 ALLUSERS プロパティを使って team を VDI にインストールする場合、Teams の自動起動を無効にすることはできないことに注意してください。
+    次の対話型ログオンセッションでは、チームが起動し、資格情報を求められます。 ALLUSER プロパティを使用して VDI に Teams をインストールする場合、Teams の自動起動を無効にすることはできません。
 
 3. 次のコマンドを実行して、MSI を VDI VM からアンインストールします (または、更新の準備を行います)。
 

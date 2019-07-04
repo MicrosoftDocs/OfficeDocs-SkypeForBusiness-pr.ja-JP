@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1aeefb4ed99e25b163cc91330e410b69c8d01282
-ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.openlocfilehash: 362e973bee33b8e556a84c0f03fd54d649d9ab14
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652755"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535877"
 ---
 ![展開と実装を強調したアップグレードの図](media/upgrade-banner-deployment.png "展開と実装のステージに重点を置いたアップグレードの段階")
 
@@ -34,6 +34,8 @@ ms.locfileid: "34652755"
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード手順を選択する
+
+Microsoft Teams では、最終的に Skype for Business Online が置き換えられるため、すぐに Teams を計画する必要があります。
 
 既存の Skype for Business ユーザーである場合、Teams への完全な移行には時間がかかることがあります。 ただし、今すぐ Teams を Skype for Business と共存する形で有効にすることによって、関係するユーザーが Teams の価値を実感し始められるようになります。 2 つのアプリの間で重複する機能があることから、利用可能な共存およびアップグレードモードを再確認すると、お客様の組織にとってどのパスが適しているかを判断するのに役立ちます。 たとえば、すべてのワークロードを、相互運用性のない状態で、両方のソリューションで有効にすることを選ぶことが考えられます。 または、お客様の組織において、すべてのユーザーを Teams にアップグレードさせられる準備が整うまで、段階的に Teams の機能を導入したり、一部の機能を使用できるユーザーのグループを絞り込んだりして、ユーザー エクスペリエンスを管理することを決めることも考えられます。 組織のために適切なアップグレード手順を評価するために、パイロットの結果を使用します。
 
@@ -59,7 +61,7 @@ Skype for Business から Teams へのアップグレードに関連した、さ
 |アイランド |より小規模またはシンプルな Skype for Busness の展開<br><br>いくつかの短期的な複雑な状況を管理して、Teams により速やかに移行するための能力と意思。 |できるだけ早く完全な Teams エクスペリエンスに移動する<br><br>Teams の概念実証 (PoC) の実施<br><br>Skype for Business Online を導入した組織に対して推奨されるアップグレード パス |運用が簡単<br><br>すべての機能において傑出した、最も豊かな Teams エクスエぺリエンス |混乱を排除し、Teams の使用を推進するためには、良好なユーザー コミュニケーションが必須<br><br>出口戦略において、Teams Only フェーズへのアップグレードを開始する前にユーザーが完全に Teams を導入することが必須<br><br>アイランド モードのユーザーに対する相互運用性はなし。また、ユーザーの Skype for Business アカウントがオンプレミスで所属している場合は Teams からのフェデレーションもなし|
 |Skype for Business と Teams でのコラボレーション |Skype for Business の展開で、Teams ではまだ満たされていない要件がある (たとえば、先進的なコンプライアンスなど)<br><br>Skype for Business に対する長期的な必要性や、コミットメント|グループでの共同作業について最初に焦点をあてながら、Teams の導入を速やかに開始する<br><br>Skype for Business 上で、すべての統合コミュニケーション ワークロードを維持する<br><br>オンプレミス (またはハイブリッド) の Skype for Business からの移行を開始する組織の開始点としての使用を推奨|Teams と Skype for Business との間に重複する機能なし	<br><br>インスタント メッセージング チャットおよび会議のスケジュールが (通話に結びついている) Skype for Business に存在する<br><br>Teams Only のユーザーとの相互運用性|
 |Skype for Business と Teams でのコラボレーションおよび会議 |エンタープライズ VoIP を頻繁に使用し、Teams 通話では適合しない要件がある Skype for Business の展開<br><br>Skype for Business に対する長期的な必要性や、コミットメント<br><br>サードパーティの会議サービスを使用する可能性|グループでの共同作業にとどまらず、Teams の導入を速やかに開始<br><br>ユーザーの会議のエクスペリエンスを改善<br><br>(一般的にエンタープライズ VoIP オンプレミスのために) 完全にアップグレードする準備が整う前に、Teams 会議を十分に活用することを望んでいる、オンプレミスの組織に対して推奨される使用 |重複する機能なし<br><br>Teams でのより優れた会議。 機能のロードマップ、UX とクロス プラットフォーム、品質と信頼性<br><br>Skype for Business と Teams との間での「より良い連携作業」エクスペリエンス<br><br>Teams Only の相互運用性ユーザー。|インスタント メッセージング およびチャットが (通話に結びついている) Skype for Business に存在する|
-|Teams Only |Skype for Business の使用を継続する必要がある一部のユーザー<br><br>Skype for Business Online ユーザーを Teams にアップグレートしている一方で、Skype for Business オンプレミス ユーザーは Skype for Business Server 上にとどめている<br><br>展開済みのユーザーを既にアイランド モードにしており、ユーザーのグループでの Skype for Business の使用を廃止する準備が整っている |Skype for Business のさまざまな費用 (オンプレミス サーバーの運用、外注契約など) の削減<br><br>できるだけ早く、少なくとも一部のユーザーにおいて、完全な Teams エクスペリエンスに移行する|Skype for Business のみ、Skype for Business と Teams でのコラボレーション、Skype for Business と Teams でのコラボレーション、Skype for Business と Teams でのコラボレーションおよび会議において、ユーザーとの相互運用性で機能するクライアントを 1 つのみ提供して、ユーザーの混乱を抑制する|相互運用性のサポート範囲は、Skype for Business と Teams との間での基本的なチャットと通話、およびデスクトップ共有や複数パーティでのチャットおよび通話のための相互運用性のエスカレーション シナリオに限られる|
+|Teams Only |[チームのみ] は、すべてのユーザーの最終的な保存先です。<br><br>Skype for Business の使用を継続する必要がある一部のユーザー<br><br>Skype for Business Online ユーザーを Teams にアップグレートしている一方で、Skype for Business オンプレミス ユーザーは Skype for Business Server 上にとどめている<br><br>展開済みのユーザーを既にアイランド モードにしており、ユーザーのグループでの Skype for Business の使用を廃止する準備が整っている |Skype for Business のさまざまな費用 (オンプレミス サーバーの運用、外注契約など) の削減<br><br>できるだけ早く、少なくとも一部のユーザーにおいて、完全な Teams エクスペリエンスに移行する|Skype for Business のみ、Skype for Business と Teams でのコラボレーション、Skype for Business と Teams でのコラボレーション、Skype for Business と Teams でのコラボレーションおよび会議において、ユーザーとの相互運用性で機能するクライアントを 1 つのみ提供して、ユーザーの混乱を抑制する|相互運用性のサポート範囲は、Skype for Business と Teams との間での基本的なチャットと通話、およびデスクトップ共有や複数パーティでのチャットおよび通話のための相互運用性のエスカレーション シナリオに限られる|
 |Skype for Business のみ |Skype for Business の使用を継続する必要がある一部のユーザー<br><br>|ユーザーとの相互運用性で機能するクライアントを 1 つのみ提供して、ユーザーの混乱を抑制する<br><br>ユーザーは招待された場合に Teams 会議に参加することができる|現時点で Skype for Business によってのみ適合しているビジネス要件に適合する<br><br>Teams Only のユーザーとの相互運用性|相互運用性のサポート範囲は、Skype for Business と Teams との間での基本的なチャットと通話、およびデスクトップ共有や複数パーティでのチャットおよび通話のための相互運用性のエスカレーション シナリオに限られる|
 
 ## <a name="upgrade-journeys"></a>アップグレード手順
@@ -71,8 +73,6 @@ Skype for Business から Teams へのアップグレードに関連した、さ
 
 > [!IMPORTANT]
 > アップグレード手順の両方のタイプについて、お客様の組織で現在 Skype for Business オンプレミス展開のみを利用している場合、お客様のユーザーを **Teams Only** モードにアップグレードする前に、Skype for Business ハイブリッドの実装計画を開始する必要があります。 これにより、Teams との相互運用性の促進を図ることもできます。
->
-> Skype for Business のハイブリッド実装をガイドするために、[MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) を使用します。
 
 > [!NOTE]
 > **Teams Only** モードでは、コーホートの一部であるユーザーが Skype for Business Online に属していることを必要とします。また、Skype for Business と Teams との間の相互運用性を促進するために Skype for Business オンプレミス展開と Skype for Business Online テナントとの間のハイブリッド関係が必要となります。 Skype for Business Online への移行は、コーホートの一部であるユーザーのために、**Teams Only** モードにアップグレードする前に完了させる必要があります。 Skype for Business Server 2019、および CU8 アップデート適用済みの Skype for Business Server 2015 は、1 つの手順で Skype for Business Online への移行を管理してユーザーを **Teams Only** モードにアップグレードすることによって、オンプレミス ユーザーの Teams へのアップグレードの仕組みを簡素化することができます。
