@@ -97,6 +97,7 @@
 ## [Teams でのデスクトップ共有を構成する](configure-desktop-sharing.md)
 ## [Teams のクラウド会議の記録](cloud-recording.md)
 ## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
+## [ユーザーの [電話する] 機能をセットアップする](set-up-the-call-me-feature-for-your-users.md)
 ## [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Microsoft Teams ミーティング](room-systems/index.md)
 ## [Teams でホワイトボードを管理する](manage-whiteboard.md)
