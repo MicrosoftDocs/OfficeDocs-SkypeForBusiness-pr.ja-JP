@@ -67,7 +67,8 @@
 ### [無料版の Teams を管理する](manage-freemium.md)
 ### [Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ### [一括でTeams のユーザー設定を編集します](edit-user-settings-in-bulk.md)
-### [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
+### [Teams でアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
+### [Teams でフィードバック ポリシーを管理する](manage-feedback-policies-in-teams.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 ### [外部アクセスを管理する](manage-external-access.md)
 ### [インライン メッセージの翻訳の使用](inline-message-translation-teams.md)
@@ -717,6 +718,7 @@
 ## Teams のロールアウトの準備
 ### [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
+### [Teams のネットワーク プランナーを使用する](network-planner.md)
 ### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
 ### [Teams の制限と仕様](limits-specifications-teams.md)
 ### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
