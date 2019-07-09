@@ -739,7 +739,7 @@
 ### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
 ### [仮想デスクトップ インフラストラクチャ (VDI) 用の Teams](teams-for-vdi.md)
 ### [Surface Hub の Teams を展開する](teams-surface-hub.md)
-### [Teams クライアントの更新プロセス](teams-client-update.md)
+### [Teams クライアントの更新プログラム](teams-client-update.md)
 
 ## ライセンス
 ### [Teams へのユーザー アクセスを管理する](user-access.md)
