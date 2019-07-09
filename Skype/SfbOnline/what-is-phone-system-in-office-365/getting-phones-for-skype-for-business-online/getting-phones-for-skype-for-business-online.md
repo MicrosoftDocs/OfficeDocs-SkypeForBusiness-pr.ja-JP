@@ -21,22 +21,23 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Skype for Business で使用できるPolycom、HP、Mitel 製の電話の種類と、必要なライセンスについて説明します。 '
-ms.openlocfilehash: f3a042a200f821f6e5836eb3fc6b062a88e2da35
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298000"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587936"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Skype for Business Online で使う電話を入手する
 
 [] Skype for Business Online は、Skype for Business アプリよりも従来式の電話の機能性や操作性を利用したいユーザー向けに、デスクトップ電話に適合および対応しています。このトピックでは、Skype for Business Online での使用でサポートされる電話およびファームウェアのバージョンについて説明し、組織内で電話機をセットアップする際に役立つその他の情報を提供します。
-  
-最新の更新プログラムおよびサポートされているデバイスに関する最新情報を取得するには、 [Skype For Business デバイスカタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog)を参照してください。
+
+> [!NOTE]
+> Skype For Business は、Office 365 の主要なコミュニケーション方法として、Microsoft Teams によってゆっくりと置き換えられます。  詳細について[は、「Office 365 でのインテリジェントコミュニケーションの新しいビジョン](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)」を参照してください。
+>
+>最新の更新プログラムおよびサポートされているデバイスに関する最新の情報を取得するには、「 [Microsoft Teams デバイスでインテリジェントコミュニケーションを](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)実現する」を参照してください。
   
 ## <a name="supported-phones"></a>サポートされている電話
-
-Skype for Business Online のユーザーの場合は、skype for business デバイスの skype for Business Online カテゴリの下に表示されている、skype *for business の認定*されている電話および電話の一部のモデルから選ぶことができます。 [カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
   
 Office 365 での電話システムと Skype for Business Server のためのパートナー IP 電話プログラム (PIP) を通して広範なデバイスを開発および認定するために、Polycom、Yealink、AudioCodes と提携し、緊密に協業を進めています。
   

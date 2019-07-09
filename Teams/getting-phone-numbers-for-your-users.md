@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'チームに新しい番号を取得する方法、既存の番号を移行する方法、ユーザーへの変更を表示する方法について説明します。 '
-ms.openlocfilehash: 59c5fc176f29a7fd12628d1778af6112afee0c84
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: c9cf47abe056e98fdc1ee92d520ba52675216430
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347925"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588216"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -64,7 +64,7 @@ ms.locfileid: "35347925"
   
 - ユーザー用の電話番号を999以下にする必要がある場合は、Microsoft Teams 管理センターで従来のポータルを使用できます。 「 [Office 365 に電話番号を転送](/microsoftteams/transfer-phone-numbers-to-office-365)する」の手順に従って、電話番号を Teams に転送します。
     
-- 電話番号が 999 個よりも多い電話番号を移行する必要がある場合は、「[カスタム サービスの依頼を手動で送信する](/skypeforbusiness/manually-submit-a-custom-service-request)」を参照して移行注文サービスの依頼または注文を発行し、Office 365 に移行される電話番号をすべて取得します。
+- 999を超える電話番号を移植する必要がある場合は、「 [Service Manager でサービス要求を管理](https://docs.microsoft.com/system-center/scsm/service-requests)する」を参照して、「ポート注文サービスの依頼または注文を送信する」を参照してください。これらのすべての電話番号を Office 365 に移植します。
     
 ## <a name="show-phone-numbers-for-your-organization"></a>組織の電話番号を表示する
 

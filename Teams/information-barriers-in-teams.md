@@ -1,9 +1,9 @@
 ---
-title: Microsoft Teams プレビューでの情報障壁
+title: Microsoft Teams の情報障壁
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 07/01/2019
+ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,16 +12,14 @@ ms.reviewer: vikramju
 description: 情報の障壁とチームへの影響について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a9c896e7131dfcd1a510a39712759fd8143fe3f
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 5a739130c399012e49522dcf3f88473fb6f85e5c
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418289"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588128"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Microsoft Teams プレビューでの情報障壁
-
-> [!INCLUDE [Preview feature](includes/preview-feature.md)]
+# <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
 情報バリアは、個人やグループ間の通信を防ぐために管理者が構成できるポリシーです。 これは、たとえば、ある部門が他の部署と共有する必要がない情報を処理している場合や、グループ外の人との通信を禁止または分離する必要がある場合に便利です。
 
@@ -47,14 +45,14 @@ ms.locfileid: "35418289"
 
 ## <a name="managing-information-barrier-policies"></a>情報バリアポリシーの管理
 
-情報バリアポリシーは、セキュリティ & コンプライアンスセンター (SCC) PowerShell コマンドレットによって管理されます。 これらのコマンドレットの使い方の詳細については、「[情報バリアのポリシーを定義する (プレビュー)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)」を参照してください。
+情報バリアポリシーは、PowerShell コマンドレットを使用して Office 365 セキュリティ & コンプライアンスセンター (SCC) で管理されます。 詳細については、「[情報バリアのポリシーを定義](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)する」を参照してください。
 
 > [!IMPORTANT]
-> ポリシーを設定または定義する前に、 **Microsoft Teams でスコープ指定されたディレクトリ検索を有効にする必要があり**ます。 スコープ指定されたディレクトリ検索を有効にしてから、情報バリアのポリシーを設定または定義する前に、少なくとも24時間待機します。
+> ポリシーを設定または定義する前に、 **Microsoft Teams でスコープ指定されたディレクトリ検索を有効にする必要があり**ます。 スコープ指定されたディレクトリ検索を有効にしてから、情報バリアのポリシーを設定または定義する前に、少なくとも24時間待機します。 詳細に[ついては、「情報の障壁の前提条件」を参照して](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)ください。
 
 ## <a name="information-barriers-administrator-role"></a>情報障壁管理者の役割
 
-情報障壁管理者の役割 (IB コンプライアンス管理) は、情報バリアポリシーの管理を担当します。 この役割の詳細については、「 [Office 365 セキュリティ & コンプライアンスセンターのアクセス許可](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)」を参照してください。
+IB コンプライアンス管理の役割は、情報バリアポリシーの管理を担当します。 この役割の詳細については、「 [Office 365 セキュリティ & コンプライアンスセンターのアクセス許可](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)」を参照してください。
 
 ## <a name="when-are-information-barrier-policies-checked"></a>情報バリアポリシーを確認する場合
 
@@ -68,7 +66,7 @@ ms.locfileid: "35418289"
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>ポリシーが変更された場合、既存のチャットスレッドはどうなりますか?
 
-情報バリアポリシー管理者がポリシーを変更した場合、またはユーザーのプロファイルが変更されたためポリシーの変更が反映される場合 (たとえば、ジョブの変更や同様の理由により)、情報バリアポリシー評価サービスが自動的に検索します。メンバーは、チームのメンバーがどのポリシーに違反していないかを確認します。
+情報バリアポリシー管理者がポリシーを変更した場合、またはユーザーのプロファイルが変更されたためポリシーの変更が反映される場合 (ジョブの変更や同様の理由など)、情報のバリアポリシー評価サービスが自動的に行われます。メンバーを検索して、チームのメンバーがポリシーに違反していないことを確認します。
 
 ユーザー間に既存のチャットやその他の通信が存在し、新しいポリシーが設定されている場合、または既存のポリシーが変更されている場合、サービスは既存の通信を評価して、通信が引き続き許可されていることを確認します。 
 
@@ -102,7 +100,7 @@ ms.locfileid: "35418289"
 
 ## <a name="required-licenses-and-permissions"></a>必要なライセンスと権限
 
-現時点では、情報バリア機能はパブリックプレビューに含まれています。 通常、これらの機能が利用可能になると、次のようなサブスクリプションに含まれます。
+情報バリアは現在展開中であり、次のようなサブスクリプションに含まれています。
 
 - Microsoft 365 E5
 - Office 365 E5
@@ -113,6 +111,8 @@ ms.locfileid: "35418289"
 
 ## <a name="more-information"></a>詳細情報
 
-- 情報の障壁の詳細については、「[情報の障壁 (プレビュー)](https://docs.microsoft.com/office365/securitycompliance/information-barriers)」を参照してください。
+- 情報の障壁の詳細については、「[情報の障壁](https://docs.microsoft.com/office365/securitycompliance/information-barriers)」を参照してください。
 
-- 情報バリアポリシーを設定する方法については、「[情報バリアのポリシーを定義する (プレビュー)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies) 」を参照してください。
+- 情報バリアポリシーを設定する方法については、「[情報バリアのポリシーを定義](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)する」を参照してください。
+
+- 情報バリアポリシーを編集または削除するには、「[情報バリアポリシーを編集 (または削除)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md)する」を参照してください。

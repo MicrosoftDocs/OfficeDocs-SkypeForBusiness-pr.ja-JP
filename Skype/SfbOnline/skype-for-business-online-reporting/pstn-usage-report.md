@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '[新しい Skype for Business 管理センターのレポート] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 通話のコストなど、電話会議の PSTN 利用状況の詳細を表示して、組織内での使用状況を特定するために、使用状況を理解し、請求の詳細を呼び出すことができます。'
-ms.openlocfilehash: dafe072cb327cde15cf4a02ca9e1c71a30f4431b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3d5ea4552cec8e9f10ad0108dad4c00875918c0e
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493989"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587918"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
 
@@ -76,7 +76,7 @@ ms.locfileid: "34493989"
      **統合コミュニケーション アプリケーション (UCAP)** 
      *    **ucap_in**(自動応答や通話キューなどの UC アプリケーションへの着信 PSTN 通話) 
      *    **ucap_out**(自動応答や通話キューなどの UC アプリケーションからの送信 PSTN 通話)
-     *    **注:** 自動応答や通話キューなどの UC アプリケーションからユーザーに転送された通話は、ピアツーピア (P2P) の音声通話であるため、PSTN 使用状況レポートには表示されません。 Skype for Business 管理センターの P2P 通話にアクセスするには、"Tools > Skype for Business Call Analytics" のようにし、ユーザー名または SIP アドレスを指定して、日付/時刻/発信元の CLID (発信者の ID) を使って通話を関連付けます。 
+     *    **注:** 自動応答や通話キューなどの UC アプリケーションからユーザーに転送された通話は、ピアツーピア (P2P) の音声通話であるため、PSTN 使用状況レポートには表示されません。 Skype for Business 管理センターの P2P 通話には、"ツール > Skype for Business Call Analytics" のようにアクセスして、ユーザー名または SIP アドレスで検索し、日付/時刻/発信元の CLID (呼び出し行 ID) で検索することができます。 
 *     
      [ **国内/国際**] は、ユーザーの場所に基づいて通話が国内 (国/地域内) または国際 (国/地域外) のどちらと見なされるかを示します。 
 *    [**宛先ダイヤル**] は、フランス、ドイツ、または米国 (米国) などのダイヤル先の国/地域の名前です。 
@@ -104,7 +104,7 @@ ms.locfileid: "34493989"
 ***
 ![ナンバー 2](../images/sfbcallout2.png)<br/>1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。
  ***
-![ナンバー 3](../images/sfbcallout3.png)<br/>また、[ **excel にエクスポート**] ボタンをクリックまたはタップして、レポートデータをタブ区切りの excel ファイルにエクスポートすることもできます。 <br/><br/> これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。 
+![ナンバー 3](../images/sfbcallout3.png)<br/>また、[ **excel にエクスポート**] ボタンをクリックまたはタップして、レポートデータをタブ区切りの excel ファイルにエクスポートすることもできます。 現在の日付から1年前までのデータをエクスポートすることができます。<br/><br/> これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 

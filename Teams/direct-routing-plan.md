@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 31f7723a98a1a94089dec74cda776ea30e09c014
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290387"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588200"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -29,7 +29,7 @@ ms.locfileid: "34290387"
 
 Microsoft Phone システムのダイレクトルーティングでは、サポートされている、ユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続することができます。  たとえば、次の図に示すように、この機能を使用して、Microsoft Teams クライアントとオンプレミスの PSTN 接続を構成できます。 
 
-![Microsoft Teams クライアントとのオンプレミス PSTN 接続の構成を示しています](media/PlanDirectRouting1-PSTNwithTeams.png)
+![オンプレミスの PSTN 接続の構成を示す図](media/PlanDirectRouting1-PSTNwithTeams.png "Microsoft Teams クライアントとのオンプレミス PSTN 接続の構成")
 
   > [!NOTE]
   > Skype for Business Online では、お客様が指定した SBC をペアリングすることもできますが、これには、SBC と Microsoft Cloud の間に、オンプレミスの Skype for business Server を展開するか、クラウドコネクタと呼ばれる特別なエディションの Skype for Business を使用する必要があります。 このシナリオは、ハイブリッドボイスと呼ばれています。 一方、直接ルーティングでは、サポートされている SBC と Microsoft Cloud の間で直接接続できます。 
@@ -89,10 +89,14 @@ Microsoft Teams メディアのファイアウォールの IP アドレスとポ
 - Microsoft Teams 
 - Microsoft 電話会議 
 
-電話会議ライセンスは、スケジュールされた会議に外部参加者を追加するために必要です。または、ダイヤルイン番号を指定します。 
- 
-  > [!NOTE]
-  > E5 ライセンスには、電話システムと電話会議の両方が含まれています。   
+> [!NOTE]
+> 1:1 通話からエスカレーションする場合は、電話会議のライセンスが必要です。
+
+> [!IMPORTANT]
+>  スケジュールされた会議に外部の参加者を追加したい場合は、電話会議のライセンスが*必要*です。また、ダイヤルイン番号を提供することによって、その会議に外部参加者を追加することもできます。
+
+> [!NOTE]
+> E5 ライセンスには、電話システムと電話会議の両方が含まれています。   
 
 さらに、次のことを確認する必要があります。
  

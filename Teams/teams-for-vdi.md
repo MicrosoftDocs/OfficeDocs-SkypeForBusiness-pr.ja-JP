@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 04/10/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: rafarhi
 description: 仮想化されたデスクトップインフラストラクチャ (VDI) 環境で Microsoft Teams を実行する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c351e0cefc5e4de4ff74a175af4dee064bf96f3f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1e88a5fb4e8522a94389e3bad24ddc3da8283a53
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223425"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588144"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 

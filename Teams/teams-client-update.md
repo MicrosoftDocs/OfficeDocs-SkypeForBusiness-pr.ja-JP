@@ -1,5 +1,5 @@
 ---
-title: チーム プロセスを更新します。
+title: チームの更新
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,38 +11,39 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: annaray
 search.appverid: MET150
-description: チームのデスクトップ クライアントを更新する方法について説明します。
+description: Teams デスクトップクライアントの更新方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08381341903d21deb42ca83b3769c49f67d18b14
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 436a2a3175cd057082c0e658ea5ab6d3db0364cc
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970277"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588184"
 ---
-# <a name="teams-update-process"></a>チーム プロセスを更新します。
+# <a name="teams-update-process"></a>Teams の更新プロセス
 
-チームの web アプリケーションは、毎週更新されます。
+Teams web app が毎週更新されます。
 
-チーム デスクトップ クライアント更新がリリースされた内部の厳格なテストおよび検証した後は 2 週間ごと、技術導入プログラム (タップ) を使用します。 これは通常、火曜日にします。 重要な更新が必要な場合は、チームはこのスケジュールを使用しないし、使用可能になるとすぐに更新プログラムをリリースします。
+Teams のデスクトップクライアントの更新プログラムは、skype の技術導入プログラムを通じて、社内の厳密なテストと検証の2週間ごとにリリースされます (タップ)。 通常、これは火曜日で行われます。 重要な更新が必要な場合は、チームはこのスケジュールを無視し、利用可能になったらすぐに更新プログラムをリリースします。
 
-デスクトップ クライアント自体が自動的に更新します。 チームのチェックは、バック グラウンドでいくつかの時間ごとの更新、ダウンロード、および、コンピューターに更新プログラムをサイレント モードでインストールする前にアイドル状態になるを待ちます。
+デスクトップクライアントは自動的に更新されます。 チームは、バックグラウンドで数時間ごとに更新プログラムを確認し、それをダウンロードした後、更新プログラムをサイレントインストールする前にコンピューターがアイドル状態になるまで待機します。
 
-上に**プロファイル**のドロップ ダウン メニューで [**更新プログラムの確認**] をクリックしてユーザーが更新プログラムを手動でダウンロード、アプリケーションの右です。 更新が利用可能な場合は、それがダウンロードされ、コンピューターがアイドル状態のときにサイレント モードでインストールされています。
+ユーザーは、アプリの右上にある [**プロファイル**] ドロップダウンメニューの [**更新プログラムの確認**] をクリックして、手動で更新プログラムをダウンロードすることもできます。 更新プログラムが利用可能な場合は、コンピューターがアイドル状態になったときにダウンロードされ、黙ってインストールされます。
 
-ユーザーは、ダウンロードする更新プログラム署名する必要があります。
+更新プログラムをダウンロードするには、ユーザーがサインインしている必要があります。 2019年7月9日に、Teams クライアントの更新では、更新中にネットワーク帯域幅が大幅に減少します。 これは既定でオンになっており、管理者またはユーザーが操作する必要はありません。
 
-## <a name="what-about-updates-to-office-365-proplus"></a>Office 365 用リソースへの更新について教えてください。
 
-チームは Office 365 用リソースの新規インストールでは既定でインストールされている[Office 365 用リソースを持つマイクロソフト チームの展開](https://docs.microsoft.com/DeployOffice/teams-install)で説明したようです。 
+## <a name="what-about-updates-to-office-365-proplus"></a>Office 365 ProPlus の更新プログラムについて
 
-チームは、上記で説明した、独自の更新プロセスと、更新プロセスではなく Word や Excel など、他のオフィス アプリケーションに依存します。
+Office は既定で、office 365 ProPlus の新しいインストールと共にインストールされます。詳しくは、「 [office 365 で Microsoft Teams を展開する ProPlus](https://docs.microsoft.com/DeployOffice/teams-install)」を参照してください。 
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>VDI のチームへの更新について教えてください。
+チームは、前に説明したように、独自の更新プロセスに従いますが、Word や Excel など、他のオフィスアプリの更新プロセスではありません。 詳細については、「 [Office 365 ProPlus の更新プログラムチャネルの概要」](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)を参照してください。
 
-チーム クライアント仮想デスクトップ インフラストラクチャ (VDI) では、VDI 以外のチームのクライアントがいることを自動的に更新されません。 [VDI のチームをインストール](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)する手順の説明に従って、新しい MSI をインストールすると、VM イメージを更新する必要があります。 新しいバージョンに更新する現在のバージョンをアンインストールする必要があります。
+## <a name="what-about-updates-to-teams-on-vdi"></a>VDI でのチームの更新について
 
-## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>管理者は、チームではなく更新プログラムを展開できる自動更新しますか?
+仮想デスクトップインフラストラクチャ (VDI) 上の Teams クライアントは、非 VDI Teams クライアントのように自動的には更新されません。 「Team を[VDI にインストール](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)する」の手順に従って、新しい MSI をインストールして、VM イメージを更新する必要があります。 最新バージョンに更新するには、現在のバージョンをアンインストールする必要があります。
 
-チームは、管理者が任意のデリバリ メカニズムを通じて更新プログラムを展開することを得られないは。
+## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>管理者がチームの自動更新の代わりに更新プログラムを展開することはできますか?
+
+チームは、任意の配信メカニズムを使用して更新プログラムを展開する権限を管理者に付与することはできません。
