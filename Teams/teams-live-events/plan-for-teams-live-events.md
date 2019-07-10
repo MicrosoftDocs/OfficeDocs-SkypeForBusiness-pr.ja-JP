@@ -1,8 +1,9 @@
 ---
 title: Microsoft Teams でのライブ イベントの計画
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -14,22 +15,22 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 7f5d3b21b1a41779a094ba7b782b309365bc9503
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013030"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602256"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
-お客様の組織内で大規模なミーティングを開催するような Teams ライブ イベントを計画する場合、そのイベントを立ち上げる前にいくつかの要素を考慮する必要があります。 
+組織で大規模な会議を開催するためにチームのライブイベントを計画している場合、すべての設定を始める前に考慮する必要がある要素がいくつかあります。 
 
 ## <a name="who-can-create-and-schedule-live-events"></a>ライブ イベントの作成とスケジュールを誰が行えるか。 
 ユーザーが Teams ライブ イベントをスケジュールするには、次の前提条件を満たす必要があります。
 
 以下に、割り当てられる必要のあるライセンスを示します。  
-- Office 365 Enterprise E1、E3 または E5 ライセンス、または Office 365 A3 または A5 ライセンス
+- Office 365 Enterprise E1、E3、または E5 ライセンス、または Office 365 A3 または A5 ライセンス
 - Microsoft Teams ライセンス
 - Microsoft Stream ライセンス
 
@@ -51,7 +52,7 @@ ms.locfileid: "35013030"
 - ストリームでライブイベントを作成する権限 (外部アプリまたはデバイスの生産の場合)。
 
 > [!IMPORTANT]
-> Office 365 ゲスト、フェデレーション ユーザー、匿名ユーザーは、Teams ライブ イベントのプロデューサーや発表者としては招待できません。 Office 365 ゲストとフェデレーション ユーザーは、ライブ イベントを匿名で視聴することのみ可能です。 
+> Office 365 ゲスト、フェデレーション ユーザー、匿名ユーザーは、Teams ライブ イベントのプロデューサーや発表者としては招待できません。 Office 365 ゲストとフェデレーションユーザーは、ライブイベントのみを匿名で視聴できます。 
  
 ## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか。
 
@@ -59,11 +60,12 @@ ms.locfileid: "35013030"
 |------------------------------|-----------------|----------------------|
 |パブリック (匿名ユーザー)      |  はい            |  いいえ                  |
 |ゲスト ユーザー                   |  いいえ<sup>1</sup> |  いいえ                  |
-|フェデレーション企業内の全員 |  いいえ<sup>1</sup> |  いいえ                  |
+|フェデレーション企業内の全員 |  <sup>2</sup> |  いいえ                  |
 |会社内の全員           |  可            |  はい                 |
 |特定のグループ/ユーザー      |  はい            |  はい                 |
 
-<sup>1</sup> ライブ イベントの匿名ユーザーとしての視聴のみ可能。
+live イベントが**組織全体**のオプションを使って設定されている場合、 <sup>1</sup>はライブイベントを監視できます。<br>
+<sup>2</sup>ライブイベントは、匿名ユーザーとしてのみ見ることができます。
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams ライブ イベントと Skype 会議ブロードキャスト
@@ -86,11 +88,11 @@ ms.locfileid: "35013030"
 |フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  | (近日公開) |該当なし |
 |発表者 – PSTN アクセス |X |&#x2714; (Teams) |N/A |
 |画面表示 |X |&#x2714; (Teams) |N/A |
-|PowerPoint 表示 (PPT 共有) |&#x2714; |X (画面共有により軽減) |N/A |
+|PowerPoint (PPT 共有) を表示する |&#x2714; |X (画面共有により軽減) |N/A |
 |クラウド ベースの会議記録 |&#x2714; |&#x2714; |&#x2714; |
 |ストリームにレコーディングを自動発行する |X |X |&#x2714; |
-|リアルタイム キャプションと翻訳 |&#x2714; |&#x2714; (近日公開) |X |
-|ライブ イベント記録のキャプション |&#x2714; |&#x2714; (近日公開) |&#x2714; |
+|ライブキャプションと字幕 |&#x2714; |&#x2714; |X |
+|ライブ イベント記録のキャプション |&#x2714; |&#x2714; |&#x2714; |
 |出席者の DVR 制御 (一時停止、巻き戻し) |&#x2714; |&#x2714; |&#x2714; |
 |Partner eCDN のサポート |&#x2714; (Hive、Kollective、Ramp) |&#x2714; (Hive、Kollective、Ramp) |&#x2714; (Hive、Kollective、Ramp) |
 |ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |X |
