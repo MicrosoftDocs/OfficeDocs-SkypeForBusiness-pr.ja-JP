@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: c590aad9bd3d81ef5d3ed6843c795e33156aa238
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 480929abef1bd6a388afdb995b7f727d5421bc7c
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394614"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614269"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -42,9 +42,6 @@ ms.locfileid: "35394614"
 - 自動応答には、関連するリソースアカウントが必要です。 リソースアカウントの詳細については、「[チームのリソースアカウントを管理](manage-resource-accounts.md)する」を参照してください。
 - 直接ルーティング番号の割り当てを計画している場合は、電話システムアドオンを使用して、 \(Office 365 Enterprise E1、E3、または E5 に、次のライセンスを取得し\)て割り当てる必要があります。
 - 代わりに Microsoft サービス番号を割り当てる場合は、電話システムアドオンを使用して、以下のライセンスを取得し\(て、Office 365 Enterprise E1、E3、または E5 に割り当てる必要が\)あります。
-
-> [!NOTE]
-> Microsoft は、クラウド自動応答や通話キューなどのアプリケーションのために、コストフリーのライセンスモデルを開発しています。これで、ユーザーライセンスモデルを使用する必要があります。
 
 > [!CAUTION]
 > 無料電話番号を取得して使用するには、通信クレジットを設定する必要があります。 これを行うには、[通信クレジットとは何か](what-are-communications-credits.md)を確認して、[組織の通信クレジットを設定](set-up-communications-credits-for-your-organization.md)します。
@@ -324,14 +321,14 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
 
 - [新しい-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
 - [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [CsAutoAttendant の入手](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps)
+- [CsAutoAttendant の入手](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)
 - [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
 - [CsAutoAttendant の削除](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
 - [新規-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
 - [新しい-Csonline Audiofile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
 - [新規-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [エクスポート-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps)
+- [エクスポート-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
 - [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
 - [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
 - [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)

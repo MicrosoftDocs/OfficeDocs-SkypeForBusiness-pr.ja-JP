@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05c870dd953a0be959c59996820b3f11bf721521
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 5bedaee766005787bb7b532f4f5561faf91dd35d
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591656"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614206"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -62,6 +62,9 @@ Microsoft Teams では、さまざまな Office 365 サービスと連携して�
 - ユーザーが Microsoft Teams でチームを作成するためには、Office 365 グループの作成について有効になっている必要があります。
 
 - Microsoft Teams で Exchange をオンプレミスで使用できるようにするには、「 [exchange と Exchange Online の間での oauth 認証の構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)」の説明に従って新しい Exchange OAuth 認証プロトコルを構成する必要があります。
+
+> [!NOTE]
+>Exchange のオンプレミスとチームの統合の場合、必要なライセンスを AAD の同期されたユーザーに割り当てる必要があります。
 
 ## <a name="additional-considerations"></a>その他の考慮事項
 
