@@ -130,7 +130,7 @@ Microsoft Teams への電話番号の移行についてよく寄せられる質�
 
 番号移行注文の申請を完了すると、その申請が処理されるまでに 7 日から 14 日かかります。ただし、サービス プロバイダーによっては、最大 30 日かかる場合があります。電話番号が移行されたら、準備が完了したことを知らせる電子メールを受け取ります。
   
-You can check the status of your port order by going to the Skype for Business admin center > **Voice** > **Port orders**. The status will be listed in the window under the **Status** column.
+ポート注文の状態を確認するには、「Skype for business 管理センター > の**音声** > **ポートの注文**」を参照してください。 The status will be listed in the window under the **Status** column.
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>ユーザー (加入者番号) の電話番号をサービス番号に変更できますか?
 <a name="bkmk_type_1"> </a>
