@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: skype for Business Server を Skype コンシューマーと接続する方法について説明します。 これは、Skype 接続とも呼ばれます。'
-ms.openlocfilehash: 1f03b873299828dedf6c0ffca113d60d277bf65c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eae06688e06f143011d4bd6559d6bcbb7b9b61aa
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302832"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643179"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype for Business Server に Skype の接続を展開する
- 
+
 **概要:** Skype for business Server を Skype コンシューマーに接続する方法について説明します。 これは、Skype 接続とも呼ばれます。
   
 ここでは、Skype Connectivity の展開について順を追って説明します。
@@ -96,49 +96,48 @@ Skype for Business Server は、フェデレーションアクセスアーキテ
 > [!NOTE]
 > Skype for Business Server がパブリック インスタント メッセージング接続 (PIC) を使用して Windows Messenger と接続するように既に構成されている場合、展開は、既に Skype Connectivity 用に構成されています。検討が必要と思われるのは、既存の Messenger PIC エントリの名前を Skype などに変更することだけです。 
   
-### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server"></a>Skype for business server のパブリック IM 接続プロビジョニングサイトへのアクセス
+### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>Skype for Business Server パブリック IM 接続プロビジョニングサイトは利用できなくなりました
 
-このプロビジョニング プロセスは、完了するまで最長で 30 日かかる可能性がありますが、要求量によっては数日のみで完了することもあります。Microsoft は、このドキュメントの残りの手順を完了する前に、このプロセスを先に開始することをお勧めします。Skype のプロビジョニング プロセスが完了した後、アカウントがアクティブになり、適格なユーザーのパブリック IM 接続が有効になります。 
+以前に Skype for Business のオンプレミスの展開と Skype の間のフェデレーションを手動でプロビジョニングするために使用されていたサイト。 Skype は不要になったため、8/15/2019 でシャットダウンされます。 Skype とのフェデレーションでは、フェデレーションパートナー検出が利用されるようになりました。これは、Skype for Business Online とのフェデレーションに必要なメカニズムと同じです。
+
+オンプレミスの Skype for Business の展開と、既存のパブリック IM インフラストラクチャを介した Skype ユーザーの間の通信には、オンプレミスエッジサーバー構成が Skype for Business Online と互換性がある必要があります。
+
+> [!NOTE]
+> ほとんどのお客様は、Skype for Business Online とフェデレーションされているすべての展開を含む、何もする必要はありません。
   
-Skype Connectivity をプロビジョニングするには、次の情報が必要です。
-  
-- Microsoft 契約番号
-    
-- アクセス エッジ サービスの完全修飾ドメイン名 (FQDN)
-    
-- セッション開始プロトコル (SIP) のドメイン
-    
-- 追加のアクセス エッジ サービスの FQDN
-    
-- 連絡先情報
-    
-Skype Connectivity のプロビジョニング プロセスを開始するには、次の手順に従います。
-  
-1. Microsoft Windows Live ID を使用https://pic.lync.comして、web サイトにサインインします。
-    
-2. Microsoft ライセンスの契約の種類を選びます。
-    
-3. チェック ボックスをオンにし、Skype for Business Server の製品使用権の内容を読んで同意したことを確認します。
-    
-4. プロビジョニング要求を開始するためのページで、適切なリンクをクリックしてプロビジョニング要求を開始します。
-    
-5. プロビジョニング情報を指定するためのページで、アクセス エッジ サービスの FQDN を入力します。 たとえば、sip.contoso.com と入力します。
-    
-    > [!IMPORTANT]
-    > 2017 年 7 月 1 日以降マイクロソフトは、パブリック インスタント メッセージの接続を機能し続けるために、お客様側でのフェデレーション DNS SRV レコードの展開を追加の必須要件とします。 
-  
-6. 少なくとも 1 つの SIP ドメイン名を入力し、[追加] をクリックします。
-    
-    > [!NOTE]
-    > プロビジョニング プロセスを完了するには、少なくとも 1 つのアクセス エッジ サーバーが必要です。1 つのアクセス エッジ FQDN で複数の SIP ドメインをサポートできますが、複数のアクセス エッジ FQDN で 1 つの SIP ドメインを表現することはできません。SIP ドメインとアクセス エッジ サーバーは、アクティブで、正常に機能し、ネットワーク上で到達可能である必要があります。 
-  
-7. [パブリック IM サービス プロバイダー] の一覧で [Skype] を選び、[次へ] をクリックして連絡先情報を追加し、プロビジョニング要求を送信します。
-    
-プロビジョニング要求が送信された後、アカウントをアクティブにして、ユーザーを Skype Connectivity で有効にするには、最長 30 日かかる可能性があります。ただし、キューによっては数日のみで済むこともあります。
-  
+オンプレミスの展開では、ホストしている各ドメインのフェデレーション DNS SRV レコードを公開する必要があります。 ガイダンスは DNS の[計画](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning)で利用できます。 各ドメインは、DNS SRV クエリによって、ドメインの最上位レベルのサフィックス一致を満たすエッジサーバーの FQDN に解決する必要があります。 たとえば、"contoso.com" というドメインを考えます。
+
+|**有効な Fqdn**|**コメント**|
+|:-----|:-----|
+|sip.contoso.com   ||
+|sipfed.contoso.com   |どちらの場合も、正確な FQDN が、エッジサーバーにインストールされている外部証明書の SN または SAN に存在している必要があります。   |
+|access.contoso.com   ||
+|**無効な Fqdn**|**理由**|
+|sip.contoso-edge.com   |サフィックスの一致ではありません。  |
+|sip.it.contoso.com   |トップレベルのサフィックスの一致ではありません。   |
+
+外部証明書に関するその他のガイダンスについては、「[証明書の計画](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning)」をご覧ください。
+
+#### <a name="faqs"></a>社外
+
+**プロビジョニング web サイトがシャットダウンされるのはなぜですか?**
+2006に展開されたパブリック IM (PIC) プロビジョニングメカニズム (pic.lync.com) は処理されなくなり、8/15/2019 でシャットダウンされます。 代わりに、パブリック IM フェデレーションは、"パートナー検出" と呼ばれる Skype for Business Online で使用されているのと同じフェデレーションモデルを前提としており、オンプレミスの展開はフェデレーション DNS SRV レコードによってパブリックに検出されます。
+
+**この変更は、パブリック IM フェデレーションが廃止されていることを意味しますか?**
+いいえ。 パブリック IM フェデレーションは、多くの場合、Skype for Business オンプレミス製品が終了するまで、引き続きサポートされます。
+
+**会社では、Skype for Business Online との間にハイブリッド関係 (共有アドレススペース) を使用していますが、影響はありますか?**
+いいえ。既に Skype for Business Online とのフェデレーションを行っているため、この変更によって影響を受けることはありません。
+ 
+**この変更は、会社が Skype for Business Online とのフェデレーションを有効にする必要があることを意味しますか?**
+いいえ。 Edge サーバーのプロキシ設定で、Skype for Business Online ホスティングプロバイダー (sipfed.online.lync.com) とのフェデレーションを有効にしない場合、この変更による影響はありません。 ただし、Skype for Business Online とのフェデレーションに適用されるのと同じ DNS と証明書の要件は、Skype ユーザーとのフェデレーションにも適用されるようになりました。
+ 
+**会社は大規模で、規制/コンプライアンス/その他の理由により、エッジ構成を変更することはできません。何ができますか?**
+指定したエッジサーバーの構成を変更できないオンプレミスの組織は、最も早い機会で製品サポートに連絡する必要があります。
+
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>フェデレーションとパブリック IM 接続 (PIC) の有効化
 
-プロビジョニング要求を送信した後は、Skype Connectivity を構成するために必要な、Skype for Business Server の環境と管理タスクに重点を移すことができます。このセクションでは、管理者は Skype for Business Server を展開し、外部アクセス (エッジ サーバーとも呼ばれます) を構成していることを前提としています。 
+次は、Skype for Business Server 環境と、Skype の接続を構成するために必要な管理タスクに重点を置いています。 このセクションでは、管理者は Skype for Business Server を展開し、外部アクセス (エッジ サーバーとも呼ばれます) を構成していることを前提としています。 
   
 フェデレーションと PIC を有効にするために必要な主な 3 つのステップは次のとおりです。
   
@@ -153,7 +152,7 @@ Skype Connectivity のプロビジョニング プロセスを開始するには
 フェデレーションは、Skype ユーザーが組織内の Skype for Business ユーザーと通信できるようにするために必要です。パブリック インスタント メッセージング接続 (PIC) はフェデレーションの 1 つのクラスで、また PIC を構成して Skype for Business ユーザーが Skype ユーザーと通信できるようにする必要があります。フェデレーションと PIC は、Skype for Business Server コントロール パネルを使用して構成します。
   
 > [!NOTE]
-> PIC フェデレーションは、Live Communication Server 2005 SP1 または Office Communications Server 2007 ではサポートされなくなりました。 PIC フェデレーションでサポートされているプラットフォームには、Skype for Business Server、Lync Server 2013、Lync Server 2010、Office Communications Server 2007 R2 があります。 
+> PIC フェデレーションは、Lync Server 2010 (Live Communications Server、Office Communications Server) より前の製品リリースでサポートされなくなりました。 PIC フェデレーションでサポートされているプラットフォームには、Skype for Business Server、Lync Server 2013、Lync Server 2010 が含まれています。 
   
 フェデレーションは、Skype ユーザーが組織内の Skype for Business ユーザーと通信できるようにするために必要です。パブリック インスタント メッセージング接続 (PIC) はフェデレーションの 1 つのクラスで、また PIC を構成して Skype for Business ユーザーが Skype ユーザーと通信できるようにする必要があります。フェデレーションと PIC は、次に示すように Skype for Business Server コントロール パネルの [エッジ構成] ダイアログを使用して構成します。
   

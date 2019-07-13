@@ -10,19 +10,26 @@ ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: Skype for Business Server 2015 および Lync 2013 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 26c203cc403e8b515597276570f1207cf2e39f35
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+description: Skype for Business Server 2015/2019 および Lync 2013 の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
+ms.openlocfilehash: dcc267be9c7a77ea0a472941ff298d993c08ae7c
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221859"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638582"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
-[Skype For Business server 2015](#skype-for-business-server-2015-update-history)、 [lync Server 2013](#lync-server-2013-update-history)、 [lync server 2010](#lync-server-2010-update-history)の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
+[Skype For Business server 2019](#skype-for-business-server-2019-update-history)、 [Skype for business server 2015](#skype-for-business-server-2015-update-history)、 [Lync server 2013](#lync-server-2013-update-history)、 [lync server 2010](#lync-server-2010-update-history)の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
 
 最新の Skype for Business Online および Office 365 の更新については、 [Microsoft 365 のロードマップ](https://go.microsoft.com/fwlink/p/?linkid=529454)をご覧ください。
+
+## <a name="skype-for-business-server-2019-update-history"></a>Skype for Business Server 2019 の更新履歴
+
+|パッケージ名|KB 番号|リリース日|
+|:--- |:--- |:--- |
+|Skype for Business Server 2019 累積更新プログラム1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
+| | | |
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 更新履歴
 

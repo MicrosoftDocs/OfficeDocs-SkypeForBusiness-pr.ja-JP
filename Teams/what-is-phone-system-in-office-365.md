@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '電話システムでできることについて説明します。 '
-ms.openlocfilehash: 60978b76eb6bf986c5db0b1a8ee04de1c5516c73
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548957"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643140"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは
 
@@ -41,9 +41,9 @@ ms.locfileid: "34548957"
   
 - Office 365 の通話プラン (国内または国内および国際電話) を購入します。 「[電話システムと通話プラン」を](calling-plan-landing-page.md)ご覧ください。
     
-- オンプレミスの PSTN 接続を使用して、オンプレミスのソフトウェアが既存のテレフォニーインフラストラクチャに接続されるようにします。 「[電話システムの計画](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)」をご覧ください。
 
-![クラウド PBX サービスについて説明する図](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
+- オンプレミスの PSTN 接続を使用して、オンプレミスのソフトウェアが既存のテレフォニーインフラストラクチャに接続されるようにします。 「 [Microsoft テレフォニーソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)」をご覧ください。
+
 
 ## <a name="more-about-calling-plans"></a>通話プランの詳細
 

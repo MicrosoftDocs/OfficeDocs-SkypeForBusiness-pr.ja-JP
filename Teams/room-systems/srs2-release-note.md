@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームでの累積的な改善点について説明します。
-ms.openlocfilehash: 39101550be48703c3feaa367e3740f9f3c7dba9f
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: f6fc9bb36a4b34d9e900666bf14df0c4d0893c46
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062412"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643132"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -27,6 +27,7 @@ ms.locfileid: "35062412"
 
 | リリース | 公開先 <br>Microsoft ストア | 
 | ---     | ---  |
+| 4.0.105.0 | 07/10/2019   |
 | 4.0.85.0 | 04/08/2019   |
 | 4.0.78.0 | 03/14/2019   |
 | 4.0.76.0 | 03/04/2019   |
@@ -53,6 +54,20 @@ ms.locfileid: "35062412"
 | RTM (1.0.8) | 12/7/2016  | 
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams の会議機能の概要と問題の解決
+### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
+
+この更新プログラムで導入されたもの:
+- Skype Room System store アプリのブランド変更 "Microsoft Teams Room"
+- Microsoft teams Room 本体のユーザーインターフェイスの Microsoft Teams への配置
+- [テーマの更新] を選ぶと、本体の背面にカスタムの背景画像のみが表示され、本体の UI コントロールが色のコントラストのアクセシビリティ要件を満たしていることを確認します。
+- Microsoft Teams PC/Web/モバイルクライアントで一貫したエクスペリエンスを提供するために、チームの通話と会議のため<sup></sup>の、会議中の通話コントロールのユニバーサルバー
+- Teams 通話/会議<sup>1</sup>の後の通話品質フィードバック評価
+- PC/Web/Mobile Teams クライアント<sup>1</sup><sup>2</sup>から共有されている場合の、Microsoft Teams での microsoft Teams の受付/Whitebord の表示  
+- Microsoft Teams Room client で見つかった互換性の問題により、Windows 10 バージョン1809へのアップグレードのサポートが削除されました。 Windows 10 バージョン19H1 サポートは今後のリリースで追加される予定です
+
+<sup>1</sup> teams の呼び出しを使って、Microsoft Teams のサービスをロールアウトします。 この機能は、4.0.105.0 クライアント更新プログラムより前または後で利用可能になっている可能性があります。
+
+<sup>2</sup> Microsoft ホワイトボード web を有効にするには IT 管理者が必要です。 さらに、room ディスプレイの前面にタッチしている場合は、Windows の [設定] を使用して複数のタッチディスプレイを調整する必要があります。この画面では、[collboration] を使って、会議に参加した後で Microsoft ホワイトボードを使用することができます。
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 

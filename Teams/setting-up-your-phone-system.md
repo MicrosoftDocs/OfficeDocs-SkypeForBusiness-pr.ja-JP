@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '組織の電話システム (クラウド PBX) の設定方法について説明します。 '
-ms.openlocfilehash: 304bdc58f8f2e077aa58dc4ded46f55387392374
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: b39307bd9f9ab2eb6802de46ffee97d180d4ff67
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588176"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643164"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 
@@ -224,7 +224,8 @@ Office 365 ユーザー用の電話番号の取得に加え、電話会議 (会�
 
 自動応答は、組織に電話をかけてくる方にメニュー システムを案内し、目的の部署、通話キュー、担当者、またはオペレーターにつなげます。Skype for Business 管理センターを使用して、組織の自動応答を作成できます。
 
-Skype for Business 管理センターで、新しい自動応答を作成するには、 [**通話ルーティング**]  >  [**自動応答**]、そして [**新規追加**]をクリックし、「[クラウドの自動応答を設定する](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant)」 の**手順 2** の指示に従って下さい。
+新しい自動応答を作成するには、Skype for business 管理センターで、[**通話ルーティング** > の**自動応答**]、[**新規追加**] の順にクリックして、「クラウド自動応答を作成する」の**手順 2**の各ページの指示に従います。 [](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+
 
 **クラウドの自動応答の詳細については、 「[クラウドの自動応答を設定する](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)」を参照してください。**
 

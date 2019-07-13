@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン会議ライセンスと会議 ID をユーザーとその他のさまざまなダイヤルイン会議設定に割り当てる方法については、「Skype for Business Online の手順」を参照してください。 '
-ms.openlocfilehash: e699cf51f3a9366cdd86004e48eeb18235849680
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: aef115d2882a368e085880a66332dc7d22e4ff04
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494248"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638566"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Skype for Business Online で組織の電話会議の設定を管理する
 
@@ -83,11 +83,11 @@ Skype for Business のすべての電話会議の設定を1か所で表示した
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    Windows PowerShell を使用して、次を実行することもできます。[](https://go.microsoft.com/fwlink/?LinkId=627285)
+    Windows PowerShell を使用して、次を実行することもできます。[](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>You can also use the Windows PowerShell and run:
 
-ユーザーに送信されるメール メッセージの、差出人の連絡先情報を変更する[](https://go.microsoft.com/fwlink/?LinkId=627285)
+ユーザーに送信されるメール メッセージの、差出人の連絡先情報を変更する[](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
 
 - Enter the email display name in the  _SendEmailFromDisplayName_ parameter.
 
@@ -103,7 +103,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 「ダイヤルイン会議の設定が変更されたユーザーにメールを自動的に送信する」を参照してください。
 
-会議 ID をリセットする[](https://go.microsoft.com/fwlink/?LinkId=627285)
+会議 ID をリセットする[](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
 
 職場または学校のアカウントを使用して、Office 365 にサインインします。[](emails-sent-to-users-when-their-settings-change.md)
 
