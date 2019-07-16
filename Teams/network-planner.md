@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaf2c2c7242c594d67af131d3a15224ddf16419c
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: c05aa9cba7305b755d4e9290467c92cf71244095
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35214824"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701568"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft Teams のネットワークプランナーを使用する
 
@@ -36,6 +36,8 @@ ms.locfileid: "35214824"
     > 推奨されるペルソナは、Teams の最適使用シナリオと一般的な使用パターンのデータに基づいて開発されました。 ただし、3つの推奨されるペルソナに加えて、最大3つのカスタムペルソナを作成することができます。
 
 - チームの利用状況に関するレポートを生成し、帯域幅要件を計算します。
+
+ネットワークプランナーを使用するには、グローバル管理者、Teams サービス管理者、またはチームコミュニケーション管理者である必要があります。
 
 ## <a name="create-a-custom-persona"></a>ユーザー設定のペルソナを作成する
 
@@ -95,3 +97,7 @@ ms.locfileid: "35214824"
     - 追加のビューには、推奨事項による全体的な帯域幅のニーズが表示されます。
 
 4. [**保存**] をクリックします。 レポートは、後で表示するためにレポートリストで利用できます。
+
+## <a name="example-scenario"></a>シナリオの例
+
+ネットワークプランナーを使用してネットワーク計画を設定し、これらの手順を使用してレポートを生成する方法の例については、[ネットワークプランナーの使い方に関する PowerPoint デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)(英語のみ) をダウンロードしてください。

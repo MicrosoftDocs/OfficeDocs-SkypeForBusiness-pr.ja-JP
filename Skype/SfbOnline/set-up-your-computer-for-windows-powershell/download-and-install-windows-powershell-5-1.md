@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Windows PowerShell 5.1 をダウンロード、インストール、および使用して、Skype for Business Online に接続するリモート PowerShell セッションを作成します。
-ms.openlocfilehash: 42c466d476b95228674b8a58cdeafca785496f4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285116"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701558"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Windows PowerShell 5.1 をダウンロードしてインストールする
 
@@ -71,7 +71,7 @@ Set-ExecutionPolicy RemoteSigned -Force
    
  
 > [!NOTE]
-> 上のコマンドを実行すると、次のエラーメッセージが表示されることがあります: > *Set-set-executionpolicy\\:\\registry\\Key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft PowerShell 1 ShellIds\\Micrsoft ' PowerShell ' が拒否されました。* このエラーメッセージは、通常、管理者の資格情報で PowerShell を実行していない場合に発生します。 PowerShell のセッションを終了し、管理者として新しいセッションを開始します。
+> 上のコマンドを実行すると、次のエラーメッセージが表示されることがあります。 > *set-executionpolicy: Registry\\key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1 ShellIds\\Micrsoft ' PowerShell ' が拒否されました。* このエラーメッセージは、通常、管理者の資格情報で PowerShell を実行していない場合に発生します。 PowerShell のセッションを終了し、管理者として新しいセッションを開始します。
  
 実行ポリシーが正しく構成されていることを確認するには、PowerShell プロンプトで次を入力してから ENTER を押します。
   
@@ -93,7 +93,7 @@ Windows Management Framework 5.1 をインストールする前に、次の操�
 
 どのバージョンの Windows を実行しているかわからない場合、または Windows 7 Service Pack 1 をインストール済みであるかわからない場合は、[ **スタート**] をクリックして、[ **コンピューター**] を右クリックしてから [ **プロパティ**] をクリックします。この情報は [システム] ダイアログ ボックスで報告されます。
   
-Windows Management Framework 5.1 をインストールするには、「 [WMF 5.1 をインストールして構成](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)する」の手順を実行します。
+Windows Management Framework 5.1 をインストールするには、「 [WMF 5.1 をインストールして構成](https://docs.microsoft.com/powershell/wmf/setup/install-configure)する」の手順を実行します。
   
 コンピューターが再起動した後に、Windows PowerShell が開始できることと、管理者の資格情報でアプリケーションが実行できることを検証します。その手順は次のとおりです。
   
