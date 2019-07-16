@@ -206,7 +206,7 @@
 ##### [ラトビア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md)
 ##### [Lithuania](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md)
 ##### [ルクセンブルク](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md)
-##### [マケドニア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md)
+##### [北マケドニア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md)
 ##### [マレーシア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md)
 ##### [マルタ](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
 ##### [メキシコ](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
@@ -301,6 +301,7 @@
 ### [通話の共有およびグループ通話ピックアップ](call-sharing-and-group-call-pickup.md)
 ### [通話ポリシー](teams-calling-policy.md)
 ### [回線共有機能](shared-line-appearance.md)
+### [ ユーザーによって Teams のクライアントの PSTN 通話がブロックされるしくみを理解する](block-pstn-calls-on-Teams-clients.md)
 
 
 ## 通話プラン
@@ -409,7 +410,7 @@
 #### [ラトビア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md)
 #### [Lithuania](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md)
 #### [ルクセンブルク](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md)
-#### [マケドニア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md)
+#### [北マケドニア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md)
 #### [マレーシア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md)
 #### [マルタ](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
 #### [メキシコ](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
