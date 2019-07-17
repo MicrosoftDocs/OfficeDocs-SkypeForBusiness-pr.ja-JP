@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d36116cad009e7207ff4bbfc5d5617e0a3eff434
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 245178cf8119c97d67125d7523704a6e01aab357
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221067"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758913"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -29,7 +29,7 @@ Microsoft Teams は、お客様の期待に応える高度セキュリティお�
 
 Teams は Tier D 準拠です。これにより、ISO 27001、ISO 27018、SSAE16 SOC 1 および SOC 2、HIPAA、EU モデル契約条項 (EUMC) といった標準に対応します。Microsoft コンプライアンス フレームワークにおいて、Microsoft は Office 365 のアプリケーションとサービスを 4 つのカテゴリに分類しています。各カテゴリは、そのカテゴリのリストに記載されるために Office 365 サービスや関連するマイクロソフトのサービスが満たす必要のある、特定のコンプライアンス コミットメントによって定義されます。
 
-業界をリードするコンプライアンスへの取り組みを実施しているコンプライアンス カテゴリ C および D のサービスは、既定で有効になっています。カテゴリ A と B のサービスでは、組織全体に対してオンまたはオフにする制御が用意されています。詳細については、「[Compliance Framework for Industry Standards and Regulations (業界の規格と規制のコンプライアンス フレームワーク)](https://go.microsoft.com/fwlink/?linkid=855777)」をご覧ください。Teams はクラウド セキュリティ アライアンス (CSA) にも準拠しています。
+業界をリードするコンプライアンスへの取り組みを実施しているコンプライアンス カテゴリ C および D のサービスは、既定で有効になっています。カテゴリ A と B のサービスでは、組織全体に対してオンまたはオフにする制御が用意されています。詳細については、「[Compliance Framework for Industry Standards and Regulations (業界の規格と規制のコンプライアンス フレームワーク)](https://go.microsoft.com/fwlink/?linkid=855777 invalid link redirecting to non existing page.)」をご覧ください。Teams はクラウド セキュリティ アライアンス (CSA) にも準拠しています。
 
 Teams はチーム全体および組織全体の 2 要素認証、Active Directory を介したシングル サインオン、移動中および静止中のデータの暗号化も実施します。 ファイルは SharePoint に格納され、SharePoint 暗号化が適用されます。 メモは OneNote に格納され、OneNote 暗号化が適用されます。 OneNote データはチームの SharePoint サイトに格納されます。 Wiki タブを使用してノートを取ることもできます。また、その内容もチームの SharePoint サイトに格納されます。
 

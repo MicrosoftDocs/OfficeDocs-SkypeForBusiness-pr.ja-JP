@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: このトピックを使用して、Skype for Business Server 2015 サーバーを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、サーバーファームのインストールと展開を成功させるのに役立ちます。'
-ms.openlocfilehash: 74b1a26f38a0055c8222b980754106011a86ce34
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 368c719ac4e61b62ab4c52c50433bf6cc996c886
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134262"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758950"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -75,7 +75,7 @@ Skype for Business Server 2015 の展開を開始する前に、いくつかの�
 このリストにない場合は、正常に動作しません。 Skype for Business Server 2015 の新しいインストールでは試してください。
   
 > [!NOTE]
-> Windows Server 2008 R2 がこの一覧に表示されない場合があります。 これは、すべての新しいサーバーが SFB に使用されるように Windows Server 2012 R2 を推奨するためです。 既存のサーバーに Lync Server 2013 がインストールされている場合にのみ、Windows Server 2008 R2 を使用する必要があります。これは、インプレースアップグレードを実行することを目的としています。 Windows Server 2008 R2 は、1/13/2015 のメインストリームサポートライフサイクルの終わりに達しました。 
+> Windows Server 2008 R2 がこの一覧に表示されない場合があります。 これは、すべての新しいサーバーが SFB に使用されるように Windows Server 2012 R2 を推奨するためです。 既存のサーバーに Lync Server 2013 がインストールされている場合にのみ、Windows Server 2008 R2 を使用する必要があります。これは、インプレースアップグレードを実行することを目的としています。 Windows Server 2008 R2 は、1/13/2015 のメインストリームサポートライフサイクルの終わりに達しました。これは、1/14/2020 のサポートライフサイクルの終わりに到達します。
   
 最新のサービス パック以外にも、関連性がある場合は次の更新プログラムをインストールする必要があります。
   

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Skype for Business Online と Teams の構成の観点から直接ルーティングに移行するために必要なものについて説明します。
-ms.openlocfilehash: c9c8cafdf6e49dc127dee4cb76a92dae13b5c0b9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49980a0364e729fc41e6fe716de336a8a28f85bb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290424"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35759009"
 ---
 # <a name="migrate-to-direct-routing"></a>ダイレクト ルーティングに移行する
 
@@ -72,7 +72,7 @@ OnPremLineURI |N/A|電話番号はオンプレミスの広告から同期され�
 - [ダウンロード-Csonlin¥ Location](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
-ここでは、前に説明したように、構成済みのライセンス計画の情報を削除することをお勧めします。
+以前に構成されたライセンスプラン情報は、次の方法で削除することをお勧めします。
  
 ```
 $companyname = “contoso” 

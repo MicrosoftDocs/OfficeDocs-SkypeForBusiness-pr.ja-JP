@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 従来のプールとの間でパイロットプールを共存させるプロセス。
-ms.openlocfilehash: dd2edd2e6ecef26b22ba9bf5c093c631866110ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b41a1f24786fdf807f9c9c1d5854e397654fdadb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280654"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758905"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>パイロット プールとレガシ プールの共存の確認
 
@@ -65,7 +65,7 @@ Skype for Business Server 2019 展開のフロントエンドサーバーから�
 ## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>従来のトポロジビルダーでトポロジを開かないようにします。
 <a name="sectionSection2"> </a>
 
-従来のトポロジビルダーを使用してトポロジを開こうとすると、次のようなエラーが発生します。 このトポロジを表示するには、Skype for Business Server 2019 Topology Builder を使用します。 Skype for business server 2019 トポロジビルダーを使用して、Skype for Business Server 2019 と従来のインストールの両方のプールを作成する必要があります。
+このトポロジを表示するには、Skype for Business Server 2019 Topology Builder を使用します。 Skype for business server 2019 トポロジビルダーを使用して、Skype for Business Server 2019 と従来のインストールの両方のプールを作成する必要があります。
 
   
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: '概要: Skype for Business Server 展開オプションのシナリオを確認します。 単一サーバーを使用したいと考えている場合も、DNS または HLB と共にサーバー プールを使用することを優先する場合も、このトピックは役に立ちます。'
-ms.openlocfilehash: 6ef0fc7a19703d6eba0ec3bfa66c0b37fcece53f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297072"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758943"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Skype for Business Server 向け Advanced Edge Server DNS の計画
  
@@ -112,7 +112,7 @@ Skype for Business クライアントは、以前のバージョンの Lync ク�
     
 - 境界ネットワーク内のすべての Skype for Business Server 内部エッジインターフェイスは、この内部 DNS ゾーンを使って、contoso.com へのクエリを解決します。
     
-- Skype for Business を実行しているすべてのサーバー、および社内ネットワークの Skype for Business Server を実行しているクライアント、contoso.com へのクエリを解決するための内部 DNS サーバー、または各エッジサーバー上のホストファイルを使用している場合、または、IPv6 アドレス) 次ホップサーバーのレコード (特にディレクターまたはディレクタープール VIP、フロントエンドプール VIP、または Standard Edition server)。
+- Skype for Business Server を実行しているすべてのサーバー、および企業ネットワーク内の Skype for Business Server を実行しているクライアント、contoso.com へのクエリを解決するための内部 DNS サーバー、または各エッジサーバー上のホストファイルを使用している場合は、(使用している場合)IPv6 アドレス) 次ホップサーバーのレコード (特にディレクターまたはディレクタープール VIP、フロントエンドプール VIP、または Standard Edition server)。
     
 ### <a name="external-dns"></a>外部 DNS
 
