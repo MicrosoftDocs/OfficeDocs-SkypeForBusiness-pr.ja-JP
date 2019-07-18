@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e88a5fb4e8522a94389e3bad24ddc3da8283a53
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 132bd532ae8f7da98edb38a81363b4d5b6501532
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588144"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768149"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -215,7 +215,7 @@ Teams デスクトップアプリを展開するためのプロセスとツー�
 
 - **他のユーザーが作成した通話と会議への参加**: ポリシーでは、ユーザーが会議を作成することを制限していますが、他のユーザーが会議からダイヤルアウトした場合でも会議に参加できます。 この会議では、ユーザーのビデオ共有機能、ホワイトボードなどの機能は、TeamsMeetingPolicy を使用してこれらの機能を無効にしたかどうかによって異なります。  
 - **キャッシュ**されたコンテンツ: Teams が実行されている仮想環境が永続的ではない場合 (各ユーザーセッションの終了時にデータがクリーンアップされた場合)、ユーザーが同じユーザーにアクセスしたかどうかに関係なく、コンテンツの更新によるパフォーマンスの低下が発生する可能性があります。以前のセッションのコンテンツ。
-- **クライアントの更新**: vdi 上の teams は、非 vdi teams クライアントと同じように自動的に更新されることはありません。  「 [VDI 上の Teams をインストール](#install-teams-on-vdi)する」セクションで説明されているように、新しい MSI をインストールして VM イメージを更新する必要があります。 最新バージョンに更新するには、現在のバージョンをアンインストールする必要があります。
+- **クライアントの更新**: VDI 上の Teams は、コンピューター単位の MSI インストールによって自動的に更新されることはありません。 「 [VDI 上の Teams をインストール](#install-teams-on-vdi)する」セクションで説明されているように、新しい MSI をインストールして VM イメージを更新する必要があります。 最新バージョンに更新するには、現在のバージョンをアンインストールする必要があります。
 - **ユーザーエクスペリエンス**: vdi 環境での Teams ユーザーエクスペリエンスは、非 VDI 環境とは異なる場合があります。 違いは、ポリシー設定や環境での機能のサポートが原因である可能性があります。
 
 VDI に関連していない Teams の既知の問題については、「 [Microsoft teams の既知の問題](Known-issues.md)」を参照してください。

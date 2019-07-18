@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: このトピックを使用して、Skype for Business Server 2015 サーバーを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、サーバーファームのインストールと展開を成功させるのに役立ちます。'
-ms.openlocfilehash: 368c719ac4e61b62ab4c52c50433bf6cc996c886
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: 34e00f3b53dbec6699b7cc5980f7c608cf5e883b
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758950"
+ms.locfileid: "35768048"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -88,6 +88,7 @@ Skype for Business Server 2015 の展開を開始する前に、いくつかの�
 ## <a name="back-end-databases-that-will-work-with-skype-for-business-server-2015"></a>Skype for Business Server 2015 で動作するバックエンド データベース
 <a name="DBs"> </a>
 
+
 Skype for Business Server 2015 Standard Edition をインストールすると、SQL Server 2014 Express (64 ビット版) が自動的にインストールされます。
   
 Skype for Business Server 2015 Enterprise Edition は少し複雑ですが、サポートされている一覧は以下のとおりです (すべては64ビット版ですが、32ビットエディションは使用しないでください)。
@@ -99,8 +100,9 @@ Skype for Business Server 2015 Enterprise Edition は少し複雑ですが、サ
    
 使用したい SQL Server エディションがここに表示されていない場合は、使用できません。
   
-> [!NOTE]
-> また、監視サーバーの役割の SQL Server Reporting Services をインストールする必要もあります。
+- また、監視サーバーの役割の SQL Server Reporting Services をインストールする必要もあります。
+- 適切に接続された SQL バックエンドの場合、Skype for Business のフロントエンドへの接続は、低速リンクではなく、ローカルである必要があります。 
+- 2つ以上のプール間で SQL バックエンドを共有することはサポートされていません。
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange ストレージ
 Meeting content files, such as PowerPoint presentations, are archived as attachments. Skype for Business アーカイブデータを Exchange のコンプライアンスデータと共に保存する場合は、exchange を exchange に展開して、最大記憶域サイズが会議コンテンツファイルのストレージをサポートしていることを確認する必要があります。 Microsoft Exchange 統合オプションを使用して、アーカイブを展開して有効にする前に、Exchange を展開する必要があります。 

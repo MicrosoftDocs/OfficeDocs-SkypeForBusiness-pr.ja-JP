@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: '概要: Skype for Business Server での統合された音声および通信ソリューションの計画に関するオプションについて説明します。'
-ms.openlocfilehash: 896bdcaabce3a22a9cda20a3eee108c3bb85e4f9
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.openlocfilehash: ec2e4710f238529b448a0388a3347e40611ee7d4
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35602170"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768033"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Skype for Business Server でエンタープライズ Voip ソリューションを計画する
  
@@ -27,7 +27,7 @@ ms.locfileid: "35602170"
   
 Skype for Business Server では、組織の電話システムと Skype for Business Server の展開を統合し、真の統合コミュニケーションを実現するために、オンプレミスのエンタープライズ音声オプションを2つ提供します。ソリューション. どちらのオプションでも、ユーザーは Skype for Business クライアントを使用して、組織内外の他のユーザーとの音声通話を開始することができます。
   
-オンプレミスのテレフォニーインフラストラクチャを Skype for Business Online によって提供されるサービスに接続することによって、PBX サービスや PSTN 通話などの Microsoft Cloud PBX サービスを利用することもできます。 詳細については、「 [Microsoft Teams のクラウドの音声](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)」を参照してください。
+オンプレミスのテレフォニーインフラストラクチャを Skype for Business Online によって提供されるサービスに接続することによって、PBX サービスや PSTN 通話などの Microsoft Cloud PBX サービスを利用することもできます。 詳細については、「 [Microsoft テレフォニーソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)」を参照してください。
   
 エンタープライズボイスと通話の両方を共同作業で使用することもできます。
   

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e90d8fc91e98063e7d63d8c87d3c4f515e6546c6
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588200"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768165"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -89,14 +89,15 @@ Microsoft Teams メディアのファイアウォールの IP アドレスとポ
 - Microsoft Teams 
 - Microsoft 電話会議 
 
-> [!NOTE]
-> 1:1 通話からエスカレーションする場合は、電話会議のライセンスが必要です。
 
 > [!IMPORTANT]
 >  スケジュールされた会議に外部の参加者を追加したい場合は、電話会議のライセンスが*必要*です。また、ダイヤルイン番号を提供することによって、その会議に外部参加者を追加することもできます。
 
 > [!NOTE]
-> E5 ライセンスには、電話システムと電話会議の両方が含まれています。   
+> 電話会議ライセンスは、次の*目的で必要*です。
+> - 1:1 通話からグループ通話へのエスカレート。
+> - ダイヤルアウトまたはダイヤルイン番号を提供することで、スケジュールされた会議に外部参加者を追加します。 
+
 
 さらに、次のことを確認する必要があります。
  
