@@ -3,7 +3,6 @@ title: Microsoft Teams でのゲスト アクセスを承認する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/01/19
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11b088cd78e08263a18a646cd774d43e1294b028
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3808a587de81c9d32fec15fce7bd942594b3aa82
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222015"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758921"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
@@ -122,3 +121,7 @@ Teams で接続したチーム サイトの SharePoint Online 外部ユーザー
 ## <a name="guest-access-vs-external-access-federation"></a>ゲスト アクセスと外部アクセス (フェデレーション)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="related-topics"></a>関連トピック
+
+- [Microsoft 365 ゲストの共有設定のリファレンス](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)
