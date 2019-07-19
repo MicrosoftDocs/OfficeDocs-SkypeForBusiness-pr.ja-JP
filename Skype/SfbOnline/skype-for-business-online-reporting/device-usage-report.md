@@ -18,13 +18,13 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイスの使用状況レポートを使って、Skype for business アプリがインストールされていて、IM および会議で使用している Windows ベースのオペレーティングシステムやモバイルデバイスなどのデバイスを確認できます。 詳細については、Office 365 管理センターでアクティビティレポートを確認してください。'
-ms.openlocfilehash: aa96fc36e2efd5574bc363b8a199007a60060338
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイスの使用状況レポートを使って、Skype for business アプリがインストールされていて、IM および会議で使用している Windows ベースのオペレーティングシステムやモバイルデバイスなどのデバイスを確認できます。 詳細については、管理センターでアクティビティレポートを確認してください。'
+ms.openlocfilehash: e5fade6e28c935a8ff454afc47d77cc691372d83
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280775"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793122"
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況のレポート
 
@@ -35,11 +35,11 @@ ms.locfileid: "34280775"
 このレポートは、他の Skype for Business レポートと共に、組織全体で使用されるクライアント/デバイスの種類について詳しく説明します。 これらの詳細は、組織でその他のビジネス上の決定を調査、計画、実行しているときに役立ちます。
   
 > [!NOTE]
-> 管理者として Office 365 管理センターにログオンすると、すべての Skype for Business レポートを見ることができます。 
+> Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>Skype for Business デバイスの使用状況レポートを取得する方法
 
-1. **Office 365 管理センター** > の [**レポート** > の**利用状況]** に移動します。
+1. [管理センター >**レポート** > の**利用状況]** に移動します。
     
 2. [**利用状況**] ページで、左側の [**レポートの選択] ボックスの一覧**の [ **Skype for business デバイスの使用状況**] をクリックします。 または、skype for business**アクティビティ**ウィジェットをクリックし、 **skype for business アクティビティ**リストで [ **skype for business デバイスの使用状況**] をクリックします。
     
@@ -84,7 +84,7 @@ Skype for Business アプリを使用しているデバイスを表示するに�
 *    ユーザーが Skype for Business クライアントアプリを iPhone にインストール済みで使用している場合は、[ **iphone** ] が選択されます。 
 *    ユーザーが Skype for Business クライアントアプリを iPad にインストール済みで使用している場合は、[ **ipad** ] が選択されます。 
 
-組織のポリシーにより、ユーザー情報を特定できるレポートを表示できない場合は、これらすべてのレポートのプライバシー設定を変更できます。 [Office 365 管理センターのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)で、[**ユーザーレベルの詳細を非表示にする方法**] セクションを確認します。 
+組織のポリシーにより、ユーザー情報を特定できるレポートを表示できない場合は、これらすべてのレポートのプライバシー設定を変更できます。 [管理センターのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)で、[**ユーザーレベルの詳細を非表示にする方法**を教えてください。] セクションを確認します。 
 ***
 ![数値8](../images/sfbcallout8.png)<br/>任意の列の**列**アイコンをクリックまたはタップして、レポートに列を追加または削除します。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
@@ -109,7 +109,7 @@ Skype for Business アプリを使用しているデバイスを表示するに�
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
 ## <a name="related-topics"></a>関連トピック
-[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Business Premium プランを購入する方法について説明します。 '
-ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0e1c5ebe64c105e15485c0722920ec1437d05b27
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290075"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792894"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -61,7 +61,7 @@ ms.locfileid: "34290075"
 
  **電話会議と通信クレジットを取得するには:**
 
-1. Office 365 管理センターにサインインします。
+1. 管理センターにサインインします。
 
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
 
@@ -73,8 +73,8 @@ ms.locfileid: "34290075"
 
 1. E1 か E3 プランに切り替えます。
 
-2. Go to Office 365 admin center > **Billing** > **Subscriptions**.
+2. [管理センター >**課金** > の**サブスクリプション**に移動します。
 
-3. [ **アドオン**] を選択します。これで、電話システムの価格と、それを購入するためのオプションが表示されます。
+3. [ **アドオン**] を選択します。 これで、電話システムの価格と、それを購入するためのオプションが表示されます。
 
 4. **電話システム** ライセンスを購入すると、通話プランを購入するオプションと価格が表示されます。

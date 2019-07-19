@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: この記事では、Skype for Business Online および ExpressRoute の核となるコール フローの原則について説明し、これらのサービスを正しく理解し計画できるよう詳細な例をいくつか示します。
-ms.openlocfilehash: 3d03b9db85d14797a161d781f5bee16edeb581b2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 59198cf24445ba486b193436b4374fea6698f146
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279085"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792632"
 ---
 # <a name="call-flow-using-expressroute"></a>ExpressRoute を使用したコール フロー
 
@@ -80,7 +80,7 @@ Skype for Business Online のネットワーク トラフィックは、大き�
 
 トラフィックの宛先については、すべての Office 365 サービスの「[Office 365 URL および IP アドレス範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)」を参照してください。 URL ごとに、トラフィックの部分が Office 365 向け ExpressRoute をトラバースするかどうかを示します。 ExpressRoute が有効になっているときに、インターネットが一部のトラフィックでまだ使用されていることを示す図については、「 [Office 365 用 Azure ExpressRoute](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd)」を参照してください。 ExpressRoute 経由でルーティング可能としてリストされる URL がインターネット経由でもルーティング可能であることを理解することは重要です。 つまり、一部のシナリオでは、インターネットまたは ExpressRoute が使用されるかどうかに関する決定は、クライアントの場所と、プロキシ サーバーおよびファイアウォールの構成に依存します。 また、Office 365 と関連付けられているすべての URL が ExpressRoute を使用できるわけではないため、ExpressRoute を ExpressRoute パートナーから購入した場合でもインターネット接続は必要です。
 
-インターネット経由でのみ送信可能なトラフィックには、Certificate Revocation Lists (CRL)、DNS ルックアップ、名前解決などの共通インターネット依存関係、Office 365 管理センター向けなどの共有 Office 365 サービスの URL、Skype 消費者との相互運用性用テレメトリーおよびフェデレーション、および Skype 会議ブロードキャスト用にストリームされるメディアなどの Skype for Business Online の一部の非リアルタイム通信機能が含まれます。意思決定に役立てるため、ネットワーク ルーティング計画時の考慮事項について、「[Office 365 向け ExpressRoute でのルーティング](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)」を参照してください。
+インターネット経由でのみ送信できるトラフィックには、証明書失効リスト (Crl)、DNS 参照と名前解決などの共通のインターネット依存関係、Microsoft 365 管理センターなどの共有 Office 365 サービスの Url が含まれます。skype for Business Online のリアルタイム通信機能。 skype コンシューマーとの相互運用性を実現するためのコミュニケーション機能、および Skype 会議ブロードキャスト用のストリーミングメディア。 意思決定に役立てるため、ネットワーク ルーティング計画時の考慮事項について、「[Office 365 向け ExpressRoute でのルーティング](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)」を参照してください。
 
 ## <a name="principles-for-call-flows-with-skype-for-business"></a>Skype for Business によるコール フローの原則
 

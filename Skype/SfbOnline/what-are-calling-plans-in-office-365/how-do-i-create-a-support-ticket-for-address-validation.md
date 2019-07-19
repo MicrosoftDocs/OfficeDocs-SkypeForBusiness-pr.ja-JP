@@ -20,12 +20,12 @@ f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: fd3544c287dca28c1ab0408ee58209d8f9e8a7b6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4cd11e97978ea0439fd918f4e6c2e854a822e908
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305425"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793336"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>住所検証のためのサポート チケットを作成する方法を教えてください。
 
@@ -36,7 +36,7 @@ ms.locfileid: "34305425"
 
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>150 ユーザー以下の組織の場合は、次の手順を実行します。
-1. [**Office 365 管理センター**] で、[**ヘルプが必要ですか?**] を選択します。
+1. 管理センターで、[**ヘルプが必要**ですか?] を選択します。
 2. [**ヘルプが必要ですか?**] ペインで、どのようなヘルプが必要かを伝えて、[**問い合わせ**] を選択します。
 3. [**解決策を表示**] セクションの結果が役に立たない場合は、次のいずれかを選択します。
     - [**電話連絡を許可 (推奨)**]: 連絡先番号を確認して、[**折り返し連絡**] を押します。 折り返し連絡されるまでの待ち時間の予測が [**ヘルプが必要ですか?**] ペインに示されます。
@@ -46,7 +46,7 @@ ms.locfileid: "34305425"
 
 1. 職場または学校のアカウントを使用して、Office 365 に管理者としてサインインします。
     
-2. Office 365 管理センターの左側のナビゲーションで、[**サポート**] > [**新しいサービス リクエスト**] をクリックします。
+2. 管理センターの左側のナビゲーションで、[**新しいサービスリクエスト**の**サポート** > ] をクリックします。
     
 3. [**サービス リクエスト**] で、[**追加**] をクリックします。
     
@@ -96,7 +96,7 @@ ms.locfileid: "34305425"
 8. 情報を確認して、[**リクエストの送信**] をクリックします。
     
 > [!TIP]
-> Office 365 管理センターの [**サービス リクエスト**] ページに、参照番号が表示されます。
+> 参照番号は、Microsoft 365 管理センターの [**サービスリクエスト**] ページに表示されます。
   
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)

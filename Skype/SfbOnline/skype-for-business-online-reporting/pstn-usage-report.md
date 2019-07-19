@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '[新しい Skype for Business 管理センターのレポート] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 通話のコストなど、電話会議の PSTN 利用状況の詳細を表示して、組織内での使用状況を特定するために、使用状況を理解し、請求の詳細を呼び出すことができます。'
-ms.openlocfilehash: 3d5ea4552cec8e9f10ad0108dad4c00875918c0e
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: bb6c2456a103782caea72baef5ac6e8df26a24a2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35587918"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793082"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
 
@@ -34,13 +34,13 @@ ms.locfileid: "35587918"
 このレポートとその他の Skype for Business レポートを使用すると、組織全体での利用状況などのアクティビティについて詳しく知ることができます。 これらの情報は、組織のビジネスに関する調査、計画、その他の意思決定を行ったり、[通信クレジット](/microsoftteams/what-are-communications-credits)を設定したりする際に非常に役立ちます。
   
 > [!NOTE]
-> Office 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
+> Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Skype for Business の PSTN 使用状況詳細レポートを取得する方法
 
 ![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
-- **Office 365 管理センター** > **管理** > **の Skype for business 管理** > センターの**レポート** > **PSTN 使用状況の詳細**を表示します。
+- 管理センターに移動して >**管理** > **Skype for business 管理センター** > **レポート** > **PSTN 使用量の詳細**をレポートします。
     
     > [!NOTE]
     > Office 365 のサブスクリプションによっては、ここに表示される製品やレポートの一部が表示されないことがあります。 
@@ -127,7 +127,7 @@ ms.locfileid: "35587918"
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
 ## <a name="related-topics"></a>関連トピック
-[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
  

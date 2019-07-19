@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 318473355d11017135c53319808a7423767cfe85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6564c57cee0821aa0e9204692f160b154ee5513b
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286154"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792652"
 ---
 # <a name="peer-to-peer-activity-report"></a>ピアツーピア アクティビティ レポート
 
@@ -37,11 +37,11 @@ ms.locfileid: "34286154"
 このレポートと他の Skype for Business レポートを使用すると、組織全体のアクティビティについて詳しく知ることができます。 これらの詳細は、組織でその他のビジネス上の決定を調査、計画、実行しているときに役立ちます。 
   
 > [!NOTE]
-> 管理者として Office 365 管理センターにログオンすると、すべての Skype for Business レポートを見ることができます。 
+> Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Skype for Business ピアツーピア アクティビティ レポートを取得する方法
 
-1. **Office 365 管理センター** > の [**レポート** > の**利用状況]** に移動します。
+1. [管理センター >**レポート** > の**利用状況]** に移動します。
     
 2. [**利用状況**] ページで、左側の [**レポートの選択] ボックスの一覧**の [ **Skype for business ピアツーピアアクティビティ**] をクリックします。 または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business ピアツーピアアクティビティ**] をクリックします。
     
@@ -93,7 +93,7 @@ ms.locfileid: "34286154"
 *    [ **音声 (分)**] は、組織全体で使用された音声の分単位の時間の合計数を示します。 
 *    [ **ビデオ (分)**] は、組織全体で使用されたビデオの分単位の時間の合計数を示します。 
 
-組織のポリシーにより、ユーザー情報を特定できるレポートを表示できない場合は、これらすべてのレポートのプライバシー設定を変更できます。 [Office 365 管理センターのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)で、[**ユーザーレベルの詳細を非表示にする方法**] セクションを確認します。 
+組織のポリシーにより、ユーザー情報を特定できるレポートを表示できない場合は、これらすべてのレポートのプライバシー設定を変更できます。 [管理センターのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)で、[**ユーザーレベルの詳細を非表示にする方法**を教えてください。] セクションを確認します。 
 ***
 ![数値9](../images/sfbcallout9.png)<br/>また、[ **エクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。           <br/> ![Skype for Business レポートの [エクスポート] ボタン。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。
 ***
@@ -118,7 +118,7 @@ ms.locfileid: "34286154"
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
 ## <a name="related-topics"></a>関連トピック
-[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

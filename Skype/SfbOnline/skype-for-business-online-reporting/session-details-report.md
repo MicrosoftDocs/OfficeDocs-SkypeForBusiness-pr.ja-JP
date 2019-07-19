@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。'
-ms.openlocfilehash: 62b64fd971d776b265d7b78789e8ac7684cc5e26
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faee3d0a4f2228ddc32121bf85cc2f6b3018f2cc
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302089"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793064"
 ---
 # <a name="session-details-report"></a>セッションの詳細レポート
 
@@ -34,11 +34,11 @@ ms.locfileid: "34302089"
 このレポートと他の Skype for Business レポートを使用すると、組織全体のセッションの詳細を含むアクティビティの詳細を確認できます。 これらの情報は、組織のビジネスに関する調査、計画、その他の意思決定を行ったり、[通信クレジット](/microsoftteams/what-are-communications-credits)を設定したりする際に非常に役立ちます。
   
 > [!NOTE]
-> Office 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
+> Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Skype for Business セッションの詳細レポートを取得する方法
 
-1. **Office 365 管理センター** > の**レポート**に移動します。
+1. 管理センター > の**レポート**に移動する
     
 2. 左側のメニューから [**レポート**] を選択し、[**使用状況**] をクリックします。
     
@@ -118,7 +118,7 @@ ms.locfileid: "34302089"
 - [Skype For BUSINESS PSTN 分単位のプールレポート](pstn-minute-pools-report.md)には、組織内の現在の月に消費された分数が表示されます。
     
 ## <a name="related-topics"></a>関連トピック
-[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、一般的な市外電話の設定を構成するための展開手順について説明します。
-ms.openlocfilehash: b7717fd9bfb641c94261d288b5b546cace50a61f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 9f84b8ebbdd9bfab6b146d3f748715a5e0602047
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493859"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792457"
 ---
 # <a name="set-up-common-area-phones"></a>共通エリア電話機を設定する
 共用エリア電話機（CAP）は、一般に、ロビーや多くの人々が利用できるエリアに配置されます。 たとえば、受付エリアの電話機、ドアホンまたは会議室の電話機など、CAPは、ユーザーではなくデバイスとして設定され、自動的にネットワークにサインインされます。 以下の手順では、電話システムとコールプランのアカウントを設定して、所属する組織にこれらのタイプの電話機を導入する方法を説明します。
@@ -49,7 +49,7 @@ ms.locfileid: "34493859"
 以下の手順を実行する必要があります：
 
 ### <a name="step-1---buy-the-licenses"></a>手順 1  - ライセンスを購入する
-1. Office 365の管理センターでは、 **[請求]** > **[購入サービス]** に移動し、**[その他の計画]** を追加してください。
+1. 管理センターで、[**課金** > **サービス**] に移動し、**その他のプラン**を追加します。
 
     ![CAP-license.png](../../images/cap-license.png)
 2. **[共用エリア電話機]** > **[今すぐ購入]** をクリックし、**[チェックアウト]** ページで **[今すぐ購入]** をクリックします。
@@ -61,7 +61,7 @@ ms.locfileid: "34493859"
 ライセンスの詳細については、「 [Skype For business および Microsoft Teams のアドオンライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>手順 2  - 電話機の新しいユーザアカウントを作成し、ライセンスを割り当てます
-1. Office 365の管理センターでは、 **[ユーザー]** > **[アクティブユーザー]** > **[ユーザーを追加する]** に移動してください。
+1. 管理センターで、[ **** > **アクティブな** > ユーザー] に移動して**ユーザーを追加**します。
 2. **ユーザー名** に、最初の名前を "Main"、2番目の名前を"Reception" のように入力します。
 3. "Main Reception" のように自動生成しない場合は、**表示名** に入力してください。
 4. **[ユーザー名]** に "Main Reception" または"Mainlobby" のように入力します。
@@ -83,7 +83,7 @@ ms.locfileid: "34493859"
 
 ![Skype for business のロゴ](../../images/sfb-logo-30x30.png)が表示されたアイコン Skype for **business 管理センター**を使用してユーザーに電話番号を割り当てる
 
-1. Office 365 管理センターで、>**管理センター** > **Skype for business**を管理します。
+1. 管理センターで >**管理センター** > **Skype for business**を管理します。
 2. **[Skype for Business 管理センター]** >  **[音声]** > **[電話番号]** に移動します。
 3. 電話番号のリストから番号を選択し、** [割り当て]**  をクリックします。
 4. **[割り当て]** ページで、**[音声ユーザー]** ボックスに電話機に使用するユーザーの名前を入力し、**[音声ユーザーを選択]** ドロップダウンでユーザーを選択します。

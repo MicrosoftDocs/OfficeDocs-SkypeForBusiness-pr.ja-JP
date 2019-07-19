@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 有効になっているユーザー数、電話会議に対応しているユーザー数、Office 365 を利用できるユーザー数などの、Skype for Business のユーザーの統計情報で利用できるものについて説明します。
-ms.openlocfilehash: 9aaef735dff56de1a5e55e109255e76b4437e91c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d15ba89dda3a5a87162855d5746aed93b21598d0
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284899"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792117"
 ---
 # <a name="user-statistics-and-organization-information"></a>ユーザーの統計および組織の情報
 
@@ -61,7 +61,7 @@ Skype for Business ダッシュボードでは、自社向けにサービスを�
 
 [Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
-[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

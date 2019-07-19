@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '[新しい Skype for Business 管理センターのレポート] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business PSTN 分プールレポートを使用して、組織内の現在の月に消費された分数を確認することができます。'
-ms.openlocfilehash: bfbc21453732d338c4d0cf6355903df344c826f4
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 8d7441f74600557ac93051daf206af3f1f1842f9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494017"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793092"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN の利用分数プール レポート
 
@@ -37,13 +37,13 @@ ms.locfileid: "34494017"
 このレポートと他の Skype for Business レポートを使用すると、組織全体のアクティビティについて詳しく知ることができます。 これらの情報は、組織のビジネスに関する調査、計画、その他の意思決定の際に非常に役立ちます。また、[通信クレジット](/microsoftteams/what-are-communications-credits)を設定することも可能です。
   
 > [!NOTE]
-> Office 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
+> Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Skype for Business PSTN 分プールレポートを取得する方法
 
 ![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
-- **Office 365 管理センター** > **管理** > センター**の Skype for business 管理センター** > **レポート** > **PSTN 分のプール**に移動します。
+- 管理センターに移動して >**管理** > **センター Skype for business 管理センター** > **レポート** > **PSTN 分のプール**をレポートします。
     
 > [!NOTE]
 > 使用している Office 365 サブスクリプションによっては、ここに示されているすべての詳細が表示されない場合があります。 
@@ -62,7 +62,7 @@ ms.locfileid: "34494017"
 ![ナンバー 1](../images/sfbcallout1.png)<br/>この表には、ライセンス (機能) と使用状況の場所によって、分単位のプールの内訳が表示されています。 
 *    **機能**は、通話に使用されるライセンス/サービスプランです。 このレポートには、次のようなライセンス/サービスプランが表示されます。
      * MCOPSTN1-国内通話プラン (3000-US/1200 分の EU プラン)
-     * MCOPSTN2-国内 & 国際通話プラン (3000-米国/カナダ/PR、1200分間ヨーロッパ諸国)、および国際プール (600 分) を表示します。 予定表の月内で国内または国際通話の上限に達したときに、分数の上限に達しました。 
+     * MCOPSTN2-国内 & 国際通話プラン (3000-米国/カナダ/PR、1200年のヨーロッパ諸国)、および国際プール (600-分) が表示されます。 予定表の月内で国内または国際通話の上限に達したときに、分数の上限に達しました。 
      * MCOPSTN5-国内通話プラン (120 分通話プラン)
      * MCOPSTN6-国内通話プラン (240 分通話プラン)
      * MCOMEETADD-電話会議
@@ -93,7 +93,7 @@ ms.locfileid: "34494017"
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
 ## <a name="related-topics"></a>関連トピック
-[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
    

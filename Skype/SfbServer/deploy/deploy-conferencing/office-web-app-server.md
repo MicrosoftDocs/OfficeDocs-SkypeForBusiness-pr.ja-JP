@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: '概要: このトピックでは、Office Web Apps サーバーと Skype for Business Server の統合を構成し、Web 会議用の PowerPoint プレゼンテーションを有効にする方法について説明します。'
-ms.openlocfilehash: e657820a7a44197a344f23a67fdcd42ce0e593a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7be69b24b2ae64763b1f9b0d324b812b60f69434
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289112"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793290"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Skype for Business Server の Office Web Apps サーバーとの統合を構成する
  
@@ -50,7 +50,7 @@ Office Web Apps サーバーが正常にインストールされ、Web ファー
     
    - Office Web Apps サーバーを内部ファイアウォールの外側に展開する場合は、[**Office Web Apps サーバーは外部ネットワークで展開 (境界ネットワークまたはインターネット)**] オプションをオンにします。
     
-7. [**新しい Office Web Apps サーバーの定義**] ダイアログ ボックスで、[**OK**] をクリックし、[**プロパティの編集**] ダイアログ ボックスで [**OK**] をクリックします。Office Online の検出 URL がプールの関連付けの 1 つとして表示されます。
+7. [**新しい Office Web Apps サーバーの定義**] ダイアログ ボックスで、[**OK**] をクリックし、[**プロパティの編集**] ダイアログ ボックスで [**OK**] をクリックします。 検出 URL がプールの関連付けの1つとして表示されます。
     
 Office Web Apps サーバーに関連付ける必要がある各プールに対してこのプロセスを繰り返す必要があります。
   

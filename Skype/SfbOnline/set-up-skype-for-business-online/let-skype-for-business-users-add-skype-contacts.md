@@ -19,12 +19,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Skype for Business を使用しているユーザーが組織外の Skype for Business ユーザーに連絡し、連絡先リストに追加できるようにする方法について説明します。 '
-ms.openlocfilehash: afe1cb7f465a2a2e43056d01e7512f6f46c0f587
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3ba92977fa45686a900a78cfcf231a3c0985a933
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494161"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792145"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Skype for Business ユーザーが Skype の連絡先を追加できるようにする
 
@@ -36,7 +36,7 @@ Skype for Business では、無料アプリの Skype を使用しているすべ
   
 1. Office 365 管理者アカウントでサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)します。
     
-2. Office 365 管理センターで、[**管理センター** > ]**の [Skype for business**] に移動します。 
+2. 管理センターで、[**管理センター** > ]**の [Skype for business**] に移動します。 
     
     ![Skype for Business 管理センターを選びます。](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   

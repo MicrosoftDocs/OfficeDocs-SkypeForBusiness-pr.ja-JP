@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 3be118c02e260688f89bea31283c3914d657d045
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 143af6902c30c007d338b102534af2076a86cdcb
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303676"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793160"
 ---
 # <a name="conference-participant-activity-report"></a>電話会議参加者アクティビティ レポート
 
@@ -35,11 +35,11 @@ Office 365 管理者として、新しい**レポート**ダッシュボード�
 このレポートと他の Skype for Business レポートを使用すると、組織全体での会議のアクティビティについて詳しく知ることができます。 これらの詳細は、組織でその他のビジネス上の決定を調査、計画、実行しているときに役立ちます。
   
 > [!NOTE]
-> 管理者として Office 365 管理センターにログオンすると、すべての Skype for Business レポートを見ることができます。 
+> Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>Skype for Business 電話会議参加者レポートを取得する方法
 
-1. **Office 365 管理センター** > の [**レポート** > の**利用状況]** に移動します。
+1. [管理センター >**レポート** > の**利用状況]** に移動します。
     
 2. [**利用状況**] ページで、左側の [レポートの選択]**ボックスの一覧**の [ **Skype for business 電話会議参加者のアクティビティ**] をクリックします。 または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business 電話会議参加者アクティビティ**] をクリックします。
     
@@ -87,7 +87,7 @@ Office 365 管理者として、新しい**レポート**ダッシュボード�
 *    [ **ダイヤルイン/アウト - サード パーティ**] は、サード パーティの電話会議プロバイダーを使用して開催されたダイヤルイン/アウト電話会議の合計数を示します。 
 *    [ **音声/ビデオ通話分数**] は、音声/ビデオを使用した電話会議に参加したときに使用した合計通話分数を示します。 
 
-組織のポリシーにより、ユーザー情報を特定できるレポートを表示できない場合は、これらすべてのレポートのプライバシー設定を変更できます。 [Office 365 管理センターのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)で、[**ユーザーレベルの詳細を非表示にする方法**] セクションを確認します。
+組織のポリシーにより、ユーザー情報を特定できるレポートを表示できない場合は、これらすべてのレポートのプライバシー設定を変更できます。 [管理センターのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)で、[**ユーザーレベルの詳細を非表示にする方法**を教えてください。] セクションを確認します。
 ***
 ![数値9](../images/sfbcallout9.png)<br/>また、[ **エクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。           <br/> ![Skype for Business レポートの [エクスポート] ボタン。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。
 ***
@@ -112,7 +112,7 @@ Office 365 管理者として、新しい**レポート**ダッシュボード�
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
 ## <a name="related-topics"></a>関連トピック
-[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business Onlineでダイヤルイン会議の番号を検索する方法。 '
-ms.openlocfilehash: 220d266796dc52832e3f10fe45ca6e9f2e999e14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c183fa177f886717a52d4020bffbf06881527f35
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299051"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792447"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Skype for Business Onlineの電話会議の番号の一覧を見る
 
@@ -53,7 +53,7 @@ Skype for Businessユーザー向けの電話会議を設定すると、電話�
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. **Skype For business**> 管理センターに移動します。
     
 3. **Skype for business 管理センター**の左のナビゲーションで、[**電話会議** > の**Microsoft bridge**] に移動し、次の操作を行います。
     
@@ -75,7 +75,7 @@ Skype for Businessユーザー向けの電話会議を設定すると、電話�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。 次のトピックで、これらの利点を説明します。
+- Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を向上させるための多くの利点があります。たとえば、複数のユーザーに対して同時に設定を変更する場合です。 次のトピックで、これらの利点を説明します。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -17,17 +17,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f97e3a22122b08c9b554d0c1a395a8d714d92e1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9ccc20ae70b21e5a6738c8a0956b7c73cff8b7b9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227621"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792703"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする
 ======================================================
 
-組織で Microsoft Teams の無料バージョンを使用している場合は、ユーザーの Office 365 サブスクリプションプランを購入すると、簡単に製品版にアップグレードできます。 フルバージョンでは、スケジュール、電話会議、強化された管理、セキュリティ機能など、無料版では提供されていないその他の Teams 機能が提供されています。 Office 365 は、使い慣れた Microsoft Office デスクトップスイートと、Exchange Online、SharePoint Online、Office Online などの Microsoft の次世代通信とコラボレーションサービスのクラウドベースのバージョンを組み合わせたものです。ユーザーは生産性を高めることができます。世界中どこからでもインターネットに接続できます。 チームをアップグレードしても、既存のチームデータは失われません。すべてのチーム、チャネル、チャット、ファイル、権限が追加されました。 
+組織で Microsoft Teams の無料バージョンを使用している場合は、ユーザーの Office 365 サブスクリプションプランを購入すると、簡単に製品版にアップグレードできます。 フルバージョンでは、スケジュール、電話会議、強化された管理、セキュリティ機能など、無料版では提供されていないその他の Teams 機能が提供されています。 Office 365 は、使い慣れた Microsoft Office デスクトップスイートと、Exchange Online、SharePoint Online、Office などの Microsoft の次世代通信とコラボレーションサービスのクラウドベースのバージョンと組み合わせることで、ユーザーの生産性を向上させることができます。インターネット上でも実質上どこでも利用できます。 チームをアップグレードしても、既存のチームデータは失われません。すべてのチーム、チャネル、チャット、ファイル、権限が追加されました。 
 
 > [!NOTE]
 > Office 365 サブスクリプションを既にお持ちの場合は、無料バージョンではなく、Teams の試用版 (会社の id が含まれます) を対象としています。 Teams 試用版では、期間限定で Teams のフルバージョンが提供されます。 詳細については、「 [Microsoft Teams の商用クラウド試用版を管理する](iw-trial-teams.md)」を参照してください。

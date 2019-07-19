@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Pin について知っておくべきことと、Skype for Business Online で Pin をリセットする方法について説明します。 '
-ms.openlocfilehash: 11fafd6d79236fdddf3f73f384e9c339a5a775fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299088"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792280"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Skype for Business Online で電話会議の PIN をリセットする
 
@@ -40,7 +40,7 @@ PIN は、電話会議用に有効になっている各 Skype for Business ユ�
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター** > **Skype for business**に移動し、左側のナビゲーションで [**電話会議**] をクリックします。
+2. **Skype For business**> 管理センターに移動し、左側のナビゲーションで [**電話会議**] をクリックします。
     
 3. [**ユーザー**] をクリックし、PIN をリセットするユーザーを選びます。
     
@@ -91,7 +91,7 @@ PIN は、電話会議用に有効になっている各 Skype for Business ユ�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。
+- Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、簡素化、生産性を高めるためのさまざまな利点があります。たとえば、多くのユーザーの設定を一度に変更する場合です。 次のトピックで、これらの利点を説明します。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

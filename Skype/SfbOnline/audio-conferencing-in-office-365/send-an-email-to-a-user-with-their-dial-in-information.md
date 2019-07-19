@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Skype for Business Online で電話会議情報を記載した電子メールをユーザーに送信します。
-ms.openlocfilehash: 14c8bc3eb246cf4ab6ffa0d823ec53fbdc78d189
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf1555f572c4c8f4e6c11e87315f2fdfcac22cd8
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302099"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792270"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Skype for Business Online の電話会議情報を使って、ユーザーにメールを送信する
 
@@ -56,7 +56,7 @@ Skype for Business ユーザーに電話会議情報を送付しなくてはな�
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター** > **Skype for business**に移動し、左側のナビゲーションで [**電話会議**] をクリックします。
+2. **Skype For business**> 管理センターに移動し、左側のナビゲーションで [**電話会議**] をクリックします。
     
 3. [**ユーザー**] をクリックし、ユーザーを選びます。
     
@@ -110,7 +110,7 @@ Skype for Business ユーザーに電話会議情報を送付しなくてはな�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を向上させるための多くの利点があります。たとえば、複数のユーザーに対して同時に設定を変更する場合です。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

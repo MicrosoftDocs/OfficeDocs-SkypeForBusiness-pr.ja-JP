@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 84160b877ffa8420ea41e804d02ad5828e55ad8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 498f69070e7dfed8d367effd83715fa3ee8001cd
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293785"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793356"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>カスタム サービスの依頼を手動で送信する
 
@@ -38,7 +38,7 @@ ms.locfileid: "34293785"
 ## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>サービスリクエストを作成して送信する必要がある場合は、次の手順に従います。
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>150 ユーザー以下の組織の場合は、次の手順を実行します。
-1. [**Office 365 管理センター**] で、[**ヘルプが必要ですか?**] を選択します。
+1. 管理センターで、[**ヘルプが必要**ですか?] を選択します。
 2. [**ヘルプが必要ですか?**] ペインで、どのようなヘルプが必要かを伝えて、[**問い合わせ**] を選択します。
 3. [**解決策を表示**] セクションの結果が役に立たない場合は、次のいずれかを選択します。
     - [**電話連絡を許可 (推奨)**]: 連絡先番号を確認して、[**折り返し連絡**] を押します。 折り返し連絡されるまでの待ち時間の予測が [**ヘルプが必要ですか?**] ペインに示されます。
@@ -48,7 +48,7 @@ ms.locfileid: "34293785"
 
 1. 職場または学校のアカウントを使用して、Office 365 に管理者としてサインインします。
     
-2. Office 365 管理センターの左側のナビゲーションで、[**サポート**] > [**新しいサービス リクエスト**] をクリックします。
+2. 管理センターの左側のナビゲーションで、[**新しいサービスリクエスト**の**サポート** > ] をクリックします。
     
 3. [**サービス リクエスト**] で、[**追加**] をクリックします。
     
@@ -98,7 +98,7 @@ ms.locfileid: "34293785"
 8. 情報を確認して、[**リクエストの送信**] をクリックします。
     
 > [!TIP]
-> Office 365 管理センターの [**サービス リクエスト**] ページに、参照番号が表示されます。
+> 参照番号は、Microsoft 365 管理センターの [**サービスリクエスト**] ページに表示されます。
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>電話番号の移行について知っておくべきその他のこと
 

@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
-ms.openlocfilehash: 6d16bf7f7d41f2706ccefd217b2d810c37a9d0f3
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: e43db5deeabcfa2db3e64423357d60b2723d606f
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494121"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792833"
 ---
 # <a name="customize-meeting-invitations"></a>会議の出席依頼をカスタマイズする
 
@@ -49,7 +49,7 @@ ms.locfileid: "34494121"
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Office 365 管理センターで、 **管理センター** > **Skype for Business**を選択します。
+2. 管理センターで、[**管理センター** > ]**の [Skype for business**] を選びます。
     
 3. Skype for Business 管理センターで、[**オンライン会議**] を選択します。 
     

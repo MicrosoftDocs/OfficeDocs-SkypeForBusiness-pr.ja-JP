@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business 管理センターを使用して、Skype for Business Online 会議で、エントリと退出のお知らせを有効または無効にする方法を説明します。 '
-ms.openlocfilehash: 246d6197142906b2a15f4bd4dfbeeb59dc4e723d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 62b3437b75e36b57bebd167f6d2e155deb31a41b
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302782"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792165"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Skype for Business Online で会議のエントリと退出のお知らせを有効または無効にする
 
@@ -62,7 +62,7 @@ Office 365 で電話会議を設定する場合、電話会議ブリッジが表
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell には、多くのユーザーの設定を一度に変更する場合など、Office 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を高めることができるさまざまな利点があります。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell には、多くのユーザーの設定を一度に変更する場合など、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を高めるためのさまざまな利点があります。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

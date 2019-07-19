@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: e7a5eb07f21f889da545fd2270789d3bd34ed42b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494238"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793346"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Skype for Business Online でプレゼンスを設定する
 
@@ -36,7 +36,7 @@ ms.locfileid: "34494238"
 
 ![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
 
-1. **Office 365 管理センター** > **管理** > センター**の Skype for business**に移動します。
+1. 管理センター >**管理センター** > **Skype for business**に移動します。
 
 2. **Skype For business 管理センター**で、[**組織**] を選びます。
 

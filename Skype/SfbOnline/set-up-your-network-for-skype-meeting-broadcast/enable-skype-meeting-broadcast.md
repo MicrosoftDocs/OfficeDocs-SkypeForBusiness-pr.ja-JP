@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 組織内のユーザーが Skype 会議ブロードキャストを使用できるようにするには、それを有効にする必要があります。 これを行うには、Windows PowerShell の使い方を知っている必要があります。 Windows PowerShell がわからない場合は、Microsoft パートナーを採用してこの手順を実行することを検討してください。
-ms.openlocfilehash: 6b68931bbedc80bcd8209e366de8201e4b93c98d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 1d96ce1bb234ee319af2eeb11442fc15736b8f54
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221644"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793236"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを有効にする
 
@@ -36,7 +36,7 @@ ms.locfileid: "35221644"
 
 1. Office 365 グローバル管理者アカウントまたは Skype for Business 管理者アカウントでサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)します。
     
-2. Office 365 管理センターで、[**管理センター** > **チーム**] に移動します。
+2. 管理センターで、[**管理センター** > **チーム**] に移動します。
     
 3. **Teams 管理センター**で、[従来の**ポータル** > **オンライン会議** > **ブロードキャスト会議**] に移動し、[ **Skype 会議ブロードキャストを有効に**する] を選択します。
     
@@ -44,7 +44,7 @@ ms.locfileid: "35221644"
 
 1. Windows PowerShell のバージョン3.0 またはそれ以降を実行していることを確認します。
     
-2. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+2. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
     
 3. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     

@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: アドオンライセンス、各ライセンスで利用できる機能、製品の購入方法、および既存の通信事業者との使用方法について説明します。 Office 365、通信クレジット、および通話プランの価格と計画の詳細については、こちらを参照してください。
-ms.openlocfilehash: 19dc2b9714d3a2c5881b68d880891c8155b32fc1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21a8b26180e4279fa6e735eb362e5703ace209a2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298580"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793073"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams アドオン ライセンス
 
@@ -74,7 +74,7 @@ Microsoft Teams のライセンスは、最大限の柔軟性を提供するた�
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>価格の確認とアドオン ライセンスの購入方法
 <a name="bkmk_how"> </a>
 
- **Office 365 プランの購入後に、価格とアドオンが Office 365 管理センター** に表示されます。
+ **Office 365 プランを購入した後は、価格を確認して、管理センターでアドオンを購入でき**ます。
 
 必要なアドオンに応じて、該当する機能をすでに含んでいるプランに切り替えることで[コスト効率が高いかどうかを比較する](https://go.microsoft.com/fwlink/?linkid=844053)ことをお勧めします。
 

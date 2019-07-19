@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオンライセンス、入手できる機能、製品の購入方法、および既存の通信事業者との使用方法について説明します。 Office 365、通信クレジット、および通話プランの価格と計画の詳細については、こちらを参照してください。 '
-ms.openlocfilehash: fb57fbd44021c28350723c180e16637f41a5cf66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 748a08d088e3637566b6c6c1636bbf7a513f1f4d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273674"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793226"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Skype for Business アドオンのライセンス
 
@@ -81,7 +81,7 @@ Skype for Business のライセンスは、最大限の柔軟性を提供する�
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>価格の確認とアドオン ライセンスの購入方法
 <a name="bkmk_how"> </a>
 
- **Office 365 プランの購入後に、価格とアドオンが Office 365 管理センター** に表示されます。
+ **Office 365 プランを購入すると、Microsoft 365 管理センターを使用して、価格が表示**され、アドオンを購入できます。
 
 必要なアドオンに応じて、該当する機能をすでに含んでいるプランに切り替えることで[コスト効率が高いかどうかを比較する](https://go.microsoft.com/fwlink/?linkid=844053)ことをお勧めします。
 

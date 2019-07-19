@@ -27,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'ユーザーが別の組織のユーザーと会話したり、外部からの連絡をしたりできるように Skype for Business を構成する方法について説明します。 '
-ms.openlocfilehash: 3656038efa660db0b63f382908f4de5a8b7172d4
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 570861f532371dc8eca253956ffdd200e60f5990
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344562"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792686"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
 
@@ -56,7 +56,7 @@ ms.locfileid: "34344562"
   
 1. Office 365 管理者アカウントでサインインします。 
     
-2. Office 365 管理センターで、[**管理センター** > **チーム**] に移動します。
+2. 管理センターで、[**管理センター** > **チーム**] に移動します。
     
     ![Teams 管理者を選びます。](../images/MS-Teams-Admin.png)
   
@@ -126,7 +126,7 @@ ms.locfileid: "34344562"
   
 1. Office 365 管理者アカウントでサインインします。
     
-2. Office 365 管理センターで、[**アクティブな****ユーザー** > ] に移動します。
+2. 管理センターで、[**アクティブな****ユーザー** > ] に移動します。
     
 3. ユーザーの一覧でユーザーを選び、[**詳細設定**] で [ **Skype for business のプロパティの編集**] をクリックします。
     

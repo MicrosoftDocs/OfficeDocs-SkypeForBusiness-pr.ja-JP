@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise、E1、E3、E4 プランを購入する方法について説明します。 '
-ms.openlocfilehash: 7b9cadab1b261c23ce98fd4b007488a54b5b15e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290058"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792884"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1、E3、および E4
 
@@ -44,7 +44,7 @@ ms.locfileid: "34290058"
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>E1 と E3 のお客様: 価格の表示方法と購入方法
 <a name="bkmk_buypremium"> </a>
 
-1. Office 365 管理センターにサインインします。
+1. 管理センターにサインインします。
 
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
 
@@ -59,14 +59,14 @@ E3 プランはお持ちの Action Pack に含まれています。 **電話シ�
 
 1. Skype の[web サイト](https://go.microsoft.com/fwlink/?LinkId=24393)から E3 の1つの座席を購入します。 既存のテナントにシートに追加するためのオプションを選択します。
 
-2. Sign in to the Office 365 admin center and go to **Billing** > **Subscriptions** > **Add-ons**.
+2. 管理センターにサインインして、****[**課金** > 内容**サブスクリプション** > のアドオン] に移動します。
 
     これにより、 **電話システム**と **電話会議**のアドオンを購入するためのオプションと価格が表示されます。
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>アドオンを購入するオプションが表示されないのはどうしてですか?
 <a name="bkmk_how"> </a>
 
-場合によっては、Office 365 管理センターで Skype for Business アドオンを購入するオプションが表示されないことがあります。
+一部の状況では、Microsoft 365 管理センターで Skype for Business アドオンを購入するオプションが表示されません。
 
 - **Office 365 Business Premium を GoDaddy** から購入されています。 この場合、Skype for Business アドオンを購入することはできません。 E3 プランに切り替える必要があります (GoDaddy は販売していません)。その後、それらを購入することができます。 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 

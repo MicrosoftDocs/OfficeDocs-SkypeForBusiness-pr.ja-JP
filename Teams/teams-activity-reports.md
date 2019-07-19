@@ -16,12 +16,12 @@ MS.collection:
 description: アクティビティレポートを使用して、組織内のユーザーがどのように Microsoft Teams を使用しているかを確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85184f1de59338282ddd676009f000794b1b4b07
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 18076fd3aeb47e0afadaf7eb1917369a1a55ea3b
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548678"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792824"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft Teams のユーザー アクティビティ レポートを使用する 
 ========================================
@@ -45,7 +45,7 @@ Microsoft 365 管理センターのアクティビティレポートを使用し
 
 Teams ユーザーアクティビティレポートは、ユーザーが Teams で実行する最も一般的なアクティビティのビューを提供します。 これには、チャネル内でチャットに参加している人の数、プライベートチャットメッセージによるコミュニケーションの数、通話や会議への参加回数などが含まれます。 この情報は、個々のユーザーに加えて、組織全体で確認できます。
 
-![Office 365 管理センターのユーザーアクティビティレポートのスクリーンショット。](media/teams-user-activity-report.png)
+![管理センターのユーザーアクティビティレポートのスクリーンショット。](media/teams-user-activity-report.png)
 
 #### <a name="interpret-the-microsoft-teams-user-activity-report"></a>Microsoft Teams ユーザーアクティビティレポートを解釈する
 

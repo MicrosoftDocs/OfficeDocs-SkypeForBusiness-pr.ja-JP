@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織外の企業やクライアントが電話をかけられるように、チームユーザーの勤務先電話番号を割り当て、変更、または削除する方法について説明します。
-ms.openlocfilehash: 4536beb4e5dc11e579f2a6ef016e0c3f94e426a6
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: ccc8e723b1f4915781c47d416fa05d4cfb9c871d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347948"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792931"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号を割り当て、変更、または削除する
 
@@ -38,7 +38,7 @@ ms.locfileid: "35347948"
 Teams で通話プランを取得する方法とその費用については、「 [teams アドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」をご覧ください。
   
 > [!NOTE]
-> ユーザーにライセンスが割り当てられているかどうかを確認する1つの方法は、Microsoft Teams 管理センター >**ユーザー**にアクセスすることです。 ライセンスが割り当てられている場合は、ページに表示されます。  Office 365 管理センターを使うこともできます。
+> ユーザーにライセンスが割り当てられているかどうかを確認する1つの方法は、Microsoft Teams 管理センター >**ユーザー**にアクセスすることです。 ライセンスが割り当てられている場合は、ページに表示されます。  Microsoft 365 管理センターを使用することもできます。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>電話番号をユーザーに割り当てる
  

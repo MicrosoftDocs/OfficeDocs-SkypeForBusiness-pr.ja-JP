@@ -19,16 +19,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Skype for Business Online プラン1は廃止されました。 ただし、Skype for Business Online Plan 1 の現在のサブスクリプションを使用している場合は、この変更による影響はすぐにはありません。 新しいプランに移行する準備ができたら (今すぐまたは更新時)、3つのオプションが用意されています。
-ms.openlocfilehash: 92b8cc0b01c14cf254dd90fdd96d06b80dfd5345
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6e3ede1a6c01fe48384faf92048e502c393a346a
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290293"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793140"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype for Business Online プラン 1 のサポート終了 
 
-Skype for Business Online プラン1は廃止されました。 ただし、Skype for Business Online Plan 1 の現在のサブスクリプションを使用している場合は、この変更による影響はすぐにはありません。 グローバル Office 365 管理者として、メールの更新プログラムを受信し、メッセージセンター (Office 365 管理センターの一部) に投稿を表示して、いつアクションを実行する必要があるかについての情報を表示します。 その間も、引き続き既存の Skype for Business Online プラン1のライセンスを使用することができます。
+Skype for Business Online プラン1は廃止されました。 ただし、Skype for Business Online Plan 1 の現在のサブスクリプションを使用している場合は、この変更による影響はすぐにはありません。 グローバル Office 365 管理者として、メールの更新プログラムを受信し、メッセージセンター (Microsoft 365 管理センターの一部) に投稿を表示して、いつアクションを実行する必要があるかについての情報を表示します。 その間も、引き続き既存の Skype for Business Online プラン1のライセンスを使用することができます。
 
 新しいプランに移行する準備ができたら (今すぐまたは更新時)、Office 365 F1 または選択したその他の Office 365 プランに切り替えることができます。
 
@@ -42,7 +42,7 @@ Skype for Business Online Plan 1 と同じ機能を維持しながら、Office 3
 
 ### <a name="how-to-switch"></a>切り替え方法 
 
-今すぐ Office 365 F1 に切り替えるか、更新処理中に更新してアップグレードするまで待機することができます。 どちらの場合も、サブスクリプションを Microsoft から直接購入していない限り、アカウントの担当者またはパートナーと協力して、office 365 365 F1 に切り替えることができます。
+今すぐ Office 365 F1 に切り替えるか、更新処理中に更新してアップグレードするまで待機することができます。 どちらの場合も、サブスクリプションを Microsoft から直接購入していない限り、アカウントの担当者またはパートナーと協力して、Microsoft 365 管理センターで Office 365 F1 に切り替えることができます。
 
 
 ## <a name="switching-to-another-office-365-offer"></a>別の Office 365 プランに切り替える

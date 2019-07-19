@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Skype for Business をインストールするために、ドメイン、ユーザー、IM、プレゼンスを組織用にセットアップする方法について説明します。 「電話会議、電話システム、通話プラン、Skype 会議ブロードキャストを設定する」もご覧ください。 '
-ms.openlocfilehash: fb31a2affa1507f043244fbe6f1988040cfec4ba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285256"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792622"
 ---
 # <a name="set-up-skype-for-business-online"></a>Skype for Business Online をセットアップする
 
@@ -59,9 +59,9 @@ Skype for Business Online は、Office 365 スイートのサービスの一部�
 
     ![Skype for Business Online にサインアップした後に受信したようこそメールの例です。 Office 365 のユーザー id が含まれています。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. Office 365 管理センターにサインインして、Office 365 のユーザー ID とパスワードを入力します。 サインインすると、Office 365 管理センターが表示されます。
+2. 管理センターにサインインして、Office 365 のユーザー ID とパスワードを入力します。 サインインすると、Microsoft 365 管理センターが表示されます。
 
-    ![Skype for Business Online プランを使用している場合、Office 365 管理センターの外観はどのように表示されますか。](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+    ![Skype for Business Online プランを使用している場合の管理センターの外観の例です。](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. ドメインとユーザーをセットアップする
 <a name="bkmk_users"> </a>

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話会議への参加に電話を使用する必要がある、社内のユーザーに対してダイヤルインまたは電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494198"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792175"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Skype for Business の電話会議をセットアップする
 
@@ -94,7 +94,7 @@ ms.locfileid: "34494198"
 
 ![Skype for](../images/sfb-logo-30x30.png) **business 管理センターを使用し**た skype for business ロゴを示すアイコン:
 
-1. **Office 365 管理センター** > **管理** > センター**チーム** > の従来の**ポータル**に移動します。
+1. 管理センターに移動して、管理センターの******Teams** > >**管理** > センターを開きます。
 2. [**電話会議** > の**Microsoft bridge**] を選びます。 
 3. 会議ブリッジの電話番号を選択し、[**言語の設定**] を選択して、[既定の言語] を選択します。
 

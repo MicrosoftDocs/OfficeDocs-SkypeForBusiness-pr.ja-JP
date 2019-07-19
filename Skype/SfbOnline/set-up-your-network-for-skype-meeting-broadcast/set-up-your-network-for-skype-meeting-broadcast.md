@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Skype for Business Online の Skype 会議ブロードキャスト機能について説明します。この機能を使用すると、最大1万人までの会議やイベントのスケジュール、作成、ブロードキャストを行うことができます。
-ms.openlocfilehash: f9a85a1f64f88b55d99c7a27694a46b7ea885849
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 443810772eeb8bf11721825b06b6a87ccb2c97c8
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301290"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792922"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャスト用にネットワークをセットアップする
 
@@ -39,9 +39,9 @@ Skype[会議ブロードキャスト](enable-skype-meeting-broadcast.md)の Skyp
 
 ## #
 
- **方法 1: Office 365 管理センターを使用する**
+ **方法 1: 管理センターを使用する**
 
-1. **Office 365 管理センター**に移動し、左のナビゲーションで [**設定** > **サービス&amp;アドイン**] をクリックして、[ **Skype for business**] を選びます。
+1. 管理センターに移動し、左のナビゲーションで [**設定** > **サービス&amp;アドイン**] をクリックして、[ **Skype for business**] を選びます。
 
 2. [**外部共有**] ページの [**ドメインの例外**] で、[すべてのドメインを**ブロックする**] を選択し、次のドメインをカンマ (,) で区切って入力します。
 

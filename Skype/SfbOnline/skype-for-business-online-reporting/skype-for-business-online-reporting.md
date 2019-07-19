@@ -18,21 +18,21 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 386a449bae262ac073433d487f57570ae0cf9f7b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77a3068ef1bf8038d2d433fce483e53824668684
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302423"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793044"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online のレポート
 
 組織の管理者として、Skype for Business Online で利用可能なすべてのレポートの一覧を作成すると便利です。 この一覧には、多様なレポートの名前とその各レポートで得られる情報がすべて含まれています。
   
-Skype for Business Online のレポートにアクセスするには、ユーザー アカウントとパスワードを使用して Office 365 管理センターにログオンします。レポートを表示するには、ログオンに使用するアカウントに、全体管理者の役割または代理 Skype for Business サービス管理者の役割が割り当てられている必要があります。
+Skype for Business Online レポートにアクセスするには、ユーザーアカウントとパスワードを使用して Microsoft 365 管理センターにログオンします。 レポートを表示するには、ログオンに使用するアカウントに、全体管理者の役割または代理 Skype for Business サービス管理者の役割が割り当てられている必要があります。
   
 > [!NOTE]
-> To verify permissions, in the Office 365 admin center > **Users** > **Active users**. Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
+> 権限を確認するには、管理センター **** > の [**アクティブな**ユーザー] > ます。 Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Skype for Business Online レポート リファレンス
 
@@ -40,7 +40,7 @@ Office 365 および Skype for Business 管理センターでは、Skype for Bus
   
  **レポートを表示するには**
   
-1. **Office 365 管理センター**または**Skype for business 管理センター** > の**レポート**に移動します。
+1. 管理センターまたは**Skype for business 管理センター** > の**レポート**に移動します。
     
 2. ダッシュボード ウィンドウで、レポート ウィジェットをクリックするか、リストから目的のレポートを選択してください。
     
@@ -58,7 +58,7 @@ Office 365 および Skype for Business 管理センターでは、Skype for Bus
 |[Skype for Business セッションの詳細レポート](session-details-report.md) <br/> | ユーザーエイリアス <br/> ダイアログ ID  <br/> メディアの種類  <br/> 開始時刻と終了時刻 <br/> 宛先と URI <br/> 会議の URL <br/> 電話番号 <br/> |
  
 ## <a name="related-topics"></a>関連トピック
-[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

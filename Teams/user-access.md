@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0858373bebabdb9df6c8a00463ac5a3db1834843
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493756"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792136"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -41,7 +41,7 @@ Teams のユーザーレベルのライセンスは、Microsoft 365 管理セン
 
 E3 または E5 といったライセンス SKU をユーザーに割り当てる場合、Microsoft Teams ライセンスが自動的に割り当てられ、そのユーザーには Microsoft Teams が有効化されます。管理者はすべての Office 365 サービスとライセンスを細かく制御できます。特定のユーザーまたはグループの Microsoft Teams ライセンスを有効または無効にすることができます。
 
-![Office 365 管理センターの [製品ライセンス] セクションのスクリーンショット。](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
+![管理センターの [製品ライセンス] セクションのスクリーンショット。](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
 
 Teams ユーザーライセンスは、いつでも無効にすることができます。 ライセンスを無効にすると、ユーザーは Microsoft Teams へのアクセスを許可されなくなり、Office 365 アプリ起動ツールとホームページで Teams を表示することはできなくなります。
 
@@ -50,7 +50,7 @@ Teams ユーザーライセンスは、いつでも無効にすることがで�
 ## <a name="manage-via-powershell"></a>PowerShell を使用して管理する
 
 > [!IMPORTANT]
-> MsolLicenseOptions を使うと、カスタマイズされたスクリプトに explictitly 識別子が関連付けられていない限り、以前に無効になったすべてのサービスを有効にすることができます。 たとえば、additonally Teams を無効にしている間も Exchange Sway を無効にする必要がある場合は、この操作をスクリプトで実行するか、または両方とも Exchange & Sway を有効にして、特定のユーザーに対して有効にする必要があります。 GUI を使用してこの機能を管理する場合は、「 [Office 365 ライセンスレポートと管理ツール-一括](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)してライセンスを削除する」を参照してください。
+> MsolLicenseOptions を使うと、カスタマイズされたスクリプトに explictitly 識別子が関連付けられていない限り、以前に無効になったすべてのサービスを有効にすることができます。 たとえば、additonally を無効にしているときに Exchange & Sway を両方ともオフにしたい場合は、これをスクリプトで実行するか、または Exchange & Sway が、特定のユーザーに対して有効になるようにする必要があります。 GUI を使用してこの機能を管理する場合は、「 [Office 365 ライセンスレポートと管理ツール-一括](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)してライセンスを削除する」を参照してください。
 
 PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。 Microsoft Teams ではサービス プランの名前は TEAMS1 になります。 GCC の場合、サービスプラン名は TEAMS_GOV です。 GCC 高の場合、サービスプラン名は TEAMS_GCCHIGH です。 DoD の場合、サービスプラン名は TEAMS_DOD (詳細については、「 [Office 365 PowerShell によるサービスへのアクセスを無効](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)にする」を参照してください。)
 

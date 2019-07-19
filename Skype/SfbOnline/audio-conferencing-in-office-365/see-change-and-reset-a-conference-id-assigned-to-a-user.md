@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Skype of business オンライン のユーザーに会議 ID を割り当てる方法と、会議ID パラメーターのあるべき姿について学びます。 '
-ms.openlocfilehash: 884934360c8d3a627e68486189acc398c22b68f2
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 65a27315898ec0673d68842e7d5249cbad2d7298
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35002838"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793006"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Skype of businessオンラインのユーザーに割り当てられている会議 ID を表示させリセットしてください。
 
@@ -51,7 +51,7 @@ ms.locfileid: "35002838"
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. **Skype For business**> 管理センターに移動します。
 
 3. **Skype of business管理センター**の> **オーディオ会議** > **ユーザー**で会議IDを必要とするユーザー を選択します。
 
@@ -79,7 +79,7 @@ ms.locfileid: "35002838"
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. **Skype For business**> 管理センターに移動します。
 
 3. **Skype for business 管理センター**> **電話会議** > **ユーザー**で、操作ウィンドウの [**会議 ID**] で [**リセット**] をクリックします。
 
@@ -113,7 +113,7 @@ ms.locfileid: "35002838"
 
   - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。
+- Windows PowerShell には、多くのユーザーについて同時に設定を変更する場合など、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を高めることができます。 次のトピックでこれらの利点について説明します。
 
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
 

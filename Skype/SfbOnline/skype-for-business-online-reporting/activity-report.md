@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Skype for Business アクティビティレポートを取得する方法、内容を確認する方法、データを解釈する方法について説明します。 '
-ms.openlocfilehash: df46f6a8fa029936911d8cafd463e683d25b4551
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298020"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793246"
 ---
 # <a name="activity-report"></a>アクティビティ レポート
 
@@ -35,11 +35,11 @@ ms.locfileid: "34298020"
 このレポートと他の Skype for Business レポートを使用すると、組織全体のアクティビティについて詳しく知ることができます。 これらの詳細は、組織でその他のビジネス上の決定を調査、計画、実行しているときに役立ちます。
   
 > [!NOTE]
-> Office 365 管理センターで管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
+> Microsoft 365 管理センターで、管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>Skype for Business アクティビティレポートを取得する方法
 
-1. **Office 365 管理センター** > の [**レポート** > の**利用状況]** に移動します。
+1. [管理センター >**レポート** > の**利用状況]** に移動します。
     
 2. [**利用状況**] ページで、左側の [レポートの**選択] リスト**の [ **skype for business アクティビティ**] をクリックするか、[ **skype for business アクティビティ**] ウィジェットをクリックします。
     
@@ -95,7 +95,7 @@ ms.locfileid: "34298020"
 * **[参加した会議:** このユーザーが参加した電話会議の合計数を表示します。
 * [**割り当て製品**"は、このユーザーに割り当てられている Office 365 製品です。<br/>
 
-組織のポリシーにより、ユーザー情報が特定できるレポートを表示できない場合は、これらのすべてのレポートのプライバシー設定を変更することができます。 [Office 365 管理センターのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)の [レポート] セクションで、[**ユーザーの詳細を非表示に**する] を確認します。
+組織のポリシーにより、ユーザー情報が特定できるレポートを表示できない場合は、これらのすべてのレポートのプライバシー設定を変更することができます。 [管理センターのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)の [レポート] セクションで、[**ユーザーの詳細を非表示に**する] を確認します。
 ***
 ![数値8](../images/sfbcallout8.png)<br/>
 任意の列の**列**アイコンをクリックまたはタップして、レポートに列を追加または削除します。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
@@ -121,7 +121,7 @@ ms.locfileid: "34298020"
 
     
 ## <a name="related-topics"></a>関連トピック
-[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

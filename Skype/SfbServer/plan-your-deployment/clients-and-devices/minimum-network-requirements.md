@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: '概要: Office 365 を使用している組織が開催する会議に、Office 365 を使用していない組織がアクセスすることが必要な場合に役立つ情報です。'
-ms.openlocfilehash: 1017c81fc3432fbd409077b89809d725b2b0e2cc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 631c4b9825181300552faa387c00a1ca73097885
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277483"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792857"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 会議アプリの最小ネットワーク要件
  
@@ -35,8 +35,8 @@ ms.locfileid: "34277483"
  
 |アプリ |宛先の FQDN  |IP アドレス  |ポート  |
 |---|---------|---------|---------|
-|**Skype 会議アプリ** | \*.lync.com <br/>\*.infra.lync.com<br/>\*.pipe.aria.microsoft.com<br/>\*.sfbassets.com<br/>\*.msecnd.net<br/>\*broadcast.officeapps.live.com <br/>\*powerpoint.officeapps.live.com <br/>\*.office.live.com<br/>\*.cdn.office.net<br/>*.s-microsoft.com<br/>        |   これらの IP アドレスは頻繁に更新されます。  「[Skype for Business の IP 範囲](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip)」および「[Office Online の IP 範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)」をご覧ください         |TCP: 80、443<br/>UDP: 3478 ～ 3481<br/>
-|**Teams**    | \*.microsoft.com <br/>\*.skype.com | これらの IP アドレスは頻繁に更新されます。  「[Skype for Business の IP 範囲](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip)」および「[Office Online の IP 範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)」をご覧ください      |TCP: 443 <br/> UDP: 3478 ～ 3481
+|**Skype 会議アプリ** | \*.lync.com <br/>\*.infra.lync.com<br/>\*.pipe.aria.microsoft.com<br/>\*.sfbassets.com<br/>\*.msecnd.net<br/>\*broadcast.officeapps.live.com <br/>\*powerpoint.officeapps.live.com <br/>\*.office.live.com<br/>\*.cdn.office.net<br/>*.s-microsoft.com<br/>        |   これらの IP アドレスは頻繁に更新されます。  [Skype For business の ip 範囲](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip)および OFFICE の[ip 範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)を表示する         |TCP: 80、443<br/>UDP: 3478 ～ 3481<br/>
+|**Teams**    | \*.microsoft.com <br/>\*.skype.com | これらの IP アドレスは頻繁に更新されます。  [Skype For business の ip 範囲](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip)および OFFICE の[ip 範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)を表示する      |TCP: 443 <br/> UDP: 3478 ～ 3481
 
 ## <a name="see-also"></a>関連項目
 <a name="BKMK_Conferencing"> </a>
