@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a2704cf517ac4b8eb0b2f3143c09cb550614ee
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 6b27cbe49cef8f523504b6a308c6b55f2bd39d12
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548160"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793283"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
@@ -39,7 +39,7 @@ Microsoft Teams は、組織に最適な共同作業ツールです。 Office 36
 - フォーム
 - Microsoft Planner
 - Microsoft Teams (Teams1、Teams IW)
-- Office Online
+- Office 
 - PowerApps for Office 365 プラン 1
 - SharePoint Online Kiosk
 - Stream
@@ -85,7 +85,7 @@ Teams を含む Office 365 ライセンスを所有していないユーザー�
 
 2. **[ユーザーに試用版アプリとサービスのインストールを許可する]** をオフにします。
 
-    ![管理センターの [ユーザーが所有するアプリとサービス] ページのスクリーン ショット](media/iw-trial-enable-2.png)
+    ![管理センターの [ユーザーが所有するアプリとサービス] ページのスクリーンショット](media/iw-trial-enable-2.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Teams が含まれているライセンスを持つユーザーの試用版利用可能性を管理する
