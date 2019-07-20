@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c139efb2079a010c802b1c49ab18e0297cd8520
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5c9c0986053fbfa5df2369205f75718abf5f114a
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221908"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804874"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -51,15 +51,19 @@ ms.locfileid: "35221908"
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>[全般] チャネルへの投稿をチーム所有者のみに許可する
 
-チームの所有者だけが一般的なチャネルに投稿できるようにすることで、チャネルの雑音を減らします。 チームに移動し、[**その他のオプション** > ] の [**チームの管理**] をクリックします。 [**設定**] タブで、[**メンバーの権限**] をクリックし、[**所有者のみにメッセージを投稿できるようにする**] を選択します。
+チームの所有者だけが一般的なチャネルに投稿できるようにすることで、チャネルの雑音を減らします。 チームに移動し、[ **̇̇** > ] をクリックして、[**チームの管理**] をクリックします。 [**設定**] タブで、[**メンバーの権限**] をクリックし > [メッセージを**投稿できるのは所有者のみ**] を選びます。
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>@Team および @ [チーム名] メンションをオフにする
 
-組織全体の過負荷を防ぐため、@mentions を減らします。 チームに移動し、[**その他のオプション** > ] の [**チームの管理**] をクリックします。 [**設定**] タブで、[ <strong>@mentions</strong>] をクリックし、[**メンバーの表示] オプションを @team または @ [チーム名] に**切り替えます。
+ 組織全体の過負荷を防ぐため、@mentions を減らします。 チームに移動し、[ **̇̇** > ] をクリックして、[**チームの管理**] をクリックします。 [**設定**] タブで、[ <strong>@mentions</strong> ] をクリックし、[**メンバーの表示] オプションを @team するか、@ [チーム名] を**オフに > します。 
 
 ### <a name="automatically-favorite-important-channels"></a>重要なチャネルを自動的にお気に入りにする
 
 組織内のすべてのユーザーが特定の会話を行うことができるように、重要なチャネルをお気に入りにします。 詳細については、「[チーム全体の自動お気に入りチャネル](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)」を参照してください。
+
+### <a name="set-up-channel-moderation"></a>チャネルのモデレーションを設定する
+
+チャネルのモデレーションを設定して、特定のチームメンバーにモデレーター機能を提供することを検討してください。 (モデレートが設定されている場合、チームの所有者にはモデレーター機能が自動的に与えられます。)モデレーターは、チャネル内で新しい投稿を開始できるユーザーを管理し、モデレーターを追加および削除し、チームメンバーが既存のチャネルメッセージに返信できるかどうかを制御し、また、ボットとコネクタがチャネルメッセージを送信できるかどうかを制御できます。 詳細については、「 [Microsoft Teams でチャネルのモデレーションを設定および管理](manage-channel-moderation-in-teams.md)する」を参照してください。
 
 ### <a name="remove-accounts-that-might-not-belong"></a>属していない可能性のあるアカウントを削除する
 
