@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e182732647b79f5a3a2ae48940ce3423b157c61f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e0c17089416315500baba4b42950008ab54946e
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218039"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768141"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams のアプリ、ボット、およびコネクタ
 
@@ -96,8 +96,17 @@ Teams には、Microsoft とサード パーティが公開する複数のアプ
 | <br>誰がアクティビティ レポートの確認を必要としていて、レポートを表示するための適切なアクセス許可が割り当てられているか? |<ul><li>ユーザーに管理者の役割を割り当てたくない場合は、[レポート閲覧者の役割を割り当てる](teams-activity-reports.md#reports-reader-role)ことができます。</li><li>Azure Active Directory で管理者の役割を割り当てる方法の詳細については、「[役割とアクセス許可](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)」および「[役割の表示と割り当て](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。</li></ul> |
 |||
 
+### <a name="app-templates"></a>アプリ テンプレート
 
-## <a name="next-steps"></a>次のステップ
+アプリ テンプレートは、Microsoft Teams 用の実稼働可能なアプリです。コミュニティ主導型、オープン ソースで、GitHub で利用できます。 各アプリには、組織用に展開してインストールするための詳細な手順が記載されています。使用可能な状態でアプリが提供されているため、すぐにインストールして使用を開始できます。 完全なソース コードが提供されるので、詳細に調べたり、コードをフォークして特定のニーズに合わせて変更したりできます。
+
+| 確認事項 | 操作 |
+|--------------|--------|
+| アイスブレーカーなどの Teams アプリ テンプレートをインストールしますか? |詳細については、「[Microsoft Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」を参照してください。|
+|||
+
+
+## <a name="next-steps"></a>次の手順
 - おすすめのアプリ (Planner など) の[導入を推進](adopt-microsoft-teams-landing-page.md)する。
 - [ミーティングと会議を展開する](deploy-meetings-microsoft-teams-landing-page.md)
 - [クラウド ボイスを展開する](cloud-voice-landing-page.md)
