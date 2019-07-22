@@ -24,6 +24,7 @@
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)
 ## [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
+## [Teams でチャネルのモデレートを設定する](manage-channel-moderation-in-teams.md)
 ## [Teams でファイルを共有する](sharing-files-in-teams.md)
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [Teams でのユーザーのプレゼンス](presence-admins.md)
@@ -31,7 +32,7 @@
 
 
 
-## アプリ、ボットとコネクタ
+## アプリ、ボット、コネクタ
 
 ### [概要](deploy-apps-microsoft-teams-landing-page.md)
 ### [アプリのアクセス許可と考慮事項](app-permissions.md)
@@ -41,6 +42,7 @@
 ### [Office 365 コネクタとカスタム コネクタの使用](Office-365-custom-connectors.md)
 ### [Teams テナント アプリ カタログにアプリを公開する](tenant-apps-catalog-teams.md)
 ### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -757,6 +759,7 @@
 ### [Teams の商用試用版サービスの管理](iw-trial-teams.md)
 ### [Teams を無料で Office 365 月額プラン バージョンにアップグレードする](upgrade-freemium.md)
 ### [メッセージング ポリシーのライセンス](teams-add-on-licensing/pri-message.md)
+### [仮想ユーザー ライセンス](teams-add-on-licensing/virtual-user.md)
 
 
 ## Office 365 との相互運用性
