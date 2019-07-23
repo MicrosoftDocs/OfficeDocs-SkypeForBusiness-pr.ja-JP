@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
+ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222039"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "35818177"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
@@ -37,7 +37,7 @@ QoS の形式がないと、音声とビデオで次の品質の問題が発生�
 
 これらの問題に対処するための最も複雑な方法は、内部とインターネットの両方でデータ接続のサイズを大きくすることです。 多くの場合、QoS はコストがかかるため、新しいリソースを追加する代わりに、リソースをより効果的に管理する手段となります。 品質の問題を完全に解決するには、実装で QoS を使い、必要な場合にのみ接続を追加します。
 
-Qos を有効にするには、qos の優先順位をサポートしていないパスの任意の部分によってパフォーマンスが低下する可能性があるため、一貫した QoS 設定をエンドツーエンドで適用する必要があります (これには、すべてのユーザーの Pc、ネットワークスイッチ、ルーターが含まれます)。通話、ビデオ、画面共有の品質。
+Qos を有効にするために、qos の優先順位がサポートされていないパスの部分は、通話、ビデオ、画面共有の品質を低下させる可能性があるため、組織ではエンドツーエンドで一貫した QoS 設定を適用する必要があります。 これには、すべてのユーザー用 Pc またはデバイス、ネットワークスイッチ、インターネットへのルーター、および Teams online サービスへの設定の適用が含まれます。
 
 _図1組織のネットワークと Office 365 サービスの間の関係_
 
