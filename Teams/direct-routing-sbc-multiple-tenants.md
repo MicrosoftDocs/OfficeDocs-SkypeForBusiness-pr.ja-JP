@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 1つのセッション境界コントローラー (SBC) を複数のテナントに対応するように構成する方法について説明します。
-ms.openlocfilehash: 25cd466a221169c8e14569d121c5770364846f44
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062396"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821071"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -114,7 +114,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 1.  Microsoft 365 管理センターで、[**セットアップ** > **** > ドメインの**追加**] に移動します。
 2.  [**自分が所有しているドメインを入力して**ください] ボックスに、ベースドメインの FQDN を入力します。 次の例では、ベースドメインは*customers.adatum.biz*です。
 
-    ![ドメインの追加] ページが表示されたスクリーンショット(media/direct-routing-2-sbc-add-domain)
+    ![[ドメインの追加] ページを示すスクリーンショット](media/direct-routing-2-sbc-add-domain.png)
 
 3. [ **次へ**] をクリックします。
 4. この例では、テナントは既に確認済みドメイン名として adatum.biz されています。 Customers.adatum.biz は既に登録されている名前のサブドメインであるため、追加の確認を求められることはありません。 ただし、以前に確認されていない FQDN を追加する場合は、確認プロセスを行う必要があります。 確認プロセスについては、[以下で説明](#add-a-subdomain-to-the-customer-tenant-and-verify-it)します。

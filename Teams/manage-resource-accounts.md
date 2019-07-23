@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft Teams でリソースアカウントを管理する方法について説明します。
-ms.openlocfilehash: ddea11e7aa3bc9287313b02db27d095c49528718
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: 1dd3fd8c7a9300b9c887cbc0c3cd3611b378d0c9
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818217"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821063"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -213,16 +213,16 @@ Skype for Business Server とハイブリッドの実装の場合:
 
    [クラウド自動応答の計画](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   
-   [クラウド通話キューの計画](/SkypeforBusiness/hybrid/plan-call-queue.md)
+   [クラウド通話キューの計画](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [Onprem リソースアカウントを構成する](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
+   [Onprem リソースアカウントを構成する](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 Teams または Skype for Business Online の実装の場合:
 
    [クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
 
-   [クラウドの自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+   [クラウドの自動応答をセットアップする](/microsoftteams/create-a-phone-system-auto-attendant)
 
    [小規模ビジネスの例: 自動応答をセットアップする](/microsoftteams/tutorial-org-aa)
 

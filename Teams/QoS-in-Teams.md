@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818177"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820986"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
@@ -43,7 +43,7 @@ _図1組織のネットワークと Office 365 サービスの間の関係_
 
 ![ネットワークとサービス間の関係を示す図](media/Qos-in-Teams-Image1.png "組織のネットワークと Office 365 サービスの間の関係: オンプレミスのネットワークとデバイスは、相互接続ネットワークに接続されます。これは、Office 365 クラウドの音声と電話会議サービスに接続します。")
 
-ほとんどの場合、企業をクラウドに接続するネットワークは管理されていないネットワークとなり、QoS オプションを確実に設定することはできません。 エンドツーエンドの QoS に対応する選択肢の1つは[Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/)ですが、オンプレミスネットワークに qos を実装することをお勧めします。 これにより、展開中のリアルタイム通信の負荷が増大し、また、チョークのポイントが軽減されます。
+ほとんどの場合、企業をクラウドに接続するネットワークは管理されていないネットワークとなり、QoS オプションを確実に設定することはできません。 エンドツーエンドの QoS に対応する選択肢の1つは[Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/)ですが、受信トラフィックと送信トラフィックの両方に対して、オンプレミスネットワークに QoS を実装することをお勧めします。 これにより、展開中のリアルタイム通信の負荷が増大し、また、チョークのポイントが軽減されます。
 
 ## <a name="verify-your-network-is-ready"></a>ネットワークの準備ができていることを確認する
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '概要: Skype for Business Server のトポロジを選択します。 Skype for Business Server のサーバー collocation について説明します。'
-ms.openlocfilehash: 064dc9d4f7f5d2a5ac722b3cfae928501b217822
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 00154c754292fd960942f0f0da7f95bb6b5b1c19
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418012"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820993"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Skype for Business Server のトポロジの基礎
 
@@ -238,8 +238,8 @@ Standard Edition サーバーには、次の役割が含まれています (た�
 
 SQL Server Express は Standard Edition Server に併置されているため、移動できません。これは非常に簡単です。 さらに、標準エディションのサーバーに常設チャットサーバーを展開すると、常設チャットと常設チャットのコンプライアンスデータベースも Standard Edition サーバーで検索することができますが、必要はありません。
 
-    > [!NOTE]
-    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
+> [!NOTE]
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
 
 これらは標準エディションのサーバー上では使用できませんが、1つのデータベースサーバーにアクセスできます。
 
@@ -289,7 +289,7 @@ SQL Server Express は Standard Edition Server に併置されているため、
 - 常設チャットのコンプライアンスデータベース
 
 > [!CAUTION]
-> これらのサーバー上にファイル共有を並置することはできますが、この方法は推奨されていないことに注意してください。他のサーバーの役割を持つサーバー上にファイル共有を並置する場合は、ディスク空き容量と性能に関する問題を定期的に監視してください。
+> これらのサーバー上にファイル共有を並置することはできますが、この方法は推奨されていないことに注意してください。 他のサーバーの役割とファイル共有を検索する場合は、ディスク容量とパフォーマンスの問題が定期的に監視されていることを確認してください。
 
 ### <a name="keep-in-mind"></a>注意が必要な点
 
