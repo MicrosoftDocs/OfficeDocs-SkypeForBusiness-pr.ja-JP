@@ -61,8 +61,7 @@ Teams は、Office 365 グループに基づき構築されており、Office 36
 ## <a name="more-information"></a>詳細情報
 
 [ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
-
-  [Office 365 グループのゲスト アクセス](https://support.office.com/ja-JP/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[Office 365 グループのゲスト アクセス](https://support.office.com/ja-JP/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
 |  |  |
 |---------|---------|
