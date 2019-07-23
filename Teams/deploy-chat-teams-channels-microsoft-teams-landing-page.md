@@ -4,7 +4,6 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d28eaee5b413444c9123f2334f38d599b6f753a5
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: 9ad965c4979345b41f257507cb172b4e564f28cf
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133908"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804802"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -42,7 +41,7 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 |確認事項|アクション |
 |------------|-------|
-|Teams を展開するために組織の準備が整っているか?|この質問に回答するには、次を参照してください。 <ul><li> [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)</li><li>[Teams 用に組織のネットワークを準備する](prepare-network.md)</li><li>[Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)</li><li>[チームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)|
+|Teams を展開するために組織の準備が整っているか?|この質問に回答するには、次を参照してください。 <ul><li> [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)</li><li>[Teams 用に組織のネットワークを準備する](prepare-network.md)</li><li>[Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)</li><li>[チームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
@@ -51,7 +50,7 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 ### <a name="teams-administrators"></a>Teams の管理者
 
-Teams には、組織に適した Teams の管理に使用できる、カスタムの管理者の役割のセットが用意されています。 この役割によって、さまざまな機能が管理者に提供されます。 
+Teams には、組織に適した Teams の管理に使用できる、カスタムの管理者の役割のセットが用意されています。 この役割によって、さまざまな機能が管理者に提供されます。
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -60,13 +59,23 @@ Teams には、組織に適した Teams の管理に使用できる、カスタ�
 |Teams 通信サポート スペシャリストの役割を誰に割り当てるか?||
 |||
 
+### <a name="teams-owners-and-members"></a>Teams の所有者とメンバー
+
+管理者の役割に加えて、Teams には所有者とメンバーのユーザーの役割を割り当てる機能があります。また、それらのユーザーに選択的にモデレーターの役割を与えて (モデレートを設定している場合)、チャネル内で特定の操作を実行できるユーザーを制御できます。 モデレート機能を使用すると、チャネルで新しい投稿を開始できるユーザーを制御したり、チーム メンバーをモデレーターとして追加、削除したり、既存のチャネル メッセージに返信可能かどうかを制御したりできます。
+
+|確認事項|アクション |
+|------------|-------|
+|各役割に誰を割り当てるか? | 各役割の機能を比較するには「[Microsoft Teams でチームの所有者、モデレーター、メンバーを割り当てる](assign-roles-permissions.md)」を参照してください。
+|ユーザー役割を割り当てるにはどうすればよいか? | 役割を割り当てたり変更したりするには、「[ユーザー役割の割り当て](assign-roles-permissions.md#assign-a-user-role)」を参照してください。
+|チャネルで投稿したり、返信したりできるユーザーを制御する必要があるか? | モデレートを構成するには、「[Microsoft Teams でチャネル モデレートをセットアップして管理する](manage-channel-moderation-in-teams.md)」を参照してください。
+
 ### <a name="messaging-policies"></a>メッセージング ポリシー
 
 メッセージング ポリシーでは、Teams のユーザーが、チャットおよびチャネルのどのメッセージング機能を使用できるかを制御します。 たとえば、どのユーザーが送信メッセージの編集および削除が可能か、どのユーザーがチャットを使用できるか、どのユーザーが会話でミームを使用できるかなどです。 既定では、ユーザーにグローバル メッセージング ポリシーが割り当てられていて、すべての機能が**オン**になっています。 既定のグローバル ポリシーを使用することも、組織内のユーザーに応じた 1 つ以上のポリシーを作成することもできます。 
 
 |確認事項|アクション |
 |------------|-------|
-|グローバル メッセージング ポリシーをカスタマイズするか?|Microsoft Teams 管理センターを使用したグローバル メッセージング ポリシーの変更や新しいポリシーの追加に関する詳細については、「[Teams でのメッセージング ポリシーについて](messaging-policies-in-teams.md)」を参照してください。|
+|グローバル メッセージング ポリシーをカスタマイズするか?|Microsoft Teams 管理センターを使用したグローバル メッセージング ポリシーの変更や新しいポリシーの追加に関する詳細については、「[Teams でのメッセージング ポリシーを管理する](messaging-policies-in-teams.md)」を参照してください。|
 |複数のメッセージング ポリシーが必要か?|メッセージング ポリシーを PowerShell で作成して割り当てる場合は、「[PowerShell スクリプトのサンプル: メッセージング ポリシーの作成と割り当て](scripts/powershell-script-teams-messaging-policy-edu.md)」を参照してください。|
 |どのユーザーのグループにどのメッセージング ポリシーを割り当てるかについて判断する方法は?|CsTeamsMessagingPolicy コマンドレットの詳細については、「[Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)」を参照してください。|
 ||| 
