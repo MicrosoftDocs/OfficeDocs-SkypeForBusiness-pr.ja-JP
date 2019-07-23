@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 144c67a968402832d059ba1b15151e24e2c1e1b3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 195c0ffaa15027c9bebe2c7892f7863982f8b62d
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221334"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804842"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
@@ -93,6 +93,17 @@ ms.locfileid: "35221334"
 定期的にチェックしてください - このリストは継続して更新されるため、常に最新で優れた、最も重要な Teams トレーニングに関する情報を得ることができます。
 <ul class="panelContent cardsW">
     <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Teams in 30</h3>
+                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">わずか 30 日で Teams に参加できるように設計された、ライブのインタラクティブなワークショップです。</a></p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
