@@ -18,18 +18,20 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft Teams でリソースアカウントを管理する方法について説明します。
-ms.openlocfilehash: 1dd3fd8c7a9300b9c887cbc0c3cd3611b378d0c9
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 684e315c1db35b6a1e92854e248508e5d9d371b5
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821063"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841478"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
 リソースアカウントは、Azure Active Directory で*無効になったユーザーオブジェクト*とも呼ばれ、一般にリソースを表すために使用できます。 Exchange では、会議室の代表として使用され、電話番号を割り当てることができます。 リソースアカウントは、Skype for Business Server 2019 を使って、Microsoft 365 またはオンプレミスのホームにすることができます。
 
-Microsoft Teams または Skype for Business Online では、各電話システムの通話キューまたは自動応答に、リソースアカウントが関連付けられている必要があります。 リソースアカウントに割り当てられた電話番号が必要かどうかは、関連付けられた通話キューまたは自動応答の用途によって異なります。 リソースアカウントに電話番号を割り当てる前に、この記事の下部にある「通話キューと自動応答」の記事を参照してください。
+Microsoft Teams または Skype for Business Online では、各電話システムの通話キューまたは自動応答に、リソースアカウントが関連付けられている必要があります。 リソースアカウントが割り当てられた電話番号を必要とするかどうかは、次の図に示すように、関連付けられた通話キューまたは自動応答の用途によって異なります。 また、リソースアカウントに電話番号を割り当てる前に、この記事の下部にある通話キューと自動応答の記事を参照することもできます。
+
+![リソースアカウントとユーザーライセンスの例](media/resource-account.png)
 
 > [!NOTE]
 > この記事は、Microsoft Teams と Skype for Business Online の両方に適用されます。 Skype for Business Server 2019 を使用しているリソースアカウントの場合は、「[リソースアカウントを構成する](/SkypeForBusiness/hybrid/configure-onprem-ra)」を参照してください。
@@ -37,12 +39,12 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 ## <a name="overview"></a>概要
 
-組織が少なくとも1つの電話システムライセンスを使用している場合、電話システムサービスに電話番号を割り当てるには、次の順序でさまざまな依存関係に対処する必要があります。
+組織が既に少なくとも1つの電話システムライセンスを使用していることを前提として、電話システムサービスに電話番号を割り当てるには、次の順序でさまざまな依存関係に対処する必要があります。
 
 1. サービス番号を取得します。
-2. リソースアカウントと共に使用する、電話システムの[仮想ユーザーライセンス](teams-add-on-licensing/virtual-user.md)または通常の電話システムのライセンスを取得します。
+2. 無料の電話システム[仮想ユーザーライセンス](teams-add-on-licensing/virtual-user.md)または有料電話システムライセンスを取得して、リソースアカウントで使用します。
 3. リソースアカウントを作成します。 関連付けられているリソースアカウントを持つには、自動応答または通話キューが必要です。
-4. 電話システムまたは電話システムの仮想ユーザーライセンスをリソースアカウントに割り当てます。
+4. 電話システムまたは電話システム仮想ユーザーライセンスをリソースアカウントに割り当てます。
 5. ライセンスを割り当てたリソースアカウントにサービスの電話番号を割り当てます。
 6. 電話システムサービス (通話キューまたは自動応答) を作成します。
 7. リソースアカウントとサービスをリンクします。
@@ -62,7 +64,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>電話番号を使用してリソースアカウントを作成する
 
-電話番号を使用するリソースアカウントを作成するには、次の手順を実行する必要があります。
+トップレベルの自動応答または通話キューでは、電話番号を自動応答にリンクさせる必要があります。 電話番号を使用するリソースアカウントを作成するには、次の手順を実行する必要があります。
 
 1. 有料または無料の有料サービス番号を取得できます。 この番号は、他のボイスサービスやリソースアカウントに割り当てることはできません。
 
@@ -72,9 +74,9 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 2. 電話システムの仮想ユーザーライセンスまたは通常の電話システムのライセンスを取得します。 
 
-   仮想ライセンスを取得するには、Microsoft 365 管理センターで、[**課金** > **購入サービス** > **アドオンサブスクリプション**] に移動して、"電話システム-仮想ユーザー" ライセンスが表示されます。 [**今すぐ購入**] を選択します。 料金はゼロですが、ライセンスを取得するには、次の手順に従う必要があります。
+   仮想ユーザーライセンスを取得するには、Microsoft 365 管理センターから開始し、[**課金** > **購入サービス** > **アドオンサブスクリプション**] に移動して、"電話システム-仮想ユーザー" ライセンスが表示されます。 [**今すぐ購入**] を選択します。 料金はゼロですが、ライセンスを取得するには、次の手順に従う必要があります。
 3. 新しいリソースアカウントを作成します。 「 [Microsoft Teams 管理センターでリソースアカウントを作成](#create-a-resource-account-in-microsoft-teams-admin-center)する」または「 [Powershell でリソースアカウントを作成](#create-a-resource-account-in-powershell)する」を参照してください。
-4. [仮想ユーザーライセンス](teams-add-on-licensing/virtual-user.md)または電話システムのライセンスをリソースアカウントに割り当てます。 「 [Microsoft Teams ライセンスを割り当て](assign-teams-licenses.md)て、 [1 人のユーザーにライセンスを割り当てる](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)」を参照してください。
+4. 電話システムの[仮想ユーザーライセンス](teams-add-on-licensing/virtual-user.md)または電話システムのライセンスをリソースアカウントに割り当てます。 「 [Microsoft Teams ライセンスを割り当て](assign-teams-licenses.md)て、 [1 人のユーザーにライセンスを割り当てる](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)」を参照してください。
 5. サービス番号をリソースアカウントに割り当てます。 「[電話番号とサービスの割り当て/割り当て解除」を](#assignunassign-phone-numbers-and-services)参照してください。
 6. 次のいずれかを設定します。
    - [クラウド自動応答](create-a-phone-system-auto-attendant.md)
@@ -83,13 +85,14 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>電話番号のないリソースアカウントを作成する
 
-電話番号を必要としないリソースアカウントを作成する場合は、次の手順で次の作業を行う必要があります。
+入れ子になった自動応答または通話キューにはリソースアカウントが必要ですが、多くの場合、対応するリソースアカウントには電話番号とライセンスが必要であり、電話番号をサポートする必要はありません。  電話番号を必要としないリソースアカウントを作成する場合は、次の手順で次の作業を行う必要があります。
 
 1. 新しいリソースアカウントを作成します。 「 [Microsoft Teams 管理センターでリソースアカウントを作成](#create-a-resource-account-in-microsoft-teams-admin-center)する」または「 [Powershell でリソースアカウントを作成](#create-a-resource-account-in-powershell)する」を参照してください。
 2. 次のいずれかを設定します。
    - [クラウド自動応答](create-a-phone-system-auto-attendant.md)
    - [クラウド通話キュー](create-a-phone-system-call-queue.md)
 3. リソースアカウントをサービスに割り当てます。 「[電話番号とサービスの割り当て/割り当て解除」を](#assignunassign-phone-numbers-and-services)参照してください。
+
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでリソースアカウントを作成する
 
@@ -232,4 +235,4 @@ Teams または Skype for Business Online の実装の場合:
 
 [新しい Csonline Applicationinstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
-[仮想ユーザーライセンス](teams-add-on-licensing/virtual-user.md)
+[電話システム-仮想ユーザーライセンス](teams-add-on-licensing/virtual-user.md)

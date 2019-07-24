@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3498c3eaf81b2b8be7513ec083957f89d3f7fd00
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 3142a30a5131ed18a76a130c420b3af214c5190b
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588080"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841377"
 ---
 <a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -59,7 +59,6 @@ Microsoft Teams のゲストアクセスでは、Azure Active Directory (Azure A
 
 次の点にご注意ください。
 
-- ユーザーに割り当てた有料の Azure AD ライセンスの場合、1 つのライセンスで 5 人までのゲスト ユーザーを外部ユーザー無料利用分として招待することができます。
 - ゲストとは、自分の組織の外部のユーザーのことです。 社内の従業員、オンサイトの請負業者、オンサイトの代理業者などは、ゲストとして追加することはできません。 これは、関連会社にも提供されます。
 - ゲスト ライセンスは、招待する組織に対してカウントされます。 必要なライセンスの数を算出するときは、このことを考慮に入れます。
 - 招待されたゲストが別の Office 365 テナントからのユーザーであろうと、個人のメール アドレスを使用していようと、ライセンスがカウントされる対象は自分の組織になります。

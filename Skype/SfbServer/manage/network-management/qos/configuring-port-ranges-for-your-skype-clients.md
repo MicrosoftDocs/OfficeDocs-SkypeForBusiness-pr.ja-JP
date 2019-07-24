@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この記事では、Windows 10 で実行されているクライアントのために、クライアントのポート範囲を構成し、サービスの品質ポリシーを構成する方法について説明します。
-ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 4d7999634864e222dd627ea3b46a3a3da5c67fe5
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35204015"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841470"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Skype for Business Server でのクライアントのポート範囲とサービス品質ポリシーの構成
 
@@ -221,7 +221,7 @@ Windows 10 コンピューターのサービス品質のオーディオポリシ
 
 クライアントコンピューターでグループポリシーが更新されるまで、作成した新しいポリシーは有効になりません。 グループ ポリシーは定期的に自動更新されますが、グループ ポリシーを更新する必要がある各コンピューター上で次のコマンドを実行すると、即座に強制的に更新することができます。
 
-    Gpudate.exe /force
+    Gpupdate.exe /force
 
 このコマンドは、管理者の資格情報のもとで実行されているコマンド ウィンドウから実行できます。 管理者の資格情報のもとでコマンド ウィンドウを開くには、[**スタート**] メニューをクリックし、[**コマンド プロンプト**] を右クリックして、[**管理者として実行**] をクリックします。
 

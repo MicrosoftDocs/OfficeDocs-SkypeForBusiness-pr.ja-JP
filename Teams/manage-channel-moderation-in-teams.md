@@ -16,14 +16,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: チームメンバーをチャネルモデレーターとして追加する方法など、Microsoft Teams でモデレーション用にチャネルをセットアップする方法について説明します。
-ms.openlocfilehash: 333f0b43c3d703ddd2746bcae0af760228c9fa6e
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 62a184334e337b1e5f30e2373223db1fe52ea477
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804896"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841455"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Microsoft Teams では、チーム所有者はチャネルのモデレーションを有効にして、誰が新しい投稿を開始し、そのチャネルで投稿に返信できるかを制御できます。
 
