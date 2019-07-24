@@ -484,6 +484,8 @@
 ### [ユーザー アカウント](../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [プロパティのカスタマイズ](../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [サービスの管理](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [RGS のバックアップ データ](../backup-rgs-data.md)
+### [SEFAUtil の使用](../sefautil-functionality.md)
 ## [管理ツール](../management-tools-2019.md)
 ### [Skype for Business Server の通話品質ダッシュボード](../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)
 #### [通話品質ダッシュボードの計画](../../SfbServer/management-tools/call-quality-dashboard/plan.md)
