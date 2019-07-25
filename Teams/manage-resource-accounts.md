@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft Teams でリソースアカウントを管理する方法について説明します。
-ms.openlocfilehash: 684e315c1db35b6a1e92854e248508e5d9d371b5
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: f1028e35bff7a2801a82e50e032c1b181200e00e
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841478"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861896"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -39,15 +39,17 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 ## <a name="overview"></a>概要
 
-組織が既に少なくとも1つの電話システムライセンスを使用していることを前提として、電話システムサービスに電話番号を割り当てるには、次の順序でさまざまな依存関係に対処する必要があります。
+組織が既に少なくとも1つの電話システムライセンスを使用していることを前提として、電話システムの通話キューまたは自動応答に電話番号を割り当てるには、次の順序でさまざまな依存関係に対処する必要があります。
 
 1. サービス番号を取得します。
 2. 無料の電話システム[仮想ユーザーライセンス](teams-add-on-licensing/virtual-user.md)または有料電話システムライセンスを取得して、リソースアカウントで使用します。
 3. リソースアカウントを作成します。 関連付けられているリソースアカウントを持つには、自動応答または通話キューが必要です。
 4. 電話システムまたは電話システム仮想ユーザーライセンスをリソースアカウントに割り当てます。
-5. ライセンスを割り当てたリソースアカウントにサービスの電話番号を割り当てます。
-6. 電話システムサービス (通話キューまたは自動応答) を作成します。
-7. リソースアカウントとサービスをリンクします。
+5. ライセンスを割り当てたリソースアカウントにサービスの電話番号を割り当てます。 
+6. 電話システムの通話キューまたは自動応答を作成する
+7. リソースアカウントを通話キューまたは自動応答にリンクします。
+
+
 
 自動応答または通話キューが最上位レベルの自動応答の下に入れ子になっている場合、関連付けられたリソースアカウントには、自動応答と通話キューの構造に複数のエントリポイントが必要な場合は、電話番号のみが必要になります。
 
@@ -56,11 +58,11 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 > [!WARNING]
 > リソースアカウントで問題が発生しないようにするには、次の手順を順番に実行します。
 
-作成している電話システムサービスがネストされ、電話番号は不要な場合は、次の手順を実行します。
+作成している電話システムの通話キューまたは自動応答がネストされ、電話番号は不要な場合は、次の手順を実行します。
 
 1. リソースアカウントを作成する  
-2. 電話システムサービスを作成する
-3. リソースアカウントを電話システムサービスに関連付ける
+2. 電話システムの通話キューまたは自動応答を作成する
+3. リソースアカウントを電話システムの通話キューまたは自動応答に関連付ける
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>電話番号を使用してリソースアカウントを作成する
 
@@ -91,7 +93,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 2. 次のいずれかを設定します。
    - [クラウド自動応答](create-a-phone-system-auto-attendant.md)
    - [クラウド通話キュー](create-a-phone-system-call-queue.md)
-3. リソースアカウントをサービスに割り当てます。 「[電話番号とサービスの割り当て/割り当て解除」を](#assignunassign-phone-numbers-and-services)参照してください。
+3. リソースアカウントを通話キューまたは自動応答に割り当てます。 「[電話番号とサービスの割り当て/割り当て解除」を](#assignunassign-phone-numbers-and-services)参照してください。
 
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでリソースアカウントを作成する
@@ -120,7 +122,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 リソースアカウントに直接ルーティングまたはハイブリッド番号を割り当てるには、PowerShell を使用する必要があります。次のセクションを参照してください。
 
 > [!IMPORTANT]
-> リソースアカウントが仮想ユーザーまたは電話システムのライセンスを持っていない場合は、リソースアカウントに電話番号を割り当てようとしたときに、内部チェックによってエラーが発生します。 電話番号を割り当てたり、リソースアカウントをサービスに関連付けたりすることはできません。
+> リソースアカウントに有効なライセンスがない場合は、リソースアカウントに電話番号を割り当てようとしたときに、内部チェックによってエラーが発生します。 番号を割り当てることも、リソースアカウントを通話キューまたは自動応答に関連付けることもできません。
 
 ![[割り当て/割り当て解除] オプションのスクリーンショット](media/r-a-assign.png)
 

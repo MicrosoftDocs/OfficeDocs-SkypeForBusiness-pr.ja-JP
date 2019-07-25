@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbc685ac4a283d9db1d99b6d766026c5240b2431
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d4d2cb57738083b299a9f43786bdf28f86741a99
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222023"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861678"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -122,6 +122,8 @@ Teams Meeting add-in for Outlook のアドインをインストールできな�
 - Outlook デスクトップ クライアントを再起動します。 (管理者モードで Outlook が実行されていないことを確認してください。)
 - ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。 これは既知の問題であり、今後のビルドで修正される予定です。
 - シングル サインオン (SSO) が有効になっていることを確認します。
+
+管理者が[Exchange Web Server (EWS) へのアクセスを制御](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)するように Microsoft Exchange を構成している場合は、代理人が上司の代わりに Teams 会議をスケジュールすることはできません。 この構成の解決策は開発中であり、今後リリースされる予定です。 
 
 アドインを無効にする方法につぃての全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。
 

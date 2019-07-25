@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a10288c53ef26e47f50339c581901bd4e33958
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: d2a87feab04e28f2219acc31cce1d4c60a76a530
+ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30640699"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35851500"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft Teams 用の Office 365 ライセンス
 ========================================
@@ -36,7 +36,7 @@ Teams のユーザーを有効にする Office 365 サブスクリプション�
 |---------|---------|---------|---------|
 |Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Office 365 Developer     |
 |Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
-|     |Office 365 Enterprise E4 (廃止)         |Office 365 Education E3 (廃止)         |  |
+|Microsoft 365 for business     |Office 365 Enterprise E4 (廃止)         |Office 365 Education E3 (廃止)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | 
 |     |Office 365 Enterprise F1 |    |     | 
 

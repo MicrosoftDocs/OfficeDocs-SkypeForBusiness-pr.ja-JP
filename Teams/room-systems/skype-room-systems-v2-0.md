@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルーム (次世代の Skype Room Systems) の展開に関する考慮事項について説明します。
-ms.openlocfilehash: 9944caab333b52c0d31c513e91f1f1b4a4cd71d1
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: e5c902b5e4e015bfcc9be3b2d3927365483f3396
+ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198653"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35851547"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams のルームを計画する
 
@@ -51,12 +51,13 @@ Surface Pro と dock の組み合わせに加えて、タッチスクリーン�
 
 通常、バンドルと統合単位にはプレインストールされたソフトウェアが含まれますが、Surface Pro システムでサポートされるコンポーネントを個別に購入する場合は、ソフトウェアをインストールする必要があります。 手順については、[デバイスにソフトウェアをインストールする方法に関する記事](room-systems-scale.md)を参照してください。 
 
-Microsoft teams、Skype for Business Online、または Skype for Business のハイブリッドまたはオンプレミスの展開を使用して、Microsoft Teams のルームを展開することができます。  必要なライセンスについては、「 [Microsoft Teams 会議室のライセンス](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)」をご覧ください。
+Microsoft teams、Skype for Business Online、または Skype for Business のハイブリッドまたはオンプレミスの展開を使用して、Microsoft Teams のルームを展開することができます。  必要なライセンスについては、「 [Teams 会議室のライセンス更新](skype-room-systems-v2.md)」をご覧ください。
 
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft Teams のルームを組織に展開しますか? </li><li>Microsoft Teams のルームシステム (バンドルされている、個別のコンポーネント、または統合単位) をどのようにして調達しますか。</li></ul> |
 | ![](../media/audio_conferencing_image9.png)<br/>次のステップ | <ul><li>展開全体で主要なアクティビティを実施するユーザーを特定します。</li><li>使用している会議室 (および設定する予定) を確認して、Microsoft Teams の会議室と、部屋のサイズに適した周辺機器をどこに展開するかを理解します。</li></ul> |
+| | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>展開全体で主要な活動に取り組むユーザーを特定する
 
