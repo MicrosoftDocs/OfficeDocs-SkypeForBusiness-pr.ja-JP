@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3142a30a5131ed18a76a130c420b3af214c5190b
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 09a6ec1f60ca4bfc39dbeb5ba1829330c3413560
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841377"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925359"
 ---
 <a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -72,8 +72,6 @@ Microsoft Teams のゲストアクセスでは、Azure Active Directory (Azure A
    > **外部コラボレーションの設定**は、[**組織関係**] ページからも利用できます。 Azure Active Directory で、[**管理**] の [**組織の関係** > の**設定**] に移動します。
 4. [**外部コラボレーションの設定**] ページで、有効にするポリシーを選択します。
 
-   ![外部コラボレーションの設定](media/control-who-to-invite.png)
-
   - **ゲストユーザーのアクセス許可は制限され**ます: このポリシーは、ディレクトリ内のゲストに対するアクセス許可を決定します。 ユーザー、グループ、またはその他のディレクトリリソースを列挙するなど、特定のディレクトリタスクのゲストをブロックするには、[**はい**] を選択します。 [**いいえ**] を選択して、ディレクトリの通常ユーザーと同じアクセス権をゲストに与えます。
    - **ゲスト残っロールの管理者とユーザーは、招待でき**ます。 "ゲスト残っ" ロールの管理者とユーザーがゲストを招待できるようにするには、このポリシーを **[はい]** に設定します。
    - **招待できるメンバー**: ディレクトリの管理者以外のメンバーにゲストの招待を許可するには、このポリシーを **[はい]** に設定します。
@@ -82,7 +80,7 @@ Microsoft Teams のゲストアクセスでは、Azure Active Directory (Azure A
        > [**メンバーが招待可能**] を [**いいえ**] に設定して、Office 365 グループおよび Microsoft Teams でのゲスト アクセスを有効にすると、自分のディレクトリへのゲストの招待を管理者が制御することができます。 ゲストはディレクトリに入った後、管理者ではない、チーム所有者としてのメンバーによってチームに追加されることができます。 詳細については、「[Microsoft Teams でのゲスト アクセスを承認する](Teams-dependencies.md)」をご覧ください。
    
    - **招待できる**ゲスト: ゲストが他のゲストを招待できるようにするには、このポリシーを **[はい]** に設定します。
-   - **ゲストのメールの1回限りのパスコードを有効にする (プレビュー)**: 1 回限りのパスコード機能の詳細については、「[ワンタイムパスコードの認証 (プレビュー)](one-time-passcode.md)」を参照してください。
+   - **ゲストのメールの1回限りのパスコードを有効にする (プレビュー)**: 1 回限りのパスコード機能の詳細については、「[ワンタイムパスコードの認証 (プレビュー)](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)」を参照してください。
    - **共同作業の制限**: 特定のドメインへの招待の許可または禁止の詳細については、「[特定の組織からの B2B ユーザーへの招待を許可またはブロック](allow-deny-list.md)する」を参照してください。
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ 手順 2: Office 365 グループを構成する

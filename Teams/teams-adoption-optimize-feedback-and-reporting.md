@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89b4c292f17321878c66513f2d25f34c2deb186f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 65b3ec1b12f4e5074513378671044177a2ad9a6d
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494817"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925456"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
@@ -46,7 +46,7 @@ Microsoft Teams の使用を拡大縮小するための準備として、展開�
 
 ベストプラクティス: 社内のエキスパートに対して、毎月のチーム会議を開催します。 新しい機能の講義、フィードバックの入力、従業員コミュニティ用のセルフサービスツールの提供の間で、議題を分割します。
 
-ベストプラクティス: 社内のサポート部門または IT ヘルプデスクのエキスパートコミュニティに参加して、チームの使用状況に関する最新情報を把握してください。 
+ベストプラクティス: 社内のサポート部門または IT ヘルプデスクからエキスパートコミュニティに参加して、チームの使用状況に関する最新情報を把握することをお勧めします。 
 
 ## <a name="service-reporting"></a>サービスレポート
 
