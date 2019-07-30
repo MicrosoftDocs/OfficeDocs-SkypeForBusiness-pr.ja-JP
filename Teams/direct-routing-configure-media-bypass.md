@@ -14,51 +14,52 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: このトピックでは、電話システムのダイレクトルーティングでメディアバイパスを構成する方法について説明します。
-ms.openlocfilehash: ab7fbb7549793f7c557d11629f9aab4ef922e516
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 47b537a9feff22a24b97fa5c54669359992b8a31
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394572"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925474"
 ---
-# <a name="configure-media-bypass-with-direct-routing"></a><span data-ttu-id="efb58-103">ダイレクト ルーティングでメディア バイパスを構成する</span><span class="sxs-lookup"><span data-stu-id="efb58-103">Configure media bypass with Direct Routing</span></span>
+# <a name="configure-media-bypass-with-direct-routing"></a><span data-ttu-id="d3aae-103">ダイレクト ルーティングでメディア バイパスを構成する</span><span class="sxs-lookup"><span data-stu-id="d3aae-103">Configure media bypass with Direct Routing</span></span>
 
-<span data-ttu-id="efb58-104">ダイレクトルーティングを使用してメディアバイパスを構成する前に、[ダイレクトルーティングによるメディアバイパスの計画](direct-routing-plan-media-bypass.md)があることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="efb58-104">Before configuring media bypass with Direct Routing, be sure you have read [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md).</span></span>
+<span data-ttu-id="d3aae-104">ダイレクトルーティングを使用してメディアバイパスを構成する前に、[ダイレクトルーティングによるメディアバイパスの計画](direct-routing-plan-media-bypass.md)があることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="d3aae-104">Before configuring media bypass with Direct Routing, be sure you have read [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md).</span></span>
 
-<span data-ttu-id="efb58-105">メディアのバイパスを有効にするには、次の条件を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="efb58-105">To turn on media bypass, the following conditions must be met:</span></span>
+<span data-ttu-id="d3aae-105">メディアのバイパスを有効にするには、次の条件を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="d3aae-105">To turn on media bypass, the following conditions must be met:</span></span>
 
-1.  <span data-ttu-id="efb58-106">セッション境界コントローラー (SBC) ベンダーがメディアバイパスをサポートしていることを確認し、SBC でバイパスを構成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="efb58-106">Make sure that your Session Border Controller (SBC) vendor of choice supports media bypass and provides instructions on how to configure bypass on the SBC.</span></span> <span data-ttu-id="efb58-107">SBCs の詳細については、認定ページを参照してください。このページでは、メディアのバイパスがサポートされているものと手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="efb58-107">Please refer to the certification page to learn about SBCs, which ones support media bypass, and for instructions.</span></span>
+1.  <span data-ttu-id="d3aae-106">セッション境界コントローラー (SBC) ベンダーがメディアバイパスをサポートしていることを確認し、SBC でバイパスを構成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="d3aae-106">Make sure that your Session Border Controller (SBC) vendor of choice supports media bypass and provides instructions on how to configure bypass on the SBC.</span></span> <span data-ttu-id="d3aae-107">SBCs の詳細については、認定ページを参照してください。このページでは、メディアのバイパスがサポートされているものと手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="d3aae-107">Please refer to the certification page to learn about SBCs, which ones support media bypass, and for instructions.</span></span>
 
-2.  <span data-ttu-id="efb58-108">次のコマンドを使用して、トランクでメディアバイパスを有効にする必要があります: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**。</span><span class="sxs-lookup"><span data-stu-id="efb58-108">You need to turn on media bypass on the trunk using the following command:  **Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass $true**.</span></span>
+2.  <span data-ttu-id="d3aae-108">次のコマンドを使用して、トランクでメディアバイパスを有効にする必要があります: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**。</span><span class="sxs-lookup"><span data-stu-id="d3aae-108">You need to turn on media bypass on the trunk using the following command:  **Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass $true**.</span></span>
 
-3.  <span data-ttu-id="efb58-109">必要なポートが開かれていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="efb58-109">Make sure that the required ports are opened.</span></span> 
+3.  <span data-ttu-id="d3aae-109">必要なポートが開かれていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="d3aae-109">Make sure that the required ports are opened.</span></span> 
 
 
-## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a><span data-ttu-id="efb58-110">非バイパスの trunks からバイパス対応の trunks に移行する</span><span class="sxs-lookup"><span data-stu-id="efb58-110">Migrate from non-bypassed trunks to bypass-enabled trunks</span></span>
+## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a><span data-ttu-id="d3aae-110">非バイパスの trunks からバイパス対応の trunks に移行する</span><span class="sxs-lookup"><span data-stu-id="d3aae-110">Migrate from non-bypassed trunks to bypass-enabled trunks</span></span>
 
-<span data-ttu-id="efb58-111">一度にすべてのユーザーを切り替えることができます。また、段階的なアプローチを実装することもできます (推奨)。</span><span class="sxs-lookup"><span data-stu-id="efb58-111">You can switch all users at once or you can implement a phased approached (recommended).</span></span>
+<span data-ttu-id="d3aae-111">一度にすべてのユーザーを切り替えることができます。また、段階的なアプローチを実装することもできます (推奨)。</span><span class="sxs-lookup"><span data-stu-id="d3aae-111">You can switch all users at once or you can implement a phased approached (recommended).</span></span>
 
-- <span data-ttu-id="efb58-112">**一度にすべてのユーザーを切り替える。**</span><span class="sxs-lookup"><span data-stu-id="efb58-112">**Switch all users at once.**</span></span> <span data-ttu-id="efb58-113">すべての条件が満たされた場合は、バイパスモードをオンにすることができます。</span><span class="sxs-lookup"><span data-stu-id="efb58-113">If all conditions are met, you can turn bypass mode on.</span></span> <span data-ttu-id="efb58-114">ただし、すべての運用ユーザーが同時に切り替えられます。</span><span class="sxs-lookup"><span data-stu-id="efb58-114">However, all your production users will be switched at the same time.</span></span> <span data-ttu-id="efb58-115">Trunks とポートを構成するときに、最初にいくつかの問題が発生する可能性があるため、実稼働ユーザーエクスペリエンスに影響を与える可能性があります。</span><span class="sxs-lookup"><span data-stu-id="efb58-115">Because you might experience some issues initially when you configure trunks and ports, your production user experience might be affected.</span></span> 
+- <span data-ttu-id="d3aae-112">**一度にすべてのユーザーを切り替える。**</span><span class="sxs-lookup"><span data-stu-id="d3aae-112">**Switch all users at once.**</span></span> <span data-ttu-id="d3aae-113">すべての条件が満たされた場合は、バイパスモードをオンにすることができます。</span><span class="sxs-lookup"><span data-stu-id="d3aae-113">If all conditions are met, you can turn bypass mode on.</span></span> <span data-ttu-id="d3aae-114">ただし、すべての運用ユーザーが同時に切り替えられます。</span><span class="sxs-lookup"><span data-stu-id="d3aae-114">However, all your production users will be switched at the same time.</span></span> <span data-ttu-id="d3aae-115">Trunks とポートを構成するときに、最初にいくつかの問題が発生する可能性があるため、実稼働ユーザーエクスペリエンスに影響を与える可能性があります。</span><span class="sxs-lookup"><span data-stu-id="d3aae-115">Because you might experience some issues initially when you configure trunks and ports, your production user experience might be affected.</span></span> 
 
-- <span data-ttu-id="efb58-116">**段階的アプローチ。(推奨)**。</span><span class="sxs-lookup"><span data-stu-id="efb58-116">**Phased approach. (Recommended)**.</span></span>  <span data-ttu-id="efb58-117">同じ SBC (別のポートを持つ) に新しいトランクを作成し、テストして、ユーザーが新しいトランクをポイントするようにオンラインボイスルーティングポリシーを変更します。</span><span class="sxs-lookup"><span data-stu-id="efb58-117">Create a new trunk for the same SBC (with a different port), test it, and change the online voice routing policy for the users to point to the new trunk.</span></span> 
+- <span data-ttu-id="d3aae-116">**段階的アプローチ。(推奨)**。</span><span class="sxs-lookup"><span data-stu-id="d3aae-116">**Phased approach. (Recommended)**.</span></span>  <span data-ttu-id="d3aae-117">同じ SBC (別のポートを持つ) に新しいトランクを作成し、テストして、ユーザーが新しいトランクをポイントするようにオンラインボイスルーティングポリシーを変更します。</span><span class="sxs-lookup"><span data-stu-id="d3aae-117">Create a new trunk for the same SBC (with a different port), test it, and change the online voice routing policy for the users to point to the new trunk.</span></span> 
 
-  <span data-ttu-id="efb58-118">これは、スムーズな移行と中断のないユーザーエクスペリエンスを実現するために推奨されるアプローチです。</span><span class="sxs-lookup"><span data-stu-id="efb58-118">This is the recommended approach because it allows for a smoother transition and uninterrupted user experience.</span></span> <span data-ttu-id="efb58-119">この方法では、SBC、新しい FQDN 名、ファイアウォールの構成が必要です。</span><span class="sxs-lookup"><span data-stu-id="efb58-119">This approach requires configuration of the SBC, a new FQDN name, and configuration of the firewall.</span></span> <span data-ttu-id="efb58-120">注: 証明書で trunks の両方がサポートされていることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="efb58-120">Note you will need to make sure that your certificate supports both trunks.</span></span> <span data-ttu-id="efb58-121">SAN では、2つの名前 (**sbc1.contoso.com**と**sbc2.contoso.com**) を使用するか、ワイルドカード証明書を持っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="efb58-121">In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.</span></span>
+  <span data-ttu-id="d3aae-118">これは、スムーズな移行と中断のないユーザーエクスペリエンスを実現するために推奨されるアプローチです。</span><span class="sxs-lookup"><span data-stu-id="d3aae-118">This is the recommended approach because it allows for a smoother transition and uninterrupted user experience.</span></span> <span data-ttu-id="d3aae-119">この方法では、SBC、新しい FQDN 名、ファイアウォールの構成が必要です。</span><span class="sxs-lookup"><span data-stu-id="d3aae-119">This approach requires configuration of the SBC, a new FQDN name, and configuration of the firewall.</span></span> <span data-ttu-id="d3aae-120">注: 証明書で trunks の両方がサポートされていることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d3aae-120">Note you will need to make sure that your certificate supports both trunks.</span></span> <span data-ttu-id="d3aae-121">SAN では、2つの名前 (**sbc1.contoso.com**と**sbc2.contoso.com**) を使用するか、ワイルドカード証明書を持っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="d3aae-121">In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.</span></span>
 
 ![非バイパスの trunks からバイパス対応の trunks に移行する](media/direct-routing-media-bypass-8.png)
 
-<span data-ttu-id="efb58-123">Trunks を構成して移行を実行する方法については、「SBC ベンダーのドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="efb58-123">For instructions on how to configure the trunks and perform migration, see the documentation from your SBC vendor:</span></span>
+<span data-ttu-id="d3aae-123">Trunks を構成して移行を実行する方法については、「SBC ベンダーのドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d3aae-123">For instructions on how to configure the trunks and perform migration, see the documentation from your SBC vendor:</span></span>
 
-- <span data-ttu-id="efb58-124">AudioCodes</span><span class="sxs-lookup"><span data-stu-id="efb58-124">AudioCodes</span></span>
-- <span data-ttu-id="efb58-125">リボン</span><span class="sxs-lookup"><span data-stu-id="efb58-125">Ribbon</span></span>
-- <span data-ttu-id="efb58-126">TE システム (AnyNode)</span><span class="sxs-lookup"><span data-stu-id="efb58-126">TE-Systems (AnyNode)</span></span>    
+- [<span data-ttu-id="d3aae-124">AudioCodes の展開に関するドキュメント</span><span class="sxs-lookup"><span data-stu-id="d3aae-124">AudioCodes deployment documentation</span></span>](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [<span data-ttu-id="d3aae-125">Oracle 展開に関するドキュメント</span><span class="sxs-lookup"><span data-stu-id="d3aae-125">Oracle deployment documentation</span></span>](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [<span data-ttu-id="d3aae-126">リボンの通信展開に関するドキュメント</span><span class="sxs-lookup"><span data-stu-id="d3aae-126">Ribbon Communications deployment documentation</span></span>](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [<span data-ttu-id="d3aae-127">TE システム (anynode) の展開ドキュメント</span><span class="sxs-lookup"><span data-stu-id="d3aae-127">TE-Systems (anynode) deployment documentation</span></span>](https://www.anynode.de/anynode-and-microsoft-teams/)
 
-<span data-ttu-id="efb58-127">直接ルーティング用に認定したセッション境界コントローラー (SBCs) の一覧については、「[直接ルーティング用に認定済みのセッション罫線ありコントローラーの一覧](direct-routing-border-controllers.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="efb58-127">For a list of Session Border Controllers (SBCs) certified for Direct Routing, see [List of Session Broder Controllers certified for Direct Routing](direct-routing-border-controllers.md).</span></span>
+<span data-ttu-id="d3aae-128">直接ルーティング用に認定したセッション境界コントローラー (SBCs) の一覧については、「[直接ルーティング用に認定済みのセッション罫線ありコントローラーの一覧](direct-routing-border-controllers.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d3aae-128">For a list of Session Border Controllers (SBCs) certified for Direct Routing, see [List of Session Broder Controllers certified for Direct Routing](direct-routing-border-controllers.md).</span></span>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="efb58-128">関連項目</span><span class="sxs-lookup"><span data-stu-id="efb58-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d3aae-129">関連項目</span><span class="sxs-lookup"><span data-stu-id="d3aae-129">See also</span></span>
 
-[<span data-ttu-id="efb58-129">ダイレクトルーティングによるメディアバイパスの計画</span><span class="sxs-lookup"><span data-stu-id="efb58-129">Plan media bypass with Direct Routing</span></span>](direct-routing-plan-media-bypass.md)
+[<span data-ttu-id="d3aae-130">ダイレクトルーティングによるメディアバイパスの計画</span><span class="sxs-lookup"><span data-stu-id="d3aae-130">Plan media bypass with Direct Routing</span></span>](direct-routing-plan-media-bypass.md)
 
 
 
