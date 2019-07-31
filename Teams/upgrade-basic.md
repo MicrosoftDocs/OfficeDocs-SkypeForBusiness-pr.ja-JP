@@ -1,12 +1,12 @@
 ---
-title: アップグレードのチェックリスト |チームのアップグレードに Skype ビジネス |基本的な手順
+title: アップグレードのチェックリスト |Skype Business から Teams へのアップグレード |基本的な手順
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: ビジネス用の Skype からチームへのアップグレードの高速の 10 ステップのアクション ・ プラン
+description: Skype for Business から Teams へのアップグレードに関する10段階のアクションプランの高速化
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -18,45 +18,48 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d3a4aacf23ffcad426a86735e55ed6a03e06e07
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 397155766bc966c9591f863a3f97fca59dcb1128
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920507"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934551"
 ---
 <a name="about-upgrade-basic"></a>
 
-# <a name="upgrade-basic"></a>基本的なアップグレードします。
+# <a name="upgrade-basic"></a>アップグレードの基本
 
-小規模な組織やビジネス オンラインの Skype を使用する (チャット) の IM と会議だけのために設計された、基本アップグレードのチェックリストを含むコア、高速化されたアクション ・ プランを選択し、活動を推奨を実装するためのリソースに関連付けられている、チームにビジネス用の Skype から正常に移動します。
+小規模の組織または Skype for Business Online で IM (チャット) と会議のみを使用するように設計されています。また、アップグレードの基本チェックリストは、コア、推奨アクティビティ、関連リソースを含む、Skype for Business から Teams に正常に移行されました。
 
-10 の簡単な手順は、アップグレードを成功させるために必要なすべてを提供します。 30 ~ 45 日以内に完了するように設計されているが、組織のアップグレードのスケジュールに基づくタスクの終了日を調整する必要があります。
+この10個の簡単な手順で、アップグレードを成功させるために必要なすべての操作を行うことができます。 30 ~ 45 日後に完了するように設計されていますが、組織のアップグレードスケジュールに基づいて、タスクの完了日を調整する必要があります。
 
-何は、アップグレード後 Skype のビジネスにどうなりますか。 ユーザーの後は、チーム (**チームのみ**モード) にアップグレードされます。
+> [!IMPORTANT]
+> Skype for Business Online は、2021年7月31日に廃止されます。 その後、Skype for Business Online サービスは、アクセスまたはサポートされなくなります。 給付金を最大限に活用し、組織がアップグレードを実装するための適切な時間を確保するために、Microsoft Teams の現在の旅を開始することをお勧めします。
 
-- ビジネス クライアント用の Skype を無効にすると、およびチームに移動するすべてのチャットと通話します。 自分のデスクトップ上のクライアントをアンインストールしないことに注意してください。
-- チームのように設計されており、アップグレード作業の前にスケジュールされていたビジネス ・ ミーティングのすべての Skype ですが、すべての新しい会議がスケジュールされます。
-- ユーザーがビジネスのための Skype にサインインしようとすると場合は、チームにアップグレードされている、クライアントからの通知を取得します。
-- ユーザーは、ビジネスのクライアント、モバイル デバイス上の Skype を手動でアンインストールする必要があります。
+アップグレード後の Skype for Business はどうなりますか? ユーザーが Teams (**Teams のみ**モード) にアップグレードされた後、次の操作を行います。
 
-アップグレードに関するその他の質問については、[よく寄せられる質問](https://aka.ms/SkypeToTeams-FAQ)を参照してください。
+- Skype for Business クライアントが無効になり、すべてのチャットと通話が Teams に移動します。 これにより、デスクトップ上のクライアントがアンインストールされることはありません。
+- アップグレード前にスケジュールされていた Skype for Business 会議は、設計どおりに動作しますが、すべての新しい会議は Teams でスケジュールされています。
+- ユーザーが Skype for Business にサインインしようとすると、そのユーザーはクライアントからチームにアップグレードされたという通知を受け取ります。
+- ユーザーは、モバイルデバイスで Skype for Business クライアントを手動でアンインストールする必要があります。
 
-チームに精通していないでしょうか。 [方法についてチーム](https://products.office.com/microsoft-teams/group-chat-software)の会話、会議、ファイル、Office アプリケーション、およびサード ・ パーティ統合をまとめて-Office 365 のチームワークで 1 つのハブを提供することです。
+アップグレードに関するその他の質問については、 [FAQ](https://aka.ms/SkypeToTeams-FAQ)をご覧ください。
+
+Teams について理解していない場合 チームでの会話、会議、ファイル、Office アプリ、サードパーティの統合の[概要について説明](https://products.office.com/microsoft-teams/group-chat-software)します。 office 365 でチームワークの単一のハブを提供します。
 
 <!--ENDOFSECTION-->
 
 <a name="step-1"></a>
 
-## <a name="step-1-notify-your-key-stakeholders"></a>手順 1 です。 主要な関係者に通知します。
+## <a name="step-1-notify-your-key-stakeholders"></a>手順1 主要な関係者に通知する
 
-*(アップグレード前に約 4 ~ 6 週間)*
+*(アップグレードの前に約 4 ~ 6 週間)*
 
-シニア ・ リーダーとは、会社の成功に責任を持つ削除しないときは、通知がテクノロジーの変化のことを確認します。 (たとえば、最高経営責任者、IT プロフェッショナル、マーケティング、およびヘルプデスクの潜在顧客) には、関係者に通知する必要がありますので、誰も受信またはアップグレードの適格性の通知を読むことはできますが、アップグレードの計画を開始する前にします。
+シニアリーダーは、企業の成功の責任を持ちます。技術の変更については、必ず知っておいてください。 アップグレードの計画を始める前に、参加者 (CEO、IT プロフェッショナル、マーケティング、ヘルプデスクの潜在顧客など) に通知する必要があるため、お客様の関係者に通知する必要があります。
 
-**リソース:**
+**参照**
 
-- [電子メールのサンプル: 利害関係者のコミュニケーション](upgrade-emails-surveys.md#step-1-email)
+- [サンプルメール: 関係者とのコミュニケーション](upgrade-emails-surveys.md#step-1-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -64,20 +67,20 @@ ms.locfileid: "33920507"
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>手順 2 です。 Teams に向けて組織を準備する
+## <a name="step-2-prepare-your-organization-for-teams"></a>手順2 Teams に向けて組織を準備する
 
-*(アップグレード前に約 4 ~ 6 週間)*
+*(アップグレードの前に約 4 ~ 6 週間)*
 
-チームは、ビジネス機能の互換性のある Skype を提供しています-IM (チャット)、会議など、方がもっと多く操作も実行できますが、します。 チームワークの真のハブ、としては、チームは、プロジェクト、ファイル、会話、および 1 つの場所ですべてのアプリケーションを管理するためにワークグループを使用できます。 組織はチームを使用し、成功のため、環境を構成する方法を決定します。
+チームは、IM (チャット) や会議などの Skype for Business の互換性のある機能を提供していますが、その他にも多くのことを行うことができます。 Teams では、チームワークグループの実際のハブとして、プロジェクト、ファイル、スレッド、アプリを1つの場所で管理できます。 組織でチームをどのように使用するかを決定し、成功のために環境を構成します。
 
 > [!Note]
-> ビジネス顧客の既存の Skype、として、現在のネットワーク インフラストラクチャはチームが既に構成されています。 これを確認するのには下にリンクされている「技術的な計画を完了する」のガイダンスに従うことができます (省略可能です)。
+> 既存の Skype for Business のお客様としては、現在のネットワークインフラストラクチャが Teams 用に既に構成されている可能性があります。 これを確認するには、以下にリンクされている「完全な技術計画」のガイダンスに従う必要があります (これは省略可能です)。
 
-**リソース:**
+**参照**
 
 - [Teams の概要](Teams-overview.md)
-- [チームとのチャンネルについてください。](teams-channels-overview.md)
-- [技術的な計画を完了します。](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [チームとチャネルについて](teams-channels-overview.md)
+- [完全な技術計画](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Microsoft Teams Rooms を管理する](https://aka.ms/MTRDocs)
 
 [ページのトップへ](#about-upgrade-basic)
@@ -86,15 +89,15 @@ ms.locfileid: "33920507"
 
 <a name="step-3"></a>
 
-## <a name="step-3-know-your-skype-for-business-users"></a>ステップ 3 です。 ビジネス ユーザー向けに、Skype を知っています。
+## <a name="step-3-know-your-skype-for-business-users"></a>手順3 Skype for Business ユーザーについて知る
 
-*(約 4 週間以内のアップグレードの前に)*
+*(アップグレードの4週間前)*
 
-ユーザーは、ビジネスの Skype の採用は深くには、少しの時間や、チームへの移行の支援を必要があります。 ビジネスを使用するため現在 Skype、その他のサポートが必要な最上位のユーザーを識別して、アップグレード後の番号を追跡する使用量の基準を確立するための確認に時間がかかります。
+Skype for Business に深く採用されているユーザーは、チームへの移行を行うために、さらに時間がかかることがあります。 現在の Skype for Business の使用状況を確認して、追加のサポートが必要な上位ユーザーを特定し、更新後の番号に対して追跡できる使用方法のベースラインを設定します。
 
-**リソース:**
+**参照**
 
-- [利用状況データを Office 365 での活動レポートを参照してください。](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [Office 365 のアクティビティレポートの利用状況データを表示する](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -102,19 +105,19 @@ ms.locfileid: "33920507"
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>手順 4 します。 チームにビジネス用の Skype からアップグレードすることをユーザーに通知します。
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>手順4。 Skype for Business から Teams にアップグレードすることをユーザーに通知する
 
-*(アップグレード前に約 2 ~ 3 週間)*
+*(アップグレードの 1 ~ 3 週間前)*
 
-ユーザーに十分な通知を提供することには、正のユーザー エクスペリエンスの結果としての生産性に悪影響を及ぼすことがなくチームについて理解するのに時間です。 通信からの変更点、変更理由がするは通知を送信します。
+ユーザーに十分な通知を提供することで、チームの生産性に悪影響を与えずに、チームの理解を深めることができます。その結果、よりポジティブなユーザーエクスペリエンスが得られます。 通信を送信して、何が変更されているか、変更される理由、準備を行う方法を伝えます。
 
 > [!Note]
-> 必要な場合は、この時点で、Office 365 管理ポータルを使用して、ユーザーのチームを有効にできます。
+> この時点で、必要に応じて、Office 365 管理ポータルを使用して、ユーザーに対して Teams を有効にすることができます。
 
-**リソース:**
+**参照**
 
 - [組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md)
-- [電子メールのサンプル: ビジネス用の Skype についてユーザーにお知らせ](upgrade-emails-surveys.md#step-4-email)
+- [サンプルメール: Skype for Business についてのユーザーへのお知らせ](upgrade-emails-surveys.md#step-4-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -122,13 +125,13 @@ ms.locfileid: "33920507"
 
 <a name="step-5"></a>
 
-## <a name="step-5-activate-the-user-upgrade-notification"></a>手順 5 です。 ユーザーのアップグレードの通知をアクティブにします。
+## <a name="step-5-activate-the-user-upgrade-notification"></a>手順5 ユーザーアップグレード通知を有効にする
 
-*(アップグレード前に約 1 週間)*
+*(アップグレードの1週間前)*
 
-管理者用ポータルのユーザーはビジネス用の Skype からチームにアップグレードされていること、Skype ビジネス クライアント用の視覚的な警告を提供することによるユーザーのアップグレードの通知を有効にすると、アップグレードの勢いを維持します。
+管理ポータルを使用してユーザーのアップグレード通知を有効にし、skype for business クライアントでユーザーが Skype for Business から Teams にアップグレードすることによって、アップグレードの勢いを維持します。
 
-**リソース:**
+**参照**
 
 - [共存およびアップグレードを設定する](setting-your-coexistence-and-upgrade-settings.md)
 
@@ -138,15 +141,15 @@ ms.locfileid: "33920507"
 
 <a name="step-6"></a>
 
-## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>手順 6。 チームにビジネス用の Skype からアップグレードすることをユーザーに通知します。
+## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>手順6 Skype for Business から Teams にアップグレードすることをユーザーに通知する
 
-*(アップグレード前に約 5 日)*
+*(アップグレードの5日後)*
 
-ユーザーは、日常の業務で多忙です。 保留中のアップグレードの通知により、チームの準備に必要な手順を実行することに注意してください。 これは、利用可能なトレーニングとチームを開始する方法についてユーザーに通知するのには完璧な時間です。
+ユーザーは、毎日の責任の対象となります。 保留中のアップグレードについて通知すると、チームの準備に必要な手順を確実に行うことができます。 これは、利用可能なトレーニングや Teams の使用を開始する方法についてユーザーに通知するのに最適なタイミングです。
 
-**リソース:**
+**参照**
 
-- [電子メールのサンプル: チームを開始するユーザーに通知](upgrade-emails-surveys.md#step-6-email)
+- [サンプルメール: Teams の使用を開始するようにユーザーに通知する](upgrade-emails-surveys.md#step-6-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -154,18 +157,18 @@ ms.locfileid: "33920507"
 
 <!--ENDOFSECTION-->
 
-## <a name="step-7-upgrade-users-to-teams"></a>手順 7 です。 チームにユーザーをアップグレード!
+## <a name="step-7-upgrade-users-to-teams"></a>手順7 ユーザーを Teams にアップグレードする
 
-*(1 日にアップグレードします)*
+*(アップグレード日)*
 
-今日は、組織が正式に、コミュニケーションとコラボレーションのソリューションとしてチームにアップグレードの日です。 マイクロソフトのチーム管理センターで、**チームだけ**に共存モードを設定することによってアップグレードを有効にします。 (**組織全体の設定**には、管理センターで、 > **のチームをアップグレード**します)。ビジネス クライアントがチームにアップグレードされているため、Skype では、ユーザーは通知を受け取ります。
+本日は、お客様の組織がコミュニケーションとコラボレーションソリューションとしてチームに正式にアップグレードした日です。 Microsoft Teams 管理センターで、[共存] モードを [**チームのみ**] に設定してアップグレードスイッチをアクティブ化します。 (管理センターで、[**組織全体の設定** > ]**チームのアップグレード**に移動します)。ユーザーは、Skype for Business クライアントで、チームにアップグレードされたという通知を受け取ります。
 
-すべてのユーザーがアップグレードされた後、チームを歓迎する電子メールを送信することをお勧めします。
+全員のアップグレードが完了したら、チームに歓迎するメールを送信することをお勧めします。
 
-**リソース:**
+**参照**
 
 - [共存およびアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)
-- [電子メールのサンプル: ユーザーがチームの開始](upgrade-emails-surveys.md#step-7-email)
+- [サンプルメール: Teams へようこそ](upgrade-emails-surveys.md#step-7-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -173,15 +176,15 @@ ms.locfileid: "33920507"
 
 <a name="step-8"></a>
 
-## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>手順 8 です。 ベースラインに対してチームの使用率を監視します。
+## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>手順8 チームの使用状況をベースラインに対して監視する
 
-*(については、アップグレード後の 1 つまたは 2 つの週)*
+*(アップグレード後の1週間または2週間後)*
 
-新しいテクノロジーを調整すると、時間がかかることができます。 ユーザーが同時にチームを使用していることを確認する使用状況を確認、またはそれ以上-レベルのビジネス用の Skype と同様にします。 期待どおりのレベルでチームを使用していないユーザーを使用して確認してください。
+新しいテクノロジに調整するには、時間がかかることがあります。 使用状況を確認して、ユーザーが Skype for Business と同じレベルまたはそれ以上のレベルで Teams を使用していることを確認します。 チームを使用していないユーザーと期待されるレベルでチェックインします。
 
-**リソース:**
+**参照**
 
-- [利用状況データを参照してください。](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+- [利用状況データを表示する](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -189,15 +192,15 @@ ms.locfileid: "33920507"
 
 <!--ENDOFSECTION-->
 
-## <a name="step-9-measure-user-satisfaction"></a>手順 9。 ユーザーの満足度を測定
+## <a name="step-9-measure-user-satisfaction"></a>手順9 ユーザー満足度の評価
 
-*(については、アップグレード後の 1 つまたは 2 つの週)*
+*(アップグレード後の1週間または2週間後)*
 
-従業員の満足度は、保持期間などの生産性に影響を与えると、最終的に、ビジネスの成果。 アップグレードおよびチームに顧客満足度に関するユーザーのある意見を評価するため、ユーザーにアクセスします。
+従業員の満足度は生産性、保持度、および最終的なビジネスの結果に影響を与える可能性があります。 ユーザーに連絡して、アップグレードについてのユーザー感情とチームとの満足度を評価する。
 
-**リソース:**
+**参照**
 
-- [電子メールのサンプル: ユーザーが確認](upgrade-emails-surveys.md#step-9-email)、さらに[ユーザー アンケート](upgrade-emails-surveys.md#step-9-surveys)
+- [サンプルメール: ユーザーと](upgrade-emails-surveys.md#step-9-email)[ユーザーアンケート](upgrade-emails-surveys.md#step-9-surveys)をチェックインする
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -205,14 +208,14 @@ ms.locfileid: "33920507"
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a>手順 10 です。 チームと共同で、ROI を最大化します。
+## <a name="step-10-maximize-your-roi-with-teams"></a>手順10 Teams で ROI を最大限に活用する
 
-*(随時)*
+*現状*
 
-ユーザーが IM (チャット) とチームでミーティングを理解したら、チームの共同作業とアプリケーションの統合を使用して、本当に、新しいソリューションを最適化して、投資回収率を最大化することで、ユース ケースを拡張することをお勧めします。
+ユーザーがチームの IM (チャット) と会議に慣れたら、チームのグループ作業とアプリの統合を使用して、新しいソリューションの最適化と投資による収益の最大化を行うことで、ユースケースを延長することをお勧めします。
 
-**リソース:**
+**参照**
 
-- [電子メールのサンプル: ユーザーがチームをさらに調査をお勧め](upgrade-emails-surveys.md#step-10-email)
+- [サンプルメール: チームをより詳しく調査するようにユーザーに促します。](upgrade-emails-surveys.md#step-10-email)
 
 [ページのトップへ](#about-upgrade-basic)

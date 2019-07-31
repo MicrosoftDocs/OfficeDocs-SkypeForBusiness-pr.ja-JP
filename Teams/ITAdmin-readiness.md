@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67da3bc45f87cabcb173d5ea58f3c1183e20ab30
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 5e03889c4bdc4ae7c1b34538cba28cc73da9b8a9
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804762"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934487"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -108,7 +108,6 @@ ms.locfileid: "35804762"
 
 <h2>チュートリアル</h2>
 
-- [チュートリアル: Skype for Business から Teams への移行](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [チュートリアル: Teams での会議](tutorial-meetings-in-teams.yml)
 - [チュートリアル: Teams での電話会議](tutorial-audio-conferencing.yml)
 - [チュートリアル: Teams での通話の理解](tutorial-calling-in-teams.yml)
@@ -117,4 +116,3 @@ ms.locfileid: "35804762"
 
 - [Microsoft Teamsでチームワークを可能に](https://aka.ms/edx-cld267x-about)
 - [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
-- [30のインタラクティブトレーニングの Teams](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)

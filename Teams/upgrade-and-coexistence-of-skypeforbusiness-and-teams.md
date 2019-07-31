@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 362e973bee33b8e556a84c0f03fd54d649d9ab14
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.openlocfilehash: d662dfd98aa4706d32a7e9ba3bec06d5e32ae975
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "35535877"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934400"
 ---
 ![展開と実装を強調したアップグレードの図](media/upgrade-banner-deployment.png "展開と実装のステージに重点を置いたアップグレードの段階")
 
@@ -35,12 +35,18 @@ ms.locfileid: "35535877"
 
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード手順を選択する
 
-Microsoft Teams では、最終的に Skype for Business Online が置き換えられるため、すぐに Teams を計画する必要があります。
-
 既存の Skype for Business ユーザーである場合、Teams への完全な移行には時間がかかることがあります。 ただし、今すぐ Teams を Skype for Business と共存する形で有効にすることによって、関係するユーザーが Teams の価値を実感し始められるようになります。 2 つのアプリの間で重複する機能があることから、利用可能な共存およびアップグレードモードを再確認すると、お客様の組織にとってどのパスが適しているかを判断するのに役立ちます。 たとえば、すべてのワークロードを、相互運用性のない状態で、両方のソリューションで有効にすることを選ぶことが考えられます。 または、お客様の組織において、すべてのユーザーを Teams にアップグレードさせられる準備が整うまで、段階的に Teams の機能を導入したり、一部の機能を使用できるユーザーのグループを絞り込んだりして、ユーザー エクスペリエンスを管理することを決めることも考えられます。 組織のために適切なアップグレード手順を評価するために、パイロットの結果を使用します。
 
 > [!IMPORTANT]
-> この記事では、Skype for Business および Teams のどのモダリティをユーザーが利用できるようにするかを管理できるようになる、さまざまなモードの概要を示します。 どのような展開においても、お客様の組織で Teams へのアップグレードを行う前に、選択したユーザー グループで、[対象の計画をパイロットする](pilot-essentials.md)ことを強くお勧めします。 新しいテクノロジーを導入することは、ユーザーにとって混乱をきたす可能性があるものであることを忘れないでください。 ここで概説されているいずれかのモードを実施する前に、ユーザーの準備状況を評価して、コミュニケーションおよびトレーニングの計画を実行するために時間を割きます。
+> Skype for Business Online は、2021年7月31日に廃止されます。その後、アクセスまたはサポートされなくなります。 給付金を最大限に活用し、組織がアップグレードを実装するための適切な時間を確保するために、Microsoft Teams の現在の旅を開始することをお勧めします。
+
+この記事では、Skype for Business および Teams のどのモダリティをユーザーが利用できるようにするかを管理できるようになる、さまざまなモードの概要を示します。 どのような展開においても、お客様の組織で Teams へのアップグレードを行う前に、選択したユーザー グループで、[対象の計画をパイロットする](pilot-essentials.md)ことを強くお勧めします。 新しいテクノロジーを導入することは、ユーザーにとって混乱をきたす可能性があるものであることを忘れないでください。 ここで概説されているいずれかのモードを実施する前に、ユーザーの準備状況を評価して、コミュニケーションおよびトレーニングの計画を実行するために時間を割きます。
+
+> [!TIP]
+> お客様は、指導、ベストプラクティス、およびアップグレードを開始するために設計されたリソースを共有するライブのインタラクティブなワークショップをお申し込みください。
+>
+>最初に[アップグレード](https://aka.ms/SkypeToTeamsPlanning)セッションの計画に参加してください。
+
 
 ## <a name="upgrade-journey-building-blocks"></a>アップグレード手順の構成単位
 
@@ -63,6 +69,9 @@ Skype for Business から Teams へのアップグレードに関連した、さ
 |Skype for Business と Teams でのコラボレーションおよび会議 |エンタープライズ VoIP を頻繁に使用し、Teams 通話では適合しない要件がある Skype for Business の展開<br><br>Skype for Business に対する長期的な必要性や、コミットメント<br><br>サードパーティの会議サービスを使用する可能性|グループでの共同作業にとどまらず、Teams の導入を速やかに開始<br><br>ユーザーの会議のエクスペリエンスを改善<br><br>(一般的にエンタープライズ VoIP オンプレミスのために) 完全にアップグレードする準備が整う前に、Teams 会議を十分に活用することを望んでいる、オンプレミスの組織に対して推奨される使用 |重複する機能なし<br><br>Teams でのより優れた会議。 機能のロードマップ、UX とクロス プラットフォーム、品質と信頼性<br><br>Skype for Business と Teams との間での「より良い連携作業」エクスペリエンス<br><br>Teams Only の相互運用性ユーザー。|インスタント メッセージング およびチャットが (通話に結びついている) Skype for Business に存在する|
 |Teams Only |[チームのみ] は、すべてのユーザーの最終的な保存先です。<br><br>Skype for Business の使用を継続する必要がある一部のユーザー<br><br>Skype for Business Online ユーザーを Teams にアップグレートしている一方で、Skype for Business オンプレミス ユーザーは Skype for Business Server 上にとどめている<br><br>展開済みのユーザーを既にアイランド モードにしており、ユーザーのグループでの Skype for Business の使用を廃止する準備が整っている |Skype for Business のさまざまな費用 (オンプレミス サーバーの運用、外注契約など) の削減<br><br>できるだけ早く、少なくとも一部のユーザーにおいて、完全な Teams エクスペリエンスに移行する|Skype for Business のみ、Skype for Business と Teams でのコラボレーション、Skype for Business と Teams でのコラボレーション、Skype for Business と Teams でのコラボレーションおよび会議において、ユーザーとの相互運用性で機能するクライアントを 1 つのみ提供して、ユーザーの混乱を抑制する|相互運用性のサポート範囲は、Skype for Business と Teams との間での基本的なチャットと通話、およびデスクトップ共有や複数パーティでのチャットおよび通話のための相互運用性のエスカレーション シナリオに限られる|
 |Skype for Business のみ |Skype for Business の使用を継続する必要がある一部のユーザー<br><br>|ユーザーとの相互運用性で機能するクライアントを 1 つのみ提供して、ユーザーの混乱を抑制する<br><br>ユーザーは招待された場合に Teams 会議に参加することができる|現時点で Skype for Business によってのみ適合しているビジネス要件に適合する<br><br>Teams Only のユーザーとの相互運用性|相互運用性のサポート範囲は、Skype for Business と Teams との間での基本的なチャットと通話、およびデスクトップ共有や複数パーティでのチャットおよび通話のための相互運用性のエスカレーション シナリオに限られる|
+
+> [!TIP]
+> Skype for Business がまだ使用されているときに、チームで有効にする機能に基づいて推奨されるアップグレードモードを特定するには、 [skype To Teams アップグレードウィザード](https://aka.ms/SkypeToTeamsWizard)をご利用ください。
 
 ## <a name="upgrade-journeys"></a>アップグレード手順
 

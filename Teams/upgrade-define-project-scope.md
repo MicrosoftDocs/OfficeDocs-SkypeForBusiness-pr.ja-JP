@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaba703faecb0d77db4cf6b858e10af5ba9231e2
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 28a64be495417c07bf98cb5f42ae9068d98031a3
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432937"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934575"
 ---
 ![プロジェクト定義ステージを強調表示したアップグレードの図](media/upgrade-banner-project-definition.png "プロジェクト定義ステージに重点を置いたアップグレードの段階")
 
@@ -81,7 +81,7 @@ ms.locfileid: "34432937"
 
 | 指向 | キーの結果 | 目的 |
 |---|---|---|
-| Skype for Business を使用してチームで共同作業を行う ([共同作業専用モード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)) | FY18Q2: 500-ユーザーパイロットの実施と完了 | <ul><li>パイロットユーザーを特定する</li><li>パイロットテスト計画を作成する</li><li>Teams でパイロットユーザーを有効にする</li><li>パイロットの実装</li><li>パイロットのフィードバックアンケートを実行する</li><li>パイロット成功の評価</li></ul> |
+| Skype for Business を使用してチームで共同作業を行う ([共同作業専用モード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)) | FY19Q2: 500-ユーザーパイロットの実施と完了 | <ul><li>パイロットユーザーを特定する</li><li>パイロットテスト計画を作成する</li><li>Teams でパイロットユーザーを有効にする</li><li>パイロットの実装</li><li>パイロットのフィードバックアンケートを実行する</li><li>パイロット成功の評価</li></ul> |
 | 組織内のすべてのユーザーに対して、Skype for Business と共に共同作業専用モードが正常に実行される | <ul><li>Skype for Business ユーザーの 60% は、ロールアウト後30日以内に Teams を使用しています</li><li>Teams でのユーザー満足度は &#8805;80%</li></ul> | <ul><li>広範な通信とトレーニング計画を設計して実施する</li><li>共同作業専用モードで Teams のすべてのユーザーを有効にする</li><li>毎月使用量を追跡する</li><li>ユーザーからのフィードバックを収集する</li><li>ネットワークの正常性と品質を監視する</li><li>必要に応じて軽減する</li></ul> |
 
 | 型 | 主要成功インジケータ | 測定方法 | 成功の条件 | 測定済み |
@@ -119,3 +119,5 @@ ms.locfileid: "34432937"
 組織の特定のニーズに合わせて調整するためには、基準点として、アップグレード前、アップグレード、 [](https://aka.ms/UpgradePro)およびアップグレード後の段階的なフェーズのためのサンプルタイムラインが用意されています。
 
 上記のアクティビティを完了したら、プロジェクトの堅固な基盤を用意する必要があります。 [技術的な準備](https://aka.ms/SkypeToTeams-TechnicalReadiness)と組織の[準備](https://aka.ms/SkypeToTeams-UserReadiness)計画のアクティビティを続行します。
+
+注: Skype for Business Online は、2021年7月31日に廃止されます。 その後、Skype for Business Online サービスは、アクセスまたはサポートされなくなります。 給付金を最大限に活用し、組織がアップグレードを完了するための適切な時間を確保するために、Microsoft Teams の現在の旅を開始することをお勧めします。

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1532df0ca1167f5ff3335dbbddbbaa45eabfcef
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: e7fa3e93abe4f7788ba491a76def3c067e2c0af1
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344115"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934495"
 ---
 ![アップグレード過程のステージ、ユーザー準備ステージを強調表示]している(media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点")を置いている場合)
 
@@ -47,7 +47,7 @@ ms.locfileid: "34344115"
 <table>
 <tbody>
 <tr><th>どのような通信チャネルを活用しますか?</th><th>どのようなトレーニングチャネルを活用しますか?</th><th>使用するサポートチャネルは何ですか?</th></tr>
-<tr><td><ul><li>Email<br><strong>ヒント:</strong>サンプルのパイロット、共存、およびアップグレードのメールを使用して、メールキャンペーンをカスタマイズします。</li><li>ポスターとデジタル看板</li><li>イベントを起動する</li><li>部門マネージャー</li><li>チャンピオン</li><li>チーム/チャネル</li><li>Gamification</li></ul></td><td><ul><li>Microsoft-公開されたオンライン記事とビデオ</li><li>参照<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Skype for Business から Teams に切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Teams ビデオトレーニング</a></li></ul></li><li>製品内サポート (ヘルプ)</li><li>社内トレーニングチーム</li><li>パートナートレーニングチーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>アウトソーシングのサポートデスク</li><li>セルフサービス (イントラネットサイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">オンラインヘルプと使い方</a></li><li>床-walkers とチャンピオン</li><li>フィードバックループ (アンケート、評価)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>ヒント:</strong>サンプルのパイロット、共存、およびアップグレードのメールを使用して、メールキャンペーンをカスタマイズします。</li><li>ポスターとデジタル看板</li><li>イベントを起動する</li><li>部門マネージャー</li><li>チャンピオン</li><li>チーム/チャネル</li><li>Gamification</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Microsoft のインストラクター主導のトレーニング</a></li><li>Microsoft-公開されたオンライン記事とビデオ</li><li>参照<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Skype for Business から Teams に切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Teams ビデオトレーニング</a></li></ul></li><li>製品内サポート (ヘルプ)</li><li>社内トレーニングチーム</li><li>パートナートレーニングチーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>アウトソーシングのサポートデスク</li><li>セルフサービス (イントラネットサイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">オンラインヘルプと使い方</a></li><li>床-walkers とチャンピオン</li><li>フィードバックループ (アンケート、評価)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

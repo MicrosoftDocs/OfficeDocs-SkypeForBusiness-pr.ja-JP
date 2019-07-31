@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad023ae7495bd91db248d133198075dfd5a75ce3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c35b8f7c6e400e9788b87fc41c5e5ed23b88b31f
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885619"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934559"
 ---
-![プロジェクトが適切なプロジェクトチームの成功のために設定されていることを確認してください。プロジェクトの範囲、目標、およびスケジュールを定義します。技術的な準備とユーザーの準備を確認します。展開計画を実行します。結果を最大化するために推進力を維持します。](media/upgrade-banner-main.png "アップグレードの行程を始める")
+![チームのアップグレード過程の図](media/upgrade-banner-main.png "プロジェクトが適切なプロジェクトチームで成功のために設定されていることを確認します。プロジェクトのスコープ、目標、タイムラインを定義します。テクニカルとユーザーの両方の準備ができていることを確認します。ロールアウト計画を実行します。最高の結果を得るには、勢いを維持します。")
 
 # <a name="plan-for-your-upgrade"></a>アップグレードの計画
 
@@ -31,3 +31,8 @@ ms.locfileid: "33885619"
 - [プロジェクトの関係者を参加させる](upgrade-enlist-stakeholders.md)。
 - [プロジェクトの範囲を定義する](https://aka.ms/SkypetoTeams-Scope)。
 - [Skype for Business と Teams の共存と相互運用性を理解する](https://aka.ms/SkypeToTeams-Coexist)。
+
+> [!TIP]
+> お客様は、指導、ベストプラクティス、およびアップグレードを開始するために設計されたリソースを共有するライブのインタラクティブなワークショップをお申し込みください。
+>
+> 最初に[アップグレード](https://aka.ms/SkypeToTeamsPlanning)セッションの計画に参加してください。

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b1cfb8302476983eeb5be180307bc143eb281dc
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 9994bb8efa862cc66cb1e081d0ca8136b4fb1871
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548510"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934503"
 ---
 ![展開と実装を強調したアップグレードの図](media/upgrade-banner-deployment.png "展開と実装のステージに重点を置いたアップグレードの段階")
 
@@ -39,11 +39,11 @@ ms.locfileid: "34548510"
 Skype for business Online を完全に展開していて、ユーザーを Skype for Business から Teams にアップグレードする場合は、この記事の指示に従ってください。 組織で選択されているアップグレードの過程に基づいて、ユーザーを選択的またはすべてのユーザーにアップグレードするには、適切な共存とアップグレードモードをユーザーに割り当てます。
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> Skype for Business Online は、2021年7月31日に廃止されます。その後、アクセスまたはサポートされなくなります。 給付金を最大限に活用し、組織がアップグレードを実装するための適切な時間を確保するために、Microsoft Teams の現在の旅を開始することをお勧めします。 アップグレードが正常に完了した場合は、技術的かつユーザーの準備ができていることに注意してください。このガイドは、Microsoft Teams への旅に進むときに必ずご利用ください。
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>共存とアップグレードモードを割り当てる
 
-Microsoft Teams 管理センターまたは Skype for Business リモート Windows Powershell セッションを使用して実行できる TeamsUpgradePolicy の UpgradeToTeams インスタンスを割り当てることによって、ユーザーを TeamsOnly モードにアップグレードできます。 この操作は、1つのステップでテナント全体を1回で行う場合は、ユーザーごとに、またはテナント全体で行うことができます。 
+Microsoft Teams 管理センターまたは Skype for Business リモート Windows Powershell セッションを使用して実行できる TeamsUpgradePolicy の UpgradeToTeams インスタンスを割り当てることによって、ユーザーを TeamsOnly モードにアップグレードできます。 これは、1つの手順でテナント全体をアップグレードする場合に、ユーザーごと、またはテナント全体で行うことができます。 
 
 詳細については、「[共存およびアップグレードを設定する](https://aka.ms/SkypeToTeams-SetCoexistence)」および「[TeamsUpgradePolicy: 移行と共存の管理](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)」を参照してください。
 
@@ -69,7 +69,7 @@ Microsoft Teams 管理センターまたは Skype for Business リモート Wind
 
 組織では、ユーザーの成功波で組織のアップグレードが選択されることがあります。  これらのユーザーを最初に特定して、Microsoft Teams 管理センターで簡単に検索できるようにします。 または、PowerShell を使用して、より効率的にこの操作を行うこともできます。 特定のアップグレードウェーブの一連のユーザーを特定したら、残りの手順を続行します。
 
-### <a name="step-2-set-notification-for-the-users-in-the-current-ugprade-wave-optional"></a>手順 2: 現在のユーザーに対して通知を設定する (省略可能)
+### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>手順 2: 現在のアップグレードウェーブでユーザーに通知を設定する (省略可能)
 
 Microsoft Teams 管理センターを使用している場合は、一度に最大20人のユーザーに対して TeamsUpgradePolicy を構成できます。
 1. Microsoft Teams 管理センターで、[**ユーザー**] を選択し、アップグレードする必要がある最大20人のユーザーのチェックボックスをオンまたは複数選択します。 

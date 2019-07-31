@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 118bae776f4bb3709d62dea1f384ccaa0707397b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 731a6b30fe2476d180198e88f83e80f24c8e8227
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493980"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934519"
 ---
 ![展開と実装を強調したアップグレードの図](media/upgrade-banner-deployment.png "展開と実装のステージに重点を置いたアップグレードの段階")
 
@@ -40,7 +40,7 @@ ms.locfileid: "34493980"
 オンプレミス環境の Skype for Business または Microsoft Lync を展開していて、組織が選択的 (複数の共存モードを使用) または全体的に Teams にアップグレードする場合は、この記事のガイダンスに従ってください。 最初の手順では、Office 365 テナントとのハイブリッド接続を設定して、ユーザーを Skype for Business Online に移動し、適切な共存およびアップグレード モードをユーザーに割り当てます。 
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> Skype for Business Online は、2021年7月31日に廃止されます。その後、アクセスまたはサポートされなくなります。 給付金を最大限に活用し、組織がアップグレードを実装するための適切な時間を確保するために、Microsoft Teams の現在の旅を開始することをお勧めします。 アップグレードが正常に完了した場合は、技術的かつユーザーの準備ができていることに注意してください。このガイドは、Microsoft Teams への旅に進むときに必ずご利用ください。
 
 ## <a name="step-1-deploy-hybrid-connectivity"></a>手順 1: ハイブリッド接続の展開 
 

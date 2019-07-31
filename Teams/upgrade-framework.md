@@ -3,7 +3,6 @@ title: アップグレードのフレームワークについて
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 12/18/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -16,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e9f72e9381d15778b46ef18e49d27bbda4cacd1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b3049933069b6f7aaa2fcc52f77c6f85f485f34e
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432977"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934567"
 ---
 # <a name="about-the-upgrade-framework"></a>アップグレードのフレームワークについて
 
@@ -125,5 +124,4 @@ ms.locfileid: "34432977"
 > アップグレードに関するコンテンツは、継続的に進化し続けています。 最新のガイダンスを確認して、 [Teams のブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)を参照してください。 
 
 > [!Important]
-> Office 365 テナントの管理者である場合は、PowerShell コマンドレットまたは Microsoft Teams 管理センターのアップグレードオプションの表示が開始されることがあります。 アップグレードするためのオプションがあることによって、必ずしも所属する組織がその変更への準備が整っているということにはなりません。 最適なユーザーエクスペリエンスを実現するには、チームが共同作業とコミュニケーションの要件を満たしていることを確認し、ネットワークがチームをサポートする準備ができていることを確認し、ユーザーをチームにアップグレードする前に、ユーザーの準備計画を実装します。
- 
+> Skype for Business Online は、2021年7月31日に廃止されます。その後、アクセスまたはサポートされなくなります。 給付金を最大限に活用し、組織がアップグレードを実装するための適切な時間を確保するために、Microsoft Teams の現在の旅を開始することをお勧めします。 アップグレードが正常に完了した場合は、技術的かつユーザーの準備ができていることに注意してください。このガイドは、Microsoft Teams への旅に進むときに必ずご利用ください。
