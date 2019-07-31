@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 195c0ffaa15027c9bebe2c7892f7863982f8b62d
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 97a7cad35787583db74adfc3ef77c877c9e8a75d
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804842"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934607"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
@@ -98,21 +98,10 @@ ms.locfileid: "35804842"
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams in 30</h3>
-                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">わずか 30 日で Teams に参加できるように設計された、ライブのインタラクティブなワークショップです。</a></p>
+                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">わずか 30 日で Teams で作業できるように設計された、ライブのインタラクティブなワークショップです。</a></p>
                     </div>
                 </div>
             </div> 
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Skype for Business から Teams への移行</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">チュートリアル: Skype for Business から Teams への移行</a></p>
-                    </div>
-                </div>
-            </div>
         </div>
     </li><li>
         <div class="cardSize">
