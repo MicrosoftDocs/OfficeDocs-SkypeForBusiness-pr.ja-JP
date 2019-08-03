@@ -4,7 +4,6 @@ author: kenwith
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9927da9aea89eeb4d5b1b71eac2818c5deb52925
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6f773cc2ee3aa8a1e98d139f55067c9205355611
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245937"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171642"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -49,35 +48,41 @@ Teams を含む Office 365 サブスクリプションの一覧など、Teams �
 
 ### <a name="enable-or-disable-shifts-in-your-organization"></a>組織のシフトを有効または無効にする
 
-シフトは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 Microsoft 365 管理センターで、ご自分の組織についてアプリをオフまたはオンにすることができます。
+シフトは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 Microsoft Teams 管理センターのアプリのアクセス許可ポリシーで、組織全体の設定を使用して、組織全体のアプリを無効にするか、有効にすることができます。
 
-1. Office 365 管理者アカウントで Microsoft 365 管理センターにサインインします。
-2. **[設定]**  >  **[サービスとアドイン]**  >  **[Microsoft Teams]** の順に移動します。 
-3. **[テナント レベルの設定]** で **[アプリ]** を選択し、**[既定のアプリ]** の下で、**[シフト]** チェック ボックスをオンにするかオフにすることで、アプリのオンとオフを切り替えます。 
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**チームアプリ** > の**アクセス許可ポリシー** ] に移動します。
+2. [**組織全体の設定**] をクリックします。
+3. [**組織全体の設定**] パネルの [**ブロック**されているアプリ] で、次のいずれかの操作を行います。
 
-    ![[既定のアプリ] セクションのスクリーンショット](../../media/firstline-worker-enable-disable-shifts.png "シフト アプリを含むアプリの一覧を示す、Microsoft 365 管理センターの [既定のアプリ] セクションのスクリーンショット")
+    - 組織のシフトをオフにするには、[シフト] アプリを検索し、[**追加**] をクリックして、ブロックするアプリの一覧に追加します。
+    - 組織のシフトを有効にするには、[ブロックされたアプリ] リストからシフトアプリを削除します。
+4. [**保存**] をクリックします。 
 
-### <a name="use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams"></a>Firstline Worker アプリのセットアップポリシーを使用して、チームにシフトをピン留めする
+### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>組織内の特定のユーザーのシフトを有効または無効にする
+
+組織内の特定のユーザーによるシフトの使用を許可またはブロックするには、組織全体の設定で、組織のシフトがオンになっていることを確認してから、カスタムのアプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「 [Teams でアプリのアクセス許可ポリシーを管理](../../teams-app-permission-policies.md)する」を参照してください。
+
+### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>FirstlineWorker アプリのセットアップポリシーを使用して、チームにシフトをピン留めする
 
 アプリ セットアップ ポリシーを使用すると、組織内のユーザーにとって最も重要なアプリを強調表示するように Teams をカスタマイズできます。 ポリシーに設定されたアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。 
  
-Teams には、組織内の Firstline Worker に割り当てることができる、Firstline の組み込みのワーカーアプリセットアップポリシーが用意されています。 既定では、ポリシーにはアクティビティ、シフト、チャット、および通話の各アプリが含まれています。 
+Teams には、組織内の Firstline Worker に割り当てることができる、FirstlineWorker アプリセットアップポリシーが組み込まれています。 既定では、ポリシーにはアクティビティ、シフト、チャット、および通話の各アプリが含まれています。 
 
-Firstline Worker ポリシーを表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[ **Teams アプリ** > **アプリセットアップポリシー**] に移動します。
+Firstlineworker ポリシーを表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[ **Teams アプリ** > **アプリセットアップポリシー**] に移動します。
 
-![Microsoft Teams 管理センターの最初のラインワーカーアプリセットアップポリシーのスクリーンショット](../../media/firstline-worker-app-setup-policy.png "Microsoft Teams 管理センターの最初のラインワーカーアプリセットアップポリシーのスクリーンショット")
+![FirstlineWorker アプリのセットアップポリシーのスクリーンショット](../../media/firstline-worker-app-setup-policy.png "Microsoft Teams 管理センターの最初の Lineworker アプリセットアップポリシーのスクリーンショット")
 
-#### <a name="assign-the-firstline-worker-policy-to-individual-users"></a>Firstline Worker ポリシーを個々のユーザーに割り当てる
+#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>FirstlineWorker ポリシーを個々のユーザーに割り当てる
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
 2. **[割り当てられているポリシー]** の隣にある **[編集]** を選択します。
 3. [ **Teams アプリセットアップポリシー**] で [ **firstlineworker**] を選択し、[**保存**] を選択します。
 
-#### <a name="assign-the-firstline-worker-app-setup-policy-to-users-in-a-group"></a>Firstline Worker アプリセットアップポリシーをグループ内のユーザーに割り当てる
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>FirstlineWorker アプリのセットアップポリシーをグループ内のユーザーに割り当てる
 
-Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続することにより、セキュリティグループなどのグループ内のユーザーに Firstline Worker アプリセットアップポリシーを割り当てることができます。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](../../teams-powershell-overview.md)」を参照してください。
+最初の Lineworker アプリセットアップポリシーは、セキュリティグループなどのグループ内のユーザーに割り当てることができます。これには、Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](../../teams-powershell-overview.md)」を参照してください。
 
-この例では、Contoso Firstline チームグループ内のすべてのユーザーに Firstline Worker アプリセットアップポリシーを割り当てます。
+この例では、Contoso Firstline チームグループ内のすべてのユーザーに FirstlineWorker アプリセットアップポリシーを割り当てます。
 
 > [!NOTE]
 > 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。

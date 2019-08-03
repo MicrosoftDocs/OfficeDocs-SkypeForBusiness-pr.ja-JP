@@ -1,0 +1,68 @@
+---
+title: ハイブリッドを無効にしてクラウドへの移行を完了する
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.reviewer: bjwhalen
+ms.topic: article
+ms.prod: skype-for-business-itpro
+search.appverid: MET150
+ms.collection:
+- Hybrid
+- M365-voice
+- M365-collaboration
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
+audience: ITPro
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+description: この付録には、Teams と Skype for Business のクラウド統合の一部としてハイブリッドを無効にするための詳細な手順が含まれています。
+ms.openlocfilehash: 805010aa16ca8159b5e274847ca7ca2b296f214d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36160652"
+---
+# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>ハイブリッドを無効にしてクラウドへの移行を完了する
+
+オンプレミスのすべてのユーザーをクラウドに移行した後、オンプレミスの Skype for Business の展開を使用停止にすることができます。 ハードウェアを削除することに加えて、ハイブリッドを無効にすることによって、オンプレミスの展開を Office 365 から論理的に分離することが重要な手順です。 ハイブリッドの無効化は、3つの手順で構成されます。
+
+1. Office 365 をポイントするように DNS レコードを更新します。
+2. Office 365 テナントの分割ドメインを無効にします。
+3. オンプレミスで Office 365 と通信する機能を無効にします。
+
+
+これらの手順は、1つの単位として一緒に実行する必要があります。 詳細については、以下を参照してください。
+
+> [!Note] 
+> まれなケースとして、組織の 365 DNS を変更することによって、他の組織がフェデレーションの構成を更新するまで、他の組織とのフェデレーションを停止させることがあります。<ul><li>
+以前の直接フェデレーションモデル (許可されたパートナーサーバーとも呼ばれる) を使用しているフェデレーション組織は、組織がプロキシ FQDN を削除するために許可されているドメインエントリを更新する必要があります。 この従来のフェデレーションモデルは DNS SRV レコードに基づくものではないため、組織がクラウドに移行すると、このような構成は古くなります。 </li><li>Sipfed のホスティングプロバイダーが有効になっていないフェデレーション組織。<span>com は、を有効にするために、構成を更新する必要があります。 この状況は、フェデレーション組織が純粋にオンプレミスにあり、ハイブリッドまたはオンラインテナントとのフェデレーションが行われていない場合にのみ可能です。 このような場合、これらの組織とのフェデレーションは、ホスティングプロバイダーを有効にするまでは機能しません。</li></ul>フェデレーションパートナーのいずれかが直接フェデレーションを使用しているか、またはすべてのオンラインまたはハイブリッド組織とフェデレーションされている可能性がある場合は、クラウドへの移行を完了するための準備として、これに関する連絡をお勧めします。
+
+1.  *Office 365 を指すように DNS を更新します。*
+社内の組織の外部 DNS を更新して、Skype for Business レコードがオンプレミスの展開ではなく Office 365 をポイントできるようにする必要があります。 具体的には次のとおりです。
+
+    |レコードの種類|名前|TTL|Value|
+    |---|---|---|---|
+    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed。<span>com|
+    |SRV|(sip) tls|3600|100 1 443 sipdir。<span>com|
+    |CNAME| lyncdiscover|   3600|   webdir。<span>com|
+    |CNAME| sip|    3600|   sipdir。<span>com|
+    |CNAME| 満たせ|   3600|   webdir。<span>com|
+    |CNAME| deny  |3600|  webdir。<span>com|
+
+2.  *Office 365 テナントの共有 SIP アドレススペースを無効にします。*
+次のコマンドは、Skype for Business Online PowerShell ウィンドウから実行する必要があります。
+
+    `Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false`
+ 
+3.  *オンプレミスで Office 365 と通信する機能を無効にします。*  
+次のコマンドは、オンプレミスの PowerShell ウィンドウから実行する必要があります。  以前に Skype for Business Online セッションをインポートしたことがある場合は、新しい Skype for Business PowerShell セッションを開始します。
+
+    `Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false`
+
+## <a name="see-also"></a>関連項目
+
+[Teams と Skype for Business のクラウド統合](cloud-consolidation.md)

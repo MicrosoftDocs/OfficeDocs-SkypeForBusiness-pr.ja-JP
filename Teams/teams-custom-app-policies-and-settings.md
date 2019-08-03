@@ -3,7 +3,6 @@ title: Microsoft Teams のカスタム アプリのポリシーと設定を管�
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/18/2019
 ms.reviewer: akino
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,20 +16,23 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: カスタムアプリポリシーと設定を管理して、組織内のユーザーが Microsoft Teams でカスタムアプリをアップロードできるユーザーを制御する方法について説明します。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 443bc9390634d19590baa736a8f005aeeb1d15a4
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+f1keywords:
+- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+- ms.teamsadmincenter.appsetuppolicies.allowsideloading
+ms.openlocfilehash: e892b5e7fa8fa1886de8d22fc93bd4cc49725fc0
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681968"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171658"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+>[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 > [!NOTE]
-> Microsoft Teams でアプリを管理するための現在の方法については、「[組織の Microsoft teams の設定を管理](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)する」を参照してください。
+> アプリ Studio を使うには、「 [C#/.NET とアプリ studio で Microsoft Teams プラットフォーム](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)の使用を開始する」を参照してください。最後の手順はまだ機能していないため、zip をダウンロードして、 [microsoft teams にアプリパッケージをアップロード](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)する前の方法でインストールする必要があります。
 
 管理者として、カスタムアプリポリシーと設定を使用して、組織内のユーザーが Microsoft Teams にカスタムアプリをアップロードできるユーザーを制御することができます。 管理者は、カスタムアプリをアップロードできるユーザーを決定し、管理者とチーム所有者は、組織内の特定のチームに対してカスタムアプリの追加を許可するかどうかを決定できます。  
 
@@ -70,7 +72,7 @@ ms.locfileid: "34681968"
 #### <a name="set-a-user-custom-app-policy"></a>ユーザー独自のアプリポリシーを設定する
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ** > **セットアップポリシー**] に移動します。
-2. [**新しいポリシー**] を選びます。
+2. [**追加**] をクリックします。
 3. [**カスタムアプリのアップロードを許可する**] をオンまたはオフにします。
 4. ポリシーに対して必要なその他の設定を選びます。
 5. [**保存**] をクリックします。
@@ -131,5 +133,3 @@ ms.locfileid: "34681968"
 
  ## <a name="related-topics"></a>関連トピック
 - [Teams でのアプリの管理設定](admin-settings.md)
-- [Microsoft Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
-- [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
