@@ -76,7 +76,7 @@
 ### [インライン メッセージの翻訳の使用](inline-message-translation-teams.md)
 ### [Microsoft Teams の範囲指定ディレクトリ検索を使用する](teams-scoped-directory-search.md)
 
-### Microsoft Teams 管理センターでの Teams の分析とレポート
+### Teams 管理センターの分析とレポート 
 #### [概要](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams の使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md) 
@@ -626,7 +626,6 @@
 ### [品質を監視する](upgrade-monitor-quality.md)
 ### [サービスを強化する](upgrade-enhance-my-service.md)
 
-## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
 ## その他の情報
 ### [Skype for Business の移行と相互運用性](migration-interop-guidance-for-teams-with-skype.md)
