@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 0f6a48f11dafaff0bc0435e4a01561824c212936
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35820986"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206966"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
@@ -101,7 +101,7 @@ DSCP 値は、対応して構成されたネットワークに、パケットま
 
 さまざまなリアルタイムストリーミングワークロードのポート範囲の相対サイズによって、そのワークロード専用の使用可能な帯域幅の合計の比率が設定されます。 以前のお客様に戻るには、"Air Mail" スタンプ付きの文字が、最も近い空港から1時間以内に実行されることがあります。また、"一括メール" マークとマークされた小さいパッケージでは、1日のうち、一連のトラックで陸を通過するまで待機することができます。
 
-次の表は、ExpressRoute を備えた Teams の必須の DSCP マーキングと、ワークロードキューの関連ポートを示しています。 これらの範囲は、ユーザーが自分の環境で使用する内容がわからない場合に、適切な出発点となる可能性があります。 詳細については、「[ExpressRoute QoS の要件](https://docs.microsoft.com/azure/expressroute/expressroute-qos)」をご覧ください。
+次の表は、必須の DSCP マーキングと、両方の Teams と ExpressRoute で使用される、対応するメディアポート範囲を示しています。 これらの範囲は、ユーザーが自分の環境で使用する内容がわからない場合に、適切な出発点となる可能性があります。 詳細については、「[ExpressRoute QoS の要件](https://docs.microsoft.com/azure/expressroute/expressroute-qos)」をご覧ください。
 
 _推奨される初期ポート範囲_
 

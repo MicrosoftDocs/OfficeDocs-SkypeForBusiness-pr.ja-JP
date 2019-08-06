@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 041c391f202ac42b782ffc200db9ad495961fa52
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198422"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206958"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 
@@ -58,10 +58,7 @@ Microsoft のネットワーク エッジへの会社のサイト接続には、
 
 ネットワークのパフォーマンス目標は適切な帯域幅や[QoS 計画](QoS-in-Teams.md)を想定しています。 つまり、ネットワーク接続負荷のピーク時は、要件が Teams リアルタイム メディア トラフィックに直接適用されます。
 
-両方のネットワーク セグメントをテストするために、[ネットワーク評価ツール](https://go.microsoft.com/fwlink/?linkid=855799)を使用することができます。 このツールは、クライアント PC に直接展開したり、お客様のネットワーク エッジに接続された PC に展開したりすることができます。 ツールに含まれているドキュメントは限定的ですが、ツールの使用についてのより詳細なドキュメントは「[Network Readiness Assessment (ネットワークの準備状況の評価)](https://go.microsoft.com/fwlink/?linkid=855800)」にあります。 このネットワークの準備状況の評価を実行することによって、Microsoft Teams などのリアルタイム メディア アプリケーションを実行するためのネットワークの準備状況を検証することができます。
-
-> [!NOTE]
-> これは Skype for Business を展開するカスタマ向けに推奨される Network Readiness Assessment と同じです。
+Teams のネットワークを準備する方法について詳しくは、「[ネットワークプランナー](https://docs.microsoft.com/microsoftteams/network-planner)」をご覧ください。
 
 
 ## <a name="bandwidth-requirements"></a>帯域幅要件

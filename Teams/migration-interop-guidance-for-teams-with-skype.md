@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5be7788c8df2247aa33b5c30111808e3606326a6
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: e6656cab6918cfa0b04da28f0197137a300bbf79
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933835"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207194"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
@@ -162,7 +162,7 @@ TeamsUpgradePolicy は、フェデレーションされた受信チャットと�
 
 |Mode|解説|
 |---|---|
-|**アイランド**</br>(既定)|ユーザーは Skype for Business と Teams の両方を並べて実行します。 このユーザーは、</br><ul><li>Skype for Business または Teams クライアントで、チャットや VoIP 通話を開始できます。 オンプレミスの Skype for Business に所属しているユーザーは、受信者のモードに関わらず、Teams から他の Skype for Business ユーザーに対して連絡することはできません。<li>Skype for business クライアントの別のユーザーが、Skype for Business で開始された VoIP 通話 & チャットを受信します。<li>チームクライアント内の別のユーザーが*同じテナント*にいる場合に、チームで開始された & VoIP 通話を受信します。<li>フェデレーションされた*テナント*にいる場合は、Skype for business クライアントの別のユーザーが開始したチャット & VoIP 通話を受信します。 <li>次に示すような、PSTN 機能があります。<ul><li>ユーザーが Skype for Business をオンプレミスで使用しており、エンタープライズ Voip を利用している場合、PSTN 通話は常に Skype for Business で開始および受信されます。<li>ユーザーが Skype for Business Online をホームとしていて、Microsoft 電話システムを使用している場合、ユーザーは常に Skype for Business で PSTN 通話を開始および受信します。<ul><li>IThis 動作は、ユーザーが Microsoft の通話プランを持っているかどうかにかかわらず、Skype for business Cloud Connector Edition または Skype for Business Server のオンプレミス展開 (ハイブリッドボイス) を介して、PSTN ネットワークに接続しているかどうかに関係なく発生します。<li>注: Microsoft Teams 電話システムのダイレクトルーティングは、島々モードではサポートされていません。</ul></ul><li>• Skype for Business で Microsoft 通話キューと自動応答の通話を受信する<li>Teams または Skype for Business で会議をスケジュールすることができます (また、既定では両方のプラグインが表示されます)。<li>Skype for Business または Teams のあらゆる会議に参加できます。会議はそれぞれのクライアントで開きます。</ul>|
+|**アイランド**</br>(既定)|ユーザーは Skype for Business と Teams の両方を並べて実行します。 このユーザーは、</br><ul><li>Skype for Business または Teams クライアントで、チャットや VoIP 通話を開始できます。 オンプレミスの Skype for Business に所属しているユーザーは、受信者のモードに関わらず、Teams から他の Skype for Business ユーザーに対して連絡することはできません。<li>Skype for business クライアントの別のユーザーが、Skype for Business で開始された VoIP 通話 & チャットを受信します。<li>チームクライアント内の別のユーザーが*同じテナント*にいる場合に、チームで開始された & VoIP 通話を受信します。<li>フェデレーションされた*テナント*にいる場合は、Skype for business クライアントの別のユーザーが開始したチャット & VoIP 通話を受信します。 <li>次に示すような、PSTN 機能があります。<ul><li>ユーザーが Skype for Business をオンプレミスで使用しており、エンタープライズ Voip を利用している場合、PSTN 通話は常に Skype for Business で開始および受信されます。<li>ユーザーが Skype for Business Online をホームとしていて、Microsoft 電話システムを使用している場合、ユーザーは常に Skype for Business で PSTN 通話を開始および受信します。<ul><li>この問題が発生するのは、ユーザーが Microsoft の通話プランを使用しているかどうか、または Skype for business Cloud Connector Edition か、または Skype for Business Server (ハイブリッドボイス) のオンプレミス展開を介して PSTN ネットワークに接続しているかどうかに関係なく発生します。<li>**注: Microsoft Teams 電話システムのダイレクトルーティングは、島々モードではサポートされていません。**</ul></ul><li>Skype for Business で Microsoft 通話キューと自動応答の通話を受信します。<li>Teams または Skype for Business で会議をスケジュールすることができます (また、既定では両方のプラグインが表示されます)。<li>Skype for Business または Teams のあらゆる会議に参加できます。会議はそれぞれのクライアントで開きます。</ul>|
 |**SfBOnly**|ユーザーは Skype for Business のみを実行します。 このユーザーは、</br><ul><li>Skype for Business からのみチャットと通話を開始することができます。<li>オンプレミスの Skype for Business に所属している Teams ユーザーが開始したものでない限り、すべてのチャット/通話を開始元に関わらず自分の Skype for Business クライアントで受信します。*<li>Skype for Business の会議のみスケジュールできます。ただし、Skype for Business 会議と Teams 会議のいずれにも参加することができます。</br>\** オンプレミスのユーザーにアイランド モードを使用することは、他の SfBOnly モードのユーザーとの組み合わせにおいて、お勧めできません。 オンプレミスの Skype for Business に所属している Teams ユーザーが、SfBOnly ユーザーに対して通話またはチャットを開始した場合、SfBOnly ユーザーには届かず、届かなかったチャット/通話に関する電子メールが送られます。*|
 |**SfBWithTeamsCollab**|ユーザーは Skype for Business と Teams の両方を並べて実行します。 このユーザーは、</br><ul><li>SfBOnly モードのユーザーと同じ機能があります。<li>Teams をグループでの共同作業 (チャネル) に関してのみ利用できます。チャット/通話/会議のスケジュールは利用できません。</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|ユーザーは Skype for Business と Teams の両方を並べて実行します。 このユーザーは、<ul><li>SfBOnly モードのユーザーと同じチャットと通話機能があります。<li>Teams をグループでの共同作業 (チャネル (チャネル会話を含む)) に対してのみ利用できます。チャットと通話は利用できません。<li>Teams 会議のみスケジュールできます。ただし、Skype for Business 会議と Teams 会議のいずれにも参加することができます。</ul>|

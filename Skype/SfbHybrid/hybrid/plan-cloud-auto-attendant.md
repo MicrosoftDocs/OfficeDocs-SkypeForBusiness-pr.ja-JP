@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 でのクラウド自動応答の使用の概要
-ms.openlocfilehash: 1a5f1aad4cd983f1f3839f47c54404d168ecf7f0
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "36160663"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207034"
 ---
 # <a name="plan-cloud-auto-attendants"></a>クラウド自動応答を計画する
 
@@ -45,7 +45,7 @@ Exchange ユニファイドメッセージング (Exchange Server 2013 または
 
 次の要件は、サポートされているトポロジで Skype for Business Server 2019 が既に展開されていることを前提としています。  要件は、シナリオによって異なります。
 
-- 既に Exchange UM online またはオンプレミスを使用している場合、Skype for Business 2019 にアップグレードするには、自動応答の構造をキャプチャし、クラウドの自動応答を使用してクラウドで再作成する必要があります。 詳細については、「 [EXCHANGE UM 自動応答またはコールキューを電話システムに移行する](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system)」を参照してください。
+- 既に Exchange UM online またはオンプレミスを使用していて、Skype for Business 2019 にアップグレードする場合は、自動応答の構造をキャプチャし、クラウドの自動応答を使用してクラウドで再作成する必要があります。 詳細については、「 [EXCHANGE UM 自動応答またはコールキューを電話システムに移行する](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system)」を参照してください。
 
 - クラウド自動応答の新しい構成については、「 [Configure resource accounts](configure-onprem-ra.md)」に記載されている手順に従ってください。
 
@@ -56,14 +56,14 @@ Exchange ユニファイドメッセージング (Exchange Server 2013 または
    詳細については、「skype for business [server と office 365 の間のハイブリッド接続を計画](plan-hybrid-connectivity.md)する」および「 [Skype for Business server と office 365 の間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)」を参照してください。
 
 - 自動応答に電話番号を割り当てる場合は、 [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing)ライセンスが必要です。
-- 各自動応答に対してオンプレミスの[リソースアカウント](/MicrosoftTeams/manage-resource-accounts.md)を作成し、電話番号とライセンスを割り当てます。 
+- 各自動応答に対してオンライン[リソースアカウント](/MicrosoftTeams/manage-resource-accounts.md)または社内[リソースアカウント](configure-onprem-ra.md)を作成し、電話番号とライセンスを割り当てます。 
 
 ## <a name="migration-and-interoperability"></a>移行と相互運用性
 
 Skype for Business Server 2019 または Exchange Server 2019 の展開を計画している場合は、自動応答を引き続きサポートするように、移行を慎重に計画する必要があります。 以下の点にご注意ください。
 
 - Exchange Server 2019 が Exchange UM 機能を提供しなくなった
-- Exchange ユニファイドメッセージングオンラインが定年モードである
+- Exchange ユニファイドメッセージングは、定年モードになっています
 - Skype for Business Server 2019 が Exchange Online UM と統合されなくなりました
 
 クラウド自動応答は、Skype for Business Server 2019、2015、および2013を使用して構成できます。
@@ -91,7 +91,7 @@ Microsoft では、次の移行パスをお勧めします。
 
 ## <a name="additional-planning-resources"></a>その他の計画に関するリソース
 
-「[小規模企業の例-自動応答の設定](/microsoftteams/tutorial-org-aa)」というタイトルのチュートリアルでは、ユーザーのニーズに関する情報の収集、自動応答とユーザーの構成 (および場合によっては呼び出しキュー) の計画、およびメニュープロンプトの作成のプロセスについて説明します。オンライン管理センターでプランを実装します。 チュートリアルを確認し、そこにある演習を使用して計画を作成します。
+「[小規模企業の例-自動応答の設定](/microsoftteams/tutorial-org-aa)」というタイトルのチュートリアルでは、ユーザーのニーズに関する情報の収集、自動応答とユーザーの構成 (および場合によっては呼び出しキュー) の計画、およびメニュープロンプトの作成のプロセスについて説明します。Teams 管理センターでプランを実装します。 チュートリアルを確認し、そこにある演習を使用して計画を作成します。
 
 お客様のニーズを満たす堅固な構造を持っていて、顧客に効率的に対応するスクリプトを実行している場合は、「[リソースアカウントを構成](configure-onprem-ra.md)する」に進みます。
 
