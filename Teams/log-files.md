@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d210c5c2e3e2d9b3b3757c2945c504296f00788
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: ed1a78bc7ddd13a3fceb76d89b26e3e2282a7a8e
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/06/2019
-ms.locfileid: "36206950"
+ms.locfileid: "36212614"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================
@@ -86,11 +86,11 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 
 |クライアント |場所 |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\*         |
-|            |%appdata%\Microsoft\Teams\skylib\*
-|            |%appdata%\Microsoft\Teams\media-stack\*         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
-|            |~/Library/application support Support/Microsoft/Teams/skylib\*         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\\*. ブログ         |
+|            |%appdata%\Microsoft\Teams\skylib\\*. ブログ
+|            |%appdata%\Microsoft\Teams\media-stack\\* .etl         |
+|Mac OSX     |~/Library/application support Support/Microsoft/Teams/media-stack/*. ブログ         |
+|            |~/Library/application support Support/Microsoft/Teams/skylib/*. ブログ         |
 
 
 

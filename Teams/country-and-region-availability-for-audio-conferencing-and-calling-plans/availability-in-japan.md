@@ -25,18 +25,21 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Skype for Business および Microsoft Teams の Office 365 サービスは、日本で利用できます。
-ms.openlocfilehash: 569456a611082d9383b630ae545fa2fb22e3d6f9
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 946a5f6cb5989b7bd9773ba34a0d62e19e2bb479
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331693"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35602328"
 ---
 # <a name="availability-in-japan"></a>日本での利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
 Skype for Business および Microsoft Teams の Office 365 サービスは、日本で利用できます。
+
+> [!IMPORTANT]
+> 日本国内での通話には、現時点ではいち早くの採用 (EA) のみが使用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -56,19 +59,26 @@ Skype for Business および Microsoft Teams の Office 365 サービスは、�
 |ボイスメール  <br/> |利用可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
+> [!IMPORTANT]
+> 日本語ベースのテナントの場合、SoftBank でのみ利用可能です。 詳細については、「 [Office 365 の Softbank 通話](https://aka.ms/SoftBankVoicePlan)」を参照してください。
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |いいえ  <br/> |
-|通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
-|発信通話を行うことができますか?  <br/> |該当しない  <br/> |
-   
+|通話プランは購入できますか?  <br/> |はい、「 [Office 365 のソフトバンク通話](https://aka.ms/SoftBankVoicePlan)」を参照してください。  <br/> |
+|通話プランで利用可能な通話分数  <br/> |「 [Office 365 のソフトバンク通話」を](https://aka.ms/SoftBankVoicePlan)参照してください。 <br/> |
+|発信通話を行うことができますか?  <br/> |「 [Office 365 のソフトバンク通話」を](https://aka.ms/SoftBankVoicePlan)参照してください。 <br/> |
+
+> [!IMPORTANT]
+> 日本でユーザー (サブスクライバー) 番号を削除するには (SoftBank によって提供される)、SoftBank に直接連絡してください。
+> 日本でのユーザー (サブスクライバー) 番号の緊急対応の住所情報を更新するには (SoftBank によって提供されます)、SoftBank に直接お問い合わせください。
+> 詳細については、「 [Office 365 の Softbank 通話](https://aka.ms/SoftBankVoicePlan)」を参照してください。
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |東京  <br/> |
-|有料電話番号は使用できますか?  <br/> |はい  <br/> |
+|有料電話番号は使用できますか?  <br/> |はい <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。

@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c5534edd8257652a50351ea6d7e6e14d449104a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: aaed448429bfa5715250eb7cf28488771c1c785c
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344626"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433480"
 ---
-![プロジェクト関係者のチームの収集に重点を置いたアップグレードの段階](media/upgrade-banner-stakeholders.png "プロジェクト関係者のチームの収集に重点を置いたアップグレードの段階")
+![アップグレード過程のステークホルダーの状態を示す図](media/upgrade-banner-stakeholders.png "プロジェクト関係者のチームの収集に重点を置いたアップグレードの段階")
 
 この記事は、プロジェクトの成功に向けて実行する最初の最も重要なアクティビティである、アップグレード過程のプロジェクト関係者ステージの一部です。
 

@@ -18,10 +18,10 @@ ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: ユーザーが Office 365 (クラウド PBX) で電話システムを使用するには、まず、エンタープライズボイスで電話システムを有効にして、電話番号を割り当てる必要があります。 これは、オンプレミスの展開を使用して、ユーザーがオンプレミスの展開をホームにしている場合に行われます。
 ms.openlocfilehash: fdd405d84cddcfe805063287b8330ccea43397de
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34287511"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>オンプレミスのエンタープライズボイスのユーザーを有効にする

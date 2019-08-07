@@ -15,10 +15,10 @@ description: ゲストがどのような方法で Microsoft Teams のチーム�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 438dc1e095d4ea4d3b14354ab5cae445eaf0df90
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35221892"
 ---
 <a name="how-a-guest-joins-a-team"></a>ゲストがチームに参加する方法

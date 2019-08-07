@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: お客様の環境で TLS 1.0 および1.1 を無効にするための準備と実装を行います。'
 ms.openlocfilehash: 3f12642a5abf944ddbcddfdca0745998a8b634ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34275242"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で TLS 1.0/1.1 を無効にする
@@ -29,7 +29,7 @@ ms.locfileid: "34275242"
 
 ## <a name="background"></a>背景
 
-オンプレミスの Skype for business Server のサポートを無効にするため 1.1 1.0 の主なドライバーは、支払いカード産業 (PCI) セキュリティ規格協議会と連邦情報処理規格の要件です。 PCI の要件の詳細については、[こちら](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls)を参照してください。  Microsoft は、組織がこれらの要件に従う必要があるかどうかについてのガイダンスを提供することはできません。 使用している環境で TLS 1.0 および1.1 を無効にする必要があるかどうかを判断する必要があります。
+オンプレミスの Skype for Business Server のサポートを無効にするため 1.1 1.0 の主なドライバーは、支払いカード産業 (PCI) セキュリティ規格協議会と連邦情報処理規格の要件です。 PCI の要件の詳細については、[こちら](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls)を参照してください。  Microsoft は、組織がこれらの要件に従う必要があるかどうかについてのガイダンスを提供することはできません。 使用している環境で TLS 1.0 および1.1 を無効にする必要があるかどうかを判断する必要があります。
 
 Microsoft は、TLS に関するホワイトペーパーを[ここ](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)で提供しています。また、この[Exchange ブログ](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)で利用できる背景の読み取りもお勧めします。
 
@@ -480,7 +480,7 @@ Skype for Business Ser 2015 で TLS 1.2 をサポートするには、一部の�
 
 **オプション 2:** インストール前のローカル SQL インスタンス (RTCLOCAL と LYNCLOCAL)
 
-1. SQL Express 2014 SP2 (SQLEXPR_x64) を、FE のローカルフォルダーにダウンロードしてコピーします。 フォルダパスの <SQL_FOLDER_PATH> を言いましょう。
+1. SQL Express 2014 SP2 (SQLEXPR_x64) を、FE のローカルフォルダーにダウンロードしてコピーします。 フォルダーパス <SQL_FOLDER_PATH> と言うことができます。
 2. PowerShell またはコマンドプロンプトを起動し、<SQL_FOLDER_PATH> に移動します。
 3. 以下のコマンドを実行して、RTCLOCAL SQL インスタンスを作成します。 続行する前に SQLEXPR_x64 が終了するまで待ちます。
 

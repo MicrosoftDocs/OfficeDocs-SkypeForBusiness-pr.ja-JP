@@ -3,7 +3,7 @@ title: ネットワークテストコンパニオンを使用する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/23/2019
+ms.date: 05/24/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -17,12 +17,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 195a5661f955714b4813dc510f34f3673ccd2702
-ms.sourcegitcommit: 462bc5b0676fe373c169e4b432ef1f89ac0a3cb3
+ms.openlocfilehash: 1016229a36afa3adb5fd11a13aaaf1be8d58810e
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34418241"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34428762"
 ---
 <a name="use-the-network-testing-companion"></a>ネットワークテストコンパニオンを使用する
 =================================
@@ -38,4 +38,4 @@ Skype for Business および Microsoft Teams の[ネットワークテストコ�
 
 [PowerShell ギャラリー](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4)からネットワークテストコンパニオンをダウンロードします。
 
-[インストールガイド、ユーザガイド、および結果のガイダンス](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip)をダウンロードします。
+[インストールガイド、ユーザガイド、および結果のガイダンス](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true)をダウンロードします。

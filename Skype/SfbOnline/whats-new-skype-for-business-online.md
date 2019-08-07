@@ -1,5 +1,5 @@
 ---
-title: ビジネス オンラインの Skype で新たに追加します。
+title: Skype for Business Online の新機能
 ms.reviewer: ''
 description: 簡単な説明を追加
 services: skype-for-business-online-admin
@@ -15,13 +15,13 @@ ms.topic: landing-page
 ms.date: 12/13/2017
 ms.author: samanro
 ms.openlocfilehash: c06dcc373b2029bac39af25a72429877c4bbd833
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "33911348"
 ---
-# <a name="whats-new-in-skype-for-business-online"></a>ビジネス オンラインの Skype の新機能
+# <a name="whats-new-in-skype-for-business-online"></a>Skype for Business Online の新機能
 
 Skype for Business Online の新機能をご紹介します。
 
@@ -36,7 +36,7 @@ Skype for Business Online の新機能をご紹介します。
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>記事</h3>
+                        <h3>紹介</h3>
                         <p><a href=" ">リンク名</a></p>
                     </div>
                 </div>

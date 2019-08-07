@@ -12,26 +12,26 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: 計画のランディング ページを呼び出す
+description: 通話プランのランディングページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85546df76b7699986d28152ff08003612df8331
-ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
+ms.openlocfilehash: 9b9d1a012c545dbaf8f8c65d87f58718bda13946
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34108756"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34381838"
 ---
-# <a name="which-calling-plan-is-right-for-you"></a>呼び出すことを計画するが適切でしょうか。 
+# <a name="which-calling-plan-is-right-for-you"></a>適切な通話プランはどれですか? 
 
-[開始](get-started-with-teams-quick-start.md)するが完了しました。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 かもしれません[& 会議の会議](deploy-meetings-microsoft-teams-landing-page.md)を導入しました。 クラウド音声のワークロードを追加する準備が整いましたし、を公衆交換電話網 (PSTN) を接続する計画を呼び出すことでマイクロソフトの電話システムを使用すると判断しました。 
+[作業を開始](get-started-with-teams-quick-start.md)しました。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 会議[&](deploy-meetings-microsoft-teams-landing-page.md)会議を展開したことがあるかもしれません。 これで、クラウド音声のワークロードを追加する準備ができました。電話システムを使用して公衆交換電話網 (PSTN) に接続しています。 
 
-この資料を構成すること、組織のニーズに基づいて計画を呼び出すと、追加の考慮事項の中核となる展開の決定について説明します。 マイクロソフトのクラウドの音声サービスの詳細については[マイクロソフトのチームでのクラウドの音声](cloud-voice-landing-page.md)を参照することもあります。
+この記事では、組織のニーズに基づいて、通話プランの主要な展開決定と、構成する必要があるその他の考慮事項について説明します。 Microsoft のクラウド音声サービスの詳細については、「 [Microsoft Teams でクラウド音声](cloud-voice-landing-page.md)を読む」もご覧ください。
 
 
-## <a name="learn-more-about-calling-plans"></a>プランの呼び出しの詳細については
+## <a name="learn-more-about-calling-plans"></a>通話プランについて、詳細はこちらをご覧ください
 
-次の記事では、展開して、マイクロソフトでは予定の呼び出しを使用しての詳細についてを提供します。
+次の記事では、Microsoft の通話プランの展開と使用に関する詳細情報を提供しています。
 
 - [Office 365 の電話システム](what-is-phone-system-in-office-365.md)
 - [Office 365 の通話プラン](calling-plans-for-office-365.md)
@@ -40,42 +40,42 @@ ms.locfileid: "34108756"
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
 
-テレフォニー キャリアでは、Microsoft を使用するには、計画を呼び出してライセンスを取得し、電話システムのユーザーに割り当てる必要があります。 
+Microsoft をテレフォニーキャリアとして使用するには、通話プランのライセンスを取得し、電話システムのユーザーに割り当てる必要があります。 
 
-利用は 2 種類のプランを呼び出すことがあります。
+利用可能な通話プランには、次の2種類があります。
 
 - 国内通話プラン 
-- 国内または国際通話プラン
+- 国内および国際通話プラン
 
 |確認事項|アクション |
 |------------|-------|
-|計画を呼び出して自分の地域ではでしょうか。 どのユーザーの場所には、サービスの計画を呼び出すことはありますか。 | 詳細については、[オーディオ会議や予定を呼び出すための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 | 
-ユーザーに国際通話が必要ですか。 | 詳細については、 [Office 365 のプランを呼び出す](calling-plans-for-office-365.md)を参照してください。 |
-自分のユーザーにはライセンスの計画を呼び出すことがありますか。 | 購入し、ライセンスを割り当てるを参照してください[手順 2: を購入し、ライセンスを割り当てる](set-up-calling-plans.md#step-2-buy-and-assign-licenses)。 |
-各ユーザーには直接内側 (DID) 電話番号をダイヤルがありますか。 | 電話番号を取得するを参照してください[手順 3: 電話番号を取得する](set-up-calling-plans.md#step-3-get-phone-numbers)です。 |
+|地域で通話プランを利用できますか? どのユーザーの場所で通話プランサービスを利用できますか? | 詳細については、「[電話会議と通話プランの国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)情報」を参照してください。 | 
+ユーザーには国際通話が必要ですか? | 詳細については、「 [Office 365 の通話プラン](calling-plans-for-office-365.md)」を参照してください。 |
+ユーザーが通話プランのライセンスを持っているかどうかを確認する | ライセンスを購入して割り当てるには、「[手順 2: ライセンスを購入して割り当てる](set-up-calling-plans.md#step-2-buy-and-assign-licenses)」を参照してください。 |
+各ユーザーは、それぞれに1つの内向きダイヤル (DID) 電話番号を持っていますか? | 電話番号を取得するには、「[手順 3: 電話番号を取得](set-up-calling-plans.md#step-3-get-phone-numbers)する」を参照してください。 |
 |||
 
 ### <a name="transfer-phone-numbers-to-office-365"></a>Office 365 に電話番号を転送する
 
-チーム、現在のサービス プロバイダーから自分の電話番号に転送するのには簡単です。 チームに自分の電話番号を移植した後、Microsoft は、サービス ・ プロバイダーになり、に対する料金を請求している電話番号。 詳細については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。
+現在のサービスプロバイダから Teams に電話番号を転送するのは簡単です。 お客さまの電話番号を Teams に移植すると、Microsoft はサービスプロバイダになり、これらの電話番号について請求されます。 詳細については、「 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)」を参照してください。
 
 
-### <a name="phone-numbers-and-emergency-locations"></a>電話番号と緊急時の場所
+### <a name="phone-numbers-and-emergency-locations"></a>電話番号と緊急対応の場所
 
-Office 365 のプランを呼び出すこと、内向きの一意な直通を組織のニーズのすべてのユーザーは、番号と対応する検証済みの緊急アドレス電話 (でした)。 緊急のアドレス (オフィス番号またはフロア番号など) では、緊急の場所を指定することもできます。 
-
-|確認事項|アクション |
-|:------------|:-------|
-|詳細な方法が必要に緊急時のアドレスと場所の情報か、 |詳細についてを参照してください[緊急の場所、住所、および通話のルーティングには何ですか?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)です。
-
-
-### <a name="calling-identity"></a>識別情報を呼び出す
-
-既定では、すべての発信呼び出しは、呼び出し元の id (呼び出し元 ID) として割り当てられた電話番号を使用します。 呼び出しの受信者は、呼び出し元を識別する迅速かつ呼び出しを承認または拒否かどうかを決定します。
+Office 365 の通話プランでは、組織内のすべてのユーザーが、固有の直通電話番号と、対応する有効な緊急対応の住所を持っている必要があります。 緊急対応の住所に緊急対応の場所を指定することもできます (たとえば、オフィス番号やフロア番号)。 
 
 |確認事項|アクション |
 |:------------|:-------|
-|マスクしたり、発信者番号通知を無効にするか。 | 呼び出し元 ID のブロックを変更または、[ユーザーの発信者番号の設定](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user)を参照してください。 |
+|緊急対応の住所と住所の情報を詳細に確認するには、どうすればよいですか。 |詳細については、「[緊急対応の場所、アドレス、通話ルーティング](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)の概要」を参照してください。
+
+
+### <a name="calling-identity"></a>通話 id
+
+既定では、すべての発信通話で、割り当てられた電話番号が発信 id (発信者番号) として使用されます。 通話の受信者は、すぐに発信者を特定して、通話を承諾または拒否するかどうかを決定できます。
+
+|確認事項|アクション |
+|:------------|:-------|
+|発信者番号認識を無効にするか、無効にしますか? | 発信者番号通知を変更またはブロックするには、「[ユーザーに発信者番号を設定](set-the-caller-id-for-a-user.md)する」を参照してください。 |
 |||
 
 

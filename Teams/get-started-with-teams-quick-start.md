@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b2b5e263347dd97a20da2ca7ea00068cb341c7
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: c86fa96418f22ebc9dba0d6497e3ef09487a7d7f
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433121"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35638639"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 
@@ -40,7 +40,7 @@ Teams を使用すると、すぐに組織内外のチームとユーザーを�
 
 大規模な組織で、ハイブリッドまたはオンプレミスの Skype for Business 構成があり、厳格な規制またはコンプライアンス要件がある場合や、会議または音声機能 (通話プランや電話システムなど) を展開する場合は、「[Teams の展開方法](how-to-roll-out-teams.md)」を読むことから始めてください。 スキルを構築し、組織全体の展開計画を開始するには、この「**使用を開始する**」セクションから始めることをお勧めします。 「Teams で Teams を計画する。」 チャット、チーム、チャネル、アプリを使用して Teams を展開し、そこから構築することにより、小さな規模で開始します。 これらの最初のエクスペリエンスは、Teams の評判を広めるために役立ち、次の立ち上げ段階に対して組織全体の気持ちを高めます。 
 
-中小企業の場合は、この使用開始ガイダンスを使用して、Teams を組織に完全に展開できます。 中小企業では、Teams を段階的に展開する必要はありません。
+中小企業の場合は、この使用開始ガイダンスを使用して、Teams を組織に完全に展開できます。 中小企業では、Teams を段階的に展開する必要はありません。 組織での展開をより簡単に、より能率化して行うには、特に小規模企業用に利用可能なテンプレートをご確認ください。 「[中小企業向けの Teams テンプレートを使ってみる](https://docs.microsoft.com/microsoftteams/smb-templates)」を参照してください。
 
 ## <a name="before-you-get-started"></a>使用を開始する前に
 

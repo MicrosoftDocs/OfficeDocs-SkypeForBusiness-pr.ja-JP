@@ -3,7 +3,6 @@ title: 組織の Microsoft Teams の設定を管理する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
@@ -17,50 +16,23 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4ec207061e53024b45b4e5a8e2ec9dfc20b13f1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: cd6a2193023b728710df8ad09c10fa0bd7280c94
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221537"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171650"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
-もうすぐ、すべての Teams の設定が新しい Microsoft Teams 管理センターに移行されます。Teams の機能のうち、アプリのみが Microsoft 365 管理センターで管理されます。 
+## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams アプリの設定
 
-特に明記されていない限り、オプションの既定値は [**オン**] です。
+Microsoft Teams 管理センターで、**Teams アプリ**の組織向けアプリを管理します。 たとえば、組織全体または特定の Teams ユーザーが使用できるアプリを制御するポリシーを設定したり、ユーザーにとって最も重要なアプリをピン留めして Teams をカスタマイズしたりすることができます。
 
-## <a name="tenant-wide-settings-in-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターでのテナント全体の設定
-
-Microsoft 365 管理センターの [**テナント全体の設定**] で Teams のアプリをオフにしたりオンにしたりすることができます。 
-
-Teams の [**テナント全体の設定**] を編集するには、Microsoft 365 管理センターに移動して、[**設定**]  >  [**サービスとアドイン**]  >  [**Microsoft Teams**] の順に選択します。Office 365 管理者としてサインインしている場合は、次のリンクから移動できます。 
-
-https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
-
-### <a name="apps"></a>アプリ
-
-アプリは、Teams (ファーストパーティ アプリ、または既定のアプリ) によって、またはサードパーティ (外部アプリ) によって提供される、タブ、コネクタ、ボットまたはそれらの 3 つを任意に組み合わせたのものです。**[アプリ]** の下で、既定のアプリを有効または無効にしたり、外部アプリを制御する設定を構成したりすることができます。Teams のアプリ、ボット、コネクタ、およびタブのロールアウトについては、[アプリ、ボット、およびコネクタ](https://docs.microsoft.com/microsoftteams/deploy-apps-microsoft-teams-landing-page) を参照してください。
-
-#### <a name="default-apps"></a>既定のアプリ
-
-プランナー、称賛、天気などの既定のアプリは、Teams によって提供されます。 アプリをオンにするには、そのアプリのチェック ボックスを選択します。 アプリをオフにするには、チェック ボックスをクリアします。
-
-![[既定のアプリ] セクションのスクリーン ショット。](media/teams-manage-features-in-office365-image1.png "[既定のアプリ] セクションのスクリーン ショット")
-
-#### <a name="external-apps"></a>外部アプリ
-
-外部アプリはサード パーティによって提供されます。 外部アプリについては、次の設定を構成することができます。
-
-![[外部アプリ] セクションのスクリーンショット。](media/teams-manage-features-in-office365-image2.png "[外部アプリ] セクションのスクリーンショット。オンまたはオフにすることができる設定")
-
-- **Microsoft Teams の外部アプリを許可する**: この設定がオンになると、ユーザーは自分の組織で利用できる外部アプリを追加することができます。 
-
-- **外部アプリのサイドローディングを利用できるようになります**: 一部の外部アプリをオンにして、その他のアプリをオフにする場合は、この設定をオフにしてから、外部アプリのリストでユーザーがアクセスしないようするアプリをオフにします。 この設定がオンになっているときは、アクセス権が付与されているチーム所有者およびメンバーは、アプリを Teams にサイドリーディングすることができます。 
-
-- **既定で新しい外部アプリが有効になります**: この設定がオンになると、ユーザーは Teams アプリ カタログに新しいアプリが追加されると、それらをすぐにアクティブ化することができます。 新しいアプリに対する制御を行う場合はこの設定をオフにします。 これをオフにする場合は、自分の組織で新しいアプリを利用する機会を失うことがないように、新しいアプリについて定期的に確認するようにする必要があります。 
+詳細については、「[Teams でのアプリの管理設定](admin-settings.md)」をご覧ください。  
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams の組織全体の設定
+
 Microsoft Teams 管理センターで、組織全体のユーザー設定を制御することができます。組織全体の設定を編集するには、Microsoft Teams 管理センターに移動して、**[Org-wide settings (組織全体の設定)]** を選択します。次の設定を構成することができます。
 
 ### <a name="external-access"></a>外部アクセス

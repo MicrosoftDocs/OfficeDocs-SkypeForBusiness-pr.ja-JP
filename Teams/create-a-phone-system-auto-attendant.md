@@ -3,7 +3,7 @@ title: クラウドの自動応答をセットアップする
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 480929abef1bd6a388afdb995b7f727d5421bc7c
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 939d1ac17007e3d823b0588f9949330e24555449
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35614269"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35807537"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -39,12 +39,7 @@ ms.locfileid: "35614269"
 
 ## <a name="step-1---get-started"></a>手順 1-開始する
 
-- 自動応答には、関連するリソースアカウントが必要です。 リソースアカウントの詳細については、「[チームのリソースアカウントを管理](manage-resource-accounts.md)する」を参照してください。
-- 直接ルーティング番号の割り当てを計画している場合は、電話システムアドオンを使用して、 \(Office 365 Enterprise E1、E3、または E5 に、次のライセンスを取得し\)て割り当てる必要があります。
-- 代わりに Microsoft サービス番号を割り当てる場合は、電話システムアドオンを使用して、以下のライセンスを取得し\(て、Office 365 Enterprise E1、E3、または E5 に割り当てる必要が\)あります。
-
-> [!CAUTION]
-> 無料電話番号を取得して使用するには、通信クレジットを設定する必要があります。 これを行うには、[通信クレジットとは何か](what-are-communications-credits.md)を確認して、[組織の通信クレジットを設定](set-up-communications-credits-for-your-organization.md)します。
+- 自動応答には、関連するリソースアカウントが必要です。 必要なリソースアカウントとすべてのライセンスの詳細については、「 [Teams のリソースアカウントを管理](manage-resource-accounts.md)する」を参照してください。
 
 > [!TIP]
 > **電話システム**のライセンスを持つオンラインユーザーであるオペレーターまたはメニューオプションへの通話をリダイレクトするには、エンタープライズ voip に対して通話を有効にする必要があります。 「 [Skype For business ライセンスの割り当て](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」または「 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)」を参照してください。 Windows PowerShell を使用することもできます。 たとえば、次を実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -206,7 +201,7 @@ ms.locfileid: "35614269"
   - Enterprise Voice で有効になっているか、Office 365 の通話プランを割り当てられている、**電話システム**のライセンスをもつ**社内の担当者** 発信中のユーザーがボイスメールに送信されるように設定できます。 そのためには、「**会社内のユーザ**」を選択し、ボイスメールに直接通話を転送するように設定します。
 
     > [!Note]
-    > **社内の担当者**は、Online のユーザーか、 Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされたユーザーとなることができます。
+    > **会社内の**ユーザーは、Skype For business Server または Lync server 2013 を使用してオンプレミスでホストされているユーザーまたはオンラインユーザーになることができます。
     - その他の**自動応答**
 
        既存の自動応答を使って、サブメニューを含む第2レベルのメニューオプションを作成できます。 これらは入れ子の自動応答と呼ばれます。 ネストされた自動応答に通話を送信するには、[**会社内のユーザー** ] を選び、関連付けられた自動応答を既に持っているリソースアカウントか、この自動応答の作成が完了したら、自動応答に関連付ける1つのリソースアカウントを割り当てます。
@@ -214,13 +209,13 @@ ms.locfileid: "35614269"
         > [!Note]
         > 入れ子 (または第 2 レベル) の自動応答の **営業時間** も使用されます。これには、セットアップされた他の自動応答から送信された呼び出しへ向けたものも含まれます。
 
-<!--    - **call queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. -->
+     - **通話キュー**通話キューオプションを使用すると、設定済みの既存の通話キューに通話を転送することができます。 
 
 * * *
 
 ![前のスクリーンショットで吹き出しを参照している数値5のアイコン](media/sfbcallout5.png)
 
-**名前によるダイヤル** このオプションを選択すると、発信者はディレクトリ検索を使用して組織内の人を検索することができます。 [**ダイヤル スコープ**] ページでこれらのオプションをセットアップすることにより、名前によるダイヤルで誰が対応可能または対応不可として一覧表示されるのかを選択することができます。 **電話システム** のライセンスをもつオンライン ユーザーか、 Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされているユーザーであれば、名前によるダイヤルで探すことができます。
+**名前によるダイヤル** このオプションを選択すると、発信者はディレクトリ検索を使用して組織内の人を検索することができます。 [**ダイヤル スコープ**] ページでこれらのオプションをセットアップすることにより、名前によるダイヤルで誰が対応可能または対応不可として一覧表示されるのかを選択することができます。 **電話システム**のライセンスを持つオンラインユーザー、または Skype For business Server または Lync server 2013 を使用してオンプレミスでホストされているすべてのユーザーは、名前でダイヤルすることができます。
 
 * * *
 
@@ -290,7 +285,7 @@ ms.locfileid: "35614269"
 
 ![数値1のアイコン。 [**含める**] オプションを使って、](media/sfbcallout1.png)前のスクリーンショットの吹き出しを参照するには、次の2つのオプションがあります。
 
-- **すべての Online ユーザー** このオプションを使用すると、組織のすべてのユーザーがディレクトリ検索に含められます。 **電話システム** のライセンスをもつすべての Online ユーザーと、Office 365 の通話プランをもつ、Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされたユーザーが一覧表示されます。
+- **すべての Online ユーザー** このオプションを使用すると、組織のすべてのユーザーがディレクトリ検索に含められます。 **電話システム**のライセンスを持っているすべてのオンラインユーザーと、Skype For business Server または Lync server 2013 を使用してオンプレミスでホストされ、Office 365 の通話プランを持っているユーザーが表示されます。
 - **カスタムユーザーグループ**このオプションを使うと、組織内で作成された Office 365 グループ、配布リスト、またはセキュリティグループを検索できます。また、この Office 365 グループ、配布リスト、またはセキュリティグループに追加されたユーザーは **、** Skype For Business Server 2015 または Lync server 2013 を使用して、電話システムライセンスまたはオンプレミスでホストされている。 複数の Office 365 グループ、配布リスト、セキュリティ グループを追加することができます。
 
 * * *
