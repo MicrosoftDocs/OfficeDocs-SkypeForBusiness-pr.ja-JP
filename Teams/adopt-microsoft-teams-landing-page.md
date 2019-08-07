@@ -17,15 +17,15 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34494499"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
-小規模ビジネスの場合、またはチャット、teams & チャネル、会議などを始めとするチームをロールアウトする場合は、この[ガイダンス](get-started-with-teams-quick-start.md)を使用して、すぐに作業を開始できるように設計されています。 ハイブリッドまたはオンプレミスの Skype for Business の構成を使用している大規模な組織の場合、または音声機能 (Office 365 通話プランや電話システムなど) を展開する場合は、「はじめに」のガイドをご覧ください。以下のガイダンスを**** 参照してください。
+小規模ビジネスの場合、またはチャット、teams & チャネル、会議などで開始するチームをロールアウトする場合は、この[ガイド](get-started-with-teams-quick-start.md)を使用して、すぐに作業を開始できるように設計されています。 ハイブリッドまたはオンプレミスの Skype for Business の構成を使用している大規模な組織の場合、または音声機能 (Office 365 通話プランや電話システムなど) を展開する場合は、「はじめに」のガイドをご覧ください。以下のガイダンスを**** 参照してください。
 
 <ul class="panelContent cardsFTitle">
     <li>

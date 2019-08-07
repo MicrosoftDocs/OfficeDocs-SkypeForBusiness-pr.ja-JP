@@ -1,1 +1,1 @@
-<span data-ttu-id="6eeb4-101">マイクロソフトは機能を管理する方法を頻繁に更新しているため、ここでの手順が実際の手順と少し異なる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="6eeb4-101">We are frequently updating how you can manage features, so the steps here might be a little different from what you see.</span></span>
+<span data-ttu-id="d44ab-101">マイクロソフトは機能を管理する方法を頻繁に更新しているため、ここでの手順が実際の手順と少し異なる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="d44ab-101">We are frequently updating how you can manage features, so the steps here might be a little different from what you see.</span></span>
