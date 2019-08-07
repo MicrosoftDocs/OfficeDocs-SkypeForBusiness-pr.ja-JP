@@ -1,2 +1,0 @@
-> [!NOTE]
-> <span data-ttu-id="d8165-101">このページでは、リリース前に実質的に変更される可能性があるプレリリースソフトウェアについて説明します。</span><span class="sxs-lookup"><span data-stu-id="d8165-101">This page describes pre-release software that may change substantially before it is released.</span></span> <span data-ttu-id="d8165-102">スクリーンショットはプレースホルダーであり、表示内容とは異なる場合があります。</span><span class="sxs-lookup"><span data-stu-id="d8165-102">Any screen shots are placeholders and may look different than what you see.</span></span> 
