@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 03/20/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj
 description: ユーザーが Microsoft Teams をどのように使用しているかについて確認する場合や、ユーザーのエクスペリエンスに関するフィードバックを収集する場合に使用可能なレポート オプションについて説明します。
 localization_priority: Priority
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4eaf68a2402281a32e10132b46ab461d1fed23
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: ae59765eabf25ee608b897e1468df30b1fa49450
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548224"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245894"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams での使用状況とフィードバックを監視する
 ユーザーがどのように Teams を使用していているか、また Teams に関するユーザーのエクスペリエンスはどのようなものかを知ることは重要です。 使用状況レポートは、使用パターンを正しく理解するために役立ちます。また、ユーザーのフィードバックと併用することで、広範な展開の情報を確認し、トレーニングとコミュニケーションの取り組みに関する優先順位を決定するための見識が得られます。

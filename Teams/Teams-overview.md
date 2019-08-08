@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.date: 06/18/2019
+audience: admin
 ms.reviewer: LolaJ
 description: Microsoft Teams を組織に展開するための正しい経路を見つけます。 Teams のインフラストラクチャと、Office 365 での Teams の使用について説明します。
 localization_priority: Priority
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4b0b404fae8d9142333bed60de80697e350b4ab
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: b9db6048a9d92144506e9ddf9b75e32b47da62ec
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417925"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239210"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
