@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype for Business Server 2019 エッジサーバーへのフェデレーションルートの移行が完了したら、いくつかの機能テストを実行して、フェデレーションが期待どおりに実行されることを確認する必要があります。 外部ユーザーアクセスのテストには、次のいずれか、またはすべてを含む、組織がサポートしている各種類の外部ユーザーを含める必要があります。
-ms.openlocfilehash: a07cbfc8596cfd49760af1fcee7df90eca362229
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea17cbc8643d864f464da8e8a582191504970059
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292173"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243769"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>外部ユーザーのフェデレーションとリモート アクセスの確認
 
@@ -28,8 +28,8 @@ Skype for Business Server 2019 エッジサーバーへのフェデレーショ�
     
 - 匿名ユーザーが会議に参加できることを確認します。
     
-- リモートユーザーアクセスを使用してホストされている (Lync server/skype for business を、イントラネットの外部から、VPN を使わずに)、レガシインストールのユーザー2019に対してホストされているユーザー。 IM、プレゼンス、A/V、およびデスクトップ共有をテストします。
+- リモートユーザーアクセスを使用してホストされている (Lync Server/Skype for Business を、イントラネットの外部から、VPN を使わずに)、レガシインストールのユーザー2019に対してホストされているユーザー。 IM、プレゼンス、A/V、およびデスクトップ共有をテストします。
     
-- Skype for business server 2019 でホストされているユーザー (リモートユーザーアクセスを使っていますが、skype for business server 2019 のユーザーと、レガシインストールのユーザーによる VPN 2019 を使用していない場合)。 IM、プレゼンス、A/V、およびデスクトップ共有をテストします。
+- Skype for Business server 2019 でホストされているユーザー (リモートユーザーアクセスを使っていますが、skype for business server 2019 のユーザーと、レガシインストールのユーザーによる VPN 2019 を使用していない場合)。 IM、プレゼンス、A/V、およびデスクトップ共有をテストします。
     
 

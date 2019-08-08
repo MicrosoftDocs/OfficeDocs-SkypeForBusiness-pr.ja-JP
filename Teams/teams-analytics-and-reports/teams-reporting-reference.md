@@ -10,18 +10,18 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.analyticsandreports.overview
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Microsoft Teams 管理センターで利用可能な Teams のレポートについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fadd608c20f2992b4b6bcd42d4979c009b4bbf7f
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
-ms.translationtype: HT
+ms.openlocfilehash: 29675485d9a23b184641e8fa855fe2d87b4b80ee
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420037"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234749"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
@@ -32,7 +32,7 @@ Microsoft Teams 管理センターで、Microsoft Teams についての新しい
 レポートにアクセスするには、Office 365 の全体管理者、Teams のサービス管理者、または Skype for Business の管理者であることが必要です。Microsoft Teams 管理センターに移動して、左側のナビゲーションにある **[分析およびレポート]** を選択し、**[レポート]** から実行するレポートを選択します。
 
 > [!NOTE]
-> Microsoft Teams 管理センターのレポートは、Microsoft 365 管理センターの Office 365 レポートの一部として含まれている Teams のアクティビティ レポートとは別個のものです。 Microsoft 365 管理センターのアクティビティ レポートの詳細については、「[Microsoft 365 管理センターでの Teams のアクティビティ レポート](../teams-activity-reports.md)」を参照してください。
+> Microsoft Teams 管理センターのレポートは、Microsoft 365 管理センターの Office 365 レポートに含まれている Teams のアクティビティレポートとは別のものです。 Microsoft 365 管理センターでのアクティビティレポートの詳細については、「 [microsoft 365 管理センターでのチームアクティビティレポート](../teams-activity-reports.md)」を参照してください。
 
 ## <a name="teams-reporting-reference"></a>Teams レポートの参照
 
@@ -45,7 +45,7 @@ Microsoft では、Teams のレポート エクスペリエンスの継続的な
 |[Teams の使用状況レポート](teams-usage-report.md)  |  アクティブなユーザー<br/>チーム内およびチャネル内のアクティブ ユーザー<br/>アクティブ チャネル<br/>メッセージ<br/>チームのプライバシー設定<br/>チームのゲスト   |
 |[Teams ユーザー アクティビティ レポート](user-activity-report.md)  |  ユーザーが参加する 1 対 1 の通話<br/>チーム チャットにユーザーが投稿したメッセージ<br/>プライベート チャットにユーザーが投稿したメッセージ<br/>ユーザーの最後のアクティビティの日付     |
 |[Teams のデバイス使用状況レポート](device-usage-report.md)   |  Windows ユーザー:<br/>Mac ユーザー<br/>iOS ユーザー<br/>Android スマートフォン ユーザー     |
-|[Teams のライブ イベントの使用状況レポート](teams-live-event-usage-report.md)   |  合計表示数<br>開始時刻<br>イベントの状態<br>開催者<br>発表者<br>プロデューサー<br>録画設定<br>生産タイプ    |
+|[チームのライブイベントの使用状況レポート](teams-live-event-usage-report.md)   |  ビューの合計<br>[開始時刻]<br>イベントの状態<br>[開催者]<br>者<br>者<br>レコーディングの設定<br>生産の種類    |
 
 > [!NOTE]
 > Teams のレポートには、アクティブなユーザーとアクティブなチームについてのデータが表示されます。たとえば、レポート用に指定した期間中、組織内のあるユーザーが Teams でアクティブでない場合、そのユーザーのデータはレポートに含まれません。

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: コールパークアプリケーションの移行には、Skype for Business Server 2019 プールのプロビジョニングが含まれています。このファイルには、従来のインストールでアップロードされたカスタム音楽が含まれています。また、サービスレベル設定を復元して、orbits の retargetingSkype for Business Server 2019 プール。 カスタマイズした音楽の保留中のファイルがプールで構成されている場合は、これらのファイルを新しい Skype for Business Server 2019 プールにコピーする必要があります。 さらに、コールパーク用にアップロードされた、カスタマイズされた音楽の保存ファイルを別の場所にバックアップしておくことをお勧めします。これは、コールパーク用にアップロードされたカスタマイズされた音楽の保存ファイルの個別のバックアップコピーを保持するためです。 コールパークアプリケーション用にカスタマイズされた音楽保留のファイルは、プールのファイルストアに保存されます。 プールファイルストアから Skype for Business Server 2019 ファイルストアにオーディオファイルをコピーするには、次のパラメーターを使用して Xcopy コマンドを使用します。
-ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efb2bfbf8ac62ad05e2ee560c2aca4fb7b496006
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280832"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238033"
 ---
 # <a name="migrate-call-park-application-settings"></a>コール パーク アプリケーション設定の移行
 

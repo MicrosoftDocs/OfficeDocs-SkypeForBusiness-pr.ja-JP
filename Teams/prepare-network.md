@@ -7,20 +7,21 @@ ms.date: 03/25/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: arachman
+audience: admin
 description: ネットワーク要件、帯域幅要件、その他の考慮事項といった Microsoft Teams ネットワークの準備と管理について説明します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041c391f202ac42b782ffc200db9ad495961fa52
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: 31c06403dc3dec9322e984e012fe597254db8f33
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36206958"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235180"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 

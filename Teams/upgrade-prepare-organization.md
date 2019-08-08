@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 組織の変更を承諾するための準備を評価し、ユーザーが Skype for Business から Microsoft Teams にアップグレードできるようにするための計画を準備する
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67ba6c1358273b78aee06861ea7cc3484f52666b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 4dd0509f3f016d6c8c62e6f79de791e8fc531653
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494547"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236094"
 ---
 ![ユーザー準備ステージに重点を置いたアップグレードの段階](media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点")を置いている場合)
 

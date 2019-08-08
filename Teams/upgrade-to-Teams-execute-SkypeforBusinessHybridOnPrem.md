@@ -6,22 +6,23 @@ manager: serdars
 ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Skype for Business のハイブリッド環境またはオンプレミス環境から Teams にアップグレードする際の考慮事項。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 731a6b30fe2476d180198e88f83e80f24c8e8227
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 873e15e5b1f64e82889bfda6fa30c5b9394dcf3a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934519"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235875"
 ---
 ![展開と実装を強調したアップグレードの図](media/upgrade-banner-deployment.png "展開と実装のステージに重点を置いたアップグレードの段階")
 

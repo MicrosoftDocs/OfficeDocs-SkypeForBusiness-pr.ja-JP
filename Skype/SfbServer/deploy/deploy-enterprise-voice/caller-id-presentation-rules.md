@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: '概要: Skype for Business Server コントロールパネルを使用して発信者番号認識を構成する方法について説明します。'
-ms.openlocfilehash: a305d420171fa10253f387e1fcbcfa2a50d72753
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ca35b3398732296f435196ffeb38d915472b303d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284656"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233768"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Skype for Business Server で発信者 ID のプレゼンテーションの翻訳ルールを作成または変更する
 

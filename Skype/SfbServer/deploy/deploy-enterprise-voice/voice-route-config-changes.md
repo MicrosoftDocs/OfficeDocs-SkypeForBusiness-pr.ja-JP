@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: '概要: skype for business Server コントロールパネルを使用して、Skype for Business Server のボイスルーティング構成の変更を確認、発行、またはキャンセルする方法について説明します。'
-ms.openlocfilehash: 1ff33dee1518581e4a94aac56ecae34d9bfd1159
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6a13c2a2b2b1221203fbed84948b803a6c2ea1db
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300888"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239923"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Skype for Business の音声ルーティング構成に保留中の変更を公開する
  

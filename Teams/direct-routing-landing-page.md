@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
@@ -15,16 +16,16 @@ F1keywords: ms.teamsadmincenter.directrouting.overview
 description: 直接ルーティングのランディングページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59f7cf4f1249956f3c763d12fcd96bf5c10a9fac
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 1dca9fda99973931cff70301da089f6d0c3f4a9c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401836"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236588"
 ---
 # <a name="phone-system-direct-routing"></a>電話システムのダイレクト ルーティング
 
-[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 [会議 & 会議](deploy-meetings-microsoft-teams-landing-page.md)を展開したことがあるかもしれません。 これで、クラウド音声のワークロードを追加する準備ができました。電話システムのダイレクトルーティングを使用して、PSTN (公衆交換電話網) 接続用の独自のテレフォニーキャリアを使用することにしました。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
+[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 会議[&](deploy-meetings-microsoft-teams-landing-page.md)会議を展開したことがあるかもしれません。 これで、クラウド音声のワークロードを追加する準備ができました。電話システムのダイレクトルーティングを使用して、PSTN (公衆交換電話網) 接続用の独自のテレフォニーキャリアを使用することにしました。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
 
 この記事では、組織のニーズに基づいて、直接ルーティングを行う場合の主要な展開と、検討する必要があるその他の考慮事項について説明します。 Microsoft のクラウド音声サービスの詳細については、「 [Microsoft Teams でクラウド音声](cloud-voice-landing-page.md)を読む」もご覧ください。
 

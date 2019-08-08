@@ -7,12 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Skype for Business サービスの通信クレジット (PSTN 追加機能プラン) に対する支払い方法と、継続的な電話システムへのアクセスをユーザーに許可するプランについて説明します。 '
-ms.openlocfilehash: 93fb828f434c07b32852711772b6c16613415749
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b6fde8cf36d31caca0c53d977b8844c263a53ff9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278321"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239337"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 

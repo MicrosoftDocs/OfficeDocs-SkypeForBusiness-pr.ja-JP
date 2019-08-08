@@ -1,27 +1,28 @@
 ---
 title: Microsoft Teams でライブ イベント設定を構成する
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 組織内に保持されている Teams のライブ イベントの設定を管理する方法について説明します。
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83d7e43e75b71eefdb4a95f26c14c27956e763f9
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 6a1d60ce0e8796d038c6ea8890066c1aee5f0ec6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013038"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243704"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 

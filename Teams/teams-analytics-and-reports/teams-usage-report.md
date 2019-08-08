@@ -10,18 +10,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 自分の組織での Teams のアクティビティの概要を把握するために、Microsoft Teams 管理センターにある Teams の使用状況レポートを、どのように使用するかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c7f5804bf4e251bffa4f391664da803f689ee56
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: 8a5fdee65771f2ac23e2cea78e54752786357405
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420021"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234772"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
 

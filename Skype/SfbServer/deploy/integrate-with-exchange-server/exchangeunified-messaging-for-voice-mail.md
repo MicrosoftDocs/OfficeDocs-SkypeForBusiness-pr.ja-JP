@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '概要: Skype for Business Server ボイスメール用に Exchange Server ユニファイドメッセージングを構成します。'
-ms.openlocfilehash: a1c83b4ec92e6e3b3d678d2d7e0a65f58fc9d6ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278186"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238008"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Skype for Business Server ボイス メールに対する Exchange Server ユニファイド メッセージングの構成
  
@@ -153,7 +153,7 @@ Microsoft Skype for Business Server を Exchange ユニファイドメッセー�
 - UM IP ゲートウェイごとに UM ハントグループを作成します。 各ハントグループのパイロット識別子は、UM IP ゲートウェイに関連付けられている Skype for Business Server のフロントエンドプールまたは Standard Edition サーバーで使用される UM SIP URI ダイヤルプランを指定します。
 - UM ダイヤルプラン、自動応答、UM IP ゲートウェイ、UM ハントグループなどの Active Directory UM コンテナーオブジェクトを読み取るための Skype for Business Server 権限を付与します。
   > [!IMPORTANT]
-  > 各 UM フォレストは、Skype for Business Server が展開されているフォレストを信頼するように構成する必要があります。また、Skype for Business Server 2013 が展開されているフォレストは、各 UM フォレストを信頼するように構成されている必要があります。 Exchange UM が複数のフォレストにインストールされている場合は、UM フォレストごとに Exchange Server の統合手順を実行するか、Skype for Business Server ドメインを指定する必要があります。 たとえば、ExchUcUtil: <lync – Forest:-domain-fqdn>。 
+  > 各 UM フォレストは、Skype for Business Server が展開されているフォレストを信頼するように構成する必要があります。また、Skype for Business Server 2013 が展開されているフォレストは、各 UM フォレストを信頼するように構成されている必要があります。 Exchange UM が複数のフォレストにインストールされている場合は、UM フォレストごとに Exchange Server の統合手順を実行するか、Skype for Business Server ドメインを指定する必要があります。 たとえば、ExchUcUtil は、<lync-ドメインコントローラー-fqdn>] のようになります。 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Shell を使用して ExchUcUtil を実行します。 ps1 スクリプト
 
@@ -164,7 +164,7 @@ Microsoft Skype for Business Server を Exchange ユニファイドメッセー�
 > スクリプトを実行するには、Exchange 組織管理役割のアクセス許可、または Exchange 組織管理者セキュリティグループのメンバーである必要があります。 
 
 1. Exchange 管理シェルを開きます。
-2. C:\Windows\System32 のプロンプトに「 **cd \<Drive letter>: Files\Microsoft\Exchange Server\V15\Scripts>.」と入力します。「ExchUcUtil**」と入力し、enter キーを押します。
+2. C:\Windows\System32 プロンプトで、 ** \<cd ドライブ文字>: Files\Microsoft\Exchange Server\V15\Scripts> を入力します。「ExchUcUtil**」と入力し、enter キーを押します。
 
 #### <a name="how-do-you-know-this-worked"></a>これが機能したことを知る方法を教えてください。
 
@@ -189,7 +189,7 @@ Skype for Business Server に接続するには、Exchange Server がサーバ�
 
 **CA 証明書をダウンロードするには:**
 
-1. Exchange UM を実行しているサーバーで、[**スタート**] をクリックし、[**実行**] をクリックし、**発行 CA\<Server>/certsrv の http://名**を入力して、[ **OK]** をクリックします。
+1. Exchange UM を実行しているサーバーで [**スタート**] をクリックし、[**実行**] をクリックし**て、\<http://の発行 CA> サーバーの名前**を入力し、[ **OK]** をクリックします。
 2. [タスクの選択] で、[ **CA 証明書、証明書チェーン、または CRL をダウンロード**します] をクリックします。
 3. **Ca 証明書、証明書チェーン、または CRL**をダウンロード**するに**は、[エンコード方法] を [ベース 64] に、[**ca 証明書のダウンロード**] をクリックします。
    > [!NOTE]

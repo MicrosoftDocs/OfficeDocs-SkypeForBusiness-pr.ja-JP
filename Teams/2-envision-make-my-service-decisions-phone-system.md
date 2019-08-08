@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 通話プランとライセンスを選択して、緊急対応の場所と機能 (ボイスメールや発信者番号通知、電話番号の取得または転送など) を設定します。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513519e95951676dc9e5a9b69d2fe3c5ace2824b
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: ddc618a4b68c8a620568eba5ae2ed52d17096b30
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400869"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232358"
 ---
 # <a name="make-my-service-decisions"></a>サービスの決定を行う
 
@@ -377,10 +378,10 @@ Office 365 の電話システム機能には、2種類のダイヤルプラン�
 > ||**AU-TollFree**<br>_オーストラリア用のフリーダイヤル番号の正規化_|^ (1 [38] \d{4,8}) \d * $<br>+ 61 $ 1<br>False|
 > ||**AU-サービス**<br>_オーストラリアのサービス番号の正規化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 > |**SG-シンガポール-OMB**<br>_OMB シンガポール、SG ダイヤルプラン_|**SG-OMB-内部**<br>_OMB office、シンガポールの内部番号 (x8000)_|^ (8 \ d{3}) $<br>+ 656888 $ 1<br>True|
-> ||**SG-TollFree**<br>_シンガポール向けのフリーダイヤル番号の正規化_|^ (1?800 \ d{7}) \d * $<br>+ 65 $ 1<br>False|
+> ||**SG-TollFree**<br>_シンガポール向けのフリーダイヤル番号の正規化_|^ (1? 800 \ d{7}) \d * $<br>+ 65 $ 1<br>False|
 > ||**SG-サービス**<br>_シンガポール向けサービス番号の正規化_|^ (1 \ d{3,4}\|9 \ d{2}) $<br>$1<br>False|
 > |**FR-CA-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-言語ライン Aux、フランスダイヤルプラン_|**FR-FR-39qdPR-内部**<br>_39 quai du Président Roosevelt office、Issy x7000-x7999 Lineaux、フランスの内部番号 ()_|^ (7 \ d{3}) $<br>+ 3319999 $ 1<br>True|
-> ||**FR-FR-TollFree**<br>_フランス向けのフリーダイヤル番号の正規化_|^ 0? (80 \ d{7}) \d * $<br>+ 33 $ 1<br>False|
+> ||**FR-FR-TollFree**<br>_フランス向けのフリーダイヤル番号の正規化_|^ 0 ですか?(80 \ d{7}) \d * $<br>+ 33 $ 1<br>False|
 > ||**FR-CA**<br>_フランス向けのサービス番号の正規化_|^ (1 \ d{1,2}\|11 [68] \d{3}\|10{2}\|\ d 3 \ d{3}) $<br>$1<br>False|
 
 <br>

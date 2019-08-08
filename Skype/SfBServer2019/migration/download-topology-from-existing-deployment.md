@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype for Business Server 2019 プールを作成する場合は、従来のインストールに関連付けられている中央管理ストアを使用します。 最初の使用時と後続の編集セッションでトポロジビルダーを起動すると、トポロジビルダーで現在の構成ドキュメントを読み込む場所を確認するメッセージが表示されます。 既にトポロジが定義されていて、全体管理ストアを確立しているため、既存の展開からトポロジをダウンロードすることを選択する必要があります。 トポロジビルダーはデータベースを読み取り、現在の定義を取得します。
-ms.openlocfilehash: 67317f9acf477d6b6decd42433844ef088d27021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33dc190bae5bd5d983d13932b4a9933fe5f74976
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280858"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238123"
 ---
 # <a name="download-topology-from-existing-deployment"></a>既存の展開環境からトポロジをダウンロードする
 

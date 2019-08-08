@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: このトピックでは、Skype for Business Server 2019 Edge サーバーを展開する前に知っておく必要がある構成設定について説明します。 Skype for Business Server 2019 の展開と構成のプロセスは、Skype for Business Server 2015 とよく似ています。 このセクションでは、パイロットプールの展開の一部として考慮する必要がある重要なポイントについて説明します。 詳細な手順については、展開プロセスについて説明し、外部ユーザーアクセスの構成情報も提供する展開ドキュメントで、「Skype for Business Server 2019 への外部ユーザーアクセスの展開」を参照してください。
-ms.openlocfilehash: f692eb5ad4a24b47a8bab7a56be218eab04af7dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b416ba38646d05f3d10a7d2643c01924fe57020a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280918"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238389"
 ---
 # <a name="deploy-pilot-edge-server"></a>パイロット エッジ サーバーの展開
 

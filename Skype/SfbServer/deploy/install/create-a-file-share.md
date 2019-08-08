@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: '概要: Skype for Business Server のインストールの一部として Windows Server ファイル共有を作成する方法について説明します。 Skype for Business Server の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: d6a34ad4807948a5580fc572628a4fd6333dd9f8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3f539d980d2978ee3be5e8249f869aa234493f32
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292166"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235243"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Skype for Business Server でファイル共有を作成する
  
@@ -64,7 +64,7 @@ Skype for Business Server を使用するには、トポロジ内のコンピュ
 > [!NOTE]
 >ファイルストアが DFS 共有でホストされている場合は、次の警告が表示されます。
 
-警告: "\\<domain>\<share>" の共有アクセス許可にアクセスできません。
+警告: "\\<domain>\<共有>" の共有アクセス許可にアクセスできません。
 
 >これは、ファイルサーバーの管理者ではないか、または分散ファイルシステム (DFS) 共有である場合に発生します。 共有のアクセス許可が既に構成されている場合は、この警告を無視できます。 新しい共有の場合は、共有のアクセス許可を手動で構成する方法に関するドキュメントを参照してください。
 

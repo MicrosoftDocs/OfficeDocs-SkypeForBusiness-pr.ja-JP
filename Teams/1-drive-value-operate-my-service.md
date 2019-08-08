@@ -2,25 +2,26 @@
 title: Microsoft Teams の操作ガイド
 author: rmw2890
 ms.author: Rowille
+audience: admin
 manager: serdars
 ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 description: サービスの正常性の監視、ネットワークの品質および使用状況の評価と確認など、Teams サービスの管理に必要なタスクとアクティビティ。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bd43155e7a1a4eadc1a372ef3706912ff72cd50
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: a63cac388a777073f5c022e493a5abab51a12add
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198398"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244075"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 

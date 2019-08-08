@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: '概要: Skype for Business Server で監視レポートを生成するサービスをインストールする方法について説明します。'
-ms.openlocfilehash: d17f66a5a500dad19677e51c98a465a2eb6ee87b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 765c7a13b965b8701de6bc70782a9d7a8963a429
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282367"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239983"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Skype for Business Server で監視レポートをインストールする
  

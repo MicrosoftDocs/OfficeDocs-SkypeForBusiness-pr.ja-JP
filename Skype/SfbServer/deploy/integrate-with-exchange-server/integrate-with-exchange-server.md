@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: '概要: Exchange Server 2016 または Exchange Server 2013 および Skype for Business Server の統合手順を確認します。'
-ms.openlocfilehash: 25b2260805cf4e42bc15d1ae5607baa3f830fba6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 398ded1c138743c79de0e372b930dacef08fd94f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277987"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244044"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Skype for Business Server と Exchange Server の統合
 
@@ -25,7 +25,7 @@ ms.locfileid: "34277987"
 
 Exchange Server 2013 以降と Skype for Business Server は互換性があり、適切に統合されています。 たとえば、Skype for Business ユーザーのプレゼンス情報は、Microsoft Outlook で報告できます。同様に、Skype for Business では、ユーザーの Outlook の予定表にアクセスできます。ユーザーに会議がスケジュールされていることを通知し、会議中にユーザーのプレゼンスがビジー状態であることを示します。 Skype for Business Server (またはその逆) を実行するために Exchange Server を実行する必要はありませんが、2つの製品の間で両方のユーザーエクスペリエンスを向上させることができます。
 
-このドキュメントでは、Skype for business server および exchange 2016 server 2013 を統合する方法について説明しますが、これら2つの製品の初期設定と構成が既に行われていることを前提としています。 Skype for Business Server の展開の詳細については、「 [skype For Business server のテクニカルセンター](https://go.microsoft.com/fwlink/p/?LinkId=246127)」を参照してください。 Exchange Server の展開の詳細については、お使いの Exchange のバージョンの展開に関するドキュメントを参照してください。
+このドキュメントでは、Skype for Business Server および Exchange 2016 Server 2013 を統合する方法について説明しますが、これら2つの製品の初期設定と構成が既に行われていることを前提としています。 Skype for Business Server の展開の詳細については、「 [skype For Business server のテクニカルセンター](https://go.microsoft.com/fwlink/p/?LinkId=246127)」を参照してください。 Exchange Server の展開の詳細については、お使いの Exchange のバージョンの展開に関するドキュメントを参照してください。
 
 Skype for Business Server のオンプレミスインストールを Microsoft Exchange Online と統合する場合は、「[オンプレミスの skype For Business server と Outlook Web App との統合を構成](outlook-web-app.md)する」を参照してください。
 

@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: このガイダンスを使用して、高品質の Microsoft Teams 展開を実施および維持するために必要な要件について説明します。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3bc311fc2099f6162115d1c341d088a49c94da0
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 7b4d9f5033e0a3fb0446709438e670f6f9408de3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198526"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236509"
 ---
 ![テクニカルレディネスステージを強調したアップグレードの図](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 

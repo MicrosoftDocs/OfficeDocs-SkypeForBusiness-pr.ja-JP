@@ -7,7 +7,7 @@ ms.reviewer: jotaing
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: チームメンバーをチャネルモデレーターとして追加する方法など、Microsoft Teams でモデレーション用にチャネルをセットアップする方法について説明します。
-ms.openlocfilehash: 62a184334e337b1e5f30e2373223db1fe52ea477
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 93fb0a6d8a88979d14031792ccf96a8861629b1d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841455"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244977"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
 

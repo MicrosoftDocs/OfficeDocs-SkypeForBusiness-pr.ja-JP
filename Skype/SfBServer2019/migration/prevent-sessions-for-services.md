@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 従来の [コントロールパネル] を使って、特定のコンピューターで実行されているすべてのレガシサービスの新しいセッションを禁止したり、特定のレガシサービスの新しいセッションを禁止したりすることができます。
-ms.openlocfilehash: 4728f68c8f7b9392b99a6a49eefe699fa48a4d47
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 978c97bd7f610e6b40d467b80f5df8483b6d370f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301217"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244366"
 ---
 # <a name="prevent-sessions-for-services"></a>サービスのセッションの禁止
 

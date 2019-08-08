@@ -20,16 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '電話システムでできることについて説明します。 '
-ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: e0b6032d523517f11e02538603d8b4dfcc8ea3a4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643140"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237291"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは
-
-## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Office 365 および Skype for Business Server の電話システム
 
 **電話システム**は、Skype For business Online および Microsoft Teams を使用して、Office 365 クラウドでの通話管理および PBX 機能を有効にするための Microsoft テクノロジです。 電話システムを使うと、既存の PBX システムを、Office 365 から提供されている一連の機能に置き換えて、組織のクラウドエクスペリエンスに密接に統合することができます。 機能の詳細については、「 [Office 365 の電話システムで利用できる](here-s-what-you-get-with-phone-system.md)機能」を参照してください。
   

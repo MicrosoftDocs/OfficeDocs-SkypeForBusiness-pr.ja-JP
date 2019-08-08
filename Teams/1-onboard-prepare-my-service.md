@@ -3,6 +3,7 @@ title: Microsoft Teams クラウド ボイス サービスの展開を準備す�
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/18/2019
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: オンボードのチェックリストを使用して、チーム用に Office 365 を準備し、Teams のコア機能、ネットワーク、およびクラウド音声のワークロードを構成します。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2316376bd2dfddce99e63fe4ab66c5e33eb813e
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344830"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236199"
 ---
 # <a name="prepare-my-service"></a>サービスを準備する
 
@@ -112,7 +113,7 @@ ms.locfileid: "34344830"
 
 詳細については、以下を参照してください。
 
-- [音声会議での電話会議の計画  ](audio-conferencing.md#technical-planning-for-audio-conferencing)
+- [音声会議での電話会議の計画  ](cloud-voice-deployment.md)
 
 - [Microsoft Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)
 

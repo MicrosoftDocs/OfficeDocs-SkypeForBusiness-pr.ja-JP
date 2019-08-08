@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 電話会議、電話システムの通話プラン、または電話システムのダイレクトルーティングの展開の結果を測定し、目的の結果が得られたことを確認します。
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96fb3a0031b27b331dbc6424650f101b0f0a34f3
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: a84f0d38afbac74b296ccdfed626d6f8830d46a9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433097"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244168"
 ---
 # <a name="define-my-success"></a>成功を定義する
 

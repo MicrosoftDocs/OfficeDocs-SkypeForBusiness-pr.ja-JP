@@ -5,23 +5,24 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
 description: アプリ、外部アクセス、ゲストアクセス、Teams の設定、Teams のアップグレード設定など、あなたの組織に対する Microsoft Teams の組織全体の設定をオンまたはオフにする方法について説明します。
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd6a2193023b728710df8ad09c10fa0bd7280c94
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+ms.openlocfilehash: 596c3a3df6fc29706eea083859c65e1b1381e9ea
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36171650"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235350"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 

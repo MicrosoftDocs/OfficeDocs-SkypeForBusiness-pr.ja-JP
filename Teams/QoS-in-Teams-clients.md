@@ -7,20 +7,21 @@ ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Microsoft Teams クライアントにサービスの品質 (QoS) を実装します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 101deb10cf3d86dbc97116cad269556683d03be4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 91b761cafa15172ae3fb0126f5059408e1a5f7ca
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194700"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36246198"
 ---
 # <a name="set-qos-on-windows-clients"></a>Windows クライアントで QoS を設定する
 

@@ -13,17 +13,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom:
 - Devices
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 086edb4f7c949154dae49cb6a371a1d9d11bc43a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 70398d6718268742205181db3fd21bfc01886c0e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204462"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235043"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Surface Hub の Microsoft Teams を展開する
 ======================================
@@ -41,7 +41,7 @@ Surface Hub の Teams をインストールする前に、次の操作を行っ�
  
 1. Microsoft Store を起動します。<br>
    a. [ **** > **すべてのアプリ** > **設定**を開始] をタップします。<br> b. **[Surface Hub デバイスアカウント] の [管理] を**タップします。<br>
-   c. 左側の [**アプリ & の機能**] タブをタップします。<br> d. 右側の [**ストアを開く**] ボタンをタップします。 
+   c. 左側の [**アプリ & 機能**] タブをタップします。<br> d. 右側の [**ストアを開く**] ボタンをタップします。 
 2. Microsoft Store で、 *Microsoft Teams*を検索します。 **Surface Hub 用の Microsoft Teams**が表示されます。 インストールするには、[**アプリの取得**] ボタンをタップします。  
 3. インストールが完了したら、Surface Hub を再起動します。 
 

@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
@@ -17,12 +18,12 @@ description: 組織内の Teams で使用されているデバイスを管理す
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76692714bbf58dca7bd74461bed4da34abf55c58
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3b259b893f443a068b8156f2298613b0feb6d028
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344642"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237505"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Microsoft Teams でのデバイスを管理する
 
@@ -50,11 +51,11 @@ ms.locfileid: "34344642"
     
 |操作方法  |操作 |
 |---------|---------|
-|デバイスの情報を変更する   | デバイス >**編集**を選択します。 デバイス名、ユーザー情報、資産タグ、メモの追加などの詳細を編集できます。     |
-|ソフトウェアの更新を管理する   |デバイス > の**更新プログラム**を選択します。 デバイスで利用可能なソフトウェアとファームウェアの更新プログラムの一覧を表示し、インストールする更新プログラムを選ぶことができます。    |
-|デバイスを再起動する   |デバイス > を選択して**再起動**します。          |
-|デバイス履歴の表示  | デバイスの >**履歴**を選択します。 デバイスの更新履歴を表示できます。     |
-|診断の表示  | デバイス >**診断**を選択します。        |
+|デバイスの情報を変更する   | [**編集**] > デバイスを選択します。 デバイス名、ユーザー情報、資産タグ、メモの追加などの詳細を編集できます。     |
+|ソフトウェアの更新を管理する   |**更新**> デバイスを選択します。 デバイスで利用可能なソフトウェアとファームウェアの更新プログラムの一覧を表示し、インストールする更新プログラムを選ぶことができます。    |
+|デバイスを再起動する   |デバイスを選択し >**再起動**します。          |
+|デバイス履歴の表示  | デバイス > の**履歴**を選択します。 デバイスの更新履歴を表示できます。     |
+|診断の表示  | **診断**> デバイスを選択します。        |
 
 ## <a name="use-configuration-profiles-in-teams"></a>Teams で構成プロファイルを使用する
 

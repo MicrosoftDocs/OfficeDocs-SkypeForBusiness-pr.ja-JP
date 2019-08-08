@@ -644,7 +644,6 @@
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub はまもなく廃止予定です](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [現場担当者の管理機能が間もなくMicrosoft Teamsに登場](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Microsoft StaffHub PowerShell モジュールをインストールする](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [レポートを実行してアクティブな StaffHub の使用状況を表示する](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Microsoft StaffHub のチームを Teams の Shifts に移動する](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)

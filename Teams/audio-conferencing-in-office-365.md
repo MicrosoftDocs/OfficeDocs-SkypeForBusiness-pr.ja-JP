@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
-audience: Admin
+audience: admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 592f9bd4e336ae454ce74146f462bfbab2a2924c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 87ce2422fd4d14b5b9e2c90921b0fe84630f2887
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283541"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235750"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 における電話会議
 Office 365 の電話会議では、ユーザーは自分の電話から会議にダイヤルインすることができます。 電話会議には最大で250の電話出席者が参加できます。
@@ -85,7 +85,7 @@ Skype for Business または Microsoft Teams の電話会議をセットアッ�
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>専用の電話番号を取得するには、どうすればよいですか?
 専用の電話会議の電話番号は、お客様が取得して組織に割り当てることができるサービス番号です。 次の3つの方法のいずれかで、電話会議用に専用の有料電話番号と無料電話番号を取得できます。
 
-- **Skype for Business 管理センターを使用します。** 一部の国/地域では、Skype for Business 管理センターを使って、会議ブリッジの番号を取得できます。 「[サービスの電話番号を取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)する」をご覧ください。
+- **Skype for Business 管理センターを使用します。** 一部の国/地域では、Skype for Business 管理センターを使って、会議ブリッジの番号を取得できます。 「[サービスの電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」をご覧ください。
     
 - **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社から Office 365 に、既存の電話番号を移行することもできます。 そのための詳細については、「 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)する」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。  
   

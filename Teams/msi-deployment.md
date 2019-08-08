@@ -6,20 +6,21 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: 管理者は Teams MSI を使用して、Microsoft Teams を選択したユーザーまたはコンピューターに一括展開することができます。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 711018e754f64960fc7b120baad13966ebf1a1ac
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.openlocfilehash: 6e2354c28916af3c1c0be47848ee7bd2a72bf278
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "35535893"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238667"
 ---
 <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 =================================

@@ -6,9 +6,10 @@ manager: serdars
 ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
+audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 作成し、直接ルーティングの場所ベースのルーティング ネットワーク領域、サイト、およびサブネットを設定する方法について説明します。
+description: ダイレクトルーティングの位置情報に基づくルーティング用に、ネットワークの領域、サイト、サブネットを作成してセットアップする方法について説明します。
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
@@ -16,76 +17,76 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7f6f6f1e74cc50b37ade03e97106d2befe36a6dd
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222364"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245108"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>場所に基づくルーティングのネットワーク設定を構成する
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-まだためには、他の手順を確認するのには[Plan Location-Based が直接ルーティングのルーティング](location-based-routing-plan.md)を読み取る場合は、場所ベースのルーティングのネットワーク設定を構成する前にする必要があります。
+まだインストールしていない場合は、「[位置情報に基づくルーティングを計画](location-based-routing-plan.md)する」を参照して、場所に基づくルーティングのネットワーク設定を構成する前に実行する必要があるその他の手順を確認してください。
 
-この資料では、場所ベースのルーティングのネットワーク設定を構成する方法について説明します。 組織の電話システムの直接のルーティングを展開した後次の手順は、ネットワーク地域、ネットワーク サイト、およびネットワーク サブネットを作成して設定します。 この資料の手順を完了するには、PowerShell コマンドレットをある程度必要があります。 詳細については、[チームの PowerShell の概要](teams-powershell-overview.md)を参照してください。
+この記事では、場所に基づくルーティングのネットワーク設定を構成する方法について説明します。 組織で電話システムの直接ルーティングを展開した後、次の手順では、ネットワーク領域、ネットワークサイト、ネットワークサブネットを作成してセットアップします。 この記事の手順を実行するには、PowerShell コマンドレットについて理解している必要があります。 詳細については、「 [Teams PowerShell の概要](teams-powershell-overview.md)」を参照してください。
 
-## <a name="define-network-regions"></a>ネットワークの領域を定義します。
- ネットワークの領域は、複数の地理的な分野にわたって、ネットワークのさまざまな部分を相互接続します。 [新規 CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps)コマンドレットを使用して、ネットワークの領域を定義します。 RegionID パラメーターは、論理名を地域の地理的な場所を表しに依存しないか、制限と、CentralSite&lt;サイトの ID&gt;パラメーターは省略可能です。 
+## <a name="define-network-regions"></a>ネットワーク領域を定義する
+ ネットワーク領域は、ネットワークのさまざまな部分を複数の地域で相互接続します。 ネットワーク領域を定義するには、 [CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps)コマンドレットを使用します。 RegionID パラメーターは、領域の地理を表す論理名であり、依存関係または制限がないため、CentralSite &lt;site ID&gt;パラメーターは省略可能であることに注意してください。 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
-この例では、インドをという名前のネットワーク領域を作成します。 
+この例では、インドという名前のネットワーク領域を作成します。 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
-## <a name="define-network-sites"></a>ネットワークのサイトを定義します。
+## <a name="define-network-sites"></a>ネットワークサイトを定義する
 
-[新規 CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps)コマンドレットを使用すると、ネットワークのサイトを定義します。 
+ネットワークサイトを定義するには、 [CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps)コマンドレットを使用します。 
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
-この例では、2 つの新しいネットワーク サイト、デリーおよび Hyderabad、インドの領域に作成します。 
+この例では、インド地域に2つの新しいネットワークサイト、ニューデリーと Hyderabad を作成します。 
 ```
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
 ```
-次の表は、次の使用例で定義されているネットワークのサイトを示しています。 
+次の表は、この例で定義されているネットワークサイトを示しています。 
 
-||サイト 1 |サイト 2 |
+||サイト1 |サイト2 |
 |---------|---------|---------|
-|サイト ID    |    サイト 1 (デリー)     |  サイト 2 (Hyderabad)       |
-|地域 ID  |     領域 1 (インド)    |   領域 1 (インド)      |
+|サイト ID    |    サイト 1 (ニューデリー)     |  サイト 2 (Hyderabad)       |
+|地域 ID  |     地域 1 (インド)    |   地域 1 (インド)      |
 
-## <a name="define-network-subnets"></a>ネットワークのサブネットを定義します。
+## <a name="define-network-subnets"></a>ネットワークサブネットを定義する
 
-ネットワークのサブネットを定義し、ネットワーク サイトに関連付けるには、[新しい CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)のコマンドレットを使用します。 各内部のサブネットは、1 つのサイトに関連付けられているのみできます。 
+ネットワークサブネットを定義してネットワークサイトに関連付けるには、 [CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)コマンドレットを使用します。 各内部サブネットは、1つのサイトにのみ関連付けることができます。 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
-この例では、サブネット 192.168.0.0 とサイト間で、デリー ネットワークとサブネット 192.168.1.0 と Hyderabad のネットワーク サイトとの間の関連付けを作成します。
+この例では、サブネット192.168.0.0 と、ニューデリーネットワークサイトと subnet 2001: 4898: 844e: 926f: 85ad: dd8e と Hyderabad ネットワークサイト間の関連付けを作成します。
 ```
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad" 
+New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
 ```
-次の表は、次の使用例で定義されているサブネットを示しています。 
+次の表は、この例で定義されているサブネットを示しています。 
 
-||サイト 1 |サイト 2 |
+||サイト1 |サイト2 |
 |---------|---------|---------|
-|サブネット ID   |    192.168.0.0     |  192.168.1.0     |
-|マスク  |     24    |   24      |
-|サイト ID  | サイト (デリー) | サイト 2 (Hyderabad) |
+|サブネット ID   |    192.168.0.0     |  2001: 4898: e8:25: 844e: 926f: 85ad: dd8e     |
+|Mask  |     24    |   120      |
+|サイト ID  | サイト (ニューデリー) | サイト 2 (Hyderabad) |
 
-複数のサブネットに次のようなスクリプトを使用して CSV ファイルをインポートできます。
+複数のサブネットの場合は、次のようなスクリプトを使用して CSV ファイルをインポートできます。
 ```
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
-この例では、CSV ファイル次のようにします。
+この例では、CSV ファイルは次のようになります。
 ```
 Identity, Mask, SiteID 
 172.11.12.0, 24, Redmond 
@@ -93,18 +94,18 @@ Identity, Mask, SiteID
 172.11.14.0, 25, Vancouver 
 172.11.15.0, 28, Paris
 ```
-## <a name="define-external-subnets"></a>外部サブネットを定義します。
-外部サブネットを定義し、テナントに割り当てるには、[新規 CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps)コマンドレットを使用します。 テナントの無制限の数のサブネットを定義できます。 
+## <a name="define-external-subnets"></a>外部サブネットを定義する
+[CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps)コマンドレットを使用して外部サブネットを定義し、それをテナントに割り当てます。 1つのテナントに対して無制限の数のサブネットを定義できます。 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 次に例を示します。
 ```
-New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 
 ## <a name="next-steps"></a>次のステップ
-[直接ルーティングのための場所ベースのルーティングを有効にするの](location-based-routing-enable.md)に移動します。
+「[ダイレクトルーティングで位置情報に基づくルーティングを有効](location-based-routing-enable.md)にする」に進みます。
 
 ### <a name="related-topics"></a>関連トピック
 - [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)

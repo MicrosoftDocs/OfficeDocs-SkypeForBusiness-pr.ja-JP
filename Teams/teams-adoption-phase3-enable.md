@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 組織のチームを幅広くサポートする方法について説明します。
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f9556338bba030ccefcd61f3bbdd9e3a4c56af2
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0c97572004184eac1d480aec8df2b227654c9dad
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494092"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237840"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams の導入段階 3 - 規模
 
@@ -35,6 +35,6 @@ ms.locfileid: "34494092"
 5. トレーニングプログラムを設計して起動します。
 6. レポートツールについて説明します。
 7. 継続的なビジネス契約を準備します。
-8. 継続的なサービス正常性 & の導入レビューを準備します。
+8. 進行中のサービス正常性 & 導入レビューを準備します。
 
 ![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[結果と成功の定義](teams-adoption-define-outcomes.md)

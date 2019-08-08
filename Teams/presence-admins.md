@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: rakayala
 description: 情報管理者は、Teams でのプレゼンスについて理解する必要があります。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11902a5d6ef768afa6d7bb1bba2f33b64757fef1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 8b3c36f0f83937e72ae4477ad38c9bd3187c6577
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222094"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244829"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 

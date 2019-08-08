@@ -7,22 +7,23 @@ ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
+audience: admin
 search.appverid: MET150
 description: Microsoft Teams での通話ポリシー設定について説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35c2455c3164f04dd9fdbbb210e20809a719bc6
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 5c94a8c9ff9c1eef2017cf70d69a2308f5c94db6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835328"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243855"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams の発信通話制限ポリシー
 ===================================

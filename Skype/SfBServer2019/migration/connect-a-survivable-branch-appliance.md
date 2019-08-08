@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: すべての Survivable Branch Appliance (SBA) は、SBA のバックアップレジストラーとして機能するフロントエンドプールと関連付けられています。 フロントエンドプールが Skype for Business Server 2019 に移行された場合、プールがアップグレードされている間、SBA はフロントエンドプールとの関連付けを解除する必要があります。プールが Skype for Business Server 2019 に移行されると、SBA はアップグレードされたフロント E に再関連付けることができます。nd プール。 これには、トポロジビルダーで従来のトポロジから SBA を削除してから、SBA を Skype for Business Server 2019 トポロジに追加する作業が含まれます。 以前の SBA をホームにしているユーザーは、トポロジから SBA を削除する前に、別のフロントエンドプールに移動する必要があります。 SBA が Skype for Business Server 2019 トポロジに追加されると、それらのユーザーを SBA に戻すことができます。 以下に、これらの手順の概要を示します。
-ms.openlocfilehash: 7cb933018d24dafb978464338f01f97b25e15539
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5545a2de4eddd65790f425ab888b8fd07faf970
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275546"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239285"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>存続可能ブランチ アプライアンスの接続
 

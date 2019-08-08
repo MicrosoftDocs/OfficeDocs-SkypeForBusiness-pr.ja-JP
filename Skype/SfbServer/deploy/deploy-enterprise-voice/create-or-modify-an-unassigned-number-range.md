@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Skype for Business Server Enterprise Voice のアナウンスメントアプリケーションで、割り当てられていない番号範囲を作成、変更、または削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
-ms.openlocfilehash: 5b9afa463d6eaff2f6ba3ed283d11556bd95bc03
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f3d646e2d838312ee90453c66d1e7bf239cf1537
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286184"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233226"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Skype for Business Server で割り当てられていない番号範囲を作成または変更する
  
@@ -62,7 +62,7 @@ Skype for Business Server を使用すると、組織で有効であるが、ユ
     
    - 範囲の開始番号または終了番号に内線番号が含まれる場合は、両方の番号が内線番号を含む必要があり、その内線番号は両方の番号で一致する必要があります。
     
-   - 数値は、正規表現 (tel: ? (\+) ? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ? に一致する必要があります。 これは、数値が文字列 "tel" で始まる可能性があることを意味します (文字列を指定しない場合は自動的に追加されます)、プラス記号 (+)、1 ~ 9 桁の数字です。 電話番号は最大17桁で、その後に形式の内線番号、内線番号、内線番号が続く場合があります。
+   - 数値は正規表現 (tel:) に一致する必要があります。 (\+)?[1-9] \d{0,17}(; ext = [1-9] \d{0,9})? これは、数値が文字列 "tel" で始まる可能性があることを意味します (文字列を指定しない場合は自動的に追加されます)、プラス記号 (+)、1 ~ 9 桁の数字です。 電話番号は最大17桁で、その後に形式の内線番号、内線番号、内線番号が続く場合があります。
     
 6. [**アナウンス サービス**] で、次のいずれかの手順を実行します。 
     

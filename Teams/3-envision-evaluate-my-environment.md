@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 06/11/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: ペルソナとネットワーク分析を使用して、組織の準備を評価し、適切な TCP および UDP ポートを開いて、ネットワークの修復を実行します。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8aed7b648a3cd742fa7cf160d34aefced97ae31c
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: a1500c9e10d3e8d951c465ce278595c5b17f7cc7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198366"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232317"
 ---
 # <a name="evaluate-my-environment"></a>環境を評価する
 

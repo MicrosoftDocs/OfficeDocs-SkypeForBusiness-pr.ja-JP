@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Skype for Business および Microsoft Teams の共存オプションと、Skype for Business と Teams の相互運用性について詳しく説明します。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e29e6f62167527dced8121abdd213b891de2349b
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 5ba7ae0613bbab87f09a6c290d191d711d583c24
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934631"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237530"
 ---
 ![プロジェクト定義ステージを強調したアップグレードの図](media/upgrade-banner-project-definition.png "プロジェクト定義ステージに重点を置いたアップグレードの段階")
 

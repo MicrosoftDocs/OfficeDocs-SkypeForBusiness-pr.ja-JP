@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 description: このチェックリストを使用すると、Microsoft Teams の設定が容易になります。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09a6ec1f60ca4bfc39dbeb5ba1829330c3413560
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 8418c9386c635d1fc1662ee6df80dfae21908bd0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925359"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244117"
 ---
 <a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -81,7 +82,7 @@ Microsoft Teams のゲストアクセスでは、Azure Active Directory (Azure A
    
    - **招待できる**ゲスト: ゲストが他のゲストを招待できるようにするには、このポリシーを **[はい]** に設定します。
    - **ゲストのメールの1回限りのパスコードを有効にする (プレビュー)**: 1 回限りのパスコード機能の詳細については、「[ワンタイムパスコードの認証 (プレビュー)](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)」を参照してください。
-   - **共同作業の制限**: 特定のドメインへの招待の許可または禁止の詳細については、「[特定の組織からの B2B ユーザーへの招待を許可またはブロック](allow-deny-list.md)する」を参照してください。
+   - **共同作業の制限**: 特定のドメインへの招待の許可または禁止の詳細については、「[特定の組織からの B2B ユーザーへの招待を許可またはブロック](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)する」を参照してください。
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ 手順 2: Office 365 グループを構成する
 

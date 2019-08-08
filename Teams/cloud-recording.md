@@ -5,71 +5,72 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
-description: 展開するための実用的なガイドでは、マイクロソフトのチームでの音声機能をクラウドです。
+description: Microsoft Teams でクラウド音声機能を展開するための実用的なガイダンス。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb2d8ed9895044dd1cdb52e57663162def6e24b
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33995048"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237032"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
 
-マイクロソフトのチームで、ユーザーは、チームの会議やオーディオ、ビデオ、およびアクティビティを共有する画面のキャプチャ グループの呼び出しを記録できます。 自動的に文字起こしする記録のオプションもあるため、ユーザーはミーティングの記録を字幕付きで再生して、会議内容の重要な議題を検索できます。 録音では、クラウドでの動作し、ユーザーを共有できるように、安全に組織全体に、[マイクロソフトのストリーム](https://docs.microsoft.com/stream/)に保存されます。
+Microsoft Teams では、ユーザーはチーム会議やグループ通話を記録して、音声、ビデオ、画面共有のアクティビティをキャプチャすることができます。 自動的に文字起こしする記録のオプションもあるため、ユーザーはミーティングの記録を字幕付きで再生して、会議内容の重要な議題を検索できます。 記録はクラウドで行われ、 [Microsoft Stream](https://docs.microsoft.com/stream/)に保存されるため、ユーザーは組織全体で安全に共有することができます。
 
-関連:[エンド ・ ユーザーのドキュメントを記録、チーム会議](https://aka.ms/recordmeeting)
+関連: [Teams 会議でのエンドユーザー向けドキュメントの記録](https://aka.ms/recordmeeting)
 
-## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>チーム クラウドのミーティングのレコーディングのための前提条件
+## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams クラウド会議レコーディングの前提条件
 
-チーム ユーザーのミーティングを記録するのには、テナントのマイクロソフトのストリームを有効にする必要があります。 さらに、次の前提条件は、そのような会議の開催者と録音を開始したユーザーの両方に必要です。
+チームユーザーの会議を記録するには、テナントに対して Microsoft Stream を有効にする必要があります。 さらに、会議の開催者とレコーディングを開始するユーザーの両方に対して、次の前提条件が必要になります。
 
-- ユーザーは、Office 365 の E1、E3、E5、A1、A3、A5、M365 のビジネス、ビジネス プレミアム、ビジネスの基礎を持っています。
-- ユーザーが Microsoft のストリームのライセンスを取得する必要があります。
-- ユーザーには Microsoft のストリーム ビデオのアクセス許可をアップロード
-- ユーザーに同意した、会社のガイドラインでは場合、によって管理者の設定
-- ユーザーはレコーディングを保存する Microsoft のストリームに十分な記憶域を持つ
-- ユーザーは、TeamsMeetingPolicy AllowCloudRecording を true に設定されている設定を持っています。
-- ユーザーは匿名、ゲスト、または会議でのフェデレーションのユーザーではありません。
+- ユーザーには、Office 365 E1、E3、E5、A1、A3、A5、M365 Business、Business Premium または Business Essentials が含まれています。
+- ユーザーは Microsoft Stream のライセンスが必要です
+- ユーザーは Microsoft Stream アップロードのビデオアクセス許可を持っています
+- ユーザーは管理者によって設定されている場合、会社のガイドラインに各人しました。
+- レコーディングを保存するために Microsoft Stream に十分なストレージがあるユーザー
+- ユーザーには TeamsMeetingPolicy/AllowCloudRecording 設定が true に設定されています
+- ユーザーは、会議の匿名、ゲスト、またはフェデレーションユーザーではありません
 
 > [!NOTE]
-> さらに、議事録に自動的に記録を作成するかどうか、録音を開始する人を許可するには、TeamsMeetingPolicy AllowTranscription の設定をユーザーの設定する必要がある true に設定する
+> さらに、レコーディングを開始するユーザーがレコーディングを自動的に議事録に追加するかどうかを選択できるようにするには、ユーザーの TeamsMeetingPolicy/AllowTranscription 設定を true に設定する必要があります。
 
-## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>チーム、組織内のユーザーのクラウド ミーティングのレコーディングの設定します。
+## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>組織内のユーザーに対して Teams クラウド会議のレコーディングを設定する
 
-このセクションでは、方法を設定し、チームのミーティングを記録するための計画について説明します。
+このセクションでは、Teams 会議の記録を設定および計画する方法について説明します。
 
-### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>組織内のユーザーに対して Microsoft ストリームを有効にします。
+### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>組織内のユーザーに対して Microsoft Stream を有効にする
 
-Microsoft ストリームは、対象の Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして利用できます。  [ストリームのライセンスの概要](https://docs.microsoft.com/stream/license-overview)の詳細についてを参照してください。  365 ビジネスのマイクロソフト、Office 365 のビジネス プレミアム、および Office 365 の業務に関する重要事項では、Microsoft ストリームが追加されました。
+Microsoft Stream は、有効な Office 365 サブスクリプションの一部として、またはスタンドアロンサービスとして利用できます。  詳細については、「[ストリームライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。  Microsoft Stream は、Microsoft 365 Business、Office 365 Business Premium、および Office 365 Business Essentials に含まれるようになりました。
 
-方法[Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)ユーザーが Microsoft のストリームにアクセスできるようにする方法の詳細について説明します。 [この資料](https://docs.microsoft.com/stream/disable-user-organization)で定義されているユーザー、Microsoft のストリームがブロックされていないことを確認します。
+ユーザーが Microsoft Stream にアクセスできるように[Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法について説明します。 [この記事](https://docs.microsoft.com/stream/disable-user-organization)で定義されているように、ユーザーに対して Microsoft Stream がブロックされていないことを確認します。
 
-### <a name="ensure-that-users-have-upload-video-permissions-in-microsoft-stream"></a>Microsoft ストリーム内のビデオのアクセス許可をユーザーがアップロードがいることを確認します。
+### <a name="ensure-that-users-have-upload-video-permissions-in-microsoft-stream"></a>ユーザーが Microsoft Stream のビデオのアクセス許可をアップロードできることを確認する
 
-既定で、ストリームで指定されたコンテンツを作成して、ストリームが有効になっているし、ライセンスがユーザーに割り当てられている会社内のすべてのユーザーできます。 Microsoft ストリームには、管理者は、ストリーム内の[コンテンツを作成するための従業員を制限する](https://docs.microsoft.com/stream/restrict-uploaders)ことができます。 この制限の一覧にあるユーザーはミーティングを記録することができません。
+既定では、Stream を有効にしてライセンスがユーザーに割り当てられると、社内のすべてのユーザーが Stream でコンテンツを作成することができます。 Microsoft Stream 管理者は、Stream で[のコンテンツ作成を制限](https://docs.microsoft.com/stream/restrict-uploaders)できます。 この制限付きリストに登録されているユーザーは、会議を記録できません。
 
-### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>Microsoft ストリーム内の会社のガイドラインに同意するものを従業員に通知します。
+### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>Microsoft Stream の会社ガイドラインに同意するよう従業員に通知する
 
-Microsoft ストリームの管理者は、[会社の規定のポリシーを設定する](https://docs.microsoft.com/stream/company-policy-and-consent)には、従業員にコンテンツを保存する前にこのポリシーをそのまま使用する必要がありますユーザーする必要がありますようにマイクロソフトのチームでのレコーディングの前にします。 組織の記録機能をロールアウトする前にユーザーが、ポリシーに同意したことを確認します。
+Microsoft Stream 管理者が[会社ガイドラインポリシーを設定](https://docs.microsoft.com/stream/company-policy-and-consent)しており、コンテンツを保存する前に従業員がこのポリシーを承認する必要がある場合、ユーザーは microsoft Teams でレコーディングを行う必要があります。 組織でレコーディング機能を展開する前に、ユーザーがポリシーに各人していることを確認します。
 
-### <a name="turn-on-or-turn-off-cloud-recording"></a>クラウド有効または無効の記録
+### <a name="turn-on-or-turn-off-cloud-recording"></a>クラウドの記録を有効または無効にする
 
-ユーザーの会議はできるかを記録するかどうかにコントロールするチーム PowerShell の TeamsMeetingPolicy で AllowCloudRecording の設定を使用します。 Office 365 の PowerShell での TeamsMeetingPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+Teams PowerShell の TeamsMeetingPolicy で AllowCloudRecording を使用して、ユーザーの会議を記録することを許可するかどうかを制御します。 TeamsMeetingPolicy を Office 365 PowerShell で管理する方法については、[こちら](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)を参照してください。
 
-会議の開催者と録音の開始側の両方がミーティングを記録するのには書き込み権限を持っている必要があることに注意してください。 カスタム ポリシーは、ユーザーに割り当てている、しない限り、ユーザーはグローバル ポリシーは既定で無効になっている AllowTranscription を取得します。
+会議の開催者とレコーディングの開始者の両方が、会議を記録するための書き込みアクセス許可を持っている必要があることに注意してください。 ユーザーにカスタムポリシーを割り当てていない場合、ユーザーはグローバルポリシーを取得します。これには、既定で AllowTranscription が無効になっています。
 
-グローバル ポリシーにユーザーが、ユーザーの特定のポリシーの割り当てを削除するのには次のコマンドレットを使用します。
+ユーザーがグローバルポリシーに戻すには、次のコマンドレットを使用して、ユーザーの特定のポリシー割り当てを削除します。
 
 `Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
 
-グローバル ポリシーで AllowCloudRecording の値を変更するには、次のコマンドレットを使用します。
+グローバルポリシーで AllowCloudRecording の値を変更するには、次のコマンドレットを使用します。
 
 `Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false`
 </br>
@@ -78,25 +79,25 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 
 |                                                                 シナリオ                                                                 |                                                                                                                                                                         手順                                                                                                                                                                          |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                    すべてのユーザーがミーティングを記録することができる会社にします                                    |                                                                     <ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = True<li>すべてのユーザーがあるグローバルの CsTeamsMeetingPolicy または AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの指定 </ol>                                                                     |
-| 大多数のユーザーがミーティングを記録するが、選択的に記録するのには許可されていない特定のユーザーを無効にすることにします |        <ol><li>確認する GlobalCsTeamsMeetingPolicy AllowCloudRecording = True<li>大半のユーザーがあるグローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowCloudRecording を持つ = True<li>AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが付与されて false</ol>         |
-|                                                   100% 無効にするを記録したいです。                                                   |                                                                <ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = False<li>ユーザーをすべて与えられているグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy のポリシーの 1 つで AllowCloudRecording = False                                                                 |
-|      大半のユーザーを無効にするが、選択的に記録するために許可されている特定のユーザーを有効にするを記録したいです。       | <ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = False<li>大半のユーザーが与えられて、グローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowCloudRecording を指定<li>AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが与えられて = True <ol> |
+|                                    社内のすべてのユーザーが会議を記録できるようにする                                    |                                                                     <ol><li>グローバル CsTeamsMeetingPolicy に AllowCloudRecording = True が含まれていることを確認する<li>すべてのユーザーは、AllowCloudRecording = True を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかを使用しています </ol>                                                                     |
+| ユーザーの大半が会議を記録できるようにしたいが、記録を許可されていない特定のユーザーを選択する |        <ol><li>GlobalCsTeamsMeetingPolicy に AllowCloudRecording = True が含まれていることを確認する<li>大部分のユーザーは、AllowCloudRecording = True を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかを使用しています<li>他のすべてのユーザーに AllowCloudRecording = False の CsTeamsMeetingPolicy ポリシーのいずれかが付与されている</ol>         |
+|                                                   レコーディングを 100% 無効にする                                                   |                                                                <ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowCloudRecording = False<li>すべてのユーザーに、AllowCloudRecording = False を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが許可されている                                                                 |
+|      大部分のユーザーに対してレコーディングを無効にして、記録を許可する特定のユーザーを選択する       | <ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowCloudRecording = False<li>大部分のユーザーには、AllowCloudRecording = False を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが付与されています<li>他のすべてのユーザーに AllowCloudRecording = True の CsTeamsMeetingPolicy ポリシーのいずれかが付与されている <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
-### <a name="turn-on-or-turn-off-recording-transcription"></a>有効にするまたは議事録の記録をオフにします。
+### <a name="turn-on-or-turn-off-recording-transcription"></a>レコーディングの議事録を有効または無効にする
 
-ユーザーは、チーム ミーティングを記録、議事録がミーティングを記録した後自動的に生成するかどうかを確認できます。 管理者には、会議の開催者と録音の開始側の議事録作成機能が無効になりますが、録音の開始側は、ミーティングのレコーディングの議事録を作成するを取得できません。
+ユーザーはチーム会議を記録したときに、会議が記録された後にトランスクリプトが自動生成されるかどうかを確認できます。 管理者が会議の開催者とレコーディングイニシエーターの議事録機能を無効にしている場合、レコーディングの開始者は、会議のレコーディングの議事録を設定することはできません。
 
-録音の開始側がミーティングのレコーディングの議事録を作成する選択を取得するかどうかにコントロールする PowerShell のチームの TeamsMeetingPolicy で AllowTranscription の設定を使用します。 Office 365 の PowerShell での TeamsMeetingPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+Teams PowerShell の TeamsMeetingPolicy で AllowTranscription を使って、レコーディングの開始者が会議のレコーディングの議事録を行うかどうかを制御します。 TeamsMeetingPolicy を Office 365 PowerShell で管理する方法については、[こちら](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)を参照してください。
 
-カスタム ポリシーは、ユーザーに割り当てている、しない限り、グローバル ポリシーは既定で無効になっている AllowTranscription を取得します。
+カスタムポリシーがユーザーに割り当てられていない場合は、グローバルポリシーを取得します。これには、既定で AllowTranscription が無効になっています。
 
-グローバル ポリシーにユーザーが、ユーザーの特定のポリシーの割り当てを削除するのには次のコマンドレットを使用します。
+ユーザーがグローバルポリシーに戻すには、次のコマンドレットを使用して、ユーザーの特定のポリシー割り当てを削除します。
 
 `Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
 
-グローバル ポリシーで AllowCloudRecording の値を変更するには、次のコマンドレットを使用します。
+グローバルポリシーで AllowCloudRecording の値を変更するには、次のコマンドレットを使用します。
 
 `Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false`
 </br>
@@ -104,25 +105,25 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 
 |シナリオ|手順 |
 |---|---|
-|すべてのユーザーがミーティングのレコーディングを開始するときに議事録を作成できる会社にします |<ol><li>確認するグローバル CsTeamsMeetingPolicy AllowTranscription = True <li>すべてのユーザーがグローバルの csTeamsMeetingPolicy にある 1 つまたは AllowTranscription と CsTeamsMeetingPolicy のポリシーを指定します。 </ol>|
-|大多数のユーザーにミーティングのレコーディングの議事録を作成、議事録を作成するのには許可されていない特定のユーザーを選択して無効にすることが必要 |<ol><li>確認するグローバル CsTeamsMeetingPolicy AllowTranscription = True <li>大半のユーザーがあるグローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowTranscription を持つ = True <li>AllowTranscription と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが付与されて false </ol>|
-|100% 無効にする録音の議事録を作成したいです。 |<ol><li>確認するグローバル CsTeamsMeetingPolicy AllowTranscription = False <li>ユーザーをすべて与えられているグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy のポリシーの 1 つで AllowTranscription = False </ol>|
-|大半のユーザーを無効にするが、議事録の作成を許可されている特定のユーザーを選択して有効にするには、議事録作成をします |<ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = False <li>大半のユーザーが与えられて、グローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowCloudRecording を指定 <li>AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが与えられて = True </ol>|
+|社内のすべてのユーザーが、会議の記録を開始するときに議事録を表示できるようにする |<ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowTranscription = True <li>すべてのユーザーには、csTeamsMeetingPolicy という CsTeamsMeetingPolicy ポリシーが含まれています。 </ol>|
+|ユーザーの大半が会議の記録の議事録を行うことができるようにしたいが、議事録を許可されていない特定のユーザーを選択する |<ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowTranscription = True <li>大部分のユーザーは、CsTeamsMeetingPolicy というグローバルな CsTeamsMeetingPolicy ポリシーを持っています。 <li>他のすべてのユーザーに AllowTranscription = False の CsTeamsMeetingPolicy ポリシーのいずれかが付与されています。 </ol>|
+|レコーディングの議事録を 100% 無効にする |<ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowTranscription = False <li>すべてのユーザーに AllowTranscription = False を使用してグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが付与されている </ol>|
+|ほとんどのユーザーに対して、議事録を無効にしたいが、議事録を許可された特定のユーザーを選択できるようにする |<ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowCloudRecording = False <li>大部分のユーザーには、AllowCloudRecording = False を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが付与されています <li>他のすべてのユーザーに AllowCloudRecording = True の CsTeamsMeetingPolicy ポリシーのいずれかが付与されている </ol>|
 |||
 
-### <a name="planning-for-storage"></a>ストレージのプランニング
+### <a name="planning-for-storage"></a>記憶域の計画
 
-1 時間の記録のサイズは、400 MB です。 録画したファイルに必要な能力を理解し、Microsoft のストリームで利用可能な十分なストレージがあることを確認してください。  読み取りサブスクリプションおよびその他の記憶域を購入する方法に含まれている記憶域の基本を理解するのには[ここ](https://docs.microsoft.com/stream/license-overview)です。
+1時間の記録のサイズは 400 MB です。 記録されたファイルに必要な容量を理解していること、および Microsoft Stream で利用できる十分なストレージがあることを確認してください。  [この記事](https://docs.microsoft.com/stream/license-overview)では、サブスクリプションに含まれている基本記憶域と追加記憶域の購入方法について説明します。
 
-## <a name="manage-meeting-recordings"></a>ミーティングのレコーディングを管理します。
-ミーティングのレコーディングは、テナントが所有するコンテンツと見なされます。 記録の所有者が会社を辞める場合、管理者開くことができます記録ビデオの URL Microsoft ストリームで管理者モードで。 管理者、録音を削除、記録、メタデータを更新したり、ビデオの録画用のアクセス許可を変更できます。 [ストリーム内の管理機能](https://docs.microsoft.com/stream/manage-content-permissions)について説明します。
+## <a name="manage-meeting-recordings"></a>会議のレコーディングを管理する
+会議のレコーディングは、テナントが所有しているコンテンツと見なされます。 レコーディングの所有者が退職した場合、管理者は、Microsoft Stream in 管理モードでレコーディングビデオの URL を開くことができます。 管理者は、レコーディングを削除したり、レコーディングメタデータを更新したり、レコーディングビデオのアクセス許可を変更したりできます。 [ストリームの管理機能の](https://docs.microsoft.com/stream/manage-content-permissions)詳細については、こちらを参照してください。
 
-## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>コンプライアンスと eDiscovery のミーティングのレコーディング
-ミーティングのレコーディングは、Office 365 層 C 準拠では、Microsoft のストリームに格納されます。 Microsoft ストリームの会議またはコールのレコーディングに興味があるコンプライアンス管理者の電子的証拠開示の要求をサポートするために録画完了したメッセージは、マイクロソフト チームのコンプライアンスのコンテンツの検索機能で利用可能なです。 コンプライアンス管理者ことができますコンプライアンス ・ コンテンツの検索・ プレビュー内のアイテムの件名に「記録」のキーワードを検索し、会議を見つけて組織でのレコーディングを呼び出します。 すべてのレコーディングを表示するための前提条件では、管理者のアクセス権を持つ Microsoft ストリームに設定する必要があります。 [ストリーム内の管理者のアクセス許可の割り当て](https://docs.microsoft.com/stream/assign-administrator-user-role)の詳細を表示します。
+## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会議のレコーディングのコンプライアンスと電子情報開示
+会議のレコーディングは、Office 365 Tier C に準拠している Microsoft Stream に保存されます。 Microsoft のストリームの会議または通話の記録に関心を持っているコンプライアンス管理者に対する e 検出要求をサポートするため、[レコーディング完了] メッセージは Microsoft Teams のコンプライアンスコンテンツ検索機能で利用できます。 コンプライアンス管理者は、コンプライアンスコンテンツ検索プレビューのアイテムの件名行に "レコーディング" というキーワードを検索して、組織内の会議と通話の記録を検出できます。 すべてのレコーディングを表示するには、Microsoft Stream で管理者アクセス権を設定する必要があることが前提となります。 詳しく[は、「Stream での管理権限の割り当て」を](https://docs.microsoft.com/stream/assign-administrator-user-role)ご覧ください。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShell は、ユーザーを管理するユーザーを許可または許可されません。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなど、Microsoft 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を向上させるための多くの利点があります。たとえば、複数のユーザーに対して同時に設定を変更する場合です。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
 - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Windows PowerShell 用にコンピューターをセットアップする](https://go.microsoft.com/fwlink/?LinkId=525038)

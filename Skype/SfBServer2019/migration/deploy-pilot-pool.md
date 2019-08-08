@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype for Business Server 2019 への移行に必要な最初の手順の1つは、パイロットプールを展開することです。 パイロットプールでは、Skype for Business Server 2019 と従来の展開を共存させることができます。 [共存] は、すべてのユーザーとプールを Skype for Business Server 2019 に移動するまで継続して使用できます。
-ms.openlocfilehash: 3642d603b5923a554b8eca41a948125ef25526ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dc0e5b984aaa9ed931f3937b253fbe40aef9b051
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280865"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238382"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Skype for Business Server 2019 パイロットプールの展開
 
