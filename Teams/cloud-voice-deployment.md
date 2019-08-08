@@ -6,31 +6,32 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: Rowille
-description: 展開するための実用的なガイドでは、マイクロソフトのチームでの音声機能をクラウドです。
+description: Microsoft Teams でクラウド音声機能を展開するための実用的なガイダンス。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cce1d8c6abfe3c71e9ac923899b9b8f18626cbf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 476d65ee927fedf285cf66377c58c9f09698b046
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925427"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236767"
 ---
 # <a name="cloud-voice-deployment"></a>Cloud Voice の展開
 
-マイクロソフト チーム、チームワークと、Office 365 での通信用のハブでは、オーディオ会議、計画を呼び出すには、電話システムを提供し、電話システムは、チーム会議を拡張することによって新たなビジネス要件に対応するルーティング機能を直接、呼び出し元に公衆交換電話網 (PSTN) を介して接続されている外部の関係者を含めることがあります。
+Microsoft Teams、Office 365 でのチームワークとコミュニケーションのハブでは、電話会議、通話プランを使った電話システム、およびチーム会議を拡張してビジネス要件を満たすための電話システムのダイレクトルーティング機能を利用できるようになりました。公衆交換電話網 (PSTN) 経由で接続されている外部関係者を対象とした通話エクスペリエンス。
 
 
 > [!Tip] 
-> 電話システムの概要については、次のセッションを監視する:[マイクロソフトのチームでの電話システムの概要](https://aka.ms/teams-phone-system)
+> 電話システムの概要については、次のセッションをご覧ください。 [Microsoft Teams での電話システムの概要](https://aka.ms/teams-phone-system)
  
-このページのチームの他のクラウドの音声機能がリリースされると時間の経過と共に更新します。
+このページは、Teams 用のクラウド音声の追加機能が時間の経過と共にリリースされるように更新されます。
 
 
 
@@ -39,35 +40,35 @@ ms.locfileid: "33925427"
 
 Office 365 の電話会議では、参加者はどの電話端末からでも Teams 会議に参加できます。
 
-ここでは、Office 365 では、[オーディオ会議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365)を表示します。
+Office 365 の[電話会議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365)で利用できる機能は次のとおりです。
 
 
-## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>通話の電話システムは、マイクロソフトのチームで (「通話プラン」) を計画
+## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>Microsoft Teams の通話プラン ("通話プラン") を搭載した電話システム
 
-電話システムは、通話のルーティング、ポリシー、およびユーザー プロビジョニングを管理する機能を提供する Office 365 の機能です。 これには、管理システム、通話のルーティング、およびコントロールの呼び出しを呼び出す電話が含まれます。
+電話システムは、通話ルーティング、ポリシー、ユーザープロビジョニングを管理する機能を提供する Office 365 の機能です。 これには、電話の通話管理システム、通話ルーティング、通話制御が含まれます。
 
-通話プランは、オンライン ビジネスのチームと Skype 経由で配信、電話システムの機能のアドオン サービスです。 通話プランには、マイクロソフトのチームで作業するのにはビジネス オンラインの Skype で該当するユーザーが所属することが必要です。 通話プランを提供、お客様のビジネスの基本の電話番号と、行い、PSTN 上で、組織外の電話を受信することができます。
+通話プランは、電話システム機能のアドオンサービスであり、Teams と Skype for Business Online を通じて提供されます。 通話プランを使用するには、Skype for Business Online のユーザーが Microsoft Teams で作業する必要があります。 通話プランを使用すると、ビジネスの相手に主要な電話番号が提供され、組織外で PSTN 経由で電話をかけたり受けたりすることができます。
 
-詳細については、「 [Office 365 の電話システムで何が得られます](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)し、、[電話システムおよび計画呼び出し](calling-plan-landing-page.md)の使用」を参照してください。
+詳細については、「 [Office 365 の電話システムで利用できる機能](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)」および「[電話システムと通話プラン](calling-plan-landing-page.md)」を参照してください。
 
 
-## <a name="phone-system-direct-routing-direct-routing"></a>システムの電話、直接ルーティング (「ダイレクト ルーティング」)
+## <a name="phone-system-direct-routing-direct-routing"></a>電話システム直結ルーティング (「ダイレクトルーティング」)
 
-機能を組織内のユーザーに付与するのには電話システムの機能の直接のルーティング動作を行いサード パーティのサービス プロバイダーを使用して PSTN 接続を提供する場所、PSTN 上で、組織外の電話を受信します。
+直接ルーティングは、電話システムの機能と連携することで、組織内のユーザーに PSTN 経由での電話の発信と受信を許可します。 pstn 接続は、サードパーティのサービスプロバイダーによって提供されます。
 
-詳細については、[直接ルーティングを計画](direct-routing-plan.md)し、[直接ルーティングの構成](direct-routing-configure.md)を参照してください。
+詳細については、「[プランダイレクトルーティング](direct-routing-plan.md)と[ダイレクトルーティングの構成](direct-routing-configure.md)」を参照してください。
 
-## <a name="practical-guidance-for-audio-conferencing-calling-plans-and-direct-routing-in-microsoft-teams"></a>オーディオ会議、計画を呼び出すこと、およびマイクロソフトのチームに直接ルーティングに関する実用的なガイダンス
+## <a name="practical-guidance-for-audio-conferencing-calling-plans-and-direct-routing-in-microsoft-teams"></a>Microsoft Teams での電話会議、通話プラン、直接ルーティングに関する実用的なガイダンス
 
-Office 365 fasttrack というお客様の旅のフレームワークを使用してこの実用的なガイドの構成し、フェーズ 3 つ&mdash;ビジョン化トラック、オンボードとドライブの値です。 計画、配布、およびオーディオ会議、計画を呼び出すこと、または直接ルーティングの実装を成功させるに動作を支援するためのものが。
+この実用的なガイダンスは、Office 365 FastTrack 顧客の旅フレームワークと、3つ&mdash;のフェーズのビジョン、オンボード、およびドライブ値を使って開催されています。 これは、電話会議、通話プラン、またはダイレクトルーティングの実装の計画、納品、操作を支援することを目的としています。
 
 > [!div class="mx-tableFixed"]
 > |構想  |参加  |価値の創出  |
 > |---------|---------|---------|
-> |[成功を定義する](1-envision-define-my-success-cloud-voice.md) <br> 意思決定、サービス <br>&nbsp;&nbsp;[オーディオ会議](2-envision-make-my-service-decisions-audio-conferencing.md)、<br>&nbsp;&nbsp;[計画を呼び出す](2-envision-make-my-service-decisions-phone-system.md)か、または[直接ルーティング](2-envision-make-my-service-decisions-direct-routing.md) <br> [環境を評価する](3-envision-evaluate-my-environment.md) <br> [サービス管理を計画する](4-envision-plan-my-service-management.md) <br> [自分のユーザー エクスペリエンスを計画します。](5-envision-plan-my-users-experience.md) <br> [成功計画を文書化する](6-envision-document-my-success-plan.md)    | [サービスを準備する](1-onboard-prepare-my-service.md) <br> [ユーザーを準備する](2-onboard-prepare-my-users.md) <br> [サービスを展開する](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [サービスを運用する](1-drive-value-operate-my-service.md) <br> [サービスを強化する](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
+> |[成功を定義する](1-envision-define-my-success-cloud-voice.md) <br> サービスの決定を行う <br>&nbsp;&nbsp;[電話会議](2-envision-make-my-service-decisions-audio-conferencing.md)<br>&nbsp;&nbsp;[通話プラン](2-envision-make-my-service-decisions-phone-system.md)または[ダイレクトルーティング](2-envision-make-my-service-decisions-direct-routing.md) <br> [環境を評価する](3-envision-evaluate-my-environment.md) <br> [サービス管理を計画する](4-envision-plan-my-service-management.md) <br> [ユーザーエクスペリエンスを計画する](5-envision-plan-my-users-experience.md) <br> [成功計画を文書化する](6-envision-document-my-success-plan.md)    | [サービスを準備する](1-onboard-prepare-my-service.md) <br> [ユーザーを準備する](2-onboard-prepare-my-users.md) <br> [サービスを展開する](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [サービスを運用する](1-drive-value-operate-my-service.md) <br> [サービスを強化する](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
 
-内容は、順序付けられた方法で表示され、開始から終了まで、エンド ・ ツー ・ エンド展開の旅を見てするよう設計されています。 既に積極的に導入している場合もお勧め適切なコンテンツ領域を参照することです。
+コンテンツは順序に従って提示されます。また、開始から終了までの間に、エンドツーエンドの展開が利用できるように設計されています。 既に展開している場合は、適用可能なコンテンツ領域を参照することをお勧めします。
 
 
 > [!TIP]
-> この実用的なガイドでは、各アクティビティおよびキーの説明を出力する例を提供しています。 このドキュメントで説明する例がヒントの吹き出しの中に囲まれているし、再利用できるテンプレートとして機能します。 については、計画プロセスの一部として完了する必要がある (追加) するには、"TBA"が表示されます。
+> この実際的なガイダンスでは、各アクティビティとキーディスカッションの出力例を提供します。 このドキュメント全体の例は、ヒントの吹き出し内に含まれており、テンプレートとして提供されているため、再利用することができます。 計画プロセスの一部として実行する必要がある情報については、"TBA" (追加) が表示されます。

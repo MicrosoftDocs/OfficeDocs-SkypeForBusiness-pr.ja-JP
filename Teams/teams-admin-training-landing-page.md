@@ -4,6 +4,7 @@ ms.reviewer: ''
 description: 組織で Microsoft Teams を管理するために必要なトレーニングを受ける
 author: lanachin
 manager: serdars
+audience: admin
 ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: ''
@@ -15,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 40c17d17408f0359ba54204d363234d0b5d91e49
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 673202003bd1a6203b4e4d7ad9059a6fe15ce6ff
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417839"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242492"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 

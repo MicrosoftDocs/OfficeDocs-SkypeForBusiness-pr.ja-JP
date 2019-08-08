@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: Skype for Business Server Enterprise Voice でのアナウンスメントアプリケーションの展開を確認します。 これは、割り当てられていない番号への通話の処理方法に影響します。
-ms.openlocfilehash: 108286edc122368bba79587b07f42cc9daf08053
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4b1377d5cfa32e0860f6932320966ea9c5f8fa27
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306341"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240417"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>省略Skype for Business でのアナウンスメントの展開を確認する
  

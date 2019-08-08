@@ -7,26 +7,27 @@ ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 description: Microsoft Teams のアイテム保持ポリシーについてよく寄せられる質問。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14e398908a13e621d739a5a923b52588551506f8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 955006d952454e31698156fa89e2a2047cff823b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205105"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243555"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft Teams 保持ポリシーに関するよくある質問
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>アイテム保持ポリシーでセットアップできるポリシーの種類とその機能について
 
-セキュリティ & コンプライアンスセンターでは、アイテム保持ポリシー (Teams またはその他のワークロード) を設定するときに、次の2つの主な種類のポリシーを設定できます。 
+セキュリティ & のコンプライアンスセンターでは、アイテム保持ポリシーを設定するときに、Teams またはその他のワークロードについて、次の2種類のポリシーを設定できます。 
 - 保持: これらのポリシーによって、エンドユーザーツールで行われる処理に関係なく、一定の期間、データは保持されます。 これにより、コンプライアンス上の理由でデータが保護され、この時間が経過するまで eDiscovery で利用できるようになります。 有効期限が切れると、何も行わないか、データを削除するかをポリシーで指定できます。 Teams では、保持ポリシーを7年にわたって作成した場合でも、エンドユーザーがそのチームのメッセージを削除した場合でも、これらのメッセージは7年の電子情報開示のために保持されたままになります。
 - 削除: これらのポリシーにより、データは組織の責任を負わないものとします。 指定した期間が経過すると、チーム内のすべての関連ストレージからデータが削除されます。 
 
@@ -56,9 +57,9 @@ Exchange Online のグループメールボックスとユーザーのメール�
 
 はい。 Skype for Business Online と Teams の相互運用機能のチャットは、同じように動作します。 Skype for Business Online のチャットが Teams に届くと、Teams チャットスレッド内のメッセージとなり、適切なメールボックスに毎回が表示されます。 同じフローが機能すると、チームの削除ポリシーによって、これらのメッセージが Teams のスレッドから削除されます。 ただし、Skype for Business Online と skype for Business Online クライアント側からメールボックスに保存されている会話履歴が有効になっている場合は、このチャットデータは Teams のアイテム保持ポリシーによって処理されません。
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>セキュリティ & コンプライアンスセンターのコマンドレットを使用して、これらを行うことはできますか? 何を使用したらよいですか? 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>セキュリティ & コンプライアンスセンターのコマンドレットを使用して行うことはできますか? 何を使用したらよいですか? 
 
-そうですよ。 [セキュリティ _AMP_ コンプライアンスセンターの Powershell コマンドレット]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)を使用して、チームのアイテム保持ポリシーを作成できます。 これらは Exchange Online のコマンドレットではないことに注意してください。 Teams 用に作成したコマンドレットを次に示します。 セキュリティ & コンプライアンスセンターで現在利用可能な保持コマンドレットには、既存の用語とスタイルが適用されます。
+そうですよ。 [セキュリティ & コンプライアンスセンターの Powershell コマンドレット]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)を使用して、チームのアイテム保持ポリシーを作成できます。 これらは Exchange Online のコマンドレットではないことに注意してください。 Teams 用に作成したコマンドレットを次に示します。 セキュリティ & コンプライアンスセンターで現在利用可能な保持コマンドレットには、既存の用語とスタイルが適用されます。
 
 |ポリシー|ルール|
 |---|---|

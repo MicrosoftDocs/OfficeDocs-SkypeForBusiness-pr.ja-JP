@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams Rooms の既知の問題を、機能の領域ごとに説明しています。
-ms.openlocfilehash: 91e90479efdf905705d217de75cdac744a773860
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fab004336d5a349bd0548479395ef0c25eb642c7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306519"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243434"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -37,7 +37,6 @@ ms.locfileid: "34306519"
 | 問題のタイトル |  動作 \/ 症状 | 既知の回避策 | サポート技術情報記事 |
 |  ---        |      ---             |   ---            | --- |
 |仮想キーボードが見つかりません   | Microsoft Teams Rooms に情報を入力する必要がある場合に、仮想キーボードが表示されません。 この問題は、Microsoft Teams Rooms を実行している Surface Pro 4 に Windows 10 Creators Update (バージョン 1703) をインストールした後に発生します。 | この問題を回避するには、仮想キーボードを手動で開きます。 これを行うには、次の手順を実行します。<br><br> **1.** タスク バーをタップして長押しし、[**タッチ キーボードを表示**] ボタンをタップします。 キーボードのアイコンは、タスク バーの右側に表示されます。 <br><br> **2.** 仮想キーボードを開くには、キーボード アイコンをタップします。 | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
-   
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>ハードウェア
@@ -45,21 +44,29 @@ ms.locfileid: "34306519"
 | 問題のタイトル |  動作 \/ 症状 | 既知の回避策 | サポート技術情報記事 |
 |  ---        |      ---             |   ---            |   --- |
 | モニターが検出されません | Surface Pro (2017 年版モデル) のデバイスで Microsoft Teams Rooms を実行すると、モニターは検出されません。 |  20 秒以上 Surface Pro の電源ボタンを長押しします。 長押しすると、デバイスが再起動し、グラフィックのキャッシュをクリアします。 |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
-          
+
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>制限事項と予想される動作
+
 ***
+
 Microsoft Teams Rooms は、HDMI インジェストの機能 (ビデオ、オーディオ) に関する問題を引き起こすことが確認されている、HDCP 入力をサポートしていません。 Microsoft Teams Rooms に接続されたスイッチの HDCP オプションがオフになっていることを必ず確認してください。 
+
 ***
-屋内ディスプレイの前面として使用される消費者向け TV では、スタンバイ モードからアクティブなビデオ ソースに自動的に切り替わるように、HDMI の CEC (Consumer Electronics Control) 機能をサポート/有効にする必要があります。 この機能はすべての TV でサポートされるものではありません。 
+
+Room ディスプレイの正面として使用される消費者のテレビは、スタンバイモードからアクティブなビデオソースに自動的に切り替えるために、HDMI のコンシューマーエレクトロニクス制御 (CEC) 機能をサポートしている必要があります。 この機能はすべての TV でサポートされるものではありません。
+
 ***
-常に有線の 1 Gbps ネットワーク接続を使用して、必要な帯域幅を確保してください。 
+
+常に有線の 1 Gbps ネットワーク接続を使用して、必要な帯域幅を確保します。 
+
 ***
-Microsoft Teams Rooms デバイスがドメインとの信頼関係を失った場合 (たとえば、Microsoft Teams Rooms をドメインに参加させた後にドメインから削除した場合)、デバイスを認証して設定を開くことはできません。 回避策では、ローカルの管理者アカウントでログインします。 
+
+Microsoft Teams の会議室デバイスがドメインと信頼できなくなった場合、デバイスに対して認証することはできません。また、設定を開くこともできません。 たとえば、ドメインが参加した後に、ドメインから Microsoft Teams のルームを削除した場合、信頼は失われます。 回避策では、ローカルの管理者アカウントでログインします。 
 ***
 Windows 10 Enterprise Anniversary エディション (英語版、バージョン 1607) の 64 ビット バージョンは Microsoft Teams Rooms リリース 3.0.12.0 ではサポートされなくなりました。 
 ***
-Microsoft Teams Room は、複数のウィンドウで表示されるアプリケーションであり、アプリが正常に動作するために、デバイスの HDMI ポートに接続するには、Room ディスプレイの前面が必要です。 HDMI ディスプレイが接続されているか、またはダミー HDMI プラグを使っているかどうかを確認してください。テストしていて、ディスプレイがまだ購入されていないことを確認します。
+Microsoft Teams のルームは、複数のウィンドウで表示されるアプリケーションであり、アプリが正常に動作するためには、デバイスの HDMI ポートに接続するために、room ディスプレイの前面が必要です。 テストしていて、ディスプレイをまだ購入していない場合は、HDMI ディスプレイが接続されているか、ダミー HDMI プラグを使用していることを確認してください。
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>関連項目

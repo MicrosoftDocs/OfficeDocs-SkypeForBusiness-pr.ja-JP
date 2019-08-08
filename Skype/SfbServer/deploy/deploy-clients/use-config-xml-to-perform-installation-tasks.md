@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '概要:  Config.xml ファイルを使用して追加のインストール手順を指定する方法について説明します。'
-ms.openlocfilehash: dc7491899562e665af7d6f63470cf2fc2b904730
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 31ee6c663822c2dab59a21fe5ca80c71cb81abf8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290276"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234824"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Skype for Business クライアントで Config.xml を使ってインストールタスクを実行する
 

@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype for Business Server の Skype Room Systems v1 (旧称 SRS v1、旧称 Lync Room System) 管理 Web ポータルは、組織が Skype Room Systems 会議室を管理するために使用できる web ポータルです。 管理者は、SRS v1 管理 Web ポータルを使用して、オーディオ/ビデオデバイスを監視するなどして、デバイスの正常性を監視することができます。 このポータルでは、管理者はリモートで診断情報を収集して、会議室の正常性を監視することができます。
-ms.openlocfilehash: 5ad4ffb08ecbc32feaa87aa2f7d48d82003e2e3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bf18cefbdaa5beeaef63d16b5447cce2969fc147
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307162"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234176"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Skype for Business Server で SRS v1 管理 Web ポータルを展開する
 
@@ -195,7 +195,7 @@ SRS v1 管理 Web ポータルのインストールを検証するには、次�
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>管理 Web ポータルに関する追加の注意事項
 
 > [!NOTE]
->  設定の変更は、SRS システムが再起動された後にのみ適用されます。 > LRSApp account のパスワードが有効期限切れになっている場合、会議室の状態を表示することはできません。 LRSAppuser account のパスワードが有効期限が切れないように構成するか、有効期限が近づいたときにパスワードを更新してください。 > SRS の管理 web ポータルは、オンプレミスの展開でのみサポートされます。
+>  設定の変更は、SRS システムが再起動された後にのみ適用されます。 LRSApp アカウントのパスワードの有効期限が切れた場合、会議室の状態を表示することはできません。 > LRSAppuser account のパスワードを無期限に設定するか、有効期限が近いときにパスワードを更新して > ください。 SRS 管理 web ポータルは、オンプレミスの展開でのみサポートされます。
 
 ### <a name="bulk-management"></a>一括管理 
 

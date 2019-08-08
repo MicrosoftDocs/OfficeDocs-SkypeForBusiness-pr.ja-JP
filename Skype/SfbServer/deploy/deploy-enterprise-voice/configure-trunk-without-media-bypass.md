@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: '概要: Skype for Business Server でメディアバイパスが有効になっていないトランクを構成します。'
-ms.openlocfilehash: 1e81f0d700d6dff90eb0bb0f6f61a8810f14bd97
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c60217b6dc127616dfbaf9590c43adec25c20eff
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289091"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233665"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Skype for Business Server でメディアをバイパスせずにトランクを構成する
 
@@ -46,7 +46,7 @@ ms.locfileid: "34289091"
    - [**プール トランク**]: [**サービスの選択**] で、このトランク構成が適用されるトランクの名前を選択して [**OK**] をクリックします。 このトランクは、ルートトランク、または Topology Builder で定義されたその他の trunks にすることができます。 特定のトランクに対してトランク構成が既に作成されている場合、[**サービスの選択**] にはトランクは表示されませんので注意してください。
 
      > [!NOTE]
-     > トランク構成のスコープは、選択後に変更することはできません。 > [**名前**] フィールドには、トランク構成に関連付けられたサイトまたはサービスの名前が事前に入力されているため、変更できません。
+     > トランク構成のスコープは、選択後に変更することはできません。 > **Name**フィールドには、トランク構成に関連付けられたサイトまたはサービスの名前が事前に入力されているため、変更できません。
 
 4. 次のいずれかの [**暗号化サポート レベル**] オプションを選択します。
 

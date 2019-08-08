@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: '概要: skype for business server コントロールパネルを使用して、Skype for Business Server でボイスルートを作成または変更する方法について説明します。'
-ms.openlocfilehash: f79e672b45f68e09391489da55023dceb3b0dd93
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5b8fcb5617d1f5abcbbda0826c3366ab4f73cd8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286212"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233344"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Skype for Business での音声ルートの作成または変更
  
@@ -58,7 +58,7 @@ ms.locfileid: "34286212"
 11. 1 つまたは複数の公衆交換電話網 (PSTN) 使用法を音声ルートに関連付けるには、[**選択**] をクリックして、エンタープライズ VoIP 展開用に定義されている PSTN 使用法レコードの一覧からレコードを選択します。
     
     > [!NOTE]
-    > 利用可能な各 PSTN 使用状況レコードのプロパティを表示するには、「 [Skype For business で pstn 使用状況レコードを表示](view-pstn-usage-records.md)する」を参照してください。 > PSTN 使用状況レコードの作成または編集については、「 [Skype For business で音声ポリシーを作成または変更する」および「pstn 使用状況レコードを構成](voice-policy-and-pstn-usage-records.md)する」を参照してください。
+    > 利用可能な各 PSTN 使用状況レコードのプロパティを表示するには、「 [Skype For business で pstn 使用状況レコードを表示](view-pstn-usage-records.md)する」を参照してください。 PSTN 使用状況レコードを作成または編集する > については、「 [Skype For business で音声ポリシーを作成または変更する」および「pstn 使用状況レコードを構成](voice-policy-and-pstn-usage-records.md)する」を参照してください。
   
 12. 最適なパフォーマンスを得るために、PSTN 使用法レコードを並べ替えます。 リスト内のレコードの位置を変更するには、レコード名を強調表示して上向き矢印または下向き矢印をクリックします。
     
@@ -105,7 +105,7 @@ ms.locfileid: "34286212"
 9. 1つまたは複数の PSTN の使用状況をボイスルートに関連付けるには、[**選択**] をクリックし、エンタープライズ voip 展開用に定義されている pstn 使用状況レコードのリストからレコードを選びます。
     
     > [!NOTE]
-    > 利用可能な各 PSTN 使用状況レコードのプロパティを表示するには、「 [Skype For business で pstn 使用状況レコードを表示](view-pstn-usage-records.md)する」を参照してください。 > PSTN 使用状況レコードを作成または編集するには、「 [Skype For business で音声ポリシーを作成または変更する」および「pstn 使用状況レコードを構成](voice-policy-and-pstn-usage-records.md)する」を参照してください。 
+    > 利用可能な各 PSTN 使用状況レコードのプロパティを表示するには、「 [Skype For business で pstn 使用状況レコードを表示](view-pstn-usage-records.md)する」を参照してください。 PSTN 使用状況レコードを作成または編集する > は、「 [Skype For business で音声ポリシーを作成または変更する」と「pstn 使用状況レコードを構成](voice-policy-and-pstn-usage-records.md)する」を参照してください。 
   
 10. 最適なパフォーマンスを得るために、PSTN 使用法レコードを並べ替えます。 リスト内のレコードの位置を変更するには、レコード名を強調表示して上向き矢印または下向き矢印をクリックします。
     

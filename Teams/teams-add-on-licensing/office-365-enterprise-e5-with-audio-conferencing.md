@@ -7,7 +7,7 @@ ms.reviewer: mikedav
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオンライセンス、機能、Office 365 Enterprise E5 プランの購入方法について説明します。 '
-ms.openlocfilehash: 35052942774645ff5795ab688876cfbd30c80259
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f092faaafd15f77c448ba66237c7ab0653aae2d6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298495"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242594"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

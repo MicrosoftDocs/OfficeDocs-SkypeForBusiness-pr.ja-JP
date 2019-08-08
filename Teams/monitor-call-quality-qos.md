@@ -5,21 +5,22 @@ ms.author: jambirk
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: jambirk
 description: '[QoS (Quality of Service)] の設定を使用して、Microsoft Teams で分析と通話品質ダッシュボードを呼び出します。'
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77730db17e900951f0fe1a60b7c0ae2ccdbfbc5b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 70e862adf2aad795a9ef1ab34eaa2de21240a388
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32228424"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239255"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Microsoft Teams で QoS を実装して通話品質を監視する
 

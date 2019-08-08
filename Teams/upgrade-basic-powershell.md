@@ -1,40 +1,41 @@
 ---
-title: 基本的なアップグレードの PowerShell |マイクロソフトのチーム。相互運用機能のポリシーを与えるアップグレード
+title: 基本的なアップグレード PowerShell |Microsoft Teams |アップグレードの相互運用ポリシーを付与する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
-description: 管理センターは、テナントに点灯していない場合は、チームにアップグレードするための暫定的な
+description: テナントで管理センターが使用されていない場合に、Teams にアップグレードするための Stopgap
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 281938456c4fca695b2254e7cf6e50078bb32c80
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 945422f6bb61fca8d2b17379a7c9bf4695e7dd09
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920433"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236543"
 ---
-# <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>ユーザーをアップグレードする、Skype のオンライン ビジネスのマイクロソフトのチームに
+# <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>ユーザーを Skype for Business Online から Microsoft Teams にアップグレードする
 
 > [!Note]
-> この資料で説明するコマンドは、[基本のアップグレード](https://aka.ms/UpgradeBasic)のチェックリストの一部として使用するために設計されています。
+> この記事で説明しているコマンドは、[アップグレードの基本的な](https://aka.ms/UpgradeBasic)チェックリストの一部として使用するように設計されています。
 
-アップグレードの移行の技術的な側面、ビジネス用の Skype はチームへのアップグレード、**チームのみ**のモードに移動して、ユーザーに通知することが必要になります。 リモートの Windows PowerShell セッションをビジネスまたはマイクロソフトのチーム管理センターを使用して、Skype 経由でこれらの手順を実行できます。
+アップグレードの技術的な移行には、Skype for Business が Teams にアップグレードされることをユーザーに通知し、それを**チーム専用**モードに移行する必要があります。 これらの手順は、Skype for Business リモート Windows PowerShell セッションまたは Microsoft Teams 管理センターを使用して行うことができます。
 
-[マイクロソフトのチーム管理センター](manage-teams-skypeforbusiness-admin-center.md)のツールのアップグレードを積極的に展開してと、テナントですぐに利用可能な場合があります。 使用可能になると[の共存を設定](https://aka.ms/SkypeToTeams-SetCoexistence)および設定をアップグレードするユーザーの移行に関する情報が表示されます。
+[Microsoft Teams 管理センター](manage-teams-skypeforbusiness-admin-center.md)でアップグレードツールを積極的にロールアウトしています。この機能は、お使いのテナントから間もなく利用可能になります。 この機能が利用可能になったら、ユーザーを移行するための情報を、[共存とアップグレードの設定](https://aka.ms/SkypeToTeams-SetCoexistence)で確認できます。
 
-今すぐアップグレードする準備が整ったら、 [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)コマンドを次の表に記載されているを使用することができます。
+今すぐアップグレードする準備ができたら、次の表に示す[PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)コマンドを使用できます。
 
-| アップグレードの基本的なステップ # | Mode | PowerShell コマンド |
+| アップグレードの基本手順# | Mode | PowerShell コマンド |
 |---|---|---|
-| [5](upgrade-basic.md#step-5) | 諸島 +、Skype をビジネス ユーザーに通知<br>(**諸島**モード (既定値) でユーザーがいる場合は、このコマンドを使用して) | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(たとえば、$SipAddress = 'TestUser@contoso.com')*<br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress``` |
-| [5](upgrade-basic.md#step-5) | ビジネスのみの Skype、Skype をビジネス ユーザーに通知する + <br>( **Skype**ビジネスのみのモードでユーザーがいる場合は、このコマンドを使用します) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingSfBChatSfB -Identity $SipAddress``` |
+| [5](upgrade-basic.md#step-5) | 諸島 + Skype for Business ユーザーに通知する<br>(現在、ユーザーが現在**諸島**モード (既定) である場合は、このコマンドを使用します)。 | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*($SipAddress = ' TestUser@contoso.com ' など)*<br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress``` |
+| [5](upgrade-basic.md#step-5) | Skype for Business で Skype for business のユーザーに通知する <br>(現在、ユーザーが**Skype For business のみ**のモードである場合は、このコマンドを使用) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingSfBChatSfB -Identity $SipAddress``` |
 | [7](upgrade-basic.md#step-7) | Teams Only | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity $SipAddress``` |

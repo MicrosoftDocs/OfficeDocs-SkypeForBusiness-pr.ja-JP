@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '[共有の線の外観] を使うと、ユーザーは代理として応答するか、通話を処理するデリゲートを選ぶことができます。'
-ms.openlocfilehash: 619e011e1af5a765bc86ca6bd68134dc5ab1e9fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e2e99d214ef493933ed44d28c4a9cbdaeaab1077
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298656"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243114"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams での回線共有機能
 
@@ -37,13 +37,18 @@ ms.locfileid: "34298656"
 
 ユーザーは、代理人として、または委任を設定して、他のユーザーに代わって通話を発信または受信できるようにする必要があります。
 
-マネージャーと代理人の両方がエンタープライズ voip を有効にしている必要があります。 共有回線のエクスペリエンスは委任の一部であり、追加のライセンスは必要ありません。 ライセンスモデルの詳細については、「 [Microsoft Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
+マネージャーと代理人の両方がエンタープライズ voip を有効にしている必要があります。 共有ラインエクスペリエンスは委任の一部であり、追加のライセンスは必要ありません。 ライセンスモデルの詳細については、「 [Microsoft Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>委任および共有の線の外観を設定する
 
 委任および共有の線の外観は、ユーザーによる機能です。構成する管理設定はありません。 この機能を使用する方法については、「[代理人と電話回線を共有](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)する」を参照してください。
 
-この機能を使用するには、テナント管理者が Teamadministration の**ポリシー AllowDelegation**設定を使って委任を有効にする必要があります。
+この機能を使用するには、テナント管理者が Teamadministration の**ポリシー AllowDelegation**設定または Teams 管理ポータルを使って委任を有効にすることができます。 
+
+テナント管理者は、Teams 管理センターでユーザーの委任関係を構成することもできます。 さらに、エンドユーザーは、チームに直接委任関係を構成することもできます。 テナント管理者またはユーザーは、構成を相互にブロックすることはできませんが、Teams 管理センターとチームクライアントは、両方の場所でこの関係を正確に表示する必要があります。 
+
+> [!IMPORTANT]
+> テナント管理者が、(有効になった後に) ユーザーの委任をオフにすると、誤った通話ルーティングが行われないように、Teams 管理センターでそのユーザーの委任関係をクリーンアップする必要があります。
 
 ## <a name="shared-line-appearance-feature-availability"></a>共有線の外観機能の可用性
 

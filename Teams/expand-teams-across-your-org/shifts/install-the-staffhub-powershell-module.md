@@ -4,23 +4,23 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 04/08/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Microsoft StaffHub PowerShell モジュールをインストールして接続する方法について説明します。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6eab331c8d8b2213225ad8c7ee216f9f6ec2b51
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 179276a049a30f1d049521cc3b4db326b988667c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681882"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36246181"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell モジュールをインストールする
 
@@ -32,7 +32,9 @@ ms.locfileid: "34681882"
 ## <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell モジュールをインストールする
 
 1. [StaffHub PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha)をダウンロードします。 
-2. Windows PowerShell 3.0 以降を管理者として開きます。 これを行うには、[**スタート**] をクリックし、「 **windows powershell**」と入力して、[ **windows powershell**] を右クリックし、[**管理者として実行**] を選びます。
+2. Windows PowerShell 3.0 以降を管理者として開きます。これを行うには、[**スタート**] をクリックし、「 **windows powershell**」と入力して、[ **windows powershell**] を右クリックし、[**管理者として実行**] を選びます。
+    > [!NOTE]
+    > 最新バージョンの Windows PowerShell を取得するには、「 [Windows powershell をインストール](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell)する」を参照してください。 
 3. 次のコマンドを実行します。
 
     ```
@@ -43,16 +45,24 @@ ms.locfileid: "34681882"
 4. 出力のフォルダーパスを確認し、次の手順に進む前に、パス内のすべてのフォルダーがコンピューターに存在することを確認します。 フォルダーがない場合は、フォルダーを作成します。
 5. StaffHub PowerShell モジュールのインストールを許可するには、次を実行します。
 
-```
-Set-ExecutionPolicy RemoteSigned
-```
+    ```
+    Set-ExecutionPolicy RemoteSigned
+    ```
 
 6. 次を実行します&lt;。&gt;ここで、path は手順2の出力のパスです。 たとえば、パスが C:\Users\User1\Documents\WindowsPowerShell\Modules. のように表示されることがあります。
 
+    各コマンドは別々に実行してください。
+
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
+    Install-Module -Name PackageManagement -Force  -AllowClobber
     Install-Module -Name PowerShellGet -Force  -AllowClobber
     Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    ```
+7. Windows PowerShell を終了します。
+8. Windows PowerShell 3.0 以降をグローバル管理者として開き、次の操作を実行します。
+
+    ```
     Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
     ```
 

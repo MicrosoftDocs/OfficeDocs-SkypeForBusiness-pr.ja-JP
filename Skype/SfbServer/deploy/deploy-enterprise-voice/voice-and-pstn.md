@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: '概要: Skype for Business Server でボイスポリシー、PSTN 使用状況レコード、および音声ルートを構成する方法について説明します。'
-ms.openlocfilehash: 5ce6b6b3e93804f648529043b9189110d25cbb08
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3cdc621e163aa8cff4ba2456c3a94ddf30bfcbaf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300910"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239937"
 ---
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Skype for Business で音声ポリシー、PSTN 使用状況レコード、および音声ルートを構成する
  

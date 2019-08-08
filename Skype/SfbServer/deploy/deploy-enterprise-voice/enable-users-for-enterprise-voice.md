@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '概要: Skype for Business Server のエンタープライズボイスを使用して、ユーザーが通話を発信および受信できるようにする方法について説明します。'
-ms.openlocfilehash: 8a94fe28cc492cdeac5eee476d6886fc8674ae13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf9aab0f104582c57e745c95ae5cf8f24f07b3a5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303299"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240332"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Skype for Business Server でエンタープライズ Voip のユーザーを有効にする
  

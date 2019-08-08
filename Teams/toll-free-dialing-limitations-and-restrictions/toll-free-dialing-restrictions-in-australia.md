@@ -1,4 +1,5 @@
 ---
+title: オーストラリアの無料ダイヤル制限
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 7201b2fd540d5703aa6f051cceb99677245d768c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 9518268ab254f6c2f5fad4db664e34518b4bf3aa
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330573"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241835"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>オーストラリアの無料ダイヤル制限
 

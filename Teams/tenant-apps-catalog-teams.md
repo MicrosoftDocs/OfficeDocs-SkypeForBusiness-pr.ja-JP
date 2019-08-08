@@ -7,21 +7,22 @@ ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
+audience: admin
 description: Microsoft Teams テナントアプリカタログにアプリを公開するためのガイダンス。
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d016fd1c341774115b9b68edafcc47a63e42b0d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: b8f239a136ae3a2242dba45da5a68e22b8fb29c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221326"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235100"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Microsoft Teams テナントアプリカタログでアプリを公開する
 =======================================================
@@ -30,20 +31,20 @@ Microsoft Teams テナントのアプリカタログを使って、基幹業務�
 
 Teams テナントアプリカタログを使用すると、組織専用に構築された基幹業務アプリケーションを配布することができ、重要なビジネス機能の実行に依存することになります。
 
-組織のアプリを公開するには、グローバル管理者の資格情報を使用してチームクライアントにサインインし、次の手順に従います。
+組織のアプリを公開するには、グローバル管理者または teams サービスの管理者ロールを持つアカウントを使用してチームクライアントにサインインし、次の手順に従います。
 
 ## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>Teams クライアントからテナントアプリカタログ内のアプリを公開する
 
 > [!NOTE]
-> 組織のアプリを公開するには、グローバル管理者の資格情報を使用して Microsoft Teams クライアントにサインインしている必要があります。
+> 組織のアプリを公開するには、グローバル管理者または Teams サービスの管理者ロールが有効になっているアカウントを使用して、Microsoft Teams クライアントにサインインする必要があります。 [管理者ロールを使用してチームを管理する](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)方法について、詳細はこちらをご覧ください。
 
 ### <a name="get-a-teams-app-package"></a>Teams アプリパッケージを取得する
 
-Teams アプリパッケージは、 [Teams アプリ Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)を使用して作成されます。 アプリパッケージを取得したら、エンタープライズアプリカタログに追加することができます。 テナントのすべてのユーザーがアプリカタログを表示できますが、現時点では、グローバル管理者のみが公開と管理を行うことができます。 (最終的には、チームの管理者がこの操作を実行できるようになります)。
+Teams アプリパッケージは、 [Teams アプリ Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)を使用して作成されます。 アプリパッケージを取得したら、エンタープライズアプリカタログに追加することができます。 テナントのすべてのユーザーがアプリカタログを表示できますが、グローバル管理者と teams サービス管理者だけが公開および管理できます。
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>テナントアプリカタログに移動します。
 
-Microsoft Teams クライアントを起動して、グローバル管理者の資格情報を使用してサインインします。 Microsoft Teams ストアで、特定の組織に対応する新しいセクション (この例では Contoso) を選びます。 組織内のユーザーは、カタログ内のアプリを表示して、メンバーになっているチームに対してアプリをインストールできます。
+Microsoft Teams クライアントを起動し、グローバルまたは Teams サービス管理者の資格情報を使用してサインインします。 Microsoft Teams ストアで、特定の組織に対応する新しいセクション (この例では Contoso) を選びます。 組織内のユーザーは、カタログ内のアプリを表示して、メンバーになっているチームに対してアプリをインストールできます。
 
 ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image01.png)
 

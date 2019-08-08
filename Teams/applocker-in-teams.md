@@ -1,44 +1,45 @@
 ---
-title: マイクロソフトのチームで、AppLocker アプリケーション制御ポリシー
+title: Microsoft Teams の AppLocker アプリケーション制御ポリシー
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
-description: チーム デスクトップ クライアント アプリケーションには、AppLocker アプリケーション制御ポリシーを有効にする方法を説明します。
+description: AppLocker アプリケーション制御ポリシーを使って Teams デスクトップクライアントアプリケーションを有効にする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04379cad0ab224915a02475b010f908d486284cc
-ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
+ms.openlocfilehash: 8d87eb5328f5200479f719dc22d9244c46af8944
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34063212"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244944"
 ---
-# <a name="applocker-application-control-policies-in-microsoft-teams"></a>マイクロソフトのチームで、AppLocker アプリケーション制御ポリシー
+# <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft Teams の AppLocker アプリケーション制御ポリシー
 
-この資料では、AppLocker アプリケーション制御ポリシーを使用してチームのデスクトップ クライアント アプリケーションを有効にする方法について説明します。 AppLocker を使用して、管理者以外のユーザーによってプログラムとスクリプトの実行を制限するのには設計されています。 詳細および AppLocker のガイダンスについてを参照してください[AppLocker は何ですか?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)です。
+この記事では、AppLocker アプリケーション制御ポリシーを使って Teams デスクトップクライアントアプリを有効にする方法について説明します。 AppLocker の使用は、管理者以外のユーザーによるプログラムとスクリプトの実行を制限するように設計されています。 AppLocker の詳細とガイダンスについては、「 [applocker とは](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)」をご覧ください。
 
-AppLocker でチームを有効にするプロセスには、whitelisting の AppLocker ベースのポリシーの作成が必要です。 AppLocker の Windows PowerShell コマンドレットの使用および/または、グループ ポリシーの管理ソフトウェアとポリシーが作成されます (詳細については、 [AppLocker のテクニカル リファレンス](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)を参照してください)。 AppLocker のポリシーは、XML 形式で保存され、テキスト エディターまたは XML エディターで編集することができます。
+AppLocker を使用してチームを有効化するプロセスでは、AppLocker ベースの空白のポリシーを作成する必要があります。 ポリシーは、グループポリシー管理ソフトウェアまたは AppLocker の Windows PowerShell コマンドレットを使用して作成されます (詳細については、「 [applocker のテクニカルリファレンス](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)」を参照してください)。 AppLocker ポリシーは XML 形式で保存され、任意のテキストエディターまたは XML エディターで編集できます。
 
-## <a name="teams-whitelisting-with-applocker"></a>AppLocker でチームの whitelisting
+## <a name="teams-whitelisting-with-applocker"></a>AppLocker を使ったチームの空白の置き換え
 
-AppLocker の規則は、規則のコレクションに編成されます。 AppLocker の規則の適用対象となるアプリケーションに、AppLocker のポリシーを構成するコンポーネントです。  
+AppLocker ルールは、ルールのコレクションに整理されます。 AppLocker の規則はターゲットアプリに適用され、AppLocker ポリシーを構成するコンポーネントです。  
 
-ホワイト リストのチームにチームのすべてのアプリケーション ファイルがデジタル署名されているために、[発行元の条件の規則](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)を使用することをお勧めします。
+チームのホワイトリストを作成するには、すべての Teams アプリファイルがデジタル署名されているため、 [publisher の条件ルール](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)を使用することをお勧めします。
   
-チームのインストール ディレクトリは、ユーザーが書き込み可能なために、パスの規則の使用を推奨しません。 推奨しませんハッシュの規則の使用規則は、チームのクライアント アプリケーションが更新されるたびに更新する必要があるため。
+Teams のインストールディレクトリはユーザーが書き込み可能であるため、パスルールを使用することはお勧めしません。 また、ルールは Teams クライアントアプリが更新されるたびに更新される必要があるため、ハッシュ規則を使用することはお勧めしません。
 
-チーム デスクトップの実行可能ファイルにデジタル署名であるために、発行元の条件はデジタル署名や埋め込みのバージョンの属性に基づいて、アプリケーションのファイルを識別します。 デジタル署名には、アプリケーション ファイル (発行元) を作成した会社に関する情報が含まれています。 バージョンについてには、バイナリのリソースから取得されるには、ファイルが含まれる製品およびアプリケーション ファイルのバージョン番号の名前が含まれています。
+Teams のデスクトップの実行可能ファイルにはデジタル署名が行われるため、発行元の条件では、デジタル署名と埋め込みバージョンの属性に基づいてアプリファイルが識別されます。 デジタル署名には、アプリファイル (発行元) を作成した会社に関する情報が含まれています。 バイナリリソースから取得されるバージョン情報には、ファイルが含まれている製品の名前と、アプリケーションファイルのバージョン番号が含まれています。
 
-### <a name="example-of-publisher-condition-rules"></a>発行元の条件のルールの例
+### <a name="example-of-publisher-condition-rules"></a>Publisher の条件ルールの例
 
-チーム クライアント アプリケーション (すべてのファイル、すべてのバージョン)。
+Teams クライアントアプリ (すべてのファイル、すべてのバージョン) の場合:
 
 ```
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
@@ -46,5 +47,5 @@ Product name: MICROSOFT TEAMS
 ```
 
 ## <a name="related-topics"></a>関連トピック
-[AppLocker は何ですか?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
- [AppLocker のテクニカル リファレンス](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
+[AppLocker とは何ですか?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
+ [AppLocker のテクニカルリファレンス](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)

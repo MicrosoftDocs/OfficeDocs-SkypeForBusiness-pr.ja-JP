@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Skype for Business Server Enterprise Voice のコールパークの範囲テーブルを作成または変更します。
-ms.openlocfilehash: 77be47597e5bbb674719ac2b3192efdf4217a3dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 305404ce74d3aec26741c0e26b999f6227dabe37
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286264"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233462"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Skype for Business のコールパーク範囲を作成または変更する
 
@@ -64,7 +64,7 @@ Skype for Business Server Enterprise Voice のコールパークの範囲テー�
 
    - オービット範囲が文字\*または # で始まる場合、範囲は100よりも大きくなければなりません。
 
-   - 有効な値: 正規表現文字列と一致する必要\\があります ([* | #] ? [{0,7}1-9] \d) |([1-9] \d{0,8}) つまり、文字\*または # のいずれかから始まる文字列、または 1 ~ 9 の数値 (最初の文字はゼロにすることはできません) であることを意味します。 最初の文字が\*または # の場合、次の文字は 1 ~ 9 の数字にする必要があります (0 にすることはできません)。 後続の文字には、0 ~ 9 までの追加文字を使用できます (たとえば、"#6000"\*、"92000"\*、"95551212"、"915551212")。 最初の文字が "not \* " または "#" である場合、最初の文字は 1 ~ 9 の数字 (0 にすることはできません)、数字 0 ~ 9 (たとえば、"915551212"、"41212"、"300") でなければなりません。
+   - 有効な値: 正規表現文字列と一致する必要\\があります ([* | #]? [1 ~ 9] \d{0,7}) |([1-9] \d{0,8}) つまり、文字\*または # のいずれかから始まる文字列、または 1 ~ 9 の数値 (最初の文字はゼロにすることはできません) であることを意味します。 最初の文字が\*または # の場合、次の文字は 1 ~ 9 の数字にする必要があります (0 にすることはできません)。 後続の文字には、0 ~ 9 までの追加文字を使用できます (たとえば、"#6000"\*、"92000"\*、"95551212"、"915551212")。 最初の文字が "not \* " または "#" である場合、最初の文字は 1 ~ 9 の数字 (0 にすることはできません)、数字 0 ~ 9 (たとえば、"915551212"、"41212"、"300") でなければなりません。
 
    - プール当たりの合計が 50,000 オービットを超えないようにしてください。各オービット範囲は、通常、100 以下のオービットを含みますが、10,000 オービットを超えなければ、範囲をそれよりも広くすることができます。たとえば、開始番号 "7000000"、終了番号 "8000000" を指定するのではなく、開始番号 "7000000"、終了番号 "7000100" を指定することを検討してください。
 

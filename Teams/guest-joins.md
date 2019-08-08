@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: ゲストがどのような方法で Microsoft Teams のチームに参加するよう招待されるかについての簡単な概要を理解します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 438dc1e095d4ea4d3b14354ab5cae445eaf0df90
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: ff9565cab22dd34251624a39755d322470d2eb04
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35221892"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241954"
 ---
 <a name="how-a-guest-joins-a-team"></a>ゲストがチームに参加する方法
 ========================

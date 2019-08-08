@@ -6,23 +6,24 @@ manager: serdars
 ms.date: 04/12/2019
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
 description: 無料の Teams の管理機能について説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6eb43669761e6f61d88299fe155501e807e1100
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: acc5b6dc41fefc0a04d8efcf2951eeff18f904a8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222334"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242095"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>無料版の Microsoft Teams を管理する
 ==========================================

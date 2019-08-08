@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: '概要: Skype for Business Server 2015 常設チャットサーバーを展開する方法については、このトピックを参照してください。'
-ms.openlocfilehash: fed07d864bda6fc3e0e93932123b2651c226b4f6
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 2d3c9ca11447a5be212a053d8c5cb002ada4c522
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418116"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240832"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの展開
  

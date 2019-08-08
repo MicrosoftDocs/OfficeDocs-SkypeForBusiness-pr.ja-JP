@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: '概要: Skype for Business Server でメディアバイパスを有効にしてトランクを構成します。 これにより、SIP トランクのプロバイダーがサポートしている場合に、仲介サーバーの数を最小限に抑えることができるようになります。'
-ms.openlocfilehash: 29fd1d4e978306f58e99b4a75cb5255863139888
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b51cedfbead08cd70b543e9019c351adcc2a4eb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289105"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233672"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Skype for Business Server でメディアバイパスを使用してトランクを構成する
 
@@ -53,7 +53,7 @@ ms.locfileid: "34289105"
    - [**プール トランク**]: このトランク構成を適用するトランクの名前を選択します。 このトランクは、トポロジービルダーで定義されているルートトランクまたは追加の trunks にすることができます。 [  **サービスの選択**  ] で、[  **OK**  ] をクリックします。 トランク構成が既に作成されているトランクは [  **サービスの選択**  ] に表示されません。
 
       > [!NOTE]
-      > トランク構成のスコープは、選択後に変更することはできません。 > **Name**フィールドには、トランク構成に関連付けられたサイトまたはサービスの名前があらかじめ設定されているため、変更することはできません。
+      > トランク構成のスコープは、選択後に変更することはできません。 > **Name**フィールドには、トランク構成に関連するサイトまたはサービスの名前があらかじめ設定されているため、変更することはできません。
 
 4. [**サポートされる最大早期ダイアログ数**] に値を指定します。これは公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX、または ITSP セッション ボーダー コントローラー (SBC) が、仲介サーバーに送信した INVITE に対して受信できる分岐応答の最大数です。既定値は 20 です。
 

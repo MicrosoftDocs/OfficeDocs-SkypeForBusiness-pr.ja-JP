@@ -5,21 +5,22 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
 description: クラウドビデオ相互運用機能を利用すると、サードパーティの会議室デバイスが Microsoft Teams 会議に参加できるようになります。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eed6c2d1e876e9c04e32c82c8119d7dbd4483692
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4d37acef498abfd0ed3e9125529abef38f737406
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34549020"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237073"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -47,9 +48,9 @@ Microsoft Teams を使用すると、オーディオ、ビデオ、コンテン�
 
 |パートナー|パートナーソリューション|
 |----|---|
-|![Polycom RealConnect のロゴ](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect サービス</a> |
-|![Pexip 無限大のロゴ](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft Teams の Pexip 無限大</a> | 
-|![BlueJeans Gateway のロゴ](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft Teams の BlueJeans ゲートウェイ</a> |
+|![Polycom RealConnect を表すロゴ](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect サービス</a> |
+|![Pexip 無限大を表すロゴ](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft Teams の Pexip 無限大</a> | 
+|![BlueJeans Gateway を表すロゴ](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft Teams の BlueJeans ゲートウェイ</a> |
 
 ### <a name="cloud-video-interop-overview"></a>クラウドビデオの相互運用の概要
 
@@ -68,7 +69,7 @@ Microsoft Teams を使用すると、オーディオ、ビデオ、コンテン�
 
 ![組織での CVI の展開について説明した図](media/deploying-cvi.png)
 
-### <a name="plan"></a>プラン
+### <a name="plan"></a>計画
 
 計画フェーズでは、ネイティブの Teams デバイスと置き換えることができないデバイスを特定し、これらのデバイスをサポートできるクラウドビデオの相互運用パートナーを見つけます。  
 

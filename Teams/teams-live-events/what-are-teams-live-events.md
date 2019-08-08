@@ -5,21 +5,22 @@ ms.author: chucked
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 description: ライブイベントを使用して、チーム、Yammer、およびストリーミングの大規模なオンラインの対象ユーザーにビデオとコンテンツをブロードキャストする方法について説明します。
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bbcb38e95a2ed44d022a4412e035238fea6282c
-ms.sourcegitcommit: 8052c2a6a29d65dcb8a6fa8baacb5568d798b0fa
+ms.openlocfilehash: afb477c4abe6ef2de5971c9c8278b1e4b4fd622c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35756923"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234166"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 

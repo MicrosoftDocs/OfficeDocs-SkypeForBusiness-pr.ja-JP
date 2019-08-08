@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ユーザーをプール間で移動するためのさまざまな方法について学習する前に、まず、レガシプールに存在するユーザーを特定する必要があります。 レジストラー pool 列は、従来のプール用に構成されているユーザーを識別します。 Skype for Business Server 2019 プールに移動するテストユーザーを次に示します。
-ms.openlocfilehash: abcb7066ebcc58e603861985673584249edef1ad
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: d5ef86d1750cb0a6bb770adf0c75628d9229d83a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758898"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243629"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>レガシ プールの現在のユーザーの表示
 

@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
 description: ダイレクトルーティングの位置情報に基づくルーティングを計画する方法について説明します。
@@ -16,12 +17,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b91eb877da7d18b41fdb21acbb7ade018a2c97b5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 38097d06cff62481d48c794b83a01a2fa1155b52
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246143"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245119"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -229,7 +230,7 @@ PSTN エンドポイントが含まれている場合、場所に基づくルー
 
 ### <a name="technical-considerations-for-location-based-routing"></a>場所に基づくルーティングに関する技術的考慮事項
 
-IPv4 と IPv6 のサブネットはサポートされていますが、一致するかどうかを確認するときには IPv6 が優先されます。 IPv6 のサポートは現在進行中であり、場所に基づくルーティングの一般的な可用性 (GA) によって提供されます。 
+IPv4 と IPv6 のサブネットはサポートされていますが、一致するかどうかを確認するときには IPv6 が優先されます。
 
 ### <a name="client-support-for-location-based-routing"></a>場所に基づくルーティングのクライアントのサポート
 

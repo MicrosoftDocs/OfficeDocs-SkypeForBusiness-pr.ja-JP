@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams の導入について、認識を向上させ、トレーニングプログラムを実装する方法について説明します。
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3eddb2789f33029b05f2cd593f21e03563cc4d05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d8bda03900368e349e2a6579dfb32381af8c97b1
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896295"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242296"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
@@ -50,7 +50,7 @@ Skype のリソースを使用して、ユーザーが Microsoft Teams や他の
 - [チーム向けのインストラクター主導のエンドユーザー向けトレーニング](instructor-led-training-teams-landing-page.md)
 - [Teams の管理者トレーニング](itadmin-readiness.md)
 - [オンラインエンドユーザートレーニング](enduser-training.md)
-- [チャンピオン & IT 担当者向けクラウドオンライントレーニングのコーヒー](https://aka.ms/CoffeeintheCloud) 
+- [エキスパート & IT 担当者向けのクラウドオンライントレーニングのコーヒー](https://aka.ms/CoffeeintheCloud) 
 - [Office 365 トレーニングのクイックガイドの日](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>成功を測定、共有する
@@ -67,4 +67,4 @@ Skype のリソースを使用して、ユーザーが Microsoft Teams や他の
 
 [Microsoft Teams の利用状況レポートの詳細については、Microsoft 365 管理センターを参照してください。](teams-activity-reports.md)
 
-![次のステップ](media/teams-adoption-next-icon.png)アイコン: [[サービス正常性レビューのスケジュール](teams-adoption-schedule-service-health-reviews.md)]
+![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[サービス正常性レビューのスケジュール](teams-adoption-schedule-service-health-reviews.md)

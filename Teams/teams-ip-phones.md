@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
-ms.service: skype-for-business
+ms.service: msteams
 ms.collection: Teams
 audience: Admin
 appliesto:
@@ -17,12 +17,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Microsoft Teams で認定された IP 机と電話会議電話
-ms.openlocfilehash: 3b4bdde46c81fa5b77e7595ca485e92979b81df6
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 506ebbed5b5d87328c6b11da817d31af21afe773
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35395459"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243722"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams で認定を受けた IP 電話
 

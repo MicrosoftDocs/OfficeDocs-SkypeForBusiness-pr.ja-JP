@@ -5,7 +5,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Microsoft Teams ルームの展開については、この記事を参照してください。
-ms.openlocfilehash: c60d9a1ff3c00c62a14573b8b7e1d26b92e865d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bbea76639fe1be0edb3269fc345d3e0d4a89e721
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305394"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243335"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -44,21 +44,12 @@ Microsoft Teams の会議室の展開は、基本的にフェーズに分けて�
 -   [証明書](srs-v2-prep.md#certificates)
 -   [プロキシ](srs-v2-prep.md#proxy)
 
-**Pro ヒント**-プロキシサーバーを使用して Microsoft Teams または Skype For business Online へのアクセスを提供する場合は、まず[この記事を確認](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)してください。 プロキシサーバー経由の Skype for Business トラフィックについては、プロキシサーバーを完全にバイパスすることをお勧めします。 Skype for Business トラフィックは既に暗号化されているため、プロキシサーバーのセキュリティが強化されることはありません。 広い範囲に展開する場合は、「帯域幅計画の環境を[評価](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)する」のガイダンスに従って、リアルタイムトラフィックに対するネットワークの適合性を評価することをお勧めします。 すべての帯域幅の計画については、 [Myadvisor ネットワークプランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)を使用します。 ([ビデオ]、[画面の共有]、[オーディオ])、および microsoft teams の会議室の使用状況 (各サイトへの展開対象) に一致するユーザーを割り当てるには、Microsoft Teams の会議室のペルソナを作成することをお勧めします。 
+**Pro ヒント**-プロキシサーバーを使用して Microsoft Teams または Skype For business Online へのアクセスを提供する場合は、まず[この記事を確認](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)してください。 プロキシサーバー経由の Skype for Business トラフィックについては、プロキシサーバーを完全にバイパスすることをお勧めします。 Skype for Business トラフィックは既に暗号化されているため、プロキシサーバーのセキュリティが強化されることはありません。 広い範囲に展開する場合は、「帯域幅計画の環境を[評価](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)する」のガイダンスに従って、リアルタイムトラフィックに対するネットワークの適合性を評価することをお勧めします。
 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サイトが Microsoft Teams のルームの重要な要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅が用意されていることを確認します。</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>まず、デバイスの展開と構成を計画します。</li></ul>| 
-
-**Pro ヒント-** サイトごとの計画の観点から見ると、次のアセットが役に立つ場合があります。 Microsoft Teams のルームだけではなく、Skype for Business Online の完全なロールアウトでも利用できます。
-
--   [サイトのロールアウト/移行計画の配布ガイド](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
-
--   [サイトのロールアウトと移行の計画-プレイブック](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
-
-    > [!NOTE]
-    > プレイブックで、Microsoft Teams 室のデバイスの展開を計画している各サイトの "4.3 – > 会議室" のセクションにあるタスクを実行します。 これにより、プロセスの後半で一括アカウントプロビジョニングスクリプトを使用できるようになります。 
 
 ## <a name="service-readiness"></a>サービスの準備状況
 
@@ -129,9 +120,6 @@ Microsoft Teams の各ルームデバイスには、専用の固有のリソー�
 
 **Pro ヒント**: これらのアカウントの表示名をわかりやすくわかりやすいものにします。 これらは、Microsoft Teams のルームシステムを検索して会議に追加するときにユーザーに表示される名前です。 組織によっては、*サイト*-*ルーム名*(*最大会議*室)-rs などの規則を使用しているため、たとえば、curie では、たとえば、London の12人の会議室で表示名が LON-curie (12) になります。 
 
-組織に複数のプロビジョニングされたアカウントを必要とする多数の会議室がある場合、 [Skype Room Systems アカウントプロビジョニングスクリプト](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5)を使用して、複数のサービスアカウントを自動で一括プロビジョニングすることができます。
-
-
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft Teams のルームアカウントの名前付け規則を決定します。</li><li>個別のアカウントを作成するか、一括プロビジョニングスクリプトを使用するかを決定します。</li></ul>| 
@@ -200,9 +188,7 @@ Microsoft Teams の会議室のシステムが展開されたら、それをテ�
 
 一般的なチームまたは Skype for Business のロールアウトの一環として、通話品質ダッシュボードの構築ファイル (CQD) を構成し、品質の傾向を監視して、エクスペリエンスレビュープロセスに参加することをお勧めします。 詳細については、「[エクスペリエンスの品質レビューガイド](https://aka.ms/qerguide)」を参照してください。 
 
-**Pro ヒント**–テストマトリックスには、 [myadvisor](https://myadvisor.fasttrack.microsoft.com/)から利用可能な[テストマトリックス](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21)に、テストの一部として確認する必要がある Microsoft Teams 室のテストが多数含まれています。 
-
-### <a name="asset-management"></a>資産管理 
+### <a name="asset-management"></a>資産管理
 
 展開の一環として、会議室名、Microsoft Teams 室のデバイス名、サインインされた Microsoft Teams 室リソースアカウント、および割り当てられている周辺機器 (および使用している USB ポート) を使って、資産登録を更新します。 
 

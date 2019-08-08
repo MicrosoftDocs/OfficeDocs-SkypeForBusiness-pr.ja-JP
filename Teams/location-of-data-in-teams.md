@@ -5,29 +5,35 @@ ms.author: lolaj
 manager: serdars
 ms.date: 05/09/2019
 ms.topic: reference
+audience: admin
 ms.service: msteams
 ms.reviewer: anach
 description: Microsoft Teams でデータが保存されている場所について説明します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e293cb89875bcaf15172b698735bba86c00635b
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 832fa044379698eae3531c8b340dbd36f922198c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667475"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242106"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams のデータの場所
 
-Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現在、Teams では、オーストラリア、カナダ、フランス、インド、日本、英国、南北アメリカ、APAC、および EMEA 地域がサポートされています。 
+Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現在、Teams は、オーストラリア、カナダ、フランス、インド、日本、英国、南米、南アフリカ、南北アメリカ、APAC、および EMEA 地域をサポートしています。 
 
 > [!IMPORTANT]
-> 現在、Teams では、オーストラリア、カナダ、フランス、インド、日本、英国など、新しいテナントのみにデータ常駐サービスが提供されています。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 オーストラリア、インド、日本の既存のテナントは、引き続き APAC 地域に保存されている Teams のデータを保有します。 カナダの既存のテナントのデータは、南北アメリカに保存され続けます。 フランスおよび英国の既存のテナントには、EMEA 地域にデータが保存されています。
+> 現在、Teams では、オーストラリア、カナダ、フランス、インド、日本、英国、韓国、南アフリカの新しいテナントのみにデータ常駐サービスを提供しています。
+> 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 オーストラリア、インド、日本、韓国の既存のテナントは、引き続き APAC 地域に保存されています。 カナダの既存のテナントのデータは、南北アメリカに保存され続けます。 フランス、英国、南アフリカの既存のテナントには、EMEA 地域にデータが保存されています。
+
+詳細については、「 [office](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611)用の南アフリカデータ常駐データ Sagar のブログ投稿」を参照してください。
+
+Teams の韓国データ常駐サービスの詳細については、「Sagar のブログ投稿の概要」を参照してください。 Microsoft Teams では、[韓国のデータ常駐技術を発表](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171)しています。
 
 Teams 向けのインドおよび英国データ配信の開始について詳しくは、「ブログ投稿の概要」をご覧ください。 [Microsoft Teams はインドのデータ常駐サービスを](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)リリースしています。 
 

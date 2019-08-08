@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: '概要: Skype for Business Server で会議を展開する方法については、このトピックを参照してください。'
-ms.openlocfilehash: 08cdf52815b7a3ce2b768520f269abfa4be41279
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b00d20ea930d96f98502e3b75a0ce044301b142
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276387"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234871"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Skype for Business Server で会議を展開する
 
