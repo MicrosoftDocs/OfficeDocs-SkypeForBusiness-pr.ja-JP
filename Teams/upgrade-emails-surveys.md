@@ -1,42 +1,43 @@
 ---
-title: マイクロソフト チームの遷移の e メールやアンケート |基本的なアップグレード
+title: Microsoft Teams の移行メールとアンケート |基本的なアップグレード
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: サンプルの電子メールおよびビジネス用の Skype からチームへのアップグレードの迅速な 10 のステップのアクション プランでのカラムで使用するアンケート
+audience: admin
+description: Skype for Business から Teams へのアップグレードに関する10段階のアクセラレータ付きアクションプランを使用した conjunciton のサンプルメールとアンケート
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d34162e2b7f363abd9ecf635cff993cdbd843da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920367"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236389"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a><span data-ttu-id="ef770-103">サンプルの電子メールおよびアップグレードの基本的な通信のためのアンケート</span><span class="sxs-lookup"><span data-stu-id="ef770-103">Sample emails and surveys for Upgrade Basic communications</span></span>
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a><span data-ttu-id="cf70b-103">アップグレードの基本的なコミュニケーションのサンプルメールとアンケート</span><span class="sxs-lookup"><span data-stu-id="cf70b-103">Sample emails and surveys for Upgrade Basic communications</span></span>
 
-## <a name="sample-emails"></a><span data-ttu-id="ef770-104">サンプル電子メール</span><span class="sxs-lookup"><span data-stu-id="ef770-104">Sample emails</span></span>
+## <a name="sample-emails"></a><span data-ttu-id="cf70b-104">サンプルメール</span><span class="sxs-lookup"><span data-stu-id="cf70b-104">Sample emails</span></span>
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a><span data-ttu-id="ef770-105">利害関係者の電子メール、手順 1 に進みます。</span><span class="sxs-lookup"><span data-stu-id="ef770-105">Stakeholder email, for step 1</span></span>
+### <a name="stakeholder-email-for-step-1"></a><span data-ttu-id="cf70b-105">ステップ1の関係者のメール</span><span class="sxs-lookup"><span data-stu-id="cf70b-105">Stakeholder email, for step 1</span></span>
 
-<span data-ttu-id="ef770-106">件名:</span><span class="sxs-lookup"><span data-stu-id="ef770-106">Subject line:</span></span>
+<span data-ttu-id="cf70b-106">件名行:</span><span class="sxs-lookup"><span data-stu-id="cf70b-106">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-<span data-ttu-id="ef770-107">電子メールの本文:</span><span class="sxs-lookup"><span data-stu-id="ef770-107">Body of email:</span></span>
+<span data-ttu-id="cf70b-107">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="cf70b-107">Body of email:</span></span>
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -46,19 +47,19 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
 
-[<span data-ttu-id="ef770-108">手順 1 に戻る</span><span class="sxs-lookup"><span data-stu-id="ef770-108">Return to step 1</span></span>](upgrade-basic.md#step-1)
+[<span data-ttu-id="cf70b-108">手順1に戻る</span><span class="sxs-lookup"><span data-stu-id="cf70b-108">Return to step 1</span></span>](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a><span data-ttu-id="ef770-109">手順 4 に、ユーザーの電子メールを通知します。</span><span class="sxs-lookup"><span data-stu-id="ef770-109">Notify users email, for step 4</span></span>
+### <a name="notify-users-email-for-step-4"></a><span data-ttu-id="cf70b-109">手順4でユーザーのメールに通知する</span><span class="sxs-lookup"><span data-stu-id="cf70b-109">Notify users email, for step 4</span></span>
 
-<span data-ttu-id="ef770-110">件名:</span><span class="sxs-lookup"><span data-stu-id="ef770-110">Subject line:</span></span>
+<span data-ttu-id="cf70b-110">件名行:</span><span class="sxs-lookup"><span data-stu-id="cf70b-110">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-<span data-ttu-id="ef770-111">電子メールの本文:</span><span class="sxs-lookup"><span data-stu-id="ef770-111">Body of email:</span></span>
+<span data-ttu-id="cf70b-111">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="cf70b-111">Body of email:</span></span>
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -75,19 +76,19 @@ CALL TO ACTION: Get started with Teams today
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
 
-[<span data-ttu-id="ef770-112">ステップ 4 に戻る</span><span class="sxs-lookup"><span data-stu-id="ef770-112">Return to step 4</span></span>](upgrade-basic.md#step-4)
+[<span data-ttu-id="cf70b-112">手順4に戻る</span><span class="sxs-lookup"><span data-stu-id="cf70b-112">Return to step 4</span></span>](upgrade-basic.md#step-4)
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a><span data-ttu-id="ef770-113">手順 6 に、ユーザーの電子メールを通知します。</span><span class="sxs-lookup"><span data-stu-id="ef770-113">Remind users email, for step 6</span></span>
+### <a name="remind-users-email-for-step-6"></a><span data-ttu-id="cf70b-113">手順6の場合は、ユーザーにメールで通知する</span><span class="sxs-lookup"><span data-stu-id="cf70b-113">Remind users email, for step 6</span></span>
 
-<span data-ttu-id="ef770-114">件名: アラーム: チームへのアップグレードの準備</span><span class="sxs-lookup"><span data-stu-id="ef770-114">Subject line: REMINDER: Get ready for your upgrade to Teams</span></span>
+<span data-ttu-id="cf70b-114">件名行: アラーム: Teams へのアップグレードを準備する</span><span class="sxs-lookup"><span data-stu-id="cf70b-114">Subject line: REMINDER: Get ready for your upgrade to Teams</span></span>
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-<span data-ttu-id="ef770-115">電子メールの本文:</span><span class="sxs-lookup"><span data-stu-id="ef770-115">Body of email:</span></span>
+<span data-ttu-id="cf70b-115">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="cf70b-115">Body of email:</span></span>
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -106,19 +107,19 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="ef770-116">手順 6 に戻る</span><span class="sxs-lookup"><span data-stu-id="ef770-116">Return to step 6</span></span>](upgrade-basic.md#step-6)
+[<span data-ttu-id="cf70b-116">手順6に戻る</span><span class="sxs-lookup"><span data-stu-id="cf70b-116">Return to step 6</span></span>](upgrade-basic.md#step-6)
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a><span data-ttu-id="ef770-117">手順 7、エグゼクティブ スポンサーからのユーザーの電子メールを開始します。</span><span class="sxs-lookup"><span data-stu-id="ef770-117">Welcome users email from the executive sponsor, for step 7</span></span>
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a><span data-ttu-id="cf70b-117">手順7のエグゼクティブスポンサーからのユーザーメールをようこそ</span><span class="sxs-lookup"><span data-stu-id="cf70b-117">Welcome users email from the executive sponsor, for step 7</span></span>
 
-<span data-ttu-id="ef770-118">件名:</span><span class="sxs-lookup"><span data-stu-id="ef770-118">Subject line:</span></span>
+<span data-ttu-id="cf70b-118">件名行:</span><span class="sxs-lookup"><span data-stu-id="cf70b-118">Subject line:</span></span>
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-<span data-ttu-id="ef770-119">電子メールの本文:</span><span class="sxs-lookup"><span data-stu-id="ef770-119">Body of email:</span></span>
+<span data-ttu-id="cf70b-119">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="cf70b-119">Body of email:</span></span>
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -141,19 +142,19 @@ Regards,
 <<insert executive sponsor name>>
 ````
 
-[<span data-ttu-id="ef770-120">ステップ 7 に戻る</span><span class="sxs-lookup"><span data-stu-id="ef770-120">Return to step 7</span></span>](upgrade-basic.md#step-7)
+[<span data-ttu-id="cf70b-120">手順7に戻る</span><span class="sxs-lookup"><span data-stu-id="cf70b-120">Return to step 7</span></span>](upgrade-basic.md#step-7)
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a><span data-ttu-id="ef770-121">チェックイン電子メール、手順 9 に進みます。</span><span class="sxs-lookup"><span data-stu-id="ef770-121">Check-in email, for step 9</span></span>
+### <a name="check-in-email-for-step-9"></a><span data-ttu-id="cf70b-121">手順9のチェックインメール</span><span class="sxs-lookup"><span data-stu-id="cf70b-121">Check-in email, for step 9</span></span>
 
-<span data-ttu-id="ef770-122">件名:</span><span class="sxs-lookup"><span data-stu-id="ef770-122">Subject line:</span></span>
+<span data-ttu-id="cf70b-122">件名行:</span><span class="sxs-lookup"><span data-stu-id="cf70b-122">Subject line:</span></span>
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-<span data-ttu-id="ef770-123">電子メールの本文:</span><span class="sxs-lookup"><span data-stu-id="ef770-123">Body of email:</span></span>
+<span data-ttu-id="cf70b-123">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="cf70b-123">Body of email:</span></span>
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -163,19 +164,19 @@ Share your feedback (see sample below) and transition experience with us. Your i
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="ef770-124">手順 9 に戻る</span><span class="sxs-lookup"><span data-stu-id="ef770-124">Return to step 9</span></span>](upgrade-basic.md#step-9)
+[<span data-ttu-id="cf70b-124">手順9に戻る</span><span class="sxs-lookup"><span data-stu-id="cf70b-124">Return to step 9</span></span>](upgrade-basic.md#step-9)
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a><span data-ttu-id="ef770-125">試してチームとチャネル、ステップ 10 にするかどうかを電子メールで送信します。</span><span class="sxs-lookup"><span data-stu-id="ef770-125">Email to ask users to give teams and channels a try, for step 10</span></span>
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a><span data-ttu-id="cf70b-125">手順10について、チームとチャネルについてユーザーに質問してもらうようにメールを送信する</span><span class="sxs-lookup"><span data-stu-id="cf70b-125">Email to ask users to give teams and channels a try, for step 10</span></span>
 
-<span data-ttu-id="ef770-126">件名:</span><span class="sxs-lookup"><span data-stu-id="ef770-126">Subject line:</span></span>
+<span data-ttu-id="cf70b-126">件名行:</span><span class="sxs-lookup"><span data-stu-id="cf70b-126">Subject line:</span></span>
 
 ```
 CALL TO ACTION: Give teams and channels a try
 ```
 
-<span data-ttu-id="ef770-127">電子メールの本文:</span><span class="sxs-lookup"><span data-stu-id="ef770-127">Body of email:</span></span>
+<span data-ttu-id="cf70b-127">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="cf70b-127">Body of email:</span></span>
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -190,42 +191,42 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="ef770-128">10 のステップに戻る</span><span class="sxs-lookup"><span data-stu-id="ef770-128">Return to step 10</span></span>](upgrade-basic.md#step-10)
+[<span data-ttu-id="cf70b-128">手順10に戻る</span><span class="sxs-lookup"><span data-stu-id="cf70b-128">Return to step 10</span></span>](upgrade-basic.md#step-10)
 
 <!--ENDOFSECTION-->
 
 <a name="step-9-surveys"></a>
 
-## <a name="sample-surveys"></a><span data-ttu-id="ef770-129">サンプル アンケート</span><span class="sxs-lookup"><span data-stu-id="ef770-129">Sample surveys</span></span>
+## <a name="sample-surveys"></a><span data-ttu-id="cf70b-129">サンプルアンケート</span><span class="sxs-lookup"><span data-stu-id="cf70b-129">Sample surveys</span></span>
 
-<span data-ttu-id="ef770-130">チームとに関する詳細については、希望する 1 つまたは複数のアクティビティがあるかどうかの次のアクティビティを実行するのには熟練した方法を示します。</span><span class="sxs-lookup"><span data-stu-id="ef770-130">Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you’d like to learn more about.</span></span>
+<span data-ttu-id="cf70b-130">チームで次のアクティビティを実行する場合のスキル、および詳細を知りたいアクティビティが1つ以上あることを示す。</span><span class="sxs-lookup"><span data-stu-id="cf70b-130">Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you’d like to learn more about.</span></span>
 
-| &nbsp; | <span data-ttu-id="ef770-131">非常に熟練しました。</span><span class="sxs-lookup"><span data-stu-id="ef770-131">Very skilled</span></span> | <span data-ttu-id="ef770-132">多少のスキルを持つ</span><span class="sxs-lookup"><span data-stu-id="ef770-132">Somewhat skilled</span></span> | <span data-ttu-id="ef770-133">まったくないスキルを持つ</span><span class="sxs-lookup"><span data-stu-id="ef770-133">Not skilled at all</span></span> | <span data-ttu-id="ef770-134">詳しく知りたいです。</span><span class="sxs-lookup"><span data-stu-id="ef770-134">Want to learn more</span></span> | <span data-ttu-id="ef770-135">N/A</span><span class="sxs-lookup"><span data-stu-id="ef770-135">N/A</span></span> | <span data-ttu-id="ef770-136">よく分からないいない一般的です</span><span class="sxs-lookup"><span data-stu-id="ef770-136">Unsure/not familiar</span></span> | | | | |
+| &nbsp; | <span data-ttu-id="cf70b-131">高度なスキル</span><span class="sxs-lookup"><span data-stu-id="cf70b-131">Very skilled</span></span> | <span data-ttu-id="cf70b-132">多少のスキル</span><span class="sxs-lookup"><span data-stu-id="cf70b-132">Somewhat skilled</span></span> | <span data-ttu-id="cf70b-133">まったく習熟していない</span><span class="sxs-lookup"><span data-stu-id="cf70b-133">Not skilled at all</span></span> | <span data-ttu-id="cf70b-134">詳細情報</span><span class="sxs-lookup"><span data-stu-id="cf70b-134">Want to learn more</span></span> | <span data-ttu-id="cf70b-135">N/A</span><span class="sxs-lookup"><span data-stu-id="cf70b-135">N/A</span></span> | <span data-ttu-id="cf70b-136">よくわからない</span><span class="sxs-lookup"><span data-stu-id="cf70b-136">Unsure/not familiar</span></span> | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| <span data-ttu-id="ef770-137">IM とチャットを楽しむためのチームを使用して、他の人と</span><span class="sxs-lookup"><span data-stu-id="ef770-137">Use Teams for IM/chatting with others</span></span> | | | | | | | | | | |
-| <span data-ttu-id="ef770-138">チームを使用して、オンラインの会議</span><span class="sxs-lookup"><span data-stu-id="ef770-138">Use Teams for online meetings</span></span> | | | | | | | | | | |
-| <span data-ttu-id="ef770-139">(チームおよびチャネル) の共同作業のためのチームを使用してください。</span><span class="sxs-lookup"><span data-stu-id="ef770-139">Use Teams for collaboration (teams and channels)</span></span> | | | | | | | | | | |
-| <span data-ttu-id="ef770-140">チームを自分のモバイル デバイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="ef770-140">Use Teams on my mobile device</span></span> | | | | | | | | | | |
+| <span data-ttu-id="cf70b-137">チームを使って IM を送信したり、他のユーザーとチャットしたりする</span><span class="sxs-lookup"><span data-stu-id="cf70b-137">Use Teams for IM/chatting with others</span></span> | | | | | | | | | | |
+| <span data-ttu-id="cf70b-138">オンライン会議に Teams を使用する</span><span class="sxs-lookup"><span data-stu-id="cf70b-138">Use Teams for online meetings</span></span> | | | | | | | | | | |
+| <span data-ttu-id="cf70b-139">チームを使って共同作業を行う (チームとチャネル)</span><span class="sxs-lookup"><span data-stu-id="cf70b-139">Use Teams for collaboration (teams and channels)</span></span> | | | | | | | | | | |
+| <span data-ttu-id="cf70b-140">モバイルデバイスで Teams を使用する</span><span class="sxs-lookup"><span data-stu-id="cf70b-140">Use Teams on my mobile device</span></span> | | | | | | | | | | |
 
-| <span data-ttu-id="ef770-141">**存在する場合で、どのようにできないマイクロソフトのチームを使用するでしょうか。**</span><span class="sxs-lookup"><span data-stu-id="ef770-141">**What, if anything, is preventing you from using Microsoft Teams?**</span></span> | <span data-ttu-id="ef770-142">**該当するものすべてを選択します。**</span><span class="sxs-lookup"><span data-stu-id="ef770-142">**Select all that apply**</span></span> |
+| <span data-ttu-id="cf70b-141">**Microsoft Teams の使用を妨げている場合は、どうすればよいですか?**</span><span class="sxs-lookup"><span data-stu-id="cf70b-141">**What, if anything, is preventing you from using Microsoft Teams?**</span></span> | <span data-ttu-id="cf70b-142">**該当するものをすべて選択する**</span><span class="sxs-lookup"><span data-stu-id="cf70b-142">**Select all that apply**</span></span> |
 |---|---|
-| <span data-ttu-id="ef770-143">それについて聞いたこともないです。</span><span class="sxs-lookup"><span data-stu-id="ef770-143">I’ve never heard about it</span></span> | <span data-ttu-id="ef770-144">& #9744 です。</span><span class="sxs-lookup"><span data-stu-id="ef770-144">&#9744;</span></span> |
-| <span data-ttu-id="ef770-145">コンピューターにインストールする必要はありません。</span><span class="sxs-lookup"><span data-stu-id="ef770-145">I don’t have it installed on my computer</span></span> | <span data-ttu-id="ef770-146">& #9744 です。</span><span class="sxs-lookup"><span data-stu-id="ef770-146">&#9744;</span></span> |
-| <span data-ttu-id="ef770-147">方法に利点が得られるかで作業する人が理解できません。</span><span class="sxs-lookup"><span data-stu-id="ef770-147">I don't understand how it would benefit me or the people I work with</span></span> | <span data-ttu-id="ef770-148">& #9744 です。</span><span class="sxs-lookup"><span data-stu-id="ef770-148">&#9744;</span></span> |
-| <span data-ttu-id="ef770-149">自分のニーズを評価するのには時間が起きていません。</span><span class="sxs-lookup"><span data-stu-id="ef770-149">I haven't had time to evaluate it for my needs</span></span> | <span data-ttu-id="ef770-150">& #9744 です。</span><span class="sxs-lookup"><span data-stu-id="ef770-150">&#9744;</span></span> |
-| <span data-ttu-id="ef770-151">コミュニケーションとコラボレーションのニーズに対応する他のアプリケーションを既に使用して.</span><span class="sxs-lookup"><span data-stu-id="ef770-151">I already use other applications that meet my needs for communication and collaboration</span></span> | <span data-ttu-id="ef770-152">& #9744 です。</span><span class="sxs-lookup"><span data-stu-id="ef770-152">&#9744;</span></span> |
-| <span data-ttu-id="ef770-153">使用する前にトレーニングする必要があります。</span><span class="sxs-lookup"><span data-stu-id="ef770-153">I would need training before using it</span></span> | <span data-ttu-id="ef770-154">& #9744 です。</span><span class="sxs-lookup"><span data-stu-id="ef770-154">&#9744;</span></span> |
-| <span data-ttu-id="ef770-155">して、それを使用しようとしていますが技術上の問題または不良の経験</span><span class="sxs-lookup"><span data-stu-id="ef770-155">I’ve tried to use it, but had technical issues or a bad experience</span></span> | <span data-ttu-id="ef770-156">& #9744 です。</span><span class="sxs-lookup"><span data-stu-id="ef770-156">&#9744;</span></span> |
-| <span data-ttu-id="ef770-157">私の質問を支援できませんでした、サポート デスク</span><span class="sxs-lookup"><span data-stu-id="ef770-157">Our support desk couldn't help me with my questions</span></span> | <span data-ttu-id="ef770-158">& #9744 です。</span><span class="sxs-lookup"><span data-stu-id="ef770-158">&#9744;</span></span> |
-| <span data-ttu-id="ef770-159">何も、私の現在使用して</span><span class="sxs-lookup"><span data-stu-id="ef770-159">Nothing, I currently use it</span></span> | <span data-ttu-id="ef770-160">& #9744 です。</span><span class="sxs-lookup"><span data-stu-id="ef770-160">&#9744;</span></span> |
-| <span data-ttu-id="ef770-161">他の (指定してください)</span><span class="sxs-lookup"><span data-stu-id="ef770-161">Other (please specify)</span></span> | <span data-ttu-id="ef770-162">& #9744 です。</span><span class="sxs-lookup"><span data-stu-id="ef770-162">&#9744;</span></span> |
+| <span data-ttu-id="cf70b-143">これについて聞いたことがない</span><span class="sxs-lookup"><span data-stu-id="cf70b-143">I’ve never heard about it</span></span> | <span data-ttu-id="cf70b-144">&#9744;</span><span class="sxs-lookup"><span data-stu-id="cf70b-144">&#9744;</span></span> |
+| <span data-ttu-id="cf70b-145">コンピューターにインストールしていない場合</span><span class="sxs-lookup"><span data-stu-id="cf70b-145">I don’t have it installed on my computer</span></span> | <span data-ttu-id="cf70b-146">&#9744;</span><span class="sxs-lookup"><span data-stu-id="cf70b-146">&#9744;</span></span> |
+| <span data-ttu-id="cf70b-147">自分または共同作業しているユーザーにどのような利点があるかを理解していない</span><span class="sxs-lookup"><span data-stu-id="cf70b-147">I don't understand how it would benefit me or the people I work with</span></span> | <span data-ttu-id="cf70b-148">&#9744;</span><span class="sxs-lookup"><span data-stu-id="cf70b-148">&#9744;</span></span> |
+| <span data-ttu-id="cf70b-149">ニーズに合わせて評価する時間がありません</span><span class="sxs-lookup"><span data-stu-id="cf70b-149">I haven't had time to evaluate it for my needs</span></span> | <span data-ttu-id="cf70b-150">&#9744;</span><span class="sxs-lookup"><span data-stu-id="cf70b-150">&#9744;</span></span> |
+| <span data-ttu-id="cf70b-151">コミュニケーションとコラボレーションのニーズを満たす他のアプリケーションを既に使用している場合</span><span class="sxs-lookup"><span data-stu-id="cf70b-151">I already use other applications that meet my needs for communication and collaboration</span></span> | <span data-ttu-id="cf70b-152">&#9744;</span><span class="sxs-lookup"><span data-stu-id="cf70b-152">&#9744;</span></span> |
+| <span data-ttu-id="cf70b-153">使用する前にトレーニングが必要な場合</span><span class="sxs-lookup"><span data-stu-id="cf70b-153">I would need training before using it</span></span> | <span data-ttu-id="cf70b-154">&#9744;</span><span class="sxs-lookup"><span data-stu-id="cf70b-154">&#9744;</span></span> |
+| <span data-ttu-id="cf70b-155">この機能を使用しようとしましたが、技術的な問題が発生したか、操作が正しくありません</span><span class="sxs-lookup"><span data-stu-id="cf70b-155">I’ve tried to use it, but had technical issues or a bad experience</span></span> | <span data-ttu-id="cf70b-156">&#9744;</span><span class="sxs-lookup"><span data-stu-id="cf70b-156">&#9744;</span></span> |
+| <span data-ttu-id="cf70b-157">Skype のサポートデスクでは、質問を解決できませんでした</span><span class="sxs-lookup"><span data-stu-id="cf70b-157">Our support desk couldn't help me with my questions</span></span> | <span data-ttu-id="cf70b-158">&#9744;</span><span class="sxs-lookup"><span data-stu-id="cf70b-158">&#9744;</span></span> |
+| <span data-ttu-id="cf70b-159">現在使用しているものはありません</span><span class="sxs-lookup"><span data-stu-id="cf70b-159">Nothing, I currently use it</span></span> | <span data-ttu-id="cf70b-160">&#9744;</span><span class="sxs-lookup"><span data-stu-id="cf70b-160">&#9744;</span></span> |
+| <span data-ttu-id="cf70b-161">その他 (指定してください)</span><span class="sxs-lookup"><span data-stu-id="cf70b-161">Other (please specify)</span></span> | <span data-ttu-id="cf70b-162">&#9744;</span><span class="sxs-lookup"><span data-stu-id="cf70b-162">&#9744;</span></span> |
 
-<span data-ttu-id="ef770-163">**可能性は、マイクロソフトのチームを友人や同僚にお勧めすることでしょうか。(0 =... 可能性10 = が非常に可能性があります)**</span><span class="sxs-lookup"><span data-stu-id="ef770-163">**How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)**</span></span>
+<span data-ttu-id="cf70b-163">**Microsoft Teams を友人や同僚に勧める可能性はどの程度ありますか?(0 = ほとんどありません...10 = 非常に可能性が高い**</span><span class="sxs-lookup"><span data-stu-id="cf70b-163">**How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)**</span></span>
 
-| <span data-ttu-id="ef770-164">0</span><span class="sxs-lookup"><span data-stu-id="ef770-164">0</span></span> | <span data-ttu-id="ef770-165">1</span><span class="sxs-lookup"><span data-stu-id="ef770-165">1</span></span> | <span data-ttu-id="ef770-166">2</span><span class="sxs-lookup"><span data-stu-id="ef770-166">2</span></span> | <span data-ttu-id="ef770-167">3</span><span class="sxs-lookup"><span data-stu-id="ef770-167">3</span></span> | <span data-ttu-id="ef770-168">4</span><span class="sxs-lookup"><span data-stu-id="ef770-168">4</span></span> | <span data-ttu-id="ef770-169">5</span><span class="sxs-lookup"><span data-stu-id="ef770-169">5</span></span> | <span data-ttu-id="ef770-170">6</span><span class="sxs-lookup"><span data-stu-id="ef770-170">6</span></span> | <span data-ttu-id="ef770-171">7</span><span class="sxs-lookup"><span data-stu-id="ef770-171">7</span></span> | <span data-ttu-id="ef770-172">8</span><span class="sxs-lookup"><span data-stu-id="ef770-172">8</span></span> | <span data-ttu-id="ef770-173">9</span><span class="sxs-lookup"><span data-stu-id="ef770-173">9</span></span> | <span data-ttu-id="ef770-174">10</span><span class="sxs-lookup"><span data-stu-id="ef770-174">10</span></span> |
+| <span data-ttu-id="cf70b-164">0</span><span class="sxs-lookup"><span data-stu-id="cf70b-164">0</span></span> | <span data-ttu-id="cf70b-165">1</span><span class="sxs-lookup"><span data-stu-id="cf70b-165">1</span></span> | <span data-ttu-id="cf70b-166">2</span><span class="sxs-lookup"><span data-stu-id="cf70b-166">2</span></span> | <span data-ttu-id="cf70b-167">3</span><span class="sxs-lookup"><span data-stu-id="cf70b-167">3</span></span> | <span data-ttu-id="cf70b-168">4</span><span class="sxs-lookup"><span data-stu-id="cf70b-168">4</span></span> | <span data-ttu-id="cf70b-169">5</span><span class="sxs-lookup"><span data-stu-id="cf70b-169">5</span></span> | <span data-ttu-id="cf70b-170">6</span><span class="sxs-lookup"><span data-stu-id="cf70b-170">6</span></span> | <span data-ttu-id="cf70b-171">7</span><span class="sxs-lookup"><span data-stu-id="cf70b-171">7</span></span> | <span data-ttu-id="cf70b-172">個</span><span class="sxs-lookup"><span data-stu-id="cf70b-172">8</span></span> | <span data-ttu-id="cf70b-173">ファイブ</span><span class="sxs-lookup"><span data-stu-id="cf70b-173">9</span></span> | <span data-ttu-id="cf70b-174">常用</span><span class="sxs-lookup"><span data-stu-id="cf70b-174">10</span></span> |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
-[<span data-ttu-id="ef770-175">手順 9 に戻る</span><span class="sxs-lookup"><span data-stu-id="ef770-175">Return to step 9</span></span>](upgrade-basic.md#step-9)
+[<span data-ttu-id="cf70b-175">手順9に戻る</span><span class="sxs-lookup"><span data-stu-id="cf70b-175">Return to step 9</span></span>](upgrade-basic.md#step-9)
 
 <!--ENDOFSECTION-->

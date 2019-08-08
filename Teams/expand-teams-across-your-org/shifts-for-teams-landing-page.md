@@ -5,6 +5,7 @@ layout: LandingPage
 ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
+audience: admin
 manager: serdars
 ms.date: 03/29/2019
 ms.service: msteams
@@ -12,12 +13,12 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa060ac4707f223ea960bdda3c7bc53a8d134e80
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 52716a2bb2ac60181775eecd985337f696c989cf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494507"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232219"
 ---
 # <a name="shifts-for-teams"></a>Shifts for Teams
 
@@ -62,24 +63,7 @@ ms.locfileid: "34494507"
         </div>
         </a>
     </li>
-<li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="A megaphone icon depicting what's new" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Teams に登場する firstline Worker 機能</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
+
 </ul>
 
 ### <a name="set-up-and-manage-shifts"></a>シフトの設定と管理

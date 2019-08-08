@@ -3,10 +3,11 @@ title: PowerShell を使用してチームへのゲスト アクセスを制御�
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/09/17
+ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
@@ -14,30 +15,30 @@ search.appverid: MET150
 description: PowerShell を使用して、Microsoft Teams のチームへのゲスト アクセスを許可または拒否できます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815a35efbce89404b012d5534e257752bef8d53e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
-ms.translationtype: HT
+ms.openlocfilehash: 7e106dc56f56b5e26dd56384931deeecdd889305
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886383"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235523"
 ---
-<a name="use-powershell-to-control-guest-access-to-a-team"></a><span data-ttu-id="3223e-103">PowerShell を使用してチームへのゲスト アクセスを制御する</span><span class="sxs-lookup"><span data-stu-id="3223e-103">Use PowerShell to control guest access to a team</span></span>
+<a name="use-powershell-to-control-guest-access-to-a-team"></a><span data-ttu-id="337d5-103">PowerShell を使用してチームへのゲスト アクセスを制御する</span><span class="sxs-lookup"><span data-stu-id="337d5-103">Use PowerShell to control guest access to a team</span></span>
 ================================================
 
-<span data-ttu-id="3223e-104">Microsoft 365 管理センターと Azure Active Directory ポータルに加え、Windows PowerShell を使用してゲスト アクセスを制御することもできます。</span><span class="sxs-lookup"><span data-stu-id="3223e-104">In addition to using the Office 365 admin center and the Azure Active Directory portal, you can use Windows PowerShell to control guest access.</span></span> <span data-ttu-id="3223e-105">PowerShell を使用すると、次の操作を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="3223e-105">With PowerShell, you can do the following:</span></span>
+<span data-ttu-id="337d5-104">Microsoft 365 管理センターと Azure Active Directory (Azure AD) ポータルのほかに、Windows PowerShell を使用してゲストアクセスを制御することもできます。</span><span class="sxs-lookup"><span data-stu-id="337d5-104">In addition to using the Microsoft 365 admin center and the Azure Active Directory (Azure AD) portal, you can use Windows PowerShell to control guest access.</span></span> <span data-ttu-id="337d5-105">PowerShell を使用すると、次の操作を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="337d5-105">With PowerShell, you can do the following:</span></span>
   
-- <span data-ttu-id="3223e-106">すべてのチームおよび Office 365 グループへのゲスト アクセスを許可または拒否する</span><span class="sxs-lookup"><span data-stu-id="3223e-106">Allow or block guest access to all teams and Office 365 groups</span></span>
-    
-- <span data-ttu-id="3223e-107">すべてのチームおよび Office 365 グループへのゲストの追加を許可する</span><span class="sxs-lookup"><span data-stu-id="3223e-107">Allow guests to be added to all teams and Office 365 groups</span></span>
-      
-- <span data-ttu-id="3223e-108">特定のチームまたは Office 365 グループのゲスト ユーザーを許可または拒否する</span><span class="sxs-lookup"><span data-stu-id="3223e-108">Allow or block guest users from a specific team or Office 365 group</span></span>
-    
-<span data-ttu-id="3223e-109">詳しくは、「[Office 365 グループのゲスト アクセス](https://support.office.com/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell)」の [管理] タブの「PowerShell を使用してゲスト アクセスを制御する」のセクションをご覧ください。</span><span class="sxs-lookup"><span data-stu-id="3223e-109">For more details, see the section "Use PowerShell to control guest access" on the Manage tab of [Guest access in Office 365 Groups](https://support.office.com/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell).</span></span>
-  
-<span data-ttu-id="3223e-110">PowerShell を使用して、ドメインに基づいてゲスト ユーザーの許可と拒否を行うこともできます。</span><span class="sxs-lookup"><span data-stu-id="3223e-110">You can also use PowerShell to allow or block a guest user based on their domain.</span></span> <span data-ttu-id="3223e-111">たとえば、自分の会社 (Contoso) が他の会社 (Fabrikam) とのパートナーシップを持つとします。</span><span class="sxs-lookup"><span data-stu-id="3223e-111">For example, let's say your business (Contoso) has a partnership with another business (Fabrikam).</span></span> <span data-ttu-id="3223e-112">許可リストに Fabrikam を追加し、ユーザーが自分のグループにそれらのゲストを追加できるようにします。</span><span class="sxs-lookup"><span data-stu-id="3223e-112">You can add Fabrikam to your Allow list so your users can add those guests to their groups.</span></span> <span data-ttu-id="3223e-113">詳細については、「[Allow/Block guest access to Office 365 groups (Office 365 グループへのゲスト アクセスを許可/拒否する)](https://go.microsoft.com/fwlink/?linkid=854001)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="3223e-113">For more information, see [Allow/Block guest access to Office 365 groups](https://go.microsoft.com/fwlink/?linkid=854001).</span></span>
-  
-<span data-ttu-id="3223e-114">Teamsのゲストを拒否したいがゲストに対して SharePoint サイトへのアクセスを引き続き許可する場合は、SharePoint の外部共有をオンに設定しているという前提の上に、Azure Active Directory Powershell コマンドレットを使用して Company オブジェクトの AllowGuestsToAccessGroups パラメーターを無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="3223e-114">If you want to block guests in teams and still allow guests to access SharePoint sites, you can use Azure Active Directory Powershell cmdlets to disable the AllowGuestAccessToGroups parameter on the Company object, assuming external sharing is turned on for SharePoint sites.</span></span>   
+- <span data-ttu-id="337d5-106">すべてのチームと Office 365 グループへのゲストアクセスを許可またはブロックする</span><span class="sxs-lookup"><span data-stu-id="337d5-106">Allow or block guest access to all teams and Office 365 Groups</span></span>
 
-## <a name="guest-access-vs-external-access"></a><span data-ttu-id="3223e-115">ゲスト アクセスと外部アクセス</span><span class="sxs-lookup"><span data-stu-id="3223e-115">Guest access vs. external access (federation)</span></span>
+- <span data-ttu-id="337d5-107">すべてのチームと Office 365 グループにゲストを追加できるようにする</span><span class="sxs-lookup"><span data-stu-id="337d5-107">Allow guests to be added to all teams and Office 365 Groups</span></span>
+
+- <span data-ttu-id="337d5-108">特定のチームまたは Office 365 グループのゲスト ユーザーを許可または拒否する</span><span class="sxs-lookup"><span data-stu-id="337d5-108">Allow or block guest users from a specific team or Office 365 group</span></span>
+
+<span data-ttu-id="337d5-109">詳細については、「 [Office 365 グループでゲストアクセスを管理](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access)する」の「PowerShell を使用してゲストアクセスを制御する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="337d5-109">For details, see "Use PowerShell to control guest access" in [Manage guest access in Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access).</span></span>
+  
+<span data-ttu-id="337d5-110">PowerShell を使用して、ドメインに基づいてゲスト ユーザーの許可と拒否を行うこともできます。</span><span class="sxs-lookup"><span data-stu-id="337d5-110">You can also use PowerShell to allow or block a guest user based on their domain.</span></span> <span data-ttu-id="337d5-111">たとえば、ある企業 (Contoso) が別の企業 (Fabrikam) とパートナーシップを結んでいると仮定します。</span><span class="sxs-lookup"><span data-stu-id="337d5-111">For example, let's say your business (Contoso) has a partnership with another business (Fabrikam).</span></span> <span data-ttu-id="337d5-112">Fabrikam 社を [許可] リストに追加すると、Contoso 社のユーザーは Fabrikam のユーザーをゲストとしてグループに追加できるようになります。</span><span class="sxs-lookup"><span data-stu-id="337d5-112">You can add Fabrikam to your Allow list so your users can add those guests to their groups.</span></span> <span data-ttu-id="337d5-113">詳細については、「 [Office 365 グループへのゲストアクセスを許可/ブロックする](https://go.microsoft.com/fwlink/?linkid=854001)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="337d5-113">For more information, see [Allow/Block guest access to Office 365 Groups](https://go.microsoft.com/fwlink/?linkid=854001).</span></span>
+  
+<span data-ttu-id="337d5-114">チーム内のゲストをブロックし、それでも SharePoint サイトへのアクセスを許可する場合は、Azure AD Powershell コマンドレットを使用して、SharePoint サイトの外部共有が有効であることを前提として、Company オブジェクトの AllowGuestsToAccessGroups パラメーターを無効にすることができます。.</span><span class="sxs-lookup"><span data-stu-id="337d5-114">If you want to block guests in Teams and still want to allow them to access SharePoint sites, you can use Azure AD Powershell cmdlets to disable the AllowGuestsToAccessGroups parameter on the Company object, assuming external sharing is turned on for SharePoint sites.</span></span>
+
+## <a name="guest-access-vs-external-access"></a><span data-ttu-id="337d5-115">ゲストアクセスと外部アクセス</span><span class="sxs-lookup"><span data-stu-id="337d5-115">Guest access vs. external access</span></span>
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

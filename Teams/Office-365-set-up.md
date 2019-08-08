@@ -7,38 +7,39 @@ ms.date: 08/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
+audience: admin
 description: Office 365 組織に対して Microsoft Teams を有効にする方法について説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3689d76df2a3f867f3d90149572c185574af46e8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180130"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245831"
 ---
-# <a name="enable-teams-in-your-organization"></a><span data-ttu-id="0e563-103">組織内のチームを有効にする</span><span class="sxs-lookup"><span data-stu-id="0e563-103">Enable Teams in your organization</span></span>
+# <a name="enable-teams-in-your-organization"></a><span data-ttu-id="25d63-103">組織内のチームを有効にする</span><span class="sxs-lookup"><span data-stu-id="25d63-103">Enable Teams in your organization</span></span>
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-<span data-ttu-id="0e563-104">既定では、Teams はすべての組織でオンになります。</span><span class="sxs-lookup"><span data-stu-id="0e563-104">By default, Teams is turned on for all organizations.</span></span> <span data-ttu-id="0e563-105">プレビュー期間において Teams を使用した場合、Teams プレビューの間に設定したものと同じ設定がそのまま維持されます。</span><span class="sxs-lookup"><span data-stu-id="0e563-105">If you used Teams during the preview period, the setting stays the same as what you set during your Teams preview.</span></span> 
+<span data-ttu-id="25d63-104">既定では、Teams はすべての組織でオンになります。</span><span class="sxs-lookup"><span data-stu-id="25d63-104">By default, Teams is turned on for all organizations.</span></span> <span data-ttu-id="25d63-105">プレビュー期間において Teams を使用した場合、Teams プレビューの間に設定したものと同じ設定がそのまま維持されます。</span><span class="sxs-lookup"><span data-stu-id="25d63-105">If you used Teams during the preview period, the setting stays the same as what you set during your Teams preview.</span></span> 
 
 
-<span data-ttu-id="0e563-106">組織の管理者として、チームへの個々のアクセスを制御するためのユーザーライセンスを割り当てることができます。また、Teams で使用できるコンテンツソースを許可またはブロックすることができます。</span><span class="sxs-lookup"><span data-stu-id="0e563-106">As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams.</span></span> <span data-ttu-id="0e563-107">詳細については、「microsoft teams[でのアプリの](admin-settings.md)[設定を管理](enable-features-office-365.md)する」または「管理設定」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0e563-107">See [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) or [Admin settings for apps in Microsoft Teams](admin-settings.md) for more information.</span></span> 
+<span data-ttu-id="25d63-106">組織の管理者として、チームへの個々のアクセスを制御するためのユーザーライセンスを割り当てることができます。また、Teams で使用できるコンテンツソースを許可またはブロックすることができます。</span><span class="sxs-lookup"><span data-stu-id="25d63-106">As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams.</span></span> <span data-ttu-id="25d63-107">詳細については、「microsoft teams[でのアプリの](admin-settings.md)[設定を管理](enable-features-office-365.md)する」または「管理設定」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="25d63-107">See [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) or [Admin settings for apps in Microsoft Teams](admin-settings.md) for more information.</span></span> 
 
 
  
-<span data-ttu-id="0e563-108">個別のライセンスを管理する方法については、「[Microsoft Teams 用の Office 365 ライセンス](Office-365-licensing.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="0e563-108">To learn more about managing individual licenses, read [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span> 
+<span data-ttu-id="25d63-108">個別のライセンスを管理する方法については、「[Microsoft Teams 用の Office 365 ライセンス](Office-365-licensing.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="25d63-108">To learn more about managing individual licenses, read [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span> 
 
  
-## <a name="turn-teams-on-or-off-for-your-entire-organization"></a><span data-ttu-id="0e563-109">組織全体に対して Teams をオンまたはオフにする</span><span class="sxs-lookup"><span data-stu-id="0e563-109">Turn Teams on or off for your entire organization</span></span> 
+## <a name="turn-teams-on-or-off-for-your-entire-organization"></a><span data-ttu-id="25d63-109">組織全体に対して Teams をオンまたはオフにする</span><span class="sxs-lookup"><span data-stu-id="25d63-109">Turn Teams on or off for your entire organization</span></span> 
  
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)] 
