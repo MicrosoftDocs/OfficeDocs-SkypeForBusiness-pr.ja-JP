@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: このトピックでは、電話システムのダイレクトルーティングを使用してメディアのバイパスを計画する方法について説明します。
-ms.openlocfilehash: db236b1fadb4dcb13d5405402f469afee9eb2dac
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236601"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271448"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -155,9 +155,17 @@ Teams トランスポートリレーは、次のシナリオでは常にメデ�
 以下で説明するように、SBC がトランスポートリレーにアクセスできることを確認します。    
 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP シグナリング: Fqdn とファイアウォールのポート
+## <a name="sip-signaling-fqdns"></a>SIP シグナリング: Fqdn
 
 SIP シグナリングの場合、FQDN とファイアウォールの要件は、非バイパスのケースと同じです。 
+
+直接ルーティングは、次の Office 365 環境で提供されます。
+- Office 365
+- Office 365 GCC
+- Office 365 GCC 高
+- Office 365 DoD の詳細については、「GCC、GCC 高、DoD などの[office 365 および米国政府機関向けの環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)」を参照してください。
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
 
 直接ルーティングの接続ポイントは、次の3つの Fqdn です。
 
@@ -182,7 +190,43 @@ Fqdn **sip.pstnhub.microsoft.com**、 **sip2.pstnhub.microsoft.com**、および
 - 52.114.7.24
 - 52.114.14.70
 
-シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。 ファイアウォールで DNS 名がサポートされている場合、FQDN **sip-all.pstnhub.microsoft.com**は上記のすべての IP アドレスに解決されます。 次のポートを使用する必要があります。
+シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。 ファイアウォールで DNS 名がサポートされている場合、FQDN **sip-all.pstnhub.microsoft.com**はこれらのすべての IP アドレスに解決されます。 
+
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+
+ダイレクトルーティングの接続ポイントは、次の FQDN です。
+
+**sip.pstnhub.dod.teams.microsoft.us** –グローバル FQDN。 Office 365 DoD 環境は US データセンターにのみ存在するため、第2および第3の Fqdn はありません。
+
+Fqdn – sip.pstnhub.dod.teams.microsoft.us は、次のいずれかの IP アドレスに解決されます。
+
+- 52.127.64.33
+- 52.127.68.34
+
+シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.dod.teams.microsoft.us はこれらのすべての IP アドレスに解決されます。 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高環境
+
+ダイレクトルーティングの接続ポイントは、次の FQDN です。
+
+**sip.pstnhub.gov.teams.microsoft.us** –グローバル FQDN。 GCC 高環境は US データセンターにのみ存在するため、第2の Fqdn はありません。
+
+Fqdn – sip.pstnhub.gov.teams.microsoft.us は、次のいずれかの IP アドレスに解決されます。
+
+- 52.127.88.59
+- 52.127.92.64
+
+シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.gov.teams.microsoft.us はこれらのすべての IP アドレスに解決されます。 
+
+## <a name="sip-signaling-ports"></a>SIP シグナリング: ポート
+
+ダイレクトルーティングが提供されているすべての Office 365 環境では、ポート要件は同じです。
+- Office 365
+- Office 365 GCC
+- Office 365 GCC 高
+- Office 365 DoD
+
+次のポートを使用する必要があります。
 
 | 通過 | 開始 | 終了 | 送信元ポート | 宛先ポート|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -210,9 +254,22 @@ UDP/SRTP | クライアント | SBC | 50 000 – 50 019  | SBC で定義 |
 
 ### <a name="requirements-for-using-transport-relays"></a>トランスポートリレーを使用するための要件
 
-トランスポートリレーは、メディアプロセッサ (バイパス以外の場合) の範囲内にあります。 52.112.0.0/14 (52.112.0.1 から52.115.255.254 の IP アドレス)。
+トランスポートリレーは、メディアプロセッサ (バイパス以外のケース) と同じ範囲にあります。 
 
-Teams トランスポートリレーのポート範囲は、次の表のように表示されています。
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
+
+-52.112.0.0/14 (52.112.0.1 から52.115.255.254 への IP アドレス)
+
+## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高環境
+
+- 52.127.88.0/21
+
+
+Teams トランスポートリレーのポート範囲 (すべての環境に適用されます) については、次の表を参照してください。
 
 
 | 通過 | 開始 | 終了 | 送信元ポート | 宛先ポート|
@@ -236,9 +293,21 @@ UDP/SRTP | トランスポートリレー | SBC | 50 000-59 999    | SBC で定�
 メディアプロセッサは、常にボイスアプリケーションと Web cleints (exampe の場合は、Edge または Google Chrome の Teams cleint のメディアパス) にあります。 要件は、非バイパス構成の場合と同じです。
 
 
-メディアトラフィックの IP 範囲は、52.112.0.0/14 (IP アドレスは52.112.0.1 から 52.115.255.254) です。
+メディアトラフィックの IP 範囲は 
 
-メディアプロセッサのポート範囲は、次の表のように表示されます。
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
+
+-52.112.0.0/14 (52.112.0.1 から52.115.255.254 への IP アドレス)
+
+## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高環境
+
+- 52.127.88.0/21
+
+メディアプロセッサのポート範囲 (すべての環境に該当) を次の表に示します。
 
 | 通過 | 開始 | 終了 | 送信元ポート | 宛先ポート|
 | :-------- | :-------- |:-----------|:--------|:---------|

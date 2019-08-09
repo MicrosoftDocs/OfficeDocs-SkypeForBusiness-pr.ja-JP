@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240809"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271437"
 ---
 # <a name="make-my-service-decisions"></a>サービスの決定を行う
 
@@ -191,7 +191,7 @@ SBCs には、通信とメディアのためにクラウドサービスと通信
 
 SIP シグナリングとメディアの各 SBC に特定のポート番号を定義し、これらのポートと関連する IP アドレスへの双方向トラフィックを許可するようにファイアウォールを設定する必要があります。
 
-詳細については、「 [SIP シグナリング: fqdn とファイアウォールポート](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports)および[メディアトラフィック: ポート範囲](direct-routing-plan.md#media-traffic-port-ranges)」を参照してください。
+詳細については、「 [SIP シグナリング: fqdn](direct-routing-plan.md#sip-signaling-fqdns)および[メディアトラフィック: ポート範囲](direct-routing-plan.md#media-traffic-port-ranges)」を参照してください。
 
 
 > [!NOTE]

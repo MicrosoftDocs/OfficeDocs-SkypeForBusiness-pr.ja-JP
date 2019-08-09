@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 のリソースアカウントをセットアップします。
-ms.openlocfilehash: 09663b1c539b561a0dc591590c53d22cdb530fee
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207158"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253956"
 ---
 # <a name="configure-resource-accounts"></a>リソースアカウントを構成する
 
@@ -31,7 +31,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 電話システムの自動応答または呼び出しキューにサービス番号が必要な場合は、さまざまな依存関係を次の順序で満たすことができます。
 
 1. サービス番号を取得する
-2. リソースアカウントで使用する無料電話システムの[仮想ユーザーライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)または有料電話システムのライセンスを取得します。
+2. リソースアカウントで使用する無料電話システムの[仮想ユーザーライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user)または有料電話システムのライセンスを取得します。
 3. リソースアカウントを作成します。 関連付けられたリソースアカウントを持つには、自動応答または呼び出しキューが必要です。
 4. オンラインとオンプレミスの間で active directory の同期が完了するのを待ちます。
 5. 電話システムのライセンスをリソースアカウントに割り当てます。

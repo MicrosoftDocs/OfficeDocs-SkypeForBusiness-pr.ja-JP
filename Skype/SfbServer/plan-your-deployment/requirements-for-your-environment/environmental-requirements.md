@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: Skype for Business Server 2015 のサーバー以外の要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。'
-ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 3e0c53d73da71e4ada89c95a6438b62dd2507872
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35414983"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253926"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -54,6 +54,8 @@ Skype for Business Server 2015 の環境要件を教えてください。 ここ
 ### <a name="os-for-domain-controllers"></a>ドメイン コントローラー用の OS
 
 どのドメイン コントローラー用 OS を使用できるかについては、以下の一覧を参照してください。
+
+- Windows Server 2019
   
 - Windows Server 2016
     
@@ -66,6 +68,8 @@ Skype for Business Server 2015 の環境要件を教えてください。 ここ
 - Windows Server 2008
     
 ここで、Skype for Business Server 2015 に展開するドメインのドメイン機能レベルと、Skype for Business Server 2015 を展開したすべてのフォレストの機能レベルは、次のいずれかにする必要があります。
+
+- Windows Server 2019
   
 - Windows Server 2016
     

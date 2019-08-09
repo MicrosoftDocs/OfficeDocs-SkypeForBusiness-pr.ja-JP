@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8418c9386c635d1fc1662ee6df80dfae21908bd0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 83cd25ed9f675f04f090255cbc387275c0dee90d
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244117"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253919"
 ---
 <a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -82,8 +82,9 @@ Microsoft Teams のゲストアクセスでは、Azure Active Directory (Azure A
    
    - **招待できる**ゲスト: ゲストが他のゲストを招待できるようにするには、このポリシーを **[はい]** に設定します。
    - **ゲストのメールの1回限りのパスコードを有効にする (プレビュー)**: 1 回限りのパスコード機能の詳細については、「[ワンタイムパスコードの認証 (プレビュー)](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)」を参照してください。
-   - **共同作業の制限**: 特定のドメインへの招待の許可または禁止の詳細については、「[特定の組織からの B2B ユーザーへの招待を許可またはブロック](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)する」を参照してください。
 
+   - **共同作業の制限**: 特定のドメインへの招待の許可または禁止の詳細については、「[特定の組織からの B2B ユーザーへの招待を許可またはブロック](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)する」を参照してください。
+    
 ## <a name="-step-2-configure-office-365-groups"></a>□ 手順 2: Office 365 グループを構成する
 
 1. Microsoft 365 管理センターで、[**設定**] > [**サービスとアドイン**] > [**Office 365 グループ**] に移動します。

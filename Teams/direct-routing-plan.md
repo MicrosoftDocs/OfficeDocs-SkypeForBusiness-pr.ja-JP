@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
-ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
+ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "36166283"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271426"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -55,9 +55,10 @@ Microsoft Phone システムのダイレクトルーティングでは、サポ�
 - [ライセンスおよびその他の要件](#licensing-and-other-requirements)
 - [SBC ドメイン名](#sbc-domain-names)
 - [SBC 用の公開された信頼できる証明書](#public-trusted-certificate-for-the-sbc)
-- [SIP シグナリング: Fqdn とファイアウォールのポート](#sip-signaling-fqdns-and-firewall-ports)
+- [SIP シグナリング: Fqdn](#sip-signaling-fqdns)
+- [SIP シグナリング: ポート](#sip-signaling-ports)
 - [メディアトラフィック: ポート範囲](#media-traffic-port-ranges)
-- [サポートされている SBCs](#supported-session-border-controllers-sbcs)
+- [サポートされているセッション境界コントローラー (SBCs)](#supported-session-border-controllers-sbcs)
 
 直接ルーティングの構成の詳細については、「[直接ルーティングを構成する](direct-routing-configure.md)」を参照してください。
 
@@ -75,7 +76,7 @@ Microsoft Phone システムのダイレクトルーティングでは、サポ�
 |SBC の完全修飾ドメイン名 (FQDN)|SBC の FQDN。 FQDN のドメイン部分は、Office 365 テナントで登録されているドメインの1つです。 詳細については、「 [SBC ドメイン名](#sbc-domain-names)」を参照してください。|
 |SBC のパブリック DNS エントリ |SBC FQDN をパブリック IP アドレスにマッピングするパブリック DNS エントリ。 |
 |SBC 用の公開された信頼できる証明書 |直接ルーティングを使用するすべての通信に使用する SBC の証明書。 詳細については、「 [SBC 用の公開された信頼できる証明書](#public-trusted-certificate-for-the-sbc)」を参照してください。|
-|直接ルーティングの接続ポイント |直接ルーティングの接続ポイントは、次の3つの Fqdn です。<br/><br/>`sip.pstnhub.microsoft.com`–グローバル FQDN を最初に試す必要があります。<br/>`sip2.pstnhub.microsoft.com`–セカンダリ FQDN、地理的には2番目の優先度の地域にマップされます。<br/>`sip3.pstnhub.microsoft.com`–第3の優先度の領域に地理的にマップされています。<br/><br/>構成の要件については、「 [SIP シグナリング: fqdn とファイアウォールポート](#sip-signaling-fqdns-and-firewall-ports)」を参照してください。|
+|直接ルーティングの接続ポイント |直接ルーティングの接続ポイントは、次の3つの Fqdn です。<br/><br/>`sip.pstnhub.microsoft.com`–グローバル FQDN を最初に試す必要があります。<br/>`sip2.pstnhub.microsoft.com`–セカンダリ FQDN、地理的には2番目の優先度の地域にマップされます。<br/>`sip3.pstnhub.microsoft.com`–第3の優先度の領域に地理的にマップされています。<br/><br/>構成要件の詳細については、「 [SIP シグナリング: fqdn](#sip-signaling-fqdns)」を参照してください。|
 |ダイレクトルーティングメディアのファイアウォールの IP アドレスとポート |SBC は、クラウドの次のサービスに通信します。<br/><br/>SIP プロキシ: 信号を処理します。<br/>メディアプロセッサ: メディアのバイパスがオンになっている場合を除き、メディアを処理します。<br/><br/>この2つのサービスは、このドキュメントの後半で説明するように、Microsoft Cloud で個別の IP アドレスを持ちます。<br/><br/>詳細については、「 [Office 365 の url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」の「 [Microsoft Teams」セクション](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 |
 |メディアトランスポートプロファイル|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Microsoft Teams メディアのファイアウォールの IP アドレスとポート |詳細については、「 [Office 365 の url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。 |
@@ -169,7 +170,17 @@ Microsoft は、認定署名要求 (CSR) を生成して、SBC の証明書を�
 
 Microsoft は、お客様のリクエストに基づく追加の証明機関の追加に取り組んでいます。 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP シグナリング: Fqdn とファイアウォールのポート 
+## <a name="sip-signaling-fqdns"></a>SIP シグナリング: Fqdn 
+
+直接ルーティングは、次の Office 365 環境で提供されます。
+- Office 365
+- Office 365 GCC
+- Office 365 GCC 高
+- Office 365 DoD
+
+[Office 365 および米国政府機関](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)(GCC、gcc 高、DoD など) についての詳細はこちらをご覧ください。
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
 
 直接ルーティングの接続ポイントは、次の3つの Fqdn です。
 
@@ -191,7 +202,44 @@ Fqdn – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.m
 - 52.114.7.24 
 - 52.114.14.70
 
-シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip-all.pstnhub.microsoft.com は上記のすべての IP アドレスに解決されます。  次のポートを使用する必要があります。
+シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip-all.pstnhub.microsoft.com はこれらのすべての IP アドレスに解決されます。 
+
+
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+
+ダイレクトルーティングの接続ポイントは、次の FQDN です。
+
+**sip.pstnhub.dod.teams.microsoft.us** –グローバル FQDN。 Office 365 DoD 環境は US データセンターにのみ存在するため、第2および第3の Fqdn はありません。
+
+Fqdn – sip.pstnhub.dod.teams.microsoft.us は、次のいずれかの IP アドレスに解決されます。
+
+- 52.127.64.33
+- 52.127.68.34
+
+シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.dod.teams.microsoft.us はこれらのすべての IP アドレスに解決されます。 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高環境
+
+ダイレクトルーティングの接続ポイントは、次の FQDN です。
+
+**sip.pstnhub.gov.teams.microsoft.us** –グローバル FQDN。 GCC 高環境は US データセンターにのみ存在するため、第2の Fqdn はありません。
+
+Fqdn – sip.pstnhub.gov.teams.microsoft.us は、次のいずれかの IP アドレスに解決されます。
+
+- 52.127.88.59
+- 52.127.92.64
+
+シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.gov.teams.microsoft.us はこれらのすべての IP アドレスに解決されます。 
+
+## <a name="sip-signaling-ports"></a>SIP シグナリング: ポート
+
+ダイレクトルーティングが提供されているすべての Office 365 環境では、ポート要件は同じです。
+- Office 365
+- Office 365 GCC
+- Office 365 GCC 高
+- Office 365 DoD
+
+次のポートを使用する必要があります。
 
 |**通過**|**開始**|**終了**|**送信元ポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
@@ -212,11 +260,25 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>メディアトラフィック: ポート範囲
-注: メディアをバイパスせずにダイレクトルーティングを展開する場合は、以下の要件が適用されます。 メディアをバイパスするためのファイアウォール要件については、「[ダイレクトルーティングによるメディアバイパスの計画](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)」を参照してください。
+以下の要件は、メディアをバイパスせずにダイレクトルーティングを展開する場合に適用されることに注意してください。 メディアバイパスのファイアウォール要件については、「[ダイレクトルーティングによるメディアバイパスの計画](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)」を参照してください。
+
+
 
 メディアトラフィックは、Microsoft Cloud の別のサービスとの間でフローします。 メディアトラフィックの IP 範囲:
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
+
 - 52.112.0.0/14 (52.112.0.1 から52.115.255.254 に対する IP アドレス)。
 
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高環境
+
+- 52.127.88.0/21
+
+### <a name="port-range-applicable-to-all-environments"></a>ポート範囲 (すべての環境に適用される)
 メディアプロセッサのポート範囲は、次の表のように表示されます。 
 
 |**通過**|**開始**|**終了**|**送信元ポート**|**宛先ポート**|

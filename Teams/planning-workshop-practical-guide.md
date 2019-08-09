@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa67b6f788edfabb361b7390ce460f4af812d305
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6d6286ef37d90177ac719015ebfb76c67418c121
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237360"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253911"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、導入
 
@@ -50,5 +50,11 @@ ms.locfileid: "36237360"
 [Teams のための IT 管理者の準備状況のリソース](ITAdmin-readiness.md)
 
 [導入ツール](adopt-tools-and-downloads.md)
+
+[Skype for Business から Teams へのアップグレード計画ワークショップ](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+
+[オンプレミスから Teams にユーザーを移動する](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+
+[組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md)
 
 

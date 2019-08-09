@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: この記事では、Mac クライアント用の Skype for Business で利用できる、クライアントの基本設定と既定値について説明します。また、それらをアプリ以外から編集する方法についても説明します。
-ms.openlocfilehash: 6b343c076d0fd1736cc6974a5c33103f0b6dfcda
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe8e6280fc939283bccb02641672a4fec6d5481c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234191"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271279"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Skype for Business での Mac クライアントのエクスペリエンスをカスタマイズする
  
@@ -34,7 +34,7 @@ Mac クライアント上の Skype for Business で利用できる特定の機�
 
 | キー | 型 | 値 | 説明 |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |ブール    |0 = 手動のサーバー構成  <br/> 1 = 自動のサーバー構成 (既定)    |Skype for Business で、サインイン時に使用するトランスポートとサーバーの識別方法を指定します。 このポリシー設定を有効にする場合は、**internalAutoDiscoveryURL** および **externalAutoDiscoveryURL** を有効にする必要があります。   |
+|Autoの Autodicの Overyurl    |ブール    |0 = 手動のサーバー構成  <br/> 1 = 自動のサーバー構成 (既定)    |Skype for Business で、サインイン時に使用するトランスポートとサーバーの識別方法を指定します。 このポリシー設定を有効にする場合は、**internalAutoDiscoveryURL** および **externalAutoDiscoveryURL** を有効にする必要があります。   |
 |internalAutoDiscoveryURL    |String    |完全な自動検出 URL    |内部自動検出 URL    |
 |externalAutoDiscoveryURL    |String    |完全な自動検出 URL    |外部自動検出 URL    |
 |httpProxyDomain    |String    ||HTTP プロキシ ドメイン    |

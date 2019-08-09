@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft Teams でクラウド音声機能を展開するための実用的なガイダンス。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237032"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271402"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
 
@@ -32,7 +32,7 @@ Microsoft Teams では、ユーザーはチーム会議やグループ通話を�
 チームユーザーの会議を記録するには、テナントに対して Microsoft Stream を有効にする必要があります。 さらに、会議の開催者とレコーディングを開始するユーザーの両方に対して、次の前提条件が必要になります。
 
 - ユーザーには、Office 365 E1、E3、E5、A1、A3、A5、M365 Business、Business Premium または Business Essentials が含まれています。
-- ユーザーは Microsoft Stream のライセンスが必要です
+- ユーザーには Microsoft Stream<sup>1</sup>のライセンスが必要です 
 - ユーザーは Microsoft Stream アップロードのビデオアクセス許可を持っています
 - ユーザーは管理者によって設定されている場合、会社のガイドラインに各人しました。
 - レコーディングを保存するために Microsoft Stream に十分なストレージがあるユーザー
@@ -41,6 +41,8 @@ Microsoft Teams では、ユーザーはチーム会議やグループ通話を�
 
 > [!NOTE]
 > さらに、レコーディングを開始するユーザーがレコーディングを自動的に議事録に追加するかどうかを選択できるようにするには、ユーザーの TeamsMeetingPolicy/AllowTranscription 設定を true に設定する必要があります。
+
+<sup>1</sup>ユーザーは Microsoft Stream との会議をアップロード/ダウンロードするためのライセンスが必要ですが、会議を記録するためのライセンスは必要ありません。 ユーザーによる Microsoft Teams 会議の記録をブロックする場合は、$False に AllowCloudRecording が設定されている TeamsMeetingPolicy を付与する必要があります。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>組織内のユーザーに対して Teams クラウド会議のレコーディングを設定する
 

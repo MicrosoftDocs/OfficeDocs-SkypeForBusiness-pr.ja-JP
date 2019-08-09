@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6478938f26fb911cd3dc8f6ca8a7972cc906dd8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237672"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271383"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 Government の計画-GCC 高展開
 
@@ -78,14 +78,14 @@ Microsoft 365 Government –米国政府のお客様向けの高度な機能に�
 |-----------------------------|-----------------------------|----------------|
 | 技術 | ログイン | 利用可能 |
 | | プレゼンス | 利用可能 |
-| | 統合されたプレゼンス (Skype for Business および Teams 統合) | 政府バックログの場合 |
+| | 統合されたプレゼンス (Skype for Business および Teams 統合) | 利用可能 |
 | 処理 | クロス | 利用可能 |
 |  | マイアクティビティ | 利用可能 |
 | チャット | チャット | 利用可能 |
 | | ファイル | 利用可能 |
 | | 組織図 | 利用可能 |
 | | 処理 | 利用可能 |
-| | 相互運用 (1:1 チーム-Skype for Business チャット) | 政府バックログの場合 |
+| | 相互運用 (1:1 チーム-Skype for Business チャット) | 利用可能 |
 | Teams | チャネルメッセージ | 利用可能 |
 | | チャネルファイル | 利用可能 |
 | | OneNote タブ | 政府バックログの場合 |
