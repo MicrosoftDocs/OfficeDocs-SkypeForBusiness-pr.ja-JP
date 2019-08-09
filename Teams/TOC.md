@@ -1,9 +1,7 @@
 <!-- ============================================================ -->
 # [Teams へようこそ](teams-overview.md)
 # [Teams のロールアウト方法](How-to-roll-out-teams.md)
-# [ポスター：Teams アーキテクチャとテレフォニーソリューション](teams-architecture-solutions-posters.md)
-#       
-#        
+# [ポスター：Teams アーキテクチャとテレフォニーソリューション](teams-architecture-solutions-posters.md)  
 
 <!-- ============================================================ -->
 
@@ -672,6 +670,7 @@
 ### [Microsoft 365 Government の計画: GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 Government の計画: GCC High](plan-for-government-gcc-high.md)
 ### [Microsoft 365 Government の計画: DoD](plan-for-government-dod.md)
+### [GCC High および DoD のダイレクト ルーティングを使用する電話会議](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
 <!-- ============================================================ -->
 
