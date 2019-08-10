@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e91b0e25a7844634577083b26d74a48c788bc45b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
+ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237054"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "36286258"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性の設定
 
-[クラウドビデオ相互運用パートナーを選択](cloud-video-interop.md)した後は、展開を計画し、プロビジョニングの詳細とパートナーのテナントキーを設定して、組織内のビデオ相互運用機能アプリへの同意を得る必要があります。 次の図は、プロセスの概要を示しています。 
+[クラウドビデオの相互運用パートナーを選択](cloud-video-interop.md)した後は、展開を計画し、プロビジョニングの詳細とパートナーのテナントキーを設定して、組織内のビデオ相互運用アプリへの同意を得る必要があります。 次の図は、プロセスの概要を示しています。 
 
 ![組織での CVI の展開](media/deploying-cvi.png)
 
