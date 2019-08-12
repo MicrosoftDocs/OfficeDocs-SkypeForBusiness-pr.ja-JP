@@ -5,24 +5,25 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Skype for Business Online から Microsoft Teams へのアップグレードによる移行に関してよく寄せられる質問を次に示します。
 localization_priority: Priority
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 023278f24093d862a69518b9173a076a609eab97
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 8e54922f0ac71f35cda652946a322560dab5ab66
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934535"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240551"
 ---
-# <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
+# <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
 > [!Tip]
 > Skype for Business から Microsoft Teams への正常なアップグレードを計画するためのガイダンスとなる、次のビデオをご覧ください。
@@ -59,13 +60,13 @@ Microsoft では、Skype for Business Server を使用しているお客様が�
 
 2019 年 9 月 1 日より、すべての新規 Office 365 ユーザーは Teams を利用できるようになり、Skype for Business Online にアクセスできなくなります。 既に Skype for Business Online を使用しているテナントは、Teams への移行を完了するまで、(新規ユーザーのプロビジョニングも含めて) 利用を継続することができます。 
 
-### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deployingor-planning-to-deployskype-for-business-in-office-365"></a>Office 365 での Skype for Business の展開を現在進めているお客様や、展開を計画しているお客様に対する推奨事項を教えてください。 
+### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deploying--or-planning-to-deploy--skype-for-business-in-office-365"></a>Office 365 での Skype for Business の展開を現在進めているお客様や、展開を計画しているお客様に対する推奨事項を教えてください。 
 
 現在 Skype for Business Online を展開しているお客様は、引き続きご使用いただけます。 すべての新規 Office 365 ユーザーには、単独で、または Skype for Business と並行して Teams の使用を開始し、ビジネス ニーズを満たすようにパス (共存または Teams のみ) とタイミングを特定することをお勧めします。 Skype for Business の使用期間にかかわらず、お客様は Skype for Business Online サポート終了日より前に Teams に移行していただく必要があります。
 
 ### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Teams への移行を希望するユーザーに、どのようなサポートを提供しているのかを教えてください。特に、Skype for Business Online に既に大きな投資を行っているユーザーがどのようなサポートを受けられるのかを知りたいです。 
 
-Skype for Business を使用しているすべてのお客様には、Teams の展開とアップグレードの計画を開始するようお勧めします。 Teams にユーザーを移行することを希望するお客様に対して、Microsoft はそのプロセスを制御および管理するためのツールやガイダンスを提供してサポートします。 規範的なガイダンスやベスト プラクティスが [http://aka.ms/SkypetoTeams](http://aka.ms/SkypetoTeams) で提供されています。  初回実行のエクスペリエンスおよび製品内のコーチ マークにより、Teams を初めて使用するユーザーが容易に移行することができるように支援します。 FastTrack、[講師によるトレーニング](http://aka.ms/TeamsLiveTraining)、カスタマー サポート、パートナーを、ユーザーの移行手順のガイドとして利用することができます。 さらに、Microsoft では、アップグレード計画を支援するために[アップグレード ワークショップ](https://aka.ms/SkypeToTeamsPlanning)を提供しています。 
+Skype for Business を使用しているすべてのお客様には、Teams の展開とアップグレードの計画を開始するようお勧めします。 Teams にユーザーを移行することを希望するお客様に対して、Microsoft はそのプロセスを制御および管理するためのツールやガイダンスを提供してサポートします。 規範的なガイダンスは [http://aka.ms/SkypetoTeams](http://aka.ms/SkypetoTeams) にあります。  初回実行のエクスペリエンスおよび製品内のコーチ マークにより、Teams を初めて使用するユーザーが容易に移行することができるように支援します。 FastTrack、[講師主導のトレーニング](http://aka.ms/TeamsLiveTraining)、カスタマー サポート、パートナーを、ユーザーの移行手順のガイドとして利用することができます。 さらに、Microsoft では、アップグレード計画を支援するために[アップグレード ワークショップ](https://aka.ms/SkypeToTeamsPlanning)を提供しています。 
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>ライセンスの観点から、これをどのように理解すればよいですか? Teams のインテリジェント コミュニケーション サービスに対する支払い方法を教えてください。
 
@@ -211,9 +212,9 @@ Skype for Business 管理コンソールと同様に、Microsoft 365 管理セ�
 
 Teams 会議は、Surface Hub の通話と会議のエクスペリエンスで利用できるようになりました。 詳細については、「[Surface Hub の Microsoft Teams を展開する](teams-surface-hub.md)」をご覧ください。
 
-### <a name="will-current-third-party-ip-3pip-phones-continue-to-work-with-microsoft-teamsand-if-so-how-long"></a>現在のサード パーティ製の IP (3PIP) 電話は、Microsoft Teams で引き続き動作しますか? 動作するなら、どれくらいの期間ですか? 
+### <a name="will-current-third-party-ip-3pip-phones-continue-to-work-with-microsoft-teams-and-if-so-how-long"></a>現在のサード パーティ製の IP (3PIP) 電話は、Microsoft Teams で引き続き動作しますか? その場合、どれくらいの期間ですか? 
 
-2021 年 7 月 31 日の Skype for Business Online サポート終了日以降、Teams に移行された 3PIP デバイスを持つお客様は、2023 年 7 月 31 日まで、限られた機能セットで 3PIP デバイスを引き続きご使用になれます。 
+2021 年 7 月 31 日の Skype for Business Online サポート終了日以降、Teams に移行された 3PIP デバイスを持つお客様は、2023 年 7 月 31 日まで、限られた機能セットで 3PIP デバイスを引き続きご使用になれます。
 
 ### <a name="will-certified-skype-for-business-online-phones-work-with-teams"></a>認定済み Skype for Business オンライン電話機は Teams で正常に機能しますか?
 

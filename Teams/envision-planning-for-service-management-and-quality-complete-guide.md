@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 03/16/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: rowille
 description: サービス、ネットワーク、エンドポイントの動作状態を管理することや、運用や品質チャンピオンの役割を定義することによって、高品質な Teams のユーザー エクスペリエンスを実現します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 094f6af6e1bec9cffcfaeecaabab42ec80d5ba04
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76bac106b9655e2c7fe9df9984e455a14db46209
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895196"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235941"
 ---
 # <a name="plan-for-service-management-and-quality"></a>サービス管理と品質の計画
 
@@ -182,8 +183,6 @@ Microsoft Teams はさまざまなエンドポイントをサポートします�
 > [!NOTE]
 > ネットワークの使用状況を監視するときは、1 日での平均値を使用しないようにすることが重要です。 このような平均値は、コアタイム以外の時間帯が含まれていることがあり、使用状況の実態を歪めている可能性があります。 平均値では、ピークの時間帯が隠されてしまい、根底にある問題を識別できない可能性が生じます。
 
-[ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)は、自分の展開のためのネットワーク要件を、いくつかの簡単な手順で判別して整備するのに役立ちます。 このツールを使用して自分の組織のネットワーキングの詳細とクラウド音声の使用状況を収集すると、クラウド音声の展開で必要なネットワーク要件の概算値を得ることや、レポートのためにこれらの詳細を管理してエクスポートすることや、さらなる調査対象の領域および以降の手順を確認することができます。
-
 #### <a name="quality-of-service-qos"></a>サービスの品質 (QoS)
 
 QoS は、管理対象ネットワークのすべてのセグメントで実装される必要があり、ネットワークが帯域幅について適切にプロビジョニングされている場合でも、必要となります。 このような場合では、QoS は、想定外のネットワーク負荷が生じた場合のリスクを軽減するものとして機能します。 QoS が実装されると、音声トラフィックが優先されるため、想定外のイベントが発生しても品質に影響することはありません。
@@ -261,7 +260,7 @@ Wi-Fi ネットワークの最適化には、いくつかの要素が関与し�
 
 ネットワーク評価は、Teams でのクラウド音声の機能に対応するよう設定されているすべての建物の有線および Wi-Fi ネットワークの両方で実行される必要があります。
 
-ネットワーク評価は、Microsoft パートナー、サード パーティ製のツール、または [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) を使用することによって実行されます。 準備ガイダンスの一部として、Microsoft Network Assessment Tool を使用した評価の実行方法についてのより詳しいガイダンスを、[こちら](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)でご覧いただけます。
+ネットワーク評価は、Microsoft パートナー、サード パーティ製のツール、または [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) を使用することによって実行されます。 
 
 ## <a name="plan-for-endpoint-quality"></a>エンドポイント品質の計画
 
@@ -322,8 +321,6 @@ Microsoft Teams は会議のために、または電話システムとして使�
 
 現時点では、Skype for Business の認証プログラムを通して認証されたオーディオ デバイスを使用することをお勧めします。 このプログラムで認証されたデバイスを検索する方法については、[Skype for Business 用として認証された USB デバイス](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) ソリューションのカタログをご覧ください。
 
-詳細については、「[Client and Devices - Readiness Workshop (クライアントとデバイス - 準備ワークショップ)](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)」をご覧ください。
-
 ## <a name="client-updates"></a>クライアントの更新
 
 Microsoft Teams の主なメリットの 1 つに、クライアントが自動的に最新状態に維持されるということがあります。 PC と Mac 上のクライアントは、アプリがアイドル状態のときに新しいビルドがあるかを確認したり、新しいクライアントをダウンロードしたりする、バックグラウンド プロセスを使用して更新されます。 クライアントのダウンロード サイズは約 100 MB です。
@@ -337,18 +334,17 @@ Microsoft Teams の主なメリットの 1 つに、クライアントが自動�
 | 分野 | 詳細 | 参照設定 |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | サービス管理の計画 | 運用の役割マッピングの実施 <br/> 責任のあるチームからのサインオフ <br/> 役割の準備 | [運用ガイド](1-drive-value-operate-my-service.md) |
-| | 品質チャンピオンの指名 <br/> 品質チャンピオンの準備| [CQD についての学習](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [品質エクスペリエンスのレビュー ガイド](https://aka.ms/qerguide) |
+| | 品質チャンピオンの指名 <br/> 品質チャンピオンの準備| [品質エクスペリエンスのレビュー ガイド](https://aka.ms/qerguide) |
 | | 品質エクスペリエンスのレビュー テンプレートのインストール <br/> 建物ファイルのアップロード | [QERLite テンプレート](https://aka.ms/qertemplates) <br/> [建物の情報のアップロード](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
-| ネットワーク品質の計画 | ネットワーク プランナーの実行 | [ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
+| ネットワーク品質の計画 | ネットワークの計画の実行 |  |
 | | QoS の実装 | [Microsoft Teams でのサービスの品質 (QoS)](qos-in-teams.md) |
 | | プロキシ サーバーのバイパス | [プロキシのガイダンス](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
-| | スプリット トンネル VPN の実装 | [VPN スプリット トンネルのガイダンス ](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
+| | スプリット トンネル VPN の実装 |  |
 | | リアルタイム メディアのための Wi-Fi ネットワークの最適化  | サード パーティ ベンダーに相談 |
 | | ローカルのインターネット エグレスの実施 | [ローカルのインターネット エグレス](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
 | | ネットワーク接続の実施 <br/> ネットワーク接続を検証する | [Office 365 の URL と IP アドレス](https://aka.ms/o365ips) |
-| | | [ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885) |
-| | ネットワーク評価の実行 | [ネットワークの準備状況の評価](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
+| | ネットワーク評価の実行 |[ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)   |
 | エンドポイント品質の計画 | エンドポイントのファイアウォールの更新 | [Office 365 の URL と IP アドレス](https://aka.ms/o365ips) |
 | | ソフトウェア要件の確認 | [Microsoft Teams のクライアントを取得する](get-clients.md) |
 | | エンドポイントの Wi-Fi 推奨事項の実施 | サード パーティ ベンダーに相談 |
-| | 人からデバイスへのマッピングの実施 <br/> デバイスのプロビジョニングとパイロット実施 | [クライアントとデバイス - 準備ワークショップ](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [デバイス カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+| | 人からデバイスへのマッピングの実施 <br/> デバイスのプロビジョニングとパイロット実施 | [デバイス カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
