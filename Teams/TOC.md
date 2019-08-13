@@ -72,6 +72,7 @@
 ### [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
 ### [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 ### [Teams でフィードバック ポリシーを管理する](manage-feedback-policies-in-teams.md)
+### [Teams でポリシー パッケージを管理する](manage-policy-packages.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 ### [外部アクセスを管理する](manage-external-access.md)
 ### [インライン メッセージの翻訳の使用](inline-message-translation-teams.md)
