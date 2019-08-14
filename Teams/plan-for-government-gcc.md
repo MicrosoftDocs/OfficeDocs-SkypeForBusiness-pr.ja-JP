@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baeb60f00602052d28a85337387cb0024979360e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237671"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393440"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 Government-GCC 展開を計画する
 
@@ -98,9 +98,9 @@ Office 365 の機能を活用できるだけでなく、Microsoft 365 Government
 | | 共有の制御を行う | 利用可能 |
 | | 会議室から接続する | 利用可能 |
 | | 匿名での参加 | 利用可能 |
-| | クラウドの記録 | 政府バックログの場合 |
+| | クラウドの記録 | 利用可能 |
 | | 会議のメモ | 利用可能 |
-| | ブロードキャスト会議 | 政府バックログの場合 |
+| | ライブ イベント | 利用可能 |
 | | フェデレーション会議 | 利用可能 |
 | | Surface Hub のサポート | 該当なし |
 | 通話 | 連絡先 | 利用可能 |
