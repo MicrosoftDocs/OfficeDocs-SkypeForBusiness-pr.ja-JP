@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ビジネス向けに電話システム (クラウド PBX) を計画してセットアップする方法について説明します。 '
-ms.openlocfilehash: 081355404c834edf8e9fc108d68d8fb597d6c151
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 956834a7dbfee58601cb62848a12fad6a05abdd7
+ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330541"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407983"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
 
@@ -65,7 +65,7 @@ PBX は、社内の電話システムです。 Office 365 アドオンの電話�
 |[Skype for Business の着信の転送オプションを設定する](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |即座に、または設定された期間後に、通話をチームに送信します。  <br/> |
 |[Skype for Business を使ってビデオ通話の発信と受信を行う](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 小さな浮動ウィンドウに発表者の名前とビデオストリームを表示しておくと、いつでも質問に応答できます。 <br/> |
 |[Skype for Business ボイスメールの確認とオプション](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |クラウドボイスメールのしくみは次のとおりです。ユーザーがボイスメールを受信すると、ボイスメールが添付ファイルとしてメールとして送信されます。 Skype 認定のデスクトップ電話、すべての Skype for Business アプリケーション、Lync for Mac 2011 でも、メッセージを聞くことができます。  <br/> クラウドボイスメールには、パーソナライズされたあいさつ文、メッセージ待ちインジケーター、および通話を返信する機能が含まれています。 すべてのボイスメールをメールボックスに入れて、PC、モバイルデバイス、IP 携帯電話で Skype for Business から利用できるようにすることができます。  <br/> |
-|保留音 | 2019年6月に利用可能です。電話システムは、公衆交換電話網 (PSTN) からの外部通話が保留になっているときに、サービスによって定義された既定の音楽を再生します。  この機能は、通話キューへの通話に加えて、1対1の PSTN 同士の通話に対応しています。 この機能は、他のプラットフォームとの保留通知のパリティを提供します。 (その他のすべてのプラットフォームでは、ユーザーが保留にしているときに視覚的な合図を出すことができます。ただし、PSTN の発信者に知らせる方法はありません)。 最初のリリースでは、この機能は管理者が構成することはできません。| 
+|保留音 | 2019年9月に利用可能。電話システムは、公衆交換電話網 (PSTN) からの外部通話が保留になっているときに、サービスによって定義された既定の音楽を再生します。  この機能は、通話キューへの通話に加えて、1対1の PSTN 同士の通話に対応しています。 この機能は、他のプラットフォームとの保留通知のパリティを提供します。 (その他のすべてのプラットフォームでは、ユーザーが保留にしているときに視覚的な合図を出すことができます。ただし、PSTN の発信者に知らせる方法はありません)。 最初のリリースでは、この機能は管理者が構成することはできません。| 
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Office 365 で電話システムを計画してセットアップする
 <a name="bkmk_setup"> </a>

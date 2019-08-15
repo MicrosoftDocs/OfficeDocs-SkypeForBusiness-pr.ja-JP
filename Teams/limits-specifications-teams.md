@@ -3,7 +3,6 @@ title: Microsoft Teams の制限事項と仕様
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -16,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fba07eb5ba7e0d26b34657826419172b82a7248
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ecd31a243da999704b7d466b3dc93dd66fb7ac25
+ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244838"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407882"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -45,7 +44,19 @@ ms.locfileid: "36244838"
 
 &sup3; 削除されたチャンネルは、30日以内に復元できます。 30日以内に、削除されたチャネルは、チームの上限に対して200チャネルに対してカウントされ続けます。 30日が経過すると、削除されたチャネルとそのコンテンツは完全に削除され、チャネルはチームの制限に従って200チャネルにカウントされなくなります。
 
-## <a name="meetings-and-calls"></a>会議と通話 
+## <a name="channel-names"></a>チャネル名
+
+チャネル名には、次の文字または単語を含めることはできません。
+
+|||
+|---------|---------|
+|アルファベット     | ~ #% & * {} +/\:  < > ? &#124; ' "..        |
+|これらの範囲に含まれる文字    | 0 ~ 1F<br>80から9F        |
+|いう     | フォーム、CON、CONIN $、CONIN $、PRN、AUX、NUL、COM1 から COM9、LPT1 から LPT9、desktop.ini、&#95;vti&#95;|
+
+チャネル名には、アンダースコア (_) またはピリオド (.) で始めることも、ピリオド (.) で終わらせることもできません。
+
+## <a name="meetings-and-calls"></a>会議と通話
 
 |機能     | 上限 |
 |------------|---------------|
@@ -57,7 +68,12 @@ ms.locfileid: "36244838"
 |------------|---------------|
 |対象ユーザーのサイズ | 出席者 10,000 名 |
 |イベントの期間 | 4 時間 |
-|Office 365 テナントでの同時ライブイベント | マート |
+|列  |Column2  |
+|---------|---------|
+|Row1     |         |
+|Row2     |         |
+
+|Office 365 テナントでの同時ライブイベント |15 |
 
 ライブイベントと、Teams ライブイベントと Skype 会議ブロードキャストの比較の詳細については、「 [teams live イベント」および「Skype 会議ブロードキャスト](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)」を参照してください。
 

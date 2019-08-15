@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e54922f0ac71f35cda652946a322560dab5ab66
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1ec2df17ca154ca01aac5febe572068225165435
+ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240551"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "36404544"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -34,11 +34,11 @@ ms.locfileid: "36240551"
 
 ## <a name="skype-for-business-online-retirement"></a>Skype for Business Online のサポート終了
 
-### <a name="why-is-microsoft-teams-replacing-skype-for-business-online"></a>Skype for Business Online を Microsoft Teams に置き換えるのはなぜですか? 
+### <a name="why-is-microsoft-teams-replacing-skype-for-business-online"></a>Skype for Business Online を Microsoft Teams に置き換えるのはなぜですか?
 
 Microsoft Teams では、統合アプリにファイル、チャット、アプリをまとめることにより、Skype for Business Online の持つ機能を拡張しています。その機能により、組織はより迅速に活動したり、より効率的に共同作業を行ったりできるようになります。 Teams で提供されるエクスペリエンスのセットはずっと豊富なので、Office 365 の中核的な通信クライアントを Skype for Business から Teams に置き換えます。
 
-### <a name="when-is-the-retirement-of-skype-for-business-online"></a>Skype for Business Online のサポートはいつ終了しますか? 
+### <a name="when-is-the-retirement-of-skype-for-business-online"></a>Skype for Business Online のサポートはいつ終了しますか?
 
 Skype for Business Online のサポートは 2021 年 7 月 31 日に終了します。 終了日まで、Skype for Business Online を使用しているお客様へのサービスに変更はありません。 詳細については、「[Skype for Business Online のサポート終了](https://aka.ms/sfboannounce)」を参照してください。  
 
@@ -56,17 +56,17 @@ Microsoft では、Skype for Business Server を使用しているお客様が�
 
 ### <a name="will-you-continue-to-invest-in-improving-skype-for-business-online"></a>Skype for Business を改善するための投資は継続されますか?
 
-2021 年 7 月 31 日の終了日まで、Skype for Business Online およびクライアントをサポートする予定です。 
+2021 年 7 月 31 日の終了日まで、Skype for Business Online およびクライアントをサポートする予定です。
 
-2019 年 9 月 1 日より、すべての新規 Office 365 ユーザーは Teams を利用できるようになり、Skype for Business Online にアクセスできなくなります。 既に Skype for Business Online を使用しているテナントは、Teams への移行を完了するまで、(新規ユーザーのプロビジョニングも含めて) 利用を継続することができます。 
+2019 年 9 月 1 日より、すべての新規 Office 365 ユーザーは Teams を利用できるようになり、Skype for Business Online にアクセスできなくなります。 既に Skype for Business Online を使用しているテナントは、Teams への移行を完了するまで、(新規ユーザーのプロビジョニングも含めて) 利用を継続することができます。
 
-### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deploying--or-planning-to-deploy--skype-for-business-in-office-365"></a>Office 365 での Skype for Business の展開を現在進めているお客様や、展開を計画しているお客様に対する推奨事項を教えてください。 
+### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deploying--or-planning-to-deploy--skype-for-business-in-office-365"></a>Office 365 での Skype for Business の展開を現在進めているお客様や、展開を計画しているお客様に対する推奨事項を教えてください。
 
 現在 Skype for Business Online を展開しているお客様は、引き続きご使用いただけます。 すべての新規 Office 365 ユーザーには、単独で、または Skype for Business と並行して Teams の使用を開始し、ビジネス ニーズを満たすようにパス (共存または Teams のみ) とタイミングを特定することをお勧めします。 Skype for Business の使用期間にかかわらず、お客様は Skype for Business Online サポート終了日より前に Teams に移行していただく必要があります。
 
-### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Teams への移行を希望するユーザーに、どのようなサポートを提供しているのかを教えてください。特に、Skype for Business Online に既に大きな投資を行っているユーザーがどのようなサポートを受けられるのかを知りたいです。 
+### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Teams への移行を希望するユーザーに、どのようなサポートを提供しているのかを教えてください。特に、Skype for Business Online に既に大きな投資を行っているユーザーがどのようなサポートを受けられるのかを知りたいです。
 
-Skype for Business を使用しているすべてのお客様には、Teams の展開とアップグレードの計画を開始するようお勧めします。 Teams にユーザーを移行することを希望するお客様に対して、Microsoft はそのプロセスを制御および管理するためのツールやガイダンスを提供してサポートします。 規範的なガイダンスは [http://aka.ms/SkypetoTeams](http://aka.ms/SkypetoTeams) にあります。  初回実行のエクスペリエンスおよび製品内のコーチ マークにより、Teams を初めて使用するユーザーが容易に移行することができるように支援します。 FastTrack、[講師主導のトレーニング](http://aka.ms/TeamsLiveTraining)、カスタマー サポート、パートナーを、ユーザーの移行手順のガイドとして利用することができます。 さらに、Microsoft では、アップグレード計画を支援するために[アップグレード ワークショップ](https://aka.ms/SkypeToTeamsPlanning)を提供しています。 
+Skype for Business を使用しているすべてのお客様には、Teams の展開とアップグレードの計画を開始するようお勧めします。 Teams にユーザーを移行することを希望するお客様に対して、Microsoft はそのプロセスを制御および管理するためのツールやガイダンスを提供してサポートします。 規範的なガイダンスは [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams) にあります。  初回実行のエクスペリエンスおよび製品内のコーチ マークにより、Teams を初めて使用するユーザーが容易に移行することができるように支援します。 FastTrack、[講師主導のトレーニング](https://aka.ms/TeamsLiveTraining)、カスタマー サポート、パートナーを、ユーザーの移行手順のガイドとして利用することができます。 さらに、Microsoft では、アップグレード計画を支援するために[アップグレード ワークショップ](https://aka.ms/SkypeToTeamsPlanning)を提供しています。
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>ライセンスの観点から、これをどのように理解すればよいですか? Teams のインテリジェント コミュニケーション サービスに対する支払い方法を教えてください。
 
@@ -84,19 +84,19 @@ Teams は Office 365 スイートで利用することができます。 現在 
 
 ## <a name="skype-for-business-to-teams-upgrade"></a>Skype for Business から Teams へのアップグレード
 
-### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>カスタマーとして Skype for Business Online から Teams に移行しなければならない具体的な期限はありますか? 
+### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>カスタマーとして Skype for Business Online から Teams に移行しなければならない具体的な期限はありますか?
 
 はい。 Skype for Business Online は 2021 年 7 月 31 日でサポート終了になり、その時点でアクセスまたはサポートが終わります。 Skype for Business Online を使用しているお客様には、終了日までにアップグレードを完了する十分な時間を確保するために、今すぐ Teams の使用とアップグレードの計画を開始することをお勧めします。
 
-### <a name="how-long-will-it-take-to-upgrade-my-organization-to-teams"></a>自分の組織を Teams にアップグレードするのにどのくらい時間がかかりますか? 
+### <a name="how-long-will-it-take-to-upgrade-my-organization-to-teams"></a>自分の組織を Teams にアップグレードするのにどのくらい時間がかかりますか?
 
 組織においての Skype for Business から Teams への移行は、お客様によって定義することができます。 Microsoft では、お客様の計画と実行を支援するために、変更の技術的要素と組織要素の移動に役立つ実証済みのフレームワークに基づいた包括的なアップグレード ガイダンスを開発しました。 Skype for Business から Teams への移行をナビゲートするための基礎となる、[アップグレード成功のフレームワーク](upgrade-framework.md)と関連リソースに精通して、計画を開始してください。
 
-### <a name="is-there-a-recommended-upgrade-path-for-skype-for-business-online"></a>Skype for Business Online の推奨アップグレード パスはありますか? 
+### <a name="is-there-a-recommended-upgrade-path-for-skype-for-business-online"></a>Skype for Business Online の推奨アップグレード パスはありますか?
 
 お客様には、[https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams) にある計画ガイダンスとリソースを活用して、Skype for Business Online から Teams への移行を計画し、組織のニーズに最も適したアップグレード パスを特定して実装することをお勧めします。
 
-### <a name="where-can-i-learn-more-about-coexistence-modes-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの共存モードの詳細はどこで確認できますか? 
+### <a name="where-can-i-learn-more-about-coexistence-modes-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの共存モードの詳細はどこで確認できますか?
 
 Microsoft Teams 管理センター内で、組織に適した Skype for Business から Teams への移行を組織で管理することができるようになる、共存モードのオプションが表示されています。 [共存モードとアップグレード モード](https://aka.ms/skypetoteams-coexist)の詳細については、こちらを参照してください。
 
@@ -122,11 +122,11 @@ Microsoft は、アップグレードの計画と実装を開始するために�
 
 ユーザーが Teams にアップグレードされた後 (**Teams のみ**モード) は次のようになります。
 
-- すべてのチャットと通話は Teams に移行するため、ユーザーの Skype for Business クライアントは無効になります。 このクライアントは引き続き、以前にスケジュールされた Skype for Business の会議で使用されます。 このデスクトップ クライアントがアンインストールされている場合、ユーザーは Skype for Business の Web アプリを経由して以前にスケジュールされた Skype for Business の会議にアクセスするようにリダイレクトされます。 
+- すべてのチャットと通話は Teams に移行するため、ユーザーの Skype for Business クライアントは無効になります。 このクライアントは引き続き、以前にスケジュールされた Skype for Business の会議で使用されます。 このデスクトップ クライアントがアンインストールされている場合、ユーザーは Skype for Business の Web アプリを経由して以前にスケジュールされた Skype for Business の会議にアクセスするようにリダイレクトされます。
 
-- アップグレード前にスケジュールされた Skype for Business の会議は設計されたとおりに機能しますが、新しい会議はすべて Teams でスケジュールされます。 
+- アップグレード前にスケジュールされた Skype for Business の会議は設計されたとおりに機能しますが、新しい会議はすべて Teams でスケジュールされます。
 
-- ユーザーが Skype for Business へのサインインを試みると、Teams にアップグレード済みであるという通知をクライアントから取得します。 
+- ユーザーが Skype for Business へのサインインを試みると、Teams にアップグレード済みであるという通知をクライアントから取得します。
 
 - ユーザーはモバイル デバイスから手動で Skype for Business クライアントをアンインストールする必要があります。
 
@@ -150,7 +150,7 @@ Teams は、効率性の高い帯域幅消費、堅牢なテレメトリの提�
 
 ### <a name="will-you-support-third-party-development-opportunities-in-teams"></a>Teams ではサードパーティ開発はサポートされますか?
 
-はい、アプリ統合は、Teams を導入することによって得られる大きな利点の 1 つです。 現時点では、Teams ではサードパーティのボット、コネクタ、拡張機能がサポートされています。 さらに、Microsoft Teams のアプリ ストアで利用可能なアプリの大規模なエコシステムがあります。 
+はい、アプリ統合は、Teams を導入することによって得られる大きな利点の 1 つです。 現時点では、Teams ではサードパーティのボット、コネクタ、拡張機能がサポートされています。 さらに、Microsoft Teams のアプリ ストアで利用可能なアプリの大規模なエコシステムがあります。
 
 ### <a name="is-teams-available-in-office-365-education"></a>Teams は Office 365 Education で利用することができますか?
 
@@ -170,7 +170,7 @@ Microsoft の音声ソリューションの中核は、現在利用可能な電�
 
 Microsoft Teams での通話機能は、すべての通信ニーズに対応できます。 すべての Microsoft 365 ユーザーに対しては、Teams を単独で、または Skype for Business と並行して使用することをお勧めします。
 
-### <a name="what-is-the-guidance-for-customers-using-enterprise-voice-today-who-want-to-move-to-teams-and-use-calling-capabilities"></a>現在エンタープライズ VoIP を使用していて、Teams に移行し通話機能を使用するカスタマーに向けたガイダンスを教えてください。 
+### <a name="what-is-the-guidance-for-customers-using-enterprise-voice-today-who-want-to-move-to-teams-and-use-calling-capabilities"></a>現在エンタープライズ VoIP を使用していて、Teams に移行し通話機能を使用するカスタマーに向けたガイダンスを教えてください。
 
 ご自身の電話サービスを Teams に導入することに関心があるお客様は、[ダイレクト ルーティング](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359)の一般的な利用可能性で対処することができるようになりました。 ダイレクト ルーティングと通話プランは、Microsoft Teams のダイヤル トーンでの 2 つの選択肢です。
 
@@ -204,7 +204,7 @@ Skype ミーティング システム バージョン 1 (SRS v1) ソフトウェ
 
 ### <a name="what-are-the-management-experiences-for-teams"></a>Teams の管理エクスペリエンスはどのようなものですか?
 
-Skype for Business 管理コンソールと同様に、Microsoft 365 管理センター内の [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/) が、新しい Teams のエクスペリエンスを管理する唯一の場所です。 このポータルにより、管理者はカスタムのプレゼンス、チャット、アプリ、会議、ボイスのポリシーを作成し、これらのポリシーを Teams ユーザーに割り当てることができるようになります。 
+Skype for Business 管理コンソールと同様に、Microsoft 365 管理センター内の [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/) が、新しい Teams のエクスペリエンスを管理する唯一の場所です。 このポータルにより、管理者はカスタムのプレゼンス、チャット、アプリ、会議、ボイスのポリシーを作成し、これらのポリシーを Teams ユーザーに割り当てることができるようになります。
 
 ## <a name="device-compatibility"></a>デバイスの互換性
 
@@ -212,7 +212,7 @@ Skype for Business 管理コンソールと同様に、Microsoft 365 管理セ�
 
 Teams 会議は、Surface Hub の通話と会議のエクスペリエンスで利用できるようになりました。 詳細については、「[Surface Hub の Microsoft Teams を展開する](teams-surface-hub.md)」をご覧ください。
 
-### <a name="will-current-third-party-ip-3pip-phones-continue-to-work-with-microsoft-teams-and-if-so-how-long"></a>現在のサード パーティ製の IP (3PIP) 電話は、Microsoft Teams で引き続き動作しますか? その場合、どれくらいの期間ですか? 
+### <a name="will-current-third-party-ip-3pip-phones-continue-to-work-with-microsoft-teams-and-if-so-how-long"></a>現在のサード パーティ製の IP (3PIP) 電話は、Microsoft Teams で引き続き動作しますか? その場合、どれくらいの期間ですか?
 
 2021 年 7 月 31 日の Skype for Business Online サポート終了日以降、Teams に移行された 3PIP デバイスを持つお客様は、2023 年 7 月 31 日まで、限られた機能セットで 3PIP デバイスを引き続きご使用になれます。
 
