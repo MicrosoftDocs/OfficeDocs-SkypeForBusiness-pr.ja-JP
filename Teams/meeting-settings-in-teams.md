@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 組織でスケジュールされているユーザーのチーム会議の設定を管理する方法について説明します。
-ms.openlocfilehash: c26165abdc753fbe37d3465738200c43b42d087d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1513e80028137c909f5fc0f854666b1770299c8
+ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236562"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "36404605"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -73,7 +73,10 @@ ms.locfileid: "36236562"
 
 <a name="bknetwork"> </a>
 
-Qos (Quality of Service [)](qos-in-teams.md)を使ってネットワークトラフィックの優先順位を設定している場合は、qos マーカーを有効にして、メディアトラフィックごとにポート範囲を設定することができます。
+Qos (Quality of Service [)](qos-in-teams.md)を使ってネットワークトラフィックの優先順位を設定している場合は、qos マーカーを有効にして、メディアトラフィックごとにポート範囲を設定することができます。 トラフィックの種類ごとにポート範囲を設定することは、リアルタイムメディアを処理する手順の1つにすぎません。詳細については、「 [Teams のサービスの品質 (QoS)](qos-in-teams.md) 」を参照してください。
+
+> [!IMPORTANT]
+> Microsoft Teams サービスの Microsoft Teams 管理センターで QoS を有効にしたり設定を変更したりする場合は、[すべてのユーザーデバイス](QoS-in-Teams-clients.md)とすべての内部ネットワークデバイスに一致する設定を適用して、Teams の QoS への変更を完全に実装する必要もあります。
 
  ![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
@@ -89,7 +92,7 @@ Qos (Quality of Service [)](qos-in-teams.md)を使ってネットワークトラ
     >
     > 狭い範囲のポート範囲を選択すると、通話の中断や音質の低下が発生する可能性があります。 以下の推奨事項は最小限にする必要があります。
 
- 環境で使用するポートの範囲がわからない場合は、次の設定を開始することをお勧めします。 詳細については、「 [Microsoft Teams でサービスの品質 (QoS) を実装する」](QoS-in-Teams.md)を参照してください。 必要な DSCP マーキングと、両方の Teams と ExpressRoute で使用される、対応するメディアポート範囲を示します。
+環境で使用するポートの範囲がわからない場合は、次の設定を開始することをお勧めします。 詳細については、「 [Microsoft Teams でサービスの品質 (QoS) を実装する」](QoS-in-Teams.md)を参照してください。 必要な DSCP マーキングと、両方の Teams と ExpressRoute で使用される、対応するメディアポート範囲を示します。
 
 _ポート範囲と DSCP マーキング_
 
@@ -100,8 +103,6 @@ _ポート範囲と DSCP マーキング_
 |アプリケーション/画面共有| 50040–50059      |TCP/UDP |才        |確実に転送 (AF21)|
 | | | | |
 
-\*割り当てたポート範囲は重なり合って、互いに隣り合っている必要があります。
-
-トラフィックの種類ごとにポート範囲を設定することは、リアルタイムメディアを処理する手順の1つにすぎません。詳細については、「 [Teams のサービスの品質 (QoS)](qos-in-teams.md) 」を参照してください。 Microsoft Teams 管理センターで設定を有効にするか、または変更する場合は、すべてのユーザーデバイスと内部ネットワークデバイス[に一致する設定を適用](QoS-in-Teams-clients.md)して、チーム内の QoS の変更を完全に実装する必要があります。
+\*割り当てるポートの範囲は重なり合って、互いに隣り合っている必要があります。
 
 しばらくの間 QoS が使用された後は、これら3つのワークロードのそれぞれについて、必要に応じて使用に関する情報を入手できます。また、特定のニーズに応じてどのような変更を行うかを選ぶこともできます。 [通話品質ダッシュボード](turning-on-and-using-call-quality-dashboard.md)は、そのために役立ちます。
