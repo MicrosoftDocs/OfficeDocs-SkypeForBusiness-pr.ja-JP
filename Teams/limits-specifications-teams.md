@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd31a243da999704b7d466b3dc93dd66fb7ac25
-ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
+ms.openlocfilehash: 0601ee50046d543bd252c205cd7b55acbf16a323
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36407882"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436316"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -68,12 +68,7 @@ ms.locfileid: "36407882"
 |------------|---------------|
 |対象ユーザーのサイズ | 出席者 10,000 名 |
 |イベントの期間 | 4 時間 |
-|列  |Column2  |
-|---------|---------|
-|Row1     |         |
-|Row2     |         |
-
-|Office 365 テナントでの同時ライブイベント |15 |
+|Office 365 テナントでの同時ライブイベント | マート |
 
 ライブイベントと、Teams ライブイベントと Skype 会議ブロードキャストの比較の詳細については、「 [teams live イベント」および「Skype 会議ブロードキャスト](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)」を参照してください。
 
