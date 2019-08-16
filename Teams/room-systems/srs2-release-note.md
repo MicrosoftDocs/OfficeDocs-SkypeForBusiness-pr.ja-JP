@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームでの累積的な改善点について説明します。
-ms.openlocfilehash: 5b8cd9c8fb4f84d250b40d99a60a9192ece11c52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243291"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427656"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -27,6 +27,7 @@ ms.locfileid: "36243291"
 
 |リリース |公開先 <br> Microsoft ストア |
 |--- |--- |
+|4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
 |4.0.78.0 |03/14/2019 |
@@ -54,6 +55,15 @@ ms.locfileid: "36243291"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams の会議機能の概要と問題の解決
+### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
+
+この更新プログラムで導入されたもの:
+- 新しいコンテンツカメラ機能により、ユーザーは従来のホワイトボードをチーム会議に適切に含めることができます。
+- コンソールの UI をさらに改善して、コンソール上でアクセスできる新しいサイドバーに低優先メールと移動設定を小さくする
+- ローカルコンテンツケーブルが接続されていないか、コンテンツカメラが接続されていない場合は、[共有トレイ] ボタンを無効にする
+- MTR システムの再起動後に初めて表示されたタッチキーボードの問題を修正しました。
+- 品質と信頼性の修正。
+
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 この更新プログラムで導入されたもの:

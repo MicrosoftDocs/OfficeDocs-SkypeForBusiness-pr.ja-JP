@@ -6,17 +6,17 @@ ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: M365-voice
 description: この記事では、Azure モニターを使用して、Skype for Business または Teams の実装で Microsoft Teams 室のデバイスを管理する際の計画の考慮事項について説明します。
-ms.openlocfilehash: 6536ee07ef64119d3529c7b9f279df3a7bbbdaed
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: bdd028417ff8234a10173de7b5512faff8455629
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221388"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36428091"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure モニターを使用して Microsoft Teams の会議室の管理を計画する
  

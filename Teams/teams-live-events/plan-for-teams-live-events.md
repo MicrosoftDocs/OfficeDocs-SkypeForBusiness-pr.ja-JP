@@ -3,7 +3,7 @@ title: Microsoft Teams でのライブ イベントの計画
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba4810da9ac940d9562b524ea1473b09bf3ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
+ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243661"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36429994"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -43,7 +43,10 @@ ms.locfileid: "36243661"
 - **Teams で作成されたイベントの場合** ユーザーには Teams ライセンスが割り当てられている必要があります。
 - **外部アプリまたはデバイスで生成されたイベントの場合**ユーザーには、ストリームライセンスが割り当てられている必要があります。
 
-ライセンスの詳細については、「[Microsoft Teams のアドオン ライセンス](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+> [!NOTE]
+> Teams ライブイベントは、米国政府機関向けクラウドコミュニティ (GCC) 組織で利用できるようになりました。
+
+ライセンスの詳細については、「 [Microsoft Teams のアドオンライセンス](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
 ユーザーには以下が設定されている必要があります。
 - Teams でのプライベート会議のスケジューリングが有効である (*TeamsMeetingPolicy -AllowPrivateMeetingScheduling パラメーター = True*)。

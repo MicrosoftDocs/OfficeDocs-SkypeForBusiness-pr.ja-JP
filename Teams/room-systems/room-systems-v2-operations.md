@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: このトピックでは、次世代の Skype Room Systems である Microsoft Teams のルームの管理について説明します。
-ms.openlocfilehash: b32ac786c7c039bd1eaab060e12b7141a8d8cf72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288564"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427945"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams の会議室のメンテナンスと操作 
  
@@ -80,7 +80,10 @@ Microsoft Teams の会議室が正常に動作していない場合は、出荷�
 |net accounts /maxpwage:unlimited  <br/> または、ローカルアカウントのパスワードの有効期限を無効にすることもできます。 そうしないと、有効期限が切れたパスワードについて、Skype アカウントがログオンに失敗することになります。 これは、マシン上のすべてのローカルアカウントに影響を与えるため、これを設定しないと、そのボックスの管理者アカウントも最終的に有効期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
 グループポリシーを使用してファイルを転送する方法については[、「ファイルを構成](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)する」をお勧めします。
-  
+
+> [!NOTE]
+> Microsoft Teams の会議室デバイスが次のバージョンの Windows 10 OS と互換性がある場合、デバイスは Windows Update 経由で次のバージョンに自動的に更新されます。 Microsoft Teams 室のデバイスは、手動で、または「Windows Update for Business (WUFB) グループポリシーを有効にする」を使用して手動でアップグレードしないでください。受信する更新プログラムの Windows の準備レベルを選択する機能の更新プログラムは、GPO を通じて受信されます。 これらのグループポリシーが有効になっているデバイスでは、Microsoft Teams の会議アプリでの Windows 10 OS 更新プログラムで問題が発生することがわかっています。
+
 ## <a name="remote-management-using-powershell"></a>PowerShell を使用したリモート管理
 <a name="RemotePS"> </a>
 

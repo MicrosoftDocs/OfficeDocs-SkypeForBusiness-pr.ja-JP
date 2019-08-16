@@ -7,16 +7,16 @@ ms.reviewer: davgroom
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。
-ms.openlocfilehash: cbfb3ef1ec033389894b3b7479e454160dc77b1b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90e6db7739a4a95e3f1fbde62f5b8dd8bde9e237
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305485"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427989"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Microsoft Teams Rooms の回復ツールを使用する
  
@@ -33,7 +33,7 @@ ms.locfileid: "34305485"
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Windows のバージョンを確認する 
 
-1. Microsoft Teams 室のデバイスから**Settings> Windows Setting> admin のサインイン**にアクセスして、管理者アカウントにログインします。 このオプションでは、ログイン画面が表示されます。
+1. [設定> Windows の設定] に移動して、管理者アカウントにログインします。 Microsoft Teams 室のデバイスから**管理者によるサインインを>** します。 このオプションでは、ログイン画面が表示されます。
 2. 既定の管理者アカウントであるパスワード`admin` `sfb`を使って、管理者アカウントにサインインします。
 3. [スタート] メニューをクリックし`winver.exe`て、検索ボックスに入力し、結果に対して [**実行]* をクリックします。
 4. [情報] ウィンドウの2行目の [バージョン] の後の番号をメモしておきます。

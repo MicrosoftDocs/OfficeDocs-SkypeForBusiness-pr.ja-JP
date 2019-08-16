@@ -6,7 +6,7 @@ ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure モニターを使用して、統合されたエンドツーエンドの方法で Microsoft Teams 室デバイスの管理を展開する方法について説明します。
-ms.openlocfilehash: 1f9a6e6ba4da22d8b14f4b1d545c0a6cfb16e14b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e52692b1a2ca8830b93a32546724b282b888c03a
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243621"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36428102"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure モニターを使用して Microsoft Teams のルーム管理を展開する
 
