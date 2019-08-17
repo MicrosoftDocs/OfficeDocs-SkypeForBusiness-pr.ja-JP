@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
-ms.openlocfilehash: ee4e674ff3d518e9f70ff17926bebf99eef65552
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: e5342ee92825eabc98037d5cf2ef1dfeab2a8031
+ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436368"
+ms.locfileid: "36447933"
 ---
 # <a name="content-cameras"></a>コンテンツのカメラ
 
