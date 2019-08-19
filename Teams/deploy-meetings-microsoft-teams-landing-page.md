@@ -16,19 +16,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a0f712b2eb753f3444b43a714d5f77fbd8b3f1a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240841"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436356"
 ---
-# <a name="meetings--conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
+# <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
 [使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 この時点で、[電話会議](deploy-audio-conferencing-teams-landing-page.md)、ビデオ、および共有を含むミーティング ワークロードを追加する準備が整っています。 これを行うには、次の操作を実行します。 
 
 
-## <a name="meetings--conferencing-deployment-decisions"></a>ミーティングと会議の展開に関する決定事項
+## <a name="meetings-and-conferencing-deployment-decisions"></a>ミーティングと会議の展開に関する決定事項
 
 Teams は、すぐに使用できる優れたエクスペリエンスを組織に提供します。既定の設定は、ほとんどの組織の業務に通用します。 この記事では、自分の組織のプロファイルとビジネスの要件に基づいて既定の設定に変更が必要かどうかを判断する際のガイダンスを示し、それぞれの変更の手順を説明します。 設定については 2 つのグループに分けて、まず、[変更する可能性が高いと考えられる](#core-deployment-decisions)中心的な部分について説明します。 2 番目のグループには、組織のニーズ応じた構成が求められる可能性がある[追加の設定](#additional-deployment-decisions)が含まれています。
 
@@ -36,7 +36,7 @@ Teams は、すぐに使用できる優れたエクスペリエンスを組織�
 > ミーティングの詳細については、セッション「[Microsoft Teams でのミーティングの概要 (IT プロフェッショナル向け)](https://aka.ms/teams-meetings-intro)」を視聴してください。
 
 
-## <a name="meetings--conferencing-prerequisites"></a>ミーティングと会議の前提条件 
+## <a name="meetings-and-conferencing-prerequisites"></a>ミーティングと会議の前提条件 
 
 組織全体にミーティングの展開を広げる前に、できる限り最高のエクスペリエンスをユーザーに提供する環境が整っているかどうかを再確認するための時間を割いてください。 次の情報を確認して、環境に必要に応じた変更を実行します。
 
