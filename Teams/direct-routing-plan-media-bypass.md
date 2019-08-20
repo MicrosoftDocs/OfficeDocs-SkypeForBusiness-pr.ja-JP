@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: このトピックでは、電話システムのダイレクトルーティングを使用してメディアのバイパスを計画する方法について説明します。
-ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a6f13b8f7db767d8a6a16f8f4493f15aeed9af38
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271448"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464592"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -290,7 +290,7 @@ UDP/SRTP | トランスポートリレー | SBC | 50 000-59 999    | SBC で定�
 
 ### <a name="requirements-for-using-media-processors"></a>メディアプロセッサを使うための要件
 
-メディアプロセッサは、常にボイスアプリケーションと Web cleints (exampe の場合は、Edge または Google Chrome の Teams cleint のメディアパス) にあります。 要件は、非バイパス構成の場合と同じです。
+メディアプロセッサは、常にボイスアプリケーションおよび Web クライアント (たとえば、エッジまたは Google Chrome の Teams クライアント) のメディアパスにあります。 要件は、非バイパス構成の場合と同じです。
 
 
 メディアトラフィックの IP 範囲は 
@@ -353,7 +353,7 @@ Teams クライアントと3PIP 電話を使用するユーザー | 超える | 
 
 メディアのバイパスは、すべてのチームのエンドポイントでサポートされています。
 
-注 webcleints (Microsoft Edge、Google Chrome、Mozilla Firefox の Teams Web アプリ) では、着信がバイパスの呼び出しとして開始されても、バイパスなしに変換されます。 これは自動的に行われるため、管理者に対して操作を行う必要はありません。 
+注 web クライアント (Microsoft Edge、Google Chrome、Mozilla Firefox の Teams Web アプリ) では、バイパス呼び出しとして開始された場合でも、呼び出しを非バイパスに変換します。 これは自動的に行われるため、管理者からの操作は必要ありません。 
  
 ## <a name="see-also"></a>関連項目
 

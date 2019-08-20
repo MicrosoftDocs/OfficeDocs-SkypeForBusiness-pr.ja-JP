@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: このトピックを使用して、Skype for Business Server 2019 サーバーとドメインインフラストラクチャを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項、証明書の DNS、ファイル共有、Active Directory の情報と共に、サーバーファームのインストールと展開が正常に行われるようにするために、ここに記載されています。'
-ms.openlocfilehash: b173097377c100fcb03b07d7a502e1e6c096608f
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: f54b6647a57cf61cb1ad85ad55985243129242f7
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925327"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464415"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 のシステム要件
  
@@ -540,10 +540,13 @@ Skype for Business Server 2019 では、すべてのファイルストレージ�
   
 - ファイル共有は、直接取り付け記憶域 (DAS) と記憶域ネットワーク (SAN) のいずれかに配置する必要があり、またファイル共有には、分散ファイル システム (DFS) だけでなくファイル ストア用の RAID (Redundant Array of Independent Disks) も含まれます。 Windows Server 2012 向け DFS について詳しくは、[この dfs のページ](https://technet.microsoft.com/en-us/library/jj127250.aspx)をご覧ください。
     
-- ファイル共有の共有クラスターをお勧めします。 いずれかを使用している場合は、Windows Server 2012 または Windows Server 2012 R2 をクラスター化する必要があります。 最新の Windows の理由 以前のバージョンには、すべての機能を有効にするための適切な権限がない場合があります。 クラスターアドミニストレーターを使用してファイル共有を作成することができます。また、このよう[なクラスターの KB 記事を作成](https://support.microsoft.com/en-us/help/224967)することで、これらの詳細を確認できます。
+- ファイル共有の共有クラスターをお勧めします。 既にいずれかのバージョンを使用している場合は、Windows Server 2012 以降のバージョンをクラスター化する必要があります。
+
+> [!Note]
+> **最新の Windows の理由** 以前のバージョンには、すべての機能を有効にするための適切な権限がない場合があります。 クラスターアドミニストレーターを使用して、ファイル共有を作成できます。 詳細について[は、](https://support.microsoft.com/help/224967)このサポート記事の記事を参照してください。
     
 > [!CAUTION]
-> ファイル共有にネットワーク接続ストレージ (NAS) は使用できません。ファイル共有には、上記のいずれかの選択肢を利用してください。 
+> ファイル共有にネットワーク接続ストレージ (NAS) は使用できません。ファイル共有には、上記のいずれかの選択肢を利用してください。 このサポートの制限は、デバイスの共有ファイルシステムにアクセスする Windows Server ベースのコンピューターにファイルシステムの適応性を提供する必要がある、NAS デバイスの可変設計によって発生します。
   
 
 

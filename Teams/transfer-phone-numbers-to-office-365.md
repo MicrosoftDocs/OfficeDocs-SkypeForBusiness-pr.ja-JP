@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 電話番号を Teams に移行する前に知っておく必要があることと、それを転送するためのポートの順序を作成する方法について説明します。
-ms.openlocfilehash: 9c0a7cd6957991257bc0cdb7feedacc8c0c49b24
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347795"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464570"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Office 365 に電話番号を転送する
 
@@ -39,7 +39,7 @@ ms.locfileid: "35347795"
   > [!NOTE]
   > お客様は、電話番号を米国の就業日にのみ転送するためのポート注文を処理します。これは、休日または週末ではありません。
   
-## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teamss"></a>ポート注文を作成して、電話番号を Teamss に移行する方法
+## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>ポート注文を作成して、電話番号を Teams に転送する方法
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]

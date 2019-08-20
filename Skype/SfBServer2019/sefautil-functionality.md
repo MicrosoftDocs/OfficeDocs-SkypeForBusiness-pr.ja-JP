@@ -11,16 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: 累積的な更新プログラム1をインストールした後、PowerShell を使用して Skype for Business Server 2019 の SEFAUtil 機能を入手する方法について説明します。'
-ms.openlocfilehash: 1c5d8d32c1b7b1b988b0ab39c79e4a7f40752875
-ms.sourcegitcommit: 14700a4faab81a294ac794f25b26619a5ed242a5
+ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821331"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464552"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Skype for Business Server 2019 の PowerShell 経由で SEFAUtil 機能を使用する
 
-SEFAUtil (セカンダリ拡張機能のアクティブ化) では、skype for business Server の管理者およびヘルプデスクエージェントは、Skype for Business Server ユーザーの代わりに、代理人の呼び出し、着信の転送、グループ通話のピックアップの設定を構成できます。 また、管理者は特定のユーザー向けに公開されているコール ルーティング設定のクエリを実行できます。 この更新プログラムをインストールした後、SEFAUtil を使用してのみ現在管理できる次の機能は、PowerShell を使用して管理することもできます。
+SEFAUtil (セカンダリ拡張機能のアクティブ化) では、skype for business Server の管理者およびヘルプデスクエージェントは、Skype for Business Server ユーザーの代わりに、代理人の呼び出し、着信の転送、グループ通話のピックアップの設定を構成できます。 また、管理者は特定のユーザー向けに公開されているコール ルーティング設定のクエリを実行できます。 Skype for Business Server 2019 年7月の累積更新プログラムをインストールした後、SEFAUtil を使用してのみ現在管理できる次の機能は、PowerShell を使用して管理することもできます。
 
 - [着信の転送設定](#call-forwarding-settings)
 - [委任の設定](#delegation-settings)

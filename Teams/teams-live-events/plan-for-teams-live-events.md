@@ -3,7 +3,7 @@ title: Microsoft Teams でのライブ イベントの計画
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/15/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
-ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
+ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36429994"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464558"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -73,11 +73,12 @@ live イベントが**組織全体**のオプションを使って設定され�
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams ライブ イベントと Skype 会議ブロードキャスト
+
 次の表に、ライブ イベントで提供されるコア機能と特徴、および Skype 会議ブロードキャストとの相違点を示します。 
 
 |**機能**   |**Skype 会議ブロードキャスト** |**Teams で作成されたイベント** |**外部アプリまたはデバイスで作成されたイベント** |
 |---------|---------|---------|---------|
-|最大視聴者数 |出席者 10,000 名 |出席者 10,000 名* |出席者 10,000 名* |
+|最大視聴者数 |出席者 10,000 名 |1万出席者<sup>1</sup> |1万出席者<sup>1</sup> |
 |ライブ イベントの最大期間 |4 時間 |4 時間 |4 時間 |
 |Office 365 テナントあたりの同時ライブイベントの最大数 |マート  | マート  | マート  |
 |ライブ イベントの作成 |   Skype 会議ブロードキャスト ポータル |Teams、Teams 経由の Yammer | Teams、Teams 経由の Yammer、Stream |
@@ -102,8 +103,7 @@ live イベントが**組織全体**のオプションを使って設定され�
 |ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |X |
 |視聴者の感情分析 – ライブ投票/投票 |&#x2714; (Microsoft Pulse) |X |X |
 
-> [!IMPORTANT]
-> 設定されている制限は変更される場合があります。
+<sup>1</sup>設定された制限が変更される場合があります。
 
 ## <a name="regional-availability"></a>利用可能な地域
 世界中の複数の地域で Teams ライブ イベントを使用できます。 次に、イベント チームのメンバーと出席者向けの利用状況を示します。 
@@ -118,7 +118,7 @@ live イベントが**組織全体**のオプションを使って設定され�
 - Go Local Canada
 
 **除外対象と考慮事項**
-- **ローカルに移動:** 英国、インド、オーストラリア、日本、その他の Teams は現在サポートされていません。
+- **ローカルに移動:** 英国とその他の Teams は、現在、ローカルではサポートされていません。
 - **中国:** 中国では Azure CDN にアクセスできないため、イベント チームのメンバーと出席者は Teams ライブ イベントを使用できません。 企業の VPN 接続を使用して、顧客の企業ネットワーク経由でクライアントを CDN に接続することにより、これを回避できます。
 
 ## <a name="next-steps"></a>次のステップ

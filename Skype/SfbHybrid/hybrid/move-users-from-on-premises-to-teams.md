@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ユーザー設定を移行し、ユーザーを Teams に移動する方法について説明します。'
-ms.openlocfilehash: 1a0b126537c02376eaf28f40e843295aa5582dd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c655d8ecaa5856a57d7e675676c0ba5e8c2c43d6
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160634"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464680"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>オンプレミスから Teams へのユーザーの移動
 
@@ -38,6 +38,11 @@ ms.locfileid: "36160634"
     ![ユーザーを Teams にリダイレクトするメッセージ](../media/go-to-teams-page.png)
 
 ユーザーを移動する前に、ユーザーをクラウドに移動するための[前提条件](move-users-between-on-premises-and-cloud.md#prerequisites)を確認してください。 また[、Teams と Skype For business を併用している組織の移行と相互運用性のガイダンス](/microsoftteams/migration-interop-guidance-for-teams-with-skype)を確認してください。
+
+
+> [!NOTE]
+> 連絡先を Teams に移行するには、オンプレミスの SfB アカウントで統合連絡先ストアを無効にする必要があります。
+
 
 オンプレミスから Teams にユーザーを移動するには、次の2つの方法があります。
 
@@ -86,6 +91,9 @@ Move-CsUser は、オンプレミスの Skype for Business 管理シェル Power
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>今後 Teams に移行するために、Skype for Business のオンプレミスユーザーに通知する
 
 Skype for business Server 2015 と CU8 のオンプレミスの管理ツール、および Skype for Business Server 2019 では、今後 Teams への移行の際に社内の Skype for Business ユーザーに通知することができます。 これらの通知を有効にすると、ユーザーには、次に示すように、Skype for Business クライアント (Win32、Mac、web、およびモバイル) に通知が表示されます。 ユーザーが [**試す**] ボタンをクリックすると、Teams クライアントがインストールされている場合は起動されます。そうしないと、ユーザーはブラウザー内の Teams の web バージョンに移動します。 既定では、通知が有効になっている場合、Win32 Skype for Business クライアントは、ユーザーを Teams のみモードに移行する前に、リッチクライアントが使用可能になるように Teams クライアントをダウンロードします。ただし、この動作を無効にすることもできます。  通知はの`TeamsUpgradePolicy`社内バージョンを使用して構成され、Win32 クライアントのサイレントダウンロードは社内`TeamsUpgradeConfiguration`のコマンドレットによって制御されます。
+
+> [!TIP]
+> CU8 を使用して Skype for Business 2015 で動作するために、一部のサーバーで再起動が必要になることがあります。
 
 ![Teams への今後の移行の通知](../media/teams-upgrade-notification.png)
 

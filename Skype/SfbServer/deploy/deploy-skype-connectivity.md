@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: skype for Business Server を Skype コンシューマーと接続する方法について説明します。 これは、Skype 接続とも呼ばれます。'
-ms.openlocfilehash: b41e974b2162826f375f2cce2b2eabbae320871b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235706"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464602"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype for Business Server に Skype の接続を展開する
 
@@ -98,14 +98,14 @@ Skype for Business Server は、フェデレーションアクセスアーキテ
   
 ### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>Skype for Business Server パブリック IM 接続プロビジョニングサイトは利用できなくなりました
 
-以前に Skype for Business のオンプレミスの展開と Skype の間のフェデレーションを手動でプロビジョニングするために使用されていたサイト。 Skype は不要になったため、8/15/2019 でシャットダウンされます。 Skype とのフェデレーションでは、フェデレーションパートナー検出が利用されるようになりました。これは、Skype for Business Online とのフェデレーションに必要なメカニズムと同じです。
+以前は Skype for Business のオンプレミス展開の間でフェデレーションを手動でプロビジョニングするために使用されていたサイト。 Skype は不要になったため、8/15/2019 でシャットダウンされます。 Skype とのフェデレーションでは、フェデレーションパートナー検出が利用されるようになりました。これは、Skype for Business Online とのフェデレーションに必要なメカニズムと同じです。
 
-オンプレミスの Skype for Business の展開と、既存のパブリック IM インフラストラクチャを介した Skype ユーザーの間の通信には、オンプレミスエッジサーバー構成が Skype for Business Online と互換性がある必要があります。
+既存のパブリック IM インフラストラクチャを使用して、オンプレミスの Skype for Business 展開と Skype ユーザー間の通信を行うには、オンプレミスエッジサーバー構成が Skype for Business Online と互換性がある必要があります。
 
 > [!NOTE]
 > ほとんどのお客様は、Skype for Business Online とフェデレーションされているすべての展開を含む、何もする必要はありません。
   
-オンプレミスの展開では、ホストしている各ドメインのフェデレーション DNS SRV レコードを公開する必要があります。 ガイダンスは DNS の[計画](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning)で利用できます。 各ドメインは、DNS SRV クエリによって、ドメインの最上位レベルのサフィックス一致を満たすエッジサーバーの FQDN に解決する必要があります。 たとえば、"contoso.com" というドメインを考えます。
+オンプレミスの展開は、ホストしている各ドメインのフェデレーション DNS SRV レコードを公開するために必要です。 ガイダンスは DNS の[計画](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning)で利用できます。 各ドメインは、DNS SRV クエリによって、ドメインの最上位レベルのサフィックス一致を満たすエッジサーバーの FQDN に解決する必要があります。 たとえば、"contoso.com" というドメインを考えます。
 
 |**有効な Fqdn**|**コメント**|
 |:-----|:-----|
@@ -121,7 +121,7 @@ Skype for Business Server は、フェデレーションアクセスアーキテ
 #### <a name="faqs"></a>社外
 
 **プロビジョニング web サイトがシャットダウンされるのはなぜですか?**
-2006に展開されたパブリック IM (PIC) プロビジョニングメカニズム (pic.lync.com) は処理されなくなり、8/15/2019 でシャットダウンされます。 代わりに、パブリック IM フェデレーションは、"パートナー検出" と呼ばれる Skype for Business Online で使用されているのと同じフェデレーションモデルを前提としており、オンプレミスの展開はフェデレーション DNS SRV レコードによってパブリックに検出されます。
+2006に展開されたパブリック IM (PIC) プロビジョニングメカニズム (pic.lync.com) は処理されなくなり、8/15/2019 でシャットダウンされます。 代わりに、パブリック IM フェデレーションは、"パートナー検出" と呼ばれる Skype for Business Online で使用されているものと同じフェデレーションモデルを想定し、オンプレミスの展開はフェデレーション DNS SRV レコードによって公開されます。
 
 **この変更は、パブリック IM フェデレーションが廃止されていることを意味しますか?**
 いいえ。 パブリック IM フェデレーションは、多くの場合、Skype for Business オンプレミス製品が終了するまで、引き続きサポートされます。
@@ -133,7 +133,7 @@ Skype for Business Server は、フェデレーションアクセスアーキテ
 いいえ。 Edge サーバーのプロキシ設定で、Skype for Business Online ホスティングプロバイダー (sipfed.online.lync.com) とのフェデレーションを有効にしない場合、この変更による影響はありません。 ただし、Skype for Business Online とのフェデレーションに適用されるのと同じ DNS と証明書の要件は、Skype ユーザーとのフェデレーションにも適用されるようになりました。
  
 **会社は大規模で、規制/コンプライアンス/その他の理由により、エッジ構成を変更することはできません。何ができますか?**
-指定したエッジサーバーの構成を変更できないオンプレミスの組織は、最も早い機会で製品サポートに連絡する必要があります。
+指定されたとおりにエッジサーバーの構成を変更できないオンプレミスの組織は、最も早い機会で製品サポートに連絡する必要があります。
 
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>フェデレーションとパブリック IM 接続 (PIC) の有効化
 

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271426"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464581"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -87,8 +87,11 @@ Microsoft Teams メディアのファイアウォールの IP アドレスとポ
 直接ルーティングのユーザーには、Office 365 で次のライセンスが割り当てられている必要があります。 
 
 - Microsoft 電話システム 
-- Microsoft Teams 
+- ライセンス Sku に含まれている場合、Microsoft Teams + Skype for Business プラン2
 - Microsoft 電話会議 
+
+> [!NOTE]
+> Skype for Business プランが含まれているライセンス SKU から削除しないようにしてください。 
 
 
 > [!IMPORTANT]
