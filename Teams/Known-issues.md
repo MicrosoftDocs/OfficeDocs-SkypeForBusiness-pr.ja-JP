@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f848647119fa0efa87f3928430ffbd9f0e0af6e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c24899cb15cfec26cd1ee0d3304abbea93239e4
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235196"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464487"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -82,10 +82,6 @@ ms.locfileid: "36235196"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |Internet Explorer または Edge から Teams に参加しようとすると、プログラムが一貫してループし続けるかクラッシュしてしまい、サイン インを実行しない。   <br/> | 所属する組織で Internet Explorer の [信頼済みサイト] を有効にしていて、その信頼済みサイトが Teams で許可されていないために、Teams の web ベース アプリケーションが正常にログインを実行しません。 <br/>|管理者の権限またはグループ ポリシー オブジェクトのいずれかで、次のような変更を IE の設定に対して行うか、コントロール パネルから行います。<br/><ol><li>[**インターネット オプション**] &gt; [**プライバシー**] &gt; [**詳細設定**] で、[ファースト パーティの Cookie] と [サード パーティの Cookie] を許可し、[**常にセッション Cookie を許可する**] のチェック ボックスを選択します。</li><li>[**インターネット オプション**] &gt; [**セキュリティ**] &gt; [**信頼済みサイト**] &gt; [**サイト**] をクリックして、次のすべてを追加します。<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>注意</b>: 常に Teams の信頼済み URL のすべてと、「[Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」に記載されているすべての要件を確認し、許可してください。   <br/> |2017/11/01  <br/> |
-
-|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
-|Outlook アドインの制限  <br/> |Outlook アドインを使用するには、多要素認証 (MFA) を使用して Teams にサインインする必要があります。サインイン処理の途中で MFA にエラーが発生すると、Teams に引き続きサインインすることはできますが、アドインを使用しようとするとエラー メッセージが表示されます。  <br/> アドインは、当面は Windows ユーザーのみが使用できます。  <br/> 認証プロキシを使用している場合、アドインは機能しません。  <br/> | 回避策なし。 <br/> |2017/08/02  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

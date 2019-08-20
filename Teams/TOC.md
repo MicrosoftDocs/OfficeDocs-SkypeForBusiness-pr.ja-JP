@@ -590,21 +590,18 @@
 #       
 #        
 
-
-<!-- ============================================================ -->
 # Teams へのアップグレード
+
 ## [概要](upgrade-start-here.md)
 ## [アップグレードのフレームワークについて](upgrade-framework.md)
 
-## アップグレードの行程を計画する
-### [計画の概要をアップグレードする](upgrade-plan-journey.md)
+## どのようにアップグレードするか計画する
+
+### [アップグレード計画の概要](upgrade-plan-journey.md)
 ### [プロジェクト関係者に協力を求める](upgrade-enlist-stakeholders.md)
 ### [プロジェクトの対象範囲を定義する](upgrade-define-project-scope.md)
-
-### 共存および相互運用性について理解する
-#### [共存および相互運用性の概要](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [品質を計画する](upgrade-plan-for-quality.md)
+### [共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+### [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 ## Teams に向けて環境を準備する
 ### [技術準備の概要](upgrade-prepare-environment.md)
@@ -618,9 +615,15 @@
 ### [組織準備の概要](upgrade-prepare-organization.md)
 ### [組織的な変更の準備状況を評価する](upgrade-org-change-readiness.md)
 ### [ユーザーの研修計画を準備する](upgrade-user-readiness.md)
-## [ユーザー パイロットを指導する](pilot-essentials.md)
-## [Skype for Business Online から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-## [Skype for Business のハイブリッド環境またはオンプレミス環境から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
+
+## アップグレードを実装する
+### [概要](upgrade-to-Teams.md)
+### [ユーザー パイロットを指導する](pilot-essentials.md)
+### [Skype for Business Online から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+
+### [Skype for Business オンプレミスから Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
 
 ## 運用、導入、および最適化
 ### [運用計画の概要](continue-journey.md)
@@ -628,15 +631,54 @@
 ### [品質を監視する](upgrade-monitor-quality.md)
 ### [サービスを強化する](upgrade-enhance-my-service.md)
 
+
 ## [FAQ](FAQ-journey.md)
-## その他の情報
+
+## 共存について詳しく学習する
 ### [Skype for Business の移行と相互運用性](migration-interop-guidance-for-teams-with-skype.md)
 ### [Skype for Business と共存する](coexistence-chat-calls-presence.md)
 ### [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
+#       
+#        
 
 <!-- ============================================================ -->
-# 
-# 
+
+# ハイブリッド接続 
+
+## [ハイブリッド接続のプラン](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+
+## ハイブリッド接続の構成
+### [概要](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [ハイブリッド環境用の Azure AD Connect の構成](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [Skype for Business ハイブリッドの構成](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+
+## オンプレミスとクラウドの間でユーザーを移動する
+### [概要](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [オンプレミスから Teams にユーザーを移動する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [ユーザーをオンプレミスから Skype for Business Online に移動する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [ユーザーをクラウドからオンプレミスに移動する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+
+### [会議の移行を管理する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+## [ハイブリッドを無効にしてクラウドへの移行を完了する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+
+## [リソース フォレスト トポロジの展開](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+
+## Teams および Skype for Business Online のクラウド統合
+### [概要](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/cloud-consolidation)
+### [エッジ証明書の更新](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [AAD Connect を更新して複数のフォレストを含める](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+
+## [Exchange および SharePoint との統合](https://docs.microsoft.com/ja-JP/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+
+
+#       
+#        
+
+<!-- ============================================================ -->
+
+
+
 
 # 業界および政府機関向けのガイダンス
 ## [概要](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
@@ -645,6 +687,7 @@
 ### [Microsoft StaffHub はまもなく廃止予定です](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft StaffHub PowerShell モジュールをインストールする](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [レポートを実行してアクティブな StaffHub の使用状況を表示する](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
+### [StaffHub チームを Teams の Shifts に移動する計画を立てる](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 ### [Microsoft StaffHub のチームを Teams の Shifts に移動する](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Teams で組織のシフト アプリを管理する](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
