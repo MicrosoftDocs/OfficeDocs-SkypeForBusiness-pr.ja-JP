@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 ms.custom:
 - Calling Plans
 description: 組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 プランの呼び出しに使用するさまざまな電話番号をクリックして、Microsoft Teams で使用されているさまざまな電話番号を確認することができます。
-ms.openlocfilehash: 062ff78f3fc1a56a86735dacf7a52dd3066d4f28
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 33296e8b5be6137dd64d129dc3b5788576b3ee31
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347917"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483995"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>取得できる電話番号の数について
 

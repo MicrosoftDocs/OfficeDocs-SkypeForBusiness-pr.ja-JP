@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft Teams でリソースアカウントを管理する方法について説明します。
-ms.openlocfilehash: dfb7a9b65003442266cc6cf25ea59b7270aa1c9c
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: 0a53b68af411ad7085ef3abf6e978565f9ea18f0
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207169"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483563"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -192,6 +192,12 @@ Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -Telephone
 ```
 
 この操作を行うと、O365 管理ポータルの [ユーザー] タブでリソースアカウントを削除することができます。
+
+リソースアカウントから直接ルーティングする電話番号との関連付けを解除するには、次のコマンドレットを使用します。
+
+``` Powershell
+Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
+```
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 

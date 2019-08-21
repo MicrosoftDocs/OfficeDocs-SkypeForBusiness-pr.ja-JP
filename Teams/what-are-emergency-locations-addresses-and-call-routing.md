@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.locations.emergencyaddresses.overview
 - ms.lync.lac.AddressAndLocation
 ms.custom:
 - Calling Plans
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: c7e1bb719f0292bd605f920517017d2d4f6cae65
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 979fab1cd099d568278efd61d06a3f8a75b04541
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288159"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483867"
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>緊急対応の場所、アドレス、通話ルーティングとは何ですか?
 
@@ -37,7 +38,7 @@ Office 365 で通話プランを構成する場合、電話番号を取得する
 
 有効な電話番号には緊急対応の住所が必要ですが、必要な場合は国/地域によって異なります。 米国では、ユーザーに電話番号が割り当てられている場合は、緊急対応の住所が必要です。 ヨーロッパ、中東、アフリカ (EMEA) などのその他の国では、Office 365 から電話番号を取得する場合、または別のサービスプロバイダーまたは携帯電話会社から電話番号を移行する場合は、緊急対応の住所が必要です。
   
-緊急対応の住所は、都市の住所、住所、または住所と呼ばれることがあります。 緊急対応の住所は、組織の事業所の場所を示す所在地住所または行政上の住所のことです。 たとえば、住所12345北米、レドモンド、98052ワシントンの住所は、適切なディスパッチ機関に緊急通報をルーティングするために使用され、緊急通報を見つけるのに役立ちます。 通常、事業所の所在地が複数である場合は複数の緊急対応の住所が必要になります。
+緊急対応の住所は、都市の住所、住所、または住所と呼ばれることがあります。 緊急対応の住所は、組織の事業所の場所を示す所在地住所または行政上の住所のことです。 たとえば、住所*12345 北米、レドモンド、98052ワシントンの住所*は、適切なディスパッチ機関に緊急通報をルーティングするために使用され、緊急通報を見つけるのに役立ちます。 通常、事業所の所在地が複数である場合は複数の緊急対応の住所が必要になります。
   
 緊急対応の住所を検証するには、緊急対応のサービス用に正当で適切に書式設定されていることを確認する必要があります。 有効になっていない緊急対応の住所を作成して保存することもできますが、ユーザーに関連付けることができるのは検証された住所のみです。 緊急対応の住所が検証および保存されると、ユーザーに割り当てることができます。 保存および検証した緊急対応の住所を変更する必要がある場合は、新しい緊急対応の住所を作成する必要があります。
   

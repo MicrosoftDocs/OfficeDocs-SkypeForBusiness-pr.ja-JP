@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Office 365 で利用できるダイヤル通話プランの種類と、組織に合わせて選ぶ方法について説明します。  '
-ms.openlocfilehash: d6656eb317f0a90a11376e4d69935fe2a7e75384
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 71fe659b2dac511b8895689018989e0f9178d1f9
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347996"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483970"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 

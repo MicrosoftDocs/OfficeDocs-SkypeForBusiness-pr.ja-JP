@@ -14,18 +14,30 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
+- ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
+- ms.teamsadmincenter.dashboard.widget.upgrade.planning
+- ms.teamsadmincenter.dashboard.widget.upgrade.pause
+- ms.teamsadmincenter.dashboard.widget.upgrade.rolledback
+- ms.teamsadmincenter.users.teamsupgradestatuscolumn
+- ms.teamsadmincenter.users.teamsupgradepage
+- ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
+- ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 102572c8ef25ff93ca66a92c94e4ff244918ad31
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ab31a067c9a39909416228e3d580ca28c105b3da
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236050"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483948"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft Teams へのアップグレードを開始する
 
 Skype for Business から Microsoft Teams への保留中のアップグレードが完了しました。 チームの作業を開始したばかりの場合でも、Skype for Business と同時に Teams を使用している場合、またはアップグレードの準備ができている場合でも、チームへの成功を導くために必要なものがすべて揃っていることを確認する必要があります。
+
+Skype for Business Online から Teams にアップグレードする場合でも、Skype for Business オンプレミス環境から Teams にアップグレードする場合でも、アップグレードフレームワークによって、お客様のビジネスシナリオに基づいてプロセスを進めることができます。
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Microsoft Teams にアップグレードする理由
 
