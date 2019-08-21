@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft Teams でクラウド通話キューの電話システムをセットアップする方法について説明します。
-ms.openlocfilehash: 845a9ca61b7d9b4cfe325d03027241634cbdb37e
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: e4fa0b5ab5e5dd248d79286d071d9f5dcaed061f
+ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447954"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36473364"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 
@@ -67,7 +67,7 @@ ms.locfileid: "36447954"
 > 通話キューの直接ルーティングサービス番号は、Microsoft Teams ユーザーとエージェントに対してのみサポートされています。
 
 > [!NOTE]
-> インターネットに接続している組織内のユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要です。また、エンタープライズ voip に対応しているか、Office 365 の通話プランを使用している必要があります。 「 [Skype For business ライセンスの割り当て](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」または「 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)」を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次のように実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> インターネットに接続している組織内のユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要です。また、エンタープライズ voip に対応しているか、Office 365 の通話プランを使用している必要があります。 「 [Skype For business ライセンスの割り当て](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」または「 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)」を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次のように実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Office 365 の通話プランの詳細については、「[電話システムと通話プラン](calling-plan-landing-page.md)」および「 [Office 365 の通話プラン](calling-plans-for-office-365.md)」を参照してください。
 
