@@ -11,71 +11,73 @@ audience: admin
 description: Microsoft Teams テナントアプリカタログにアプリを公開するためのガイダンス。
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
+f1keywords:
+- ms.teamsadmincenter.apppermspolicies.publishtenantapps
+- ms.teamsadmincenter.apppolicies.publishtenantapps
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8f239a136ae3a2242dba45da5a68e22b8fb29c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 35f15986fa5977a08cd91ce8cc5ca40ace0daca9
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235100"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36484072"
 ---
-<a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a><span data-ttu-id="e9ba6-103">Microsoft Teams テナントアプリカタログでアプリを公開する</span><span class="sxs-lookup"><span data-stu-id="e9ba6-103">Publish apps in the Microsoft Teams Tenant Apps Catalog</span></span>
+<a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a><span data-ttu-id="3fa50-103">Microsoft Teams テナントアプリカタログでアプリを公開する</span><span class="sxs-lookup"><span data-stu-id="3fa50-103">Publish apps in the Microsoft Teams Tenant Apps Catalog</span></span>
 =======================================================
 
-<span data-ttu-id="e9ba6-104">Microsoft Teams テナントのアプリカタログを使って、基幹業務アプリケーションのテストと組織への配布を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-104">You can use the Microsoft Teams Tenant Apps Catalog to test and distribute line-of-business applications to your organization.</span></span>
+<span data-ttu-id="3fa50-104">Microsoft Teams テナントのアプリカタログを使って、基幹業務アプリケーションのテストと組織への配布を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-104">You can use the Microsoft Teams Tenant Apps Catalog to test and distribute line-of-business applications to your organization.</span></span>
 
-<span data-ttu-id="e9ba6-105">Teams テナントアプリカタログを使用すると、組織専用に構築された基幹業務アプリケーションを配布することができ、重要なビジネス機能の実行に依存することになります。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-105">The Teams Tenant Apps Catalog lets you distribute line-of-business applications that were built specifically for your organization and that you rely on to complete critical business functions.</span></span>
+<span data-ttu-id="3fa50-105">Teams テナントアプリカタログを使用すると、組織専用に構築された基幹業務アプリケーションを配布することができ、重要なビジネス機能の実行に依存することになります。</span><span class="sxs-lookup"><span data-stu-id="3fa50-105">The Teams Tenant Apps Catalog lets you distribute line-of-business applications that were built specifically for your organization and that you rely on to complete critical business functions.</span></span>
 
-<span data-ttu-id="e9ba6-106">組織のアプリを公開するには、グローバル管理者または teams サービスの管理者ロールを持つアカウントを使用してチームクライアントにサインインし、次の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-106">To publish apps for your organization, sign in to your Teams client using an account with the global admin or teams service admin roles and then follow the instructions below.</span></span>
+<span data-ttu-id="3fa50-106">組織のアプリを公開するには、グローバル管理者または teams サービスの管理者ロールを持つアカウントを使用してチームクライアントにサインインし、次の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="3fa50-106">To publish apps for your organization, sign in to your Teams client using an account with the global admin or teams service admin roles and then follow the instructions below.</span></span>
 
-## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a><span data-ttu-id="e9ba6-107">Teams クライアントからテナントアプリカタログ内のアプリを公開する</span><span class="sxs-lookup"><span data-stu-id="e9ba6-107">Publish an app in the Tenant Apps Catalog from the Teams client</span></span>
+## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a><span data-ttu-id="3fa50-107">Teams クライアントからテナントアプリカタログ内のアプリを公開する</span><span class="sxs-lookup"><span data-stu-id="3fa50-107">Publish an app in the Tenant Apps Catalog from the Teams client</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e9ba6-108">組織のアプリを公開するには、グローバル管理者または Teams サービスの管理者ロールが有効になっているアカウントを使用して、Microsoft Teams クライアントにサインインする必要があります。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-108">You need to be signed in to the Microsoft Teams client with an account that has either the global admin or teams service admin role enabled to publish apps for your organization.</span></span> <span data-ttu-id="e9ba6-109">[管理者ロールを使用してチームを管理する](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)方法について、詳細はこちらをご覧ください。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-109">Learn more about [using administrator roles to manage Teams](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).</span></span>
+> <span data-ttu-id="3fa50-108">組織のアプリを公開するには、グローバル管理者または Teams サービスの管理者ロールが有効になっているアカウントを使用して、Microsoft Teams クライアントにサインインする必要があります。</span><span class="sxs-lookup"><span data-stu-id="3fa50-108">You need to be signed in to the Microsoft Teams client with an account that has either the global admin or teams service admin role enabled to publish apps for your organization.</span></span> <span data-ttu-id="3fa50-109">[管理者ロールを使用してチームを管理する](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)方法について、詳細はこちらをご覧ください。</span><span class="sxs-lookup"><span data-stu-id="3fa50-109">Learn more about [using administrator roles to manage Teams](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).</span></span>
 
-### <a name="get-a-teams-app-package"></a><span data-ttu-id="e9ba6-110">Teams アプリパッケージを取得する</span><span class="sxs-lookup"><span data-stu-id="e9ba6-110">Get a Teams app package</span></span>
+### <a name="get-a-teams-app-package"></a><span data-ttu-id="3fa50-110">Teams アプリパッケージを取得する</span><span class="sxs-lookup"><span data-stu-id="3fa50-110">Get a Teams app package</span></span>
 
-<span data-ttu-id="e9ba6-111">Teams アプリパッケージは、 [Teams アプリ Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)を使用して作成されます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-111">A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio).</span></span> <span data-ttu-id="e9ba6-112">アプリパッケージを取得したら、エンタープライズアプリカタログに追加することができます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-112">Once you have the app package, you can add it to the enterprise app catalog.</span></span> <span data-ttu-id="e9ba6-113">テナントのすべてのユーザーがアプリカタログを表示できますが、グローバル管理者と teams サービス管理者だけが公開および管理できます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-113">While all users in the tenant can view the app catalog, only global admins and teams service admins have the ability to publish and manage it.</span></span>
+<span data-ttu-id="3fa50-111">Teams アプリパッケージは、 [Teams アプリ Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)を使用して作成されます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-111">A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio).</span></span> <span data-ttu-id="3fa50-112">アプリパッケージを取得したら、エンタープライズアプリカタログに追加することができます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-112">Once you have the app package, you can add it to the enterprise app catalog.</span></span> <span data-ttu-id="3fa50-113">テナントのすべてのユーザーがアプリカタログを表示できますが、グローバル管理者と teams サービス管理者だけが公開および管理できます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-113">While all users in the tenant can view the app catalog, only global admins and teams service admins have the ability to publish and manage it.</span></span>
 
-### <a name="go-to-the-tenant-apps-catalog"></a><span data-ttu-id="e9ba6-114">テナントアプリカタログに移動します。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-114">Go to the Tenant Apps Catalog</span></span>
+### <a name="go-to-the-tenant-apps-catalog"></a><span data-ttu-id="3fa50-114">テナントアプリカタログに移動します。</span><span class="sxs-lookup"><span data-stu-id="3fa50-114">Go to the Tenant Apps Catalog</span></span>
 
-<span data-ttu-id="e9ba6-115">Microsoft Teams クライアントを起動し、グローバルまたは Teams サービス管理者の資格情報を使用してサインインします。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-115">Start the Microsoft Teams client and sign in using your global or teams service admin credentials.</span></span> <span data-ttu-id="e9ba6-116">Microsoft Teams ストアで、特定の組織に対応する新しいセクション (この例では Contoso) を選びます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-116">From the Microsoft Teams Store, select the new section named for your specific organization (in this example, Contoso).</span></span> <span data-ttu-id="e9ba6-117">組織内のユーザーは、カタログ内のアプリを表示して、メンバーになっているチームに対してアプリをインストールできます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-117">Users in your organization can view apps in the catalog and install them for teams of which they are a member.</span></span>
+<span data-ttu-id="3fa50-115">Microsoft Teams クライアントを起動し、グローバルまたは Teams サービス管理者の資格情報を使用してサインインします。</span><span class="sxs-lookup"><span data-stu-id="3fa50-115">Start the Microsoft Teams client and sign in using your global or teams service admin credentials.</span></span> <span data-ttu-id="3fa50-116">Microsoft Teams ストアで、特定の組織に対応する新しいセクション (この例では Contoso) を選びます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-116">From the Microsoft Teams Store, select the new section named for your specific organization (in this example, Contoso).</span></span> <span data-ttu-id="3fa50-117">組織内のユーザーは、カタログ内のアプリを表示して、メンバーになっているチームに対してアプリをインストールできます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-117">Users in your organization can view apps in the catalog and install them for teams of which they are a member.</span></span>
 
 ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image01.png)
 
-### <a name="add-an-app-to-the-tenant-apps-catalog"></a><span data-ttu-id="e9ba6-119">テナントアプリカタログにアプリを追加する</span><span class="sxs-lookup"><span data-stu-id="e9ba6-119">Add an app to the Tenant Apps Catalog</span></span>
+### <a name="add-an-app-to-the-tenant-apps-catalog"></a><span data-ttu-id="3fa50-119">テナントアプリカタログにアプリを追加する</span><span class="sxs-lookup"><span data-stu-id="3fa50-119">Add an app to the Tenant Apps Catalog</span></span>
 
-1. <span data-ttu-id="e9ba6-120">ストアで、[ > **Contoso の\*\*\*\*カスタムアプリアップロードのアップロード**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-120">From the store, select **Upload a custom app** > **Upload for Contoso**.</span></span>
+1. <span data-ttu-id="3fa50-120">ストアで、[ > **Contoso の\*\*\*\*カスタムアプリアップロードのアップロード**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-120">From the store, select **Upload a custom app** > **Upload for Contoso**.</span></span>
 
     ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image02.png)
 
-    <span data-ttu-id="e9ba6-122">( **[自分のアップロード] または [自分のチーム**] (*サイドローディング*と呼ばれます) を選択することもできます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-122">(You can also choose **Upload for me or my teams**, which is called *sideloading*.</span></span> <span data-ttu-id="e9ba6-123">サイドローディングによって、アプリはチームまたは選択したチームのみが利用できるようになります。)</span><span class="sxs-lookup"><span data-stu-id="e9ba6-123">Sideloading makes the app available only to your teams or to teams you select.)</span></span>
+    <span data-ttu-id="3fa50-122">( **[自分のアップロード] または [自分のチーム**] (*サイドローディング*と呼ばれます) を選択することもできます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-122">(You can also choose **Upload for me or my teams**, which is called *sideloading*.</span></span> <span data-ttu-id="3fa50-123">サイドローディングによって、アプリはチームまたは選択したチームのみが利用できるようになります。)</span><span class="sxs-lookup"><span data-stu-id="3fa50-123">Sideloading makes the app available only to your teams or to teams you select.)</span></span>
 
-2. <span data-ttu-id="e9ba6-124">アプリパッケージに移動して選択し、[**開く**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-124">Navigate to the app package and select it, and then click **Open**.</span></span>
+2. <span data-ttu-id="3fa50-124">アプリパッケージに移動して選択し、[**開く**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3fa50-124">Navigate to the app package and select it, and then click **Open**.</span></span>
 
     ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image03.png)
 
-<span data-ttu-id="e9ba6-126">テナントアプリカタログに戻ると、新しいエンタープライズアプリが表示されます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-126">When you go back to your Tenant Apps Catalog, the new enterprise app will be there.</span></span> <span data-ttu-id="e9ba6-127">このアプリカタログには、自分と組織のメンバーのみがアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-127">Remember, only you and members of your organization have access to this app catalog.</span></span>
+<span data-ttu-id="3fa50-126">テナントアプリカタログに戻ると、新しいエンタープライズアプリが表示されます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-126">When you go back to your Tenant Apps Catalog, the new enterprise app will be there.</span></span> <span data-ttu-id="3fa50-127">このアプリカタログには、自分と組織のメンバーのみがアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-127">Remember, only you and members of your organization have access to this app catalog.</span></span>
 
-### <a name="update-an-app-in-the-tenant-apps-catalog"></a><span data-ttu-id="e9ba6-128">テナントアプリカタログのアプリを更新する</span><span class="sxs-lookup"><span data-stu-id="e9ba6-128">Update an app in the Tenant Apps Catalog</span></span>
+### <a name="update-an-app-in-the-tenant-apps-catalog"></a><span data-ttu-id="3fa50-128">テナントアプリカタログのアプリを更新する</span><span class="sxs-lookup"><span data-stu-id="3fa50-128">Update an app in the Tenant Apps Catalog</span></span>
 
-1. <span data-ttu-id="e9ba6-129">テナントアプリカタログで、[**..**.] を選びます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-129">From your Tenant Apps Catalog, select “**…**”</span></span> <span data-ttu-id="e9ba6-130">更新するアプリの右上にあります。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-130">on the top right of the app you want to update.</span></span>
+1. <span data-ttu-id="3fa50-129">テナントアプリカタログで、[**..**.] を選びます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-129">From your Tenant Apps Catalog, select “**…**”</span></span> <span data-ttu-id="3fa50-130">更新するアプリの右上にあります。</span><span class="sxs-lookup"><span data-stu-id="3fa50-130">on the top right of the app you want to update.</span></span>
 
-2. <span data-ttu-id="e9ba6-131">更新されたアプリパッケージに移動して選択し、[**開く**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-131">Navigate to the updated app package and select it, and then click **Open**.</span></span>
+2. <span data-ttu-id="3fa50-131">更新されたアプリパッケージに移動して選択し、[**開く**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3fa50-131">Navigate to the updated app package and select it, and then click **Open**.</span></span>
 
     ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image04.png)
 
-<span data-ttu-id="e9ba6-133">アプリはバージョン2.0 に更新されます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-133">The app will be revised to version 2.0.</span></span> <span data-ttu-id="e9ba6-134">このメニューから会社全体のアプリを削除することもできます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-134">You can also delete the app for your entire company from this menu.</span></span>
+<span data-ttu-id="3fa50-133">アプリはバージョン2.0 に更新されます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-133">The app will be revised to version 2.0.</span></span> <span data-ttu-id="3fa50-134">このメニューから会社全体のアプリを削除することもできます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-134">You can also delete the app for your entire company from this menu.</span></span>
 
-## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a><span data-ttu-id="e9ba6-135">Office 365 管理ポータルを使用してテナントアプリカタログを管理する</span><span class="sxs-lookup"><span data-stu-id="e9ba6-135">Use the Office 365 admin portal to manage the Tenant Apps Catalog</span></span>
+## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a><span data-ttu-id="3fa50-135">Office 365 管理ポータルを使用してテナントアプリカタログを管理する</span><span class="sxs-lookup"><span data-stu-id="3fa50-135">Use the Office 365 admin portal to manage the Tenant Apps Catalog</span></span>
 
-<span data-ttu-id="e9ba6-136">バグ修正が必要なアプリがある場合は、Office 365 管理ポータルを通じてアプリを一時的に無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-136">If you have apps that need bug fixes, you can temporarily disable apps through the Office 365 admin portal.</span></span> <span data-ttu-id="e9ba6-137">[**設定** > **サービス & アドインの** > **Microsoft Teams**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-137">Select **Settings** > **Services & add-ins** > **Microsoft Teams**.</span></span> <span data-ttu-id="e9ba6-138">以前の設定に加えて、お客様の会社のアプリ専用のセクションが追加されました。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-138">In addition to previous settings, there is now a section dedicated to your company's apps.</span></span> <span data-ttu-id="e9ba6-139">有効または無効にするアプリを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-139">You can choose which apps you want to enable or disable.</span></span>
+<span data-ttu-id="3fa50-136">バグ修正が必要なアプリがある場合は、Office 365 管理ポータルを通じてアプリを一時的に無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-136">If you have apps that need bug fixes, you can temporarily disable apps through the Office 365 admin portal.</span></span> <span data-ttu-id="3fa50-137">[**設定** > **サービス & アドインの** > **Microsoft Teams**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="3fa50-137">Select **Settings** > **Services & add-ins** > **Microsoft Teams**.</span></span> <span data-ttu-id="3fa50-138">以前の設定に加えて、お客様の会社のアプリ専用のセクションが追加されました。</span><span class="sxs-lookup"><span data-stu-id="3fa50-138">In addition to previous settings, there is now a section dedicated to your company's apps.</span></span> <span data-ttu-id="3fa50-139">有効または無効にするアプリを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="3fa50-139">You can choose which apps you want to enable or disable.</span></span>
 
 ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image05.png)
 
-<span data-ttu-id="e9ba6-141">アプリを無効にすると、アプリを完全に削除せずに、ユーザーがアプリを操作できなくなります。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-141">Disabling an app will block users from interacting with the app, without deleting the app entirely.</span></span> <span data-ttu-id="e9ba6-142">これらのコントロールを使用すると、企業でアプリを管理するときの柔軟性と制御がさらに向上します。</span><span class="sxs-lookup"><span data-stu-id="e9ba6-142">These controls give you additional flexibility and control when managing apps in your enterprise.</span></span>
+<span data-ttu-id="3fa50-141">アプリを無効にすると、アプリを完全に削除せずに、ユーザーがアプリを操作できなくなります。</span><span class="sxs-lookup"><span data-stu-id="3fa50-141">Disabling an app will block users from interacting with the app, without deleting the app entirely.</span></span> <span data-ttu-id="3fa50-142">これらのコントロールを使用すると、企業でアプリを管理するときの柔軟性と制御がさらに向上します。</span><span class="sxs-lookup"><span data-stu-id="3fa50-142">These controls give you additional flexibility and control when managing apps in your enterprise.</span></span>
