@@ -14,14 +14,16 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9db6048a9d92144506e9ddf9b75e32b47da62ec
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fb2f18cfb420c8bfa973f205541ec69e04a644c6
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239210"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483159"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
