@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams のルーム本体とその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: bb21bf6386164f65411a62870e86e1b1883560e1
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 820921cdcf35f4c4072dae3b2029527b98454dc5
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428058"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493056"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams 室コンソールを構成する
 
@@ -91,7 +91,10 @@ Windows 10 の特定のバージョンが必要です。このバージョンは
 8. インストールが完了すると、システムはシャットダウンします。
     
 システムがシャットダウンされたら、USB セットアップディスクを削除しても安全です。 この時点で、ドックにターゲットデバイスを配置し (dock ベースの製品を使用している場合)、会議室に必要な周辺機器を接続し、ネットワークに接続することができます。 製造元の指示を参照してください。
-  
+
+> [!NOTE]
+> Microsoft Teams 会議室のソフトウェア更新プログラムは、一般法人向け Microsoft Store から自動的にダウンロードされます。 会議室コンソールがストアにアクセスして自己更新を行うことができることを確認するには、「 [Microsoft Store For Business And エデュケーション用の前提条件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business)」を参照してください。  
+
 ### <a name="selecting-a-language"></a>言語の選択 
 
 Creator の更新では、暗黙的な言語の選択によって、ユーザーが実際のアプリケーション言語を使用していない場合 (たとえば、コンソールアプリをフランス語で起動する必要がある場合)、ApplyCurrentRegionAndLanguage. ps1 スクリプトを使用する必要があります。これは英語で提供されています)。

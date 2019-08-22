@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: '概要: エッジサーバーまたはエッジプールを Skype for Business Server 環境に展開する方法について説明します。'
-ms.openlocfilehash: 39f308c13c3164c2fa46363723d5f3b1256595fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 03cb3f1bc4a938a698c28332b4781d08434bc52f
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233898"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36492973"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Skype for Business Server でエッジサーバーを展開する
  
@@ -28,11 +28,11 @@ ms.locfileid: "36233898"
   
 ## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>エッジの展開チェックリスト (Skype for Business Server の場合)
 
-上で説明したように、多くの場合、Skype for Business Server 向け Edge Server 展開に入ります。 このチェックリストは、実行する必要があるタスクの概要と、より詳細な手順へのリンクを示します。
+上で説明したように、Skype for Business Server 向けの Edge Server 展開には多くのものが含まれています。 このチェックリストは、実行する必要があるタスクの概要と、より詳細な手順へのリンクを示します。
   
 「 [Skype For Business server で Edge server を展開するための計画](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)」を開始することを願っています。 それ以外の場合は、ここで参照する多くの事項について、以下で詳細に説明します。 展開に関するセクションには手順のみが掲載されているため、それらの手順の背後にある理由を知りたいと考える場合は、計画から読み始めるのが適切です。
   
-このドキュメントは、Skype for Business Server の基本的な展開も完了していることを前提としています。 この展開を Edge と並行して実行することもありますが、これらの手順を最初に実行する必要があります。その後で、ここに記載されているエッジのトポロジを変更できるようになります。
+このドキュメントは、Skype for Business Server の基本的な展開を既に完了していることを前提としています。 この展開を Edge と並行して実行することもありますが、これらの手順を最初に実行する必要があります。その後で、ここに記載されているエッジのトポロジを変更できるようになります。
   
 これらは、実行する必要のある手順に関する概要の一覧であり、これらの手順に関する詳細は、参照先に掲載されています。
   

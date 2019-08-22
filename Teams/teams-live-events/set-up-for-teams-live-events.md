@@ -17,12 +17,12 @@ description: ネットワークの準備、ライセンスの割り当て、ユ�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237370"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493100"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -57,7 +57,7 @@ Teams で作成されたライブイベントは[、teams 用に組織のネッ�
 
 |設定  |説明  |
 |---------|---------|
-|**名前**     |これは、[ライブイベントのポリシー] ページに表示されるポリシーの名前です。 64文字より長くしたり、特殊文字を使用したりすることはできません。          |
+|**タイトル**     |これは、[ライブイベントのポリシー] ページに表示されるポリシーのタイトルです。 64文字より長くしたり、特殊文字を使用したりすることはできません。          |
 |**説明**    |ポリシーのわかりやすい説明を追加するには、これを使用します。         |
 |**スケジュールを許可する**     |これを有効にすると、組織のユーザーが Teams でライブイベントを作成してスケジュールできるようになります。 ユーザーが外部のアプリやデバイスで生成されたライブイベントをスケジュールできるようにする必要がある場合は、追加の手順が必要になることを知っておくことが重要です。 詳細については、「[ユーザーが外部アプリまたはデバイスで生成されたイベントをスケジュールできるよう](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)にする」を参照してください。     |
 |**出席者に対して議事録を許可する** |この設定は、Teams で作成されたイベントにのみ適用できます。 この機能を有効にすると、ライブイベントの出席者はイベント中にライブキャプションと字幕を表示できます。         |

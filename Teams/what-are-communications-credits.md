@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 6de37fb4f995e2af8be640fef62b379c2a1d7b0d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18762b51fc44ed1bc3f63a0e815528174e4afd8a
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288205"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493082"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -75,6 +75,9 @@ Skype for Business で無料電話番号を使用する場合は、通話が分�
 Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. Skype for business を既にサービスプロバイダとして使用している組織では、 **Microsoft 365 管理センター** > の**レポート**または**skype for business 管理センター** > のレポートで情報を確認して利用状況データを取得することができます。**** PSTN の**利用状況の詳細。**  > 
   
 コミュニケーション クレジットを設定する場合は、組織の通話の利用状況を調べて、入力する必要のある料金を決める必要があります。通話の利用状況の情報は、[ **PSTN 利用状況の詳細**] レポートで確認できます。このレポートを使うと、カスタム レポートを作成したり、通話データ記録を Excel にエクスポートしたりすることができます。
+
+> [!NOTE]
+> 通信クレジットは、有料サービス番号にも使用されます。 発信者は料金を支払います。
   
 ## <a name="recommended-funding-amounts"></a>推奨される入金額
 

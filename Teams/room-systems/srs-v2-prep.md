@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームを展開するためのインフラストラクチャの準備について説明します。
-ms.openlocfilehash: 1450752b14e509e86f6d2cf0c56ce9693e86265a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427854"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493088"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -61,6 +61,9 @@ Microsoft Teams の会議室デバイスは、適切に機能するために、�
 
 > [!IMPORTANT]
 > 有線の 1 Gbps ネットワーク接続を使用して、必要な帯域幅を確保してください。
+
+> [!NOTE]
+> Microsoft Teams 会議室のソフトウェア更新プログラムは、一般法人向け Microsoft Store から自動的にダウンロードされます。 会議室コンソールがストアにアクセスして自己更新を行うことができることを確認するには、「 [Microsoft Store For Business And エデュケーション用の前提条件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business)」を参照してください。
   
 ### <a name="certificates"></a>証明書
 
@@ -169,3 +172,5 @@ Microsoft Teams 会議室の既定のパスワードは、"sfb" に設定され�
 [Microsoft Teams 室コンソールを構成する](console.md)
   
 [Microsoft Teams Rooms を管理する](skype-room-systems-v2.md)
+
+[ビジネスと教育機関向け Microsoft ストアの前提条件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
