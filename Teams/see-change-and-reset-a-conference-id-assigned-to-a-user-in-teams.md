@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams でユーザーに会議 ID を割り当てる方法と、会議 ID のパラメーターを指定する方法について説明します。 '
-ms.openlocfilehash: a41935e324a7ed167efc905bbe274f6ef7c85de5
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 8c4832050626dadd1bec068be262281d1303ef46
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344317"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645283"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーに割り当てられている会議 ID を表示およびリセットする
 
@@ -84,9 +84,7 @@ ms.locfileid: "34344317"
   
     
 - 会議 ID は、オーディオ会議ブリッジに設定された桁の長さを満たす必要があります。 会議 Id には、アルファベットまたは特殊文字を使うことはできません。数値のみが使用できます。
-    
-- オーディオ会議のすべてのユーザーの会議 ID は、既定では、7 桁になります。桁数を変更することはできません。
-    
+   
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 

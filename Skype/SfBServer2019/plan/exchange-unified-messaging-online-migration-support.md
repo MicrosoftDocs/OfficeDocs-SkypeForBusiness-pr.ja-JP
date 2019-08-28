@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft は2020年2月に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止します。 この記事では、影響を受ける顧客がビジネス継続性を計画するときに知っておく必要があることについて説明します。
-ms.openlocfilehash: b9353546012a0cf16f154d330f27f36fd360b5ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243896"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645250"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -23,8 +23,7 @@ ms.locfileid: "36243896"
  
 ExchUMO は、ボイスメール、自動応答、通話キュー、fax 統合サービスのお客様によって展開されます。 Skype for Business Online および Microsoft Teams で数千ものユーザーをサポートしている電話システムサービスへの移行を支援するための Microsoft プラン。 
 
-ボイスメールは主に Microsoft ベースの移行です。顧客のサブセットについては、管理者の関与と投資が必要になります。 自動応答と通話キューには、管理者主導型の移行があります。管理者は、電話システムの自動応答サービスで既存の ExchUMO 自動応答ツリーを再作成する必要があります。 サードパーティ PBX で ExchUMO 機能を使用しているお客様は、サードパーティ PBX システムをサポートしていないため、電話システムクラウドサービスに移行することはできません。 サードパーティのサポートについては、[このブログ](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
-)で昨年発表されました。この展開モデルのお客様は、ユーザーを Microsoft ユニファイドコミュニケーションプラットフォーム/サービスの1つに移行するか、サードパーティボイスメールまたは auto を入手できます。これらのユーザーのための応答策。 Fax の統合は、電話システムではサポートされていません。お客様は、サードパーティのソリューションに移行する必要があります。 
+ボイスメールは主に Microsoft ベースの移行です。一部のお客様には、管理者の関与や投資が必要になることがあります。 自動応答は、管理ベースの移行です。クラウド自動応答クラウドサービスで既存の ExchUMO 自動応答ツリーを再作成する必要があります。 サードパーティ PBX で ExchUMO 機能を利用しているお客様は、サードパーティ PBX システムをサポートしていないため、Skype クラウドサービスに移行されません。 [このブログ](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)では、サードパーティサポートの廃止計画が発表されました。また、この展開モデルのお客様は、ユーザーを Microsoft の統合コミュニケーションプラットフォーム/サービスに移行するか、サードパーティボイスメールまたは auto を購入することができます。これらのユーザーのための応答策。 Fax の統合は、クラウドベースのサービスではサポートされていません。お客様は、サードパーティのソリューションに移行する必要があります。
 
 ### <a name="who-is-affected"></a>影響を受けるユーザー
 
