@@ -68,5 +68,4 @@ Teams の入手方法については[Microsoft Teams へのアクセス権を取
 
 [Skype for Business および Microsoft Teams 認定プログラム](https://docs.microsoft.com/SkypeForBusiness/certification/overview)について理解します。
 
-
-  [Microsoft Teams の電話と認定デバイスについて。](https://products.office.com/ja-JP/microsoft-teams/across-devices/devices)
+[Microsoft Teams の電話と認定デバイスについて。](https://products.office.com/ja-JP/microsoft-teams/across-devices/devices)
