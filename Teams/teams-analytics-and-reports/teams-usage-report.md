@@ -3,7 +3,6 @@ title: Microsoft Teams の使用状況レポート
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,27 +15,25 @@ ms.collection:
 description: 自分の組織での Teams のアクティビティの概要を把握するために、Microsoft Teams 管理センターにある Teams の使用状況レポートを、どのように使用するかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a5fdee65771f2ac23e2cea78e54752786357405
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d530ba8009cd113354a511b61589b409958ec276
+ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234772"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36667115"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
 
 Microsoft Teams 管理センターにある Teams の使用状況レポートは、Teams での使用状況のアクティビティの概要を提供するもので、アクティブなユーザーおよびチャネルの数が含まれており、組織全体で何人のユーザーが通信や共同作業のために Teams を使用しているかをすぐに確認することができます。 各チームのアクティブなユーザー、チャネル、ゲスト、およびメッセージの数など、チームでの使用状況に関する情報を表示することができます。
 
-![管理センターの Teams の利用状況レポートのスクリーンショット](../media/teams-reports-teams-usage.png "Microsoft teams 管理センターの teams の利用状況レポートのスクリーンショット")
-
 ## <a name="view-the-report"></a>レポートを表示する
 
-1.In Microsoft Teams 管理センターでは、左側のナビゲーションで [ **& 分析**] をクリックし、[**レポート**] で [**チームの利用状況**] を選択します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**分析] & [レポート**] の順にクリックし、[**レポート**] で [**チームの利用状況**] を選択します。
 2. [**日付の範囲**] の下で、範囲を選択して、[**レポートの実行**] をクリックします。
 
-## <a name="interpret-the-report"></a>レポートを解釈する
+![吹き出しが表示された teams 管理センターの teams の利用状況レポートのスクリーンショット](../media/teams-reports-teams-usage-with-callouts.png "吹き出しが表示された teams 管理センターの teams の利用状況レポートのスクリーンショット")
 
-![管理センターの Teams の利用状況レポートのスクリーンショット](../media/teams-reports-teams-usage-with-callouts.png "番号付き吹き出しが表示された Microsoft teams 管理センターのチーム使用レポートのスクリーンショット")
+## <a name="interpret-the-report"></a>レポートを解釈する
 
 |コールアウト |説明  |
 |--------|-------------|
@@ -46,7 +43,8 @@ Microsoft Teams 管理センターにある Teams の使用状況レポートは
 |**4**   |凡例の項目をクリックして、グラフに表示する情報をフィルター処理できます。 たとえば、[**アクティブなユーザーの合計**]、[**チーム & のアクティブユーザー**]、[**アクティブなチャネル**]、または [**メッセージ**] をクリックして、それぞれに関連する情報のみを表示します。 この選択を変更しても、表内の情報は変わりません。 |
 |**5**   |表によって、チームごとの使用状況の内訳が表示されます。 <ul><li>**チーム名**は、チームの表示名です。 チーム名をクリックすると、Microsoft Teams 管理センターのチームの [設定] ページに移動できます。 </li> <li>**プライバシー**では、チームがプライベートなチームであるかパブリックなチームであるかが示されます。</li> <li>**アクティブ ユーザー**は指定された期間でのチーム内のアクティブなユーザーの数です。</li><li>**ゲスト**は指定された期間でのチーム内のゲストの数です。</li> </li> </ul>ユーザーアカウントが Azure AD に存在しなくなった場合は、ユーザー名がテーブルに "--" として表示されることに注意してください。 <br><br>表に希望する情報を表示するには、表に列を追加する必要があります。 |
 |**6**   |[**列の編集**] を選択して表で列を追加または削除します。|
-|**7**   |レポートを CSV ファイルにエクスポートしてオフラインで分析することができます。 [ **Excel にエクスポート**] をクリックし、[**ダウンロード**] タブの [**ダウンロード**] をクリックして、準備ができたらレポートをダウンロードします。<br>![ダウンロードするエクスポートされたレポートが表示された [ダウンロード] タブのスクリーンショット](../media/teams-reports-export-to-csv.png)|
+|**7**   |レポートを CSV ファイルにエクスポートしてオフラインで分析することができます。 [ **Excel にエクスポート**] をクリックし、[**ダウンロード**] タブの [**ダウンロード**] をクリックして、準備ができたらレポートをダウンロードします。<br><br>![ダウンロードするエクスポートされたレポートが表示された [ダウンロード] タブのスクリーンショット](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>関連トピック
+
 - [Teams の分析とレポート](teams-reporting-reference.md)

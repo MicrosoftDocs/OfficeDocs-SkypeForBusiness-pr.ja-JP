@@ -15,18 +15,16 @@ ms.collection:
 description: Microsoft Teams 管理センターで Teams live イベントの利用状況レポートを使用して、組織内の Teams live イベントアクティビティの概要を確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4eacd7df49de824ac6c0a98b7b923331fdee61f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
+ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239808"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36667065"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams のライブイベントの使用状況レポート
 
 Microsoft Teams 管理センターの [チームライブイベントの利用状況] レポートには、組織内で保持されているライブイベントのアクティビティの概要が表示されます。 イベントの状態、開始時刻、ビュー、および各イベントの生産タイプなどの使用状況情報を表示できます。 利用状況の傾向を把握して、組織内のユーザーがスケジュール、表示、ライブイベントを行うことができます。 
-
-![Microsoft teams 管理センターのチームライブイベントの使用状況レポートのスクリーンショット](../media/teams-live-event-usage-report.png "管理センターの Teams の利用状況レポートのスクリーンショット")
 
 ## <a name="view-the-report"></a>レポートを表示する
 
@@ -35,9 +33,9 @@ Microsoft Teams 管理センターの [チームライブイベントの利用�
 3. 省略[**構成内容**変更] で、特定のユーザーによって開催されるライブイベントのみを表示するように選択できます。
 4. [**レポートの実行**] をクリックします。  
 
-## <a name="interpret-the-report"></a>レポートを解釈する
+    ![吹き出しが表示された teams 管理センターの teams live イベント使用状況レポートのスクリーンショット](../media/teams-live-event-usage-report-with-callouts.png "吹き出しが表示された teams 管理センターの teams live イベント使用状況レポートのスクリーンショット")
 
-![Microsoft teams 管理センターのチームライブイベントの使用状況レポートのスクリーンショット](../media/teams-live-event-usage-report-with-callouts.png "管理センターで番号付き吹き出しが表示された Teams のライブイベントの利用状況レポートのスクリーンショット")
+## <a name="interpret-the-report"></a>レポートを解釈する
 
 |コールアウト |説明  |
 |--------|-------------|
@@ -56,5 +54,6 @@ Microsoft Teams 管理センターの [チームライブイベントの利用�
 組織で[Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) ecdn または[Kollective](https://kollective.com) ecdn が有効になっている場合は、パートナーレポートのリンクをクリックして、追加の出席者の分析を取得できます。
 
 ## <a name="related-topics"></a>関連トピック
+
 - [Teams の分析とレポート](teams-reporting-reference.md)
 - [Teams のライブ イベントについて](../teams-live-events/what-are-teams-live-events.md)
