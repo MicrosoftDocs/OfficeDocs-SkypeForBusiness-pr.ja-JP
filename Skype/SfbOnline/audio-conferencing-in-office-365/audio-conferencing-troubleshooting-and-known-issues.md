@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft をダイヤルイン会議プロバイダーとして使用する場合の既知の問題の一覧、状態、およびいくつかの回避策についてご確認ください。 '
-ms.openlocfilehash: 9b70cfcdeeb80be43cd0ecc99ca7eced71bb9319
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfb76c23d3b1235bf67435e0af09ddef2a8852f3
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289585"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675239"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>電話会議のトラブルシューティングと既知の問題
 
@@ -43,6 +43,7 @@ Microsoft を電話会議プロバイダーとして使う電話会議には、�
 |E5 ライセンスを割り当て、最初にユーザーをプロビジョニングするときに、メールボックスが有効でないユーザーに電話会議のようこそメールが配信されないことがある。  <br/> |これが発生した場合は、Skype for Business 管理センター の [ **電話会議**] を使用するか、PowerShell を使用してユーザーの電話会議情報をいつでも再送信することができます。 「[電話会議の設定が変更されたときにメールの送信を有効または無効](enable-or-disable-sending-emails-when-their-settings-change.md)にする」をご覧ください。  <br/> **注:** 電話会議の PIN をユーザーに再送信するには、PIN をリセットする必要があります。 これを行うには、Skype for Business 管理センター の [ **電話会議**] を使用するか、PowerShell を使用します。          |回避策なし。  <br/> |8/30/2017  <br/> |
 |電話会議の通話が利用状況レポートに表示されるのに最大 24 時間かかる。  <br/> |将来のサービスの更新では、この点について機能強化が図られることが予定されています。  <br/> |回避策なし。  <br/> |8/30/2017  <br/> |
 |Skype for Business ユーザーが会議をロックした後で、発信者が会議ブリッジにダイヤルインしても、ユーザーがロビーで待っていることを知らせる通知がSkype for Business アプリにない。  <br/> |これは現在の設計上の仕様ですが、今後のサービス更新でこの機能のサポートに関するフィードバックを採用しています。  <br/> |回避策なし。  <br/> |8/30/2017  <br/> |
+|2019年3月1日より前に Skype for Business Server (オンプレミス) ユーザーによって電話会議ライセンスが割り当てられた場合、会議の出席依頼にダイヤルインの座標が表示されないことがあります。  <br/> |Teams 会議の Skype for Business Server ユーザーのプロビジョニングは、その日までサポートされませんでした。 これでサポートされるようになり、[会議](https://docs.microsoft.com/microsoftteams/meetings-first)のコンポーネントになりました。 ユーザーには Teams ライセンスが必要です。  <br/> |プロビジョニングパイプラインを再アクティブ化する必要があります。 ユーザーの電話会議ライセンスを削除し、数時間待ってから、ライセンスを再割り当てします。  <br/> |2019/3/1  <br/> |
    
 ## <a name="related-topics"></a>関連項目
 

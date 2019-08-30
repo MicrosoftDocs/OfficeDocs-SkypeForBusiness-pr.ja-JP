@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams でクラウド通話キューの電話システムをセットアップする方法について説明します。
-ms.openlocfilehash: 8ae41603e3899c379fa09b2b08dd5e111b8405da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483317"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675408"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 
@@ -173,7 +173,11 @@ ms.locfileid: "36483317"
 - セキュリティグループ
 - 配布リスト
 
-選択された通話エージェントは、**電話システム**のライセンスを持つオンラインユーザーか**** 、エンタープライズボイスを有効にしている**か**、通話プランを持っている必要があります。
+選択されているコールエージェントは、次のいずれかである必要があります。 
+
+- 電話システムのライセンスを持つオンラインユーザーとエンタープライズ Voip が有効になっている 
+- 通話プランを使用するオンラインユーザー
+- オンプレミスの Skype for Business s サーバーユーザー
 
   > [!NOTE]
   > これは、オンラインの組織内のユーザーに通話をリダイレクトする場合にも該当します。 これらの個人は、**電話システム**のライセンスとエンタープライズボイスを有効にしている**か**、通話プランを利用している必要があります。 詳細については、「 [Skype For business ライセンスの割り当て](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)、 [Microsoft Teams ライセンスの割り当て](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)、または[適切な通話プラン](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)」を参照してください。
