@@ -603,8 +603,9 @@
 ### [プロジェクトの対象範囲を定義する](upgrade-define-project-scope.md)
 ### [共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ### [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [会議優先](meetings-first.md)
 
-## Teams に向けて環境を準備する
+## Teams 向けの環境を準備する
 ### [技術準備の概要](upgrade-prepare-environment.md)
 ### [Teams に向けて IT スタッフを準備する](upgrade-prepare-IT-pros.md)
 ### [前提条件](upgrade-plan-journey-prerequisites.md)
