@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9256c73e28a35a3dfba411bdd255e5e527ab8a9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
+ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483292"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699374"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -56,15 +56,19 @@ Microsoft Teams での**ゲスト アクセス**により、組織内のチー�
 
 ### <a name="teams-settings"></a>Teams の設定
 
-**Teams の設定**で、電子メール統合、クラウド ストレージのオプション、Skype for Business の相互運用性、およびデバイスをセットアップすることができます。
+**Teams の設定**で、通知とフィード、メールの統合、クラウド ストレージのオプション、デバイスなど、Teams の機能を設定できます。
+
+#### <a name="notifications-and-feeds"></a>通知とフィード
+
+ここで、サジェストされたフィードを Teams のユーザーのアクティビティ フィードに表示するかどうかを制御できます。 アクティビティ フィードの詳細については、「[Teams でアクティビティ フィードを詳しく見る](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)」をご覧ください。
 
 #### <a name="email-integration"></a>電子メールの統合
 
-この機能をオンにすると、ユーザーはチャネル電子メール アドレスを使用して、Teams のチャネルにメールを送信できるようなります。この操作は、ユーザーが所有するチームに属しているどのチャネルに対しても行えます。ユーザーのメールは、チーム メンバーに対してオンになっている追加のコネクタがあるチーム内の任意のチャネルにも送信できます。電子メール統合をオンにするには、[**Allow users to send emails to a channel email address (ユーザーがメールをチャネルの電子メール アドレスに送信できるようにする)**] が [**オン**] であることを確認します。 
+この機能をオンにすると、ユーザーはチャネル電子メール アドレスを使用して、Teams のチャネルにメールを送信できるようなります。この操作は、ユーザーが所有するチームに属しているどのチャネルに対しても行えます。ユーザーのメールは、チーム メンバーに対してオンになっている追加のコネクタがあるチーム内の任意のチャネルにも送信できます。電子メール統合をオンにするには、[**Allow users to send emails to a channel email address (ユーザーがメールをチャネルの電子メール アドレスに送信できるようにする)**] が [**オン**] であることを確認します。
 
 #### <a name="files"></a>ファイル
 
-ファイル共有オプションおよびファイル保存オプションをオンまたはオフにすることができます。 
+ファイル共有オプションおよびファイル保存オプションをオンまたはオフにすることができます。
 
 ユーザーは Teams のチャネルやチャットでクラウド ストレージ サービスを介して、ファイルのアップロードや共有を行うことができます。現時点では、Teams のクラウド ストレージ オプションには、Box、Dropbox、Google ドライブ、ShareFile があります。自分の組織で使用することになるクラウド ストレージ プロバイダのスイッチをオンにします。
 
