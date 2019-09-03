@@ -51,9 +51,7 @@ Teams の最高のエクスペリエンスを実現する場合、組織は Exch
 
 | 確認事項 | アクション |
 |--------------|--------|
-|Teams のミーティングの展開にネットワークが対応しているか? | ネットワークの対応状況を確認するには、次を参照してください。<ul><li>
-  [Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/ja-JP/MicrosoftTeams/prepare-network)</li><li>
-  [Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/ja-JP/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Teams のミーティングの展開にネットワークが対応しているか? | ネットワークの対応状況を確認するには、次を参照してください。<ul><li>[Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/ja-JP/MicrosoftTeams/prepare-network)</li><li>[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/ja-JP/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
