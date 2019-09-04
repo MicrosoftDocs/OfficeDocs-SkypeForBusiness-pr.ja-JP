@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0804b3fb0783a588fdd79dfec1a8dd39e4d92f34
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: ac278593215fc982d7246059503d8c65990c9b87
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447968"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715918"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft Teams での StaffHub teams のシフトへの移行を計画する
 
@@ -44,7 +44,7 @@ StaffHub から Teams への移行を計画する場合は、タイムライン�
 |7     |チームに移動するためのタイムラインを特定し、StaffHub ユーザーを特定する       |[レポートを実行してアクティブな StaffHub の利用状況を表示する](run-report-to-show-staffhub-usage.md) |
 |個     |Azure AD アカウントを持っていない StaffHub ユーザーを特定します (StaffHub に "非アクティブ" と表示されます)。アカウントをリンクさせる     |[StaffHub チームメンバーがない場合に、Azure AD アカウントをリンクさせる](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
 |ファイブ    |組織に合わせてカスタマイズされたユーザーのトレーニングコンテンツを作成する         |[Teams のユーザー準備計画を準備する](../../upgrade-user-readiness.md)     |
-|常用    |Teams でのシフトへの切り替えについて StaffHub ユーザーと通信する         |         |
+|常用    |Teams でのシフトへの切り替えについて StaffHub ユーザーと通信する         |[StaffHub for Teams からユーザーへのメール通信のサンプル](staffhub-to-teams-email-template.md)         |
 |折り     |Teams クライアントをインストールする         |[Teams のクライアントを取得する](../../get-clients.md) |
 |以内    |ユーザーに FirstLineWorker アプリセットアップポリシーを割り当てます (または、カスタムアプリセットアップポリシーを作成して割り当てる)、シフトアプリを Teams クライアントにピン留めします。  |[FirstlineWorker アプリのセットアップポリシーをユーザーに割り当てる](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
 |14     |シフトやチームの使い方についてユーザーを教育する         |[チームへのオンボードユーザー](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[ヘルプドキュメントのシフト](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams のヘルプ ドキュメント](https://support.office.com/teams)<br><br>[Teams のトレーニング用ビデオ](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |

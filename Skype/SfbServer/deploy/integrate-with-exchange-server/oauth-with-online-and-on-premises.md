@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: オンプレミスの Exchange と Skype for Business Online の間で OAuth 認証を構成すると、機能のサポートで説明されている Skype for Business と Exchange の統合機能が有効になります。
-ms.openlocfilehash: 3c896e8b430276e5bb48bc425425292a382a1021
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe6d7bbe1be9418b7e960de02e91cecf1c808d2b
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244221"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715809"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Skype for Business Online と Exchange Server の間で統合と OAuth を構成する 
 
@@ -142,7 +142,7 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 2. [モバイルクライアントの会話履歴を確認する] が Outlook の [会話履歴] フォルダーに表示されます。
 
-3. [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)を使用して、アーカイブされたチャットメッセージが [削除] フォルダー内のユーザーのオンプレミスのメールボックスに記録されていることを確認します。
+3. アーカイブされたチャットメッセージが、 [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)を使用して [削除] フォルダーのユーザーのオンプレミスのメールボックスに格納されていることを確認します。
 
 または、トラフィックを確認します。 OAuth ハンドシェイクのトラフィックは、実際には非常に優れています (基本的な認証とは言えません)。特に、領域については、次のような発行者のトラフィックを表示することになります (例: 00000004-0000-0ff1-ce00-000000000000 @@ sign)。これは、渡されるトークンの中にあります。 OAuth のポイントであるユーザー名またはパスワードは表示されません。 ただし、"Office" の発行者が表示されます。この例では、「4」が Skype for Business であり、サブスクリプションの領域です。
 

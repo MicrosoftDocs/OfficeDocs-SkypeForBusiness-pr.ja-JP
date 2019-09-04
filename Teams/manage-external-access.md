@@ -18,17 +18,17 @@ description: IT 管理者は、他のドメインの外部アクセス (フェ�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 71aad6a5b19c1d641347b9e0f119acf2f72d5ce9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 146ec2f30afa03a3e8519637a4f852f1b0e73cef
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242131"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715863"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams で外部アクセスを管理する
 ======================================================
 
-Microsoft Teams の外部アクセスを使用すると、他のドメインの Teams ユーザーは、チャットや通話に参加することができます。 また、引き続き Skype for Business Online、Skype for Business オンプレミス、または Skype for business を使用している外部ユーザーを許可することもできます。
+Microsoft Teams の外部アクセスを使用すると、他のドメインの Teams ユーザーは、チャットや通話に参加することができます。 また、引き続き Skype for Business Online を使用している他の外部ユーザー、オンプレミスの skype for Business、または Skype の参加を許可することもできます。
 
 次の場合、この記事で説明する手順をご利用ください。
   

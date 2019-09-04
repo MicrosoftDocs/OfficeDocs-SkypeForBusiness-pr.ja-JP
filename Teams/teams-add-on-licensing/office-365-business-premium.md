@@ -18,29 +18,24 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオンライセンス、機能、Office 365 Business Premium プランの購入方法について説明します。 '
-ms.openlocfilehash: 1372948962e15de861402fa4f9d30e5749204af8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242660"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715909"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
 [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium)を使用している場合は、Microsoft Teams を使用して、サブスクリプションを利用している組織内の他のユーザーに電話をかけることができます。 たとえば、ユーザーが10人いる組織では、Teams を使って互いに通話を発信したり、インスタントメッセージを送信したりすることができます。
 
-**社外の人との通話の発信や受信を行うには、次の3つのオプションがあり**ます。
+**社外の人との通話の発信や受信を行うには、次のオプションがあり**ます。
 
 - **オプション 1**。 無料の[Teams アプリ](https://products.office.com/microsoft-teams/free)を使用します。 非常に小さなビジネス (1-2 ユーザーなど) を使用している場合は、Teams アプリを使う方が適しています。 国内通話と国際通話で利用する場合は、より安価な手段となります。 引き続き1:1 を作成して、音声通話とビデオ通話をグループ化し、デスクトップを共有してプレゼンテーションを行うことができます。 [機能、料金、支払いオプションを比較](https://products.office.com/microsoft-teams/free)します。
 
      お客様のニーズを満たしているかどうかを確認するには、Teams から無料で始めることをお勧めします。 ただし、次の2つのオプションはまだありません。
-
-- **オプション2。プランを維持して、電話システムと国内または国内および国際通話プランを購入**します。
-    1. 電話システム アドオンを購入します。
     
-    2. [Office 365 の通話プラン](../calling-plans-for-office-365.md)を購入する-このプランは、電話システムアドオンの購入後にのみご購入いただけます。
-    
-- **オプション3。プランをアップグレードし、電話システムと国内または国内および国際通話プランを購入**します。
+- **オプション2。プランをアップグレードし、電話システムと国内または国内および国際通話プランを購入**します。
 
     1. [別の一般法人向け Office 365 プランに切り替える](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 Enterprise E5 プランを検討して、そちらの方がよりコスト効率が良いか確認することをおすすめします。
 

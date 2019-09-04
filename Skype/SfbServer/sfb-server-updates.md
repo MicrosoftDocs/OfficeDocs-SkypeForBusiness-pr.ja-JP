@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015/2019 および Lync 2013 の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 7243c607f4855c431256335131f70cd080b6d00c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d0349434785b7acf79cba7bb577cb5ba0b43482a
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234608"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715712"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
@@ -37,6 +37,7 @@ ms.locfileid: "36234608"
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business Server 2015 累積更新プログラム10修正プログラム1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年9月 |
 |Skype for Business Server 2015、Web コンポーネントサーバーの累積更新プログラム9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019年5月 |
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月|
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム7 |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018 年 7 月 |

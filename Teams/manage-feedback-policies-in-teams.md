@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: フィードバックポリシーを使用して、組織内の Teams ユーザーがチームに関するフィードバックを Microsoft に送信できるかどうかを制御する方法について説明します。
-ms.openlocfilehash: 148ba1dc19eecba4e447dd7049ae580c920a7bdf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242166"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715820"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams でフィードバックポリシーを管理する
 
@@ -49,7 +49,7 @@ ms.locfileid: "36242166"
 
 たとえば、組織内のすべてのユーザーが**フィードバック**を送信してフィードバックを受け取り、トレーニングの新入団体以外のアンケートを受けることができるようにします。 このシナリオでは、ユーザー設定のポリシーを作成して、両方の機能を無効にし、新しい採用者に割り当てることができます。 組織内の他のすべてのユーザーは、この機能を有効にしたグローバルポリシーを取得します。  
 
-**新しい-Csteamsbackpolicy**コマンドレットを使用して、カスタムポリシーを作成し、それを1人以上のユーザーまたはユーザーのグループ (セキュリティグループ、配布グループなど) に割り当てるために、**許可-Csteamsフィードバックポリシー**コマンドレットを使用します。
+カスタムポリシーを**** 作成するには、 *[次](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* のコマンドレットを使用します。これは、カスタムポリシーを作成するために、1人以上のユーザーまたはユーザーのグループ (セキュリティグループなど) に割り当てるための、**許可-csteamsフィードバックポリシー**コマンドレットを使用します。配布グループ。
 
 機能を無効にして有効にするには、次のパラメーターを設定します。
 

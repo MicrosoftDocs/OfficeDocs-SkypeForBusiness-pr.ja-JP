@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47341662267a3da0a83174cbccb2b2cd251538b6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 646305383c8f38671c07f598bc9ff1671890d22f
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245754"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715800"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -124,7 +124,7 @@ Microsoft Teams モバイル アプリのサポートされるモバイル プ�
 > [!NOTE]
 > Teams が問題なく動作するためには、モバイル バージョンが利用可能な状態である必要があります。
 
-モバイル アプリはそれぞれのモバイル プラットフォームのアプリ ストアからのみ配布および更新され、MDM (モバイル デバイス管理) ソリューションまたはサイド ロードからは配布することはできません。
+モバイルアプリは、対応するモバイルプラットフォームのアプリストアのみを通じて配布および更新されます。 MDM またはサイドローディングによるモバイルアプリの配布は、Microsoft によってサポートされていません。 サポートされているモバイルプラットフォームにモバイルアプリをインストールすると、そのバージョンが現在のリリースの3か月間に含まれている場合は、Teams モバイルアプリ自体がサポートされます。
 
 
 | | | |
