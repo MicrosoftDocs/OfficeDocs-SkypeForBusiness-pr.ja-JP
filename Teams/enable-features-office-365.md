@@ -20,18 +20,18 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
-ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
+ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "36699374"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715928"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
 ## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams アプリの設定
 
-Microsoft Teams 管理センターで、**Teams アプリ**の組織向けアプリを管理します。 たとえば、組織全体または特定の Teams ユーザーが使用できるアプリを制御するポリシーを設定したり、ユーザーにとって最も重要なアプリをピン留めして Teams をカスタマイズしたりすることができます。
+[Microsoft Teams 管理センター](https://admin.teams.microsoft.com)で、**Teams アプリ**の組織向けアプリを管理します。 たとえば、組織全体または特定の Teams ユーザーが使用できるアプリを制御するポリシーを設定したり、ユーザーにとって最も重要なアプリをピン留めして Teams をカスタマイズしたりすることができます。
 
 詳細については、「[Teams でのアプリの管理設定](admin-settings.md)」をご覧ください。  
 
