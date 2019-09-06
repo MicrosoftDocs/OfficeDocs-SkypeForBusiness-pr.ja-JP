@@ -7,22 +7,21 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e3113be6965044d2f60c0a6a59b658a191626
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: 432c9db8e99375ff373755c172bdfa37e4dd65c1
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286214"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767070"
 ---
 # <a name="teams-for-government"></a>政府機関用の Teams 
 
-これらのリソースを使用して、Microsoft 365 Government 環境でのチームの計画と展開を行います。
+これらのリソースを使用して、Microsoft 365 Government 環境で Teams を展開する際の特定の考慮事項について説明します。 準備ができたら、「 [Microsoft teams をロールアウトする方法](../How-to-roll-out-teams.md)」で説明されているように、teams についての推奨される展開パスに従います。
 
 <ul class="panelContent cardsFTitle">
     <li>
