@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b079ebc84dfef1714243f79daed970fb148b7c5a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 32bd7664e8aa8fa8a818b3223e64b09f7982d12f
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236955"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36766935"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 ======================================================
@@ -30,7 +30,7 @@ ms.locfileid: "36236955"
 
 Teams は、共通の目標を通じて集まって収集する人々の集まりです。 このグループのメンバーは、部署内または組織全体に存在する可能性があります。 これにより、それらがどのように連携しているかが示されます。 チームのメンバーは、別のペースで作業したり、アセットを別々に作成したりすることもありますが、このエクスペリエンスでは、"高速度のチームワーク" と呼ばれるプロセスによって、互いにすばやく共同作業を行うことができます。  
 
-製品にチームを作成する前に、目標、プロジェクト、または作業項目、および共同作業のために役立つ組織のユーザーについて考えることをお勧めします。 指定したユーザーまたはグループをチームに追加して、共同作業を開始します。 メンバーシップは時間を経て変更される可能性があるため、チームごとに複数の所有者を指定することをお勧めします。 詳細については、「[チームを管理する](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)」を参照してください。
+チームを作成する前に、目標、プロジェクト、または作業項目について検討し、組織内のユーザーが共同作業を行うのに役立ちます。 指定したユーザーまたはグループをチームに追加して、共同作業を開始します。 メンバーシップは時間を経て変更される可能性があるため、チームごとに複数の所有者を指定することをお勧めします。 詳細については、「[チームを管理する](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)」を参照してください。
 
 次の短いビデオでは、組織間または単一目的のチームを構成する方法の例を紹介します。
 

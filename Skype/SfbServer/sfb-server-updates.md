@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server の更新プログラム
-author: lanachin
-ms.author: v-lanac
+author: ariantor
+ms.author: arianr
 manager: serdars
 audience: ITPro
 ms.reviewer: arianr
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015/2019 および Lync 2013 の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: d0349434785b7acf79cba7bb577cb5ba0b43482a
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715712"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36766963"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
@@ -37,10 +37,10 @@ ms.locfileid: "36715712"
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 累積更新プログラム10修正プログラム1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年9月 |
+|Skype for Business Server 2015 累積更新プログラム10修正プログラム1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019年9月 |
 |Skype for Business Server 2015、Web コンポーネントサーバーの累積更新プログラム9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019年5月 |
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月|
-|Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム7 |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018 年 7 月 |
+|Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 年 7 月 |
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム6ホットフィックス2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム6ホットフィックス1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 年 1 月 |
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017 年 12 月 |

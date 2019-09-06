@@ -20,12 +20,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 組織でスケジュールされているユーザーのチーム会議の設定を管理する方法について説明します。
-ms.openlocfilehash: 5f45e8498a63397154b98d0dd2ac1469080fe5f6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483303"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767196"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -88,7 +88,9 @@ Qos (Quality of Service [)](qos-in-teams.md)を使ってネットワークトラ
     ![管理センターでの会議のネットワーク設定のスクリーンショット](media/meeting-settings-network.png "Microsoft teams 管理センターの teams 会議のネットワーク設定のスクリーンショット")
 
     - QoS に DSCP マーキングを使用できるようにするには、**リアルタイムメディアトラフィックの [サービス品質 (QoS) マーカーの挿入**] を有効にします。 マーカーを使用するかどうかは選択できません。トラフィックの種類ごとにカスタムマーカーを設定することはできません。 詳細については[、「QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)」を参照してください。
-    - ポート範囲を指定するには****、[ポート範囲の指定] の横にある [ポート範囲の**指定**] を選択し、オーディオ、ビデオ、画面共有の開始ポートと終了ポートを入力します。 QoS を実装するには、このオプションを選択する必要があります。
+    > [!NOTE] 
+    > **リアルタイムメディアトラフィックの [サービス品質の挿入 (QoS)] マーカー**を有効にすると、UDP ポート 3479 (オーディオ)、3480 (ビデオ)、3481 (共有) を使用したトランスポートリレーとの通信が可能になります。
+    - ポート範囲を指定するには、[ポート範囲の指定] の横にある [ポート範囲の**指定** **] を選択**し、オーディオ、ビデオ、画面共有の開始ポートと終了ポートを入力します。 QoS を実装するには、このオプションを選択する必要があります。
     > [!IMPORTANT]
     > [**利用可能なポートを自動的に使用**する] を選択すると、1024と65535の間で利用可能なポートが使用されます。 このオプションは、QoS を実装していない場合にのみ使用します。
     >

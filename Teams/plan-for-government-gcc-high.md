@@ -3,7 +3,6 @@ title: Microsoft 365 米国政府向けクラウド (GCC High) の展開の計�
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: d9e346e4e9d94c30454ad42ef5a3c44e12f2cde0
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271383"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767114"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 Government の計画-GCC 高展開
 
@@ -154,6 +153,7 @@ Microsoft 365 Government –米国政府のお客様向けの高度な機能に�
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>手順6 チームをコラボレーションのために展開する
 
-Microsoft 365 Government – GCC High に onboarded された後は、 [Fasttrack](https://www.microsoft.com/fasttrack)とお客様が選んだパートナーの標準的な展開アプローチに従って、サービスをオンにすることができます。
+Microsoft 365 Government – GCC High に onboarded したら、 [Microsoft Teams のロールアウト方法](How-to-roll-out-teams.md)に関する推奨される展開パスに従います。 お客様の導入と変更管理チームやチームのチャンピオンに協力してください。
 
-準備ができたら、チームを展開し[て、チームとチャネルを通じて組織内での共同作業を可能](teams-overview.md)にします。 導入と変更管理チームまたは Teams のエキスパートに相談してください。
+また、 [Fasttrack](https://www.microsoft.com/fasttrack)または選択したパートナーと連携してサービスを稼働させることもできます。
+

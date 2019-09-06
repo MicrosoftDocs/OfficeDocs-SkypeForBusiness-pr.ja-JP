@@ -3,7 +3,6 @@ title: 小売業の Teams テンプレートの使用を開始する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1ef5647ba20b3fd9d3d4378182ea2e8b39b1487b
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245747"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767103"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>小売業の Teams テンプレートの使用を開始する 
 
@@ -33,7 +32,7 @@ Teams のテンプレートには、小売業者のニーズに合わせて設�
 
 この記事では、各チームテンプレートを紹介し、その使用をお勧めする方法について説明します。
 
-この記事は、小売組織全体で複数のチームの計画、展開、管理を担当している場合に使います。
+この記事は、小売組織全体で複数のチームの計画、展開、管理を担当している場合に使います。 組織に Teams サービスを既に展開していることを前提としています。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](How-to-roll-out-teams.md)」を参照してください。
 
 チームテンプレートの詳細については、「[チームテンプレートの使用を開始](get-started-with-teams-templates.md)する」を参照してください。
 

@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織のためのTeamsを始めましょう
-ms.openlocfilehash: d4cebe45d37726dafc4f0e1fbc7c8c13addb9bd5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 380d9c75bc2f7eeb66bc6d0d0f5598d2a243a9da
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232208"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767157"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療関係組織のためのTeamsを始めましょう
 
@@ -30,7 +30,7 @@ Microsoft Teams には、病院およびその他の医療機関向けの便利�
 - 電子医療記録 (EHR) の統合 
 - Firstline Worker システムの統合 
 
-これは、Microsoft Teams の基本機能 (会議、通話、メッセージングなど) に加えています。 
+このセクションの内容は、会議、通話、メッセージングなどの Teams の基本的な機能を基盤としており、組織に展開されているチームを既に展開していることを前提としています。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](../../How-to-roll-out-teams.md)」を参照してください。
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>ケアの調整-Microsoft Teams の患者アプリ
 

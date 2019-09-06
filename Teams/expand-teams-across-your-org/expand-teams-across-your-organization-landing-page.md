@@ -7,22 +7,22 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dba49502056149b7dda3d4533f8186f074fd804
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: baa5e58ab8614db2d5e5c80a01dc594c31308c31
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232241"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767168"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Microsoft Teams を組織全体で展開する
 
-<br>
+これらのリソースは、標準の Teams 展開ガイダンスに基づいて構築されており、特定の組織の種類についてチームを最大限に活用できるように設計されています。 まだ Teams を展開していない場合は、「 [Microsoft teams をロールアウトする方法](../How-to-roll-out-teams.md)」で teams への推奨パスを参照してください。
+
 <ul class="panelContent cardsFTitle">
  <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page">
