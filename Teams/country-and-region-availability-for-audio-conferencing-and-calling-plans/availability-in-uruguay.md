@@ -3,7 +3,7 @@ title: ウルグアイでの利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 5ce55c31-59da-4649-9021-ea9e78cfd9ed
 ms.tgt.pltfrm: cloud
@@ -25,67 +25,67 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Skype for Business の Office 365 サービスと、ウルグアイで利用できる Microsoft Teams の例を次に示します。
-ms.openlocfilehash: ddc843f1ac45c629cfa3d20e494124f787726532
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 6e552f46b1cbf6ce8dce55c9da903b0a741eae08
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330917"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775360"
 ---
-# <a name="availability-in-uruguay"></a><span data-ttu-id="dacea-103">ウルグアイでの利用可能性</span><span class="sxs-lookup"><span data-stu-id="dacea-103">Availability in Uruguay</span></span>
+# <a name="availability-in-uruguay"></a><span data-ttu-id="af021-103">ウルグアイでの利用可能性</span><span class="sxs-lookup"><span data-stu-id="af021-103">Availability in Uruguay</span></span>
 
-<span data-ttu-id="dacea-104">電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="dacea-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
+<span data-ttu-id="af021-104">電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="af021-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
 
-<span data-ttu-id="dacea-105">Skype for Business の Office 365 サービスと、ウルグアイで利用できる Microsoft Teams の例を次に示します。</span><span class="sxs-lookup"><span data-stu-id="dacea-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Uruguay.</span></span>
+<span data-ttu-id="af021-105">Skype for Business の Office 365 サービスと、ウルグアイで利用できる Microsoft Teams の例を次に示します。</span><span class="sxs-lookup"><span data-stu-id="af021-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Uruguay.</span></span>
   
-## <a name="audio-conferencing"></a><span data-ttu-id="dacea-106">電話会議</span><span class="sxs-lookup"><span data-stu-id="dacea-106">Audio Conferencing</span></span>
+## <a name="audio-conferencing"></a><span data-ttu-id="af021-106">電話会議</span><span class="sxs-lookup"><span data-stu-id="af021-106">Audio Conferencing</span></span>
 
-|<span data-ttu-id="dacea-107">**機能**</span><span class="sxs-lookup"><span data-stu-id="dacea-107">**Feature**</span></span>|<span data-ttu-id="dacea-108">**詳細**</span><span class="sxs-lookup"><span data-stu-id="dacea-108">**Details**</span></span>|
+|<span data-ttu-id="af021-107">**機能**</span><span class="sxs-lookup"><span data-stu-id="af021-107">**Feature**</span></span>|<span data-ttu-id="af021-108">**詳細**</span><span class="sxs-lookup"><span data-stu-id="af021-108">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="dacea-109">電話会議は購入できますか?</span><span class="sxs-lookup"><span data-stu-id="dacea-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="dacea-110">はい</span><span class="sxs-lookup"><span data-stu-id="dacea-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="dacea-111">電話番号は自動的に電話会議に割り当てられますか?</span><span class="sxs-lookup"><span data-stu-id="dacea-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="dacea-112">いいえ</span><span class="sxs-lookup"><span data-stu-id="dacea-112">No</span></span>  <br/> |
-|<span data-ttu-id="dacea-113">折り返し通話機能を使用するダイヤルアウト機能</span><span class="sxs-lookup"><span data-stu-id="dacea-113">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="dacea-114">通信クレジットが必要</span><span class="sxs-lookup"><span data-stu-id="dacea-114">Requires communication credits</span></span>  <br/> |
+|<span data-ttu-id="af021-109">電話会議は購入できますか?</span><span class="sxs-lookup"><span data-stu-id="af021-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="af021-110">はい</span><span class="sxs-lookup"><span data-stu-id="af021-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="af021-111">電話番号は自動的に電話会議に割り当てられますか?</span><span class="sxs-lookup"><span data-stu-id="af021-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="af021-112">いいえ</span><span class="sxs-lookup"><span data-stu-id="af021-112">No</span></span>  <br/> |
+|<span data-ttu-id="af021-113">折り返し通話機能を使用するダイヤルアウト機能</span><span class="sxs-lookup"><span data-stu-id="af021-113">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="af021-114">通信クレジットが必要</span><span class="sxs-lookup"><span data-stu-id="af021-114">Requires communication credits</span></span>  <br/> |
    
-## <a name="phone-system"></a><span data-ttu-id="dacea-115">電話システム</span><span class="sxs-lookup"><span data-stu-id="dacea-115">Phone System</span></span>
+## <a name="phone-system"></a><span data-ttu-id="af021-115">電話システム</span><span class="sxs-lookup"><span data-stu-id="af021-115">Phone System</span></span>
 
-|<span data-ttu-id="dacea-116">**機能**</span><span class="sxs-lookup"><span data-stu-id="dacea-116">**Feature**</span></span>|<span data-ttu-id="dacea-117">**詳細**</span><span class="sxs-lookup"><span data-stu-id="dacea-117">**Details**</span></span>|
+|<span data-ttu-id="af021-116">**機能**</span><span class="sxs-lookup"><span data-stu-id="af021-116">**Feature**</span></span>|<span data-ttu-id="af021-117">**詳細**</span><span class="sxs-lookup"><span data-stu-id="af021-117">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="dacea-118">電話システムは購入できますか?</span><span class="sxs-lookup"><span data-stu-id="dacea-118">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="dacea-119">はい</span><span class="sxs-lookup"><span data-stu-id="dacea-119">Yes</span></span>  <br/> |
-| <span data-ttu-id="dacea-120">自動応答</span><span class="sxs-lookup"><span data-stu-id="dacea-120">Auto attendants</span></span> <br/> |<span data-ttu-id="dacea-121">利用可能</span><span class="sxs-lookup"><span data-stu-id="dacea-121">Available</span></span>  <br/> |
-|<span data-ttu-id="dacea-122">通話キュー</span><span class="sxs-lookup"><span data-stu-id="dacea-122">Call queues</span></span>  <br/> |<span data-ttu-id="dacea-123">利用可能</span><span class="sxs-lookup"><span data-stu-id="dacea-123">Available</span></span>  <br/> |
-|<span data-ttu-id="dacea-124">ボイスメール</span><span class="sxs-lookup"><span data-stu-id="dacea-124">Voicemail</span></span>  <br/> |<span data-ttu-id="dacea-125">利用可能</span><span class="sxs-lookup"><span data-stu-id="dacea-125">Available</span></span>  <br/> |
+|<span data-ttu-id="af021-118">電話システムは購入できますか?</span><span class="sxs-lookup"><span data-stu-id="af021-118">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="af021-119">はい</span><span class="sxs-lookup"><span data-stu-id="af021-119">Yes</span></span>  <br/> |
+| <span data-ttu-id="af021-120">自動応答</span><span class="sxs-lookup"><span data-stu-id="af021-120">Auto attendants</span></span> <br/> |<span data-ttu-id="af021-121">利用可能</span><span class="sxs-lookup"><span data-stu-id="af021-121">Available</span></span>  <br/> |
+|<span data-ttu-id="af021-122">通話キュー</span><span class="sxs-lookup"><span data-stu-id="af021-122">Call queues</span></span>  <br/> |<span data-ttu-id="af021-123">利用可能</span><span class="sxs-lookup"><span data-stu-id="af021-123">Available</span></span>  <br/> |
+|<span data-ttu-id="af021-124">ボイスメール</span><span class="sxs-lookup"><span data-stu-id="af021-124">Voicemail</span></span>  <br/> |<span data-ttu-id="af021-125">利用可能</span><span class="sxs-lookup"><span data-stu-id="af021-125">Available</span></span>  <br/> |
    
-## <a name="calling-plans"></a><span data-ttu-id="dacea-126">通話プラン</span><span class="sxs-lookup"><span data-stu-id="dacea-126">Calling Plans</span></span>
+## <a name="calling-plans"></a><span data-ttu-id="af021-126">通話プラン</span><span class="sxs-lookup"><span data-stu-id="af021-126">Calling Plans</span></span>
 
-|<span data-ttu-id="dacea-127">**機能**</span><span class="sxs-lookup"><span data-stu-id="dacea-127">**Feature**</span></span>|<span data-ttu-id="dacea-128">**詳細**</span><span class="sxs-lookup"><span data-stu-id="dacea-128">**Details**</span></span>|
+|<span data-ttu-id="af021-127">**機能**</span><span class="sxs-lookup"><span data-stu-id="af021-127">**Feature**</span></span>|<span data-ttu-id="af021-128">**詳細**</span><span class="sxs-lookup"><span data-stu-id="af021-128">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="dacea-129">通話プランは購入できますか?</span><span class="sxs-lookup"><span data-stu-id="dacea-129">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="dacea-130">いいえ</span><span class="sxs-lookup"><span data-stu-id="dacea-130">No</span></span>  <br/> |
-|<span data-ttu-id="dacea-131">通話プランで利用可能な通話分数</span><span class="sxs-lookup"><span data-stu-id="dacea-131">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="dacea-132">該当しない</span><span class="sxs-lookup"><span data-stu-id="dacea-132">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="dacea-133">発信通話を行うことができますか?</span><span class="sxs-lookup"><span data-stu-id="dacea-133">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="dacea-134">該当しない</span><span class="sxs-lookup"><span data-stu-id="dacea-134">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="af021-129">通話プランは購入できますか?</span><span class="sxs-lookup"><span data-stu-id="af021-129">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="af021-130">いいえ</span><span class="sxs-lookup"><span data-stu-id="af021-130">No</span></span>  <br/> |
+|<span data-ttu-id="af021-131">通話プランで利用可能な通話分数</span><span class="sxs-lookup"><span data-stu-id="af021-131">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="af021-132">該当しない</span><span class="sxs-lookup"><span data-stu-id="af021-132">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="af021-133">発信通話を行うことができますか?</span><span class="sxs-lookup"><span data-stu-id="af021-133">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="af021-134">該当しない</span><span class="sxs-lookup"><span data-stu-id="af021-134">Not applicable</span></span>  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="dacea-135">サービスの有料電話番号と無料電話番号</span><span class="sxs-lookup"><span data-stu-id="dacea-135">Toll and toll-free numbers for services</span></span>
+## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="af021-135">サービスの有料電話番号と無料電話番号</span><span class="sxs-lookup"><span data-stu-id="af021-135">Toll and toll-free numbers for services</span></span>
 
-|<span data-ttu-id="dacea-136">**機能**</span><span class="sxs-lookup"><span data-stu-id="dacea-136">**Feature**</span></span>|<span data-ttu-id="dacea-137">**詳細**</span><span class="sxs-lookup"><span data-stu-id="dacea-137">**Details**</span></span>|
+|<span data-ttu-id="af021-136">**機能**</span><span class="sxs-lookup"><span data-stu-id="af021-136">**Feature**</span></span>|<span data-ttu-id="af021-137">**詳細**</span><span class="sxs-lookup"><span data-stu-id="af021-137">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="dacea-138">有料電話番号を取得できる首都または主要都市はどこですか?</span><span class="sxs-lookup"><span data-stu-id="dacea-138">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<span data-ttu-id="dacea-139">該当しない</span><span class="sxs-lookup"><span data-stu-id="dacea-139">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="dacea-140">有料電話番号は使用できますか?</span><span class="sxs-lookup"><span data-stu-id="dacea-140">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="dacea-141">いいえ</span><span class="sxs-lookup"><span data-stu-id="dacea-141">No</span></span>  <br/> |
-|<span data-ttu-id="dacea-142">無料電話番号は使用できますか?</span><span class="sxs-lookup"><span data-stu-id="dacea-142">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="dacea-143">はい</span><span class="sxs-lookup"><span data-stu-id="dacea-143">Yes</span></span>  <br/> |
+|<span data-ttu-id="af021-138">有料電話番号を取得できる首都または主要都市はどこですか?</span><span class="sxs-lookup"><span data-stu-id="af021-138">What capitals or major cities can you get toll numbers for?</span></span>  <br/> | <span data-ttu-id="af021-139">モンテビデオ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</span><span class="sxs-lookup"><span data-stu-id="af021-139">Montevideo ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</span></span> <br/> |
+|<span data-ttu-id="af021-140">有料電話番号は使用できますか?</span><span class="sxs-lookup"><span data-stu-id="af021-140">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="af021-141">○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</span><span class="sxs-lookup"><span data-stu-id="af021-141">Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</span></span>  <br/> |
+|<span data-ttu-id="af021-142">無料電話番号は使用できますか?</span><span class="sxs-lookup"><span data-stu-id="af021-142">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="af021-143">はい</span><span class="sxs-lookup"><span data-stu-id="af021-143">Yes</span></span>  <br/> |
    
- <span data-ttu-id="dacea-144">電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="dacea-144">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
+ <span data-ttu-id="af021-144">電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="af021-144">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
   
-## <a name="communications-credits"></a><span data-ttu-id="dacea-145">コミュニケーション クレジット</span><span class="sxs-lookup"><span data-stu-id="dacea-145">Communications Credits</span></span>
+## <a name="communications-credits"></a><span data-ttu-id="af021-145">コミュニケーション クレジット</span><span class="sxs-lookup"><span data-stu-id="af021-145">Communications Credits</span></span>
 
-|<span data-ttu-id="dacea-146">**機能**</span><span class="sxs-lookup"><span data-stu-id="dacea-146">**Feature**</span></span>|<span data-ttu-id="dacea-147">**詳細**</span><span class="sxs-lookup"><span data-stu-id="dacea-147">**Details**</span></span>|
+|<span data-ttu-id="af021-146">**機能**</span><span class="sxs-lookup"><span data-stu-id="af021-146">**Feature**</span></span>|<span data-ttu-id="af021-147">**詳細**</span><span class="sxs-lookup"><span data-stu-id="af021-147">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="dacea-148">コミュニケーション クレジットは利用できますか?</span><span class="sxs-lookup"><span data-stu-id="dacea-148">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="dacea-149">はい</span><span class="sxs-lookup"><span data-stu-id="dacea-149">Yes</span></span>  <br/> |
+|<span data-ttu-id="af021-148">コミュニケーション クレジットは利用できますか?</span><span class="sxs-lookup"><span data-stu-id="af021-148">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="af021-149">はい</span><span class="sxs-lookup"><span data-stu-id="af021-149">Yes</span></span>  <br/> |
    
-<span data-ttu-id="dacea-150">この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="dacea-150">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
+<span data-ttu-id="af021-150">この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="af021-150">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="dacea-151">関連トピック</span><span class="sxs-lookup"><span data-stu-id="dacea-151">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="af021-151">関連トピック</span><span class="sxs-lookup"><span data-stu-id="af021-151">Related topics</span></span>
 
-[<span data-ttu-id="dacea-152">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="dacea-152">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="af021-152">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="af021-152">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
-[<span data-ttu-id="dacea-153">国および地域ごとの電話会議および通話プランの利用可能性</span><span class="sxs-lookup"><span data-stu-id="dacea-153">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[<span data-ttu-id="af021-153">国および地域ごとの電話会議および通話プランの利用可能性</span><span class="sxs-lookup"><span data-stu-id="af021-153">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  
