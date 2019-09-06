@@ -3,7 +3,7 @@ title: ロシアでの利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: a1534ecf-fae6-4472-9f3f-c205f547af17
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをロシアで利用できるようにする方法について説明します。
-ms.openlocfilehash: bdf48a912b1afc2a4c273dfb35334fff10d5f564
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 0e283296f2675dc50230a156f92e123a0975c4d5
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331333"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775479"
 ---
 # <a name="availability-in-russia"></a>ロシアでの利用可能性
 
@@ -67,7 +67,7 @@ ms.locfileid: "34331333"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |モスクワ  <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>モスクワ <li>サンクトペテルブルク ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>|
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |いいえ  <br/> |
    

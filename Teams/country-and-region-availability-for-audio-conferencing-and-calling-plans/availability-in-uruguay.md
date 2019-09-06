@@ -3,7 +3,7 @@ title: ウルグアイでの利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 5ce55c31-59da-4649-9021-ea9e78cfd9ed
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Skype for Business の Office 365 サービスと、ウルグアイで利用できる Microsoft Teams の例を次に示します。
-ms.openlocfilehash: ddc843f1ac45c629cfa3d20e494124f787726532
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 6e552f46b1cbf6ce8dce55c9da903b0a741eae08
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330917"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775360"
 ---
 # <a name="availability-in-uruguay"></a>ウルグアイでの利用可能性
 
@@ -67,8 +67,8 @@ Skype for Business の Office 365 サービスと、ウルグアイで利用で�
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
-|有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | モンテビデオ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|有料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。

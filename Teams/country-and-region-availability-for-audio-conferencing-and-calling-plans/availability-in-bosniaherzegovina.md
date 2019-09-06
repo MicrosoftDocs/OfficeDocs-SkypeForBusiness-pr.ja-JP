@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Skype for Business および Microsoft Teams の Office 365 サービスは、ボスニア・ヘルツェゴビナで利用できます。
-ms.openlocfilehash: f75172efe76a4423872c321484855c8daf04ba9e
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 1d382c02249f39a42f7f61a70c7687367e0cbad4
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332181"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774482"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>ボスニア・ヘルツェゴビナでの利用可能性
 
@@ -68,7 +68,7 @@ Skype for Business および Microsoft Teams の Office 365 サービスは、�
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
-|有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
+|有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。

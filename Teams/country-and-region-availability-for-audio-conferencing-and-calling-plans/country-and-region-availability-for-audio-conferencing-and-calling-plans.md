@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: 9a93ecaf9f68f5aa0412253a7a9355a0cfe33445
-ms.sourcegitcommit: 40328f5e80ee992cd0e63655ede9698a35069f15
+ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "35908228"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774655"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -38,7 +38,8 @@ ms.locfileid: "35908228"
 ***
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>お客様の国または地域を選択して、組織で利用可能な機能を確認してください
 
-> [!div class="op_single_selector"]    
+> [!div class="op_single_selector"]
+> - [アルジェリア](availability-in-algeria.md)    
 > - [アルゼンチン](availability-in-argentina.md)
 > - [オーストラリア](availability-in-australia.md)
 > - [Austria](availability-in-austria.md)
@@ -46,10 +47,12 @@ ms.locfileid: "35908228"
 > - [ベラルーシ](availability-in-belarus.md)
 > - [Belgium](availability-in-belgium.md)
 > - [ベリーズ](availability-in-belize.md)
+> - [ベナン](availability-in-benin.md)
 > - [ボスニア・ヘルツェゴビナ](availability-in-bosniaherzegovina.md)
 > - [ブラジル](availability-in-brazil.md)
 > - [ブルネイ](availability-in-brunei.md)
 > - [ブルガリア](availability-in-bulgaria.md)
+> - [カンボジア](availability-in-cambodia.md)
 > - [カナダ](availability-in-canada.md)
 > - [チリ](availability-in-chile.md)
 > - [中国](availability-in-china.md)
@@ -68,6 +71,7 @@ ms.locfileid: "35908228"
 > - [France](availability-in-france.md)
 > - [ジョージア](availability-in-georgia.md)
 > - [Germany](availability-in-germany.md)
+> - [ガーナ](availability-in-ghana.md)
 > - [ギリシャ](availability-in-greece.md)
 > - [ホンジュラス](availability-in-honduras.md)
 > - [香港](availability-in-hong-kong.md)
@@ -79,7 +83,9 @@ ms.locfileid: "35908228"
 > - [イタリア](availability-in-italy.md)
 > - [日本](availability-in-japan.md)
 > - [ヨルダン](availability-in-jordan.md)
+> - [カザフスタン](availability-in-kazakhstan.md)
 > - [ケニア](availability-in-kenya.md)
+> - [クウェート](availability-in-kuwait.md)
 > - [ラトビア](availability-in-latvia.md)
 > - [Lithuania](availability-in-lithuania.md)
 > - [ルクセンブルク](availability-in-luxembourg.md)
@@ -89,8 +95,11 @@ ms.locfileid: "35908228"
 > - [メキシコ](availability-in-mexico.md)
 > - [モルドバ](availability-in-moldova.md)
 > - [Monaco](availability-in-monaco.md)
+> - [モロッコ](availability-in-morocco.md)
 > - [オランダ](availability-in-the-netherlands.md)
 > - [ニュージーランド](availability-in-new-zealand.md)
+> - [ニカラグア](availability-in-nicaragua.md)
+> - [ナイジェリア](availability-in-nigeria.md)
 > - [ノルウェー](availability-in-norway.md)
 > - [パキスタン](availability-in-pakistan.md)
 > - [パナマ](availability-in-panama.md)
@@ -117,6 +126,7 @@ ms.locfileid: "35908228"
 > - [台湾](availability-in-taiwan.md)
 > - [タイ](availability-in-thailand.md)
 > - [トリニダード・トバゴ](availability-in-trinidad-and-tobago.md)
+> - [チュニジア](availability-in-tunisia.md)
 > - [トルコ](availability-in-turkey.md)
 > - [ウクライナ](availability-in-the-ukraine.md)
 > - [アラブ首長国連邦 (U.A.E)](availability-in-the-united-arab-emirates-uae.md)
@@ -126,7 +136,7 @@ ms.locfileid: "35908228"
 > - [ベネズエラ](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**すべての国と地域でスプレッドシートをお探しの場合は、[クラウドボイス機能の国/地域の可用性スプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-07252019)-(en-us).xlsx?raw=true)をダウンロードして保存**します。
+**すべての国と地域でスプレッドシートをお探しの場合は、[クラウドボイス機能の国/地域の可用性スプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)をダウンロードして保存**します。
 
 ***
 

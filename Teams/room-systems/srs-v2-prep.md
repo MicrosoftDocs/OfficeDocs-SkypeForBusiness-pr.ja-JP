@@ -2,7 +2,7 @@
 title: 環境を準備する
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームを展開するためのインフラストラクチャの準備について説明します。
-ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 4f5242d2647810616f0ffaabc1cda938e24147da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493088"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775057"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -28,22 +28,17 @@ ms.locfileid: "36493088"
 2. デバイスが使用する、正常に動作しているネットワーク/インターネット接続があることを確認します。 
     
    - DHCP を使って IP アドレスを受信できる必要があります。 (Microsoft Teams ルームは、最初のユニットの起動時に静的 IP アドレスを使って構成することはできませんが、その後でデバイスの静的 IP をデバイスまたは上流のスイッチまたはルータで構成できます)。
-    
    - 次のポートを開いておく必要があります (メディアの通常のポートを開くことに加えて)。
-    
    - HTTPS: 443
-    
    - HTTP: 80
-    
    - プロキシを介してネットワークが動作している場合は、プロキシのアドレスまたはスクリプトの情報も必要です。
     
      > [!NOTE]
-     > Microsoft Teams Rooms は、HDMI インジェストの機能 (ビデオ、オーディオ) に関する問題を引き起こすことが確認されている、HDCP 入力をサポートしていません。 Microsoft Teams Rooms に接続されたスイッチの HDCP オプションがオフになっていることを必ず確認してください。 
+     > Microsoft Teams Rooms は、HDMI インジェストの機能 (ビデオ、オーディオ) に関する問題を引き起こすことが確認されている、HDCP 入力をサポートしていません。 Microsoft Teams Rooms に接続されたスイッチの HDCP オプションがオフになっていることを必ず確認してください。
   
-3. エクスペリエンスを改善するために、マイクロソフトではデータを収集しています。 データを収集するために、以下のサイトをホワイトリストに記載しておく必要があります。
-    
+3. エクスペリエンスを改善するために、マイクロソフトではデータを収集しています。 Microsoft にデータの収集を許可するには、次のサイトをホワイトリストにします。
+
    - テレメトリクライアントエンドポイント:https://vortex.data.microsoft.com/
-    
    - テレメトリ設定エンドポイント:https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>デバイス アカウントを作成してテストする
@@ -90,13 +85,13 @@ Microsoft Teams のルームは、Windows OS からプロキシ設定を継承�
  
 8. Skype キーを開き、HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet 設定を参照して、次の設定が入力されていることを確認します。 
     
-    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
-    "MigrateProxy"=dword:00000001
+    `"MigrateProxy"=dword:00000001`
     
-    "ProxyEnable"=dword:00000001
+    `"ProxyEnable"=dword:00000001`
     
-    "ProxyServer"="xx.xx.xx.xx:8080"
+    `"ProxyServer"="xx.xx.xx.xx:8080"`
     
     ProxyServer が存在しない場合は、このキーを文字列として追加し、xx.xx.xx.xx:8080 をプロキシ サーバーの IP/ホストとポートに変更する必要があります。
     
@@ -123,7 +118,7 @@ Microsoft Teams のルームは、Windows OS からプロキシ設定を継承�
 |iOS デバイス上の Lync Mobile 2010 向け Lync Mobile プッシュ通知。Android、Nokia Symbian、Windows Phone モバイル デバイスの場合、これは必要ありません。  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |\*contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype テレメトリ  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |なし  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
 |Skype クライアントのヒント  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |quicktips.skypeforbusiness.com  <br/> |いいえ  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
-   
+
 > [!NOTE]
 > contoso.com および broadcast.skype.com のワイルドカードは、Office 365 専用で使用されるノードの長いリストを表しています。 
   

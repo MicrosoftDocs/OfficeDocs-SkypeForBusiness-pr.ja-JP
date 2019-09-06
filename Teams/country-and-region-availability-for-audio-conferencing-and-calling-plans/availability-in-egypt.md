@@ -3,7 +3,7 @@ title: エジプトでの利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business の Office 365 サービスと、エジプトで利用できる Microsoft Teams について説明します。
-ms.openlocfilehash: 410840eac1158a0aed9abadf442cd9e021dd3634
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: b217d69ee353404e63a726dc28cade0ccff7b85a
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331973"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775446"
 ---
 # <a name="availability-in-egypt"></a>エジプトでの利用可能性
 
@@ -68,7 +68,7 @@ ms.locfileid: "34331973"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
-|無料電話番号は使用できますか?  <br/> |いいえ <br/> |
+|無料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。
   

@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: このトピックでは、Skype Room System アプライアンス PC をドメインに参加させる方法について説明します。
-ms.openlocfilehash: 3c9471fe07cdacd4bb9dbb26a4b4591ed9945d9f
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: be8fd60b67efb356e09678eef21fbfab425ce304
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428069"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774644"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -28,27 +28,17 @@ ms.locfileid: "36428069"
 Skype Room System アプライアンス PC には、Active Directory ドメインに参加することも、ワークグループ内に残しておくこともできます。 決定の前に以下の点を検討してください。
   
 - ドメイン-Skype Room System アプライアンス PC に参加すると、組織のプライベートルート証明書チェーンを自動的にインポートできます。
-    
 - ドメイン-Skype Room System アプライアンス PC に参加すると、ドメインユーザとグループの管理権限を付与することができます。 そうすることで、ローカル マシン レベルの管理者アカウントのパスワードを覚えておく必要がなくなります。
-    
 - Skype Room System アプライアンス PC をドメインに参加させるには、別の組織単位 (OU) を作成する必要があります。これにより、すべての Skype Room System machine オブジェクトが存在する OU にグループポリシーオブジェクト (GPO) の除外が提供されます。 この操作を行う場合は、Skype Room System アプライアンス PC をドメインに参加させる前に、OU にマシンオブジェクトを作成します。
-    
-- 多くの組織には、次のような Gpo があります。 Skype Room System appliance PC の機能に影響します。 Skype Room System OU でこれらの Gpo の継承を上書きまたはブロックします。 
-    
+- 多くの組織には、次のような Gpo があります。 Skype Room System appliance PC の機能に影響します。 Skype Room System OU でこれらの Gpo の継承を上書きまたはブロックします。
+
   - ログオン セッションのタイムアウト (自動ロックアウト)
-    
   - 電源管理関連のポリシー
-    
   - 追加の認証手順が必要
-    
   - ローカル ドライブへのアクセスを拒否
-    
   - ユーザーに低速のネットワーク接続を推奨する
-    
   - ログオン時に特定のプログラムを起動する
-    
   - ドメインに参加するすべてのマシンで別のドメイン ユーザー アカウントを作成する。
-    
   - Skype Room System に Windows Update をプッシュする
     
 - または、アプライアンス PC をワークグループに残しておくことも可能です。 デスクトップの Microsoft Teams または Skype for Business クライアントの場合と同様に、Skype Room System アプライアンス PC でルート証明書チェーンを手動でインポートする必要があります。 展開で公開証明書 (Entrust、VeriSign など) を使用している場合は、ルート証明書チェーンをインポートする必要はありません。 

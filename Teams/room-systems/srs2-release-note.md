@@ -2,7 +2,7 @@
 title: リリース ノート
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
@@ -11,21 +11,20 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームでの累積的な改善点について説明します。
-ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 985a261cab4ce9d7cf4bb6949183142a84f76dd0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427656"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775218"
 ---
-# <a name="release-notes"></a>リリース ノート 
+# <a name="release-notes"></a>リリース ノート
 
 この記事では、Microsoft Teams のルームでの累積的な改善点について説明します。
 
-
 ## <a name="version-history"></a>バージョン履歴
 
-|リリース |公開先 <br> Microsoft ストア |
+|リリース |公開先 <br/> Microsoft ストア |
 |--- |--- |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -55,22 +54,25 @@ ms.locfileid: "36427656"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams の会議機能の概要と問題の解決
+
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
 
 この更新プログラムで導入されたもの:
+
 - 新しいコンテンツカメラ機能により、ユーザーは従来のホワイトボードをチーム会議に適切に含めることができます。
 - コンソールの UI をさらに改善して、コンソール上でアクセスできる新しいサイドバーに低優先メールと移動設定を小さくする
 - ローカルコンテンツケーブルが接続されていないか、コンテンツカメラが接続されていない場合は、[共有トレイ] ボタンを無効にする
 - MTR システムの再起動後に初めて表示されたタッチキーボードの問題を修正しました。
-- 品質と信頼性の修正。
+- 品質と信頼性の修正
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 この更新プログラムで導入されたもの:
+
 - Skype Room System store アプリの "Microsoft Teams 室" への再ブランド
 - Microsoft Teams 室本体のユーザーインターフェイスなおし Microsoft Teams への参加
 - テーマの更新: ユーザー設定の背景画像は、部屋の前面に表示されますが、本体の背景に色を設定したままにして、本体の UI コントロールが色のコントラストを満たしていることを確認することができます。アクセシビリティ要件
-- Microsoft Teams PC/Web/モバイルクライアントで一貫したエクスペリエンスを提供するために、チームの通話と会議のため<sup></sup>の、会議中の通話コントロールのユニバーサルバー
+- Microsoft Teams PC/Web/<sup>モバイルクライアントで</sup>一貫したエクスペリエンスを提供するために、チームの通話と会議のための、会議中の通話コントロールのユニバーサルバー
 - Teams 通話/会議<sup>1</sup>の後の通話品質フィードバック評価
 - PC/Web/Mobile Teams クライアント<sup>1</sup> <sup>2</sup>から共有されている場合に、microsoft Teams のルームの前面に microsoft ホワイトボードの受付/レンダリングを行う
 - Microsoft Teams の会議室クライアントとの互換性の問題により、Windows 10 バージョン1809のアップグレードのサポートが削除されました。 Windows 10 バージョン19H1 サポートは今後のリリースで追加される予定です
@@ -127,7 +129,7 @@ ms.locfileid: "36427656"
 ### <a name="40270-1012018"></a>4.0.27.0 (10/1/2018)
 
 この更新プログラムで導入されたもの:
- 
+
 - Windows 10 バージョン1803のアップグレードのために Microsoft Teams のルームアプリを準備するために必要なコードの変更
 - ローカライズされた Eula (具体的にはノルウェー語) での書式設定の問題を修正して、EULA OOBE セットアップウィンドウを超えないようにします。
 - Microsoft Teams 室のアプリケーションを従来の Lync Room Systems で実行するために必要なコードの変更。 詳細[はこちら](https://aka.ms/lrsupgrade)をご覧ください。
@@ -203,11 +205,10 @@ ms.locfileid: "36427656"
 Introduced in this update: 
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
 
-
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
 この更新プログラムで導入されたもの:
- 
+
 - "フィードバックを送信する" 機能の問題を修正しました。
 
 ### <a name="30150-1032017"></a>3.0.15.0 (10/3/2017)
@@ -217,7 +218,6 @@ Introduced in this update:
 - [POLYCOM MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock ハードウェアのサポート
 - [Logitech Brio](https://www.logitech.com/en-us/product/brio)のサポート
 - ルームにアクティビティがない場合にディスプレイ (本体と背面) がスリープモードに切り替わらないという問題を解決します
-
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
 
@@ -248,7 +248,6 @@ Introduced in this update:
 - IT 管理者がデバイスをリモートで構成する機能
  <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
-
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 
 この更新プログラムで導入されたもの:
@@ -261,7 +260,7 @@ Introduced in this update:
 **機能:**
 
  **Skype for Business 用**
- 
+
 - Skype 会議のワンタッチ参加
 - 画面に合わせた HD ビデオと HD ワイドバンド音声機能を備えた会議室向けに最適化された Skype 会議エクスペリエンス
 - すべての参加者は、各自希望のデバイスを使用して、どこからでも Skype Meeting に接続することができる

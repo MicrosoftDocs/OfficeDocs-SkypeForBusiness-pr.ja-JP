@@ -2,7 +2,7 @@
 title: Microsoft Teams の会議室のメンテナンスと操作
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: このトピックでは、次世代の Skype Room Systems である Microsoft Teams のルームの管理について説明します。
-ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 14f4fb23868cc3e4247c700d15851511310db471
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427945"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775232"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams の会議室のメンテナンスと操作 
  
@@ -51,7 +51,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 Microsoft Teams の会議室が正常に動作していない場合は、出荷時のリセットを実行してください。 この操作は、[**回復**] タブの [設定] アプリで行うことができます。 [**この PC のリセット**] で、[**作業の開始**] を選び、[**すべて削除**] を選びます。 残りの指示に従って、デバイスをリセットします。
   
 > [!NOTE]
-> **[自分のファイルを保持する] でアプリと設定を削除**した場合、Microsoft Teams の会議室が使用できなくなるという既知の問題がありますが、Windows のリセットプロセス中に個人用ファイルオプションが選択されたままになります。 この__ オプションは使用しないでください。
+> **[自分のファイルを保持する] でアプリと設定を削除**した場合、Microsoft Teams の会議室が使用できなくなるという既知の問題がありますが、Windows のリセットプロセス中に個人用ファイルオプションが選択されたままになります。 このオプション_は使用しないでください。_
   
 ## <a name="supported-remote-options"></a>サポートされるリモート オプション
 <a name="RemoteOptions"> </a>

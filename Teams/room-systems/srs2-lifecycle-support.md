@@ -2,7 +2,7 @@
 title: バージョンのサポート
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: この記事では、Microsoft Teams のルームのライフサイクルのサポートについて説明します。
-ms.openlocfilehash: dc4f8c0997ee64f4011aed6056be506738012639
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: dbe90d4014439af3f0dc3eeb54d62c5ee5e64c98
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427689"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775075"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 室アプリバージョンのサポート
  
@@ -34,6 +34,7 @@ Microsoft Teams の会議室の更新プログラムは、毎年、一般的な�
 すべてのリリースは、 [Microsoft Teams ルームのリリースノート](srs2-release-note.md)に記載されています。
 
 # <a name="os-version-support"></a>OS バージョンのサポート
+
 Microsoft Teams のルームを実行しているデバイスの windows 10 の機能更新プログラムは、Windows がリリース更新を行った時点から6か月間は提供されません。 これを実現するには、Windows Update for Business channel (つまり、半期チャネル) とアプリの設定で Microsoft Teams 室デバイス用の特別なブロックを配置します。 このブロック期間中は、Microsoft Teams のアプリと周辺機器が接続されている Windows 10 の新機能リリースが、社内およびお客様のデバイスの OEM パートナーによって、さまざまなテストを行っていることを確認します。 これは、デバイスのセキュリティと一貫性のあるユーザーエクスペリエンスを保証し、Microsoft Teams の会議アプリを通じて提供されるエクスペリエンスの品質を確実にするために重要です。 
 
 (つまり、これらのデバイスでダウンロードするための Windows 10 機能更新プログラムが用意されています) 時点では、Microsoft Teams の会議では、アプリサポートポリシーを使用して、12か月分の特定の Windows 10 機能リリースがサポートされています。 Windows 10 の機能更新プログラムは6か月ごとに提供されるため、これにより、Microsoft Teams では、現在のバージョンのサポートが終了するまでの2つのリリースが追加されています。 これは、Windows 10 バージョンが6か月ごとにブロック解除されることも意味します。 アプリは、ブロックされている最後の Windows リリースに対して継続的に変化し、開発されます。 Microsoft Teams 室のデバイスで発生した問題について、アプリの修正プログラムを確実に入手するために、すべてのユーザーに対して、サポートされている windows バージョンのガイダンスに収められるように、これらのデバイスを最新の Windows 10 の機能更新プログラムにアップグレードすることをお勧めします。
@@ -41,7 +42,7 @@ Microsoft Teams のルームを実行しているデバイスの windows 10 の�
 このように、Microsoft Teams の会議室デバイスでは、サポートされている最小バージョンの2019から、Windows 10 バージョン1709が必要です。 Windows 10 バージョン1703またはそれ以降のシステムでは、新しいアプリのリリースは提供されません。
 
 > [!NOTE]
-> Microsoft Teams の会議室デバイスが次のバージョンの Windows 10 OS と互換性がある場合、デバイスは Windows Update を通じて次のバージョンに自動的に更新されます。 Microsoft Teams 室のデバイスは、Windows 10 の次のリリースに手動で、または Windows Update for Business (WUFB) グループポリシーを使用して、"受信する更新プログラムの Windows の準備レベルを選択してください" と "選択してください" を使用してアップグレードしないでください。プレビュービルドと機能更新プログラムは、「GPO を通じて」オプションを受け取ります。 これらのグループポリシーを有効にすることで、Windows 10 OS 更新プログラムと Microsoft Teams 室アプリの間で問題が発生する可能性があることがわかっています。 
+> Microsoft Teams の会議室デバイスが次のバージョンの Windows 10 OS と互換性がある場合、デバイスは Windows Update を通じて次のバージョンに自動的に更新されます。 Microsoft Teams 室のデバイスは、Windows 10 の次のリリースに手動で、または Windows Update for Business (WUFB) グループポリシーを使用して、"受信する更新プログラムの Windows の準備レベルを選択してください" と "選択してください" を使用してアップグレードしないでください。プレビュービルドと機能更新プログラムは、「GPO を通じて」オプションを受け取ります。 これらのグループポリシーを有効にすることで、Windows 10 OS 更新プログラムと Microsoft Teams 室アプリの間で問題が発生する可能性があることがわかっています。
  
 <a name="See"> </a> 
 ## <a name="see-also"></a>関連項目

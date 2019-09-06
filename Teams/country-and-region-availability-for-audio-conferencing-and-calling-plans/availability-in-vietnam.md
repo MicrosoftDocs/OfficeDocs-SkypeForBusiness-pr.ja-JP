@@ -3,7 +3,7 @@ title: ベトナムでの利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 86208bc1-fbf9-449e-913b-2e3654fc33e4
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、ベトナムで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
-ms.openlocfilehash: c01c7306015a99545470db742336d3f1fbd78abf
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: f65b8685b10d7c21a996aa1c75d95e558f8a3562
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330933"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774548"
 ---
 # <a name="availability-in-vietnam"></a>ベトナムでの利用可能性
 
@@ -67,8 +67,8 @@ ms.locfileid: "34330933"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
-|有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>ハノイ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))<li>Ho カイ Minh ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>  <br/> |
+|有料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。

@@ -3,7 +3,7 @@ title: サウジアラビアでの利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business の Office 365 サービスと、サウジアラビアで利用できる Microsoft Teams について説明します。
-ms.openlocfilehash: f9c4e84669079baa801e9ed7193678e20a4157e0
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 87cbdcf35cf523a68f53b434a7d2d29a3945125f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331309"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775468"
 ---
 # <a name="availability-in-saudi-arabia"></a>サウジアラビアでの利用可能性
 
@@ -67,8 +67,8 @@ ms.locfileid: "34331309"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
-|有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | リヤド ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|有料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。

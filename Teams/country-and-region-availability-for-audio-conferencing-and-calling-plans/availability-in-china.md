@@ -3,7 +3,7 @@ title: 中国での利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 30fde7fa-fb2b-4e73-8217-bdd41bd38567
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスを中国で利用できるようにする方法について説明します。
-ms.openlocfilehash: 259118889d9d15be3c1974753c250bfe3b40781b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 394e07327b04634e9edd67f71c77dcc05ac0c226
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332061"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775457"
 ---
 # <a name="availability-in-china"></a>中国での利用可能性
 
@@ -43,7 +43,7 @@ ms.locfileid: "34332061"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |いいえ  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li> 北京</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> | 地理的以外の場合。 電話番号が特定の都市や地域に関連していません。 <br/>  専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -69,7 +69,7 @@ ms.locfileid: "34332061"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |北京  <br/> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|無料電話番号は使用できますか?  <br/> |はい  <br/> |
+|無料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。
   

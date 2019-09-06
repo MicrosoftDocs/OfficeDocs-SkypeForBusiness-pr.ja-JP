@@ -2,7 +2,7 @@
 title: Microsoft Teams のルームを計画する
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルーム (次世代の Skype Room Systems) の展開に関する考慮事項について説明します。
-ms.openlocfilehash: 270155dcc4aaca10540689db053846fdc9dbfe8e
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428022"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775108"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams のルームを計画する
 

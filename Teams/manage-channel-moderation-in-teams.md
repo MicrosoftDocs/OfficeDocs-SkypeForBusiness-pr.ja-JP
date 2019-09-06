@@ -16,16 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: チームメンバーをチャネルモデレーターとして追加する方法など、Microsoft Teams でモデレーション用にチャネルをセットアップする方法について説明します。
-ms.openlocfilehash: 93fb0a6d8a88979d14031792ccf96a8861629b1d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d176c1d0076ea444fb46b69011bad94c0c2b3eb4
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244977"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775381"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Microsoft Teams では、チーム所有者はチャネルのモデレーションを有効にして、誰が新しい投稿を開始し、そのチャネルで投稿に返信できるかを制御できます。
 
@@ -59,11 +57,13 @@ Microsoft Teams では、チーム所有者はチャネルのモデレーショ�
 
 Teams でチャネルに移動し、[**その他のオプション...** ] をクリックします。 > **チャンネルを管理**する。 ここでは、モデレートを有効または無効にしたり、チームメンバーをモデレーターとして追加したり、ユーザー設定を行うことができます。
 
+チャネルのモデレーションは、チャネルごとの設定です。 チャネルモデレートのテナントレベルの設定はありません。 テナントレベルのチャネルのモデレーション設定を追加したい場合は、 [Teams UserVoice](https://microsoftteams.uservoice.com/)で要求します。
+
 ![manage-channel-moderation-in-teams-preferences](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>チャネルのモデレーションを有効または無効にする
 
-既定では、モデレーションはオフであり、新しい投稿をチームメンバーのみに制限するか、ゲストを含むすべてのユーザーに新しい投稿を開始することを許可することができます。
+既定では、モデレーションはオフになっています。これは、通常のチャネル設定がチーム所有者とチームメンバーに適用されることを意味します。 たとえば、新しい投稿をチームメンバーのみに制限したり、ゲストを含むすべてのユーザーに新しい投稿を開始することを許可したりできます。
 
 チャネルのモデレーションを有効にするには、[**チャネルのモデレーション**] で [**オン**] をクリックします。 チャネルのモデレーションがオンになっている場合、モデレーターのみが新しい投稿を開始できます。 
 

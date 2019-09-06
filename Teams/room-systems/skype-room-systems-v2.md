@@ -3,7 +3,7 @@ title: Microsoft Teams ミーティング ライセンス
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,14 +22,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Microsoft Teams のルームで利用できる機能について説明します。 '
-ms.openlocfilehash: 8112cdd11f5f5ca192da0780a6a316056e85063b
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: d9908ce78b52e2f1f67040ac51f8ae035d79826c
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859729"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775063"
 ---
-# <a name="teams-meeting-room-licensing-update"></a>Teams 会議室のライセンス更新 
+# <a name="teams-meeting-room-licensing-update"></a>Teams 会議室のライセンス更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共有通信デバイスのライセンスソリューション
 
@@ -43,7 +43,7 @@ Microsoft は、会議室のデバイスごと (Microsoft Teams 室や Microsoft
 |電話会議|&#x2714; &sup1;|
 |Microsoft Intune|&#x2714;|  
 |世界中どこでも利用可能 | &#x2714; &sup2;|
-|チャネルの可用性 | EA、EAS、CSP、 <br>Web ダイレクト |
+|チャネルの可用性 | EA、EAS、CSP、 <br/>Web ダイレクト |
 | | | |
 
 &sup1;利用可能時間と含まれる分数は、地域によって異なる場合があります。 サービスの利用状況を確認するには、[電話会議と通話プランの国と地域の空き時間](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)情報を参照してください。 国内プランの無料通話、国際通話分数などの追加サービスには、消費料金が適用される場合があります。お客様は、これらの機能を無効にして追加の請求を避けることができます。  

@@ -3,7 +3,7 @@ title: インドネシアでの利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 98fef414-b8e1-4032-b07b-63ec52fb3f26
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 次に示すのは、Skype for Business の Office 365 サービスと、インドネシアで利用できる Microsoft Teams です。
-ms.openlocfilehash: 8b0bd4f5a1ffc0a7f76c954677e14d9315a1fbe8
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 027f8c9c70ef97665584f80714befe0a39899df5
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331749"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774430"
 ---
 # <a name="availability-in-indonesia"></a>インドネシアでの利用可能性
 
@@ -67,7 +67,7 @@ ms.locfileid: "34331749"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |ジャカルタ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    

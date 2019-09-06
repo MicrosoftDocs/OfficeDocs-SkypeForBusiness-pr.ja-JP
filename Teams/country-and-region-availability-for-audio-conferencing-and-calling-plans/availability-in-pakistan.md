@@ -3,7 +3,7 @@ title: パキスタンでの利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 2066d1f9-cbf6-411f-91bb-84d824b4325e
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをパキスタンで利用できるようにする方法について説明します。
-ms.openlocfilehash: 29d925bc24f07e9a907b004eb59b8e59e42254fa
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: faa9114fd080b05045bc26c4ff13f8ecc9301893
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331469"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775490"
 ---
 # <a name="availability-in-pakistan"></a>パキスタンでの利用可能性
 
@@ -71,7 +71,7 @@ ms.locfileid: "34331469"
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。
+ パキスタンでは、サービス番号は電話会議にしか使用できないことに注意してください。 電話会議の有料または無料の電話番号を取得する場合は、「 [Skype For business および Microsoft Teams のサービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure モニターを使用して、統合されたエンドツーエンドの方法で Microsoft Teams 室デバイスの管理を展開する方法について説明します。
-ms.openlocfilehash: e52692b1a2ca8830b93a32546724b282b888c03a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428102"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774686"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure モニターを使用して Microsoft Teams のルーム管理を展開する
 
@@ -34,13 +34,13 @@ Azure Monitor でログ分析を構成することで、Microsoft Teams 室の�
 高いレベルでは、次のタスクを実行する必要があります。
 
 
-1.  [ログ分析構成を検証する](azure-monitor-deploy.md#validate_LogAnalytics)
-2.  [ログ分析管理セットアップ用にテストデバイスを構成する](azure-monitor-deploy.md#configure_test_devices)
-3.  [カスタム フィールドをマップする](azure-monitor-deploy.md#Custom_fields)
-4.  [ログ分析で Microsoft Teams のルームビューを定義する](azure-monitor-deploy.md#Define_Views)
-5.  [通知を定義する](azure-monitor-deploy.md#Alerts)
-6.  [すべてのデバイスを監視対象として構成する](azure-monitor-deploy.md#configure_all_devices)
-7.  [追加の Azure モニターソリューションを構成する](azure-monitor-deploy.md#Solutions)
+1. [ログ分析構成を検証する](azure-monitor-deploy.md#validate_LogAnalytics)
+2. [ログ分析管理セットアップ用にテストデバイスを構成する](azure-monitor-deploy.md#configure_test_devices)
+3. [カスタム フィールドをマップする](azure-monitor-deploy.md#Custom_fields)
+4. [ログ分析で Microsoft Teams のルームビューを定義する](azure-monitor-deploy.md#Define_Views)
+5. [通知を定義する](azure-monitor-deploy.md#Alerts)
+6. [すべてのデバイスを監視対象として構成する](azure-monitor-deploy.md#configure_all_devices)
+7. [追加の Azure モニターソリューションを構成する](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
 > 最小限の構成では、Azure Monitor Log Analytics は Windows オペレーティングシステムを実行しているコンピューターを監視できますが、Microsoft Teams の一部の機能については、すべての Microsoft Teams へのエージェントの展開を開始する前に実行する必要があります。会議室のデバイス。
