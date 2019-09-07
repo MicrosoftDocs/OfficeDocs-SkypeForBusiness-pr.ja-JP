@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c24899cb15cfec26cd1ee0d3304abbea93239e4
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 6d4eac2b4b6791040ba8f4d2ea980f69c1451140
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464487"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790833"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -225,8 +225,7 @@ ms.locfileid: "36464487"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|リソース アカウントで部門が正しく構成されなかった <br/> |2019 年 1 月以前に自動応答または通話キューに関連付けられているリソース アカウントでは、適切な部門パラメーター セットを持っていませんので、それが原因で電話番号の割り当てに失敗することがあります。 この問題を解決するための修正プログラムに取り組んでいます。 <br/><br/> Skype for Business Server で New-CsHybridApplicationEndpoint を使用して構成したリソース アカウントは、Department パラメーターが適切に設定されません。そのために、Skype for Business Online のリソース アカウント作成が失敗します。 この場合、オンラインへの同期を実行する前に、Active Directory で部門名を構成する必要があります。|この問題を削減するには、次の Cmdlet を実行し、部門パラメーターを設定します。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft コミュニケーション アプリケーション インスタンス" <br/> |2019 年 5 月 8 日 <br/> |
-
+|リソース アカウントで部門が正しく構成されなかった <br/> | 2019 年 1 月以前に作成された自動応答または通話キューに関連付けられているオンプレミスのリソース アカウントでは、適切な部門パラメーター セットを持っていない場合があり、それが原因で電話番号の割り当てに失敗することがあります。 この問題を解決する修正に取り組んでいます。 <br/><br/> Skype for Business Server で New-CsHybridApplicationEndpoint を使用して構成されているリソース アカウントでは、適切な部門パラメーター セットを持っていない場合があり、それが原因で Teams 管理センターのリソース アカウント作成に失敗することがあります。 この場合、オンラインへの同期を実行する前に、オンプレミスの Active Directory で部門名を構成する必要があります。|この問題を削減するには、次の Cmdlet を実行し、部門パラメーターを設定します。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft コミュニケーション アプリケーション インスタンス" <br/> また、 「[自動応答と通話キューサービスの更新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)」を参照してください。 |2019 年 5 月 8 日 <br/> |
 
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
