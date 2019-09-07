@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 のリソースアカウントをセットアップします。
-ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253956"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790863"
 ---
 # <a name="configure-resource-accounts"></a>リソースアカウントを構成する
 
@@ -61,7 +61,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
    米国以外の地域では、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。 代わりに、「[組織の電話番号を管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)する」に移動して、米国外からその方法を確認します。
 
 2. 電話システムのライセンスを購入します。 参照:  
-   - [電話システム–仮想ユーザーライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)
+   - [電話システム–仮想ユーザーライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 Enterprise E1 および E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 Enterprise E5 ビジネスソフトウェア](https://products.office.com/business/office-365-enterprise-e5-business-software)
@@ -103,7 +103,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
 トップレベルの自動応答または呼び出しキューに割り当てられる場合は、リソースアカウントに、割り当てられた電話番号が必要です。 ユーザー (購読者) の電話番号をリソースアカウントに割り当てることはできません。サービスの有料またはフリーダイヤルの電話番号のみを使用できます。
 
-  直接ルーティングハイブリッド番号をリソースアカウントに割り当てることができます。  詳細については、「 [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan.md) 」を参照してください。
+  直接ルーティングハイブリッド番号をリソースアカウントに割り当てることができます。  詳細については、「 [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) 」を参照してください。
 
   > [!NOTE]
   > 自動応答および通話キューのリソースアカウントに割り当てられている直接ルーティングサービス番号は、Microsoft Teams のユーザーおよびエージェントに対してのみサポートされます。
@@ -115,7 +115,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
 8. 以前に選択した電話システム自動応答または通話キューに、リソースアカウントを関連付けます。
 
-小規模ビジネスの実装の例については、Small business の例を参照してください。[自動応答](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)および小規模ビジネスの例-設定するには、[通話キューを](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml)設定します。
+小規模ビジネスの実装の例については、Small business の例を参照してください。[自動応答](/microsoftteams/tutorial-org-aa)および小規模ビジネスの例-設定するには、[通話キューを](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq)設定します。
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>電話番号なしでリソースアカウントを作成する
 
@@ -146,11 +146,14 @@ Skype for Business フロントエンドサーバーにログインし、次の 
    - [クラウド通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. 以前に選択した [リソースアカウント] および [電話システム] 自動応答または呼び出しキューを関連付けます。
 
-小規模ビジネスの実装の例については、Small business の例を参照してください。[自動応答](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)および小規模ビジネスの例-設定するには、[通話キューを](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml)設定します。
+小規模ビジネスの実装の例については、Small business の例を参照してください。[自動応答](/microsoftteams/tutorial-org-aa)および小規模ビジネスの例-設定するには、[通話キューを](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq)設定します。
 
 ## <a name="test-the-implementation"></a>実装をテストする
 
-実装をテストする最善の方法は、電話システムの自動応答または通話キュー用に構成された番号を呼び出して、いずれかのエージェントまたはメニューに接続することです。 [管理センター] 操作ウィンドウの [**テスト] ボタン**を使用して、テスト通話をすばやく配置することもできます。 電話システムの自動応答または通話キューを変更する場合は、それを選択し、操作ウィンドウで [**編集**] をクリックします。
+実装をテストする最善の方法は、電話システムの自動応答または通話キュー用に構成された番号を呼び出して、いずれかのエージェントまたはメニューに接続することです。 [管理センター] 操作ウィンドウの [**テスト] ボタン**を使用して、テスト通話をすばやく配置することもできます。 電話システムの自動応答または通話キューを変更する場合は、それを選択し、操作ウィンドウで [**編集**] をクリックします。 
+
+> [!TIP]
+> リソースアカウントが通話キューまたは自動応答に割り当てられていない場合は、「microsoft [teams の既知の問題](/MicrosoftTeams/Known-issues#phone-system)」および「Microsoft teams ブログの[ハイブリッドアプリケーションインスタンスを修正する方法](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)」を参照してください。
 
 ## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a>電話システムへの Exchange UM 自動応答またはコールキューの移動
 
@@ -180,7 +183,7 @@ Exchange UM から電話システムへの移行では、通話キューと自�
 
 4. 前述のエンドポイントを使用する電話システムの自動応答または呼び出しキューを構成します。
 
-   「 [Small business example」と](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)いうタイトルのチュートリアルの演習を使用すると、古い Exchange UM システムで階層の論理マップを作成するための手順がわかりやすくなります。
+   「 [Small business example」と](/microsoftteams/tutorial-org-aa)いうタイトルのチュートリアルの演習を使用すると、古い Exchange UM システムで階層の論理マップを作成するための手順がわかりやすくなります。
 5. 電話システムの自動応答または通話キューをテストします。
 6. Exchange UM 呼び出しキューまたは自動応答にリンクされている電話番号を、対応する電話システムの自動応答または通話キューに再割り当てします。  
 

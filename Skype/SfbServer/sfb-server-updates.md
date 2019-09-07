@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015/2019 および Lync 2013 の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 25869f25f02c51d952d7eba1c162852d3868d71d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36766963"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790815"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
@@ -30,6 +30,16 @@ ms.locfileid: "36766963"
 |:--- |:--- |:--- |
 |Skype for Business Server 2019 累積更新プログラム1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
 | | | |
+
+### <a name="skype-for-business-server-2019-tools"></a>Skype for Business Server 2019 のツール
+
+|パッケージ名/リンク|リリース日|
+|:--- |:--- |
+|[UCMA 6.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019年6月       |
+|[ユニファイドコミュニケーションマネージ API 5.0 ランタイム](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | 2018 年 6 月        |
+|[Skype for Business Server 2019、管理パック](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | 2018 年 6 月        |
+|||
+
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 更新履歴
 
@@ -54,7 +64,14 @@ ms.locfileid: "36766963"
 |Skype for Business Server 2015、フロント エンド サーバーおよびエッジ サーバー用の累積的な更新プログラム|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015 年 6 月 |
 ||||
 
-* * *
+### <a name="skype-for-business-server-2015-tools"></a>Skype for Business Server 2015 のツール
+
+|パッケージ名/リンク|リリース日|
+|:--- |:--- |
+|[UCMA 5.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015 年 5 月       |
+|[ユニファイドコミュニケーションマネージ API 5.0 ランタイム](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   2015 年 5 月      |
+|[Skype for Business Server 2015、管理パック](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  2019年6月       |
+|||
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 更新履歴
 
