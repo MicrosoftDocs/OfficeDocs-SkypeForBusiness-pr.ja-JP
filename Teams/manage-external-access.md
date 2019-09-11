@@ -18,12 +18,12 @@ description: IT 管理者は、他のドメインの外部アクセス (フェ�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 146ec2f30afa03a3e8519637a4f852f1b0e73cef
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715863"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838114"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams で外部アクセスを管理する
 ======================================================
@@ -42,6 +42,9 @@ Microsoft Teams の外部アクセスを使用すると、他のドメインの 
 
 > [!IMPORTANT]
 > 現在、Microsoft Teams アプリ内で、まだ Azure Active Directory (Azure AD) またはテナントのゲストではない外部ユーザーとのフェデレーションを行うには、ハイブリッドに適切に設定して、Skype for Business Online に移行する必要があります。 2/25/2019 の場合、チームは、Skype for Business Online をホームにしている SIP プロフィールのユーザーを除いて、ネイティブフェデレーションをサポートしていません。 ハイブリッド用にアカウントを設定し、Teams に移行する方法については、「 [Skype For business のハイブリッド展開を teams にアップグレードする](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)」を参照してください。
+
+> [!IMPORTANT]
+> ゲストユーザーは、共存モードで組織全体の設定に従います。 これは変更できません。
 
 ## <a name="external-access-vs-guest-access"></a>外部アクセスとゲストアクセス
 
@@ -126,7 +129,7 @@ Microsoft Teams の外部アクセスを使用すると、他のドメインの 
 
 1. 左側のナビゲーションで、[**組織全体の設定**]  >  [**外部アクセス**] に移動します。
 
-2. ユーザーが**Skype For business および Teams ユーザーと通信できる**ように切り替え**** ます。
+2. ユーザーが**Skype For business および Teams ユーザーと通信できる**ように切り替え**ます。**
 
      ![外部アクセススイッチがオンになっているスクリーンショット](media/manage-external-access-2.png).
 
@@ -134,7 +137,7 @@ Microsoft Teams の外部アクセスを使用すると、他のドメインの 
 
 4. 組織内のユーザーと通信できる組織を制限する場合は、一部のドメインを除くすべてのドメインを許可するか、特定のドメインのみを許可することができます。 
 
-    - 一部のドメインを除くすべてのドメインを許可するには、[**ドメインの追加**] をクリックして、ブロックするドメインを追加します。 [**ドメインの追加**] ウィンドウで、ドメイン名を入力し、[**禁止**] をクリックして、[clik **Done**] をクリックします。 
+    - 一部のドメインを除くすべてのドメインを許可するには、[**ドメインの追加**] をクリックして、ブロックするドメインを追加します。 [**ドメインの追加**] ウィンドウで、ドメイン名を入力し、[**禁止**] をクリックして、[**完了**] をクリックします。 
     - 特定の組織への通信を制限するには、[**許可**] の状態でそれらのドメインをリストに追加します。 許可リストにドメインを追加した後、他の組織との通信は、ドメインが許可リストに含まれる組織に限定されます。 
 
 5. [**保存**] をクリックします。

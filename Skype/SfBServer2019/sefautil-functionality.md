@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: 累積的な更新プログラム1をインストールした後、PowerShell を使用して Skype for Business Server 2019 の SEFAUtil 機能を入手する方法について説明します。'
-ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 6652e3b76a31ac4b315c70498ac2b01d4467b70e
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464552"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838100"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Skype for Business Server 2019 の PowerShell 経由で SEFAUtil 機能を使用する
 
@@ -30,25 +30,25 @@ SEFAUtil (セカンダリ拡張機能のアクティブ化) では、skype for b
 
 管理者は、PowerShell の次のコマンドレットを使用して、着信の転送設定を変更できます。
 
-- `Get-CsUserForwardingSettings -Identity <UserIdParameter>`
+- `Get-CsUserCallForwardingSettings -Identity <UserIdParameter>`
 
 このコマンドレットは、指定したユーザーの着信の転送設定をオブジェクトとして返し、画面でも同じように表示します。
 
-- `Set-CsUserForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
+- `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
 
 このコマンドレットは、指定したユーザーの着信の転送設定を変更します。 このコマンドレットは、指定したユーザーの着信の転送設定をオブジェクトとして返し、正常に完了した場合は画面にも表示します。 エラーが発生した場合は、適切なエラーメッセージが表示されます。
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
 このコマンドレットでは、ユーザーの着信の転送設定を無効にします (ここでは、2つの異なるパラメーターの例を示します)。
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
 このコマンドレットは、ユーザーの着信の転送設定を変更します。
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
 このコマンドレットは、SimulRing の設定を変更します (1 つはボイスメールに不在着信し、2番目のパラメーターには応答しません)。
 

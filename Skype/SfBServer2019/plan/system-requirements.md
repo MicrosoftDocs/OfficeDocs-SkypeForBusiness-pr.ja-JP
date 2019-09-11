@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: このトピックを使用して、Skype for Business Server 2019 サーバーとドメインインフラストラクチャを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項、証明書の DNS、ファイル共有、Active Directory の情報と共に、サーバーファームのインストールと展開が正常に行われるようにするために、ここに記載されています。'
-ms.openlocfilehash: f54b6647a57cf61cb1ad85ad55985243129242f7
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: e14da71795989356f24d7dc6ae72f94a649011e5
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464415"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838028"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 のシステム要件
  
@@ -112,7 +112,7 @@ Skype for Business Server 2019 を実行しているサーバーについては�
 |**ソフトウェア/役割**|**詳細**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |すべての Skype for Business Server サーバーには、Windows PowerShell 3.0 がインストールされている必要があります。  <br/> • Windows Server 2016 には、既定でインストールされている必要があります。<br/> |
-|Microsoft .NET Framework  <br/> |WCF サービスは、Windows 機能としてインストールされている**機能**です。**サーバーマネージャー**では、最初にダウンロードする必要はありません。 <br/> •この機能がインストールされているかどうかを確認する必要がある場合、または既にインストールされていて確認している場合は、次のように**HTTP アクティブ化**オプションがオンになっていることを確認する必要があります。 <br/> ![.NET Framework 4.5 機能の下に [HTTP アクティブ化] オプションが表示されたスクリーンショット](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP アクティブ化をインストールするには、その他のインストールが必要であるという追加のメッセージが表示されても問題はありません。 これは正常です。[OK] をクリックして、進みます。 このポップアップが表示されない場合は、既にインストールされているものと想定してください。  <br/> Microsoft .NET Framework は、通常、Windows Server 2016 がインストールされたときにインストールされます。 Skype for Business Server には Microsoft .NET Framework 4.7 が必要です。そのため、おそらく最新の情報を更新する必要があります。 更新プログラムは次の[ページで](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)参照できます。<br/> |
+|Microsoft .NET Framework  <br/> |WCF サービスは、Windows 機能としてインストールされている**機能**です。**サーバーマネージャー**では、最初にダウンロードする必要はありません。 <br/> •この機能がインストールされているかどうかを確認する必要がある場合、または既にインストールされていて確認している場合は、次のように**HTTP アクティブ化**オプションがオンになっていることを確認する必要があります。 <br/> ![.NET Framework 4.5 機能の下に [HTTP アクティブ化] オプションが表示されたスクリーンショット](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP アクティブ化をインストールするには、その他のインストールが必要であるという追加のメッセージが表示されても問題はありません。 これは正常です。[OK] をクリックして、進みます。 このポップアップが表示されない場合は、既にインストールされているものと想定してください。  <br/> Microsoft .NET Framework は、通常、Windows Server 2016 がインストールされたときにインストールされます。 Skype for Business Server を使用するには、Microsoft .NET Framework 4.7 または4.8 が必要です。その場合は、おそらく更新が必要です。 更新プログラムは次の[ページで](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)参照できます。<br/> |
 |メディア ファンデーション  <br/> |Windows Server 2016 の場合、Windows Media 形式ランタイムは、Microsoft メディアファンデーションにインストールされます。  <br/> 会議に使われるすべてのフロントエンドサーバーおよび標準エディションのサーバーでは、Windows Media Format Runtime を使用して、コールパーク、お知らせ、および応答グループアプリケーションがお知らせや音楽を再生するための Windows media Audio (.wma) ファイルを実行する必要があります。  <br/> |
 |Windows Identity Foundation  <br/> |Skype for Business Server 2019 のサーバー間認証シナリオをサポートするには、Windows Id ファンデーション3.5 が必要です。  <br/> • Windows Server 2016 の場合は、何もダウンロードする必要はありません。 **サーバー マネージャー**を開いて、[**役割と機能の追加ウィザード**] に進みます。 [**機能**] セクションの一覧に [**Windows Identity Foundation 3.5**] が表示されています。 選択されている場合は、問題ありません。 それ以外の場合は、選択して「**次へ**」をクリックし、「**インストール**」ボタンをクリックします。 <br/> |
 |リモート サーバー管理ツール  <br/> |役割管理ツール: AD DS および AD LDS ツール  <br/> |
