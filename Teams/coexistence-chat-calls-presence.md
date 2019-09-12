@@ -212,7 +212,6 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送
 具体的には、永続的な相互運用の会話スレッドをやり取りしていた受信者が Teams にアップグレードされた場合、そのスレッドは正確なプレゼンスを反映しなくなり、ルーティングできなくなります。 この場合は、新しいスレッドを開始する必要があります。
 
 ## <a name="related-links"></a>関連リンク
-
-  [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/ja-JP/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/ja-JP/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [ビデオ: SfB と Teams 間の共存と相互運用性を管理する](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

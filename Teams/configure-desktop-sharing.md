@@ -60,8 +60,7 @@ ms.locfileid: "34433240"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>PowerShell を使用して共有デスクトップを構成する
 
-
-  [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/ja-JP/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、デスクトップ共有を制御することもできます。 次のパラメーターを設定します。
+[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/ja-JP/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、デスクトップ共有を制御することもできます。 次のパラメーターを設定します。
 
 - Description
 - ScreenSharingMode
@@ -71,6 +70,5 @@ ms.locfileid: "34433240"
 - AllowWhiteboard
 - AllowSharedNotes
 
-
-  [csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](https://docs.microsoft.com/ja-JP/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。
+[csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](https://docs.microsoft.com/ja-JP/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。
 
