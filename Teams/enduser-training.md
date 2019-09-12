@@ -7,24 +7,21 @@ layout: LandingPage
 ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
-audience: admin
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
 description: 組織のユーザー向けトレーニング ビデオ、チュートリアル、その他のリソースで、Teams の使用方法を説明します。
-f1keywords:
-- ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
-- ms.teamsadmincenter.dashboard.trainingvideos.enduser
+f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba589ea0e83f506c3367df96fb130a8d6d7dea57
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 01246103d321e40316df01799c3c7f5a82940340
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483025"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493667"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams のエンド ユーザー トレーニング
 
@@ -38,7 +35,7 @@ ms.locfileid: "36483025"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="Megaphone icon representing an introduction" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -57,7 +54,7 @@ Teams の概要に関するこのショート ビデオをご覧ください。<
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Pointing hand icon representing getting started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -74,7 +71,7 @@ Teams の概要に関するこのショート ビデオをご覧ください。<
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Question mark icon representing help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -92,7 +89,7 @@ Teams の概要に関するこのショート ビデオをご覧ください。<
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="Mortarboard icon representing training videos" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -110,7 +107,7 @@ Teams の概要に関するこのショート ビデオをご覧ください。<
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing YouTube videos" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -205,8 +202,7 @@ Teams の概要に関するこのショート ビデオをご覧ください。<
                     <div class="cardText">
                         <h3>投稿とメッセージ</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">ビデオ: 投稿を作成、書式設定する</a></p>
-                         <p>
-  <a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">ビデオ: @メンションで注意を引く</a></p>
+                         <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">ビデオ: @メンションで注意を引く</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">ビデオ: 投稿またはメッセージを保存する</a></p>
                     </div>
                 </div>
