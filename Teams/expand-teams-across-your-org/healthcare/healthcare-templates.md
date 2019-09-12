@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織向けテンプレートでTeamsを始めましょう
-ms.openlocfilehash: 437a645a0ab32024e81f3c73ba0db09b08267b3d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9a00d0d707867d009a9bc724d88fd4f9d8e6997f
+ms.sourcegitcommit: 113c00a26c5a6ad22ef24b1bdcd830e7c2cd14ff
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232252"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852841"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療関係組織向けテンプレートでTeamsを始めましょう
 
@@ -54,7 +54,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 ## <a name="how-to-use-first-party-templates"></a>ファーストパーティテンプレートの使用方法
 
-これらのテンプレートを使用するには、要求本文の ' template@odata.bind ' プロパティを "standard" から "TemplateIDs" に変更します。  チームテンプレートの展開方法の詳細については、「Microsoft Graph の[チームの作成」を](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)参照してください。
+これらのテンプレートを使用するには、要求本文の ' template@odata.bind ' プロパティを "standard" から "TemplateIDs" に変更します。  Teams テンプレートの展開方法の詳細については、Microsoft Graph の記事「[チームを作成](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)する方法」を参照してください。
 
 > [!NOTE]
 > テンプレートのチャネルは、[全般] タブに自動的に作成されます。
