@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: '概要: skype for Business Web App および skype for Business で使用される Skype 会議アプリを展開します。'
-ms.openlocfilehash: 8f2449fde2f270834bda50602fe163829f3b725f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
+ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234395"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "36972878"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Skype for Business Server で Web ダウンロード可能なクライアントを展開する
 
@@ -140,6 +140,10 @@ Windows Server 2008 R2 を実行しているコンピューターでプラグイ
    ```
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
+
+> [!NOTE]
+> Skype for Business Server 2015 累積更新プログラム5の MeetingUxUseCdn では、既定値は False に設定されています。 Skype for business の管理者が MeetingUxUseCdn を True に設定している場合でも、Skype for Business for Mac クライアントが、フェデレーションパートナーの会議をゲストとして参加できないという問題が発生します。 この機能を使用するには、Skype for Business Server 2015 の累積更新プログラム7、6.0.9319.534、またはそれ以降が必要です。 Skype for business [Server 2015 で skype For Business Web app を置き換えるには、「Skype 会議アプリを有効にする」を](https://support.microsoft.com/kb/4132312)参照してください。
+
 
 ## <a name="see-also"></a>関連項目
 <a name="SMA_Enable"> </a>
