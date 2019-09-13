@@ -643,7 +643,7 @@
 ### [品質を監視する](upgrade-monitor-quality.md)
 ### [サービスを強化する](upgrade-enhance-my-service.md)
 
-
+## [Skype for Business Online のサポート終了](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
 ## 共存について詳しく学習する
