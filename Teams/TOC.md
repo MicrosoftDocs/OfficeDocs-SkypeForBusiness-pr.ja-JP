@@ -27,6 +27,7 @@
 ## [Teams でファイルを共有する](sharing-files-in-teams.md)
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [Teams でのユーザーのプレゼンス](presence-admins.md)
+## [Teams でクロスチームおよびチームごとの分析を表示する](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [チームをアーカイブまたは削除する](archive-or-delete-a-team.md)
 
 
@@ -291,7 +292,8 @@
 #### [ボイスメールの応答メッセージとメッセージで使用する言語](languages-for-voicemail-greetings-and-messages.md)
 ### 発信者番号
 #### [組織での発信者番号の利用方法](how-can-caller-id-be-used-in-your-organization.md)
-#### [ユーザーの発信者番号の設定](set-the-caller-id-for-a-user.md)
+#### [発信者 ID ポリシーの管理](caller-id-policies.md)
+#### [ユーザーの発信者 ID の設定](set-the-caller-id-for-a-user.md)
 #### [発信回線 ID と発信者名の詳細](more-about-calling-line-id-and-calling-party-name.md)
 ### 自動応答と呼び出しキュー 
 #### [クラウド自動応答とは](what-are-phone-system-auto-attendants.md)
@@ -304,7 +306,6 @@
 ### [コール パークおよび取得](call-park-and-retrieve.md)
 ### [通話の共有およびグループ通話ピックアップ](call-sharing-and-group-call-pickup.md)
 ### [通話ポリシー](teams-calling-policy.md)
-### [発信者 ID ポリシー](caller-id-policies.md)
 ### [回線共有機能](shared-line-appearance.md)
 ### [ ユーザーによって Teams のクライアントの PSTN 通話がブロックされるしくみを理解する](block-pstn-calls-on-Teams-clients.md)
 
