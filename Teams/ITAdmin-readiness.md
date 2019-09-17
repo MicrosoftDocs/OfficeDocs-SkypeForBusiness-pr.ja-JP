@@ -18,12 +18,12 @@ f1keywords:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67adf55badb30504ba55ed814c735de89fb9dc6b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 1ba3b888a598f0cb3348fd50fe1dfd549a988553
+ms.sourcegitcommit: 472825b0f4db1542a5b855d637aa90b4bcd797bc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483224"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "36993944"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -99,6 +99,7 @@ ms.locfileid: "36483224"
 | ネットワークの計画 | [ビデオ](https://aka.ms/teams-networking) | [デッキ](https://aka.ms/teams-networking-deck) |
 | 通話品質の概要 | [ビデオ](https://aka.ms/teams-quality) | [デッキ](https://aka.ms/teams-quality-deck) |
 | 会議の概要 | [ビデオ](https://aka.ms/teams-meetings-intro) | [デッキ](https://aka.ms/teams-meetings-intro-deck) |
+| メディア |[ビデオ](https://aka.ms/media-in-teams)  | [デッキ](https://aka.ms/media-in-teams-deck)|
 | ライブ イベント | [ビデオ](https://aka.ms/teams-live-events-session) | [デッキ](https://aka.ms/teams-live-events-deck) |
 | 電話システムの概要 | [ビデオ](https://aka.ms/teams-phone-system) | [デッキ](https://aka.ms/teams-phone-system-deck) |
 | ダイレクト ルーティング | [ビデオ](https://aka.ms/teams-direct-routing) | [デッキ](https://aka.ms/teams-direct-routing-deck) |
