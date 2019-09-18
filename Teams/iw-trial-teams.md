@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6135a96e588c881f1f3548632da9e14182c9e53
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b6db5146248157893a26f62fb6e01fb020a67f70
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245400"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018836"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
@@ -47,7 +47,7 @@ Microsoft Teams は、組織に最適な共同作業ツールです。 Office 36
 - Whiteboard
 - Yammer Enterprise 
 
-試用版では、組織全体に 1 年間の試用版サブスクリプションを付与します。 試用版では、500,000 ライセンスが割り当て可能になります。 割り当てられたライセンスごとに、試用版では 2 GB の SharePoint Online 記憶域が割り当てられます。 
+試用版では、組織全体に 1 年間の試用版サブスクリプションを付与します。 割り当てられたライセンスごとに、試用版では 2 GB の SharePoint Online 記憶域が割り当てられます。 
 
 ## <a name="who-is-eligible"></a>対象者
 
@@ -146,6 +146,6 @@ Teams へのアクセスをオフにするには:
 
 2019 年 4 月 22 日の時点で、ユーザーは Microsoft Teams の商用クラウドの試用版ライセンスの要求を開始できます。 従来の試用版ライセンスから最新の試用版ライセンスへと組織内のユーザーを移行させる場合、まず各ユーザーの従来の Microsoft Teams 試用版ライセンスを削除する必要があります。 従来のライセンスを削除すると、影響を受けた各ユーザーは、更新済みの Microsoft Teams の商用クラウドの試用版ライセンスを要求できます。
 
-- Powershell を用いてこのライセンスを削除する場合は、次を参照してください :「[Office 365 PowerShell を使用してユーザー アカウントからライセンスを削除する](https://docs.microsoft.com/ja-JP/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)」
+- Powershell を用いてこのライセンスを削除する場合は、次を参照してください :「[Office 365 PowerShell を使用してユーザー アカウントからライセンスを削除する](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)」
 
-- 管理ポータルからこのライセンスを削除する場合は、次を参照してください :「[一般法人向け Office 365 のユーザーからライセンスを削除する](https://docs.microsoft.com/ja-JP/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)」
+- 管理ポータルからこのライセンスを削除する場合は、次を参照してください :「[一般法人向け Office 365 のユーザーからライセンスを削除する](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)」
