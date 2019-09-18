@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この記事では、オンプレミス展開 (Lync) を使用している組織が、UC ワークロードを Teams や Skype for Business Online に移行するために移行する方法について説明します。
-ms.openlocfilehash: 46e84f9a65ec7626c5285196af83d63baa46c15e
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 33cbc823fd7aeece1591810d63d2ebf4a348237a
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36160670"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018846"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Teams と Skype for Business のクラウド統合
 
@@ -168,13 +168,13 @@ Microsoft Teams または Skype for Business Online でそれらをオンライ�
 オンプレミスからハイブリッド環境のクラウドにユーザーを移動する場合、そのユーザーを Skype for Business のみまたは TeamsOnly モードのいずれかに移動できます。 *ユーザーを TeamsOnly モードに移動することを計画している場合は、必ず最初にこのセクションをお読みください。*
 
 - TeamsOnly モードをユーザーに割り当てると、他のユーザーからのすべてのチャットと通話が、そのユーザーの Teams クライアントに着陸されます。 
-- TeamsOnly で Skype for Business を使用しているユーザー間でチャットや通話を適切にルーティングできるようにするには、オンプレミスのユーザーが島ではなく、SfB モードの1つを使用していることを確認する必要があります (既定では)。). 
+- Skype for business のオンプレミスを使用しているユーザーが主に Skype for business クライアントを使用し、Teams ではない場合は、TeamsUpgradePolicy を設定することを検討してください。これらのユーザーへのルーティングは、Teams ではなく、常に Skype for business にあります。 チームで Skype for Business を使用しているユーザー間でチャットや通話を適切にルーティングできるようにするには、オンプレミスのユーザーが、島ではなく、SfB モードの1つを使用して、TeamsUpgradePolicy の有効な値を持つ必要があります。既定値)。 
     - これを行うには、最初に、*テナントの TeamsUpgradePolicy のグローバルインスタンスを次のいずれかの値に設定する必要があり*ます。
         - SfBWithTeamsCollab (推奨)
         - SfBWithTeamsCollabAndMeetings
         - SfBOnly
     - 次のコマンドを使用して、テナント全体のポリシーを付与できます。<br>`Grant-CsTeamsUpgradePolicy -PolicyName SfBWithTeamsCollab -Global`
-    - 注: 現時点では、オンラインディレクトリに SIP アドレスを持たない個々のユーザーにポリシーを割り当てることはできないため、この操作はテナント全体のレベルで行う必要があります。 純粋なオンプレミス展開に対してオンライン SIP ドメインを無効にしても、それらのドメインのユーザーは、設計によってオンラインディレクトリに SIP アドレスを持っていません。 そのため、オンプレミスのユーザーにポリシーを適用する唯一の方法は、テナントレベルでの割り当てです。 一方、ハイブリッド展開では、ユーザーは、テナントのグローバルポリシーとは異なる値を持つ必要がある場合に、明示的にポリシーを割り当てることができるように、オンラインディレクトリに SIP アドレスがあります。
+    - 注: オンラインディレクトリに SIP アドレスを持たない個々のユーザーにポリシーを割り当てることはできないため、この操作はテナント全体のレベルで行う必要があります。 純粋なオンプレミス展開に対してオンライン SIP ドメインを無効にしても、それらのドメインのユーザーは、設計によってオンラインディレクトリに SIP アドレスを持っていません。 そのため、オンプレミスのユーザーにポリシーを適用する唯一の方法は、テナントレベルでの割り当てです。 一方、ハイブリッド展開では、ユーザーは、テナントのグローバルポリシーとは異なる値を持つ必要がある場合に、明示的にポリシーを割り当てることができるように、オンラインディレクトリに SIP アドレスがあります。
 - Teams クライアント UX は、TeamsUpgradePolicy の SfB モードをまだ尊重していません。 たとえば、これらのモードでは、Teams での通話とチャットの開始は現在可能ですが、将来の場合はサポートされません。 これにより、状況に応じて、チームや場合によっては Skype for Business に返信することがある場合があるため、ユーザー間で混乱が生じることがあります。 まだオンプレミスのユーザーについては、TeamsMessagingPolicy および teamのスケールを使用して、通話とチャットを個別に無効にすることをお勧めします。
 
 ## <a name="see-also"></a>関連項目

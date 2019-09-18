@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: anach
+ms.reviewer: prvijay
 description: アイテム保持ポリシーを管理する方法と、それらをチームで管理する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc547f30a7ff24b62e93501eba9a46a2e6e3da74
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f2f3cc0c74b85d0b243dd8fefcd6bce1f2451fae
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243599"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018814"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams の保持ポリシー
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: c57b3c8950f7e1618f578862290e8fb1696b6bc0
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271437"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018781"
 ---
 # <a name="make-my-service-decisions"></a>サービスの決定を行う
 
@@ -271,7 +271,7 @@ SIP シグナリングとメディアの各 SBC に特定のポート番号を�
 
 -   Teams のスケールのポリシーと TeamsInteropPolicy を割り当てて、優先呼び出しクライアントとしてチームを構成します。
 
-詳細については、「[ユーザー向けの優先発信クライアントとして Microsoft Teams を設定](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users)する」を参照してください。
+詳細については、「[ユーザーにチーム専用モードを割り当てる」を参照して、Microsoft Teams で通話を確実に行うように](direct-routing-configure.md#assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams)してください。
 
 
 |         |         |         |

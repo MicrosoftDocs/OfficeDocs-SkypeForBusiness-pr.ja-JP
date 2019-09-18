@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: この記事では、ダイレクトルーティング構成の監視とトラブルシューティングを行う方法について説明します。
-ms.openlocfilehash: d20a409c7a5e902149ff20e72dde90850f0f5d12
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: e236a5cecb190d10082e06de24655bd722a410e5
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768157"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018825"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>ダイレクト ルーティングの監視とトラブルシューティング
 
@@ -32,7 +32,7 @@ ms.locfileid: "35768157"
 - Microsoft Cloud でのダイレクトルーティングコンポーネント 
 - 電気通信 trunks 
 
-問題のトラブルシューティングに問題がある場合は、SBC ベンダーまたは Microsoft にお問い合わせください。 
+問題のトラブルシューティングで問題が発生した場合は、SBC ベンダーまたは Microsoft とのサポートケースを開くことができます。 
 
 Microsoft は、トラブルシューティングと監視のためのより多くのツールを提供するための作業を進めています。 アップデートについてはドキュメントを定期的にチェックしてください。 
 
@@ -52,19 +52,19 @@ Microsoft は、トラブルシューティングと監視のためのより多�
 
 通話が行われると、次のロジックが適用されます。
 
-- SBC は、11.00 AM でペアリングされました。  
-- SBC は、11.01 AM、11.02 AM などでオプションを送信します。  
-- 11.15 では、ユーザーが通話を発信し、ルーティングメカニズムによってこの SBC が選択されます。 
+- SBC は、11:00 AM でペアリングされました。  
+- SBC は、11:01 AM、11:02 AM などでオプションを送信します。  
+- 11:15 では、ユーザーが通話を発信し、ルーティングメカニズムによってこの SBC が選択されます。 
 
 [直接ルーティング] は、通常の間隔オプションを3回行います (通常の間隔は1分です)。 残り3分間にオプションが送信された場合は、SBC は正常であると見なされます。
 
-この例の SBC が、11.12 AM と 11.15 AM (通話が発信された時刻) の間に任意の期間にオプションを送信した場合は、正常であると見なされます。 それ以外の場合は、SBC がルートから降格されます。 
+この例の SBC が、11:12 AM と 11:15 AM (通話が発信された時刻) の間に任意の期間にオプションを送信した場合は、正常であると見なされます。 それ以外の場合は、SBC がルートから降格されます。 
 
 降格とは、SBC が最初に試されないことを意味します。 たとえば、sbc1.contoso.com と sbc2.contoso.com は同じ優先度で設定されています。  
 
-上で説明したように、sbc1.contoso.com が SIP オプションを通常の間隔で送信しない場合は、降格されます。 次に、sbc2.contoso.com が通話を試みます。 Sbc2 で通話を発信できない場合、エラーが発生する前に、sbc1.contoso.com (降格) がもう一度試行されます。 
+前に説明したように、sbc1.contoso.com が SIP オプションを通常の間隔で送信しない場合は、降格されます。 次に、sbc2.contoso.com が通話を試みます。 Sbc2 で通話を発信できない場合、エラーが発生する前に、sbc1.contoso.com (降格) がもう一度試行されます。 
 
-2つ (以上) の concidered が1つのルートで正常に機能している場合は、SBCs 間の呼び出しが distrubute に適用されます。
+1つ以上の SBCs の1つのルートが正常で等しいと見なされた場合は、SBCs 間の通話を分散するために、フィッシャーのシャッフルが適用されます。
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>通話品質分析ダッシュボードと SBC ログを監視する 
  

@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams でクラウド通話キューの電話システムをセットアップする方法について説明します。
-ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 99e12ba4ee8bf983a62dee87a82f3bb7b9cb1ccc
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675408"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018857"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 
@@ -100,6 +100,9 @@ ms.locfileid: "36675408"
   - Microsoft Teams iPhone アプリ
 
   - Microsoft Teams Android アプリ
+
+    > [!NOTE]
+    > 直接ルーティング番号が割り当てられた通話キューは、Skype for Business クライアント、Lync クライアント、または Skype for Business IP 電話をエージェントとしてサポートしません。 
 
 ## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>手順 2-有料またはフリーダイヤルのサービス電話番号を取得または移行する
 
@@ -177,7 +180,7 @@ ms.locfileid: "36675408"
 
 - 電話システムのライセンスを持つオンラインユーザーとエンタープライズ Voip が有効になっている 
 - 通話プランを使用するオンラインユーザー
-- オンプレミスの Skype for Business s サーバーユーザー
+- オンプレミスの Skype for Business Server ユーザー
 
   > [!NOTE]
   > これは、オンラインの組織内のユーザーに通話をリダイレクトする場合にも該当します。 これらの個人は、**電話システム**のライセンスとエンタープライズボイスを有効にしている**か**、通話プランを利用している必要があります。 詳細については、「 [Skype For business ライセンスの割り当て](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)、 [Microsoft Teams ライセンスの割り当て](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)、または[適切な通話プラン](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)」を参照してください。

@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.directrouting.overview
 description: 直接ルーティングのランディングページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 965fb26aee3d83550740e2ae7f855559fd9cdb79
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7ded644f552c233b712f43de212f2269ee6e70b2
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484061"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018803"
 ---
 # <a name="phone-system-direct-routing"></a>電話システムのダイレクト ルーティング
 
@@ -75,13 +75,13 @@ ms.locfileid: "36484061"
 | 定義した音声ルーティングポリシーにはどのユーザーが割り当てられますか。 | 「[音声ルーティングを構成する](direct-routing-configure.md#configure-voice-routing)」の例を参照してください。 |
 |||
 
-### <a name="calling-and-interop-policies"></a>通話と相互運用ポリシー
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>TeamsUpgradePolicy を使用して、チームクライアントで着信通話を確実に行う
 
-直接ルーティングは、Microsoft Teams でのみサポートされます。 直接ルーティングによって PSTN 通話を発信または受信するには、Teams での着信通話を確実に受信するために必要なポリシーを構成する必要があります。 チーム専用モードのユーザーを設定するか、または teams のスケールを優先するクライアントとして構成することにより、ユーザーが通話の優先クライアントとしてチームを設定するように構成することができます。
+直接ルーティングは、Microsoft Teams でのみサポートされます。 直接ルーティングを使用して PSTN 通話を受信するには、TeamsUpgradePolicy を構成して、Teams で確実に着信を受信できるようにする必要があります。 ユーザーは、チーム専用モードである必要があります。これには、TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てることができます。 
 
 |確認事項|アクション |
 |:------------|:-------|
-|通話の優先クライアントとして Teams を設定するにはどうすればよいですか? | 詳細については、「[ユーザーの優先発信クライアントとして Microsoft Teams を設定](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users)する」を参照してください。|
+|チーム専用モードの意味を教えてください。 | 詳細については、「 [Skype For business で Teams を使用する組織向けの移行と相互運用性](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)に関するガイダンス」を参照してください。|
 |||
 
 ## <a name="additional-deployment-considerations"></a>その他の展開に関する考慮事項

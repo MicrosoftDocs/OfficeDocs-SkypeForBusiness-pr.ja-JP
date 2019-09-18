@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
-ms.openlocfilehash: 4013e0fd914630f154f407ad9c70e2c6915723f5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: d1a763f150004b5c558dd311dd54ed6975dcb0c1
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464613"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018770"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -42,7 +42,7 @@ Microsoft 電話システムを構成し、ユーザーが直接ルーティン�
 
 - [SBC と Microsoft 電話システムをペアリングし、ペアリングを検証する](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [ユーザーのダイレクトルーティングサービスを有効にする](#enable-users-for-direct-routing-service)
-- [Microsoft Teams が、ユーザーの優先発信クライアントであることを確認する](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
+- Microsoft Teams が、ユーザーの優先発信クライアントであることを確認する
 
 ## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>SBC を電話システムのダイレクトルーティングサービスにペアリングする 
 
@@ -528,9 +528,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 結果として、John 森の通話に適用されるボイスポリシーは無制限であり、米国、カナダ、国際通話で利用可能な通話ルーティングのロジックに従うことになります。
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>ユーザーの優先発信クライアントとして Microsoft Teams を設定する
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Microsoft Teams で通話を確実に行うためにチームのみのモードをユーザーに割り当てる
 
-[直接ルーティング] は、チームクライアントを使用しているユーザーとの間でのみ、通話をルーティングします。 組織で Teams のみを使用している場合は、アップグレードポリシーで [チームのみ] モードを設定することをお勧めします。 組織で Skype for Business Server または Skype for Business Online を使用している場合は、次の記事を参照してください。詳細については、「[共存とアップグレードに](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)ついて」を参照してください。 
+直接ルーティングを使うには、チームクライアントで着信通話を確実にするために、ユーザーが Teams 専用モードになっている必要があります。 ユーザーをチームのみのモードに配置するには、TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てます。 組織で Skype for Business Server または Skype for Business Online を使用している場合は、次の記事を参照してください。 skype と Teams の間の相互運用性については、「[移行と相互運用性のガイダンス」を参照してください。ビジネス向け](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)。 
 
 
 ## <a name="see-also"></a>関連項目

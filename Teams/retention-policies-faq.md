@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: prvijay
 audience: admin
 description: Microsoft Teams のアイテム保持ポリシーについてよく寄せられる質問。
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 955006d952454e31698156fa89e2a2047cff823b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a0eb556f53c617636f9169dbf0358455860c46b6
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243555"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018792"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft Teams 保持ポリシーに関するよくある質問
 
