@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオンライセンス、機能、Office 365 Business Premium プランの購入方法について説明します。 '
-ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 08d9ce55088c83126a6a8d303b4a02d6aa385584
+ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715909"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37040738"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -39,7 +39,7 @@ ms.locfileid: "36715909"
 
     1. [別の一般法人向け Office 365 プランに切り替える](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 Enterprise E5 プランを検討して、そちらの方がよりコスト効率が良いか確認することをおすすめします。
 
-    2. Enterprise E5 ライセンスを購入する場合は、電話システムのライセンスが含まれます。 Enterprise E1 または E3 ライセンス、または Office 365 Business Essentials または Office 365 Business Premium のライセンスを使用している場合は、電話システムアドオンを購入する必要があります。
+    2. Enterprise E5 ライセンスを購入する場合は、電話システムのライセンスが含まれます。 Enterprise E1 または E3 ライセンスを使用する場合は、電話システムアドオンを購入する必要があります。
     
     3. [Office 365 の通話プラン](../calling-plans-for-office-365.md)を購入する: このプランは、電話システムアドオンの購入後にのみご購入いただけます。
 
@@ -62,7 +62,7 @@ ms.locfileid: "36715909"
 
    通信クレジットを購入するオプションが表示されます。
 
-3. 通信クレジットに資金を追加するには**** > **** > 、「月額プラン**通信クレジット**」を参照してください。
+3.  > **通信クレジット** > に資金を追加するには、「月額プラン**通信クレジット** **」を参照**してください。
 
     残高を追加して、自動充電をオンまたはオフにすることができます。 詳細については[、「残高を追加し、通信クレジットを管理](../add-funds-and-manage-communications-credits.md)する」を参照してください。 
 

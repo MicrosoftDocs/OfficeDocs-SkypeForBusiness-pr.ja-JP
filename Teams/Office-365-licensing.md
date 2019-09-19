@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40d8ae4f56fcbfe7d9e82855f7c3f7eaa406effa
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: b9ed190a2d32a2e607fd747a70ed6db9f7daaa3d
+ms.sourcegitcommit: 5d29e8eb7a0c13edde8015da1e63b01b7081b4b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483178"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37028253"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft Teams 用の Office 365 ライセンス
 ========================================
@@ -49,6 +49,9 @@ Teams の入手方法については[Microsoft Teams へのアクセス権を取
 
 > [!NOTE]
 > 2018 年 10 月 1 日より、500 シート以下の新規 Office 365 ユーザーはTeams を利用できるようになり、Skype for Business Online にアクセスできなくなりました。 既に Skype for Business Online を使用しているテナントは、Teams への移行を完了するまで、(新規ユーザーのプロビジョニングも含めて) 利用を継続することができます。 詳細については、[Microsoft Teams が Office 365 の会議と通話機能のプライマリ クライアントになりました](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)をご覧ください。
+
+> [!NOTE]
+> 選択されたライセンスのアプリに Skype for Business Online が表示されている場合は、削除しないでください。 リストに表示され、削除されると、Teams ユーザーセットアップは正常に完了しません。 
         
 Teams の重要な機能に関しては、Office 365 サブスクリプションとの違いはありません。 コンプライアンス機能の利用可否は適切なサブスクリプション レベルに依存します。 詳細については、「[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」をご覧ください。 各サブスクリプションで利用できる機能の詳細な一覧については、 [Office 365 プラットフォーム サービスの説明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)をご覧ください。
 

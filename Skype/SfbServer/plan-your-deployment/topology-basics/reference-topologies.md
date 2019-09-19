@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 大規模、中、小規模の組織に適した図や決定事項など、Skype for Business Server のリファレンストポロジ。
-ms.openlocfilehash: 9ec00fb6aa8d318a1eddec4b16c902e5f0fca5dd
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
+ms.sourcegitcommit: 5d29e8eb7a0c13edde8015da1e63b01b7081b4b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418034"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37028282"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Skype for Business Server のリファレンストポロジ
 
@@ -79,7 +79,7 @@ ms.locfileid: "35418034"
 
 - **ブランチ サイト展開のオプション。** このトポロジの組織は、ボイスソリューションとしてエンタープライズ Voip を展開しています。 ブランチサイト1には、セントラルサイトへの弾力性のあるワイドエリアネットワーク (WAN) リンクがありません。そのため、セントラルサイトへの WAN リンクがダウンした場合に備えて、多くの Skype for Business Server 機能を維持するために展開された Survivable Branch Appliance が導入されています。 ただし、ブランチ サイト 2 には回復可能な WAN リンクが存在するため、公衆交換電話網 (PSTN) ゲートウェイのみが必要となります。 そこで展開された PSTN ゲートウェイはメディア バイパスをサポートしているため、ブランチ サイト 2 では仲介サーバーが必要ありません。 詳細については、「[Plan for Enterprise Voice resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)」を参照してください。
 
-- **DNS 負荷分散。** フロントエンド プールおよびエッジ サーバー プールには、展開されている SIP トラフィックの DNS 負荷分散機能があります。 この機能によって、ロード バランサー機器は HTTP トラフィックに対してのみ必要となるため、エッジ サーバーにはロード バランサー機器が必要なくなり、その他のプールへのロード バランサー機器のセットアップおよびメンテナンスが非常に少なくなります。 詳細については、「(..」を参照してください。/../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **DNS 負荷分散。** フロントエンド プールおよびエッジ サーバー プールには、展開されている SIP トラフィックの DNS 負荷分散機能があります。 この機能によって、ロード バランサー機器は HTTP トラフィックに対してのみ必要となるため、エッジ サーバーにはロード バランサー機器が必要なくなり、その他のプールへのロード バランサー機器のセットアップおよびメンテナンスが非常に少なくなります。 詳細については、「 [DNS の負荷分散](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)」を参照してください。
 
 - **Exchange UM の展開。** この参照トポロジには、Skype for Business Server ではなく Microsoft Exchange Server を実行する Exchange ユニファイドメッセージング (UM) サーバーが含まれています。
 
