@@ -17,12 +17,12 @@ description: ネットワークの準備、ライセンスの割り当て、ユ�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493100"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047073"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -53,7 +53,7 @@ Teams で作成されたライブイベントは[、teams 用に組織のネッ�
 
     組織のニーズに合わせて変更できる設定を以下に示します。
 
-    ![ライブイベントのポリシー設定のスクリーンショット](../media/teams-live-events-policies.png "Microsoft Teams 管理センターのライブイベントのポリシー設定のスクリーンショット") 
+    (../media/teams-live-events-policies.png "Microsoft Teams 管理センターでのライブイベントのポリシー設定の")ライブイベントのポリシー設定画面ショット![のスクリーンショット] 
 
 |設定  |説明  |
 |---------|---------|
@@ -108,7 +108,7 @@ Teams で作成されたライブイベントは[、teams 用に組織のネッ�
 
 - **Hive Streaming**は、ライブおよびオンデマンドのエンタープライズビデオ配信のためのシンプルで強力なソリューションを提供します。 Hive はソフトウェアベースのソリューションであり、ハードウェアや帯域幅を追加する必要はありません。また、ネットワークに影響を与えずに、数千の同時ビデオビューアーを有効にするための安全な手段を提供します。 SDN/eCDN のソリューションを購入する前に、ビデオがネットワークに与える影響について理解している場合は、Hive Streaming によって Microsoft のお客様向けのブラウザーベースの分析ソリューションも提供されます。 [詳細はこちらをご覧](https://www.hivestreaming.com/partners/integration-partners/microsoft/)ください。
  
-- **Kollective**は、クラウドベースのスマートピア配布プラットフォームであり、既存のネットワークインフラストラクチャを活用して、コンテンツをさまざまな形で配信します (ライブストリーミングビデオ、オンデマンドビデオ、ソフトウェア更新プログラム、セキュリティパッチなど)。信頼性と帯域幅の削減。 セキュリティで保護されたプラットフォームは世界最大の金融機関が信頼しており、ハードウェアを追加しなくても、セットアップとメンテナンスは簡単です。 [詳細はこちらをご覧](http://www.kollective.com)ください。
+- **Kollective**は、クラウドベースのスマートピア配布プラットフォームであり、既存のネットワークインフラストラクチャを活用して、コンテンツをさまざまな形で配信します (ライブストリーミングビデオ、オンデマンドビデオ、ソフトウェア更新プログラム、セキュリティパッチなど)。信頼性と帯域幅の削減。 セキュリティで保護されたプラットフォームは世界最大の金融機関が信頼しており、ハードウェアを追加しなくても、セットアップとメンテナンスは簡単です。 [詳細はこちらをご覧](https://kollective.com/microsoft-pilot/)ください。
  
 - **ランプ OmniCache**は、次世代のネットワーク配布を提供し、グローバル wan でのビデオコンテンツのシームレスな配信を実現し、イベントプロデューサーがネットワーク帯域幅を最適化し、正常なライブイベントブロードキャストとオンデマンドをサポートできるように支援します。ストリーミング. Teams で作成されたライブイベントのランプ OmniCache のサポートは近日中に公開されます。 [詳細はこちらをご覧](http://www.ramp.com)ください。 
  

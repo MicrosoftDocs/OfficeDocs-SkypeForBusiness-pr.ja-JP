@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Skype for Business Server でのフロントエンドプールの管理について説明します。これには、プールの管理、クォーラムの損失、2つのフロントエンドサーバーのみを含むプールの特別な手順が含まれます。
-ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221724"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047094"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  
@@ -52,7 +52,7 @@ Skype for Business Server では、フロントエンドプールのアーキテ
 |折り  <br/> |ファイブ  <br/> |
 |以内  <br/> |常用  <br/> |
    
-その後もプールが起動されるたびに、サーバーの 85% が起動されている必要があります (前出の表を参照)。 この数のサーバーを開始できない場合 (ただし、プールレベルのクォーラムの損失を防ぐために十分なサーバーを起動できます)、 `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery`コマンドレットを使用して、このルーティンググループレベルのクォーラム損失からプールを回復し、進行状況を確認することができます。 このコマンドレットの使い方の詳細については<link Reset-CsPoolRegistrarState>、を参照してください。
+その後もプールが起動されるたびに、サーバーの 85% が起動されている必要があります (前出の表を参照)。 この数のサーバーを開始できない場合 (ただし、プールレベルのクォーラムの損失を防ぐために十分なサーバーを起動できます)、 `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery`コマンドレットを使用して、このルーティンググループレベルのクォーラム損失からプールを回復し、進行状況を確認することができます。 このコマンドレットの使い方の詳細については、「 [CsPoolRegistrarState をリセット](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)する」を参照してください。 
   
 > [!NOTE]
 > サーバー数が偶数のプールの場合、Skype for Business Server は監視にプライマリ SQL データベースを使います。 このようなプールでは、プライマリ データベースをシャットダウンしてミラー データベースに切り替え、前述の表の必要な実行数に足りなくなるまでフロント エンド サーバーをシャットダウンすると、プール全体がダウンします。 詳細については、「[データベースミラーリング監視](https://go.microsoft.com/fwlink/?LinkId=393672)」を参照してください。 

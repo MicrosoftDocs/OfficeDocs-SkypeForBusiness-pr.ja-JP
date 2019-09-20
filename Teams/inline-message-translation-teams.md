@@ -18,17 +18,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b6da80dda90c57a55a75c885b42bc08a824b613
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2eb68a06a24436b6c12e4ee5b59a24a0da92ca7e
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245351"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047084"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Microsoft Teams でインラインメッセージの翻訳を有効にする 
 =================================================
 
-インライン メッセージの翻訳は、新しい Microsoft Teams の機能で、ユーザーが Teams のメッセージを、Office 365 のパーソナル言語設定で指定した[言語](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)に自動的に翻訳できるようになります。
+インラインメッセージの翻訳は、ユーザーが Office 365 の個人の言語設定で指定された[言語](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)にチームのメッセージを翻訳できるようにする、Microsoft Teams の新機能です。
 
 インライン メッセージの翻訳は、所属する組織に対しては既定でロール アウトされています。 Teams クライアント内でユーザーがこの機能を使用することができるようにする場合、この設定をオンにする必要があります。
 
