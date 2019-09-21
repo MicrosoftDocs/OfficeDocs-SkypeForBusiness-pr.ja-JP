@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0f3e24d38e877d923e52de3f1c7116853737dc7
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: 5f2e605e86b91fc5d0ea2f22d2aec3941a3d31d9
+ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393349"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37062884"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -78,6 +78,9 @@ Microsoft Teams では、さまざまな Office 365 サービスと連携して�
 
 > [!NOTE]
 >Exchange のオンプレミスとチームの統合の場合、必要なライセンスを AAD の同期されたユーザーに割り当てる必要があります。
+
+> [!IMPORTANT]
+> ユーザーを**チーム専用**モードに移行した後に Skype for business クライアントをアンインストールすると、Outlook やその他の Office アプリでプレゼンスが機能しなくなります。 プレゼンスは Teams で適切に動作します。 対応策: Outlook (およびその他の Office アプリ) でプレゼンスを表示するには、teams**のみ**のモードで teams を実行している場合でも、Skype for business をインストールする必要があります。 Microsoft はこの問題を認識しており、修正に向けて取り組んでいます。
 
 ## <a name="additional-considerations"></a>その他の考慮事項
 
