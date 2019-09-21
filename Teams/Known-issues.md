@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4eac2b4b6791040ba8f4d2ea980f69c1451140
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 1b9da7e2757902de025cb748bd2bb03a456a6b11
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790833"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047041"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -154,6 +154,10 @@ ms.locfileid: "36790833"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |ドライブを C:\users にシンボリックリンク付けする、またはマッピングすると、アプリが白画面で起動します。  <br/> |`C:\users\<user>\appData` という既定の場所が、`C:\users` フォルダーを移動したり、シンボリック リンクを使用したりすることによって変更されると、アプリは白画面で起動します。   <br/> |既知の回避策はありません。マッピングが存在しなくてはならない場合は、Microsoft Teams の Web バージョンを使用する必要があります。   <br/> |2017/03/13  <br/> |
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|ユーザーが Teams Only のエクスペリエンスに移動されてから、Office アプリケーションのプレゼンスが表示されません。 <br/> |ユーザーが TeamsOnly のエクスペリエンスに移動されると、Skype for Business クライアントがアンインストールされ、プレゼンスが動作しなくなります。  <br/> |Outlook でプレゼンスが動作するためには、Microsoft Teams のみ使用する予定でも、Office 展開には Skype for Business が含まれる必要があります。  将来的に Skype for Business の依存関係を削除する作業の計画を立てていますが、現在スケジュールされていません。     <br/> |9/2019  <br/> |
 
 ## <a name="environment"></a>環境
 
