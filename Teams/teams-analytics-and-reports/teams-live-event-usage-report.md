@@ -15,25 +15,25 @@ ms.collection:
 description: Microsoft Teams 管理センターで Teams live イベントの利用状況レポートを使用して、組織内の Teams live イベントアクティビティの概要を確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
-ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
+ms.openlocfilehash: ad0ecd27df1f7bccd9a451f2581d55e5c335b1e0
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36667065"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131616"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams のライブイベントの使用状況レポート
 
-Microsoft Teams 管理センターの [チームライブイベントの利用状況] レポートには、組織内で保持されているライブイベントのアクティビティの概要が表示されます。 イベントの状態、開始時刻、ビュー、および各イベントの生産タイプなどの使用状況情報を表示できます。 利用状況の傾向を把握して、組織内のユーザーがスケジュール、表示、ライブイベントを行うことができます。 
+Microsoft Teams 管理センターの [チームライブイベントの利用状況] レポートには、組織内で保持されているライブイベントのアクティビティの概要が表示されます。 イベントの状態、開始時刻、ビュー、および各イベントの生産タイプなどの使用状況情報を表示できます。 利用状況の傾向を把握して、組織内のユーザーがスケジュール、表示、ライブイベントを行うことができます。
 
 ## <a name="view-the-report"></a>レポートを表示する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**分析] & [レポート**] の順にクリックし、[**レポート**] で [**チームライブイベントの利用状況**] を選択します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**分析] & [レポート** > の**利用状況レポート**] をクリックします。 [**レポートの表示**] タブの [**レポート**] で、[**チームライブイベントの利用状況**] を選択します。
 2. [**日付範囲**] で、定義済みの範囲を選ぶか、ユーザー設定の範囲を設定します。 日付の範囲を設定して、現在の日付の前と後の6か月前までのデータを表示することができます。
 3. 省略[**構成内容**変更] で、特定のユーザーによって開催されるライブイベントのみを表示するように選択できます。
 4. [**レポートの実行**] をクリックします。  
 
-    ![吹き出しが表示された teams 管理センターの teams live イベント使用状況レポートのスクリーンショット](../media/teams-live-event-usage-report-with-callouts.png "吹き出しが表示された teams 管理センターの teams live イベント使用状況レポートのスクリーンショット")
+    ![吹き出しが含まれる teams 管理センターのチームライブイベントの使用状況レポートのスクリーンショット](../media/teams-live-event-usage-report-with-callouts.png "吹き出しが含まれる teams 管理センターのチームライブイベントの使用状況レポートのスクリーンショット")
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 

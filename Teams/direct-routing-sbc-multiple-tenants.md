@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 1つのセッション境界コントローラー (SBC) を複数のテナントに対応するように構成する方法について説明します。
-ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: d3defa7be5fc7e2f8c9d96017706329184c4ad59
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645313"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131649"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -140,7 +140,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
 例: test@customers.adatum.biz
 
-![[ベースドメインのアクティブ化] ページのスクリーンショット](media/direct-routing-4-sbc-domain-activation.png)
+![[Base domain activation] ページのスクリーンショット](media/direct-routing-4-sbc-domain-activation.png)
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>顧客テナントにサブドメイン名を登録する
 
@@ -180,7 +180,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 7. 顧客の Microsoft 365 管理センターに戻り、[**確認**] をクリックします。 
 8. 次のページで、[**自分で DNS レコードを追加**します] を選択し、[**次へ**] をクリックします。
 
-    ![[更新 DNS の設定] ページのオプションのスクリーンショット](media/direct-routing-9-sbc-update-dns.png)
+    ![[DNS 設定の更新] ページのオプションのスクリーンショット](media/direct-routing-9-sbc-update-dns.png)
 
 9. [**オンラインサービスの選択**] ページで、すべてのオプションをオフにし、[**次へ**] をクリックします。
 
@@ -229,6 +229,7 @@ Microsoft は、直接ルーティングの最初のリリースで、新しい-
 -    派生した樹幹は、名前が示すように、キャリアトランクからすべての構成パラメーターを継承または導出します。 たとえば
 -   Customers.adatum.biz –航空会社のテナントに作成する必要があるキャリアトランク。
 -   Sbc1.customers.adatum.biz –顧客テナントの派生トランクで、PowerShell で作成する必要はありません。  オンラインボイスルーティングポリシーの顧客テナントに派生トランクの名前を追加することはできません。
+-   通信事業者は、派生した樹幹 FQDN をキャリアの SBC ip アドレスに解決する DNS レコードを設定する必要があります。
 
 -   電話会社のトランク (キャリアテナント) で行った変更は、派生した trunks に自動的に適用されます。 たとえば、運送業者は、電話会社のトランクの SIP ポートを変更することができます。この変更は、すべての派生 trunks に適用されます。 Trunks を構成するための新しいロジックにより、すべてのテナントに移動したり、すべてのトランクのパラメーターを変更したりする必要がないため、管理が簡単になります。
 -   オプションは、キャリアトランク FQDN にのみ送信されます。 キャリアトランクの正常性状態は、すべての派生 trunks に適用され、ルーティング決定に使用されます。 [ダイレクトルーティングオプション](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)の詳細については、こちらを参照してください。

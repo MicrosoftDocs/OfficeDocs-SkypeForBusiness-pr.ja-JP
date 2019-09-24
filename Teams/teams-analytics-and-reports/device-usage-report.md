@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft Teams 管理センターの Teams デバイス使用状況レポートを使用して、組織内のユーザーがどのように Teams に接続しているかを確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfe8b11d633a8848d73e87c8fe0b4ecc8854062f
-ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
+ms.openlocfilehash: a1da28ccda6394a2e88685132150516cfed2c7fc
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36667127"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131627"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams のデバイス使用状況レポート
 
@@ -28,10 +28,10 @@ Microsoft Teams 管理センターの Teams デバイス使用状況レポート
 
 ## <a name="view-the-report"></a>レポートを表示する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**分析] & [レポート**] の順にクリックし、[**レポート**] で [**チームデバイスの使用状況**] を選択します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**分析] & [レポート** > の**利用状況レポート**] をクリックします。 [**レポートの表示**] タブの [**レポート**] で、[**チームデバイスの使用状況**] を選択します。
 2. [**日付の範囲**] の下で、範囲を選択して、[**レポートの実行**] をクリックします。
 
-    ![吹き出しが表示された teams 管理センターの teams デバイス使用状況レポートのスクリーンショット](../media/teams-reports-device-usage-with-callouts.png "吹き出しが表示された teams 管理センターの teams デバイス使用状況レポートのスクリーンショット")
+    ![吹き出し付きの teams 管理センターの teams デバイスの使用状況レポートのスクリーンショット](../media/teams-reports-device-usage-with-callouts.png "吹き出し付きの teams 管理センターの teams デバイスの使用状況レポートのスクリーンショット")
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
