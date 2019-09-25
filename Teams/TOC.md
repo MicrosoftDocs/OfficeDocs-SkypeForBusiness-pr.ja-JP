@@ -82,8 +82,10 @@
 ### Teams 管理センターの分析とレポート 
 #### [概要](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams の使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)
-#### [Teams ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md) 
+#### [Teams ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md)
 #### [Teams のデバイス使用状況レポート](teams-analytics-and-reports/device-usage-report.md)
+#### [PSTN のブロックされたユーザー レポート](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [PSTN の使用状況レポート](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams のライブ イベントの使用状況レポート](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Microsoft 365 管理センターでの Teams のアクティビティ レポート](teams-activity-reports.md)
 
@@ -780,6 +782,7 @@
 ### [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ### [Teams のネットワーク プランナーを使用する](network-planner.md)
+### [ネットワーク プランナーのチュートリアル](tutorial-network-planner-example.yml)
 ### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
 ### [Teams の制限と仕様](limits-specifications-teams.md)
 ### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
