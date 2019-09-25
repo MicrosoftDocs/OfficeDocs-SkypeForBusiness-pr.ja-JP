@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c077d49a09210862936d94d46708db95efe4585b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240773"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142058"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要を理解する
 
@@ -32,7 +32,7 @@ ms.locfileid: "36240773"
 
 - チャネルは、実際の作業が行われているチーム内のコラボレーションスペースです。 
 
-チームとチャネルの詳細については、「 [Microsoft teams のチームとチャネルの概要](teams-channels-overview.md)」を参照してください。 包括的なチーム導入ガイダンスについては、 [Teams 導入ガイド](https:aka.ms/teamstoolkit)をご覧ください。 Teams および Office 365 グループの詳細については、「 [office 365 グループと Microsoft Teams](office-365-groups.md) 」を参照してください。 [office 365 グループについ](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)ての詳細はこちらをご覧ください。
+チームとチャネルの詳細については、「 [Microsoft teams のチームとチャネルの概要](teams-channels-overview.md)」を参照してください。 包括的なチーム導入ガイダンスについては、 [Teams 導入ガイド](https://aka.ms/teamstoolkit)をご覧ください。 Teams および Office 365 グループの詳細については、「 [office 365 グループと Microsoft Teams](office-365-groups.md) 」を参照してください。 [office 365 グループについ](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)ての詳細はこちらをご覧ください。
 
 
 |  |  |

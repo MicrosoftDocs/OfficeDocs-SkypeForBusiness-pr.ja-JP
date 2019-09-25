@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef8c6fbfd5ed0b19d6762b7508b311413d11066
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bf9776dbf5a5992354f542436b4904d53d58508
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233285"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142047"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft Teams で Microsoft StaffHub teams をシフトに移行する
 
@@ -81,16 +81,18 @@ StaffHub チームを Teams に移動する前に、次のことを確認して�
 
 ### <a name="assign-teams-licenses"></a>Teams のライセンスを割り当てる
 
-各ユーザーは、ライセンス付与された有効な Microsoft 365 [](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in)または Office 365 ライセンスを所有している必要があります。また、Teams ライセンスを割り当てる必要があります。 Teams ライセンスをユーザーに割り当てると、チームにアクセスできます。
+各ユーザーは、ライセンス付与された有効な Microsoft 365 または Office 365 ライセンスを所有している必要があります。[また、Teams](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in)ライセンスを割り当てる必要があります。 Teams ライセンスをユーザーに割り当てると、チームにアクセスできます。
 
 Teams のライセンスは、Microsoft 365 管理センターで管理します。 詳細については、「[チームへのユーザーアクセスを管理](../../user-access.md)する」を参照してください。
 
 > [!NOTE]
 > 組織で Skype for Business を使用していて、すべてのユーザーをチームに移行する準備ができていない場合は、最初に Skype for Business を使用してチームを実行できるようにすることができます。 この共存モード (*孤島*) では、各クライアントアプリは個別のソリューションとして動作します。 詳細については、「[チームと Skype For business の共存と相互運用性につい](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)て」を参照してください。
 
-### <a name="install-the-staffhub-powershell-module"></a>StaffHub PowerShell モジュールをインストールする
+### <a name="install-the-prerelease-version-of-the-staffhub-powershell-module"></a>プレリリース版の StaffHub PowerShell モジュールをインストールする
 
-まだインストールしていない場合は、 [StaffHub PowerShell モジュールをインストール](install-the-staffhub-powershell-module.md)します。 
+まだインストールしていない場合は、[プレリリース版の StaffHub PowerShell モジュールをインストール](install-the-staffhub-powershell-module.md)します。 
+
+StaffHub teams を Teams に移行するには、プレリリース版のモジュールがインストールされている必要があります。
 
 ### <a name="link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one"></a>StaffHub チームメンバーがない場合に、Azure AD アカウントをリンクさせる
 

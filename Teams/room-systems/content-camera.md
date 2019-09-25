@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
-ms.openlocfilehash: f72eb6248fa2e35bdfb6cfe1de19eb34094b2acc
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7f895e90a585c350f2b746fcc88296f09007b64b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774568"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142067"
 ---
 # <a name="content-cameras"></a>コンテンツのカメラ
 
@@ -97,3 +97,7 @@ Microsoft Teams Room system でコンテンツカメラを使用できるよう�
 [XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する](xml-config-file.md)
 
 [Microsoft Teams の会議室の要件](requirements.md)
+
+> [!NOTE]
+> Microsoft Surface Pro ベースのコンソール (Logitech Smartdock や Crestron SR など) を搭載した一部の Microsoft Teams Room デバイスは、まだコンテンツのカメラをサポートしていません。 これらのデバイスのサポートは、後で CY2019 に追加されます。 
+>
