@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: 4a92ba051564800dace5eafec8e573d807c11d04
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b05cb7638314ce583ce97d98e3bb5d56e264ca62
+ms.sourcegitcommit: c22e55cda855ec61e5b6cb3455d6b87467c24e21
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775174"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37159743"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
@@ -38,54 +38,51 @@ ms.locfileid: "36775174"
 
 ## <a name="hardware-requirements"></a>ハードウェア要件
 
-Microsoft Teams の room は、オーディオとビデオの周辺機器に応じて、アクセサリを使用してさまざまな部屋サイズに拡張できます。 この記事に記載されているハードウェアは、Skype と Teams の両方の会議モードをサポートしています。 オーディオおよびビデオの周辺機器は、ドッキングデバイスで USB または HDMI 接続を介して Microsoft Teams のルームに接続します。 また、以下も必要です。
+Microsoft Teams の会議室は、部屋のサイズに基づいてさまざまなオーディオとビデオの周辺機器を使用して、さまざまな部屋のサイズに拡大縮小されます。 この記事に記載されているハードウェアは、Skype と Teams の両方の会議モードをサポートしています。 オーディオおよびビデオの周辺機器は、ドッキングデバイスで USB または HDMI 接続を介して Microsoft Teams のルームに接続します。 以下も必要です。
 
 - Windows 10 Enterprise 用の起動可能な Windows インストールメディアとして構成されている 32 GB 以上の USB ディスク。
-
 - 次のタブレットまたはコンソールのいずれか。
 
-**サポートされるタブレット**
+  **サポートされるタブレット**
 
-|タブレット|プロセッサ|RAM|ディスク|
-|:-----|:-----|:-----|:-----|
-|Surface Pro 6| Core i5 |16 GB または 8 GB |128 GB 以上 |
-|Surface Pro (第5世代) |Core i5 |8 GB または 4 GB |128 GB 以上 |
-|Surface Pro 4 |Core i5 |8 GB または 4 GB |128 GB 以上 |
+  |タブレット|プロセッサ|RAM|ディスク|
+  |:-----|:-----|:-----|:-----|
+  |Surface Pro 6| Core i5 |16 GB または 8 GB |128 GB 以上 |
+  |Surface Pro </br>(第5世代) |Core i5 |8 GB または 4 GB |128 GB 以上 |
+  |Surface Pro 4 |Core i5 |8 GB または 4 GB |128 GB 以上 |
 
 - 会議室テーブルにタブレットをセキュリティで保護するための、次のドッキングステーションオプションのいずれか。
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-
   - [クリエイティブ](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-
   - [Polycom MSR シリーズ](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-**サポートされているその他の Microsoft Teams ルームコンソール**
+- **サポートされているその他の Microsoft Teams ルームコンソール**
 
-|コンソール|プロセッサ|RAM|ディスク|
-|:-----|:-----|:-----|:-----|
-|[M130-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
-|[B130-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
-|[B140-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
-|[M150-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 GB |128 GB |
-[B160-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
-|[C160-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
-|[会議室 G2 の HP エリート Slice](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
-|[Microsoft Teams のルームでの HP エリート Slice G2 オーディオの準備](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
-|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
-|[Logitech タップ](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8 GB |128 GB |
-|[ごみ箱 MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
-|[ごみ箱 MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
-|||||
+  |コンソール|プロセッサ|RAM|ディスク|
+  |:-----|:-----|:-----|:-----|
+  |[M130-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
+  |[B130-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
+  |[B140-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
+  |[M150-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 GB |128 GB |
+  [B160-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
+  |[C160-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
+  |[会議室 G2 の HP エリート Slice](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
+  |[Microsoft Teams のルームでの HP エリート Slice G2 オーディオの準備](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
+  |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
+  |[Logitech タップ](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8 GB |128 GB |
+  |[ごみ箱 MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
+  |[ごみ箱 MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
+  |||||
 
-> [!NOTE]
-> コア M3 プロセッサはサポートされていません。
+  > [!NOTE]
+  > コア M3 プロセッサはサポートされていません。
 
-### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>**USB オーディオおよびビデオの周辺機器についての認定済みファームウェア バージョン**
+### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>USB オーディオおよびビデオの周辺機器についての認定済みファームウェア バージョン
 
 これらのデバイスは、 [aka.ms/teamsdevices](https://aka.ms/teamsdevices)で入手できます。
 
-|Microsoft Teams 室の周辺機器|Microsoft Teams 会議室向けのファームウェアバージョンの認定| カメラはコンテンツカメラの使用をサポートしています|
+|Microsoft Teams のルームの周辺機器|認定ファームウェアのバージョン | カメラはコンテンツカメラの使用をサポートしています|
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio)   |v240| &#x2714; |
@@ -107,24 +104,22 @@ Microsoft Teams の room は、オーディオとビデオの周辺機器に応�
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
-| |  | |
+|[Biamp Tesira 前景 AVB VT4 の固定オーディオ DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect (天井2マイク)](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |  |
+||||
 
-- **USB エクステンダー**:
+&Dagger;お客様は、このバンドルの Dante インターフェイスまたは Biamp/Sennheiser で推奨されるネットワークスイッチのいずれかを選ぶことができます。
 
-  - タブレットドック上の USB ポートは、USB 3.0 に対応しています。 USB 2. x エクステンダーは使用できますが、usb 2 に制限されています。これは、USB 3.0 周辺機器にはお勧めできません。
+#### <a name="usb-extenders"></a>USB エクステンダー
 
-  - Extender は USB 2.0 以降の仕様を満たしている必要があります。
-
-  - タブレットドックは、外部 USB ハブ拡張機能の少なくとも2つのステージをサポートしています。 2つ以上の USB ハブを連続して接続する必要がある場合は、dock の製造元に確認して、サポートされているかどうかを確認してください。
-
-- 室内での有線 GbE 接続。 適切な長さのイーサネットケーブル。
-
-- 最大 2 1080-p は、HDMI 接続で表示されます。 適切な長さの HDMI ケーブル。
+- タブレットドック上の USB ポートは、USB 3.0 に対応しています。 USB 2. x エクステンダーを使うことができます。 これにより、usb 3.0 周辺機器にはお勧めできません。これは、far 側での USB 2 の速度に限定されます。
+- Extender は USB 2.0 以降の仕様を満たしている必要があります。
+  - タブレットドックは、外部 USB ハブ拡張機能の少なくとも2つのステージをサポートしています。 複数の USB ハブを連続して接続する場合は、ベンダーの製造元に問い合わせて、シリーズの接続がサポートされているかどうかを確認します。
+  - 室内での有線 GbE 接続。 適切な長さのイーサネットケーブル。
+  - 最大 2 1080-p は、HDMI 接続で表示されます。 適切な長さの HDMI ケーブル。
 
 > [!NOTE]
 > 屋内ディスプレイの前面として使用される消費者向け TV では、スタンバイ モードからアクティブなビデオ ソースに自動的に切り替わるように、HDMI の CEC (Consumer Electronics Control) 機能をサポート/有効にする必要があります。 この機能はすべての TV でサポートされるものではありません。
-
-> [!NOTE]
+>
 > Microsoft Teams のルームではキーボードは使用されません。 必要に応じて、管理者はスクリーンキーボードを使用する必要があります。 Microsoft Teams の会議室のデバイスをイメージングするときは、USB キーボードまたはマウスを使用する必要があります。
 
 次の表では、room size に基づいた周辺機器の推奨事項について説明します。
@@ -133,10 +128,10 @@ Microsoft Teams の room は、オーディオとビデオの周辺機器に応�
 
 |会議室の種類|ユーザー数|マイクからスピーカーへのお勧めの最大距離|部屋の最大サイズによるデバイス|コメント|
 |:-----|:-----|:-----|:-----|:-----|
-|**すばやく** <br/> 10 ' x 9 '   |2 ~ 4  |1.5 m  |Logitech Connect  |Logitech Connect デバイスにはカメラが含まれているため、ローカルの会議出席者をキャプチャするために、部屋の前面 (表の中央ではありません) に配置する必要があります。  |
-|**微** <br/> 16 ' x 16 '  |4 ~ 6  |2.0 m  |Jabra 510 <br/> Sennheiser SP20  |再生音量が大規模な部屋で制限されることがあります。  |
+|**すばやく** <br/> 10 ' x 9 '   |2 ~ 4  |1.5 m  |Logitech Connect  |Logitech Connect デバイスには、ローカルの会議出席者をキャプチャするために、部屋の前面 (表の中央ではなく) に配置する必要があるカメラが含まれています。 |
+|**微** <br/> 16 ' x 16 '  |4 ~ 6  |2.0 m  |Jabra 510 <br/> Sennheiser SP20  |再生音量は、大規模な部屋で制限されます。  |
 |**中** <br/> 18 ' x 20 '  |6 ~ 12  |2.4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech グループ <br/> Polycom 3 つ <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Logitech MeetUp にはカメラが含まれているため、部屋の前に配置する必要があります (これは、ローカルの会議出席者をキャプチャするために、テーブルの中央に配置する必要があります)。 <br/> 一般に、長い長方形または u 形の表のあるルームは、サテライトマイクで利用できます。 <br/> SP 220 ミリ秒は、デイジーチェーン構成で使用する必要があります。  |
-|**さまざま** <br/> 15 ' x 32 '  |12 ~ 16  |3 m <br/> この距離は、オーディオデバイスに接続されている各サテライトマイクでカバーされる領域にも適用されます。  |Logitech Group + 衛星マイク <br/> Polycom 3 つ + 衛星マイク <br/> Polycom CX5100 + 衛星マイク <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + 衛星マイク  |この行に示されているすべてのオーディオデバイスは、衛星マイクのオプションをサポートしています。 <br/> CX5100 には、デバイスを表の中央に配置できるように、組み込みの360度のカメラが含まれています。 <br/> SP 220 ミリ秒は、デイジーチェーン構成で使用する必要があります。  |
+|**さまざま** <br/> 15 ' x 32 '  |12 ~ 16  |3 m <br/> この距離は、接続されている各サテライトマイクがカバーする領域にも適用されます。  |Logitech Group + 衛星マイク <br/> Polycom 3 つ + 衛星マイク <br/> Polycom CX5100 + 衛星マイク <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + 衛星マイク  |この行に示されているすべてのオーディオデバイスは、衛星マイクのオプションをサポートしています。 <br/> CX5100 には、デバイスを表の中央に配置できるように、組み込みの360度のカメラが含まれています。 <br/> SP 220 ミリ秒は、デイジーチェーン構成で使用する必要があります。  |
 
 **Microsoft Teams 会議室のビデオ周辺機器**
 
@@ -152,7 +147,7 @@ Microsoft Teams の room は、オーディオとビデオの周辺機器に応�
 
 ## <a name="required-software-downloads"></a>必要なソフトウェアのダウンロード
 
-独自の Microsoft Teams のルームイメージを作成するには、「 [Microsoft Teams ルームコンソールを構成](console.md)する」の指示に従います。 これらの手順では、インストールプロセスに必要なすべてのソフトウェアをダウンロードする方法について説明します。
+独自の Microsoft Teams のルームイメージを作成するには、「 [Microsoft Teams ルームコンソールを構成](console.md)する」の指示に従います。 これらの手順では、インストールに必要なすべてのソフトウェアをダウンロードする方法について説明します。
 
 > [!NOTE]
 > IT 担当者は、ボリュームライセンス契約を通じて Windows 10 Enterprise ISO ファイルにアクセスする必要があります。
