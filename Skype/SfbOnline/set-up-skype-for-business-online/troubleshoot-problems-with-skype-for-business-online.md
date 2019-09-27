@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06dd690aeaf01f19fe703e6d827cab49cfcf7031
+ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285056"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "37275516"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Skype for Business Online に関する問題のトラブルシューティング
 
@@ -31,7 +31,7 @@ ms.locfileid: "34285056"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Skype for Business Online に関する管理者の問題のトラブルシューティング
 
-Skype for business online の[サインインエラーの一般的な原因をチェック](troubleshooting-sign-in-errors-for-admins.md#toc323194094)することで、Skype For business online のほとんどの質問に対する回答を得ることができます。 このサポート技術情報には、「 [Skype For Business Online でのサインインの問題のトラブルシューティング方法」](https://go.microsoft.com/fwlink/p/?LinkId=747952)も参照してください。
+Skype for Business online のほとんどの質問に対する回答は、「 [skype For Business online サインインエラーの一般的な原因を確認](troubleshooting-sign-in-errors-for-admins.md#toc323194094)する」を参照してください。 次のサポート技術情報の記事には、多くのトラブルシューティングリソースとエラーコードの参照が含まれています。 [Skype For Business Online サインインエラーのトラブルシューティングを行う](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)こともできます。
 
 ダイヤルイン会議の問題については、「[電話会議のトラブルシューティングと既知の問題](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)」を参照してください。
 
