@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ビジネス向けに電話システム (クラウド PBX) を計画してセットアップする方法について説明します。 '
-ms.openlocfilehash: 0046a008579c6c741d99825e6b79387a73eec55b
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: c8725523fbef65b5687e68a860d2f2f3137e649d
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645261"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305787"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
 
@@ -66,6 +66,8 @@ PBX は、社内の電話システムです。 Office 365 アドオンの電話�
 |[Skype for Business を使ってビデオ通話の発信と受信を行う](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 小さな浮動ウィンドウに発表者の名前とビデオストリームを表示しておくと、いつでも質問に応答できます。 <br/> |
 |[Skype for Business ボイスメールの確認とオプション](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |クラウドボイスメールのしくみは次のとおりです。ユーザーがボイスメールを受信すると、ボイスメールが添付ファイルとしてメールとして送信されます。 Skype 認定のデスクトップ電話、すべての Skype for Business アプリケーション、Lync for Mac 2011 でも、メッセージを聞くことができます。  <br/> クラウドボイスメールには、パーソナライズされたあいさつ文、メッセージ待ちインジケーター、および通話を返信する機能が含まれています。 すべてのボイスメールをメールボックスに入れて、PC、モバイルデバイス、IP 携帯電話で Skype for Business から利用できるようにすることができます。  <br/> |
 |保留音 | 2019年9月に利用可能。電話システムは、公衆交換電話網 (PSTN) からの外部通話が保留になっているときに、サービスによって定義された既定の音楽を再生します。  この機能は、通話キューへの通話に加えて、1対1の PSTN 同士の通話に対応しています。 この機能は、他のプラットフォームとの保留通知のパリティを提供します。 (その他のすべてのプラットフォームでは、ユーザーが保留にしているときに視覚的な合図を出すことができます。ただし、PSTN の発信者に知らせる方法はありません)。 最初のリリースでは、この機能は管理者が構成することはできません。| 
+|番号の逆引き参照 | 2019年9月、電話システムでは、その番号が AAD のユーザーに関連付けられている場合は、外部電話番号の ID が示されます。 この電話番号が AAD に含まれていない場合は、電話会社が提供している表示名が表示されます (利用可能な場合)。  |
+
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Office 365 で電話システムを計画してセットアップする
 <a name="bkmk_setup"> </a>

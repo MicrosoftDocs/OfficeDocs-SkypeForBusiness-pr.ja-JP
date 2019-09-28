@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9ed190a2d32a2e607fd747a70ed6db9f7daaa3d
-ms.sourcegitcommit: 5d29e8eb7a0c13edde8015da1e63b01b7081b4b5
+ms.openlocfilehash: a4bfa488500d6bd0fcea3c64e0d463003756d89c
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37028253"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305639"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft Teams 用の Office 365 ライセンス
 ========================================
@@ -48,7 +48,7 @@ Teams の入手方法については[Microsoft Teams へのアクセス権を取
 > Teams は非営利団体でも利用できます。  Teamsは、7 月 17 日に米国政府クラウド コミュニティ (GCC) を展開し、2018年 8 月までにすべての対象となるユーザーが利用できるようにします。 その他の米国政府機関向けクラウド (GCC high および 国防総省) 向けの Microsoft Teams を近日公開します。 Microsoft Teams のブログの詳細は [こちら](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)から。
 
 > [!NOTE]
-> 2018 年 10 月 1 日より、500 シート以下の新規 Office 365 ユーザーはTeams を利用できるようになり、Skype for Business Online にアクセスできなくなりました。 既に Skype for Business Online を使用しているテナントは、Teams への移行を完了するまで、(新規ユーザーのプロビジョニングも含めて) 利用を継続することができます。 詳細については、[Microsoft Teams が Office 365 の会議と通話機能のプライマリ クライアントになりました](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)をご覧ください。
+> 2019年8月以降、すべての新しい Office 365 顧客は Teams に onboarded され、Skype for Business Online へのアクセス権は付与されません。 既に Skype for Business Online を使用しているテナントは、Teams への移行を完了するまで、(新規ユーザーのプロビジョニングも含めて) 利用を継続することができます。 詳細については、[Microsoft Teams が Office 365 の会議と通話機能のプライマリ クライアントになりました](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)をご覧ください。
 
 > [!NOTE]
 > 選択されたライセンスのアプリに Skype for Business Online が表示されている場合は、削除しないでください。 リストに表示され、削除されると、Teams ユーザーセットアップは正常に完了しません。 

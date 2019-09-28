@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: '概要: Skype for Business Server ハイブリッド環境に対するサーバー間認証を構成します。'
-ms.openlocfilehash: d0c82d39c5232ccc3d425bad9533bf23b67dc8a6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2879a1acc35a2c8928a95af913476c26028d6e6c
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285534"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305773"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Skype for Business Server ハイブリッド環境に対するサーバー間認証を構成する。
 
@@ -67,19 +67,19 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 通常、テナントの領域名は組織名と異なることに注意してください。実際には、領域名はほぼ常にテナント ID と同じです。このため、スクリプトの最初の行を使用して、指定したテナント (この場合は fabrikam.com) の TenantId プロパティの値を取得してから、名前を変数 $TenantId に割り当てます。
 
 ```
-$TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
+$TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 ```
 
-このスクリプトを実行するには、このモジュールを使用して、Skype for Business Online Powershell モジュールをインストールし、テナントに接続している必要があります。 これらのコマンドレットがインストールされていない場合、Get-CsTenant コマンドレットを使用できないためにスクリプトは失敗します。 スクリプトが完了したら、Skype for Business Server と承認サーバー間の信頼関係と、Exchange 2013/2016 と承認サーバーとの間の2番目の信頼関係を構成する必要があります。 これは、Microsoft Online Services コマンドレットを使用してのみ行うことができます。
+このスクリプトを実行するには、このモジュールを使用して、Skype for Business Online PowerShell モジュールをインストールし、テナントに接続している必要があります。 これらのコマンドレットがインストールされていない場合、Get-CsTenant コマンドレットを使用できないためにスクリプトは失敗します。 スクリプトが完了したら、Skype for Business Server と承認サーバー間の信頼関係と、Exchange 2013/2016 と承認サーバーとの間の2番目の信頼関係を構成する必要があります。 これは、Microsoft Online Services コマンドレットを使用してのみ行うことができます。
 
 > [!NOTE]
-> Microsoft Online Services コマンドレットをインストールしていない場合は、powershell リポジトリからコマンドレットのインストール-モジュール MSOnline をインストールする必要があります。 Microsoft Online Services モジュールのインストールと使用の詳細については、Office 365 web サイトを参照してください。 この手順では、Office 365 と Active Directory の間でシングルサインオン、フェデレーション、同期を構成する方法についても説明します。 
+> Microsoft Online Services コマンドレットをインストールしていない場合は、PowerShell リポジトリからコマンドレット`install-module MSOnline`をインストールする必要があります。 Microsoft Online Services モジュールのインストールと使用の詳細については、Office 365 web サイトを参照してください。 この手順では、Office 365 と Active Directory の間でシングルサインオン、フェデレーション、同期を構成する方法についても説明します。 
 
 
 
-Office 365 を構成した後、Skype for Business Server および Exchange 2013 の Office 365 サービスプリンシパルを作成した後、これらのサービスプリンシパルに資格情報を登録する必要があります。 これを行うには、最初に .CER ファイルとして保存されている X.509 Base64 を入手する必要があります。 この証明書は、Office 365 サービスプリンシパルに適用されます。
+Office 365 を構成した後、Skype for Business Server および Exchange 2013 の Office 365 サービスプリンシパルを作成した後、これらのサービスプリンシパルに資格情報を登録する必要があります。 そのためには、まず、として保存された x.509 Base64 証明書を取得する必要があります。CER ファイル。 この証明書は、Office 365 サービスプリンシパルに適用されます。
 
-X.509 証明書を取得したら、Powershell コンソールを開き、サービスプリンシパルを管理するために使用できるコマンドレットが含まれている Microsoft Online Windows PowerShell モジュールをインポートします。
+X.509 証明書を取得したら、PowerShell コンソールを開き、サービスプリンシパルを管理するために使用できるコマンドレットが含まれている Microsoft Online Windows PowerShell モジュールをインポートします。
 
 ```
 Import-Module MSOnline

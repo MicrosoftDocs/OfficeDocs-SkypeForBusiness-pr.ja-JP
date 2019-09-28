@@ -18,12 +18,12 @@ description: IT 管理者は、他のドメインの外部アクセス (フェ�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838114"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305763"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams で外部アクセスを管理する
 ======================================================
@@ -70,7 +70,7 @@ Microsoft Teams の外部アクセスを使用すると、他のドメインの 
 | ユーザーは外部関係者として識別される | はい | 可 |
 | プレゼンスが表示される | はい | 可 |
 | 不在時のメッセージが表示される | いいえ | はい |
-| 個々のユーザーをブロックすることができます | いいえ | はい |
+| 個々のユーザーをブロックすることができます | なし | いいえ |
 | @mentions はサポートされています | いいえ | はい |
 | プライベート通話を行う | はい | 可 |
 | IP ビデオを許可する | はい | 可 |
