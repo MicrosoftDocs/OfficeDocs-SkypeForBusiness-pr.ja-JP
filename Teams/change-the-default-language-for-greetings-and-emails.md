@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Skype for Busineses をセットアップして、組織のボイスメールの既定応答メッセージで別の言語を使用する方法を説明します。 '
-ms.openlocfilehash: 5502bea261e3313bed2dae854ca23d6a27f4f8b8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+description: '組織の既定のボイスメール応答メッセージで別の言語を使用するように Skype for Business をセットアップする方法について説明します。 '
+ms.openlocfilehash: 085262a4ae4362aa40d20d3da657db6bcac694a3
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494571"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328344"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 
@@ -41,9 +41,9 @@ ms.locfileid: "34494571"
     > [!NOTE]
     > ユーザーはサイン インした後に設定を操作して自身のあいさつ文の言語を変更できます。 
   
-- **発信ボイス メール メッセージを録音する場合は、** 「[Skype for Business ボイス メールの確認とオプション](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)」をご覧ください。
+- **発信ボイス メール メッセージを録音する場合は、** 「[Skype for Business ボイス メールの確認とオプション](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)」をご覧ください。 Microsoft Teams の場合-ユーザーは、[ [Teams デスクトップクライアント](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)] の設定からボイスメールの設定を変更できます
 
-- **ボイスメールプロンプトの言語を変更しますか?** [ [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) **プロンプト言語**] の下の新しい言語に移動して選択します。
+- **ボイスメールプロンプトの言語を変更しますか?** Skype for Business につい[https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail)ては、[**プロンプト言語**] で新しい言語を選択します。 Microsoft Teams の場合-ユーザーは、[ [Teams デスクトップクライアント](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)] の設定からボイスメールの設定を変更できます
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>組織のユーザー全員に対してシステムの言語を変更する
 
@@ -51,7 +51,7 @@ ms.locfileid: "34494571"
     
 2. Microsoft 365 管理センターで、[**組織プロファイル**の**設定** > ] を選択します。 
     
-     ![[設定]、[組織プロファイル] の順に選択したスクリーンショット。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![[設定]、[組織プロファイル] の選択を示すスクリーンショット。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. [ **編集**] を選びます。
     

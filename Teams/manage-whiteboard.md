@@ -1,15 +1,15 @@
 ---
 title: Microsoft Teams でホワイトボードを管理する
-author: LolaJacobsen
-ms.author: lolaj
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 05/24/2019
+ms.date: 10/01/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
-description: Microsoft Teams でホワイトボード Web アプリ (プレビュー) を使用する方法について説明します。
+description: Microsoft Teams でホワイトボード web アプリを使用する方法について説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -18,26 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40c372c56cc58ad1f1682c48bf70bef60801fce3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7ef6e203f615f9ea4ed1b67fc9d5995713916367
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233260"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328397"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Microsoft Teams でホワイトボードを管理する
 ==========================================
 
-Microsoft ホワイトボードは、人、コンテンツ、アイデアが集まった、無料形式のデジタルキャンバスです。 Microsoft Teams 会議でのホワイトボードの統合は、ホワイトボード Web アプリ (プレビュー) を使用して実現されます。これにより、Teams 会議の出席者は、共有デジタルキャンバス上で共同作成、スケッチ、および書き込みを行うことができます。
+Microsoft ホワイトボードは、人、コンテンツ、アイデアが集まった、無料形式のデジタルキャンバスです。 Microsoft Teams 会議でのホワイトボードの統合はホワイトボード web アプリによって実現されます。これにより、Teams 会議の参加者は、共有デジタルキャンバス上で共同作成、スケッチ、および書き込みを行うことができます。
 
-> [!NOTE]
-> Teams 会議でのホワイトボードの統合は、現在、Windows 10、iOS、Android、Web 上の Microsoft Teams で利用できます。 Microsoft 365 管理センターで有効にする必要があります。
-
-ユーザーはホワイトボードを共有して、Teams 会議のすべての参加者が利用できるようにすることができます。 同じホワイトボードは、Windows 10、iOS、Web アプリ (プレビュー) のすべてのホワイトボードアプリケーションで同時に使用できます。
+ユーザーはホワイトボードを共有して、Teams 会議のすべての参加者が利用できるようにすることができます。 同じホワイトボードは、Windows 10、iOS、web アプリのすべてのホワイトボードアプリケーションで同時に使用できます。
 
 ## <a name="turn-on-or-turn-off-the-whiteboard-app"></a>ホワイトボードアプリのオンとオフを切り替える
 
-ホワイトボード Web アプリ (プレビュー) を有効または無効にするには、次の操作を行います。
+ホワイトボード web アプリをオンまたはオフにするには、次の手順を実行します。
 
 1. Microsoft 365 管理センターに移動します。
 
@@ -45,15 +42,15 @@ Microsoft ホワイトボードは、人、コンテンツ、アイデアが集�
 
 3. [ **Service & アドイン**] ページで、下にスクロールして、[**ホワイトボード**] を選択します。
 
-4. ホワイトボードアプリを有効にするには、[**ホワイトボード**] ウィンドウで、**組織全体の [ホワイトボードプレビュー** ] のオンとオフを切り替えます。 ****
+4. ホワイトボードアプリを有効にするには、[**ホワイトボード**] ウィンドウで、**組織全体に対して [ホワイトボードのオンとオフ**を切り替える]**をオンにします。**
 
-    ホワイトボードアプリを無効にするには、[**ホワイトボード**] ウィンドウで、**組織全体のホワイトボードプレビューをオンまたはオフ**に切り替えます。 ****
+    ホワイトボードアプリを無効にするには、[**ホワイトボード**] ウィンドウで、 **[組織全体でホワイトボードのオンとオフ**を切り替える] を [**オフ**] に切り替えます。
 
 5. [**保存**] をクリックします。
 
 ## <a name="whiteboard-on-surface-hub"></a>Surface Hub 上のホワイトボード
 
-Microsoft ホワイトボードを使用する前に、Surface Hub デバイスに Microsoft ホワイトボードアプリがインストールされていることを確認してください。 ホワイトボードがインストールされていない場合は、Surface Hub デバイスで Microsoft ストアアプリに移動し、 [Microsoft ホワイトボード](https://www.microsoft.com/en-us/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab)を入手します。 詳細については、「 [Surface Hub で Microsoft ホワイトボードを有効](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)にする」を参照してください。
+Microsoft ホワイトボードを使用する前に、ホワイトボードアプリが Surface Hub デバイスにインストールされていることを確認してください。 ホワイトボードがインストールされていない場合は、Surface Hub デバイスで Microsoft ストアアプリに移動し、 [Microsoft ホワイトボード](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab)を入手します。 詳細については、「 [Surface Hub で Microsoft ホワイトボードを有効にする](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)」を参照してください。
 
 ## <a name="more-information"></a>詳細情報
 

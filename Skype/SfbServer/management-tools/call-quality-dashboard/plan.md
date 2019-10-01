@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: 通話品質ダッシュボードを計画する際の考慮事項について説明します。'
-ms.openlocfilehash: 84fa8672e561cbf91714b3d18276de401f2ab377
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274668"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328439"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの計画 
  
@@ -27,15 +27,14 @@ ms.locfileid: "34274668"
 Skype for Business Server Call Quality Dashboard (CQD) は、Skype for Business Server の監視サーバーのエクスペリエンスデータベースの上にあるレポートレイヤーです。 CQD は、Microsoft SQL Server Analysis Services を使用して、データセットでのフィルター処理とピボット処理に加えて、集計の使用状況と通話品質情報を提供します。 CQD には次のような機能があります。
   
 - **CQD の QoE アーカイブコンポーネントによる QoE データのアーカイブストレージ。** QoE アーカイブコンポーネントは、監視サーバーの場合よりもずっと長い期間、QoE データを保存できます。 これにより、最大7か月間のデータについて、トレンド分析とレポート作成が可能になり、レポートウィンドウをデータが存在する時点で戻ることができます。
-    
 - **Microsoft SQL Server Analysis Services のパワーと速度を使用したレポートと分析。** CQD は、Microsoft SQL Analysis Services を利用して、概要、フィルター、ピボット処理機能を提供し、分析キューブを使用してダッシュボードを実現します。 実行速度とデータのドリルダウン機能をレポートすると、分析にかかる時間が大幅に短縮されます。
-    
 - **通話品質レポート用に最適化された新しいデータスキーマ。** キューブには、音声品質レポートと調査用に設計されたスキーマがあります。 ポータルユーザーは、QoE 指標データベーススキーマが必要なビューにどのようにマップされるかを判断する代わりに、レポートタスクに集中することができます。 QoE アーカイブとキューブを組み合わせることで、CQD でのレポート作成と分析の複雑さを軽減することができます。 また、QoE アーカイブデータベーススキーマには、展開固有のデータを設定してデータの全体的な値を向上させることができるテーブルも含まれています。
-    
 - **組み込みのレポートデザイナーとインプレースレポートの編集。** ポータルコンポーネントには、通話品質の方法でモデル化されたいくつかの組み込みレポートが用意されています。 ポータルのユーザーは、ポータルの編集機能を使用してレポートを変更したり、新しいレポートを作成したりできます。
-    
 - **Web API でレポートの構造と分析キューブデータにアクセスできます。** ダッシュボードレポートフレームワークは、キューブのデータを表示する唯一の方法ではありません。 CQD では、HTML と JavaScript を使って CQD Web Api からデータを取得し、カスタム形式でデータを表示する例をいくつか示します。 レポートエディターと CQD Web Api を組み合わせることで、レポートとカスタムレポートのレイアウトをすばやくプロトタイプすることができます。
-    
+
+> [!NOTE]
+> 管理者が[CQD バージョン 3](https://cqd.teams.microsoft.com) (管理者の資格情報でログイン) を使用して、Skype For business Server 2019 を管理できるようになりました。 これには、ハイブリッド実装と Call Data Connector (CDC) の使用が必要です。 CDC を有効にする方法について詳しくは、「[通話データコネクタの計画](/SkypeForBusiness/hybrid/plan-call-data-connector)」をご覧ください。 CQD バージョン3のドキュメントについては、「 [Microsoft Teams および Skype For Business Online の通話品質ダッシュボードをオン](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)にして使用する」を参照してください。 CQD バージョン3の詳細については、こちらを参照してください。
+
 ## <a name="cqd-design-goals"></a>CQD のデザイン目標
 
 CQD により、IT 担当者は集計データを使用して、メディア品質の問題が発生している環境におけるフォーカス領域を識別できるようになります。これにより、IT 担当者は異なるユーザーのグループの統計情報を比較して、傾向とパターンを識別できます。個別の通話に関する問題の解決にフォーカスしていませんが、特定の環境内の多くのユーザーに該当する問題と解決策の識別にフォーカスしています。 
@@ -162,8 +161,15 @@ CQD は、すべてのコンポーネントと依存コンポーネントを含�
   
 |||
 |:-----|:-----|
+|CQD 2015 の場合 <br/> |  <br/> |
 |サポートされているオペレーティングシステム  <br/> |Windows Server 2008 R2、Windows Server 2012、Windows Server 2012 R2  <br/> |
 |サポートされている SQL Server  <br/> |Sql Server 2012、SQL Server 2014、SQL Server 2016  <br/> |
+
+|||
+|:-----|:-----|
+|CQD 2019 の場合 <br/> |  <br/> |
+|サポートされているオペレーティングシステム  <br/> |Windows Server 2016、Windows Server 2019  <br/> |
+|サポートされている SQL Server  <br/> |SQL Server 2017、SQL Server 2019  <br/> |
    
 CQD は、Microsoft SQL Server、Microsoft SQL Server Analysis Services、Microsoft インターネットインフォメーションサービスを利用するため、CQD の最小ハードウェアおよびソフトウェア要件は、基本的にこれらの依存コンポーネントと同じです。 ただし、データの鮮度に関する組織の要件 (組織が生成する QoE データの量によって異なります) と展開コストに基づいて、追加の展開の考慮事項を行う必要があります。
   
@@ -240,6 +246,8 @@ CQD には、次のオペレーティングシステムが必要です。
 - Windows Server 2012 R2 と IIS 8.5
 
 - Windows Server 2016 (IIS 10.0) (Skype for Business Server 2019 CQD のみ)
+
+- Windows Server 2019 (Skype for Business Server 2019 CQD のみ)
     
 必要な IIS の役割サービス (階層順) を次に示します。
   
@@ -272,7 +280,7 @@ CQD には、次のオペレーティングシステムが必要です。
   - IIS 管理コンソール
     
 > [!NOTE]
->  上記の要件については、次の点に注意してください。 > 3.5 および4.5 バージョンの .Net framework を使用できます。 両方が必要です (特に、3.5 SP1 が必要です)。 > では、IIS をインストールする前に ASP.NET がセットアップされている場合、ASP.NET が IIS に登録されていない可能性があります。 この問題は、対応する .Net バージョンのアプリケーションプールがないこと、およびアプリプール構成で .NET CLR のバージョンが見つからないことによって発生します。 Windows Server 2008 R2 でこのような問題を修正する`%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`には、を実行します。 Windows Server 2012 および Windows Server 2012 R2 では、 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` execute を実行した後、IIS Manager の既定の Web サイトから "ServiceModel" モジュールを削除します。 > 管理ツールはオプションですが、推奨されています。
+>  上記の要件については、> 3.5 および4.5 バージョンの .Net framework を参照してください。 両方が必要です (特に 3.5 SP1 が必要です)。一部のシステムでは、ASP.NET が IIS のインストール前にセットアップされている場合、ASP.NET が IIS に登録されていない可能性があり > ます。 この問題は、対応する .Net バージョンのアプリケーションプールがないこと、およびアプリプール構成で .NET CLR のバージョンが見つからないことによって発生します。 Windows Server 2008 R2 でこのような問題を修正する`%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`には、を実行します。 Windows Server 2012 および Windows Server 2012 R2 では、 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45`実行後に、IIS Manager の既定の Web サイトから "ServiceModel" モジュールを削除します。 > 管理ツールはオプションですが、推奨されます。
   
 PowerShell を使用してこれらの要件をインストールするには、次の手順を実行します。
   
@@ -293,6 +301,8 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 - SQL Server 2016
 
 - SQL Server 2017
+
+- SQL Server 2019 (Skype for Business Server 2019 CQD のみ)
     
 パフォーマンス上の理由から、ビジネスインテリジェンスまたは Enterprise edition をお勧めします。 これらのエディションでは、並列処理できる複数のパーティションファイルを使用できます。これは、複数の月または長いデータを処理する場合に便利です。 
   

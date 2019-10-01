@@ -10,19 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 通話データコネクタを構成する手順を説明します。これにより、skype for Business オンプレミスのテレメトリを Skype for Business Online ツールを使用して表示できるようになります。
-ms.openlocfilehash: 1851e1e0c430107a27d706f7bc16ad974c5abaed
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 48af644523e9872107c814aa330d2af2d9a4272f
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36160669"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328376"
 ---
 # <a name="configure-call-data-connector"></a>通話データコネクタを構成する
 
-この記事では、Skype for Business Online 通話品質ダッシュボード (CQD) およびコール分析 (CA) ツールを使用して Skype for business Server の通話品質データを表示できるようにする単一のツールセットを、通話データコネクタを構成する方法について説明します。 
-
-> [!NOTE]
-> パブリックプレビューリリースでは、通話分析のダッシュボードのみを使用できます。
+この記事では、Skype for Business Online 通話品質ダッシュボード (CQD) およびコール分析 (CA) ツールを使用して Skype for business Server の通話品質データを表示できるようにする単一のツールセットを、通話データコネクタを構成する方法について説明します。
 
 コールデータコネクタの利点と前提条件 (ロール要件、ハイブリッド接続の設定など) の詳細については、「 [Plan Call Data connector](plan-call-data-connector.md)」を参照してください。
 
@@ -139,8 +136,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>オンラインダッシュボードを使用してオンプレミスデータを表示する
 
- Call Data Connector が有効になったら、「[通話分析を使用して品質低下のトラブルシューティングを行う](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)」で説明されているように、通話分析のダッシュボードでオンプレミスの通話データを表示できます。
-
+ Call Data Connector が有効になっている場合は、「 [call analytics を使用して品質低下のトラブルシューティングを](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)行う」および「通話品質ダッシュボードを有効にして使用する」で説明されているように、通話分析ダッシュボードまたは通話品質ダッシュボードでオンプレミスの通話データを表示できます。 [Microsoft Teams と Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)。
 
 ## <a name="for-more-information"></a>関連情報
 

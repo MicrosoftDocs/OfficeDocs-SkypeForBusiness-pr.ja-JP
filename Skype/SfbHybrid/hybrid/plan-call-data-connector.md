@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Online テレメトリツールを使用した、ハイブリッドシナリオでのオンプレミスの実装の監視の概要。
-ms.openlocfilehash: dc129ed99e1ed69e3faf5d2a7b6923f818c482eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3300ad17b109ac069c4f7382f610dd0214b30197
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160655"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328429"
 ---
 # <a name="plan-call-data-connector"></a>通話データコネクタを計画する
 
@@ -23,8 +23,6 @@ ms.locfileid: "36160655"
 
 このトピックでは、Skype for Business Server Call Data Connector を実装する場合の利点、計画に関する考慮事項、および要件について説明します。 通話データコネクタの構成の詳細については、「 [Configure Call Data connector](configure-call-data-connector.md)」を参照してください。
 
-> [!NOTE]
-> パブリックプレビューリリースでは、通話分析のダッシュボードのみを使用できます。
 
 通話データコネクタを使用すると、ユーザーの通話品質をすべて監視するためにオンプレミスとオンラインツールの異なるセットを使用する必要がなくなるため、ハイブリッド環境での通話監視が大幅に簡素化されます。 ユーザーがオンプレミスまたはオンラインに所属しているかどうかにかかわらず、組織全体の通話品質をオンラインで表示するように選択できます。
 
@@ -73,6 +71,8 @@ Call Analytics and CQD tools を使用すると、次のように、通話の品
 
 > [!IMPORTANT]
 > フロントエンドプールで監視が有効になっていない場合、Call Data Connector は機能しません。
+
+- [サーバー間認証](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications)が正しく構成されている。 
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>オンプレミスとオンライン通話品質ダッシュボード (CQD) レポートの比較
 

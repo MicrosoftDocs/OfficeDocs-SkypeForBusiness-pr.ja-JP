@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2c7bae819037d0140fab1fed3625e250b8a4c1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b095beaae7e102f49bc02f6193095b751081db19
+ms.sourcegitcommit: 7d9ed878839609a3bd1f14114423df775a99f790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241789"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37318836"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -39,6 +39,7 @@ Microsoft Teams を所有しているユーザーと、Office 2010、Office 2013
 > [!NOTE]
 > - Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
 > - Windows 7 ユーザーは、Teams 会議アドインを使用するために windows の[windows でユニバーサル C ランタイムの更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
+> - Microsoft Store から Office Outlook インストールを使用している場合、Teams 会議アドインはサポートされていません。 このアドインを必要とするユーザーは、 [Windows 10 S モードに関する](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)記事の説明に従って、Office のクイック実行バージョンをインストールすることをお勧めします。 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Outlook for Mac の Teams 会議アドイン
 

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 のリソースアカウントをセットアップします。
-ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 0439532eba2639dc836f62fff94531d4930f03e0
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790863"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328301"
 ---
 # <a name="configure-resource-accounts"></a>リソースアカウントを構成する
 
 Skype for Business Server 2019 ハイブリッド実装では、ユニファイドメッセージング用の電話システムで提供されるクラウドサービスのみを使用し、Exchange Online とは統合されません。 Skype for Business Server 2019 では、「 [Office で電話システムを](/MicrosoftTeams/here-s-what-you-get-with-phone-system)使用する方法」で説明されているクラウド通話キューと自動応答を使用できるようになりました365。
 
-Skype for Business Server 2019 で電話システムの自動応答または通話キューを使用するには、アプリケーションエンドポイントとして機能し、電話番号を割り当てることができるリソースアカウントを作成する必要があります。その後、オンライン Teams 管理センターを使用して、通話キューを構成するか、または自動応答。 このリソースアカウントは、この記事に記載されているように、オンラインにすることができます (「 [Microsoft Teams で](/MicrosoftTeams/manage-resource-accounts)リソースアカウントを管理する」を参照して、オンラインでリソースアカウントを作成してください)。 通常、複数の電話システムの自動応答または通話キューノードがあります。各ノードは、オンラインまたは Skype for Business Server 2019 に所属するリソースアカウントにマップされます。
+Skype for Business Server 2019 で電話システムの自動応答または通話キューを使用するには、アプリケーションエンドポイントとして機能し、電話番号を割り当てることができるリソースアカウントを作成する必要があります。その後、オンライン Teams 管理センターを使用して、通話キューを構成するか、または自動応答。 このリソースアカウントは、この記事に記載されているように、オンラインにすることができます (「 [Microsoft Teams で](/MicrosoftTeams/manage-resource-accounts)リソースアカウントをホームにする」を参照してください)。 通常、複数の電話システムの自動応答または通話キューノードがあります。各ノードは、オンラインまたは Skype for Business Server 2019 に所属するリソースアカウントにマップされます。
 
 既存の Exchange UM 自動応答と呼び出しキューシステムがある場合は、Exchange Server 2019 または Exchange online に切り替える前に、以下の説明に従って詳細を手動で記録し、Teams 管理センターを使用して完全に新しいシステムを実装する必要があります。.
 
@@ -119,7 +119,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>電話番号なしでリソースアカウントを作成する
 
-このセクションでは、オンプレミスのリソースアカウントを作成する方法について説明します。 オンラインに所属するリソースアカウントを作成する方法については、「 [Manage resource accounts In Microsoft Teams」](/MicrosoftTeams/manage-resource-accounts)をご説明します。
+このセクションでは、オンプレミスに所属するリソースアカウントを作成する方法について説明します。 オンラインに所属するリソースアカウントを作成する方法については、「 [Manage resource accounts In Microsoft Teams」](/MicrosoftTeams/manage-resource-accounts)をご説明します。
 
 これらの手順は、新しい電話システムの自動応答または呼び出しキューの構造を作成しているか、Exchange UM で作成された元の構造を再構築している場合に必要です。
 

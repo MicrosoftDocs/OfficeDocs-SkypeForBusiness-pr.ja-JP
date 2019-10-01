@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062892"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305687"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -63,7 +63,7 @@ ms.locfileid: "37062892"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|チーム所有者としてコネクタを削除することができない  <br/> |[Allow members to create, update, and remove connectors (メンバーがコネクタを作成、更新、削除することを許可する)] が無効になっているときに、コネクタを追加することができる所有者がコネクタを削除しようとすると、ユーザーにその操作を行うためのアクセス許可がないことを示すエラー メッセージが表示されます。 <br/> |一時的に [Allow members to create, update, and remove connectors (メンバーがコネクタを作成、更新、削除することを許可する)] を有効にします。  <br/> |2018 年 7 月 27 日  <br/> |
+|チーム所有者としてコネクタを削除することができない  <br/> |[メンバーにコネクタの作成、更新、および削除を許可します] が無効になっているときに、コネクタを追加することができる所有者がコネクタを削除しようとすると、ユーザーにその操作を行うためのアクセス許可がないことを示すエラー メッセージが表示されます。 <br/> |一時的に [Allow members to create, update, and remove connectors (メンバーがコネクタを作成、更新、削除することを許可する)] を有効にします。  <br/> |2018 年 7 月 27 日  <br/> |
 
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -76,6 +76,8 @@ ms.locfileid: "37062892"
 |ダイヤル アウトのコントロールが断続的に表示されない。  <br/> |ダイヤル アウトのコントロールが会議情報パネルで表示されない場合がある。  <br/> |回避策なし。  <br/> |9/25/2017  <br/> |
 |静的会議 ID が Microsoft Teams 会議でサポートされない。  <br/> |管理者が既定の設定を動的会議 ID から静的会議 ID に上書きすると、その設定が Microsoft Teams 会議で有効になりません。「[組織での電話会議の動的 ID を使用する](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)」をご覧ください。  <br/> |回避策なし。  <br/> |9/25/2017  <br/> |
 |Skype for Business オンプレミス ユーザーは PSTN 会議の座標を使用できません  <br/> |Skype for Business Online、電話会議、および Teams ライセンスが割り当てられているユーザーが Skype for Business オンプレミス ユーザーの場合、Teams を使用してスケジュールされているすべての会議には、PSTN 会議の座標は含まれません。 <br/> |回避策なし。  <br/> |2/1/2018  <br/> |
+
+| [今すぐ会議] のクラウド ビデオの相互運用  <br/> |既存の CVI ライセンスを使用して Microsoft Teams の会議の [今すぐ会議] インスタンスを作成すると、CVI 情報は入力されません。 <br/> |会議をスケジュールして、この情報を入力することをお勧めします。  <br/> 2019 年 6 月 11 日  <br/> |
 
 ## <a name="authentication"></a>認証
 
@@ -315,6 +317,10 @@ ms.locfileid: "37062892"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |Teams から削除されているユーザーがいる場合に、監査ログで開始者として報告されるユーザー名が正しくない場合がある。  <br/> |Teams のチームは AAD での最新グループです。Teams のユーザー インターフェイスを介してメンバーを追加/削除すると、フローではどのユーザーが変更を開始したかを正確に把握されており、監査ログに正しい情報が反映されます。ただし、ユーザーが AAD を介してメンバーを追加/削除すると、その変更は Teams のバックエンドと同期されますが、そのアクションをどのユーザが開始したかについては伝えられません。Microsoft Teams では、開始者としてチームの最初の所有者が選ばれてしまい、それが監査ログにも反映されてしまいます。    <br/> |  <br/> |2018 年 5 月 11 日  <br/> |
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|Teams のボイスメールは、SIP コールの場合、SPF 失敗で到着します。ユーザーへの PSTN コールの場合、正しい値のない From 属性で到着します。顧客が SPT ボイスメールを分析するルールを持っている場合、ETR が決定するアクションを持ちます。 <br/> | <br/> | 2019/8/29 の回避策では、メッセージがボイスメールの場合、ETR に例外を追加します。
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
