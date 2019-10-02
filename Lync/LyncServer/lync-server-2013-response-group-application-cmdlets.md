@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 応答グループのアプリケーションコマンドレット'
+title: 'Lync Server 2013: 応答グループ アプリケーションのコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,7 +12,7 @@ manager: serdars
 mtps_version: v=OCS.15
 ms.openlocfilehash: 5a20f0d9bc23acfb564de220e944b6886daee11c
 ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/11/2019
 ms.locfileid: "34823197"
@@ -23,7 +23,7 @@ ms.locfileid: "34823197"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="response-group-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の応答グループアプリケーションコマンドレット
+# <a name="response-group-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の応答グループ アプリケーションのコマンドレット
 
 </div>
 
@@ -33,26 +33,26 @@ ms.locfileid: "34823197"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-26_
+_**トピックの最終更新日:** 2012-06-26_
 
-応答グループアプリケーションは、着信通話をエージェントのグループにルーティングするエンタープライズ音声通話管理機能です。
+応答グループ アプリケーションはエンタープライズ VoIP の通話管理機能で、着信をエージェントのグループにルーティングします。
 
 <div>
 
-## <a name="response-group-application-cmdlets"></a>応答グループのアプリケーションコマンドレット
+## <a name="response-group-application-cmdlets"></a>応答グループ アプリケーションのコマンドレット
 
-応答グループアプリケーションを管理するために、次のコマンドレットを使用できます。
+次のコマンドレットを使用して、応答グループ アプリケーションを管理できます。
 
-**応答グループのアプリケーション**
+**応答グループ アプリケーション**
 
   - <span></span>  
     [Get-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425793(v=OCS.15))
 
   - <span></span>  
-    [新規-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))
+    [New-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))
 
   - <span></span>  
-    [削除-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))
+    [Remove-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))
 
   - <span></span>  
     [Set-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425955(v=OCS.15))
@@ -60,17 +60,17 @@ _**最終更新日:** 2012-06-26_
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))
+    [New-CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [インポート-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))
+    [Import-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))
+    [New-CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))
 
 <!-- end list -->
 
@@ -92,7 +92,7 @@ _**最終更新日:** 2012-06-26_
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))
+    [New-CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))
 
 <!-- end list -->
 
@@ -114,7 +114,7 @@ _**最終更新日:** 2012-06-26_
     [Get-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398284(v=OCS.15))
 
   - <span></span>  
-    [新規-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))
+    [New-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))
 
   - <span></span>  
     [Remove-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398568(v=OCS.15))
@@ -125,12 +125,12 @@ _**最終更新日:** 2012-06-26_
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))
+    [New-CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))
+    [New-CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))
 
 <!-- end list -->
 
@@ -138,10 +138,10 @@ _**最終更新日:** 2012-06-26_
     [Get-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412759(v=OCS.15))
 
   - <span></span>  
-    [新規-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))
+    [New-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))
 
   - <span></span>  
-    [削除-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))
+    [Remove-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))
 
   - <span></span>  
     [Set-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412947(v=OCS.15))
@@ -149,7 +149,7 @@ _**最終更新日:** 2012-06-26_
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))
+    [New-CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))
 
 <!-- end list -->
 
@@ -157,10 +157,10 @@ _**最終更新日:** 2012-06-26_
     [Get-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425766(v=OCS.15))
 
   - <span></span>  
-    [新しい-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))
+    [New-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))
 
   - <span></span>  
-    [削除-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))
+    [Remove-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))
 
   - <span></span>  
     [Set-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425845(v=OCS.15))
