@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: クラウドの自動応答の概要とその使用方法について説明します。
-ms.openlocfilehash: b3541ad88f29727d07043cba46503d040e6434c0
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: fd1fd053c0ecab8e0a36835f6d26127db91431be
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35536006"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375689"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>クラウドの自動応答とは？
 
@@ -90,7 +90,6 @@ Office 365 で電話システムの自動応答を設定するには、「[ク�
 > 音声認識で名前でダイヤルを使用していても、組織の Active Directory が8万ユーザーよりも大きく、ダイヤルスコープ機能を使って名前でダイヤルの範囲を制限していない場合は、電話のキーパッドを使って発信者に名前でダイヤルすることができます。および音声入力は、他のすべてのシナリオで利用できます。 ダイヤル範囲機能を使用して、名前でダイヤル機能の範囲を変更することによってアクセスできる名前を、特定の自動応答に絞り込むことができます。
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>名前でダイヤル - キーパッド (DTMF) 入力
-
 通話相手は、名前でダイヤルすることで、ユーザーに連絡する相手の完全名または一部名のいずれかを指定することができます。 名前を入力するときに使用できるさまざまな形式があります。
 
 組織のディレクトリを検索する場合、ユーザーは "0" (ゼロ) キーを使用して名と姓または名の間にスペースを指定できます。 ユーザーが名前を入力すると、キーパッドのエントリを # キーで終了するかどうかをたずねるメッセージが表示されます。 たとえば、"通話相手の名前を入力した後、#." と入力します。 見つかった名前が複数ある場合は、そのユーザーに対して選択する名前の一覧が表示されます。

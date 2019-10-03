@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6db5146248157893a26f62fb6e01fb020a67f70
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 74eb3ab344dae0bd60e9b5c82199ef3dd51975c5
+ms.sourcegitcommit: 6cee93b799f60f19513c29e8c16fa67c4de028fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018836"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37341870"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
@@ -71,9 +71,9 @@ Teams を含む Office 365 ライセンスを所有していないユーザー�
 
 ## <a name="manage-the-trial"></a>試用版の管理
 
-試用版のライセンスには、管理者によって割り当てられたその他のサブスクリプションの取得と同じ方法が割り当てられます。 詳細については、「[Office 365 for businessライセンスをユーザーに割り当てる](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)」を参照してください。 
+Teams 試用版は個々のエンド ユーザーが開始するためのものであり、エンド ユーザーの従業員に代わって Teams 試用版の提供を開始することはできません。
 
-さらに、管理者はエンド ユーザーが組織内で試用版アプリおよびサービスを要求できないようにすることも可能です。 現時点では、この記事で説明している試用版が、このカテゴリの唯一の試用版ですが、将来、別の同様のプログラムに適用される可能性があります。 
+管理者はエンド ユーザーが組織内で試用版アプリおよびサービスを要求できないようにすることも可能です。 現時点では、この記事で説明している試用版が、このカテゴリの唯一の試用版ですが、将来、別の同様のプログラムに適用される可能性があります。 
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>ユーザーが試用版アプリおよびサービスをインストールできないようにする
 

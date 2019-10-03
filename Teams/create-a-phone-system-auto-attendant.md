@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 0cac6b1bb7d19e91e4042bcb0673f6c677e77d2e
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349251"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375711"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -211,14 +211,15 @@ ms.locfileid: "37349251"
 
     > [!Note]
     > **会社内の**ユーザーは、Skype For business Server または Lync server 2013 を使用してオンプレミスでホストされているユーザーまたはオンラインユーザーになることができます。
-    - その他の**自動応答**
+
+  - その他の**自動応答**
 
        既存の自動応答を使って、サブメニューを含む第2レベルのメニューオプションを作成できます。 これらは入れ子の自動応答と呼ばれます。 ネストされた自動応答に通話を送信するには、[**会社内のユーザー** ] を選び、関連付けられた自動応答を既に持っているリソースアカウントか、この自動応答の作成が完了したら、自動応答に関連付ける1つのリソースアカウントを割り当てます。
 
         > [!Note]
-        > 入れ子 (または第 2 レベル) の自動応答の **営業時間** も使用されます。これには、セットアップされた他の自動応答から送信された呼び出しへ向けたものも含まれます。
+        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-       - **音声アプリケーション**既に作成されている通話キューまたは自動応答に関連付けられているリソースアカウントの名前を選択します。
+    - **音声アプリケーション**既に作成されている通話キューまたは自動応答に関連付けられているリソースアカウントの名前を選択します。
 
 * * *
 
@@ -231,6 +232,8 @@ ms.locfileid: "37349251"
 選択が完了したら、[**次へ**] をクリックします。
 
 #### <a name="holiday-call-settings"></a>ホリデーシーズン通話の設定
+
+<a name="holidaygreetings"> </a>
 
 各自動応答には、最大 20 個の決められた休業日を追加できます。
 
@@ -283,6 +286,7 @@ ms.locfileid: "37349251"
     > [!Note]
     > 既定では、休業期間中に着信したすべての呼び出しは、応答メッセージの後に切断されます。よって、違うビヘイビアーが望ましい場合には、リダイレクトを指定する必要があります。
 
+<a name="dialscope"></a>
 #### <a name="select-dial-scope-page"></a>ダイヤルの範囲を選択ページ
 
 このページでは、組織内のユーザーが自分の組織に電話をかけているユーザーに対して、自分のディレクトリに一覧表示され、名前でダイヤルできるように設定することができます。
