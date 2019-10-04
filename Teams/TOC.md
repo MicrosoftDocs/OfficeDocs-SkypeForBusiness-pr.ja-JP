@@ -660,7 +660,7 @@
 
 # ハイブリッド接続 
 
-## [ハイブリッド接続のプラン](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [ハイブリッド接続のプラン](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## ハイブリッド接続の構成
 ### [概要](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
@@ -673,7 +673,7 @@
 ### [ユーザーをオンプレミスから Skype for Business Online に移動する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [ユーザーをクラウドからオンプレミスに移動する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [会議の移行を管理する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [会議の移行を管理する](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
 ## [ハイブリッドを無効にしてクラウドへの移行を完了する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -698,6 +698,7 @@
 # 業界および政府機関向けのガイダンス
 ## [概要](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
+## [現場担当者向けのクイックスタート](firstline-workers-quickstart.yml)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub はまもなく廃止予定です](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft StaffHub PowerShell モジュールをインストールする](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
