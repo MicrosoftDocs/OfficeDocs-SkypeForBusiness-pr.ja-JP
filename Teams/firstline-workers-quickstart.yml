@@ -1,0 +1,121 @@
+### YamlMime:Tutorial
+title: Firstline Worker クイックスタートガイド
+metadata:
+  title: Firstline Worker クイックスタートガイド
+  description: アジャイルの原則と反復的なアプローチに基づいて、Firstline Worker の効果的なパイロットをセットアップします。
+  audience: IT Pro
+  level: Intermediate
+  displayType: one-column
+  ms.author: heidip
+  ms.reviewer: keschm
+  manager: serdars
+  ms.date: 02/09/2019
+  ms.service: msteams
+  ms.topic: tutorial
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.collection:
+  - Teams_ITAdmin_PracticalGuidance
+  - Teams_ITAdmin_Training
+  - M365-collaboration
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 3ded0147624291af1555dbec31d2c34fa950c6bd
+  ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
+  ms.translationtype: MT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 10/04/2019
+  ms.locfileid: "37391465"
+items:
+- durationInMinutes: 2
+  content: >
+    このトレーニングでは、アジャイル原則と反復的アプローチに基づいて、Firstline Worker の効果的なパイロットを設定する方法について説明します。
+
+    > [!NOTE]
+
+    > この作業を開始する前に、[チームの前提条件と環境の依存関係](upgrade-plan-journey-prerequisites.md)を確認して完了してください。
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
+
+
+    このトレーニングは、次のようなお客様を対象としています。
+
+    -   IT 専門家。
+
+    -   Firstline worker のチームを計画、展開する責任を負います。
+
+
+    次のセクションが含まれます。
+
+    -   人々をまとめる
+
+    -   パイロット物流の計画
+
+    -   技術およびパイロットによるチーム構成
+
+    -   伝える
+
+    -   指標
+
+    -   反復して展開する
+
+
+    次に関する情報は対象外です。
+
+    -   このコンテンツでは、Firstline Worker のパイロット用にチームを準備する方法に関するドキュメントを参照していますが、全体的なチーム構成はこの記事の範囲外です。
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
+
+
+    このトレーニングについてご質問やフィードバックがある場合は、次の方法でお送りください。
+
+
+    -   このチュートリアルの「次のステップ」ページの下部にあるコメント セクションから投稿してください
+
+
+    新機能のアイディアなど、Teams に関する製品フィードバックをご提供いただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。
+- title: 人々をまとめる
+  durationInMinutes: 4
+  content: "\nビジネス、IT、および Firstline コミュニティの個人グループを結成して、チームパイロットとして Firstline 員向けのステークホルダーと意思決定グループとして行動します。 以下の3つのコミュニティの個人をすべて追加して、成功を最大限に活用してください。\n\n次に、フェーズ1パイロットのコミュニティを特定し、組織の最小の論理グループ化に実際の Firstline 員が含まれていることを確認します。 たとえば、1つのレストラン、デパートの1つの事業所、1つのストア、1つの臨床ワード、1つのプラント、1つの工場、1つの配布センターなどのようになります。 重要なのは、1つのチームに参加している平均 Firstline worker を最適化することです。 管理者または専門家が複数の場合があります。\n\n### <a name=\"best-practice\"></a>ベストプラクティス\n重要な洞察を明らかにして先進のコミュニケーションシナリオを実現するには、その最小の論理的なグループ内のすべての役割を、管理者からパートタイム、または季節的な従業員に含めることが重要です。 最も人気のある人材が驚いています! サンプルのお客様を対象としたパイロットでは、いくつかの重要な楽しいと意図しない重要なシナリオが含まれます。\n-   標準化された期待とトレーニング: 台所にすっきりした画像を撮影して、さまざまな方法を紹介します。 「このように表示されない場合は、クリーンではありません。」\n\n-   収縮の削減: 既知の放送プランの写真を撮影し、他の従業員にすぐに通知します。 今後のシフトのチームも、将来のリスクを軽減するためにこの画像が表示されます。\n\n### <a name=\"decision-point\"></a>判断ポイント\nこのフェーズの終了時に、次の質問に答えることができます。\n-   パイロットには誰が参加しますか?\n\n-   組織の最小の論理グループについて教えてください。\n"
+- title: パイロット物流の計画
+  durationInMinutes: 4
+  content: "\nFirstline Worker のパイロットを成功させるには、簡潔さが重要です。 ほとんどのお客様には、通常、会社がサポートしている通信やコラボレーションテクノロジは提供されていませんが、いくつかの基本的なニーズを達成するためにサポートされていないコンシューマーツールを既に利用しています。 推奨されるベストプラクティスとして、ユーザーの作業を開始し、現在コンシューマーツールで使用している機能を模倣することをお勧めします。 パイロットが進行し、反復処理が開始されると、エクスペリエンスを拡大できます。\n\n### <a name=\"not-sure-what-consumer-tools-these-users-are-currently-using\"></a>これらのユーザーが現在使用しているコンシューマーツールの種類がわからない場合\nFirstline Worker の \"パイロット\" ボックスには、サンプルのユーザーアンケートが含まれています。 パイロット前の調査を利用して、ツール、機能、シナリオをインベントリします。\n\n### <a name=\"chat-configuration-options\"></a>チャット構成オプション\nモバイルでは、チャット内で、Teams の一般的な従来のチャットレイアウトを使用できます。また、チャットでお気に入りのチャンネルを含むレイアウトを設定することもできます。 この2つ目の簡略化された UI は、1つのチームのみを対象としていて、ベストプラクティスとして推奨される最初のラインワーカーに適しています。 「お気に入りのチャンネルをチャットで表示する」を設定すると、最初の行の Worker アプリセットアップポリシーから「Teams」ボタンを削除して、機能が失われることなく、エンドユーザの操作性をさらに合理化し、シンプルにすることができます。 複数のチームに参加するユーザーの場合は、この方法はお勧めできません。 さいわい、これはユーザーごとに構成し、必要に応じて洗練されたものにすることができます。\n\n### <a name=\"best-practice\"></a>ベストプラクティス\nユーザーが既に使用しているコンシューマーツールに似たように、Firstline Teams エクスペリエンスのフェーズ1を構成します。 簡単な通信とシフトを行うには、Firstline Worker のパイロットに「チャットでお気に入りのチャンネルを表示」を使用することをお勧めします。\n\n|  シフト付き  |  シフトなし  |\n|---------------|------------------|\n|![[シフト] オプションが下部に追加された電話の画面の画像。](media/firstline-worker-chat-with-shifts.png)    |![下のバーに [シフト] オプションが追加されていない電話の画面の画像。](media/firstline-worker-chat-without-shifts.png)|\n\n### <a name=\"decision-points\"></a>判断ポイント:\n\n-  Firstline Worker のパイロットのフェーズ1では、どの機能が使用されますか?\n-  最初のラインワーカーにはシフトが必要ですか?\n-  どのチャット構成を使用しますか?\n"
+- title: 技術およびパイロットによるチーム構成
+  durationInMinutes: 25
+  content: "\nここでは、このドキュメントの最初で強調表示されている技術的前提条件[と、Teams の環境依存関係](upgrade-plan-journey-prerequisites.md)についてご確認ください。 技術上の前提条件を理解し、初期試験的なチームを構成する効率的な技術計画は、優れたユーザーエクスペリエンスの基盤となります。 これには、チームの作成と、特定された Firstline Worker の招待が含まれます。\n\n### <a name=\"app-policy-configuration\"></a>アプリポリシーの構成\n手順2の決定に基づいて、カスタムアプリのセットアップポリシーを作成します。\n\n1. で[https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)見つかった Skype と Teams の管理コンソールに移動します。\n1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ > セットアップポリシー**] に移動します。\n1. [**新しいポリシー** ] を選びます (カスタムポリシーの作成の代わりに使用できる既定の FirstLineWorker ポリシーが存在します)。\n1. ポリシーのわかりやすい名前を入力します。 固定されたアプリを削除して、目的の状態に合わせて再配置します。 [**アプリの追加**] をクリックして、サードパーティ製のアプリケーションやカスタムの基幹業務アプリケーションを追加します。\n\n![固定されたアプリの一覧。](media/firstline-worker-pinned-apps.png)\n\n### <a name=\"messaging-policy-configuration\"></a>メッセージングポリシーの構成\n手順2の決定に基づいて、カスタムメッセージングポリシーを作成します。 優先通知、音声メッセージ、または「お気に入りのチャンネルをチャットで表示」の設定を有効にする場合は、Firstline Worker 固有のメッセージポリシーを設定する必要があります。\n\n1. で[https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)見つかった Skype と Teams の管理コンソールに移動します。\n1. Microsoft Teams 管理センターの左のナビゲーションで、[**メッセージングポリシー**] に移動します。\n1. [**新しいポリシー**] を選びます。\n1. ポリシーのわかりやすい名前を入力し、必要に応じて、手順2の決定に合わせて設定を構成します。\n\n### <a name=\"pilot-team-configuration\"></a>パイロットチームの構成\n手順2で特定したパイロットユーザーの最初のチームを構成します。\n1. で[https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)見つかった Skype と Teams の管理コンソールに移動します。\n1. Teams に移動します。\n\n![[チーム] メニューの選択](media/firstline-worker-teams-bar.png)\n\n3. [チーム] ページから [**新しいチーム**] を選択します。\n\n![Teams ページ](media/firstline-worker-teams-page.png)\n\n4. [チーム名]、[説明] などの必須フィールドに入力し、適切なチーム所有者とプライバシーレベルを選択します。 チーム名について説明していることを確認し、複数のチームにパイロットを展開することを想定してください。 [**チームの作成**] を選びます。\n\n![チームが新しいチームメニューを作成します。](media/firstline-worker-create-new-team.png)\n\n5. 作成したチームを選択して、[**チームの詳細**] ページを開きます。\n\n![Teams の詳細ページ。](media/firstline-worker-team-details-page.png)\n\n6. [**チャネル**] を選択して、チャネルの現在の一覧を表示します。\n7. [**チャネルの追加**] を選択して、パイロットグループに必要と思われるその他のチャネルを一般的なチャネルに追加します。\n![チームの [チャネル選択の追加] ウィンドウ。](media/firstline-worker-add-channel.png)\n\n### <a name=\"decision-point\"></a>判断ポイント\n\n-  パイロットのために必要なチャネル/会話トピックはいくつですか?\n-  シナリオに適したトピックはどれですか?\n\n### <a name=\"best-practice\"></a>ベストプラクティス\n**チャネルをシンプルな状態に保ち**ます。 利用可能な会話のすべてのトピックについてチャネルを作成することを勧めることをお勧めします。 必要に応じて、チャネルが作成された場合は、このようになります。\n  \n![[チャネル] タブのコンテンツは Teams に表示されます。](media/firstline-worker-channels-tab.png)\n\n### <a name=\"user-configuration-admin-console\"></a>ユーザー構成: 管理コンソール\n上で作成したアプリのセットアップポリシーとメッセージング設定ポリシーをパイロットユーザーに適用します。\n1. で[https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)見つかった Skype と Teams の管理コンソールに移動します。\n1. ユーザーに移動します。\n\n![Teams ユーザーメニューの選択](media/firstline-worker-users-bar.png)\n\n3. パイロットユーザーの名前を検索します。\n\n![Teams のユーザー情報ページ。](media/firstline-worker-users-page.png)\n\n4. ユーザーの表示名をクリックして、ユーザーの詳細画面を開きます。\n5. [割り当てられたポリシー] の横にある [**編集**] を選びます。\n\n![Teams ユーザーの詳細ページ。](media/firstline-worker-user-details-page.png)\n\n6. **Teams アプリセットアップポリシー**のドロップダウンボックスをクリックして、パイロット用に作成したポリシーを選択し、[保存] をクリックします。\n7. [ **Teams メッセージポリシー** ] ドロップダウンをクリックして、パイロット用に作成したポリシーを選択し、[保存] をクリックします。\n\n![Teams の [ユーザーポリシーの編集] ウィンドウ。](media/firstline-worker-edit-user-policies.png)\n\n8. すべてのパイロットユーザーに対して、この手順を繰り返します。\n\n### <a name=\"user-configuration-powershell\"></a>ユーザー構成: Powershell\nこのように、ポリシーを適用するユーザーが大量にある場合は、より効率的な方法で PowerShell を使用することができます。\n\n#### <a name=\"assign-the-firstlineworker-app-setup-policy-to-users-in-a-group\"></a>FirstLineWorker アプリのセットアップ ポリシーをグループ内のユーザーに割り当てる\nAzure Active Directory PowerShell for Graph モジュールおよび Skype for Business PowerShell モジュールに接続することで、セキュリティ グループなどのグループ内のユーザーに FirstLineWorker アプリのセットアップ ポリシーを割り当てることができます。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。\nこの例では、恵比寿 Contoso Store 1302 グループ内のすべてのユーザーに FirstLineWorker アプリセットアップポリシーを割り当てます。\n\n> [!NOTE]\n> 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。\n\n特定のグループの GroupObjectId を取得します。\n`$group = Get-AzureADGroup -SearchString \"Bellevue Contoso Store 1302\"`\n\n指定したグループのメンバーを取得します。\n`$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq \"User\"}`\n\nFirstLineWorker アプリのセットアップ ポリシーにグループ内のすべてのユーザーを割り当てます。\n`$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName \"FirstLineWorker\" -Identity $_.EmailAddress}`\nグループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。\n\n#### <a name=\"invite-the-manager-and-firstline-workers\"></a>上司と FirstLine ワーカーを招待する\nチームの構造が整っていて、ユーザーポリシーが適用されている場合は、最初の行のワーカーの招待を開始する時間になります。\n1. で[https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)見つかった Skype と Teams の管理コンソールに移動します。\n1. Teams に移動します。\n\n![[チーム] メニューの選択](media/firstline-worker-teams-bar.png)\n\n3. パイロットチーム構成フェーズで作成したチームを検索します。\n4. 作成したチームを選択して、[チームの詳細] ページを開きます。\n\n![Teams の詳細ページ。](media/firstline-worker-team-details-page.png)\n\n5. [**メンバーの追加**] を選びます。\n6. パイロットメンバーの名前を検索し、[**保存**] をクリックします。\n"
+- title: 伝える
+  durationInMinutes: 1
+  content: "\nパイロット、パイロット目標、および必要に応じてトレーニングを提供し、基本的な機能については、Firstline 者に通知します。 ほとんどのお客様にとって、これは、これらのユーザーが自分の個人用モバイルデバイスで Google Play または Apple Store に移動し、Microsoft Teams アプリケーションをダウンロードして会社の資格情報を使ってログインするための簡単な手順です。 Microsoft Teams では、最も多くの Firstline 員が直感的に見つけられるように、簡単で使いやすいインターフェイスが採用されました。 その他のトレーニング資料やコミュニケーションテンプレートが必要な場合は、Firstline のパイロットでもボックスで見つけることができます。\n\n### <a name=\"best-practice\"></a>ベストプラクティス\n上司をシフトでトレーニングすることを忘れないでください。 パイロットにシフトを含める場合は、スケジュールを作成、管理、チームに発行する方法について、管理者とは別のトレーニングセッションを実施してください。 その他のトレーニング資料やコミュニケーションテンプレートが必要な場合は、Firstline のパイロットでもボックスで見つけることができます。\n"
+- title: 指標
+  durationInMinutes: 1
+  content: "\nFirstline Worker を強力に活用することは、技術よりも多くの人についてのことです。 チームの影響を理解するために、最初のラインワーカーのエクスペリエンスを常に重視します。 パイロットの前後に調査して、パイロットのニーズ、問題点、および反応を理解することができます。 パイロットを反復して、新しい機能を時間の経過と共に追加している場合は、このフィードバックにより、順序、ペース、または追加の機能が必要かどうかについてのガイドを作成できます。 パイロットが成功したかどうかを評価するために、最初のラインパイロットでボックス内に検索することができます。\n### <a name=\"best-practice\"></a>ベストプラクティス\n**Nurture を利用し**て、お客さまの勝ちを強調してください。 これらの新しいツールを採用し、会社のビジネスの成果に関連する革新的な方法でそれらを使用するために、Firstline 員に報酬を提供します。 これについては、今後もチームと価値を会社に導入することになります。\n"
+- title: 反復処理
+  durationInMinutes: 1
+  content: "\n最初のパイロットが最初の最初の従業員グループに合格したので、次のようにします。 次のいずれかの展開オプションを使用して、手順1に戻ります。 このプロセスは、必要に応じてさまざまな方法で対処することをお勧めします。これには、すべての Firstline Worker のソリューション、ベストプラクティス、トレーニングドキュメントが必要になります。\n\n-   Teams の数を拡大する\n    -   1つの場所ではなく、1つの地域を使用できますか。 地域全体に対して1つのチームを作成しますか。または各場所の個々のチームを作成しますか。\n-   提供されている機能を展開します。\n   -   最初の行の作業者が、初期機能セットに含まれていないシフトなどのフィードバックフォームを提案するための重要な機能がありましたか?\n"
+- title: 次のステップ
+  durationInMinutes: 1
+  content: >-
+    このトレーニングでは次の重要な学習事項を取り上げています。
+
+    -   Teams での firstline worker パイロットの計画
+
+    -   パイロットの設定
+
+    -   パイロット実装に基づく通信、測定、イテレーション
+
+
+    ### <a name="next-steps"></a>次のステップ
+
+
+    1.  組織の frontline ワーカーニーズの変化に応じて、引き続き Teams を使用します。
+
+    2.  フィードバックを送信してください。
+        - このページの下部にあるコメント セクションから投稿してください。
+        - Teams 製品のフィードバックまたは新しい機能のリクエストを送信するには、[Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public) に移動してください
+    3.  最新の状態に保つ:
+        - Teams の[ブログ](https://aka.ms/teamsblog)に従います。
+        - Teams の[ロードマップ](https://aka.ms/O365Roadmap)をご覧ください。
+        - [リリースノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)でリリースされた最新機能について説明します。
+    4.  [その他のトレーニングおよびチュートリアル](https://aka.ms/Teamsacademy)を探索してください。

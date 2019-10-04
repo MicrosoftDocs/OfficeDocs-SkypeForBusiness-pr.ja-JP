@@ -3,10 +3,9 @@ title: 会議ポリシーを管理する
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: sonua, shalenc
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
@@ -22,19 +21,19 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: eff7eb41b5dccba299f8650c5771b33df04e719b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f926704a256bbea551d4aaa32bd98ba87322930c
+ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236623"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37391446"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
 ::: zone target="docs"
 会議ポリシーは、組織内のユーザーによってスケジュールされている会議の参加者が使用できる機能を制御するために使用されます。 ポリシーを作成して変更を行うと、そのポリシーにユーザーを割り当てることができます。 会議ポリシーは、Microsoft Teams 管理センターまたは[PowerShell を使用](teams-powershell-overview.md)して管理します。
 
-ポリシーを実装するには、次のような方法があります。これは、会議の開始前、会議中、または会議中にユーザーの会議の操作に影響します。 
+ポリシーを実装するには、次のような方法があります。これは、会議の開始前、会議中、または会議中にユーザーの会議の操作に影響します。
 
 |実装の種類  |説明  |
 |---------|---------|
@@ -124,9 +123,9 @@ ms.locfileid: "36236623"
 
 これはユーザーごとのポリシーであり、会議が開始される前に適用されます。 この設定は、ユーザーが Teams のチャネルで会議をスケジュールできるかどうかを制御します。  この設定を無効にした場合、チームのチャネルで会議を開始したときに [**会議のスケジュール**] オプションがユーザーに表示されないようにすることはできません。チームの会議から会議をスケジュールするときに、ユーザーは **[** 会議の予約] オプションを使用できません。
 
-![Teams の [meetion のスケジュール] オプションを示すスクリーンショット](media/meeting-policies-schedule-a-meeting.png)
+![Teams の [会議のスケジュール] オプションを示すスクリーンショット](media/meeting-policies-schedule-a-meeting.png)
 
-![[会議のためのチャネルを選択する] オプションが表示されたスクリーンショット](media/meeting-policies-select-a-channel-to-meet-in.png)
+![[会議のためのチャネルの選択] オプションを示すスクリーンショット](media/meeting-policies-select-a-channel-to-meet-in.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>プライベート会議のスケジュールを許可する
 
@@ -142,7 +141,7 @@ ms.locfileid: "36236623"
 - [クラウドの記録を許可する](#allow-cloud-recording)
 - [IP ビデオを許可する](#allow-ip-video)
 - [メディアのビットレート (KBs)](#media-bit-rate-kbs)
-- [ライブキャプションを有効にする (近日公開)](#enable-live-captions-coming-soon)
+- [ライブキャプションを有効にする (プレビュー)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>議事録を許可する
 
@@ -158,7 +157,7 @@ ms.locfileid: "36236623"
 
 フェデレーションユーザーや匿名ユーザーなどの組織外のユーザーは、レコーディングを開始できません。 ゲストユーザーがレコーディングを開始または停止することはできません。 
 
-![[レコーディング] オプションが表示されたスクリーンショット](media/meeting-policies-recording.png)
+![レコーディングオプションが表示されたスクリーンショット](media/meeting-policies-recording.png)
 
 次の例を見てみましょう。
 
@@ -176,7 +175,7 @@ Daniela によって開催された会議を記録することはできません
 
 これは、1つの開催者とユーザーごとのポリシーを組み合わせたものです。 ビデオは、会議の主要なコンポーネントです。 一部の組織では、管理者がビデオを使用するユーザーの会議をさらに制御する必要がある場合があります。 この設定では、ユーザーによってホストされている会議でビデオをオンにするかどうかを制御します。また、ユーザーが開始した1:1 通話とグループ通話にも使用できます。 このポリシーが有効になっているユーザーによって開催された会議は、会議参加者がポリシーを有効にしている場合は、会議参加者の会議でのビデオ共有を許可します。 (匿名およびフェデレーション参加者などの) ポリシーが割り当てられていない会議の参加者は、会議の開催者のポリシーを継承します。
 
-![音声とビデオの設定を含む会議を示すスクリーンショット](media/meeting-policies-audio-video-settings.png)
+![音声とビデオの設定での会議を示すスクリーンショット](media/meeting-policies-audio-video-settings.png)
 
 次の例を見てみましょう。
 
@@ -199,9 +198,17 @@ Daniela がビデオで Amanda 通話を発信した場合、Amanda は音声の
 
 最高品質のビデオエクスペリエンス (CEO ボード会議や Teams live イベントなど) が必要な会議の場合は、帯域幅を 10 Mbps に設定することをお勧めします。 最大のエクスペリエンスが設定されている場合でも、シナリオによっては、特定のネットワーク条件が検出されると、Teams メディアスタックが低帯域幅の条件に合わせて調整されます。 
 
-### <a name="enable-live-captions-coming-soon"></a>ライブキャプションを有効にする (近日公開)
+### <a name="enable-live-captions-preview"></a>ライブキャプションを有効にする (プレビュー)
 
-これはユーザーごとのポリシーであり、会議中に適用されます。 この設定をオンにすると、会議中にキャプションを表示するオプションがユーザーに表示されます。
+これはユーザーごとのポリシーであり、会議中に適用されます。 この設定では、ユーザーが会議のライブキャプションを有効**または無効**にするかどうかを制御します。  
+
+![[ライブキャプションを有効にする] オプションを示すスクリーンショット](media/meeting-policies-live-captions.png)
+
+|値の設定 |動作  |
+|---------|---------|
+|**無効であり、ユーザーは上書きできます**     | 会議中は、ユーザーに対してライブキャプションが自動的に有効になりません。 ユーザーには、オーバーフロー (**...**) メニューの [**ライブキャプションを有効**にする] オプションが表示され、有効にします。 これは、既定の設定です。 |
+|**無効**     | 会議中にユーザーに対してライブキャプションが無効になります。 ユーザーには、有効にするオプションはありません。          |
+
 
 <a name="bkcontentsharing"> </a>
 
@@ -320,7 +327,6 @@ Daniela は Amanda の会議でノートを取ることができ、Amanda はど
 - [ユーザーを自動的に許可する](#automatically-admit-people)
 - [匿名ユーザーが会議を開始することを許可する](#allow-anonymous-people-to-start-a-meeting)
 - [ダイヤルインユーザーがロビーをバイパスすることを許可する](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
-- [開催者がロビーの設定を無効にすることを許可する](#allow-organizers-to-override-lobby-settings-coming-soon)
 
 > [!NOTE]
 >会議に参加するためのオプションは、各 Teams グループの設定と接続方法によって異なります。 グループに電話会議があり、それを使用して接続する場合は、「 [Office 365 の電話会議](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)」を参照してください。 Teams グループに電話会議がない場合は、「 [teams で会議に参加する」](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)を参照してください。
@@ -382,31 +388,6 @@ Daniela は Amanda の会議でノートを取ることができ、Amanda はど
 |   | 組織内のすべてのユーザー     |ロビーで待機する         |
 |   | 組織内のすべてのユーザーとフェデレーション組織      | ロビーで待機する         |
 
-### <a name="allow-organizers-to-override-lobby-settings-coming-soon"></a>開催者がロビーの設定を無効にすることを許可する (近日公開)
-
-これは開催者ごとのポリシーです。 この設定では、管理者が**ユーザーを自動的に**許可するように設定されているロビー設定を会議の開催者が上書きできるかどうかを制御し、新しい会議をスケジュールするときに、**ダイヤルインユーザーがロビーをバイパスする**ことを許可するかどうかを制御します。 
-
-会議の開催者は、会議出席依頼の [**会議オプション**] をクリックして、スケジュールする各会議のロビー設定を変更できます。 
-
-この設定は、会議の開催者が [開催者のスケジュールを会議するたびに**ユーザーに**許可する] 設定を変更できるかどうかにどのように影響するかについて説明します。
-
-|開催者がロビーの設定を無効にすることを許可する  |ユーザーを自動的に許可する  |動作 |
-|---------|---------|---------|
-|True    | すべて      | 開催者は、他の値に設定を変更できます。 |
-|   | 組織内のすべてのユーザー       | 開催者は、他の値に設定を変更できます。|
-|   | 組織内のすべてのユーザーとフェデレーション組織       | 開催者は、これを他の値に変更することができます。         |
-|False    | すべて        | 開催者は、他の値に設定を変更できます。|
-|   | 組織内のすべてのユーザー     |開催者は、**組織内のすべてのユーザー**に設定を変更できます。 |
-|   | 組織内のすべてのユーザーとフェデレーション組織      | 開催者がロビーの設定を上書きすることはできません。 |
-
-ここでは、この設定を変更して、会議の開催者が、開催者のスケジュールを会議するたびに、**ロビー設定をバイパスすることを許可する**かどうかを決定する方法について説明します。
-    
-|開催者がロビーの設定を無効にすることを許可する  |ダイヤルインユーザーがロビーをバイパスすることを許可する  |動作 |
-|---------|---------|---------|
-|True    |  True        | 開催者は、設定を [いいえ] に変更できます。       |
-|True      | False         | 開催者は、設定を [True] に変更することができます。        |
-|False     | True        |開催者は、設定を [いいえ] に変更できます。         |
-|False      |False          |開催者は、ロビーの設定を上書きすることはできません。また、ダイヤルインユーザーが会議のロビーをバイパスすることを許可することはできません。        |
 
 [記事の全文](meeting-policies-in-teams.md)
 
