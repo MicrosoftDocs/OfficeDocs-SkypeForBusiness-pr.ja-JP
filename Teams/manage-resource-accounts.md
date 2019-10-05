@@ -18,18 +18,18 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft Teams でリソースアカウントを管理する方法について説明します。
-ms.openlocfilehash: 07718421daca271358964914fd29409b7b23fb58
-ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
+ms.openlocfilehash: 022163de7c3674fa0123927bad09a389514cc107
+ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37375700"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "37401850"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
-リソースアカウントは、Azure AD で*無効になったユーザーオブジェクト*とも呼ばれ、一般にリソースを表すために使うことができます。 Exchange では、会議室の代表として使用され、電話番号を割り当てることができます。 リソースアカウントは、Skype for Business Server 2019 を使って、Microsoft 365 またはオンプレミスのホームにすることができます。
+リソースアカウントは、Azure AD で*無効になったユーザーオブジェクト*とも呼ばれ、一般にリソースを表すために使うことができます。 Exchange では、会議室の代表として使用され、電話番号を割り当てることができます。 リソースアカウントは、Microsoft 365 または Skype for Business Server 2019 でホームにできます。
 
-Microsoft Teams または Skype for Business Online では、各電話システムの通話キューまたは自動応答に、リソースアカウントが関連付けられている必要があります。 リソースアカウントが割り当てられた電話番号を必要とするかどうかは、次の図に示すように、関連付けられた通話キューまたは自動応答の用途によって異なります。 また、リソースアカウントに電話番号を割り当てる前に、この記事の下部にある通話キューと自動応答の記事を参照することもできます。
+Microsoft Teams または Skype for Business Online では、各電話システムの通話キューまたは自動応答に、少なくとも1つのリソースアカウントが含まれている必要があります。 リソースアカウントが割り当てられた電話番号を必要とするかどうかは、次の図に示すように、関連付けられた通話キューまたは自動応答の用途によって異なります。 また、リソースアカウントに電話番号を割り当てる前に、この記事の下部にある通話キューと自動応答の記事を参照することもできます。
 
 > [!IMPORTANT]
 > 電話番号は、自動応答または通話キューに直接割り当てられるのではなく、自動応答または通話キューに関連付けられているリソースアカウントに割り当てられます。
@@ -39,18 +39,19 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 > [!NOTE]
 > この記事は、Microsoft Teams と Skype for Business Online の両方に適用されます。 Skype for Business Server 2019 を使用しているリソースアカウントの場合は、「[リソースアカウントを構成する](/SkypeForBusiness/hybrid/configure-onprem-ra)」を参照してください。
 
-
 ## <a name="overview"></a>概要
 
-組織が既に少なくとも1つの電話システムライセンスを使用している場合、電話システムの通話キューまたは自動応答に電話番号を割り当てるには、次の手順を実行します。
+組織が既に少なくとも1つの電話システムライセンスを使用している場合、電話システムの通話キューに電話番号を割り当てるには、次の手順を実行します。
 
 1. サービス番号を取得します。
 2. リソースアカウントまたは電話システムのライセンスと共に使用する、無料の電話システム[仮想ユーザーライセンス](teams-add-on-licensing/virtual-user.md)または有料電話システムライセンスを取得します。
 3. リソースアカウントを作成します。 関連付けられているリソースアカウントを持つには、自動応答または通話キューが必要です。
 4. 電話システムまたは電話システム仮想ユーザーライセンスをリソースアカウントに割り当てます。
-5. ライセンスを割り当てたリソースアカウントにサービスの電話番号を割り当てます。 
+5. ライセンスを割り当てたリソースアカウントにサービスの電話番号を割り当てます。
 6. 電話システムの通話キューまたは自動応答を作成する
 7. リソースアカウントを通話キューまたは自動応答にリンクします。
+
+<!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
 
 自動応答または通話キューが最上位レベルの自動応答の下に入れ子になっている場合、関連付けられたリソースアカウントには、自動応答と通話キューの構造に複数のエントリポイントが必要な場合は、電話番号のみが必要になります。
 
@@ -61,11 +62,16 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 作成している電話システムの通話キューまたは自動応答がネストされ、電話番号が必要ない場合は、次の手順を実行します。
 
-1. リソースアカウントを作成する 
+1. リソースアカウントを作成する
 2. 電話システムの通話キューまたは自動応答を作成する
 3. リソースアカウントを電話システムの通話キューまたは自動応答に関連付ける
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>電話番号を使用してリソースアカウントを作成する
+
+<a name="phonenumber"> </a>
+
+> [!IMPORTANT]
+> 電話番号は、自動応答または通話キューに直接割り当てられるのではなく、自動応答または通話キューに関連付けられているリソースアカウントに割り当てられます。
 
 トップレベルの自動応答または通話キューでは、電話番号を自動応答にリンクさせる必要があります。 電話番号を使用するリソースアカウントを作成するには、次の手順を実行します。
 
@@ -75,7 +81,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
    リソースアカウントに電話番号を割り当てる場合は、無料電話システムの仮想ユーザーライセンスを使用できるようになりました。 これにより、組織レベルで電話番号に電話システム機能が提供され、自動応答と通話キュー機能を作成できます。
 
-2. 電話システムの仮想ユーザーライセンスまたは通常の電話システムのライセンスを取得します。 
+2. 電話システムの仮想ユーザーライセンスまたは通常の電話システムのライセンスを取得します。
 
    仮想ユーザーライセンスを取得するには、Microsoft 365 管理センターから開始し、[**課金** > **購入サービス** > **アドオンサブスクリプション**] に移動して、"電話システム-仮想ユーザー" ライセンスが表示されます。 [**今すぐ購入**] を選択します。 料金はゼロですが、ライセンスを取得するには、次の手順に従う必要があります。
 3. 新しいリソースアカウントを作成します。 「 [Microsoft Teams 管理センターでリソースアカウントを作成](#create-a-resource-account-in-microsoft-teams-admin-center)する」または「 [Powershell でリソースアカウントを作成](#create-a-resource-account-in-powershell)する」を参照してください。
@@ -85,6 +91,8 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
    - [クラウド自動応答](create-a-phone-system-auto-attendant.md)
    - [クラウド通話キュー](create-a-phone-system-call-queue.md)
 7. リソースアカウントを自動応答または通話キューにリンクします。 「[電話番号とサービスの割り当て/割り当て解除」を](#assignunassign-phone-numbers-and-services)参照してください。
+
+自動応答の作成中にリソースアカウントを作成すると、ライセンスが自動的に適用されます。
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>電話番号のないリソースアカウントを作成する
 
@@ -137,11 +145,11 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 ## <a name="create-a-resource-account-in-powershell"></a>Powershell でリソースアカウントを作成する
 
-リソースアカウントがオンラインとオンプレミスのどちらであるかに応じて、管理者特権で適切な Powershell プロンプトに接続する必要があります。
+リソースアカウントがオンラインであるか、Skype for Business Server 2019 にあるかに応じて、管理者特権で適切な Powershell プロンプトに接続する必要があります。
 
 - 次の Powershell コマンドレットの例は、[新しい-csonline Applicationinstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)を使って、オンラインでホームリソースアカウントを作成する方法を示しています。 
 
-- Skype For Business Server 2019 でホームオンプレミスのリソースアカウントを使って、クラウド通話キューとクラウド自動応答と共に使用できる場合は、「[クラウド通話キューを構成](/skypeforbusiness/hybrid/configure-call-queue.md)する、[クラウド自動応答を構成](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)する」を参照してください。 ハイブリッド実装 (直接ルーティングによる番号) では[、CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)が使用されます。
+- クラウド通話キューとクラウド自動応答で使用できる Skype For Business Server 2019 上のリソースアカウントの場合は、「[クラウド通話キューを構成](/skypeforbusiness/hybrid/configure-call-queue.md)する、[クラウド自動応答を構成](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)する」を参照してください。 ハイブリッド実装 (直接ルーティングによる番号) では[、CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)が使用されます。
 
 アプリケーションインスタンスの作成時に使う必要があるアプリケーション ID は、次のとおりです。
 
@@ -149,7 +157,9 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 - **通話キュー:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> オンプレミスのユーザーが通話キューまたは自動応答を検索できるようにする場合は、オンラインリソースアカウントが Active Directory に同期されていないため、リソースアカウントをオンプレミスで作成する必要があります。
+> Skype For Business Server 2019 ユーザーが通話キューまたは自動応答を検索できるようにするには、オンラインリソースアカウントが Active Directory に同期されていないため、Skype For Business Server 2019 でリソースアカウントを作成する必要があります。 Sipfederationtls 用の DNS SRV レコードが Skype for Business Server 2019 に解決される場合は、SfB 管理シェルを使用して、オンライン Azure AD に同期されるように、Skype For Business Server 2019 でリソースアカウントを作成する**必要があり**ます。
+
+ 
 
 1. 自動応答で使用するためにオンラインでリソースアカウントを作成するには、次のコマンドを使用します。
 
@@ -171,7 +181,7 @@ New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -Applicat
    > [!NOTE]
    > 前に説明したように、Microsoft Teams 管理センターを使用してオンライン電話番号を設定するのが最も簡単です。
 
-   (オンラインまたはオンプレミスの) リソースアカウントに直接ルーティング用の電話番号を割り当てるには、Skype for Business Online Powershell の次のコマンドレットを使用します。
+   Microsoft Teams または Skype For Business Server 2019 でのリソースアカウントに直接ルーティング電話番号を割り当てるには、次のコマンドレットを使用して Skype for Business Online Powershell を使用します。
 
    ``` Powershell
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
