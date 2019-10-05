@@ -12,7 +12,7 @@ manager: serdars
 mtps_version: v=OCS.15
 ms.openlocfilehash: 7e4c530095b69e8aadd07ad37e3fbe4a46b361a5
 ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/11/2019
 ms.locfileid: "34833189"
@@ -23,7 +23,7 @@ ms.locfileid: "34833189"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="exchange-um-cmdlets-in-lync-server-2013"></a>Lync Server 2013 での Exchange UM コマンドレット
+# <a name="exchange-um-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の Exchange UM コマンドレット
 
 </div>
 
@@ -33,15 +33,15 @@ ms.locfileid: "34833189"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-26_
+_**トピックの最終更新日:** 2012-06-26_
 
-Microsoft Lync Server 2013 は、Exchange ユニファイドメッセージング (UM) と連携して、ホストされたボイスメールの自動応答とサブスクライバーアクセスを実装します。 これらの機能は、Lync Server 管理シェルのコマンドレットを使用して管理できます。
+Microsoft Lync Server 2013 は、Exchange ユニファイド メッセージング (UM) と連携して、ホストされたボイス メールの自動応答およびサブスクライバー アクセスを実装します。 これらの機能は、Lync Server 管理シェルのコマンドレットを使用して管理できます。
 
 <div>
 
 ## <a name="exchange-um-cmdlets"></a>Exchange UM コマンドレット
 
-Exchange UM を管理するために、次のコマンドレットを使用できます。
+次のコマンドレットを使用して、Exchange UM を管理できます。
 
 **Exchange UM**
 
@@ -52,21 +52,21 @@ Exchange UM を管理するために、次のコマンドレットを使用で�
     [Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
 
   - <span></span>  
-    [新規-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
+    [New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
 
   - <span></span>  
-    [削除-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+    [Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
 
   - <span></span>  
     [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))
 
 <!-- end list -->
 
-  - [テスト-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))
+  - [Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))
 
 <!-- end list -->
 
-  - [テスト-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))
+  - [Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))
 
 <!-- end list -->
 
@@ -85,7 +85,7 @@ Exchange UM を管理するために、次のコマンドレットを使用で�
     [Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))
 
   - <span></span>  
-    [新規-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))
+    [New-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))
 
   - <span></span>  
     [Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))
@@ -99,7 +99,7 @@ Exchange UM を管理するために、次のコマンドレットを使用で�
     [Get-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425732(v=OCS.15))
 
   - <span></span>  
-    [新規-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425849(v=OCS.15))
+    [New-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425849(v=OCS.15))
 
   - <span></span>  
     [Remove-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398573(v=OCS.15))
