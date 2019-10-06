@@ -361,13 +361,19 @@
 ## 通話ルーティング
 ### [ダイヤル プランについて](what-are-dial-plans.md)
 ### [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
+### [レポート ラベルを追加して更新する](learn-more-about-site-upload.md)
 ## 緊急通話
-### [緊急対応の場所、アドレス、通話ルーティングの概要](what-are-emergency-locations-addresses-and-call-routing.md)
-### [組織の緊急対応の住所を追加、変更、削除する](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [組織の緊急対応の場所を追加、変更、削除する](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [ユーザーの緊急対応の住所の割り当てまたは変更](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [ユーザーの緊急対応の場所の割り当てまたは変更](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [緊急通話のラベル](emergency-calling-labels.md)
+### [動的な緊急通話を計画して構成する](configure-dynamic-emergency-calling.md)
+### 緊急時の連絡先の住所を管理する
+#### [緊急対応の場所、位置情報、通話ルーティングの概要](what-are-emergency-locations-addresses-and-call-routing.md)
+#### [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)
+#### [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
+#### [ユーザーの緊急対応の場所を割り当てたり変更したりする](assign-change-emergency-location-user.md)
+#### [ユーザーの緊急対応の場所の位置情報を割り当てたり変更したりする](assign-change-emergency-place-user.md)
+#### [緊急通話のラベル](emergency-calling-labels.md)
+### [緊急通話ポリシーを管理する](manage-emergency-calling-policies.md)
+### [緊急通話のルーティング ポリシーを管理する](manage-emergency-call-routing-policies.md)
+
 
 
 ## リファレンス
