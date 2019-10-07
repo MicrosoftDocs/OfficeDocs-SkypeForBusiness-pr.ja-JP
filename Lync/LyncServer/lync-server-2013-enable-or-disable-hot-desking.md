@@ -33,11 +33,11 @@ ms.locfileid: "34833288"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-20_
+_**トピックの最終更新日:** 2013-02-20_
 
 一般的な市外電話は、*ホット卓上電話*として設定できます。 ホットデスク電話では、ユーザーは自分のユーザーアカウントにログオンして、ログオンした後、Lync Server の機能と自分のユーザープロファイル設定を使用できます。 ホット desking は、クライアントポリシーを使用して管理されます。ホット desking を有効または無効にするには、一般的なエリアの電話で使用されるクライアントポリシーを変更する必要があります。 共通のエリア電話に割り当てられている会議ポリシーを確認する方法の詳細については、「 [Lync Server 2013 で一般的な市外局番の情報を表示](lync-server-2013-view-common-area-phone-information.md)する」を参照してください。
 
-電話のホット desキングを有効または無効にするには、**新しい-CSClientPolicy**コマンドレットの Enablehot desキングパラメーターを使用します。または、次のように**設定**します。 これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行します。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+電話のホット desキングを有効または無効にするには、**新しい-CSClientPolicy**コマンドレットの Enablehot desキングパラメーターを使用します。または、次のように**設定**します。 これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行します。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

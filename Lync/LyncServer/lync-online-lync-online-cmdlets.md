@@ -121,9 +121,9 @@ Windows PowerShell を使用して Lync Online で管理するようにコンピ
 
   - [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398828(v=OCS.15))
 
-  - [新規-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
+  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
 
-  - [削除-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+  - [Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
 
   - [CsUserAcp の削除](https://technet.microsoft.com/en-us/library/Gg398982(v=OCS.15))
 

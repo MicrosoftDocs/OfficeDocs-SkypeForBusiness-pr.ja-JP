@@ -55,9 +55,9 @@ Skype for Business Online には、個々のユーザー Id を参照するさ�
 
   - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))
 
-  - [新規-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
+  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
 
-  - [削除-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
+  - [Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
 
   - [CsUserAcp の削除](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))
 
