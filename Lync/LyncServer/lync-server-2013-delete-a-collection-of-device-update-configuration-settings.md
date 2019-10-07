@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: デバイス更新プログラムの構成設定のコレクションを削除する'
+title: 'Lync Server 2013: デバイス更新の構成設定のコレクションの削除'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,7 +12,7 @@ manager: serdars
 mtps_version: v=OCS.15
 ms.openlocfilehash: 6de7e3e6ecef8338a3a5514cf3a84180e05ca276
 ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/11/2019
 ms.locfileid: "34833657"
@@ -23,7 +23,7 @@ ms.locfileid: "34833657"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でデバイス更新設定のコレクションを削除する
+# <a name="delete-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新の構成設定のコレクションの削除
 
 </div>
 
@@ -33,18 +33,18 @@ ms.locfileid: "34833657"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-20_
+_**トピックの最終更新日:** 2013-02-20_
 
-デバイス更新プログラムの設定は、Windows PowerShell と、 **CsdeviceUpdateConfiguration**コマンドレットを使用して削除することもできます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
-
-<div>
-
+デバイス更新の構成設定は、Windows PowerShell と **Remove-CsdeviceUpdateConfiguration** コマンドレットを使用しても削除できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
-## <a name="to-remove-a-specific-collection-of-device-update-configuration-settings"></a>デバイスの更新設定の特定のコレクションを削除するには
 
-  - このコマンドは、Redmond サイトに適用されているデバイスの更新設定を削除します。
+<div>
+
+## <a name="to-remove-a-specific-collection-of-device-update-configuration-settings"></a>デバイス更新の構成設定の特定のコレクションを削除するには
+
+  - 次のコマンドは、Redmond サイトに適用されたデバイス更新の構成設定を削除します。
     
         Remove-CsDeviceUpdateConfiguration -Identity "site:Redmond"
 
@@ -52,9 +52,9 @@ _**最終更新日:** 2013-02-20_
 
 <div>
 
-## <a name="to-remove-all-the-device-update-configuration-settings-applied-to-the-site-scope"></a>サイトの範囲に適用されているすべてのデバイス更新設定を削除するには
+## <a name="to-remove-all-the-device-update-configuration-settings-applied-to-the-site-scope"></a>サイト スコープに適用されたデバイス更新の構成設定をすべて削除するには
 
-  - このコマンドは、サイトスコープに適用されているすべてのデバイス更新構成設定を削除します。
+  - 次のコマンドは、サイト スコープに適用されたデバイス更新の構成設定をすべて削除します。
     
         Get-CsDeviceUpdateConfiguration -Filter "site:*" | Remove-CsDeviceUpdateConfiguration
 
@@ -64,13 +64,13 @@ _**最終更新日:** 2013-02-20_
 
 ## <a name="to-remove-device-update-configuration-settings-based-on-the-value-of-the-logcleanupinterval-property"></a>LogCleanUpInterval プロパティの値に基づいてデバイス更新の構成設定を削除するには
 
-  - 次のコマンドは、ログのクリーンアップ間隔が10日 (10.00:00:00) よりも大きいデバイスの更新設定をすべて削除します。
+  - 次のコマンドは、ログのクリーンアップ間隔が 10 日 (10.00:00:00) を超えている場合にデバイス更新の構成設定をすべて削除します。
     
         Get-CsDeviceUpdateConfiguration | Where-Object {$_.LogCleanUpInterval -gt "10.00:00:00" | Remove-CsDeviceUpdateConfiguration
 
 </div>
 
-詳細については、「 [CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateConfiguration)オプションの削除」コマンドレットのヘルプトピックを参照してください。
+詳細については、[Remove-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateConfiguration) コマンドレットに関するヘルプ トピックを参照してください。
 
 </div>
 
