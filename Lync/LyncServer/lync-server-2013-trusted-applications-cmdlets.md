@@ -23,7 +23,7 @@ ms.locfileid: "34848382"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="trusted-applications-cmdlets-in-lync-server-2013"></a><span data-ttu-id="785e5-102">Lync Server 2013 の信頼済みアプリケーションコマンドレット</span><span class="sxs-lookup"><span data-stu-id="785e5-102">Trusted applications cmdlets in Lync Server 2013</span></span>
+# <a name="trusted-applications-cmdlets-in-lync-server-2013"></a><span data-ttu-id="e84f5-102">Lync Server 2013 の信頼済みアプリケーションコマンドレット</span><span class="sxs-lookup"><span data-stu-id="e84f5-102">Trusted applications cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,77 +33,77 @@ ms.locfileid: "34848382"
 
 <span> </span>
 
-<span data-ttu-id="785e5-103">_**最終更新日:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="785e5-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="e84f5-103">_**最終更新日:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="e84f5-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="785e5-104">信頼されたアプリケーションは、サードパーティによって開発されたアプリケーションで、Microsoft Lync Server 2013 の一部として実行される信頼された状態で、製品の組み込みの部分ではありません。</span><span class="sxs-lookup"><span data-stu-id="785e5-104">A trusted application is an application developed by a third party that is given trusted status to run as part of Microsoft Lync Server 2013 but that is not a built-in part of the product.</span></span> <span data-ttu-id="785e5-105">Lync Server 2013 には、信頼済みアプリケーションの構成と管理に使うことができるコマンドレットが用意されています。</span><span class="sxs-lookup"><span data-stu-id="785e5-105">Lync Server 2013 provides cmdlets that can be used to configure and managed trusted applications.</span></span>
+<span data-ttu-id="e84f5-104">信頼されたアプリケーションは、サードパーティによって開発されたアプリケーションで、Microsoft Lync Server 2013 の一部として実行される信頼された状態で、製品の組み込みの部分ではありません。</span><span class="sxs-lookup"><span data-stu-id="e84f5-104">A trusted application is an application developed by a third party that is given trusted status to run as part of Microsoft Lync Server 2013 but that is not a built-in part of the product.</span></span> <span data-ttu-id="e84f5-105">Lync Server 2013 には、信頼済みアプリケーションの構成と管理に使うことができるコマンドレットが用意されています。</span><span class="sxs-lookup"><span data-stu-id="e84f5-105">Lync Server 2013 provides cmdlets that can be used to configure and managed trusted applications.</span></span>
 
 <div>
 
-## <a name="trusted-applications-cmdlets"></a><span data-ttu-id="785e5-106">信頼できるアプリケーションのコマンドレット</span><span class="sxs-lookup"><span data-stu-id="785e5-106">Trusted Applications Cmdlets</span></span>
+## <a name="trusted-applications-cmdlets"></a><span data-ttu-id="e84f5-106">信頼できるアプリケーションのコマンドレット</span><span class="sxs-lookup"><span data-stu-id="e84f5-106">Trusted Applications Cmdlets</span></span>
 
-<span data-ttu-id="785e5-107">信頼できるアプリケーションを管理するには、次のコマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="785e5-107">Use the following cmdlets to manage trusted applications.</span></span>
+<span data-ttu-id="e84f5-107">信頼できるアプリケーションを管理するには、次のコマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="e84f5-107">Use the following cmdlets to manage trusted applications.</span></span>
 
-<span data-ttu-id="785e5-108">**信頼済みアプリケーション**</span><span class="sxs-lookup"><span data-stu-id="785e5-108">**Trusted Applications**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="785e5-109">[Get-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg399025(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-109">[Get-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg399025(v=OCS.15))</span></span>
+<span data-ttu-id="e84f5-108">**信頼済みアプリケーション**</span><span class="sxs-lookup"><span data-stu-id="e84f5-108">**Trusted Applications**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-110">[新規-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398259(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-110">[New-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398259(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-109">[Get-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg399025(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-109">[Get-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg399025(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-111">[Remove-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398176(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-111">[Remove-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398176(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-110">[新規-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398259(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-110">[New-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398259(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-112">[Set-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg425840(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-112">[Set-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg425840(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-111">[Remove-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398176(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-111">[Remove-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398176(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="e84f5-112">[Set-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg425840(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-112">[Set-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg425840(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="785e5-113">[Get-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg425843(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-113">[Get-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg425843(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-113">[Get-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg425843(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-113">[Get-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg425843(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-114">[新規-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398405(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-114">[New-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398405(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-114">[新規-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398405(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-114">[New-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398405(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-115">[Remove-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398838(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-115">[Remove-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398838(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-115">[Remove-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398838(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-115">[Remove-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398838(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="785e5-116">[Get-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg413035(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-116">[Get-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg413035(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-116">[Get-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg413035(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-116">[Get-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg413035(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-117">[New-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398594(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-117">[New-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398594(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-117">[New-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398594(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-117">[New-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398594(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-118">[Remove-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398837(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-118">[Remove-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398837(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-118">[Remove-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398837(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-118">[Remove-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398837(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-119">[Set-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398509(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-119">[Set-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398509(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-119">[Set-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398509(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-119">[Set-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398509(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="785e5-120">[Get-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg413055(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-120">[Get-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg413055(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-120">[Get-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg413055(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-120">[Get-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg413055(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-121">[新規-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg425804(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-121">[New-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg425804(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-121">[新規-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg425804(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-121">[New-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg425804(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-122">[Remove-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398750(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-122">[Remove-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398750(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-122">[Remove-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398750(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-122">[Remove-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398750(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="785e5-123">[Set-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398187(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="785e5-123">[Set-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398187(v=OCS.15))</span></span>
+    <span data-ttu-id="e84f5-123">[Set-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398187(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e84f5-123">[Set-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398187(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="785e5-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="785e5-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e84f5-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="e84f5-124">See Also</span></span>
 
 
-[<span data-ttu-id="785e5-125">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="785e5-125">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="e84f5-125">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="e84f5-125">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

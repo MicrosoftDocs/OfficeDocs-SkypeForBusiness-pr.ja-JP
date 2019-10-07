@@ -23,7 +23,7 @@ ms.locfileid: "34848349"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a><span data-ttu-id="03618-102">Lync Server 2013 のユーザー権利と権限のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="03618-102">User rights and permissions cmdlets in Lync Server 2013</span></span>
+# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a><span data-ttu-id="69a3e-102">Lync Server 2013 のユーザー権利と権限のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="69a3e-102">User rights and permissions cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,68 +33,68 @@ ms.locfileid: "34848349"
 
 <span> </span>
 
-<span data-ttu-id="03618-103">_**最終更新日:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="03618-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="69a3e-103">_**トピックの最終更新日:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="69a3e-103">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="03618-104">ユーザー権限のコマンドレットは主に、Microsoft Lync Server 2013 の管理制御を委任するための新しいテクノロジである役割ベースのアクセス制御 (RBAC) を管理するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="03618-104">The user permission cmdlets are primarily used to manage role-based access control (RBAC), the new technology for delegating administrative control of Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="69a3e-104">ユーザー権限のコマンドレットは主に、Microsoft Lync Server 2013 の管理制御を委任するための新しいテクノロジである役割ベースのアクセス制御 (RBAC) を管理するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="69a3e-104">The user permission cmdlets are primarily used to manage role-based access control (RBAC), the new technology for delegating administrative control of Microsoft Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="user-permission-cmdlets"></a><span data-ttu-id="03618-105">ユーザー権限のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="03618-105">User Permission Cmdlets</span></span>
+## <a name="user-permission-cmdlets"></a><span data-ttu-id="69a3e-105">ユーザー権限のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="69a3e-105">User Permission Cmdlets</span></span>
 
-<span data-ttu-id="03618-106">ユーザー権限の管理に直接関連するコマンドレットの一覧を次に示します。</span><span class="sxs-lookup"><span data-stu-id="03618-106">The following is a list of cmdlets that relate directly to managing user permissions:</span></span>
+<span data-ttu-id="69a3e-106">ユーザー権限の管理に直接関連するコマンドレットの一覧を次に示します。</span><span class="sxs-lookup"><span data-stu-id="69a3e-106">The following is a list of cmdlets that relate directly to managing user permissions:</span></span>
 
-<span data-ttu-id="03618-107">**ユーザーの権限**</span><span class="sxs-lookup"><span data-stu-id="03618-107">**User Permissions**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="03618-108">[ご利用の場合は、CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-108">[Get-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))</span></span>
+<span data-ttu-id="69a3e-107">**ユーザーの権限**</span><span class="sxs-lookup"><span data-stu-id="69a3e-107">**User Permissions**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="03618-109">[新しい-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-109">[New-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-108">[ご利用の場合は、CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-108">[Get-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="03618-110">[削除-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-110">[Remove-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-109">[新しい-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-109">[New-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="03618-111">[設定-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-111">[Set-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-110">[削除-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-110">[Remove-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="03618-112">[更新-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-112">[Update-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-111">[設定-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-111">[Set-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="69a3e-112">[更新-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-112">[Update-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="03618-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="03618-114">[権限の付与 (CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-114">[Grant-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-114">[権限の付与 (CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-114">[Grant-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="03618-115">[権限の取り消し-csou](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-115">[Revoke-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-115">[権限の取り消し-csou](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-115">[Revoke-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="03618-116">[テスト-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-116">[Test-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-116">[テスト-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-116">[Test-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="03618-117">[Grant-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-117">[Grant-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-117">[Grant-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-117">[Grant-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="03618-118">[失効-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-118">[Revoke-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-118">[失効-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-118">[Revoke-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="03618-119">[テスト-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="03618-119">[Test-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))</span></span>
+    <span data-ttu-id="69a3e-119">[テスト-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69a3e-119">[Test-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="03618-120">関連項目</span><span class="sxs-lookup"><span data-stu-id="03618-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="69a3e-120">関連項目</span><span class="sxs-lookup"><span data-stu-id="69a3e-120">See Also</span></span>
 
 
-[<span data-ttu-id="03618-121">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="03618-121">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="69a3e-121">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="69a3e-121">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

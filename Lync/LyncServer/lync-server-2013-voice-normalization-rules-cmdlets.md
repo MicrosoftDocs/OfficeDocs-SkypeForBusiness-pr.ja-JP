@@ -23,7 +23,7 @@ ms.locfileid: "34848144"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a><span data-ttu-id="c4824-102">Lync Server 2013 の音声正規化ルールコマンドレット</span><span class="sxs-lookup"><span data-stu-id="c4824-102">Voice normalization rules cmdlets in Lync Server 2013</span></span>
+# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a><span data-ttu-id="1971b-102">Lync Server 2013 の音声正規化ルールコマンドレット</span><span class="sxs-lookup"><span data-stu-id="1971b-102">Voice normalization rules cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,49 +33,49 @@ ms.locfileid: "34848144"
 
 <span> </span>
 
-<span data-ttu-id="c4824-103">_**最終更新日:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="c4824-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="1971b-103">_**最終更新日:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="1971b-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="c4824-104">音声正規化規則を使用して、電話によるダイヤルの要件 (たとえば、外線へのダイヤル9など) を、Microsoft Lync Server 2013 で使用されている電子電話番号形式 (164) に変換します。</span><span class="sxs-lookup"><span data-stu-id="c4824-104">Voice normalization rules are used to convert a telephone dialing requirement (for example, dialing 9 to access an outside line) to the E.164 phone number format used by Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="1971b-104">音声正規化規則を使用して、電話によるダイヤルの要件 (たとえば、外線へのダイヤル9など) を、Microsoft Lync Server 2013 で使用されている電子電話番号形式 (164) に変換します。</span><span class="sxs-lookup"><span data-stu-id="1971b-104">Voice normalization rules are used to convert a telephone dialing requirement (for example, dialing 9 to access an outside line) to the E.164 phone number format used by Microsoft Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="voice-normalization-rules-cmdlets"></a><span data-ttu-id="c4824-105">音声正規化ルールコマンドレット</span><span class="sxs-lookup"><span data-stu-id="c4824-105">Voice Normalization Rules Cmdlets</span></span>
+## <a name="voice-normalization-rules-cmdlets"></a><span data-ttu-id="1971b-105">音声正規化ルールコマンドレット</span><span class="sxs-lookup"><span data-stu-id="1971b-105">Voice Normalization Rules Cmdlets</span></span>
 
-<span data-ttu-id="c4824-106">音声正規化規則を管理するには、次のコマンドレットを使用できます。</span><span class="sxs-lookup"><span data-stu-id="c4824-106">The following cmdlets can be used to manage voice normalization rules.</span></span>
+<span data-ttu-id="1971b-106">音声正規化規則を管理するには、次のコマンドレットを使用できます。</span><span class="sxs-lookup"><span data-stu-id="1971b-106">The following cmdlets can be used to manage voice normalization rules.</span></span>
 
-<span data-ttu-id="c4824-107">**音声正規化ルール**</span><span class="sxs-lookup"><span data-stu-id="c4824-107">**Voice Normalization Rules**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="c4824-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c4824-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))</span></span>
+<span data-ttu-id="1971b-107">**音声正規化ルール**</span><span class="sxs-lookup"><span data-stu-id="1971b-107">**Voice Normalization Rules**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c4824-109">[新規-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c4824-109">[New-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))</span></span>
+    <span data-ttu-id="1971b-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1971b-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c4824-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c4824-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))</span></span>
+    <span data-ttu-id="1971b-109">[新規-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1971b-109">[New-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c4824-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c4824-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))</span></span>
+    <span data-ttu-id="1971b-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1971b-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c4824-112">[テスト-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c4824-112">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))</span></span>
+    <span data-ttu-id="1971b-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1971b-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="1971b-112">[テスト-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1971b-112">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="c4824-113">[新規-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c4824-113">[New-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))</span></span>
+    <span data-ttu-id="1971b-113">[新規-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1971b-113">[New-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c4824-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="c4824-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1971b-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="1971b-114">See Also</span></span>
 
 
-[<span data-ttu-id="c4824-115">Lync Server 2013 のエンタープライズボイスコマンドレット</span><span class="sxs-lookup"><span data-stu-id="c4824-115">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
+[<span data-ttu-id="1971b-115">Lync Server 2013 のエンタープライズボイスコマンドレット</span><span class="sxs-lookup"><span data-stu-id="1971b-115">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[<span data-ttu-id="c4824-116">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="c4824-116">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="1971b-116">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="1971b-116">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
