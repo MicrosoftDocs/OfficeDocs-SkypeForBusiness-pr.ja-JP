@@ -28,9 +28,9 @@ ms.locfileid: "34274430"
 > [!IMPORTANT]
 >  一元管理のログサービス用に一覧表示されているすべての Windows PowerShell コマンドレットは、Skype for Business Server 2015 オンプレミスの展開で使用することを目的としていません。 機能しているように見えても、次のコマンドレットは、Skype for Business Server 2015 オンプレミスの展開で機能するように設計されていません。
 
--  **Csclsregion コマンドレット:**[Get-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) 、[Set-csclsregion](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps)、[新規の](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps)csclsregion、および[削除-csclsregion](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps)。
--  **Csclssearchterm コマンドレット:**[Csclssearchterm を取得](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps)して、[設定](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps)します。
--  **CsClsSecurityGroup コマンドレット:**[CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps)、 [Set-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps)、 [New-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)、および CsClsSecurityGroup を[削除](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps)します。
+-  **Csclsregion コマンドレット:** [Get-csclsregion](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) 、[Set-csclsregion](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps)、 [New-](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps)CsClsRegion、および削除された[csclsregion](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps)。
+-  **Csclssearchterm コマンドレット:** [取得-csclssearchterm](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps)と[Set-csclssearchterm](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps)。
+-  **CsClsSecurityGroup コマンドレット:** [CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps)、 [Set-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps)、 [New-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)、および[CsClsSecurityGroup を削除](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps)します。
 
 これらのコマンドレットで定義された設定により、悪影響を及ぼす可能性はありませんが、Microsoft Office 365 で使用するように設計されていますが、オンプレミスの展開で予期しない結果が返されることはありません。 これは、内部設置型展開ではこれらのコマンドレットが役に立たないという意味ではありませんが、その用途はより高度なトピックであるため、このドキュメントでは扱われません。
 
@@ -51,12 +51,12 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 > [!NOTE]
 > Windows PowerShell または CLSController で実行できるコマンドラインコマンドには、基本的な違いがあります。 Windows PowerShell には、シナリオを構成して定義するための豊富な方法が用意されています。また、トラブルシューティングシナリオには、わかりやすい方法でこれらのシナリオを再利用することもできます。 CLSController には、コマンドを発行して結果を取得するための高速で効率的な方法が用意されていますが、CLSController 用のコマンドセットは、コマンドラインから利用できる有限コマンドによって制限されます。 Windows PowerShell コマンドレットとは異なり、CLSController では、新しいシナリオを定義することはできません。サイトまたはグローバルレベルでスコープを管理することも、動的に構成できない有限コマンドセットに関するその他多くの制限事項もあります。 CLSController は、高速実行の手段を提供しますが、Windows PowerShell は、CLSController で可能な範囲を超えて一元的なログサービス機能を拡張するための手段を提供します。
 
-検索の実行中に1つのコンピューターのスコープを定義できます。[検索-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)、 [Show](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)-csclslogging、 [Start](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps)、 [](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)csclslogging、 [Sync-](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) csclslogging、および[Update](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) -csclslogging-Computers パラメーターを使用しているコマンド。 -Computers パラメーターは、ターゲットコンピューターの完全修飾ドメイン名 (Fqdn) のコンマ区切りリストを受け取ります。
+検索の実行中に1つのコンピューターのスコープを定義できます。[検索-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)、 [Show](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)-csclslogging、 [Start](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps)、csclslogging、 [Sync-](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) csclslogging [、および](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps) [Update](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) -csclslogging-Computers パラメーターを使用しているコマンド。 -Computers パラメーターは、ターゲットコンピューターの完全修飾ドメイン名 (Fqdn) のコンマ区切りリストを受け取ります。
 
 > [!TIP]
 > また、プールと、ログコマンドを実行するプールのコンマ区切りリストを定義することもできます。
 
-サイトとグローバルスコープは、**新しい**集中化された**** ログサービスコマンドレット**** で定義されます。 以下の例は、サイト スコープとグローバル スコープを設定する方法を示しています。
+サイトとグローバルスコープ**は、****新しい****集中化さ**れたログサービスコマンドレットで定義されます。 以下の例は、サイト スコープとグローバル スコープを設定する方法を示しています。
 
 > [!IMPORTANT]
 > 表示されるコマンドには、他のセクションで説明するパラメーターと概念が含まれている場合があります。 この例のコマンドは、スコープを定義するために **-Identity**パラメーターを使うことを示すことを目的としています。その他のパラメーターは完全に含まれており、スコープを指定するために使用されます。 **Set-csclsconfiguration**コマンドレットの詳細については、「操作のドキュメントでの[Set-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) 」をご覧ください。

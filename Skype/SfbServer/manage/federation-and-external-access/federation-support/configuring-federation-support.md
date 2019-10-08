@@ -61,7 +61,7 @@ Skype for Business Online のお客様とのフェデレーションを行うに
 
 ### <a name="to-configure-support-for-a-hosting-provider"></a>ホスティングプロバイダーのサポートを構成するには
 
-1.  フロントエンドサーバーから、Skype for Business Server 管理シェルを起動します。 [**スタート**] をクリックし、 ****[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
+1.  フロントエンドサーバーから、Skype for Business Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **Skype for business server 管理シェル**] をクリックします。 ****
 
 2.  **新しい-CsHostingProvider**コマンドレットを実行して、ホスティングプロバイダーを作成し、構成します。 たとえば、以下を実行します。
     

@@ -458,7 +458,7 @@ IVR の質問と発信者の応答は、通話を受けることができる応�
 
 20. このワークフロー用のカスタム スケジュールを作成する場合は、応答グループが対応可能な曜日のチェック ボックスをオンにします。
 
-21. ユーザー設定のスケジュールを作成する場合は、 **** 返信グループ**** が利用できるようになるまでの時間を入力します。
+21. ユーザー設定のスケジュールを作成する場合は、返信グループ**** が利用できるようになる**までの時間を入力します**。
 
      > [!NOTE]
      > [**開始**] 時間と [**終了**] 時間は 24 時間表記で入力する必要があります。たとえば、職場の営業時間が営業日の 9 時から 5 時までで、昼休みのために正午にオフィスを一度閉める場合、営業時間は [**開始**] 9:00、[**終了**] 12:00、[**開始**] 13:00、[**終了**] 17:00 として指定します。
@@ -648,11 +648,11 @@ IVR の質問と発信者の応答は、通話を受けることができる応�
 
 [省略Skype for Business で応答グループの勤務時間を定義する](optional-define-response-group-business-hours.md)
 
-[新しい-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
+[New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 
 [Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
-[新規-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
 
-[新規-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
 

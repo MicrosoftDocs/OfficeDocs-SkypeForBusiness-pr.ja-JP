@@ -57,7 +57,7 @@ ms.locfileid: "36234238"
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
 ```
 
-次に、次[](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps)の手順でグローバルポリシーへの変更を書き込みます。
+次に、次の[手順でグローバル](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps)ポリシーへの変更を書き込みます。
 
 ```
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}

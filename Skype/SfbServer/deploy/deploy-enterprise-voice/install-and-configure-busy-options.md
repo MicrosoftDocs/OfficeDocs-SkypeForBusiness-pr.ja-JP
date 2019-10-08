@@ -56,7 +56,7 @@ Skype for Business Server で取り込み中のオプションをインストー
 
 2. 次に、サイトにボイス ポリシーがある場合は、次のようにボイス ポリシー用の通話中オプションを有効にします。
 
-    最初に、 [](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) [次へ] を実行して、サイトの名前を取得します。
+    最初に、[[次へ] を実行](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)して、サイトの名前を取得します。
 
    ```
    Get-CsSite
@@ -89,7 +89,7 @@ Skype for Business Server で取り込み中のオプションをインストー
    Update-CsAdminRole
    ```
 
-5. 最後に、Busy オプションがインストールされて有効になっているすべてのプール内のすべてのフロントエンドサーバーで、Skype for Business [](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) Server の Windows サービスを開始します。次の操作を実行します。
+5. 最後に、Busy オプションがインストールされて有効になっているすべてのプール内のすべてのフロントエンドサーバーで、Skype for Business Server の Windows サービスを開始します。[次の操作](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps)を実行します。
 
    ```
    Start-CsWindowsService
