@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: b05cb7638314ce583ce97d98e3bb5d56e264ca62
-ms.sourcegitcommit: c22e55cda855ec61e5b6cb3455d6b87467c24e21
+ms.openlocfilehash: f5e78b9731a84841291a93aaeb9e0a25a084c87b
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37159743"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439530"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
@@ -32,7 +32,7 @@ ms.locfileid: "37159743"
 > [!NOTE]
 > Microsoft Teams のルームは、Microsoft Teams、Skype for Business Server 2019、Skype for business Server 2015、または Skype for Business Online で使用することを目的としています。
 >
-> Lync Server 2013 などの以前のプラットフォームでは、Microsoft Teams のルームで動作することは想定されていません。
+> Lync Server 2013 などの以前のプラットフォームでは、Microsoft Teams のルームで動作することは想定されていません。 Microsoft Teams のルームは、21Vianet が運営する Office 365、または GCC、GCC、高、または DoD 環境ではサポートされていません。
 >
 > オンプレミスの Exchange サーバーがある場合、Microsoft Teams ルームでは Exchange Server 2013 SP1 以降を使用する必要があります。
 

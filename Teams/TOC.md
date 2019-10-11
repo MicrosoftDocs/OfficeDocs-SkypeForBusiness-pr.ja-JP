@@ -85,6 +85,7 @@
 #### [Teams ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md)
 #### [Teams のデバイス使用状況レポート](teams-analytics-and-reports/device-usage-report.md)
 #### [PSTN のブロックされたユーザー レポート](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [PSTN の利用分数プール レポート](teams-analytics-and-reports/pstn-minute-pools-report.md)
 #### [PSTN の使用状況レポート](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams のライブ イベントの使用状況レポート](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Microsoft 365 管理センターでの Teams のアクティビティ レポート](teams-activity-reports.md)

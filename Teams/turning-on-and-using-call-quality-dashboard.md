@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。 '
-ms.openlocfilehash: 25f141f30691700414c3a24e705c7d8b490fd265
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328355"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435102"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -40,7 +40,7 @@ ms.locfileid: "37328355"
 
 ## <a name="latest-changes-and-updates"></a>最新の変更と更新
 
-CQD version 3 は、ほぼリアルタイムの CQD ダッシュボード (30 分間の待機時間) を提供し、エンドユーザーを特定できる情報 (EUII) を使用して、ユーザーレベルにズームインする機能を管理者に提供します。 また、次のような新しいシナリオをサポートするための対話式のレポートもあります。
+CQD version 3 は、ほぼリアルタイムの CQD ダッシュボード (30 分間の待機時間) を提供し、エンドユーザーを特定できる情報 (EUII) を使用して、ユーザーレベルにズームインする機能を管理者に提供します。 次のような新しいシナリオをサポートするためのレポート対話機能もあります。
 
 - 地域別の通話品質:
   - 日付順
@@ -129,11 +129,11 @@ CQD v3 は、SPD レポートでのドリルスルーまたはドリルダウン
 
 たとえば、通話品質ドリルスルーレポートでは、ユーザーは "ドリルスルー" の日付をクリックすると、[場所] タブに移動します。
 
-    ![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+![スクリーンショット: ドリルスルーレポートを表示します。](media/CQD-drill-thru-report.png)
 
 [場所] タブでは、複数の日付を追加できます。たとえば、2019-09-22 を日付に追加します。 2019-09-24: 
 
-    ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+![スクリーンショット: ドリルスルーレポートに日付を追加する](media/CQD-add-date.png)
 
 > [!NOTE]
 > 最後のタブに直接ジャンプしないでください。前のドリルスルーで選択したフィルターがないと、結果が大きすぎてテーブルに表示されません。
@@ -339,6 +339,8 @@ CQD Summary レポートダッシュボードには、右上隅にある [設定
 ### <a name="building-data-file"></a>データファイルを作成する
 
 CQD は、建物データファイルを使用します。これにより、有用な通話の詳細が提供されます。 [Subnet] 列を抽出するには、Network + NetworkRange 列を展開し、サブネット列を通話レコードの最初のサブネットまたは第2サブネット列に結合して、建物、市区町村、国、または地域の情報を表示します。 アップロードするデータファイルの形式は、次の条件に従って、アップロード前に検証チェックに合格する必要があります。
+
+サンプルテンプレートは[こちら](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)からダウンロードできます。
   
 - ファイルは、.tsv ファイル (列はタブで区切られます) または .csv ファイル (列はコンマで区切られます) のいずれかである必要があります。
 - データファイルには、テーブルの見出し行が含まれていません。 データファイルの最初の行は、"Network" のようなヘッダーラベルではなく、実際のデータであると想定されています。
@@ -359,9 +361,7 @@ CQD は、建物データファイルを使用します。これにより、有�
 
 **サンプルの行:**
 
-```
-192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0
-```
+`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
 > ネットワーク範囲は、スーパーネット (単一のルーティングプレフィックスを持つ複数のサブネットの組み合わせ) を表すために使用できます。 新しくなったすべての文書のアップロードで、重複範囲が確認されます。 以前にビルドファイルをアップロードしたことがある場合は、現在のファイルをダウンロードして再アップロードし、重複を特定し、問題を解決してからもう一度アップロードする必要があります。 以前にアップロードされたファイルが重なっていると、サブネットとレポートの建物とのマッピングが間違っている可能性があります。 特定の VPN の実装では、サブネット情報が正確に報告されません。 構成ファイルに VPN サブネットを追加するときは、サブネットのエントリの1つではなく、個別の32ビットネットワークとして、VPN サブネットの各アドレスに個別のエントリを追加することをお勧めします。 各行には、同じビルドメタデータを含めることができます。 たとえば、172.16.18.0/24 の1行ではなく、256行と、172.16.18.0/32 と 172.16.18.255/32 の間の各アドレスに1つの行が含まれている必要があります。
@@ -382,11 +382,11 @@ CQD はエンドポイントデータファイルを使用します。 列の値
 
   **フィールドの順序:**
 
-  EndpointName、EndpointModel、Endpointmodel、EndpointLabel1、EndpointLabel2、EndpointLabel3
+EndpointName、EndpointModel、Endpointmodel、EndpointLabel1、EndpointLabel2、EndpointLabel3
 
   **サンプルの行:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 ## <a name="create-custom-detailed-reports"></a>ユーザー設定の詳細レポートを作成する
 

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: d3e5c5377543e780c8dd68e27451ee1ac526787f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305687"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435005"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -195,6 +195,10 @@ ms.locfileid: "37305687"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |ブロードキャスト会議中にコンテンツを共有しているときに音声が聞こえない  <br/> |ブロードキャスト会議中にコンテンツを共有しているときに、参加者が共有コンテンツ (YouTube のリンクや保存済みの動画ファイル) の音声を聞くことができません。  <br/> |これは仕様のため、回避策はありません。  Teams は現時点ではコンテンツ共有での音声をサポートしていません  <br/> |2018 年 10 月 9 日  <br/> |
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|仮想ロビーで待機させられると、開催者であれ、Outlook から会議を開始することはできません。  <br/> |Outlook クライアントが Teams クライアントとは違った別のアカウントにログインしている場合、こうした問題が発生する場合があります。 <br/> |会議に参加する場合は、Outlook クライアントと Teams クライアントが会議がスケジュールされた同じアカウントにログインしていることを確認します。  <br/> |2018 年 11 月 5 日  <br/> |
 
 ## <a name="mobile"></a>モバイル
 

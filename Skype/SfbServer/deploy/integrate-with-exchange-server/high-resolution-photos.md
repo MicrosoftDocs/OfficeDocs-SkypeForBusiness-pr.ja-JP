@@ -11,19 +11,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: '概要: Exchange Server 2016 または Exchange Server 2013 および Skype for Business Server で高解像度の写真を使用するように構成します。'
-ms.openlocfilehash: 1ca9c0077969cab22b8ebfa073d3d0585108503b
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+description: '概要: Exchange Server 2019、Exchange Server 2016、Exchange Server 2013、または Exchange Online と Skype for business Server で高解像度の写真を使用するように構成します。'
+ms.openlocfilehash: 08db547dc9ead9d79a50cd17b4496826aa735369
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464656"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434912"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Skype for Business Server で高解像度の写真を使用するように構成する
  
-**概要:** Exchange Server 2016 または Exchange Server 2013 および Skype for Business Server で高解像度の写真の使用を構成します。
+**概要:** Exchange Server 2019、Exchange Server 2016、Exchange Server 2013、または Exchange Online と Skype for business Server で高解像度の写真を使用するように構成します。
   
-Skype for Business Server の写真は、ユーザーの Exchange Server 2016 または Exchange Server 2013 メールボックスに保存することができます。これにより、写真のサイズを648ピクセル、648ピクセルまでに設定できます。 また、必要に応じてさまざまな製品で使用するために、これらの写真のサイズを自動的に変更することもできます。 通常、3つの異なる写真のサイズと解像度を意味します。
+Skype for Business Server では、ユーザーの Exchange Server 2019、Exchange Server 2016、Exchange Server 2013、または Exchange Online メールボックスに写真を保存することができます。これにより、写真のサイズを648ピクセルで最大648ピクセルにできます。 また、必要に応じてさまざまな製品で使用するために、これらの写真のサイズを自動的に変更することもできます。 通常、3つの異なる写真のサイズと解像度を意味します。
   
 - 64ピクセル x 64 ピクセル、Active Directory thumbnailPhoto 属性に使用されているサイズ。 Exchange Server に写真をアップロードすると、その写真の 64 64 ピクセルバージョンが自動的に作成され、ユーザーの thumbnailPhoto 属性が更新されます。 ただし、この逆のことはできないことに注意してください。 Active Directory の thumbnailPhoto 属性を手動で更新した場合、ユーザーの Exchange メールボックスの写真は自動的には更新されません。
     

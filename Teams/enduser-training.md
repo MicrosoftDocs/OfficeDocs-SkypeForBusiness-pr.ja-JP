@@ -7,21 +7,24 @@ layout: LandingPage
 ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
 description: 組織のユーザー向けトレーニング ビデオ、チュートリアル、その他のリソースで、Teams の使用方法を説明します。
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1keywords:
+- ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+- ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01246103d321e40316df01799c3c7f5a82940340
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: ee93aa39cf0c37c3a7defd690582eb6941337ec8
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493667"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439454"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams のエンド ユーザー トレーニング
 
@@ -35,7 +38,7 @@ ms.locfileid: "30493667"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="Megaphone icon representing an introduction" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -54,7 +57,7 @@ Teams の概要に関するこのショート ビデオをご覧ください。<
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Pointing hand icon representing getting started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -71,7 +74,7 @@ Teams の概要に関するこのショート ビデオをご覧ください。<
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Question mark icon representing help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -89,7 +92,7 @@ Teams の概要に関するこのショート ビデオをご覧ください。<
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="Mortarboard icon representing training videos" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -101,17 +104,17 @@ Teams の概要に関するこのショート ビデオをご覧ください。<
         </a>
     </li>
  <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
+        <a href="https://aka.ms/TeamsOnDemand">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing YouTube videos" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>YouTube で Teams のチャンネルをチェックする</h3>
+                        <h3>YouTube の Teams トレーニングチャネルをご覧ください。</h3>
                     </div>
                 </div>
             </div>

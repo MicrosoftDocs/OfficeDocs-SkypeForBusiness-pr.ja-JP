@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療組織向け Secure Messaging で Teams を始めましょう
-ms.openlocfilehash: 6fa8ceef15b0f88a4624ebaaeaa177c4f0d1e1e3
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: 05a8454201601ebf4e2689f8399547c1af80c971
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306684"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434952"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>医療組織向け Secure Messaging で Teams を始めましょう
 
@@ -47,6 +47,8 @@ ms.locfileid: "37306684"
     *開封確認メッセージの使用例:* Jakob Roth は、非常にリスクの高い患者であり、病院に対して認められています。ソフィア Krause は、さまざまな専門家を含む医療従事者チーム (IDT) の一部として機能している看護師で、この患者を担当する主要なケアコーディネーターとして割り当てられています。  ソフィアは、医師やその他の看護師とのグループチャットを開始し、患者と協力して治療を調整し、緊急のトリアージを開始します。看護師と医師は、治療の調整プロセス全体を通じて、患者の治療プランを通じてコミュニケーションを行い、共同作業します。  重要なメッセージと緊急メッセージは、1:1 とグループチャットで送信されます。 ソフィアは、開封済みメッセージ機能を使用して、送信先の医師または看護師によって送信されたメッセージが配信されるかどうかを確認します。 Jakob の患者の結果は近い場所にいるため、お客様はスムーズに連絡を取り合っています。
 
 ## <a name="priority-notifications"></a>優先度通知
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 

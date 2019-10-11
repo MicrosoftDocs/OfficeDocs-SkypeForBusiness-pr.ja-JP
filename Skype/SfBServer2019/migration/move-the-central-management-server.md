@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype for Business Server 2019 に移行した後は、従来のサーバーを削除する前に、中央管理サーバーを Skype for Business Server 2019 フロントエンドサーバーまたはプールに移動する必要があります。
-ms.openlocfilehash: 7ba82a3748a98e2f1bc25cd7c48eceabdf76ac19
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0e13dab272a60967c0ccc676a47954b75170eeb3
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244506"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434942"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>従来のサーバーの全体管理サーバーを Skype for Business Server 2019 に移動する
 
@@ -67,7 +67,7 @@ Skype for Business Server 管理シェルで Windows PowerShell コマンドレ�
 
 1. 中央管理サーバーとなる Skype for Business Server 2019 サーバーで、Skype for Business Server 管理シェルが**RTCUniversalServerAdmins**グループのメンバーとしてインストールされているコンピューターにログオンします。 SQL Server データベース管理者のユーザー権限と権限も必要です。 
     
-2. Skype for Business Server 管理シェルを開きます。
+2. Skype for Business Server 管理シェル (管理者として実行) を開きます。
     
 3. Skype for Business Server 管理シェルで、次のように入力します。 
     

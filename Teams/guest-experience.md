@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dddd12a291ece817669114e0b836e6df56d2610
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241998"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434660"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
@@ -32,7 +32,7 @@ ms.locfileid: "36241998"
     
 すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 次の例のチームのスクリーンショットに示されているように、バナーは、各ゲストの名前の横に「このチームのゲスト」と "(ゲスト)" ラベルが表示されることを示します。
     
-![バナー通知のゲストユーザーを示すスクリーンショット](media/guest-experience-image2.png "スクリーンショットは、Northwind Traders のマーケティングチャネルの一部を示しています。上部のバナーには、ゲストであるゲストとゲストであるユーザーが名前の横にある WORD GUEST で識別されていることを示す通知が表示されています。")
+![バナー通知のゲストユーザー](media/guest-experience-image2.png "のスクリーンショットに、Northwind Traders のマーケティングチャネルの一部が表示されていることを示すスクリーンショット。上位のバナーに、ゲストとゲストであるユーザーが含まれていることを示す通知が表示されています。名前の横にある [word ゲスト] を選びます。")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>チームメンバーとゲストの機能の比較
 
@@ -54,6 +54,7 @@ ms.locfileid: "36241998"
 |チームを作成する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |パブリック チームを検出して参加する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |組織図を表示する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|インライン翻訳を使用する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 次の表は、ゲストが利用できる通話と会議の機能を示しています。
 

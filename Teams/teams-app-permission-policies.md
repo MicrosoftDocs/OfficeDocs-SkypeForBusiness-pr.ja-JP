@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 02f626db773adc2d64547397c793d214187758de
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: b6b655fd60687cb24ed6c2c8721bd889ea97548b
+ms.sourcegitcommit: cf97815f18b08fd67479844170540edc7b467099
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483736"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37449723"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
@@ -49,7 +49,7 @@ ms.locfileid: "36483736"
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**チームアプリ** > の**アクセス許可ポリシー**] に移動します。
 2. [**組織全体の設定**] を選択します。 次に、パネルで設定を構成することができます。 
-![組織全体のアプリ設定のスクリーンショット](media/app-permission-policies-org-wide-settings.png)
+    ![新しいアプリのアクセス許可ポリシーのスクリーンショット](media/app-permission-policies-org-wide-settings.png)
 3. サード**パーティ**製のアプリで、次の設定を有効または無効にして、サードパーティ製のアプリへのアクセスを制御します。
 
     - **Teams でサードパーティまたはカスタムアプリを許可する**: ユーザーがサードパーティアプリを使うことができるか、カスタムアプリを使用できるかを制御します。

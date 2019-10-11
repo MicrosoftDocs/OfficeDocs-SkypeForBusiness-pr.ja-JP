@@ -15,12 +15,12 @@ ms.collection:
 description: 自分の組織での Teams のアクティビティの概要を把握するために、Microsoft Teams 管理センターにある Teams の使用状況レポートを、どのように使用するかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 512b7844f1eb659758b95b8f0924506ce6542f41
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131602"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439574"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
 
@@ -31,7 +31,7 @@ Microsoft Teams 管理センターにある Teams の使用状況レポートは
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**分析] & [レポート** > の**利用状況レポート**] をクリックします。 [**レポートの表示**] タブの [**レポート**] で、[**チームの利用状況**] を選択します。
 2. [**日付の範囲**] の下で、範囲を選択して、[**レポートの実行**] をクリックします。
 
-    ![吹き出し付きの teams 管理センターの teams 利用状況レポートのスクリーンショット](../media/teams-reports-teams-usage-with-callouts.png "吹き出し付きの teams 管理センターの teams 利用状況レポートのスクリーンショット")
+    ![[チーム管理センター] の [チームの利用状況] レポートのスクリーン]ショット。吹き出しが含ま(../media/teams-reports-teams-usage-with-callouts.png "れる teams 管理センターのチーム利用レポートのスクリーン")ショット
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
@@ -44,6 +44,8 @@ Microsoft Teams 管理センターにある Teams の使用状況レポートは
 |**5**   |表によって、チームごとの使用状況の内訳が表示されます。 <ul><li>**チーム名**は、チームの表示名です。 チーム名をクリックすると、Microsoft Teams 管理センターのチームの [設定] ページに移動できます。 </li> <li>**プライバシー**では、チームがプライベートなチームであるかパブリックなチームであるかが示されます。</li> <li>**アクティブ ユーザー**は指定された期間でのチーム内のアクティブなユーザーの数です。</li><li>**ゲスト**は指定された期間でのチーム内のゲストの数です。</li> </li> </ul>ユーザーアカウントが Azure AD に存在しなくなった場合は、ユーザー名がテーブルに "--" として表示されることに注意してください。 <br><br>表に希望する情報を表示するには、表に列を追加する必要があります。 |
 |**6**   |[**列の編集**] を選択して表で列を追加または削除します。|
 |**7**   |レポートを CSV ファイルにエクスポートしてオフラインで分析することができます。 [ **Excel にエクスポート**] をクリックし、[**ダウンロード**] タブの [**ダウンロード**] をクリックして、準備ができたらレポートをダウンロードします。<br><br>![エクスポートされたレポートをダウンロードするための [ダウンロード] タブのスクリーンショット](../media/teams-reports-export-to-csv.png)|
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>関連トピック
 

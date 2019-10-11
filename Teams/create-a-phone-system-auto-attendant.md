@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 424b6cea41132bd03b9eecfbd2d387697332505f
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37402016"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434966"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -44,7 +44,7 @@ ms.locfileid: "37402016"
 ## <a name="step-1--get-started"></a>手順 1-はじめに
 
 - 自動応答には、関連するリソースアカウントが必要です。 必要なリソースアカウントとすべてのライセンスの詳細については、「 [Teams のリソースアカウントを管理](manage-resource-accounts.md)する」を参照してください。 
-- 
+ 
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
@@ -88,7 +88,7 @@ ms.locfileid: "37402016"
      > [!Note]
      > **組織内の**ユーザーは、オンラインユーザーまたは Skype For business Server を使用するオンプレミスでホストされているユーザーになることができます。
 
-- **音声機能** 既に作成されている自動応答または通話キューにリンクされているリソースアカウントの名前を選択します。 オペレーターを要求する呼び出し元は、そこにリダイレクトされます。  
+- **音声アプリ** 既に作成されている自動応答または通話キューにリンクされているリソースアカウントの名前を選択します。 オペレーターを要求する呼び出し元は、そこにリダイレクトされます。  
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -100,10 +100,11 @@ ms.locfileid: "37402016"
 > Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
 -->
 
-* * * 
+* * *
 
-![数字3のアイコン。前のスクリーンショット](media/teamscallout3.png)<a name="timezone"> </a>  
-の**タイムゾーン**の吹き出しで、自動応答のタイムゾーンを設定する必要があります。 この設定は、組織の一覧に表示されているメインアドレスのタイムゾーンまたは別のタイムゾーンと同じにすることができます。 各自動応答には、異なるタイムゾーンを割り当てることができます。 自動応答に設定された勤務時間は、このタイムゾーンも使用します。
+<a name="timezone"> </a>
+
+![数字3のアイコン。前のスクリーンショット](media/teamscallout3.png)の**タイムゾーン**の吹き出しで、自動応答のタイムゾーンを設定する必要があります。 この設定は、組織の一覧に表示されているメインアドレスのタイムゾーンまたは別のタイムゾーンと同じにすることができます。 各自動応答には、異なるタイムゾーンを割り当てることができます。 自動応答に設定された勤務時間は、このタイムゾーンも使用します。
 
 * * *
 
@@ -147,7 +148,6 @@ ms.locfileid: "37402016"
 ![数値3のアイコン、前のスクリーンショット](media/teamscallout3.png)の吹き出しテキスト**メッセージを入力**します。このオプションを選択する場合は、提供されたフィールドにシステムで読み上げるテキスト (最大1000文字) を入力します。 たとえば、「Contoso へようこそ」と入力します。 お電話ありがとうございます。 出力は、音声合成ソフトウェアによって作成されます。
 
 * * *
-
 
 「**通話**」セクションでは、次のアクションからの通話の横に行われる処理を選ぶことができます。 設定は、**切断**、**リダイレクト通話**、**再生メニューのオプション**です。
 
@@ -197,13 +197,9 @@ ms.locfileid: "37402016"
 > [!NOTE]
 > キー \* (繰り返し) と\# (戻る) は、システムによって予約されているため、再割り当てすることはできません。 音声認識が有効になっている場合、* を押すと「繰り返し」、# を押すと「戻る」の音声コマンドに対応します。
 
-![番号3のアイコン、前のスクリーンショットの吹き出し](media/teamscallout3.png)
+![数値3のアイコン、前のスクリーンショット](media/teamscallout3.png)の吹き出し。メニューオプションを設定するには、[ **+** ] をクリックして、次のオプションの情報を入力します。
 
-メニューオプションを設定するには、「 **+ ダイヤルキーの割り当て**」をクリックして、次のオプションの情報を入力します。
-
-![前のスクリーンショットの吹き出しである、数値4のアイコン](media/teamscallout4.png) 
-
-オプションの**音声コマンド**列は、最大64文字で、"カスタマーサービス" や "操作と根拠" などの複数の単語を含めることができます。 音声認識が有効になっている場合は、その名前が自動的に認識され、発信者は3、「3」と言って、または「カスタマーサービス」と言って、キー3にマップされているオプションを選択できます。
+![数字4のアイコン: 1 つのオプションの前の](media/teamscallout4.png)スクリーンショットの**音声コマンド**列には、64文字まで入力でき、"カスタマーサービス" や "操作と根拠" など、複数の単語を含めることができます。   音声認識が有効になっている場合は、その名前が自動的に認識され、発信者は3、「3」と言って、または「カスタマーサービス」と言って、キー3にマップされているオプションを選択できます。 このテキストは、サービス確認プロンプトの音声合成によっても表示されます。これは、「通話をオペレーターに転送する」のようなものである可能性があります。
 
 ![5のアイコン。前のスクリーンショット](media/teamscallout5.png)の吹き出し。対応するキーが押されている場合、または音声認識を使用してオプションを選択した場合に、通話の**転送**先のオプションセットを設定します。 次の場所に呼び出しを送信できます。
 
@@ -219,13 +215,14 @@ ms.locfileid: "37402016"
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![1つ前のスクリーンショットの吹き出しである、数字6のアイコン](media/teamscallout6.png) 
-
-**ディレクトリ検索**このセクションでは、自動応答の**内線番号**による**ダイヤル**を有効にすることができます。 [オプションのダイヤルスコープ] ページでは、これらのサービスに含まれていないユーザーを設定することができます。 [ディレクトリ検索] は、既定では **[なし**] に設定されています。
+![数字6のアイコン、前のスクリーンショット](media/teamscallout6.png)**ディレクトリ検索**の吹き出しこのセクションでは、自動応答の**内線番号**による**ダイヤル**を有効にすることができます。   [オプションのダイヤルスコープ] ページでは、これらのサービスに含まれていないユーザーを設定することができます。 [ディレクトリ検索] は、既定では **[なし**] に設定されています。
 
 **名前でダイヤル**このオプションを有効にすると、発信者は**名前でダイヤル**を使用して組織内のユーザーを検索できます。 ユーザー名と音声認識がユーザーに一致していることを示します。 [オプションのダイヤルスコープ] ページでは、これらのサービスに含まれていないユーザーを設定することができます。 電話システムのライセンスを持っているか、または Skype for Business Server を使用してオンプレミスでホストされているすべてのユーザーは、資格のあるユーザーであり、名前でダイヤルすることができます。
 
 **内線番号でダイヤル**このオプションを有効にすると、発信者は内線番号を**使用するダイヤルプランを構成**している場合は、電話の内線番号を入力することで、組織内のユーザーと接続できます。 オプションの [ダイヤルスコープ] ページで、[利用可能] または [**ダイヤルイン] の内線番号**として表示されるユーザーを選ぶことができます。 電話システムのライセンスを持っているか、または Skype for Business Server を使用してオンプレミスでホストされているすべてのユーザーは、資格のあるユーザーであり、内線でダイヤルすることができます。
+
+> [!NOTE]
+> **名前のダイヤル**と**内線**機能の両方を使用する場合は、ユーザーの拡張子がわかっている場合に、呼び出し元に対してメニューオプション3を選ぶように指示するメインの自動応答を作成し、オプション3を tran に設定することができ**ます。** 内線番号による自動応答が有効になっている sfer に通話を発信します。 
 
 * * *
 
@@ -328,7 +325,9 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 **カスタムユーザーグループ**このオプションでは、組織内で既に作成されている Office 365 グループ、配布リスト、またはセキュリティグループを検索して選択することができます。 ユーザーは、選択した Office 365 グループ、配布リスト、またはセキュリティグループに含まれており、**電話システムのライセンスを持つオンラインユーザー**であるか、Skype For business Server を使用してオンプレミスでホストされている場合、ディレクトリに追加されます。 複数の Office 365 グループ、配布リスト、セキュリティグループをディレクトリに追加することができます。
 
+<a name="dialscope"> </a>
 
+このページでは、組織内のユーザーが自分の組織に電話をかけているユーザーに対して、自分のディレクトリに一覧表示され、名前でダイヤルできるように設定することができます。
 
 ![数字2のアイコン、前のスクリーンショット](media/teamscallout2.png)の吹き出しは、このセクションのオプションを**除外**することで、特定のユーザーまたはユーザーのグループを組織のディレクトリから除外できるようにします。
 
@@ -424,6 +423,6 @@ PowerShell を使用して自動応答を作成し、設定することもでき
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[クラウドの自動応答とは？](what-are-phone-system-auto-attendants.md)
+[クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
 
 [小規模企業の例—自動応答を設定する](/microsoftteams/tutorial-org-aa)  

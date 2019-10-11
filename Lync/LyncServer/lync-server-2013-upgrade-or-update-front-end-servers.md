@@ -10,12 +10,12 @@ ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99c91a4f5fcae9f8d78bf01b19a17795916fb660
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e4edb5ea009960fe0456f266a428431049f542b
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848367"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ Enterprise Edition プールのフロントエンドサーバーは、*アップ
 
 サーバーをアップグレードする場合は、一度に1つのアップグレードドメインを使用する必要があります。 各サーバーを1つのアップグレードドメインに移動してアップグレードし、それを再起動してから別のアップグレードドメインに移行します。 これまでにアップグレードしたアップグレードドメインとサーバーを常に把握しておいてください。 各サーバーをアップグレードする場合は、次のフローチャート図を使用します。
 
-![42ed59a4-1c26-49f7-ade4-a5a788457ab9](images/JJ204736.42ed59a4-1c26-49f7-ade4-a5a788457ab9(OCS.15).jpg "42ed59a4-1c26-49f7-ade4-a5a788457ab9")
+:::image type="content" source="images/UpgradeUpdateFrontEndServerslync2013.png" alt-text="フロントエンドサーバーのアップグレードまたは更新":::
 
 <div>
 
@@ -61,7 +61,7 @@ Enterprise Edition プールのフロントエンドサーバーは、*アップ
         
 
         > [!NOTE]  
-        > スケジュールされたサーバーのダウンタイムにサーバーのアップグレードを実行している場合は、次のように、"-<STRONG>正常</STRONG>" <STRONG></STRONG>パラメーターを指定せずにこのコマンドレットを実行できます。 これにより、すべての既存のサービスリクエストがいっぱいになるのを待たずに、すぐにサービスが終了します。
+        > スケジュールされたサーバーのダウンタイムにサーバーのアップグレードを実行している場合は、次のように、"-<STRONG>正常</STRONG>" パラメーターを指定せずにこのコマンドレットを実行でき<STRONG>ます。</STRONG> これにより、すべての既存のサービスリクエストがいっぱいになるのを待たずに、すぐにサービスが終了します。
 
         
         </div>

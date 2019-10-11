@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 無料の仮想ユーザーライセンスについて説明します。
-ms.openlocfilehash: c8d196d876ed8df32f28aabf96a5817be0195145
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 96ea4ed71eac8c6b67e4fd4c7964591dcef1f635
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447913"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435127"
 ---
 # <a name="phone-systemvirtual-user-license"></a>電話システム–仮想ユーザーライセンス 
 
@@ -50,6 +50,9 @@ Contoso、Inc. は、電話システム (各従業員に1つ) が含まれてい
 Contoso は、自動応答と通話キューシステムを再設計することを検討する必要があります。 使用する電話番号の数が少なく、電話番号を必要としない下位ノードを使用している場合、実装が簡素化され、コストが削減されます。 
 
 ## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a>電話システムを取得する方法–仮想ユーザーライセンス 
+
+> [!NOTE] 
+> この手順に従うときは、プレビューモードをオフにして、電話システム仮想ユーザーライセンスを購入します。
 
 1. Microsoft 365 管理センターにサインインします。
 2. **Billing** > **Purchase services** > **アドオンサブスクリプション**に移動する

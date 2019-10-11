@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ビジネス向けに電話システム (クラウド PBX) を計画してセットアップする方法について説明します。 '
-ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328366"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434866"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
 
@@ -35,7 +35,7 @@ PBX は、社内の電話システムです。 Office 365 アドオンの電話�
   
 電話システムアドオンを使用すると、Skype for Business を使用して、通話の発信、受信、着信の転送、通話の転送、ミュートやミュート解除などの基本的な作業を、インターネットアクセスでほぼどこからでも行うことができます。 世界中どこでも利用できます。 
   
-詳細については、「[電話システムの価格](https://products.office.com/skype-for-business/cloud-pbx#requirements)を確認する」を参照してください。
+詳細については、「[電話システムの価格](https://products.office.com/microsoft-teams/voice-calling#requirements)を確認する」を参照してください。
   
 ## <a name="phone-system-in-office-365-features"></a>Office 365 での電話システムの機能
 
@@ -44,7 +44,7 @@ PBX は、社内の電話システムです。 Office 365 アドオンの電話�
 |||
 |:-----|:-----|
 |**Office 365 での電話システムの機能** <br/> |**説明** <br/> |
-|[クラウドの自動応答とは？](what-are-phone-system-auto-attendants.md) <br/> |クラウド自動応答を使用すると、外部および内部の発信者がメニューシステムを通じて組織内の会社のユーザーや部署に通話を発信したり、転送したりできるように、組織のメニューシステムを作成することができます。  <br/> |
+|[クラウドの自動応答とは](what-are-phone-system-auto-attendants.md) <br/> |クラウド自動応答を使用すると、外部および内部の発信者がメニューシステムを通じて組織内の会社のユーザーや部署に通話を発信したり、転送したりできるように、組織のメニューシステムを作成することができます。  <br/> |
 |Answer/initiate (名前と電話番号)  <br/> |着信した通話にタッチで応答し、完全な電話番号にダイヤルするか、Skype for Business または Outlook で名前をクリックして、発信通話を発信します。  <br/> |
 |[Skype for Business の着信の転送オプションを設定する](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |サポート担当者の代わりに電話をかけたり、通話に応答したりします。 通知は、通話に応答したり、他のユーザーに対して発信したりするときに、すべての参加者に対して明確に表示されます。  <br/> |
 |[着信の転送と同時呼び出し](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |これらの機能により、通話をどこでも使えるように転送ルールを設定できます。また、着信を同僚やボイスメールに転送することもできます。  <br/> |
@@ -80,7 +80,7 @@ PBX は、社内の電話システムです。 Office 365 アドオンの電話�
     
 会社で電話システムを計画してセットアップする場合は、次の記事を参照してください。
 
-- [通話プランを使用した電話システム](calling-plan-landing-page.md)
+- [通話プランが設定された電話システム](calling-plan-landing-page.md)
 
 - [通話プランを](set-up-calling-plans.md)セットアップする: この記事では、電話番号を設定するか、既存の電話番号を Skype for business に移行するための詳しい手順について説明します。
     

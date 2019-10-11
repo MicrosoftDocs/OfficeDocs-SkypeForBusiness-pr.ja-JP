@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft Teams 管理センターの Teams ユーザーアクティビティレポートを使用して、組織内のユーザーが Teams をどのように使用しているかを確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd8c33bfa1ebfbeb4ba4c79827c13e4c33f9a340
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: a478e99037194381421f76ce4856f219ef9dd0db
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131601"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439563"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams ユーザー アクティビティ レポート
 
@@ -31,7 +31,7 @@ Teams ユーザーアクティビティレポートは、組織内のユーザ�
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**分析] & [レポート** > の**利用状況レポート**] をクリックします。 [**レポートの表示**] タブの [**レポート**] で、[**チームユーザーアクティビティ**] を選択します。
 2. [**日付の範囲**] の下で、範囲を選択して、[**レポートの実行**] をクリックします。
 
-    ![吹き出し付きの teams 管理センターの teams ユーザーアクティビティレポートのスクリーンショット](../media/teams-reports-user-activity-with-callouts.png "吹き出し付きの teams 管理センターの teams ユーザーアクティビティレポートのスクリーンショット")
+    吹き出しが含まれる teams(../media/teams-reports-user-activity-with-callouts.png "管理センターの teams ユーザーアクティビティレポートのスクリーンショット")のスクリーンショット。 ![teams 管理センターの teams ユーザーアクティビティレポートのスクリーンショット]
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
@@ -44,6 +44,8 @@ Teams ユーザーアクティビティレポートは、組織内のユーザ�
 |**5**   |この表では、ユーザーごとの使用状況の内訳を示します。   <ul><li>[**表示名**はユーザーの表示名です。 表示名をクリックすると、Microsoft Teams 管理センターのユーザーの設定ページに移動できます。</li><li>" **1:1 calls** " は、指定した期間にユーザーが参加した1:1 通話の数です。</li><li>[**チャネルメッセージ**数」は、指定した期間にユーザーがチームチャットに投稿した一意のメッセージの数です。</li> <li>"**チャットメッセージ**" は、指定された期間中にユーザーがプライベートチャットに投稿した一意のメッセージの数です。</li>  <li>[**最後のアクティビティ**] は、ユーザーが Teams アクティビティに参加した最後の日付 (UTC) です。</li> </ul>ユーザーアカウントが Azure AD に存在しなくなった場合は、ユーザー名がテーブルに "--" として表示されることに注意してください。 <br><br>表に希望する情報を表示するには、表に列を追加する必要があります。
 |**6**   |[**列の編集**] を選択して表で列を追加または削除します。 |
 |**7**   |レポートを CSV ファイルにエクスポートしてオフラインで分析することができます。 [ **Excel にエクスポート**] をクリックし、[**ダウンロード**] タブの [**ダウンロード**] をクリックして、準備ができたらレポートをダウンロードします。<br><br>![エクスポートされたレポートをダウンロードするための [ダウンロード] タブのスクリーンショット](../media/teams-reports-export-to-csv.png) <br>Excel でレポートを表示すると、 **id**列も表示されます。これはチーム id を表します。 チーム ID は、通常は英数字の文字列です。 **Id**列に**\n**と表示されている場合は、ユーザーが情報を削除するように要求したことを意味します。 ||
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>関連トピック
 

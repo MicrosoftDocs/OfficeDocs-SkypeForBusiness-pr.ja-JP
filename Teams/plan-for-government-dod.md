@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 210712e29fb64f587f2d1f2c9281e6383da11da1
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: d0071afd7198c56dcfb52d3a62cb4829e0c4d020
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767185"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435219"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Microsoft 365 Government-DoD の展開計画
 
@@ -108,7 +108,7 @@ Microsoft 365 Government –米国政府のお客様向けの詳細について�
 | | VoIP 通話 | 利用可能 |
 | | Skype for ビジネス-チーム通話 | 利用可能 |
 | | 通話プラン | 利用不可 |
-| | 電話会議 (会議の参加者に PSTN 経由での参加を許可する) | 政府バックログの場合 |
+| | 電話会議 (会議の参加者に PSTN 経由での参加を許可する) | 利用可能 |
 | | Microsoft Phone システムのダイレクトルーティング | 政府バックログの場合 |
 | | PSTN 発信者のロビー | 政府バックログの場合 |
 | | 通話キュー | 政府バックログの場合 |

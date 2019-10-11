@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Skype for Business Server でのフロントエンドプールの管理について説明します。これには、プールの管理、クォーラムの損失、2つのフロントエンドサーバーのみを含むプールの特別な手順が含まれます。
-ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: d54474b6e3013b2d092f55b80000f5578e266f81
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047094"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435180"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  
@@ -40,7 +40,7 @@ Skype for Business Server では、フロントエンドプールのアーキテ
   
 |プール内のサーバーの合計数  <br/> |プールを初めて起動させるために実行する必要があるサーバー数  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|両面  <br/> |1  <br/> |
 |3  <br/> |3  <br/> |
 |4  <br/> |3  <br/> |
 |5  <br/> |4  <br/> |
@@ -51,6 +51,9 @@ Skype for Business Server では、フロントエンドプールのアーキテ
 |常用  <br/> |個  <br/> |
 |折り  <br/> |ファイブ  <br/> |
 |以内  <br/> |常用  <br/> |
+|16 **Skype For Business Server 2019** <br/> |以内  <br/> |
+
+
    
 その後もプールが起動されるたびに、サーバーの 85% が起動されている必要があります (前出の表を参照)。 この数のサーバーを開始できない場合 (ただし、プールレベルのクォーラムの損失を防ぐために十分なサーバーを起動できます)、 `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery`コマンドレットを使用して、このルーティンググループレベルのクォーラム損失からプールを回復し、進行状況を確認することができます。 このコマンドレットの使い方の詳細については、「 [CsPoolRegistrarState をリセット](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)する」を参照してください。 
   
@@ -63,15 +66,19 @@ Skype for Business Server では、フロントエンドプールのアーキテ
   
 |プール内のフロントエンドサーバーの合計数  <br/> |プールを機能させるために実行する必要があるサーバーの数  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|両面  <br/> |1  <br/> |
 |3 ～ 4  <br/> |任意の 2 台  <br/> |
 |5 ～ 6  <br/> |任意の 3 台  <br/> |
 |7  <br/> |任意の 4 台  <br/> |
 |8 ～ 9  <br/> |最初の 7 台のうちの任意の 4 台  <br/> |
 |10 ～ 12  <br/> |最初の 9 台のうちの任意の 5 台  <br/> |
+|Skype for business **Server 2019 用**12-16  <br/> |最初の12台のサーバーのうちの7台  <br/> |
    
 上の表では、"first servers" は、プールが初めて開始されたときに最初に作成されたサーバーです。 これらのサーバーを確認するには、 `Get-CsComputer` `-PoolFqdn`オプションを指定してコマンドレットを使用します。 このコマンドレットはサーバーをトポロジ内に出現した順に表示するので、そのリストの先頭にある方が最初のサーバーです。
   
+> [!IMPORTANT]
+> [Skype For Business Server 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019)で、フロントエンドサーバーの最大数が16に増加されました
+> 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>プールが機能していることを確認するための追加手順
 
 フロント エンド プールを確実に機能させておくために、他にもいくつかの要因を監視する必要があります。

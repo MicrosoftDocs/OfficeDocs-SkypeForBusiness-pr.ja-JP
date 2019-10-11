@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc74de2c5cc6ae294b69f31f7c25e652da4ea397
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 446ff5c3dc5d7e6a33f5d6b3a44a07a8f6514f02
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245076"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434721"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 
@@ -36,7 +36,7 @@ ms.locfileid: "36245076"
 |ハードディスク    | 3.0 GB の空きディスク領域        |
 |Display    |   1024 x 768 画面の解像度 |
 |グラフィックスハードウェア |  最小 128 MB のグラフィックスメモリ
-|オペレーティング システム  |    Windows 10、Windows 8.1、Windows 8、Windows 7 Service Pack 1 (32 ビットおよび64ビット) 最適なエクスペリエンスを実現するには、オペレーティングシステムの最新バージョンを使用します。|
+|オペレーティング システム  |    Windows 10、Windows 8.1、または Windows 7 Service Pack 1 (32 ビットおよび64ビット)。 最適なエクスペリエンスを実現するには、オペレーティングシステムの最新バージョンを使用します。|
 |.NET バージョン    |  .NET 4.5 CLR 以降が必要       |
 |ビデオ    |  USB 2.0 ビデオカメラ       |
 |デバイス    |   標準のラップトップカメラ、マイク、スピーカー    | 

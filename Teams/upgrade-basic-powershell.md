@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 945422f6bb61fca8d2b17379a7c9bf4695e7dd09
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 397cabcbba35c153d234bc4355d12e4eb44b5c57
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236543"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435091"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>ユーザーを Skype for Business Online から Microsoft Teams にアップグレードする
 
@@ -36,6 +36,6 @@ ms.locfileid: "36236543"
 
 | アップグレードの基本手順# | Mode | PowerShell コマンド |
 |---|---|---|
-| [5](upgrade-basic.md#step-5) | 諸島 + Skype for Business ユーザーに通知する<br>(現在、ユーザーが現在**諸島**モード (既定) である場合は、このコマンドを使用します)。 | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*($SipAddress = ' TestUser@contoso.com ' など)*<br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress``` |
-| [5](upgrade-basic.md#step-5) | Skype for Business で Skype for business のユーザーに通知する <br>(現在、ユーザーが**Skype For business のみ**のモードである場合は、このコマンドを使用) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingSfBChatSfB -Identity $SipAddress``` |
-| [7](upgrade-basic.md#step-7) | Teams Only | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity $SipAddress``` |
+| [5](upgrade-basic.md#step-5) | 諸島 + Skype for Business ユーザーに通知する<br>(現在、ユーザーが現在**諸島**モード (既定) である場合は、このコマンドを使用します)。 | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*($SipAddress = ' TestUser@contoso.com ' など)* |
+| [5](upgrade-basic.md#step-5) | Skype for Business で Skype for business のユーザーに通知する <br>(現在、ユーザーが**Skype For business のみ**のモードである場合は、このコマンドを使用) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress```  |
+| [7](upgrade-basic.md#step-7) | Teams Only | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress```  |
