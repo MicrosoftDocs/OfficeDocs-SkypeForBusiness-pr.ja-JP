@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: f5e78b9731a84841291a93aaeb9e0a25a084c87b
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 98f7b4871133840bc531f563652b335bf706e37f
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439530"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468478"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
@@ -111,7 +111,7 @@ Microsoft Teams の会議室は、部屋のサイズに基づいてさまざま�
 
 #### <a name="usb-extenders"></a>USB エクステンダー
 
-- タブレットドック上の USB ポートは、USB 3.0 に対応しています。 USB 2. x エクステンダーを使うことができます。 これにより、usb 3.0 周辺機器にはお勧めできません。これは、far 側での USB 2 の速度に限定されます。
+- タブレットドック上の USB ポートは、USB 3.0 に対応しています。 USB 2. x エクステンダーは使用できますが、これによって USB 2 に制限されます。 USB 3.0 周辺機器には、エクステンダーは推奨されません。
 - Extender は USB 2.0 以降の仕様を満たしている必要があります。
   - タブレットドックは、外部 USB ハブ拡張機能の少なくとも2つのステージをサポートしています。 複数の USB ハブを連続して接続する場合は、ベンダーの製造元に問い合わせて、シリーズの接続がサポートされているかどうかを確認します。
   - 室内での有線 GbE 接続。 適切な長さのイーサネットケーブル。

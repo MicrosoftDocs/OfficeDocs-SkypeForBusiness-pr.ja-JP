@@ -18,19 +18,19 @@ description: IT 管理者は、他のドメインの外部アクセス (フェ�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: f2252b14343aa68e4a1dd97bc918b5c9cc30d727
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305763"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468500"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams で外部アクセスを管理する
 ======================================================
 
 Microsoft Teams の外部アクセスを使用すると、他のドメインの Teams ユーザーは、チャットや通話に参加することができます。 また、引き続き Skype for Business Online を使用している他の外部ユーザー、オンプレミスの skype for Business、または Skype の参加を許可することもできます。
 
-次の場合、この記事で説明する手順をご利用ください。
+外部アクセスは、次の場合に使用します。
   
 - 組織内のさまざまなドメインにユーザーがいる場合: たとえば、Rob@contoso.com と Ann@northwindtraders.com。
 
@@ -66,7 +66,7 @@ Microsoft Teams の外部アクセスを使用すると、他のドメインの 
 | ユーザーはチームリソースにアクセスできます | いいえ | はい |
 | ユーザをグループチャットに追加できます | いいえ | はい |
 | ユーザーを会議に追加できる | はい | 可 |
-| 外部ユーザーとのチャットに追加のユーザーを追加できる | なし<sup>3</sup> | N/A |
+| 外部ユーザーとのチャットに追加のユーザーを追加できる | なし<sup>3</sup> | 該当なし |
 | ユーザーは外部関係者として識別される | はい | 可 |
 | プレゼンスが表示される | はい | 可 |
 | 不在時のメッセージが表示される | いいえ | はい |

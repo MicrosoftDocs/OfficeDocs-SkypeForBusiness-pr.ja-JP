@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: この記事では、Microsoft Teams Rooms の既知の問題を、機能の領域ごとに説明しています。
-ms.openlocfilehash: 3e3da371a294582fc6a56db7e59615fdbe97c48b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: eaf95f8afd470376ee4f14549b50df8b38d93d34
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775196"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468489"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -54,7 +54,7 @@ Microsoft Teams Rooms は、HDMI インジェストの機能 (ビデオ、オー
 
 ***
 
-Room ディスプレイの正面として使用される消費者のテレビは、スタンバイモードからアクティブなビデオソースに自動的に切り替えるために、HDMI のコンシューマーエレクトロニクス制御 (CEC) 機能をサポートしている必要があります。 この機能はすべての TV でサポートされるものではありません。
+会議室の表示の前に、ソースがスタンバイモードから復帰したときに、アクティブなビデオソース (MTR 本体など) に自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアによって機能がサポートされている場合は、Microsoft Teams ルームソフトウェアでサポートされています。 Room ディスプレイの正面に使用されている消費者のテレビでは、HDMI のコンシューマーエレクトロニクス制御 (CEC) 機能をサポートしている必要があります。  選択された dock またはコンソール (CEC をサポートしていない可能性があります) によっては、必要な動作を実現するために、 [HD CTL 100 の extron](https://www.extron.com/article/hdctl100ad)のワークスペースコントローラーが必要になることがあります。 
 
 ***
 
@@ -67,6 +67,9 @@ Microsoft Teams の会議室デバイスがドメインと信頼できなくな�
 Windows 10 Enterprise Anniversary エディション (英語版、バージョン 1607) の 64 ビット バージョンは Microsoft Teams Rooms リリース 3.0.12.0 ではサポートされなくなりました。 
 ***
 Microsoft Teams のルームは、複数のウィンドウで表示されるアプリケーションであり、アプリが正常に動作するためには、デバイスの HDMI ポートに接続するために、room ディスプレイの前面が必要です。 テストしていて、ディスプレイをまだ購入していない場合は、HDMI ディスプレイが接続されているか、ダミー HDMI プラグを使用していることを確認してください。
+***
+Windows 10 1903 は、グラフィックスドライバーの問題により、Crestron に含まれている Microsoft Teams の会議室のデバイスではまだ提供されていません。
+
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>関連項目
