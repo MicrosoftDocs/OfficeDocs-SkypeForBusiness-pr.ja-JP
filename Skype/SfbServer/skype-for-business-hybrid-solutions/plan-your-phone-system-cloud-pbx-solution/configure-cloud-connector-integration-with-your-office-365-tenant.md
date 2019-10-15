@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Cloud Connector と Office 365 テナントの統合を構成する方法を説明します。
-ms.openlocfilehash: 1742fbadec95eb72e46fb6cc46f006e1baeaf8f1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287616"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508812"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
@@ -112,7 +112,7 @@ Office 365 管理ポータルにログインし、オンラインの音声サー
   ```
 
     > [!NOTE]
-    > また、SIP アドレス、ユーザー プリンシパル名 (UPN)、ドメイン名とユーザー名 (domain\username)、および Active Directory での表示名 ("小林 良太") でユーザーの ID を指定することもできます。 
+    > ユーザー id は、ユーザーの SIP アドレス、ユーザープリンシパル名 (UPN)、またはユーザーの Active Directory 表示名 (たとえば、"Bob 友野") を使用して指定できます。 アスタリスク (\*) 文字は、ユーザー id として表示名と共に使うこともできます。 たとえば、"\*smith" という id を指定すると、"smith" という文字列で終わる表示名を持つすべてのユーザーが返されます。
   
 これで、次のスクリプトを使ってユーザーが追加され有効化されたことを確認できます。
   
@@ -169,7 +169,7 @@ P2P 通話が PSTN 会議にエスカレートされると、Skype for Business 
     
     ライセンスの割り当てが必要になるのは、ユーザーが Skype for Business online ディレクトリに伝播する場合のみです。 作成したアカウントに Office 365 ライセンス (E5 など) を割り当て、その変更が反映されるまで1時間ほどかかります。次のコマンドレットを実行して、ユーザーアカウントが Skype for Business online ディレクトリに正しくプロビジョニングされていることを確認します。このアカウントのライセンス。
     ```
-   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. グローバルまたはユーザーの管理者資格情報を使用してテナント Azure AD リモート PowerShell セッションを開始し、次のコマンドレットを実行して、手順1で構成された Azure AD ユーザーアカウントの部門を "HybridMediationServer" に設定します。

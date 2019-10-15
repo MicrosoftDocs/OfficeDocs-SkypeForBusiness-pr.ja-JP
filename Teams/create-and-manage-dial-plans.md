@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Office 365 で通話のダイヤル プラン (PSTN の通話のダイヤル プラン) を作成する方法とそれを管理する方法について説明します。 '
-ms.openlocfilehash: 5254a2d63abeffa0b3452ed309d49272affcaf05
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6c432f6494355e9ae0d6a46cc787814bee252a29
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221923"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508791"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -126,7 +126,7 @@ Windows PowerShell の起動の詳細については、「[単一の Windows pow
 - ダイヤル プランの有効な設定をテストするには、次を実行します。
     
   ```
-  Test-CsEffectiveTenantDialPlan -DialedNumber 14255551234 -Identity 1849827b-a810-40a8-8f77-e94250d4680b_US_TenantDialPlanRedmond
+  Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
     その他の例とパラメータについては、「[Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx)」をご覧ください。
