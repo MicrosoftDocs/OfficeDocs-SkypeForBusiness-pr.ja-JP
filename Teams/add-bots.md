@@ -7,19 +7,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: lucarras, jakon
 description: 個人チャット、グループチャット、チャネル用に Microsoft Teams でボットを追加する方法と、個人チャット、グループチャット、チャネル用のボットをアップロードする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f5f031b01837980897f2c1f8ad5d306e056257b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7837fd3a832a1764cfde3968b73337069762dab3
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239058"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516162"
 ---
 <a name="add-bots-for-personal-chats-group-chats-and-channels-in-microsoft-teams"></a>Microsoft Teams でパーソナルチャット、グループチャット、チャネルのボットを追加する
 ==========================================================
@@ -62,7 +61,7 @@ Microsoft ボットフレームワークを使用して、LOB アプリケーシ
 
 1. [ボットのアプリパッケージを作成](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)したら、Teams を開き、ボットをアップロードするチームを参照します。
 2. **[App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)** のアプリを Teams に追加します。
-3. App Studio で、[マニフェスト**** エディター] タブの![スクリーンショットを選択します。](media/Adding_Bot_To_Teams.png)
+3. App Studio で、 **[マニフェストエディター** ] タブの![スクリーンショットを選択します。](media/Adding_Bot_To_Teams.png)
 4. ボットを追加するには、[機能] でボットを選択して、既存のボットを追加します。 次に、既存のボットを選択するか、既存のボットの Id を入力します。
 ![既に作成したボットの選択を表示します。](media/Select_Existing_Bot.png)
 5. アプリ パッケージの場所を参照、選択し、**開く**を選択します。

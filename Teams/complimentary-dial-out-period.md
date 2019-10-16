@@ -9,7 +9,6 @@ ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: お客様は、Skype for Business Online および Microsoft Teams PSTN サービスの使用条件およびお客様のボリュームライセンス契約に従って、Office 365 の通話プランと Office 365 電話会議を使用できます。
-ms.openlocfilehash: 4dcc4cbd85c8dbc9b821fd3cd1905c0270dce08c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236946"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516899"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 
@@ -57,7 +56,7 @@ Office 365 電話会議サービスを採用しているお客様の場合、Mic
 > [!NOTE]
 > Skype for Business 管理センターでは、ダイヤルアウトの分プールに対する使用状況を監視できます。 Microsoft Teams & Skype 管理センターで、**従来のポータル** > **レポート** > **PSTN 分プール**に移動します。 この無料の分数のプールには、"国と地域を対象とした発信通話" として報告されます。
 
-テナントのダイヤルアウト分数プールの使用率が 80% と 100% に達した場合、メール通知は、特定の顧客のすべてのテナント管理者に送信されます。
+テナントのダイヤルアウト分数プールの使用率が80% と100% に達した場合、メール通知は、特定の顧客のすべてのテナント管理者に送信されます。
 
 1分あたりのダイヤルアウト通話 (テナントのダイヤルアウト分プールを超える通話、または国と地域の一覧にない宛先への呼び出し) については、通話とその関連料金は主に通話の発信先に基づき、国には含まれません。または、ダイヤルアウト通話を開始した開催者または参加者の地域。 たとえば、フランスの電話番号への通話は、米国内の会議出席者によって開始された場合も、フランスの場合も、同じ料金で課金されます。
 

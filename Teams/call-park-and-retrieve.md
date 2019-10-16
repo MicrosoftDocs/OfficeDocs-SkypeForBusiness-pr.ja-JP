@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: '[コールパーク] を使って、クラウドの Teams サービスで通話を保留にします。'
-ms.openlocfilehash: 01d46aff527a0e846b6bb552f5b3241deb3d9c14
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483424"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517031"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 

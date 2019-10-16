@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: サイト有効化のプレイブックをダウンロードして、チームのロールアウトを計画し、ユーザーの採用、品質、および満足度を向上させることができます。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17b73629aa874232a449605b45f97ea10e445204
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 760beb6b5f786367c76ce9ac2b66d808fa10c6de
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232287"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516001"
 ---
 # <a name="deploy-my-service"></a>サービスを展開する
 
@@ -65,7 +65,7 @@ ms.locfileid: "36232287"
 
 [音声 (プレイブック) のサイト有効化のプレイ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)ブックは Microsoft Excel ブックです。 これら5つの各フォーカス領域は、ブック内の個別のシートであり、展開タスクとアクティビティはそれぞれ次のいずれかのシートにまとめられています。
 
-![サイトの有効化のプレイブックのスクリーンショット](media/deploy-my-service-image1.png "プレイブックのスクリーンショット")
+(media/deploy-my-service-image1.png "プレイブックの")![サイト有効化のプレイブック]のスクリーンショット
 
 > [!NOTE]
 > チームのロールアウトの対象となる範囲内の各サイトについて、個別のプレイブックのインスタンスを作成します。
@@ -84,7 +84,7 @@ ms.locfileid: "36232287"
 
 4. 次に示すように、**サイト名、サイトコード**、計画された**開始日**を入力します。 これは、プレイブック内のすべてのアクティビティについて推奨される期限を調整するため、重要なステップです。
 
-   ![サイト名、サイトコード、計画された開始日の例](media/deploy-my-service-image2.png "ニューヨークのサイト名、サイトコードの NY01、予定されている開始日: 3 月18日の例")
+   サイト![名、サイトコード、計画]された開始日の例 ((media/deploy-my-service-image2.png "ニューヨークのサイト名、サイトコード NY01、予定された開始日: 3 月18日"))
 
 5. 各アクティビティを確認し、必要なアクションを実行して、タイムラインを通して状態を更新します。 次に示すように、状態はグラフィカルに表示されます。
   
@@ -94,18 +94,18 @@ ms.locfileid: "36232287"
 
 6. ステータスは各セクション内でロールアップされ、セクション見出しは次のいずれかのステータスインジケーターで表示されます。 **週単位のステータス**も自動的に更新されます。
 
-![プレイブックの毎週のステータスロールアップのスクリーンショット](media/deploy-my-service-image6.png "プレイブックの毎週のステータスロールアップのスクリーンショット")
+(media/deploy-my-service-image6.png "プレイブックの毎週のステータスロールアップの")[プレイブックスクリーンショットの![毎週のステータスロールアップのスクリーンショット]
 
 > [!TIP]
 > 使用しているすべての場所について、上記の手順を繰り返します。
 
 > [!IMPORTANT]
 > 一部の手順は、すべての場所やサイトに適用されないことがあります。 特定のアクティビティがサイトに関連していない場合は、このアクティビティに**適用しない**ことを選択する必要があります。 プレイブック内の行を削除しないで**ください**。この操作を行うと、ステータスロールアップ数式が機能しなくなります。<br/><br/>
-電話番号の移植や調達など、計画した時間よりも時間がかかる可能性があるアクティビティには注意してください。 これらのアクティビティは、サイト展開のタイムラインに悪影響を与える可能性があります。 アクティビティリストと関連するタイムラインの週を確認して更新して、関係者[](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)が各サイトのステータスと展開スケジュールの誤差を確実に認識できるようにしてください。
+電話番号の移植や調達など、計画した時間よりも時間がかかる可能性があるアクティビティには注意してください。 これらのアクティビティは、サイト展開のタイムラインに悪影響を与える可能性があります。 アクティビティリストと関連するタイムラインの週を確認して更新して、関係者が各サイトのステータスと展開スケジュールの誤差を[確実に認識](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)できるようにしてください。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>展開にサイトの有効化のプレイブックが必要かどうかを決定します。</li><li>展開するすべてのサイトについて、Microsoft Teams のサイト有効化のプレイブックをカスタマイズする責任者を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト有効化のプレイブックをダウンロード</a>します。</li><li>初めてのサイト向けのサイト有効化のプレイブックをカスタマイズします。</li><li>必要に応じて、他のサイトにも同じ手順を繰り返します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト有効化のプレイブックをダウンロード</a>します。</li><li>初めてのサイト向けのサイト有効化のプレイブックをカスタマイズします。</li><li>必要に応じて、他のサイトにも同じ手順を繰り返します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -8,8 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
+- M365-voice
 - M365-collaboration
-- Teams_ITAdmin_Help
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -17,14 +17,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: GCCH および DoD 環境で直接ルーティングを使用して電話会議を使用する方法について説明します。
-ms.openlocfilehash: 54458087b508c607b797cf7e7e877a8a793d8ed8
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36272243"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516736"
 ---
-# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC 高と DoD の直行ルーティングを使用した電話会議
+# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High および DoD のダイレクト ルーティングを使用する電話会議
 
 GCC 高と DoD で直接ルーティングを使用した電話会議により、参加者はスマートフォンデバイスを使って、GCC 高または DoD 組織の Teams 会議に参加することができます。 会議の参加者は、インターネット接続が制限されている場合や、ユーザーが外出中で、Teams へのアクセス権を持っていない場合などのシナリオで、電話デバイスを使って Teams 会議に参加することができます。 参加者は、組織のダイヤルイン電話番号にダイヤルインするか、会議を電話デバイスにダイヤルアウトすることで、会議に参加することを選ぶことができます。
 

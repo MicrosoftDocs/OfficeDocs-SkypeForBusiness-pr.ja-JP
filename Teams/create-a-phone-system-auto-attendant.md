@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434966"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522772"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -219,10 +218,20 @@ ms.locfileid: "37434966"
 
 **名前でダイヤル**このオプションを有効にすると、発信者は**名前でダイヤル**を使用して組織内のユーザーを検索できます。 ユーザー名と音声認識がユーザーに一致していることを示します。 [オプションのダイヤルスコープ] ページでは、これらのサービスに含まれていないユーザーを設定することができます。 電話システムのライセンスを持っているか、または Skype for Business Server を使用してオンプレミスでホストされているすべてのユーザーは、資格のあるユーザーであり、名前でダイヤルすることができます。
 
-**内線番号でダイヤル**このオプションを有効にすると、発信者は内線番号を**使用するダイヤルプランを構成**している場合は、電話の内線番号を入力することで、組織内のユーザーと接続できます。 オプションの [ダイヤルスコープ] ページで、[利用可能] または [**ダイヤルイン] の内線番号**として表示されるユーザーを選ぶことができます。 電話システムのライセンスを持っているか、または Skype for Business Server を使用してオンプレミスでホストされているすべてのユーザーは、資格のあるユーザーであり、内線でダイヤルすることができます。
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+**内線番号でダイヤル**このオプションを有効にした場合 (現在一部のテナントでのみ利用可能)、発信者は電話の内線番号を入力して組織内のユーザーに接続できます。 オプションの [ダイヤルスコープ] ページで、[利用可能] または [**ダイヤルイン] の内線番号**として表示されるユーザーを選ぶことができます。 電話システムのライセンスを持っているか、または Skype for Business Server を使用してオンプレミスでホストされているすべてのユーザーは、資格のあるユーザーであり、内線でダイヤルすることができます。
+
+> [!IMPORTANT]
+> 次のことを確認してください。
+>- 内線番号を使用できるようにするには、 [Microsoft 365 管理センター](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)で割り当てられている電話番号または携帯電話番号の一部として内線番号が指定されている必要があります。  [ユーザー電話番号] フィールドに拡張子を入力するために必要な形式`+<phonenumber>;ext=<extension>`は`x<extension>`、またはのいずれかです。
+>- Teams 管理センターでの内線番号の割り当ては、現在サポートされていません。 [Get-msoluser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) powershell コマンドまたは Microsoft 365 管理センターのいずれかを使用する必要があります。
+>- AAD PhoneNumber 属性と MobilePhone 属性の変更が可能になるまでに最大12時間かかることがあります。
+>- ユーザーの LineUri の内線番号を定義しないでください。 現在、これはサポートされていません。
+>- 自動応答は、ダイヤルの名前または内線番号のいずれかに対して構成することができます。両方は使用できません。
 
 > [!NOTE]
-> **名前のダイヤル**と**内線**機能の両方を使用する場合は、ユーザーの拡張子がわかっている場合に、呼び出し元に対してメニューオプション3を選ぶように指示するメインの自動応答を作成し、オプション3を tran に設定することができ**ます。** 内線番号による自動応答が有効になっている sfer に通話を発信します。 
+> [**名前によるダイヤル**] 機能と [**内線番号**] 機能の両方を使用する場合は、ユーザーの拡張子がわかっている場合に、呼び出し元**に対して**メニューオプションを選ぶように求めるメインの自動応答を作成し、そのオプションを内線番号を使用できる自動応答に通話を転送します。 
 
 * * *
 

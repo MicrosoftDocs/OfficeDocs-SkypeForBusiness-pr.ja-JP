@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+- M365-voice
 f1keywords: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号通知を変更またはブロックする方法について説明します。
-ms.openlocfilehash: 95771336e71e56752483519cd089b1c755ec11d3
-ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
+ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2019
-ms.locfileid: "36622095"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517010"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号通知ポリシーを管理する
 

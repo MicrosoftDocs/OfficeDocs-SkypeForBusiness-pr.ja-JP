@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: 目標を定義し、どのような承認を理解し、トレーニングとサポートを提供することで、ユーザーの導入を推進するための計画を作成します。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 162bb3f2e0b17475618afbb796e9ae8778bdab4a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245846"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516274"
 ---
 # <a name="prepare-my-users"></a>ユーザーを準備する
 
@@ -46,11 +46,11 @@ ms.locfileid: "36245846"
 
 次の図は、Skype for Business から Teams にアップグレードする顧客のための、ビジョンを示すステートメントの例です。
 
-![ビジョンと値を示す2列の表](media/prepare-my-users-new-image1.png "ビジョンのある2列の表 (その理由は何ですか?)(組織レベル) は左側にありますが、その値は何ですか?(ユーザーレベル) 右側")
+ビジョンと値の2列のテーブルを![示す2列のテーブル]とその(media/prepare-my-users-new-image1.png "理由(組織レベル) は左側にありますが、その値は何ですか?(ユーザーレベル) 右側")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>この新しいソリューションの購入を獲得する方法で、ユーザーにメリットと価値を持たせることができましたか?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>現在のプロジェクト範囲のビジョンと価値の説明を作成し、目標に合わせて配置します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>現在のプロジェクト範囲のビジョンと価値の説明を作成し、目標に合わせて配置します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -61,7 +61,7 @@ ms.locfileid: "36245846"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>ユーザーは新しいソリューションを準備し、変更することができますか?</li><li>ユーザーには、変更を簡単にする能力またはコンピテンシーがありますか?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>組織の文化について理解するには、次のスレッドの初心を使用してください。 この情報は、プロジェクトに実装するために必要な認識とトレーニングの量を伝えるのに役立ちます。
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>組織の文化について理解するには、次のスレッドの初心を使用してください。 この情報は、プロジェクトに実装するために必要な認識とトレーニングの量を伝えるのに役立ちます。
 </li></ul></td></tr>
 </table>
 
@@ -100,7 +100,7 @@ ms.locfileid: "36245846"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>特定のユーザーまたは cohorts がこのソリューションに対するコアの依存関係を持ち、そのような作業を効率的に行うことができますか。</li><li>この新しいソリューションを使用することで、特定の用途に対応することができますか?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>ユーザーペルソナをマップします。 まず、ユーザーをペルソナ/cohort グループ (エグゼクティブ、道路用の戦士、グループ作業員、小売業など) に分割します。 管理性を向上させるには、最大で8つのグループを一覧表示します。 (サンプルの会話の初心については、以下を参照してください。)発見した結果を使って、ユーザーの準備キャンペーンをさらに設計し、後でアップグレードすることによって得られる可能性があるパイロットユーザーをセグメント化します。
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>ユーザーペルソナをマップします。 まず、ユーザーをペルソナ/cohort グループ (エグゼクティブ、道路用の戦士、グループ作業員、小売業など) に分割します。 管理性を向上させるには、最大で8つのグループを一覧表示します。 (サンプルの会話の初心については、以下を参照してください。)発見した結果を使って、ユーザーの準備キャンペーンをさらに設計し、後でアップグレードすることによって得られる可能性があるパイロットユーザーをセグメント化します。
 </li><li>マップユースケース。 この新しいテクノロジの恩恵を受ける主要なユーザーグループを特定したら、一般的なユーザーの作成について検討してください。 チーム間のユースケースとシナリオについて理解することで、組織がこの新しいテクノロジで作業していることを視覚化できます。 さらに、お客様のコミュニケーションとトレーニングプランにユースケースの例を追加することで、ユーザーにとって適切な情報を提供することができます。</li></ul></td></tr>
 </table>
 
@@ -126,7 +126,7 @@ ms.locfileid: "36245846"
 
 次の図は、ペルソナテーブルの例です。
 
-![ペルソナの詳細情報]が表示された値の一覧(media/prepare-my-users-image2.png "一般的な役割と、コミュニケーションとコラボレーションソリューションの依存関係を含む、ペルソナの一覧表。エグゼクティブペルソナが強調表示され、プロファイル (ライフサイクル) と機能、デバイス、トレーニングについての詳細が示されます。")
+![](media/prepare-my-users-image2.png "一般的なロールを含むペルソナと、コミュニケーションとコラボレーションソリューションの依存関係を示す [ペルソナの詳細] テーブルの一覧表示された値テーブル。エグゼクティブペルソナが強調表示され、プロファイル (ライフサイクル) と機能、デバイス、トレーニングについての詳細が示されます。")
 
 各ユースケースについて、プロジェクトチームで次のことを説明します。
 
@@ -147,7 +147,7 @@ ms.locfileid: "36245846"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>新しいソリューションの導入を促進して促進するために、どのような準備計画を提供しますか?</li><li>ユーザーが変更を処理し、定義したユーザーのペルソナに対応しているかどうかに合わせて、適切な認識、トレーニング、およびサポートリソースを用意していますか。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>次のセクションの一覧を使用して、準備計画のアイデアを生成します。 最も関連性の高いプラン&mdash;を選ぶか、&mdash;自分で追加して、組織に合わせて最適化された準備計画を設計します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>次のセクションの一覧を使用して、準備計画のアイデアを生成します。 最も関連性の高いプラン&mdash;を選ぶか、&mdash;自分で追加して、組織に合わせて最適化された準備計画を設計します。</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>準備計画のアイデア

@@ -11,8 +11,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,12 +28,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Skype for Business サービスの通信クレジット (PSTN 追加機能プラン) に対する支払い方法と、継続的な電話システムへのアクセスをユーザーに許可するプランについて説明します。 '
-ms.openlocfilehash: b6fde8cf36d31caca0c53d977b8844c263a53ff9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 30f3d164fd28cfc9bbec034c404d9fe71a58568b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239337"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516814"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
@@ -53,7 +52,7 @@ ms.locfileid: "36239337"
 > [!NOTE]
 > 料金と料金について知りたい場合は、「[通話プラン](https://go.microsoft.com/fwlink/p/?LinkId=799523)」ページで「料金表」を参照してください。
   
-管理者は、手動で資金を追加するか、自動再充電を設定すること**** ができます。
+管理者は、手動で資金を追加するか、自動再充電を設定**することができます。**
   
 自動再チャージでは、設定した金額を下回ると、自動的に最高額まで残高が追加されます。自動再チャージの使用をお勧めします。これにより、利用可能残高の手動による追加を忘れないようにする必要がなくなります。利用可能残高が設定した金額を下回ると、自動的にチャージされます。自動再チャージを選択していないと、利用可能残高がゼロを下回ってしまうことがあります。その時点で、管理者やユーザーは無料通話や国際通話を発信できなくなります。
   
@@ -76,7 +75,7 @@ ms.locfileid: "36239337"
     
 - [電話システムプラン](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、[サブスクリプションの**** > **** > **追加**] サブスクリプションに移動して、情報を表示することもできます。
+[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、[サブスクリプションの**** > **追加**]**サブスクリプションに** > 移動して、情報を表示することもできます。
   
 各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   

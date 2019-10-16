@@ -11,16 +11,16 @@ ms.reviewer: srividhc
 description: クラウドビデオ相互運用機能を利用すると、サードパーティの会議室デバイスが Microsoft Teams 会議に参加できるようになります。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d37acef498abfd0ed3e9125529abef38f737406
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c44f945304bd6e21e0c572ad17afe165fe6eedcd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237073"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516685"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 

@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-collaboration
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 4つの nir des expériences accessibles をお持ちの場合は、Microsoft、qui (permettre)、様、chaque 組織 de la planète d'accomplir davantage をご紹介します。 Microsoft オフにする特定の nombre de fonctionnalités d'accessibilitéの打設 Skype Entreprise et Microsoft Teams qui s'inscrivent dans son de faveur。
-ms.openlocfilehash: b03ae1bdf2d5d00f946854794ab23344b96e14cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239473"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516844"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Skype for Business Online およびフランスの Microsoft Teams のアクセシビリティソリューション
 

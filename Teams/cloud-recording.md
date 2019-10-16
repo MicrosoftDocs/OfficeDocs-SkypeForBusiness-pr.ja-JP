@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft Teams でクラウド音声機能を展開するための実用的なガイダンス。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 9feaffd1677d96c53dee57b03f9061c6fa8184ce
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271402"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516943"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
 
@@ -83,7 +83,7 @@ Teams PowerShell の TeamsMeetingPolicy で AllowCloudRecording を使用して�
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                    社内のすべてのユーザーが会議を記録できるようにする                                    |                                                                     <ol><li>グローバル CsTeamsMeetingPolicy に AllowCloudRecording = True が含まれていることを確認する<li>すべてのユーザーは、AllowCloudRecording = True を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかを使用しています </ol>                                                                     |
 | ユーザーの大半が会議を記録できるようにしたいが、記録を許可されていない特定のユーザーを選択する |        <ol><li>GlobalCsTeamsMeetingPolicy に AllowCloudRecording = True が含まれていることを確認する<li>大部分のユーザーは、AllowCloudRecording = True を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかを使用しています<li>他のすべてのユーザーに AllowCloudRecording = False の CsTeamsMeetingPolicy ポリシーのいずれかが付与されている</ol>         |
-|                                                   レコーディングを 100% 無効にする                                                   |                                                                <ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowCloudRecording = False<li>すべてのユーザーに、AllowCloudRecording = False を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが許可されている                                                                 |
+|                                                   レコーディングを100% 無効にする                                                   |                                                                <ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowCloudRecording = False<li>すべてのユーザーに、AllowCloudRecording = False を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが許可されている                                                                 |
 |      大部分のユーザーに対してレコーディングを無効にして、記録を許可する特定のユーザーを選択する       | <ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowCloudRecording = False<li>大部分のユーザーには、AllowCloudRecording = False を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが付与されています<li>他のすべてのユーザーに AllowCloudRecording = True の CsTeamsMeetingPolicy ポリシーのいずれかが付与されている <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
@@ -109,7 +109,7 @@ Teams PowerShell の TeamsMeetingPolicy で AllowTranscription を使って、�
 |---|---|
 |社内のすべてのユーザーが、会議の記録を開始するときに議事録を表示できるようにする |<ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowTranscription = True <li>すべてのユーザーには、csTeamsMeetingPolicy という CsTeamsMeetingPolicy ポリシーが含まれています。 </ol>|
 |ユーザーの大半が会議の記録の議事録を行うことができるようにしたいが、議事録を許可されていない特定のユーザーを選択する |<ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowTranscription = True <li>大部分のユーザーは、CsTeamsMeetingPolicy というグローバルな CsTeamsMeetingPolicy ポリシーを持っています。 <li>他のすべてのユーザーに AllowTranscription = False の CsTeamsMeetingPolicy ポリシーのいずれかが付与されています。 </ol>|
-|レコーディングの議事録を 100% 無効にする |<ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowTranscription = False <li>すべてのユーザーに AllowTranscription = False を使用してグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが付与されている </ol>|
+|レコーディングの議事録を100% 無効にする |<ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowTranscription = False <li>すべてのユーザーに AllowTranscription = False を使用してグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが付与されている </ol>|
 |ほとんどのユーザーに対して、議事録を無効にしたいが、議事録を許可された特定のユーザーを選択できるようにする |<ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowCloudRecording = False <li>大部分のユーザーには、AllowCloudRecording = False を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが付与されています <li>他のすべてのユーザーに AllowCloudRecording = True の CsTeamsMeetingPolicy ポリシーのいずれかが付与されている </ol>|
 |||
 

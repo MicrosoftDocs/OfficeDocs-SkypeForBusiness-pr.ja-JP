@@ -1,5 +1,5 @@
 ---
-title: オーディオ会議 サブスクリプション「ダイヤル アウト」/「折り返し先」のメリット
+title: 電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,9 +9,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'お客様には、2019年11月30日に終了する無料のダイヤルアウト機能が提供されています。  2019年12月1日から、電話会議の各サブスクリプションでは、このドキュメントで説明されているように、各ユーザーに対して月ごとに1人のアカウントに60分の通話を提供します。 '
-ms.openlocfilehash: 8c60a469684705b2a227711c5bfb22cd6baa9111
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8da1082d0bf7e9a50248e29877309053f706e741
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283525"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515883"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>電話会議のサブスクリプション "ダイヤルアウト"/"通話時間の特典
 
@@ -34,7 +33,7 @@ ms.locfileid: "34283525"
 
 お客様には、2019年11月30日に終了する[無料のダイヤルアウト機能](complimentary-dial-out-period.md)が提供されています。 2019年12月1日から、電話会議の各サブスクリプションでは、このドキュメントで説明されているように、任意のゾーンの premium 以外の番号にダイヤルアウトするために使用できる、1ユーザーあたり60分を提供します。 テナントのダイヤルアウト分のプールサイズは、*割り当て済み*のライセンスに基づき、購入したライセンスは使用されません。 この特典は、電話会議の*月額*プランライセンスに適用され、電話会議の1分あたりのライセンス数に延長されることはありません。 
 
-## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>電話会議 "会議からダイヤルアウト" & "の [会議からの着信] の [詳細]
+## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>電話会議 "会議からダイヤルアウト" & "の [折り返し先] の詳細
 
 電話会議サービスをご利用のお客様の場合、Microsoft は、電話会議のサブスクリプションライセンスを割り当てられたユーザーによって開催された会議からダイヤルアウトする機能を提供します。 "Zone A" 国リストに含まれていない国へのダイヤルアウト通話は、通信クレジットを使って1分あたりの料金で課金されます。 1分あたりのダイヤルアウト通話 (テナントのダイヤルアウト分プールを超えているか、または国リストにない宛先への呼び出し) については、通話とその関連料金は通話の発信先に基づき、開催者の国によって異なります。ダイヤルアウト通話を開始した住居または会議の参加者。 たとえば、東京都の電話番号に対する電話会議のダイヤルアウト通話は、米国、フランス、またはジンバブエの会議出席者によって開始された場合、同じ分単位の料金で課金されます。 
 
@@ -65,7 +64,7 @@ ms.locfileid: "34283525"
 ## <a name="how-can-i-monitor-minute-pool-usage"></a>プールの利用状況を監視する方法を教えてください。
 
 - "レガシー" Skype for Business 管理センターでは、ダイヤルアウト分プールに対する使用状況を監視できます。 Microsoft Teams 管理センターで、**従来のポータル** > **レポート** > の**PSTN 分プール**に移動します。 ダイヤルアウトの分数プールのゾーンには、"国のゾーンへの発信通話" というラベルが表示されます。
-- テナントのダイヤルアウト分数プールの使用率が 80% と 100% に達した場合、メール通知は、特定の顧客のすべてのテナント管理者に送信されます。
+- テナントのダイヤルアウト分数プールの使用率が80% と100% に達した場合、メール通知は、特定の顧客のすべてのテナント管理者に送信されます。
 
 通信クレジットの詳細については、「[通信クレジット](what-are-communications-credits.md)」を参照してください。
 

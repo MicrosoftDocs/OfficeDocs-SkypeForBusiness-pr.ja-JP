@@ -9,9 +9,8 @@ ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 search.appverid: MET150
 audience: admin
 appliesto:
@@ -21,12 +20,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 87ce2422fd4d14b5b9e2c90921b0fe84630f2887
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cf8aa0de368803fa957667e239ba6ed0b161c0cb
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235750"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517045"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 における電話会議
 Office 365 の電話会議では、ユーザーは自分の電話から会議にダイヤルインすることができます。 電話会議には最大で250の電話出席者が参加できます。

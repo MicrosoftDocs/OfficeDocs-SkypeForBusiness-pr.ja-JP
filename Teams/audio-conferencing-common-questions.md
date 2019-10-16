@@ -11,9 +11,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 電話会議を使用するお客様からよく寄せられる質問の一部を次に示します。
-ms.openlocfilehash: fe98ac1bab2dfe61f9e511ad9ff14519792bcb36
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241863"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516990"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
@@ -95,7 +94,7 @@ ms.locfileid: "36241863"
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Skype for Business Server のオンプレミス展開の一部であるユーザーは、電話会議を使用できますか。
 
-まだありません。 ただし、Skype for Business Server で利用可能な電話会議と、オンプレミスユーザーの PSTN ゲートウェイを引き続き使用することができます。 
+[会議を初め](meetings-first.md)て使用する場合、Skype For business Server のユーザーは、teams の会議やチームの音声会議から恩恵を受けることができます。 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>ユーザーは個人の会議 ID を取得できますか?
 

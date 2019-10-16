@@ -11,16 +11,15 @@ search.appverid: MET150
 description: Teams で組織全体のチームを作成して管理する方法について説明します。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 901f0dd116bf152433d226e0c131f795675784cc
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493114"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516652"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -28,7 +27,7 @@ ms.locfileid: "36493114"
 
 組織全体のチームでは、グローバル管理者は、組織内のすべてのユーザーを対象としたパブリックチームを簡単に作成し、ユーザーが参加して組織から脱退するときに Active Directory を使ってメンバーシップを最新の状態に維持することができます。 グローバル管理者のみが、組織全体のチームを作成できます。現在、組織全体のチームは、5000ユーザーを超える組織に限定されています。 1つのテナントには、組織全体のチームとして5つの制限もあります。 これらの要件が満たされている場合、グローバル管理者は、チームの作成時に [**チームを最初から**作成する] を選択すると、**組織全体**をオプションとして表示します。 
 
-組織![全体のチームを作成するための組織全体のオプションのスクリーンショット]組織(media/create-org-wide-team.png "全体のチームを作成するための組織全体のオプションのスクリーンショット")
+組織全体の(media/create-org-wide-team.png "チームを作成するための組織全体のチームスクリーンショット")を![作成するため]の組織全体オプションのスクリーンショット
 
 組織全体のチームを作成すると、すべてのグローバル管理者がチーム所有者として追加され、アクティブなすべてのユーザーがチームメンバーとして追加されます。 ライセンス未付与のユーザーは、チームにも追加されます。 ライセンス未付与のユーザーが初めて Teams にサインインしたとき、そのユーザーには Microsoft Teams の市販クラウド試用ライセンスが割り当てられます。 試用版のライセンスの詳細については、「 [Teams の市販クラウド試用版を管理](iw-trial-teams.md)する」を参照してください。 
 
@@ -81,4 +80,4 @@ ms.locfileid: "36493114"
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>既存のチームを組織全体のチームに変換する方法はありますか?
 
-グローバル管理者は、チームクライアントで編集することで、既存のチームを組織全体のチームに変換できます。 チーム名に移動し、[**その他のオプション** > ****] をクリックします。
+グローバル管理者は、チームクライアントで編集することで、既存のチームを組織全体のチームに変換できます。 チーム名に移動し、[**その他のオプション** > **] をクリックします。**

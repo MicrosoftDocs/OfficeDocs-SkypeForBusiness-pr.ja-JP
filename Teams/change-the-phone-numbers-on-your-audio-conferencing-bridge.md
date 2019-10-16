@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 電話会議ライセンスを購入するときに、Microsoft は組織の電話会議ブリッジをホストしています。 電話会議ブリッジは、さまざまな場所からダイヤルイン電話番号を提供します。これにより、会議の開催者と参加者は、電話を使って Skype for Business または Microsoft Teams の会議に参加できるようになります。
-ms.openlocfilehash: 60095ff820c6aeb13745f5195a6274fa90f5eec0
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 9c4d16f3f68e190549b1e8a1d7b6f3f03e8a44c6
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221684"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516965"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
@@ -35,7 +35,7 @@ ms.locfileid: "35221684"
 会議ブリッジに既に割り当てられている電話番号に加えて、他の場所にある[追加のサービス番号](/microsoftteams/getting-service-phone-numbers)(電話会議に使用する有料および無料の電話番号) を取得して、それを会議ブリッジに割り当てることができます。ユーザーの範囲を広げます。
   
 > [!NOTE]
-> 会議ブリッジの電話番号の割り当て/割り当て解除を行うには、電話番号は「*サービス*」番号でなければなりません。 番号の種類は、従来のポータルで [ **** > **電話番号**] に移動し、[**番号の種類**] 列で確認できます。 ユーザーが無料電話番号を使用してブリッジにダイヤルインするためには、Office 365 通信クレジットを最初に設定する必要があります。
+> 会議ブリッジの電話番号の割り当て/割り当て解除を行うには、電話番号は「*サービス*」番号でなければなりません。 番号の種類は、従来のポータルで [ > **電話番号** **] に移動**し、[番号の**種類**] 列で確認できます。 ユーザーが無料電話番号を使用してブリッジにダイヤルインするためには、Office 365 通信クレジットを最初に設定する必要があります。
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>新しいサービス電話番号を電話会議ブリッジに割り当てるときの手順
 

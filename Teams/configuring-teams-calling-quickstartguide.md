@@ -12,17 +12,16 @@ search.appverid: MET150
 description: Microsoft Teams で通話プランを構成するためのクイックスタートガイドです。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- Teams_ITAdmin_Training
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e043633749e0ef2dba41b5b3b18776cfbe1c497
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236574"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516481"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 ==============================================================
@@ -77,7 +76,7 @@ TeamsUpgradePolicy の既定の構成は諸島モードであり、チームの�
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[通話プランを使用した電話システム](calling-plan-landing-page.md)
+[通話プランが設定された電話システム](calling-plan-landing-page.md)
 
 [Skype for Business PowerShell コマンドレットリファレンス](https://docs.microsoft.com/powershell/module/skype)
 

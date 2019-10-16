@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: 展開モデルを選択して、担当責任者に相談する (RACI) マトリックスを作成し、実行とガバナンスの計画を作成します。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f324c703c71adbcabedc71d9a5fdb6a4ce63ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1ef741290a4d669084ad55335d0a08ec1c9ffd5c
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245161"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515993"
 ---
 # <a name="document-my-success-plan"></a>成功計画を文書化する
 
@@ -50,7 +50,7 @@ ms.locfileid: "36245161"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>組織に適用されるチーム展開実行モデルを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>選択したチーム展開実行モデルを文書化し、ビジネスと技術の正当性を含めます。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>選択したチーム展開実行モデルを文書化し、ビジネスと技術の正当性を含めます。</li></ul></td></tr></table>
 
 ## <a name="raci-modeling"></a>RACI モデリング
 
@@ -74,7 +74,7 @@ ms.locfileid: "36245161"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>クラウド音声の実装プロジェクトに関連するアクティビティ/ロールを決定します。</li><li>クラウド音声実装プロジェクトの職責割り当てマトリックス (RACI matrix) に割り当てられるチームまたはユーザーを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>RACI マトリックスを文書化します。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>RACI マトリックスを文書化します。</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>四半期ごとの実施計画
 
@@ -88,8 +88,8 @@ ms.locfileid: "36245161"
 
 | サイト/部門                            | 従業員数 | 電話会議 | 電話システム                    | 実行する四半期 |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| 米国: ニューヨーク                             | 2000                | はい                | 通話プランを使用した電話システム | Q1 CY2018          |
-| アイルランド: ダブリン                          | 300                 | はい                | 通話プランを使用した電話システム | Q1 CY2018          |
+| 米国: ニューヨーク                             | 2000                | はい                | 通話プランが設定された電話システム | Q1 CY2018          |
+| アイルランド: ダブリン                          | 300                 | はい                | 通話プランが設定された電話システム | Q1 CY2018          |
 | オーストリア: ウィーン                          | 500                 | はい                | 電話システムのダイレクト ルーティング     | Q2 CY2018          |
 | イタリア: ミラノ                             | 200                 | はい                | 該当なし                             | Q2 CY2018          |
 | 南アメリカ: ブラジル                    | 1500                | はい                | 電話システムのダイレクト ルーティング     | Q2 CY2018          |
@@ -99,7 +99,7 @@ ms.locfileid: "36245161"
 <table>
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>目標のキーの結果を得るために、四半期ごとの実行プランを決定します (OKRs)。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>四半期の実行計画を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>四半期の実行計画を文書化します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -122,7 +122,7 @@ ms.locfileid: "36245161"
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>コミュニケーションとガバナンス計画を決定します。これには、定期的な状態の更新頻度 (日単位、週単位、月単位、四半期単位)、状態更新会議の実施方法、および各会議の所有者が含まれます。</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>コミュニケーションとガバナンス計画を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>コミュニケーションとガバナンス計画を文書化します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -182,7 +182,7 @@ ms.locfileid: "36245161"
 <table>
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>クラウドの音声ワークロードを実現するための成功計画全体を文書化する方法を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>成功計画のすべてのコンポーネントが記載されていることを確認します。</li><li>成功計画の個々のコンポーネントを1つのサマリー文書に集約します (省略可能)。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>成功計画のすべてのコンポーネントが記載されていることを確認します。</li><li>成功計画の個々のコンポーネントを1つのサマリー文書に集約します (省略可能)。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

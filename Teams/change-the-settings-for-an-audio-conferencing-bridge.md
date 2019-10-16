@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business または Microsoft Teams アプリを使用していない場合に、発信者にメッセージを表示し、会議開催者の名前やピンを集めるために使用される会議ブリッジの設定を変更する際に必要な手順を説明します。 '
-ms.openlocfilehash: 97c1439325e5a9a00cacfa26e97078d2c2a91014
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: b7ac85729bafe9d27f9e33cfa22597811b8d3d0b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494563"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516954"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 
@@ -121,7 +120,7 @@ Office 365 で電話会議を設定している場合、電話会議ブリッジ
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を向上させるための多くの利点があります。たとえば、複数のユーザーに対して同時に設定を変更する場合です。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を向上させるための多くの利点があります。たとえば、複数のユーザーに対して同時に設定を変更する場合です。次のトピックで、これらの利点について説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -8,19 +8,18 @@ ms.date: 12/14/2018
 ms.topic: article
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能にライセンスを割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d51e2cf8a563c5094da923949c8e736aceeb864
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1e5783a2fa0c6479d59e563b9001b736015f20fa
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241885"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515782"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft Teams ライセンスを割り当てる
 

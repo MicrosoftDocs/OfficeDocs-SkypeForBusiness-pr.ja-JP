@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: '[チームクライアントアプリ]、[エンドポイントの品質を計画する]、[Wi-fi エンドポイントの展開とオーディオデバイスの選択] の推奨事項を確認します。'
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 688b1d05acb882b08128fa144f28bd8e682d57fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235188"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515974"
 ---
 # <a name="plan-my-users-experience"></a>ユーザーエクスペリエンスを計画する
 
@@ -41,7 +41,7 @@ Teams の主な利点の1つは、クライアントが自動的に最新の状�
 
 以下の図に示すように、エンドポイントはユーザー向けの品質向上のための重要な文書パーツです。
 
-![品質の3つの構成要素について説明した図](media/plan-my-users-experience-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。エンドポイントにフォーカスがある状態。")
+品質の3つのコンポーネントを説明する![3 つの]コンポーネントと、(media/plan-my-users-experience-image1.png "サービス管理が3つのコンポーネントすべてにどのように重なり合っているかを説明する図。エンドポイントにフォーカスがある状態。")
 
 Teams のエンドポイントは、Pc、Mac、タブレット、モバイルデバイスなど、さまざまなデバイスで実行できます。 エクスペリエンスの一部では、デバイスだけでなく、デバイスの内蔵マイク/スピーカー、earbuds、最適化されたヘッドセットの使用など、ユーザーがデバイスに接続する方法についても説明します。 最適化されたヘッドセットを使用すると、全体的なユーザー エクスペリエンスが向上します。
 
@@ -89,7 +89,7 @@ Microsoft Teams でリアルタイムのワークロードをサポートする�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>組織に展開するチームクライアントは何ですか?</li><li>チームクライアントを最初にユーザーに展開するにはどうすればよいですか?</li><li>エンドポイントとデバイスを評価して品質向上のためにチームの要件を満たしているかどうかを検証する担当者</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>チームクライアントを展開するために実行されるプロセスを文書化します。</li><li>エンドポイントとデバイスを評価し、必要な操作や修復を行います。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>チームクライアントを展開するために実行されるプロセスを文書化します。</li><li>エンドポイントとデバイスを評価し、必要な操作や修復を行います。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -110,7 +110,7 @@ Microsoft Teams は会議のために、または電話システムとして使�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>ユーザーと会議室のエクスペリエンスについて、組織の全体的なデバイス戦略を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>組織に対して、ペルソナ間のマッピングの演習を実行します。</li><li>ユーザーと会議室のデバイスを取得するプロセスを文書化します。</li><li>ユーザーと会議室用にデバイスを展開し、構成するためのプロセスについて文書化します。</li><li>展開を開始するために、初期デバイスを調達します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>組織に対して、ペルソナ間のマッピングの演習を実行します。</li><li>ユーザーと会議室のデバイスを取得するプロセスを文書化します。</li><li>ユーザーと会議室用にデバイスを展開し、構成するためのプロセスについて文書化します。</li><li>展開を開始するために、初期デバイスを調達します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

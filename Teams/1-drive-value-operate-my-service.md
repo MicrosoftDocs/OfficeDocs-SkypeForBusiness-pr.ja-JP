@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: サービスの正常性の監視、ネットワークの品質および使用状況の評価と確認など、Teams サービスの管理に必要なタスクとアクティビティ。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d319c27e7e541cb970fe53a974012f5bb4ad29c3
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427613"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516620"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 
@@ -39,12 +39,12 @@ ms.locfileid: "36427613"
 
 このガイドのタスクとアクティビティは、次の図に示すように8つのカテゴリにグループ化されています。 これらの各カテゴリは、次のセクションで展開されます。
 
-![タスクとアクティビティのカテゴリの一覧を示す図](media/operate-my-service-image1.png "チームのサービス管理が構成されているタスクとアクティビティのカテゴリの一覧を示す図。この図では、サービス管理は主に顧客タスクであることも示しています。")
+![タスクとアクティビティのカテゴリのリストを示す図](media/operate-my-service-image1.png "。チームのサービス管理が構成されているタスクとアクティビティのカテゴリの一覧を示します。この図では、サービス管理は主に顧客タスクであることも示しています。")
 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>チームに対して操作を実装する方法を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>運用ガイドを完全に確認します。</li><li>組織の目標に合わせて、クラウドボイスワークロードの品質と信頼性を高める運用戦略を実装します。</li><li>エクスペリエンス品質レビューガイドを確認します。</li><li> 運用計画を実施して、クラウドの音声展開が最大の機能で動作していることを確認します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>運用ガイドを完全に確認します。</li><li>組織の目標に合わせて、クラウドボイスワークロードの品質と信頼性を高める運用戦略を実装します。</li><li>エクスペリエンス品質レビューガイドを確認します。</li><li> 運用計画を実施して、クラウドの音声展開が最大の機能で動作していることを確認します。</li></ul></td></tr>
 </table>
 
 
@@ -63,7 +63,7 @@ ms.locfileid: "36427613"
 契約が実施された後、対応するチームが各自の役割を operationalize する必要があります。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td>
 <td><ul><li>このドキュメントを使用して、役割のマッピングの作業を簡単に行うことができます。</li><li>各サポートチームと会議して、必要なアクティビティのリストの各アイテムに名前を割り当てます。</li><li>割り当てられた役割に対して承認またはサインオフを獲得します。</li><li>該当するチームに、必要なアクティビティを実行するための適切なトレーニング、準備、およびリソースがあることを確認します。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams サービスの依存関係
@@ -316,7 +316,7 @@ NPS は、–100から100の範囲のインデックスであり、顧客の意�
 
 -   1 ~ 6 の Detractors は、サービスの被害を受けて増加しているお客様の不満を示しています。
 
-![NPS のスケールを示す図](media/operate-my-service-image2.png "この図は、NPS の規模を示しています。0 ~ 6 の順位は detractors、7 ~ 8 は受動的で、9 ~ 10 は promoters を示しています。")
+![Nps のスケールを示す図](media/operate-my-service-image2.png "この図は、nps のスケールを示しています。0 ~ 6 の順位は detractors、7 ~ 8 は受動的で、9 ~ 10 は promoters を示しています。")
 
 基本の NPS 番号は有用ですが、ユーザーのコメントを分析することで、最大限の価値を得ることができます。 ユーザーが他のユーザーにチームを提案する理由を理解するのに役立ちます。 これらのコメントは、品質サービスを提供するために必要な調整をプロジェクトまたはサービス管理チームが理解できるようにするために役立つフィードバックを提供します。
 
@@ -548,7 +548,7 @@ Microsoft の番号インベントリからプロビジョニングできる電�
 
 [品質経験レビューガイド](https://aka.ms/qerguide)には、以下に示すように、ユーザーエクスペリエンスを向上させるための最も大きな影響を受ける主要な領域の一連のアクティビティが含まれています。
 
-![体験レビュー中に調査する領域の図](media/plan-my-service-management-image2.png "音質のレビュー中に、音声、信頼性、ユーザー調査の結果について調べる主要な領域。")
+経験豊富な経験で、(media/plan-my-service-management-image2.png "オーディオ、信頼性、ユーザー調査の結果")について確認するための重要な領域を![確認するための領域の図]。
 
 ガイドで説明されている領域を継続的に評価してを修復するすることで、ユーザーエクスペリエンスに悪影響を及ぼす可能性を減らすことができます。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 

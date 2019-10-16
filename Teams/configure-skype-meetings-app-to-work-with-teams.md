@@ -12,15 +12,14 @@ search.appverid: MET150
 description: 管理者は、Microsoft Teams 管理センターを使用して、チームと連携するように Skype 会議アプリを構成することができます。
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 227ac287958634ee699a29990149a494a00b2078
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236864"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516924"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Teams と連動するように Skype 会議アプリを構成する
 ===================================================

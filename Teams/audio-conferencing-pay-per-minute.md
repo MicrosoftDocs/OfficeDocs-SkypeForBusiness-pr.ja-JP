@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 標準の電話会議のユーザーライセンスに加えて、Microsoft ボリュームライセンスを使用する組織は、組織の電話会議機能を有効にするための1分あたりの料金プランを選ぶこともできます。
-ms.openlocfilehash: 7be5acfcb6dc86179c29c983c9764569232e1d97
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 0f31d5b79c8b298dbd13c516856446ee2ead977a
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344710"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515894"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 

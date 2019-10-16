@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ビジネス向けに電話システム (クラウド PBX) を計画してセットアップする方法について説明します。 '
-ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 85b60b07dda2283fb91665834c7f6cd4187454cd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434866"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516866"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
 
@@ -84,7 +84,7 @@ PBX は、社内の電話システムです。 Office 365 アドオンの電話�
 
 - [通話プランを](set-up-calling-plans.md)セットアップする: この記事では、電話番号を設定するか、既存の電話番号を Skype for business に移行するための詳しい手順について説明します。
     
-- [Microsoft テレフォニーソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions): この記事では、展開オプションをすべて紹介します。 また、完全なクラウドのみのソリューションの計画についても説明します。 
+- [Microsoft テレフォニーソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions): この記事では、展開オプションをすべて紹介します。 また、クラウドのみのソリューション全体の計画に関する情報も含まれています。 
     
 - [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Office 365 で電話システムを取得するために購入する必要があるライセンスについて説明します。
     
@@ -100,7 +100,17 @@ PBX は、社内の電話システムです。 Office 365 アドオンの電話�
 |:-----|:-----|:-----|
 |**リッチクライアント** <br/> |**モバイル クライアント** <br/> |**IP 電話** <br/> |
 | Office 365 でサポートされているすべての PC および Mac クライアントで動作します。 <br/> [Skype for Business をインストールする](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Lync for Mac 2011 for Office 365 をセットアップする](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | Skype for Business クライアントには以下のものがあります。 <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Skype for Business と互換性のある多数の卓上電話から選ぶことができます。 「 [Skype For Business Online の電話を取得する」を](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)参照してください。 <br/> |
-   
+
+## <a name="availability-in-gcc-high-and-dod-clouds"></a>GCC 高および DoD クラウドでの可用性
+<a name="bkmk_setup"> </a>
+
+以下の機能は、GCC 高および DoD クラウドでまだご利用いただけません。 
+- [第2の着信通話、ボイスメール、強化された委任の設定](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [ボイスメールへの着信転送](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
+- 検索バーから電話番号に発信
+- 保留音
+- AAD の逆番号参照
+
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

@@ -11,16 +11,16 @@ ms.reviewer: srividhc
 description: この記事では、組織内のユーザーに対してクラウドビデオの相互運用機能を計画してセットアップする方法について説明します。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286258"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516663"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性の設定
 

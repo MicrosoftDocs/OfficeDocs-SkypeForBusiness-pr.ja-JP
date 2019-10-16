@@ -9,18 +9,17 @@ ms.topic: troubleshooting
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: ファイアウォールまたはプロキシ接続が主な原因である Microsoft Teams クライアントの接続性の問題をトラブルシューティングする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79718ebc58205cd63ab291f0985e4dd7e452be3e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7779e46fc0a1c8a282c5cde38ecac6389824a268
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236552"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516462"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Microsoft Teams クライアントの接続性の問題をトラブルシューティングする
 ==============================================================

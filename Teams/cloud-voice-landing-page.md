@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
@@ -18,12 +17,12 @@ search.appverid: MET150
 description: Teams でクラウドボイスを展開するためのランディングページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92e32950526f12c5da1856ce390ee3e532892681
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483868"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515834"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft Teams での Cloud Voice
 
@@ -42,7 +41,7 @@ ms.locfileid: "36483868"
 次の記事では、Teams でのクラウド音声機能の展開と使用に関する詳細情報を提供しています。
 
 - [Office 365 の電話システム](what-is-phone-system-in-office-365.md)
-- [通話プランを使用した電話システム](calling-plan-landing-page.md)
+- [通話プランが設定された電話システム](calling-plan-landing-page.md)
 - [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 - [Cloud Voice の展開](cloud-voice-deployment.md)
 - [Microsoft テレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
@@ -107,7 +106,7 @@ Azure ボイスメールサービスを利用したクラウドボイスメー�
 
 ### <a name="phone-numbers-from-microsoft"></a>Microsoft からの電話番号
 
-Microsoft には、2種類の電話番号が用意されています。*加入者*(ユーザー) 番号は、組織内** のユーザーに割り当てることができます。また、電話番号は有料またはフリーダイヤルのサービス番号として利用できます。加入者番号よりもキャパシティ。電話会議、自動応答、通話キューなどのサービスに割り当てることができます。
+Microsoft には、2種類の電話番号が用意されています。*加入者*(ユーザー) 番号は、組織内のユーザーに割り当てることができます。また、電話番号は有料またはフリーダイヤルのサービス*番号とし*て利用できます。加入者番号よりもキャパシティ。電話会議、自動応答、通話キューなどのサービスに割り当てることができます。
 
 |確認事項|アクション |
 | :------------|:-------|

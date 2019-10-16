@@ -8,22 +8,20 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: 通話プランのランディングページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83e2516ac9fd142c6cb965539ff22c4900811888
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 998c0964239e430451a157bb6d8d0034fc7d19a7
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237174"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517001"
 ---
-# <a name="which-calling-plan-is-right-for-you"></a>適切な通話プランはどれですか? 
+# <a name="which-calling-plan-is-right-for-you"></a>どの通話プランが適していますか? 
 
 [作業を開始](get-started-with-teams-quick-start.md)しました。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 会議[&](deploy-meetings-microsoft-teams-landing-page.md)会議を展開したことがあるかもしれません。 これで、クラウド音声のワークロードを追加する準備ができました。電話システムを使用して公衆交換電話網 (PSTN) に接続しています。 
 

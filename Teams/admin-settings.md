@@ -17,16 +17,15 @@ f1keywords:
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
 - ms.teamsadmincenter.apppolicies.adminsettings
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e01f4efd8ab9fa532e1a8a6c0c0c158c9fe44fb0
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7d5ecbab6da3936ba0bb20105c40ef0df2c9a1c4
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483151"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516102"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams でのアプリの管理設定
 ==========================================
@@ -62,8 +61,6 @@ Sdl では、チームでのアプリのエクスペリエンスを継続的に�
 詳細については、「[Teams でアプリの設定ポリシーを管理する](teams-app-setup-policies.md)」を確認してください。
 
 ## <a name="custom-app-policies-and-settings"></a>カスタム アプリ ポリシーと設定
-
->[!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
 
 Teams により、組織の開発者がその他のユーザーにカスタム アプリを構築、テスト、展開できるようにします。 カスタム パッケージは、.zip ファイルのアプリ パッケージをチームに直接アップロードするか、個人のコンテキストにアップロードして、チームに追加できます。 組織でカスタム アプリをアップロードできる人物を管理するアプリの設定ポリシーを使用できます。 ユーザーが特定のカスタム アプリを操作するかどうかを制御する組織全体の設定を設定することもできます。
 

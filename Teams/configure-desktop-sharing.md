@@ -6,20 +6,20 @@ manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Teams のチャットや会議でユーザーがデスクトップを共有できるように、会議ポリシーを構成します。
-MS.collection:
-- Teams_ITAdmin_Help
+ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bf213b919ee0bea344807f932e16240587b2b84
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
-ms.translationtype: HT
+ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433240"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516888"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 ============================================
@@ -32,11 +32,11 @@ ms.locfileid: "34433240"
 
 1. **[会議]** > **[会議ポリシー]** の順に選択します。
 
-    ![選択された会議ポリシーを示すスクリーン ショット](media/configure-desktop-sharing-image1.png)
+    ![会議ポリシーが選択されていることを示すスクリーンショット](media/configure-desktop-sharing-image1.png)
 
 2. **[会議ポリシー]** ページで、**[新しいポリシー]** を選択します。
 
-    ![会議ポリシーのメッセージを示すスクリーン ショット](media/configure-desktop-sharing-image2.png)
+    ![会議ポリシーのメッセージが表示されたスクリーンショット](media/configure-desktop-sharing-image2.png)
 
 3. ポリシーに一意のタイトルを指定し、簡単な説明を入力します。
 
@@ -46,7 +46,7 @@ ms.locfileid: "34433240"
    - **[1 つのアプリケーション]**: ユーザーの画面共有は 1 つのアクティブなアプリケーションに制限されます。
    - **[無効]**: 画面共有をオフにします。
 
-    ![共有モード オプションを示すスクリーン ショット](media/configure-desktop-sharing-image3.png)
+    ![共有モードのオプションを示すスクリーンショット](media/configure-desktop-sharing-image3.png)
 
 5. 次の設定をオンまたはオフにします。
 
@@ -60,7 +60,8 @@ ms.locfileid: "34433240"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>PowerShell を使用して共有デスクトップを構成する
 
-[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/ja-JP/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、デスクトップ共有を制御することもできます。 次のパラメーターを設定します。
+
+  [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、デスクトップ共有を制御することもできます。 次のパラメーターを設定します。
 
 - Description
 - ScreenSharingMode
@@ -70,5 +71,6 @@ ms.locfileid: "34433240"
 - AllowWhiteboard
 - AllowSharedNotes
 
-[csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](https://docs.microsoft.com/ja-JP/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。
+
+  [csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。
 

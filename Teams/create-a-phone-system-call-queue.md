@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams でクラウド通話キューの電話システムをセットアップする方法について説明します。
-ms.openlocfilehash: 644b551caaf8dbc2cabc0dd5ff4b4d0199aae766
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: f3eb106c0acb9c79d60f45cc11770f26e3e59a1e
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131638"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516696"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 

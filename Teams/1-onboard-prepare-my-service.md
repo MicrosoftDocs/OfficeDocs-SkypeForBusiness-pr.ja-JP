@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: オンボードのチェックリストを使用して、チーム用に Office 365 を準備し、Teams のコア機能、ネットワーク、およびクラウド音声のワークロードを構成します。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 653b5cf46e0b079af47c282b4110b181e76be915
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236199"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516497"
 ---
 # <a name="prepare-my-service"></a>サービスを準備する
 
@@ -57,7 +57,7 @@ ms.locfileid: "36236199"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>オンボードチェックリストの完了を監督する担当者を教えてください。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>オンボードチェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボードのチェックリスト項目を段階的に操作します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>オンボードチェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボードのチェックリスト項目を段階的に操作します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -140,7 +140,7 @@ ms.locfileid: "36236199"
 
 -   専用の電話会議のダイヤルインの一覧と言語の優先順位が設定されています。
 
--   [通信クレジット](what-are-communications-credits.md)(必要な場合) 組織用に設定されています。
+-   組織に対して[通信クレジット](what-are-communications-credits.md)(必要な場合) が設定されている。
 
 -   電話会議のブリッジの設定が識別され構成されている (PIN の長さ、エントリ/終了の通知、有効化通知の設定)。
 
@@ -158,7 +158,7 @@ ms.locfileid: "36236199"
 
 -   ユーザーに割り当てられる電話番号は、Microsoft に取得または移植されたため、テナントポータルで利用できます。
 
--   [通信クレジット](what-are-communications-credits.md)(必要な場合) 組織用に設定されています。
+-   組織に対して[通信クレジット](what-are-communications-credits.md)(必要な場合) が設定されている。
 
 -   通話プランのシナリオをサポートしているテナントのユーザーポリシーとダイヤルプランの設定が、特定、構成、適用されている。
 
@@ -184,7 +184,7 @@ ms.locfileid: "36236199"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>どの電話会議機能を展開するかを決定します (サービス決定)。</li><li>電話会議のユーザー機能要件を特定します。</li><li>電話会議のサービス構成要件を特定します。</li><br><li>ダイレクトルーティングまたは通話プランを展開して構成するかどうかを決定します。<li>どの電話システム機能が展開されるかを決定します (サービス決定)。</li><li>プランまたはダイレクトルーティングのためのユーザー機能要件を特定します。</li><li>プランまたはダイレクトルーティングのサービス構成要件を特定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>テスト計画のアプローチを開発し、文書化します。</li><li>電話会議機能のスコープでサービス環境とユーザーを準備します。</li><li>プランまたはダイレクトルーティング機能の対象となるように、サービス環境とユーザーを準備します。</li><li>有効にする電話会議機能のテストの検証を実行します。</li><li>有効にする通話プランまたはダイレクトルーティング機能に対してテストの検証を実行します。</li><li>テストの失敗については、構成が正しいことを確認し、コミュニティの記事を確認し、必要に応じてサポート案件を提起します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>テスト計画のアプローチを開発し、文書化します。</li><li>電話会議機能のスコープでサービス環境とユーザーを準備します。</li><li>プランまたはダイレクトルーティング機能の対象となるように、サービス環境とユーザーを準備します。</li><li>有効にする電話会議機能のテストの検証を実行します。</li><li>有効にする通話プランまたはダイレクトルーティング機能に対してテストの検証を実行します。</li><li>テストの失敗については、構成が正しいことを確認し、コミュニティの記事を確認し、必要に応じてサポート案件を提起します。</li></ul></td></tr>
 </table>
 
 

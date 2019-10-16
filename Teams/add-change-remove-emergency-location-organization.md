@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: 'Microsoft Teams 管理センターで、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。 '
-ms.openlocfilehash: e0befb48ce5cc6c896db89d7defbde94d01c9278
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 0e0f334365f38b52c2f90b33d7c6550aa3095dc3
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396523"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516831"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
@@ -62,6 +61,6 @@ ms.locfileid: "37396523"
 ## <a name="related-topics"></a>関連トピック
 
 -[緊急対応の場所、場所、通話ルーティングとは何ですか?](what-are-emergency-locations-addresses-and-call-routing.md)
-- [組織の緊急対応の場所を追加、変更、または削除する](add-change-remove-emergency-place-organization.md)
+- [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 - [[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)

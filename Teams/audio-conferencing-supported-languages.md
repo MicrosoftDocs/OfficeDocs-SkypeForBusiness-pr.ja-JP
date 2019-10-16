@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: それぞれの国/地域のダイヤルイン会議の言語と割り当てられたカルチャ ID (en-US、da-DK、de-DE など) を検索します。
-ms.openlocfilehash: 9a34afb138491f28458b80474600daebbd767696
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b49b5e942229244d2a37fb632badcb580f98ca61
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283517"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515760"
 ---
 # <a name="audio-conferencing-supported-languages"></a>電話会議でサポートされている言語
 
@@ -99,7 +98,7 @@ Office 365 で電話会議をセットアップして構成するときに、呼
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、簡素化、生産性を高めるためのさまざまな利点があります。たとえば、多くのユーザーの設定を一度に変更する場合です。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、簡素化、生産性を高めるためのさまざまな利点があります。たとえば、多くのユーザーの設定を一度に変更する場合です。次のトピックで、これらの利点について説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

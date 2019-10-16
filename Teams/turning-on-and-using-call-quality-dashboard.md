@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。 '
-ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: de5547f8a8cc4ee7284d544b0ef2a980b4d50b0c
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435102"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522761"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -310,9 +310,15 @@ CQD Summary レポートダッシュボードには、右上隅にある [設定
 - 各ワイヤレス AP とその MAC アドレスの地図
 - エンドポイントからエンドポイントの作成/モデル/型へのマップ。など
   
+> [!NOTE]
+> CQD にアップロードするレポートのラベルは、Office 365 の契約で*サポートデータ*として扱われます。これには、*顧客データ*や*個人データ*と見なされる情報も含まれます。 *サポートデータ*として microsoft に提供したくないデータは含めないでください。この情報は、サポート目的で microsoft エンジニアに表示されます。
+
 ![スクリーンショット: 通話品質ダッシュボードのテナントデータが表示されます](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. [**テナントデータのアップロード**] ページで、ドロップダウンメニューを使用してアップロードするデータファイルの種類を選びます。 ファイルのデータ型は、ファイルの内容を示します (たとえば、"建物" は、IP アドレスと建物およびその他の地理情報のマッピングを指します)。 "Endpoint" は、エンドポイントの名前とエンドポイントの型情報のマッピングを指します。 現在、CQD では、cqd.teams.microsoft.com (プレビューステージでは、まだ公式利用可能ではない) の "建物" と "Endpoint" データ型がサポートされています。 cqd.lync.com は、"建物" データ型のみをサポートしています。
+
+
+
 2. ファイルデータの種類を選んだら、[**参照**] をクリックしてデータファイルを選びます。
 
    - データファイルには、.tsv (タブ区切り値) ファイルまたは .csv (カンマ区切り値) ファイルを指定する必要があります。 .Csv ファイルでは、カンマが含まれているフィールドは引用符で囲む必要があります。または、コンマが削除されている必要があります。 たとえば、建物の名前が ny である場合は、.csv ファイルに "NY, NY" と入力します。
