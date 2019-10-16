@@ -346,6 +346,7 @@
 ### ダイレクト ルーティングのテクニカル リファレンス
 #### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
 #### [メディア パスの国コード](direct-routing-country-codes.md)
+#### [セッション ボーダー コントローラーの接続をテストする PowerShell スクリプト](sip-tester-powershell-script.md)
 
 ## 電話番号
 ### [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)

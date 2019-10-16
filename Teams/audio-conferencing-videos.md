@@ -12,32 +12,31 @@ description: IT 管理者に Microsoft Teams での電話会議を紹介する�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9cce3bd2b75c175698518f42cffad3028416127
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2ab70883c3ac98b6a67fe7f1685d161ffc7d5960
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235515"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515966"
 ---
-<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="cb75f-103">ビデオ: Audio Conferencing in Microsoft Teams (Microsoft Teams での電話会議)</span><span class="sxs-lookup"><span data-stu-id="cb75f-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
+<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="2471b-103">ビデオ: Audio Conferencing in Microsoft Teams (Microsoft Teams での電話会議)</span><span class="sxs-lookup"><span data-stu-id="2471b-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
 =============================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 > [!NOTE]
-> <span data-ttu-id="cb75f-104">電話会議は以前は PSTN 会議として知られていました。</span><span class="sxs-lookup"><span data-stu-id="cb75f-104">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
+> <span data-ttu-id="2471b-104">電話会議は以前は PSTN 会議として知られていました。</span><span class="sxs-lookup"><span data-stu-id="2471b-104">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
 
 
-### <a name="introduction-to-audio-conferencing"></a><span data-ttu-id="cb75f-105">電話会議の紹介</span><span class="sxs-lookup"><span data-stu-id="cb75f-105">Introduction to Audio Conferencing</span></span>
+### <a name="introduction-to-audio-conferencing"></a><span data-ttu-id="2471b-105">電話会議の紹介</span><span class="sxs-lookup"><span data-stu-id="2471b-105">Introduction to Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/AGPvaW4Vg0o]
 
-### <a name="plan-for-audio-conferencing"></a><span data-ttu-id="cb75f-106">電話会議の計画</span><span class="sxs-lookup"><span data-stu-id="cb75f-106">Plan for Audio Conferencing</span></span>
+### <a name="plan-for-audio-conferencing"></a><span data-ttu-id="2471b-106">電話会議の計画</span><span class="sxs-lookup"><span data-stu-id="2471b-106">Plan for Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/AWbuvcWcYIc]
 
-### <a name="number-porting-for-audio-conferencing"></a><span data-ttu-id="cb75f-107">電話会議用の番号の移行</span><span class="sxs-lookup"><span data-stu-id="cb75f-107">Number porting for Audio Conferencing</span></span>
+### <a name="number-porting-for-audio-conferencing"></a><span data-ttu-id="2471b-107">電話会議用の番号の移行</span><span class="sxs-lookup"><span data-stu-id="2471b-107">Number porting for Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/5k0C21KAsns]
