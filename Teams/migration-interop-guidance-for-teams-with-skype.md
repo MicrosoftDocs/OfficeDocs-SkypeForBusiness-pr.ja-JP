@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac2b42094484ce711760a793053bf619aab66884
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 33a56cb9844a9c40da41d411e537f7cedb2bf2a5
+ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484006"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37553773"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
@@ -50,7 +50,7 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 
 6.  アップグレードと相互運用の動作は、後で説明するユーザーの共存モードに基づいて決定されます。 モードは、TeamsUpgradePolicy によって管理されます。 
 
-7.  ユーザーを TeamsOnly モードにアップグレードすると、送信元のクライアントの種類に関係なく、すべての着信チャットと通話が常にユーザーのチームクライアントに表示されます。 また、アップグレードされたユーザーは新しい会議を Teams でスケジュールするようになります。 TeamsOnly モードにするには、ユーザーが Skype for Business でオンラインに所属している必要があります。 これは、Teams ユーザーの確実な相互運用、フェデレーション、完全な管理のために必要です。ユーザーを TeamsOnly にアップグレードするには、次の操作を実行します。
+7.  ユーザーを TeamsOnly モードにアップグレードすると、送信元のクライアントの種類に関係なく、すべての着信チャットと通話が常にユーザーのチームクライアントに表示されます。 また、アップグレードされたユーザーは新しい会議を Teams でスケジュールするようになります。 TeamsOnly モードにするには、ユーザーが Skype for Business でオンラインに所属している必要があります。 これは、Teams ユーザーの相互運用、フェデレーション、および完全な管理を確実にするために必要です。 ユーザーをチームにアップグレードするには、次の操作を行います。
     - ユーザーが Skype for Business Online に所属している (または Skype アカウントを所有したことがない) 場合、PowerShell で "UpgradeToTeams" を使用して、Mode=TeamsOnly で TeamsUpgradePolicy をそのユーザーに付与します。または、Teams 管理センターを使用して TeamsOnly モードを選択します。
     - ユーザーがオンプレミスに所属している場合、オンプレミスの管理ツールから `Move-CsUser` を使用して、まずそのユーザーを Skype for Business Online に移動します。  Skype for Business Server 2019 または CU8 for Skype for Business Server 2015 をお持ちの場合、`Move-CsUser` で `-MoveToTeams` スイッチを指定して、オンラインへの移行の一環としてユーザーを直接 Teams に移動することができます。 このオプションでは、ユーザーの会議も Teams に移行されます。 `-MoveToTeams` が指定されていないか使用できない場合、`Move-CsUser` の完了後に PowerShell または Teams 管理センターを使用して、TeamsOnly モードをそのユーザーに割り当てます。 詳細については、「[ユーザーのオンプレミスとクラウド間の移動](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)」を参照してください。  会議の移行の詳細については、「[会議移行サービス (MMS) の使用](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
 
@@ -84,7 +84,7 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 
 |モード|通話とチャット|会議のスケジュール<sup>1</sup>|チームとチャンネル|使用例|
 |---|---|---|---|---|
-|**TeamsOnly<sup>2</sup>**</br>*Skype for Business Online に所属していることが必要*|Teams|Teams|はい|アップグレード過程の最終的な状態。 シートが 500 未満の新しいテナントの既定値でもあります。|
+|**TeamsOnly<sup>2</sup>**</br>*Skype for Business Online に所属していることが必要*|Teams|Teams|はい|アップグレード過程の最終的な状態。 新しいテナントの既定値でもあります。|
 |アイランド|いずれか|いずれか|はい|既定の構成。 1人のユーザーが両方のクライアントを並べて評価することを許可します。 チャットと通話はいずれかのクライアントに届くので、ユーザーは両方のクライアントを常に起動しておく必要があります。 混乱または regressed の Skype for Business エクスペリエンスを回避するため、外部 (フェデレーション) 通信、PSTN 音声サービスと音声アプリケーション、Office の統合、その他のいくつかの統合は、引き続き Skype for Business で処理されます。|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|あり|"会議優先"。 主に、オンプレミスの組織向けに、クラウドへの通話を移行する準備がまだできていない場合は、Teams の会議機能を活用できます。|
 |SfBWithTeamsCollab|Skype for Business|Skype for Business|あり|厳しく管理の制御が必要な複雑な組織のための代替の開始点です。|
@@ -143,7 +143,7 @@ Teams は TeamsUpgradePolicy のすべての関連するインスタンスを、
 
 ## <a name="federation-considerations"></a>フェデレーションに関する考慮事項
 
-Skype for Business を使用している他のユーザーへの Teams からのフェデレーションには、Teams ユーザーが Skype for Business のオンラインに所属している必要があります。 最終的には、オンプレミスの Skype for Business に所属している Teams ユーザーは、Teams のみのユーザーとフェデレーションを行うことができるようになります。
+Skype for Business を使用している他のユーザーへの Teams からのフェデレーションには、Teams ユーザーが Skype for Business のオンラインに所属している必要があります。
 
 TeamsUpgradePolicy は、フェデレーションされた受信チャットと通話のルーティングを制御します。 フェデレーションされたルーティングの動作は、同じテナントの場合のシナリオと同じものです (*アイランド モードの場合を除く*)。  受信者がアイランド モードの場合の動作は、次のようになります。 
 - Teams から開始されたチャットと通話は、受信者が*フェデレーションされたテナント*にいる場合、Skype for Business に届きます。

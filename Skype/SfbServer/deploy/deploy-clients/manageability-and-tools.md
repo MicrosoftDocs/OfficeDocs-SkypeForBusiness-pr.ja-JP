@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: このトピックでは、Skype Room System の管理ツールについて説明します。
-ms.openlocfilehash: 51cb9ed85558a97b4afbeed8e4addd2ade6debec
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: c9289d3fffa78dd7ffd94fa17784c1b06c2278b1
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775328"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547260"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Room System の管理容易性とツール
  
@@ -29,9 +29,6 @@ Skype for Business Server のオンプレミス展開の場合、Skype Room Syst
   
 - [Skype for Business Server で SRS v1 管理 Web ポータルを展開する](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
-## <a name="system-center-operations-manager"></a>System Center Operations Manager
-
-Skype Room System [Management Pack](https://www.microsoft.com/download/details.aspx?id=42320)をダウンロードして、scom サーバーにインストールすると、System Center Operations MANAGER (SCOM) を通じて Skype ルームシステムを監視できます。 SCOM を使用して、通知の設定、Skype Room System の正常性の監視、稼働時間レポートの生成などを行うことができます。 Skype Room System には、SCOM サーバを参照するように構成できる事前にインストールされた監視エージェントが付属しています。 Skype room system メーカーから提供されているインストールガイドを参照して、Skype Room システムで監視エージェントを設定する方法を確認してください。
   
 ## <a name="exchange-checklist"></a>Exchange チェックリスト
 

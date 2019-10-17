@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: '概要: Skype for Business Server を Exchange 2013 または2016に統合する計画中に、このトピックを確認してください。'
-ms.openlocfilehash: 3b83fdbc7c193056b689d92ddec6061cfc59ca25
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: dfb9eb926cb1ebd046f06597eecc0c2204fea97b
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667506"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547270"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>オンプレミス ユニファイド メッセージングと Skype for Business を統合するための展開プロセスの概要
  
@@ -35,7 +35,7 @@ ms.locfileid: "34667506"
   
 |**段階**|**手順**|**必要なグループおよび役割**|**「展開」のドキュメント**|
 |:-----|:-----|:-----|:-----|
-|次のいずれかを展開します。  <br/> •メールボックス  <br/> Microsoft Exchange Server 2010 または最新の service pack  <br/> • Microsoft Exchange Server 2013  <br/> • Microsoft Exchange Server 2016  <br/>  |Microsoft Exchange Server 2013 を使用している場合は、次の Exchange Server の役割を同じフォレストまたは別のフォレストの Skype for Business サーバーとしてインストールします。  <br/> •クライアントアクセス  <br/> •メールボックス  <br/> Microsoft Exchange Server 2013 と Exchange ユニファイドメッセージング (UM) が異なるフォレストにインストールされている場合は、各 Exchange フォレストが Skype for Business Server フォレストを信頼するように構成します。  <br/> Exchange 2010 を使用している場合は、次の Exchange Server の役割を同じフォレストまたは別のフォレストの Skype for Business サーバーとしてインストールします。  <br/> •ユニファイドメッセージング  <br/> •ハブトランスポート  <br/> •クライアントアクセス  <br/> •メールボックス  <br/> Skype for Business Server と Exchange ユニファイドメッセージング (UM) が異なるフォレストにインストールされている場合は、各 Exchange フォレストが Skype for Business Server フォレストを信頼するように構成します。  <br/> |エンタープライズ管理者 (これが組織内で最初の Exchange Server である場合)  <br/> - または -  <br/> Exchange 組織管理者 (これが組織内で最初の Exchange Server ではない場合)  <br/> |お使いの Exchange Server のバージョンに適したドキュメントを参照してください。  <br/> Exchange Server 2010 または最新の service pack の展開に関するドキュメント <br/> Exchange Server 2013 計画と DeploymentExchange Server 2016 の計画と展開|
+|次のいずれかを展開します。  <br/> •メールボックス  <br/> Microsoft Exchange Server 2010 または最新の service pack  <br/> • Microsoft Exchange Server 2013  <br/> • Microsoft Exchange Server 2016  <br/>  |Microsoft Exchange Server 2013 を使用している場合は、次の Exchange Server の役割を同じフォレストまたは別のフォレストの Skype for Business サーバーとしてインストールします。  <br/> •クライアントアクセス  <br/> •メールボックス  <br/> Microsoft Exchange Server 2013 と Exchange ユニファイドメッセージング (UM) が異なるフォレストにインストールされている場合は、各 Exchange フォレストが Skype for Business Server フォレストを信頼するように構成します。  <br/> Exchange 2010 を使用している場合は、次の Exchange Server の役割を同じフォレストまたは別のフォレストの Skype for Business サーバーとしてインストールします。  <br/> •ユニファイドメッセージング  <br/> •ハブトランスポート  <br/> •クライアントアクセス  <br/> •メールボックス  <br/> Skype for Business Server と Exchange ユニファイドメッセージング (UM) が異なるフォレストにインストールされている場合は、各 Exchange フォレストが Skype for Business Server フォレストを信頼するように構成します。  <br/> |エンタープライズ管理者 (これが組織内で最初の Exchange Server である場合)  <br/> - または -  <br/> Exchange 組織管理者 (これが組織内で最初の Exchange Server ではない場合)  <br/> |お使いの Exchange Server のバージョンに適したドキュメントを参照してください。  <br/> Exchange Server 2010 または最新の service pack の展開に関するドキュメント <br/> Exchange Server 2013 の計画と展開 <br/> Exchange Server 2016 の計画と展開|
 |証明書をインストールします。  <br/> |信頼されたルート証明機関 (CA) から各 Exchange UM サーバーの証明書をダウンロードしてインストールします。 証明書は、Exchange UM と Skype for Business Server が実行されているサーバー間の相互トランスポートレベルセキュリティ (MTLS) に必要です。  <br/> |管理者  <br/> |[Exchange Server ユニファイドメッセージングを実行しているサーバーで証明書を構成する](../../deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md#configure-certificates-on-the-server-running-exchange-server-unified-messaging)|
 |新しい Exchange UM SIP ダイヤルプランを作成して構成します。  <br/> |Exchange UM サーバーで、組織の特定の展開要件に基づいて SIP ダイヤルプランを作成します。  <br/> |Exchange 組織管理者  <br/> | [Microsoft Exchange Server でのユニファイドメッセージングの構成](../../deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md#configuring-unified-messaging-on-microsoft-exchange-server) |
 |Exchange UM SIP ダイヤルプランのセキュリティ設定を構成します。  <br/> |エンタープライズボイストラフィックを暗号化するには、Sip がセキュリティで**保護**されている、またはセキュリティで**保護**されている場合に、Exchange UM SIP ダイヤルプランのセキュリティ設定を構成します。 これは、お客様の環境に Lync Phone Edition のデバイスを展開または展開する予定がある場合に特に重要です。 Exchange UM との統合によって環境内で機能する Lync Phone Edition デバイスの場合、Skype for Business Server の暗号化設定は、Exchange UM ダイヤルプランのセキュリティ設定に合わせる必要があります。 詳細については、「展開」のドキュメントを参照してください。  <br/> |Exchange 組織管理者  <br/> |Exchange 2010 または最新 Service Pack の場合は、次のドキュメントも参照してください。  <br/> [UM ダイヤルプランで VoIP セキュリティを構成](https://go.microsoft.com/fwlink/p/?LinkId=268697)します。  <br/> Exchange 2013 については、「[ユニファイドメッセージング](https://go.microsoft.com/fwlink/p/?LinkId=266579)」を参照してください。  <br/> |

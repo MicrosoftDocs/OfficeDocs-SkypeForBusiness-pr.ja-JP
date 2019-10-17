@@ -20,12 +20,12 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eaaa4782ac1c0f5fa8d1618f89c05d3ffd58e57
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 91d74a96cedcd0cdbdfd6b7fcc5ac1b8e261027e
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483981"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547281"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
@@ -75,7 +75,7 @@ TurnitinApiUrl は、管理コンソールのホストアドレスです。
 
 管理コンソールでは、統合と関連付けられた API キーを作成できます。
 
-サイド**** メニューから [統合] を選択し、[**統合の追加**] を選択して、統合の名前を指定します。
+サイド**メニューから [統合] を選択**し、[**統合の追加**] を選択して、統合の名前を指定します。
 ![新しい統合の追加を示すスクリーンショット](./educationImages/Assignments_mopo_turnitin2.png)
 
 プロンプトが表示された後、TurnitinApiKey が提供されます。 API キーをコピーして、Microsoft Teams 管理センターに貼り付けます。  これは、キーを表示できる唯一の時間です。
@@ -83,6 +83,4 @@ TurnitinApiUrl は、管理コンソールのホストアドレスです。
 
 この設定については、管理センターの [**保存**] ボタンをクリックすると、これらの設定が有効になるまで最大24時間許可してください。
 
-[Turnitin と Microsoft Teams の統合の詳細については、こちらを参照してください。](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
-
-[Turnitin について、詳細はこちらをご覧ください](https://www.turnitin.com/)
+Teams で Turnitin 統合の使用を開始する準備ができましたか? [以前のアクセスプログラム](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)にサインアップします。
