@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
@@ -16,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 581aab3067dcc2e8dbdc579236f340259b5c6e74
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ce472ca1c5307dd8a5573ca076c58e32e2d41df9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243186"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571526"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードを設定する
 
@@ -46,7 +45,7 @@ Skype for Business ユーザーをアップグレードして Teams を使用す
     - **共存**モードを設定します。
         - [**諸島**]: ユーザーが Skype for Business と Teams の両方を同時に使用できるようにする場合は、この設定を使います。
         - **Skype For business のみ**-ユーザーが Skype for business のみを使用できるようにする場合は、この設定を使います。
-        - **Teams のみ**(一部の組織のプレビューでは)。ユーザーが Teams のみを使用できるようにする場合は、この設定を使用します。 この設定でも、ユーザーは Skype for Business でホストされている会議に参加することができます。
+        - **チームのみ**(一部の組織のプレビュー) では、ユーザーが teams のみを使用できるようにする場合は、この設定を使用します。 この設定でも、ユーザーは Skype for Business でホストされている会議に参加することができます。
     - **チームがアップグレード可能であることを Skype For business ユーザーに通知するよう**に設定します。 この設定を有効にすると、Skype for Business ユーザーに対して、チームアプリへのアップグレードが間もなく行われることが通知されます。
     - **ユーザーが Skype For business 会議に参加するための優先アプリを**設定します。 この設定では、Skype for Business 会議に参加するために使用するアプリを決定し、[共存] モードの値に関係なく有効になります。
       - **Skype 会議アプリ**
@@ -65,10 +64,10 @@ Skype for Business ユーザーをアップグレードして Teams を使用す
      - [**諸島**]: ユーザーが Skype for Business と Teams の両方を使用できるようにする場合は、この設定を使います。 
      - **Skype For business のみ**-ユーザーが Skype for business を使用できるようにする場合は、この設定を使います。 
      - [**チームのみ**]-ユーザーが Teams のみを使用できるようにする場合は、この設定を使います。 ユーザーは、引き続き Skype for Business 会議に参加することができます。
-4. [**組織全体**の**** 設定を使用しない] を選択した場合、ユーザーの Skype for Business アプリで、Teams にアップグレードした通知を有効にするオプションが表示されます。 ユーザーに対してこの通知を有効にするには、[ **Skype For business ユーザーに通知**する] オプションをオンにします。
+4. [**組織全体の設定を使用**しない] を選択した場合、ユーザーの Skype for business アプリ**で、Teams**にアップグレードした通知を有効にするオプションが表示されます。 ユーザーに対してこの通知を有効にするには、[ **Skype For business ユーザーに通知**する] オプションをオンにします。
 5. 変更を加えた後、[**保存**] をクリックします。
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 [旅を計画する](upgrade-plan-journey.md)
 
 [Skype for Business および Teams の共存とアップグレードの過程を理解する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

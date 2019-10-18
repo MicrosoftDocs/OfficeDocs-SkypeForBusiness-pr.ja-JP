@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表を使って、Microsoft Teams のベルギーでの電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: 6427501ae3e93767d3740f2fc731fd701bd1e224
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: cd8db5b009464c60997f8dff81644dfe69d81609
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347779"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570602"
 ---
 # <a name="phone-number-management-for-belgium"></a>ベルギーでの電話番号の管理
 

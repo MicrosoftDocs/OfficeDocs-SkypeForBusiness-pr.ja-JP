@@ -9,7 +9,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -19,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオンライセンス、機能、Office 365 Enterprise E1 および E3 プランの購入方法について説明します。 '
-ms.openlocfilehash: 30a7f18382c6fcbc28d80089c5cd9f855c00aa8e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7c8851da745009439cd473c9bbd1e90cc7498363
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242649"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571182"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 および E3
 
@@ -66,7 +65,7 @@ E3 プランはお持ちの Action Pack に含まれています。 電話シス
 
 一部の状況では、microsoft 365 管理センターで Microsoft Teams のアドオンを購入するオプションが表示されません。
 
-- **Office 365 Business Premium を GoDaddy** から購入されています。 この場合、Microsoft Teams のアドオンを購入することはできません。 E3 プランに切り替える必要があります (GoDaddy は販売していません)。その後、それらを購入することができます。 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **Office 365 Business Premium を GoDaddy** から購入されています。 この場合、Microsoft Teams のアドオンを購入することはできません。 E3 プランに切り替えて、それらを購入する必要があります。 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - **年間契約ではなく月単位の契約を結んでいます** 。 場合によっては、月単位の契約のユーザーはアドオンを購入いただけません (支払方法が月単位の場合は該当しません)。 これは既知の問題であり、これを修正しています。 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 

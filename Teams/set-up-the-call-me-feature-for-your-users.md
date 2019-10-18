@@ -1,5 +1,5 @@
 ---
-title: ユーザー用に通話機能を設定する
+title: ユーザーの [電話する] 機能をセットアップする
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: macai, phedry
@@ -10,17 +10,18 @@ audience: admin
 search.appverid: MET150
 description: ユーザーがオーディオ用にコンピューターを使用している可能性がある場合に、ユーザーが電話でオーディオ部分に参加できるように、Teams の [折り返し] 機能を設定する方法について説明します。
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54e9d90a3380358abd0c1e984b90834455eb44e2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8bd9ca9b73d3d2e60b707d0f40ebb1797d4e1a00
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243175"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571548"
 ---
-# <a name="set-up-the-call-me-feature-for-your-users"></a>ユーザー用に通話機能を設定する
+# <a name="set-up-the-call-me-feature-for-your-users"></a>ユーザーの [電話する] 機能をセットアップする
 
 Microsoft Teams の [**折り返し**] 機能を使用すると、ユーザーは電話で会議のオーディオ部分に参加することができます。 これは、オーディオ用のコンピューターを使うことができない場合に便利です。 ユーザーは、会議のオーディオ部分を、携帯電話または陸上線と、会議の他の参加者&mdash;が自分の画面を共有したり、コンピューターでビデオ&mdash;を再生したりする場合に、会議のコンテンツ部分を取得します。
 
@@ -62,4 +63,4 @@ Microsoft Teams の [**折り返し**] 機能を使用すると、ユーザー�
 
 - ユーザーは会議からダイヤルアウトできます。 詳細については、「 [Teams でユーザーの電話会議の設定を管理](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)する」を参照してください。
 
-ユーザーが会議からのダイヤルアウトを有効にして**** いない場合、[折り返し先] オプションは利用できません。ユーザーは会議に参加するための電話を受けません。 代わりに、電話で電話の会議に手動でダイヤルインするために使うことができる電話番号のリストが、[**オーディオの使用電話**] 画面に表示されます。
+ユーザーが会議からのダイヤルアウトを有効にしていない場合、 **[折り返し先] オプションは**利用できません。ユーザーは会議に参加するための電話を受けません。 代わりに、電話で電話の会議に手動でダイヤルインするために使うことができる電話番号のリストが、[**オーディオの使用電話**] 画面に表示されます。

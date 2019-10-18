@@ -10,19 +10,21 @@ ms.service: msteams
 search.appverid: MET150
 description: ''
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63e54de51233997eab2ba17ab4f284afd03a21c0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eeab39a68827925fa9805380763f2375910ee793
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232190"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568710"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
-2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。
+2019年12月31日有効な場合、Microsoft StaffHub は廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。
 
 これらの変更は、Microsoft 365 を使ってすべての従業員を強化するための継続的な取り組みの一部です。 チーム内の最初のラインワーカー向けの機能を使用すると、組織内のすべての従業員がチームを使って作業を効率化し、同僚と共同作業を行い、情報や専門知識にアクセスして、最善の作業を実行できるようになります。
 
@@ -32,13 +34,13 @@ ms.locfileid: "36232190"
 
 #### <a name="when-will-staffhub-be-retired"></a>StaffHub はいつから廃止されますか?
 
-2019年4月の間に、新しいテナントで Microsoft StaffHub は利用できなくなり、既存のテナントの Office 365 アプリ起動ツールからアプリにアクセスすることはできなくなります。 現在のユーザーは、2019年10月1日までサービスを利用できますが、その他の機能は利用できません。
+2019年4月の間に、新しいテナントで Microsoft StaffHub は利用できなくなり、既存のテナントの Office 365 アプリ起動ツールからアプリにアクセスすることはできなくなります。 現在のユーザーは、2019年12月31日までサービスを使用できますが、その他の機能は利用できません。
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>StaffHub が廃止された場合はどうなりますか?
 
-2019年10月1日に、Microsoft StaffHub はすべてのユーザーに対して機能しなくなります。 アプリを開こうとしているユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 ユーザーが teams を含むアクティブなライセンスを持っており、その組織がチームを有効にするための適切な手順を実行している場合、StaffHub のデータとコア機能は、チームへの切り替え時に使用できるようになります。
+2020年1月1日のすべてのユーザーに対して、Microsoft StaffHub が機能しなくなります。 アプリを開こうとしているユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 ユーザーが teams を含むアクティブなライセンスを持っており、その組織がチームを有効にするための適切な手順を実行している場合、StaffHub のデータとコア機能は、チームへの切り替え時に使用できるようになります。
 
-2019年4月と2019年10月の間、StaffHub ユーザーはアプリ内通知を受信して、チームの使用を促すことができます。
+2019年4月と2019年12月の間、StaffHub ユーザーはアプリ内通知を受信して、チームの使用を促すことができます。
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Teams で現在提供されているすべての機能は、StaffHub によって提供されますか?
 
@@ -115,7 +117,7 @@ Teams のシフトアプリは、Firstline Worker を接続して同期させる
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>Teams にはどのようなライセンスが必要ですか?
 
-各ユーザーは、ライセンス付与された有効な Microsoft 365 また[](#which-plans-is-shifts-available-in)は Office 365 ライセンスを所有している必要があります。また、Teams ライセンスを割り当てる必要があります。 詳細については、「[チーム内での StaffHub teams のシフトへの移動](move-staffhub-teams-to-shifts-in-teams.md)」を参照してください。
+各ユーザーは、ライセンス付与された有効な Microsoft 365 または Office 365 ライセンスを所有している必要があります。[また、Teams](#which-plans-is-shifts-available-in)ライセンスを割り当てる必要があります。 詳細については、「[チーム内での StaffHub teams のシフトへの移動](move-staffhub-teams-to-shifts-in-teams.md)」を参照してください。
 
 #### <a name="how-do-i-move-my-organizations-staffhub-teams-to-teams"></a>組織の StaffHub teams を Teams に移動する方法を教えてください。
 
@@ -159,7 +161,7 @@ Azure AD ユーザーアカウントにリンクされていない非アクテ�
  
 #### <a name="what-happens-to-chats-in-staffhub"></a>StaffHub のチャットはどうなりますか?
 
-ユーザーを移行するには、StaffHub のデータチャット履歴を Teams に移行する予定です。 チームで利用できるチャット履歴の量は、移行のために組織を構成するまでの時間によって異なります。 2019年10月1日までに90日間のデータを移行するのに十分な時間を提供するには、2019年6月30日以降のアクションを実行することをお勧めします。
+ユーザーを移行するには、StaffHub のデータチャット履歴を Teams に移行する予定です。 チームで利用できるチャット履歴の量は、移行のために組織を構成するまでの時間によって異なります。 2019年12月31日までに90日間のデータを移行するのに十分な時間を提供するには、2019年6月30日以降のアクションを実行することをお勧めします。
 
 移行を開始する前に、Microsoft 365 管理センターで Office 365 グループの作成が有効になっていることを確認します。これは、StaffHub のチャットデータを Teams に移動できるようにするために不可欠です。 2019年6月30日までにこのサービスを有効にしないと、移行日が後になったり、チャットデータがコピーされたりすることはありません。
 
@@ -211,4 +213,4 @@ StaffHub Api を使用して統合を構築した場合、これらの Api は�
 
 #### <a name="where-can-i-provide-feedback"></a>フィードバックはどこで利用できますか?
   
-モバイルアプリで、画面の左上にある [**その他**] をタップし、[**設定** > ] に移動して、**フィードバックを送信**するか、**問題を報告**します。 同様に、デスクトップおよび web アプリでは、画面の左下にある「アイデアの**** > **共有**または問題の**報告**」を参照してください。
+モバイルアプリで、画面の左上にある [**その他**] をタップし、[**設定** > ] に移動して、**フィードバックを送信**するか、**問題を報告**します。 同様に、デスクトップおよび web アプリでは、画面の左下にある「 > **アイデアの共有**または問題の**報告**」**を参照し**てください。

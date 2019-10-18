@@ -12,19 +12,18 @@ description: ネットワークプランナーを使用して、Microsoft Teams 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69de49397baab5e1a9dc037799aa3ac5ba4f6421
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484050"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573367"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft Teams のネットワークプランナーを使用する
 
@@ -92,7 +91,7 @@ ms.locfileid: "36484050"
 
 1. [**レポート**] タブで、[**レポートの開始**] をクリックします。
 
-2. 作成した各サイトについて、利用可能なペルソナを越えてユーザー数を配布します。 Microsoft の推奨されるペルソナを使用している場合は、その番号が自動的に配布されます (80% の office worker と 20% のリモートワーカー)。
+2. 作成した各サイトについて、利用可能なペルソナを越えてユーザー数を配布します。 Microsoft の推奨されるペルソナを使用している場合は、その番号が自動的に配布されます (80% の office worker と20% のリモートワーカー)。
 
 3. 配布が完了したら、[**レポートの生成**] をクリックします。
 

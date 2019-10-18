@@ -12,18 +12,17 @@ description: 監査および報告、コンプライアンスのコンテンツ�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea0231ae9ad654e360a153029d06ea9fb564d49a
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483033"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568057"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -137,9 +136,9 @@ Teams の韓国データ常駐サービスの詳細については、「Sagar �
 
 Teams でのカナダにおけるデータ常駐の詳細については、Varun Sagar (バルン・サガール) 氏のブログ投稿記事「[Microsoft Teams Launches Canada Data Residency, Australia and Japan coming soon (Microsoft Teams によるカナダでのデータ常駐が開始、オーストラリアと日本では近日中に開始)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)」をご覧ください。 
 
-Teams 向けのオーストラリアおよび日本のデータ常駐サービスの発売の詳細については、「Sagar のブログ[](https://go.microsoft.com/fwlink/?linkid=867773)投稿を読む」を参照してください。 
+Teams 向けのオーストラリアおよび日本のデータ常駐サービスの発売の詳細については、「Sagar のブログ投稿を読む」を[参照してください。](https://go.microsoft.com/fwlink/?linkid=867773) 
 
-Teams 向けのフランスデータレジデンシーの起動の詳細については、「Sagar のブログ投稿を[](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466)読む」を参照してください。
+Teams 向けのフランスデータレジデンシーの起動の詳細については、「Sagar のブログ投稿を読む」を[参照してください。](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466)
 
 テナントのデータが格納されている領域を確認するには、 [Microsoft 365 管理センター](https://portal.office.com/adminportal/home) > の**設定** > **組織プロファイル**に移動します。 下にスクロールして [**データの場所**] に移動します。 
 

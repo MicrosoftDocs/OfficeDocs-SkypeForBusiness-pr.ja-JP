@@ -7,7 +7,8 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージングポリシーと、それらを使用して Teams でチャットメッセージを制御する方法について説明します。
-ms.openlocfilehash: 0707214a2bff442102dd1481af1f031c1a59703d
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861865"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569278"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams のメッセージング ポリシーを管理する
 
@@ -97,5 +98,5 @@ Microsoft Teams 管理センターでは、管理者の資格情報でhttp://adm
 - **モバイルデバイスでは、最近のチャットの上にお気に入りのチャンネルを表示**この設定を有効にすると、ユーザーがスクロールする必要がないように、お気に入りのチャネルをモバイルデバイスの画面の上部に移動することができます。 
 - **グループチャットからユーザーを削除することをユーザーに許可**するこの設定をオンにして、ユーザーがグループチャットから他のユーザーを削除できるようにします。 この機能を使用すると、チャット履歴を失うことなく、少人数のグループとチャットを続けることができます。
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 [Teams での会議ポリシー](meeting-policies-in-teams.md)

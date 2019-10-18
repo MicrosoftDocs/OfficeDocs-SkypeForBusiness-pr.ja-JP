@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Microsoft Teams ルームの展開については、この記事を参照してください。
-ms.openlocfilehash: 132c40c674824bb763ea2087318423ca3677f506
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f040c61bff6a756ab1fbbff5229c6ebc8a150b3c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775130"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573596"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -49,7 +48,7 @@ Microsoft Teams の会議室の展開は、基本的にフェーズに分けて�
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サイトが Microsoft Teams のルームの重要な要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅が用意されていることを確認します。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>まず、デバイスの展開と構成を計画します。</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>まず、デバイスの展開と構成を計画します。</li></ul>| 
 
 ## <a name="service-readiness"></a>サービスの準備状況
 
@@ -74,7 +73,7 @@ Microsoft Teams のルームアカウントの詳細については、「 [Micro
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サポートするシナリオを決定し、Microsoft Teams の会議サービスアカウントのライセンス要件を特定します。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>マシンアカウントとサービスアカウントをホストするための準備を行います。</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>マシンアカウントとサービスアカウントをホストするための準備を行います。</li></ul>| 
 
 
 _Microsoft Teams 室のサンプルサービスアカウントの計画テーブル_
@@ -123,7 +122,7 @@ Microsoft Teams の各ルームデバイスには、専用の固有のリソー�
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft Teams のルームアカウントの名前付け規則を決定します。</li><li>個別のアカウントを作成するか、一括プロビジョニングスクリプトを使用するかを決定します。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>まず、デバイスの展開を計画します。</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>まず、デバイスの展開を計画します。</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>デバイスソフトウェアのインストール 
@@ -147,7 +146,7 @@ Microsoft [Azure モニター](https://docs.microsoft.com/skypeforbusiness/plan-
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>展開時に使用する Microsoft Teams 室のデバイスの名前付け規則を決定します。</li><li>Microsoft Teams 室のデバイスをドメインに参加するかどうか、およびローカルアカウントを管理して構成する方法を決定します。 </li><li>Operations Management Suite を使用して Microsoft Teams ルームの展開を監視するかどうかを決定します。</li><li>デバイスの展開の準備として、ソフトウェアとエージェントを Microsoft Teams のルームシステムに展開するために使用する方法を決定します。 </li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイス展開のアプローチの計画を開始します。</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>デバイス展開のアプローチの計画を開始します。</li></ul>| 
 
 
 ### <a name="device-deployment"></a>デバイスの展開
@@ -158,7 +157,7 @@ Microsoft Teams のルームユニットにソフトウェアを展開した後�
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サイトごとの展開を管理するユーザーを決定する。</li><li> サイトに Microsoft Teams の会議室デバイスをインストールし、構成とテストに着手するリソースを特定します。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>デバイスのテストを開始します。</li></ul>| 
 
 _展開テーブルの例_
 
@@ -180,7 +179,7 @@ XML 構成ファイルの使用方法の詳細については、「 [Microsoft T
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft Teams の各会議室システムを手動で構成するのか、一元管理の XML ファイルを使用するのか (Microsoft Teams のルームデバイスごとに1つ) を決定します。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リモート管理アプローチを定義します。</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>リモート管理アプローチを定義します。</li></ul>| 
 
 ### <a name="testing"></a> 試験
 

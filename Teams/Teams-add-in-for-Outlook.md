@@ -14,16 +14,15 @@ description: Microsoft Teams は、ユーザーが  Outlook から Teams の会�
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b095beaae7e102f49bc02f6193095b751081db19
-ms.sourcegitcommit: 7d9ed878839609a3bd1f14114423df775a99f790
+ms.openlocfilehash: 6a8a440859d5bb33dfa5f57fd952f642b0e88dc7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37318836"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563323"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================

@@ -1,5 +1,5 @@
 ---
-title: 無料電話ダイヤルの制限事項
+title: 無料電話ダイヤルの制限事項と制約事項
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,14 +21,14 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域の必要なアクセスコードが表示されます。
-ms.openlocfilehash: 8cba8dc9fffbe843f715445649a78d8a02fba4db
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330517"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571653"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>無料電話ダイヤルの制限事項
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>無料電話ダイヤルの制限事項と制約事項
 
 これは、国または地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、特定の詳細、制限、制限など、有料サービスの利用可能な場所が記載されたページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域の必要なアクセスコードが表示されます。
   

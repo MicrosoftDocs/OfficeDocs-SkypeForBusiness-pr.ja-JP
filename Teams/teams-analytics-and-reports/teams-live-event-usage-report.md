@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Microsoft Teams 管理センターで Teams live イベントの利用状況レポートを使用して、組織内の Teams live イベントアクティビティの概要を確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0ecd27df1f7bccd9a451f2581d55e5c335b1e0
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 3c391370e757aedcf9ede889fc46f165cfc636f4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131616"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571149"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams のライブイベントの使用状況レポート
 
@@ -33,7 +32,7 @@ Microsoft Teams 管理センターの [チームライブイベントの利用�
 3. 省略[**構成内容**変更] で、特定のユーザーによって開催されるライブイベントのみを表示するように選択できます。
 4. [**レポートの実行**] をクリックします。  
 
-    ![吹き出しが含まれる teams 管理センターのチームライブイベントの使用状況レポートのスクリーンショット](../media/teams-live-event-usage-report-with-callouts.png "吹き出しが含まれる teams 管理センターのチームライブイベントの使用状況レポートのスクリーンショット")
+    ![吹き出しが含まれる Teams 管理センターのチームライブイベントの使用状況レポートのスクリーンショット](../media/teams-live-event-usage-report-with-callouts.png "吹き出しが含まれる Teams 管理センターのチームライブイベントの使用状況レポートのスクリーンショット")
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
@@ -53,7 +52,7 @@ Microsoft Teams 管理センターの [チームライブイベントの利用�
 
 組織で[Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) ecdn または[Kollective](https://kollective.com) ecdn が有効になっている場合は、パートナーレポートのリンクをクリックして、追加の出席者の分析を取得できます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)
 - [Teams のライブ イベントについて](../teams-live-events/what-are-teams-live-events.md)

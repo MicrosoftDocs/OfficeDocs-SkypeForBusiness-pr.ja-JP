@@ -11,17 +11,14 @@ audience: admin
 description: Microsoft Teams または Skype for Business でのクラウド音声の実装を改善するために、ユーザーからのフィードバックを収集します。
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c0a18f82eebb926792e7c3450ef1db1eb9f2fad
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4690321129ef9b57e70ec497161acd863f061ef9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232854"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567680"
 ---
 # <a name="user-feedback-surveys"></a>ユーザーフィードバックアンケート 
 
@@ -58,13 +55,13 @@ ms.locfileid: "36232854"
 
 Teams を電話として友人や同僚として使用することをお勧めします。 (0 = ほとんどありません...10 = 非常に可能性が高い
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 個 | ファイブ | 常用 |
+| 0      | 1 | 両面 | 3 | 4 | 5 | 6 | 7 | 個 | ファイブ | 常用 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 電話デバイスを友人や同僚に勧める可能性はどの程度ありますか? (0 = ほとんどありません...10 = 非常に可能性が高い  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 個 | ファイブ | 常用 |
+| 0      | 1 | 両面 | 3 | 4 | 5 | 6 | 7 | 個 | ファイブ | 常用 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbert
 ms.custom:
 - Calling Plans
 description: プランの呼び出しに使用するさまざまな電話番号の種類について説明します。
-ms.openlocfilehash: 9dd6996a4ea455c30025b9430735e22079d870ac
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 353f3810be41aff5365b9dca00831d6b5a4dad5c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483761"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572269"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>通話プランで使用されるさまざまな種類の電話番号
 

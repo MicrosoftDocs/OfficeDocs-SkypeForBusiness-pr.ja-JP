@@ -9,21 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
-- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
 description: Microsoft Teams で休日を設定し、自動応答に接続する方法について説明します。
-ms.openlocfilehash: ae960cddb2c5e8d590e5eb73d9f0763dacd582b6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ee07b33325ee436f6f0397a30034f40db819be09
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483256"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571570"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams で休日を設定する
 
@@ -86,6 +84,6 @@ Microsoft Teams の祝日機能を使用すると、組織内のユーザーが�
     通話をリダイレクトするには、[**通話のリダイレクト**] を選択し、ドロップダウンリストからリダイレクトされた通話を受信するユーザーを選択するか、表示名で相手を検索します。
 8. [**保存**] を選びます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [クラウド自動応答とは何](what-are-phone-system-auto-attendants.md)ですか?

@@ -14,16 +14,15 @@ search.appverid: MET150
 ms.custom:
 - Devices
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70398d6718268742205181db3fd21bfc01886c0e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 37c38577fe3bda9ed2a1c2e224390e89f44de96b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235043"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570104"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Surface Hub の Microsoft Teams を展開する
 ======================================
@@ -63,7 +62,7 @@ Surface Hub の Teams をインストールする前に、次の操作を行っ�
 |---------|---------|
 |0     | スタート画面の Skype 優先アプリ、Teams 会議が利用可能        |
 |1     | スタート画面の Teams 優先アプリ、Skype 会議が利用可能        |
-|2     | スタート画面の Teams 排他アプリ (Skype アプリは利用できません)        |
+|両面     | スタート画面の Teams 排他アプリ (Skype アプリは利用できません)        |
  
 1. USB キーを Surface Hub デバイスに接続します。 
 2. Surface Hub デバイスで [**設定**] アプリを開きます。 

@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Microsoft Teams 管理センターの Teams ユーザーアクティビティレポートを使用して、組織内のユーザーが Teams をどのように使用しているかを確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a478e99037194381421f76ce4856f219ef9dd0db
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 19c8837ebc6957d9ccd198df9a08eda229e2a262
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439563"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571380"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams ユーザー アクティビティ レポート
 
@@ -31,7 +30,7 @@ Teams ユーザーアクティビティレポートは、組織内のユーザ�
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**分析] & [レポート** > の**利用状況レポート**] をクリックします。 [**レポートの表示**] タブの [**レポート**] で、[**チームユーザーアクティビティ**] を選択します。
 2. [**日付の範囲**] の下で、範囲を選択して、[**レポートの実行**] をクリックします。
 
-    吹き出しが含まれる teams(../media/teams-reports-user-activity-with-callouts.png "管理センターの teams ユーザーアクティビティレポートのスクリーンショット")のスクリーンショット。 ![teams 管理センターの teams ユーザーアクティビティレポートのスクリーンショット]
+    ![吹き出し付きの Teams 管理センターの Teams ユーザーアクティビティレポートのスクリーンショット](../media/teams-reports-user-activity-with-callouts.png "吹き出し付きの Teams 管理センターの Teams ユーザーアクティビティレポートのスクリーンショット")
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
@@ -47,6 +46,6 @@ Teams ユーザーアクティビティレポートは、組織内のユーザ�
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

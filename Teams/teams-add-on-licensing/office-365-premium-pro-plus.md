@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,12 +17,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: アドオンライセンス、機能、Office 365 ProPlus を購入する方法について説明します。
-ms.openlocfilehash: e26b871bbebdb3c5a5ed22c8e3fee9e4c08ef409
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 99fbbe549a41ed139dbf044e93f065bf1412b023
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242561"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572456"
 ---
 # <a name="office-365-proplus"></a>Office 365 ProPlus
 

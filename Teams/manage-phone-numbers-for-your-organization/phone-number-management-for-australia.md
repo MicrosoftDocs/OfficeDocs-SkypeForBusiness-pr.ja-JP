@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -19,15 +18,15 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表を使用して、Microsoft Teams のオーストラリアでの電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: cd3d5c544356e806f6c33d85c951948dd33cbebc
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: f8576f383937a9e8889a660619d169cd657d8de7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348004"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573164"
 ---
 # <a name="phone-number-management-for-australia"></a>オーストラリアでの電話番号の管理
-当社はオーストラリアで、通話プランの購入と事前設定に関して Telstra 社 と提携しました。 Telstra 社は、通話プランを販売し、自動応答とコール キューに関して、ユーザーとサービス電話番号両方に電話番号管理のサポートを提供します。 ただし、電話会議用のサービス電話番号とライセンスは、引き続き Office 365 で販売、管理します。
+オーストラリアでは、Telstra と提携して、オーストラリアの請求先住所を使って、お客様の通話プランを購入およびプロビジョニングします。 Telstra は、通話プランを販売し、オーストラリアのユーザー番号を提供し、自動応答と通話キューのユーザーとサービス番号の両方に対して電話番号管理のサポートを提供します。 ただし、電話会議用のサービス電話番号とライセンスは、引き続き Office 365 で販売、管理します。
 
 詳細については、 「[Tesltra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
 

@@ -10,7 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -21,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 90733b43ddb1d94d8c0f763ac048384816681f46
-ms.sourcegitcommit: 472825b0f4db1542a5b855d637aa90b4bcd797bc
+ms.openlocfilehash: 9d700ae83dd62c8308e7a792acd2d97c999649fa
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "36993979"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570247"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 
@@ -130,5 +129,5 @@ ms.locfileid: "36993979"
 | オン     | オン     | オフ         | ユーザーがカスタムアプリをアップロードすることはできません。       |
 | オン    | オン        | オン        | ユーザーがチーム所有者であるかどうかに関係なく、ユーザーはカスタムアプリをチームにアップロードできます。 ユーザーは、個人用コンテキストでカスタムアプリをアップロードできます。       |
 
- ## <a name="related-topics"></a>関連トピック
+ ## <a name="related-topics"></a>関連項目
 - [Teams でのアプリの管理設定](admin-settings.md)

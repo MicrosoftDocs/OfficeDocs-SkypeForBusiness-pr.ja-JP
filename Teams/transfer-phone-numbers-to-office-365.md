@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 電話番号を Teams に移行する前に知っておく必要があることと、それを転送するためのポートの順序を作成する方法について説明します。
-ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: a876309f8404002a76f13913d64926132b315d2b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464570"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571515"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Office 365 に電話番号を転送する
 

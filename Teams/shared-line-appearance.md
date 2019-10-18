@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: '[共有の線の外観] を使うと、ユーザーは代理として応答するか、通話を処理するデリゲートを選ぶことができます。'
-ms.openlocfilehash: 67708c05105b83cca80702292a1766a2224681bc
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483703"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571760"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams での回線共有機能
 
@@ -44,7 +44,7 @@ ms.locfileid: "36483703"
 
 委任および共有の線の外観は、ユーザーによる機能です。構成する管理設定はありません。 この機能を使用する方法については、「[代理人と電話回線を共有](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)する」を参照してください。
 
-この機能を使用するには、テナント管理者が Teamadministration の**ポリシー AllowDelegation**設定または Teams 管理ポータルを使って委任を有効にすることができます。 
+この機能を使用するには、テナント管理者が**teamadministration のポリシー AllowDelegation**設定または Teams 管理ポータルを使って委任を有効にすることができます。 
 
 テナント管理者は、Teams 管理センターでユーザーの委任関係を構成することもできます。 さらに、エンドユーザーは、チームに直接委任関係を構成することもできます。 テナント管理者またはユーザーは、構成を相互にブロックすることはできませんが、Teams 管理センターとチームクライアントは、両方の場所でこの関係を正確に表示する必要があります。 
 

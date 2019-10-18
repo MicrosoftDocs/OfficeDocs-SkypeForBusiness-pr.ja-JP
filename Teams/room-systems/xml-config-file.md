@@ -10,14 +10,15 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
-ms.openlocfilehash: 916eca45a39e7bf0dfe6a35b5985832ef5d580f5
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774915"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573464"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する
 
@@ -131,7 +132,7 @@ ms.locfileid: "36774915"
 
 ユーザー設定のテーマのイメージファイルは、`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`フォルダーに配置する必要があります。 \<CustomThemeImageUrl\>変数にファイル名と拡張子を入力します。
   
-画像ファイルは、正確に3840X1080 ピクセルであり、jpg、jpeg、png、bmp のいずれかのファイル形式である必要があります。 組織でカスタム画像が必要な場合は、グラフィックデザイナーで[カスタムテーマ Photoshop テンプレート](https://go.microsoft.com/fwlink/?linkid=870441)を使うことができます。 このテンプレートには、テーマ画像内でいろいろな要素を配置できる場所や、コンソールやディスプレイに表示される領域に関する詳細が記載されています。
+画像ファイルは、正確に3840X1080 ピクセルであり、jpg、jpeg、png、bmp のいずれかのファイル形式である必要があります。 組織でカスタム画像が必要な場合は、グラフィックデザイナーで[カスタムテーマ Photoshop テンプレート](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)を使うことができます。 このセクションには、さまざまなユーザーインターフェイス要素が、テーマイメージの残りの部分に対する相対的な場所と、コンソールやディスプレイに表示される領域について詳しく説明されています。
   
 XML 構成ファイルはデバイスの起動時に更新され、テーマ画像を認識する必要があります。 新しい XML ファイルが処理されて削除されると、テーマのグラフィックファイルがディレクトリから削除されます。
   

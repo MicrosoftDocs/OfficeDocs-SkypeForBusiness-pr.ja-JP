@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Microsoft Teams の英国 (uk) で電話番号を取得および管理する方法については、次の表を参照してください。
-ms.openlocfilehash: 900ebd3e7579e01a40e4c7f0ef273c81d5abbd33
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: bdad256ee68b1ecd6cf07dc7bf67388a6929dc26
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347909"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571958"
 ---
 # <a name="phone-number-management-for-the-uk"></a>英国での電話番号の管理
 

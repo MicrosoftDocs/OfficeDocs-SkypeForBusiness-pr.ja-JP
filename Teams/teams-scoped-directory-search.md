@@ -12,18 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 description: Microsoft Teams のスコープ指定ディレクトリ検索を使用して、ディレクトリのカスタマイズされたビューを提供する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4966c2ac6071f0796efeb59248ed3eeacae69a7
-ms.sourcegitcommit: e5a9f276ace283b415f0abd4da6d27433a3d7d3b
+ms.openlocfilehash: 094d83f8f6b21fc5e820235b91fa14820f6b407e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "37495285"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570115"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams の範囲指定ディレクトリ検索を使用する
 

@@ -11,14 +11,15 @@ ms.service: msteams
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: このトピックでは、大規模な展開での Microsoft Teams のルームの展開について説明します。
-ms.openlocfilehash: 26bb864f1b3eea49eaf99b598af9b5794df824be
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428011"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573629"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>System Center Configuration Manager を使用して Microsoft Teams ルームを展開する
 
@@ -137,7 +138,7 @@ Configuration Manager では、Microsoft Teams のルームユニットを展開
 
 次のパッケージを作成して構成し、配布ポイントサーバーの役割が割り当てられている Configuration Manager サイトシステムに配布する必要があります。
 
-| **パッケージ名**                     | **型**               | **説明**                                                                           |
+| **パッケージ名**                     | **種類**               | **説明**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
 | SRS v2-SRS アプリケーションパッケージ     | ソフトウェアパッケージ       | Microsoft Teams 室展開キット用パッケージ                                      |
 | SRS v2-Sysprep パッケージ             | ソフトウェアパッケージ       | Microsoft Teams のルームユニットを構成するためのカスタムの unattend.xml パッケージ            |

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをパキスタンで利用できるようにする方法について説明します。
-ms.openlocfilehash: faa9114fd080b05045bc26c4ff13f8ecc9301893
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f06a63c51e8b70d0893b3b1216b46982bb2637cf
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775490"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571007"
 ---
 # <a name="availability-in-pakistan"></a>パキスタンでの利用可能性
 

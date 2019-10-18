@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 組織内に保持されている Teams のライブ イベントの設定を管理する方法について説明します。
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a1d60ce0e8796d038c6ea8890066c1aee5f0ec6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bb2b0f6c29af383061877562e8e6762965937f5f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243704"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570192"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -30,7 +29,7 @@ Teams のライブ イベント設定を使用して、組織で保持されて�
 
 Microsoft Teams 管理センターでこの設定を簡単にできます。 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。 
 
-![Teams ライブイベント設定のスクリーンショット](../media/teams-live-events-settings.png "Microsoft teams 管理センターで構成できる Teams ライブイベント設定のスクリーンショット") 
+![Teams ライブイベント設定のスクリーンショット](../media/teams-live-events-settings.png "Microsoft Teams 管理センターで構成できる Teams ライブイベント設定のスクリーンショット") 
 
 ## <a name="set-up-event-support-url"></a>イベントのサポート URL を設定する
 

@@ -1,5 +1,5 @@
 ---
-title: レポートラベルを追加および更新する
+title: レポート ラベルを追加して更新する
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -10,7 +10,6 @@ ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 通話分析と通話品質ダッシュボードレポートのレポートラベルとして使用する、物理的な場所と関連するサブネットの一覧が含まれているテキストファイルをアップロードする方法について説明します。
 ms.custom:
@@ -21,14 +20,14 @@ f1keywords:
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a876e6b007674aba9e0132005a57913c38f3297
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396434"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572038"
 ---
-<a name="add-and-update-reporting-labels"></a>レポートラベルを追加および更新する
+<a name="add-and-update-reporting-labels"></a>レポート ラベルを追加して更新する
 ============================
 
 レポートラベルは、オフィス、建物、または組織のサイトの物理的な場所を示すために、組織内で使用されます。 Microsoft Teams 管理センターの [レポートのラベル] ページでは、物理的な場所の一覧と関連するネットワークサブネットを含むテキストファイル (.csv または .tsv) を指定できます。 このファイルは、レポートを生成するために通話分析と通話品質ダッシュボードによって使用されます。 サブネットマッピングをアップロードすると、これらのサービスによって提供されるレポートにも場所名が含まれます。これにより、レポートがわかりやすくなり、問題が発生した場合にを修復するすることができます。
@@ -58,6 +57,6 @@ ms.locfileid: "37396434"
 
 データファイルの書式設定の詳細については、「[テナントデータファイルの形式と建物データファイルの構造](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話分析をセットアップする](set-up-call-analytics.md)

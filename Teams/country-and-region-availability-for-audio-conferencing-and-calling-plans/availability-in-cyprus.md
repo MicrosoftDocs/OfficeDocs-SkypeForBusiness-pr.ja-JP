@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Skype for Business および Microsoft Teams の Office 365 サービスをキプロスで利用できるようにするには、次のようにします。
-ms.openlocfilehash: 893026c2fdb3ff69833f2a66a30f125fde4f5121
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 7ad182dafa712574ed7179e63d377ced733708cd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332005"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570473"
 ---
 # <a name="availability-in-cyprus"></a>キプロスでの利用可能性
 

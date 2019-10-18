@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -19,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表を使って、Microsoft Teams の日本での電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: 36a1351818e6c8c1a5a6ec663873788980817d29
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.openlocfilehash: c3e8692b4095843d17352c13509deaa701aa6e54
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35606534"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573131"
 ---
 # <a name="phone-number-management-for-japan"></a>日本の電話番号の管理
 
