@@ -8,19 +8,18 @@ ms.topic: hub-page
 ms.service: msteams
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 search.appverid:
 - MET150
 description: '概要: Microsoft Teams をリードする Microsoft 365 での生産性サービスの論理的なアーキテクチャについて説明します。 Teams テレフォニーソリューションについても説明します。 '
-ms.openlocfilehash: c3abd05e4a83f77708f7a392a3e005586e5381f4
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 88fcb0e06fe642541421f0ba03c65b50bf9938ba
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435230"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570283"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT アーキテクチャとテレフォニー ソリューション ポスター
 

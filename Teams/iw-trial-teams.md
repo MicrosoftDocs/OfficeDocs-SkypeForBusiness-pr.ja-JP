@@ -11,16 +11,15 @@ search.appverid: MET150
 localization_priority: Priority
 description: Microsoft Teams のライセンスが付与されていない Office 365 ユーザーは、Teams の 1 年間試用版を開始できます。
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74eb3ab344dae0bd60e9b5c82199ef3dd51975c5
-ms.sourcegitcommit: 6cee93b799f60f19513c29e8c16fa67c4de028fa
+ms.openlocfilehash: e09b94f51c9d36f32eb83eb97d7cd15545d2ed4b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37341870"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572049"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
