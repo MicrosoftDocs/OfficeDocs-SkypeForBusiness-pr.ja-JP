@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Skype for Business および Microsoft Teams の Office 365 サービスは、日本で利用できます。
-ms.openlocfilehash: 946a5f6cb5989b7bd9773ba34a0d62e19e2bb479
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 47e86841f26ff5ac31cbffcf1965efc299007830
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35602328"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571694"
 ---
 # <a name="availability-in-japan"></a>日本での利用可能性
 

@@ -8,17 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: ユーザーは、他のユーザーの状態メッセージの代理人として明示的に設定することができます。
-ms.openlocfilehash: cc9895ec639589ec260a03b0a1828ccf2a4eb9b1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 56c0e9bd5394e738170130bab15803e5cb4d741c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232349"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570360"
 ---
 # <a name="message-delegation"></a>メッセージの委任
 

@@ -11,7 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774655"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573087"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -89,7 +89,7 @@ ms.locfileid: "36774655"
 > - [ラトビア](availability-in-latvia.md)
 > - [Lithuania](availability-in-lithuania.md)
 > - [ルクセンブルク](availability-in-luxembourg.md)
-> - [マケドニア](availability-in-macedonia.md)
+> - [北マケドニア](availability-in-macedonia.md)
 > - [マレーシア](availability-in-malaysia.md)
 > - [マルタ](availability-in-malta.md)
 > - [メキシコ](availability-in-mexico.md)

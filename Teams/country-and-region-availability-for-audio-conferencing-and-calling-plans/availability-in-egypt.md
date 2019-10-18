@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business の Office 365 サービスと、エジプトで利用できる Microsoft Teams について説明します。
-ms.openlocfilehash: b217d69ee353404e63a726dc28cade0ccff7b85a
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 98835b079b9b2d5c2c0081ba231cf0663738caad
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775446"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570440"
 ---
 # <a name="availability-in-egypt"></a>エジプトでの利用可能性
 

@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: IT 管理者は、テナントレベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、ゲストを招待できるユーザーの判別、ゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ede35352436074cbf7c94fc9df78100a73a017
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7db3d42a8d4ae44364ee56f6c7f31ce501a34137
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241811"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567620"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを管理する
 ======================================
@@ -31,7 +31,7 @@ ms.locfileid: "36241811"
     
 IT 管理者は、テナント レベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、およびゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。 これらの制御は、Microsoft Teams 管理センターを介して利用可能です。 ゲスト ユーザーのコンテンツとアクティビティには、Office 365 の他の部分と同じコンプライアンスと監査保護が適用されます。
 
-チーム所有者は、新しいゲストを招待し、既存のディレクトリゲストユーザーをチームに追加することができます。 チーム所有者は、チーム**** > **管理チーム**でゲストユーザーを特定し、**組織全体の設定** > を通じてゲストのチャネル関連機能を設定することができます。ゲスト**アクセス**を許可すると、ゲストの作成、更新、および次の図に示すように、チャネルを削除します。
+チーム所有者は、新しいゲストを招待し、既存のディレクトリゲストユーザーをチームに追加することができます。 チーム所有者は、チーム**管理チーム****でゲスト** > ユーザーを特定し、**組織全体の設定** > を通じてゲストのチャネル関連機能を設定することができます。ゲスト**アクセス**を許可すると、ゲストの作成、更新、および次の図に示すように、チャネルを削除します。
 
 ![Teams でのゲストのアクセス権の設定](media/manage-guest-access-image1.png)
   

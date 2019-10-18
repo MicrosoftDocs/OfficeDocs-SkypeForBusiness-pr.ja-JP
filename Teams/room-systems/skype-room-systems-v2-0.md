@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: この記事では、Microsoft Teams のルーム (次世代の Skype Room Systems) の展開に関する考慮事項について説明します。
-ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7225635e1069b880dd78d4d32060f1beb6e7b389
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775108"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573585"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams のルームを計画する
 
@@ -56,7 +57,7 @@ Microsoft teams、Skype for Business Online、または Skype for Business の�
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft Teams のルームを組織に展開しますか? </li><li>Microsoft Teams のルームシステム (バンドルされている、個別のコンポーネント、または統合単位) をどのようにして調達しますか。</li></ul> |
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ | <ul><li>展開全体で主要なアクティビティを実施するユーザーを特定します。</li><li>使用している会議室 (および設定する予定) を確認して、Microsoft Teams の会議室と、部屋のサイズに適した周辺機器をどこに展開するかを理解します。</li></ul> |
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>展開全体で主要なアクティビティを実施するユーザーを特定します。</li><li>使用している会議室 (および設定する予定) を確認して、Microsoft Teams の会議室と、部屋のサイズに適した周辺機器をどこに展開するかを理解します。</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>展開全体で主要な活動に取り組むユーザーを特定する
@@ -65,7 +66,7 @@ Microsoft teams、Skype for Business Online、または Skype for Business の�
 
 使用している会議室を理解して、将来の目的に最も適したものを把握してから、必要な機器を選択して procuring し、サイトを readying し、サービスの構成と展開を行い、変更を管理するユーザーの導入と運用およびメンテナンス手順の開発。
 
-使用しているものを理解して、最適に動作するものを把握してから、![必要な機器を選択して procuring し、サイトを readying し、サービスの構成と展開を行い、変更とユーザーの導入を管理する運用とメンテナンスの手順を作成する。]使用しているものを理解して、最適に動作するものを把握してから、(../media/room-systems-image2.png "必要な機器を選択して procuring し、サイトを readying し、サービスの構成と展開を行い、変更とユーザーの導入を管理する運用とメンテナンスの手順を作成する。")
+![使用しているものを理解して、最適に動作するものを把握してから、必要な機器を選択して procuring し、サイトの readying、サービスの構成と展開、変更とユーザーによる導入、および開発を行うことから始めます。操作とメンテナンスの手順。](../media/room-systems-image2.png "使用しているものを理解して、最適に動作するものを把握してから、必要な機器を選択して procuring し、サイトの readying、サービスの構成と展開、変更とユーザーによる導入、および開発を行うことから始めます。操作とメンテナンスの手順。")
 
 複数のチームでこれらのアクティビティを調整する必要がある場合があります。 ここでは、主な活動の概要について説明します。また、会議室システムの展開と管理に通常参加しているチームが、共同作業する必要があるユーザーを決定するのに役立ちます。
 
@@ -94,7 +95,7 @@ Microsoft teams、Skype for Business Online、または Skype for Business の�
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>この展開の対象となるのは、どのルームですか?</li><li>どのサイトが展開の対象となりますか?</li><li>会議室の在庫を利用するのは誰ですか?</li></ul> |
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>スコープ内の会議室を確認して、Microsoft Teams の会議室の構成を定義します。</li></ul>|
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>スコープ内の会議室を確認して、Microsoft Teams の会議室の構成を定義します。</li></ul>|
 
 _会議/会議室の一覧の例_
 
@@ -116,7 +117,7 @@ _会議/会議室の一覧の例_
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>お使いのインベントリから、どの種類のルームが展開の対象になりますか?</li><li>会議室の種類ごとに、どのようなシステムを展開しますか?</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>選択したシステムの主要な運用情報の収集を開始し、調達チームと協力します。</li></ul>|
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>選択したシステムの主要な運用情報の収集を開始し、調達チームと協力します。</li></ul>|
 
 _組織用の Microsoft Teams 室展開テンプレートの例_
 
@@ -140,7 +141,7 @@ Microsoft Teams のルームは、[要件の記事](requirements.md)に記載さ
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>コンポーネントをサイトに直接送付するか、またはステージング施設に発送しますか?</li><li>ステージング機能を管理するユーザー (いずれかを使用する場合)</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>操作の計画。</li><li>導入と変更の管理を計画する。</li></ul>|
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>操作の計画。</li><li>導入と変更の管理を計画する。</li></ul>|
 
 ## <a name="plan-for-operations"></a>操作の計画 
 
@@ -153,7 +154,7 @@ Microsoft Teams の Rooms֪への通話をルーティングするヘルプデ�
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft Teams のルームを管理するユーザーを決定します。</li><li>Microsoft Teams のルーム–関連の通話をルーティングするためのヘルプデスクキューを決定します。</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>アカウントをホストするための準備を行います。 </li></ul>|
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アカウントをホストするための準備を行います。 </li></ul>|
 
 
 ## <a name="plan-for-adoption-and-change-management"></a>導入と変更の管理を計画する

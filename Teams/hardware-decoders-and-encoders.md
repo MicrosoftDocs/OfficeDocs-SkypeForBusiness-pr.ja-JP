@@ -1,5 +1,5 @@
 ---
-title: ハードウェアデコーダーとエンコーダードライバーに関する推奨事項
+title: ハードウェア デコーダー/エンコーダー ドライバーの推奨事項
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -9,8 +9,7 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 localization_priority: Normal
 search.appverid: MET150
 description: ドライバーの問題が原因で、ハードウェアアクセラレータに対応していないオペレーティングシステム、モデル、およびドライバーの組み合わせを一覧表示します。
@@ -18,14 +17,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - MicrOperating systemoft Teams
-ms.openlocfilehash: 282dce404d96a678fdd6532d62bcb185073aecc1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5210f092993a2ecd52efc56f6953bfab6c2b0d19
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242196"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570765"
 ---
-# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>ハードウェアデコーダーとエンコーダードライバーに関する推奨事項
+# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>ハードウェア デコーダー/エンコーダー ドライバーの推奨事項
 
 Microsoft は、この記事に記載されているものを除き、すべてのデコーダーとエンコーダーをサポートしています。
 
@@ -138,6 +137,6 @@ Microsoft は、この記事に記載されているものを除き、すべて�
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | すべての | [15.201.1101.0] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | すべての | [21.19.137.1] |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams アプリのハードウェア要件](hardware-requirements-for-the-teams-app.md)

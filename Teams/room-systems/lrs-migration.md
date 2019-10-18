@@ -8,15 +8,16 @@ audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 ms.assetid: ''
 description: このトピックでは、Lync Room System デバイスを移行して Microsoft Teams のルームソフトウェアを使用する方法について説明します。
-ms.openlocfilehash: c98d2081c29967c033d705082b4ebbffbd42b3ea
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 9bf01b334e13de5cb1407443f16223f86c1df929
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427961"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573662"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Lync Room System (LRS) デバイスを Microsoft Teams ルームに移行する
 
@@ -41,7 +42,7 @@ Lync Room Systems を次世代の Microsoft Teams ルームにアップグレー
 
 ### <a name="crestron-hardware-trade-in-program"></a>ハードウェアのトレードインプログラムについて
 
-Crestron は、ユーザーが Lync Room System のすべてのユーザー (たとえば、スマートまたは Polycom LRS) で、 [CRESTRON SR システム](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr)または同等のものにアップグレードします。 このプログラムの詳細を[](https://support.crestron.com/app/answers/answer_view/a_id/1000220)ご覧ください。 <!-- For details, -->[メール](mailto:lrsupgrade@crestron.com)Crestron LRS サポート。  
+Crestron は、ユーザーが Lync Room System のすべてのユーザー (たとえば、スマートまたは Polycom LRS) で、 [CRESTRON SR システム](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr)または同等のものにアップグレードします。 このプログラムの詳細を[ご覧ください](https://support.crestron.com/app/answers/answer_view/a_id/1000220)。 <!-- For details, -->[メール](mailto:lrsupgrade@crestron.com)Crestron LRS サポート。  
 
 ### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>RL2 を Microsoft Teams ルームにアップグレードする
 

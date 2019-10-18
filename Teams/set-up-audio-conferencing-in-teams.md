@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の電話会議を設定する
+title: Microsoft Teams の電話会議をセットアップする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -21,14 +21,14 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話会議への参加に電話を使用する必要がある、社内のユーザーに対してダイヤルインまたは電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 5bf9a4ba1928bd8532a0f97fcb899745ffb65d13
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062420"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571262"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議をセットアップする
 
 自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams には、このような状況での電話会議機能が含まれています。 ユーザーは、モバイルデバイスや PC で Teams アプリを使う代わりに、電話を使って Teams 会議にコールインすることができます。 
   

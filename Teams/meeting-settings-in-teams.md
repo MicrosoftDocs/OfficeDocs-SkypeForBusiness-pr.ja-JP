@@ -17,15 +17,14 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 組織でスケジュールされているユーザーのチーム会議の設定を管理する方法について説明します。
-ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767196"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564935"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -40,11 +39,11 @@ ms.locfileid: "36767196"
 1. 左側のナビゲーションで、[**会議** > の**会議の設定**] に移動します。
 2. [**参加者**] の下で、[**匿名ユーザーが会議に参加できるよう**にする] をオンにします。
 
-    ![管理センターでの会議の参加者設定のスクリーンショット](media/meeting-settings-participants.png "Microsoft teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
+    ![管理センターでの会議の参加者設定のスクリーンショット](media/meeting-settings-participants.png "Microsoft Teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
 
 組織内のユーザーによってスケジュールされている会議に匿名ユーザーが会議に参加しないようにするには、この設定をオフにします。
 
-## <a name="customize-meeting-invitations"></a>会議の出席依頼をカスタマイズする
+## <a name="customize-meeting-invitations"></a>会議出席依頼をカスタマイズする
 
 組織のニーズに合わせて、Teams の会議出席依頼をカスタマイズすることができます。 組織のロゴを追加したり、サポート web サイトや法的免責事項へのリンクやテキストのみのフッターなど、有用な情報を含めることができます。
 
@@ -85,7 +84,7 @@ Qos (Quality of Service [)](qos-in-teams.md)を使ってネットワークトラ
 1. 左側のナビゲーションで、[**会議** > の**会議の設定**] に移動します。
 2. [**ネットワーク**] で、次の操作を行います。
 
-    ![管理センターでの会議のネットワーク設定のスクリーンショット](media/meeting-settings-network.png "Microsoft teams 管理センターの teams 会議のネットワーク設定のスクリーンショット")
+    ![管理センターでの会議のネットワーク設定のスクリーンショット](media/meeting-settings-network.png "Microsoft Teams 管理センターの Teams 会議のネットワーク設定のスクリーンショット")
 
     - QoS に DSCP マーキングを使用できるようにするには、**リアルタイムメディアトラフィックの [サービス品質 (QoS) マーカーの挿入**] を有効にします。 マーカーを使用するかどうかは選択できません。トラフィックの種類ごとにカスタムマーカーを設定することはできません。 詳細については[、「QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)」を参照してください。
     > [!NOTE] 

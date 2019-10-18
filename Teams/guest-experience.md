@@ -12,16 +12,16 @@ search.appverid: MET150
 description: ゲスト ユーザーが利用できる Microsoft Teams の機能性について説明します。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434660"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563476"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
@@ -32,7 +32,7 @@ ms.locfileid: "37434660"
     
 すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 次の例のチームのスクリーンショットに示されているように、バナーは、各ゲストの名前の横に「このチームのゲスト」と "(ゲスト)" ラベルが表示されることを示します。
     
-![バナー通知のゲストユーザー](media/guest-experience-image2.png "のスクリーンショットに、Northwind Traders のマーケティングチャネルの一部が表示されていることを示すスクリーンショット。上位のバナーに、ゲストとゲストであるユーザーが含まれていることを示す通知が表示されています。名前の横にある [word ゲスト] を選びます。")
+![バナー通知のゲストユーザーを示すスクリーンショット](media/guest-experience-image2.png "スクリーンショットは、Northwind Traders のマーケティングチャネルの一部を示しています。上部のバナーには、ゲストであるゲストとゲストであるユーザーが名前の横にある word GUEST で識別されていることを示す通知が表示されています。")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>チームメンバーとゲストの機能の比較
 

@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: このトピックでは、Teams からセッションボーダーコントローラー (SBC) への発信通話に対するトランクのフェイルオーバーを処理する方法について説明します。
-ms.openlocfilehash: e9efcfba696886c0fc4885778b79832956ccb893
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a5462de971fed32a0618800b257b9c6e37b462af
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290364"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572126"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>発信通話でのトランクのフェイルオーバー
 
@@ -33,7 +32,7 @@ ms.locfileid: "34290364"
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>セッションボーダーコントローラー (SBC) から受信した特定の SIP コードのフェイルオーバー
 
-直接ルーティングが、発信した招待に応答して4xx または 6xx SIP のエラーコードを受信した場合、通話は既定で完了したと見なされます。 [発信] は、チームクライアントから公衆交換電話網 (PSTN) への通話であり、次のトラフィックフローが含まれます。 Teams クライアント-> Direct Routing-> SBC-> Telephony ネットワーク。
+直接ルーティングが、発信した招待に応答して4xx または 6xx SIP のエラーコードを受信した場合、通話は既定で完了したと見なされます。 [発信] は、チームクライアントから公衆交換電話網 (PSTN) への通話であり、次のトラフィックフローが含まれます。 Teams クライアント-> ダイレクトルーティング-> SBC-> テレフォニーネットワーク。
 
 SIP コードの一覧は、[セッション開始プロトコル (SIP) RFC](https://tools.ietf.org/html/rfc3261)に記載されています。
 
@@ -44,12 +43,12 @@ SIP コードの一覧は、[セッション開始プロトコル (SIP) RFC](htt
 次の図では、ユーザーが電話番号に通話を発信すると、そのルートに2つの SBCs が含まれていて、この通話が行われる可能性があります。 最初に、通話に SBC1.contoso.com が選択されていますが、ネットワークの問題のため、SBC1.contoso.com は PTSN ネットワークに接続できません。
 既定では、通話は現在完了しています。 
  
-![ネットワークの問題のため、PSTN に接続できないことを示します](media/direct-routing-failover-response-codes1.png)
+![ネットワークの問題のため、SBC に接続できないことを示す図](media/direct-routing-failover-response-codes1.png)
 
 ただし、ルートにはさらに、通話を発信できる SBC が1つ追加されています。
 パラメーター `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`を構成する場合、2つ目の SBC は次の図の SBC2.contoso.com で試行されます。
 
-![第2の SBC へのルーティングを示す](media/direct-routing-failover-response-codes2.png)
+![第2の SBC へのルーティングを示す図](media/direct-routing-failover-response-codes2.png)
 
 FailoverResponseCodes を設定してコードを指定すると、ネットワークやその他の問題が原因で、SBC が通話を発信できない場合に、ルーティングを微調整し、潜在的な問題を回避することができます。
 

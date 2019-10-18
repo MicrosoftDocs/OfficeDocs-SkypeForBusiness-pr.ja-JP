@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Office 365 で利用できるダイヤル通話プランの種類と、組織に合わせて選ぶ方法について説明します。  '
-ms.openlocfilehash: 71fe659b2dac511b8895689018989e0f9178d1f9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7a7f736ab701f2e87e29ee2a33b4cfbebccd7c21
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483970"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568566"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -144,7 +143,7 @@ Teams および Skype for Business Online には、サービス範囲とテナ�
 > 前の表に示した正規化ルールの名前にはスペースが含まれていませんが、必要に応じて含めることもできます。たとえば、表に最初に示されている名前は、「5 digit extension」と「5-digit Extension」のどちらの形式で記述しても有効になります。 
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 

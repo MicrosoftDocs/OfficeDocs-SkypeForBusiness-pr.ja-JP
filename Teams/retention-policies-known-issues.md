@@ -12,16 +12,15 @@ description: Microsoft Teams の保持ポリシーに関する既知の問題の
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b13fc5347338b28c877b224f758c79513e379391
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8a7dd5bac7c82814befab66247b1bfa8cf4943f6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243610"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569964"
 ---
 # <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Microsoft Teams での保持ポリシーの既知の問題
 

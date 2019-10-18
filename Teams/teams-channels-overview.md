@@ -16,17 +16,16 @@ f1keywords:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b79821dd3a4e36b2a57ec73e0914027cd17da71
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 604ea944d54e71e72d49505f111606beae5343ea
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349208"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564434"
 ---
 > [!NOTE]
 > 以下の情報を確認して、Teamsでのチャット、チーム、チャンネル、およびアプリを理解してください。 次に、[チャット、チーム、チャネル、チーム内のアプリの &](deploy-chat-teams-channels-microsoft-teams-landing-page.md)に移動して、チームのロールアウトにとって重要な決定事項の一覧を表示します。

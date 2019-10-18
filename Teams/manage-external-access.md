@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
@@ -18,12 +18,12 @@ description: IT 管理者は、他のドメインの外部アクセス (フェ�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: f2252b14343aa68e4a1dd97bc918b5c9cc30d727
-ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
+ms.openlocfilehash: 3005f0c7281045a3f2ca692becb6e7eff2b9af54
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37468500"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570646"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams で外部アクセスを管理する
 ======================================================
@@ -174,6 +174,6 @@ Microsoft Teams の外部アクセスを使用すると、他のドメインの 
 
 4. [**禁止したドメインまたは許可**したドメイン] でを選ん**+** で、許可するドメインの名前を追加します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 Microsoft Teams のゲストアクセスの詳細については、「 [Microsoft teams でゲストアクセスを管理](manage-guests.md)する」を参照してください。

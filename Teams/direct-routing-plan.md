@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464581"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572148"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -88,7 +87,7 @@ Microsoft Teams メディアのファイアウォールの IP アドレスとポ
 
 - Microsoft 電話システム 
 - ライセンス Sku に含まれている場合、Microsoft Teams + Skype for Business プラン2
-- Microsoft 電話会議 
+- Microsoft 電話会議 (ライセンスが必要なときに関する具体的な例については、以下のメモと段落を参照してください)
 
 > [!NOTE]
 > Skype for Business プランが含まれているライセンス SKU から削除しないようにしてください。 
@@ -97,10 +96,12 @@ Microsoft Teams メディアのファイアウォールの IP アドレスとポ
 > [!IMPORTANT]
 >  スケジュールされた会議に外部の参加者を追加したい場合は、電話会議のライセンスが*必要*です。また、ダイヤルイン番号を提供することによって、その会議に外部参加者を追加することもできます。
 
-> [!NOTE]
-> 電話会議ライセンスは、次の*目的で必要*です。
-> - 1:1 通話からグループ通話へのエスカレート。
-> - ダイヤルアウトまたはダイヤルイン番号を提供することで、スケジュールされた会議に外部参加者を追加します。 
+
+臨時通話のエスカレーションと電話会議のライセンス
+
+Teams ユーザーは、1つのチームで1人のチームの通話を開始して、pstn 参加者をそのチームに追加することができます。 このシナリオは、臨時の電話会議と呼ばれます。 通話のパスは、通話をエスカレートしたユーザーに Microsoft 電話会議ライセンスが割り当てられているかどうかによって異なります。
+1. 通話をエスカレートした Teams ユーザーに Microsoft 電話会議ライセンスが割り当てられている場合は、Microsoft 電話会議サービスによってエスカレーションが行われます。 既存の通話に招待されたリモート PSTN 参加者は、着信呼び出しに関する通知を受け取り、エスカレーションを開始した Teams ユーザーに割り当てられている Microsoft bridge の数を確認できます。
+2. 通話をエスカレートした Teams ユーザーに Microsoft 電話会議ライセンスが割り当てられていない場合、エスカレーションは、ダイレクトルーティングインターフェイスに接続されたセッション境界コントローラーを介して行われます。 通話に招待されたリモート PSTN 参加者は、着信通話に関する通知を受け取り、エスカレーションを開始した Teams ユーザーの数を確認できます。 エスカレーション用に使用される特定の SBC は、ユーザーのルーティングポリシーによって定義されます。 
 
 
 さらに、次のことを確認する必要があります。

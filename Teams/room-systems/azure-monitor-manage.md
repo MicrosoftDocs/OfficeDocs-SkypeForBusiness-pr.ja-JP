@@ -9,14 +9,15 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: この記事では、Azure モニターを使用して、統合された方法で Microsoft Teams 室のデバイスを管理する方法について説明します。
-ms.openlocfilehash: 7a0fc2474b1c3b76327f64df1796c491b2cd3c9b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 33132d7d72498fd01a156ce28114d1e584d6760c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774777"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569931"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Azure モニターを使用して Microsoft Teams 室のデバイスを管理する
 

@@ -11,17 +11,14 @@ audience: admin
 description: 展開目標を特定し、進行状況を追跡し、ブロックを削除するために、主要な関係者とプロジェクトリーダーの管理グループを特定します。
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4f264195a6c378f3724d99677f108abf631fed8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 482779904ba49e945f6b071b3be17fe0a6f290dd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232095"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564563"
 ---
 # <a name="steering-committee"></a>運営委員会
 
@@ -166,7 +163,7 @@ ms.locfileid: "36232095"
 
 7.  作成したプレゼンテーションを含む出席者のフォローアップメールを送信し、撮ったノートを追加します。 まだ出席していない人も含めてください。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 運営委員会の概要を確認した後で、行動します。プロジェクトチームは、運営委員会をプロジェクトのタイムラインに実装し、定期的な運営委員会の会議を準備するための作業を開始する必要があります。 理想的には、プロジェクトが開始される前に委員会が形成され、すべてのフェーズ全体でガイダンスを提供しますが、そのような状況にならない場合は、プロジェクトチームの成果を導くための委員会を形成します。
 

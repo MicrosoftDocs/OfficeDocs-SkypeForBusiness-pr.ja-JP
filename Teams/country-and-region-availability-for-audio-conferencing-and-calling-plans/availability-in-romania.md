@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Microsoft Office 365 サービス For Skype for Business および Microsoft Teams for ルーマニアについてご紹介します。
-ms.openlocfilehash: d59af4f2def033e90142f001467533e1b5e52239
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 122cda2118353e2e8d208ce5d64c9ae60b02ea93
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331357"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562760"
 ---
 # <a name="availability-in-romania"></a>ルーマニアでの利用可能性
 

@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Microsoft Teams 管理センターで Teams の PSTN 分プールレポートを使用して、組織内の現在の月に消費された分数を確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 900d847b5b0978ca2bfdccd4788a828a32f2ee3b
-ms.sourcegitcommit: 3ce40094a58509b69376b941b151c9d1c8538654
+ms.openlocfilehash: f67bc5e20d9e1f23e63b0b4c78b3e198d4b30a40
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37428344"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568389"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams の PSTN 分プールレポート
 
@@ -30,7 +29,7 @@ Microsoft Teams 管理センターの Teams PSTN 分数プールレポートは�
 
 Microsoft Teams 管理センターの左のナビゲーションで、[**分析] & [レポート** > の**利用状況レポート**] をクリックします。 [レポートの**表示**] タブの [**レポート**] で、[ **PSTN 分プール**] を選択し、[**レポートの実行**] をクリックします。
 
-(../media/teams-reports-pstn-minute-pools-with-callouts.png "番号付きの吹き出しが含まれる Microsoft teams 管理センターの TEAMS pstn 分プールレポートの")管理センターのスクリーンショット![に含まれる、teams の pstn 分プールレポートのスクリーンショット]
+![管理センターの Teams の PSTN 分単位のプールレポートのスクリーンショット](../media/teams-reports-pstn-minute-pools-with-callouts.png "番号付き吹き出しが含まれる Microsoft Teams 管理センターの Teams PSTN 分プールレポートのスクリーンショット")
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
@@ -44,6 +43,6 @@ Microsoft Teams 管理センターの左のナビゲーションで、[**分析]
 |**6**   |[**列の編集**] を選択して表で列を追加または削除します。|
 |**7**   |全画面表示モードでレポートを表示するには、[**全画面**表示] を選択します。|
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: 正常性ダッシュボードを使って、セッションの境界コントローラーとダイレクトルーティングの間の接続を監視する方法について説明します。
-ms.openlocfilehash: b6ec0c04200fac018b721bfe6c94f8d9bd969a2f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0424f24e323928f487e8b43ce72e51602f9eab52
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237494"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572203"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>直接ルーティングの正常性ダッシュボード
 
@@ -52,7 +51,7 @@ ms.locfileid: "36237494"
   
    実行する操作は、影響を受ける電話の回数によって異なるため、正常性ダッシュボードは、パラメーターを計算するために分析された通話の数を示します。 通話の数が100よりも小さい場合は、その可能性は非常に低く、通常どおり発生します。 
 
-   Calcuate は、次の数式で使用されます。
+   この計算式は、次の数式で計算されます。
 
    解説 = 回答された通話 + ユーザーがビジー状態になっています + Ring no Answer + ターミナル Reject 発作 x 100
 
@@ -107,7 +106,7 @@ ms.locfileid: "36237494"
 
    - パケット損失–到着に失敗したパケットの測定。これは、2つのエンドポイントの間で計算されます。
 
-   - Latancy-(ラウンドトリップ時間とも呼ばれます) は、シグナルが送信されるまでにかかる時間と、そのシグナルの受信確認にかかる時間の長さです。 この時間遅延は、シグナルの2つのポイント間の伝播時間で構成されます。
+   - 待ち時間-(ラウンドトリップ時間とも呼ばれます) は、シグナルが送信されるまでにかかる時間と、そのシグナルの受信確認にかかる時間の長さです。 この時間遅延は、シグナルの2つのポイント間の伝播時間で構成されます。
 
    データは、日数と通話方向 (受信/送信/すべてのストリーム) でスライドできます。
 

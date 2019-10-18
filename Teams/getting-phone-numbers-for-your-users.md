@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'チームに新しい番号を取得する方法、既存の番号を移行する方法、ユーザーへの変更を表示する方法について説明します。 '
-ms.openlocfilehash: c9cf47abe056e98fdc1ee92d520ba52675216430
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: c605933f91d047d44f191e9d1604e8c8630565fb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588216"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572093"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -46,7 +45,7 @@ ms.locfileid: "35588216"
 
 ![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
     
-1. 左側のナビゲーションで、[ **** > **電話番号**] に移動し、[**新しい番号を取得**] をクリックします。
+1. 左側のナビゲーションで、[**電話番号** **] に移動** > し、[**新しい番号を取得**] をクリックします。
 2. 注文の名前を入力し、必要に応じて説明を追加します。
 3. [場所と数量] ページで、次の操作を行います。
     1. [**国または地域**] で、国または地域を選択します。
@@ -70,7 +69,7 @@ ms.locfileid: "35588216"
 
 ![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン 
 
-左側のナビゲーションで、[ **** > **電話番号**] に移動して、場所、番号の種類、状態の情報など、組織の電話番号を表示します。
+左側のナビゲーションで、[ > **電話番号**] に移動して、場所、番号の種類、状態の情報など、組織の電話**番号を表示**します。
   
 ## <a name="what-else-do-you-need-to-know-about-users-phone-numbers"></a>ユーザーの電話番号に関するその他の情報
     

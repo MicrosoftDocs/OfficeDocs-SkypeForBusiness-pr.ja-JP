@@ -9,19 +9,18 @@ ms.service: msteams
 audience: admin
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
 description: Microsoft Teams でヘルプを利用する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6089523326d3e445aa189a570938e1604a4bda0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1e552ad73bbea9ce35a27fb1c797b03580311d6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245905"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565291"
 ---
 <a name="get-help-in-microsoft-teams"></a>Microsoft Teams でヘルプを利用する
 ============================================
@@ -36,8 +35,8 @@ Teams では、ヘルプコンテンツのローカライズ言語のサポー�
 
  - **ビデオ**-オンデマンドビデオコンテンツにより、ユーザーは特定のタスクをすばやく学習できます。 最新のビデオを継続的に製作していますので、頻繁に確認してください。 もちろん、インターネットにアクセスする必要があります。 
 
- - **新機能**- 
-   新規または更新された Teams の機能について、ユーザーとチーム所有者向けの定期的なリリースノート。
+ - 新規または更新された Teams の機能について、ユーザーとチーム所有者向けの**新しい** - 
+   定期的なリリースノートとは何ですか。
 
  - **アイデアを共有**する-チームを改善する方法について常にご意見をお聞かせください。 このオプションを使用すると、microsoft の製品フィードバックフォーラムに移動し、新しい機能要求を提出したり、既存のリクエストに投票したりすることができます。 この情報は、新機能を計画するときに常に確認しています。 
 

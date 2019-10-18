@@ -9,8 +9,7 @@ ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Skype for Business および Microsoft Teams の通話品質の問題を特定してトラブルシューティングするために通話分析をセットアップして使用します。
-ms.openlocfilehash: 51f28b402fea69f0e5033954018a5f67bf6c90d6
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432778"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571251"
 ---
 # <a name="set-up-call-analytics"></a>通話分析をセットアップする
 
@@ -81,7 +80,7 @@ Azure Active Directory に管理者ロールを割り当てる方法について
 
 .Csv または .tsv ファイルをアップロードすることにより、建物、サイト、テナント情報を追加することができます。 すべての情報を使って、通話分析で IP アドレスを物理的な場所に対応付けることができます。 この情報は、お客様またはヘルプデスクの担当者が、通話の問題の傾向を見つけるのに役立ちます。 たとえば、同じ建物内の多くのユーザーが同様の通話品質の問題を抱えているのはなぜですか? 
 
-チームと Skype for business の管理者である場合は、Teams & Skype for Business 通話品質ダッシュボードの既存のデータファイルを使用できます。 まず、通話品質ダッシュボードからファイルをダウンロードしてから、それをアップロードして分析を呼び出します。 
+チームと Skype for business の管理者である場合は、Teams & Skype for Business 通話品質ダッシュボードから既存のデータファイルを使用できます。 まず、通話品質ダッシュボードからファイルをダウンロードしてから、それをアップロードして分析を呼び出します。 
 
 - 既存のデータファイルをダウンロードするには、 **Microsoft Teams 管理センター** > の**通話品質ダッシュボード** > **で今すぐアップロード**します。 [**マイアップロード**] ボックスの一覧で、目的のファイルの横にある [**ダウンロード**] をクリックします。
 
@@ -89,7 +88,7 @@ Azure Active Directory に管理者ロールを割り当てる方法について
   
 .Tsv または .csv ファイルを最初から作成する場合は、「[テナントデータファイルの形式と建物データファイルの構造](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile)」を参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 <a name="BKMK_UploadFiles"> </a>
 
 [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)

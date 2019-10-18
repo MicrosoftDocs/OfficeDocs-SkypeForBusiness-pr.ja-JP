@@ -11,17 +11,14 @@ ms.reviewer: lolaj, rowille
 description: 組織による Microsoft Teams の使用の開始をサポートするためのツール、ワークショップ、スタートアップ キットの計画。
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d6286ef37d90177ac719015ebfb76c67418c121
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 71e864364c089b149f0351570fd673a0bf24068e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253911"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567726"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、導入
 
@@ -53,7 +50,7 @@ ms.locfileid: "36253911"
 
 [Skype for Business から Teams へのアップグレード計画ワークショップ](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
-[オンプレミスから Teams にユーザーを移動する](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+[ユーザーをオンプレミスから Teams に移動する](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 
 [組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md)
 

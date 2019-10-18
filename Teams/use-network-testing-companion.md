@@ -1,5 +1,5 @@
 ---
-title: ネットワークテストコンパニオンを使用する
+title: ネットワーク テスト コンパニオンを使用する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
@@ -18,14 +17,14 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e2fcdb6da76de62e7fca87d822c0c9ecacc68377
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 193bc6b335766da15e28ff805efb0558bdf6ef4d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236634"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568605"
 ---
-<a name="use-the-network-testing-companion"></a>ネットワークテストコンパニオンを使用する
+<a name="use-the-network-testing-companion"></a>ネットワーク テスト コンパニオンを使用する
 =================================
 
 Skype for Business および Microsoft Teams の[ネットワークテストコンパニオン](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4)を使用すると、ネットワークの品質と Skype For business Online または Microsoft teams への接続を簡単にテストすることができます。 簡単に結果を解釈し、ネットワーク管理者と共有して、ネットワークの潜在的な問題を把握することができます。

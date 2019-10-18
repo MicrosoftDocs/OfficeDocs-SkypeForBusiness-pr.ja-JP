@@ -9,7 +9,6 @@ ms.assetid: ca2c751b-53ab-42c7-aed9-cfe27e662940
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '緊急サービス (911) と従来の電話サービスとの違いや、電話をかける方法について説明します。 '
-ms.openlocfilehash: 64e500246138fc7f0ed8d2d1a6c4869b6e3b679e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 356e858f39b1e7c6b812b99f46ecde42a35de81d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279034"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568421"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>緊急通話の利用条件
 
@@ -35,7 +34,7 @@ ms.locfileid: "34279034"
 
 重要な情報
   
-緊急サービス通話機能の違いには、次のようなものがあります。 (i) Skype for Business および Teams には、緊急サービスの呼び出しを行う発信者の実際の場所がわからないことがあります。これは、通話が間違った緊急にルーティングされる可能性があるためです。サービスコールセンターまたは緊急サービスが間違った場所にディスパッチされています。(ii) ユーザーのデバイスに電力がなく、停電が発生している場合、または何らかの理由でインターネットにアクセスできない場合、ユーザーは Office 365 の通話プランを使用して緊急電話をかけることはできません。and (iii) Office 365 の通話プランは、インターネット接続が利用可能な世界中のどこにいても使用できますが、通話がルーティングされない可能性があるため、自宅の国/地域以外の場所から緊急サービスを発信することはできません。この国/地域の適切なコールセンター。
+緊急サービス通話機能の違いには、次のようなものがあります。 (i) Skype for Business および Teams には、緊急サービスの呼び出しを行う発信者の実際の場所がわからないことがあります。これは、通話が間違った緊急にルーティングされる可能性があるためです。サービスコールセンターまたは緊急サービスが間違った場所にディスパッチされています。(ii) ユーザーの Teams クライアントがオフラインになっている場合、またはネットワークの停止や停電など、何らかの理由でユーザーのデバイスがインターネットにアクセスできない場合、Office 365 の電話システム経由での緊急サービス通話はサポートされていないため、動作しないと思われます。and (iii) Office 365 の通話プランは、インターネット接続が利用可能な世界中のどこにいても使用できますが、通話がルーティングされない可能性があるため、自宅の国/地域以外の場所から緊急サービスを発信することはできません。この国/地域の適切なコールセンター。
   
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)

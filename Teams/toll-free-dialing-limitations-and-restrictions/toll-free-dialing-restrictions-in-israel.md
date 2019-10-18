@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 52202b0b4938f51dbc2cf0a85166a54e65a54d39
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: 8df2669a3bf19e4996e70858e69be9130fa72924
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334864"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565894"
 ---
 # <a name="toll-free-dialing-restrictions-in-israel"></a>イスラエルでのフリーダイヤル制限
 
@@ -46,7 +45,7 @@ ms.locfileid: "34334864"
 |携帯電話ネットワークの状態  <br/> | 部分的。コメント参照。 <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: Paltel &amp; Jawal/Watania の携帯電話ネットワークからはアクセス不可。  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

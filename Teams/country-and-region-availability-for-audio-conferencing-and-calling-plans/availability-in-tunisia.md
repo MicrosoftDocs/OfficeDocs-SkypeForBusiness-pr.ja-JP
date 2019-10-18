@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、チュニジアで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
-ms.openlocfilehash: 5b1e99f490999d84d1547076e0d1c8eb880b5783
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: a106889ba37d07c323918a34acdb24566d9659f0
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775649"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569522"
 ---
 # <a name="availability-in-tunisia"></a>チュニジアの可用性
 

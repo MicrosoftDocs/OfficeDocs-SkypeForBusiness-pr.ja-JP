@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,12 +24,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 組織用の Microsoft Teams の電話番号を取得して管理する方法について説明します。
-ms.openlocfilehash: 832a5dd14d1d7ff1d74443e8243d8e5f022a25af
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7ff1da0b93c6775b8e564f6ea324404697c92411
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483691"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571991"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>組織のために電話番号を管理する
 
@@ -93,7 +92,7 @@ ms.locfileid: "36483691"
 - 組織の電話番号の設定に関するヘルプを表示するには、 [PSTN サービスデスクに問い合わせてください](contact-pstn-service-desk.md)。
   
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
 

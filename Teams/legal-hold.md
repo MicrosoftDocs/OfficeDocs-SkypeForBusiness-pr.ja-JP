@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: セキュリティ/コンプライアンス センターを使用した Microsoft Teams のユーザーまたはチームへの訴訟ホールドの適用と、データ要件に基づいて訴訟ホールドを適用する必要のある項目について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 097161fee62e4d0c0339cc5b6bbc2399e86ac959
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe6418162d95ebfb14665e004c3aeb508c3baaf4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244871"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564988"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Microsoft Teams ユーザーまたはチームに訴訟ホールドを適用する
 ==================================================

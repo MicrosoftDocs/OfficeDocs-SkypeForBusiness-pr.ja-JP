@@ -1,5 +1,5 @@
 ---
-title: " 患者のアプリと EHR の統合 DSTU2 インターフェイス"
+title: 患者のアプリと EHR の統合 DSTU2 インターフェイス
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -8,17 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams の患者向けアプリ EHR の統合
-ms.openlocfilehash: 85fd90fb338f8b19762dc9433fa1dc281f3cedff
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 179cd031b6e32ee3ed32a6d3be1fa4afaae68cc2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33643115"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570371"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 インターフェイスの仕様
 
@@ -73,9 +75,9 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
 * * *
 
-    要求: GET <fhir-server>/患者/<patient-id>
+    要求: <fhir-server>/Patient/<患者 id> を取得する
     
-    応答: {"resourceType": "患者"、"id": "<patient-id>"、。
+    応答: {"resourceType": "患者"、"id": "<>"、"
       .
       .
       "name": [{"use": "オフィシャル", "prefix": ["Mr"], "family": ["Chau"], "指定した部分": ["Hugh"]}], "識別子": [{"use": [{"]" と入力 ": {" コード ":"http://hl7.org/fhir/v2/0203"、" "": "", "" ":" "", "" ":" "," "値": "" "," "" "" ":" "", "" "1957-06-05 1234567"," careProvider ": [{" display ":" Jane Doe "}],}
@@ -86,7 +88,7 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
 1. id
 2. ファミリ: contains = (ファミリ名に値が含まれているすべての患者を検索します。)
-3. 指定 =\<substring>
+3. 指定さ\<れた = substring>
 4. name =\<substring>
 5. 生年月日 = (完全一致)
 6. \_count (返される結果の最大数) <br> 応答には、検索結果として返されるレコードの合計数が含まれ\_ている必要があります。カウントは、返されるレコードの数を制限するために PatientsApp によって使用されます。
@@ -103,12 +105,12 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
 * * *
 
-    要求: POST <fhir-server>/患者/_search 要求本文: 指定 = hugh&family = chau
+    要求 <: fhir-server>/Patient/_search 要求本文: 指定 = hugh&ファミリ = chau
     
-    応答: {"resourceType": "バンドル"、"id": "<bundle-id>"。
+    応答: {"resourceType": "バンドル"、"id": "<バンドル id>",。
       .
       .
-      "entry": [{"リソース": {"resourceType": "患者"、"id": "<patient-id>", "name": [{"text": "Hugh Chau", "family": ["": [""]}, "性別": "男性": "男性": "男性"、""? "" 検索 ": {" ":") "1957-06-05
+      "entry": [{"リソース": {"resourceType": "患者"、"id": "<>"、"name": [{"text": "Hugh Chau", "family": ["Chau"], "指定された": ["Hugh"]}, "性別": "男性", "生年月日": "1957-06-05": "検索": {""
 
 * * *
 
@@ -138,9 +140,9 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
 * * *
 
-    要求: GET <fhir-server>/観測? 患者 = <patient-id>&_sort: desc = date&category = バイタル・サイン
+    要求: <fhir-server>/監視? 患者 =<患者の>&_sort:d esc = date&category = バイタルサイン
     
-    応答: {"resourceType": "バンドル"、"id": "<bundle-id>"、"「"」と入力して、"、" 集計 "と入力します: [{" リソース ": {" リソース ": {" resourceType ":" <resource "、" id ":" id> "、" id ":" ": [{code": "", "category"コーディング ": [{" system ":"http://loinc.org"," コード ":" 39156-5 "," 表示 ":" bmi "}]," effectiveDateTime ":" 2009-12-01 "," valuvalu":" ":" 値 ": 34.4," unit ":"? "http://unitsofmeasure.org" "," "システム": "", "code": "?"
+    応答: {"resourceType": "バンドル"、"id": "<バンドル id>", "「"」と入力して、"、" 集計 "と入力します: [{" リソース ": {" リソース ": {" resourceType ":" <"、" id ":" リソース id> "," カテゴリ ": {" コード ":" "{code": "\" code ":": [{" システム ":"http://loinc.org"," コード ":" 39156-5 "," 表示 ":" bmi "}]," effectiveDateTime ":" 2009-12-01 "," valuvalu":" ":" 値 ": 34.4," unit ":"? "http://unitsofmeasure.org" "," "システム": "", "code": "?"
         .
         .
       ] }
@@ -162,16 +164,16 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者 id>
-2. _ count =\<max results>
+1. 患者 =\<患者 id の>
+2. _ count =\<最大結果>
 
 この通話の次の例を参照してください。
 
 * * *
 
-    要求: GET <fhir-server>/Condition? 患者 = <patient-id>&_count = 10
+    要求: fhir-server>/条件? 患者 =<患者 id>&_count = 10 を取得 <
     
-    応答: {"resourceType": "<bundle"、"id": "id>"、"type": "searchset"、"total": "searchset": "<resource": {"resourceType": [{"リソース": {"resourceType": "id": "-id>", "id": ""              "システム": "http://snomed.info/sct", "コード": "386033004", "表示": "", "Neuropathy": "syst", "dateRecorded": "2018-09-17", "深刻度": {"": [{]em ":http://snomed.info/sct" "," コード ":" 24484000 "," 表示 ":" 重大 "}"}},}]}
+    応答: {"resourceType": "バンドル", "id": "<バンドル id>"、"種類": "searchset"、"集計": ""、"" のように入力します: [{"リソース": {"resourceType": "id": "<リソース id>"、"コード": {"code": [{              "システム": "http://snomed.info/sct", "コード": "386033004", "表示": "", "Neuropathy": "syst", "dateRecorded": "2018-09-17", "深刻度": {"": [{]em ":http://snomed.info/sct" "," コード ":" 24484000 "," 表示 ":" 重大 "}"}},}]}
 
 * * *
 
@@ -191,16 +193,16 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者 id>
-2. (並べ替え: desc =\<フィールドの例) date>
-3. _ count =\<max results>
+1. 患者 =\<患者 id の>
+2. (並べ替え: desc =\<フィールドの例) 日付>
+3. _ count =\<最大結果>
 
 目標は、患者の最後の既知の場所を取得できるようにすることです。 各検出は、位置情報リソースを参照します。 参照には、場所の表示フィールドも含まれます。 この通話の次の例を参照してください。
 * * *
 
-    要求: GET <fhir-server>/: 患者 = <patient-id>&_sort: desc = date&_count = 1
+    要求: fhir-server>/<を取得します。患者 =<患者-id>&_sort:d esc = date&_count = 1
     
-    応答: {"resourceType": "バンドル", "種類": "searchset", "集計": "{" リソース ": {" resourceType ":" <resource "、" id ":" id> "、" id ": [{" use ":" "、" id ":" "値"<id>: "": "到着"、"種類": [{"display": "予定"}]、}]、"患者": {"参照": "<patient"、"id>"}、"本": {"start": "09/17/2018 1:00:00 PM"}、"場所": [{             "場所": {"display": "クリニック-ENT"},} "}}]}
+    応答: {"resourceType": "バンドル", "種類": "searchset", "集計": "{" リソース ": {" resourceType ":" <リソース id> "、" id ":" "を使用": "" という値: [{"use": "" # ":" "値"<id>: ": "到着"、"種類": [{"display": "予定"}]、[}]、"患者": {"参照": "患者" と "<" のような "!": ">": "!": "!": {"start": "09/17/2018 1:00:00 PM"}, "場所": [{             "場所": {"display": "クリニック-ENT"},} "}}]}
 
 * * *
 
@@ -224,15 +226,15 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 = \<患者 id>
+1. 患者 = \<患者 id の>
 
 この通話の次の例を参照してください。
 
 * * *
 
-    要求: GET <fhir-server>/AllergyIntolerance? 患者 = <patient-id>
+    要求: <fhir-server>/AllergyIntolerance? 患者 =<患者 id を取得>
     
-    応答: {"resourceType": "バンドル", "id": "id>"、"<bundle" のように入力します: "searchset", "total": "AllergyIntolerance": {"resourceType": "", "id": "<resource-id>", "recordedDate": "2018", ""0Z "," 物質 ": {" text ":" Cashew ナット "}," 状態 ":" 確認 "," 反応 ": [{" 物質 ": {" 物質 ":" "Injectable": "cashew ナット allergenic extract Product"}, "manifestation ": [{" text ":" Anaphylactic 反 "}]}"}} "}
+    応答: {"resourceType": "バンドル", "id": "<バンドル id>"、"種類"、"searchset"、"total": 1, "recordedDate": "2018"、"id": "<リソース id>"、"": ""、""、"-09": "-090Z "," 物質 ": {" text ":" Cashew ナット "}," 状態 ":" 確認 "," 反応 ": [{" 物質 ": {" 物質 ":" "Injectable": "cashew ナット allergenic extract Product"}, "manifestation ": [{" text ":" Anaphylactic 反 "}]}"}} "}
 
 * * *
 
@@ -255,16 +257,16 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者 id>
-2. _ count =\<max results>
+1. 患者 =\<患者 id の>
+2. _ count =\<最大結果>
 
 この通話の次の例を参照してください。
 
 * * *
 
-    要求: GET <fhir-server>/MedicationOrder? 患者 = <patient-id>&_count = 10
+    要求: <fhir-server>/MedicationOrder? 患者 =<患者 id>&_count = 10
     
-    応答: {"resourceType": "<bundle"、"id": "id>"、"type": "searchset"、"total": "searchset"、"total": "MedicationOrder": ""、"id": ""、"id": "<resource-id>" 2018-09-17, "medi"cationCodeableConcept ": {" text ":" Lisinopril 20 MG 口頭タブレット "}," prescriber ": {" display ":" Jane Doe "}," dosageInstruction ": [{" テキスト ":" "{" テキスト "
+    応答: {"resourceType": "バンドル", "id": "<バンドル id>"、"種類"、"searchset"、"total": 1, "medi": "{" リソース ": {" resourceType ":" "、" id ":" <リソース id> "、" dateWritten ":" 2018-09-17 "," MedicationOrder "cationCodeableConcept ": {" text ":" Lisinopril 20 MG 口頭タブレット "}," prescriber ": {" display ":" Jane Doe "}," dosageInstruction ": [{" テキスト ":" "{" テキスト "
 
 * * *  
 
@@ -278,15 +280,15 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者 id>
+1. 患者 =\<患者 id の>
 
 この通話の次の例を参照してください。
 
 * * *
 
-    要求: GET <fhir-server>/カバレージ? 患者 = <patient-id>
+    要求: <fhir-server>/利用可能かどうかを確認してください。患者 =<患者 id>
     
-    応答: {"resourceType": "このバンドル"、"種類": "searchset"、"集計": [{"リソース": {"リソース": {"resourceType": "id>"、"id": "<resource"、"id": "" "、" id ":" ""<patient-id>" } } } ] }
+    応答: {"resourceType": "次へ" と入力します: "searchset", "集計": "検索": {"resourceType": [{"リソース": {"resourceType": "<"、"id": "リソース id>"、"プラン": "第1の保険はありません"、"サブスクリプション": "患者/<患者の> "}}}]}
 
 * * *
 
@@ -294,6 +296,6 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
 ## <a name="location"></a>場所
 
-このリソースは、リソースの参照としてのみ[](#encounter)使用されます。
+このリソース[は、リソースの参照](#encounter)としてのみ使用されます。
 
 この[https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html)フィールドセットのその他の詳細については、を参照してください。

@@ -10,8 +10,7 @@ ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -24,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: デバイス、ネットワーク、接続に関する通話分析の詳細を使用して、Microsoft Teams および Skype for Business の通話と会議でのユーザーの問題のトラブルシューティングを行います。
-ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548981"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568636"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低品質の通話をトラブルシューティングする
 
@@ -86,9 +85,9 @@ Quality of experience (QoE) データを持つオーディオセッションに�
 |:-----|:-----|:-----|
 |通話の設定  <br/> |Session  <br/> |エラーコード Ms-diag 20-29 は通話の設定に失敗したことを示します。 ユーザーが通話または会議に参加できませんでした。  <br/> |
 |オーディオネットワークで分類された低品質通話  <br/> |Session  <br/> |ネットワーク品質の問題 (パケット損失、ジッター、NMOS 劣化、RTT、または隠れた比率など) が発生しました。 不適切な通話の分類に使われる条件の詳細については、 [Microsoft ブログの投稿](https://go.microsoft.com/fwlink/p/?linkid=852133)を参照してください。  <br/> |
-|デバイスが機能しない  <br/> |Device  <br/> | デバイスが正常に機能していません。 機能していないデバイスの比率は次のとおりです。 <br/>  DeviceRenderNotFunctioningEventRatio > = 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0.005 <br/> |
+|デバイスが機能しない  <br/> |Device  <br/> | デバイスが正常に機能していません。 機能していないデバイスの比率は次のとおりです。 <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [通話分析をセットアップする](set-up-call-analytics.md)
 
 [通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)

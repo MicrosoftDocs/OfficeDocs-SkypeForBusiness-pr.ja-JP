@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 国や地域、市区町村など、ユーザーに割り当てることができる電話番号を検索し、必要な番号の数を指定する方法について説明します。
-ms.openlocfilehash: 59f97e3e2aa7a1c68d4727a06ac0e4f897f9e6b3
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: b3e7c93fd2759beed7588bda49d0326f018a4ab8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348844"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573439"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>ユーザーの電話番号を検索する
 

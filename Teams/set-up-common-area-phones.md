@@ -10,8 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ロビー、受付領域、会議室の一般的なエリア電話を設定する方法について説明します。 '
-ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: fa25de7484d8ac70e924e750c4e7633bfc160c04
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131513"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571595"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 > [!NOTE]
@@ -77,7 +75,7 @@ ms.locfileid: "35131513"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>手順 2  - 電話機の新しいユーザアカウントを作成し、ライセンスを割り当てます
 
-1. Microsoft 365 管理センターで、[ **** > **アクティブな** > ユーザー] に移動して**ユーザーを追加**します。
+1. Microsoft 365 管理センターで、[ > **アクティブな** > **ユーザー] に移動**して**ユーザーを追加**します。
 
 2. 名として "Main" のようなユーザー名を入力し、2番目の名前に "受信" と入力します。
 
@@ -99,7 +97,7 @@ Skype for Business 管理センターを使用して、ユーザーに電話番�
 
 1. Microsoft 365 管理センターで、[**管理センター** > **チーム & Skype** > **レガシポータル**] を選択します。
 
-2. Skype for business 管理センターで、[ **** > **電話番号**] を選択します。
+2. Skype for business 管理センターで、[**電話番号**]**を選択し** > ます。
 
 3.  電話番号のリストから番号を選択し、** [割り当て]**  をクリックします。
 

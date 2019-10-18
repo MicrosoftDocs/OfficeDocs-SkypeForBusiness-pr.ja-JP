@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Microsoft Teams 管理センターで Teams の PSTN 使用状況レポートを使用して、組織内での通話と電話会議の使用状況の概要を確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3674759844cc268fc503f4f617e0d18d16914593
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 89d33f15401d25767c905f16e38d93744d7929c3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131686"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570567"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams の PSTN 使用状況レポート
 
@@ -63,6 +62,6 @@ Microsoft Teams 管理センターのチーム PSTN 使用状況レポートで�
 |**5**   |[**列の編集**] を選択して表で列を追加または削除します。 |
 |**6**   |全画面表示モードでレポートを表示するには、[**全画面**表示] を選択します。 |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

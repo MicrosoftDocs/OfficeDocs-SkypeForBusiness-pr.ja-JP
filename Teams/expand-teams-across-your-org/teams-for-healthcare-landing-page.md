@@ -1,5 +1,5 @@
 ---
-title: 医療関係組織向けのTeams
+title: 医療関係向けのTeams
 description: これらのリソースを使用して、医療組織のチームを最大限に活用してください。
 layout: LandingPage
 ms.topic: landing-page
@@ -9,18 +9,20 @@ manager: serdars
 audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38652aca1bf7a479821286597d5475be18e9ee7f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4cc058a0d23008ebb827f3a661baed3611207f24
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235316"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570327"
 ---
-# <a name="teams-for-healthcare"></a>医療関係組織向けのTeams
+# <a name="teams-for-healthcare"></a>医療関係向けのTeams
 
 Teams は、ケアチームや医療専門家が安全な方法でコミュニケーションを行い、患者の治療を調整し、運用効率を向上させます。 ここでは、組織内の医療チームのチームを管理するために必要な管理リソースについて説明します。
 

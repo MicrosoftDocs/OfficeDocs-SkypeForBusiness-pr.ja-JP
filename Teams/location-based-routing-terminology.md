@@ -12,17 +12,15 @@ search.appverid: MET150
 description: ダイレクトルーティングの位置情報に基づくルーティングに関連する用語と概念について説明します。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d35b42453ac0eb9d9ae4a3f4c71f4452943a3b0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e9c7a323bb252c254d7422c30251414742608529
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245097"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572013"
 ---
 # <a name="location-based-routing-terminology"></a>場所に基づくルーティングの用語集
 
@@ -37,7 +35,7 @@ ms.locfileid: "36245097"
 |ネットワークサブネット     |有料のバイパスを適用するには、チームのエンドポイントがネットワークに接続できる場所にある IP サブネットが定義されたネットワークに関連付けられている必要があります。 同じネットワークサイトに複数のサブネットを関連付けることもできますが、同じサブネットに複数のサイトが関連付けられていない可能性があります。 サブネットの関連付けによって、位置情報に基づくルーティングが、特定の PSTN 通話を許可するかどうかを判断するために、エンドポイントを地理的に見つけることができます。 IPv6 と IPv4 の両方のサブネットがサポートされています。 チームのエンドポイントがサイトに配置されているかどうかを判断するときに、位置ベースのルーティングでは、最初に一致する IPv6 アドレスが確認されます。 IPv6 アドレスが存在しない場合、場所に基づくルーティングで IPv4 アドレスが確認されます。 <br><br>
 |信頼できる外部 IP アドレス    |[信頼された外部 IP アドレスは、エンタープライズネットワークのインターネット外部 IP アドレスです。 特定のサイト一致を確認する前に、ユーザーのエンドポイントが企業ネットワーク内にあるかどうかを確認します。 ユーザーの外部 IP が、信頼できるリストで定義されている IP アドレスと一致する場合、場所ベースのルーティングでは、ユーザーのエンドポイントが配置されている内部サブネットを確認します。 ユーザーの外部 IP アドレスが、信頼できるリストで定義されているどの IP アドレスとも一致しない場合、エンドポイントは不明な場所に分類され、場所に基づくルーティングを有効にしているユーザーとの PSTN 通話はブロックされます。          |
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 - [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)

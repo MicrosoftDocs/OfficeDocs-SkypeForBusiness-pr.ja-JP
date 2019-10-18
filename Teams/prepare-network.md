@@ -12,16 +12,15 @@ description: ネットワーク要件、帯域幅要件、その他の考慮事�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39d9a7a0e2fa144354857e750365d50182974976
-ms.sourcegitcommit: 88c4682deec2ec533cc7542cf3a1363a41c4726f
+ms.openlocfilehash: a9013eb1048d022244166906edb1737b01757ed6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36279168"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567688"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 

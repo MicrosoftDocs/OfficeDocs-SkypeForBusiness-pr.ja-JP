@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: 'Microsoft Teams 管理センターで、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。 '
-ms.openlocfilehash: 0e0f334365f38b52c2f90b33d7c6550aa3095dc3
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ddef21811f4317f1ac10d5eb7d94bd67f1faaaad
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516831"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568700"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
@@ -39,7 +39,7 @@ ms.locfileid: "37516831"
 4. 国または地域を選択して、住所を入力します。
 
    > [!NOTE]
-   > ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Office 365 で電話番号を正常にアクティブ化するために、緊急対応の場所にある住所の設定 (番号を取得するために使用される os) が電話番号の領域と一致する必要があることを理解しておくことが重要です。プログラム.
+   > ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Office 365 で電話番号を正常に有効にするには、番号の取得に使用する緊急対応の場所で設定された住所が電話番号と一致する必要があることを理解しておくことが重要です。市外局番。
 5. アドレスが見つからず、手動で住所を編集したい場合は、**選択した住所が見つからない場合は、[アドレスフォームを手動で編集**する] をオンにします。
 6. [**保存**] をクリックします。
     
@@ -58,7 +58,7 @@ ms.locfileid: "37516831"
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**地域** > の**緊急対応の住所**] をクリックします。
 2. 一覧で、削除する場所を選択し、[**削除**] をクリックします。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 -[緊急対応の場所、場所、通話ルーティングとは何ですか?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)

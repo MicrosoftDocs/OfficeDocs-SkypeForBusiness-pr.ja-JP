@@ -11,21 +11,21 @@ search.appverid: MET150
 description: このメールテンプレートを使用して、Microsoft StaffHub から Microsoft Teams への移行に関する組織全体のユーザーと通信します。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebe9db78b1f210d1ebf96ca4bbd2552372a6a1cf
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: a7b78940590d6c81422f09002685d7911055dfc4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36716131"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569655"
 ---
 # <a name="staffhub-to-teams-sample-email-to-users"></a>StaffHub for Teams のサンプルメールをユーザーに送信する
 
 > [!IMPORTANT]
-> 2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。 2019年10月1日の StaffHub はすべてのユーザーに対して機能しなくなります。 StaffHub を開こうとしたユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。 
+> 2019年12月31日有効な場合、Microsoft StaffHub は廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。 StaffHub は、2019年12月31日にすべてのユーザーに対して機能しなくなります。 StaffHub を開こうとしたユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。 
 
 StaffHub から Teams への移行が成功したことを確認するために、組織内のユーザーに変更を伝達するために使用できるメールテンプレートを作成しました。 これは、オンボード戦略の一部として使用して、シフトやチームへの切り替えをユーザーに知らせ、組織全体での導入を促進します。
 
@@ -41,7 +41,7 @@ Teams のシフトアプリは、スケジュール管理ツールとして Staf
 
 チーム内でこれらのツールを使用することで、作業を容易にし、チームとその他の組織の他のユーザーと簡単に連絡を取ることができるようになります。
 
-**次のステップ**
+**次の手順**
 
 ここで操作を行う必要はありません。 IT 部門は、すべてのスケジュールデータを StaffHub からチームのシフトアプリに移動し、日付&lt;&gt;である場合は、StaffHub の代わりに teams を使用して、シフトのスケジュールにアクセスすることになります。  
 
@@ -56,7 +56,7 @@ Teams のシフトアプリは、スケジュール管理ツールとして Staf
 
 ***
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-- [Teams での StaffHub チームのシフトへの移行を計画する](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
+- [StaffHub チームを Teams の Shifts に移動する計画を立てる](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 - [Microsoft StaffHub のチームを Teams の Shifts に移動する](move-staffhub-teams-to-shifts-in-teams.md)

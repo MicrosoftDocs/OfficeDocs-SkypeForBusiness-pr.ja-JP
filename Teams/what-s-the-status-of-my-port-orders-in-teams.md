@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'ポート注文の状態を取得する方法と、それらに対して実行できるさまざまな操作について説明します。 '
-ms.openlocfilehash: 8725f87fc1bb2afb6e035fca7e9dd3c34d2c8a60
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 34abd630740d654e640818270047d850f34efa2a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298977"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568522"
 ---
 # <a name="whats-the-status-of-my-port-orders-in-teams"></a>Teams での番号移行注文の状況
 

@@ -1,5 +1,5 @@
 ---
-title: Teams または Skype for Business Online のプロキシサーバー
+title: Teams または Skype for Business Online 向けのプロキシ サーバー
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,8 @@ ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: M365-collaboration
+ms.collection:
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -19,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: この記事では、Teams または Skype for Business でのプロキシサーバーの使用について説明します。
-ms.openlocfilehash: e0733393a40c2d2c2fd62d986a4b4d66d0c2c35f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b06e7aa43dcbcf5aeab9011af72d94460f69cc63
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304371"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573208"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams または Skype for Business Online のプロキシサーバー
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams または Skype for Business Online 向けのプロキシ サーバー
 
 この記事では、Teams または Skype for Business でのプロキシサーバーの使用に関するガイダンスを提供します。
   
@@ -56,7 +57,7 @@ Microsoft は次を実行することもお勧めします。
     
 このガイダンスに従うことで、問題が生じる可能性が最小になります。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online 向けのネットワークの最適化](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
 

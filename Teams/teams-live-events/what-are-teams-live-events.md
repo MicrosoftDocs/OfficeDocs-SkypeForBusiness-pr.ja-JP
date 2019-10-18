@@ -6,7 +6,6 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sonua
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 355f24a6156e42d8984e360cb6ab06c483b56413
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 43a5914c0ad9690859264e5c64e0652a5095decb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483234"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570148"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -52,7 +51,7 @@ Teams のライブイベントにより、複数の役割 (開催者、プロデ
 ### <a name="scheduling"></a>管理
 チームは、開催者が適切な出席者権限を持つイベントを作成し、イベントチームメンバーを指定し、運用方法を選択して、出席者を招待する機能を提供します。 ライブイベントが Yammer グループ内で作成された場合、ライブイベントの出席者は、イベントでのユーザーとのやり取りに Yammer の会話を使用できます。 
 
-![[新しいライブイベント] 画面を示すスクリーンショット]新しいライブ(../media/teams-live-events-schedule.png "イベントを作成してスケジュールする新しいライブイベント画面を示すスクリーンショット")
+![[新しいライブイベント] 画面を示すスクリーンショット](../media/teams-live-events-schedule.png "新しいライブイベントを作成してスケジュールする新しいライブイベント画面を示すスクリーンショット")
 
 ### <a name="production"></a>発行
 ビデオ入力は、ライブイベントの基礎であり、1つの web カメラから複数のカメラの専門ビデオ製作まで、さまざまな場合があります。 Microsoft 365 のライブイベントは、一連の運用シナリオをサポートしており、web カメラを使って、または外部のアプリやデバイスで生成されたイベントを使用してチームで生成されたイベントを含めることができます。 プロジェクトの要件と予算に応じて、これらのオプションを選ぶことができます。 イベントを作成するには、次の2つの方法があります。
@@ -85,10 +84,10 @@ ECDN の目標は、ネットワークのパフォーマンスに影響を及ぼ
 ### <a name="live-event-usage-report"></a>ライブイベントの使用状況レポート 
 テナント管理者は、Microsoft Teams 管理センターでライブイベントのリアルタイムの利用状況分析を表示できます。  [[ライブイベントの使用状況] レポート](../teams-analytics-and-reports/teams-live-event-usage-report.md)には、組織内で保持されているライブイベントのアクティビティの概要が表示されます。  管理者は、イベントの状態、開始時刻、ビュー、および運用の種類などのイベントの利用状況情報を表示できます。  
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 「 [Teams ライブイベントのプラン](plan-for-teams-live-events.md)」に移動します。
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [Yammer、Microsoft Teams、Microsoft Stream の Microsoft 365 全体でのライブイベント](https://docs.microsoft.com/stream/live-event-m365)
 - [Microsoft Teams ライブイベントの使用を開始する](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Yammer のライブイベント](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)

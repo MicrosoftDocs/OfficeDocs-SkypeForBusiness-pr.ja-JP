@@ -9,7 +9,6 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 446ff5c3dc5d7e6a33f5d6b3a44a07a8f6514f02
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 7ec568123f92c188d8642f6e5c8907485dc6de05
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434721"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565070"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 
@@ -41,7 +40,7 @@ ms.locfileid: "37434721"
 |ビデオ    |  USB 2.0 ビデオカメラ       |
 |デバイス    |   標準のラップトップカメラ、マイク、スピーカー    | 
 |ビデオ通話と会議 | ビデオ通話とオンライン会議の操作性を向上させるには、2.0 GHz プロセッサと 4.0 GB の RAM (以上) を搭載したコンピューターを使うことをお勧めします。 オプションの [背景ビデオの**ぼかし**] では、高度なベクトル拡張機能 2 (AVX2) がサポートされているプロセッサが必要になります。 サポートされていないデコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
-|Teams ライブイベント | Teams live のイベントを生成する場合は、コア i5 Kaby Lake processor、4.0 GB RAM (以上)、ハードウェアエンコーダーを搭載したコンピューターを使うことをお勧めします。 サポートされていないデコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
+|Teams のライブ イベント | Teams live のイベントを生成する場合は、コア i5 Kaby Lake processor、4.0 GB RAM (以上)、ハードウェアエンコーダーを搭載したコンピューターを使うことをお勧めします。 サポートされていないデコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac での Teams デスクトップアプリのハードウェア要件
 
@@ -68,7 +67,7 @@ Microsoft Teams は次のモバイルプラットフォームで使用できま�
 
 仮想化された環境で Teams を実行するための要件については、「[仮想デスクトップインフラストラクチャのチーム](teams-for-vdi.md)」をご覧ください。 
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [チームアプリを入手する](get-clients.md)
 - [モバイルデバイス上の Microsoft Teams](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [MSI を使用して Microsoft Teams アプリをインストールする](msi-deployment.md)

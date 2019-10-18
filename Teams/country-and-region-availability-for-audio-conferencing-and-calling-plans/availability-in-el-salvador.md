@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、Skype for Business および Microsoft Teams 用の Office 365 サービスをエルサルバドルで利用できるようにするものです。
-ms.openlocfilehash: 81bddbe4d62f5a0f8ba6ef67dd0332ebe7b43560
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: a09dfc3d5ba65e3c5cba01b6d8c91381e04ee930
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331901"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570429"
 ---
 # <a name="availability-in-el-salvador"></a>エルサルバドルでの利用可能性
 

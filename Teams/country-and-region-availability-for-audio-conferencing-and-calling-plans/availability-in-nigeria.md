@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 次に示すのは、ナイジェリアで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
-ms.openlocfilehash: d2454ddecba2c59c042ee132ba6a6f431b93af9e
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 1488ca5e87ace3d54314ae159fc22c9d74d6c13d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775697"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571016"
 ---
 # <a name="availability-in-nigeria"></a>ナイジェリアで利用可能
 

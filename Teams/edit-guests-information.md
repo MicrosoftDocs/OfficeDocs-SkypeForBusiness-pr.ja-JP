@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: 管理者が Azure Active Directory ポータルのゲスト ユーザーに関する情報をどのようにして編集できるかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cddb34306e87c461aa9dca19e09347e18cb0ca13
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bd3f2a1fc4e4888731061db6aa251ad88a871496
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234960"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565862"
 ---
 <a name="edit-guest-user-information"></a>ゲスト ユーザー情報を編集する
 ===========================

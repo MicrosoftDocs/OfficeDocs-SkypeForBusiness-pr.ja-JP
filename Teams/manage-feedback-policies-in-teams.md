@@ -10,18 +10,17 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: フィードバックポリシーを使用して、組織内の Teams ユーザーがチームに関するフィードバックを Microsoft に送信できるかどうかを制御する方法について説明します。
-ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: e43cc46e16a17ad4f059398e99736d14fdee62ee
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715820"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570635"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams でフィードバックポリシーを管理する
 
@@ -31,7 +30,7 @@ ms.locfileid: "36715820"
 
 **フィードバックの提供機能**
 
-ユーザーは、チームで**** > **フィードバック**を送信するために、チームに関するコメントや提案をお送りします。 **フィードバック**を送信して送信されるデータは、"顧客データ" または "個人データ" と見なされる情報など、Office 365 契約の下で "サポートデータ" と見なされます。
+ユーザーは、チームで**フィードバック**を送信する**ために、** > チームに関するコメントや提案をお送りします。 **フィードバック**を送信して送信されるデータは、"顧客データ" または "個人データ" と見なされる情報など、Office 365 契約の下で "サポートデータ" と見なされます。
 
 ![Teams の [フィードバックの提供] オプションのスクリーンショット](media/manage-feedback-policies-in-teams-give-feedback.png)
 
@@ -49,7 +48,7 @@ ms.locfileid: "36715820"
 
 たとえば、組織内のすべてのユーザーが**フィードバック**を送信してフィードバックを受け取り、トレーニングの新入団体以外のアンケートを受けることができるようにします。 このシナリオでは、ユーザー設定のポリシーを作成して、両方の機能を無効にし、新しい採用者に割り当てることができます。 組織内の他のすべてのユーザーは、この機能を有効にしたグローバルポリシーを取得します。  
 
-カスタムポリシーを**** 作成するには、 *[次](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* のコマンドレットを使用します。これは、カスタムポリシーを作成するために、1人以上のユーザーまたはユーザーのグループ (セキュリティグループなど) に割り当てるための、**許可-csteamsフィードバックポリシー**コマンドレットを使用します。配布グループ。
+カスタムポリシーを作成するには、 *[次](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)***のコマンドレット**を使用します。これは、カスタムポリシーを作成するために、1人以上のユーザーまたはユーザーのグループ (セキュリティグループなど) に割り当てるための、**許可-csteamsフィードバックポリシー**コマンドレットを使用します。配布グループ。
 
 機能を無効にして有効にするには、次のパラメーターを設定します。
 
@@ -58,7 +57,7 @@ ms.locfileid: "36715820"
 
 ## <a name="create-a-custom-feedback-policy"></a>ユーザー設定のフィードバックポリシーを作成する
 
-この例では、新入社員フィードバックポリシーというフィードバックポリシーを作成し、フィードバックとアンケートを通じてフィードバック**** を提供する機能を無効にします。
+この例では、新入社員フィードバックポリシーというフィードバックポリシーを作成し **、フィードバックとアンケートを通じて**フィードバックを提供する機能を無効にします。
 
 ```
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled

@@ -10,18 +10,17 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: チームギャラリーと検索結果の提案を通じて、プライベートチームを Microsoft Teams ユーザーが検出できるかどうかを制御する方法について説明します。
-ms.openlocfilehash: 0c75d0e08290b12cf658b2a84eef609e2d15dc86
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: b60c06299f779ebe798db1ff3df465f1683508ed
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588208"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572002"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Microsoft Teams でプライベート チームの検索を管理する
 
@@ -88,5 +87,5 @@ Teams で、プライベートチームに移動し、[**その他のオプシ�
 > [!NOTE]
 > 検出されないプライベートチームは、ポリシーの設定に関係なく、検索結果と候補には表示されません。 たとえば、プライベートチームの検出設定を無効にした場合、そのユーザーのポリシー設定で**Allowprivateteamdiscovery**パラメーターが**true**に設定されているにもかかわらず、ユーザーはチームを見つけることができません。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

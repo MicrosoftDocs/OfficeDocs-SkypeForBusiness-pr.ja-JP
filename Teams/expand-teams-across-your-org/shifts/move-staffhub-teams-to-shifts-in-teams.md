@@ -10,20 +10,22 @@ ms.service: msteams
 search.appverid: MET150
 description: Microsoft StaffHub teams を移動して、Microsoft Teams のシフトにデータをスケジュールする方法について説明します。
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bf9776dbf5a5992354f542436b4904d53d58508
-ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
+ms.openlocfilehash: 03131bd9a89ae5f54fc8318b004385de3e32e26e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37142047"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569684"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft Teams で Microsoft StaffHub teams をシフトに移行する
 
 > [!IMPORTANT]
-> 2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。 2019年10月1日の StaffHub はすべてのユーザーに対して機能しなくなります。 StaffHub を開こうとしたユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。
+> 2019年12月31日有効な場合、Microsoft StaffHub は廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。 StaffHub は、2019年12月31日にすべてのユーザーに対して機能しなくなります。 StaffHub を開こうとしたユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。
 
 Teams のシフトアプリは、スケジュールを管理するための簡単なアプローチを提供します。また、1日のうちに発生するシフト交換とキャンセルの流れを定期的に行うことができます。 チームメンバーは、アプリやデバイス間で直接、スケジュールとシフト情報にアクセスして、ユーザー設定の設定、スケジュールの管理、休暇のリクエストを行うことができます。
 
@@ -44,13 +46,13 @@ Teams のシフトアプリは、スケジュールを管理するための簡�
 
 ### <a name="when-to-move-to-teams"></a>Teams に移動する場合
 
-2019年10月1日、StaffHub は廃止されます。 今すぐ Teams の使用を開始して、組織のチームとユーザーを StaffHub から移行することをお勧めします。 StaffHub でスケジュール管理が最も一般的に使用される機能である場合は、チームでのシフトアプリの使用を進めることをお勧めします。
+2019年12月31日有効な StaffHub は廃止されます。 今すぐ Teams の使用を開始して、組織のチームとユーザーを StaffHub から移行することをお勧めします。 StaffHub でスケジュール管理が最も一般的に使用される機能である場合は、チームでのシフトアプリの使用を進めることをお勧めします。
 
 ### <a name="what-is-moved-to-teams"></a>Teams に移動されるもの
 
 StaffHub チームを移動すると、チームメンバーシップ、ユーザーの詳細、チームのスケジュール、チャットデータが Teams に移動します。 StaffHub チームを移動すると、ファイルが移動されません。 StaffHub チームに、teams にも移動するファイルが含まれている場合は、ファイルを別の手順で移動します。
 
-すべての StaffHub チームには、対応する Office 365 グループが必要です。 StaffHub チームに Office 365 グループが関連付けられていない場合は、移行をサポートするために、1つが自動的に作成されます。 Teams と StaffHub の間でのチームとグループの名前の違いにより、Teams に異なるチーム名が表示されることがあります。
+すべての StaffHub チームには、対応する Office 365 グループが必要です。 StaffHub チームが Office 365 グループに関連付けられている場合、チームを移動すると、グループのプライバシー設定が保持されます。 StaffHub チームに Office 365 グループが関連付けられていない場合は、移行をサポートするために、プライバシー設定のグループが [プライベート] に自動的に作成されます。  Teams と StaffHub の間でのチームとグループの名前の違いにより、Teams に異なるチーム名が表示されることがあります。 
 
 チームを StaffHub から Teams に移行すると、ユーザーは StaffHub のスケジュールにアクセスできなくなり、Teams のシフトにリダイレクトされます。 この変更を組織全体で伝達することをお勧めします。中断を最小限に抑え、ユーザーにチームの採用と検討を促します。 Azure AD Premium を使用している場合は、[レポートを実行](run-report-to-show-staffhub-usage.md)して、この変更について知っておく必要がある、組織内の StaffHub ユーザーの一覧を取得できます。  
 
@@ -74,8 +76,10 @@ StaffHub チームを Teams に移動する前に、次のことを確認して�
 - チームは、テナント内のすべてのユーザーに対して有効になっています。
 - テナントで Office 365 グループの作成が有効になっています。
 - StaffHub teamId が有効です。
+- StaffHub チームには、少なくとも1つのチーム所有者がいます。
 - StaffHub チームにはメンバーが含まれています。
 - すべての StaffHub チームメンバーは、Azure AD アカウントにリンクされています。
+- すべての StaffHub チームメンバーに Teams ライセンスが割り当てられます。  
 
 これらの前提条件が満たされない場合、移動要求は失敗します。
 
@@ -90,7 +94,7 @@ Teams のライセンスは、Microsoft 365 管理センターで管理します
 
 ### <a name="install-the-prerelease-version-of-the-staffhub-powershell-module"></a>プレリリース版の StaffHub PowerShell モジュールをインストールする
 
-まだインストールしていない場合は、[プレリリース版の StaffHub PowerShell モジュールをインストール](install-the-staffhub-powershell-module.md)します。 
+まだインストールしていない場合は、[プレリリース版の StaffHub PowerShell モジュールをインストール](install-the-staffhub-powershell-module.md)します。
 
 StaffHub teams を Teams に移行するには、プレリリース版のモジュールがインストールされている必要があります。
 
@@ -101,15 +105,21 @@ StaffHub teams を Teams に移行するには、プレリリース版のモジ�
 - チーム所有者が、Azure AD アカウントを持っていないユーザーを追加しました。
 - チーム所有者が、ユーザーを StaffHub チームに招待し、そのユーザーが招待を承諾しなかった。
 
-これらのユーザーに Azure AD アカウントをリンクさせることができます。  これを行うには、次の操作を実行します。
+これらのユーザーには非アクティブなアカウントがあり、不明、招待、または InviteRejected のユーザー状態が表示されます。 これらのユーザーに Azure AD アカウントをリンクさせることができます。  これを行うには、次の操作を実行します。
 
-#### <a name="get-a-list-of-all-users-on-staffhub-teams-that-have-team-members-that-arent-linked-to-an-azure-ad-account"></a>Azure AD アカウントにリンクされていないチームメンバーを持つ StaffHub teams 上のすべてのユーザーの一覧を取得する
+#### <a name="get-a-list-of-all-inactive-accounts-on-staffhub-teams"></a>StaffHub teams の非アクティブなアカウントの一覧を取得する
 
-次のコマンドを実行します。
+StaffHub teams の非アクティブなアカウントの一覧を取得し、リストを CSV ファイルにエクスポートするには、次の操作を実行します。
+
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant
-$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
+$InvitedUsersObject = @()
+$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+}
+}
+$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### <a name="link-the-account"></a>アカウントをリンクする
@@ -124,7 +134,7 @@ foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where
     1. StaffHub チームからプロビジョニングされていないアカウントを削除するには、 [StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps)コマンドレットを実行します。
     2. UPN を使用して StaffHub チームにアカウントを戻すには、 [StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps)コマンドレットを実行します。
 
-- リンクされていないユーザーアカウントを削除します。 このオプションを使用すると、ユーザーアカウントは不要になります。
+- 非アクティブなアカウントを削除します。 ユーザーアカウントが不要になった場合は、このオプションを使用します。
 
 ### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>FirstlineWorker アプリのセットアップポリシーをユーザーに割り当てる
 
@@ -179,9 +189,9 @@ Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 次に示すのは、StaffHub チームを Teams に移動する要求を送信するときに表示される応答の例です。
 
 ```
-    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
-    ---------------------------------------    ----------------------------------------    ---------------------------          
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
+ jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+---------------------------------------    ----------------------------------------    ---------------------------          
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
 ```
 
 移動要求の状態を確認するには、次を実行します。
@@ -198,9 +208,9 @@ Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 次に示すのは、移動が進行中の場合に表示される応答の例です。
 
 ```
-    jobId                                     status       teamId                                     isO365GroupCreated  Error
-    ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
+jobId                                     status       teamId                                     isO365GroupCreated  Error
+----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
 ### <a name="move-files-from-a-staffhub-team-to-teams"></a>StaffHub チームから Teams にファイルを移動する
@@ -259,10 +269,10 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 既に Teams に移動されているか、Teams に既に存在しているチームの場合は、そのチームに移動するためにジョブを送信する必要がないため、jobId は "null" になります。
 
 ```
-    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
-    ----------------------------------------   -----------------------------------------   --------------------------         
-    null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
+jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+----------------------------------------   -----------------------------------------   --------------------------         
+null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
 #### <a name="move-specific-staffhub-teams"></a>特定の StaffHub チームを移動する
@@ -306,6 +316,32 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
+**エラーエラーの詳細情報を取得する方法**
+
+チームを移動しようとしたときに発生する "エラー" エラーの詳細については、次の手順を実行してください。
+
+```
+Move-StaffHubTeam -TeamId <TeamId>
+$res = Get-TeamMigrationJobStatus -JobId <JobId>
+$res.Status
+```
+
+次の状態のいずれかが返されます: 成功、失敗、InProgress、キューに入れられます。
+
+"Failure" というエラーが返された場合は、次の操作を実行して、エラーに関する詳細情報を入手します。
+
+```
+$res.Result.Error.Innererror
+```
+
+**StaffHub チームを移動しようとすると、状態が "失敗" と表示され、"ユーザーの該当する SKU カテゴリを取得できませんでした" というエラーメッセージが表示されます。**
+
+この問題は、1人以上のチームメンバーが Teams ライセンスを所有していない場合に発生する可能性があります。 Portal.office.com にアクセスし、グループを見つけて、グループメンバーに Teams ライセンスが割り当てられていることを確認します。
+
+**StaffHub チームを移動しようとすると、状態が "失敗" と表示され、"チーム所有者が見つかりませんでした" というエラーメッセージが表示される**
+
+この問題は、StaffHub チームに関連付けられているグループにチーム所有者がない場合に発生する可能性があります。 Portal.office.com にアクセスし、グループを見つけて、グループに1つ以上の所有者を追加します。
+
 **StaffHub から Teams にファイルを移動しようとすると、"アクセス許可は拒否されました" というエラーメッセージが表示されます。**
 
 この問題は、自分がメンバーでないプライベートの Office 365 グループでファイルを移動しようとしている場合に発生することがあります。 この場合は、 [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember)コマンドレットを使用して StaffHub チームに自分を追加してから、ファイルを移動します。 ファイルを移動した後、 [StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember)コマンドレットを使用してチームから自分自身を削除します。 
@@ -318,7 +354,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 - [Microsoft Teams の展開方法](../../How-to-roll-out-teams.md)
 - [Microsoft StaffHub はまもなく廃止予定です](microsoft-staffhub-to-be-retired.md)
 - [Microsoft Teams で組織のシフト アプリを管理する](manage-the-shifts-app-for-your-organization-in-teams.md)

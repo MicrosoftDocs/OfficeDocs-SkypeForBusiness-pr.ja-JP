@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Microsoft Teams 管理センターを使用して、組織内のすべての電話番号と、ユーザーに割り当てられているすべての電話番号の一覧を表示する方法について説明します。
-ms.openlocfilehash: c167902c1f012f48ddcdbea00d4219b264f7b3e6
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 9f2dc399e90e5992d05d4c63edf2e07471321d29
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348842"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571435"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織の電話番号のリストを表示する
 

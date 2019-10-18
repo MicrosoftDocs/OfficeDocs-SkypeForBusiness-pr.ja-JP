@@ -9,18 +9,18 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織向けテンプレートでTeamsを始めましょう
-ms.openlocfilehash: 9a00d0d707867d009a9bc724d88fd4f9d8e6997f
-ms.sourcegitcommit: 113c00a26c5a6ad22ef24b1bdcd830e7c2cd14ff
+ms.openlocfilehash: df917c3a6f1cbf20c9226dd58e4706c4c0e3bc2c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36852841"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570349"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療関係組織向けテンプレートでTeamsを始めましょう
 
@@ -161,7 +161,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams のテンプレートの使用を開始する](../../get-started-with-teams-templates.md)
 

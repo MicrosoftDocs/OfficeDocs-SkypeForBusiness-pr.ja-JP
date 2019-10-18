@@ -12,16 +12,15 @@ description: 配布リストをチームに取り込んだり、メール対応�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0654123e9779fc3af97982d26d714cb58bc6e26e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fd1769fad917cb942072df4ff58aa1f4fcb91c14
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236352"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567461"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Microsoft Teams を使用して既存の Office 365 グループを強化する
 =======================================================

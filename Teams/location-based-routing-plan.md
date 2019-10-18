@@ -12,17 +12,15 @@ search.appverid: MET150
 description: ダイレクトルーティングの位置情報に基づくルーティングを計画する方法について説明します。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38097d06cff62481d48c794b83a01a2fa1155b52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245119"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570690"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -219,7 +217,7 @@ PSTN エンドポイントが含まれている場合、場所に基づくルー
 
 チームユーザーは、代理として通話を発信および受信できる代理人を選ぶことができます。 Teams の委任機能は、次のように位置情報に基づくルーティングによって影響を受けます。 
 - 委任者に基づくルーティングが有効になっているデリゲートからの発信通話については、同じ規則が適用されます。 通話ルーティングは、代理人の呼び出し承認ポリシー、ボイスルーティングポリシー、および場所に基づいています。 詳細については、「 [Teams ユーザーが PSTN への発信通話を配置](#teams-user-places-an-outbound-call-to-the-pstn)する」を参照してください。 
-- 委任者への着信 PSTN 通話の場合、通話転送に適用される位置情報に基づくルーティングルールと、同時に他のユーザーに転送されるルーティングルールは代理人にも適用されます。 詳細については、「 [teams ユーザーが別の teams ユーザーに電話を転送または転送する](#teams-user-transfers-or-forwards-call-to-another-teams-user)」を参照するか[](#simultaneous-ringing)、「 [teams ユーザーが PSTN エンドポイントへの通話を転送または転送する](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)」を参照してください。 代理人が PSTN エンドポイントを同時呼び出しターゲットとして設定すると、そのデリゲートのボイスルーティングポリシーを使って、PSTN への通話がルーティングされます。 
+- 委任者への着信 PSTN 通話の場合、通話転送に適用される位置情報に基づくルーティングルールと、同時に他のユーザーに転送されるルーティングルールは代理人にも適用されます。 詳細については、「 [teams ユーザーが別の teams ユーザーに電話を転送または転送する](#teams-user-transfers-or-forwards-call-to-another-teams-user)」を参照するか、「 [TEAMS ユーザーが PSTN エンドポイントへの通話を転送または転送する](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) [」を参照](#simultaneous-ringing)してください。 代理人が PSTN エンドポイントを同時呼び出しターゲットとして設定すると、そのデリゲートのボイスルーティングポリシーを使って、PSTN への通話がルーティングされます。 
 - 委任の場合、委任者と関連付けられた代理人を同じネットワークサイトに配置することをお勧めします。 
 
 ## <a name="other-planning-considerations"></a>計画に関するその他の考慮事項
@@ -251,9 +249,9 @@ Teams web クライアントと Skype for Business クライアントはサポ�
 
 PSTN 通話の位置情報に基づくルーティングが有効になっているユーザーは、他のユーザーや PSTN 番号との会議を開始することはできません。 自動応答または通話キューへの接続は許可されています。 ユーザーが会議ライセンスを持っている場合は、ユーザーは関連ユーザーとの会議を開始して、電話会議を開始するために会議ブリッジ経由で PSTN に通話を発信する必要があります。  
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 「[場所に基づくルーティングのネットワーク設定を構成](location-based-routing-configure-network-settings.md)する」を参照してください。
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 - [場所に基づくルーティングの用語集](location-based-routing-terminology.md)

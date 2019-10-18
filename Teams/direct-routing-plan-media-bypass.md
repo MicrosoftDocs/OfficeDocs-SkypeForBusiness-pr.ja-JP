@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
 description: このトピックでは、電話システムのダイレクトルーティングを使用してメディアのバイパスを計画する方法について説明します。
-ms.openlocfilehash: a6f13b8f7db767d8a6a16f8f4493f15aeed9af38
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: cdfeb5313416730c703a1d0f10e2c7ccdddee1cc
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464592"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572159"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -26,7 +27,7 @@ ms.locfileid: "36464592"
 
 メディアのバイパスにより、メディアトラフィックのパスを短縮し、転送中のホップの数を減らしてパフォーマンスを向上させることができます。 メディアをバイパスすると、メディアは、Microsoft 電話システム経由で送信されるのではなく、セッション境界コントローラー (SBC) とクライアントの間で保持されます。 メディアバイパスを構成するには、SBC とクライアントが同じ場所またはネットワーク内にある必要があります。
 
-**Mediabypass**コマンドを使用して、各**** SBC のメディアのバイパスを制御することができます。 メディアのバイパスを有効にすると、すべてのメディアトラフィックが企業ネットワーク内に収まるというわけではありません。 この記事では、さまざまなシナリオでのコールフローについて説明します。    
+**Mediabypass**コマンドを使用し**て、各**SBC のメディアのバイパスを制御することができます。 メディアのバイパスを有効にすると、すべてのメディアトラフィックが企業ネットワーク内に収まるというわけではありません。 この記事では、さまざまなシナリオでのコールフローについて説明します。    
 
 以下の図は、メディアのバイパスを含む、または含まれていない通話フローの違いを示しています。
 

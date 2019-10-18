@@ -1,5 +1,5 @@
 ---
-title: 緊急対応の場所、場所、通話ルーティングとは何ですか?
+title: 緊急対応の場所、位置情報、通話ルーティングの概要
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,14 +21,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '緊急対応の場所、場所、緊急通話のルーティングについて、およびそれらを計画してユーザーに割り当てる方法について説明します。 '
-ms.openlocfilehash: 7ab3c17e6d74d8e53358f91b3f99759cf4b22203
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: a6f3051c4902d9fda2f20ca17e4aa501a8922264
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396404"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568555"
 ---
-# <a name="what-are-emergency-locations-places-and-call-routing"></a>緊急対応の場所、場所、通話ルーティングとは何ですか?
+# <a name="what-are-emergency-locations-places-and-call-routing"></a>緊急対応の場所、位置情報、通話ルーティングの概要
 
 通話プランを構成する場合は、電話番号を取得するか、緊急通話をサポートするようにユーザーに割り当てるときに、各電話番号に緊急対応の場所を割り当てる必要があります。 緊急対応の場所を電話番号に割り当てるには、緊急対応の場所を追加して検証する必要があります。 検証により、緊急対応の場所が認識され、緊急対応サービスで使用できる正しい形式であることが確認されます。 必要に応じて、緊急対応の場所内に場所を追加して、ユーザーにより具体的な場所を指定できます。 たとえば、特定の緊急対応の場所にリンクされているフロア、翼、またはオフィスを置くことができます。 緊急対応の場所は検証されますが、場所にはありません。
   

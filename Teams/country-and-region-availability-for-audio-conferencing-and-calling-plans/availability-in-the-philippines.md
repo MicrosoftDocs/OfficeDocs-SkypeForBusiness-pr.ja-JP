@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスを、フィリピンで利用できるようにする方法について説明します。
-ms.openlocfilehash: fddf9dcfdf8686feac7568e711ca24297ff58d5b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: a32517f2de48d345d723521142a051f6af8c7d4f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331069"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570941"
 ---
 # <a name="availability-in-the-philippines"></a>フィリピンでの利用可能性
 

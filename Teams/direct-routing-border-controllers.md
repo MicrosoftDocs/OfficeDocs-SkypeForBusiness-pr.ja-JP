@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: マイクロソフトは、選択した SBC ベンダーと提携して、SBC がダイレクト ルーティングと連携することを保証しています。
-ms.openlocfilehash: 73a9d24a507bd5d0c8448f444225f7dfe8943dde
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 5fa0cb728beed0f308a4d168cd149ef1e75e2809
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925490"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572247"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f00b585b1473a366769650c2a59f6dee2a9d3bea
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 186c83b82c396a21fe0098a561bcd4db13370140
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242621"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37566035"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲストアクセスを有効または無効にする
 ===================================================
@@ -66,7 +66,7 @@ Office 365 管理者は、組織のユーザー (具体的にはチーム所有�
        - **すべてのコンテンツを許可** - ゲストは、コンテンツ評価に関係なく、すべての Giphy をチャットに挿入することができるようになります。
        - **中** - ゲストは、Giphy をチャットに挿入することができますが、成人向けコンテンツの挿入についてはある程度制限されます。
        - **Strict** –ゲストはチャットに giphy を挿入できますが、成人向けコンテンツの挿入は制限されます。
-    - **会話でミームを使う**-この設定**** をオンにすると、ゲストが会話でミームを使用できるようになります。
+    - **会話でミームを使う**-**この設定を**オンにすると、ゲストが会話でミームを使用できるようになります。
     - **会話でステッカーを使用する** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。 
 
 

@@ -12,16 +12,15 @@ description: Microsoft Teams クライアントにサービスの品質 (QoS) �
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-voice
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91b761cafa15172ae3fb0126f5059408e1a5f7ca
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 28e6664fa43819493e5b9e02d182bcec44f00905
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246198"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572565"
 ---
 # <a name="set-qos-on-windows-clients"></a>Windows クライアントで QoS を設定する
 

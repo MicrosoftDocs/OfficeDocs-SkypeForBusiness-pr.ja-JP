@@ -14,18 +14,17 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 f1keywords:
 - ms.teamsadmincenter.callingpolicies.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e97f16097a30172a2ea56eb7fc9808042055f0e
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483685"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570272"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams の発信通話制限ポリシー
 ===================================

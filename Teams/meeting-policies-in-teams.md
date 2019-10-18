@@ -10,7 +10,6 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: f926704a256bbea551d4aaa32bd98ba87322930c
-ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
+ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37391446"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564968"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -391,5 +390,5 @@ Daniela は Amanda の会議でノートを取ることができ、Amanda はど
 
 [記事の全文](meeting-policies-in-teams.md)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Teams のメッセージポリシー](messaging-policies-in-teams.md)

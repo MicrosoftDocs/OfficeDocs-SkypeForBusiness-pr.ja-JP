@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Microsoft Teams 管理センターで PSTN ブロックユーザーレポートを使用して、PSTN 通話の発信をブロックされている組織内の Teams ユーザーの概要を理解する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d7bfff166eec388247b65760c3338cb892984f3
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 293d99507ae5b6b273ffb59c6d1544b4785a6c0c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131678"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564898"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams PSTN ブロックユーザーレポート
 
@@ -42,6 +41,6 @@ Microsoft Teams 管理センターの左のナビゲーションで、[**分析]
 |**4**   |[**列の編集**] を選択して表で列を追加または削除します。|
 |**5**   |全画面表示モードでレポートを表示するには、[**全画面**表示] を選択します。|
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

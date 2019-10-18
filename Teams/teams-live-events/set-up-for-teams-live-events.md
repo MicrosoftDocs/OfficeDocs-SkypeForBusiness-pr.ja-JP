@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: ネットワークの準備、ライセンスの割り当て、ユーザーに対してライブイベントの機能とスケジュールを有効にするためのポリシーの使用、サードパーティの配布プロバイダーのセットアップなど、Teams でのイベントに対してライブを設定する手順について説明します。
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047073"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570159"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -53,7 +52,7 @@ Teams で作成されたライブイベントは[、teams 用に組織のネッ�
 
     組織のニーズに合わせて変更できる設定を以下に示します。
 
-    (../media/teams-live-events-policies.png "Microsoft Teams 管理センターでのライブイベントのポリシー設定の")ライブイベントのポリシー設定画面ショット![のスクリーンショット] 
+    ![ライブイベントのポリシー設定のスクリーンショット](../media/teams-live-events-policies.png "Microsoft Teams 管理センターのライブイベントのポリシー設定のスクリーンショット") 
 
 |設定  |説明  |
 |---------|---------|
@@ -117,10 +116,10 @@ Teams で作成されたライブイベントは[、teams 用に組織のネッ�
 
 SDN または eCDN ソリューションをセットアップした後で、Teams でライブイベントのプロバイダーを構成することができます。 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 「 [Teams でライブイベントの設定を構成する」](configure-teams-live-events.md)を参照してください。
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams でライブ イベント設定を構成する](configure-teams-live-events.md)

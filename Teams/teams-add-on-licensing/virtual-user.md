@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,12 +17,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 無料の仮想ユーザーライセンスについて説明します。
-ms.openlocfilehash: 96ea4ed71eac8c6b67e4fd4c7964591dcef1f635
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: ebf98f852610dd5acfea2bcd65daca7b7541b5aa
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435127"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571171"
 ---
 # <a name="phone-systemvirtual-user-license"></a>電話システム–仮想ユーザーライセンス 
 

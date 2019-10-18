@@ -12,18 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68ae38caa6671b3b5b46d8f295947bdbd9527379
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675537"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564906"
 ---
-# <a name="meetings-first"></a>会議を最初に行う
+# <a name="meetings-first"></a>会議優先
 
 "会議の最初" は、チーム会議をできるだけ迅速に使い始めることを希望しているエンタープライズ Voip オンプレミスの Skype for Business Server 組織向けに最適化されています。 このような組織では、会議を最初に行うのは、チームの会議エクスペリエンスの優先順位を指定する、**孤島**モードの代わりとなります。
 

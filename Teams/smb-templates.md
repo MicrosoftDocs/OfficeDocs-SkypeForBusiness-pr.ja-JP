@@ -9,18 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
 description: 中小企業向けの Teams テンプレートを使ってみる
-ms.openlocfilehash: d9e626dad9bbdde655448d0a2052c394fff2ffb7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: acde79c2f7ce13088de1f80f968551ead2768fbf
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242966"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568669"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>中小企業向けの Teams テンプレートを使ってみる
 
@@ -172,7 +171,7 @@ Content-Type: application/json
 
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 - [チームを作成する](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)(プレビュー中)

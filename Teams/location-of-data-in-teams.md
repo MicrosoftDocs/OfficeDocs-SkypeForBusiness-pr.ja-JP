@@ -12,16 +12,15 @@ description: Microsoft Teams でデータが保存されている場所につい
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 832fa044379698eae3531c8b340dbd36f922198c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 559d711fa157397752c4bc3aa5b9f0d4a41a31f4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242106"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570679"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams のデータの場所
 
@@ -39,9 +38,9 @@ Teams 向けのインドおよび英国データ配信の開始について詳�
 
 Teams でのカナダにおけるデータ常駐の詳細については、Varun Sagar (バルン・サガール) 氏のブログ投稿記事「[Microsoft Teams Launches Canada Data Residency, Australia and Japan coming soon (Microsoft Teams によるカナダでのデータ常駐が開始、オーストラリアと日本では近日中に開始)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)」をご覧ください。 
 
-Teams 向けのオーストラリアおよび日本のデータ常駐サービスの発売の詳細については、「Sagar のブログ[](https://go.microsoft.com/fwlink/?linkid=867773)投稿を読む」を参照してください。 
+Teams 向けのオーストラリアおよび日本のデータ常駐サービスの発売の詳細については、「Sagar のブログ投稿を読む」を[参照してください。](https://go.microsoft.com/fwlink/?linkid=867773) 
 
-Teams 向けのフランスデータレジデンシーの起動の詳細については、「Sagar のブログ投稿を[](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466)読む」を参照してください。 
+Teams 向けのフランスデータレジデンシーの起動の詳細については、「Sagar のブログ投稿を読む」を[参照してください。](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466) 
 
 テナントのデータが格納されている領域を確認するには、 [Microsoft 365 管理センター](https://portal.office.com/adminportal/home) > の**設定** > **組織プロファイル**に移動します。 下にスクロールして [**データの場所**] に移動します。 
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: e3f595d54eb25a8c578680cf4ee7038b97a814a4
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: e720f36e00dcbea82fea7f0a4dc4d82a6043742f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329901"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572891"
 ---
 # <a name="toll-free-dialing-restrictions-in-thailand"></a>タイでのフリーダイヤル制限
 
@@ -46,7 +45,7 @@ ms.locfileid: "34329901"
 |携帯電話ネットワークの状態  <br/> |はい。 コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: 通話時間には、市内通話時間として課金されるローミングを除き、料金はかかりません。 モバイルアクセスの場合: すべてのモバイルネットワークからアクセスできます。  <br/> |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

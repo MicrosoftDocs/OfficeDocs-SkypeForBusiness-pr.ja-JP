@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 304a1f7061b8b693f457a27e4f211fcbddb3a497
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: e9d500f0c8c69eb0a0bbf1969622dc5f2e50941d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334912"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570856"
 ---
 # <a name="toll-free-dialing-restrictions-in-germany"></a>ドイツでのフリーダイヤル制限
 
@@ -46,7 +45,7 @@ ms.locfileid: "34334912"
 |携帯電話ネットワークの状態  <br/> | ○ 有料サービス料金で使用可能。 <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話の国際ローミングからのアクセスは保証されない。  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

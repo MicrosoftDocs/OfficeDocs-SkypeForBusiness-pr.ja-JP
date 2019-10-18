@@ -15,16 +15,15 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a75acd23f818615630ff4f6ca9e1890ae87cc9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: efa2dfadc760d99f87d8d69137992712c90b32ef
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483186"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567148"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
@@ -195,7 +194,7 @@ QoS を有効にするには、グループポリシーオブジェクトによ�
 
 7. [**フレームの詳細**] ウィンドウで、[IPv4] リスト項目を展開し、 **DSCP**で始まる行の末尾の値をメモします。
 
-    ![[フレームの詳細] ダイアログボックスの DSCP 設定を示すスクリーンショット。][(media/Qos-in-Teams-Image5.png "ネットワークモニター] の [フレームの詳細] ダイアログボックスで、DSCP 設定が強調表示されています。")
+    ![[フレームの詳細] ダイアログボックスの DSCP 設定を示すスクリーンショット。](media/Qos-in-Teams-Image5.png "[ネットワークモニター] の [フレームの詳細] ダイアログボックスで、DSCP 設定が強調表示されています。")
 
 この例では、DSCP 値は46に設定されています。 使用されるソースポートは50019であるため、これはボイスワークロードであることを示します。
 

@@ -9,8 +9,7 @@ ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 通話分析と通話品質ダッシュボードと、それらを使用して通話品質の問題を監視およびトラブルシューティングする場合について説明します。
-ms.openlocfilehash: 19652c8b6aa0b0b4dcd709aba107d17e989fd0d4
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 70efd7f17189d9aac2236383a07cfc5fc0a37096
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328419"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571771"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通話分析および通話品質ダッシュボード
 
@@ -96,7 +95,7 @@ CQD の位置情報-強化されたレポートでは、ユーザーの建物内
 
 CQD の詳細については、「 [Microsoft teams および skype For Business online の通話品質ダッシュボードをオンにして使用する](turning-on-and-using-call-quality-dashboard.md)」と「 [Microsoft teams および Skype for Business Online の通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)」を参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ビデオ: 通話品質の概要](https://aka.ms/teams-quality)
 

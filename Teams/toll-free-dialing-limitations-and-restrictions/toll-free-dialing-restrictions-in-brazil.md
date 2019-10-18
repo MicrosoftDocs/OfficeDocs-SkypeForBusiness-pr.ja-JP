@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 112b259c479fd8ca74098753a93860070ebcee33
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faef2c39b49e403e3d4f3c86c3226345d8865c3c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300834"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571903"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>ブラジルでのフリーダイヤル制限
 
@@ -47,10 +46,10 @@ ms.locfileid: "34300834"
 |コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: 通話時間は課金されない。  <br/> |
    
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 
   
  

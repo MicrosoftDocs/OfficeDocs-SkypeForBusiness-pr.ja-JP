@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams でユーザーの会議 ID をリセットし、会議の更新と移行ツールへのリンクを取得する手順について説明します。 '
-ms.openlocfilehash: 6062eb69f6ef27462a3ea9edc47f5e5647ef6d65
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 894761811bfc9c353c7a145c83c7a201a587f1e2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344586"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568369"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの会議 ID をリセットする
 
@@ -55,7 +55,7 @@ ms.locfileid: "34344586"
 
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
-- 電話会議のセクションで、[電話会議情報を**メールで送信**する] をクリックすると、会議 ID、ダイヤルイン電話番号など、会議のすべての情報をメール**** でユーザーに送信できます。 PIN は送信されません。
+- 電話会議**のセクションで**、[電話会議情報を**メールで送信**する] をクリックすると、会議 ID、ダイヤルイン電話番号など、会議のすべての情報をメールでユーザーに送信できます。 PIN は送信されません。
     
 - 会議 ID には7桁の数字が含まれ、その長さを変更することはできません。
     

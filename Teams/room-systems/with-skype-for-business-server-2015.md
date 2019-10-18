@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: このトピックでは、Skype for Business Server で Microsoft Teams のルームを展開する方法について説明します。
-ms.openlocfilehash: 0661a19b3569cbfde5edfb5ceb631fab7282d302
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 25a9759d4f61082f30a54b130d52d8fef0f9d299
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774948"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573475"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Microsoft Teams のルームを Skype for Business Server に展開する
   

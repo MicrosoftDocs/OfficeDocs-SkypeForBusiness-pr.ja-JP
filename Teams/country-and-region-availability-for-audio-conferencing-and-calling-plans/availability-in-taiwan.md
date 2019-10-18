@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、台湾で利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
-ms.openlocfilehash: aad0f1a1b435e2f240eb69cc1aeba94626f5302f
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 1824853b31da73578963c50f0e768fbf4ebbbed9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331181"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572313"
 ---
 # <a name="availability-in-taiwan"></a>台湾での利用可能性
 

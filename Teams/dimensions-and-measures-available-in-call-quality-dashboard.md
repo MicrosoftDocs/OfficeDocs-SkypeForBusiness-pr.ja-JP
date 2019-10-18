@@ -8,7 +8,8 @@ ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボードで使用される寸法と測定値に関する詳細情報を取得します。
-ms.openlocfilehash: 7683ebdf4743db1ad8798817c24fe926bd959815
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328408"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572258"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用可能な寸法と測定値
 
@@ -290,7 +291,7 @@ CQD の寸法と測定の多くは、first または second というラベル�
 | Poor  | Boolean  | 良好または低品質として分類される十分なデータがストリームに含まれており、ストリームが低品質として分類される場合は True です。 そうでない場合は False になります。   |   |
 | Good  | Boolean  | 良好または低品質として分類される十分なデータがストリームに含まれており、ストリームが良好として分類されている場合は True です。 そうでない場合は False になります。   |   |
 | Unclassified  | Boolean  | 良好または低品質として分類される十分なデータがストリームに含まれている場合は False です。 それ以外の場合は True。 <br/>**例値:** 1 |   |
-| OnePercent の PacketLoss  | Boolean  | パケット損失が 1% を超えた場合は True、そうでない場合は False。  |   |
+| OnePercent の PacketLoss  | Boolean  | パケット損失が1% を超えた場合は True、そうでない場合は False。  |   |
 |**年齢**|||
 | First Feedback Rating  | ユーザー評価 (1 - 5)  | 第 1 のエンドポイントでのストリームに関連した通話に対する 1 から 5 までの点数による評価 (5 が最高)。0 はユーザーに実施された通話評価アンケートに対して、ユーザーのエクスペリエンスの評価がなかったことを示します。<br/> **値の例:** 5 | &bull;第1のエンドポイントにアンケートは表示されませんでした  |
 | Second Feedback Rating  | ユーザー評価 (1 - 5)  | 第 2 のエンドポイントでのストリームに関連した通話に対する 1 から 5 までの点数による評価 (5 が最高)。0 はユーザーに対して実施された通話評価アンケートに対して、ユーザーのエクスペリエンスの評価がなかったことを示します。<br/> **値の例:** 5 | &bull;第2のエンドポイントにアンケートは表示されませんでした   |
@@ -392,8 +393,7 @@ CQD の寸法と測定の多くは、first または second というラベル�
 | 第1のエンドポイントの製品名|String|第1のエンドポイントの製品名 (Skype for Business または Microsoft Teams のいずれか)。|
 | 第2のエンドポイントの製品名|String|第2のエンドポイントの製品名 (Skype for Business または Microsoft Teams のいずれか)。|
 | 第1の UserType|列挙文字列|第1のエンドポイントのユーザーの種類。 <br/> 指定**可能な値:** ユーザー、サーバー、匿名、アプリケーション、PSTN、ボイスメール、不明 <br/> <br/>**Unknown** -受信した情報に基づいて UserType を判断できない場合の既定値です。 <br/>**Pstn-Pstn**ユーザー。 <br/>**匿名**-Teams ユーザーまたは Skype for business の利用者。 <br/>**アプリケーション**-ボット。 <br/>**ユーザー** -AAD ユーザーは、Skype For business ユーザーまたは Teams ユーザーのいずれかにすることができます。 <br/>**サーバー** -会議の場合は、少なくとも一方がサーバーです。 <br/>**ボイスメール**-エンドポイントはボイスメールサービスによって応答されました。||
-| 第2の UserType|列挙文字列|第2のエンドポイントのユーザーの種類。 <br/> 指定**可能な値:** ユーザー、サーバー、匿名、アプリケーション、PSTN、ボイスメール、不明 <br/> <br/>**Unknown** -受信した情報に基づいて UserType を判断できない場合の既定値です。 <br/>**Pstn-Pstn**ユーザー。 <br/>**匿名**-Teams ユーザーまたは Skype for business の利用者。 <br/>**アプリケーション**-ボット。 <br/>**ユーザー** -AAD ユーザーは、Skype For business ユーザーまたは Teams ユーザーのいずれかにすることができます。 <br/>**サーバー** -会議の場合、少なくとも1つはサーバーです。
-<br/>**ボイスメール**-エンドポイントはボイスメールサービスによって応答されました。||
+| 第2の UserType|列挙文字列|第2のエンドポイントのユーザーの種類。 <br/> 指定**可能な値:** ユーザー、サーバー、匿名、アプリケーション、PSTN、ボイスメール、不明 <br/> <br/>**Unknown** -受信した情報に基づいて UserType を判断できない場合の既定値です。 <br/>**Pstn-Pstn**ユーザー。 <br/>**匿名**-Teams ユーザーまたは Skype for business の利用者。 <br/>**アプリケーション**-ボット。 <br/>**ユーザー** -AAD ユーザーは、Skype For business ユーザーまたは Teams ユーザーのいずれかにすることができます。 <br/>**サーバー** -会議の場合、少なくとも1つはサーバーです。 <br/>**ボイスメール**-エンドポイントはボイスメールサービスによって応答されました。||
 |**Datapair**|||
 | Network Connection Detail Pair  | ペアの列挙 <br/>**指定可能な値:** <br/> WiFi : WiFi <br/> WiFi : 有線 <br/> 有線 : WiFi <br/> 有線 : 有線 <br/> MobileBB : MobileBB <br/> MobileBB : その他 <br/> MobileBB : トンネル <br/> MobileBB : WiFi <br/> MobileBB : 有線 <br/> その他 : その他 <br/> その他 : WiFi <br/> その他 : 有線 <br/> トンネル : トンネル <br/> トンネル : WiFi <br/> トンネル : 有線 <br/> : MobileBB <br/> : その他 <br/> : トンネル <br/> : WiFi <br/> : 有線 <br/> :  | 第 1 および第 2 のエンドポイントに関するネットワーク接続詳細のペア。  | &bull;エンドポイントのネットワーク接続の種類が不明でした。 これは、通話が確立できなかった場合に発生する可能性があります。   |
 | User Agent Category Pair  | ペアの列挙  | 第 1 および第 2 のエンドポイントのユーザー エージェント カテゴリのペア。 <br/> **値の例:** AV-MCU: OC  | &bull;エンドポイントのユーザーエージェントが既知の型ではありませんでした  |
@@ -633,7 +633,7 @@ CQD で使用される文字列は、多くの場合、データファイルか�
 
 複数の寸法値と測定値をフィルターとして使うこともできます。 クエリでフィルターを使用して、ディメンションや測定値を選んだときと同じように、クエリに情報を追加したり、含めることができます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
 
