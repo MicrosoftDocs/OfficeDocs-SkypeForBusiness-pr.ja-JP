@@ -62,10 +62,10 @@ Teams の入手方法については[Microsoft Teams へのアクセス権を取
 
 * * *
 
-認定プログラムへの参加を希望するベンダーの場合、要件と利用可能なプログラムについては[参加方法](https://docs.microsoft.com/ja-JP/skypeforbusiness/certification/how-to-join)をご覧ください。
+認定プログラムへの参加を希望するベンダーの場合、要件と利用可能なプログラムについては[参加方法](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join)をご覧ください。
 
 ## <a name="additional-resources"></a>追加リソース
 
 [Skype for Business および Microsoft Teams 認定プログラム](https://docs.microsoft.com/SkypeForBusiness/certification/overview)について理解します。
 
-[Microsoft Teams の電話と認定デバイスについて。](https://products.office.com/ja-JP/microsoft-teams/across-devices/devices)
+[Microsoft Teams の電話と認定デバイスについて。](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
