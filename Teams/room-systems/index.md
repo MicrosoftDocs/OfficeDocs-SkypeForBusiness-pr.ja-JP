@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Microsoft Teams 室の展開に関する考慮事項、およびシステムの展開と管理の方法について考慮する必要があります。
 ms.openlocfilehash: fb628ba4011a7f738d7082ae8281aa990a82b66b
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36428047"
 ---
 <h2>Microsoft Teams Rooms</h2>
@@ -60,7 +60,7 @@ ms.locfileid: "36428047"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>計画</h3>
+                        <h3>プラン</h3>
                     </div>
                 </div>
             </div>
@@ -111,4 +111,4 @@ ms.locfileid: "36428047"
 これらの記事は、これらのデバイスの計画、展開、管理を担当するユーザーを対象としており、システムのユーザーには使用できません。 Microsoft Teams のルーム[オンラインヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)については、さらに詳しく説明します。
 
 > [!NOTE]
-> [Skype Room System](../room-systems/lrs-migration.md)(旧 Lync Room System) と Microsoft Teams のルームは、依存関係と展開手順が異なるさまざまな製品です。
+> [Skype Room system](../room-systems/lrs-migration.md) (旧 Lync Room system) と Microsoft Teams のルームは、依存関係と展開手順が異なるさまざまな製品です。

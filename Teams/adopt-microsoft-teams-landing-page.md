@@ -20,15 +20,15 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36483413"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
-小規模ビジネスの場合、またはチャット、teams & チャネル、会議などで開始するチームをロールアウトする場合は、この[ガイド](get-started-with-teams-quick-start.md)を使用して、すぐに作業を開始できるように設計されています。 ハイブリッドまたはオンプレミスの Skype for Business の構成を使用している大規模な組織の場合、または音声機能 (Office 365 通話プランや電話システムなど) を展開する場合は、「はじめに」のガイドをご覧ください。以下のガイダンスを**** 参照してください。
+小規模ビジネスの場合、またはチャット、teams & チャネル、会議などで開始するチームをロールアウトする場合は、この[ガイド](get-started-with-teams-quick-start.md)を使用して、すぐに作業を開始できるように設計されています。 ハイブリッドまたはオンプレミスの Skype for Business の構成を使用している大規模な組織の場合、または音声機能 (Office 365 通話プランや電話システムなど) を展開する場合は、「はじめに」のガイドをご覧ください。以下**のガイダンスを**参照してください。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -157,8 +157,8 @@ ms.locfileid: "36483413"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">始点</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">はじめに</a></p>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">開始</a></h3>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">使用を開始する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">チームとチャネルについて理解する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">最初のチームを作成する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">文化と組織の準備の評価</a></p>
@@ -177,7 +177,7 @@ ms.locfileid: "36483413"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">シミュレーション</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">試用</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">主導者プログラムを作成する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">クイック スタートのガバナンス</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">使用例を定義する</a></p>
@@ -198,7 +198,7 @@ ms.locfileid: "36483413"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">尺度</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">スケール</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">結果と成功の定義</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">フィードバックとレポートを最適化する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">啓発とトレーニングの実施</a></p>
