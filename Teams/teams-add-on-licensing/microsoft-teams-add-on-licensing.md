@@ -19,10 +19,10 @@ ms.custom:
 - LIL_Placement
 description: アドオンライセンス、各ライセンスで利用できる機能、製品の購入方法、および既存の通信事業者との使用方法について説明します。 Office 365、通信クレジット、および通話プランの価格と計画の詳細については、こちらを参照してください。
 ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37571204"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams アドオン ライセンス

@@ -15,10 +15,10 @@ localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype for Business Server 2015 には、2つのデータセンターにあるフロントエンドプールを組み合わせることによって、障害回復の手段が用意されています。
 ms.openlocfilehash: bb89116d1cedf4eea5e888c0b8021b009688324f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "34288643"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)

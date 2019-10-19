@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: System Center Operations Manager と連携するように Skype for Business Server 2019 インフラストラクチャを構成する方法について説明します。'
-ms.openlocfilehash: 5a0415c0447127b0da2b7670e857dbf1a6185794
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e08debc645665d8be69ce062930d64421b093433
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221884"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37318959"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 管理パックを使用して Skype for Business Server 2019 を管理する
  
@@ -83,7 +83,9 @@ Skype for Business Server 2019 の監視パックには、次のファイルが�
 ## <a name="whats-new"></a>新機能
 
 以下の機能は、Skype for Business Server 2019 管理パックの新機能です。
-  
+
+- **2019 年[9 月の更新プログラム](https://www.microsoft.com/download/details.aspx?id=57511)の変更点**一部の通知で特殊文字が削除されています。 特殊文字が SCOM コマンドチャネル通知機能に干渉している場合もあります。
+
 - **クライアントサインインの自動検出**Skype for Business Server 2019 にサインインするクライアントアプリケーションは、サインインするために自動的にサーバーを検出します。 代理トランザクションは、自動検出が正しく構成されていることの確認をサポートするようになりました。
     
 - カスタマイズされた**代理トランザクションの実行間隔**ウォッチャーノードのセットアッププロセスを簡単にするために、代理トランザクションはユーザーアカウントを共有できます。 これにより、テストがシリアル化されて競合を避けるためにテストが実行される頻度が遅くなります。 既定では、代理トランザクションは15分ごとに実行され、すべてのテストが実行されるようになります。 ユーザーごとに複数のユーザーを使用することを選択した場合、またはユーザーあたりのテスト数が少なくなると、実行の間隔も短縮されます。

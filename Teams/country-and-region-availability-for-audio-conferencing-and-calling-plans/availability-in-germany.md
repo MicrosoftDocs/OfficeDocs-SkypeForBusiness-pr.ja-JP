@@ -25,10 +25,10 @@ ms.custom:
 - Calling Plans
 description: ここでは、Skype for Business の Office 365 サービスと、ドイツで利用できる Microsoft Teams について説明します。
 ms.openlocfilehash: a10fc7e69f63842aa67ee208b1f27528debb956d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37569884"
 ---
 # <a name="availability-in-germany"></a>ドイツでの利用可能性

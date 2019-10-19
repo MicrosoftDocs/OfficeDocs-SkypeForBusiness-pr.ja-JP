@@ -21,10 +21,10 @@ f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
 ms.openlocfilehash: cf8aa0de368803fa957667e239ba6ed0b161c0cb
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37517045"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 における電話会議
@@ -84,18 +84,18 @@ Skype for Business または Microsoft Teams の電話会議をセットアッ�
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>専用の電話番号を取得するには、どうすればよいですか?
 専用の電話会議の電話番号は、お客様が取得して組織に割り当てることができるサービス番号です。 次の3つの方法のいずれかで、電話会議用に専用の有料電話番号と無料電話番号を取得できます。
 
-- **Skype for Business 管理センターを使用します。** 一部の国/地域では、Skype for Business 管理センターを使って、会議ブリッジの番号を取得できます。 「[サービスの電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」をご覧ください。
+- **Skype for Business 管理センターを使用する。** 一部の国/地域では、Skype for Business 管理センターを使って、会議ブリッジの番号を取得できます。 「[サービスの電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」をご覧ください。
     
-- **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社から Office 365 に、既存の電話番号を移行することもできます。 そのための詳細については、「 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)する」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。  
+- **既存の番号を移行する。** 既存の番号を現在のサービス プロバイダーまたは電話会社から Office 365 に移行または転送します。 詳細については、[電話番号を Office 365 に移行する](transfer-phone-numbers-to-office-365.md) または [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) を参照してください。  
   
-- **新規の番号を取得するには、リクエスト フォームを使用してください。** (お住まいの国/地域によっては)、Skype for Business 管理センターを使用して新しい電話番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。
+- **新しい番号には申請書を使用します。** 国または地域によっては Skype for Business 管理センターを使用して新しい電話番号を取得することが出来ない場合があります。または、特定の電話番号またはエリアコードが必要です。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。
 
 ## <a name="how-do-you-set-it-up"></a>設定方法を教えてください。
 ユーザーに対して電話会議をセットアップする場合は、「 [Microsoft Teams の電話会議をセットアップ](set-up-audio-conferencing-in-teams.md)する」または「 [Skype for business Online の電話会議](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)をセットアップする」を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 
-[Skype for Business Online のセットアップ](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
 [Microsoft Teams での電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md) 
 

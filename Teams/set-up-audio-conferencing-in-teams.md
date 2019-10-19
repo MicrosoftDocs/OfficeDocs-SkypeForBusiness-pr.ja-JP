@@ -22,10 +22,10 @@ ms.custom:
 - LIL_Placement
 description: '電話会議への参加に電話を使用する必要がある、社内のユーザーに対してダイヤルインまたは電話会議をセットアップする方法について説明します。 '
 ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37571262"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議をセットアップする
@@ -67,7 +67,7 @@ ms.locfileid: "37571262"
     
 - **既存のサービス番号を移植**します。 現在のサービスプロバイダーまたは電話会社から Office 365 に既存の電話番号を移行または転送するには、 この方法の詳細については、「[Office 365 に電話番号を移行](transfer-phone-numbers-to-office-365.md)」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。  
   
-- **新しい番号には要求フォームを使用**します。 場合によっては (お住まいの国/地域によっては)、Microsoft Teams 管理センターを使用して新しいサービス番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。 
+- **新しい番号には要求フォームを使用**します。 場合によっては (お住まいの国/地域によっては)、Microsoft Teams 管理センターを使用して新しいサービス番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。 
     
 ## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>手順 4: 会議ブリッジにサービス番号を割り当てる
 <a name="__top"> </a>

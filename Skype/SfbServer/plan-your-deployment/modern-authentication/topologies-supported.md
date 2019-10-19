@@ -12,12 +12,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: この記事では、どのオンラインおよびオンプレミス トポロジが Skype for Business での先進認証でサポートされるかを、各トポロジに適用されるセキュリティ機能とともに一覧表示します。
-ms.openlocfilehash: 04dc6933fb63db7ebaec4f2c346e3cfbc60f9e24
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d66790d2c471af29ed5c3f886393b1cd33f2b6a
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297338"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "34408631"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Skype for Business topologies supported with Modern Authentication
  
@@ -77,7 +77,7 @@ MA のもう 1 つの重要な部分は、ユーザーの認証 (authN) と承�
 |トポロジの名前  <br/> |例  <br/> |説明  <br/> |サポート対象  <br/> |
 |:-----|:-----|:-----|:-----|
 |クラウドのみ  <br/> |![MA トポロジのある SFB をサポート (クラウド限定)。](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)ユーザーの所属/メールボックスの場所: オンライン   <br/> |MA は EXO と SFBO の両方でオンです。  <br/> このため、認証サーバーは Azure AD です。  <br/> |多要素認証 (MFA)、クライアント証明書を使用した認証 (CBA)、Intune での条件付きアクセス (CA)/モバイル アプリケーション管理 (MAM)。 \*  <br/> |
-|オンプレミスのみ  <br/> |![MA トポロジがある SFB をサポート (オンプレミス限定)。](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)ユーザーの所属/メールボックスの場所: オンプレミス  <br/> |MA が SFB オンプレミスでオンになります。  <br/> このため、認証サーバーは ADFS です。  <br/> 構成の詳細については、[この記事](https://technet.microsoft.com/en-us/library/mt710548.aspx)を参照してください。 <br/> |MFA (Windows デスクトップのみ。モバイル クライアントはサポートされません)。Exchange 統合の機能はサポート対象外です。  <br/> |
+|オンプレミスのみ  <br/> |![MA トポロジがある SFB をサポート (オンプレミス限定)。](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)ユーザーの所属/メールボックスの場所: オンプレミス  <br/> |MA が SFB オンプレミスでオンになります。  <br/> このため、認証サーバーは ADFS です。  <br/> 構成の詳細については、[この記事](https://technet.microsoft.com/en-us/library/mt710548.aspx)を参照してください。 <br/> |MFA (Windows デスクトップのみ-モバイルクライアントはサポートされません)。 Exchange の統合機能はありません。  <br/><p> **この方法はお勧めしません。次のページをご覧ください。**[https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview)<p/> |
    
 > [!IMPORTANT]
 > プロンプトの数を減らせるように、Skype for Business と Exchange (およびその他のオンライン上の同等製品) にわたり MA の状態が同じであることを推奨します。 

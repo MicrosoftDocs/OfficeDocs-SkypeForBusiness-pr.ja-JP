@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: 入力-CcUpdate コマンドレットは、Skype for Business Cloud Connector Edition host server をメンテナンスモードにして、更新プロセスを準備します。 このアプライアンスは、すべての既存の通話が完了しますが、新しい通話は拒否されます。
-ms.openlocfilehash: be57261b35cf5b5e6e8118c2a751eee1c8b5f2a7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 入力-CcUpdate コマンドレットは、Skype for Business Cloud Connector Edition host server をメンテナンスモードにして、更新プロセスを準備します。 アプライアンスは直ちにすべてのサービスを停止して、進行中の通話を終了し、新しい通話を拒否します。
+ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287441"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "34740059"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
- 
-入力-CcUpdate コマンドレットは、Skype for Business Cloud Connector Edition host server をメンテナンスモードにして、更新プロセスを準備します。 このアプライアンスは「放電」されています。つまり、すべての既存の通話は完了しますが、新しい通話は拒否されます。 
+
+入力-CcUpdate コマンドレットは、Skype for Business Cloud Connector Edition host server をメンテナンスモードにして、更新プロセスを準備します。 アプライアンスは直ちにすべてのサービスを停止して、進行中の通話を終了し、新しい通話を拒否します。
   
 ```
 Enter-CcUpdate

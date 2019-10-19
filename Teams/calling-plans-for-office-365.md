@@ -25,10 +25,10 @@ ms.custom:
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
 ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37516749"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 の通話プラン
@@ -91,7 +91,7 @@ Skype for Business および Microsoft Teams の他のユーザーへの通話�
    
 ## <a name="related-topics"></a>関連トピック
 
-- [Skype for Business Online のセットアップ](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
 - [クラウド ボイスメールのセットアップ - Admin ヘルプ](set-up-phone-system-voicemail.md)
     

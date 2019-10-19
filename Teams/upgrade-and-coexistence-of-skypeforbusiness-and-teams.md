@@ -20,10 +20,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d3c2b53767cb9bbaff3cbe4f2aeacea36fcc01d2
-ms.sourcegitcommit: f053b3a51a89751453101978e265efefcb30849c
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36437490"
 ---
 ![プロジェクト定義ステージを強調したアップグレードの図](media/upgrade-banner-project-definition.png "プロジェクト定義ステージに重点を置いたアップグレードの段階")
@@ -59,7 +59,7 @@ Skype for Business から Teams へのアップグレードに関連した、さ
 
 組織全体でTeams に移行することが考えられない場合は、**アイランド**共存モードで Skype for Business を残した状態で Teams のパイロット使用を開始することができます。 追加の共存モード (**Skype for Business と Teams でのコラボレーション**および**Skype for Business と Teams でのコラボレーションおよび会議**) が今後数か月間で徐々に完全に利用できるようになるとともに、Skype for Business をお客さまの組織での統一されたコミュニケーション ソリューションとして維持しながら、Teams をグループ コラボレーションのソリューションとして完全に導入し始めることもできます。 これは、Skype for Business Server (オンプレミスまたはハイブリッド) を使用しているユーザーや、Teams に向かう中で共存での使用期間が長くなるような極めて複雑な状況にあるユーザーに対して、マイクロソフトが推奨するパスです。
 
-![Skype For business から Teams へのアップグレード文書パーツのスクリーンショット]Skype for (media/upgrade_journeys_building_block.png "business から teams へのアップグレード文書パーツのスクリーンショット。チームのコラボレーション&ndash;のみモードで、チームのコラボレーションと会議モード、孤島モード、チーム専用モード、skype for business で構成される skype for business で構成されています。ビジネス&ndash;専用モード。")
+![Skype for Business から Teams へのアップグレード文書パーツのスクリーンショット](media/upgrade_journeys_building_block.png "Skype for Business から Teams へのアップグレード文書パーツのスクリーンショット。 teams の&コラボレーションと会議モード、Skype for Business (Teams のコラボレーションと会議モード、島々モード、チーム専用モード、Skype for business で構成されています。ビジネス&・モード。")
 
 次の表で、共存モードとアップグレード モードを比較します。
 
@@ -99,7 +99,7 @@ Teams は組織内のすべてのユーザーに展開され、**アイランド
 
 段階的なアップグレード手順の例は次の図に示されています。
 
-![段階的なアップグレードの過程の例を示します]。(media/upgrade_journey_gradual_upgrade.png "段階的なアップグレードでは、cohorts ユーザーは最初に、評価のために孤島モードで Teams を使用し、その後、Skype For business を使用して早期に導入するためのさまざまなアップグレードモードでチームを使用しています。一部の cohorts はチーム専用モードに移行しますが、ユーザーの1つはチームのグループ作業と会議モードで Skype for Business を使用したままです。")
+![段階的なアップグレードの過程の例を示します。](media/upgrade_journey_gradual_upgrade.png "段階的なアップグレードでは、cohorts ユーザーは最初に、評価のために孤島モードで Teams を使用し、その後、Skype for Business を使用して早期に導入するためのさまざまなアップグレードモードでチームを使用しています。一部の cohorts はチーム専用モードに移行しますが、ユーザーの1つはチームのグループ作業と会議モードで Skype for Business を使用したままです。")
 
 Teams は評価のために **アイランド** モードで組織内に展開されてから、それぞれのユーザー グループに対して異なる共存およびアップグレード モードに移行します。 たとえば、あるユーザーのグループでは**アイランド** モードが有効になり、別のグループでは **Skype for Business と Teams でのコラボレーションおよび会議**モードが有効になり、一方 3 番目のユーザー グループは **Skype for Business と Teams でのコラボレーションのみの**モードが有効になります。
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 障害回復の場合、Skype for Business Server には、1つのプールが停止した場合にフェイルオーバー機能を備えたプールペアリングが用意されています。
-ms.openlocfilehash: 15df85790cd7959b88126c5e6bb0e7fd99b836e1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3999b7b8c2dd9b5eea942779f09924c6b5a79210
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297506"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37341933"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Skype for Business Server のフロントエンドプールの障害回復
  
@@ -56,7 +56,7 @@ Skype for Business では、障害復旧のサポート対象に存続可能ブ�
   
 プールのフェールオーバーおよびフェールバックで、エンジニアリング上想定される復旧時点目標 (RPO) は 5 分です。 これは、障害が発生したときに、バックアップ サービスのレプリケーション待機時間に起因してデータが消失する可能性がある時間を表すものです。 たとえば、プールが午前10:00 時に停止し、RPO が5分である場合、9:55 A.M. の間にプールに書き込まれたデータ また、10:00 はバックアッププールにレプリケートされておらず、失われる可能性があります。
   
-このドキュメントに示す RTO と RPO の数値はすべて、待ち時間の少ない高速接続で 2 つのサイトが結ばれている同じ地域内に 2 つのデータ センターが設置されていることを前提としています。 どちらの数値も、データ レプリケーションにバックログがない事前定義済みのユーザー モデルに対して、同時アクティブ ユーザーが 40,000 人と Lync に対して有効になっているユーザーが 200,000 人存在するプールを対象として測定を行った結果です。 これらの数値は、パフォーマンス テストおよび検証に基づいて変更される可能性があります。
+このドキュメントに示す RTO と RPO の数値はすべて、待ち時間の少ない高速接続で 2 つのサイトが結ばれている同じ地域内に 2 つのデータ センターが設置されていることを前提としています。 これらの番号は、4万で同時にアクティブになっているユーザーと、Skype for Business に対して有効になっている20万ユーザーが、データレプリケーションにバックログが存在しない場合、事前に定義されたユーザーモデルに基づいて測定されます。 これらの数値は、パフォーマンス テストおよび検証に基づいて変更される可能性があります。
   
 ## <a name="central-management-store-failover"></a>中央管理ストアのフェールオーバー
 

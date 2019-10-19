@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Skype for Business Server または Lync 2013 の更新プログラムを検索して管理します。 詳細情報を入手して更新プログラムをダウンロードするには、リンクを使用します。
-ms.openlocfilehash: 8e0e7c2e42c6b778c219cb31dc3460ea8e220bb8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 121c91b4882eb7509dfd19ca2c6261720a4e7fc3
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286797"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "35746450"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business のダウンロードと更新プログラム
 
@@ -36,6 +36,7 @@ _Skype For business のダウンロードと更新_の web ページは、1回�
         - [Lync 2010 Attendee の更新プログラム](sfb-client-updates.md#lync-2010-attendee-updates)
 
 - 以下のセクションを含む[Skype For Business Server の更新プログラム](sfb-server-updates.md)
+    - [Skype for Business Server 2019 の更新履歴](sfb-server-updates.md#skype-for-business-server-2019-update-history)
     - [Skype for Business Server 2015 更新履歴](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Lync Server 2013 更新履歴](sfb-server-updates.md#lync-server-2013-update-history)
         - [Lync Server 2013 開発ツール](sfb-server-updates.md#lync-server-2013-dev-tools)
@@ -51,4 +52,4 @@ _Skype For business のダウンロードと更新_の web ページは、1回�
         - [グループ チャット](sfb-server-updates.md#group-chat)
         - [試用版ソフトウェア](sfb-server-updates.md#trial-software)
     - [その他の情報](sfb-server-updates.md#additional-information)
-    - [関連トピック](sfb-server-updates.md#related-topics)
+    - [関連項目](sfb-server-updates.md#related-topics)

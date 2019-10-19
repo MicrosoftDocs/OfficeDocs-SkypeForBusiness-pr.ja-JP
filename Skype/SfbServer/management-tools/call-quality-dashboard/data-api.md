@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: '概要: 通話品質ダッシュボードの次第 API について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: f74f581a3d46ba7cf75daf92df5ade16dab510d0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: '概要: 通話品質ダッシュボードのデータ API について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
+ms.openlocfilehash: 016cc1be9f5cd5506f8ee7d8ddbe2765e0015ffd
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274801"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36571921"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボード (CQD) のデータ API
  
-**概要:** 通話品質ダッシュボードの次第 API について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。
+**概要:** 通話品質ダッシュボードのデータ API について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。
   
 データ API は、Skype for Business Server の通話品質ダッシュボードへのプログラムによるアクセスを提供します。
   

@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec568123f92c188d8642f6e5c8907485dc6de05
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 14f41c30c00c871ba4a0a96717fabba422cf85dd
+ms.sourcegitcommit: 14d342644d94f75396cf38bfe787cab408e1fb77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565070"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37590139"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 
@@ -57,11 +57,17 @@ ms.locfileid: "37565070"
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>モバイルデバイス上の Teams アプリのハードウェア要件
 
-Microsoft Teams は次のモバイルプラットフォームで使用できます。
+Teams は以下のモバイルプラットフォームで使用できます。
 
-- Android-Android 4.4 以降が必要です
+- Android-Android 5.0 以降が必要です。 Android フォンやタブレットと互換性があります。
 
-- iOS-iOS 10.0 以降が必要です。 IPhone、iPad、iPod touch に対応しています。
+  サポートは、最新の4つの主なバージョンの Android に制限されています。 Android の新しいメジャーバージョンがリリースされると、新しいバージョンと以前の3つのバージョンが正式にサポートされます。
+
+- iOS-iOS 10.0 以降が必要です。 IPhone、iPad、iPod touch に対応しています。 
+
+  サポートされているのは、iOS の最新の2つのメジャーバージョンに制限されています。 IOS の新しいメジャーバージョンがリリースされると、iOS の新しいバージョンと以前のバージョンは正式にサポートされます。
+
+Teams で最高のエクスペリエンスを実現するには、iOS と Android の最新バージョンを使用します。
 
 ## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>仮想デスクトップインフラストラクチャ (VDI) 環境での Teams アプリのハードウェア要件
 

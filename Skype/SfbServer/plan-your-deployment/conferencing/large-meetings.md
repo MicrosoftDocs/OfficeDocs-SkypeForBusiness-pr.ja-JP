@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '概要: このトピックでは、Skype for Business Server で大規模な会議を実装および管理するためのベストプラクティスについて説明します。'
-ms.openlocfilehash: 0ed044a811d4a482690be13c8626f93089aa24a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277322"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "34696044"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Skype for Business Server での大規模な会議の計画
  
@@ -189,13 +189,23 @@ Skype for Business Server がサポートできる会議のサイズは、会議
 > [!NOTE]
 > Skype for Business Server の大規模な会議をサポートするには、 **AllowLargeMeetings**設定を true に設定する必要があります。 この設定が true に設定されていると、ユーザーが会議に参加するときに、大規模な会議に合わせて Skype for Business のエクスペリエンスが最適化されます。 特に、大規模な会議では、Skype for Business には、クライアントと Skype for Business Server 両方のパフォーマンスのボトルネックである、完全な会議参加者リストの初回または更新プログラムは表示されません。 代わりに、Skype for Business には、ユーザーに関する情報と、会議の発表者の一覧のみが表示されます。 Skype for Business には、大規模な会議で利用可能な参加者の合計数が表示されたままになります。
 
--AllowLargeMeetings $true 設定を行うと、次のようになります。·出席者名簿を非表示にします。 ·IM ウィンドウのエラーを無効にします。
-·マルチパーティビデオを無効にします。
-·出席者を発表者に昇格させる機能を無効にします。 事前計画して、会議の前にすべての発表者を宣言する必要があります。
-·個々の出席者のミュートを解除する機能を無効にします。
-·ビデオメディアのロック機能を出席者に適用する機能を無効にします。
-·アクティブな大規模な会議で DTMF コマンドの実行に責任がある個人用の仮想アシスタンスが見つからないため、ユーザーの PSTN ダイヤルは * 6 を使ってミュートを解除できません。
-·発表者/開催者が会議を予約していて、すべてのユーザーをミュートにする必要がある場合 ("すべてミュート")、PSTN ユーザーは通話中にミュートされ、ミュートを解除することはできません。
+**AllowLargeMeetings $true**の設定では、次のことが行われます。
+
+- 出席者名簿を非表示にします。 
+
+- IM ウィンドウのエラーを無効にします。
+
+- マルチパーティビデオを無効にします。
+
+- 出席者を発表者に昇格させる機能を無効にします。 事前計画して、会議の前にすべての発表者を宣言する必要があります。
+
+- 個々の出席者のミュートを解除する機能を無効にします。
+
+- ビデオメディアのロック機能を出席者に適用する機能を無効にします。
+
+- アクティブな大規模な会議で DTMF コマンドの実行に責任がある個人用の仮想アシスタンスが見つからないため、ユーザーは6を使ってミュートを解除することはできません。
+
+- 発表者/開催者が会議を予約していて、すべてのユーザーをミュートにする必要がある場合 ("すべてミュート")、PSTN ユーザーは通話中にミュートされ、ミュートを解除することはできません。
 
 大規模な会議で不要な会議機能を無効にするには、[**最大会議サイズ**] 設定を除き、ここで指定する他のすべての電話会議ポリシー設定が必要です。
   

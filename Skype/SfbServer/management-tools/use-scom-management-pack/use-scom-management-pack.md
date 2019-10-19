@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: '概要: System Center Operations Manager と連携するように Skype for Business Server 2015 インフラストラクチャを構成する方法について説明します。'
-ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790894"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36824550"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>SCOM Management pack を使用した Skype for Business Server 2015 の管理
  
@@ -85,7 +85,7 @@ Skype for Business Server 2015 の監視パックには、次のファイルが�
 
 以下の機能は、Skype for Business Server 2015 管理パックの新機能です。
 
-- ** [2019 年6月更新プログラム](https://www.microsoft.com/en-in/download/details.aspx?id=47364)の変更点**一部の通知で特殊文字が削除されています。 特殊文字が SCOM コマンドチャネル通知機能に干渉している場合もあります。
+- **2019 年[9 月の更新プログラム](https://www.microsoft.com/en-in/download/details.aspx?id=47364)の変更点**一部の通知で特殊文字が削除されています。 特殊文字が SCOM コマンドチャネル通知機能に干渉している場合もあります。
 
 - **クライアントサインインの自動検出**Skype for Business Server 2015 にサインインするクライアントアプリケーションは、サインインするために自動的にサーバーを検出します。 代理トランザクションは、自動検出が正しく構成されていることの確認をサポートするようになりました。
     

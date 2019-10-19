@@ -20,10 +20,10 @@ ms.custom:
 - Phone System
 description: '組織の電話システム (クラウド PBX) の設定方法について説明します。 '
 ms.openlocfilehash: 429cedb3d8bad25982e4eacdaa82f82cacfc75ae
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37571537"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
@@ -55,7 +55,7 @@ ms.locfileid: "37571537"
 
 ### <a name="get-new-user-phone-numbers"></a>新しいユーザー電話番号を取得する 
  
-![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
+**Skype for Business 管理センターを使って** ![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png)
 
 1. 職場または学校のアカウントを使用して、Microsoft 365 にサインインします。
 
@@ -81,7 +81,7 @@ Office 365 ユーザー用の電話番号の取得に加え、電話会議 (会�
 
 ### <a name="get-new-service-numbers"></a>新しいサービス番号を取得する
 
-![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
+**Skype for Business 管理センターを使って** ![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png)
 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。

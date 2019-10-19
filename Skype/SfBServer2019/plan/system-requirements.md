@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: ''
 description: '概要: このトピックを使用して、Skype for Business Server 2019 サーバーとドメインインフラストラクチャを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項、証明書の DNS、ファイル共有、Active Directory の情報と共に、サーバーファームのインストールと展開が正常に行われるようにするために、ここに記載されています。'
 ms.openlocfilehash: 385aabbf0a3c17abd9a9a22dfdb810720ca76660
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37434856"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 のシステム要件
