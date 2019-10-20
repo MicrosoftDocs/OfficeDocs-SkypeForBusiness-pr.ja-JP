@@ -12,16 +12,15 @@ description: Microsoft Teams で最初のチームとチャネルのセットを
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c70a6c7d344c656ab559031a369033774ef25dd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a2dd779097119050e6aa9671b6f8ad248c9165d1
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245883"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569599"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams で最初のチームとチャネルを作成する
 
@@ -63,7 +62,7 @@ Teams の左側にある **[Teams]** をクリックして、チームのリス�
 
 チームの作成後、チームに参加するようにユーザーを招待します。 個別のユーザーやグループを追加することも、連絡先グループ (旧称: 配布リスト) 全体を追加することもできます。 
 
-![チーム名と説明が表示されたチームの例のスクリーン ショット](media/get-started-with-teams-create-team.png "チーム名と説明が表示された「Get to know Teams」チームの例のスクリーン ショット") 
+![チームの名前と説明が表示されているチームの例を示すスクリーンショット](media/get-started-with-teams-create-team.png "チームの名前と説明が表示されている「Get to know Teams」チームの例を示すスクリーンショット") 
 
 ### <a name="add-a-team-owner"></a>チーム所有者を追加する
 作成したチームを探して、**[その他のオプション ˙˙˙]** > **[チームの管理]** をクリックします。 **[メンバー]** タブに移動して、チーム所有者として指名するユーザーを探します。 **[役割]** の **[所有者]** をクリックします。
@@ -71,7 +70,7 @@ Teams の左側にある **[Teams]** をクリックして、チームのリス�
 ### <a name="create-a-channel-in-a-team"></a>チームのチャネルを作成する
 作成したチームを探して、**[その他のオプション ...]** > **[チャネルの追加]** をクリックします。 **[チームの管理]** をクリックして、**[チャネル]** タブでチャネルを追加することもできます。 
 
-![[その他のオプション] をクリックしたときに使用可能なオプションのスクリーン ショット](media/get-started-with-teams-add-channel.png "[チャネルの追加] オプションや [チームの管理] オプションなど、チームの [その他のオプション] をクリックしたときに選択できるオプションを示すスクリーンショット") 
+![[その他のオプション] をクリックすると利用できるオプションを示すスクリーンショット](media/get-started-with-teams-add-channel.png "チームの [その他のオプション] をクリックすると選択できる [チャネルの追加] オプション、[チームの管理] オプション、およびその他のオプションを示すスクリーンショット") 
 
 チャネルにわかりやすい名前を付けて、そのチャネルの目的をユーザーがすぐに理解できるようにします。 
 
@@ -79,7 +78,7 @@ Teams の左側にある **[Teams]** をクリックして、チームのリス�
 
 次に、「Get to know Teams」チームの「How do I」チャネルの例を示します。このチャネルには、Teams の Web ページ &ndash; Teams ビデオ トレーニング、Teams ヘルプ センター、および Teams ダウンロード リンクにリンクされている固定タブが示されています。 
 
-![チームの例に固定されたタブのスクリーン ショット](media/get-started-with-teams-add-tabs.png "「Get to know Teams」チームの例に固定されたタブのスクリーン ショット") 
+![チームの例に固定されたタブを示すスクリーンショット](media/get-started-with-teams-add-tabs.png "「Get to know Teams」チームの例に固定されたタブを示すスクリーンショット。") 
 
 ## <a name="next-steps"></a>次の手順
 「[早期導入者を参加させる](get-started-with-teams-onboard-early-adopters.md)」に移動します。
