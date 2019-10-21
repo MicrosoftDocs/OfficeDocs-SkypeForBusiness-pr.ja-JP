@@ -347,6 +347,7 @@
 #### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
 #### [メディア パスの国コード](direct-routing-country-codes.md)
 #### [セッション ボーダー コントローラーの接続をテストする PowerShell スクリプト](sip-tester-powershell-script.md)
+#### [着信通知の管理](direct-routing-call-notifications.md)
 
 ## 電話番号
 ### [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -809,6 +810,7 @@
 ### [ハードウェア デコーダー/エンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)
 ### [MSI を使用した Teams のインストール](msi-deployment.md)
 ### [組織で Teams を有効にする](Office-365-set-up.md)
+### [ウイルス対策スキャンから除外する Teams のファイルとフォルダー](teams-files-folders-antivirus-perf.md)
 ### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
 ### [仮想デスクトップ インフラストラクチャ (VDI) 用の Teams](teams-for-vdi.md)
 ### [Surface Hub の Teams を展開する](teams-surface-hub.md)

@@ -10,17 +10,16 @@ ms.reviewer: karuanag
 description: Microsoft Teams に適用される制限、仕様、およびその他の要件について説明します。
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2b74226825203937a243de9ebecb550113ff21c
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: a5dc1dcdb679ff9629d5b2da495865b724e1401d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434827"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37566521"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -31,7 +30,7 @@ ms.locfileid: "37434827"
 |機能    | 上限 |
 |-----------|---------------|
 |ユーザーが作成できるチームの数 | オブジェクト制限 250、&sup1;         |
-|ユーザーがメンバーの一員になることができるグループの数|1,000|
+|ユーザーがメンバーの一員になることができるチームの数|1,000|
 |チームのメンバーの数 | 5,000       |
 |テナントで許可されている組織全体のチームの数 | 5     |
 |[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 5,000       |
