@@ -12,19 +12,18 @@ ms.author: lolaj
 ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 27ef173f20f7d2dae66d66bec8b41b5d5c6d48df
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484018"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570726"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams の講師主導のトレーニング</h1>
-Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネスの意思決定者、管理者、IT プロフェッショナル、エンド ユーザーの方には、最適なクラスが用意されています。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 ライブ トレーニングのオンデマンド バージョンを含む、その他のトレーニングについては、Microsoft の<a href="https://docs.microsoft.com/microsoftteams/enduser-training">オンデマンド エンド ユーザー トレーニング</a>をご覧ください。<br><br>以下のセッションをクリックしてサインアップしてください。
+Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネスの意思決定者、管理者、IT プロフェッショナル、エンド ユーザーの方には、最適なクラスが用意されています。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 自分の時間にトレーニング クラスを表示するには、<a href="https://aka.ms/TeamsOnDemand">オンデマンドのエンドユーザー トレーニング</a>をご覧ください。<br><br>以下のセッションをクリックしてサインアップしてください。
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -145,7 +144,7 @@ Microsoft では、Teams を使いこなすための無料のライブ オンラ
                     <div class="cardText">
                         <h3>米国政府仕様の Teams (GCC)</h3>
                         <p>コラボレーションのベストプラクティスを紹介する Teams in Office 365 GCC のインタラクティブな概要に、ぜひご参加ください。</p>
-                    <p><i>対象ユーザー: ITプロフェッショナル、エンドユーザー</i></p>
+                    <p><i>対象ユーザー: すべて</i></p>
                     </div>
                 </div>
             </div>
@@ -173,18 +172,18 @@ Microsoft では、Teams を使いこなすための無料のライブ オンラ
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>現場担当者と Teams</h3>
-                        <p>Teams の現場担当者向けの機能について説明します。</p>
+                        <h3>Teams でアプリを使用する方法を学ぶ</h3>
+                        <p>アプリでチームワークを改善する方法を理解します。</p>
                         <p><i>対象ユーザー: エンド ユーザー</i></p>
                     </div>
                 </div>
@@ -212,7 +211,26 @@ Microsoft では、Teams を使いこなすための無料のライブ オンラ
         </div>
         </a>
     </li>
-        </ul>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>現場担当者と Teams</h3>
+                        <p>Teams の現場担当者向けの機能について説明します。</p>
+                        <p><i>対象ユーザー: エンド ユーザー</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>        </ul>
         </li>
     </ul>
     </div>

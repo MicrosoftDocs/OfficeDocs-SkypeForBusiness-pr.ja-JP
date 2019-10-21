@@ -12,16 +12,15 @@ description: ユーザーが Microsoft Teams をどのように使用してい�
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae59765eabf25ee608b897e1468df30b1fa49450
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8700802f0f307ef474bde602c813da404a7c82bd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245894"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569588"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams での使用状況とフィードバックを監視する
 ユーザーがどのように Teams を使用していているか、また Teams に関するユーザーのエクスペリエンスはどのようなものかを知ることは重要です。 使用状況レポートは、使用パターンを正しく理解するために役立ちます。また、ユーザーのフィードバックと併用することで、広範な展開の情報を確認し、トレーニングとコミュニケーションの取り組みに関する優先順位を決定するための見識が得られます。
@@ -41,14 +40,14 @@ Microsoft Teams 管理センターでの Teams のレポートにより、Teams 
 
 - **Teams の使用状況レポート**: このレポートには、Teams の使用状況アクティビティの概要が示されます。アクティブなユーザーとチャネルの合計数、アクティブなユーザー数とチャネル数、ゲスト数、および各チームのメッセージ数も示されます。 
 
-    ![Teams の使用状況レポートを示すスクリーン ショット](media/teams-reports-teams-usage.png "Microsoft Teams 管理センターでの Teams の使用状況レポートを示すスクリーン ショット")     
+    ![Teams の使用状況レポートのスクリーンショット](media/teams-reports-teams-usage.png "Microsoft Teams 管理センターの Teams の使用状況レポートのスクリーンショット")     
 - **Teams のユーザー アクティビティ レポート**: このレポートでは、1 対 1 の通話、チャネルのメッセージ、およびプライベート チャットのメッセージで通信したユーザー数など、ユーザーが関与したアクティビティの種類についての見識が得られます。 
 
-    ![Teams のユーザー アクティビティ レポートを示すスクリーン ショット](media/teams-reports-user-activity.png "Microsoft Teams 管理センターでの Teams のユーザー アクティビティ レポートを示すスクリーン ショット") 
+    ![Teams のユーザー アクティビティ レポートのスクリーンショット](media/teams-reports-user-activity.png "Microsoft Teams 管理センターの Teams のユーザー アクティビティ レポートのスクリーンショット") 
 `
 - **Teams のデバイス使用状況レポート**: このレポートには、ユーザーがどのように Teams に接続しているかが示されます。外出先で自分のモバイル デバイスから Teams を使用したユーザーの数も示されます。 
 
-    ![Teams デバイス使用状況レポートを示すスクリーン ショット](media/teams-reports-device-usage.png "Microsoft Teams 管理センターでの Teams のデバイス使用状況レポートを示すスクリーン ショット")
+    ![Teams のデバイス使用状況レポートのスクリーンショット](media/teams-reports-device-usage.png "Microsoft Teams 管理センターの Teams のデバイス使用状況レポートのスクリーンショット")
 
 詳細については、「[Teams の分析とレポート](teams-analytics-and-reports/teams-reporting-reference.md)」を参照してください。 
 

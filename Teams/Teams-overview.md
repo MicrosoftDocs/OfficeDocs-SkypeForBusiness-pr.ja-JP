@@ -5,41 +5,36 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 06/18/2019
 audience: admin
 ms.reviewer: LolaJ
 description: Microsoft Teams を組織に展開するための正しい経路を見つけます。 Teams のインフラストラクチャと、Office 365 での Teams の使用について説明します。
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb2f18cfb420c8bfa973f205541ec69e04a644c6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ef565e9113f30e3c3d42e5482b2a52425eacbb2e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483159"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37566998"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
 
 エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、[Microsoft Teams ヘルプ センター](https://support.office.com/teams)に移動します。 トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
 
-
-
 Teams を使うのが初めてで、詳細を知りたい場合は、「Teams へようこそ」のビデオ (55 秒) をご覧ください。
 
 > [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
 
-
 ## <a name="teams-architecture"></a>Teams のアーキテクチャ
 
-Teams は Office 365 グループ、Microsoft Graph、および他の Office 365 と同じエンタープライズ レベルのセキュリティ、コンプライアンス、管理容易性で構築されています。 Teams は Azure Active Directory (Azure AD) に保存された ID を活用します。 
+Teams は Office 365 グループ、Microsoft Graph、および他の Office 365 と同じエンタープライズ レベルのセキュリティ、コンプライアンス、管理容易性で構築されています。 Teams は Azure Active Directory (Azure AD) に保存された ID を活用します。 Teams は、オフラインの場合やネットワークの状態が不安定な場合でも作業を続けます。
 
 Microsoft 365 全体の中での Teams の位置を確認するには、次のアーキテクチャ ポスターを参照してください: [Microsoft 365 の一部としての Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -74,13 +69,13 @@ Teams は Office 365 でのインテリジェント コミュニケーション�
 Skype for Business を実行していて、Teams にアップグレードする準備が整っている場合、または Skype for Business と Teams を共存させて実行していて、完全に Teams に移動する準備が整っている場合、その移行作業を正常に完了させるために役に立つツール、ヒント、ガイダンスを利用することができます。 詳細については、「[Teams へのアップグレード](upgrade-start-here.md)」を参照してください。
 
 ## <a name="teamwork-and-office-365"></a>チームワークと Office 365
-すべてのチームはそれぞれ異なります。コラボレーションを行うための万能の手段はありません。 Office 365 は各チームの固有のニーズを満たすよう設計されていて、ユーザーが通信、共同作業などより多くのことを専用の統合アプリで成し遂げられる能力を強化します。 
+すべてのチームはそれぞれ異なります。コラボレーションを行うための万能の手段はありません。 Office 365 は各チームの固有のニーズを満たすよう設計されていて、ユーザーが通信、共同作業などより多くのことを専用の統合アプリで成し遂げられる能力を強化します。
 
 どの Office 365 アプリおよびサービスを使用するかを決めるときに、自分の組織で行われる作業や、所属するチームで行う必要がある会話の種類について考えます。 
 
 - **Teams** は、チームワークのハブとして、組織内外のユーザーが積極的にリアルタイムでつながり、共同作業を完了できる場所です。 ドキュメントの共同作成や、会議の開催や、他のアプリやサービスでの共同作業など、作業が発生したその場で会話を交わします。 Teams は、くだけたチャットを行ったり、プロジェクトに対して速やかに反復作業を行ったり、チームのファイルで作業したり、共有された成果物でコラボレーションを行ったりするための場所となります。 
 
-- **Outlook** は、使い慣れた電子メール環境や、より丁寧で真面目な方法でコラボレーションを行うために、またはターゲットを絞って直接コミュニケーションをとる場合に使用されます。 
+- **Outlook** は、使い慣れた電子メール環境や、より丁寧で真面目な方法でコラボレーションを行うために、またはターゲットを絞って直接コミュニケーションをとる場合に使用されます。
 
 - **SharePoint** は、サイト、ポータル、インテリジェント コンテンツ サービス、ビジネス プロセスの自動化、およびエンタープライズ検索で活用されます。 SharePoint はコンテンツをフレームワークの中心で保持して、あらゆる種類のコンテンツをチーム全体で簡単に共有可能およびアクセス可能にします。 Outlook、Yammer、および Teams との緊密な統合により、会話のクスぺリエンス全体にわたって、シームレスなコンテンツのコラボレーションを実現します。
 
