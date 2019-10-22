@@ -13,19 +13,18 @@ localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715928"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616076"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -98,11 +97,22 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 これらの設定を使用して、自分たちのユーザーがどのように Skype for Business から Microsoft Teams にアップグレードするかを構成することができます。 
 
 #### <a name="coexistence-mode"></a>共存モード
-共存モードを指定することができます。**Teams のみ**、**アイランド** (Teams と Skype for Business が共存) または **Skype for Business のみ**を選択することができます。 選択した共存モードにより、着信通話およびチャットのルーティングと、ユーザーによってチャットや通話を開始したり会議をスケジュールしたりするために使用されるアプリが決まります。 共存モードの詳細については、「[Microsoft Teams と Skype for Business の共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)」を参照してください。
+次の共存モードを指定することができます。 
+
+- **Teams のみ**
+- **アイランド** (Teams と Skype for Business が共存します)
+- **Skype for Business のみ**
+- **Skype for Business と Teams のコラボレーション** (ユーザーは Skype for Business でチャット、通話や会議のスケジュールを受信しますが、グループでのコラボレーションには Teams を使用します)
+- **Skype for Business と Teams のコラボレーションと会議** (ユーザーは Skype for Business でチャットや通話を受信しますが、グループでのコラボレーションや会議のスケジュールには Teams を使用します)
+
+選択した共存モードにより、着信通話およびチャットのルーティングと、ユーザーによってチャットや通話を開始したり会議をスケジュールしたりするために使用されるアプリが決まります。 共存モードの詳細については、「[Microsoft Teams と Skype for Business の共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)」を参照してください。
 
 #### <a name="app-preferences"></a>アプリの基本設定
 
 ユーザーが Skype for Business の会議に参加するために使用するアプリを選ぶことができます (Skype for Business または [Skype 会議アプリ](https://support.office.com/ja-JP/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))。この設定は、共存モードの設定に依存しません。
+
+[Skype for Business 向けにバックグラウンドで Teams アプリをダウンロードする] オプションも選択できます。  既定では、この設定は [オン] に設定されています。 この設定を有効にすると、Windows PC で Skype for Business アプリを実行しているユーザー向けに、バックグラウンドで Teams アプリがダウンロードされます。 この問題が発生するのは、ユーザーの [共存モード] が [チームのみ] になっているか、[保留中のアップグレード通知] が Skype for Business アプリで有効になっている場合です。
+
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>利用可能な機能を知る方法を教えてください。
 
