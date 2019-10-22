@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 44214b93e4a1c555165e8bb2e699b7ff8c4e4599
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062210"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37615974"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Skype for Business Online Connector との接続の問題を診断する
 
@@ -49,6 +49,13 @@ ms.locfileid: "35062210"
 
 - [Skype for Business Online でのこのテナントの同時シェルの最大数を超過している](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
     
+
+> [!IMPORTANT]
+> 既定では、PowerShell セッションは60分後にタイムアウトします。 再接続するには、セッションを終了し、新しい PowerShell セッションを開始する必要があります。 新しいバージョンの[Skype For Business Online、Windows PowerShell Module (2046.123-公開 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366)が最近開始されました。**これには**、60分を軽減する新しいコマンドレットが含まれています。タイムアウトの問題。
+> PowerShell セッションは再接続して認証を行い、再利用を許可します。新しいインスタンスを起動して再接続する必要はありません。
+
+
+
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Windows PowerShell 実行ポリシーによる Import-Module エラー
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
@@ -153,7 +160,7 @@ PowerShell を使用して Skype for Business Online を管理するには、テ
 
 - **解決策**: この問題を解決するには、1つまたは複数の以前の接続を閉じる方法しかありません。 Skype for Business Online セッションが終了したら、 **Remove-PSSession** コマンドレットを使用してそのセッションを切断することをお勧めします。 そうすることにより、この問題が発生することを防ぐことができます。  
  
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Windows PowerShell を使用して skype for business online 管理用にコンピューターをセットアップする](set-up-your-computer-for-windows-powershell.md)
 
   

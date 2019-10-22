@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server を使用しているユーザーに対して、クラウドベースのボイスメールを実装する方法について説明します。
-ms.openlocfilehash: 99fc250ff4c01a0b51e784c165edb99cbb867b3c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7423f16e7985a063ae5a974ea6c36684bfb75e7c
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160640"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616077"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>オンプレミスのユーザー用にクラウドボイスメールサービスを構成する
 
@@ -75,7 +75,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 グローバルポリシーを変更するには、組織と TenantID を更新した後、Skype for Business Server 管理シェルで次のコマンドを実行します。
 
 ```
-Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -TenantID “11111111-1111-1111-1111-111111111111”
+Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
 ```
 
 - **Destination**には、ホストされているクラウドボイスメールサービスの完全修飾ドメイン名 (FQDN) を指定します。 この値は、 **exap.um.outlook.com**に設定する必要があります。
@@ -84,7 +84,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     組織名は、Office 365 の既定のドメイン名でもあります。
 
-- **TenantID**は、Office 365 でテナントを識別するために使用されます。 詳細については、「 [Office の Office 365 テナント ID を検索する](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b)」を参照してください。
+- **テナント**は、Office 365 でテナントを識別するために使用されます。 詳細については、「 [Office の Office 365 テナント ID を検索する](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b)」を参照してください。
 
 ホスト型ボイスメールポリシーが正常に作成されたことを確認するには、次のコマンドを実行します。
 
@@ -105,7 +105,7 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:Clou
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>クラウドボイスメールでユーザーを有効にする
 
-ユーザーのボイスメールをクラウドボイスメールにルーティングできるようにするには、 [](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) HostedVoiceMail パラメーターを指定して、ユーザーのボイスメールコマンドレットを使用します。 
+ユーザーのボイスメールをクラウドボイスメールにルーティングできるようにするには、HostedVoiceMail パラメーターを指定して、ユーザーのボイス[メールコマンドレット](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)を使用します。 
 
 たとえば、次のコマンドを実行すると、クラウドボイスメールのユーザーアカウントが有効になります。 
 
