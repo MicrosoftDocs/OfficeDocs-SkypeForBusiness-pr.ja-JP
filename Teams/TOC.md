@@ -28,6 +28,7 @@
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [Teams でのユーザーのプレゼンス](presence-admins.md)
 ## [Teams でクロスチームおよびチームごとの分析を表示する](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [Teams の有効期限と更新](team-expiration-renewal.md)
 ## [チームをアーカイブまたは削除する](archive-or-delete-a-team.md)
 
 
