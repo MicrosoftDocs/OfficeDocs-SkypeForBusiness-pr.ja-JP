@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5910a363032a35bd7096e4048d38d51f260b72b
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 2aa6a4f4a498f5b694e3ff23d4043374def6fbff
+ms.sourcegitcommit: 70323d648e9ae3b20a710120b9dcdc452afc462b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715730"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37698030"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -76,9 +76,9 @@ Teams は Office 365 スイートで利用することができます。 現在 
 
 現時点では、企業のお客様向けにはアップグレードの予定はありません。 Skype for Business Online のサポート終了日である 2021 年 7 月 31 日までに、組織にとって有意義な Teams への移行を選択していただけます。 Microsoft は、Teams への移行を支援するツールやガイダンスを管理者やユーザーに提供します。
 
-専任の IT リソースを抱えていない小規模事業のお客様をサポートするための取り組みとして、Microsoft では Skype for Business Online から Teams への自動アップグレードを支援しています。 アップグレードについて、該当するお客様には電子メールおよびメッセージ センターを介して通知されます。 追加の詳細情報もお客様との通信で提供されます。
+専任の IT リソースを抱えていない小規模事業のお客様をサポートするための取り組みとして、Microsoft では Skype for Business Online から Teams への自動アップグレードを支援しています。 アップグレードについて、該当するお客様には電子メールおよびメッセージ センターを介して通知されます。 そのコミュニケーションでは、その他の詳細情報も提供されます。 詳細については、[Skype for Business Online から Microsoft Teams への自動アップグレード](upgrade-automated.md) をご確認ください。
 
-### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>Skype for Business Online サポート終了は、ハイブリッド構成 (Skype for Business Online および Skype for Business Server) を使用している組織にどのような影響を与えますか?
+### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>Skype for Business Online サポートの終了は、ハイブリッド構成 (Skype for Business Online および Skype for Business Server) を使用している組織にどのような影響を与えますか?
 
 オンラインおよびオンプレミスのハイブリッド構成を使用しているお客様は、2021 年 7 月 31 日のサポート終了日までに Skype for Business Online から Microsoft Teams にユーザーを移行する必要があります。 共存と相互運用性の原則に基づいて構築されたハイブリッド構成のアップグレード パスは、Skype for Business Online の廃止後も残ります。 
 
