@@ -41,6 +41,7 @@
 ### [Teams で個人用チャット、グループ チャット、チャネルのボットを追加する](add-bots.md)
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ### [Office 365 コネクタとカスタム コネクタの使用](Office-365-custom-connectors.md)
+### [基幹業務アプリを管理する](manage-your-lob-apps.md)
 ### [Teams テナント アプリ カタログにアプリを公開する](tenant-apps-catalog-teams.md)
 ### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
