@@ -266,12 +266,6 @@
 
 
 
-
-
-
-
-
-
 ## [クラウド ビデオ相互運用性](cloud-video-interop.md)
 
 ## ライブ イベント
@@ -660,15 +654,16 @@
 ## [Skype for Business Online のサポート終了](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## 共存について詳しく学習する
+## テクニカル ライブラリ
+### [IT 管​​理者向けのアップグレード ガイダンス](upgrade-to-teams-on-prem-overview.md)
 ### [Skype for Business の移行と相互運用性](migration-interop-guidance-for-teams-with-skype.md)
 ### [Skype for Business と共存する](coexistence-chat-calls-presence.md)
 ### [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
-#       
-#        
+
 
 <!-- ============================================================ -->
-
+#       
+#    
 # ハイブリッド接続 
 
 ## [ハイブリッド接続のプラン](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
