@@ -3,7 +3,6 @@ title: ゲストのエクスペリエンスについて
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -16,27 +15,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9b923a92c9fb8a7475d9424861a7204da7f19780
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563476"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753432"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
 
-ゲストは、チームへの参加を招待されると、チームに関する情報とメンバーとして利用できる内容を記載する「ようこそ」メール メッセージを受け取ります。 ゲストは、メール メッセージの招待状と引き換えに、チームやそのチャネルにアクセスできるようになります。
+ゲストがチームに参加するよう招待されると、ようこそメールメッセージが届きます。 このメッセージには、チームについての情報と、メンバーであると想定されることが記載されています。 ゲストは、チームとそのチャネルにアクセスする前に、メールメッセージで [ **Microsoft Teams を開く**] を選択して、招待を承諾する必要があります。
     
 ![ようこそメールメッセージの例を示すスクリーンショット](media/guest-experience-image1.png)
     
-すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 次の例のチームのスクリーンショットに示されているように、バナーは、各ゲストの名前の横に「このチームのゲスト」と "(ゲスト)" ラベルが表示されることを示します。
+すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 以下のサンプルチームのスクリーンショットに示されているように、バナーは、各ゲストの名前の横に "このチームのゲスト" と "**ゲスト**" のラベルが表示されることを示します。
     
 ![バナー通知のゲストユーザーを示すスクリーンショット](media/guest-experience-image2.png "スクリーンショットは、Northwind Traders のマーケティングチャネルの一部を示しています。上部のバナーには、ゲストであるゲストとゲストであるユーザーが名前の横にある word GUEST で識別されていることを示す通知が表示されています。")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>チームメンバーとゲストの機能の比較
 
-次の表に、組織のチーム メンバーが利用できる Microsoft Teams の機能とチームのゲスト ユーザーが利用できる機能との比較を示します。
+次の表は、組織のチームメンバーとそのゲストで利用できる Teams の機能を比較したものです。
 
 |**Teams の機能**|**組織の Teams ユーザー**|**ゲスト ユーザー**|
 |:-----|:-----|:-----|
@@ -56,9 +55,9 @@ ms.locfileid: "37563476"
 |組織図を表示する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |インライン翻訳を使用する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
-次の表は、ゲストが利用できる通話と会議の機能を示しています。
+次の表は、他の種類のユーザーと比較した場合の、ゲストで利用可能な通話機能と会議機能を示しています。
 
-| 通話機能 | 会員 | E1 と E3 ユーザー | E5 と EV ユーザー |
+| 通話機能 | 会員 | E1 と E3 ユーザー | E5 とエンタープライズボイスユーザー |
 | --------------- | ----- | -------------- | -------------- |
 | VOIP 通話 | はい | 可 | 可 |
 | グループ通話 | はい | 可 | 可 |
@@ -91,36 +90,29 @@ ms.locfileid: "37563476"
 
 > [!NOTE]
 > ゲストが利用できる機能は Office 365 の管理者によって制御されます。 
- 
-## <a name="guest-access-vs-external-access-federation"></a>ゲスト アクセスと外部アクセス (フェデレーション)
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
- 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
-Q&a. 招待された組織を脱退するにはどうすればよいですか。<br>
-、. ゲストにしたくない組織に招待された場合は、組織を脱退することができます。 詳細については、「[組織をゲストユーザーとして脱退](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization)する」を参照してください。 または、組織の管理者にテナントからユーザーを削除するよう依頼することもできます。 どちらの場合も、将来組織にアクセスする場合は、テナントに再招待する必要があることに注意してください。
+### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>招待された組織を脱退するにはどうすればよいですか。
+ゲストにしたくない組織に招待された場合は、組織を脱退することができます。 詳細については、「[組織をゲストユーザーとして脱退](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)する」を参照してください。 または、組織の管理者にテナントからユーザーを削除するよう依頼することもできます。 どちらの場合も、将来組織にアクセスする場合は、テナントに再招待する必要があることに注意してください。
 
-Q&a. ゲストはチームメンバーと同じ機能を備えていますか?<br>
-、. いいえ。 ゲストが実行できる操作とできないことの詳細については、この記事の「[チームメンバーとゲスト機能の比較](#comparison-of-team-member-and-guest-capabilities)」を参照してください。
+### <a name="do-guests-have-the-same-capabilities-as-team-members"></a>ゲストはチームメンバーと同じ機能を備えていますか?
+いいえ。 ゲストが実行できる操作とできないことの詳細については、この記事の「[チームメンバーとゲスト機能の比較](#comparison-of-team-member-and-guest-capabilities)」を参照してください。
 
-Q&a. 招待できるゲストの数を教えてください。<br>
-、. ライセンス付与されたユーザーあたり、最大5人のゲストを追加できます。
+### <a name="do-guests-have-access-to-onedrive-for-business"></a>ゲストは OneDrive for Business にアクセスできますか?
+いいえ。
 
-Q&a. ゲストは OneDrive for Business にアクセスできますか?<br>
-、. いいえ。
+### <a name="do-guests-have-access-to-sharepoint-files"></a>ゲストは SharePoint のファイルにアクセスできますか?
+はい。
 
-Q&a. ゲストは SharePoint のファイルにアクセスできますか?<br>
-、. はい。
+### <a name="can-guests-search-within-files"></a>ゲストはファイル内を検索できますか?
+いいえ。
 
-Q&a. ゲストはファイル内を検索できますか?<br>
-、. いいえ。
+### <a name="can-guests-attach-files"></a>ゲストがファイルを添付することはできますか?
+はい、ゲストは次の2つの方法でファイルを添付することができます。
 
-Q&a. ゲストがファイルを添付することはできますか?<br>
-、. はい、ゲストは次の2つの方法でファイルを添付することができます。
-
-   - 左側のウィンドウで [ファイル] を選択し、ファイルの場所を参照します。
+   - 左側のウィンドウで [**ファイル**] を選択し、ファイルの場所を参照します。
    - 自分のコンピューターからファイルをアップロードします。
 
-Q&a. ゲストチャットにファイルをダウンロードすることはできますか?<br>
-、. はい。プライベートチャットでメンバーからファイルを受信し、それをデスクトップにダウンロードすることができます。
+### <a name="can-a-guest-download-a-file-in-a-private-chat"></a>ゲストチャットにファイルをダウンロードすることはできますか?
+はい。プライベートチャットでメンバーからファイルを受信し、それをデスクトップにダウンロードすることができます。

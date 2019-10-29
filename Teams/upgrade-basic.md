@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03f83053e46350cc7a73f92451797553a9c978ad
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37664951"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749285"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="upgrade-basic"></a>アップグレードの基本
+
+<a name="about-upgrade-basic"></a>
 
 小規模の組織または Skype for Business Online で IM (チャット) と会議のみを使用するように設計されています。また、アップグレードの基本チェックリストは、コア、推奨アクティビティ、関連リソースを含む、Skype for Business から Teams に正常に移行されました。
 
@@ -81,7 +81,7 @@ Teams について理解していない場合 チームでの会話、会議、�
 **参照**
 
 - [Teams の概要](Teams-overview.md)
-- Microsoft Teams の使用を開始する (get-started-with-teams-quick-start.md)
+- [Microsoft Teams の使用を開始する](get-started-with-teams-quick-start.md)
 
 [ページのトップへ](#about-upgrade-basic)
 

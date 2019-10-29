@@ -17,12 +17,12 @@ search.appverid: MET150
 description: チームの広範な対応の結果と成功を測定する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242406"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749275"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入の結果と成功を定義する
 
@@ -75,7 +75,7 @@ Teams は transformative テクノロジであるため、組織の規模や既�
 | チームの先頭へ | Teams Core | チームが大きくなる | Skype を並べて比較 | 移行 |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Teams を使用したクラウド展開の導入 | チームとの共同作業のシナリオの支援 | チームおよび組織全体のチームのすべての従業員 | Teams と Skype for Business を有効にする | Skype for Business から Teams へのユーザーの移行 |
-| -Office 365 の新規または低使用のお客様に適用される <br/>-顧客固有のシナリオに Teams を導入する <br/>-統合されたユーザーエクスペリエンスを強調表示し、Office 365 の時間を短縮する <br/>-シリアルの実装を回避するために、共同作業の計画を行う | -OneDrive および SharePoint Online と共にチームを有効にする <br/>-Microsoft Stream を使ってニュースのリソースとビデオを共有するために会社のイントラネットを作成する<br/>**共同**作業の改善: <br/>Teams<br/>SharePoint<br/>Yammer<br/>プランナー<br/>PowerApps |-1000 座席の数が2未満のお客様 (現在の制限)<br/>-1 つのチームで組織間の共同作業を可能にする<br/>-一般的なタスク (休暇要求、従業員調査、役員契約) を自動化する |-チームのコア戦略を使用して共同作業を促進する<br/>-必要なサイズと機能セットに基づいて会議シナリオガイダンスを強調表示する</br>-エンタープライズ通話、相互運用性、およびハイブリッドシナリオに Skype for Business を使用する<br/>-機能計画のためのパブリックロードマップを使用します。 |-顧客のサービス戦略ロードマップを作成して、Skype for Business から Teams への移行を計画する<br/>-機能リリーススケジュールに添付<br/>-左右に並べて、チームコアを含めることをお勧めします。
+| -Office 365 の新規または低使用のお客様に適用される <br/>-顧客固有のシナリオに Teams を導入する <br/>-統合されたユーザーエクスペリエンスを強調表示し、Office 365 の時間を短縮する <br/>-シリアルの実装を回避するために、共同作業の計画を行う | -OneDrive および SharePoint Online と共にチームを有効にする <br/>-Microsoft Stream を使ってニュースのリソースとビデオを共有するために会社のイントラネットを作成する<br/>**共同**作業の改善: <br/>Teams<br/>SharePoint<br/>Yammer<br/>プランナー<br/>PowerApps |-5000 座席の数が2未満のお客様 (現在の制限)<br/>-1 つのチームで組織間の共同作業を可能にする<br/>-一般的なタスク (休暇要求、従業員調査、役員契約) を自動化する |-チームのコア戦略を使用して共同作業を促進する<br/>-必要なサイズと機能セットに基づいて会議シナリオガイダンスを強調表示する</br>-エンタープライズ通話、相互運用性、およびハイブリッドシナリオに Skype for Business を使用する<br/>-機能計画のためのパブリックロードマップを使用します。 |-顧客のサービス戦略ロードマップを作成して、Skype for Business から Teams への移行を計画する<br/>-機能リリーススケジュールに添付<br/>-左右に並べて、チームコアを含めることをお勧めします。
 
 ほとんどのお客様の組織に関する推奨事項を以下に示します。 ただし、例外もあります。 ここに記載されていないシナリオのガイダンスを得るには、推進のためのコミュニティまたは FastTrack のチームまたは Microsoft パートナーネットワークに質問してください。
 
