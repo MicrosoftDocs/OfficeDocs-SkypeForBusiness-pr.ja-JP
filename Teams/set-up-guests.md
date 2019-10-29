@@ -3,7 +3,6 @@ title: Microsoft Teams へのゲストアクセスを有効または無効にす
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,100 +17,69 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 186c83b82c396a21fe0098a561bcd4db13370140
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 20971fd985d4512e8a9bf00db23092f1a6e44702
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37566035"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753352"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a><span data-ttu-id="b34e9-103">Microsoft Teams へのゲストアクセスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="b34e9-103">Turn on or turn off guest access to Microsoft Teams</span></span>
+<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a><span data-ttu-id="405a5-103">Microsoft Teams へのゲストアクセスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="405a5-103">Turn on or turn off guest access to Microsoft Teams</span></span>
 ===================================================
 
-<span data-ttu-id="b34e9-104">Office 365 管理者は、組織のユーザー (具体的にはチーム所有者) がゲストを追加できるようにするため事前にゲスト機能を有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-104">As the Office 365 admin, you must enable the guest feature before you or your organization's users (specifically, team owners) can add guests.</span></span>
+<span data-ttu-id="405a5-104">既定では、ゲストアクセスはオフになっています。</span><span class="sxs-lookup"><span data-stu-id="405a5-104">By default, guest access is turned off.</span></span> <span data-ttu-id="405a5-105">Office 365 管理者は、管理者またはチーム所有者がゲストを追加する前に、チームのゲストアクセスを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="405a5-105">As the Office 365 admin, you must turn on guest access for Teams before the admin or team owners can add guests.</span></span> <span data-ttu-id="405a5-106">ゲストアクセスを有効にするには、[ゲストアクセスのチェックリスト](guest-access-checklist.md)を使用します。</span><span class="sxs-lookup"><span data-stu-id="405a5-106">To turn on guest access, use the [Guest access checklist](guest-access-checklist.md).</span></span> 
 
-<span data-ttu-id="b34e9-p101">ゲスト設定は Azure Active Directory で設定します。その変更が Office 365 組織全体で有効になるまでに 2 時間から 24 時間かかります。ユーザーがチームにゲストを追加しようとするときに「Contact your administrator (管理者にお問い合わせください)」というメッセージが表示される場合、ゲスト機能が使用できる状態になっていないか、設定が有効になっていないかのいずれかの可能性があります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-p101">The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet.</span></span>
+<span data-ttu-id="405a5-107">ゲストアクセスを有効にすると、変更が有効になるまでに2-24 時間かかります。</span><span class="sxs-lookup"><span data-stu-id="405a5-107">After you turn on guest access, it takes 2-24 hours for the changes to take effect.</span></span> <span data-ttu-id="405a5-108">ユーザーがチームにゲストを追加しようとしたときに、"管理者に連絡してください" というメッセージが表示された場合、ゲストアクセスが有効になっていないか、設定がまだ有効になっていない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="405a5-108">If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either guest access hasn't been turned on or the settings aren't effective yet.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="b34e9-p102">ゲストアクセス機能の完全なエクスペリエンスを有効にするには、Microsoft Teams、Azure Active Directory、Office 365との間で主な承認の依存関係を理解することが重要です。詳しくは、[Microsoft Teams でゲストアクセスを承認する](Teams-dependencies.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b34e9-p102">To enable the full experience of the guest access feature, it's important to understand the core authorization dependency between Microsoft Teams, Azure Active Directory, and Office 365. For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).</span></span>
-
-## <a name="guest-access-vs-external-access-federation"></a><span data-ttu-id="b34e9-110">ゲスト アクセスと外部アクセス (フェデレーション)</span><span class="sxs-lookup"><span data-stu-id="b34e9-110">Guest access vs. external access (federation)</span></span>
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
-
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="b34e9-111">Microsoft Teams 管理センターでゲスト アクセスをチームを設定する</span><span class="sxs-lookup"><span data-stu-id="b34e9-111">Configure guest access in the Microsoft Teams admin center</span></span>
-
-1.  <span data-ttu-id="b34e9-112">Microsoft Teams 管理センターにサインインする。</span><span class="sxs-lookup"><span data-stu-id="b34e9-112">Sign in to the Microsoft Teams admin center.</span></span>
-
-2.  <span data-ttu-id="b34e9-113">[**組織全体の設定**] > [**ゲスト アクセス**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="b34e9-113">Select **Org-wide settings** > **Guest access**.</span></span>
-
-3. <span data-ttu-id="b34e9-114">[**Microsoft Teams でのゲスト アクセスを許可**] の切り替えスイッチを [**オン**] に設定します。</span><span class="sxs-lookup"><span data-stu-id="b34e9-114">Set the **Allow guest access in Microsoft Teams** toggle switch to **On**.</span></span>
-
-    ![<span data-ttu-id="b34e9-115">ゲスト アクセスの許可の切り替えをオンに設定する</span><span class="sxs-lookup"><span data-stu-id="b34e9-115">Allow guest access switch set to On</span></span> ](media/set-up-guests-image1.png)
-
-4.  <span data-ttu-id="b34e9-116">ゲスト ユーザーにどの機能を許可するかに応じて、[**通話**]、[**会議**]、および [**メッセージング**] の切り替えスイッチを [**オン**] または [**オフ**] に設定します。</span><span class="sxs-lookup"><span data-stu-id="b34e9-116">Set the toggles under **Calling**, **Meeting**, and **Messaging** to **On** or **Off**, depending on the capabilities you want to allow for guest users.</span></span>
-
-    - <span data-ttu-id="b34e9-117">**プライベート通話の発信** – この設定を [**オン**] にするとゲストがピアツーピアの通話を発信することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-117">**Make private calls** – Turn this setting **On** to allow guests to make peer-to-peer calls.</span></span>
-    - <span data-ttu-id="b34e9-118">**IP ビデオを許可** - この設定を [**オン**] に切り替えると、ゲストは自分たちの通話および会議でビデオを使用することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-118">**Allow IP video** - Turn this setting **On** to allow guests to use video in their calls and meetings.</span></span>
-    - <span data-ttu-id="b34e9-119">**画面共有モード** – この設定は、ゲスト ユーザーが画面共有を利用可能かどうかを制御します。</span><span class="sxs-lookup"><span data-stu-id="b34e9-119">**Screen sharing mode** – This setting controls the availability of screen sharing for guest users.</span></span> 
-       - <span data-ttu-id="b34e9-120">この設定を [**無効**] にすると、Teams で画面を共有するゲストの機能は削除されます。</span><span class="sxs-lookup"><span data-stu-id="b34e9-120">Turn this setting to **Disabled** to remove the ability for guests to share their screens in Teams.</span></span> 
-       - <span data-ttu-id="b34e9-121">この設定を [**1 つのアプリケーション**] にすると、個別のアプリケーションの共有を行えるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-121">Turn this setting to **Single application** to allow sharing of individual applications.</span></span> 
-       - <span data-ttu-id="b34e9-122">この設定を [**画面全体**] にすると、完全な画面共有を行えるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-122">Turn this setting to **Entire screen** to allow complete screen sharing.</span></span>
-    - <span data-ttu-id="b34e9-123">**会議の開始を許可** – この設定を [**オン**] にすると、Microsoft Teams でゲストが会議の開始機能を使用することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-123">**Allow Meet Now** – Turn this setting **On** to allow guests to use the Meet Now feature in Microsoft Teams.</span></span>
-    - <span data-ttu-id="b34e9-124">**送信済みメッセージの編集** - この設定を [**オン**] にすると、ゲストが以前送信したメッセージを編集することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-124">**Edit sent messages** - Turn this setting **On** to allow guests to edit messages they previously sent.</span></span>
-    - <span data-ttu-id="b34e9-125">**ゲストによる送信済みメッセージの削除** - この設定を [**オン**] にすると、ゲストが以前送信したメッセージを削除することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-125">**Guests can delete sent messages** – Turn this setting **On** to allow guests to delete messages they previously sent.</span></span>
-    - <span data-ttu-id="b34e9-126">**チャット** – この設定を [**オン**] にすると、ゲストが Teams でのチャット機能を使用することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-126">**Chat** – Turn this setting **On** to give guests the ability to use chat in Teams.</span></span>
-    - <span data-ttu-id="b34e9-127">**会話で Giphys を使用する** – この設定を [**オン**] にすると、ゲストが会話で Giphys を使用することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-127">**Use Giphys in conversations** – Turn this setting **On** to allow guests to use Giphys in conversations.</span></span> <span data-ttu-id="b34e9-128">Giphy は、ユーザーがアニメーション GIF ファイルを検索および共有することができる、オンライン データベースおよび検索エンジンです。</span><span class="sxs-lookup"><span data-stu-id="b34e9-128">Giphy is an online database and search engine that allows users to search for and share animated GIF files.</span></span> <span data-ttu-id="b34e9-129">各 Giphy にはコンテンツ評価が割り当てられています。</span><span class="sxs-lookup"><span data-stu-id="b34e9-129">Each Giphy is assigned a content rating.</span></span>
-    - <span data-ttu-id="b34e9-130">**Giphy のコンテンツ評価** –  ドロップダウン リストから次の評価を選択します。</span><span class="sxs-lookup"><span data-stu-id="b34e9-130">**Giphy content rating** –  Select a rating from the drop-down list:</span></span>
-       - <span data-ttu-id="b34e9-131">**すべてのコンテンツを許可** - ゲストは、コンテンツ評価に関係なく、すべての Giphy をチャットに挿入することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-131">**Allow all content** - Guests will be able to insert all Giphys in chats, regardless of the content rating.</span></span>
-       - <span data-ttu-id="b34e9-132">**中** - ゲストは、Giphy をチャットに挿入することができますが、成人向けコンテンツの挿入についてはある程度制限されます。</span><span class="sxs-lookup"><span data-stu-id="b34e9-132">**Moderate** - Guests will be able to insert Giphys in chats, but will be moderately restricted from adult content.</span></span>
-       - <span data-ttu-id="b34e9-133">**Strict** –ゲストはチャットに giphy を挿入できますが、成人向けコンテンツの挿入は制限されます。</span><span class="sxs-lookup"><span data-stu-id="b34e9-133">**Strict** – Guests will be able to insert Giphys in chats, but will be restricted from inserting adult content.</span></span>
-    - <span data-ttu-id="b34e9-134">**会話でミームを使う**-**この設定を**オンにすると、ゲストが会話でミームを使用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-134">**Use memes in conversations** - Turn this setting **On** to allow guests to use Memes in conversations.</span></span>
-    - <span data-ttu-id="b34e9-135">**会話でステッカーを使用する** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="b34e9-135">**Use Stickers in conversations** – Turn this setting **On** to allow guests to use stickers in conversations.</span></span> 
+> <span data-ttu-id="405a5-109">ゲストアクセスを有効にするかどうかは、Azure Active Directory、Office 365、SharePoint Online、および Teams の設定によって異なります。</span><span class="sxs-lookup"><span data-stu-id="405a5-109">Turning on guest access depends on settings in Azure Active Directory, Office 365, SharePoint Online, and Teams.</span></span> <span data-ttu-id="405a5-110">詳細については、「 [Teams でゲストアクセスを承認](Teams-dependencies.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="405a5-110">For more information, see [Authorize guest access in Teams](Teams-dependencies.md).</span></span>
 
 
-5.  <span data-ttu-id="b34e9-136">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b34e9-136">Click **Save**.</span></span>
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a><span data-ttu-id="b34e9-137">PowerShell を使用してゲスト アクセスをオンまたはオフにする</span><span class="sxs-lookup"><span data-stu-id="b34e9-137">Use PowerShell to turn guest access on or off</span></span>
+## <a name="configure-guest-access-in-the-teams-admin-center"></a><span data-ttu-id="405a5-111">Teams 管理センターでゲストアクセスを構成する</span><span class="sxs-lookup"><span data-stu-id="405a5-111">Configure guest access in the Teams admin center</span></span>
 
-1.  <span data-ttu-id="b34e9-138">Skype for Business Online PowerShell モジュールを次からダウンローします https://www.microsoft.com/en-us/download/details.aspx?id=39366</span><span class="sxs-lookup"><span data-stu-id="b34e9-138">Download the Skype for Business Online PowerShell module from https://www.microsoft.com/en-us/download/details.aspx?id=39366</span></span>
- 
-2.  <span data-ttu-id="b34e9-139">PowerShell セッションを Skype for Business Online エンドポイントに接続します。</span><span class="sxs-lookup"><span data-stu-id="b34e9-139">Connect a PowerShell session to the Skype for Business Online endpoint.</span></span>
+1.  <span data-ttu-id="405a5-112">Microsoft Teams 管理センターにサインインする。</span><span class="sxs-lookup"><span data-stu-id="405a5-112">Sign in to the Microsoft Teams admin center.</span></span>
 
-    ```
-    Import-Module SkypeOnlineConnector
-    $Cred = Get-Credential
-    $CSSession = New-CsOnlineSession -Credential $Cred
-    Import-PSSession -Session $CSSession
-    ```
-3.  <span data-ttu-id="b34e9-140">設定を確認して、`AllowGuestUser` が `$False` の場合は、[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) コマンドレットを使用して `$True` に設定します。</span><span class="sxs-lookup"><span data-stu-id="b34e9-140">Check your configuration and if `AllowGuestUser` is `$False`, use the [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet to set it to `$True`.</span></span>
+2.  <span data-ttu-id="405a5-113">[**組織全体の設定**] > [**ゲスト アクセス**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="405a5-113">Select **Org-wide settings** > **Guest access**.</span></span>
 
-    ```
-    Get-CsTeamsClientConfiguration
+3. <span data-ttu-id="405a5-114">[ **Microsoft Teams でゲストアクセスを許可**する] を **[オン**] に設定します。</span><span class="sxs-lookup"><span data-stu-id="405a5-114">Set **Allow guest access in Microsoft Teams** to **On**.</span></span>
 
-    Identity                         : Global
-    AllowEmailIntoChannel            : True
-    RestrictedSenderList             :
-    AllowDropBox                     : True
-    AllowBox                         : True
-    AllowGoogleDrive                 : True
-    AllowShareFile                   : True
-    AllowOrganizationTab             : True
-    AllowSkypeBusinessInterop        : True
-    ContentPin                       : RequiredOutsideScheduleMeeting
-    AllowResourceAccountSendMessage  : True
-    ResourceAccountContentAccess     : NoAccess
-    AllowGuestUser                   : True
-    AllowScopedPeopleSearchandAccess : False
-    
-    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
-    ```
-<span data-ttu-id="b34e9-141">これで、自分の組織の Teams にゲスト ユーザーを入れることができるようになりました。</span><span class="sxs-lookup"><span data-stu-id="b34e9-141">You can now have guest users in Teams for your organization.</span></span>
+    ![<span data-ttu-id="405a5-115">ゲスト アクセスの許可の切り替えをオンに設定する</span><span class="sxs-lookup"><span data-stu-id="405a5-115">Allow guest access switch set to On</span></span> ](media/set-up-guests-image1.png)
 
-## <a name="more-information"></a><span data-ttu-id="b34e9-142">詳細情報</span><span class="sxs-lookup"><span data-stu-id="b34e9-142">More information</span></span>
+4.  <span data-ttu-id="405a5-116">[**通話**]、[**会議**]、および [**メッセージング**] で、ゲストユーザーのために何を許可するかに応じて、各機能の [**オン**] または [**オフ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="405a5-116">Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.</span></span>
 
-<span data-ttu-id="b34e9-143">ゲスト アクセスの詳細については以下のビデオをご覧ください。</span><span class="sxs-lookup"><span data-stu-id="b34e9-143">Watch the following video for more details about guest access.</span></span>
+    - <span data-ttu-id="405a5-117">**プライベート通話の発信** – この設定を [**オン**] にするとゲストがピアツーピアの通話を発信することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-117">**Make private calls** – Turn this setting **On** to allow guests to make peer-to-peer calls.</span></span>
+    - <span data-ttu-id="405a5-118">**IP ビデオを許可** - この設定を [**オン**] に切り替えると、ゲストは自分たちの通話および会議でビデオを使用することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-118">**Allow IP video** - Turn this setting **On** to allow guests to use video in their calls and meetings.</span></span>
+    - <span data-ttu-id="405a5-119">**画面共有モード** – この設定は、ゲスト ユーザーが画面共有を利用可能かどうかを制御します。</span><span class="sxs-lookup"><span data-stu-id="405a5-119">**Screen sharing mode** – This setting controls the availability of screen sharing for guest users.</span></span> 
+       - <span data-ttu-id="405a5-120">この設定を [**無効**] にすると、Teams で画面を共有するゲストの機能は削除されます。</span><span class="sxs-lookup"><span data-stu-id="405a5-120">Turn this setting to **Disabled** to remove the ability for guests to share their screens in Teams.</span></span> 
+       - <span data-ttu-id="405a5-121">この設定を [**1 つのアプリケーション**] にすると、個別のアプリケーションの共有を行えるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-121">Turn this setting to **Single application** to allow sharing of individual applications.</span></span> 
+       - <span data-ttu-id="405a5-122">この設定を [**画面全体**] にすると、完全な画面共有を行えるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-122">Turn this setting to **Entire screen** to allow complete screen sharing.</span></span>
+    - <span data-ttu-id="405a5-123">**会議の開始を許可** – この設定を [**オン**] にすると、Microsoft Teams でゲストが会議の開始機能を使用することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-123">**Allow Meet Now** – Turn this setting **On** to allow guests to use the Meet Now feature in Microsoft Teams.</span></span>
+    - <span data-ttu-id="405a5-124">**送信済みメッセージの編集** - この設定を [**オン**] にすると、ゲストが以前送信したメッセージを編集することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-124">**Edit sent messages** - Turn this setting **On** to allow guests to edit messages they previously sent.</span></span>
+    - <span data-ttu-id="405a5-125">**ゲストによる送信済みメッセージの削除** - この設定を [**オン**] にすると、ゲストが以前送信したメッセージを削除することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-125">**Guests can delete sent messages** – Turn this setting **On** to allow guests to delete messages they previously sent.</span></span>
+    - <span data-ttu-id="405a5-126">**チャット** – この設定を [**オン**] にすると、ゲストが Teams でのチャット機能を使用することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-126">**Chat** – Turn this setting **On** to give guests the ability to use chat in Teams.</span></span>
+    - <span data-ttu-id="405a5-127">**会話で Giphys を使用する** – この設定を [**オン**] にすると、ゲストが会話で Giphys を使用することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-127">**Use Giphys in conversations** – Turn this setting **On** to allow guests to use Giphys in conversations.</span></span> <span data-ttu-id="405a5-128">Giphy は、ユーザーがアニメーション GIF ファイルを検索および共有することができる、オンライン データベースおよび検索エンジンです。</span><span class="sxs-lookup"><span data-stu-id="405a5-128">Giphy is an online database and search engine that allows users to search for and share animated GIF files.</span></span> <span data-ttu-id="405a5-129">各 Giphy にはコンテンツ評価が割り当てられています。</span><span class="sxs-lookup"><span data-stu-id="405a5-129">Each Giphy is assigned a content rating.</span></span>
+    - <span data-ttu-id="405a5-130">**Giphy のコンテンツ評価** –  ドロップダウン リストから次の評価を選択します。</span><span class="sxs-lookup"><span data-stu-id="405a5-130">**Giphy content rating** –  Select a rating from the drop-down list:</span></span>
+       - <span data-ttu-id="405a5-131">**すべてのコンテンツを許可** - ゲストは、コンテンツ評価に関係なく、すべての Giphy をチャットに挿入することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-131">**Allow all content** - Guests will be able to insert all Giphys in chats, regardless of the content rating.</span></span>
+       - <span data-ttu-id="405a5-132">**中** - ゲストは、Giphy をチャットに挿入することができますが、成人向けコンテンツの挿入についてはある程度制限されます。</span><span class="sxs-lookup"><span data-stu-id="405a5-132">**Moderate** - Guests will be able to insert Giphys in chats, but will be moderately restricted from adult content.</span></span>
+       - <span data-ttu-id="405a5-133">**Strict** –ゲストはチャットに giphy を挿入できますが、成人向けコンテンツの挿入は制限されます。</span><span class="sxs-lookup"><span data-stu-id="405a5-133">**Strict** – Guests will be able to insert Giphys in chats, but will be restricted from inserting adult content.</span></span>
+    - <span data-ttu-id="405a5-134">**会話でミームを使う**-**この設定を**オンにすると、ゲストが会話でミームを使用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-134">**Use memes in conversations** - Turn this setting **On** to allow guests to use Memes in conversations.</span></span>
+    - <span data-ttu-id="405a5-135">**会話でステッカーを使用する** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。</span><span class="sxs-lookup"><span data-stu-id="405a5-135">**Use Stickers in conversations** – Turn this setting **On** to allow guests to use stickers in conversations.</span></span> 
+
+
+5.  <span data-ttu-id="405a5-136">[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="405a5-136">Click **Save**.</span></span>
+
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a><span data-ttu-id="405a5-137">PowerShell を使用してゲスト アクセスをオンまたはオフにする</span><span class="sxs-lookup"><span data-stu-id="405a5-137">Use PowerShell to turn guest access on or off</span></span>
+<span data-ttu-id="405a5-138">「 [PowerShell を使用してゲストアクセスを有効または無効にする](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="405a5-138">Read [Use PowerShell to turn guest access on or off](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)</span></span>
+
+
+## <a name="video-adding-guests-in-teams"></a><span data-ttu-id="405a5-139">ビデオ: Teams でゲストを追加する</span><span class="sxs-lookup"><span data-stu-id="405a5-139">Video: Adding guests in Teams</span></span>
 
 |  |  |
 |---------|---------|
-| <span data-ttu-id="b34e9-144">Microsoft Teams でのゲストの追加</span><span class="sxs-lookup"><span data-stu-id="b34e9-144">Adding Guests in Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+| <span data-ttu-id="405a5-140">Microsoft Teams でのゲストの追加</span><span class="sxs-lookup"><span data-stu-id="405a5-140">Adding Guests in Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+
+
+## <a name="external-access-federation-vs-guest-access"></a><span data-ttu-id="405a5-141">外部アクセス (フェデレーション) とゲストアクセス</span><span class="sxs-lookup"><span data-stu-id="405a5-141">External access (federation) vs. guest access</span></span>
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
