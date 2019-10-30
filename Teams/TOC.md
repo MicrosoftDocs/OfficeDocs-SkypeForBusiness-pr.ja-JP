@@ -47,21 +47,30 @@
 ### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
+## 外部ユーザーと通信する
+### [別の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)
 
-## ゲスト アクセス
-### [ゲスト アクセスについて](guest-access.md)
-### [ゲストがチームに参加する方法](guest-joins.md)
-### [ゲストのエクスペリエンスについて](guest-experience.md)
-### [Teams でのゲスト アクセスを承認する](teams-dependencies.md)
-### [Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)
-### [Teams でのゲスト アクセスを管理する](manage-guests.md)
-### [チームにゲストを追加する](add-guests.md)
-### [チームのゲスト ユーザーを表示する](view-guests.md)
-### [ゲスト ユーザー情報を編集する](edit-guests-information.md)
-### [PowerShell を使用してチームへのゲスト アクセスを制御する](guest-access-PowerShell.md)
-### [ゲスト アクセスのチェックリスト](guest-access-checklist.md)
+### 外部アクセス (フェデレーション)
+#### [外部アクセスを管理する](manage-external-access.md)
+#### [外部ユーザー向けのネイティブ Teams チャット](native-chat-for-external-users.md)
 
-## [外部アクセス (フェデレーション)](manage-external-access.md)
+
+### ゲスト アクセス
+#### [ゲスト アクセスについて](guest-access.md)
+#### [ゲスト アクセスのチェックリスト](guest-access-checklist.md)
+#### [ゲストがチームに参加する方法](guest-joins.md)
+#### [ゲストのエクスペリエンスについて](guest-experience.md)
+#### [Teams でのゲスト アクセスを承認する](teams-dependencies.md)
+#### [Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)
+#### [Teams でのゲスト アクセスを管理する](manage-guests.md)
+#### [チームにゲストを追加する](add-guests.md)
+#### [チームのゲスト ユーザーを表示する](view-guests.md)
+#### [ゲスト ユーザー情報を編集する](edit-guests-information.md)
+#### [PowerShell を使用してゲスト アクセスを制御する](guest-access-PowerShell.md)
+#### [ゲスト アクセスのトラブルシューティング](troubleshoot-guest-access.md)
+
+
+
 
 ## Teams の管理
 ### [管理者ロール](using-admin-roles.md)
@@ -719,9 +728,11 @@
 ### [医療関係組織向けテンプレートでTeamsを始めましょう](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [医療組織向け Secure Messaging で Teams を始めましょう](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [メッセージの委任](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [電子医療記録を Microsoft Teams に統合する](expand-teams-across-your-org/healthcare/patients-app.md)
-#### [DSTU2 インターフェイスの仕様](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-#### [STU3 インターフェイスの仕様](expand-teams-across-your-org/healthcare/stu3-interface.md)
+### [患者アプリの概要](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### [電子医療記録を Microsoft Teams に統合する](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [DSTU2 インターフェイスの仕様](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [STU3 インターフェイスの仕様](expand-teams-across-your-org/healthcare/stu3-interface.md)
+#### [患者アプリの監査ログ](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [教育機関向けの Teams ](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
