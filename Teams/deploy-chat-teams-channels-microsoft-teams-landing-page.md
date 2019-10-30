@@ -11,18 +11,17 @@ search.appverid: MET150
 description: Microsoft Teams のチャット、チーム、チャネル、およびアプリを展開する際の段階的なガイダンス
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56bef509fdff71a8890f85ec9aa465650daf570b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: dcb22715a5dbb71239e1953b995933ab204255ec
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483805"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753442"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -89,7 +88,7 @@ Teams には、組織に適した Teams の管理に使用できる、カスタ�
 
 |確認事項|アクション |
 |------------|-------|
-|<ul><li>自分の組織の外部アクセスをオンにするか?</li><li>有効にする場合は、自分の組織との通信を許可するドメインを制限するか?</li></ul> |<br>外部アクセスをオンにする場合は、「[Teams のユーザーが別の Teams 組織のユーザーとチャットおよび通信できるようにする](manage-external-access.md#let-your-teams-users-chat-and-communicate-with-users-in-another-organization)」を参照してください。|
+|<ul><li>自分の組織の外部アクセスをオンにするか?</li><li>有効にする場合は、自分の組織との通信を許可するドメインを制限するか?</li></ul> |<br>外部アクセスを有効にするには、「[外部アクセスを計画する](manage-external-access.md#plan-for-external-access)」を参照してください。|
 |||
 
 ### <a name="guest-access"></a>ゲスト アクセス
