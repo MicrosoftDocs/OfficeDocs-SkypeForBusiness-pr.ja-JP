@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4801545455b9f3d3762ae5b3d3fcce1ffe71eed4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 029d4870a6826866ddff9b712c5acd2b59897b75
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245153"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772401"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトに関する環境の検出
 ===================================================
@@ -116,7 +116,7 @@ ms.locfileid: "36245153"
 > | どの Teams 機能とモダリティが使用されていますか? | <input type="checkbox">チャネルベースの会話 <br/> <input type="checkbox">プライベートチャット <br/> <input type="checkbox">ゲストアクセス <br/> <input type="checkbox">チャネル会議 <br/> <input type="checkbox">プライベート会議 <br/> <input type="checkbox">プライベート通話 <br/> <input type="checkbox">アドホックチャネル meetup <br/> <input type="checkbox">会議のビデオ <br/> <input type="checkbox">会議での画面共有 <br/> <input type="checkbox">電話会議 <br/><input type="checkbox">アプリケーション (アプリ)<br> &nbsp;&nbsp;タブ&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;ボット&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;コネクタ&nbsp; <input type="checkbox"><br><input type="checkbox">カスタムクラウドストレージの統合 <br>&nbsp;&nbsp; (Box、Dropbox、[ファイル]、[Google Drive &nbsp; ]) <br/> <input type="checkbox">チャネルメールの統合 <br/> <input type="checkbox">その他 ([コメント] 列で指定します) | |
 > | チームにどのようなアプリケーションを展開していますか? | | |
 > | 特定的に禁止している Teams の機能はありますか? <br/>[はい] の場合は、[コメント] 列の詳細を確認します。 | <input type="checkbox">うん <br/> <input type="checkbox">違います ||
-> | どの Teams クライアントが使用されていますか? | <input type="checkbox">Web <br/> <input type="checkbox">窓 <br/> <input type="checkbox">For <br/> <input type="checkbox">I/o <br/> <input type="checkbox">用 <br/> <input type="checkbox">Windows Mobile | |
+> | どの Teams クライアントが使用されていますか? | <input type="checkbox">Web <br/> <input type="checkbox">窓 <br/> <input type="checkbox">For <br/> <input type="checkbox">走ら <br/>  <input type="checkbox">I/o <br/> <input type="checkbox">用 <br/> <input type="checkbox">Windows Mobile | |
 > | チームを作成するためのアクセス許可があるのは誰ですか? | <input type="checkbox">組織内のすべてのユーザー <br>&nbsp;&nbsp; &nbsp;設定) <br/> <input type="checkbox">特定のユーザー <br>&nbsp;&nbsp; ([コメント] 列で指定します&nbsp;)。 | |
 > | Teams でセキュリティおよびコンプライアンスの機能を使用していますか? | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 
@@ -171,7 +171,7 @@ ms.locfileid: "36245153"
 
 > | 質問 | 回答 | コメント |
 > |---|---|---|
-> | ユーザーが使用しているデスクトップ OS は何ですか? | <input type="checkbox">Windows XP の場合 <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac ([コメント] 列でバージョンを指定します。) <br/> <input type="checkbox">その他 ([コメント] 列の詳細に注意してください)。 | |
+> | ユーザーが使用しているデスクトップ OS は何ですか? | <input type="checkbox">Windows XP の場合 <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac ([コメント] 列でバージョンを指定します。) <br/> <input type="checkbox">Linux ([コメント] 列で配布を指定します。) <br/><input type="checkbox">その他 ([コメント] 列の詳細に注意してください)。 | |
 > | 展開されている Microsoft Office のバージョン <br>これらのデバイスをお持ちですか? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office for Mac 2011 <br/> <input type="checkbox">Office for Mac 2016 <br/> <input type="checkbox">その他 ([コメント] 列の詳細に注意してください)。 | |
 > | 使用中の Office 展開テクノロジ <br>組織内の場合 | <input type="checkbox">MSI <br/> <input type="checkbox">クイック実行 | |
 > | 許可されている携帯電話とサポートされているモバイル <br>使用中のプラットフォーム <br/>該当するものをすべて選択します。 | <input type="checkbox">窓 <br/> <input type="checkbox">モバイル <br/> <input type="checkbox">I/o <br/> <input type="checkbox">用 <br/> <input type="checkbox">その他 ([コメント] 列の詳細に注意してください)。 | |

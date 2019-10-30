@@ -1,1 +1,1 @@
-新しい Microsoft Teams 管理センターをご利用いただけます。 2018 年 3 月から、現在の Skype for Business 管理センターと Microsoft 365 管理センターでの Microsoft Teams エクスペリエンスの両方の設定を、順次移行しています。 設定が移行されると、通知が表示され、新しい Microsoft Teams 管理センター内のその設定の場所に移動します。 詳細については、「[新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](../manage-teams-skypeforbusiness-admin-center.md)」をご覧ください。
+Microsoft Teams 管理センターは、Skype for Business 管理センターを徐々に置き換えており、Microsoft 365 管理センターから Teams の設定を移行しています。 設定が移行されると、通知が表示され、Teams 管理センター内のその設定の場所に移動します。 詳細については、「[Teams 管理センターへの移行中に Teams を管理する](../manage-teams-skypeforbusiness-admin-center.md)」をご覧ください。

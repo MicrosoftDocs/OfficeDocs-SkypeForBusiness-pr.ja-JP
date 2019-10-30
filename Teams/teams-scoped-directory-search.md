@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 094d83f8f6b21fc5e820235b91fa14820f6b407e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fca0feadf29ce83a8a6867f0e00b06fc0426a203
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570115"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772338"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams の範囲指定ディレクトリ検索を使用する
 
@@ -56,4 +56,5 @@ Microsoft Teams を使用すると、組織はディレクトリのカスタム�
     ![Microsoft Teams 管理センターでのスコープディレクトリ検索](media/teams-scoped-directory-search-image1.png)
 
 
-
+> [!IMPORTANT]
+> この変更は、複製に最大24時間かかることがあります。

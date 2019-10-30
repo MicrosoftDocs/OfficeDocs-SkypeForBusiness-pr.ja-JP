@@ -17,17 +17,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e8a77a6d03735769e61f679126b3a5aac7f70e3
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: b87737aae65493652f3b87de6bbd1369d6982526
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37563610"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772361"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
 
-Microsoft Teams には、Web、デスクトップ (Windows、Mac)、およびモバイル (Android、iOS) で利用できるクライアントがあります。これらのクライアントはすべてインターネット接続が必要で、オフライン モードをサポートしていません。
+Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、web、モバイル (Android および iOS) で使用できるクライアントがあります。 これらのクライアントはすべてアクティブなインターネット接続が必要で、オフライン モードをサポートしていません。
 
 > [!NOTE]
 > 2018 年 11 月 29 日付で、Microsoft Store から入手可能な Microsoft Teams の Windows 10 S (プレビュー) アプリが使用できなくなります。 代わりに、Windows 10 S モードを実行しているデバイスに Teams デスクトップクライアントをダウンロードしてインストールできるようになりました。 デスクトップクライアントをダウンロードするには、 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)にアクセスしてください。 Teams デスクトップクライアントの MSI ビルドは、Windows 10 S モードを実行しているデバイスではまだ利用できません。
@@ -40,13 +40,13 @@ Microsoft Teams には、Web、デスクトップ (Windows、Mac)、およびモ
 > [!Tip]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションであり、 [Office 365 ProPlus でも利用でき](https://docs.microsoft.com/en-us/deployoffice/teams-install)ます。 Microsoft Teams は、Windows (7 以上) の32 ビット、 64 ビット バージョン、および macOS (10.10 以上) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 
+Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションであり、 [Office 365 ProPlus でも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は Windows (7 +)、32ビットバージョンと64ビットバージョン、macOS (10.10 +)、Linux (Debian パッケージ`.deb`、Red Hat パッケージマネージャー `.rpm`) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、apt、yum などのパッケージマネージャーが、必要な要件をすべてインストールしようとします。 ただし、このようになっていない場合は、チームを Linux にインストールする前に、報告された要件をインストールする必要があります。
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
 デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを PC にインストールする場合には必要ありませんが、Mac では必要になります) 。
 
-IT 管理者は好きな方法で、System Center Configuration Manager (Windows)、または Jamf Pro (macOS) などのインストール ファイルを組織のコンピューターに配布できます。 Windows ディストリビューションの MSI パッケージを取得するには、[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)を参照ください。  
+IT 管理者は、組織内のコンピューターにインストールファイルを配布するのに適した方法を選ぶことができます。 たとえば、System Center Configuration Manager (Windows) または Jamf Pro (macOS) などがあります。 Windows ディストリビューションの MSI パッケージを取得するには、[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)を参照ください。  
 
 > [!NOTE]
 > これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。
@@ -99,6 +99,30 @@ IT 管理者は、Teams の管理の展開を使用して、Jamf Pro などの�
 
 > [!NOTE]
 > パッケージのインストールで問題が発生した場合は、報告してください。 この記事の最後の**フィードバック**セクションで、**製品のフィードバック**をクリックします。
+
+### <a name="linux"></a>走ら
+
+Linux ユーザーは、Debian `.deb`パッケージまたは Red Hat パッケージ`.rpm`を使って Teams をインストールできます。 
+
+[!NOTE] Linux クライアントの Teams は、限定されたプレビューで利用できます。 クライアント内から`Report a Problem` 、を使ってバグを送信します。 既知の問題については、「[既知の問題](Known-issues.md)」をご覧ください。
+
+#### <a name="install-teams-using-deb-package"></a>DEB パッケージを使用して Teams をインストールする
+
+1. からhttps://aka.ms/getteamsパッケージをダウンロードします。
+2. 次のいずれかの方法でインストールします。  
+    - Ubuntu ソフトウェアツールを使用してパッケージを開き、セルフガイド付きの Linux アプリのインストールプロセスを開始します。
+    - または、端末を気に入った場合は、次のように入力します。`sudo apt install **teams download file**`
+
+アクティビティを通じて、または「ターミナルから」 `Teams`と入力して、チームを起動できます。 
+
+#### <a name="install-teams-using-rpm-package"></a>RPM パッケージを使用してチームをインストールする
+
+1. からhttps://aka.ms/getteamsパッケージをダウンロードします。
+2. 次のいずれかの方法でインストールします。
+    - Red Hat パッケージ管理ツールを使用してパッケージを開き、自己紹介の Linux アプリのインストールプロセスを開始します。
+    - または、端末を気に入った場合は、次のように入力します。`sudo yum install **teams download file**`
+
+アクティビティを通じて、または「ターミナルから」 `Teams`と入力して、チームを起動できます。
 
 <a name="web-client"></a>Web クライアント 
 ----------

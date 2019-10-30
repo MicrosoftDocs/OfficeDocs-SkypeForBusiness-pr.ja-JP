@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会議移行サービス (MMS) は、バックグラウンドで実行されるサービスで、Skype for Business および Microsoft Teams の会議を自動的に更新します。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: cd7796b600486b672318ecbd67b50ee6d68f43e4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306292"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772281"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>会議移行サービス (MMS) を使用する
 
@@ -94,11 +94,11 @@ MMS がトリガーされた時点では、通常、ユーザーの会議が移�
 次のような場合、MMS は既存の Skype for Business および Microsoft Teams の会議を更新して、ダイヤルインの調整を追加、削除、または変更します。
 
 - Microsoft 電話会議サービスライセンスをユーザーに割り当てたり、削除したりする場合、そのユーザーはサードパーティの電話会議プロバイダーに対して有効になっていません。
-- ユーザーの電話会議プロバイダーを他のプロバイダーから Microsoft に変更すると、そのユーザーに Microsoft 電話会議ライセンスが割り当てられます。 詳細については、「 [Microsoft を電話会議プロバイダーとして割り当てる](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。 また、サードパーティの電話会議プロバイダー (ACP) のサポートは、[前に発表](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)した2019年4月1日に終了する予定です。
+- ユーザーの電話会議プロバイダーを他のプロバイダーから Microsoft に変更すると、そのユーザーに Microsoft 電話会議ライセンスが割り当てられます。 詳細については、「 [Microsoft を電話会議プロバイダーとして割り当てる](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。 また、サードパーティの電話会議プロバイダー (ACP) のサポートは、[前に発表](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)した2019年4月1日に終了する予定です。
 - ユーザーの電話会議を有効または無効にする場合。
 - パブリック会議を使用するように構成されたユーザーの会議 ID を変更またはリセットする場合。
 - ユーザーを新しい電話会議ブリッジに移行する場合
-- 電話会議ブリッジの電話番号が割り当てられていない場合。 これは、追加の手順が必要な複雑なシナリオです。 詳細については、「[電話会議ブリッジの電話番号を変更](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)する」を参照してください。
+- 電話会議ブリッジの電話番号が割り当てられていない場合。 これは、追加の手順が必要な複雑なシナリオです。 詳細については、「[電話会議ブリッジの電話番号を変更](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)する」を参照してください。
 
 ユーザーの電話会議の設定に対する変更の一部は、MMS をトリガーしません。特に、次の 2 つの変更では、MMS によって会議が更新されません。
 
@@ -174,7 +174,7 @@ Windows PowerShell を使用すると、進行中の移行の状態を確認し�
 1. 影響を受けているユーザーを特定します。 次のコマンドを実行して、影響を受けているユーザーと、報告された特定のエラーのリストを取得します。
 
     ```
-    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table Identity, LastMessage
+    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. 影響を受けるユーザーごとに、会議移行ツールを実行して、手動で会議を移行します。
 
@@ -212,4 +212,4 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 [Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[オンプレミスとクラウドの間でユーザーを移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[ユーザーのオンプレミスとクラウド間の移動](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)

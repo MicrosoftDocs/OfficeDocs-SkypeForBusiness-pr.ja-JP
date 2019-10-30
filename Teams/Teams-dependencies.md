@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 846bc820e214f6d0468de46844ddca59392399f5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9ae23ec1a77a4adeaf6ec577146001e108807c15
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567036"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753262"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
@@ -51,7 +51,7 @@ ms.locfileid: "37567036"
 
 ## <a name="control-guest-access-in-azure-active-directory"></a>Azure Active Directory のゲスト アクセスを管理する
 
-Azure AD を使用し、外部の共同作業者をゲストとして、どんな方法で、テナントに招待できるかどうかを決定します。 Azure B2B のゲスト アクセスの詳細については、「[Azure Active Directory B2B のゲスト ユーザー アクセスとは](https://docs.microsoft.com/ja-JP/azure/active-directory/b2b/what-is-b2b)」を参照してください。 Azure AD の役割に関する詳細については、「[Azure Active Directory テナントでパートナー組織からユーザーにアクセス許可を付与する](https://docs.microsoft.com/ja-JP/azure/active-directory/b2b/add-guest-to-role)」を参照してください。
+Azure AD を使用し、外部の共同作業者をゲストとして、どんな方法で、テナントに招待できるかどうかを決定します。 Azure B2B のゲスト アクセスの詳細については、「[Azure Active Directory B2B のゲスト ユーザー アクセスとは](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)」を参照してください。 Azure AD の役割に関する詳細については、「[Azure Active Directory テナントでパートナー組織からユーザーにアクセス許可を付与する](https://docs.microsoft.com/azure/active-directory/b2b/add-guest-to-role)」を参照してください。
 
 招待の設定は、テナント レベルで適用され、ディレクトリ、テナント、アプリケーション レベルでゲストのエクスペリエンスを制御します。 Azure portal でこの設定を構成するには、**[Azure Active Directory]** > **[ユーザー]** > **[ユーザー設定]** の順に移動し、**[外部ユーザー]** で **[外部コラボレーションの設定を管理します]** を選択します。
 
@@ -61,33 +61,38 @@ Azure AD には、外部ユーザーを構成する次の設定があります�
 - [**管理者とゲスト招待元ロールのユーザーが招待可能**]: [**はい**] の場合、管理者およびゲスト招待元ロールのユーザーがテナントにゲストを招待することができます。 [**いいえ**] の場合、管理者およびユーザーはゲストをテナントに招待できません。
 - [**メンバーが招待可能**]: [**はい**] の場合、自分のディレクトリ内の管理者ではないメンバーが、Azure AD によってセキュリティが確保された SharePoint サイトや Azure リソースなどで共同作業を行うゲストを招待することができます。 [**いいえ**] の場合、ゲストを自分のディレクトリに招待できるのは管理者のみになります。</br>
       
-    > [!NOTE]
-    > 現時点では、Teams はゲストの招待者の役割をサポートしていません。 Teams でゲスト アクセスを機能させるには、少なくとも[**メンバーが招待可能**] を [**はい**]に設定する必要があります。
+    > [!IMPORTANT]
+    > ゲスト アクセスを Teams ですべて機能させるには、[**メンバーが招待できる**] を [**はい**] に設定する必要があります。
 - [**ゲストが招待可能**]: [**はい**] の場合、自分のディレクトリ内のゲストは他のゲストを招待して、Azure AD によってセキュリティが確保された SharePoint サイトや Azure リソースなどでそれらのゲストと共同作業を行うことができます。 [**いいえ**] の場合、組織と共同作業を行う他のゲストをゲストが招待することはできません。
+    > [!IMPORTANT]
+    > 現在、Teams はゲスト招待者の役割をサポートしていないため、[**ゲストが招待できる**] を [**はい**] に設定しても、ゲストは Teams 内の他のゲストを招待できません。
  
-ゲストを招待できるユーザーの管理方法の詳細については、「[Azure Active Directory B2B コラボレーションの招待の委任](https://docs.microsoft.com/ja-JP/azure/active-directory/b2b/delegate-invitations)」を参照してください。
+ゲストを招待できるユーザーの管理方法の詳細については、「[Azure Active Directory B2B コラボレーションの招待の委任](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)」を参照してください。
 
 > [!NOTE]
 > どのドメインをゲストとしてテナントに招待できるかを管理することもできます。 詳細については、「[Office 365 グループへのゲスト アクセスを許可/拒否する](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)」を参照してください。
 
 ユーザー ゲスト アカウントを手動で Azure AD B2B に追加する必要はありません。ゲストを Teams に追加すると、アカウントは自動的にディレクトリに追加されます。
 
-Azure AD ライセンスでは、1 つのライセンスにつき、最大 5 人のゲストを追加できます。 Azure AD のライセンスに関する詳細については、「[Azure Active Directory B2B コラボレーションのライセンスに関するガイダンス](https://docs.microsoft.com/ja-JP/azure/active-directory/b2b/licensing-guidance)」を参照してください。
+### <a name="licensing-for-guest-access"></a>ゲスト アクセスのライセンス
+ゲスト アクセス ライセンスは、Azure AD ライセンスの一部です。 ゲスト アクセスはすべての Office 365 Business Premium サブスクリプションおよび Office 365 Enterprise サブスクリプションに含まれています。 ライセンスに関する詳細については、[Azure Active Directory B2B コラボレーションのライセンスに関するガイダンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)をご覧ください。
+
+
+> [!NOTE]
+> Exchange Online プラン 2 などのスタンドアロン Office 365 サブスクリプションプランのみを持っている組織内のユーザーは、Teams によって組織に属しているものと見なされるため、その同じ組織へのゲストとして招待されることはできません。 Teams を使用するこれらのユーザーの場合は、Office 365 Business Premium、Office 365 Enterprise、または Office 365 Education サブスクリプションが割り当てられる必要があります。 
 
 ## <a name="control-guest-access-in-teams"></a>Teams でのゲスト アクセスを管理する
 
-Teams では、自分の組織においてゲストのエクスペリエンスを有効にするか無効にするかを管理できます。 この設定は既定で無効になっており、Teams のテナント レベルのみで適用されます。
-
-Microsoft Teams 管理センターで Teams のゲスト アクセスの設定を管理できます。 詳細については、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」を参照してください。 
+Teams でのゲスト アクセスは、既定でオフになっています。 ゲスト アクセスをオンにするに場合は、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」を参照してください。 
 
 
 ## <a name="control-guest-access-in-office-365-groups"></a>Office 365 グループでゲスト アクセスを管理する
 
-Office 365 グループから、自分の組織内のすべての Office 365 グループおよび Microsoft Teams へのゲスト ユーザーおよびゲスト アクセスの追加を制御できます。
+Office 365 グループから、自分の組織内のすべての Office 365 グループおよび Microsoft Teams のチームへのゲスト ユーザーおよびゲスト アクセスの追加を制御できます。
 
-1. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) で、Office 365 全体の管理者アカウントを使用してサインインします。
+1. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) で、Office 365 全体管理者アカウントを使用してサインインします。
 
-2. ナビゲーション メニューで [**設定**] を選択し、[**Services &amp; add-ins (サービスとアドイン)**] を選択します。
+2. 左側で [**設定**] を選択し、[**Services &amp; add-ins (サービスとアドイン)**] を選択します。
 
 3. [**Office 365 グループ**] を選択します。
 
@@ -97,32 +102,32 @@ Office 365 グループから、自分の組織内のすべての Office 365 グ
  
    ![オプションが有効になっている Office 365 グループ パネルを示すスクリーン ショット](media/authorize-guest-image3.png)
 
-上記の設定は、テナント レベルで適用され、Office 365 グループおよび Microsoft Teams でのゲストのエクスペリエンスを制御します。
+上記の設定は、テナント レベルで適用され、Office 365 グループおよび Teams でのゲストのエクスペリエンスを制御します。
 
-グループのゲスト アクセスの詳細については、「[Office 365 グループのゲスト アクセス](https://support.office.com/ja-JP/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」を参照してください。ゲスト アクセスの仕組み、ゲスト アクセスの管理方法、よくある質問への回答が記載されています。
+グループのゲスト アクセスの詳細については、「[Office 365 グループのゲスト アクセス](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」を参照してください。ゲスト アクセスの仕組み、ゲスト アクセスの管理方法、よくある質問への回答が記載されています。
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online と OneDrive for Business へのゲスト アクセスを管理する
 
 Teams は、SharePoint Online と OneDrive for Business を利用して、チャネルとチャット会話のファイルやドキュメントを保管します。  
 
-Teams のゲスト アクセスの完全な操作性を有効にするため、Office 365 管理者は次の設定を**オン**にする必要があります。
+Teams のゲスト アクセスを完全に利用するには、Office 365 管理者は次の設定を構成する必要があります。
 
-- SharePoint Online: **既存のゲスト**、**新規および既存のゲスト**、または **すべてのユーザー**
+- SharePoint Online: **既存のゲスト**、**新規および既存のゲスト**、または **すべてのユーザー**を選択します。
 
-    詳細については、「[外部共有を有効または無効にする](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)」を参照してください。
+    詳細については、「[外部共有をオンまたはオフにする](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)」を参照してください。
 
-- Office 365 グループ: **グループ所有者に組織外のユーザーをグループに追加させる**
+- Office 365 グループ: [**グループ所有者が組織外のユーザーをグループに追加できるようにする**] をオンにします。
 
     詳細については、上記の「[Office 365 グループのゲスト アクセスを管理する](#control-guest-access-in-office-365-groups)」を参照してください。
   
 上記の設定は、テナント レベルで適用され、SharePoint Online、OneDrive for Business、Office 365 グループおよび Teams でのゲストのエクスペリエンスを制御します。
 
-Teams で接続したチーム サイトの SharePoint Online 外部ユーザー設定を管理できます。 詳細については、「[SharePoint チーム サイト設定を管理する](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42)」をご覧ください。
+Teams に接続されたチーム サイトの SharePoint Online の外部ユーザー設定を管理できます。 詳細については、「[SharePoint チーム サイト設定を管理する](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42)」をご覧ください。
 
-## <a name="guest-access-vs-external-access-federation"></a>ゲスト アクセスと外部アクセス (フェデレーション)
+## <a name="external-access-federation-vs-guest-access"></a>外部アクセス (フェデレーション) とゲスト アクセス
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Microsoft 365 ゲストの共有設定のリファレンス](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)

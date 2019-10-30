@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '概要: Skype for Business Server を Exchange 2013 または2016に統合する計画中に、このトピックを確認してください。'
-ms.openlocfilehash: 3b71dd740440aeab37919bb94ef98eaeb83d4d87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297345"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772620"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Skype for Business での Exchange ユニファイド メッセージング統合の計画
 
@@ -36,7 +36,6 @@ Microsoft Exchange Server 2013 および2016では、exchange UM は Exchange �
 - Microsoft Exchange Server 2010 または最新の service pack (Skype for Business Server 2015 のみ)
 - Microsoft Exchange Server 2013
 - Microsoft Exchange Server 2016
-- Microsoft Exchange Server 2019 (Skype for Business Server 2019 のみ)
 
 > [!NOTE]
 > 以前に認識されていた Exchange ユニファイドメッセージングは、Skype for Business Server 2019 では利用できなくなりました。電話システムを使用してボイスメールメッセージを記録し、ユーザーの Exchange メールボックスに記録したままにします。 詳細については、「[クラウドボイスメールサービスの計画](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
@@ -56,7 +55,7 @@ Skype for Business Server のエンタープライズボイスは、Exchange ユ
 - **Fax サービス**Exchange UM には fax 機能が含まれています。これにより、ユーザーは Exchange メールボックスで着信 fax を受信できるようになります。 詳細については、Microsoft Exchange Server ドキュメントの「[ユニファイドメッセージング](https://go.microsoft.com/fwlink/p/?linkId=135652)」を参照してください。
 
     > [!NOTE]
-    > Exchange UM サーバーによって提供される Fax サービスは、Microsoft exchange server 2010 2010 に統合されている Skype for business server の展開、および最新の service pack、exchange 2013、または exchange 2016 では利用できません。
+    > Exchange UM サーバーによって提供される Fax サービスは、Microsoft Exchange Server 2010 2010 に統合されている Skype for Business Server の展開、および最新の service pack、Exchange 2013、または Exchange 2016 では利用できません。
 
 ## <a name="components-and-topologies-for-on-premises-unified-messaging-in-skype-for-business-server"></a>Skype for Business Server のオンプレミスユニファイドメッセージングのコンポーネントとトポロジ
 
@@ -94,7 +93,7 @@ Skype for Business Server は、Exchange UM との統合のために次のトポ
 
 - Exchange 管理者と協力して、どのタスクが実行されるかを確認して、円滑かつ確実に統合されるようにします。
 
-- Exchange UM のユーザーを有効にする exchange の各ユニファイドメッセージング (UM) フォレストに Exchange メールボックスサーバーの役割を展開します。 Exchange server の役割のインストールの詳細については、Microsoft Exchange Server 2013 に関するドキュメントを参照してください。
+- Exchange UM のユーザーを有効にする exchange の各ユニファイドメッセージング (UM) フォレストに Exchange メールボックスサーバーの役割を展開します。 Exchange server の役割のインストールの詳細については、Microsoft Exchange Server のドキュメントを参照してください。
 
     > [!IMPORTANT]
     > Exchange ユニファイドメッセージング (UM) がインストールされている場合は、自己署名証明書を使用するように構成されています。 自己署名証明書では、Skype for Business Server と Exchange UM が相互に信頼することはできません。このため、両方のサーバーが信頼する証明機関の証明書を個別に要求する必要があります。

@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14f41c30c00c871ba4a0a96717fabba422cf85dd
-ms.sourcegitcommit: 14d342644d94f75396cf38bfe787cab408e1fb77
+ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37590139"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772351"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 
@@ -54,6 +54,21 @@ ms.locfileid: "37590139"
 |ビデオ  |    互換性のある web カメラ     |
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
 |ビデオ通話と会議 | ビデオ通話とオンライン会議の操作性を向上させるには、2.0 GHz プロセッサと 4.0 GB の RAM (以上) を搭載したコンピューターを使うことをお勧めします。 オプションの [背景ビデオのぼかし] では、高度なベクトル拡張機能 2 (AVX2) がサポートされていて、最も遅い 2013 Mac デバイス以降でサポートされています。 サポートされていないデコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。|
+
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Linux での Teams デスクトップアプリのハードウェア要件
+
+|**コンポーネント**|**要件**  |
+|---------|---------|
+|コンピューターとプロセッサ    | 最小の 1.6 GHz (またはそれ以上) (32 ビットまたは64ビット)。        |
+|メモリ     |    2.0 GB の RAM     |
+|ハードディスク    | 3.0 GB の空きディスク領域        |
+|Display    |   1024 x 768 画面の解像度 |
+|グラフィックスハードウェア |  最小 128 MB のグラフィックスメモリ
+|オペレーティング システム  | DEB、スナップ、または RPM をインストールできる Linux ディストリビューション。 |
+|ビデオ    |  USB 2.0 ビデオカメラ       |
+|デバイス    |   標準のラップトップカメラ、マイク、スピーカー    | 
+|音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
+|ビデオ通話と会議 | ビデオ通話とオンライン会議の操作性を向上させるには、2.0 GHz プロセッサと 4.0 GB の RAM (以上) を搭載したコンピューターを使うことをお勧めします。 オプションの [背景ビデオのぼかし] では、高度なベクトル拡張機能 2 (AVX2) がサポートされていて、最も遅い 2013 Mac デバイス以降でサポートされています。 サポートされていないデコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>モバイルデバイス上の Teams アプリのハードウェア要件
 
