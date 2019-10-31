@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87737aae65493652f3b87de6bbd1369d6982526
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: bfc56f9f7b02acda61b0342f28b14da5379bea31
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772361"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886430"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -104,11 +104,12 @@ IT 管理者は、Teams の管理の展開を使用して、Jamf Pro などの�
 
 Linux ユーザーは、Debian `.deb`パッケージまたは Red Hat パッケージ`.rpm`を使って Teams をインストールできます。 
 
-[!NOTE] Linux クライアントの Teams は、限定されたプレビューで利用できます。 クライアント内から`Report a Problem` 、を使ってバグを送信します。 既知の問題については、「[既知の問題](Known-issues.md)」をご覧ください。
+> [!NOTE] 
+> Linux クライアントの Teams は、限定されたプレビューで利用できます。 クライアント内から`Report a Problem` 、を使ってバグを送信します。 既知の問題については、「[既知の問題](Known-issues.md)」をご覧ください。
 
 #### <a name="install-teams-using-deb-package"></a>DEB パッケージを使用して Teams をインストールする
 
-1. からhttps://aka.ms/getteamsパッケージをダウンロードします。
+1. からhttps://aka.ms/getteamsパッケージをダウンロードします。 (Linux クライアントは、限定されたプレビューであり、まもなく起動されます。 ダウンロードページに Linux クライアントが表示されない場合は、まだ起動していません。)
 2. 次のいずれかの方法でインストールします。  
     - Ubuntu ソフトウェアツールを使用してパッケージを開き、セルフガイド付きの Linux アプリのインストールプロセスを開始します。
     - または、端末を気に入った場合は、次のように入力します。`sudo apt install **teams download file**`
@@ -117,7 +118,7 @@ Linux ユーザーは、Debian `.deb`パッケージまたは Red Hat パッケ�
 
 #### <a name="install-teams-using-rpm-package"></a>RPM パッケージを使用してチームをインストールする
 
-1. からhttps://aka.ms/getteamsパッケージをダウンロードします。
+1. からhttps://aka.ms/getteamsパッケージをダウンロードします。 (Linux クライアントは、限定されたプレビューであり、まもなく起動されます。 ダウンロードページに Linux クライアントが表示されない場合は、まだ起動していません。)
 2. 次のいずれかの方法でインストールします。
     - Red Hat パッケージ管理ツールを使用してパッケージを開き、自己紹介の Linux アプリのインストールプロセスを開始します。
     - または、端末を気に入った場合は、次のように入力します。`sudo yum install **teams download file**`

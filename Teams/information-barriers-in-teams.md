@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 情報の障壁とチームへの影響について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b38a21e9e18bb94809a8c42fba33ab273cfb004
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 9a8f67e03ca005ef99a4a2fbfd3c3e05373c53ad
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772590"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885531"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -64,7 +64,7 @@ IB コンプライアンス管理の役割は、情報バリアポリシーの�
 - **ユーザーが会議に参加するように招待され**ました-ユーザーが会議に参加するよう招待されたときに、ユーザーのポリシーが他のチームメンバーのポリシーに対して評価され、違反がある場合は、ユーザーが会議に参加することはできません。
 - **画面は、2人以上のユーザー間で共有され**ます。画面が2人以上のユーザーの間で共有されている場合は、他のユーザーの情報バリアポリシーに違反しないように画面共有を評価する必要があります。 情報バリアのポリシーに違反した場合、画面の共有は許可されません。
 - **ユーザーがチームに電話による通話 (VOIP) を**行う-音声通話が他のユーザーまたはユーザーのグループによって開始されたときは、他のチームメンバーの情報バリアポリシーに違反していないことを確認するために、通話が評価されます。 違反が発生した場合、音声通話はブロックされます。
-- **Teams のゲストユーザー** (情報バリアポリシー) は、teams のゲストユーザーにも適用されます。 組織のグローバルアドレス一覧でゲストユーザーを検出できるようにする必要がある場合は、「 [Office 365 グループでゲストアクセスを管理](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)する」を参照してください。 ゲストユーザーが検出可能になったら、[情報バリアポリシーを定義](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)できます。
+- **Teams のゲストユーザー** (情報バリアポリシー) は、teams のゲストユーザーにも適用されます。 組織のグローバルアドレス一覧でゲストユーザーを検出できるようにする必要がある場合は、「 [Office 365 グループでゲストアクセスを管理](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)する」を参照してください。 ゲストユーザーが検出可能になったら、[情報バリアポリシーを定義](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)できます。 
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>ポリシーが変更された場合、既存のチャットスレッドはどうなりますか?
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef0a06ceb37cdfff3e9e4952f10397e7ee9b698
-ms.sourcegitcommit: 876b576db1fee38c09ab3a0092116212e498eda7
+ms.openlocfilehash: dc54251d228a4b496480759d90d850cf000f5aeb
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "37733129"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885541"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Skype for Business から IT 管理者&mdash;向けの Teams にアップグレードする
 
@@ -227,6 +227,8 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 - Skype for Business アカウントを使用しているユーザーがいる場合は、オンプレミスの Skype for Business アカウントを使用しているすべてのユーザーに、他のモードを明示的に割り当てない限り、チームのテナントレベルで teams Sonly モードを割り当てないでください。 
 
 - ユーザーが正しい Skype for Business の属性を使用して、Azure AD に正しく同期されていることを確認する必要があります。 これらの属性は、"Msrtcsip-userenabled true-" というすべてのプレフィックスです。 ユーザーが Azure AD と適切に同期されていない場合、Teams の管理ツールでは、これらのユーザーを管理することはできません。 詳細については、「 [Teams および Skype For business 用に AZURE AD Connect を構成する](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)」を参照してください。
+
+- 新しい TeamsOnly または Skype for Business Online のユーザーをハイブリッド組織で作成するには、*まず、skype For Business Server のオンプレミスのユーザーを有効*にして、ユーザーをオンプレミスからクラウドに移行する必要があります。  オンプレミスのユーザーを作成すると、その他の残りのオンプレミスの Skype for Business ユーザーは、新しく作成されたユーザーにルーティングできるようになります。 すべてのユーザーがオンラインで移動されると、オンプレミスのユーザーを最初に有効にする必要はなくなります。
 
 - ユーザーがオンプレミスからクラウドに移動されると、そのユーザーによって開催された会議は、Skype for Business Online または Teams に移行されます。-MoveToTeams スイッチが指定されているかどうかによって異なります。
 

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織向けテンプレートでTeamsを始めましょう
-ms.openlocfilehash: df917c3a6f1cbf20c9226dd58e4706c4c0e3bc2c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570349"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886440"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療関係組織向けテンプレートでTeamsを始めましょう
 
@@ -48,6 +48,17 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 |ベーステンプレートの種類 |baseTemplateId |ベースラインテンプレートのチャネル|
 |:--- |:---|:---|
 |医療-病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | お知らせ\* <br> コン\* <br> Custodial <br> 人事 <br> 薬 |
+| | |  |
+
+\*自動お気に入り 
+
+## <a name="care-coordination-template"></a>治療の調整テンプレート
+
+治療の調整テンプレートは、治療チーム内でのコミュニケーションを容易にすることを目的としており、multidisciplinary teams などの例があります。 このテンプレートには、skype 専有の患者アプリケーションが事前にロードされています。 患者アプリケーションを使用すると、患者とその関連する価値と vitals の一覧を作成して、丸めや患者管理のシナリオに役立てることができます。 
+
+|ベーステンプレートの種類 |baseTemplateId |ベースラインテンプレートのチャネル|
+|:--- |:---|:---|
+|ヘルスケアの調整 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | 治療後のレビュー\* <br> 管理\* <br> トレーニング\* |
 | | |  |
 
 \*自動お気に入り 

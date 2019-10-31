@@ -16,16 +16,14 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: 1caa1606f330b92507342140efbfc144def8c547
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fb01a7e15d43c18e115ecfbd0edb73b4808c2a59
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571947"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885511"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams でポリシーパッケージを管理する
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Microsoft Teams のポリシーパッケージは、組織内で同様の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 組織全体のユーザーグループのポリシーを管理する際の一貫性を高めるために、ポリシーパッケージを作成しました。  
 

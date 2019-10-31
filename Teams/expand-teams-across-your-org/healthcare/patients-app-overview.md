@@ -14,14 +14,14 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: 1ed3efc1aa5a6d3eb4554fca6ee3bd7cfe57f4c0
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749559"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885501"
 ---
-# <a name="patients-app-overview"></a>Patients アプリの概要
+# <a name="patients-app-overview"></a>患者アプリの概要
 
 患者アプリケーションは、Microsoft Teams ストアアプリで、すべての Teams ユーザーが利用できます。 このアプリを使用すると、患者の治療チーム (看護師、医師、社会員など) が患者の一覧を表示して、ラウンドやアプリの会議から一般的な患者の監視まで、患者のリストを確認できます。   
 
@@ -43,6 +43,30 @@ EMR モードの患者アプリを使用するように環境を準備する方�
 <!-- For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user documentation for the Patients App]() -->
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
+
+## <a name="frequently-asked-questions-faq"></a>よく寄せられる質問 (FAQ)
+
+**患者のアプリデータはどこに保存されますか?**
+
+エンドユーザーによって [患者] アプリに入力されたすべてのデータ (たとえば、列/フィールドスキーマ、リストとリストアイテム (患者) に入力された実際のデータ) は、セキュリティで保護された、互換性のある Exchange Online インフラストラクチャに格納されます。 すべてのデータは、チームに関連付けられているグループメールボックスに格納されます。 このアーキテクチャにより、患者アプリは、データ常駐サービス、行政機関向けクラウドサポート (将来の予定)、および eDiscovery サポートなどのその他のコンプライアンス/情報保護機能を簡単に満たすことができます。 患者アプリは、チームのスコープで動作します。 チームごとにアプリのインスタンスをインストールする必要があります。
+
+<!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
+
+**患者アプリの入手方法を教えてください。**
+
+管理者によって、自分の組織に対して患者のアプリが有効になっている場合、すべてのエンドユーザーは Teams app store にアクセスして、自分がメンバーになっているチームに患者アプリを追加することができます。 詳細については、「 [Microsoft Teams でアプリセットアップポリシーを管理](../../teams-app-setup-policies.md)する」を参照してください。
+
+**自分のワード/ユニットの動作によって、チーム内に複数のインスタンスを含めることはできますか?**
+
+現時点では、特定のチームに対してのみ、または [全般] チャネルにのみインストールできます。 ただし、アプリ内では、複数のチャネルまたは分離シナリオに対応するために複数のリストを作成できます。 既定では、チームのすべてのメンバーは、[全般] チャネルの [患者] タブにアクセスできます。 
+
+**患者アプリからすべてのデータをエクスポートすることはできますか?**
+現時点ではできませんが、この機能は近日中に公開されます。 
+
+**このアプリは PHI に対応しているため、不正アクセスや規制への準拠を防ぐ監査もありますか?**
+
+はい、あります。 患者のアプリで Microsoft Teams ユーザーによって実行されるすべての UI 操作が監査され、セキュリティ/コンプライアンスセンターで利用可能になります。 詳細については、こちらの記事を参照して[ください](patients-audit.md)。
+
 
 ## <a name="related-topics"></a>関連項目
 
