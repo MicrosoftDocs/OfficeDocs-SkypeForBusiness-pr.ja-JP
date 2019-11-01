@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a196fd3de81cf5e68a5fdaf389b3acad9465ef7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ae71be1cfed86597f70b6ed7bfec08b42a2ce256
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242318"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913030"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft Teams のガバナンスのクイック スタート
 
@@ -31,6 +31,8 @@ ms.locfileid: "36242318"
 - この限定勤務のオンボードに参加するのに適した候補として、以前の評価からのステークホルダーはどれですか?
 - このフェーズの候補として適切なユースケースを提案します。  
 - 組織内の従業員が事前に採用して、有意義で定期的なフィードバックを提供している場合は、十分な関心がありますか? 
+
+詳細については、「 [teams のガバナンスの計画](plan-teams-governance.md)」を参照して、 [teams でのライフサイクル管理を計画](plan-teams-lifecycle.md)してください。
 
 ## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![判断ポイントを表すアイコン](media/teams-adoption-decision-icon.png)行う
 
