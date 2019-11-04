@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype for Business Server 2015 には、2つのデータセンターにあるフロントエンドプールを組み合わせることによって、障害回復の手段が用意されています。
 ms.openlocfilehash: bb89116d1cedf4eea5e888c0b8021b009688324f
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "34274255"
 ---
-# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="a97c6-103">Disaster Recovery (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a97c6-103">Disaster Recovery (Planning Tool)</span></span>
+# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="3f917-103">Disaster Recovery (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="3f917-103">Disaster Recovery (Planning Tool)</span></span>
  
-<span data-ttu-id="a97c6-104">Skype for Business Server 2015 には、2つのデータセンターにあるフロントエンドプールを組み合わせることによって、障害回復の手段が用意されています。</span><span class="sxs-lookup"><span data-stu-id="a97c6-104">Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
+<span data-ttu-id="3f917-104">Skype for Business Server 2015 には、2つのデータセンターにあるフロントエンドプールを組み合わせることによって、障害回復の手段が用意されています。</span><span class="sxs-lookup"><span data-stu-id="3f917-104">Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
   
-<span data-ttu-id="a97c6-105">障害回復のための環境の準備について詳しくは、「 [Skype For Business Server 2015 で高可用性と障害回復を計画する](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="a97c6-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
+<span data-ttu-id="3f917-105">障害回復のための環境の準備について詳しくは、「 [Skype For Business Server 2015 で高可用性と障害回復を計画する](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="3f917-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
   
 
