@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ロビー、受付領域、会議室の一般的なエリア電話を設定する方法について説明します。 '
-ms.openlocfilehash: fa25de7484d8ac70e924e750c4e7633bfc160c04
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571595"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925308"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 > [!NOTE]
@@ -114,6 +114,6 @@ Skype for Business 管理センターを使用して、ユーザーに電話番�
 
 詳細については、「[ユーザー用に電話番号を取得](/microsoftteams/getting-phone-numbers-for-your-users)する」を参照してください。
 
-他の電話会社と共に使用している電話番号を取得したり、"ポート" を Office 365 に転送したりすることもできます。 「 [Office 365 に電話番号を転送する」を](transfer-phone-numbers-to-office-365.md)参照してください。
+他の電話会社と共に使用している電話番号を取得したり、"ポート" を Office 365 に転送したりすることもできます。 「[チームに電話番号を転送する」を](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)参照してください。
 
 

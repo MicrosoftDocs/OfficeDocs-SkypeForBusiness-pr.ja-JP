@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '緊急対応の場所、場所、緊急通話のルーティングについて、およびそれらを計画してユーザーに割り当てる方法について説明します。 '
-ms.openlocfilehash: ff29f807f0766889db8e6be4305e994bdc9637fe
-ms.sourcegitcommit: d0f03b8abccdacb675f1063a7532397fd0e91a58
+ms.openlocfilehash: 4dbfe8d2a10c24ae66967030007328d2b9422e34
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37901906"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925388"
 ---
 # <a name="what-are-emergency-locations-places-and-call-routing"></a>緊急対応の場所、位置情報、通話ルーティングの概要
 
@@ -59,7 +59,7 @@ ms.locfileid: "37901906"
     > [!IMPORTANT]
     > 住所または都市の住所を検証する場合は、正しい書式が適用されていることを確認する必要があります。 市区町村の間違った名前など、部分的に正しい緊急対応の住所を入力しても、引き続き検証に合格する可能性があります。 検証プロセスでは、特定の住所のすべての部分を使用して、通話を適切な緊急派遣センターにルーティングするための十分な情報が含まれているかどうかを確認します。 その場合は、検証済みとして返され、電話番号に割り当てることができます。
   
-3. **電話番号を取得**します。 次の手順は、ユーザーの電話番号を取得することです。 この操作を行うには、Office 365 から新しい電話番号を取得するか、既存の電話番号を Office 365 に「移行」または転送します。 完全な手順については、「 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)する」を参照してください。
+3. **電話番号を取得**します。 次の手順は、ユーザーの電話番号を取得することです。 この操作を行うには、Office 365 から新しい電話番号を取得するか、既存の電話番号を Office 365 に「移行」または転送します。 完全な手順については、「[チームに電話番号を転送](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」を参照してください。
     
 4. **電話番号を割り当て**ます。 最後の手順では、ユーザーが電話をかけたり受けたりすることができるようにします。 これには、そのユーザーに電話番号を割り当てる必要があります。 電話番号を割り当てるには、「[ユーザーに対して電話番号を割り当て、変更、または削除](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)する」を参照してください。
 

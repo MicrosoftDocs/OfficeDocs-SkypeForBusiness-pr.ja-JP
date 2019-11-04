@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: System Center Operations Manager と連携するように Skype for Business Server 2019 インフラストラクチャを構成する方法について説明します。'
 ms.openlocfilehash: e08debc645665d8be69ce062930d64421b093433
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37318959"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 管理パックを使用して Skype for Business Server 2019 を管理する
@@ -125,7 +125,7 @@ Skype for Business Server 2019 管理パックを使用すると、代理トラ�
 ||||
 |:-----|:-----|:-----|
 |1  <br/> |登録 (ユーザー ログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|2  <br/> |アドレス帳サービス (ファイル ダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|両面  <br/> |アドレス帳サービス (ファイル ダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |3  <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |4  <br/> |プレゼンス  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |5  <br/> |ユニファイド連絡先の保存  <br/> |利用可能な Lync Server 2013 以降  <br/> |

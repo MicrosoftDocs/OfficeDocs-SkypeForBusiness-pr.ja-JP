@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話会議への参加に電話を使用する必要がある、社内のユーザーに対してダイヤルインまたは電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792175"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924978"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Skype for Business の電話会議をセットアップする
 
@@ -63,9 +63,9 @@ ms.locfileid: "35792175"
   
 - **Skype For business 管理センターを使用**します。 一部の国/地域では、Skype for Business 管理センターを使って、会議ブリッジのサービス番号を取得できます。 「[サービスの電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」をご覧ください。
     
-- **既存のサービス番号を移植**します。 現在のサービスプロバイダーまたは電話会社から Office 365 に既存の電話番号を移行または転送するには、 この方法の詳細については、「[Office 365 に電話番号を移行](/microsoftteams/transfer-phone-numbers-to-office-365)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
+- **既存のサービス番号を移植**します。 現在のサービスプロバイダーまたは電話会社から Office 365 に既存の電話番号を移行または転送するには、 詳細については、「[電話番号をチームに転送](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)する」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)する」を参照してください。  
   
-- **新しい番号には要求フォームを使用**します。 場合によっては (国/地域によっては)、Skype for Business 管理センターを使用して新しいサービス番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。 
+- **新しい番号には要求フォームを使用**します。 場合によっては (国/地域によっては)、Skype for Business 管理センターを使用して新しいサービス番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。 
     
 ## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>手順 4: 会議ブリッジにサービス番号を割り当てる
 <a name="__top"> </a>
@@ -94,7 +94,7 @@ ms.locfileid: "35792175"
 
 ![Skype for](../images/sfb-logo-30x30.png) **business 管理センターを使用し**た skype for business ロゴを示すアイコン:
 
-1. 管理センターに移動して、管理センターの******Teams** > >**管理** > センターを開きます。
+1. 管理センターに**移動して**、管理センターの**Teams** > >**管理** > センターを開きます。
 2. [**電話会議** > の**Microsoft bridge**] を選びます。 
 3. 会議ブリッジの電話番号を選択し、[**言語の設定**] を選択して、[既定の言語] を選択します。
 

@@ -17,18 +17,18 @@ search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 電話番号を Microsoft Teams に移植するために必要なガイダンスを取得します。
-ms.openlocfilehash: 53a2c640a708e5da0ed4c0d30bb678fc3cd2cbe3
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886966"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925198"
 ---
 # <a name="more-information-about-porting"></a>移植に関する詳細情報
 
 ここでは、電話番号を Microsoft Teams に移植する方法についての詳細情報を参照してください。
 
-詳細な手順については、「チームに電話番号を転送する」を参照してください。
+詳細な手順については、「[チームに電話番号を転送する](transfer-phone-numbers-to-teams.md)」を参照してください。
 
 ヘルプが必要な場合や、その他の電話番号を取得する必要がある場合は、 [PSTN サービスデスクのヘルプを参照](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)してください。
 
@@ -106,11 +106,11 @@ ms.locfileid: "37886966"
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>ポート注文の状態を確認する方法を教えてください。
 
-「ポート注文の状態を確認する方法」を参照してください。
+「[ポート注文の状態を確認する方法](port-order-status.md)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
-- ポート注文とは何ですか?
+- [ポート注文とは何ですか?](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [組織の電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)

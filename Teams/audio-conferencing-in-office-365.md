@@ -20,12 +20,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: cf8aa0de368803fa957667e239ba6ed0b161c0cb
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 5b7cb2e92a3246b7a3f5098e91c3ab84ad19bbf0
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37517045"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925598"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 における電話会議
 Office 365 の電話会議では、ユーザーは自分の電話から会議にダイヤルインすることができます。 電話会議には最大で250の電話出席者が参加できます。
@@ -86,7 +86,7 @@ Skype for Business または Microsoft Teams の電話会議をセットアッ�
 
 - **Skype for Business 管理センターを使用する。** 一部の国/地域では、Skype for Business 管理センターを使って、会議ブリッジの番号を取得できます。 「[サービスの電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」をご覧ください。
     
-- **既存の番号を移行する。** 既存の番号を現在のサービス プロバイダーまたは電話会社から Office 365 に移行または転送します。 詳細については、[電話番号を Office 365 に移行する](transfer-phone-numbers-to-office-365.md) または [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) を参照してください。  
+- **既存の番号を移行する。** 既存の番号を現在のサービス プロバイダーまたは電話会社から Office 365 に移行または転送します。 詳細については、「[組織の](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)電話[番号をチームに転送](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」または「電話番号を管理する」を参照してください。  
   
 - **新しい番号には申請書を使用します。** 国または地域によっては Skype for Business 管理センターを使用して新しい電話番号を取得することが出来ない場合があります。または、特定の電話番号またはエリアコードが必要です。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。
 

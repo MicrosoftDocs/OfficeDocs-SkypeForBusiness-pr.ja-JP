@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、一般的な市外電話の設定を構成するための展開手順について説明します。
-ms.openlocfilehash: 9f84b8ebbdd9bfab6b146d3f748715a5e0602047
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a245db1a2033f08d50e9a3c1a32f27981a3eb702
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792457"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924898"
 ---
 # <a name="set-up-common-area-phones"></a>共通エリア電話機を設定する
 共用エリア電話機（CAP）は、一般に、ロビーや多くの人々が利用できるエリアに配置されます。 たとえば、受付エリアの電話機、ドアホンまたは会議室の電話機など、CAPは、ユーザーではなくデバイスとして設定され、自動的にネットワークにサインインされます。 以下の手順では、電話システムとコールプランのアカウントを設定して、所属する組織にこれらのタイプの電話機を導入する方法を説明します。
@@ -61,7 +61,7 @@ ms.locfileid: "35792457"
 ライセンスの詳細については、「 [Skype For business および Microsoft Teams のアドオンライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>手順 2  - 電話機の新しいユーザアカウントを作成し、ライセンスを割り当てます
-1. 管理センターで、[ **** > **アクティブな** > ユーザー] に移動して**ユーザーを追加**します。
+1. 管理センターで、[ > **アクティブな** > **ユーザー] に移動**して**ユーザーを追加**します。
 2. **ユーザー名** に、最初の名前を "Main"、2番目の名前を"Reception" のように入力します。
 3. "Main Reception" のように自動生成しない場合は、**表示名** に入力してください。
 4. **[ユーザー名]** に "Main Reception" または"Mainlobby" のように入力します。
@@ -97,7 +97,7 @@ ms.locfileid: "35792457"
 
 さらなる情報については、 [[ユーザーの電話番号を取得する]](/microsoftteams/getting-phone-numbers-for-your-users) を参照してください。
 
-迷っている場合は、別のキャリアや "*ポート* " で持っている電話番号を使用するか、それらをOffice 365 へ移行することもできます。 「 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)」を参照してください。
+迷っている場合は、別のキャリアや "*ポート* " で持っている電話番号を使用するか、それらをOffice 365 へ移行することもできます。 「[チームに電話番号を転送する](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)」を参照してください。
 
 ### <a name="step-4---setting-up-your-phone"></a>手順 4  - 電話機を設定する
 
@@ -140,7 +140,7 @@ ms.locfileid: "35792457"
 > CAP 事前設定サイトには、CAP アカウントのパスワードがランダムなパスワードにリセットされると記載されています。 CAP が参照しているアカウントが Azure Active Directory（AAD）アカウントであることに注意してください。 AAD でアカウントを作成した場合は、そのプロセスは簡単です。 オンプレミスの Active Directory を AAD と同期していて、サードパーティの IDP または ADFS を使用している場合、CAP プロビジョニングは失敗します。 この場合は、CAP provisioning を機能させるために、Office 365/Azure Active Directory アカウントのみ (たとえば、 **onmicrosoft.com**ドメインのアカウント) を使用する必要があります。
 
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 
 - 利用可能な電話の詳細については  「[Skype for Business Online 電話の導入](deploying-skype-for-business-online-phones.md)」をご覧ください。
 - [Skype for Business Online を利用できる電話機の取得](getting-phones-for-skype-for-business-online.md)

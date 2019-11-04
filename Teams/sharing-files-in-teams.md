@@ -3,7 +3,6 @@ title: Microsoft Teams でのファイル共有
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -15,19 +14,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b9eee925a61352ef23b9f7c62fbe6fd58df5122
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ae468fdb38c047ae257efeda2465949b1babcb01
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568691"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931795"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Microsoft Teams でのファイル共有
 
-> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-article.md)]
-
 Teams のファイル共有機能を使用すると、ユーザーは組織内の他の Teams ユーザーとコンテンツを共有できます。 Teams での共有は、SharePoint と OneDrive で構成されている設定に基づいているため、SharePoint と OneDrive のどちらを設定しても、Teams での共有が制御されます。
-![Teams と OneDrive for Business と SharePoint の間でファイル共有がどのように動作するかを示す図](media/sharing-files-in-teams-image1.png)
+
+![Teams、SharePoint、および OneDrive がどのように連携するかを示す図](media/sharing-files-in-teams-image1.png)
 
 Teams の共有では、ユーザーが次のことを実行できます。
 

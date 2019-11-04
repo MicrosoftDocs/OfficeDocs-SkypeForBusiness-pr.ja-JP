@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53424be46dbc857f2a361ec1c3278e2d56fe16d7
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516017"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925078"
 ---
 # <a name="evaluate-my-environment"></a>環境を評価する
 
@@ -42,12 +42,12 @@ ms.locfileid: "37516017"
 
 環境の検出の一環として、Pc やモバイルデバイスの準備評価など、エンドユーザーのコンピューティングに関連するすべての事項を含め、プランのビジネスユースケースを利用する電話会議と電話システムをサポートするために、ハードウェア要件からソフトウェア要件。
 
-環境の検出では、[電話番号を Microsoft に移行](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)する必要があるかどうかを見つけることもできます。
+環境の検出では、[電話番号を Microsoft に移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する必要があるかどうかを見つけることもできます。
 この情報を把握しておくと、組織がそのプロジェクト計画を適宜調整し、番号の移行に必要な情報を準備するのに役立ちます。 [Microsoft Teams のロールアウトの環境検出](environmental-discovery-for-microsoft-teams-rollout.md)を使用して、環境検出を実行することができます。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>環境評価の完了責任者は誰ですか?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>環境評価の結果を文書化します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>環境評価の結果を文書化します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -64,7 +64,7 @@ ms.locfileid: "37516017"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>ユーザーによるソフトウェアまたはサービスの導入が成功したことを確認しましたか?</li><li>利用状況の uptake を追跡することはできますか?</li><li>初期&mdash;および継続的&mdash;な導入キャンペーン (認識、トレーニング、サポート) を設計および管理するためのリソースがありますか?</li><li>専用ユーザーの導入と変更管理チームを持っているか、またはこれらのリソースに投資してビジネスの成果を得ることができますか。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>上記のすべて&quot;に&quot;対して [はい] と回答した場合は、適切なユーザー変更管理の関係者を特定し、ユーザーの準備計画を開始します。</li><li>上記の一部&quot;また&quot;はすべてに回答しなかった場合は、組織の変更管理と導入関連のアクティビティを支援するために、外部のリソースを利用することを検討してください。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>上記のすべて&quot;に&quot;対して [はい] と回答した場合は、適切なユーザー変更管理の関係者を特定し、ユーザーの準備計画を開始します。</li><li>上記の一部&quot;また&quot;はすべてに回答しなかった場合は、組織の変更管理と導入関連のアクティビティを支援するために、外部のリソースを利用することを検討してください。</li></ol></td></tr>
 </table>
 
 
@@ -74,7 +74,7 @@ ms.locfileid: "37516017"
 
 Teams では、オーディオとビデオの技術 (コーデック) が使用されています。そのため、ほとんどのネットワーク条件で対応できます。 最適かつ一貫性のあるパフォーマンスを確保するために、Teams 用にネットワークを準備する必要があります。
 
-品質の3つのコンポーネントを説明する![3 つの]コンポーネントと、(media/evaluate-my-environment-image1.png "サービス管理が3つのコンポーネントすべてにどのように重なり合っているかを説明する図。ネットワークにフォーカスがある状態。")
+![品質の3つの構成要素について説明した図](media/evaluate-my-environment-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。ネットワークにフォーカスがある状態。")
 
 ## <a name="key-takeaways"></a>重要なポイント
 
@@ -218,7 +218,7 @@ QoS (Quality of service) を使うと、トラフィックの優先順位付け�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>すべてのネットワークセグメントと組織の場所で、適切なネットワーク評価を完了する責任は誰ですか?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認することができます。</li><li>各ネットワークセグメントの評価結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認することができます。</li><li>各ネットワークセグメントの評価結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

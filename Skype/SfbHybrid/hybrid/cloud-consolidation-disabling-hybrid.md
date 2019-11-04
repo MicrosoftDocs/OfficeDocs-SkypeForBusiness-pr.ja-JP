@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この付録には、Teams と Skype for Business のクラウド統合の一部としてハイブリッドを無効にするための詳細な手順が含まれています。
-ms.openlocfilehash: 805010aa16ca8159b5e274847ca7ca2b296f214d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f78c5a5cb792ecdb39125292c531097219dc58e3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160652"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924968"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>ハイブリッドを無効にしてクラウドへの移行を完了する
 
@@ -35,7 +35,7 @@ ms.locfileid: "36160652"
 3. オンプレミスで Office 365 と通信する機能を無効にします。
 
 
-これらの手順は、1つの単位として一緒に実行する必要があります。 詳細については、以下を参照してください。
+これらの手順は、1つの単位として一緒に実行する必要があります。 詳細については、以下を参照してください。 また、移行したユーザーの電話番号を管理するためのガイドラインについては、オンプレミスの展開が切断された場合です。
 
 > [!Note] 
 > まれなケースとして、組織の 365 DNS を変更することによって、他の組織がフェデレーションの構成を更新するまで、他の組織とのフェデレーションを停止させることがあります。<ul><li>
@@ -62,6 +62,13 @@ ms.locfileid: "36160652"
 次のコマンドは、オンプレミスの PowerShell ウィンドウから実行する必要があります。  以前に Skype for Business Online セッションをインポートしたことがある場合は、新しい Skype for Business PowerShell セッションを開始します。
 
     `Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false`
+
+### <a name="managing-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>オンプレミスから移行されたユーザーの電話番号の管理
+
+管理者は、オンプレミスの展開を使用停止にした後であっても、オンプレミスの Skype for Business Server からクラウドに移動されたユーザーを管理できます。 2つの異なる可能性があります。
+1.  ユーザーが、(エンタープライズ Voip を有効にしているため) 移動前に、lineURI をオンプレミスで使用していた場合、lineURI を変更するには、オンプレミスの AD でこれを実行して、価値を AAD に渡す必要があります。 これには、オンプレミスの Skype for Business Server は必要ありません。 代わりに、この属性は、Active Directory ユーザーとコンピューター MMC スナップインを使用するか、PowerShell を使用して、社内の Active Directory で直接編集できます。 MMC スナップインを使用している場合は、ユーザーの [プロパティ] ページを開いて、[属性エディター] タブをクリックし、msRTCSIP 行を見つけます。
+
+2.  ユーザーが移動前の lineURI の値を持っていなかった場合、Skype for Business Online Powershell モジュールの-onpremLineUri パラメーターを使用して、LineURI を変更することができます。
 
 ## <a name="see-also"></a>関連項目
 

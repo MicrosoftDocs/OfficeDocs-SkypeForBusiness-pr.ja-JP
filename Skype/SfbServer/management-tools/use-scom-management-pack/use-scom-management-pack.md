@@ -13,10 +13,10 @@ ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: '概要: System Center Operations Manager と連携するように Skype for Business Server 2015 インフラストラクチャを構成する方法について説明します。'
 ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "36824550"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>SCOM Management pack を使用した Skype for Business Server 2015 の管理
@@ -127,7 +127,7 @@ Skype for Business Server 2015 管理パックを使用すると、代理トラ�
 |登録、プレゼンス、連絡先に対してサポートされている代理トランザクション|||
 |:-----|:-----|:-----|
 |1  <br/> |登録 (ユーザー ログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|2  <br/> |アドレス帳サービス (ファイル ダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|両面  <br/> |アドレス帳サービス (ファイル ダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |3  <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |4  <br/> |プレゼンス  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |5  <br/> |ユニファイド連絡先の保存  <br/> |利用可能な Lync Server 2013 以降  <br/> |

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a57388e48e73d62b863d886c5510c002509e47
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e30179b955d2ab157dbbf5311845a6697474a7fd
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571914"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925178"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Microsoft Teams でホワイトボードを管理する
 ==========================================
@@ -31,21 +31,7 @@ Microsoft ホワイトボードは、人、コンテンツ、アイデアが集�
 
 ユーザーはホワイトボードを共有して、Teams 会議のすべての参加者が利用できるようにすることができます。 同じホワイトボードは、Windows 10、iOS、web アプリのすべてのホワイトボードアプリケーションで同時に使用できます。
 
-## <a name="turn-on-or-turn-off-the-whiteboard-app"></a>ホワイトボードアプリのオンとオフを切り替える
-
-ホワイトボード web アプリをオンまたはオフにするには、次の手順を実行します。
-
-1. Microsoft 365 管理センターに移動します。
-
-2. [**設定**]  >  [**サービスとアドイン**] に移動します。
-
-3. [ **Service & アドイン**] ページで、下にスクロールして、[**ホワイトボード**] を選択します。
-
-4. ホワイトボードアプリを有効にするには、[**ホワイトボード**] ウィンドウで、**組織全体に対して [ホワイトボードのオンとオフ**を切り替える]**をオンにします。**
-
-    ホワイトボードアプリを無効にするには、[**ホワイトボード**] ウィンドウで、 **[組織全体でホワイトボードのオンとオフ**を切り替える] を [**オフ**] に切り替えます。
-
-5. [**保存**] をクリックします。
+ホワイトボードアプリのオンとオフを切り替えるには、「[組織に合わせて Microsoft ホワイトボードを有効](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)にする」を参照してください。 この設定では、Teams だけでなく、組織全体のホワイトボードも有効または無効にすることに注意してください。
 
 ## <a name="whiteboard-on-surface-hub"></a>Surface Hub 上のホワイトボード
 

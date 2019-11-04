@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Office 365 通話プラン (PSTN 通話プラン) でのライセンスの購入とセットアップの方法、電話番号を取得する方法、緊急連絡先と電話番号をユーザーに追加して割り当てる方法、ユーザーに新しい電話番号を通知する方法について説明します。 '
-ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
-ms.translationtype: HT
+ms.openlocfilehash: d52fbfdf3dd4c2fe7b3097db5cd4f97aa8013910
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494707"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925318"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
 
@@ -49,7 +48,7 @@ ms.locfileid: "34494707"
 
 - **Skype for Business 管理センターを使用する。** 一部の国/地域では、Skype for Business 管理センターを使用してユーザーの電話番号を取得できます。詳細については [ユーザーの電話番号を取得する](/microsoftteams/getting-phone-numbers-for-your-users) を参照してください。
     
-- **既存の番号を移行する。** 既存の番号を現在のサービス プロバイダーまたは電話会社から Office 365 に移行または転送します。 詳細については、[電話番号を Office 365 に移行する](transfer-phone-numbers-to-office-365.md) または [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) を参照してください。  
+- **既存の番号を移行する。** 既存の番号を現在のサービス プロバイダーまたは電話会社から Office 365 に移行または転送します。 詳細については、「[組織の](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)電話[番号をチームに転送](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」または「電話番号を管理する」を参照してください。  
   
 - **新しい番号には申請書を使用します。** 国または地域によっては Skype for Business 管理センターを使用して新しい電話番号を取得することが出来ない場合があります。または、特定の電話番号またはエリアコードが必要です。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。 
 

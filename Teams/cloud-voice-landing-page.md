@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Teams でクラウドボイスを展開するためのランディングページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37515834"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925578"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft Teams での Cloud Voice
 
@@ -44,7 +44,7 @@ ms.locfileid: "37515834"
 - [通話プランが設定された電話システム](calling-plan-landing-page.md)
 - [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 - [Cloud Voice の展開](cloud-voice-deployment.md)
-- [Microsoft テレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft テレフォニー ソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - 電話システムの詳細については、次のセッションをご覧ください。 [Microsoft Teams での電話システムの紹介](https://aka.ms/teams-phone-system)
 
 
@@ -112,7 +112,7 @@ Microsoft には、2種類の電話番号が用意されています。*加入�
 | :------------|:-------|
 | Microsoft からの新しい電話番号が必要なユーザーの場所 | 電話番号を取得する方法については、「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」および「[ユーザーの電話番号を取得](getting-phone-numbers-for-your-users.md)する」を参照してください。 
 | 必要な電話番号の種類 (加入者またはサービス) | 必要な電話番号の種類を選択するには、「[通話プラン用に使用される電話番号が異なる](different-kinds-of-phone-numbers-used-for-calling-plans.md)」を参照してください。
-既存の電話番号を Office 365 に移植するにはどうすればよいですか?|詳細については、「 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)」を参照してください。
+既存の電話番号を Teams に移植する方法を教えてください。|詳細については、「 [Microsoft Teams に電話番号を転送する](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」を参照してください。
 |||
 
 ### <a name="dial-plans"></a>ダイヤル プラン
@@ -134,7 +134,7 @@ Office 365 の電話システム機能のダイヤルプランは、ダイヤル
 
 |確認事項|アクション |
 |:------------|:-------|
-| 組織には通話キューが必要ですか? | 詳細については、「[クラウドの通話キューを作成する](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」と「[電話システム](setting-up-your-phone-system.md)をセットアップする」を参照してください。 |
+| 組織には通話キューが必要ですか? | 詳細については、「[クラウドの通話キューを作成する](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」と「[電話システム](setting-up-your-phone-system.md)をセットアップする」を参照してください。 |
 
 ### <a name="auto-attendants"></a>自動応答
 
@@ -149,8 +149,8 @@ Office 365 の電話システム機能のダイヤルプランは、ダイヤル
 サポートされているデバイスの詳細については、次を参照してください。
 
 - [Microsoft Teams でのデバイスを管理する](device-management.md)
-- [IP 電話](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [USB オーディオ デバイスおよびビデオ デバイス](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [デバイスのインテリジェントな通信](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [IP 電話](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [USB オーディオ デバイスおよびビデオ デバイス](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [デバイスのインテリジェントな通信](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

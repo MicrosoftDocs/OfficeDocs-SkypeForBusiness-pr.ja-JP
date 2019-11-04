@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'お使いの携帯電話会社が Skype for Business に表示されていない場合の対処方法について説明します。 '
-ms.openlocfilehash: e882a376c8f7b0baf07c42e71c03a84acc16b4c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7d1a9c70ffce63ee1a7ff437cb7157c5b8b5aeab
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290808"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924918"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>携帯電話の通信事業者がソースキャリアとして表示されない場合はどうすればよいですか?
 
@@ -36,7 +36,7 @@ ms.locfileid: "34290808"
   
 - Skype for Business から電話会社に番号を移行している場合は、Level3 が表示されることがあります。
     
-  **詳細な手順については、「 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)」を参照してください。**
+  **詳細な手順については、「[チームに電話番号を転送する](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)」を参照してください。**
 
     > [!NOTE]
     > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

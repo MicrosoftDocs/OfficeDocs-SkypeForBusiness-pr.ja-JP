@@ -17,12 +17,12 @@ description: チームまたは IT 管理者は、他のドメイン (フェデ�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 071bb1523a0840a798edfe030a1dd52362695df2
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: e6eb1cab6503c443d3fb312769f9f1e0255c294a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753532"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925048"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams で外部アクセスを管理する
 ======================================================
@@ -132,7 +132,6 @@ ms.locfileid: "37753532"
 |Skype for **Business online ユーザー**が別の Office 365 組織の**Skype for business online ユーザー**と通信できるようにします。    | ユーザーが次のアップグレードモードのいずれかに該当する場合は、Skype for Business Online ユーザーが別の組織の Skype for Business Online ユーザーと通信することができます。これには、孤島、SfBOnly、Sfbwithteamab、SfBWithTeamsCollabAndMeetings;その他の組織の Skype for business Online ユーザーは、次のいずれかのアップグレードモード (孤島、SfBOnly Sfbwithteams SSfBWithTeamsCollabAndMeetings Ab、) にあります。<br><br>[ユーザーが外部アクセスの**Skype For business および Teams ユーザーと通信できるよう**にする] 設定をオンにします。 次に、他の Teams 組織の管理者にも同じことを行います。|
 |**Skype For Business Online ユーザー**がオンプレミスの組織から**skype for business ユーザー**と通信できるようにします。     |ユーザーが次のアップグレードモードのいずれかを使用している場合、Skype for Business Online ユーザーは、オンプレミスの組織から Skype for business ユーザーと通信できます。これは、孤島、SfBOnly、Sfbwithteams SSfBWithTeamsCollabAndMeetings Ab、;その他の組織の Skype for business Online ユーザーは、次のいずれかのアップグレードモード (孤島、SfBOnly Sfbwithteams SSfBWithTeamsCollabAndMeetings Ab、) にあります。<br><br>[ユーザーが外部アクセスの**Skype For business および Teams ユーザーと通信できるよう**にする] 設定をオンにします。 次に、他の Teams 組織の管理者にも同じことを行います。|
 |**Skype For Business Online ユーザー**が、組織内外の**skype ユーザー**と通信できるようにします。   |[ **Skype For business ユーザーが外部アクセスの skype ユーザーと通信できるよう**にします] 設定をオンにします。|
-|組織内の**teams ユーザー**が組織外の**チームの無料ユーザー**と通信できるようにします。 | 無料版の Teams が外部アクセスとどのように連携するかについては、「 [Microsoft teams と Microsoft teams の相違点](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c)」を参照してください。|
 
 > [!IMPORTANT]
 > Teams または Skype for Business Online ユーザーが組織内外の Skype ユーザーと通信できるようにするために、 **skype ドメイン**を許可されたドメインとして追加する必要はありません。 すべての**Skype ドメイン**はホワイトリストに記載されています。つまり、これらのドメインはすべて許可されていると見なされます。

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話会議への参加に電話を使用する必要がある、社内のユーザーに対してダイヤルインまたは電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571262"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925368"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議をセットアップする
 
@@ -65,7 +65,7 @@ ms.locfileid: "37571262"
   
 - **Microsoft Teams 管理センターを使用**します。 一部の国/地域では、Microsoft Teams 管理センターを使って、会議ブリッジのサービス番号を取得できます。 「[サービスの電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」をご覧ください。
     
-- **既存のサービス番号を移植**します。 現在のサービスプロバイダーまたは電話会社から Office 365 に既存の電話番号を移行または転送するには、 この方法の詳細については、「[Office 365 に電話番号を移行](transfer-phone-numbers-to-office-365.md)」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。  
+- **既存のサービス番号を移植**します。 現在のサービスプロバイダーまたは電話会社から Office 365 に既存の電話番号を移行または転送するには、 詳細については、「[電話番号をチームに転送](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。  
   
 - **新しい番号には要求フォームを使用**します。 場合によっては (お住まいの国/地域によっては)、Microsoft Teams 管理センターを使用して新しいサービス番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。 
     

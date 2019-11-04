@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'チームに新しい番号を取得する方法、既存の番号を移行する方法、ユーザーへの変更を表示する方法について説明します。 '
-ms.openlocfilehash: c605933f91d047d44f191e9d1604e8c8630565fb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572093"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925288"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -34,9 +34,9 @@ ms.locfileid: "37572093"
 
 - **Microsoft Teams 管理センターを使用します。** 一部の国/地域では、Microsoft Teams 管理センターを使用して、ユーザーの電話番号を取得することができます。 「[ユーザー用に新しい電話番号を取得する」を](#get-new-phone-numbers-for-your-users)参照してください。
     
-- **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社から既存の番号を移行または転送することができます。 そのための詳細については、「 [Office 365 に電話番号を転送](/microsoftteams/transfer-phone-numbers-to-office-365)する」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)する」を参照してください。  
+- **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社から既存の番号を移行または転送することができます。 詳細については、「[組織の](/microsoftteams/manage-phone-numbers-for-your-organization)電話[番号をチームに転送](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)する」または「電話番号を管理する」を参照してください。  
   
-- **新規の番号を取得するには、リクエスト フォームを使用してください。** (お住まいの国/地域によっては)、Microsoft Teams 管理センターを使用して新しい電話番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして、もう一度送信する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
+- **新しい番号には申請書を使用します。** (お住まいの国/地域によっては)、Microsoft Teams 管理センターを使用して新しい電話番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして、もう一度送信する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
   
 > [!NOTE]
 > 組織の電話番号の設定に関するヘルプが必要な場合は、 [PSTN サービスデスクに問い合わせてください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
@@ -61,7 +61,7 @@ ms.locfileid: "37572093"
   
    **使用中のサービス プロバイダーまたは携帯電話会社から電話番号を移行する**
   
-- ユーザー用の電話番号を999以下にする必要がある場合は、Microsoft Teams 管理センターで従来のポータルを使用できます。 「 [Office 365 に電話番号を転送](/microsoftteams/transfer-phone-numbers-to-office-365)する」の手順に従って、電話番号を Teams に転送します。
+- ユーザー用の電話番号を999以下にする必要がある場合は、Microsoft Teams 管理センターで従来のポータルを使用できます。 「[チームに電話番号を転送](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)する」の手順に従って、電話番号を teams に転送します。
     
 - 999を超える電話番号を移植する必要がある場合は、「 [Service Manager でサービス要求を管理](https://docs.microsoft.com/system-center/scsm/service-requests)する」を参照して、「ポート注文サービスの依頼または注文を送信する」を参照してください。これらのすべての電話番号を Office 365 に移植します。
     
@@ -75,18 +75,18 @@ ms.locfileid: "37572093"
     
 - 電話番号を取得したら、各ユーザーに電話番号を割り当てる必要があります。 「[ユーザーの電話番号の割り当て、変更、削除を行う](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)」を参照してください。
     
-- Microsoft Teamd 管理センターの [**電話番号**] ページを使用して、[**電話番号**] 列に使用可能な電話番号の一覧を表示し、[**状態**] 列で電話番号が割り当てられているかどうかを確認して、[**場所**」列の電話番号。 
+- Microsoft Teams 管理センターの [**電話番号**] ページを使用して、[**電話番号**] 列に使用可能な電話番号の一覧を表示したり、[**状態**] 列で電話番号が割り当てられているかどうかを確認して、[**場所**」列の電話番号。 
 
 > [!NOTE]
 > その他の電話番号を取得する必要がある場合は、 [PSTN サービスデスクにお問い合わせください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
+[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 

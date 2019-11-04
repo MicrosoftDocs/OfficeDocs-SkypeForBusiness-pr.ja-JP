@@ -20,10 +20,10 @@ ms.custom:
 - Phone System
 description: '電話システムでできることについて説明します。 '
 ms.openlocfilehash: d6bc3d8265059520e3f8448f800de91331e26e01
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37568533"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは

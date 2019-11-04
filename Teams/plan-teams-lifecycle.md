@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf965386ce471458ed47edb0083d2b6f18b4ba8a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573242"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913046"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams でのライフサイクル管理の計画
 
@@ -205,3 +205,6 @@ Teams において、主要なグループの通信が始まり維持される�
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>チームの寿命の終わりがどのようなものであるかを定義します。</li><li>チームのコンテンツを利用可能な状態で維持するかどうか、およびその期間を決めます。</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>学習したベスト プラクティスとレッスンの内容を文書にまとめます。</li><li>必要に応じて、データをアーカイブ化します。</li></ul>|
 
+## <a name="related-topics"></a>関連トピック
+
+[Teams のガバナンスのクイック スタート](teams-adoption-governance-quick-start.md)
