@@ -3,7 +3,6 @@ title: Microsoft Teams の保持ポリシー
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,16 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e78e5837aa0e42f268b50bff47dab6aae71d5d2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 81c42bbe4f6bfc9186365d43906fc9b7f31bf8d2
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569953"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968328"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams の保持ポリシー
 
-チームの会話は永続的であり、既定では無期限に保持されます。 アイテム保持ポリシーを導入すると、管理者は、チームチャットとチャネルメッセージのセキュリティ & コンプライアンスセンターで保持ポリシー (保持と削除の両方) を構成できます。 これにより、組織は、特定の期間のコンプライアンス (つまり、保持ポリシー) のデータを保持するか、または特定の期間後に法的義務と見なされる場合は、データ (つまり、削除ポリシー) を削除することができます。 チームアイテム保持ポリシーを使用すると、データを削除したときに、Teams サービス上のすべての永続的データストレージの場所から削除されます。 
+チームの会話は永続的であり、既定では無期限に保持されます。 アイテム保持ポリシーを導入すると、管理者は、チームチャットとチャネルメッセージのセキュリティ & コンプライアンスセンターで保持ポリシー (保持と削除の両方) を構成できます。 これにより、組織は、特定の期間のコンプライアンス (つまり、保持ポリシー) のデータを保持するか、または特定の期間後に法的義務と見なされる場合は、データ (つまり、削除ポリシー) を削除することができます。 チームアイテム保持ポリシーを使用すると、データを削除したときに、Teams サービス上のすべての永続的データストレージの場所から削除されます。
+
+> [!NOTE]
+> プライベートチャネルメッセージの保持の構成はまだサポートしていません。 プライベートチャネルで共有されているファイルの保持はサポートされています。
 
 Teams のアイテム保持ポリシーを管理するには、[**データガバナンス** > の**保持**] の下にある Office 365 セキュリティ & コンプライアンスセンターの設定とコマンドレットを使用します。
 

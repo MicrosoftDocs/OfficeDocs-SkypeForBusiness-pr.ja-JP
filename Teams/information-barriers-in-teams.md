@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 情報の障壁とチームへの影響について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931805"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968258"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -27,7 +27,8 @@ ms.locfileid: "37931805"
 > [!NOTE]
 > - 情報バリアグループはテナント全体で作成できません。
 > - ユーザーの追加にボットを使用することは、バージョン1ではサポートされていません。
-> - 新規: Teams に接続された SharePoint サイトの情報バリアのサポートは、現在プライベートプレビューになっています。 非公開のプレビューに参加するに[は、ここ](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)をクリックしてください。 .
+> - プライベートチャネルは、構成する情報バリアーポリシーに準拠しています。
+> - 新規: Teams に接続された SharePoint サイトの情報バリアのサポートは、現在プライベートプレビューになっています。 プライベートプレビューに参加するには、[ここ](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)をクリックします。
 
 情報バリアポリシーによって、検索と検出を防ぐこともできます。 つまり、通信しない相手と通信しようとしても、そのユーザーは [連絡先] 選択画面に表示されません。
 

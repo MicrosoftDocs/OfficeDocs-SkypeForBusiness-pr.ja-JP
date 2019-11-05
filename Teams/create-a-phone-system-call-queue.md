@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: Microsoft Teams でクラウド通話キューの電話システムをセットアップする方法について説明します。
 ms.openlocfilehash: fc7cc9558036d30d388a279ac155fe6382e611a8
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925098"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972498"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 

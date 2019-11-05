@@ -12,18 +12,20 @@ description: Microsoft Teams の保持ポリシーに関するよく寄せられ
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0eb556f53c617636f9169dbf0358455860c46b6
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
-ms.translationtype: HT
+ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018792"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968308"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft Teams 保持ポリシーに関するよく寄せられる質問
+
+> [!NOTE]
+> プライベートチャネルメッセージの保持の構成はまだサポートしていません。 プライベートチャネルで共有されているファイルの保持はサポートされています。
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>保持ポリシーで設定できるポリシーの種類と、それらがどのように機能するのかを教えてください。
 
@@ -41,7 +43,7 @@ ms.locfileid: "37018792"
 
 ### <a name="what-is-the-default-retention-policy"></a>既定の保持ポリシーとは何ですか? 
 
-既定では、Teams チャット、チャネル、ファイルのデータは永続的に保持されます。 ユーザーが削除を行うことはできますが、保持ポリシーが設定されていない場合、Teams のデータは常に Exchange Online のメールボックス (ユーザーとグループ) にアーカイブされ、電子情報開示のためにそのまま残ります。 
+既定では、Teams チャット、チャネル、ファイルのデータは永続的に保持されます。
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>ユーザーやチームのセットをポリシーの対象にすることはできますか? 
 

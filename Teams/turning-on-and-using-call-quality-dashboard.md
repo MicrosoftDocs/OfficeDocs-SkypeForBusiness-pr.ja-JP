@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。 '
-ms.openlocfilehash: a83ebe08ac7cc754cadd59bffa71117f473b470b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568511"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972488"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -60,7 +60,7 @@ CQD version 3 は、ほぼリアルタイムの CQD ダッシュボード (30 �
 - [クライアントバージョン]: 各クライアントバージョンのセッションとユーザーの数を表示するか、各クライアントバージョンのユーザー名にドリルダウンします。 製品とクライアントの種類の事前に構築されたフィルターによって、バージョンが特定のクライアントに焦点を当てていることがわかります。
 - エンドポイント: PC/Mac のメーカー/モデルにマップされているコンピューターのエンドポイントを表示します。 メーカー別またはモデル別に集計された品質を示します。 マッピングデータは、データを作成する場合と同様にアップロードされます。
 
-また、EUII access が利用できない場合、バージョン3は RBAC のサポートも提供します。  
+EUII access が利用できない場合、Advanced CQD (V3) は RBAC のサポートも提供します。  
 
 管理者は、CQD バージョン3を介して Skype for business Server 2019 (Skype for Business Online および Microsoft Teams だけではなく) を管理できます。 これには、ハイブリッド実装と Call Data Connector の使用が必要です。 詳細については、「[通話データコネクタを計画](/SkypeForBusiness/hybrid/plan-call-data-connector)する」を参照してください。
 
@@ -84,7 +84,7 @@ CQD バージョン1では、Skype for Business Server 2015 管理者が次の�
 
 ## <a name="cqd-near-real-time-nrt-data"></a>CQD (NRT) データのほぼリアルタイムのデータ
 
-CQD v3 は、near リアルタイムデータフィードを利用します。 通話記録は、通話の終了後30分以内に CQD ポータルで利用できます。 NRT パイプラインからの通話レコードは、データセットから削除されるまで数ヶ月分しか使用できません。 CQD v3 は、v3 パイプラインの NRT データで現在の v2 パイプラインからデータを結合します。 アーカイブ期間のデータに対する v2 と v3 ポータルのクエリでは、同じ結果が得られます。 NRT データと NRT データと PII 期間の V2 と v3 のデータクエリは、異なるものになります。
+Advanced CQD (V3、2019年11月リリース) は、ほぼリアルタイムのデータフィードを使用します。 通話記録は、通話の終了後30分以内に CQD ポータルで利用できます。 NRT パイプラインからの通話レコードは、データセットから削除されるまで数ヶ月分しか使用できません。 CQD v3 は、v3 パイプラインの NRT データで現在の v2 パイプラインからデータを結合します。 アーカイブ期間のデータに対する v2 と v3 ポータルのクエリでは、同じ結果が得られます。 NRT データと NRT データと PII 期間の V2 と v3 のデータクエリは、異なるものになります。
 
 ### <a name="piieuii-data"></a>PII/EUII データ
 
@@ -170,24 +170,24 @@ CQD の使用を開始する前に、次のようにして Office 365 組織に�
 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-<!-- Siunies, this isn't very clear, it doesn't call out v1 and v2. unsure how to elaborate for v3, please comment -->
+
 CQD の概要レポートには、詳細レポート用に計画されている機能のサブセットが用意されています。 各エディションの違いは次のとおりです。
   
 |機能|概要レポート|詳細レポート|
 |:--- |:--- |:--- |
 |アプリケーション共有のメトリック | いいえ | はい |
-|顧客の建物情報のサポート | はい | 可 |
+|顧客の建物情報のサポート | はい | Yes |
 |顧客エンドポイント情報のサポート | <span>Cqd.teams.microsoft.com のみ<span/> | <span>Cqd.teams.microsoft.com のみ<span/> |
 |ドリルダウン分析のサポート   | いいえ   | はい   |
 |メディアの信頼性のメトリック   | いいえ   | はい   |
-|ボックスのないレポート   | はい   | 可   |
-|概要レポート   | はい   | 可   |
+|ボックスのないレポート   | はい   | Yes   |
+|概要レポート   | はい   | Yes   |
 |ユーザーごとのレポートセット   | いいえ   | はい   |
 |レポートセットのカスタマイズ (レポートの追加、削除、変更)   | いいえ   | はい   |
 |ビデオベースの画面共有のメトリック   | いいえ   | はい   |
 |ビデオ指標   | いいえ   | はい   |
 |利用可能なデータの量   | 過去6ヶ月   | 過去6ヶ月   |
-|Microsoft Teams データ   | はい   | 可   |
+|Microsoft Teams データ   | はい   | Yes   |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>ボックスのないレポート
@@ -211,7 +211,7 @@ CQD のすべてのエディションでは、全体的な通話品質情報へ�
 - [**音声品質の sla** : Skype For business Online の音声品質の sla に含まれる通話に関する情報を提供します。
 
 > [!NOTE]
-> CQD バージョン3は、Microsoft Teams、Skype for Business Online、Skype for Business Server と連携しています。 Skype for Business Server 2019 で CQD を使用するには、[通話データコネクタを構成](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector)する必要があります。 始める前に「[通話データコネクタを計画](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-data-connector)する」を参照してください。
+> CQD バージョン3は、Microsoft Teams、Skype for Business Online、Skype for Business Server と連携しています。 Skype for Business Server 2019 で CQD を使用するには、[通話データコネクタを構成](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector)する必要があります。 始める前に「[通話データコネクタを計画](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector)する」を参照してください。
 
 - 地域別の通話品質:
 
@@ -445,7 +445,7 @@ Teams では、Skype for Business Online ではなく、いくつかの品質と
   
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

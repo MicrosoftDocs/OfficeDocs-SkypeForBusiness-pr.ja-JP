@@ -17,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージングポリシーと、それらを使用して Teams でチャットメッセージを制御する方法について説明します。
-ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569278"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968238"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams のメッセージング ポリシーを管理する
 
@@ -34,7 +34,7 @@ ms.locfileid: "37569278"
 
 ## <a name="change-or-create-a-messaging-policy"></a>メッセージングポリシーを変更または作成する
 
-Microsoft Teams 管理センターでは、管理者の資格情報でhttp://admin.teams.microsoft.com)サインインし、左側のナビゲーションウィンドウで [**メッセージングポリシー** ] を選ぶことにより、メッセージポリシーを簡単に管理できます。 組織の既存の既定のメッセージポリシーを編集するには、[**グローバル (組織全体の既定)** ] 行を選択し、変更を加えます。 新しいカスタムメッセージポリシーを作成するには、[**新しいポリシー**] を選び、新しいポリシーに名前を付けて、設定を選びます。 完了したら、[**保存**] を選びます。
+Microsoft Teams 管理センターでは、管理者の資格情報でhttps://admin.teams.microsoft.com)サインインし、左側のナビゲーションウィンドウで [**メッセージングポリシー** ] を選ぶことにより、メッセージポリシーを簡単に管理できます。 組織の既存の既定のメッセージポリシーを編集するには、[**グローバル (組織全体の既定)** ] 行を選択し、変更を加えます。 新しいカスタムメッセージポリシーを作成するには、[**新しいポリシー**] を選び、新しいポリシーに名前を付けて、設定を選びます。 完了したら、[**保存**] を選びます。
 
 たとえば、送信されたメッセージが削除されたり、変更されたりしないようにする必要があるとします。 "送信済みメッセージの保持" という名前の新しいカスタムポリシーを作成して、次の設定をオフにします。
 
@@ -98,5 +98,8 @@ Microsoft Teams 管理センターでは、管理者の資格情報でhttp://adm
 - **モバイルデバイスでは、最近のチャットの上にお気に入りのチャンネルを表示**この設定を有効にすると、ユーザーがスクロールする必要がないように、お気に入りのチャネルをモバイルデバイスの画面の上部に移動することができます。 
 - **グループチャットからユーザーを削除することをユーザーに許可**するこの設定をオンにして、ユーザーがグループチャットから他のユーザーを削除できるようにします。 この機能を使用すると、チャット履歴を失うことなく、少人数のグループとチャットを続けることができます。
 
-### <a name="related-topics"></a>関連項目
+> [!NOTE]
+> Giphy などの一部の設定は、チームの所有者およびプライベートチャネルの所有者によってチームレベルで構成することもできます。
+
+### <a name="related-topics"></a>関連トピック
 [Teams での会議ポリシー](meeting-policies-in-teams.md)

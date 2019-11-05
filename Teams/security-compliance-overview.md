@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37568057"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968178"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -37,7 +37,10 @@ Teams はチーム全体および組織全体の 2 要素認証、Active Directo
 
 監査ログ検索、電子情報開示、訴訟ホールド (チャネル、チャット、ファイルを対象とした)、Microsoft Intune 内でのモバイル アプリ管理のサポートを追加しました。 これらの設定を管理するには、Office 365 セキュリティ/コンプライアンス センターに移動します。 
 
-Office 365 のセキュリティとコンプライアンスに関する詳細については、「[セキュリティ強化のために、Office 365 テナントを構成する](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)」を参照してください。
+Office 365 のセキュリティとコンプライアンスの詳細については、「 [office 365 テナントを構成してセキュリティを強化](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)する」を参照してください。
+
+> [!NOTE]
+> 現時点では、[プライベートチャネル](private-channels.md)は、セキュリティとコンプライアンスの制限された機能をサポートしています。 プライベートチャネルの一連のセキュリティ機能とコンプライアンス機能のサポートは、近日中にサポートされます。
 
 ## <a name="auditing-and-reporting"></a>監査と報告
 
@@ -47,7 +50,7 @@ Office 365 のセキュリティとコンプライアンスに関する詳細に
 
 コンテンツ検索では、豊富なフィルタリング機能を使用してすべての Teams データを検索でき、検索結果をコンプライアンスや訴訟のサポート用の特定のコンテナにエクスポートできます。 この操作は電子情報開示ケースの有無に関わらず実行できます。 これにより、コンプライアンス管理者は、すべてのユーザーにわたる Teams データを収集し、そのデータをレビューして、さらに処理するためにエクスポートできるようになります。 Office 365 セキュリティ/コンプライアンス センターでの Microsoft Teams コンテンツについてのコンプライアンス コンテンツ検索を実施する方法の詳細については、この[リンク](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)先をご覧ください。 
 
-ヒント: Microsoft Teams を使用して、Microsoft Teams 専用のコンテンツに絞り込むことができます。たとえば、チャットとチャネル メッセージ、会議、通話です。 
+ヒント: Microsoft Teams を使用して、Microsoft Teams 専用のコンテンツに絞り込むことができます。たとえば、チャットとチャネル メッセージ、会議、通話です。
 
 ## <a name="ediscovery"></a>電子情報開示
 
@@ -99,13 +102,13 @@ Office 365 のセキュリティとコンプライアンスに関する詳細に
 
 | 情報保護機能 | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              アーカイブ              |               -                |              -              |            -             |             はい             |           はい            |
-|        インプレース電子情報開示 (eDiscovery)        |               -                |              -              |            -             |             はい             |           はい            |
+|              アーカイブ              |               -                |              -              |            -             |             Yes             |           Yes            |
+|        インプレース電子情報開示 (eDiscovery)        |               -                |              -              |            -             |             Yes             |           Yes            |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           はい            |
-|            訴訟ホールド             |               -                |              -              |            -             |             はい             |           はい            |
-|     コンプライアンスのコンテンツ検索     |               -                |             はい             |           はい            |             はい             |           はい            |
-|      監査と報告       |              はい               |             はい             |           はい            |             はい             |           はい            |
-|       条件付きアクセス\*        |              はい               |             はい             |           はい            |             はい             |           はい            |
+|            訴訟ホールド             |               -                |              -              |            -             |             Yes             |           Yes            |
+|     コンプライアンスのコンテンツ検索     |               -                |             Yes             |           Yes            |             Yes             |           Yes            |
+|      監査と報告       |              はい               |             Yes             |           Yes            |             Yes             |           Yes            |
+|       条件付きアクセス\*        |              はい               |             Yes             |           Yes            |             Yes             |           はい            |
 
 > [!NOTE]
 > \*条件付きアクセスには追加のライセンスが必要

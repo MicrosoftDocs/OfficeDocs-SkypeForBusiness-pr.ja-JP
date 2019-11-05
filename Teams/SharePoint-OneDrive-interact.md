@@ -3,44 +3,46 @@ title: Microsoft Teams との SharePoint Online と OneDrive for Business の連
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: プライベート チャット ファイルの格納方法、チーム、チャネル、ドキュメント ライブラリの関係など、Microsoft Teams との SharePoint Online および OneDrive for Business の連携について説明します。
+description: SharePoint Online と OneDrive for Business が、プライベートチャットファイルの保存方法、チーム、標準チャネル、ドキュメントライブラリ間の関係など、Microsoft Teams とどのように連携するかについて説明します。
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af1d12eda58dc481ba28bf96ff4ecbfeab8ed5f0
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5b18cf1f97d0798df5cac4881672c0756cc56616
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37567121"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968248"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 
 > [!Tip]
 > TeamsがAzure Active Directory（AAD）、Office 365グループ、Exchange、SharePoint、およびOneDrive for Businessとどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teams の基礎](https://aka.ms/teams-foundations)
 
-Microsoft Teams の各チームには SharePoint Online にチーム サイトがあり、チーム内の各チャネルには既定のチーム サイト ドキュメント ライブラリが作成されます。会話内で共有したファイルはドキュメント ライブラリに自動的に格納されます。SharePoint で設定した権限やファイル セキュリティ オプションは Teams 内で自動的に反映されます。
+Microsoft Teams の各チームには SharePoint Online のチームサイトがあり、チーム内の各標準チャネルは既定のチームサイトのドキュメントライブラリ内のフォルダーを取得します。会話内で共有されているファイルは、ドキュメントライブラリに自動的に追加されます。また、SharePoint で設定された権限とファイルセキュリティオプションは、自動的に Teams 内に反映されます。
+
+> [!NOTE]
+> この記事は、標準チャネルにのみ適用されます。 プライベートチャネルのアーキテクチャは、標準チャネルとは異なります。 各プライベートチャネルには、親チームサイトとは別の固有の SharePoint サイトコレクションがあります。 詳細については、「 [Microsoft Teams のプライベートチャネル](private-channels.md)」を参照してください。
 
 プライベート チャット ファイルは送信者の OneDrive for Business フォルダーに格納され、権限はファイル共有プロセスの一環としてすべての参加者に付与されます。
 
-ユーザーにSharePoint Onlineの有効なライセンスが割り当てられていない場合は、Office 365にOneDrive for Businessのストレージがありません。 ファイル共有は引き続きチャンネルで機能しますが、Office 365のOneDrive for Businessストレージがないと、ユーザーはチャットでファイルを共有することはできません。
+ユーザーにSharePoint Onlineの有効なライセンスが割り当てられていない場合は、Office 365にOneDrive for Businessのストレージがありません。 ファイルの共有は、引き続き標準チャネルでの作業を続けますが、Office 365 では、OneDrive for Business の記憶域なしでチャットでファイルを共有することはできません。
 
 SharePoint Online ドキュメント ライブラリと OneDrive for Business にファイルを格納することで、テナントレベルで構成されるすべてのコンプライアンス ルールが順守されます。 
 
 > [!NOTE]
 > 現時点では、オンプレミスの SharePoint との統合はサポートされていません。
 
-チーム、チャネル、ドキュメント ライブラリの関係の例を次に示します。
+次の例は、チーム、標準チャネル、ドキュメントライブラリ間の関係を示しています。
 
-各チームには SharePoint サイトが作成されます。**共有ドキュメント** フォルダーは、そのチーム用に作成される既定のフォルダーです。各チャネル (各チームの既定のチャネルである**全般**チャネルを含む) には**共有ドキュメント**内にフォルダーが作成されます。
+すべてのチームに対して、SharePoint サイトが作成され、[**共有ドキュメント**] フォルダーがチーム用に作成された既定のフォルダーになります。 **一般的な**チャネル (各チームの既定のチャネル) を含む各標準チャネルには、**共有ドキュメント**内のフォルダーがあります。
 
 ![SharePoint Online の共有ドキュメントフォルダーの図](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 

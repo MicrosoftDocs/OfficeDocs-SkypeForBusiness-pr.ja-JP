@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5bcc084c96ededbf4337057834763e9d53ac4348
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570137"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968278"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams でチームポリシーを管理する
 
@@ -46,8 +46,8 @@ ms.locfileid: "37570137"
     ![Teams のポリシー設定のスクリーンショット](media/teams-policies.png)
 4. 目的の設定を選択します。
 
-- [**プライベートチームを見つける**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams): この設定を有効にして、ユーザーが検索結果とチームギャラリーでプライベートチームを見つけられるようにします。
-- [**プライベートチャネルを作成**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels)する: この設定を有効にして、ユーザーがプライベートチャネルを作成できるようにします。
+- **プライベートチーム**を見つける<a name="discoverteams"></a> : この設定を有効にして、ユーザーが検索結果とチームギャラリーでプライベートチームを見つけられるようにします。
+- **プライベートチャネル**を作成<a name="createchannels"></a>する: この設定を有効にして、ユーザーがプライベートチャネルを作成できるようにします。
 
 5. [**保存**] をクリックします。
 
@@ -105,3 +105,4 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 ## <a name="related-topics"></a>関連項目
 
 - [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
+- [Teams のプライベートチャネル](private-channels.md)

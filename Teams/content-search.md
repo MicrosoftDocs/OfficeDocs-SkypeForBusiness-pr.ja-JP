@@ -13,26 +13,79 @@ search.appverid: MET150
 description: Microsoft Teams のコンテンツ検索について説明し、Exchange からのチャネル会話の検索方法、SharePoint からのファイルのアップロードと変更、OneNote の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66621d7c5a2c7110045b1a378a0dcc1df4ccc510
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: faed09a5fafaec559bc4277b75a60d8cc594fa85
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516454"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968288"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams のコンテンツ検索を使用する
 =====================================
 
-コンテンツ検索は、Exchange、SharePoint Online、OneDrive for Business を含む Microsoft Teams の情報について問い合わせを行うことのできる特別な検索手段です。
+> [!NOTE]
+> [プライベートチャネル](private-channels.md)でのメッセージやファイルのコンテンツ検索の動作は、標準チャネルとは異なります。 詳細については、「[プライベートチャネルのコンテンツ検索](#content-search-of-private-channels)」を参照してください。
+
+コンテンツ検索を使用すると、Exchange、SharePoint Online、OneDrive for Business にわたる Microsoft Teams の情報を照会することができます。
 
 詳細については、「 [Office 365 でコンテンツ検索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)を読む」を参照してください。
 
-たとえば、製造仕様のメールボックスと製造仕様の SharePoint サイトに対して**コンテンツ検索**を使用すると、Exchange からのチームチャネルでの会話の検索、SharePoint Online からのファイルのアップロードと変更、OneNote からの変更を行うことができます。加え.
+たとえば、製造仕様のメールボックスと製造仕様の SharePoint サイトに対して**コンテンツ検索**を使用すると、Exchange からのチーム標準チャネルの会話や、SharePoint Online からのファイルのアップロードと変更を検索することができます。OneNote が変更されます。
 
 **コンテンツ検索**にクエリ条件を追加して、返される結果を絞り込むこともできます。 上の例では、"**新しいファクトリの仕様"** というキーワードが使用されているコンテンツを確認できます。
 
 > [!TIP]
 > 検索条件を追加した後は、レポートまたはデータをコンピューターにエクスポートして分析することができます。
 
+## <a name="content-search-of-private-channels"></a>プライベートチャネルのコンテンツ検索
+
+プライベートチャネルで送信されたメッセージのレコードは、グループメールボックスではなく、すべてのプライベートチャネルメンバーのメールボックスに配信されます。 レコードのタイトルは、送信元のプライベートチャネルを示すように書式設定されます。
+
+各プライベートチャネルには、親チームサイトとは別の SharePoint サイトコレクションがあるため、プライベートチャネルのファイルは親チームとは独立して管理されます。
+
+チームは1つのチャネルのコンテンツ検索をサポートしていないため、チーム全体を検索する必要があります。 プライベートチャネルのコンテンツ検索を実行するには、チーム、プライベートチャネルに関連付けられたサイトコレクション (ファイルを含む)、プライベートチャネルメンバーのメールボックス (メッセージを含む) を検索します。
+
+次の手順を使用して、コンテンツ検索に含めるファイルとプライベートチャネル内のメッセージを識別します。
+
+### <a name="include-private-channel-files-in-a-content-search"></a>コンテンツ検索にプライベートチャネルファイルを含める
+
+これらの手順を実行する前に、 [Sharepoint Online 管理シェルをインストールして、Sharepoint online に接続](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)します。
+
+1. チーム内のプライベートチャネルに関連付けられているすべての SharePoint サイトコレクションの一覧を取得するには、次の操作を実行します。
+
+    ```
+    Get-SPOSite
+    ```
+2. 次の PowerShell スクリプトを実行して、チーム内のプライベートチャネルと親チームグループ ID に関連付けられたすべての SharePoint サイトコレクション Url の一覧を取得します。
+
+    ```
+    $sites = get-sposite -template "teamchannel#0"
+    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
+    ```
+3. 各チームまたはグループ ID について、次の PowerShell スクリプトを実行して、関連するすべてのプライベートチャネルサイトを特定します。
+
+    ```
+    $sites = get-sposite -template "teamchannel#0"
+    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
+    ```
+
+### <a name="include-private-channel-messages-in-a-content-search"></a>コンテンツ検索にプライベートチャネルメッセージを含める
+
+これらの手順を実行する前に、[最新バージョンの Teams PowerShell モジュール](teams-powershell-overview.md)がインストールされていることを確認してください。
+
+1. チーム内のプライベートチャネルの一覧を取得するには、次の操作を実行します。
+
+    ```
+    Get-TeamChannel -GroupId <GroupID> -MembershipType Private
+    ```
+2. プライベートチャネルメンバーの一覧を取得するには、次を実行します。
+
+    ```
+    Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
+    ```
+3. コンテンツ検索クエリの一部として、チーム内の各プライベートチャネルからすべてのメンバーのメールボックスを含めます。
+
 ## <a name="related-topics"></a>関連トピック
-[Office 365 セキュリティ & コンプライアンスセンターの電子情報開示ケース](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+
+- [Office 365 セキュリティ & コンプライアンスセンターの電子情報開示ケース](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
