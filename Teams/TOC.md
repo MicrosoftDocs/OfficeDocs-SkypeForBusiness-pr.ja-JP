@@ -18,6 +18,8 @@
 ## [展開の計画](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Advisor for Teams を使用して Teams をロールアウトする](use-advisor-teams-roll-out.md)
 ## [チームとチャネルの概要](teams-channels-overview.md)
+## [プライベート チャンネルの概要](private-channels.md)
+## [プライベート チャンネルのライフ サイクルの概要](private-channels-life-cycle-management.md)
 ## [Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
@@ -101,9 +103,6 @@
 #### [PSTN の使用状況レポート](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams のライブ イベントの使用状況レポート](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Microsoft 365 管理センターでの Teams のアクティビティ レポート](teams-activity-reports.md)
-
-
-
 
 <!-- ============================================================ -->
 
@@ -679,34 +678,66 @@
 #    
 # ハイブリッド接続 
 
-## [ハイブリッド接続のプラン](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [ハイブリッド接続のプラン](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## ハイブリッド接続の構成
-### [概要](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
-### [ハイブリッド環境用の Azure AD Connect の構成](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/configure-azure-ad-connect)
-### [Skype for Business ハイブリッドの構成](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+### [概要](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [ハイブリッド環境用の Azure AD Connect の構成](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [Skype for Business ハイブリッドの構成](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
 
 ## オンプレミスとクラウドの間でユーザーを移動する
-### [概要](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
-### [オンプレミスから Teams にユーザーを移動する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
-### [ユーザーをオンプレミスから Skype for Business Online に移動する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
-### [ユーザーをクラウドからオンプレミスに移動する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+### [概要](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [オンプレミスから Teams にユーザーを移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [ユーザーをオンプレミスから Skype for Business Online に移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [ユーザーをクラウドからオンプレミスに移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [会議の移行を管理する](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [会議の移行を管理する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
-## [ハイブリッドを無効にしてクラウドへの移行を完了する](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+## [ハイブリッドを無効にしてクラウドへの移行を完了する](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-## [リソース フォレスト トポロジの展開](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+## [リソース フォレスト トポロジの展開](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
 
 ## Teams および Skype for Business Online のクラウド統合
-### [概要](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/cloud-consolidation)
-### [エッジ証明書の更新](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
-### [AAD Connect を更新して複数のフォレストを含める](https://docs.microsoft.com/ja-JP/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+### [概要](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation)
+### [エッジ証明書の更新](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [AAD Connect を更新して複数のフォレストを含める](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
-## [Exchange および SharePoint との統合](https://docs.microsoft.com/ja-JP/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+## [Exchange および SharePoint との統合](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
+#     
+#     
 
-#       
+<!-- ============================================================ -->
+
+# Microsoft 365 企業向け音声
+## [Microsoft 365 企業向け音声とは?](business-voice/whats-business-voice.md)
+## 購入前の注意事項
+### [企業向け音声を取得するために何を購入すべきか](business-voice/what-to-buy.md)
+### [インターネット接続を確認する](business-voice/get-ready-internet.md)
+### [ユーザーの準備を行う](business-voice/prepare-users.md)
+## [作業の開始ウィザードを実行する](business-voice/use-getting-started-wizard.md)
+
+<!--
+## [Things to try](business-voice/things-to-try.md)
+-->
+## 設定をカスタマイズする
+### [カスタマイズのオプション](business-voice/customize-business-voice.md)
+### [電話番号のポート](business-voice/port-phone-numbers.md)
+### [自動応答をセットアップする](business-voice/set-up-auto-attendants.md)
+### [通話ポリシーの設定](business-voice/set-up-policies.md)
+### [ポリシー パッケージを管理する](business-voice/policy-packages.md)
+### [追加のユーザーを作成する](business-voice/create-users.md)
+### [通話キューを設定する](business-voice/set-up-call-queues.md)
+
+## 設定を管理する
+### [1 名以上のユーザーを作成する](business-voice/create-users.md)
+### [デバイスの管理](business-voice/manage-devices.md)
+### [通話品質の監視](business-voice/monitor-quality.md)
+### [通話品質ダッシュボード](business-voice/analytics-dashboard.md)
+
+## [パートナーのリソース](business-voice/partner-resources.md)
+
+#        
 #        
 
 <!-- ============================================================ -->
