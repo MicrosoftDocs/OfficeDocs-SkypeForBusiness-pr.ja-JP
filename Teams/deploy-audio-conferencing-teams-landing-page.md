@@ -10,19 +10,18 @@ audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ed86a8989cc1664d2ff73111b85d2fe30dcad3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 81ba166d86fde3272131e1349551c6df0eab6376
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240931"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925088"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議
 
@@ -73,7 +72,7 @@ Teams には、組織に適した Teams の管理に使用できる、カスタ�
 |------------|-------|
 |新しい会議ブリッジ番号を追加する必要があるか?| 新しい番号を追加する場合は、「[サービスの電話番号を取得する](/microsoftteams/getting-service-phone-numbers)」を参照してください。|
 |ブリッジの設定を変更する必要があるか?|ブリッジの設定を変更する場合は、「[電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)」を参照してください。|
-|電話会議で使用する番号を移行する必要があるか?|電話番号の移行の詳細は、「[Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)」を参照してください。|
+|電話会議で使用する番号を移行する必要があるか?|電話番号の移行の詳細は、「[Teams に電話番号を転送する](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」を参照してください。|
 |||
 
 
