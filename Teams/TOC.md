@@ -16,6 +16,7 @@
 
 # チャット、チーム、チャネルおよびアプリ
 ## [展開の計画](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+## [Advisor for Teams を使用して Teams をロールアウトする](use-advisor-teams-roll-out.md)
 ## [チームとチャネルの概要](teams-channels-overview.md)
 ## [Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
@@ -363,8 +364,11 @@
 ### [組織の電話番号のリストを表示する](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [ユーザーの電話番号を割り当て、変更、または削除する](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [サービス電話番号を取得する](getting-service-phone-numbers.md)
-### [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)
-### [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
+### 電話番号の転送
+#### [番号移行注文について](phone-number-calling-plans/port-order-overview.md)
+#### [Teams に電話番号を転送する](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+#### [手動で番号移行注文を送信する](phone-number-calling-plans/manually-submit-port-order.md)
+#### [番号移行注文の状況](phone-number-calling-plans/port-order-status.md)
 
 ## 通話ルーティング
 ### [ダイヤル プランについて](what-are-dial-plans.md)
