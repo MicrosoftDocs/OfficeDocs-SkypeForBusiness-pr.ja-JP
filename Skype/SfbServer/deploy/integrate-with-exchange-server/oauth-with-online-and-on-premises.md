@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: オンプレミスの Exchange と Skype for Business Online の間で OAuth 認証を構成すると、機能のサポートで説明されている Skype for Business と Exchange の統合機能が有効になります。
-ms.openlocfilehash: fe6d7bbe1be9418b7e960de02e91cecf1c808d2b
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1d64f8fe7b2d6dcf276ae34e74c84faf5c93f65a
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715809"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979780"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Skype for Business Online と Exchange Server の間で統合と OAuth を構成する 
 
@@ -41,7 +41,7 @@ Exchange server と Skype for Business Online との統合を構成すると、[
 
 次の記事の手順を実行します。
 
-[Exchange と Exchange Online の組織間の OAuth 認証を構成する](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Exchange と Exchange Online の組織間の OAuth 認証を構成する](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
 ### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>手順 2: Skype for Business Online パートナーアプリケーションの新しいメールユーザーアカウントを作成する
 
@@ -99,7 +99,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 オンプレミスの Exchange 組織の Exchange PowerShell で、作成した PowerShell スクリプトを実行します。 例: .\ExportAuthCert.ps1
 
-### <a name="step-6-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>手順 6: Azure Active Directory ACS にオンプレミス認証証明書をアップロードする
+### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>手順 5: オンプレミスの認証証明書を Azure Active Directory ACS にアップロードする
 
 次に、Windows PowerShell を使用して、先の手順でエクスポートしたオンプレミス認証証明書を Azure Active Directory アクセス制御サービス (ACS) にアップロードします。 このためには、Windows PowerShell コマンドレット用の Azure Active Directory モジュールが既にインストールされていることが必要です。 インストールされていない場合は[https://aka.ms/aadposh](https://aka.ms/aadposh) 、「Azure Active Directory Module For Windows PowerShell をインストールする」を参照してください。 Windows PowerShell 用 Azure Active Directory モジュールのインストール後、次の手順を完了します。
 
@@ -126,7 +126,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 4. スクリプトの開始後、[資格情報] ダイアログ ボックスが表示されます。Microsoft Online Azure AD 組織のテナント管理者アカウントの資格情報を入力します。スクリプトを実行した後に、Azure AD セッションで Windows PowerShell を開いたままにします。次の手順では、これを使用して PowerShell スクリプトを実行します。
 
-### <a name="step-7-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>手順 7: 証明書が Skype for Business のサービスプリンシパルにアップロードされていることを確認する
+### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>手順 6: 証明書が Skype for Business のサービスプリンシパルにアップロードされていることを確認する
 1. PowerShell で、Azure Active Directory が開かれ、認証されている場合は、次を実行します。
 ```
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
@@ -146,10 +146,10 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 または、トラフィックを確認します。 OAuth ハンドシェイクのトラフィックは、実際には非常に優れています (基本的な認証とは言えません)。特に、領域については、次のような発行者のトラフィックを表示することになります (例: 00000004-0000-0ff1-ce00-000000000000 @@ sign)。これは、渡されるトークンの中にあります。 OAuth のポイントであるユーザー名またはパスワードは表示されません。 ただし、"Office" の発行者が表示されます。この例では、「4」が Skype for Business であり、サブスクリプションの領域です。
 
-OAuth を正常に使用していることを確認したい場合は、想定される内容と、トラフィックの外観を把握してください。 ここ[](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)では、 [Microsoft アプリケーションでの oauth トラフィックの](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)標準的な例を示します (この例では、更新トークンを使用していませんが、Fiddler の拡張機能を使って oauth JWT (JSON) を表示することができます)。Web Token)。
+OAuth を正常に使用していることを確認したい場合は、想定される内容と、トラフィックの外観を把握してください。 ここ[では、](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34) [Microsoft アプリケーションでの oauth トラフィックの](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)標準的な例を示します (この例では、更新トークンを使用していませんが、Fiddler の拡張機能を使って oauth JWT (JSON) を表示することができます)。Web Token)。
 
 次に[1 つを設定する例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)を示しますが、この処理を実行する任意のネットワークトレースツールを使用できます。
 
 ## <a name="related-topics"></a>関連トピック
 
-[Exchange と Exchange Online の組織間の OAuth 認証を構成する](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Exchange と Exchange Online の組織間の OAuth 認証を構成する](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

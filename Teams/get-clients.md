@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fcc0ef8a4fd8dab857fcf4c75af61c2c258b364
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 6f7a1cd3002135e2327ca4953ddfbb5b0393242d
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37971663"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "37979700"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -39,7 +39,7 @@ Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、web、モ�
 > [!Tip]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションであり、 [Office 365 ProPlus でも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は Windows (7 +)、32ビットバージョンと64ビットバージョン、macOS (10.10 +)、Linux (Debian パッケージ`.deb`、Red Hat パッケージマネージャー `.rpm`) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、apt、yum などのパッケージマネージャーが、必要な要件をすべてインストールしようとします。 ただし、このようになっていない場合は、チームを Linux にインストールする前に、報告された要件をインストールする必要があります。
+Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションであり、 [Office 365 ProPlus でも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は Windows (7 +)、32ビットバージョンと64ビットバージョン、macOS (10.10 +)、Linux (in `.deb`と`.rpm` format) の両方で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、apt、yum などのパッケージマネージャーが、必要な要件をすべてインストールしようとします。 ただし、このようになっていない場合は、チームを Linux にインストールする前に、報告された要件をインストールする必要があります。
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
@@ -101,7 +101,7 @@ IT 管理者は、Teams の管理の展開を使用して、Jamf Pro などの�
 
 ### <a name="linux"></a>走ら
 
-Linux ユーザーは、Debian `.deb`パッケージまたは Red Hat パッケージ`.rpm`を使って Teams をインストールできます。 
+ユーザーは、ネイティブの`.deb` Linux パッケージと`.rpm`形式をインストールできます。
 
 > [!NOTE] 
 > Linux クライアントの Teams は、限定されたプレビューで利用できます。 クライアント内から`Report a Problem` 、を使ってバグを送信します。 既知の問題については、「[既知の問題](Known-issues.md)」をご覧ください。
@@ -110,7 +110,7 @@ Linux ユーザーは、Debian `.deb`パッケージまたは Red Hat パッケ�
 
 1. からhttps://aka.ms/getteamsパッケージをダウンロードします。 (Linux クライアントは、限定されたプレビューであり、まもなく起動されます。 ダウンロードページに Linux クライアントが表示されない場合は、まだ起動していません。)
 2. 次のいずれかの方法でインストールします。  
-    - Ubuntu ソフトウェアツールを使用してパッケージを開き、セルフガイド付きの Linux アプリのインストールプロセスを開始します。
+    - 関連するパッケージ管理ツールを開き、自己紹介の Linux アプリのインストールプロセスを開始します。
     - または、端末を気に入った場合は、次のように入力します。`sudo apt install **teams download file**`
 
 アクティビティを通じて、または「ターミナルから」 `Teams`と入力して、チームを起動できます。 
@@ -119,7 +119,7 @@ Linux ユーザーは、Debian `.deb`パッケージまたは Red Hat パッケ�
 
 1. からhttps://aka.ms/getteamsパッケージをダウンロードします。 (Linux クライアントは、限定されたプレビューであり、まもなく起動されます。 ダウンロードページに Linux クライアントが表示されない場合は、まだ起動していません。)
 2. 次のいずれかの方法でインストールします。
-    - Red Hat パッケージ管理ツールを使用してパッケージを開き、自己紹介の Linux アプリのインストールプロセスを開始します。
+    - 関連するパッケージ管理ツールを開き、自己紹介の Linux アプリのインストールプロセスを開始します。
     - または、端末を気に入った場合は、次のように入力します。`sudo yum install **teams download file**`
 
 アクティビティを通じて、または「ターミナルから」 `Teams`と入力して、チームを起動できます。

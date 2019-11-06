@@ -17,13 +17,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7729cd65ff5d58d348229c4ec5ec6182f06aa5de
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "36235910"
 ---
-![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
+![展開と実装のステージに重点を置いたアップグレードの段階](media/upgrade-banner-deployment.png "展開と実装のステージに重点を置いたアップグレードの段階")
 
 この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げています。 先に進む前に、次のアクティビティを完了していることを確認してください。
 

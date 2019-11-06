@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: このトピックでは、Microsoft Teams のルームを Exchange Online と共に展開する方法について説明します。
-ms.openlocfilehash: 25542c5165940b4595345a0c37d7588a90829c78
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8b4974b2da2fabf3230fc54359b041cebdffcdd9
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573497"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979790"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams ミーティング を展開
 
@@ -86,10 +86,10 @@ Import-PSSession $Session -DisableNameChecking
 
 ### <a name="assign-an-office-365-license"></a>Office 365 ライセンスを割り当てる
 
-1. まず、[Azure AD に接続して、いくつかのアカウント設定を適用します] を選びます。 次のコマンドレットを実行して接続することができます。 Active Directory の詳細については、「 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。 
+1. まず、[Azure AD に接続して、いくつかのアカウント設定を適用します] を選びます。 次のコマンドレットを実行して接続することができます。 Active Directory の詳細については、「 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0)はサポートされていません。 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)はサポートされていません。 
 
   ``` PowerShell
  Connect-MsolService -Credential $cred
@@ -132,7 +132,7 @@ Import-PSSession $Session -DisableNameChecking
     環境の RegistrarPool パラメーターに使用する値がわからない場合は、このコマンドを使用して、既存の Skype for Business Server ユーザーから値を取得することができます。
 
    ``` Powershell
-   Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
+   Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Skype for Business Server のライセンスを Microsoft Teams のルームアカウントに割り当てる

@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Office 365 管理者は、組織内の個々のユーザーに対して、プロバイダー、既定の有料電話番号、フリーダイヤル番号、会議 ID、PIN などの Microsoft Teams の音声会議の設定を編集できます。 '
 ms.openlocfilehash: 673441acebf9b31893925539471040bffa621f38
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571925"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの電話会議の設定を管理する
@@ -56,7 +56,7 @@ Office 365 管理者としてSkype for Business Onlineの電話会議の設定 �
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 

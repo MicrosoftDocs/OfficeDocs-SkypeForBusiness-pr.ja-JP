@@ -20,10 +20,10 @@ ms.custom:
 - Audio Conferencing
 description: 管理者は、ユーザーが発信できる電話会議とエンドユーザーの PSTN 通話の種類を制御できます。
 ms.openlocfilehash: 20122d2bc258b8ac6040a103d62e20f81e46a364
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37573333"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
@@ -57,7 +57,7 @@ ms.locfileid: "37573333"
 
 5. [**保存**] をクリックします。 
 
-![](media/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
+**Skype for Business 管理センターを使って** ![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png)
 
 1.  **Skype for business 管理センター**の左のナビゲーションで、[**電話会議** > **ユーザー**] に移動し、利用可能なユーザーのリストからユーザーを選びます。
 

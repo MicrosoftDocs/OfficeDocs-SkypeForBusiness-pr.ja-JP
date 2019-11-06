@@ -20,10 +20,10 @@ ms.custom:
 - Audio Conferencing
 description: 管理者は、開催者が会議に無料の電話番号を使用する方法を制御できます。
 ms.openlocfilehash: e2dddd04f376de69dbbc9579525966bac6351a0a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37572104"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>特定の Teams ユーザーの無料電話番号を無効にする
