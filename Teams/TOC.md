@@ -27,7 +27,6 @@
 ## [チームとチャネル ポリシーを管理する](teams-policies.md)
 ## [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
 ## [Teams でチャネルのモデレートを設定する](manage-channel-moderation-in-teams.md)
-## [Teams でファイルを共有する](sharing-files-in-teams.md)
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [Teams でのユーザーのプレゼンス](presence-admins.md)
 ## [Teams でクロスチームおよびチームごとの分析を表示する](teams-analytics-and-reports/cross-team-per-team-analytics.md)
