@@ -19,7 +19,7 @@
 ### [System Center Configuration Manager を使用する場合](room-systems-scale.md)
 ### [Azure Monitor による管理](azure-monitor-deploy.md)
 ### [SRS v1 または LRS の移行](lrs-migration.md)
-### [コンテンツのカメラ](content-camera.md)
+### [コンテンツ カメラ](content-camera.md)
 
 ## 管理
 ### [管理の概要](skype-room-systems-v2.md)
