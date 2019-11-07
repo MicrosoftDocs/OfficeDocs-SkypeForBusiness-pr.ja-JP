@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fa78681bbad0fb5b4c46a2ac424f3be01e9a857
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
+ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972288"
+ms.locfileid: "37973216"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>ユーザーを Business Voice に対応させるにはどうすればよいですか?
 
@@ -32,7 +32,7 @@ Business Voice をセットアップする前に、ユーザーを準備させ�
 
 PC および Mac の場合、https://teams.microsoft.com/downloads で Teams をダウンロードできます。 ユーザーが Windows 10 を S モードで実行している場合、Windows ストアから Teams をインストールできます。
 Android および iPhone の携帯電話の場合、Google Play および Apple App Store で Microsoft Teams を検索してアプリをインストールできます。 スマートフォンは Android 4.4 以降、または iOS 10.0 以降を実行している必要があります。
-Web で Teams を使用するには、サポートされているブラウザーを使用する必要があります。 サポートされているブラウザーのリストについては、「[Microsoft Teamsのクライアントを取得する」の Web クライアント セクション](../get-clients#web-client)をご覧ください。
+Web で Teams を使用するには、サポートされているブラウザーを使用する必要があります。 サポートされているブラウザーのリストについては、「[Microsoft Teamsのクライアントを取得する」の Web クライアント セクション](../get-clients.md#web-client)をご覧ください。
 
 ## <a name="devices-for-microsoft-teams"></a>Microsoft Teams のデバイス
 
