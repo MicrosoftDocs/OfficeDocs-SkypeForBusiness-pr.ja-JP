@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この付録には、Teams と Skype for Business のクラウド統合の一部としてハイブリッドを無効にするための詳細な手順が含まれています。
-ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
-ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
+ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37962057"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010580"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>ハイブリッドを無効にしてクラウドへの移行を完了する
 
@@ -47,8 +47,8 @@ ms.locfileid: "37962057"
 
     |レコードの種類|名前|TTL|Value|
     |---|---|---|---|
-    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed。<span>com|
-    |SRV|(sip) tls|3600|100 1 443 sipdir。<span>com|
+    |SRV|_sipfederationtls _tcp|3600|100 1 5061 sipfed。<span>com|
+    |SRV|_sip _tls|3600|100 1 443 sipdir。<span>com|
     |CNAME| lyncdiscover|   3600|   webdir。<span>com|
     |CNAME| sip|    3600|   sipdir。<span>com|
     |CNAME| 満たせ|   3600|   webdir。<span>com|
@@ -61,9 +61,8 @@ ms.locfileid: "37962057"
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
-3.  *オンプレミスで Office 365 と通信する機能を無効にします。*  
-次のコマンドは、オンプレミスの PowerShell ウィンドウから実行する必要があります。  以前に Skype for Business Online セッションをインポートしたことがある場合は、次のように、新しい Skype for Business PowerShell セッションを開始します。
-
+3.  *オンプレミスの Office 365 との通信機能を無効にします。*  
+次のコマンドは、オンプレミスの PowerShell ウィンドウから実行する必要があります。
 ```
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
@@ -72,11 +71,11 @@ ms.locfileid: "37962057"
 
 管理者は、オンプレミスの展開を使用停止にした後であっても、オンプレミスの Skype for Business Server からクラウドに移動されたユーザーを管理できます。 2つの異なる可能性があります。
 
-- ユーザーは、移動前に、オンプレミスの lineURI の値を持っていませんでした。 
+- ユーザーは、移動前に、オンプレミスの LineURI の値を持っていませんでした。 
 
-  この場合は、Skype for Business Online Powershell[モジュールの-](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) onpremLineUri パラメーターを使用して、lineuri を変更することができます。
+  この場合は、Skype for Business Online PowerShell[モジュールの-](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) onpremLineUri パラメーターを使用して、lineuri を変更することができます。
 
-- ユーザーは、移動前に、オンプレミスの lineURI を使用しました (ユーザーがエンタープライズ Voip を有効にしているため)。 
+- ユーザーは、移動前に、オンプレミスの LineURI を使用しました (ユーザーがエンタープライズ Voip を有効にしているため)。 
 
   LineURI を変更する場合は、オンプレミスの Active Directory でこれを実行し、その値が Azure AD に流れるようにする必要があります。 これには、オンプレミスの Skype for Business Server は必要ありません。 代わりに、この属性 msRTCSIP は、Active Directory ユーザーとコンピューター MMC スナップインを使用するか、PowerShell を使用して、オンプレミスの Active Directory で直接編集することができます。 MMC スナップインを使用している場合は、ユーザーの [プロパティ] ページを開き、[属性エディター] タブをクリックして、msRTCSIP 行を検索します。
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをバーレーンで利用できるようにする方法について説明します。
-ms.openlocfilehash: 72831036ec6a3aa020b5381c78bfc06f8fc74c48
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0c4c9f0f51193296b7ee6131e08cf3c2625896f1
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570801"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010610"
 ---
 # <a name="availability-in-bahrain"></a>バーレーンでの利用可能性
 
@@ -41,7 +41,7 @@ ms.locfileid: "37570801"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい  <br/> |
+|電話会議は購入できますか?  <br/> |いいえ  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |○: <br/><ul><li>マナーマ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    

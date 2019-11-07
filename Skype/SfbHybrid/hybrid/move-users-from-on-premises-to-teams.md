@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ユーザー設定を移行し、ユーザーを Teams に移動する方法について説明します。'
-ms.openlocfilehash: c655d8ecaa5856a57d7e675676c0ba5e8c2c43d6
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 0d37fc1a875763552b2b0cebbd29a0f9c7a62e8d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464680"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010620"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>オンプレミスから Teams へのユーザーの移動
 
@@ -67,7 +67,7 @@ Move-CsUser は、オンプレミスの Skype for Business 管理シェル Power
 - 値が "sipfed" の-Target パラメーターを指定します。<span>com "。
 - `MoveToTeams`スイッチを指定します。
 - オンプレミスと Office 365 の両方に十分な権限を持つアカウントがない場合は、 `-credential`パラメーターを使用して、office 365 に十分な権限を持つアカウントを指定します。
-- Office 365 でアクセス許可が設定されているアカウントが「microsoft」で終わっていない場合。<span>com "では、「 `-HostedMigrationOverrideUrl` [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)」に説明されているように、適切な値を指定してパラメーターを指定する必要があります。
+- Office 365 のアクセス許可を持つアカウントが "onmicrosoft" で終了していない場合。<span>com "では、「 `-HostedMigrationOverrideUrl` [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)」に説明されているように、適切な値を指定してパラメーターを指定する必要があります。
 
 次のコマンドレットシーケンスを使用して、ユーザーを TeamsOnly に移動できます。また、Office 365 資格情報が別のアカウントであると仮定して、資格情報の取得を求めるメッセージの入力として指定します。
 
@@ -112,9 +112,9 @@ Skype for Business Win32 クライアントを使用した Teams の自動ダウ
 
 ## <a name="see-also"></a>関連項目
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
 
-[CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy
+[CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用性のガイダンス](/microsoftteams/migration-interop-guidance-for-teams-with-skype)

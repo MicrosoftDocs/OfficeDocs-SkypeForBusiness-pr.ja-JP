@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 054c3a639cc5857fb25a7e211a272868477dcb61
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573219"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010600"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -28,6 +28,8 @@ ms.locfileid: "37573219"
 
 > [!IMPORTANT]
 > ユーザーを [**Teams のみ**] モードに移動した後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなります。 プレゼンスは Teams では正常に機能します。 対応策: Outlook (およびその他の Office アプリ) でプレゼンスを表示するには、teams**のみ**のモードで teams を実行している場合でも、Skype for business をインストールする必要があります。 Microsoft はこの問題を把握しており、現在修正に向けて取り組んでいます。
+
+Outlook でのチームのプレゼンスは、Outlook 2013 デスクトップアプリ以降でサポートされています。
 
 ## <a name="presence-states-in-teams"></a>Teams のプレゼンス状態
 
@@ -54,9 +56,9 @@ Teams で利用できるユーザーのプレゼンス状態は次のとおり�
 || ![矢印付き紫色の円は、外出中であることを示します。](media/Presence_OOF.png) 外出中|
 |||
  
-ユーザーは、現在のプレゼンス状態をいくつかのオプションに手動で設定することができ、その状態は他のすべてのユーザーに反映されます。 その他のユーザーのプレゼンス情報も自動的に更新されます。 変更は、ユーザーのアクティビティ (利用可能、退席中)、Outlook の予定表の状態 (会議中)、またはチームアプリの状態 (通話中、発表中) に基づいて、一覧でインデントされた状態に基づいて行われます。
+ユーザーは、現在のプレゼンス状態をいくつかのオプションに手動で設定することができ、その状態は他のすべてのユーザーに反映されます。 その他のユーザーのプレゼンス情報も自動的に更新されます。 変更は、ユーザーのアクティビティ (利用可能、退席中)、Outlook の予定表の状態 (会議中)、またはチームアプリの状態 (通話中、発表中) に基づいて、一覧でインデントされた状態に基づいて行われます。 
 
-15分間の非アクティブなタイムアウトがあります。その後、現在のプレゼンス状態が [退席中] にリセットされます。
+現在のプレゼンス状態が [退席中] にリセットされるまでの15分間のアイドル時間のタイムアウトがあります。
 
 ユーザーは、休憩できるユーザーを指定できます (つまり、"応答不可" ということを意味します)。 これらの設定は、Teams クライアントで利用できます。
 
