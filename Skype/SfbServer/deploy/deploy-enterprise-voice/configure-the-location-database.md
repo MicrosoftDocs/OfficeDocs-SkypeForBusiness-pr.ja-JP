@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Skype for Business Server Enterprise Voice で E9-1 の場所データベースを構成、設定、公開します。
-ms.openlocfilehash: 36ddd57e39b51171581c0c6316f165f44879e3f9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233688"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038706"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Skype for Business Server で場所データベースを構成する
  
@@ -49,7 +49,7 @@ Skype for Business Server Enterprise Voice で E9-1 の場所データベース�
 |:-----|:-----|
 |**ワイヤレス アクセス ポイント** <br/> |\<BSSID\>、\<説明\>、\<場所\>、\<CompanyName\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<predirectional\>,...  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<postdirectional\>、\<市区\>町村\<、\>都道府県\<、\>郵便\<番号、国\>  <br/> |
 |**Subnet** <br/> |\<サブ\>ネット\<、\>説明\<、\>場所\<、\>CompanyName\<、\>HouseNumber\<、\>HouseNumberSuffix\<、predirectional\>,...  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<postdirectional\>、\<市区\>町村\<、\>都道府県\<、\>郵便\<番号、国\>  <br/> |
-|**ポート** <br/> |\<ChPortIDSubType sid\>、\<\>、\<PortID\>、\<Description\>、\<Location\>、\<CompanyName\>、\<HouseNumber\>、\<HouseNumberSuffix\>,...  <br/> ...\<Predirectional\>、\<StreetName\>、\<StreetSuffix\>、\<\>postdirectional\<市区町村\>、\<都道府県\>、\<郵便\>番号\< 、居住\>  <br/> |
+|**ポート** <br/> |\<ChPortIDSubType sid\>、\<\>、\<PortID\>、\<Description\>、\<Location\>、\<CompanyName\>、\<HouseNumber\>、\<HouseNumberSuffix\>,...  <br/> ...\<Predirectional\>、\<StreetName\>、\<StreetSuffix\>、\<\>postdirectional\<市区町村\>、\<都道府県\>、\<郵便\>番号\<、国\>  <br/> |
 |**スイッチ** <br/> |\<ChHouseNumber sid\>、\<説明\>、\<場所\>、\<CompanyName\>、\<\>、\<HouseNumberSuffix\>、\<predirectional\>,...  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<postdirectional\>、\<市区\>町村\<、\>都道府県\<、\>郵便\<番号、国\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>ネットワーク要素を場所のデータベースに追加するには
@@ -89,7 +89,7 @@ Skype for Business Server Enterprise Voice で E9-1 の場所データベース�
 3. 次のコマンドレットを実行して、スイッチの場所を場所データベースに追加します。
     
    ```
-   Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
+   Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    また、"switches.csv" という名前のファイルを使用して、次のコマンドレットでスイッチの場所を一括で更新することもできます。

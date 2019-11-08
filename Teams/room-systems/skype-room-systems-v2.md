@@ -20,18 +20,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Microsoft Teams のルームで利用できる機能について説明します。 '
-ms.openlocfilehash: 392f2c44e739eb0f9c2bcb80827d52491a0c5a9d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573574"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038736"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 会議室のライセンス更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共有通信デバイスのライセンスソリューション
 
-Microsoft は、会議室のデバイスごと (Microsoft Teams 室や Microsoft Surface Hub など) について、会議と通話のライセンスを付与する専用の SKU を持っています。
+Microsoft には、会議のライセンスを取得し、会議室のデバイス (Microsoft Teams 室や Microsoft Surface Hub など) のデバイスごとに通話を発信する専用の SKU があります。
 
 ||Microsoft Room SKU |  
 |:--- |:---: |
@@ -61,7 +61,7 @@ Microsoft は、会議室のデバイスごと (Microsoft Teams 室や Microsoft
 |:-----|:-----|:-----|
 |スケジュールされている会議に参加する  | 会議室の SKU  |Skype for Business Server Standard CAL  |
 |臨時の会議を開始する | 会議室の SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|臨時の会議を開始して、会議から電話番号にダイヤル アウトする |  会議室の SKU |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|臨時の会議を開始して、会議から電話番号にダイヤルアウトする |  会議室の SKU |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |会議室に電話番号を付け、会議室からの通話の発信や受信を行うか、電話番号を使って電話会議に参加する  | 会議室の SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
 |Microsoft Intune で room デバイスを管理する |会議室の SKU  |[オンプレミス MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm)付きの Microsoft Intune サブスクリプション |
 | |||
