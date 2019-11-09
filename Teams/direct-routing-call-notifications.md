@@ -16,36 +16,36 @@ description: 直接ルーティング通話の通知
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 07efe11d304107a5a8606a07f5d1c2a7a130bc0b
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: a031af6a7bdfedfebd6d666b717d03259d92f56c
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37595349"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074609"
 ---
-# <a name="manage-call-notifications"></a><span data-ttu-id="106aa-103">通話の通知を管理する</span><span class="sxs-lookup"><span data-stu-id="106aa-103">Manage call notifications</span></span>
+# <a name="manage-call-notifications"></a><span data-ttu-id="acc46-103">着信通知の管理</span><span class="sxs-lookup"><span data-stu-id="acc46-103">Manage call notifications</span></span>
 
-<span data-ttu-id="106aa-104">この記事では、ユーザーの通話通知を管理する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="106aa-104">This article describes how to manage call notifications for your users.</span></span> <span data-ttu-id="106aa-105">通話エンドポイントは、Teams とサードパーティの構内交換 (PBX) またはセッションボーダーコントローラー (SBC) の両方に対して構成できます。</span><span class="sxs-lookup"><span data-stu-id="106aa-105">You can configure call endpoints to both Teams and to a third-party Private Branch Exchange (PBX) or Session Border Controller (SBC).</span></span>  <span data-ttu-id="106aa-106">これは、たとえば、ユーザーのモバイルおよび卓上電話に同時に通話を送信する場合に便利です。</span><span class="sxs-lookup"><span data-stu-id="106aa-106">This is useful, for example, if you want to send a call to a user's mobile and desk phones at the same time.</span></span>   
+<span data-ttu-id="acc46-104">この記事では、ユーザーの通話通知を管理する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="acc46-104">This article describes how to manage call notifications for your users.</span></span> <span data-ttu-id="acc46-105">通話エンドポイントは、Teams とサードパーティの構内交換 (PBX) またはセッションボーダーコントローラー (SBC) の両方に対して構成できます。</span><span class="sxs-lookup"><span data-stu-id="acc46-105">You can configure call endpoints to both Teams and to a third-party Private Branch Exchange (PBX) or Session Border Controller (SBC).</span></span>  <span data-ttu-id="acc46-106">これは、たとえば、ユーザーのモバイルおよび卓上電話に同時に通話を送信する場合に便利です。</span><span class="sxs-lookup"><span data-stu-id="acc46-106">This is useful, for example, if you want to send a call to a user's mobile and desk phones at the same time.</span></span>   
 
-<span data-ttu-id="106aa-107">次の図では、ユーザー Irena に2つのエンドポイントがあります。</span><span class="sxs-lookup"><span data-stu-id="106aa-107">In the following diagram, user Irena has two endpoints:</span></span>
+<span data-ttu-id="acc46-107">次の図では、ユーザー Irena に2つのエンドポイントがあります。</span><span class="sxs-lookup"><span data-stu-id="acc46-107">In the following diagram, user Irena has two endpoints:</span></span>
 
-- <span data-ttu-id="106aa-108">Teams のエンドポイント</span><span class="sxs-lookup"><span data-stu-id="106aa-108">A Teams endpoint</span></span>
-- <span data-ttu-id="106aa-109">サードパーティの SBC に接続された SIP 電話</span><span class="sxs-lookup"><span data-stu-id="106aa-109">A SIP phone connected to a third-party SBC</span></span>
+- <span data-ttu-id="acc46-108">Teams のエンドポイント</span><span class="sxs-lookup"><span data-stu-id="acc46-108">A Teams endpoint</span></span>
+- <span data-ttu-id="acc46-109">サードパーティの SBC に接続された SIP 電話</span><span class="sxs-lookup"><span data-stu-id="acc46-109">A SIP phone connected to a third-party SBC</span></span>
 
-<span data-ttu-id="106aa-110">通話が着信すると、SBC は、電話システムのダイレクトルーティングとサードパーティの SBC の間の通話をフォークします。</span><span class="sxs-lookup"><span data-stu-id="106aa-110">When a call arrives, the SBC forks the call between Phone System Direct Routing and the third-party SBC.</span></span>
+<span data-ttu-id="acc46-110">通話が着信すると、SBC は、電話システムのダイレクトルーティングとサードパーティの SBC の間の通話をフォークします。</span><span class="sxs-lookup"><span data-stu-id="acc46-110">When a call arrives, the SBC forks the call between Phone System Direct Routing and the third-party SBC.</span></span>
 
 
 ![フォークされた Teams エンドポイントを示す図](media/direct-routing-call-notification-1.png)
 
-<span data-ttu-id="106aa-112">通話が Fork 2 (サードパーティの SBC) で受け入れられた場合、Teams は「不在着信」の通知を生成します。</span><span class="sxs-lookup"><span data-stu-id="106aa-112">If the call is accepted on Fork 2 (by the third-party SBC), Teams will generate a “Missed Call” notification.</span></span>  
+<span data-ttu-id="acc46-112">通話が Fork 2 (サードパーティの SBC) で受け入れられた場合、Teams は「不在着信」の通知を生成します。</span><span class="sxs-lookup"><span data-stu-id="acc46-112">If the call is accepted on Fork 2 (by the third-party SBC), Teams will generate a “Missed Call” notification.</span></span>  
 
-<span data-ttu-id="106aa-113">次のようにして、Fork 1 でキャンセルを送信するように SBC を設定すると、"不在着信" の通知を防ぐことができます。</span><span class="sxs-lookup"><span data-stu-id="106aa-113">You can prevent the “Missed Call” notification by configuring the SBC to send a Cancel on Fork 1 as follows:</span></span>
+<span data-ttu-id="acc46-113">次のようにして、Fork 1 でキャンセルを送信するように SBC を設定すると、"不在着信" の通知を防ぐことができます。</span><span class="sxs-lookup"><span data-stu-id="acc46-113">You can prevent the “Missed Call” notification by configuring the SBC to send a Cancel on Fork 1 as follows:</span></span>
 
-<span data-ttu-id="106aa-114">理由: SIP;原因 = 200; テキスト "通話がどこかで完了しました"</span><span class="sxs-lookup"><span data-stu-id="106aa-114">REASON: SIP; cause=200;text”Call completed elsewhere”</span></span> 
+<span data-ttu-id="acc46-114">理由: SIP;原因 = 200; テキスト "通話がどこかで完了しました"</span><span class="sxs-lookup"><span data-stu-id="acc46-114">REASON: SIP; cause=200;text”Call completed elsewhere”</span></span> 
 
-<span data-ttu-id="106aa-115">通話は、Microsoft 電話システムの通話の詳細レコードに正常に通話として登録されないことに注意してください。</span><span class="sxs-lookup"><span data-stu-id="106aa-115">Note that the call will not be registered in the call detail records of Microsoft Phone System as a successful call.</span></span> <span data-ttu-id="106aa-116">通話は "試行" として登録されます。これには、最終 SIP コード "487"、最終的な Microsoft コードの "540200"、最終 SIP コードフレーズ "通話はどこかで完了しました" となります。</span><span class="sxs-lookup"><span data-stu-id="106aa-116">The call will be registered as an “Attempt” with Final SIP Code “487”, Final Microsoft subcode “540200”, and Final SIP Code Phrase “Call completed elsewhere”.</span></span>   <span data-ttu-id="106aa-117">(通話の詳細レコードを表示するには、Teams 管理ポータル、分析/レポート、利用状況レポート、PSNT の利用状況を選択します) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="106aa-117">(To view the call detail records, go the Teams Admin portal, Analytics and Reports, Usage Reports, and select PSNT Usage.)</span></span>
+<span data-ttu-id="acc46-115">通話は、Microsoft 電話システムの通話の詳細レコードに正常に通話として登録されないことに注意してください。</span><span class="sxs-lookup"><span data-stu-id="acc46-115">Note that the call will not be registered in the call detail records of Microsoft Phone System as a successful call.</span></span> <span data-ttu-id="acc46-116">通話は "試行" として登録されます。これには、最終 SIP コード "487"、最終的な Microsoft コードの "540200"、最終 SIP コードフレーズ "通話はどこかで完了しました" となります。</span><span class="sxs-lookup"><span data-stu-id="acc46-116">The call will be registered as an “Attempt” with Final SIP Code “487”, Final Microsoft subcode “540200”, and Final SIP Code Phrase “Call completed elsewhere”.</span></span>   <span data-ttu-id="acc46-117">(通話の詳細レコードを表示するには、Teams 管理ポータル、分析とレポート、利用状況レポート、[PSTN の利用状況] を選択します)。</span><span class="sxs-lookup"><span data-stu-id="acc46-117">(To view the call detail records, go the Teams Admin portal, Analytics and Reports, Usage Reports, and select PSTN Usage.)</span></span>
 
 
-<span data-ttu-id="106aa-118">次の図は、Fork 1 での SIP のはしごを示しています。通話フローと、キャンセルメッセージで想定される理由について説明しています。</span><span class="sxs-lookup"><span data-stu-id="106aa-118">The diagram below illustrates the SIP ladder for Fork 1, explains the call flow, and the expected REASON in the Cancel message.</span></span> 
+<span data-ttu-id="acc46-118">次の図は、Fork 1 での SIP のはしごを示しています。通話フローと、キャンセルメッセージで想定される理由について説明しています。</span><span class="sxs-lookup"><span data-stu-id="acc46-118">The diagram below illustrates the SIP ladder for Fork 1, explains the call flow, and the expected REASON in the Cancel message.</span></span> 
 
 ![フォークされた Teams エンドポイントを示す図](media/direct-routing-call-notification-2.png)
