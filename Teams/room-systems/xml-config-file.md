@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
-ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573464"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074619"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する
 
@@ -60,7 +60,7 @@ ms.locfileid: "37573464"
     </Devices>
     <Theming>
         <ThemeName>Custom</ThemeName>
-        <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
+        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
         <CustomThemeColor>
             <RedComponent>100</RedComponent>
             <GreenComponent>100</GreenComponent>
@@ -102,7 +102,7 @@ ms.locfileid: "37573464"
 |\<ContentCameraEnhancement>  | ブール型 &#x2777; | |True (既定値) に設定すると、コンテンツカメラの画像がデジタルで強化されます。ホワイトボードの端が検知され、適切なズームが選択され、ホワイトボードに手書きした人が透明になります。  <br><br> ホワイトボードがペンで描画されていないスペースの会議参加者に生のビデオフィードを送信する場合は、false に設定します。代わりに、付箋、ポスターなどのメディアを表示するためにカメラが使用されます。  |
 | \<テーマ\>  |Container |第1の &#x2776;  |XML ファイルに適用できる機能の1つは、組織のユーザー設定のテーマです。 テーマ名、背景画像、色を指定できます。 |
 |\<グループ名\> |文字列 &#x2778;  || クライアントのテーマを特定するために使用されます。 テーマ名のオプションは、既定、提供されたプリセット テーマのいずれか、またはカスタムになります。 <br/>  ユーザー設定のテーマ名には、常に*ユーザー設定*の名前が使用されます。 クライアント UI は、コンソールで既定または標準のいずれかに設定できますが、カスタムテーマを使用するには、管理者がリモートで設定する必要があります。 <br/>  プリセット テーマには次のものが含まれます:  <br/>  Default <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  現在のテーマを無効にするには、[テーマなし] を使用します。  |
-|\<CustomThemeImageUrl\> |文字列 &#x2778;  ||カスタムテーマの場合は必須。それ以外の場合は省略可能です。   |ユーザー設定のテーマイメージの詳細については、「[ユーザー設定のテーマイメージ](xml-config-file.md#Themes)」セクションを参照してください。
+|\<CustomThemeImageUrl\> |文字列 &#x2778;  ||カスタムテーマの場合は必須。それ以外の場合は省略可能です。 ファイル名のみを入力します。   |ユーザー設定のテーマイメージの詳細については、「[ユーザー設定のテーマイメージ](xml-config-file.md#Themes)」セクションを参照してください。
 |\<CustomThemeColor\> |Container ||\<\>Redcomponent \<、\>GreenComponent、および\<BlueComponent\>値のコンテナー。 ユーザー設定のテーマには、これらの値を入力する必要があります。 |
 |\<赤成分\> |Byte (0-255) ||赤のカラー コンポーネントを表します。 |
 |\<GreenComponent\> |Byte (0-255) ||緑のカラー コンポーネントを表します。 |
@@ -150,7 +150,7 @@ XML 構成ファイルはデバイスの起動時に更新され、テーマ画�
 
 ## <a name="see-also"></a>関連項目
 
-[コンテンツのカメラ](content-camera.md)
+[コンテンツ カメラ](content-camera.md)
 
 [Microsoft Teams Rooms を管理する](skype-room-systems-v2.md)
 

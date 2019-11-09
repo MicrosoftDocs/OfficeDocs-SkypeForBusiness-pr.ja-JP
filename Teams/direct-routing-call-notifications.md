@@ -16,14 +16,14 @@ description: 直接ルーティング通話の通知
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 07efe11d304107a5a8606a07f5d1c2a7a130bc0b
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: a031af6a7bdfedfebd6d666b717d03259d92f56c
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37595349"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074609"
 ---
-# <a name="manage-call-notifications"></a>通話の通知を管理する
+# <a name="manage-call-notifications"></a>着信通知の管理
 
 この記事では、ユーザーの通話通知を管理する方法について説明します。 通話エンドポイントは、Teams とサードパーティの構内交換 (PBX) またはセッションボーダーコントローラー (SBC) の両方に対して構成できます。  これは、たとえば、ユーザーのモバイルおよび卓上電話に同時に通話を送信する場合に便利です。   
 
@@ -43,7 +43,7 @@ ms.locfileid: "37595349"
 
 理由: SIP;原因 = 200; テキスト "通話がどこかで完了しました" 
 
-通話は、Microsoft 電話システムの通話の詳細レコードに正常に通話として登録されないことに注意してください。 通話は "試行" として登録されます。これには、最終 SIP コード "487"、最終的な Microsoft コードの "540200"、最終 SIP コードフレーズ "通話はどこかで完了しました" となります。   (通話の詳細レコードを表示するには、Teams 管理ポータル、分析/レポート、利用状況レポート、PSNT の利用状況を選択します) を参照してください。
+通話は、Microsoft 電話システムの通話の詳細レコードに正常に通話として登録されないことに注意してください。 通話は "試行" として登録されます。これには、最終 SIP コード "487"、最終的な Microsoft コードの "540200"、最終 SIP コードフレーズ "通話はどこかで完了しました" となります。   (通話の詳細レコードを表示するには、Teams 管理ポータル、分析とレポート、利用状況レポート、[PSTN の利用状況] を選択します)。
 
 
 次の図は、Fork 1 での SIP のはしごを示しています。通話フローと、キャンセルメッセージで想定される理由について説明しています。 

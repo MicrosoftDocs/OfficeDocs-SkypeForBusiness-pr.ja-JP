@@ -11,22 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Skype for Business Server とのウイルス対策スキャナーの相互運用の概要。
-ms.openlocfilehash: 9ec13b31328744bb154c9eb5e09dff7665c4b540
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 69fb02d04f27b7444a3b8cadaacafc05654a1c9f
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296974"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074629"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Skype for Business Server のウイルススキャン除外の除外
 
 Skype for Business Server とのウイルス対策スキャナーの相互運用の概要。
-
-この記事には、サポートされているバージョンの Microsoft Windows を実行しているコンピューターで、Active Directory ドメインでウイルス対策ソフトウェアを使用している場合に発生する可能性のある原因を特定するための推奨事項が記載されています。環境または管理されたビジネス環境。
-
-システムを評価するために、これらの手順を一時的に適用することをお勧めします。 この記事に記載されている推奨事項に従ってシステムのパフォーマンスまたは安定性が改善された場合は、ウイルス対策ソフトウェアベンダーに問い合わせてください。または、ウイルス対策ソフトウェアの更新版をお探しください。
-
-この記事では、セキュリティ設定のレベルを下げる方法、またはコンピューターのセキュリティ機能を一時的に無効にする方法について説明します。 これらの変更を加えて、特定の問題の性質を理解することができます。 これらの変更を行う前に、この回避策の実装に関連するリスクを特定の環境で評価することをお勧めします。 この回避策を実装する場合は、ウイルス対策ソフトウェアによってスキャンされなくなったファイルをコンピューターで保護するために、適切な追加の手順を実行します。
 
 ウイルス対策スキャナーが Skype for Business Server の動作に干渉しないようにするには、ウイルス対策ソフトウェアを実行している各 Skype for Business Server サーバーまたはサーバーロールの特定のプロセスとディレクトリを除外する必要があります。 除外が必要なプロセスとディレクトリを以下に示します。
 
