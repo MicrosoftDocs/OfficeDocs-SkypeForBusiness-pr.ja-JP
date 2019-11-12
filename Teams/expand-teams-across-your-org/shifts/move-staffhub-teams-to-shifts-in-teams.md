@@ -13,14 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
+- SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9468dea64c464b3bfc2f0cec7c53f46e2f388c1f
-ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
+ms.openlocfilehash: e7b534950c92cd4f9c7b21ff6a572fb0ba9a5261
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37775086"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231258"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft Teams で Microsoft StaffHub teams をシフトに移行する
 
@@ -370,7 +371,7 @@ $res.Result.Error.Innererror
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 - [Microsoft Teams の展開方法](../../How-to-roll-out-teams.md)
 - [Microsoft StaffHub はまもなく廃止予定です](microsoft-staffhub-to-be-retired.md)
 - [Microsoft Teams で組織のシフト アプリを管理する](manage-the-shifts-app-for-your-organization-in-teams.md)

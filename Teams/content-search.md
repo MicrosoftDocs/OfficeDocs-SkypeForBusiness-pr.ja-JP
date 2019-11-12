@@ -8,17 +8,18 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: Microsoft Teams のコンテンツ検索について説明し、Exchange からのチャネル会話の検索方法、SharePoint からのファイルのアップロードと変更、OneNote の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faed09a5fafaec559bc4277b75a60d8cc594fa85
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968288"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231158"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams のコンテンツ検索を使用する
 =====================================
@@ -30,7 +31,7 @@ ms.locfileid: "37968288"
 
 詳細については、「 [Office 365 でコンテンツ検索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)を読む」を参照してください。
 
-たとえば、製造仕様のメールボックスと製造仕様の SharePoint サイトに対して**コンテンツ検索**を使用すると、Exchange からのチーム標準チャネルの会話や、SharePoint Online からのファイルのアップロードと変更を検索することができます。OneNote が変更されます。
+たとえば、製造仕様のメールボックスと製造仕様の SharePoint サイトに対して**コンテンツ検索**を使用すると、Exchange からの Teams 標準チャネルの会話、sharepoint Online からのファイルのアップロードと変更、OneNote の変更を検索することができます。
 
 **コンテンツ検索**にクエリ条件を追加して、返される結果を絞り込むこともできます。 上の例では、"**新しいファクトリの仕様"** というキーワードが使用されているコンテンツを確認できます。
 

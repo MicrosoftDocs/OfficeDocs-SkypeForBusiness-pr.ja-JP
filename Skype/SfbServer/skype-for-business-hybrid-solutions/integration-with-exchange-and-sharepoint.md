@@ -1,5 +1,5 @@
 ---
-title: Exchange と SharePoint との統合
+title: Exchange および SharePoint との統合
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -15,21 +15,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 - Strat_SB_Hybrid
+- SPO_Content
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '概要: Skype for Business Server 2015 と Exchange および SharePoint との統合について説明します。'
-ms.openlocfilehash: fa4e6d93dd1538dbeafdb05998c4f57482e0f4f5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18839125faee2dfd27ad3843e37b723f56581ff3
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294314"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231148"
 ---
-# <a name="integration-with-exchange-and-sharepoint"></a>Exchange と SharePoint との統合
+# <a name="integration-with-exchange-and-sharepoint"></a>Exchange および SharePoint との統合
 
 **概要:** Skype for Business Server 2015 と Exchange および SharePoint との統合について説明します。
 
-Microsoft Exchange Server 2016、Microsoft Exchange Server 2013、Microsoft Exchange Server 2010、および SharePoint Server (オンプレミスとオンラインの両方) との統合のために、Skype for Business Server 2015 の展開を構成することができます。 次の表に示す機能は、特に指定のない限り、すべてのクライアントでサポートされています。 クライアントのサポートについて詳しくは、「skype for business および skype for business Online クライアントで[のデスクトップクライアントの機能の比較](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)」をご覧ください。 [](https://go.microsoft.com/fwlink/p/?LinkId=281902)
+Microsoft Exchange Server 2016、Microsoft Exchange Server 2013、Microsoft Exchange Server 2010、および SharePoint Server (オンプレミスとオンラインの両方) との統合のために、Skype for Business Server 2015 の展開を構成することができます。 次の表に示す機能は、特に指定のない限り、すべてのクライアントでサポートされています。 クライアントのサポートについて詳しくは、 [「skype for](https://go.microsoft.com/fwlink/p/?LinkId=281902)business および skype For business online クライアントで[のデスクトップクライアントの機能の比較](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)」をご覧ください。
 
 ## <a name="integration-with-exchange-server"></a>Exchange Server との統合
 

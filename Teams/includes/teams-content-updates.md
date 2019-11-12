@@ -3,81 +3,6 @@
 
 
 
-## <a name="week-of-september-23-2019"></a>2019年9月23日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 9/23/2019 | [呼び出しキューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
-| 9/23/2019 | [複数のテナントにセッション ボーダー コントローラーを構成する](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 更新日時 |
-| 9/23/2019 | [Microsoft Teams のデバイス使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 更新日時 |
-| 9/23/2019 | [Microsoft Teams のライブイベントの使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | 更新日時 |
-| 9/23/2019 | [Microsoft Teams の分析とレポート](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 更新日時 |
-| 9/23/2019 | [Microsoft Teams の使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 更新日時 |
-| 9/23/2019 | [Microsoft Teams ユーザー アクティビティ レポート](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 更新日時 |
-| 9/24/2019 | [StaffHub PowerShell モジュールをインストールする](/MicrosoftTeams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module) | 更新日時 |
-| 9/24/2019 | [StaffHub teams を Microsoft Teams の Shifts に移動する ](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 更新日時 |
-| 9/24/2019 | [XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する](/MicrosoftTeams/room-systems/content-camera) | 更新日時 |
-| 9/24/2019 | [Microsoft Teams でのチームとチャネルの概要を理解する](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | 更新日時 |
-| 9/25/2019 | [医療関係組織のためのTeamsを始めましょう](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 更新日時 |
-| 9/25/2019 | [Microsoft Teams の会議室の要件](/MicrosoftTeams/room-systems/requirements) | 更新日時 |
-| 9/26/2019 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
-| 9/27/2019 | [ダイレクト ルーティングを構成する](/MicrosoftTeams/direct-routing-configure) | 更新 |
-| 9/27/2019 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新日時 |
-| 9/27/2019 | [Office 365 Enterprise E1、E3 プラン](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3) | 更新日時 |
-| 9/27/2019 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 更新日時 |
-| 9/27/2019 | [Microsoft Teams 用の Office 365 ライセンス](/MicrosoftTeams/office-365-licensing) | 更新日時 |
-| 9/27/2019 | [医療組織向け Secure Messaging で Teams を始めましょう](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 更新日時 |
-| 9/27/2019 | [Office 365 の電話システムでできること](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新日時 |
-| 9/27/2019 | [Microsoft Teams での外部アクセス (フェデレーション) の管理](/MicrosoftTeams/manage-external-access) | 更新日時 |
-| 9/27/2019 | [Microsoft Teams の範囲指定ディレクトリ検索を使用する](/MicrosoftTeams/teams-scoped-directory-search) | 更新日時 |
-| 9/27/2019 | [Microsoft Teams へのアップグレードを開始する](/MicrosoftTeams/upgrade-start-here) | 更新日時 |
-
-
-## <a name="week-of-september-30-2019"></a>2019年9月30日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 9/30/2019 | [Outlook で Microsoft Teams 会議アドインを使用する](/MicrosoftTeams/teams-add-in-for-outlook) | 更新日時 |
-| 9/30/2019 | [StaffHub PowerShell モジュールをインストールする](/MicrosoftTeams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module) | 更新日時 |
-| 9/30/2019 | [Microsoft Teams で組織のシフト アプリを管理する](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 更新日時 |
-| 9/30/2019 | [Microsoft StaffHub はまもなく廃止予定です](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 更新日時 |
-| 9/30/2019 | [StaffHub teams を Microsoft Teams の Shifts に移動する ](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 更新日時 |
-| 9/30/2019 | [Microsoft Teams での StaffHub teams のシフトへの移行を計画する](/MicrosoftTeams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams) | 更新日時 |
-| 9/30/2019 | [レポートを実行してアクティブな StaffHub の使用状況を表示する](/MicrosoftTeams/expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage) | 更新日時 |
-| 9/30/2019 | [StaffHub for Teams のサンプルメールをユーザーに送信する](/MicrosoftTeams/expand-teams-across-your-org/shifts/staffhub-to-teams-email-template) | 更新日時 |
-| 9/30/2019 | [応答メッセージとメールに使用する既定の言語を変更する](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | 更新日時 |
-| 9/30/2019 | [通話分析および通話品質ダッシュボード](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | 更新日時 |
-| 9/30/2019 | [通話品質ダッシュボードで利用可能な寸法と測定値](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新日時 |
-| 9/30/2019 | [Office 365 の電話システムでできること](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新 |
-| 9/30/2019 | [組織での発信者番号の利用方法](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 更新日時 |
-| 9/30/2019 | [Microsoft Teams でホワイトボードを管理する](/MicrosoftTeams/manage-whiteboard) | 更新日時 |
-| 9/30/2019 | [通話品質ダッシュボードでのストリームの分類](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | 更新日時 |
-| 9/30/2019 | [通話品質ダッシュボードを有効にして使用する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 更新日時 |
-| 10/1/2019 | [通話品質ダッシュボードで利用可能な寸法と測定値](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新日時 |
-| 10/1/2019 | [Microsoft Teams の商用クラウドの試用提供を管理する](/MicrosoftTeams/iw-trial-teams) | 更新日時 |
-| 10/1/2019 | [通話品質ダッシュボードを有効にして使用する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 更新日時 |
-| 10/1/2019 | [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
-| 10/1/2019 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 更新 |
-| 10/1/2019 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 更新日時 |
-| 10/2/2019 | [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
-| 10/2/2019 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 更新 |
-| 10/2/2019 | [クラウドの自動応答とは？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 更新日時 |
-| 10/3/2019 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
-| 10/4/2019 | [レポート ラベルを追加して更新する](/MicrosoftTeams/learn-more-about-site-upload) | 更新日時 |
-| 10/4/2019 | [Microsoft Teams で緊急通話ルーティングポリシーを管理する](/MicrosoftTeams/manage-emergency-call-routing-policies) | 追加済 |
-| 10/4/2019 | [Microsoft Teams で緊急通話のポリシーを管理する](/MicrosoftTeams/manage-emergency-calling-policies) | 追加済 |
-| 10/4/2019 | [Skype for Business オンプレミス展開から Teams にアップグレードする-Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 更新日時 |
-| 10/4/2019 | [緊急対応の場所、位置情報、通話ルーティングの概要](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 更新日時 |
-| 10/4/2019 | [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
-| 10/4/2019 | [Microsoft Teams で緊急通話ルーティングポリシーを管理する](/MicrosoftTeams/manage-emergency-call-routing-policies) | 更新日時 |
-| 10/4/2019 | [Microsoft Teams で緊急通話のポリシーを管理する](/MicrosoftTeams/manage-emergency-calling-policies) | 更新日時 |
-| 10/4/2019 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 更新日時 |
-| 10/4/2019 | [小規模企業の例—自動応答を設定する](/MicrosoftTeams/tutorial-org-aa) | 更新日時 |
-| 10/4/2019 | [クラウドの自動応答とは？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 更新日時 |
-
-
 ## <a name="week-of-october-07-2019"></a>2019年10月7日の週
 
 
@@ -95,7 +20,7 @@
 | 10/9/2019 | [医療組織向け Secure Messaging で Teams を始めましょう](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 更新日時 |
 | 10/9/2019 | [ゲストのエクスペリエンスについて](/MicrosoftTeams/guest-experience) | 更新日時 |
 | 10/9/2019 | [Microsoft Teams アプリのハードウェア要件](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 更新日時 |
-| 10/9/2019 | [Office 365 の電話システムでできること](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新 |
+| 10/9/2019 | [Office 365 の電話システムでできること](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新日時 |
 | 10/9/2019 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
 | 10/9/2019 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 更新 |
 | 10/9/2019 | [Microsoft 365 米国政府機関向け DoD 展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-dod) | 更新日時 |
@@ -105,7 +30,7 @@
 | 10/9/2019 | [リリース ノート](/MicrosoftTeams/room-systems/srs2-release-note) | 更新日時 |
 | 10/9/2019 | [電話システム–仮想ユーザーライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 更新日時 |
 | 10/9/2019 | [Microsoft Teams IT アーキテクチャとテレフォニー ソリューション ポスター](/MicrosoftTeams/teams-architecture-solutions-posters) | 更新日時 |
-| 10/9/2019 | [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | 更新 |
+| 10/9/2019 | [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | 更新日時 |
 | 10/9/2019 | [Teams Only モードの考慮事項](/MicrosoftTeams/teams-only-mode-considerations) | 更新日時 |
 | 10/9/2019 | [通話品質ダッシュボードを有効にして使用する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 更新日時 |
 | 10/9/2019 | [基本的なアップグレード\| PowerShell Microsoft\| Teams によるアップグレードの相互運用ポリシーの付与](/MicrosoftTeams/upgrade-basic-powershell) | 更新日時 |
@@ -136,7 +61,7 @@
 | 10/14/2019 | [ダイヤル プランを作成および管理する](/MicrosoftTeams/create-and-manage-dial-plans) | 更新日時 |
 | 10/14/2019 | [チームの更新](/MicrosoftTeams/teams-client-update) | 更新日時 |
 | 10/15/2019 | [Microsoft Teams の操作ガイド](/MicrosoftTeams/1-drive-value-operate-my-service) | 更新日時 |
-| 10/15/2019 | [電話会議、通話プランが設定された電話システム、または電話システムのダイレクト ルーティングにおける成功を定義する - Microsoft Teams](/MicrosoftTeams/1-envision-define-my-success-cloud-voice) | 更新日時 |
+| 10/15/2019 | [電話会議、通話プランが設定された電話システム、または電話システムのダイレクト ルーティングにおける成功を定義する - Microsoft Teams](/MicrosoftTeams/1-envision-define-my-success-cloud-voice) | 更新 |
 | 10/15/2019 | [Microsoft Teams クラウド ボイス サービスの展開を準備する](/MicrosoftTeams/1-onboard-prepare-my-service) | 更新日時 |
 | 10/15/2019 | [Microsoft Teams のサービスを拡張する](/MicrosoftTeams/2-drive-value-enhance-my-service) | 更新日時 |
 | 10/15/2019 | [Microsoft Teams のユーザーを準備する](/MicrosoftTeams/2-onboard-prepare-my-users) | 更新日時 |
@@ -154,7 +79,7 @@
 | 10/15/2019 | [チームにゲストを追加する](/MicrosoftTeams/add-guests) | 更新日時 |
 | 10/15/2019 | [Microsoft Teams でのアプリの管理設定](/MicrosoftTeams/admin-settings) | 更新日時 |
 | 10/15/2019 | [自動応答および呼び出しキューの通話に Teams から直接応答する](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | 更新日時 |
-| 10/15/2019 | [Microsoft Teams アプリのアクセス許可と考慮事項](/MicrosoftTeams/app-permissions) | 更新 |
+| 10/15/2019 | [Microsoft Teams アプリのアクセス許可と考慮事項](/MicrosoftTeams/app-permissions) | 更新日時 |
 | 10/15/2019 | [Microsoft Teams の AppLocker アプリケーション制御ポリシー](/MicrosoftTeams/applocker-in-teams) | 更新日時 |
 | 10/15/2019 | [Microsoft Teamsでチームをアーカイブまたは削除する](/MicrosoftTeams/archive-or-delete-a-team) | 更新日時 |
 | 10/15/2019 | [ユーザーの緊急対応の場所を割り当てたり変更したりする](/MicrosoftTeams/assign-change-emergency-location-user) | 更新日時 |
@@ -170,7 +95,7 @@
 | 10/15/2019 | [ビデオ - Microsoft Teams での電話会議](/MicrosoftTeams/audio-conferencing-videos) | 更新日時 |
 | 10/15/2019 | [GCCH と DoD のダイレクトルーティングを使用した電話会議](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | 更新日時 |
 | 10/15/2019 | [Microsoft Teams でイベントの監査ログを検索する。](/MicrosoftTeams/audit-log-events) | 更新日時 |
-| 10/15/2019 | [Microsoft Teams でのユーザー フィードバックのベスト プラクティス](/MicrosoftTeams/best-practices-feedback) | 更新 |
+| 10/15/2019 | [Microsoft Teams でのユーザー フィードバックのベスト プラクティス](/MicrosoftTeams/best-practices-feedback) | 更新日時 |
 | 10/15/2019 | [Microsoft Teams でチームを編成するためのベスト プラクティス](/MicrosoftTeams/best-practices-organizing) | 更新日時 |
 | 10/15/2019 | [ユーザーが Microsoft Teams のデスクトップおよびモバイルクライアントで PSTN 通話をブロックする方法を理解する](/MicrosoftTeams/block-pstn-calls-on-teams-clients) | 更新日時 |
 | 10/15/2019 | [Microsoft Teams で組み込みタブとカスタム タブを使用する](/MicrosoftTeams/built-in-custom-tabs) | 更新日時 |
@@ -212,10 +137,10 @@
 | 10/17/2019 | [Microsoft Teams で使用する Exchange ハイブリッド組織を構成する](/MicrosoftTeams/exchange-hybrid-organization) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams の展開方法](/MicrosoftTeams/how-to-roll-out-teams) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams の管理者トレーニング](/MicrosoftTeams/itadmin-readiness) | 更新日時 |
-| 10/17/2019 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 更新 |
+| 10/17/2019 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 更新日時 |
 | 10/17/2019 | [Office 365 の URL と IP アドレスの範囲](/MicrosoftTeams/office-365-urls-ip-address-ranges) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する](/MicrosoftTeams/office-365-custom-connectors) | 更新日時 |
-| 10/17/2019 | [Office 365 グループと Microsoft Teams](/MicrosoftTeams/office-365-groups) | 更新日時 |
+| 10/17/2019 | [Office 365 グループと Microsoft Teams](/MicrosoftTeams/office-365-groups) | 更新 |
 | 10/17/2019 | [Microsoft Teams 用の Office 365 ライセンス](/MicrosoftTeams/office-365-licensing) | 更新日時 |
 | 10/17/2019 | [Office 365 の組織で Microsoft Teams を有効にする](/MicrosoftTeams/office-365-set-up) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams クライアントでサービスの品質 (QoS) を実施する](/MicrosoftTeams/qos-in-teams-clients) | 更新日時 |
@@ -226,8 +151,8 @@
 | 10/17/2019 | [Microsoft Teams でゲスト アクセスを許可する](/MicrosoftTeams/teams-dependencies) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams にようこそ](/MicrosoftTeams/teams-overview) | 更新日時 |
 | 10/17/2019 | [クイック スタート - 教育用 Microsoft Teams 管理者](/MicrosoftTeams/teams-quick-start-edu) | 更新日時 |
-| 10/17/2019 | [Microsoft Teams での電話会議](/MicrosoftTeams/tutorial-audio-conferencing) | 更新日時 |
-| 10/17/2019 | [Microsoft Teams での通話について理解する](/MicrosoftTeams/tutorial-calling-in-teams) | 更新日時 |
+| 10/17/2019 | [Microsoft Teams での電話会議](/MicrosoftTeams/tutorial-audio-conferencing) | 更新 |
+| 10/17/2019 | [Microsoft Teams での通話について理解する](/MicrosoftTeams/tutorial-calling-in-teams) | 更新 |
 | 10/17/2019 | [Microsoft Teams での会議](/MicrosoftTeams/tutorial-meetings-in-teams) | 更新日時 |
 | 10/17/2019 | [組織の緊急対応の場所を追加、変更、削除する](/MicrosoftTeams/add-change-remove-emergency-location-organization) | 更新日時 |
 | 10/17/2019 | [アルジェリアで利用可能](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria) | 更新日時 |
@@ -307,10 +232,10 @@
 | 10/17/2019 | [南アフリカでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa) | 更新 |
 | 10/17/2019 | [韓国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea) | 更新日時 |
 | 10/17/2019 | [スペインでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain) | 更新日時 |
-| 10/17/2019 | [スリランカでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka) | 更新日時 |
+| 10/17/2019 | [スリランカでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka) | 修正 |
 | 10/17/2019 | [スウェーデンでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden) | 更新日時 |
 | 10/17/2019 | [スイスでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | 更新日時 |
-| 10/17/2019 | [台湾での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan) | 修正 |
+| 10/17/2019 | [台湾での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan) | 更新日時 |
 | 10/17/2019 | [タイでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand) | 更新日時 |
 | 10/17/2019 | [チェコ共和国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic) | 更新日時 |
 | 10/17/2019 | [ドミニカ共和国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic) | 更新日時 |
@@ -330,7 +255,7 @@
 | 10/17/2019 | [ユーザーが通話を発信できる相手先の国や地域](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 更新日時 |
 | 10/17/2019 | [データ収集方法](/MicrosoftTeams/data-collection-practices) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams のアプリ、ボット、およびコネクタ](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
-| 10/17/2019 | [Microsoft Teams での電話会議](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 更新 |
+| 10/17/2019 | [Microsoft Teams での電話会議](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams のチャット、チーム、チャネル、およびアプリ](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams でのミーティングと会議](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams でのデバイスを管理する](/MicrosoftTeams/device-management) | 更新日時 |
@@ -340,19 +265,19 @@
 | 10/17/2019 | [通話品質ダッシュボードで利用可能な寸法と測定値](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新日時 |
 | 10/17/2019 | [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 10/17/2019 | [ダイレクト ルーティングでメディア バイパスを構成する](/MicrosoftTeams/direct-routing-configure-media-bypass) | 更新日時 |
-| 10/17/2019 | [ダイレクト ルーティングを構成する](/MicrosoftTeams/direct-routing-configure) | 更新 |
+| 10/17/2019 | [ダイレクト ルーティングを構成する](/MicrosoftTeams/direct-routing-configure) | 更新日時 |
 | 10/17/2019 | [国コードを直接ルーティングする](/MicrosoftTeams/direct-routing-country-codes) | 更新日時 |
 | 10/17/2019 | [直接ルーティングの正常性ダッシュボード](/MicrosoftTeams/direct-routing-health-dashboard) | 更新日時 |
 | 10/17/2019 | [電話システムのダイレクト ルーティング](/MicrosoftTeams/direct-routing-landing-page) | 更新日時 |
 | 10/17/2019 | [ダイレクト ルーティングに移行する](/MicrosoftTeams/direct-routing-migrating) | 更新日時 |
 | 10/17/2019 | [ダイレクト ルーティングの監視とトラブルシューティング](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | 更新日時 |
-| 10/17/2019 | [ダイレクト ルーティングでメディア バイパスを計画する](/MicrosoftTeams/direct-routing-plan-media-bypass) | 更新 |
-| 10/17/2019 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 修正 |
-| 10/17/2019 | [複数のテナントにセッション ボーダー コントローラーを構成する](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 更新 |
+| 10/17/2019 | [ダイレクト ルーティングでメディア バイパスを計画する](/MicrosoftTeams/direct-routing-plan-media-bypass) | 更新日時 |
+| 10/17/2019 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新日時 |
+| 10/17/2019 | [複数のテナントにセッション ボーダー コントローラーを構成する](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 更新日時 |
 | 10/17/2019 | [発信通話でのトランクのフェイルオーバー](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | 更新日時 |
 | 10/17/2019 | [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | 更新日時 |
 | 10/17/2019 | [特定の Teams ユーザーの無料電話番号を無効にする](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | 更新日時 |
-| 10/17/2019 | [チームの動的なメンバーシップの概要](/MicrosoftTeams/dynamic-memberships) | 修正 |
+| 10/17/2019 | [チームの動的なメンバーシップの概要](/MicrosoftTeams/dynamic-memberships) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams でコンテンツの電子情報開示調査を実施する](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
 | 10/17/2019 | [ゲスト ユーザー情報を編集する](/MicrosoftTeams/edit-guests-information) | 更新日時 |
 | 10/17/2019 | [一括で Microsoft Teams ユーザー設定を編集する](/MicrosoftTeams/edit-user-settings-in-bulk) | 更新日時 |
@@ -378,7 +303,7 @@
 | 10/17/2019 | [医療関係組織のためのTeamsを始めましょう](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 更新日時 |
 | 10/17/2019 | [Shifts for Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 更新日時 |
 | 10/17/2019 | [StaffHub PowerShell モジュールをインストールする](/MicrosoftTeams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module) | 更新日時 |
-| 10/17/2019 | [Microsoft Teams で組織のシフト アプリを管理する](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 更新日時 |
+| 10/17/2019 | [Microsoft Teams で組織のシフト アプリを管理する](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 更新 |
 | 10/17/2019 | [Microsoft StaffHub はまもなく廃止予定です](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 更新日時 |
 | 10/17/2019 | [StaffHub teams を Microsoft Teams の Shifts に移動する ](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams での StaffHub teams のシフトへの移行を計画する](/MicrosoftTeams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams) | 更新日時 |
@@ -389,7 +314,7 @@
 | 10/17/2019 | [医療関係組織向けのTeams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-healthcare-landing-page) | 更新日時 |
 | 10/17/2019 | [小売店向けの Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page) | 更新日時 |
 | 10/17/2019 | [Firstline Worker クイックスタートガイド](/MicrosoftTeams/firstline-workers-quickstart) | 更新日時 |
-| 10/17/2019 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 更新日時 |
+| 10/17/2019 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 修正 |
 | 10/17/2019 | [Microsoft Teams でヘルプを利用する](/MicrosoftTeams/get-help-in-microsoft-teams) | 更新日時 |
 | 10/17/2019 | [小売業の Teams テンプレートの使用を開始する](/MicrosoftTeams/get-started-with-retail-teams-templates) | 更新 |
 | 10/17/2019 | [Microsoft Teams で最初のチームとチャネルを作成する](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 更新日時 |
@@ -409,7 +334,7 @@
 | 10/17/2019 | [Microsoft Teams アプリのハードウェア要件](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 更新日時 |
 | 10/17/2019 | [Office 365 の電話システムでできること](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新 |
 | 10/17/2019 | [組織での発信者番号の利用方法](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 更新日時 |
-| 10/17/2019 | [取得できる電話番号の数について](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | 修正 |
+| 10/17/2019 | [取得できる電話番号の数について](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams での ID モデルと認証](/MicrosoftTeams/identify-models-authentication) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams の情報障壁](/MicrosoftTeams/information-barriers-in-teams) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams でインラインメッセージの翻訳を有効にする](/MicrosoftTeams/inline-message-translation-teams) | 更新日時 |
@@ -423,7 +348,7 @@
 | 10/17/2019 | [場所に基づくルーティングのネットワーク設定を構成する](/MicrosoftTeams/location-based-routing-configure-network-settings) | 更新日時 |
 | 10/17/2019 | [ダイレクト ルーティングの場所に基づくルーティングを有効にする](/MicrosoftTeams/location-based-routing-enable) | 更新日時 |
 | 10/17/2019 | [ダイレクト ルーティングの場所に基づくルーティングを計画する](/MicrosoftTeams/location-based-routing-plan) | 更新日時 |
-| 10/17/2019 | [場所に基づくルーティングの用語集](/MicrosoftTeams/location-based-routing-terminology) | 更新 |
+| 10/17/2019 | [場所に基づくルーティングの用語集](/MicrosoftTeams/location-based-routing-terminology) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams のデータの場所](/MicrosoftTeams/location-of-data-in-teams) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](/MicrosoftTeams/log-files) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams でチャネルのモデレーションを設定および管理する](/MicrosoftTeams/manage-channel-moderation-in-teams) | 更新日時 |
@@ -439,11 +364,11 @@
 | 10/17/2019 | [オーストラリアでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 更新日時 |
 | 10/17/2019 | [ベルギーでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 更新日時 |
 | 10/17/2019 | [カナダでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 修正 |
-| 10/17/2019 | [フランスでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 更新日時 |
+| 10/17/2019 | [フランスでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 更新 |
 | 10/17/2019 | [ドイツでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 更新日時 |
 | 10/17/2019 | [アイルランドでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 更新日時 |
 | 10/17/2019 | [日本の電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | 更新日時 |
-| 10/17/2019 | [スペインでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 更新 |
+| 10/17/2019 | [スペインでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 更新日時 |
 | 10/17/2019 | [オランダでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 更新日時 |
 | 10/17/2019 | [英国での電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 更新日時 |
 | 10/17/2019 | [米国での電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 更新日時 |
@@ -536,7 +461,7 @@
 | 10/17/2019 | [通話分析をセットアップする](/MicrosoftTeams/set-up-call-analytics) | 更新日時 |
 | 10/17/2019 | [通話プランの設定](/MicrosoftTeams/set-up-calling-plans) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams での共通領域電話のライセンスをセットアップする](/MicrosoftTeams/set-up-common-area-phones) | 更新日時 |
-| 10/17/2019 | [組織用にコミュニケーション クレジットをセットアップする](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 更新日時 |
+| 10/17/2019 | [組織用にコミュニケーション クレジットをセットアップする](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 更新 |
 | 10/17/2019 | [Microsoft Teams へのゲストアクセスを有効または無効にする](/MicrosoftTeams/set-up-guests) | 更新日時 |
 | 10/17/2019 | [Microsoft Teams で休日を設定する](/MicrosoftTeams/set-up-holidays-in-teams) | 更新日時 |
 | 10/17/2019 | [クラウド ボイスメールのセットアップ](/MicrosoftTeams/set-up-phone-system-voicemail) | 更新日時 |
@@ -582,3 +507,125 @@
 | 10/24/2019 | [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](/MicrosoftTeams/teams-app-permission-policies) | 更新 |
 | 10/24/2019 | [アップグレード チェックリスト \| Skype for Business から Teams へのアップグレード \| 基本手順](/MicrosoftTeams/upgrade-basic) | 更新日時 |
 | 10/24/2019 | [FAQ: Skype for Business から Microsoft Teams へのアップグレード](/MicrosoftTeams/faq-journey) | 更新日時 |
+
+
+## <a name="week-of-october-28-2019"></a>2019年10月28日
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 10/28/2019 | [Microsoft Teams の導入の結果と成功を定義する](/MicrosoftTeams/teams-adoption-define-outcomes) | 更新日時 |
+| 10/28/2019 | [アップグレード チェックリスト \| Skype for Business から Teams へのアップグレード \| 基本手順](/MicrosoftTeams/upgrade-basic) | 更新日時 |
+| 10/28/2019 | [Microsoft Teams でゲスト アクセスを許可する](/MicrosoftTeams/teams-dependencies) | 更新日時 |
+| 10/28/2019 | [チームにゲストを追加する](/MicrosoftTeams/add-guests) | 更新日時 |
+| 10/28/2019 | [Microsoft Teams のチャット、チーム、チャネル、およびアプリ](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 更新日時 |
+| 10/28/2019 | [ゲスト ユーザー情報を編集する](/MicrosoftTeams/edit-guests-information) | 更新日時 |
+| 10/28/2019 | [PowerShell を使用してチームへのゲスト アクセスを制御する](/MicrosoftTeams/guest-access-powershell) | 更新日時 |
+| 10/28/2019 | [Microsoft Teams のゲスト アクセス チェックリスト](/MicrosoftTeams/guest-access-checklist) | 更新日時 |
+| 10/28/2019 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
+| 10/28/2019 | [ゲストのエクスペリエンスについて](/MicrosoftTeams/guest-experience) | 更新日時 |
+| 10/28/2019 | [ゲストがチームに参加する方法](/MicrosoftTeams/guest-joins) | 更新日時 |
+| 10/28/2019 | [Microsoft Teams での外部アクセス (フェデレーション) の管理](/MicrosoftTeams/manage-external-access) | 更新日時 |
+| 10/28/2019 | [Microsoft Teams でのゲスト アクセスを管理する](/MicrosoftTeams/manage-guests) | 更新日時 |
+| 10/28/2019 | [Microsoft Teams へのゲストアクセスを有効または無効にする](/MicrosoftTeams/set-up-guests) | 更新日時 |
+| 10/28/2019 | [チームのゲスト ユーザーを表示する](/MicrosoftTeams/view-guests) | 更新日時 |
+| 10/29/2019 | [Microsoft Teams \| 環境の評価 \| 導入、証拠開示](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | 更新日時 |
+| 10/29/2019 | [クイック スタート - 教育用 Microsoft Teams 管理者](/MicrosoftTeams/teams-quick-start-edu) | 更新日時 |
+| 10/29/2019 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 更新日時 |
+| 10/29/2019 | [ハードウェア デコーダー/エンコーダー ドライバーの推奨事項](/MicrosoftTeams/hardware-decoders-and-encoders) | 更新日時 |
+| 10/29/2019 | [Microsoft Teams アプリのハードウェア要件](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 更新日時 |
+| 10/29/2019 | [Microsoft Teams の情報障壁](/MicrosoftTeams/information-barriers-in-teams) | 更新日時 |
+| 10/29/2019 | [Microsoft Teams のユーザー アクティビティ レポートを使用する](/MicrosoftTeams/teams-activity-reports) | 修正 |
+| 10/29/2019 | [Microsoft Teams のデバイス使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 更新日時 |
+| 10/29/2019 | [Microsoft Teams の範囲指定ディレクトリ検索を使用する](/MicrosoftTeams/teams-scoped-directory-search) | 更新 |
+| 10/29/2019 | [Microsoft Teams の\|アップグレード環境の評価、検出に関する質問](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | 更新日時 |
+| 10/29/2019 | [StaffHub PowerShell モジュールをインストールする](/MicrosoftTeams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module) | 更新日時 |
+| 10/29/2019 | [StaffHub teams を Microsoft Teams の Shifts に移動する ](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 更新日時 |
+| 10/30/2019 | [Teams 管理者用の患者アプリ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 更新日時 |
+| 10/30/2019 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 更新日時 |
+| 10/30/2019 | [Office 365 の電話システムでできること](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新日時 |
+| 10/30/2019 | [Microsoft Teams の情報障壁](/MicrosoftTeams/information-barriers-in-teams) | 更新日時 |
+| 10/30/2019 | [Microsoft Teams でポリシーパッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
+| 10/30/2019 | [Skype for Business オンプレミス展開から Teams にアップグレードする-Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 更新日時 |
+| 10/30/2019 | [医療関係組織向けテンプレートでTeamsを始めましょう](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 更新日時 |
+| 10/31/2019 | [緊急対応の場所、位置情報、通話ルーティングの概要](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 更新日時 |
+| 10/31/2019 | [Microsoft Teams でポリシーパッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
+| 10/31/2019 | [Teams でのガバナンスを計画する - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 更新日時 |
+| 10/31/2019 | [Teams でのライフサイクル管理の計画 - Microsoft Teams](/MicrosoftTeams/plan-teams-lifecycle) | 更新日時 |
+| 10/31/2019 | [Microsoft Teams のガバナンスのクイック スタート](/MicrosoftTeams/teams-adoption-governance-quick-start) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams クラウド ボイス ワークロードのための環境を評価する](/MicrosoftTeams/3-envision-evaluate-my-environment) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams での通話について理解する](/MicrosoftTeams/tutorial-calling-in-teams) | 更新日時 |
+| 11/1/2019 | [Office 365 における電話会議](/MicrosoftTeams/audio-conferencing-in-office-365) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams の通話プラン](/MicrosoftTeams/calling-plan-landing-page) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams での Cloud Voice](/MicrosoftTeams/cloud-voice-landing-page) | 更新日時 |
+| 11/1/2019 | [呼び出しキューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams での電話会議](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 更新日時 |
+| 11/1/2019 | [ユーザー用の電話番号を取得する](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams での外部アクセス (フェデレーション) の管理](/MicrosoftTeams/manage-external-access) | 更新日時 |
+| 11/1/2019 | [カナダでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 更新日時 |
+| 11/1/2019 | [米国での電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 更新日時 |
+| 11/1/2019 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams でホワイトボードを管理する](/MicrosoftTeams/manage-whiteboard) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams で Cloud Voice ワークロードを構成するための使用開始チェックリスト](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | 更新日時 |
+| 11/1/2019 | [移植に関する詳細情報](/MicrosoftTeams/phone-number-calling-plans/more-information-about-porting) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams の電話会議を設定する](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 更新日時 |
+| 11/1/2019 | [通話プランの設定](/MicrosoftTeams/set-up-calling-plans) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams での共通領域電話のライセンスをセットアップする](/MicrosoftTeams/set-up-common-area-phones) | 更新日時 |
+| 11/1/2019 | [組織内の電話システムの設定](/MicrosoftTeams/setting-up-your-phone-system) | 更新 |
+| 11/1/2019 | Office 365 に電話番号を転送する | 削除されました |
+| 11/1/2019 | 電話番号の移行に関するよくある質問 | 削除されました |
+| 11/1/2019 | [Skype for Business オンプレミスから Microsoft Teams \|への\|アップグレード Lync の展開](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonpremises) | 更新日時 |
+| 11/1/2019 | [緊急対応の場所、位置情報、通話ルーティングの概要](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 更新日時 |
+| 11/1/2019 | [クラウドの自動応答とは？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 更新日時 |
+| 11/1/2019 | Teams での番号移行注文の状況 | 削除されました |
+| 11/1/2019 | [Microsoft Teams での ID モデルと認証](/MicrosoftTeams/identify-models-authentication) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams の情報障壁](/MicrosoftTeams/information-barriers-in-teams) | 更新日時 |
+| 11/1/2019 | [Microsoft Teams でのファイル共有](/MicrosoftTeams/sharing-files-in-teams) | 更新日時 |
+| 11/1/2019 | [Skype for Business から Microsoft Teams へのアップグレード\| モード、共存](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 更新日時 |
+
+
+## <a name="week-of-november-04-2019"></a>2019年11月4日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 11/4/2019 | [Microsoft Teams で基幹業務アプリを管理する](/MicrosoftTeams/manage-your-lob-apps) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams でのファイル共有](/MicrosoftTeams/sharing-files-in-teams) | 更新日時 |
+| 11/4/2019 | [通話品質ダッシュボードを有効にして使用する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams との SharePoint Online と OneDrive for Business の連携](/MicrosoftTeams/sharepoint-onedrive-interact) | 更新日時 |
+| 11/4/2019 | [Microsoft Teamsでチームをアーカイブまたは削除する](/MicrosoftTeams/archive-or-delete-a-team) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams でチーム所有者とメンバーを割り当てる](/MicrosoftTeams/assign-roles-permissions) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams でイベントの監査ログを検索する。](/MicrosoftTeams/audit-log-events) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams でチームを編成するためのベスト プラクティス](/MicrosoftTeams/best-practices-organizing) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams でコンテンツ検索を使用する](/MicrosoftTeams/content-search) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams でコンテンツの電子情報開示調査を実施する](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
+| 11/4/2019 | [Teams のテンプレートの使用を開始する](/MicrosoftTeams/get-started-with-teams-templates) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams の情報障壁](/MicrosoftTeams/information-barriers-in-teams) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams ユーザーまたはチームを訴訟ホールドの対象にする](/MicrosoftTeams/legal-hold) | 更新日時 |
+| 11/4/2019 | [Teams のメッセージング ポリシーを管理する](/MicrosoftTeams/messaging-policies-in-teams) | 更新 |
+| 11/4/2019 | [Microsoft Teams 保持ポリシーに関するよくある質問](/MicrosoftTeams/retention-policies-faq) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams での保持ポリシーの既知の問題](/MicrosoftTeams/retention-policies-known-issues) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams の保持ポリシー](/MicrosoftTeams/retention-policies) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams のセキュリティとコンプライアンスの概要](/MicrosoftTeams/security-compliance-overview) | 修正 |
+| 11/4/2019 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 更新 |
+| 11/4/2019 | [Microsoft Teams でチームポリシーを管理する](/MicrosoftTeams/teams-policies) | 更新日時 |
+| 11/4/2019 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 更新日時 |
+| 11/5/2019 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 更新日時 |
+| 11/5/2019 | [Microsoft Teams アプリのハードウェア要件](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 更新日時 |
+| 11/5/2019 | [Exchange Online を使用して Microsoft Teams ミーティング を展開](/MicrosoftTeams/room-systems/with-exchange-online) | 更新日時 |
+| 11/5/2019 | Microsoft Teams でのファイル共有 | 削除されました |
+| 11/5/2019 | [通話品質ダッシュボードを有効にして使用する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 更新日時 |
+| 11/5/2019 | [Teams 管理者用の患者アプリ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 更新日時 |
+| 11/5/2019 | [Microsoft Teams の会議室の要件](/MicrosoftTeams/room-systems/requirements) | 更新日時 |
+| 11/6/2019 | [バーレーンでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | 修正 |
+| 11/6/2019 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 11/6/2019 | [Teams でのユーザーのプレゼンス](/MicrosoftTeams/presence-admins) | 更新日時 |
+| 11/6/2019 | [Skype for Business オンプレミス展開から Teams にアップグレードする-Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 更新日時 |
+| 11/6/2019 | [XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する](/MicrosoftTeams/room-systems/content-camera) | 更新日時 |
+| 11/7/2019 | [Microsoft Teams でポリシーパッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
+| 11/7/2019 | [Microsoft Teams ミーティング ライセンス](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 更新日時 |
+| 11/8/2019 | [電話システムのダイレクト ルーティング](/MicrosoftTeams/direct-routing-call-notifications) | 更新 |
+| 11/8/2019 | [XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する](/MicrosoftTeams/room-systems/xml-config-file) | 更新日時 |
+| 11/8/2019 | [Microsoft Teams でプライベートチャネルのライフサイクルを管理する](/MicrosoftTeams/private-channels-life-cycle-management) | 更新日時 |
+| 11/8/2019 | [Microsoft Teams のプライベートチャネル](/MicrosoftTeams/private-channels) | 更新日時 |
+| 11/8/2019 | [Microsoft Teams ミーティング ライセンス](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 更新日時 |
