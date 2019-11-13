@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: 9173108fa6c7047e7e10e45b59d8038cf2d3446e
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 20575670fb9c462fd9cfa7bb0b424b8fcde4c68c
+ms.sourcegitcommit: 4ddd2323ca4902ac68f01c90abbf21ee1d4da160
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38001356"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38303181"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
@@ -74,10 +74,12 @@ Microsoft Teams の会議室は、部屋のサイズに基づいてさまざま�
   |[Logitech タップ](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |[ごみ箱 MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
   |[ごみ箱 MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
-  |||||
+  |[ごみ箱 MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
+  ||||||
 
-  > [!NOTE]
-  > コア M3 プロセッサはサポートされていません。
+
+> [!NOTE]
+> コア M3 プロセッサはサポートされていません。
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>USB オーディオおよびビデオの周辺機器についての認定済みファームウェア バージョン
 
@@ -97,6 +99,7 @@ Microsoft Teams の会議室は、部屋のサイズに基づいてさまざま�
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom Eagle アイディレクター II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
+|[Polycom Studio のサウンドバー](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
 |[Polycom 3 つ 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml)   |1.2.15   |
@@ -105,8 +108,9 @@ Microsoft Teams の会議室は、部屋のサイズに基づいてさまざま�
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
+|[ごみ箱 CP900](https://www.yealink.com/products_150.html) | 100.20.0.29|  
 |[Biamp Tesira 前景 AVB VT4 の固定オーディオ DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect (天井2マイク)](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |  |
-||||
+||||||
 
 &Dagger;お客様は、このバンドルの Dante インターフェイスまたは Biamp/Sennheiser で推奨されるネットワークスイッチのいずれかを選ぶことができます。
 

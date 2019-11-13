@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37571936"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290937"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 ==========================================
 
 ## <a name="overview"></a>概要
+
+この記事では、Microsoft Teams 管理センターの Teams の管理ツールの概要について説明します。 この短いビデオを見ていきます (3 分)。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
 
 管理者として、組織が共同作業のためにセットアップしたチームを表示または更新する必要がある場合、または ownerless teams の所有者を割り当てるなどの修復アクションを実行する必要がある場合があります。 組織のチームは、Microsoft Teams PowerShell モジュールと Microsoft Teams 管理センターの両方から管理することができます。 これらの 2 つのツールセットを使用した完全な管理機能については、次の役割の 1 つが割り当てられることを確認する必要があります。
 
@@ -35,7 +39,7 @@ ms.locfileid: "37571936"
 
 Teams での管理者の役割の詳細については、「[ Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)」をご覧ください。また、PowerShell コマンドレットを使用してチームを管理する方法の詳細については、「[Microsoft Teams コマンドレットのリファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)」をご覧ください。
 
-この記事では、Microsoft Teams の管理センターでのチーム 管理ツールの概要を説明します。
+
 
 ## <a name="teams-overview-grid"></a>Teams の概要グリッド
 
@@ -69,7 +73,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 ### <a name="archive"></a>アーカイブ
 
-チームをアーカイブすることができます。 チームをアーカイブすると、チームはチーム内で読み取り専用モードになります。 管理センターでは、管理者として、組織の代理としてチームをアーカイブしたり、整理したりすることができます。 
+チームをアーカイブすることができます。 チームをアーカイブすると、チームはチーム内で読み取り専用モードになります。 管理センターでは、管理者として、組織の代理としてチームのアーカイブやアーカイブの解除を行うことができます。 
 
 ### <a name="delete"></a>削除
 
@@ -116,7 +120,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 該当する GroupId に対するクエリで **{groupid}** を置き換えます。{groupid} は、Exchange Online powershell で "**ExternalDirectoryObjectId**" 属性として **"[Get-unifiedgroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** コマンドレットを使用して取得できます。　
 
-1. Access [Graph エクスプローラー](https://developer.microsoft.com/en-us/graph/graph-explorer)。
+1. Access [Graph エクスプローラー](https://developer.microsoft.com/graph/graph-explorer)。
 
 2. 左側のメニューで、[Graph エクスプローラー] にサインインします。
 
