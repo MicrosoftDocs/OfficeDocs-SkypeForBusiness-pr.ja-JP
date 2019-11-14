@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a0bba0c8893ee706061b989f95d4e22619fa4f9
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753282"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290857"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 ======================================
@@ -75,6 +75,7 @@ ms.locfileid: "37753282"
 - チームの参照
 - 個人対個人のチャットへのファイルのアップロード
 - ゲストは、ユーザーの完全なメール ID が分かっていれば、引き続き (チーム外の) ユーザーを検索することができます。 これを防ぐために、IT 管理者はゲストを自分の仮想 GAL に制限することができる[範囲指定ディレクトリ検索](teams-scoped-directory-search.md)などのパターンを使用することができます。
+- 現在、Teams は、[Azure B2B で定義](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)されている状態 1 および状態 2 のゲスト ユーザーのみをサポートします。
 
 ゲストが Teams でできることとできないことの完全なリストについては、「[チーム メンバーとゲスト機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)」表をご覧ください。 Office 365 レベルでのゲスト アクセスの詳細については、「[Office 365 グループへのゲストの追加](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」をご覧ください。
 

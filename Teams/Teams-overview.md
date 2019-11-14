@@ -16,21 +16,23 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef565e9113f30e3c3d42e5482b2a52425eacbb2e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 101849cdae4e60b927a99c808ad3e37682f19b03
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37566998"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290847"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
 
 エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、[Microsoft Teams ヘルプ センター](https://support.office.com/teams)に移動します。 トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
 
-Teams を使うのが初めてで、詳細を知りたい場合は、「Teams へようこそ」のビデオ (55 秒) をご覧ください。
+Teams を使うのが初めてで、詳細を知りたい場合は、「[Teams へようこそ](https://www.youtube.com/embed/s3aQV3T0D6c)」のビデオ (55 秒) をご覧ください。
 
-> [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
+Teams の管理者向けビデオの「Teams へようこそ」をお見逃しなく (3 分強):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 ## <a name="teams-architecture"></a>Teams のアーキテクチャ
 
