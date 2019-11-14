@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Skype for Business Server または Lync 2013 の更新プログラムを検索して管理します。 詳細情報を入手して更新プログラムをダウンロードするには、リンクを使用します。
-ms.openlocfilehash: 121c91b4882eb7509dfd19ca2c6261720a4e7fc3
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 99eadfcc708d13adc7c07d787d58ccb815c7daae
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "35746450"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311222"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business のダウンロードと更新プログラム
 
@@ -24,12 +24,12 @@ _Skype For business のダウンロードと更新_の web ページは、1回�
 
 - 以下のセクションを含む[Skype For business クライアントの更新プログラム](sfb-client-updates.md)
     - [Skype for Business 2016 クライアントの更新プログラム](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [Skype for Business 2015 クライアントの更新プログラム](sfb-client-updates.md#skype-for-business-2015-client-updates)
-    - [Mac クライアント版 Skype for Business の更新プログラム](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
-    - [Lync 2013 クライアントの更新プログラム](sfb-client-updates.md#lync-2013-client-updates)
+    - [Skype for Business 2015 クライアントの更新プログラム](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Mac クライアント版 Skype for Business の更新プログラム](sfb-client-updates.md)
+    - [Lync 2013 クライアントの更新プログラム](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
         - [Lync Phone Edition の更新プログラム](sfb-client-updates.md#lync-phone-edition-updates)
         - [ダウンロード センターでの Lync Phone Edition クライアント](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
-        - [Lync Basic 2013 試用版ソフトウェア](sfb-client-updates.md#trial-software)
+        - [Lync Basic 2013 試用版ソフトウェア](sfb-client-updates.md)
     - [Lync for Mac 2011 クライアントの更新プログラム](sfb-client-updates.md#lync-for-mac-2011-client-updates)
     - [Lync 2010 クライアントの更新プログラム](sfb-client-updates.md#lync-2010-client-updates)
         - [Lync 2010 Attendant の更新プログラム](sfb-client-updates.md#lync-2010-attendant-updates)

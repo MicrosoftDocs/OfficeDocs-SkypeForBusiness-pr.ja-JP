@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: お客様は、Skype for Business Online および Microsoft Teams PSTN サービスの使用条件およびお客様のボリュームライセンス契約に従って、Office 365 の通話プランと Office 365 電話会議を使用できます。
-ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516899"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311232"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 
@@ -37,6 +37,8 @@ ms.locfileid: "37516899"
 ### <a name="end-of-complimentary-dial-out-period"></a>無料のダイヤルアウト期間の終了
 
 2019年12月1日から、無料ダイヤルアウト機能が終了します。 詳細については、「電話[会議サブスクリプションのダイヤルアウトと通話に](audio-conferencing-subscription-dial-out.md)ついて」を参照してください。 
+
+この変更は、電話会議の月額プランが利用可能な国では利用できませんが、現在通信クレジットを設定する機能は提供していません。 これらの特定の国はロシア、韓国、台湾です。
 
 ### <a name="complimentary-dial-out-period-details"></a>無料のダイヤルアウト期間の詳細
 

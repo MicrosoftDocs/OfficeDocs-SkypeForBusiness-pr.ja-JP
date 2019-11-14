@@ -1,7 +1,7 @@
 ---
 title: クラウドの自動応答をセットアップする
-ms.author: jambirk
-author: jambirk
+ms.author: kenwith
+author: kenwith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972478"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38318136"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -103,7 +103,7 @@ ms.locfileid: "37972478"
 
 <a name="timezone"> </a>
 
-![数字3のアイコン。前のスクリーンショット](media/teamscallout3.png)の**タイムゾーン**の吹き出しで、自動応答のタイムゾーンを設定する必要があります。 この設定は、組織の一覧に表示されているメインアドレスのタイムゾーンまたは別のタイムゾーンと同じにすることができます。 各自動応答には、異なるタイムゾーンを割り当てることができます。 自動応答に設定された勤務時間は、このタイムゾーンも使用します。
+![数字3のアイコン。前のスクリーンショット](media/teamscallout3.png)の**タイムゾーン**の吹き出しで、自動応答のタイムゾーンを設定する必要があります。 この設定は、組織の一覧に表示されているメインアドレスのタイムゾーンまたは別のタイムゾーンと同じにすることができます。 各自動応答には、異なるタイムゾーンを割り当てることができます。 自動応答に設定された勤務時間は、このタイムゾーンも使用します。 すべての地域に夏時間が含まれていないため、業務時間の不一致を回避するために正しいタイムゾーンを設定してください。 
 
 * * *
 
@@ -231,7 +231,7 @@ ms.locfileid: "37972478"
 >- 自動応答は、ダイヤルの名前または内線番号のいずれかに対して構成することができます。両方は使用できません。
 
 > [!NOTE]
-> [**名前によるダイヤル**] 機能と [**内線番号**] 機能の両方を使用する場合は、ユーザーの拡張子がわかっている場合に、呼び出し元**に対して**メニューオプションを選ぶように求めるメインの自動応答を作成し、そのオプションを内線番号を使用できる自動応答に通話を転送します。
+> [**名前によるダイヤル**] 機能と [**内線番号**] 機能の両方を使用する場合は、ユーザーの内線番号がわかっている場合に、呼び出し元**に対して**メニューオプションを選択するように指示するメインの自動応答を作成できます。また、そのオプションを設定して、通話をダイヤル可能な自動応答に転送することもできます。
 
 * * *
 
@@ -249,7 +249,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 - ダイヤルスコープ
 - リソースアカウント
 
-自動応答はリソースアカウントを持つ必要があるため、**リソース**アカウントページに進んで、既に構成したリソースアカウントを関連付けるか、リソースアカウントを作成して自動で関連付けるかを選ぶことができます。「 [Microsoft Teams でリソースアカウントを管理](manage-resource-accounts.md)する」の説明に従って、応答を行います。 この自動応答は、リソースアカウントに関連付けられるまで使用できません。 これを行うには、画面の下部にある [**次へ**] ボタンをクリックし、左のナビゲーションで [**リソース**アカウント] をクリックして、[リソースアカウント] ページに直接移動し、自動応答をリソースアカウントに関連付けます。
+自動応答はリソースアカウントを持つ必要があるため、**リソース**アカウントページに進んで、既に構成したリソースアカウントを関連付けるか、または、「 [Microsoft Teams のリソースアカウントの管理](manage-resource-accounts.md)」で説明するように、リソースアカウントを作成して自動応答に関連付けるかを選ぶことができます。 この自動応答は、リソースアカウントに関連付けられるまで使用できません。 これを行うには、画面の下部にある [**次へ**] ボタンをクリックし、左のナビゲーションで [**リソース**アカウント] をクリックして、[リソースアカウント] ページに直接移動し、自動応答をリソースアカウントに関連付けます。
 
 #### <a name="advanced-settings-optional"></a>詳細設定 (省略可能)
 
@@ -273,7 +273,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 ![数値3のアイコン、前のスクリーンショット](media/teamscallout3.png)の吹き出し [すべての時間を**クリア**] を選んで、スケジュールを完全に消去します。 このチェックボックスをオンにして、[時間] の設定を解除することはお勧めできません。そのため、業務時間を完全に再利用する場合にのみ、このオプションを使用してください。
 
-![数字4のアイコン、前](media/teamscallout4.png)![のスクリーン](media/teamscallout5.png)ショットの1つ目のスクリーンショットアイコンに表示される [開始] または [終了] をクリックして曜日の開始時刻または**** 終了時刻を**** カスタマイズします。表示されるリストから新しい時刻を選択します。   リストでは、15分間隔で事業時間を選ぶことができます。ここで選択する業務時間は、[**一般情報**] ページで設定したタイムゾーンに基づいています。
+![数値4のアイコン、前のスクリーンショットの数字 5](media/teamscallout4.png)![のスクリーンショットアイコン、前のスクリーンショット](media/teamscallout5.png)の [開始] または [終了] をクリックして、曜日の開始時刻**または**終了**** 時刻をカスタマイズし、表示されるリストから新しい時刻を選びます。   リストでは、15分間隔で事業時間を選ぶことができます。ここで選択する業務時間は、[**一般情報**] ページで設定したタイムゾーンに基づいています。
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
@@ -309,7 +309,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 休日のコールフローの名前は、最大64文字で、組織に対して一意である必要があります。 たとえば、同じ組織内で "感謝祭" という名前の休日のコールフローを2つ持つことはできません。 自動応答には、設定した各休日のコールフローを設定できますが、カスタマイズされた応答メッセージ以外に計画された共通の動作のセットが必要になる場合もあります。
 
-![数値3のアイコン (前のスクリーンショット](media/teamscallout3.png)の吹き出し) 休日の通話フローに使用できる [[グリーティング](#call-flow)] オプションは、勤務時間中に利用可能なオプションと同じです。 応答メッセージが再生された後に実行される**操作**も似ていますが、使用できる操作は**切断**または**リダイレクト**のみです。また、[**リダイレクト先**] オプションでは、演算子は使用できません。. 休日の流れに固有のメニューを設定することはできません。
+![数値3のアイコン (前のスクリーンショット](media/teamscallout3.png)の吹き出し) 休日の通話フローに使用できる [[グリーティング](#call-flow)] オプションは、勤務時間中に利用可能なオプションと同じです。 応答メッセージの再生後に実行される**操作**も似ていますが、利用可能な操作は**切断**または**リダイレクト**のみです。また、[**リダイレクト先**] オプションでは、演算子は使用できません。 休日の流れに固有のメニューを設定することはできません。
 
 > [!NOTE]
 > 既定では、休日期間中に受信したすべての通話は、応答メッセージ (存在する場合) の後に**切断**されるように設定されているため、カスタム動作を必要とする場合は、リダイレクトを指定する必要があります。
@@ -414,11 +414,11 @@ PowerShell を使用して自動応答を作成し、設定することもでき
 
   - [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Office 365 PowerShell を使用する必要がある理由](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [Office 365 PowerShell を使用する必要がある理由](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell には、多くのユーザーの変更を一度に設定するなど、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性の向上を実現するための多くの利点があります。 次のトピックでこれらの利点について説明します。
 
-  - [Office 365 PowerShell で Office 365 を管理する](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Office 365 PowerShell で Office 365 を管理する](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Windows PowerShell による Skype for Business Online の管理](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -430,7 +430,7 @@ PowerShell を使用して自動応答を作成し、設定することもでき
 
 [国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
 

@@ -15,12 +15,12 @@ description: Microsoft Teams のゲストアクセスに関する問題のトラ
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: eefaece55876bc66905716526884fd21303c630e
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754363"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311262"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲストアクセスに関する問題のトラブルシューティング
 ======================================================
@@ -45,8 +45,11 @@ Teams でのゲストアクセスでは、Azure Active Directory (Azure AD) Busi
 - ゲスト ライセンスは、招待する組織に対してカウントされます。 必要なライセンスの数を算出するときは、このことを考慮に入れます。
 - 招待されたゲストが別の Office 365 テナントからのユーザーであろうと、個人のメール アドレスを使用していようと、ライセンスがカウントされる対象は自分の組織になります。
 
+## <a name="support-for-b2b-user-types"></a>B2B ユーザーの種類のサポート
+現在、チームは、 [AZURE B2B によって定義され](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)た状態1と状態2のゲストユーザーをサポートしています。
+
 ## <a name="related-topics"></a>関連項目
 
-[Teams でのゲストアクセス](guest-access.md)
+[Teams でのゲスト アクセス](guest-access.md)
 
 

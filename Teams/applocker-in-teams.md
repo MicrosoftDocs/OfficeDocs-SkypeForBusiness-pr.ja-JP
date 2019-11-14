@@ -13,12 +13,12 @@ search.appverid: MET150
 description: AppLocker アプリケーション制御ポリシーを使って Teams デスクトップクライアントアプリケーションを有効にする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb12012c0775d98c7d1b08b61c6c0deba83a4d5f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 6035341aa649e966f15be7d33894f450ec8be251
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516775"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311252"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft Teams の AppLocker アプリケーション制御ポリシー
 
@@ -38,13 +38,14 @@ Teams のデスクトップの実行可能ファイルにはデジタル署名�
 
 ### <a name="example-of-publisher-condition-rules"></a>Publisher の条件ルールの例
 
-Teams クライアントアプリ (すべてのファイル、すべてのバージョン) の場合:
+Teams クライアントアプリ (すべてのファイル、すべてのバージョン) については、次を実行可能ファイルの規則 & DLL の規則に追加します。
 
 ```
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
 Product name: MICROSOFT TEAMS
+Product name: MICROSOFT TEAMS UPDATE
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [AppLocker とは何ですか?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
  [AppLocker のテクニカルリファレンス](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
