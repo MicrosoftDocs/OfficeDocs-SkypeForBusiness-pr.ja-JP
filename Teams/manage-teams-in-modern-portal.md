@@ -16,21 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 8e0e96b05aff2d1c0e54bf6f1edb33f9b91aad6d
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290937"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627033"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 ==========================================
 
 ## <a name="overview"></a>概要
 
-この記事では、Microsoft Teams 管理センターの Teams の管理ツールの概要について説明します。 この短いビデオを見ていきます (3 分)。
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+この記事では、Microsoft Teams 管理センターの Teams の管理ツールの概要について説明します。
 
 管理者として、組織が共同作業のためにセットアップしたチームを表示または更新する必要がある場合、または ownerless teams の所有者を割り当てるなどの修復アクションを実行する必要がある場合があります。 組織のチームは、Microsoft Teams PowerShell モジュールと Microsoft Teams 管理センターの両方から管理することができます。 これらの 2 つのツールセットを使用した完全な管理機能については、次の役割の 1 つが割り当てられることを確認する必要があります。
 

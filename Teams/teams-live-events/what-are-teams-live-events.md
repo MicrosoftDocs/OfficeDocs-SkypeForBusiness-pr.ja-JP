@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43a5914c0ad9690859264e5c64e0652a5095decb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 822483d1475d083ef18213e94d438d5c2a4eb48c
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570148"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638837"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -73,7 +73,7 @@ Teams のライブイベントにより、複数の役割 (開催者、プロデ
 ### <a name="enterprise-content-delivery-network-ecdn"></a>エンタープライズコンテンツ配信ネットワーク (eCDN)
 ECDN の目標は、ネットワークのパフォーマンスに影響を及ぼすことなく、インターネットからビデオコンテンツを取得し、企業全体にコンテンツを配布することです。 次の認定された eCDN パートナーのいずれかを使用して、組織内で保持されるライブイベントのネットワークを最適化することができます。
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](http://www.kollective.com)
+- [Kollective](https://kollective.com/microsoft-pilot/)
 - [見本](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>出席者の操作 
@@ -84,7 +84,7 @@ ECDN の目標は、ネットワークのパフォーマンスに影響を及ぼ
 ### <a name="live-event-usage-report"></a>ライブイベントの使用状況レポート 
 テナント管理者は、Microsoft Teams 管理センターでライブイベントのリアルタイムの利用状況分析を表示できます。  [[ライブイベントの使用状況] レポート](../teams-analytics-and-reports/teams-live-event-usage-report.md)には、組織内で保持されているライブイベントのアクティビティの概要が表示されます。  管理者は、イベントの状態、開始時刻、ビュー、および運用の種類などのイベントの利用状況情報を表示できます。  
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 「 [Teams ライブイベントのプラン](plan-for-teams-live-events.md)」に移動します。
 
 ### <a name="related-topics"></a>関連項目

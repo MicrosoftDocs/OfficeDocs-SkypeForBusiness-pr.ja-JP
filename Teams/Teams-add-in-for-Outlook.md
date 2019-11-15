@@ -4,7 +4,6 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8a440859d5bb33dfa5f57fd952f642b0e88dc7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563323"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626983"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -36,9 +35,11 @@ Microsoft Teams を所有しているユーザーと、Office 2010、Office 2013
 ![Outlook リボンの Teams 会議アドインのスクリーンショット](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Regsvr32 ファイルを実行するためのユーザー権限は、Teams 会議アドインをコンピューターにインストールするための最小要件です。
 > - Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
 > - Windows 7 ユーザーは、Teams 会議アドインを使用するために windows の[windows でユニバーサル C ランタイムの更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
-> - Microsoft Store から Office Outlook インストールを使用している場合、Teams 会議アドインはサポートされていません。 このアドインを必要とするユーザーは、 [Windows 10 S モードに関する](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)記事の説明に従って、Office のクイック実行バージョンをインストールすることをお勧めします。 
+> - Microsoft Store から Office Outlook インストールを使用している場合、Teams 会議アドインはサポートされていません。 このアドインを必要とするユーザーは、 [Windows 10 S モードに関する](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)記事の説明に従って、Office のクイック実行バージョンをインストールすることをお勧めします。
+
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Outlook for Mac の Teams 会議アドイン
 
@@ -123,7 +124,7 @@ Teams Meeting add-in for Outlook のアドインをインストールできな�
 - ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。 これは既知の問題であり、今後のビルドで修正される予定です。
 - シングル サインオン (SSO) が有効になっていることを確認します。
 
-管理者が[Exchange Web Server (EWS) へのアクセスを制御](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)するように Microsoft Exchange を構成している場合は、代理人が上司の代わりに Teams 会議をスケジュールすることはできません。 この構成の解決策は開発中であり、今後リリースされる予定です。 
+管理者が[Exchange Web Server (EWS) へのアクセスを制御](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)するように Microsoft Exchange を構成している場合は、代理人が上司の代わりに Teams 会議をスケジュールすることはできません。 この構成の解決策は開発中であり、今後リリースされる予定です。 
 
 アドインを無効にする方法につぃての全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。
 

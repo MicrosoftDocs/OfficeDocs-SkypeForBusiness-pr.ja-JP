@@ -17,14 +17,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 282f6f7295fe7763462a9298719466033aa335a4
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: 68b263dde1637c5caaf9ec800c83ba047d641a53
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979710"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638707"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
+
+以下のセクションに記載されているすべての要件は、Teams デスクトップアプリと Teams Web アプリの両方に適用されます。
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Windows PC の Teams デスクトップアプリのハードウェア要件
 
@@ -88,7 +90,7 @@ Teams で最高のエクスペリエンスを実現するには、iOS と Androi
 
 仮想化された環境で Teams を実行するための要件については、「[仮想デスクトップインフラストラクチャのチーム](teams-for-vdi.md)」をご覧ください。 
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [チームアプリを入手する](get-clients.md)
 - [モバイルデバイス上の Microsoft Teams](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [MSI を使用して Microsoft Teams アプリをインストールする](msi-deployment.md)
