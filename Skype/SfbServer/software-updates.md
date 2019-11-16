@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: Skype for Business Server または Lync 2013 の更新プログラムを検索して管理します。 詳細情報を入手して更新プログラムをダウンロードするには、リンクを使用します。
 ms.openlocfilehash: 99eadfcc708d13adc7c07d787d58ccb815c7daae
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "38311222"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business のダウンロードと更新プログラム

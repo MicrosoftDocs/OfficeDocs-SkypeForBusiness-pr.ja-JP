@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams Rooms の既知の問題を、機能の領域ごとに説明しています。
-ms.openlocfilehash: 79bebf69c0d4fc8dabff3e294166e7ab08b79166
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d740cce8960e16e04fffc55bf96b46e3128a0c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571391"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675431"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -37,14 +37,14 @@ ms.locfileid: "37571391"
 
 | 問題のタイトル |  動作 \/ 症状 | 既知の回避策 | サポート技術情報記事 |
 |  ---        |      ---             |   ---            | --- |
-|仮想キーボードが見つかりません   | Microsoft Teams Rooms に情報を入力する必要がある場合に、仮想キーボードが表示されません。 この問題は、Microsoft Teams Rooms を実行している Surface Pro 4 に Windows 10 Creators Update (バージョン 1703) をインストールした後に発生します。 | この問題を回避するには、仮想キーボードを手動で開きます。 これを行うには、次の手順を実行します。<br><br> **1.** タスク バーをタップして長押しし、[**タッチ キーボードを表示**] ボタンをタップします。 キーボードのアイコンは、タスク バーの右側に表示されます。 <br><br> **2.** 仮想キーボードを開くには、キーボード アイコンをタップします。 | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|仮想キーボードが見つかりません   | Microsoft Teams Rooms に情報を入力する必要がある場合に、仮想キーボードが表示されません。 この問題は、Microsoft Teams Rooms を実行している Surface Pro 4 に Windows 10 Creators Update (バージョン 1703) をインストールした後に発生します。 | この問題を回避するには、仮想キーボードを手動で開きます。 これを行うには、次の手順を実行します。<br><br> **1.** タスク バーをタップして長押しし、[**タッチ キーボードを表示**] ボタンをタップします。 キーボードのアイコンは、タスク バーの右側に表示されます。 <br><br> **2.** 仮想キーボードを開くには、キーボード アイコンをタップします。 | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>ハードウェア
 
 | 問題のタイトル |  動作 \/ 症状 | 既知の回避策 | サポート技術情報記事 |
 |  ---        |      ---             |   ---            |   --- |
-| モニターが検出されません | Surface Pro (2017 年版モデル) のデバイスで Microsoft Teams Rooms を実行すると、モニターは検出されません。 |  20 秒以上 Surface Pro の電源ボタンを長押しします。 長押しすると、デバイスが再起動し、グラフィックのキャッシュをクリアします。 |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
+| モニターが検出されません | Surface Pro (2017 年版モデル) のデバイスで Microsoft Teams Rooms を実行すると、モニターは検出されません。 |  20 秒以上 Surface Pro の電源ボタンを長押しします。 長押しすると、デバイスが再起動し、グラフィックのキャッシュをクリアします。 |[KB4055681](https://support.microsoft.com/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
 
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>制限事項と予想される動作
@@ -75,6 +75,6 @@ Windows 10 1903 は、グラフィックスドライバーの問題により、C
 <a name="See"> </a>  
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams Rooms ヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft Teams Rooms を管理する](skype-room-systems-v2.md)

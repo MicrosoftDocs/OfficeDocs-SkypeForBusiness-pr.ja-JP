@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5c6e2d8cfb4e3932d4559a5c5c7b618189da7e57
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37572060"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft Teams との Moodle 統合をインストールする
@@ -53,7 +53,7 @@ IT 管理者がこの統合を簡単に設定できるように、次の機能�
 Microsoft Teams の Moodle との統合は、オープンソースの[Office 365 Moodle プラグインセット](https://github.com/Microsoft/o365-moodle)によって実現されています。 Moodle サーバーにプラグインをインストールするには、次の操作を行います。
 
 1. まず、 [Office 365 プラグインセット](https://moodle.org/plugins/pluginversions.php?plugin=local_o365)をダウンロードして、ローカルコンピューターに保存します。 バージョン3.5 以降を使用する必要があります。
-    * Local_o365 プラグインをインストールすると、 [auth_oidc](https://moodle.org/plugins/auth_oidc)と[boost_o365Teams](https://moodle.org/plugins/pluginversions.php?plugin=theme_boost_o365teams)のプラグインもインストールされます。
+    * Local_o365 プラグインをインストールすると、 [auth_oidc](https://moodle.org/plugins/auth_oidc)と[boost_o365Teams](https://moodle.org/plugins/pluginversions.php?plugin=theme_boost_o365teams)プラグインもインストールされます。
 1. 管理者として Moodle サーバーにログインし、左側のナビゲーションパネルで [**サイトの管理**] を選択します。
 1. [**プラグイン**] タブを選択し、[**プラグインのインストール**] をクリックします。
 1. [ **ZIP ファイルからプラグインをインストール**する] セクションで、[**ファイルの選択**] ボタンをクリックします。
@@ -151,7 +151,7 @@ Microsoft Teams の無料の Moodle アシスタントボットは、教師や�
 1. [**新しいパスワードの生成**] ボタンをクリックします。 生成されたパスワードをコピーして、[**チーム設定**] ページの**ボットアプリケーションパスワード**フィールドに貼り付けます。
 1. フォームの下部までスクロールし、[ **Save Changes**] をクリックします。
 
-アプリケーション Id とパスワードを生成したので、ここではボットを Azure に展開します。 [ **Azure に展開**] ボタンをクリックして、必要な情報を含むフォームに入力します (ボットアプリケーション Id、ボットアプリケーションパスワード、Moodle Secret は [**チーム設定**] ページにあり、Azure 情報は [**セットアップ**] ページにあります)。. 入力したフォームが表示されたら、チェックボックスをクリックして、条件に同意し、[**購入**] ボタンをクリックします (すべての Azure リソースは free tier に展開されます)。
+アプリケーション Id とパスワードを生成したので、ここではボットを Azure に展開します。 [ **Azure に展開**] ボタンをクリックして、必要な情報を含むフォームに入力します (ボットアプリケーション Id、ボットアプリケーションパスワード、Moodle Secret は [**チーム設定**] ページにあり、Azure 情報は [**セットアップ**] ページにあります)。 入力したフォームが表示されたら、チェックボックスをクリックして、条件に同意し、[**購入**] ボタンをクリックします (すべての Azure リソースは free tier に展開されます)。
 
 Azure へのリソースの展開が完了したら、Office 365 Moodle プラグインにそのメッセージングエンドポイントを設定する必要があります。 最初に、Azure でボットからエンドポイントを取得する必要があります。 目的:
 

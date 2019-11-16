@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームでの累積的な改善点について説明します。
-ms.openlocfilehash: d432d12b8f17f12e49ea0622ce3ec97cefb2e36a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573530"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676115"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -225,7 +225,7 @@ Introduced in this update:
 この更新プログラムで導入されたもの:
 
 - [POLYCOM MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock ハードウェアのサポート
-- [Logitech Brio](https://www.logitech.com/en-us/product/brio)のサポート
+- [Logitech Brio](https://www.logitech.com/product/brio)のサポート
 - ルームにアクティビティがない場合にディスプレイ (本体と背面) がスリープモードに切り替わらないという問題を解決します
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
@@ -297,7 +297,7 @@ Introduced in this update:
 <a name="See"> </a> 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams Rooms ヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [環境を準備する](srs-v2-prep.md)
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams のルーム本体とその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: f42f89d25a58ce96308318cc732e85f7080b86e5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569909"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675775"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams 室コンソールを構成する
 
@@ -99,7 +99,7 @@ Windows 10 の特定のバージョンが必要です。このバージョンは
 Creator の更新では、暗黙的な言語の選択によって、ユーザーが実際のアプリケーション言語を使用していない場合 (たとえば、コンソールアプリをフランス語で起動する必要がある場合)、ApplyCurrentRegionAndLanguage. ps1 スクリプトを使用する必要があります。これは英語で提供されています)。
   
 > [!NOTE]
-> 次の手順は、Windows Creator の更新プログラムを使用して作成されたコンソールでのみ機能します。 新しいプロビジョニングシステムでメディアを使用して設定していないレガシー/市場システムでは、これらの手順を使用することはできませんが、この手動介入が必要な初期の問題には影響しません。また、セットアップの一部として明示的にアプリの言語。
+> 次の手順は、Windows Creator の更新プログラムを使用して作成されたコンソールでのみ機能します。 新しいプロビジョニングシステムでメディアを使用して設定していないレガシー/市場システムでは、これらの手順を使用することはできませんが、この手動介入が必要となる最初の問題には影響しません。また、セットアップの一環としてアプリの言語を明示的に選ぶことができます。
   
 ### <a name="to-apply-your-desired-language"></a>必要な言語を適用するには
 
@@ -142,7 +142,7 @@ Creator の更新では、暗黙的な言語の選択によって、ユーザー
 
 Windows をインストールした後、Microsoft Teams のルームコンソールアプリは、次に起動したとき、または/reboot オプションが選択されたときに、初期セットアッププロセスに進みます。
   
-1. [ユーザー アカウント] 画面が表示されます。 コンソールで使用する会議室アカウントの Skype サインインアドレス (user @ domain format) を入力します。
+1. [ユーザー アカウント] 画面が表示されます。 コンソールで使用する会議室アカウントの Skype サインインアドレス (user@domain 形式) を入力します。
     
 2. ルーム アカウントのパスワードを入力し、確認のためにもう一度入力します。
     
@@ -162,7 +162,7 @@ Windows をインストールした後、Microsoft Teams のルームコンソ�
     
 6. **[完了]** をクリックします。
     
-Microsoft Teams のルームコンソールアプリは、上で入力された資格情報を使って Skype for Business Server へのサインインを開始し、同じ資格情報を使用して、予定表の Exchange との同期を開始する必要があります。 コンソールアプリの使い方の詳細については、「 [Microsoft Teams ルームのヘルプ](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)」を参照してください。
+Microsoft Teams のルームコンソールアプリは、上で入力された資格情報を使って Skype for Business Server へのサインインを開始し、同じ資格情報を使用して、予定表の Exchange との同期を開始する必要があります。 コンソールアプリの使い方の詳細については、「 [Microsoft Teams ルームのヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)」を参照してください。
   
 > [!IMPORTANT]
 > Microsoft Teams のルームは、認定された本体のハードウェアの存在に依存します。 Microsoft Teams のルームコンソールアプリが正しく作成された画像も、本体のハードウェアが検出されていない限り、初期セットアップ手順を実行しても起動しません。 Surface Pro ベースのソリューションの場合、このチェックに合格するには、Surface Pro が付随する dock ハードウェアに接続されている必要があります。

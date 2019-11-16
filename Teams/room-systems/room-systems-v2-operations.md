@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: このトピックでは、次世代の Skype Room Systems である Microsoft Teams のルームの管理について説明します。
-ms.openlocfilehash: c764490df9912ca464b1f11d56a2cb376b96c388
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573607"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675341"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams の会議室のメンテナンスと操作 
  
@@ -25,7 +25,7 @@ ms.locfileid: "37573607"
   
 Microsoft Teams room は、Microsoft の最新の会議ソリューションであり、会議室を豊かな共同作業環境に変革することを目的としています。 ユーザーには、使い慣れた Microsoft Teams または Skype for Business インターフェイスが採用され、IT 管理者は、Windows 10 の Skype 会議アプリの展開と管理が簡単になります。 Microsoft Teams room は、インストールを容易にするために LCD パネルなどの既存の機器を活用して、Microsoft Teams または Skype for Business を会議室に持ち込むことを目的としています。
   
-追加の構成では、「 [Microsoft teams のルーム管理を Azure monitor で計画](azure-monitor-plan.md)する」および「azure モニターを使用して[Microsoft teams のルーム管理を展開](azure-monitor-deploy.md)する」の説明に従って、microsoft azure モニターを使用してリモート管理を行うことができます。 [Microsoft Teams は、Azure モニターを使用して](azure-monitor-deploy.md)います。 また、 [Microsoft Teams 会議コンソールの設定を XML 構成ファイルを使ってリモートで管理](xml-config-file.md)することもできます。これには、カスタム表示テーマの適用が含まれます。 
+追加の構成では、「 [Microsoft teams のルーム管理を Azure monitor と計画](azure-monitor-plan.md)する」および「azure monitor を使用して microsoft teams のルーム管理を[展開](azure-monitor-deploy.md)する」の説明に従って、microsoft teams を使用して microsoft teams を管理することが[できます。](azure-monitor-deploy.md) また、 [Microsoft Teams 会議コンソールの設定を XML 構成ファイルを使ってリモートで管理](xml-config-file.md)することもできます。これには、カスタム表示テーマの適用が含まれます。 
   
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams ルームでのログの収集
 <a name="Logs"> </a>
@@ -44,7 +44,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 前面の会議室ディスプレイを拡張モードに構成します。 この操作を行うと、ディスプレイの電源を入れたときに、そのディスプレイに本体の UI が複製されることがなくなります。
   
 > [!NOTE]
-> 会議室の表示の前に、ソースがスタンバイモードから復帰したときに、アクティブなビデオソース (MTR 本体など) に自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアによって機能がサポートされている場合は、Microsoft Teams ルームソフトウェアでサポートされています。 Room ディスプレイの正面に使用されている消費者のテレビでは、HDMI のコンシューマーエレクトロニクス制御 (CEC) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があります) [201](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 、また[100](https://www.extron.com/article/hdctl100ad)は、メーカーのサポートドキュメントを参照してください。必要に応じて、お客様は、お客様が必要な機能を有効にする必要があります。状況. 
+> 会議室の表示の前に、ソースがスタンバイモードから復帰したときに、アクティブなビデオソース (MTR 本体など) に自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアによって機能がサポートされている場合は、Microsoft Teams ルームソフトウェアでサポートされています。 Room ディスプレイの正面に使用されている消費者のテレビでは、HDMI のコンシューマーエレクトロニクス制御 (CEC) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があります) に応じて、適切な動作を実現するには、Extron on the または Extron the [HD CTL 100 で](https://www.extron.com/article/hdctl100ad)の[hd-RX-201-](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) ------------------------- 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams の会議室のリセット (工場出荷時の復元)
 <a name="Reset"> </a>
@@ -167,7 +167,7 @@ Copy-Item $movefile $targetDevice
   
 既定では、Microsoft Teams のルームは Windows Update に接続して、オペレーティングシステムと USB 周辺機器のファームウェア更新プログラムを取得し、構成された勤務時間外にインストールします。 営業時間を設定するには、管理者アカウントでサインインし、設定アプリを実行します。
   
-更新プログラムを手動で管理する必要があるが、一般[法人向け Microsoft Store](https://businessstore.microsoft.com/store)の通常の手順に従って[オフラインアプリの配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)を行うことができない場合は、適切な APPX ファイルと依存関係を[展開キット](https://go.microsoft.com/fwlink/?linkid=851168)から入手できます (fromSCCM で使用できる[Microsoft Teams のルーム本体を構成](console.md)する手順)。 展開キットのリリースがストアのリリースよりも遅れているため、常に最新のビルドと一致しない可能性があります。
+更新プログラムを手動で管理する必要がある場合に、一般[法人向け Microsoft ストア](https://businessstore.microsoft.com/store)の一般手順に従って[オフラインアプリを配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)することができない場合は、SCCM で使用できる、 [Microsoft Teams ルーム本体を構成](console.md)する手順から[展開キット](https://go.microsoft.com/fwlink/?linkid=851168)から適切な APPX ファイルと依存関係を取得できます。 展開キットのリリースがストアのリリースよりも遅れているため、常に最新のビルドと一致しない可能性があります。
   
 ### <a name="to-update-using-powershell"></a>Powershell を使用して更新するには
 

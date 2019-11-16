@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: この記事では、Microsoft Teams のルームのライフサイクルのサポートについて説明します。
-ms.openlocfilehash: 736933c2c47d42073d2f8b90bce6af6755c89338
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 55fde6317fe53102b97f752667d540e33a7b8c8c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573541"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675795"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 室アプリバージョンのサポート
  
@@ -54,7 +54,7 @@ Microsoft Teams の会議室デバイスでは、Windows 10 機能更新プロ�
 | 1903 |2019-05-21 |サポートされている &#x2780;、 <br/>推奨  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |まし <br/>推奨されない &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |サポート対象                             |4.1.22.0 |17134.191|
-| 1709 |2018-01-18 |サポートされていない                         |&#x2014; |&#x2014; |
+| 1709 |2018-01-18 |非サポート                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |サポート対象外                         |&#x2014; |&#x2014; |
 ||||||
 
@@ -66,7 +66,7 @@ Microsoft Teams のルームアプリケーションでは互換性の問題が�
 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams Rooms ヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft Teams のルームリリースノート](srs2-release-note.md)
 

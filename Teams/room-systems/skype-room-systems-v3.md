@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のルームの管理の概要
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
@@ -13,12 +13,12 @@ ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams のルームの管理の概要。
-ms.openlocfilehash: a55741fced90a62316ab8d046a91ee0364b314fd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cff0b300dc6cc9f3c15e21163554571d49e6540c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573563"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675815"
 ---
 # <a name="management-overview"></a>管理の概要
 
@@ -43,7 +43,7 @@ Microsoft Teams のルームアプリケーションと接続されている周�
 |電源管理-\> AC 電源、10分後に画面をオフにする  <br/> 電源管理-\> AC で、システムをスリープ状態にしない  <br/> |Microsoft Teams の会議機能を有効にして、添付されたディスプレイをオフにし、自動的にスリープ状態を解除する  <br/> |
 |net accounts /maxpwage:unlimited  <br/> または、ローカルアカウントのパスワードの有効期限を無効にすることもできます。 そうしないと、有効期限が切れたパスワードについて、Skype アカウントがログオンに失敗することになります。 これは、マシン上のすべてのローカルアカウントに影響を与えるため、これを設定しないと、そのボックスの管理者アカウントも最終的に有効期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
 
-グループポリシーを使用してファイルを転送する方法については[、「ファイルを構成](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)する」をお勧めします。
+グループポリシーを使用してファイルを転送する方法については[、「ファイルを構成](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)する」をお勧めします。
   
 ## <a name="remote-management-using-powershell"></a>PowerShell を使用したリモート管理
 <a name="RemotePS"> </a>
@@ -55,7 +55,7 @@ Microsoft Operations Manager スイートを使用して、Microsoft Teams の�
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Operations Management Suite を使用して、Microsoft Teams ルームの展開を監視することを確認します。</li><li>メール通知に使用するターゲット配布リストを決定します。</li></ul>|
-|![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>品質と信頼性の監視方法を定義します。</li></ul>|
+|![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>品質と信頼性の監視方法を定義します。</li></ul>|
 
 ## <a name="quality-and-reliability-monitoring-cqd"></a>品質と信頼性の監視 (CQD)
 
@@ -83,7 +83,7 @@ Microsoft Teams の会議は、Windows 10 Enterprise IoT または Windows 10 En
 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams Rooms ヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft Teams のルームを計画する](skype-room-systems-v2-0.md)
 

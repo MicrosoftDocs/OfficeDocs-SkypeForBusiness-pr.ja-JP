@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: このトピックでは、Lync Room System デバイスを移行して Microsoft Teams のルームソフトウェアを使用する方法について説明します。
-ms.openlocfilehash: 9bf01b334e13de5cb1407443f16223f86c1df929
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 377e901446d69e0956ff981b1b45686c949cf61c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573662"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675361"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Lync Room System (LRS) デバイスを Microsoft Teams ルームに移行する
 
-Skype Room System バージョン 1 (SRS v1) ソフトウェアが搭載された Lync Room System (LRS) デバイスは[、2018年10月9日にサポート終了に](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)なりました。 これにより、Skype Room Systems v1 ソフトウェアは今後、製品の更新や修正プログラムを入手できなくなります。 Skype Room System v1 ソフトウェアを使用する Lync Room システムデバイスをお使いのお客様は、お客様のデバイスを Microsoft Teams のルームにアップグレードすることをお勧めします。
+Skype Room System バージョン 1 (SRS v1) ソフトウェアが搭載された Lync Room System (LRS) デバイスは[、2018年10月9日にサポート終了に](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018)なりました。 これは、Skype ミーティング システム V1 ソフトウェアがもはや製品の更新プログラムや修正を取得しなくなることを意味します。 Skype ミーティング システム V1 ソフトウェアを使用している Lync Room System デバイスをお持ちのお客様には、デバイスを Microsoft Teams ミーティングにアップグレードすることをお勧めします。
 
 Microsoft Teams ルームソフトウェアは、Skype for Business Server やオンラインサービスに加えて、microsoft teams でサポートされているすべてのデバイスで会議や通話を行うことができます。
 
@@ -32,7 +32,7 @@ Microsoft Teams ルームソフトウェアは、Skype for Business Server や�
 この変更の影響を受けるデバイスの一覧を次に示します。
 
 - Crestron RL
-- [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
+- [Crestron RL2](https://www.crestron.com/Products/Featured-Solutions/Crestron-RL-2)
 - [スマートルームシステム](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 
@@ -42,11 +42,11 @@ Lync Room Systems を次世代の Microsoft Teams ルームにアップグレー
 
 ### <a name="crestron-hardware-trade-in-program"></a>ハードウェアのトレードインプログラムについて
 
-Crestron は、ユーザーが Lync Room System のすべてのユーザー (たとえば、スマートまたは Polycom LRS) で、 [CRESTRON SR システム](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr)または同等のものにアップグレードします。 このプログラムの詳細を[ご覧ください](https://support.crestron.com/app/answers/answer_view/a_id/1000220)。 <!-- For details, -->[メール](mailto:lrsupgrade@crestron.com)Crestron LRS サポート。  
+Crestron は、ユーザーが Lync Room System のすべてのユーザー (たとえば、スマートまたは Polycom LRS) で、 [CRESTRON SR システム](https://www.crestron.com/products/featured-solutions/crestron-sr)または同等のものにアップグレードします。 このプログラムの詳細を[ご覧ください](https://support.crestron.com/app/answers/answer_view/a_id/1000220)。 <!-- For details, -->[メール](mailto:lrsupgrade@crestron.com)Crestron LRS サポート。  
 
 ### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>RL2 を Microsoft Teams ルームにアップグレードする
 
-既存の Crestron RL2 (Crestron RL200 とも呼ばれます) ユーザーは、アップグレードキットを取得して、現在の RL2 を RL3 にアップグレードし、デバイスごとに最小のコストを使用することができます。 このプログラムの詳細[はこちら](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)をご覧ください。
+既存の Crestron RL2 (Crestron RL200 とも呼ばれます) ユーザーは、アップグレードキットを取得して、現在の RL2 を RL3 にアップグレードし、デバイスごとに最小のコストを使用することができます。 このプログラムの詳細[はこちら](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)をご覧ください。
 
 ### <a name="smart-room-systems-upgrade"></a>スマートルームシステムのアップグレード
 

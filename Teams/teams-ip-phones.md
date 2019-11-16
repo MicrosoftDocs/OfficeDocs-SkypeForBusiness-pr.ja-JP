@@ -1,13 +1,14 @@
 ---
 title: Teams 向けの電話とデバイス
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Microsoft Teams 認定 IP 卓上および会議電話
-ms.openlocfilehash: 887393825d2894f97afa6f811455e349fd91d877
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
-ms.translationtype: HT
+ms.openlocfilehash: 331c84e9a62b64a1fab33676c296c65f045b53ae
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427593"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675825"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -43,6 +44,7 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 |携帯電話のモデル|ファームウェア バージョン|リリース日 |
 |:---|:---|:---|
 |Audiocodes C450HD | C450HD_TEAMS_0.225 | 2019 年 3 月|
+|Audiocodes C448HD (CAP モードのみ) | C450HD_TEAMS_0.225 | 2019 年 3 月|
 |Crestron M100|2.3875.00068|2018 年 12 月|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |2019 年 1 月|
 |Poly Trio 8500/8800 (共有モードのみ)| 5.9.0.10869|2019 年 6 月|
@@ -50,7 +52,7 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 |Yealink T55 | 58.15.0.36 |2019 年 5 月|
 |Yealink CP 960 |73.15.0.20|2018 年 12 月|
 |Yealink T58 & T56 シリーズ |58.15.0.20|2018 年 12 月|
-||||
+
 
 これらのデバイスでサポートされている機能については、「[Microsoft Teams phones feature set (Microsoft Teams の電話機能セット)](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set)」を参照してください。
 
@@ -62,10 +64,10 @@ Teams の入手方法については[Microsoft Teams へのアクセス権を取
 
 * * *
 
-認定プログラムへの参加を希望するベンダーの場合、要件と利用可能なプログラムについては[参加方法](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join)をご覧ください。
+認定プログラムへの参加を希望するベンダーの場合、要件と利用可能なプログラムについては[参加方法](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join)をご覧ください。
 
 ## <a name="additional-resources"></a>追加リソース
 
 [Skype for Business および Microsoft Teams 認定プログラム](https://docs.microsoft.com/SkypeForBusiness/certification/overview)について理解します。
 
-[Microsoft Teams の電話と認定デバイスについて。](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[Microsoft Teams の電話と認定デバイスについて。](https://products.office.com/microsoft-teams/across-devices/devices)

@@ -1,7 +1,7 @@
 ---
 title: Azure モニターを使用して Microsoft Teams の会議室の管理を計画する
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: この記事では、Azure モニターを使用して、Skype for Business または Teams の実装で Microsoft Teams 室のデバイスを管理する際の計画の考慮事項について説明します。
-ms.openlocfilehash: e605f3cba8f6e21bb1da4f8301b54922dc8804d5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1e5c41866b02a74bee06b472623919f955691dd9
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569920"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675785"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure モニターを使用して Microsoft Teams の会議室の管理を計画する
  
@@ -25,7 +25,7 @@ ms.locfileid: "37569920"
   
 [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview)は、最初からクラウドで設計された管理サービスのコレクションです。 オンプレミスのリソースを展開して管理する代わりに、Azure Monitor コンポーネントはすべて Azure でホストされます。 構成は最小限で、わずかな時間ですぐに起動して実行できます。 一部のカスタマイズ作業では、Microsoft Teams の会議システムを管理するために、個々の room システムのシステム正常性またはフォールトに関するリアルタイムの通知が提供されます。また、多くの Microsoft Teams の管理にも対応できる場合があります会議室の会議室。
   
-この記事では、Microsoft Teams 室の会議デバイスの Azure Monitor ベースの管理を実装するために必要な要件、設計、アーキテクチャ、実装のベストプラクティスについて説明し、詳細な記事へのリンクを提供します。microsoft Teams 室の管理と、Microsoft Teams ルームの継続的な監視に関する重要なリファレンス情報に対する Azure モニターの実装。 
+この記事では、Microsoft teams 室の会議デバイスの Azure Monitor ベースの管理を実装するために必要な要件、設計、アーキテクチャ、実装のベストプラクティスについて説明し、microsoft teams 室の進行状況を監視するために Microsoft Teams のルームと重要なリファレンス情報に関する詳細な記事へのリンクを提供します。 
   
 ## <a name="functional-overview"></a>機能の概要
 

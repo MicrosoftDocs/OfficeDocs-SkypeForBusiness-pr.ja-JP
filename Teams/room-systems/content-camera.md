@@ -11,20 +11,20 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
-ms.openlocfilehash: 24dcec21b9bc2fdb65f63fa21412bbf0f5503c1f
-ms.sourcegitcommit: c782999728e8adae51c52d122700d3e8fa651fdb
+ms.openlocfilehash: 21f60c95c556e9fd006d378a0ff7b48dd0b1b6c2
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38019950"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675765"
 ---
-# <a name="content-cameras"></a>コンテンツのカメラ
+# <a name="content-cameras"></a>コンテンツ カメラ
 
 Microsoft Teams Room system でコンテンツカメラを使用できるようになりました。 コンテンツのカメラは、特殊な画像処理ソフトウェアやホワイトボードと連携し、発表者がアナログホワイトボードを描画し、リモート参加者とコンテンツを共有できるようにします。
 
 コンテンツのカメラ機能の例については、次のビデオを参照してください。
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E7fy]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E7fy]
 
 ## <a name="set-up-a-content-camera"></a>コンテンツのカメラを設定する
 

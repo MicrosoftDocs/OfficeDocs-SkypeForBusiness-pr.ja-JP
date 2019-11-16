@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 用の電話機
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
@@ -14,16 +14,16 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: この記事では、Microsoft Teams で認定されている電話の一覧と、Microsoft Teams でサポートされている電話機能について説明します。
-ms.openlocfilehash: c73732d999cc775bdf85e33a37fb6dda792d9b8b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 958836bb3a959b077d0032f58d6b8f287bee407c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573311"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675391"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 用の電話機
 
-Microsoft Teams では、従来の電話体験が必要なユーザー向けの卓上電話のポートフォリオがサポートされています。 この記事では、Microsoft Teams で認定されている電話の一覧と、Microsoft Teams でサポートされている電話機能について説明します。 Teams で認定されたデバイスについて最新の情報を取得するには、「 [Teams Marketplace](http://office.com/teamsdevices)」を参照してください。
+Microsoft Teams では、従来の電話体験が必要なユーザー向けの卓上電話のポートフォリオがサポートされています。 この記事では、Microsoft Teams で認定されている電話の一覧と、Microsoft Teams でサポートされている電話機能について説明します。 Teams で認定されたデバイスについて最新の情報を取得するには、「 [Teams Marketplace](https://office.com/teamsdevices)」を参照してください。
 
 ## <a name="teams-certified-ip-phones"></a>チーム認定 IP 電話
 
@@ -139,12 +139,12 @@ Microsoft Teams ユーザーは [**ボイスメール**] タブに移動する�
 
 ## <a name="required-licenses"></a>必要なライセンス
 
-Microsoft Teams ライセンスは、 [Office 365 サブスクリプション](Office-365-licensing.md)の一部として購入できます。 電話で Microsoft Teams を使用するために必要なライセンスの詳細については、「利用可能な[電話システムライセンス](https://products.office.com/en-us/microsoft-teams/voice-calling)」を参照してください。
+Microsoft Teams ライセンスは、[Office 365 サブスクリプション](Office-365-licensing.md)の一部として購入できます。 電話で Microsoft Teams を使用するために必要なライセンスの詳細については、利用可能な[電話システムライセンス](https://products.office.com/microsoft-teams/voice-calling)を参照してください。
 
 Teams の入手方法については[Microsoft Teams へのアクセス権を取得するにはどうしたらよいですか?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)を参照してください。
 
 ## <a name="see-also"></a>関連項目
 
-[Teams Marketplace](http://office.com/teamsdevices)
+[Teams Marketplace](https://office.com/teamsdevices)
 
 [Microsoft Teams で認定を受けた IP 電話](teams-ip-phones.md)

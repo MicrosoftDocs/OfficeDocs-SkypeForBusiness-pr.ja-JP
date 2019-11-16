@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: 20575670fb9c462fd9cfa7bb0b424b8fcde4c68c
-ms.sourcegitcommit: 4ddd2323ca4902ac68f01c90abbf21ee1d4da160
+ms.openlocfilehash: 7ec4cae76476091a4e4854637a48b258a6bfadb5
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38303181"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675371"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
@@ -62,16 +62,16 @@ Microsoft Teams の会議室は、部屋のサイズに基づいてさまざま�
 
   |コンソール|プロセッサ|RAM|ディスク|
   |:-----|:-----|:-----|:-----|
-  |[M130-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
-  |[B130-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
-  |[B140-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
-  |[M150-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 GB |128 GB |
-  [B160-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
-  |[C160-T のフレックス](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
+  |[M130-T のフレックス](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
+  |[B130-T のフレックス](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
+  |[B140-T のフレックス](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
+  |[M150-T のフレックス](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 GB |128 GB |
+  [B160-T のフレックス](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
+  |[C160-T のフレックス](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
   |[会議室 G2 の HP エリート Slice](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[Microsoft Teams のルームでの HP エリート Slice G2 オーディオの準備](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
-  |[Logitech タップ](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8 GB |128 GB |
+  |[Logitech タップ](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |[ごみ箱 MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
   |[ごみ箱 MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[ごみ箱 MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
@@ -87,15 +87,15 @@ Microsoft Teams の会議室は、部屋のサイズに基づいてさまざま�
 
 |Microsoft Teams のルームの周辺機器|認定ファームウェアのバージョン | カメラはコンテンツカメラの使用をサポートしています|
 |:--- |:--- | :--- |
-|[Crestron Huddly IQ](https://www.crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
-|[Logitech Brio](https://www.logitech.com/en-us/product/brio)   |V 2.2.50| &#x2714; |
-|[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam)   | 8.0.914   | &#x2714; |
-|[Logitech 集結](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam)   |1.2.4 |
-|[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam)   |オーディオ—1.0.172 <br/> ビデオ: 1.0.156  |
-|[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
-|[Logitech グループ](http://www.logitech.com/en-us/product/conferencecam-group)   |8.5.778   |
-|[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro)   | 1.1.219   |
-|[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2)   |
+|[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
+|[Logitech Brio](https://www.logitech.com/product/brio)   |V 2.2.50| &#x2714; |
+|[Logitech 930e](http://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
+|[Logitech 集結](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
+|[Logitech MeetUp](http://www.logitech.com/product/meetup-conferencecam)   |オーディオ—1.0.172 <br/> ビデオ: 1.0.156  |
+|[Logitech ConferenceCam Connect](http://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
+|[Logitech グループ](http://www.logitech.com/product/conferencecam-group)   |8.5.778   |
+|[Logitech PTZ Pro](http://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
+|[Logitech PTZ Pro 2](http://www.logitech.com/product/conferencecam-ptz-pro2)   |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom Eagle アイディレクター II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
@@ -161,7 +161,7 @@ Microsoft Teams の会議室は、部屋のサイズに基づいてさまざま�
 
 ## <a name="see-also"></a>関連項目
 
-[すべてのバンドルを参照する](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[すべてのバンドルを参照する](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Microsoft Teams のルームを計画する](skype-room-systems-v2-0.md)
 
@@ -171,4 +171,4 @@ Microsoft Teams の会議室は、部屋のサイズに基づいてさまざま�
 
 [Microsoft Teams Rooms を管理する](skype-room-systems-v2.md)
 
-[Skype for Business アドオンのライセンス](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
+[Skype for Business アドオンのライセンス](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
