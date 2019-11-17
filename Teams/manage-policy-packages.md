@@ -3,7 +3,7 @@ title: Microsoft Teams でポリシーパッケージを管理する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: sekrantz
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: fb01a7e15d43c18e115ecfbd0edb73b4808c2a59
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: ecfc6ae6fb1bb4d9632b8cd04b35dcee6d63359d
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972438"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38679829"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams でポリシーパッケージを管理する
 
@@ -41,6 +41,7 @@ Microsoft Teams のポリシーパッケージは、組織内で同様の役割�
 |Education_PrimaryStudent パッケージ    |主要な学生に適用される一連のポリシーとポリシー設定を作成します。|
 |Education_SecondaryStudent パッケージ    |第2の学生に適用される一連のポリシーとポリシー設定を作成します。         |
 |Education_HigherEducationStudent パッケージ    |高等教育機関向けの学生に適用される一連のポリシーとポリシー設定を作成します。|
+|SmallMediumBusiness_BusinessVoice パッケージ    |ビジネス音声エクスペリエンス用のアプリを含むアプリセットアップポリシーを作成します。|
 
 > [!NOTE]
 > 今後のチームのリリースでポリシーパッケージを追加しますので、最新の情報を確認してください。  
@@ -101,3 +102,7 @@ Microsoft Teams 管理センターでポリシーパッケージを表示、割�
 **ポリシーパッケージを割り当てるときにエラーが表示される**
 
 この問題は、パッケージ内の1つ以上のポリシーが正常に作成または適用されなかった場合に発生することがあります。 ポリシーパッケージをユーザーに割り当て直します。 通常、操作を再試行すると、この問題は修正されます。
+
+## <a name="related-topics"></a>関連項目
+
+[EDU の管理者向けの Microsoft Teams ポリシーパッケージ](policy-packages-edu.md)
