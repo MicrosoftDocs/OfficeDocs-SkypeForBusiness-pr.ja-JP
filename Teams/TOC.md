@@ -25,6 +25,7 @@
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)
 ## [チームとチャネル ポリシーを管理する](teams-policies.md)
+## [Teams の機密度ラベル](sensitivity-labels.md)
 ## [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
 ## [Teams でチャネルのモデレートを設定する](manage-channel-moderation-in-teams.md)
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
@@ -772,6 +773,7 @@
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
 ### [教育機関向けの Teams の課題 ](expand-teams-across-your-org/assignments-in-teams.md)
 ### [教育機関管理者向けの Teams のリソース](resources-teams-edu.md)
+### [EDU 管理者向けの Microsoft Teams ポリシー パッケージ](policy-packages-edu.md)
 ### [Microsoft Education のガバナンスに関するよくある質問 (管理者向け)](plan-teams-governance-edu.md)
 ### [Moodle の統合をインストールする](install-moodle-integration.md)
 
