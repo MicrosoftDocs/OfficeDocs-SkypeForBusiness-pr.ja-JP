@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
-ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
+ms.openlocfilehash: 554ea9b5855a4b177c9f22dd985fc14c4b0e3877
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37973216"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653543"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>ユーザーを Business Voice に対応させるにはどうすればよいですか?
 
@@ -51,7 +51,7 @@ Teams でサポートされているすべてのデバイスを確認するに�
 
 ## <a name="set-up-voicemail-greetings-and-other-business-voice-features"></a>ボイスメールの挨拶とその他の Business Voice 機能をセットアップする
 
-通常の電話と同様に、ボイスメールの挨拶の設定、自動転送、着信音の選択などができます。 ユーザーが設定できるものはすべて、[**設定**] の Teams アプリにあります。 これらの機能の設定に関するヘルプは、「[Teams での通話設定を管理する](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)」でご覧いただけます。
+通常の電話と同様に、ボイスメールの挨拶の設定、自動転送、着信音の選択などができます。 ユーザーが設定できるものはすべて Teams アプリにあります。Teams の右上隅にあるプロフィール写真をクリックし、**[設定]**  >  **[通話]** の順に選択します。 これらの機能の設定に関するヘルプは、「[Teams での通話設定を管理する](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)」でご覧いただけます。
 
 ## <a name="learn-what-microsoft-teams-and-business-voice-can-do"></a>Microsoft Teams と Business Voice でできることの詳細
 

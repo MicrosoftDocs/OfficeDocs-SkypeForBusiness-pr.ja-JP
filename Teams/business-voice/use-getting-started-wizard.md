@@ -15,18 +15,18 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46f6f75ce0ac14193a4f7a8cfccadf8312f92a98
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 8e6ed778af0136516286798b0a7b04602f571de2
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972198"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653533"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>[作業の開始] ウィザードを使用して Business Voice をセットアップする
 
 Microsoft 365 Business Voice の [作業の開始] ウィザードを使用すると、Microsoft Teams で電話の受信と発信を簡単かつ迅速に開始できます。 始めたばかりの小規模ビジネスの場合、ウィザードを使用すると、電話番号、通話メニュー、案内応答などを使用して、数分で起動して実行できます。 テレフォニー ソリューションを確立している大企業の場合、ウィザードを使用して Business Voice パイロットをセットアップできるため、すべてのユーザーにセットアップする前に少数のユーザーで試用できます。 いずれにしても、ウィザードが終了したらすぐに Business Voice の使用を開始できます!
 
-ウィザードを開始する前にこの記事を読むことをお勧めします。 準備ができたら、[Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/Home#/homepage)からウィザードを開くことができます。 サブスクリプションの作成に使用したアカウントまたはグローバル管理者である別のアカウントでサインインしてください。
+ウィザードを開始する前にこの記事を読むことをお勧めします。 準備ができたら、「[Microsoft 365 Business を使い始める](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)」のページの [**作業の開始**] を選択して、ウィザードを開くことができます。 サブスクリプションの作成に使用したアカウントまたはグローバル管理者である別のアカウントでサインインしてください。
 
 > [!IMPORTANT]
 > Business Voice は現在、カナダとイギリスで利用できます。 2020 年にはさらに多くの国と地域で利用可能になります。
@@ -56,7 +56,7 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
 
 <table>
     <tr>
-        <td>新しい電話のローカル電話番号を設定することに加えて、フリーダイヤル番号を購入するか、既存の番号を Microsoft 365 にポートするかを選択できます。 フリーダイヤル番号を設定する場合は、通話プランを購入する必要があります。 番号を Microsoft 365 にポートする場合は、ウィザードの完了後に [Teams 管理センター](https://admin.teams.microsoft.com)でそれを行うオプションがあります。
+        <td>新しい電話のローカル電話番号を設定することに加えて、フリーダイヤル番号を購入するか、既存の番号を Microsoft 365 にポートするかを選択できます。 フリーダイヤル番号を設定する場合は、通話プランを購入する必要があります。 複数の番号を Microsoft 365 にポートする場合は、ウィザードの完了後に [Teams 管理センター](https://admin.teams.microsoft.com)でポートを行うオプションがあります。
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>
@@ -64,7 +64,7 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
 </table>
 
 > [!IMPORTANT]
-> 既存の電話番号を Microsoft 365 にポートすることを選択しても、ウィザードには一時的な電話番号が表示されます。 これは問題ありません。 ウィザードを完了し、ポート プロセスを完了すると、一時的な電話番号が電話番号に置き換えられます。
+> 既存の電話番号を Microsoft 365 にポートしようとしても、ウィザードにはそのまま一時的な電話番号が表示されます。 これは問題ありません。 ウィザードを完了し、ポート プロセスを完了すると、一時的な電話番号が電話番号に置き換えられます。
 
 ## <a name="assigning-licenses-to-users"></a>ユーザーにライセンスを割り当てる
 
@@ -96,12 +96,15 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
 <table>
     <tr>
         <td>すべての通話を特定のユーザーに転送するか、ユーザーがオプションを選択できる通話メニューを設定できます。 通話メニューを作成する場合、電話のキーパッドで数字を押すか、音声コマンドでオプションを話すことで、発信者が選択できるオプションを指定できます。 各メニューのオプションは 1 人のユーザーに転送できます。 <br>
-発信者に指示する最大 5MB の音声ファイル (MP3 または WAV) をアップロードするか、指示を入力するかを選択できます。 Microsoft 365 は、音声合成を使用して、発信者への指示を読みます。 正しい発音のために、音声で単語を綴る必要がある場合があります。
+        発信者に指示する最大 5MB の音声ファイル (MP3 または WAV) をアップロードするか、指示を入力するかを選択できます。 Microsoft 365 は、音声合成を使用して、発信者への指示を読みます。 正しい発音のために、音声で単語を綴る必要がある場合があります。
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
         </td>
     </tr>
 </table>
+
+> [!IMPORTANT]
+> [作業の開始] ウィザードを使用すると、すぐに起動して実行できるシンプルな通話メニューを設定できます。 通話メニューを設定する複数の電話番号がある場合、またはより複雑な (自動応答とも呼ばれる) 通話メニューを設定する場合は、ウィザードの終了後、「[クラウドの自動応答をセットアップする](set-up-auto-attendants.md)」の手順に従って設定できます。
 
 <table>
     <tr>

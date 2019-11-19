@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dbfd1bdaec48ebe8c6adbed86da431a6f4ecbfc
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 19f26c0bd7ab4fe89770909d81d60abc97aaa8b0
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972278"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653553"
 ---
 # <a name="check-your-internet-connection"></a>インターネット接続を確認する
 
@@ -57,17 +57,17 @@ Business Voice は、Microsoft 365 のクラウドにあります。 Microsoft T
 必要な操作は次のとおりです。
 
 1. ブラウザーを開き、https://admin.teams.microsoft.com に移動して、グローバル管理者のアクセス許可を持つアカウントでサインインします。 Office 365 へのサインアップに使用したアカウントには、これらのアクセス許可があります。
-1. **[組織全体の設定]** を開いて **[ネットワーク プランナー]** を選択します。
+1. **[計画]** を開いて **[ネットワーク プランナー]** を選択します。
 1. **[ネットワーク プラン]** で、**[追加]** を選択します。 プランの名前を指定して、**[適用]** を選択します。 ネットワーク プランは次のようになります。
 
     ![ネットワーク プランナーのメイン画面](../media/network-planner-main.png)
 1. ネットワーク プランの名前をクリックします (上の図の**本社**)。
 1. 次のページで、**[ネットワーク サイト]** タブの **[ネットワーク サイトを追加]** を選択します。
-1. 次の情報を入力し、**[保存]** を選択します。
+1. 以下のスクリーンショットに示されているフィールドにのみ入力し、**[保存]** を選択します。 この画面上の他のフィールドを空白のままにしておき、**[ExpressRoute]** も **[WAN に接続済み]** のオプションも選択しないでください。
 
     ![ネットワーク プランナー サイトに関する情報](../media/network-planner-site-info.png)
 1. **[レポート]** タブで、**[レポートの開始]** を選択します。
-1. 次の情報を入力し、**[レポートの生成]** を選択します。
+1. 次の情報を入力してから **[レポートの生成]** を選択し、Teams の帯域幅要件を示すレポートを作成します。 次のセクションでは、レポートを読み込む方法について説明します。
 
     ![ネットワーク プランナー レポートに関する情報](../media/network-planner-report-info.png)
 
