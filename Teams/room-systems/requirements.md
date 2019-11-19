@@ -12,16 +12,18 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: 7ec4cae76476091a4e4854637a48b258a6bfadb5
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 9e0aa01e72fee194dc57af733adfdfa59e6fce71
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675371"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696817"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
-この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
+Microsoft Teams の会議室のサイズと用途に基づいて、さまざまな認定オーディオとビデオの周辺機器を使用して、さまざまな部屋のサイズに拡大縮小することができます。 適切なコアデバイスと本体を選択して、マイク、スピーカー、カメラ、およびスペースに適したディスプレイを使用することで、Microsoft Teams のルームを、非常に小さな huddle スペースから、非常に大きな会議スペースまで展開できます。会議室。  お客様の室内を構成するために使用できる認定オーディオとビデオのすべての周辺機器の完全なセットは、[デバイスのショーケース](https://products.office.com/microsoft-teams/across-devices)でご利用いただけます。
+
+この記事では、Microsoft Teams のルームをサポートするためのデバイスの展開と構成の要件について説明します。
 
 「Microsoft teams ルームを[構成](console.md)する」で説明されているように、「Microsoft [Teams ルームの展開](room-systems-v2.md)と会議コンソールのセットアップ」で説明されているように、展開にはアカウントの作成が含まれます。
 
@@ -31,34 +33,18 @@ ms.locfileid: "38675371"
 - [プランに基づくライセンスオプション: Microsoft Teams のルーム](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft Teams のルームは、Microsoft Teams、Skype for Business Server 2019、Skype for business Server 2015、または Skype for Business Online で使用することを目的としています。
+> Microsoft Teams の会議室は、Microsoft Teams、Skype for Business Server 2019、Skype for business Server 2015、または Skype for Business Online にサインインし、これらのサービスのいずれかでホストされている会議に参加することができます。
 >
-> Lync Server 2013 などの以前のプラットフォームでは、Microsoft Teams のルームで動作することは想定されていません。 Microsoft Teams のルームは、21Vianet が運営する Office 365、または GCC、GCC、高、または DoD 環境ではサポートされていません。
+> Lync Server 2013 などの以前のプラットフォームは、Microsoft Teams のルームでサポートされていません。 Microsoft Teams のルームは、21Vianet が運営する Office 365 または GCC-高または DoD 環境ではサポートされていません。
 >
 > オンプレミスの Exchange サーバーがある場合、Microsoft Teams ルームでは Exchange Server 2013 SP1 以降を使用する必要があります。
 
 ## <a name="hardware-requirements"></a>ハードウェア要件
+ハードウェアの展開には、認定された音声とビデオの周辺機器と組み合わせた Microsoft Teams Room システムの選択と、これらのデバイスを統合するためのケーブル接続ソリューションが含まれます。  ここでは、これらのオプションについて説明します。
 
-Microsoft Teams の会議室は、部屋のサイズに基づいてさまざまなオーディオとビデオの周辺機器を使用して、さまざまな部屋のサイズに拡大縮小されます。 この記事に記載されているハードウェアは、Skype と Teams の両方の会議モードをサポートしています。 オーディオおよびビデオの周辺機器は、ドッキングデバイスで USB または HDMI 接続を介して Microsoft Teams のルームに接続します。 以下も必要です。
+**サポートされている Microsoft Teams Room systems**
 
-- Windows 10 Enterprise 用の起動可能な Windows インストールメディアとして構成されている 32 GB 以上の USB ディスク。
-- 次のタブレットまたはコンソールのいずれか。
-
-  **サポートされるタブレット**
-
-  |タブレット|プロセッサ|RAM|ディスク|
-  |:-----|:-----|:-----|:-----|
-  |Surface Pro 6| Core i5 |16 GB または 8 GB |128 GB 以上 |
-  |Surface Pro </br>(第5世代) |Core i5 |8 GB または 4 GB |128 GB 以上 |
-  |Surface Pro 4 |Core i5 |8 GB または 4 GB |128 GB 以上 |
-
-- 会議室テーブルにタブレットをセキュリティで保護するための、次のドッキングステーションオプションのいずれか。
-
-  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [クリエイティブ](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Polycom MSR シリーズ](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
-
-- **サポートされているその他の Microsoft Teams ルームコンソール**
+現在の Microsoft Teams Room デバイスとバンドルはすべて、 [Room Systems の製品ショウケース](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)で利用できます。
 
   |コンソール|プロセッサ|RAM|ディスク|
   |:-----|:-----|:-----|:-----|
@@ -77,13 +63,27 @@ Microsoft Teams の会議室は、部屋のサイズに基づいてさまざま�
   |[ごみ箱 MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   ||||||
 
-
 > [!NOTE]
-> コア M3 プロセッサはサポートされていません。
+> - コア M3 プロセッサはサポートされていません。
+> - Windows 10 Enterprise 用の起動可能な Windows インストールメディアとして構成されている 32 GB 以上の USB ドライブが必要です。
+
+**ドックスタイルシステムでサポートされている Surface Pro タブレット**
+
+  |タブレット|プロセッサ|RAM|ディスク|
+  |:-----|:-----|:-----|:-----|
+  |Surface Pro 6| Core i5 |16 GB または 8 GB |128 GB 以上 |
+  |Surface Pro </br>(第5世代) |Core i5 |8 GB または 4 GB |128 GB 以上 |
+  |Surface Pro 4 |Core i5 |8 GB または 4 GB |128 GB 以上 |
+
+- 会議室テーブルにタブレットをセキュリティで保護するための、次のドッキングステーションオプションのいずれか。
+
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
+  - [クリエイティブ](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Polycom MSR シリーズ](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>USB オーディオおよびビデオの周辺機器についての認定済みファームウェア バージョン
 
-これらのデバイスは、 [aka.ms/teamsdevices](https://aka.ms/teamsdevices)で入手できます。
+これらのデバイスは、 [Room System のアクセサリ製品ショウケース](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=)と[https://office.com/teamsdevices](https://office.com/teamsdevices)で入手できます。
 
 |Microsoft Teams のルームの周辺機器|認定ファームウェアのバージョン | カメラはコンテンツカメラの使用をサポートしています|
 |:--- |:--- | :--- |

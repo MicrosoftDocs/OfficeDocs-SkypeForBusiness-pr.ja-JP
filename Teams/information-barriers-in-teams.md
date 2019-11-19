@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 情報の障壁とチームへの影響について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0772a9599a38afc05520b8dcccba3cb463df3409
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968258"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696827"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -74,7 +74,7 @@ IB コンプライアンス管理の役割は、情報バリアポリシーの�
 ユーザー間に既存のチャットやその他の通信が存在し、新しいポリシーが設定されている場合、または既存のポリシーが変更されている場合、サービスは既存の通信を評価して、通信が引き続き許可されていることを確認します。 
 
 - **1:1 チャット**-2 人のユーザ間の通信が許可されなくなった場合 (ポリシーをブロックしている場合に、一方または両方のユーザーに対して通信がブロックされている場合)、チャットスレッドは読み取り専用になります。
-- **グループチャット**-1 人のユーザーがグループに対して通信することが許可されなくなった場合 (たとえば、ユーザーがジョブを変更した場合など)、そのポリシーに違反した他のユーザーとの間でそのユーザーとの通信がグループチャットから削除される可能性があります。禁止. ユーザーは以前の会話を見ることはできますが (この場合は読み取り専用)、グループとの新しい会話を表示したり、参加したりすることはできません。 新しいポリシーまたは変更されたポリシーによって複数のユーザーに通信が適用されない場合、ポリシーの影響を受けるユーザーはグループチャットから削除されることがあります。 以前の会話は引き続き表示されます。 
+- **グループチャット**-1 人のユーザーがグループに対して通信することが許可されなくなった場合 (たとえば、ユーザーがジョブを変更した場合など)、そのポリシーに違反した他のユーザーとの間でそのユーザーとの通信がグループチャットから削除される可能性があります。 ユーザーは以前の会話を見ることはできますが (この場合は読み取り専用)、グループとの新しい会話を表示したり、参加したりすることはできません。 新しいポリシーまたは変更されたポリシーによって複数のユーザーに通信が適用されない場合、ポリシーの影響を受けるユーザーはグループチャットから削除されることがあります。 以前の会話は引き続き表示されます。 
 - **チーム**-グループから削除されたユーザーはチームから削除され、既存の会話または新規の会話を表示したり、新しい会話に参加したりすることはできなくなります。
 
 
@@ -92,16 +92,15 @@ IB コンプライアンス管理の役割は、情報バリアポリシーの�
 - **連絡先**への通話-ユーザーは [着信] の連絡先リストでブロックされたユーザーを確認できますが、ブロックされたユーザーは特定され、ユーザーが実行できる操作は、それらを削除することだけです。
 - **Skype から teams**への移行-Skype for Business から teams への移行中、すべてのユーザーは、情報バリアポリシーによってブロックされたユーザーを含めて teams に移行され、その後で説明したように処理されます。
 
-
-
-## <a name="required-licenses-and-permissions"></a>必要なライセンスと権限
-
+## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>ファイルと SharePoint サイトエクスペリエンスは、Teams の IB ポリシーに接続されていますか?
+ 
 チームを作成すると、SharePoint サイトがプロビジョニングされ、ファイルエクスペリエンスのチームに関連付けられます。 この SharePoint サイトやファイルへのアクセスには、組織の IB ポリシーが適用されます。 ib セグメントを持つユーザーのみが IB ポリシーにアクセスできます。 ファイル共有の時点でも、IB ポリシーは受け入れられます。
 
 たとえば、Contoso Bank corporation では、ユーザー ' Sesha@contosobank.onmicrosoft.com ' は投資銀行取引セグメントに属し、ユーザー ' Nikita@contosobank.onmicrosoft.com ' はセグメント勧告に属しています。 この2つのセグメント間の通信とコラボレーションは、組織の IB ポリシーによってブロックされます。 ユーザーが、投資銀行取引先のチームを作成すると、そのチームとそれをバックアップした SharePoint サイトにアクセスできるのは、投資銀行セグメントのユーザーのみになります。 ユーザー Nikita は、サイトリンクを持っている場合でも、そのサイトにアクセスすることはできません。
 
-プランや価格などの詳細については、「[ライセンスガイダンス](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)」を参照してください。
+## <a name="required-licenses-and-permissions"></a>必要なライセンスと権限
 
+プランや価格などの詳細については、「[ライセンスガイダンス](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)」を参照してください。
 
 ## <a name="more-information"></a>詳細情報
 

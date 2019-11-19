@@ -1,7 +1,7 @@
 ---
 title: 医療関係組織向けテンプレートでTeamsを始めましょう
-author: jambirk
-ms.author: jambirk
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織向けテンプレートでTeamsを始めましょう
-ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886440"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702318"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療関係組織向けテンプレートでTeamsを始めましょう
 
@@ -43,7 +43,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 ## <a name="hospital-template"></a>病院のテンプレート
 
-病院のテンプレートは、病院内の複数の wards、ポッド、部門間のコミュニケーションとコラボレーションを目的としています。 このテンプレートには、*お知らせ*、 *Custodial*、*薬剤*など、いくつかの運用チャネルが含まれていますが、次のスクリプトを用意して、さまざまな部門でテンプレートを拡張することもできます。好みに合わせて追加、削除、または編集できる特殊な中心のチャネル。 たとえば、 *Endocrinology* department を持っているが、 *Ophthalmology*のチャネルが必要ない場合、スクリプトは*Endocrinology*チャネルを含めて*Ophthalmology*チャネルを削除するように調整できます。 通知の飽和を回避するために、これらの専門分野または補助のチャネルは自動お気に入りにならないようにすることをお勧めします。 通常、ユーザーは関連するチャネルをお気に入りにお気に入りに表示します。
+病院のテンプレートは、病院内の複数の wards、ポッド、部門間のコミュニケーションとコラボレーションを目的としています。 このテンプレートには、*お知らせ*、 *Custodial*、*薬剤*など、いくつかの運用チャネルが含まれていますが、次のスクリプトも提供しています。ここでは、自由に追加、削除、または編集できるさまざまな追加の部門または専用のチャネルを使用してテンプレートを拡張します。 たとえば、 *Endocrinology* department を持っているが、 *Ophthalmology*のチャネルが必要ない場合、スクリプトは*Endocrinology*チャネルを含めて*Ophthalmology*チャネルを削除するように調整できます。 通知の飽和を回避するために、これらの専門分野または補助のチャネルは自動お気に入りにならないようにすることをお勧めします。 通常、ユーザーは関連するチャネルをお気に入りにお気に入りに表示します。
 
 |ベーステンプレートの種類 |baseTemplateId |ベースラインテンプレートのチャネル|
 |:--- |:---|:---|
@@ -52,20 +52,9 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 \*自動お気に入り 
 
-## <a name="care-coordination-template"></a>治療の調整テンプレート
-
-治療の調整テンプレートは、治療チーム内でのコミュニケーションを容易にすることを目的としており、multidisciplinary teams などの例があります。 このテンプレートには、skype 専有の患者アプリケーションが事前にロードされています。 患者アプリケーションを使用すると、患者とその関連する価値と vitals の一覧を作成して、丸めや患者管理のシナリオに役立てることができます。 
-
-|ベーステンプレートの種類 |baseTemplateId |ベースラインテンプレートのチャネル|
-|:--- |:---|:---|
-|ヘルスケアの調整 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | 治療後のレビュー\* <br> 管理\* <br> トレーニング\* |
-| | |  |
-
-\*自動お気に入り 
-
 ## <a name="how-to-use-first-party-templates"></a>ファーストパーティテンプレートの使用方法
 
-これらのテンプレートを使用するには、要求本文の ' template@odata.bind ' プロパティを "standard" から "TemplateIDs" に変更します。  Teams テンプレートの展開方法の詳細については、Microsoft Graph の記事「[チームを作成](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)する方法」を参照してください。
+これらのテンプレートを使用するには、要求本文の ' template@odata ' プロパティを ' standard ' から TemplateIDs に変更します。  Teams テンプレートの展開方法の詳細については、Microsoft Graph の記事「[チームを作成](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)する方法」を参照してください。
 
 > [!NOTE]
 > テンプレートのチャネルは、[全般] タブに自動的に作成されます。

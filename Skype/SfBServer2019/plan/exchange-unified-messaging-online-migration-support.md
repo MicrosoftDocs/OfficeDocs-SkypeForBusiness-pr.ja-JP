@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft は2020年2月に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止します。 この記事では、影響を受ける顧客がビジネス継続性を計画するときに知っておく必要があることについて説明します。
-ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616090"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702308"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -23,7 +23,7 @@ ms.locfileid: "37616090"
  
 ExchUMO は、ボイスメール、自動応答、通話キュー、fax 統合サービスのお客様によって展開されます。 Skype for Business Online および Microsoft Teams で数千ものユーザーをサポートしている電話システムサービスへの移行を支援するための Microsoft プラン。 
 
-ボイスメールは主に Microsoft ベースの移行です。一部のお客様には、管理者の関与や投資が必要になることがあります。 自動応答は、管理ベースの移行です。クラウド自動応答クラウドサービスで既存の ExchUMO 自動応答ツリーを再作成する必要があります。 サードパーティ PBX で ExchUMO 機能を利用しているお客様は、サードパーティ PBX システムをサポートしていないため、Skype クラウドサービスに移行されません。 [このブログ](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)では、サードパーティサポートの廃止計画が発表されました。また、この展開モデルのお客様は、ユーザーを Microsoft の統合コミュニケーションプラットフォーム/サービスに移行するか、サードパーティボイスメールまたは auto を購入することができます。これらのユーザーのための応答策。 Fax の統合は、クラウドベースのサービスではサポートされていません。お客様は、サードパーティのソリューションに移行する必要があります。
+ボイスメールは主に Microsoft ベースの移行です。一部のお客様には、管理者の関与や投資が必要になることがあります。 自動応答は、管理ベースの移行です。クラウド自動応答クラウドサービスで既存の ExchUMO 自動応答ツリーを再作成する必要があります。 サードパーティ PBX で ExchUMO 機能を利用しているお客様は、サードパーティ PBX システムをサポートしていないため、Skype クラウドサービスに移行されません。 [このブログ](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)では、サードパーティサポートの廃止計画が発表されました。また、この展開モデルのお客様は、これらのユーザーに対してサードパーティのボイスメールまたは自動応答ソリューションのいずれかにユーザーを移行できます。 Fax の統合は、クラウドベースのサービスではサポートされていません。お客様は、サードパーティのソリューションに移行する必要があります。
 
 ### <a name="who-is-affected"></a>影響を受けるユーザー
 
@@ -156,7 +156,7 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
 | AA | サービス機能 | 複数言語のサポート | 言語の詳細:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | AA | サービス機能 | オペレーター、CQ、またはユーザーに転送する |  | Y | Y    |
 | AA | サービス機能 | 内部で PSTN 番号に転送する (RNL)  |  | Y | Y    |
-| AA | サービス機能 | PSTN 番号に外部から転送する  |  | Q3CY19 | Y    |
+| AA | サービス機能 | PSTN 番号に外部から転送する  |  | 以下の「既知の問題」を参照してください。 | Y    |
 | AA | サービス機能 | 営業時間 |  | Y | Y    |
 | AA | サービス機能 | メニューオプション | IVR メニューのオプション  | Y | Y    |
 | AA | サービス機能 | クラウド PSTN 番号を AA に割り当てる |  | Y | N    |
@@ -210,6 +210,15 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
 自動応答の詳細については、「[クラウド自動応答をセットアップ](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)する」を参照してください。 
 
 #### <a name="known-issues"></a>既知の問題
+
+**自動応答の PSTN への着信転送**ユーザーは、自動応答の呼び出しを外部の PSTN 番号または RG インスタンスに転送するための要件を満たすために、一時的な回避策を構成することをお勧めします。 
+ 
+問題は、「PSTN 番号への転送」機能を使用して品質保証中に検出されました。顧客は、2020年2月1日のスケジュールされている退職日より前に、Exchange UMO サービスの移行を開始することになります。 回避策として、管理者は、自動応答の発信者をオンプレミスの仮想ユーザーに転送することができます。この設定では、[着信の転送] 設定を使用して、目的の PSTN 電話番号または RGS の電話番号に転送します 
+ 
+期待されるエクスペリエンス
+- 回避策であるため、管理者は仮想ユーザーにライセンスを付与する必要はありません。 
+- 管理者は、目的の番号を仮想ユーザーに割り当てるか、SBC の操作機能を使用して、PSTN 受信者に表示される発信者番号認識を操作できます。 
+- PSTN の発信者は通話転送中に遅延が発生しません。また、転送が正常に完了した後でも、自動応答の発信者番号認識が続行されます。  
 
 **共有メールボックス:** Exchange UM Online を使用して構成されている共有メールボックスは、CVM に移行された後も引き続きメッセージを受信し、Outlook 経由でユーザーが引き続きアクセスできるようになります。 ただし、これらのメールボックスのあいさつメッセージを変更するアクセス許可は、CVM に移行した後は利用できません。 自動応答の呼び出し元をキャプチャするために使用される共有メールボックスを持つユーザーは、リリース後の自動応答と通話キューの共有メールボックス機能を活用する必要があります (2019 年10月の ETA)。
   
