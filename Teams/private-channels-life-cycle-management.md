@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 組織内のプライベートチャネルのライフサイクルを管理する方法について説明します。
-ms.openlocfilehash: 0f2a1f9fc4921ae12092655102d4a442fd653df3
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077410"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714483"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートチャネルのライフサイクルを管理する
 
 ここでは、組織内の[プライベートチャネル](private-channels.md)のライフサイクルを管理するために必要なガイダンスについて説明します。
 
 > [!IMPORTANT]
-> この記事の PowerShell の手順を使用してプライベートチャネルを管理している場合は、PowerShell テストギャラリーから最新バージョンの Teams PowerShell モジュールをインストールして使用する必要があります。 この方法については、「 [Powershell テストギャラリーから最新の Teams powershell モジュールをインストール](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)する」を参照してください。 最新の一般公開バージョンの Teams PowerShell モジュール (現在[1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)) では、プライベートチャネルの管理はサポートされていません。
+> この記事の PowerShell の手順を使用してプライベートチャネルを管理している場合は、PowerShell テストギャラリーから最新バージョンの Teams PowerShell モジュールをインストールして使用する必要があります。 この方法については、「 [Powershell テストギャラリーから最新の Teams powershell モジュールをインストール](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)する」を参照してください。 最新の一般公開バージョンの Teams PowerShell モジュール (現在[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) では、プライベートチャネルの管理はサポートされていません。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>チームメンバーがプライベートチャネルを作成できるかどうかを設定する
 
@@ -292,7 +292,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell テストギャラリーから最新の Teams PowerShell モジュールをインストールする
 
-最新の一般公開バージョンの Teams PowerShell モジュール (現在[1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)) では、プライベートチャネルの管理はサポートされていません。 次の手順を使用して、PowerShell テストギャラリーからプライベートチャネルのサポート (現在 1.0.18) を使用して、最新バージョンの Teams PowerShell モジュールをインストールします。
+最新の一般公開バージョンの Teams PowerShell モジュール (現在[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) では、プライベートチャネルの管理はサポートされていません。 次の手順を使用して、PowerShell テストギャラリーからプライベートチャネルのサポート (現在 1.0.18) を使用して、最新バージョンの Teams PowerShell モジュールをインストールします。
 
 > [!NOTE]
 > PowerShell テストギャラリーから、パブリック PowerShell ギャラリーのバージョンのモジュールと共に Teams PowerShell モジュールをインストールしないでください。 次の手順に従って、最初にパブリック PowerShell ギャラリーから Teams PowerShell モジュールをアンインストールしてから、PowerShell テストギャラリーから最新バージョンのモジュールをインストールします。
@@ -342,7 +342,7 @@ PowerShell テストギャラリーから既に Teams PowerShell モジュール
     Get-Module -Name MicrosoftTeams
     ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
 - [Microsoft Graph API を使用してチームと連携する](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 202a8555b43902e553b8eadfaaa30b5577a8e4fa
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571584"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714243"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -40,11 +40,11 @@ Skype for Business または Microsoft Teams で無料番号を使用する場�
   
 これを実行するには、 **電話会議または電話システムのライセンス** をユーザーに割り当てる必要があります。
   
-- **電話会議**ライセンスをユーザーに自分に割り当てます。 「 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)」を参照してください。
+- **電話会議**ライセンスをユーザーに自分に割り当てます。 [Assign Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md) を参照してください。
     
     このライセンスを割り当てた後、電話会議を設定する必要があります。 詳細な手順については、「 [Office 365 で電話会議を試用または購入](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)する」を参照してください。
     
-- **電話システム**と国内または国内および国際通話プランのライセンスをユーザーに割り当てます。 「 [Microsoft Teams ライセンスの割り当て](assign-teams-licenses.md)」を参照してください。
+- **電話システム**と**国内または国内および国際**通話プランのライセンスをユーザーに割り当てます。 [Assign Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md) を参照してください。
     
     > [!NOTE]
     > 通信クレジットについては必須ではありませんが、**国内通話プラン**または**国内および国際通話プラン**のライセンスを割り当てる必要があります。
@@ -55,7 +55,7 @@ Skype for Business または Microsoft Teams で無料番号を使用する場�
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>手順 2: 組織のためにコミュニケーション クレジットをセットアップする
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場または学校のアカウントを使用して、新しい Office 365 ポータルにサインインします。
     
 2. Microsoft 365 管理センターの左のナビゲーションで、[**サブスクリプション** > の**追加** **] に** > 移動します。
 
@@ -113,9 +113,9 @@ Each organization will have a different usage of Calling Plan volume and rates t
   
 各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [Skype for Business Online のセットアップ](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
 - [クラウド ボイスメールのセットアップ - Admin ヘルプ](set-up-phone-system-voicemail.md)
     

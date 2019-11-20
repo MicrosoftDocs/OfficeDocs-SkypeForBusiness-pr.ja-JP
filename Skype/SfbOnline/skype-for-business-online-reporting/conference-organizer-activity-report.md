@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 77450c0ffd490e295f09951a1c9db9d04db61673
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e93b77859c601131efae69b6ef30199accf031e7
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793188"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746330"
 ---
 # <a name="conference-organizer-activity-report"></a>電話会議開催者アクティビティ レポート
 
@@ -41,12 +41,7 @@ ms.locfileid: "35793188"
 
 1. [管理センター >**レポート** > の**利用状況]** に移動します。
     
-2. [**利用状況**] ページで、左側の [レポートの選択]**ボックスの一覧**の [ **Skype for business 電話会議開催者アクティビティ**] をクリックします。 または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business 電話会議開催者アクティビティ**] をクリックします。
-    
-     ![ビジネス会議開催者アクティビティが強調表示された Skype レポートのメニュー](../images/3fee95f4-efa1-48f2-89af-a705f8f8b732.PNG)
-  
-    > [!IMPORTANT]
-    > Office 365 のサブスクリプションによっては、ここで説明する製品やアクティビティ レポートの一部が表示されないことがあります。 
+2. [**利用状況**] ページで、左側の [レポートの選択]**ボックスの一覧**の [ **Skype for business** >**電話会議開催者アクティビティ**] を選択します。 または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business 電話会議開催者アクティビティ**] をクリックします。
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Skype for Business 電話会議開催者レポートを解析する
 
@@ -121,7 +116,7 @@ ms.locfileid: "35793188"
 
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Skype for Business Server または Lync 2013 の更新プログラムを検索して管理します。 詳細情報を入手して更新プログラムをダウンロードするには、リンクを使用します。
-ms.openlocfilehash: 99eadfcc708d13adc7c07d787d58ccb815c7daae
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 858ea89d70e52a78e1750c2036a229deef828f13
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38311222"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746440"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business のダウンロードと更新プログラム
 
@@ -24,9 +24,9 @@ _Skype For business のダウンロードと更新_の web ページは、1回�
 
 - 以下のセクションを含む[Skype For business クライアントの更新プログラム](sfb-client-updates.md)
     - [Skype for Business 2016 クライアントの更新プログラム](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [Skype for Business 2015 クライアントの更新プログラム](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Skype for Business 2015 クライアントの更新プログラム](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Mac クライアント版 Skype for Business の更新プログラム](sfb-client-updates.md)
-    - [Lync 2013 クライアントの更新プログラム](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Lync 2013 クライアントの更新プログラム](sfb-client-updates.md)
         - [Lync Phone Edition の更新プログラム](sfb-client-updates.md#lync-phone-edition-updates)
         - [ダウンロード センターでの Lync Phone Edition クライアント](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
         - [Lync Basic 2013 試用版ソフトウェア](sfb-client-updates.md)

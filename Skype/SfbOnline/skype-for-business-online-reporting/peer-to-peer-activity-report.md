@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 6564c57cee0821aa0e9204692f160b154ee5513b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 1c25fc6d331e538aacbebd350180ec0a65821ef5
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792652"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746340"
 ---
 # <a name="peer-to-peer-activity-report"></a>ピアツーピア アクティビティ レポート
 
@@ -43,13 +43,8 @@ ms.locfileid: "35792652"
 
 1. [管理センター >**レポート** > の**利用状況]** に移動します。
     
-2. [**利用状況**] ページで、左側の [**レポートの選択] ボックスの一覧**の [ **Skype for business ピアツーピアアクティビティ**] をクリックします。 または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business ピアツーピアアクティビティ**] をクリックします。
-    
-     ![Skype ピアツーピアメニューが選択されました](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
-  
-    > [!IMPORTANT]
-    > Office 365 のサブスクリプションによっては、ここで説明する製品やアクティビティ レポートの一部が表示されないことがあります。 
-  
+2. [**利用状況**] ページで、左側の [**レポートの選択] ボックスの一覧**の [ **Skype for business** > **ピアツーピアアクティビティ**] を選択します。 または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business ピアツーピアアクティビティ**] をクリックします。
+
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Skype for Business ピアツーピア アクティビティ レポートを解析する
 
 [ **アクティビティ**]、[ **ユーザー**]、[ **分**] のグラフを見ることで、Skype for Business ピアツーピア アクティビティの状況を確認できます。
@@ -117,7 +112,7 @@ ms.locfileid: "35792652"
 
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

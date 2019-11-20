@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Skype for Business をインストールするために、ドメイン、ユーザー、IM、プレゼンスを組織用にセットアップする方法について説明します。 「電話会議、電話システム、通話プラン、Skype 会議ブロードキャストを設定する」もご覧ください。 '
-ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: ffa82896bcc17127a2125bd37fea7ce03b227516
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792622"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746320"
 ---
 # <a name="set-up-skype-for-business-online"></a>Skype for Business Online をセットアップする
 
@@ -40,7 +40,7 @@ Office 365 サブスクリプションでの Skype のセットアップに関�
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Skype for Business を計画する
 
-**[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** または**business Essentials**を使用している場合は、Skype for business を使用して、サブスクリプションに参加している組織内の他のユーザーとオンラインで通話を行うことができます。 たとえば、ユーザーが10人いる組織では、以下の手順2-6 を実行した後に skype for business を使用して skype [](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) for business を使用して通話を[開始](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)することができます。 また、 [Outlook で Skype For business 会議を設定](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)することもできます。
+**[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** または**business Essentials**を使用している場合は、Skype for business を使用して、サブスクリプションに参加している組織内の他のユーザーとオンラインで通話を行うことができます。 たとえば、ユーザーが10人いる組織では、以下の手順2-6 を実行した後に skype for business[を使用し](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)て skype for business を使用して通話を[開始](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)することができます。 また、 [Outlook で Skype For business 会議を設定](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)することもできます。
 
 Skype for Business を使用して*社外*のユーザーとの**通話を発信**および受信するには、次の操作を行います。
 
@@ -59,9 +59,7 @@ Skype for Business Online は、Office 365 スイートのサービスの一部�
 
     ![Skype for Business Online にサインアップした後に受信したようこそメールの例です。 Office 365 のユーザー id が含まれています。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. 管理センターにサインインして、Office 365 のユーザー ID とパスワードを入力します。 サインインすると、Microsoft 365 管理センターが表示されます。
-
-    ![Skype for Business Online プランを使用している場合の管理センターの外観の例です。](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+2. [管理センター](https://admin.microsoft.com)にサインインして、Office 365 のユーザー ID とパスワードを入力します。 
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. ドメインとユーザーをセットアップする
 <a name="bkmk_users"> </a>
@@ -172,7 +170,7 @@ Skype for Business の音声、ビデオ、およびアプリケーション共�
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 <a name="bkmk_more"> </a>
 
 [Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する](https://go.microsoft.com/fwlink/p/?linkid=400791)

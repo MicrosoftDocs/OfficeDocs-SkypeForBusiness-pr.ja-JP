@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 143af6902c30c007d338b102534af2076a86cdcb
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: b79e90a1dc53ab95af314c99d0ffd1c33f2e1181
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793160"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746300"
 ---
 # <a name="conference-participant-activity-report"></a>電話会議参加者アクティビティ レポート
 
@@ -41,12 +41,8 @@ Office 365 管理者として、新しい**レポート**ダッシュボード�
 
 1. [管理センター >**レポート** > の**利用状況]** に移動します。
     
-2. [**利用状況**] ページで、左側の [レポートの選択]**ボックスの一覧**の [ **Skype for business 電話会議参加者のアクティビティ**] をクリックします。 または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business 電話会議参加者アクティビティ**] をクリックします。
+2. [**利用状況**] ページで、左側の [レポートの選択]**ボックスの一覧**の [ **Skype for business** > **電話会議参加者のアクティビティ**] を選択します。 または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business 電話会議参加者アクティビティ**] をクリックします。
     
-     ![Skype 会議参加者アクティビティメニュー項目が選択されました](../images/4033059e-dd2d-447d-8ee8-7515a5c26672.PNG)
-  
-    > [!IMPORTANT]
-    > Office 365 のサブスクリプションによっては、ここで説明する製品やアクティビティ レポートの一部が表示されないことがあります。 
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>Skype for Business 電話会議参加者アクティビティ レポートを解析する
 
@@ -64,7 +60,7 @@ Office 365 管理者として、新しい**レポート**ダッシュボード�
 ***
 ![ナンバー 4](../images/sfbcallout4.png)<br/>[ **ユーザー**] グラフの対話型チャート データを使用して、使用状況の傾向を把握し、組織で開催された電話会議の一意のユーザー数を確認します。 このグラフには、合計ユーザー数と、開催された電話会議の、 **IM**、 **音声/ビデオ**、 **アプリケーション共有**、 **Web**、 **ダイヤルイン/アウト - サード パーティ**のタイプが表示されます。
 ***
-![ナンバー 5](../images/sfbcallout5.png)<br/>**分単位**の対話形式のグラフデータを使用して、使用傾向を把握し、音声/ビデオを使用して電話会議を開催したときにユーザーが使用した分数、および音声会議として Microsoft のダイヤルインとダイヤルアウトを使用するプロバイダー. このグラフには、参加者がいた電話会議中に使用された **音声/ビデオ**の合計通話分数が表示されます。
+![ナンバー 5](../images/sfbcallout5.png)<br/>[**分**] グラフの対話形式のグラフデータを使用して、使用状況の傾向を把握したり、音声/ビデオを使用して会議を開催するときにユーザーが使用した分数、および電話会議プロバイダーとして Microsoft のダイヤルインとダイヤルアウトを表示します。 このグラフには、参加者がいた電話会議中に使用された **音声/ビデオ**の合計通話分数が表示されます。
 ***
 ![ナンバー 6](../images/sfbcallout6.png)<br/>凡例の項目をクリックして、グラフに表示する系列をフィルター処理できます。たとえば、[ **アクティビティ**] グラフで [ **IM]**、[ **音声/ビデオ**]、[ **アプリケーション共有**]、[ **Web**]、または [ **ダイヤルイン/アウト - サード パーティ**] をクリックまたはタップすると、それぞれに関連した情報のみが表示されます。この選択を変更しても、グリッド テーブルの情報は変更されません。 
 ***
@@ -111,7 +107,7 @@ Office 365 管理者として、新しい**レポート**ダッシュボード�
 
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015/2019 および Lync 2013 の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: d95776848e27a5d43d273f8ad1caedd40636ab1c
-ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
+ms.openlocfilehash: 86a08c798d04942dd517664bbfed0f67ba8ddc46
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "37275524"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714133"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
@@ -30,15 +30,15 @@ KB 4470124 は、公開されたすべての累積的な更新プログラムと
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
-|Skype for Business Server 2019 累積更新プログラム1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
 |Skype for Business Server 2019 累積更新プログラム1修正プログラム1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年9月 |
+|Skype for Business Server 2019 累積更新プログラム1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
 | | | |
 
 ### <a name="skype-for-business-server-2019-tools"></a>Skype for Business Server 2019 のツール
 
 |パッケージ名/リンク|リリース日|
 |:--- |:--- |
-|[UCMA 6.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019年6月       |
+|[UCMA 6.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019 年 6 月       |
 |[ユニファイドコミュニケーションマネージ API 5.0 ランタイム](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | 2018 年 6 月        |
 |[Skype for Business Server 2019、管理パック](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | 2018 年 6 月        |
 |||
@@ -52,8 +52,8 @@ KB 4470124 は、公開されたすべての累積的な更新プログラムと
 |:--- |:--- |:--- |
 |Skype for Business Server 2015 累積更新プログラム10修正プログラム1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019年8月 |
 |Skype for Business Server 2015 累積更新プログラム10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019年7月 |
-|Skype for Business Server 2015、Web コンポーネントサーバーの累積更新プログラム9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019年5月 |
-|Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月|
+|Skype for Business Server 2015、Web コンポーネントサーバーの累積更新プログラム9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 年 5 月 |
+|Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 年 1 月|
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 年 7 月 |
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム6ホットフィックス2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
 |Skype for Business Server 2015、フロントエンドサーバー、エッジサーバーの累積更新プログラム6ホットフィックス1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 年 1 月 |
@@ -74,18 +74,18 @@ KB 4470124 は、公開されたすべての累積的な更新プログラムと
 |:--- |:--- |
 |[UCMA 5.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015 年 5 月       |
 |[ユニファイドコミュニケーションマネージ API 5.0 ランタイム](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   2015 年 5 月      |
-|[Skype for Business Server 2015、管理パック](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  2019年6月       |
+|[Skype for Business Server 2015、管理パック](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  2019 年 6 月       |
 |||
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 更新履歴
 
-[KB 2809243](http://support.microsoft.com/kb/2809243)には、リリースされたすべての累積更新プログラムが含まれています。
+[KB 2809243](https://support.microsoft.com/kb/2809243)には、リリースされたすべての累積更新プログラムが含まれています。
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
 |Lync Server 2013 累積更新プログラム10ホットフィックス3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019年9月|
-|Lync Server 2013 累積更新プログラム10修正プログラム2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019年6月|
-|Lync Server 2013 累積更新プログラム10修正プログラム1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019年1月|
+|Lync Server 2013 累積更新プログラム10修正プログラム2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019 年 6 月|
+|Lync Server 2013 累積更新プログラム10修正プログラム1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019 年 1 月|
 |Lync Server 2013 累積更新プログラム10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|2018 年 7 月 |
 |Lync Server 2013 累積更新プログラム 9  |[KB 4019183](https://support.microsoft.com/kb/4019183) |2017 年 7 月 |
 |Lync Server 2013 累積更新プログラム 8 修正プログラム 4 |[KB 4014154](https://support.microsoft.com/kb/4014154) |2017 年 3 月 |
@@ -164,15 +164,15 @@ KB 4470124 は、公開されたすべての累積的な更新プログラムと
 
 ## <a name="lync-server-2010-update-history"></a>Lync Server 2010 更新履歴
 
-[KB 2493736](http://support.microsoft.com/kb/2493736)には、リリースされたすべての累積更新プログラムが含まれています。
+[KB 2493736](https://support.microsoft.com/kb/2493736)には、リリースされたすべての累積更新プログラムが含まれています。
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
-|Lync Server 2010 累積更新プログラム18|[KB 2493736](https://support.microsoft.com/kb/2493736) |2019年1月|
+|Lync Server 2010 累積更新プログラム18|[KB 2493736](https://support.microsoft.com/kb/2493736) |2019 年 1 月|
 |Lync Server 2010 累積更新プログラム17|[KB 3148801](https://support.microsoft.com/kb/3148801) |2016 年 4 月 |
 |Lync Server 2010 累積更新プログラム16|[KB 3057803](https://support.microsoft.com/kb/3057803) |2015 年 5 月 |
 |Lync Server 2010 累積更新プログラム15 |[KB 3030726](https://support.microsoft.com/kb/3030726) |2015 年 2 月|
-|Lync Server 2010 累積更新プログラム13|[KB 2982385](http://support.microsoft.com/kb/2982385) </br> [KB 2982388](http://support.microsoft.com/kb/2982388)|2014年9月|
+|Lync Server 2010 累積更新プログラム13|[KB 2982385](https://support.microsoft.com/kb/2982385) </br> [KB 2982388](https://support.microsoft.com/kb/2982388)|2014年9月|
 |Lync Server 2010 累積更新プログラム12 |[KB 2957044](https://support.microsoft.com/kb/2957044) |2014 年 4 月 |
 |Lync Server 2010 累積更新プログラム11 |[KB 2909888](https://support.microsoft.com/kb/2909888) |2014 年 1 月|
 |Lync Server 2010 累積更新プログラム10 |[KB 2889610](https://support.microsoft.com/kb/2889610) |2013 年 10 月|

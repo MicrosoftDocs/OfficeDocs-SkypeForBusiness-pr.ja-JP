@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: 組織でスケジュールされているユーザーのチーム会議の設定を管理する方法について説明します。
-ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564935"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746450"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -32,14 +32,15 @@ ms.locfileid: "37564935"
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>匿名ユーザーによる会議への参加を許可する
 
-匿名の参加では、会議出席依頼のリンクをクリックすると、誰でも匿名ユーザーとして会議に参加できます。
+匿名の参加では、会議出席依頼のリンクをクリックすると、誰でも匿名ユーザーとして会議に参加できます。 詳細については、「[チームアカウントを使わずに会議に参加](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)する」を参照してください。
+
 
 ![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
 1. 左側のナビゲーションで、[**会議** > の**会議の設定**] に移動します。
 2. [**参加者**] の下で、[**匿名ユーザーが会議に参加できるよう**にする] をオンにします。
 
-    ![管理センターでの会議の参加者設定のスクリーンショット](media/meeting-settings-participants.png "Microsoft Teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
+    ![管理センターでの会議の参加者設定のスクリーンショット](media/meeting-settings-participants.png "Microsoft Teams 管理センターの Teams 会議の参加者設定のスクリーンショット")
 
 組織内のユーザーによってスケジュールされている会議に匿名ユーザーが会議に参加しないようにするには、この設定をオフにします。
 

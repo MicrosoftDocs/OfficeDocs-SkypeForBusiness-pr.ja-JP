@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Skype for Business アクティビティレポートを取得する方法、内容を確認する方法、データを解釈する方法について説明します。 '
-ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bedff059e1295714220ff70a7c97439f4b6aeef8
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793246"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746310"
 ---
 # <a name="activity-report"></a>アクティビティ レポート
 
-[] 新しい Office 365 の [ **レポート**] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 個々の製品レベルレポートにドリルインして、各製品内のアクティビティについて、より詳細な洞察を得ることができます。 たとえば、 **Skype For business アクティビティ**レポートを使用して、ユーザーがどの程度ピアツーピアまたは開催された会議セッションを使用しているか、または会議セッションに参加しているかどうかを確認できます。 
+Office 365**レポート**ダッシュボードには、組織内の office 365 製品全体でのアクティビティの概要が表示されます。 個々の製品レベルレポートにドリルインして、各製品内のアクティビティについて、より詳細な洞察を得ることができます。 たとえば、 **Skype For business アクティビティ**レポートを使用して、ユーザーがどの程度ピアツーピアまたは開催された会議セッションを使用しているか、または会議セッションに参加しているかどうかを確認できます。 
 
 詳細については、 [「レポートの概要」](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
   
@@ -41,12 +41,8 @@ ms.locfileid: "35793246"
 
 1. [管理センター >**レポート** > の**利用状況]** に移動します。
     
-2. [**利用状況**] ページで、左側の [レポートの**選択] リスト**の [ **skype for business アクティビティ**] をクリックするか、[ **skype for business アクティビティ**] ウィジェットをクリックします。
-    
-     ![Skype for Business ダッシュボードウィジェット。](../images/3925bc24-18fd-471e-8e93-edf5ccd3cdb7.png)
-  
-    > [!IMPORTANT]
-    > 使用している Office 365 サブスクリプションによっては、ここに表示される製品やレポートの一部が表示されない場合があります。 
+2. [**利用状況**] ページで、左側の [レポートの**選択] リスト**で [ **skype for business** > **アクティビティ**] を選ぶか、[ **skype for business アクティビティ**] ウィジェットをクリックします。
+
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>Skype for Business アクティビティレポートを解釈する
 
@@ -120,7 +116,7 @@ ms.locfileid: "35793246"
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
 
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
