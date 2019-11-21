@@ -15,12 +15,12 @@ ms.collection:
 description: クラウド、同期済み、フェデレーションなど、Microsoft Teams のさまざまな ID モデルを紹介します。また、多要素認証についても紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e485cc04be2e7bb5220a539d94cdce8e91cb0ec
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: c1aba56bccd78a0492e801299f47199b44c296f2
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931625"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753354"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams での ID モデルと認証
 ==========================================
@@ -55,7 +55,7 @@ Office 365 プランでは、Office 365 サービスへのユーザー ログイ
 
 多要素認証は、Microsoft Teams が含まれている任意の Office 365 プランでサポートされています。 Microsoft Teams を含む Office 365 サブスクリプションプランについては、後の「ライセンス」セクションで説明します。
 
-MFA に登録したユーザーは、次回のサインイン時に、2 番目の認証要素を設定するよう求めるメッセージが表示されます。サポートされる認証方法は次のとおりです。
+ユーザーが MFA に登録されると、次回ユーザーがサインインしたときに、第2の認証要素を設定するように求めるメッセージが表示されます。 サポートされている認証方法は次のとおりです。
 
 
 |テナント タイプ  |MFA の 2 番目の要素に関する利用可能なオプション  |メモ  |

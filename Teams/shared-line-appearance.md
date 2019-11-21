@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: '[共有の線の外観] を使うと、ユーザーは代理として応答するか、通話を処理するデリゲートを選ぶことができます。'
-ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e668a4d98077eb8d1c2ac3b349e9ba16cb6abcba
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571760"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753424"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams での回線共有機能
 
@@ -36,9 +36,9 @@ ms.locfileid: "37571760"
 
 ## <a name="license-required"></a>ライセンスが必要
 
-ユーザーは、代理人として、または委任を設定して、他のユーザーに代わって通話を発信または受信できるようにする必要があります。
+代理人になるには、PSTN 接続 (通話プランライセンスまたは直接ルーティング OnlineVoiceRoutingPolicy) を持つ電話システムが必要です。または、委任を設定するか、他のユーザーに代わって通話を発信または受信することができます。
 
-マネージャーと代理人の両方がエンタープライズ voip を有効にしている必要があります。 共有ラインエクスペリエンスは委任の一部であり、追加のライセンスは必要ありません。 ライセンスモデルの詳細については、「 [Microsoft Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
+管理者と代理人は両方とも、PSTN 接続 (通話プランライセンスまたは直接ルーティング OnlineVoiceRoutingPolicy のいずれか) を持つ電話システムを使用している必要があります。 共有回線のエクスペリエンスは、委任の一部であり、電話システムにも含まれています。 ライセンスモデルの詳細については、「 [Microsoft Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>委任および共有の線の外観を設定する
 
@@ -72,6 +72,6 @@ ms.locfileid: "37571760"
  
 委任者と代理人が同じ地理的な場所にない場合は、PSTN プロバイダーが、委任されている (代理として) 呼び出しについて別の地理的な場所から表示することを許可します。 
  
-## <a name="more-information"></a>詳細情報
+## <a name="more-information"></a>More information
 
 [代理人と電話回線を共有する](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
