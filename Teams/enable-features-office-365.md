@@ -19,12 +19,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 024ee4b0a75f2563eb281518ac098d12aaea3337
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37616076"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753364"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -110,6 +110,11 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 #### <a name="app-preferences"></a>アプリの基本設定
 
 ユーザーが Skype for Business の会議に参加するために使用するアプリを選ぶことができます (Skype for Business または [Skype 会議アプリ](https://support.office.com/ja-JP/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))。この設定は、共存モードの設定に依存しません。
+
+
+#### <a name="network-planner"></a>ネットワーク プランナー
+
+ネットワーク プランナーでは組織全体で Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。  [Microsoft Teams でネットワーク プランナーを使用する方法](https://docs.microsoft.com/microsoftteams/network-planner)について説明します。
 
 [Skype for Business 向けにバックグラウンドで Teams アプリをダウンロードする] オプションも選択できます。  既定では、この設定は [オン] に設定されています。 この設定を有効にすると、Windows PC で Skype for Business アプリを実行しているユーザー向けに、バックグラウンドで Teams アプリがダウンロードされます。 この問題が発生するのは、ユーザーの [共存モード] が [チームのみ] になっているか、[保留中のアップグレード通知] が Skype for Business アプリで有効になっている場合です。
 

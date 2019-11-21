@@ -15,17 +15,19 @@ description: 外部アクセス (フェデレーション) とゲスト アク�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a777baed1d5cc35788b2c4f63741317e34eb7905
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 8132fa07445beb9e9d26195a4269d025169ec94f
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754373"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753384"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams の別の組織のユーザーと通信する
 ======================================================
 
 組織外の人と通信して共同作業する必要がある場合、Microsoft Teams はそれを実現する 2 つの異なる方法を提供します。 1 つ目は、**外部 アクセス** (フェデレーション) であり、別のドメイン (contoso.com など) のユーザーを検索、呼び出し、チャットできます。 2 つ目は、**ゲスト アクセス**であり、メール アドレスを使用して、ゲストとしてチームに個人を追加できます。 組織内の別のユーザーと同じように、ゲストと共同作業できます。
+
+必要に応じて、外部アクセスとゲストアクセスの両方を使用することもできます。
 
 高レベルでの選択方法は次のとおりです (詳細な比較については、「[外部アクセスとゲスト アクセスの比較](#compare-external-and-guest-access)」に移動してください)。
 

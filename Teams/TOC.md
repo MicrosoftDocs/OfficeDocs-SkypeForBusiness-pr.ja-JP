@@ -33,6 +33,7 @@
 ## [Teams でクロスチームおよびチームごとの分析を表示する](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Teams の有効期限と更新](team-expiration-renewal.md)
 ## [チームをアーカイブまたは削除する](archive-or-delete-a-team.md)
+## [Slack から Teams に移行する](migrate-slack-to-teams.md)
 
 
 
