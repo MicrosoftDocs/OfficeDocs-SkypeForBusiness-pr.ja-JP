@@ -821,7 +821,7 @@
 
 <!-- ============================================================ -->
 #       
-#        
+#          
 # [トレーニング](training-microsoft-teams-landing-page.md)
 ## [Teams のインストラクターによるトレーニング](instructor-led-training-teams-landing-page.md)
 ## [Teams の管理者トレーニング](itadmin-readiness.md)
@@ -836,6 +836,7 @@
 ## Teams のロールアウトの準備
 ### [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
+### [Advisor for Teams を使用して Teams をロールアウトする](use-advisor-teams-roll-out.md)
 ### [Teams のネットワーク プランナーを使用する](network-planner.md)
 ### [ネットワーク プランナーのチュートリアル](tutorial-network-planner-example.yml)
 ### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
