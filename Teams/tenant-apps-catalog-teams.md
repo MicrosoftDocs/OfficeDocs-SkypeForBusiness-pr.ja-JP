@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5affe464ac300d0084916ad8ec0044ca74f8fa6b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 42fd9820f6f8ce11b245412a5ae99ed7b43dbc1e
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570082"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793533"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Microsoft Teams テナントアプリカタログでアプリを公開する
 =======================================================
@@ -45,13 +45,13 @@ Teams アプリパッケージは、 [Teams アプリ Studio](https://docs.micro
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>テナントアプリカタログに移動します。
 
-Microsoft Teams クライアントを起動し、グローバルまたは Teams サービス管理者の資格情報を使用してサインインします。 Microsoft Teams ストアで、特定の組織に対応する新しいセクション (この例では Contoso) を選びます。 組織内のユーザーは、カタログ内のアプリを表示して、メンバーになっているチームに対してアプリをインストールできます。
+Microsoft Teams クライアントを起動し、グローバルまたは Teams サービス管理者の資格情報を使用してサインインします。 アプリの左側にある [**アプリ**] を選択し、特定の組織に対応する新しいセクション (この例では、Contoso) を選びます。 組織内のユーザーは、カタログ内のアプリを表示して、メンバーになっているチームに対してアプリをインストールできます。
 
 ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image01.png)
 
 ### <a name="add-an-app-to-the-tenant-apps-catalog"></a>テナントアプリカタログにアプリを追加する
 
-1. ストアで、[ > **Contoso の****カスタムアプリアップロードのアップロード**] を選びます。
+1. [**アプリ**] ページで、[ > **Contoso の****カスタムアプリアップロードをアップロードする**] を選びます。
 
     ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image02.png)
 
@@ -75,7 +75,7 @@ Microsoft Teams クライアントを起動し、グローバルまたは Teams 
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Office 365 管理ポータルを使用してテナントアプリカタログを管理する
 
-バグ修正が必要なアプリがある場合は、Office 365 管理ポータルを通じてアプリを一時的に無効にすることができます。 [**設定** > **サービス & アドインの** > **Microsoft Teams**] を選択します。 以前の設定に加えて、お客様の会社のアプリ専用のセクションが追加されました。 有効または無効にするアプリを選ぶことができます。
+バグの修正が必要なアプリがある場合は、Microsoft 365 管理** > <>** > **** > センターを使用**して、** アプリを一時的に無効にすることができます。たとえば、"グローバル (組織全体の既定)" という > の**テナント > アプリ**は、特定のアプリをブロックし、他のユーザーをブロックして、アプリをリストに追加することができます。
 
 ![アプリカタログが表示されている Teams App Store のスクリーンショット。](media/private-app-store-teams-image05.png)
 

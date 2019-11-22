@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37968058"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793393"
 ---
 > [!NOTE]
 > 以下の情報を確認して、Teamsでのチャット、チーム、チャンネル、およびアプリを理解してください。 次に、[チャット、チーム、チャネル、チーム内のアプリの &](deploy-chat-teams-channels-microsoft-teams-landing-page.md)に移動して、チームのロールアウトにとって重要な決定事項の一覧を表示します。
@@ -46,6 +46,8 @@ ms.locfileid: "37968058"
 
     - チャネルは、会話が行われる場所と、実際に作業を行う場所です。 チャネルは、すべてのチームメンバーが開くことができます。また、より多くのユーザーを選択する必要がある場合は、チャネルを非公開にすることもできます。 標準チャネルは、チーム内のすべてのユーザーが参加できるスレッドと[プライベートチャネル](private-channels.md)で、チーム内のユーザーのサブセットへの通信を制限する会話を対象としています。
     - チャネルは、タブ、コネクタ、およびボットを含んでいるアプリで拡張することで最大の価値を発揮するようになり、チームのメンバーにとってのチャネルの価値が高まります。 詳細については、「 [Teams のアプリ、ボット、& コネクタ](deploy-apps-microsoft-teams-landing-page.md)」を参照してください。
+    
+チームとチャネルの使い方については、「[チームとチャネル](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)」をご覧ください。
 
 チームとチャネルを作成するためのベストプラクティスの詳細について、この短いビデオをご覧ください。
 

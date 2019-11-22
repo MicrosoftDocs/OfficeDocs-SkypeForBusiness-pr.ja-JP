@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fa8e71d167bbb5f5381c66a1a8545a6f94f74e62
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968308"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793503"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft Teams 保持ポリシーに関するよく寄せられる質問
 
@@ -44,6 +44,10 @@ ms.locfileid: "37968308"
 ### <a name="what-is-the-default-retention-policy"></a>既定の保持ポリシーとは何ですか? 
 
 既定では、Teams チャット、チャネル、ファイルのデータは永続的に保持されます。
+
+### <a name="what-licensing-is-required-for-retention-policies"></a>アイテム保持ポリシーにはどのようなライセンスが必要ですか?
+
+アイテム保持ポリシーの最小のライセンス要件は、Office 365 E3 です。 ライセンスの詳細については、「 [Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>ユーザーやチームのセットをポリシーの対象にすることはできますか? 
 

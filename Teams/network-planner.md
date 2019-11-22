@@ -18,16 +18,16 @@ f1keywords:
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aaefec635e6744dc7c1197f28ffb056be4a88860
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573367"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793483"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft Teams のネットワークプランナーを使用する
 
-[ネットワークプランナー] は、Teams 管理センターで利用できる新しいツールです。 これについては、「**組織全体の設定** > **ネットワークプランナー**」を参照してください。 わずかな手順で、ネットワークプランナーを使用して、組織全体で Microsoft Teams ユーザーと接続するためのネットワーク要件を特定し、整理することができます。 ネットワークの詳細とチームの利用状況を入力すると、ネットワーク Planner によって、組織の物理的な場所でチームとクラウドボイスを展開するためのネットワーク要件が計算されます。
+[ネットワークプランナー] は、Teams 管理センターで利用できる新しいツールです。 これについては、 **planner** > の**ネットワークプランナー**に移動します。 わずかな手順で、ネットワークプランナーを使用して、組織全体で Microsoft Teams ユーザーと接続するためのネットワーク要件を特定し、整理することができます。 ネットワークの詳細とチームの利用状況を入力すると、ネットワーク Planner によって、組織の物理的な場所でチームとクラウドボイスを展開するためのネットワーク要件が計算されます。
 
 ![ネットワークプランナーのスクリーンショット](media/network-planner.png)
 

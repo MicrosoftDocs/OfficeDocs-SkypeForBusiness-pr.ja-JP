@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: この記事では、Microsoft Teams のルームのライフサイクルのサポートについて説明します。
-ms.openlocfilehash: 55fde6317fe53102b97f752667d540e33a7b8c8c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: a76fc10b2348b1ecd89a8beabc30c104e32ec13c
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675795"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793513"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 室アプリバージョンのサポート
  
@@ -51,6 +51,7 @@ Microsoft Teams の会議室デバイスでは、Windows 10 機能更新プロ�
 
 |バージョン  |利用可能日   |Microsoft Teams ルームのサポート状態   |Microsoft Teams の会議室最小アプリケーションバージョン | OS ビルドの推奨  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 1909 |2019-11-12 |現在検証しています。 <br/>推奨されない|&#x2014; |&#x2014; |
 | 1903 |2019-05-21 |サポートされている &#x2780;、 <br/>推奨  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |まし <br/>推奨されない &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |サポート対象                             |4.1.22.0 |17134.191|
