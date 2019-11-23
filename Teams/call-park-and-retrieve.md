@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: '[コールパーク] を使って、クラウドの Teams サービスで通話を保留にします。'
-ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517031"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209183"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -99,7 +99,7 @@ ms.locfileid: "37517031"
 ユーザーが通話を取得しようとして失敗した場合は、次のことを確認してください。
 
 - ユーザーがチームクライアントまたはチーム対応デバイス/スマートフォンを使用していることを確認する
-- グループ化–ユーザーは [コールパーク] グループのメンバーになっていますか?
+- グループ化–ユーザーは [コールパーク] グループのメンバーになっています。このグループは、同じ Teams Call パークポリシーが割り当てられていることに基づいています。 
 - アイランドモード– Teams アイランドモードでは、コールパークと取得は利用できません。
 - 通話は既に取得または終了されています。
 

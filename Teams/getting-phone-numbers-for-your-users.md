@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'チームに新しい番号を取得する方法、既存の番号を移行する方法、ユーザーへの変更を表示する方法について説明します。 '
-ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925288"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209203"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -45,7 +45,7 @@ ms.locfileid: "37925288"
 
 ![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
     
-1. 左側のナビゲーションで、[**電話番号** **] に移動** > し、[**新しい番号を取得**] をクリックします。
+1. 左側のナビゲーションで、[**電話番号** **] に移動** > し、[**追加**] をクリックします。
 2. 注文の名前を入力し、必要に応じて説明を追加します。
 3. [場所と数量] ページで、次の操作を行います。
     1. [**国または地域**] で、国または地域を選択します。
@@ -75,7 +75,7 @@ ms.locfileid: "37925288"
     
 - 電話番号を取得したら、各ユーザーに電話番号を割り当てる必要があります。 「[ユーザーの電話番号の割り当て、変更、削除を行う](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)」を参照してください。
     
-- Microsoft Teams 管理センターの [**電話番号**] ページを使用して、[**電話番号**] 列に使用可能な電話番号の一覧を表示したり、[**状態**] 列で電話番号が割り当てられているかどうかを確認して、[**場所**」列の電話番号。 
+- Microsoft Teams 管理センターの [**電話番号**] ページを使用して、[**電話番号**] 列に使用可能な電話番号の一覧を表示し、[**状態**] 列で電話番号が割り当てられているかどうかを確認して、[**場所**] 列に電話番号の場所を表示することができます。 
 
 > [!NOTE]
 > その他の電話番号を取得する必要がある場合は、 [PSTN サービスデスクにお問い合わせください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。

@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26abd2a69bc8097c4f74cbc85435cda4eec00887
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 11ec004e98c54f8b8e81594c54407fd2078c7f80
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563115"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209073"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -51,9 +51,9 @@ Teams ユーザーライセンスは、いつでも無効にすることがで�
 ## <a name="manage-via-powershell"></a>PowerShell を使用して管理する
 
 > [!IMPORTANT]
-> MsolLicenseOptions を使うと、カスタマイズされたスクリプトに explictitly 識別子が関連付けられていない限り、以前に無効になったすべてのサービスを有効にすることができます。 たとえば、additonally を無効にしているときに Exchange & Sway を両方ともオフにしたい場合は、これをスクリプトで実行するか、または Exchange & Sway が、特定のユーザーに対して有効になるようにする必要があります。 GUI を使用してこの機能を管理する場合は、「 [Office 365 ライセンスレポートと管理ツール-一括](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)してライセンスを削除する」を参照してください。
+> MsolLicenseOptions を使うと、カスタマイズされたスクリプトに explictitly 識別子が関連付けられていない限り、以前に無効になったすべてのサービスを有効にすることができます。 たとえば、additonally を無効にしている間も Exchange & Sway をすべて残しておく必要がある場合は、これをスクリプトに含めるか、または両方とも Exchange & Sway が有効になっているユーザーを確認します。 GUI を使ってこの機能を管理する方法については、「 [Office 365 ライセンスレポートと管理ツール-一括](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)してライセンスを削除する」を参照してください。
 
-PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。 Microsoft Teams ではサービス プランの名前は TEAMS1 になります。 GCC の場合、サービスプラン名は TEAMS_GOV です。 GCC 高の場合、サービスプラン名は TEAMS_GCCHIGH です。 DoD の場合、サービスプラン名は TEAMS_DOD (詳細については、「 [Office 365 PowerShell によるサービスへのアクセスを無効](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)にする」を参照してください。)
+PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。 Microsoft Teams ではサービス プランの名前は TEAMS1 になります。 GCC の場合、サービスプラン名は TEAMS_GOV です。 GCC 高の場合、サービスプラン名は TEAMS_GCCHIGH。 DoD の場合、サービスプラン名は TEAMS_DOD (詳細については、「 [Office 365 PowerShell でサービスへのアクセスを無効](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)にする」を参照してください。)
 
 **サンプル:** 次に示すのは、特定のライセンスの種類のすべてのユーザーに対して Teams を無効にする方法の簡単なサンプルです。 まずこの方法を行い、次にパイロットで使用する目的でアクセスが必要なユーザーに対して個別に有効にする必要があります。
 
