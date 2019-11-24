@@ -17,12 +17,12 @@ description: 組織内の Teams で使用されているデバイスを管理す
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1473acc92113cc8788ae5cc27eecc11ad909124
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 06b85012adbf0967889e74fb5765b02c9b2ea18f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972458"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39211977"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Microsoft Teams でのデバイスを管理する
 
@@ -30,7 +30,7 @@ ms.locfileid: "37972458"
 管理者は、Microsoft Teams 管理センターで、組織内の Teams で使用されているすべてのデバイスを管理します。 組織のデバイスのインベントリを表示して管理できます。また、デバイスの診断の更新、再起動、監視などのタスクを実行することができます。 構成プロファイルを作成して、1つのデバイスまたはデバイスのグループに割り当てることもできます。 
 
 ## <a name="what-devices-can-you-manage"></a>どのデバイスを管理できますか?
-チームに対して認定され、チームに登録されているデバイス。 デバイスは、ユーザーが初めてデバイス上の Teams にサインインしたときに自動的に登録されます。 管理可能なデバイスの一覧については、「[会議電話](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16)と[卓上電話](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34)」をご覧ください。
+チームに対して認定され、チームに登録されているデバイス。 デバイスは、ユーザーが初めてデバイス上の Teams にサインインしたときに自動的に登録されます。 管理可能なデバイスの一覧については、「[会議電話](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=16)と[卓上電話](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34)」をご覧ください。
 
 > [!NOTE]
 > Microsoft Intune を使用している場合、デバイスは自動的に Intune に登録されます。 デバイスが登録されると、デバイスのコンプライアンスが確認され、条件付きアクセスポリシーがデバイスに適用されます。 

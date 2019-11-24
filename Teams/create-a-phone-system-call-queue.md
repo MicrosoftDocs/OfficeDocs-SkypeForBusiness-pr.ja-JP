@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams でクラウド通話キューの電話システムをセットアップする方法について説明します。
-ms.openlocfilehash: fc7cc9558036d30d388a279ac155fe6382e611a8
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37972498"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39211978"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 
@@ -105,7 +105,7 @@ ms.locfileid: "37972498"
 
 ## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>手順 2-有料またはフリーダイヤルのサービス電話番号を取得または移行する
 
-通話キューを作成して設定する前に、既存の有料または無料のサービス番号を取得または移行する必要があります。 有料またはフリーダイヤルのサービス電話番号を取得すると、 **Microsoft Teams 管理センター** > **従来のポータル** > **ボイス** > **電話番号**に表示され、**番号の種類**は以下のようになります。**サービス: フリーダイヤル**。 サービス番号を取得するには、「[サービスの電話番号を取得](getting-service-phone-numbers.md)する」または「既存のサービス番号を移行する」を参照してください。「[チームに電話番号を移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」をご覧ください。
+通話キューを作成して設定する前に、既存の有料または無料のサービス番号を取得または移行する必要があります。 有料またはフリーダイヤルのサービス電話番号を取得した後は、 **Microsoft Teams 管理センター** > **ボイス** > **電話番号** > **で > が**表示され、番号の**種類**は [**サービス**] と表示されます。無料で利用できます。 サービス番号を取得するには、「[サービスの電話番号を取得](getting-service-phone-numbers.md)する」または「既存のサービス番号を移行する」を参照してください。「 [Office 365 に電話番号を転送](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」を参照してください。
 
 > [!NOTE]
 > 米国外の場合は、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。 「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」に移動して、米国以外の地域での実行方法を確認します。
@@ -222,6 +222,10 @@ ms.locfileid: "37972498"
 
     > [!NOTE]
     > Skype for Business デスクトップ以外のアプリまたはエンドポイントを使用するエージェントは、ユーザー設定ポータル[https://aka.ms/cqsettings](https://aka.ms/cqsettings)から脱退オプションにアクセスできます。
+    >
+    > エージェントが Microsoft Teams のデスクトップクライアントにある場合は、通話設定を使用してそのエージェントを除外することができます。 
+
+![オプトアウト通話設定のスクリーンショット](media/create-a-phone-system-call-queue-image1.png)
 
 ![前のスクリーンショット](media/sfbcallout2.png)
 の**通知設定**で吹き出しを参照している番号2のアイコン
