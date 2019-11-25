@@ -16,18 +16,18 @@ appliesto:
 localization_priority: Priority
 ms.custom: ''
 description: Slack から Microsoft Teams への移行に関する詳細なガイダンス。
-ms.openlocfilehash: c723df62c3b8811b8d520c66d81e59aa5f96c3bb
-ms.sourcegitcommit: 1d230336c0ab48a2914906dc8f4b6b3d996f46fb
+ms.openlocfilehash: 56278359062bb7f154b5e3248c343f98c62cb916
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/21/2019
-ms.locfileid: "38756807"
+ms.locfileid: "38793473"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack から Microsoft Teams に移行する
 
-この記事では、Slack から Microsoft Teams への移行プロセスを説明します。
+この記事では、Slack から Microsoft Teams への移行プロセスについて説明します。
 
-Slack から Teams への組織の移行を計画する場合、保持するものを特定することが重要です (それがある場合)。 まずは移行可能なデータの種類について説明し、次に組織のニーズを評価し、移行を計画し、最終的に移行を実行する方法について説明します。
+Slack から Teams への組織の移行を計画する場合、保持するものを特定することが重要です (ある場合)。 まずは移行可能なデータの種類について説明し、次に組織のニーズの評価、移行計画、移行の実行方法について説明します。
 
 次の図は、Slack のアーキテクチャの概観図です。
 
