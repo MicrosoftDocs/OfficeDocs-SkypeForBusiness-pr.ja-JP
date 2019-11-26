@@ -14,12 +14,29 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
 description: このトピックでは、大規模な展開での Microsoft Teams のルームの展開について説明します。
-ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+no-loc:
+- Microsoft
+- Microsoft Corporation
+- Microsoft Teams Rooms
+- Microsoft Teams Room
+- System Center
+- Configuration Manager
+- Windows
+- Surface
+- Surface Pro
+- Windows PE
+- Windows 10
+- Windows 10 Enterprise
+- Azure
+- Azure Monitor
+- Log Analytics
+- Operations Management Suite
+ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573629"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218034"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>System Center Configuration Manager を使用して Microsoft Teams ルームを展開する
 
@@ -489,7 +506,7 @@ Microsoft Teams のルームは Surface Pro と Surface Pro 4 の両方でサポ
 
 3.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **オペレーティングシステム** \> **ドライバー**] に移動し、[**ドライバーのインポート**] を選択します。
 
-4.  [**次のネットワークパス (UNC) 内のすべてのドライバーをインポートする**] を選択し、ソースフォルダー\\(たとえば\\、\\C: ソースドライバー Surface Pro) を選び、[**次へ**] を選びます。
+4.  [**次のネットワークパス (UNC) のすべてのドライバーをインポートする**] を選択し、ソースフォルダー (\\たとえば\\、\\C: _Sources Drivers Surface Pro) を選び、[**次へ**] を選びます。
 
 5.  [**インポートしたドライバーの詳細を指定**してください] ページで、一覧表示されているすべてのドライバーを選び、[これらのドライバーを有効にする] を選択して、[**コンピューターにインストールを許可する**] を選びます。
 
@@ -633,7 +650,7 @@ Microsoft Teams のルームは Surface Pro と Surface Pro 4 の両方でサポ
        -   この手順を編集し、コマンドラインパラメーターを更新して、**ワークスペース ID**と**ワークスペースキー**を指定します。
        -   Operations Management Suite のワークスペース ID と主キーの入手方法の詳細については、「 [Azure Monitoring のテストデバイスを構成する](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring)」を参照してください。
        -   **SRS v2 – Microsoft Monitoring Agent パッケージ**と**64 ビットファイルシステムリダイレクション**が選択されていることを確認します。
-       -   Microsoft Teams 室の展開の正常性を監視する方法について詳しくは、「 [Azure monitor を使用した Microsoft Teams 会議の計画](azure-monitor-plan.md)」、「microsoft Teams のルーム管理と[azure モニターの展開](azure-monitor-deploy.md)と管理」をご覧ください。 [Azure モニターを使用した Teams 室のデバイス](azure-monitor-manage.md)。
+       -   Microsoft Teams 室の展開の正常性を監視する方法の詳細については、「 [Azure monitor を使用した microsoft Teams 会議室管理の計画](azure-monitor-plan.md)」を参照してください。 azure monitor で microsoft [teams の](azure-monitor-deploy.md)ルーム管理を展開し、 [Azure monitor で microsoft Teams 室のデバイスを管理](azure-monitor-manage.md)します。
 
    11. **SRS V2 構成ファイルをコピー**する: この手順では、必要なセットアップファイルと構成ファイルを Microsoft Teams のルーム展開キットからローカルのハードドライブにコピーします。 この手順をカスタマイズする必要はありません。
        -   **Srs v2 – Srs アプリケーションパッケージ**と**64 ビットファイルシステムリダイレクション**が選択されていることを確認します。
@@ -742,8 +759,8 @@ SMSTS ファイルは、ビルドプロセスの段階に応じて、多数の�
 | **展開フェーズ**                                                            | **タスクシーケンスのログパス**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
 | WinPE (HDD 形式の前)                                                        | X:\\Windows\\Temp\\smstslog\\smsts .log             |
-| WinPE (HDD 形式の後)                                                         | C:\\_SMSTaskSequence\\ログ\\Smstslog\\smsts .log    |
-| Configuration Manager エージェントをインストールする前に、オペレーティングシステムが展開されました | c:\\_SMSTaskSequence\\ログ\\Smstslog\\smsts .log    |
+| WinPE (HDD 形式の後)                                                         | C:\\_SMSTaskSequence\\Smstslog\\\\smsts .log をログに記録します。    |
+| Configuration Manager エージェントをインストールする前に、オペレーティングシステムが展開されました | c:\\_SMSTaskSequence\\Smstslog\\\\smsts .log をログに記録します。    |
 | オペレーティングシステムと Configuration Manager エージェントが展開されている                   | % windir%\\System32\\ccm\\ログ\\Smstslog\\smsts .log |
 | タスクシーケンスの実行が完了しました                                                | % windir%\\System32\\ccm\\は\\smsts .log をログに記録します。           |
 

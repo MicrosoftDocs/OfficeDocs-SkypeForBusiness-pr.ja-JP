@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572148"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257476"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -264,7 +264,7 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>メディアトラフィック: ポート範囲
-以下の要件は、メディアをバイパスせずにダイレクトルーティングを展開する場合に適用されることに注意してください。 メディアバイパスのファイアウォール要件については、「[ダイレクトルーティングによるメディアバイパスの計画](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)」を参照してください。
+以下の要件は、メディアをバイパスせずにダイレクトルーティングを展開する場合に適用されることに注意してください。 メディアバイパスのファイアウォール要件については、「[ダイレクトルーティングによるメディアバイパスの計画](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass)」を参照してください。
 
 
 
@@ -287,9 +287,8 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 
 |**通過**|**開始**|**終了**|**送信元ポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|メディアプロセッサ|SBC|49 152 – 53 247|SBC で定義|
-|UDP/SRTP|SBC|メディアプロセッサ|SBC で定義|49 152 – 53 247|
-|
+|UDP/SRTP|メディアプロセッサ|SBC|49152–53247|SBC で定義|
+|UDP/SRTP|SBC|メディアプロセッサ|SBC で定義|49152–53247|
 
   > [!NOTE]
   > Microsoft は、SBC で同時呼び出しごとに少なくとも2つのポートをお勧めします。

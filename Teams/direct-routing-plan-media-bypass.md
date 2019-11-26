@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: このトピックでは、電話システムのダイレクトルーティングを使用してメディアのバイパスを計画する方法について説明します。
-ms.openlocfilehash: cdfeb5313416730c703a1d0f10e2c7ccdddee1cc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dbc88f7954708ef3842c0cb7afa67815c70976a6
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572159"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257486"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -145,15 +145,15 @@ IP 範囲は 52.112.0.0/14 (IP アドレスは52.112.0.1 から 52.115.255.254) 
 
 - トランスポートリレーは B2BUA ではありません。つまり、リレー経由でトラフィックが流れる場合でも、クライアントと SBC の間でコーデックが変更されることはありません。
 
-### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>メディアバイパス用にトランクが構成されている場合のエスカレーションシナリオでの Teams トランスポートリレーの使用
+### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>メディアバイパス用にトランクが構成されている場合の Teams メディアプロセッサの使用
 
-Teams トランスポートリレーは、次のシナリオでは常にメディアパスにあります。
+次のシナリオでは、チームメディアプロセッサは常にメディアパスに挿入されます。
 
 - 通話は1:1 からグループ通話にエスカレートされます
 - フェデレーションされた Teams ユーザーに通話を発信する
 - 通話が Skype for Business ユーザーに転送または転送される
 
-以下で説明するように、SBC がトランスポートリレーにアクセスできることを確認します。    
+以下で説明するように、SBC がメディアプロセッサとトランスポートリレーの範囲にアクセスできることを確認します。    
 
 
 ## <a name="sip-signaling-fqdns"></a>SIP シグナリング: Fqdn
@@ -243,7 +243,7 @@ SIP/TLS| SIP プロキシ | SBC | 1024-65535 | SBC で定義 |
 
 クライアントは、SBC のパブリック IP アドレスで指定されたポート (表を参照) にアクセスする必要があります。 
 
-注: クライアントが内部ネットワーク内にある場合、メディアは SBC のパブリック IP アドレスに送られます。 NAT デバイスで hairpinning を構成して、トラフィックが企業ネットワーク機器を離れることがないようにすることができます。
+注: クライアントが内部ネットワーク内にある場合、メディアは SBC のパブリック IP アドレスに送られます。 トラフィックが企業ネットワーク機器から出ることがないように、NAT デバイスで髪のピン留めを構成することができます。
 
 | 通過 | 開始 | 終了 | 送信元ポート | 宛先ポート|
 | :-------- | :-------- |:-----------|:--------|:---------|
