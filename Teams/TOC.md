@@ -115,6 +115,7 @@
 ## [ユーザーの設定を変更したときに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [サポートされていないブラウザーでの Teams 会議](unsupported-browsers.md)
 ## [Teams でのデスクトップ共有を構成する](configure-desktop-sharing.md)
 ## [Teams のクラウド会議の記録](cloud-recording.md)
 ## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
@@ -339,7 +340,6 @@
 ### [複数のテナントにセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
 ### [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
 ### 場所に基づくルーティング
-#### [場所に基づくルーティングの用語集](location-based-routing-terminology.md)
 #### [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 #### [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
 #### [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
@@ -374,10 +374,15 @@
 ### [ダイヤル プランについて](what-are-dial-plans.md)
 ### [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 ### [レポート ラベルを追加して更新する](learn-more-about-site-upload.md)
+
+## ネットワーク設定とトポロジ
+### [クラウド ボイス機能のネットワーク設定](cloud-voice-network-settings.md)
+### [クラウド ボイス機能のネットワーク トポロジを管理する](manage-your-network-topology.md)
+
 ## 緊急通話
-### [動的な緊急通話を計画して構成する](configure-dynamic-emergency-calling.md)
+### [概要](what-are-emergency-locations-addresses-and-call-routing.md)
+### [動的な緊急通話を構成する](configure-dynamic-emergency-calling.md)
 ### 緊急時の連絡先の住所を管理する
-#### [緊急対応の場所、位置情報、通話ルーティングの概要](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)
 #### [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 #### [ユーザーの緊急対応の場所を割り当てたり変更したりする](assign-change-emergency-location-user.md)
