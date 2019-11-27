@@ -3,7 +3,6 @@ title: 場所に基づくルーティングのネットワーク設定を構成�
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
@@ -15,96 +14,47 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240bbce48452edf505a61830891d0fcd6a6d199d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 18df741dad691ba24d6950f132086b1f49b40684
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570701"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615847"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>場所に基づくルーティングのネットワーク設定を構成する
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 まだインストールしていない場合は、「[位置情報に基づくルーティングを計画](location-based-routing-plan.md)する」を参照して、場所に基づくルーティングのネットワーク設定を構成する前に実行する必要があるその他の手順を確認してください。
 
-この記事では、場所に基づくルーティングのネットワーク設定を構成する方法について説明します。 組織で電話システムの直接ルーティングを展開した後、次の手順では、ネットワーク領域、ネットワークサイト、ネットワークサブネットを作成してセットアップします。 この記事の手順を実行するには、PowerShell コマンドレットについて理解している必要があります。 詳細については、「 [Teams PowerShell の概要](teams-powershell-overview.md)」を参照してください。
+この記事では、場所に基づくルーティングのネットワーク設定を構成する方法について説明します。 組織で電話システムの直接ルーティングを展開した後、次の手順では、ネットワーク領域、ネットワークサイト、ネットワークサブネットを作成してセットアップします。
 
 ## <a name="define-network-regions"></a>ネットワーク領域を定義する
- ネットワーク領域は、ネットワークのさまざまな部分を複数の地域で相互接続します。 ネットワーク領域を定義するには、 [CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps)コマンドレットを使用します。 RegionID パラメーターは、領域の地理を表す論理名であり、依存関係または制限がないため、CentralSite &lt;site ID&gt;パラメーターは省略可能であることに注意してください。 
 
-```
-New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
-```
-
-この例では、インドという名前のネットワーク領域を作成します。 
-```
-New-CsTenantNetworkRegion -NetworkRegionID "India"  
-```
+ネットワーク領域には、ネットワークサイトのコレクションが含まれており、複数の地域にわたってネットワークのさまざまな部分を相互接続しています。 ネットワーク領域を構成する手順については、「 [Teams のクラウド機能のネットワークトポロジを管理](manage-your-network-topology.md)する」を参照してください。
 
 ## <a name="define-network-sites"></a>ネットワークサイトを定義する
 
-ネットワークサイトを定義するには、 [CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps)コマンドレットを使用します。 
+ネットワークサイトとは、オフィス、建物のセット、キャンパスなど、組織が物理的な会場を持っている場所を表します。 トポロジ内の各ネットワークサイトをネットワーク領域と関連付ける必要があります。 ネットワークサイトを構成する手順については、「 [Teams のクラウド機能のネットワークトポロジを管理](manage-your-network-topology.md)する」を参照してください。
 
-```
-New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
-```
-この例では、インド地域に2つの新しいネットワークサイト、ニューデリーと Hyderabad を作成します。 
-```
-New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
-New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
-```
-次の表は、この例で定義されているネットワークサイトを示しています。 
-
-||サイト1 |サイト2 |
-|---------|---------|---------|
-|サイト ID    |    サイト 1 (ニューデリー)     |  サイト 2 (Hyderabad)       |
-|地域 ID  |     地域 1 (インド)    |   地域 1 (インド)      |
+場所に基づくルーティングのベストプラクティスは、一意の PSTN 接続がある場所ごとに個別のサイトを作成することです。 場所に基づくルーティングまたは位置情報に基づくルーティング用に有効になっていないサイトのサイトを作成できます。 たとえば、位置情報に基づくルーティングが有効になっていないサイトを作成して、場所ベースのルーティングが有効になっているユーザーがそのサイトに移動したときに PSTN 通話を発信できるようにすることができます。
 
 ## <a name="define-network-subnets"></a>ネットワークサブネットを定義する
 
-ネットワークサブネットを定義してネットワークサイトに関連付けるには、 [CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)コマンドレットを使用します。 各内部サブネットは、1つのサイトにのみ関連付けることができます。 
-```
-New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
-```
-この例では、サブネット192.168.0.0 と、ニューデリーネットワークサイトと subnet 2001: 4898: 844e: 926f: 85ad: dd8e と Hyderabad ネットワークサイト間の関連付けを作成します。
-```
-New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
-```
-次の表は、この例で定義されているサブネットを示しています。 
+各サブネットは、特定のネットワークサイトに関連付けられている必要があります。 複数のサブネットを同じネットワークサイトに関連付けることはできますが、複数のサイトを同じサブネットに関連付けることはできません。 ネットワークサブネットを構成する手順については、「 [Teams のクラウド機能のネットワークトポロジを管理](manage-your-network-topology.md)する」を参照してください。
 
-||サイト1 |サイト2 |
-|---------|---------|---------|
-|サブネット ID   |    192.168.0.0     |  2001: 4898: e8:25: 844e: 926f: 85ad: dd8e     |
-|Mask  |     24    |   120      |
-|サイト ID  | サイト (ニューデリー) | サイト 2 (Hyderabad) |
+位置情報に基づくルーティングの場合、チームのエンドポイントがネットワークに接続できる場所で、IP サブネットを定義し、定義されたネットワークに関連付けて、有料のバイパスを適用する必要があります。 サブネットの関連付けによって、位置情報に基づくルーティングが、特定の PSTN 通話を許可するかどうかを判断するために、エンドポイントを地理的に見つけることができます。 IPv6 と IPv4 の両方のサブネットがサポートされています。 チームのエンドポイントがサイトに配置されているかどうかを判断するときに、位置ベースのルーティングでは、最初に一致する IPv6 アドレスが確認されます。 IPv6 アドレスが存在しない場合、場所に基づくルーティングで IPv4 アドレスが確認されます。
 
-複数のサブネットの場合は、次のようなスクリプトを使用して CSV ファイルをインポートできます。
-```
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
-```
-この例では、CSV ファイルは次のようになります。
-```
-Identity, Mask, SiteID 
-172.11.12.0, 24, Redmond 
-172.11.13.0, 24, Chicago 
-172.11.14.0, 25, Vancouver 
-172.11.15.0, 28, Paris
-```
-## <a name="define-external-subnets"></a>外部サブネットを定義する
-[CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps)コマンドレットを使用して外部サブネットを定義し、それをテナントに割り当てます。 1つのテナントに対して無制限の数のサブネットを定義できます。 
-```
-New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
-```
-次に例を示します。
-```
-New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
-```
+## <a name="define-trusted-ip-addresses-external-subnets"></a>信頼できる IP アドレス (外部サブネット) を定義する
 
-## <a name="next-steps"></a>次の手順
+[信頼された IP アドレス] は、エンタープライズネットワークのインターネット外部 IP アドレスであり、ユーザーのエンドポイントが企業ネットワーク内にあるかどうかを判断するために使用されます。 信頼された IP アドレスを構成する手順については、「 [Teams のクラウド機能のネットワークトポロジを管理](manage-your-network-topology.md)する」を参照してください。
+
+ユーザーの外部 IP アドレスが、信頼された IP アドレス一覧にある IP アドレスと一致する場合、場所ベースのルーティングでは、ユーザーのエンドポイントが配置されている内部サブネットを確認します。 ユーザーの外部 IP アドレスが、信頼できる IP アドレスリストで定義されている IP アドレスと一致しない場合、エンドポイントは不明な場所に分類され、場所に基づくルーティングを有効にしているユーザーへの PSTN 通話はブロックされます。
+
+## <a name="next-steps"></a>次のステップ
+
 「[ダイレクトルーティングで位置情報に基づくルーティングを有効](location-based-routing-enable.md)にする」に進みます。
 
-### <a name="related-topics"></a>関連項目
-- [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
-- [場所に基づくルーティングの用語集](location-based-routing-terminology.md)
+## <a name="related-topics"></a>関連項目
+
+- [Teams でのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

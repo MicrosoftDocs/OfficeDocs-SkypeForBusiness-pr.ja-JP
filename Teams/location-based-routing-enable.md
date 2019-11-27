@@ -3,7 +3,6 @@ title: ダイレクト ルーティングの場所に基づくルーティング
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
@@ -15,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4acd03dfff78d5aae329492014b24e55b2f92ec9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 615848be1f91f80b0afd06c1eaa44a4f9d7b4f63
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572024"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615797"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
@@ -47,7 +46,7 @@ ms.locfileid: "37572024"
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. ボイスルーティングポリシーを作成するには、 [CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、ユーザーに適切な PSTN 使用法を関連付けます。
+2. ボイスルーティングポリシーを作成するには、 [CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、ユーザーに適切な PSTN 使用法を関連付けます。
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -161,7 +160,6 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
-### <a name="related-topics"></a>関連項目
-- [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
-- [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
-- [場所に基づくルーティングの用語集](location-based-routing-terminology.md)
+## <a name="related-topics"></a>関連項目
+
+- [Teams でのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

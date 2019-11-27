@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams の動的 E911 機能の緊急通話ルーティングポリシーの使用方法と管理方法について説明します。
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: e5fe0957ce0c329f8161690fea7128036e2e1777
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570655"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615807"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ルーティングポリシーを管理する
 
@@ -29,7 +29,7 @@ ms.locfileid: "37570655"
 
 組織で電話システムのダイレクトルーティングを展開した場合は、Microsoft Teams の緊急通話ルーティングポリシーを使って緊急電話番号を設定し、緊急電話のルーティング方法を指定することができます。 緊急通話ルーティングポリシーは、ポリシーが割り当てられているユーザーに対して強化された緊急サービスが有効になっているかどうかを決定します。また、緊急サービスへの通話に使用する番号 (米国内の911など)、緊急サービスへの通話の発信方法についても説明します。
 
-緊急通話のルーティングポリシーを管理するには、Microsoft Teams 管理センターの**ボイス** > **緊急ポリシー**または Windows PowerShell を使用します。 ポリシーは、ユーザーと[ネットワークサイト](location-based-routing-terminology.md)に割り当てることができます。
+緊急通話のルーティングポリシーを管理するには、Microsoft Teams 管理センターの**ボイス** > **緊急ポリシー**または Windows PowerShell を使用します。 ポリシーは、ユーザーと[ネットワークサイト](cloud-voice-network-settings.md)に割り当てることができます。
 
 ユーザーの場合は、グローバル (組織全体の既定) ポリシーを使用するか、カスタムポリシーを作成して割り当てることができます。 カスタムポリシーを作成して割り当てる場合を除き、ユーザーはグローバルポリシーを自動的に取得します。 グローバルポリシーの設定は編集できますが、名前の変更や削除はできないことに注意してください。 ネットワークサイトの場合は、カスタムポリシーを作成して割り当てる必要があります。
 

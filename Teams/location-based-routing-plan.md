@@ -3,7 +3,6 @@ title: ダイレクト ルーティングの場所に基づくルーティング
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570690"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615817"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -49,7 +48,7 @@ ms.locfileid: "37570690"
 
 位置情報に基づくルーティングでは、Skype for Business Server で使用されるものと同じネットワークの領域、サイト、サブネットの定義が使用されます。 有料サービスがある場所に制限されている場合、管理者は各 IP サブネットと各 PSTN ゲートウェイをその場所のネットワークサイトに関連付けます。 ユーザーの位置情報は、ユーザーのチームエンドポイントが PSTN 通話の時点で接続されている IP サブネットによって決定されます。 ユーザーは、複数のサイトにある複数の Teams クライアントを持つことができます。この場合、その場合、場所に基づくルーティングでは、各クライアントのルーティングがエンドポイントの位置に応じて個別に適用されます。 
 
-この記事で使用されているネットワーク用語の一部について理解するには、「[場所ベースのルーティング用語](location-based-routing-terminology.md)」を参照してください。
+この記事で使用されているネットワーク用語の一部について理解するには、「 [Teams のクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)」を参照してください。
 
 ## <a name="apply-location-based-routing"></a>場所に基づくルーティングを適用する
 
@@ -72,7 +71,7 @@ ms.locfileid: "37570690"
 
 ### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>PSTN ゲートウェイで位置情報に基づくルーティングを適用する 
 
-ゲートウェイは、ユーザーが PSTN 通話を発信または受信したときに、位置情報に基づくルーティングが有効になっているユーザーがどこにあるかを判断するために、サイトに関連付けられています。 位置情報に基づくルーティングのゲートウェイは有効にしておく必要があります。これは、有料のバイパス制限の対象になっていて、位置情報に基づくルーティングが有効になっていないユーザーが使うことはできません。 同じゲートウェイを複数のサイトに関連付けることができます。また、サイトに応じて、位置情報に基づくルーティング用に有効にするように構成することもできます。 
+ゲートウェイは、ユーザーが PSTN 通話を発信または受信したときに、位置情報に基づくルーティングが有効になっているユーザーがどこにあるかを判断するために、サイトに関連付けられています。 位置情報に基づくルーティングのゲートウェイは有効にしておく必要があります。これは、有料のバイパス制限の対象になっていて、位置情報に基づくルーティングが有効になっていないユーザーが使うことはできません。 同じゲートウェイを複数のサイトに関連付けることができます。また、サイトに応じて、位置情報に基づくルーティング用に有効にするように構成することもできます。
 
 ## <a name="scenarios-for-location-based-routing"></a>場所に基づくルーティングのシナリオ
 
@@ -249,9 +248,11 @@ Teams web クライアントと Skype for Business クライアントはサポ�
 
 PSTN 通話の位置情報に基づくルーティングが有効になっているユーザーは、他のユーザーや PSTN 番号との会議を開始することはできません。 自動応答または通話キューへの接続は許可されています。 ユーザーが会議ライセンスを持っている場合は、ユーザーは関連ユーザーとの会議を開始して、電話会議を開始するために会議ブリッジ経由で PSTN に通話を発信する必要があります。  
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
+
 「[場所に基づくルーティングのネットワーク設定を構成](location-based-routing-configure-network-settings.md)する」を参照してください。
 
-### <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連項目
+
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
-- [場所に基づくルーティングの用語集](location-based-routing-terminology.md)
+- [Teams でのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)
