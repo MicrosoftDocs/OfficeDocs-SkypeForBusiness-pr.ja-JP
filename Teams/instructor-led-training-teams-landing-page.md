@@ -13,17 +13,17 @@ ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9983b61f28e4bfb37b0f6673503e3a982e40da5a
+ms.sourcegitcommit: 2557331f72bd0d8637c9f1b2a9606ca48a1c9954
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570726"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39621275"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams の講師主導のトレーニング</h1>
-Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネスの意思決定者、管理者、IT プロフェッショナル、エンド ユーザーの方には、最適なクラスが用意されています。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 自分の時間にトレーニング クラスを表示するには、<a href="https://aka.ms/TeamsOnDemand">オンデマンドのエンドユーザー トレーニング</a>をご覧ください。<br><br>以下のセッションをクリックしてサインアップしてください。
+Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 どこから始めたらいいのですか? 「<a href="https://aka.ms/TeamsKnowledgeCheck">Teams の理解度チェック</a>」を受けてください。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 自分の時間にトレーニング クラスを表示するには、<a href="https://aka.ms/TeamsOnDemand">オンデマンドのエンドユーザー トレーニング</a>をご覧ください。<br><br>以下のセッションをクリックしてサインアップしてください。
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
