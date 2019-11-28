@@ -24,21 +24,18 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Skype for Business および Microsoft Teams の Office 365 サービスは、日本で利用できます。
-ms.openlocfilehash: 47e86841f26ff5ac31cbffcf1965efc299007830
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8607d2d8df9bda17d725784413751e268ba7ec70
+ms.sourcegitcommit: 2fa1ac1c23804749fb1e16af3d6fb191f0f20784
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571694"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631977"
 ---
 # <a name="availability-in-japan"></a>日本での利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
 Skype for Business および Microsoft Teams の Office 365 サービスは、日本で利用できます。
-
-> [!IMPORTANT]
-> 日本国内での通話には、現時点ではいち早くの採用 (EA) のみが使用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
