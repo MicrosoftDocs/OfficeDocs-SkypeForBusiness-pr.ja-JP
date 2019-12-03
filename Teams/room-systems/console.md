@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams のルーム本体とその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
+ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675775"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39665440"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams 室コンソールを構成する
 
@@ -45,6 +45,9 @@ Microsoft Teams のルームコンソールアプリをインストールする�
 
 > [!NOTE]
 > 次のプロセスは、新しい Microsoft Teams 室のデバイスにイメージを追加するインストールメディアを作成することです。 既定では、既存のデバイスは、Windows Update と Windows ストアから自動的に更新されます。
+
+> [!IMPORTANT]
+> Microsoft Teams ルームの作成に使用される Windows 10 コンピューターは、ターゲットインストールメディアと同じバージョンまたはそれ以降のバージョンの Windows にインストールされている必要があります。
   
 1. メディアのロードスクリプトをダウンロードします[。](https://go.microsoft.com/fwlink/?linkid=867842)
 2. Windows 10 マシン上で管理者特権でのプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。

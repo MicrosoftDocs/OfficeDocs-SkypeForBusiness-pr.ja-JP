@@ -1,7 +1,7 @@
 ---
 title: XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する
-ms.author: serdars
-author: serdarsoysal
+ms.author: kenwith
+author: kenwith
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
-ms.openlocfilehash: 21f60c95c556e9fd006d378a0ff7b48dd0b1b6c2
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 35ca0898dbaa1309848f4725f21cd11bf9511752
+ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675765"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39669262"
 ---
 # <a name="content-cameras"></a>コンテンツ カメラ
 
