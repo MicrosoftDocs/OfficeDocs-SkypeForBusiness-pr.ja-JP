@@ -3,7 +3,6 @@ title: 新しい Microsoft Teams 管理センターへの移行中に Teams を�
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 3d856e0cb9792e4e83dad9daa3e0716ffd3981c8
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37564786"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679247"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
 ======================================================
@@ -57,7 +56,7 @@ ms.locfileid: "37564786"
 |Teams とチャネル     |         |AAD グループ管理にリダイレクトします (現在のエクスペリエンスと同じ)。             |ユーザー          |
 |アプリ|Enable new external apps by default (既定で新しい外部アプリを有効にする)|組織全体でのアプリの設定|テナント|
 |アプリ|外部アプリを許可する|組織全体でのアプリの設定|テナント|
-|アプリ|外部アプリのサイドローディングを許可する<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|ユーザー|
+|アプリ|外部アプリのサイドローディングを許可する<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|ユーザー|
 |アプリ|既定のアプリ<sup>3</sup>|TeamsAppPermissionPolicy|ユーザー|
 |アプリ|外部アプリ<sup>3</sup>|TeamsAppPermissionPolicy|ユーザー|
 |通話と会議     |プライベート会議のスケジュールを設定する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
@@ -66,7 +65,7 @@ ms.locfileid: "37564786"
 |通話と会議     |会議でのビデオの使用を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
 |通話と会議     |会議での画面共有を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
 |通話と会議     |プライベート通話を許可する         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |ユーザー          |
-|メッセージング      |ユーザーが会話に gif を追加できるように Giphy を有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|メッセージング      |ユーザーが会話に Gif を追加できるように Giphy を有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
 |メッセージング      |コンテンツの評価         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
 |メッセージング      |ユーザーが編集して会話に追加できるミームを有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
 |メッセージング      |ユーザーが編集して会話に追加できるステッカーを有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
@@ -79,7 +78,7 @@ ms.locfileid: "37564786"
 <br><br>
 <sup>2</sup>サイドローディングは、次のように分割されます。
 
-- [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)のユーザーレベルで管理できるアプリをユーザーがサイドローディングできるようにします。
+- [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)のユーザーレベルで管理できるアプリをユーザーがサイドローディングできるようにします。
 - テナントのユーザーが、組織全体のアプリ設定でテナントレベルで管理できるカスタムアプリを操作できるようにします。
  
 <sup>3 つ</sup>の既定のアプリと外部アプリは、TeamsAppPermissionPolicy のユーザーレベルで有効または無効にすることができます。 さらに、ユーザーとテナントレベルの設定を上書きする組織全体のアプリ設定で、テナントレベルでアプリをブロックすることができます。 
@@ -113,32 +112,3 @@ ms.locfileid: "37564786"
 ## <a name="manage-settings-after-the-migration"></a>移行後に設定を管理する
 
 これらの設定の移行が完了したら、Office 365 管理センターと Skype for Business 管理センターでそれらの設定を無効にし、新しい Microsoft Teams 管理センターで管理することができます。
-
-
-## <a name="edu-migration-june-july-2019"></a>EDU の移行: 2019 年6月
-
-2019年6月と7月以降、残りの EDU テナントは、以前の管理者エクスペリエンス (Microsoft 365 管理センター) から Teams 管理センターに移行されます。 (Microsoft 365 管理センターで) メッセージセンターを確認して、移行するタイミングを確認します。 移行後に表示されるものを次に示します。
-
-|Microsoft 365 管理センターの Teams のセクション  |設定名 (テナントレベル)  |Microsoft Teams 管理センターのポリシー   |Level: テナントまたはユーザー   |
-|---------|---------|---------|---------|  
-| メッセージング   |所有者が送信したメッセージを削除できる |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-| メッセージング  | 送信したメッセージを削除できるユーザー |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-| メッセージング   | 送信したメッセージをユーザーが編集できるようにする |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |ユーザー|
-| メッセージング  | ユーザのチャットを許可する |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-| メッセージング  | スレッドで Giphy を使用する | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-| メッセージング  | Giphy コンテンツの評価 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-| メッセージング  | 会話でミームを使う  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-| メッセージング  | 会話でステッカーを使用する |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-
-さらに、Microsoft Teams 管理センターでのみ使用できる設定を以下に示します。
-
-|設定名 | Microsoft Teams 管理センターのポリシー | Level: テナントまたはユーザー
-|-------------|-------------------------------------|---------|
-|URL プレビューを許可する | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-|グループチャットからユーザーを削除することをユーザーに許可する |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-|メッセージの表示にイマーシブリーダーを許可する |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| ユーザー |
-|ユーザーにメッセージの翻訳を許可する |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| ユーザー |
-|開封済みメッセージ | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-|ユーザーは優先度通知を送信できます | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | ユーザー |
-|音声メッセージの作成 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| ユーザー |
-|モバイルデバイスでは、最近のチャットの上にお気に入りのチャンネルを表示 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| ユーザー |

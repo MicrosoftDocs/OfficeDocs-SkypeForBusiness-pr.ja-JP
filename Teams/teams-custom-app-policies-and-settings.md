@@ -20,19 +20,19 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 9d700ae83dd62c8308e7a792acd2d97c999649fa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8a4d7b60485f9411faeb46f8745735039f4dd21b
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570247"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679317"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 
 > [!NOTE]
 > アプリ Studio を使うには、「 [C#/.NET とアプリ studio で Microsoft Teams プラットフォーム](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)の使用を開始する」を参照してください。最後の手順はまだ機能していないため、zip をダウンロードして、 [microsoft teams にアプリパッケージをアップロード](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)する前の方法でインストールする必要があります。
 
-管理者として、カスタムアプリポリシーと設定を使用して、組織内のユーザーが Microsoft Teams にカスタムアプリをアップロードできるユーザーを制御することができます。 管理者は、カスタムアプリをアップロードできるユーザーを決定し、管理者とチーム所有者は、組織内の特定のチームに対してカスタムアプリの追加を許可するかどうかを決定できます。  
+管理者として、カスタムアプリポリシーと設定を使用して、組織内のユーザーが Microsoft Teams にカスタムアプリをアップロードできるユーザーを制御することができます。 管理者は、カスタムアプリをアップロードできるユーザーを決定し、管理者とチーム所有者は、組織内の特定のチームに対してカスタムアプリの追加を許可するかどうかを決定できます。  カスタムアプリポリシーを編集した後は、変更が有効になるまで最大24時間かかることがあります。
 
 ## <a name="overview-of-custom-apps"></a>カスタムアプリの概要
 
@@ -103,7 +103,7 @@ ms.locfileid: "37570247"
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>組織全体のカスタムアプリ設定を構成する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**チームアプリ** > の**アクセス許可ポリシー**] に移動します。
+1. [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)の左のナビゲーションで、[**チームアプリ** > の**アクセス許可ポリシー**] に移動します。
 2. [**組織全体のアプリの設定**] をクリックします。
 3. [**カスタムアプリ**] で、[**カスタムアプリとの対話を許可する**] をオンまたはオフにします。
 

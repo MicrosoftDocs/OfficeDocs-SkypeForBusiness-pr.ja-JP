@@ -5,7 +5,7 @@ ms.author: chucked
 manager: serdars
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09b94f51c9d36f32eb83eb97d7cd15545d2ed4b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572049"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679307"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
 
-Microsoft Teams は、組織に最適な共同作業ツールです。 Office 365 の機能を使用して、ユーザーやチームがアイデアのディスカッション、導入、共有を行うことができます。 Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版を開始するための Microsoft Teams ライセンスを所有していない、組織内の既存の Office 365 ユーザーを対象にしています。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 
+Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版を開始するための Microsoft Teams ライセンスを所有していない、組織内の既存の Office 365 ユーザーを対象にしています。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 
 
 > [!IMPORTANT]
 > Microsoft Teams の商用クラウドの試用版は、Teams の機能を増やす追加のサービス プランを含む更新がされ、現在組織の請求管理者によって所有し管理されています。これは、試用をより管理しやすくし、その他の Microsoft 365 のすべての特典に一貫性を持たせることができます。 
