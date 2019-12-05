@@ -11,17 +11,16 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: PowerShell を使用して Teams でポリシーを設定し、組織内のライブ イベントを保持できるユーザーと、作成するイベントで使用可能な機能を制御する方法の例
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b92d52178f7b57b453eaaec010ded4731d166caf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: d9f96adcf4aa40b93b89b99013b9bc5ca466c25b
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243650"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "37570170"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する
 

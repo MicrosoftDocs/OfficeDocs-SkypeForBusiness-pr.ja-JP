@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Skype for Business Online および Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。
-ms.openlocfilehash: 41517a8995aadab9b490781089fd587c5c295544
-ms.sourcegitcommit: 45d35d0e7c00bda309e53fe331be2c8b264b60f6
-ms.translationtype: HT
+ms.openlocfilehash: 9fb644c938c61fd9dd1c78362ad90bfe855e97ec
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "36571909"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "37572181"
 ---
 # <a name="migrate-to-direct-routing"></a>ダイレクト ルーティングに移行する
 

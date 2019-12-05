@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: この記事では、ダイレクトルーティング用のメディアパスの国コードについて説明します。
-ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572214"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837569"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>ダイレクトルーティングメディアパスの国コード
 
@@ -46,7 +46,7 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | アメリカ領サモア  | も |
 | アンドラ         | AD |
 | アンゴラ          | AO |
-| アンギラ        | AL |
+| アンギラ        | AI |
 | 南極      | AQ | 
 | アンティグア バーブーダ | AG |
 | アルゼンチン       | AR |

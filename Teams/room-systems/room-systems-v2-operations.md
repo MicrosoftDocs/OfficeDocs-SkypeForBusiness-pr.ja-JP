@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: このトピックでは、次世代の Skype Room Systems である Microsoft Teams のルームの管理について説明します。
-ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675341"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842479"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams の会議室のメンテナンスと操作 
  
@@ -49,10 +49,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams の会議室のリセット (工場出荷時の復元)
 <a name="Reset"> </a>
 
-Microsoft Teams の会議室が正常に動作していない場合は、出荷時のリセットを実行してください。 この操作は、[**回復**] タブの [設定] アプリで行うことができます。 [**この PC のリセット**] で、[**作業の開始**] を選び、[**すべて削除**] を選びます。 残りの指示に従って、デバイスをリセットします。
-  
+Microsoft Teams の会議室が正常に動作していない場合は、出荷時のリセットを実行してください。 これを行うには、 [Microsoft Teams Room recovery ツール](recovery-tool.md)を使用して、出荷時の復元手順に従います。
+
 > [!NOTE]
-> **[自分のファイルを保持する] でアプリと設定を削除**した場合、Microsoft Teams の会議室が使用できなくなるという既知の問題がありますが、Windows のリセットプロセス中に個人用ファイルオプションが選択されたままになります。 このオプション_は使用しないでください。_
+> **[自分のファイルを保持する] でアプリと設定を削除**した場合、Microsoft Teams の会議室が使用できなくなるという既知の問題がありますが、Windows のリセットプロセス中に個人用ファイルオプションが選択されたままになります。 このオプション*は使用しないでください。*
   
 ## <a name="supported-remote-options"></a>サポートされるリモート オプション
 <a name="RemoteOptions"> </a>

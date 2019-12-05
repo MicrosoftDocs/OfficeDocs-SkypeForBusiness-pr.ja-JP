@@ -3,10 +3,9 @@ title: 仮想デスクトップ インフラストラクチャ用の Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/10/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi
+ms.reviewer: rafarhi, jmorrow
 audience: admin
 description: 仮想化されたデスクトップインフラストラクチャ (VDI) 環境で Microsoft Teams を実行する方法について説明します。
 localization_priority: Normal
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdac909139a225d622098df5d7df44516edac7bd
-ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
+ms.openlocfilehash: 4f7c0e0ab004c2146b8b93eb984b19d031cd2bb3
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39669245"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837586"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -29,219 +28,329 @@ ms.locfileid: "39669245"
 ## <a name="what-is-vdi"></a>VDI とは
 
 仮想デスクトップインフラストラクチャ (VDI) は、デスクトップオペレーティングシステムと、データセンターの中央サーバー上のアプリケーションをホストする仮想化テクノロジです。 これにより、完全にセキュリティが設定された一元的な中央集中ソースを持つユーザーに、完全にカスタマイズされたデスクトップエクスペリエンスを提供できます。
+ 
+仮想環境での Microsoft Teams はチャットと共同作業をサポートしており、Citrix プラットフォームでは、通話と会議機能もサポートされています。
 
-現時点では、仮想化された環境内の Teams は、専用の永続的仮想化マシン (VM) での共同作業とチャット機能のサポートによって提供されています。 最適なユーザーエクスペリエンスを実現するには、この記事のガイダンスに従ってください。
+仮想環境の Teams では、複数の構成がサポートされます。 これには、VDI、専用、共有、常設、非永続的モードが含まれます。 機能は継続的な開発中であり、定期的に追加されており、今後数ヶ月にわたって機能が拡張されます。
+ 
+仮想環境で Teams を使用する場合は、仮想化されていない環境での Teams の使用とは多少異なる場合があります。 たとえば、一部の高度な機能は仮想化された環境では使用できず、ビデオ解像度が異なる場合があります。 最適なユーザーエクスペリエンスを実現するには、この記事のガイダンスに従ってください。
 
-## <a name="teams-requirements"></a>Teams の要件
+## <a name="teams-on-vdi-components"></a>VDI コンポーネントの Teams
 
-### <a name="set-policies-to-turn-off-calling-and-meeting-functionality-in-teams"></a>チームの呼び出しと会議の機能を無効にするポリシーを設定する
+仮想環境で Teams を使用するには、次のコンポーネントが必要です。
 
-チームの通話と会議のエクスペリエンスは、VDI 環境 (近日公開) に合わせて最適化されていません。 チームの呼び出しと会議の機能を無効にするために、ユーザーレベルのポリシーを設定することをお勧めします。
+- **仮想ブローカー**: Azure などの仮想化プロバイダーへのリソースと接続マネージャー
+- **仮想デスクトップ**: Microsoft Teams を実行する仮想マシン (VM) スタック
+- **シンクライアント**: ユーザーが物理的にインターフェイスを使用するエンドポイント
+- **Teams デスクトップアプリ**: これは teams デスクトップクライアントアプリです
 
-また、Teams デスクトップアプリまたは web アプリのいずれかを使用して、VDI で完全にチームを実行することもできます。 ただし、ユーザーエクスペリエンスが侵害されないようにポリシーを設定することをお勧めします。
-
-ポリシーの変更が反映されるまでには、多少時間がかかることがあります。 特定のアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。
-
-> [!NOTE]
-> 仮想デスクトップ環境で使用するためにチームの呼び出しと会議が最適化されている場合は、これらのポリシーを元に戻すことができます。また、ユーザーはチームを通常どおりに使用できるようになります。
-
-#### <a name="calling"></a>通話
-
-**Csteamのポリシー**コマンドレットを使用して、ユーザーがプライベートおよびグループチャットでの呼び出しと呼び出しのオプションを使用できるかどうかを制御します。 ポリシー設定と推奨値の一覧を次に示します。
-
-|ポリシー名  |説明 |推奨値  |
-|---------|---------|---------|
-|AllowCalling|相互運用機能呼び出し機能を制御します。 この機能を有効にすると、Skype for Business ユーザーは Teams ユーザーと1対1の通話を行うことができます。また、その逆も可能です。|Teams での Skype for Business ユーザーからの通話を防ぐには、False に設定します。|
-|AllowPrivateCalling| チームクライアントの左側のアプリバーで呼び出し元のアプリを使用できるかどうか、およびユーザーがプライベートチャットで通話とビデオ通話のオプションを表示するかどうかを制御します。 |[いいえ] に設定すると、チームの左側のアプリバーから呼び出し元アプリが削除され、プライベートチャットで通話とビデオ通話のオプションが削除されます。|
-
-#### <a name="create-and-assign-a-calling-policy"></a>通話ポリシーを作成して割り当てる
-
-1. 管理者として Windows PowerShell セッションを開始します。
-2. Skype オンラインコネクタに接続します。
-
-      ```powershell
-      # Set Office 365 User Name and Password
-      $username = "admin email address"
-      password = ConvertTo-SecureString "password" -AsPlainText -Force
-      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-      # Connect to Skype Online
-      Import-Module SkypeOnlineConnector
-      $sfboSession = New-CsOnlineSession -Credential $LiveCred
-      Import-PSSession $sfboSession
-      ```
-
-3. 通話ポリシーのオプションの一覧を表示します。
-
-      ```powershell
-      Get-CsTeamsCallingPolicy
-      ```
-
-4. すべての通話ポリシーが無効になっているビルトインポリシーオプションを探します。 次のように表示されます。
-
-        Identity                        : Tag:DisallowCalling
-        AllowCalling                    : False
-        AllowPrivateCalling             : False
-        AllowVoicemail                  : False
-        AllowCallGroups                 : False
-        AllowDelegation                 : False
-        AllowUserControl                : False
-        AllowCallForwardingToUser       : False
-        AllowCallForwardingToPhone      : False
-        PreventTollBypass               : False
-
-5. 仮想化された環境で Teams を使用するすべてのユーザーに、DisallowCalling 組み込みポリシーオプションを適用します。
-
-      ```powershell
-      Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
-      ```
-
-Teams の通話ポリシーの詳細については、「 [Set-Csteamのポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。
-
-#### <a name="meetings"></a>会議
-
-**CsTeamsMeetingPolicy**コマンドレットを使用して、ユーザーが作成できる会議の種類、会議中にアクセスできる機能、匿名ユーザーと外部ユーザーが使用できる会議機能を制御します。 ポリシー設定と推奨値の一覧を次に示します。
-
-|ポリシー名 |説明|推奨値                   |
-|-------------------|-----------------|-----------------------|
-|AllowPrivateMeetingScheduling  | ユーザーがプライベート会議のスケジュールを許可されているかどうかを決定します。| ユーザーがプライベート会議をスケジュールできないようにするには、False に設定します。 |
-|Allowchannel会議のスケジュール  | ユーザーがチャネル会議のスケジュールを許可するかどうかを決定します。 | ユーザーがチャネル会議のスケジュールを設定できないようにするには、False に設定します。|
-|AllowMeetNow |ユーザーが臨時の会議の作成または開始を許可されているかどうかを決定します。 | ユーザーが臨時の会議を開始できないようにするには、False に設定します。 |
-|ScreenSharingMode | 通話または会議でユーザーが画面を共有できるモードを決定します。 | ユーザーが画面を共有することを禁止するには、[無効」に設定します。 |
-|AllowIPVideo |ユーザーの会議または通話でビデオが有効になっているかどうかを確認します。 | ユーザーがビデオを共有することを禁止するには、False に設定します。 |
-| AllowAnonymousUsersToDialOut | 匿名ユーザーが PSTN 番号へのダイヤルアウトを許可するかどうかを決定します。 | 匿名ユーザーによるダイヤルアウトを禁止するには、False に設定します。 |
-| AllowAnonymousUsersToStartMeeting | 匿名ユーザーが会議を開始できるかどうかを決定します。 | ユーザーが会議を開始することを禁止するには、False に設定します。 |
-| AllowOutlookAddIn |ユーザーが Outlook デスクトップクライアントで Teams 会議をスケジュールできるかどうかを決定します。 | ユーザーが Outlook デスクトップクライアントで Teams 会議のスケジュールを設定できないようにするには、False に設定します。 |
-| AllowParticipantGiveRequestControl|参加者が画面共有の制御を要求できるかどうかを決定します。| ユーザーが会議に参加して制御を要求することを禁止するには、False に設定します。 |
-| AllowExternalParticipantGiveRequestControl | 外部の参加者が画面共有を要求できるか、制御するかを指定します。 | 外部ユーザーによる会議の制御の要求を禁止するには、False に設定します。 |
-| AllowPowerPointSharing |ユーザーの会議で PowerPoint での共有が許可されているかどうかを決定します。 |ユーザーが会議で PowerPoint ファイルを共有することを禁止するには、False に設定します。 |
-| AllowWhiteboard | ユーザーの会議でホワイトボードが許可されているかどうかを決定します。 | 会議のホワイトボードを禁止するには、False に設定します。 |
-| AllowTranscription |ユーザーの会議で、リアルタイムまたはポスト会議のキャプションと表記を許可するかどうかを決定します。 | 会議の議事録とキャプションを禁止するには、False に設定します。 |
-| AllowSharedNotes | ユーザーが共有ノートを取ることを許可されているかどうかを決定します。 | ユーザーが共有ノートを取ることを禁止するには、False に設定します。 |
-| MediaBitRateKB |会議でのオーディオ/ビデオ/アプリ共有転送のメディアビットレートを決定します。 | 推奨される値は、5000 (5 MB) です。 組織のニーズに合わせて変更できます。 |
-
-#### <a name="create-and-assign-a-meeting-policy"></a>会議のポリシーを作成して割り当てる
-
-1. 管理者として Windows PowerShell セッションを開始します。
-1. Skype オンラインコネクタに接続します。
-
-      ```powershell
-      # Set Office 365 User Name and Password
-      $username = "admin email address"
-      password = ConvertTo-SecureString "password" -AsPlainText -Force
-      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-      # Connect to Skype Online
-      Import-Module SkypeOnlineConnector
-      $sfboSession = New-CsOnlineSession -Credential $LiveCred
-      Import-PSSession $sfboSession
-      ```
-
-1. 会議のポリシーオプションの一覧を表示する。
-
-      ```powershell
-      Get-CsTeamsMeetingPolicy
-      ```
-
-1. すべての会議ポリシーが無効になっている組み込みのポリシーオプションを探します。 次のように表示されます。
-
-        Identity                                    : Tag:AllOff
-        Description                                 :
-        AllowChannelMeetingScheduling               : False
-        AllowMeetNow                                : False
-        AllowIPVideo                                : False
-        AllowAnonymousUsersToDialOut                : False
-        AllowAnonymousUsersToStartMeeting           : False
-        AllowPrivateMeetingScheduling               : False
-        AutoAdmittedUsers                           : False
-        AllowCloudRecording                         : False
-        AllowOutlookAddIn                           : False
-        AllowPowerPointSharing                      : False
-        AllowParticipantGiveRequestControl          : False
-        AllowExternalParticipantGiveRequestControl  : False
-        AllowSharedNotes                            : False
-        AllowWhiteboard                             : False
-        AllowTranscription                          : False
-        MediaBitRateKb                              : False
-        ScreenSharingMode                           : False
-
-1. 仮想化された環境で Teams を使用するすべてのユーザーに、[割り当てる] と [ビルトインポリシー] オプションを適用します。
-
-      ```powershell
-      Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
-      ```
-
- Teams 会議ポリシーの詳細については、「 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
+## <a name="teams-on-vdi-requirements"></a>VDI の要件に関するチーム
 
 ### <a name="virtualization-provider-requirements"></a>仮想化プロバイダーの要件
 
-Teams アプリは、主要な仮想化ソリューションプロバイダーで検証されています。 市場プロバイダーが複数ある場合は、仮想化ソリューションプロバイダーに問い合わせて、最小要件を満たしていることを確認してください。
+Teams デスクトップアプリは、主要な仮想化ソリューションプロバイダーと共に検証されました。 市場プロバイダーが複数ある場合は、最小要件が満たされるように仮想化ソリューションプロバイダーに問い合わせることをお勧めします。
+  
+現時点では、音声/ビデオ (AV) 最適化による VDI 上の Teams は、Citrix で認定されています。 このセクションの情報を確認して、Citrix と Teams の両方の要件が適切に機能するようになっていることを確認します。
 
-### <a name="virtual-machine-requirements"></a>仮想マシンの要件
+### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix の仮想アプリとデスクトップの要件
 
-> [!NOTE]
-> 次の要件は、Teams デスクトップアプリと Teams Web アプリの両方に適用されます。
+Citrix の仮想アプリとデスクトップ (以前は XenApp と XenDesktop) は、VDI 上の Teams で AV の最適化を実現します。 Citrix の仮想アプリとデスクトップを使用すると、VDI 上の Teams では、チャットや共同作業に加えて、通話と会議機能がサポートされます。
 
-さまざまなワークロードとユーザーニーズが仮想化された環境では、次のような最小の VM 構成が推奨されます。
+[このページで](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)は、Citrix の仮想アプリとデスクトップの最新バージョンをダウンロードできます。 (最初にサインインする必要があります。)必要なコンポーネントは、既定で[Citrix Workspace アプリ (CWA)](https://www.citrix.com/downloads/workspace-app/)と仮想配信エージェント (VDA) にまとめられています。 CWA または VDA に追加のコンポーネントまたはプラグインをインストールする必要はありません。
 
-|パラメーター |指標 |
-|---------|---------|
-|vCPU | 2コア |
-|RAM | 4 GB |
-|ストレージ | 8 GB |
+最新のサーバーとクライアントの要件については、[この Citrix の web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
-### <a name="virtual-machine-operating-system-requirements"></a>仮想マシンのオペレーティングシステム要件
+## <a name="install-the-teams-desktop-app-on-vdi"></a>VDI に Teams デスクトップアプリをインストールする
 
-VM でサポートされているオペレーティングシステムは次のとおりです。
+MSI パッケージを使用してコンピューターごとのインストールまたはユーザーごとのインストールを使用して、VDI 用の Teams デスクトップアプリを展開することができます。 使用する方法を決定するのは、永続的なセットアップと非永続的な設定のどちらを使用するか、または組織に関連する機能のニーズによって異なります。
+専用の永続的なセットアップの場合、どちらのアプローチも機能します。  ただし、非永続的なセットアップでは、チームが効率的に作業するために、コンピューターごとにインストールする必要があります。 「[非永続的なセットアップ](#non-persistent-setup)」セクションを参照してください。
 
-- Windows 10 以降
-- Windows Server 2012 R2 以降
+コンピューター単位のインストールでは、自動更新が無効になっています。 つまり、Teams アプリを更新するには、現在のバージョンをアンインストールして、新しいバージョンに更新する必要があります。 ユーザーごとのインストールでは、自動更新が有効になっています。 ほとんどの VDI の展開では、コンピューターごとのインストールを使用してチームを展開することをお勧めします。
 
-## <a name="install-teams-on-vdi"></a>VDI に Teams をインストールする
+VDI 環境での Teams の AV 最適化を適切に機能させるには、シンクライアントエンドポイントがインターネットにアクセスできる必要があります。 インターネットアクセスがシンクライアントエンドポイントで利用できない場合、最適化の起動は成功しません。 これは、ユーザーが最適化されていないメディアの状態であることを意味します。
 
-Teams デスクトップアプリを展開するためのプロセスとツールを次に示します。
+#### <a name="dedicated-persistent-setup"></a>専用の永続的なセットアップ
 
-1. 環境に応じて、次のいずれかのリンクを使用して Teams MSI パッケージをダウンロードします。 64ビットのオペレーティングシステムを搭載した VDI VM の64ビットバージョンをお勧めします。
+専用の永続的なセットアップでは、ユーザーのローカルオペレーティングシステムに対する変更は、ユーザーがログオフした後も保持されます。  永続的なセットアップの場合、Teams はユーザーごととコンピューターごとの両方のインストールをサポートします。
+
+推奨される最小の VM 構成は次のとおりです。
+
+|パラメーター  |ワークステーションオペレーティングシステム  |サーバー操作システム  |
+|---------|---------|---------|
+|vCPU   |    2コア     |  4、6、または8<br>基になる non-uniform memory access (NUMA) 構成を理解し、それに応じて Vm を構成することが重要です。     |
+|RAM     |   4 GB      | 512 ~ 1024 MB (ユーザーあたり)        |
+|ストレージ    | 8 GB        | 40 ~ 60 GB        |
+
+#### <a name="non-persistent-setup"></a>非永続的なセットアップ
+
+非永続的なセットアップでは、ユーザーのローカルオペレーティングシステムによる変更は、ユーザーがログオフした後も保持されません。 このようなセットアップは、一般的に共有されているマルチユーザーセッションです。 VM 構成は、ユーザー数と利用可能な物理ボックスリソースによって異なります。
+
+非永続的なセットアップの場合、Teams デスクトップアプリはコンピューターごとにゴールデンイメージにインストールする必要があります。 詳細については、「 [VDI に Teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションを参照してください。 これにより、ユーザーセッション中に Teams アプリを効率的に起動することができます。 非永続的なセットアップで Teams を使用する場合も、効率的な Teams のランタイムデータ同期のためのプロファイルキャッシュマネージャーが必要です。これにより、適切なユーザー固有の情報 (ユーザーデータ、プロファイル、設定など) がユーザーセッション中にキャッシュされます。  さまざまなキャッシュマネージャーソリューションを利用できます。 たとえば、 [Fslogix](https://docs.microsoft.com/fslogix/overview)となります。 特定の構成手順については、キャッシュマネージャープロバイダーにお問い合わせください。
+
+##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>非永続的なセットアップ用の Teams キャッシュされたコンテンツ除外リスト
+
+[Teams のキャッシュ] フォルダーから次のものを除外します。% appdata%/チーム/teams  これらのヘルプを除外すると、ユーザーのキャッシュサイズが小さくなり、非永続的なセットアップがさらに最適化されます。
+
+- .txt ファイル
+- メディアスタックフォルダー
+
+### <a name="office-365-proplus-considerations"></a>Office 365 ProPlus の考慮事項
+
+Office 365 ProPlus で VDI に Teams を展開する場合は、次の点を考慮してください。
+
+#### <a name="new-deployments-of-teams-through-office-365-proplus"></a>Office 365 ProPlus を通じた Teams の新しい展開
+
+Office 365 ProPlus を通じてチームを展開する前に、コンピューターごとのインストールを使用して展開された既存の Teams アプリをアンインストールする必要があります。
+
+Office 365 ProPlus を通じた Teams は、ユーザーごとにインストールされます。 詳細については、「 [VDI に Teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションを参照してください。
+
+#### <a name="teams-deployments-through-office-365-proplus-updates"></a>Office 365 ProPlus の更新プログラムを通じた Teams の展開
+
+Teams は、Office 365 ProPlus の既存のインストールにも追加されています。 Office 365 ProPlus では、ユーザーごとにチームをインストールするため、「 [VDI に teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションを参照してください。
+
+#### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>コンピューターごとのインストールと Office 365 ProPlus で Teams を使用する
+
+Office 365 ProPlus では、各コンピューターの Teams のインストールをサポートしていません。 コンピューターごとのインストールを使用するには、Office 365 ProPlus から Teams を除外する必要があります。 「 [Teams デスクトップアプリを VM に展開](#deploy-the-teams-desktop-app-to-the-vm)する」と「 [Office 365 ProPlus セクションを通じてチームの展開を除外する方法](#how-to-exclude-teams-deployment-through-office-365-proplus)」を参照してください。
+
+#### <a name="how-to-exclude-teams-deployment-through-office-365-proplus"></a>Office 365 ProPlus を通じてチームの展開を除外する方法
+
+Teams と Office 365 ProPlus の詳細については、「 [office 365 ProPlus の新しいインストールからチームを除外する](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)」および「[グループポリシーを使って teams のインストールを制御](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)する」を参照してください。
+
+### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Teams デスクトップアプリを VM に展開する
+
+1. 次のリンクのいずれかを使用して、VDI VM オペレーティングシステムと一致する Teams MSI パッケージをダウンロードします。
 
     - [32ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
     - [64ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-1. MSI を VDI VM にインストールするには、次のコマンドを実行します (または完全な更新が必要です)。
+    必要な Teams デスクトップアプリの最小バージョンはバージョン1.2.00.31357 です。
 
-      ```
-      msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
-      ```
+2. 次のいずれかのコマンドを実行して、MSI を VDI VM にインストールします。
 
-    これにより、チームがプログラムファイルにインストールされます。 この時点で、ゴールデンイメージのセットアップが完了しています。
+    - ユーザーごとのインストール (既定)
+  
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        ```
+    
+        これは既定のインストールです。チームは、% AppData% ユーザーフォルダーにインストールされます。 この時点で、ゴールデンイメージのセットアップが完了しています。 ユーザー単位のインストールでは、非永続的なセットアップでは、チームは適切に動作しません。
+    
+    - マシン単位のインストール
 
-    次の対話型ログオンセッションでは、チームが起動し、資格情報を求められます。 ALLUSER プロパティを使用して VDI に Teams をインストールする場合、Teams の自動起動を無効にすることはできません。
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        ```
 
-1. 次のコマンドを実行して、MSI を VDI VM からアンインストールします (または、更新の準備を行います)。
+        これにより、チームは64ビットオペレーティングシステムの Program Files (x86) フォルダーと、32ビットオペレーティングシステムの Program Files フォルダーにインストールされます。 この時点で、ゴールデンイメージのセットアップが完了しています。 非永続的なセットアップでは、コンピューターごとにチームをインストールする必要があります。
+ 
+        次の対話型ログオンセッションでは、チームが起動し、資格情報を求められます。
 
+3. VDI VM から MSI をアンインストールする 
+
+    Teams をアンインストールするには、2つの方法があります。  
+  
+    - PowerShell スクリプト (推奨): この[PowerShell スクリプト](scripts/powershell-script-teams-deployment-clean-up.md)を使用して、ターゲットコンピューターまたはユーザーからチームをクリーンアップできます。 ターゲットコンピューター上のすべてのユーザーに対して実行する必要があります。 
+    
+    - コマンドライン: この方法ではチームが削除されますが、Teams の再インストールはできません。  
+    次のコマンドを実行します。
+  
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+      これにより、オペレーティングシステムの環境に応じて、Program Files (x86) フォルダーまたは Program Files フォルダーから Teams がアンインストールされます。
 
-    これにより、プログラムファイルから Teams がアンインストールします。
+## <a name="teams-on-vdi-performance-considerations"></a>VDI のパフォーマンスに関する考慮事項
+
+さまざまな仮想化設定構成があり、それぞれが最適化のために異なるフォーカスが設定されています。 たとえば、ユーザーの密度。 計画するときは、組織の作業負荷のニーズに合わせて、次の点を考慮してセットアップを最適化します。
+
+- 最小要件: 一部のワークロードでは、最小要件を超えるリソースを使用してセットアップを行う必要があります。 たとえば、より多くのコンピューティングリソースを必要とするアプリケーションを使用している開発者向けのワークロード。
+- 依存関係: チームデスクトップアプリ以外のインフラストラクチャ、作業負荷、その他の環境配慮への依存関係が含まれます。
+- VDI で無効になっている機能: Teams では、VDI による負荷の高い機能を無効にします。これにより、一時的な CPU 使用率の向上に役立ちます。 次の機能は無効になります。
+    - Teams CSS アニメーション
+    - Giphy 自動開始
+
+## <a name="teams-on-vdi-with-calling-and-meetings"></a>通話と会議を使った VDI 上の Teams
+
+チャットと共同作業に加えて、通話と会議のサポートを備えた VDI の Teams は、Citrix ベースのプラットフォームで利用できます。 サポートされている機能は、WebRTC メディアスタックと Citrix 固有の実装に基づいています。 次の図は、アーキテクチャの概要を示しています。
+
+![VDI アーキテクチャ上の Teams を示す図](media/teams-on-vdi-architecture.png)
+
+以下の通話および会議機能はサポートされていません。
+
+- 緊急電話サービスの強化
+- Teams アプリとデバイス間の HID ボタンと LED コントロール
+- 背景のぼかしと効果
+- ブロードキャスト/ライブイベント
+- 位置情報に基づくルーティング (LBR)
+- コール パーク
+- 通話キュー
+
+> [!IMPORTANT]
+> 現在、AV を最適化せずに team を VDI で実行していて、最適化のためにまだサポートされていない機能を使用している場合 (アプリの共有時に制御を許可する場合など)、[Teams] ポリシーを設定して Teams のリダイレクションを無効にする必要があります。 これは、Teams メディアセッションが最適化されないことを意味します。 Teams のリダイレクションを無効にするポリシーを設定する手順については、この[Citrix の web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)を参照してください。
+
+現時点では、VDI 以外の環境でのみ利用可能な通話と会議機能の追加に取り組んでいます。 これには、品質、追加の画面共有シナリオ、チームに最近追加された高度な機能など、より多くの管理者の制御が含まれる場合があります。 今後の機能の詳細については、チームの担当者にお問い合わせください。
+
+### <a name="network-requirements"></a>ネットワーク要件
+
+クラウドの全体的な音声とビデオの展開に影響を与える可能性のあるリスクと要件を特定するために、環境を評価することをお勧めします。 [Skype For Business ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を使用して、自分のネットワークが Teams に対応しているかどうかをテストします。
+
+Teams のネットワークを準備する方法について詳しくは、「 [teams 用に組織のネットワークを準備](prepare-network.md)する」をご覧ください。
+
+### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>Vdi での Skype for Business から VDI 上の Teams への移行
+
+Vdi での Skype for Business から VDI 上の Teams への移行を行っている場合、2つのアプリケーションの違いに加えて、VDI も実装するといくつかの違いがあります。 Skype for Business VDI で現在サポートされていない Teams VDI の機能には、次のような機能があります。
+
+- メディアのビットレートを制限するためのポリシーを使った VDI 通話エクスペリエンスの制御
+- VDI の一部の AV 機能を無効にするプラットフォームごとのポリシー
+- アプリ共有を行うときの制御
+- 音声なしのチャットからの画面共有
+- 同時にビデオと画面共有の送受信を行うことができる
+
+### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Chrome ブラウザーと VDI 用 Teams デスクトップアプリのチーム
+
+Chrome ブラウザーの teams では、AV の最適化を備えた VDI 用の Teams デスクトップアプリに代わる機能は提供されていません。 チャットと共同作業のエクスペリエンスは期待どおりに動作します。 メディアが必要な場合、Chrome ブラウザーでユーザーの期待を満たせない場合があります。
+
+- オーディオとビデオのストリーミングのエクスペリエンスが最適でないことがあります。 ユーザーには、遅延または品質の低下が発生する可能性があります。
+- [デバイスの設定] は [ブラウザーの設定] では利用できません。
+- デバイス管理はブラウザーで処理され、ブラウザーの [サイトの設定] では複数の設定が必要です。
+- デバイスの設定は、Windows デバイス管理でも設定する必要があります。
+
+## <a name="teams-on-vdi-with-chat-and-collaboration"></a>チャットと共同作業による VDI on Teams
+
+組織で Teams のチャット機能と共同作業機能のみを使用する場合は、ユーザーレベルのポリシーを設定して、Teams の呼び出しと会議の機能を無効にすることができます。 この機能レベルでは、Citrix 仮想アプリとデスクトップは必要ありません。
+
+### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>通話と会議の機能を無効にするポリシーを設定する
+
+ポリシーを設定するには、Microsoft Teams 管理センターまたは PowerShell を使用します。 ポリシーの変更が反映されるまでには、多少時間がかかることがあります。 特定のアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。
+
+[**通話ポリシー**](teams-calling-policy.md): Teams には組み込みの DisallowCalling 通話ポリシーが含まれており、すべての通話機能がオフになっています。 仮想化された環境で Teams を使用する組織内のすべてのユーザーに DisallowCalling ポリシーを割り当てます。
+
+[**会議ポリシー**](meeting-policies-in-teams.md): Teams には、すべての会議機能がオフになっている組み込みの "いいね!" の会議ポリシーが含まれています。 仮想化された環境で Teams を使用する組織内のすべてのユーザーに対して、割り当てられた Ff ポリシーを割り当てます。
+
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用してポリシーを割り当てる
+
+DisallowCalling の通話ポリシーと、割り当てられているユーザーに割り当てることができる会議ポリシーを割り当てるには、次の手順を実行します。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ユーザー**] に移動します。
+2. ユーザー名の左側をクリックしてユーザーを選び、[**設定の編集**] をクリックします。
+3. 次の手順を実行します。
+    1.  [**通話ポリシー**] で [ **DisallowCalling**] をクリックします。
+    2.  [**会議のポリシー**] で、[割り当てる]**をクリックし**ます。
+4. [**適用**] をクリックします。
+
+一度に複数のユーザーにポリシーを割り当てるには、「[チームのユーザー設定を一括](edit-user-settings-in-bulk.md)して編集する」を参照してください。
+
+または、次の操作も行うことができます。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、割り当てるポリシーに移動します。 次に例を示します。
+    - [**音声** > **通話のポリシー**] に移動し、[ **DisallowCalling**] をクリックします。
+    - [**会議** > の**ポリシー**] に移動して、[割り当てる**ff**] をクリックします。
+3. [**ユーザーの管理**] を選びます。
+4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。
+5. ユーザーの追加が完了したら、[**保存**] をクリックします。
+
+#### <a name="assign-policies-using-powershell"></a>PowerShell を使用してポリシーを割り当てる
+
+次の例は、 [Grant-CsteamDisallowCalling のポリシー](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)を使って、ユーザーにの呼び出しポリシーを割り当てる方法を示しています。
+
+```
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+```
+
+PowerShell を使用して通話ポリシーを管理する方法の詳細については、「 [Set-Csteam拡張性のポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)」をご覧ください。
+
+次の例は、CsTeamsMeetingPolicy を使用して、[グラント](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)ff 会議ポリシーをユーザーに割り当てる方法を示しています。
+
+```
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+```
+
+PowerShell を使用して会議のポリシーを管理する方法の詳細については、「 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
+
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>通話と会議を使って、VDI 上のチームをチャットとコラボレーションで Citrix に移行する
+
+ユーザーレベルのポリシーを設定して、通話と会議機能を無効にしている場合に、チャットと共同作業を行っている VDI 上の Teams の既存の実装がある場合、AV 最適化を有効にして Citrix に移行するには、ポリシーを設定する必要があります。VDI ユーザー向けのチームの会議機能。
+
+### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>通話と会議の機能を有効にするポリシーを設定する
+
+Microsoft Teams 管理センターまたは PowerShell を使用して、通話と会議のポリシーを設定し、ユーザーに割り当てることができます。 ポリシーの変更が反映されるまでには、多少時間がかかることがあります。 特定のアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。
+
+[**通話**](teams-calling-policy.md)ポリシー: Teams の通話ポリシーは、ユーザーが使用できる通話機能を制御します。 Teams には、組み込みの AllowCalling 通話ポリシーが含まれており、すべての通話機能が有効になっています。 すべての通話機能を有効にするには、AllowCalling ポリシーを割り当てます。 または、カスタム通話ポリシーを作成して、必要な通話機能を有効にし、ユーザーに割り当てます。 
+
+[**会議ポリシー**](meeting-policies-in-teams.md): Teams の会議ポリシーは、ユーザーが作成できる会議の種類と、組織内のユーザーによってスケジュールされている会議の参加者が使用できる機能を制御します。 Teams には、すべての会議機能が有効になっている組み込みのすべての会議のポリシーが含まれています。 すべての会議機能を有効にするには、[すべて] のポリシーを割り当てます。 または、カスタム会議ポリシーを作成して、必要な会議機能を有効にし、ユーザーに割り当てることができます。
+
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用してポリシーを割り当てる
+
+AllowCalling の通話ポリシーと [すべての会議] ポリシーをユーザーに割り当てるには、次の手順を実行します。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ユーザー**] に移動します。
+2. ユーザー名の左側をクリックしてユーザーを選び、[**設定の編集**] をクリックします。
+3. 次の手順を実行します。
+    1.  [**通話ポリシー**] で [ **allowcalling**] をクリックします。
+    2.  [**会議のポリシー**] で [**すべて**] をクリックします。
+4. [**適用**] をクリックします。
+
+一度に複数のユーザーにポリシーを割り当てるには、「[チームのユーザー設定を一括](edit-user-settings-in-bulk.md)して編集する」を参照してください。
+
+または、次の操作も行うことができます。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、割り当てるポリシーに移動します。 次に例を示します。
+    - [**音声** > **通話のポリシー**] に移動し、[ **allowcalling**] をクリックします。
+    - [**会議** > の**ポリシー**] に移動し、[**すべて**] をクリックします。
+3. [**ユーザーの管理**] を選びます。
+4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。
+5. ユーザーの追加が完了したら、[**保存**] をクリックします。
+
+#### <a name="assign-policies-using-powershell"></a>PowerShell を使用してポリシーを割り当てる
+
+次の例は、 [Grant-Csteam分解のポリシー](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)を使って、allowcalling 呼び出しポリシーをユーザーに割り当てる方法を示しています。
+
+```
+Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
+```
+
+PowerShell を使用して通話ポリシーを管理する方法の詳細については、「 [Set-Csteam拡張性のポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)」をご覧ください。
+
+次の例は、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)を使用して、すべての会議ポリシーをユーザーに割り当てる方法を示しています。
+
+```
+Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
+```
+
+PowerShell を使用して会議のポリシーを管理する方法の詳細については、「 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
 ## <a name="known-issues-and-limitations"></a>既知の問題と制限事項
 
-次に示すのは、VDI での Teams の既知の問題と制限です。
+### <a name="client-deployment-installation-and-setup"></a>クライアントの展開、インストール、セットアップ
 
-- **共有セッションホストの種類の展開**: 共有セッションホストの種類の展開 (たとえば、共有の非永続的な VM 構成) はスコープに含まれません。
-- **通話と会議**:
+- コンピューターごとにインストールする場合、vdi の Teams は非 VDI Teams クライアントとして自動的に更新されることはありません。 「 [VDI 上の Teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションの説明に従って、新しい MSI をインストールして VM イメージを更新する必要があります。 最新バージョンに更新するには、現在のバージョンをアンインストールする必要があります。
+- 現時点では、MacOs および Linux ベースのクライアントは Citrix でサポートされていません。
+- Citrix は、エンドポイントで定義された明示的な HTTP プロキシの使用をサポートしていません。 
 
-  - 通話と会議のシナリオは VDI 用に最適化されていません。 これらのシナリオでは、パフォーマンスが低下します。 「 [Teams での通話と会議の機能を無効にするポリシーを設定する](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams)」セクションの説明に従って、ユーザーレベルのポリシーを使用することをお勧めします。  
-  - この記事で説明されているポリシーを適用することは、他のポリシーによっては、組織内の他のユーザーに影響を与える可能性がある、通話と会議機能の使用に影響します。 組織内のユーザーが非 VDI クライアントを使用している場合は、ポリシーを適用しないことを選ぶことができます。  
+### <a name="calling-and-meetings"></a>通話と会議
 
-- **他のユーザーが作成した通話と会議への参加**: ポリシーでは、ユーザーが会議を作成することを制限していますが、他のユーザーが会議からダイヤルアウトした場合でも会議に参加できます。 この会議では、ユーザーのビデオ共有機能、ホワイトボードなどの機能は、TeamsMeetingPolicy を使用してこれらの機能を無効にしたかどうかによって異なります。
+- Skype for Business の相互運用性は音声通話に限定され、ビデオ表示には使用できません。
+- デュアルトーンマルチ周波数 (DTMF) テレフォニーシステムとの相互操作は、現在サポートされていません。
+- 匿名ユーザーとして Teams 会議に参加することは、AV-最適化されていません。 ユーザーは会議に参加し、最適化されていない操作を行うことができます。
+- 会議またはグループ通話でサポートされているビデオストリームは1つだけです。 複数のユーザーがビデオを送信する場合、常に表示されている主要なスピーカーのビデオのみが表示されます。  
+- 着信と発信のビデオストリームの解像度は720p の解像度に制限されています。 これは WebRTC の制限です。
+- 着信カメラまたは画面共有ストリームのビデオストリームは1つだけです。 受信画面共有が表示されている場合は、その画面共有が、優先スピーカーのビデオではなく、画面上に表示されます。
+- 送信画面の共有:
+    - アプリケーション共有はサポートされていません。
+- コントロールを用意して制御します。  
+    - 画面共有またはアプリケーション共有セッション中はサポートされません。
+    - PowerPoint 共有セッション中にサポートされます。  
+- CWA での高 DPI スケーリングはサポートされていません。
 
-- **キャッシュ**されたコンテンツ: Teams が実行されている仮想環境が永続的ではなく (各ユーザーセッションの終了時にデータがクリーンアップされる)、ユーザーは以前のセッションで同じコンテンツにアクセスしたかどうかに関係なく、コンテンツの更新によるパフォーマンスの低下が発生する可能性があります。
+VDI に関連していない Teams の既知の問題については、「 [teams の既知の問題](Known-issues.md)」を参照してください。
 
-- **クライアントの更新**: VDI 上の Teams は、コンピューター単位の MSI インストールによって自動的に更新されることはありません。 「 [VDI 上の Teams をインストール](#install-teams-on-vdi)する」セクションで説明されているように、新しい MSI をインストールして VM イメージを更新する必要があります。 最新バージョンに更新するには、現在のバージョンをアンインストールする必要があります。
+## <a name="troubleshooting"></a>トラブルシューティング
 
-- **ユーザーエクスペリエンス**: vdi 環境での Teams ユーザーエクスペリエンスは、非 VDI 環境とは異なる場合があります。 違いは、ポリシー設定や環境での機能のサポートが原因である可能性があります。
+#### <a name="troubleshoot-citrix-components"></a>Citrix コンポーネントのトラブルシューティング
 
-VDI に関連していない Teams の既知の問題については、「 [Microsoft teams の既知の問題](Known-issues.md)」を参照してください。
+VDA と CWA の問題を解決する方法については、[この Citrix の web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
 - [MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)
+- [Teams での PowerShell の概要](teams-powershell-overview.md)

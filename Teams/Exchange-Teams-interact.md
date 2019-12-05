@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eb64afd9e226b3e59e3444b0ed15d2463902c5e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 622a173985d68260b210d844052d3b08dc5b5b88
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564003"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842429"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -43,10 +43,10 @@ Exchange Online 専用 (レガシ) でホストされているユーザーは、
 
 | ユーザーのメールボックスのホスト先: | 電子情報開示| 法的な&nbsp;保全 | 保持| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|可|可|可|可|可|可|可|可|可|可|可|
-|**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|可|可|可|可|可|可|可|可|可|可|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|あり|なし|いいえ|はい|あり|いいえ|はい <sup>5|はい<sup>6|可|可|
-|**Exchange on-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|はい (Exchange 2016 CU3+)|はい|あり|いいえ|はい <sup>5|はい<sup>6|可|可|
+|**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+|**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|はい|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|あり|なし|いいえ|はい|Yes|いいえ|はい <sup>5|はい<sup>6|Yes|Yes|
+|**Exchange on-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|はい (Exchange 2016 CU3+)|はい|Yes|いいえ|はい <sup>5|はい<sup>6|Yes|Yes|
 
 <sup>1</sup> EXCHANGE 2016 cu3 以降で以上がサポートされています。  
 
@@ -79,7 +79,7 @@ Microsoft Teams では、さまざまな Office 365 サービスと連携して�
 >Exchange のオンプレミスとチームの統合の場合、必要なライセンスを AAD の同期されたユーザーに割り当てる必要があります。
 
 > [!IMPORTANT]
-> ユーザーを [**Teams のみ**] モードに移動した後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなります。 プレゼンスは Teams では正常に機能します。 対応策: Outlook (およびその他の Office アプリ) でプレゼンスを表示するには、teams**のみ**のモードで teams を実行している場合でも、Skype for business をインストールする必要があります。 Microsoft はこの問題を把握しており、現在修正に向けて取り組んでいます。
+> ユーザーを**チーム専用**モードに移行した後に Skype for business クライアントをアンインストールすると、Outlook やその他の Office アプリでプレゼンスが停止することがあります。 プレゼンスは Teams では正常に機能します。 この問題を解決するには、Microsoft Teams の右上隅にある自分のプロファイル写真を選択し、[**設定**] を選択します。 [**全般**] タブの [**アプリケーション**] で、[ **office のチャットアプリとして Teams を登録する (office アプリケーションの再起動が必要)**] を選択します。 このオプションを選択したら、Outlook を含むすべての Office アプリを閉じて、もう一度開きます。 Outlook を起動すると、プレゼンス情報を利用できるようになります。
 
 ## <a name="additional-considerations"></a>その他の考慮事項
 

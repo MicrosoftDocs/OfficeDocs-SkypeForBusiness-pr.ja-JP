@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015/2019 および Lync 2013 の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 86a08c798d04942dd517664bbfed0f67ba8ddc46
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: 6291ed94e4434bb96a441174cf2b69dae49852b0
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714133"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837509"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
@@ -30,6 +30,7 @@ KB 4470124 は、公開されたすべての累積的な更新プログラムと
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business Server 2019 累積更新プログラム2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年12月 |
 |Skype for Business Server 2019 累積更新プログラム1修正プログラム1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年9月 |
 |Skype for Business Server 2019 累積更新プログラム1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
 | | | |

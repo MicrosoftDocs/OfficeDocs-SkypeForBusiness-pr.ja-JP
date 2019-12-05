@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 自分がメンバーになっているチームの使用状況データをユーザーが表示するのに使用できる、Teams のチーム間分析およびチーム別分析について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc8796b3ddc0d34e11e89a57535d2ff7b7459366
-ms.sourcegitcommit: 8a74ea2e16bf263e37a2064e276a58b00911c17c
-ms.translationtype: HT
+ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "36978772"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "37569704"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Teams でチーム間およびチーム別分析を表示する
 

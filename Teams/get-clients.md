@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 112ded66b0edb3dd3bd2251663a1081cea8889b6
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 993b01e1ba362b6990c65f067ff2d63d921a1916
+ms.sourcegitcommit: 9d5a83dcb3d86f37cd7714ca92b197696681748b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209093"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831600"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -102,6 +102,11 @@ IT 管理者は、Teams の管理の展開を使用して、Jamf Pro などの�
 ### <a name="linux"></a>走ら
 
 ユーザーは、ネイティブの`.deb` Linux パッケージと`.rpm`形式をインストールできます。
+DEB または RPM パッケージをインストールすると、パッケージリポジトリが自動的にインストールされる
+- DEB`https://packages.microsoft.com/repos/ms-teams stable main`
+- RPM`https://packages.microsoft.com/yumrepos/ms-teams` 
+
+システムのパッケージマネージャーを使用した自動更新を有効にするための署名キーが自動的にインストールされます。 ただし、は (https://packages.microsoft.com/keys/microsoft.asc)) でも見つかります。 Microsoft Teams は毎月出荷され、リポジトリが正常にインストールされている場合は、システムパッケージマネージャーがシステム上の他のパッケージと同じ方法で自動更新を処理する必要があります。
 
 > [!NOTE] 
 > Linux クライアントの Teams は、限定されたプレビューで利用できます。 クライアント内から`Report a Problem` 、を使ってバグを送信します。 既知の問題については、「[既知の問題](Known-issues.md)」をご覧ください。
